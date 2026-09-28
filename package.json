@@ -1,0 +1,29 @@
+{
+  "name": "asadin-mythological-creatures",
+  "version": "1.0.0",
+  "description": "Mythics — Global Mythological Creatures & Legendary Beings Encyclopedia. Bilingual (Indonesian & English) discovery platform and research pipeline.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server/server.mjs",
+    "dev": "PORT=8095 HOST=127.0.0.1 LOG=1 node server/server.mjs",
+    "seed": "node scripts/seed.mjs",
+    "ingest": "node scripts/ingest-cli.mjs",
+    "check": "node scripts/check-data.mjs",
+    "test": "node tests/test-all.mjs"
+  },
+  "keywords": [
+    "mythology",
+    "folklore",
+    "creatures",
+    "indonesian-folklore",
+    "encyclopedia",
+    "bestiary",
+    "mythics"
+  ],
+  "author": "Asadin",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}

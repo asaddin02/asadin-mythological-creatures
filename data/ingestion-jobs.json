@@ -1,0 +1,42 @@
+[
+  {
+    "id": "job-1790579981488",
+    "entityName": "Valkyrie",
+    "status": "PUBLISHED",
+    "timestamp": "2026-09-28T07:19:43.782Z",
+    "durationMs": 2294,
+    "log": [
+      "[Discovery] Initiating multi-source research for \"Valkyrie\"",
+      "[Data Collection] Querying English Wikipedia REST API...",
+      "[Data Collection] Querying Indonesian Wikipedia REST API...",
+      "[Entity Resolution] Identified cultural sphere: norse-mythology (Europe)",
+      "[Classification] Assigned taxonomy category: deity",
+      "[Ability Extraction] Extracted 0 traits, 0 documented abilities",
+      "[Image Discovery] Querying Wikimedia Commons for verified assets...",
+      "[Image Check] Acquired 3 verified imagery records with provenance",
+      "[Quality Check] Content Completeness: 90%, Confidence: High",
+      "[Status] Entity prepared in state \"published\""
+    ],
+    "error": null
+  },
+  {
+    "id": "job-1790579957537",
+    "entityName": "Ahool",
+    "status": "REVIEW_REQUIRED",
+    "timestamp": "2026-09-28T07:19:20.010Z",
+    "durationMs": 2473,
+    "log": [
+      "[Discovery] Initiating multi-source research for \"Ahool\"",
+      "[Data Collection] Querying English Wikipedia REST API...",
+      "[Data Collection] Querying Indonesian Wikipedia REST API...",
+      "[Entity Resolution] Identified cultural sphere: indonesian-folklore (Southeast Asia)",
+      "[Classification] Assigned taxonomy category: monster",
+      "[Ability Extraction] Extracted 0 traits, 0 documented abilities",
+      "[Image Discovery] Querying Wikimedia Commons for verified assets...",
+      "[Image Check] Acquired 3 verified imagery records with provenance",
+      "[Quality Check] Content Completeness: 90%, Confidence: Medium",
+      "[Status] Entity prepared in state \"review_required\""
+    ],
+    "error": null
+  }
+]
