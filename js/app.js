@@ -53,7 +53,8 @@ class App {
           <div class="container">
             <div class="footer-grid">
               <div class="footer-brand">
-                <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+                <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+                  <img src="/assets/logo.png" alt="Mythics Logo" class="footer-logo-img">
                   <span style="font-family: var(--font-display); font-size: 1.4rem; font-weight: 800; color: var(--gold-500); letter-spacing: 0.15em;">MYTHICS</span>
                 </div>
                 <p class="footer-desc">${t('footer.aboutText')}</p>

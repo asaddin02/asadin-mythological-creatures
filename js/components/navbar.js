@@ -15,12 +15,7 @@ export function renderNavbar(container) {
       <div class="container">
         <nav class="navbar" aria-label="Main Navigation">
           <a href="#/" class="brand-link">
-            <svg class="brand-logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <circle cx="12" cy="12" r="9"/>
-              <path d="M12 3v18"/>
-              <path d="M3 12h18"/>
-              <circle cx="12" cy="12" r="3" fill="currentColor"/>
-            </svg>
+            <img src="/assets/logo.png" alt="Mythics Logo" class="brand-logo-img">
             <span class="brand-name">${t('nav.brand')}</span>
           </a>
 
