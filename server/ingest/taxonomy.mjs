@@ -191,6 +191,107 @@ export const CULTURES = {
   Polynesian: C('polynesian', 'Polynesian', 'Polinesia', 'group', 'oceania'),
   Māori: C('maori', 'Māori', 'Māori', 'ethnic', 'oceania', 'Polynesian'),
   Hawaiian: C('hawaiian', 'Hawaiian', 'Hawaii', 'ethnic', 'oceania', 'Polynesian'),
+  // ---- Additional traditions reachable through Wikidata statements
+  Russian: C('russian', 'Russian', 'Rusia', 'national', 'europe', 'Slavic'),
+  Ukrainian: C('ukrainian', 'Ukrainian', 'Ukraina', 'national', 'europe', 'Slavic'),
+  Czech: C('czech', 'Czech', 'Ceko', 'national', 'europe', 'Slavic'),
+  Serbian: C('serbian', 'Serbian', 'Serbia', 'national', 'europe', 'Slavic'),
+  Bulgarian: C('bulgarian', 'Bulgarian', 'Bulgaria', 'national', 'europe', 'Slavic'),
+  Croatian: C('croatian', 'Croatian', 'Kroasia', 'national', 'europe', 'Slavic'),
+  Slovak: C('slovak', 'Slovak', 'Slowakia', 'national', 'europe', 'Slavic'),
+  Swedish: C('swedish', 'Swedish', 'Swedia', 'national', 'europe', 'Scandinavian'),
+  Norwegian: C('norwegian', 'Norwegian', 'Norwegia', 'national', 'europe', 'Scandinavian'),
+  Icelandic: C('icelandic', 'Icelandic', 'Islandia', 'national', 'europe', 'Scandinavian'),
+  Faroese: C('faroese', 'Faroese', 'Faroe', 'ethnic', 'europe', 'Scandinavian'),
+  Lithuanian: C('lithuanian', 'Lithuanian', 'Lituania', 'national', 'europe', 'Baltic'),
+  Latvian: C('latvian', 'Latvian', 'Latvia', 'national', 'europe', 'Baltic'),
+  Sámi: C('sami', 'Sámi', 'Sámi', 'ethnic', 'europe', 'Finno-Ugric'),
+  Etruscan: C('etruscan', 'Etruscan', 'Etruska', 'historical', 'europe'),
+  Gaulish: C('gaulish', 'Gaulish', 'Galia', 'historical', 'europe', 'Celtic'),
+  'Anglo-Saxon': C('anglo-saxon', 'Anglo-Saxon', 'Anglo-Saxon', 'historical', 'europe', 'Germanic'),
+  Turkish: C('turkish', 'Turkish', 'Turki', 'national', 'central-asia', 'Turkic'),
+  Kazakh: C('kazakh', 'Kazakh', 'Kazakh', 'ethnic', 'central-asia', 'Turkic'),
+  Kyrgyz: C('kyrgyz', 'Kyrgyz', 'Kirgiz', 'ethnic', 'central-asia', 'Turkic'),
+  Tatar: C('tatar', 'Tatar', 'Tatar', 'ethnic', 'central-asia', 'Turkic'),
+  Circassian: C('circassian', 'Circassian', 'Sirkasia', 'ethnic', 'caucasus'),
+  Ossetian: C('ossetian', 'Ossetian', 'Ossetia', 'ethnic', 'caucasus'),
+  Kurdish: C('kurdish', 'Kurdish', 'Kurdi', 'ethnic', 'middle-east'),
+  Sumerian: C('sumerian', 'Sumerian', 'Sumeria', 'historical', 'middle-east', 'Mesopotamian'),
+  Akkadian: C('akkadian', 'Akkadian', 'Akkadia', 'historical', 'middle-east', 'Mesopotamian'),
+  Babylonian: C('babylonian', 'Babylonian', 'Babilonia', 'historical', 'middle-east', 'Mesopotamian'),
+  Assyrian: C('assyrian', 'Assyrian', 'Asyur', 'historical', 'middle-east', 'Mesopotamian'),
+  Canaanite: C('canaanite', 'Canaanite', 'Kanaan', 'historical', 'middle-east', 'ancient Near East'),
+  Phoenician: C('phoenician', 'Phoenician', 'Fenisia', 'historical', 'middle-east', 'ancient Near East'),
+  Arab: C('arabian', 'Arabian', 'Arab', 'ethnic', 'middle-east'),
+  Yoruba: C('yoruba', 'Yoruba', 'Yoruba', 'ethnic', 'africa', 'West African'),
+  Akan: C('akan', 'Akan', 'Akan', 'ethnic', 'africa', 'West African'),
+  Igbo: C('igbo', 'Igbo', 'Igbo', 'ethnic', 'africa', 'West African'),
+  Hausa: C('hausa', 'Hausa', 'Hausa', 'ethnic', 'africa', 'West African'),
+  Berber: C('berber', 'Berber (Amazigh)', 'Berber (Amazigh)', 'ethnic', 'africa', 'North African'),
+  Malagasy: C('malagasy', 'Malagasy', 'Madagaskar', 'ethnic', 'africa'),
+  Ethiopian: C('ethiopian', 'Ethiopian', 'Etiopia', 'national', 'africa', 'East African'),
+  Taiwanese: C('taiwanese', 'Taiwanese', 'Taiwan', 'national', 'east-asia'),
+  Shinto: C('japanese', 'Japanese', 'Jepang', 'national', 'east-asia'),
+  Taoist: C('chinese', 'Chinese', 'Tionghoa', 'national', 'east-asia'),
+  Vedic: C('hindu', 'Hindu', 'Hindu', 'religious', 'south-asia'),
+  Jain: C('jain', 'Jain', 'Jain', 'religious', 'south-asia'),
+  Tamil: C('tamil', 'Tamil', 'Tamil', 'ethnic', 'south-asia'),
+  Bengali: C('bengali', 'Bengali', 'Bengali', 'ethnic', 'south-asia'),
+  Sinhalese: C('sinhalese', 'Sinhalese', 'Sinhala', 'ethnic', 'south-asia', 'Sri Lankan'),
+  Dayak: C('dayak', 'Dayak', 'Dayak', 'ethnic', 'southeast-asia', 'Indonesian'),
+  Batak: C('batak', 'Batak', 'Batak', 'ethnic', 'southeast-asia', 'Indonesian'),
+  Minangkabau: C('minangkabau', 'Minangkabau', 'Minangkabau', 'ethnic', 'southeast-asia', 'Indonesian'),
+  Bugis: C('bugis', 'Bugis', 'Bugis', 'ethnic', 'southeast-asia', 'Indonesian'),
+  Toraja: C('toraja', 'Toraja', 'Toraja', 'ethnic', 'southeast-asia', 'Indonesian'),
+  Visayan: C('visayan', 'Visayan', 'Visaya', 'ethnic', 'southeast-asia', 'Philippine'),
+  Tagalog: C('tagalog', 'Tagalog', 'Tagalog', 'ethnic', 'southeast-asia', 'Philippine'),
+  Khmer: C('cambodian', 'Cambodian', 'Kamboja', 'national', 'southeast-asia'),
+  Lao: C('laotian', 'Laotian', 'Laos', 'national', 'southeast-asia'),
+  Hmong: C('hmong', 'Hmong', 'Hmong', 'ethnic', 'southeast-asia'),
+  Inuit: C('inuit', 'Inuit', 'Inuit', 'ethnic', 'north-america', 'Native American'),
+  Algonquian: C('algonquian', 'Algonquian', 'Algonquian', 'group', 'north-america', 'Native American'),
+  Ojibwe: C('ojibwe', 'Ojibwe', 'Ojibwe', 'ethnic', 'north-america', 'Native American'),
+  Cherokee: C('cherokee', 'Cherokee', 'Cherokee', 'ethnic', 'north-america', 'Native American'),
+  Lakota: C('lakota', 'Lakota', 'Lakota', 'ethnic', 'north-america', 'Native American'),
+  Navajo: C('navajo', 'Navajo (Diné)', 'Navajo (Diné)', 'ethnic', 'north-america', 'Native American'),
+  Iroquois: C('iroquois', 'Iroquois (Haudenosaunee)', 'Iroquois (Haudenosaunee)', 'ethnic', 'north-america', 'Native American'),
+  Haida: C('haida', 'Haida', 'Haida', 'ethnic', 'north-america', 'Native American'),
+  Inca: C('inca', 'Inca', 'Inka', 'historical', 'south-america', 'Indigenous Andean'),
+  Muisca: C('muisca', 'Muisca', 'Muisca', 'historical', 'south-america', 'Indigenous South American'),
+  Taíno: C('taino', 'Taíno', 'Taíno', 'ethnic', 'central-america', 'Caribbean'),
+  Haitian: C('haitian', 'Haitian', 'Haiti', 'national', 'central-america', 'Caribbean'),
+  Jamaican: C('jamaican', 'Jamaican', 'Jamaika', 'national', 'central-america', 'Caribbean'),
+  'Puerto Rican': C('puerto-rican', 'Puerto Rican', 'Puerto Riko', 'national', 'central-america', 'Caribbean'),
+  Cuban: C('cuban', 'Cuban', 'Kuba', 'national', 'central-america', 'Caribbean'),
+  Trinidadian: C('trinidadian', 'Trinidadian', 'Trinidad', 'national', 'central-america', 'Caribbean'),
+  Argentine: C('argentine', 'Argentine', 'Argentina', 'national', 'south-america', 'Spanish-language South American'),
+  Chilean: C('chilean', 'Chilean', 'Chili', 'national', 'south-america', 'Spanish-language South American'),
+  Peruvian: C('peruvian', 'Peruvian', 'Peru', 'national', 'south-america', 'Spanish-language South American'),
+  Colombian: C('colombian', 'Colombian', 'Kolombia', 'national', 'south-america', 'Spanish-language South American'),
+  Venezuelan: C('venezuelan', 'Venezuelan', 'Venezuela', 'national', 'south-america', 'Spanish-language South American'),
+  Bolivian: C('bolivian', 'Bolivian', 'Bolivia', 'national', 'south-america', 'Spanish-language South American'),
+  Paraguayan: C('paraguayan', 'Paraguayan', 'Paraguay', 'national', 'south-america', 'Spanish-language South American'),
+  Guatemalan: C('guatemalan', 'Guatemalan', 'Guatemala', 'national', 'central-america', 'Spanish-language Mesoamerican'),
+  Honduran: C('honduran', 'Honduran', 'Honduras', 'national', 'central-america', 'Spanish-language Mesoamerican'),
+  Salvadoran: C('salvadoran', 'Salvadoran', 'El Salvador', 'national', 'central-america', 'Spanish-language Mesoamerican'),
+  Nicaraguan: C('nicaraguan', 'Nicaraguan', 'Nikaragua', 'national', 'central-america', 'Spanish-language Mesoamerican'),
+  'Costa Rican': C('costa-rican', 'Costa Rican', 'Kosta Rika', 'national', 'central-america', 'Spanish-language Mesoamerican'),
+  Panamanian: C('panamanian', 'Panamanian', 'Panama', 'national', 'central-america', 'Spanish-language Mesoamerican'),
+  Tongan: C('tongan', 'Tongan', 'Tonga', 'ethnic', 'oceania', 'Polynesian'),
+  Samoan: C('samoan', 'Samoan', 'Samoa', 'ethnic', 'oceania', 'Polynesian'),
+  Tahitian: C('tahitian', 'Tahitian', 'Tahiti', 'ethnic', 'oceania', 'Polynesian'),
+  Fijian: C('fijian', 'Fijian', 'Fiji', 'ethnic', 'oceania', 'Melanesian'),
+  Papuan: C('papuan', 'Papuan', 'Papua', 'ethnic', 'oceania', 'Melanesian'),
+  Micronesian: C('micronesian', 'Micronesian', 'Mikronesia', 'group', 'oceania'),
+  Bantu: C('bantu', 'Bantu (group)', 'Bantu (kelompok)', 'group', 'africa'),
+  Kongo: C('kongo', 'Kongo', 'Kongo', 'ethnic', 'africa', 'Central African'),
+  'West African Vodun': C('west-african', 'West African (regional group)', 'Afrika Barat (kelompok regional)', 'group', 'africa'),
+  Madurese: C('madurese', 'Madurese', 'Madura', 'ethnic', 'southeast-asia', 'Indonesian'),
+  Betawi: C('betawi', 'Betawi', 'Betawi', 'ethnic', 'southeast-asia', 'Indonesian'),
+  Acehnese: C('acehnese', 'Acehnese', 'Aceh', 'ethnic', 'southeast-asia', 'Indonesian'),
+  Jainism: C('jain', 'Jain', 'Jain', 'religious', 'south-asia'),
+  Taoism: C('chinese', 'Chinese', 'Tionghoa', 'national', 'east-asia'),
+  Zoroastrianism: C('zoroastrian', 'Zoroastrian', 'Zoroastrianisme', 'religious', 'middle-east', 'Persian'),
   // ---- Transregional religious / textual traditions (no forced region)
   Buddhist: C('buddhist', 'Buddhist', 'Buddha', 'religious', null),
   Buddhism: C('buddhist', 'Buddhist', 'Buddha', 'religious', null),
@@ -215,32 +316,41 @@ const CONTINENTS = {
 };
 
 const TYPE_SUFFIX =
-  '(?:legendary creatures|legendary creature|folkloric beings|ghosts|demons|dragons|giants|dwarves|creatures)';
+  '(?:legendary creatures|legendary creature|folkloric beings|ghosts|demons|dragons|giants|dwarves|creatures|gods|goddesses|deities|spirits|monsters|folklore|mythology|religion|legends)';
+const RELIGION_IN = /\bin (Buddhism|Hinduism|Islam|Christianity|Judaism|Jainism|Shinto|Taoism|Zoroastrianism)$/;
+
+const STRONG_SUFFIX = /^(.+?) (legendary creatures|legendary creature|folkloric beings|ghosts|demons|dragons|giants|dwarves|creatures|spirits|monsters)$/;
+const MEDIUM_SUFFIX = /^(.+?) (gods|goddesses|deities|folklore|mythology|religion|legends)$/;
 
 /**
- * Extract the tradition adjective from a category name.
- * @returns {{ culture: object|null, region: string|null, adjective: string|null }}
+ * Extract the tradition from a category name. Tries every pattern and keeps the first
+ * adjective that resolves to a known tradition (or, failing that, a continent).
+ * weight: 3 = creature-specific category ("Javanese ghosts"), 2 = tradition topic
+ * ("Balinese folklore", "Aztec gods"), 1 = loose association ("Birds in Buddhism").
+ * @returns {{ culture: object|null, region: string|null, adjective: string|null, weight: number }}
  */
 export function cultureFromCategory(categoryName) {
   const name = categoryName.replace(/^Category:/, '').trim();
-  let adjective = null;
+  const candidates = [];
+  let m = name.match(STRONG_SUFFIX);
+  if (m) candidates.push([m[1], 3]);
+  m = name.match(/^(?:Legendary creatures|Creatures|Monsters|Dragons|Demons|Giants|Serpents|Creatures described) (?:in|of|described in) (?:the )?(.+?)(?: mythology| folklore)?$/);
+  if (m) candidates.push([m[1], 3]);
+  m = name.match(MEDIUM_SUFFIX);
+  if (m) candidates.push([m[1], 2]);
+  m = name.match(/\bin (?:the )?(.+?) (?:mythology|folklore)$/);
+  if (m) candidates.push([m[1], 2]);
+  m = name.match(RELIGION_IN);
+  if (m) candidates.push([m[1], 1]);
+  if (CULTURES[name]) candidates.push([name, 2]);
 
-  let m = name.match(new RegExp(`^(.+?) ${TYPE_SUFFIX}$`));
-  if (m) adjective = m[1];
-  if (!adjective) {
-    m = name.match(/^(?:Legendary creatures|Creatures|Monsters|Dragons|Demons|Giants|Serpents|Creatures described) (?:in|of|described in) (?:the )?(.+?)(?: mythology| folklore)?$/);
-    if (m) adjective = m[1];
+  for (const [adjective, weight] of candidates) {
+    if (CULTURES[adjective]) return { culture: CULTURES[adjective], region: CULTURES[adjective].region ?? null, adjective, weight };
   }
-  if (!adjective) {
-    m = name.match(/\bin (?:the )?(.+?) (?:mythology|folklore)$/);
-    if (m) adjective = m[1];
+  for (const [adjective] of candidates) {
+    if (adjective in CONTINENTS) return { culture: null, region: CONTINENTS[adjective], adjective, weight: 0 };
   }
-  if (!adjective && CULTURES[name]) adjective = name; // e.g. "Yōkai", "Jinn"
-  if (!adjective) return { culture: null, region: null, adjective: null };
-
-  if (adjective in CONTINENTS) return { culture: null, region: CONTINENTS[adjective], adjective };
-  const culture = CULTURES[adjective] || null;
-  return { culture, region: culture?.region ?? null, adjective };
+  return { culture: null, region: null, adjective: null, weight: 0 };
 }
 
 /** Distinct culture records (dedup aliases like Hinduism/Hindu) keyed by slug. */
@@ -402,4 +512,107 @@ export function isExcludedByClasses(labels) {
   const lower = labels.map(l => String(l || '').toLowerCase().trim()).filter(Boolean);
   if (lower.some(l => STRONG_NON_BEING.has(l))) return true;
   return lower.length > 0 && lower.every(l => NON_BEING_EXACT.has(l));
+}
+
+
+/** Country / polity labels (Wikidata P495 etc.) → tradition key in CULTURES. */
+export const COUNTRY_TO_CULTURE = {
+  Indonesia: 'Indonesian', Malaysia: 'Malaysian', Philippines: 'Philippine', Thailand: 'Thai', Myanmar: 'Burmese',
+  Cambodia: 'Cambodian', Laos: 'Laotian', Vietnam: 'Vietnamese', China: 'Chinese', "People's Republic of China": 'Chinese',
+  Taiwan: 'Taiwanese', Japan: 'Japanese', Korea: 'Korean', 'South Korea': 'Korean', 'North Korea': 'Korean',
+  Mongolia: 'Mongolian', Tibet: 'Tibetan', India: 'Indian', Nepal: 'Nepalese', Bhutan: 'Bhutanese', Bangladesh: 'Bangladeshi',
+  Pakistan: 'Pakistani', 'Sri Lanka': 'Sri Lankan', Armenia: 'Armenian', Georgia: 'Georgian', Iran: 'Iranian', Persia: 'Persian',
+  Turkey: 'Turkish', Greece: 'Greek', 'Ancient Greece': 'Greek', Italy: 'Italian', 'Ancient Rome': 'Roman', 'Roman Empire': 'Roman',
+  France: 'French', Spain: 'Spanish', Portugal: 'Portuguese', Germany: 'German', Netherlands: 'Dutch', Denmark: 'Danish',
+  Norway: 'Norwegian', Sweden: 'Swedish', Iceland: 'Icelandic', 'Faroe Islands': 'Faroese', Finland: 'Finnish', Estonia: 'Estonian',
+  Hungary: 'Hungarian', Albania: 'Albanian', Romania: 'Romanian', Poland: 'Polish', Russia: 'Russian', Ukraine: 'Ukrainian',
+  'Czech Republic': 'Czech', Czechia: 'Czech', Serbia: 'Serbian', Bulgaria: 'Bulgarian', Croatia: 'Croatian', Slovakia: 'Slovak',
+  Lithuania: 'Lithuanian', Latvia: 'Latvian', Ireland: 'Irish', Scotland: 'Scottish', Wales: 'Welsh', England: 'English',
+  'United Kingdom': 'British', 'Isle of Man': 'Manx', Cornwall: 'Cornish', Brittany: 'Breton', 'Basque Country': 'Basque',
+  Catalonia: 'Catalan', Cantabria: 'Cantabrian', 'United States': 'American', 'United States of America': 'American',
+  Canada: 'Canadian', Mexico: 'Mexican', Brazil: 'Brazilian', Argentina: 'Argentine', Chile: 'Chilean', Peru: 'Peruvian',
+  Colombia: 'Colombian', Venezuela: 'Venezuelan', Bolivia: 'Bolivian', Paraguay: 'Paraguayan', Guatemala: 'Guatemalan',
+  Honduras: 'Honduran', 'El Salvador': 'Salvadoran', Nicaragua: 'Nicaraguan', 'Costa Rica': 'Costa Rican', Panama: 'Panamanian',
+  Haiti: 'Haitian', Jamaica: 'Jamaican', 'Puerto Rico': 'Puerto Rican', Cuba: 'Cuban', 'Trinidad and Tobago': 'Trinidadian',
+  Australia: 'Australian', 'New Zealand': 'New Zealand', Hawaii: 'Hawaiian', Tonga: 'Tongan', Samoa: 'Samoan', Fiji: 'Fijian',
+  'Papua New Guinea': 'Papuan', 'South Africa': 'South African', Egypt: 'Egyptian', 'Ancient Egypt': 'Egyptian',
+  Ethiopia: 'Ethiopian', Madagascar: 'Malagasy', Nigeria: 'West African', Ghana: 'West African', Benin: 'West African',
+  Mesopotamia: 'Mesopotamian', Sumer: 'Sumerian', Babylonia: 'Babylonian', Assyria: 'Assyrian', 'Aztec Empire': 'Aztec',
+  'Maya civilization': 'Maya', 'Inca Empire': 'Inca', 'Kazakhstan': 'Kazakh', Kyrgyzstan: 'Kyrgyz'
+};
+
+/**
+ * Tradition from a Wikidata item label such as "Norse mythology", "folklore of Indonesia" or "Japan".
+ * Returns a CULTURES entry or null.
+ */
+export function cultureFromWikidataLabel(label) {
+  if (!label) return null;
+  let m = label.match(/^(.+?) (?:mythology|folklore|religion|legends?|paganism|tradition|traditions|cosmology|demonology|legendarium)$/i);
+  if (m && CULTURES[m[1]]) return CULTURES[m[1]];
+  m = label.match(/^(?:folklore|mythology|culture|religion|legends) of (?:the )?(.+)$/i);
+  if (m && COUNTRY_TO_CULTURE[m[1]]) return CULTURES[COUNTRY_TO_CULTURE[m[1]]] || null;
+  if (COUNTRY_TO_CULTURE[label]) return CULTURES[COUNTRY_TO_CULTURE[label]] || null;
+  if (CULTURES[label] && CULTURES[label].kind === 'religious') return CULTURES[label];
+  return null;
+}
+
+const KIND_RANK = { historical: 0, ethnic: 1, religious: 2, national: 3, textual: 4, group: 5 };
+export function cultureRank(culture) {
+  return KIND_RANK[culture?.kind] ?? 9;
+}
+
+/** Wikidata label language(s) most likely to carry a tradition's own name form. */
+export const CULTURE_LANGUAGES = {
+  japanese: ['ja'], ainu: ['ain', 'ja'], okinawan: ['ryu', 'ja'], chinese: ['zh'], taiwanese: ['zh'], korean: ['ko'],
+  mongolian: ['mn'], tibetan: ['bo'], vietnamese: ['vi'], greek: ['el', 'grc'], roman: ['la'], norse: ['non', 'is'],
+  icelandic: ['is'], scandinavian: ['sv', 'no', 'da'], danish: ['da'], swedish: ['sv'], norwegian: ['nb', 'no'],
+  slavic: ['ru', 'uk', 'pl', 'cs'], russian: ['ru'], ukrainian: ['uk'], polish: ['pl'], czech: ['cs'], serbian: ['sr'],
+  bulgarian: ['bg'], croatian: ['hr'], slovak: ['sk'], arabian: ['ar'], islamic: ['ar'], persian: ['fa'], iranian: ['fa'],
+  zoroastrian: ['fa'], jewish: ['he'], hindu: ['sa', 'hi'], indian: ['hi', 'sa'], buddhist: ['sa', 'pi'], thai: ['th'],
+  burmese: ['my'], cambodian: ['km'], laotian: ['lo'], indonesian: ['id'], javanese: ['jv'], balinese: ['ban'],
+  sundanese: ['su'], malay: ['ms'], malaysian: ['ms'], philippine: ['tl'], tagalog: ['tl'], visayan: ['ceb'],
+  armenian: ['hy'], georgian: ['ka'], aztec: ['nah'], quechua: ['qu'], aymara: ['ay'], guarani: ['gn'], maori: ['mi'],
+  hawaiian: ['haw'], irish: ['ga'], welsh: ['cy'], scottish: ['gd'], manx: ['gv'], cornish: ['kw'], breton: ['br'],
+  basque: ['eu'], catalan: ['ca'], finnish: ['fi'], estonian: ['et'], hungarian: ['hu'], albanian: ['sq'], romanian: ['ro'],
+  german: ['de'], dutch: ['nl'], french: ['fr'], spanish: ['es'], italian: ['it'], portuguese: ['pt'], brazilian: ['pt'],
+  turkic: ['tr', 'kk', 'ky', 'tt', 'az'], turkish: ['tr'], kazakh: ['kk'], kyrgyz: ['ky'], tatar: ['tt'], zulu: ['zu'],
+  yoruba: ['yo'], egyptian: ['egy', 'ar'], mesopotamian: ['akk', 'sux'], sumerian: ['sux'], akkadian: ['akk'],
+  tamil: ['ta'], bengali: ['bn'], bangladeshi: ['bn'], nepalese: ['ne'], 'sri-lankan': ['si', 'ta'], sinhalese: ['si'],
+  meitei: ['mni'], lithuanian: ['lt'], latvian: ['lv'], sami: ['se'], malagasy: ['mg'], ethiopian: ['am'], kurdish: ['ku']
+};
+
+
+/** Indonesian Wikipedia category names ("Mitologi Jawa", "Hantu Indonesia") → tradition key. */
+const ID_PLACE_TO_CULTURE = {
+  Indonesia: 'Indonesian', Nusantara: 'Indonesian', Jawa: 'Javanese', Bali: 'Balinese', Sunda: 'Sundanese',
+  Melayu: 'Malay', Malaysia: 'Malaysian', Filipina: 'Philippine', Jepang: 'Japanese', Tiongkok: 'Chinese',
+  Tionghoa: 'Chinese', Korea: 'Korean', Yunani: 'Greek', Nordik: 'Norse', India: 'Indian', Hindu: 'Hindu',
+  Batak: 'Batak', Dayak: 'Dayak', Minangkabau: 'Minangkabau', Bugis: 'Bugis', Toraja: 'Toraja', Madura: 'Madurese',
+  Betawi: 'Betawi', Aceh: 'Acehnese', Thailand: 'Thai', Vietnam: 'Vietnamese', Mesir: 'Egyptian', Romawi: 'Roman'
+};
+const ID_CATEGORY = /^(?:Kategori:)?(?:Mitologi|Hantu|Cerita rakyat|Folklor|Legenda|Makhluk halus|Makhluk mitologi|Makhluk legendaris|Dewi|Dewa|Tokoh legendaris|Siluman) (.+)$/;
+
+export function cultureFromIdCategory(categoryName) {
+  const m = String(categoryName || '').match(ID_CATEGORY);
+  if (!m) return null;
+  const key = ID_PLACE_TO_CULTURE[m[1].trim()];
+  return key ? CULTURES[key] : null;
+}
+
+/** Indonesian Wikipedia type categories → classification id. */
+const ID_TYPE_CATEGORIES = [
+  [/^(?:Kategori:)?(Hantu|Makhluk halus)\b/i, 'spirit'],
+  [/^(?:Kategori:)?(Jin)\b/i, 'jinn'],
+  [/^(?:Kategori:)?(Setan|Iblis)\b/i, 'demon'],
+  [/^(?:Kategori:)?(Naga)\b/i, 'dragon'],
+  [/^(?:Kategori:)?(Raksasa)\b/i, 'giant'],
+  [/^(?:Kategori:)?(Dewa|Dewi)\b/i, 'deity'],
+  [/^(?:Kategori:)?(Peri)\b/i, 'fairy'],
+  [/^(?:Kategori:)?(Siluman)\b/i, 'shapeshifter'],
+  [/^(?:Kategori:)?(Makhluk mitologi|Makhluk legendaris|Makhluk legenda)\b/i, 'legendary-creature']
+];
+
+export function classifyIdCategory(categoryName) {
+  for (const [rx, id] of ID_TYPE_CATEGORIES) if (rx.test(categoryName)) return id;
+  return null;
 }

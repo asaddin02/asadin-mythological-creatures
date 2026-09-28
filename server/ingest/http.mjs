@@ -136,9 +136,9 @@ export async function fetchJson(url, opts = {}) {
     });
 
     if (result.data !== undefined) {
-      if (result.data?.error?.code === 'maxlag' && attempt < retries) {
+      if (result.data?.error?.code === 'maxlag' && attempt < retries + 4) {
         attempt++;
-        await sleep(5000 * attempt);
+        await sleep(5000 * Math.min(attempt, 6));
         continue;
       }
       if (result.data?.error) {
@@ -164,4 +164,35 @@ export function chunk(items, size) {
   const out = [];
   for (let i = 0; i < items.length; i += size) out.push(items.slice(i, i + size));
   return out;
+}
+
+const MEDIA_HOSTS = new Set(['upload.wikimedia.org', 'thumb.wikimedia.org']);
+
+/**
+ * HEAD-check a Wikimedia media URL (used by validation to prove images actually load).
+ * @returns {Promise<number>} HTTP status (0 on network error)
+ */
+export async function checkMediaUrl(rawUrl) {
+  let url;
+  try {
+    url = new URL(rawUrl);
+  } catch {
+    return 0;
+  }
+  if (url.protocol !== 'https:' || !MEDIA_HOSTS.has(url.hostname)) return 0;
+  return enqueue(url.hostname, async () => {
+    for (let attempt = 0; attempt < 3; attempt++) {
+      try {
+        const res = await fetch(url, { method: 'HEAD', redirect: 'follow', headers: { 'User-Agent': USER_AGENT } });
+        if (res.status === 429 || res.status >= 500) {
+          await sleep(2000 * (attempt + 1));
+          continue;
+        }
+        return res.status;
+      } catch {
+        await sleep(1000 * (attempt + 1));
+      }
+    }
+    return 0;
+  });
 }

@@ -41,7 +41,7 @@ export function rightsStatus(licenseShort, copyrighted) {
   if (/public domain|^pd\b|^pd-|cc0|no restrictions|no known copyright/.test(l) || String(copyrighted).toLowerCase() === 'false') {
     return 'PUBLIC_DOMAIN';
   }
-  if (/^cc[ -]by|^cc-by|gfdl|free art|^attribution|^ogl|open government|^fal\b/.test(l)) return 'OPEN_LICENSE';
+  if (/^cc[ -]by|^cc-by|gfdl|free art|^attribution|^ogl|open government|^fal\b|\bgpl\b|\blgpl\b|^mit\b|^bsd\b/.test(l)) return 'OPEN_LICENSE';
   return 'UNKNOWN';
 }
 
@@ -56,8 +56,9 @@ const TYPE_RULES = [
   ['SCULPTURE', /\bsculptures?\b|\bstatues?\b|\breliefs?\b|\bcarvings?\b|\bfigurines?\b|\bstatuettes?\b/i],
   ['PAINTING', /\bpaintings?\b|oil on canvas|\bfrescos?\b|\bmurals?\b/i],
   ['HISTORICAL_ILLUSTRATION', /\bwoodblock|ukiyo-e|\bwoodcuts?\b|\bengravings?\b|\betchings?\b|\blithograph|\billustrations?\b|\bdrawings?\b|\bprints\b/i],
-  ['ARTIFACT', /\bmasks?\b|\bartifacts?\b|\bartefacts?\b|archaeolog|\bpottery\b|\bamulets?\b|\bcoins?\b|\bseals\b|museum/i],
-  ['PHOTO', /\bphotographs?\b|\bphotos?\b/i]
+  ['ARTIFACT', /\bmasks?\b|\bartifacts?\b|\bartefacts?\b|archaeolog|\bpottery\b|\bamulets?\b|\bcoins?\b|\bseals\b|digital representation of 3D work|PD-Art-3D/i],
+  ['HISTORICAL_ARTWORK', /digital representation of 2D work|\bPD-Art\b|Google Art Project works/i],
+  ['PHOTO', /\bphotographs?\b|\bphotos?\b|\btaken with\b/i]
 ];
 
 /**
@@ -71,8 +72,9 @@ export function classifyImage({ categories, title, description, dateText }) {
     const hit = cats.find(c => rx.test(c)) || (rx.test(title || '') ? title : null) || (rx.test(description || '') ? 'file description' : null);
     if (!hit) continue;
     let finalType = type;
-    if ((type === 'PAINTING' || type === 'HISTORICAL_ILLUSTRATION') && year && year >= 1930) finalType = 'MODERN_ARTWORK';
-    if (type === 'HISTORICAL_ILLUSTRATION' && !year) finalType = 'HISTORICAL_ILLUSTRATION';
+    if (['PAINTING', 'HISTORICAL_ILLUSTRATION', 'HISTORICAL_ARTWORK'].includes(type) && year && year >= 1930) {
+      finalType = 'MODERN_ARTWORK';
+    }
     const where = cats.includes(hit) ? `Commons category "${hit}"` : hit === title ? 'file name' : 'file description';
     return { type: finalType, basis: `${where}${year ? `; dated ${year}` : ''}`, year };
   }
