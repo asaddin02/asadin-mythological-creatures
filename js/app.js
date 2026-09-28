@@ -9,6 +9,8 @@ import { renderHomeView } from './components/home-view.js';
 import { renderExploreView } from './components/explore.js';
 import { renderCreatureDetail } from './components/creature-detail.js';
 import { renderCulturesView } from './components/cultures-view.js';
+import { renderCultureDetailView } from './components/culture-detail-view.js';
+import { renderRegionsView } from './components/regions-view.js';
 import { renderComparisonView } from './components/comparison.js';
 import { renderJournalView } from './components/journal.js';
 import { renderAdminDashboard } from './components/admin-dashboard.js';
@@ -130,6 +132,31 @@ class App {
     // Cultures Route: /cultures
     if (path === '/cultures') {
       await renderCulturesView(this.appContainer);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
+
+    // Culture Detail Route: /culture/:id
+    const cultureMatch = path.match(/^\/culture\/([a-zA-Z0-9_-]+)$/);
+    if (cultureMatch) {
+      const cultureId = cultureMatch[1];
+      await renderCultureDetailView(this.appContainer, cultureId);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
+
+    // Regions Route: /regions
+    if (path === '/regions') {
+      await renderRegionsView(this.appContainer);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
+
+    // Region Detail Route: /region/:id
+    const regionMatch = path.match(/^\/region\/([a-zA-Z0-9_-]+)$/);
+    if (regionMatch) {
+      const regId = regionMatch[1];
+      await renderExploreView(this.appContainer, { region: regId });
       window.scrollTo({ top: 0, behavior: 'smooth' });
       return;
     }

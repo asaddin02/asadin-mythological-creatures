@@ -7,6 +7,7 @@
  */
 
 import { calculatePowerProfile } from './power-engine.mjs';
+import { enrichCreatureSchema } from './schema-enricher.mjs';
 
 const USER_AGENT = 'MythicsEncyclopedia/1.0 (https://asadin.id/mythics; research@asadin.id) Node.js';
 
@@ -414,17 +415,19 @@ export async function researchEntity(entityName, options = {}) {
     updated_at: new Date().toISOString()
   };
 
-  // 8. Deterministic Power Profile
+  // 8. Deterministic Power Profile & Multi-Tier Schema Enrichment
   draft.power_profile = calculatePowerProfile(draft);
   draft.completeness_score = calculateCompleteness(draft);
   draft.confidence_score = calculateConfidence(draft);
+  
+  const finalizedDraft = enrichCreatureSchema(draft);
 
-  log.push(`[Quality Check] Content Completeness: ${draft.completeness_score}%, Confidence: ${draft.confidence_score}`);
-  log.push(`[Status] Entity prepared in state "${draft.status}"`);
+  log.push(`[Quality Check] Content Completeness: ${finalizedDraft.completeness_score}%, Confidence: ${finalizedDraft.confidence_score}, Tier: ${finalizedDraft.content_tier}`);
+  log.push(`[Status] Entity prepared in state "${finalizedDraft.status}"`);
 
   return {
     success: true,
     log,
-    draft
+    draft: finalizedDraft
   };
 }

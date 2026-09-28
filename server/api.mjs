@@ -10,6 +10,10 @@ import {
   getRandomCreature,
   compareCreatures,
   getCultures,
+  getCultureById,
+  getRegions,
+  getRegionById,
+  getRelationshipGraph,
   getCategories,
   getTraits,
   getAdminStats,
@@ -108,6 +112,43 @@ export async function handleApiRoute(req, res, url) {
   // GET /api/cultures
   if (pathname === '/api/cultures' && method === 'GET') {
     return sendJson(res, 200, getCultures());
+  }
+
+  // GET /api/cultures/:id
+  const cultureDetailMatch = pathname.match(/^\/api\/cultures\/([a-zA-Z0-9_-]+)$/);
+  if (cultureDetailMatch && method === 'GET') {
+    const culture = getCultureById(cultureDetailMatch[1]);
+    if (!culture) return sendError(res, 404, 'Culture tradition not found');
+    return sendJson(res, 200, culture);
+  }
+
+  // GET /api/regions
+  if (pathname === '/api/regions' && method === 'GET') {
+    return sendJson(res, 200, getRegions());
+  }
+
+  // GET /api/regions/:id
+  const regionMatch = pathname.match(/^\/api\/regions\/([a-zA-Z0-9_-]+)$/);
+  if (regionMatch && method === 'GET') {
+    const region = getRegionById(regionMatch[1]);
+    if (!region) return sendError(res, 404, 'Region not found');
+    return sendJson(res, 200, region);
+  }
+
+  // GET /api/graph/:slug
+  const graphMatch = pathname.match(/^\/api\/graph\/([a-zA-Z0-9_-]+)$/);
+  if (graphMatch && method === 'GET') {
+    const graph = getRelationshipGraph(graphMatch[1]);
+    if (!graph) return sendError(res, 404, 'Creature relationship graph not found');
+    return sendJson(res, 200, graph);
+  }
+
+  // GET /api/claims/:slug
+  const claimsMatch = pathname.match(/^\/api\/claims\/([a-zA-Z0-9_-]+)$/);
+  if (claimsMatch && method === 'GET') {
+    const creature = getCreatureBySlug(claimsMatch[1]);
+    if (!creature) return sendError(res, 404, 'Creature not found');
+    return sendJson(res, 200, creature.claims_provenance || []);
   }
 
   // GET /api/categories

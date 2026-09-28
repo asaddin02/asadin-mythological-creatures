@@ -9,6 +9,7 @@ import { writeFile, readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { calculatePowerProfile } from '../server/power-engine.mjs';
+import { enrichCreatureSchema } from '../server/schema-enricher.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -1874,13 +1875,13 @@ const RAW_CREATURES = [
 async function seed() {
   console.log('Seeding Mythics database...');
   
-  // Calculate power profile for each creature deterministically
+  // Calculate power profile & enrich schema with claims provenance, ability matrix, and relations
   const processedCreatures = RAW_CREATURES.map(creature => {
     const powerProfile = calculatePowerProfile(creature);
-    return {
+    return enrichCreatureSchema({
       ...creature,
       power_profile: powerProfile
-    };
+    });
   });
 
   // Write creatures database

@@ -64,6 +64,31 @@ export const api = {
     return await getJson('/api/cultures', 60000);
   },
 
+  // Get single culture detail with creatures
+  async getCultureDetail(id) {
+    return await getJson(`/api/cultures/${encodeURIComponent(id)}`, 60000);
+  },
+
+  // Get macro-regions
+  async getRegions() {
+    return await getJson('/api/regions', 60000);
+  },
+
+  // Get single region detail
+  async getRegion(id) {
+    return await getJson(`/api/regions/${encodeURIComponent(id)}`, 60000);
+  },
+
+  // Get relationship graph
+  async getRelationshipGraph(slug) {
+    return await getJson(`/api/graph/${encodeURIComponent(slug)}`, 30000);
+  },
+
+  // Get claim-level evidence
+  async getClaims(slug) {
+    return await getJson(`/api/claims/${encodeURIComponent(slug)}`, 30000);
+  },
+
   // Get categories
   async getCategories() {
     return await getJson('/api/categories', 60000);

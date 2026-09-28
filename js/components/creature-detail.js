@@ -1,12 +1,15 @@
 /**
  * CreatureDetail Component
  * Comprehensive, scholarly, and immersive archive page for an individual entity.
+ * Supports Multi-Tier Content (Core, Rich, Archive), Claim-level Provenance,
+ * Ability Matrix, Historical Timeline, Tradition vs Pop Culture, and Semantic Relationship Graph.
  */
 
 import { api } from '../api-client.js';
 import { t, resolveLocalized } from '../i18n.js';
 import { renderCreatureCard } from './creature-card.js';
 import { gamification } from './gamification.js';
+import { renderRelationshipGraph } from './relationship-graph.js';
 
 export async function renderCreatureDetail(container, slug) {
   container.innerHTML = `
@@ -34,25 +37,56 @@ export async function renderCreatureDetail(container, slug) {
     const imgUrl = primaryImg?.preview_url || primaryImg?.url || '/assets/placeholders/creature-fallback.svg';
     const isFav = gamification.isFavorite(creature.slug);
 
+    const tier = creature.content_tier || 'rich';
+    const tierLabel = tier === 'archive' ? 'Tier Arsip (Scholarly)' : tier === 'rich' ? 'Tier Kaya (Rich Lore)' : 'Tier Inti (Core)';
+
     const dimensions = creature.power_profile?.dimensions || {};
     const basisList = creature.power_profile?.calculated_basis || [];
     const disclaimer = resolveLocalized(creature.power_profile?.disclaimer, t('detail.powerDisclaimer'));
 
     const story = creature.story_mode || {};
+    const etymology = creature.etymology || null;
+    const timeline = creature.historical_timeline || [];
+    const popContrast = creature.pop_culture_contrast || null;
+    const abilityMatrix = creature.ability_matrix || [];
+    const weaknesses = creature.weaknesses_limitations || [];
+    const claims = creature.claims_provenance || [];
+    const stories = creature.associated_stories || [];
+    const places = creature.associated_places || [];
+    const variants = creature.variants || [];
+
+    function renderStatusBadge(status) {
+      if (status === 'strongly_documented') {
+        return `<span class="status-badge status-strongly-documented">✓ Terdokumentasi Primer</span>`;
+      }
+      if (status === 'documented') {
+        return `<span class="status-badge status-documented">✓ Terdokumentasi</span>`;
+      }
+      if (status === 'uncertain') {
+        return `<span class="status-badge status-uncertain">? Atribut Tak Pasti</span>`;
+      }
+      return `<span class="status-badge status-not-documented">— Tidak Terdokumentasi</span>`;
+    }
 
     container.innerHTML = `
       <div class="detail-view">
         <div class="container">
-          <!-- Breadcrumb -->
-          <nav class="detail-breadcrumb" aria-label="Breadcrumb">
-            <a href="#/">Mythics</a>
-            <span>/</span>
-            <a href="#/explore">Jelajah</a>
-            <span>/</span>
-            <a href="#/explore?culture=${creature.culture}">${creature.culture}</a>
-            <span>/</span>
-            <span style="color: var(--text-primary); font-weight: 600;">${creature.canonical_name}</span>
-          </nav>
+          <!-- Breadcrumb & Tier Badge -->
+          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem;">
+            <nav class="detail-breadcrumb" style="margin-bottom: 0;" aria-label="Breadcrumb">
+              <a href="#/">Mythics</a>
+              <span>/</span>
+              <a href="#/explore">Jelajah</a>
+              <span>/</span>
+              <a href="#/culture/${creature.culture}">${creature.culture}</a>
+              <span>/</span>
+              <span style="color: var(--text-primary); font-weight: 600;">${creature.canonical_name}</span>
+            </nav>
+            <span class="tier-badge tier-${tier}">
+              <span>📜</span>
+              <span>${tierLabel}</span>
+            </span>
+          </div>
 
           <!-- Detail Hero (2 Columns) -->
           <div class="detail-hero-grid">
@@ -79,7 +113,7 @@ export async function renderCreatureDetail(container, slug) {
             <!-- Right: Metadata & Specs -->
             <div class="detail-header-content">
               <div class="detail-badge-strip">
-                <span class="badge badge-culture">${creature.culture}</span>
+                <a href="#/culture/${creature.culture}" class="badge badge-culture" style="text-decoration: none;">${creature.culture}</a>
                 <span class="badge badge-classification">${creature.classification}</span>
                 <span class="badge" style="background: var(--bg-tertiary);">${creature.region}</span>
               </div>
@@ -159,6 +193,45 @@ export async function renderCreatureDetail(container, slug) {
             </div>
           ` : ''}
 
+          <!-- Etymology & Original Form Block -->
+          ${etymology ? `
+            <div class="detail-section-block">
+              <h2 class="detail-block-title">
+                <span>🔤</span>
+                <span>${t('detail.etymology')}</span>
+              </h2>
+              <div class="etymology-panel">
+                <div class="etymology-grid">
+                  <div class="etymology-item">
+                    <span class="etymology-label">Bentuk Tulisan Asli</span>
+                    <span class="etymology-val" style="color: var(--gold-500); font-family: var(--font-display); font-size: 1.25rem;">
+                      ${etymology.original_form || creature.original_name || creature.canonical_name}
+                    </span>
+                  </div>
+                  <div class="etymology-item">
+                    <span class="etymology-label">Bahasa Sumber</span>
+                    <span class="etymology-val">${etymology.language || 'Bahasa Klasik'}</span>
+                  </div>
+                  <div class="etymology-item">
+                    <span class="etymology-label">Makna Harfiah (Literal)</span>
+                    <span class="etymology-val">${etymology.literal_meaning || 'Tidak terdokumentasi'}</span>
+                  </div>
+                  <div class="etymology-item">
+                    <span class="etymology-label">Pelafalan / Transliterasi</span>
+                    <span class="etymology-val" style="font-family: var(--font-mono); font-size: 0.95rem;">
+                      ${etymology.pronunciation || creature.canonical_name}
+                    </span>
+                  </div>
+                </div>
+                ${etymology.root_origin ? `
+                  <div style="margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle); font-size: 0.88rem; color: var(--text-secondary);">
+                    <strong>Akar Linguistik:</strong> ${etymology.root_origin}
+                  </div>
+                ` : ''}
+              </div>
+            </div>
+          ` : ''}
+
           <!-- Detailed Lore Block -->
           <div class="detail-section-block">
             <h2 class="detail-block-title">
@@ -170,7 +243,7 @@ export async function renderCreatureDetail(container, slug) {
             </div>
           </div>
 
-          <!-- Cultural Context & Modern Distinction Block -->
+          <!-- Cultural Context & Sacred Nuance Block -->
           ${culturalContext ? `
             <div class="detail-section-block">
               <h2 class="detail-block-title">
@@ -179,6 +252,42 @@ export async function renderCreatureDetail(container, slug) {
               </h2>
               <div class="detail-prose-text" style="border-left: 3px solid var(--accent-cyan);">
                 <p>${culturalContext}</p>
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- Ability Matrix Panel -->
+          ${abilityMatrix && abilityMatrix.length > 0 ? `
+            <div class="detail-section-block">
+              <h2 class="detail-block-title">
+                <span>📊</span>
+                <span>${t('detail.abilityMatrix')}</span>
+              </h2>
+              <div class="ability-matrix-panel">
+                <table class="ability-matrix-table">
+                  <thead>
+                    <tr>
+                      <th>Kemampuan / Atribut Taksonomi</th>
+                      <th>Status Pembuktian Tradisi</th>
+                      <th>Catatan Bukti & Sumber Klaim</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${abilityMatrix.map(ab => `
+                      <tr>
+                        <td style="font-weight: 600; color: var(--text-primary);">
+                          ${resolveLocalized(ab.name)}
+                        </td>
+                        <td>
+                          ${renderStatusBadge(ab.status)}
+                        </td>
+                        <td style="font-size: 0.85rem; color: var(--text-secondary);">
+                          ${resolveLocalized(ab.evidence_note)}
+                        </td>
+                      </tr>
+                    `).join('')}
+                  </tbody>
+                </table>
               </div>
             </div>
           ` : ''}
@@ -199,6 +308,30 @@ export async function renderCreatureDetail(container, slug) {
                     </div>
                     <p class="ability-desc">${resolveLocalized(ab.description)}</p>
                     ${ab.source_title ? `<div class="ability-source-tag">Rujukan: ${ab.source_title}</div>` : ''}
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- Weaknesses & Constraints -->
+          ${weaknesses && weaknesses.length > 0 ? `
+            <div class="detail-section-block">
+              <h2 class="detail-block-title">
+                <span>🛡️</span>
+                <span>${t('detail.weaknesses')}</span>
+              </h2>
+              <div class="abilities-grid">
+                ${weaknesses.map(w => `
+                  <div class="ability-card" style="border-left: 3px solid var(--accent-amber);">
+                    <div class="ability-header">
+                      <h3 class="ability-name">${resolveLocalized(w.name)}</h3>
+                      <span class="badge" style="background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); font-size: 0.72rem;">
+                        ${w.evidence_level || 'Tradisi Asli'}
+                      </span>
+                    </div>
+                    <p class="ability-desc">${resolveLocalized(w.description)}</p>
+                    ${w.source_title ? `<div class="ability-source-tag">Sumber: ${w.source_title}</div>` : ''}
                   </div>
                 `).join('')}
               </div>
@@ -239,15 +372,198 @@ export async function renderCreatureDetail(container, slug) {
             </div>
           </div>
 
+          <!-- Historical Timeline & Earliest Attestation -->
+          ${timeline && timeline.length > 0 ? `
+            <div class="detail-section-block">
+              <h2 class="detail-block-title">
+                <span>⏳</span>
+                <span>${t('detail.historicalTimeline')}</span>
+              </h2>
+              <div class="timeline-stream">
+                ${timeline.map(node => `
+                  <div class="timeline-node">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-node-header">
+                      <span class="timeline-period-badge">${node.period}</span>
+                      ${node.earliest_attestation ? `
+                        <span class="timeline-earliest-badge">⭐ Bukti Tertua Terdokumentasi</span>
+                      ` : ''}
+                    </div>
+                    <h3 class="timeline-node-title">${resolveLocalized(node.title)}</h3>
+                    <p class="timeline-node-desc">${resolveLocalized(node.description)}</p>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- Tradition vs Pop Culture -->
+          ${popContrast ? `
+            <div class="detail-section-block">
+              <h2 class="detail-block-title">
+                <span>🎭</span>
+                <span>${t('detail.popCulture')}</span>
+              </h2>
+              <div class="contrast-panel">
+                <div class="contrast-summaries-grid">
+                  <div class="contrast-box tradition">
+                    <div class="contrast-box-title">🏛️ Esensi Tradisi Asli</div>
+                    <p style="font-size: 0.92rem; color: var(--text-primary); line-height: 1.6;">
+                      ${resolveLocalized(popContrast.traditional_summary)}
+                    </p>
+                  </div>
+                  <div class="contrast-box modern">
+                    <div class="contrast-box-title">🎬 Penggambaran Budaya Pop Modern</div>
+                    <p style="font-size: 0.92rem; color: var(--text-primary); line-height: 1.6;">
+                      ${resolveLocalized(popContrast.modern_depiction)}
+                    </p>
+                  </div>
+                </div>
+
+                ${popContrast.major_differences && popContrast.major_differences.length > 0 ? `
+                  <table class="diff-table">
+                    <thead>
+                      <tr>
+                        <th style="width: 25%;">Aspek Pembanding</th>
+                        <th style="width: 37.5%; color: var(--gold-500);">Tradisi Asli / Historis</th>
+                        <th style="width: 37.5%; color: var(--accent-cyan);">Media Populer / Fiksi Modern</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      ${popContrast.major_differences.map(diff => `
+                        <tr>
+                          <td style="font-weight: 600; color: var(--text-primary);">${resolveLocalized(diff.aspect)}</td>
+                          <td style="color: var(--text-secondary);">${resolveLocalized(diff.tradition)}</td>
+                          <td style="color: var(--text-secondary);">${resolveLocalized(diff.modern)}</td>
+                        </tr>
+                      `).join('')}
+                    </tbody>
+                  </table>
+                ` : ''}
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- Associated Stories & Sacred Places -->
+          ${stories && stories.length > 0 ? `
+            <div class="detail-section-block">
+              <h2 class="detail-block-title">
+                <span>📖</span>
+                <span>${t('detail.associatedStories')}</span>
+              </h2>
+              <div class="stories-grid">
+                ${stories.map(st => `
+                  <div class="archive-card">
+                    <span class="archive-card-sub">${resolveLocalized(st.role)}</span>
+                    <h3 class="archive-card-title">${resolveLocalized(st.title)}</h3>
+                    <p class="archive-card-desc">${resolveLocalized(st.summary)}</p>
+                    ${st.source_ref ? `<div style="font-size: 0.75rem; color: var(--text-muted); margin-top: auto;">Rujukan: ${st.source_ref}</div>` : ''}
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          ` : ''}
+
+          ${places && places.length > 0 ? `
+            <div class="detail-section-block">
+              <h2 class="detail-block-title">
+                <span>🏔️</span>
+                <span>${t('detail.associatedPlaces')}</span>
+              </h2>
+              <div class="places-grid">
+                ${places.map(pl => `
+                  <div class="archive-card" style="border-left: 3px solid var(--accent-cyan);">
+                    <span class="archive-card-sub">${pl.type}</span>
+                    <h3 class="archive-card-title">${resolveLocalized(pl.name)}</h3>
+                    <p class="archive-card-desc">${resolveLocalized(pl.description)}</p>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- Traditional & Regional Variants -->
+          ${variants && variants.length > 0 ? `
+            <div class="detail-section-block">
+              <h2 class="detail-block-title">
+                <span>🗺️</span>
+                <span>${t('detail.variants')}</span>
+              </h2>
+              <div class="variants-grid">
+                ${variants.map(v => `
+                  <div class="archive-card">
+                    <span class="archive-card-sub">${resolveLocalized(v.region_or_tradition)}</span>
+                    <h3 class="archive-card-title">${v.name}</h3>
+                    <p class="archive-card-desc">${resolveLocalized(v.description)}</p>
+                    ${v.source_title ? `<div style="font-size: 0.75rem; color: var(--text-muted); margin-top: auto;">Sumber: ${v.source_title}</div>` : ''}
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- Semantic Relationship Graph -->
+          <div class="detail-section-block">
+            <h2 class="detail-block-title">
+              <span>🕸️</span>
+              <span>${t('detail.relationshipGraph')}</span>
+            </h2>
+            <div id="relationship-graph-mount" class="graph-container-box"></div>
+          </div>
+
           <!-- Related Beings -->
           ${creature.resolved_related && creature.resolved_related.length > 0 ? `
             <div class="detail-section-block">
               <h2 class="detail-block-title">
-                <span>🕸️</span>
+                <span>👥</span>
                 <span>${t('detail.related')}</span>
               </h2>
               <div class="creature-grid" style="margin-bottom: 0;">
                 ${creature.resolved_related.map(r => renderCreatureCard(r)).join('')}
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- Claim-Level Provenance & Source Hierarchy -->
+          ${claims && claims.length > 0 ? `
+            <div class="detail-section-block">
+              <h2 class="detail-block-title">
+                <span>🔍</span>
+                <span>${t('detail.claimsProvenance')}</span>
+              </h2>
+              <div class="claims-panel">
+                <table class="claims-table">
+                  <thead>
+                    <tr>
+                      <th style="width: 45%;">Pernyataan / Klaim Fakta Tradisi</th>
+                      <th style="width: 15%;">Tipe Klaim</th>
+                      <th style="width: 25%;">Rujukan Sumber / Sitasi</th>
+                      <th style="width: 15%;">Hierarki Sumber</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${claims.map(cl => `
+                      <tr>
+                        <td style="font-size: 0.9rem; color: var(--text-primary); font-weight: 500;">
+                          ${resolveLocalized(cl.claim)}
+                        </td>
+                        <td>
+                          <span class="badge" style="background: var(--bg-tertiary); font-size: 0.75rem;">
+                            ${cl.claim_type || 'tradition'}
+                          </span>
+                        </td>
+                        <td style="font-size: 0.85rem; color: var(--text-secondary);">
+                          ${cl.source_citation || 'Tradisi Historis'}
+                        </td>
+                        <td>
+                          <span class="source-hierarchy-badge ${cl.source_type || 'Reference'}">
+                            ${cl.source_type || 'Reference'}
+                          </span>
+                        </td>
+                      </tr>
+                    `).join('')}
+                  </tbody>
+                </table>
               </div>
             </div>
           ` : ''}
@@ -279,6 +595,12 @@ export async function renderCreatureDetail(container, slug) {
         </div>
       </div>
     `;
+
+    // Mount Relationship Graph asynchronously into the container
+    const graphMount = container.querySelector('#relationship-graph-mount');
+    if (graphMount) {
+      renderRelationshipGraph(graphMount, creature.slug);
+    }
 
     // Attach Event Handlers
     const favBtn = container.querySelector('#btn-toggle-favorite');

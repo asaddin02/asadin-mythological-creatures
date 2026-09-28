@@ -81,10 +81,35 @@ async function runTests() {
   assert.equal(confidence, 'High', 'Creature with verified multiple sources must have High confidence');
   console.log('  ✓ Ingestion Heuristics passed');
 
-  console.log('\n🎉 ALL 3 TEST MODULES PASSED!\n');
+  // 4. Schema Enrichment, Multi-Tier & Semantic Relationship Graph
+  console.log('4. Testing Schema Enrichment & Relationship Graph...');
+  const pocong = getCreatureBySlug('pocong');
+  assert.equal(pocong.content_tier, 'archive', 'Pocong should be classified in archive tier');
+  assert(pocong.etymology && pocong.etymology.original_form, 'Must contain etymological data');
+  assert(pocong.ability_matrix && pocong.ability_matrix.length >= 8, 'Must construct comprehensive ability matrix');
+  assert(pocong.historical_timeline && pocong.historical_timeline.length > 0, 'Must have historical timeline');
+  assert(pocong.pop_culture_contrast && pocong.pop_culture_contrast.major_differences.length > 0, 'Must document pop culture contrast');
+  assert(pocong.claims_provenance && pocong.claims_provenance.length > 0, 'Must have claim-level provenance');
+
+  const { getRelationshipGraph, getRegions, getRegionById, getCultureById } = await import('../server/db.mjs');
+  const graph = getRelationshipGraph('pocong');
+  assert(graph && graph.nodes.length >= 2, 'Pocong must have semantic graph nodes');
+  assert(graph.edges.length >= 1, 'Pocong must have semantic graph edges');
+
+  const regions = getRegions();
+  assert(regions.length === 8, 'Must return 8 macro-regions of the world');
+  const seAsia = getRegionById('southeast-asia');
+  assert(seAsia && seAsia.creatures.length >= 5, 'Southeast Asia must contain regional beings');
+
+  const indoCult = getCultureById('indonesian-folklore');
+  assert(indoCult && indoCult.creatures.length >= 8, 'Indonesian folklore must contain registered entities');
+  console.log('  ✓ Multi-Tier Schema & Relationship Graph passed');
+
+  console.log('\n🎉 ALL 4 TEST MODULES PASSED!\n');
 }
 
 runTests().catch(err => {
   console.error('\n❌ Test suite failure:', err);
   process.exit(1);
 });
+

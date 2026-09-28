@@ -16,6 +16,7 @@ const CREATURES_FILE = join(ROOT, 'data', 'creatures.json');
 const CULTURES_FILE = join(ROOT, 'data', 'cultures.json');
 const CATEGORIES_FILE = join(ROOT, 'data', 'categories.json');
 const TRAITS_FILE = join(ROOT, 'data', 'traits.json');
+const REGIONS_FILE = join(ROOT, 'data', 'regions.json');
 const REVIEWS_FILE = join(ROOT, 'data', 'reviews.json');
 const JOBS_FILE = join(ROOT, 'data', 'ingestion-jobs.json');
 
@@ -24,6 +25,7 @@ let creatures = [];
 let cultures = [];
 let categories = [];
 let traits = [];
+let regions = [];
 let reviews = [];
 let jobs = [];
 
@@ -48,6 +50,11 @@ export async function initDb() {
     cultures = JSON.parse(await readFile(CULTURES_FILE, 'utf8'));
     categories = JSON.parse(await readFile(CATEGORIES_FILE, 'utf8'));
     traits = JSON.parse(await readFile(TRAITS_FILE, 'utf8'));
+    try {
+      regions = JSON.parse(await readFile(REGIONS_FILE, 'utf8'));
+    } catch {
+      regions = [];
+    }
     
     try {
       reviews = JSON.parse(await readFile(REVIEWS_FILE, 'utf8'));
@@ -345,6 +352,96 @@ export function compareCreatures(slugA, slugB) {
  */
 export function getCultures() {
   return cultures;
+}
+
+/**
+ * Get single culture detail with associated creatures
+ */
+export function getCultureById(id) {
+  const normId = normalizeText(id);
+  const culture = cultures.find(c => normalizeText(c.id) === normId || normalizeText(c.slug) === normId);
+  if (!culture) return null;
+  const cultCreatures = creatures.filter(c => c.culture === culture.id && c.status === 'published');
+  return {
+    ...culture,
+    creatures: cultCreatures
+  };
+}
+
+/**
+ * Get all global macro-regions
+ */
+export function getRegions() {
+  return regions.map(reg => ({
+    ...reg,
+    creature_count: creatures.filter(c => {
+      const cult = cultures.find(cult => cult.id === c.culture);
+      return (reg.cultures || []).includes(c.culture) || cult?.region_id === reg.id || normalizeText(c.region) === normalizeText(reg.name?.en);
+    }).length
+  }));
+}
+
+/**
+ * Get single region detail
+ */
+export function getRegionById(id) {
+  const normId = normalizeText(id);
+  const region = regions.find(r => normalizeText(r.id) === normId || normalizeText(r.slug) === normId);
+  if (!region) return null;
+  const regionCreatures = creatures.filter(c => {
+    const cult = cultures.find(cult => cult.id === c.culture);
+    return (region.cultures || []).includes(c.culture) || cult?.region_id === region.id || normalizeText(c.region) === normalizeText(region.name?.en);
+  });
+  return {
+    ...region,
+    creatures: regionCreatures
+  };
+}
+
+/**
+ * Get Relationship Graph for interactive visual exploration
+ */
+export function getRelationshipGraph(slug) {
+  const creature = getCreatureBySlug(slug);
+  if (!creature) return null;
+
+  const nodes = [
+    {
+      id: creature.slug,
+      label: creature.canonical_name,
+      type: 'primary',
+      culture: creature.culture,
+      classification: creature.classification
+    }
+  ];
+
+  const edges = [];
+  const relations = creature.semantic_relations || [];
+
+  for (const rel of relations) {
+    const targetCreature = creatures.find(c => c.slug === rel.target_slug);
+    nodes.push({
+      id: rel.target_slug,
+      label: rel.target_name || (targetCreature ? targetCreature.canonical_name : rel.target_slug),
+      type: 'related',
+      relation_type: rel.relation_type,
+      culture: targetCreature?.culture || creature.culture,
+      classification: targetCreature?.classification || 'Creature'
+    });
+
+    edges.push({
+      source: creature.slug,
+      target: rel.target_slug,
+      relation_type: rel.relation_type,
+      note: rel.note
+    });
+  }
+
+  return {
+    centralCreature: creature.canonical_name,
+    nodes,
+    edges
+  };
 }
 
 /**

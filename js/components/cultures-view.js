@@ -32,7 +32,7 @@ export async function renderCulturesView(container) {
       const desc = resolveLocalized(cult.description);
 
       return `
-        <a href="#/explore?culture=${cult.id}" class="culture-card" data-culture="${cult.id}">
+        <div class="culture-card" data-culture="${cult.id}">
           <div class="culture-card-header">
             <h3 class="culture-name">${name}</h3>
             <span class="culture-count-pill">${cult.creature_count || 0} entitas</span>
@@ -40,8 +40,16 @@ export async function renderCulturesView(container) {
           <div style="font-size: 0.78rem; color: var(--gold-500); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.05em;">
             ${cult.region} · ${cult.country}
           </div>
-          <p class="culture-desc">${desc}</p>
-        </a>
+          <p class="culture-desc" style="margin-bottom: 1.25rem;">${desc}</p>
+          <div style="display: flex; gap: 0.5rem; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--border-subtle);">
+            <a href="#/culture/${cult.id}" class="btn btn-secondary btn-sm" style="flex: 1; text-align: center; justify-content: center;">
+              Pelajari Tradisi →
+            </a>
+            <a href="#/explore?culture=${cult.id}" class="btn btn-ghost btn-sm" style="border: 1px solid var(--border-subtle);" title="Jelajahi Makhluk">
+              🔍 Makhluk
+            </a>
+          </div>
+        </div>
       `;
     }).join('');
 

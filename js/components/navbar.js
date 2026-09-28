@@ -27,6 +27,7 @@ export function renderNavbar(container) {
           <ul class="nav-links" id="main-nav-links">
             <li><a href="#/explore" class="nav-link" data-route="explore">${t('nav.explore')}</a></li>
             <li><a href="#/cultures" class="nav-link" data-route="cultures">${t('nav.cultures')}</a></li>
+            <li><a href="#/regions" class="nav-link" data-route="regions">${t('nav.regions')}</a></li>
             <li><a href="#/random" class="nav-link" data-action="random-encounter">${t('nav.random')}</a></li>
             <li><a href="#/compare" class="nav-link" data-route="compare">${t('nav.compare')}</a></li>
             <li><a href="#/journal" class="nav-link" data-route="journal">${t('nav.journal')}</a></li>
