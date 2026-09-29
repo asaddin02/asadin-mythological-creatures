@@ -1,6 +1,6 @@
 # Review batch-011
 
-Diperiksa 2026-09-29T12:33:51.391Z. Berkas: batch-011.md.
+Diperiksa 2026-09-29T12:34:11.997Z. Berkas: batch-011.md.
 
 ## singa-mythology — lulus-otomatis
 
@@ -85,19 +85,16 @@ Klaim 8 (exact 4, unreachable 4), sumber 2, gambar 0.
 | bajang-c08 | exact | ms.wikipedia.org | The bajang can be warded off with charms or amulets. | Bajang boleh dihindari dengan menggunakan tangkal atau azimat. |
 
 
-## jenglot — perlu-perbaikan
+## jenglot — lulus-otomatis
 
-Klaim 5 (partial 1, exact 4), sumber 1, gambar 0.
-
-**error**
-- `claims (jenglot-c01)` Kutipan tidak persis sama dengan teks di https://en.wikipedia.org/wiki/Jenglot (hanya 93% cocok). Buka lagi halamannya dan salin ulang kutipannya kata per kata.
+Klaim 5 (exact 5), sumber 1, gambar 0.
 
 **manual**
 - `tier` Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| jenglot-c01 | partial (93% potongan 5 kata cocok) | en.wikipedia.org | The jenglot is a small being of Indonesian culture and mythology, a deformed humanlike doll up to 12 cm long with long hair and nails; imbued with black magic it protects its master, avenges enemies or brings luck, and can sell for millions of rupiah. | is a small creature of Indonesian culture and mythology. It has the appearance of a deformed humanoid doll and whose size is up to 12 centimetres (4.7 in) in length. The doll itself does nothing, but when imbued with black magic, is said to provide protection to its master, takes revenge on an enemy or works as a good luck charm. |
+| jenglot-c01 | exact | en.wikipedia.org | The jenglot is a small being of Indonesian culture and mythology, a deformed humanlike doll up to 12 cm long with long hair and nails; imbued with black magic it protects its master, avenges enemies or brings luck, and can sell for millions of rupiah. | is a small creature of Indonesian culture and mythology. It has the appearance of a deformed humanoid doll and whose size is up to 12 centimetres (4.7 in) in length. ... The doll itself does nothing, but when imbued with black magic, is said to provide protection to its master, takes revenge on an enemy or works as a good luck charm. |
 | jenglot-c02 | exact | en.wikipedia.org | Folklore says jenglots were once human; keepers feed them goat or human blood placed nearby, which the jenglot does not drink directly. | Folklore states that they were formerly human beings. Jenglot 'keepers' feed their creature with blood, either animal blood (goat) or human blood. The blood is placed near the jenglot, which is said not to drink the blood directly. |
 | jenglot-c03 | exact | en.wikipedia.org | Jenglots were shown at the 'Pameran Misteri, Jin, Hantu dan Keranda' at the Sultan Alam Shah Museum, Shah Alam; several exhibitions were also held in Indonesia. | They have also been shown at "Pameran Misteri, Jin, Hantu dan Keranda" at Sultan Alam Shah Museum, Shah Alam. |
 | jenglot-c04 | exact | en.wikipedia.org | Many jenglots proved to be hoaxes made from taxidermied monkeys and fish. | Many were found to be hoaxes, being masterful taxidermist fixings of monkeys and fish |

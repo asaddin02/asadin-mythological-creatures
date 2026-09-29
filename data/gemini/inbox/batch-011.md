@@ -1490,7 +1490,7 @@
     {
       "id": "jenglot-c01",
       "source_id": "jenglot-s1",
-      "quote": "is a small creature of Indonesian culture and mythology. It has the appearance of a deformed humanoid doll and whose size is up to 12 centimetres (4.7 in) in length. The doll itself does nothing, but when imbued with black magic, is said to provide protection to its master, takes revenge on an enemy or works as a good luck charm.",
+      "quote": "is a small creature of Indonesian culture and mythology. It has the appearance of a deformed humanoid doll and whose size is up to 12 centimetres (4.7 in) in length. ... The doll itself does nothing, but when imbued with black magic, is said to provide protection to its master, takes revenge on an enemy or works as a good luck charm.",
       "locator": "Lead",
       "context": "traditional-belief",
       "statement": {

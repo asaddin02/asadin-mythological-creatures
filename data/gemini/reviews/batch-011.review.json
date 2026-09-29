@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-011",
-  "checked_at": "2026-09-29T12:33:51.391Z",
+  "checked_at": "2026-09-29T12:34:11.997Z",
   "files": [
     "batch-011.md"
   ],
@@ -421,7 +421,7 @@
     {
       "slug": "jenglot",
       "file": "batch-011.md",
-      "verdict": "perlu-perbaikan",
+      "verdict": "lulus-otomatis",
       "counts": {
         "claims": 5,
         "sources": 1,
@@ -432,11 +432,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "error",
-          "where": "claims (jenglot-c01)",
-          "message": "Kutipan tidak persis sama dengan teks di https://en.wikipedia.org/wiki/Jenglot (hanya 93% cocok). Buka lagi halamannya dan salin ulang kutipannya kata per kata."
         }
       ],
       "claims": [
@@ -446,10 +441,9 @@
           "host": "en.wikipedia.org",
           "statement": "The jenglot is a small being of Indonesian culture and mythology, a deformed humanlike doll up to 12 cm long with long hair and nails; imbued with black magic it protects its master, avenges enemies or brings luck, and can sell for millions of rupiah.",
           "statement_id": "Jenglot adalah makhluk kecil dalam budaya dan mitologi Indonesia berupa boneka mirip manusia cacat sepanjang hingga 12 cm, berambut dan berkuku panjang; bila diisi ilmu hitam dipercaya melindungi pemilik, membalas musuh, atau membawa untung, dan dapat dijual jutaan rupiah.",
-          "quote": "is a small creature of Indonesian culture and mythology. It has the appearance of a deformed humanoid doll and whose size is up to 12 centimetres (4.7 in) in length. The doll itself does nothing, but when imbued with black magic, is said to provide protection to its master, takes revenge on an enemy or works as a good luck charm.",
+          "quote": "is a small creature of Indonesian culture and mythology. It has the appearance of a deformed humanoid doll and whose size is up to 12 centimetres (4.7 in) in length. ... The doll itself does nothing, but when imbued with black magic, is said to provide protection to its master, takes revenge on an enemy or works as a good luck charm.",
           "context": "traditional-belief",
-          "status": "partial",
-          "detail": "93% potongan 5 kata cocok"
+          "status": "exact"
         },
         {
           "id": "jenglot-c02",
