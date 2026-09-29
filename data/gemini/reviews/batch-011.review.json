@@ -1,0 +1,498 @@
+{
+  "batch_id": "batch-011",
+  "checked_at": "2026-09-29T12:33:51.391Z",
+  "files": [
+    "batch-011.md"
+  ],
+  "parse_problems": [],
+  "missing": [],
+  "entries": [
+    {
+      "slug": "singa-mythology",
+      "file": "batch-011.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 1
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "images[0] (File:COLLECTIE TROPENMUSEUM Toverhoorn met vijf voorouder figuren op een singa TMnr A-3932.jpg)",
+          "message": "Keterkaitan otomatis: dipakai di en.wikipedia.org: Singa (mythology). Cek visual tetap diperlukan."
+        }
+      ],
+      "claims": [
+        {
+          "id": "singa-mythology-c01",
+          "source_id": "singa-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The singa is an apotropaic figure of Batak mythology, North Sumatra, Indonesia, representing benevolent protective power; described as part human, part water buffalo and part crocodile or lizard, with an elongated face, bulging eyes, defined nose and long spiral beard; other figures sometimes stand on its head.",
+          "statement_id": "Singa adalah sosok penolak bala dari mitologi Batak di Sumatra Utara, Indonesia, yang melambangkan kekuatan pelindung yang baik; ia digambarkan campuran manusia, kerbau, dan buaya atau kadal, berwajah panjang dengan mata besar melotot, hidung tegas, dan janggut panjang berpilin; sosok lain kadang di atas kepalanya.",
+          "quote": "Singa is an apotropaic figure from the mythology of the Batak people of North Sumatra, Indonesia. The singa represents a benevolent and protective power. The singa is described as \"part human, part water buffalo, and part crocodile or lizard\". It is variedly represented, but always has an elongated face, with big bulging eyes, a well-defined nose, and long spiraling beard.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "singa-mythology-c02",
+          "source_id": "singa-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Singa comes from Sanskrit singa ('lion'); in Batak its meaning is magical, not zoological, symbolizing not a lion but the Nāga or Boru Saniang Naga, the primeval water serpent of Hindu-Buddhist mythology.",
+          "statement_id": "Kata singa berasal dari Sanskerta singa ('singa'); dalam bahasa Batak maknanya magis, bukan zoologis, sehingga tidak melambangkan singa, melainkan Naga atau Boru Saniang Naga, ular air purba mitologi Hindu-Buddha.",
+          "quote": "The word singa is derived from the Sanskrit singa, \"lion\". The Batak term singa has a predominantly magical - rather than zoological - meaning, so it does not symbolize a lion, but Nāga or Boru Saniang Naga, the primeval water serpent from the Hindu-Buddhist mythology.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "singa-mythology-c03",
+          "source_id": "singa-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Singa images are carved on utensils, medicine containers, jewellery, amulets, coffins, sarcophagi, barns and Batak houses, making it a Batak cultural symbol; on houses it is called singa ni ruma.",
+          "statement_id": "Gambar singa diukir pada perkakas, wadah obat, perhiasan, jimat, peti mati, sarkofagus, lumbung, dan rumah adat Batak, sehingga menjadi lambang budaya Batak; ukiran pada rumah disebut singa ni ruma.",
+          "quote": "Images of singa are carved in various objects such as domestic utensils, medicine containers, jewelries, amulets, wood coffins, stone sarcophagi, barns, and Batak traditional houses. Its frequent use made the singa a symbol of the Batak culture. Carving of singa on a Batak house is called singa ni ruma",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "singa-mythology-c04",
+          "source_id": "singa-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The singa's apotropaic use may stem from the Batak Hindu-Buddhist period of the ninth century, linked to the kirtimukha, whose Batak version is the singhamugam.",
+          "statement_id": "Penggunaan singa sebagai penolak bala mungkin berasal dari masa Hindu-Buddha di tanah Batak pada abad kesembilan, terkait hiasan kirtimukha yang versi Bataknya disebut singhamugam.",
+          "quote": "The apotropaic use of a singa may stem from the Hindu-Buddhism period of Batak during the ninth century",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "singa-mythology-c05",
+          "source_id": "singa-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A major feature of Hindu-Buddhist architecture in Java and Bali is the kirtimukha over arches and doorways.",
+          "statement_id": "Salah satu ciri utama arsitektur Hindu-Buddha di Jawa dan Bali adalah hiasan kirtimukha di atas lengkung dan pintu.",
+          "quote": "One of the major features of Hindu-Buddhist architecture in Java and Bali is the ubiquitous kirtimukha over arches and doorways.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:COLLECTIE TROPENMUSEUM Toverhoorn met vijf voorouder figuren op een singa TMnr A-3932.jpg",
+          "claimed_license": "CC BY-SA 3.0",
+          "evidence": "Judul berkas menyebut 'op een singa' dan deskripsinya \"Ritual horn decorated with 5 human figures sitting on the neck of a singa\"; gambar utama artikel Wikipedia en Singa (mythology).",
+          "image_type": "artifact",
+          "commons_license": "CC BY-SA 3.0",
+          "rights": "OPEN_LICENSE",
+          "author": "Tropenmuseum",
+          "date": "between 1852 and 1857",
+          "description": "Ritual horn decorated with 5 human figures sitting on the neck of a singa",
+          "restrictions": null,
+          "categories": [
+            "CC-BY-SA-3.0",
+            "Culture of Batak Toba people",
+            "Culture of Lake Toba",
+            "Images from KIT, objecten Functionele categorie - hulpmiddelen bij ritueel etc.",
+            "Images from KIT, objectnaam Hoorn",
+            "Images from the Tropenmuseum",
+            "Naga morsarang",
+            "Template:Unknown language"
+          ],
+          "used_on": [
+            "ar.wikipedia.org: سينغا (أساطير)",
+            "de.wikipedia.org: Pupuk",
+            "en.wikipedia.org: Singa (mythology)",
+            "en.wikipedia.org: Naga morsarang",
+            "id.wikipedia.org: Singa (mitologi)"
+          ],
+          "auto_evidence": [
+            "dipakai di en.wikipedia.org: Singa (mythology)"
+          ],
+          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-011/singa-mythology-1.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "warak-ngendog",
+      "file": "batch-011.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 8,
+        "sources": 2,
+        "images": 1
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 8 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "images[0] (File:Warak ngendog, in the collection of the Great Mosque of Central Java, 2014-06-19.jpg)",
+          "message": "Keterkaitan otomatis: nama berkas, deskripsi berkas, kategori \"Warak ngendog\", dipakai di en.wikipedia.org: Warak ngendog. Cek visual tetap diperlukan."
+        }
+      ],
+      "claims": [
+        {
+          "id": "warak-ngendog-c01",
+          "source_id": "warak-ngendog-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The warak ngendog is a mythical creature like a rhinoceros carrying eggs, celebrated at the Dugderan Festival before Ramadan, believed to represent Semarang's Javanese, Chinese and Arab communities; its head is dragon-like (Chinese), its body combines the buraq (Arab) and a goat (Javanese).",
+          "statement_id": "Warak ngendog adalah makhluk mitos mirip badak dengan telur di punggungnya, dirayakan dalam Festival Dugderan menjelang Ramadan, dan diyakini mewakili tiga etnis di Semarang: Jawa, Tionghoa, dan Arab; kepalanya seperti naga (Tionghoa), tubuhnya perpaduan buraq (Arab) dan kambing (Jawa).",
+          "quote": "is a mythical creature resembling a rhinoceros carrying eggs on its back. This creature, celebrated during the Dugderan Festival held annually on September 23 a few days before the holiday of Ramadan, is believed to represent three different ethnic groups in Semarang: Javanese, Chinese and Arabian. Its head is like a dragon (Chinese), its body is the combination of buraq",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c02",
+          "source_id": "warak-ngendog-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The warak ngendog is a children's toy once very popular in Semarang, usually sold at the Dugderan Festival welcoming Ramadan.",
+          "statement_id": "Warak ngendog adalah mainan anak yang dulu sangat populer di Semarang dan biasanya dijual saat Festival Dugderan untuk menyambut Ramadan.",
+          "quote": "Warak Ngendog is a children's toy that was once very popular in the city of Semarang and its surroundings, and is usually sold during the Dugderan Festival, a folk festival in Semarang held to welcome the coming of Ramadan.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c03",
+          "source_id": "warak-ngendog-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Dugderan highlight is the street parade carrying the warak ngendog (warak ngendhog) through Semarang; its market is held at Johar Market every Sya'ban.",
+          "statement_id": "Puncak Dugderan adalah pawai jalanan ketika warak ngendog (warak ngendhog) diarak keliling Semarang; pasar rakyatnya digelar di Pasar Johar setiap bulan Syakban.",
+          "quote": "The highlight of Dugderan itself is the street festival where Warak Ngendog is paraded along the Semarang city area.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c04",
+          "source_id": "warak-ngendog-s2",
+          "host": "www.detik.com",
+          "statement": "Warak is adapted from the Arabic for holy and ngendog is Javanese for laying eggs; philosophically, warak ngendog is a call to keep oneself pure in Ramadan.",
+          "statement_id": "Kata warak diadaptasi dari bahasa Arab yang berarti suci, dan ngendog kata Jawa yang berarti bertelur; secara filosofis warak ngendog adalah ajakan menjaga kesucian diri di bulan Ramadan.",
+          "quote": "kata 'warak' diadaptasi dari bahasa Arab yang berarti suci, sedangkan 'ngendog' adalah kata Jawa dengan makna bertelur. Bila digabung, secara filosofis, warak ngendog adalah ajakan untuk menjaga kesucian diri pada bulan Ramadhan.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c05",
+          "source_id": "warak-ngendog-s2",
+          "host": "www.detik.com",
+          "statement": "Other readings: warak in Javanese means a horned mythical beast (like a rhinoceros), or comes from buraq, the Prophet Muhammad's mount.",
+          "statement_id": "Tafsiran lain: warak dalam bahasa Jawa berarti binatang mitos bertanduk di wajah (identik dengan badak), atau berasal dari kata buraq, tunggangan Nabi Muhammad.",
+          "quote": "Semisal, 'warak' dalam bahasa Jawa juga bisa diartikan sebagai binatang mitos dengan tanduk di wajahnya (identik dengan badak). Atau, 'warak' yang berasal dari kata 'buraq', binatang tunggangan Nabi Muhammad SAW.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c06",
+          "source_id": "warak-ngendog-s2",
+          "host": "www.detik.com",
+          "statement": "The warak ngendog is covered in upside-down feathers in bright red, yellow and white; its egg lies between the hind legs.",
+          "statement_id": "Warak ngendog diselimuti bulu yang menempel terbalik dengan warna mencolok, merah, kuning, hingga putih terang; telurnya terletak di antara kedua kaki belakang.",
+          "quote": "warak ngendog juga tampak diselimuti bulu-bulu yang menempel secara terbalik. Bulu-bulu ini punya beragam warna yang mencolok mata, mulai dari merah, kuning, hingga putih terang.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c07",
+          "source_id": "warak-ngendog-s2",
+          "host": "www.detik.com",
+          "statement": "The name Dugderan comes from the drum at the Great Mosque of Semarang (dug) and the cannon (der).",
+          "statement_id": "Nama Dugderan berasal dari bunyi bedug di Masjid Besar Semarang (dug) dan bunyi meriam (der).",
+          "quote": "Nama Dugderan berasal dari bunyi bedug di Masjid Besar Semarang, yakni 'dug' dan bunyi meriam, yakni 'der'.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c08",
+          "source_id": "warak-ngendog-s2",
+          "host": "www.detik.com",
+          "statement": "Dugderan reportedly existed by 1881-1889, when Semarang was ruled by Regent Raden Mas Tumenggung Arya Purbaningrat.",
+          "statement_id": "Konon Dugderan sudah ada pada 1881-1889, saat Semarang diperintah Bupati Raden Mas Tumenggung Arya Purbaningrat.",
+          "quote": "konon, Dugderan telah ada pada tahun-tahun 1881-1889. Kala itu, Semarang tengah diperintah oleh Kanjeng Bupati Raden Mas Tumenggung Arya Purbaningrat.",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Warak ngendog, in the collection of the Great Mosque of Central Java, 2014-06-19.jpg",
+          "claimed_license": "CC BY-SA 3.0",
+          "evidence": "Nama dan deskripsi berkas: \"Warak ngendog, in the collection of the Great Mosque of Central Java\"; kategori Commons Warak ngendog; gambar utama artikel Wikipedia en.",
+          "image_type": "artifact",
+          "commons_license": "CC BY-SA 3.0",
+          "rights": "OPEN_LICENSE",
+          "author": "Crisco 1492",
+          "date": "2014-06-17 09:04:19",
+          "description": "Warak ngendog, in the collection of the Great Mosque of Central Java, 2014-06-17",
+          "restrictions": null,
+          "categories": [
+            "CC-BY-SA-3.0",
+            "Great Mosque of Central Java",
+            "Photographs of objects by Chris Woodrich",
+            "Self-published work",
+            "Taken with Canon EOS 60D",
+            "Warak ngendog"
+          ],
+          "used_on": [
+            "ar.wikipedia.org: واراك نغيندوغ",
+            "bn.wikipedia.org: ওয়ারাক এনগেনডগ",
+            "en.wikipedia.org: Warak ngendog",
+            "fr.wikipedia.org: Warak ngendog",
+            "hi.wikipedia.org: वारक एनगेंडोग",
+            "id.wikipedia.org: Warak ngendog",
+            "www.wikidata.org: Q7968777",
+            "zh.wikipedia.org: 印尼神話"
+          ],
+          "auto_evidence": [
+            "nama berkas",
+            "deskripsi berkas",
+            "kategori \"Warak ngendog\"",
+            "dipakai di en.wikipedia.org: Warak ngendog"
+          ],
+          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-011/warak-ngendog-1.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "anggitay",
+      "file": "batch-011.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 3 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "anggitay-c01",
+          "source_id": "anggitay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The anggitay has a woman's upper body and a horse's lower body and legs from the waist down, the Philippine counterpart of the female centaur.",
+          "statement_id": "Anggitay adalah makhluk bertubuh atas perempuan dan bertubuh bawah serta berkaki kuda dari pinggang ke bawah, padanan Filipina bagi centaur perempuan.",
+          "quote": "The Anggitay is a creature with the upper body of a female human and the lower body and legs of a horse from waist down. They were the Philippine counterpart to the centauride, the female centaurs.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "anggitay-c02",
+          "source_id": "anggitay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The anggitay is also believed to be the female counterpart of the tikbalang.",
+          "statement_id": "Anggitay juga diyakini sebagai pasangan perempuan tikbalang.",
+          "quote": "They are also believed to be the female counterpart of the Tikbalang.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "anggitay-c03",
+          "source_id": "anggitay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The anggitay is sometimes shown with a single unicorn-like horn, is drawn to gems and jewellery, and its homeland is believed to be Santo Tomas, Batangas.",
+          "statement_id": "Anggitay kadang digambarkan bertanduk satu di dahi seperti unicorn, tertarik pada batu permata dan perhiasan, dan kampung halamannya diyakini di Santo Tomas, Batangas.",
+          "quote": "They are sometimes depicted as having a single horn in the middle of their forehead, just like a unicorn. They were usually said to be attracted to precious gemstones, and jewelry. Their homeland is believed to be in Santo Tomas, Batangas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "bajang",
+      "file": "batch-011.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 8,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 8 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "4 kutipan tidak bisa dicek otomatis: www.mirrorservice.org (tidak bisa dibuka (timeout))."
+        }
+      ],
+      "claims": [
+        {
+          "id": "bajang-c01",
+          "source_id": "bajang-s1",
+          "host": "ms.wikipedia.org",
+          "statement": "The bajang is a kind of spirit of the jinn or devil class kept to harm enemies.",
+          "statement_id": "Bajang adalah sejenis makhluk halus dari golongan jin atau setan yang dipelihara untuk mencelakai musuh.",
+          "quote": "Bajang merujuk kepada sejenis makhluk halus yang mana jelmaan rupa dari golongan jin/syaitan, yang dipelihara bagi tujuan memudaratkan musuh.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c02",
+          "source_id": "bajang-s1",
+          "host": "ms.wikipedia.org",
+          "statement": "The bajang is a devil raised from a stillborn baby's corpse, a male devil often taking pole-cat form, frequently attacking children and causing mysterious fatal illness.",
+          "statement_id": "Bajang adalah setan yang dipuja dari mayat bayi yang lahir mati, setan jantan yang sering menjelma kucing musang, sering menyerang anak-anak, dan dapat menyebabkan penyakit misterius yang mematikan.",
+          "quote": "Bajang merupakan makhluk setan yang dipuja daripada mayat bayi yang mati semasa lahir. Ia merupakan setan jantan yang sering kali menjelma sebagai kucing pole cat. Bajang seringkali menyerang kanak-kanak dan mampu menyebabkan penyakit misteri yang boleh membawa maut kepada mangsanya.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c03",
+          "source_id": "bajang-s1",
+          "host": "ms.wikipedia.org",
+          "statement": "The bajang is kept in a bamboo tube stoppered with special leaves and locked with a charm, fed eggs and milk, turns on its master if neglected, and must be inherited, or its owner finds it hard to die.",
+          "statement_id": "Bajang disimpan pemiliknya dalam tabung bambu yang disumbat daun khusus dan dikunci dengan jimat, diberi makan telur dan susu, menyerang tuannya bila tak dirawat, dan harus diwariskan; bila tidak, pemiliknya sulit mati.",
+          "quote": "Bajang akan dikawal oleh pemiliknya dan akan disimpan di dalam tabung buluh. Sejenis daun khusus akan digunakan sebagai penyumbat tabungan tersebut dan dikunci dengan tangkal.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c04",
+          "source_id": "bajang-s2",
+          "host": "www.mirrorservice.org",
+          "statement": "Walter William Skeat in Malay Magic (1900) lists four birth-spirits; one is the bajang, usually a pole-cat that disturbs the household by mewing like a great cat.",
+          "statement_id": "Walter William Skeat dalam Malay Magic (1900) mencatat empat roh kelahiran; salah satunya bajang, yang biasanya berwujud musang dan mengganggu rumah tangga dengan mengeong seperti kucing besar.",
+          "quote": "These are four in number: the Bajang, which generally takes the form of a pole-cat (musang) and disturbs the household by mewing like a great cat; the Langsuir, which takes the form of an owl with long claws",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
+        },
+        {
+          "id": "bajang-c05",
+          "source_id": "bajang-s2",
+          "host": "www.mirrorservice.org",
+          "statement": "A Malay magician told Skeat the bajang could take the form of a house-cricket and be kept by a man, as the pelesit is kept by a woman; the bajang is sometimes confused with the pelesit.",
+          "statement_id": "Seorang dukun Melayu memberi tahu Skeat bahwa bajang dapat berwujud jangkrik rumah dan dipelihara laki-laki, seperti pelesit dipelihara perempuan; bajang kadang dikacaukan dengan pelesit.",
+          "quote": "Thus a Malay magician once told me that the Bajang took the form of a house-cricket, and that when thus embodied it may be kept by a man, as the Pĕlĕsit may be kept by a woman.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
+        },
+        {
+          "id": "bajang-c06",
+          "source_id": "bajang-s2",
+          "host": "www.mirrorservice.org",
+          "statement": "The bajang is thought very dangerous to children, who are sometimes given a black-silk armlet, the bajang bracelet, for protection.",
+          "statement_id": "Bajang dianggap sangat berbahaya bagi anak-anak, yang kadang diberi gelang benang sutra hitam, gelang bajang, untuk melindungi mereka.",
+          "quote": "I need hardly say that it is considered very dangerous to children, who are sometimes provided with a sort of armlet of black silk threads, called a “bajang bracelet” (g’lang bajang), which, it is supposed, will protect them against it.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
+        },
+        {
+          "id": "bajang-c07",
+          "source_id": "bajang-s2",
+          "host": "www.mirrorservice.org",
+          "statement": "Across the Malay Peninsula the bajang is male and the langsuir female; Malays generally believe the bajang is a malignant spirit haunting people, its presence foretelling disaster.",
+          "statement_id": "Di seluruh Semenanjung Malaya bajang dianggap laki-laki dan langsuir perempuan; orang Melayu umumnya percaya bajang roh jahat yang menghantui manusia dan kehadirannya pertanda malapetaka.",
+          "quote": "In all parts of the Peninsula the Bajang is said to be of the male gender, while the Langsuir is supposed to be a female. It is usually believed by Malays that the Bajang is merely a malignant spirit which haunts mankind, and whose presence foretells disaster.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
+        },
+        {
+          "id": "bajang-c08",
+          "source_id": "bajang-s1",
+          "host": "ms.wikipedia.org",
+          "statement": "The bajang can be warded off with charms or amulets.",
+          "statement_id": "Bajang dapat dihindari dengan tangkal atau azimat.",
+          "quote": "Bajang boleh dihindari dengan menggunakan tangkal atau azimat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "jenglot",
+      "file": "batch-011.md",
+      "verdict": "perlu-perbaikan",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "error",
+          "where": "claims (jenglot-c01)",
+          "message": "Kutipan tidak persis sama dengan teks di https://en.wikipedia.org/wiki/Jenglot (hanya 93% cocok). Buka lagi halamannya dan salin ulang kutipannya kata per kata."
+        }
+      ],
+      "claims": [
+        {
+          "id": "jenglot-c01",
+          "source_id": "jenglot-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The jenglot is a small being of Indonesian culture and mythology, a deformed humanlike doll up to 12 cm long with long hair and nails; imbued with black magic it protects its master, avenges enemies or brings luck, and can sell for millions of rupiah.",
+          "statement_id": "Jenglot adalah makhluk kecil dalam budaya dan mitologi Indonesia berupa boneka mirip manusia cacat sepanjang hingga 12 cm, berambut dan berkuku panjang; bila diisi ilmu hitam dipercaya melindungi pemilik, membalas musuh, atau membawa untung, dan dapat dijual jutaan rupiah.",
+          "quote": "is a small creature of Indonesian culture and mythology. It has the appearance of a deformed humanoid doll and whose size is up to 12 centimetres (4.7 in) in length. The doll itself does nothing, but when imbued with black magic, is said to provide protection to its master, takes revenge on an enemy or works as a good luck charm.",
+          "context": "traditional-belief",
+          "status": "partial",
+          "detail": "93% potongan 5 kata cocok"
+        },
+        {
+          "id": "jenglot-c02",
+          "source_id": "jenglot-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Folklore says jenglots were once human; keepers feed them goat or human blood placed nearby, which the jenglot does not drink directly.",
+          "statement_id": "Menurut cerita rakyat, jenglot dulunya manusia; pemeliharanya memberinya darah kambing atau manusia yang diletakkan di dekatnya, dan jenglot tidak meminumnya langsung.",
+          "quote": "Folklore states that they were formerly human beings. Jenglot 'keepers' feed their creature with blood, either animal blood (goat) or human blood. The blood is placed near the jenglot, which is said not to drink the blood directly.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c03",
+          "source_id": "jenglot-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Jenglots were shown at the 'Pameran Misteri, Jin, Hantu dan Keranda' at the Sultan Alam Shah Museum, Shah Alam; several exhibitions were also held in Indonesia.",
+          "statement_id": "Jenglot pernah dipamerkan dalam Pameran Misteri, Jin, Hantu dan Keranda di Museum Sultan Alam Shah, Shah Alam; di Indonesia juga ada beberapa pameran jenglot.",
+          "quote": "They have also been shown at \"Pameran Misteri, Jin, Hantu dan Keranda\" at Sultan Alam Shah Museum, Shah Alam.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c04",
+          "source_id": "jenglot-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Many jenglots proved to be hoaxes made from taxidermied monkeys and fish.",
+          "statement_id": "Banyak jenglot terbukti palsu, berupa rangkaian taksidermi monyet dan ikan.",
+          "quote": "Many were found to be hoaxes, being masterful taxidermist fixings of monkeys and fish",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c05",
+          "source_id": "jenglot-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 2008 scientists in Malaysia examined hair and DNA from four jenglots from Irian Jaya; all samples seemed human, likely one person, and some hairs appeared implanted upside down.",
+          "statement_id": "Pada 2008 ilmuwan di Malaysia memeriksa rambut dan DNA empat jenglot dari Irian Jaya; semua sampel tampaknya dari manusia, kemungkinan satu orang yang sama, dan sebagian rambut tampak ditanam terbalik.",
+          "quote": "In 2008, scientists in Malaysia examined hairs and DNA from four jengelots brought from Irian Jaya, Indonesia to Kuala Lumpur, Malaysia by a 'businessman' to be exhibited in a local museum. Each of the samples appeared to be from humans and DNA analysis showed it was likely from the same person.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    }
+  ]
+}
