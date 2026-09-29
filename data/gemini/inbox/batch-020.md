@@ -289,7 +289,7 @@
       "context": "traditional-belief",
       "statement": {
         "id": "Kini mrenh kongveal dianggap penjaga gaib seseorang, tempat, atau lembaga, yang melindungi dan membimbing lewat bisikan atau mimpi; mereka tak terlihat orang dewasa, tetapi dapat menampakkan diri kepada anak 6–14 tahun yang berhati bersih.",
-        "en": "Today mrenh kongveal are supernatural guardians of a person, place or institution, protecting and guiding via whispers or dreams; unseen by adults, they can appear to pure-hearted children aged 6–14."
+        "en": "Today mrenh kongveal are supernatural guardians of a person, place or institution, protecting and guiding via whispers or dreams; unseen by adults, they can appear to pure-hearted children aged 6–14, and many in Cambodia claim to have seen them."
       }
     }
   ]

@@ -1,13 +1,10 @@
 # Review batch-020
 
-Diperiksa 2026-09-29T13:00:47.126Z. Berkas: batch-020.md.
+Diperiksa 2026-09-29T13:01:01.177Z. Berkas: batch-020.md.
 
 ## mrenh-kongveal — lulus-otomatis
 
 Klaim 4 (exact 4), sumber 1, gambar 1.
-
-**warn**
-- `long_description[2]` Tidak muncul di kutipan mana pun: Cambodia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target rich: 4 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -18,7 +15,7 @@ Klaim 4 (exact 4), sumber 1, gambar 1.
 | mrenh-kongveal-c01 | exact | en.wikipedia.org | Mrenh kongveal (ម្រេញគង្វាល) are beings of Cambodian folk mythology like Western elves, associated with guarding animals; their roots seem uniquely Khmer; child-sized and mischievous, they are often given offerings when asked for help. | are beings in Cambodian folk mythology resembling elves of western folklore; they are particularly associated with guarding animals. By anecdotal accounts the roots of Mrenh kongveal appear to be uniquely Khmer. The mrenh kongveal are small in stature with bodies comparable in size to human children, and are fond of mischief. Offerings are often left to them when seeking their help. |
 | mrenh-kongveal-c02 | exact | en.wikipedia.org | The Khmer word mrenh is fishermen's slang for 'one who catches fish' or, from Sanskrit, 'cancer'; kongveal means 'herdsman', 'guardian' or 'keeper'. | The Khmer word mrenh by itself is fishermen's slang for "one who catches fish" or, as a derivation from Sanskrit, "cancer". Kongveal means "herdsman", "guardian" or "keeper". |
 | mrenh-kongveal-c03 | exact | en.wikipedia.org | Originally they were seen as nomadic jungle beings herding wild herd animals like elephants; hunters, farmers and mahouts made offering baskets for them. | Originally they were perceived to be nomadic beings in the jungle, where they were the guardian herdsmen of wild animals, especially social animals that travel in herds, such as elephants. Hunters, farmers and mahouts (elephant trappers), would make baskets to leave offerings for mrenh kongveal |
-| mrenh-kongveal-c04 | exact | en.wikipedia.org | Today mrenh kongveal are supernatural guardians of a person, place or institution, protecting and guiding via whispers or dreams; unseen by adults, they can appear to pure-hearted children aged 6–14. | Today mrenh kongveal are thought of as akin to supernatural guardians, associated with a person, place, or institution. They protect or offer guidance to their benefactors, usually through telepathy (heard as whispers) or influencing dreams. They cannot be seen by adults but belief holds that they can make themselves appear to children between the ages of 6 and 14 |
+| mrenh-kongveal-c04 | exact | en.wikipedia.org | Today mrenh kongveal are supernatural guardians of a person, place or institution, protecting and guiding via whispers or dreams; unseen by adults, they can appear to pure-hearted children aged 6–14, and many in Cambodia claim to have seen them. | Today mrenh kongveal are thought of as akin to supernatural guardians, associated with a person, place, or institution. They protect or offer guidance to their benefactors, usually through telepathy (heard as whispers) or influencing dreams. They cannot be seen by adults but belief holds that they can make themselves appear to children between the ages of 6 and 14 |
 
 - Gambar File:Mrenh Gongveal house.jpg: lisensi Commons "CC BY 4.0" (OPEN_LICENSE); pembuat EarthMonkeyCreative; tanggal 2010-03-08 15:31:47
   - deskripsi: Mrenh Gongveal house in Cambodia
