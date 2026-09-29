@@ -1,6 +1,6 @@
 # Review batch-023
 
-Diperiksa 2026-09-29T13:09:26.337Z. Berkas: batch-023.md.
+Diperiksa 2026-09-29T13:09:40.609Z. Berkas: batch-023.md.
 
 ## puaka — lulus-otomatis
 
@@ -50,9 +50,6 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 ## wd-q13021218 — lulus-otomatis
 
 Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**warn**
-- `short_description` Tidak muncul di kutipan mana pun: Thai. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target rich: 6 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai.

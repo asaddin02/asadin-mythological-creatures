@@ -1,0 +1,732 @@
+{
+  "batch_id": "batch-024",
+  "checked_at": "2026-09-29T13:14:39.016Z",
+  "files": [
+    "batch-024.md"
+  ],
+  "parse_problems": [],
+  "missing": [],
+  "entries": [
+    {
+      "slug": "shiva",
+      "file": "batch-024.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 9,
+        "sources": 2,
+        "images": 1
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Shaivites. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "manual",
+          "where": "images[0] (File:COLLECTIE TROPENMUSEUM Beeld van Shiva Dijeng-plateau TMnr 60037355.jpg)",
+          "message": "Keterkaitan otomatis: nama berkas, deskripsi berkas, kategori \"Shiva in Indonesia\", dipakai di en.wikipedia.org: Shiva. Cek visual tetap diperlukan."
+        }
+      ],
+      "claims": [
+        {
+          "id": "shiva-c01",
+          "source_id": "shiva-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Shiva (शिव, 'the Auspicious One'), also known as Mahadeva ('the Great God') and Shankara, is one of the principal deities of Hinduism and the Supreme Being in Shaivism.",
+          "statement_id": "Siwa (शिव, 'Yang Membawa Keberuntungan'), juga dikenal sebagai Mahadewa ('Dewa Agung') dan Shankara, adalah salah satu dewa utama agama Hindu dan Yang Mahatinggi dalam tradisi Saiwa.",
+          "quote": "and Shankara, is one of the principal deities of Hinduism. He is the Supreme Being in Shaivism, one of the major traditions within Hinduism.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c02",
+          "source_id": "shiva-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Shaiva tradition Shiva is the Supreme Lord who creates, protects and transforms the universe; in the Trimurti with Brahma and Vishnu he is known as the Destroyer.",
+          "statement_id": "Dalam tradisi Saiwa, Siwa adalah Tuhan Yang Mahatinggi yang mencipta, memelihara, dan mengubah alam semesta; dalam Trimurti bersama Brahma dan Wisnu ia dikenal sebagai Sang Pelebur.",
+          "quote": "In the Shaivite tradition, Shiva is the Supreme Lord who creates, protects and transforms the universe.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c03",
+          "source_id": "shiva-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Shiva has benevolent and fearsome aspects: an omniscient ascetic yogi on Kailasa and a householder with Parvati and their children Ganesha and Kartikeya, and in fierce aspects a slayer of demons.",
+          "statement_id": "Siwa memiliki aspek welas asih dan menakutkan: ia digambarkan sebagai yogi mahatahu yang bertapa di Kailasa dan kepala keluarga bersama Parwati serta anak-anaknya, Ganesha dan Kartikeya, dan dalam aspek garangnya membinasakan raksasa.",
+          "quote": "Shiva has many aspects, benevolent as well as fearsome. In benevolent aspects, he is depicted as an omniscient yogi who lives an ascetic life on Kailasa as well as a householder with his wife Parvati and his two children, Ganesha and Kartikeya. In his fierce aspects, he is often depicted slaying demons.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c04",
+          "source_id": "shiva-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Shiva is also known as Adiyogi (the first yogi), patron god of yoga, meditation and the arts.",
+          "statement_id": "Siwa juga dikenal sebagai Adiyogi (yogi pertama), dewa pelindung yoga, meditasi, dan seni.",
+          "quote": "Shiva is also known as Adiyogi (the first yogi), regarded as the patron god of yoga, meditation and the arts.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c05",
+          "source_id": "shiva-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Shiva's attributes include the serpent king Vasuki round his neck, the crescent moon, the Ganga flowing from his matted hair, the third eye, the trident and the damaru; he is usually worshipped as the lingam.",
+          "statement_id": "Ciri ikonografi Siwa antara lain raja ular Vasuki di lehernya, bulan sabit, Sungai Gangga yang mengalir dari rambut gimbalnya, mata ketiga di dahinya, trisula, dan damaru; ia biasanya dipuja dalam wujud lingga.",
+          "quote": "The iconographical attributes of Shiva are the serpent king Vasuki around his neck, the adorning crescent moon, the holy river Ganga flowing from his matted hair, the third eye on his forehead",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c06",
+          "source_id": "shiva-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Shiva is a pan-Hindu deity revered widely in India, Nepal, Bangladesh, Sri Lanka and Indonesia (especially Java and Bali).",
+          "statement_id": "Siwa adalah dewa seluruh umat Hindu yang dipuja luas di India, Nepal, Bangladesh, Sri Lanka, dan Indonesia (terutama Jawa dan Bali).",
+          "quote": "Shiva is a pan-Hindu deity, revered widely by Hindus in India, Nepal, Bangladesh, Sri Lanka and Indonesia (especially in Java and Bali).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c07",
+          "source_id": "shiva-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Though associated with the Vedic deity Rudra, Shiva may have non-Vedic roots.",
+          "statement_id": "Meski dikaitkan dengan dewa Weda Rudra, Siwa mungkin berakar dari luar tradisi Weda.",
+          "quote": "Though associated with Vedic deity Rudra, Shiva may have non-Vedic roots",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c08",
+          "source_id": "shiva-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, in Hinduism the universe regenerates in cycles, and Shiva destroys it at the end of each cycle, allowing a new creation.",
+          "statement_id": "Menurut World History Encyclopedia, dalam agama Hindu alam semesta beregenerasi dalam siklus, dan Siwa meleburnya pada akhir setiap siklus sehingga penciptaan baru dapat terjadi.",
+          "quote": "In Hinduism, the universe is thought to regenerate in cycles (every 2,160,000,000 years). Shiva destroys the universe at the end of each cycle which then allows for a new Creation.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shiva-c09",
+          "source_id": "shiva-s2",
+          "host": "www.worldhistory.org",
+          "statement": "The poison Shiva drank burned his throat and left a permanent blue scar, so he became Nilakantha, Blue Throat.",
+          "statement_id": "Racun yang diminum Siwa membakar tenggorokannya dan meninggalkan bekas biru permanen, sehingga ia bergelar Nilakantha, Si Leher Biru.",
+          "quote": "The poison burned his throat and left a permanent blue scar, hence one of his many titles became Nilakantha or Blue Throat.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:COLLECTIE TROPENMUSEUM Beeld van Shiva Dijeng-plateau TMnr 60037355.jpg",
+          "claimed_license": "CC BY-SA 3.0",
+          "evidence": "Judul dan deskripsi berkas menyebut Shiva (\"Shiva sculpture, Dieng Plateau\"); kategori Shiva in Indonesia; dipakai di artikel Wikipedia en Shiva.",
+          "image_type": "sculpture-or-relief",
+          "commons_license": "CC BY-SA 3.0",
+          "rights": "OPEN_LICENSE",
+          "author": "Isidore van Kinsbergen",
+          "date": "1864",
+          "description": "Shiva sculpture, Dieng Plateau",
+          "restrictions": null,
+          "categories": [
+            "Black and white photographs of Indonesia in the 1860s",
+            "CC-BY-SA-3.0",
+            "Dieng sculptures",
+            "Images from KIT, Voorstelling Object - nissen",
+            "Images from the Tropenmuseum",
+            "Lotus position in art",
+            "Photographs by Isidore van Kinsbergen",
+            "Shiva in Indonesia",
+            "Statues in Indonesia"
+          ],
+          "used_on": [
+            "ca.wikipedia.org: Xiva (hinduisme)",
+            "en.wikipedia.org: Shiva",
+            "ko.wikipedia.org: 시바"
+          ],
+          "auto_evidence": [
+            "nama berkas",
+            "deskripsi berkas",
+            "kategori \"Shiva in Indonesia\"",
+            "dipakai di en.wikipedia.org: Shiva"
+          ],
+          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/shiva-1.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "zeus",
+      "file": "batch-024.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 10,
+        "sources": 3,
+        "images": 1
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 10 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Greece, Romans. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "manual",
+          "where": "images[0] (File:Zeus Otricoli Pio-Clementino Inv257.jpg)",
+          "message": "Keterkaitan otomatis: nama berkas, deskripsi berkas, kategori \"Bust of Otricoli Zeus (Pio Clementino Museum)\", dipakai di bar.wikipedia.org: Zeus. Cek visual tetap diperlukan."
+        }
+      ],
+      "claims": [
+        {
+          "id": "zeus-c01",
+          "source_id": "zeus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Zeus (Ζεύς) is the supreme deity of the Greek pantheon, a sky and thunder god of ancient Greek religion and mythology who rules as king of the gods on Mount Olympus.",
+          "statement_id": "Zeus (Ζεύς) adalah dewa tertinggi jajaran dewa Yunani, dewa langit dan guntur dalam agama dan mitologi Yunani kuno yang memerintah sebagai raja para dewa di Gunung Olimpus.",
+          "quote": "is the supreme deity of the Greek pantheon. He is a sky and thunder god in ancient Greek religion and mythology, who rules as king of the gods on Mount Olympus.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c02",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Zeus was King of the Gods and god of sky, weather, law and order, destiny and kingship, shown as a regal mature man with a dark beard, with the lightning bolt, royal sceptre and eagle.",
+          "statement_id": "Menurut theoi.com, Zeus raja para dewa dan dewa langit, cuaca, hukum dan ketertiban, takdir, serta kekuasaan raja, digambarkan sebagai laki-laki dewasa berwibawa berjanggut gelap, dengan atribut petir, tongkat kerajaan, dan elang.",
+          "quote": "ZEUS was the King of the Gods and the god of the sky, weather, law and order, destiny and fate, and kingship. He was depicted as a regal, mature man with a sturdy figure and dark beard. His usual attributes were a lightning bolt, a royal sceptre and an eagle.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c03",
+          "source_id": "zeus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In ancient Rome, Zeus was identified with Jupiter.",
+          "statement_id": "Di Roma kuno, Zeus disamakan dengan dewa Jupiter.",
+          "quote": "In ancient Rome, Zeus was identified with the god Jupiter.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c04",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "Zeus was the youngest child of the Titans Kronos and Rhea; Kronos devoured each child at birth, but Zeus escaped when his mother gave the Titan a swaddled stone.",
+          "statement_id": "Zeus anak bungsu Titan Kronos dan Rhea; Kronos menelan setiap anaknya saat lahir, tetapi Zeus diselamatkan ibunya yang memberi Kronos batu berbalut kain.",
+          "quote": "Zeus was the youngest child of the Titans Kronos (Cronus) and Rheia. Kronos devoured each of his children as they were born, but Zeus escaped this fate when his mother spirited him away, handing the Titan a stone substitute wrapped in swaddling cloth.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c05",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "Zeus was raised secretly on Mount Dikte in Crete, nursed by nymphs on the goat Amaltheia's milk; grown, he made Kronos disgorge his siblings.",
+          "statement_id": "Zeus dibesarkan diam-diam di Gunung Dikte di Kreta, diasuh para nimfa dengan susu kambing Amaltheia; setelah dewasa ia memaksa Kronos memuntahkan saudara-saudaranya.",
+          "quote": "The god was raised in secrecy on Mount Dikte in Krete (Crete) where he was nursed by nymphs on the milk of the goat Amaltheia",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c06",
+          "source_id": "zeus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In most traditions Zeus is married to Hera, by whom he fathered Ares, Eileithyia, Hebe and Hephaestus; by his first wife Metis he had Athena.",
+          "statement_id": "Dalam kebanyakan tradisi Zeus menikah dengan Hera, yang memberinya Ares, Eileithyia, Hebe, dan Hephaestus; dari istri pertamanya, Metis, lahir Athena.",
+          "quote": "In most traditions, he is married to Hera, by whom he is usually said to have fathered Ares, Eileithyia, Hebe, and Hephaestus.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c07",
+          "source_id": "zeus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Zeus was infamous for love affairs producing many divine and heroic offspring, including Apollo, Artemis, Hermes, Persephone, Dionysus, Perseus and Heracles.",
+          "statement_id": "Zeus terkenal karena petualangan cintanya yang melahirkan banyak keturunan ilahi dan pahlawan, termasuk Apollo, Artemis, Hermes, Persephone, Dionysus, Perseus, dan Herakles.",
+          "quote": "Zeus was also infamous for his erotic escapades. These resulted in many divine and heroic offspring, including Apollo, Artemis, Hermes, Persephone, Dionysus, Perseus, Heracles, Helen of Troy, Minos, and the Muses.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c08",
+          "source_id": "zeus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Zeus seduced many mortal women in disguise, such as Leda as a swan, Europa as a bull and Danae as a shower of gold.",
+          "statement_id": "Menurut theoi.com, Zeus merayu banyak perempuan fana dalam samaran, misalnya Leda sebagai angsa, Europa sebagai banteng, dan Danae sebagai hujan emas.",
+          "quote": "Zeus seduced many mortal woman including Leda in the guise of a swan, Europa as a bull, Danae as a shower of gold",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c09",
+          "source_id": "zeus-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Zeus was king of the twelve Olympians and supreme Greek god; he controlled the weather, gave signs and omens, and dispensed justice and order from Mount Olympus.",
+          "statement_id": "Menurut World History Encyclopedia, Zeus raja kedua belas dewa Olimpus dan dewa tertinggi agama Yunani; ia mengendalikan cuaca, memberi tanda dan pertanda, dan menegakkan keadilan serta ketertiban dari Gunung Olimpus.",
+          "quote": "Zeus was the king of the 12 Olympian gods and the supreme god in Greek religion. Zeus is often referred to as the Father, as the god of thunder, and the 'cloud-gatherer'. Zeus controlled the weather and offered signs and omens.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "zeus-c10",
+          "source_id": "zeus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Zeus is the Greek continuation of *Dyēus, the Proto-Indo-European god of the daytime sky.",
+          "statement_id": "Nama Zeus adalah lanjutan Yunani dari *Dyēus, nama dewa langit siang dalam bahasa Proto-Indo-Eropa.",
+          "quote": "Zeus is the Greek continuation of *Dyēus, the name of the Proto-Indo-European god of the daytime sky",
+          "context": "etymology",
+          "status": "exact"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Zeus Otricoli Pio-Clementino Inv257.jpg",
+          "claimed_license": "Public domain",
+          "evidence": "Nama dan deskripsi berkas menyebut Zeus (\"So-called 'Zeus of Otricoli'\"); gambar utama artikel Wikipedia en Zeus.",
+          "image_type": "sculpture-or-relief",
+          "commons_license": "Public domain",
+          "rights": "PUBLIC_DOMAIN",
+          "author": "Unknown artist Unknown artist",
+          "date": null,
+          "description": "So-called “Zeus of Otricoli”. Marble, Roman copy after a Greek original from the 4th century.",
+          "restrictions": null,
+          "categories": [
+            "Artworks with known accession number",
+            "Artworks without Wikidata item",
+            "Bust of Otricoli Zeus (Pio Clementino Museum)",
+            "DDBstudio Kleine Bilder Große Geschichten",
+            "PD-self",
+            "Self-published work",
+            "Template Unknown (artist)"
+          ],
+          "used_on": [
+            "als.wikipedia.org: Griechische Kultur",
+            "ar.wikipedia.org: موريطنية",
+            "arz.wikipedia.org: ميثولوجيا يونانيه",
+            "az.wikipedia.org: Yunan tanrılarının siyahısı",
+            "bar.wikipedia.org: Zeus",
+            "bcl.wikipedia.org: Mitolohiyang Griyego",
+            "be.wikipedia.org: Музей Пія-Клімента",
+            "bg.wikipedia.org: Зевс",
+            "bg.wikipedia.org: Древна Гърция",
+            "br.wikipedia.org: Gwengelouriezh Hellaz",
+            "ca.wikipedia.org: Antiga Grècia",
+            "ca.wikipedia.org: Zeus",
+            "ca.wikipedia.org: Religió de l'antiga Grècia",
+            "ceb.wikipedia.org: Zeus",
+            "cs.wikipedia.org: Perseus"
+          ],
+          "auto_evidence": [
+            "nama berkas",
+            "deskripsi berkas",
+            "kategori \"Bust of Otricoli Zeus (Pio Clementino Museum)\"",
+            "dipakai di bar.wikipedia.org: Zeus"
+          ],
+          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/zeus-1.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "dragon",
+      "file": "batch-024.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 1,
+        "images": 1
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 6 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[1]",
+          "message": "Tidak muncul di kutipan mana pun: Asian, China, Greece. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[2].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"j r r tolkien ursula k le guin and george r r…\"). Tulis ulang dengan kata-kata sendiri."
+        },
+        {
+          "level": "manual",
+          "where": "images[0] (File:St Catherine, St George and the Dragon (Mästaren från Kappenberg) - Nationalmuseum - 18337 (brightened), draken.png)",
+          "message": "Keterkaitan otomatis: nama berkas, deskripsi berkas, dipakai di en.wikipedia.org: Dragon. Cek visual tetap diperlukan."
+        }
+      ],
+      "claims": [
+        {
+          "id": "dragon-c01",
+          "source_id": "dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The dragon is a mythical creature of folklore worldwide, roughly serpentine with features like wings and claws, seen as powerful and awe-inspiring.",
+          "statement_id": "Naga adalah makhluk mitos dalam cerita rakyat berbagai budaya di dunia, berbentuk kurang lebih seperti ular dengan ciri hewan lain seperti sayap dan cakar, dan dipandang kuat serta menggetarkan.",
+          "quote": "A dragon is a mythical creature found in the folklore of cultures throughout the world. It is roughly serpentine in form, and often possesses features drawn from different animals, such as wings and claws. In nearly all cultures, it is conceived of as a powerful and awe-inspiring creature.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-c02",
+          "source_id": "dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Dragon-like creatures appear in ancient Mesopotamian art; in East Asia dragons were usually positive, Chinese dragons governed rain, sea and water, and from the Han dynasty were imperial emblems.",
+          "statement_id": "Makhluk mirip naga muncul dalam seni Mesopotamia kuno; di Asia Timur naga umumnya makhluk baik, naga Tiongkok menguasai hujan, laut, dan air, dan sejak dinasti Han menjadi lambang kekuasaan kaisar.",
+          "quote": "In East Asia, dragons were usually regarded as positive beings; Chinese dragons were thought to govern the rain, the sea, and other forms of water, and from the Han dynasty onwards they were emblems of imperial power.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-c03",
+          "source_id": "dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ancient Greek drakontes were supernatural serpents defeated by heroes or gods in myth but linked to healing and wealth in cult; in the Western tradition dragons are fire-breathing embodiments of evil and death.",
+          "statement_id": "Drakon Yunani kuno adalah ular besar bersifat gaib yang dikalahkan pahlawan atau dewa dalam mitos tetapi dalam pemujaan dikaitkan dengan penyembuhan dan kekayaan; dalam tradisi Barat naga menyemburkan api dan melambangkan kejahatan serta kematian.",
+          "quote": "Ancient Greek drakontes were large serpents endowed with supernatural qualities; in myth they were defeated by heroes or gods, whereas in cult they were gentle figures associated with healing and wealth. In the Western tradition, dragons have been depicted as fire-breathing embodiments of evil, associated with death.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-c04",
+          "source_id": "dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The word dragon entered English in the early 13th century from Old French, from Latin draco ('huge serpent'), from Ancient Greek δράκων (drákōn), 'serpent'.",
+          "statement_id": "Kata dragon masuk ke bahasa Inggris pada awal abad ke-13 dari bahasa Prancis Kuno, dari Latin draco ('ular besar'), dari Yunani Kuno δράκων (drákōn), 'ular'.",
+          "quote": "The word dragon entered the English language in the early 13th century from Old French dragon, which, in turn, comes from Latin draco (genitive draconis), meaning \"huge serpent, dragon\", from Ancient Greek: δράκων, drákōn (genitive δράκοντος, drákontos) \"serpent\".",
+          "context": "etymology",
+          "status": "loose"
+        },
+        {
+          "id": "dragon-c05",
+          "source_id": "dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Greek δράκων most likely derives from the verb δέρκομαι (dérkomai), 'I see', perhaps referring to a deadly glance or sharp eyes.",
+          "statement_id": "Kata Yunani δράκων kemungkinan berasal dari kata kerja δέρκομαι (dérkomai), 'aku melihat', yang mungkin merujuk pada tatapan maut atau mata tajam.",
+          "quote": "The Greek word δράκων is most likely derived from the Greek verb δέρκομαι (dérkomai) meaning \"I see\"",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-c06",
+          "source_id": "dragon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Dragons feature in modern fiction by writers such as J. R. R. Tolkien, Ursula K. Le Guin and George R. R. Martin.",
+          "statement_id": "Naga muncul dalam karya fiksi modern penulis seperti J. R. R. Tolkien, Ursula K. Le Guin, dan George R. R. Martin.",
+          "quote": "Dragons have featured in works of modern fiction by writers such as J. R. R. Tolkien, Ursula K. Le Guin, and George R. R. Martin.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:St Catherine, St George and the Dragon (Mästaren från Kappenberg) - Nationalmuseum - 18337 (brightened), draken.png",
+          "claimed_license": "Public domain",
+          "evidence": "Nama dan deskripsi berkas menyebut the Dragon (\"St Catherine / St George and the Dragon\"); gambar utama artikel Wikipedia en Dragon.",
+          "image_type": "traditional-artwork",
+          "commons_license": "Public domain",
+          "rights": "PUBLIC_DOMAIN",
+          "author": "Jan Baegert",
+          "date": "Unknown date",
+          "description": "St Catherine / St George and the Dragon. Brightened from the original .",
+          "restrictions": null,
+          "categories": [
+            "CC-PD-Mark",
+            "Content made available through Wikimedia Sverige partnerships",
+            "Extracted images",
+            "Images from the Nationalmuseum Stockholm",
+            "Licensed-PD-Art missing SDC copyright license",
+            "Licensed-PD-Art missing SDC digital representation of",
+            "Media contributed by Nationalmuseum Stockholm: 2017-11",
+            "PD-Art (PD-old-auto)",
+            "PD-old-100",
+            "Religious paintings in the Nationalmuseum Stockholm",
+            "Unknown date"
+          ],
+          "used_on": [
+            "en.wikipedia.org: Dragon",
+            "sv.wikipedia.org: Drake",
+            "sv.wikipedia.org: Monster",
+            "te.wikipedia.org: డ్రాగన్"
+          ],
+          "auto_evidence": [
+            "nama berkas",
+            "deskripsi berkas",
+            "dipakai di en.wikipedia.org: Dragon"
+          ],
+          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/dragon-1.png"
+        }
+      ]
+    },
+    {
+      "slug": "vishnu",
+      "file": "batch-024.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 7,
+        "sources": 2,
+        "images": 1
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 7 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "images[0] (File:Vishnu from Gita Govinda.jpg)",
+          "message": "Keterkaitan otomatis: nama berkas, deskripsi berkas, kategori \"Vishnu\", dipakai di cdo.wikipedia.org: Vishnu. Cek visual tetap diperlukan."
+        }
+      ],
+      "claims": [
+        {
+          "id": "vishnu-c01",
+          "source_id": "vishnu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Vishnu (विष्णु, 'All-Pervasive'), also Narayana and Hari, is one of the principal deities of Hinduism, the Supreme Being in Vaishnavism and the god of preservation.",
+          "statement_id": "Wisnu (विष्णु, 'Yang Meliputi Segala'), juga Narayana dan Hari, adalah salah satu dewa utama agama Hindu, Yang Mahatinggi dalam tradisi Waisnawa, dan dewa pemeliharaan.",
+          "quote": "also known as Narayana and Hari, is one of the principal deities of Hinduism. He is the Supreme Being within Vaishnavism, one of the major traditions within contemporary Hinduism, and the god of preservation (sattva).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c02",
+          "source_id": "vishnu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Trimurti with Brahma and Shiva, Vishnu is known as the Preserver, and Lakshmi is his partner.",
+          "statement_id": "Dalam Trimurti bersama Brahma dan Siwa, Wisnu dikenal sebagai Sang Pemelihara, dan Lakshmi adalah pasangannya.",
+          "quote": "Vishnu is known as The Preserver within the Trimurti, the triple deity of supreme divinity that includes Brahma and Shiva.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c03",
+          "source_id": "vishnu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In benevolent aspects Vishnu is shown lying on the coils of the serpent Shesha in the primeval ocean of milk, Kshira Sagara, with Lakshmi.",
+          "statement_id": "Dalam aspek welas asihnya Wisnu digambarkan berbaring di atas lilitan ular Sesha di samudra susu purba Kshira Sagara bersama Lakshmi.",
+          "quote": "In benevolent aspects, he is depicted as an omniscient being sleeping on the coils of the serpent Shesha (who represents time) floating in the primeval ocean of milk called Kshira Sagara with his consort, Lakshmi.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c04",
+          "source_id": "vishnu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Whenever the world is threatened by evil and chaos, Vishnu descends as an avatar to restore cosmic order and protect dharma; the Dashavatara are his ten primary avatars, Rama and Krishna the most worshipped.",
+          "statement_id": "Setiap kali dunia terancam kejahatan dan kekacauan, Wisnu turun sebagai awatara untuk memulihkan tatanan kosmis dan melindungi dharma; Dashavatara adalah sepuluh awatara utamanya, dan Rama serta Kresna paling banyak dipuja.",
+          "quote": "Whenever the world is threatened with evil, chaos, and destructive forces, Vishnu descends in the form of an avatar (incarnation) to restore the cosmic order and protect dharma. The Dashavatara are the ten primary avatars of Vishnu. Of these ten, Rama and Krishna are the most worshipped",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c05",
+          "source_id": "vishnu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name Vishnu means 'all pervasive'; he is worshipped in temples across India and beyond.",
+          "statement_id": "Nama Wisnu berarti 'yang meliputi segala'; ia dipuja di kuil-kuil di seluruh India dan di luarnya.",
+          "quote": "Vishnu (also spelled Viṣṇu, Sanskrit: विष्णु) means 'all pervasive'",
+          "context": "etymology",
+          "status": "loose"
+        },
+        {
+          "id": "vishnu-c06",
+          "source_id": "vishnu-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Vishnu is the Preserver and guardian of humanity who protects dharma and appears on earth in various avatars to fight demons.",
+          "statement_id": "Menurut World History Encyclopedia, Wisnu adalah pemelihara dan pelindung manusia yang menjaga dharma dan muncul di bumi dalam berbagai awatara untuk melawan raksasa.",
+          "quote": "Vishnu is the Preserver and guardian of men, he protects the order of things (dharma), and he appears on earth in various incarnations (avatars) to fight demons and to maintain cosmic harmony.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vishnu-c07",
+          "source_id": "vishnu-s2",
+          "host": "www.worldhistory.org",
+          "statement": "In the churning of the ocean of milk, Vishnu supported Mount Mandara as the giant tortoise Kurma, then became Maya to take the nectar from the demons and give it to the gods.",
+          "statement_id": "Dalam kisah pengadukan samudra susu, Wisnu menopang Gunung Mandara dalam wujud kura-kura raksasa Kurma, lalu menjelma Maya untuk merebut nektar dari para raksasa dan memberikannya kepada para dewa.",
+          "quote": "This he did in the form of Kurma, the giant tortoise, supporting the mountain on his shell.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Vishnu from Gita Govinda.jpg",
+          "claimed_license": "Public domain",
+          "evidence": "Nama dan deskripsi berkas menyebut Vishnu; gambar utama artikel Wikipedia en Vishnu.",
+          "image_type": "traditional-artwork",
+          "commons_license": "Public domain",
+          "rights": "PUBLIC_DOMAIN",
+          "author": "Manaku of Guler",
+          "date": "1730",
+          "description": "A closeup on Vishnu sitting on a lotus. In three of his four hands, he holds a conch, a discus, and a mace.",
+          "restrictions": null,
+          "categories": [
+            "CC-PD-Mark",
+            "Gita Govinda",
+            "PD-Art (PD-old-100-expired)",
+            "PD-old-100-expired",
+            "Vishnu"
+          ],
+          "used_on": [
+            "ar.wikipedia.org: فيشنو",
+            "arz.wikipedia.org: فشنو",
+            "ast.wikipedia.org: Visnú",
+            "ba.wikipedia.org: Вишну",
+            "be.wikipedia.org: Бог",
+            "bg.wikipedia.org: Вишну",
+            "bn.wikipedia.org: হিন্দু দেবদেবী",
+            "ca.wikipedia.org: Vixnu",
+            "cdo.wikipedia.org: Vishnu",
+            "cy.wikipedia.org: Vishnu",
+            "en.wikipedia.org: Hindu deities",
+            "en.wikipedia.org: Bhagavan",
+            "en.wikipedia.org: Hindu mythological wars",
+            "en.wikipedia.org: God",
+            "en.wikipedia.org: Vishnu"
+          ],
+          "auto_evidence": [
+            "nama berkas",
+            "deskripsi berkas",
+            "kategori \"Vishnu\"",
+            "dipakai di cdo.wikipedia.org: Vishnu"
+          ],
+          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/vishnu-1.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "krishna",
+      "file": "batch-024.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 2,
+        "images": 1
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 6 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "images[0] (File:Krishna Holds Up Mount Govardhan (MET 70694) cropped.png)",
+          "message": "Keterkaitan otomatis: nama berkas, deskripsi berkas, dipakai di en.wikipedia.org: Krishna. Cek visual tetap diperlukan."
+        }
+      ],
+      "claims": [
+        {
+          "id": "krishna-c01",
+          "source_id": "krishna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Krishna (कृष्ण), also Govinda, Madhava, Gopala and other names, is a major Hindu deity worshipped as the eighth avatar of Vishnu and as Supreme God in his own right, revered for love, compassion, protection and tenderness.",
+          "statement_id": "Kresna (कृष्ण), juga Govinda, Madhava, Gopala, dan nama lain, adalah dewa utama agama Hindu yang dipuja sebagai awatara kedelapan Wisnu dan sebagai Tuhan Yang Mahatinggi, dihormati karena kasih, welas asih, perlindungan, dan kelembutannya.",
+          "quote": "also known as Govinda, Madhava, Gopala, and other names and titles is a major deity in Hinduism. He is worshipped as the eighth avatar of Vishnu and as the Supreme God in his own right. He is widely revered for his divine qualities of love, compassion, protection, and tenderness.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c02",
+          "source_id": "krishna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Krishna's birthday is celebrated by Hindus every year on Krishna Janmashtami, in late August or early September.",
+          "statement_id": "Hari kelahiran Kresna dirayakan umat Hindu setiap tahun pada Krishna Janmashtami, akhir Agustus atau awal September.",
+          "quote": "Krishna's birthday is celebrated every year by Hindus on Krishna Janmashtami, according to the lunisolar Hindu calendar, which falls in late August or early September of the Gregorian calendar.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c03",
+          "source_id": "krishna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Krishna is often shown dark-skinned in keeping with his name, 'black' or 'dark'; he is central to the Mahabharata, Bhagavata Purana and Bhagavad Gita.",
+          "statement_id": "Kresna sering digambarkan berkulit gelap sesuai arti namanya, 'hitam' atau 'gelap'; ia tokoh sentral Mahabharata, Bhagavata Purana, dan Bhagavad Gita.",
+          "quote": "Krishna is often depicted in dark skin in accordance with meaning of his name, \"black\" or \"dark\".",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c04",
+          "source_id": "krishna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Krishna was born in Mathura to Devaki and Vasudeva but raised by Nanda and Yashoda in Gokul to escape his uncle, the tyrant king Kamsa.",
+          "statement_id": "Kresna lahir di Mathura dari Dewaki dan Wasudewa, tetapi dibesarkan Nanda dan Yashoda di Gokul untuk menghindari pamannya, raja zalim Kamsa.",
+          "quote": "Krishna was born in Mathura to Devaki and Vasudeva, but was raised by Nanda and Yashoda in Gokul to escape his maternal uncle, the tyrant king Kamsa.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c05",
+          "source_id": "krishna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Krishna enchanted the gopis with his flute, lifted Govardhan Hill against devastating rains, defeated Kamsa, founded Dvaraka and served as Arjuna's charioteer in the Kurukshetra War, delivering the Bhagavad Gita.",
+          "statement_id": "Kresna memikat para gopi dengan serulingnya, mengangkat Bukit Govardhan untuk melindungi kaumnya dari hujan dahsyat, mengalahkan Kamsa, mendirikan Dwaraka, dan menjadi kusir kereta Arjuna dalam perang Kurukshetra serta menyampaikan Bhagavad Gita.",
+          "quote": "he enchanted the gopis with his divine flute playing, performed the celestial Rasa Lila, and lifted Govardhan Hill to protect his community from devastating rains. He later defeated Kamsa and restored order in Mathura. He went on to establish the city of Dvaraka and played a central role in the Kurukshetra War, serving as Arjuna’s charioteer",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "krishna-c06",
+          "source_id": "krishna-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Krishna is perhaps the most popular of all the heroes of Hindu mythology.",
+          "statement_id": "Menurut World History Encyclopedia, Kresna mungkin pahlawan paling populer dalam mitologi Hindu.",
+          "quote": "He is perhaps the most popular of all the heroes of Hindu mythology.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Krishna Holds Up Mount Govardhan (MET 70694) cropped.png",
+          "claimed_license": "CC0",
+          "evidence": "Nama dan deskripsi berkas menyebut Krishna (\"Krishna Holds Up Mount Govardhan to Shelter the Villagers of Braj\"); gambar utama artikel Wikipedia en Krishna.",
+          "image_type": "traditional-artwork",
+          "commons_license": "CC0",
+          "rights": "PUBLIC_DOMAIN",
+          "author": "Miskin",
+          "date": "circa 1590–95",
+          "description": "Cropped version of \"Krishna Holds Up Mount Govardhan to Shelter the Villagers of Braj, ca.1590–95, The Met.jpg\"",
+          "restrictions": null,
+          "categories": [
+            "CC-Zero",
+            "Extracted images",
+            "Hindu gods",
+            "Mughal art"
+          ],
+          "used_on": [
+            "en.wikipedia.org: Krishna",
+            "en.wikiquote.org: Krishna",
+            "ne.wikipedia.org: कृष्ण",
+            "tcy.wikipedia.org: ಕೃಷ್ಣ",
+            "tr.wikipedia.org: Krişna"
+          ],
+          "auto_evidence": [
+            "nama berkas",
+            "deskripsi berkas",
+            "dipakai di en.wikipedia.org: Krishna"
+          ],
+          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-024/krishna-1.png"
+        }
+      ]
+    }
+  ]
+}

@@ -909,8 +909,8 @@
     ]
   },
   "short_description": {
-    "id": "Wirunchambang adalah tokoh raksasa dalam kisah Rama versi Thai, putra Phaya Thut dan kerabat Thotsakan, yang dapat menghilang bersama kudanya, Ninlaphahu.",
-    "en": "Wirunchambang is a demon character of the Thai Rama story, son of Phaya Thut and kinsman of Thotsakan, who can turn invisible together with his horse Ninlaphahu.",
+    "id": "Wirunchambang adalah tokoh raksasa dalam kisah perang Rama melawan Thotsakan, putra Phaya Thut dan kerabat Thotsakan, yang dapat menghilang bersama kudanya, Ninlaphahu.",
+    "en": "Wirunchambang is a demon character in the story of Rama's war with Thotsakan, son of Phaya Thut and kinsman of Thotsakan, who can turn invisible together with his horse Ninlaphahu.",
     "claim_ids": [
       "wd-q13021218-c01",
       "wd-q13021218-c02"
