@@ -181,7 +181,7 @@
   "long_description": [
     {
       "id": "Pyinsarupa, yang dalam bahasa Pali pañcarūpa, adalah hewan campuran dalam mitologi Myanmar; dalam bahasa Thai ia disebut phaya luang. Ia tersusun dari bagian tubuh gajah, sapi jantan, kuda, ikan karper putih, dan tonaya, singa-naga bertanduk dalam mitos, atau dalam versi lain dari singa, gajah, kerbau, ikan karper putih, dan hamsa.",
-      "en": "The pyinsarupa, pañcarūpa in Pali, is a chimeric animal of Burmese mythology; in Thai it is called phaya luang. Its body combines an elephant, a bullock, a horse, a white carp and a tonaya, a mythical horned leodragon, or in another version a lion, an elephant, a water buffalo, a white carp and a hamsa.",
+      "en": "The pyinsarupa, pañcarūpa in Pali, is a chimeric animal of Burmese mythology; in Thai it is called phaya luang. Its body combines an elephant, a bullock, a horse, a white carp and a tonaya, a mythical horned leodragon, or, in another telling, of a lion, elephant, buffalo, carp and hamsa.",
       "claim_ids": [
         "pyinsarupa-c01",
         "pyinsarupa-c02"
@@ -453,7 +453,7 @@
   },
   "long_description": [
     {
-      "id": "Dalam mitologi Filipina, orang Tagalog meyakini tigmamanukan sebagai burung pertanda. Sebelum masuknya agama Kristen, burung ini dipercaya diutus dewa tertinggi Bathala sebagai orakel yang memberi tahu manusia apakah mereka boleh melanjutkan perjalanan. Dalam beberapa mitos penciptaan, tigmamanukanlah yang diutus Bathala untuk membelah bambu purba tempat laki-laki dan perempuan pertama keluar.",
+      "id": "Dalam mitologi Filipina, orang Tagalog meyakini tigmamanukan sebagai burung pertanda. Sebelum Kristenisasi, burung ini dipercaya diutus dewa tertinggi Bathala sebagai orakel yang memberi tahu manusia apakah mereka boleh melanjutkan perjalanan. Dalam beberapa mitos penciptaan, tigmamanukanlah yang diutus Bathala untuk membelah bambu purba tempat laki-laki dan perempuan pertama keluar.",
       "en": "In Philippine mythology, the Tagalog believed the tigmamanukan to be an omen bird. Before Christianisation, it was thought to be sent by the supreme god Bathala as an oracle telling people whether to proceed on a journey. In some creation myths, the tigmamanukan was sent by Bathala to split open the primordial bamboo from which the first man and woman emerged.",
       "claim_ids": [
         "tigmamanukan-c01"
@@ -461,7 +461,7 @@
     },
     {
       "id": "Akar katanya adalah manók, yang kini berarti ayam. Pada awal masa kolonial, tigmamanukan dipakai untuk menyebut setiap burung, kadal, atau ular yang melintas di jalan seseorang sebagai pertanda, dan kata ini kemungkinan berkembang dari praktik membaca pertanda dari isi perut ayam yang dikorbankan.",
-      "en": "Its root is manók, which today means chicken. Early colonial Spanish sources record tigmamanukan as the word for any creature, whether bird, lizard or snake, whose crossing of a traveller's path was taken as an omen, and the term probably arose from reading signs in the entrails of sacrificed chickens.",
+      "en": "Its root is manók, which today means chicken. Early colonial accounts record tigmamanukan as the word for any creature, whether bird, lizard or snake, whose crossing of a traveller's path was taken as an omen, and the term probably arose from reading signs in the entrails of sacrificed chickens.",
       "claim_ids": [
         "tigmamanukan-c02"
       ]

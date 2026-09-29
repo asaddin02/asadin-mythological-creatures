@@ -1,0 +1,413 @@
+{
+  "batch_id": "batch-019",
+  "checked_at": "2026-09-29T12:58:15.726Z",
+  "files": [
+    "batch-019.md"
+  ],
+  "parse_problems": [],
+  "missing": [],
+  "entries": [
+    {
+      "slug": "hantu-tinggi",
+      "file": "batch-019.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 4 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "claims (hantu-tinggi-c01)",
+          "message": "Kutipan berasal dari bagian Wikipedia \"Contents move to sidebar hide (Top) 1 Other names 2 Nature 3\" yang ditandai tidak mencantumkan sumber. Dukung klaim ini dengan sumber lain yang independen, atau hapus."
+        },
+        {
+          "level": "warn",
+          "where": "claims (hantu-tinggi-c03)",
+          "message": "Kutipan berasal dari bagian Wikipedia \"Nature [edit] This section does not cite any sources. Please\" yang ditandai tidak mencantumkan sumber. Dukung klaim ini dengan sumber lain yang independen, atau hapus."
+        },
+        {
+          "level": "warn",
+          "where": "claims (hantu-tinggi-c04)",
+          "message": "Kutipan berasal dari bagian Wikipedia \"Nature [edit] This section does not cite any sources. Please\" yang ditandai tidak mencantumkan sumber. Dukung klaim ini dengan sumber lain yang independen, atau hapus."
+        }
+      ],
+      "claims": [
+        {
+          "id": "hantu-tinggi-c01",
+          "source_id": "hantu-tinggi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Hantu Tinggi ('tall ghost') is a being like the hantu raya or genderuwo but so tall its body from the waist up is hidden by clouds; it exists only in western and eastern Malaysia.",
+          "statement_id": "Hantu Tinggi ('hantu tinggi') adalah makhluk mirip hantu raya atau genderuwo, tetapi begitu tinggi hingga tubuhnya dari pinggang ke atas tertutup awan; ia hanya dikenal di wilayah barat dan timur Malaysia.",
+          "quote": "Hantu Tinggi (Tall Ghost) is a being similar to 'Hantu Raya' or 'genderuwo' but so tall its body from the waist up is hidden by clouds. It only exists in the Western and Eastern regions of Malaysia.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "wiki_flag": "bagian tanpa sumber"
+        },
+        {
+          "id": "hantu-tinggi-c02",
+          "source_id": "hantu-tinggi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In West Malaysia it is usually called bajang tinggi ('tall demon') or tinggi puaka; in Indonesia and Borneo, bapak hantu or bapak jin.",
+          "statement_id": "Di Malaysia Barat ia biasa disebut bajang tinggi ('setan tinggi') atau tinggi puaka; di Indonesia dan Kalimantan disebut bapak hantu atau bapak jin.",
+          "quote": "Usually people in West Malaysia call it Bajang Tinggi which means 'tall demon,' or otherwise Tinggi Puaka in modern culture of Malaysia. In Indonesia and Borneo, the common term would be 'Bapak Hantu' or 'Bapak Jin'",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hantu-tinggi-c03",
+          "source_id": "hantu-tinggi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Those who meet the hantu tinggi may suffer broken spines or necks, or blindness if they make eye contact.",
+          "statement_id": "Orang yang bertemu hantu tinggi dapat terkena penyakit fisik seperti patah tulang punggung atau leher, atau buta bila bertatapan mata dengannya.",
+          "quote": "People may be cursed with physical ailments such as broken spines or necks if they encounter Hantu Tinggi, or blindness if they make eye contact.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "wiki_flag": "bagian tanpa sumber"
+        },
+        {
+          "id": "hantu-tinggi-c04",
+          "source_id": "hantu-tinggi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Parents advise children to recite Qur'anic verses with prayers against the hantu tinggi, or to avoid tall forests, hills and mountains.",
+          "statement_id": "Orang tua menasihati anak membaca ayat Al-Qur'an disertai doa untuk berlindung dari hantu tinggi, atau menghindari hutan tinggi, bukit, dan gunung.",
+          "quote": "Parents advise their children to recite Qur'an, or quranic verses, coupled with du'a to protect against Hantu Tinggi, or for their children to avoid tall forests or hills and mountains.",
+          "context": "religious-tradition",
+          "status": "exact",
+          "wiki_flag": "bagian tanpa sumber"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "ho-ly-tinh",
+      "file": "batch-019.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 1
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "images[0] (File:Cáo chín đuôi trong sách Kỹ thuật của người An Nam.jpg)",
+          "message": "Keterkaitan otomatis: nama berkas, deskripsi berkas, dipakai di en.wikipedia.org: Hồ ly tinh. Cek visual tetap diperlukan."
+        }
+      ],
+      "claims": [
+        {
+          "id": "ho-ly-tinh-c01",
+          "source_id": "ho-ly-tinh-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The hồ ly tinh (狐狸精), also hồ tiên, hồ ly or cáo chín đuôi, is a nine-tailed fox of Vietnamese mythology; it has no fixed personality, with stories of foxes harming and helping people.",
+          "statement_id": "Hồ ly tinh (狐狸精), juga hồ tiên, hồ ly, atau cáo chín đuôi, adalah rubah berekor sembilan dalam mitologi Vietnam; sifatnya tidak tetap, ada kisah rubah yang mencelakai dan ada yang menolong orang.",
+          "quote": "is a nine-tailed fox in Vietnamese mythology. They do not have a specific personality; some stories tell about them harming people but along with them are stories about them helping people.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ho-ly-tinh-c02",
+          "source_id": "ho-ly-tinh-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In a famous version, hồ ly tinh are foxes that can cultivate, transform and work magic; after a hundred years three tails, after a thousand six, and at nine (cửu vĩ hồ) they can become human; each tail is a life, and to kill one its tails must first be cut.",
+          "statement_id": "Menurut versi terkenal, hồ ly tinh adalah rubah yang dapat berlatih, berubah wujud, dan bersihir; setelah seratus tahun berekor tiga, setelah seribu tahun berekor enam, dan saat berekor sembilan (cửu vĩ hồ) dapat menjelma manusia; tiap ekor satu nyawa, dan untuk membunuhnya ekornya harus dipotong dulu.",
+          "quote": "According to a quite famous version, hồ ly tinh are foxes that have the ability to cultivate, to be able to transform, and have magic. If they practice for a hundred years, then they will have three tails",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ho-ly-tinh-c03",
+          "source_id": "ho-ly-tinh-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Lĩnh Nam chích quái, the hồ ly tinh harms good people and is killed by Lạc Long Quân; a white nine-tailed fox in a cave took the form of a handsome man or beautiful girl to lure young people.",
+          "statement_id": "Dalam kitab Lĩnh Nam chích quái, hồ ly tinh digambarkan sebagai binatang yang mencelakai orang baik lalu dibunuh Lạc Long Quân; rubah putih berekor sembilan di sebuah gua menjelma laki-laki atau perempuan rupawan untuk memikat pemuda-pemudi.",
+          "quote": "In the book Lĩnh Nam chích quái, the Hồ ly tinh (or Hồ tinh) is also mentioned with the image of an animal that causes harm to good people, then is killed by Lạc Long Quân to eliminate harm to the people.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ho-ly-tinh-c04",
+          "source_id": "ho-ly-tinh-s1",
+          "host": "en.wikipedia.org",
+          "statement": "After Lạc Long Quân attacked the cave with water, the place became a deep pool called Xác Cáo lagoon, today's Tây Hồ.",
+          "statement_id": "Setelah Lạc Long Quân menyerang gua itu dengan air, tempat itu menjadi kolam dalam bernama laguna Xác Cáo, yang kini Tây Hồ.",
+          "quote": "This place became a deep pool called Xác Cáo lagoon (Fox Corpses lagoon), which is Tây Hồ today.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ho-ly-tinh-c05",
+          "source_id": "ho-ly-tinh-s1",
+          "host": "en.wikipedia.org",
+          "statement": "West Lake is the tomb where the nine-tailed fox is buried.",
+          "statement_id": "Danau Barat adalah makam tempat rubah berekor sembilan dikuburkan.",
+          "quote": "West Lake is the tomb where the nine-tailed fox is buried.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Cáo chín đuôi trong sách Kỹ thuật của người An Nam.jpg",
+          "claimed_license": "CC BY-SA 4.0",
+          "evidence": "Judul dan deskripsi berkas menyebut 'Cáo chín đuôi' (rubah berekor sembilan), nama lain hồ ly tinh; gambar utama artikel Wikipedia en Hồ ly tinh.",
+          "image_type": "historical-illustration",
+          "commons_license": "CC BY-SA 4.0",
+          "rights": "OPEN_LICENSE",
+          "author": "Henri Oger",
+          "date": "1909",
+          "description": "Cáo chín đuôi in the book Mechanics and Crafts of the People of Annam",
+          "restrictions": null,
+          "categories": [
+            "Asian legendary creatures",
+            "CC-BY-SA-4.0",
+            "Vietnamese culture"
+          ],
+          "used_on": [
+            "en.wikipedia.org: Hồ ly tinh",
+            "fr.wikipedia.org: Renard dans la culture vietnamienne",
+            "www.wikidata.org: Q110419379"
+          ],
+          "auto_evidence": [
+            "nama berkas",
+            "deskripsi berkas",
+            "dipakai di en.wikipedia.org: Hồ ly tinh"
+          ],
+          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-019/ho-ly-tinh-1.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "lembuswana",
+      "file": "batch-019.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 6 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "lembuswana-c01",
+          "source_id": "lembuswana-s1",
+          "host": "id.wikipedia.org",
+          "statement": "The lembuswana is a creature of ancient Kutai mythology, emblem from the Kutai kingdom, the oldest Hindu kingdom, to the Sultanate of Kutai Kartanegara Ing Martadipura; sacred as Vishnu's mount, its name is from Sanskrit lembu ('cow') and svarna ('gold').",
+          "statement_id": "Lembuswana adalah satwa mitologi kuno rakyat Kutai yang menjadi lambang sejak Kerajaan Kutai, kerajaan Hindu tertua, hingga Kesultanan Kutai Kartanegara Ing Martadipura; ia dianggap suci sebagai tunggangan Dewa Wisnu, dan namanya dari Sanskerta lembu ('sapi') dan svarna ('emas').",
+          "quote": "Lembuswana merupakan satwa yang ada dalam mitologi kuno rakyat Kutai yang telah ada sejak zaman dahulu, yang kemudian menjadi lambang pada zaman Kerajaan Hindu tertua yaitu Kerajaan Kutai sampai dengan masa Kesultanan Kutai Kartanegara Ing Martadipura. Lembuswana merupakan sosok yang dianggap suci oleh masyarakat setempat karena dipercaya sebagai tunggangan Dewa Wishnu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c02",
+          "source_id": "lembuswana-s1",
+          "host": "id.wikipedia.org",
+          "statement": "The lembuswana is golden, a crowned bull with an elephant's trunk and tusks, garuda wings, rooster claws and spurs and dragon scales; it is the mount of Batara Guru and the spiritual mount of King Mulawarman (around the 5th century CE).",
+          "statement_id": "Lembuswana berwarna keemasan, berwujud lembu bermahkota, berbelalai dan bergading gajah, bersayap garuda, berkuku dan bertaji ayam jantan, bersisik naga; ia kendaraan Batara Guru dan kendaraan spiritual Raja Mulawarman (sekitar abad ke-5 Masehi).",
+          "quote": "Lembuswana merupakan sosok berwana keemasan berwujud binatang lembu atau sapi yang mengenakan mahkota di atas kepalanya, memiliki belalai dan gading seperti gajah, sayap yang mengepak seperti garuda, kuku dan taji yang menyerupai ayam jantan dengan bagian badan yang bersisik seperti naga.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c03",
+          "source_id": "lembuswana-s1",
+          "host": "id.wikipedia.org",
+          "statement": "The lembuswana is believed to guard the Mahakam River from danger, keep its water clean and help fishermen find fishing spots.",
+          "statement_id": "Lembuswana dipercaya menjaga Sungai Mahakam dari bahaya, menjaga airnya tetap bersih, dan membantu nelayan menemukan lokasi menangkap ikan.",
+          "quote": "Lembuswana dipercaya menjaga Sungai Mahakam terhadap bahaya serta memastikan bahwa air sungai Mahakam tetap bersih dan jernih. Selain itu, sosok ini dipercaya dapat membantu nelayan dalam mencari rezeki dengan memberikan petunjuk lokasi untuk menangkap ikan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c04",
+          "source_id": "lembuswana-s1",
+          "host": "id.wikipedia.org",
+          "statement": "The legend of the lembuswana's emergence from the Mahakam is tied to the birth of Princess Karang Melenuyang, who married King Aji Batara Agung Dewa Sakti and founded the Kutai Kartanegara royal line.",
+          "statement_id": "Legenda kemunculan lembuswana dari dasar Sungai Mahakam dihubungkan dengan kelahiran Putri Karang Melenuyang, yang kelak menikah dengan Raja Aji Batara Agung Dewa Sakti dan menurunkan raja-raja Kutai Kartanegara.",
+          "quote": "Legenda kemunculan sosok Lembuswana yang dipercaya sebagai penguasa yang berdiam di dalam Sungai Mahakam banyak dihubungkan dengan kelahiran Putri Karang Melenuyang",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c05",
+          "source_id": "lembuswana-s1",
+          "host": "id.wikipedia.org",
+          "statement": "A lembuswana statue, emblem of Kutai Kartanegara, stands in front of the Mulawarman Museum in Tenggarong, East Kalimantan.",
+          "statement_id": "Patung lembuswana, lambang Kutai Kartanegara, antara lain berdiri di halaman depan Museum Mulawarman, Tenggarong, Kalimantan Timur.",
+          "quote": "di halaman depan Museum Mulawarman, Tenggarong, Kutai Kartanegara, Kalimantan Timur.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "lembuswana-c06",
+          "source_id": "lembuswana-s1",
+          "host": "id.wikipedia.org",
+          "statement": "The lembuswana embodies Paksi Liman Jonggo Yokso: one should have noble qualities as protector of the people; its crown symbolizes royal power and its trunk Ganesha, god of intelligence.",
+          "statement_id": "Lembuswana mengandung falsafah Paksi Liman Jonggo Yokso: seseorang seharusnya bersifat mulia sebagai pengayom rakyat; mahkotanya lambang kekuasaan raja dan belalainya lambang Dewa Ganesha, dewa kecerdasan.",
+          "quote": "Lembuswana memiliki falsafah Paksi Liman Jonggo Yokso yang dimaksudkan bahwa seseorang seharusnya memiliki sifat-sifat mulia sebagai pengayom rakyat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "limokon",
+      "file": "batch-019.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 4 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "limokon-c01",
+          "source_id": "limokon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Mandaya, Bagobo and Manobo of Mindanao believed the limokon an omen bird, like the tigmamanukan among the Tagalog of Luzon.",
+          "statement_id": "Orang Mandaya, Bagobo, dan Manobo di Mindanao meyakini limokon sebagai burung pertanda, seperti tigmamanukan bagi orang Tagalog di Luzon.",
+          "quote": "In Philippine mythology, the Limokon was believed by the Mandaya, Bagobo, and Manobo people of Mindanao to be an omen bird. In Luzon, a blue bird called the Tigmamanukan was similarly believed by the Tagalog people to be an omen bird.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "limokon-c02",
+          "source_id": "limokon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Francisco Combes (1667) recorded that the people firmly believed in omens, including from birds like the limocon.",
+          "statement_id": "Francisco Combes (1667) mencatat bahwa masyarakat Mindanao sangat memercayai pertanda, antara lain dari burung seperti limocon.",
+          "quote": "What they believe in thoroughly are omens, which are almost general in all the islands. There are many of them: of birds, like the limocon",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "limokon-c03",
+          "source_id": "limokon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The term limokon likely named various wild pigeons in the Philippine languages, some thought magical or omen birds.",
+          "statement_id": "Istilah limokon kemungkinan dipakai untuk berbagai merpati hutan dalam berbagai bahasa di Filipina, sebagian dianggap sakti atau burung pertanda.",
+          "quote": "Likely the term 'limokon' applied to various types of wild pigeons in the various languages in the Philippines, some of which were considered 'magical' and or 'omen birds'.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "limokon-c04",
+          "source_id": "limokon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Fay Cooper Cole (1913), spirits commonly speak to mortals through the limokon's call; all understand and respect its warnings, and a sale is stopped if it warns.",
+          "statement_id": "Menurut Fay Cooper Cole (1913), roh biasa berbicara kepada manusia lewat suara limokon; semua orang memahami dan menghormati peringatannya, dan jual beli dihentikan bila ia memberi peringatan.",
+          "quote": "A common method used by the spirits to communicate with mortals is through the call of the limokon. All the people know the meaning of its calls and all respect its warnings. If a man is starting to buy or trade for an article and this bird gives its warning the sale is stopped.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "ma-bong",
+      "file": "batch-019.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 6 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "ma-bong-c01",
+          "source_id": "ma-bong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ma bong (ม้าบ้อง), Phi Ma bong or Phi Ma is a supernatural spirit believed in by the Lanna of northern Thailand; its form varies by story.",
+          "statement_id": "Ma bong (ม้าบ้อง), Phi Ma bong, atau Phi Ma adalah roh gaib yang dipercaya orang Lanna di Thailand utara; wujud dan cirinya berbeda menurut cerita.",
+          "quote": "or Phi Ma bong (ผีม้าบ้อง, [pʰǐː máː bɔ̂ːŋ], ผีม้าบอง, [pʰǐː máː bɔ̂ːŋ]), simply Phi Ma (ผีม้า, [pʰǐː máː]) is a supernatural spirit believed by the Lanna people of northern Thailand. Its appearance and characteristics vary according to different stories.",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "ma-bong-c02",
+          "source_id": "ma-bong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some say ma bong has a horse's lower body and a man's upper body, the spirit of men who never had partners; some that it is a dead horse's spirit that nibbles dried buffalo heads; others give it a beautiful woman's upper body that lures and kills young men.",
+          "statement_id": "Sebagian menggambarkan ma bong bertubuh bawah kuda dan bertubuh atas laki-laki, arwah laki-laki yang belum pernah beristri; sebagian menganggapnya arwah kuda mati yang suka menggerogoti kepala kerbau kering; yang lain menyebutnya bertubuh atas perempuan cantik yang memikat lalu membunuh pemuda.",
+          "quote": "Some describe Ma bong as a creature with the lower body of a horse and the upper body of a human male, said to be the spirit of men who have never had sexual partners. Or some believe that it is the spirit of a dead horse, also believed Ma bong likes to nibble on dried buffalo heads.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ma-bong-c03",
+          "source_id": "ma-bong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Despite variations, ma bong is always associated with horses; its presence brings neighing and galloping, and it vanishes leaving only horse tracks.",
+          "statement_id": "Meski beragam, ma bong selalu dikaitkan dengan kuda; kehadirannya disertai suara ringkikan dan derap kuda, dan ia lenyap meninggalkan jejak tapal kuda saja.",
+          "quote": "Despite these variations, one consistent detail is Ma bong's association with horses. Its presence is often accompanied by sounds of neighing and galloping, and it mysteriously disappears, leaving behind only horse tracks.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ma-bong-c04",
+          "source_id": "ma-bong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Lanna tale, a young man follows his friend and sees him hungrily licking a buffalo's head; a Buddhist monk advises him to smear it with chilli.",
+          "statement_id": "Dalam kisah Lanna, seorang pemuda membuntuti sahabatnya dan melihatnya menjilati kepala kerbau mati karena lapar; seorang biksu menasihatinya melumuri kepala itu dengan cabai.",
+          "quote": "One night, the other friend decided to secretly follow him and saw a horrifying sight: his friend desperately licking the carcass of a buffalo's head in hunger, a gruesome and unsettling image. Seeking help, he consulted a Buddhist monk who advised him to smear chili peppers on the buffalo's head.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ma-bong-c05",
+          "source_id": "ma-bong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Chased by his friend, now a red-eyed spirit, the man throws raw eggs that the hungry spirit stops to eat, then turns his staircase upside down; the spirit cannot climb, and he sees his friend has become a horse-bodied ma bong.",
+          "statement_id": "Dikejar sahabatnya yang telah menjadi roh bermata merah, pemuda itu melempar telur mentah yang dipungut roh itu karena lapar, lalu membalik tangga rumahnya; roh itu tak bisa naik, dan ia melihat sahabatnya telah menjadi ma bong bertubuh bawah kuda.",
+          "quote": "The fleeing man threw raw eggs behind him along the way, following the monk's advice. The spirit friend bent down to eat the eggs, driven by hunger. When the man reached his house, he hurried inside, ran up the stairs, and turned the staircase upside down to confuse the spirit.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ma-bong-c06",
+          "source_id": "ma-bong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Others say ma bong has a horse's lower body and a beautiful woman's upper body, luring young men before killing them.",
+          "statement_id": "Versi lain menyebut ma bong bertubuh bawah kuda dan bertubuh atas perempuan cantik yang memikat pemuda lalu membunuhnya.",
+          "quote": "Others tell of it having the lower body of a horse and the upper body of a beautiful woman, who lures young men into intimate encounters before killing them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    }
+  ]
+}

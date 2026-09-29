@@ -1,13 +1,10 @@
 # Review batch-018
 
-Diperiksa 2026-09-29T12:54:53.825Z. Berkas: batch-018.md.
+Diperiksa 2026-09-29T12:55:08.757Z. Berkas: batch-018.md.
 
 ## pyinsarupa — lulus-otomatis
 
 Klaim 3 (loose 1, exact 2), sumber 1, gambar 1.
-
-**warn**
-- `long_description[0].en` Ada rangkaian 12 kata yang sama persis dengan sumber ("a lion an elephant a water buffalo a white carp and a…"). Tulis ulang dengan kata-kata sendiri.
 
 **manual**
 - `tier` Di bawah target rich: 3 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -29,10 +26,6 @@ Klaim 3 (loose 1, exact 2), sumber 1, gambar 1.
 ## tigmamanukan — lulus-otomatis
 
 Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**warn**
-- `long_description[0]` Tidak muncul di kutipan mana pun: Kristen. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `long_description[1]` Tidak muncul di kutipan mana pun: Spanish. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai.
