@@ -1,0 +1,808 @@
+{
+  "batch_id": "batch-007",
+  "checked_at": "2026-09-29T12:14:41.348Z",
+  "files": [
+    "batch-007.md"
+  ],
+  "parse_problems": [],
+  "missing": [],
+  "entries": [
+    {
+      "slug": "chinthe",
+      "file": "batch-007.md",
+      "verdict": "skip",
+      "counts": {
+        "claims": 0,
+        "sources": 0,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "skip",
+          "message": "Diusulkan dilewati: Bukan makhluk mitologi: Wikipedia menyatakan Chinthe adalah singa alami yang distilisasi dalam ikonografi Myanmar ('Contrary to popular belief, the Chinthe is not a mythical creature but instead an entirely natural lion'). (https://en.wikipedia.org/wiki/Chinthe)."
+        }
+      ],
+      "claims": [],
+      "images": []
+    },
+    {
+      "slug": "suvannamaccha",
+      "file": "batch-007.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 10,
+        "sources": 2,
+        "images": 1
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 10 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "images[0] (File:Mermaid-Nonthaburi44.JPG)",
+          "message": "Keterkaitan otomatis: deskripsi berkas, kategori \"Suvannamaccha\", dipakai di en.wikipedia.org: Suvannamaccha. Cek visual tetap diperlukan."
+        }
+      ],
+      "claims": [
+        {
+          "id": "suvannamaccha-c01",
+          "source_id": "suvannamaccha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Suvannamaccha (สุพรรณมัจฉา, Suphannamatcha; Pali suvaṇṇamacchā, 'golden fish') is a daughter of Ravana (Thotsakan) in Thai and Southeast Asian Ramayanas, a mermaid princess who tries to spoil Hanuman's bridge to Lanka but falls in love with him.",
+          "statement_id": "Suvannamaccha (สุพรรณมัจฉา, Suphannamatcha; Pali suvaṇṇamacchā, 'ikan emas') adalah putri Rahwana (Thotsakan) dalam Ramayana versi Thailand dan Asia Tenggara, putri duyung yang mencoba menggagalkan jembatan Hanoman ke Lanka tetapi jatuh cinta kepadanya.",
+          "quote": "literally \"golden fish\") is a daughter of Ravana (Thotsakan) appearing in the Thailand and other Southeast Asian versions of Ramayana. She is a mermaid princess who tries to spoil Hanuman's plans to build a bridge to Lanka but falls in love with him instead.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suvannamaccha-c02",
+          "source_id": "suvannamaccha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Suvannamaccha is popular in Thai folklore and shown on cloth streamers or framed pictures hung as luck charms in shops and homes across Thailand.",
+          "statement_id": "Suvannamaccha populer dalam cerita rakyat Thailand dan digambarkan pada panji kain atau gambar berbingkai yang digantung sebagai jimat keberuntungan di toko dan rumah di seluruh Thailand.",
+          "quote": "The figure of Suvannamaccha is popular in Thai folklore and is represented on small cloth streamers or framed pictures that are hung as luck-bringing charms in shops and houses throughout Thailand.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suvannamaccha-c03",
+          "source_id": "suvannamaccha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The monkey army reports that the rocks they throw into the sea each day are gone the next.",
+          "statement_id": "Pasukan kera melapor bahwa batu yang mereka lempar ke laut setiap hari hilang keesokan harinya.",
+          "quote": "They tell him that each day they throw rocks into the sea and the next day they are gone.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suvannamaccha-c04",
+          "source_id": "suvannamaccha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Hanuman falls in love, changes tactics and silently woos her; she responds, and they are together at the sea bottom.",
+          "statement_id": "Hanoman jatuh cinta, mengganti taktik dan diam-diam merayunya; ia membalas, dan mereka bersatu di dasar laut.",
+          "quote": "Hanuman finds he is falling in love with the creature. He changes his tactics and begins to silently woo her. She responds to him and soon they are together at the bottom of the sea.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suvannamaccha-c05",
+          "source_id": "suvannamaccha-s2",
+          "host": "garlandmag.com",
+          "statement": "The tale of Hanuman falling in love underwater with Ravana's mermaid daughter is not found in Valmiki's Ramayana.",
+          "statement_id": "Kisah Hanoman jatuh cinta di bawah laut dengan putri duyung putri Rahwana tidak ada dalam Ramayana karya Walmiki.",
+          "quote": "The story of Hanuman falling in love underwater with the mermaid daughter of Ravana, the demon king of Lanka, is not a tale one would encounter in Valmiki’s Ramayana.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "suvannamaccha-c06",
+          "source_id": "suvannamaccha-s2",
+          "host": "garlandmag.com",
+          "statement": "Suvannamaccha, Suvarnamatsya in Sanskrit, is the Golden Mermaid.",
+          "statement_id": "Suvannamaccha, dalam bahasa Sanskerta Suvarnamatsya, adalah Putri Duyung Emas.",
+          "quote": "Suvannamaccha—Suvarnamatsya in Sanskrit—the Golden Mermaid is perhaps a rare example in our storytelling oeuvre.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "suvannamaccha-c07",
+          "source_id": "suvannamaccha-s2",
+          "host": "garlandmag.com",
+          "statement": "She reveals she acted on Ravana's orders; learning the bridge's purpose from Hanuman, she changes her mind and promises to return all the stolen rocks.",
+          "statement_id": "Ia mengaku bertindak atas perintah ayahnya, Rahwana; setelah tahu tujuan jembatan dari Hanoman, ia berubah pikiran dan berjanji mengembalikan semua batu yang dicuri.",
+          "quote": "She reveals she was acting on her father Ravana’s orders. Upon learning the true purpose of the bridge from Hanuman, Suvannamaccha has a change of heart, and she promises to return all of the stolen rocks.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suvannamaccha-c08",
+          "source_id": "suvannamaccha-s2",
+          "host": "garlandmag.com",
+          "statement": "She bears Hanuman's son Macchanu, with a vanara torso and a fish's lower body, absent from Valmiki's Ramayana, where Hanuman's son is Makaradhwaja, born from his sweat.",
+          "statement_id": "Ia melahirkan putra Hanoman, Macchanu, bertubuh atas kera dan bertubuh bawah ikan, tokoh yang tidak ada dalam Ramayana Walmiki; di sana putra Hanoman adalah Makaradhwaja yang lahir dari keringatnya.",
+          "quote": "She also gives birth to Hanuman’s son, Macchanu, a character missing from Valmiki’s Ramayana. With a vanara’s torso and the lower body of a fish, Macchanu opposes Hanumanu later during a battle with Ravana’s army. Interestingly, in Valmiki’s Ramayana, Hanuman has a son named Makaradhwaja, born out of his sweat",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suvannamaccha-c09",
+          "source_id": "suvannamaccha-s2",
+          "host": "garlandmag.com",
+          "statement": "The legend is also performed as Robam Sovann Maccha, a traditional Cambodian dance.",
+          "statement_id": "Legenda ini juga dipentaskan sebagai Robam Sovann Maccha, tari tradisional Kamboja.",
+          "quote": "The widely popular Southeast Asian legend is also performed as Robam Sovann Maccha, a traditional Cambodian dance.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suvannamaccha-c10",
+          "source_id": "suvannamaccha-s2",
+          "host": "garlandmag.com",
+          "statement": "Her story is prominent in the Reamker, Cambodia's epic, and the Ramakien, Thailand's national epic.",
+          "statement_id": "Kisahnya menonjol dalam Reamker, epos Kamboja, dan Ramakien, epos nasional Thailand.",
+          "quote": "particularly prominent in Reamker, Cambodia’s epic poem and Ramakien, Thailand’s national epic.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mermaid-Nonthaburi44.JPG",
+          "claimed_license": "CC BY-SA 3.0",
+          "evidence": "Deskripsi berkas di Commons: \"Suvannamaccha luck bringing charm in a riverside shop in Nonthaburi, Thailand\"; kategori Suvannamaccha; dipakai di artikel Wikipedia en Suvannamaccha.",
+          "image_type": "artifact",
+          "commons_license": "CC BY-SA 3.0",
+          "rights": "OPEN_LICENSE",
+          "author": "Xufanc",
+          "date": "1899-11-30",
+          "description": "Suvannamaccha luck bringing charm in a riverside shop in Nonthaburi, Thailand",
+          "restrictions": null,
+          "categories": [
+            "CC-BY-SA-3.0",
+            "Charms of Thailand",
+            "Self-published work",
+            "Suvannamaccha",
+            "Taken with Nikon S2"
+          ],
+          "used_on": [
+            "as.wikipedia.org: সুভন্নমচ্ছ",
+            "en.wikipedia.org: Suvannamaccha",
+            "es.wikipedia.org: Suvannamaccha",
+            "fr.wikipedia.org: Suvannamaccha",
+            "kn.wikipedia.org: ಸುವಣ್ಣಮಚ್ಚ",
+            "pa.wikipedia.org: ਸੁਵੰਨਾਮਾਚਾ",
+            "ta.wikipedia.org: சுவர்ணமச்சை",
+            "tr.wikipedia.org: Suvannamaccha",
+            "vi.wikipedia.org: Suvannamaccha",
+            "zh.wikipedia.org: 素攀玛差"
+          ],
+          "auto_evidence": [
+            "deskripsi berkas",
+            "kategori \"Suvannamaccha\"",
+            "dipakai di en.wikipedia.org: Suvannamaccha"
+          ],
+          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-007/suvannamaccha-1.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "tikbalang",
+      "file": "batch-007.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 15,
+        "sources": 3,
+        "images": 1
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "images[0] (File:Tikbalang The Philippine Demon Horse Commons.jpg)",
+          "message": "Keterkaitan otomatis: nama berkas, deskripsi berkas, dipakai di bcl.wikipedia.org: Tikbalang. Cek visual tetap diperlukan."
+        }
+      ],
+      "claims": [
+        {
+          "id": "tikbalang-c01",
+          "source_id": "tikbalang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The tikbalang (also Tigbalang, Tigbalan, Tikbalan, Tigbolan) is a Philippine folklore creature lurking in mountains and rainforests; tall, bony, with a horse's head and hooves and limbs so long its knees pass its head when squatting; in some versions it is an aborted fetus sent from limbo.",
+          "statement_id": "Tikbalang (juga Tigbalang, Tigbalan, Tikbalan, Tigbolan) adalah makhluk cerita rakyat Filipina yang mengintai di pegunungan dan hutan hujan; tinggi, kurus, berkepala dan berkuku kuda, bertungkai sangat panjang hingga lututnya melewati kepala saat berjongkok; dalam beberapa versi ia jelmaan janin yang digugurkan dan dikirim dari limbo.",
+          "quote": "is a creature of Philippine folklore said to lurk in the mountains and rainforests of the Philippines. It is a tall, bony humanoid creature with the head and hooves of a horse and disproportionately long limbs, to the point that its knees reach above its head when it squats down. In some versions, it is a transformation of an aborted fetus sent to earth from limbo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tikbalang-c02",
+          "source_id": "tikbalang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "As horses were not native to the pre-Spanish Philippines, the earliest records of the tikbalang do not specify a horse form.",
+          "statement_id": "Karena kuda bukan hewan asli Filipina sebelum masa Spanyol, catatan tertulis awal tentang tikbalang tidak menyebut wujud kuda.",
+          "quote": "As horses weren't native to the Philippines in the pre-Spanish era, the earliest written records about the tikbalang did not specify horse or animal morphology.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tikbalang-c03",
+          "source_id": "tikbalang-s3",
+          "host": "en.wikisource.org",
+          "statement": "Plasencia wrote that there were ghosts called vibit and phantoms called Tigbalaang.",
+          "statement_id": "Plasencia menulis bahwa ada hantu yang disebut vibit dan penampakan yang disebut Tigbalaang.",
+          "quote": "There were also ghosts, which they called vibit; and phantoms, which they called Tigbalaang.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tikbalang-c04",
+          "source_id": "tikbalang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Among early Tagalogs, the insult 'Tigbalang ca mandin!' ('You are a wild beast!') described someone whose behaviour was improper.",
+          "statement_id": "Di kalangan orang Tagalog awal, ungkapan hinaan 'Tigbalang ca mandin!' ('Kau binatang liar!') dipakai untuk orang yang berperilaku tidak pantas.",
+          "quote": "Among the early Tagalogs, the derogatory expression “Tigbalang ca mandin!”, literally translated as “You are a wild beast!”, was used to describe a person whose behavior was considered improper or socially unacceptable.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tikbalang-c05",
+          "source_id": "tikbalang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Juan Francisco de San Antonio's Cronicas (1738-1744) describes the tikbalang as a malevolent mountain being able to take many forms, including horses.",
+          "statement_id": "Cronicas (1738-1744) karya Juan Francisco de San Antonio menggambarkan tikbalang sebagai makhluk jahat di pegunungan yang dapat berubah menjadi berbagai wujud, termasuk kuda.",
+          "quote": "Juan Francisco de San Antonio's Cronicas(1738-1744) describes the tikbalang as a malevolent entity living in the mountains, able to shapeshift into a variety of forms, including horses.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tikbalang-c06",
+          "source_id": "tikbalang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Cronicas, it appeared in the mountains as an old man claiming to be their ancestor, as a horse, or as a monster.",
+          "statement_id": "Menurut Cronicas, tikbalang biasa menampakkan diri di pegunungan sebagai orang tua yang mengaku leluhur mereka, sebagai kuda, atau sebagai monster.",
+          "quote": "it has been wont to appear to them in the mountains—now in the guise of an old man, telling them that he is their nono; now as a horse; and now as a monster.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tikbalang-c07",
+          "source_id": "tikbalang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The first document describing the tikbalang as a werehorse is Juan José Delgado's Biblioteca Histórica Filipina (c. 1750).",
+          "statement_id": "Dokumen pertama yang menggambarkan tikbalang sebagai manusia-kuda adalah Biblioteca Histórica Filipina karya Juan José Delgado (sekitar 1750).",
+          "quote": "However, the very first document to actually describe the tikbalang as specifically having the appearance of a werehorse as it is more commonly known is Juan José Delgado's Biblioteca Histórica Filipina (orig. c. 1750).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tikbalang-c08",
+          "source_id": "tikbalang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Delgado notes the Visayans used the name unglo for the same creature.",
+          "statement_id": "Delgado menyebut orang Visayas memakai nama unglo untuk makhluk yang sama.",
+          "quote": "Delgado also mentions the name \"unglo\" being used by the Visayans to refer to the same creature as the tikbalang.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tikbalang-c09",
+          "source_id": "tikbalang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The tikbalang is linked with dark, lonely, overgrown places such as under bridges, bamboo clumps, banana groves, or atop kalumpang and balete trees.",
+          "statement_id": "Tikbalang dikaitkan dengan tempat gelap, sepi, dan rimbun, seperti di bawah jembatan, rumpun bambu, kebun pisang, atau di atas pohon kalumpang dan balete.",
+          "quote": "Tikbalang is generally associated with dark, sparsely populated, foliage-overgrown areas, with legends variously identifying their habitat as being beneath bridges, in bamboo clumps or banana groves, and atop Kalumpang (Sterculia foetida) or Balite (Ficus indica) trees.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tikbalang-c10",
+          "source_id": "tikbalang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Tikbalangs scare and mislead travellers, making them return to the same path; wearing a shirt inside out or asking permission aloud is believed to counter this.",
+          "statement_id": "Tikbalang menakuti dan menyesatkan pejalan, membuat mereka kembali ke jalan yang sama; memakai baju terbalik atau meminta izin lewat dengan keras dipercaya menangkalnya.",
+          "quote": "Tikbalangs or Tigbolan scare travelers, lead them astray and play tricks on them such as making them return to an arbitrary path no matter how far they go or turn. Wearing one’s shirt inside out is believed to counteract this. Another countermeasure is to ask permission aloud to pass by",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tikbalang-c11",
+          "source_id": "tikbalang-s2",
+          "host": "www.aswangproject.com",
+          "statement": "Four colonial records show a progression: an undescribed Tigbalaang (1589), a winged, odorous mountain apparition (1613), a multi-form being (c. 1731), and a giant with horse legs (1763).",
+          "statement_id": "Empat catatan kolonial menunjukkan perkembangan: Tigbalaang tanpa gambaran fisik (1589), penampakan gunung bersayap dan berbau (1613), makhluk yang dapat berganti wujud (sekitar 1731), dan raksasa berkaki kuda (1763).",
+          "quote": "Taken together, the four records show an identifiable progression: the named but physically undescribed Tigbalaang in 1589; a winged and odorous mountain apparition in 1613; a being able to assume several forms by about 1731; and a giant with horse legs in 1763.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tikbalang-c12",
+          "source_id": "tikbalang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some Filipinos still believe tikbalangs inhabit trees as guardians.",
+          "statement_id": "Sebagian orang Filipina hingga kini percaya tikbalang menghuni pohon sebagai penjaganya.",
+          "quote": "Individual tikbalangs, even today among superstitious Filipinos, are thought to inhabit trees as guardians",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tikbalang-c13",
+          "source_id": "tikbalang-s2",
+          "host": "www.aswangproject.com",
+          "statement": "Jordan Clark separates the history of the tikbalang's name from the history of its image.",
+          "statement_id": "Jordan Clark memisahkan sejarah nama tikbalang dari sejarah citranya.",
+          "quote": "This article separates the history of the name from the history of the image.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tikbalang-c14",
+          "source_id": "tikbalang-s2",
+          "host": "www.aswangproject.com",
+          "statement": "San Buenaventura records a belief that the tigbalang had wings and carried people where it wished; those taken grew weak and died.",
+          "statement_id": "San Buenaventura mencatat kepercayaan bahwa tigbalang bersayap dan membawa orang ke mana ia mau; yang dibawa menjadi lemah lalu meninggal.",
+          "quote": "San Buenaventura records a belief that the tigbalang had wings and carried people where it wished. Those taken away were said to grow weak and die.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tikbalang-c15",
+          "source_id": "tikbalang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The tikbalang is also called Tigbalang, Tigbalan, Tikbalan, Tigbolan or werehorse.",
+          "statement_id": "Tikbalang juga disebut Tigbalang, Tigbalan, Tikbalan, Tigbolan, atau manusia-kuda.",
+          "quote": "(also Tigbalang, Tigbalan, Tikbalan, Tigbolan, or Werehorse) is a creature of Philippine folklore",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Tikbalang The Philippine Demon Horse Commons.jpg",
+          "claimed_license": "CC BY 2.5",
+          "evidence": "Deskripsi berkas di Commons: \"Illustration of the Tikbalang, Philippine folklore's demon horse\"; kategori Folklore of the Philippines; gambar utama artikel Wikipedia en Tikbalang.",
+          "image_type": "modern-illustration",
+          "commons_license": "CC BY 2.5",
+          "rights": "OPEN_LICENSE",
+          "author": "The original uploader was Rodsan18 at English Wikipedia . ( Original text: Original illustration of Dragonbite (copyright holder ©) )",
+          "date": "7 August 2007 (original upload date) ( Original text: Illustration created on A…",
+          "description": "Illustration of the Tikbalang , Philippine folklore's demon horse . This illustration was created using mixed media: pencil, colored pencil, watercolor pencil. For this illustration the artist employed sketching, line-drawing and wash techniques. This illustration was electronically enhanced.",
+          "restrictions": null,
+          "categories": [
+            "CC-BY-2.5",
+            "Demons",
+            "Folklore of the Philippines",
+            "Mythological horses"
+          ],
+          "used_on": [
+            "az.wikipedia.org: Tikbalanq",
+            "bcl.wikipedia.org: Tikbalang",
+            "cs.wikipedia.org: Tikbalang",
+            "de.wikipedia.org: Tikbalang",
+            "en.wikipedia.org: Tikbalang",
+            "en.wikipedia.org: List of legendary creatures (T)",
+            "eo.wikipedia.org: Ibaan",
+            "es.wikipedia.org: Tikbalang",
+            "es.wikipedia.org: Religión en la Filipinas prehispánica",
+            "fr.wikipedia.org: Tikbalang",
+            "ia.wikipedia.org: Ibaan",
+            "it.wikipedia.org: Tikbalang",
+            "ja.wikipedia.org: フィリピンの神話上の生き物",
+            "la.wikipedia.org: Tikbalang",
+            "ta.wikipedia.org: திக்பலாங்"
+          ],
+          "auto_evidence": [
+            "nama berkas",
+            "deskripsi berkas",
+            "dipakai di bcl.wikipedia.org: Tikbalang"
+          ],
+          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-007/tikbalang-1.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "duende",
+      "file": "batch-007.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 11,
+        "sources": 1,
+        "images": 1
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 11 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "images[0] (File:Goya - Caprichos (49).jpg)",
+          "message": "Keterkaitan otomatis: dipakai di en.wikipedia.org: Duende. Cek visual tetap diperlukan."
+        }
+      ],
+      "claims": [
+        {
+          "id": "duende-c01",
+          "source_id": "duende-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The duende is a humanlike folklore figure from Iberian, Ibero-American and Latin American cultures, comparable to dwarves, gnomes or leprechauns.",
+          "statement_id": "Duende adalah sosok mirip manusia dalam cerita rakyat Iberia, Ibero-Amerika, dan Amerika Latin, sebanding dengan kurcaci, gnome, atau leprechaun.",
+          "quote": "The Duende is a humanoid figure of folklore, with variations from Iberian, Ibero American, and Latin American cultures, comparable to dwarves, gnomes, or leprechauns.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "duende-c02",
+          "source_id": "duende-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Castilian, duende comes from a contraction of dueñ(o) de casa, 'master of the house'.",
+          "statement_id": "Dalam bahasa Kastilia, duende berasal dari singkatan dueñ(o) de casa, 'tuan rumah'.",
+          "quote": "In Castilian, duende originated as a contraction of the phrase dueñ(o) de casa, effectively \"master of the house\"",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "duende-c03",
+          "source_id": "duende-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In parts of Spain, duendes are called trasnos (Galicia), follets (Catalonia), iratxoak (Basque Country and Navarra) or trasgus (Asturias).",
+          "statement_id": "Di beberapa daerah Spanyol, duende disebut trasno (Galisia), follet (Katalonia), iratxo (Basque dan Navarra), atau trasgu (Asturias).",
+          "quote": "In some regions of Spain, duendes may have other names like Trasnos in Galicia, Follets in Catalonia, Iratxoak in the Basque Country and Navarra, Trasgus in Asturias",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "duende-c04",
+          "source_id": "duende-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Busgosos or musgosos are tall bearded duendes in moss and leaves who play flutes to guide shepherds through forests.",
+          "statement_id": "Busgoso atau musgoso adalah duende tinggi berjanggut berpakaian lumut dan daun yang meniup seruling untuk menuntun gembala di hutan.",
+          "quote": "Busgosos, also known as musgosos, are tall bearded duendes dressed in moss and leaves. They play sad songs on their flutes to help guide shepherds through forests.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "duende-c05",
+          "source_id": "duende-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Diaños are mischievous duendes taking the form of horses, cows, rams, other farm animals or a baby; active at night, they scare late walkers.",
+          "statement_id": "Diaño adalah duende usil yang menjelma kuda, sapi, domba jantan, hewan ternak lain, atau bayi; mereka aktif malam hari dan menakuti orang yang berjalan larut malam.",
+          "quote": "Diaños are mischievous duendes that adopt the figure of horses, cows, rams or any other domestic animal, even a human baby. They are active during the night, scaring those who walk at odd hours",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "duende-c06",
+          "source_id": "duende-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Mexican and American Southwest folklore, duendes are gnome-like beings in house walls, especially children's rooms, who clip unkempt children's toenails, sometimes removing whole toes; belief persists among Oaxaca's Mixtecs and Zapotecs.",
+          "statement_id": "Dalam cerita rakyat Meksiko dan Amerika Barat Daya, duende adalah makhluk mirip gnome di dalam dinding rumah, terutama kamar anak, yang mencoba memotong kuku kaki anak tak terurus hingga kadang terpotong seluruh jarinya; kepercayaan ini masih ada di kalangan Mixtec dan Zapotec di Oaxaca.",
+          "quote": "In the Hispanic folklore of Mexico and the American Southwest, duendes are known as gnome-like creatures who live inside the walls of homes, especially in the bedroom walls of young children. They attempt to clip the toenails of unkempt children, often leading to the mistaken removal of entire toes. Belief in duendes still exists among the Mixtecs and Zapotecs of Oaxaca",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "duende-c07",
+          "source_id": "duende-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Philippines, folklore tells of the dwende living in rocks, caves, old trees, dark parts of houses, or anthills and termite mounds (called nunò sa punsó, 'old man of the mound'); they are good or evil by colour, white or black.",
+          "statement_id": "Cerita rakyat Filipina mengenal dwende yang tinggal di batu, gua, pohon tua, bagian rumah yang gelap, atau sarang semut dan gundukan rayap (disebut nunò sa punsó, 'kakek gundukan'); mereka baik atau jahat menurut warnanya, putih atau hitam.",
+          "quote": "Filipino people have folklore telling of the dwende, which often dwell in rocks and caves, old trees, unvisited and dark parts of houses, or in anthills and termite mounds. Those that live in the last two are termed nunò sa punsó (Tagalog for \"old man of the mound\"). They are either categorized as good or evil depending on their color (white or black, respectively)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "duende-c08",
+          "source_id": "duende-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Offending a nunò sa punsó is taboo; those who step on one are believed cursed by the angry dwende.",
+          "statement_id": "Menyinggung nunò sa punsó adalah tabu; orang yang menginjaknya dipercaya dikutuk dwende yang marah.",
+          "quote": "Offending a nunò sa punsó is taboo; people who step on them are believed to be cursed by the angered dwende within.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "duende-c09",
+          "source_id": "duende-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Per a Chamorro-English dictionary, the duende is a goblin or mischievous dwarf-like spirit that hides or takes small children; some see it as helpful or shy, others as mischievous and eating naughty children.",
+          "statement_id": "Menurut kamus Chamorro-Inggris, duende adalah goblin atau roh usil berwujud kurcaci yang menyembunyikan atau mengambil anak kecil; sebagian percaya ia penolong atau pemalu, sebagian lagi menganggapnya usil dan memakan anak nakal.",
+          "quote": "is a goblin, elf, ghost, or spook in the form of a dwarf, a mischievous spirit which hides or takes small children. Some believe the Duende to be helpful or shy creatures, while others believe them to be mischievous and eat misbehaving children.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "duende-c10",
+          "source_id": "duende-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Andean Peru, early colonial accounts recorded forest spirits that Spanish chroniclers equated with duendes or succubi.",
+          "statement_id": "Di wilayah Andes, Peru, catatan kolonial awal mencatat kepercayaan pada roh hutan yang oleh penulis Spanyol disamakan dengan duende atau sukubus.",
+          "quote": "In the Andean region of Peru, early colonial accounts recorded local beliefs in forest spirits that Spanish chroniclers equated with duendes or succubi.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "duende-c11",
+          "source_id": "duende-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Chamorro of the Mariana Islands tell of the taotaomo'na, duendes and other spirits.",
+          "statement_id": "Orang Chamorro di Kepulauan Mariana bercerita tentang taotaomo'na, duende, dan roh lainnya.",
+          "quote": "The Chamorro people of the Marianas Islands tell tales of the taotaomo'na, duendes and other spirits.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Goya - Caprichos (49).jpg",
+          "claimed_license": "Public domain",
+          "evidence": "Kategori Commons \"Capricho № 49: Duendecitos\" (duende kecil); gambar utama artikel Wikipedia en Duende.",
+          "image_type": "historical-illustration",
+          "commons_license": "Public domain",
+          "rights": "PUBLIC_DOMAIN",
+          "author": "Francisco Goya",
+          "date": "1799",
+          "description": "Los Caprichos is a set of 80 aquatint prints created by Francisco Goya for release in 1799.",
+          "restrictions": null,
+          "categories": [
+            "CC-PD-Mark",
+            "Capricho № 49: Duendecitos",
+            "Goblins",
+            "Los Caprichos, GASL",
+            "PD-Art (PD-old-auto-expired)",
+            "PD-old-100-expired"
+          ],
+          "used_on": [
+            "bcl.wikipedia.org: Duwende",
+            "be.wikipedia.org: Гобліны",
+            "bg.wikipedia.org: Гоблин",
+            "bn.wikipedia.org: গবলিন",
+            "bn.wikipedia.org: ধূসর",
+            "da.wikipedia.org: Goblin",
+            "en.wikipedia.org: Duende",
+            "fa.wikipedia.org: گابلین",
+            "fr.wikipedia.org: Chevaux légendaires du Pas-de-Calais",
+            "hy.wikipedia.org: Գոբլիններ",
+            "it.wikipedia.org: Duende (spirito)",
+            "ja.wikipedia.org: ゴブリン",
+            "ka.wikipedia.org: გობლინები",
+            "ko.wikipedia.org: 고블린",
+            "ml.wikipedia.org: ഗോബ്ലിൻ"
+          ],
+          "auto_evidence": [
+            "dipakai di en.wikipedia.org: Duende"
+          ],
+          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-007/duende-1.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "mae-nak-phra-khanong",
+      "file": "batch-007.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 16,
+        "sources": 2,
+        "images": 1
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "images[0] (File:Shrinetomaenak.jpg)",
+          "message": "Keterkaitan otomatis: deskripsi berkas, kategori \"Shrine of Mae Nak at Wat Mahabut\", dipakai di ca.wikipedia.org: Ghost of Mae Nak. Cek visual tetap diperlukan."
+        }
+      ],
+      "claims": [
+        {
+          "id": "mae-nak-phra-khanong-c01",
+          "source_id": "mae-nak-phra-khanong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mae Nak Phra Khanong (แม่นากพระโขนง, 'Lady Nak of Phra Khanong'), or Mae Nak and Nang Nak, is a well-known Thai ghost; folklore says her story is based on events in King Rama IV's reign.",
+          "statement_id": "Mae Nak Phra Khanong (แม่นากพระโขนง, 'Nyonya Nak dari Phra Khanong'), atau Mae Nak dan Nang Nak, adalah hantu Thailand yang terkenal; menurut cerita rakyat, kisahnya berdasarkan peristiwa pada masa Raja Rama IV.",
+          "quote": "lit. 'Lady Nak of Phra Khanong'), or simply Mae Nak (แม่นาก, 'Lady Nak') or Nang Nak (นางนาก, 'Miss Nak'), is a well-known Thai ghost. According to local folklore the story is based on events that took place during the reign of King Rama IV.",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "mae-nak-phra-khanong-c02",
+          "source_id": "mae-nak-phra-khanong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A shrine to Nak was built at Wat Mahabut and in 1997 relocated to Suan Luang district, Bangkok.",
+          "statement_id": "Kuil untuk Nak dibangun di Wat Mahabut dan pada 1997 dipindahkan ke distrik Suan Luang, Bangkok.",
+          "quote": "A shrine dedicated to Nak was constructed at Wat Mahabut. In 1997, the shrine was relocated to the nearby Suan Luang district of modern Bangkok.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mae-nak-phra-khanong-c03",
+          "source_id": "mae-nak-phra-khanong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "While Nak was pregnant, Mak was sent to war and seriously wounded.",
+          "statement_id": "Ketika Nak hamil, Mak dikirim berperang dan terluka parah.",
+          "quote": "While Nak was pregnant, Mak was conscripted into the Thai Army and sent to war where he was seriously wounded",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mae-nak-phra-khanong-c04",
+          "source_id": "mae-nak-phra-khanong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Nak stretched her arm to an impossible length to pick up a lime, and Mak realized she was a ghost; he then fled to Wat Mahabut, which ghosts cannot enter.",
+          "statement_id": "Nak menjulurkan lengannya sangat panjang untuk memungut jeruk nipis dari tanah, dan Mak pun sadar istrinya hantu; ia lalu melarikan diri ke Wat Mahabut yang tak bisa dimasuki hantu.",
+          "quote": "In her haste to retrieve it, she stretched her arm to an impossible length to pick it up from the ground below. Upon seeing this, Mak realised his wife was a ghost.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mae-nak-phra-khanong-c05",
+          "source_id": "mae-nak-phra-khanong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Grieving, Nak terrorized Phra Khanong; a powerful monk captured her ghost, sealed it in an earthen jar and threw it into the canal.",
+          "statement_id": "Nak yang berduka meneror warga Phra Khanong; seorang biksu sakti menangkap arwahnya, mengurungnya dalam guci tanah liat, dan membuangnya ke kanal.",
+          "quote": "In her grief, Nak terrorised the people of Phra Khanong, furious at them for causing Mak to leave her. However, a powerful monk captured Nak's ghost; and after confining her in an earthen jar, threw it into the Phra Khanong canal.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mae-nak-phra-khanong-c06",
+          "source_id": "mae-nak-phra-khanong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In another version, the monk assured Nak she would be reunited with her husband in a future life, so she willingly departed.",
+          "statement_id": "Dalam versi lain, biksu meyakinkan Nak bahwa ia akan bersatu kembali dengan suaminya di kehidupan mendatang, sehingga ia rela pergi ke alam baka.",
+          "quote": "In another, the monk assured Nak that in a future life she would be reunited with her beloved husband, so she voluntarily departed for the afterlife.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mae-nak-phra-khanong-c07",
+          "source_id": "mae-nak-phra-khanong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In an 1899 Siam Prabheth article found by historian Anek Nawikamul, K.S.R. Kulap said the story was based on Amdaeng Nak, daughter of a Phra Khanong leader named Khun Si, who died while pregnant.",
+          "statement_id": "Dalam artikel Siam Prabheth tahun 1899 yang ditemukan sejarawan Anek Nawikamul, K.S.R. Kulap menyebut kisah Mae Nak berdasarkan kehidupan Amdaeng Nak, putri pemimpin Phra Khanong bernama Khun Si, yang meninggal saat hamil.",
+          "quote": "Kulap claimed the story of Mae Nak was based on the life of Amdaeng Nak (Thai: อำแดงนาก, lit. 'Mrs Nak'), daughter of a Tambon Phra Khanong leader named Khun Si. Amdaeng Nak died while she was pregnant.",
+          "context": "historical-record",
+          "status": "loose"
+        },
+        {
+          "id": "mae-nak-phra-khanong-c08",
+          "source_id": "mae-nak-phra-khanong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Devotees bring offerings with requests, usually women seeking easy childbirth or their husband's exemption from conscription.",
+          "statement_id": "Para pemuja membawa persembahan disertai permohonan, umumnya perempuan yang meminta persalinan lancar atau agar suaminya bebas dari wajib militer.",
+          "quote": "Devotees often make offerings, accompanied by a request for help, generally by women seeking easy childbirth or for their husband to be exempted from military conscription.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mae-nak-phra-khanong-c09",
+          "source_id": "mae-nak-phra-khanong-s2",
+          "host": "thailandfoundation.or.th",
+          "statement": "The legend, believed to date to the early Rattanakosin period, says Mae Nak lived near Wat Mahabut beside a canal.",
+          "statement_id": "Legenda yang diyakini berasal dari awal periode Rattanakosin ini menyebut Mae Nak tinggal di dekat Wat Mahabut di tepi kanal.",
+          "quote": "Believed to date back to the early Rattanakosin period (around the 18th century), the legend has it that Mae Nak (“Mae” was used for “Miss” in those days) lived in the area near Wat Mahabut along a canal.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mae-nak-phra-khanong-c10",
+          "source_id": "mae-nak-phra-khanong-s2",
+          "host": "thailandfoundation.or.th",
+          "statement": "Nak became a pee tai tang klom (ghost of a woman who died in childbirth with the baby inside); out of love her spirit stayed bound to her old life, appearing in human form to do the housework.",
+          "statement_id": "Nak menjadi pee tai tang klom (arwah perempuan yang mati saat melahirkan dengan bayi masih di kandungan); karena cinta, arwahnya terikat pada kehidupan lamanya dan muncul dalam wujud manusia untuk mengurus rumah.",
+          "quote": "making her a “Pee tai tang klom” (ghost of a woman who died during childbirth with the baby still inside her). Her body was buried in the cemetery at Wat Mahabut. But because of love, Nak’s spirit was bound to her former life, re-appearing in human form to carry on daily chores at home.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mae-nak-phra-khanong-c11",
+          "source_id": "mae-nak-phra-khanong-s2",
+          "host": "thailandfoundation.or.th",
+          "statement": "Somdej Toh cremated Nak's body and carved out a piece of her forehead bone to keep as an amulet.",
+          "statement_id": "Somdej Toh mengkremasi jasad Nak dan mengambil sepotong tulang dahinya untuk disimpan sebagai jimat.",
+          "quote": "The venerable father then cremated Nak’s body and carved out a piece of her forehead bone to keep as an amulet.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mae-nak-phra-khanong-c12",
+          "source_id": "mae-nak-phra-khanong-s2",
+          "host": "thailandfoundation.or.th",
+          "statement": "The story also illustrates Buddhist teachings on samsara and the three marks of existence.",
+          "statement_id": "Kisah ini juga menggambarkan ajaran Buddha tentang samsara dan tiga corak keberadaan.",
+          "quote": "The story also serves as an illustration of Buddhist teachings, namely samsara (the unavoidable cycle of birth, aging, sickness, and death) and the Three Marks of Existence",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mae-nak-phra-khanong-c13",
+          "source_id": "mae-nak-phra-khanong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Prince Damrong recalled asking Wat Phra Kaeo visitors as a child who was most popular, and most answered Mae Nak.",
+          "statement_id": "Pangeran Damrong bercerita bahwa semasa kecil ia bertanya kepada pengunjung Wat Phra Kaeo siapa orang paling populer, dan kebanyakan menjawab Mae Nak.",
+          "quote": "Prince Damrong, a son of King Mongkut, revealed that when he was a child, he kept asking Wat Phra Kaeo visitors who was the most popular person in their opinion, and most people answered \"Mae Nak\".",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mae-nak-phra-khanong-c14",
+          "source_id": "mae-nak-phra-khanong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Thai folklore ghosts fear sticky Blumea leaves, so Mak hid behind a Blumea balsamifera bush.",
+          "statement_id": "Menurut cerita rakyat Thai, hantu takut daun Blumea yang lengket, sehingga Mak bersembunyi di balik semak Blumea balsamifera.",
+          "quote": "According to Thai folklore, ghosts are afraid of sticky Blumea leaves so Mak hid behind a Blumea balsamifera",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mae-nak-phra-khanong-c15",
+          "source_id": "mae-nak-phra-khanong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mae Nak Phra Khanong is a 1959 Thai film directed by Rangsi Thatsanaphayak.",
+          "statement_id": "Mae Nak Phra Khanong adalah film Thai tahun 1959 karya Rangsi Thatsanaphayak.",
+          "quote": "Mae Nak Phra Khanong, a 1959 Thai film directed by Rangsi Thatsanaphayak",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "mae-nak-phra-khanong-c16",
+          "source_id": "mae-nak-phra-khanong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In other versions, the monk Somdet Phra Phutthachan (To Phrommarangsi) defeats Nak by confining her spirit in her forehead bone, bound to his waistband.",
+          "statement_id": "Dalam versi lain, biksu Somdet Phra Phutthachan (To Phrommarangsi) mengalahkan Nak dengan mengurung arwahnya dalam tulang dahinya dan mengikatnya di ikat pinggangnya.",
+          "quote": "In alternative versions, a venerable monk named Somdet Phra Phutthachan (To Phrommarangsi) defeats Nak by confining her spirit in the bone of her forehead and binds it to his waistband.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Shrinetomaenak.jpg",
+          "claimed_license": "Public domain",
+          "evidence": "Deskripsi berkas di Commons: \"Shrine to 'Mae Nak ... / Nang Nak'\"; kategori Shrine of Mae Nak at Wat Mahabut; dipakai di artikel Wikipedia en Mae Nak Phra Khanong.",
+          "image_type": "photograph-of-site",
+          "commons_license": "Public domain",
+          "rights": "PUBLIC_DOMAIN",
+          "author": "Ananda",
+          "date": "2000-08",
+          "description": "Shrine to \"Mae Nak or แม่นาก / Nang Nak or นางนาก\",who is a legendary women of bankokian folklore.",
+          "restrictions": null,
+          "categories": [
+            "PD-self",
+            "Self-published work",
+            "Shrine of Mae Nak at Wat Mahabut"
+          ],
+          "used_on": [
+            "bn.wikibooks.org: সাংস্কৃতিক নৃবিজ্ঞান/আচার ও ধর্ম",
+            "ca.wikipedia.org: Ghost of Mae Nak",
+            "ceb.wikipedia.org: Khet Suan Luang",
+            "da.wikipedia.org: Åndehus",
+            "de.wikipedia.org: Suan Luang",
+            "de.wikipedia.org: Der Geist von Mae Nak",
+            "en.wikipedia.org: Nang Nak",
+            "en.wikipedia.org: Mae Nak Phra Khanong",
+            "en.wikipedia.org: Suan Luang district",
+            "en.wikipedia.org: Ghost of Mae Nak",
+            "en.wikibooks.org: Cultural Anthropology/Ritual and Religion",
+            "en.wikibooks.org: Cultural Anthropology/Print version",
+            "fr.wikipedia.org: Suan Luang",
+            "fr.wikipedia.org: Mae Nak Phra Khanong",
+            "hi.wikipedia.org: माई नाक फ्रा खानोंग"
+          ],
+          "auto_evidence": [
+            "deskripsi berkas",
+            "kategori \"Shrine of Mae Nak at Wat Mahabut\"",
+            "dipakai di ca.wikipedia.org: Ghost of Mae Nak"
+          ],
+          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-007/mae-nak-phra-khanong-1.jpg"
+        }
+      ]
+    }
+  ]
+}
