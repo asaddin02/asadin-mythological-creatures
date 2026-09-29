@@ -17,7 +17,11 @@
     "test:static": "npm run build:site && node tests/static-site.mjs && UI_TEST_TARGET=static node tests/browser.mjs",
     "preview:cloudflare": "npm run build:site && npx --yes wrangler@4 pages dev dist --port 8788 --compatibility-date=2026-09-21",
     "import:library": "node scripts/import-library.mjs && node scripts/audit-library.mjs",
-    "discover:library": "node scripts/import-library.mjs --discover && node scripts/audit-library.mjs"
+    "discover:library": "node scripts/import-library.mjs --discover && node scripts/audit-library.mjs",
+    "gemini:batch": "node scripts/gemini/make-batch.mjs",
+    "gemini:verify": "node scripts/gemini/verify.mjs",
+    "gemini:worklist": "node scripts/gemini/build-worklist.mjs",
+    "gemini:status": "node scripts/gemini/status.mjs"
   },
   "keywords": [
     "mythology",
