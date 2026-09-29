@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Data, server, static site and browser tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Data quality audit
+        run: npm run check
+      - name: Query engine, ingestion heuristics and production-server policy
+        run: npm test
+      - name: Browser for Playwright
+        run: npx playwright install --with-deps chromium
+      - name: Browser tests against the Node server
+        run: npm run test:ui
+      - name: Static site matches the server, and the same browser tests pass on it
+        run: npm run test:static

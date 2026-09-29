@@ -7,3 +7,6 @@ dist/
 coverage/
 .cache/
 data/cache/
+# Resumable bulk-import cache; report and discovery manifest remain versioned.
+data/import/checkpoint.json
+data/import/*.tmp

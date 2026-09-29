@@ -18,6 +18,22 @@ const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const PORT = Number(process.env.PORT || 8095);
 const HOST = process.env.HOST || '127.0.0.1';
 const LOG = process.env.LOG === '1';
+// The editorial console writes to data/ and fetches from Wikipedia, so it is off unless enabled explicitly
+// (`npm run dev` does) and even then only answers same-origin requests from this machine.
+const ADMIN = process.env.MYTHICS_ADMIN === '1';
+const LOOPBACK = new Set(['127.0.0.1', '::1', '::ffff:127.0.0.1']);
+
+// Only the public application is served; server/, scripts/, data/, tests/ and package files never are.
+const PUBLIC_FILES = new Set(['/index.html', '/manifest.webmanifest']);
+const PUBLIC_DIRS = ['/css/', '/js/', '/assets/'];
+const isPublic = path => PUBLIC_FILES.has(path) || PUBLIC_DIRS.some(dir => path.startsWith(dir));
+
+function adminAllowed(req) {
+  if (!ADMIN || !LOOPBACK.has(req.socket.remoteAddress)) return false;
+  if (req.method === 'GET') return true;
+  const origin = req.headers.origin;
+  return !origin || origin === `http://${req.headers.host}`;
+}
 
 const MIME = {
   '.html': 'text/html; charset=utf-8',
@@ -47,7 +63,11 @@ const COMPRESSIBLE = /^(text\/|application\/(json|manifest\+json|javascript))|im
 
 async function serveFile(req, res, filePath, contentType) {
   try {
-    const raw = await readFile(filePath);
+    let raw = await readFile(filePath);
+    // The page hides the editorial console when this server does not offer it.
+    if (!ADMIN && filePath.endsWith('index.html')) {
+      raw = Buffer.from(String(raw).replace('</head>', '  <meta name="mythics-admin" content="off">\n</head>'));
+    }
     const headers = {
       ...SECURITY_HEADERS,
       'Content-Type': contentType,
@@ -99,6 +119,11 @@ async function start() {
       return res.end();
     }
 
+    if (url.pathname.startsWith('/api/admin/') && !adminAllowed(req)) {
+      res.writeHead(ADMIN ? 403 : 404, { 'Content-Type': 'application/json; charset=utf-8' });
+      return res.end(JSON.stringify({ error: ADMIN ? 'Editorial console accepts local same-origin requests only' : 'Editorial console is disabled (start the server with MYTHICS_ADMIN=1)' }));
+    }
+
     // API Routes
     if (url.pathname.startsWith('/api/')) {
       return handleApiRoute(req, res, url);
@@ -113,7 +138,7 @@ async function start() {
 
     try {
       const stats = await stat(localPath);
-      if (stats.isFile() && MIME[ext]) {
+      if (stats.isFile() && MIME[ext] && isPublic(safePath.replace(/\\/g, '/'))) {
         return serveFile(req, res, localPath, MIME[ext]);
       }
     } catch {
@@ -135,6 +160,7 @@ async function start() {
     console.log(`  ✦ MYTHICS ENCYCLOPEDIA SERVER RUNNING ✦`);
     console.log(`  URL: http://${HOST}:${PORT}`);
     console.log(`  Environment: ${process.env.NODE_ENV || 'development'}`);
+    console.log(`  Editorial console: ${ADMIN ? 'enabled (local requests only)' : 'disabled'}`);
     console.log(`======================================================\n`);
   });
 }

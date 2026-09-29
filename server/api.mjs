@@ -6,6 +6,8 @@
 
 import {
   queryCreatures,
+  getCreatureIndex,
+  getLibraryStats,
   getCreatureBySlug,
   getRandomCreature,
   compareCreatures,
@@ -66,6 +68,9 @@ async function parseBody(req) {
 export async function handleApiRoute(req, res, url) {
   const pathname = url.pathname;
   const method = req.method;
+
+  if (pathname === '/api/creature-index' && method === 'GET') return sendJson(res, 200, getCreatureIndex());
+  if (pathname === '/api/library-stats' && method === 'GET') return sendJson(res, 200, getLibraryStats());
 
   // GET /api/creatures
   if (pathname === '/api/creatures' && method === 'GET') {

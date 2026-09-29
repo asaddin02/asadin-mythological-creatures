@@ -17,12 +17,12 @@ export function openRandomEncounterModal(preferredCulture = null) {
   }
 
   modalEl.innerHTML = `
-    <div class="modal-card" role="dialog" aria-modal="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="random-dialog-title">
       <button class="modal-close-btn" id="modal-close-btn" aria-label="Tutup">&times;</button>
       
       <div style="text-align: center; margin-bottom: 1.5rem;">
         <span class="section-badge">${t('random.modalTitle')}</span>
-        <h2 style="font-size: 1.6rem; margin-top: 0.5rem;">${t('random.encounterText')}</h2>
+        <h2 id="random-dialog-title" style="font-size: 1.6rem; margin-top: 0.5rem;">${t('random.encounterText')}</h2>
       </div>
 
       <div id="random-encounter-card-slot" style="min-height: 220px; display: flex; align-items: center; justify-content: center;">
@@ -38,16 +38,30 @@ export function openRandomEncounterModal(preferredCulture = null) {
     </div>
   `;
 
+  const previousFocus = document.activeElement;
+  const previousOverflow = document.body.style.overflow;
+  document.body.style.overflow = 'hidden';
   modalEl.classList.add('open');
+  const close = () => {
+    modalEl.classList.remove('open');
+    document.body.style.overflow = previousOverflow;
+    modalEl.onkeydown = null;
+    previousFocus?.focus();
+  };
+  modalEl.onkeydown = e => {
+    if (e.key === 'Escape') { close(); return; }
+    if (e.key !== 'Tab') return;
+    const focusable = [...modalEl.querySelectorAll('button, a[href]')].filter(el => !el.disabled && el.offsetParent !== null);
+    const first = focusable[0], last = focusable.at(-1);
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last?.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first?.focus(); }
+  };
 
   const closeBtn = modalEl.querySelector('#modal-close-btn');
-  closeBtn.addEventListener('click', () => {
-    modalEl.classList.remove('open');
-  });
+  closeBtn.addEventListener('click', close);
+  closeBtn.focus();
 
-  modalEl.addEventListener('click', (e) => {
-    if (e.target === modalEl) modalEl.classList.remove('open');
-  });
+  modalEl.onclick = e => { if (e.target === modalEl) close(); };
 
   const againBtn = modalEl.querySelector('#random-again-btn');
   againBtn.addEventListener('click', () => fetchAndDisplay(preferredCulture));
@@ -103,7 +117,7 @@ export function openRandomEncounterModal(preferredCulture = null) {
 
       inspectBtn.style.display = 'inline-flex';
       inspectBtn.onclick = () => {
-        modalEl.classList.remove('open');
+        close();
         window.location.hash = `#/creature/${creature.slug}`;
       };
     } catch (err) {

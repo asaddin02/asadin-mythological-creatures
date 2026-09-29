@@ -2,81 +2,296 @@
   {
     "id": "southeast-asia",
     "slug": "southeast-asia",
-    "name": { "id": "Asia Tenggara", "en": "Southeast Asia" },
+    "name": {
+      "id": "Asia Tenggara",
+      "en": "Southeast Asia"
+    },
     "description": {
       "id": "Kawasan kepulauan maritim Nusantara dan daratan Indochina yang kaya akan animisme purba, kosmologi Hindu-Buddha, dan tradisi kesultanan Islam.",
       "en": "Maritime archipelagos and mainland Indochina imbued with ancient animism, Hindu-Buddhist cosmology, and Islamic sultanate folklore."
     },
-    "cultures": ["indonesian-folklore", "philippine-folklore"]
+    "cultures": [
+      "indonesian-folklore",
+      "philippine-folklore",
+      "tradition-southeast-asian",
+      "tradition-malaysian",
+      "tradition-thai",
+      "tradition-cambodian",
+      "tradition-burmese"
+    ]
   },
   {
     "id": "east-asia",
     "slug": "east-asia",
-    "name": { "id": "Asia Timur", "en": "East Asia" },
+    "name": {
+      "id": "Asia Timur",
+      "en": "East Asia"
+    },
     "description": {
       "id": "Peradaban Tiongkok, Jepang, dan Korea yang dipengaruhi Shinto, Taoisme, Konfusianisme, dan Buddhisme Mahayana.",
       "en": "Chinese, Japanese, and Korean civilizations shaped by Shinto, Daoism, Confucian philosophy, and Mahayana Buddhism."
     },
-    "cultures": ["japanese-folklore", "chinese-mythology"]
+    "cultures": [
+      "japanese-folklore",
+      "chinese-mythology",
+      "tradition-east-asian",
+      "tradition-taiwanese",
+      "tradition-korean",
+      "tradition-vietnamese",
+      "tradition-ainu",
+      "tradition-mongolian",
+      "tradition-tibetan",
+      "tradition-okinawan"
+    ]
   },
   {
     "id": "south-asia",
     "slug": "south-asia",
-    "name": { "id": "Asia Selatan", "en": "South Asia" },
+    "name": {
+      "id": "Asia Selatan",
+      "en": "South Asia"
+    },
     "description": {
       "id": "Tradisi lembah Sungai Indus dan Gangga yang melahirkan kosmologi Weda, epos Mahabharata dan Ramayana.",
       "en": "Indus and Ganges River valley traditions giving rise to Vedic cosmology and monumental Sanskrit epics."
     },
-    "cultures": ["south-asian-traditions"]
+    "cultures": [
+      "south-asian-traditions",
+      "tradition-south-asian",
+      "tradition-hindu",
+      "tradition-sri-lankan",
+      "tradition-indian",
+      "tradition-meitei",
+      "tradition-nepalese",
+      "tradition-pakistani",
+      "tradition-bangladeshi"
+    ]
   },
   {
     "id": "europe",
     "slug": "europe",
-    "name": { "id": "Eropa", "en": "Europe" },
+    "name": {
+      "id": "Eropa",
+      "en": "Europe"
+    },
     "description": {
       "id": "Mitologi klasik Mediterania (Yunani & Romawi), tradisi Zaman Besi Keltik, paganisme Slavia, dan kosmologi Zaman Viking Skandinavia.",
       "en": "Classical Hellenic lore, Celtic Iron Age oral traditions, Slavic paganism, and Scandinavian Viking Age mythology."
     },
-    "cultures": ["greek-mythology", "norse-mythology", "celtic-folklore", "slavic-folklore"]
+    "cultures": [
+      "greek-mythology",
+      "norse-mythology",
+      "celtic-folklore",
+      "slavic-folklore",
+      "tradition-germanic",
+      "tradition-finno-ugric",
+      "tradition-british",
+      "tradition-romanian",
+      "tradition-scandinavian",
+      "tradition-medieval-european",
+      "tradition-albanian",
+      "tradition-basque",
+      "tradition-spanish",
+      "tradition-french",
+      "tradition-german",
+      "tradition-polish",
+      "tradition-irish",
+      "tradition-baltic",
+      "tradition-english",
+      "tradition-romani",
+      "tradition-scottish",
+      "tradition-italian",
+      "tradition-icelandic",
+      "tradition-russian",
+      "tradition-portuguese",
+      "tradition-goetic",
+      "tradition-roman",
+      "tradition-welsh",
+      "tradition-manx",
+      "tradition-catalan",
+      "tradition-cantabrian",
+      "tradition-finnish",
+      "tradition-northumbrian",
+      "tradition-cornish",
+      "tradition-breton",
+      "tradition-estonian",
+      "tradition-danish",
+      "tradition-dutch",
+      "tradition-hungarian"
+    ]
   },
   {
     "id": "middle-east",
     "slug": "middle-east",
-    "name": { "id": "Timur Tengah & Levant", "en": "Middle East & Levant" },
+    "name": {
+      "id": "Timur Tengah & Levant",
+      "en": "Middle East & Levant"
+    },
     "description": {
       "id": "Kawasan Bulan Sabit Subur, sastra Persia kuno, tradisi Semitik, dan kisah-kisah Seribu Satu Malam.",
       "en": "The Fertile Crescent, ancient Persian epics, Semitic folklore, and Arabian Nights traditions."
     },
-    "cultures": ["middle-eastern-folklore"]
+    "cultures": [
+      "middle-eastern-folklore",
+      "tradition-middle-eastern",
+      "tradition-canaanite",
+      "tradition-mesopotamian",
+      "tradition-ancient-near-east",
+      "tradition-arabian",
+      "tradition-persian",
+      "tradition-ancient-iranian",
+      "tradition-hittite",
+      "tradition-hurrian"
+    ]
   },
   {
     "id": "africa",
     "slug": "africa",
-    "name": { "id": "Afrika", "en": "Africa" },
+    "name": {
+      "id": "Afrika",
+      "en": "Africa"
+    },
     "description": {
       "id": "Tradisi lembah Sungai Nil Mesir Kuno serta tradisi lisan Afrika Barat dan Sub-Sahara (Yoruba, Akan, Zulu).",
       "en": "Ancient Egyptian Nile cosmology and West and Sub-Saharan African oral traditions (Yoruba, Akan, Zulu)."
     },
-    "cultures": ["egyptian-mythology", "african-traditions"]
+    "cultures": [
+      "egyptian-mythology",
+      "african-traditions",
+      "tradition-central-african",
+      "tradition-east-african",
+      "tradition-north-african",
+      "tradition-west-african",
+      "tradition-southern-african",
+      "tradition-bantu",
+      "tradition-kongo",
+      "tradition-south-african",
+      "tradition-zulu"
+    ]
   },
   {
     "id": "central-america",
     "slug": "central-america",
-    "name": { "id": "Mesoamerika & Karibia", "en": "Mesoamerica & Caribbean" },
+    "name": {
+      "id": "Mesoamerika & Karibia",
+      "en": "Mesoamerica & Caribbean"
+    },
     "description": {
       "id": "Kosmologi purba Aztek, Maya, dan Toltek seputar siklus matahari, jagung, dan ular berbulu Quetzalcoatl.",
       "en": "Aztec, Maya, and Toltec cosmologies centered on solar cycles, maize agriculture, and feathered serpent deities."
     },
-    "cultures": ["mesoamerican-traditions"]
+    "cultures": [
+      "mesoamerican-traditions",
+      "tradition-caribbean",
+      "tradition-indigenous-mesoamerican",
+      "tradition-mexican",
+      "tradition-costa-rican",
+      "tradition-hispanic-mesoamerican",
+      "tradition-mesoamerican",
+      "tradition-aztec",
+      "tradition-maya"
+    ]
   },
   {
     "id": "north-america",
     "slug": "north-america",
-    "name": { "id": "Amerika Utara Pribumi", "en": "Indigenous North America" },
+    "name": {
+      "id": "Amerika Utara Pribumi",
+      "en": "Indigenous North America"
+    },
     "description": {
       "id": "Tradisi suku-suku Pribumi Amerika (Algonquian, Iroquois, Ojibwe, Diné) tentang roh alam dan peringatan moral lingkungan.",
       "en": "Native American tribal traditions (Algonquian, Iroquois, Ojibwe, Diné) honoring ecological balance and guardian spirits."
     },
-    "cultures": ["native-american-traditions"]
+    "cultures": [
+      "native-american-traditions",
+      "tradition-native-american",
+      "tradition-algonquian",
+      "tradition-american",
+      "tradition-canadian",
+      "tradition-ojibwe",
+      "tradition-inuit",
+      "tradition-iroquois",
+      "tradition-cherokee",
+      "tradition-lakota"
+    ]
+  },
+  {
+    "id": "central-asia",
+    "slug": "central-asia",
+    "name": {
+      "id": "Asia Tengah & Dunia Turkik",
+      "en": "Central Asia & Turkic world"
+    },
+    "description": {
+      "id": "Tradisi Turkik dan Asia Tengah.",
+      "en": "Turkic and Central Asian traditions."
+    },
+    "cultures": [
+      "tradition-turkic"
+    ]
+  },
+  {
+    "id": "south-america",
+    "slug": "south-america",
+    "name": {
+      "id": "Amerika Selatan",
+      "en": "South America"
+    },
+    "description": {
+      "id": "Tradisi Andes, Amazon, Mapuche, Guaraní, dan tradisi Amerika Selatan lainnya.",
+      "en": "Andean, Amazonian, Mapuche, Guaraní and other South American traditions."
+    },
+    "cultures": [
+      "tradition-hispanic-south-american",
+      "tradition-south-american",
+      "tradition-indigenous-south-american",
+      "tradition-indigenous-amazonian",
+      "tradition-indigenous-andean",
+      "tradition-aymara",
+      "tradition-tupi",
+      "tradition-quechua",
+      "tradition-mapuche",
+      "tradition-guarani",
+      "tradition-chilote",
+      "tradition-brazilian"
+    ]
+  },
+  {
+    "id": "oceania",
+    "slug": "oceania",
+    "name": {
+      "id": "Oseania",
+      "en": "Oceania"
+    },
+    "description": {
+      "id": "Tradisi Aborigin Australia, Polinesia, Māori, dan Melanesia.",
+      "en": "Aboriginal Australian, Polynesian, Māori and Melanesian traditions."
+    },
+    "cultures": [
+      "tradition-polynesian",
+      "tradition-melanesian",
+      "tradition-australian",
+      "tradition-new-zealand",
+      "tradition-maori",
+      "tradition-australian-aboriginal",
+      "tradition-hawaiian"
+    ]
+  },
+  {
+    "id": "caucasus",
+    "slug": "caucasus",
+    "name": {
+      "id": "Kaukasus",
+      "en": "Caucasus"
+    },
+    "description": {
+      "id": "Tradisi Armenia dan Georgia.",
+      "en": "Armenian and Georgian traditions."
+    },
+    "cultures": [
+      "tradition-georgian",
+      "tradition-armenian"
+    ]
   }
 ]

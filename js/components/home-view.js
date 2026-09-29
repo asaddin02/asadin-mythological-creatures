@@ -1,141 +1,56 @@
-/**
- * HomeView Component
- * Curated discovery homepage with featured showcases, Indonesian spotlight,
- * cultural portals, and taxonomy categories.
- */
-
-import { api } from '../api-client.js';
-import { t, resolveLocalized } from '../i18n.js';
-import { renderHero } from './hero.js';
-import { renderCreatureCard } from './creature-card.js';
-import { openRandomEncounterModal } from './random-encounter.js';
-
+import { api } from "../api-client.js";
+import { resolveLocalized } from "../i18n.js";
+import { bi, icon } from "../ui.js";
+import { renderHero } from "./hero.js";
+import { renderCreatureCard } from "./creature-card.js";
+import { openRandomEncounterModal } from "./random-encounter.js";
 export async function renderHomeView(container) {
-  container.innerHTML = `
-    <!-- Hero Portal -->
-    <div id="home-hero-slot"></div>
-
-    <!-- Main Content Container -->
-    <div class="container" style="padding-bottom: 5rem;">
-      
-      <!-- Featured Curated Showcase -->
-      <section style="margin-bottom: 5rem;">
-        <div class="section-header" style="text-align: left; display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem;">
-          <div>
-            <span class="section-badge">${t('home.featured')}</span>
-            <h2 class="section-title">${t('home.featured')}</h2>
-            <p class="section-subtitle" style="margin-left: 0;">${t('home.featuredSubtitle')}</p>
-          </div>
-          <a href="#/explore" class="btn btn-ghost" style="border: 1px solid var(--border-subtle);">
-            ${t('home.viewAll')} →
-          </a>
-        </div>
-        <div id="featured-grid-slot" class="creature-grid">
-          <div style="grid-column: 1 / -1; text-align: center; color: var(--gold-500); padding: 3rem;">✦ MEMUAT ENTITAS PILIHAN... ✦</div>
-        </div>
-      </section>
-
-      <!-- Indonesian Folklore Spotlight -->
-      <section style="margin-bottom: 5rem; padding: 2.5rem; background: linear-gradient(135deg, rgba(217, 119, 6, 0.08), rgba(15, 23, 42, 0.5)); border: 1px solid rgba(217, 119, 6, 0.3); border-radius: var(--radius-xl);">
-        <div class="section-header" style="text-align: left; display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem;">
-          <div>
-            <span class="badge" style="background: rgba(217, 119, 6, 0.9); color: #fff; margin-bottom: 0.5rem;">🇮🇩 NUSANTARA SPOTLIGHT</span>
-            <h2 class="section-title" style="color: #fef3c7;">${t('home.indonesianSpotlight')}</h2>
-            <p class="section-subtitle" style="margin-left: 0; color: #fde68a;">${t('home.indonesianSubtitle')}</p>
-          </div>
-          <a href="#/explore?culture=indonesian-folklore" class="btn btn-secondary" style="border-color: var(--gold-500);">
-            Jelajahi Folklor Indonesia →
-          </a>
-        </div>
-        <div id="indonesian-grid-slot" class="creature-grid" style="margin-bottom: 0;"></div>
-      </section>
-
-      <!-- Cultures of the World Preview -->
-      <section style="margin-bottom: 5rem;">
-        <div class="section-header">
-          <span class="section-badge">${t('home.cultures')}</span>
-          <h2 class="section-title">${t('home.cultures')}</h2>
-          <p class="section-subtitle">${t('home.culturesSubtitle')}</p>
-        </div>
-        <div id="home-cultures-slot" class="culture-grid"></div>
-      </section>
-
-      <!-- Random Encounter Banner -->
-      <section style="padding: 3rem; background: var(--bg-card); border: 1px solid var(--border-glow); border-radius: var(--radius-xl); text-align: center; position: relative; overflow: hidden; box-shadow: var(--shadow-gold);">
-        <div style="position: absolute; top: -50px; right: -50px; width: 200px; height: 200px; background: var(--gold-glow); filter: blur(40px); pointer-events: none;"></div>
-        <h2 style="font-family: var(--font-display); font-size: 2rem; margin-bottom: 0.75rem;">Siap Menghadapi yang Tak Terduga?</h2>
-        <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto 2rem; line-height: 1.6;">
-          Uji takdir Anda dengan memanggil entitas acak dari ribuan arsip cerita rakyat dunia.
-        </p>
-        <button class="btn btn-primary" id="home-random-banner-trigger" style="font-size: 1.05rem; padding: 0.85rem 1.8rem;">
-          ✦ ${t('hero.btnRandom')}
-        </button>
-      </section>
-
-    </div>
-  `;
-
-  // Render Hero
-  const heroSlot = container.querySelector('#home-hero-slot');
-  heroSlot.innerHTML = renderHero(18, 14);
-
-  // Attach hero search and random trigger
-  const heroSearchInput = heroSlot.querySelector('#hero-search-input');
-  heroSearchInput?.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') {
-      const q = heroSearchInput.value.trim();
-      window.location.hash = `#/explore?q=${encodeURIComponent(q)}`;
-    }
-  });
-
-  heroSlot.querySelector('#hero-random-trigger')?.addEventListener('click', () => openRandomEncounterModal());
-  container.querySelector('#home-random-banner-trigger')?.addEventListener('click', () => openRandomEncounterModal());
-
-  // Fetch data
+  container.innerHTML = `<div id="home-hero-slot">${renderHero()}</div><div class="container home-body"><form class="discovery-search" id="home-search"><label for="hero-search-input">${icon("search", 22)}<span class="sr-only">${bi("Cari makhluk mitologi", "Search mythical beings")}</span></label><input id="hero-search-input" type="search" placeholder="${bi("Kisah apa yang ingin kamu temukan?", "What story will you discover?")}"><button type="submit">${bi("Cari di arsip", "Search archive")} ${icon("arrow", 17)}</button></form><div class="search-suggestions"><span>${bi("MULAI DARI", "START WITH")}</span><a href="#/creature/garuda">Garuda</a><a href="#/creature/kitsune">Kitsune</a><a href="#/explore?culture=indonesian-folklore">${bi("Folklor Nusantara", "Indonesian folklore")}</a><a href="#/explore?classification=dragon">${bi("Naga & ular purba", "Dragons & serpents")}</a></div>
+  <section class="home-section"><div class="editorial-heading"><div><div class="eyebrow">01 / ${bi("PILIHAN EDITORIAL", "EDITORIAL SELECTION")}</div><h2>${bi("Legenda yang melampaui zaman", "Legends beyond time")}</h2><p>${bi("Empat pintu masuk menuju dunia yang lebih luas.", "Four doorways into a wider world.")}</p></div><a class="text-link" href="#/explore">${bi("Lihat seluruh arsip", "View the full archive")} ${icon("arrow", 18)}</a></div><div id="featured-grid-slot" class="creature-grid featured-grid" aria-live="polite"><p>${bi("Menyiapkan koleksi…", "Preparing the collection…")}</p></div></section>
+  <section class="nusantara-feature"><div class="nusantara-art" role="img" aria-label="${bi("Interpretasi artistik Barong Bali", "Artistic interpretation of a Balinese Barong")}"></div><div class="nusantara-copy"><div class="eyebrow">02 / ${bi("DEKAT DENGAN AKAR KITA", "CLOSER TO OUR ROOTS")}</div><h2>${bi("Tanah yang kaya.<br>Kisah yang tak habis.", "A land of wonder.<br>Stories without end.")}</h2><p>${bi("Di balik rimbun hutan dan gerbang pura, Nusantara menyimpan kisah tentang penjaga, arwah, dan keseimbangan. Kenali mereka melalui budaya yang menghidupkannya.", "Beyond forests and temple gates, Indonesia holds stories of guardians, spirits, and balance. Meet them through the cultures that keep their stories alive.")}</p><a class="btn btn-secondary" href="#/explore?culture=indonesian-folklore">${bi("Jelajahi Folklor Nusantara", "Explore Indonesian Folklore")} ${icon("arrow", 18)}</a><small>${bi("Visual Barong: interpretasi artistik AI", "Barong visual: AI artistic interpretation")}</small></div></section>
+  <section class="home-section"><div class="editorial-heading"><div><div class="eyebrow">03 / ${bi("PETA IMAJINASI MANUSIA", "A MAP OF HUMAN IMAGINATION")}</div><h2>${bi("Satu dunia, banyak keajaiban.", "One world, many wonders.")}</h2></div><a href="#/cultures" class="text-link">${bi("Semua peradaban", "All cultures")} ${icon("arrow", 18)}</a></div><div id="home-cultures-slot" class="culture-portals"></div></section>
+  <section class="learning-banner"><div class="learning-mark">${icon("book", 46)}</div><div><div class="eyebrow">${bi("BUKAN SEKADAR MEMBACA", "GO BEYOND THE STORY")}</div><h2>${bi("Belajar melihat di balik legenda.", "Learn to read between the legends.")}</h2><p>${bi("Pahami simbol, telusuri sumber, dan uji pemahamanmu di Ruang Belajar.", "Explore symbols, trace sources, and test your understanding in the Learning Room.")}</p></div><a href="#/learn" class="btn btn-primary">${bi("Masuk Ruang Belajar", "Start learning")} ${icon("arrow", 18)}</a></section></div>`;
+  const wireHero = () =>
+    container
+      .querySelector("#hero-random-trigger")
+      ?.addEventListener("click", () => openRandomEncounterModal());
+  wireHero();
+  container.querySelector("#home-search").onsubmit = (e) => {
+    e.preventDefault();
+    location.hash = `#/explore?q=${encodeURIComponent(container.querySelector("#hero-search-input").value.trim())}`;
+  };
   try {
-    const [creaturesData, cultures] = await Promise.all([
-      api.getCreatures({ limit: 50 }),
-      api.getCultures()
+    const [data, cultures] = await Promise.all([
+      api.getCreatures({ limit: 100 }),
+      api.getCultures(),
     ]);
-
-    const all = creaturesData.creatures || [];
-
-    // Featured: Garuda, Pocong, Kitsune, Quetzalcoatl, Jörmungandr, Barong
-    const featuredSlugs = ['garuda', 'kitsune', 'jormungandr', 'quetzalcoatl', 'pocong', 'barong'];
-    const featured = all.filter(c => featuredSlugs.includes(c.slug));
-    const featuredSlot = container.querySelector('#featured-grid-slot');
-    featuredSlot.innerHTML = featured.map(c => renderCreatureCard(c)).join('');
-
-    // Indonesian Spotlight
-    const indonesian = all.filter(c => c.culture === 'indonesian-folklore').slice(0, 4);
-    const indoSlot = container.querySelector('#indonesian-grid-slot');
-    indoSlot.innerHTML = indonesian.map(c => renderCreatureCard(c)).join('');
-
-    // Cultures Preview (first 8)
-    const cultSlot = container.querySelector('#home-cultures-slot');
-    cultSlot.innerHTML = cultures.slice(0, 8).map(cult => `
-      <a href="#/explore?culture=${cult.id}" class="culture-card">
-        <div class="culture-card-header">
-          <h3 class="culture-name">${resolveLocalized(cult.name)}</h3>
-          <span class="culture-count-pill">${cult.creature_count || 0}</span>
-        </div>
-        <div style="font-size: 0.78rem; color: var(--gold-500); margin-bottom: 0.5rem; text-transform: uppercase;">
-          ${cult.region}
-        </div>
-        <p class="culture-desc">${resolveLocalized(cult.description)}</p>
-      </a>
-    `).join('');
-
-    // Attach card clicks
-    container.querySelectorAll('.creature-card').forEach(card => {
-      card.addEventListener('click', (e) => {
-        e.preventDefault();
-        const slug = card.getAttribute('data-slug');
-        if (slug) window.location.hash = `#/creature/${slug}`;
-      });
-    });
-
-  } catch (err) {
-    console.error('Failed to populate home view:', err);
+    if (!container.querySelector("#home-hero-slot")) return;
+    container.querySelector("#home-hero-slot").innerHTML = renderHero(
+      data.pagination.total,
+      cultures.filter((c) => c.creature_count > 0).length,
+    );
+    wireHero();
+    const all = data.creatures || [];
+    container.querySelector("#featured-grid-slot").innerHTML = [
+      "garuda",
+      "kitsune",
+      "jormungandr",
+      "barong",
+    ]
+      .map((s) => all.find((c) => c.slug === s))
+      .filter(Boolean)
+      .map((c) => renderCreatureCard(c))
+      .join("");
+    container.querySelector("#home-cultures-slot").innerHTML = cultures
+      .filter((c) => c.creature_count > 0)
+      .slice(0, 6)
+      .map(
+        (c, i) =>
+          `<a href="#/culture/${c.id}" class="culture-portal"><span class="portal-number">0${i + 1}</span><div><h3>${resolveLocalized(c.name)}</h3><p>${c.creature_count} ${bi("kisah dalam arsip", "archived stories")}</p></div>${icon("arrow", 20)}</a>`,
+      )
+      .join("");
+  } catch {
+    container.querySelector("#featured-grid-slot").innerHTML =
+      `<p>${bi("Koleksi belum dapat dimuat.", "The collection could not be loaded.")} <a href="#/explore">${bi("Coba buka arsip", "Open the archive")} →</a></p>`;
   }
 }

@@ -25,6 +25,9 @@ async function runCheck() {
 
   let errors = 0;
   let warnings = 0;
+  let sourceLanguageOnly = 0;
+  let missingVisuals = 0;
+  const identities = new Set();
 
   console.log(`Auditing ${creatures.length} creatures across ${cultures.length} cultures...`);
 
@@ -51,7 +54,9 @@ async function runCheck() {
       console.error(`❌ ${label} Missing bilingual short_description`);
       errors++;
     }
-    if (!c.long_description?.id || !c.long_description?.en) {
+    if (c.translation_status === 'english-source-only' && c.long_description?.en) {
+      sourceLanguageOnly++;
+    } else if (!c.long_description?.id || !c.long_description?.en) {
       console.error(`❌ ${label} Missing bilingual long_description`);
       errors++;
     }
@@ -81,8 +86,7 @@ async function runCheck() {
 
     // 5. Images attribution
     if (!c.images || c.images.length === 0) {
-      console.warn(`⚠️ ${label} Has no images (fallback mode required)`);
-      warnings++;
+      missingVisuals++;
     } else {
       for (const img of c.images) {
         if (!img.url || !img.license) {
@@ -96,6 +100,12 @@ async function runCheck() {
       }
     }
 
+    if (c.import_method === 'wikipedia-category-library') {
+      if (!c.source_identity || identities.has(c.source_identity)) { console.error(`Duplicate or missing source identity: ${c.slug}`); errors++; }
+      identities.add(c.source_identity);
+      if (!c.sources.some(s => s.revision_id && s.license === 'CC BY-SA 4.0')) { console.error(`Missing revision/license: ${c.slug}`); errors++; }
+      if (Object.keys(c.power_profile?.dimensions || {}).length) { console.error(`Unassessed import has power scores: ${c.slug}`); errors++; }
+    }
     // 6. Power Profile & Disclaimers
     if (!c.power_profile || !c.power_profile.dimensions) {
       console.error(`❌ ${label} Missing power_profile dimensions`);
@@ -110,6 +120,8 @@ async function runCheck() {
   console.log(`  - Total Checked : ${creatures.length} creatures`);
   console.log(`  - Total Errors  : ${errors}`);
   console.log(`  - Total Warnings: ${warnings}`);
+  console.log(`  - English-source introductions: ${sourceLanguageOnly}`);
+  console.log(`  - Without documentary images: ${missingVisuals} (explicit fallback supported)`);
 
   if (errors > 0) {
     console.error(`\n❌ Quality check FAILED with ${errors} critical errors.`);

@@ -5,6 +5,7 @@
  * Ability Matrix, Historical Timeline, Tradition vs Pop Culture, and Semantic Relationship Graph.
  */
 
+import { bi, editorialArt, escapeHtml } from '../ui.js';
 import { api } from '../api-client.js';
 import { t, resolveLocalized } from '../i18n.js';
 import { renderCreatureCard } from './creature-card.js';
@@ -33,12 +34,13 @@ export async function renderCreatureDetail(container, slug) {
     const culturalContext = resolveLocalized(creature.cultural_context, '');
     const didYouKnow = resolveLocalized(creature.did_you_know, '');
 
-    const primaryImg = creature.images?.[0];
+    const art = editorialArt(creature.slug);
+    const primaryImg = art ? { url: art, image_type: bi('Interpretasi artistik AI', 'AI artistic interpretation'), license: bi('Ilustrasi editorial', 'Editorial illustration'), author: 'Mythics · OpenAI image generation' } : creature.images?.[0];
     const imgUrl = primaryImg?.preview_url || primaryImg?.url || '/assets/placeholders/creature-fallback.svg';
     const isFav = gamification.isFavorite(creature.slug);
 
     const tier = creature.content_tier || 'rich';
-    const tierLabel = tier === 'archive' ? 'Tier Arsip (Scholarly)' : tier === 'rich' ? 'Tier Kaya (Rich Lore)' : 'Tier Inti (Core)';
+    const tierLabel = tier === 'archive' ? bi('Catatan arsip', 'Archive notes') : tier === 'rich' ? bi('Kisah & konteks', 'Story & context') : bi('Pengantar', 'Introduction');
 
     const dimensions = creature.power_profile?.dimensions || {};
     const basisList = creature.power_profile?.calculated_basis || [];
@@ -100,11 +102,11 @@ export async function renderCreatureDetail(container, slug) {
               />
               <div class="detail-image-meta">
                 <div class="detail-image-meta-row">
-                  <span style="font-weight: 600;">${primaryImg?.image_type || 'Representasi Visual'}</span>
-                  <span class="badge" style="background: var(--bg-tertiary);">${primaryImg?.license || 'Public Domain'}</span>
+                  <span style="font-weight: 600;">${primaryImg?.image_type || bi('Visual belum tersedia', 'Visual unavailable')}</span>
+                  <span class="badge" style="background: var(--bg-tertiary);">${primaryImg?.license || bi('Periksa sumber', 'Check source')}</span>
                 </div>
                 <div>
-                  Kredit: ${primaryImg?.author || 'Arsip Kebudayaan'}
+                  Kredit: ${primaryImg?.author || '—'}
                   ${primaryImg?.source_url ? ` · <a href="${primaryImg.source_url}" target="_blank" rel="noopener noreferrer" style="font-size: 0.78rem;">Sumber Asli ↗</a>` : ''}
                 </div>
               </div>
@@ -131,7 +133,7 @@ export async function renderCreatureDetail(container, slug) {
                 </div>
                 <div class="spec-cell">
                   <span class="spec-key">Era / Periode</span>
-                  <span class="spec-val">${creature.era || 'Klasik'}</span>
+                  <span class="spec-val">${creature.era || bi('Belum dicatat', 'Not recorded')}</span>
                 </div>
                 <div class="spec-cell">
                   <span class="spec-key">Habitat</span>
@@ -139,13 +141,13 @@ export async function renderCreatureDetail(container, slug) {
                 </div>
                 <div class="spec-cell">
                   <span class="spec-key">Elemen / Sifat</span>
-                  <span class="spec-val">${creature.element || 'Netral'} · ${creature.behavior || 'Ambivalen'}</span>
+                  <span class="spec-val">${creature.element || '—'} · ${creature.behavior || '—'}</span>
                 </div>
               </div>
 
               <!-- Header Action Buttons -->
               <div class="detail-header-actions">
-                <button class="btn btn-secondary" id="btn-toggle-favorite">
+                <button class="btn btn-secondary" id="btn-toggle-favorite" aria-pressed="${isFav}">
                   <span id="fav-icon">${isFav ? '★' : '☆'}</span>
                   <span id="fav-text">${isFav ? t('detail.bookmarkRemove') : t('detail.bookmarkAdd')}</span>
                 </button>
@@ -156,6 +158,8 @@ export async function renderCreatureDetail(container, slug) {
             </div>
           </div>
 
+          <nav class="detail-toc" aria-label="${bi('Daftar isi', 'On this page')}"><button class="btn-ghost" data-scroll="detail-lore">${bi('Kisah & asal-usul','Story & origins')}</button><button class="btn-ghost" data-scroll="detail-study">${bi('Catatan belajar','Study notes')}</button><button class="btn-ghost" data-scroll="detail-sources">${bi('Sumber bacaan','Reading sources')}</button></nav>
+          <p class="archive-reading-note">${bi('Arsip ini memuat ringkasan tradisi dan interpretasi editorial. Rincian dapat berbeda menurut versi; periksa sumber untuk setiap klaim.','This archive contains summaries of traditions and editorial interpretations. Details vary between versions; consult sources for individual claims.')}</p>
           <!-- Mode Switcher (Story Mode vs Expert Mode) -->
           <div class="mode-switch-bar">
             <button class="mode-btn active" id="btn-mode-story">${t('detail.storyMode')}</button>
@@ -233,16 +237,19 @@ export async function renderCreatureDetail(container, slug) {
           ` : ''}
 
           <!-- Detailed Lore Block -->
-          <div class="detail-section-block">
+          <div class="detail-section-block" id="detail-lore">
             <h2 class="detail-block-title">
               <span>📜</span>
               <span>${t('detail.lore')}</span>
             </h2>
             <div class="detail-prose-text">
-              <p>${longDesc}</p>
+              ${creature.import_method === 'wikipedia-category-library' ? `<div class="source-reading-notice"><strong>${bi('Pengantar bersumber · belum dikurasi mendalam','Sourced introduction · not yet individually curated')}</strong><p>${creature.translation_status === 'english-source-only' ? bi('Uraian berikut tersedia dalam bahasa sumber (Inggris). Terjemahan lengkap Bahasa Indonesia belum tersedia.','This introduction is available in English. A full Indonesian translation is not yet available.') : bi('Uraian berasal dari edisi bahasa sumber Wikipedia; versi Indonesia dan Inggris dapat berbeda cakupan.','Text comes from Wikipedia language editions; Indonesian and English introductions may differ in coverage.')}</p></div>` : ''}
+              <p ${creature.translation_status === 'english-source-only' ? 'lang="en"' : ''}>${escapeHtml(longDesc)}</p>
+              ${creature.import_method === 'wikipedia-category-library' ? `<p class="source-text-credit">${bi('Kutipan pengantar dinormalisasi spasinya dari','Introductory extract with normalized whitespace from')} <a href="${creature.sources.find(s => s.source_name.includes(creature.translation_status === 'english-source-only' ? '(en)' : bi('(id)','(en)')))?.url || creature.sources[0].url}" target="_blank" rel="noopener noreferrer">Wikipedia · ${escapeHtml(creature.canonical_name)}</a> · Wikipedia contributors · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></p>` : ''}
             </div>
           </div>
 
+          <section class="detail-section-block" id="detail-study"><div class="study-notes"><div><span class="eyebrow">${bi('CATATAN PEMBACA','READER’S NOTES')}</span><h3>${bi('Membaca dengan konteks','Read with context')}</h3><p>${resolveLocalized(creature.learning_notes?.context, bi('Baca rincian kisah bersama tempat, masa, dan sumber yang mencatatnya. Variasi antarpenutur tidak selalu merupakan pertentangan.','Read story details with their place, period, and source. Differences between narrators are not necessarily contradictions.'))}</p><a class="text-link" href="#/learn?module=reading">${bi('Panduan membaca sumber','A guide to reading sources')} →</a></div><div><h3>${bi('Pertanyaan untuk ditelusuri','Questions to explore')}</h3><ul>${(creature.learning_notes?.questions || [{id:'Bagian mana yang berasal dari tradisi, dan mana yang merupakan interpretasi modern?',en:'Which details come from tradition, and which are modern interpretations?'}]).map(q=>`<li>${resolveLocalized(q)}</li>`).join('')}</ul><p style="margin-top:14px;font-size:11px">${bi('Pertanyaan reflektif editorial; bukan tambahan klaim sejarah.','Editorial reflection prompts; not additional historical claims.')}</p></div></div></section>
           <!-- Cultural Context & Sacred Nuance Block -->
           ${culturalContext ? `
             <div class="detail-section-block">
@@ -350,6 +357,7 @@ export async function renderCreatureDetail(container, slug) {
               </div>
 
               <div class="power-dimensions-list">
+                ${!Object.keys(dimensions).length ? `<p>${bi('Belum ada skor yang dinilai. Data kosong tidak berarti kekuatan nol.','No scores have been assessed. Missing data does not mean zero power.')}</p>` : ''}
                 ${Object.entries(dimensions).map(([dim, val]) => `
                   <div class="power-dim-row">
                     <span class="power-dim-name">${dim}</span>
@@ -421,7 +429,7 @@ export async function renderCreatureDetail(container, slug) {
                 </div>
 
                 ${popContrast.major_differences && popContrast.major_differences.length > 0 ? `
-                  <table class="diff-table">
+                  <div class="table-scroll" tabindex="0" role="region" aria-label="Tradisi dan adaptasi / Tradition and adaptation"><table class="diff-table">
                     <thead>
                       <tr>
                         <th style="width: 25%;">Aspek Pembanding</th>
@@ -438,7 +446,7 @@ export async function renderCreatureDetail(container, slug) {
                         </tr>
                       `).join('')}
                     </tbody>
-                  </table>
+                  </table></div>
                 ` : ''}
               </div>
             </div>
@@ -570,7 +578,7 @@ export async function renderCreatureDetail(container, slug) {
 
           <!-- Sources & Bibliographic Provenance -->
           ${creature.sources && creature.sources.length > 0 ? `
-            <div class="detail-section-block">
+            <div class="detail-section-block" id="detail-sources">
               <h2 class="detail-block-title">
                 <span>📚</span>
                 <span>${t('detail.sources')}</span>
@@ -580,7 +588,7 @@ export async function renderCreatureDetail(container, slug) {
                   <div class="source-item-card">
                     <div>
                       <div class="source-item-title">${s.title}</div>
-                      <div class="source-item-meta">${s.source_name} · ${s.author || 'Anonim'} (${s.publication_date || 'N/A'})</div>
+                      <div class="source-item-meta">${s.source_name} · ${s.author || 'Anonim'}${s.publication_date ? ' · ' + s.publication_date : ''}${s.license ? ' · ' + s.license : ''}${s.revision_id ? ' · revision ' + s.revision_id : ''}</div>
                     </div>
                     ${s.url ? `
                       <a href="${s.url}" target="_blank" rel="noopener noreferrer" style="font-size: 0.85rem; font-weight: 600;">
@@ -596,6 +604,7 @@ export async function renderCreatureDetail(container, slug) {
       </div>
     `;
 
+    container.querySelectorAll('[data-scroll]').forEach(button => button.addEventListener('click', () => { const target = container.querySelector('#' + button.dataset.scroll); target?.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' }); }));
     // Mount Relationship Graph asynchronously into the container
     const graphMount = container.querySelector('#relationship-graph-mount');
     if (graphMount) {
@@ -609,6 +618,7 @@ export async function renderCreatureDetail(container, slug) {
 
     favBtn?.addEventListener('click', () => {
       const nowFav = gamification.toggleFavorite(creature.slug);
+      favBtn.setAttribute('aria-pressed', String(nowFav));
       favIcon.textContent = nowFav ? '★' : '☆';
       favText.textContent = nowFav ? t('detail.bookmarkRemove') : t('detail.bookmarkAdd');
     });

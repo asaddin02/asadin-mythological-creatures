@@ -92,7 +92,7 @@ export const translations = {
 
     // Explore Page
     "explore.title": "Jelajah Arsip Mitologi",
-    "explore.subtitle": "Saring dan temukan ribuan makhluk berdasarkan tradisi, tipe, elemen, habitat, dan kekuatan.",
+    "explore.subtitle": "Temukan kisah berdasarkan tradisi, kategori, elemen, dan habitat.",
     "explore.searchLabel": "Pencarian Kata Kunci",
     "explore.allCultures": "Semua Budaya",
     "explore.allCategories": "Semua Klasifikasi",
@@ -255,7 +255,7 @@ export const translations = {
 
     // Explore Page
     "explore.title": "Explore Mythological Archive",
-    "explore.subtitle": "Filter and discover thousands of beings by cultural tradition, classification, element, and traits.",
+    "explore.subtitle": "Filter and discover a collection of beings by cultural tradition, classification, element, and traits.",
     "explore.searchLabel": "Keyword Search",
     "explore.allCultures": "All Cultures",
     "explore.allCategories": "All Classifications",

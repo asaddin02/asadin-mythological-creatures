@@ -17,9 +17,9 @@ export async function renderComparisonView(container, initialSlugA = 'garuda', i
 
       <!-- Selectors Strip -->
       <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2.5rem;">
-        <select id="compare-select-a" class="filter-select" style="max-width: 280px;"></select>
+        <select aria-label="Makhluk pertama / First being" id="compare-select-a" class="filter-select" style="max-width: 280px;"></select>
         <span style="display: flex; align-items: center; font-weight: 700; color: var(--gold-500);">VS</span>
-        <select id="compare-select-b" class="filter-select" style="max-width: 280px;"></select>
+        <select aria-label="Makhluk kedua / Second being" id="compare-select-b" class="filter-select" style="max-width: 280px;"></select>
         <button class="btn btn-primary" id="btn-run-compare">${t('compare.btnCompare')}</button>
       </div>
 
@@ -34,8 +34,8 @@ export async function renderComparisonView(container, initialSlugA = 'garuda', i
   const slot = container.querySelector('#comparison-result-slot');
 
   try {
-    const list = await api.getCreatures({ limit: 100 });
-    for (const c of list.creatures) {
+    const list = await api.getCreatureIndex();
+    for (const c of list) {
       const optA = document.createElement('option');
       optA.value = c.slug;
       optA.textContent = `${resolveLocalized(c.display_name)} (${c.canonical_name})`;
@@ -106,7 +106,7 @@ export async function renderComparisonView(container, initialSlugA = 'garuda', i
         </div>
 
         <!-- Comparative Matrix Table -->
-        <table class="compare-matrix-table">
+        <div class="table-scroll" tabindex="0" role="region" aria-label="Tabel perbandingan / Comparison table"><table class="compare-matrix-table">
           <thead>
             <tr>
               <th>${t('compare.metric')}</th>
@@ -136,7 +136,7 @@ export async function renderComparisonView(container, initialSlugA = 'garuda', i
             </tr>
             ${data.comparisonMatrix.map(row => {
               const diff = row.difference;
-              let diffText = 'Seimbang';
+              let diffText = diff === null ? 'Belum tersedia / Not assessed' : 'Seimbang';
               let diffColor = 'var(--text-muted)';
               if (diff > 0) {
                 diffText = `+${diff} untuk ${nameA}`;
@@ -148,14 +148,14 @@ export async function renderComparisonView(container, initialSlugA = 'garuda', i
               return `
                 <tr>
                   <td><strong>${row.dimension.toUpperCase()}</strong></td>
-                  <td><strong>${row.valA}</strong> / 100</td>
-                  <td><strong>${row.valB}</strong> / 100</td>
+                  <td><strong>${row.valA ?? '—'}</strong>${row.valA === null ? '' : ' / 100'}</td>
+                  <td><strong>${row.valB ?? '—'}</strong>${row.valB === null ? '' : ' / 100'}</td>
                   <td style="color: ${diffColor}; font-weight: 600;">${diffText}</td>
                 </tr>
               `;
             }).join('')}
           </tbody>
-        </table>
+        </table></div>
 
         <!-- Disclaimer -->
         <div class="power-profile-disclaimer-box" style="margin-top: 2rem;">

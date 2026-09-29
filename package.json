@@ -6,11 +6,18 @@
   "private": true,
   "scripts": {
     "start": "node server/server.mjs",
-    "dev": "PORT=8095 HOST=127.0.0.1 LOG=1 node server/server.mjs",
+    "dev": "MYTHICS_ADMIN=1 PORT=8095 HOST=127.0.0.1 LOG=1 node server/server.mjs",
     "seed": "node scripts/seed.mjs",
     "ingest": "node scripts/ingest-cli.mjs",
     "check": "node scripts/check-data.mjs",
-    "test": "node tests/test-all.mjs"
+    "test": "node tests/test-all.mjs && node tests/server-policy.mjs",
+    "test:ui": "node tests/browser.mjs",
+    "build:site": "node scripts/build-site.mjs",
+    "preview:static": "node scripts/serve-static.mjs",
+    "test:static": "npm run build:site && node tests/static-site.mjs && UI_TEST_TARGET=static node tests/browser.mjs",
+    "preview:cloudflare": "npm run build:site && npx --yes wrangler@4 pages dev dist --port 8788 --compatibility-date=2026-09-21",
+    "import:library": "node scripts/import-library.mjs && node scripts/audit-library.mjs",
+    "discover:library": "node scripts/import-library.mjs --discover && node scripts/audit-library.mjs"
   },
   "keywords": [
     "mythology",
@@ -25,5 +32,8 @@
   "license": "MIT",
   "engines": {
     "node": ">=20"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0"
   }
 }

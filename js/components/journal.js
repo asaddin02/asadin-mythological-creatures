@@ -9,7 +9,8 @@ import { gamification } from './gamification.js';
 import { renderCreatureCard } from './creature-card.js';
 
 export async function renderJournalView(container) {
-  const stats = gamification.getStats(18);
+  const collection = await api.getCreatures({ limit: 1 }).catch(() => null);
+  const stats = gamification.getStats(collection?.pagination?.total || 18);
   const achievements = gamification.getAchievements();
   const favoriteSlugs = gamification.getFavorites();
 
@@ -81,8 +82,11 @@ export async function renderJournalView(container) {
   }
 
   try {
-    const list = await api.getCreatures({ limit: 100 });
-    const favCreatures = list.creatures.filter(c => favoriteSlugs.includes(c.slug));
+    const favCreatures = [];
+    for (let i = 0; i < favoriteSlugs.length; i += 10) {
+      const batch = await Promise.allSettled(favoriteSlugs.slice(i, i + 10).map(slug => api.getCreature(slug)));
+      favCreatures.push(...batch.filter(r => r.status === 'fulfilled').map(r => r.value));
+    }
 
     if (favCreatures.length === 0) {
       favSlot.innerHTML = `<p>${t('journal.emptyFavorites')}</p>`;

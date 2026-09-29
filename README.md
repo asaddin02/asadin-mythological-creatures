@@ -1,6 +1,6 @@
 # ✦ MYTHICS — Global Mythological Creatures & Legendary Beings Encyclopedia
 
-> **Mythics** adalah ensiklopedia digital modern, kuratorial, dan interaktif untuk menjelajahi makhluk mitologi, arwah cerita rakyat, naga purba, dan entitas supernatural dari berbagai peradaban dunia dengan sistem penyerapan data otonom berdasar rujukan sumber terverifikasi.
+> **Mythics** adalah ensiklopedia digital modern, kuratorial, dan interaktif untuk menjelajahi makhluk mitologi, arwah cerita rakyat, naga purba, dan entitas supernatural dari berbagai peradaban dunia dengan catatan sumber, panduan belajar, dan konteks budaya.
 
 ---
 
@@ -38,7 +38,7 @@ Mythics dirancang sebagai perpaduan antara **arsip museum digital premium**, **i
 - **Backend**: Node.js 20+ ES Modules native HTTP server (tanpa *framework overhead*, kompresi gzip/brotli terintegrasi, header keamanan CSP & HSTS).
 - **Database**: Normalized In-Memory Datastore berbasis file JSON terindeks (`data/creatures.json`, `data/cultures.json`, `data/categories.json`, `data/reviews.json`, `data/ingestion-jobs.json`).
 - **Frontend**: Vanilla ES Modules JavaScript modular & Semantic HTML5 dengan Sistem Desain CSS murni berstandar modern.
-- **Tipografi**: `Cinzel` (tampilan judul megah & bernuansa mitik) + `Plus Jakarta Sans` (keterbacaan teks tubuh tinggi).
+- **Tipografi**: `DM Serif Display` (judul editorial) + `DM Sans` (antarmuka dan teks bacaan).
 - **Tema Ganda**:
   - *Dark Theme*: Midnight Museum Archive (latar obsidian dengan aksen emas kuno).
   - *Light Theme*: Editorial Museum Catalog (latar gading dengan tipografi tinta tajam).
@@ -104,7 +104,7 @@ asadin-mythological-creatures/
 ```bash
 npm run dev
 ```
-Aplikasi akan aktif di `http://127.0.0.1:8095`.
+Aplikasi akan aktif di `http://127.0.0.1:8095`. `npm run dev` mengaktifkan Pusat Kontrol Redaksi (`#/admin`, `MYTHICS_ADMIN=1`), yang hanya menerima permintaan dari komputer itu sendiri dan dari origin yang sama. `npm start` (server produksi) mematikannya: rute `/api/admin/*` menjawab 404 dan tautan Admin tidak tampil. Server hanya menyajikan `index.html`, `manifest.webmanifest`, `css/`, `js/`, dan `assets/`; `data/`, `server/`, `scripts/`, `tests/`, dan berkas paket selalu 404.
 
 ### 2. Menjalankan Audit Kualitas Data (QC Check)
 
@@ -131,10 +131,56 @@ node scripts/ingest-cli.mjs "Anubis"
 node scripts/ingest-cli.mjs "Valkyrie" --publish
 ```
 
+### 5. Deploy ke Cloudflare Pages
+
+Situs publik adalah **situs statis**: `npm run build:site` menyusun `dist/` berisi aplikasi dan seluruh API baca sebagai berkas JSON (`dist/api/…`) yang dihasilkan oleh mesin query yang sama dengan server (`js/query-engine.js`). Di browser, pencarian, filter, pengurutan, halaman, dan pertemuan acak dijalankan atas `dist/api/catalog.json`, dengan hasil yang sama dengan server (`npm run test:static` membuktikannya, lalu menjalankan tes browser yang sama pada situs statis). Konsol redaksi tidak ikut terbit; tambahkan atau setujui entri secara lokal, commit `data/`, lalu push.
+
+1. Buat API token Cloudflare dengan izin **Account · Cloudflare Pages · Edit**, lalu salin **Account ID** dari **Workers & Pages**.
+2. Di GitHub, buka **Settings → Secrets and variables → Actions**. Isi secret `CLOUDFLARE_API_TOKEN` dan `CLOUDFLARE_ACCOUNT_ID`, serta variable `CLOUDFLARE_PAGES_PROJECT` (misalnya `asadin-mythics`). Opsional: variable `SITE_URL` untuk domain sendiri; tanpa itu dipakai `https://<proyek>.pages.dev`.
+3. Workflow [Deploy](.github/workflows/deploy.yml) berjalan setiap [CI](.github/workflows/ci.yml) lulus di `main`, atau jalankan manual dari tab **Actions**. Sebelum variable diisi, workflow ini dilewati.
+
+Tanpa GitHub Actions: `SITE_URL=https://alamat-situs npm run build:site`, lalu `npx wrangler pages deploy dist --project-name <nama>`. `dist/` berisi sekitar 5.400 berkas; unggahan drag-and-drop di dashboard juga bisa, tetapi Wrangler lebih cepat. Pratinjau lokal: `npm run preview:static` (meniru Cloudflare Pages) atau `npm run preview:cloudflare`.
+
 ---
 
 ## ⚖️ Lisensi & Etika Budaya
 
-- Seluruh kode sumber dirilis di bawah lisensi [MIT](LICENSE).
+- Seluruh kode sumber dirilis di bawah lisensi [MIT](LICENSE). Teks pengantar dari Wikipedia berlisensi CC BY-SA 4.0; lihat [data/CONTENT-LICENSE.md](data/CONTENT-LICENSE.md).
 - Gambar yang disajikan diperoleh dari repositori berlisensi terbuka (Wikimedia Commons, Public Domain, CC BY, CC BY-SA) dengan mencantumkan nama kreator asli dan tautan lisensi.
 - Mythics menghormati nilai-nilai sakral tradisi lisan masyarakat adat dan peradaban dunia. Informasi disajikan untuk tujuan edukasi kultural dan literatur penjelajahan.
+
+## Editorial redesign · September 2026
+
+The discovery homepage now uses an editorial forest-and-copper design, custom hero artwork, selected stories, a Nusantara feature, and culture portals. Shared navigation, collections, forms, and reading surfaces support desktop and mobile layouts and light/dark themes. See [DESIGN.md](DESIGN.md) for the visual system.
+
+### Learning and source context
+
+- 18 existing entries now include individual bilingual reading notes and reflection questions.
+- Four bilingual learning modules cover foundational terms, Indonesian traditions, comparative symbols, and source literacy. Each includes references, a quiz with explanation, and local completion tracking.
+- Institutional reading links include The Met, UNESCO, AMNH, and Britannica Education. Existing seed claims retain their original attribution; the new reading guides do not constitute an exhaustive scholarly verification of every legacy claim.
+- Fourteen documentary images are stored locally with Commons attribution. Six AI editorial images are identified separately; see [asset notes and prompts](assets/art/README.md).
+- Culture and region coverage is calculated from published records. Detailed entries and imported reference introductions are counted separately.
+
+### Verify locally
+
+```bash
+npm install
+npm run dev
+# http://127.0.0.1:8095
+npm test
+npm run check
+npx playwright install chromium
+npm run test:ui
+```
+
+The browser suite starts its own server on port 8098 (`UI_TEST_PORT` overrides it), exercises search, pagination, regions, favorites, quizzes, persistence, language/theme settings, modal keyboard behavior, and navigation, then checks eight routes at four viewport widths. No production build is required for the native ES module frontend.
+
+## Bulk library expansion
+
+The current library contains **1,736 entries** across **124 culture groups with published records**: 18 detailed editorial entries and 1,718 sourced introductions. Of the imported introductions, 379 have Indonesian and English source text; 1,339 currently have English source text only. Counts and exclusions are recorded in [the import report](data/import/report.json); text attribution is explained in [CONTENT-LICENSE.md](data/CONTENT-LICENSE.md).
+
+`npm run import:library` imports the checked-in discovery manifest, then audits identities and removes non-being subjects. `npm run discover:library` refreshes the Wikipedia category crawl first. Wikimedia responses are cached in `data/cache/`; failures are recorded in `data/import/report.json`. Existing editorial records are preserved. No external accounts or paid translation services are needed.
+
+Imported records are **sourced introductions**, not complete scholarly dossiers. They retain Wikipedia article URLs, revision IDs, contributor credit, and CC BY-SA 4.0 licensing. Indonesian text is included only when an Indonesian source article exists; English-only introductions are visibly labeled. Missing powers, dates, habitats, and images remain unfilled. Each source identity is deduplicated by Wikidata QID, and associated works, locations, rituals, historical people, and other out-of-scope topics are excluded by an additional identity audit. Category mappings are documented, not presented as definitive cultural attribution.
+
+The encyclopedia supports content-depth filtering and compact pagination. Comparison uses the complete lightweight index, and journal favorites are fetched by slug, avoiding the former 100-record limit. Missing power assessments display a dash rather than zero. See the generated import report for the actual accepted count and exclusions.

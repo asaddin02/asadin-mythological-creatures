@@ -59,7 +59,7 @@ export async function renderRegionsView(container) {
           </div>
 
           <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--border-subtle);">
-            <a href="#/explore?region=${encodeURIComponent(name)}" class="btn btn-secondary btn-sm" style="width: 100%; text-align: center; justify-content: center;">
+            <a href="#/explore?region=${encodeURIComponent(reg.id)}" class="btn btn-secondary btn-sm" style="width: 100%; text-align: center; justify-content: center;">
               Jelajahi Entitas ${name} →
             </a>
           </div>

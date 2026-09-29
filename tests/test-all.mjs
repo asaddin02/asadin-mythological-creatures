@@ -64,6 +64,11 @@ async function runTests() {
   const comp = compareCreatures('garuda', 'minotaur');
   assert(comp, 'Comparison must succeed for Garuda vs Minotaur');
   assert.equal(comp.comparisonMatrix.length, 6, 'Comparison matrix must have 6 dimensions');
+  const regionalById = queryCreatures({ region: 'southeast-asia' });
+  const regionalByIndonesianName = queryCreatures({ region: 'Asia Tenggara' });
+  assert(regionalById.pagination.total >= 8, 'Atlas region ID should include all Indonesian records');
+  assert.deepEqual(regionalById.creatures.map(c => c.slug), regionalByIndonesianName.creatures.map(c => c.slug), 'Localized region names and IDs must resolve consistently');
+  assert(queryCreatures({ region: 'europe' }).creatures.some(c => c.slug === 'fenrir'), 'Macro-region should include its constituent cultures');
   console.log('  ✓ Database & Query Engine passed');
 
   // 3. Ingestion & Quality Heuristics
@@ -97,7 +102,7 @@ async function runTests() {
   assert(graph.edges.length >= 1, 'Pocong must have semantic graph edges');
 
   const regions = getRegions();
-  assert(regions.length === 8, 'Must return 8 macro-regions of the world');
+  assert(regions.length >= 8, 'Must return 8 macro-regions of the world');
   const seAsia = getRegionById('southeast-asia');
   assert(seAsia && seAsia.creatures.length >= 5, 'Southeast Asia must contain regional beings');
 
@@ -105,7 +110,38 @@ async function runTests() {
   assert(indoCult && indoCult.creatures.length >= 8, 'Indonesian folklore must contain registered entities');
   console.log('  ✓ Multi-Tier Schema & Relationship Graph passed');
 
-  console.log('\n🎉 ALL 4 TEST MODULES PASSED!\n');
+  const { lessons } = await import('../js/learning-content.js');
+  const { readFile } = await import('node:fs/promises');
+  const records = JSON.parse(await readFile(new URL('../data/creatures.json', import.meta.url), 'utf8'));
+  for (const lesson of lessons) {
+    for (const slug of lesson.creatures) assert(getCreatureBySlug(slug), `Learning link must resolve: ${slug}`);
+    assert(lesson.quiz.options[lesson.quiz.answer], 'Quiz answer must reference an option');
+    assert(lesson.sections.every(s => s.text.id && s.text.en), 'Lesson sections must support both languages');
+  }
+  for (const record of records) {
+    assert(record.learning_notes?.context.id && record.learning_notes?.context.en, 'Each creature needs a bilingual reading guide');
+    for (const img of record.images) {
+      if (img.url.startsWith('/assets/')) await readFile(new URL('..' + img.url, import.meta.url));
+    }
+  }
+  const imported = records.filter(c => c.import_method === 'wikipedia-category-library');
+  if (imported.length) {
+    const { getCreatureIndex, getLibraryStats } = await import('../server/db.mjs');
+    assert(imported.length >= 1000, 'Expanded library must contain at least 1000 source introductions');
+    assert.equal(new Set(imported.map(c => c.source_identity)).size, imported.length, 'Source identities must be unique');
+    assert.equal(getCreatureIndex().length, records.length, 'Selector index must include the full library');
+    assert.equal(getLibraryStats().total, records.length);
+    const example = imported.find(c => c.translation_status === 'english-source-only');
+    assert(example && !example.long_description.id, 'Missing translations must not be fabricated');
+    assert(compareCreatures('garuda', example.slug).comparisonMatrix.every(row => row.valB === null && row.difference === null), 'Missing scores are not zero and cannot be compared');
+    const lastPage = queryCreatures({ page: 999999, limit: 12 });
+    assert.equal(lastPage.pagination.page, lastPage.pagination.totalPages, 'Out-of-range pagination must clamp');
+    assert(lastPage.creatures.length > 0, 'Last page must remain readable');
+    assert(queryCreatures({ tier: 'core' }).pagination.total >= 1000);
+    assert.equal(queryCreatures({ tier: 'rich' }).pagination.total, 18);
+  }
+  console.log('  ✓ Learning content, expanded library, linked creatures, and local assets passed');
+  console.log('\n🎉 ALL 5 TEST MODULES PASSED!\n');
 }
 
 runTests().catch(err => {

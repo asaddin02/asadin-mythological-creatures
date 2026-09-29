@@ -3,6 +3,7 @@
  * Multi-faceted search and filtering interface with URL synchronization.
  */
 
+import { bi, escapeHtml } from '../ui.js';
 import { api } from '../api-client.js';
 import { t, resolveLocalized } from '../i18n.js';
 import { renderCreatureCard } from './creature-card.js';
@@ -16,6 +17,7 @@ export async function renderExploreView(container, initialParams = {}) {
         <p class="section-subtitle">${t('explore.subtitle')}</p>
       </div>
 
+      <div class="library-overview" id="library-overview" aria-live="polite"></div>
       <!-- Filter Panel -->
       <div class="filter-panel">
         <div class="search-input-wrap">
@@ -28,23 +30,23 @@ export async function renderExploreView(container, initialParams = {}) {
             id="explore-search-input"
             class="search-input" 
             placeholder="${t('nav.searchPlaceholder')}"
-            value="${initialParams.q || ''}"
+            value="${escapeHtml(initialParams.q || '')}" aria-label="${bi('Cari dalam arsip','Search the archive')}"
           />
         </div>
 
         <div class="filters-row">
           <!-- Culture Filter -->
-          <select id="filter-culture" class="filter-select">
+          <select id="filter-culture" aria-label="Tradisi budaya / Culture" class="filter-select">
             <option value="all">${t('explore.allCultures')}</option>
           </select>
 
           <!-- Category Filter -->
-          <select id="filter-category" class="filter-select">
+          <select id="filter-category" aria-label="Kategori / Category" class="filter-select">
             <option value="all">${t('explore.allCategories')}</option>
           </select>
 
           <!-- Element Filter -->
-          <select id="filter-element" class="filter-select">
+          <select id="filter-element" aria-label="Elemen / Element" class="filter-select">
             <option value="all">${t('explore.allElements')}</option>
             <option value="Fire">Api (Fire)</option>
             <option value="Water">Air (Water)</option>
@@ -56,7 +58,7 @@ export async function renderExploreView(container, initialParams = {}) {
           </select>
 
           <!-- Habitat Filter -->
-          <select id="filter-habitat" class="filter-select">
+          <select id="filter-habitat" aria-label="Habitat" class="filter-select">
             <option value="all">${t('explore.allHabitats')}</option>
             <option value="Forest">Hutan (Forest)</option>
             <option value="Mountain">Gunung (Mountain)</option>
@@ -67,8 +69,9 @@ export async function renderExploreView(container, initialParams = {}) {
             <option value="Sky">Angkasa (Sky)</option>
           </select>
 
+          <select id="filter-tier" class="filter-select" aria-label="${bi('Kedalaman materi','Content depth')}"><option value="all">${bi('Semua kedalaman','All content depths')}</option><option value="rich">${bi('Materi mendalam','Detailed entries')}</option><option value="core">${bi('Pengantar bersumber','Sourced introductions')}</option></select>
           <!-- Sort -->
-          <select id="filter-sort" class="filter-select">
+          <select id="filter-sort" aria-label="Urutan / Sort" class="filter-select">
             <option value="default">${t('explore.sortDefault')}</option>
             <option value="name-asc">${t('explore.sortNameAsc')}</option>
             <option value="name-desc">${t('explore.sortNameDesc')}</option>
@@ -78,7 +81,7 @@ export async function renderExploreView(container, initialParams = {}) {
         </div>
 
         <div class="filter-status-strip">
-          <span id="explore-results-count">Memuat data...</span>
+          <span id="explore-results-count" role="status">Memuat data...</span>
           <button class="btn-ghost" id="btn-clear-filters" style="font-size: 0.85rem; padding: 0.25rem 0.5rem;">
             ${t('explore.clearFilters')}
           </button>
@@ -93,6 +96,10 @@ export async function renderExploreView(container, initialParams = {}) {
     </div>
   `;
 
+  api.getLibraryStats().then(stats => {
+    const overview = container.querySelector('#library-overview');
+    if (overview) overview.innerHTML = `<strong>${stats.total.toLocaleString()} ${bi('entri siap dijelajahi', 'entries to explore')}</strong><span>${stats.detailed} ${bi('materi mendalam','detailed entries')} · ${stats.introductory.toLocaleString()} ${bi('pengantar bersumber','sourced introductions')} · ${stats.cultures} ${bi('kelompok budaya','cultural groups')}</span><small>${bi('Sebagian pengantar tersedia dalam bahasa Inggris. Kedalaman materi dan ketersediaan visual berbeda pada setiap entri.','Some introductions are available in English. Content depth and visual coverage vary by entry.')}</small>`;
+  }).catch(() => {});
   // Populate culture and category dropdowns
   const cultureSelect = container.querySelector('#filter-culture');
   const categorySelect = container.querySelector('#filter-category');
@@ -100,6 +107,9 @@ export async function renderExploreView(container, initialParams = {}) {
   const elementSelect = container.querySelector('#filter-element');
   const habitatSelect = container.querySelector('#filter-habitat');
   const sortSelect = container.querySelector('#filter-sort');
+  const tierSelect = container.querySelector('#filter-tier');
+  tierSelect.value = initialParams.tier || 'all';
+  tierSelect.addEventListener('change', () => loadResults(1));
   const grid = container.querySelector('#explore-creature-grid');
   const countSpan = container.querySelector('#explore-results-count');
   const clearBtn = container.querySelector('#btn-clear-filters');
@@ -133,10 +143,14 @@ export async function renderExploreView(container, initialParams = {}) {
     console.error('Failed to load filter metadata:', err);
   }
 
-  // Load results
+  // Ignore stale responses when filters change rapidly.
+  let requestVersion = 0;
   async function loadResults(page = 1) {
+    const request = ++requestVersion;
     const params = {
+      tier: tierSelect.value,
       q: searchInput.value.trim(),
+      region: initialParams.region || '',
       culture: cultureSelect.value,
       classification: categorySelect.value,
       element: elementSelect.value,
@@ -146,6 +160,10 @@ export async function renderExploreView(container, initialParams = {}) {
       limit: 12
     };
 
+    const query = new URLSearchParams(Object.entries(params).filter(([k,v]) => k !== 'limit' && v && v !== 'all' && v !== 'default'));
+    history.replaceState(null, '', `#/explore?${query}`);
+    container.querySelector('#explore-pagination-slot').innerHTML = '';
+    grid.setAttribute('aria-busy', 'true');
     grid.innerHTML = `
       <div style="grid-column: 1 / -1; text-align: center; padding: 4rem 0;">
         <div style="color: var(--gold-500); font-family: var(--font-display);">✦ MENYELAMI ARSIP... ✦</div>
@@ -154,6 +172,8 @@ export async function renderExploreView(container, initialParams = {}) {
 
     try {
       const data = await api.getCreatures(params);
+      if (request !== requestVersion || !grid.isConnected) return;
+      grid.setAttribute('aria-busy', 'false');
       countSpan.textContent = `${data.pagination.total} ${t('explore.resultsCount')}`;
 
       if (data.creatures.length === 0) {
@@ -186,25 +206,30 @@ export async function renderExploreView(container, initialParams = {}) {
       renderPagination(data.pagination);
 
     } catch (err) {
-      grid.innerHTML = `<div style="grid-column: 1 / -1; color: var(--accent-crimson); text-align: center;">Gagal memuat arsip: ${err.message}</div>`;
+      if (request !== requestVersion || !grid.isConnected) return;
+      grid.setAttribute('aria-busy', 'false');
+      grid.innerHTML = `<div style="grid-column: 1 / -1; color: var(--accent-crimson); text-align: center;">Gagal memuat arsip: ${escapeHtml(err.message)}</div>`;
     }
   }
 
   function renderPagination(pagination) {
     const slot = container.querySelector('#explore-pagination-slot');
-    if (!slot || pagination.totalPages <= 1) {
+    if (!slot) return;
+    if (pagination.totalPages <= 1) {
       slot.innerHTML = '';
       return;
     }
 
     let buttons = '';
-    for (let i = 1; i <= pagination.totalPages; i++) {
+    const pages = [...new Set([1, pagination.page - 1, pagination.page, pagination.page + 1, pagination.totalPages])].filter(p => p > 0 && p <= pagination.totalPages).sort((a,b) => a-b);
+    for (const [index, i] of pages.entries()) {
+      if (index && i - pages[index - 1] > 1) buttons += '<span class="pagination-gap" aria-hidden="true">…</span>';
       const isActive = i === pagination.page;
       buttons += `
         <button 
           class="btn ${isActive ? 'btn-primary' : 'btn-secondary'}" 
           style="padding: 0.4rem 0.8rem; font-size: 0.85rem;"
-          data-page="${i}"
+          data-page="${i}" aria-label="${bi('Halaman', 'Page')} ${i}" ${isActive ? 'aria-current="page"' : ''}
         >
           ${i}
         </button>
@@ -222,6 +247,8 @@ export async function renderExploreView(container, initialParams = {}) {
   }
 
   function resetFilters() {
+    initialParams.region = '';
+    tierSelect.value = 'all';
     searchInput.value = '';
     cultureSelect.value = 'all';
     categorySelect.value = 'all';
@@ -246,5 +273,5 @@ export async function renderExploreView(container, initialParams = {}) {
   clearBtn.addEventListener('click', resetFilters);
 
   // Initial load
-  loadResults(1);
+  loadResults(Math.max(1, Number(initialParams.page) || 1));
 }
