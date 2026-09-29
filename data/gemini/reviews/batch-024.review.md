@@ -1,13 +1,10 @@
 # Review batch-024
 
-Diperiksa 2026-09-29T13:14:39.016Z. Berkas: batch-024.md.
+Diperiksa 2026-09-29T13:14:58.290Z. Berkas: batch-024.md.
 
 ## shiva — lulus-otomatis
 
 Klaim 9 (exact 9), sumber 2, gambar 1.
-
-**warn**
-- `long_description[0]` Tidak muncul di kutipan mana pun: Shaivites. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -36,9 +33,6 @@ Klaim 9 (exact 9), sumber 2, gambar 1.
 
 Klaim 10 (exact 10), sumber 3, gambar 1.
 
-**warn**
-- `long_description[0]` Tidak muncul di kutipan mana pun: Greece, Romans. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target rich: 10 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai.
 - `images[0] (File:Zeus Otricoli Pio-Clementino Inv257.jpg)` Keterkaitan otomatis: nama berkas, deskripsi berkas, kategori "Bust of Otricoli Zeus (Pio Clementino Museum)", dipakai di bar.wikipedia.org: Zeus. Cek visual tetap diperlukan.
@@ -66,10 +60,6 @@ Klaim 10 (exact 10), sumber 3, gambar 1.
 ## dragon — lulus-otomatis
 
 Klaim 6 (exact 5, loose 1), sumber 1, gambar 1.
-
-**warn**
-- `long_description[1]` Tidak muncul di kutipan mana pun: Asian, China, Greece. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `long_description[2].en` Ada rangkaian 12 kata yang sama persis dengan sumber ("j r r tolkien ursula k le guin and george r r…"). Tulis ulang dengan kata-kata sendiri.
 
 **manual**
 - `tier` Di bawah target rich: 6 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai.

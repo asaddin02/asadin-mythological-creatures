@@ -1,4 +1,4 @@
-# Perbaikan batch-024
+# Perbaikan batch-025
 
 Pemeriksaan menemukan masalah di bawah. Perbaiki semuanya, lalu kirim ulang **entri lengkap** untuk setiap makhluk yang disebut, satu blok ```json per makhluk, dengan `batch_id` yang sama. Jangan kirim ulang entri yang tidak disebut.
 

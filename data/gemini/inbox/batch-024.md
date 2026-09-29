@@ -260,7 +260,7 @@
   "long_description": [
     {
       "id": "Siwa, yang berarti Yang Membawa Keberuntungan, juga dikenal sebagai Mahadewa, Dewa Agung, dan Shankara, adalah salah satu dewa utama agama Hindu. Dalam tradisi Saiwa ia Yang Mahatinggi, Tuhan yang mencipta, memelihara, dan mengubah alam semesta. Dalam Trimurti, yang juga mencakup Brahma dan Wisnu, Siwa dikenal sebagai Sang Pelebur.",
-      "en": "Shiva, whose name means the Auspicious One, is also called Mahadeva, the Great God, and Shankara, and ranks among the chief gods of Hinduism. For Shaivites he is the highest being, the Lord who brings the universe into being, sustains it and transforms it. In the Trimurti, together with Brahma and Vishnu, he holds the role of Destroyer.",
+      "en": "Shiva, whose name means the Auspicious One, is also called Mahadeva, the Great God, and Shankara, and ranks among the chief gods of Hinduism. In Shaivism he is the highest being, the Lord who brings the universe into being, sustains it and transforms it. In the Trimurti, together with Brahma and Vishnu, he holds the role of Destroyer.",
       "claim_ids": [
         "shiva-c01",
         "shiva-c02"
@@ -724,7 +724,7 @@
   "long_description": [
     {
       "id": "Zeus adalah dewa tertinggi dalam jajaran dewa Yunani, dewa langit dan guntur dalam agama dan mitologi Yunani kuno yang memerintah sebagai raja para dewa di Gunung Olimpus. Menurut theoi.com, ia dewa langit, cuaca, hukum dan ketertiban, takdir, serta kekuasaan raja, digambarkan sebagai laki-laki dewasa berwibawa berjanggut gelap, dengan atribut petir, tongkat kerajaan, dan elang. Di Roma kuno, Zeus disamakan dengan Jupiter.",
-      "en": "Zeus stands at the head of the Greek pantheon: god of the sky and of thunder in the religion and myths of ancient Greece, reigning over the gods from Mount Olympus. Theoi.com describes him as lord of sky, weather, law and order, destiny and kingship, shown as a dignified bearded man in his prime holding a thunderbolt and sceptre, with an eagle. The Romans equated him with Jupiter.",
+      "en": "Zeus stands at the head of the Greek pantheon: god of the sky and of thunder in ancient Greek religion and myth, reigning over the gods from Mount Olympus. Theoi.com describes him as lord of sky, weather, law and order, destiny and kingship, shown as a dignified bearded man in his prime holding a thunderbolt and sceptre, with an eagle. In ancient Rome he was equated with Jupiter.",
       "claim_ids": [
         "zeus-c01",
         "zeus-c02",
@@ -1115,7 +1115,7 @@
     },
     {
       "id": "Makhluk mirip naga sudah muncul dalam seni Mesopotamia kuno, kadang bermusuhan kadang baik hati. Di Asia Timur naga umumnya dianggap makhluk baik: naga Tiongkok dipercaya menguasai hujan, laut, dan air, dan sejak dinasti Han menjadi lambang kekuasaan kaisar. Drakon Yunani kuno adalah ular besar bersifat gaib yang dalam mitos dikalahkan pahlawan atau dewa, sedangkan dalam pemujaan ia sosok lembut yang dikaitkan dengan penyembuhan dan kekayaan. Dalam tradisi Barat, naga digambarkan menyemburkan api dan melambangkan kejahatan serta kematian.",
-      "en": "Creatures resembling dragons already appear in the art of ancient Mesopotamia, sometimes as foes and sometimes as friends. East Asian tradition mostly saw dragons as benevolent: in China they were believed to rule over rain, seas and other waters, and from Han times they stood for the emperor's authority. The drakontes of ancient Greece were huge snakes with uncanny powers, slain by gods or heroes in myth yet gentle bringers of healing and riches in worship. Western tradition, by contrast, pictures dragons breathing fire and standing for evil and death.",
+      "en": "Creatures resembling dragons already appear in the art of ancient Mesopotamia, sometimes as foes and sometimes as friends. In East Asia dragons were mostly seen as benevolent: Chinese dragons were believed to rule over rain, seas and other waters, and from Han times they stood for the emperor's authority. Ancient Greek drakontes were huge snakes with uncanny powers, slain by gods or heroes in myth yet gentle bringers of healing and riches in worship. Western tradition, by contrast, pictures dragons breathing fire and standing for evil and death.",
       "claim_ids": [
         "dragon-c02",
         "dragon-c03"
@@ -1123,7 +1123,7 @@
     },
     {
       "id": "Kata dragon masuk ke bahasa Inggris pada awal abad ke-13 dari bahasa Prancis Kuno, dari bahasa Latin draco, yang berasal dari bahasa Yunani drákōn, ular. Kata Yunani itu kemungkinan berasal dari kata kerja dérkomai, melihat, yang mungkin merujuk pada tatapan maut atau mata tajam. Naga juga muncul dalam karya fiksi modern, antara lain karya J. R. R. Tolkien, Ursula K. Le Guin, dan George R. R. Martin.",
-      "en": "The word dragon reached English in the early 13th century by way of Old French and Latin draco from Greek drákōn, serpent. The Greek term probably grew from the verb dérkomai, to see, perhaps alluding to a lethal stare or piercing eyes. Modern fantasy writers including J. R. R. Tolkien, Ursula K. Le Guin and George R. R. Martin have given dragons prominent roles.",
+      "en": "The word dragon reached English in the early 13th century by way of Old French and Latin draco from Greek drákōn, serpent. The Greek term probably grew from the verb dérkomai, to see, perhaps alluding to a lethal stare or piercing eyes. Dragons also loom large in modern fantasy, not least in the books of J. R. R. Tolkien, of Ursula K. Le Guin and of George R. R. Martin.",
       "claim_ids": [
         "dragon-c04",
         "dragon-c05",
