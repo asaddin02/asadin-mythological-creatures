@@ -1,0 +1,326 @@
+{
+  "batch_id": "batch-023",
+  "checked_at": "2026-09-29T13:09:26.337Z",
+  "files": [
+    "batch-023.md"
+  ],
+  "parse_problems": [],
+  "missing": [],
+  "entries": [
+    {
+      "slug": "puaka",
+      "file": "batch-023.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 4 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "puaka-c01",
+          "source_id": "puaka-s1",
+          "host": "ms.wikipedia.org",
+          "statement": "The hantu puaka is a spirit of Malay belief, possibly of the jinn or devil class, said to roam with bad weather.",
+          "statement_id": "Hantu puaka adalah makhluk halus dalam kepercayaan Melayu, kemungkinan dari golongan jin atau setan, yang dikatakan sering berkeliaran bersama cuaca buruk.",
+          "quote": "Hantu Puaka merujuk kepada sejenis makhluk halus dalam kepercayaan Melayu, kemungkinannya dari golongan jin/syaitan, yang dikatakan sering berkeliaran bersama-sama cuaca buruk.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "puaka-c02",
+          "source_id": "puaka-s1",
+          "host": "ms.wikipedia.org",
+          "statement": "Puaka refers to a place or area that is eerie, has a resident spirit or is haunted.",
+          "statement_id": "Kata puaka merujuk pada tempat atau kawasan yang menyeramkan, berpenunggu, atau berhantu.",
+          "quote": "puaka adalah suatu frasa kata merujuk kepada sesuatu tempat atau kawasan yang menyeramkan, berpenunggu atau berhantu.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "puaka-c03",
+          "source_id": "puaka-s1",
+          "host": "ms.wikipedia.org",
+          "statement": "The hantu puaka is an eerie spirit found in water.",
+          "statement_id": "Hantu puaka adalah makhluk halus menyeramkan yang ada di air.",
+          "quote": "Hantu puaka adalah sejenis makhluk halus yang ada di air yang menyeramkan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "puaka-c04",
+          "source_id": "puaka-s1",
+          "host": "ms.wikipedia.org",
+          "statement": "The hantu puaka can possess people.",
+          "statement_id": "Hantu puaka mampu merasuki orang.",
+          "quote": "mampu merasuk org dan menyebabkan ketandulisiannya.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "ratchasi",
+      "file": "batch-023.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "ratchasi-c01",
+          "source_id": "ratchasi-s1",
+          "host": "th.wikipedia.org",
+          "statement": "The ratchasi (ราชสีห์, Rajasiha, 'the great lion') is a Himavanta creature used as the emblem of political science departments or faculties and many government agencies; generally it symbolizes power.",
+          "statement_id": "Ratchasi (ราชสีห์, Rajasiha, 'singa agung') adalah satwa Himavanta yang menjadi lambang jurusan atau fakultas ilmu politik dan banyak lembaga pemerintahan; secara umum ia lambang kekuasaan.",
+          "quote": "ราชสีห์ (อังกฤษ: Rajasiha : The Great Lion) เป็นสัตว์หิมพานต์ เป็นสัญลักษณ์ของภาควิชาหรือคณะรัฐศาสตร์ และ หน่วยงานด้านการปกครองหลายแห่ง",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "ratchasi-c02",
+          "source_id": "ratchasi-s1",
+          "host": "th.wikipedia.org",
+          "statement": "The ratchasi is a very strong animal; Himavanta legend has two main groups, the ratchasi and the mixed singha.",
+          "statement_id": "Ratchasi adalah hewan yang sangat kuat; dalam legenda Himavanta ada dua golongan utama, ratchasi dan singha campuran.",
+          "quote": "ราชสีห์เป็นสัตว์ที่มีพละกำลังสูง ในตำนานหิมพานต์สามารถจำแนกออกได้เป็น 2 ชนิดหลัก ๆ คือ ราชสีห์ และ สิงห์ผสม",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ratchasi-c03",
+          "source_id": "ratchasi-s1",
+          "host": "th.wikipedia.org",
+          "statement": "Legend divides the ratchasi into four kinds; the kraisorn ratchasi is the white ratchasi, very strong, a superb hunter of animals large and small.",
+          "statement_id": "Legenda membagi ratchasi menjadi empat jenis; kraisorn ratchasi adalah ratchasi putih yang sangat kuat, pemburu ulung yang memangsa hewan besar dan kecil.",
+          "quote": "ไกรสรราชสีห์ คือ ราชสีห์ขาว ในตำนานกล่าวว่าไกรสรราชสีห์เป็นสัตว์ที่มีพละกำลังแรงกล้า เป็นนักล่าชั้นเยี่ยมและกินสัตว์ใหญ่น้อยเป็นอาหาร",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ratchasi-c04",
+          "source_id": "ratchasi-s1",
+          "host": "th.wikipedia.org",
+          "statement": "All ratchasi have a mighty roar, and legend says the roar alone can hurt other animals; the black and red ratchasi eat plants, the yellow one meat.",
+          "statement_id": "Semua jenis ratchasi punya auman dahsyat, dan menurut legenda aumannya saja dapat melukai hewan lain; ratchasi hitam dan merah pemakan tumbuhan, ratchasi kuning pemakan daging.",
+          "quote": "แต่ก็ใช่ว่าจะมีกำลังน้อยกว่าราชสีห์ชนิดอื่น ราชสีห์ทุกชนิดมีเสียงคำรามอันทรงพลัง ในตำนานกล่าวว่าเพียงเสียงคำรามของราชสีห์ก็สามารถทำให้สัตว์อื่นเจ็บได้",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ratchasi-c05",
+          "source_id": "ratchasi-s1",
+          "host": "th.wikipedia.org",
+          "statement": "These four kinds of ratchasi were adopted as faculty emblems by the early universities with political science faculties.",
+          "statement_id": "Keempat jenis ratchasi ini dijadikan lambang fakultas oleh universitas-universitas awal yang memiliki fakultas ilmu politik.",
+          "quote": "ราชสีห์ทั้งสี่ชนิดนี้ มหาวิทยาลัยแรกๆ ที่มีคณะรัฐศาสตร์ ได้นำไปตั้งเป็นสัญลักษณ์ประจำคณะ",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "santelmo",
+      "file": "batch-023.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 3 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "santelmo-c01",
+          "source_id": "santelmo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Apoy ni San Elmo, shortened to santelmo, is a bad omen or flying spirit of Filipino folklore, described more like ball lightning than St. Elmo's fire; indigenous names predate the term santelmo, which arose under Spanish colonial rule.",
+          "statement_id": "Apoy ni San Elmo, disingkat santelmo, adalah pertanda buruk atau roh terbang dalam cerita rakyat Filipina, gambarannya lebih mirip petir bola daripada api St. Elmo; ada berbagai nama asli sebelum istilah santelmo, yang berasal dari masa penjajahan Spanyol.",
+          "quote": "Apoy ni San Elmo – commonly shortened to santelmo – is a bad omen or a flying spirit in Filipino folklore, although the description for santelmo is more similar to ball lightning than St. Elmo's fire. There are various indigenous names for santelmo which has existed before the term santelmo was coined. The term santelmo originated from Spanish colonial rule in the Philippines.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "santelmo-c02",
+          "source_id": "santelmo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "St. Elmo's fire is named after St. Erasmus of Formia (St. Elmo), patron saint of sailors.",
+          "statement_id": "Api St. Elmo dinamai menurut Santo Erasmus dari Formia (St. Elmo), santo pelindung pelaut.",
+          "quote": "St. Elmo's fire is named after St. Erasmus of Formia (also known as St. Elmo), the patron saint of sailors.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "santelmo-c03",
+          "source_id": "santelmo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Netflix animated series Trese (2021), the santelmo is one of protagonist Alexandra Trese's allies.",
+          "statement_id": "Dalam serial animasi Netflix Trese (2021), santelmo adalah salah satu sekutu tokoh utama, Alexandra Trese.",
+          "quote": "On the Netflix original Singaporean animated series Trese (2021), the Santelmo (St. Elmo's Fire) is one of the protagonist's Alexandra Trese's allies",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "wd-q13021218",
+      "file": "batch-023.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 6 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "short_description",
+          "message": "Tidak muncul di kutipan mana pun: Thai. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "wd-q13021218-c01",
+          "source_id": "wd-q13021218-s1",
+          "host": "th.wikipedia.org",
+          "statement": "Wirunchambang (วิรุญจำบัง) is the son of Phaya Thut, king of Muang Charuek, fifth son of Thao Latsatian and Nang Ratchada and full brother of Thotsakan.",
+          "statement_id": "Wirunchambang (วิรุญจำบัง) adalah putra Phaya Thut, raja Muang Charuek, putra kelima Thao Latsatian dan Nang Ratchada, adik kandung Thotsakan.",
+          "quote": "วิรุญจำบัง เป็นโอรสของพญาทูษณ์ กษัตริย์เมืองจารึกองค์ที่ 1 โอรสองค์ที่ 5 ของท้าวลัสเตียนกับนางรัชฎา น้องชายร่วมบิดามารดาของทศกัณฐ์",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q13021218-c02",
+          "source_id": "wd-q13021218-s1",
+          "host": "th.wikipedia.org",
+          "statement": "Wirunchambang had a beloved black, red-mouthed horse named Ninlaphahu that could make itself and him invisible.",
+          "statement_id": "Wirunchambang punya kuda hitam bermulut merah kesayangan bernama Ninlaphahu, yang dapat menghilangkan diri bersama tuannya.",
+          "quote": "วิรุญจำบังมีม้าทรงคู่ใจตัวดำปากแดงชื่อ นิลพาหุ ซึ่งสามารถหายตัวได้ทั้งตนและม้า",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q13021218-c03",
+          "source_id": "wd-q13021218-s1",
+          "host": "th.wikipedia.org",
+          "statement": "In battle his demon army was wiped out by the monkeys, so he cast a spell to hide himself and his horse and killed many monkeys.",
+          "statement_id": "Saat berperang, pasukan raksasa Wirunchambang habis dibunuh pasukan kera, lalu ia merapal mantra agar dirinya dan kudanya tak terlihat dan membunuh banyak kera.",
+          "quote": "เมื่อวิรุญจำบังไปรบ พลยักษ์ถูกพลวานรฆ่าตายหมด วิรุญจำบังผู้เป็นแม่ทัพจึงร่ายเวทย์กำบังตัวเองและม้า เข้าไปสังหารฝ่ายวานรล้มตายเป็นจำนวนมาก",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q13021218-c04",
+          "source_id": "wd-q13021218-s1",
+          "host": "th.wikipedia.org",
+          "statement": "After Nang Wanarin revealed Wirunchambang's hiding place, Hanuman pursued and killed him.",
+          "statement_id": "Setelah Nang Wanarin memberi tahu tempat persembunyian Wirunchambang, Hanuman mengejar dan berhasil membunuhnya.",
+          "quote": "และจะพ้นคำสาปเมื่อได้พบทหารเอกของพระราม เมื่อนางวานรินทร์บอกที่ซ่อนของวิรุณจำบังแล้วจึงส่งนางกลับขึ้นสู่สวรรค์ หนุมานตามไปสังหารวิรุญจำบังได้สำเร็จ",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q13021218-c05",
+          "source_id": "wd-q13021218-s1",
+          "host": "th.wikipedia.org",
+          "statement": "Phiphek told Rama that Wirunchambang was invisible by magic and advised him to shoot the horse Ninlaphahu; Rama shot the horse dead and Wirunchambang fled.",
+          "statement_id": "Phiphek memberi tahu Rama bahwa Wirunchambang menghilang dengan mantra dan menyarankan agar Rama memanah mati kuda Ninlaphahu; Rama memanah kuda itu hingga mati dan Wirunchambang melarikan diri.",
+          "quote": "พระรามเห็นความไม่ชอบมาพากลจึงตรัสถามพิเภก พิเภกตอบว่า ขณะนี้วิรุญจำบังใช้เวทย์หายตัวเข้ามาในกองทัพ พิเภกถวายคำแนะนำให้พระรามแผลงศรไปฆ่าม้านิลพาหุเสีย",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wd-q13021218-c06",
+          "source_id": "wd-q13021218-s1",
+          "host": "th.wikipedia.org",
+          "statement": "Hanuman found Nang Wanarin, a cursed celestial maiden who had advised Wirunchambang to hide in the ocean foam.",
+          "statement_id": "Hanuman menemukan Nang Wanarin, bidadari terkutuk yang sebelumnya menyarankan Wirunchambang bersembunyi di buih samudra.",
+          "quote": "หนุมานติดตามมาจนได้พบนางวานรินทร์จึงเข้าเกี้ยวพาราสี และทราบว่าเป็นนางฟ้าที่ถูกสาปที่ทำผิด เนื่องจากมีหน้าที่รักษาประทีป",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "white-blood-queen",
+      "file": "batch-023.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 3 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "white-blood-queen-c01",
+          "source_id": "white-blood-queen-s1",
+          "host": "th.wikipedia.org",
+          "statement": "Phra Nang Lueat Khao (พระนางเลือดขาว) is a local legend of southern Thailand in Phatthalung, Nakhon Si Thammarat, Chumphon, Songkhla, Trang and Phuket; the Phatthalung version is the main one, and the similar Langkawi legend is Mahsuri.",
+          "statement_id": "Phra Nang Lueat Khao (พระนางเลือดขาว) adalah legenda setempat Thailand selatan di Phatthalung, Nakhon Si Thammarat, Chumphon, Songkhla, Trang, dan Phuket; versi Phatthalung adalah versi utama, dan legenda serupa di Langkawi disebut Mahsuri.",
+          "quote": "พระนางเลือดขาว เป็นตำนานท้องถิ่นทางภาคใต้ของประเทศไทย ในแถบจังหวัดพัทลุง นครศรีธรรมราช ชุมพร สงขลา ตรัง และภูเก็ต โดยสำนวนจังหวัดพัทลุงนับเป็นสำนวนหลักที่แพร่หลายกว้างขวางมานาน ส่วนตำนานแม่เลือดขาวในเกาะลังกาวี เรียกว่า มะห์สุหรี",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-blood-queen-c02",
+          "source_id": "white-blood-queen-s1",
+          "host": "th.wikipedia.org",
+          "statement": "The story is set around 1790 of the Buddhist Era; Phra Nang Lueat Khao was a beautiful merchant's daughter devoted to Buddhism, with white blood from birth, who became King Sri Thammasokarat's queen, then resigned and built many temples in Nakhon Si Thammarat.",
+          "statement_id": "Kisah ini terjadi sekitar 1790 penanggalan Buddha; Phra Nang Lueat Khao adalah putri saudagar yang cantik, taat beragama Buddha, dan berdarah putih sejak lahir, yang menjadi permaisuri Raja Sri Thammasokarat lalu mundur dan membangun banyak kuil di Nakhon Si Thammarat.",
+          "quote": "เรื่องราวของพระนางเลือดขาวเกิดขึ้นราว พ.ศ. 1790 ช่วงเวลาที่เกี่ยวเนื่องกับพุทธศาสนาเถรวาทที่ไปสืบมาจากลังกา",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-blood-queen-c03",
+          "source_id": "white-blood-queen-s1",
+          "host": "th.wikipedia.org",
+          "statement": "In the Phuket version the queen was falsely accused by a minister of adultery and sentenced to death; after a pilgrimage to Sri Lanka she built Wat Phra Nang Sang.",
+          "statement_id": "Dalam versi Phuket, sang permaisuri difitnah menteri berselingkuh dan dijatuhi hukuman mati; setelah berziarah ke Sri Lanka ia membangun Wat Phra Nang Sang.",
+          "quote": "ตำนานนางเลือดขาวที่ภูเก็ต พระนางเลือดขาวเป็นมเหสีของเจ้าเมืองหนึ่งแต่ถูกเสนาบดีใส่ร้ายว่ามีชู้กับมหาดเล็กจึงถูกให้ประหารชีวิต แม้จะแสดงความบริสุทธิ์อย่างไรก็ไม่เป็นผล",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    }
+  ]
+}
