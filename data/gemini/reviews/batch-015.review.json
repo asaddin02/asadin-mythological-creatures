@@ -1,0 +1,291 @@
+{
+  "batch_id": "batch-015",
+  "checked_at": "2026-09-29T12:46:55.678Z",
+  "files": [
+    "batch-015.md"
+  ],
+  "parse_problems": [],
+  "missing": [],
+  "entries": [
+    {
+      "slug": "tiyanak",
+      "file": "batch-015.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 9,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "tiyanak-c01",
+          "source_id": "tiyanak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The tiyanak (also tianak) is a vampiric creature of Philippine mythology in the form of a toddler or baby, usually a crying newborn in the jungle luring travellers; once picked up it reverts and attacks; it also likes to mislead travellers or abduct children.",
+          "statement_id": "Tiyanak (juga tianak) adalah makhluk pengisap darah dalam mitologi Filipina yang berwujud balita atau bayi, biasanya bayi baru lahir yang menangis di hutan untuk memikat pejalan; begitu diangkat ia kembali ke wujud asli dan menyerang; ia juga senang menyesatkan pejalan atau menculik anak.",
+          "quote": "is a vampiric creature in Philippine mythology that takes on the form of a toddler or baby. Although there are various types, it typically takes the form of a newborn baby and cries in the jungle to attract unwary travelers. Once it is picked up by an unfortunate passerby, it reverts to its true form and attacks the victim.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c02",
+          "source_id": "tiyanak-s2",
+          "host": "en.wikisource.org",
+          "statement": "Plasencia recorded the belief that a woman who died in childbirth was punished with her child and heard lamenting at night; this was called patianac.",
+          "statement_id": "Plasencia mencatat kepercayaan bahwa perempuan yang mati saat melahirkan dihukum bersama anaknya dan ratapannya terdengar di malam hari; ini disebut patianac.",
+          "quote": "They had another deception—namely, that if any woman died in childbirth, she and the child suffered punishment; and that, at night, she could be heard lamenting. This was called patianac.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c03",
+          "source_id": "tiyanak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Martinez de Zuniga (1803) and San Antonio (1738-44), to counter the patianac the husband stripped naked and brandished a sword until his wife was delivered.",
+          "statement_id": "Menurut catatan Martinez de Zuniga (1803) dan San Antonio (1738-44), untuk melawan patianac sang suami menanggalkan pakaian dan mengayunkan pedang sampai istrinya selesai bersalin.",
+          "quote": "To counteract the malignity of this spirit, the husband, fastening the door, reduces himself to a state of complete nudity, lights a fire, and arming himself with his sword, continues to flourish it furiously, until the woman is delivered.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c04",
+          "source_id": "tiyanak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In one version it keeps a baby's shape but grows sharp claws and fangs; in another its true form is a little old man with wrinkled skin and a long beard and moustache.",
+          "statement_id": "Dalam satu versi tiyanak tetap berbentuk bayi tetapi menumbuhkan cakar dan taring tajam; dalam versi lain wujud aslinya kakek kecil berkulit keriput dengan janggut dan kumis panjang.",
+          "quote": "In one version, it retains the general shape of a baby but then forms sharp claws and fangs to attack its victim.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c05",
+          "source_id": "tiyanak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Central Luzon version, especially Pampanga, tiyanak are small nut-brown people floating in the air; in a Mindoro legend it turns into a black bird.",
+          "statement_id": "Dalam versi Luzon Tengah, terutama Pampanga, tiyanak adalah orang kecil berkulit cokelat yang melayang di udara; dalam legenda Mindoro ia berubah menjadi burung hitam.",
+          "quote": "In another version from Central Luzon, especially in Pampanga, the tiyanak are described as small, nut-brown people who don't walk on the ground but rather float on air.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c06",
+          "source_id": "tiyanak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Mandaya of Mindanao say the tiyanak is the spirit of a child whose mother died before giving birth; a similar Malay being is the pontianak.",
+          "statement_id": "Orang Mandaya di Mindanao percaya tiyanak adalah arwah anak yang ibunya meninggal sebelum melahirkan; makhluk serupa dalam cerita rakyat Melayu adalah pontianak.",
+          "quote": "The Mandaya people of Mindanao claim that the tiyanak is the spirit of a child whose mother died before giving birth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c07",
+          "source_id": "tiyanak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "With 16th-century Spanish colonization, the tiyanak myth merged with Catholicism: tiyanak became souls of infants who died unbaptized, and today also aborted fetuses returning for revenge.",
+          "statement_id": "Dengan penjajahan Spanyol pada abad ke-16, mitos tiyanak dipadukan dengan Katolik: tiyanak dianggap arwah bayi yang meninggal sebelum dibaptis, dan kini juga janin yang digugurkan yang kembali membalas dendam.",
+          "quote": "With the Spanish colonization of the Philippines in the 16th century, the tiyanak myth was integrated into Catholicism. The tiyanak in the Catholic version were supposedly the souls of infants that died before being baptized.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c08",
+          "source_id": "tiyanak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Those led astray by its cries can break the spell by turning their clothes inside out; loud noises like New Year celebrations are also believed to drive it away.",
+          "statement_id": "Orang yang tersesat karena tangisannya dapat mematahkan pesonanya dengan membalik pakaian; suara keras seperti perayaan Tahun Baru juga dipercaya mengusirnya.",
+          "quote": "Those that were led astray by the creature's cries are believed to be able to break the enchantment by turning their clothes inside out.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiyanak-c09",
+          "source_id": "tiyanak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The patianac account is from Fr. Juan de Plasencia on the Tagalogs (1589).",
+          "statement_id": "Catatan tentang patianac berasal dari Fr. Juan de Plasencia tentang orang Tagalog (1589).",
+          "quote": "Fr. Juan de Plasencia of the Tagalogs (1589)",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "wakwak",
+      "file": "batch-015.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 3 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "wakwak-c01",
+          "source_id": "wakwak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The wakwak is a vampiric bird-like creature of Philippine mythology that snatches humans at night, like the manananggal and ekek; unlike the manananggal it cannot separate its torso; some call it a vampire, others a night bird linked to witches.",
+          "statement_id": "Wakwak adalah makhluk mirip burung pengisap darah dalam mitologi Filipina yang menyambar manusia pada malam hari, mirip manananggal dan ekek; bedanya, wakwak tak dapat memisahkan tubuhnya; sebagian menganggapnya vampir, sebagian burung malam yang dikaitkan dengan penyihir.",
+          "quote": "The Wakwak is a vampiric, bird-like creature in Philippine mythology. It is said to snatch humans at night as prey, similar to the manananggal and the Ekek in rural areas of the Philippines. The difference between the Manananggal and the Wakwak is that Wakwak cannot separate its torso from its body while the Manananggal can.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wakwak-c02",
+          "source_id": "wakwak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "This monster is believed named wakwak after the sound of its wings in flight; it is heard only when hunting and grows softer as it approaches.",
+          "statement_id": "Monster ini dipercaya dinamai wakwak dari bunyi kepakan sayapnya saat terbang; bunyi itu hanya terdengar saat berburu dan makin pelan saat mendekat.",
+          "quote": "It is also believed that this monster is called \"Wakwak\" due to the sound it makes when it flaps its wings while flying. This sound is only heard when the Wakwak is hunting and becomes softer the closer it becomes.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "wakwak-c03",
+          "source_id": "wakwak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The wakwak has long sharp talons and knife-sharp bat-like wings used to slash victims and take their hearts.",
+          "statement_id": "Wakwak digambarkan bercakar panjang tajam dan bersayap seperti kelelawar yang setajam pisau, dipakai untuk mencabik korban dan mengambil jantungnya.",
+          "quote": "The Wakwak is often described as having long sharp talons and a pair of wings similar to those of a bat. It uses its talons or claws to slash its victims and to get their heart",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "alan-legendary-creature",
+      "file": "batch-015.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 2,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 2 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "alan-legendary-creature-c01",
+          "source_id": "alan-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The alan are deformed spirits of Tinguian folklore in the Philippines, winged and able to fly, with fingers and toes pointing backwards.",
+          "statement_id": "Alan adalah roh bercacat dari cerita rakyat suku Tinguian di Filipina, bersayap dan dapat terbang, dengan jari tangan dan kaki menghadap ke belakang.",
+          "quote": "The Alan are deformed spirits from the folklore of the Tinguian tribe of the Philippines. They have wings and can fly, and their fingers and toes point backwards.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alan-legendary-creature-c02",
+          "source_id": "alan-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The alan take menstrual blood, miscarried fetuses, afterbirth or other birth remains, turn them into human children and raise them; they live near springs in fine houses of gold and valuables.",
+          "statement_id": "Alan mengambil darah haid, janin keguguran, ari-ari, atau sisa persalinan lain, mengubahnya menjadi anak manusia dan membesarkannya; mereka tinggal di dekat mata air di rumah indah dari emas dan barang berharga.",
+          "quote": "The Alan are said to take drops of menstrual blood, miscarried fetuses, afterbirth, or other reproductive waste and transform them into human children, whom they then raise as their own. They live near springs in extremely fine houses, made of gold and other valuables.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "amalanhig",
+      "file": "batch-015.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 2,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 2 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "amalanhig-c01",
+          "source_id": "amalanhig-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Amalanhig (also maranhig or amaranhig) are beings of Visayan mythology, especially among Hiligaynon speakers: aswangs that failed to transfer their monstrosity, rising from their graves to kill by biting necks; another version says they tickle victims to death.",
+          "statement_id": "Amalanhig (juga maranhig atau amaranhig) adalah makhluk mitologi Visayas, terutama di kalangan penutur Hiligaynon: aswang yang gagal mewariskan sifat monsternya sehingga bangkit dari kubur dan membunuh manusia dengan menggigit lehernya; versi lain menyebut mereka menggelitik korban sampai mati.",
+          "quote": "Amalanhig (also called 'Maranhig' or 'Amaranhig') are creatures in Visayan mythology, particularly among Hiligaynon speaking groups. Amalanhig are Aswangs who failed to transfer their monstrosity causing them to rise from their graves to kill humans by biting their necks.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amalanhig-c02",
+          "source_id": "amalanhig-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Amalanhig look identical to humans, though most have enlarged upper canines, and are a vampire variant native to the Philippines.",
+          "statement_id": "Amalanhig tampak sama seperti manusia, meski kebanyakan bertaring atas yang membesar, dan merupakan varian vampir asli Filipina.",
+          "quote": "The Amalanhig are depicted as externally identical to humans, though there is an enlargement of the upper canines in most individuals. The Amalanhig is a variant of the vampire native to the Philippines.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "bal-bal",
+      "file": "batch-015.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 2,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 2 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "bal-bal-c01",
+          "source_id": "bal-bal-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Philippine mythology, the bal-bal is an undead monster that steals and eats corpses from wakes or graves, with a keen nose for bodies, sharp claws and teeth, and foul breath.",
+          "statement_id": "Dalam mitologi Filipina, bal-bal adalah monster mayat hidup yang mencuri dan memakan jenazah di rumah duka atau kubur, berpenciuman tajam terhadap mayat, bercakar dan bergigi tajam, dan bernapas busuk.",
+          "quote": "In Philippine mythology, a Bal-Bal is an undead monster that steals corpses whether it is in a funeral or grave and feeds on them. It has a strong sense of smell for dead human bodies. It also has claws and teeth sharp enough to rip the clothing of the dead. Since it eats nothing but corpses, it has a foul breath.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bal-bal-c03",
+          "source_id": "bal-bal-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The bal-bal is associated with the aswang, amalanhig and busaw, all flesh-eaters, and counted among the most feared creatures in the Philippines.",
+          "statement_id": "Bal-bal dikaitkan dengan aswang, amalanhig, dan busaw, sesama pemakan daging, dan tergolong makhluk paling menakutkan di Filipina.",
+          "quote": "Bal-Bal was also associated to Aswang, Amalanhig, and even to Busaw, which were all flesh eaters. They were classified to one of the most fearful creatures in the Philippines because of their appearance.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    }
+  ]
+}
