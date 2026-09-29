@@ -1,0 +1,302 @@
+{
+  "batch_id": "batch-022",
+  "checked_at": "2026-09-29T13:06:15.970Z",
+  "files": [
+    "batch-022.md"
+  ],
+  "parse_problems": [],
+  "missing": [],
+  "entries": [
+    {
+      "slug": "hemaraja",
+      "file": "batch-022.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 2,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "where": "long_description",
+          "message": "Tingkat rich sebaiknya 2–6 paragraf."
+        },
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 2 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "hemaraja-c01",
+          "source_id": "hemaraja-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The hemaraja (เหมราช) is a creature of Thai and possibly South Asian mythology.",
+          "statement_id": "Hemaraja (เหมราช) adalah makhluk dalam mitologi Thai dan mungkin Asia Selatan.",
+          "quote": "Hemaraja (Thai: เหมราช) is a creature found in Thai and possibly South Asian mythology.",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "hemaraja-c02",
+          "source_id": "hemaraja-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is said to combine a hema (an ill-defined creature, usually swan-like but sometimes more like a crocodile) and a lion.",
+          "statement_id": "Hemaraja dikatakan gabungan hema (makhluk yang kurang jelas, biasanya disamakan dengan angsa tetapi kadang lebih mirip buaya) dan singa.",
+          "quote": "It is said to be the combination of a hema (an ill-defined creature in and of itself; usually likened to a swan but sometimes depicted more like a crocodile) and a lion.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "khwai-phueak-khao-kaeo",
+      "file": "batch-022.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "khwai-phueak-khao-kaeo-c01",
+          "source_id": "khwai-phueak-khao-kaeo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Khwai Phueak Khao Kaeo (ควายเผือกเขาแก้ว, 'crystal-horned white buffalo') is a legendary white buffalo tied to Doi Khao Khwai Kaeo and Wat Phra That Doi Khao Kwai in Chiang Rai, Thailand; finding its crystal horn gave the mountain its name.",
+          "statement_id": "Khwai Phueak Khao Kaeo (ควายเผือกเขาแก้ว, 'kerbau putih bertanduk kristal') adalah kerbau putih legendaris yang dikaitkan dengan Doi Khao Khwai Kaeo dan Wat Phra That Doi Khao Kwai di Chiang Rai, Thailand; ditemukannya tanduk kristalnya memberi nama gunung itu.",
+          "quote": "is a legendary white buffalo associated with Doi Khao Khwai Kaeo and Wat Phra That Doi Khao Kwai in Chiang Rai province, Thailand. In local tradition, the discovery of the buffalo's crystal horn is said to have given the mountain its name, Doi Khao Khwai Kaeo, also known as Doi Khao Khwai.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khwai-phueak-khao-kaeo-c02",
+          "source_id": "khwai-phueak-khao-kaeo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The buffalo is also called Khwai Phueak Kaeo Khao Saeng in local accounts.",
+          "statement_id": "Kerbau ini juga disebut Khwai Phueak Kaeo Khao Saeng dalam cerita setempat.",
+          "quote": "The buffalo is also referred to in local accounts as Khwai Phueak Kaeo Khao Saeng",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khwai-phueak-khao-kaeo-c03",
+          "source_id": "khwai-phueak-khao-kaeo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Per a tradition recorded by Mae Fah Luang University's Chiang Rai Database, a crystal-horned bodhisattva white buffalo lived on the mountain and led the herd; years later two elderly people found its crystal horn.",
+          "statement_id": "Menurut tradisi yang dicatat Chiang Rai Database dari Universitas Mae Fah Luang, kerbau putih bodhisattva bertanduk kristal hidup di gunung dan menjadi pemimpin kawanan; bertahun-tahun kemudian dua orang tua menemukan tanduk kristalnya.",
+          "quote": "a white buffalo lived with its mother and a herd of buffalo on the mountain. The young buffalo was described as a bodhisattva and had a crystal horn. As it grew, it became the leader of the herd because of its strength and intelligence.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khwai-phueak-khao-kaeo-c04",
+          "source_id": "khwai-phueak-khao-kaeo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In another version a farmer found the buffalo's skull and horns in sand; polished, a horn proved to be crystal and brought him good fortune.",
+          "statement_id": "Dalam versi lain, seorang petani menemukan tengkorak dan tanduk kerbau terkubur di pasir; setelah digosok, tanduk itu ternyata kristal dan dipercaya membawa keberuntungan.",
+          "quote": "Years later, a farmer found the buffalo's skull and horns buried in sand. He polished one of the horns and discovered that it was made of crystal. The horn was believed to have brought him good fortune",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khwai-phueak-khao-kaeo-c05",
+          "source_id": "khwai-phueak-khao-kaeo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Another related tradition is the story of Sihuhata, a four-eared, five-eyed creature that eats burning charcoal and excretes gold.",
+          "statement_id": "Tradisi lain yang terkait gunung itu adalah kisah Sihuhata, makhluk bertelinga empat dan bermata lima yang memakan arang membara dan mengeluarkan kotoran emas.",
+          "quote": "Another is the story of Sihuhata, a creature with four ears and five eyes that eats burning charcoal and produces gold as excrement.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "mom",
+      "file": "batch-022.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 3 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "mom-c01",
+          "source_id": "mom-s1",
+          "host": "th.wikipedia.org",
+          "statement": "The mom (มอม) is an imaginary Himavanta animal shaped like a lion, sculpted to decorate places and appearing only as temple sculpture in upper northern Thailand, especially Chiang Mai.",
+          "statement_id": "Mom (มอม) adalah hewan khayalan, satwa Himavanta berbentuk mirip singa, yang dipahat untuk menghias tempat dan hanya muncul sebagai patung hiasan kuil di Thailand utara bagian atas, terutama di Chiang Mai.",
+          "quote": "มอม เป็นสัตว์ในจินตนาการอย่างหนึ่ง สัตว์หิมพานต์ชนิดหนึ่ง รูปร่างคล้ายราชสีห์ มักปั้นเพื่อใช้ประดับสถานที่ มักปรากฏอยู่ในลักษณะของงานประติมากรรมประดับตามวัดทางภาคเหนือตอนบนเท่านั้น โดยเฉพาะวัดในจังหวัดเชียงใหม่",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mom-c02",
+          "source_id": "mom-s1",
+          "host": "th.wikipedia.org",
+          "statement": "In Lanna art the mom is sometimes sculpted like a gecko, lizard or langur under Chinese influence; in Lao and Isan art it is a kind of lion, and the Isan see it as an auspicious animal also found in old tattoo designs.",
+          "statement_id": "Dalam seni Lanna, mom kadang dipahat mirip tokek, kadal, atau lutung dengan pengaruh Tiongkok; dalam seni Laos dan Isan ia dianggap sejenis singa, dan orang Isan menganggapnya hewan pembawa berkah yang juga muncul dalam motif tato kuno.",
+          "quote": "ในทางศิลปะล้านนานั้นช่างปั้นบางครั้งก็ปั้นให้ดูคล้ายตุ๊กแก กิ้งก่า หรือค่าง ลักษณะของศิลปะนั้นได้รับอิทธิพลจากจีน ส่วนในศิลปะลาวและอีสานนั้น เชื่อว่า มอมเป็นสิงห์จำพวกหนึ่ง",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mom-c03",
+          "source_id": "mom-s1",
+          "host": "th.wikipedia.org",
+          "statement": "The mom is believed to have powers beyond humans yet cannot attain enlightenment, so it is made as a guardian statue of places of worship symbolizing attachment.",
+          "statement_id": "Mom dipercaya berkekuatan dan berilmu melebihi manusia tetapi tak dapat mencapai pencerahan, sehingga dibuat sebagai patung penjaga tempat ibadah yang melambangkan kelekatan.",
+          "quote": "มอมเป็นสัตว์ที่มีฤทธิ์และอาคมเหนือมนุษย์แต่ไม่สามารถอยู่ในบรรลุได้ ทำให้ถูกสร้างเป็นประติมากรรมเฝ้าศาสนสถานเหมือนประติมากรรมอื่น ๆ เพื่อสื่อให้เห็นความยึดติดที่ทำให้เพียงแต่อยู่ตามเทวสถาน ไม่สามารถบรรลุได้",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "nenek-kebayan",
+      "file": "batch-022.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 5 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "1 kutipan tidak bisa dicek otomatis: www.mirrorservice.org (tidak bisa dibuka (timeout))."
+        }
+      ],
+      "claims": [
+        {
+          "id": "nenek-kebayan-c01",
+          "source_id": "nenek-kebayan-s1",
+          "host": "ms.wikipedia.org",
+          "statement": "Nenek kebayan is an old woman character in Malay folklore.",
+          "statement_id": "Nenek kebayan adalah tokoh perempuan tua dalam cerita rakyat Melayu.",
+          "quote": "Nenek kebayan ialah sebuah watak wanita tua dalam cerita rakyat masyarakat Melayu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nenek-kebayan-c02",
+          "source_id": "nenek-kebayan-s1",
+          "host": "ms.wikipedia.org",
+          "statement": "Per Kamus Dewan, nenek kebayan is a mystical old woman of old tales; pictured frail with tangled white hair, shabby clothes and frightening red eyes, but in old hikayat kind and a helper of the hero.",
+          "statement_id": "Menurut Kamus Dewan, nenek kebayan perempuan tua mistis dalam dongeng lama; ia digambarkan sangat renta, berambut putih kusut, berbaju lusuh, bermata merah menakutkan, tetapi dalam hikayat lama ia baik hati dan menjadi pembantu tokoh utama.",
+          "quote": "Nenek kebayan sering digambarkan sebagai sosok wanita tua yang sangat renta dengan rambut putih kusut dan baju lusuh. Matanya merah menakutkan dan membuat anak-anak menjerit. Walau bagaimanapun, watak nenek kebayan dalam hikayat lama Melayu digambarkan sebagai seorang yang baik dan menjadi watak pembantu kepada watak utama hikayat-hikayat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nenek-kebayan-c03",
+          "source_id": "nenek-kebayan-s1",
+          "host": "ms.wikipedia.org",
+          "statement": "In the Hikayat Indera Putera, nenek kebayan is a kind old woman who raises Prince Inderaputera from childhood, after a golden peacock drops him into her flower garden.",
+          "statement_id": "Dalam Hikayat Indera Putera, nenek kebayan perempuan tua yang baik yang menjaga dan membesarkan Putera Inderaputera sejak kecil, setelah ia dijatuhkan burung merak emas di taman bunganya.",
+          "quote": "Nenek kebayan dalam Hikayat Indera Putera ialah seorang wanita tua yang baik yang menjaga dan membesarkan Putera Inderaputera – watak utama hikayat ini – dari kecil.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nenek-kebayan-c04",
+          "source_id": "nenek-kebayan-s1",
+          "host": "ms.wikipedia.org",
+          "statement": "In the Hikayat Malim Deman, nenek kebayan helps Malim Deman win Puteri Bongsu, a heavenly princess, and Betara Guru marries them at her house.",
+          "statement_id": "Dalam Hikayat Malim Deman, nenek kebayan membantu Malim Deman mendapatkan Puteri Bongsu, putri dari kayangan, dan keduanya dinikahkan Betara Guru di rumah nenek kebayan.",
+          "quote": "Dalam hikayat tersebut, Nenek Kebayan berperanan membantu Malim Deman mendapatkan Puteri Bongsu untuk diperisterikan Malim Deman. Malim Deman dan Puteri Bongsu dikahwinkan oleh Betara Guru di rumah Nenek Kebayan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nenek-kebayan-c05",
+          "source_id": "nenek-kebayan-s2",
+          "host": "www.mirrorservice.org",
+          "statement": "Walter William Skeat (1900) noted that the nenek kabayan does not appear to be a ghost at all; Dutch dictionaries explain her as a village messenger who sells flowers and carries lovers' messages.",
+          "statement_id": "Walter William Skeat (1900) mencatat bahwa nenek kabayan tampaknya sama sekali bukan hantu; kamus Belanda menjelaskannya sebagai pembawa pesan desa yang menjual bunga dan membawa pesan para kekasih.",
+          "quote": "The Nenek Kabayan does not appear to be a ghost at all",
+          "context": "scholarly-interpretation",
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "pane-nabolon",
+      "file": "batch-022.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 3 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "pane-nabolon-c01",
+          "source_id": "pane-nabolon-s1",
+          "host": "id.wikipedia.org",
+          "statement": "Pane Nabolon (ᯇᯉᯩ ᯉᯅᯬᯞᯬᯉ᯲) is a god of Batak mythology ruling the middle world (Banua Tonga), shaped like a serpent-dragon and symbolized by the eight directions, desa naualu.",
+          "statement_id": "Pane Nabolon (ᯇᯉᯩ ᯉᯅᯬᯞᯬᯉ᯲) adalah dewa dalam mitologi Batak yang menguasai dunia tengah (Banua Tonga), berwujud ular naga, dan dilambangkan delapan arah mata angin, desa naualu.",
+          "quote": "adalah salah satu dewa dalam mitologi Batak yang dipercayai menguasai dunia tengah (Banua Tonga). Pane Nabolon berbentuk ular naga. Karena kekuasaannya adalah dunia tempat manusia tinggal, Pane Nabolon juga memiliki simbol delapan arah mata angin, yang dalam bahasa Batak Toba disebut sebagai desa naualu.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "pane-nabolon-c02",
+          "source_id": "pane-nabolon-s1",
+          "host": "id.wikipedia.org",
+          "statement": "This god is destructive, able to destroy crops and animals and seize souls; people ask a datu which way the dragon's head faces to learn their fate before an undertaking.",
+          "statement_id": "Dewa ini bersifat merusak, dapat menghancurkan tanaman dan binatang serta mencengkeram jiwa manusia; orang bertanya kepada datu ke arah mana kepala naga menghadap untuk mengetahui nasib sebelum memulai usaha.",
+          "quote": "Dewa ini memiliki sifat menghancurkan yang dapat menghancurkan tanaman dan binatang serta mencengkeram jiwa manusia. Seorang datu (dukun) sering mendapatkan pertanyaan oleh seseorang tentang di mana arah kepala ular naga itu dalam arah mata angin yang digunakan untuk mengetahui nasib sebelum seseorang itu memulai usahanya.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "pane-nabolon-c03",
+          "source_id": "pane-nabolon-s1",
+          "host": "id.wikipedia.org",
+          "statement": "In October–December the dragon's head faces west, and a datu advises a warrior to keep his back to the east, southeast or northeast so Pane Nabolon cannot take his soul.",
+          "statement_id": "Pada Oktober–Desember kepala naga menghadap barat, dan datu menganjurkan pejuang membelakangi timur, tenggara, atau timur laut agar jiwanya tidak diambil Pane Nabolon.",
+          "quote": "Seorang datu akan menganjurkan seorang pejuang untuk membelakangi timur, tenggara, atau timur laut",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    }
+  ]
+}
