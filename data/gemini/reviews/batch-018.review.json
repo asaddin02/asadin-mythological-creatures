@@ -1,0 +1,327 @@
+{
+  "batch_id": "batch-018",
+  "checked_at": "2026-09-29T12:54:53.825Z",
+  "files": [
+    "batch-018.md"
+  ],
+  "parse_problems": [],
+  "missing": [],
+  "entries": [
+    {
+      "slug": "pyinsarupa",
+      "file": "batch-018.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 1
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 3 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"a lion an elephant a water buffalo a white carp and a…\"). Tulis ulang dengan kata-kata sendiri."
+        },
+        {
+          "level": "manual",
+          "where": "images[0] (File:Wat Phra Kaeo, Chiang Rai - 2017-06-27 (044).jpg)",
+          "message": "Keterkaitan otomatis: deskripsi berkas, kategori \"Pyinsarupa\", dipakai di en.wikipedia.org: Pyinsarupa. Cek visual tetap diperlukan."
+        }
+      ],
+      "claims": [
+        {
+          "id": "pyinsarupa-c01",
+          "source_id": "pyinsarupa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The pyinsarupa (ပဉ္စရူပ, also pyinsa rupa; Pali pañcarūpa, 'five forms'), also known in Thai as phaya luang, is a chimeric animal of Burmese mythology.",
+          "statement_id": "Pyinsarupa (ပဉ္စရူပ, juga pyinsa rupa; Pali pañcarūpa, 'lima wujud'), juga dikenal sebagai phaya luang (bahasa Thai), adalah hewan campuran dalam mitologi Myanmar.",
+          "quote": "Pyinsarupa (Burmese: ပဉ္စရူပ, [pjɪ̀ɴsa̰ jùpa̰], also spelt pyinsa rupa; Pali: pañcarūpa",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "pyinsarupa-c02",
+          "source_id": "pyinsarupa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The pyinsarupa combines an elephant, bullock, horse, white carp and tonaya (a horned leodragon), or alternately a lion, elephant, water buffalo, white carp and hamsa.",
+          "statement_id": "Pyinsarupa tersusun dari bagian gajah, sapi jantan, kuda, ikan karper putih, dan tonaya (singa-naga bertanduk), atau dalam versi lain singa, gajah, kerbau, karper putih, dan hamsa.",
+          "quote": "The Pyinsarupa is made of parts of an elephant, a bullock, a horse, a white carp (ငါးကြင်း) and a tonaya (တိုးနရား, a mythical horned leodragon), or alternately a lion, an elephant, a water buffalo, a white carp, and a hamsa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pyinsarupa-c03",
+          "source_id": "pyinsarupa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It features in traditional Burmese hsaing waing orchestras and is the logo of Myanmar's flagship airline, Myanmar Airways International.",
+          "statement_id": "Makhluk ini sering tampil dalam orkestra tradisional Myanmar hsaing waing dan menjadi logo maskapai unggulan Myanmar, Myanmar Airways International.",
+          "quote": "The creature is commonly featured in traditional Burmese hsaing waing orchestras, and serves as the logo of Myanmar's flagship air carrier, Myanmar Airways International.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Wat Phra Kaeo, Chiang Rai - 2017-06-27 (044).jpg",
+          "claimed_license": "CC0",
+          "evidence": "Deskripsi berkas: \"Image of the monster Phaya Luang (พญาลวง)\"; kategori Commons Pyinsarupa; gambar utama artikel Wikipedia en.",
+          "image_type": "artifact",
+          "commons_license": "CC0",
+          "rights": "PUBLIC_DOMAIN",
+          "author": "Iudexvivorum",
+          "date": "2017-06-27 14:08:53",
+          "description": "* Place : Hong Luang Saeng Kaeo (โฮงหลวงแสงแก้ว; \"Great Hall of Jewelled Halo\"), a museum housed by Wat Phra Kaeo , a Buddhist temple in Chiang Rai Province , Thailand . Item : Image of the monster Phaya Luang (พญาลวง), a hybrid of elephant, horse, deer, swan, and fish.",
+          "restrictions": null,
+          "categories": [
+            "CC-Zero",
+            "Collections of Hong Luang Saeng Kaeo",
+            "Pyinsarupa",
+            "Self-published work"
+          ],
+          "used_on": [
+            "en.wikipedia.org: Pyinsarupa",
+            "en.wiktionary.org: ပဉ္စရူပ",
+            "es.wikipedia.org: Pyinsarupa"
+          ],
+          "auto_evidence": [
+            "deskripsi berkas",
+            "kategori \"Pyinsarupa\"",
+            "dipakai di en.wikipedia.org: Pyinsarupa"
+          ],
+          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-018/pyinsarupa-1.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "tigmamanukan",
+      "file": "batch-018.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Kristen. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[1]",
+          "message": "Tidak muncul di kutipan mana pun: Spanish. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "tigmamanukan-c01",
+          "source_id": "tigmamanukan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Philippine mythology, the Tagalog believed the tigmamanukan was an omen bird; before Christianisation it was thought sent by Bathala to show whether a journey should proceed, and in some creation myths it split the primordial bamboo from which the first humans emerged.",
+          "statement_id": "Dalam mitologi Filipina, orang Tagalog meyakini tigmamanukan sebagai burung pertanda; sebelum Kristenisasi, burung ini dipercaya diutus Bathala untuk memberi tahu apakah perjalanan boleh dilanjutkan, dan dalam beberapa mitos penciptaan ia membelah bambu purba tempat manusia pertama keluar.",
+          "quote": "In Philippine mythology, the Tigmamanukan was believed by the Tagalog people to be an omen or augural bird. Although numerous other birds and lizards were observed for possible omens, particular attention was paid to the tigmamanukan. Before Christianisation, the Tagalogs believed the tigmamanukan was sent by the supreme deity and creator god Bathala",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c02",
+          "source_id": "tigmamanukan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The root of tigmamanukan is manók (Proto-Austronesian *manuk), now meaning only chicken; it once named any bird, lizard or snake crossing one's path as an omen, likely from reading sacrificed chickens' entrails.",
+          "statement_id": "Akar kata tigmamanukan adalah manók (dari Proto-Austronesia *manuk), yang kini hanya berarti ayam; kata ini dulu dipakai untuk setiap burung, kadal, atau ular yang melintas sebagai pertanda, dan kemungkinan berasal dari praktik membaca isi perut ayam kurban.",
+          "quote": "The root of the word tigmamanukan is manók (from Proto-Austronesian *manuk), which in modern Filipino is exclusively used for the chicken (Gallus gallus domesticus).",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c03",
+          "source_id": "tigmamanukan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Per San Buenaventura's 1613 dictionary, the Tagalogs believed the tigmamanukan's flight at a journey's start foretold its result: right meant success (labay), left meant the travellers would never return.",
+          "statement_id": "Menurut kamus San Buenaventura (1613), orang Tagalog percaya arah terbang tigmamanukan di awal perjalanan menandakan hasilnya: ke kanan berarti berhasil (labay), ke kiri berarti para pengembara tak akan kembali.",
+          "quote": "the Tagalogs believed that the direction of a tigmamanukan flying across one's path at the beginning a journey indicated the undertaking's result. If it flew to the right, the expedition would be a success. This sign was called \"labay\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c04",
+          "source_id": "tigmamanukan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some early Western explorers say the bird was a fairy bluebird (genus Irena), and most sources agree it was blue.",
+          "statement_id": "Sebagian penjelajah Barat awal menyebut burung ini burung biru peri (genus Irena), dan kebanyakan sumber sepakat ia berwarna biru.",
+          "quote": "some early western explorers say that the specific bird referred to by the name is a fairy bluebird (genus Irena and family Irenidae).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tigmamanukan-c05",
+          "source_id": "tigmamanukan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The tigmamanukan that pecked the bamboo was named Manaul by Bathala.",
+          "statement_id": "Tigmamanukan yang mematuk bambu itu dinamai Manaul oleh Bathala.",
+          "quote": "It is said that the specific tigmamanukan that pecked the bamboo was named by Bathala as Manaul",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "begu-ganjang",
+      "file": "batch-018.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "begu-ganjang-c01",
+          "source_id": "begu-ganjang-s1",
+          "host": "id.wikipedia.org",
+          "statement": "In Batak belief, the begu ganjang is a fierce evil spirit tasked with harming people and leaving a bruise on the victim's throat; the Karo Batak call it begu jinujung, which its owner must feed with red-chicken blood.",
+          "statement_id": "Dalam kepercayaan Batak, begu ganjang adalah roh jahat yang ganas, bertugas mencelakakan orang dan meninggalkan bekas biru di kerongkongan korban; orang Batak Karo menyebutnya begu jinujung yang harus diberi sajian darah ayam merah oleh pemiliknya.",
+          "quote": "dalam kepercayaan masyarakat Batak adalah salah satu jenis roh jahat. Dalam masyarakat Batak, begu ganjang digambarkan sebagai roh ganas karena bertugas untuk mencelakakan orang lain dan menyisakan bekas biru di kerongkongan korbannya. Masyarakat Batak Karo menyebut begu ganjang sebagai \"begu jinujung\", yaitu roh yang harus diberikan sajian darah ayam merah oleh pemiliknya.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c02",
+          "source_id": "begu-ganjang-s1",
+          "host": "id.wikipedia.org",
+          "statement": "In Batak culture a person has a body (pamatang) and soul (tondi); after death the soul becomes a begu and goes to the parbeguan, where the dead gather.",
+          "statement_id": "Dalam budaya Batak manusia terdiri atas jasad (pamatang) dan roh (tondi); setelah mati roh menjadi begu dan pergi ke parbeguan, tempat berkumpulnya roh orang mati.",
+          "quote": "Manusia dianggap memiliki dua unsur yaitu jasad atau fisik, yang disebut pamatang, dan roh, yang disebut tondi. Setelah kematian, roh dipercaya berubah menjadi begu. Begu kemudian pergi ke parbeguan, tempat gaib di mana berkumpul roh-roh orang yang telah meninggal.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c03",
+          "source_id": "begu-ganjang-s1",
+          "host": "id.wikipedia.org",
+          "statement": "Begu means spirit or ghost and ganjang long or tall, so the name is translated long ghost; it is big, thin, elongated, shadow-dark, and grows taller the longer one stares.",
+          "statement_id": "Begu berarti roh atau hantu dan ganjang berarti panjang atau tinggi, sehingga namanya diterjemahkan hantu panjang; ia digambarkan besar, kurus, memanjang, gelap seperti bayangan, dan makin lama ditatap makin menjulang.",
+          "quote": "Secara harfiah, istilah begu berarti “roh” atau “hantu”, sedangkan ganjang berarti “panjang” atau “tinggi”, sehingga keseluruhan namanya sering diterjemahkan sebagai hantu panjang",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c04",
+          "source_id": "begu-ganjang-s1",
+          "host": "id.wikipedia.org",
+          "statement": "In some oral traditions the begu ganjang is a guardian of farmland; later it became more linked with destructive black magic.",
+          "statement_id": "Dalam sejumlah tradisi lisan begu ganjang dipercaya roh penjaga lahan pertanian; kemudian ia lebih sering dikaitkan dengan ilmu hitam yang merusak.",
+          "quote": "Dalam sejumlah tradisi lisan, Begu Ganjang dipercaya sebagai roh penjaga lahan pertanian.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "begu-ganjang-c05",
+          "source_id": "begu-ganjang-s1",
+          "host": "id.wikipedia.org",
+          "statement": "Mysterious illnesses, unexplained decline and sudden deaths are often linked with the begu ganjang.",
+          "statement_id": "Penyakit misterius, kondisi fisik yang memburuk tanpa sebab jelas, dan kematian mendadak kerap dikaitkan dengan begu ganjang.",
+          "quote": "Kemunculan penyakit misterius, kondisi fisik yang memburuk tanpa sebab yang jelas, hingga kematian mendadak kerap diasosiasikan dengan keberadaan atau gangguan entitas ini.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "ekek",
+      "file": "batch-018.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 1,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "where": "long_description",
+          "message": "Tingkat rich sebaiknya 2–6 paragraf."
+        },
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 1 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "claims (ekek-c01)",
+          "message": "Kutipan berasal dari bagian Wikipedia \"Contents move to sidebar hide (Top) 1 References Toggle the \" yang ditandai tidak mencantumkan sumber. Dukung klaim ini dengan sumber lain yang independen, atau hapus."
+        }
+      ],
+      "claims": [
+        {
+          "id": "ekek-c01",
+          "source_id": "ekek-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Philippine mythology, ekek (Ek Ek) are birdlike humans, winged beings who seek victims at night, hungry for flesh and blood, flying and manananggal-like but unable to split their bodies; unlike the wakwak, the ekek has a birdlike bill.",
+          "statement_id": "Dalam mitologi Filipina, ekek (Ek Ek) adalah makhluk manusia mirip burung, manusia bersayap yang mencari korban pada malam hari, haus daging dan darah, terbang dan mirip manananggal tetapi tak dapat memisahkan tubuh; bedanya dengan wakwak, ekek berparuh seperti burung.",
+          "quote": "In Philippine mythology, Ekek (or Ek Ek) are birdlike human creatures. They are winged-humans who search for their victims at night. They hunger for flesh and blood. They are usually described as flying creatures that look like the Manananggal, but are unable to divide or split their body in the way that the Manananggal does.",
+          "context": "traditional-belief",
+          "status": "exact",
+          "wiki_flag": "bagian tanpa sumber"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "hantu-bongkok",
+      "file": "batch-018.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 1,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "where": "long_description",
+          "message": "Tingkat rich sebaiknya 2–6 paragraf."
+        },
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 1 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "hantu-bongkok-c01",
+          "source_id": "hantu-bongkok-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Hantu Bongkok (literally 'humpback spirit') is a bloodthirsty ghost or evil spirit of pre-colonial folklore in Palembang, South Sumatra, Indonesia; its female variant is Nenek Bongkok ('humpback grandmother').",
+          "statement_id": "Hantu Bongkok (harfiah 'roh bungkuk') adalah hantu atau roh jahat haus darah dari cerita rakyat prakolonial di Palembang, Sumatra Selatan, Indonesia; versi perempuannya disebut Nenek Bongkok ('nenek bungkuk').",
+          "quote": "Hantu Bongkok (literally, humpback spirit) is a mythological, bloodthirsty ghost or evil spirit from pre-colonial-era folklore in Palembang, South Sumatra, Indonesia. A female variant of the figure is known as Nenek Bongkok (humpback grandmother).",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    }
+  ]
+}
