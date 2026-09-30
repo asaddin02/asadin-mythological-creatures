@@ -1,8 +1,8 @@
 # Review batch-049
 
-Diperiksa 2026-09-30T03:57:52.446Z. Berkas: batch-049.md.
+Diperiksa 2026-09-30T04:11:14.617Z. Berkas: batch-049.md.
 
-**Belum dikirim:** rokurokubi, ebisu, japanese-dragon, kodama-spirit, namazu, nekomata, ninigi, tsukumogami, yama-uba, amabie, hoori, bake-danuki, ukemochi, fujin, okuninushi, shikigami, tsuchinoko, akaname, hitodama, ikiryo, inugami, ryujin, swan-maiden, abura-sumashi, obake, zashiki-warashi, amanojaku, sojobo, toyotama-hime, tsuchigumo, ubume, ugayafukiaezu, ushi-oni
+**Belum dikirim:** tsukumogami, yama-uba, amabie, hoori, bake-danuki, ukemochi, fujin, okuninushi, shikigami, tsuchinoko, akaname, hitodama, ikiryo, inugami, ryujin, swan-maiden, abura-sumashi, obake, zashiki-warashi, amanojaku, sojobo, toyotama-hime, tsuchigumo, ubume, ugayafukiaezu, ushi-oni
 
 ## susanoo — lulus-otomatis
 
@@ -263,4 +263,129 @@ Klaim 9 (exact 9), sumber 3, gambar 0.
 | onryo-c07 | exact | www.kokugakuin.ac.jp | Belief and rites for resentful spirits spread especially from the Heian period onward. | However, this form of belief became widespread mainly from the Heian period onward, with rites being widely performed for the spirits of certain individuals |
 | onryo-c08 | exact | www.kokugakuin.ac.jp | Goryōe rites developed to appease feared spirits. | Rituals to appease these spirits, including the goryōe, were developed in tandem. |
 | onryo-c09 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | The account concerns Sugawara Michizane. | dedicated to Sugawara Michizane (845–903). Michizane was a distinguished scholar |
+
+
+## rokurokubi — lulus-otomatis
+
+Klaim 9 (exact 9), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| rokurokubi-c01 | exact | www.nippon.com | In Japanese stories, rokurokubi look like ordinary women but may extend their necks or detach their heads. | In many Japanese stories, a rokurokubi looks just like an ordinary woman, but her head can go flying off, either at the end of a greatly extended snakelike neck or completely detached from her body |
+| rokurokubi-c02 | exact | www.nippon.com | The detached-head form may be called nukekubi. | in which case she may be called a nukekubi |
+| rokurokubi-c03 | exact | www.nippon.com | Rokurokubi stories and images became popular in the Edo period amid a wider yōkai boom. | Tales about rokurokubi and depictions in art first became especially popular in the Edo period (1603–1868), when there was a boom of interest in the sometimes frightening, sometimes humorous imaginary creatures known as yōkai. |
+| rokurokubi-c04 | exact | www.nippon.com | Rokurokubi are usually shown as women but can also be male. | Incidentally, while rokurokubi are most typically depicted as women, they can also be male. |
+| rokurokubi-c05 | exact | www.hearn-museum-matsue.jp | Hearn’s Rokuro-kubi appeared in Kwaidan in 1904. | Hearn’s work: “Rokuro-Kubi”, Kwaidan (1904) |
+| rokurokubi-c06 | exact | www.hearn-museum-matsue.jp | Hearn’s source was Kaibutsu Yoron from 1803. | Original source: Kaibutsu Yoron Volume 4 (1803) |
+| rokurokubi-c07 | exact | www.hearn-museum-matsue.jp | In this Hearn tale the being’s head separates and flies. | However, in this story, the supernatural being is one whose head separates from its body and flies. |
+| rokurokubi-c08 | exact | www.hearn-museum-matsue.jp | Hearn also drew a long-necked rokurokubi in Japanese Goblin Poetry. | Hearn’s humourous drawing of the “rokurokubi” with its elongated neck appears in Japanese Goblin Poetry. |
+| rokurokubi-c09 | exact | www.nippon.com | In Kwaidan, the priest sees headless bodies and flying heads at night. | In the middle of the night, he discovers their headless bodies in one room and the heads flying around outside, planning to eat him. |
+
+
+## ebisu — lulus-otomatis
+
+Klaim 11 (exact 11), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| ebisu-c01 | exact | www.mlit.go.jp | Ebisu is a god of good catches and guardian of fisheries. | Ebisu is the god of good catches and is worshipped as a guardian deity of fisheries. |
+| ebisu-c02 | exact | www.mlit.go.jp | Ebisu is one of Japan’s Seven Gods of Fortune. | Ebisu, one of Japan’s Seven Gods of Fortune. |
+| ebisu-c03 | exact | d-museum.kokugakuin.ac.jp | Ebisu is a kami commonly pictured with a fishing pole or sea bream. | The opulent image of this kami holding a fishing pole or a sea bream is known intimately by people throughout Japan. |
+| ebisu-c04 | exact | www.mlit.go.jp | Fishers thank Ebisu after a large catch and pray for good fishing after a poor catch. | Fishermen give thanks to Ebisu after a large catch, and pray for a bountiful catch after a poor one. |
+| ebisu-c05 | exact | d-museum.kokugakuin.ac.jp | Ebisu is also regarded as a guardian of commerce. | Ebisu also possesses characteristics as a tutelary of commerce |
+| ebisu-c06 | exact | www.mlit.go.jp | Villagers pray to Village Ebisu in Isso for business success. | Villagers pray to this Ebisu for success in business. |
+| ebisu-c07 | exact | www.mlit.go.jp | A Mugio statue holds a skipjack rather than the usual sea bream. | Ebisu usually holds a sea bream, but this one holds a skipjack |
+| ebisu-c08 | exact | www.mlit.go.jp | An Ebisu festival each January 10 prays for safety at sea and good catches. | A festival is held every January 10 to thank this Ebisu for his blessings and protection, and to pray for safety at sea as well as good fishing. |
+| ebisu-c09 | exact | www.mlit.go.jp | A wooden Ebisu statue in Isso is worshiped as Village Ebisu. | Another Ebisu statue in Isso is made of yakusugi cedar and worshipped at a small stone altar known as the “Village Ebisu.” |
+| ebisu-c10 | exact | www.mlit.go.jp | A wooden Ebisu statue stands at Mugio harbor. | A wooden carved Ebisu looks out over the port of Mugio on the southeastern coast of the island. |
+| ebisu-c11 | exact | www.mlit.go.jp | These practices take place on Yakushima. | Yakushima, a mountainous island on the Kuroshio Current with limited arable land |
+
+
+## japanese-dragon — lulus-otomatis
+
+Klaim 11 (exact 8, unreachable 3), sumber 4, gambar 0.
+
+**manual**
+- `claims` 3 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| japanese-dragon-c01 | exact | www.nippon.com | Japanese dragon images blend Chinese dragons, Buddhist nāga, and local water-deity ideas. | Japanese images of dragons are a blend of three influences: China’s mythical dragon, the nāga of Hindu myth and Buddhist scripture, and native Japanese views of it as a water deity. |
+| japanese-dragon-c02 | exact | www.nippon.com | In Japan dragons are called ryū and revered as Buddhist protectors. | In Japan, the dragon, or ryū, looks like a Chinese dragon, but is venerated like the nāga as a protector of Buddhism. |
+| japanese-dragon-c03 | exact | www.nippon.com | Dragons are linked to rain and believed to dwell in seas or other waters. | Dragons are associated with rain and have long been tied to folk beliefs about water, the creatures often being said to reside in the ocean or other bodies of water. |
+| japanese-dragon-c04 | exact | www.nippon.com | At many shrines dragons are revered for rain, flood protection, health, and luck. | Dragons themselves are objects of worship at many shrines, where they are venerated for reasons like bringing rain, stopping floods, and ensuring health, long life, and luck. |
+| japanese-dragon-c05 | unreachable (HTTP 429) | www.metmuseum.org | Kanō Tan’yū’s painting draws on dragons’ symbolism as masters of cloud and rain. | These near-experimental visual effects, achieved through bold manipulation of the fluid medium, align with the traditional symbolism of dragons as masters of cloud and rain. |
+| japanese-dragon-c06 | unreachable (HTTP 429) | www.metmuseum.org | Ink washes in a painting of paired dragons suggest rain through clouds. | This pair of dragons is painted with extensive water washes, visible in the flowing marks where diluted black ink bleeds across the silk surface and creates the impression of rain falling through layered clouds. |
+| japanese-dragon-c07 | unreachable (HTTP 429) | www.metmuseum.org | A Japanese mandala shows dragon kings in a watery world and was used in rites to end drought. | This unusual mandala, a sketch from a compendium of esoteric Buddhist images, set in the watery world of dragon kings, was used in rites to end drought. |
+| japanese-dragon-c08 | exact | www.mlit.go.jp | Daija is a guardian dragon venerated at a shrine by Ōnuma Pond. | The red torii gate visible on the shore belongs to Daija-jinjya Shrine, dedicated to Daija, a dragon seen in this area as a guardian spirit. |
+| japanese-dragon-c09 | exact | www.mlit.go.jp | In one local legend Daija could transform into a man. | According to one version of a local legend, every spring Daija used to transform into a man and go to see the cherry blossoms in the mountains. |
+| japanese-dragon-c10 | exact | www.mlit.go.jp | The legend says Daija summoned a storm that flooded the area. | Enraged, Daija summoned a great storm to flood the region. |
+| japanese-dragon-c11 | exact | www.nippon.com | Dragon images adorn ritual wash basins and shrine buildings. | They frequently appear as decorative elements on temizuya basins for ritually washing hands or as carvings or paintings to protect shrine buildings from fire. |
+
+
+## kodama-spirit — lulus-otomatis
+
+Klaim 7 (exact 7), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| kodama-spirit-c01 | exact (HTTP 403; dicek lewat arsip Wayback) | arboretum.harvard.edu | In Japanese folklore, kodama are tree spirits believed to give trees personality. | These tree spirits are known as kodama, and according to Japanese folklore, the kodama give the tree a personality. |
+| kodama-spirit-c02 | exact (HTTP 403; dicek lewat arsip Wayback) | arboretum.harvard.edu | Tree spirits are associated with trees that have reached a hundred years of age. | which holds that spirits inhabit trees that reach one hundred years of age. |
+| kodama-spirit-c03 | exact (HTTP 403; dicek lewat arsip Wayback) | arboretum.harvard.edu | Venerated old trees could be marked with sacred shimenawa rope. | In fact, they were marked with a sacred rope called a shimenawa |
+| kodama-spirit-c04 | exact (HTTP 403; dicek lewat arsip Wayback) | arboretum.harvard.edu | Cutting such a tree was believed to bring an angry spirit. | if anyone chopped down the tree, they would have to deal with an angry spirit. |
+| kodama-spirit-c05 | exact | www.ntticc.or.jp | A Japanese artwork presents kodama as unseen forest spirits. | KODAMA are the tree spirits that live in the forest. They are invisible to human eyes |
+| kodama-spirit-c06 | exact | www.ntticc.or.jp | The artwork connects the name kodama with echoes of voices in the forest. | Next, visitors hear the echo (also pronounced kodama in Japanese) of the voices in the forest even though there is no one there. |
+| kodama-spirit-c07 | exact | www2.kokugakuin.ac.jp | In an Engishiki liturgy, a particular tree kami is called a kodama. | the former is described as a kodama (tree spirit), while the latter is called an inadama. |
+
+
+## namazu — lulus-otomatis
+
+Klaim 9 (exact 9), sumber 4, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| namazu-c01 | exact | www.rijksmuseum.nl | Namazu is a mythical fish said to lie beneath Japan and cause earthquakes. | This catfish represents the namazu: a mythical fish that, according to legend, lies under the islands of Japan and causes earthquakes. |
+| namazu-c02 | exact | digital.archives.caltech.edu | Japanese legend attributes earthquakes to the movements of a giant catfish below Japan. | According to Japanese legend, earthquakes were caused by the movements of a monster catfish that lived under the island of Japan. |
+| namazu-c03 | exact | digital.archives.caltech.edu | One print depicts Namazu beneath a great stone of Kashima Shrine. | Here the monster Namazu (is lifting up the great stone of the Kashima Shrine by which it has been fixed under the ground for a long time. |
+| namazu-c04 | exact | jpsearch.go.jp | Belief in the huge underground catfish Ōnamazu was widespread in the Edo period. | During the Edo era, a belief became widespread in mainstream society that a huge catfish called Ohnamazu lived in the mud, under the islands of Japan, and was the cause of earthquakes. |
+| namazu-c05 | exact | www.ndl.go.jp | Namazu-e prints mainly appeared after the Ansei Edo earthquake of November 11, 1855. | The term generally refers to prints published after the Ansei Edo earthquake, which struck Edo on the night of the 2nd day of the 10th month of Ansei 2 (November 11, 1855). |
+| namazu-c06 | exact | www.ndl.go.jp | Namazu-e often anthropomorphize the fish and show gods, craftsmen, and stones. | Many works anthropomorphize the catfish, and recurring motifs include oni (demons), Ebisu, Daikokuten, craftsmen, foundation stone, gourds, sacred horses, and Kashima Daimyojin. |
+| namazu-c07 | exact | jpsearch.go.jp | Some prints depict gods and townspeople punishing the catfish. | These paintings often show images of catfish being scolded and attacked by gods and townspeople, or eaten as kabayaki |
+| namazu-c08 | exact | jpsearch.go.jp | Prints also show people who profited from rebuilding after the earthquake. | People who profited from the post-disaster restoration, such as carpenters, plasterers, lumber traders, firefighters, and kawaraban (newspaper) sellers who distributed flash reports about the earthquake, were often drawn into the Ukiyo-e pictures. |
+| namazu-c09 | exact | digital.archives.caltech.edu | The prints formed part of local responses to the disaster. | These imaginative and sometimes brutal depictions served as a unique source of information and reassurance to the local population. |
+
+
+## nekomata — lulus-otomatis
+
+Klaim 9 (exact 9), sumber 4, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| nekomata-c01 | exact | bakemono.lib.byu.edu | Nekomata are Japanese yōkai said to transform from old or large cats. | Nekomata (ねこまた) are Japanese yōkai said to have transformed from old and large cats. |
+| nekomata-c02 | exact | bakemono.lib.byu.edu | Nekomata tails are depicted as splitting in two. | their tails split down the middle into two identical tails. |
+| nekomata-c03 | exact | bakemono.lib.byu.edu | Nekomata are said to speak, walk on their hind legs, and cause mischief. | speaking human languages as well as walking on their rear legs, causing mischief. |
+| nekomata-c04 | exact | fukusakikankou.jp | Some stories describe nekomata as mountain beasts that attack people. | Some believe it is a mountain beast, and it is known to sometimes attack humans. |
+| nekomata-c05 | exact | glam.uoregon.edu | Toriyama Sekien’s art depicts nekomata dancing on two legs. | One sign of this, evidently, was dancing madly on two legs—this is how the nekomata is depicted in Toriyama Sekien’s Gazu hyakki yagyō |
+| nekomata-c06 | exact | glam.uoregon.edu | The distinction between bakeneko and nekomata is often unclear. | While the distinction between bakeneko and nekomata is seldom clear |
+| nekomata-c07 | exact | www.nippon.com | A Nakanomata tale says Ushiki Kichijūrō defeated a nekomata. | In the village of Nakanomata in Niigata Prefecture, there is a famous story about a strong villager, Ushiki Kichijūrō, who was able to defeat a feline yōkai called nekomata. |
+| nekomata-c08 | exact | www.nippon.com | A nekomata legend is associated with Mount Nekomata in Toyama. | There is a legend connected to Mount Nekomata in Toyama Prefecture’s Kurobe gorge. |
+| nekomata-c09 | exact | www.nippon.com | In that mountain legend, the creature preys on local people. | It began causing trouble, even eating the local people. |
+
+
+## ninigi — lulus-otomatis
+
+Klaim 10 (exact 10), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| ninigi-c01 | exact | d-museum.kokugakuin.ac.jp | Ninigi is a kami and grandchild of Amaterasu who descends from heaven. | The kami who, as grandchild of Amaterasu ōmikami, descended |
+| ninigi-c02 | exact | d-museum.kokugakuin.ac.jp | Ninigi descends from Takamanohara to Takachiho to rule the earthly land. | from the Plain of High Heaven (Takamanohara) to the peak of Takachiho in Hyūga of Tsukushi (present-day Kyushu) to rule over the "Central Land of Reed Plains" |
+| ninigi-c03 | exact | d-museum.kokugakuin.ac.jp | Ninigi’s father Oshihomimi was first commanded to descend and rule. | Ninigi's father Oshihomimi was first commanded to descend and rule the Central Land of Reed Plains |
+| ninigi-c04 | exact | d-museum.kokugakuin.ac.jp | Ninigi descended in his father’s place. | Ninigi descended in place of his father Oshihomimi. |
+| ninigi-c05 | exact | d-museum.kokugakuin.ac.jp | Amaterasu and Takamimusuhi supplied five attendant kami and the sword, mirror, and jewel. | Furnished by Amaterasu and Takamimusuhi with five retainer kami, as well as with the symbolic sword, mirror and jewel |
+| ninigi-c06 | exact | www.mlit.go.jp | One account places Ninigi’s descent at Kushifurutake in Takachiho. | It is written that Ninigi and his procession made their way through the heavens and descended at “Kushifurutake of Takachiho.” |
+| ninigi-c07 | exact | www.mlit.go.jp | Ninigi’s three treasures later became Japan’s imperial regalia. | These three treasures would later become the Imperial Regalia of Japan. |
+| ninigi-c08 | exact | www.mlit.go.jp | Kushifuru Shrine was built in 1694 on the mountain believed to mark Ninigi’s arrival. | Kushifuru Shine, which venerates Ninigi, was built in 1694 upon the mountain where he and his procession are believed to have arrived. |
+| ninigi-c09 | exact | www.mlit.go.jp | In a local legend Ninigi scatters rice and the fog lifts. | They urged Ninigi to take rice from the stalks he held in his hand and scatter it over the land. Upon doing so, the fog lifted |
+| ninigi-c10 | exact | www.mlit.go.jp | In Japanese mythology Ninigi’s great-grandson becomes the first emperor. | In Japanese mythology, Ninigi’s great-grandson becomes the first emperor of Japan |
 

@@ -3726,3 +3726,1751 @@
 }
 ```
 
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "rokurokubi",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Rokurokubi",
+    "native_name": null,
+    "display_name": {
+      "id": "Rokurokubi",
+      "en": "Rokurokubi"
+    },
+    "wikidata_qid": "Q1458863",
+    "claim_ids": [
+      "rokurokubi-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "rokurokubi-c03"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "rokurokubi-c03"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "rokurokubi-c01",
+      "rokurokubi-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "rokurokubi-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Rokurokubi adalah yōkai dalam kisah Jepang yang tampak seperti manusia, tetapi lehernya dapat memanjang atau kepalanya terlepas.",
+    "en": "Rokurokubi are yōkai in Japanese stories who look human but have extending necks or detached heads.",
+    "claim_ids": [
+      "rokurokubi-c01",
+      "rokurokubi-c03"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Rokurokubi sering tampak seperti perempuan biasa. Dalam beberapa kisah lehernya memanjang secara luar biasa; dalam kisah lain kepalanya terlepas dan terbang, bentuk yang juga disebut nukekubi. Tokoh ini dapat pula berjenis kelamin laki-laki. Kisah dan gambar rokurokubi semakin populer pada zaman Edo, ketika minat terhadap yōkai meningkat.",
+      "en": "Rokurokubi often appear to be ordinary women. In some stories their necks extend enormously; in others their heads detach and fly, a form also called nukekubi. Male rokurokubi appear as well. Stories and images of them became especially popular in the Edo period amid interest in yōkai.",
+      "claim_ids": [
+        "rokurokubi-c01",
+        "rokurokubi-c02",
+        "rokurokubi-c03",
+        "rokurokubi-c04"
+      ]
+    },
+    {
+      "id": "Cerita “Rokuro-kubi” dalam Kwaidan karya Hearn terbit pada 1904 dan berakar pada cerita tahun 1803. Museum yang mengkaji karya Hearn menjelaskan bahwa tokoh dalam cerita itu berkepala terlepas, sedangkan Hearn juga pernah menggambar rokurokubi berleher panjang. Dalam versi Kwaidan, seorang pendeta menjumpai tubuh tanpa kepala dan kepala yang terbang di malam hari.",
+      "en": "Hearn’s “Rokuro-kubi” appeared in Kwaidan in 1904 and draws on an 1803 story. A museum studying Hearn’s work explains that this tale concerns detached heads, while Hearn also drew a long-necked rokurokubi elsewhere. In the Kwaidan version, a priest encounters headless bodies and flying heads at night.",
+      "claim_ids": [
+        "rokurokubi-c05",
+        "rokurokubi-c06",
+        "rokurokubi-c07",
+        "rokurokubi-c08",
+        "rokurokubi-c09"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "rokurokubi-s1",
+      "url": "https://www.nippon.com/en/guide-to-japan/cs00042/",
+      "title": "Rokurokubi: Long Necks and Flying Heads",
+      "author": null,
+      "publisher": "Nippon.com",
+      "published": "2025-10-31",
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "rokurokubi-s2",
+      "url": "https://www.hearn-museum-matsue.jp/exhibition-supernatural.html",
+      "title": "Lafcadio Hearn: Visions of the Supernatural",
+      "author": null,
+      "publisher": "Lafcadio Hearn Memorial Museum",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "rokurokubi-c01",
+      "source_id": "rokurokubi-s1",
+      "quote": "In many Japanese stories, a rokurokubi looks just like an ordinary woman, but her head can go flying off, either at the end of a greatly extended snakelike neck or completely detached from her body",
+      "locator": "Weird Tales",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam kisah Jepang, rokurokubi tampak seperti perempuan biasa, namun lehernya dapat memanjang atau kepalanya terlepas.",
+        "en": "In Japanese stories, rokurokubi look like ordinary women but may extend their necks or detach their heads."
+      }
+    },
+    {
+      "id": "rokurokubi-c02",
+      "source_id": "rokurokubi-s1",
+      "quote": "in which case she may be called a nukekubi",
+      "locator": "Weird Tales",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Bentuk dengan kepala terlepas dapat disebut nukekubi.",
+        "en": "The detached-head form may be called nukekubi."
+      }
+    },
+    {
+      "id": "rokurokubi-c03",
+      "source_id": "rokurokubi-s1",
+      "quote": "Tales about rokurokubi and depictions in art first became especially popular in the Edo period (1603–1868), when there was a boom of interest in the sometimes frightening, sometimes humorous imaginary creatures known as yōkai.",
+      "locator": "Weird Tales",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Cerita dan seni rokurokubi populer pada zaman Edo bersama meningkatnya minat pada yōkai.",
+        "en": "Rokurokubi stories and images became popular in the Edo period amid a wider yōkai boom."
+      }
+    },
+    {
+      "id": "rokurokubi-c04",
+      "source_id": "rokurokubi-s1",
+      "quote": "Incidentally, while rokurokubi are most typically depicted as women, they can also be male.",
+      "locator": "Weird Tales",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Rokurokubi biasanya digambarkan sebagai perempuan tetapi dapat juga laki-laki.",
+        "en": "Rokurokubi are usually shown as women but can also be male."
+      }
+    },
+    {
+      "id": "rokurokubi-c05",
+      "source_id": "rokurokubi-s2",
+      "quote": "Hearn’s work: “Rokuro-Kubi”, Kwaidan (1904)",
+      "locator": "Rokurokubi",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Cerita Rokuro-kubi karya Hearn muncul dalam Kwaidan tahun 1904.",
+        "en": "Hearn’s Rokuro-kubi appeared in Kwaidan in 1904."
+      }
+    },
+    {
+      "id": "rokurokubi-c06",
+      "source_id": "rokurokubi-s2",
+      "quote": "Original source: Kaibutsu Yoron Volume 4 (1803)",
+      "locator": "Rokurokubi",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sumber cerita Hearn berasal dari Kaibutsu Yoron tahun 1803.",
+        "en": "Hearn’s source was Kaibutsu Yoron from 1803."
+      }
+    },
+    {
+      "id": "rokurokubi-c07",
+      "source_id": "rokurokubi-s2",
+      "quote": "However, in this story, the supernatural being is one whose head separates from its body and flies.",
+      "locator": "Rokurokubi",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam cerita Hearn ini kepala tokohnya terlepas lalu terbang.",
+        "en": "In this Hearn tale the being’s head separates and flies."
+      }
+    },
+    {
+      "id": "rokurokubi-c08",
+      "source_id": "rokurokubi-s2",
+      "quote": "Hearn’s humourous drawing of the “rokurokubi” with its elongated neck appears in Japanese Goblin Poetry.",
+      "locator": "Rokurokubi",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Hearn juga menggambar rokurokubi berleher panjang dalam Japanese Goblin Poetry.",
+        "en": "Hearn also drew a long-necked rokurokubi in Japanese Goblin Poetry."
+      }
+    },
+    {
+      "id": "rokurokubi-c09",
+      "source_id": "rokurokubi-s1",
+      "quote": "In the middle of the night, he discovers their headless bodies in one room and the heads flying around outside, planning to eat him.",
+      "locator": "Weird Tales",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam Kwaidan, pendeta melihat tubuh tanpa kepala dan kepala beterbangan pada malam hari.",
+        "en": "In Kwaidan, the priest sees headless bodies and flying heads at night."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "ebisu",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Ebisu",
+    "native_name": null,
+    "display_name": {
+      "id": "Ebisu",
+      "en": "Ebisu"
+    },
+    "wikidata_qid": "Q1129330",
+    "claim_ids": [
+      "ebisu-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "ebisu-c01"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "ebisu-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "ebisu-c01",
+      "ebisu-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "ebisu-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Ebisu adalah kami keberuntungan Jepang yang dipuja sebagai pelindung nelayan dan perdagangan.",
+    "en": "Ebisu is a kami of good fortune in Japan revered as a guardian of fisheries and commerce.",
+    "claim_ids": [
+      "ebisu-c01",
+      "ebisu-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Ebisu termasuk tujuh dewa keberuntungan Jepang. Di komunitas nelayan ia dipuja sebagai dewa hasil tangkapan dan pelindung perikanan. Gambarannya lazim menunjukkan seorang tokoh dengan pancing dan ikan tai. Nelayan berterima kasih setelah hasil tangkapan besar dan berdoa ketika hasil sedikit.",
+      "en": "Ebisu is one of Japan’s Seven Gods of Fortune. In fishing communities he is worshiped as the god of good catches and a guardian of fisheries. He is commonly shown with a fishing rod and sea bream. Fishers thank him for a large catch and pray after a poor one.",
+      "claim_ids": [
+        "ebisu-c01",
+        "ebisu-c02",
+        "ebisu-c03",
+        "ebisu-c04"
+      ]
+    },
+    {
+      "id": "Pemujaan Ebisu juga menyangkut perdagangan. Di Isso, Yakushima, warga memohon keberhasilan usaha kepada patung yang disebut “Ebisu Desa”. Berbagai gambaran lokal berbeda: satu patung di Pelabuhan Mugio membawa ikan cakalang, sedangkan gambaran yang lebih lazim memegang ikan tai. Pesta untuk Ebisu di Mugio berlangsung setiap 10 Januari untuk memohon keselamatan di laut dan hasil tangkapan baik.",
+      "en": "Ebisu’s worship also concerns commerce. In Isso, Yakushima, villagers pray for business success to a statue called “Village Ebisu.” The Mugio harbor statue holds a skipjack, while the usual image holds a sea bream. A festival for Ebisu at Mugio takes place every January 10 to seek safety at sea and good fishing.",
+      "claim_ids": [
+        "ebisu-c05",
+        "ebisu-c06",
+        "ebisu-c07",
+        "ebisu-c08",
+        "ebisu-c09",
+        "ebisu-c10",
+        "ebisu-c11"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "ebisu-s1",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9942",
+      "title": "Ebisu",
+      "author": "Iwai Hiroshi",
+      "publisher": "Encyclopedia of Shinto, Kokugakuin University",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "ebisu-s2",
+      "url": "https://www.mlit.go.jp/tagengo-db/en/R2-00888.html",
+      "title": "Fisheries: History and Culture",
+      "author": null,
+      "publisher": "Japan Tourism Agency",
+      "published": null,
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "ebisu-c01",
+      "source_id": "ebisu-s2",
+      "quote": "Ebisu is the god of good catches and is worshipped as a guardian deity of fisheries.",
+      "locator": "Ebisu",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ebisu adalah dewa hasil tangkapan dan pelindung perikanan.",
+        "en": "Ebisu is a god of good catches and guardian of fisheries."
+      }
+    },
+    {
+      "id": "ebisu-c02",
+      "source_id": "ebisu-s2",
+      "quote": "Ebisu, one of Japan’s Seven Gods of Fortune.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ebisu termasuk tujuh dewa keberuntungan Jepang.",
+        "en": "Ebisu is one of Japan’s Seven Gods of Fortune."
+      }
+    },
+    {
+      "id": "ebisu-c03",
+      "source_id": "ebisu-s1",
+      "quote": "The opulent image of this kami holding a fishing pole or a sea bream is known intimately by people throughout Japan.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ebisu sebagai kami lazim digambarkan dengan pancing atau ikan tai.",
+        "en": "Ebisu is a kami commonly pictured with a fishing pole or sea bream."
+      }
+    },
+    {
+      "id": "ebisu-c04",
+      "source_id": "ebisu-s2",
+      "quote": "Fishermen give thanks to Ebisu after a large catch, and pray for a bountiful catch after a poor one.",
+      "locator": "Ebisu",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Nelayan berterima kasih kepada Ebisu setelah hasil besar dan berdoa setelah hasil sedikit.",
+        "en": "Fishers thank Ebisu after a large catch and pray for good fishing after a poor catch."
+      }
+    },
+    {
+      "id": "ebisu-c05",
+      "source_id": "ebisu-s1",
+      "quote": "Ebisu also possesses characteristics as a tutelary of commerce",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ebisu juga dianggap pelindung perdagangan.",
+        "en": "Ebisu is also regarded as a guardian of commerce."
+      }
+    },
+    {
+      "id": "ebisu-c06",
+      "source_id": "ebisu-s2",
+      "quote": "Villagers pray to this Ebisu for success in business.",
+      "locator": "Ebisu",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Warga memohon keberhasilan usaha kepada Ebisu Desa di Isso.",
+        "en": "Villagers pray to Village Ebisu in Isso for business success."
+      }
+    },
+    {
+      "id": "ebisu-c07",
+      "source_id": "ebisu-s2",
+      "quote": "Ebisu usually holds a sea bream, but this one holds a skipjack",
+      "locator": "Ebisu",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Patung Ebisu di Mugio membawa cakalang, berbeda dari gambaran lazim dengan ikan tai.",
+        "en": "A Mugio statue holds a skipjack rather than the usual sea bream."
+      }
+    },
+    {
+      "id": "ebisu-c08",
+      "source_id": "ebisu-s2",
+      "quote": "A festival is held every January 10 to thank this Ebisu for his blessings and protection, and to pray for safety at sea as well as good fishing.",
+      "locator": "Ebisu",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pesta Ebisu setiap 10 Januari memohon keselamatan di laut dan hasil tangkapan baik.",
+        "en": "An Ebisu festival each January 10 prays for safety at sea and good catches."
+      }
+    },
+    {
+      "id": "ebisu-c09",
+      "source_id": "ebisu-s2",
+      "quote": "Another Ebisu statue in Isso is made of yakusugi cedar and worshipped at a small stone altar known as the “Village Ebisu.”",
+      "locator": "Ebisu",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Di Isso ada patung kayu yang dipuja sebagai Ebisu Desa.",
+        "en": "A wooden Ebisu statue in Isso is worshiped as Village Ebisu."
+      }
+    },
+    {
+      "id": "ebisu-c10",
+      "source_id": "ebisu-s2",
+      "quote": "A wooden carved Ebisu looks out over the port of Mugio on the southeastern coast of the island.",
+      "locator": "Ebisu",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Patung kayu Ebisu berada di Pelabuhan Mugio.",
+        "en": "A wooden Ebisu statue stands at Mugio harbor."
+      }
+    },
+    {
+      "id": "ebisu-c11",
+      "source_id": "ebisu-s2",
+      "quote": "Yakushima, a mountainous island on the Kuroshio Current with limited arable land",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Lokasi praktik ini berada di Yakushima.",
+        "en": "These practices take place on Yakushima."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "japanese-dragon",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Japanese dragon",
+    "native_name": null,
+    "display_name": {
+      "id": "Japanese dragon",
+      "en": "Japanese dragon"
+    },
+    "wikidata_qid": "Q2366503",
+    "claim_ids": [
+      "japanese-dragon-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "naga/ular mitos",
+    "claim_ids": [
+      "japanese-dragon-c01",
+      "japanese-dragon-c02"
+    ]
+  },
+  "classification": {
+    "value": "dragon",
+    "claim_ids": [
+      "japanese-dragon-c01",
+      "japanese-dragon-c02"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "japanese-dragon-c01",
+      "japanese-dragon-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "japanese-dragon-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Naga Jepang, atau ryū, adalah makhluk mitos yang dalam tradisi setempat dikaitkan dengan air dan hujan.",
+    "en": "The Japanese dragon, or ryū, is a mythical creature associated with water and rain in local traditions.",
+    "claim_ids": [
+      "japanese-dragon-c01",
+      "japanese-dragon-c02",
+      "japanese-dragon-c03"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Gambaran naga Jepang memadukan pengaruh naga Tiongkok, nāga dalam tradisi Buddha, dan pandangan setempat tentang dewa air. Ryū sering dihubungkan dengan hujan dan dipercaya mendiami laut atau perairan lain. Di sejumlah kuil naga dipuja untuk memohon hujan, mencegah banjir, atau memperoleh kesehatan dan keberuntungan. Gambar naga juga menghiasi tempat pembasuhan tangan dan bangunan kuil.",
+      "en": "Japanese dragon imagery blends Chinese dragons, the nāga of Buddhist tradition, and local ideas of water deities. Ryū are linked with rain and said to dwell in seas and other waters. At some shrines dragons are revered for rain, flood protection, health, and luck. Dragon images also adorn ritual wash basins and shrine buildings.",
+      "claim_ids": [
+        "japanese-dragon-c01",
+        "japanese-dragon-c02",
+        "japanese-dragon-c03",
+        "japanese-dragon-c04",
+        "japanese-dragon-c11"
+      ]
+    },
+    {
+      "id": "Hubungan naga dengan air juga tampak dalam seni dan ritual. Lukisan sepasang naga menggunakan lapisan tinta untuk menampilkan hujan di tengah awan, selaras dengan lambang naga sebagai penguasa awan dan hujan. Sebuah mandala menempatkan raja naga dalam dunia air dan dipakai dalam ritual memohon hujan. Dalam legenda setempat, naga Daija dipuja sebagai penjaga; kisahnya menyebut ia dapat berubah menjadi manusia dan memanggil badai.",
+      "en": "The water association appears in art and ritual too. A painting of paired dragons uses ink washes to suggest rain through clouds, matching their symbolism as masters of cloud and rain. A mandala places dragon kings in a watery world and was used in rainmaking rites. In a local legend, the dragon Daija is honored as a guardian; the story gives him the power to become human and summon a storm.",
+      "claim_ids": [
+        "japanese-dragon-c05",
+        "japanese-dragon-c06",
+        "japanese-dragon-c07",
+        "japanese-dragon-c08",
+        "japanese-dragon-c09",
+        "japanese-dragon-c10"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "japanese-dragon-s1",
+      "url": "https://www.nippon.com/en/guide-to-japan/gu9002678/",
+      "title": "Year of the Dragon: Six Shrines to Visit in 2024",
+      "author": null,
+      "publisher": "Nippon.com",
+      "published": "2024-01-26",
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "japanese-dragon-s2",
+      "url": "https://www.metmuseum.org/art/collection/search/929157",
+      "title": "A Pair of Dragons",
+      "author": null,
+      "publisher": "The Metropolitan Museum of Art",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "japanese-dragon-s3",
+      "url": "https://www.metmuseum.org/art/collection/search/39933",
+      "title": "Iconographic Drawing of a Rainmaking Mandala",
+      "author": null,
+      "publisher": "The Metropolitan Museum of Art",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "japanese-dragon-s4",
+      "url": "https://www.mlit.go.jp/tagengo-db/en/R1-02228.html",
+      "title": "Ōnuma Pond and the Daija Festival",
+      "author": null,
+      "publisher": "Japan Tourism Agency",
+      "published": null,
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "japanese-dragon-c01",
+      "source_id": "japanese-dragon-s1",
+      "quote": "Japanese images of dragons are a blend of three influences: China’s mythical dragon, the nāga of Hindu myth and Buddhist scripture, and native Japanese views of it as a water deity.",
+      "locator": "Dragons as Decoration",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Gambaran naga Jepang memadukan pengaruh naga Tiongkok, nāga Buddha, dan pandangan setempat tentang dewa air.",
+        "en": "Japanese dragon images blend Chinese dragons, Buddhist nāga, and local water-deity ideas."
+      }
+    },
+    {
+      "id": "japanese-dragon-c02",
+      "source_id": "japanese-dragon-s1",
+      "quote": "In Japan, the dragon, or ryū, looks like a Chinese dragon, but is venerated like the nāga as a protector of Buddhism.",
+      "locator": "Dragons as Decoration",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Di Jepang naga disebut ryū dan dihormati sebagai pelindung dalam tradisi Buddha.",
+        "en": "In Japan dragons are called ryū and revered as Buddhist protectors."
+      }
+    },
+    {
+      "id": "japanese-dragon-c03",
+      "source_id": "japanese-dragon-s1",
+      "quote": "Dragons are associated with rain and have long been tied to folk beliefs about water, the creatures often being said to reside in the ocean or other bodies of water.",
+      "locator": "Dragons as Decoration",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Naga dikaitkan dengan hujan dan dipercaya mendiami laut atau perairan lain.",
+        "en": "Dragons are linked to rain and believed to dwell in seas or other waters."
+      }
+    },
+    {
+      "id": "japanese-dragon-c04",
+      "source_id": "japanese-dragon-s1",
+      "quote": "Dragons themselves are objects of worship at many shrines, where they are venerated for reasons like bringing rain, stopping floods, and ensuring health, long life, and luck.",
+      "locator": "Dragons as Decoration",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Di banyak kuil naga dipuja untuk hujan, perlindungan banjir, kesehatan, dan keberuntungan.",
+        "en": "At many shrines dragons are revered for rain, flood protection, health, and luck."
+      }
+    },
+    {
+      "id": "japanese-dragon-c05",
+      "source_id": "japanese-dragon-s2",
+      "quote": "These near-experimental visual effects, achieved through bold manipulation of the fluid medium, align with the traditional symbolism of dragons as masters of cloud and rain.",
+      "locator": "Object description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Lukisan Kanō Tan’yū menampilkan naga sebagai penguasa awan dan hujan.",
+        "en": "Kanō Tan’yū’s painting draws on dragons’ symbolism as masters of cloud and rain."
+      }
+    },
+    {
+      "id": "japanese-dragon-c06",
+      "source_id": "japanese-dragon-s2",
+      "quote": "This pair of dragons is painted with extensive water washes, visible in the flowing marks where diluted black ink bleeds across the silk surface and creates the impression of rain falling through layered clouds.",
+      "locator": "Object description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sapuan tinta pada lukisan sepasang naga menimbulkan kesan hujan di tengah awan.",
+        "en": "Ink washes in a painting of paired dragons suggest rain through clouds."
+      }
+    },
+    {
+      "id": "japanese-dragon-c07",
+      "source_id": "japanese-dragon-s3",
+      "quote": "This unusual mandala, a sketch from a compendium of esoteric Buddhist images, set in the watery world of dragon kings, was used in rites to end drought.",
+      "locator": "Object description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Mandala Jepang menampilkan raja naga dalam dunia air dan dipakai dalam ritual mengakhiri kekeringan.",
+        "en": "A Japanese mandala shows dragon kings in a watery world and was used in rites to end drought."
+      }
+    },
+    {
+      "id": "japanese-dragon-c08",
+      "source_id": "japanese-dragon-s4",
+      "quote": "The red torii gate visible on the shore belongs to Daija-jinjya Shrine, dedicated to Daija, a dragon seen in this area as a guardian spirit.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Daija adalah naga penjaga yang dipuja di kuil dekat Kolam Ōnuma.",
+        "en": "Daija is a guardian dragon venerated at a shrine by Ōnuma Pond."
+      }
+    },
+    {
+      "id": "japanese-dragon-c09",
+      "source_id": "japanese-dragon-s4",
+      "quote": "According to one version of a local legend, every spring Daija used to transform into a man and go to see the cherry blossoms in the mountains.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam satu versi legenda setempat, Daija dapat berubah menjadi manusia.",
+        "en": "In one local legend Daija could transform into a man."
+      }
+    },
+    {
+      "id": "japanese-dragon-c10",
+      "source_id": "japanese-dragon-s4",
+      "quote": "Enraged, Daija summoned a great storm to flood the region.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Legenda itu menyebut Daija memanggil badai yang membanjiri wilayah itu.",
+        "en": "The legend says Daija summoned a storm that flooded the area."
+      }
+    },
+    {
+      "id": "japanese-dragon-c11",
+      "source_id": "japanese-dragon-s1",
+      "quote": "They frequently appear as decorative elements on temizuya basins for ritually washing hands or as carvings or paintings to protect shrine buildings from fire.",
+      "locator": "Dragons as Decoration",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Gambar naga menghiasi tempat pembasuhan tangan dan bangunan kuil.",
+        "en": "Dragon images adorn ritual wash basins and shrine buildings."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "kodama-spirit",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Kodama",
+    "native_name": null,
+    "display_name": {
+      "id": "Kodama",
+      "en": "Kodama"
+    },
+    "wikidata_qid": "Q1515938",
+    "claim_ids": [
+      "kodama-spirit-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "roh",
+    "claim_ids": [
+      "kodama-spirit-c01"
+    ]
+  },
+  "classification": {
+    "value": "spirit",
+    "claim_ids": [
+      "kodama-spirit-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "kodama-spirit-c01",
+      "kodama-spirit-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "kodama-spirit-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Kodama adalah roh pohon dalam cerita rakyat Jepang, terutama dikaitkan dengan pohon tua dan gema hutan.",
+    "en": "Kodama are tree spirits in Japanese folklore, especially associated with old trees and forest echoes.",
+    "claim_ids": [
+      "kodama-spirit-c01",
+      "kodama-spirit-c02",
+      "kodama-spirit-c06"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Dalam cerita rakyat Jepang, kodama dipahami sebagai roh yang berdiam di pohon tua. Pohon yang dianggap berpenghuni roh itu diperlakukan dengan hormat; sebagian diberi tali suci shimenawa, dan penebangannya dikhawatirkan membangkitkan roh yang marah. Gagasan ini muncul dalam pembahasan hubungan pohon, agama, dan cerita rakyat Jepang.",
+      "en": "In Japanese folklore, kodama are spirits thought to dwell in old trees. Trees believed to house such spirits were treated with respect; some were marked with sacred shimenawa ropes, and felling them was feared to anger a spirit. The idea appears in accounts of the place of trees in Japanese religion and folklore.",
+      "claim_ids": [
+        "kodama-spirit-c01",
+        "kodama-spirit-c02",
+        "kodama-spirit-c03",
+        "kodama-spirit-c04"
+      ]
+    },
+    {
+      "id": "Nama kodama juga terkait dengan gema. Sebuah karya seni interaktif di Jepang menggambarkan kodama sebagai roh hutan yang tidak terlihat dan menjadikan suara pengunjung terdengar kembali sebagai gema. Pembahasan akademik menyebut suatu kami pohon dalam liturgi Engishiki dengan istilah kodama; ini memperlihatkan pemakaian lama istilah roh pohon, tanpa menyamakan kami tersebut dengan setiap kodama dalam cerita rakyat.",
+      "en": "The name kodama is also associated with echoes. A Japanese interactive artwork portrays kodama as unseen forest spirits and turns visitors’ voices into echoes. A scholarly discussion describes a particular tree kami in an Engishiki liturgy as a kodama; this shows an older use of the term tree spirit without identifying that kami with every folkloric kodama.",
+      "claim_ids": [
+        "kodama-spirit-c05",
+        "kodama-spirit-c06",
+        "kodama-spirit-c07"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "kodama-spirit-s1",
+      "url": "https://arboretum.harvard.edu/arnoldia-stories/eternal-forests-the-veneration-of-old-trees-in-japan/",
+      "title": "Eternal Forests: The Veneration of Old Trees in Japan",
+      "author": "Glenn Moore and Cassandra Atherton",
+      "publisher": "Arnoldia, Arnold Arboretum of Harvard University",
+      "published": "2020-05-18",
+      "language": "en",
+      "type": "journal-article",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "kodama-spirit-s2",
+      "url": "https://www.ntticc.or.jp/en/archive/works/kodama-mischievous-echoes/",
+      "title": "KODAMA — mischievous echoes",
+      "author": null,
+      "publisher": "NTT InterCommunication Center",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "kodama-spirit-s3",
+      "url": "https://www2.kokugakuin.ac.jp/ijcc/wp/cpjr/kami/ito.html",
+      "title": "Evolution of the Concept of Kami",
+      "author": "Ito Mikiharu",
+      "publisher": "Kokugakuin University",
+      "published": null,
+      "language": "en",
+      "type": "journal-article",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "kodama-spirit-c01",
+      "source_id": "kodama-spirit-s1",
+      "quote": "These tree spirits are known as kodama, and according to Japanese folklore, the kodama give the tree a personality.",
+      "locator": "Page 26",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam cerita rakyat Jepang, kodama adalah roh pohon yang dipercaya memberi pohon suatu kepribadian.",
+        "en": "In Japanese folklore, kodama are tree spirits believed to give trees personality."
+      }
+    },
+    {
+      "id": "kodama-spirit-c02",
+      "source_id": "kodama-spirit-s1",
+      "quote": "which holds that spirits inhabit trees that reach one hundred years of age.",
+      "locator": "Page 26",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Roh pohon dikaitkan dengan pohon yang telah berusia seratus tahun.",
+        "en": "Tree spirits are associated with trees that have reached a hundred years of age."
+      }
+    },
+    {
+      "id": "kodama-spirit-c03",
+      "source_id": "kodama-spirit-s1",
+      "quote": "In fact, they were marked with a sacred rope called a shimenawa",
+      "locator": "Page 26",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pohon tua yang dihormati dapat ditandai dengan tali suci shimenawa.",
+        "en": "Venerated old trees could be marked with sacred shimenawa rope."
+      }
+    },
+    {
+      "id": "kodama-spirit-c04",
+      "source_id": "kodama-spirit-s1",
+      "quote": "if anyone chopped down the tree, they would have to deal with an angry spirit.",
+      "locator": "Page 26",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Menebang pohon semacam itu dipercaya dapat membangkitkan roh yang marah.",
+        "en": "Cutting such a tree was believed to bring an angry spirit."
+      }
+    },
+    {
+      "id": "kodama-spirit-c05",
+      "source_id": "kodama-spirit-s2",
+      "quote": "KODAMA are the tree spirits that live in the forest. They are invisible to human eyes",
+      "locator": "Outline",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sebuah karya seni di Jepang menggambarkan kodama sebagai roh hutan yang tidak terlihat.",
+        "en": "A Japanese artwork presents kodama as unseen forest spirits."
+      }
+    },
+    {
+      "id": "kodama-spirit-c06",
+      "source_id": "kodama-spirit-s2",
+      "quote": "Next, visitors hear the echo (also pronounced kodama in Japanese) of the voices in the forest even though there is no one there.",
+      "locator": "Outline",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Karya seni tersebut menghubungkan nama kodama dengan gema suara dalam hutan.",
+        "en": "The artwork connects the name kodama with echoes of voices in the forest."
+      }
+    },
+    {
+      "id": "kodama-spirit-c07",
+      "source_id": "kodama-spirit-s3",
+      "quote": "the former is described as a kodama (tree spirit), while the latter is called an inadama.",
+      "locator": "Section 2",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam liturgi Engishiki, satu kami pohon disebut kodama.",
+        "en": "In an Engishiki liturgy, a particular tree kami is called a kodama."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "namazu",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Namazu",
+    "native_name": null,
+    "display_name": {
+      "id": "Namazu",
+      "en": "Namazu"
+    },
+    "wikidata_qid": "Q257275",
+    "claim_ids": [
+      "namazu-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "makhluk legenda",
+    "claim_ids": [
+      "namazu-c01"
+    ]
+  },
+  "classification": {
+    "value": "legendary-creature",
+    "claim_ids": [
+      "namazu-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "namazu-c01",
+      "namazu-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "namazu-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Namazu adalah ikan lele raksasa dalam legenda Jepang yang gerakannya dipercaya menyebabkan gempa bumi.",
+    "en": "Namazu is a giant catfish in Japanese legend whose movements were believed to cause earthquakes.",
+    "claim_ids": [
+      "namazu-c01",
+      "namazu-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Legenda Jepang menggambarkan namazu sebagai ikan lele besar yang hidup di bawah tanah atau di bawah kepulauan Jepang. Gerakannya dipercaya menyebabkan gempa bumi. Dalam satu gambaran, batu besar di Kuil Kashima menahannya di bawah tanah; cetakan lain menampilkan dewa Kashima, batu kaname-ishi, dan ikan tersebut sebagai lambang perlindungan dari gempa.",
+      "en": "Japanese legend depicts namazu as a large catfish living underground or beneath the islands of Japan. Its movements were believed to cause earthquakes. In one image, a great stone at Kashima Shrine pins it below ground; other prints show the god Kashima, the kaname-ishi stone, and the fish as symbols of protection from earthquakes.",
+      "claim_ids": [
+        "namazu-c01",
+        "namazu-c02",
+        "namazu-c03",
+        "namazu-c04"
+      ]
+    },
+    {
+      "id": "Sesudah gempa Ansei Edo pada 11 November 1855, banyak cetakan warna namazu-e beredar di Edo. Gambar-gambar itu sering memanusiakan lele dan menghadirkan tokoh seperti dewa, pengrajin, dan penduduk kota. Ada cetakan yang memperlihatkan korban gempa menghukum lele, sedangkan sebagian lain menyindir pihak yang memperoleh penghasilan dari pembangunan kembali. Dengan demikian, namazu menjadi tokoh dalam tanggapan budaya terhadap bencana itu.",
+      "en": "After the Ansei Edo earthquake of November 11, 1855, many colored namazu-e prints circulated in Edo. They often humanized the catfish and included figures such as gods, craftspeople, and townspeople. Some pictures show earthquake victims punishing the fish, while others satirize people who profited from rebuilding. Namazu thus became a figure in cultural responses to the disaster.",
+      "claim_ids": [
+        "namazu-c05",
+        "namazu-c06",
+        "namazu-c07",
+        "namazu-c08",
+        "namazu-c09"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "namazu-s1",
+      "url": "https://www.rijksmuseum.nl/en/collection/object/Aardbevingsvis-namazu--0da4a81199e59f8097ca6861317ecf97",
+      "title": "Earthquake Fish (Namazu)",
+      "author": null,
+      "publisher": "Rijksmuseum",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "namazu-s2",
+      "url": "https://digital.archives.caltech.edu/collections/Images/FA-PR-0003/",
+      "title": "Namazu-e (catfish print)",
+      "author": null,
+      "publisher": "Caltech Archives",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "namazu-s3",
+      "url": "https://www.ndl.go.jp/en/imagebank/theme/namazue",
+      "title": "Namazu-e (Catfish prints)",
+      "author": null,
+      "publisher": "National Diet Library of Japan",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "namazu-s4",
+      "url": "https://jpsearch.go.jp/en/gallery/ndl-RnbOwdoBANn",
+      "title": "Namazu (Catfish)",
+      "author": null,
+      "publisher": "Japan Search",
+      "published": "2026-03-04",
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "namazu-c01",
+      "source_id": "namazu-s1",
+      "quote": "This catfish represents the namazu: a mythical fish that, according to legend, lies under the islands of Japan and causes earthquakes.",
+      "locator": "Object description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Namazu adalah ikan mitos yang menurut legenda berada di bawah kepulauan Jepang dan menyebabkan gempa.",
+        "en": "Namazu is a mythical fish said to lie beneath Japan and cause earthquakes."
+      }
+    },
+    {
+      "id": "namazu-c02",
+      "source_id": "namazu-s2",
+      "quote": "According to Japanese legend, earthquakes were caused by the movements of a monster catfish that lived under the island of Japan.",
+      "locator": "Abstract",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam legenda Jepang, gerakan lele raksasa di bawah Jepang dipercaya menyebabkan gempa.",
+        "en": "Japanese legend attributes earthquakes to the movements of a giant catfish below Japan."
+      }
+    },
+    {
+      "id": "namazu-c03",
+      "source_id": "namazu-s2",
+      "quote": "Here the monster Namazu (is lifting up the great stone of the Kashima Shrine by which it has been fixed under the ground for a long time.",
+      "locator": "Abstract",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Satu cetakan menggambarkan Namazu di bawah batu besar Kuil Kashima.",
+        "en": "One print depicts Namazu beneath a great stone of Kashima Shrine."
+      }
+    },
+    {
+      "id": "namazu-c04",
+      "source_id": "namazu-s4",
+      "quote": "During the Edo era, a belief became widespread in mainstream society that a huge catfish called Ohnamazu lived in the mud, under the islands of Japan, and was the cause of earthquakes.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pada zaman Edo keyakinan tentang lele besar Ōnamazu di bawah Jepang tersebar luas.",
+        "en": "Belief in the huge underground catfish Ōnamazu was widespread in the Edo period."
+      }
+    },
+    {
+      "id": "namazu-c05",
+      "source_id": "namazu-s3",
+      "quote": "The term generally refers to prints published after the Ansei Edo earthquake, which struck Edo on the night of the 2nd day of the 10th month of Ansei 2 (November 11, 1855).",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Cetakan namazu-e terutama muncul setelah gempa Ansei Edo pada 11 November 1855.",
+        "en": "Namazu-e prints mainly appeared after the Ansei Edo earthquake of November 11, 1855."
+      }
+    },
+    {
+      "id": "namazu-c06",
+      "source_id": "namazu-s3",
+      "quote": "Many works anthropomorphize the catfish, and recurring motifs include oni (demons), Ebisu, Daikokuten, craftsmen, foundation stone, gourds, sacred horses, and Kashima Daimyojin.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Cetakan namazu-e sering memanusiakan lele dan menampilkan dewa, pengrajin, serta batu.",
+        "en": "Namazu-e often anthropomorphize the fish and show gods, craftsmen, and stones."
+      }
+    },
+    {
+      "id": "namazu-c07",
+      "source_id": "namazu-s4",
+      "quote": "These paintings often show images of catfish being scolded and attacked by gods and townspeople, or eaten as kabayaki",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sebagian gambar menunjukkan lele dihukum oleh dewa dan penduduk kota.",
+        "en": "Some prints depict gods and townspeople punishing the catfish."
+      }
+    },
+    {
+      "id": "namazu-c08",
+      "source_id": "namazu-s4",
+      "quote": "People who profited from the post-disaster restoration, such as carpenters, plasterers, lumber traders, firefighters, and kawaraban (newspaper) sellers who distributed flash reports about the earthquake, were often drawn into the Ukiyo-e pictures.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Gambar juga menampilkan orang yang mendapat penghasilan dari pemulihan setelah gempa.",
+        "en": "Prints also show people who profited from rebuilding after the earthquake."
+      }
+    },
+    {
+      "id": "namazu-c09",
+      "source_id": "namazu-s2",
+      "quote": "These imaginative and sometimes brutal depictions served as a unique source of information and reassurance to the local population.",
+      "locator": "Abstract",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Cetakan tersebut menjadi bagian dari tanggapan penduduk terhadap bencana.",
+        "en": "The prints formed part of local responses to the disaster."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "nekomata",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Nekomata",
+    "native_name": null,
+    "display_name": {
+      "id": "Nekomata",
+      "en": "Nekomata"
+    },
+    "wikidata_qid": "Q1975114",
+    "claim_ids": [
+      "nekomata-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "nekomata-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "nekomata-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "nekomata-c01",
+      "nekomata-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "nekomata-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Nekomata adalah yōkai kucing dalam cerita rakyat Jepang yang biasanya digambarkan memiliki ekor bercabang dua.",
+    "en": "Nekomata is a cat yōkai in Japanese folklore usually depicted with a tail split in two.",
+    "claim_ids": [
+      "nekomata-c01",
+      "nekomata-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Nekomata adalah yōkai yang dikisahkan berasal dari kucing tua atau besar. Ciri yang sering disebut ialah ekor bercabang dua. Dalam sebagian kisah ia berjalan dengan dua kaki, berbicara seperti manusia, dan mengganggu orang. Ada pula tradisi yang menempatkannya sebagai makhluk pegunungan berbahaya. Gambaran ini menunjukkan bahwa kisah nekomata tidak hanya tentang kucing peliharaan di rumah.",
+      "en": "Nekomata are yōkai said to arise from old or large cats. A familiar sign is a tail divided in two. Some accounts have them walk on two legs, speak human language, and cause mischief. Other traditions place them among dangerous mountain creatures. The stories therefore extend beyond household cats.",
+      "claim_ids": [
+        "nekomata-c01",
+        "nekomata-c02",
+        "nekomata-c03",
+        "nekomata-c04"
+      ]
+    },
+    {
+      "id": "Dalam seni Jepang, nekomata tampil sebagai kucing berekor bercabang yang menari pada dua kaki, termasuk dalam gambar Toriyama Sekien. Sebuah kajian koleksi seni mengingatkan bahwa batas antara nekomata dan bakeneko sering kabur. Satu kisah daerah Nakanomata di Niigata menuturkan seorang penduduk mengalahkan nekomata, sedangkan legenda Gunung Nekomata di Toyama mengisahkan makhluk yang menyerang manusia. Beragam contoh ini menunjukkan perkembangan penggambarannya dalam seni dan cerita setempat.",
+      "en": "In Japanese art, nekomata appear as fork-tailed cats dancing on two legs, including in images by Toriyama Sekien. A study of an art collection notes that the boundary between nekomata and bakeneko is often unclear. A Niigata story tells of a villager defeating a nekomata, while a Toyama mountain legend tells of a creature that attacked people. These examples show their varied roles in art and local stories.",
+      "claim_ids": [
+        "nekomata-c05",
+        "nekomata-c06",
+        "nekomata-c07",
+        "nekomata-c08",
+        "nekomata-c09"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "nekomata-s1",
+      "url": "https://bakemono.lib.byu.edu/yokai/nekomata/",
+      "title": "Nekomata",
+      "author": "Sayaka Herrera",
+      "publisher": "Brigham Young University Library",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "nekomata-s2",
+      "url": "https://fukusakikankou.jp/en/yokai-bench-en/nekomata-2/",
+      "title": "Nekomata",
+      "author": null,
+      "publisher": "Fukusaki Town Tourism Association",
+      "published": "2025-01-09",
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "nekomata-s3",
+      "url": "https://glam.uoregon.edu/yokaisenjafuda/page/cats",
+      "title": "Cats",
+      "author": null,
+      "publisher": "University of Oregon Libraries",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "nekomata-s4",
+      "url": "https://www.nippon.com/en/japan-topics/g01054/",
+      "title": "Waneko Studies: A Journey into Japan’s Cat Lore",
+      "author": "Kimie Itakura",
+      "publisher": "Nippon.com",
+      "published": "2021-04-23",
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "nekomata-c01",
+      "source_id": "nekomata-s1",
+      "quote": "Nekomata (ねこまた) are Japanese yōkai said to have transformed from old and large cats.",
+      "locator": "Nekomata",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Nekomata adalah yōkai Jepang yang menurut cerita berasal dari kucing tua atau besar.",
+        "en": "Nekomata are Japanese yōkai said to transform from old or large cats."
+      }
+    },
+    {
+      "id": "nekomata-c02",
+      "source_id": "nekomata-s1",
+      "quote": "their tails split down the middle into two identical tails.",
+      "locator": "Nekomata",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ekor nekomata digambarkan terbelah menjadi dua.",
+        "en": "Nekomata tails are depicted as splitting in two."
+      }
+    },
+    {
+      "id": "nekomata-c03",
+      "source_id": "nekomata-s1",
+      "quote": "speaking human languages as well as walking on their rear legs, causing mischief.",
+      "locator": "Nekomata",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Nekomata dikisahkan dapat berbicara, berjalan pada kaki belakang, dan mengganggu orang.",
+        "en": "Nekomata are said to speak, walk on their hind legs, and cause mischief."
+      }
+    },
+    {
+      "id": "nekomata-c04",
+      "source_id": "nekomata-s2",
+      "quote": "Some believe it is a mountain beast, and it is known to sometimes attack humans.",
+      "locator": "Nekomata",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sebagian kisah menyebut nekomata sebagai makhluk gunung yang menyerang manusia.",
+        "en": "Some stories describe nekomata as mountain beasts that attack people."
+      }
+    },
+    {
+      "id": "nekomata-c05",
+      "source_id": "nekomata-s3",
+      "quote": "One sign of this, evidently, was dancing madly on two legs—this is how the nekomata is depicted in Toriyama Sekien’s Gazu hyakki yagyō",
+      "locator": "Cats",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Seni Toriyama Sekien menggambarkan nekomata menari dengan dua kaki.",
+        "en": "Toriyama Sekien’s art depicts nekomata dancing on two legs."
+      }
+    },
+    {
+      "id": "nekomata-c06",
+      "source_id": "nekomata-s3",
+      "quote": "While the distinction between bakeneko and nekomata is seldom clear",
+      "locator": "Cats",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Perbedaan bakeneko dan nekomata dalam sumber seni sering tidak jelas.",
+        "en": "The distinction between bakeneko and nekomata is often unclear."
+      }
+    },
+    {
+      "id": "nekomata-c07",
+      "source_id": "nekomata-s4",
+      "quote": "In the village of Nakanomata in Niigata Prefecture, there is a famous story about a strong villager, Ushiki Kichijūrō, who was able to defeat a feline yōkai called nekomata.",
+      "locator": "Legends of Old Yasaburō and the Nekomata",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kisah Nakanomata menuturkan Ushiki Kichijūrō mengalahkan nekomata.",
+        "en": "A Nakanomata tale says Ushiki Kichijūrō defeated a nekomata."
+      }
+    },
+    {
+      "id": "nekomata-c08",
+      "source_id": "nekomata-s4",
+      "quote": "There is a legend connected to Mount Nekomata in Toyama Prefecture’s Kurobe gorge.",
+      "locator": "Legends of Old Yasaburō and the Nekomata",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ada legenda tentang nekomata di Gunung Nekomata, Toyama.",
+        "en": "A nekomata legend is associated with Mount Nekomata in Toyama."
+      }
+    },
+    {
+      "id": "nekomata-c09",
+      "source_id": "nekomata-s4",
+      "quote": "It began causing trouble, even eating the local people.",
+      "locator": "Legends of Old Yasaburō and the Nekomata",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam legenda Gunung Nekomata, makhluk itu memangsa penduduk setempat.",
+        "en": "In that mountain legend, the creature preys on local people."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "ninigi",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Ninigi",
+    "native_name": null,
+    "display_name": {
+      "id": "Ninigi",
+      "en": "Ninigi"
+    },
+    "wikidata_qid": "Q1056017",
+    "claim_ids": [
+      "ninigi-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "ninigi-c01"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "ninigi-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "ninigi-c01",
+      "ninigi-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "ninigi-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Ninigi adalah kami cucu Amaterasu yang dalam mitologi Jepang turun dari langit untuk memerintah dunia manusia.",
+    "en": "Ninigi is Amaterasu’s kami grandson who descends from heaven to rule the human world in Japanese mythology.",
+    "claim_ids": [
+      "ninigi-c01",
+      "ninigi-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Ninigi adalah cucu Amaterasu. Kisah turunnya kami itu menggambarkan perjalanan dari Takamanohara menuju wilayah Takachiho untuk memerintah negeri di bumi. Ayahnya, Oshihomimi, semula diperintahkan turun, tetapi Ninigi menggantikannya. Amaterasu dan Takamimusuhi membekalinya dengan lima kami pengiring serta pedang, cermin, dan permata.",
+      "en": "Ninigi is Amaterasu’s grandson. His descent story describes a journey from Takamanohara toward Takachiho to rule the earthly realm. His father, Oshihomimi, was first ordered to descend, but Ninigi went in his place. Amaterasu and Takamimusuhi furnished him with five attendant kami and a sword, mirror, and jewel.",
+      "claim_ids": [
+        "ninigi-c01",
+        "ninigi-c02",
+        "ninigi-c03",
+        "ninigi-c04",
+        "ninigi-c05"
+      ]
+    },
+    {
+      "id": "Satu penjelasan daerah menempatkan tempat turunnya rombongan Ninigi di Kushifurutake, Takachiho. Tiga pusaka yang dibawanya kemudian dikenal sebagai regalia kekaisaran Jepang. Kuil Kushifuru didirikan di gunung yang dianggap tempat kedatangannya pada 1694. Kisah setempat lain menyebut kabut menghalangi rombongan; setelah Ninigi menaburkan butir padi, kabut itu menghilang. Dalam silsilah mitologis, cicit Ninigi menjadi kaisar pertama Jepang.",
+      "en": "One local account places Ninigi’s procession at Kushifurutake in Takachiho. The three treasures he brought later became Japan’s imperial regalia. Kushifuru Shrine was established on the mountain believed to mark his arrival in 1694. Another local tale says fog blocked the procession until Ninigi scattered rice grains. In the mythic genealogy, Ninigi’s great-grandson becomes Japan’s first emperor.",
+      "claim_ids": [
+        "ninigi-c06",
+        "ninigi-c07",
+        "ninigi-c08",
+        "ninigi-c09",
+        "ninigi-c10"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "ninigi-s1",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9355",
+      "title": "Ninigi",
+      "author": "Mori Mizue and Yumiyama Tatsuya",
+      "publisher": "Encyclopedia of Shinto, Kokugakuin University",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "ninigi-s2",
+      "url": "https://www.mlit.go.jp/tagengo-db/en/H30-01335.html",
+      "title": "Mythological Tale: Tenson Korin",
+      "author": null,
+      "publisher": "Japan Tourism Agency",
+      "published": null,
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "ninigi-c01",
+      "source_id": "ninigi-s1",
+      "quote": "The kami who, as grandchild of Amaterasu ōmikami, descended",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ninigi adalah kami cucu Amaterasu yang turun dari langit.",
+        "en": "Ninigi is a kami and grandchild of Amaterasu who descends from heaven."
+      }
+    },
+    {
+      "id": "ninigi-c02",
+      "source_id": "ninigi-s1",
+      "quote": "from the Plain of High Heaven (Takamanohara) to the peak of Takachiho in Hyūga of Tsukushi (present-day Kyushu) to rule over the \"Central Land of Reed Plains\"",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ninigi turun dari Takamanohara ke Takachiho untuk memerintah negeri di bumi.",
+        "en": "Ninigi descends from Takamanohara to Takachiho to rule the earthly land."
+      }
+    },
+    {
+      "id": "ninigi-c03",
+      "source_id": "ninigi-s1",
+      "quote": "Ninigi's father Oshihomimi was first commanded to descend and rule the Central Land of Reed Plains",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Oshihomimi, ayah Ninigi, semula ditugaskan turun dan memerintah.",
+        "en": "Ninigi’s father Oshihomimi was first commanded to descend and rule."
+      }
+    },
+    {
+      "id": "ninigi-c04",
+      "source_id": "ninigi-s1",
+      "quote": "Ninigi descended in place of his father Oshihomimi.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ninigi turun menggantikan ayahnya.",
+        "en": "Ninigi descended in his father’s place."
+      }
+    },
+    {
+      "id": "ninigi-c05",
+      "source_id": "ninigi-s1",
+      "quote": "Furnished by Amaterasu and Takamimusuhi with five retainer kami, as well as with the symbolic sword, mirror and jewel",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Amaterasu dan Takamimusuhi membekali Ninigi dengan lima kami pengiring serta pedang, cermin, dan permata.",
+        "en": "Amaterasu and Takamimusuhi supplied five attendant kami and the sword, mirror, and jewel."
+      }
+    },
+    {
+      "id": "ninigi-c06",
+      "source_id": "ninigi-s2",
+      "quote": "It is written that Ninigi and his procession made their way through the heavens and descended at “Kushifurutake of Takachiho.”",
+      "locator": "English overview",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Satu kisah menempatkan turunnya rombongan Ninigi di Kushifurutake, Takachiho.",
+        "en": "One account places Ninigi’s descent at Kushifurutake in Takachiho."
+      }
+    },
+    {
+      "id": "ninigi-c07",
+      "source_id": "ninigi-s2",
+      "quote": "These three treasures would later become the Imperial Regalia of Japan.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tiga pusaka Ninigi kemudian menjadi regalia kekaisaran Jepang.",
+        "en": "Ninigi’s three treasures later became Japan’s imperial regalia."
+      }
+    },
+    {
+      "id": "ninigi-c08",
+      "source_id": "ninigi-s2",
+      "quote": "Kushifuru Shine, which venerates Ninigi, was built in 1694 upon the mountain where he and his procession are believed to have arrived.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kuil Kushifuru dibangun pada 1694 di gunung yang dipercaya sebagai tempat kedatangan Ninigi.",
+        "en": "Kushifuru Shrine was built in 1694 on the mountain believed to mark Ninigi’s arrival."
+      }
+    },
+    {
+      "id": "ninigi-c09",
+      "source_id": "ninigi-s2",
+      "quote": "They urged Ninigi to take rice from the stalks he held in his hand and scatter it over the land. Upon doing so, the fog lifted",
+      "locator": "English, The Origin of Takachiho",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam legenda setempat, Ninigi menaburkan padi dan kabut penghalang terangkat.",
+        "en": "In a local legend Ninigi scatters rice and the fog lifts."
+      }
+    },
+    {
+      "id": "ninigi-c10",
+      "source_id": "ninigi-s2",
+      "quote": "In Japanese mythology, Ninigi’s great-grandson becomes the first emperor of Japan",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam mitologi Jepang, cicit Ninigi menjadi kaisar pertama.",
+        "en": "In Japanese mythology Ninigi’s great-grandson becomes the first emperor."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
