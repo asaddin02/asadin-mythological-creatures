@@ -6311,3 +6311,2034 @@
 }
 ```
 
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-146",
+  "slug": "lagahoo",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Lagahoo",
+    "native_name": null,
+    "display_name": {
+      "id": "Lagahoo",
+      "en": "Lagahoo"
+    },
+    "wikidata_qid": "Q6471488",
+    "claim_ids": [
+      "lagahoo-c01"
+    ]
+  },
+  "alternate_names": [
+    {
+      "name": "Lugarhou",
+      "language": "en",
+      "name_type": "alias",
+      "claim_ids": [
+        "lagahoo-c01"
+      ]
+    }
+  ],
+  "jenis": {
+    "value": "pengubah wujud",
+    "claim_ids": [
+      "lagahoo-c01"
+    ]
+  },
+  "classification": {
+    "value": "shapeshifter",
+    "claim_ids": [
+      "lagahoo-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-caribbean",
+    "suggested_new": null,
+    "claim_ids": [
+      "lagahoo-c01"
+    ]
+  },
+  "region": {
+    "value": "central-america",
+    "claim_ids": [
+      "lagahoo-c01"
+    ]
+  },
+  "countries": {
+    "value": [
+      "Trinidad and Tobago"
+    ],
+    "claim_ids": [
+      "lagahoo-c01"
+    ]
+  },
+  "era": null,
+  "habitats": [],
+  "disposition": {
+    "value": "malevolent",
+    "claim_ids": [
+      "lagahoo-c01"
+    ]
+  },
+  "traits": [
+    {
+      "value": "shapeshifter",
+      "claim_ids": [
+        "lagahoo-c04"
+      ]
+    },
+    {
+      "value": "nocturnal",
+      "claim_ids": [
+        "lagahoo-c02"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "Lagahoo adalah monster pengubah wujud dalam cerita rakyat Trinidad and Tobago yang berkeliaran pada malam hari tanpa kepala dengan peti mati di lehernya [lagahoo-c01, lagahoo-c02].",
+    "en": "The Lagahoo is a shapeshifting monster of Trinidad and Tobago folklore that roams at night headless, with a coffin on its neck [lagahoo-c01, lagahoo-c02].",
+    "claim_ids": [
+      "lagahoo-c01",
+      "lagahoo-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Lagahoo adalah monster pengubah wujud dalam cerita rakyat Trinidad and Tobago [lagahoo-c01]. Pada siang hari ia tampak seperti manusia, tetapi pada malam hari menjadi lelaki tanpa kepala dengan peti mati di lehernya [lagahoo-c02], dihiasi tiga lilin menyala dan rantai besi yang terseret [lagahoo-c03].",
+      "en": "The Lagahoo is a shapeshifting monster of Trinidad and Tobago folklore [lagahoo-c01]. Human by day, at night it becomes a headless man with a coffin on its neck [lagahoo-c02], topped by three lit candles, dragging an iron chain [lagahoo-c03].",
+      "claim_ids": [
+        "lagahoo-c01",
+        "lagahoo-c02",
+        "lagahoo-c03"
+      ]
+    },
+    {
+      "id": "Ia dapat berubah menjadi kuda, babi, kambing, atau makhluk mirip centaur [lagahoo-c04] serta mengubah ukurannya dalam sekejap [lagahoo-c05]. Untuk membunuhnya, ia harus dipukuli dengan tongkat yang diurapi air dan minyak suci selama sembilan hari [lagahoo-c06].",
+      "en": "It can become a horse, pig, goat or centaur-like creature [lagahoo-c04] and change its size in an instant [lagahoo-c05]. To kill it, one must beat it with a stick anointed with holy water and oil for nine days [lagahoo-c06].",
+      "claim_ids": [
+        "lagahoo-c04",
+        "lagahoo-c05",
+        "lagahoo-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": {
+    "who": {
+      "id": "Monster tanpa kepala pembawa peti mati.",
+      "en": "A headless monster carrying a coffin.",
+      "claim_ids": [
+        "lagahoo-c02"
+      ]
+    },
+    "origin": {
+      "id": "Cerita rakyat Trinidad and Tobago.",
+      "en": "Trinidad and Tobago folklore.",
+      "claim_ids": [
+        "lagahoo-c01"
+      ]
+    },
+    "role": null,
+    "famous_for": {
+      "id": "Tiga lilin menyala di atas peti matinya.",
+      "en": "Three lit candles on its coffin.",
+      "claim_ids": [
+        "lagahoo-c03"
+      ]
+    }
+  },
+  "did_you_know": null,
+  "abilities": [
+    {
+      "ability_id": "shapeshifting",
+      "name": {
+        "id": "Berubah wujud",
+        "en": "Shapeshifting"
+      },
+      "description": {
+        "id": "Berubah menjadi kuda, babi, kambing, atau makhluk mirip centaur.",
+        "en": "Becomes a horse, pig, goat or centaur-like creature."
+      },
+      "claim_ids": [
+        "lagahoo-c04"
+      ]
+    },
+    {
+      "ability_id": null,
+      "name": {
+        "id": "Mengubah ukuran",
+        "en": "Size change"
+      },
+      "description": {
+        "id": "Mengubah ukuran dari sangat kecil menjadi raksasa dalam sekejap.",
+        "en": "Changes from tiny to gigantic in an instant."
+      },
+      "claim_ids": [
+        "lagahoo-c05"
+      ]
+    }
+  ],
+  "weaknesses": [
+    {
+      "name": {
+        "id": "Tongkat yang diurapi",
+        "en": "Anointed stick"
+      },
+      "description": {
+        "id": "Dipukuli dengan tongkat yang diurapi air dan minyak suci selama sembilan hari.",
+        "en": "Beaten with a stick anointed with holy water and oil for nine days."
+      },
+      "claim_ids": [
+        "lagahoo-c06"
+      ]
+    }
+  ],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa makhluk pengubah wujud sering dikaitkan dengan malam hari?",
+      "en": "Why are shapeshifters often linked to the night?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "lagahoo-s1",
+      "url": "https://en.wikipedia.org/wiki/Lagahoo",
+      "title": "Lagahoo",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "lagahoo-c01",
+      "source_id": "lagahoo-s1",
+      "quote": "In the folklore of Trinidad and Tobago the Lagahoo or Lugarhou is a mythical shapeshifting monster.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam cerita rakyat Trinidad and Tobago, Lagahoo atau Lugarhou adalah monster mitos pengubah wujud.",
+        "en": "In the folklore of Trinidad and Tobago, the Lagahoo or Lugarhou is a mythical shapeshifting monster."
+      }
+    },
+    {
+      "id": "lagahoo-c02",
+      "source_id": "lagahoo-s1",
+      "quote": "It seems like a normal human by day, but this creature takes on the form of a man with no head, who roams the night with a wooden coffin on its neck.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Pada siang hari ia tampak seperti manusia biasa, tetapi pada malam hari menjadi lelaki tanpa kepala yang berkeliaran dengan peti mati kayu di lehernya.",
+        "en": "By day it seems human, but at night it becomes a headless man roaming with a wooden coffin on its neck."
+      }
+    },
+    {
+      "id": "lagahoo-c03",
+      "source_id": "lagahoo-s1",
+      "quote": "On top of the coffin are three lighted candles and the long loose end of a heavy iron chain, noosed around its waist, trails behind him.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Di atas peti itu ada tiga lilin menyala, dan rantai besi berat yang terikat di pinggangnya terseret di belakangnya.",
+        "en": "Three lit candles sit on the coffin, and a heavy iron chain tied at its waist trails behind."
+      }
+    },
+    {
+      "id": "lagahoo-c04",
+      "source_id": "lagahoo-s1",
+      "quote": "It can shapeshift into various animals, including horses, pigs or goats, and said to often take the form of a creature similar to a centaur",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia dapat berubah menjadi berbagai hewan seperti kuda, babi, atau kambing, dan sering berwujud mirip centaur.",
+        "en": "It can change into horses, pigs or goats and often takes a centaur-like form."
+      }
+    },
+    {
+      "id": "lagahoo-c05",
+      "source_id": "lagahoo-s1",
+      "quote": "The Lagahoo also possesses the ability to alter its size from tiny to gigantic in an instant.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Lagahoo juga dapat mengubah ukurannya dari sangat kecil menjadi raksasa dalam sekejap.",
+        "en": "The Lagahoo can change its size from tiny to gigantic in an instant."
+      }
+    },
+    {
+      "id": "lagahoo-c06",
+      "source_id": "lagahoo-s1",
+      "quote": "To kill the Lagahoo one must beat the creature with a stick which has been anointed with holy water and holy oil for nine days.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Untuk membunuhnya, Lagahoo harus dipukuli dengan tongkat yang telah diurapi air suci dan minyak suci selama sembilan hari.",
+        "en": "To kill it, one must beat it with a stick anointed with holy water and holy oil for nine days."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-146",
+  "slug": "letiche",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Letiche",
+    "native_name": null,
+    "display_name": {
+      "id": "Letiche",
+      "en": "Letiche"
+    },
+    "wikidata_qid": "Q6533497",
+    "claim_ids": [
+      "letiche-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "hantu",
+    "claim_ids": [
+      "letiche-c02"
+    ]
+  },
+  "classification": {
+    "value": "spirit",
+    "claim_ids": [
+      "letiche-c02"
+    ]
+  },
+  "culture": {
+    "value": "tradition-american",
+    "suggested_new": null,
+    "claim_ids": [
+      "letiche-c01"
+    ]
+  },
+  "region": {
+    "value": "north-america",
+    "claim_ids": [
+      "letiche-c01"
+    ]
+  },
+  "countries": {
+    "value": [
+      "United States"
+    ],
+    "claim_ids": [
+      "letiche-c01"
+    ]
+  },
+  "era": null,
+  "habitats": [
+    {
+      "value": "water",
+      "claim_ids": [
+        "letiche-c01"
+      ]
+    }
+  ],
+  "disposition": {
+    "value": "malevolent",
+    "claim_ids": [
+      "letiche-c03"
+    ]
+  },
+  "traits": [
+    {
+      "value": "water-associated",
+      "claim_ids": [
+        "letiche-c01"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "Letiche adalah makhluk penghantu rawa dalam cerita rakyat Cajun di Louisiana [letiche-c01].",
+    "en": "The letiche is a swamp-haunting creature of Cajun folklore in Louisiana [letiche-c01].",
+    "claim_ids": [
+      "letiche-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Letiche adalah makhluk dalam cerita rakyat Cajun di Louisiana yang menghantui bayou [letiche-c01]. Ia digambarkan sebagai jiwa bayi yang tidak dibaptis atau anak yang dibesarkan buaya aligator [letiche-c02], dan konon membalikkan perahu serta menyerang pelancong [letiche-c03].",
+      "en": "The letiche is a creature of Cajun folklore in Louisiana that haunts the bayous [letiche-c01]. It is described as the soul of an unbaptized infant or a child raised by alligators [letiche-c02], and is said to upset boats and attack travelers [letiche-c03].",
+      "claim_ids": [
+        "letiche-c01",
+        "letiche-c02",
+        "letiche-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Bagaimana lingkungan rawa memengaruhi cerita rakyat Cajun?",
+      "en": "How did the swamp environment shape Cajun folklore?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "letiche-s1",
+      "url": "https://en.wikipedia.org/wiki/Letiche",
+      "title": "Letiche",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "letiche-c01",
+      "source_id": "letiche-s1",
+      "quote": "The letiche is a creature in Cajun folklore in Louisiana, United States, which haunts the bayous (swamps).",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Letiche adalah makhluk dalam cerita rakyat Cajun di Louisiana, Amerika Serikat, yang menghantui bayou (rawa).",
+        "en": "The letiche is a creature of Cajun folklore in Louisiana, United States, that haunts the bayous (swamps)."
+      }
+    },
+    {
+      "id": "letiche-c02",
+      "source_id": "letiche-s1",
+      "quote": "It is variously described as the soul of an illegitimate unbaptized infant, or a human child raised by alligators.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia digambarkan sebagai jiwa bayi haram yang tidak dibaptis, atau anak manusia yang dibesarkan buaya aligator.",
+        "en": "It is described as the soul of an illegitimate unbaptized infant, or a child raised by alligators."
+      }
+    },
+    {
+      "id": "letiche-c03",
+      "source_id": "letiche-s1",
+      "quote": "The letiche is said to lurk in the bayous and upset boats and attack travelers.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Letiche konon mengintai di rawa, membalikkan perahu, dan menyerang pelancong.",
+        "en": "The letiche lurks in the bayous, upsetting boats and attacking travelers."
+      }
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": {
+        "id": "Asal-usul Letiche",
+        "en": "Origin of the letiche"
+      },
+      "positions": [
+        {
+          "summary": {
+            "id": "Jiwa bayi haram yang tidak dibaptis.",
+            "en": "The soul of an illegitimate unbaptized infant."
+          },
+          "claim_ids": [
+            "letiche-c02"
+          ]
+        },
+        {
+          "summary": {
+            "id": "Anak manusia yang dibesarkan buaya aligator.",
+            "en": "A human child raised by alligators."
+          },
+          "claim_ids": [
+            "letiche-c02"
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-146",
+  "slug": "madre-de-aguas",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Madre de aguas",
+    "native_name": null,
+    "display_name": {
+      "id": "Madre de Aguas",
+      "en": "Madre de Aguas"
+    },
+    "wikidata_qid": "Q6727883",
+    "claim_ids": [
+      "madre-de-aguas-c01"
+    ]
+  },
+  "alternate_names": [
+    {
+      "name": "Magüi",
+      "language": "es",
+      "name_type": "alias",
+      "claim_ids": [
+        "madre-de-aguas-c01"
+      ]
+    },
+    {
+      "name": "Mama Glo",
+      "language": "crp",
+      "name_type": "regional",
+      "claim_ids": [
+        "madre-de-aguas-c02"
+      ]
+    }
+  ],
+  "jenis": {
+    "value": "naga/ular mitos",
+    "claim_ids": [
+      "madre-de-aguas-c03"
+    ]
+  },
+  "classification": {
+    "value": "dragon",
+    "claim_ids": [
+      "madre-de-aguas-c03"
+    ]
+  },
+  "culture": {
+    "value": "tradition-caribbean",
+    "suggested_new": null,
+    "claim_ids": [
+      "madre-de-aguas-c01"
+    ]
+  },
+  "region": {
+    "value": "central-america",
+    "claim_ids": [
+      "madre-de-aguas-c01"
+    ]
+  },
+  "countries": null,
+  "era": {
+    "text": {
+      "id": "diceritakan sejak tahun 1600-an",
+      "en": "told since the 1600's"
+    },
+    "claim_ids": [
+      "madre-de-aguas-c03"
+    ]
+  },
+  "habitats": [
+    {
+      "value": "water",
+      "claim_ids": [
+        "madre-de-aguas-c05"
+      ]
+    }
+  ],
+  "disposition": null,
+  "traits": [
+    {
+      "value": "immortal",
+      "claim_ids": [
+        "madre-de-aguas-c06"
+      ]
+    },
+    {
+      "value": "water-associated",
+      "claim_ids": [
+        "madre-de-aguas-c05"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "Madre de aguas (\"ibu air\") adalah ular boa raksasa bertanduk dalam cerita rakyat Kuba yang menjaga sungai dan danau tetap berair [madre-de-aguas-c01, madre-de-aguas-c03, madre-de-aguas-c05].",
+    "en": "The Madre de aguas (\"Mother of water\") is a giant horned boa of Cuban folklore that keeps rivers and lakes from drying [madre-de-aguas-c01, madre-de-aguas-c03, madre-de-aguas-c05].",
+    "claim_ids": [
+      "madre-de-aguas-c01",
+      "madre-de-aguas-c03",
+      "madre-de-aguas-c05"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Madre de aguas atau Magüi adalah makhluk mitos cerita rakyat Kuba [madre-de-aguas-c01], dikenal pula sebagai Mama Glo, Mami Wata, atau Watramama [madre-de-aguas-c02]. Kisahnya diceritakan sejak tahun 1600-an: ular boa raksasa setebal pohon palem [madre-de-aguas-c03], bertonjolan seperti tanduk, dan bersisik tak tembus peluru [madre-de-aguas-c04].",
+      "en": "The Madre de aguas or Magüi is a mythical creature of Cuban folklore [madre-de-aguas-c01], also known as Mama Glo, Mami Wata or Watramama [madre-de-aguas-c02]. Told since the 1600s, she is a giant boa as thick as a palm tree [madre-de-aguas-c03] with horn-like projections and bullet-proof scales [madre-de-aguas-c04].",
+      "claim_ids": [
+        "madre-de-aguas-c01",
+        "madre-de-aguas-c02",
+        "madre-de-aguas-c03",
+        "madre-de-aguas-c04"
+      ]
+    },
+    {
+      "id": "Sungai dan danau yang dihuninya tidak pernah kering [madre-de-aguas-c05]. Ia tidak pernah mati, dan siapa pun yang mencoba membunuh atau menangkapnya akan mati [madre-de-aguas-c06].",
+      "en": "Rivers and lakes she inhabits never dry out [madre-de-aguas-c05]. She never dies, and whoever tries to kill or capture her dies [madre-de-aguas-c06].",
+      "claim_ids": [
+        "madre-de-aguas-c05",
+        "madre-de-aguas-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": {
+    "who": {
+      "id": "Ular boa raksasa bertanduk.",
+      "en": "A giant horned boa.",
+      "claim_ids": [
+        "madre-de-aguas-c03",
+        "madre-de-aguas-c04"
+      ]
+    },
+    "origin": {
+      "id": "Cerita rakyat Kuba.",
+      "en": "Cuban folklore.",
+      "claim_ids": [
+        "madre-de-aguas-c01"
+      ]
+    },
+    "role": {
+      "id": "Menjaga sungai dan danau tetap berair.",
+      "en": "Keeping rivers and lakes from drying.",
+      "claim_ids": [
+        "madre-de-aguas-c05"
+      ]
+    },
+    "famous_for": {
+      "id": "Tak pernah mati dan tak tembus peluru.",
+      "en": "Undying and bullet-proof.",
+      "claim_ids": [
+        "madre-de-aguas-c04",
+        "madre-de-aguas-c06"
+      ]
+    }
+  },
+  "did_you_know": null,
+  "abilities": [
+    {
+      "ability_id": "immortality",
+      "name": {
+        "id": "Abadi",
+        "en": "Immortality"
+      },
+      "description": {
+        "id": "Madre de aguas tidak pernah mati.",
+        "en": "She never dies."
+      },
+      "claim_ids": [
+        "madre-de-aguas-c06"
+      ]
+    }
+  ],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Mami Wata",
+      "relation_type": "associated",
+      "note": {
+        "id": "Nama yang dipakai untuknya di pulau lain.",
+        "en": "A name used for her on other islands."
+      },
+      "claim_ids": [
+        "madre-de-aguas-c02"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa ular sering dikaitkan dengan sumber air dalam mitologi?",
+      "en": "Why are serpents often linked to water sources in myth?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "madre-de-aguas-s1",
+      "url": "https://en.wikipedia.org/wiki/Madre_de_aguas",
+      "title": "Madre de aguas",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "madre-de-aguas-c01",
+      "source_id": "madre-de-aguas-s1",
+      "quote": "The Madre de aguas (Mother of water), also known as Magüi, is a mythical creature in the folklore of Cuba.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Madre de aguas (\"ibu air\"), juga dikenal sebagai Magüi, adalah makhluk mitos dalam cerita rakyat Kuba.",
+        "en": "The Madre de aguas (\"Mother of water\"), also known as Magüi, is a mythical creature of Cuban folklore."
+      }
+    },
+    {
+      "id": "madre-de-aguas-c02",
+      "source_id": "madre-de-aguas-s1",
+      "quote": "She goes by the name of Mama Glo in Creole Folklore, in other islands she is called Mami Wata as well as Watramama.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam cerita rakyat Kreol ia disebut Mama Glo, dan di pulau lain Mami Wata atau Watramama.",
+        "en": "In Creole folklore she is Mama Glo; on other islands she is Mami Wata or Watramama."
+      }
+    },
+    {
+      "id": "madre-de-aguas-c03",
+      "source_id": "madre-de-aguas-s1",
+      "quote": "The story was first told in the 1600's and says that the Madre de aguas is a giant boa snake very large and wide with the thickness of a palm tree",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Kisahnya pertama kali diceritakan pada tahun 1600-an: Madre de aguas adalah ular boa raksasa setebal pohon palem.",
+        "en": "The story, first told in the 1600's, says she is a giant boa as thick as a palm tree."
+      }
+    },
+    {
+      "id": "madre-de-aguas-c04",
+      "source_id": "madre-de-aguas-s1",
+      "quote": "has two extrusions similar to horns in the frontal region of her head, and is covered in scales thick and distributed inversely as present in other boa snakes, which is impenetrable to bullets.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia bertonjolan seperti dua tanduk di kepala dan bersisik tebal yang tak tembus peluru.",
+        "en": "She has two horn-like projections on her head and thick scales impenetrable to bullets."
+      }
+    },
+    {
+      "id": "madre-de-aguas-c05",
+      "source_id": "madre-de-aguas-s1",
+      "quote": "It is said that it inhabits rivers and lakes, which never dry out while it lives there.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia konon menghuni sungai dan danau, yang tidak pernah kering selama ia tinggal di sana.",
+        "en": "She inhabits rivers and lakes, which never dry while she lives there."
+      }
+    },
+    {
+      "id": "madre-de-aguas-c06",
+      "source_id": "madre-de-aguas-s1",
+      "quote": "Madre de aguas never dies, and anyone who tries to kill or capture it dies.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Madre de aguas tidak pernah mati, dan siapa pun yang mencoba membunuh atau menangkapnya akan mati.",
+        "en": "The Madre de aguas never dies, and anyone who tries to kill or capture her dies."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-146",
+  "slug": "midnight-beauty",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Midnight Beauty",
+    "native_name": null,
+    "display_name": {
+      "id": "Perempuan Tengah Malam (Mulher da meia-noite)",
+      "en": "Midnight Beauty (Mulher da meia-noite)"
+    },
+    "wikidata_qid": "Q10255095",
+    "claim_ids": [
+      "midnight-beauty-c01"
+    ]
+  },
+  "alternate_names": [
+    {
+      "name": "Mulher da meia-noite",
+      "language": "pt",
+      "name_type": "alias",
+      "claim_ids": [
+        "midnight-beauty-c01"
+      ]
+    },
+    {
+      "name": "Bela da Noite",
+      "language": "pt",
+      "name_type": "regional",
+      "claim_ids": [
+        "midnight-beauty-c03"
+      ]
+    },
+    {
+      "name": "A Mulher de branco",
+      "language": "pt",
+      "name_type": "regional",
+      "claim_ids": [
+        "midnight-beauty-c03"
+      ]
+    }
+  ],
+  "jenis": {
+    "value": "hantu",
+    "claim_ids": [
+      "midnight-beauty-c01"
+    ]
+  },
+  "classification": {
+    "value": "spirit",
+    "claim_ids": [
+      "midnight-beauty-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-brazilian",
+    "suggested_new": null,
+    "claim_ids": [
+      "midnight-beauty-c03"
+    ]
+  },
+  "region": {
+    "value": "south-america",
+    "claim_ids": [
+      "midnight-beauty-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "fields",
+      "claim_ids": [
+        "midnight-beauty-c06"
+      ]
+    }
+  ],
+  "disposition": {
+    "value": "malevolent",
+    "claim_ids": [
+      "midnight-beauty-c07"
+    ]
+  },
+  "traits": [],
+  "short_description": {
+    "id": "Mulher da meia-noite (\"perempuan tengah malam\") adalah hantu perempuan yang kisahnya paling beragam di Amerika Selatan [midnight-beauty-c01, midnight-beauty-c02].",
+    "en": "The mulher da meia-noite (\"midnight woman\") is a female ghost whose tales are most varied in South America [midnight-beauty-c01, midnight-beauty-c02].",
+    "claim_ids": [
+      "midnight-beauty-c01",
+      "midnight-beauty-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Mulher da meia-noite adalah hantu dalam cerita rakyat dunia [midnight-beauty-c01] yang kisahnya paling beragam di Amerika Selatan [midnight-beauty-c02]. Di Brasil ia disebut juga Bela da Noite atau A Mulher de branco [midnight-beauty-c03]; di Venezuela disebut La Sayona [midnight-beauty-c04] dan di Meksiko La Llorona [midnight-beauty-c05].",
+      "en": "The mulher da meia-noite is a ghost of world folklore [midnight-beauty-c01] whose tales are most varied in South America [midnight-beauty-c02]. In Brazil she is also Bela da Noite or A Mulher de branco [midnight-beauty-c03]; in Venezuela, La Sayona [midnight-beauty-c04]; in Mexico, La Llorona [midnight-beauty-c05].",
+      "claim_ids": [
+        "midnight-beauty-c01",
+        "midnight-beauty-c02",
+        "midnight-beauty-c03",
+        "midnight-beauty-c04",
+        "midnight-beauty-c05"
+      ]
+    },
+    {
+      "id": "Dalam salah satu versi Brasil, ia perempuan cantik yang meminta tumpangan kepada laki-laki [midnight-beauty-c06] dan membunuh yang berselingkuh [midnight-beauty-c07].",
+      "en": "In one Brazilian version she is a beautiful woman asking men for rides [midnight-beauty-c06] who kills those who betray their partners [midnight-beauty-c07].",
+      "claim_ids": [
+        "midnight-beauty-c06",
+        "midnight-beauty-c07"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [
+    {
+      "name": "La Sayona",
+      "tradition": {
+        "id": "Venezuela",
+        "en": "Venezuela"
+      },
+      "description": {
+        "id": "Nama untuknya di Venezuela.",
+        "en": "Her name in Venezuela."
+      },
+      "claim_ids": [
+        "midnight-beauty-c04"
+      ]
+    },
+    {
+      "name": "La Llorona",
+      "tradition": {
+        "id": "Meksiko",
+        "en": "Mexico"
+      },
+      "description": {
+        "id": "Nama untuknya di Meksiko.",
+        "en": "Her name in Mexico."
+      },
+      "claim_ids": [
+        "midnight-beauty-c05"
+      ]
+    }
+  ],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa kisah hantu perempuan di jalan muncul di banyak negara?",
+      "en": "Why do roadside female ghost stories appear in many countries?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "midnight-beauty-s1",
+      "url": "https://pt.wikipedia.org/wiki/Bela_da_meia-noite",
+      "title": "Bela da meia-noite",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "pt",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "midnight-beauty-c01",
+      "source_id": "midnight-beauty-s1",
+      "quote": "A mulher da meia-noite é um fantasma do folclore mundial.",
+      "locator": "Introdução",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Mulher da meia-noite (\"perempuan tengah malam\") adalah hantu dalam cerita rakyat dunia.",
+        "en": "The mulher da meia-noite (\"midnight woman\") is a ghost of world folklore."
+      }
+    },
+    {
+      "id": "midnight-beauty-c02",
+      "source_id": "midnight-beauty-s1",
+      "quote": "Sua história possui diversas variantes em várias partes do mundo, mas é na América do Sul que encontram relatos mais variados.",
+      "locator": "Introdução",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Kisahnya punya banyak varian di berbagai belahan dunia, dan kisah paling beragam ditemukan di Amerika Selatan.",
+        "en": "Her story has many variants worldwide, with the most varied accounts in South America."
+      }
+    },
+    {
+      "id": "midnight-beauty-c03",
+      "source_id": "midnight-beauty-s1",
+      "quote": "No Brasil, a Mulher da meia-noite também recebe os nomes de Bela (ou Dama) da Noite, A Mulher de branco",
+      "locator": "Versões",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Di Brasil ia juga disebut Bela (atau Dama) da Noite dan A Mulher de branco (\"perempuan berbaju putih\").",
+        "en": "In Brazil she is also called Bela (or Dama) da Noite and A Mulher de branco (\"the woman in white\")."
+      }
+    },
+    {
+      "id": "midnight-beauty-c04",
+      "source_id": "midnight-beauty-s1",
+      "quote": "Na Venezuela, é chamada de \"La Sayona\".",
+      "locator": "Versões",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Di Venezuela ia disebut \"La Sayona\".",
+        "en": "In Venezuela she is called \"La Sayona\"."
+      }
+    },
+    {
+      "id": "midnight-beauty-c05",
+      "source_id": "midnight-beauty-s1",
+      "quote": "No México recebeu o nome de \"La Llorona\"",
+      "locator": "Versões",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Di Meksiko ia dinamai \"La Llorona\".",
+        "en": "In Mexico she was named \"La Llorona\"."
+      }
+    },
+    {
+      "id": "midnight-beauty-c06",
+      "source_id": "midnight-beauty-s1",
+      "quote": "Uma bela jovem que aparece em estradas e pede carona para os homens.",
+      "locator": "Brasil",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Salah satu versi Brasil: perempuan muda cantik yang muncul di jalan dan meminta tumpangan kepada laki-laki.",
+        "en": "One Brazilian version: a beautiful young woman who appears on roads asking men for rides."
+      }
+    },
+    {
+      "id": "midnight-beauty-c07",
+      "source_id": "midnight-beauty-s1",
+      "quote": "Se ele realmente trair, ela poderá matá-lo; caso contrário, ela apenas irá feri-lo.",
+      "locator": "Brasil",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Jika laki-laki itu benar-benar berselingkuh, ia dapat membunuhnya; jika tidak, ia hanya melukainya.",
+        "en": "If the man truly betrays his partner she may kill him; otherwise she only wounds him."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Tidak ada artikel Wikipedia bahasa Inggris; dipakai artikel bahasa Portugis. Sumber akademik tidak ditemukan."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-146",
+  "slug": "mixtecatl",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Mixtecatl",
+    "native_name": null,
+    "display_name": {
+      "id": "Mixtecatl",
+      "en": "Mixtecatl"
+    },
+    "wikidata_qid": "Q6884082",
+    "claim_ids": [
+      "mixtecatl-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "raksasa",
+    "claim_ids": [
+      "mixtecatl-c01"
+    ]
+  },
+  "classification": {
+    "value": "giant",
+    "claim_ids": [
+      "mixtecatl-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-aztec",
+    "suggested_new": null,
+    "claim_ids": [
+      "mixtecatl-c01"
+    ]
+  },
+  "region": {
+    "value": "central-america",
+    "claim_ids": [
+      "mixtecatl-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Mixtecatl adalah salah satu dari enam raksasa putra Iztac-Mixcoatl dan Tlaltecuhtli dalam mitologi Aztek, pendiri Mixtlan [mixtecatl-c01, mixtecatl-c02].",
+    "en": "Mixtecatl is one of the six giant sons of Iztac-Mixcoatl and Tlaltecuhtli in Aztec mythology, founder of Mixtlan [mixtecatl-c01, mixtecatl-c02].",
+    "claim_ids": [
+      "mixtecatl-c01",
+      "mixtecatl-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Mixtecatl adalah salah satu dari enam raksasa putra Iztac-Mixcoatl dan Tlaltecuhtli yang menghuni Bumi setelah Air Bah [mixtecatl-c01]. Sebagai putra kelima, ia mendirikan Mixtlan, asal penduduk wilayah Mixteca [mixtecatl-c02].",
+      "en": "Mixtecatl is one of the six giant sons of Iztac-Mixcoatl and Tlaltecuhtli who populated the Earth after the Great Flood [mixtecatl-c01]. The fifth son, he founded Mixtlan, origin of the people of the Mixteca region [mixtecatl-c02].",
+      "claim_ids": [
+        "mixtecatl-c01",
+        "mixtecatl-c02"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": {
+    "original_form": "Mixtecatl",
+    "language": "Nahuatl",
+    "literal_meaning": {
+      "id": "penghuni negeri awan",
+      "en": "Inhabitant of the land of clouds"
+    },
+    "claim_ids": [
+      "mixtecatl-c01"
+    ]
+  },
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [
+    {
+      "name": {
+        "id": "Mixtlan",
+        "en": "Mixtlan"
+      },
+      "type": "city",
+      "description": {
+        "id": "Tempat yang didirikannya, asal penduduk Mixteca.",
+        "en": "The place he founded, origin of the Mixteca people."
+      },
+      "claim_ids": [
+        "mixtecatl-c02"
+      ]
+    }
+  ],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Iztac-Mixcoatl",
+      "relation_type": "parent",
+      "note": {
+        "id": "Ayahnya.",
+        "en": "His father."
+      },
+      "claim_ids": [
+        "mixtecatl-c01"
+      ]
+    },
+    {
+      "target_name": "Tlaltecuhtli",
+      "relation_type": "parent",
+      "note": {
+        "id": "Ibunya (dalam versi lain Ilancueitl).",
+        "en": "His mother (Ilancueitl in other versions)."
+      },
+      "claim_ids": [
+        "mixtecatl-c01"
+      ]
+    },
+    {
+      "target_name": "Xicalancatl",
+      "relation_type": "sibling",
+      "note": {
+        "id": "Saudaranya, sesama putra raksasa.",
+        "en": "His brother, another giant son."
+      },
+      "claim_ids": [
+        "mixtecatl-c01"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Bagaimana mitos leluhur raksasa menjelaskan asal-usul suatu bangsa?",
+      "en": "How do giant-ancestor myths explain a people's origin?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "mixtecatl-s1",
+      "url": "https://en.wikipedia.org/wiki/Mixtecatl",
+      "title": "Mixtecatl",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "mixtecatl-c01",
+      "source_id": "mixtecatl-s1",
+      "quote": "Mixtecatl (From Nahuatl, 'Inhabitant of the land of clouds') is one of the six giants sons of Iztac-Mixcoatl and Tlaltecuhtli or Ilancueitl that populated the Earth after the Great Flood during the Fifth Sun in Aztec mythology.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Mixtecatl adalah salah satu dari enam raksasa putra Iztac-Mixcoatl dan Tlaltecuhtli (atau Ilancueitl) yang menghuni Bumi setelah Air Bah pada masa Matahari Kelima dalam mitologi Aztek.",
+        "en": "Mixtecatl is one of the six giant sons of Iztac-Mixcoatl and Tlaltecuhtli (or Ilancueitl) who populated the Earth after the Great Flood in the Fifth Sun of Aztec mythology."
+      }
+    },
+    {
+      "id": "mixtecatl-c02",
+      "source_id": "mixtecatl-s1",
+      "quote": "The fifth son who founded Mixtlan from where the natives of the region known today as Mixteca come from.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia putra kelima yang mendirikan Mixtlan, asal penduduk wilayah yang kini disebut Mixteca.",
+        "en": "He was the fifth son, founder of Mixtlan, origin of the people of the region now called Mixteca."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-146",
+  "slug": "otomitl",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Otomitl",
+    "native_name": null,
+    "display_name": {
+      "id": "Otomitl",
+      "en": "Otomitl"
+    },
+    "wikidata_qid": "Q7109132",
+    "claim_ids": [
+      "otomitl-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "raksasa",
+    "claim_ids": [
+      "otomitl-c01"
+    ]
+  },
+  "classification": {
+    "value": "giant",
+    "claim_ids": [
+      "otomitl-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-aztec",
+    "suggested_new": null,
+    "claim_ids": [
+      "otomitl-c01"
+    ]
+  },
+  "region": {
+    "value": "central-america",
+    "claim_ids": [
+      "otomitl-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "mountain",
+      "claim_ids": [
+        "otomitl-c02"
+      ]
+    }
+  ],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Otomitl adalah putra bungsu dari enam raksasa putra Iztac-Mixcoatl dan Tlaltecuhtli dalam mitologi Aztek [otomitl-c01, otomitl-c02].",
+    "en": "Otomitl is the youngest of the six giant sons of Iztac-Mixcoatl and Tlaltecuhtli in Aztec mythology [otomitl-c01, otomitl-c02].",
+    "claim_ids": [
+      "otomitl-c01",
+      "otomitl-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Otomitl adalah salah satu dari enam raksasa putra Iztac-Mixcoatl dan Tlaltecuhtli yang menghuni Bumi setelah Air Bah [otomitl-c01]. Sebagai putra keenam, ia mendaki pegunungan dekat Mexico dan membangun Xilotepec, Tollan, dan Otompan [otomitl-c02].",
+      "en": "Otomitl is one of the six giant sons of Iztac-Mixcoatl and Tlaltecuhtli who populated the Earth after the Great Flood [otomitl-c01]. The sixth son, he climbed the mountains near Mexico and raised Xilotepec, Tollan and Otompan [otomitl-c02].",
+      "claim_ids": [
+        "otomitl-c01",
+        "otomitl-c02"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": {
+    "original_form": "Otomitl",
+    "language": "Nahuatl",
+    "literal_meaning": {
+      "id": "tulang rami, atau tempat orang Otomi berada",
+      "en": "Jute bone, or where the otomies are"
+    },
+    "claim_ids": [
+      "otomitl-c01"
+    ]
+  },
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [
+    {
+      "name": {
+        "id": "Tollan",
+        "en": "Tollan"
+      },
+      "type": "city",
+      "description": {
+        "id": "Salah satu permukiman yang dibangunnya.",
+        "en": "One of the settlements he raised."
+      },
+      "claim_ids": [
+        "otomitl-c02"
+      ]
+    }
+  ],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Iztac-Mixcoatl",
+      "relation_type": "parent",
+      "note": {
+        "id": "Ayahnya.",
+        "en": "His father."
+      },
+      "claim_ids": [
+        "otomitl-c01"
+      ]
+    },
+    {
+      "target_name": "Tlaltecuhtli",
+      "relation_type": "parent",
+      "note": {
+        "id": "Ibunya.",
+        "en": "His mother."
+      },
+      "claim_ids": [
+        "otomitl-c01"
+      ]
+    },
+    {
+      "target_name": "Mixtecatl",
+      "relation_type": "sibling",
+      "note": {
+        "id": "Saudaranya, sesama putra raksasa.",
+        "en": "His brother, another giant son."
+      },
+      "claim_ids": [
+        "otomitl-c01"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa kota-kota kuno sering dikaitkan dengan pendiri legendaris?",
+      "en": "Why are ancient cities often tied to legendary founders?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "otomitl-s1",
+      "url": "https://en.wikipedia.org/wiki/Otomitl",
+      "title": "Otomitl",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "otomitl-c01",
+      "source_id": "otomitl-s1",
+      "quote": "Otomitl (From Nahuatl, 'Jute bone' or 'Where the otomies are') is one of the six giants sons of Iztac-Mixcoatl and Tlaltecuhtli that populated the Earth after the Great Flood during the Fifth Sun in Aztec mythology.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Otomitl adalah salah satu dari enam raksasa putra Iztac-Mixcoatl dan Tlaltecuhtli yang menghuni Bumi setelah Air Bah pada masa Matahari Kelima dalam mitologi Aztek.",
+        "en": "Otomitl is one of the six giant sons of Iztac-Mixcoatl and Tlaltecuhtli who populated the Earth after the Great Flood in the Fifth Sun of Aztec mythology."
+      }
+    },
+    {
+      "id": "otomitl-c02",
+      "source_id": "otomitl-s1",
+      "quote": "The sixth son who climbed the mountains near Mexico, and raised the populations of Xilotepec, Tollan, and Otompan.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia putra keenam yang mendaki pegunungan dekat Mexico dan membangun permukiman Xilotepec, Tollan, dan Otompan.",
+        "en": "He was the sixth son, who climbed the mountains near Mexico and raised the settlements of Xilotepec, Tollan and Otompan."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-146",
+  "slug": "pincoy",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Pincoy",
+    "native_name": null,
+    "display_name": {
+      "id": "Pincoy",
+      "en": "Pincoy"
+    },
+    "wikidata_qid": "Q3079519",
+    "claim_ids": [
+      "pincoy-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "roh",
+    "claim_ids": [
+      "pincoy-c01"
+    ]
+  },
+  "classification": {
+    "value": "aquatic",
+    "claim_ids": [
+      "pincoy-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-chilote",
+    "suggested_new": null,
+    "claim_ids": [
+      "pincoy-c01"
+    ]
+  },
+  "region": {
+    "value": "south-america",
+    "claim_ids": [
+      "pincoy-c01"
+    ]
+  },
+  "countries": {
+    "value": [
+      "Chile"
+    ],
+    "claim_ids": [
+      "pincoy-c01"
+    ]
+  },
+  "era": null,
+  "habitats": [
+    {
+      "value": "water",
+      "claim_ids": [
+        "pincoy-c01"
+      ]
+    }
+  ],
+  "disposition": {
+    "value": "benevolent",
+    "claim_ids": [
+      "pincoy-c05"
+    ]
+  },
+  "traits": [
+    {
+      "value": "aquatic",
+      "claim_ids": [
+        "pincoy-c01"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "Pincoy adalah roh laut laki-laki dalam mitologi Chilote, putra Millalobo, yang lagunya memulai tarian kesuburan Pincoya [pincoy-c01, pincoy-c03, pincoy-c05].",
+    "en": "The Pincoy is a male sea spirit of Chilote mythology, son of Millalobo, whose song starts the Pincoya's fertility dance [pincoy-c01, pincoy-c03, pincoy-c05].",
+    "claim_ids": [
+      "pincoy-c01",
+      "pincoy-c03",
+      "pincoy-c05"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Pincoy adalah roh air laut laki-laki dalam mitologi Chilote [pincoy-c01]. Ia mirip manusia duyung bertubuh singa laut berwarna emas dan berwajah tampan [pincoy-c02]. Ia putra Millalobo dan Huenchula; saudarinya adalah Sirena chilota dan Pincoya, yang juga istrinya [pincoy-c03].",
+      "en": "The Pincoy is a male sea spirit of Chilote mythology [pincoy-c01]. He resembles a merman with a golden sea-lion body and a handsome face [pincoy-c02]. He is the son of Millalobo and Huenchula; his sisters are the Sirena chilota and the Pincoya, also his wife [pincoy-c03].",
+      "claim_ids": [
+        "pincoy-c01",
+        "pincoy-c02",
+        "pincoy-c03"
+      ]
+    },
+    {
+      "id": "Bersama saudarinya ia membawa orang mati dari laut ke Caleuche [pincoy-c04], dan lagunya membuat Pincoya memulai tarian gaib demi kesuburan laut [pincoy-c05].",
+      "en": "With his sisters he carries the dead from the sea to the Caleuche [pincoy-c04], and his song starts the Pincoya's magical dance for the sea's fertility [pincoy-c05].",
+      "claim_ids": [
+        "pincoy-c04",
+        "pincoy-c05"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": {
+    "who": {
+      "id": "Manusia duyung laki-laki berwarna emas.",
+      "en": "A golden merman.",
+      "claim_ids": [
+        "pincoy-c02"
+      ]
+    },
+    "origin": {
+      "id": "Mitologi Chilote.",
+      "en": "Chilote mythology.",
+      "claim_ids": [
+        "pincoy-c01"
+      ]
+    },
+    "role": {
+      "id": "Menyanyi agar Pincoya menari demi kesuburan laut.",
+      "en": "Singing so the Pincoya dances for the sea's fertility.",
+      "claim_ids": [
+        "pincoy-c05"
+      ]
+    },
+    "famous_for": null
+  },
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Millalobo",
+      "relation_type": "parent",
+      "note": {
+        "id": "Ayahnya, raja laut.",
+        "en": "His father, king of the seas."
+      },
+      "claim_ids": [
+        "pincoy-c03"
+      ]
+    },
+    {
+      "target_name": "Huenchula",
+      "relation_type": "parent",
+      "note": {
+        "id": "Ibunya, seorang manusia.",
+        "en": "His human mother."
+      },
+      "claim_ids": [
+        "pincoy-c03"
+      ]
+    },
+    {
+      "target_name": "Pincoya",
+      "relation_type": "spouse",
+      "note": {
+        "id": "Saudari sekaligus istrinya.",
+        "en": "His sister and wife."
+      },
+      "claim_ids": [
+        "pincoy-c03"
+      ]
+    },
+    {
+      "target_name": "Sirena chilota",
+      "relation_type": "sibling",
+      "note": {
+        "id": "Saudarinya.",
+        "en": "His sister."
+      },
+      "claim_ids": [
+        "pincoy-c03"
+      ]
+    },
+    {
+      "target_name": "Caleuche",
+      "relation_type": "associated",
+      "note": {
+        "id": "Kapal tujuan orang mati yang dibawanya.",
+        "en": "The ship to which he carries the dead."
+      },
+      "claim_ids": [
+        "pincoy-c04"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa peran musik dan tarian dalam mitologi laut Chilote?",
+      "en": "What role do music and dance play in Chilote sea mythology?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "pincoy-s1",
+      "url": "https://en.wikipedia.org/wiki/Pincoy",
+      "title": "Pincoy",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "pincoy-c01",
+      "source_id": "pincoy-s1",
+      "quote": "The Pincoy is a  male water spirit of the seas, belonging to the Chilote mythology of Chiloé, Chile.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Pincoy adalah roh air laut laki-laki dalam mitologi Chilote di Chiloé, Chile.",
+        "en": "The Pincoy is a male sea water spirit of Chilote mythology in Chiloé, Chile."
+      }
+    },
+    {
+      "id": "pincoy-c02",
+      "source_id": "pincoy-s1",
+      "quote": "It looks equivalent to a merman creature, his body would be like a large sea lion, colour bright golden, with handsome and manly human face and long golden hair, being magically attractive to the women.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia mirip manusia duyung laki-laki bertubuh seperti singa laut besar berwarna emas, berwajah tampan, berambut emas panjang, dan memikat perempuan secara gaib.",
+        "en": "He resembles a merman with a large golden sea-lion body, a handsome face and long golden hair, magically attractive to women."
+      }
+    },
+    {
+      "id": "pincoy-c03",
+      "source_id": "pincoy-s1",
+      "quote": "He is the son of Millalobo (mythical king of the seas of Chiloé) and the human Huenchula; his sisters, are the Sirena chilota and the Pincoya (which also is his wife).",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia putra Millalobo, raja laut, dan Huenchula, seorang manusia; saudarinya adalah Sirena chilota dan Pincoya, yang juga istrinya.",
+        "en": "He is the son of Millalobo, king of the seas, and the human Huenchula; his sisters are the Sirena chilota and the Pincoya, who is also his wife."
+      }
+    },
+    {
+      "id": "pincoy-c04",
+      "source_id": "pincoy-s1",
+      "quote": "With his sisters he carries the dead from the sea unto the Caleuche.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Bersama saudarinya ia membawa orang mati dari laut ke Caleuche.",
+        "en": "With his sisters he carries the dead from the sea to the Caleuche."
+      }
+    },
+    {
+      "id": "pincoy-c05",
+      "source_id": "pincoy-s1",
+      "quote": "he is responsible of singing a beautiful and strange song, so that the Pincoya start her magical dance, for fertility of the sea.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia menyanyikan lagu indah dan aneh agar Pincoya memulai tarian gaibnya demi kesuburan laut.",
+        "en": "He sings a beautiful, strange song so the Pincoya begins her magical dance for the fertility of the sea."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-146",
+  "slug": "qailertetang",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Qailertetang",
+    "native_name": null,
+    "display_name": {
+      "id": "Qailertetang",
+      "en": "Qailertetang"
+    },
+    "wikidata_qid": "Q7266588",
+    "claim_ids": [
+      "qailertetang-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "qailertetang-c01"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "qailertetang-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-inuit",
+    "suggested_new": null,
+    "claim_ids": [
+      "qailertetang-c01"
+    ]
+  },
+  "region": {
+    "value": "north-america",
+    "claim_ids": [
+      "qailertetang-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "water",
+      "claim_ids": [
+        "qailertetang-c02"
+      ]
+    }
+  ],
+  "disposition": {
+    "value": "benevolent",
+    "claim_ids": [
+      "qailertetang-c01"
+    ]
+  },
+  "traits": [
+    {
+      "value": "water-associated",
+      "claim_ids": [
+        "qailertetang-c02"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "Qailertetang adalah dewi Inuit pemelihara hewan, nelayan, dan pemburu yang mengendalikan cuaca dan tinggal bersama Sedna di dasar laut [qailertetang-c01, qailertetang-c02].",
+    "en": "Qailertetang is an Inuit goddess who cares for animals, fishers and hunters, controls the weather and lives with Sedna at the bottom of the sea [qailertetang-c01, qailertetang-c02].",
+    "claim_ids": [
+      "qailertetang-c01",
+      "qailertetang-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Qailertetang adalah dewi Inuit yang memelihara hewan, nelayan, dan pemburu serta mengendalikan cuaca [qailertetang-c01]. Ia tinggal bersama Sedna di dasar laut [qailertetang-c02] dan digambarkan sebagai perempuan besar berlengan dan bertungkai berat [qailertetang-c03]. Sebelum berburu, para dukun melayaninya dalam ritual [qailertetang-c04].",
+      "en": "Qailertetang is an Inuit goddess who cares for animals, fishers and hunters and controls the weather [qailertetang-c01]. She lives with Sedna at the bottom of the sea [qailertetang-c02] and is depicted as a large woman of heavy limbs [qailertetang-c03]. Before hunts, shamans serve her in rituals [qailertetang-c04].",
+      "claim_ids": [
+        "qailertetang-c01",
+        "qailertetang-c02",
+        "qailertetang-c03",
+        "qailertetang-c04"
+      ]
+    },
+    {
+      "id": "Kata qailertetang juga menyebut dua sosok ritual dalam perayaan tahun baru Quviasukvik [qailertetang-c05], yang oleh Laugrand dan Oosten disebut wakil Sedna [qailertetang-c06].",
+      "en": "The word also names two ritual figures of the Quviasukvik new year [qailertetang-c05], called representatives of Sedna by Laugrand and Oosten [qailertetang-c06].",
+      "claim_ids": [
+        "qailertetang-c05",
+        "qailertetang-c06"
+      ]
+    }
+  ],
+  "cultural_context": {
+    "id": "Para dukun melayani Qailertetang dan Sedna atas nama suku sebelum berburu [qailertetang-c04].",
+    "en": "Shamans serve Qailertetang and Sedna for the tribe before hunts [qailertetang-c04].",
+    "claim_ids": [
+      "qailertetang-c04"
+    ]
+  },
+  "etymology": null,
+  "story_mode": {
+    "who": {
+      "id": "Dewi pemelihara hewan dan pemburu.",
+      "en": "A goddess caring for animals and hunters.",
+      "claim_ids": [
+        "qailertetang-c01"
+      ]
+    },
+    "origin": {
+      "id": "Kepercayaan Inuit.",
+      "en": "Inuit belief.",
+      "claim_ids": [
+        "qailertetang-c01"
+      ]
+    },
+    "role": {
+      "id": "Mengendalikan cuaca dan menjamin perburuan.",
+      "en": "Controlling weather and ensuring hunts.",
+      "claim_ids": [
+        "qailertetang-c01",
+        "qailertetang-c04"
+      ]
+    },
+    "famous_for": null
+  },
+  "did_you_know": null,
+  "abilities": [
+    {
+      "ability_id": "elemental-control",
+      "name": {
+        "id": "Pengendali cuaca",
+        "en": "Weather control"
+      },
+      "description": {
+        "id": "Mengendalikan cuaca.",
+        "en": "Controls the weather."
+      },
+      "claim_ids": [
+        "qailertetang-c01"
+      ]
+    }
+  ],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Sedna",
+      "relation_type": "associated",
+      "note": {
+        "id": "Rekannya di dasar laut.",
+        "en": "Her companion at the bottom of the sea."
+      },
+      "claim_ids": [
+        "qailertetang-c02"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Bagaimana kepercayaan Inuit mencerminkan ketergantungan pada laut?",
+      "en": "How does Inuit belief reflect dependence on the sea?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "qailertetang-s1",
+      "url": "https://en.wikipedia.org/wiki/Qailertetang",
+      "title": "Qailertetang",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "qailertetang-c01",
+      "source_id": "qailertetang-s1",
+      "quote": "Qailertetang is an Inuit goddess who cares for animals, fishers, and hunters and who controls the weather.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Qailertetang adalah dewi Inuit yang memelihara hewan, nelayan, dan pemburu serta mengendalikan cuaca.",
+        "en": "Qailertetang is an Inuit goddess who cares for animals, fishers and hunters and controls the weather."
+      }
+    },
+    {
+      "id": "qailertetang-c02",
+      "source_id": "qailertetang-s1",
+      "quote": "She dwells with her companion Sedna at the bottom of the sea in the company of seals, whales, and other sea creatures.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia tinggal bersama rekannya, Sedna, di dasar laut bersama anjing laut, paus, dan makhluk laut lain.",
+        "en": "She lives with her companion Sedna at the bottom of the sea among seals, whales and other sea creatures."
+      }
+    },
+    {
+      "id": "qailertetang-c03",
+      "source_id": "qailertetang-s1",
+      "quote": "Qailertetang is depicted as a \"large woman of very heavy limbs\".",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Qailertetang digambarkan sebagai \"perempuan besar dengan anggota tubuh yang sangat berat\".",
+        "en": "Qailertetang is depicted as a \"large woman of very heavy limbs\"."
+      }
+    },
+    {
+      "id": "qailertetang-c04",
+      "source_id": "qailertetang-s1",
+      "quote": "Before hunts, she, along with Sedna, are served by shamans on behalf of the rest of the tribe in rituals designed to ensure success in said hunts",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sebelum perburuan, para dukun melayaninya bersama Sedna dalam ritual demi keberhasilan berburu.",
+        "en": "Before hunts, shamans serve her and Sedna in rituals to ensure success."
+      }
+    },
+    {
+      "id": "qailertetang-c05",
+      "source_id": "qailertetang-s1",
+      "quote": "The word also used to refer to two ritual figures in the Inuit new year holiday, Quviasukvik, the most important Inuit holiday.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kata ini juga menyebut dua sosok ritual dalam Quviasukvik, perayaan tahun baru Inuit yang paling penting.",
+        "en": "The word also names two ritual figures in Quviasukvik, the most important Inuit new year holiday."
+      }
+    },
+    {
+      "id": "qailertetang-c06",
+      "source_id": "qailertetang-s1",
+      "quote": "Inuit scholars Laugrand and Oosten call them the representatives of Sedna.",
+      "locator": "Introduction",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Peneliti Inuit Laugrand dan Oosten menyebut kedua sosok itu wakil Sedna.",
+        "en": "Inuit scholars Laugrand and Oosten call them representatives of Sedna."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+

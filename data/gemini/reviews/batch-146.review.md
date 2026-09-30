@@ -1,8 +1,8 @@
 # Review batch-146
 
-Diperiksa 2026-09-30T07:35:44.555Z. Berkas: batch-146.md.
+Diperiksa 2026-09-30T07:38:17.769Z. Berkas: batch-146.md.
 
-**Belum dikirim:** lagahoo, letiche, madre-de-aguas, midnight-beauty, mixtecatl, muki-mythology, mussie, north-shore-monster, otomitl, pincoy, qailertetang, seelkee, si-te-cah, tulevieja, turtle-lake-monster, ulmecatl, unhcegila, yahui, zapam-zucum, ahola, akva-nigrulo, amarum
+**Belum dikirim:** muki-mythology, mussie, north-shore-monster, seelkee, si-te-cah, tulevieja, turtle-lake-monster, ulmecatl, unhcegila, yahui, zapam-zucum, ahola, akva-nigrulo, amarum
 
 ## wihwin — lulus-otomatis
 
@@ -397,4 +397,140 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | la-diablesse-c03 | exact | en.wikipedia.org | She can bewitch an unsuspecting male victim, lead him into the forest and then vanish. | She can cast spells on her unsuspecting male victim, whom she leads into the forest. When in the forest, she disappears. |
 | la-diablesse-c04 | exact | en.wikipedia.org | The confused, lost victim runs through the forest until he falls into a ravine or river, or is eaten. | The victim (confused, lost, and scared) runs around the forest until he falls into a ravine or river, or gets eaten. |
 | la-diablesse-c05 | exact | en.wikipedia.org | Derek Walcott refers to La Diablesse in his play Dream on Monkey Mountain. | La Diablesse is referred by Derek Walcott in his play Dream on Monkey Mountain. |
+
+
+## lagahoo — lulus-otomatis
+
+Klaim 6 (exact 6), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| lagahoo-c01 | exact | en.wikipedia.org | In the folklore of Trinidad and Tobago, the Lagahoo or Lugarhou is a mythical shapeshifting monster. | In the folklore of Trinidad and Tobago the Lagahoo or Lugarhou is a mythical shapeshifting monster. |
+| lagahoo-c02 | exact | en.wikipedia.org | By day it seems human, but at night it becomes a headless man roaming with a wooden coffin on its neck. | It seems like a normal human by day, but this creature takes on the form of a man with no head, who roams the night with a wooden coffin on its neck. |
+| lagahoo-c03 | exact | en.wikipedia.org | Three lit candles sit on the coffin, and a heavy iron chain tied at its waist trails behind. | On top of the coffin are three lighted candles and the long loose end of a heavy iron chain, noosed around its waist, trails behind him. |
+| lagahoo-c04 | exact | en.wikipedia.org | It can change into horses, pigs or goats and often takes a centaur-like form. | It can shapeshift into various animals, including horses, pigs or goats, and said to often take the form of a creature similar to a centaur |
+| lagahoo-c05 | exact | en.wikipedia.org | The Lagahoo can change its size from tiny to gigantic in an instant. | The Lagahoo also possesses the ability to alter its size from tiny to gigantic in an instant. |
+| lagahoo-c06 | exact | en.wikipedia.org | To kill it, one must beat it with a stick anointed with holy water and holy oil for nine days. | To kill the Lagahoo one must beat the creature with a stick which has been anointed with holy water and holy oil for nine days. |
+
+
+## letiche — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| letiche-c01 | exact | en.wikipedia.org | The letiche is a creature of Cajun folklore in Louisiana, United States, that haunts the bayous (swamps). | The letiche is a creature in Cajun folklore in Louisiana, United States, which haunts the bayous (swamps). |
+| letiche-c02 | exact | en.wikipedia.org | It is described as the soul of an illegitimate unbaptized infant, or a child raised by alligators. | It is variously described as the soul of an illegitimate unbaptized infant, or a human child raised by alligators. |
+| letiche-c03 | exact | en.wikipedia.org | The letiche lurks in the bayous, upsetting boats and attacking travelers. | The letiche is said to lurk in the bayous and upset boats and attack travelers. |
+
+
+## madre-de-aguas — lulus-otomatis
+
+Klaim 6 (exact 6), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| madre-de-aguas-c01 | exact | en.wikipedia.org | The Madre de aguas ("Mother of water"), also known as Magüi, is a mythical creature of Cuban folklore. | The Madre de aguas (Mother of water), also known as Magüi, is a mythical creature in the folklore of Cuba. |
+| madre-de-aguas-c02 | exact | en.wikipedia.org | In Creole folklore she is Mama Glo; on other islands she is Mami Wata or Watramama. | She goes by the name of Mama Glo in Creole Folklore, in other islands she is called Mami Wata as well as Watramama. |
+| madre-de-aguas-c03 | exact | en.wikipedia.org | The story, first told in the 1600's, says she is a giant boa as thick as a palm tree. | The story was first told in the 1600's and says that the Madre de aguas is a giant boa snake very large and wide with the thickness of a palm tree |
+| madre-de-aguas-c04 | exact | en.wikipedia.org | She has two horn-like projections on her head and thick scales impenetrable to bullets. | has two extrusions similar to horns in the frontal region of her head, and is covered in scales thick and distributed inversely as present in other boa snakes, which is impenetrable to bullets. |
+| madre-de-aguas-c05 | exact | en.wikipedia.org | She inhabits rivers and lakes, which never dry while she lives there. | It is said that it inhabits rivers and lakes, which never dry out while it lives there. |
+| madre-de-aguas-c06 | exact | en.wikipedia.org | The Madre de aguas never dies, and anyone who tries to kill or capture her dies. | Madre de aguas never dies, and anyone who tries to kill or capture it dies. |
+
+
+## midnight-beauty — lulus-otomatis
+
+Klaim 7 (exact 7), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| midnight-beauty-c01 | exact | pt.wikipedia.org | The mulher da meia-noite ("midnight woman") is a ghost of world folklore. | A mulher da meia-noite é um fantasma do folclore mundial. |
+| midnight-beauty-c02 | exact | pt.wikipedia.org | Her story has many variants worldwide, with the most varied accounts in South America. | Sua história possui diversas variantes em várias partes do mundo, mas é na América do Sul que encontram relatos mais variados. |
+| midnight-beauty-c03 | exact | pt.wikipedia.org | In Brazil she is also called Bela (or Dama) da Noite and A Mulher de branco ("the woman in white"). | No Brasil, a Mulher da meia-noite também recebe os nomes de Bela (ou Dama) da Noite, A Mulher de branco |
+| midnight-beauty-c04 | exact | pt.wikipedia.org | In Venezuela she is called "La Sayona". | Na Venezuela, é chamada de "La Sayona". |
+| midnight-beauty-c05 | exact | pt.wikipedia.org | In Mexico she was named "La Llorona". | No México recebeu o nome de "La Llorona" |
+| midnight-beauty-c06 | exact | pt.wikipedia.org | One Brazilian version: a beautiful young woman who appears on roads asking men for rides. | Uma bela jovem que aparece em estradas e pede carona para os homens. |
+| midnight-beauty-c07 | exact | pt.wikipedia.org | If the man truly betrays his partner she may kill him; otherwise she only wounds him. | Se ele realmente trair, ela poderá matá-lo; caso contrário, ela apenas irá feri-lo. |
+
+
+## mixtecatl — lulus-otomatis
+
+Klaim 2 (exact 2), sumber 1, gambar 0.
+
+**warn**
+- `relations[2].target_name` Tidak muncul di kutipan mana pun: Xicalancatl. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+
+**manual**
+- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| mixtecatl-c01 | exact | en.wikipedia.org | Mixtecatl is one of the six giant sons of Iztac-Mixcoatl and Tlaltecuhtli (or Ilancueitl) who populated the Earth after the Great Flood in the Fifth Sun of Aztec mythology. | Mixtecatl (From Nahuatl, 'Inhabitant of the land of clouds') is one of the six giants sons of Iztac-Mixcoatl and Tlaltecuhtli or Ilancueitl that populated the Earth after the Great Flood during the Fifth Sun in Aztec mythology. |
+| mixtecatl-c02 | exact | en.wikipedia.org | He was the fifth son, founder of Mixtlan, origin of the people of the region now called Mixteca. | The fifth son who founded Mixtlan from where the natives of the region known today as Mixteca come from. |
+
+
+## otomitl — lulus-otomatis
+
+Klaim 2 (exact 2), sumber 1, gambar 0.
+
+**warn**
+- `etymology.literal_meaning` Tidak muncul di kutipan mana pun: Otomi. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `relations[2].target_name` Tidak muncul di kutipan mana pun: Mixtecatl. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+
+**manual**
+- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| otomitl-c01 | exact | en.wikipedia.org | Otomitl is one of the six giant sons of Iztac-Mixcoatl and Tlaltecuhtli who populated the Earth after the Great Flood in the Fifth Sun of Aztec mythology. | Otomitl (From Nahuatl, 'Jute bone' or 'Where the otomies are') is one of the six giants sons of Iztac-Mixcoatl and Tlaltecuhtli that populated the Earth after the Great Flood during the Fifth Sun in Aztec mythology. |
+| otomitl-c02 | exact | en.wikipedia.org | He was the sixth son, who climbed the mountains near Mexico and raised the settlements of Xilotepec, Tollan and Otompan. | The sixth son who climbed the mountains near Mexico, and raised the populations of Xilotepec, Tollan, and Otompan. |
+
+
+## pincoy — lulus-otomatis
+
+Klaim 5 (exact 5), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| pincoy-c01 | exact | en.wikipedia.org | The Pincoy is a male sea water spirit of Chilote mythology in Chiloé, Chile. | The Pincoy is a male water spirit of the seas, belonging to the Chilote mythology of Chiloé, Chile. |
+| pincoy-c02 | exact | en.wikipedia.org | He resembles a merman with a large golden sea-lion body, a handsome face and long golden hair, magically attractive to women. | It looks equivalent to a merman creature, his body would be like a large sea lion, colour bright golden, with handsome and manly human face and long golden hair, being magically attractive to the women. |
+| pincoy-c03 | exact | en.wikipedia.org | He is the son of Millalobo, king of the seas, and the human Huenchula; his sisters are the Sirena chilota and the Pincoya, who is also his wife. | He is the son of Millalobo (mythical king of the seas of Chiloé) and the human Huenchula; his sisters, are the Sirena chilota and the Pincoya (which also is his wife). |
+| pincoy-c04 | exact | en.wikipedia.org | With his sisters he carries the dead from the sea to the Caleuche. | With his sisters he carries the dead from the sea unto the Caleuche. |
+| pincoy-c05 | exact | en.wikipedia.org | He sings a beautiful, strange song so the Pincoya begins her magical dance for the fertility of the sea. | he is responsible of singing a beautiful and strange song, so that the Pincoya start her magical dance, for fertility of the sea. |
+
+
+## qailertetang — lulus-otomatis
+
+Klaim 6 (exact 6), sumber 1, gambar 0.
+
+**warn**
+- `short_description.en` Ada rangkaian 12 kata yang sama persis dengan sumber ("qailertetang is an inuit goddess who cares for animals fishers and hunters…"). Tulis ulang dengan kata-kata sendiri.
+- `long_description[0].en` Ada rangkaian 12 kata yang sama persis dengan sumber ("qailertetang is an inuit goddess who cares for animals fishers and hunters…"). Tulis ulang dengan kata-kata sendiri.
+
+**manual**
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| qailertetang-c01 | exact | en.wikipedia.org | Qailertetang is an Inuit goddess who cares for animals, fishers and hunters and controls the weather. | Qailertetang is an Inuit goddess who cares for animals, fishers, and hunters and who controls the weather. |
+| qailertetang-c02 | exact | en.wikipedia.org | She lives with her companion Sedna at the bottom of the sea among seals, whales and other sea creatures. | She dwells with her companion Sedna at the bottom of the sea in the company of seals, whales, and other sea creatures. |
+| qailertetang-c03 | exact | en.wikipedia.org | Qailertetang is depicted as a "large woman of very heavy limbs". | Qailertetang is depicted as a "large woman of very heavy limbs". |
+| qailertetang-c04 | exact | en.wikipedia.org | Before hunts, shamans serve her and Sedna in rituals to ensure success. | Before hunts, she, along with Sedna, are served by shamans on behalf of the rest of the tribe in rituals designed to ensure success in said hunts |
+| qailertetang-c05 | exact | en.wikipedia.org | The word also names two ritual figures in Quviasukvik, the most important Inuit new year holiday. | The word also used to refer to two ritual figures in the Inuit new year holiday, Quviasukvik, the most important Inuit holiday. |
+| qailertetang-c06 | exact | en.wikipedia.org | Inuit scholars Laugrand and Oosten call them representatives of Sedna. | Inuit scholars Laugrand and Oosten call them the representatives of Sedna. |
 
