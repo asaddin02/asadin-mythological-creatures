@@ -198,5 +198,186 @@
     "skip": 1,
     "perlu_manusia": [],
     "catatan": "dikerjakan oleh Claude"
+  },
+  "batch-026": {
+    "status": "lulus",
+    "putaran": 3,
+    "entri": 5,
+    "skip": 1,
+    "perlu_manusia": [],
+    "catatan": "dikerjakan oleh Codex; 4 entri lulus otomatis, 1 skip; sumber museum Gabriel tidak dapat dicek otomatis (HTTP 429)"
+  },
+  "batch-027": {
+    "status": "lulus",
+    "putaran": 2,
+    "entri": 5,
+    "skip": 0,
+    "perlu_manusia": [],
+    "catatan": "dikerjakan oleh Codex; 5 entri lulus otomatis; sebagian URL luar Wikipedia sempat timeout atau HTTP 429 saat pemeriksaan"
+  },
+  "batch-028": {
+    "status": "lulus",
+    "putaran": 3,
+    "entri": 5,
+    "skip": 0,
+    "perlu_manusia": [],
+    "catatan": "dikerjakan oleh Codex; 5 entri lulus otomatis; beberapa sumber tidak dapat dicek otomatis (HTTP 403/429)"
+  },
+  "batch-029": {
+    "status": "lulus",
+    "putaran": 2,
+    "entri": 5,
+    "skip": 0,
+    "perlu_manusia": [],
+    "catatan": "dikerjakan oleh Codex; 5 entri lulus otomatis; sumber museum Indra tidak dapat dicek otomatis (HTTP 429)"
+  },
+  "batch-030": {
+    "status": "lulus",
+    "putaran": 2,
+    "entri": 5,
+    "skip": 0,
+    "perlu_manusia": [],
+    "catatan": "dikerjakan oleh Codex; sumber ARCE dan The Met sempat tidak terjangkau pemeriksa otomatis, tetapi halaman dan kutipan dibuka saat riset"
+  },
+  "batch-031": {
+    "status": "lulus",
+    "putaran": 2,
+    "entri": 5,
+    "skip": 1,
+    "perlu_manusia": [],
+    "catatan": "dikerjakan oleh Codex; deism dilewati karena aliran kepercayaan, bukan makhluk; sumber The Met dibuka tetapi gagal dijangkau pemeriksa otomatis"
+  },
+  "batch-032": {
+    "status": "lulus",
+    "putaran": 2,
+    "entri": 5,
+    "skip": 0,
+    "perlu_manusia": [],
+    "catatan": "dikerjakan oleh Codex; 5 entri lulus otomatis; kutipan The Met dibuka saat riset tetapi pemeriksa menerima HTTP 429"
+  },
+  "batch-033": {
+    "status": "lulus",
+    "putaran": 2,
+    "entri": 5,
+    "skip": 0,
+    "perlu_manusia": [],
+    "catatan": "dikerjakan oleh Codex; 5 entri lulus otomatis; halaman Oxford, Smithsonian, dan The Met dibuka saat riset tetapi sebagian tidak dapat dijangkau pemeriksa otomatis (HTTP 403/429)"
+  },
+  "batch-034": {
+    "status": "lulus",
+    "putaran": 2,
+    "entri": 5,
+    "skip": 0,
+    "perlu_manusia": [],
+    "catatan": "dikerjakan oleh Codex; 5 entri lulus otomatis; sumber museum dan Smithsonian dibuka saat riset tetapi sebagian tidak dapat dijangkau pemeriksa otomatis (HTTP 403/429)"
+  },
+  "batch-035": {
+    "status": "lulus",
+    "putaran": 2,
+    "entri": 5,
+    "skip": 0,
+    "perlu_manusia": [],
+    "catatan": "dikerjakan oleh Codex; The Met mengembalikan HTTP 429 pada pemeriksa untuk Perseus, tetapi halaman dan kutipannya telah dibuka"
+  },
+  "batch-036": {
+    "status": "lulus",
+    "putaran": 2,
+    "entri": 5,
+    "skip": 0,
+    "perlu_manusia": [],
+    "catatan": "dikerjakan oleh Codex; NMS dan The Met mengembalikan HTTP 403/429 pada pemeriksa, tetapi halaman dan kutipannya telah dibuka"
+  },
+  "batch-037": {
+    "status": "lulus",
+    "putaran": 2,
+    "entri": 5,
+    "skip": 0,
+    "perlu_manusia": [],
+    "catatan": "dikerjakan oleh Codex; kutipan The Met dibuka tetapi pemeriksa otomatis menerima HTTP 429"
+  },
+  "batch-038": {
+    "status": "lulus",
+    "putaran": 2,
+    "entri": 5,
+    "skip": 0,
+    "perlu_manusia": [],
+    "catatan": "dikerjakan oleh Codex; sumber UCL menerima HTTP 403 dan WHE sempat timeout pada pemeriksaan otomatis, semua halaman telah dibuka saat riset"
+  },
+  "batch-039": {
+    "status": "sebagian",
+    "putaran": 3,
+    "entri": 5,
+    "skip": 0,
+    "perlu_manusia": [
+      "minotaur-q129866",
+      "garuda-q188676"
+    ],
+    "catatan": "dikerjakan oleh Codex; kedua task new menduplikasi nama kanonis yang sudah ada (minotaur, garuda); semua peringatan diperbaiki, tetapi pemeriksa masih menolak duplikasi; beberapa laman museum tidak dapat diunduh otomatis"
+  },
+  "batch-040": {
+    "status": "lulus",
+    "putaran": 2,
+    "entri": 5,
+    "skip": 0,
+    "perlu_manusia": [],
+    "catatan": "dikerjakan oleh Codex; semua error dan peringatan selesai; beberapa sumber museum dan arsip teks tidak dapat diunduh otomatis"
+  },
+  "batch-041": {
+    "status": "lulus",
+    "putaran": 3,
+    "entri": 5,
+    "skip": 0,
+    "perlu_manusia": [],
+    "catatan": "dikerjakan oleh Codex; 1 peringatan redaksi Ahura Mazda tersisa setelah 3 putaran, tanpa error"
+  },
+  "batch-042": {
+    "status": "lulus",
+    "putaran": 2,
+    "entri": 5,
+    "skip": 0,
+    "perlu_manusia": [],
+    "catatan": "dikerjakan oleh Codex"
+  },
+  "batch-043": {
+    "status": "lulus",
+    "putaran": 2,
+    "entri": 5,
+    "skip": 0,
+    "perlu_manusia": [],
+    "catatan": "dikerjakan oleh Codex; 5 entri lulus otomatis tanpa error/peringatan"
+  },
+  "batch-044": {
+    "status": "lulus",
+    "putaran": 2,
+    "entri": 5,
+    "skip": 0,
+    "perlu_manusia": [],
+    "catatan": "dikerjakan oleh Codex; 5 entri lulus otomatis tanpa error/peringatan; 3 kutipan museum tidak dapat diunduh pemeriksa (HTTP 429)"
+  },
+  "batch-045": {
+    "status": "sebagian",
+    "putaran": 3,
+    "entri": 5,
+    "skip": 0,
+    "perlu_manusia": [
+      "baba-yaga-q187002"
+    ],
+    "catatan": "dikerjakan oleh Codex; 4 entri lulus tanpa error/peringatan; Baba Yaga duplikat entri baba-yaga yang sudah ada dan perlu keputusan pengelola data"
+  },
+  "batch-046": {
+    "status": "lulus",
+    "putaran": 2,
+    "entri": 5,
+    "skip": 0,
+    "perlu_manusia": [],
+    "catatan": "dikerjakan oleh Codex; sejumlah halaman sumber gagal diakses pemeriksa otomatis, tetapi halaman aslinya dibuka saat riset"
+  },
+  "batch-047": {
+    "status": "lulus",
+    "putaran": 2,
+    "entri": 5,
+    "skip": 0,
+    "perlu_manusia": [],
+    "catatan": "dikerjakan oleh Codex; beberapa sumber gagal diakses pemeriksa otomatis, tetapi halaman aslinya dibuka saat riset"
   }
 }

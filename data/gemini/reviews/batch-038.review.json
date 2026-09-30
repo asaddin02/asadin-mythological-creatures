@@ -1,0 +1,682 @@
+{
+  "batch_id": "batch-038",
+  "checked_at": "2026-09-29T19:09:42.283Z",
+  "files": [
+    "batch-038.md",
+    "batch-038-fix-1.md"
+  ],
+  "parse_problems": [],
+  "missing": [],
+  "entries": [
+    {
+      "slug": "aten",
+      "file": "batch-038-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 11,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 11 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "11 kutipan tidak bisa dicek otomatis: www.ucl.ac.uk (HTTP 403); www.worldhistory.org (tidak bisa dibuka (timeout))."
+        }
+      ],
+      "claims": [
+        {
+          "id": "aten-c01",
+          "source_id": "aten-s1",
+          "host": "www.ucl.ac.uk",
+          "statement": "Aten is an Egyptian sun god represented as the sun disk.",
+          "statement_id": "Aten adalah dewa matahari Mesir yang dilambangkan sebagai cakram matahari.",
+          "quote": "At Amarna the sun-god is depicted in radical new style as sun-disk (in Egyptian itn, generally rendered in English as Aten)",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "aten-c02",
+          "source_id": "aten-s1",
+          "host": "www.ucl.ac.uk",
+          "statement": "Aten's rays end in hands that offer life to the king and women close to him.",
+          "statement_id": "Sinar Aten digambarkan berujung tangan yang menawarkan kehidupan kepada raja dan perempuan terdekatnya.",
+          "quote": "with sun-rays terminating in hands offering life to the king and the women nearest to him.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "aten-c03",
+          "source_id": "aten-s2",
+          "host": "www.ucl.ac.uk",
+          "statement": "During Akhenaten's reign, Aten was worshipped as the principal deity.",
+          "statement_id": "Pada masa Akhenaten, Aten disembah sebagai dewa utama.",
+          "quote": "The Aten, or sun disc, was worshipped as the main deity.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "aten-c04",
+          "source_id": "aten-s2",
+          "host": "www.ucl.ac.uk",
+          "statement": "Akhenaten founded Amarna as a center for his beliefs.",
+          "statement_id": "Akhenaten mendirikan Amarna sebagai pusat keyakinannya.",
+          "quote": "He founded the palace-city of Amarna as a centre for his religious beliefs.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "aten-c05",
+          "source_id": "aten-s2",
+          "host": "www.ucl.ac.uk",
+          "statement": "Akhenaten's reform excluded the cult of other deities.",
+          "statement_id": "Reformasi Akhenaten membatasi pemujaan dewa lain.",
+          "quote": "Akhenaten’s religious reforms were not entirely new, but his exclusion of the cult of other deities marks a break with traditions.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "aten-c06",
+          "source_id": "aten-s1",
+          "host": "www.ucl.ac.uk",
+          "statement": "The Great Hymn to Aten is a major source for Akhenaten's religious reform.",
+          "statement_id": "Himne Agung kepada Aten adalah sumber penting untuk memahami reformasi agama Akhenaten.",
+          "quote": "The Great Hymn to the Aten is our principal source for the radical reformulation of ancient Egyptian belief in the reign of Akhenaten.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "aten-c07",
+          "source_id": "aten-s1",
+          "host": "www.ucl.ac.uk",
+          "statement": "In the Great Hymn, Aten is praised as a giver of life.",
+          "statement_id": "Dalam Himne Agung, Aten dipuji sebagai pemberi napas kehidupan.",
+          "quote": "Nurse in the womb, who gives breath to cause all he has made to live,",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "aten-c08",
+          "source_id": "aten-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Before Akhenaten's reform, Aten was a minor solar deity.",
+          "statement_id": "Sebelum reformasi Akhenaten, Aten merupakan dewa matahari yang lebih kecil dalam panteon Mesir.",
+          "quote": "Aten was a minor solar deity who personified the light of the sun.",
+          "context": "scholarly-interpretation",
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
+        },
+        {
+          "id": "aten-c09",
+          "source_id": "aten-s3",
+          "host": "www.worldhistory.org",
+          "statement": "After Akhenaten's death Tutankhamun moved the capital away from Akhetaten.",
+          "statement_id": "Setelah kematian Akhenaten, Tutankhamun memindahkan ibu kota dari Akhetaten.",
+          "quote": "The city flourished until Akhenaten's death; afterwards, Tutankhamun moved the capital back to Memphis and then to Thebes.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
+        },
+        {
+          "id": "aten-c10",
+          "source_id": "aten-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Tutankhamun began restoring Egypt's earlier religious practices.",
+          "statement_id": "Tutankhamun memulai pemulihan praktik keagamaan Mesir terdahulu.",
+          "quote": "Tutankhamun initiated the measures to reverse his father's policies and return Egypt to the former beliefs and practices",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
+        },
+        {
+          "id": "aten-c11",
+          "source_id": "aten-s1",
+          "host": "www.ucl.ac.uk",
+          "statement": "The Amarna temples had open spaces and offering altars.",
+          "statement_id": "Kuil Aten di Amarna memiliki ruang terbuka luas dan altar persembahan.",
+          "quote": "The temples at Amarna present vast open spaces with altars for offerings and raised platforms.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "diana",
+      "file": "batch-038.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 10,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 10 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "diana-c01",
+          "source_id": "diana-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Diana was a Roman goddess associated with childbirth, fertility, the moon, and wild animals.",
+          "statement_id": "Diana adalah dewi Romawi yang berkaitan dengan kelahiran, kesuburan, bulan, dan hewan liar.",
+          "quote": "Diana was the goddess of childbirth, the fertility goddess, the goddess of the moon as well as the patron goddess of wild beasts in Roman mythology.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "diana-c02",
+          "source_id": "diana-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Diana is best known as a hunt goddess, with the deer as her sacred animal.",
+          "statement_id": "Diana paling dikenal sebagai dewi perburuan dengan rusa sebagai hewan sucinya.",
+          "quote": "However, she is best known as the goddess of the hunt, with her sacred animal being the deer.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "diana-c03",
+          "source_id": "diana-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Diana was identified with the Greek Artemis.",
+          "statement_id": "Diana disamakan dengan Artemis dalam mitologi Yunani.",
+          "quote": "Her equivalent in Greek mythology is Artemis.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "diana-c04",
+          "source_id": "diana-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Roman genealogy Diana is the daughter of Jupiter and Latona.",
+          "statement_id": "Dalam silsilah Romawi, Diana adalah putri Jupiter dan Latona.",
+          "quote": "Diana was the daughter of Jupiter and Latona (the Roman equivalent of Leto), the goddess of dark nights.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "diana-c05",
+          "source_id": "diana-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Diana and Apollo were said to be born on Delos.",
+          "statement_id": "Diana dan Apollo dikisahkan lahir di Pulau Delos.",
+          "quote": "where she gave birth to Apollo and Diana.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "diana-c06",
+          "source_id": "diana-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Roman art commonly portrays Diana with a bow and quiver.",
+          "statement_id": "Seni Romawi sering menggambarkan Diana membawa busur dan tabung panah.",
+          "quote": "In most works of Roman art, Diana is depicted armed with a bow and quiver of arrows",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "diana-c07",
+          "source_id": "diana-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Actaeon appears in one of Diana's best-known stories.",
+          "statement_id": "Actaeon adalah tokoh dalam salah satu kisah Diana yang paling dikenal.",
+          "quote": "One of the best-known myths of Diana is that of Actaeon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "diana-c08",
+          "source_id": "diana-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the Actaeon story, he is transformed into a deer after seeing Diana bathe.",
+          "statement_id": "Dalam kisah Actaeon, ia berubah menjadi rusa setelah melihat Diana mandi.",
+          "quote": "he grew the horns of a stag, his hands became feet and his arms were changed into legs.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "diana-c09",
+          "source_id": "diana-s2",
+          "host": "www.metmuseum.org",
+          "statement": "An important Roman sanctuary of Diana stood at Aricia by Lake Nemi.",
+          "statement_id": "Tempat suci Diana yang penting bagi orang Romawi terletak di Aricia dekat Danau Nemi.",
+          "quote": "The most important sanctuary of Diana for the ancient Romans was located at Aricia, some eleven miles outside of Rome on the shore of lake Nemi",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "diana-c10",
+          "source_id": "diana-s2",
+          "host": "www.metmuseum.org",
+          "statement": "A Met bronze statue depicts Artemis, known to Romans as Diana.",
+          "statement_id": "Patung perunggu yang dicatat The Met menampilkan Artemis yang disebut Diana oleh orang Romawi.",
+          "quote": "Artemis, known to the Romans as Diana, stands with her weight on her right leg, her left foot trailing.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "gaia",
+      "file": "batch-038.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 11,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 11 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "gaia-c01",
+          "source_id": "gaia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Gaia is the primordial personification of Earth in Greek myth.",
+          "statement_id": "Gaia adalah dewi purba yang mempersonifikasikan Bumi dalam mitologi Yunani.",
+          "quote": "Gaia (also Gaea or Ge) is a primordial goddess and the personification of the Earth in Greek mythology.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gaia-c02",
+          "source_id": "gaia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In one creation account Gaia emerges from Chaos and is regarded as a mother goddess.",
+          "statement_id": "Dalam satu kisah penciptaan, Gaia muncul setelah Chaos dan dipandang sebagai ibu para makhluk.",
+          "quote": "Gaia emerged from Chaos and is considered the supreme or mother goddess by immortals and mortals alike.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gaia-c03",
+          "source_id": "gaia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Gaia's Roman equivalent is Terra Mater or Tellus Mater.",
+          "statement_id": "Padanan Romawi Gaia ialah Terra Mater atau Tellus Mater.",
+          "quote": "Her Roman equivalent is Terra Mater or Tellus Mater.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gaia-c04",
+          "source_id": "gaia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to Hesiod, Gaia bore Uranus, Ourea, and Pontus.",
+          "statement_id": "Menurut Hesiod, Gaia melahirkan Uranus, Ourea, dan Pontus.",
+          "quote": "Gaia emerged from Chaos (the great void) and gave birth to Uranus (Heaven), Ourea (Mountains), and Pontus (Sea).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gaia-c05",
+          "source_id": "gaia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Gaia and Uranus parented the twelve Titans.",
+          "statement_id": "Gaia dan Uranus adalah orang tua dua belas Titan.",
+          "quote": "She married her son Uranus, and together they had the 12 Titans",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gaia-c06",
+          "source_id": "gaia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Gaia opposed Uranus after he hid their children deep in Earth.",
+          "statement_id": "Gaia menentang Uranus setelah ia menyembunyikan anak-anak mereka di kedalaman Bumi.",
+          "quote": "Uranus hated his children and hid them away out of sight in the depths of the earth. Gaia was heartbroken over how her children were being treated by their father and devised a plan to destroy him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gaia-c07",
+          "source_id": "gaia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Gaia advised Zeus to free the Hecatoncheires and Cyclopes during the Titan war.",
+          "statement_id": "Gaia menasihati Zeus membebaskan Hekatonkheires dan Cyclopes dalam perang melawan Titan.",
+          "quote": "During the tenth year of the battle, Gaia gave council to Zeus and told him to free the Hecatoncheires and the Cyclopes from Tartarus",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gaia-c08",
+          "source_id": "gaia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "After the Titans' defeat, Gaia sent the Giants against the Olympian gods.",
+          "statement_id": "Sesudah kekalahan Titan, Gaia mengirim para Raksasa melawan para dewa Olimpus.",
+          "quote": "After the Titans were defeated and sent down to Tartarus by Zeus and the Olympian deities, Gaia sent her children, the Giants, to destroy the Olympians.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gaia-c09",
+          "source_id": "gaia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Gaia was said to bear Typhon with Tartarus.",
+          "statement_id": "Gaia dikisahkan melahirkan Typhon bersama Tartarus.",
+          "quote": "In revenge, Gaia lay with Tartarus and bore her youngest child, Typhon, the biggest monster ever born.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gaia-c10",
+          "source_id": "gaia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "One tradition holds that the Delphic oracle originally belonged to Gaia.",
+          "statement_id": "Salah satu tradisi menyatakan orakel Delphi mula-mula milik Gaia.",
+          "quote": "The Oracle at Delphi originally belonged to Gaia, who later handed over the rights to her daughters Themis and Phoebe",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gaia-c11",
+          "source_id": "gaia-s2",
+          "host": "www.theoi.com",
+          "statement": "Greek vase painting shows Gaia as a matronly woman rising from Earth.",
+          "statement_id": "Pada lukisan vas Yunani, Gaia tampil sebagai perempuan dewasa yang muncul dari Bumi.",
+          "quote": "In Greek vase painting Gaia was depicted as a buxom, matronly woman rising from the earth, inseparable from her native element.",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "minerva",
+      "file": "batch-038.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 11,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 11 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "minerva-c01",
+          "source_id": "minerva-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Minerva was a Roman goddess of wisdom, crafts, arts, and later war.",
+          "statement_id": "Minerva adalah dewi Romawi yang dikaitkan dengan kebijaksanaan, kerajinan, seni, dan kemudian perang.",
+          "quote": "Minerva was the Roman goddess of wisdom, medicine, commerce, handicrafts, poetry, the arts in general, and later, war.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "minerva-c02",
+          "source_id": "minerva-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Minerva was associated with Greek Athena and patronized Quinquatras.",
+          "statement_id": "Minerva dekat dengan Athena Yunani dan menjadi pelindung festival Quinquatras.",
+          "quote": "In many ways similar to the Greek goddess Athena, she had important temples in Rome and was patron of the Quinquatras festival.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "minerva-c03",
+          "source_id": "minerva-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Scholarly consensus traces Minerva to the Etruscan goddess Menrva.",
+          "statement_id": "Sebagian sarjana menelusuri Minerva pada dewi Etruska Menrva.",
+          "quote": "The scholarly consensus, however, is that Minerva was indigenous, passing to the Romans from the Etruscan goddess Menrva",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "minerva-c04",
+          "source_id": "minerva-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In myth Minerva was born from Jupiter's head.",
+          "statement_id": "Dalam mitos, Minerva dilahirkan dari kepala Jupiter.",
+          "quote": "Considered the daughter of Jupiter, from whose head she was born",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minerva-c05",
+          "source_id": "minerva-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Minerva belonged to the Capitoline Triad with Jupiter and Juno.",
+          "statement_id": "Minerva termasuk dalam Triad Kapitolin bersama Jupiter dan Juno.",
+          "quote": "the goddess was first worshipped in Rome as one of the Capitoline Triad along with Jupiter and Juno.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "minerva-c06",
+          "source_id": "minerva-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Arachne boasted that her weaving surpassed Minerva's.",
+          "statement_id": "Arachne menyombongkan keterampilan tenunnya melebihi Minerva.",
+          "quote": "In the myth, a Lydian girl named Arachne unwisely boasts that her weaving skills are even better than Minerva's.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minerva-c07",
+          "source_id": "minerva-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Minerva challenged Arachne to a weaving contest.",
+          "statement_id": "Minerva menantang Arachne dalam pertandingan menenun.",
+          "quote": "she promptly challenged the presumptuous Arachne to a weaving competition.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minerva-c08",
+          "source_id": "minerva-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Ovid's tale, Minerva transformed Arachne into a spider.",
+          "statement_id": "Dalam kisah Ovid, Minerva mengubah Arachne menjadi laba-laba.",
+          "quote": "punished Arachne for her audacity by hitting her on the head three times and changing her into a spider.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minerva-c09",
+          "source_id": "minerva-s1",
+          "host": "www.worldhistory.org",
+          "statement": "A shrine to Minerva was built on the Aventine in 263 or 262 BCE.",
+          "statement_id": "Sebuah tempat suci Minerva dibangun di Bukit Aventine pada 263 atau 262 SM.",
+          "quote": "Perhaps the most important site of worship of Minerva was on the Aventine where a shrine was built in either 263 or 262 BCE.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "minerva-c10",
+          "source_id": "minerva-s2",
+          "host": "www.metmuseum.org",
+          "statement": "A Met bronze bust of Minerva bears a Greek-style helmet.",
+          "statement_id": "Patung perunggu Minerva di The Met menampilkan helm bergaya Yunani.",
+          "quote": "Modeled on the Greek goddess Athena, the Roman Minerva had many of the same duties and attributes, as shown here by her Greek-style helmet.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "minerva-c11",
+          "source_id": "minerva-s2",
+          "host": "www.metmuseum.org",
+          "statement": "The Capitoline Triad including Minerva was central to Roman state religion.",
+          "statement_id": "Triad Kapitolin yang mencakup Minerva menjadi pusat agama negara Romawi.",
+          "quote": "Together with Jupiter and Juno, she formed part of the Capitoline Triad, the very center and focus of Roman state religion.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "freyja",
+      "file": "batch-038-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 11,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 11 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "freyja-c01",
+          "source_id": "freyja-s1",
+          "host": "historiska.se",
+          "statement": "Freyja is a Norse goddess of fertility, love, and beauty, also linked to magic and war.",
+          "statement_id": "Freyja adalah dewi Nordik kesuburan, cinta, dan keindahan yang juga berkaitan dengan sihir serta perang.",
+          "quote": "Freyja is the goddess of fertility, love and beauty, but she is also associated with magic and war.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "freyja-c02",
+          "source_id": "freyja-s1",
+          "host": "historiska.se",
+          "statement": "Freyja is Njord's daughter, Freyr's sister, and a member of the Vanir.",
+          "statement_id": "Freyja adalah putri Njord, saudari Freyr, dan anggota kelompok dewa Vanir.",
+          "quote": "She is the daughter of the sea god Njord and the twin sister of Freyr, who, like her, belongs to the family of gods known as the Vanir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "freyja-c03",
+          "source_id": "freyja-s1",
+          "host": "historiska.se",
+          "statement": "Freyja's staff signifies mastery of seiðr, a magic associated with foresight.",
+          "statement_id": "Tongkat Freyja melambangkan penguasaannya atas seiðr, sihir untuk melihat masa depan.",
+          "quote": "Freyja often carries a staff, a sign of her mastery of seiðr, a form of magic through which one can see into the future.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "freyja-c04",
+          "source_id": "freyja-s1",
+          "host": "historiska.se",
+          "statement": "Freyja is said to have taught seiðr and divination to Odin.",
+          "statement_id": "Freyja dikisahkan mengajarkan seiðr dan ramalan kepada Odin.",
+          "quote": "It is Freyja who teaches Odin, foremost of the Æsir, how to practise seiðr and the art of divination.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "freyja-c05",
+          "source_id": "freyja-s1",
+          "host": "historiska.se",
+          "statement": "Freyja travels in a chariot drawn by two great cats.",
+          "statement_id": "Kereta Freyja ditarik oleh dua kucing besar.",
+          "quote": "When Freyja travels, she does so in a chariot drawn by two great cats",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "freyja-c06",
+          "source_id": "freyja-s1",
+          "host": "historiska.se",
+          "statement": "Freyja receives half the battle dead in Fólkvangr; the other half go to Odin's Valhalla.",
+          "statement_id": "Freyja menerima separuh prajurit gugur di Fólkvangr, sementara separuh lain menuju Valhalla Odin.",
+          "quote": "As a goddess of battle, she receives half of the slain warriors into her hall, Fólkvangr, while the other half go to Odin in Valhalla.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "freyja-c07",
+          "source_id": "freyja-s1",
+          "host": "historiska.se",
+          "statement": "Freyja wore the coveted necklace Brísingamen.",
+          "statement_id": "Freyja memiliki kalung Brísingamen yang sangat diinginkan.",
+          "quote": "Freyja wore a jewel called Brísingamen. It was the most beautiful necklace in the world and greatly coveted.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "freyja-c08",
+          "source_id": "freyja-s1",
+          "host": "historiska.se",
+          "statement": "In one tale Loki becomes a flea to steal Freyja's necklace.",
+          "statement_id": "Dalam satu kisah, Loki berubah menjadi kutu untuk mencuri kalung Freyja.",
+          "quote": "Loki saw that the clasp was at her neck. He changed into a flea, bit her on the cheek, and waited until she turned in her sleep.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "freyja-c09",
+          "source_id": "freyja-s2",
+          "host": "www.worldhistory.org",
+          "statement": "The Old Norse name Freyja means lady or mistress.",
+          "statement_id": "Nama Freyja dalam Nordik Kuno berarti perempuan atau nyonya.",
+          "quote": "Freyja (Old Norse for 'Lady', 'Woman', or 'Mistress') is the best-known and most important goddess in Norse mythology.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "freyja-c10",
+          "source_id": "freyja-s2",
+          "host": "www.worldhistory.org",
+          "statement": "One of Freyja's attributes is a garment of falcon feathers.",
+          "statement_id": "Salah satu atribut Freyja adalah pakaian dari bulu elang.",
+          "quote": "Another is a garment - a coat, cloak or dress-like thing - made out of falcon feathers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "freyja-c11",
+          "source_id": "freyja-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Place-names in Sweden and Norway suggest Freyja's worship, though cult details are sparse.",
+          "statement_id": "Nama tempat di Swedia dan Norwegia menunjukkan jejak pemujaan Freyja, meski rincian kultusnya terbatas.",
+          "quote": "The Old Norse sources do not specifically detail the existence of a cult of Freyja per se, but the large number of place-names in Sweden and Norway related to her name",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    }
+  ]
+}

@@ -1,0 +1,598 @@
+{
+  "batch_id": "batch-036",
+  "checked_at": "2026-09-29T18:57:06.435Z",
+  "files": [
+    "batch-036.md",
+    "batch-036-fix-1.md"
+  ],
+  "parse_problems": [],
+  "missing": [],
+  "entries": [
+    {
+      "slug": "durga",
+      "file": "batch-036.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 9,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 9 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "6 kutipan tidak bisa dicek otomatis: www.nms.ac.uk (HTTP 403); www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "durga-c01",
+          "source_id": "durga-s1",
+          "host": "www.nms.ac.uk",
+          "statement": "Durga is a principal goddess in Hinduism.",
+          "statement_id": "Durga adalah dewi penting dalam Hinduisme.",
+          "quote": "This very elegant bronze figure of Devi (goddess) Durga is an attractive and prominent figure and a principal deity in Hinduism.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "durga-c02",
+          "source_id": "durga-s1",
+          "host": "www.nms.ac.uk",
+          "statement": "Durga means inaccessible or impassable in Sanskrit.",
+          "statement_id": "Nama Durga berarti tidak terjangkau atau tidak dapat dilewati dalam Sanskerta.",
+          "quote": "In Sanskrit, Durga means the inaccessible or impassable.",
+          "context": "etymology",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "durga-c03",
+          "source_id": "durga-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Durga is a warrior manifestation of Devi who defeats demons.",
+          "statement_id": "Durga adalah perwujudan Devi sebagai pejuang yang mengalahkan iblis.",
+          "quote": "Devi is most often manifested as the fearsome female warriors Durga and Kali, both of whom famously killed a number of terrible demons in Hindu mythology.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "durga-c04",
+          "source_id": "durga-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Durga is depicted with ten arms and weapons, riding a lion or tiger.",
+          "statement_id": "Durga digambarkan berlengan sepuluh, bersenjata, dan menunggangi singa atau harimau.",
+          "quote": "Devi's dark side is represented as the terrible Durga (the Inaccessible) who has ten arms, an impressive armoury of weapons, and who rides a magnificent lion or tiger.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "durga-c05",
+          "source_id": "durga-s3",
+          "host": "www.metmuseum.org",
+          "statement": "Durga defeats Mahisha, a buffalo demon representing evil.",
+          "statement_id": "Durga mengalahkan Mahisha, iblis kerbau yang melambangkan kejahatan.",
+          "quote": "Durga slaying Mahisha (Mahishamardini) is here represented in her multi-armed form, manifesting her supreme power as the dispeller of evil, personified in the buffalo demon (asura) Mahisha, seen slumped at her feet.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "durga-c06",
+          "source_id": "durga-s3",
+          "host": "www.metmuseum.org",
+          "statement": "In the Devi Mahatmya, gods lend Durga weapons to defeat the demon.",
+          "statement_id": "Menurut Devi Mahatmya, para dewa meminjamkan senjata kepada Durga untuk mengalahkan iblis.",
+          "quote": "Following the Devi Mahatmya text, she wields the mighty weapons lent to her by the assembly of male gods who singly could not defeat the demon.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "durga-c07",
+          "source_id": "durga-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Durga is worshipped during Navaratri in India and Nepal.",
+          "statement_id": "Durga dipuja dalam perayaan Navaratri di India dan Nepal.",
+          "quote": "Durga is also worshipped in the nine-night festival Navaratri which is celebrated across India and Nepal.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "durga-c08",
+          "source_id": "durga-s1",
+          "host": "www.nms.ac.uk",
+          "statement": "Dusshera is celebrated at the end of Navaratri.",
+          "statement_id": "Dusshera dirayakan pada akhir Navaratri.",
+          "quote": "The festival of Dusshera is celebrated at the end of Navaratri by Hindus wherever they live.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "durga-c09",
+          "source_id": "durga-s3",
+          "host": "www.metmuseum.org",
+          "statement": "The lion is Durga's divine mount in battle imagery against Mahisha.",
+          "statement_id": "Singa adalah tunggangan ilahi Durga yang tampil dalam seni pertempurannya melawan Mahisha.",
+          "quote": "The lion, Durga’s divine mount (vahana) on which she is shown riding majestically into battle in manuscript illustrations, is here seen emerging from behind the goddess, mauling the demon-buffalo’s hind quarters.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "juno",
+      "file": "batch-036.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 9,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "1 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "juno-c01",
+          "source_id": "juno-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Juno is a Roman goddess who protected the nation and women's lives.",
+          "statement_id": "Juno adalah dewi Romawi pelindung negara dan kehidupan perempuan.",
+          "quote": "Juno was the Roman goddess who protected the nation as a whole but also kept special watch over all aspects of women's lives.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "juno-c02",
+          "source_id": "juno-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Juno is often equated with the Greek goddess Hera.",
+          "statement_id": "Juno kerap dipadankan dengan Hera dari Yunani.",
+          "quote": "She is often thought of as the Roman version of the Greek goddess of love and marriage, Hera.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "juno-c03",
+          "source_id": "juno-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Juno was Jupiter's wife and sister and was worshipped with Minerva.",
+          "statement_id": "Juno adalah istri sekaligus saudari Jupiter dan dipuja bersama Minerva.",
+          "quote": "Juno was the wife and sister of Jupiter, the chief Roman god, and the two of them were worshipped along with the goddess Minerva on the Quirinal in Rome.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "juno-c04",
+          "source_id": "juno-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Ancient authors associate Juno Regina with Veii; Regina means queen.",
+          "statement_id": "Sumber kuno mengaitkan Juno Regina dengan Veii; Regina berarti ratu.",
+          "quote": "Some ancient authors claim Juno arrived in Rome in the fifth century BCE from the Etruscan town of Veii north of Rome as Juno Regina, a word meaning queen.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "juno-c05",
+          "source_id": "juno-s1",
+          "host": "www.worldhistory.org",
+          "statement": "As Juno Lucina she was a goddess of childbirth.",
+          "statement_id": "Sebagai Juno Lucina, ia adalah dewi kelahiran.",
+          "quote": "She was Juno Lucina, a word meaning light, the goddess of childbirth.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "juno-c06",
+          "source_id": "juno-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Juno protected legally married women.",
+          "statement_id": "Juno melindungi perempuan yang telah menikah secara sah.",
+          "quote": "She was the protector of legally married women.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "juno-c07",
+          "source_id": "juno-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Juno's Matronalia festival fell on March 1.",
+          "statement_id": "Matronalia, perayaan Juno, jatuh pada 1 Maret.",
+          "quote": "Like many gods or goddesses, she had her own festival, on March 1, called the Matronalia, which was a time of renewal and the awakening of nature.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "juno-c08",
+          "source_id": "juno-s2",
+          "host": "www.metmuseum.org",
+          "statement": "A peacock identifies Juno in art.",
+          "statement_id": "Merak menjadi penanda Juno dalam karya seni.",
+          "quote": "The presence of the peacock identifies the figure as Juno, Jupiter’s wife and the goddess of marriage",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "juno-c09",
+          "source_id": "juno-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Aeneas's story, Juno loved Carthage, which was prophesied to be destroyed by Rome.",
+          "statement_id": "Dalam kisah Aeneas, Juno mencintai Carthage yang diramalkan akan dihancurkan Roma.",
+          "quote": "Juno loved the city of Carthage and, according to prophecy, her beloved city would one day be destroyed by Rome, a city to be founded by Aeneas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "mercury",
+      "file": "batch-036-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 9,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "mercury-c01",
+          "source_id": "mercury-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Mercury is the Roman god of commerce and mediator between gods and mortals.",
+          "statement_id": "Mercury adalah dewa perdagangan Romawi dan perantara dewa dengan manusia.",
+          "quote": "Mercury (Mercurius) was the Roman god of commerce, often serving as a mediator between the gods and mortals",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mercury-c02",
+          "source_id": "mercury-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Mercury protected merchants and travelers.",
+          "statement_id": "Mercury melindungi pedagang dan pelancong.",
+          "quote": "Mercury protected both merchants, especially those dealing in grains, and travelers.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mercury-c03",
+          "source_id": "mercury-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Mercury was said to be the son of Jupiter and Maia.",
+          "statement_id": "Mercury disebut putra Jupiter dan Maia.",
+          "quote": "Mercury was the son of the king of the gods Jupiter and purportedly Maia, goddess of the plains.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mercury-c04",
+          "source_id": "mercury-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Mercury is associated with Hermes; Mercurius may derive from merx.",
+          "statement_id": "Mercury dipadankan dengan Hermes; nama Mercurius mungkin berasal dari merx.",
+          "quote": "he is often associated with his Greek counterpart Hermes. His Roman name Mercurius is probably derived from the Latin word for merchandise (merx).",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mercury-c05",
+          "source_id": "mercury-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Mercury escorted the dead to the underworld.",
+          "statement_id": "Mercury mengantar arwah ke dunia bawah.",
+          "quote": "Like Hermes, he escorted the dead to the underworld.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mercury-c06",
+          "source_id": "mercury-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Mercury is depicted with a caduceus and winged sandals.",
+          "statement_id": "Mercury digambarkan membawa caduceus dan mengenakan sandal bersayap.",
+          "quote": "The god is frequently depicted holding the caduceus, a wand used to reconcile conflicts, and winged sandals for quickly carrying messages for the gods.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mercury-c07",
+          "source_id": "mercury-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Mercury's festival day was May 15.",
+          "statement_id": "Hari raya Mercury diperingati pada 15 Mei.",
+          "quote": "Mercury's festival day was celebrated on May 15 in commemoration of the founding of his temple.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mercury-c08",
+          "source_id": "mercury-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Mercury reminded Aeneas to leave Dido and Carthage.",
+          "statement_id": "Mercury mengingatkan Aeneas untuk meninggalkan Dido dan Carthage.",
+          "quote": "It was Mercury who was sent to remind the Trojan Aeneas to leave his beloved Queen Dido and Carthage and achieve his destiny to found Rome.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mercury-c09",
+          "source_id": "mercury-s2",
+          "host": "en.wikisource.org",
+          "statement": "Roman statuettes show Mercury holding a staff and purse.",
+          "statement_id": "Patung Romawi menggambarkan Mercury dengan tongkat dan pundi-pundi.",
+          "quote": "Roman statuettes of bronze, in which Mercury is represented, like the Greek Hermes, standing holding the caduceus or staff in the one hand and a purse in the other",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "persephone",
+      "file": "batch-036.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 9,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 9 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "4 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "persephone-c01",
+          "source_id": "persephone-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Persephone is a Greek goddess of agriculture and vegetation and wife of Hades.",
+          "statement_id": "Persephone adalah dewi pertanian dan tumbuhan Yunani serta istri Hades.",
+          "quote": "Persephone (aka Kore) was the Greek goddess of agriculture and vegetation, especially grain, and the wife of Hades, the ruler of the Underworld.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "persephone-c02",
+          "source_id": "persephone-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Kore means daughter and maiden.",
+          "statement_id": "Nama Kore berarti anak perempuan dan gadis.",
+          "quote": "In this guise she is most often referred to as Kore, signifying both 'daughter' and 'maiden'.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "persephone-c03",
+          "source_id": "persephone-s1",
+          "host": "www.worldhistory.org",
+          "statement": "As Hades's wife, Persephone is queen of the underworld.",
+          "statement_id": "Sebagai istri Hades, Persephone adalah ratu dunia bawah.",
+          "quote": "In Greek mythology, the goddess, as wife of Hades, is the Queen of the Underworld and takes her other name, Persephone.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "persephone-c04",
+          "source_id": "persephone-s2",
+          "host": "www.metmuseum.org",
+          "statement": "Hades abducted Persephone while she picked flowers and took her to the underworld.",
+          "statement_id": "Hades menculik Persephone saat ia memetik bunga dan membawanya ke dunia bawah.",
+          "quote": "Hades abducted Persephone while she was picking flowers with her companions in a meadow and carried her off to the Underworld",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "persephone-c05",
+          "source_id": "persephone-s2",
+          "host": "www.metmuseum.org",
+          "statement": "Demeter's grief caused crop failure, prompting Zeus to demand Persephone's return.",
+          "statement_id": "Kesedihan Demeter menyebabkan gagal panen sehingga Zeus meminta Hades mengembalikan Persephone.",
+          "quote": "There the wrath of the distressed mother caused a complete failure of the crops, prompting Zeus to order his brother Hades to return the girl.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "persephone-c06",
+          "source_id": "persephone-s2",
+          "host": "www.metmuseum.org",
+          "statement": "Pomegranate seeds obliged Persephone to spend part of the year below and the rest with Demeter.",
+          "statement_id": "Karena biji delima, Persephone harus menghabiskan sebagian tahun di dunia bawah dan sisanya bersama Demeter.",
+          "quote": "He cunningly tricked Persephone into eating some pomegranate seeds before leaving, thus condemning her to spend part of the year in the Underworld as his wife and the rest among the living with Demeter",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "persephone-c07",
+          "source_id": "persephone-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The story may symbolize seasonal change and life's cycle.",
+          "statement_id": "Kisah ini dapat melambangkan pergantian musim dan daur kehidupan.",
+          "quote": "The story of Demeter, Hades and Persephone was perhaps symbolic of the changing seasons and the perennial change from life to death, to life once more",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "persephone-c08",
+          "source_id": "persephone-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Persephone was linked to the Eleusinian Mysteries and Thesmophoria.",
+          "statement_id": "Persephone terkait dengan Misteri Eleusis dan perayaan Thesmophoria.",
+          "quote": "Persephone was an important element of the Eleusinian Mysteries and the Thesmophoria festival and so the goddess was worshipped throughout the Greek world.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "persephone-c09",
+          "source_id": "persephone-s3",
+          "host": "www.metmuseum.org",
+          "statement": "The Eleusinian relief depicts Persephone on the right as Demeter's daughter.",
+          "statement_id": "Relief Eleusis menggambarkan Persephone di sisi kanan sebagai putri Demeter.",
+          "quote": "At the right is Persephone, her daughter and the wife of Hades, the god of the underworld.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "asclepius",
+      "file": "batch-036.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 10,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 10 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "asclepius-c01",
+          "source_id": "asclepius-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Asclepius is the Greek god of medicine and was credited with prophecy.",
+          "statement_id": "Asclepius adalah dewa pengobatan Yunani yang juga dikaitkan dengan ramalan.",
+          "quote": "Asclepius was the ancient Greek god of medicine, and he was also credited with powers of prophecy.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "asclepius-c02",
+          "source_id": "asclepius-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Asclepius was a son of Apollo and Koronis in one account.",
+          "statement_id": "Asclepius adalah putra Apollo dan Koronis menurut salah satu kisah.",
+          "quote": "In Greek mythology, Asclepius (or Asklepios) was a demigod hero as he was the son of divine Apollo, and his mother was the mortal Koronis from Thessaly.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "asclepius-c03",
+          "source_id": "asclepius-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The centaur Chiron taught Asclepius.",
+          "statement_id": "Centaur Chiron mengajar Asclepius.",
+          "quote": "Asclepius was also tutored by Cheiron, the wise centaur who lived on Mt. Pelion.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "asclepius-c04",
+          "source_id": "asclepius-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Zeus killed Asclepius with a thunderbolt.",
+          "statement_id": "Zeus membunuh Asclepius dengan petir.",
+          "quote": "Asclepius met a tragic end when he was killed by a thunderbolt thrown by Zeus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "asclepius-c05",
+          "source_id": "asclepius-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Asclepius was deified after his death.",
+          "statement_id": "Asclepius didewakan setelah kematiannya.",
+          "quote": "Asclepius himself was deified following his death, and in some local myths, he also became the constellation Ophiuchus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "asclepius-c06",
+          "source_id": "asclepius-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Asclepius was especially worshipped at Epidaurus.",
+          "statement_id": "Asclepius terutama dipuja di tempat suci Epidaurus.",
+          "quote": "The god was particularly worshipped at the sanctuary of Epidaurus (founded in the 6th century BCE), known as the Asklepieion",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "asclepius-c07",
+          "source_id": "asclepius-s1",
+          "host": "www.worldhistory.org",
+          "statement": "At Epidaurus, patients slept awaiting dreams offering cures from the god.",
+          "statement_id": "Di Epidaurus, pasien tidur menunggu mimpi tentang pengobatan dari dewa.",
+          "quote": "At Epidaurus, there was also the columned Abato or Enkoimeterion in which patients, after having gone through several purification rituals, slept overnight and awaited dreams where the god would appear and offer cures and remedies.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "asclepius-c08",
+          "source_id": "asclepius-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Asclepius is depicted bearded with a snake-entwined staff, a modern medical symbol.",
+          "statement_id": "Asclepius digambarkan berjanggut dengan tongkat berlilit ular, lambang pengobatan modern.",
+          "quote": "Almost always, the god has a full beard, wears a simple himation robe, and holds a staff (the bakteria) with a sacred snake coiled around it, which has become the modern symbol of medicine.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "asclepius-c09",
+          "source_id": "asclepius-s2",
+          "host": "en.wikisource.org",
+          "statement": "His cult was brought to Rome in snake form and given a temple on Tiber Island.",
+          "statement_id": "Kultus Asclepius dibawa ke Roma dalam wujud ular dan diberi kuil di Pulau Tiber.",
+          "quote": "The god was fetched from Epidaurus in the form of a snake and a temple assigned him on the island in the Tiber",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "asclepius-c10",
+          "source_id": "asclepius-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Epidaurus was an important healing centre in Greek and Roman times.",
+          "statement_id": "Epidaurus adalah pusat penyembuhan penting bagi Yunani dan Romawi kuno.",
+          "quote": "The god had several sanctuaries across Greece; the most famous was at Epidaurus which became an important centre of healing in both ancient Greek and Roman times",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    }
+  ]
+}

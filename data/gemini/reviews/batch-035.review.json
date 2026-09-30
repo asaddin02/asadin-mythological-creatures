@@ -1,0 +1,551 @@
+{
+  "batch_id": "batch-035",
+  "checked_at": "2026-09-29T18:52:41.973Z",
+  "files": [
+    "batch-035.md",
+    "batch-035-fix-1.md"
+  ],
+  "parse_problems": [],
+  "missing": [],
+  "entries": [
+    {
+      "slug": "perseus",
+      "file": "batch-035.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 9,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "4 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "perseus-c01",
+          "source_id": "perseus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Perseus is a hero of Greek mythology.",
+          "statement_id": "Perseus adalah pahlawan dalam mitologi Yunani.",
+          "quote": "Perseus is one of the greatest and oldest pan-Hellenic heroes of Greek mythology.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "perseus-c02",
+          "source_id": "perseus-s2",
+          "host": "www.metmuseum.org",
+          "statement": "Perseus is the son of Zeus and Danae tasked with beheading Medusa.",
+          "statement_id": "Perseus adalah putra Zeus dan Danae yang ditugasi memenggal Medusa.",
+          "quote": "Perseus, son of the god Zeus and the human princess, Danae, was given the task of beheading Medusa",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "perseus-c03",
+          "source_id": "perseus-s2",
+          "host": "www.metmuseum.org",
+          "statement": "Athena gave Perseus a magic cap and winged shoes to approach the Gorgons.",
+          "statement_id": "Athena memberi Perseus topi ajaib dan sepatu bersayap untuk mendekati para Gorgon.",
+          "quote": "With the help of a magic cap and winged shoes given to him by Athena, Perseus became invisible and flew to the place where the three sisters were asleep.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "perseus-c04",
+          "source_id": "perseus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Perseus viewed the Gorgons through his shield's reflection.",
+          "statement_id": "Perseus melihat Gorgon melalui pantulan perisainya.",
+          "quote": "glancing at them only through the reflection in his polished shield.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "perseus-c05",
+          "source_id": "perseus-s2",
+          "host": "www.metmuseum.org",
+          "statement": "Perseus beheaded Medusa.",
+          "statement_id": "Perseus memenggal kepala Medusa.",
+          "quote": "There he cut off Medusa's head.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "perseus-c06",
+          "source_id": "perseus-s2",
+          "host": "www.metmuseum.org",
+          "statement": "Pegasus sprang from Medusa's body after her death.",
+          "statement_id": "Pegasus muncul dari tubuh Medusa setelah ia tewas.",
+          "quote": "the immortal winged horse Pegasos springs from the body of the dead Gorgon.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "perseus-c07",
+          "source_id": "perseus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Perseus used Medusa's head to petrify the sea monster threatening Andromeda.",
+          "statement_id": "Perseus memakai kepala Medusa untuk membatu monster laut yang mengancam Andromeda.",
+          "quote": "The desperate king agreed and by showing the head of Medusa with her still potent stare, Perseus ensured that the sea-monster was turned to stone.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "perseus-c08",
+          "source_id": "perseus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Perseus gave Medusa's head to Athena for her aegis.",
+          "statement_id": "Perseus menyerahkan kepala Medusa kepada Athena untuk ditempatkan pada aegisnya.",
+          "quote": "Perseus then presented the head as a gift to Athena who placed it at the centre of her fearsome aegis.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "perseus-c09",
+          "source_id": "perseus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Perseus later founded Mycenae.",
+          "statement_id": "Perseus kemudian mendirikan kota Mycenae.",
+          "quote": "Perseus swapped his kingship for that of Tiryns from where he went on to found the nearby city of Mycenae.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "centaur",
+      "file": "batch-035-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 8,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 8 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "centaur-c01",
+          "source_id": "centaur-s1",
+          "host": "www.worldhistory.org",
+          "statement": "A centaur is a human-horse hybrid in Greek mythology.",
+          "statement_id": "Centaur adalah makhluk campuran manusia dan kuda dalam mitologi Yunani.",
+          "quote": "A centaur was a creature from Greek mythology which was half-man and half-horse.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c02",
+          "source_id": "centaur-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Its head, arms, and torso are human, joined to a horse's body and legs.",
+          "statement_id": "Kepala, lengan, dan tubuh atasnya manusia, sedangkan tubuh bawahnya kuda.",
+          "quote": "The head, arms and torso of a centaur were human and joined at the waist to the body and legs of a horse.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c03",
+          "source_id": "centaur-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Centaurs represented barbarism and chaos in Greek art.",
+          "statement_id": "Centaur melambangkan kebiadaban dan kekacauan dalam seni Yunani.",
+          "quote": "Centaurs represented barbarism and unbridled chaos and were frequently represented in Greek architectural sculpture and pottery decoration.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c04",
+          "source_id": "centaur-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Centaurs were believed to inhabit the forests of Thessaly.",
+          "statement_id": "Centaur dipercaya hidup di hutan Thessaly.",
+          "quote": "The centaurs were believed to live in the forests of Thessaly, beyond the laws of man.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c05",
+          "source_id": "centaur-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Chiron was a centaur known for his wisdom.",
+          "statement_id": "Chiron adalah centaur yang dikenal karena kebijaksanaannya.",
+          "quote": "Perhaps the most famous centaur was Chiron (or Cheiron). A more civilised centaur, Chiron was known for his great wisdom",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c06",
+          "source_id": "centaur-s2",
+          "host": "www.theoi.com",
+          "statement": "Chiron mentored Jason, Peleus, Asclepius, Aristaeus, and Achilles.",
+          "statement_id": "Chiron mengajar Jason, Peleus, Asklepios, Aristaios, dan Achilles.",
+          "quote": "Kheiron was a renowned teacher who mentored many of the greatest heroes of myth including the Argonauts Jason and Peleus, the physician Asklepios (Asclepius), the demi-god Aristaios (Aristaeus) and Akhilleus (Achilles) of Troy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c07",
+          "source_id": "centaur-s1",
+          "host": "www.worldhistory.org",
+          "statement": "At Peirithoos's wedding, centaurs fought the Lapiths and tried to abduct the bride.",
+          "statement_id": "Dalam kisah pernikahan Peirithoos, para centaur melawan Lapith dan mencoba menculik mempelai perempuan.",
+          "quote": "Here the centaurs, again after a bout of drinking, fight the Lapiths (from northern Thessaly) at the wedding of their chief Peirithoos to Deidameia and they attempt to abduct the bride.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c08",
+          "source_id": "centaur-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Pholos was a centaur who hosted Hercules.",
+          "statement_id": "Pholos adalah centaur yang menjamu Hercules.",
+          "quote": "A second famous centaur in mythology is Pholos, who hosted the Greek hero Hercules while he was engaged in hunting for the giant boar",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "pegasus",
+      "file": "batch-035-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 8,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 8 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "pegasus-c01",
+          "source_id": "pegasus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Pegasus is a winged horse of Greek mythology, fathered by Poseidon and born when Perseus beheaded Medusa.",
+          "statement_id": "Pegasus adalah kuda bersayap mitologi Yunani, putra Poseidon yang muncul ketika Perseus memenggal Medusa.",
+          "quote": "Pegasus (or Pegasos) is a winged-horse from Greek mythology which was fathered by Poseidon and was born from the severed neck of the gorgon Medusa, slain by Perseus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c02",
+          "source_id": "pegasus-s2",
+          "host": "www.theoi.com",
+          "statement": "Pegasus is an immortal winged horse that emerged from Medusa's neck.",
+          "statement_id": "Pegasus adalah kuda bersayap abadi yang muncul dari leher Medusa.",
+          "quote": "PEGASOS (Pegasus) was an immortal, winged horse which sprang from the neck of the beheaded Gorgon Medousa (Medusa).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c03",
+          "source_id": "pegasus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "With Athena's help, Bellerophon tamed Pegasus and rode him against the Chimaera.",
+          "statement_id": "Bellerophon menjinakkan Pegasus dengan bantuan Athena dan menungganginya untuk mengalahkan Chimaera.",
+          "quote": "Taming the horse with the help of Athena, Bellerophon rode (and flew) Pegasus and managed to kill the monstrous Chimaera with his spear.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c04",
+          "source_id": "pegasus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Pegasus threw Bellerophon when the hero tried to fly to the gods.",
+          "statement_id": "Pegasus menjatuhkan Bellerophon ketika sang pahlawan mencoba terbang ke tempat para dewa.",
+          "quote": "However, becoming rather boastful and thinking he could fly high enough on his winged steed to take his place amongst the immortal gods, Bellerophon was thrown by Pegasus and fell unceremoniously back to earth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c05",
+          "source_id": "pegasus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Hesiod's Theogony, Pegasus brought thunder and lightning to Zeus.",
+          "statement_id": "Dalam Theogony karya Hesiod, Pegasus membawa petir untuk Zeus.",
+          "quote": "According to Hesiod in his Theogony, Pegasus also brought Zeus his thunder and lightning whenever needed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c06",
+          "source_id": "pegasus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Pegasus's hoofstamp was credited with creating the Hippocrene spring on Mount Helicon.",
+          "statement_id": "Hentakan kaki Pegasus dipercaya menciptakan mata air Hippocrene di Gunung Helicon.",
+          "quote": "Pegasus is also credited with creating a number of springs with a stamp of his hoof. Most famous of these were the Hippocrene spring on Mt. Helicon",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c07",
+          "source_id": "pegasus-s2",
+          "host": "www.theoi.com",
+          "statement": "Pegasus was commemorated as the constellation of the same name.",
+          "statement_id": "Pegasus dikenang sebagai rasi bintang yang memakai namanya.",
+          "quote": "Pegasos was commemorated amongst the stars as the constellation of the same name.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c08",
+          "source_id": "pegasus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Pegasus appeared on ancient Greek pottery and coins.",
+          "statement_id": "Pegasus muncul pada tembikar dan koin Yunani kuno.",
+          "quote": "Pegasus appeared on Greek pottery, the earliest being Corinthian wares from the 7th century BCE. Pegasus was also a popular design on coins, in particular from Corinth from the 6th century BCE.",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "saturn",
+      "file": "batch-035.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 9,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "saturn-c01",
+          "source_id": "saturn-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Saturnus is a Roman god associated with Greek Cronus.",
+          "statement_id": "Saturnus adalah dewa Romawi yang berkaitan dengan Cronus dalam mitologi Yunani.",
+          "quote": "Saturn (Saturnus) was a Roman god with a similar history to Cronus from Greek mythology.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c02",
+          "source_id": "saturn-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Saturn is an agricultural god often shown with a scythe.",
+          "statement_id": "Saturn adalah dewa pertanian yang sering digambarkan membawa sabit.",
+          "quote": "Often depicted in art wielding a scythe he was considered an agricultural god, especially associated with seed-corn.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c03",
+          "source_id": "saturn-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Roman legend places Saturn in Latium.",
+          "statement_id": "Legenda Romawi menempatkan Saturn di Latium.",
+          "quote": "According to Roman legend, Saturn settled in Latium on the future site of Rome.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c04",
+          "source_id": "saturn-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Saturn ruled Latium during a prosperous and peaceful golden age.",
+          "statement_id": "Saturn memerintah Latium pada zaman keemasan yang makmur dan damai.",
+          "quote": "According to ancient myth, Saturn ruled Latium wisely during its golden age, a time of great prosperity and peace.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c05",
+          "source_id": "saturn-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Saturn taught farming and viticulture.",
+          "statement_id": "Saturn mengajarkan pertanian dan penanaman anggur.",
+          "quote": "He instructed the people on the basic principles of farming and viticulture (the production of grapes).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c06",
+          "source_id": "saturn-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Saturn's temple at the Capitoline Hill housed the Roman treasury and Senate records.",
+          "statement_id": "Kuil Saturn di kaki Bukit Capitoline menampung kas negara dan catatan Senat Romawi.",
+          "quote": "His temple, built around 498 BCE, was located at the foot of Capitoline Hill and housed the Roman treasury as well as the records and decrees of the Roman Senate.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c07",
+          "source_id": "saturn-s2",
+          "host": "penelope.uchicago.edu",
+          "statement": "Saturnus, god of seed and sowing, was honored at Saturnalia on December 17.",
+          "statement_id": "Saturnus, dewa benih dan penaburan, dihormati dalam perayaan Saturnalia pada 17 Desember.",
+          "quote": "Saturnus, the god of seed and sowing (Latin satus) was honored with a festival. The Saturnalia officially was celebrated on December 17",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c08",
+          "source_id": "saturn-s1",
+          "host": "www.worldhistory.org",
+          "statement": "People exchanged candles or small figurines at Saturnalia.",
+          "statement_id": "Orang saling memberikan lilin atau patung kecil dalam perayaan Saturnalia.",
+          "quote": "Gifts were exchanged, usually candles or pottery figurines.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c09",
+          "source_id": "saturn-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Saturnalia temporarily reversed the roles of slaves and masters.",
+          "statement_id": "Dalam Saturnalia, budak dan tuan membalik peran untuk sementara.",
+          "quote": "Slaves gave orders to the masters, and masters waited on slaves.",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "werewolf",
+      "file": "batch-035.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 9,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 9 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "werewolf-c01",
+          "source_id": "werewolf-s1",
+          "host": "library.csun.edu",
+          "statement": "A werewolf is a human who changes into a wolf voluntarily or involuntarily.",
+          "statement_id": "Werewolf adalah manusia yang berubah menjadi serigala, secara sukarela atau tidak.",
+          "quote": "Widespread consensus indicates a werewolf is a man, woman, or child who changes shape into that of a wolf, either voluntarily or involuntarily.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c02",
+          "source_id": "werewolf-s1",
+          "host": "library.csun.edu",
+          "statement": "Werewolf transformation is usually temporary, though sometimes permanent.",
+          "statement_id": "Perubahan werewolf biasanya sementara, meski kadang permanen.",
+          "quote": "The change is most often temporary, but can sometimes be permanent.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c03",
+          "source_id": "werewolf-s1",
+          "host": "library.csun.edu",
+          "statement": "Werewolf stories describe heredity, curses, magic, or bites as causes.",
+          "statement_id": "Kisah werewolf menyebut keturunan, kutukan, sihir, atau gigitan sebagai asal perubahan.",
+          "quote": "Folk tales, stories, and myths from around the world have different methods by which werewolves exist or are created: through heredity, via a curse, from magic, or by being bitten by another who suffers from the affliction.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c04",
+          "source_id": "werewolf-s1",
+          "host": "library.csun.edu",
+          "statement": "In the Satyricon story, a soldier transformed into a wolf before Niceros.",
+          "statement_id": "Dalam kisah Satyricon, seorang prajurit berubah menjadi serigala di depan Niceros.",
+          "quote": "The soldier turned into a wolf before Niceros’ eyes, then ran off.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c05",
+          "source_id": "werewolf-s1",
+          "host": "library.csun.edu",
+          "statement": "In the Völsunga Saga, wolf skins transformed Sigmund and Sinfjötli into wolves.",
+          "statement_id": "Dalam Völsunga Saga, kulit serigala mengubah Sigmund dan Sinfjötli menjadi serigala.",
+          "quote": "They steal the skins, put them on, and transform into wolves.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c06",
+          "source_id": "werewolf-s2",
+          "host": "researchportal.helsinki.fi",
+          "statement": "Finnish belief narratives include voluntary and involuntary transformations into wolves.",
+          "statement_id": "Cerita kepercayaan Finlandia memuat perubahan menjadi serigala yang disengaja ataupun tidak.",
+          "quote": "Finnish belief narratives about humans turning into wolves involve both voluntary and involuntary transformations.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c07",
+          "source_id": "werewolf-s2",
+          "host": "researchportal.helsinki.fi",
+          "statement": "In Finnish stories, involuntary transformation is usually a punishment.",
+          "statement_id": "Dalam cerita Finlandia, perubahan tak disengaja biasanya merupakan hukuman.",
+          "quote": "The involuntary transformation is usually a punishment and sometimes parallels with prison or expulsion.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c08",
+          "source_id": "werewolf-s3",
+          "host": "www.birmingham.ac.uk",
+          "statement": "Zeus transformed Lycaon into a wolf as punishment.",
+          "statement_id": "Zeus mengubah Lycaon menjadi serigala sebagai hukuman.",
+          "quote": "To punish Lycaon for his transgressions, he transformed him into a wolf.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c09",
+          "source_id": "werewolf-s3",
+          "host": "www.birmingham.ac.uk",
+          "statement": "The full moon as a trigger for transformation is a feature of twentieth-century werewolf lore.",
+          "statement_id": "Bulan purnama sebagai pemicu perubahan menjadi ciri kisah werewolf abad ke-20.",
+          "quote": "One feature of twentieth-century werewolf lore which also relates to anxieties about women – the full moon as a stimulant for transformation",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    }
+  ]
+}

@@ -1,0 +1,620 @@
+{
+  "batch_id": "batch-034",
+  "checked_at": "2026-09-29T18:47:48.957Z",
+  "files": [
+    "batch-034.md",
+    "batch-034-fix-1.md"
+  ],
+  "parse_problems": [],
+  "missing": [],
+  "entries": [
+    {
+      "slug": "neptune",
+      "file": "batch-034.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 9,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "1 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "neptune-c01",
+          "source_id": "neptune-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Neptune is the Roman sea god and counterpart of Greek Poseidon.",
+          "statement_id": "Neptune adalah dewa laut Romawi yang berpadanan dengan Poseidon Yunani.",
+          "quote": "Neptune is the Roman god of the sea and the Roman equivalent of the Greek god Poseidon.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c02",
+          "source_id": "neptune-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Neptune was originally a freshwater god before his early association with Poseidon.",
+          "statement_id": "Neptune semula dewa air tawar sebelum dikaitkan dengan Poseidon.",
+          "quote": "He was originally a god of fresh water and became associated with Poseidon early on in Roman history.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c03",
+          "source_id": "neptune-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Neptune is the son of Saturn and Ops.",
+          "statement_id": "Neptune adalah putra Saturnus dan Ops.",
+          "quote": "He is the son of Saturn (the Roman counterpart of Cronus) and Ops (the Roman counterpart of Rhea).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c04",
+          "source_id": "neptune-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Neptune was married to Salacia.",
+          "statement_id": "Neptune menikah dengan Salacia.",
+          "quote": "Neptune was married to Salacia (the Roman equivalent of the water goddess Amphitrite).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c05",
+          "source_id": "neptune-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Neptune's trident was said to smash rocks, raise waves, create waters, and summon storms.",
+          "statement_id": "Trisula Neptune dikisahkan dapat memecah batu, mengangkat gelombang, membentuk perairan, dan memanggil badai.",
+          "quote": "He held a three-pronged trident which possessed extraordinary powers. Neptune used this trident to smash rocks, make waves, create new bodies of water, and call forth fierce storms.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c06",
+          "source_id": "neptune-s2",
+          "host": "www.metmuseum.org",
+          "statement": "A Roman bronze statue at The Met originally showed Neptune leaning on a trident.",
+          "statement_id": "Arca perunggu Romawi di The Met menampilkan Neptune bersandar pada trisula.",
+          "quote": "The god originally leaned on a trident, held in his left hand; his eyes and nipples were probably inlaid with silver and copper.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "neptune-c07",
+          "source_id": "neptune-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Neptunalia was held annually on 23 July.",
+          "statement_id": "Perayaan Neptunalia diadakan setiap 23 Juli.",
+          "quote": "The Neptunalia was held on the 23rd of July every year, during the height of summer.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c08",
+          "source_id": "neptune-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Romans sacrificed to Neptune seeking relief from summer water shortages.",
+          "statement_id": "Orang Romawi mempersembahkan kurban kepada Neptune agar kekurangan air pada musim panas mereda.",
+          "quote": "The Romans made sacrifices to Neptune so he would ease their water shortages during the heat, and they held chariot races.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c09",
+          "source_id": "neptune-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the Aeneid, Neptune calms the sea to aid Aeneas and his men.",
+          "statement_id": "Dalam Aeneid, Neptune menenangkan laut untuk membantu Aeneas dan pengikutnya.",
+          "quote": "Neptune is angered by the storm, which he knows has been sent by his cunning sister Juno, and calms the waters to help Aeneas and his men.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "phoenix",
+      "file": "batch-034-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 9,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "phoenix-c01",
+          "source_id": "phoenix-s1",
+          "host": "www.theoi.com",
+          "statement": "The phoenix is a legendary red-and-gold bird that radiates sunlight.",
+          "statement_id": "Phoenix adalah burung legendaris berbulu merah keemasan dan bercahaya.",
+          "quote": "THE PHOINIX (Phoenix) was a fabulous, red-gold feathered bird whose body emitted rays of pure sunlight.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c02",
+          "source_id": "phoenix-s1",
+          "host": "www.theoi.com",
+          "statement": "One account gives the phoenix a five-hundred-year life and a diet of Arabian balsam and frankincense.",
+          "statement_id": "Dalam satu uraian phoenix hidup lima ratus tahun dan memakan balsam serta kemenyan Arab.",
+          "quote": "The creature lived for five hundred years and feasted upon Arabian balsalm and frankinsense.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c03",
+          "source_id": "phoenix-s1",
+          "host": "www.theoi.com",
+          "statement": "When a phoenix dies, a new one emerges from its body.",
+          "statement_id": "Saat phoenix mati, phoenix baru muncul dari tubuhnya.",
+          "quote": "When it died a new Phoinix emerged fully-grown from its body.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c04",
+          "source_id": "phoenix-s1",
+          "host": "www.theoi.com",
+          "statement": "Herodotus said he had never seen a phoenix, only pictures of it.",
+          "statement_id": "Herodotus menulis bahwa ia tidak pernah melihat phoenix dan hanya mengenalnya dari gambar.",
+          "quote": "I myself have never seen it, only pictures of it; for the bird seldom comes into Aigyptos (Egypt) : once in five hundred years, as the people of Heliopolis say.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c05",
+          "source_id": "phoenix-s1",
+          "host": "www.theoi.com",
+          "statement": "In Herodotus's account, the phoenix carries its parent's body from Arabia to a sun temple wrapped in myrrh.",
+          "statement_id": "Dalam kisah Herodotus, phoenix membawa jasad induknya dari Arabia ke kuil matahari dalam balutan mur.",
+          "quote": "Flying from Arabia to the temple of the Helios (the Sun), they say, he conveys his father encased in myrrh and buries him at the temple of Helios [i.e. in the temple of the Egyptian god Ra].",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c06",
+          "source_id": "phoenix-s1",
+          "host": "www.theoi.com",
+          "statement": "Ovid says a young phoenix is reborn from its parent's body.",
+          "statement_id": "Ovid mengisahkan phoenix kecil lahir kembali dari jasad induknya.",
+          "quote": "Then from his father's body is reborn a little Phoenix, so they say, to live the same long years.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c07",
+          "source_id": "phoenix-s1",
+          "host": "www.theoi.com",
+          "statement": "The self-burning phoenix is a version that became more popular later.",
+          "statement_id": "Kisah phoenix yang membakar diri merupakan versi yang lebih populer pada masa kemudian.",
+          "quote": "According to a story which has gained more currency in modern times, Phoenix, when he arrived at a very old age (some say 500 and others 1461 years), committed himself to the flames.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c08",
+          "source_id": "phoenix-s2",
+          "host": "www.metmuseum.org",
+          "statement": "Chinese fenghuang is often translated 'phoenix' but is a distinct mythical bird.",
+          "statement_id": "Fenghuang Tiongkok sering diterjemahkan 'phoenix', tetapi menurut The Met merupakan makhluk mitos yang berbeda.",
+          "quote": "Though usually translated as “phoenix” in English, the fenghuang bird is a distinct mythical species with a different set of associations.",
+          "context": "scholarly-interpretation",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "phoenix-c09",
+          "source_id": "phoenix-s2",
+          "host": "www.metmuseum.org",
+          "statement": "The fenghuang is said to appear in times of peace and prosperity.",
+          "statement_id": "Fenghuang dikisahkan muncul pada masa damai dan makmur, berbeda dari kisah kelahiran ulang phoenix.",
+          "quote": "The fenghuang, most noble of all feathered species, is said to appear only in times of peace and prosperity, so the creature is depicted frequently in works commissioned by imperial courts.",
+          "context": "traditional-belief",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "uranus",
+      "file": "batch-034-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 10,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 10 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "uranus-c01",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Uranus or Ouranos is the personification of the sky in Greek mythology.",
+          "statement_id": "Uranus atau Ouranos adalah personifikasi langit dalam mitologi Yunani.",
+          "quote": "Uranus (also spelt Ouranos) is the personification of heaven and the sky in Greek mythology.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c02",
+          "source_id": "uranus-s2",
+          "host": "www.theoi.com",
+          "statement": "Uranus is a primordial sky god.",
+          "statement_id": "Uranus digolongkan sebagai dewa purba langit.",
+          "quote": "OURANOS (Uranus) was the primordial god (protogenos) of the sky.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c03",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Gaia gave birth to Uranus and chose him as her equal.",
+          "statement_id": "Menurut Hesiod, Gaia melahirkan Uranus dan menjadikannya pasangannya.",
+          "quote": "Gaia (Earth) gave birth to Uranus and chose him to be her equal.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c04",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Gaia and Uranus parented the Titans, Cyclopes, and Hecatoncheires.",
+          "statement_id": "Gaia dan Uranus melahirkan para Titan, Cyclopes, dan Hecatoncheires.",
+          "quote": "She lay with him, resulting in the birth of the twelve Titans, the three Cyclopes and the three Hecatoncheires.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c05",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Uranus hid his children within the earth.",
+          "statement_id": "Uranus menyembunyikan anak-anaknya di dalam bumi.",
+          "quote": "Uranus hated his and Gaia's children and hid them deep beneath the earth so that they would stay out of his sight.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c06",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Gaia gave Cronus a sickle to confront Uranus.",
+          "statement_id": "Gaia memberikan sabit kepada Cronus untuk melawan Uranus.",
+          "quote": "Gaia made a sickle out of grey adamant, gave it to Cronus, and hid him in her bed chamber.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c07",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Cronus castrated Uranus with the sickle.",
+          "statement_id": "Cronus mengebiri Uranus dengan sabit.",
+          "quote": "Cronus took his chance and struck out with the sickle, castrating Uranus' genitals.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c08",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Uranus's blood falling on Gaia led to the birth of Erinyes, Giants, and Meliae.",
+          "statement_id": "Darah Uranus yang jatuh ke Gaia melahirkan Erinyes, para raksasa, dan Meliae.",
+          "quote": "As the blood fell, it impregnated Gaia, who gave birth to the Erinyes (the Furies), the Giants and the Meliae (tree nymphs).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c09",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In this account, Aphrodite was born from sea foam.",
+          "statement_id": "Dalam kisah itu, Aphrodite lahir dari buih di laut.",
+          "quote": "White foam surrounded it, and from it, the goddess Aphrodite was born in Cythera (Kythira).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c10",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Caelus is Uranus's Roman counterpart.",
+          "statement_id": "Caelus adalah padanan Romawi Uranus.",
+          "quote": "His Roman counterpart is Caelus.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "hanuman",
+      "file": "batch-034-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 10,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 10 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "3 kutipan tidak bisa dicek otomatis: asia.si.edu (HTTP 403); www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "hanuman-c01",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hanuman is an animal-formed figure in Indian mythology revered as a god.",
+          "statement_id": "Hanuman adalah sosok mitologi India berwujud hewan yang dipuja sebagai dewa.",
+          "quote": "Hanuman is one of several zoomorphic characters in Indian mythology, but is the only wholly animal figure who is revered as a god today.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c02",
+          "source_id": "hanuman-s2",
+          "host": "asia.si.edu",
+          "statement": "Hanuman is a monkey-bodied deity, Rama's companion, and an exemplar of devotion.",
+          "statement_id": "Hanuman adalah dewa bertubuh kera, pendamping Rama, dan teladan bakti.",
+          "quote": "a deity with the body of a monkey; a companion of the deity Rama and an exemplar of self-discipline and devotion.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "hanuman-c03",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Mythic texts describe Hanuman as the Wind God's monkey child with strength and Vedic learning.",
+          "statement_id": "Teks mitos menggambarkan Hanuman sebagai anak dewa angin yang kuat dan menguasai Weda.",
+          "quote": "The mythic texts speak of him as a monkey child of the Wind God, as possessing enormous strength, keen intellect and a mastery over the Vedas and other branches of learning.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c04",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hanuman is devoted to Rama and can assume any form.",
+          "statement_id": "Hanuman mengabdi kepada Rama dan dapat mengambil berbagai wujud.",
+          "quote": "He is also an unquestioning devotee of Rama, the hero of the epic Ramayana, and has the ability to take on any form he wishes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c05",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hanuman flies over the sea to locate Sita and report back to Rama.",
+          "statement_id": "Hanuman terbang menyeberangi lautan untuk menemukan Sita dan membawa kabar kepada Rama.",
+          "quote": "He is the one who flies across the oceans (he is Wind's child), locates the exact place where Sita is imprisoned and brings this information back to Rama.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c06",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Unable to identify the healing herbs, Hanuman carries the whole mountain to the battlefield.",
+          "statement_id": "Ketika tidak bisa mengenali ramuan penyembuh, Hanuman membawa seluruh gunung ke medan perang.",
+          "quote": "Being unable to identify the exact four herbs that the physician had described, Hanuman uproots the entire mountain and carries it back to the battlefield.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c07",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hanuman can change form and alter his size.",
+          "statement_id": "Hanuman dapat mengubah wujud dan ukuran tubuhnya.",
+          "quote": "He is also a shapeshifter who can increase and decrease his body size at will.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c08",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hanuman remains worshiped as a god in parts of India.",
+          "statement_id": "Hanuman masih dipuja sebagai dewa di berbagai wilayah India.",
+          "quote": "Hanuman is worshipped as a god in several parts of India today.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c09",
+          "source_id": "hanuman-s3",
+          "host": "www.metmuseum.org",
+          "statement": "The Met notes Hanuman's veneration for humility and loyalty, with devotees seeking strength and courage.",
+          "statement_id": "Menurut The Met, umat memuja Hanuman atas kerendahan hati dan kesetiaannya serta mengharapkan kekuatan dan keberanian.",
+          "quote": "Hanuman is venerated across India on account of his humility and loyalty, and devotees believe worshipping him imbues them with physical energy, fearlessness, and mental enlightenment.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "hanuman-c10",
+          "source_id": "hanuman-s3",
+          "host": "www.metmuseum.org",
+          "statement": "Hanuman amulets are believed to protect their wearers and bring well-being.",
+          "statement_id": "Jimat bergambar Hanuman dipercaya melindungi pemakainya dan membawa kesejahteraan.",
+          "quote": "Amulets featuring large depictions of Hanuman protect the wearer, providing prosperity, peace, and good health.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "mars",
+      "file": "batch-034-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 10,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 10 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "mars-c01",
+          "source_id": "mars-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Mars is the Roman war god, second only to Jupiter in the Roman pantheon.",
+          "statement_id": "Mars adalah dewa perang Romawi yang kedudukannya hanya di bawah Jupiter.",
+          "quote": "Mars was the Roman god of war and second only to Jupiter in the Roman pantheon.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c02",
+          "source_id": "mars-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Mars myths drew on Greek Ares but retained distinct Roman features.",
+          "statement_id": "Kisah Mars banyak meminjam mitos Ares, tetapi memiliki ciri khas Romawi.",
+          "quote": "Although most of the myths involving Mars were borrowed from the Greek god of war Ares, Mars did have some uniquely Roman features.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c03",
+          "source_id": "mars-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Mars was seen as protector of Rome and its borders.",
+          "statement_id": "Mars dipandang sebagai pelindung Roma dan perbatasannya.",
+          "quote": "Mar was a protector of Rome and the Roman way of life. He defended city borders and frontiers.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c04",
+          "source_id": "mars-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Mars was said to father Romulus and Remus, Rome's mythical founders.",
+          "statement_id": "Mars disebut ayah Romulus dan Remus, pendiri mitis Roma.",
+          "quote": "Mars was considered the father of Romulus and Remus, the mythical twin founders of Rome.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c05",
+          "source_id": "mars-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The month Martius was named after Mars.",
+          "statement_id": "Bulan Martius dinamai dari Mars.",
+          "quote": "The month of Martius (March) was named after the god.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c06",
+          "source_id": "mars-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Some Mars rites may have agricultural links, but his agricultural role is debated.",
+          "statement_id": "Sebagian ritus Mars mungkin berkaitan dengan pertanian, tetapi perannya dalam bidang itu masih diperdebatkan.",
+          "quote": "These rites may also have been connected to agriculture but the nature of Mars' role in this area of Roman life is disputed by scholars.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c07",
+          "source_id": "mars-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The wolf and woodpecker were associated with Mars.",
+          "statement_id": "Serigala dan burung pelatuk berkaitan erat dengan Mars.",
+          "quote": "the god was also closely associated with the wolf and woodpecker.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c08",
+          "source_id": "mars-s2",
+          "host": "www.metmuseum.org",
+          "statement": "Temples and altars to Mars stood in Rome and across the empire.",
+          "statement_id": "Kuil dan altar Mars didirikan di Roma dan seluruh kekaisaran.",
+          "quote": "Numerous temples, shrines, and altars were dedicated to him in Rome and throughout the Empire.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "mars-c09",
+          "source_id": "mars-s2",
+          "host": "www.metmuseum.org",
+          "statement": "A Roman relief at The Met portrays Mars as an older bearded man wearing a Corinthian helmet.",
+          "statement_id": "Relief Romawi di The Met menggambarkan Mars sebagai pria tua berjanggut dengan helm Korintus.",
+          "quote": "Mars is represented in the canonical guise of an older, bearded man wearing a Corinthian helmet tipped back on his head.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "mars-c10",
+          "source_id": "mars-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Mars festivals in March and October marked military campaign preparations and closure.",
+          "statement_id": "Festival Mars berlangsung pada Maret dan Oktober, terkait awal dan akhir musim kampanye militer.",
+          "quote": "Important festivals and ceremonies, usually connected to the preparation and closure of military campaigns, were held in honour of the god in March and October",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    }
+  ]
+}

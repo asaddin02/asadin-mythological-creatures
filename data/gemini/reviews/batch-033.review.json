@@ -1,0 +1,624 @@
+{
+  "batch_id": "batch-033",
+  "checked_at": "2026-09-29T18:42:50.322Z",
+  "files": [
+    "batch-033.md",
+    "batch-033-fix-1.md"
+  ],
+  "parse_problems": [],
+  "missing": [],
+  "entries": [
+    {
+      "slug": "horus",
+      "file": "batch-033-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 9,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "horus-c01",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Horus is an Egyptian sky god name primarily referring to Horus the Elder and Horus the Younger.",
+          "statement_id": "Horus adalah nama dewa langit Mesir yang terutama merujuk pada Horus Tua dan Horus Muda.",
+          "quote": "Horus is the name of a sky god in ancient Egyptian mythology which designates primarily two deities: Horus the Elder (or Horus the Great), the last born of the first five original gods, and Horus the Younger, the son of Osiris and Isis.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c02",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The son of Osiris and Isis was called Horus the Child and later known in Greek tradition as Harpocrates.",
+          "statement_id": "Putra Osiris dan Isis disebut Horus Anak; dalam dunia Yunani ia dikenal sebagai Harpokrates.",
+          "quote": "The son of Osiris and Isis is known as Horus the Child (Hor pa khered) who was transformed into the Greek god Harpocrates after Alexander the Great conquered Egypt in 331 BCE.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c03",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Horus, son of Isis and Osiris, defeated his uncle Set and restored order.",
+          "statement_id": "Horus putra Isis dan Osiris mengalahkan pamannya Set dan memulihkan ketertiban negeri.",
+          "quote": "the son of Isis and Osiris who defeated his uncle Set and restored order to the land.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c04",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Horus is the Latin form of Egyptian Hor, meaning 'the Distant One'.",
+          "statement_id": "Nama Horus adalah bentuk Latin dari Hor, yang berarti 'Yang Jauh'.",
+          "quote": "The name Horus is the Latin version of the Egyptian Hor which means \"the Distant One\", a reference to his role as a sky god.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c05",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Horus the Younger was associated mainly with the sun and also with the moon.",
+          "statement_id": "Horus Muda berhubungan terutama dengan matahari dan juga bulan.",
+          "quote": "Horus the Younger, on the other hand, was a powerful sky god associated with the sun, primarily, but also the moon.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c06",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Horus later combined with Ra as Ra-Harahkhte, a falcon-headed sun god.",
+          "statement_id": "Horus kelak berpadu dengan Ra menjadi Ra-Harahkhte, dewa matahari berkepala elang.",
+          "quote": "In time, he became combined with the sun god Ra to form a new deity, Ra-Harahkhte, god of the sun who sailed across the sky during the day and was depicted as a falcon-headed man wearing the double crown of Upper and Lower Egypt with the sun disk on it.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c07",
+          "source_id": "horus-s2",
+          "host": "www.metmuseum.org",
+          "statement": "The falcon was seen as an incarnation of Horus, god of the sky and kingship.",
+          "statement_id": "Elang dianggap perwujudan Horus, dewa langit dan kerajaan.",
+          "quote": "According to Egyptian belief, the falcon was an incarnation of the sky god Horus, who was also the god of kingship.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "horus-c08",
+          "source_id": "horus-s2",
+          "host": "www.metmuseum.org",
+          "statement": "Pharaoh Nectanebo II emphasized a close bond with Horus as god of kingship.",
+          "statement_id": "Firaun Nectanebo II menonjolkan kedekatannya dengan Horus sebagai dewa kerajaan.",
+          "quote": "The pharaoh Nectanebo II often invoked a very close connection–even a merging–between himself and the falcon god of kingship, Horus.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "horus-c09",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Horus the Elder is sibling of Osiris, Isis, Set, and Nephthys and is called Horus the Great.",
+          "statement_id": "Horus Tua adalah saudara Osiris, Isis, Set, dan Nephthys; ia juga disebut Horus Agung.",
+          "quote": "The elder Horus, brother of Osiris, Isis, Set, and Nephthys, is known as Horus the Great in English or Harwer and Haroeris in Egyptian.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "parvati",
+      "file": "batch-033-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 10,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 10 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "8 kutipan tidak bisa dicek otomatis: academic.oup.com (HTTP 403); asia.si.edu (HTTP 403)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "parvati-c01",
+          "source_id": "parvati-s1",
+          "host": "academic.oup.com",
+          "statement": "Parvati is a Hindu goddess whose name means daughter of the mountain and who is also called Uma.",
+          "statement_id": "Parvati adalah dewi Hindu yang namanya bermakna putri gunung dan juga disebut Uma.",
+          "quote": "Pārvatī (\"daughter of the mountain,\" also known as Umā) is considered one of the most beloved goddesses in the Hindu pantheon, although she has not been the focus of sustained scholarly study.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "parvati-c02",
+          "source_id": "parvati-s1",
+          "host": "academic.oup.com",
+          "statement": "Parvati is Shiva's wife and the mother of Ganesha and Skanda, associated with Mahadevi's benign aspect.",
+          "statement_id": "Parvati adalah istri Siwa serta ibu Ganesha dan Skanda, dan berhubungan dengan aspek lembut Mahadevi.",
+          "quote": "She figures prominently as the devoted wife of the great god Śiva, mother of Gaṇeśa and Skanda (also known as Kārttikeya or Murugan), and is closely aligned with the benign aspect of Mahādevī, the Great Goddess.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "parvati-c03",
+          "source_id": "parvati-s1",
+          "host": "academic.oup.com",
+          "statement": "Purana stories recount Parvati's rebirth as daughter of Himavat and Mena, her ascetic practice, and marriage to Shiva.",
+          "statement_id": "Kisah Purana menyebut Parvati terlahir kembali sebagai putri Himavat dan Mena serta melakukan tapa dan menikahi Siwa.",
+          "quote": "Her mythic profile unfolds through enduring stories told in the purāṇas including her rebirth as the daughter of Himavat and Menā, her practice of tapas (asceticism), her wedding ceremony and marriage to Śiva, the birth of her sons, her emanation as Durgā, the game of dice, and her role as half of Śiva’s body in the androgynous form Ardhanārīśvara (the half-woman lord).",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "parvati-c04",
+          "source_id": "parvati-s1",
+          "host": "academic.oup.com",
+          "statement": "Parvati is also Shiva's shakti, mother of the universe, and an ascetic in her own right.",
+          "statement_id": "Parvati juga digambarkan sebagai sakti Siwa, ibu semesta, dan petapa perempuan.",
+          "quote": "However, Pārvatī is not only Śiva’s wife; she is also his śakti, mother of the universe and a disciplined female ascetic (tapasvinī) in her own right.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "parvati-c05",
+          "source_id": "parvati-s2",
+          "host": "asia.si.edu",
+          "statement": "The Smithsonian describes Parvati or Uma as a mountain goddess and divine feminine power.",
+          "statement_id": "Smithsonian menggambarkan Parvati atau Uma sebagai dewi gunung dan kekuatan feminin ilahi.",
+          "quote": "Hindu Goddess of the Mountain, also known as Uma; she is often seen as the feminine half of the god Shiva, and the divine feminine power of the universe (shakti).",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "parvati-c06",
+          "source_id": "parvati-s2",
+          "host": "asia.si.edu",
+          "statement": "The Puranas tell of Parvati's wish to marry Shiva.",
+          "statement_id": "Purana menceritakan Parvati ingin menikah dengan Siwa.",
+          "quote": "The Puranas, literally the “old stories” of Hindu traditions, relate the narrative of the goddess Parvati, who aspired to marry the god Shiva.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "parvati-c07",
+          "source_id": "parvati-s2",
+          "host": "asia.si.edu",
+          "statement": "Parvati performed severe asceticism to gain power and win over the meditating Shiva.",
+          "statement_id": "Parvati menjalani tapa berat untuk memperoleh kekuatan dan memikat Siwa yang sedang bertapa.",
+          "quote": "Because Shiva could not easily be distracted from his yogic meditation, Parvati subjected herself to extreme acts of physical deprivation—such as meditating in cold water during the winter—to gain supernatural powers and win over the celibate god.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "parvati-c08",
+          "source_id": "parvati-s3",
+          "host": "asiasociety.qi-cms.com",
+          "statement": "Parvati is worshiped as Shiva's wife and as an independent goddess.",
+          "statement_id": "Parvati dipuja sebagai istri Siwa dan sebagai dewi tersendiri.",
+          "quote": "The Hindu goddess Parvati, the daughter of the Himalayan Mountains, is worshiped both as Shiva's wife and as an independent deity.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c09",
+          "source_id": "parvati-s3",
+          "host": "asiasociety.qi-cms.com",
+          "statement": "The Asia Society's Parvati statue stands in the triple-bend tribhanga pose.",
+          "statement_id": "Arca Parvati di Asia Society berdiri dalam pose tribhanga dengan tiga tekukan.",
+          "quote": "She stands in a traditional posture of self-assured grace, the triple-bend pose (tribhanga) in which the head and lower body slant in one direction, while the torso moves in the opposite direction.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c10",
+          "source_id": "parvati-s2",
+          "host": "asia.si.edu",
+          "statement": "In South India, Parvati is also known as Uma.",
+          "statement_id": "Di India Selatan, Parvati juga dikenal sebagai Uma.",
+          "quote": "In South India, where this sculpture was made, the Hindu goddess Parvati is known as Uma.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "amun",
+      "file": "batch-033.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 10,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 10 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "3 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "amun-c01",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Amun, also called Amon or Amen, is an ancient Egyptian god of the sun and air.",
+          "statement_id": "Amun, juga disebut Amon atau Amen, adalah dewa matahari dan udara Mesir Kuno.",
+          "quote": "Amun (also Amon, Ammon, Amen, Amun-Ra) is the ancient Egyptian god of the sun and air.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c02",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Amun's name means 'the hidden one' or 'invisible'.",
+          "statement_id": "Nama Amun berarti 'yang tersembunyi' atau 'tak terlihat'.",
+          "quote": "His name means \"the hidden one,\" \"invisible,\" \"mysterious of form,\" and unlike most other Egyptian gods, he was considered Lord of All who encompassed every aspect of creation.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c03",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Amun is depicted as a bearded man with double plumes or as a ram-headed man or ram.",
+          "statement_id": "Amun digambarkan sebagai pria berjanggut dengan mahkota dua bulu atau sebagai domba jantan.",
+          "quote": "He is usually depicted as a bearded man wearing a headdress with a double plume or, after the New Kingdom, as a ram-headed man or simply a ram, symbolizing fertility in his role as Amun-Min.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c04",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Amun appears in the Pyramid Texts as a local god of Thebes paired with Amaunet.",
+          "statement_id": "Amun disebut dalam Teks Piramida sebagai dewa lokal Thebes bersama Amaunet.",
+          "quote": "Amun is first mentioned in the Pyramid Texts (c. 2400-2300 BCE) as a local god of Thebes along with his consort Amaunet.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c05",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the Theban triad, Amun's consort was Mut and their son was Khonsu.",
+          "statement_id": "Dalam triad Thebes, Amun berpasangan dengan Mut dan memiliki putra Khonsu.",
+          "quote": "Since the time of the Middle Kingdom (2040-1782 BCE) Amun had been growing in power in Thebes and was a part of the Theban triad of deities with his consort Mut (who replaced Amaunet) and their son Khonsu, the moon god.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c06",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Amun became Amun-Ra, creator of the universe and king of the gods.",
+          "statement_id": "Amun berpadu dengan Ra sebagai Amun-Ra, pencipta alam semesta dan raja para dewa.",
+          "quote": "Amun then became Amun-Ra, creator of the universe, and King of the Gods.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c07",
+          "source_id": "amun-s2",
+          "host": "www.metmuseum.org",
+          "statement": "Amun was worshiped as a universal cosmic god and called king of the gods.",
+          "statement_id": "Amun dipuja sebagai dewa kosmis universal dan sering disebut raja para dewa.",
+          "quote": "Amun was one of Egypt’s most celebrated deities, worshipped as a universal, cosmic god and frequently called the king of the gods.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "amun-c08",
+          "source_id": "amun-s2",
+          "host": "www.metmuseum.org",
+          "statement": "Amun's cult originated in Thebes, included the Karnak temple, and spread across Egyptian temples.",
+          "statement_id": "Kultus Amun berasal dari Thebes, berpusat di kuil Karnak, dan meluas ke berbagai kuil Mesir.",
+          "quote": "His cult originated in Thebes and his temple at Karnak remains one of the most stunning achievements of Egyptian cult and architecture, but he was worshipped in temples and shrines throughout Egypt.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "amun-c09",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "At the Feast of Opet, Amun's statue was carried by barque from Karnak to Luxor.",
+          "statement_id": "Pada Perayaan Opet, arca Amun dibawa dengan perahu dari Karnak ke kuil Luxor.",
+          "quote": "On Amun's great festival, The Feast of Opet, the barque would move with great ceremony - carrying Amun's statue from the Karnak temple downriver to the Luxor temple so the god could visit.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c10",
+          "source_id": "amun-s3",
+          "host": "www.metmuseum.org",
+          "statement": "Tutankhamun restored Amun's Karnak monuments damaged during Akhenaten's reign.",
+          "statement_id": "Tutankhamun memulihkan monumen Amun di Karnak yang rusak pada masa Akhenaten.",
+          "quote": "The statue was certainly created for Karnak, Amun's great temple at Thebes, as part of Tutankhamun's restoration of the god's monuments that had been defaced or destroyed during the reign of Akhenaten.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "demon",
+      "file": "batch-033-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 8,
+        "sources": 4,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 8 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "demon-c01",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A demon is a supernatural entity usually regarded as evil or malevolent.",
+          "statement_id": "Demon adalah sebutan untuk entitas adikodrati yang biasanya dianggap jahat.",
+          "quote": "A demon is an evil or malevolent supernatural entity",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c02",
+          "source_id": "demon-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Demon translates Greek daimon, meaning spirit, which could be good or evil.",
+          "statement_id": "Kata demon berasal dari daimon Yunani yang berarti roh; daimon bisa baik atau jahat.",
+          "quote": "The English word \"demon\" is a translation of the Greek word daimon, which simply meant \"spirit\". A daimon could be good or evil, depending on its intentions and the results of a visitation.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c03",
+          "source_id": "demon-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "In the Bible, demon denotes an evil spirit.",
+          "statement_id": "Dalam penggunaan Alkitab, demon berarti roh jahat.",
+          "quote": "As used in the Bible, the word demon designates an evil spirit.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c04",
+          "source_id": "demon-s2",
+          "host": "www.worldhistory.org",
+          "statement": "In ancient Mesopotamia, demons were not always evil; Pazuzu could also do good.",
+          "statement_id": "Dalam tradisi Mesopotamia kuno, demon tidak selalu jahat; Pazuzu juga dapat melakukan kebaikan.",
+          "quote": "Demons were not always evil, and even those who brought death and destruction, like Pazuzu, were still capable of good deeds.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c05",
+          "source_id": "demon-s3",
+          "host": "www.metmuseum.org",
+          "statement": "The Met notes that ancient sources often portray these beings without a strict moral division.",
+          "statement_id": "Menurut The Met, sumber kuno sering menggambarkan entitas semacam ini tanpa pembagian moral yang tegas.",
+          "quote": "Although they are often classified as either evil or protective in modern scholarship, supernatural beings in ancient references seem to be presented as largely amoral.",
+          "context": "scholarly-interpretation",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "demon-c06",
+          "source_id": "demon-s3",
+          "host": "www.metmuseum.org",
+          "statement": "Pazuzu was used for protection against Lamashtu, feared by pregnant women and newborns.",
+          "statement_id": "Pazuzu dipakai sebagai pelindung dari Lamashtu, demon perempuan yang ditakuti ibu hamil dan bayi.",
+          "quote": "Pazuzu, as a powerful demon, was frequently set up as a shield against another supernatural terror: Lamashtu, a female demon with broad and far-ranging destructive powers, especially feared by pregnant women and those with newborns, who were her favored (but not only) victims.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "demon-c07",
+          "source_id": "demon-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "The related term later came to mean harmful spirits.",
+          "statement_id": "Dalam perkembangan makna, istilah yang berkerabat dengan daimon dipakai bagi roh yang menyakiti manusia.",
+          "quote": "was applied to evil spirits, spirits that tormented men or caused them harm.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c08",
+          "source_id": "demon-s2",
+          "host": "www.worldhistory.org",
+          "statement": "The modern evil connotation of demon differs from its ancient usage.",
+          "statement_id": "Konotasi jahat pada demon modern berbeda dari cakupan istilah itu dalam dunia kuno.",
+          "quote": "The term \"demon\" in the modern day always carries with it the connotation of evil, but this was not so in the ancient world.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "eros",
+      "file": "batch-033.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 10,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 10 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "eros-c01",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Eros is the Greek god of love and passionate desire.",
+          "statement_id": "Eros adalah dewa Yunani yang berkaitan dengan cinta dan hasrat.",
+          "quote": "Eros was the Greek god of love, or more precisely, passionate and physical desire.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c02",
+          "source_id": "eros-s2",
+          "host": "www.theoi.com",
+          "statement": "One tradition describes Eros as a primordial god emerging at creation.",
+          "statement_id": "Satu tradisi menggambarkan Eros sebagai dewa purba yang muncul pada awal penciptaan.",
+          "quote": "EROS was the primordial god (protogenos) of procreation who emerged self-formed at the dawn of creation.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c03",
+          "source_id": "eros-s2",
+          "host": "www.theoi.com",
+          "statement": "In another tradition, the younger Eros is Aphrodite's son carrying bow and arrows.",
+          "statement_id": "Dalam tradisi lain, Eros muda adalah putra Aphrodite yang membawa busur dan panah.",
+          "quote": "The younger Eros, a mischievous godling armed with bow and arrows, was a son of the goddess Aphrodite.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c04",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "One genealogy makes Eros the son of Aphrodite and Ares.",
+          "statement_id": "Salah satu silsilah menyebut Eros putra Aphrodite dan Ares.",
+          "quote": "He was also sometimes regarded as the child of Aphrodite, with Ares, the god of war, as his father",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c05",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Eros's arrows were said to make humans, heroes, and gods fall in love.",
+          "statement_id": "Panah Eros dikisahkan membuat manusia, pahlawan, dan dewa jatuh cinta.",
+          "quote": "It was thought that Eros' arrows, often randomly aimed, made people, heroes, and gods fall in love - no one was immune.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c06",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Eros fell in love with and married Psyche despite Aphrodite's opposition.",
+          "statement_id": "Eros jatuh cinta dan menikahi Psyche meskipun Aphrodite menentangnya.",
+          "quote": "Eros was not himself immune to the powers of love, and he famously fell for and married Psyche against the wishes of his mother Aphrodite.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c07",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Eros received cult worship at Thespiae, Athens, Megara, and other places.",
+          "statement_id": "Eros dipuja antara lain di Thespiae, Athena, dan Megara.",
+          "quote": "In Greek religion, Eros was the subject of cult worship in Thespiae (with its sporting and artistic festival, the Erotidia) and at Athens, Megara, Philadelphia, Leuctra, Velia, and Parium.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c08",
+          "source_id": "eros-s3",
+          "host": "www.metmuseum.org",
+          "statement": "Classical art usually portrays Eros as a winged youth.",
+          "statement_id": "Dalam seni Yunani klasik, Eros lazim digambarkan sebagai pemuda bersayap.",
+          "quote": "In Classical art he is usually represented as a beautiful winged youth.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "eros-c09",
+          "source_id": "eros-s3",
+          "host": "www.metmuseum.org",
+          "statement": "In the Hellenistic period, depiction of Eros as a baby became common.",
+          "statement_id": "Pada zaman Helenistik, gambaran Eros sebagai bayi mulai menonjol.",
+          "quote": "During the Hellenistic period (323–31 B.C.) a new image of the god as a baby took hold.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "eros-c10",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Cupid is the Roman counterpart of Eros.",
+          "statement_id": "Cupid adalah padanan Romawi Eros.",
+          "quote": "Eros is the Greek god of love and Cupid is his Roman equivalent.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    }
+  ]
+}

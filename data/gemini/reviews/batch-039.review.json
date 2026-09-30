@@ -1,0 +1,716 @@
+{
+  "batch_id": "batch-039",
+  "checked_at": "2026-09-29T19:17:36.730Z",
+  "files": [
+    "batch-039.md",
+    "batch-039-fix-1.md",
+    "batch-039-fix-2.md"
+  ],
+  "parse_problems": [],
+  "missing": [],
+  "entries": [
+    {
+      "slug": "minotaur-q129866",
+      "file": "batch-039-fix-2.md",
+      "verdict": "perlu-perbaikan",
+      "counts": {
+        "claims": 10,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 10 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "error",
+          "where": "slug",
+          "message": "Makhluk ini sudah ada di Mythics (minotaur)."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "minotaur-q129866-c01",
+          "source_id": "minotaur-q129866-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Minotaur is a Greek hybrid with a man's body and a bull's head and tail.",
+          "statement_id": "Minotaur adalah makhluk campuran bertubuh manusia dengan kepala dan ekor banteng dalam mitologi Yunani.",
+          "quote": "In Greek mythology, the Minotaur was a monster with the body of a man and the head and tail of a bull.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minotaur-q129866-c02",
+          "source_id": "minotaur-q129866-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Minotaur was the child of Cretan queen Pasiphae and a bull.",
+          "statement_id": "Minotaur adalah anak Pasiphae, ratu Kreta, dan seekor banteng.",
+          "quote": "The Minotaur was the offspring of the Cretan Queen Pasiphae and a majestic bull.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minotaur-q129866-c03",
+          "source_id": "minotaur-q129866-s1",
+          "host": "www.worldhistory.org",
+          "statement": "King Minos ordered Daedalus to build the Labyrinth to contain the Minotaur.",
+          "statement_id": "Raja Minos memerintahkan Daedalus membuat Labirin untuk mengurung Minotaur.",
+          "quote": "King Minos ordered the craftsman, Daedalus, and his son, Icarus, to build a huge maze known as the Labyrinth to house the beast.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minotaur-q129866-c04",
+          "source_id": "minotaur-q129866-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In one account, youths and maidens were sent to the Minotaur in the Labyrinth.",
+          "statement_id": "Menurut salah satu kisah, Minotaur menerima pemuda dan gadis sebagai korban di Labirin.",
+          "quote": "The Minotaur remained in the Labyrinth receiving annual offerings of youths and maidens to eat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minotaur-q129866-c05",
+          "source_id": "minotaur-q129866-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Athenian hero Theseus killed the Minotaur.",
+          "statement_id": "Pahlawan Athena Theseus membunuh Minotaur.",
+          "quote": "He was eventually killed by the Athenian hero Theseus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minotaur-q129866-c06",
+          "source_id": "minotaur-q129866-s1",
+          "host": "www.worldhistory.org",
+          "statement": "This source also names the Minotaur Asterion.",
+          "statement_id": "Minotaur disebut juga Asterion dalam sumber ini.",
+          "quote": "the Minotaur's birth name, Asterion, in ancient Greek \"ἀστέριον\" means \"starry one\"",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "minotaur-q129866-c07",
+          "source_id": "minotaur-q129866-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Ariadne gave Theseus thread to find his way out of the Labyrinth.",
+          "statement_id": "Ariadne memberikan benang kepada Theseus agar dapat keluar dari Labirin.",
+          "quote": "Following Daedalus' instructions, she handed Theseus a ball of thread to help him find his way out of the Labyrinth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minotaur-q129866-c08",
+          "source_id": "minotaur-q129866-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Accounts vary on whether Theseus killed the Minotaur with his fists or Aegeus' sword.",
+          "statement_id": "Cara Theseus membunuh Minotaur bervariasi: dengan tinju atau pedang Aegeus.",
+          "quote": "He found the Minotaur in the furthest corner of the Labyrinth and killed him with the jabs of his fist (or in other accounts, he sneaks in the sword of Aegeus and slays the Minotaur with it).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "minotaur-q129866-c09",
+          "source_id": "minotaur-q129866-s2",
+          "host": "www.metmuseum.org",
+          "statement": "A Greek amphora at the Met depicts Theseus killing the Minotaur.",
+          "statement_id": "Amfora Yunani sekitar 500 SM di The Met memperlihatkan Theseus membunuh Minotaur.",
+          "quote": "This small neck-amphora shows Theseus slaying the Minotaur, the half-man, half-bull who lived in the Labyrinth at Knossos.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "minotaur-q129866-c10",
+          "source_id": "minotaur-q129866-s2",
+          "host": "www.metmuseum.org",
+          "statement": "Theseus and the Minotaur became a popular subject in Archaic Athenian vase painting.",
+          "statement_id": "Kisah Theseus dan Minotaur menjadi tema populer dalam lukisan vas Athena masa Arkais.",
+          "quote": "the subject of Theseus and the Minotaur became a popular scene in Athenian vase painting of the Archaic period.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "nymph",
+      "file": "batch-039.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 11,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 11 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "nymph-c01",
+          "source_id": "nymph-s1",
+          "host": "www.theoi.com",
+          "statement": "Nymphs are minor female nature deities or spirits in Greek myth.",
+          "statement_id": "Nymph adalah dewi kecil atau roh perempuan alam dalam mitologi Yunani.",
+          "quote": "NYMPHAI (Nymphs) were female spirits of the natural world--minor goddesses of the forests, rivers, springs, meadows, mountains and seas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nymph-c02",
+          "source_id": "nymph-s1",
+          "host": "www.theoi.com",
+          "statement": "Nymphs are depicted as young women with attributes of their habitats.",
+          "statement_id": "Nymph digambarkan sebagai perempuan muda dengan ciri sesuai tempat tinggalnya.",
+          "quote": "The nymphs were depicted as beautiful young women with attributes matching their abode.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nymph-c03",
+          "source_id": "nymph-s1",
+          "host": "www.theoi.com",
+          "statement": "Nymphs were companions of gods.",
+          "statement_id": "Nymph dikisahkan sebagai pengiring para dewa.",
+          "quote": "Nymphs were also companions of the gods.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nymph-c04",
+          "source_id": "nymph-s1",
+          "host": "www.theoi.com",
+          "statement": "Some nymphs were said to nurse infant Zeus and Dionysos.",
+          "statement_id": "Sejumlah Nymph dikisahkan merawat Zeus kecil dan Dionysos.",
+          "quote": "Others were the nurses of the gods including the Idaian nymphs who nursed the infant Zeus, and the Nysian nymphs who cared for Dionysos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nymph-c05",
+          "source_id": "nymph-s1",
+          "host": "www.theoi.com",
+          "statement": "Ancient Greek nymph types were fluid rather than rigid categories.",
+          "statement_id": "Jenis-jenis Nymph dalam sumber Yunani kuno tidak memiliki batas yang kaku.",
+          "quote": "Ancient Greek writers describe many types of nymph but the classifications were rather fluid.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nymph-c06",
+          "source_id": "nymph-s1",
+          "host": "www.theoi.com",
+          "statement": "Naiads are freshwater nymphs of springs, rivers, streams, wells, and fountains.",
+          "statement_id": "Naiad adalah Nymph air tawar yang terkait mata air, sungai, dan sumur.",
+          "quote": "NAIADES (Naiads) were nymphs of the earthly sources of fresh-water, including springs, rivers, streams, wells and fountains.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nymph-c07",
+          "source_id": "nymph-s1",
+          "host": "www.theoi.com",
+          "statement": "Dryads are nymphs of trees and forests.",
+          "statement_id": "Dryad adalah Nymph pepohonan dan hutan.",
+          "quote": "DRYADES (Dryads) were the nymphs of the trees, forests and groves.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nymph-c08",
+          "source_id": "nymph-s1",
+          "host": "www.theoi.com",
+          "statement": "Oreads are mountain-dwelling nymphs.",
+          "statement_id": "Oread adalah Nymph yang menghuni pegunungan.",
+          "quote": "OREIADES (Oreads) were mountain-dwelling nymphs.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nymph-c09",
+          "source_id": "nymph-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Shrines to nymphs have been found in caves in the Greek world.",
+          "statement_id": "Tempat pemujaan Nymph ditemukan di gua-gua wilayah Yunani.",
+          "quote": "shrines dedicated to nymphs have been found in caves across the Greek world, such as at Vari on Mount Hymettus",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nymph-c10",
+          "source_id": "nymph-s3",
+          "host": "www.namuseum.gr",
+          "statement": "Greek art imagined nymphs dancing in circles outside caves.",
+          "statement_id": "Nymph dibayangkan menari melingkar di luar gua dalam seni Yunani.",
+          "quote": "people imagined the Nymphs dancing in circle outside their caves on mount Helicon, in Phocis, in Attica and throughout Greece.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nymph-c11",
+          "source_id": "nymph-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Nymphs also appear in Roman mythology as young nature deities.",
+          "statement_id": "Nymph juga dikenal dalam mitologi Romawi sebagai dewi muda alam.",
+          "quote": "A nymph (Greek: νύμφη, nymphē) in Greek and in Roman mythology is a young female deity typically identified with natural features",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "rhea",
+      "file": "batch-039-fix-2.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 11,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 11 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "rhea-c01",
+          "source_id": "rhea-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Rhea is a female Titan and mother goddess in Greek myth.",
+          "statement_id": "Rhea adalah Titan perempuan dan dewi ibu dalam mitologi Yunani.",
+          "quote": "Rhea (also spelt Rheia) is a Titan and a mother goddess in Greek mythology.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rhea-c02",
+          "source_id": "rhea-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Rhea is daughter of Gaia and Uranus and mother of major Olympian deities.",
+          "statement_id": "Rhea adalah putri Gaia dan Uranus serta ibu para dewa Olimpus.",
+          "quote": "She is the daughter of Gaia (Earth) and Uranus (Heaven) and the mother of the great deities of Mount Olympus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rhea-c03",
+          "source_id": "rhea-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Rhea's Roman counterpart was Ops.",
+          "statement_id": "Padanan Romawi Rhea ialah Ops.",
+          "quote": "Her Roman counterpart was Ops, a fertility deity and the goddess of the harvest.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "rhea-c04",
+          "source_id": "rhea-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Rhea saved Zeus from being swallowed by his father Cronus.",
+          "statement_id": "Rhea menyelamatkan Zeus agar tidak ditelan ayahnya, Cronus.",
+          "quote": "Rhea is most well-known as the mother of the Olympian deities, especially Zeus, who she saved from being swallowed by his father, Cronus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rhea-c05",
+          "source_id": "rhea-s2",
+          "host": "www.theoi.com",
+          "statement": "Rhea gave Kronos a swaddled stone instead of infant Zeus.",
+          "statement_id": "Rhea memberi Kronos batu berbalut kain sebagai pengganti Zeus bayi.",
+          "quote": "Rhea meanwhile gave Kronos a stone wrapped in the swaddling-cloths to swallow in place of his newborn son.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rhea-c06",
+          "source_id": "rhea-s2",
+          "host": "www.theoi.com",
+          "statement": "Infant Zeus was entrusted to the Kouretes and nymphs Adrasteia and Ide.",
+          "statement_id": "Zeus kecil dipercayakan kepada Kouretes dan dua Nymph bernama Adrasteia dan Ide.",
+          "quote": "She put him in the care of both the Kouretes (Curetes) and the Nymphai (Nymphs) Adrasteia and Ide (Ida)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rhea-c07",
+          "source_id": "rhea-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Kouretes clashed shields to hide infant Zeus's cries from Cronus.",
+          "statement_id": "Kouretes membenturkan perisai untuk menutupi tangis Zeus dari Cronus.",
+          "quote": "They sang and danced and clashed their shields to drown out the cries of the infant Zeus and protect him from his father.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rhea-c08",
+          "source_id": "rhea-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Rhea became closely associated with the Phrygian goddess Cybele.",
+          "statement_id": "Rhea kemudian dikaitkan dengan dewi Frigia Cybele.",
+          "quote": "Rhea was closely associated with Cybele, a Phrygian goddess who was worshipped across Greece, Rome and Anatolia.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "rhea-c09",
+          "source_id": "rhea-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Rhea and Cybele began as separate figures before being identified.",
+          "statement_id": "Rhea dan Cybele mula-mula merupakan identitas terpisah sebelum dipadankan.",
+          "quote": "Rhea and Cybele began as two separate identities, but they essentially became two manifestations of the same deity.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "rhea-c10",
+          "source_id": "rhea-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Metroön at Olympia honored Rhea as mother of the gods.",
+          "statement_id": "Kuil Metroön di Olympia didedikasikan bagi Rhea sebagai ibu para dewa.",
+          "quote": "In Olympia, there was a temple known as the Metroön, which was built for Rhea in honour of her role as mother of the gods.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "rhea-c11",
+          "source_id": "rhea-s2",
+          "host": "www.theoi.com",
+          "statement": "Diodorus names Hestia, Demeter, Hera, Zeus, Poseidon, and Hades as Rhea's children.",
+          "statement_id": "Kisah Diodorus menyebut Hestia, Demeter, Hera, Zeus, Poseidon, dan Hades sebagai anak Rhea.",
+          "quote": "To Kronos (Cronus) and Rhea, we are told, were born Hestia, Demeter, and Hera, and Zeus, Poseidon, and Haides",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "vulcan",
+      "file": "batch-039.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 10,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 10 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "vulcan-c01",
+          "source_id": "vulcan-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Vulcan is the Roman god of fire and forge, equivalent to Greek Hephaestus.",
+          "statement_id": "Vulcan adalah dewa api dan penempaan Romawi, dipadankan dengan Hephaestus Yunani.",
+          "quote": "Vulcan or Volcanus was the Roman god of fire and forge, the equivalent of Hephaestus from Greek mythology.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vulcan-c02",
+          "source_id": "vulcan-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Vulcan is the son of Jupiter and Juno and patron of smiths and artisans.",
+          "statement_id": "Vulcan adalah putra Jupiter dan Juno serta pelindung pandai besi dan perajin.",
+          "quote": "The son of Jupiter and Juno, he was the special patron of blacksmiths and artisans.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vulcan-c03",
+          "source_id": "vulcan-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Vulcanalia festival was celebrated on 23 August.",
+          "statement_id": "Festival Vulcanalia diperingati pada 23 Agustus.",
+          "quote": "Vulcan had a festival, the Vulcanalia (the Hephaestia) celebrated on 23 August",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vulcan-c04",
+          "source_id": "vulcan-s1",
+          "host": "www.worldhistory.org",
+          "statement": "A temple of Vulcan stood on the Campus Martius outside Rome.",
+          "statement_id": "Sebuah kuil Vulcan terletak di Campus Martius di luar Roma.",
+          "quote": "a temple located outside Rome on the Campus Martius.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "vulcan-c05",
+          "source_id": "vulcan-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In a Roman account Vulcan established a forge at Mount Aetna with Cyclopes.",
+          "statement_id": "Dalam kisah Romawi, Vulcan menempa di Gunung Aetna bersama para Cyclopes.",
+          "quote": "According to the Roman account, Vulcan withdrew to Mount Aetna where he established a great forge and partnered with the Cyclopes Bronte, Steropes, and Pyraemon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vulcan-c06",
+          "source_id": "vulcan-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Vulcan made a trapped golden throne for Juno.",
+          "statement_id": "Vulcan membuat takhta emas berperangkap untuk Juno.",
+          "quote": "Vulcan fashioned a beautiful golden throne for Juno, but it contained a number of hidden springs.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vulcan-c07",
+          "source_id": "vulcan-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In a Roman myth Vulcan opens Jupiter's head and Minerva emerges.",
+          "statement_id": "Dalam sebuah mitos Romawi, Vulcan membuka kepala Jupiter hingga Minerva lahir.",
+          "quote": "Finally, Jupiter appealed to Vulcan to open up his head with an axe. Vulcan quickly complied, and Minerva sprang forth, fully grown and clad in her armor.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vulcan-c08",
+          "source_id": "vulcan-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the Aeneid Venus asks Vulcan to forge arms for Aeneas.",
+          "statement_id": "Dalam Aeneid, Venus meminta Vulcan membuat senjata dan zirah bagi Aeneas.",
+          "quote": "Venus is concerned for her son Aeneas' safety and appeals to her husband Vulcan to make him weapons and armor.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vulcan-c09",
+          "source_id": "vulcan-s2",
+          "host": "www.metmuseum.org",
+          "statement": "Renaissance art often depicts Vulcan as a lame blacksmith.",
+          "statement_id": "Seni Renaisans sering menampilkan Vulcan sebagai pandai besi yang pincang.",
+          "quote": "In Renaissance art, the Roman god of fire is usually shown in the character of a crippled blacksmith.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "vulcan-c10",
+          "source_id": "vulcan-s2",
+          "host": "www.metmuseum.org",
+          "statement": "Vulcan was regarded as patron of workers with molten metal.",
+          "statement_id": "Vulcan juga dipandang sebagai pelindung pekerja logam cair.",
+          "quote": "As patron of those who worked with molten metal, Vulcan must have had a special meaning for the bronze artist.",
+          "context": "scholarly-interpretation",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "garuda-q188676",
+      "file": "batch-039-fix-2.md",
+      "verdict": "perlu-perbaikan",
+      "counts": {
+        "claims": 15,
+        "sources": 4,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "error",
+          "where": "slug",
+          "message": "Makhluk ini sudah ada di Mythics (garuda)."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "9 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429); asia.si.edu (HTTP 403)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "garuda-q188676-c01",
+          "source_id": "garuda-q188676-s1",
+          "host": "www.metmuseum.org",
+          "statement": "Garuda is a Hindu god combining human and bird features, associated with the sun and slaying evil serpents.",
+          "statement_id": "Garuda adalah dewa Hindu berwujud campuran manusia dan burung, terkait matahari serta pembasmi ular jahat.",
+          "quote": "Garuda, the Hindu god who is part man and part bird, symbolizes the power of the sun and is known for slaying evil serpents.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "garuda-q188676-c02",
+          "source_id": "garuda-q188676-s1",
+          "host": "www.metmuseum.org",
+          "statement": "In art, Garuda usually appears as Vishnu's mount.",
+          "statement_id": "Dalam seni, Garuda lazim digambarkan sebagai wahana Wisnu.",
+          "quote": "In art he usually appears as the mount or vehicle of Vishnu.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "garuda-q188676-c03",
+          "source_id": "garuda-q188676-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Garuda traditionally has a human torso and arms with the wings, head, beak, and talons of an eagle or vulture.",
+          "statement_id": "Garuda digambarkan bertubuh dan berlengan manusia, dengan sayap, kepala, paruh, serta cakar elang atau nasar.",
+          "quote": "The mythological bird creature Garuda traditionally has the torso and arms of a man and the wings, head, beak and talons of an eagle or vulture.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "garuda-q188676-c04",
+          "source_id": "garuda-q188676-s2",
+          "host": "www.worldhistory.org",
+          "statement": "In this account, Garuda has a gold body, red wings, and a white face.",
+          "statement_id": "Dalam uraian ini, tubuh Garuda berwarna emas, sayapnya merah, dan wajahnya putih.",
+          "quote": "His body is gold in colour, his wings are red and his face is white.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "garuda-q188676-c05",
+          "source_id": "garuda-q188676-s2",
+          "host": "www.worldhistory.org",
+          "statement": "This account names Unnati or Vinayaka as his wife and Sampati as his son.",
+          "statement_id": "Artikel ini menyebut Unnati atau Vinayaka sebagai istrinya dan Sampati sebagai putranya.",
+          "quote": "Garuda's wife is Unnati (or Vinayaka in other versions) and his son is Sampati, another mythical bird and ally of Rama.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "garuda-q188676-c06",
+          "source_id": "garuda-q188676-s2",
+          "host": "www.worldhistory.org",
+          "statement": "This account calls Garuda the offspring of Kasyapa and Vinata, with Tarksya in other versions.",
+          "statement_id": "Dalam artikel ini, Garuda adalah anak Kasyapa dan Vinata, dengan Tarksya disebut dalam versi lain.",
+          "quote": "Garuda is the offspring of Kasyapa and Vinata (or also Tarksya in other versions).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "garuda-q188676-c07",
+          "source_id": "garuda-q188676-s2",
+          "host": "www.worldhistory.org",
+          "statement": "In a Hindu story, Garuda tries to take the sacred amrta from the gods.",
+          "statement_id": "Dalam salah satu kisah Hindu, Garuda berusaha mengambil amerta dari para dewa.",
+          "quote": "In perhaps the most famous episode from Hindu mythology involving Garuda, the giant bird attempted to steal from the gods the sacred amrta or 'water of life'.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "garuda-q188676-c08",
+          "source_id": "garuda-q188676-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Garuda needed the amrta to free his mother from Kadru.",
+          "statement_id": "Garuda memerlukan amerta untuk membebaskan ibunya dari Kadru.",
+          "quote": "he needed the amrta as a ransom to free his mother from the clutches of Kadru",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "garuda-q188676-c09",
+          "source_id": "garuda-q188676-s1",
+          "host": "www.metmuseum.org",
+          "statement": "A Javanese tale describes Garuda stealing an elixir of immortality guarded by two poisonous serpents.",
+          "statement_id": "Kisah Jawa yang dijelaskan museum menggambarkan Garuda mencuri ramuan keabadian yang dijaga dua ular berbisa.",
+          "quote": "In a tale well known to the Javanese, Garuda stole the elixir of immortality from the gods, who had thought it was well protected by two poisonous serpents from the realm of the gods.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "garuda-q188676-c10",
+          "source_id": "garuda-q188676-s1",
+          "host": "www.metmuseum.org",
+          "statement": "The Javanese bronze depicts Garuda carrying Krishna, an avatar of Vishnu.",
+          "statement_id": "Perunggu Jawa di museum menggambarkan Garuda membawa Krishna, awatara Wisnu.",
+          "quote": "Here Garuda carries Krishna, an avatar of Vishnu, who not only has borrowed Vishnu's mount but also holds his war discus (chakra).",
+          "context": "scholarly-interpretation",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "garuda-q188676-c11",
+          "source_id": "garuda-q188676-s3",
+          "host": "asia.si.edu",
+          "statement": "The Smithsonian describes Garuda as a divine eagle carrying Vishnu in flight.",
+          "statement_id": "Smithsonian menggambarkan Garuda sebagai elang ilahi yang membawa Wisnu terbang.",
+          "quote": "The divine eagle Garuda carries the Hindu god Vishnu in flight.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "garuda-q188676-c12",
+          "source_id": "garuda-q188676-s3",
+          "host": "asia.si.edu",
+          "statement": "In the Smithsonian's sculpture, Garuda's snake ornaments are linked to his victory over serpents.",
+          "statement_id": "Pada arca yang dijelaskan Smithsonian, hiasan ular Garuda dikaitkan dengan kemenangan atas ular-ular itu.",
+          "quote": "Garuda wears snakes because, having defeated them in battle, the serpents have become his devotees.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "garuda-q188676-c13",
+          "source_id": "garuda-q188676-s3",
+          "host": "asia.si.edu",
+          "statement": "This sculpture once topped a pillar facing a Vishnu temple.",
+          "statement_id": "Arca Garuda ini dahulu berada di atas tiang yang menghadap kuil Wisnu.",
+          "quote": "This sculpture of Garuda originally topped a pillar facing a temple dedicated to the Hindu god Vishnu.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "garuda-q188676-c14",
+          "source_id": "garuda-q188676-s4",
+          "host": "www.metmuseum.org",
+          "statement": "A Nepalese relief depicts Vishnu flying on half-bird, half-human Garuda.",
+          "statement_id": "Relief Nepal menggambarkan Wisnu terbang di atas Garuda yang separuh burung dan separuh manusia.",
+          "quote": "This rare early example of Nepalese repoussé depicts the god Vishnu in flight astride his half-bird, half-human mount, Garuda.",
+          "context": "scholarly-interpretation",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "garuda-q188676-c15",
+          "source_id": "garuda-q188676-s4",
+          "host": "www.metmuseum.org",
+          "statement": "Garuda was a Gupta dynastic symbol, a royal association continued by the Licchavi kingdom in Nepal.",
+          "statement_id": "Garuda menjadi lambang dinasti Gupta dan hubungan kerajaan itu berlanjut pada Licchavi di Nepal.",
+          "quote": "Garuda their dynastic symbol—a royal association that continued with the Licchavi kingdom in Nepal.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        }
+      ],
+      "images": []
+    }
+  ]
+}

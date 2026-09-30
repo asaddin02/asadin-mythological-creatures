@@ -1,0 +1,430 @@
+{
+  "batch_id": "batch-027",
+  "checked_at": "2026-09-29T18:07:07.212Z",
+  "files": [
+    "batch-027.md",
+    "batch-027-fix-1.md"
+  ],
+  "parse_problems": [],
+  "missing": [],
+  "entries": [
+    {
+      "slug": "artemis",
+      "file": "batch-027-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 6 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "artemis-c01",
+          "source_id": "artemis-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Artemis is an ancient Greek goddess of hunting, wilderness, animals, and childbirth.",
+          "statement_id": "Artemis adalah dewi Yunani kuno yang membawahi perburuan, alam liar, hewan, dan kelahiran anak.",
+          "quote": "is the goddess of hunting, the wilderness, wild animals, transitions, nature, vegetation, childbirth, care of children, and chastity.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "artemis-c02",
+          "source_id": "artemis-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Artemis is Leto and Zeus's daughter and Apollo's twin.",
+          "statement_id": "Artemis adalah putri Leto dan Zeus serta saudara kembar Apollo.",
+          "quote": "Artemis was the daughter of Leto and Zeus, and twin sister of Apollo.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "artemis-c03",
+          "source_id": "artemis-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Artemis was said to roam forests and mountains with nymphs.",
+          "statement_id": "Artemis sering dikisahkan berkeliaran di hutan dan gunung bersama para nimfa.",
+          "quote": "She was often said to roam the forests and mountains, attended by an entourage of nymphs.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "artemis-c04",
+          "source_id": "artemis-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Artemis's Roman counterpart is Diana.",
+          "statement_id": "Padanan Artemis dalam tradisi Romawi adalah Diana.",
+          "quote": "The goddess Diana is her Roman equivalent.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "artemis-c05",
+          "source_id": "artemis-s2",
+          "host": "www.theoi.com",
+          "statement": "Ancient art commonly shows Artemis as a girl or young woman with a hunting bow and quiver.",
+          "statement_id": "Dalam seni kuno Artemis lazim digambarkan sebagai gadis atau perempuan muda dengan busur dan tabung anak panah.",
+          "quote": "In ancient art Artemis was usually depicted as a girl or young maiden with a hunting bow and quiver of arrows.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "artemis-c06",
+          "source_id": "artemis-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Artemis protected girls, young women, and women in childbirth; her famous temple at Ephesus was one of the Seven Wonders of the Ancient World.",
+          "statement_id": "Artemis menjadi pelindung gadis, perempuan muda, dan perempuan yang melahirkan; situs pemujaannya yang terkenal adalah Kuil Artemis di Ephesus, salah satu Tujuh Keajaiban Dunia Kuno.",
+          "quote": "Daughter of Zeus and sister of Apollo, Artemis was a patron of girls and young women, and a protectress during childbirth. Artemis was widely worshipped but her most famous cult site was the Temple of Artemis at Ephesus, one of the Seven Wonders of the Ancient World.",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "venus",
+      "file": "batch-027-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 6 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "3 kutipan tidak bisa dicek otomatis: www.worldhistory.org (tidak bisa dibuka (timeout)); www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "venus-c01",
+          "source_id": "venus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Venus is a Roman goddess associated with love, beauty, desire, sex, fertility, prosperity, and victory.",
+          "statement_id": "Venus adalah dewi Romawi yang dihubungkan dengan cinta, kecantikan, hasrat, seksualitas, kesuburan, kemakmuran, dan kemenangan.",
+          "quote": "is a Roman goddess whose functions encompass love, beauty, desire, sex, fertility, prosperity, and victory.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "venus-c02",
+          "source_id": "venus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Roman myth, Venus is the ancestor of the Roman people through her son Aeneas.",
+          "statement_id": "Dalam mitologi Romawi, Venus disebut leluhur bangsa Romawi melalui putranya Aeneas.",
+          "quote": "In Roman mythology, she was the ancestor of the Roman people through her son, Aeneas, who survived the fall of Troy and fled to Italy.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "venus-c03",
+          "source_id": "venus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Romans adapted Aphrodite's myths and imagery for Roman art and Latin literature.",
+          "statement_id": "Bangsa Romawi mengadaptasi kisah dan penggambaran Aphrodite Yunani untuk seni Romawi dan sastra Latin.",
+          "quote": "The Romans adapted the myths and iconography of her Greek counterpart Aphrodite for Roman art and Latin literature.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "venus-c04",
+          "source_id": "venus-s2",
+          "host": "www.worldhistory.org",
+          "statement": "World History Encyclopedia calls Venus the Roman goddess of love, sex, beauty, and fertility, counterpart to Aphrodite.",
+          "statement_id": "Menurut World History Encyclopedia, Venus adalah dewi cinta, seksualitas, kecantikan, dan kesuburan Romawi, padanan Aphrodite Yunani.",
+          "quote": "In Roman mythology, Venus was the goddess of love, sex, beauty, and fertility. She was the Roman counterpart to the Greek goddess Aphrodite.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
+        },
+        {
+          "id": "venus-c05",
+          "source_id": "venus-s2",
+          "host": "www.worldhistory.org",
+          "statement": "The source names Vulcan as Venus's husband and Mars as another divine lover.",
+          "statement_id": "Sumber menyebut Vulcan sebagai suami Venus dan Mars sebagai pasangan ilahi lainnya.",
+          "quote": "Venus had two main divine lovers: her husband Vulcan (Hephaistos) and Mars (Ares).",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (timeout)"
+        },
+        {
+          "id": "venus-c06",
+          "source_id": "venus-s3",
+          "host": "www.metmuseum.org",
+          "statement": "The museum describes Venus and her son Cupid as embodiments of love in verse.",
+          "statement_id": "Museum menyebut Venus dan putranya Cupid sebagai sosok yang mewujudkan cinta dalam syair.",
+          "quote": "this potent force was often embodied by Venus (the Greek Aphrodite), goddess of love, and her son Cupid (the Greek Eros)",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "hermes",
+      "file": "batch-027-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 6 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "hermes-c01",
+          "source_id": "hermes-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Hermes is a Greek Olympian herald of the gods and protector of travelers and merchants.",
+          "statement_id": "Hermes adalah dewa Olimpus Yunani, pembawa pesan dewa dan pelindung pelancong serta pedagang.",
+          "quote": "is an Olympian deity in ancient Greek religion and mythology considered the herald of the gods. He is also widely considered the protector of human heralds, travelers, thieves, merchants, and orators.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hermes-c02",
+          "source_id": "hermes-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Hermes serves as a guide of souls to the afterlife.",
+          "statement_id": "Hermes berperan sebagai pembimbing jiwa menuju alam kematian.",
+          "quote": "Hermes plays the role of the psychopomp or \"soul guide\"—a conductor of souls into the afterlife.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hermes-c03",
+          "source_id": "hermes-s2",
+          "host": "www.theoi.com",
+          "statement": "Theoi identifies Hermes with flocks, travelers, roads, trade, cunning, heralds, and diplomacy.",
+          "statement_id": "Theoi menyebut Hermes dewa ternak, pelancong, jalan, perdagangan, kecerdikan, pembawa pesan, dan diplomasi.",
+          "quote": "HERMES was the Olympian god of herds and flocks, travellers and hospitality, roads and trade, thievery and cunning, heralds and diplomacy, language and writing, athletic contests and gymnasiums, astronomy and astrology.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hermes-c04",
+          "source_id": "hermes-s2",
+          "host": "www.theoi.com",
+          "statement": "Hermes is shown as a beardless youth or older bearded man with winged boots and a herald's wand.",
+          "statement_id": "Hermes digambarkan sebagai pemuda tanpa janggut atau pria tua berjanggut dengan sepatu bersayap dan tongkat pembawa pesan.",
+          "quote": "Hermes was depicted as either a handsome and athletic, beardless youth or as an older, bearded man, with winged boots and a herald's wand.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hermes-c05",
+          "source_id": "hermes-s3",
+          "host": "www.worldhistory.org",
+          "statement": "World History Encyclopedia calls Hermes the Olympian gods' herald and messenger.",
+          "statement_id": "World History Encyclopedia menyebut Hermes pembawa pesan dewa-dewa Olimpus.",
+          "quote": "One of the cleverest and most mischievous of the 12 Olympian gods, Hermes was their herald and messenger.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hermes-c06",
+          "source_id": "hermes-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Romans knew Hermes as Mercury.",
+          "statement_id": "Bangsa Romawi mengenal Hermes sebagai Mercury.",
+          "quote": "To the Romans, the god was known as Mercury.",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "thor",
+      "file": "batch-027-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 6 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "thor-c01",
+          "source_id": "thor-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Thor or Þórr is a hammer-bearing Germanic and Norse god linked to thunder, storms, strength, protection, fertility, and farmers.",
+          "statement_id": "Thor atau Þórr adalah dewa pembawa palu dalam tradisi Jermanik dan mitologi Nordik, terkait guntur, badai, kekuatan, perlindungan, kesuburan, dan petani.",
+          "quote": "Thor (from Old Norse: Þórr) is a prominent god in Germanic paganism. In Norse mythology, he is a hammer-wielding god associated with thunder, storms, strength, protection, fertility, and farmers.",
+          "context": "religious-tradition",
+          "status": "loose"
+        },
+        {
+          "id": "thor-c02",
+          "source_id": "thor-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Thor wields Mjölnir and wears Megingjörð and Járngreipr.",
+          "statement_id": "Thor menggunakan palu Mjölnir, sabuk Megingjörð, dan sarung tangan Járngreipr.",
+          "quote": "Thor wields the hammer Mjölnir, wears the belt Megingjörð and the iron gloves Járngreipr",
+          "context": "religious-tradition",
+          "status": "loose"
+        },
+        {
+          "id": "thor-c03",
+          "source_id": "thor-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Thor is described as defender of Asgard and Midgard, especially through fighting giants.",
+          "statement_id": "Thor digambarkan sebagai pembela Asgard dan Midgard, terutama dengan melawan para raksasa.",
+          "quote": "Thor was the defender of Asgard, realm of the gods, and Midgard, the human realm, and is primarily associated with protection through great feats of arms in slaying giants.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "thor-c04",
+          "source_id": "thor-s3",
+          "host": "en.natmus.dk",
+          "statement": "According to the National Museum of Denmark, Thor was the thunder god who protected Midgard with Mjöllnir.",
+          "statement_id": "Menurut Museum Nasional Denmark, Thor dewa guntur yang melindungi Midgard, dunia manusia, menggunakan Mjöllnir.",
+          "quote": "Thor was the god of thunder and he protected Midgard – the world of humans – using his hammer Mjöllnir.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "thor-c05",
+          "source_id": "thor-s3",
+          "host": "en.natmus.dk",
+          "statement": "The museum cites finds of Thor's hammers as archaeological evidence for early Viking beliefs.",
+          "statement_id": "Museum menyebut temuan benda berbentuk palu Thor sebagai bukti arkeologis kepercayaan awal Viking.",
+          "quote": "Apart from these sources, some archaeological objects have also been found, which tell us about the Vikings’ early beliefs and the pantheon of Norse gods. Thor’s hammers are a good example of this.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "thor-c06",
+          "source_id": "thor-s2",
+          "host": "www.worldhistory.org",
+          "statement": "World History Encyclopedia calls Thor the Norse god of thunder, sky, and agriculture.",
+          "statement_id": "World History Encyclopedia menyebut Thor dewa guntur, langit, dan pertanian Nordik.",
+          "quote": "Thor (Old Norse: Þórr) is the Norse god of thunder, the sky, and agriculture.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "hades",
+      "file": "batch-027-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 7,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 7 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "hades-c01",
+          "source_id": "hades-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Hades is the ancient Greek god of the dead and riches and king of the underworld.",
+          "statement_id": "Hades adalah dewa orang mati dan kekayaan serta raja alam bawah dalam agama Yunani kuno.",
+          "quote": "in the ancient Greek religion and mythology, is the god of the dead and riches and the King of the underworld, with which his name became synonymous.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hades-c02",
+          "source_id": "hades-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Hades received the underworld, Zeus the sky, and Poseidon the sea.",
+          "statement_id": "Hades mendapat alam bawah, Zeus langit, dan Poseidon laut.",
+          "quote": "Hades received the underworld, Zeus the sky, and Poseidon the sea",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hades-c03",
+          "source_id": "hades-s2",
+          "host": "www.theoi.com",
+          "statement": "Hades presided over funerary rites and defended the dead's right to burial.",
+          "statement_id": "Hades memimpin upacara pemakaman dan membela hak orang mati atas penguburan layak.",
+          "quote": "He presided over funeral rites and defended the right of the dead to due burial.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hades-c04",
+          "source_id": "hades-s2",
+          "host": "www.theoi.com",
+          "statement": "Hades was also god of the earth's hidden wealth, including fertile soil and metals.",
+          "statement_id": "Hades juga dewa kekayaan tersembunyi di bumi, dari tanah subur hingga logam.",
+          "quote": "Haides was also the god of the hidden wealth of the earth, from the fertile soil with nourished the seed-grain, to the mined wealth of gold, silver and other metals.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hades-c05",
+          "source_id": "hades-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Hades names both the god and the underworld considered the destination of dead souls.",
+          "statement_id": "Hades adalah nama dewa sekaligus nama tempat alam bawah yang dianggap tujuan akhir jiwa orang mati.",
+          "quote": "Hades was both the name of the ancient Greek god of the underworld (Roman name: Pluto) and the name of the shadowy place below the earth which was considered the final destination for the souls of the dead.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hades-c06",
+          "source_id": "hades-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Persephone is named as Hades's wife whom he brought to the underworld.",
+          "statement_id": "Persephone disebut sebagai istri Hades yang dibawanya ke alam bawah.",
+          "quote": "The god's wife was Persephone whom he abducted to join him in the underworld",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hades-c07",
+          "source_id": "hades-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Hades is described as dwelling in a dark palace beneath the earth rather than on Olympus.",
+          "statement_id": "Hades digambarkan tinggal di istana gelap di bawah bumi, bukan di Olympus.",
+          "quote": "Hades was the only god not to reside on Mount Olympus, dwelling instead in a dark palace beneath the earth.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    }
+  ]
+}

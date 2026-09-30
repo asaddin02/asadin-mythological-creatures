@@ -1,0 +1,428 @@
+{
+  "batch_id": "batch-026",
+  "checked_at": "2026-09-29T17:55:50.993Z",
+  "files": [
+    "batch-026.md",
+    "batch-026-fix-1.md",
+    "batch-026-fix-2.md"
+  ],
+  "parse_problems": [],
+  "missing": [],
+  "entries": [
+    {
+      "slug": "trimurti",
+      "file": "batch-026.md",
+      "verdict": "skip",
+      "counts": {
+        "claims": 0,
+        "sources": 0,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "skip",
+          "message": "Diusulkan dilewati: Trimurti adalah konsep tiga dewa Hindu (Brahma, Vishnu, dan Shiva), bukan satu sosok makhluk tersendiri. (https://en.wikipedia.org/wiki/Trimurti)."
+        }
+      ],
+      "claims": [],
+      "images": []
+    },
+    {
+      "slug": "gabriel",
+      "file": "batch-026-fix-2.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 9,
+        "sources": 4,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 9 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "1 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "gabriel-c01",
+          "source_id": "gabriel-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Gabriel is an angel who announces God's will to humankind.",
+          "statement_id": "Gabriel adalah malaikat pembawa pesan kehendak Tuhan kepada manusia.",
+          "quote": "is an angel with the power to announce God's will to humankind as the messenger of God.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c02",
+          "source_id": "gabriel-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Book of Daniel, Gabriel explains Daniel's visions.",
+          "statement_id": "Dalam Kitab Daniel, Gabriel menjelaskan penglihatan Daniel.",
+          "quote": "In the Book of Daniel, Gabriel appears to the prophet Daniel to explain his visions.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c03",
+          "source_id": "gabriel-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Luke’s Gospel, Gabriel announces John the Baptist’s birth to Zechariah.",
+          "statement_id": "Dalam Injil Lukas, Gabriel memberitahukan kelahiran Yohanes Pembaptis kepada Zakharia.",
+          "quote": "In the New Testament Gospel of Luke, Gabriel appears to Zechariah foretelling the birth of John the Baptist.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c04",
+          "source_id": "gabriel-s3",
+          "host": "legacy.quran.com",
+          "statement": "According to Al-Baqarah 2:97, Gabriel brought the Quran to Muhammad by God's permission.",
+          "statement_id": "Menurut Al-Baqarah 2:97, Gabriel membawa Al-Qur'an kepada Muhammad dengan izin Allah.",
+          "quote": "Whoever is an enemy to Gabriel - it is [none but] he who has brought the Qur'an down upon your heart, [O Muhammad], by permission of Allah",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c05",
+          "source_id": "gabriel-s4",
+          "host": "www.metmuseum.org",
+          "statement": "According to the Metropolitan Museum of Art, Muslims believe Gabriel communicated God's word to Muhammad in Arabic.",
+          "statement_id": "Menurut Metropolitan Museum of Art, umat Muslim meyakini Gabriel menyampaikan firman Tuhan kepada Muhammad dalam bahasa Arab.",
+          "quote": "Muslims believe that the word of God was revealed to him by the archangel Gabriel in Arabic",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "gabriel-c06",
+          "source_id": "gabriel-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Biblical Hebrew name is Gaḇrīʾēl (גַּבְרִיאֵל), with geber as a component.",
+          "statement_id": "Nama Ibrani Gabriel adalah Gaḇrīʾēl (גַּבְרִיאֵל); artikel menjelaskan unsur geber.",
+          "quote": "The Biblical Hebrew name Gaḇrīʾēl (גַּבְרִיאֵל) is composed of the first person singular possessive form of the noun geber",
+          "context": "etymology",
+          "status": "loose"
+        },
+        {
+          "id": "gabriel-c07",
+          "source_id": "gabriel-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Gabriel's name is commonly glossed as 'God is my strength' or 'Strength of God'.",
+          "statement_id": "Nama Gabriel lazim ditafsirkan sebagai 'Tuhan adalah kekuatanku' atau 'Kekuatan Tuhan'.",
+          "quote": "Usually glossed as \"God is my strength\" or \"Strength of God\"",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c08",
+          "source_id": "gabriel-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Gabriel is known in Judaism, Christianity, and Islam.",
+          "statement_id": "Gabriel dikenal dalam Yudaisme, Kristen, dan Islam.",
+          "quote": "In Judaism, Christianity, Islam, and other Abrahamic religions, Gabriel",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gabriel-c09",
+          "source_id": "gabriel-s2",
+          "host": "www.biblegateway.com",
+          "statement": "Gabriel tells Mary that she will bear Jesus.",
+          "statement_id": "Gabriel memberitahukan kepada Maria bahwa ia akan melahirkan Yesus.",
+          "quote": "You will conceive and give birth to a son, and you are to call him Jesus.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "satan",
+      "file": "batch-026-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 7,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 7 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "satan-c01",
+          "source_id": "satan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Satan, also known as the Devil, is an Abrahamic figure who tempts humans toward sin or falsehood.",
+          "statement_id": "Satan, juga dikenal sebagai Devil, adalah sosok dalam agama Abrahamik yang menggoda manusia menuju dosa atau kepalsuan.",
+          "quote": "Satan, also known as the Devil, is an entity in Abrahamic religions who entices humans into sin or falsehood.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c02",
+          "source_id": "satan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Judaism Satan is an agent subordinate to God; in Christianity and Islam he is usually seen as a rebellious fallen angel or jinn.",
+          "statement_id": "Dalam Yudaisme, Satan dilihat sebagai agen di bawah Tuhan; dalam Kekristenan dan Islam ia biasanya digambarkan sebagai malaikat jatuh atau jin pemberontak.",
+          "quote": "In Judaism, Satan is seen as an agent subservient to God, typically regarded as a metaphor for the yetzer hara, or 'evil inclination'. In Christianity and Islam, he is usually seen as a fallen angel or jinn who has rebelled against God",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c03",
+          "source_id": "satan-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Satan is known in Jewish, Christian, and Islamic traditions.",
+          "statement_id": "Satan dikenal dalam tradisi Yahudi, Kristen, dan Islam.",
+          "quote": "Satan, or the Devil, is one of the best-known characters in the Western traditions of Judaism, Christianity, and Islam.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c04",
+          "source_id": "satan-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, the Jewish Bible does not depict Satan as wholly evil.",
+          "statement_id": "Menurut World History Encyclopedia, Alkitab Yahudi tidak menggambarkan Satan sebagai sosok sepenuhnya jahat.",
+          "quote": "Satan, as a totally evil being, is nowhere to be found in the Jewish Bible.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c05",
+          "source_id": "satan-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Satan derives from Hebrew ha-Satan, meaning the opposer or adversary.",
+          "statement_id": "Nama Satan berasal dari Ibrani ha-Satan, berarti sang penentang atau lawan.",
+          "quote": "His formal name, Satan, derives from the Hebrew 'ha-Satan'. 'Ha' means 'the' and 'Satan' means 'opposer' or 'adversary'.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c06",
+          "source_id": "satan-s3",
+          "host": "legacy.quran.com",
+          "statement": "According to Al-A'raf 7:11, Iblis did not bow to Adam.",
+          "statement_id": "Menurut Al-A'raf 7:11, Iblis tidak ikut bersujud kepada Adam.",
+          "quote": "Then We said to the angels, \"Prostrate to Adam\"; so they prostrated, except for Iblees.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "satan-c07",
+          "source_id": "satan-s3",
+          "host": "legacy.quran.com",
+          "statement": "In Al-A'raf 7:12, Iblis says he was made from fire and Adam from clay.",
+          "statement_id": "Dalam Al-A'raf 7:12, Iblis menyatakan ia diciptakan dari api dan Adam dari tanah liat.",
+          "quote": "You created me from fire and created him from clay.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "hera",
+      "file": "batch-026-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 7,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 7 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "hera-c01",
+          "source_id": "hera-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Hera is the ancient Greek goddess of marriage, women, and family, queen of the Olympians, and Zeus's sister and wife.",
+          "statement_id": "Hera adalah dewi perkawinan, perempuan, dan keluarga Yunani kuno serta ratu Olimpus, saudari dan istri Zeus.",
+          "quote": "is the goddess of marriage, women, and family, and the protector of women during childbirth. In Greek mythology, she is queen among the twelve Olympians on Mount Olympus, sister and wife of Zeus",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c02",
+          "source_id": "hera-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Hera is usually shown as a dignified woman standing or enthroned, crowned.",
+          "statement_id": "Hera biasanya digambarkan sebagai perempuan berwibawa yang berdiri atau bertakhta, dengan mahkota.",
+          "quote": "Her iconography usually presents her as a dignified, matronly figure, upright or enthroned, crowned with a polos or diadem, sometimes veiled as a married woman.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c03",
+          "source_id": "hera-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Hera's Roman counterpart is Juno.",
+          "statement_id": "Padanan Hera dalam tradisi Romawi adalah Juno.",
+          "quote": "Her Roman counterpart is Juno.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c04",
+          "source_id": "hera-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, Hera is queen of the Olympians and goddess of marriage, women, the sky, and stars.",
+          "statement_id": "Menurut Theoi, Hera adalah ratu dewa Olimpus dan dewi perkawinan, perempuan, langit, serta bintang.",
+          "quote": "HERA was the Olympian queen of the gods, and the goddess of marriage, women, the sky and the stars of heaven.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c05",
+          "source_id": "hera-s2",
+          "host": "www.theoi.com",
+          "statement": "One Hera story recounts Zeus courting her in the guise of a cuckoo.",
+          "statement_id": "Salah satu kisah Hera menceritakan Zeus merayunya dengan menyamar sebagai burung kukuk.",
+          "quote": "Her marriage to Zeus who seduced her in the guise of a cuckoo bird.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c06",
+          "source_id": "hera-s3",
+          "host": "www.worldhistory.org",
+          "statement": "World History Encyclopedia describes Hera as faithful to Zeus yet jealous and vengeful toward his other partners and their children.",
+          "statement_id": "Menurut World History Encyclopedia, Hera digambarkan setia kepada Zeus namun cemburu dan membalas pasangan lain suaminya dan anak-anak mereka.",
+          "quote": "Hera was always faithful to Zeus but she was famous for her jealous and vengeful nature, principally aimed against her husband's lovers and their illegitimate children.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hera-c07",
+          "source_id": "hera-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Hera was patron of Argos, which had a sanctuary for her from the mid-eighth century BCE.",
+          "statement_id": "Hera adalah pelindung Argos, yang memiliki tempat suci untuknya sejak pertengahan abad ke-8 SM.",
+          "quote": "She was the patron of Argos, which possessed a sanctuary to the goddess from the mid-8th century BCE.",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "poseidon",
+      "file": "batch-026-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 8,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 8 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "poseidon-c01",
+          "source_id": "poseidon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Poseidon is an ancient Greek Olympian god of the sea, storms, earthquakes, and horses.",
+          "statement_id": "Poseidon adalah dewa Olimpus Yunani kuno yang membawahi laut, badai, gempa bumi, dan kuda.",
+          "quote": "is one of the twelve Olympians in ancient Greek religion and mythology, presiding over the sea, storms, earthquakes and horses.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c02",
+          "source_id": "poseidon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Poseidon is described as a protector of seafarers and many Hellenic cities.",
+          "statement_id": "Poseidon disebut pelindung pelaut dan banyak kota Yunani.",
+          "quote": "He was the protector of seafarers and the guardian of many Hellenic cities and colonies.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c03",
+          "source_id": "poseidon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Poseidon's Roman counterpart is Neptune.",
+          "statement_id": "Padanan Romawi Poseidon adalah Neptune.",
+          "quote": "His Roman equivalent is Neptune.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c04",
+          "source_id": "poseidon-s2",
+          "host": "www.theoi.com",
+          "statement": "Theoi describes Poseidon as god of the sea, earthquakes, floods, drought, and horses, shown as a bearded mature man with a trident.",
+          "statement_id": "Theoi menyebut Poseidon dewa laut, gempa, banjir, kekeringan, dan kuda, digambarkan sebagai pria dewasa berjanggut dengan trisula.",
+          "quote": "POSEIDON was the Olympian god of the sea, earthquakes, floods, drought and horses. He was depicted as a mature man with a sturdy build and dark beard holding a trident",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c05",
+          "source_id": "poseidon-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, Poseidon and his brothers drew lots for the cosmos after the Titans fell, and Poseidon received the sea.",
+          "statement_id": "Menurut Theoi, Poseidon dan saudara-saudaranya mengundi kosmos setelah jatuhnya para Titan, dan Poseidon mendapat laut.",
+          "quote": "Poseidon and his brothers drew lots for the division of the cosmos after the fall of the Titanes, and won the sea as his domain.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c06",
+          "source_id": "poseidon-s3",
+          "host": "www.worldhistory.org",
+          "statement": "World History Encyclopedia calls Poseidon god of seas and rivers, creator of storms and floods, and bringer of earthquakes.",
+          "statement_id": "World History Encyclopedia menyebut Poseidon dewa laut dan sungai, pembuat badai dan banjir, serta pembawa gempa.",
+          "quote": "Poseidon was the Greek god of the sea and rivers, creator of storms and floods, and the bringer of earthquakes and destruction.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c07",
+          "source_id": "poseidon-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Poseidon protected mariners and was patron of horses.",
+          "statement_id": "Menurut World History Encyclopedia, Poseidon melindungi pelaut dan menjadi pelindung kuda.",
+          "quote": "He was a protector to mariners and, as a tamer of horses, the patron of that animal and horse breeding.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "poseidon-c08",
+          "source_id": "poseidon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Odyssey, Odysseus angers Poseidon by blinding his son Polyphemus, and Poseidon punishes him with storms.",
+          "statement_id": "Dalam Odisseia, Odiseus membuat Poseidon marah dengan membutakan Polifemos, putranya, sehingga Poseidon menghukumnya dengan badai.",
+          "quote": "In the Odyssey, during the sea-voyage from Troy back home to Ithaca, the Greek hero Odysseus provokes Poseidon's fury by blinding his son, the Cyclops Polyphemus, resulting in Poseidon punishing him with storms",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    }
+  ]
+}

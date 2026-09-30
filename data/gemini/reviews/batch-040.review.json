@@ -1,0 +1,846 @@
+{
+  "batch_id": "batch-040",
+  "checked_at": "2026-09-30T00:32:06.412Z",
+  "files": [
+    "batch-040.md",
+    "batch-040-fix-1.md"
+  ],
+  "parse_problems": [],
+  "missing": [],
+  "entries": [
+    {
+      "slug": "agni",
+      "file": "batch-040-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 14,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 14 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "4 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429); sacred-texts.com (HTTP 403)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "agni-c01",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Agni is the Hindu god of fire.",
+          "statement_id": "Agni adalah dewa api dalam tradisi Hindu.",
+          "quote": "Agni is the Hindu god of fire.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c02",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Agni is regarded as a friend and protector of humans and the home.",
+          "statement_id": "Agni dipandang sebagai sahabat serta pelindung manusia dan rumah.",
+          "quote": "He is regarded as the friend and protector of humanity, in particular, he safeguards the home.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c03",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Agni is associated with sacrificial and domestic fire, the sun, lightning, funeral fire, and digestive fire.",
+          "statement_id": "Agni dihubungkan dengan api persembahan dan rumah, matahari, petir, api kremasi, serta api pencernaan.",
+          "quote": "Various forms of fire are associated with Agni and include the sun, lightning, comets, sacrificial fire, domestic fires, the fire of the funeral pyre, and the digestive fire which is within all humans.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c04",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Agni was especially important in the Vedic period and received many hymns in the Vedas.",
+          "statement_id": "Agni terutama penting pada zaman Weda dan menerima banyak himne dalam Weda.",
+          "quote": "Agni was especially important in the Vedic period (1500-500 BCE), and the Vedas contains more hymns to him than to any other deity.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c05",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Agni is understood as a witness to important acts, and fire is used in Hindu ceremonies such as weddings.",
+          "statement_id": "Agni dipandang sebagai saksi tindakan penting; api digunakan dalam upacara Hindu seperti pernikahan.",
+          "quote": "Agni knows the thoughts of all people and is a witness to all important actions, hence the use of fire in many important Hindu ceremonies such as marriages.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c06",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Agni is believed to carry human offerings to the gods through sacrificial fire.",
+          "statement_id": "Agni diyakini membawa persembahan manusia kepada para dewa melalui api kurban.",
+          "quote": "Agni is perhaps most closely associated with sacrificial fires where he is thought to carry the offerings of humans to the gods.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c07",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "One version says frogs, elephants, and parrots betrayed Agni's hiding places and he distorted their speech.",
+          "statement_id": "Salah satu versi kisah menyebut katak, gajah, dan nuri membocorkan tempat persembunyian Agni, lalu ia mengubah suara mereka.",
+          "quote": "In another version it is frogs, then elephants, and then parrots which reveal Agni's attempts at hiding and the god punished them all by distorting their speech ever after.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c08",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In art, Agni is often shown with dark skin, two heads, four arms, and a goat mount.",
+          "statement_id": "Dalam seni, Agni kerap ditampilkan berkulit gelap, berkepala dua, berlengan empat, dan menunggang kambing.",
+          "quote": "In art, Agni is often depicted with black skin, two heads, four arms, and riding either a goat",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c09",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Agni's two heads symbolize domestic and sacrificial fire.",
+          "statement_id": "Dua kepala Agni melambangkan api rumah dan api kurban.",
+          "quote": "His two heads, which spout flames, are symbolic of his association with two types of fire: the domestic hearth and the sacrificial fire.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c10",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Agni guards the southeast direction.",
+          "statement_id": "Agni menjaga arah tenggara sebagai salah satu penjaga arah.",
+          "quote": "Agni protects the south-east quarter, Purajyotisa.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c11",
+          "source_id": "agni-s2",
+          "host": "www.metmuseum.org",
+          "statement": "The museum places Agni among deities praised in the Vedic hymns.",
+          "statement_id": "Museum menempatkan Agni di antara dewa yang dipuji himne Weda.",
+          "quote": "and Agni, the god of fire. The religion known today as Hinduism has its roots in these ancient texts.",
+          "context": "scholarly-interpretation",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "agni-c12",
+          "source_id": "agni-s3",
+          "host": "sacred-texts.com",
+          "statement": "The first Rig Veda hymn praises Agni as priest and minister of sacrifice.",
+          "statement_id": "Himne pertama Rig Weda memuji Agni sebagai imam dan pelayan kurban.",
+          "quote": "1 I Laud Agni, the chosen Priest, God, minister of sacrifice,",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "agni-c13",
+          "source_id": "agni-s3",
+          "host": "sacred-texts.com",
+          "statement": "The hymn calls Agni worthy of praise by living people and ancient seers.",
+          "statement_id": "Himne itu menyebut Agni layak dipuji oleh orang hidup dan para resi terdahulu.",
+          "quote": "2 Worthy is Agni to be praised by living as by ancient seers.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "agni-c14",
+          "source_id": "agni-s3",
+          "host": "sacred-texts.com",
+          "statement": "The hymn calls Agni ruler of sacrifices and guardian of eternal law.",
+          "statement_id": "Himne itu menyebut Agni penguasa kurban dan penjaga hukum abadi.",
+          "quote": "8 Ruler of sacrifices, guard of Law eternal, radiant One,",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "hathor",
+      "file": "batch-040-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 15,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "5 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "hathor-c01",
+          "source_id": "hathor-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hathor is an ancient Egyptian goddess.",
+          "statement_id": "Hathor adalah dewi Mesir kuno.",
+          "quote": "Hathor is an ancient Egyptian goddess",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c02",
+          "source_id": "hathor-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hathor may be depicted as a cow or a woman with a cow head or ears.",
+          "statement_id": "Hathor dapat digambarkan sebagai sapi atau perempuan dengan kepala maupun telinga sapi.",
+          "quote": "She is usually depicted as a woman with the head of a cow, ears of a cow, or simply in cow form.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c03",
+          "source_id": "hathor-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hathor's name is explained as 'Domain of Horus' or 'Temple of Horus'.",
+          "statement_id": "Nama Hathor diterangkan sebagai 'Wilayah Horus' atau 'Kuil Horus'.",
+          "quote": "Her name means \"Domain of Horus\" or \"Temple of Horus\"",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c04",
+          "source_id": "hathor-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The sistrum is Hathor's instrument, used in the story to drive away evil.",
+          "statement_id": "Sistrum adalah alat musik Hathor yang dalam kisah dipakai untuk mengusir kejahatan.",
+          "quote": "The sistrum is her instrument which she used to drive evil from the land and inspire goodness.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c05",
+          "source_id": "hathor-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hathor is a patron goddess of joy, celebration, and love.",
+          "statement_id": "Hathor menaungi sukacita, perayaan, dan cinta.",
+          "quote": "She is the patron goddess of joy, celebration, and love",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c06",
+          "source_id": "hathor-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hathor was associated with women and their physical and mental health.",
+          "statement_id": "Hathor berkaitan dengan perempuan dan kesehatan fisik maupun batin mereka.",
+          "quote": "She was always, from the earliest times, associated with women and women's health in body and in mind.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c07",
+          "source_id": "hathor-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the Heavenly Cow story, Hathor's destructive fury becomes Sekhmet.",
+          "statement_id": "Dalam kisah Sapi Surgawi, amarah Hathor berubah menjadi wujud Sekhmet yang merusak.",
+          "quote": "Hathor descends on the world in a fury of destruction, killing everyone she finds and toppling their cities, crushing their homes and tearing up fields and gardens and so transforms into the goddess Sekhmet.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c08",
+          "source_id": "hathor-s1",
+          "host": "www.worldhistory.org",
+          "statement": "After becoming drunk and sleeping, she wakes as benevolent Hathor.",
+          "statement_id": "Setelah mabuk dan tertidur, ia bangun kembali sebagai Hathor yang baik hati.",
+          "quote": "She becomes drunk, falls asleep, and wakes up as Hathor the benevolent.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c09",
+          "source_id": "hathor-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hathor's cult center was at Dendera, but she was worshipped across Egypt.",
+          "statement_id": "Pusat pemujaan Hathor berada di Dendera, tetapi ia dipuja di seluruh Mesir.",
+          "quote": "Hathor's cult center was at Dendera, Egypt, but she was widely regarded and worshipped throughout Egypt.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c10",
+          "source_id": "hathor-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Early Hathor worship used a cow form, sometimes with stars above her.",
+          "statement_id": "Pada masa awal Hathor dipuja dalam bentuk sapi atau sapi dengan bintang di atasnya.",
+          "quote": "Hathor was, in early times, worshipped in the form of a cow or as a cow with stars above her.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hathor-c11",
+          "source_id": "hathor-s2",
+          "host": "www.metmuseum.org",
+          "statement": "A metal plaque depicts Hathor as a cow with a sun disk between its horns.",
+          "statement_id": "Sebuah plak logam menampilkan Hathor sebagai sapi bertanduk dengan cakram matahari.",
+          "quote": "This metal plaque depicts a cow with a sundisk between its horns, which is a common representation of the goddess Hathor.",
+          "context": "scholarly-interpretation",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "hathor-c12",
+          "source_id": "hathor-s2",
+          "host": "www.metmuseum.org",
+          "statement": "The plaque was excavated near a Hathor shrine at Deir el-Bahari.",
+          "statement_id": "Plak itu ditemukan dekat tempat pemujaan Hathor di Deir el-Bahari.",
+          "quote": "The piece was excavated at Deir el-Bahari, close to a shrine for this goddess.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "hathor-c13",
+          "source_id": "hathor-s3",
+          "host": "www.metmuseum.org",
+          "statement": "Hathor was said to protect and nurse infant Horus and was worshipped in the Shaking of the Papyrus ritual.",
+          "statement_id": "Hathor disebut menyusui dan melindungi Horus bayi serta dipuja dalam ritual Mengguncang Papirus.",
+          "quote": "Horus was protected and nursed while a baby by the goddess Hathor, who was worshipped in the ritual of the Shaking of the Papyrus.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "hathor-c14",
+          "source_id": "hathor-s3",
+          "host": "www.metmuseum.org",
+          "statement": "Sistrum and menat were rattled in Hathor's cult to evoke rustling papyrus.",
+          "statement_id": "Sistrum dan menat dipakai dalam ritual Hathor untuk meniru bunyi papirus bergesek.",
+          "quote": "Hathor’s primary cult instruments, the sistrum (68.44) and the menat (11.215.450), were rattled to produce a comparable rustling sound and evoke this mythical environment.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "hathor-c15",
+          "source_id": "hathor-s3",
+          "host": "www.metmuseum.org",
+          "statement": "Hathor is also shown as a cow emerging from a papyrus thicket.",
+          "statement_id": "Hathor juga digambarkan sebagai sapi yang keluar dari rumpun papirus.",
+          "quote": "this goddess is shown in the form of a cow emerging from the papyrus thicket",
+          "context": "scholarly-interpretation",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "helios",
+      "file": "batch-040-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 14,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 14 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "helios-c01",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Helios is the Greek sun god.",
+          "statement_id": "Helios adalah dewa matahari dalam mitologi Yunani.",
+          "quote": "Helios (also Helius) was the god of the Sun in Greek mythology.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c02",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Helios drove a golden chariot bearing the sun from east to west each day.",
+          "statement_id": "Helios mengendarai kereta emas yang membawa matahari dari timur ke barat setiap hari.",
+          "quote": "Helios rode a golden chariot which brought the Sun across the skies each day from the east (Ethiopia) to the west (Hesperides).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c03",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Helios is the child of the Titans Hyperion and Theia.",
+          "statement_id": "Helios adalah anak pasangan Titan Hyperion dan Theia.",
+          "quote": "In Greek mythology, Helios is the offspring of the titans Hyperion and Theia.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c04",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Helios's sisters are Selene the moon and Eos the dawn.",
+          "statement_id": "Saudari Helios adalah Selene sang bulan dan Eos sang fajar.",
+          "quote": "His sisters were Selene (the Moon) and Eos (Dawn).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c05",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Phaethon is the son of Helios and Clymene.",
+          "statement_id": "Phaethon adalah putra Helios dan Clymene.",
+          "quote": "Helios is also the father of Phaethon, whose mother was Clymene.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c06",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Phaethon lost control of Helios's horses, and Zeus struck him with lightning to avert a worldwide fire.",
+          "statement_id": "Phaethon gagal mengendalikan kuda kereta Helios; Zeus menyambarnya dengan petir agar bumi tidak terbakar.",
+          "quote": "Phaethon proved unable to control Helios' wild horses, and when he spun out of control, Zeus was obliged to strike down Phaethon with a thunderbolt lest he set the whole world on fire.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c07",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "After Odysseus's crew ate his cattle, Helios asked Zeus to punish them.",
+          "statement_id": "Setelah ternaknya dimakan awak Odysseus, Helios meminta Zeus menghukum mereka.",
+          "quote": "In vengeance, Helios enlisted the help of Zeus who destroyed the ship and drowned Odysseus' crew for their impiety.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c08",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The worship of Helios was important on Rhodes.",
+          "statement_id": "Pemujaan Helios sangat penting di Rhodes.",
+          "quote": "The one place in Greece where the worship of Helios was important was on Rhodes.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c09",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Halieia games on Rhodes honored Helios.",
+          "statement_id": "Pertandingan Halieia di Rhodes diselenggarakan untuk menghormati Helios.",
+          "quote": "In honour of Helios, Panhellenic games, the Halieia, were held on the island every five years",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c10",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Roman contexts Helios was also known as Sol.",
+          "statement_id": "Dalam konteks Romawi, Helios dikenal pula sebagai Sol.",
+          "quote": "The Romans went one step further and made Helios, also known as Sol, an important cult god.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c11",
+          "source_id": "helios-s2",
+          "host": "www.theoi.com",
+          "statement": "Theoi describes Helios as a Titan sun god, guardian of oaths, and god of sight.",
+          "statement_id": "Theoi menyebut Helios dewa matahari dari golongan Titan, penjaga sumpah, dan dewa penglihatan.",
+          "quote": "HELIOS (Helius) was the Titan god of the sun, a guardian of oaths, and the god of sight.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c12",
+          "source_id": "helios-s2",
+          "host": "www.theoi.com",
+          "statement": "Helios appears at dawn with a solar aureole and a chariot drawn by four winged horses.",
+          "statement_id": "Helios muncul setiap fajar dengan mahkota cahaya dan kereta empat kuda bersayap.",
+          "quote": "he emerged each dawn, crowned with the aureole of the sun, driving a chariot drawn by four winged steeds.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c13",
+          "source_id": "helios-s3",
+          "host": "www.metmuseum.org",
+          "statement": "A Greek vase identifies Helios by writing his name in ancient Greek letters.",
+          "statement_id": "Sebuah vas Yunani menamai sosok Helios dalam huruf Yunani kuno.",
+          "quote": "We can tell who Helios is on this vase because the artist wrote his name above, in ancient Greek letters.",
+          "context": "scholarly-interpretation",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "helios-c14",
+          "source_id": "helios-s3",
+          "host": "www.metmuseum.org",
+          "statement": "Ancient Greeks imagined a great stream called Ocean encircling the earth.",
+          "statement_id": "Orang Yunani kuno membayangkan arus besar bernama Ocean mengelilingi bumi.",
+          "quote": "The ancient Greeks believed that there was a great, wide, flowing stream that surrounded the earth. They called the stream Ocean.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "oceanus",
+      "file": "batch-040-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 13,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 13 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "1 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "oceanus-c01",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Oceanus is the eldest Titan and a child of Uranus and Gaia in Greek myth.",
+          "statement_id": "Oceanus adalah Titan tertua dan anak Uranus serta Gaia dalam mitologi Yunani.",
+          "quote": "Oceanus (also Okeanos) was the eldest of the Titans and a son of Uranus (Heaven) and Gaia (Earth) in Greek mythology.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c02",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Oceanus is god and personification of a freshwater river believed to encircle the earth.",
+          "statement_id": "Oceanus adalah dewa sekaligus personifikasi sungai air tawar yang dipercaya mengelilingi bumi.",
+          "quote": "He was the god and personification of the freshwater river Oceanus, which was thought to encircle the earth",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c03",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Oceanus married Tethys, and their children were described as three thousand rivers and three thousand nymphs.",
+          "statement_id": "Oceanus menikah dengan Tethys; keturunan mereka dilukiskan sebagai tiga ribu sungai dan tiga ribu nimfa.",
+          "quote": "Oceanus was married to his sister, Tethys, and they had 3,000 sons together (the rivers of the earth) and 3,000 daughters (the nymphs of land and water).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c04",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Ancient Greeks believed the freshwater Oceanus river surrounded the world.",
+          "statement_id": "Orang Yunani kuno percaya sungai air tawar Oceanus mengelilingi dunia.",
+          "quote": "The ancient Greeks believed that the great freshwater river Oceanus surrounded the world.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c05",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Springs, wells, and rivers were believed to draw their water from Oceanus.",
+          "statement_id": "Mata air, sumur, dan sungai dipercaya memperoleh air dari Oceanus.",
+          "quote": "All the waters that flow from fountains, springs, wells, and rivers came from the mighty Oceanus.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c06",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Oceanus did not personally fight in the Titanomachy.",
+          "statement_id": "Oceanus tidak bertempur langsung dalam Titanomakhia.",
+          "quote": "Oceanus did not personally get involved in the Titanomachy – the conflict between the Titans and the Olympian gods",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c07",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Oceanus sent his daughter Styx and her children to aid Zeus.",
+          "statement_id": "Oceanus mengirim putrinya Styx dan anak-anaknya membantu Zeus.",
+          "quote": "Oceanus sent his daughter Styx and her children to fight on Zeus' side during the revolt.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c08",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Greek art depicts Oceanus with a fish tail, human torso, and horned head.",
+          "statement_id": "Seni Yunani menggambarkan Oceanus dengan ekor ikan, tubuh manusia, dan kepala bertanduk.",
+          "quote": "Oceanus is depicted in Greek art with a long fishtail, a man's torso, and a horned head",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c09",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The article states there is no evidence of a specific cult dedicated to Oceanus.",
+          "statement_id": "Artikel ini menyatakan tidak ada bukti kultus khusus bagi Oceanus.",
+          "quote": "there is no evidence that Oceanus ever had a cult or specific cult worship dedicated to him.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c10",
+          "source_id": "oceanus-s2",
+          "host": "www.theoi.com",
+          "statement": "Theoi calls Oceanus the primordial Titan god of the earth-encircling river.",
+          "statement_id": "Theoi menyebut Oceanus dewa Titan purba bagi sungai yang mengelilingi bumi.",
+          "quote": "OKEANOS (Oceanus) was the primordial Titan god of the great, earth-encircling River Okeanos",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c11",
+          "source_id": "oceanus-s2",
+          "host": "www.theoi.com",
+          "statement": "The children of Oceanus and Tethys include the river gods Potamoi and the nymphs Okeanides.",
+          "statement_id": "Anak-anak Oceanus dan Tethys mencakup dewa sungai Potamoi serta nimfa Okeanides.",
+          "quote": "Their children were the Potamoi, gods of rivers, and the Okeanides (Oceanids), nymphs of springs and fountains.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c12",
+          "source_id": "oceanus-s2",
+          "host": "www.theoi.com",
+          "statement": "Vase painting depicts Oceanus with bull horns and a serpentine fish tail.",
+          "statement_id": "Lukisan vas menampilkan Oceanus bertanduk banteng dan berekor ikan menyerupai ular.",
+          "quote": "Okeanos was depicted in ancient Greek vase painting as a bull-horned god with the tail of a serpentine fish",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c13",
+          "source_id": "oceanus-s3",
+          "host": "www.metmuseum.org",
+          "statement": "The Met also notes the Greek belief in a great encircling stream called Ocean.",
+          "statement_id": "The Met juga mencatat kepercayaan Yunani tentang arus besar Ocean yang mengelilingi bumi.",
+          "quote": "The ancient Greeks believed that there was a great, wide, flowing stream that surrounded the earth. They called the stream Ocean.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "selene",
+      "file": "batch-040-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 14,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 14 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "selene-c01",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Selene is the Greek goddess and personification of the moon.",
+          "statement_id": "Selene adalah dewi sekaligus personifikasi bulan dalam mitologi Yunani.",
+          "quote": "Selene (also known as Mene) is the personification and goddess of the moon in Greek mythology.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c02",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Each night Selene is said to cross the sky in her chariot.",
+          "statement_id": "Setiap malam Selene dikisahkan melintasi langit dengan keretanya.",
+          "quote": "Every night, she travels across the sky in her chariot, pulling the moon behind her.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c03",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Selene is the daughter of Hyperion and Theia and sister of Helios and Eos.",
+          "statement_id": "Selene adalah putri Hyperion dan Theia serta saudari Helios dan Eos.",
+          "quote": "Selene is the daughter of the Titans Hyperion and Theia and the sister of Helios (Sun) and Eos (Dawn).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c04",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Luna is Selene's Roman counterpart.",
+          "statement_id": "Luna adalah padanan Selene dalam tradisi Romawi.",
+          "quote": "The Roman counterpart of Selene is Luna.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c05",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Selene's moon chariot is drawn by silver-white horses or sometimes oxen.",
+          "statement_id": "Kereta bulan Selene ditarik sepasang kuda putih keperakan atau kadang sepasang lembu.",
+          "quote": "Selene's moon chariot was pulled across the night sky by a pair of white-silvery horses or sometimes by a pair of oxen.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c06",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Greek art often depicts Selene with a crescent crown and no wings.",
+          "statement_id": "Dalam seni Yunani, Selene kerap dimahkotai bulan sabit dan tanpa sayap.",
+          "quote": "In Greek art, Selene was usually depicted with a crescent moon crown and without wings.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c07",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Selene's best-known story concerns her love for Endymion.",
+          "statement_id": "Kisah paling terkenal Selene berkaitan dengan cintanya kepada Endymion.",
+          "quote": "The best-known story involving Selene is her love affair with the beautiful youth Endymion.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c08",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In one account Selene and Endymion have fifty daughters.",
+          "statement_id": "Dalam satu kisah, Selene dan Endymion memiliki lima puluh putri.",
+          "quote": "Selene bore Endymion 50 daughters.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c09",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Some sources say Selene asked Zeus to grant Endymion ageless perpetual sleep.",
+          "statement_id": "Sebagian sumber menyatakan Selene meminta Zeus membuat Endymion tidur abadi agar tidak menua atau mati.",
+          "quote": "According to some sources, Selene begged Zeus to grant Endymion perpetual sleep, so he would not age or die",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c10",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Other sources say Endymion chose the perpetual sleep himself.",
+          "statement_id": "Sumber lain menyebut Endymion sendiri memilih tidur abadi.",
+          "quote": "Other sources state that Endymion chose it for himself",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c11",
+          "source_id": "selene-s2",
+          "host": "www.theoi.com",
+          "statement": "Theoi calls Selene the Titan moon goddess.",
+          "statement_id": "Theoi menyebut Selene dewi Titan bulan.",
+          "quote": "SELENE was the Titan goddess of the moon.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c12",
+          "source_id": "selene-s2",
+          "host": "www.theoi.com",
+          "statement": "Selene's crescent can appear as a crown or the fold of a raised shining cloak.",
+          "statement_id": "Bulan sabit dapat menjadi mahkota Selene atau bagian jubah bercahaya yang terangkat.",
+          "quote": "Her lunar sphere or crescent was either a crown set upon her head or the fold of a raised, shining cloak.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c13",
+          "source_id": "selene-s3",
+          "host": "www.metmuseum.org",
+          "statement": "A Roman sarcophagus shows Selene leaving her chariot to visit the reclining Endymion.",
+          "statement_id": "Sarkofagus Romawi menampilkan Selene turun dari kereta untuk menemui Endymion yang berbaring.",
+          "quote": "In the center, Selene, the moon goddess, alights from her chariot to visit her beloved, the shepherd Endymion, who reclines at the right.",
+          "context": "scholarly-interpretation",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "selene-c14",
+          "source_id": "selene-s3",
+          "host": "www.metmuseum.org",
+          "statement": "The Endymion story is carved on the front of the sarcophagus.",
+          "statement_id": "Kisah Endymion dipahat pada bagian depan sarkofagus.",
+          "quote": "The story of Endymion is shown in strongly undercut relief on the front of the sarcophagus.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        }
+      ],
+      "images": []
+    }
+  ]
+}

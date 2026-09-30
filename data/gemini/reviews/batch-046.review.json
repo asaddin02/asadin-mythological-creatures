@@ -1,0 +1,872 @@
+{
+  "batch_id": "batch-046",
+  "checked_at": "2026-09-30T01:39:50.110Z",
+  "files": [
+    "batch-046.md",
+    "batch-046-fix-1.md",
+    "batch-046-fix-2.md"
+  ],
+  "parse_problems": [],
+  "missing": [],
+  "entries": [
+    {
+      "slug": "bigfoot",
+      "file": "batch-046-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 15,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "8 kutipan tidak bisa dicek otomatis: www.oregonencyclopedia.org (HTTP 403)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "bigfoot-c01",
+          "source_id": "bigfoot-s1",
+          "host": "www.oregonencyclopedia.org",
+          "statement": "Bigfoot is a large and mysterious humanoid creature purported to inhabit the wild and forested areas of Oregon and the West Coast of North America.",
+          "statement_id": "Bigfoot terkait dengan Bigfoot is a large and mysterious humanoid creature purported to inhabit the wild and forested areas of Oregon and the West Coast of North America.",
+          "quote": "Bigfoot is a large and mysterious humanoid creature purported to inhabit the wild and forested areas of Oregon and the West Coast of North America.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "bigfoot-c02",
+          "source_id": "bigfoot-s1",
+          "host": "www.oregonencyclopedia.org",
+          "statement": "Bigfoot is also known as Sasquatch, an Anglicization of the name Sasq’ets, from the Halq’emeylem language",
+          "statement_id": "Bigfoot terkait dengan Bigfoot is also known as Sasquatch, an Anglicization of the name Sasq’ets, from the Halq’emeylem language",
+          "quote": "Bigfoot is also known as Sasquatch, an Anglicization of the name Sasq’ets, from the Halq’emeylem language",
+          "context": "etymology",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "bigfoot-c03",
+          "source_id": "bigfoot-s1",
+          "host": "www.oregonencyclopedia.org",
+          "statement": "hair-covered bipeds with apelike features up to eight feet tall that leave correspondingly large footprints.",
+          "statement_id": "Bigfoot terkait dengan hair-covered bipeds with apelike features up to eight feet tall that leave correspondingly large footprints.",
+          "quote": "hair-covered bipeds with apelike features up to eight feet tall that leave correspondingly large footprints.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "bigfoot-c04",
+          "source_id": "bigfoot-s1",
+          "host": "www.oregonencyclopedia.org",
+          "statement": "They are generally characterized as nonaggressive animals, whose shyness and humanlike intelligence make them elusive",
+          "statement_id": "Bigfoot terkait dengan They are generally characterized as nonaggressive animals, whose shyness and humanlike intelligence make them elusive",
+          "quote": "They are generally characterized as nonaggressive animals, whose shyness and humanlike intelligence make them elusive",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "bigfoot-c05",
+          "source_id": "bigfoot-s1",
+          "host": "www.oregonencyclopedia.org",
+          "statement": "Most scientists, however, remain skeptics and dismiss the phenomenon as the product of the mistaken identification of known animals or elaborate hoaxes",
+          "statement_id": "Bigfoot terkait dengan Most scientists, however, remain skeptics and dismiss the phenomenon as the product of the mistaken identification of known animals or elaborate hoaxes",
+          "quote": "Most scientists, however, remain skeptics and dismiss the phenomenon as the product of the mistaken identification of known animals or elaborate hoaxes",
+          "context": "scholarly-interpretation",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "bigfoot-c06",
+          "source_id": "bigfoot-s1",
+          "host": "www.oregonencyclopedia.org",
+          "statement": "stories about Bigfoot have entered into oral tradition and become part of regional folklore.",
+          "statement_id": "Bigfoot terkait dengan stories about Bigfoot have entered into oral tradition and become part of regional folklore.",
+          "quote": "stories about Bigfoot have entered into oral tradition and become part of regional folklore.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "bigfoot-c07",
+          "source_id": "bigfoot-s1",
+          "host": "www.oregonencyclopedia.org",
+          "statement": "Local Native Americans used this event to discuss publicly their own knowledge of tsiatko, hirsute “wild Indians” of the woods",
+          "statement_id": "Bigfoot terkait dengan Local Native Americans used this event to discuss publicly their own knowledge of tsiatko, hirsute “wild Indians” of the woods",
+          "quote": "Local Native Americans used this event to discuss publicly their own knowledge of tsiatko, hirsute “wild Indians” of the woods",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "bigfoot-c08",
+          "source_id": "bigfoot-s1",
+          "host": "www.oregonencyclopedia.org",
+          "statement": "After 1958, woods workers east and west of the Cascade Mountains began to report seeing creatures and discovering their immense tracks along logging roads",
+          "statement_id": "Bigfoot terkait dengan After 1958, woods workers east and west of the Cascade Mountains began to report seeing creatures and discovering their immense tracks along logging roads",
+          "quote": "After 1958, woods workers east and west of the Cascade Mountains began to report seeing creatures and discovering their immense tracks along logging roads",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "bigfoot-c09",
+          "source_id": "bigfoot-s2",
+          "host": "www.smithsonianmag.com",
+          "statement": "Sasquatches long populated the mythologies of American Indian tribes in the Pacific Northwest",
+          "statement_id": "Bigfoot terkait dengan Sasquatches long populated the mythologies of American Indian tribes in the Pacific Northwest",
+          "quote": "Sasquatches long populated the mythologies of American Indian tribes in the Pacific Northwest",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bigfoot-c10",
+          "source_id": "bigfoot-s2",
+          "host": "www.smithsonianmag.com",
+          "statement": "those 1958 footprints transformed the myth into a media sensation.",
+          "statement_id": "Bigfoot terkait dengan those 1958 footprints transformed the myth into a media sensation.",
+          "quote": "those 1958 footprints transformed the myth into a media sensation.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bigfoot-c11",
+          "source_id": "bigfoot-s2",
+          "host": "www.smithsonianmag.com",
+          "statement": "The tracks were planted near Bluff Creek in Northern California by a man named Ray Wallace",
+          "statement_id": "Bigfoot terkait dengan The tracks were planted near Bluff Creek in Northern California by a man named Ray Wallace",
+          "quote": "The tracks were planted near Bluff Creek in Northern California by a man named Ray Wallace",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bigfoot-c12",
+          "source_id": "bigfoot-s2",
+          "host": "www.smithsonianmag.com",
+          "statement": "In 1967, Roger Patterson and Bob Gimlin filmed a few seconds of a hairy creature walking on two legs",
+          "statement_id": "Bigfoot terkait dengan In 1967, Roger Patterson and Bob Gimlin filmed a few seconds of a hairy creature walking on two legs",
+          "quote": "In 1967, Roger Patterson and Bob Gimlin filmed a few seconds of a hairy creature walking on two legs",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bigfoot-c13",
+          "source_id": "bigfoot-s3",
+          "host": "www.history.com",
+          "statement": "The hairs are of deer family origin.",
+          "statement_id": "Bigfoot terkait dengan The hairs are of deer family origin.",
+          "quote": "The hairs are of deer family origin.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bigfoot-c14",
+          "source_id": "bigfoot-s3",
+          "host": "www.history.com",
+          "statement": "this is not evidence that the FBI endorsed the existence of Bigfoot",
+          "statement_id": "Bigfoot terkait dengan this is not evidence that the FBI endorsed the existence of Bigfoot",
+          "quote": "this is not evidence that the FBI endorsed the existence of Bigfoot",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bigfoot-c15",
+          "source_id": "bigfoot-s2",
+          "host": "www.smithsonianmag.com",
+          "statement": "Naish has written that Bigfoot is the modern American “manifestation of a human-wide cultural concept, not a zoological reality.”",
+          "statement_id": "Bigfoot terkait dengan Naish has written that Bigfoot is the modern American “manifestation of a human-wide cultural concept, not a zoological reality.”",
+          "quote": "Naish has written that Bigfoot is the modern American “manifestation of a human-wide cultural concept, not a zoological reality.”",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "hecate",
+      "file": "batch-046-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 15,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "hecate-c01",
+          "source_id": "hecate-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hecate (Hekate) is a goddess of Greek mythology capable of both good and evil.",
+          "statement_id": "Hecate terkait dengan Hecate (Hekate) is a goddess of Greek mythology capable of both good and evil.",
+          "quote": "Hecate (Hekate) is a goddess of Greek mythology capable of both good and evil.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hecate-c02",
+          "source_id": "hecate-s1",
+          "host": "www.worldhistory.org",
+          "statement": "She was associated with witchcraft, magic, the Moon, doorways, and creatures of the night like hell-hounds and ghosts.",
+          "statement_id": "Hecate terkait dengan She was associated with witchcraft, magic, the Moon, doorways, and creatures of the night like hell-hounds and ghosts.",
+          "quote": "She was associated with witchcraft, magic, the Moon, doorways, and creatures of the night like hell-hounds and ghosts.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hecate-c03",
+          "source_id": "hecate-s1",
+          "host": "www.worldhistory.org",
+          "statement": "She has three faces for her role as the goddess of boundaries and the guardian of crossroads.",
+          "statement_id": "Hecate terkait dengan She has three faces for her role as the goddess of boundaries and the guardian of crossroads.",
+          "quote": "She has three faces for her role as the goddess of boundaries and the guardian of crossroads.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hecate-c04",
+          "source_id": "hecate-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hecate is the daughter of Perses and Asteria",
+          "statement_id": "Hecate terkait dengan Hecate is the daughter of Perses and Asteria",
+          "quote": "Hecate is the daughter of Perses and Asteria",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hecate-c05",
+          "source_id": "hecate-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Euripides, on the other hand, mentions her mother is Leto.",
+          "statement_id": "Hecate terkait dengan Euripides, on the other hand, mentions her mother is Leto.",
+          "quote": "Euripides, on the other hand, mentions her mother is Leto.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hecate-c06",
+          "source_id": "hecate-s2",
+          "host": "www.theoi.com",
+          "statement": "She was the only child of the Titanes Perses and Asteria from whom she received her power over heaven, earth, and sea.",
+          "statement_id": "Hecate terkait dengan She was the only child of the Titanes Perses and Asteria from whom she received her power over heaven, earth, and sea.",
+          "quote": "She was the only child of the Titanes Perses and Asteria from whom she received her power over heaven, earth, and sea.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hecate-c07",
+          "source_id": "hecate-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hesiod goes on to say that Hecate supports or is a protective goddess of warriors, athletes, hunters, horsemen, herdsmen, shepherds, fishermen, and children.",
+          "statement_id": "Hecate terkait dengan Hesiod goes on to say that Hecate supports or is a protective goddess of warriors, athletes, hunters, horsemen, herdsmen, shepherds, fishermen, and children.",
+          "quote": "Hesiod goes on to say that Hecate supports or is a protective goddess of warriors, athletes, hunters, horsemen, herdsmen, shepherds, fishermen, and children.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hecate-c08",
+          "source_id": "hecate-s1",
+          "host": "www.worldhistory.org",
+          "statement": "offerings of food – given at crossroads, road junctions, and any other sort of boundary or threshold – known as 'the supper of Hecate'.",
+          "statement_id": "Hecate terkait dengan offerings of food – given at crossroads, road junctions, and any other sort of boundary or threshold – known as 'the supper of Hecate'.",
+          "quote": "offerings of food – given at crossroads, road junctions, and any other sort of boundary or threshold – known as 'the supper of Hecate'.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hecate-c09",
+          "source_id": "hecate-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The offerings to the goddess were made each month during the night of a new moon.",
+          "statement_id": "Hecate terkait dengan The offerings to the goddess were made each month during the night of a new moon.",
+          "quote": "The offerings to the goddess were made each month during the night of a new moon.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hecate-c10",
+          "source_id": "hecate-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The goddess was especially appealed to by sorceresses for aid in their magic and spells",
+          "statement_id": "Hecate terkait dengan The goddess was especially appealed to by sorceresses for aid in their magic and spells",
+          "quote": "The goddess was especially appealed to by sorceresses for aid in their magic and spells",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hecate-c11",
+          "source_id": "hecate-s1",
+          "host": "www.worldhistory.org",
+          "statement": "place images of Hecate at city gates & the doorways of private homes as she could ward off evil spirits.",
+          "statement_id": "Hecate terkait dengan place images of Hecate at city gates & the doorways of private homes as she could ward off evil spirits.",
+          "quote": "place images of Hecate at city gates & the doorways of private homes as she could ward off evil spirits.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hecate-c12",
+          "source_id": "hecate-s1",
+          "host": "www.worldhistory.org",
+          "statement": "She is typically portrayed on Greek pottery as a young woman carrying a torch or a key",
+          "statement_id": "Hecate terkait dengan She is typically portrayed on Greek pottery as a young woman carrying a torch or a key",
+          "quote": "She is typically portrayed on Greek pottery as a young woman carrying a torch or a key",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hecate-c13",
+          "source_id": "hecate-s1",
+          "host": "www.worldhistory.org",
+          "statement": "the goddess with three bodies and three heads (or a single body with three heads or three bodies and a single head)",
+          "statement_id": "Hecate terkait dengan the goddess with three bodies and three heads (or a single body with three heads or three bodies and a single head)",
+          "quote": "the goddess with three bodies and three heads (or a single body with three heads or three bodies and a single head)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hecate-c14",
+          "source_id": "hecate-s3",
+          "host": "www.metmuseum.org",
+          "statement": "Hekate, the goddess of the moon and of sorcery, presided over crossroads.",
+          "statement_id": "Hecate terkait dengan Hekate, the goddess of the moon and of sorcery, presided over crossroads.",
+          "quote": "Hekate, the goddess of the moon and of sorcery, presided over crossroads.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "hecate-c15",
+          "source_id": "hecate-s3",
+          "host": "www.metmuseum.org",
+          "statement": "She was first represented as three women standing against a pillar in a statue erected in about 425 B.C.",
+          "statement_id": "Hecate terkait dengan She was first represented as three women standing against a pillar in a statue erected in about 425 B.C.",
+          "quote": "She was first represented as three women standing against a pillar in a statue erected in about 425 B.C.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "janus",
+      "file": "batch-046-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 15,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "1 kutipan tidak bisa dicek otomatis: blog.metmuseum.org (halaman hampir tanpa teks (mungkin dirender JavaScript))."
+        }
+      ],
+      "claims": [
+        {
+          "id": "janus-c01",
+          "source_id": "janus-s2",
+          "host": "en.wikisource.org",
+          "statement": "JANUS, in Roman mythology one of the principal Italian deities.",
+          "statement_id": "Janus terkait dengan JANUS, in Roman mythology one of the principal Italian deities.",
+          "quote": "JANUS, in Roman mythology one of the principal Italian deities.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "janus-c02",
+          "source_id": "janus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "he was the god of the beginnings and the ends, presiding over every entrance and departure",
+          "statement_id": "Janus terkait dengan he was the god of the beginnings and the ends, presiding over every entrance and departure",
+          "quote": "he was the god of the beginnings and the ends, presiding over every entrance and departure",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "janus-c03",
+          "source_id": "janus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Janus was seen as two-faced or Janus bifrons — the god who looked both ways.",
+          "statement_id": "Janus terkait dengan Janus was seen as two-faced or Janus bifrons — the god who looked both ways.",
+          "quote": "Janus was seen as two-faced or Janus bifrons — the god who looked both ways.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "janus-c04",
+          "source_id": "janus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "He was the gatekeeper; his symbols were a porter's staff or virga and a set of keys.",
+          "statement_id": "Janus terkait dengan He was the gatekeeper; his symbols were a porter's staff or virga and a set of keys.",
+          "quote": "He was the gatekeeper; his symbols were a porter's staff or virga and a set of keys.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "janus-c05",
+          "source_id": "janus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "his name was even mentioned before Jupiter in prayers.",
+          "statement_id": "Janus terkait dengan his name was even mentioned before Jupiter in prayers.",
+          "quote": "his name was even mentioned before Jupiter in prayers.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "janus-c06",
+          "source_id": "janus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The first day of each month was considered sacred to him",
+          "statement_id": "Janus terkait dengan The first day of each month was considered sacred to him",
+          "quote": "The first day of each month was considered sacred to him",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "janus-c07",
+          "source_id": "janus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "the first month of the year, January, is named in his honor",
+          "statement_id": "Janus terkait dengan the first month of the year, January, is named in his honor",
+          "quote": "the first month of the year, January, is named in his honor",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "janus-c08",
+          "source_id": "janus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Early Romans coins featured his image, showing him as two-faced, one bearded and one clean-shaven.",
+          "statement_id": "Janus terkait dengan Early Romans coins featured his image, showing him as two-faced, one bearded and one clean-shaven.",
+          "quote": "Early Romans coins featured his image, showing him as two-faced, one bearded and one clean-shaven.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "janus-c09",
+          "source_id": "janus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "the doors were kept closed in times of peace and open in times of war.",
+          "statement_id": "Janus terkait dengan the doors were kept closed in times of peace and open in times of war.",
+          "quote": "the doors were kept closed in times of peace and open in times of war.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "janus-c10",
+          "source_id": "janus-s2",
+          "host": "en.wikisource.org",
+          "statement": "He was invoked before any other god at the beginning of any important undertaking",
+          "statement_id": "Janus terkait dengan He was invoked before any other god at the beginning of any important undertaking",
+          "quote": "He was invoked before any other god at the beginning of any important undertaking",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "janus-c11",
+          "source_id": "janus-s2",
+          "host": "en.wikisource.org",
+          "statement": "All gateways, housedoors and entrances generally, were under his protection",
+          "statement_id": "Janus terkait dengan All gateways, housedoors and entrances generally, were under his protection",
+          "quote": "All gateways, housedoors and entrances generally, were under his protection",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "janus-c12",
+          "source_id": "janus-s2",
+          "host": "en.wikisource.org",
+          "statement": "He is usually represented on the earliest coins with two bearded faces, looking in opposite directions",
+          "statement_id": "Janus terkait dengan He is usually represented on the earliest coins with two bearded faces, looking in opposite directions",
+          "quote": "He is usually represented on the earliest coins with two bearded faces, looking in opposite directions",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "janus-c13",
+          "source_id": "janus-s2",
+          "host": "en.wikisource.org",
+          "statement": "in the time of Hadrian the number of faces is increased to four.",
+          "statement_id": "Janus terkait dengan in the time of Hadrian the number of faces is increased to four.",
+          "quote": "in the time of Hadrian the number of faces is increased to four.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "janus-c14",
+          "source_id": "janus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "There were five shrines built to honor Janus Geminus in Rome",
+          "statement_id": "Janus terkait dengan There were five shrines built to honor Janus Geminus in Rome",
+          "quote": "There were five shrines built to honor Janus Geminus in Rome",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "janus-c15",
+          "source_id": "janus-s3",
+          "host": "blog.metmuseum.org",
+          "statement": "The god of beginnings and endings, Janus gave his name to the first month in the Roman calendar.",
+          "statement_id": "Janus terkait dengan The god of beginnings and endings, Janus gave his name to the first month in the Roman calendar.",
+          "quote": "The god of beginnings and endings, Janus gave his name to the first month in the Roman calendar.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "halaman hampir tanpa teks (mungkin dirender JavaScript)"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "mnemosyne",
+      "file": "batch-046-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 15,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "mnemosyne-c01",
+          "source_id": "mnemosyne-s1",
+          "host": "www.theoi.com",
+          "statement": "MNEMOSYNE was the Titan goddess of memory and remembrance and the inventress of language and words.",
+          "statement_id": "Mnemosyne terkait dengan MNEMOSYNE was the Titan goddess of memory and remembrance and the inventress of language and words.",
+          "quote": "MNEMOSYNE was the Titan goddess of memory and remembrance and the inventress of language and words.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mnemosyne-c02",
+          "source_id": "mnemosyne-s1",
+          "host": "www.theoi.com",
+          "statement": "As a Titan daughter of Ouranos (Uranus, Heaven), Mnemosyne was also a goddess of time.",
+          "statement_id": "Mnemosyne terkait dengan As a Titan daughter of Ouranos (Uranus, Heaven), Mnemosyne was also a goddess of time.",
+          "quote": "As a Titan daughter of Ouranos (Uranus, Heaven), Mnemosyne was also a goddess of time.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mnemosyne-c03",
+          "source_id": "mnemosyne-s1",
+          "host": "www.theoi.com",
+          "statement": "She represented the rote memorisation required to preserve the stories of history and the sagas of myth before the introduction of writing.",
+          "statement_id": "Mnemosyne terkait dengan She represented the rote memorisation required to preserve the stories of history and the sagas of myth before the introduction of writing.",
+          "quote": "She represented the rote memorisation required to preserve the stories of history and the sagas of myth before the introduction of writing.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mnemosyne-c04",
+          "source_id": "mnemosyne-s1",
+          "host": "www.theoi.com",
+          "statement": "she was the mother of the Mousai (Muses) who were originally patron goddesses of poets of the oral tradition.",
+          "statement_id": "Mnemosyne terkait dengan she was the mother of the Mousai (Muses) who were originally patron goddesses of poets of the oral tradition.",
+          "quote": "she was the mother of the Mousai (Muses) who were originally patron goddesses of poets of the oral tradition.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mnemosyne-c05",
+          "source_id": "mnemosyne-s1",
+          "host": "www.theoi.com",
+          "statement": "She presided over the underground oracle of Trophonios (Trophonius) in Boiotia (Boeotia).",
+          "statement_id": "Mnemosyne terkait dengan She presided over the underground oracle of Trophonios (Trophonius) in Boiotia (Boeotia).",
+          "quote": "She presided over the underground oracle of Trophonios (Trophonius) in Boiotia (Boeotia).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mnemosyne-c06",
+          "source_id": "mnemosyne-s1",
+          "host": "www.theoi.com",
+          "statement": "The Titanis (Titaness) Mnemosyne was sometimes named as one of three Elder Mousai (Muses)",
+          "statement_id": "Mnemosyne terkait dengan The Titanis (Titaness) Mnemosyne was sometimes named as one of three Elder Mousai (Muses)",
+          "quote": "The Titanis (Titaness) Mnemosyne was sometimes named as one of three Elder Mousai (Muses)",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mnemosyne-c07",
+          "source_id": "mnemosyne-s1",
+          "host": "www.theoi.com",
+          "statement": "a daughter of Uranus, and one of the Titanides, became by Zeus the mother of the Muses.",
+          "statement_id": "Mnemosyne terkait dengan a daughter of Uranus, and one of the Titanides, became by Zeus the mother of the Muses.",
+          "quote": "a daughter of Uranus, and one of the Titanides, became by Zeus the mother of the Muses.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mnemosyne-c08",
+          "source_id": "mnemosyne-s1",
+          "host": "www.theoi.com",
+          "statement": "Pausanias (i. 2. § 4) mentions a statue of Mnemosyne at Athens",
+          "statement_id": "Mnemosyne terkait dengan Pausanias (i. 2. § 4) mentions a statue of Mnemosyne at Athens",
+          "quote": "mentions a statue of Mnemosyne at Athens",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mnemosyne-c09",
+          "source_id": "mnemosyne-s1",
+          "host": "www.theoi.com",
+          "statement": "near the oracle of Trophonius she had a sacred well and a throne.",
+          "statement_id": "Mnemosyne terkait dengan near the oracle of Trophonius she had a sacred well and a throne.",
+          "quote": "near the oracle of Trophonius she had a sacred well and a throne.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mnemosyne-c10",
+          "source_id": "mnemosyne-s2",
+          "host": "www.worldhistory.org",
+          "statement": "The Muses are the daughters of Zeus and the Titan Mnemosyne (Memory) after the couple slept together for nine consecutive nights.",
+          "statement_id": "Mnemosyne terkait dengan The Muses are the daughters of Zeus and the Titan Mnemosyne (Memory) after the couple slept together for nine consecutive nights.",
+          "quote": "The Muses are the daughters of Zeus and the Titan Mnemosyne (Memory) after the couple slept together for nine consecutive nights.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mnemosyne-c11",
+          "source_id": "mnemosyne-s2",
+          "host": "www.worldhistory.org",
+          "statement": "In Greek mythology, the nine Muses are goddesses of the various arts such as music, dance, and poetry.",
+          "statement_id": "Mnemosyne terkait dengan In Greek mythology, the nine Muses are goddesses of the various arts such as music, dance, and poetry.",
+          "quote": "In Greek mythology, the nine Muses are goddesses of the various arts such as music, dance, and poetry.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mnemosyne-c12",
+          "source_id": "mnemosyne-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Hesiod also states that the Muses were created as an aid to forgetfulness and relief from troubles, perhaps as a balance to their mother, who personified memory.",
+          "statement_id": "Mnemosyne terkait dengan Hesiod also states that the Muses were created as an aid to forgetfulness and relief from troubles, perhaps as a balance to their mother, who personified memory.",
+          "quote": "Hesiod also states that the Muses were created as an aid to forgetfulness and relief from troubles, perhaps as a balance to their mother, who personified memory.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mnemosyne-c13",
+          "source_id": "mnemosyne-s3",
+          "host": "en.wikisource.org",
+          "statement": "they were the daughters of Zeus and Mnemosyne, the personification of memory",
+          "statement_id": "Mnemosyne terkait dengan they were the daughters of Zeus and Mnemosyne, the personification of memory",
+          "quote": "they were the daughters of Zeus and Mnemosyne, the personification of memory",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mnemosyne-c14",
+          "source_id": "mnemosyne-s1",
+          "host": "www.theoi.com",
+          "statement": "Mnemosyne means memory and is named a daughter of Uranus and one of the Titanides.",
+          "statement_id": "Mnemosyne terkait dengan MNEMO′SYNE (Mnêmosunê), i. e. memory",
+          "quote": "i. e. memory, a daughter of Uranus, and one of the Titanides",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mnemosyne-c15",
+          "source_id": "mnemosyne-s1",
+          "host": "www.theoi.com",
+          "statement": "The Titanis (Titaness) Mnemosyne was sometimes named as one of three Elder Mousai (Muses), who preceded the nine daughters of Zeus as goddesses of music.",
+          "statement_id": "Mnemosyne terkait dengan The Titanis (Titaness) Mnemosyne was sometimes named as one of three Elder Mousai (Muses), who preceded the nine daughters of Zeus as goddesses of music.",
+          "quote": "The Titanis (Titaness) Mnemosyne was sometimes named as one of three Elder Mousai (Muses), who preceded the nine daughters of Zeus as goddesses of music.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "sobek",
+      "file": "batch-046-fix-2.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 15,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "4 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "sobek-c01",
+          "source_id": "sobek-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Sobek - An important protective deity in the form of a crocodile or a man with a crocodile's head",
+          "statement_id": "Sobek terkait dengan Sobek - An important protective deity in the form of a crocodile or a man with a crocodile's head",
+          "quote": "Sobek - An important protective deity in the form of a crocodile or a man with a crocodile's head",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sobek-c02",
+          "source_id": "sobek-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Sobek was a god of water but also associated with medicine and particularly surgery.",
+          "statement_id": "Sobek terkait dengan Sobek was a god of water but also associated with medicine and particularly surgery.",
+          "quote": "Sobek was a god of water but also associated with medicine and particularly surgery.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sobek-c03",
+          "source_id": "sobek-s1",
+          "host": "www.worldhistory.org",
+          "statement": "His name means \"Crocodile\" and he was lord of marshes and wetlands",
+          "statement_id": "Sobek terkait dengan His name means \"Crocodile\" and he was lord of marshes and wetlands",
+          "quote": "His name means \"Crocodile\" and he was lord of marshes and wetlands",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "sobek-c04",
+          "source_id": "sobek-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the Pyramid Texts he is claimed to be the son of Neith",
+          "statement_id": "Sobek terkait dengan In the Pyramid Texts he is claimed to be the son of Neith",
+          "quote": "In the Pyramid Texts he is claimed to be the son of Neith",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sobek-c05",
+          "source_id": "sobek-s1",
+          "host": "www.worldhistory.org",
+          "statement": "As god of wetlands he was associated with fertility and procreation",
+          "statement_id": "Sobek terkait dengan As god of wetlands he was associated with fertility and procreation",
+          "quote": "As god of wetlands he was associated with fertility and procreation",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sobek-c06",
+          "source_id": "sobek-s1",
+          "host": "www.worldhistory.org",
+          "statement": "as the crocodile god, also with unexpected death.",
+          "statement_id": "Sobek terkait dengan as the crocodile god, also with unexpected death.",
+          "quote": "as the crocodile god, also with unexpected death.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sobek-c07",
+          "source_id": "sobek-s1",
+          "host": "www.worldhistory.org",
+          "statement": "His priests kept live crocodiles in the temples who were fed lavishly",
+          "statement_id": "Sobek terkait dengan His priests kept live crocodiles in the temples who were fed lavishly",
+          "quote": "His priests kept live crocodiles in the temples who were fed lavishly",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sobek-c08",
+          "source_id": "sobek-s1",
+          "host": "www.worldhistory.org",
+          "statement": "When these crocodiles died they were mummified and buried with all the care given to a person.",
+          "statement_id": "Sobek terkait dengan When these crocodiles died they were mummified and buried with all the care given to a person.",
+          "quote": "When these crocodiles died they were mummified and buried with all the care given to a person.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sobek-c09",
+          "source_id": "sobek-s1",
+          "host": "www.worldhistory.org",
+          "statement": "He was also associated with the Nile which was said to issue forth as the sweat of Sobek.",
+          "statement_id": "Sobek terkait dengan He was also associated with the Nile which was said to issue forth as the sweat of Sobek.",
+          "quote": "He was also associated with the Nile which was said to issue forth as the sweat of Sobek.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sobek-c10",
+          "source_id": "sobek-s2",
+          "host": "www.metmuseum.org",
+          "statement": "A crocodile on a shrine represents the god Sobek.",
+          "statement_id": "Sobek terkait dengan A crocodile on a shrine represents the god Sobek.",
+          "quote": "A crocodile on a shrine represents the god Sobek.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "sobek-c11",
+          "source_id": "sobek-s2",
+          "host": "www.metmuseum.org",
+          "statement": "Sobek was an important god throughout Egypt, and with important cult centers in both Upper Egypt and the Fayum.",
+          "statement_id": "Sobek terkait dengan Sobek was an important god throughout Egypt, and with important cult centers in both Upper Egypt and the Fayum.",
+          "quote": "Sobek was an important god throughout Egypt, and with important cult centers in both Upper Egypt and the Fayum.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "sobek-c12",
+          "source_id": "sobek-s2",
+          "host": "www.metmuseum.org",
+          "statement": "Associated with the Nile floods and fertility, Sobek's centrality in the Fayum led to his being associated with royal power during the Middle Kingdom",
+          "statement_id": "Sobek terkait dengan Associated with the Nile floods and fertility, Sobek's centrality in the Fayum led to his being associated with royal power during the Middle Kingdom",
+          "quote": "Associated with the Nile floods and fertility, Sobek's centrality in the Fayum led to his being associated with royal power during the Middle Kingdom",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "sobek-c13",
+          "source_id": "sobek-s2",
+          "host": "www.metmuseum.org",
+          "statement": "then directly with the god Re.",
+          "statement_id": "Sobek terkait dengan then directly with the god Re.",
+          "quote": "then directly with the god Re.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "sobek-c14",
+          "source_id": "sobek-s3",
+          "host": "ancientegyptonline.co.uk",
+          "statement": "In some areas, a tame crocodile was worshiped as the earthly embodiment of Sobek himself, while in other places crocodiles were reviled, hunted, and killed.",
+          "statement_id": "Sobek terkait dengan In some areas, a tame crocodile was worshiped as the earthly embodiment of Sobek himself, while in other places crocodiles were reviled, hunted, and killed.",
+          "quote": "In some areas, a tame crocodile was worshiped as the earthly embodiment of Sobek himself, while in other places crocodiles were reviled, hunted, and killed.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sobek-c15",
+          "source_id": "sobek-s3",
+          "host": "ancientegyptonline.co.uk",
+          "statement": "Sobek (also known as Sebek, Sebek-Ra, Sobeq, Suchos, Sobki, and Soknopais) was the ancient god of crocodiles.",
+          "statement_id": "Sobek terkait dengan Sobek (also known as Sebek, Sebek-Ra, Sobeq, Suchos, Sobki, and Soknopais) was the ancient god of crocodiles.",
+          "quote": "Sobek (also known as Sebek, Sebek-Ra, Sobeq, Suchos, Sobki, and Soknopais) was the ancient god of crocodiles.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    }
+  ]
+}

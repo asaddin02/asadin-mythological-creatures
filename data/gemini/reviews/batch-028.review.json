@@ -1,0 +1,491 @@
+{
+  "batch_id": "batch-028",
+  "checked_at": "2026-09-29T18:14:45.120Z",
+  "files": [
+    "batch-028.md",
+    "batch-028-fix-1.md",
+    "batch-028-fix-2.md"
+  ],
+  "parse_problems": [],
+  "missing": [],
+  "entries": [
+    {
+      "slug": "jupiter",
+      "file": "batch-028-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 8,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 8 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "1 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "jupiter-c01",
+          "source_id": "jupiter-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Jupiter is god of the sky and thunder and king of the gods.",
+          "statement_id": "Jupiter adalah dewa langit dan guntur serta pemimpin para dewa.",
+          "quote": "is the god of the sky and thunder, and king of the gods.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jupiter-c02",
+          "source_id": "jupiter-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Jupiter was the leading deity of Roman state religion in the Republican and Imperial eras.",
+          "statement_id": "Jupiter adalah dewa utama agama negara Romawi pada zaman republik dan kekaisaran.",
+          "quote": "Jupiter was the chief deity of Roman state religion throughout the Republican and Imperial eras",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jupiter-c03",
+          "source_id": "jupiter-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The thunderbolt and eagle are Jupiter's emblems.",
+          "statement_id": "Petir dan elang merupakan lambang Jupiter.",
+          "quote": "His identifying implement is the thunderbolt and his primary sacred animal is the eagle",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jupiter-c04",
+          "source_id": "jupiter-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Romans viewed Jupiter as a counterpart of Greek Zeus.",
+          "statement_id": "Orang Romawi memandang Jupiter sebagai padanan Zeus Yunani.",
+          "quote": "The Romans regarded Jupiter as the equivalent of the Greek Zeus",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jupiter-c05",
+          "source_id": "jupiter-s2",
+          "host": "www.worldhistory.org",
+          "statement": "The title Jupiter Optimus Maximus expressed Jupiter's supreme status.",
+          "statement_id": "Gelar Jupiter Optimus Maximus menyatakan kedudukan Jupiter sebagai dewa tertinggi.",
+          "quote": "Jupiter's most important title was Jupiter Optimus Maximus, meaning the Best and Greatest and signifying his role as father of the gods.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jupiter-c06",
+          "source_id": "jupiter-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Jupiter was held to protect Rome in war and preserve welfare in peace.",
+          "statement_id": "Jupiter dipercaya melindungi Roma dalam perang dan menjaga kesejahteraan saat damai.",
+          "quote": "He protected Rome in time of war and maintained the welfare of the people during peace.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jupiter-c07",
+          "source_id": "jupiter-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Jupiter is depicted with a white beard and an eagle on his scepter.",
+          "statement_id": "Jupiter digambarkan berjanggut putih dan memiliki lambang elang pada tongkat.",
+          "quote": "He was most often portrayed with a long, white beard, and his symbol was the eagle atop a scepter",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jupiter-c08",
+          "source_id": "jupiter-s3",
+          "host": "www.metmuseum.org",
+          "statement": "North African Ammon was equated with Jupiter as Jupiter Ammon.",
+          "statement_id": "Ammon dari Afrika Utara disamakan dengan Jupiter sebagai Jupiter Ammon.",
+          "quote": "The Romans considered the revered North African oracle Ammon an embodiment of Jupiter, and referred to this syncretic dual divinity as Jupiter Ammon.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "ganesha",
+      "file": "batch-028-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 8,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 8 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "ganesha-c01",
+          "source_id": "ganesha-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Ganesha is an important Hindu deity.",
+          "statement_id": "Ganesha termasuk dewa penting dalam agama Hindu.",
+          "quote": "Ganesha (also Ganesa or Ganapati) is one of the most important gods in Hinduism.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ganesha-c02",
+          "source_id": "ganesha-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Ganesha is depicted with an elephant head and human body.",
+          "statement_id": "Ganesha digambarkan dengan kepala gajah dan tubuh manusia.",
+          "quote": "Ganesha is easily recognized with his elephant head and human body",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ganesha-c03",
+          "source_id": "ganesha-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Ganesha is patron of writers, travellers, students, and commerce, and removes obstacles.",
+          "statement_id": "Ganesha melindungi penulis, pengelana, pelajar, dan perdagangan serta menyingkirkan rintangan.",
+          "quote": "Ganesha is the patron of writers, travellers, students, and commerce, and he removes obstacles blocking new projects.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ganesha-c04",
+          "source_id": "ganesha-s2",
+          "host": "www.metmuseum.org",
+          "statement": "Ganesha is Shiva and Parvati's son and receives offerings before important undertakings.",
+          "statement_id": "Ganesha adalah putra Shiva dan Parvati dan diberi persembahan sebelum tugas penting dimulai.",
+          "quote": "The potbellied, elephant-headed Hindu god Ganesha, son of Shiva and Parvati, is venerated throughout India. He is believed to bestow success and abundance through his removal of obstacles. Before any important task is begun, an offering is made to Ganesha.",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "ganesha-c05",
+          "source_id": "ganesha-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In one story Shiva had Ganesha's head replaced with an elephant's.",
+          "statement_id": "Dalam suatu kisah, Shiva mengganti kepala Ganesha dengan kepala gajah.",
+          "quote": "Repentant, Shiva ordered a new head to be found for the boy and, as the first animal available was an elephant, so Ganesha gained a new elephant head",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ganesha-c06",
+          "source_id": "ganesha-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Ganesha is also worshipped in Jain and Buddhist traditions.",
+          "statement_id": "Ganesha juga dipuja dalam tradisi Jain dan Buddha.",
+          "quote": "Ganesha is also worshipped as a principal deity in both Jainism and Buddhism.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ganesha-c07",
+          "source_id": "ganesha-s2",
+          "host": "www.metmuseum.org",
+          "statement": "In a museum sculpture Ganesha holds a lasso, axe, sweet, and one of his tusks.",
+          "statement_id": "Pada patung museum Ganesha memegang tali, kapak, manisan, dan gadingnya sendiri.",
+          "quote": "Here, his upper left hand holds a lasso; the upper right, a battle-ax; the lower left, a sweet; and the lower right, one of his own tusks",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "ganesha-c08",
+          "source_id": "ganesha-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Hindu texts mention Ganesha between the first century BCE and the second century CE.",
+          "statement_id": "Teks Hindu menyebut Ganesha antara abad pertama sebelum Masehi dan abad kedua Masehi.",
+          "quote": "Ganesha is mentioned in Hindu texts between the 1st century BCE and 2nd century CE",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "michael",
+      "file": "batch-028-fix-2.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 4,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 6 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "4 kutipan tidak bisa dicek otomatis: bible.usccb.org (HTTP 403); www.metmuseum.org (HTTP 429)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "michael-c01",
+          "source_id": "michael-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Michael is an archangel and divine warrior in Judaism, Christianity, and Islam.",
+          "statement_id": "Michael adalah malaikat agung dan pejuang Tuhan dalam Yahudi, Kristen, dan Islam.",
+          "quote": "is an archangel and the warrior of God in Judaism, Christianity, and Islam",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c02",
+          "source_id": "michael-s3",
+          "host": "bible.usccb.org",
+          "statement": "Daniel describes Michael as one of the chief princes who came to help.",
+          "statement_id": "Kitab Daniel menyebut Michael sebagai salah satu pemimpin utama yang datang membantu.",
+          "quote": "until finally Michael, one of the chief princes, came to help me.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c03",
+          "source_id": "michael-s2",
+          "host": "bible.usccb.org",
+          "statement": "Michael is identified as an archangel and guardian of Israel.",
+          "statement_id": "Michael adalah malaikat agung yang menjaga Israel.",
+          "quote": "Michael: the archangel, guardian and champion of Israel",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "michael-c04",
+          "source_id": "michael-s2",
+          "host": "bible.usccb.org",
+          "statement": "Michael leads angels against the dragon in Revelation.",
+          "statement_id": "Michael memimpin para malaikat melawan naga dalam Kitab Wahyu.",
+          "quote": "Then war broke out in heaven; Michael and his angels battled against the dragon. The dragon and its angels fought back",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "michael-c05",
+          "source_id": "michael-s2",
+          "host": "bible.usccb.org",
+          "statement": "The dragon opposed by Michael is called Devil or Satan and is cast to earth.",
+          "statement_id": "Naga yang dihadapi Michael disebut Iblis atau Satan dan dilempar ke bumi.",
+          "quote": "The huge dragon, the ancient serpent, who is called the Devil and Satan, who deceived the whole world, was thrown down to earth",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "michael-c06",
+          "source_id": "michael-s4",
+          "host": "www.metmuseum.org",
+          "statement": "A French sculpture shows armored Michael fighting the devil as a dragon.",
+          "statement_id": "Patung Prancis menggambarkan Michael berzirah saat melawan iblis berwujud naga.",
+          "quote": "Saint Michael, the warrior archangel of Heaven, is portrayed battling the devil in the guise of a dragon. Swiveling to spear the serpentine foe, the saint is clad in a suit of mail covered by a cuirass of plate armor.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "vampire",
+      "file": "batch-028.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 4,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 6 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "1 kutipan tidak bisa dicek otomatis: www.smithsonianmag.com (HTTP 403)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "vampire-c01",
+          "source_id": "vampire-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In European folklore vampires are undead humanlike creatures.",
+          "statement_id": "Dalam cerita rakyat Eropa vampir adalah makhluk mirip manusia yang hidup kembali.",
+          "quote": "In European folklore, vampires are undead humanoid creatures that visit loved ones and cause mischief or deaths in the neighbourhoods they inhabited while they were alive.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vampire-c02",
+          "source_id": "vampire-s2",
+          "host": "en.wikisource.org",
+          "statement": "A vampire was believed to leave the grave at night to drink living people's blood.",
+          "statement_id": "Vampir diyakini keluar dari kubur malam hari dan mengisap darah orang hidup.",
+          "quote": "In the first-mentioned meaning a vampire is usually supposed to be the soul of a dead man which quits the buried body by night to suck the blood of living persons.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vampire-c03",
+          "source_id": "vampire-s2",
+          "host": "en.wikisource.org",
+          "statement": "Reported anti-vampire measures included staking, beheading, or burning the corpse.",
+          "statement_id": "Penangkal vampir mencakup pasak pada jasad, pemenggalan kepala, atau pembakaran tubuh.",
+          "quote": "To put a stop to his ravages, a stake is driven through the -corpse, or the head cut off, or the heart torn out and the body burned",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vampire-c04",
+          "source_id": "vampire-s3",
+          "host": "www.smithsonianmag.com",
+          "statement": "Polish burials had sickles or stones placed on the bodies.",
+          "statement_id": "Makam di Polandia ditemukan dengan sabit atau batu yang ditaruh di tubuh jasad.",
+          "quote": "They all had either sickles placed across their neck or body or large rocks stacked under their chin",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "vampire-c05",
+          "source_id": "vampire-s4",
+          "host": "www.smithsonianmag.com",
+          "statement": "Vampire scares often followed contagious deaths and further deaths nearby.",
+          "statement_id": "Kepanikan vampir sering mengikuti kematian akibat penyakit menular dan kematian beruntun.",
+          "quote": "vampire scares usually began when a person died – often of a contagious disease, and in New England almost always of tuberculosis – and others in the vicinity began dying",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "vampire-c06",
+          "source_id": "vampire-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Bram Stoker's Dracula appeared in 1897 and influenced the vampire image.",
+          "statement_id": "Novel Dracula karya Bram Stoker diterbitkan pada tahun 1897 dan berpengaruh pada citra vampir.",
+          "quote": "the pre-eminent vampire novel in history: Dracula by Bram Stoker, published in 1897.",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "ares",
+      "file": "batch-028-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 7,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target rich: 7 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "ares-c01",
+          "source_id": "ares-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ares is a Greek god of war and courage, an Olympian and son of Zeus and Hera.",
+          "statement_id": "Ares adalah dewa perang dan keberanian Yunani, salah satu dewa Olimpus dan putra Zeus serta Hera.",
+          "quote": "is the Greek god of war and courage. He is one of the Twelve Olympians, and the son of Zeus and Hera.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ares-c02",
+          "source_id": "ares-s2",
+          "host": "www.theoi.com",
+          "statement": "Ares is an Olympian deity associated with war and courage.",
+          "statement_id": "Ares adalah dewa Olimpus yang berkaitan dengan perang dan keberanian.",
+          "quote": "ARES was the Olympian god of war, battlelust, courage and civil order.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ares-c03",
+          "source_id": "ares-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Ancient art shows Ares armored with helmet, shield, and spear.",
+          "statement_id": "Ares digambarkan memakai zirah dan ketopong serta membawa perisai dan tombak.",
+          "quote": "In ancient Greek Archaic and Classical art, Ares is most often depicted wearing full armour and helmet and carrying a shield and spear.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ares-c04",
+          "source_id": "ares-s2",
+          "host": "www.theoi.com",
+          "statement": "Hephaistos trapped Ares and Aphrodite in a golden net.",
+          "statement_id": "Hephaistos menjebak Ares dan Aphrodite dalam jaring emas.",
+          "quote": "Ares had an adulterous affair with the goddess Aphrodite but her husband Hephaistos trapped the pair in a golden net",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ares-c05",
+          "source_id": "ares-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Twin giants confined Ares in a bronze vessel until Hermes freed him.",
+          "statement_id": "Raksasa kembar mengurung Ares di bejana perunggu sampai Hermes membebaskannya.",
+          "quote": "They imprisoned the god in a bronze jar (or cauldron) for one year and he was only freed through the intervention of Hermes.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ares-c06",
+          "source_id": "ares-s2",
+          "host": "www.theoi.com",
+          "statement": "Romans identified Mars with Ares.",
+          "statement_id": "Orang Romawi menyamakan Mars dengan Ares.",
+          "quote": "The Romans identified their god Mars with the Greek Ares.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ares-c07",
+          "source_id": "ares-s2",
+          "host": "www.theoi.com",
+          "statement": "Ancient depictions show Ares as a bearded warrior or a helmeted youth with spear.",
+          "statement_id": "Penggambaran kuno Ares dapat berupa prajurit dewasa berjanggut atau pemuda berketopong dan tombak.",
+          "quote": "In ancient Greek art he was depicted as either a mature, bearded warrior armed for battle, or a nude, beardless youth with a helm and spear.",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    }
+  ]
+}
