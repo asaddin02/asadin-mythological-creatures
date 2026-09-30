@@ -361,6 +361,8 @@ function checkEntry(entry, expected) {
       else refs(id.native_name.claim_ids, 'identity.native_name');
     }
     if (id.wikidata_qid != null && !/^Q\d+$/.test(id.wikidata_qid)) add('error', 'identity.wikidata_qid', 'Harus berbentuk Q123 atau null.');
+    // Agents have written QIDs from memory; the batch manifest holds the item the worklist was built from.
+    else if (id.wikidata_qid != null && expected?.qid && id.wikidata_qid !== expected.qid) add('error', 'identity.wikidata_qid', `Tidak sama dengan QID di prompt batch (${expected.qid}). Salin QID dari prompt batch, jangan dari ingatan.`);
     refs(id.claim_ids, 'identity');
   }
   list(entry.alternate_names, 'alternate_names').forEach((n, i) => {

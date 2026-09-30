@@ -1,26 +1,11 @@
 {
   "batch_id": "batch-146",
-  "checked_at": "2026-09-30T07:38:17.769Z",
+  "checked_at": "2026-09-30T07:42:45.295Z",
   "files": [
     "batch-146.md"
   ],
   "parse_problems": [],
-  "missing": [
-    "muki-mythology",
-    "mussie",
-    "north-shore-monster",
-    "seelkee",
-    "si-te-cah",
-    "tulevieja",
-    "turtle-lake-monster",
-    "ulmecatl",
-    "unhcegila",
-    "yahui",
-    "zapam-zucum",
-    "ahola",
-    "akva-nigrulo",
-    "amarum"
-  ],
+  "missing": [],
   "entries": [
     {
       "slug": "wihwin",
@@ -2126,11 +2111,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "relations[2].target_name",
-          "message": "Tidak muncul di kutipan mana pun: Xicalancatl. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -2171,16 +2151,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "etymology.literal_meaning",
-          "message": "Tidak muncul di kutipan mana pun: Otomi. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "relations[2].target_name",
-          "message": "Tidak muncul di kutipan mana pun: Mixtecatl. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -2291,16 +2261,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "short_description.en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"qailertetang is an inuit goddess who cares for animals fishers and hunters…\"). Tulis ulang dengan kata-kata sendiri."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0].en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"qailertetang is an inuit goddess who cares for animals fishers and hunters…\"). Tulis ulang dengan kata-kata sendiri."
         }
       ],
       "claims": [
@@ -2362,6 +2322,896 @@
           "statement_id": "Peneliti Inuit Laugrand dan Oosten menyebut kedua sosok itu wakil Sedna.",
           "quote": "Inuit scholars Laugrand and Oosten call them the representatives of Sedna.",
           "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "muki-mythology",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "muki-mythology-c01",
+          "source_id": "muki-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The muki is a goblin-like creature of Central Andean mythology in Bolivia, Peru, Ecuador and Colombia.",
+          "statement_id": "Muki adalah makhluk mirip goblin dalam mitologi Andes Tengah di Bolivia, Peru, Ekuador, dan Kolombia.",
+          "quote": "is a goblin-like creature in the mythology of the Central Andes in Bolivia, Peru, Ecuador and Colombia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "muki-mythology-c02",
+          "source_id": "muki-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He is a miner whose existence is confined underground: the muki lives inside the mines.",
+          "statement_id": "Ia dikenal sebagai penambang yang hanya hidup di ruang bawah tanah, yaitu di dalam tambang.",
+          "quote": "He is known to be a miner and his existence is constrained to underground spaces: The muki lives inside the mines.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "muki-mythology-c03",
+          "source_id": "muki-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The muki is considered a dwarf, no taller than 2 feet.",
+          "statement_id": "Muki dianggap kurcaci karena tingginya tidak lebih dari 2 kaki.",
+          "quote": "The muki is considered to be a dwarf due to its height, since it is no taller than 2 feet (0.61 meters).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "muki-mythology-c04",
+          "source_id": "muki-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In some mining traditions he has two horns to break rocks and point to mineral veins.",
+          "statement_id": "Dalam beberapa tradisi tambang, ia bertanduk dua untuk memecah batu dan menunjuk urat mineral.",
+          "quote": "In some mining traditions, he has two horns that are used to break the rocks and point at the mineral veins.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "muki-mythology-c05",
+          "source_id": "muki-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Sometimes he turns into an animal or a blond white man to deceive the miners.",
+          "statement_id": "Kadang ia berubah menjadi hewan atau lelaki kulit putih berambut pirang untuk menipu para penambang.",
+          "quote": "Sometimes he shape-shifts into an animal or a blonde white man to appear to the miners and deceive them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "muki-mythology-c06",
+          "source_id": "muki-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Elders advise fighting the muki with one's belt without giving in to fear.",
+          "statement_id": "Para tetua menasihati agar melawan muki dengan ikat pinggang tanpa takut.",
+          "quote": "Elders advise that, when dealing with the muki, one should use his/her belt to battle him without succumbing to fear.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "mussie",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "mussie-c01",
+          "source_id": "mussie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Canadian folklore, Mussie is a creature said to live in Muskrat Lake, Ontario.",
+          "statement_id": "Dalam cerita rakyat Kanada, Mussie adalah makhluk yang konon hidup di Muskrat Lake, Ontario.",
+          "quote": "In Canadian folklore, Mussie is a creature said to live in Muskrat Lake in the Canadian province of Ontario.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mussie-c02",
+          "source_id": "mussie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is variously described, e.g. as a walrus or a three-eyed Loch Ness Monster-like creature.",
+          "statement_id": "Ia digambarkan beragam, misalnya seperti walrus atau makhluk bermata tiga mirip Loch Ness Monster.",
+          "quote": "It is variously described, for example, as a walrus or as a three-eyed Loch Ness Monster-like creature.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mussie-c03",
+          "source_id": "mussie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The legend likely began around 1916, though it is claimed Samuel de Champlain wrote of it in the early seventeenth century.",
+          "statement_id": "Legenda Mussie kemungkinan dimulai sekitar 1916, meski ada klaim bahwa Samuel de Champlain menulis tentangnya pada awal abad ke-17.",
+          "quote": "The legend of Mussie likely began around 1916, though legend claims that Canadian pioneer Samuel de Champlain wrote about it in the early seventeenth century.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mussie-c04",
+          "source_id": "mussie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Its name was originally Hapyxelor (or Hapaxelor), later changed to Mussie, short for The Monster of Muskrat Lake.",
+          "statement_id": "Nama awalnya Hapyxelor (juga Hapaxelor), kemudian diganti Mussie, singkatan dari The Monster of Muskrat Lake.",
+          "quote": "The creature's name was originally cited as Hapyxelor, alternately spelled Hapaxelor, but changed simply to Mussie, short for The Monster of Muskrat Lake, sometime later.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mussie-c05",
+          "source_id": "mussie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mussie has become a local mascot, appearing on signs welcoming visitors to Cobden.",
+          "statement_id": "Mussie menjadi maskot budaya daerah itu dan muncul di papan selamat datang Cobden.",
+          "quote": "Mussie has become a cultural mascot of the area, appearing on signs welcoming visitors to Cobden and in front of the Home Hardware store in the village.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "north-shore-monster",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "north-shore-monster-c01",
+          "source_id": "north-shore-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The North Shore Monster, sometimes called \"Old Briney,\" reportedly inhabits the Great Salt Lake in Utah.",
+          "statement_id": "North Shore Monster, kadang disebut \"Old Briney\", konon menghuni Great Salt Lake di Utah.",
+          "quote": "The North Shore Monster, sometimes referred to as \"Old Briney,\" reportedly inhabits the Great Salt Lake in Utah.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "north-shore-monster-c02",
+          "source_id": "north-shore-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Descriptions vary, but it is most often described with a crocodile-like body and a horse's head.",
+          "statement_id": "Gambarannya beragam, tetapi paling sering bertubuh mirip buaya dan berkepala kuda.",
+          "quote": "Descriptions of the monster vary, but it is most commonly described as having a crocodile-like body and the head of a horse.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "north-shore-monster-c03",
+          "source_id": "north-shore-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The best-known sighting was on July 8, 1877, when J.H. McNeil and saltworks workers near Monument Point claimed to meet a large creature.",
+          "statement_id": "Penampakan paling terkenal terjadi pada 8 Juli 1877, ketika J.H. McNeil dan pekerja tambang garam dekat Monument Point mengaku bertemu makhluk besar.",
+          "quote": "The most well-known sighting occurred on July 8, 1877, when J.H. McNeil and other workers at the Barnes and Co. saltworks near Monument Point on the lake's northern shore claimed to have encountered a large creature",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "north-shore-monster-c04",
+          "source_id": "north-shore-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "McNeil estimated it at about 75 feet long.",
+          "statement_id": "McNeil memperkirakan panjang makhluk itu sekitar 75 kaki.",
+          "quote": "McNeil estimated the creature to be about 75 feet long.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "north-shore-monster-c05",
+          "source_id": "north-shore-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "However, the Deseret News suggested taking the report \"with a few grains of salt.\"",
+          "statement_id": "Namun Deseret News menyarankan agar laporan itu tidak dipercaya begitu saja.",
+          "quote": "However, the Deseret News suggested that the report should be taken \"with a few grains of salt.\"",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "seelkee",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "seelkee-c01",
+          "source_id": "seelkee-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Canadian folklore, Seelkee (from the Halqemeylem language) is a lake monster said to have lived in the swamps of present-day Chilliwack, British Columbia.",
+          "statement_id": "Dalam cerita rakyat Kanada, Seelkee (dari bahasa Halqemeylem) adalah monster danau yang konon hidup di rawa-rawa wilayah yang kini menjadi Chilliwack, British Columbia.",
+          "quote": "In Canadian folklore, Seelkee (transcribed in English from Halqemeylem, the local indigenous language) is a lake monster reported to have lived in the swamps of what is now Chilliwack, in British Columbia, Canada.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seelkee-c02",
+          "source_id": "seelkee-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Seelkee has reportedly been seen by the Stó:lō people for hundreds of years.",
+          "statement_id": "Seelkee konon telah dilihat orang Stó:lō selama ratusan tahun.",
+          "quote": "Seelkee has been allegedly seen by the Stó:lō, First Nations, people for hundreds of years.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seelkee-c03",
+          "source_id": "seelkee-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Most commonly it is a 10- to 15-foot sea-serpent-like beast with a horse's head.",
+          "statement_id": "Gambaran paling umum adalah makhluk mirip ular laut sepanjang 10 hingga 15 kaki berkepala kuda.",
+          "quote": "The most common description of Seelkee is a 10- to 15-foot-long (3.0 to 4.6 m) sea serpent-like beast with the head of a horse.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seelkee-c04",
+          "source_id": "seelkee-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is often portrayed as a two-headed snake, mostly black with red circular designs.",
+          "statement_id": "Ia juga sering digambarkan seperti ular berkepala dua, berwarna hitam dengan pola lingkaran merah.",
+          "quote": "Descriptions often portray the creature as snake-like with two heads. Furthermore, the coloration has been described as mostly black with red circular designs.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seelkee-c05",
+          "source_id": "seelkee-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some Stó:lō longhouses had large house posts with red-painted Seelkee designs.",
+          "statement_id": "Beberapa rumah panjang di desa Stó:lō memiliki tiang besar bermotif Seelkee dengan cat merah.",
+          "quote": "Some of the longhouses in the local Stó:lō villages were defined by large house posts with Seelkee designs accented with red paint.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "si-te-cah",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "si-te-cah-c01",
+          "source_id": "si-te-cah-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Northern Paiute oral history, the Si-Te-Cah were a legendary tribe the Paiutes fought and drove out, with a final battle at Lovelock Cave, Nevada.",
+          "statement_id": "Menurut sejarah lisan Paiute Utara, Si-Te-Cah adalah suku legendaris yang mereka perangi dan usir, dengan pertempuran terakhir di Lovelock Cave, Nevada.",
+          "quote": "were a legendary tribe with whom the Northern Paiutes fought a war and eventually wiped out or drove away from the area, with the final battle having taken place at what is now known as Lovelock Cave near Lovelock, Nevada, United States.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "si-te-cah-c02",
+          "source_id": "si-te-cah-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They were said to be red-haired, sometimes cannibals, and in later versions giants.",
+          "statement_id": "Mereka konon berambut merah, kadang disebut kanibal, dan dalam versi belakangan digambarkan sebagai raksasa.",
+          "quote": "They were said to have red hair, and are sometimes described as having been cannibals.  In some later versions of the legend they were giants.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "si-te-cah-c03",
+          "source_id": "si-te-cah-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Northern Paiute, \"Si-Te-Cah\" means \"tule-eaters\".",
+          "statement_id": "Dalam bahasa Paiute Utara, \"Si-Te-Cah\" berarti \"pemakan tule\".",
+          "quote": "\"Si-Te-Cah\" means \"tule-eaters\"  in the Northern Paiute language.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "si-te-cah-c04",
+          "source_id": "si-te-cah-s1",
+          "host": "en.wikipedia.org",
+          "statement": "To escape the Paiutes, they reportedly lived on tule rafts on Lake Humboldt.",
+          "statement_id": "Untuk menghindari gangguan orang Paiute, mereka konon tinggal di rakit tule di Danau Humboldt.",
+          "quote": "In order to escape harassment from the Paiutes, the Si-Te-Cahs were said to have lived on rafts made of tule on Lake Humboldt.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "si-te-cah-c05",
+          "source_id": "si-te-cah-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Archaeologists Loud and Harrington doubted whether these were real traditions or an attempt by the Northern Paiute to explain earlier archaeological remains.",
+          "statement_id": "Arkeolog Loud dan Harrington meragukan apakah kisah ini tradisi sejarah nyata atau upaya Paiute Utara menjelaskan sisa arkeologi dari masa sebelum mereka.",
+          "quote": "They expressed doubts over whether these were real historical traditions or whether, \"they should be regarded as an attempt by the Northern Paiute to explain the archaeological remains of a cultural period preceding their own\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "tulevieja",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "tulevieja-c01",
+          "source_id": "tulevieja-s1",
+          "host": "en.wikipedia.org",
+          "statement": "La Tulevieja (also Tulivieja) is a legendary figure of Costa Rican and Panamanian folklore, a ghost wearing a distinctive hat called a tule.",
+          "statement_id": "La Tulevieja (juga Tulivieja) adalah tokoh legenda cerita rakyat Kosta Rika dan Panama, hantu bertopi khas yang disebut tule.",
+          "quote": "La Tulevieja (also spelled Tulivieja) is a legendary figure from Costa Rican and Panamanian folklore. She is a ghost who wears a distinctive hat called a tule.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tulevieja-c02",
+          "source_id": "tulevieja-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She is also often described as a woman-bird hybrid, like a harpy.",
+          "statement_id": "Ia juga sering digambarkan sebagai campuran perempuan dan burung, mirip harpy.",
+          "quote": "She is also commonly described as a hybrid of woman and bird (similar to a harpy)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tulevieja-c03",
+          "source_id": "tulevieja-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Her hallmark is eagle or hawk legs and claws that leave reversed footprints so she cannot be followed.",
+          "statement_id": "Ciri utamanya adalah kaki dan cakar elang yang meninggalkan jejak terbalik sehingga ia tidak bisa diikuti.",
+          "quote": "her most characteristic features are her legs and claws of an eagle or hawk instead of human legs, which leave reversed footprints so that she cannot be followed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tulevieja-c04",
+          "source_id": "tulevieja-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She reportedly eats charcoal and ashes, so her tracks appear near recently doused campfires.",
+          "statement_id": "Ia konon memakan arang dan abu, sehingga jejaknya sering ditemukan di sekitar api unggun yang baru padam.",
+          "quote": "She is said to feed on charcoal and ashes, which is why it is common to find her tracks around recently extinguished campfires.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tulevieja-c05",
+          "source_id": "tulevieja-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The only escape is to recite \"Alabado sea el Santísimo\", which makes her fly off toward the sun.",
+          "statement_id": "Satu-satunya cara menyelamatkan diri adalah mendaraskan doa \"Alabado sea el Santísimo\", yang membuatnya terbang dan menghilang ke arah matahari.",
+          "quote": "The only way to save oneself once encountering her is to recite the prayer \"Alabado sea el Santísimo\" (\"Praised be the Most Holy Sacrament\"), which causes her to take flight and disappear toward the sun.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "turtle-lake-monster",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "turtle-lake-monster-c01",
+          "source_id": "turtle-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Canadian folklore, the Turtle Lake Monster reportedly inhabits Turtle Lake in West Central Saskatchewan.",
+          "statement_id": "Dalam cerita rakyat Kanada, Turtle Lake Monster adalah makhluk yang konon menghuni Turtle Lake di Saskatchewan barat-tengah.",
+          "quote": "In Canadian folklore, the Turtle Lake Monster is an entity purportedly inhabiting Turtle Lake, in West Central Saskatchewan, Canada.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "turtle-lake-monster-c02",
+          "source_id": "turtle-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is usually described as 3 to 9 m long, with no dorsal fin and a head like a dog, seahorse or pig.",
+          "statement_id": "Monster ini biasanya digambarkan sepanjang 3 hingga 9 meter, tanpa sirip punggung, dengan kepala mirip anjing, kuda laut, atau babi.",
+          "quote": "The monster is usually described as a creature 3–9 m (9.8–29.5 ft) long, scaly or smooth, with no dorsal fin, and a head resembling either a dog, a seahorse, or a pig.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "turtle-lake-monster-c03",
+          "source_id": "turtle-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Reports go back to pre-settlement days, when the Cree told of people who entered its territory and vanished.",
+          "statement_id": "Laporannya sudah ada sebelum masa pemukiman, ketika orang Cree punya legenda tentang orang yang masuk wilayahnya dan hilang tanpa jejak.",
+          "quote": "Reports date back to pre-settlement days when the local Cree had a legend about people who ventured into the Turtle Lake Monster's territory and vanished without a trace.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "turtle-lake-monster-c04",
+          "source_id": "turtle-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Sightings may be of an unusually large lake sturgeon, or relict plesiosaurs.",
+          "statement_id": "Ada dugaan penampakannya adalah ikan sturgeon danau yang sangat besar atau sisa populasi plesiosaurus.",
+          "quote": "There is speculation that the monster sightings may be attributed to sightings of an unusually large lake sturgeon, or a relict population of prehistoric plesiosaurs.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "ulmecatl",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 2,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "ulmecatl-c01",
+          "source_id": "ulmecatl-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ulmecatl is one of the six giant sons of Mixcoatl and Tlaltecuhtli who populated the Earth after the Great Flood in the Fifth Sun of Aztec mythology.",
+          "statement_id": "Ulmecatl adalah salah satu dari enam raksasa putra Mixcoatl dan Tlaltecuhtli yang menghuni Bumi setelah Air Bah pada masa Matahari Kelima dalam mitologi Aztek.",
+          "quote": "Ulmecatl (from Nahuatl, 'where the rubber is born') is one of the six giants sons of Mixcoatl and Tlaltecuhtli that populated the Earth after the Great Flood during the Fifth Sun in Aztec Mythology.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ulmecatl-c02",
+          "source_id": "ulmecatl-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He was the third son, founder of Cuetlachoapan, where Puebla now stands, as well as Tontonihuacan and Huitzilapan.",
+          "statement_id": "Ia putra ketiga yang mendirikan Cuetlachoapan, tempat kota Puebla kini berada, serta Tontonihuacan dan Huitzilapan.",
+          "quote": "The third son who founded Cuetlachoapan, the place where Puebla is now, in addition to Tontonihuacan and Huitzilapan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "unhcegila",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "unhcegila-c01",
+          "source_id": "unhcegila-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Lakota mythology, Unhcegila is a serpent-like creature blamed for many unexplained disappearances and deaths; her male counterpart is Unk Tehi.",
+          "statement_id": "Dalam mitologi Lakota, Unhcegila adalah makhluk mirip ular yang dianggap penyebab banyak kematian dan kehilangan misterius; pasangan jantannya bernama Unk Tehi.",
+          "quote": "is a serpentoid creature which was responsible for many unexplained disappearances and deaths. Her male counterpart is known as Unk Tehi.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unhcegila-c02",
+          "source_id": "unhcegila-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Her form was later revealed as massive, with a long scaly body whose armor was almost impenetrable.",
+          "statement_id": "Belakangan wujudnya terungkap sangat besar, bertubuh panjang bersisik dengan pelindung alami yang hampir tak tertembus.",
+          "quote": "As time went on further, her form was exposed as being massive, with a long scaly body whose natural armor was almost impenetrable.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unhcegila-c03",
+          "source_id": "unhcegila-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Whoever looks upon her goes blind or insane.",
+          "statement_id": "Siapa pun yang memandangnya akan buta atau gila.",
+          "quote": "Whoever looked upon her will become blind or go insane.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "unhcegila-c04",
+          "source_id": "unhcegila-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Her weakness is the seventh spot on her torso, over her heart; to kill her, one must shoot a medicine arrow there.",
+          "statement_id": "Kelemahannya adalah titik ketujuh di badannya, tempat jantungnya berada; untuk membunuhnya, panah obat harus ditembakkan ke titik itu.",
+          "quote": "Her weakness is the seventh spot on her torso, behind which lies her heart. To kill her, one has to shoot a medicine arrow at this flaw in her natural armor.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "yahui",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "yahui-c01",
+          "source_id": "yahui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Yahui is a supernatural figure of mixed animal and human forms in Mixtec culture and belief.",
+          "statement_id": "Yahui adalah sosok gaib dengan berbagai campuran wujud hewan dan manusia dalam budaya dan kepercayaan Mixtec.",
+          "quote": "Yahui is a supernatural figure that takes on various mixtures of animal and human forms within the culture and belief systems of the Mixtec",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yahui-c02",
+          "source_id": "yahui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is an important recurring motif of Mixtec iconography, especially in the pre-Columbian era.",
+          "statement_id": "Yahui adalah motif penting dan berulang dalam ikonografi Mixtec, terutama pada masa pra-Kolumbus.",
+          "quote": "It is an important and recurring motif in Mixtec iconography, thought and culture, especially during the pre-Columbian era.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yahui-c03",
+          "source_id": "yahui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Postclassic Mixtec codices the yahui wears a serpent tail and headdress and a turtle carapace.",
+          "statement_id": "Dalam kodeks Mixtec masa Pascaklasik, yahui tampil berekor dan berhiasan kepala ular serta bercangkang kura-kura.",
+          "quote": "the yahui appears in Postclassic Mixtec codices as an entity wearing a serpent or reptilian tail and headdress (similar to the xiuhcoatl motif) and the carapace of a turtle.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yahui-c04",
+          "source_id": "yahui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The yahui has two main forms: the nahual (man-animal composite) and the animal figure.",
+          "statement_id": "Yahui muncul dalam dua wujud utama: nahual (campuran manusia-hewan) dan wujud hewan.",
+          "quote": "The yahui appears in two main forms: the nahual, or man-animal composite figure, and the animal figure.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yahui-c05",
+          "source_id": "yahui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "At times the nahual figures hold sacrificial knives and perform rites.",
+          "statement_id": "Kadang sosok nahual memegang pisau kurban dan melakukan ritual persembahan.",
+          "quote": "At times, the nahual figures holds sacrificial knives and perform sacrificial rites or other ceremonial activities.",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "zapam-zucum",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "zapam-zucum-c01",
+          "source_id": "zapam-zucum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Zapam Zucum is a dark-skinned, white-handed goddess of the Aymara and Diaguita of northern Argentina, Chile and Bolivia.",
+          "statement_id": "Zapam Zucum adalah dewi berkulit gelap dan bertangan putih di kalangan orang Aymara dan Diaguita di utara Argentina, Chile, dan Bolivia.",
+          "quote": "Zapam Zucum or Zapam-zucún is a voluptuous, dark-skinned, and white-handed goddess among the Aymara and Diaguita populations of northerly parts of Argentina and Chile as well as  Bolivia.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "zapam-zucum-c02",
+          "source_id": "zapam-zucum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She is considered the protectress of the algarrobo tree.",
+          "statement_id": "Ia dianggap pelindung pohon algarrobo.",
+          "quote": "She is considered the protectoress of the algarrobo tree",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "zapam-zucum-c03",
+          "source_id": "zapam-zucum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When the goddess dwells in the tree, the sound \"Zapam... Zucum\" is heard and the children stave off hunger.",
+          "statement_id": "Jika sang dewi menghuni pohon itu, bunyi \"Zapam... Zucum\" terdengar dan anak-anak tidak merasa lapar.",
+          "quote": "If the goddess inhabits the tree, the sound of \"Zapam... Zucum\" can be heard, and the children stave their hunger for some reason.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zapam-zucum-c04",
+          "source_id": "zapam-zucum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She guards the sacred algarrobo; hearing an axe chopping it, she abducts the logger.",
+          "statement_id": "Ia penjaga pohon algarrobo yang suci; jika mendengar bunyi kapak menebang pohon, ia menculik penebangnya entah ke mana.",
+          "quote": "The goddess is the guardian of the sacred algarrobo tree, and when she hears the \"chac.. chac\" noise of someone chopping at the tree with an ax, she will relentlessly abduct the logger to who knows where.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zapam-zucum-c05",
+          "source_id": "zapam-zucum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She protects baby and young animals from predators and hunters.",
+          "statement_id": "Sang dewi melindungi anak-anak hewan dari pemangsa dan pemburu.",
+          "quote": "The goddess protects baby and juvenile animals from predatory beasts and hunters",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "ahola",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "ahola-c01",
+          "source_id": "ahola-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ahöla, also Ahul, is a spirit being (kachina) of Hopi religion, embodied by a man.",
+          "statement_id": "Ahöla, juga Ahul, adalah makhluk roh (kachina) dalam agama Hopi yang diperankan oleh seorang laki-laki.",
+          "quote": "Ahöla, also known as Ahul,  is a spirit being, a kachina, embodied by a man, in Hopi religion.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ahola-c02",
+          "source_id": "ahola-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ahöla is an important chief katsinam for First and Second Mesas, opening the mid-winter Powamu ceremony, the bean planting festival.",
+          "statement_id": "Ahöla adalah salah satu katsinam kepala yang penting bagi First dan Second Mesa karena ia membuka upacara pertengahan musim dingin Powamu, festival menanam kacang.",
+          "quote": "Ahöla is one of the important chief katsinam for First and Second Mesas because he opens the mid-winter Powamu ceremony, sometimes called the bean planting festival.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ahola-c03",
+          "source_id": "ahola-s1",
+          "host": "en.wikipedia.org",
+          "statement": "At the end, Ahöla goes to a shrine, bows four times to the sun and asks for health, happiness, long life and good crops.",
+          "statement_id": "Di akhir upacara, Ahöla turun ke sebuah tempat suci, membungkuk empat kali kepada matahari, dan memohon kesehatan, kebahagiaan, umur panjang, dan panen yang baik.",
+          "quote": "At the end of the ceremony, Ahöla descends to a shrine, bows four times to the sun, and asks for health, happiness, long life, and good crops.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ahola-c04",
+          "source_id": "ahola-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ahöla is also the friend of Eototo.",
+          "statement_id": "Ahöla juga sahabat Eototo.",
+          "quote": "Ahöla is also the friend of Eototo",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "akva-nigrulo",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "akva-nigrulo-c01",
+          "source_id": "akva-nigrulo-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "Legend says the Negro-d'Água or Nego-d'Água inhabits many rivers, such as the Tocantins, Rio Grande and São Francisco.",
+          "statement_id": "Menurut legenda, Negro-d'Água atau Nego-d'Água menghuni banyak sungai, seperti Rio Tocantins, Rio Grande, dan Rio São Francisco.",
+          "quote": "Diz a lenda que o Negro-d'Água ou Nego-d'Água habita diversos rios, tais como o Rio Tocantins, o Rio Grande, Rio Grande, oeste da Bahia e Rio São Francisco",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akva-nigrulo-c02",
+          "source_id": "akva-nigrulo-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "It appears laughing loudly, bald, with duck-like hands and feet, and capsizes the canoes of fishermen who refuse it a fish.",
+          "statement_id": "Ia muncul dengan tawa terbahak-bahak, berkepala botak, bertangan dan berkaki seperti bebek, dan membalikkan kano nelayan yang menolak memberinya ikan.",
+          "quote": "Manifestando-se com suas gargalhadas, negro, careca e com mãos e pés de pato, ele derruba a canoa dos pescadores, se eles se recusarem a lhe dar um peixe.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akva-nigrulo-c03",
+          "source_id": "akva-nigrulo-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "Some fishermen throw a bottle of cachaça into the river so their boat is not overturned.",
+          "statement_id": "Sebagian nelayan melempar sebotol cachaça ke sungai agar perahunya tidak dibalikkan.",
+          "quote": "levam uma garrafa de cachaça e a atiram para dentro do rio, para que não tenham sua embarcação virada.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akva-nigrulo-c04",
+          "source_id": "akva-nigrulo-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "It is a fusion of a tall, strong man and an amphibian, with fins and scales mixed with skin.",
+          "statement_id": "Wujudnya perpaduan lelaki tinggi kuat dengan amfibi, bersirip, dan bertubuh bersisik bercampur kulit.",
+          "quote": "ele seria a fusão de homem negro alto e forte com um anfíbio. Apresenta nadadeiras e corpo coberto de escamas mistas com a pele.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akva-nigrulo-c05",
+          "source_id": "akva-nigrulo-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "Câmara Cascudo calls it \"Negro do Rio\" and considers it derived from the Ipupiara.",
+          "statement_id": "Câmara Cascudo menyebutnya \"Negro do Rio\" dan menganggapnya turunan Ipupiara.",
+          "quote": "Câmara Cascudo chama-o \"Negro do Rio\" e o considera um derivado do Ipupiara.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "amarum",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 1,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "amarum-c01",
+          "source_id": "amarum-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the mythology of the Quechua of Ecuador, Amarum is a spirit shaped like a water boa that brings rain.",
+          "statement_id": "Dalam mitologi orang Quechua di Ekuador, Amarum adalah roh berwujud ular boa air yang membawa hujan.",
+          "quote": "In the mythology of the Quechua people of Ecuador, Amarum is a spirit in the shape of a water boa that bring rain.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],

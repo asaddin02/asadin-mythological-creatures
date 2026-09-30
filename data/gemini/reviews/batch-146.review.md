@@ -1,8 +1,6 @@
 # Review batch-146
 
-Diperiksa 2026-09-30T07:38:17.769Z. Berkas: batch-146.md.
-
-**Belum dikirim:** muki-mythology, mussie, north-shore-monster, seelkee, si-te-cah, tulevieja, turtle-lake-monster, ulmecatl, unhcegila, yahui, zapam-zucum, ahola, akva-nigrulo, amarum
+Diperiksa 2026-09-30T07:42:45.295Z. Berkas: batch-146.md.
 
 ## wihwin — lulus-otomatis
 
@@ -469,9 +467,6 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 
 Klaim 2 (exact 2), sumber 1, gambar 0.
 
-**warn**
-- `relations[2].target_name` Tidak muncul di kutipan mana pun: Xicalancatl. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -484,10 +479,6 @@ Klaim 2 (exact 2), sumber 1, gambar 0.
 ## otomitl — lulus-otomatis
 
 Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**warn**
-- `etymology.literal_meaning` Tidak muncul di kutipan mana pun: Otomi. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `relations[2].target_name` Tidak muncul di kutipan mana pun: Mixtecatl. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -518,10 +509,6 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 
 Klaim 6 (exact 6), sumber 1, gambar 0.
 
-**warn**
-- `short_description.en` Ada rangkaian 12 kata yang sama persis dengan sumber ("qailertetang is an inuit goddess who cares for animals fishers and hunters…"). Tulis ulang dengan kata-kata sendiri.
-- `long_description[0].en` Ada rangkaian 12 kata yang sama persis dengan sumber ("qailertetang is an inuit goddess who cares for animals fishers and hunters…"). Tulis ulang dengan kata-kata sendiri.
-
 **manual**
 - `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -533,4 +520,219 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | qailertetang-c04 | exact | en.wikipedia.org | Before hunts, shamans serve her and Sedna in rituals to ensure success. | Before hunts, she, along with Sedna, are served by shamans on behalf of the rest of the tribe in rituals designed to ensure success in said hunts |
 | qailertetang-c05 | exact | en.wikipedia.org | The word also names two ritual figures in Quviasukvik, the most important Inuit new year holiday. | The word also used to refer to two ritual figures in the Inuit new year holiday, Quviasukvik, the most important Inuit holiday. |
 | qailertetang-c06 | exact | en.wikipedia.org | Inuit scholars Laugrand and Oosten call them representatives of Sedna. | Inuit scholars Laugrand and Oosten call them the representatives of Sedna. |
+
+
+## muki-mythology — lulus-otomatis
+
+Klaim 6 (exact 6), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| muki-mythology-c01 | exact | en.wikipedia.org | The muki is a goblin-like creature of Central Andean mythology in Bolivia, Peru, Ecuador and Colombia. | is a goblin-like creature in the mythology of the Central Andes in Bolivia, Peru, Ecuador and Colombia. |
+| muki-mythology-c02 | exact | en.wikipedia.org | He is a miner whose existence is confined underground: the muki lives inside the mines. | He is known to be a miner and his existence is constrained to underground spaces: The muki lives inside the mines. |
+| muki-mythology-c03 | exact | en.wikipedia.org | The muki is considered a dwarf, no taller than 2 feet. | The muki is considered to be a dwarf due to its height, since it is no taller than 2 feet (0.61 meters). |
+| muki-mythology-c04 | exact | en.wikipedia.org | In some mining traditions he has two horns to break rocks and point to mineral veins. | In some mining traditions, he has two horns that are used to break the rocks and point at the mineral veins. |
+| muki-mythology-c05 | exact | en.wikipedia.org | Sometimes he turns into an animal or a blond white man to deceive the miners. | Sometimes he shape-shifts into an animal or a blonde white man to appear to the miners and deceive them. |
+| muki-mythology-c06 | exact | en.wikipedia.org | Elders advise fighting the muki with one's belt without giving in to fear. | Elders advise that, when dealing with the muki, one should use his/her belt to battle him without succumbing to fear. |
+
+
+## mussie — lulus-otomatis
+
+Klaim 5 (exact 5), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| mussie-c01 | exact | en.wikipedia.org | In Canadian folklore, Mussie is a creature said to live in Muskrat Lake, Ontario. | In Canadian folklore, Mussie is a creature said to live in Muskrat Lake in the Canadian province of Ontario. |
+| mussie-c02 | exact | en.wikipedia.org | It is variously described, e.g. as a walrus or a three-eyed Loch Ness Monster-like creature. | It is variously described, for example, as a walrus or as a three-eyed Loch Ness Monster-like creature. |
+| mussie-c03 | exact | en.wikipedia.org | The legend likely began around 1916, though it is claimed Samuel de Champlain wrote of it in the early seventeenth century. | The legend of Mussie likely began around 1916, though legend claims that Canadian pioneer Samuel de Champlain wrote about it in the early seventeenth century. |
+| mussie-c04 | exact | en.wikipedia.org | Its name was originally Hapyxelor (or Hapaxelor), later changed to Mussie, short for The Monster of Muskrat Lake. | The creature's name was originally cited as Hapyxelor, alternately spelled Hapaxelor, but changed simply to Mussie, short for The Monster of Muskrat Lake, sometime later. |
+| mussie-c05 | exact | en.wikipedia.org | Mussie has become a local mascot, appearing on signs welcoming visitors to Cobden. | Mussie has become a cultural mascot of the area, appearing on signs welcoming visitors to Cobden and in front of the Home Hardware store in the village. |
+
+
+## north-shore-monster — lulus-otomatis
+
+Klaim 5 (exact 5), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| north-shore-monster-c01 | exact | en.wikipedia.org | The North Shore Monster, sometimes called "Old Briney," reportedly inhabits the Great Salt Lake in Utah. | The North Shore Monster, sometimes referred to as "Old Briney," reportedly inhabits the Great Salt Lake in Utah. |
+| north-shore-monster-c02 | exact | en.wikipedia.org | Descriptions vary, but it is most often described with a crocodile-like body and a horse's head. | Descriptions of the monster vary, but it is most commonly described as having a crocodile-like body and the head of a horse. |
+| north-shore-monster-c03 | exact | en.wikipedia.org | The best-known sighting was on July 8, 1877, when J.H. McNeil and saltworks workers near Monument Point claimed to meet a large creature. | The most well-known sighting occurred on July 8, 1877, when J.H. McNeil and other workers at the Barnes and Co. saltworks near Monument Point on the lake's northern shore claimed to have encountered a large creature |
+| north-shore-monster-c04 | exact | en.wikipedia.org | McNeil estimated it at about 75 feet long. | McNeil estimated the creature to be about 75 feet long. |
+| north-shore-monster-c05 | exact | en.wikipedia.org | However, the Deseret News suggested taking the report "with a few grains of salt." | However, the Deseret News suggested that the report should be taken "with a few grains of salt." |
+
+
+## seelkee — lulus-otomatis
+
+Klaim 5 (exact 5), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| seelkee-c01 | exact | en.wikipedia.org | In Canadian folklore, Seelkee (from the Halqemeylem language) is a lake monster said to have lived in the swamps of present-day Chilliwack, British Columbia. | In Canadian folklore, Seelkee (transcribed in English from Halqemeylem, the local indigenous language) is a lake monster reported to have lived in the swamps of what is now Chilliwack, in British Columbia, Canada. |
+| seelkee-c02 | exact | en.wikipedia.org | Seelkee has reportedly been seen by the Stó:lō people for hundreds of years. | Seelkee has been allegedly seen by the Stó:lō, First Nations, people for hundreds of years. |
+| seelkee-c03 | exact | en.wikipedia.org | Most commonly it is a 10- to 15-foot sea-serpent-like beast with a horse's head. | The most common description of Seelkee is a 10- to 15-foot-long (3.0 to 4.6 m) sea serpent-like beast with the head of a horse. |
+| seelkee-c04 | exact | en.wikipedia.org | It is often portrayed as a two-headed snake, mostly black with red circular designs. | Descriptions often portray the creature as snake-like with two heads. Furthermore, the coloration has been described as mostly black with red circular designs. |
+| seelkee-c05 | exact | en.wikipedia.org | Some Stó:lō longhouses had large house posts with red-painted Seelkee designs. | Some of the longhouses in the local Stó:lō villages were defined by large house posts with Seelkee designs accented with red paint. |
+
+
+## si-te-cah — lulus-otomatis
+
+Klaim 5 (exact 5), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| si-te-cah-c01 | exact | en.wikipedia.org | In Northern Paiute oral history, the Si-Te-Cah were a legendary tribe the Paiutes fought and drove out, with a final battle at Lovelock Cave, Nevada. | were a legendary tribe with whom the Northern Paiutes fought a war and eventually wiped out or drove away from the area, with the final battle having taken place at what is now known as Lovelock Cave near Lovelock, Nevada, United States. |
+| si-te-cah-c02 | exact | en.wikipedia.org | They were said to be red-haired, sometimes cannibals, and in later versions giants. | They were said to have red hair, and are sometimes described as having been cannibals. In some later versions of the legend they were giants. |
+| si-te-cah-c03 | exact | en.wikipedia.org | In Northern Paiute, "Si-Te-Cah" means "tule-eaters". | "Si-Te-Cah" means "tule-eaters" in the Northern Paiute language. |
+| si-te-cah-c04 | exact | en.wikipedia.org | To escape the Paiutes, they reportedly lived on tule rafts on Lake Humboldt. | In order to escape harassment from the Paiutes, the Si-Te-Cahs were said to have lived on rafts made of tule on Lake Humboldt. |
+| si-te-cah-c05 | exact | en.wikipedia.org | Archaeologists Loud and Harrington doubted whether these were real traditions or an attempt by the Northern Paiute to explain earlier archaeological remains. | They expressed doubts over whether these were real historical traditions or whether, "they should be regarded as an attempt by the Northern Paiute to explain the archaeological remains of a cultural period preceding their own". |
+
+
+## tulevieja — lulus-otomatis
+
+Klaim 5 (exact 5), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| tulevieja-c01 | exact | en.wikipedia.org | La Tulevieja (also Tulivieja) is a legendary figure of Costa Rican and Panamanian folklore, a ghost wearing a distinctive hat called a tule. | La Tulevieja (also spelled Tulivieja) is a legendary figure from Costa Rican and Panamanian folklore. She is a ghost who wears a distinctive hat called a tule. |
+| tulevieja-c02 | exact | en.wikipedia.org | She is also often described as a woman-bird hybrid, like a harpy. | She is also commonly described as a hybrid of woman and bird (similar to a harpy) |
+| tulevieja-c03 | exact | en.wikipedia.org | Her hallmark is eagle or hawk legs and claws that leave reversed footprints so she cannot be followed. | her most characteristic features are her legs and claws of an eagle or hawk instead of human legs, which leave reversed footprints so that she cannot be followed. |
+| tulevieja-c04 | exact | en.wikipedia.org | She reportedly eats charcoal and ashes, so her tracks appear near recently doused campfires. | She is said to feed on charcoal and ashes, which is why it is common to find her tracks around recently extinguished campfires. |
+| tulevieja-c05 | exact | en.wikipedia.org | The only escape is to recite "Alabado sea el Santísimo", which makes her fly off toward the sun. | The only way to save oneself once encountering her is to recite the prayer "Alabado sea el Santísimo" ("Praised be the Most Holy Sacrament"), which causes her to take flight and disappear toward the sun. |
+
+
+## turtle-lake-monster — lulus-otomatis
+
+Klaim 4 (exact 4), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| turtle-lake-monster-c01 | exact | en.wikipedia.org | In Canadian folklore, the Turtle Lake Monster reportedly inhabits Turtle Lake in West Central Saskatchewan. | In Canadian folklore, the Turtle Lake Monster is an entity purportedly inhabiting Turtle Lake, in West Central Saskatchewan, Canada. |
+| turtle-lake-monster-c02 | exact | en.wikipedia.org | It is usually described as 3 to 9 m long, with no dorsal fin and a head like a dog, seahorse or pig. | The monster is usually described as a creature 3–9 m (9.8–29.5 ft) long, scaly or smooth, with no dorsal fin, and a head resembling either a dog, a seahorse, or a pig. |
+| turtle-lake-monster-c03 | exact | en.wikipedia.org | Reports go back to pre-settlement days, when the Cree told of people who entered its territory and vanished. | Reports date back to pre-settlement days when the local Cree had a legend about people who ventured into the Turtle Lake Monster's territory and vanished without a trace. |
+| turtle-lake-monster-c04 | exact | en.wikipedia.org | Sightings may be of an unusually large lake sturgeon, or relict plesiosaurs. | There is speculation that the monster sightings may be attributed to sightings of an unusually large lake sturgeon, or a relict population of prehistoric plesiosaurs. |
+
+
+## ulmecatl — lulus-otomatis
+
+Klaim 2 (exact 2), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| ulmecatl-c01 | exact | en.wikipedia.org | Ulmecatl is one of the six giant sons of Mixcoatl and Tlaltecuhtli who populated the Earth after the Great Flood in the Fifth Sun of Aztec mythology. | Ulmecatl (from Nahuatl, 'where the rubber is born') is one of the six giants sons of Mixcoatl and Tlaltecuhtli that populated the Earth after the Great Flood during the Fifth Sun in Aztec Mythology. |
+| ulmecatl-c02 | exact | en.wikipedia.org | He was the third son, founder of Cuetlachoapan, where Puebla now stands, as well as Tontonihuacan and Huitzilapan. | The third son who founded Cuetlachoapan, the place where Puebla is now, in addition to Tontonihuacan and Huitzilapan. |
+
+
+## unhcegila — lulus-otomatis
+
+Klaim 4 (exact 4), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| unhcegila-c01 | exact | en.wikipedia.org | In Lakota mythology, Unhcegila is a serpent-like creature blamed for many unexplained disappearances and deaths; her male counterpart is Unk Tehi. | is a serpentoid creature which was responsible for many unexplained disappearances and deaths. Her male counterpart is known as Unk Tehi. |
+| unhcegila-c02 | exact | en.wikipedia.org | Her form was later revealed as massive, with a long scaly body whose armor was almost impenetrable. | As time went on further, her form was exposed as being massive, with a long scaly body whose natural armor was almost impenetrable. |
+| unhcegila-c03 | exact | en.wikipedia.org | Whoever looks upon her goes blind or insane. | Whoever looked upon her will become blind or go insane. |
+| unhcegila-c04 | exact | en.wikipedia.org | Her weakness is the seventh spot on her torso, over her heart; to kill her, one must shoot a medicine arrow there. | Her weakness is the seventh spot on her torso, behind which lies her heart. To kill her, one has to shoot a medicine arrow at this flaw in her natural armor. |
+
+
+## yahui — lulus-otomatis
+
+Klaim 5 (exact 5), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| yahui-c01 | exact | en.wikipedia.org | Yahui is a supernatural figure of mixed animal and human forms in Mixtec culture and belief. | Yahui is a supernatural figure that takes on various mixtures of animal and human forms within the culture and belief systems of the Mixtec |
+| yahui-c02 | exact | en.wikipedia.org | It is an important recurring motif of Mixtec iconography, especially in the pre-Columbian era. | It is an important and recurring motif in Mixtec iconography, thought and culture, especially during the pre-Columbian era. |
+| yahui-c03 | exact | en.wikipedia.org | In Postclassic Mixtec codices the yahui wears a serpent tail and headdress and a turtle carapace. | the yahui appears in Postclassic Mixtec codices as an entity wearing a serpent or reptilian tail and headdress (similar to the xiuhcoatl motif) and the carapace of a turtle. |
+| yahui-c04 | exact | en.wikipedia.org | The yahui has two main forms: the nahual (man-animal composite) and the animal figure. | The yahui appears in two main forms: the nahual, or man-animal composite figure, and the animal figure. |
+| yahui-c05 | exact | en.wikipedia.org | At times the nahual figures hold sacrificial knives and perform rites. | At times, the nahual figures holds sacrificial knives and perform sacrificial rites or other ceremonial activities. |
+
+
+## zapam-zucum — lulus-otomatis
+
+Klaim 5 (exact 5), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| zapam-zucum-c01 | exact | en.wikipedia.org | Zapam Zucum is a dark-skinned, white-handed goddess of the Aymara and Diaguita of northern Argentina, Chile and Bolivia. | Zapam Zucum or Zapam-zucún is a voluptuous, dark-skinned, and white-handed goddess among the Aymara and Diaguita populations of northerly parts of Argentina and Chile as well as Bolivia. |
+| zapam-zucum-c02 | exact | en.wikipedia.org | She is considered the protectress of the algarrobo tree. | She is considered the protectoress of the algarrobo tree |
+| zapam-zucum-c03 | exact | en.wikipedia.org | When the goddess dwells in the tree, the sound "Zapam... Zucum" is heard and the children stave off hunger. | If the goddess inhabits the tree, the sound of "Zapam... Zucum" can be heard, and the children stave their hunger for some reason. |
+| zapam-zucum-c04 | exact | en.wikipedia.org | She guards the sacred algarrobo; hearing an axe chopping it, she abducts the logger. | The goddess is the guardian of the sacred algarrobo tree, and when she hears the "chac.. chac" noise of someone chopping at the tree with an ax, she will relentlessly abduct the logger to who knows where. |
+| zapam-zucum-c05 | exact | en.wikipedia.org | She protects baby and young animals from predators and hunters. | The goddess protects baby and juvenile animals from predatory beasts and hunters |
+
+
+## ahola — lulus-otomatis
+
+Klaim 4 (exact 4), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| ahola-c01 | exact | en.wikipedia.org | Ahöla, also Ahul, is a spirit being (kachina) of Hopi religion, embodied by a man. | Ahöla, also known as Ahul, is a spirit being, a kachina, embodied by a man, in Hopi religion. |
+| ahola-c02 | exact | en.wikipedia.org | Ahöla is an important chief katsinam for First and Second Mesas, opening the mid-winter Powamu ceremony, the bean planting festival. | Ahöla is one of the important chief katsinam for First and Second Mesas because he opens the mid-winter Powamu ceremony, sometimes called the bean planting festival. |
+| ahola-c03 | exact | en.wikipedia.org | At the end, Ahöla goes to a shrine, bows four times to the sun and asks for health, happiness, long life and good crops. | At the end of the ceremony, Ahöla descends to a shrine, bows four times to the sun, and asks for health, happiness, long life, and good crops. |
+| ahola-c04 | exact | en.wikipedia.org | Ahöla is also the friend of Eototo. | Ahöla is also the friend of Eototo |
+
+
+## akva-nigrulo — lulus-otomatis
+
+Klaim 5 (exact 5), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| akva-nigrulo-c01 | exact | pt.wikipedia.org | Legend says the Negro-d'Água or Nego-d'Água inhabits many rivers, such as the Tocantins, Rio Grande and São Francisco. | Diz a lenda que o Negro-d'Água ou Nego-d'Água habita diversos rios, tais como o Rio Tocantins, o Rio Grande, Rio Grande, oeste da Bahia e Rio São Francisco |
+| akva-nigrulo-c02 | exact | pt.wikipedia.org | It appears laughing loudly, bald, with duck-like hands and feet, and capsizes the canoes of fishermen who refuse it a fish. | Manifestando-se com suas gargalhadas, negro, careca e com mãos e pés de pato, ele derruba a canoa dos pescadores, se eles se recusarem a lhe dar um peixe. |
+| akva-nigrulo-c03 | exact | pt.wikipedia.org | Some fishermen throw a bottle of cachaça into the river so their boat is not overturned. | levam uma garrafa de cachaça e a atiram para dentro do rio, para que não tenham sua embarcação virada. |
+| akva-nigrulo-c04 | exact | pt.wikipedia.org | It is a fusion of a tall, strong man and an amphibian, with fins and scales mixed with skin. | ele seria a fusão de homem negro alto e forte com um anfíbio. Apresenta nadadeiras e corpo coberto de escamas mistas com a pele. |
+| akva-nigrulo-c05 | exact | pt.wikipedia.org | Câmara Cascudo calls it "Negro do Rio" and considers it derived from the Ipupiara. | Câmara Cascudo chama-o "Negro do Rio" e o considera um derivado do Ipupiara. |
+
+
+## amarum — lulus-otomatis
+
+Klaim 1 (exact 1), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| amarum-c01 | exact | en.wikipedia.org | In the mythology of the Quechua of Ecuador, Amarum is a spirit shaped like a water boa that brings rain. | In the mythology of the Quechua people of Ecuador, Amarum is a spirit in the shape of a water boa that bring rain. |
 
