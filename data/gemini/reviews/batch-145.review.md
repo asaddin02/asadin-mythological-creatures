@@ -1,8 +1,8 @@
 # Review batch-145
 
-Diperiksa 2026-09-30T07:55:37.847Z. Berkas: batch-145.md.
+Diperiksa 2026-09-30T07:57:50.553Z. Berkas: batch-145.md.
 
-**Belum dikirim:** idliragijenget, iliamna-lake-monster, kalku, lady-in-red, lake-worth-monster, lava-bear, monster-of-lake-tota, muelona, nain-rouge, nootaikok, obia-folklore, qallupilluit, sayona, the-hairy-leg, ti-malice-and-bouki, tunda, two-toed-tom, wayob
+**Belum dikirim:** nootaikok, obia-folklore, qallupilluit, sayona, the-hairy-leg, ti-malice-and-bouki, tunda, two-toed-tom, wayob
 
 ## mogollon-monster — lulus-otomatis
 
@@ -421,4 +421,133 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | huay-chivo-c02 | exact | en.wikipedia.org | It is said to be an evil sorcerer who turns into a supernatural animal, usually a goat, dog or deer, to prey on livestock. | It is reputed to be an evil sorcerer who can transform himself into a supernatural animal, usually a goat, dog or deer, in order to prey upon livestock. |
 | huay-chivo-c03 | exact | en.wikipedia.org | The Huay Chivo is a local variation of the Mesoamerican Nahual. | The Huay Chivo is a local variation of the Mesoamerican Nahual. |
 | huay-chivo-c04 | exact | en.wikipedia.org | Chivo is Spanish for goat; the name literally means "sorcerer-goat". | Chivo is Spanish for goat, literally meaning sorcerer-goat |
+
+
+## idliragijenget — skip
+
+Klaim 0 (), sumber 0, gambar 0.
+
+**manual**
+- `skip` Diusulkan dilewati: Idliragijenget adalah nama Sedna ketika ia disebut sebagai penguasa Adlivun ("when invoked as such has the name of Idliragijenget"); Sedna dikerjakan sebagai entri tersendiri (slug sedna, batch-142). (https://en.wikipedia.org/wiki/Idliragijenget).
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+
+
+## iliamna-lake-monster — lulus-otomatis
+
+Klaim 4 (exact 4), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| iliamna-lake-monster-c01 | exact | en.wikipedia.org | Local residents tell stories of the Iliamna Lake Monster, an unknown aquatic creature. | Local residents have a number of stories about the alleged Iliamna Lake Monster, an unknown aquatic creature. |
+| iliamna-lake-monster-c02 | exact | en.wikipedia.org | Iliamna is said to be the name of a mythical great blackfish of the lake that bites holes in the bidarkas of bad natives. | Iliamna is said to be "the name of a mythical great blackfish supposed to inhabit this lake, which bites holes in the bidarkas of bad natives." |
+| iliamna-lake-monster-c03 | exact | en.wikipedia.org | Sightings may be of an undocumented white sturgeon population. | Speculation exists that reported sightings may be of an undocumented population of white sturgeon. |
+| iliamna-lake-monster-c04 | exact | en.wikipedia.org | The Anchorage Daily News once offered $100,000 for concrete proof of it. | The Anchorage Daily News once offered a prize of $100,000 for concrete proof of its existence. |
+
+
+## kalku — lulus-otomatis
+
+Klaim 4 (exact 4), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| kalku-c01 | exact | en.wikipedia.org | In Mapuche mythology, the Kalku or Calcu is a sorcerer or witch working with black magic and negative forces. | Kalku or Calcu, in Mapuche mythology, is a sorcerer or witch who works with black magic and negative powers or forces. |
+| kalku-c02 | exact | en.wikipedia.org | The benevolent shamans are called machi, to avoid confusion with the malevolent kalku. | The essentially benevolent shamans are more often referred to as machi, to avoid confusion with the malevolent kalku. |
+| kalku-c03 | exact | en.wikipedia.org | The kalku is a semi-mythical figure able to work with wekufe, wicked spirits or creatures. | The kalku is a semi-mythical character that has the power of working with wekufe "spirits or wicked creatures". |
+| kalku-c04 | exact | en.wikipedia.org | The kalku also has servants such as the Anchimayen or the Chonchon. | The kalku also have as servants other beings such as the Anchimayen, or the Chonchon |
+
+
+## lady-in-red — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| lady-in-red-c01 | exact | en.wikipedia.org | The Lady in Red is a type of female ghost like the White Lady, attributed in legend to a jilted lover, a victim of passion, or a vain woman. | A Lady in Red or Red Lady is a type of female ghost, similar to the White Lady, but according to legend is more specifically attributed to a jilted lover, killed in a fit of passion, or a woman of vanity. |
+| lady-in-red-c02 | exact | en.wikipedia.org | In all cases she wears a scarlet or blood-red dress. | In all cases, the Lady in Red is wearing a scarlet or blood red dress. |
+| lady-in-red-c03 | exact | en.wikipedia.org | She is usually friendly, with stories tied to historic hotels, theatres and other public places. | She is said to typically be friendly in disposition, with a story attached to historic hotels, theatres or other public places |
+
+
+## lake-worth-monster — lulus-otomatis
+
+Klaim 4 (exact 4), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| lake-worth-monster-c01 | exact | en.wikipedia.org | In Texan folklore, the Lake Worth Monster is a legendary creature said to inhabit Lake Worth near Fort Worth. | In Texan folklore, the Lake Worth Monster is a legendary creature said to inhabit Lake Worth at the Fort Worth Nature Center and Refuge, just outside Fort Worth. |
+| lake-worth-monster-c02 | exact | en.wikipedia.org | It is often described as "part-man, part-goat" with scales and long clawed fingers. | The creature is often described as a "part-man, part-goat" with scales and long clawed fingers. |
+| lake-worth-monster-c03 | exact | en.wikipedia.org | July 1969 reports of "a half-man, half-goat, with fur and scales" led to belief in a creature at Lake Worth. | Reports of sightings by local citizens of "a half-man, half-goat, with fur and scales" in July 1969 led to the belief that a mysterious creature lived in Lake Worth. |
+| lake-worth-monster-c04 | exact | en.wikipedia.org | Local police investigated but found no evidence. | Local police investigated the claims, but found no evidence of the monster in the Lake Worth and Greer Island area. |
+
+
+## lava-bear — lulus-otomatis
+
+Klaim 4 (exact 4), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| lava-bear-c01 | exact | en.wikipedia.org | The lava bear is a variety of American black bear found in the lava beds of south central Oregon. | is a variety of American black bear (Ursus americanus) found in the lava beds of south central Oregon. |
+| lava-bear-c02 | exact | en.wikipedia.org | It was described as a very small bear with woolly light brown fur. | The animal was described as a very small bear with wooly light brown fur. |
+| lava-bear-c03 | exact | en.wikipedia.org | It was once thought a separate species, but scientists found the animals were stunted by their harsh environment. | It was once thought to be a separate species. However, scientists who examined the specimens determined that the animals were stunted due to the harsh environment in which they lived. |
+| lava-bear-c04 | exact | en.wikipedia.org | Today lava bears are acknowledged never to have been a unique species. | Today, it is acknowledged that lava bears never existed as a unique species. |
+
+
+## monster-of-lake-tota — lulus-otomatis
+
+Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| monster-of-lake-tota-c01 | loose | en.wikipedia.org | The Monster of Lake Tota is a legendary aquatic animal called in many works diablo ballena, 'devil whale'. | The Monster of Lake Tota is a legendary aquatic animal known in many works as: diablo ballena, lit. 'devil whale'. |
+| monster-of-lake-tota-c02 | exact | en.wikipedia.org | According to the Muisca, the monster inhabits Lake Tota in present-day Colombia. | The monster is an inhabitant of Lake Tota in present-day Colombia, according to the Muisca, who inhabited the Altiplano Cundiboyacense. |
+| monster-of-lake-tota-c03 | exact | en.wikipedia.org | The conquistador Gonzalo Jiménez de Quesada described it as "A fish with a black head like an ox and larger than a whale". | He described the monster as "A fish with a black head like an ox and larger than a whale" |
+| monster-of-lake-tota-c04 | exact | en.wikipedia.org | A reported sighting took place in 1652. | A report of an alleged sighting took place in 1652. |
+
+
+## muelona — lulus-otomatis
+
+Klaim 2 (exact 2), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| muelona-c01 | exact | en.wikipedia.org | La Muelona ("big molar woman"), also Colmillona ("big fang woman"), is a figure of Colombian mythology from the Andean region (Huila and Tolima). | La Muelona ("big molar woman"), (also known as Colmillona; "big fang woman") is a character from Colombian mythology, present in the folkloric legends of the populations located in the Andean region (Huila and Tolima) of Colombia. |
+| muelona-c02 | exact | en.wikipedia.org | She appears at the path's edge as a seductive woman and crushes walkers with her teeth once in her arms. | La Muelona attacks the walkers that appears at the edge of the path as a very attractive and seductive woman, but once they are in her arms, they are crushed by her teeth. |
+
+
+## nain-rouge — lulus-otomatis
+
+Klaim 5 (exact 5), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| nain-rouge-c01 | exact | en.wikipedia.org | The Nain Rouge ("red dwarf") is a legendary creature of Detroit, Michigan, whose appearance presages misfortune for white settlers. | The Nain Rouge (French for "red dwarf") is a legendary creature of the Detroit, Michigan area whose appearance is said to presage misfortune for the white settlers of the area. |
+| nain-rouge-c02 | exact | en.wikipedia.org | No records show the legend existed before the 1880s. | There are no records that indicate the legend of the Nain Rouge existed prior to the 1880s. |
+| nain-rouge-c03 | exact | en.wikipedia.org | Detroit's founder Cadillac was told to appease the Nain Rouge but attacked it with his cane. | Detroit's founder Antoine de la Mothe Cadillac was told by a fortuneteller to appease the Nain Rouge, but he instead attacked it with his cane |
+| nain-rouge-c04 | exact | en.wikipedia.org | It is also known as "the Demon of the Strait." | The Nain Rouge is also known as "the Demon of the Strait." |
+| nain-rouge-c05 | exact | en.wikipedia.org | Each spring the Marche du Nain Rouge sees hundreds of people chase a Nain Rouge figure. | Each Spring, there is an event called the Marche du Nain Rouge where hundreds of people chase a |
 

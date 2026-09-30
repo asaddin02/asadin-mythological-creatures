@@ -5,4 +5,4 @@ Pemeriksaan menemukan masalah di bawah. Perbaiki semuanya, lalu kirim ulang **en
 Kalau kutipan tidak ditemukan, jangan mengubahnya supaya terlihat cocok. Buka lagi halamannya dan salin teks yang benar-benar ada, atau hapus klaim itu beserta teks yang bergantung padanya.
 
 ## Belum dikirim
-Kerjakan juga: idliragijenget, iliamna-lake-monster, kalku, lady-in-red, lake-worth-monster, lava-bear, monster-of-lake-tota, muelona, nain-rouge, nootaikok, obia-folklore, qallupilluit, sayona, the-hairy-leg, ti-malice-and-bouki, tunda, two-toed-tom, wayob.
+Kerjakan juga: nootaikok, obia-folklore, qallupilluit, sayona, the-hairy-leg, ti-malice-and-bouki, tunda, two-toed-tom, wayob.

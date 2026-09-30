@@ -5691,3 +5691,1590 @@
 }
 ```
 
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-145",
+  "slug": "idliragijenget",
+  "task": "new",
+  "skip": {
+    "reason": "Idliragijenget adalah nama Sedna ketika ia disebut sebagai penguasa Adlivun (\"when invoked as such has the name of Idliragijenget\"); Sedna dikerjakan sebagai entri tersendiri (slug sedna, batch-142).",
+    "evidence_url": "https://en.wikipedia.org/wiki/Idliragijenget"
+  }
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-145",
+  "slug": "iliamna-lake-monster",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Iliamna Lake Monster",
+    "native_name": null,
+    "display_name": {
+      "id": "Iliamna Lake Monster",
+      "en": "Iliamna Lake Monster"
+    },
+    "wikidata_qid": "Q5997987",
+    "claim_ids": [
+      "iliamna-lake-monster-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "kriptid",
+    "claim_ids": [
+      "iliamna-lake-monster-c01"
+    ]
+  },
+  "classification": {
+    "value": "cryptid",
+    "claim_ids": [
+      "iliamna-lake-monster-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-american",
+    "suggested_new": null,
+    "claim_ids": [
+      "iliamna-lake-monster-c01"
+    ]
+  },
+  "region": {
+    "value": "north-america",
+    "claim_ids": [
+      "iliamna-lake-monster-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "water",
+      "claim_ids": [
+        "iliamna-lake-monster-c01"
+      ]
+    }
+  ],
+  "disposition": null,
+  "traits": [
+    {
+      "value": "aquatic",
+      "claim_ids": [
+        "iliamna-lake-monster-c01"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "Iliamna Lake Monster adalah makhluk air tak dikenal dalam cerita warga sekitar Iliamna Lake [iliamna-lake-monster-c01].",
+    "en": "The Iliamna Lake Monster is an unknown aquatic creature in the stories of Iliamna Lake residents [iliamna-lake-monster-c01].",
+    "claim_ids": [
+      "iliamna-lake-monster-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Warga sekitar Iliamna Lake punya banyak cerita tentang Iliamna Lake Monster, makhluk air tak dikenal [iliamna-lake-monster-c01]. Nama Iliamna sendiri konon nama ikan hitam besar mitos yang melubangi perahu penduduk yang jahat [iliamna-lake-monster-c02]. Ada dugaan penampakannya adalah ikan sturgeon putih [iliamna-lake-monster-c03], dan sebuah surat kabar pernah menawarkan hadiah $100.000 untuk buktinya [iliamna-lake-monster-c04].",
+      "en": "Iliamna Lake residents tell many stories of the Iliamna Lake Monster, an unknown aquatic creature [iliamna-lake-monster-c01]. The name Iliamna itself is said to be that of a mythical great blackfish that holes the boats of bad natives [iliamna-lake-monster-c02]. Sightings may be of white sturgeon [iliamna-lake-monster-c03], and a newspaper once offered $100,000 for proof [iliamna-lake-monster-c04].",
+      "claim_ids": [
+        "iliamna-lake-monster-c01",
+        "iliamna-lake-monster-c02",
+        "iliamna-lake-monster-c03",
+        "iliamna-lake-monster-c04"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [
+    {
+      "name": {
+        "id": "Iliamna Lake",
+        "en": "Iliamna Lake"
+      },
+      "type": "lake",
+      "description": {
+        "id": "Danau yang konon dihuni makhluk ini.",
+        "en": "The lake the creature is said to inhabit."
+      },
+      "claim_ids": [
+        "iliamna-lake-monster-c01"
+      ]
+    }
+  ],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa yang membuat danau besar dan dalam menjadi tempat lahirnya cerita monster?",
+      "en": "Why do large, deep lakes breed monster stories?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "iliamna-lake-monster-s1",
+      "url": "https://en.wikipedia.org/wiki/Iliamna_Lake",
+      "title": "Iliamna Lake",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "iliamna-lake-monster-c01",
+      "source_id": "iliamna-lake-monster-s1",
+      "quote": "Local residents have a number of stories about the alleged Iliamna Lake Monster, an unknown aquatic creature.",
+      "locator": "Monster legend",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Warga setempat punya sejumlah cerita tentang Iliamna Lake Monster, makhluk air yang tidak dikenal.",
+        "en": "Local residents tell stories of the Iliamna Lake Monster, an unknown aquatic creature."
+      }
+    },
+    {
+      "id": "iliamna-lake-monster-c02",
+      "source_id": "iliamna-lake-monster-s1",
+      "quote": "Iliamna is said to be \"the name of a mythical great blackfish supposed to inhabit this lake, which bites holes in the bidarkas of bad natives.\"",
+      "locator": "Name",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Iliamna konon nama ikan hitam besar mitos yang menghuni danau ini dan melubangi perahu bidarka milik penduduk yang jahat.",
+        "en": "Iliamna is said to be the name of a mythical great blackfish of the lake that bites holes in the bidarkas of bad natives."
+      }
+    },
+    {
+      "id": "iliamna-lake-monster-c03",
+      "source_id": "iliamna-lake-monster-s1",
+      "quote": "Speculation exists that reported sightings may be of an undocumented population of white sturgeon.",
+      "locator": "Monster legend",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Ada dugaan bahwa penampakannya adalah populasi ikan sturgeon putih yang belum tercatat.",
+        "en": "Sightings may be of an undocumented white sturgeon population."
+      }
+    },
+    {
+      "id": "iliamna-lake-monster-c04",
+      "source_id": "iliamna-lake-monster-s1",
+      "quote": "The Anchorage Daily News once offered a prize of $100,000 for concrete proof of its existence.",
+      "locator": "Monster legend",
+      "context": "modern-popular-culture",
+      "statement": {
+        "id": "Anchorage Daily News pernah menawarkan hadiah $100.000 untuk bukti nyata keberadaannya.",
+        "en": "The Anchorage Daily News once offered $100,000 for concrete proof of it."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-145",
+  "slug": "kalku",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Kalku",
+    "native_name": null,
+    "display_name": {
+      "id": "Kalku",
+      "en": "Kalku"
+    },
+    "wikidata_qid": "Q6353440",
+    "claim_ids": [
+      "kalku-c01"
+    ]
+  },
+  "alternate_names": [
+    {
+      "name": "Calcu",
+      "language": "arn",
+      "name_type": "alias",
+      "claim_ids": [
+        "kalku-c01"
+      ]
+    }
+  ],
+  "jenis": {
+    "value": "tokoh legenda",
+    "claim_ids": [
+      "kalku-c01"
+    ]
+  },
+  "classification": {
+    "value": "legendary-figure",
+    "claim_ids": [
+      "kalku-c03"
+    ]
+  },
+  "culture": {
+    "value": "tradition-mapuche",
+    "suggested_new": null,
+    "claim_ids": [
+      "kalku-c01"
+    ]
+  },
+  "region": {
+    "value": "south-america",
+    "claim_ids": [
+      "kalku-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": {
+    "value": "malevolent",
+    "claim_ids": [
+      "kalku-c02"
+    ]
+  },
+  "traits": [],
+  "short_description": {
+    "id": "Kalku adalah penyihir ilmu hitam dalam mitologi Mapuche yang bekerja dengan roh jahat wekufe [kalku-c01, kalku-c03].",
+    "en": "The Kalku is a black-magic sorcerer of Mapuche mythology who works with wekufe spirits [kalku-c01, kalku-c03].",
+    "claim_ids": [
+      "kalku-c01",
+      "kalku-c03"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Dalam mitologi Mapuche, Kalku adalah penyihir yang bekerja dengan ilmu hitam [kalku-c01], dibedakan dari machi, dukun yang baik [kalku-c02]. Tokoh setengah mitos ini bekerja dengan wekufe [kalku-c03] dan memiliki pelayan seperti Anchimayen dan Chonchon [kalku-c04].",
+      "en": "In Mapuche mythology, the Kalku is a sorcerer working with black magic [kalku-c01], distinguished from the benevolent machi [kalku-c02]. This semi-mythical figure works with wekufe [kalku-c03] and commands servants like the Anchimayen and Chonchon [kalku-c04].",
+      "claim_ids": [
+        "kalku-c01",
+        "kalku-c02",
+        "kalku-c03",
+        "kalku-c04"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Wekufe",
+      "relation_type": "associated",
+      "note": {
+        "id": "Roh jahat yang dikendalikannya.",
+        "en": "The wicked spirits he works with."
+      },
+      "claim_ids": [
+        "kalku-c03"
+      ]
+    },
+    {
+      "target_name": "Anchimayen",
+      "relation_type": "associated",
+      "note": {
+        "id": "Pelayannya.",
+        "en": "His servant."
+      },
+      "claim_ids": [
+        "kalku-c04"
+      ]
+    },
+    {
+      "target_name": "Machi",
+      "relation_type": "enemy",
+      "note": {
+        "id": "Dukun baik yang dibedakan darinya.",
+        "en": "The benevolent shaman set against him."
+      },
+      "claim_ids": [
+        "kalku-c02"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa masyarakat membedakan dukun baik dan penyihir jahat?",
+      "en": "Why do societies distinguish good shamans from evil sorcerers?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "kalku-s1",
+      "url": "https://en.wikipedia.org/wiki/Kalku",
+      "title": "Kalku",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "kalku-c01",
+      "source_id": "kalku-s1",
+      "quote": "Kalku or Calcu, in Mapuche mythology, is a sorcerer or witch who works with black magic and negative powers or forces.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam mitologi Mapuche, Kalku atau Calcu adalah penyihir yang bekerja dengan ilmu hitam dan kekuatan negatif.",
+        "en": "In Mapuche mythology, the Kalku or Calcu is a sorcerer or witch working with black magic and negative forces."
+      }
+    },
+    {
+      "id": "kalku-c02",
+      "source_id": "kalku-s1",
+      "quote": "The essentially benevolent shamans are more often referred to as machi, to avoid confusion with the malevolent kalku.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dukun yang baik lebih sering disebut machi, agar tidak tertukar dengan kalku yang jahat.",
+        "en": "The benevolent shamans are called machi, to avoid confusion with the malevolent kalku."
+      }
+    },
+    {
+      "id": "kalku-c03",
+      "source_id": "kalku-s1",
+      "quote": "The kalku is a semi-mythical character that has the power of working with wekufe \"spirits or wicked creatures\".",
+      "locator": "Description",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Kalku adalah tokoh setengah mitos yang dapat bekerja dengan wekufe, roh atau makhluk jahat.",
+        "en": "The kalku is a semi-mythical figure able to work with wekufe, wicked spirits or creatures."
+      }
+    },
+    {
+      "id": "kalku-c04",
+      "source_id": "kalku-s1",
+      "quote": "The kalku also have as servants other beings such as the Anchimayen, or the Chonchon",
+      "locator": "Description",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Kalku juga memiliki pelayan seperti Anchimayen atau Chonchon.",
+        "en": "The kalku also has servants such as the Anchimayen or the Chonchon."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-145",
+  "slug": "lady-in-red",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Lady in Red (ghost)",
+    "native_name": null,
+    "display_name": {
+      "id": "Lady in Red",
+      "en": "Lady in Red"
+    },
+    "wikidata_qid": "Q55616471",
+    "claim_ids": [
+      "lady-in-red-c01"
+    ]
+  },
+  "alternate_names": [
+    {
+      "name": "Red Lady",
+      "language": "en",
+      "name_type": "alias",
+      "claim_ids": [
+        "lady-in-red-c01"
+      ]
+    }
+  ],
+  "jenis": {
+    "value": "hantu",
+    "claim_ids": [
+      "lady-in-red-c01"
+    ]
+  },
+  "classification": {
+    "value": "spirit",
+    "claim_ids": [
+      "lady-in-red-c01"
+    ]
+  },
+  "culture": {
+    "value": "cross-cultural",
+    "suggested_new": null,
+    "claim_ids": [
+      "lady-in-red-c01"
+    ]
+  },
+  "region": {
+    "value": "transregional",
+    "claim_ids": [
+      "lady-in-red-c03"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "dwelling",
+      "claim_ids": [
+        "lady-in-red-c03"
+      ]
+    }
+  ],
+  "disposition": {
+    "value": "benevolent",
+    "claim_ids": [
+      "lady-in-red-c03"
+    ]
+  },
+  "traits": [],
+  "short_description": {
+    "id": "Lady in Red adalah jenis hantu perempuan bergaun merah yang kisahnya melekat pada hotel, teater, dan tempat umum bersejarah [lady-in-red-c01, lady-in-red-c02, lady-in-red-c03].",
+    "en": "The Lady in Red is a type of red-dressed female ghost tied to historic hotels, theatres and public places [lady-in-red-c01, lady-in-red-c02, lady-in-red-c03].",
+    "claim_ids": [
+      "lady-in-red-c01",
+      "lady-in-red-c02",
+      "lady-in-red-c03"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Lady in Red adalah jenis hantu perempuan yang mirip White Lady, tetapi dikaitkan dengan kekasih yang dicampakkan atau perempuan sombong [lady-in-red-c01]. Ia selalu bergaun merah [lady-in-red-c02], biasanya ramah, dan kisahnya melekat pada hotel, teater, atau tempat umum bersejarah [lady-in-red-c03].",
+      "en": "The Lady in Red is a female ghost type like the White Lady, but tied to jilted lovers or vain women [lady-in-red-c01]. She always wears red [lady-in-red-c02], is usually friendly, and haunts historic hotels, theatres and public places [lady-in-red-c03].",
+      "claim_ids": [
+        "lady-in-red-c01",
+        "lady-in-red-c02",
+        "lady-in-red-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "White Lady",
+      "relation_type": "associated",
+      "note": {
+        "id": "Jenis hantu perempuan yang mirip.",
+        "en": "A similar female ghost type."
+      },
+      "claim_ids": [
+        "lady-in-red-c01"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa warna pakaian hantu sering menjadi ciri utamanya?",
+      "en": "Why is a ghost's dress colour often its defining trait?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "lady-in-red-s1",
+      "url": "https://en.wikipedia.org/wiki/Lady_in_Red_(ghost)",
+      "title": "Lady in Red (ghost)",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "lady-in-red-c01",
+      "source_id": "lady-in-red-s1",
+      "quote": "A Lady in Red or Red Lady is a type of female ghost, similar to the White Lady, but according to legend is more specifically attributed to a jilted lover, killed in a fit of passion, or a woman of vanity.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Lady in Red adalah jenis hantu perempuan yang mirip White Lady, tetapi menurut legenda lebih khusus dikaitkan dengan kekasih yang dicampakkan, korban pembunuhan karena emosi, atau perempuan yang sombong.",
+        "en": "The Lady in Red is a type of female ghost like the White Lady, attributed in legend to a jilted lover, a victim of passion, or a vain woman."
+      }
+    },
+    {
+      "id": "lady-in-red-c02",
+      "source_id": "lady-in-red-s1",
+      "quote": "In all cases, the Lady in Red is wearing a scarlet or blood red dress.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam semua versi, ia bergaun merah tua atau merah darah.",
+        "en": "In all cases she wears a scarlet or blood-red dress."
+      }
+    },
+    {
+      "id": "lady-in-red-c03",
+      "source_id": "lady-in-red-s1",
+      "quote": "She is said to typically be friendly in disposition, with a story attached to historic hotels, theatres or other public places",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia biasanya digambarkan ramah, dan kisahnya melekat pada hotel bersejarah, teater, atau tempat umum lain.",
+        "en": "She is usually friendly, with stories tied to historic hotels, theatres and other public places."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-145",
+  "slug": "lake-worth-monster",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Lake Worth Monster",
+    "native_name": null,
+    "display_name": {
+      "id": "Lake Worth Monster",
+      "en": "Lake Worth Monster"
+    },
+    "wikidata_qid": "Q6478564",
+    "claim_ids": [
+      "lake-worth-monster-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "kriptid",
+    "claim_ids": [
+      "lake-worth-monster-c01"
+    ]
+  },
+  "classification": {
+    "value": "hybrid",
+    "claim_ids": [
+      "lake-worth-monster-c02"
+    ]
+  },
+  "culture": {
+    "value": "tradition-american",
+    "suggested_new": null,
+    "claim_ids": [
+      "lake-worth-monster-c01"
+    ]
+  },
+  "region": {
+    "value": "north-america",
+    "claim_ids": [
+      "lake-worth-monster-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "water",
+      "claim_ids": [
+        "lake-worth-monster-c01"
+      ]
+    }
+  ],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Lake Worth Monster adalah makhluk setengah manusia setengah kambing dalam cerita rakyat Texas yang konon menghuni Lake Worth [lake-worth-monster-c01, lake-worth-monster-c02].",
+    "en": "The Lake Worth Monster is a half-man, half-goat creature of Texan folklore said to inhabit Lake Worth [lake-worth-monster-c01, lake-worth-monster-c02].",
+    "claim_ids": [
+      "lake-worth-monster-c01",
+      "lake-worth-monster-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Lake Worth Monster adalah makhluk legenda Texas yang konon menghuni Lake Worth [lake-worth-monster-c01], digambarkan setengah manusia setengah kambing, bersisik, dan bercakar [lake-worth-monster-c02]. Kepercayaan ini muncul dari laporan warga pada Juli 1969 [lake-worth-monster-c03], tetapi polisi tidak menemukan bukti [lake-worth-monster-c04].",
+      "en": "The Lake Worth Monster is a Texan legendary creature said to inhabit Lake Worth [lake-worth-monster-c01], described as part man, part goat with scales and claws [lake-worth-monster-c02]. Belief arose from July 1969 reports [lake-worth-monster-c03], but police found no evidence [lake-worth-monster-c04].",
+      "claim_ids": [
+        "lake-worth-monster-c01",
+        "lake-worth-monster-c02",
+        "lake-worth-monster-c03",
+        "lake-worth-monster-c04"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [
+    {
+      "period": "July 1969",
+      "title": {
+        "id": "Laporan penampakan",
+        "en": "Sighting reports"
+      },
+      "description": {
+        "id": "Warga melaporkan makhluk setengah manusia setengah kambing.",
+        "en": "Residents reported a half-man, half-goat."
+      },
+      "earliest_attestation": true,
+      "claim_ids": [
+        "lake-worth-monster-c03"
+      ]
+    }
+  ],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Bagaimana laporan surat kabar bisa melahirkan legenda lokal?",
+      "en": "How can newspaper reports create a local legend?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "lake-worth-monster-s1",
+      "url": "https://en.wikipedia.org/wiki/Lake_Worth_Monster",
+      "title": "Lake Worth Monster",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "lake-worth-monster-c01",
+      "source_id": "lake-worth-monster-s1",
+      "quote": "In Texan folklore, the Lake Worth Monster is a legendary creature said to inhabit Lake Worth at the Fort Worth Nature Center and Refuge, just outside Fort Worth.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam cerita rakyat Texas, Lake Worth Monster adalah makhluk legenda yang konon menghuni Lake Worth dekat Fort Worth.",
+        "en": "In Texan folklore, the Lake Worth Monster is a legendary creature said to inhabit Lake Worth near Fort Worth."
+      }
+    },
+    {
+      "id": "lake-worth-monster-c02",
+      "source_id": "lake-worth-monster-s1",
+      "quote": "The creature is often described as a \"part-man, part-goat\" with scales and long clawed fingers.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia sering digambarkan setengah manusia setengah kambing, bersisik, dan berjari panjang bercakar.",
+        "en": "It is often described as \"part-man, part-goat\" with scales and long clawed fingers."
+      }
+    },
+    {
+      "id": "lake-worth-monster-c03",
+      "source_id": "lake-worth-monster-s1",
+      "quote": "Reports of sightings by local citizens of \"a half-man, half-goat, with fur and scales\" in July 1969 led to the belief that a mysterious creature lived in Lake Worth.",
+      "locator": "History",
+      "context": "historical-record",
+      "statement": {
+        "id": "Laporan warga pada Juli 1969 tentang makhluk setengah manusia setengah kambing membuat orang percaya ada makhluk misterius di Lake Worth.",
+        "en": "July 1969 reports of \"a half-man, half-goat, with fur and scales\" led to belief in a creature at Lake Worth."
+      }
+    },
+    {
+      "id": "lake-worth-monster-c04",
+      "source_id": "lake-worth-monster-s1",
+      "quote": "Local police investigated the claims, but found no evidence of the monster in the Lake Worth and Greer Island area.",
+      "locator": "History",
+      "context": "historical-record",
+      "statement": {
+        "id": "Polisi setempat menyelidikinya tetapi tidak menemukan bukti.",
+        "en": "Local police investigated but found no evidence."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-145",
+  "slug": "lava-bear",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Lava bear",
+    "native_name": null,
+    "display_name": {
+      "id": "Lava Bear",
+      "en": "Lava Bear"
+    },
+    "wikidata_qid": "Q28134708",
+    "claim_ids": [
+      "lava-bear-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "kriptid",
+    "claim_ids": [
+      "lava-bear-c03"
+    ]
+  },
+  "classification": {
+    "value": "cryptid",
+    "claim_ids": [
+      "lava-bear-c03"
+    ]
+  },
+  "culture": {
+    "value": "tradition-american",
+    "suggested_new": null,
+    "claim_ids": [
+      "lava-bear-c01"
+    ]
+  },
+  "region": {
+    "value": "north-america",
+    "claim_ids": [
+      "lava-bear-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Lava bear adalah beruang hitam kerdil dari dataran lava Oregon yang dulu dikira spesies tersendiri [lava-bear-c01, lava-bear-c03].",
+    "en": "The lava bear is a stunted black bear of the Oregon lava beds once thought to be a separate species [lava-bear-c01, lava-bear-c03].",
+    "claim_ids": [
+      "lava-bear-c01",
+      "lava-bear-c03"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Lava bear adalah variasi beruang hitam Amerika dari dataran lava Oregon [lava-bear-c01], digambarkan sangat kecil dengan bulu cokelat muda [lava-bear-c02]. Dulu ia dikira spesies tersendiri, tetapi ilmuwan menyimpulkan hewan itu kerdil karena lingkungannya [lava-bear-c03], dan kini diakui bukan spesies tersendiri [lava-bear-c04].",
+      "en": "The lava bear is a variety of American black bear from the Oregon lava beds [lava-bear-c01], described as very small with light brown fur [lava-bear-c02]. Once thought a separate species, it was found to be stunted by its environment [lava-bear-c03] and is now acknowledged not to be a unique species [lava-bear-c04].",
+      "claim_ids": [
+        "lava-bear-c01",
+        "lava-bear-c02",
+        "lava-bear-c03",
+        "lava-bear-c04"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": {
+    "traditional": {
+      "id": "Dikira spesies tersendiri, mungkin grizzly kerdil.",
+      "en": "Thought a separate species, perhaps a dwarf grizzly."
+    },
+    "modern": {
+      "id": "Diakui sebagai beruang hitam kerdil akibat lingkungan.",
+      "en": "Recognised as black bears stunted by their environment."
+    },
+    "claim_ids": [
+      "lava-bear-c03",
+      "lava-bear-c04"
+    ]
+  },
+  "learning_questions": [
+    {
+      "id": "Bagaimana sains menjelaskan hewan yang dulu dianggap misterius?",
+      "en": "How does science explain animals once thought mysterious?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "lava-bear-s1",
+      "url": "https://en.wikipedia.org/wiki/Lava_bear",
+      "title": "Lava bear",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "lava-bear-c01",
+      "source_id": "lava-bear-s1",
+      "quote": "is a variety of American black bear (Ursus americanus) found in the lava beds of south central Oregon.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Lava bear adalah variasi beruang hitam Amerika yang ditemukan di dataran lava Oregon tengah selatan.",
+        "en": "The lava bear is a variety of American black bear found in the lava beds of south central Oregon."
+      }
+    },
+    {
+      "id": "lava-bear-c02",
+      "source_id": "lava-bear-s1",
+      "quote": "The animal was described as a very small bear with wooly light brown fur.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Hewan ini digambarkan sebagai beruang sangat kecil berbulu wol cokelat muda.",
+        "en": "It was described as a very small bear with woolly light brown fur."
+      }
+    },
+    {
+      "id": "lava-bear-c03",
+      "source_id": "lava-bear-s1",
+      "quote": "It was once thought to be a separate species. However, scientists who examined the specimens determined that the animals were stunted due to the harsh environment in which they lived.",
+      "locator": "Introduction",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Dulu ia dianggap spesies tersendiri, tetapi ilmuwan menyimpulkan hewan-hewan itu kerdil karena lingkungannya yang keras.",
+        "en": "It was once thought a separate species, but scientists found the animals were stunted by their harsh environment."
+      }
+    },
+    {
+      "id": "lava-bear-c04",
+      "source_id": "lava-bear-s1",
+      "quote": "Today, it is acknowledged that lava bears never existed as a unique species.",
+      "locator": "Introduction",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Kini diakui bahwa lava bear tidak pernah ada sebagai spesies tersendiri.",
+        "en": "Today lava bears are acknowledged never to have been a unique species."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-145",
+  "slug": "monster-of-lake-tota",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Monster of Lake Tota",
+    "native_name": null,
+    "display_name": {
+      "id": "Monster of Lake Tota",
+      "en": "Monster of Lake Tota"
+    },
+    "wikidata_qid": "Q6022153",
+    "claim_ids": [
+      "monster-of-lake-tota-c01"
+    ]
+  },
+  "alternate_names": [
+    {
+      "name": "diablo ballena",
+      "language": "es",
+      "name_type": "epithet",
+      "claim_ids": [
+        "monster-of-lake-tota-c01"
+      ]
+    }
+  ],
+  "jenis": {
+    "value": "kriptid",
+    "claim_ids": [
+      "monster-of-lake-tota-c01"
+    ]
+  },
+  "classification": {
+    "value": "aquatic",
+    "claim_ids": [
+      "monster-of-lake-tota-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-indigenous-south-american",
+    "suggested_new": null,
+    "claim_ids": [
+      "monster-of-lake-tota-c02"
+    ]
+  },
+  "region": {
+    "value": "south-america",
+    "claim_ids": [
+      "monster-of-lake-tota-c02"
+    ]
+  },
+  "countries": {
+    "value": [
+      "Colombia"
+    ],
+    "claim_ids": [
+      "monster-of-lake-tota-c02"
+    ]
+  },
+  "era": null,
+  "habitats": [
+    {
+      "value": "water",
+      "claim_ids": [
+        "monster-of-lake-tota-c02"
+      ]
+    }
+  ],
+  "disposition": null,
+  "traits": [
+    {
+      "value": "aquatic",
+      "claim_ids": [
+        "monster-of-lake-tota-c01"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "Monster of Lake Tota (\"paus iblis\") adalah hewan air legendaris yang menurut orang Muisca menghuni Danau Tota, Kolombia [monster-of-lake-tota-c01, monster-of-lake-tota-c02].",
+    "en": "The Monster of Lake Tota (\"devil whale\") is a legendary aquatic animal that, per the Muisca, inhabits Lake Tota, Colombia [monster-of-lake-tota-c01, monster-of-lake-tota-c02].",
+    "claim_ids": [
+      "monster-of-lake-tota-c01",
+      "monster-of-lake-tota-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Monster of Lake Tota, yang disebut diablo ballena (\"paus iblis\") [monster-of-lake-tota-c01], menurut orang Muisca menghuni Danau Tota di Kolombia [monster-of-lake-tota-c02]. Seorang conquistador menggambarkannya sebagai ikan berkepala hitam seperti lembu dan lebih besar dari paus [monster-of-lake-tota-c03], dan satu penampakan dilaporkan pada tahun 1652 [monster-of-lake-tota-c04].",
+      "en": "The Monster of Lake Tota, called diablo ballena (\"devil whale\") [monster-of-lake-tota-c01], inhabits Lake Tota in Colombia according to the Muisca [monster-of-lake-tota-c02]. A conquistador described it as a fish with an ox-like black head, larger than a whale [monster-of-lake-tota-c03], and a sighting was reported in 1652 [monster-of-lake-tota-c04].",
+      "claim_ids": [
+        "monster-of-lake-tota-c01",
+        "monster-of-lake-tota-c02",
+        "monster-of-lake-tota-c03",
+        "monster-of-lake-tota-c04"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [
+    {
+      "name": {
+        "id": "Danau Tota",
+        "en": "Lake Tota"
+      },
+      "type": "lake",
+      "description": {
+        "id": "Danau di Kolombia yang dihuninya.",
+        "en": "The lake in Colombia that it inhabits."
+      },
+      "claim_ids": [
+        "monster-of-lake-tota-c02"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "period": "1652",
+      "title": {
+        "id": "Laporan penampakan",
+        "en": "Reported sighting"
+      },
+      "description": {
+        "id": "Satu penampakan dilaporkan.",
+        "en": "A sighting was reported."
+      },
+      "earliest_attestation": false,
+      "claim_ids": [
+        "monster-of-lake-tota-c04"
+      ]
+    }
+  ],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Bagaimana catatan conquistador membantu kita memahami mitos pribumi?",
+      "en": "How do conquistador records help us understand Indigenous myths?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "monster-of-lake-tota-s1",
+      "url": "https://en.wikipedia.org/wiki/Monster_of_Lake_Tota",
+      "title": "Monster of Lake Tota",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "monster-of-lake-tota-c01",
+      "source_id": "monster-of-lake-tota-s1",
+      "quote": "The Monster of Lake Tota is a legendary aquatic animal known in many works as: diablo ballena, lit. 'devil whale'.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Monster of Lake Tota adalah hewan air legendaris yang dalam banyak karya disebut diablo ballena, \"paus iblis\".",
+        "en": "The Monster of Lake Tota is a legendary aquatic animal called in many works diablo ballena, 'devil whale'."
+      }
+    },
+    {
+      "id": "monster-of-lake-tota-c02",
+      "source_id": "monster-of-lake-tota-s1",
+      "quote": "The monster is an inhabitant of Lake Tota in present-day Colombia, according to the Muisca, who inhabited the Altiplano Cundiboyacense.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Menurut orang Muisca, monster ini menghuni Danau Tota di wilayah yang kini Kolombia.",
+        "en": "According to the Muisca, the monster inhabits Lake Tota in present-day Colombia."
+      }
+    },
+    {
+      "id": "monster-of-lake-tota-c03",
+      "source_id": "monster-of-lake-tota-s1",
+      "quote": "He described the monster as \"A fish with a black head like an ox and larger than a whale\"",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Conquistador Gonzalo Jiménez de Quesada menggambarkannya sebagai ikan berkepala hitam seperti lembu dan lebih besar dari paus.",
+        "en": "The conquistador Gonzalo Jiménez de Quesada described it as \"A fish with a black head like an ox and larger than a whale\"."
+      }
+    },
+    {
+      "id": "monster-of-lake-tota-c04",
+      "source_id": "monster-of-lake-tota-s1",
+      "quote": "A report of an alleged sighting took place in 1652.",
+      "locator": "Description",
+      "context": "historical-record",
+      "statement": {
+        "id": "Satu laporan penampakan terjadi pada tahun 1652.",
+        "en": "A reported sighting took place in 1652."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-145",
+  "slug": "muelona",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Muelona",
+    "native_name": null,
+    "display_name": {
+      "id": "La Muelona",
+      "en": "La Muelona"
+    },
+    "wikidata_qid": "Q6025805",
+    "claim_ids": [
+      "muelona-c01"
+    ]
+  },
+  "alternate_names": [
+    {
+      "name": "Colmillona",
+      "language": "es",
+      "name_type": "alias",
+      "claim_ids": [
+        "muelona-c01"
+      ]
+    }
+  ],
+  "jenis": {
+    "value": "hantu",
+    "claim_ids": [
+      "muelona-c02"
+    ]
+  },
+  "classification": {
+    "value": "spirit",
+    "claim_ids": [
+      "muelona-c02"
+    ]
+  },
+  "culture": {
+    "value": "tradition-hispanic-south-american",
+    "suggested_new": null,
+    "claim_ids": [
+      "muelona-c01"
+    ]
+  },
+  "region": {
+    "value": "south-america",
+    "claim_ids": [
+      "muelona-c01"
+    ]
+  },
+  "countries": {
+    "value": [
+      "Colombia"
+    ],
+    "claim_ids": [
+      "muelona-c01"
+    ]
+  },
+  "era": null,
+  "habitats": [
+    {
+      "value": "fields",
+      "claim_ids": [
+        "muelona-c02"
+      ]
+    }
+  ],
+  "disposition": {
+    "value": "malevolent",
+    "claim_ids": [
+      "muelona-c02"
+    ]
+  },
+  "traits": [],
+  "short_description": {
+    "id": "La Muelona adalah tokoh mitologi Andes Kolombia berupa perempuan menarik bergigi besar yang meremukkan pejalan di tepi jalan [muelona-c01, muelona-c02].",
+    "en": "La Muelona is a figure of Andean Colombian mythology, an attractive big-toothed woman who crushes walkers by the road [muelona-c01, muelona-c02].",
+    "claim_ids": [
+      "muelona-c01",
+      "muelona-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "La Muelona atau Colmillona adalah tokoh mitologi Kolombia dari Huila dan Tolima [muelona-c01]. Ia muncul di tepi jalan sebagai perempuan menarik, lalu meremukkan korbannya dengan giginya [muelona-c02].",
+      "en": "La Muelona or Colmillona is a figure of Colombian mythology from Huila and Tolima [muelona-c01]. She appears by the road as an attractive woman and crushes victims with her teeth [muelona-c02].",
+      "claim_ids": [
+        "muelona-c01",
+        "muelona-c02"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": {
+    "original_form": "La Muelona",
+    "language": "Spanish",
+    "literal_meaning": {
+      "id": "perempuan bergeraham besar",
+      "en": "big molar woman"
+    },
+    "claim_ids": [
+      "muelona-c01"
+    ]
+  },
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa banyak hantu perempuan muncul di tepi jalan?",
+      "en": "Why do many female ghosts appear by the roadside?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "muelona-s1",
+      "url": "https://en.wikipedia.org/wiki/Muelona",
+      "title": "Muelona",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "muelona-c01",
+      "source_id": "muelona-s1",
+      "quote": "La Muelona (\"big molar woman\"), (also known as Colmillona; \"big fang woman\") is a character from Colombian mythology, present in the folkloric legends of the populations located in the Andean region (Huila and Tolima) of Colombia.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "La Muelona (\"perempuan bergeraham besar\"), juga Colmillona (\"perempuan bertaring besar\"), adalah tokoh mitologi Kolombia dari wilayah Andes (Huila dan Tolima).",
+        "en": "La Muelona (\"big molar woman\"), also Colmillona (\"big fang woman\"), is a figure of Colombian mythology from the Andean region (Huila and Tolima)."
+      }
+    },
+    {
+      "id": "muelona-c02",
+      "source_id": "muelona-s1",
+      "quote": "La Muelona attacks the walkers that appears at the edge of the path as a very attractive and seductive woman, but once they are in her arms, they are crushed by her teeth.",
+      "locator": "Characteristics",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "La Muelona muncul di tepi jalan sebagai perempuan yang sangat menarik, lalu meremukkan pejalan dengan giginya setelah mereka dalam pelukannya.",
+        "en": "She appears at the path's edge as a seductive woman and crushes walkers with her teeth once in her arms."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "cultural_context",
+      "searched": "Kalimat Wikipedia tentang sasaran korbannya (penjudi, laki-laki tak setia) ditandai citation needed; tidak ditemukan sumber lain, jadi tidak dipakai."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-145",
+  "slug": "nain-rouge",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Nain Rouge",
+    "native_name": null,
+    "display_name": {
+      "id": "Nain Rouge",
+      "en": "Nain Rouge"
+    },
+    "wikidata_qid": "Q1820154",
+    "claim_ids": [
+      "nain-rouge-c01"
+    ]
+  },
+  "alternate_names": [
+    {
+      "name": "Demon of the Strait",
+      "language": "en",
+      "name_type": "epithet",
+      "claim_ids": [
+        "nain-rouge-c04"
+      ]
+    }
+  ],
+  "jenis": {
+    "value": "makhluk legenda",
+    "claim_ids": [
+      "nain-rouge-c01"
+    ]
+  },
+  "classification": {
+    "value": "legendary-creature",
+    "claim_ids": [
+      "nain-rouge-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-french",
+    "suggested_new": null,
+    "claim_ids": [
+      "nain-rouge-c01"
+    ]
+  },
+  "region": {
+    "value": "north-america",
+    "claim_ids": [
+      "nain-rouge-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": {
+    "value": "malevolent",
+    "claim_ids": [
+      "nain-rouge-c01"
+    ]
+  },
+  "traits": [],
+  "short_description": {
+    "id": "Nain Rouge (\"kurcaci merah\") adalah makhluk legenda Detroit yang kemunculannya konon pertanda kemalangan [nain-rouge-c01].",
+    "en": "The Nain Rouge (\"red dwarf\") is a legendary creature of Detroit whose appearance presages misfortune [nain-rouge-c01].",
+    "claim_ids": [
+      "nain-rouge-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Nain Rouge adalah makhluk legenda Detroit yang kemunculannya konon menandakan kemalangan [nain-rouge-c01], juga disebut \"Iblis dari Selat\" [nain-rouge-c04]. Menurut kisahnya, pendiri Detroit, Cadillac, memukulnya dengan tongkat alih-alih menenangkannya [nain-rouge-c03]. Tidak ada catatan legenda ini sebelum tahun 1880-an [nain-rouge-c02]. Kini setiap musim semi diadakan Marche du Nain Rouge [nain-rouge-c05].",
+      "en": "The Nain Rouge is a Detroit legendary creature whose appearance presages misfortune [nain-rouge-c01], also called \"the Demon of the Strait\" [nain-rouge-c04]. In the tale, founder Cadillac struck it with his cane instead of appeasing it [nain-rouge-c03]. No records of the legend predate the 1880s [nain-rouge-c02]. Each spring the Marche du Nain Rouge is held [nain-rouge-c05].",
+      "claim_ids": [
+        "nain-rouge-c01",
+        "nain-rouge-c02",
+        "nain-rouge-c03",
+        "nain-rouge-c04",
+        "nain-rouge-c05"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": {
+    "original_form": "nain rouge",
+    "language": "French",
+    "literal_meaning": {
+      "id": "kurcaci merah",
+      "en": "red dwarf"
+    },
+    "claim_ids": [
+      "nain-rouge-c01"
+    ]
+  },
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [
+    {
+      "title": {
+        "id": "Cadillac dan Nain Rouge",
+        "en": "Cadillac and the Nain Rouge"
+      },
+      "role": {
+        "id": "Pembawa sial yang dilawan.",
+        "en": "The ill omen defied."
+      },
+      "summary": {
+        "id": "Seorang peramal menyuruh Cadillac menenangkan Nain Rouge, tetapi ia memukulnya dengan tongkat.",
+        "en": "A fortuneteller told Cadillac to appease the Nain Rouge, but he struck it with his cane."
+      },
+      "claim_ids": [
+        "nain-rouge-c03"
+      ]
+    }
+  ],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa sebuah kota merayakan makhluk pembawa sial?",
+      "en": "Why would a city celebrate a creature of ill omen?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "nain-rouge-s1",
+      "url": "https://en.wikipedia.org/wiki/Nain_Rouge",
+      "title": "Nain Rouge",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "nain-rouge-c01",
+      "source_id": "nain-rouge-s1",
+      "quote": "The Nain Rouge (French for \"red dwarf\") is a legendary creature of the Detroit, Michigan area whose appearance is said to presage misfortune for the white settlers of the area.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Nain Rouge (\"kurcaci merah\") adalah makhluk legenda Detroit, Michigan, yang kemunculannya konon menandakan kemalangan bagi pemukim kulit putih.",
+        "en": "The Nain Rouge (\"red dwarf\") is a legendary creature of Detroit, Michigan, whose appearance presages misfortune for white settlers."
+      }
+    },
+    {
+      "id": "nain-rouge-c02",
+      "source_id": "nain-rouge-s1",
+      "quote": "There are no records that indicate the legend of the Nain Rouge existed prior to the 1880s.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Tidak ada catatan yang menunjukkan legenda ini ada sebelum tahun 1880-an.",
+        "en": "No records show the legend existed before the 1880s."
+      }
+    },
+    {
+      "id": "nain-rouge-c03",
+      "source_id": "nain-rouge-s1",
+      "quote": "Detroit's founder Antoine de la Mothe Cadillac was told by a fortuneteller to appease the Nain Rouge, but he instead attacked it with his cane",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Pendiri Detroit, Antoine de la Mothe Cadillac, disuruh peramal menenangkan Nain Rouge, tetapi ia malah memukulnya dengan tongkat.",
+        "en": "Detroit's founder Cadillac was told to appease the Nain Rouge but attacked it with his cane."
+      }
+    },
+    {
+      "id": "nain-rouge-c04",
+      "source_id": "nain-rouge-s1",
+      "quote": "The Nain Rouge is also known as \"the Demon of the Strait.\"",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Nain Rouge juga dikenal sebagai \"Iblis dari Selat\".",
+        "en": "It is also known as \"the Demon of the Strait.\""
+      }
+    },
+    {
+      "id": "nain-rouge-c05",
+      "source_id": "nain-rouge-s1",
+      "quote": "Each Spring, there is an event called the Marche du Nain Rouge where hundreds of people chase a",
+      "locator": "Introduction",
+      "context": "modern-popular-culture",
+      "statement": {
+        "id": "Setiap musim semi diadakan Marche du Nain Rouge, ketika ratusan orang beramai-ramai mengejar sosok Nain Rouge.",
+        "en": "Each spring the Marche du Nain Rouge sees hundreds of people chase a Nain Rouge figure."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
