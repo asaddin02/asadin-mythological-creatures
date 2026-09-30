@@ -1,8 +1,6 @@
 # Review batch-145
 
-Diperiksa 2026-09-30T07:57:50.553Z. Berkas: batch-145.md.
-
-**Belum dikirim:** nootaikok, obia-folklore, qallupilluit, sayona, the-hairy-leg, ti-malice-and-bouki, tunda, two-toed-tom, wayob
+Diperiksa 2026-09-30T07:59:58.619Z. Berkas: batch-145.md.
 
 ## mogollon-monster — lulus-otomatis
 
@@ -550,4 +548,131 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | nain-rouge-c03 | exact | en.wikipedia.org | Detroit's founder Cadillac was told to appease the Nain Rouge but attacked it with his cane. | Detroit's founder Antoine de la Mothe Cadillac was told by a fortuneteller to appease the Nain Rouge, but he instead attacked it with his cane |
 | nain-rouge-c04 | exact | en.wikipedia.org | It is also known as "the Demon of the Strait." | The Nain Rouge is also known as "the Demon of the Strait." |
 | nain-rouge-c05 | exact | en.wikipedia.org | Each spring the Marche du Nain Rouge sees hundreds of people chase a Nain Rouge figure. | Each Spring, there is an event called the Marche du Nain Rouge where hundreds of people chase a |
+
+
+## nootaikok — lulus-otomatis
+
+Klaim 1 (exact 1), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| nootaikok-c01 | exact | en.wikipedia.org | In Inuit mythology, Nootaikok was a spirit who ruled and lived inside icebergs and glaciers and, with Agloolik, led hunters to seals. | In Inuit mythology, Nootaikok was a spirit who presided over and lived inside icebergs and glaciers. Along with Agloolik, the spirit led hunters to seals. |
+
+
+## obia-folklore — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| obia-folklore-c01 | exact | en.wikipedia.org | An obia or obeah is a monster of West African folklore. | An obia or obeah is a monster in West African folklore. |
+| obia-folklore-c02 | exact | en.wikipedia.org | It is a massive animal witches send into villages to kidnap young girls and wear their skin as a coat. | It is described as being a massive animal that witches send into villages to kidnap young girls and wear their skin for a coat. |
+| obia-folklore-c03 | exact | en.wikipedia.org | In the Bay Islands of Honduras it also means a witch or the witch's spell. | It is also the common term in the Bay Islands of Honduras for a witch or the spell that is cast by the witch. |
+
+
+## qallupilluit — lulus-otomatis
+
+Klaim 4 (exact 4), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| qallupilluit-c01 | exact | en.wikipedia.org | In Inuit mythology, the Qallupilluit or Qalupalik live along Arctic shores near ice floes and steal children who stray too close to the water. | In Inuit mythology, the Qallupilluit or Qalupalik are creatures that live along Arctic shorelines near ice floes. They are said to steal children that wander too close to the water. |
+| qallupilluit-c02 | exact | en.wikipedia.org | The myth is thought to protect children from dangers such as playing on hazardous sea ice. | This myth is believed to serve the purpose of protecting children from a dangerous environment, such as keeping them from playing on hazardous sea ice. |
+| qallupilluit-c03 | exact | en.wikipedia.org | It is often described with green, slimy skin, long hair and long fingernails. | The Qallupilluit is often described as having green, slimy skin, long hair, and long fingernails. |
+| qallupilluit-c04 | exact | en.wikipedia.org | It wears an amautik, an Inuit parka mostly worn by women. | It wears an amautik, an Inuit parka mostly worn by women. |
+
+
+## sayona — lulus-otomatis
+
+Klaim 4 (exact 4), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| sayona-c01 | exact | en.wikipedia.org | La Sayona is a Venezuelan legend of a vengeful female spirit who appears only to men having affairs. | La Sayona is a legend from Venezuela, represented by the vengeful spirit of a woman that shows up only to men that have love affairs out of their marriages. |
+| sayona-c02 | exact | en.wikipedia.org | The name refers to her garment, a long white dress like a medieval undergarment. | The name "Sayona" refers to the cloth the ghost wears which is a long white dress similar to a medieval undergarment. |
+| sayona-c03 | exact | en.wikipedia.org | She asks for a ride, and when the victim looks at her face he sees a skull with horrible teeth. | The legend claims that when this woman appears she asks for a ride, and after a while when the victim tries to see her face, he notices that she has instead a skull with horrible teeth. |
+| sayona-c04 | exact | en.wikipedia.org | The legend says La Sayona was a young woman named Casilda. | The legend says that "La Sayona" was a young woman named Casilda. |
+
+
+## the-hairy-leg — lulus-otomatis
+
+Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| the-hairy-leg-c01 | loose | en.wikipedia.org | The Hairy Leg (Portuguese: perna cabeluda) is a Brazilian urban legend from Recife. | The Hairy Leg (Portuguese: perna cabeluda) is a Brazilian urban legend that originated in the city of Recife. |
+| the-hairy-leg-c02 | exact | en.wikipedia.org | It was created by the Diário de Pernambuco in the 1970s military dictatorship to replace and signal censored material. | It was conceived by the newspaper Diário de Pernambuco during the Brazilian military dictatorship in the 1970s. The newspaper used fictional narratives about the Leg to replace and signal material that had been censored by the regime. |
+| the-hairy-leg-c03 | exact | en.wikipedia.org | It is described as a hairy human leg that attacks people at night by tackling and kicking them. | The creature is described as a hairy human leg that attacks people at night by tackling and kicking them. |
+| the-hairy-leg-c04 | loose | en.wikipedia.org | The film The Secret Agent (2025) made it a central element of its story. | The film The Secret Agent (2025) (Portuguese: O Agente Secreto) incorporated it as a central element of its narrative. |
+
+
+## ti-malice-and-bouki — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| ti-malice-and-bouki-c01 | exact | en.wikipedia.org | Ti Malice is a trickster and the nemesis of Tonton (Uncle) Bouki in Haitian folklore. | Ti Malice is a trickster character and nemesis of Tonton (Uncle) Bouki in Haitian folklore. |
+| ti-malice-and-bouki-c02 | exact | en.wikipedia.org | Ti Malice is clever and guileful, while Uncle Bouki is hardworking but very greedy. | While Ti Malice is smart and guileful, Uncle Bouki is hardworking but is also very greedy. |
+| ti-malice-and-bouki-c03 | exact | en.wikipedia.org | In Senegal, Bouki is a hyena and Malice a hare called "Leuk". | Bouki is represented as a hyena, which is called "Bouki" in the Fulani and Wolof languages, while Malice is a hare called "Leuk" in Senegal. |
+
+
+## tunda — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| tunda-c01 | exact | en.wikipedia.org | La Tunda is a myth of the Pacific coast of Colombia and Ecuador, especially the Afro-Colombian community of Chocó, about a shapeshifting woman-like being who lures people into the forest and traps them forever. | is a myth from the Pacific coastal region of Colombia and Ecuador, and particularly in the Afro-Colombian community of the Chocó department, about a shapeshifting entity resembling a human woman that lures people into the forests and traps them never to seen again. |
+| tunda-c02 | exact | en.wikipedia.org | The Tunda can take the form of a loved one, such as a child's mother, to lure victims into the forest and feed them shrimp to keep them docile. | The Tunda is described as being capable of changing its shape to appear in the form of a loved one, such as in the likeness of a child's mother, to lure its victims into the forest and feed them with shrimp (camarones peneídos) to keep them docile. |
+| tunda-c03 | exact | en.wikipedia.org | Her disguise is imperfect: she always has a wooden leg shaped like a molinillo (a stirring utensil). | Her shapeshifting abilities are said to be imperfect, as this doppelgänger of sorts would always have a wooden leg in the shape of a molinillo |
+
+
+## two-toed-tom — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| two-toed-tom-c01 | exact | en.wikipedia.org | Two-Toed Tom is a legendary cryptid of the Southern United States that terrorized swamp residents in Florida and Alabama. | Two-Toed Tom is a legendary cryptid in the Southern United States who terrorized swamp residents in Florida and Alabama. |
+| two-toed-tom-c02 | exact | en.wikipedia.org | The name comes from the legendary alligator losing all but two toes on one or more feet to a steel trap. | The name originates from the legendary alligator having lost all but two toes on one or more feet to a steel trap. |
+| two-toed-tom-c03 | exact | en.wikipedia.org | One of the earliest written accounts is in Carl Carmer's 1934 book Stars Fell on Alabama. | One of the earliest written accounts can be traced to the 1934 book Stars Fell on Alabama, by Carl Carmer. |
+
+
+## wayob — lulus-otomatis
+
+Klaim 3 (loose 1, exact 2), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| wayob-c01 | loose | en.wikipedia.org | Wayob is the plural of way (uay), a Maya word meaning 'sleep(ing)'; in Yucatec Maya it denotes the nagual, a person who turns into an animal while asleep to do harm, or that animal form itself. | Wayob is the plural form of way (or uay), a Maya word with a basic meaning of 'sleep(ing)', but which in Yucatec Maya is a term specifically denoting the Mesoamerican nagual, that is, a person who can transform into an animal while asleep in order to do harm, or else the resulting animal transformation itself. |
+| wayob-c02 | exact | en.wikipedia.org | Already in Classic Maya belief, way animals, marked by a special hieroglyph, played an important role. | Already in Classic Maya belief, way animals, identifiable by a special hieroglyph, had an important role to play. |
+| wayob-c03 | exact | en.wikipedia.org | In Yucatec ethnography the animal form is usually a common domestic animal, but may be a ghost or apparition. | In Yucatec ethnography, the animal transformation involved is usually a common domestic or domesticated animal, but may also be a ghost or apparition |
 

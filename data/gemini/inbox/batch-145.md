@@ -7278,3 +7278,1690 @@
 }
 ```
 
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-145",
+  "slug": "nootaikok",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Nootaikok",
+    "native_name": null,
+    "display_name": {
+      "id": "Nootaikok",
+      "en": "Nootaikok"
+    },
+    "wikidata_qid": "Q3343418",
+    "claim_ids": [
+      "nootaikok-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "roh",
+    "claim_ids": [
+      "nootaikok-c01"
+    ]
+  },
+  "classification": {
+    "value": "spirit",
+    "claim_ids": [
+      "nootaikok-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-inuit",
+    "suggested_new": null,
+    "claim_ids": [
+      "nootaikok-c01"
+    ]
+  },
+  "region": {
+    "value": "north-america",
+    "claim_ids": [
+      "nootaikok-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": {
+    "value": "benevolent",
+    "claim_ids": [
+      "nootaikok-c01"
+    ]
+  },
+  "traits": [],
+  "short_description": {
+    "id": "Nootaikok adalah roh Inuit penghuni gunung es dan gletser yang menuntun pemburu ke anjing laut [nootaikok-c01].",
+    "en": "Nootaikok is an Inuit spirit dwelling in icebergs and glaciers who led hunters to seals [nootaikok-c01].",
+    "claim_ids": [
+      "nootaikok-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Dalam mitologi Inuit, Nootaikok adalah roh yang menguasai dan tinggal di dalam gunung es dan gletser, dan bersama Agloolik menuntun pemburu ke anjing laut [nootaikok-c01].",
+      "en": "In Inuit mythology, Nootaikok was a spirit who ruled and lived inside icebergs and glaciers and, with Agloolik, led hunters to seals [nootaikok-c01].",
+      "claim_ids": [
+        "nootaikok-c01"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Agloolik",
+      "relation_type": "ally",
+      "note": {
+        "id": "Bersama-sama menuntun pemburu ke anjing laut.",
+        "en": "Together they led hunters to seals."
+      },
+      "claim_ids": [
+        "nootaikok-c01"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa roh penolong berburu penting bagi masyarakat Arktik?",
+      "en": "Why were hunting-helper spirits important in the Arctic?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "nootaikok-s1",
+      "url": "https://en.wikipedia.org/wiki/Nootaikok",
+      "title": "Nootaikok",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "nootaikok-c01",
+      "source_id": "nootaikok-s1",
+      "quote": "In Inuit mythology, Nootaikok was a spirit who presided over and lived inside icebergs and glaciers. Along with Agloolik, the spirit led hunters to seals.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam mitologi Inuit, Nootaikok adalah roh yang menguasai dan tinggal di dalam gunung es dan gletser; bersama Agloolik ia menuntun pemburu ke anjing laut.",
+        "en": "In Inuit mythology, Nootaikok was a spirit who ruled and lived inside icebergs and glaciers and, with Agloolik, led hunters to seals."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "long_description",
+      "searched": "Artikel Wikipedia hanya dua kalimat; sumber lain yang bisa dibuka tidak ditemukan."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-145",
+  "slug": "obia-folklore",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Obia (folklore)",
+    "native_name": null,
+    "display_name": {
+      "id": "Obia",
+      "en": "Obia"
+    },
+    "wikidata_qid": "Q7074925",
+    "claim_ids": [
+      "obia-folklore-c01"
+    ]
+  },
+  "alternate_names": [
+    {
+      "name": "obeah",
+      "language": "en",
+      "name_type": "alias",
+      "claim_ids": [
+        "obia-folklore-c01"
+      ]
+    }
+  ],
+  "jenis": {
+    "value": "monster",
+    "claim_ids": [
+      "obia-folklore-c01"
+    ]
+  },
+  "classification": {
+    "value": "monster",
+    "claim_ids": [
+      "obia-folklore-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-west-african",
+    "suggested_new": null,
+    "claim_ids": [
+      "obia-folklore-c01"
+    ]
+  },
+  "region": {
+    "value": "africa",
+    "claim_ids": [
+      "obia-folklore-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": {
+    "value": "malevolent",
+    "claim_ids": [
+      "obia-folklore-c02"
+    ]
+  },
+  "traits": [],
+  "short_description": {
+    "id": "Obia adalah monster dalam cerita rakyat Afrika Barat, hewan raksasa yang dikirim penyihir untuk menculik gadis muda [obia-folklore-c01, obia-folklore-c02].",
+    "en": "The obia is a monster of West African folklore, a massive animal witches send to kidnap young girls [obia-folklore-c01, obia-folklore-c02].",
+    "claim_ids": [
+      "obia-folklore-c01",
+      "obia-folklore-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Obia atau obeah adalah monster dalam cerita rakyat Afrika Barat [obia-folklore-c01], hewan raksasa yang dikirim penyihir untuk menculik gadis muda dan memakai kulit mereka [obia-folklore-c02]. Di Kepulauan Bay, Honduras, kata ini juga berarti penyihir atau mantranya [obia-folklore-c03].",
+      "en": "The obia or obeah is a monster of West African folklore [obia-folklore-c01], a massive animal witches send to kidnap girls and wear their skin [obia-folklore-c02]. In the Bay Islands of Honduras the word also means a witch or her spell [obia-folklore-c03].",
+      "claim_ids": [
+        "obia-folklore-c01",
+        "obia-folklore-c02",
+        "obia-folklore-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [
+    {
+      "name": "Obia (Bay Islands)",
+      "tradition": {
+        "id": "Kepulauan Bay, Honduras",
+        "en": "Bay Islands, Honduras"
+      },
+      "description": {
+        "id": "Sebutan untuk penyihir atau mantra penyihir.",
+        "en": "A term for a witch or a witch's spell."
+      },
+      "claim_ids": [
+        "obia-folklore-c03"
+      ]
+    }
+  ],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Bagaimana satu kata bisa berubah makna saat berpindah benua?",
+      "en": "How can a word change meaning when it crosses continents?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "obia-folklore-s1",
+      "url": "https://en.wikipedia.org/wiki/Obia_(folklore)",
+      "title": "Obia (folklore)",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "obia-folklore-c01",
+      "source_id": "obia-folklore-s1",
+      "quote": "An obia or obeah is a monster in West African folklore.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Obia atau obeah adalah monster dalam cerita rakyat Afrika Barat.",
+        "en": "An obia or obeah is a monster of West African folklore."
+      }
+    },
+    {
+      "id": "obia-folklore-c02",
+      "source_id": "obia-folklore-s1",
+      "quote": "It is described as being a massive animal that witches send into villages to kidnap young girls and wear their skin for a coat.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia digambarkan sebagai hewan raksasa yang dikirim penyihir ke desa untuk menculik gadis muda dan memakai kulit mereka sebagai mantel.",
+        "en": "It is a massive animal witches send into villages to kidnap young girls and wear their skin as a coat."
+      }
+    },
+    {
+      "id": "obia-folklore-c03",
+      "source_id": "obia-folklore-s1",
+      "quote": "It is also the common term in the Bay Islands of Honduras for a witch or the spell that is cast by the witch.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Di Kepulauan Bay, Honduras, kata ini juga berarti penyihir atau mantra yang dilontarkannya.",
+        "en": "In the Bay Islands of Honduras it also means a witch or the witch's spell."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-145",
+  "slug": "qallupilluit",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Qallupilluit",
+    "native_name": null,
+    "display_name": {
+      "id": "Qallupilluit",
+      "en": "Qallupilluit"
+    },
+    "wikidata_qid": "Q98132239",
+    "claim_ids": [
+      "qallupilluit-c01"
+    ]
+  },
+  "alternate_names": [
+    {
+      "name": "Qalupalik",
+      "language": "iu",
+      "name_type": "alias",
+      "claim_ids": [
+        "qallupilluit-c01"
+      ]
+    }
+  ],
+  "jenis": {
+    "value": "makhluk air",
+    "claim_ids": [
+      "qallupilluit-c01"
+    ]
+  },
+  "classification": {
+    "value": "aquatic",
+    "claim_ids": [
+      "qallupilluit-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-inuit",
+    "suggested_new": null,
+    "claim_ids": [
+      "qallupilluit-c01"
+    ]
+  },
+  "region": {
+    "value": "north-america",
+    "claim_ids": [
+      "qallupilluit-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "water",
+      "claim_ids": [
+        "qallupilluit-c01"
+      ]
+    }
+  ],
+  "disposition": {
+    "value": "malevolent",
+    "claim_ids": [
+      "qallupilluit-c01"
+    ]
+  },
+  "traits": [],
+  "short_description": {
+    "id": "Qallupilluit adalah makhluk pantai Arktik dalam mitologi Inuit yang menculik anak-anak yang terlalu dekat dengan air [qallupilluit-c01].",
+    "en": "The Qallupilluit are Arctic shore creatures of Inuit mythology that steal children who stray too near the water [qallupilluit-c01].",
+    "claim_ids": [
+      "qallupilluit-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Qallupilluit atau Qalupalik adalah makhluk yang hidup di pantai Arktik dekat bongkahan es dan menculik anak-anak yang terlalu dekat dengan air [qallupilluit-c01]. Mereka digambarkan berkulit hijau berlendir dan berkuku panjang [qallupilluit-c03], dan mengenakan parka amautik [qallupilluit-c04]. Mitos ini diyakini melindungi anak-anak dari bahaya es laut [qallupilluit-c02].",
+      "en": "The Qallupilluit or Qalupalik live along Arctic shores near ice floes and steal children who come too close [qallupilluit-c01]. They have green, slimy skin and long nails [qallupilluit-c03] and wear an amautik parka [qallupilluit-c04]. The myth is thought to protect children from sea-ice dangers [qallupilluit-c02].",
+      "claim_ids": [
+        "qallupilluit-c01",
+        "qallupilluit-c02",
+        "qallupilluit-c03",
+        "qallupilluit-c04"
+      ]
+    }
+  ],
+  "cultural_context": {
+    "id": "Mitos Qallupilluit berfungsi menjauhkan anak-anak dari es laut yang berbahaya [qallupilluit-c02].",
+    "en": "The myth keeps children away from dangerous sea ice [qallupilluit-c02].",
+    "claim_ids": [
+      "qallupilluit-c02"
+    ]
+  },
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Bagaimana cerita menakutkan bisa melindungi anak-anak?",
+      "en": "How can frightening stories protect children?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "qallupilluit-s1",
+      "url": "https://en.wikipedia.org/wiki/Qallupilluit",
+      "title": "Qallupilluit",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "qallupilluit-c01",
+      "source_id": "qallupilluit-s1",
+      "quote": "In Inuit mythology, the Qallupilluit or Qalupalik are creatures that live along Arctic shorelines near ice floes. They are said to steal children that wander too close to the water.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam mitologi Inuit, Qallupilluit atau Qalupalik adalah makhluk penghuni pantai Arktik dekat bongkahan es yang konon menculik anak-anak yang terlalu dekat dengan air.",
+        "en": "In Inuit mythology, the Qallupilluit or Qalupalik live along Arctic shores near ice floes and steal children who stray too close to the water."
+      }
+    },
+    {
+      "id": "qallupilluit-c02",
+      "source_id": "qallupilluit-s1",
+      "quote": "This myth is believed to serve the purpose of protecting children from a dangerous environment, such as keeping them from playing on hazardous sea ice.",
+      "locator": "Introduction",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Mitos ini diyakini berfungsi melindungi anak-anak dari lingkungan berbahaya, seperti bermain di atas es laut.",
+        "en": "The myth is thought to protect children from dangers such as playing on hazardous sea ice."
+      }
+    },
+    {
+      "id": "qallupilluit-c03",
+      "source_id": "qallupilluit-s1",
+      "quote": "The Qallupilluit is often described as having green, slimy skin, long hair, and long fingernails.",
+      "locator": "Appearance",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Qallupilluit sering digambarkan berkulit hijau berlendir, berambut panjang, dan berkuku panjang.",
+        "en": "It is often described with green, slimy skin, long hair and long fingernails."
+      }
+    },
+    {
+      "id": "qallupilluit-c04",
+      "source_id": "qallupilluit-s1",
+      "quote": "It wears an amautik, an Inuit parka mostly worn by women.",
+      "locator": "Appearance",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia mengenakan amautik, parka Inuit yang kebanyakan dipakai perempuan.",
+        "en": "It wears an amautik, an Inuit parka mostly worn by women."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-145",
+  "slug": "sayona",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Sayona",
+    "native_name": null,
+    "display_name": {
+      "id": "La Sayona",
+      "en": "La Sayona"
+    },
+    "wikidata_qid": "Q7429274",
+    "claim_ids": [
+      "sayona-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "hantu",
+    "claim_ids": [
+      "sayona-c01"
+    ]
+  },
+  "classification": {
+    "value": "spirit",
+    "claim_ids": [
+      "sayona-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-hispanic-south-american",
+    "suggested_new": null,
+    "claim_ids": [
+      "sayona-c01"
+    ]
+  },
+  "region": {
+    "value": "south-america",
+    "claim_ids": [
+      "sayona-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "fields",
+      "claim_ids": [
+        "sayona-c03"
+      ]
+    }
+  ],
+  "disposition": {
+    "value": "malevolent",
+    "claim_ids": [
+      "sayona-c01"
+    ]
+  },
+  "traits": [],
+  "short_description": {
+    "id": "La Sayona adalah arwah pendendam dalam legenda Venezuela yang menampakkan diri kepada laki-laki yang berselingkuh [sayona-c01].",
+    "en": "La Sayona is a vengeful spirit of Venezuelan legend who appears to unfaithful men [sayona-c01].",
+    "claim_ids": [
+      "sayona-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "La Sayona adalah arwah pendendam dalam legenda Venezuela yang hanya muncul kepada laki-laki yang berselingkuh [sayona-c01]. Namanya merujuk pada gaun putih panjang yang dikenakannya [sayona-c02]. Ia meminta tumpangan, dan saat korban melihat wajahnya, yang tampak adalah tengkorak [sayona-c03]. Menurut legenda, ia dulunya perempuan bernama Casilda [sayona-c04].",
+      "en": "La Sayona is a vengeful spirit of Venezuelan legend who appears only to unfaithful men [sayona-c01]. Her name refers to her long white dress [sayona-c02]. She asks for a ride, and when the victim sees her face, it is a skull [sayona-c03]. The legend says she was once a woman named Casilda [sayona-c04].",
+      "claim_ids": [
+        "sayona-c01",
+        "sayona-c02",
+        "sayona-c03",
+        "sayona-c04"
+      ]
+    }
+  ],
+  "cultural_context": {
+    "id": "Legenda La Sayona menjadi peringatan bagi laki-laki yang tidak setia [sayona-c01].",
+    "en": "La Sayona warns unfaithful men [sayona-c01].",
+    "claim_ids": [
+      "sayona-c01"
+    ]
+  },
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa banyak hantu perempuan dalam legenda menghukum laki-laki yang tidak setia?",
+      "en": "Why do many female ghosts punish unfaithful men?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "sayona-s1",
+      "url": "https://en.wikipedia.org/wiki/Sayona",
+      "title": "Sayona",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "sayona-c01",
+      "source_id": "sayona-s1",
+      "quote": "La Sayona is a legend from Venezuela, represented by the vengeful spirit of a woman that shows up only to men that have love affairs out of their marriages.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "La Sayona adalah legenda Venezuela tentang arwah pendendam seorang perempuan yang hanya menampakkan diri kepada laki-laki yang berselingkuh.",
+        "en": "La Sayona is a Venezuelan legend of a vengeful female spirit who appears only to men having affairs."
+      }
+    },
+    {
+      "id": "sayona-c02",
+      "source_id": "sayona-s1",
+      "quote": "The name \"Sayona\" refers to the cloth the ghost wears which is a long white dress similar to a medieval undergarment.",
+      "locator": "Introduction",
+      "context": "etymology",
+      "statement": {
+        "id": "Nama \"Sayona\" merujuk pada pakaian yang dikenakannya, gaun putih panjang seperti pakaian dalam abad pertengahan.",
+        "en": "The name refers to her garment, a long white dress like a medieval undergarment."
+      }
+    },
+    {
+      "id": "sayona-c03",
+      "source_id": "sayona-s1",
+      "quote": "The legend claims that when this woman appears she asks for a ride, and after a while when the victim tries to see her face, he notices that she has instead a skull with horrible teeth.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia muncul meminta tumpangan, dan saat korban mencoba melihat wajahnya, yang tampak adalah tengkorak bergigi mengerikan.",
+        "en": "She asks for a ride, and when the victim looks at her face he sees a skull with horrible teeth."
+      }
+    },
+    {
+      "id": "sayona-c04",
+      "source_id": "sayona-s1",
+      "quote": "The legend says that \"La Sayona\" was a young woman named Casilda.",
+      "locator": "Legend",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Menurut legenda, La Sayona dulunya perempuan muda bernama Casilda.",
+        "en": "The legend says La Sayona was a young woman named Casilda."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-145",
+  "slug": "the-hairy-leg",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "The Hairy Leg",
+    "native_name": null,
+    "display_name": {
+      "id": "Kaki Berbulu (Perna Cabeluda)",
+      "en": "The Hairy Leg"
+    },
+    "wikidata_qid": "Q137004607",
+    "claim_ids": [
+      "the-hairy-leg-c01"
+    ]
+  },
+  "alternate_names": [
+    {
+      "name": "perna cabeluda",
+      "language": "pt",
+      "name_type": "native-script",
+      "claim_ids": [
+        "the-hairy-leg-c01"
+      ]
+    }
+  ],
+  "jenis": {
+    "value": "makhluk legenda",
+    "claim_ids": [
+      "the-hairy-leg-c03"
+    ]
+  },
+  "classification": {
+    "value": "legendary-creature",
+    "claim_ids": [
+      "the-hairy-leg-c03"
+    ]
+  },
+  "culture": {
+    "value": "tradition-brazilian",
+    "suggested_new": null,
+    "claim_ids": [
+      "the-hairy-leg-c01"
+    ]
+  },
+  "region": {
+    "value": "south-america",
+    "claim_ids": [
+      "the-hairy-leg-c01"
+    ]
+  },
+  "countries": null,
+  "era": {
+    "text": {
+      "id": "tahun 1970-an",
+      "en": "1970s"
+    },
+    "claim_ids": [
+      "the-hairy-leg-c02"
+    ]
+  },
+  "habitats": [],
+  "disposition": {
+    "value": "malevolent",
+    "claim_ids": [
+      "the-hairy-leg-c03"
+    ]
+  },
+  "traits": [
+    {
+      "value": "nocturnal",
+      "claim_ids": [
+        "the-hairy-leg-c03"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "The Hairy Leg (perna cabeluda) adalah legenda urban Recife tentang kaki berbulu yang menyerang orang pada malam hari [the-hairy-leg-c01, the-hairy-leg-c03].",
+    "en": "The Hairy Leg (perna cabeluda) is a Recife urban legend of a hairy leg that attacks people at night [the-hairy-leg-c01, the-hairy-leg-c03].",
+    "claim_ids": [
+      "the-hairy-leg-c01",
+      "the-hairy-leg-c03"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "The Hairy Leg adalah legenda urban Brasil dari Recife [the-hairy-leg-c01] tentang kaki manusia berbulu yang menjegal dan menendang orang pada malam hari [the-hairy-leg-c03]. Legenda ini diciptakan surat kabar Diário de Pernambuco pada masa kediktatoran militer untuk menggantikan berita yang disensor [the-hairy-leg-c02]. Film The Secret Agent (2025) menjadikannya unsur utama cerita [the-hairy-leg-c04].",
+      "en": "The Hairy Leg is a Brazilian urban legend from Recife [the-hairy-leg-c01] about a hairy human leg that tackles and kicks people at night [the-hairy-leg-c03]. The Diário de Pernambuco created it under the military dictatorship to stand in for censored news [the-hairy-leg-c02]. The film The Secret Agent (2025) made it central to its story [the-hairy-leg-c04].",
+      "claim_ids": [
+        "the-hairy-leg-c01",
+        "the-hairy-leg-c02",
+        "the-hairy-leg-c03",
+        "the-hairy-leg-c04"
+      ]
+    }
+  ],
+  "cultural_context": {
+    "id": "Legenda ini diciptakan sebuah surat kabar untuk menandai berita yang disensor rezim militer [the-hairy-leg-c02].",
+    "en": "A newspaper invented it to signal material censored by the military regime [the-hairy-leg-c02].",
+    "claim_ids": [
+      "the-hairy-leg-c02"
+    ]
+  },
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [
+    {
+      "title": "The Secret Agent (O Agente Secreto)",
+      "year": 2025,
+      "medium": "film",
+      "description": {
+        "id": "Film yang menjadikan The Hairy Leg unsur utama cerita.",
+        "en": "A film using the Hairy Leg as a central element."
+      },
+      "claim_ids": [
+        "the-hairy-leg-c04"
+      ]
+    }
+  ],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Bagaimana cerita rakyat bisa menjadi alat melawan sensor?",
+      "en": "How can folklore be a tool against censorship?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "the-hairy-leg-s1",
+      "url": "https://en.wikipedia.org/wiki/The_Hairy_Leg",
+      "title": "The Hairy Leg",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "the-hairy-leg-c01",
+      "source_id": "the-hairy-leg-s1",
+      "quote": "The Hairy Leg (Portuguese: perna cabeluda) is a Brazilian urban legend that originated in the city of Recife.",
+      "locator": "Introduction",
+      "context": "modern-popular-culture",
+      "statement": {
+        "id": "The Hairy Leg (bahasa Portugis: perna cabeluda) adalah legenda urban Brasil yang berasal dari kota Recife.",
+        "en": "The Hairy Leg (Portuguese: perna cabeluda) is a Brazilian urban legend from Recife."
+      }
+    },
+    {
+      "id": "the-hairy-leg-c02",
+      "source_id": "the-hairy-leg-s1",
+      "quote": "It was conceived by the newspaper Diário de Pernambuco during the Brazilian military dictatorship in the 1970s. The newspaper used fictional narratives about the Leg to replace and signal material that had been censored by the regime.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Legenda ini diciptakan surat kabar Diário de Pernambuco pada masa kediktatoran militer Brasil tahun 1970-an untuk menggantikan dan menandai berita yang disensor.",
+        "en": "It was created by the Diário de Pernambuco in the 1970s military dictatorship to replace and signal censored material."
+      }
+    },
+    {
+      "id": "the-hairy-leg-c03",
+      "source_id": "the-hairy-leg-s1",
+      "quote": "The creature is described as a hairy human leg that attacks people at night by tackling and kicking them.",
+      "locator": "Introduction",
+      "context": "modern-popular-culture",
+      "statement": {
+        "id": "Makhluk ini digambarkan sebagai kaki manusia berbulu yang menyerang orang pada malam hari dengan menjegal dan menendang.",
+        "en": "It is described as a hairy human leg that attacks people at night by tackling and kicking them."
+      }
+    },
+    {
+      "id": "the-hairy-leg-c04",
+      "source_id": "the-hairy-leg-s1",
+      "quote": "The film The Secret Agent (2025) (Portuguese: O Agente Secreto) incorporated it as a central element of its narrative.",
+      "locator": "Introduction",
+      "context": "modern-popular-culture",
+      "statement": {
+        "id": "Film The Secret Agent (2025) menjadikannya unsur utama ceritanya.",
+        "en": "The film The Secret Agent (2025) made it a central element of its story."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-145",
+  "slug": "ti-malice-and-bouki",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Ti Malice and Bouki",
+    "native_name": null,
+    "display_name": {
+      "id": "Ti Malice dan Bouki",
+      "en": "Ti Malice dan Bouki"
+    },
+    "wikidata_qid": "Q2922225",
+    "claim_ids": [
+      "ti-malice-and-bouki-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "tokoh legenda",
+    "claim_ids": [
+      "ti-malice-and-bouki-c01"
+    ]
+  },
+  "classification": {
+    "value": "trickster",
+    "claim_ids": [
+      "ti-malice-and-bouki-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-caribbean",
+    "suggested_new": null,
+    "claim_ids": [
+      "ti-malice-and-bouki-c01"
+    ]
+  },
+  "region": {
+    "value": "central-america",
+    "claim_ids": [
+      "ti-malice-and-bouki-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": {
+    "value": "trickster",
+    "claim_ids": [
+      "ti-malice-and-bouki-c01"
+    ]
+  },
+  "traits": [
+    {
+      "value": "trickster",
+      "claim_ids": [
+        "ti-malice-and-bouki-c01"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "Ti Malice dan Bouki adalah pasangan tokoh cerita rakyat Haiti: Ti Malice si penipu cerdas dan Paman Bouki yang serakah [ti-malice-and-bouki-c01, ti-malice-and-bouki-c02].",
+    "en": "Ti Malice and Bouki are a pair of Haitian folklore characters: clever trickster Ti Malice and greedy Uncle Bouki [ti-malice-and-bouki-c01, ti-malice-and-bouki-c02].",
+    "claim_ids": [
+      "ti-malice-and-bouki-c01",
+      "ti-malice-and-bouki-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Ti Malice adalah tokoh penipu dan musuh Paman Bouki dalam cerita rakyat Haiti [ti-malice-and-bouki-c01]; Ti Malice cerdas dan licik, sedangkan Bouki pekerja keras tetapi serakah [ti-malice-and-bouki-c02]. Di Senegal, Bouki adalah hiena dan Malice kelinci bernama Leuk [ti-malice-and-bouki-c03].",
+      "en": "Ti Malice is a trickster and Uncle Bouki's nemesis in Haitian folklore [ti-malice-and-bouki-c01]; Ti Malice is clever and guileful, Bouki hardworking but greedy [ti-malice-and-bouki-c02]. In Senegal, Bouki is a hyena and Malice a hare called Leuk [ti-malice-and-bouki-c03].",
+      "claim_ids": [
+        "ti-malice-and-bouki-c01",
+        "ti-malice-and-bouki-c02",
+        "ti-malice-and-bouki-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [
+    {
+      "name": "Bouki dan Leuk",
+      "tradition": {
+        "id": "Senegal",
+        "en": "Senegal"
+      },
+      "description": {
+        "id": "Bouki sebagai hiena dan Malice sebagai kelinci bernama Leuk.",
+        "en": "Bouki as a hyena and Malice as a hare named Leuk."
+      },
+      "claim_ids": [
+        "ti-malice-and-bouki-c03"
+      ]
+    }
+  ],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa yang diajarkan kisah penipu cerdas melawan tokoh serakah?",
+      "en": "What do clever-trickster-versus-greed tales teach?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "ti-malice-and-bouki-s1",
+      "url": "https://en.wikipedia.org/wiki/Ti_Malice_and_Bouki",
+      "title": "Ti Malice and Bouki",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "ti-malice-and-bouki-c01",
+      "source_id": "ti-malice-and-bouki-s1",
+      "quote": "Ti Malice is a trickster character and nemesis of Tonton (Uncle) Bouki in Haitian folklore.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ti Malice adalah tokoh penipu dan musuh bebuyutan Tonton (Paman) Bouki dalam cerita rakyat Haiti.",
+        "en": "Ti Malice is a trickster and the nemesis of Tonton (Uncle) Bouki in Haitian folklore."
+      }
+    },
+    {
+      "id": "ti-malice-and-bouki-c02",
+      "source_id": "ti-malice-and-bouki-s1",
+      "quote": "While Ti Malice is smart and guileful, Uncle Bouki is hardworking but is also very greedy.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ti Malice cerdas dan licik, sedangkan Paman Bouki pekerja keras tetapi sangat serakah.",
+        "en": "Ti Malice is clever and guileful, while Uncle Bouki is hardworking but very greedy."
+      }
+    },
+    {
+      "id": "ti-malice-and-bouki-c03",
+      "source_id": "ti-malice-and-bouki-s1",
+      "quote": "Bouki is represented as a hyena, which is called \"Bouki\" in the Fulani and Wolof languages, while Malice is a hare called \"Leuk\" in Senegal.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Di Senegal, Bouki digambarkan sebagai hiena dan Malice sebagai kelinci yang disebut \"Leuk\".",
+        "en": "In Senegal, Bouki is a hyena and Malice a hare called \"Leuk\"."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-145",
+  "slug": "tunda",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Tunda",
+    "native_name": null,
+    "display_name": {
+      "id": "La Tunda",
+      "en": "La Tunda"
+    },
+    "wikidata_qid": "Q4251673",
+    "claim_ids": [
+      "tunda-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "pengubah wujud",
+    "claim_ids": [
+      "tunda-c01"
+    ]
+  },
+  "classification": {
+    "value": "shapeshifter",
+    "claim_ids": [
+      "tunda-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-hispanic-south-american",
+    "suggested_new": null,
+    "claim_ids": [
+      "tunda-c01"
+    ]
+  },
+  "region": {
+    "value": "south-america",
+    "claim_ids": [
+      "tunda-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "forest",
+      "claim_ids": [
+        "tunda-c01"
+      ]
+    }
+  ],
+  "disposition": {
+    "value": "malevolent",
+    "claim_ids": [
+      "tunda-c01"
+    ]
+  },
+  "traits": [
+    {
+      "value": "shapeshifter",
+      "claim_ids": [
+        "tunda-c02"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "La Tunda adalah makhluk pengubah wujud dari pesisir Pasifik Kolombia dan Ekuador yang memikat orang ke hutan dan menjebak mereka [tunda-c01].",
+    "en": "La Tunda is a shapeshifter of the Pacific coast of Colombia and Ecuador who lures people into the forest and traps them [tunda-c01].",
+    "claim_ids": [
+      "tunda-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "La Tunda adalah mitos pesisir Pasifik Kolombia dan Ekuador, terutama di komunitas Afro-Kolombia Chocó, tentang makhluk mirip perempuan yang memikat orang ke hutan [tunda-c01]. Ia menyamar sebagai orang tercinta dan memberi korban udang agar jinak [tunda-c02], tetapi penyamarannya tidak sempurna karena selalu berkaki kayu berbentuk molinillo [tunda-c03].",
+      "en": "La Tunda is a myth of the Pacific coast of Colombia and Ecuador, especially Afro-Colombian Chocó, about a woman-like being who lures people into the forest [tunda-c01]. She disguises herself as a loved one and feeds victims shrimp to keep them docile [tunda-c02], but her disguise is imperfect: she always has a molinillo-shaped wooden leg [tunda-c03].",
+      "claim_ids": [
+        "tunda-c01",
+        "tunda-c02",
+        "tunda-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [
+    {
+      "ability_id": "shapeshifting",
+      "name": {
+        "id": "Menyamar",
+        "en": "Disguise"
+      },
+      "description": {
+        "id": "Menyamar sebagai orang tercinta, seperti ibu seorang anak.",
+        "en": "Takes the form of a loved one, such as a child's mother."
+      },
+      "claim_ids": [
+        "tunda-c02"
+      ]
+    }
+  ],
+  "weaknesses": [
+    {
+      "name": {
+        "id": "Kaki kayu",
+        "en": "Wooden leg"
+      },
+      "description": {
+        "id": "Penyamarannya selalu terbongkar oleh kaki kayu berbentuk molinillo.",
+        "en": "Her disguise always betrays a molinillo-shaped wooden leg."
+      },
+      "claim_ids": [
+        "tunda-c03"
+      ]
+    }
+  ],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa makhluk penyamar sering punya satu tanda yang membongkar kedoknya?",
+      "en": "Why do disguised beings often have one telltale flaw?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "tunda-s1",
+      "url": "https://en.wikipedia.org/wiki/Tunda",
+      "title": "Tunda",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "tunda-c01",
+      "source_id": "tunda-s1",
+      "quote": "is a myth from the Pacific coastal region of Colombia and Ecuador, and particularly in the Afro-Colombian community of the Chocó department, about a shapeshifting entity resembling a human woman that lures people into the forests and traps them never to seen again.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "La Tunda adalah mitos pesisir Pasifik Kolombia dan Ekuador, terutama di komunitas Afro-Kolombia Chocó, tentang makhluk pengubah wujud mirip perempuan yang memikat orang ke hutan dan menjebak mereka selamanya.",
+        "en": "La Tunda is a myth of the Pacific coast of Colombia and Ecuador, especially the Afro-Colombian community of Chocó, about a shapeshifting woman-like being who lures people into the forest and traps them forever."
+      }
+    },
+    {
+      "id": "tunda-c02",
+      "source_id": "tunda-s1",
+      "quote": "The Tunda is described as being capable of changing its shape to appear in the form of a loved one, such as in the likeness of a child's mother, to lure its victims into the forest and feed them with shrimp (camarones peneídos) to keep them docile.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Tunda dapat menyamar sebagai orang tercinta, misalnya ibu seorang anak, untuk memikat korban ke hutan dan memberi mereka udang agar tetap jinak.",
+        "en": "The Tunda can take the form of a loved one, such as a child's mother, to lure victims into the forest and feed them shrimp to keep them docile."
+      }
+    },
+    {
+      "id": "tunda-c03",
+      "source_id": "tunda-s1",
+      "quote": "Her shapeshifting abilities are said to be imperfect, as this doppelgänger of sorts would always have a wooden leg in the shape of a molinillo",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Kemampuannya menyamar tidak sempurna: ia selalu berkaki kayu berbentuk molinillo (alat pengaduk).",
+        "en": "Her disguise is imperfect: she always has a wooden leg shaped like a molinillo (a stirring utensil)."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-145",
+  "slug": "two-toed-tom",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Two-Toed Tom",
+    "native_name": null,
+    "display_name": {
+      "id": "Two-Toed Tom",
+      "en": "Two-Toed Tom"
+    },
+    "wikidata_qid": "Q4501938",
+    "claim_ids": [
+      "two-toed-tom-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "kriptid",
+    "claim_ids": [
+      "two-toed-tom-c01"
+    ]
+  },
+  "classification": {
+    "value": "cryptid",
+    "claim_ids": [
+      "two-toed-tom-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-american",
+    "suggested_new": null,
+    "claim_ids": [
+      "two-toed-tom-c01"
+    ]
+  },
+  "region": {
+    "value": "north-america",
+    "claim_ids": [
+      "two-toed-tom-c01"
+    ]
+  },
+  "countries": {
+    "value": [
+      "United States"
+    ],
+    "claim_ids": [
+      "two-toed-tom-c01"
+    ]
+  },
+  "era": null,
+  "habitats": [
+    {
+      "value": "water",
+      "claim_ids": [
+        "two-toed-tom-c01"
+      ]
+    }
+  ],
+  "disposition": {
+    "value": "malevolent",
+    "claim_ids": [
+      "two-toed-tom-c01"
+    ]
+  },
+  "traits": [],
+  "short_description": {
+    "id": "Two-Toed Tom adalah buaya aligator legendaris yang meneror penghuni rawa di Florida dan Alabama [two-toed-tom-c01, two-toed-tom-c02].",
+    "en": "Two-Toed Tom is a legendary alligator that terrorized swamp residents in Florida and Alabama [two-toed-tom-c01, two-toed-tom-c02].",
+    "claim_ids": [
+      "two-toed-tom-c01",
+      "two-toed-tom-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Two-Toed Tom adalah kriptid legendaris yang meneror penghuni rawa di Florida dan Alabama [two-toed-tom-c01]. Namanya berasal dari buaya aligator yang kehilangan hampir semua jari kakinya akibat perangkap baja [two-toed-tom-c02]. Salah satu catatan tertulis tertuanya ada dalam buku Stars Fell on Alabama (1934) [two-toed-tom-c03].",
+      "en": "Two-Toed Tom is a legendary cryptid that terrorized swamp residents in Florida and Alabama [two-toed-tom-c01]. The name comes from an alligator that lost nearly all its toes to a steel trap [two-toed-tom-c02]. One of its earliest written accounts is in Stars Fell on Alabama (1934) [two-toed-tom-c03].",
+      "claim_ids": [
+        "two-toed-tom-c01",
+        "two-toed-tom-c02",
+        "two-toed-tom-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [
+    {
+      "title": "Stars Fell on Alabama",
+      "year": 1934,
+      "medium": "literature",
+      "description": {
+        "id": "Buku Carl Carmer yang memuat salah satu catatan tertua tentang Two-Toed Tom.",
+        "en": "Carl Carmer's book with one of the earliest accounts."
+      },
+      "claim_ids": [
+        "two-toed-tom-c03"
+      ]
+    }
+  ],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Bagaimana hewan nyata bisa berkembang menjadi legenda?",
+      "en": "How can a real animal grow into a legend?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "two-toed-tom-s1",
+      "url": "https://en.wikipedia.org/wiki/Two-Toed_Tom",
+      "title": "Two-Toed Tom",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "two-toed-tom-c01",
+      "source_id": "two-toed-tom-s1",
+      "quote": "Two-Toed Tom is a legendary cryptid in the Southern United States who terrorized swamp residents in Florida and Alabama.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Two-Toed Tom adalah kriptid legendaris di Amerika Serikat bagian selatan yang meneror penghuni rawa di Florida dan Alabama.",
+        "en": "Two-Toed Tom is a legendary cryptid of the Southern United States that terrorized swamp residents in Florida and Alabama."
+      }
+    },
+    {
+      "id": "two-toed-tom-c02",
+      "source_id": "two-toed-tom-s1",
+      "quote": "The name originates from the legendary alligator having lost all but two toes on one or more feet to a steel trap.",
+      "locator": "Introduction",
+      "context": "etymology",
+      "statement": {
+        "id": "Namanya berasal dari buaya aligator legendaris yang kehilangan jari-jarinya kecuali dua pada satu kaki atau lebih akibat perangkap baja.",
+        "en": "The name comes from the legendary alligator losing all but two toes on one or more feet to a steel trap."
+      }
+    },
+    {
+      "id": "two-toed-tom-c03",
+      "source_id": "two-toed-tom-s1",
+      "quote": "One of the earliest written accounts can be traced to the 1934 book Stars Fell on Alabama, by Carl Carmer.",
+      "locator": "Origins",
+      "context": "historical-record",
+      "statement": {
+        "id": "Salah satu catatan tertulis tertuanya ada dalam buku Stars Fell on Alabama (1934) karya Carl Carmer.",
+        "en": "One of the earliest written accounts is in Carl Carmer's 1934 book Stars Fell on Alabama."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-145",
+  "slug": "wayob",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Wayob",
+    "native_name": null,
+    "display_name": {
+      "id": "Wayob",
+      "en": "Wayob"
+    },
+    "wikidata_qid": "Q7976838",
+    "claim_ids": [
+      "wayob-c01"
+    ]
+  },
+  "alternate_names": [
+    {
+      "name": "way",
+      "language": "yua",
+      "name_type": "alias",
+      "claim_ids": [
+        "wayob-c01"
+      ]
+    },
+    {
+      "name": "uay",
+      "language": "yua",
+      "name_type": "alias",
+      "claim_ids": [
+        "wayob-c01"
+      ]
+    }
+  ],
+  "jenis": {
+    "value": "pengubah wujud",
+    "claim_ids": [
+      "wayob-c01"
+    ]
+  },
+  "classification": {
+    "value": "shapeshifter",
+    "claim_ids": [
+      "wayob-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-maya",
+    "suggested_new": null,
+    "claim_ids": [
+      "wayob-c01"
+    ]
+  },
+  "region": {
+    "value": "central-america",
+    "claim_ids": [
+      "wayob-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": {
+    "value": "malevolent",
+    "claim_ids": [
+      "wayob-c01"
+    ]
+  },
+  "traits": [
+    {
+      "value": "shapeshifter",
+      "claim_ids": [
+        "wayob-c01"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "Wayob adalah sebutan Maya bagi orang yang berubah menjadi hewan saat tidur untuk berbuat jahat, atau wujud hewannya [wayob-c01].",
+    "en": "Wayob is the Maya term for people who turn into animals while asleep to do harm, or those animal forms [wayob-c01].",
+    "claim_ids": [
+      "wayob-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Wayob adalah bentuk jamak dari way, kata Maya yang berarti \"tidur\"; dalam bahasa Maya Yukatek, istilah ini menyebut nagual yang berubah menjadi hewan saat tidur untuk berbuat jahat [wayob-c01]. Hewan way sudah penting dalam kepercayaan Maya Klasik dan ditandai hieroglif khusus [wayob-c02]. Wujudnya biasanya hewan peliharaan, tetapi bisa juga hantu [wayob-c03].",
+      "en": "Wayob is the plural of way, a Maya word for \"sleep\"; in Yucatec Maya it denotes the nagual who turns into an animal while asleep to do harm [wayob-c01]. Way animals were already important in Classic Maya belief, marked by a special hieroglyph [wayob-c02]. The form is usually a domestic animal, but may be a ghost [wayob-c03].",
+      "claim_ids": [
+        "wayob-c01",
+        "wayob-c02",
+        "wayob-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": {
+    "original_form": "way / uay",
+    "language": "Yucatec Maya",
+    "literal_meaning": {
+      "id": "tidur",
+      "en": "sleep(ing)"
+    },
+    "claim_ids": [
+      "wayob-c01"
+    ]
+  },
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [
+    {
+      "ability_id": "shapeshifting",
+      "name": {
+        "id": "Berubah menjadi hewan",
+        "en": "Animal transformation"
+      },
+      "description": {
+        "id": "Berubah menjadi hewan saat tidur untuk berbuat jahat.",
+        "en": "Turns into an animal while asleep to do harm."
+      },
+      "claim_ids": [
+        "wayob-c01"
+      ]
+    }
+  ],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Nagual",
+      "relation_type": "type-of",
+      "note": {
+        "id": "Dalam bahasa Maya Yukatek, wayob adalah sebutan untuk nagual.",
+        "en": "In Yucatec Maya, wayob denotes the nagual."
+      },
+      "claim_ids": [
+        "wayob-c01"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa hubungan mimpi dan tidur dengan kepercayaan tentang pengubah wujud?",
+      "en": "How do sleep and dreams relate to shapeshifter beliefs?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "wayob-s1",
+      "url": "https://en.wikipedia.org/wiki/Wayob",
+      "title": "Wayob",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "wayob-c01",
+      "source_id": "wayob-s1",
+      "quote": "Wayob is the plural form of way (or uay), a Maya word with a basic meaning of 'sleep(ing)', but which in Yucatec Maya is a term specifically denoting the Mesoamerican nagual, that is, a person who can transform into an animal while asleep in order to do harm, or else the resulting animal transformation itself.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Wayob adalah bentuk jamak dari way (uay), kata Maya yang berarti \"tidur\"; dalam bahasa Maya Yukatek, istilah ini menyebut nagual, orang yang berubah menjadi hewan saat tidur untuk berbuat jahat, atau wujud hewannya itu sendiri.",
+        "en": "Wayob is the plural of way (uay), a Maya word meaning 'sleep(ing)'; in Yucatec Maya it denotes the nagual, a person who turns into an animal while asleep to do harm, or that animal form itself."
+      }
+    },
+    {
+      "id": "wayob-c02",
+      "source_id": "wayob-s1",
+      "quote": "Already in Classic Maya belief, way animals, identifiable by a special hieroglyph, had an important role to play.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Dalam kepercayaan Maya Klasik, hewan way yang dikenali lewat hieroglif khusus sudah berperan penting.",
+        "en": "Already in Classic Maya belief, way animals, marked by a special hieroglyph, played an important role."
+      }
+    },
+    {
+      "id": "wayob-c03",
+      "source_id": "wayob-s1",
+      "quote": "In Yucatec ethnography, the animal transformation involved is usually a common domestic or domesticated animal, but may also be a ghost or apparition",
+      "locator": "In Maya ethnography",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam etnografi Yukatek, wujud hewannya biasanya hewan peliharaan biasa, tetapi bisa juga hantu atau penampakan.",
+        "en": "In Yucatec ethnography the animal form is usually a common domestic animal, but may be a ghost or apparition."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
