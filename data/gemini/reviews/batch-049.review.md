@@ -1,8 +1,8 @@
 # Review batch-049
 
-Diperiksa 2026-09-30T03:44:47.290Z. Berkas: batch-049.md.
+Diperiksa 2026-09-30T03:57:52.446Z. Berkas: batch-049.md.
 
-**Belum dikirim:** hachiman, yurei, benzaiten, yamata-no-orochi, bakeneko, onryo, rokurokubi, ebisu, japanese-dragon, kodama-spirit, namazu, nekomata, ninigi, tsukumogami, yama-uba, amabie, hoori, bake-danuki, ukemochi, fujin, okuninushi, shikigami, tsuchinoko, akaname, hitodama, ikiryo, inugami, ryujin, swan-maiden, abura-sumashi, obake, zashiki-warashi, amanojaku, sojobo, toyotama-hime, tsuchigumo, ubume, ugayafukiaezu, ushi-oni
+**Belum dikirim:** rokurokubi, ebisu, japanese-dragon, kodama-spirit, namazu, nekomata, ninigi, tsukumogami, yama-uba, amabie, hoori, bake-danuki, ukemochi, fujin, okuninushi, shikigami, tsuchinoko, akaname, hitodama, ikiryo, inugami, ryujin, swan-maiden, abura-sumashi, obake, zashiki-warashi, amanojaku, sojobo, toyotama-hime, tsuchigumo, ubume, ugayafukiaezu, ushi-oni
 
 ## susanoo — lulus-otomatis
 
@@ -162,4 +162,105 @@ Klaim 8 (exact 8), sumber 3, gambar 0.
 | ame-no-uzume-c06 | exact | d-museum.kokugakuin.ac.jp | Uzume was sent to meet and identify Sarutahiko. | sent her to confront and ascertain the identity of the kami Sarutahiko |
 | ame-no-uzume-c07 | exact | www.kamigamojinja.jp | Ota Shrine is dedicated to Ame no Uzume. | Ota Jinja Shrine is located approximately 800 meters to the east of Kamigamo Jinja grounds and is dedicated to Ame no Uzume no Mikoto |
 | ame-no-uzume-c08 | exact | www.kamigamojinja.jp | Ame no Uzume is worshiped as a deity associated with artistic skill. | Ame no Uzume no Mikoto is primarily worshipped as a deity that helps improve artistic skills. |
+
+
+## hachiman — lulus-otomatis
+
+Klaim 7 (exact 7), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| hachiman-c01 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Hachiman is one of the principal Shinto kami. | Hachiman, one of the principal Shintō deities (kami) |
+| hachiman-c02 | exact | d-museum.kokugakuin.ac.jp | The military class historically worshiped Hachiman as a war deity in Japan. | Historically worshiped by the military class as a god of war, Hachiman is now the object of deep devotion for many people in Japan. |
+| hachiman-c03 | exact | d-museum.kokugakuin.ac.jp | Hachiman is associated with deified Emperor Ōjin, Jingū, and Himegami, first enshrined at Usa Hachimangū and later at many Japanese shrines. | Generally refers to the deified Emperor Ôjin together with his mother Empress Jingû and his wife Himegami. They were first enshrined in the Usa Hachimangû in Oita Prefecture and later in many Hachiman shrines throughout Japan. |
+| hachiman-c04 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Hachiman was among the early indigenous gods assimilated into the Buddhist pantheon in Japan. | was among the first indigenous gods assimilated into the Buddhist pantheon in Japan. |
+| hachiman-c05 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Hachiman received the Buddhist title Daibosatsu. | By the late eighth century he was officially accorded the Buddhist title Daibosatsu (Great Bodhisattva). |
+| hachiman-c06 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Hachiman was a particular patron of the Minamoto clan. | as the particular patron of the Minamoto clan, founders of the first shogunate |
+| hachiman-c07 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Hachiman was regarded as protector of the state in conflict and personal protector of samurai. | Hachiman was considered the protector of the state in times of strife and was revered as a personal protector by individual samurai of all ranks. |
+
+
+## yurei — lulus-otomatis
+
+Klaim 9 (exact 9), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| yurei-c01 | exact | bakemono.lib.byu.edu | Yūrei is the spirit of a deceased person. | Generally speaking, a yūrei is the spirit of a person who has died, usually appearing as they did in life. |
+| yurei-c02 | exact | www.nippon.com | The meaning of the Japanese word yūrei changed over the centuries. | The Japanese word yūrei conjures up an image today of a spiteful ghost, but its meaning has changed considerably over the centuries. |
+| yurei-c03 | exact | bakemono.lib.byu.edu | Yūrei may remain in the human world for personal reasons or insufficient funeral rites. | Yūrei refers to the spirits of humans who do not cross over to the other side and remain in the human world for personal reasons or because the funeral or burial rites were not sufficient or satisfactory. |
+| yurei-c04 | exact | bakemono.lib.byu.edu | In art and literature yūrei are often shown as long-haired women in burial clothes, with dangling hands and no feet. | The typical yūrei, as depicted in art and literature, is described as a woman with long, disheveled black hair obstructing the face, wearing burial clothing, with curved dangling hands and no feet. |
+| yurei-c05 | exact | www.nippon.com | In ancient and medieval Japan, yūrei usually meant souls of the dead who neither appeared nor cursed. | In ancient and medieval Japan, when there was considerable “commerce” between the people of this world and spirits, the word yūrei typically referred to the souls of the dead, who neither showed themselves nor enacted curses. |
+| yurei-c06 | exact | www.nippon.com | Around the fifteenth century, yūrei began to mean resentful spirits. | Around the fifteenth century, the word yūrei began to shift from describing the souls of the memorialized dead to represent spirits harboring a grudge. |
+| yurei-c07 | exact | www.nippon.com | In the Edo period, people believed a bad relationship in life could lead to revenge after death. | In the Edo period (1603–1868), there was a belief that a bad relationship with someone in life could lead to that person taking revenge after death. |
+| yurei-c08 | exact | www.nippon.com | In the later Edo period, yūrei appeared in kabuki and inspired ukiyo-e artists. | In the later Edo period, it was common for yūrei to appear in kabuki, providing inspiration for ukiyo-e artists. |
+| yurei-c09 | exact | www.nippon.com | In the Edo period, ghost stories became popular and artists painted yūrei. | there was a craze for kaidan (ghost stories) and many artists painted pictures of yūrei. |
+
+
+## benzaiten — lulus-otomatis
+
+Klaim 8 (exact 8), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| benzaiten-c01 | exact | d-museum.kokugakuin.ac.jp | Benzaiten derives from the Indian water goddess Sarasvatī and in Japan is a patron of music and eloquence. | Benzaiten was originally the Indian goddess of water, Sarasvatī, and is known in Japan as a patron tutelary of music and eloquence (wisdom). |
+| benzaiten-c02 | exact | www.mlit.go.jp | Benzaiten derives from Saraswati and was adopted into Shinto and Buddhist pantheons. | Benzaiten originated from the Hindu goddess Saraswati, and has been adopted into the pantheons of both Shinto and Buddhism. |
+| benzaiten-c03 | exact | d-museum.kokugakuin.ac.jp | Benzaiten is among the Seven Gods of Good Fortune. | "Seven deities of good fortune," seven deities reputed to bring good luck. Most commonly, the seven include Ebisu, Daikoku, Bishamonten, Fukurokuju, Jurōjin, Benzaiten, and Hōtei |
+| benzaiten-c04 | exact | d-museum.kokugakuin.ac.jp | The grouping of seven fortune deities is believed to have begun in Japan’s Muromachi period. | The cult of seven deities of good fortune is believed to have originated in Japan's Muromachi period |
+| benzaiten-c05 | exact | d-museum.kokugakuin.ac.jp | Ugajin merged with Benzaiten as Uga Benten. | Fused with the Buddhist deity Benzaiten, the kami became known as Uga Benten |
+| benzaiten-c06 | exact | d-museum.kokugakuin.ac.jp | Uga Benten is portrayed as a heavenly woman with eight arms. | Their contents depict the deity in the form of a heavenly woman with eight arms |
+| benzaiten-c07 | exact | d-museum.kokugakuin.ac.jp | A white snake with an elderly human face rests on her head. | A white snake with the face of an elderly human rests on her head |
+| benzaiten-c08 | exact | d-museum.kokugakuin.ac.jp | Uga Benten differs from other sutra depictions; worship spread from Chikubujima to Itsukushima, Enoshima, and Tenkawa. | These depictions differ greatly from the conventional portrait of Benzaiten found in the sutras Dainichikyō and Saishōō-kyō, and reflect a unique development of the Benten cult in Japan. From Ōmi Chikubujima near Mt. Hiei, the cult of Uga Benzaiten spread throughout Japan, including Itsukushima in Aki, Enoshima in Sagami, and Tenkawa in Kii |
+
+
+## yamata-no-orochi — lulus-otomatis
+
+Klaim 9 (exact 8, loose 1), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| yamata-no-orochi-c01 | exact | d-museum.kokugakuin.ac.jp | Yamata no Orochi is a great serpent whose name means eight-forked snake. | A great serpent (the name means "eight-forked-snake") |
+| yamata-no-orochi-c02 | exact | www.kokugakuin.ac.jp | Yamata no Orochi is a mythological monster of Japan described in the Kojiki as an eight-headed, eight-tailed serpent. | The Yamata-no-Orochi is perhaps the most frightening of all Japan’s many mythological monsters. According to the Kojiki, this fearsome serpent had eight heads and eight tails |
+| yamata-no-orochi-c03 | exact | d-museum.kokugakuin.ac.jp | The serpent has eight heads and tails, red eyes, and spans eight peaks and valleys. | a huge snake, with eight heads and eight tails, eyes red like a Chinese lantern plant, and a length that spanned eight peaks and eight valleys. |
+| yamata-no-orochi-c04 | exact | izumooyashiro.or.jp | Orochi ate the couple’s other daughters and would return for Kushinada-hime. | an eight-headed, eight-tailed serpent known as the Yamata no Orochi had eaten all their other daughters and would shortly return for Kushinada-hime. |
+| yamata-no-orochi-c05 | exact | d-museum.kokugakuin.ac.jp | Susanoo made the serpent drunk on rice wine and killed it. | Susanoo made the serpent drunk on rice wine and then killed it. |
+| yamata-no-orochi-c06 | loose | d-museum.kokugakuin.ac.jp | Susanoo found Kusanagi in the serpent’s tail and presented it to Amaterasu. | From within the serpent's tail Susanoo discovered the sword called Kusanagi ("Grass Mower"), and he presented this sword to Amaterasu . |
+| yamata-no-orochi-c07 | exact | izumooyashiro.or.jp | The sword later became one of the three imperial regalia. | This sword would later become one of the three imperial regalia. |
+| yamata-no-orochi-c08 | exact | d-museum.kokugakuin.ac.jp | One interpretation reads Orochi as the Hii River and its defeat as taming the river for irrigation. | The snake Yamata no orochi has been similarly interpreted as the Hii River itself, and the defeat of the snake is thus understood as a description of the taming of the river for irrigation. |
+| yamata-no-orochi-c09 | exact | d-museum.kokugakuin.ac.jp | Susanoo descended to the headwaters of the Hi River in Izumo Province. | at the headwaters of the Hi River in Izumo Province |
+
+
+## bakeneko — lulus-otomatis
+
+Klaim 11 (exact 11), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| bakeneko-c01 | exact | www.japanesestudies.org.uk | Some traditions believed cats could become yōkai as they aged. | It was believed that some cats—especially ones with long tails—turned into yokai, or supernatural creatures, at age twelve. |
+| bakeneko-c02 | exact | www.japanesestudies.org.uk | In some accounts, the cat stands on its hind legs and speaks. | The cat’s tail would then split into two, the cat would stand erect on its hind legs, and speak. |
+| bakeneko-c03 | exact | www.japanesestudies.org.uk | In some stories bakeneko can assume human form. | In some cases, it would actually assume human form, but all bake-neko were consistent with the idea that animal forms were impermanent |
+| bakeneko-c04 | exact | www.japanesestudies.org.uk | The literal meaning of bake-neko is changed cat. | Indeed, the literal translation of bake-neko, 化け猫, is “changed cat.” |
+| bakeneko-c05 | exact | www.nippon.com | The idea of monstrous cats was especially popular in the Edo period. | The idea of monstrous cats was particularly popular in the Edo Period (1603–1868). |
+| bakeneko-c06 | exact | www.nippon.com | In a Sado Island legend, an old woman becomes a bakeneko and flies to Mount Yahiko. | One day, when she was rolling around in the sand playing with a cat, she turned into a bakeneko, or monster cat, and flew off toward Mount Yahiko. |
+| bakeneko-c07 | exact | www.nippon.com | The legend’s link to Myōtara-ten is not an official Hōkōin temple tradition. | This is not an official tradition, though, and Myōtara-ten worship at Hōkōin temple has no connection with cats. |
+| bakeneko-c08 | exact | pdxscholar.library.pdx.edu | Bakeneko belong to Japanese supernatural lore. | And in Japan there are bakeneko. |
+| bakeneko-c09 | exact | www.nippon.com | Cats seen standing and licking lantern oil may have inspired fear in the Edo period. | In the Edo period, people used fish oil in lanterns, and the sight of cats standing on their back legs in the dark licking the oil off of lanterns likely caused some fear, as well. |
+| bakeneko-c10 | exact | www.nippon.com | The legend tells of an old woman on Sado Island who loved cats. | there was once an old woman on Sado Island who loved cats. |
+| bakeneko-c11 | exact | www.nippon.com | In the legend people later worshiped the old woman as Myōtara-ten. | In the end, people began worshipping the old woman as Myōtara-ten because the character for cat can be pronounced myō, as well. |
+
+
+## onryo — lulus-otomatis
+
+Klaim 9 (exact 9), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| onryo-c01 | exact | www.kokugakuin.ac.jp | In ancient Japan, onryō were spirits of the resentful dead believed to cast curses. | In ancient Japan, the spirits of the dead who died with resentment, called goryō 御霊 or onryō 怨霊, were thought to cast curses. |
+| onryo-c02 | exact | www.nippon.com | Onryō were feared as causes of plague and disasters and were pacified. | Spirits thought to cause plague, natural disaster, or other such large-scale calamities were feared as onryō, and people tried to console and pacify them. |
+| onryo-c03 | exact | www.kokugakuin.ac.jp | Rites for resentful spirits sought to appease them and avoid curses. | involve the fear of spirits of those who met untimely deaths and attempt to appease them to avoid curses and ensure peace. |
+| onryo-c04 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Michizane was a scholar and statesman who died in exile. | Michizane was a distinguished scholar, poet, and statesman who died in exile, having been slandered by enemies at court. |
+| onryo-c05 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | In legend disasters and plagues followed his death; he was pardoned and promoted to appease his spirit, but calamities continued. | After his death, a series of extraordinary natural disasters and plagues caused the untimely deaths of his detractors. In an attempt to appease his vengeful spirit, he was posthumously pardoned and promoted to high office, but the disasters continued. |
+| onryo-c06 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Michizane was later deified as Tenjin. | He was deified as Tenjin, an ancient god of agriculture and patron of the falsely accused. |
+| onryo-c07 | exact | www.kokugakuin.ac.jp | Belief and rites for resentful spirits spread especially from the Heian period onward. | However, this form of belief became widespread mainly from the Heian period onward, with rites being widely performed for the spirits of certain individuals |
+| onryo-c08 | exact | www.kokugakuin.ac.jp | Goryōe rites developed to appease feared spirits. | Rituals to appease these spirits, including the goryōe, were developed in tandem. |
+| onryo-c09 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | The account concerns Sugawara Michizane. | dedicated to Sugawara Michizane (845–903). Michizane was a distinguished scholar |
 

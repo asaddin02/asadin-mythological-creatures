@@ -2286,3 +2286,1443 @@
 }
 ```
 
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "hachiman",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Hachiman",
+    "native_name": null,
+    "display_name": {
+      "id": "Hachiman",
+      "en": "Hachiman"
+    },
+    "wikidata_qid": "Q261637",
+    "claim_ids": [
+      "hachiman-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "hachiman-c01"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "hachiman-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "hachiman-c01",
+      "hachiman-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "hachiman-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Hachiman adalah kami Jepang yang dipuja sebagai dewa perang dan pelindung kalangan prajurit.",
+    "en": "Hachiman is a kami of Japan revered as a war deity and protector of warriors.",
+    "claim_ids": [
+      "hachiman-c01",
+      "hachiman-c02",
+      "hachiman-c07"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Dalam istilah Shinto, Hachiman berkaitan dengan pemuliaan Kaisar Ōjin bersama Jingū dan Himegami. Pemujaannya mula-mula berpusat di Usa Hachimangū, kemudian menyebar ke banyak kuil di Jepang. Kaum militer secara historis memujanya sebagai dewa perang.",
+      "en": "In Shinto terminology, Hachiman is associated with the deified Emperor Ōjin together with Empress Jingū and Himegami. Worship first centered at Usa Hachimangū and later spread to many shrines in Japan. The military class historically revered Hachiman as a war deity.",
+      "claim_ids": [
+        "hachiman-c02",
+        "hachiman-c03"
+      ]
+    },
+    {
+      "id": "Hachiman juga menjadi contoh pertemuan tradisi Shinto dan Buddha: ia mendapat gelar Buddha Daibosatsu. Klan Minamoto menghormatinya sebagai pelindung khusus, dan para samurai memujanya sebagai pelindung pribadi dalam masa konflik.",
+      "en": "Hachiman also illustrates the meeting of Shinto and Buddhist traditions: he received the Buddhist title Daibosatsu. The Minamoto clan revered him as a special patron, and samurai worshiped him as a personal protector in times of conflict.",
+      "claim_ids": [
+        "hachiman-c01",
+        "hachiman-c04",
+        "hachiman-c05",
+        "hachiman-c06",
+        "hachiman-c07"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "hachiman-s1",
+      "url": "https://www.metmuseum.org/art/collection/search/24184",
+      "title": "Breastplaste Depecting Character Hachiman, God of War",
+      "author": null,
+      "publisher": "The Metropolitan Museum of Art",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "hachiman-s2",
+      "url": "https://d-museum.kokugakuin.ac.jp/bts/detail/?id=3710",
+      "title": "Hachiman",
+      "author": null,
+      "publisher": "Basic Terms of Shinto, Kokugakuin University",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "hachiman-c01",
+      "source_id": "hachiman-s1",
+      "quote": "Hachiman, one of the principal Shintō deities (kami)",
+      "locator": "Object description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Hachiman adalah salah satu kami utama dalam Shinto.",
+        "en": "Hachiman is one of the principal Shinto kami."
+      }
+    },
+    {
+      "id": "hachiman-c02",
+      "source_id": "hachiman-s2",
+      "quote": "Historically worshiped by the military class as a god of war, Hachiman is now the object of deep devotion for many people in Japan.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kaum militer memuja Hachiman sebagai dewa perang di Jepang.",
+        "en": "The military class historically worshiped Hachiman as a war deity in Japan."
+      }
+    },
+    {
+      "id": "hachiman-c03",
+      "source_id": "hachiman-s2",
+      "quote": "Generally refers to the deified Emperor Ôjin together with his mother Empress Jingû and his wife Himegami. They were first enshrined in the Usa Hachimangû in Oita Prefecture and later in many Hachiman shrines throughout Japan.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Hachiman berkaitan dengan Kaisar Ōjin yang didewakan bersama Jingū dan Himegami; mereka mula-mula dipuja di Usa Hachimangū lalu di banyak kuil Jepang.",
+        "en": "Hachiman is associated with deified Emperor Ōjin, Jingū, and Himegami, first enshrined at Usa Hachimangū and later at many Japanese shrines."
+      }
+    },
+    {
+      "id": "hachiman-c04",
+      "source_id": "hachiman-s1",
+      "quote": "was among the first indigenous gods assimilated into the Buddhist pantheon in Japan.",
+      "locator": "Object description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Hachiman termasuk dewa lokal awal yang dimasukkan ke dalam lingkungan Buddha di Jepang.",
+        "en": "Hachiman was among the early indigenous gods assimilated into the Buddhist pantheon in Japan."
+      }
+    },
+    {
+      "id": "hachiman-c05",
+      "source_id": "hachiman-s1",
+      "quote": "By the late eighth century he was officially accorded the Buddhist title Daibosatsu (Great Bodhisattva).",
+      "locator": "Object description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Hachiman memperoleh gelar Buddha Daibosatsu.",
+        "en": "Hachiman received the Buddhist title Daibosatsu."
+      }
+    },
+    {
+      "id": "hachiman-c06",
+      "source_id": "hachiman-s1",
+      "quote": "as the particular patron of the Minamoto clan, founders of the first shogunate",
+      "locator": "Object description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Hachiman adalah pelindung khusus klan Minamoto.",
+        "en": "Hachiman was a particular patron of the Minamoto clan."
+      }
+    },
+    {
+      "id": "hachiman-c07",
+      "source_id": "hachiman-s1",
+      "quote": "Hachiman was considered the protector of the state in times of strife and was revered as a personal protector by individual samurai of all ranks.",
+      "locator": "Object description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Hachiman dianggap pelindung negara saat konflik dan pelindung pribadi para samurai.",
+        "en": "Hachiman was regarded as protector of the state in conflict and personal protector of samurai."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "yurei",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Yūrei",
+    "native_name": null,
+    "display_name": {
+      "id": "Yūrei",
+      "en": "Yūrei"
+    },
+    "wikidata_qid": "Q11050647",
+    "claim_ids": [
+      "yurei-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "roh",
+    "claim_ids": [
+      "yurei-c01"
+    ]
+  },
+  "classification": {
+    "value": "spirit",
+    "claim_ids": [
+      "yurei-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "yurei-c01",
+      "yurei-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "yurei-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Yūrei adalah roh orang meninggal dalam tradisi Jepang yang dapat tetap berada di dunia manusia.",
+    "en": "Yūrei are spirits of deceased people in Japanese tradition that may remain in the human world.",
+    "claim_ids": [
+      "yurei-c01",
+      "yurei-c02",
+      "yurei-c03"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Yūrei merujuk kepada roh orang yang telah meninggal. Sebagian kisah menggambarkan roh itu belum menyeberang ke alam lain karena alasan pribadi atau karena upacara pemakaman yang dianggap kurang memadai. Dalam seni dan sastra, gambaran yang dikenal ialah perempuan berambut hitam panjang, berpakaian pemakaman, dengan tangan menggantung dan tanpa kaki.",
+      "en": "Yūrei refers to the spirits of deceased people. Some accounts describe them as remaining in the human world for personal reasons or because funeral rites were considered insufficient. In art and literature, a familiar image is a long-haired woman in burial clothes, with dangling hands and no feet.",
+      "claim_ids": [
+        "yurei-c01",
+        "yurei-c03",
+        "yurei-c04"
+      ]
+    },
+    {
+      "id": "Makna istilah ini berubah dalam sejarah Jepang. Pada masa kuno dan pertengahan yūrei lazim berarti jiwa orang mati dan belum dipandang dapat mengutuk. Sekitar abad kelima belas, istilah itu mulai dikaitkan dengan roh yang menyimpan dendam. Pada zaman Edo, cerita hantu, kabuki, dan seni cetak turut menampilkan sosok yūrei yang menakutkan.",
+      "en": "The term changed meaning through Japanese history. In ancient and medieval usage yūrei usually meant the souls of the dead and were not thought able to curse. Around the fifteenth century the word began to describe resentful spirits. In the Edo period, ghost tales, kabuki, and prints helped present frightening yūrei.",
+      "claim_ids": [
+        "yurei-c02",
+        "yurei-c05",
+        "yurei-c06",
+        "yurei-c07",
+        "yurei-c08",
+        "yurei-c09"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "yurei-s1",
+      "url": "https://bakemono.lib.byu.edu/yokai/yurei/",
+      "title": "Yūrei",
+      "author": "Edie Ellison",
+      "publisher": "BYU Library Bakemono",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "yurei-s2",
+      "url": "https://www.nippon.com/en/japan-topics/g02176/",
+      "title": "Fear and Reverence: Japanese Views of Souls, Spirits, and Ghosts",
+      "author": "Kimie Itakura",
+      "publisher": "Nippon.com",
+      "published": "2022-08-30",
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "yurei-c01",
+      "source_id": "yurei-s1",
+      "quote": "Generally speaking, a yūrei is the spirit of a person who has died, usually appearing as they did in life.",
+      "locator": "Yūrei",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Yūrei adalah roh seseorang yang sudah meninggal.",
+        "en": "Yūrei is the spirit of a deceased person."
+      }
+    },
+    {
+      "id": "yurei-c02",
+      "source_id": "yurei-s2",
+      "quote": "The Japanese word yūrei conjures up an image today of a spiteful ghost, but its meaning has changed considerably over the centuries.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Makna kata yūrei dalam bahasa Jepang berubah selama berabad-abad.",
+        "en": "The meaning of the Japanese word yūrei changed over the centuries."
+      }
+    },
+    {
+      "id": "yurei-c03",
+      "source_id": "yurei-s1",
+      "quote": "Yūrei refers to the spirits of humans who do not cross over to the other side and remain in the human world for personal reasons or because the funeral or burial rites were not sufficient or satisfactory.",
+      "locator": "Yūrei",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Yūrei dapat tinggal di dunia manusia karena alasan pribadi atau upacara pemakaman yang kurang memadai.",
+        "en": "Yūrei may remain in the human world for personal reasons or insufficient funeral rites."
+      }
+    },
+    {
+      "id": "yurei-c04",
+      "source_id": "yurei-s1",
+      "quote": "The typical yūrei, as depicted in art and literature, is described as a woman with long, disheveled black hair obstructing the face, wearing burial clothing, with curved dangling hands and no feet.",
+      "locator": "Yūrei",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam seni dan sastra, yūrei lazim digambarkan sebagai perempuan berambut hitam panjang, berpakaian pemakaman, bertangan menggantung, dan tanpa kaki.",
+        "en": "In art and literature yūrei are often shown as long-haired women in burial clothes, with dangling hands and no feet."
+      }
+    },
+    {
+      "id": "yurei-c05",
+      "source_id": "yurei-s2",
+      "quote": "In ancient and medieval Japan, when there was considerable “commerce” between the people of this world and spirits, the word yūrei typically referred to the souls of the dead, who neither showed themselves nor enacted curses.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Di Jepang kuno dan pertengahan, yūrei biasanya berarti jiwa orang mati yang tidak menampakkan diri atau mengutuk.",
+        "en": "In ancient and medieval Japan, yūrei usually meant souls of the dead who neither appeared nor cursed."
+      }
+    },
+    {
+      "id": "yurei-c06",
+      "source_id": "yurei-s2",
+      "quote": "Around the fifteenth century, the word yūrei began to shift from describing the souls of the memorialized dead to represent spirits harboring a grudge.",
+      "locator": "Fear as Entertainment",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sekitar abad kelima belas, yūrei mulai berarti roh yang menyimpan dendam.",
+        "en": "Around the fifteenth century, yūrei began to mean resentful spirits."
+      }
+    },
+    {
+      "id": "yurei-c07",
+      "source_id": "yurei-s2",
+      "quote": "In the Edo period (1603–1868), there was a belief that a bad relationship with someone in life could lead to that person taking revenge after death.",
+      "locator": "Fear as Entertainment",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pada zaman Edo, hubungan buruk semasa hidup dipercaya dapat berujung pada pembalasan setelah kematian.",
+        "en": "In the Edo period, people believed a bad relationship in life could lead to revenge after death."
+      }
+    },
+    {
+      "id": "yurei-c08",
+      "source_id": "yurei-s2",
+      "quote": "In the later Edo period, it was common for yūrei to appear in kabuki, providing inspiration for ukiyo-e artists.",
+      "locator": "Fear as Entertainment",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pada akhir zaman Edo, yūrei kerap muncul dalam kabuki dan mengilhami seniman ukiyo-e.",
+        "en": "In the later Edo period, yūrei appeared in kabuki and inspired ukiyo-e artists."
+      }
+    },
+    {
+      "id": "yurei-c09",
+      "source_id": "yurei-s2",
+      "quote": "there was a craze for kaidan (ghost stories) and many artists painted pictures of yūrei.",
+      "locator": "Fear as Entertainment",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pada zaman Edo, cerita hantu menjadi populer dan seniman melukis yūrei.",
+        "en": "In the Edo period, ghost stories became popular and artists painted yūrei."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "benzaiten",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Benzaiten",
+    "native_name": null,
+    "display_name": {
+      "id": "Benzaiten",
+      "en": "Benzaiten"
+    },
+    "wikidata_qid": "Q818468",
+    "claim_ids": [
+      "benzaiten-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "benzaiten-c01",
+      "benzaiten-c02"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "benzaiten-c01",
+      "benzaiten-c02"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "benzaiten-c01",
+      "benzaiten-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "benzaiten-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Benzaiten adalah dewi yang dipuja di Jepang, berasal dari Sarasvatī, dan dikaitkan dengan musik, kefasihan, serta keberuntungan.",
+    "en": "Benzaiten is a goddess worshiped in Japan, derived from Sarasvatī and associated with music, eloquence, and fortune.",
+    "claim_ids": [
+      "benzaiten-c01",
+      "benzaiten-c02",
+      "benzaiten-c03"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Benzaiten berasal dari Sarasvatī, dewi air India. Di Jepang ia dikenal sebagai pelindung musik dan kefasihan, serta termasuk dalam tujuh dewa keberuntungan. Ia juga masuk ke dalam tradisi Shinto dan Buddha. Pada masa Muromachi, kelompok tujuh dewa keberuntungan mulai dikenal di Jepang.",
+      "en": "Benzaiten derives from Sarasvatī, an Indian water goddess. In Japan she is a patron of music and eloquence and is counted among the Seven Gods of Good Fortune. She was also adopted into Shinto and Buddhist traditions. The grouping of seven fortune deities emerged in Japan during the Muromachi period.",
+      "claim_ids": [
+        "benzaiten-c01",
+        "benzaiten-c02",
+        "benzaiten-c03",
+        "benzaiten-c04"
+      ]
+    },
+    {
+      "id": "Pemujaan Benzaiten mengambil bentuk khas di Jepang. Ia berpadu dengan Ugajin menjadi Uga Benten; penggambaran ini dapat memiliki delapan lengan dan ular putih berkepala manusia di atas kepalanya. Bentuk itu berbeda dari gambaran Benzaiten dalam sutra lain. Pemujaan Uga Benzaiten menyebar dari Chikubujima ke tempat seperti Itsukushima, Enoshima, dan Tenkawa.",
+      "en": "Worship of Benzaiten developed distinctive forms in Japan. She merged with Ugajin as Uga Benten, a form portrayed with eight arms and a white snake with a human face on her head. This differs from other sutra depictions of Benzaiten. Worship of Uga Benzaiten spread from Chikubujima to places including Itsukushima, Enoshima, and Tenkawa.",
+      "claim_ids": [
+        "benzaiten-c05",
+        "benzaiten-c06",
+        "benzaiten-c07",
+        "benzaiten-c08"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "benzaiten-s1",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9974",
+      "title": "Shichifukujin",
+      "author": "Iwai Hiroshi",
+      "publisher": "Encyclopedia of Shinto, Kokugakuin University",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "benzaiten-s2",
+      "url": "https://www.mlit.go.jp/tagengo-db/common/001560941.pdf",
+      "title": "Benzaiten Shrine",
+      "author": null,
+      "publisher": "Japan Tourism Agency",
+      "published": null,
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "benzaiten-s3",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9713",
+      "title": "Ugajin",
+      "author": "Itō Satoshi",
+      "publisher": "Encyclopedia of Shinto, Kokugakuin University",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "benzaiten-c01",
+      "source_id": "benzaiten-s1",
+      "quote": "Benzaiten was originally the Indian goddess of water, Sarasvatī, and is known in Japan as a patron tutelary of music and eloquence (wisdom).",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Benzaiten berasal dari Sarasvatī, dewi air India, dan di Jepang melindungi musik serta kefasihan.",
+        "en": "Benzaiten derives from the Indian water goddess Sarasvatī and in Japan is a patron of music and eloquence."
+      }
+    },
+    {
+      "id": "benzaiten-c02",
+      "source_id": "benzaiten-s2",
+      "quote": "Benzaiten originated from the Hindu goddess Saraswati, and has been adopted into the pantheons of both Shinto and Buddhism.",
+      "locator": "Page 1",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Benzaiten berasal dari Saraswati dan masuk dalam tradisi Shinto serta Buddha.",
+        "en": "Benzaiten derives from Saraswati and was adopted into Shinto and Buddhist pantheons."
+      }
+    },
+    {
+      "id": "benzaiten-c03",
+      "source_id": "benzaiten-s1",
+      "quote": "\"Seven deities of good fortune,\" seven deities reputed to bring good luck. Most commonly, the seven include Ebisu, Daikoku, Bishamonten, Fukurokuju, Jurōjin, Benzaiten, and Hōtei",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Benzaiten termasuk tujuh dewa keberuntungan di Jepang.",
+        "en": "Benzaiten is among the Seven Gods of Good Fortune."
+      }
+    },
+    {
+      "id": "benzaiten-c04",
+      "source_id": "benzaiten-s1",
+      "quote": "The cult of seven deities of good fortune is believed to have originated in Japan's Muromachi period",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kelompok tujuh dewa keberuntungan diyakini bermula pada masa Muromachi di Jepang.",
+        "en": "The grouping of seven fortune deities is believed to have begun in Japan’s Muromachi period."
+      }
+    },
+    {
+      "id": "benzaiten-c05",
+      "source_id": "benzaiten-s3",
+      "quote": "Fused with the Buddhist deity Benzaiten, the kami became known as Uga Benten",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ugajin berpadu dengan Benzaiten menjadi Uga Benten.",
+        "en": "Ugajin merged with Benzaiten as Uga Benten."
+      }
+    },
+    {
+      "id": "benzaiten-c06",
+      "source_id": "benzaiten-s3",
+      "quote": "Their contents depict the deity in the form of a heavenly woman with eight arms",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Bentuk Uga Benten digambarkan sebagai perempuan langit berlengan delapan.",
+        "en": "Uga Benten is portrayed as a heavenly woman with eight arms."
+      }
+    },
+    {
+      "id": "benzaiten-c07",
+      "source_id": "benzaiten-s3",
+      "quote": "A white snake with the face of an elderly human rests on her head",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Seekor ular putih berkepala manusia tua berada di kepalanya.",
+        "en": "A white snake with an elderly human face rests on her head."
+      }
+    },
+    {
+      "id": "benzaiten-c08",
+      "source_id": "benzaiten-s3",
+      "quote": "These depictions differ greatly from the conventional portrait of Benzaiten found in the sutras Dainichikyō and Saishōō-kyō, and reflect a unique development of the Benten cult in Japan. From Ōmi Chikubujima near Mt. Hiei, the cult of Uga Benzaiten spread throughout Japan, including Itsukushima in Aki, Enoshima in Sagami, and Tenkawa in Kii",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Gambaran Uga Benten berbeda dari sutra lain; pemujaannya menyebar dari Chikubujima ke Itsukushima, Enoshima, dan Tenkawa.",
+        "en": "Uga Benten differs from other sutra depictions; worship spread from Chikubujima to Itsukushima, Enoshima, and Tenkawa."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "yamata-no-orochi",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Yamata no Orochi",
+    "native_name": null,
+    "display_name": {
+      "id": "Yamata no Orochi",
+      "en": "Yamata no Orochi"
+    },
+    "wikidata_qid": "Q1054437",
+    "claim_ids": [
+      "yamata-no-orochi-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "naga/ular mitos",
+    "claim_ids": [
+      "yamata-no-orochi-c01",
+      "yamata-no-orochi-c03"
+    ]
+  },
+  "classification": {
+    "value": "dragon",
+    "claim_ids": [
+      "yamata-no-orochi-c01",
+      "yamata-no-orochi-c03"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "yamata-no-orochi-c01",
+      "yamata-no-orochi-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "yamata-no-orochi-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Yamata no Orochi adalah ular raksasa berkepala dan berekor delapan dalam kisah Susanoo di Izumo.",
+    "en": "Yamata no Orochi is an eight-headed, eight-tailed giant serpent in a story about Susanoo in Izumo.",
+    "claim_ids": [
+      "yamata-no-orochi-c01",
+      "yamata-no-orochi-c02",
+      "yamata-no-orochi-c03",
+      "yamata-no-orochi-c04",
+      "yamata-no-orochi-c09"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Kojiki memuat kisah Yamata no Orochi, ular raksasa yang namanya berarti ular bercabang delapan. Ia digambarkan memiliki delapan kepala dan delapan ekor, mata merah, serta tubuh yang membentang melintasi delapan gunung dan lembah. Dalam kisah Izumo, ular itu telah memakan putri-putri sepasang orang tua dan akan memangsa Kushinada-hime.",
+      "en": "The Kojiki tells of Yamata no Orochi, a giant serpent whose name means eight-forked snake. It has eight heads and tails, red eyes, and a body spanning eight mountains and valleys. In the Izumo story it has eaten an elderly couple’s daughters and is about to devour Kushinada-hime.",
+      "claim_ids": [
+        "yamata-no-orochi-c01",
+        "yamata-no-orochi-c02",
+        "yamata-no-orochi-c03",
+        "yamata-no-orochi-c04",
+        "yamata-no-orochi-c09"
+      ]
+    },
+    {
+      "id": "Susanoo menjebak Orochi dengan arak beras, lalu membunuhnya ketika mabuk. Dari salah satu ekornya ia menemukan pedang Kusanagi dan mempersembahkannya kepada Amaterasu; pedang itu kemudian menjadi salah satu pusaka kekaisaran. Sebuah tafsir melihat Orochi sebagai lambang Sungai Hii dan penaklukannya sebagai penjinakan aliran air untuk irigasi, tetapi ini adalah tafsir atas mitos, bukan identitas yang pasti.",
+      "en": "Susanoo traps Orochi with rice wine and kills it after it becomes drunk. He finds the sword Kusanagi in a tail and presents it to Amaterasu; the sword later becomes an imperial regalia treasure. One interpretation reads Orochi as the Hii River and the defeat as a story about taming water for irrigation, but that is an interpretation rather than an established identity.",
+      "claim_ids": [
+        "yamata-no-orochi-c04",
+        "yamata-no-orochi-c05",
+        "yamata-no-orochi-c06",
+        "yamata-no-orochi-c07",
+        "yamata-no-orochi-c08"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "yamata-no-orochi-s1",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9729",
+      "title": "Yamatanoorochi",
+      "author": "Matsunaga Naomichi",
+      "publisher": "Encyclopedia of Shinto, Kokugakuin University",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "yamata-no-orochi-s2",
+      "url": "https://izumooyashiro.or.jp/en/myths",
+      "title": "The Land of Myths",
+      "author": null,
+      "publisher": "Izumo Ōyashiro Shrine",
+      "published": null,
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "yamata-no-orochi-s3",
+      "url": "https://www.kokugakuin.ac.jp/en/article/150943",
+      "title": "Yamata-no-Orochi—The Eight-headed, Eight-tailed Serpent",
+      "author": "Kikuko Hirafuji",
+      "publisher": "Kokugakuin University",
+      "published": "2020-01-21",
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "yamata-no-orochi-c01",
+      "source_id": "yamata-no-orochi-s1",
+      "quote": "A great serpent (the name means \"eight-forked-snake\")",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Yamata no Orochi ialah ular besar yang namanya berarti ular bercabang delapan.",
+        "en": "Yamata no Orochi is a great serpent whose name means eight-forked snake."
+      }
+    },
+    {
+      "id": "yamata-no-orochi-c02",
+      "source_id": "yamata-no-orochi-s3",
+      "quote": "The Yamata-no-Orochi is perhaps the most frightening of all Japan’s many mythological monsters. According to the Kojiki, this fearsome serpent had eight heads and eight tails",
+      "locator": "Exploring the Kojiki",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Yamata no Orochi adalah monster mitos Jepang yang digambarkan dalam Kojiki sebagai ular berkepala dan berekor delapan.",
+        "en": "Yamata no Orochi is a mythological monster of Japan described in the Kojiki as an eight-headed, eight-tailed serpent."
+      }
+    },
+    {
+      "id": "yamata-no-orochi-c03",
+      "source_id": "yamata-no-orochi-s1",
+      "quote": "a huge snake, with eight heads and eight tails, eyes red like a Chinese lantern plant, and a length that spanned eight peaks and eight valleys.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ular itu berkepala dan berekor delapan, bermata merah, dan membentang melintasi delapan gunung serta lembah.",
+        "en": "The serpent has eight heads and tails, red eyes, and spans eight peaks and valleys."
+      }
+    },
+    {
+      "id": "yamata-no-orochi-c04",
+      "source_id": "yamata-no-orochi-s2",
+      "quote": "an eight-headed, eight-tailed serpent known as the Yamata no Orochi had eaten all their other daughters and would shortly return for Kushinada-hime.",
+      "locator": "The Land of Myths",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Orochi memakan putri-putri pasangan itu dan akan kembali untuk Kushinada-hime.",
+        "en": "Orochi ate the couple’s other daughters and would return for Kushinada-hime."
+      }
+    },
+    {
+      "id": "yamata-no-orochi-c05",
+      "source_id": "yamata-no-orochi-s1",
+      "quote": "Susanoo made the serpent drunk on rice wine and then killed it.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Susanoo membuat ular itu mabuk dengan arak beras lalu membunuhnya.",
+        "en": "Susanoo made the serpent drunk on rice wine and killed it."
+      }
+    },
+    {
+      "id": "yamata-no-orochi-c06",
+      "source_id": "yamata-no-orochi-s1",
+      "quote": "From within the serpent's tail Susanoo discovered the sword called Kusanagi (\"Grass Mower\"), and he presented this sword to Amaterasu .",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dari ekor ular, Susanoo menemukan Kusanagi dan mempersembahkannya kepada Amaterasu.",
+        "en": "Susanoo found Kusanagi in the serpent’s tail and presented it to Amaterasu."
+      }
+    },
+    {
+      "id": "yamata-no-orochi-c07",
+      "source_id": "yamata-no-orochi-s2",
+      "quote": "This sword would later become one of the three imperial regalia.",
+      "locator": "The Land of Myths",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pedang itu kemudian menjadi salah satu dari tiga pusaka kekaisaran.",
+        "en": "The sword later became one of the three imperial regalia."
+      }
+    },
+    {
+      "id": "yamata-no-orochi-c08",
+      "source_id": "yamata-no-orochi-s1",
+      "quote": "The snake Yamata no orochi has been similarly interpreted as the Hii River itself, and the defeat of the snake is thus understood as a description of the taming of the river for irrigation.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Salah satu tafsir memandang Orochi sebagai Sungai Hii dan kekalahannya sebagai penjinakan sungai untuk irigasi.",
+        "en": "One interpretation reads Orochi as the Hii River and its defeat as taming the river for irrigation."
+      }
+    },
+    {
+      "id": "yamata-no-orochi-c09",
+      "source_id": "yamata-no-orochi-s1",
+      "quote": "at the headwaters of the Hi River in Izumo Province",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Susanoo turun ke hulu Sungai Hi di Provinsi Izumo.",
+        "en": "Susanoo descended to the headwaters of the Hi River in Izumo Province."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "bakeneko",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Bakeneko",
+    "native_name": null,
+    "display_name": {
+      "id": "Bakeneko",
+      "en": "Bakeneko"
+    },
+    "wikidata_qid": "Q804321",
+    "claim_ids": [
+      "bakeneko-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "bakeneko-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "bakeneko-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "bakeneko-c01",
+      "bakeneko-c08"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "bakeneko-c08"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Bakeneko adalah yōkai kucing yang dalam sebagian kisah dapat berubah menjadi manusia.",
+    "en": "Bakeneko are cat yōkai that can take human form in some stories.",
+    "claim_ids": [
+      "bakeneko-c01",
+      "bakeneko-c03"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Kisah tentang bakeneko menggambarkan kucing yang memperoleh sifat gaib. Beberapa tradisi mengatakan kucing dapat menjadi yōkai, berdiri pada kaki belakang, berbicara, dan dalam sebagian kisah mengambil rupa manusia. Nama bake-neko berarti “kucing yang berubah”. Gagasan kucing menyeramkan sangat populer pada zaman Edo.",
+      "en": "Stories of bakeneko describe cats acquiring supernatural qualities. Some traditions say cats become yōkai, stand on their hind legs, speak, and sometimes take human form. The name bake-neko means “changed cat.” The image of monstrous cats was particularly popular in the Edo period.",
+      "claim_ids": [
+        "bakeneko-c01",
+        "bakeneko-c02",
+        "bakeneko-c03",
+        "bakeneko-c04",
+        "bakeneko-c05"
+      ]
+    },
+    {
+      "id": "Satu legenda dari Pulau Sado menceritakan seorang perempuan tua yang berubah menjadi bakeneko dan terbang ke Gunung Yahiko; kisah itu kemudian menghubungkannya dengan pemujaan Myōtara-ten. Hubungan tersebut bukan tradisi resmi kuil Hōkōin. Pengamatan kucing yang berdiri sambil menjilat minyak lentera pada zaman Edo mungkin ikut menimbulkan rasa takut kepada kucing gaib.",
+      "en": "One Sado Island legend describes an old woman who becomes a bakeneko and flies to Mount Yahiko; the tale later connects her to Myōtara-ten worship. This is not an official tradition of Hōkōin temple. Edo-period sightings of cats standing to lick oil from lanterns may have helped inspire fear of supernatural cats.",
+      "claim_ids": [
+        "bakeneko-c06",
+        "bakeneko-c07",
+        "bakeneko-c09",
+        "bakeneko-c10",
+        "bakeneko-c11"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "bakeneko-s1",
+      "url": "https://www.japanesestudies.org.uk/ejcjs/vol16/iss1/atherton.html",
+      "title": "Speaking To Animals: Japan And The Welfare Of Companion Animals",
+      "author": "Cassandra Atherton and Glenn Moore",
+      "publisher": "Electronic Journal of Contemporary Japanese Studies",
+      "published": "2016-04-30",
+      "language": "en",
+      "type": "journal-article",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "bakeneko-s2",
+      "url": "https://www.nippon.com/en/japan-topics/g01054/",
+      "title": "“Waneko” Studies: A Journey into Japan’s Cat Lore",
+      "author": "Kimie Itakura",
+      "publisher": "Nippon.com",
+      "published": "2021-04-23",
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "bakeneko-s3",
+      "url": "https://pdxscholar.library.pdx.edu/honorstheses/965/",
+      "title": "BAKENEKO: a Look into the Origins of Japan’s Supernatural Cats",
+      "author": "Cedar Taulbee",
+      "publisher": "Portland State University",
+      "published": "2021-02-25",
+      "language": "en",
+      "type": "thesis",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "bakeneko-c01",
+      "source_id": "bakeneko-s1",
+      "quote": "It was believed that some cats—especially ones with long tails—turned into yokai, or supernatural creatures, at age twelve.",
+      "locator": "Part 1",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sebagian tradisi percaya kucing dapat berubah menjadi yōkai setelah tua.",
+        "en": "Some traditions believed cats could become yōkai as they aged."
+      }
+    },
+    {
+      "id": "bakeneko-c02",
+      "source_id": "bakeneko-s1",
+      "quote": "The cat’s tail would then split into two, the cat would stand erect on its hind legs, and speak.",
+      "locator": "Part 1",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam sebagian gambaran, kucing itu berdiri dengan kaki belakang dan berbicara.",
+        "en": "In some accounts, the cat stands on its hind legs and speaks."
+      }
+    },
+    {
+      "id": "bakeneko-c03",
+      "source_id": "bakeneko-s1",
+      "quote": "In some cases, it would actually assume human form, but all bake-neko were consistent with the idea that animal forms were impermanent",
+      "locator": "Part 1",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam sebagian cerita bakeneko dapat mengambil rupa manusia.",
+        "en": "In some stories bakeneko can assume human form."
+      }
+    },
+    {
+      "id": "bakeneko-c04",
+      "source_id": "bakeneko-s1",
+      "quote": "Indeed, the literal translation of bake-neko, 化け猫, is “changed cat.”",
+      "locator": "Part 1",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Arti harfiah bake-neko adalah kucing yang berubah.",
+        "en": "The literal meaning of bake-neko is changed cat."
+      }
+    },
+    {
+      "id": "bakeneko-c05",
+      "source_id": "bakeneko-s2",
+      "quote": "The idea of monstrous cats was particularly popular in the Edo Period (1603–1868).",
+      "locator": "The Bakeneko and Manekineko of Edo",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Gagasan kucing menyeramkan populer pada zaman Edo.",
+        "en": "The idea of monstrous cats was especially popular in the Edo period."
+      }
+    },
+    {
+      "id": "bakeneko-c06",
+      "source_id": "bakeneko-s2",
+      "quote": "One day, when she was rolling around in the sand playing with a cat, she turned into a bakeneko, or monster cat, and flew off toward Mount Yahiko.",
+      "locator": "Legends of Old Yasaburō and the Nekomata",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam legenda Pulau Sado, seorang perempuan tua menjadi bakeneko dan terbang ke Gunung Yahiko.",
+        "en": "In a Sado Island legend, an old woman becomes a bakeneko and flies to Mount Yahiko."
+      }
+    },
+    {
+      "id": "bakeneko-c07",
+      "source_id": "bakeneko-s2",
+      "quote": "This is not an official tradition, though, and Myōtara-ten worship at Hōkōin temple has no connection with cats.",
+      "locator": "Legends of Old Yasaburō and the Nekomata",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Hubungan legenda itu dengan Myōtara-ten bukan tradisi resmi kuil Hōkōin.",
+        "en": "The legend’s link to Myōtara-ten is not an official Hōkōin temple tradition."
+      }
+    },
+    {
+      "id": "bakeneko-c08",
+      "source_id": "bakeneko-s3",
+      "quote": "And in Japan there are bakeneko.",
+      "locator": "Abstract",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Bakeneko termasuk kisah gaib Jepang.",
+        "en": "Bakeneko belong to Japanese supernatural lore."
+      }
+    },
+    {
+      "id": "bakeneko-c09",
+      "source_id": "bakeneko-s2",
+      "quote": "In the Edo period, people used fish oil in lanterns, and the sight of cats standing on their back legs in the dark licking the oil off of lanterns likely caused some fear, as well.",
+      "locator": "The Bakeneko and Manekineko of Edo",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kucing yang berdiri dan menjilat minyak lentera mungkin ikut menimbulkan rasa takut pada zaman Edo.",
+        "en": "Cats seen standing and licking lantern oil may have inspired fear in the Edo period."
+      }
+    },
+    {
+      "id": "bakeneko-c10",
+      "source_id": "bakeneko-s2",
+      "quote": "there was once an old woman on Sado Island who loved cats.",
+      "locator": "Legends of Old Yasaburō and the Nekomata",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Legenda itu mengisahkan seorang perempuan tua di Pulau Sado yang menyukai kucing.",
+        "en": "The legend tells of an old woman on Sado Island who loved cats."
+      }
+    },
+    {
+      "id": "bakeneko-c11",
+      "source_id": "bakeneko-s2",
+      "quote": "In the end, people began worshipping the old woman as Myōtara-ten because the character for cat can be pronounced myō, as well.",
+      "locator": "Legends of Old Yasaburō and the Nekomata",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam legenda itu, penduduk kemudian memuja perempuan tua sebagai Myōtara-ten.",
+        "en": "In the legend people later worshiped the old woman as Myōtara-ten."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "onryo",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Onryō",
+    "native_name": null,
+    "display_name": {
+      "id": "Onryō",
+      "en": "Onryō"
+    },
+    "wikidata_qid": "Q634195",
+    "claim_ids": [
+      "onryo-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "hantu",
+    "claim_ids": [
+      "onryo-c01"
+    ]
+  },
+  "classification": {
+    "value": "spirit",
+    "claim_ids": [
+      "onryo-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "onryo-c01",
+      "onryo-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "onryo-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Onryō adalah roh pendendam dalam tradisi Jepang yang dipercaya dapat menimbulkan kutukan dan bencana.",
+    "en": "Onryō are resentful spirits in traditions of Japan believed to cause curses and calamities.",
+    "claim_ids": [
+      "onryo-c01",
+      "onryo-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Dalam kepercayaan Jepang kuno, onryō merujuk kepada arwah orang yang meninggal dengan rasa dendam dan dikhawatirkan dapat mengutuk. Roh seperti itu juga ditakuti sebagai penyebab wabah atau bencana besar. Orang berusaha menenangkan dan memuliakan mereka melalui upacara; praktik semacam ini meluas terutama pada masa Heian.",
+      "en": "In ancient Japan, onryō are spirits of people who died with resentment and were feared as able to cast curses. Such spirits were also feared as causes of epidemics or major calamities. People sought to pacify and honor them through rites; such practices spread particularly in the Heian period.",
+      "claim_ids": [
+        "onryo-c01",
+        "onryo-c02",
+        "onryo-c03",
+        "onryo-c07",
+        "onryo-c08"
+      ]
+    },
+    {
+      "id": "Kisah Sugawara no Michizane menunjukkan satu contoh. Ia meninggal dalam pengasingan; setelah itu, bencana dan wabah dalam legenda dikaitkan dengan arwahnya. Ia diberi pengampunan dan kenaikan pangkat setelah wafat untuk menenangkannya, tetapi bencana dikisahkan berlanjut. Pada akhirnya ia didewakan sebagai Tenjin. Kisah ini menunjukkan bahwa roh yang ditakuti juga dapat menjadi objek pemujaan.",
+      "en": "The story of Sugawara no Michizane gives an example. He died in exile, and later disasters and plagues were linked to his spirit in legend. He was pardoned and promoted after death in an attempt to appease him, but the calamities were said to continue. He was eventually deified as Tenjin. The account shows how a feared spirit could also become an object of worship.",
+      "claim_ids": [
+        "onryo-c04",
+        "onryo-c05",
+        "onryo-c06",
+        "onryo-c09"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "onryo-s1",
+      "url": "https://www.kokugakuin.ac.jp/assets/uploads/2024/03/KJS5-1-Kobayashiver1.pdf",
+      "title": "Spirits of the Dead and Curses/Disasters in Ancient Japan",
+      "author": "Kobayashi Norihiko",
+      "publisher": "Kokugakuin Japan Studies",
+      "published": null,
+      "language": "en",
+      "type": "journal-article",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "onryo-s2",
+      "url": "https://www.nippon.com/en/japan-topics/g02176/",
+      "title": "Fear and Reverence: Japanese Views of Souls, Spirits, and Ghosts",
+      "author": "Kimie Itakura",
+      "publisher": "Nippon.com",
+      "published": "2022-08-30",
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "onryo-s3",
+      "url": "https://www.metmuseum.org/art/collection/search/45428",
+      "title": "Illustrated Legends of the Kitano Tenjin Shrine",
+      "author": null,
+      "publisher": "The Metropolitan Museum of Art",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "onryo-c01",
+      "source_id": "onryo-s1",
+      "quote": "In ancient Japan, the spirits of the dead who died with resentment, called goryō 御霊 or onryō 怨霊, were thought to cast curses.",
+      "locator": "Page 1, Author’s Statement",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Di Jepang kuno, onryō ialah arwah orang yang wafat dengan dendam dan dipercaya dapat mengutuk.",
+        "en": "In ancient Japan, onryō were spirits of the resentful dead believed to cast curses."
+      }
+    },
+    {
+      "id": "onryo-c02",
+      "source_id": "onryo-s2",
+      "quote": "Spirits thought to cause plague, natural disaster, or other such large-scale calamities were feared as onryō, and people tried to console and pacify them.",
+      "locator": "Souls Leaving the Body",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Onryō ditakuti sebagai penyebab wabah dan bencana besar; orang berusaha menenangkan mereka.",
+        "en": "Onryō were feared as causes of plague and disasters and were pacified."
+      }
+    },
+    {
+      "id": "onryo-c03",
+      "source_id": "onryo-s1",
+      "quote": "involve the fear of spirits of those who met untimely deaths and attempt to appease them to avoid curses and ensure peace.",
+      "locator": "Page 2",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pemujaan roh pendendam bertujuan menenangkan mereka agar kutukan terhindar.",
+        "en": "Rites for resentful spirits sought to appease them and avoid curses."
+      }
+    },
+    {
+      "id": "onryo-c04",
+      "source_id": "onryo-s3",
+      "quote": "Michizane was a distinguished scholar, poet, and statesman who died in exile, having been slandered by enemies at court.",
+      "locator": "Object description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Michizane adalah cendekiawan dan pejabat yang meninggal dalam pengasingan.",
+        "en": "Michizane was a scholar and statesman who died in exile."
+      }
+    },
+    {
+      "id": "onryo-c05",
+      "source_id": "onryo-s3",
+      "quote": "After his death, a series of extraordinary natural disasters and plagues caused the untimely deaths of his detractors. In an attempt to appease his vengeful spirit, he was posthumously pardoned and promoted to high office, but the disasters continued.",
+      "locator": "Object description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Menurut legenda, bencana dan wabah mengikuti kematiannya; ia diampuni dan dinaikkan pangkat untuk menenangkan rohnya, namun bencana berlanjut.",
+        "en": "In legend disasters and plagues followed his death; he was pardoned and promoted to appease his spirit, but calamities continued."
+      }
+    },
+    {
+      "id": "onryo-c06",
+      "source_id": "onryo-s3",
+      "quote": "He was deified as Tenjin, an ancient god of agriculture and patron of the falsely accused.",
+      "locator": "Object description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Michizane kemudian didewakan sebagai Tenjin.",
+        "en": "Michizane was later deified as Tenjin."
+      }
+    },
+    {
+      "id": "onryo-c07",
+      "source_id": "onryo-s1",
+      "quote": "However, this form of belief became widespread mainly from the Heian period onward, with rites being widely performed for the spirits of certain individuals",
+      "locator": "Page 2",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Keyakinan dan ritual untuk roh pendendam meluas terutama sejak masa Heian.",
+        "en": "Belief and rites for resentful spirits spread especially from the Heian period onward."
+      }
+    },
+    {
+      "id": "onryo-c08",
+      "source_id": "onryo-s1",
+      "quote": "Rituals to appease these spirits, including the goryōe, were developed in tandem.",
+      "locator": "Page 2",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ritual goryōe dikembangkan untuk menenangkan roh yang ditakuti.",
+        "en": "Goryōe rites developed to appease feared spirits."
+      }
+    },
+    {
+      "id": "onryo-c09",
+      "source_id": "onryo-s3",
+      "quote": "dedicated to Sugawara Michizane (845–903). Michizane was a distinguished scholar",
+      "locator": "Object description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kisah ini berhubungan dengan Sugawara Michizane.",
+        "en": "The account concerns Sugawara Michizane."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
