@@ -1,25 +1,12 @@
 {
   "batch_id": "batch-050",
-  "checked_at": "2026-09-30T08:15:39.314Z",
+  "checked_at": "2026-09-30T09:09:48.430Z",
   "files": [
-    "batch-050.md"
+    "batch-050.md",
+    "batch-050-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [
-    "umibozu",
-    "watatsumi",
-    "akashita",
-    "ameonna",
-    "amikiri",
-    "azukiarai",
-    "hannya",
-    "karura",
-    "korpokkur",
-    "nurikabe",
-    "oyamatsumi",
-    "shachihoko",
-    "tenjin",
-    "abumi-guchi",
     "abura-akago",
     "akabeko",
     "ame-no-minakanushi",
@@ -1225,6 +1212,1442 @@
         }
       ],
       "images": []
+    },
+    {
+      "slug": "umibozu",
+      "file": "batch-050.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 10,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "umibozu-c01",
+          "source_id": "umibozu-s1",
+          "host": "bakemono.lib.byu.edu",
+          "statement": "Umibōzu is a sea yōkai.",
+          "statement_id": "Umibōzu adalah yōkai laut.",
+          "quote": "Umibōzu (海坊主) is a yōkai from Japanese folklore. Little is known of the origin of umibōzu, but it is a sea-spirit and as such has multiple sightings throughout Japan.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "umibozu-c02",
+          "source_id": "umibozu-s3",
+          "host": "www.ndl.go.jp",
+          "statement": "The name umibōzu is glossed as sea monk.",
+          "statement_id": "Umibōzu dapat diterjemahkan sebagai biksu laut.",
+          "quote": "Umi-zatō and umi-bōzu (Sea monks)",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "umibozu-c03",
+          "source_id": "umibozu-s1",
+          "host": "bakemono.lib.byu.edu",
+          "statement": "It appears on calm seas that turn rough.",
+          "statement_id": "Ia muncul di laut tenang yang kemudian bergolak.",
+          "quote": "Normally, umibōzu appears to sailors on calm seas which quickly turn tumultuous.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "umibozu-c04",
+          "source_id": "umibozu-s1",
+          "host": "bakemono.lib.byu.edu",
+          "statement": "It may break or flood a ship.",
+          "statement_id": "Ia dapat merusak kapal atau meminta wadah untuk menenggelamkannya.",
+          "quote": "It either breaks the ship on emergence or demands a bucket or barrel from the sailors and proceeds to drown them.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "umibozu-c05",
+          "source_id": "umibozu-s1",
+          "host": "bakemono.lib.byu.edu",
+          "statement": "A bottomless barrel is said to let sailors escape.",
+          "statement_id": "Cerita menyebut ember tanpa dasar sebagai cara mengelabuinya.",
+          "quote": "The only safe way to escape an umibōzu is to give it a bottomless barrel and sail away while it is confused.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "umibozu-c06",
+          "source_id": "umibozu-s2",
+          "host": "fukusakikankou.jp",
+          "statement": "A Fukusaki account describes a stalled boat and a holed ladle.",
+          "statement_id": "Kisah Fukusaki menyebut perahu macet dan gayung berlubang.",
+          "quote": "no matter how hard you row a boat, it will not move forward if the Umibōzu (sea ogre) is attached to it. Additionally, if the creature appears asking to borrow a ladle, it must be given a ladle with a hole in the bottom.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "umibozu-c07",
+          "source_id": "umibozu-s1",
+          "host": "bakemono.lib.byu.edu",
+          "statement": "One illustration resembles a catfish.",
+          "statement_id": "Salah satu ilustrasi tampak seperti ikan lele.",
+          "quote": "The depiction in Bakemono no e is rather unique, resembling a catfish.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "umibozu-c08",
+          "source_id": "umibozu-s3",
+          "host": "www.ndl.go.jp",
+          "statement": "Kuniyoshi depicts Tokuzō meeting a giant umibōzu.",
+          "statement_id": "Cetakan Kuniyoshi menampilkan Tokuzō bertemu umibōzu raksasa.",
+          "quote": "Utagawa Kuniyoshi's Tōkaidō gojyūsantugi: Kuwana depicts a sailor from Kuwana, named Tokuzo, who encounters a giant umi-bōzu offshore.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "umibozu-c09",
+          "source_id": "umibozu-s3",
+          "host": "www.ndl.go.jp",
+          "statement": "The being vanishes after Tokuzō says human life is scarier.",
+          "statement_id": "Umibōzu menghilang setelah Tokuzō menjawab bahwa manusia lebih menakutkan.",
+          "quote": "The umi-bōzu asks Tokuzo if he is afraid, and when he replies that living in the world of men is scarier, the umi-bozu disappears.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "umibozu-c10",
+          "source_id": "umibozu-s3",
+          "host": "www.ndl.go.jp",
+          "statement": "Umi-zatō and umibōzu are related names, sometimes treated as the same kind.",
+          "statement_id": "Umi-zatō dan umibōzu berhubungan namun berbeda nama.",
+          "quote": "Like kappa, umi-zatō and umi-bōzu are yōkai that are found near water, and some believe them to be the same species.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "watatsumi",
+      "file": "batch-050.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 7,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "watatsumi-c01",
+          "source_id": "watatsumi-s1",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The Kojiki names Ōwatatsumi as a sea deity born to Izanagi and Izanami.",
+          "statement_id": "Kojiki menyebut Ōwatatsumi sebagai dewa laut yang lahir dari Izanagi dan Izanami.",
+          "quote": "A tutelary of the sea. According to Kojiki, the sea deity Ōwatatsumi no kami was produced by Izanagi and Izanami as part of the process of giving birth to the kami",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "watatsumi-c02",
+          "source_id": "watatsumi-s1",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Izanagi’s ablution produced three Watatsumi representing water levels.",
+          "statement_id": "Penyucian Izanagi melahirkan tiga Watatsumi yang mewakili lapisan air.",
+          "quote": "three Watatsumi deities were produced, representing the \"upper\" (Uwawatatsumi) \"middle\" (Nakawatatsumi) and \"bottom\" (Sokowatatsumi) parts of the water where he bathed.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "watatsumi-c03",
+          "source_id": "watatsumi-s1",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The ablution follows Izanagi’s return from Yomi.",
+          "statement_id": "Penyucian itu dilakukan setelah Izanagi pulang dari Yomi.",
+          "quote": "when Izanagi returned from the underworld land of Yomi and performed ablution",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "watatsumi-c04",
+          "source_id": "watatsumi-s1",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Hoori marries Watatsumi’s daughter Toyotamabime at his undersea palace.",
+          "statement_id": "Hoori menikahi Toyotamabime di istana bawah laut Watatsumi.",
+          "quote": "Hoori no mikoto (Yamasachi) traveled to the undersea palace of the ocean kami Watatsumi and married Watatsumi's daughter Toyotamabime",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "watatsumi-c05",
+          "source_id": "watatsumi-s2",
+          "host": "www.mlit.go.jp",
+          "statement": "Watatsumi summons the fish to find the hook.",
+          "statement_id": "Watatsumi memanggil semua ikan untuk mencari mata kail.",
+          "quote": "Wadatsumi orders all the fish in the sea to assemble at his palace so that the hook Yamasachi-hiko is looking for can be found.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "watatsumi-c06",
+          "source_id": "watatsumi-s2",
+          "host": "www.mlit.go.jp",
+          "statement": "The hook is found in a sea bream’s mouth.",
+          "statement_id": "Mata kail ditemukan tersangkut pada ikan kakap.",
+          "quote": "Wadatsumi calls for the sea bream, whose pain is found to be caused by a stuck fishing hook that Yamasachi-hiko recognizes to be his brother's.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "watatsumi-c07",
+          "source_id": "watatsumi-s2",
+          "host": "www.mlit.go.jp",
+          "statement": "Watatsumi gives a pair of tide-controlling orbs.",
+          "statement_id": "Watatsumi memberi sepasang permata pengendali pasang surut.",
+          "quote": "As a parting gift, Wadatsumi gives him a pair of orbs with which to control the tides.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "akashita",
+      "file": "batch-050.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 8,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: www.britishmuseum.org (HTTP 403)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "akashita-c01",
+          "source_id": "akashita-s1",
+          "host": "www.britishmuseum.org",
+          "statement": "The museum labels akashita as red tongue and nupperabo opposite.",
+          "statement_id": "Museum menyebut akashita sebagai lidah merah dan nupperabo di sisi seberang.",
+          "quote": "Here the monsters are named 'akashita' ('red tongue', right) and 'nupperabo' ('blob', left).",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "akashita-c02",
+          "source_id": "akashita-s1",
+          "host": "www.britishmuseum.org",
+          "statement": "The print artist is Toriyama Sekien.",
+          "statement_id": "Buku itu dibuat oleh Toriyama Sekien.",
+          "quote": "Print artist: Toriyama Sekien 鳥山石燕",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "akashita-c03",
+          "source_id": "akashita-s2",
+          "host": "bakemono.lib.byu.edu",
+          "statement": "BYU describes akaguchi amid a black cloud with claws and red tongue.",
+          "statement_id": "Akaguchi pada arsip BYU tergambar dalam awan hitam dengan cakar dan lidah merah.",
+          "quote": "This yōkai resides in an amorphous black cloud, baring visibly its komainu (Japanese lion-dog) face and large claws. Its face and claws are covered in thick blue hair. It is distinguished by its large red mouth and tongue.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "akashita-c04",
+          "source_id": "akashita-s2",
+          "host": "bakemono.lib.byu.edu",
+          "statement": "BYU says akaguchi is better known as akashita.",
+          "statement_id": "BYU menyebut akaguchi lebih umum dikenal sebagai akashita.",
+          "quote": "Akaguchi is more commonly known by the name akashita.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "akashita-c05",
+          "source_id": "akashita-s2",
+          "host": "bakemono.lib.byu.edu",
+          "statement": "Akaguchi is depicted over a floodgate.",
+          "statement_id": "Akaguchi digambar di atas pintu air.",
+          "quote": "Akaguchi is portrayed above a floodgate due to its association with the use of water in a farming country.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "akashita-c06",
+          "source_id": "akashita-s2",
+          "host": "bakemono.lib.byu.edu",
+          "statement": "One account says akaguchi punishes water thieves.",
+          "statement_id": "Salah satu cerita menyebut akaguchi menghukum pencuri air.",
+          "quote": "The perpetrators of this crime not punished by law would be punished by akaguchi. Akaguchi would appear and eat them alive.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "akashita-c07",
+          "source_id": "akashita-s3",
+          "host": "en.wikipedia.org",
+          "statement": "A Tsugaru water-dispute tale appears in a 1974 book.",
+          "statement_id": "Cerita Tsugaru tentang sengketa air dicatat dalam buku 1974.",
+          "quote": "The Tōhoku Kaidan no Tabi (1974) by Norio Yamada writes that an Akaguchi appeared at a farming village in the Tsugaru region in the Aomori Prefecture and resolved a dispute over water for the fields.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "akashita-c08",
+          "source_id": "akashita-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Sekien’s akashita was later retrofitted to the water-dispute story.",
+          "statement_id": "Akashita karya Sekien kemudian dipasangkan dengan kisah sengketa air.",
+          "quote": "with Sekien's \"akashita\" later retrofitted into the story.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "ameonna",
+      "file": "batch-050.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "ameonna-c01",
+          "source_id": "ameonna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ameonna means rain woman and Sekien depicts her in rain.",
+          "statement_id": "Ameonna berarti perempuan hujan dan Sekien menggambarkannya di tengah hujan.",
+          "quote": "Ameonna (雨(あめ)女(おんな), \"rain woman\") is a Japanese yōkai thought to call forth rain, illustrated in Toriyama Sekien's Konjaku Hyakki Shūi as a woman standing in the rain and licking her hand.",
+          "context": "religious-tradition",
+          "status": "loose"
+        },
+        {
+          "id": "ameonna-c02",
+          "source_id": "ameonna-s2",
+          "host": "uncannyjapan.com",
+          "statement": "Sekien pictures a rain-soaked woman licking her hand.",
+          "statement_id": "Gambar Sekien menunjukkan perempuan basah yang menjilat tangannya.",
+          "quote": "You’ll find her first in Toriyama Sekien’s book, Konjaku Hyakki Shūi, supplement to the 100 demons from the present and past. In it is a black and white depiction of a rain-soaked woman, very creepily licking her hand.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ameonna-c03",
+          "source_id": "ameonna-s2",
+          "host": "uncannyjapan.com",
+          "statement": "Sekien compares ameonna with the divine woman of Mount Wu.",
+          "statement_id": "Keterangan Sekien membandingkan ameonna dengan perempuan ilahi Gunung Wu.",
+          "quote": "It is said that the divine woman of Mount Wu in ancient China becomes a cloud in the morning and rain in the evening. I wonder if Ame-onna is also this kind of being.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ameonna-c04",
+          "source_id": "ameonna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The allusion derives from Song Yu’s Gaotang Fu.",
+          "statement_id": "Kisah awan dan hujan merujuk Gaotang Fu karya Song Yu.",
+          "quote": "This quotes from an episode in the Gaotangfu (高唐賦) by the Chu literati Song Yu",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ameonna-c05",
+          "source_id": "ameonna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Modern ameonna can label a person seemingly followed by rain.",
+          "statement_id": "Pemakaian modern ameonna juga merujuk orang yang selalu diikuti hujan.",
+          "quote": "In modern usage in Japan, \"ameonna\" (or the male equivalent \"ameotoko\") refers to an unlucky person that seems to be jinxed to have the rain follow them wherever they may go",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ameonna-c06",
+          "source_id": "ameonna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A Shimoina account says Ameonba appears on rainy nights.",
+          "statement_id": "Kisah Shimoina menyebut Ameonba muncul pada malam hujan.",
+          "quote": "In Shimoina District, Nagano Prefecture, there is an eerie woman called \"Ameonba\" (雨おんば) said to appear on rainy nights",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "amikiri",
+      "file": "batch-050.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 8,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "1 kutipan tidak bisa dicek otomatis: religion-in-japan.univie.ac.at (HTTP 500)."
+        }
+      ],
+      "claims": [
+        {
+          "id": "amikiri-c01",
+          "source_id": "amikiri-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Amikiri is a yōkai in Sekien’s book.",
+          "statement_id": "Amikiri adalah yōkai dalam buku Sekien.",
+          "quote": "is a Japanese yōkai depicted in the Gazu Hyakki Yagyō by Toriyama Sekien.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amikiri-c02",
+          "source_id": "amikiri-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Sekien depicts a scorpionlike being with pincers.",
+          "statement_id": "Gambar Sekien menunjukkan bentuk mirip kalajengking dengan capit.",
+          "quote": "depicts a scorpion-like creature (or a cross between a serpent, bird or a lobster with pincer claws similar to that of a crab or a scorpion)",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amikiri-c03",
+          "source_id": "amikiri-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Sekien gives no explanation of the creature’s nature.",
+          "statement_id": "Sekien tidak memberi teks penjelas tentang jenis makhluk.",
+          "quote": "but since Sekien supplies no explanatory text, it is not certain what kind of yōkai it is.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amikiri-c04",
+          "source_id": "amikiri-s2",
+          "host": "religion-in-japan.univie.ac.at",
+          "statement": "Foster distinguishes kamikiri from Sekien’s amikiri.",
+          "statement_id": "Foster membedakan kamikiri dari amikiri dalam katalog Sekien.",
+          "quote": "Toriyama Sekien does not include a kamikiri in his catalogs, but does draw a scorpion-like yōkai labeled amikiri, or “net cutter.”",
+          "context": "religious-tradition",
+          "status": "unreachable",
+          "detail": "HTTP 500"
+        },
+        {
+          "id": "amikiri-c05",
+          "source_id": "amikiri-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A Yamada story links amikiri to cut fishing nets.",
+          "statement_id": "Cerita Yamada mengaitkan amikiri dengan jaring ikan terpotong.",
+          "quote": "whose fishing nets were repeatedly cut into pieces, which got blamed on the amikiri.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amikiri-c06",
+          "source_id": "amikiri-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the tale, a mosquito net at home is cut.",
+          "statement_id": "Dalam cerita itu, kelambu di rumah malah terpotong.",
+          "quote": "One person preemptively brought back his nets early and hid at home to avoid the trouble, but his mosquito nets all got cut to tatters",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amikiri-c07",
+          "source_id": "amikiri-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Murakami could not corroborate the tale from that region.",
+          "statement_id": "Murakami tidak menemukan bukti cerita lain dari wilayah itu.",
+          "quote": "was unable to corroborate such a story from any other source in Yamagata Prefecture",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amikiri-c08",
+          "source_id": "amikiri-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Murakami considered the tale Yamada’s invention.",
+          "statement_id": "Murakami menganggap kisah itu karangan Yamada.",
+          "quote": "concluded it must have been Yamada's invention.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "azukiarai",
+      "file": "batch-050.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 8,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "azukiarai-c01",
+          "source_id": "azukiarai-s1",
+          "host": "trajectoria.minpaku.ac.jp",
+          "statement": "Azukiarai began as a mysterious sound rather than a sighting.",
+          "statement_id": "Azukiarai bermula sebagai bunyi misterius, bukan penampakan.",
+          "quote": "azuki-arai (red bean washer) are initially captured as mysterious and incomprehensible sounds encountered in the mountains",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "azukiarai-c02",
+          "source_id": "azukiarai-s1",
+          "host": "trajectoria.minpaku.ac.jp",
+          "statement": "The noise resembles beans washed in a river without an identified source.",
+          "statement_id": "Bunyinya menyerupai kacang yang dicuci di sungai tanpa sumber diketahui.",
+          "quote": "beans being washed in the river of which the origin cannot be identified",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "azukiarai-c03",
+          "source_id": "azukiarai-s1",
+          "host": "trajectoria.minpaku.ac.jp",
+          "statement": "Later images gave form to an originally bodiless sound.",
+          "statement_id": "Versi gambar belakangan memberi bentuk pada bunyi tanpa wujud.",
+          "quote": "Visitors might recognise the popular visual image of azuki-arai from the manga adaptation by MIZUKI Shigeru (the renowned author of Gegege no Kitarō), yet may not realise that in the original tale, it was a sound without physical form.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "azukiarai-c04",
+          "source_id": "azukiarai-s2",
+          "host": "fukusakikankou.jp",
+          "statement": "One account says the sound lures people into ditches or off cliffs.",
+          "statement_id": "Cerita setempat menyebut bunyi itu membuat orang jatuh ke parit atau tebing.",
+          "quote": "There are folklore tales about luring people out with the sound of azuki beans, causing them to fall into ditches or off cliffs.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "azukiarai-c05",
+          "source_id": "azukiarai-s2",
+          "host": "fukusakikankou.jp",
+          "statement": "Another version has a threatening song that distracts listeners.",
+          "statement_id": "Versi lain memuat nyanyian ancaman yang mengalihkan perhatian.",
+          "quote": "Another story describes a being singing, “Shall I grind the azuki beans, or shall I catch and eat someone?” while washing the beans, distracting people and leading them to the riverbank, where they fall in.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "azukiarai-c06",
+          "source_id": "azukiarai-s3",
+          "host": "sekiei.nichibun.ac.jp",
+          "statement": "A Kagawa record identifies azukiarai with mamedanuki.",
+          "statement_id": "Catatan Kagawa menyamakan azukiarai dengan mamedanuki.",
+          "quote": "あずき洗いは豆狸の一種で、井戸端や小川のほとりなどで、小豆を洗うような音をさせている。この狸も人を騙す。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "azukiarai-c07",
+          "source_id": "azukiarai-s3",
+          "host": "sekiei.nichibun.ac.jp",
+          "statement": "A Nagano record identifies the sound as a weasel cry.",
+          "statement_id": "Catatan Nagano menyebut sumber bunyi itu suara musang.",
+          "quote": "ゼンゲ（水を流す小さな溝）で夜、小豆を洗う音がする。これが小豆洗い。正体はイタチの鳴き声。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "azukiarai-c08",
+          "source_id": "azukiarai-s1",
+          "host": "trajectoria.minpaku.ac.jp",
+          "statement": "The Ehon Hyaku Monogatari figure names azukiarai a bean-washing yōkai.",
+          "statement_id": "Gambar Ehon Hyaku Monogatari menyebut azukiarai sebagai yōkai pembuat bunyi kacang.",
+          "quote": "Figure 1 Azuki-arai (小豆洗) — a yōkai said to make the sound of azuki beans being washed — from Ehon Hyaku Monogatari (絵本百物語) Public domain.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "hannya",
+      "file": "batch-050.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 3,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "hannya-c01",
+          "source_id": "hannya-s1",
+          "host": "hikone-castle-museum.jp",
+          "statement": "The mask represents a woman turned demon by vengeance and jealousy.",
+          "statement_id": "Topeng hannya melambangkan perempuan yang berubah menjadi iblis karena dendam dan cemburu.",
+          "quote": "This mask represents a vengeful and jealous woman turned demon.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hannya-c02",
+          "source_id": "hannya-s1",
+          "host": "hikone-castle-museum.jp",
+          "statement": "This museum example dates to the seventeenth century.",
+          "statement_id": "Contoh museum ini berasal dari abad ke-17.",
+          "quote": "Color on wood (hinoki cypress); mask length 21.1 cm; Edo period, 17th century; Gift of the Ii Family",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hannya-c03",
+          "source_id": "hannya-s1",
+          "host": "hikone-castle-museum.jp",
+          "statement": "The two-horned mask combines wrath with dignity.",
+          "statement_id": "Topeng bertanduk dua menampakkan amarah sekaligus martabat.",
+          "quote": "With two horns on the forehead, it has the fierce and wrathful look of someone bent on revenge. Hannya masks are required not only to be fearsome but also to exude dignity and refinement.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hannya-c04",
+          "source_id": "hannya-s2",
+          "host": "www.mbam.qc.ca",
+          "statement": "One mask has gilt horns and teeth and disordered hair.",
+          "statement_id": "Salah satu topeng memiliki tanduk dan gigi berlapis emas serta rambut kusut.",
+          "quote": "This mask has gilt horns and teeth, and hair painted in disarrayed strands.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hannya-c05",
+          "source_id": "hannya-s2",
+          "host": "www.mbam.qc.ca",
+          "statement": "Pale and dark-red masks convey different emotions in the named plays.",
+          "statement_id": "Warna pucat dan merah gelap membedakan nuansa emosi dalam beberapa lakon.",
+          "quote": "when paler than this mask, they express feminine delicacy and are worn in such plays as Aoi-no-ue [Lady Aoi]; when dark red, they embody great passion, as can be seen Dōjō-ji [The Girl at Dōjō-ji Temple] and Kuro-zuka [Black Mound].",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hannya-c06",
+          "source_id": "hannya-s3",
+          "host": "www.museum.go.kr",
+          "statement": "The museum describes a horned female-ghost mask used in two plays.",
+          "statement_id": "Museum menyebut topeng hannya sebagai roh perempuan bertanduk dalam dua lakon.",
+          "quote": "Hannya is the Noh mask of a female ghost featured in songs, such as “Aoinoue (Lady Aoi)” and \"Dojoji (Dojoji Temple).” It expresses “a woman’s face full of jealousy and resentment.” It has two horns, glittering eyes expressed with metal covers, shaggy hair and mouth cut open at the corners.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "karura",
+      "file": "batch-050-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 8,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "karura-c01",
+          "source_id": "karura-s1",
+          "host": "www.mlit.go.jp",
+          "statement": "Karura is a snake-eating birdlike being among the Eight Kinds.",
+          "statement_id": "Karura adalah makhluk mirip burung pemakan ular dari Delapan Golongan Makhluk Mitologis.",
+          "quote": "Karura is one of the Eight Kinds of Mythological Beings, representing a bird or birdlike being that devours snakes.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "karura-c02",
+          "source_id": "karura-s1",
+          "host": "www.mlit.go.jp",
+          "statement": "Karura derives from India’s mythical Garuda.",
+          "statement_id": "Karura berasal dari Garuda dalam mitologi India.",
+          "quote": "It is derived from Hindu, Buddhist and Jain mythology in India, and based on Garuda, the mythical bird of Hinduism.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "karura-c03",
+          "source_id": "karura-s1",
+          "host": "www.mlit.go.jp",
+          "statement": "Karura is the enemy of nāgas, snakes or dragons.",
+          "statement_id": "Karura adalah musuh nāga yang berupa ular atau naga.",
+          "quote": "Like Garuda, Karura is the enemy of nāgas (snakes or dragons)",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "karura-c04",
+          "source_id": "karura-s1",
+          "host": "www.mlit.go.jp",
+          "statement": "The statue has an armored birdlike warrior with humanlike ears and hair.",
+          "statement_id": "Patung menampilkan prajurit berparuh dan bermata burung tetapi bertelinga serta berambut manusia.",
+          "quote": "Karura is thus depicted as an armored warrior with a prominent beak and avian eyes but humanlike ears and hair.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "karura-c05",
+          "source_id": "karura-s2",
+          "host": "www.miho.jp",
+          "statement": "The Karura mask belongs to Gigaku dance.",
+          "statement_id": "Topeng Karura berhubungan dengan tarian Gigaku.",
+          "quote": "Gigaku dance is thought to have originated in the Kingdom of Wu (A.D. 222-280) during China's Southern Dynasties and was brought to Japan during the Asuka period.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "karura-c06",
+          "source_id": "karura-s2",
+          "host": "www.miho.jp",
+          "statement": "The sacred snake-eating bird became a Buddhist guardian.",
+          "statement_id": "Burung suci pemakan ular menjadi pelindung dalam Buddhisme.",
+          "quote": "Karura is a deified bird. In Indian mythology, the Karura was a sacred bird that ate the poisonous snake. When this deity was taken into Buddhism, it became one of the gods who guard the Buddhist faith.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "karura-c07",
+          "source_id": "karura-s2",
+          "host": "www.miho.jp",
+          "statement": "The mask has a jewel in its beak and a topknot.",
+          "statement_id": "Topeng Karura memiliki permata di paruh dan jambul.",
+          "quote": "This mask is in the form of the Karura bird, and a jewel is grasped in its open beak, a topknot is on its head",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "karura-c08",
+          "source_id": "karura-s1",
+          "host": "www.mlit.go.jp",
+          "statement": "The Karura statue is dated to 734.",
+          "statement_id": "Patung Karura dibuat pada 734.",
+          "quote": "The work is dated to 734 and was made by the hollow-core dry-lacquer sculpting technique.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "korpokkur",
+      "file": "batch-050-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 8,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "korpokkur-c01",
+          "source_id": "korpokkur-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Korpokkur are little people in Ainu folklore.",
+          "statement_id": "Korpokkur adalah kaum kecil dalam folklor Ainu.",
+          "quote": "are a race of little people in folklore of the Ainu people of the northern Japanese islands.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "korpokkur-c02",
+          "source_id": "korpokkur-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A tale describes small fishers in pits roofed with butterbur leaves.",
+          "statement_id": "Cerita menyebut mereka kecil, pandai memancing, dan tinggal di bawah atap daun butterbur.",
+          "quote": "They were short of stature, agile, and skilled at fishing. They lived in pits with roofs made from butterbur leaves.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "korpokkur-c03",
+          "source_id": "korpokkur-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They avoid being seen and deliver goods at night.",
+          "statement_id": "Mereka enggan terlihat dan memberi barang pada malam hari.",
+          "quote": "The little people hated to be seen, however, so they would stealthily make their deliveries under the cover of night.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "korpokkur-c04",
+          "source_id": "korpokkur-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A young man grabs and pulls a korpokkur inside.",
+          "statement_id": "Pemuda dalam cerita menarik salah seorang korpokkur ke dalam rumah.",
+          "quote": "When a korpokkur came to place something there, the young man grabbed it by the hand and dragged it inside.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "korpokkur-c05",
+          "source_id": "korpokkur-s2",
+          "host": "artmuseum.pref.hokkaido.lg.jp",
+          "statement": "The displayed paintings draw on Ainu oral literature.",
+          "statement_id": "Lukisan dalam pameran didasarkan pada sastra lisan Ainu.",
+          "quote": "This exhibition features the images of Iwafune Shuzo's paintings based on the Ainu oral literature.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "korpokkur-c06",
+          "source_id": "korpokkur-s2",
+          "host": "artmuseum.pref.hokkaido.lg.jp",
+          "statement": "The museum displayed a 1977 painting of korpokkur under butterbur leaves.",
+          "statement_id": "Museum menampilkan karya 1977 tentang korpokkur di bawah daun butterbur.",
+          "quote": "IWAFUNE Shuzo,Little Korpokkur Under the Butterbur Leaves (from the \"Yukara Painting Collection for Children\"),1977, Hakodate Museum of Art",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "korpokkur-c08",
+          "source_id": "korpokkur-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The tale says they were not seen again after the young man’s act.",
+          "statement_id": "Kisah menyebut mereka tidak terlihat lagi setelah pemuda itu bersikap kasar.",
+          "quote": "It turned out to be a beautiful korpokkur woman, who was so enraged at the young man's rudeness that her people have not been seen since.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "korpokkur-c09",
+          "source_id": "korpokkur-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The tale describes exchanges of game and fish with the Ainu.",
+          "statement_id": "Mereka bertukar hasil buruan dan ikan dengan orang Ainu dalam cerita.",
+          "quote": "Long ago, the korpokkur were on good terms with the Ainu, and would send them deer, fish, and other game and exchange goods with them.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "nurikabe",
+      "file": "batch-050-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 8,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [],
+      "claims": [
+        {
+          "id": "nurikabe-c01",
+          "source_id": "nurikabe-s1",
+          "host": "bakemono.lib.byu.edu",
+          "statement": "Nurikabe means painted or plastered wall.",
+          "statement_id": "Nama nurikabe berarti tembok bercat atau berplester.",
+          "quote": "Nurikabe means “painted wall” or “plastered wall.”",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nurikabe-c02",
+          "source_id": "nurikabe-s1",
+          "host": "bakemono.lib.byu.edu",
+          "statement": "The phenomenon obstructs a traveler like a wall.",
+          "statement_id": "Cerita menghadirkan penghalang seperti tembok pada perjalanan.",
+          "quote": "It is an inexplicable phenomenon that impedes a traveler’s progress as if it were an invisible wall.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nurikabe-c03",
+          "source_id": "nurikabe-s1",
+          "host": "bakemono.lib.byu.edu",
+          "statement": "Yanagita published Fukuoka accounts in 1933.",
+          "statement_id": "Yanagita menerbitkan catatan cerita dari Fukuoka pada 1933.",
+          "quote": "Folklorist Yanagita Kunio had recorded oral traditions concerning nurikabe in Fukuoka prefecture on the island of Kyushu and published his findings in 1933.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nurikabe-c04",
+          "source_id": "nurikabe-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Sweeping the bottom with a stick removes the obstruction.",
+          "statement_id": "Menyapu bagian bawah dengan tongkat menghilangkan penghalang.",
+          "quote": "If one takes a stick and sweeps at the bottom, it goes away, but striking its top does nothing.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nurikabe-c05",
+          "source_id": "nurikabe-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Yanagita’s quoted text does not explicitly say the wall is invisible.",
+          "statement_id": "Teks Yanagita tidak secara tegas menyebut tembok itu tidak terlihat.",
+          "quote": "the quoted text above does not explicitly refer to the wall's invisibility, so this is an aspect inferred by commentators.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nurikabe-c06",
+          "source_id": "nurikabe-s1",
+          "host": "bakemono.lib.byu.edu",
+          "statement": "The scroll depicts a three-eyed white form resembling an elephant or lion-dog.",
+          "statement_id": "Gulungan menampilkan sosok putih bermata tiga yang mirip gajah atau anjing singa.",
+          "quote": "The nurikabe in Bakemono no e resembles a white elephant without a trunk, or perhaps a white lion-dog, or komainu, with three eyes and black fangs.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nurikabe-c07",
+          "source_id": "nurikabe-s1",
+          "host": "bakemono.lib.byu.edu",
+          "statement": "Mizuki drew manga nurikabe based on Yanagita’s description.",
+          "statement_id": "Mizuki menggambar nurikabe untuk manga berdasarkan catatan Yanagita.",
+          "quote": "Mizuki Shigeru based his illustration of nurikabe in his famous manga series GeGeGe no Kitarō on Yanagita’s description",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nurikabe-c08",
+          "source_id": "nurikabe-s1",
+          "host": "bakemono.lib.byu.edu",
+          "statement": "Some scholars doubt that the scroll and oral account concern the same being.",
+          "statement_id": "Sebagian peneliti meragukan kesamaan nurikabe dalam lukisan dan cerita lisan.",
+          "quote": "Some Japanese scholars, however, contend that the nurikabe illustrated in Bakemono no e and the nurikabe of folklore in Kyushu are not the same.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "oyamatsumi",
+      "file": "batch-050.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 9,
+        "sources": 2,
+        "images": 1
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "images[0] (File:Ooyamatsumi shinbutsu-zue.jpg)",
+          "message": "Keterkaitan otomatis: dipakai di en.wikipedia.org: Ōyamatsumi. Cek visual tetap diperlukan."
+        }
+      ],
+      "claims": [
+        {
+          "id": "oyamatsumi-c01",
+          "source_id": "oyamatsumi-s1",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The name Ōyamatsumi refers to a great deity over mountains.",
+          "statement_id": "Nama Ōyamatsumi mengacu pada dewa yang menguasai pegunungan.",
+          "quote": "The term yamatsumi means a spirit dwelling within a mountain, with the result that the name Ōyamatsumi means a great deity with jurisdiction over mountains.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oyamatsumi-c02",
+          "source_id": "oyamatsumi-s1",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "According to the Kojiki, he arose as Izanagi and Izanami produced the land.",
+          "statement_id": "Menurut Kojiki, ia lahir saat Izanagi dan Izanami melahirkan daratan.",
+          "quote": "According to Kojiki, one of the deities produced as Izanagi no mikoto and Izanami no mikoto gave birth to the land",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oyamatsumi-c03",
+          "source_id": "oyamatsumi-s1",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "A Nihongi variant says he arose from a piece of Kagutsuchi.",
+          "statement_id": "Varian Nihongi menyebut ia berasal dari potongan Kagutsuchi.",
+          "quote": "According to an \"alternate writing\" transmitted by Nihongi, Ōyamatsumi was produced from one of the three pieces into which Kagutsuchi was cut by Izanagi.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oyamatsumi-c04",
+          "source_id": "oyamatsumi-s1",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Shrines to kami with this name are found throughout Japan.",
+          "statement_id": "Kuil untuk kami bernama Ōyamatsumi tersebar di Jepang.",
+          "quote": "Shrines to kami with this name can be found throughout Japan.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oyamatsumi-c05",
+          "source_id": "oyamatsumi-s1",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "In Japanese folk religion, the name can mean a mountain kami or the spirit of someone who died in the mountains.",
+          "statement_id": "Dalam kepercayaan rakyat Jepang, nama itu dapat menunjuk kami suatu gunung atau roh orang yang meninggal di pegunungan.",
+          "quote": "In Japanese folk religion, the kami of any given mountain is sometimes called Ōyamatsumi, as is the spirit of someone who has died within the mountains; in many cases, cairns of stones are erected as a place of worship.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oyamatsumi-c06",
+          "source_id": "oyamatsumi-s2",
+          "host": "www.mlit.go.jp",
+          "statement": "The Toba shrine worships Oyamazumi as a deity of mountains and seas.",
+          "statement_id": "Kuil di Toba memuja Oyamazumi sebagai dewa gunung dan laut.",
+          "quote": "this shrine to Oyamazumi, the kami (Shinto deity) of mountains and seas, was located on the hilltop where construction was taking place.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "oyamatsumi-c07",
+          "source_id": "oyamatsumi-s2",
+          "host": "www.mlit.go.jp",
+          "statement": "The local account says the shrine was moved after repeated collapses during castle construction.",
+          "statement_id": "Menurut catatan setempat, kuil dipindahkan saat pembangunan kastel setelah fondasi dan tembok berulang kali runtuh.",
+          "quote": "After many incidents of the stone walls and foundations collapsing, he had the shrine moved to its current location. The problems ceased, and Yoshitaka was able to complete construction of the castle.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "oyamatsumi-c08",
+          "source_id": "oyamatsumi-s2",
+          "host": "www.mlit.go.jp",
+          "statement": "Two spring festivals for Oyamazumi include a dance with lion and tengu costumes.",
+          "statement_id": "Dua festival musim semi untuk Oyamazumi mencakup tarian dengan kostum singa dan tengu.",
+          "quote": "Oyamazumi is known for two spring festivals: One features a dance where performers dress up as traditional costumes of lions and tengu, legendary kami with distinctive long noses.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "oyamatsumi-c09",
+          "source_id": "oyamatsumi-s2",
+          "host": "www.mlit.go.jp",
+          "statement": "Another festival includes a mikoshi procession with traditional music.",
+          "statement_id": "Festival lain menampilkan arak-arakan mikoshi diiringi musik tradisional.",
+          "quote": "In the other, townsfolk carry a mikoshi (portable shrine) around town accompanied by traditional music.",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Ooyamatsumi shinbutsu-zue.jpg",
+          "claimed_license": "Public domain",
+          "evidence": "Deskripsi Commons menyebut 大山祇尊 dan data terstruktur menyatakan depicts Ōyamatsumi; berkas juga dipakai di artikel Wikipedia Ōyamatsumi.",
+          "image_type": "historical-illustration",
+          "commons_license": "Public domain",
+          "rights": "PUBLIC_DOMAIN",
+          "author": "玉蘭斎貞秀",
+          "date": "before 1868",
+          "description": "大山祇尊（『神仏図会』）",
+          "restrictions": null,
+          "categories": [
+            "Kunitsukami",
+            "PD-Japan",
+            "PD-US missing SDC copyright status",
+            "PD-old missing SDC copyright status",
+            "PD US expired",
+            "Utagawa Sadahide"
+          ],
+          "used_on": [
+            "az.wikipedia.org: Ooyamatsimu",
+            "en.wikipedia.org: Ōyamatsumi",
+            "it.wikipedia.org: Ōyamatsumi",
+            "ja.wikipedia.org: オオヤマツミ",
+            "mni.wikipedia.org: ꯑꯣꯌꯃꯠꯁꯨꯃꯤ",
+            "simple.wikipedia.org: Ōyamatsumi",
+            "sv.wikipedia.org: Ōyamatsumi",
+            "tr.wikipedia.org: Ōyamatsumi",
+            "www.wikidata.org: Q386563"
+          ],
+          "auto_evidence": [
+            "dipakai di en.wikipedia.org: Ōyamatsumi"
+          ],
+          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-050/oyamatsumi-1.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "shachihoko",
+      "file": "batch-050.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 9,
+        "sources": 2,
+        "images": 1
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "images[0] (File:Shachihoko on the roof of Kōchi-jō (6453659401).jpg)",
+          "message": "Keterkaitan otomatis: nama berkas, kategori \"Shachi statues on roofs in Japan\". Cek visual tetap diperlukan."
+        }
+      ],
+      "claims": [
+        {
+          "id": "shachihoko-c01",
+          "source_id": "shachihoko-s1",
+          "host": "www.mlit.go.jp",
+          "statement": "Shachihoko are also called shachi and used as castle-roof ornaments.",
+          "statement_id": "Shachihoko juga disebut shachi dan dijadikan hiasan atap kastel.",
+          "quote": "The roofs of many castles are adorned with ornamental ridge-end tiles in the shape of creatures called shachi (or shachihoko).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shachihoko-c02",
+          "source_id": "shachihoko-s1",
+          "host": "www.mlit.go.jp",
+          "statement": "These legendary creatures have tiger heads and fish bodies.",
+          "statement_id": "Makhluk legenda ini berkepala harimau dan bertubuh ikan.",
+          "quote": "These legendary beasts have the heads of tigers and the bodies of fish.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shachihoko-c03",
+          "source_id": "shachihoko-s1",
+          "host": "www.mlit.go.jp",
+          "statement": "Folklore says shachi spray water to put out fires, and their ornaments were believed to protect castles.",
+          "statement_id": "Menurut cerita rakyat, shachi menyemburkan air untuk memadamkan api dan hiasannya dianggap melindungi kastel.",
+          "quote": "According to folklore, shachi can spray water from their mouths to put out fires, and the tiles were believed to protect the castle.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shachihoko-c04",
+          "source_id": "shachihoko-s1",
+          "host": "www.mlit.go.jp",
+          "statement": "Shachi often occur in male-female pairs with open and closed mouths.",
+          "statement_id": "Shachi sering berpasangan jantan dan betina, dengan mulut terbuka dan tertutup.",
+          "quote": "shachi frequently appear in male–female pairs. The male’s open mouth and the closed mouth of the female are said to represent the sounds “a” and “m.”",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shachihoko-c05",
+          "source_id": "shachihoko-s1",
+          "host": "www.mlit.go.jp",
+          "statement": "The sounds symbolize the beginning and end of all things in religious traditions.",
+          "statement_id": "Bunyi itu melambangkan awal dan akhir segala sesuatu dalam tradisi agama.",
+          "quote": "These two sounds signify the beginning and the end of all things, and they have deep significance within Buddhism and other religions that originate from India.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shachihoko-c06",
+          "source_id": "shachihoko-s1",
+          "host": "www.mlit.go.jp",
+          "statement": "The displayed pair was removed from the Great Keep roof during repairs in the 1950s.",
+          "statement_id": "Sepasang hiasan Kastel Matsumoto dilepas saat perbaikan pada 1950-an.",
+          "quote": "The tiles displayed here were removed from the roof of the Great Keep during repairs in the 1950s.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shachihoko-c07",
+          "source_id": "shachihoko-s1",
+          "host": "www.mlit.go.jp",
+          "statement": "Inscriptions suggest the pair was added to the castle in 1843.",
+          "statement_id": "Inskripsi mengisyaratkan pasangan itu dipasang pada 1843.",
+          "quote": "Inscriptions on the two wooden posts that held the tiles indicates this pair of shachi was likely added to the castle in 1843.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shachihoko-c08",
+          "source_id": "shachihoko-s2",
+          "host": "www.nagoyajo.city.nagoya.jp",
+          "statement": "Nagoya Castle has golden shachihoko on its roof.",
+          "statement_id": "Kastel Nagoya memiliki shachihoko keemasan di atap.",
+          "quote": "Topped with golden shachihoko, votive tiger-fish roof devices, and boasting the largest floorspace of any tower keep, Nagoya Castle",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shachihoko-c09",
+          "source_id": "shachihoko-s2",
+          "host": "www.nagoyajo.city.nagoya.jp",
+          "statement": "Nagoya Castle is in Japan.",
+          "statement_id": "Kastel Nagoya berada di Jepang.",
+          "quote": "Nagoya Castle was Japan’s first castle to be designated a National Treasure.",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Shachihoko on the roof of Kōchi-jō (6453659401).jpg",
+          "claimed_license": "CC BY 2.0",
+          "evidence": "Judul dan deskripsi berkas Commons menyebut Shachihoko on the roof of Kōchi-jō; tag berkas mencakup Shachihoko dan mythical creatures.",
+          "image_type": "artifact",
+          "commons_license": "CC BY 2.0",
+          "rights": "OPEN_LICENSE",
+          "author": "Maarten Heerlien from Voorschoten, The Netherlands",
+          "date": "2010-10-02 11:29",
+          "description": "Symbols of good luck to ward off the threat of fire",
+          "restrictions": null,
+          "categories": [
+            "CC-BY-2.0",
+            "Files with coordinates missing SDC location of creation",
+            "Flickr images reviewed by FlickreviewR 2",
+            "Kochi Castle",
+            "Photographs by Maarten Heerlien",
+            "Shachi statues on roofs in Japan"
+          ],
+          "used_on": [],
+          "auto_evidence": [
+            "nama berkas",
+            "kategori \"Shachi statues on roofs in Japan\""
+          ],
+          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-050/shachihoko-1.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "tenjin",
+      "file": "batch-050-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 8,
+        "sources": 3,
+        "images": 1
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "images[0] (File:Sengai Gibon - “Tenmangū,” Sugawara no Michizane as Tenjin Traveling to China - 2015.500.9.17 - Metropolitan Museum of Art.jpg)",
+          "message": "Keterkaitan otomatis: nama berkas. Cek visual tetap diperlukan."
+        }
+      ],
+      "claims": [
+        {
+          "id": "tenjin-c01",
+          "source_id": "tenjin-s1",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Tenjin originally meant heavenly god but later referred to Sugawara Michizane’s spirit.",
+          "statement_id": "Tenjin semula berarti dewa langit tetapi kemudian merujuk pada roh Sugawara no Michizane.",
+          "quote": "Originally meant \"Heavenly God,\" but later came to refer exclusively to the spirit of courtier-scholar Sugawara Michizane (845-903).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tenjin-c02",
+          "source_id": "tenjin-s1",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Michizane was exiled after political intrigue and died in exile.",
+          "statement_id": "Michizane dibuang akibat intrik politik dan meninggal dalam pembuangan.",
+          "quote": "A victim of political intrigue, Michizane was sent into exile but continued to protest his innocence through poetry until his death.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tenjin-c03",
+          "source_id": "tenjin-s1",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Disasters were attributed to his spirit, followed by posthumous pardon, promotion, and deification.",
+          "statement_id": "Serangkaian bencana dikaitkan dengan rohnya, lalu ia diampuni, dinaikkan pangkatnya, dan didewakan setelah wafat.",
+          "quote": "His angry spirit was later judged to be the source of a series of disasters, and so he was posthumously pardoned, given a promotion in court rank, and ultimately deified.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tenjin-c04",
+          "source_id": "tenjin-s1",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Tenjin is revered as a patron of scholarship at shrines across Japan.",
+          "statement_id": "Tenjin dihormati sebagai pelindung ilmu pengetahuan di kuil-kuil Jepang.",
+          "quote": "He is revered as the patron saint of scholarship at such shrines as the Dazaifu Tenmangû in Fukuoka Prefecture and Kitano Tenjin shrines throughout Japan.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tenjin-c05",
+          "source_id": "tenjin-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The term tenjin predates Michizane’s cult and once denoted heavenly deities.",
+          "statement_id": "Istilah tenjin telah dipakai sebelum pemujaan Michizane dan pernah menunjuk konsep dewa langit.",
+          "quote": "The use of the term \"tenjin\" however, predates the ninth century. In ancient China the expression \"heavenly deities and earthly deities\" (Tenjin chigi\" 天神地祇) existed and subsequently in Japan the same characters were applied to the words \"Amatsukami\" and \"Kunitsukami\".",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tenjin-c06",
+          "source_id": "tenjin-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The figure of Tenjin combines Michizane’s spirit with a thunder deity and other religious elements.",
+          "statement_id": "Sosok Tenjin memadukan roh Michizane dengan dewa guntur dan unsur keagamaan lain.",
+          "quote": "The kami Tenman Daijizai Tenjin is a combination of the tenjin \"thunder deity\" (raijin) who rules the weather, Michizane's \"vengeful spirit\" (goryō ), a Chinese deity for whom oxen were killed and offered, the esoteric Buddhist (Mikkyō) \"Dharma protector deity\" (gohōjin), and the mythological Amatsukami (Tenjin).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tenjin-c08",
+          "source_id": "tenjin-s3",
+          "host": "kyoto.travel",
+          "statement": "Kitano Tenmangū was dedicated to Michizane in 947 and gave rise to branch shrines.",
+          "statement_id": "Kitano Tenmangū didedikasikan kepada Michizane pada 947 dan memunculkan kuil cabang.",
+          "quote": "This shrine was dedicated to noted scholar and poet Sugawara-no-Michizane (posthumously named Tenjin) in 947. It was revered by the court and the shogunate and spawned many branch shrines along with temple schools throughout the country.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tenjin-c09",
+          "source_id": "tenjin-s3",
+          "host": "kyoto.travel",
+          "statement": "Tenjin is popular with students preparing for school or university entrance exams.",
+          "statement_id": "Pelajar yang menghadapi ujian masuk sekolah atau universitas menghormati Tenjin.",
+          "quote": "Tenjin is now regarded as the deity of scholastic studies and is extremely popular with students preparing for high school or university entrance examinations.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Sengai Gibon - “Tenmangū,” Sugawara no Michizane as Tenjin Traveling to China - 2015.500.9.17 - Metropolitan Museum of Art.jpg",
+          "claimed_license": "Public domain",
+          "evidence": "Judul karya pada halaman Commons secara eksplisit menyebut Sugawara no Michizane as Tenjin.",
+          "image_type": "traditional-artwork",
+          "commons_license": "Public domain",
+          "rights": "PUBLIC_DOMAIN",
+          "author": "Sengai",
+          "date": "between 1800 and 1833",
+          "description": null,
+          "restrictions": null,
+          "categories": [
+            "Artworks digital representation of 2D work",
+            "Artworks with Wikidata item",
+            "Artworks with Wikidata item missing genre",
+            "Artworks with accession number from Wikidata",
+            "Artworks with known accession number",
+            "CC-PD-Mark",
+            "Japanese paintings in the Metropolitan Museum of Art",
+            "PD-Art (PD-old-auto-expired)",
+            "PD-old-100-expired",
+            "Sengai Gibon"
+          ],
+          "used_on": [
+            "www.wikidata.org: Q78664424"
+          ],
+          "auto_evidence": [
+            "nama berkas"
+          ],
+          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-050/tenjin-1.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "abumi-guchi",
+      "file": "batch-050-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 2,
+        "images": 1
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "manual",
+          "where": "images[0] (File:SekienAbumi-guchi.jpg)",
+          "message": "Keterkaitan otomatis: deskripsi berkas, dipakai di en.wikipedia.org: Abumi-guchi. Cek visual tetap diperlukan."
+        }
+      ],
+      "claims": [
+        {
+          "id": "abumi-guchi-c01",
+          "source_id": "abumi-guchi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Abumi-guchi is a furry Japanese yōkai meaning stirrup mouth, illustrated by Sekien.",
+          "statement_id": "Abumi-guchi adalah yōkai Jepang berbulu yang berarti mulut sanggurdi dan digambar Sekien.",
+          "quote": "An abumi-guchi (鐙口; lit. \"stirrup mouth\") is a strange furry yōkai, or Japanese monster, that is illustrated in Sekien Toriyama's Gazu Hyakki Tsurezure Bukuro.",
+          "context": "historical-record",
+          "status": "loose"
+        },
+        {
+          "id": "abumi-guchi-c02",
+          "source_id": "abumi-guchi-s2",
+          "host": "commons.wikimedia.org",
+          "statement": "The Commons file identifies an illustration of Abumi-guchi in Gazu Hyakki Tsurezure Bukuro.",
+          "statement_id": "Berkas Commons mengidentifikasi ilustrasi Abumi-guchi dalam Gazu Hyakki Tsurezure Bukuro.",
+          "quote": "Abumi-guchi (鐙口) from the Gazu Hyakki Tsurezure Bukuro (百器徒然袋)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "abumi-guchi-c03",
+          "source_id": "abumi-guchi-s2",
+          "host": "commons.wikimedia.org",
+          "statement": "The illustration file is dated 1784.",
+          "statement_id": "Berkas ilustrasi ini diberi tanggal 1784.",
+          "quote": "Date 1784 Source scanned from ISBN",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:SekienAbumi-guchi.jpg",
+          "claimed_license": "Public domain",
+          "evidence": "Deskripsi berkas Commons menyebut Abumi-guchi (鐙口) secara eksplisit dan mengaitkannya dengan Gazu Hyakki Tsurezure Bukuro.",
+          "image_type": "historical-illustration",
+          "commons_license": "Public domain",
+          "rights": "PUBLIC_DOMAIN",
+          "author": "Toriyama Sekien ( 鳥山石燕 )",
+          "date": "1784",
+          "description": "Abumi-guchi ( 鐙口 ) from the Gazu Hyakki Tsurezure Bukuro ( 百器徒然袋 )",
+          "restrictions": null,
+          "categories": [
+            "Gazu Hyakki Tsurezure Bukuro",
+            "PD-Japan",
+            "PD-old missing SDC copyright status",
+            "Tsukumogami"
+          ],
+          "used_on": [
+            "bg.wikipedia.org: Абуми-гучи",
+            "ca.wikipedia.org: Abumi-kuchi",
+            "de.wikipedia.org: Abumikuchi",
+            "en.wikipedia.org: Gazu Hyakki Tsurezure Bukuro",
+            "en.wikipedia.org: Abumi-guchi",
+            "es.wikipedia.org: Abumi-kuchi",
+            "fa.wikipedia.org: آبومی گوچی",
+            "fr.wikipedia.org: Gazu hyakki tsurezure bukuro",
+            "fr.wikipedia.org: Abumi-kuchi",
+            "id.wikipedia.org: Abumi-guchi",
+            "id.wikipedia.org: Gazu Hyakki Tsurezure Bukuro",
+            "it.wikipedia.org: Gazu hyakki tsurezure bukuro",
+            "it.wikipedia.org: Abumi-guchi",
+            "ja.wikipedia.org: 鐙口",
+            "ja.wikipedia.org: 百器徒然袋"
+          ],
+          "auto_evidence": [
+            "deskripsi berkas",
+            "dipakai di en.wikipedia.org: Abumi-guchi"
+          ],
+          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-050/abumi-guchi-1.jpg"
+        }
+      ]
     }
   ]
 }
