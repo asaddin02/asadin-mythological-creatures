@@ -7825,3 +7825,975 @@
 }
 ```
 
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "tsuchinoko",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Tsuchinoko",
+    "native_name": null,
+    "display_name": {
+      "id": "Tsuchinoko",
+      "en": "Tsuchinoko"
+    },
+    "wikidata_qid": "Q1072924",
+    "claim_ids": [
+      "tsuchinoko-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "tsuchinoko-c06"
+    ]
+  },
+  "classification": {
+    "value": "cryptid",
+    "claim_ids": [
+      "tsuchinoko-c05",
+      "tsuchinoko-c06"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "tsuchinoko-c01",
+      "tsuchinoko-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "tsuchinoko-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Tsuchinoko adalah sosok mirip ular bertubuh pendek dan tebal dalam kisah daerah yang juga dikenal sebagai hewan misterius.",
+    "en": "Tsuchinoko is a short, thick snake-like figure of local stories, also treated as a mysterious animal.",
+    "claim_ids": [
+      "tsuchinoko-c01",
+      "tsuchinoko-c02",
+      "tsuchinoko-c06",
+      "tsuchinoko-c10"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Tsuchinoko digambarkan sebagai sosok mirip ular dengan badan pendek dan tebal, yang kabarnya terlihat di jalan gunung, ladang, atau tepi sungai. Gambaran setempat menyebut panjang sekitar 30 sampai 80 sentimeter, badan setebal botol, dan kepala yang menonjol. Laporan yang dikumpulkan dari berbagai daerah membentang dari Iwate sampai Kagoshima; namanya pun bervariasi menurut daerah. Semua itu adalah kesaksian dan cerita, sedangkan keberadaan makhluknya belum dikonfirmasi secara ilmiah.",
+      "en": "Tsuchinoko is described as a short, thick snake-like figure reportedly seen on mountain paths, in fields, or beside rivers. Local descriptions give it a length of roughly 30 to 80 centimeters, a body as thick as a bottle, and a protruding head. Reported sightings range from Iwate to Kagoshima, and its names vary by region. These are accounts and stories; the creature has not been scientifically confirmed.",
+      "claim_ids": [
+        "tsuchinoko-c01",
+        "tsuchinoko-c02",
+        "tsuchinoko-c03",
+        "tsuchinoko-c04",
+        "tsuchinoko-c05"
+      ]
+    },
+    {
+      "id": "Tsuchinoko berada di persilangan kisah yōkai dan gagasan modern tentang hewan misterius. Di sebuah desa, acara pencarian dan hadiah membuatnya terus dibicarakan sebagai bagian dari kehidupan setempat. Sebuah kajian folklor mencatat temuan kerangka di Yoshii pada tahun 2000 yang sempat dicurigai sebagai tsuchinoko. Setelah diperiksa, ahli biologi mengidentifikasinya sebagai ular rumput yang cacat. Kisah itu memperlihatkan bahwa cerita makhluk ini dapat memicu pencarian sekaligus pemeriksaan ilmiah.",
+      "en": "Tsuchinoko sits between yōkai stories and the modern idea of a mysterious animal. In a village, search events and prizes keep it present in local life. A folklore study describes bones found in Yoshii in 2000 that were suspected to be tsuchinoko. After examination, a biologist identified them as a malformed grass snake. The episode shows how the story can prompt searches and scientific investigation.",
+      "claim_ids": [
+        "tsuchinoko-c06",
+        "tsuchinoko-c07",
+        "tsuchinoko-c08",
+        "tsuchinoko-c09",
+        "tsuchinoko-c10"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "tsuchinoko-s1",
+      "url": "https://yokai.jp/en/yokai/tsuchinoko",
+      "title": "Tsuchinoko",
+      "author": null,
+      "publisher": "YOKAI.JP",
+      "published": null,
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "tsuchinoko-s2",
+      "url": "https://content.ucpress.edu/title/9780520253629/9780520253629_chapone.pdf",
+      "title": "Pandemonium and Parade: Japanese Monsters and the Culture of Yōkai, chapter 1",
+      "author": "Michael Dylan Foster",
+      "publisher": "University of California Press",
+      "published": "2009",
+      "language": "en",
+      "type": "academic-book",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "tsuchinoko-s3",
+      "url": "https://english.kyodonews.net/articles/-/47673",
+      "title": "Film shows rural Japan's changing face through eyes of mythic critter",
+      "author": "Peter Masheter",
+      "publisher": "Kyodo News",
+      "published": "2024-05-19",
+      "language": "en",
+      "type": "news",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "tsuchinoko-c01",
+      "source_id": "tsuchinoko-s1",
+      "quote": "Tsuchinoko is a mallet-shaped, thick-bodied serpentine monster said to be sighted in mountain paths, fields, and the thickets of riverbanks.",
+      "locator": "Basic Description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tsuchinoko digambarkan sebagai makhluk mirip ular bertubuh tebal yang terlihat di jalan gunung, ladang, dan tepian sungai.",
+        "en": "Tsuchinoko is a thick-bodied snake-like figure said to appear on paths, fields, and riverbanks."
+      }
+    },
+    {
+      "id": "tsuchinoko-c02",
+      "source_id": "tsuchinoko-s1",
+      "quote": "a creature about thirty to eighty centimeters long, with a head protruding from a body thick as a beer bottle",
+      "locator": "Basic Description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Gambaran setempat menyebut panjang 30–80 sentimeter dan badan setebal botol.",
+        "en": "Accounts describe a thirty to eighty centimeter creature with a bottle-thick body."
+      }
+    },
+    {
+      "id": "tsuchinoko-c03",
+      "source_id": "tsuchinoko-s1",
+      "quote": "the national scale of sightings from Iwate Prefecture in the north to Kagoshima Prefecture in the south",
+      "locator": "Folklore & Legends",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Laporan penampakan disebut tersebar dari Iwate sampai Kagoshima.",
+        "en": "Reported sightings range from Iwate to Kagoshima."
+      }
+    },
+    {
+      "id": "tsuchinoko-c04",
+      "source_id": "tsuchinoko-s1",
+      "quote": "The multitude of local names indicates that the Tsuchinoko was not a uniform character nationwide.",
+      "locator": "Folklore & Legends",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Nama tsuchinoko bervariasi menurut daerah.",
+        "en": "Tsuchinoko has varied local names and is not a uniform national figure."
+      }
+    },
+    {
+      "id": "tsuchinoko-c05",
+      "source_id": "tsuchinoko-s2",
+      "quote": "a legendary reptilelike creature the existence of which had never been scientifically confirmed.",
+      "locator": "Chapter 1, p. 1",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Keberadaan tsuchinoko belum dikonfirmasi secara ilmiah.",
+        "en": "Tsuchinoko has not been scientifically confirmed."
+      }
+    },
+    {
+      "id": "tsuchinoko-c06",
+      "source_id": "tsuchinoko-s1",
+      "quote": "occupying a unique position of being a yokai while simultaneously being a cryptid.",
+      "locator": "Basic Description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tsuchinoko dibicarakan sebagai yōkai sekaligus hewan misterius.",
+        "en": "Tsuchinoko is described as both a yōkai and a cryptid."
+      }
+    },
+    {
+      "id": "tsuchinoko-c07",
+      "source_id": "tsuchinoko-s1",
+      "quote": "Elements like the venue, the search, treasure hunting, rallies, local products, and bounties turn the yokai into an object to be jointly sought",
+      "locator": "Folklore & Legends",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Acara pencarian, produk daerah, dan hadiah membuat tsuchinoko menjadi sasaran pencarian bersama.",
+        "en": "Search events, local products, and bounties turn tsuchinoko into a collective pursuit."
+      }
+    },
+    {
+      "id": "tsuchinoko-c08",
+      "source_id": "tsuchinoko-s2",
+      "quote": "The bones were found in May 2000, in the small town of Yoshii in Okayama Prefecture.",
+      "locator": "Chapter 1, p. 1",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pada tahun 2000 kerangka yang diduga tsuchinoko ditemukan di Yoshii.",
+        "en": "Possible tsuchinoko bones were found in Yoshii in 2000."
+      }
+    },
+    {
+      "id": "tsuchinoko-c09",
+      "source_id": "tsuchinoko-s2",
+      "quote": "a professor of biology declared that the remains were not those of a tsuchinoko but rather of a malformed grass snake.",
+      "locator": "Chapter 1, p. 1",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ahli biologi menyatakan kerangka itu berasal dari ular rumput yang cacat.",
+        "en": "A biologist identified the bones as a malformed grass snake."
+      }
+    },
+    {
+      "id": "tsuchinoko-c10",
+      "source_id": "tsuchinoko-s3",
+      "quote": "the tsuchinoko, a creature resembling a fat snake that has never been conclusively confirmed as real",
+      "locator": "Opening paragraph",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Media menggambarkan tsuchinoko sebagai ular gemuk yang keberadaannya belum dapat dipastikan.",
+        "en": "A news account describes tsuchinoko as a fat snake not conclusively confirmed as real."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "akaname",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Akaname",
+    "native_name": null,
+    "display_name": {
+      "id": "Akaname",
+      "en": "Akaname"
+    },
+    "wikidata_qid": "Q249247",
+    "claim_ids": [
+      "akaname-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "akaname-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "akaname-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "akaname-c01",
+      "akaname-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "akaname-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Akaname adalah yōkai penghuni tempat mandi kotor yang digambarkan menjilat kerak dengan lidah panjang.",
+    "en": "Akaname is a yōkai of dirty bathing places, pictured licking grime with a long tongue.",
+    "claim_ids": [
+      "akaname-c01",
+      "akaname-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Akaname berarti penjilat kotoran. Yōkai ini digambarkan bersembunyi di tempat mandi dan menggunakan lidah panjang untuk menjilat kerak pada malam hari. Kata aka dalam namanya dapat merujuk pada kulit mati, kotoran, atau endapan di tempat mandi. Toriyama Sekien menampilkannya dalam buku gambar yōkai tahun 1776, sementara nama serupa, akaneburi, dianggap sebagai pendahulunya.",
+      "en": "Akaname means filth licker. This yōkai is pictured lurking in bathing places and using a long tongue to lick grime at night. Aka in its name can refer to dead skin, dirt, or scum in a bath. Toriyama Sekien depicted it in a 1776 illustrated yōkai book, while a similar name, akaneburi, is regarded as a precursor.",
+      "claim_ids": [
+        "akaname-c01",
+        "akaname-c02",
+        "akaname-c03",
+        "akaname-c04",
+        "akaname-c05"
+      ]
+    },
+    {
+      "id": "Gambaran rupanya tidak selalu sama. Sebuah artikel menyebut akaname sering digambarkan merah, mungkin karena aka juga terdengar seperti kata untuk warna merah. Akaname pada cetakan permainan tahun 1858 justru berkulit biru kehitaman. Sekien sendiri tidak memberi uraian tertulis rinci pada gambarnya. Karena itu, penjelasan bahwa kisahnya mengingatkan orang membersihkan tempat mandi adalah sebuah tafsir, demikian pula gagasan bahwa ia melambangkan rasa takut pergi ke toilet pada malam hari.",
+      "en": "Its appearance is not consistent. One account says it is often pictured red, perhaps because aka also evokes the word for that color. An 1858 game print instead makes it blue-black. Sekien gave no detailed written explanation with his image. Reading the story as a reminder to clean the bath is therefore an interpretation, as is the idea that it embodies fear of visiting the toilet at night.",
+      "claim_ids": [
+        "akaname-c06",
+        "akaname-c07",
+        "akaname-c08",
+        "akaname-c09"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "akaname-s1",
+      "url": "https://www.nippon.com/en/nipponblog/m00073/",
+      "title": "Five Ghosts and Goblins",
+      "author": null,
+      "publisher": "Nippon.com",
+      "published": "2015-02-11",
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "akaname-s2",
+      "url": "https://en.wikipedia.org/wiki/Akaname",
+      "title": "Akaname",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "akaname-c01",
+      "source_id": "akaname-s2",
+      "quote": "is a Japanese yōkai depicted in Toriyama Sekien's 1776 book Gazu Hyakki Yagyō",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Akaname adalah yōkai Jepang yang digambar Sekien pada 1776.",
+        "en": "Akaname is a Japanese yōkai depicted by Sekien in 1776."
+      }
+    },
+    {
+      "id": "akaname-c02",
+      "source_id": "akaname-s1",
+      "quote": "Literally “filth licker,” this goblinlike creature lurks in the bathroom, where it uses its long, prehensile tongue to lap up accumulated scum in the dead of night.",
+      "locator": "Akaname",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Akaname berarti penjilat kotoran dan memakai lidah panjang untuk menjilat kerak tempat mandi pada malam hari.",
+        "en": "Akaname means filth licker and uses a long tongue to lick bathroom scum at night."
+      }
+    },
+    {
+      "id": "akaname-c03",
+      "source_id": "akaname-s2",
+      "quote": "The word aka refers to dead skin on a person's body",
+      "locator": "Terminology",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kata aka dapat merujuk pada kulit mati.",
+        "en": "The word aka can mean dead skin."
+      }
+    },
+    {
+      "id": "akaname-c04",
+      "source_id": "akaname-s2",
+      "quote": "the aka can also refer to scum that accumulates at the bathhouse as a result, including perhaps mildew.",
+      "locator": "Terminology",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Aka juga dapat berarti kerak yang menumpuk di tempat mandi.",
+        "en": "Aka can also mean accumulated bathhouse scum."
+      }
+    },
+    {
+      "id": "akaname-c05",
+      "source_id": "akaname-s2",
+      "quote": "with its precursor or equivalent akaneburi",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Akaneburi dianggap sebagai pendahulu atau padanan akaname.",
+        "en": "Akaneburi is regarded as a precursor or equivalent of akaname."
+      }
+    },
+    {
+      "id": "akaname-c06",
+      "source_id": "akaname-s1",
+      "quote": "In a probable play on the aka part of the name, this yōkai is often described as being red from head to toe.",
+      "locator": "Akaname",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Akaname sering digambarkan merah, mungkin karena permainan kata pada aka.",
+        "en": "Akaname is often pictured red, possibly through a play on aka."
+      }
+    },
+    {
+      "id": "akaname-c07",
+      "source_id": "akaname-s2",
+      "quote": "In the Hyakushu kaibutsu yōkai sugoroku (1858), it is depicted as an eerie, blue-black skinned figure.",
+      "locator": "Edo period",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sebuah cetakan permainan tahun 1858 justru menampilkan akaname berkulit biru kehitaman.",
+        "en": "An 1858 game print shows akaname with blue-black skin."
+      }
+    },
+    {
+      "id": "akaname-c08",
+      "source_id": "akaname-s2",
+      "quote": "Sekien did not provide any verbal details regarding his akaname, as was the case in all the yōkai depicted in this particular early work of his.",
+      "locator": "Edo period",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sekien tidak menyertakan uraian tertulis rinci mengenai akaname.",
+        "en": "Sekien gave no written details about his akaname."
+      }
+    },
+    {
+      "id": "akaname-c09",
+      "source_id": "akaname-s1",
+      "quote": "some suggest the akaname is the fear of nighttime visits to the toilet given flesh, others argue that there is a trend for the use of such harmless yōkai in instructive or educational tales",
+      "locator": "Akaname",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tafsir modern menghubungkan akaname dengan ketakutan malam atau ajakan menjaga kebersihan.",
+        "en": "Interpretations link akaname to nighttime fear or to a lesson about cleanliness."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "hitodama",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Hitodama",
+    "native_name": null,
+    "display_name": {
+      "id": "Hitodama",
+      "en": "Hitodama"
+    },
+    "wikidata_qid": "Q1621181",
+    "claim_ids": [
+      "hitodama-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "roh",
+    "claim_ids": [
+      "hitodama-c02",
+      "hitodama-c08"
+    ]
+  },
+  "classification": {
+    "value": "spirit",
+    "claim_ids": [
+      "hitodama-c02",
+      "hitodama-c08"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "hitodama-c01",
+      "hitodama-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "hitodama-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Hitodama adalah gambaran jiwa manusia yang melayang seperti bola bercahaya berekor.",
+    "en": "Hitodama is an image of a human soul floating as a luminous ball with a tail.",
+    "claim_ids": [
+      "hitodama-c02",
+      "hitodama-c03",
+      "hitodama-c08"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Sebuah penjelasan tentang kepercayaan lama menyebut jiwa dapat terlepas dari tubuh; jiwa yang melayang bebas disebut hitodama. Bentuknya dibayangkan bundar dan berekor seperti kecebong. Dalam uraian lain, ia tampak sebagai gumpalan api gaib yang melayang di dekat orang meninggal, kadang berwarna jingga, merah, atau putih kebiruan. Sebuah cetakan kayu memperlihatkan ekornya yang memanjang.",
+      "en": "An account of older beliefs says a soul could separate from the body; a freely floating soul was called hitodama. It was imagined as round and tailed like a tadpole. Another account depicts it as a ghostly fireball near the dead, sometimes orange, red, or bluish white. A woodblock print shows its trailing tail.",
+      "claim_ids": [
+        "hitodama-c01",
+        "hitodama-c02",
+        "hitodama-c03",
+        "hitodama-c04",
+        "hitodama-c05"
+      ]
+    },
+    {
+      "id": "Gambaran hitodama tercatat dalam ensiklopedia Wakan sansai zue tahun 1715 dan disebut dalam pembahasan syair Man’yōshū. Sebuah kajian folklor membedakan hitodama, cahaya mirip fluoresen sebagai lambang jiwa, dari hidama yang secara harfiah berarti bola api. Dalam kepercayaan yang dikajinya, hitodama juga dianggap pertanda buruk. Ini adalah laporan tentang kepercayaan dan kesaksian, bukan bukti bahwa cahaya tersebut benar-benar jiwa manusia.",
+      "en": "Hitodama appears in the 1715 encyclopedia Wakan sansai zue and in a discussion of a Man’yōshū poem. A folklore study distinguishes hitodama, a fluorescent-like light representing a soul, from hidama, literally a fireball. In the beliefs it studied, hitodama was also considered a bad omen. These are accounts of belief and reported experience, not proof that the lights were human souls.",
+      "claim_ids": [
+        "hitodama-c06",
+        "hitodama-c07",
+        "hitodama-c08",
+        "hitodama-c09"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "hitodama-s1",
+      "url": "https://www.nippon.com/en/japan-topics/g02176/",
+      "title": "Fear and Reverence: Japanese Views of Souls, Spirits, and Ghosts",
+      "author": null,
+      "publisher": "Nippon.com",
+      "published": "2022-08-30",
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "hitodama-s2",
+      "url": "https://blogs.libraries.indiana.edu/lilly/2025/07/30/beasts-of-belief-installment-1-yokai-spirits-of-japanese-folklore/",
+      "title": "Beasts of Belief (#1): Yōkai Spirits of Japanese Folklore",
+      "author": null,
+      "publisher": "Indiana University Libraries",
+      "published": "2025-07-30",
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "hitodama-s3",
+      "url": "https://www.nps.gov/articles/000/japanese-folk-beliefs-and-practices-in-tule-lake-segregation-center.htm",
+      "title": "Japanese Folk Beliefs and Practices in Tule Lake Segregation Center",
+      "author": "Marvin K. Opler",
+      "publisher": "National Park Service / Journal of American Folklore",
+      "published": "1950",
+      "language": "en",
+      "type": "journal-article",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "hitodama-c01",
+      "source_id": "hitodama-s1",
+      "quote": "The soul regularly detached itself from the body before returning, but if it could not come back, that meant the person was dead.",
+      "locator": "Souls Leaving the Body",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Menurut kepercayaan yang dijelaskan Koyama, jiwa dapat terlepas dan kembali ke tubuh.",
+        "en": "Koyama describes a belief that the soul could detach from and return to the body."
+      }
+    },
+    {
+      "id": "hitodama-c02",
+      "source_id": "hitodama-s1",
+      "quote": "When the soul was floating free, it was called a hitodama, and it was imagined as being round with a tail, like a tadpole",
+      "locator": "Souls Leaving the Body",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Jiwa yang melayang disebut hitodama dan dibayangkan bundar berekor seperti kecebong.",
+        "en": "A floating soul was called hitodama and imagined as round with a tadpole-like tail."
+      }
+    },
+    {
+      "id": "hitodama-c03",
+      "source_id": "hitodama-s2",
+      "quote": "A hitodama (人魂) is a phosphorescent ball or blob of ghostly fire. Spiritual manifestations of the deceased, they emanate or linger around corpses.",
+      "locator": "YŌKAI #2: HITODAMA",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Uraian perpustakaan menyebut hitodama gumpalan api gaib dekat jenazah.",
+        "en": "The library describes hitodama as ghostly fireballs lingering around the dead."
+      }
+    },
+    {
+      "id": "hitodama-c04",
+      "source_id": "hitodama-s2",
+      "quote": "they come in a variety of colors, ranging from orange, red, or blueish white.",
+      "locator": "YŌKAI #2: HITODAMA",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Warna yang disebut antara lain jingga, merah, dan putih kebiruan.",
+        "en": "Reported colors include orange, red, and bluish white."
+      }
+    },
+    {
+      "id": "hitodama-c05",
+      "source_id": "hitodama-s2",
+      "quote": "Woodblock relief print of a hitodama leaving a house, its distinctive wispy tail drifting behind it.",
+      "locator": "YŌKAI #2: HITODAMA",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Cetakan kayu menunjukkan hitodama berekor yang meninggalkan sebuah rumah.",
+        "en": "A woodblock print shows a tailed hitodama leaving a house."
+      }
+    },
+    {
+      "id": "hitodama-c06",
+      "source_id": "hitodama-s1",
+      "quote": "A hitodama illustrated in the 1715 encyclopedia Wakan sansai zue (Japanese-Chinese Illustrated Assemblage of the Three Components of the Universe).",
+      "locator": "Souls Leaving the Body",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Hitodama tergambar dalam ensiklopedia Wakan sansai zue tahun 1715.",
+        "en": "Hitodama is illustrated in the 1715 encyclopedia Wakan sansai zue."
+      }
+    },
+    {
+      "id": "hitodama-c07",
+      "source_id": "hitodama-s2",
+      "quote": "The legend of the hitodama is quite old, as they are referenced in the Man’yōshū",
+      "locator": "YŌKAI #2: HITODAMA",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pembahasan perpustakaan menghubungkan hitodama dengan Man’yōshū.",
+        "en": "The library links the hitodama legend with the Man’yōshū."
+      }
+    },
+    {
+      "id": "hitodama-c08",
+      "source_id": "hitodama-s3",
+      "quote": "A ball of fire is literally hidama, \"fireball.\" Embree also mentions the related notion of hitodama, a fluorescent-like light representing the human soul.",
+      "locator": "I. The Ball of Fire",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Opler membedakan hidama dari hitodama yang melambangkan jiwa manusia.",
+        "en": "Opler distinguishes hidama from hitodama, a light representing a human soul."
+      }
+    },
+    {
+      "id": "hitodama-c09",
+      "source_id": "hitodama-s3",
+      "quote": "Thereafter, it is a bad omen, as is the hitodama connected with human spirits.",
+      "locator": "I. The Ball of Fire",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Opler mencatat hitodama sebagai pertanda buruk dalam kepercayaan yang ditelitinya.",
+        "en": "Opler records hitodama as a bad omen in the beliefs he studied."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "ikiryo",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Ikiryō",
+    "native_name": null,
+    "display_name": {
+      "id": "Ikiryō",
+      "en": "Ikiryō"
+    },
+    "wikidata_qid": "Q2986373",
+    "claim_ids": [
+      "ikiryo-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "roh",
+    "claim_ids": [
+      "ikiryo-c01"
+    ]
+  },
+  "classification": {
+    "value": "spirit",
+    "claim_ids": [
+      "ikiryo-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "ikiryo-c01",
+      "ikiryo-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "ikiryo-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Ikiryō adalah roh orang yang masih hidup yang dalam kisah dapat meninggalkan tubuh dan mendatangi orang lain.",
+    "en": "Ikiryō is the spirit of a living person that can leave the body and visit another person in stories.",
+    "claim_ids": [
+      "ikiryo-c01",
+      "ikiryo-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Ikiryō, atau roh hidup, berangkat dari kepercayaan bahwa jiwa seseorang dapat keluar dari tubuhnya, mengganggu orang lain, lalu kembali. Sebuah kajian sastra membahas dua contohnya: Lady Rokujō dalam Genji monogatari dan seorang bangsawan perempuan tanpa nama dalam Konjaku monogatarishū. Dalam kedua kisah, penderitaan akibat hubungan cinta memicu perjalanan jiwa. Kajian itu membedakan Rokujō yang tidak menyadari perjalanannya dari tokoh Konjaku yang sengaja mengirim jiwanya untuk membalas dendam.",
+      "en": "Ikiryō, or a living spirit, arises from a belief that a person’s soul can leave the body, trouble someone else, and return. A literary study compares Lady Rokujō in Genji monogatari with an unnamed noblewoman in Konjaku monogatarishū. In both stories, hurt tied to love motivates the soul’s journey. The study contrasts Rokujō, unaware of her spirit’s travels, with the Konjaku woman, who sends hers deliberately for revenge.",
+      "claim_ids": [
+        "ikiryo-c01",
+        "ikiryo-c02",
+        "ikiryo-c03",
+        "ikiryo-c04",
+        "ikiryo-c05"
+      ]
+    },
+    {
+      "id": "Pementasan Aoi no Ue mengolah kisah Rokujō: rohnya datang karena cemburu kepada Lady Aoi dan membuatnya sakit. Dalam pertunjukan itu, rasa cemburu menjelma sosok perempuan menyerupai setan, sebelum doa membawanya menuju ketenangan. Karena kisah-kisahnya berbeda dalam kesadaran tokoh dan akibatnya, ikiryō lebih tepat dipahami sebagai motif roh hidup daripada watak tunggal yang selalu bertindak sama.",
+      "en": "The play Aoi no Ue reworks Rokujō’s story: jealousy sends her spirit against Lady Aoi and makes her ill. In the play, jealousy takes the form of a female ogre before prayer brings the spirit peace. Because the stories differ in the person’s awareness and outcome, ikiryō is best understood here as a living-spirit motif rather than a single character with fixed behavior.",
+      "claim_ids": [
+        "ikiryo-c06",
+        "ikiryo-c07",
+        "ikiryo-c08",
+        "ikiryo-c09"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "ikiryo-s1",
+      "url": "https://pressto.amu.edu.pl/index.php/sa/article/view/4779",
+      "title": "Zjawisko ikiryō jako przykład podróży dusz w japońskiej literaturze dworskiej (VIII-XII wiek)",
+      "author": "Agnieszka Pączkowska",
+      "publisher": "Studia Azjatystyczne, Adam Mickiewicz University",
+      "published": "2015-12-01",
+      "language": "en",
+      "type": "journal-article",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "ikiryo-s2",
+      "url": "https://the-noh.com/en/plays/data/program_006.html",
+      "title": "Aoi no Ue (Lady Aoi): Synopsis and Highlight",
+      "author": null,
+      "publisher": "The Noh.com",
+      "published": null,
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "ikiryo-c01",
+      "source_id": "ikiryo-s1",
+      "quote": "It was believed that a soul could leave the body of a living person, do mischief and return. Such occurrence was called ikiryō.",
+      "locator": "Abstract",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ikiryō adalah jiwa orang hidup yang diyakini dapat keluar, mengganggu, lalu kembali.",
+        "en": "Ikiryō was believed to be a living person’s soul that could leave, cause trouble, and return."
+      }
+    },
+    {
+      "id": "ikiryo-c02",
+      "source_id": "ikiryo-s1",
+      "quote": "This paper analyses examples of such phenomenon depicted in two literary sources: Lady Rokujō from Murasaki Shikibu’s (978? 1016?) Genji monogatari (1008) and an unnamed noblewoman from Konjaku monogatarishū (1120).",
+      "locator": "Abstract",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kajian membahas Lady Rokujō dalam Genji monogatari dan bangsawan tanpa nama dalam Konjaku monogatarishū.",
+        "en": "The study examines Lady Rokujō in Genji monogatari and an unnamed noblewoman in Konjaku monogatarishū."
+      }
+    },
+    {
+      "id": "ikiryo-c03",
+      "source_id": "ikiryo-s1",
+      "quote": "In both instances emotions play great role in creating ikiryō.",
+      "locator": "Abstract",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Emosi berperan besar dalam kedua kisah ikiryō.",
+        "en": "Emotions are central to both ikiryō stories."
+      }
+    },
+    {
+      "id": "ikiryo-c04",
+      "source_id": "ikiryo-s1",
+      "quote": "Women’s souls separate from the body and serve punishment for sufferings caused by unfaithful men.",
+      "locator": "Abstract",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam kedua kisah jiwa perempuan pergi karena penderitaan akibat lelaki yang tidak setia.",
+        "en": "In the two stories, the women’s souls leave after suffering caused by unfaithful men."
+      }
+    },
+    {
+      "id": "ikiryo-c05",
+      "source_id": "ikiryo-s1",
+      "quote": "Lady Rokujō is unaware of her soul’s travels and experiences them as traumatic episodes of psychosis. On the other hand the unnamed noblewoman willingly turns her soul into ikiryō to deliver vengeance on her ex-lover and regains peace afterwards.",
+      "locator": "Abstract",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Rokujō tidak sadar jiwanya bepergian; tokoh lainnya sengaja mengirim jiwanya untuk membalas dendam.",
+        "en": "Rokujō is unaware of her soul’s travels; the other woman deliberately sends hers for revenge."
+      }
+    },
+    {
+      "id": "ikiryo-c06",
+      "source_id": "ikiryo-s2",
+      "quote": "Aoi-no-ue (Lady Aoi), the formal wife of Hikaru Genji and a daughter of the Sadaijin (the Senior Minister of State) family, has been possessed by a phantom and seriously ill.",
+      "locator": "Synopsis",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam Aoi no Ue, Lady Aoi sakit karena kerasukan roh.",
+        "en": "In Aoi no Ue, Lady Aoi is gravely ill after possession by a phantom."
+      }
+    },
+    {
+      "id": "ikiryo-c07",
+      "source_id": "ikiryo-s2",
+      "quote": "The phantom, who is trapped by the priestess's prayer and appears, is the vengeful spirit of Rokujō-no-miyasudokoro (Lady Rokujō)",
+      "locator": "Synopsis",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Roh yang muncul adalah roh pendendam Lady Rokujō.",
+        "en": "The phantom is Lady Rokujō’s vengeful spirit."
+      }
+    },
+    {
+      "id": "ikiryo-c08",
+      "source_id": "ikiryo-s2",
+      "quote": "When the priest starts a sacred invocation, the jealousy in Lady Rokujō's heart embodies itself as a female ogre.",
+      "locator": "Synopsis",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam lakon, kecemburuan Rokujō menjelma raksasa perempuan.",
+        "en": "In the play, Rokujō’s jealousy takes the form of a female ogre."
+      }
+    },
+    {
+      "id": "ikiryo-c09",
+      "source_id": "ikiryo-s2",
+      "quote": "Lady Rokujō's spirit became peaceful and capable of becoming a Buddha.",
+      "locator": "Synopsis",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Akhir lakon menampilkan roh Rokujō yang tenang.",
+        "en": "The play ends with Rokujō’s spirit at peace."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+

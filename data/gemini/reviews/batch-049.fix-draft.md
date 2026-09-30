@@ -5,4 +5,4 @@ Pemeriksaan menemukan masalah di bawah. Perbaiki semuanya, lalu kirim ulang **en
 Kalau kutipan tidak ditemukan, jangan mengubahnya supaya terlihat cocok. Buka lagi halamannya dan salin teks yang benar-benar ada, atau hapus klaim itu beserta teks yang bergantung padanya.
 
 ## Belum dikirim
-Kerjakan juga: tsuchinoko, akaname, hitodama, ikiryo, inugami, ryujin, swan-maiden, abura-sumashi, obake, zashiki-warashi, amanojaku, sojobo, toyotama-hime, tsuchigumo, ubume, ugayafukiaezu, ushi-oni.
+Kerjakan juga: inugami, ryujin, swan-maiden, abura-sumashi, obake, zashiki-warashi, amanojaku, sojobo, toyotama-hime, tsuchigumo, ubume, ugayafukiaezu, ushi-oni.

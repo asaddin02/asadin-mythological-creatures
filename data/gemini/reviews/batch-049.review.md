@@ -1,8 +1,8 @@
 # Review batch-049
 
-Diperiksa 2026-09-30T04:43:26.375Z. Berkas: batch-049.md.
+Diperiksa 2026-09-30T06:38:22.469Z. Berkas: batch-049.md.
 
-**Belum dikirim:** tsuchinoko, akaname, hitodama, ikiryo, inugami, ryujin, swan-maiden, abura-sumashi, obake, zashiki-warashi, amanojaku, sojobo, toyotama-hime, tsuchigumo, ubume, ugayafukiaezu, ushi-oni
+**Belum dikirim:** inugami, ryujin, swan-maiden, abura-sumashi, obake, zashiki-warashi, amanojaku, sojobo, toyotama-hime, tsuchigumo, ubume, ugayafukiaezu, ushi-oni
 
 ## susanoo — lulus-otomatis
 
@@ -555,4 +555,73 @@ Klaim 9 (exact 9), sumber 2, gambar 0.
 | shikigami-c07 | exact | d-museum.kokugakuin.ac.jp | The proposed origins also involve animals associated with twelve daily hours. | and in the "36 beasts" (sanjūrokkin), animals believed to have jurisdiction over the twelve hours of the day). |
 | shikigami-c08 | exact | nirc.nanzan-u.ac.jp | Pang records interpretations of shikigami as divination metaphor, curse, or supernatural being. | From a metaphorical reference to shikisen (an augury using astrological calculations and an augury instrument called shikiban), to a type of magical curse, to a supernatural being |
 | shikigami-c09 | exact | nirc.nanzan-u.ac.jp | Changing portrayals in classical literature contribute to varying definitions. | such variations in definition are a result of changing textual constructions of shikigami in Japanese classical literature |
+
+
+## tsuchinoko — lulus-otomatis
+
+Klaim 10 (exact 10), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| tsuchinoko-c01 | exact | yokai.jp | Tsuchinoko is a thick-bodied snake-like figure said to appear on paths, fields, and riverbanks. | Tsuchinoko is a mallet-shaped, thick-bodied serpentine monster said to be sighted in mountain paths, fields, and the thickets of riverbanks. |
+| tsuchinoko-c02 | exact | yokai.jp | Accounts describe a thirty to eighty centimeter creature with a bottle-thick body. | a creature about thirty to eighty centimeters long, with a head protruding from a body thick as a beer bottle |
+| tsuchinoko-c03 | exact | yokai.jp | Reported sightings range from Iwate to Kagoshima. | the national scale of sightings from Iwate Prefecture in the north to Kagoshima Prefecture in the south |
+| tsuchinoko-c04 | exact | yokai.jp | Tsuchinoko has varied local names and is not a uniform national figure. | The multitude of local names indicates that the Tsuchinoko was not a uniform character nationwide. |
+| tsuchinoko-c05 | exact | content.ucpress.edu | Tsuchinoko has not been scientifically confirmed. | a legendary reptilelike creature the existence of which had never been scientifically confirmed. |
+| tsuchinoko-c06 | exact | yokai.jp | Tsuchinoko is described as both a yōkai and a cryptid. | occupying a unique position of being a yokai while simultaneously being a cryptid. |
+| tsuchinoko-c07 | exact | yokai.jp | Search events, local products, and bounties turn tsuchinoko into a collective pursuit. | Elements like the venue, the search, treasure hunting, rallies, local products, and bounties turn the yokai into an object to be jointly sought |
+| tsuchinoko-c08 | exact | content.ucpress.edu | Possible tsuchinoko bones were found in Yoshii in 2000. | The bones were found in May 2000, in the small town of Yoshii in Okayama Prefecture. |
+| tsuchinoko-c09 | exact | content.ucpress.edu | A biologist identified the bones as a malformed grass snake. | a professor of biology declared that the remains were not those of a tsuchinoko but rather of a malformed grass snake. |
+| tsuchinoko-c10 | exact | english.kyodonews.net | A news account describes tsuchinoko as a fat snake not conclusively confirmed as real. | the tsuchinoko, a creature resembling a fat snake that has never been conclusively confirmed as real |
+
+
+## akaname — lulus-otomatis
+
+Klaim 9 (exact 9), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| akaname-c01 | exact | en.wikipedia.org | Akaname is a Japanese yōkai depicted by Sekien in 1776. | is a Japanese yōkai depicted in Toriyama Sekien's 1776 book Gazu Hyakki Yagyō |
+| akaname-c02 | exact | www.nippon.com | Akaname means filth licker and uses a long tongue to lick bathroom scum at night. | Literally “filth licker,” this goblinlike creature lurks in the bathroom, where it uses its long, prehensile tongue to lap up accumulated scum in the dead of night. |
+| akaname-c03 | exact | en.wikipedia.org | The word aka can mean dead skin. | The word aka refers to dead skin on a person's body |
+| akaname-c04 | exact | en.wikipedia.org | Aka can also mean accumulated bathhouse scum. | the aka can also refer to scum that accumulates at the bathhouse as a result, including perhaps mildew. |
+| akaname-c05 | exact | en.wikipedia.org | Akaneburi is regarded as a precursor or equivalent of akaname. | with its precursor or equivalent akaneburi |
+| akaname-c06 | exact | www.nippon.com | Akaname is often pictured red, possibly through a play on aka. | In a probable play on the aka part of the name, this yōkai is often described as being red from head to toe. |
+| akaname-c07 | exact | en.wikipedia.org | An 1858 game print shows akaname with blue-black skin. | In the Hyakushu kaibutsu yōkai sugoroku (1858), it is depicted as an eerie, blue-black skinned figure. |
+| akaname-c08 | exact | en.wikipedia.org | Sekien gave no written details about his akaname. | Sekien did not provide any verbal details regarding his akaname, as was the case in all the yōkai depicted in this particular early work of his. |
+| akaname-c09 | exact | www.nippon.com | Interpretations link akaname to nighttime fear or to a lesson about cleanliness. | some suggest the akaname is the fear of nighttime visits to the toilet given flesh, others argue that there is a trend for the use of such harmless yōkai in instructive or educational tales |
+
+
+## hitodama — lulus-otomatis
+
+Klaim 9 (exact 9), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| hitodama-c01 | exact | www.nippon.com | Koyama describes a belief that the soul could detach from and return to the body. | The soul regularly detached itself from the body before returning, but if it could not come back, that meant the person was dead. |
+| hitodama-c02 | exact | www.nippon.com | A floating soul was called hitodama and imagined as round with a tadpole-like tail. | When the soul was floating free, it was called a hitodama, and it was imagined as being round with a tail, like a tadpole |
+| hitodama-c03 | exact | blogs.libraries.indiana.edu | The library describes hitodama as ghostly fireballs lingering around the dead. | A hitodama (人魂) is a phosphorescent ball or blob of ghostly fire. Spiritual manifestations of the deceased, they emanate or linger around corpses. |
+| hitodama-c04 | exact | blogs.libraries.indiana.edu | Reported colors include orange, red, and bluish white. | they come in a variety of colors, ranging from orange, red, or blueish white. |
+| hitodama-c05 | exact | blogs.libraries.indiana.edu | A woodblock print shows a tailed hitodama leaving a house. | Woodblock relief print of a hitodama leaving a house, its distinctive wispy tail drifting behind it. |
+| hitodama-c06 | exact | www.nippon.com | Hitodama is illustrated in the 1715 encyclopedia Wakan sansai zue. | A hitodama illustrated in the 1715 encyclopedia Wakan sansai zue (Japanese-Chinese Illustrated Assemblage of the Three Components of the Universe). |
+| hitodama-c07 | exact | blogs.libraries.indiana.edu | The library links the hitodama legend with the Man’yōshū. | The legend of the hitodama is quite old, as they are referenced in the Man’yōshū |
+| hitodama-c08 | exact | www.nps.gov | Opler distinguishes hidama from hitodama, a light representing a human soul. | A ball of fire is literally hidama, "fireball." Embree also mentions the related notion of hitodama, a fluorescent-like light representing the human soul. |
+| hitodama-c09 | exact | www.nps.gov | Opler records hitodama as a bad omen in the beliefs he studied. | Thereafter, it is a bad omen, as is the hitodama connected with human spirits. |
+
+
+## ikiryo — lulus-otomatis
+
+Klaim 9 (exact 9), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| ikiryo-c01 | exact | pressto.amu.edu.pl | Ikiryō was believed to be a living person’s soul that could leave, cause trouble, and return. | It was believed that a soul could leave the body of a living person, do mischief and return. Such occurrence was called ikiryō. |
+| ikiryo-c02 | exact | pressto.amu.edu.pl | The study examines Lady Rokujō in Genji monogatari and an unnamed noblewoman in Konjaku monogatarishū. | This paper analyses examples of such phenomenon depicted in two literary sources: Lady Rokujō from Murasaki Shikibu’s (978? 1016?) Genji monogatari (1008) and an unnamed noblewoman from Konjaku monogatarishū (1120). |
+| ikiryo-c03 | exact | pressto.amu.edu.pl | Emotions are central to both ikiryō stories. | In both instances emotions play great role in creating ikiryō. |
+| ikiryo-c04 | exact | pressto.amu.edu.pl | In the two stories, the women’s souls leave after suffering caused by unfaithful men. | Women’s souls separate from the body and serve punishment for sufferings caused by unfaithful men. |
+| ikiryo-c05 | exact | pressto.amu.edu.pl | Rokujō is unaware of her soul’s travels; the other woman deliberately sends hers for revenge. | Lady Rokujō is unaware of her soul’s travels and experiences them as traumatic episodes of psychosis. On the other hand the unnamed noblewoman willingly turns her soul into ikiryō to deliver vengeance on her ex-lover and regains peace afterwards. |
+| ikiryo-c06 | exact | the-noh.com | In Aoi no Ue, Lady Aoi is gravely ill after possession by a phantom. | Aoi-no-ue (Lady Aoi), the formal wife of Hikaru Genji and a daughter of the Sadaijin (the Senior Minister of State) family, has been possessed by a phantom and seriously ill. |
+| ikiryo-c07 | exact | the-noh.com | The phantom is Lady Rokujō’s vengeful spirit. | The phantom, who is trapped by the priestess's prayer and appears, is the vengeful spirit of Rokujō-no-miyasudokoro (Lady Rokujō) |
+| ikiryo-c08 | exact | the-noh.com | In the play, Rokujō’s jealousy takes the form of a female ogre. | When the priest starts a sacred invocation, the jealousy in Lady Rokujō's heart embodies itself as a female ogre. |
+| ikiryo-c09 | exact | the-noh.com | The play ends with Rokujō’s spirit at peace. | Lady Rokujō's spirit became peaceful and capable of becoming a Buddha. |
 
