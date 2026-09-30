@@ -1,8 +1,8 @@
 # Review batch-049
 
-Diperiksa 2026-09-30T04:36:18.698Z. Berkas: batch-049.md.
+Diperiksa 2026-09-30T04:43:26.375Z. Berkas: batch-049.md.
 
-**Belum dikirim:** fujin, okuninushi, shikigami, tsuchinoko, akaname, hitodama, ikiryo, inugami, ryujin, swan-maiden, abura-sumashi, obake, zashiki-warashi, amanojaku, sojobo, toyotama-hime, tsuchigumo, ubume, ugayafukiaezu, ushi-oni
+**Belum dikirim:** tsuchinoko, akaname, hitodama, ikiryo, inugami, ryujin, swan-maiden, abura-sumashi, obake, zashiki-warashi, amanojaku, sojobo, toyotama-hime, tsuchigumo, ubume, ugayafukiaezu, ushi-oni
 
 ## susanoo — lulus-otomatis
 
@@ -499,4 +499,60 @@ Klaim 10 (exact 10), sumber 2, gambar 0.
 | ukemochi-c08 | exact | www.kokugakuin.ac.jp | The Kojiki tells a related tale about Susanoo and the food deity Ōgetsuhime. | The mythic origin of food is written in the Kojiki (Records of Ancient Matters). Once upon a time, Susanoo, one of the gods of Japan, asked Ogetsuhime, a goddesses, to give him food. |
 | ukemochi-c09 | exact | www.kokugakuin.ac.jp | The Nihon-shoki tells of Tsukuyomi killing Ukemochi. | The Nihon-shoki (Chronicles of Japan) has a similar myth in which Tsukuyomi, the god of the moon, murders Ukemochi, a goddess. |
 | ukemochi-c10 | exact | www.kokugakuin.ac.jp | Amaterasu shuns Tsukuyomi, explaining the alternating sun and moon. | Amaterasu, the goddess of the sun, who dispatched Tsukuyomi to Ukemochi, became furious about the murder and said she no longer wanted to stay in the same broad sky with him. This is explained as the origin of the alternative appearances of the sun and the moon in the sky. |
+
+
+## fujin — lulus-otomatis
+
+Klaim 10 (exact 10), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| fujin-c01 | exact | global.canon | The Wind and Thunder Gods are personified natural forces believed to govern wind, thunder, and rain. | Originally, the Wind God and Thunder God were deified forces of nature believed to control the wind, thunder, and rain. |
+| fujin-c02 | exact | global.canon | In Japanese Buddhism the pair attend the Thousand-Armed Kannon. | In Japanese Buddhism, they were regarded as attendants to the Thousand-Armed Kannon. |
+| fujin-c03 | exact | global.canon | Sōtatsu’s composition features only the two gods as its central motifs. | The dynamic composition—featuring only the two gods as the central motifs—is thought to have been Sotatsu‘s original concept. |
+| fujin-c04 | exact | global.canon | Sōtatsu’s original screens are a National Treasure. | Cultural property designation National Treasure |
+| fujin-c05 | exact | cpcp.nich.go.jp | The screens place the wind god on the right and the thunder god on the left. | This set of two folding screens features the Wind God on the right-hand screen and the Thunder God on the left. |
+| fujin-c06 | exact | cpcp.nich.go.jp | In Kōrin’s work the wind god is green and the thunder god white. | The green-hued Wind God seems to have jumped into the screen from the right, while the white-skinned Thunder God seems poised to stop the Wind God in his tracks. |
+| fujin-c07 | exact | cpcp.nich.go.jp | The two gods’ clothes flutter in a strong wind. | The garments of the two deities flutter in the wind as if a fierce gale is blowing from left to right. |
+| fujin-c08 | exact | cpcp.nich.go.jp | The original work is attributed to Ogata Kōrin and Sakai Hōitsu. | By Ogata Korin (1658-1716) and Sakai Hoitsu (1761-1829) |
+| fujin-c09 | exact | cpcp.nich.go.jp | The museum interprets the gods as embodiments of powerful wind and thunder. | This slightly tongue-in-cheek work uses the form of two gods to depict the overwhelming power of nature, in this case wind and thunder. |
+| fujin-c10 | exact | japanheritage.jp | Fūjin is the god of wind and Raijin the god of thunder. | two elemental deities — Fūjin, the god of wind, and Raijin, the god of thunder — soaring across shimmering fields of gold leaf. |
+
+
+## okuninushi — lulus-otomatis
+
+Klaim 13 (exact 13), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| okuninushi-c01 | exact | d-museum.kokugakuin.ac.jp | Ōkuninushi is a kami whose name evokes lordship of the Central Land of Reed Plains. | the name Ōkuninushi (great-land-master) was given to represent the entire range of the kami's attributes as lord of the Central Land of Reed Plains. |
+| okuninushi-c02 | exact | d-museum.kokugakuin.ac.jp | According to the Kojiki, Ōkuninushi travels with his brothers to court Yagamihime in Inaba. | According to Kojiki, Ōkuninushi accompanied his eighty cruel brothers on their way to woo the maiden Yagamihime in Inaba Province. |
+| okuninushi-c03 | exact | d-museum.kokugakuin.ac.jp | Ōkuninushi helps a rabbit whose skin had been stripped off. | Ōkuninushi aided a rabbit whose skin had been stripped off by an animal called a wani |
+| okuninushi-c04 | exact | d-museum.kokugakuin.ac.jp | Yagamihime chooses Ōkuninushi, and his jealous brothers kill him twice. | Yagamihime chose to wed Ōkuninushi instead of his older brothers, causing jealousy among the brothers, who then twice killed Ōkuninushi. |
+| okuninushi-c05 | exact | d-museum.kokugakuin.ac.jp | Ōkuninushi develops the land with Sukunahikona. | with the cooperation of Sukunahikona, he engaged in the work of firming the land. |
+| okuninushi-c06 | exact | izumooyashiro.or.jp | Ōkuninushi governs the earth and develops agriculture and medicines. | The story begins with Okuninushi governing the earthly realm, where he has worked for long years to develop agricultural techniques and medicines. |
+| okuninushi-c07 | exact | izumooyashiro.or.jp | Amaterasu wants her descendants to rule the land. | the sun goddess Amaterasu Omikami decides that the land should be ruled by her descendants. |
+| okuninushi-c08 | exact | izumooyashiro.or.jp | Ōkuninushi cedes control with a grand shrine to be built in his honor. | Okuninushi agrees to cede control with the understanding that a grand shrine will be built in his honor. |
+| okuninushi-c09 | exact | izumooyashiro.or.jp | Ōkuninushi is the shrine’s principal deity, associated with bonds among people. | The main deity worshipped at the shrine is Okuninushi no Kami (“Great Lord of the Land”), who is associated with nation building and en-musubi (“tying of bonds between people”). |
+| okuninushi-c10 | exact | izumooyashiro.or.jp | A shrine statue shows Ōkuninushi meeting the Rabbit of Inaba. | The statue on the left shows Okuninushi meeting the Rabbit of Inaba. |
+| okuninushi-c11 | exact | d-museum.kokugakuin.ac.jp | Ōkuninushi’s mother revives him and he escapes to the underworld. | Each time he was killed, Ōkuninushi was revived by his mother, and he finally escaped to the underword Ne no kuni. |
+| okuninushi-c12 | exact | d-museum.kokugakuin.ac.jp | Suseribime helps Ōkuninushi survive Susanoo’s trials. | Susanoo, lord of the underworld, posed various trials, all of which Ōkuninushi succeeded in passing with the help of Susanoo's daughter Suseribime. |
+| okuninushi-c13 | exact | izumooyashiro.or.jp | His protection of social bonds extends to home, work, and community. | Okuninushi serves as the protector of connections between people—whether those relationships are at home, at work, or in the larger community. |
+
+
+## shikigami — lulus-otomatis
+
+Klaim 9 (exact 9), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| shikigami-c01 | exact | d-museum.kokugakuin.ac.jp | Shikigami are kami invoked as familiar spirits within Onmyōdō. | Kami invoked as familiar spirits within the cult of Onmyōdō. |
+| shikigami-c02 | exact | d-museum.kokugakuin.ac.jp | Other names are shikijin and shiki no kami. | Also read as shikijin, or shiki no kami. |
+| shikigami-c03 | exact | d-museum.kokugakuin.ac.jp | Stories give shikigami the forms of children, young men, small animals, demons, or no visible form. | they are described as appearing variously as children (or young men), small animals, and demons, while in many other cases they do not reveal their form at all. |
+| shikigami-c04 | exact | d-museum.kokugakuin.ac.jp | Konjaku monogatari says onmyōji summon shikigami for magic, divination, and daily commands. | Konjaku monogatari relates that all Onmyōji adepts possess shikigami, invoke them when performing magic and divinations, and otherwise make them respond to their everyday commands. |
+| shikigami-c05 | exact | d-museum.kokugakuin.ac.jp | One theory links shikigami to twelve monthly tutelary deities. | The shikigami are believed to have originated in the twelve monthly tutelary deities |
+| shikigami-c06 | exact | d-museum.kokugakuin.ac.jp | Those tutelary deities appear on a shikiban divination board. | found on the circular cosmographic divination board (shikiban; Ch. shipan) used in the methods of divination called rikujin shikisen |
+| shikigami-c07 | exact | d-museum.kokugakuin.ac.jp | The proposed origins also involve animals associated with twelve daily hours. | and in the "36 beasts" (sanjūrokkin), animals believed to have jurisdiction over the twelve hours of the day). |
+| shikigami-c08 | exact | nirc.nanzan-u.ac.jp | Pang records interpretations of shikigami as divination metaphor, curse, or supernatural being. | From a metaphorical reference to shikisen (an augury using astrological calculations and an augury instrument called shikiban), to a type of magical curse, to a supernatural being |
+| shikigami-c09 | exact | nirc.nanzan-u.ac.jp | Changing portrayals in classical literature contribute to varying definitions. | such variations in definition are a result of changing textual constructions of shikigami in Japanese classical literature |
 

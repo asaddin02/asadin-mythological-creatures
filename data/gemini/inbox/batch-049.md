@@ -7031,3 +7031,797 @@
 }
 ```
 
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "fujin",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Fūjin",
+    "native_name": null,
+    "display_name": {
+      "id": "Fūjin",
+      "en": "Fūjin"
+    },
+    "wikidata_qid": "Q1483957",
+    "claim_ids": [
+      "fujin-c10"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "fujin-c01",
+      "fujin-c10"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "fujin-c01",
+      "fujin-c10"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "fujin-c01",
+      "fujin-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "fujin-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Fūjin adalah dewa angin yang digambarkan bersama Raijin, dewa guntur, dalam seni Jepang.",
+    "en": "Fūjin is the wind god depicted with Raijin, the thunder god, in Japanese art.",
+    "claim_ids": [
+      "fujin-c01",
+      "fujin-c05",
+      "fujin-c06",
+      "fujin-c10"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Fūjin adalah dewa angin, sedangkan pasangannya Raijin melambangkan guntur. Keduanya dipahami sebagai kekuatan alam yang dipersonifikasikan dan dahulu dipandang dalam Buddhisme Jepang sebagai pengiring Kannon Berlengan Seribu. Sepasang layar lipat karya Sōtatsu menempatkan dua dewa itu sebagai tokoh utama, sebuah pilihan komposisi yang disebut khas bagi karya tersebut. Lukisan aslinya termasuk Pusaka Nasional.",
+      "en": "Fūjin is the wind god, paired with Raijin as the thunder god. The two personify natural forces and were regarded in Japanese Buddhism as attendants of the Thousand-Armed Kannon. A pair of screens by Sōtatsu makes the two gods its central figures, a composition described as distinctive to this work. The original is a National Treasure.",
+      "claim_ids": [
+        "fujin-c01",
+        "fujin-c02",
+        "fujin-c03",
+        "fujin-c04",
+        "fujin-c10"
+      ]
+    },
+    {
+      "id": "Seni lukis kemudian terus menampilkan pasangan itu. Pada layar lipat karya Ogata Kōrin, Fūjin tampil hijau di kanan, berhadapan dengan Raijin yang berkulit putih di kiri. Kain pakaian mereka tampak tertiup angin dan awan gelap memperkuat kesan cuaca bergerak. Catatan museum mengaitkan kedua tokoh dengan daya angin dan guntur, sehingga penggambaran mereka juga menyampaikan kekuatan alam.",
+      "en": "Artists continued to depict the pair. On Ogata Kōrin’s folding screens, green Fūjin appears on the right opposite a white Raijin on the left. Their clothes flutter in the wind, and dark clouds intensify the sense of moving weather. The museum interprets the pair as images of the force of wind and thunder.",
+      "claim_ids": [
+        "fujin-c05",
+        "fujin-c06",
+        "fujin-c07",
+        "fujin-c08",
+        "fujin-c09",
+        "fujin-c10"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "fujin-s1",
+      "url": "https://global.canon/en/tsuzuri/works/fujinraijinzu-sotatsu/",
+      "title": "The Wind and Thunder Gods",
+      "author": null,
+      "publisher": "Canon Tsuzuri Project",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "fujin-s2",
+      "url": "https://cpcp.nich.go.jp/modules/r_db/index.php?controller=dtl&id=7&lang=en&t=db_hukusei",
+      "title": "Wind God and Thunder God/ Flowering Plants of Summer and Autumn",
+      "author": null,
+      "publisher": "National Center for the Promotion of Cultural Properties",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "fujin-s3",
+      "url": "https://japanheritage.jp/kyoto/heritage/wind-god-thunder-colored-gold",
+      "title": "Wind God and Thunder God Screens by Tawaraya Sōtatsu",
+      "author": null,
+      "publisher": "Explore Japan’s Cultural Heritage",
+      "published": null,
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "fujin-c01",
+      "source_id": "fujin-s1",
+      "quote": "Originally, the Wind God and Thunder God were deified forces of nature believed to control the wind, thunder, and rain.",
+      "locator": "Description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Fūjin dan Raijin dipahami sebagai kekuatan alam ilahi yang menguasai angin, guntur, dan hujan.",
+        "en": "The Wind and Thunder Gods are personified natural forces believed to govern wind, thunder, and rain."
+      }
+    },
+    {
+      "id": "fujin-c02",
+      "source_id": "fujin-s1",
+      "quote": "In Japanese Buddhism, they were regarded as attendants to the Thousand-Armed Kannon.",
+      "locator": "Description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam Buddhisme Jepang, keduanya dipandang sebagai pengiring Kannon Berlengan Seribu.",
+        "en": "In Japanese Buddhism the pair attend the Thousand-Armed Kannon."
+      }
+    },
+    {
+      "id": "fujin-c03",
+      "source_id": "fujin-s1",
+      "quote": "The dynamic composition—featuring only the two gods as the central motifs—is thought to have been Sotatsu‘s original concept.",
+      "locator": "Description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sōtatsu menempatkan dua dewa itu sebagai satu-satunya tokoh utama komposisi.",
+        "en": "Sōtatsu’s composition features only the two gods as its central motifs."
+      }
+    },
+    {
+      "id": "fujin-c04",
+      "source_id": "fujin-s1",
+      "quote": "Cultural property designation     National Treasure",
+      "locator": "Original",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Layar lipat asli karya Sōtatsu berstatus Pusaka Nasional.",
+        "en": "Sōtatsu’s original screens are a National Treasure."
+      }
+    },
+    {
+      "id": "fujin-c05",
+      "source_id": "fujin-s2",
+      "quote": "This set of two folding screens features the Wind God on the right-hand screen and the Thunder God on the left.",
+      "locator": "Overview",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Layar lipat menempatkan dewa angin di kanan dan dewa guntur di kiri.",
+        "en": "The screens place the wind god on the right and the thunder god on the left."
+      }
+    },
+    {
+      "id": "fujin-c06",
+      "source_id": "fujin-s2",
+      "quote": "The green-hued Wind God seems to have jumped into the screen from the right, while the white-skinned Thunder God seems poised to stop the Wind God in his tracks.",
+      "locator": "Overview",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pada karya Kōrin dewa angin berwarna hijau dan dewa guntur berkulit putih.",
+        "en": "In Kōrin’s work the wind god is green and the thunder god white."
+      }
+    },
+    {
+      "id": "fujin-c07",
+      "source_id": "fujin-s2",
+      "quote": "The garments of the two deities flutter in the wind as if a fierce gale is blowing from left to right.",
+      "locator": "Overview",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pakaian kedua dewa tampak berkibar ditiup angin.",
+        "en": "The two gods’ clothes flutter in a strong wind."
+      }
+    },
+    {
+      "id": "fujin-c08",
+      "source_id": "fujin-s2",
+      "quote": "By Ogata Korin (1658-1716) and Sakai Hoitsu (1761-1829)",
+      "locator": "Original Work",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Lukisan asalnya dikerjakan oleh Ogata Kōrin dan Sakai Hōitsu.",
+        "en": "The original work is attributed to Ogata Kōrin and Sakai Hōitsu."
+      }
+    },
+    {
+      "id": "fujin-c09",
+      "source_id": "fujin-s2",
+      "quote": "This slightly tongue-in-cheek work uses the form of two gods to depict the overwhelming power of nature, in this case wind and thunder.",
+      "locator": "Overview",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Museum menafsirkan dua dewa sebagai gambaran kekuatan angin dan guntur.",
+        "en": "The museum interprets the gods as embodiments of powerful wind and thunder."
+      }
+    },
+    {
+      "id": "fujin-c10",
+      "source_id": "fujin-s3",
+      "quote": "two elemental deities — Fūjin, the god of wind, and Raijin, the god of thunder — soaring across shimmering fields of gold leaf.",
+      "locator": "Masterpiece of Japanese Art",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Fūjin adalah dewa angin dan Raijin dewa guntur.",
+        "en": "Fūjin is the god of wind and Raijin the god of thunder."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "okuninushi",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Ōkuninushi",
+    "native_name": null,
+    "display_name": {
+      "id": "Ōkuninushi",
+      "en": "Ōkuninushi"
+    },
+    "wikidata_qid": "Q276944",
+    "claim_ids": [
+      "okuninushi-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "okuninushi-c01",
+      "okuninushi-c09"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "okuninushi-c01",
+      "okuninushi-c09"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "okuninushi-c01",
+      "okuninushi-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "okuninushi-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Ōkuninushi adalah kami penguasa bumi dalam kisah Kojiki yang menolong Kelinci Inaba dan kemudian menyerahkan kuasa atas tanah.",
+    "en": "Ōkuninushi is an earthly lord kami in the Kojiki who helps the Rabbit of Inaba and later yields control of the land.",
+    "claim_ids": [
+      "okuninushi-c01",
+      "okuninushi-c02",
+      "okuninushi-c03",
+      "okuninushi-c08",
+      "okuninushi-c09"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Ōkuninushi adalah kami yang namanya berarti penguasa tanah besar; Kojiki mengaitkannya dengan Negeri Tengah Dataran Alang-alang. Dalam kisah Kelinci Inaba, ia berjalan bersama saudara-saudaranya yang hendak meminang Yagamihime dan menolong seekor kelinci yang terluka. Yagamihime memilih Ōkuninushi, sehingga saudara-saudaranya menjadi iri dan membunuhnya dua kali. Ibunya menghidupkannya kembali, lalu ia melarikan diri ke negeri bawah. Di sana ia melewati ujian Susanoo dengan bantuan Suseribime.",
+      "en": "Ōkuninushi is a kami whose name means great land master; the Kojiki links him with the Central Land of Reed Plains. In the Rabbit of Inaba tale, he travels with brothers courting Yagamihime and helps a wounded rabbit. Yagamihime chooses him, provoking his brothers to kill him twice. His mother revives him, and he escapes to the underworld, where Suseribime helps him survive Susanoo’s trials.",
+      "claim_ids": [
+        "okuninushi-c01",
+        "okuninushi-c02",
+        "okuninushi-c03",
+        "okuninushi-c04",
+        "okuninushi-c11",
+        "okuninushi-c12"
+      ]
+    },
+    {
+      "id": "Dengan bantuan Sukunahikona, Ōkuninushi kemudian membangun negeri. Kisah penyerahan tanah menyatakan bahwa Amaterasu menghendaki keturunannya memerintah bumi; Ōkuninushi setuju menyerahkan kuasa dan sebagai balasannya dibangun kuil besar untuk menghormatinya. Kuil Izumo Ōyashiro kini memujanya sebagai dewa utama dan mengaitkannya dengan en-musubi, ikatan antarmanusia yang mencakup hubungan keluarga serta masyarakat. Di kompleks kuil terdapat patung pertemuannya dengan Kelinci Inaba.",
+      "en": "With Sukunahikona’s help, Ōkuninushi develops the land. In the land transfer story, Amaterasu wants her descendants to rule the earth; Ōkuninushi agrees to yield control and a grand shrine is built in his honor. Izumo Ōyashiro now worships him as its principal deity and links him to en-musubi, bonds among people in families and wider communities. A statue on the shrine grounds shows his meeting with the Rabbit of Inaba.",
+      "claim_ids": [
+        "okuninushi-c05",
+        "okuninushi-c06",
+        "okuninushi-c07",
+        "okuninushi-c08",
+        "okuninushi-c09",
+        "okuninushi-c10",
+        "okuninushi-c13"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "okuninushi-s1",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9965",
+      "title": "Ōkuninushi",
+      "author": "Kadoya Atsushi and Yumiyama Tatsuya",
+      "publisher": "Encyclopedia of Shinto, Kokugakuin University",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "okuninushi-s2",
+      "url": "https://izumooyashiro.or.jp/en/",
+      "title": "An Overview of Izumo Oyashiro Shrine",
+      "author": null,
+      "publisher": "Izumo Oyashiro Shrine",
+      "published": null,
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "okuninushi-s3",
+      "url": "https://izumooyashiro.or.jp/en/precincts",
+      "title": "Shrine Precincts",
+      "author": null,
+      "publisher": "Izumo Oyashiro Shrine",
+      "published": null,
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "okuninushi-c01",
+      "source_id": "okuninushi-s1",
+      "quote": "the name Ōkuninushi (great-land-master) was given to represent the entire range of the kami's attributes as lord of the Central Land of Reed Plains.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Nama Ōkuninushi mengacu pada penguasa Negeri Tengah Dataran Alang-alang.",
+        "en": "Ōkuninushi is a kami whose name evokes lordship of the Central Land of Reed Plains."
+      }
+    },
+    {
+      "id": "okuninushi-c02",
+      "source_id": "okuninushi-s1",
+      "quote": "According to Kojiki, Ōkuninushi accompanied his eighty cruel brothers on their way to woo the maiden Yagamihime in Inaba Province.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Menurut Kojiki, Ōkuninushi pergi bersama saudara-saudaranya ke Inaba untuk meminang Yagamihime.",
+        "en": "According to the Kojiki, Ōkuninushi travels with his brothers to court Yagamihime in Inaba."
+      }
+    },
+    {
+      "id": "okuninushi-c03",
+      "source_id": "okuninushi-s1",
+      "quote": "Ōkuninushi aided a rabbit whose skin had been stripped off by an animal called a wani",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ōkuninushi menolong kelinci yang kulitnya terkelupas.",
+        "en": "Ōkuninushi helps a rabbit whose skin had been stripped off."
+      }
+    },
+    {
+      "id": "okuninushi-c04",
+      "source_id": "okuninushi-s1",
+      "quote": "Yagamihime chose to wed Ōkuninushi instead of his older brothers, causing jealousy among the brothers, who then twice killed Ōkuninushi.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Yagamihime memilih Ōkuninushi; saudara-saudaranya lalu dua kali membunuhnya karena iri.",
+        "en": "Yagamihime chooses Ōkuninushi, and his jealous brothers kill him twice."
+      }
+    },
+    {
+      "id": "okuninushi-c05",
+      "source_id": "okuninushi-s1",
+      "quote": "with the cooperation of Sukunahikona, he engaged in the work of firming the land.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ōkuninushi membangun negeri dengan bantuan Sukunahikona.",
+        "en": "Ōkuninushi develops the land with Sukunahikona."
+      }
+    },
+    {
+      "id": "okuninushi-c06",
+      "source_id": "okuninushi-s2",
+      "quote": "The story begins with Okuninushi governing the earthly realm, where he has worked for long years to develop agricultural techniques and medicines.",
+      "locator": "Overview",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ōkuninushi mengelola bumi dan mengembangkan pertanian serta pengobatan.",
+        "en": "Ōkuninushi governs the earth and develops agriculture and medicines."
+      }
+    },
+    {
+      "id": "okuninushi-c07",
+      "source_id": "okuninushi-s2",
+      "quote": "the sun goddess Amaterasu Omikami decides that the land should be ruled by her descendants.",
+      "locator": "Overview",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Amaterasu menghendaki keturunannya memerintah tanah itu.",
+        "en": "Amaterasu wants her descendants to rule the land."
+      }
+    },
+    {
+      "id": "okuninushi-c08",
+      "source_id": "okuninushi-s2",
+      "quote": "Okuninushi agrees to cede control with the understanding that a grand shrine will be built in his honor.",
+      "locator": "Overview",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ōkuninushi menyerahkan kuasa dengan syarat dibangunkan kuil besar untuknya.",
+        "en": "Ōkuninushi cedes control with a grand shrine to be built in his honor."
+      }
+    },
+    {
+      "id": "okuninushi-c09",
+      "source_id": "okuninushi-s2",
+      "quote": "The main deity worshipped at the shrine is Okuninushi no Kami (“Great Lord of the Land”), who is associated with nation building and en-musubi (“tying of bonds between people”).",
+      "locator": "Overview",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ōkuninushi adalah dewa utama Izumo Ōyashiro dan terkait ikatan antarmanusia.",
+        "en": "Ōkuninushi is the shrine’s principal deity, associated with bonds among people."
+      }
+    },
+    {
+      "id": "okuninushi-c10",
+      "source_id": "okuninushi-s3",
+      "quote": "The statue on the left shows Okuninushi meeting the Rabbit of Inaba.",
+      "locator": "Okuninushi and the Rabbit of Inaba",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Patung di kuil memperlihatkan Ōkuninushi bertemu Kelinci Inaba.",
+        "en": "A shrine statue shows Ōkuninushi meeting the Rabbit of Inaba."
+      }
+    },
+    {
+      "id": "okuninushi-c11",
+      "source_id": "okuninushi-s1",
+      "quote": "Each time he was killed, Ōkuninushi was revived by his mother, and he finally escaped to the underword Ne no kuni.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ibu Ōkuninushi menghidupkannya kembali, lalu ia melarikan diri ke negeri bawah.",
+        "en": "Ōkuninushi’s mother revives him and he escapes to the underworld."
+      }
+    },
+    {
+      "id": "okuninushi-c12",
+      "source_id": "okuninushi-s1",
+      "quote": "Susanoo, lord of the underworld, posed various trials, all of which Ōkuninushi succeeded in passing with the help of Susanoo's daughter Suseribime.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Suseribime menolong Ōkuninushi melewati ujian Susanoo.",
+        "en": "Suseribime helps Ōkuninushi survive Susanoo’s trials."
+      }
+    },
+    {
+      "id": "okuninushi-c13",
+      "source_id": "okuninushi-s2",
+      "quote": "Okuninushi serves as the protector of connections between people—whether those relationships are at home, at work, or in the larger community.",
+      "locator": "Overview",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "En-musubi mencakup hubungan di rumah, pekerjaan, dan masyarakat.",
+        "en": "His protection of social bonds extends to home, work, and community."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "shikigami",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Shikigami",
+    "native_name": null,
+    "display_name": {
+      "id": "Shikigami",
+      "en": "Shikigami"
+    },
+    "wikidata_qid": "Q1573015",
+    "claim_ids": [
+      "shikigami-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "roh",
+    "claim_ids": [
+      "shikigami-c01",
+      "shikigami-c08"
+    ]
+  },
+  "classification": {
+    "value": "spirit",
+    "claim_ids": [
+      "shikigami-c01",
+      "shikigami-c08"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "shikigami-c01",
+      "shikigami-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "shikigami-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Shikigami adalah roh pendamping dalam tradisi Onmyōdō yang kisah-kisahnya menampilkan beragam rupa dan tugas.",
+    "en": "Shikigami are familiar spirits in Onmyōdō whose stories give them varied forms and tasks.",
+    "claim_ids": [
+      "shikigami-c01",
+      "shikigami-c03",
+      "shikigami-c04"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Shikigami disebut sebagai kami atau roh pendamping yang dipanggil dalam tradisi Onmyōdō. Nama lain yang tercatat ialah shikijin dan shiki no kami. Kisah-kisah menggambarkan mereka sebagai anak, lelaki muda, hewan kecil, atau setan; dalam banyak kisah wujudnya justru tidak terlihat. Dalam Konjaku monogatari, praktisi onmyōji menggunakan shikigami untuk sihir, ramalan, serta perintah sehari-hari.",
+      "en": "Shikigami are described as kami or familiar spirits invoked in Onmyōdō. Recorded alternative names include shikijin and shiki no kami. Stories portray them as children, young men, small animals, or demons; in many accounts their form remains unseen. Konjaku monogatari says onmyōji practitioners summon them for magic, divination, and everyday commands.",
+      "claim_ids": [
+        "shikigami-c01",
+        "shikigami-c02",
+        "shikigami-c03",
+        "shikigami-c04"
+      ]
+    },
+    {
+      "id": "Asal konsepnya diperdebatkan. Sebuah ensiklopedia menghubungkannya dengan dua belas dewa pelindung bulanan pada papan ramalan shikiban dan dengan hewan-hewan yang terkait pembagian waktu. Sebuah kajian menunjukkan bahwa para sarjana juga menafsirkan shikigami sebagai lambang metode ramalan, kutukan, ataupun makhluk gaib. Karena itu, gambaran roh pembantu adalah salah satu cara memahami tokoh ini, bukan definisi tunggal yang diterima semua sumber. Perbedaan penuturan dalam sastra klasik turut menjelaskan mengapa rupanya begitu beragam.",
+      "en": "The concept’s origins are debated. An encyclopedia links it to twelve monthly tutelary deities on a shikiban divination board and to animals associated with the hours. A study shows that scholars have interpreted shikigami as a metaphor for divination, a curse, or a supernatural being. The familiar-spirit account is therefore one interpretation, not a settled definition. Variations in classical narratives help explain their many forms.",
+      "claim_ids": [
+        "shikigami-c05",
+        "shikigami-c06",
+        "shikigami-c07",
+        "shikigami-c08",
+        "shikigami-c09"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "shikigami-s1",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9714",
+      "title": "Shikigami",
+      "author": "Itō Satoshi",
+      "publisher": "Encyclopedia of Shinto, Kokugakuin University",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "shikigami-s2",
+      "url": "https://nirc.nanzan-u.ac.jp/journal/6/issue/186/article/1366",
+      "title": "Uncovering Shikigami: The Search for the Spirit Servant of Onmyōdō",
+      "author": "Carolyn Pang",
+      "publisher": "Japanese Journal of Religious Studies, Nanzan Institute for Religion and Culture",
+      "published": "2013",
+      "language": "en",
+      "type": "journal-article",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "shikigami-c01",
+      "source_id": "shikigami-s1",
+      "quote": "Kami invoked as familiar spirits within the cult of Onmyōdō.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Shikigami adalah kami atau roh pendamping yang dipanggil dalam Onmyōdō.",
+        "en": "Shikigami are kami invoked as familiar spirits within Onmyōdō."
+      }
+    },
+    {
+      "id": "shikigami-c02",
+      "source_id": "shikigami-s1",
+      "quote": "Also read as shikijin, or shiki no kami.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Shikigami juga disebut shikijin atau shiki no kami.",
+        "en": "Other names are shikijin and shiki no kami."
+      }
+    },
+    {
+      "id": "shikigami-c03",
+      "source_id": "shikigami-s1",
+      "quote": "they are described as appearing variously as children (or young men), small animals, and demons, while in many other cases they do not reveal their form at all.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam kisah shikigami dapat tampil sebagai anak, lelaki muda, hewan kecil, setan, atau tak terlihat.",
+        "en": "Stories give shikigami the forms of children, young men, small animals, demons, or no visible form."
+      }
+    },
+    {
+      "id": "shikigami-c04",
+      "source_id": "shikigami-s1",
+      "quote": "Konjaku monogatari relates that all Onmyōji adepts possess shikigami, invoke them when performing magic and divinations, and otherwise make them respond to their everyday commands.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Konjaku monogatari menyebut onmyōji memakai shikigami untuk sihir, ramalan, dan tugas harian.",
+        "en": "Konjaku monogatari says onmyōji summon shikigami for magic, divination, and daily commands."
+      }
+    },
+    {
+      "id": "shikigami-c05",
+      "source_id": "shikigami-s1",
+      "quote": "The shikigami are believed to have originated in the twelve monthly tutelary deities",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Salah satu teori mengaitkan shikigami dengan dua belas dewa pelindung bulanan.",
+        "en": "One theory links shikigami to twelve monthly tutelary deities."
+      }
+    },
+    {
+      "id": "shikigami-c06",
+      "source_id": "shikigami-s1",
+      "quote": "found on the circular cosmographic divination board (shikiban; Ch. shipan) used in the methods of divination called rikujin shikisen",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dewa pelindung itu terdapat pada papan ramalan shikiban.",
+        "en": "Those tutelary deities appear on a shikiban divination board."
+      }
+    },
+    {
+      "id": "shikigami-c07",
+      "source_id": "shikigami-s1",
+      "quote": "and in the \"36 beasts\" (sanjūrokkin), animals believed to have jurisdiction over the twelve hours of the day).",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Teori asal-usul juga menyebut hewan yang dikaitkan dengan dua belas jam sehari.",
+        "en": "The proposed origins also involve animals associated with twelve daily hours."
+      }
+    },
+    {
+      "id": "shikigami-c08",
+      "source_id": "shikigami-s2",
+      "quote": "From a metaphorical reference to shikisen (an augury using astrological calculations and an augury instrument called shikiban), to a type of magical curse, to a supernatural being",
+      "locator": "Abstract",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kajian Pang mencatat tafsir shikigami sebagai lambang ramalan, kutukan, atau makhluk gaib.",
+        "en": "Pang records interpretations of shikigami as divination metaphor, curse, or supernatural being."
+      }
+    },
+    {
+      "id": "shikigami-c09",
+      "source_id": "shikigami-s2",
+      "quote": "such variations in definition are a result of changing textual constructions of shikigami in Japanese classical literature",
+      "locator": "Abstract",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Perbedaan definisi terkait perubahan penggambaran dalam sastra klasik.",
+        "en": "Changing portrayals in classical literature contribute to varying definitions."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
