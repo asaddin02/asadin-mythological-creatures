@@ -1,13 +1,12 @@
 {
   "batch_id": "batch-050",
-  "checked_at": "2026-09-30T09:09:48.430Z",
+  "checked_at": "2026-09-30T09:13:30.549Z",
   "files": [
     "batch-050.md",
     "batch-050-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [
-    "abura-akago",
     "akabeko",
     "ame-no-minakanushi",
     "bake-kujira",
@@ -1222,7 +1221,18 @@
         "sources": 3,
         "images": 0
       },
-      "issues": [],
+      "issues": [
+        {
+          "level": "warn",
+          "where": "claims (umibozu-c02)",
+          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
+        },
+        {
+          "level": "warn",
+          "where": "claims (umibozu-c10)",
+          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
+        }
+      ],
       "claims": [
         {
           "id": "umibozu-c01",
@@ -2053,7 +2063,13 @@
         "sources": 2,
         "images": 0
       },
-      "issues": [],
+      "issues": [
+        {
+          "level": "warn",
+          "where": "claims (nurikabe-c08)",
+          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
+        }
+      ],
       "claims": [
         {
           "id": "nurikabe-c01",
@@ -2646,6 +2662,130 @@
             "dipakai di en.wikipedia.org: Abumi-guchi"
           ],
           "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-050/abumi-guchi-1.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "abura-akago",
+      "file": "batch-050-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 2,
+        "images": 1
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "images[0] (File:SekienAburaakago.jpg)",
+          "message": "Keterkaitan otomatis: dipakai di de.wikipedia.org: Abura-akago. Cek visual tetap diperlukan."
+        }
+      ],
+      "claims": [
+        {
+          "id": "abura-akago-c01",
+          "source_id": "abura-akago-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Abura-akago means oil baby and was drawn by Sekien as a baby yōkai licking lamp oil.",
+          "statement_id": "Abura-akago berarti bayi minyak dan digambar Sekien sebagai bayi yōkai yang menjilat minyak lampu.",
+          "quote": "Abura-akago (油赤子; \"oil baby\") is a type of Japanese infant spirit or ghost. It is a yōkai that appeared illustrated in Toriyama Sekien's mid-Edo period Konjaku Gazu Zoku Hyakki, as an infant spirit lapping oil out of an andon lamp.",
+          "context": "historical-record",
+          "status": "loose"
+        },
+        {
+          "id": "abura-akago-c02",
+          "source_id": "abura-akago-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Sekien’s text mentions a flying ball of fire in Ōtsu.",
+          "statement_id": "Catatan Sekien menyebut bola api terbang di Ōtsu.",
+          "quote": "In Hatchō, Ōtsu in Ōmi (\"Afumi\") Province, there exists a flying ball-like fire.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "abura-akago-c03",
+          "source_id": "abura-akago-s1",
+          "host": "en.wikipedia.org",
+          "statement": "An older tale tells of an oil thief whose spirit became a flame after death.",
+          "statement_id": "Kisah lama menyebut penjual minyak yang mencuri minyak arca Jizō; rohnya menjadi api setelah wafat.",
+          "quote": "The natives say that long ago in the village of Shiga there was an oil merchant, and every night he stole the oil from the Jizō of the Ōtsu crossroads, but when this person died his soul became a flame",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "abura-akago-c04",
+          "source_id": "abura-akago-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Sekien suggests the oil-licking baby might be the thief reborn.",
+          "statement_id": "Sekien mengusulkan bayi penjilat minyak sebagai kemungkinan kelahiran kembali pencuri itu.",
+          "quote": "Sekien's accompanying notes describe it: ... If it is so, then the baby who licks the oil is this person's rebirth.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "abura-akago-c05",
+          "source_id": "abura-akago-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Modern yōkai literature describes a fireball that becomes an oil-licking baby and turns back into fire.",
+          "statement_id": "Sastra yōkai modern menafsirkan Abura-akago sebagai bola api yang berubah menjadi bayi peminum minyak lalu kembali menjadi api.",
+          "quote": "In more modern yōkai literature, it is interpreted that this yōkai takes on the appearance of a ball of flames and flies into people's houses, shapeshifts into that of a baby and licks the lanterns (andon lanterns), and returns to being a ball of fire and leaves.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "abura-akago-c06",
+          "source_id": "abura-akago-s2",
+          "host": "www.nichibun.ac.jp",
+          "statement": "A folklore database records the Shiga oil thief whose spirit became a flame.",
+          "statement_id": "Basis data folklor mencatat kisah penjual minyak Shiga yang rohnya berubah menjadi api setelah mencuri minyak Jizō.",
+          "quote": "『諸国里人談』に、志賀の油売が、辻の地蔵の油を盗み、死後その魂魄が炎となって大津八町を飛行するとある。",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:SekienAburaakago.jpg",
+          "claimed_license": "Public domain",
+          "evidence": "Judul dan deskripsi halaman Commons secara eksplisit menyebut Abura-akago (油赤子) karya Toriyama Sekien; berkas juga dipakai di artikel Wikipedia makhluk itu.",
+          "image_type": "historical-illustration",
+          "commons_license": "Public domain",
+          "rights": "PUBLIC_DOMAIN",
+          "author": null,
+          "date": null,
+          "description": null,
+          "restrictions": null,
+          "categories": [
+            "CC-PD-Mark",
+            "Files with no machine-readable author",
+            "Files with no machine-readable source",
+            "Konjaku Gazu Zoku Hyakki",
+            "Legendary creatures from Kansai region",
+            "Media missing infobox template",
+            "PD-old missing SDC copyright status",
+            "PD Old"
+          ],
+          "used_on": [
+            "as.wikipedia.org: আবুৰা আকাগো",
+            "ca.wikipedia.org: Aburakago",
+            "de.wikipedia.org: Abura-akago",
+            "en.wikipedia.org: Abura-akago",
+            "en.wikipedia.org: Konjaku Gazu Zoku Hyakki",
+            "es.wikipedia.org: Aburakago",
+            "fa.wikipedia.org: آبورا آکاگو",
+            "fr.wikipedia.org: Abura-akago",
+            "fr.wikipedia.org: Liste des yōkai",
+            "fr.wikipedia.org: Konjaku gazu zoku hyakki",
+            "id.wikipedia.org: Abura-akago",
+            "id.wikipedia.org: Konjaku Gazu Zoku Hyakki",
+            "it.wikipedia.org: Konjaku gazu zoku hyakki",
+            "it.wikipedia.org: Abura-akago",
+            "ja.wikipedia.org: 油赤子"
+          ],
+          "auto_evidence": [
+            "dipakai di de.wikipedia.org: Abura-akago"
+          ],
+          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-050/abura-akago-1.jpg"
         }
       ]
     }

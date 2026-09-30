@@ -5790,3 +5790,254 @@
 }
 ```
 
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "abura-akago",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Abura-akago",
+    "native_name": null,
+    "display_name": {
+      "id": "Abura-akago",
+      "en": "Abura-akago"
+    },
+    "wikidata_qid": "Q2500515",
+    "claim_ids": [
+      "abura-akago-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "abura-akago-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "abura-akago-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "abura-akago-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "abura-akago-c01"
+    ]
+  },
+  "countries": {
+    "value": [
+      "Japan"
+    ],
+    "claim_ids": [
+      "abura-akago-c01"
+    ]
+  },
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Abura-akago adalah yōkai yang digambar sebagai bayi peminum minyak lampu; sosoknya dikaitkan dengan cerita lama tentang api dari roh pencuri minyak.",
+    "en": "Abura-akago is a yōkai depicted as a baby drinking lamp oil, linked to an older tale of a fire arising from the spirit of an oil thief.",
+    "claim_ids": [
+      "abura-akago-c01",
+      "abura-akago-c03",
+      "abura-akago-c06"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Abura-akago, secara harfiah “bayi minyak”, tampak dalam ilustrasi Toriyama Sekien sebagai bayi yang menjilat minyak lampu andon. Catatan yang menyertainya menyebut bola api yang terbang di Ōtsu. Dalam cerita lebih lama tentang api pencuri minyak, seorang penjual minyak di Shiga dikisahkan mengambil minyak dari arca Jizō dan setelah wafat rohnya menjadi api yang berkeliaran. Basis data penelitian cerita rakyat juga mencatat cerita tentang pencuri minyak dan api itu, terpisah dari wujud bayi dalam ilustrasi Sekien.",
+      "en": "Abura-akago, literally “oil baby,” appears in Toriyama Sekien’s illustration as a baby licking oil from an andon lamp. Its accompanying text mentions a flying ball of fire in Ōtsu. An older account of the oil-stealing fire tells of a merchant in Shiga who stole oil from a Jizō image and whose spirit became a wandering flame after death. A folklore research database also records that oil-thief story separately from the baby form in Sekien’s picture.",
+      "claim_ids": [
+        "abura-akago-c01",
+        "abura-akago-c02",
+        "abura-akago-c03",
+        "abura-akago-c06"
+      ]
+    },
+    {
+      "id": "Sekien mengusulkan, dalam bentuk pertanyaan, apakah bayi peminum minyak itu adalah kelahiran kembali si pencuri. Sebuah kajian tentang lampu tradisional Jepang juga membaca gambar bayi sebagai penafsiran atas kisah roh yang menjadi api. Uraian yōkai yang lebih baru menggambarkan makhluk itu berubah dari bola api menjadi bayi yang menjilat minyak lampu lalu kembali menjadi api; penggambaran ini berasal dari tafsir modern, bukan kutipan langsung kisah api yang lebih tua.",
+      "en": "Sekien asks whether the oil-drinking baby might be the thief reborn. A study of traditional Japanese lamps also reads the baby figure as an interpretation of the spirit-turned-flame story. Later yōkai writing describes the creature changing from a fireball into a baby that licks lamp oil and back again; this belongs to modern interpretation rather than a direct statement of the older fire tale.",
+      "claim_ids": [
+        "abura-akago-c04",
+        "abura-akago-c05",
+        "abura-akago-c07"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": {
+    "original_form": "油赤子",
+    "language": "Japanese",
+    "literal_meaning": {
+      "id": "bayi minyak",
+      "en": "oil baby"
+    },
+    "claim_ids": [
+      "abura-akago-c01"
+    ]
+  },
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [
+    {
+      "commons_file": "File:SekienAburaakago.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:SekienAburaakago.jpg",
+      "image_type": "historical-illustration",
+      "shows": {
+        "id": "Ilustrasi Abura-akago oleh Toriyama Sekien.",
+        "en": "Toriyama Sekien’s illustration of Abura-akago."
+      },
+      "caption": {
+        "id": "Abura-akago dalam ilustrasi Toriyama Sekien.",
+        "en": "Abura-akago in an illustration by Toriyama Sekien."
+      },
+      "evidence": "Judul dan deskripsi halaman Commons secara eksplisit menyebut Abura-akago (油赤子) karya Toriyama Sekien; berkas juga dipakai di artikel Wikipedia makhluk itu.",
+      "creator": "Toriyama Sekien",
+      "date": null,
+      "license": "Public domain",
+      "is_primary": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "abura-akago-s1",
+      "url": "https://en.wikipedia.org/wiki/Abura-akago",
+      "title": "Abura-akago",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "abura-akago-s2",
+      "url": "https://www.nichibun.ac.jp/cgi-bin/YoukaiDB3/simsearch.cgi?ID=1232608",
+      "title": "コンパク，ホノオ",
+      "author": null,
+      "publisher": "International Research Center for Japanese Studies",
+      "published": null,
+      "language": "ja",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "abura-akago-s3",
+      "url": "https://nagoya-minzoku.jp/wp-content/uploads/2023/05/20230329takahashi.pdf",
+      "title": "行灯の民俗",
+      "author": "高橋 貴",
+      "publisher": "Nagoya Folklore Society",
+      "published": null,
+      "language": "ja",
+      "type": "journal-article",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "abura-akago-c01",
+      "source_id": "abura-akago-s1",
+      "quote": "Abura-akago (油赤子; \"oil baby\") is a type of Japanese infant spirit or ghost. It is a yōkai that appeared illustrated in Toriyama Sekien's mid-Edo period Konjaku Gazu Zoku Hyakki, as an infant spirit lapping oil out of an andon lamp.",
+      "locator": "Lead",
+      "context": "historical-record",
+      "statement": {
+        "id": "Abura-akago berarti bayi minyak dan digambar Sekien sebagai bayi yōkai yang menjilat minyak lampu.",
+        "en": "Abura-akago means oil baby and was drawn by Sekien as a baby yōkai licking lamp oil."
+      }
+    },
+    {
+      "id": "abura-akago-c02",
+      "source_id": "abura-akago-s1",
+      "quote": "In Hatchō, Ōtsu in Ōmi (\"Afumi\") Province, there exists a flying ball-like fire.",
+      "locator": "Main text",
+      "context": "historical-record",
+      "statement": {
+        "id": "Catatan Sekien menyebut bola api terbang di Ōtsu.",
+        "en": "Sekien’s text mentions a flying ball of fire in Ōtsu."
+      }
+    },
+    {
+      "id": "abura-akago-c03",
+      "source_id": "abura-akago-s1",
+      "quote": "The natives say that long ago in the village of Shiga there was an oil merchant, and every night he stole the oil from the Jizō of the Ōtsu crossroads, but when this person died his soul became a flame",
+      "locator": "Main text",
+      "context": "historical-record",
+      "statement": {
+        "id": "Kisah lama menyebut penjual minyak yang mencuri minyak arca Jizō; rohnya menjadi api setelah wafat.",
+        "en": "An older tale tells of an oil thief whose spirit became a flame after death."
+      }
+    },
+    {
+      "id": "abura-akago-c04",
+      "source_id": "abura-akago-s1",
+      "quote": "If it is so, then the baby who licks the oil is this person's rebirth.",
+      "locator": "Main text",
+      "context": "historical-record",
+      "statement": {
+        "id": "Sekien mengusulkan bayi penjilat minyak sebagai kemungkinan kelahiran kembali pencuri itu.",
+        "en": "Sekien suggests the oil-licking baby might be the thief reborn."
+      }
+    },
+    {
+      "id": "abura-akago-c05",
+      "source_id": "abura-akago-s1",
+      "quote": "In more modern yōkai literature, it is interpreted that this yōkai takes on the appearance of a ball of flames and flies into people's houses, shapeshifts into that of a baby and licks the lanterns (andon lanterns), and returns to being a ball of fire and leaves.",
+      "locator": "Main text",
+      "context": "modern-popular-culture",
+      "statement": {
+        "id": "Sastra yōkai modern menafsirkan Abura-akago sebagai bola api yang berubah menjadi bayi peminum minyak lalu kembali menjadi api.",
+        "en": "Modern yōkai literature describes a fireball that becomes an oil-licking baby and turns back into fire."
+      }
+    },
+    {
+      "id": "abura-akago-c06",
+      "source_id": "abura-akago-s2",
+      "quote": "『諸国里人談』に、志賀の油売が、辻の地蔵の油を盗み、死後その魂魄が炎となって大津八町を飛行するとある。",
+      "locator": "検索対象事例",
+      "context": "historical-record",
+      "statement": {
+        "id": "Basis data folklor mencatat kisah penjual minyak Shiga yang rohnya berubah menjadi api setelah mencuri minyak Jizō.",
+        "en": "A folklore database records the Shiga oil thief whose spirit became a flame."
+      }
+    },
+    {
+      "id": "abura-akago-c07",
+      "source_id": "abura-akago-s3",
+      "quote": "つまり油を盗んだ人の魂魄が迷い火となり、油をなめる赤子として再生したのではないか",
+      "locator": "p. 5, §15",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Sebuah kajian menafsirkan bayi penjilat minyak sebagai kemungkinan kelahiran kembali roh pencuri yang menjadi api.",
+        "en": "A study interprets the oil-licking baby as a possible rebirth of the oil thief’s spirit."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": []
+}
+```
+

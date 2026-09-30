@@ -1,8 +1,8 @@
 # Review batch-050
 
-Diperiksa 2026-09-30T09:09:48.430Z. Berkas: batch-050.md, batch-050-fix-1.md.
+Diperiksa 2026-09-30T09:13:30.549Z. Berkas: batch-050.md, batch-050-fix-1.md.
 
-**Belum dikirim:** abura-akago, akabeko, ame-no-minakanushi, bake-kujira, isonade, ittan-momen, kotoamatsukami, mononoke, ningyo, raiju, satori-folklore, amefurikozo, aoandon, dosojin, futakuchi-onna, goryo, kamimusubi, kasha-folklore, nure-onna, sarutahiko-okami, shirime, takamimusubi, akkorokamui, aobozu, aosaginohi
+**Belum dikirim:** akabeko, ame-no-minakanushi, bake-kujira, isonade, ittan-momen, kotoamatsukami, mononoke, ningyo, raiju, satori-folklore, amefurikozo, aoandon, dosojin, futakuchi-onna, goryo, kamimusubi, kasha-folklore, nure-onna, sarutahiko-okami, shirime, takamimusubi, akkorokamui, aobozu, aosaginohi
 
 ## yatagarasu — lulus-otomatis
 
@@ -193,6 +193,10 @@ Klaim 13 (exact 13), sumber 3, gambar 0.
 
 Klaim 10 (exact 10), sumber 3, gambar 0.
 
+**warn**
+- `claims (umibozu-c02)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
+- `claims (umibozu-c10)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
+
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | umibozu-c01 | exact | bakemono.lib.byu.edu | Umibōzu is a sea yōkai. | Umibōzu (海坊主) is a yōkai from Japanese folklore. Little is known of the origin of umibōzu, but it is a sea-spirit and as such has multiple sightings throughout Japan. |
@@ -340,6 +344,9 @@ Klaim 8 (exact 8), sumber 2, gambar 0.
 
 Klaim 8 (exact 8), sumber 2, gambar 0.
 
+**warn**
+- `claims (nurikabe-c08)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
+
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | nurikabe-c01 | exact | bakemono.lib.byu.edu | Nurikabe means painted or plastered wall. | Nurikabe means “painted wall” or “plastered wall.” |
@@ -449,3 +456,26 @@ Klaim 3 (loose 1, exact 2), sumber 2, gambar 1.
   - dipakai di: bg.wikipedia.org: Абуми-гучи; ca.wikipedia.org: Abumi-kuchi; de.wikipedia.org: Abumikuchi; en.wikipedia.org: Gazu Hyakki Tsurezure Bukuro; en.wikipedia.org: Abumi-guchi; es.wikipedia.org: Abumi-kuchi; fa.wikipedia.org: آبومی گوچی; fr.wikipedia.org: Gazu hyakki tsurezure bukuro; fr.wikipedia.org: Abumi-kuchi; id.wikipedia.org: Abumi-guchi; id.wikipedia.org: Gazu Hyakki Tsurezure Bukuro; it.wikipedia.org: Gazu hyakki tsurezure bukuro; it.wikipedia.org: Abumi-guchi; ja.wikipedia.org: 鐙口; ja.wikipedia.org: 百器徒然袋
   - bukti dari Gemini: Deskripsi berkas Commons menyebut Abumi-guchi (鐙口) secara eksplisit dan mengaitkannya dengan Gazu Hyakki Tsurezure Bukuro.
   - thumbnail: /home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-050/abumi-guchi-1.jpg
+
+## abura-akago — lulus-otomatis
+
+Klaim 6 (loose 1, exact 5), sumber 2, gambar 1.
+
+**manual**
+- `images[0] (File:SekienAburaakago.jpg)` Keterkaitan otomatis: dipakai di de.wikipedia.org: Abura-akago. Cek visual tetap diperlukan.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| abura-akago-c01 | loose | en.wikipedia.org | Abura-akago means oil baby and was drawn by Sekien as a baby yōkai licking lamp oil. | Abura-akago (油赤子; "oil baby") is a type of Japanese infant spirit or ghost. It is a yōkai that appeared illustrated in Toriyama Sekien's mid-Edo period Konjaku Gazu Zoku Hyakki, as an infant spirit lapping oil out of an andon lamp. |
+| abura-akago-c02 | exact | en.wikipedia.org | Sekien’s text mentions a flying ball of fire in Ōtsu. | In Hatchō, Ōtsu in Ōmi ("Afumi") Province, there exists a flying ball-like fire. |
+| abura-akago-c03 | exact | en.wikipedia.org | An older tale tells of an oil thief whose spirit became a flame after death. | The natives say that long ago in the village of Shiga there was an oil merchant, and every night he stole the oil from the Jizō of the Ōtsu crossroads, but when this person died his soul became a flame |
+| abura-akago-c04 | exact | en.wikipedia.org | Sekien suggests the oil-licking baby might be the thief reborn. | Sekien's accompanying notes describe it: ... If it is so, then the baby who licks the oil is this person's rebirth. |
+| abura-akago-c05 | exact | en.wikipedia.org | Modern yōkai literature describes a fireball that becomes an oil-licking baby and turns back into fire. | In more modern yōkai literature, it is interpreted that this yōkai takes on the appearance of a ball of flames and flies into people's houses, shapeshifts into that of a baby and licks the lanterns (andon lanterns), and returns to being a ball of fire and leaves. |
+| abura-akago-c06 | exact | www.nichibun.ac.jp | A folklore database records the Shiga oil thief whose spirit became a flame. | 『諸国里人談』に、志賀の油売が、辻の地蔵の油を盗み、死後その魂魄が炎となって大津八町を飛行するとある。 |
+
+- Gambar File:SekienAburaakago.jpg: lisensi Commons "Public domain" (PUBLIC_DOMAIN); pembuat -; tanggal -
+  - deskripsi: -
+  - kategori: CC-PD-Mark; Files with no machine-readable author; Files with no machine-readable source; Konjaku Gazu Zoku Hyakki; Legendary creatures from Kansai region; Media missing infobox template; PD-old missing SDC copyright status; PD Old
+  - dipakai di: as.wikipedia.org: আবুৰা আকাগো; ca.wikipedia.org: Aburakago; de.wikipedia.org: Abura-akago; en.wikipedia.org: Abura-akago; en.wikipedia.org: Konjaku Gazu Zoku Hyakki; es.wikipedia.org: Aburakago; fa.wikipedia.org: آبورا آکاگو; fr.wikipedia.org: Abura-akago; fr.wikipedia.org: Liste des yōkai; fr.wikipedia.org: Konjaku gazu zoku hyakki; id.wikipedia.org: Abura-akago; id.wikipedia.org: Konjaku Gazu Zoku Hyakki; it.wikipedia.org: Konjaku gazu zoku hyakki; it.wikipedia.org: Abura-akago; ja.wikipedia.org: 油赤子
+  - bukti dari Gemini: Judul dan deskripsi halaman Commons secara eksplisit menyebut Abura-akago (油赤子) karya Toriyama Sekien; berkas juga dipakai di artikel Wikipedia makhluk itu.
+  - thumbnail: /home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-050/abura-akago-1.jpg
