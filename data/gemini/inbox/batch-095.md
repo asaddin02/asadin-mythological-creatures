@@ -6320,3 +6320,2012 @@
 }
 ```
 
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "vrykolakas",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Vrykolakas",
+    "native_name": null,
+    "display_name": {
+      "id": "Vrykolakas",
+      "en": "Vrykolakas"
+    },
+    "wikidata_qid": "Q1940177",
+    "claim_ids": [
+      "vrykolakas-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "hantu",
+    "claim_ids": [
+      "vrykolakas-c01"
+    ]
+  },
+  "classification": {
+    "value": "undead",
+    "claim_ids": [
+      "vrykolakas-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "vrykolakas-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "vrykolakas-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "graveyard",
+      "claim_ids": [
+        "vrykolakas-c01"
+      ]
+    }
+  ],
+  "disposition": {
+    "value": "malevolent",
+    "claim_ids": [
+      "vrykolakas-c01"
+    ]
+  },
+  "traits": [
+    {
+      "value": "undead",
+      "claim_ids": [
+        "vrykolakas-c01"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "Vrykolakas adalah mayat hidup berbahaya dalam cerita rakyat Yunani yang disamakan dengan vampir [vrykolakas-c01, vrykolakas-c02].",
+    "en": "The vrykolakas is a harmful undead creature of Greek folklore equated with the vampire [vrykolakas-c01, vrykolakas-c02].",
+    "claim_ids": [
+      "vrykolakas-c01",
+      "vrykolakas-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Vrykolakas adalah mayat hidup berbahaya dalam cerita rakyat Yunani [vrykolakas-c01]. Ia umumnya disamakan dengan vampir dari cerita rakyat Slavia tetangga [vrykolakas-c02].",
+      "en": "The vrykolakas is a harmful undead creature of Greek folklore [vrykolakas-c01], generally equated with the vampire of neighbouring Slavic folklore [vrykolakas-c02].",
+      "claim_ids": [
+        "vrykolakas-c01",
+        "vrykolakas-c02"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Vampire",
+      "relation_type": "counterpart",
+      "note": {
+        "id": "Umumnya disamakan dengan vampir Slavia.",
+        "en": "Generally equated with the Slavic vampire."
+      },
+      "claim_ids": [
+        "vrykolakas-c02"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa kepercayaan tentang mayat hidup tersebar di Eropa Timur?",
+      "en": "Why did undead beliefs spread across Eastern Europe?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "vrykolakas-s1",
+      "url": "https://en.wikipedia.org/wiki/Vrykolakas",
+      "title": "Vrykolakas",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "vrykolakas-c01",
+      "source_id": "vrykolakas-s1",
+      "quote": "is a harmful undead creature in Greek folklore.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Vrykolakas adalah mayat hidup berbahaya dalam cerita rakyat Yunani.",
+        "en": "A vrykolakas is a harmful undead creature of Greek folklore."
+      }
+    },
+    {
+      "id": "vrykolakas-c02",
+      "source_id": "vrykolakas-s1",
+      "quote": "It shares similarities with numerous other legendary creatures, but is generally equated with the vampire of the folklore of the neighbouring Slavic countries.",
+      "locator": "Introduction",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Ia mirip banyak makhluk legenda lain, tetapi umumnya disamakan dengan vampir dari cerita rakyat negara-negara Slavia tetangga.",
+        "en": "It resembles many legendary creatures but is generally equated with the vampire of neighbouring Slavic folklore."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "aethon-q1371462",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Aethon (Caucasian Eagle)",
+    "native_name": null,
+    "display_name": {
+      "id": "Aethon (Elang Kaukasus)",
+      "en": "Aethon (Elang Kaukasus)"
+    },
+    "wikidata_qid": "Q1371462",
+    "claim_ids": [
+      "aethon-q1371462-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "hewan mitos",
+    "claim_ids": [
+      "aethon-q1371462-c01"
+    ]
+  },
+  "classification": {
+    "value": "bird",
+    "claim_ids": [
+      "aethon-q1371462-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "aethon-q1371462-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "aethon-q1371462-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "mountain",
+      "claim_ids": [
+        "aethon-q1371462-c02"
+      ]
+    }
+  ],
+  "disposition": {
+    "value": "malevolent",
+    "claim_ids": [
+      "aethon-q1371462-c02"
+    ]
+  },
+  "traits": [],
+  "short_description": {
+    "id": "Elang Kaukasus adalah elang anak Tifon dan Ekhidna yang setiap hari memakan hati Prometheus [aethon-q1371462-c01, aethon-q1371462-c02].",
+    "en": "The Caucasian Eagle is the eagle, child of Typhon and Echidna, that ate Prometheus's liver daily [aethon-q1371462-c01, aethon-q1371462-c02].",
+    "claim_ids": [
+      "aethon-q1371462-c01",
+      "aethon-q1371462-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Dalam mitologi Yunani, Elang Kaukasus adalah elang anak Tifon dan Ekhidna [aethon-q1371462-c01]. Setelah Zeus merantai Prometheus di pegunungan Kaukasus, elang ini datang setiap hari memakan hatinya [aethon-q1371462-c02].",
+      "en": "In Greek mythology the Caucasian Eagle is an eagle, child of Typhon and Echidna [aethon-q1371462-c01]. After Zeus chained Prometheus in the Caucasus, it came daily to eat his liver [aethon-q1371462-c02].",
+      "claim_ids": [
+        "aethon-q1371462-c01",
+        "aethon-q1371462-c02"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Prometheus",
+      "relation_type": "enemy",
+      "note": {
+        "id": "Tokoh yang hatinya dimakannya setiap hari.",
+        "en": "The one whose liver it ate daily."
+      },
+      "claim_ids": [
+        "aethon-q1371462-c02"
+      ]
+    },
+    {
+      "target_name": "Echidna",
+      "relation_type": "parent",
+      "note": {
+        "id": "Induknya.",
+        "en": "Its mother."
+      },
+      "claim_ids": [
+        "aethon-q1371462-c01"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa makna hukuman abadi dalam kisah Prometheus?",
+      "en": "What does eternal punishment mean in Prometheus's story?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "aethon-q1371462-s1",
+      "url": "https://id.wikipedia.org/wiki/Elang_Kaukasus",
+      "title": "Elang Kaukasus",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "id",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "aethon-q1371462-c01",
+      "source_id": "aethon-q1371462-s1",
+      "quote": "Dalam mitologi Yunani, Elang Kaukasus adalah seekor burung elang yang merupakan anak dari Tifon dan Ekhidna.",
+      "locator": "Pengantar",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam mitologi Yunani, Elang Kaukasus adalah elang anak Tifon dan Ekhidna.",
+        "en": "In Greek mythology, the Caucasian Eagle is an eagle, child of Typhon and Echidna."
+      }
+    },
+    {
+      "id": "aethon-q1371462-c02",
+      "source_id": "aethon-q1371462-s1",
+      "quote": "Zeus merantai Prometheus di sebuah tebing di pegunungan Kaukasus dan setiap hari akan datang seekor elang yang memakan hati Prometheus.",
+      "locator": "Dalam mitologi",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Zeus merantai Prometheus di tebing pegunungan Kaukasus, dan setiap hari seekor elang datang memakan hatinya.",
+        "en": "Zeus chained Prometheus to a Caucasus cliff, and every day an eagle came to eat his liver."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Item Wikidata ini ditautkan ke artikel Wikipedia bahasa Indonesia; artikel bahasa Inggris tentang elang ini tidak ditemukan."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "aganippe",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Aganippe",
+    "native_name": null,
+    "display_name": {
+      "id": "Aganippe",
+      "en": "Aganippe"
+    },
+    "wikidata_qid": "Q390448",
+    "claim_ids": [
+      "aganippe-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "peri",
+    "claim_ids": [
+      "aganippe-c01"
+    ]
+  },
+  "classification": {
+    "value": "fairy",
+    "claim_ids": [
+      "aganippe-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "aganippe-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "aganippe-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "water",
+      "claim_ids": [
+        "aganippe-c01"
+      ]
+    }
+  ],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Aganippe adalah naiad mata air di kaki Gunung Helicon yang airnya memberi ilham puisi [aganippe-c01, aganippe-c03].",
+    "en": "Aganippe is the naiad of a spring at Mount Helicon whose water gave poetic inspiration [aganippe-c01, aganippe-c03].",
+    "claim_ids": [
+      "aganippe-c01",
+      "aganippe-c03"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Aganippe adalah nama mata air dan naiad penghuninya [aganippe-c01], di kaki Gunung Helicon di Boeotia, yang dikaitkan dengan para Muse [aganippe-c02]. Airnya dianggap sumber ilham puisi [aganippe-c03].",
+      "en": "Aganippe was a spring and its naiad [aganippe-c01] at the foot of Mount Helicon in Boeotia, linked to the Muses [aganippe-c02]. Its water was a source of poetic inspiration [aganippe-c03].",
+      "claim_ids": [
+        "aganippe-c01",
+        "aganippe-c02",
+        "aganippe-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [
+    {
+      "name": {
+        "id": "Mata air Aganippe",
+        "en": "Aganippe spring"
+      },
+      "type": "other",
+      "description": {
+        "id": "Mata air di kaki Gunung Helicon.",
+        "en": "A spring at the foot of Mount Helicon."
+      },
+      "claim_ids": [
+        "aganippe-c02"
+      ]
+    }
+  ],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Muses",
+      "relation_type": "associated",
+      "note": {
+        "id": "Para Muse yang kadang disebut Aganippides.",
+        "en": "The Muses, sometimes called Aganippides."
+      },
+      "claim_ids": [
+        "aganippe-c02"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa peran tokoh-tokoh minor dalam mitologi Yunani dan Romawi?",
+      "en": "What role do minor figures play in Greek and Roman myth?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "aganippe-s1",
+      "url": "https://en.wikipedia.org/wiki/Aganippe_(naiad)",
+      "title": "Aganippe (naiad)",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "aganippe-c01",
+      "source_id": "aganippe-s1",
+      "quote": "was the name of both a spring and the Naiad (a Crinaea) associated with it.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Aganippe adalah nama sebuah mata air sekaligus naiad penghuninya.",
+        "en": "Aganippe was the name of a spring and of its naiad."
+      }
+    },
+    {
+      "id": "aganippe-c02",
+      "source_id": "aganippe-s1",
+      "quote": "The spring is in Boeotia, near Thespiae, at the base of Mount Helicon, and was associated with the Muses who were sometimes called Aganippides.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Mata air itu di Boeotia, dekat Thespiae di kaki Gunung Helicon, dan dikaitkan dengan para Muse yang kadang disebut Aganippides.",
+        "en": "The spring is in Boeotia near Thespiae at the foot of Mount Helicon, linked to the Muses, sometimes called Aganippides."
+      }
+    },
+    {
+      "id": "aganippe-c03",
+      "source_id": "aganippe-s1",
+      "quote": "Drinking from her well, it was considered to be a source of poetic inspiration.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Minum dari mata airnya dianggap sumber ilham puisi.",
+        "en": "Drinking from her well was considered a source of poetic inspiration."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "clytius",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Clytius (Giant)",
+    "native_name": null,
+    "display_name": {
+      "id": "Clytius (raksasa)",
+      "en": "Clytius (raksasa)"
+    },
+    "wikidata_qid": "Q1206054",
+    "claim_ids": [
+      "clytius-c01"
+    ]
+  },
+  "alternate_names": [
+    {
+      "name": "Klytios",
+      "language": "de",
+      "name_type": "transliteration",
+      "claim_ids": [
+        "clytius-c01"
+      ]
+    }
+  ],
+  "jenis": {
+    "value": "raksasa",
+    "claim_ids": [
+      "clytius-c01"
+    ]
+  },
+  "classification": {
+    "value": "giant",
+    "claim_ids": [
+      "clytius-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "clytius-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "clytius-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Clytius adalah raksasa Yunani yang dibakar Hekate atau Hephaestus dalam Gigantomachy [clytius-c01, clytius-c02].",
+    "en": "Clytius is a Greek Giant burned by Hecate or Hephaestus in the Gigantomachy [clytius-c01, clytius-c02].",
+    "claim_ids": [
+      "clytius-c01",
+      "clytius-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Clytius adalah salah satu raksasa yang menyerang dewa-dewa Olimpus dalam Gigantomachy [clytius-c01]. Menurut Apollodorus, ia dibakar oleh Hekate atau Hephaestus dengan besi membara [clytius-c02].",
+      "en": "Clytius was one of the Giants who attacked the Olympian gods in the Gigantomachy [clytius-c01]. According to Apollodorus, Hecate or Hephaestus burned him with glowing iron [clytius-c02].",
+      "claim_ids": [
+        "clytius-c01",
+        "clytius-c02"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Hecate",
+      "relation_type": "enemy",
+      "note": {
+        "id": "Dewi yang membakarnya dalam salah satu versi.",
+        "en": "The goddess who burned him in one version."
+      },
+      "claim_ids": [
+        "clytius-c02"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa peran tokoh-tokoh minor dalam mitologi Yunani dan Romawi?",
+      "en": "What role do minor figures play in Greek and Roman myth?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "clytius-s1",
+      "url": "https://de.wikipedia.org/wiki/Klytios",
+      "title": "Klytios",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "de",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "clytius-c01",
+      "source_id": "clytius-s1",
+      "quote": "Klytios (altgriechisch Κλύτιος Klýtios) war einer der Giganten der griechischen Mythologie, die im Rahmen der sogenannten Gigantomachie die olympischen Götter angriffen.",
+      "locator": "Einleitung",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Clytius (Klytios) adalah salah satu raksasa mitologi Yunani yang menyerang dewa-dewa Olimpus dalam Gigantomachy.",
+        "en": "Clytius (Klytios) was one of the Giants of Greek mythology who attacked the Olympian gods in the Gigantomachy."
+      }
+    },
+    {
+      "id": "clytius-c02",
+      "source_id": "clytius-s1",
+      "quote": "Er wurde laut der Bibliotheke des Apollodor von Hekate oder Hephaistos mit glühenden Eisenmassen verbrannt.",
+      "locator": "Einleitung",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Menurut Bibliotheca karya Apollodorus, ia dibakar oleh Hekate atau Hephaestus dengan besi membara.",
+        "en": "According to Apollodorus's Library, Hecate or Hephaestus burned him with glowing iron."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia bahasa Jerman yang ditautkan untuk item ini."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "damysos",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Damysos",
+    "native_name": null,
+    "display_name": {
+      "id": "Damysos",
+      "en": "Damysos"
+    },
+    "wikidata_qid": "Q901487",
+    "claim_ids": [
+      "damysos-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "raksasa",
+    "claim_ids": [
+      "damysos-c01"
+    ]
+  },
+  "classification": {
+    "value": "giant",
+    "claim_ids": [
+      "damysos-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "damysos-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "damysos-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Damysos adalah raksasa tercepat, yang pergelangan kakinya dipasangkan Chiron pada Achilles [damysos-c01, damysos-c02].",
+    "en": "Damysos was the fastest of the Giants, whose ankle Chiron gave to Achilles [damysos-c01, damysos-c02].",
+    "claim_ids": [
+      "damysos-c01",
+      "damysos-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Damysos adalah raksasa tercepat dalam mitologi Yunani [damysos-c01]. Chiron menggali jasadnya di Pallene dan memasangkan pergelangan kakinya pada Achilles [damysos-c02].",
+      "en": "Damysos was the fastest of the Giants in Greek mythology [damysos-c01]. Chiron exhumed him at Pallene and set his ankle into Achilles [damysos-c02].",
+      "claim_ids": [
+        "damysos-c01",
+        "damysos-c02"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Achilles",
+      "relation_type": "associated",
+      "note": {
+        "id": "Pergelangan kakinya dipasangkan pada Achilles.",
+        "en": "His ankle was set into Achilles."
+      },
+      "claim_ids": [
+        "damysos-c02"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa peran tokoh-tokoh minor dalam mitologi Yunani dan Romawi?",
+      "en": "What role do minor figures play in Greek and Roman myth?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "damysos-s1",
+      "url": "https://en.wikipedia.org/wiki/Damysus_(Giant)",
+      "title": "Damysus (Giant)",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "damysos-c01",
+      "source_id": "damysos-s1",
+      "quote": "Damysus or Damysos (Greek: Δάμυσος), was the fastest of all the Giants in the Greek mythology.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Damysos adalah raksasa tercepat dalam mitologi Yunani.",
+        "en": "Damysos was the fastest of all the Giants in Greek mythology."
+      }
+    },
+    {
+      "id": "damysos-c02",
+      "source_id": "damysos-s1",
+      "quote": "Chiron exhumed the body of the Damysus who was buried at Pallene, removed the ankle and incorporated it into Achill",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Chiron menggali jasad Damysos di Pallene, mengambil pergelangan kakinya, dan memasangkannya pada Achilles.",
+        "en": "Chiron exhumed Damysos's body at Pallene, took the ankle and set it into Achilles."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "harpina",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Harpina",
+    "native_name": null,
+    "display_name": {
+      "id": "Harpina",
+      "en": "Harpina"
+    },
+    "wikidata_qid": "Q3200444",
+    "claim_ids": [
+      "harpina-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "peri",
+    "claim_ids": [
+      "harpina-c01"
+    ]
+  },
+  "classification": {
+    "value": "fairy",
+    "claim_ids": [
+      "harpina-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "harpina-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "harpina-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Harpina adalah putri Asopus dan Metope, ibu Oenomaus raja Pisa [harpina-c01, harpina-c02].",
+    "en": "Harpina is a daughter of Asopus and Metope, mother of Oenomaus, king of Pisa [harpina-c01, harpina-c02].",
+    "claim_ids": [
+      "harpina-c01",
+      "harpina-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Harpina adalah putri Asopus dan Metope [harpina-c01]. Ia ibu Oenomaus, raja Pisa, yang mendirikan kota Harpina dan menamainya menurut ibunya [harpina-c02].",
+      "en": "Harpina was a daughter of Asopus and Metope [harpina-c01]. She was mother of Oenomaus, king of Pisa, who founded the city of Harpina and named it for her [harpina-c02].",
+      "claim_ids": [
+        "harpina-c01",
+        "harpina-c02"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Metope",
+      "relation_type": "parent",
+      "note": {
+        "id": "Ibunya.",
+        "en": "Her mother."
+      },
+      "claim_ids": [
+        "harpina-c01"
+      ]
+    },
+    {
+      "target_name": "Oenomaus",
+      "relation_type": "child",
+      "note": {
+        "id": "Putranya, raja Pisa.",
+        "en": "Her son, king of Pisa."
+      },
+      "claim_ids": [
+        "harpina-c02"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa peran tokoh-tokoh minor dalam mitologi Yunani dan Romawi?",
+      "en": "What role do minor figures play in Greek and Roman myth?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "harpina-s1",
+      "url": "https://en.wikipedia.org/wiki/Harpina",
+      "title": "Harpina",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "harpina-c01",
+      "source_id": "harpina-s1",
+      "quote": "was a daughter of Phliasian Asopus and of Metope.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Harpina adalah putri Asopus dari Phlius dan Metope.",
+        "en": "Harpina was a daughter of the Phliasian Asopus and Metope."
+      }
+    },
+    {
+      "id": "harpina-c02",
+      "source_id": "harpina-s1",
+      "quote": "The couple were the parents of Oenomaus, the king of Pisa. The latter founded and named after his mother the city of Harpina",
+      "locator": "Mythology",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Bersama Ares ia menjadi ibu Oenomaus, raja Pisa, yang mendirikan kota Harpina dan menamainya menurut ibunya.",
+        "en": "With Ares she was mother of Oenomaus, king of Pisa, who founded the city of Harpina and named it for her."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "idaea",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Idaea",
+    "native_name": null,
+    "display_name": {
+      "id": "Idaea",
+      "en": "Idaea"
+    },
+    "wikidata_qid": "Q2007963",
+    "claim_ids": [
+      "idaea-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "peri",
+    "claim_ids": [
+      "idaea-c01"
+    ]
+  },
+  "classification": {
+    "value": "fairy",
+    "claim_ids": [
+      "idaea-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "idaea-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "idaea-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "mountain",
+      "claim_ids": [
+        "idaea-c01"
+      ]
+    }
+  ],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Idaea adalah nimfa Gunung Ida, istri Scamander dan leluhur wangsa Troya [idaea-c01, idaea-c02].",
+    "en": "Idaea is a nymph of Mount Ida, wife of Scamander and ancestor of the royal house of Troy [idaea-c01, idaea-c02].",
+    "claim_ids": [
+      "idaea-c01",
+      "idaea-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Idaea adalah nimfa, kemungkinan dari Gunung Ida di Troas [idaea-c01]. Ia istri dewa sungai Scamander dan leluhur utama wangsa kerajaan Troya [idaea-c02].",
+      "en": "Idaea was a nymph, presumably of Mount Ida in the Troad [idaea-c01]. As the wife of Scamander, she is counted among the main forebears of the royal house of Troy [idaea-c02].",
+      "claim_ids": [
+        "idaea-c01",
+        "idaea-c02"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Scamander",
+      "relation_type": "spouse",
+      "note": {
+        "id": "Suaminya, dewa sungai.",
+        "en": "Her husband, a river god."
+      },
+      "claim_ids": [
+        "idaea-c02"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa peran tokoh-tokoh minor dalam mitologi Yunani dan Romawi?",
+      "en": "What role do minor figures play in Greek and Roman myth?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "idaea-s1",
+      "url": "https://en.wikipedia.org/wiki/Idaea_(mother_of_King_Teucer)",
+      "title": "Idaea (mother of King Teucer)",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "idaea-c01",
+      "source_id": "idaea-s1",
+      "quote": "was a nymph, presumably of Mount Ida in the ancient Troad region of western Anatolia",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Idaea adalah nimfa, kemungkinan dari Gunung Ida di wilayah Troas kuno.",
+        "en": "Idaea was a nymph, presumably of Mount Ida in the ancient Troad."
+      }
+    },
+    {
+      "id": "idaea-c02",
+      "source_id": "idaea-s1",
+      "quote": "She was the wife of the river-god Scamander,  and a principal ancestor of the royal house of Troy.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia istri dewa sungai Scamander dan leluhur utama wangsa kerajaan Troya.",
+        "en": "She was wife of the river god Scamander and a principal ancestor of the royal house of Troy."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "phaethusa",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Phaethusa",
+    "native_name": null,
+    "display_name": {
+      "id": "Phaethusa",
+      "en": "Phaethusa"
+    },
+    "wikidata_qid": "Q1119537",
+    "claim_ids": [
+      "phaethusa-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "phaethusa-c01"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "phaethusa-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "phaethusa-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "phaethusa-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": {
+    "value": "protective",
+    "claim_ids": [
+      "phaethusa-c02"
+    ]
+  },
+  "traits": [],
+  "short_description": {
+    "id": "Phaethusa adalah putri Helios yang menggembalakan domba suci ayahnya di Thrinacia [phaethusa-c01, phaethusa-c02].",
+    "en": "Phaethusa is a daughter of Helios who herded her father's sacred sheep on Thrinacia [phaethusa-c01, phaethusa-c02].",
+    "claim_ids": [
+      "phaethusa-c01",
+      "phaethusa-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Phaethusa adalah putri dewa matahari Helios [phaethusa-c01]. Bersama Lampetia ia menjaga ternak suci ayahnya di Thrinacia [phaethusa-c02], dengan tongkat gembala perak untuk menggembalakan domba [phaethusa-c03].",
+      "en": "Phaethusa was a daughter of the sun god Helios [phaethusa-c01]. With Lampetia she guarded her father's sacred herds on Thrinacia [phaethusa-c02], herding the sheep with a silver crook [phaethusa-c03].",
+      "claim_ids": [
+        "phaethusa-c01",
+        "phaethusa-c02",
+        "phaethusa-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Helios",
+      "relation_type": "parent",
+      "note": {
+        "id": "Ayahnya.",
+        "en": "Her father."
+      },
+      "claim_ids": [
+        "phaethusa-c01"
+      ]
+    },
+    {
+      "target_name": "Lampetia",
+      "relation_type": "sibling",
+      "note": {
+        "id": "Saudarinya.",
+        "en": "Her sister."
+      },
+      "claim_ids": [
+        "phaethusa-c02"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa peran tokoh-tokoh minor dalam mitologi Yunani dan Romawi?",
+      "en": "What role do minor figures play in Greek and Roman myth?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "phaethusa-s1",
+      "url": "https://en.wikipedia.org/wiki/Phaethusa",
+      "title": "Phaethusa",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "phaethusa-c01",
+      "source_id": "phaethusa-s1",
+      "quote": "was a daughter of the sun god Helios.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Phaethusa adalah putri dewa matahari Helios.",
+        "en": "Phaethusa was a daughter of the sun god Helios."
+      }
+    },
+    {
+      "id": "phaethusa-c02",
+      "source_id": "phaethusa-s1",
+      "quote": "She and her sister Lampetia watched over their father's sacred herds of cattle and sheep on the island of Thrinacia (Sicily or Malta).",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Bersama saudarinya Lampetia, ia menjaga kawanan sapi dan domba suci ayahnya di pulau Thrinacia.",
+        "en": "With her sister Lampetia she guarded her father's sacred herds on Thrinacia."
+      }
+    },
+    {
+      "id": "phaethusa-c03",
+      "source_id": "phaethusa-s1",
+      "quote": "Phaethusa wielded a silver crook and herded the sheep.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Phaethusa memegang tongkat gembala perak dan menggembalakan domba.",
+        "en": "Phaethusa wielded a silver crook and herded the sheep."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "plouto",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Plouto (Oceanid)",
+    "native_name": null,
+    "display_name": {
+      "id": "Plouto (Oceanid)",
+      "en": "Plouto (Oceanid)"
+    },
+    "wikidata_qid": "Q662968",
+    "claim_ids": [
+      "plouto-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "peri",
+    "claim_ids": [
+      "plouto-c01"
+    ]
+  },
+  "classification": {
+    "value": "fairy",
+    "claim_ids": [
+      "plouto-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "plouto-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "plouto-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Plouto adalah Oceanid, teman bermain Persephone saat ia diculik Hades [plouto-c01, plouto-c02].",
+    "en": "Plouto is an Oceanid, a playmate of Persephone when Hades abducted her [plouto-c01, plouto-c02].",
+    "claim_ids": [
+      "plouto-c01",
+      "plouto-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Plouto adalah salah satu Oceanid, putri Oceanus dan Tethys [plouto-c01]. Hesiodos menyebutnya \"bermata lembut\", dan Himne Homeros menjadikannya teman bermain Persephone saat diculik Hades [plouto-c02].",
+      "en": "Plouto was one of the many Oceanid daughters of Oceanus and Tethys [plouto-c01]. Hesiod calls her \"soft eyed\", and the Homeric Hymn makes her a playmate of Persephone when Hades abducted her [plouto-c02].",
+      "claim_ids": [
+        "plouto-c01",
+        "plouto-c02"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Persephone",
+      "relation_type": "associated",
+      "note": {
+        "id": "Teman bermainnya.",
+        "en": "Her playmate."
+      },
+      "claim_ids": [
+        "plouto-c02"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa peran tokoh-tokoh minor dalam mitologi Yunani dan Romawi?",
+      "en": "What role do minor figures play in Greek and Roman myth?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "plouto-s1",
+      "url": "https://en.wikipedia.org/wiki/Pluto_(Oceanid)",
+      "title": "Pluto (Oceanid)",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "plouto-c01",
+      "source_id": "plouto-s1",
+      "quote": "one of the many Oceanid daughters of Oceanus and Tethys.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Plouto adalah salah satu dari banyak Oceanid, putri Oceanus dan Tethys.",
+        "en": "Plouto was one of the many Oceanid daughters of Oceanus and Tethys."
+      }
+    },
+    {
+      "id": "plouto-c02",
+      "source_id": "plouto-s1",
+      "quote": "Hesiod calls her \"soft eyed\", and the Homeric Hymn has her as one of the \"deep-bosomed daughters of Oceanus\" who were the playmates of Persephone when she was abducted by Hades.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Hesiodos menyebutnya \"bermata lembut\", dan Himne Homeros menjadikannya salah satu teman bermain Persephone saat diculik Hades.",
+        "en": "Hesiod calls her \"soft eyed\", and the Homeric Hymn makes her one of Persephone's playmates when Hades abducted her."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "tuchulcha",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Tuchulcha",
+    "native_name": null,
+    "display_name": {
+      "id": "Tuchulcha",
+      "en": "Tuchulcha"
+    },
+    "wikidata_qid": "Q1340960",
+    "claim_ids": [
+      "tuchulcha-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "iblis/setan",
+    "claim_ids": [
+      "tuchulcha-c01"
+    ]
+  },
+  "classification": {
+    "value": "demon",
+    "claim_ids": [
+      "tuchulcha-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-italian",
+    "suggested_new": null,
+    "claim_ids": [
+      "tuchulcha-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "tuchulcha-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "underworld",
+      "claim_ids": [
+        "tuchulcha-c02"
+      ]
+    }
+  ],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Tuchulcha adalah daemon dunia bawah Etruria berambut ular dan berparuh [tuchulcha-c01].",
+    "en": "Tuchulcha is an Etruscan underworld daemon with snake hair and a beak [tuchulcha-c01].",
+    "claim_ids": [
+      "tuchulcha-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Tuchulcha adalah daemon dunia bawah dalam mitologi Etruria, bertelinga runcing, berambut ular, dan berparuh [tuchulcha-c01]. Ia tinggal di dunia bawah Aita [tuchulcha-c02]. Satu-satunya gambarannya adalah lukisan dinding di Makam Orcus II, Tarquinia [tuchulcha-c03].",
+      "en": "Tuchulcha was a chthonic Etruscan daemon with pointed ears, snake hair and a beak [tuchulcha-c01]. It lived in the underworld Aita [tuchulcha-c02]. Its only known depiction is a wall painting in the Tomb of Orcus II, Tarquinia [tuchulcha-c03].",
+      "claim_ids": [
+        "tuchulcha-c01",
+        "tuchulcha-c02",
+        "tuchulcha-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [
+    {
+      "name": {
+        "id": "Makam Orcus II",
+        "en": "Tomb of Orcus II"
+      },
+      "type": "archaeological-site",
+      "description": {
+        "id": "Makam di Tarquinia dengan satu-satunya gambarannya.",
+        "en": "The Tarquinia tomb with its only depiction."
+      },
+      "claim_ids": [
+        "tuchulcha-c03"
+      ]
+    }
+  ],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa yang bisa kita pelajari dari satu-satunya lukisan sebuah makhluk?",
+      "en": "What can a single surviving painting teach us?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "tuchulcha-s1",
+      "url": "https://en.wikipedia.org/wiki/Tuchulcha",
+      "title": "Tuchulcha",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "tuchulcha-c01",
+      "source_id": "tuchulcha-s1",
+      "quote": "Tuchulcha was a chthonic daemon (not to be confused with the Christian term  \"demon\") of Etruscan mythology,  with pointed ears (perhaps those of a donkey), hair made of snakes, and a beak (perhaps that of a vulture).",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tuchulcha adalah daemon dunia bawah dalam mitologi Etruria, bertelinga runcing, berambut ular, dan berparuh.",
+        "en": "Tuchulcha was a chthonic daemon of Etruscan mythology with pointed ears, snake hair and a beak."
+      }
+    },
+    {
+      "id": "tuchulcha-c02",
+      "source_id": "tuchulcha-s1",
+      "quote": "Tuchulcha lived in the underworld known as Aita.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tuchulcha tinggal di dunia bawah bernama Aita.",
+        "en": "Tuchulcha lived in the underworld called Aita."
+      }
+    },
+    {
+      "id": "tuchulcha-c03",
+      "source_id": "tuchulcha-s1",
+      "quote": "The only known depiction of Tuchulcha is a wall painting in the Tomb of Orcus II, in Tarquinia, Italy.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Satu-satunya gambaran Tuchulcha yang diketahui adalah lukisan dinding di Makam Orcus II, Tarquinia.",
+        "en": "The only known depiction is a wall painting in the Tomb of Orcus II, Tarquinia."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "zeuxo",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Zeuxo",
+    "native_name": null,
+    "display_name": {
+      "id": "Zeuxo",
+      "en": "Zeuxo"
+    },
+    "wikidata_qid": "Q197039",
+    "claim_ids": [
+      "zeuxo-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "peri",
+    "claim_ids": [
+      "zeuxo-c01"
+    ]
+  },
+  "classification": {
+    "value": "fairy",
+    "claim_ids": [
+      "zeuxo-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "zeuxo-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "zeuxo-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "water",
+      "claim_ids": [
+        "zeuxo-c01"
+      ]
+    }
+  ],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Zeuxo adalah salah satu Oceanid dalam daftar Hesiodos [zeuxo-c01, zeuxo-c02].",
+    "en": "Zeuxo is one of the Oceanids in Hesiod's list [zeuxo-c01, zeuxo-c02].",
+    "claim_ids": [
+      "zeuxo-c01",
+      "zeuxo-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Zeuxo adalah salah satu dari 3.000 Oceanid [zeuxo-c01]. Namanya hanya muncul dalam daftar Oceanid karya Hesiodos [zeuxo-c02], dan pada lukisan vas karya Pelukis Brygos [zeuxo-c03].",
+      "en": "Zeuxo was one of the 3,000 Oceanids [zeuxo-c01]. Her name appears only in Hesiod's list [zeuxo-c02] and on a vase by the Brygos Painter [zeuxo-c03].",
+      "claim_ids": [
+        "zeuxo-c01",
+        "zeuxo-c02",
+        "zeuxo-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa peran tokoh-tokoh minor dalam mitologi Yunani dan Romawi?",
+      "en": "What role do minor figures play in Greek and Roman myth?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "zeuxo-s1",
+      "url": "https://en.wikipedia.org/wiki/Zeuxo_(mythology)",
+      "title": "Zeuxo (mythology)",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "zeuxo-c01",
+      "source_id": "zeuxo-s1",
+      "quote": "was one of the 3,000 Oceanids, water-nymph daughters of the Titans Oceanus and his sister-spouse Tethys.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Zeuxo adalah salah satu dari 3.000 Oceanid, nimfa air putri Titan Oceanus dan Tethys.",
+        "en": "Zeuxo was one of the 3,000 Oceanids, water-nymph daughters of Oceanus and Tethys."
+      }
+    },
+    {
+      "id": "zeuxo-c02",
+      "source_id": "zeuxo-s1",
+      "quote": "Her name appears in Hesiod's catalogue of Oceanid names; no other literary mention of her survives.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Namanya muncul dalam daftar Oceanid karya Hesiodos; tidak ada penyebutan sastra lain yang tersisa.",
+        "en": "Her name appears in Hesiod's list of Oceanids; no other literary mention survives."
+      }
+    },
+    {
+      "id": "zeuxo-c03",
+      "source_id": "zeuxo-s1",
+      "quote": "She also appears in a vase painting by the Brygos Painter in which she serves wine to a warrior named Chrysippus.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Ia juga muncul dalam lukisan vas karya Pelukis Brygos, menuangkan anggur untuk prajurit bernama Chrysippus.",
+        "en": "She also appears on a vase by the Brygos Painter, serving wine to a warrior named Chrysippus."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "crinisus",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Crinisus",
+    "native_name": null,
+    "display_name": {
+      "id": "Crinisus",
+      "en": "Crinisus"
+    },
+    "wikidata_qid": "Q631865",
+    "claim_ids": [
+      "crinisus-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "crinisus-c01"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "crinisus-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "crinisus-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "crinisus-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "water",
+      "claim_ids": [
+        "crinisus-c01"
+      ]
+    }
+  ],
+  "disposition": null,
+  "traits": [
+    {
+      "value": "shapeshifter",
+      "claim_ids": [
+        "crinisus-c02"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "Crinisus adalah dewa sungai di Sisilia yang dalam wujud anjing menjadi ayah Acestes [crinisus-c01, crinisus-c02].",
+    "en": "Crinisus is a Sicilian river god who fathered Acestes in the form of a dog [crinisus-c01, crinisus-c02].",
+    "claim_ids": [
+      "crinisus-c01",
+      "crinisus-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Crinisus adalah dewa sungai Crinisus di Sisilia [crinisus-c01]. Menurut kebanyakan versi, dalam wujud anjing ia menjadi ayah Acestes dari seorang perempuan Troya [crinisus-c02]. Koin Segesta dari 475–390 SM yang bergambar anjing dikaitkan dengannya [crinisus-c03].",
+      "en": "Crinisus was god of the Sicilian river Crinisus [crinisus-c01]. In most versions, in the form of a dog, he fathered Acestes with a Trojan woman [crinisus-c02]. Segestan coins of 475–390 BCE showing a dog are linked to him [crinisus-c03].",
+      "claim_ids": [
+        "crinisus-c01",
+        "crinisus-c02",
+        "crinisus-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Acestes",
+      "relation_type": "child",
+      "note": {
+        "id": "Putranya.",
+        "en": "His son."
+      },
+      "claim_ids": [
+        "crinisus-c02"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa peran tokoh-tokoh minor dalam mitologi Yunani dan Romawi?",
+      "en": "What role do minor figures play in Greek and Roman myth?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "crinisus-s1",
+      "url": "https://en.wikipedia.org/wiki/Crinisus",
+      "title": "Crinisus",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "crinisus-c01",
+      "source_id": "crinisus-s1",
+      "quote": "or Crimisus was the god of the Sicilian river Crinisus in Greek and Roman mythology.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Crinisus atau Crimisus adalah dewa sungai Crinisus di Sisilia dalam mitologi Yunani dan Romawi.",
+        "en": "Crinisus or Crimisus was god of the Sicilian river Crinisus in Greek and Roman mythology."
+      }
+    },
+    {
+      "id": "crinisus-c02",
+      "source_id": "crinisus-s1",
+      "quote": "According to most versions of the myth, Crinisus fathered Acestes with a Trojan woman while in the form of a dog.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Menurut kebanyakan versi, Crinisus menjadi ayah Acestes dari seorang perempuan Troya saat berwujud anjing.",
+        "en": "In most versions, Crinisus fathered Acestes with a Trojan woman in the form of a dog."
+      }
+    },
+    {
+      "id": "crinisus-c03",
+      "source_id": "crinisus-s1",
+      "quote": "Segestan coins from 475–390 BCE often depict a dog on one side, and a woman's head on the other, which have traditionally been associated with Crinisus and the eponymous Segesta.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Koin Segesta dari 475–390 SM sering bergambar anjing dan kepala perempuan, yang dikaitkan dengan Crinisus dan Segesta.",
+        "en": "Segestan coins of 475–390 BCE often show a dog and a woman's head, linked to Crinisus and Segesta."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+

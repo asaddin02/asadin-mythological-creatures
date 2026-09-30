@@ -1,24 +1,11 @@
 {
   "batch_id": "batch-095",
-  "checked_at": "2026-09-30T09:00:56.921Z",
+  "checked_at": "2026-09-30T09:03:11.578Z",
   "files": [
     "batch-095.md"
   ],
   "parse_problems": [],
-  "missing": [
-    "vrykolakas",
-    "aethon-q1371462",
-    "aganippe",
-    "clytius",
-    "damysos",
-    "harpina",
-    "idaea",
-    "phaethusa",
-    "plouto",
-    "tuchulcha",
-    "zeuxo",
-    "crinisus"
-  ],
+  "missing": [],
   "entries": [
     {
       "slug": "chloris",
@@ -1705,6 +1692,536 @@
           "statement_id": "Dalam Fasti karya Ovidius, strix digambarkan berkepala besar, bermata menatap tajam, berparuh pemangsa, bersayap putih keabuan, dan bercakar bengkok.",
           "quote": "The strix is described as a large-headed bird with transfixed eyes, rapacious beak, greyish white wings, and hooked claws in Ovid's Fasti.",
           "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "vrykolakas",
+      "file": "batch-095.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 2,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "vrykolakas-c01",
+          "source_id": "vrykolakas-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A vrykolakas is a harmful undead creature of Greek folklore.",
+          "statement_id": "Vrykolakas adalah mayat hidup berbahaya dalam cerita rakyat Yunani.",
+          "quote": "is a harmful undead creature in Greek folklore.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vrykolakas-c02",
+          "source_id": "vrykolakas-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It resembles many legendary creatures but is generally equated with the vampire of neighbouring Slavic folklore.",
+          "statement_id": "Ia mirip banyak makhluk legenda lain, tetapi umumnya disamakan dengan vampir dari cerita rakyat negara-negara Slavia tetangga.",
+          "quote": "It shares similarities with numerous other legendary creatures, but is generally equated with the vampire of the folklore of the neighbouring Slavic countries.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "aethon-q1371462",
+      "file": "batch-095.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 2,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "aethon-q1371462-c01",
+          "source_id": "aethon-q1371462-s1",
+          "host": "id.wikipedia.org",
+          "statement": "In Greek mythology, the Caucasian Eagle is an eagle, child of Typhon and Echidna.",
+          "statement_id": "Dalam mitologi Yunani, Elang Kaukasus adalah elang anak Tifon dan Ekhidna.",
+          "quote": "Dalam mitologi Yunani, Elang Kaukasus adalah seekor burung elang yang merupakan anak dari Tifon dan Ekhidna.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "aethon-q1371462-c02",
+          "source_id": "aethon-q1371462-s1",
+          "host": "id.wikipedia.org",
+          "statement": "Zeus chained Prometheus to a Caucasus cliff, and every day an eagle came to eat his liver.",
+          "statement_id": "Zeus merantai Prometheus di tebing pegunungan Kaukasus, dan setiap hari seekor elang datang memakan hatinya.",
+          "quote": "Zeus merantai Prometheus di sebuah tebing di pegunungan Kaukasus dan setiap hari akan datang seekor elang yang memakan hati Prometheus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "aganippe",
+      "file": "batch-095.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "aganippe-c01",
+          "source_id": "aganippe-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Aganippe was the name of a spring and of its naiad.",
+          "statement_id": "Aganippe adalah nama sebuah mata air sekaligus naiad penghuninya.",
+          "quote": "was the name of both a spring and the Naiad (a Crinaea) associated with it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "aganippe-c02",
+          "source_id": "aganippe-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The spring is in Boeotia near Thespiae at the foot of Mount Helicon, linked to the Muses, sometimes called Aganippides.",
+          "statement_id": "Mata air itu di Boeotia, dekat Thespiae di kaki Gunung Helicon, dan dikaitkan dengan para Muse yang kadang disebut Aganippides.",
+          "quote": "The spring is in Boeotia, near Thespiae, at the base of Mount Helicon, and was associated with the Muses who were sometimes called Aganippides.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "aganippe-c03",
+          "source_id": "aganippe-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Drinking from her well was considered a source of poetic inspiration.",
+          "statement_id": "Minum dari mata airnya dianggap sumber ilham puisi.",
+          "quote": "Drinking from her well, it was considered to be a source of poetic inspiration.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "clytius",
+      "file": "batch-095.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 2,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "clytius-c01",
+          "source_id": "clytius-s1",
+          "host": "de.wikipedia.org",
+          "statement": "Clytius (Klytios) was one of the Giants of Greek mythology who attacked the Olympian gods in the Gigantomachy.",
+          "statement_id": "Clytius (Klytios) adalah salah satu raksasa mitologi Yunani yang menyerang dewa-dewa Olimpus dalam Gigantomachy.",
+          "quote": "Klytios (altgriechisch Κλύτιος Klýtios) war einer der Giganten der griechischen Mythologie, die im Rahmen der sogenannten Gigantomachie die olympischen Götter angriffen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "clytius-c02",
+          "source_id": "clytius-s1",
+          "host": "de.wikipedia.org",
+          "statement": "According to Apollodorus's Library, Hecate or Hephaestus burned him with glowing iron.",
+          "statement_id": "Menurut Bibliotheca karya Apollodorus, ia dibakar oleh Hekate atau Hephaestus dengan besi membara.",
+          "quote": "Er wurde laut der Bibliotheke des Apollodor von Hekate oder Hephaistos mit glühenden Eisenmassen verbrannt.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "damysos",
+      "file": "batch-095.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 2,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "damysos-c01",
+          "source_id": "damysos-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Damysos was the fastest of all the Giants in Greek mythology.",
+          "statement_id": "Damysos adalah raksasa tercepat dalam mitologi Yunani.",
+          "quote": "Damysus or Damysos (Greek: Δάμυσος), was the fastest of all the Giants in the Greek mythology.",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "damysos-c02",
+          "source_id": "damysos-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Chiron exhumed Damysos's body at Pallene, took the ankle and set it into Achilles.",
+          "statement_id": "Chiron menggali jasad Damysos di Pallene, mengambil pergelangan kakinya, dan memasangkannya pada Achilles.",
+          "quote": "Chiron exhumed the body of the Damysus who was buried at Pallene, removed the ankle and incorporated it into Achill",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "harpina",
+      "file": "batch-095.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 2,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "harpina-c01",
+          "source_id": "harpina-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Harpina was a daughter of the Phliasian Asopus and Metope.",
+          "statement_id": "Harpina adalah putri Asopus dari Phlius dan Metope.",
+          "quote": "was a daughter of Phliasian Asopus and of Metope.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "harpina-c02",
+          "source_id": "harpina-s1",
+          "host": "en.wikipedia.org",
+          "statement": "With Ares she was mother of Oenomaus, king of Pisa, who founded the city of Harpina and named it for her.",
+          "statement_id": "Bersama Ares ia menjadi ibu Oenomaus, raja Pisa, yang mendirikan kota Harpina dan menamainya menurut ibunya.",
+          "quote": "The couple were the parents of Oenomaus, the king of Pisa. The latter founded and named after his mother the city of Harpina",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "idaea",
+      "file": "batch-095.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 2,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "idaea-c01",
+          "source_id": "idaea-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Idaea was a nymph, presumably of Mount Ida in the ancient Troad.",
+          "statement_id": "Idaea adalah nimfa, kemungkinan dari Gunung Ida di wilayah Troas kuno.",
+          "quote": "was a nymph, presumably of Mount Ida in the ancient Troad region of western Anatolia",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "idaea-c02",
+          "source_id": "idaea-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She was wife of the river god Scamander and a principal ancestor of the royal house of Troy.",
+          "statement_id": "Ia istri dewa sungai Scamander dan leluhur utama wangsa kerajaan Troya.",
+          "quote": "She was the wife of the river-god Scamander,  and a principal ancestor of the royal house of Troy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "phaethusa",
+      "file": "batch-095.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "phaethusa-c01",
+          "source_id": "phaethusa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Phaethusa was a daughter of the sun god Helios.",
+          "statement_id": "Phaethusa adalah putri dewa matahari Helios.",
+          "quote": "was a daughter of the sun god Helios.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phaethusa-c02",
+          "source_id": "phaethusa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "With her sister Lampetia she guarded her father's sacred herds on Thrinacia.",
+          "statement_id": "Bersama saudarinya Lampetia, ia menjaga kawanan sapi dan domba suci ayahnya di pulau Thrinacia.",
+          "quote": "She and her sister Lampetia watched over their father's sacred herds of cattle and sheep on the island of Thrinacia (Sicily or Malta).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phaethusa-c03",
+          "source_id": "phaethusa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Phaethusa wielded a silver crook and herded the sheep.",
+          "statement_id": "Phaethusa memegang tongkat gembala perak dan menggembalakan domba.",
+          "quote": "Phaethusa wielded a silver crook and herded the sheep.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "plouto",
+      "file": "batch-095.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 2,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "plouto-c01",
+          "source_id": "plouto-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Plouto was one of the many Oceanid daughters of Oceanus and Tethys.",
+          "statement_id": "Plouto adalah salah satu dari banyak Oceanid, putri Oceanus dan Tethys.",
+          "quote": "one of the many Oceanid daughters of Oceanus and Tethys.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "plouto-c02",
+          "source_id": "plouto-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Hesiod calls her \"soft eyed\", and the Homeric Hymn makes her one of Persephone's playmates when Hades abducted her.",
+          "statement_id": "Hesiodos menyebutnya \"bermata lembut\", dan Himne Homeros menjadikannya salah satu teman bermain Persephone saat diculik Hades.",
+          "quote": "Hesiod calls her \"soft eyed\", and the Homeric Hymn has her as one of the \"deep-bosomed daughters of Oceanus\" who were the playmates of Persephone when she was abducted by Hades.",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "tuchulcha",
+      "file": "batch-095.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "tuchulcha-c01",
+          "source_id": "tuchulcha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Tuchulcha was a chthonic daemon of Etruscan mythology with pointed ears, snake hair and a beak.",
+          "statement_id": "Tuchulcha adalah daemon dunia bawah dalam mitologi Etruria, bertelinga runcing, berambut ular, dan berparuh.",
+          "quote": "Tuchulcha was a chthonic daemon (not to be confused with the Christian term  \"demon\") of Etruscan mythology,  with pointed ears (perhaps those of a donkey), hair made of snakes, and a beak (perhaps that of a vulture).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tuchulcha-c02",
+          "source_id": "tuchulcha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Tuchulcha lived in the underworld called Aita.",
+          "statement_id": "Tuchulcha tinggal di dunia bawah bernama Aita.",
+          "quote": "Tuchulcha lived in the underworld known as Aita.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tuchulcha-c03",
+          "source_id": "tuchulcha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The only known depiction is a wall painting in the Tomb of Orcus II, Tarquinia.",
+          "statement_id": "Satu-satunya gambaran Tuchulcha yang diketahui adalah lukisan dinding di Makam Orcus II, Tarquinia.",
+          "quote": "The only known depiction of Tuchulcha is a wall painting in the Tomb of Orcus II, in Tarquinia, Italy.",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "zeuxo",
+      "file": "batch-095.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "zeuxo-c01",
+          "source_id": "zeuxo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Zeuxo was one of the 3,000 Oceanids, water-nymph daughters of Oceanus and Tethys.",
+          "statement_id": "Zeuxo adalah salah satu dari 3.000 Oceanid, nimfa air putri Titan Oceanus dan Tethys.",
+          "quote": "was one of the 3,000 Oceanids, water-nymph daughters of the Titans Oceanus and his sister-spouse Tethys.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zeuxo-c02",
+          "source_id": "zeuxo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Her name appears in Hesiod's list of Oceanids; no other literary mention survives.",
+          "statement_id": "Namanya muncul dalam daftar Oceanid karya Hesiodos; tidak ada penyebutan sastra lain yang tersisa.",
+          "quote": "Her name appears in Hesiod's catalogue of Oceanid names; no other literary mention of her survives.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "zeuxo-c03",
+          "source_id": "zeuxo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She also appears on a vase by the Brygos Painter, serving wine to a warrior named Chrysippus.",
+          "statement_id": "Ia juga muncul dalam lukisan vas karya Pelukis Brygos, menuangkan anggur untuk prajurit bernama Chrysippus.",
+          "quote": "She also appears in a vase painting by the Brygos Painter in which she serves wine to a warrior named Chrysippus.",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "crinisus",
+      "file": "batch-095.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "crinisus-c01",
+          "source_id": "crinisus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Crinisus or Crimisus was god of the Sicilian river Crinisus in Greek and Roman mythology.",
+          "statement_id": "Crinisus atau Crimisus adalah dewa sungai Crinisus di Sisilia dalam mitologi Yunani dan Romawi.",
+          "quote": "or Crimisus was the god of the Sicilian river Crinisus in Greek and Roman mythology.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "crinisus-c02",
+          "source_id": "crinisus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In most versions, Crinisus fathered Acestes with a Trojan woman in the form of a dog.",
+          "statement_id": "Menurut kebanyakan versi, Crinisus menjadi ayah Acestes dari seorang perempuan Troya saat berwujud anjing.",
+          "quote": "According to most versions of the myth, Crinisus fathered Acestes with a Trojan woman while in the form of a dog.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "crinisus-c03",
+          "source_id": "crinisus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Segestan coins of 475–390 BCE often show a dog and a woman's head, linked to Crinisus and Segesta.",
+          "statement_id": "Koin Segesta dari 475–390 SM sering bergambar anjing dan kepala perempuan, yang dikaitkan dengan Crinisus dan Segesta.",
+          "quote": "Segestan coins from 475–390 BCE often depict a dog on one side, and a woman's head on the other, which have traditionally been associated with Crinisus and the eponymous Segesta.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],

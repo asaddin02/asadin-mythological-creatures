@@ -1,8 +1,6 @@
 # Review batch-095
 
-Diperiksa 2026-09-30T09:00:56.921Z. Berkas: batch-095.md.
-
-**Belum dikirim:** vrykolakas, aethon-q1371462, aganippe, clytius, damysos, harpina, idaea, phaethusa, plouto, tuchulcha, zeuxo, crinisus
+Diperiksa 2026-09-30T09:03:11.578Z. Berkas: batch-095.md.
 
 ## chloris — lulus-otomatis
 
@@ -504,4 +502,165 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 | strix-mythology-c01 | exact | en.wikipedia.org | In classical mythology the strix was an ill-omened bird, product of metamorphosis, that fed on human flesh and blood. | in the mythology of classical antiquity, was a bird of ill omen, the product of metamorphosis, that fed on human flesh and blood. |
 | strix-mythology-c02 | exact | en.wikipedia.org | The term also referred to witches and similar malevolent beings. | It also referred to witches and related malevolent folkloric beings. |
 | strix-mythology-c03 | exact | en.wikipedia.org | In Ovid's Fasti the strix is a large-headed bird with staring eyes, a rapacious beak, greyish-white wings and hooked claws. | The strix is described as a large-headed bird with transfixed eyes, rapacious beak, greyish white wings, and hooked claws in Ovid's Fasti. |
+
+
+## vrykolakas — lulus-otomatis
+
+Klaim 2 (exact 2), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| vrykolakas-c01 | exact | en.wikipedia.org | A vrykolakas is a harmful undead creature of Greek folklore. | is a harmful undead creature in Greek folklore. |
+| vrykolakas-c02 | exact | en.wikipedia.org | It resembles many legendary creatures but is generally equated with the vampire of neighbouring Slavic folklore. | It shares similarities with numerous other legendary creatures, but is generally equated with the vampire of the folklore of the neighbouring Slavic countries. |
+
+
+## aethon-q1371462 — lulus-otomatis
+
+Klaim 2 (exact 2), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| aethon-q1371462-c01 | exact | id.wikipedia.org | In Greek mythology, the Caucasian Eagle is an eagle, child of Typhon and Echidna. | Dalam mitologi Yunani, Elang Kaukasus adalah seekor burung elang yang merupakan anak dari Tifon dan Ekhidna. |
+| aethon-q1371462-c02 | exact | id.wikipedia.org | Zeus chained Prometheus to a Caucasus cliff, and every day an eagle came to eat his liver. | Zeus merantai Prometheus di sebuah tebing di pegunungan Kaukasus dan setiap hari akan datang seekor elang yang memakan hati Prometheus. |
+
+
+## aganippe — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| aganippe-c01 | exact | en.wikipedia.org | Aganippe was the name of a spring and of its naiad. | was the name of both a spring and the Naiad (a Crinaea) associated with it. |
+| aganippe-c02 | exact | en.wikipedia.org | The spring is in Boeotia near Thespiae at the foot of Mount Helicon, linked to the Muses, sometimes called Aganippides. | The spring is in Boeotia, near Thespiae, at the base of Mount Helicon, and was associated with the Muses who were sometimes called Aganippides. |
+| aganippe-c03 | exact | en.wikipedia.org | Drinking from her well was considered a source of poetic inspiration. | Drinking from her well, it was considered to be a source of poetic inspiration. |
+
+
+## clytius — lulus-otomatis
+
+Klaim 2 (exact 2), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| clytius-c01 | exact | de.wikipedia.org | Clytius (Klytios) was one of the Giants of Greek mythology who attacked the Olympian gods in the Gigantomachy. | Klytios (altgriechisch Κλύτιος Klýtios) war einer der Giganten der griechischen Mythologie, die im Rahmen der sogenannten Gigantomachie die olympischen Götter angriffen. |
+| clytius-c02 | exact | de.wikipedia.org | According to Apollodorus's Library, Hecate or Hephaestus burned him with glowing iron. | Er wurde laut der Bibliotheke des Apollodor von Hekate oder Hephaistos mit glühenden Eisenmassen verbrannt. |
+
+
+## damysos — lulus-otomatis
+
+Klaim 2 (loose 1, exact 1), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| damysos-c01 | loose | en.wikipedia.org | Damysos was the fastest of all the Giants in Greek mythology. | Damysus or Damysos (Greek: Δάμυσος), was the fastest of all the Giants in the Greek mythology. |
+| damysos-c02 | exact | en.wikipedia.org | Chiron exhumed Damysos's body at Pallene, took the ankle and set it into Achilles. | Chiron exhumed the body of the Damysus who was buried at Pallene, removed the ankle and incorporated it into Achill |
+
+
+## harpina — lulus-otomatis
+
+Klaim 2 (exact 2), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| harpina-c01 | exact | en.wikipedia.org | Harpina was a daughter of the Phliasian Asopus and Metope. | was a daughter of Phliasian Asopus and of Metope. |
+| harpina-c02 | exact | en.wikipedia.org | With Ares she was mother of Oenomaus, king of Pisa, who founded the city of Harpina and named it for her. | The couple were the parents of Oenomaus, the king of Pisa. The latter founded and named after his mother the city of Harpina |
+
+
+## idaea — lulus-otomatis
+
+Klaim 2 (exact 2), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| idaea-c01 | exact | en.wikipedia.org | Idaea was a nymph, presumably of Mount Ida in the ancient Troad. | was a nymph, presumably of Mount Ida in the ancient Troad region of western Anatolia |
+| idaea-c02 | exact | en.wikipedia.org | She was wife of the river god Scamander and a principal ancestor of the royal house of Troy. | She was the wife of the river-god Scamander, and a principal ancestor of the royal house of Troy. |
+
+
+## phaethusa — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| phaethusa-c01 | exact | en.wikipedia.org | Phaethusa was a daughter of the sun god Helios. | was a daughter of the sun god Helios. |
+| phaethusa-c02 | exact | en.wikipedia.org | With her sister Lampetia she guarded her father's sacred herds on Thrinacia. | She and her sister Lampetia watched over their father's sacred herds of cattle and sheep on the island of Thrinacia (Sicily or Malta). |
+| phaethusa-c03 | exact | en.wikipedia.org | Phaethusa wielded a silver crook and herded the sheep. | Phaethusa wielded a silver crook and herded the sheep. |
+
+
+## plouto — lulus-otomatis
+
+Klaim 2 (exact 2), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| plouto-c01 | exact | en.wikipedia.org | Plouto was one of the many Oceanid daughters of Oceanus and Tethys. | one of the many Oceanid daughters of Oceanus and Tethys. |
+| plouto-c02 | exact | en.wikipedia.org | Hesiod calls her "soft eyed", and the Homeric Hymn makes her one of Persephone's playmates when Hades abducted her. | Hesiod calls her "soft eyed", and the Homeric Hymn has her as one of the "deep-bosomed daughters of Oceanus" who were the playmates of Persephone when she was abducted by Hades. |
+
+
+## tuchulcha — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| tuchulcha-c01 | exact | en.wikipedia.org | Tuchulcha was a chthonic daemon of Etruscan mythology with pointed ears, snake hair and a beak. | Tuchulcha was a chthonic daemon (not to be confused with the Christian term "demon") of Etruscan mythology, with pointed ears (perhaps those of a donkey), hair made of snakes, and a beak (perhaps that of a vulture). |
+| tuchulcha-c02 | exact | en.wikipedia.org | Tuchulcha lived in the underworld called Aita. | Tuchulcha lived in the underworld known as Aita. |
+| tuchulcha-c03 | exact | en.wikipedia.org | The only known depiction is a wall painting in the Tomb of Orcus II, Tarquinia. | The only known depiction of Tuchulcha is a wall painting in the Tomb of Orcus II, in Tarquinia, Italy. |
+
+
+## zeuxo — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| zeuxo-c01 | exact | en.wikipedia.org | Zeuxo was one of the 3,000 Oceanids, water-nymph daughters of Oceanus and Tethys. | was one of the 3,000 Oceanids, water-nymph daughters of the Titans Oceanus and his sister-spouse Tethys. |
+| zeuxo-c02 | exact | en.wikipedia.org | Her name appears in Hesiod's list of Oceanids; no other literary mention survives. | Her name appears in Hesiod's catalogue of Oceanid names; no other literary mention of her survives. |
+| zeuxo-c03 | exact | en.wikipedia.org | She also appears on a vase by the Brygos Painter, serving wine to a warrior named Chrysippus. | She also appears in a vase painting by the Brygos Painter in which she serves wine to a warrior named Chrysippus. |
+
+
+## crinisus — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| crinisus-c01 | exact | en.wikipedia.org | Crinisus or Crimisus was god of the Sicilian river Crinisus in Greek and Roman mythology. | or Crimisus was the god of the Sicilian river Crinisus in Greek and Roman mythology. |
+| crinisus-c02 | exact | en.wikipedia.org | In most versions, Crinisus fathered Acestes with a Trojan woman in the form of a dog. | According to most versions of the myth, Crinisus fathered Acestes with a Trojan woman while in the form of a dog. |
+| crinisus-c03 | exact | en.wikipedia.org | Segestan coins of 475–390 BCE often show a dog and a woman's head, linked to Crinisus and Segesta. | Segestan coins from 475–390 BCE often depict a dog on one side, and a woman's head on the other, which have traditionally been associated with Crinisus and the eponymous Segesta. |
 
