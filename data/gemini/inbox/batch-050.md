@@ -1367,3 +1367,1106 @@
 }
 ```
 
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "konohanasakuyahime",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Konohanasakuyahime",
+    "native_name": null,
+    "display_name": {
+      "id": "Konohanasakuyahime",
+      "en": "Konohanasakuyahime"
+    },
+    "wikidata_qid": "Q1781862",
+    "claim_ids": [
+      "konohanasakuyahime-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "konohanasakuyahime-c01"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "konohanasakuyahime-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "konohanasakuyahime-c01",
+      "konohanasakuyahime-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "konohanasakuyahime-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Konohanasakuyahime adalah dewi bunga dalam mitos Ninigi yang kemudian dipuja sebagai dewi Gunung Fuji.",
+    "en": "Konohanasakuyahime is a blossom goddess in the Ninigi myth who later became identified with Mt. Fuji’s deity.",
+    "claim_ids": [
+      "konohanasakuyahime-c01",
+      "konohanasakuyahime-c02",
+      "konohanasakuyahime-c09"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Konohanasakuyahime adalah kami perempuan, putri dewa gunung Ōyamatsumi dan istri Ninigi. Namanya memuat unsur “bunga pohon” yang dikaitkan dengan singkatnya masa mekarnya sakura; kisah itu membandingkannya dengan kakaknya, Iwanagahime, yang berumur panjang. Menurut Kojiki dan Nihon Shoki, Ninigi bertemu dengannya di Tanjung Kasasa. Setelah ia hamil hanya dalam satu malam, Ninigi meragukan ayah anak itu. Untuk membuktikan keturunan dewa langit, ia membakar pondok tempat melahirkan dan melahirkan tiga putra di tengah api; versi Kojiki menamai mereka Hoderi, Hosuseri, dan Hoori.",
+      "en": "Konohanasakuyahime is a female kami, daughter of the mountain deity Ōyamatsumi and wife of Ninigi. Her name contains “tree-flower,” linked to the brief beauty of cherry blossoms and contrasted with her long-lived elder sister Iwanagahime. The Kojiki and Nihon Shoki say Ninigi met her at Cape Kasasa. When she became pregnant after only one night, Ninigi doubted the child’s paternity. To prove descent from a heavenly deity, she set fire to her birthing hut and delivered three sons amid the flames; the Kojiki names them Hoderi, Hosuseri, and Hoori.",
+      "claim_ids": [
+        "konohanasakuyahime-c01",
+        "konohanasakuyahime-c02",
+        "konohanasakuyahime-c03",
+        "konohanasakuyahime-c04",
+        "konohanasakuyahime-c05",
+        "konohanasakuyahime-c06",
+        "konohanasakuyahime-c07"
+      ]
+    },
+    {
+      "id": "Konohanasakuyahime kini berhubungan erat dengan pemujaan Gunung Fuji dan kuil Asama atau Sengen. Namun, penyamaan dirinya dengan dewa gunung itu memiliki sejarah yang ditelusuri ke awal abad ke-17. Jimat tahun 1788 masih menampilkan Amida di atas Fuji, sedangkan jimat tahun 1860 menampilkan dewi Shinto. Pada abad ke-19, patung yang lebih tua pun mulai ditafsirkan sebagai dirinya. Sesudah kebijakan pemisahan Shinto dan Buddha pada 1868, penyamaan ini menjadi hampir universal di kuil-kuil Asama dan Sengen.",
+      "en": "Konohanasakuyahime is now closely linked to worship at Mt. Fuji and Asama or Sengen shrines. That identification has a history dating to the early seventeenth century. A 1788 amulet still showed Amida above Fuji, while an 1860 amulet showed a Shinto goddess. By the nineteenth century, older statues were being interpreted as her images. After the 1868 policy separating Shinto and Buddhism, the identification became almost universal at Asama and Sengen shrines.",
+      "claim_ids": [
+        "konohanasakuyahime-c08",
+        "konohanasakuyahime-c09",
+        "konohanasakuyahime-c10",
+        "konohanasakuyahime-c11",
+        "konohanasakuyahime-c12",
+        "konohanasakuyahime-c13"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "konohanasakuyahime-s1",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9642",
+      "title": "Konohanasakuyahime",
+      "author": "Mori Mizue",
+      "publisher": "Kokugakuin University Encyclopedia of Shinto",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "konohanasakuyahime-s2",
+      "url": "https://www.mlit.go.jp/tagengo-db/en/R2-00078.html",
+      "title": "Konohanasakuya Hime: Another Side of the Deity",
+      "author": null,
+      "publisher": "Japan Tourism Agency",
+      "published": "2020",
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "konohanasakuyahime-c01",
+      "source_id": "konohanasakuyahime-s1",
+      "quote": "The daughter of Ōyamatsumi (according to the main text of Nihongi, the offspring of Ōyamatsumi and a heavenly kami). Married to Ninigi",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia putri Ōyamatsumi dan istri Ninigi.",
+        "en": "She is Ōyamatsumi’s daughter and Ninigi’s wife."
+      }
+    },
+    {
+      "id": "konohanasakuyahime-c02",
+      "source_id": "konohanasakuyahime-s1",
+      "quote": "The name Konohana (\"tree-flower\") refers to the short-lived beauty of the cherry blossom",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Namanya berarti bunga pohon dan dikaitkan dengan bunga sakura.",
+        "en": "Her tree-flower name is associated with cherry blossoms."
+      }
+    },
+    {
+      "id": "konohanasakuyahime-c03",
+      "source_id": "konohanasakuyahime-s1",
+      "quote": "was given in contrast to Konohana's older sister Iwanagahime, who was ugly but long-lived.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia dibandingkan dengan kakaknya Iwanagahime yang berumur panjang.",
+        "en": "She is contrasted with her long-lived elder sister Iwanagahime."
+      }
+    },
+    {
+      "id": "konohanasakuyahime-c04",
+      "source_id": "konohanasakuyahime-s1",
+      "quote": "According to both Kojiki and Nihongi, Ninigi met the beautiful maiden Sakuyahime at Cape Kasasa",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kojiki dan Nihon Shoki menempatkan pertemuan mereka di Tanjung Kasasa.",
+        "en": "The Kojiki and Nihon Shoki place their meeting at Cape Kasasa."
+      }
+    },
+    {
+      "id": "konohanasakuyahime-c05",
+      "source_id": "konohanasakuyahime-s1",
+      "quote": "Ninigi, however, was surprised at her claim to have become pregnant in a single night, and suspected that the child was actually the offspring of an earthly kami",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ninigi meragukan kehamilan setelah satu malam.",
+        "en": "Ninigi doubted her pregnancy after one night."
+      }
+    },
+    {
+      "id": "konohanasakuyahime-c06",
+      "source_id": "konohanasakuyahime-s1",
+      "quote": "Shamed and enraged at Ninigi's accusation, Sakuyahime entered a doorless parturition hut, setting fire to it with the vow that the child should not be injured if it were truly the offspring of the heavenly kami Ninigi.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia membakar pondok bersalin untuk membuktikan keturunan dewa langit.",
+        "en": "She set fire to her birthing hut to prove the child’s heavenly descent."
+      }
+    },
+    {
+      "id": "konohanasakuyahime-c07",
+      "source_id": "konohanasakuyahime-s1",
+      "quote": "Inside the hut, Sakuyahime gave birth to three kami, including Hoderi, Hosuseri, and Hoori (according to Kojiki; the names differ somewhat in the various other accounts).",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam versi Kojiki ia melahirkan Hoderi, Hosuseri, dan Hoori.",
+        "en": "The Kojiki names her three children Hoderi, Hosuseri, and Hoori."
+      }
+    },
+    {
+      "id": "konohanasakuyahime-c08",
+      "source_id": "konohanasakuyahime-s1",
+      "quote": "Konohana Sakuyahime is one of the enshrined deities (saijin) at Fuji's Asama Jinja.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia dipuja di Kuil Asama di Fuji.",
+        "en": "She is enshrined at Fuji’s Asama Shrine."
+      }
+    },
+    {
+      "id": "konohanasakuyahime-c09",
+      "source_id": "konohanasakuyahime-s2",
+      "quote": "The identification of the deity of Mt. Fuji with the Shinto deity Konohanasakuya Hime dates from the early seventeenth century.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Penyamaan dengan dewa Fuji berasal dari awal abad ke-17.",
+        "en": "Her identification with Mt. Fuji’s deity dates to the early seventeenth century."
+      }
+    },
+    {
+      "id": "konohanasakuyahime-c10",
+      "source_id": "konohanasakuyahime-s2",
+      "quote": "The go-o dated 1788 depicts Amida Nyorai with attendants above Mt. Fuji. In the go-o dated 1860, Amida Nyorai has been replaced by a female Shinto deity.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Jimat 1788 menampilkan Amida, sedangkan jimat 1860 menampilkan dewi Shinto.",
+        "en": "A 1788 amulet showed Amida, while an 1860 one showed a Shinto goddess."
+      }
+    },
+    {
+      "id": "konohanasakuyahime-c11",
+      "source_id": "konohanasakuyahime-s2",
+      "quote": "By the nineteenth century, even older statues like the one enshrined at Shibokusa Sengen-jinja Shrine were viewed as depictions of Konohanasakuya Hime.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pada abad ke-19 patung lama pun ditafsirkan sebagai sosoknya.",
+        "en": "Older statues were interpreted as her images by the nineteenth century."
+      }
+    },
+    {
+      "id": "konohanasakuyahime-c12",
+      "source_id": "konohanasakuyahime-s2",
+      "quote": "Soon, the deity of Mt. Fuji—and the deity worshiped at Sengen or Asama shrines across the country—came to be identified almost universally with Konohanasakuya Hime.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Penyamaan dewa Fuji dan dewa kuil Sengen atau Asama dengannya menjadi hampir universal.",
+        "en": "Fuji and Asama or Sengen shrines came to identify their deity with her almost universally."
+      }
+    },
+    {
+      "id": "konohanasakuyahime-c13",
+      "source_id": "konohanasakuyahime-s2",
+      "quote": "At Mt. Fuji, this shift in emphasis to a female Shinto deity came long before the government-ordered separation of Buddhism and Shinto in 1868.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kebijakan pemisahan Shinto dan Buddha terjadi pada 1868 setelah perubahan penekanan di Fuji.",
+        "en": "The Shinto-Buddhist separation policy came in 1868 after the shift at Fuji."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "noppera-bo",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Noppera-bō",
+    "native_name": null,
+    "display_name": {
+      "id": "Noppera-bō",
+      "en": "Noppera-bō"
+    },
+    "wikidata_qid": "Q1353709",
+    "claim_ids": [
+      "noppera-bo-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "noppera-bo-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "noppera-bo-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "noppera-bo-c01",
+      "noppera-bo-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "noppera-bo-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Noppera-bō adalah yōkai berwujud manusia yang wajahnya tampak licin tanpa mata, hidung, atau mulut.",
+    "en": "Noppera-bō is a humanlike yōkai whose face appears smooth, without eyes, nose, or mouth.",
+    "claim_ids": [
+      "noppera-bo-c01",
+      "noppera-bo-c02",
+      "noppera-bo-c03"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Noppera-bō adalah yōkai tanpa wajah dalam cerita rakyat. Ia mula-mula dapat tampak seperti orang biasa, lalu memperlihatkan kulit wajah yang licin tanpa mata, hidung, atau mulut. Cerita itu terutama bertujuan menakuti, bukan menyerang secara fisik. Dalam sejumlah penuturan, sosok tanpa wajah dijelaskan sebagai samaran binatang pengubah wujud seperti mujina, rubah, atau tanuki. Identitas penyebabnya tidak seragam di semua cerita; karena itu noppera-bō lebih tepat dipahami sebagai corak penampakan daripada satu makhluk dengan silsilah tetap.",
+      "en": "Noppera-bō is a faceless yōkai in folklore. It can first appear as an ordinary person and then reveal smooth facial skin without eyes, nose, or mouth. Such stories chiefly frighten rather than physically attack. In some tellings the faceless figure is a disguise used by a shape-shifting mujina, fox, or tanuki. Its underlying identity differs among tales, so the figure is best treated as a recurring apparition rather than one being with a fixed lineage.",
+      "claim_ids": [
+        "noppera-bo-c01",
+        "noppera-bo-c02",
+        "noppera-bo-c03",
+        "noppera-bo-c04",
+        "noppera-bo-c05"
+      ]
+    },
+    {
+      "id": "Versi terkenal muncul dalam “Mujina” karya Lafcadio Hearn, terbit dalam Kwaidan pada 1904. Di lereng Kii-no-kuni-zaka, seorang pedagang melihat perempuan menangis di tepi parit. Saat didekati, perempuan itu mengusap wajah dan menampakkan ketiadaan mata, hidung, dan mulut. Pedagang lari ke penjual soba, tetapi penjual itu juga membuat wajahnya menjadi licin seperti telur dan lampunya padam. Judul dan teks utama cerita Hearn memakai “Mujina”, tetapi catatan Hearn sendiri menyebut penampakan tanpa wajah itu “nopperabo”. Sumber lebih tua juga mencatat penampakan serupa, termasuk nama nupperibō dalam kumpulan kisah tahun 1767; dua kemunculan dalam cerita Hearn bukan satu-satunya bentuk legenda ini.",
+      "en": "A famous version appears in Lafcadio Hearn’s “Mujina,” published in Kwaidan in 1904. On the Kii-no-kuni-zaka slope a merchant sees a woman weeping beside a moat. When approached, she strokes her face and reveals that it has no eyes, nose, or mouth. The merchant flees to a soba seller, but the seller also makes his face smooth like an egg, and the light goes out. Hearn’s title and main text use “Mujina,” but his own note calls the faceless apparition “nopperabo.” A 1767 tale collection also records a similar figure called nupperibō; Hearn’s double encounter is not the only form of this legend.",
+      "claim_ids": [
+        "noppera-bo-c06",
+        "noppera-bo-c07",
+        "noppera-bo-c08",
+        "noppera-bo-c09",
+        "noppera-bo-c10",
+        "noppera-bo-c11",
+        "noppera-bo-c12",
+        "noppera-bo-c13",
+        "noppera-bo-c14"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "noppera-bo-s1",
+      "url": "https://en.wikipedia.org/wiki/Noppera-b%C5%8D",
+      "title": "Noppera-bō",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "noppera-bo-s2",
+      "url": "https://sacred-texts.com/shi/kwaidan/kwai09.htm",
+      "title": "Mujina",
+      "author": "Lafcadio Hearn",
+      "publisher": "Internet Sacred Text Archive",
+      "published": "1904",
+      "language": "en",
+      "type": "primary-text",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "noppera-bo-s3",
+      "url": "https://sacred-texts.com/shi/kwaidan/kwai22.htm",
+      "title": "Notes to Kwaidan",
+      "author": "Lafcadio Hearn",
+      "publisher": "Internet Sacred Text Archive",
+      "published": "1904",
+      "language": "en",
+      "type": "primary-text",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "noppera-bo-c01",
+      "source_id": "noppera-bo-s1",
+      "quote": "in Japanese folklore, is a faceless yōkai that looks like a human but has no face.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Noppera-bō adalah yōkai yang tampak manusia tetapi tanpa wajah.",
+        "en": "Noppera-bō is a humanlike faceless yōkai."
+      }
+    },
+    {
+      "id": "noppera-bo-c02",
+      "source_id": "noppera-bo-s1",
+      "quote": "They appear at first as ordinary human beings, sometimes impersonating someone familiar to the victim, before causing their features to disappear, leaving a blank, smooth sheet of skin where their face should be.",
+      "locator": "Overview",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Mula-mula ia tampak biasa, lalu wajahnya menjadi licin tanpa ciri.",
+        "en": "It first looks ordinary, then shows a smooth blank face."
+      }
+    },
+    {
+      "id": "noppera-bo-c03",
+      "source_id": "noppera-bo-s2",
+      "quote": "she had no eyes or nose or mouth,--and he screamed and ran away.",
+      "locator": "Mujina",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sosok perempuan dalam cerita Hearn tidak punya mata, hidung, atau mulut.",
+        "en": "Hearn’s woman has no eyes, nose, or mouth."
+      }
+    },
+    {
+      "id": "noppera-bo-c04",
+      "source_id": "noppera-bo-s1",
+      "quote": "Noppera-bō are known primarily for frightening humans, but are usually otherwise harmless.",
+      "locator": "Overview",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Noppera-bō terutama menakut-nakuti manusia.",
+        "en": "Noppera-bō chiefly frightens people."
+      }
+    },
+    {
+      "id": "noppera-bo-c05",
+      "source_id": "noppera-bo-s1",
+      "quote": "Often, a noppera-bō would not actually exist, but was the disguise of a mujina, a fox kitsune, or a tanuki",
+      "locator": "Overview",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sebagian cerita mengaitkan penampakan itu dengan samaran mujina, rubah, atau tanuki.",
+        "en": "Some tales attribute the apparition to a disguised mujina, fox, or tanuki."
+      }
+    },
+    {
+      "id": "noppera-bo-c06",
+      "source_id": "noppera-bo-s1",
+      "quote": "An iconic story about a noppera-bō (though this name does not appear in the story) is \"Mujina\" in Lafcadio Hearn's book Kwaidan (1904).",
+      "locator": "In literature and folktales",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kisah terkenal “Mujina” karya Hearn terbit dalam Kwaidan pada 1904.",
+        "en": "Hearn’s “Mujina” appeared in Kwaidan in 1904."
+      }
+    },
+    {
+      "id": "noppera-bo-c07",
+      "source_id": "noppera-bo-s2",
+      "quote": "he perceived a woman crouching by the moat, all alone, and weeping bitterly.",
+      "locator": "Mujina",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pedagang melihat perempuan menangis di tepi parit.",
+        "en": "The merchant sees a woman crying beside the moat."
+      }
+    },
+    {
+      "id": "noppera-bo-c08",
+      "source_id": "noppera-bo-s2",
+      "quote": "Then that O-jochu turned around, and dropped her sleeve, and stroked her face with her hand",
+      "locator": "Mujina",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Perempuan itu berbalik lalu mengusap wajah.",
+        "en": "The woman turns and strokes her face."
+      }
+    },
+    {
+      "id": "noppera-bo-c09",
+      "source_id": "noppera-bo-s2",
+      "quote": "It proved to be only the lantern of an itinerant soba-seller",
+      "locator": "Mujina",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pedagang kemudian mendekati penjual soba.",
+        "en": "The merchant then reaches a soba seller."
+      }
+    },
+    {
+      "id": "noppera-bo-c10",
+      "source_id": "noppera-bo-s2",
+      "quote": "cried the soba-man, stroking his own face--which therewith became like unto an Egg... And, simultaneously, the light went out.",
+      "locator": "Mujina",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Penjual soba juga mengusap wajah hingga licin seperti telur dan cahaya padam.",
+        "en": "The soba seller’s face becomes egg-like and the light goes out."
+      }
+    },
+    {
+      "id": "noppera-bo-c11",
+      "source_id": "noppera-bo-s1",
+      "quote": "In Lafcadio Hearn's story, the faceless being is not called a noppera-bō but a mujina",
+      "locator": "Overview",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Teks utama Hearn memakai istilah mujina, bukan noppera-bō.",
+        "en": "Hearn’s main story text calls the faceless figure mujina rather than noppera-bō."
+      }
+    },
+    {
+      "id": "noppera-bo-c12",
+      "source_id": "noppera-bo-s1",
+      "quote": "One tale that hints at some shapeshifting magic beast tricking humans into seeing faceless beings occurs in kaidan collection Shinsetsu Hyakumonogatari (Meiwa 4/1767). It records that the nupperibō (ぬっぺりほう) made spooky appearance in Nijōgawara, Kyoto",
+      "locator": "In literature and folktales",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kumpulan kisah tahun 1767 mencatat penampakan bernama nupperibō.",
+        "en": "A 1767 collection records a nupperibō apparition."
+      }
+    },
+    {
+      "id": "noppera-bo-c13",
+      "source_id": "noppera-bo-s3",
+      "quote": "An apparition with a smooth, totally featureless face, called a \"nopperabo,\" is a stock part of the Japanese pantheon of ghosts and demons.",
+      "locator": "Mujina note 2",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Catatan Hearn menyebut penampakan itu “nopperabo”.",
+        "en": "Hearn’s own note calls the apparition “nopperabo.”"
+      }
+    },
+    {
+      "id": "noppera-bo-c14",
+      "source_id": "noppera-bo-s2",
+      "quote": "On the Akasaka Road, in Tokyo, there is a slope called Kii-no-kuni-zaka",
+      "locator": "Mujina",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kisah Hearn berlatar di lereng Kii-no-kuni-zaka.",
+        "en": "Hearn sets the tale at Kii-no-kuni-zaka."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "takemikazuchi",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Takemikazuchi",
+    "native_name": null,
+    "display_name": {
+      "id": "Takemikazuchi",
+      "en": "Takemikazuchi"
+    },
+    "wikidata_qid": "Q1502690",
+    "claim_ids": [
+      "takemikazuchi-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "takemikazuchi-c01"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "takemikazuchi-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "takemikazuchi-c01",
+      "takemikazuchi-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "takemikazuchi-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Takemikazuchi adalah kami petir yang dalam mitos mendesak penyerahan Izumo kepada dewa-dewa langit.",
+    "en": "Takemikazuchi is a thunder kami who, in myth, demands the transfer of Izumo to the heavenly deities.",
+    "claim_ids": [
+      "takemikazuchi-c01",
+      "takemikazuchi-c02",
+      "takemikazuchi-c07"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Takemikazuchi adalah kami yang menurut Kojiki lahir dari darah yang melekat pada pedang Izanagi setelah ia membunuh dewa api Kagutsuchi. Dalam kisah penyerahan negeri, ia turun ke Izumo untuk meminta Ōkuninushi menyerahkan wilayah itu kepada dewa-dewa langit. Pendampingnya berbeda menurut sumber: Kojiki menyebut Amanotorifune, sedangkan Nihon Shoki menyebut Futsunushi. Kojiki juga mengisahkan adu kekuatan dengan Takeminakata, putra Ōkuninushi yang menolak permintaan itu; setelah kalah, Takeminakata mundur ke Suwa.",
+      "en": "According to the Kojiki, Takemikazuchi is a kami born from blood on Izanagi’s sword after the fire deity Kagutsuchi was killed. In the land-transfer myth he descends to Izumo to ask Ōkuninushi to yield it to the heavenly deities. His companion differs by source: the Kojiki names Amanotorifune, while the Nihon Shoki names Futsunushi. The Kojiki also recounts a contest of strength with Ōkuninushi’s resisting son Takeminakata, who is driven to Suwa after defeat.",
+      "claim_ids": [
+        "takemikazuchi-c01",
+        "takemikazuchi-c02",
+        "takemikazuchi-c03",
+        "takemikazuchi-c04"
+      ]
+    },
+    {
+      "id": "Dalam kisah ekspedisi Jimmu ke timur, Takemikazuchi tidak turun sendiri; ia mengirim pedang Futsunomitama untuk menolong pasukan Jimmu. Ia dipuja antara lain di Kashima dan Kasuga. Tradisi Kuil Kasuga di Nara menyebutnya dewa petir dan menuturkan bahwa ia datang dari Kashima dengan menunggang rusa putih sebagai pelindung ibu kota. Takemikazuchi bersama tiga kami lain ditempatkan di kuil Kasuga ketika bangunannya didirikan pada 768. Rusa putih dalam cerita itu terkait perpindahan pemujaan, bukan wujud tetap Takemikazuchi.",
+      "en": "In Jimmu’s eastward campaign, Takemikazuchi does not descend himself; he sends the sword Futsunomitama to aid Jimmu’s forces. He is worshiped at Kashima and Kasuga, among other shrines. A Kasuga tradition in Nara calls him a thunder deity and says he traveled from Kashima on a white deer in response to prayers for the capital’s protection. He and three other kami were enshrined at Kasuga when its hillside shrine was built in 768. The white deer belongs to this shrine-transfer tradition rather than being a fixed form of the deity.",
+      "claim_ids": [
+        "takemikazuchi-c05",
+        "takemikazuchi-c06",
+        "takemikazuchi-c07",
+        "takemikazuchi-c08"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "takemikazuchi-s1",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9145",
+      "title": "Takemikazuchi",
+      "author": "Kadoya Atsushi",
+      "publisher": "Kokugakuin University Encyclopedia of Shinto",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "takemikazuchi-s2",
+      "url": "https://www.mlit.go.jp/tagengo-db/en/H30-00880.html",
+      "title": "Mt. Mikasa",
+      "author": null,
+      "publisher": "Japan Tourism Agency",
+      "published": "2018",
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "takemikazuchi-c01",
+      "source_id": "takemikazuchi-s1",
+      "quote": "A kami produced from the blood adhering to the sword when Izanagi killed the fire kami Kagutsuchi.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Takemikazuchi lahir dari darah pada pedang Izanagi setelah Kagutsuchi dibunuh.",
+        "en": "Takemikazuchi arose from blood on Izanagi’s sword after Kagutsuchi was killed."
+      }
+    },
+    {
+      "id": "takemikazuchi-c02",
+      "source_id": "takemikazuchi-s1",
+      "quote": "Takemikazuchi descended to the land of Izumo and entreated Ōkuninushi to transfer the land (kuniyuzuri) to the heavenly kami.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia meminta Ōkuninushi menyerahkan Izumo kepada dewa langit.",
+        "en": "He asked Ōkuninushi to yield Izumo to the heavenly kami."
+      }
+    },
+    {
+      "id": "takemikazuchi-c03",
+      "source_id": "takemikazuchi-s1",
+      "quote": "Together with Amanotorifune (Kojiki) or Futsunushi no kami (Nihongi)",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kojiki menyebut Amanotorifune dan Nihon Shoki menyebut Futsunushi sebagai pendamping.",
+        "en": "The Kojiki names Amanotorifune and Nihon Shoki names Futsunushi as his companion."
+      }
+    },
+    {
+      "id": "takemikazuchi-c04",
+      "source_id": "takemikazuchi-s1",
+      "quote": "Kojiki adds that he engaged in a test of strength with Takeminakata, the child of Ōkuninushi, who had opposed the heavenly forces. Subduing Takeminaka, he drove him away to Suwa in the province of Shinano",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia mengalahkan Takeminakata dan mendorongnya ke Suwa.",
+        "en": "He defeated Takeminakata and drove him to Suwa."
+      }
+    },
+    {
+      "id": "takemikazuchi-c05",
+      "source_id": "takemikazuchi-s1",
+      "quote": "On the occasion of Emperor Jinmu's eastern campaign, Takemikazuchi deferred from descending to aid Jinmu, but in his place sent his sword Futsunomitama",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia mengirim pedang Futsunomitama untuk menolong Jimmu.",
+        "en": "He sent Futsunomitama to aid Jimmu."
+      }
+    },
+    {
+      "id": "takemikazuchi-c06",
+      "source_id": "takemikazuchi-s1",
+      "quote": "Takemikazuchi is worshiped at Kashima, Kasuga and other shrines.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia dipuja di Kashima dan Kasuga.",
+        "en": "He is worshiped at Kashima and Kasuga."
+      }
+    },
+    {
+      "id": "takemikazuchi-c07",
+      "source_id": "takemikazuchi-s2",
+      "quote": "According to legend, Takemikazuchi no Mikoto, the god of thunder, came to Nara during the early Nara period (710–784). In response to prayers for protection of the capital, he traveled from Kashima Jingu Shrine in Ibaraki Prefecture, close to present-day Tokyo, riding a white deer.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tradisi menyebutnya dewa petir yang datang dari Kashima dengan rusa putih untuk melindungi ibu kota.",
+        "en": "The shrine tradition calls him a thunder god arriving from Kashima on a white deer to protect the capital."
+      }
+    },
+    {
+      "id": "takemikazuchi-c08",
+      "source_id": "takemikazuchi-s2",
+      "quote": "These kami were enshrined here when a shrine was built on this hillside in 768.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia bersama tiga dewa lain dipuja di Kasuga sejak pembangunan kuil pada 768.",
+        "en": "He and three other deities were enshrined when Kasuga was built in 768."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "tamamo-no-mae",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Tamamo-no-Mae",
+    "native_name": null,
+    "display_name": {
+      "id": "Tamamo-no-Mae",
+      "en": "Tamamo-no-Mae"
+    },
+    "wikidata_qid": "Q1327792",
+    "claim_ids": [
+      "tamamo-no-mae-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "pengubah wujud",
+    "claim_ids": [
+      "tamamo-no-mae-c01",
+      "tamamo-no-mae-c09"
+    ]
+  },
+  "classification": {
+    "value": "shapeshifter",
+    "claim_ids": [
+      "tamamo-no-mae-c01",
+      "tamamo-no-mae-c09"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "tamamo-no-mae-c01",
+      "tamamo-no-mae-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "tamamo-no-mae-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Tamamo-no-Mae adalah sosok istana dalam legenda rubah pengubah wujud yang terkait dengan Batu Pembunuh di Nasu.",
+    "en": "Tamamo-no-Mae is a court figure in a shape-shifting fox legend linked to the Killing Stone at Nasu.",
+    "claim_ids": [
+      "tamamo-no-mae-c01",
+      "tamamo-no-mae-c04"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Dalam legenda Nasu, seekor rubah gaib menyamar sebagai perempuan istana bernama Tamamo-no-Mae dan mendapat perhatian mantan Kaisar Toba. Ketika Toba jatuh sakit, seorang ahli ramal istana membongkar penyamarannya. Rubah itu lari ke Nasu, lalu dibunuh pasukan kaisar setelah pertempuran. Kisah setempat mengatakan tubuhnya menjadi Sesshō-seki, “Batu Pembunuh”, yang konon mematikan makhluk di sekitarnya. Sumber wisata resmi juga menjelaskan bahwa batu itu berada dekat celah vulkanik yang mengeluarkan gas beracun; penjelasan alam ini perlu dibedakan dari sebab gaib dalam legenda.",
+      "en": "In a Nasu legend, a supernatural fox disguises itself as a court lady named Tamamo-no-Mae and wins the favor of Retired Emperor Toba. When Toba falls ill, a court diviner reveals the disguise. The fox flees to Nasu and is killed by imperial troops after a battle. Local lore says its body becomes the Sesshō-seki, or “Killing Stone,” which supposedly kills creatures nearby. The official site account also notes nearby volcanic vents releasing toxic gas; that natural explanation should be distinguished from the legend’s supernatural cause.",
+      "claim_ids": [
+        "tamamo-no-mae-c01",
+        "tamamo-no-mae-c02",
+        "tamamo-no-mae-c03",
+        "tamamo-no-mae-c04",
+        "tamamo-no-mae-c05",
+        "tamamo-no-mae-c12"
+      ]
+    },
+    {
+      "id": "Bentuk rubah berekor sembilan yang kini terkenal bukan satu-satunya versi. Kajian tentang perkembangan kisah menyebut penuturan awal Tamamo sebagai rubah berekor dua; gambaran sembilan ekor menguat pada zaman Edo setelah kisah rubah Daji dari Tiongkok berpadu dengannya. Gulungan bergambar dalam koleksi Smithsonian memperlihatkan Tamamo berubah antara sosok perempuan dan rubah berekor sembilan. Perpaduan kisah Daji dan Tamamo itu merupakan lapisan cerita yang berkembang. Tradisi Nasu juga mengenal biksu Gennō yang menghancurkan batu itu; upacara tahunan masih mengenang roh rubah.",
+      "en": "The now-famous nine-tailed fox is not the only version. An account of the legend’s development says early tellings showed Tamamo as a two-tailed fox; the nine-tailed image spread in the Edo period as the Chinese Daji story merged with it. A Smithsonian handscroll portrays Tamamo changing between woman and nine-tailed fox. The blending of the Daji and Tamamo tales is a layer that developed over time. Nasu tradition also tells of the monk Gennō breaking the stone, and an annual ceremony still commemorates the fox spirit.",
+      "claim_ids": [
+        "tamamo-no-mae-c06",
+        "tamamo-no-mae-c07",
+        "tamamo-no-mae-c08",
+        "tamamo-no-mae-c09",
+        "tamamo-no-mae-c10",
+        "tamamo-no-mae-c11",
+        "tamamo-no-mae-c13"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "tamamo-no-mae-s1",
+      "url": "https://www.mlit.go.jp/tagengo-db/en/R2-00679.html",
+      "title": "The Legend of the Nine-tailed Fox and the “Killing Stone”",
+      "author": null,
+      "publisher": "Japan Tourism Agency",
+      "published": "2020",
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "tamamo-no-mae-s2",
+      "url": "https://www.nippon.com/en/japan-topics/b02508/",
+      "title": "Foxy Lady, Foxy “Yōkai”: How Japan’s “Kitsune” Bewitched the World",
+      "author": null,
+      "publisher": "Nippon.com",
+      "published": "2023-04-12",
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "tamamo-no-mae-s3",
+      "url": "https://asia-archive.si.edu/object/F1987.10/",
+      "title": "Illustrated legend of Tamamo no mae",
+      "author": null,
+      "publisher": "Smithsonian National Museum of Asian Art",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "tamamo-no-mae-c01",
+      "source_id": "tamamo-no-mae-s1",
+      "quote": "a wicked golden fox with nine tails took the guise of an elegant court lady. Calling herself Tamamo no Mae, she served in the court of Retired Emperor Toba (1103–1156) and soon gained his favor.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tamamo-no-Mae adalah samaran rubah istana yang disukai mantan Kaisar Toba.",
+        "en": "Tamamo-no-Mae is a disguised fox favored at Retired Emperor Toba’s court."
+      }
+    },
+    {
+      "id": "tamamo-no-mae-c02",
+      "source_id": "tamamo-no-mae-s1",
+      "quote": "When the Retired Emperor took ill, however, the fox’s identity was revealed by a court diviner, and it escaped to Nasu.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ahli ramal membongkar identitasnya saat Toba sakit, lalu ia lari ke Nasu.",
+        "en": "A diviner unmasks the fox during Toba’s illness and it flees to Nasu."
+      }
+    },
+    {
+      "id": "tamamo-no-mae-c03",
+      "source_id": "tamamo-no-mae-s1",
+      "quote": "After a long battle, the emperor’s troops killed the fox.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pasukan kaisar membunuh rubah itu setelah pertempuran.",
+        "en": "Imperial troops killed the fox after a battle."
+      }
+    },
+    {
+      "id": "tamamo-no-mae-c04",
+      "source_id": "tamamo-no-mae-s1",
+      "quote": "Its body transformed into a boulder, but the fox’s malevolence lived on: the boulder continued to exude an evil aura and noxious gases. Anything that lingered near the rock died, and it was thus dubbed the “Killing Stone.”",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam legenda tubuh rubah menjadi batu yang disebut Batu Pembunuh.",
+        "en": "Legend says the fox’s body became the Killing Stone."
+      }
+    },
+    {
+      "id": "tamamo-no-mae-c05",
+      "source_id": "tamamo-no-mae-s1",
+      "quote": "The boulder sits beside one of Mt. Chausu’s volcanic vents, which emit sulfur dioxide and hydrogen sulfide gases.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Batu berada dekat celah vulkanik dengan gas beracun.",
+        "en": "The stone lies near volcanic vents emitting toxic gases."
+      }
+    },
+    {
+      "id": "tamamo-no-mae-c06",
+      "source_id": "tamamo-no-mae-s2",
+      "quote": "In early tellings, she was a two-tailed fox.",
+      "locator": "Foxy Ladies",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Penuturan awal menyebut Tamamo rubah berekor dua.",
+        "en": "Early tellings portray Tamamo as a two-tailed fox."
+      }
+    },
+    {
+      "id": "tamamo-no-mae-c07",
+      "source_id": "tamamo-no-mae-s2",
+      "quote": "the concept that she was a nine-tailed fox in particular is of surprisingly recent origin, dating only back to the Edo period (1603–1868).",
+      "locator": "Foxy Ladies",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Gambaran sembilan ekor muncul pada zaman Edo.",
+        "en": "The nine-tailed depiction dates to the Edo period."
+      }
+    },
+    {
+      "id": "tamamo-no-mae-c08",
+      "source_id": "tamamo-no-mae-s2",
+      "quote": "This story entered Japan in translation in the mid-Edo era, entwining itself with existing stories of Tamamo no Mae to transform her from a two- into a nine-tailed fox in the popular imagination.",
+      "locator": "Foxy Ladies",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kisah Daji dari Tiongkok berpadu dengan kisah Tamamo pada pertengahan zaman Edo.",
+        "en": "The Daji story merged with Tamamo’s legend in the Edo period."
+      }
+    },
+    {
+      "id": "tamamo-no-mae-c09",
+      "source_id": "tamamo-no-mae-s3",
+      "quote": "She is capable of transforming herself into the guise of a beautiful woman, or into the form of a magical nine-tailed fox.",
+      "locator": "Label",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Gulungan Smithsonian menampilkan perubahan antara perempuan dan rubah berekor sembilan.",
+        "en": "The Smithsonian scroll shows her taking woman and nine-tailed fox forms."
+      }
+    },
+    {
+      "id": "tamamo-no-mae-c10",
+      "source_id": "tamamo-no-mae-s1",
+      "quote": "Centuries later, the Buddhist monk Gennō (1329–1400) came to Nasu. Hoping to break the spirit’s power, he struck the stone with a great hammer, shattering it into three pieces.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Legenda Nasu menceritakan Gennō memecahkan batu untuk melemahkan roh rubah.",
+        "en": "Nasu legend says Gennō broke the stone to weaken the spirit."
+      }
+    },
+    {
+      "id": "tamamo-no-mae-c11",
+      "source_id": "tamamo-no-mae-s1",
+      "quote": "Since then, a nighttime ritual called Gojinkasai has been conducted on the last Sunday in May to appease the fox’s spirit.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Upacara Gojinkasai tahunan masih dilakukan untuk menenangkan roh rubah.",
+        "en": "The annual Gojinkasai rite appeases the fox spirit."
+      }
+    },
+    {
+      "id": "tamamo-no-mae-c12",
+      "source_id": "tamamo-no-mae-s1",
+      "quote": "This is the Sesshō-seki, or “Killing Stone”—a foreboding site steeped in local legend.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Batu di Nasu bernama Sesshō-seki atau Batu Pembunuh.",
+        "en": "The Nasu boulder is called Sesshō-seki or Killing Stone."
+      }
+    },
+    {
+      "id": "tamamo-no-mae-c13",
+      "source_id": "tamamo-no-mae-s2",
+      "quote": "In Chinese lore, Daji, favorite consort of King Zhou of Shang (r. 1075–1046 BCE), was a nine-tailed fox hellbent on destroying his reign.",
+      "locator": "Foxy Ladies",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kisah Daji berekor sembilan berasal dari tradisi Tiongkok.",
+        "en": "The nine-tailed Daji story comes from Chinese lore."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
