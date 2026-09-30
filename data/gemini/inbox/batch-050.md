@@ -820,3 +820,550 @@
 }
 ```
 
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "kagutsuchi",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Kagutsuchi",
+    "native_name": null,
+    "display_name": {
+      "id": "Kagutsuchi",
+      "en": "Kagutsuchi"
+    },
+    "wikidata_qid": "Q1640658",
+    "claim_ids": [
+      "kagutsuchi-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "kagutsuchi-c01"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "kagutsuchi-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "kagutsuchi-c01",
+      "kagutsuchi-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "kagutsuchi-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Kagutsuchi adalah kami api yang kelahirannya menyebabkan kematian Izanami.",
+    "en": "Kagutsuchi is a fire kami whose birth caused Izanami’s death.",
+    "claim_ids": [
+      "kagutsuchi-c01",
+      "kagutsuchi-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Kagutsuchi adalah kami api, putra pasangan Izanagi dan Izanami. Dalam sebuah kisah, Izanami meninggal setelah melahirkan dewa api itu dan masuk ke Yomi. Izanagi yang berduka lalu memenggal Kagutsuchi dengan pedang. Darah yang menetes dari bilah pedang melahirkan delapan dewa, sedangkan delapan lainnya muncul dari tubuh Kagutsuchi; mereka berkaitan dengan batu, pedang, petir, api, air terjun, dan lembah.",
+      "en": "Kagutsuchi is a fire kami, a child of Izanagi and Izanami. In one account, Izanami dies after giving birth to the fire god and enters Yomi. The grieving Izanagi then beheads Kagutsuchi with a sword. Blood dripping from the blade gives rise to eight deities, and eight more emerge from Kagutsuchi’s body; they are associated with rocks, swords, thunder, flames, waterfalls, and valleys.",
+      "claim_ids": [
+        "kagutsuchi-c01",
+        "kagutsuchi-c02",
+        "kagutsuchi-c03",
+        "kagutsuchi-c04",
+        "kagutsuchi-c05"
+      ]
+    },
+    {
+      "id": "Kagutsuchi juga hadir dalam pemujaan yang berkaitan dengan pencegahan kebakaran. Di Akiha Gongendō ia dipuja sebagai Hi no Kagutsuchi no Kami; warga setempat berkumpul dua kali setahun untuk memohon perlindungan dari api dan bencana lain. Keterangan tempat itu mencatat nama Akiha Daigongen dan sebutan lokal Akiha-san, yang memperlihatkan percampuran dua tradisi keagamaan. Kuil Akiba di Ogimachi resmi didedikasikan kepadanya pada zaman Taishō. Di wilayah Daisen, sebagian orang dahulu juga mengenali dewa agung gunung itu sebagai Kagutsuchi.",
+      "en": "Kagutsuchi also figures in worship concerned with preventing fires. At Akiha Gongendō he is enshrined as Hi no Kagutsuchi no Kami; residents gather twice yearly to pray for protection from fire and other disasters. The site records the name Akiha Daigongen and local name Akiha-san, reflecting a blending of two religious traditions. Akiba Shrine in Ogimachi was formally dedicated to him in the Taishō era. Around Mt. Daisen, some also identified the mountain’s great deity as Kagutsuchi.",
+      "claim_ids": [
+        "kagutsuchi-c06",
+        "kagutsuchi-c07",
+        "kagutsuchi-c08",
+        "kagutsuchi-c09",
+        "kagutsuchi-c10"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "kagutsuchi-s1",
+      "url": "https://www.mlit.go.jp/tagengo-db/en/R2-02129.html",
+      "title": "The Myths of Japan: The Beheading of the God of Fire",
+      "author": null,
+      "publisher": "Japan Tourism Agency",
+      "published": "2020",
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "kagutsuchi-s2",
+      "url": "https://www.mlit.go.jp/tagengo-db/en/R2-01637.html",
+      "title": "Yomotsu Hirasaka",
+      "author": null,
+      "publisher": "Japan Tourism Agency",
+      "published": "2020",
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "kagutsuchi-s3",
+      "url": "https://www.mlit.go.jp/tagengo-db/en/R2-01272.html",
+      "title": "Akiha Gongendō",
+      "author": null,
+      "publisher": "Japan Tourism Agency",
+      "published": "2020",
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "kagutsuchi-s4",
+      "url": "https://www.mlit.go.jp/tagengo-db/en/R2-00144.html",
+      "title": "Akiba Shrine",
+      "author": null,
+      "publisher": "Japan Tourism Agency",
+      "published": "2020",
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "kagutsuchi-s5",
+      "url": "https://www.japan.travel/en/spot/942/",
+      "title": "Mt. Daisen",
+      "author": null,
+      "publisher": "Japan National Tourism Organization",
+      "published": null,
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "kagutsuchi-c01",
+      "source_id": "kagutsuchi-s1",
+      "quote": "After burying Izanami, Izanagi turns toward Kagutsuchi, the fire god who caused the tragedy.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kagutsuchi adalah dewa api yang terkait dengan kematian Izanami.",
+        "en": "Kagutsuchi is the fire god linked to Izanami’s death."
+      }
+    },
+    {
+      "id": "kagutsuchi-c02",
+      "source_id": "kagutsuchi-s2",
+      "quote": "When the goddess died after giving birth to the god of fire, she entered the world of darkness called Yomi-no-kuni.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Izanami meninggal seusai melahirkan dewa api lalu masuk ke Yomi.",
+        "en": "Izanami died after giving birth to the fire god and entered Yomi."
+      }
+    },
+    {
+      "id": "kagutsuchi-c03",
+      "source_id": "kagutsuchi-s1",
+      "quote": "Filled with wrath, he pulls his sword and beheads Kagutsuchi with a single swing.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Izanagi memenggal Kagutsuchi dengan pedangnya.",
+        "en": "Izanagi beheaded Kagutsuchi with his sword."
+      }
+    },
+    {
+      "id": "kagutsuchi-c04",
+      "source_id": "kagutsuchi-s1",
+      "quote": "Blood drips from the blade onto the ground, producing eight new deities, while eight others emerge from Kagutsuchi’s maimed body.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Darah pedang dan tubuh Kagutsuchi masing-masing melahirkan delapan dewa.",
+        "en": "Blood from the sword and Kagutsuchi’s body each gave rise to eight deities."
+      }
+    },
+    {
+      "id": "kagutsuchi-c05",
+      "source_id": "kagutsuchi-s1",
+      "quote": "These are the gods of rocks, swords, thunder, flames, waterfalls, and valleys",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dewa-dewa yang lahir berkaitan dengan batu, pedang, petir, api, air terjun, dan lembah.",
+        "en": "The emergent deities are linked to rocks, swords, thunder, flames, waterfalls, and valleys."
+      }
+    },
+    {
+      "id": "kagutsuchi-c06",
+      "source_id": "kagutsuchi-s3",
+      "quote": "The enshrined kami (Shinto deity) is Hi no Kagutsuchi no Kami, who is associated with fire prevention and appears in one of the earliest written records of Japan.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Akiha Gongendō memuja Hi no Kagutsuchi no Kami, terkait pencegahan kebakaran.",
+        "en": "Akiha Gongendō enshrines Hi no Kagutsuchi no Kami, associated with fire prevention."
+      }
+    },
+    {
+      "id": "kagutsuchi-c07",
+      "source_id": "kagutsuchi-s3",
+      "quote": "Local residents gather there twice a year to pray for protection from fire and other calamities.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Warga berkumpul dua kali setahun untuk memohon perlindungan dari api dan bencana.",
+        "en": "Residents gather twice a year to pray for protection from fire and calamities."
+      }
+    },
+    {
+      "id": "kagutsuchi-c08",
+      "source_id": "kagutsuchi-s3",
+      "quote": "Hi no Kagutsuchi no Kami is also known by the Buddhist name “Akiha Daigongen,” and he is known locally as “Akiha-san.”",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Nama Buddhisnya Akiha Daigongen dan sebutan setempat Akiha-san.",
+        "en": "He is called Akiha Daigongen in Buddhism and Akiha-san locally."
+      }
+    },
+    {
+      "id": "kagutsuchi-c09",
+      "source_id": "kagutsuchi-s4",
+      "quote": "This sanctuary remained a modest place of worship until the Taisho era (1912–1926), when the shrine building was reconstructed and officially dedicated to Kagutsuchi, the Shinto god of fire.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kuil Akiba di Ogimachi didedikasikan kepada Kagutsuchi pada zaman Taishō.",
+        "en": "Akiba Shrine in Ogimachi was dedicated to Kagutsuchi in the Taishō era."
+      }
+    },
+    {
+      "id": "kagutsuchi-c10",
+      "source_id": "kagutsuchi-s5",
+      "quote": "The God was believed by many to be the Kagutsuchi-no-mikoto, or God of Fire.",
+      "locator": "Sacred isolation",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sebagian orang mengenali dewa Gunung Daisen sebagai Kagutsuchi.",
+        "en": "Some identified Mt. Daisen’s great deity as Kagutsuchi."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "kamaitachi",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Kamaitachi",
+    "native_name": null,
+    "display_name": {
+      "id": "Kamaitachi",
+      "en": "Kamaitachi"
+    },
+    "wikidata_qid": "Q878304",
+    "claim_ids": [
+      "kamaitachi-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "kamaitachi-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "kamaitachi-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "kamaitachi-c01",
+      "kamaitachi-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "kamaitachi-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Kamaitachi adalah yōkai angin yang konon menimbulkan luka seperti sayatan sabit.",
+    "en": "Kamaitachi is a wind-associated yōkai said to cause sickle-like cuts.",
+    "claim_ids": [
+      "kamaitachi-c01",
+      "kamaitachi-c02",
+      "kamaitachi-c04"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Kamaitachi adalah yōkai yang dikaitkan dengan pusaran angin dan luka mendadak seperti sayatan pisau. Lukanya dalam beberapa cerita mula-mula tidak terasa sakit atau berdarah. Namanya biasa diterangkan sebagai gabungan kama, “sabit”, dan itachi, “cerpelai”, dan gambar zaman Edo menampilkannya sebagai hewan mirip cerpelai bercakar tajam. Namun, istilah itu juga dapat menunjuk peristiwa luka ganjil itu sendiri; penjelasan setempat tidak selalu memberi wujud hewan kepada penyebabnya.",
+      "en": "Kamaitachi is a yōkai associated with whirlwinds and sudden blade-like cuts. In some tales the wounds initially cause little pain or bleeding. The name is commonly explained as kama, “sickle,” plus itachi, “weasel,” and Edo-period pictures portray it as a weasel-like animal with sharp claws. Yet the word can also name the strange injury itself; local accounts do not always give its cause an animal form.",
+      "claim_ids": [
+        "kamaitachi-c01",
+        "kamaitachi-c02",
+        "kamaitachi-c03",
+        "kamaitachi-c04",
+        "kamaitachi-c05",
+        "kamaitachi-c11"
+      ]
+    },
+    {
+      "id": "Ragam cerita daerah memperlihatkan alasan berbeda untuk luka itu. Di Hida, tiga dewa bertindak berurutan: yang pertama menjatuhkan orang, yang kedua menyayatnya, dan yang ketiga mengoleskan obat sehingga luka tidak langsung sakit atau berdarah. Di Shin’etsu, luka itu dihubungkan dengan dewa jahat dan pantangan menginjak kalender. Di Tōhoku, abu kalender lama yang dibakar disebut sebagai obat rakyat. Sebutan terkait mencakup nogama di Kōchi dan kama-kaze di daerah lain. Kisah tentang tiga dewa ini tidak perlu disamakan dengan gambaran tiga cerpelai dalam penggambaran belakangan.",
+      "en": "Regional tales explain the cuts in different ways. In Hida, three deities act in sequence: one trips the person, another slashes, and a third applies salve, explaining why the wound initially does not hurt or bleed. In Shin’etsu the injury is linked to a malevolent deity and a warning against stepping on a calendar. In Tōhoku, charred old calendar paper was a folk remedy. Related terms include nogama in Kōchi and kama-kaze elsewhere. The three-deity tale need not be treated as the later image of three weasels.",
+      "claim_ids": [
+        "kamaitachi-c06",
+        "kamaitachi-c07",
+        "kamaitachi-c08",
+        "kamaitachi-c09",
+        "kamaitachi-c10"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "kamaitachi-s1",
+      "url": "https://en.wikipedia.org/wiki/Kamaitachi",
+      "title": "Kamaitachi",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "kamaitachi-s2",
+      "url": "https://yokai.jp/en/yokai/kamaitachi",
+      "title": "Kama-itachi",
+      "author": "Satoshi Ninomae",
+      "publisher": "YOKAI.JP",
+      "published": "2026-08-31",
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "kamaitachi-s3",
+      "url": "https://www.nippon.com/en/nipponblog/m00073/",
+      "title": "Five Ghosts and Goblins",
+      "author": null,
+      "publisher": "Nippon.com",
+      "published": "2015",
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "kamaitachi-c01",
+      "source_id": "kamaitachi-s1",
+      "quote": "is a Japanese yōkai from the oral tradition of the Kōshin'etsu region. It can also refer to the strange events that this creature causes.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kamaitachi adalah yōkai yang juga dapat menyebut kejadian aneh penyebab luka.",
+        "en": "Kamaitachi is a yōkai and can also refer to the strange event itself."
+      }
+    },
+    {
+      "id": "kamaitachi-c02",
+      "source_id": "kamaitachi-s2",
+      "quote": "Kama-itachi are yokai said to ride dust devils or sudden whirlwinds, slicing human skin as if by a blade.",
+      "locator": "Basic Description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kamaitachi dikaitkan dengan pusaran angin dan sayatan kulit.",
+        "en": "Kamaitachi is associated with whirlwinds and skin cuts."
+      }
+    },
+    {
+      "id": "kamaitachi-c03",
+      "source_id": "kamaitachi-s2",
+      "quote": "Victims often feel little pain at first and may not bleed until later.",
+      "locator": "Basic Description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Lukanya dapat awalnya tidak sakit atau berdarah.",
+        "en": "The wounds may at first be painless or bloodless."
+      }
+    },
+    {
+      "id": "kamaitachi-c04",
+      "source_id": "kamaitachi-s1",
+      "quote": "The name is a combination of the words kama (sickle), and itachi (weasel).",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Namanya diterangkan sebagai gabungan kata sabit dan cerpelai.",
+        "en": "The name combines the words for sickle and weasel."
+      }
+    },
+    {
+      "id": "kamaitachi-c05",
+      "source_id": "kamaitachi-s2",
+      "quote": "From the Edo period on, they’re depicted as weasels with sickle-like claws, though explanations vary by region—some attribute the cuts to the phenomenon itself, to wind deities, or to minor spirits.",
+      "locator": "Basic Description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Gambar sejak zaman Edo menunjukkan cerpelai bercakar seperti sabit, tetapi tafsir daerah beragam.",
+        "en": "Edo-era pictures show sickle-clawed weasels, but local explanations differ."
+      }
+    },
+    {
+      "id": "kamaitachi-c06",
+      "source_id": "kamaitachi-s2",
+      "quote": "In Hida, three deities travel together: the first trips the victim, the second slashes, and the third applies a salve, so there’s no immediate pain or bleeding.",
+      "locator": "Folklore & Legends",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Cerita Hida menghadirkan tiga dewa yang menjatuhkan, menyayat, lalu mengoleskan obat.",
+        "en": "Hida tales have three deities trip, cut, and treat a victim."
+      }
+    },
+    {
+      "id": "kamaitachi-c07",
+      "source_id": "kamaitachi-s2",
+      "quote": "In Shin’etsu, the injuries are blamed on a malevolent deity, and stepping on a calendar was warned to invite misfortune.",
+      "locator": "Folklore & Legends",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Di Shin’etsu luka dikaitkan dengan dewa jahat dan pantangan menginjak kalender.",
+        "en": "Shin’etsu links the injury to an evil deity and a calendar taboo."
+      }
+    },
+    {
+      "id": "kamaitachi-c08",
+      "source_id": "kamaitachi-s2",
+      "quote": "In Tohoku, applying the charred remains of an old calendar to the wound was said to cure it.",
+      "locator": "Folklore & Legends",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Di Tōhoku abu kalender tua dipercaya dapat mengobati luka.",
+        "en": "In Tōhoku charred calendar paper was a folk remedy."
+      }
+    },
+    {
+      "id": "kamaitachi-c09",
+      "source_id": "kamaitachi-s2",
+      "quote": "Related terms and interpretations include “nogama” in Kochi and “kama-kaze” in other regions.",
+      "locator": "Folklore & Legends",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Istilah terkait meliputi nogama di Kōchi dan kama-kaze di daerah lain.",
+        "en": "Related terms include nogama in Kōchi and kama-kaze elsewhere."
+      }
+    },
+    {
+      "id": "kamaitachi-c10",
+      "source_id": "kamaitachi-s1",
+      "quote": "In Hida, in the Niu River basin, they are said in legends to be a company of three evil gods.",
+      "locator": "Legends by area",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kisah tiga dewa di Hida dibedakan dari gambaran cerpelai.",
+        "en": "Hida’s three figures are described as deities rather than weasels."
+      }
+    },
+    {
+      "id": "kamaitachi-c11",
+      "source_id": "kamaitachi-s3",
+      "quote": "This small, mammal-like yōkai rides on the wind, slicing at the flesh of mortals with its bladed limbs.",
+      "locator": "Kamaitachi",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Gambaran populer menyebut yōkai kecil ini menunggang angin dan menyayat kulit.",
+        "en": "A popular depiction has the small yōkai ride wind and cut skin."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
