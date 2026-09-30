@@ -21,7 +21,10 @@
     "gemini:batch": "node scripts/gemini/make-batch.mjs",
     "gemini:verify": "node scripts/gemini/verify.mjs",
     "gemini:worklist": "node scripts/gemini/build-worklist.mjs",
-    "gemini:status": "node scripts/gemini/status.mjs"
+    "gemini:status": "node scripts/gemini/status.mjs",
+    "gemini:regroup": "node scripts/gemini/regroup.mjs",
+    "gemini:next": "node scripts/gemini/next.mjs",
+    "gemini:done": "node scripts/gemini/done.mjs"
   },
   "keywords": [
     "mythology",

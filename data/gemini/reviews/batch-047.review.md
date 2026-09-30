@@ -1,13 +1,10 @@
 # Review batch-047
 
-Diperiksa 2026-09-30T01:52:19.907Z. Berkas: batch-047.md, batch-047-fix-1.md, batch-047-fix-2.md.
+Diperiksa 2026-09-30T02:36:27.355Z. Berkas: batch-047.md, batch-047-fix-1.md, batch-047-fix-2.md.
 
 ## surya — lulus-otomatis
 
-Klaim 15 (exact 13, unreachable 2), sumber 3, gambar 0.
-
-**manual**
-- `claims` 2 kutipan tidak bisa dicek otomatis: whc.unesco.org (HTTP 403).
+Klaim 15 (exact 15), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -23,8 +20,8 @@ Klaim 15 (exact 13, unreachable 2), sumber 3, gambar 0.
 | surya-c10 | exact | www.worldhistory.org | Surya is regarded as chief of the nine ancient planets. | Surya is considered the chief of the nine planets of Vedic antiquity. |
 | surya-c11 | exact | www.worldhistory.org | Surya is celebrated at Pongal. | He is celebrated during the harvest festival of Pongal in southern India and by Tamils in general. |
 | surya-c12 | exact | www.worldhistory.org | Surya appears in the Gayatri mantra. | Surya appears in the important Gayatri mantra which is recited from the Vedas as a preliminary to its study. |
-| surya-c13 | unreachable (HTTP 403) | whc.unesco.org | The Konarak Sun Temple is an outstanding example of temple architecture. | The Sun Temple at Konârak, located on the eastern shores of the Indian subcontinent, is one of the outstanding examples of temple architecture and art |
-| surya-c14 | unreachable (HTTP 403) | whc.unesco.org | The temple depicts a sun chariot with twelve pairs of wheels and seven horses. | the temple represents a chariot of the Sun God, with twelve pairs of wheels drawn by seven horses evoking its movement across the heavens. |
+| surya-c13 | exact (HTTP 403; dicek lewat arsip Wayback) | whc.unesco.org | The Konarak Sun Temple is an outstanding example of temple architecture. | The Sun Temple at Konârak, located on the eastern shores of the Indian subcontinent, is one of the outstanding examples of temple architecture and art |
+| surya-c14 | exact (HTTP 403; dicek lewat arsip Wayback) | whc.unesco.org | The temple depicts a sun chariot with twelve pairs of wheels and seven horses. | the temple represents a chariot of the Sun God, with twelve pairs of wheels drawn by seven horses evoking its movement across the heavens. |
 | surya-c15 | exact | en.wikipedia.org | Surya is one of five major Smarta deities. | He is traditionally one of the major five deities in the Smarta tradition |
 
 
@@ -56,27 +53,24 @@ Klaim 15 (unreachable 8, exact 7), sumber 3, gambar 0.
 
 ## baal — lulus-otomatis
 
-Klaim 15 (unreachable 14, exact 1), sumber 3, gambar 0.
-
-**manual**
-- `claims` 14 kutipan tidak bisa dicek otomatis: www.worldhistory.org (tidak bisa dibuka (timeout)); www.metmuseum.org (HTTP 429).
+Klaim 15 (exact 15), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| baal-c01 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | Baal is a god of fertility and rain. | Baal (also given as Ba'al) is a Canaanite-Phoenician god of fertility and weather, specifically rainstorms. |
-| baal-c02 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | Baal was also a title meaning lord. | The name was also used as a title, however, meaning "Lord" and was applied to a number of different deities throughout the ancient Near East. |
-| baal-c03 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | Ugarit excavations revealed thousands of cuneiform tablets. | Excavations of the ancient city of Ugarit (modern-day Ras Shamra, Syria) beginning in 1929 CE revealed thousands of cuneiform tablets |
-| baal-c04 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | Baal often refers to Baal Hadad, storm and rain god. | most frequently used to refer to Baal Hadad (also Ba'al Adad), the god of storms and rain |
-| baal-c05 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | Ugaritic accounts name Baal as El’s son living on Mount Zaphon. | He is referenced as the son of El, the king of the gods, in Ugarit and is said to live in a palace on Mount Zaphon. |
-| baal-c06 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | A stele shows Baal with a club and lightning bolt. | A stele from the site shows him with a club in one hand and a lightning bolt in the other |
-| baal-c07 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | Baal’s tales involve Yamm and Mot. | Yamm, god of the seas, and Mot, the god of death, were also closely associated with Baal through the stories about him |
-| baal-c08 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | The earth becomes barren in Baal’s absence. | As he was the god of rain and fertility, the earth becomes barren in his absence |
-| baal-c09 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | Anat attacks and kills Mot. | Anat, swearing revenge, attacks and kills Mot. |
-| baal-c10 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | The dying-and-returning interpretation is challenged. | this has been challenged as Baal does not actually die and return to life. |
-| baal-c11 | unreachable (HTTP 429) | www.metmuseum.org | Baal was a warrior and storm god bringing fertility. | In a land dependent upon life-sustaining rain, Baal was both a warrior god and the storm god who brought fertility. |
-| baal-c12 | unreachable (HTTP 429) | www.metmuseum.org | Baal was enthroned on Mount Zaphon. | Baal was enthroned on Mount Zaphon, identified with Jebel Aqra |
-| baal-c13 | unreachable (HTTP 429) | www.metmuseum.org | Baal defeats Yamm with a mace. | He pummels Yamm with his mace and defeats him. |
-| baal-c14 | unreachable (HTTP 429) | www.metmuseum.org | Baal wears a horned helmet in the stele. | He wears a horned helmet emblematic of power and strength. |
+| baal-c01 | exact | www.worldhistory.org | Baal is a god of fertility and rain. | Baal (also given as Ba'al) is a Canaanite-Phoenician god of fertility and weather, specifically rainstorms. |
+| baal-c02 | exact | www.worldhistory.org | Baal was also a title meaning lord. | The name was also used as a title, however, meaning "Lord" and was applied to a number of different deities throughout the ancient Near East. |
+| baal-c03 | exact | www.worldhistory.org | Ugarit excavations revealed thousands of cuneiform tablets. | Excavations of the ancient city of Ugarit (modern-day Ras Shamra, Syria) beginning in 1929 CE revealed thousands of cuneiform tablets |
+| baal-c04 | exact | www.worldhistory.org | Baal often refers to Baal Hadad, storm and rain god. | most frequently used to refer to Baal Hadad (also Ba'al Adad), the god of storms and rain |
+| baal-c05 | exact | www.worldhistory.org | Ugaritic accounts name Baal as El’s son living on Mount Zaphon. | He is referenced as the son of El, the king of the gods, in Ugarit and is said to live in a palace on Mount Zaphon. |
+| baal-c06 | exact | www.worldhistory.org | A stele shows Baal with a club and lightning bolt. | A stele from the site shows him with a club in one hand and a lightning bolt in the other |
+| baal-c07 | exact | www.worldhistory.org | Baal’s tales involve Yamm and Mot. | Yamm, god of the seas, and Mot, the god of death, were also closely associated with Baal through the stories about him |
+| baal-c08 | exact | www.worldhistory.org | The earth becomes barren in Baal’s absence. | As he was the god of rain and fertility, the earth becomes barren in his absence |
+| baal-c09 | exact | www.worldhistory.org | Anat attacks and kills Mot. | Anat, swearing revenge, attacks and kills Mot. |
+| baal-c10 | exact | www.worldhistory.org | The dying-and-returning interpretation is challenged. | this has been challenged as Baal does not actually die and return to life. |
+| baal-c11 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Baal was a warrior and storm god bringing fertility. | In a land dependent upon life-sustaining rain, Baal was both a warrior god and the storm god who brought fertility. |
+| baal-c12 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Baal was enthroned on Mount Zaphon. | Baal was enthroned on Mount Zaphon, identified with Jebel Aqra |
+| baal-c13 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Baal defeats Yamm with a mace. | He pummels Yamm with his mace and defeats him. |
+| baal-c14 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Baal wears a horned helmet in the stele. | He wears a horned helmet emblematic of power and strength. |
 | baal-c15 | exact | en.wikipedia.org | Baal is called rider of the clouds and linked to rain and fertility. | Known by epithets like "rider of the clouds" and "Victorious Baal", he was associated with rain, lightning, wind, fertility, and kingship |
 
 

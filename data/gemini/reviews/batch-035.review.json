@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-035",
-  "checked_at": "2026-09-29T18:52:41.973Z",
+  "checked_at": "2026-09-30T02:33:47.510Z",
   "files": [
     "batch-035.md",
     "batch-035-fix-1.md"
@@ -22,11 +22,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "4 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -48,8 +43,9 @@
           "statement_id": "Perseus adalah putra Zeus dan Danae yang ditugasi memenggal Medusa.",
           "quote": "Perseus, son of the god Zeus and the human princess, Danae, was given the task of beheading Medusa",
           "context": "traditional-belief",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260609151400id_/https://www.metmuseum.org/art/collection/search/247488",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "perseus-c03",
@@ -59,8 +55,9 @@
           "statement_id": "Athena memberi Perseus topi ajaib dan sepatu bersayap untuk mendekati para Gorgon.",
           "quote": "With the help of a magic cap and winged shoes given to him by Athena, Perseus became invisible and flew to the place where the three sisters were asleep.",
           "context": "traditional-belief",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260609151400id_/https://www.metmuseum.org/art/collection/search/247488",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "perseus-c04",
@@ -80,8 +77,9 @@
           "statement_id": "Perseus memenggal kepala Medusa.",
           "quote": "There he cut off Medusa's head.",
           "context": "traditional-belief",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260609151400id_/https://www.metmuseum.org/art/collection/search/247488",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "perseus-c06",
@@ -91,8 +89,9 @@
           "statement_id": "Pegasus muncul dari tubuh Medusa setelah ia tewas.",
           "quote": "the immortal winged horse Pegasos springs from the body of the dead Gorgon.",
           "context": "traditional-belief",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260609151400id_/https://www.metmuseum.org/art/collection/search/247488",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "perseus-c07",

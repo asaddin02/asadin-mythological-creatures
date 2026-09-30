@@ -1,23 +1,22 @@
 # Review batch-035
 
-Diperiksa 2026-09-29T18:52:41.973Z. Berkas: batch-035.md, batch-035-fix-1.md.
+Diperiksa 2026-09-30T02:33:47.510Z. Berkas: batch-035.md, batch-035-fix-1.md.
 
 ## perseus — lulus-otomatis
 
-Klaim 9 (exact 5, unreachable 4), sumber 2, gambar 0.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 **manual**
 - `tier` Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 4 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | perseus-c01 | exact | www.worldhistory.org | Perseus is a hero of Greek mythology. | Perseus is one of the greatest and oldest pan-Hellenic heroes of Greek mythology. |
-| perseus-c02 | unreachable (HTTP 429) | www.metmuseum.org | Perseus is the son of Zeus and Danae tasked with beheading Medusa. | Perseus, son of the god Zeus and the human princess, Danae, was given the task of beheading Medusa |
-| perseus-c03 | unreachable (HTTP 429) | www.metmuseum.org | Athena gave Perseus a magic cap and winged shoes to approach the Gorgons. | With the help of a magic cap and winged shoes given to him by Athena, Perseus became invisible and flew to the place where the three sisters were asleep. |
+| perseus-c02 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Perseus is the son of Zeus and Danae tasked with beheading Medusa. | Perseus, son of the god Zeus and the human princess, Danae, was given the task of beheading Medusa |
+| perseus-c03 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Athena gave Perseus a magic cap and winged shoes to approach the Gorgons. | With the help of a magic cap and winged shoes given to him by Athena, Perseus became invisible and flew to the place where the three sisters were asleep. |
 | perseus-c04 | exact | www.worldhistory.org | Perseus viewed the Gorgons through his shield's reflection. | glancing at them only through the reflection in his polished shield. |
-| perseus-c05 | unreachable (HTTP 429) | www.metmuseum.org | Perseus beheaded Medusa. | There he cut off Medusa's head. |
-| perseus-c06 | unreachable (HTTP 429) | www.metmuseum.org | Pegasus sprang from Medusa's body after her death. | the immortal winged horse Pegasos springs from the body of the dead Gorgon. |
+| perseus-c05 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Perseus beheaded Medusa. | There he cut off Medusa's head. |
+| perseus-c06 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Pegasus sprang from Medusa's body after her death. | the immortal winged horse Pegasos springs from the body of the dead Gorgon. |
 | perseus-c07 | exact | www.worldhistory.org | Perseus used Medusa's head to petrify the sea monster threatening Andromeda. | The desperate king agreed and by showing the head of Medusa with her still potent stare, Perseus ensured that the sea-monster was turned to stone. |
 | perseus-c08 | exact | www.worldhistory.org | Perseus gave Medusa's head to Athena for her aegis. | Perseus then presented the head as a gift to Athena who placed it at the centre of her fearsome aegis. |
 | perseus-c09 | exact | www.worldhistory.org | Perseus later founded Mycenae. | Perseus swapped his kingship for that of Tiryns from where he went on to found the nearby city of Mycenae. |

@@ -1,87 +1,375 @@
 {
   "batch_id": "batch-111",
-  "created_at": "2026-09-29T08:31:11.828Z",
+  "created_at": "2026-09-30T03:03:04.407Z",
   "instructions_version": 3,
   "entries": [
     {
-      "slug": "benzaiten",
-      "canonical_name": "Benzaiten",
-      "task": "enrich",
-      "tier": "core",
-      "jenis": "dewa",
-      "qid": "Q818468"
-    },
-    {
-      "slug": "bunyip",
-      "canonical_name": "Bunyip",
-      "task": "enrich",
-      "tier": "core",
-      "jenis": "kriptid",
-      "qid": "Q973546"
-    },
-    {
-      "slug": "chaac",
-      "canonical_name": "Chaac",
+      "slug": "hrimfaxi",
+      "canonical_name": "Hrímfaxi",
       "task": "new",
       "tier": "core",
-      "jenis": "dewa",
-      "qid": "Q1058253"
+      "jenis": "hewan mitos",
+      "qid": "Q20747559"
     },
     {
-      "slug": "dragon-king",
-      "canonical_name": "Dragon King",
+      "slug": "k-ajk",
+      "canonical_name": "K’aǰk’",
+      "task": "new",
+      "tier": "core",
+      "jenis": "iblis/setan",
+      "qid": "Q12107596"
+    },
+    {
+      "slug": "kr-lle-b-lle",
+      "canonical_name": "Krølle-Bølle",
+      "task": "new",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q1574615"
+    },
+    {
+      "slug": "lutzelfrau",
+      "canonical_name": "Lutzelfrau",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q64827829"
+    },
+    {
+      "slug": "night-raven",
+      "canonical_name": "Night raven",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q1962768"
+    },
+    {
+      "slug": "nis-puk",
+      "canonical_name": "Nis Puk",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "tokoh legenda",
+      "qid": "Q1993429"
+    },
+    {
+      "slug": "ra",
+      "canonical_name": "Rå",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "tokoh legenda",
+      "qid": "Q4707844"
+    },
+    {
+      "slug": "roggenmuhme",
+      "canonical_name": "Roggenmuhme",
+      "task": "new",
+      "tier": "core",
+      "jenis": "roh",
+      "qid": "Q4901802"
+    },
+    {
+      "slug": "skinfaxi",
+      "canonical_name": "Skinfaxi",
+      "task": "new",
+      "tier": "core",
+      "jenis": "hewan mitos",
+      "qid": "Q16634492"
+    },
+    {
+      "slug": "slattenpatte",
+      "canonical_name": "Slattenpatte",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "tokoh legenda",
+      "qid": "Q1805429"
+    },
+    {
+      "slug": "tanngnjost",
+      "canonical_name": "Tanngnjóst",
+      "task": "new",
+      "tier": "core",
+      "jenis": "hewan mitos",
+      "qid": "Q16108606"
+    },
+    {
+      "slug": "tanngrisnir",
+      "canonical_name": "Tanngrísnir",
+      "task": "new",
+      "tier": "core",
+      "jenis": "hewan mitos",
+      "qid": "Q140299427"
+    },
+    {
+      "slug": "the-dragon-beowulf",
+      "canonical_name": "The dragon (Beowulf)",
       "task": "enrich",
       "tier": "core",
       "jenis": "naga/ular mitos",
-      "qid": "Q135337914"
+      "qid": "Q7730832"
     },
     {
-      "slug": "eostre",
-      "canonical_name": "Ēostre",
+      "slug": "trow-folklore",
+      "canonical_name": "Trow (folklore)",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "raksasa",
+      "qid": "Q4707284"
+    },
+    {
+      "slug": "b-yg",
+      "canonical_name": "Bøyg",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "naga/ular mitos",
+      "qid": "Q1789846"
+    },
+    {
+      "slug": "drude",
+      "canonical_name": "Drude",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "roh",
+      "qid": "Q1247995"
+    },
+    {
+      "slug": "ekke-nekkepenn",
+      "canonical_name": "Ekke Nekkepenn",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "tokoh legenda",
+      "qid": "Q1322642"
+    },
+    {
+      "slug": "erlking",
+      "canonical_name": "Erlking",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "peri",
+      "qid": "Q3056704"
+    },
+    {
+      "slug": "fjalar-q11969058",
+      "canonical_name": "Fjalar",
       "task": "new",
       "tier": "core",
-      "jenis": "dewa",
-      "qid": "Q253056"
+      "jenis": "tokoh legenda",
+      "qid": "Q11969058"
     },
     {
-      "slug": "fomorians",
-      "canonical_name": "Fomorians",
+      "slug": "gnome-king-kyrie",
+      "canonical_name": "Gnome King Kyrië",
       "task": "enrich",
       "tier": "core",
       "jenis": "makhluk legenda",
-      "qid": "Q1160687"
+      "qid": "Q2558320"
     },
     {
-      "slug": "melek-taus",
-      "canonical_name": "Melek Taus",
+      "slug": "gonger",
+      "canonical_name": "Gonger",
+      "task": "new",
+      "tier": "core",
+      "jenis": "peri",
+      "qid": "Q831914"
+    },
+    {
+      "slug": "gulon",
+      "canonical_name": "Gulon",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q1053360"
+    },
+    {
+      "slug": "habrok",
+      "canonical_name": "Hábrók",
+      "task": "new",
+      "tier": "core",
+      "jenis": "hewan mitos",
+      "qid": "Q5962983"
+    },
+    {
+      "slug": "hjuki",
+      "canonical_name": "Hjúki",
+      "task": "new",
+      "tier": "core",
+      "jenis": "tokoh legenda",
+      "qid": "Q16707925"
+    },
+    {
+      "slug": "hodekin",
+      "canonical_name": "Hödekin",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "peri",
+      "qid": "Q1451862"
+    },
+    {
+      "slug": "lyngbakr",
+      "canonical_name": "Lyngbakr",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "monster",
+      "qid": "Q4784876"
+    },
+    {
+      "slug": "miming",
+      "canonical_name": "Miming",
+      "task": "new",
+      "tier": "core",
+      "jenis": "tokoh legenda",
+      "qid": "Q3566604"
+    },
+    {
+      "slug": "tilberi",
+      "canonical_name": "Tilberi",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "tokoh legenda",
+      "qid": "Q3115491"
+    },
+    {
+      "slug": "ulu-toyon",
+      "canonical_name": "Ulu Toyon",
+      "task": "new",
+      "tier": "core",
+      "jenis": "iblis/setan",
+      "qid": "Q450106"
+    },
+    {
+      "slug": "alraune",
+      "canonical_name": "Alraune",
       "task": "new",
       "tier": "core",
       "jenis": "makhluk legenda",
-      "qid": "Q1433459"
+      "qid": "Q2840148"
     },
     {
-      "slug": "melicertes",
-      "canonical_name": "Melicertes",
+      "slug": "bysen",
+      "canonical_name": "Bysen",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q5004520"
+    },
+    {
+      "slug": "di-sma-undar-jordi",
+      "canonical_name": "Di sma undar jordi",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "roh",
+      "qid": "Q4607572"
+    },
+    {
+      "slug": "drak-mythology",
+      "canonical_name": "Drak (mythology)",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "peri",
+      "qid": "Q1255488"
+    },
+    {
+      "slug": "duneyrr",
+      "canonical_name": "Duneyrr",
+      "task": "new",
+      "tier": "core",
+      "jenis": "hewan mitos",
+      "qid": "Q17768244"
+    },
+    {
+      "slug": "dura-ror",
+      "canonical_name": "Duraþrór",
+      "task": "new",
+      "tier": "core",
+      "jenis": "hewan mitos",
+      "qid": "Q118525473"
+    },
+    {
+      "slug": "ellert",
+      "canonical_name": "Ellert",
+      "task": "new",
+      "tier": "core",
+      "jenis": "raksasa",
+      "qid": "Q3407003"
+    },
+    {
+      "slug": "endill",
+      "canonical_name": "Endill",
       "task": "new",
       "tier": "core",
       "jenis": "dewa",
-      "qid": "Q738007"
+      "qid": "Q5376139"
     },
     {
-      "slug": "oenone",
-      "canonical_name": "Oenone",
-      "task": "new",
+      "slug": "erdhenne",
+      "canonical_name": "Erdhenne",
+      "task": "enrich",
       "tier": "core",
-      "jenis": "peri",
-      "qid": "Q858671"
+      "jenis": "hewan mitos",
+      "qid": "Q1349222"
     },
     {
-      "slug": "philyra",
-      "canonical_name": "Philyra",
+      "slug": "fasolt",
+      "canonical_name": "Fasolt",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "raksasa",
+      "qid": "Q55611492"
+    },
+    {
+      "slug": "feldgeister",
+      "canonical_name": "Feldgeister",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "roh",
+      "qid": "Q1346442"
+    },
+    {
+      "slug": "gravso",
+      "canonical_name": "Gravso",
       "task": "new",
       "tier": "core",
-      "jenis": "peri",
-      "qid": "Q398524"
+      "jenis": "hewan mitos",
+      "qid": "Q10505946"
+    },
+    {
+      "slug": "hobangoas",
+      "canonical_name": "Hobangoas",
+      "task": "new",
+      "tier": "core",
+      "jenis": "iblis/setan",
+      "qid": "Q1566760"
+    },
+    {
+      "slug": "klagmuhme",
+      "canonical_name": "Klagmuhme",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q117444760"
+    },
+    {
+      "slug": "klushund",
+      "canonical_name": "Klushund",
+      "task": "new",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q1776640"
+    },
+    {
+      "slug": "knights-of-alleberg",
+      "canonical_name": "Knights of Ålleberg",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "roh",
+      "qid": "Q6422542"
+    },
+    {
+      "slug": "knochenfund-von-seweckenberge",
+      "canonical_name": "Knochenfund von Seweckenberge",
+      "task": "new",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q125246028"
     }
   ]
 }

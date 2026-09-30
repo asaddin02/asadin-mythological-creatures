@@ -1,125 +1,393 @@
-# Batch batch-120
+# Batch batch-120 — Kelt & Kepulauan Britania (6/6)
 
 Ikuti seluruh "MYTHICS — Instruksi Riset untuk Gemini (versi 3)" di `docs/gemini/00-instruksi-utama.md`.
 
 - `batch_id`: `batch-120`
-- Jumlah makhluk: 10
+- Jumlah makhluk: 48
 - `task` `enrich`: Entri sekarang hanya berisi ringkasan pengantar dari Wikipedia. Tulis entri lengkap berdasarkan riset baru; sumber Wikipedia yang ditandai "terverifikasi" boleh dipakai, dengan kutipan dari halamannya.
 - `task` `new`: Makhluk ini belum ada di Mythics. Identitasnya diambil dari Wikidata dan punya minimal satu artikel Wikipedia. Pastikan dulu bahwa ini memang makhluk mitologi, cerita rakyat, atau agama tradisional (§12); kalau bukan, kirim entri skip.
 
 ## Daftar makhluk
 
-### 1. `dhampir` — Dhampir (task `enrich`, tier `core`)
-- **Jenis: hantu** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
-- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q723656 — deskripsi Wikidata: "half vampire, half human creature".
-- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
-  - en: https://en.wikipedia.org/wiki/Dhampir
-  - id: https://id.wikipedia.org/wiki/Dhampir
-  - ja: https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%83%94%E3%83%BC%E3%83%AB
-  - zh: https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%90%B8%E8%A1%80%E9%AC%BC
-- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `undead`, budaya `tradition-albanian`, wilayah "Europe".
-- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
-  - Wikipedia (en): https://en.wikipedia.org/wiki/Dhampir
-  - Wikipedia (id): https://id.wikipedia.org/wiki/Dhampir
-
-### 2. `electra` — Electra (task `new`, tier `core`)
-- **Jenis: peri** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
-- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q1438693 — deskripsi Wikidata: "one of the Oceanids; daughter of Oceanus and Tethys"; kelas Wikidata: Oceanids.
-- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
-  - en: https://en.wikipedia.org/wiki/Electra_(Oceanid)
-  - zh: https://zh.wikipedia.org/wiki/%E5%8E%84%E5%8B%92%E5%85%8B%E7%89%B9%E6%8B%89_(%E6%B0%B4%E4%BB%99%E5%A5%B3)
-  - de: https://de.wikipedia.org/wiki/Ozomene
-  - fr: https://fr.wikipedia.org/wiki/%C3%89lectre_(Oc%C3%A9anide)
-
-### 3. `imp` — Imp (task `enrich`, tier `core`)
-- **Jenis: iblis/setan** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
-- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q2266278 — deskripsi Wikidata: "mythical creature, a diminutive demon similar to a goblin"; kelas Wikidata: mythical humanoid race.
-- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
-  - en: https://en.wikipedia.org/wiki/Imp
-  - id: https://id.wikipedia.org/wiki/Imp
-  - ja: https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%83%97_(%E6%82%AA%E9%AD%94)
-  - zh: https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%81%B6%E9%AD%94
-- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `demon`, budaya `tradition-english`, wilayah "Europe".
-- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
-  - Wikipedia (en): https://en.wikipedia.org/wiki/Imp
-  - Wikipedia (id): https://id.wikipedia.org/wiki/Imp
-
-### 4. `japanese-dragon` — Japanese dragon (task `enrich`, tier `core`)
-- **Jenis: dewa** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
-- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q2366503 — deskripsi Wikidata: "serpentine creature in Japanese mythology"; kelas Wikidata: water deity, mythical creature.
-- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
-  - en: https://en.wikipedia.org/wiki/Japanese_dragon
-  - ja: https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E7%AB%9C
-  - zh: https://zh.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E7%9A%84%E9%BE%8D
-  - es: https://es.wikipedia.org/wiki/Drag%C3%B3n_japon%C3%A9s
-- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `dragon`, budaya `japanese-folklore`, wilayah "East Asia".
-- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
-  - Wikipedia (en): https://en.wikipedia.org/wiki/Japanese_dragon
-
-### 5. `maruts` — Maruts (task `new`, tier `core`)
-- **Jenis: dewa** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
-- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q1906028 — deskripsi Wikidata: "ancient Hindu storm deities"; kelas Wikidata: water deity.
-- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
-  - en: https://en.wikipedia.org/wiki/Maruts
-  - id: https://id.wikipedia.org/wiki/Maruta
-  - ja: https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%AB%E3%83%88%E7%A5%9E%E7%BE%A4
-  - zh: https://zh.wikipedia.org/wiki/%E6%9A%B4%E9%A2%A8%E7%A5%9E
-
-### 6. `merman` — Merman (task `enrich`, tier `core`)
-- **Jenis: makhluk campuran** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
-- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q4995044 — deskripsi Wikidata: "male merfolk".
-- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
-  - en: https://en.wikipedia.org/wiki/Merman
-  - ja: https://ja.wikipedia.org/wiki/%E5%8D%8A%E9%AD%9A%E4%BA%BA
-  - zh: https://zh.wikipedia.org/wiki/%E5%8D%8A%E9%AD%9A%E4%BA%BA
-  - de: https://de.wikipedia.org/wiki/Wassermann_(Mythologie)
-- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `legendary-creature`, budaya `cross-cultural`, wilayah "Transregional".
-- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
-  - Wikipedia (en): https://en.wikipedia.org/wiki/Merman
-
-### 7. `mimas-q1045732` — Mimas (task `new`, tier `core`)
-- **Jenis: raksasa** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
-- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q1045732 — deskripsi Wikidata: "giant (Greek mythology)"; kelas Wikidata: Giants.
-- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
-  - en: https://en.wikipedia.org/wiki/Mimas_(Giant)
-  - ja: https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%9E%E3%83%BC%E3%82%B9
-  - zh: https://zh.wikipedia.org/wiki/%E5%BC%A5%E7%8E%9B%E6%96%AF
-  - de: https://de.wikipedia.org/wiki/Mimas_(Mythologie)
-
-### 8. `namtar` — Namtar (task `enrich`, tier `core`)
-- **Jenis: dewa** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
-- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q920319 — deskripsi Wikidata: "Mesopotamian mythical being inhabiting the underworld"; kelas Wikidata: god, death deity.
-- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
-  - en: https://en.wikipedia.org/wiki/Namtar
-  - zh: https://zh.wikipedia.org/wiki/%E7%BA%B3%E5%A7%86%E5%A1%94%E5%B0%94
-  - de: https://de.wikipedia.org/wiki/Namtaru
-  - fr: https://fr.wikipedia.org/wiki/Namtar
-- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `demon`, budaya `tradition-mesopotamian`, wilayah "Middle East".
-- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
-  - Wikipedia (en): https://en.wikipedia.org/wiki/Namtar
-
-### 9. `orithyia-q1129489` — Orithyia (task `new`, tier `core`)
-- **Jenis: dewa** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
-- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q1129489 — deskripsi Wikidata: "legendary princess of Athens"; kelas Wikidata: Greek water deities, mythological Greek character.
-- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
-  - en: https://en.wikipedia.org/wiki/Orithyia_(daughter_of_Erechtheus)
-  - ja: https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%AC%E3%82%A4%E3%83%86%E3%83%A5%E3%82%A4%E3%82%A2
-  - zh: https://zh.wikipedia.org/wiki/%E6%AD%90%E9%BA%97%E6%B3%B0%E4%BA%9E
-  - de: https://de.wikipedia.org/wiki/Oreithyia
-
-### 10. `pari` — Parī (task `enrich`, tier `core`)
+### 1. `dormarch` — Dormarch (task `enrich`, tier `core`)
 - **Jenis: roh** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
-- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q1542990 — deskripsi Wikidata: "female spirit in Persian mythology"; kelas Wikidata: mythical humanoid race.
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q19872698 — deskripsi Wikidata: "Welsh legendary hound".
 - Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
-  - en: https://en.wikipedia.org/wiki/Par%C4%AB
-  - id: https://id.wikipedia.org/wiki/Peri_(mitologi_Persia)
-  - ja: https://ja.wikipedia.org/wiki/%E3%83%9A%E3%83%AA
-  - de: https://de.wikipedia.org/wiki/Pari_(Mythologie)
-- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `fairy`, budaya `tradition-persian`, wilayah "Middle East".
+  - en: https://en.wikipedia.org/wiki/Dormarch
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `spirit`, budaya `tradition-welsh`, wilayah "Europe".
 - Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
-  - Wikipedia (en): https://en.wikipedia.org/wiki/Par%C4%AB
-  - Wikipedia (id): https://id.wikipedia.org/wiki/Peri_(mitologi_Persia)
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Dormarch
+
+### 2. `drudwyn` — Drudwyn (task `new`, tier `core`)
+- **Jenis: hewan mitos** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q1261119 — deskripsi Wikidata: "mythical creature"; kelas Wikidata: Cŵn Annwn, mythological dog.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - de: https://de.wikipedia.org/wiki/Drudwyn
+
+### 3. `dunnie` — Dunnie (task `enrich`, tier `core`)
+- **Jenis: roh** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q5315594 — deskripsi Wikidata: "character in Anglo-Scottish folklore".
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Dunnie
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `spirit`, budaya `tradition-northumbrian`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Dunnie
+
+### 4. `dyrnwch` — Dyrnwch (task `new`, tier `core`)
+- **Jenis: raksasa** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q1269219 — kelas Wikidata: giant.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - de: https://de.wikipedia.org/wiki/Dyrnwch
+
+### 5. `dyrnwch-gawr` — Dyrnwch Gawr (task `new`, tier `core`)
+- **Jenis: raksasa** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q20592798 — kelas Wikidata: giant.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - cy: https://cy.wikipedia.org/wiki/Dyrnwch_Gawr
+
+### 6. `eog-llyn-llyw` — Eog Llyn Llyw (task `new`, tier `core`)
+- **Jenis: hewan mitos** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q20593822 — kelas Wikidata: Oldest animals in Welsh legend, legendary fish.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - cy: https://cy.wikipedia.org/wiki/Eog_Llyn_Llyw
+
+### 7. `eryr-gwern-abwy` — Eryr Gwern Abwy (task `new`, tier `core`)
+- **Jenis: hewan mitos** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q13128295 — kelas Wikidata: legendary bird.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - cy: https://cy.wikipedia.org/wiki/Eryr_Gwern_Abwy
+
+### 8. `fat-lips` — Fat Lips (task `enrich`, tier `core`)
+- **Jenis: roh** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q16836343 — deskripsi Wikidata: "legendary spirit in Scotland".
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Fat_Lips
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `fairy`, budaya `tradition-northumbrian`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Fat_Lips
+
+### 9. `finfolk` — Finfolk (task `enrich`, tier `core`)
+- **Jenis: roh** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q5450176 — deskripsi Wikidata: "Shapeshifters of Orkney folklore".
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Finfolk
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `spirit`, budaya `tradition-scottish`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Finfolk
+
+### 10. `freybug` — Freybug (task `enrich`, tier `core`)
+- **Jenis: makhluk legenda** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q5503306.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Freybug
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `legendary-creature`, budaya `tradition-english`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Freybug
+
+### 11. `frid` — Frìd (task `new`, tier `core`)
+- **Jenis: peri** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q13194676 — deskripsi Wikidata: "little fairy"; kelas Wikidata: mythic humanoid.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - gd: https://gd.wikipedia.org/wiki/Fr%C3%ACd
+
+### 12. `girt-dog-of-ennerdale` — Girt dog of Ennerdale (task `enrich`, tier `core`)
+- **Jenis: hewan mitos** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q5564827 — deskripsi Wikidata: "livestock killing dog".
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Girt_dog_of_Ennerdale
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `cryptid`, budaya `tradition-english`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Girt_dog_of_Ennerdale
+
+### 13. `glaistig` — Glaistig (task `new`, tier `core`)
+- **Jenis: makhluk legenda** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q13194685 — deskripsi Wikidata: "creature in Gaelic mythology"; kelas Wikidata: mythical creature.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - gd: https://gd.wikipedia.org/wiki/Glaistig
+
+### 14. `gogfran-gawr` — Gogfran Gawr (task `new`, tier `core`)
+- **Jenis: raksasa** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q13128679 — deskripsi Wikidata: "mythical giant, the father of Guinevere in some traditions"; kelas Wikidata: giant.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - cy: https://cy.wikipedia.org/wiki/Gogfran_Gawr
+
+### 15. `grant-folklore` — Grant (folklore) (task `enrich`, tier `core`)
+- **Jenis: roh** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q138127672 — deskripsi Wikidata: "creature of English folklore".
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Grant_(folklore)
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `spirit`, budaya `tradition-english`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Grant_(folklore)
+
+### 16. `gwedros-gawr` — Gwedros Gawr (task `new`, tier `core`)
+- **Jenis: raksasa** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q56653713 — kelas Wikidata: giant.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - cy: https://cy.wikipedia.org/wiki/Gwedros_Gawr
+
+### 17. `gwyllion` — Gwyllion (task `enrich`, tier `core`)
+- **Jenis: peri** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q5623761 — deskripsi Wikidata: "aspect of Welsh folklore".
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Gwyllion
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `fairy`, budaya `tradition-welsh`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Gwyllion
+
+### 18. `hampton-court-ghost` — Hampton Court ghost (task `enrich`, tier `core`)
+- **Jenis: roh** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q123265840.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Hampton_Court_ghost
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `spirit`, budaya `tradition-english`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Hampton_Court_ghost
+
+### 19. `hwch-ddu-gwta` — Hwch Ddu Gwta (task `new`, tier `core`)
+- **Jenis: makhluk legenda** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q13129203 — kelas Wikidata: mythical creature.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - cy: https://cy.wikipedia.org/wiki/Hwch_Ddu_Gwta
+
+### 20. `iannic-ann-od` — Iannic-ann-ôd (task `enrich`, tier `core`)
+- **Jenis: roh** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q5983372 — deskripsi Wikidata: "Celtic folklore".
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Iannic-ann-%C3%B4d
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `spirit`, budaya `tradition-breton`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Iannic-ann-%C3%B4d
+
+### 21. `joan-the-wad` — Joan the Wad (task `enrich`, tier `core`)
+- **Jenis: tokoh legenda** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q6205645 — deskripsi Wikidata: "Figure in Cornish folklore"; kelas Wikidata: mythical character.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Joan_the_Wad
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `legendary-creature`, budaya `tradition-cornish`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Joan_the_Wad
+
+### 22. `joint-eater` — Joint-eater (task `enrich`, tier `core`)
+- **Jenis: peri** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q17060558 — deskripsi Wikidata: "type of fairy in Celtic mythology".
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Joint-eater
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `fairy`, budaya `tradition-irish`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Joint-eater
+
+### 23. `lavellan` — Lavellan (task `enrich`, tier `core`)
+- **Jenis: monster** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q17050619 — deskripsi Wikidata: "Scottish folkloric creature".
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Lavellan
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `monster`, budaya `tradition-scottish`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Lavellan
+
+### 24. `lazy-laurence` — Lazy Laurence (task `enrich`, tier `core`)
+- **Jenis: peri** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q113993352 — deskripsi Wikidata: "legendary fairy from English folklore"; kelas Wikidata: mythical character.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Lazy_Laurence
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `spirit`, budaya `tradition-english`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Lazy_Laurence
+
+### 25. `little-people-of-the-pryor-mountains` — Little People of the Pryor Mountains (task `enrich`, tier `core`)
+- **Jenis: peri** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q6651314.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Little_People_of_the_Pryor_Mountains
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `fairy`, budaya `tradition-english`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Little_People_of_the_Pryor_Mountains
+
+### 26. `lurikeen` — Lurikeen (task `new`, tier `core`)
+- **Jenis: makhluk legenda** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q3267752 — kelas Wikidata: lutin.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - fr: https://fr.wikipedia.org/wiki/Lurikeen
+
+### 27. `ly-erg` — Ly Erg (task `enrich`, tier `core`)
+- **Jenis: peri** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q54869717 — deskripsi Wikidata: "fairy from Scottish folklore"; kelas Wikidata: forest.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Ly_Erg
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `fairy`, budaya `tradition-scottish`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Ly_Erg
+
+### 28. `madam-pigott` — Madam Pigott (task `enrich`, tier `core`)
+- **Jenis: hantu** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q17017700 — deskripsi Wikidata: "ghost in Shropshire, England"; kelas Wikidata: ghost, White Lady.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Madam_Pigott
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `spirit`, budaya `tradition-english`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Madam_Pigott
+
+### 29. `maelor-gawr` — Maelor Gawr (task `enrich`, tier `core`)
+- **Jenis: raksasa** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q6797347 — deskripsi Wikidata: "Mythical Celtic king and giant".
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Maelor_Gawr
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `giant`, budaya `tradition-welsh`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Maelor_Gawr
+
+### 30. `metheringham-lass` — Metheringham Lass (task `new`, tier `core`)
+- **Jenis: hantu** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q6823628 — deskripsi Wikidata: "English ghost"; kelas Wikidata: ghost.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Metheringham_Lass
+
+### 31. `muckie` — Muckie (task `enrich`, tier `core`)
+- **Jenis: kriptid** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q17042935.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Muckie
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `cryptid`, budaya `tradition-irish`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Muckie
+
+### 32. `murigen` — Murigen (task `new`, tier `core`)
+- **Jenis: dewa** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q6938699 — deskripsi Wikidata: "goddess of lakes in Welsh mythology"; kelas Wikidata: water deity.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Murigen
+
+### 33. `nelly-longarms` — Nelly Longarms (task `enrich`, tier `core`)
+- **Jenis: roh** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q48729693 — deskripsi Wikidata: "character in English folklore".
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Nelly_Longarms
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `spirit`, budaya `tradition-english`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Nelly_Longarms
+
+### 34. `petticoat-loose` — Petticoat Loose (task `new`, tier `core`)
+- **Jenis: hantu** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q13157662 — kelas Wikidata: ghost.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - ga: https://ga.wikipedia.org/wiki/Petticoat_Loose
+
+### 35. `portunes` — Portunes (task `enrich`, tier `core`)
+- **Jenis: makhluk legenda** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q138538379 — deskripsi Wikidata: "creature of English folklore"; kelas Wikidata: mythical creature.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Portunes
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `spirit`, budaya `tradition-english`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Portunes
+- Catatan: Ada makhluk lain bernama sama di daftar kerja: `portunes-q1570477` (Roman god). Teliti hanya makhluk yang sesuai Wikidata Q138538379.
+
+### 36. `pyewacket-familiar-spirit` — Pyewacket (familiar spirit) (task `enrich`, tier `core`)
+- **Jenis: roh** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q7262980 — deskripsi Wikidata: "familiar spirit, reported by an alleged witch in 1644".
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Pyewacket_(familiar_spirit)
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `legendary-creature`, budaya `tradition-english`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Pyewacket_(familiar_spirit)
+
+### 37. `searrach-uisge` — Searrach Uisge (task `new`, tier `core`)
+- **Jenis: makhluk legenda** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q2709534 — kelas Wikidata: mythical creature.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - nl: https://nl.wikipedia.org/wiki/Searrach_Uisge
+
+### 38. `segeta` — Segeta (task `new`, tier `core`)
+- **Jenis: dewa** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q97173787 — kelas Wikidata: water deity, Celtic deity, goddess.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - fr: https://fr.wikipedia.org/wiki/Segeta
+
+### 39. `seileag` — Seileag (task `new`, tier `core`)
+- **Jenis: kriptid** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q7446804 — deskripsi Wikidata: "supposed sea monster, resident in Loch Shiel, Highland, Scotland, UK"; kelas Wikidata: lake monster.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - ga: https://ga.wikipedia.org/wiki/Seileag
+
+### 40. `shug-monkey` — Shug Monkey (task `enrich`, tier `core`)
+- **Jenis: makhluk campuran** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q7504666 — deskripsi Wikidata: "Paranormal Creature"; kelas Wikidata: mythical hybrid.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Shug_Monkey
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `cryptid`, budaya `tradition-english`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Shug_Monkey
+
+### 41. `sleih-beggey` — Sleih beggey (task `enrich`, tier `core`)
+- **Jenis: peri** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q102347612 — deskripsi Wikidata: "fairy in Celtic mythology".
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Sleih_beggey
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `fairy`, budaya `tradition-manx`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Sleih_beggey
+
+### 42. `sockburn-worm` — Sockburn Worm (task `enrich`, tier `core`)
+- **Jenis: naga/ular mitos** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q7552993 — deskripsi Wikidata: "northumbrian folkloric creature"; kelas Wikidata: wyvern.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Sockburn_Worm
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `dragon`, budaya `tradition-northumbrian`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Sockburn_Worm
+
+### 43. `stray-sod` — Stray sod (task `enrich`, tier `core`)
+- **Jenis: peri** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q7622581 — deskripsi Wikidata: "mythical Object".
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Stray_sod
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `fairy`, budaya `celtic-folklore`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Stray_sod
+
+### 44. `the-black-dog-of-newgate` — The Black Dog of Newgate (task `enrich`, tier `core`)
+- **Jenis: roh** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q23831239 — deskripsi Wikidata: "Mythical Black Dog Spirit of Newgate prison"; kelas Wikidata: black dog, haunting, mythological dog.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/The_Black_Dog_of_Newgate
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `legendary-creature`, budaya `tradition-english`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/The_Black_Dog_of_Newgate
+
+### 45. `the-mermaids-of-staithes` — The Mermaids of Staithes (task `enrich`, tier `core`)
+- **Jenis: makhluk air** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q134978642 — deskripsi Wikidata: "folklore, British Mythology and Legends".
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/The_Mermaids_of_Staithes
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `aquatic`, budaya `tradition-british`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/The_Mermaids_of_Staithes
+
+### 46. `tiddy-mun` — Tiddy Mun (task `enrich`, tier `core`)
+- **Jenis: roh** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q7800828 — deskripsi Wikidata: "legendary bog spirit".
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Tiddy_Mun
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `spirit`, budaya `tradition-english`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Tiddy_Mun
+
+### 47. `wd-q12287283` — Мойви (task `new`, tier `core`)
+- **Jenis: roh** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q12287283 — deskripsi Wikidata: "water spirits that drown sailors in English legends"; kelas Wikidata: elemental.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - bg: https://bg.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B9%D0%B2%D0%B8
+
+### 48. `yallery-brown` — Yallery Brown (task `enrich`, tier `core`)
+- **Jenis: roh** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q8047493 — deskripsi Wikidata: "nature spirit in English folklore".
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - en: https://en.wikipedia.org/wiki/Yallery_Brown
+- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `legendary-creature`, budaya `tradition-english`, wilayah "Europe".
+- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
+  - Wikipedia (en): https://en.wikipedia.org/wiki/Yallery_Brown
 
 ## Cara menjawab
 
-Kerjakan berurutan mulai dari `dhampir`, sesuai §10: satu blok ```json per makhluk, ditulis ke `data/gemini/inbox/batch-120.md` (mode agen) atau dikirim sebagai jawaban (mode chat).
+Kerjakan berurutan mulai dari `dormarch`, sesuai §10: satu blok ```json per makhluk, ditulis ke `data/gemini/inbox/batch-120.md` (mode agen) atau dikirim sebagai jawaban (mode chat).

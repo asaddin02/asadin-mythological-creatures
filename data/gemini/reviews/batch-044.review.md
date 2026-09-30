@@ -1,6 +1,6 @@
 # Review batch-044
 
-Diperiksa 2026-09-30T01:20:46.478Z. Berkas: batch-044.md, batch-044-fix-1.md.
+Diperiksa 2026-09-30T02:35:36.568Z. Berkas: batch-044.md, batch-044-fix-1.md.
 
 ## tartarus — lulus-otomatis
 
@@ -98,10 +98,10 @@ Klaim 16 (exact 16), sumber 3, gambar 0.
 
 ## lernaean-hydra — lulus-otomatis
 
-Klaim 15 (exact 12, unreachable 3), sumber 5, gambar 0.
+Klaim 15 (exact 13, unreachable 2), sumber 5, gambar 0.
 
 **manual**
-- `claims` 3 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
+- `claims` 2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -118,6 +118,6 @@ Klaim 15 (exact 12, unreachable 3), sumber 5, gambar 0.
 | lernaean-hydra-c11 | exact | www.theoi.com | The Hydra is called nine-headed by Alcaeus, fifty-headed by Simonides. | The Hydra is called nine-headed by Alcaeus, fifty-headed by Simonides. |
 | lernaean-hydra-c12 | exact | www.theoi.com | whom the goddess white-armed Hera nourished because of her quenchless grudge against the strong Herakles (Heracles) | whom the goddess white-armed Hera nourished because of her quenchless grudge against the strong Herakles (Heracles) |
 | lernaean-hydra-c13 | exact | www.worldhistory.org | Helped by his faithful companion and nephew Iolaos, who used fire to stop the heads re-growing, Hercules eventually killed the Hydra and dipped his arrows in its poisonous blood. | Helped by his faithful companion and nephew Iolaos, who used fire to stop the heads re-growing, Hercules eventually killed the Hydra and dipped his arrows in its poisonous blood. |
-| lernaean-hydra-c14 | unreachable (HTTP 429) | www.metmuseum.org | Statue base with the remains of the scene of Herakles and Iolaos fighting the Lernaean Hydra. | Statue base with the remains of the scene of Herakles and Iolaos fighting the Lernaean Hydra. |
+| lernaean-hydra-c14 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Statue base with the remains of the scene of Herakles and Iolaos fighting the Lernaean Hydra. | Statue base with the remains of the scene of Herakles and Iolaos fighting the Lernaean Hydra. |
 | lernaean-hydra-c15 | unreachable (HTTP 429) | www.metmuseum.org | He accomplished this task by cutting off each of the Hydra’s heads and burning the exposed stumps, which finished off the beast. | He accomplished this task by cutting off each of the Hydra’s heads and burning the exposed stumps, which finished off the beast. |
 

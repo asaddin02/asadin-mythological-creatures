@@ -1,48 +1,42 @@
 # Review batch-045
 
-Diperiksa 2026-09-30T01:30:44.463Z. Berkas: batch-045.md, batch-045-fix-1.md, batch-045-fix-2.md, batch-045-fix-3.md.
+Diperiksa 2026-09-30T02:35:53.005Z. Berkas: batch-045.md, batch-045-fix-1.md, batch-045-fix-2.md, batch-045-fix-3.md.
 
 ## nike — lulus-otomatis
 
-Klaim 15 (unreachable 15), sumber 3, gambar 0.
-
-**manual**
-- `claims` 15 kutipan tidak bisa dicek otomatis: www.worldhistory.org (tidak bisa dibuka (timeout)); www.metmuseum.org (HTTP 429).
+Klaim 15 (exact 15), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| nike-c01 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | The ancient Greek goddess Nike was the personification of the ideal of victory. | The ancient Greek goddess Nike was the personification of the ideal of victory. |
-| nike-c02 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | her mother was Styx (daughter of Ocean) and her father was Pallas, the Titan. | her mother was Styx (daughter of Ocean) and her father was Pallas, the Titan. |
-| nike-c03 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | She had three sisters, also personified deities: Zelus (Rivalry), Cratos (Supremacy), and Bia (Force) | She had three sisters, also personified deities: Zelus (Rivalry), Cratos (Supremacy), and Bia (Force) |
-| nike-c04 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | with Nike, were always seated by mighty Zeus on Mt. Olympus. | with Nike, were always seated by mighty Zeus on Mt. Olympus. |
-| nike-c05 | unreachable (HTTP 429) | www.metmuseum.org | Three-dimensional representations of Nike, the winged goddess who brought victory in both battle and athletic contests, usually attempt to evoke flight or the moment of alighting. | Three-dimensional representations of Nike, the winged goddess who brought victory in both battle and athletic contests, usually attempt to evoke flight or the moment of alighting. |
-| nike-c06 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | she is depicted with wings and often carries before her a wreath of victory | she is depicted with wings and often carries before her a wreath of victory |
-| nike-c07 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | The oldest surviving winged Nike in sculpture is from Delos and dates to 550 BCE | The oldest surviving winged Nike in sculpture is from Delos and dates to 550 BCE |
-| nike-c08 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | On Attic 5th to 4th century BCE pottery, Nike also often rides a chariot | On Attic 5th to 4th century BCE pottery, Nike also often rides a chariot |
-| nike-c09 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | One of the goddess Athena's most common epithets was Athena Nike | One of the goddess Athena's most common epithets was Athena Nike |
-| nike-c10 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | a temple to Athena as Victory was built on the Acropolis of Athens in the late 420's BCE | a temple to Athena as Victory was built on the Acropolis of Athens in the late 420's BCE |
-| nike-c11 | unreachable (HTTP 429) | www.metmuseum.org | Nike, the personification of victory, runs to an altar with outstretched arms. | Nike, the personification of victory, runs to an altar with outstretched arms. |
-| nike-c12 | unreachable (HTTP 429) | www.metmuseum.org | it is possible to surmise that Nike held a wreath in her hands. | it is possible to surmise that Nike held a wreath in her hands. |
-| nike-c13 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | Statues of Nike were also set up to commemorate military victories | Statues of Nike were also set up to commemorate military victories |
-| nike-c14 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | In both cases, the god held in their right hand a statue of Nike | In both cases, the god held in their right hand a statue of Nike |
-| nike-c15 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | A third representation which must have struck a certain degree of awe into the ancients was the statue of Nike by Paionios | A third representation which must have struck a certain degree of awe into the ancients was the statue of Nike by Paionios |
+| nike-c01 | exact | www.worldhistory.org | The ancient Greek goddess Nike was the personification of the ideal of victory. | The ancient Greek goddess Nike was the personification of the ideal of victory. |
+| nike-c02 | exact | www.worldhistory.org | her mother was Styx (daughter of Ocean) and her father was Pallas, the Titan. | her mother was Styx (daughter of Ocean) and her father was Pallas, the Titan. |
+| nike-c03 | exact | www.worldhistory.org | She had three sisters, also personified deities: Zelus (Rivalry), Cratos (Supremacy), and Bia (Force) | She had three sisters, also personified deities: Zelus (Rivalry), Cratos (Supremacy), and Bia (Force) |
+| nike-c04 | exact | www.worldhistory.org | with Nike, were always seated by mighty Zeus on Mt. Olympus. | with Nike, were always seated by mighty Zeus on Mt. Olympus. |
+| nike-c05 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Three-dimensional representations of Nike, the winged goddess who brought victory in both battle and athletic contests, usually attempt to evoke flight or the moment of alighting. | Three-dimensional representations of Nike, the winged goddess who brought victory in both battle and athletic contests, usually attempt to evoke flight or the moment of alighting. |
+| nike-c06 | exact | www.worldhistory.org | she is depicted with wings and often carries before her a wreath of victory | she is depicted with wings and often carries before her a wreath of victory |
+| nike-c07 | exact | www.worldhistory.org | The oldest surviving winged Nike in sculpture is from Delos and dates to 550 BCE | The oldest surviving winged Nike in sculpture is from Delos and dates to 550 BCE |
+| nike-c08 | exact | www.worldhistory.org | On Attic 5th to 4th century BCE pottery, Nike also often rides a chariot | On Attic 5th to 4th century BCE pottery, Nike also often rides a chariot |
+| nike-c09 | exact | www.worldhistory.org | One of the goddess Athena's most common epithets was Athena Nike | One of the goddess Athena's most common epithets was Athena Nike |
+| nike-c10 | exact | www.worldhistory.org | a temple to Athena as Victory was built on the Acropolis of Athens in the late 420's BCE | a temple to Athena as Victory was built on the Acropolis of Athens in the late 420's BCE |
+| nike-c11 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Nike, the personification of victory, runs to an altar with outstretched arms. | Nike, the personification of victory, runs to an altar with outstretched arms. |
+| nike-c12 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | it is possible to surmise that Nike held a wreath in her hands. | it is possible to surmise that Nike held a wreath in her hands. |
+| nike-c13 | exact | www.worldhistory.org | Statues of Nike were also set up to commemorate military victories | Statues of Nike were also set up to commemorate military victories |
+| nike-c14 | exact | www.worldhistory.org | In both cases, the god held in their right hand a statue of Nike | In both cases, the god held in their right hand a statue of Nike |
+| nike-c15 | exact | www.worldhistory.org | A third representation which must have struck a certain degree of awe into the ancients was the statue of Nike by Paionios | A third representation which must have struck a certain degree of awe into the ancients was the statue of Nike by Paionios |
 
 
 ## valkyrie — lulus-otomatis
 
-Klaim 16 (unreachable 3, exact 13), sumber 3, gambar 0.
-
-**manual**
-- `claims` 3 kutipan tidak bisa dicek otomatis: en.wikisource.org (tidak bisa dibuka (fetch failed)).
+Klaim 16 (exact 16), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| valkyrie-c01 | unreachable (tidak bisa dibuka (fetch failed)) | en.wikisource.org | figures of Norse mythology, generally represented as divine (less frequently human) maidens who ride through the air on Odin’s service. | figures of Norse mythology, generally represented as divine (less frequently human) maidens who ride through the air on Odin’s service. |
+| valkyrie-c01 | exact | en.wikisource.org | figures of Norse mythology, generally represented as divine (less frequently human) maidens who ride through the air on Odin’s service. | figures of Norse mythology, generally represented as divine (less frequently human) maidens who ride through the air on Odin’s service. |
 | valkyrie-c02 | exact | www.worldhistory.org | A Valkyrie is a figure in Norse mythology depicted as a warrior woman on horseback, a wolf or boar, and armed with a spear | A Valkyrie is a figure in Norse mythology depicted as a warrior woman on horseback, a wolf or boar, and armed with a spear |
 | valkyrie-c03 | exact | www.worldhistory.org | who decides the fate of warriors in battle and carries the dead to Odin’s Valhalla. | who decides the fate of warriors in battle and carries the dead to Odin’s Valhalla. |
 | valkyrie-c04 | exact | www.worldhistory.org | Valkyrie means "chooser of the slain" | Valkyrie means "chooser of the slain" |
 | valkyrie-c05 | exact | www.worldhistory.org | those chosen will fight beside Odin at Ragnarök. | those chosen will fight beside Odin at Ragnarök. |
-| valkyrie-c06 | unreachable (tidak bisa dibuka (fetch failed)) | en.wikisource.org | Clad in full armour they are sent forth to determine the course of battles and to select brave warriors for Valhalla | Clad in full armour they are sent forth to determine the course of battles and to select brave warriors for Valhalla |
+| valkyrie-c06 | exact | en.wikisource.org | Clad in full armour they are sent forth to determine the course of battles and to select brave warriors for Valhalla | Clad in full armour they are sent forth to determine the course of battles and to select brave warriors for Valhalla |
 | valkyrie-c07 | exact | www.worldhistory.org | The goddess Freyja presided over Fólkvangr and chose half the dead on the battlefield for her realm; Valkyries chose the other half for Odin. | The goddess Freyja presided over Fólkvangr and chose half the dead on the battlefield for her realm; Valkyries chose the other half for Odin. |
 | valkyrie-c08 | exact | www.worldhistory.org | then served by them once they have become einherjar | then served by them once they have become einherjar |
 | valkyrie-c09 | exact | www.worldhistory.org | Valkyries feature in stories from the 13th-century works Prose Edda and Poetic Edda | Valkyries feature in stories from the 13th-century works Prose Edda and Poetic Edda |
@@ -51,7 +45,7 @@ Klaim 16 (unreachable 3, exact 13), sumber 3, gambar 0.
 | valkyrie-c12 | exact | www.worldhistory.org | The number of Valkyries is given as 9, 12, 13, or 300 | The number of Valkyries is given as 9, 12, 13, or 300 |
 | valkyrie-c13 | exact | www.worldhistory.org | The most famous Valkyrie, however, is Brynhild | The most famous Valkyrie, however, is Brynhild |
 | valkyrie-c14 | exact | www.worldhistory.org | After displeasing Odin by refusing to do his will, she is made mortal, placed in a deep sleep, and surrounded by a ring of fire | After displeasing Odin by refusing to do his will, she is made mortal, placed in a deep sleep, and surrounded by a ring of fire |
-| valkyrie-c15 | unreachable (tidak bisa dibuka (fetch failed)) | en.wikisource.org | Beings with the same name (waelcyrgean) were known also in England | Beings with the same name (waelcyrgean) were known also in England |
+| valkyrie-c15 | exact | en.wikisource.org | Beings with the same name (waelcyrgean) were known also in England | Beings with the same name (waelcyrgean) were known also in England |
 | valkyrie-c16 | exact | en.natmus.dk | The National Museum of Denmark describes Valkyries as female divinities Odin sent to choose warriors who would die. | The valkyries were female dieties, who Odin sent to the battlefield to choose the warriors that were to die and bring them to Valhalla. |
 
 
@@ -81,10 +75,7 @@ Klaim 16 (exact 16), sumber 3, gambar 0.
 
 ## adonis — lulus-otomatis
 
-Klaim 15 (exact 14, unreachable 1), sumber 3, gambar 0.
-
-**manual**
-- `claims` 1 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
+Klaim 15 (exact 15), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -102,18 +93,15 @@ Klaim 15 (exact 14, unreachable 1), sumber 3, gambar 0.
 | adonis-c12 | exact | www.worldhistory.org | a flower sprouted from the ground, its scent the same as Aphrodite's nectar, and its color that of Adonis' blood – the Anemone flower. | a flower sprouted from the ground, its scent the same as Aphrodite's nectar, and its color that of Adonis' blood – the Anemone flower. |
 | adonis-c13 | exact | www.worldhistory.org | Byblos was one of the main places in the ancient world that used to observe the rituals of Adonis | Byblos was one of the main places in the ancient world that used to observe the rituals of Adonis |
 | adonis-c14 | exact | www.theoi.com | He was worshipped as a god of grain crops, such as corn | He was worshipped as a god of grain crops, such as corn |
-| adonis-c15 | unreachable (HTTP 429) | www.metmuseum.org | With cavalier indifference to the goddess’s adoration and her warnings of danger, Adonis hunted a wild boar and was gored to death. | Rubens took the subject of this painting from the Roman poet Ovid’s Metamorphoses. Accidently pricked by one of Cupid’s arrows, Venus fell in love with the handsome hunter Adonis. With cavalier indifference to the goddess’s adoration and her warnings of danger, Adonis hunted a wild boar and was gored to death. |
+| adonis-c15 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | With cavalier indifference to the goddess’s adoration and her warnings of danger, Adonis hunted a wild boar and was gored to death. | Rubens took the subject of this painting from the Roman poet Ovid’s Metamorphoses. Accidently pricked by one of Cupid’s arrows, Venus fell in love with the handsome hunter Adonis. With cavalier indifference to the goddess’s adoration and her warnings of danger, Adonis hunted a wild boar and was gored to death. |
 
 
 ## baba-yaga-q187002 — perlu-perbaikan
 
-Klaim 15 (exact 14, unreachable 1), sumber 3, gambar 0.
+Klaim 15 (exact 15), sumber 3, gambar 0.
 
 **error**
 - `slug` Makhluk ini sudah ada di Mythics (baba-yaga).
-
-**manual**
-- `claims` 1 kutipan tidak bisa dicek otomatis: www.smithsonianmag.com (HTTP 403).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -131,5 +119,5 @@ Klaim 15 (exact 14, unreachable 1), sumber 3, gambar 0.
 | baba-yaga-q187002-c12 | exact | www.encyclopedia.com | known in Russian folklore as a witch and an ogress | known in Russian folklore as a witch and an ogress |
 | baba-yaga-q187002-c13 | exact | www.encyclopedia.com | She is variously depicted as an evil old hag who eats humans, especially children, and as a wise, prophetic old woman. | She is variously depicted as an evil old hag who eats humans, especially children, and as a wise, prophetic old woman. |
 | baba-yaga-q187002-c14 | exact | www.encyclopedia.com | Baba Yaga never walks; she either flies in a fiery mortar | Baba Yaga never walks; she either flies in a fiery mortar |
-| baba-yaga-q187002-c15 | unreachable (HTTP 403) | www.smithsonianmag.com | Baba Yaga is the witch from Slavic folklore who lives in a house on chicken legs. | Baba Yaga is the witch from Slavic folklore who lives in a house on chicken legs. |
+| baba-yaga-q187002-c15 | exact (HTTP 403; dicek lewat arsip Wayback) | www.smithsonianmag.com | Baba Yaga is the witch from Slavic folklore who lives in a house on chicken legs. | Baba Yaga is the witch from Slavic folklore who lives in a house on chicken legs. |
 

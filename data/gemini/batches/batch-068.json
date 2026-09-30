@@ -1,47 +1,359 @@
 {
   "batch_id": "batch-068",
-  "created_at": "2026-09-29T08:31:11.791Z",
+  "created_at": "2026-09-30T03:03:04.348Z",
   "instructions_version": 3,
   "entries": [
     {
-      "slug": "freyr",
-      "canonical_name": "Freyr",
-      "task": "new",
-      "tier": "rich",
-      "jenis": "dewa",
-      "qid": "Q131474"
-    },
-    {
-      "slug": "heimdall",
-      "canonical_name": "Heimdall",
-      "task": "new",
-      "tier": "rich",
-      "jenis": "dewa",
-      "qid": "Q131196"
-    },
-    {
-      "slug": "hel",
-      "canonical_name": "Hel",
-      "task": "new",
-      "tier": "rich",
-      "jenis": "dewa",
-      "qid": "Q191589"
-    },
-    {
-      "slug": "kraken",
-      "canonical_name": "Kraken",
+      "slug": "sky-fox-mythology",
+      "canonical_name": "Sky Fox (mythology)",
       "task": "enrich",
-      "tier": "rich",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q11442920"
+    },
+    {
+      "slug": "cheukshin",
+      "canonical_name": "Cheukshin",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q5094230"
+    },
+    {
+      "slug": "dokkakgwi",
+      "canonical_name": "Dokkakgwi",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "hantu",
+      "qid": "Q10410564"
+    },
+    {
+      "slug": "feng-mythology",
+      "canonical_name": "Feng (mythology)",
+      "task": "enrich",
+      "tier": "core",
       "jenis": "monster",
-      "qid": "Q193165"
+      "qid": "Q15911161"
     },
     {
-      "slug": "lamia",
-      "canonical_name": "Lamia",
+      "slug": "four-mountains",
+      "canonical_name": "Four Mountains",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q5475388"
+    },
+    {
+      "slug": "huan-dou",
+      "canonical_name": "Huān Dōu",
+      "task": "new",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q15007922"
+    },
+    {
+      "slug": "luduan",
+      "canonical_name": "Luduan",
       "task": "enrich",
-      "tier": "rich",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q835987"
+    },
+    {
+      "slug": "mo-sin-a",
+      "canonical_name": "Mo-sin-a",
+      "task": "new",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q15899602"
+    },
+    {
+      "slug": "panhu",
+      "canonical_name": "Panhu",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "hewan mitos",
+      "qid": "Q7131036"
+    },
+    {
+      "slug": "panlong-mythology",
+      "canonical_name": "Panlong (mythology)",
+      "task": "enrich",
+      "tier": "core",
       "jenis": "naga/ular mitos",
-      "qid": "Q200073"
+      "qid": "Q3493193"
+    },
+    {
+      "slug": "shangyang",
+      "canonical_name": "Shangyang",
+      "task": "new",
+      "tier": "core",
+      "jenis": "hewan mitos",
+      "qid": "Q3054744"
+    },
+    {
+      "slug": "shuixian-zunwang",
+      "canonical_name": "Shuixian Zunwang",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q10373477"
+    },
+    {
+      "slug": "shunfeng-er",
+      "canonical_name": "Shunfeng'er",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q10566107"
+    },
+    {
+      "slug": "tam-kung",
+      "canonical_name": "Tam Kung",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q3023844"
+    },
+    {
+      "slug": "teng-mythology",
+      "canonical_name": "Teng (mythology)",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "naga/ular mitos",
+      "qid": "Q7699733"
+    },
+    {
+      "slug": "tianma",
+      "canonical_name": "Tianma",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "tokoh legenda",
+      "qid": "Q3528042"
+    },
+    {
+      "slug": "yuqiang",
+      "canonical_name": "Yuqiang",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q8061431"
+    },
+    {
+      "slug": "ao-bing",
+      "canonical_name": "Ao Bing",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q4778555"
+    },
+    {
+      "slug": "dijiang",
+      "canonical_name": "Dijiang",
+      "task": "new",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q11060107"
+    },
+    {
+      "slug": "dilong",
+      "canonical_name": "Dilong",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "naga/ular mitos",
+      "qid": "Q5277030"
+    },
+    {
+      "slug": "gazeka",
+      "canonical_name": "Gazeka",
+      "task": "new",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q5529055"
+    },
+    {
+      "slug": "guhuoniao",
+      "canonical_name": "Guhuoniao",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "hewan mitos",
+      "qid": "Q11447298"
+    },
+    {
+      "slug": "hong-rainbow-dragon",
+      "canonical_name": "Hong (rainbow-dragon)",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "naga/ular mitos",
+      "qid": "Q5894017"
+    },
+    {
+      "slug": "huodou",
+      "canonical_name": "Huodou",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q10446362"
+    },
+    {
+      "slug": "imugi",
+      "canonical_name": "imugi",
+      "task": "new",
+      "tier": "core",
+      "jenis": "naga/ular mitos",
+      "qid": "Q16176816"
+    },
+    {
+      "slug": "inmyeonjo",
+      "canonical_name": "Inmyeonjo",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "hewan mitos",
+      "qid": "Q55176974"
+    },
+    {
+      "slug": "lo-ting",
+      "canonical_name": "Lo Ting",
+      "task": "new",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q4267689"
+    },
+    {
+      "slug": "nie-xiaoqian",
+      "canonical_name": "Nie Xiaoqian",
+      "task": "new",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q6729513"
+    },
+    {
+      "slug": "qiulong",
+      "canonical_name": "Qiulong",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "naga/ular mitos",
+      "qid": "Q7267959"
+    },
+    {
+      "slug": "snakes-in-chinese-mythology",
+      "canonical_name": "snakes in Chinese mythology",
+      "task": "new",
+      "tier": "core",
+      "jenis": "naga/ular mitos",
+      "qid": "Q7547206"
+    },
+    {
+      "slug": "tek-ko-kui",
+      "canonical_name": "Tek-ko-kui",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "yokai",
+      "qid": "Q28415960"
+    },
+    {
+      "slug": "tin-hau-s-birthday",
+      "canonical_name": "Tin Hau's Birthday",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q2184821"
+    },
+    {
+      "slug": "wd-q89656688",
+      "canonical_name": "人面魚",
+      "task": "new",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q89656688"
+    },
+    {
+      "slug": "wuzhiqi",
+      "canonical_name": "Wuzhiqi",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q56345295"
+    },
+    {
+      "slug": "ao-run",
+      "canonical_name": "Ao Run",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q85742167"
+    },
+    {
+      "slug": "bifang",
+      "canonical_name": "Bifang",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "hewan mitos",
+      "qid": "Q10427163"
+    },
+    {
+      "slug": "chang-monster",
+      "canonical_name": "Chang (monster)",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q9394149"
+    },
+    {
+      "slug": "dilang",
+      "canonical_name": "Dilang",
+      "task": "new",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q10868990"
+    },
+    {
+      "slug": "feilong",
+      "canonical_name": "Feilong",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q13405048"
+    },
+    {
+      "slug": "fuzhu-mythical-beast",
+      "canonical_name": "Fuzhu (mythical beast)",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q10047443"
+    },
+    {
+      "slug": "gangcheori",
+      "canonical_name": "Gangcheori",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "naga/ular mitos",
+      "qid": "Q94532054"
+    },
+    {
+      "slug": "heluo-fish",
+      "canonical_name": "Heluo fish",
+      "task": "new",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q9387605"
+    },
+    {
+      "slug": "kawas-mythology",
+      "canonical_name": "Kawas (mythology)",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "roh",
+      "qid": "Q65117429"
+    },
+    {
+      "slug": "kun",
+      "canonical_name": "Kun",
+      "task": "new",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q17036342"
     }
   ]
 }

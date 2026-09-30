@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-043",
-  "checked_at": "2026-09-30T01:07:59.675Z",
+  "checked_at": "2026-09-30T02:35:29.686Z",
   "files": [
     "batch-043.md",
     "batch-043-fix-1.md"
@@ -345,13 +345,7 @@
         "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "thoth-c01",
@@ -401,8 +395,9 @@
           "statement_id": "Sebuah arca Metropolitan Museum memperlihatkan Thoth sebagai babun di punggung juru tulis.",
           "quote": "Thoth is here shown as a baboon who sits on the scribe's back.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260216050205id_/https://www.metmuseum.org/art/collection/search/544748",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "thoth-c06",
@@ -412,8 +407,9 @@
           "statement_id": "Sebuah stela memperlihatkan tiga bentuk Thoth, termasuk babun dan sosok berkepala ibis.",
           "quote": "Thoth appears three times, from left to right: assimilated with the moon god Khonsu-Harpokrates, in baboon form, and as an ibis-headed crowned figure.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260102222229id_/https://www.metmuseum.org/art/collection/search/546070",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "thoth-c07",

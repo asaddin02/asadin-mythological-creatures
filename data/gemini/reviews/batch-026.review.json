@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-026",
-  "checked_at": "2026-09-29T17:55:50.993Z",
+  "checked_at": "2026-09-30T02:31:36.077Z",
   "files": [
     "batch-026.md",
     "batch-026-fix-1.md",
@@ -42,11 +42,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target rich: 9 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "1 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -98,8 +93,9 @@
           "statement_id": "Menurut Metropolitan Museum of Art, umat Muslim meyakini Gabriel menyampaikan firman Tuhan kepada Muhammad dalam bahasa Arab.",
           "quote": "Muslims believe that the word of God was revealed to him by the archangel Gabriel in Arabic",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260610060007id_/https://www.metmuseum.org/essays/the-birth-of-islam",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "gabriel-c06",

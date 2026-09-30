@@ -1,6 +1,6 @@
 # Review batch-043
 
-Diperiksa 2026-09-30T01:07:59.675Z. Berkas: batch-043.md, batch-043-fix-1.md.
+Diperiksa 2026-09-30T02:35:29.686Z. Berkas: batch-043.md, batch-043-fix-1.md.
 
 ## lucifer — lulus-otomatis
 
@@ -50,10 +50,7 @@ Klaim 15 (exact 15), sumber 3, gambar 0.
 
 ## thoth — lulus-otomatis
 
-Klaim 16 (exact 14, unreachable 2), sumber 4, gambar 0.
-
-**manual**
-- `claims` 2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
+Klaim 16 (exact 16), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -61,8 +58,8 @@ Klaim 16 (exact 14, unreachable 2), sumber 4, gambar 0.
 | thoth-c02 | exact | en.wikisource.org | Thoth is a Greek name for the Egyptian deity. | THOTH, the Greek name of the Egyptian god of letters, invention and wisdom |
 | thoth-c03 | exact | www.worldhistory.org | His Egyptian name Djehuty means He Who is Like the Ibis. | Thoth's Egyptian name was Djehuty (also dhwty) meaning "He Who is Like the Ibis". |
 | thoth-c04 | exact | www.worldhistory.org | He is commonly depicted ibis-headed or as a seated baboon. | He is most commonly depicted as a man with the head of an ibis or a seated baboon |
-| thoth-c05 | unreachable (HTTP 429) | www.metmuseum.org | A Met sculpture shows Thoth as a baboon on a scribe's back. | Thoth is here shown as a baboon who sits on the scribe's back. |
-| thoth-c06 | unreachable (HTTP 429) | www.metmuseum.org | A stela shows Thoth in three forms, including baboon and ibis-headed forms. | Thoth appears three times, from left to right: assimilated with the moon god Khonsu-Harpokrates, in baboon form, and as an ibis-headed crowned figure. |
+| thoth-c05 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | A Met sculpture shows Thoth as a baboon on a scribe's back. | Thoth is here shown as a baboon who sits on the scribe's back. |
+| thoth-c06 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | A stela shows Thoth in three forms, including baboon and ibis-headed forms. | Thoth appears three times, from left to right: assimilated with the moon god Khonsu-Harpokrates, in baboon form, and as an ibis-headed crowned figure. |
 | thoth-c07 | exact | en.wikisource.org | Thoth presided over writing, measurement and calculation. | Thoth presided over writing, measuring and calculation |
 | thoth-c08 | exact | en.wikisource.org | Thoth appears in the scene of weighing the soul. | is prominent in the scene of the weighing of the soul |
 | thoth-c09 | exact | www.worldhistory.org | As A'an, Thoth presided over judgment of the dead with Osiris. | In his form as A'an, Thoth presided over the judgment of the dead with Osiris in the Hall of Truth |

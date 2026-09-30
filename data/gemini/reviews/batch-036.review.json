@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-036",
-  "checked_at": "2026-09-29T18:57:06.435Z",
+  "checked_at": "2026-09-30T02:33:51.779Z",
   "files": [
     "batch-036.md",
     "batch-036-fix-1.md"
@@ -22,11 +22,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target rich: 9 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "6 kutipan tidak bisa dicek otomatis: www.nms.ac.uk (HTTP 403); www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -38,8 +33,9 @@
           "statement_id": "Durga adalah dewi penting dalam Hinduisme.",
           "quote": "This very elegant bronze figure of Devi (goddess) Durga is an attractive and prominent figure and a principal deity in Hinduism.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 403"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260123020247id_/https://www.nms.ac.uk/discover-catalogue/the-hindu-goddess-durga",
+          "detail": "HTTP 403; dicek lewat arsip Wayback"
         },
         {
           "id": "durga-c02",
@@ -49,8 +45,9 @@
           "statement_id": "Nama Durga berarti tidak terjangkau atau tidak dapat dilewati dalam Sanskerta.",
           "quote": "In Sanskrit, Durga means the inaccessible or impassable.",
           "context": "etymology",
-          "status": "unreachable",
-          "detail": "HTTP 403"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260123020247id_/https://www.nms.ac.uk/discover-catalogue/the-hindu-goddess-durga",
+          "detail": "HTTP 403; dicek lewat arsip Wayback"
         },
         {
           "id": "durga-c03",
@@ -80,8 +77,9 @@
           "statement_id": "Durga mengalahkan Mahisha, iblis kerbau yang melambangkan kejahatan.",
           "quote": "Durga slaying Mahisha (Mahishamardini) is here represented in her multi-armed form, manifesting her supreme power as the dispeller of evil, personified in the buffalo demon (asura) Mahisha, seen slumped at her feet.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260309210437id_/https://www.metmuseum.org/art/collection/search/719420",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "durga-c06",
@@ -91,8 +89,9 @@
           "statement_id": "Menurut Devi Mahatmya, para dewa meminjamkan senjata kepada Durga untuk mengalahkan iblis.",
           "quote": "Following the Devi Mahatmya text, she wields the mighty weapons lent to her by the assembly of male gods who singly could not defeat the demon.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260309210437id_/https://www.metmuseum.org/art/collection/search/719420",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "durga-c07",
@@ -112,8 +111,9 @@
           "statement_id": "Dusshera dirayakan pada akhir Navaratri.",
           "quote": "The festival of Dusshera is celebrated at the end of Navaratri by Hindus wherever they live.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 403"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260123020247id_/https://www.nms.ac.uk/discover-catalogue/the-hindu-goddess-durga",
+          "detail": "HTTP 403; dicek lewat arsip Wayback"
         },
         {
           "id": "durga-c09",
@@ -123,8 +123,9 @@
           "statement_id": "Singa adalah tunggangan ilahi Durga yang tampil dalam seni pertempurannya melawan Mahisha.",
           "quote": "The lion, Durga’s divine mount (vahana) on which she is shown riding majestically into battle in manuscript illustrations, is here seen emerging from behind the goddess, mauling the demon-buffalo’s hind quarters.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260309210437id_/https://www.metmuseum.org/art/collection/search/719420",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         }
       ],
       "images": []
@@ -143,11 +144,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "1 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -229,8 +225,9 @@
           "statement_id": "Merak menjadi penanda Juno dalam karya seni.",
           "quote": "The presence of the peacock identifies the figure as Juno, Jupiter’s wife and the goddess of marriage",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260416090220id_/https://www.metmuseum.org/art/collection/search/207645",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "juno-c09",
@@ -373,7 +370,7 @@
         {
           "level": "manual",
           "where": "claims",
-          "message": "4 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+          "message": "3 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -468,8 +465,9 @@
           "statement_id": "Relief Eleusis menggambarkan Persephone di sisi kanan sebagai putri Demeter.",
           "quote": "At the right is Persephone, her daughter and the wife of Hades, the god of the underworld.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260422173120id_/https://www.metmuseum.org/art/collection/search/248899",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         }
       ],
       "images": []

@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-032",
-  "checked_at": "2026-09-29T18:37:20.106Z",
+  "checked_at": "2026-09-30T02:32:47.017Z",
   "files": [
     "batch-032.md",
     "batch-032-fix-1.md"
@@ -292,11 +292,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target rich: 8 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "4 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -318,8 +313,9 @@
           "statement_id": "Motif sphinx berasal dari Mesir dan dikenal di Mediterania timur sejak Zaman Perunggu.",
           "quote": "The sphinx, a mythological creature with a lion's body and a human head, originated in Egypt and has been known throughout the eastern Mediterranean since the Bronze Age.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250927034930id_/https://www.metmuseum.org/exhibitions/listings/2018/dangerous-beauty/exhibition-gallery",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "sphinx-c03",
@@ -329,8 +325,9 @@
           "statement_id": "Orang Yunani menggambarkannya sebagai singa betina bersayap dan berkepala perempuan.",
           "quote": "The Greeks represented the sphinx as a winged lioness with a woman's head.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250927034930id_/https://www.metmuseum.org/exhibitions/listings/2018/dangerous-beauty/exhibition-gallery",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "sphinx-c04",
@@ -350,8 +347,9 @@
           "statement_id": "Arca sphinx ditempatkan di makam sebagai penjaga dari pengganggu orang mati.",
           "quote": "Statues of sphinxes flanked the entrance of tombs or crowned grave markers, guarding against and punishing those who would disturb the dead.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250927034930id_/https://www.metmuseum.org/exhibitions/listings/2018/dangerous-beauty/exhibition-gallery",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "sphinx-c06",
@@ -381,8 +379,9 @@
           "statement_id": "Teka-teki Sphinx menanyakan makhluk bersuara satu yang berjalan dengan empat, dua, dan tiga kaki.",
           "quote": "The most famous sphinx plagued the city of Thebes, devouring anyone who gave the wrong answer to her riddle: what is that which has one voice and yet becomes four-footed, two-footed, and three-footed?",
           "context": "traditional-belief",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250927034930id_/https://www.metmuseum.org/exhibitions/listings/2018/dangerous-beauty/exhibition-gallery",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         }
       ],
       "images": []

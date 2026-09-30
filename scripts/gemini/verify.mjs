@@ -12,7 +12,7 @@
  *
  * Usage: node scripts/gemini/verify.mjs batch-001 [--refresh]
  */
-import { readFile, writeFile, mkdir, readdir, stat } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
@@ -112,9 +112,10 @@ async function readSubmission() {
   const files = [];
   for (const name of await readdir(dir).catch(() => [])) {
     if (!name.startsWith(batchId) || !/\.(md|json|txt)$/.test(name)) continue;
-    files.push({ name, mtime: (await stat(join(dir, name))).mtimeMs });
+    // Base file first, then fix-1, fix-2, …; mtime is useless after a git checkout, which gives every file the same time.
+    files.push({ name, round: Number(name.match(/-fix-(\d+)\./)?.[1] || 0) });
   }
-  files.sort((a, b) => a.mtime - b.mtime || a.name.localeCompare(b.name));
+  files.sort((a, b) => a.round - b.round || a.name.localeCompare(b.name));
   const entries = new Map();
   const problems = [];
   for (const { name } of files) {
@@ -151,34 +152,16 @@ async function loadPage(url) {
     if (!REFRESH) {
       try {
         const cached = JSON.parse(await readFile(file, 'utf8'));
-        if (!(isWikipedia(url) && cached.status === 200 && !cached.wiki_sections)) return cached;
+        const stale = (isWikipedia(url) && cached.status === 200 && !cached.wiki_sections) || (pageProblem(cached) && !cached.archive_tried);
+        if (!stale) return cached;
       } catch {}
     }
-    const page = { url, fetched_at: new Date().toISOString() };
-    try {
-      const res = await fetch(url, {
-        redirect: 'follow',
-        signal: AbortSignal.timeout(30000),
-        headers: { 'User-Agent': UA, Accept: 'text/html,application/xhtml+xml,application/pdf;q=0.9,*/*;q=0.8', 'Accept-Language': 'en,id;q=0.9' }
-      });
-      page.status = res.status;
-      page.final_url = res.url;
-      page.content_type = res.headers.get('content-type') || '';
-      if (res.ok) {
-        if (/pdf/i.test(page.content_type) || /\.pdf($|\?)/i.test(res.url)) {
-          const pdf = join(CACHE, 'pages', `${hash(url)}.pdf`);
-          await mkdir(join(CACHE, 'pages'), { recursive: true });
-          await writeFile(pdf, Buffer.from(await res.arrayBuffer()));
-          const { stdout } = await promisify(execFile)('pdftotext', ['-q', '-enc', 'UTF-8', pdf, '-'], { maxBuffer: 64 * 1024 * 1024 });
-          page.text = stdout.replace(/(\p{L})-\n(\p{L})/gu, '$1$2');
-        } else {
-          const html = await res.text();
-          page.text = htmlToText(html);
-          if (isWikipedia(url)) page.wiki_sections = wikiSections(html);
-        }
-      }
-    } catch (err) {
-      page.error = err.name === 'TimeoutError' ? 'timeout' : err.message;
+    let page = await fetchPage(url);
+    // Museums and publishers (The Met, UCL, Smithsonian …) often answer bots with 403/429; read the page from the Wayback Machine instead.
+    if (pageProblem(page)) {
+      const archived = await archivedCopy(url);
+      page = archived && !pageProblem(archived) ? { ...archived, url, archive_url: archived.url, direct_problem: pageProblem(page) } : page;
+      page.archive_tried = true;
     }
     await mkdir(join(CACHE, 'pages'), { recursive: true });
     await writeFile(file, JSON.stringify(page));
@@ -186,6 +169,46 @@ async function loadPage(url) {
   })();
   pageCache.set(url, promise);
   return promise;
+}
+async function archivedCopy(url) {
+  try {
+    const res = await fetch(`https://archive.org/wayback/available?url=${encodeURIComponent(url)}`, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(30000) });
+    const snapshot = (await res.json())?.archived_snapshots?.closest;
+    if (!snapshot?.available || !snapshot.url) return null;
+    // The id_ flag returns the page as archived, without the Wayback toolbar.
+    return fetchPage(snapshot.url.replace(/^http:/, 'https:').replace(/\/web\/(\d+)\//, '/web/$1id_/'));
+  } catch {
+    return null;
+  }
+}
+async function fetchPage(url) {
+  const page = { url, fetched_at: new Date().toISOString() };
+  try {
+    const res = await fetch(url, {
+      redirect: 'follow',
+      signal: AbortSignal.timeout(30000),
+      headers: { 'User-Agent': UA, Accept: 'text/html,application/xhtml+xml,application/pdf;q=0.9,*/*;q=0.8', 'Accept-Language': 'en,id;q=0.9' }
+    });
+    page.status = res.status;
+    page.final_url = res.url;
+    page.content_type = res.headers.get('content-type') || '';
+    if (res.ok) {
+      if (/pdf/i.test(page.content_type) || /\.pdf($|\?)/i.test(res.url)) {
+        const pdf = join(CACHE, 'pages', `${hash(url)}.pdf`);
+        await mkdir(join(CACHE, 'pages'), { recursive: true });
+        await writeFile(pdf, Buffer.from(await res.arrayBuffer()));
+        const { stdout } = await promisify(execFile)('pdftotext', ['-q', '-enc', 'UTF-8', pdf, '-'], { maxBuffer: 64 * 1024 * 1024 });
+        page.text = stdout.replace(/(\p{L})-\n(\p{L})/gu, '$1$2');
+      } else {
+        const html = await res.text();
+        page.text = htmlToText(html);
+        if (isWikipedia(url)) page.wiki_sections = wikiSections(html);
+      }
+    }
+  } catch (err) {
+    page.error = err.name === 'TimeoutError' ? 'timeout' : err.message;
+  }
+  return page;
 }
 const isWikipedia = url => {
   try {
@@ -570,6 +593,16 @@ async function checkQuotes(entry, ctx, issues) {
     const match = findQuote(c.quote, page);
     row.status = match.status;
     if (match.coverage !== undefined) row.detail = `${match.coverage}% potongan 5 kata cocok`;
+    if (page.archive_url) {
+      row.archive_url = page.archive_url;
+      // An old snapshot may predate the text that was quoted, so a miss there is not proof of a bad quote.
+      if (['partial', 'missing'].includes(match.status)) {
+        row.status = 'unreachable';
+        row.detail = `${page.direct_problem}; arsip Wayback tidak memuat kutipan`;
+        continue;
+      }
+      row.detail = `${page.direct_problem}; dicek lewat arsip Wayback`;
+    }
     if (match.status === 'partial') {
       if (DYNAMIC_HOST.test(host)) row.status = 'unreachable';
       else issues.push({ level: 'error', where: `claims (${c.id})`, message: `Kutipan tidak persis sama dengan teks di ${source.url} (hanya ${match.coverage}% cocok). Buka lagi halamannya dan salin ulang kutipannya kata per kata.` });

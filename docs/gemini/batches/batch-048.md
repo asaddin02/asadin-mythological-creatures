@@ -1,67 +1,85 @@
-# Batch batch-048
+# Batch batch-048 — Nusantara & Asia Tenggara
 
 Ikuti seluruh "MYTHICS — Instruksi Riset untuk Gemini (versi 3)" di `docs/gemini/00-instruksi-utama.md`.
 
 - `batch_id`: `batch-048`
-- Jumlah makhluk: 5
-- `task` `enrich`: Entri sekarang hanya berisi ringkasan pengantar dari Wikipedia. Tulis entri lengkap berdasarkan riset baru; sumber Wikipedia yang ditandai "terverifikasi" boleh dipakai, dengan kutipan dari halamannya.
+- Jumlah makhluk: 10
 - `task` `new`: Makhluk ini belum ada di Mythics. Identitasnya diambil dari Wikidata dan punya minimal satu artikel Wikipedia. Pastikan dulu bahwa ini memang makhluk mitologi, cerita rakyat, atau agama tradisional (§12); kalau bukan, kirim entri skip.
 
 ## Daftar makhluk
 
-### 1. `orion-mythology` — Orion (mythology) (task `enrich`, tier `rich`)
+### 1. `antaboga` — Antaboga (task `new`, tier `core`)
 - **Jenis: dewa** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
-- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q201261 — deskripsi Wikidata: "giant huntsman in Greek mythology"; kelas Wikidata: Greek deity.
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q4770881 — deskripsi Wikidata: "serpent deity in Javanism and Sundanism"; kelas Wikidata: mythical creature.
 - Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
-  - en: https://en.wikipedia.org/wiki/Orion_(mythology)
-  - id: https://id.wikipedia.org/wiki/Orion_(mitologi)
-  - ja: https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%AA%E3%83%BC%E3%83%B3
-  - zh: https://zh.wikipedia.org/wiki/%E4%BF%84%E9%87%8C%E7%BF%81
-- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `giant`, budaya `greek-mythology`, wilayah "Europe".
-- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
-  - Wikipedia (en): https://en.wikipedia.org/wiki/Orion_(mythology)
-  - Wikipedia (id): https://id.wikipedia.org/wiki/Orion_(mitologi)
+  - en: https://en.wikipedia.org/wiki/Antaboga
+  - id: https://id.wikipedia.org/wiki/Antaboga
+  - ru: https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D1%82%D0%B0%D0%B1%D0%BE%D0%B3%D0%B0
+  - hi: https://hi.wikipedia.org/wiki/%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%AC%E0%A5%8B%E0%A4%97%E0%A4%BE
 
-### 2. `satyr` — Satyr (task `enrich`, tier `rich`)
-- **Jenis: roh** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
-- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q163709 — deskripsi Wikidata: "goat-like male companions of Pan and Dionysus, in Greek mythology"; kelas Wikidata: mythical humanoid race.
+### 2. `kala-rau` — Kala Rau (task `new`, tier `core`)
+- **Jenis: iblis/setan** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q2759722 — kelas Wikidata: demon.
 - Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
-  - en: https://en.wikipedia.org/wiki/Satyr
-  - id: https://id.wikipedia.org/wiki/Satir
-  - ja: https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%86%E3%83%A5%E3%83%AD%E3%82%B9
-  - zh: https://zh.wikipedia.org/wiki/%E8%96%A9%E5%A0%A4%E7%88%BE
-- Petunjuk identitas dari entri lama (boleh dikoreksi bila sumber berkata lain): klasifikasi `spirit`, budaya `greek-mythology`, wilayah "Europe".
-- Sumber terverifikasi (halamannya benar-benar ada; boleh dipakai dengan kutipan dari halaman itu):
-  - Wikipedia (en): https://en.wikipedia.org/wiki/Satyr
-  - Wikipedia (id): https://id.wikipedia.org/wiki/Satir
+  - id: https://id.wikipedia.org/wiki/Kala_Rau
+  - ban: https://ban.wikipedia.org/wiki/Kala_Rau
+  - fy: https://fy.wikipedia.org/wiki/Kala_Rau
+  - nl: https://nl.wikipedia.org/wiki/Kala_Rau
 
-### 3. `leto` — Leto (task `new`, tier `rich`)
-- **Jenis: dewa** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
-- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q103107 — deskripsi Wikidata: "Greek mythological figure and mother of Apollo and Artemis"; kelas Wikidata: titan.
+### 3. `naga-seri-gumum` — Naga Seri Gumum (task `new`, tier `core`)
+- **Jenis: naga/ular mitos** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q6958294 — deskripsi Wikidata: "legendary giant serpent"; kelas Wikidata: mythological serpent.
 - Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
-  - en: https://en.wikipedia.org/wiki/Leto
-  - id: https://id.wikipedia.org/wiki/Leto
-  - ja: https://ja.wikipedia.org/wiki/%E3%83%AC%E3%83%BC%E3%83%88%E3%83%BC
-  - zh: https://zh.wikipedia.org/wiki/%E5%8B%92%E6%89%98
+  - en: https://en.wikipedia.org/wiki/Seri_Gumum_Dragon
+  - ms: https://ms.wikipedia.org/wiki/Naga_Seri_Gumum
+  - as: https://as.wikipedia.org/wiki/%E0%A6%9B%E0%A7%87%E0%A7%B0%E0%A6%BF_%E0%A6%97%E0%A7%81%E0%A6%AE%E0%A7%81%E0%A6%AE_%E0%A6%A1%E0%A7%8D%E0%A7%B0%E0%A7%87%E0%A6%97%E0%A6%A8
+  - uk: https://uk.wikipedia.org/wiki/%D0%94%D1%80%D0%B0%D0%BA%D0%BE%D0%BD_%D0%A1%D0%B5%D1%80%D1%96-%D2%90%D1%83%D0%BC%D1%83%D0%BC
 
-### 4. `pan` — Pan (task `new`, tier `rich`)
-- **Jenis: dewa** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
-- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q132582 — deskripsi Wikidata: "Greek god of the mountain wilds, shepherds, flocks, rustic music, fertility, spring, and theatrical criticism, with the hindquarters, legs, and horns of a goat"; kelas Wikidata: Greek deity, nature deity.
+### 4. `orang-bati` — Orang-bati (task `new`, tier `core`)
+- **Jenis: makhluk legenda** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q3884325 — kelas Wikidata: mythical creature.
 - Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
-  - en: https://en.wikipedia.org/wiki/Pan_(god)
-  - id: https://id.wikipedia.org/wiki/Pan
-  - ja: https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%BC%E3%83%B3_(%E3%82%AE%E3%83%AA%E3%82%B7%E3%82%A2%E7%A5%9E%E8%A9%B1)
-  - zh: https://zh.wikipedia.org/wiki/%E6%BD%98%E7%A5%9E
+  - id: https://id.wikipedia.org/wiki/Orang_Bati_(makhluk_mitologis)
+  - ja: https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%BB%E3%83%90%E3%83%83%E3%83%81
+  - zh: https://zh.wikipedia.org/wiki/%E6%AC%A7%E8%AE%A9%E5%B7%B4%E6%8F%90
+  - it: https://it.wikipedia.org/wiki/Orang-bati
 
-### 5. `ptah` — Ptah (task `new`, tier `rich`)
-- **Jenis: dewa** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
-- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q146321 — deskripsi Wikidata: "ancient Egyptian deity"; kelas Wikidata: Ancient Egyptian deity, creator deity.
+### 5. `bijuu` — Bijuu (task `new`, tier `core`)
+- **Jenis: makhluk legenda** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q107289451 — kelas Wikidata: mythical creature.
 - Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
-  - en: https://en.wikipedia.org/wiki/Ptah
-  - id: https://id.wikipedia.org/wiki/Ptah
-  - ja: https://ja.wikipedia.org/wiki/%E3%83%97%E3%82%BF%E3%83%8F
-  - zh: https://zh.wikipedia.org/wiki/%E5%8D%9C%E5%A1%94
+  - ms: https://ms.wikipedia.org/wiki/Bijuu
+
+### 6. `kuda-sembrani` — Kuda Sembrani (task `new`, tier `core`)
+- **Jenis: hewan mitos** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q19728042 — kelas Wikidata: winged horse, mythological horse.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - id: https://id.wikipedia.org/wiki/Kuda_Sembrani
+
+### 7. `long-ghost` — Long Ghost (task `new`, tier `core`)
+- **Jenis: hantu** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q139037616 — deskripsi Wikidata: "a ghost with a tall, black shadow-like body, often but not always appearing in the form of man"; kelas Wikidata: mythical creature, ghost, monster, urban legend.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - id: https://id.wikipedia.org/wiki/Hantu_Longga
+
+### 8. `rihawana` — rihawana (task `new`, tier `core`)
+- **Jenis: makhluk legenda** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q25652601 — kelas Wikidata: mythical creature.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - pam: https://pam.wikipedia.org/wiki/Rihawani
+
+### 9. `tambaluslos` — tambaluslos (task `new`, tier `core`)
+- **Jenis: makhluk legenda** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q25663424 — kelas Wikidata: mythical creature.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - bcl: https://bcl.wikipedia.org/wiki/Tambaloslos
+
+### 10. `wd-q60164866` — ฉัททันตหัตถี (task `new`, tier `core`)
+- **Jenis: hewan mitos** (dugaan awal dari kelas/deskripsi Wikidata; pastikan dengan sumber, isi `jenis` dan `classification` sesuai temuanmu).
+- Wikidata (hanya untuk identitas, bukan sumber klaim): https://www.wikidata.org/wiki/Q60164866 — kelas Wikidata: mythical animal.
+- Artikel Wikipedia tentang makhluk ini (titik awal; ingat §11.2):
+  - th: https://th.wikipedia.org/wiki/%E0%B8%89%E0%B8%B1%E0%B8%97%E0%B8%97%E0%B8%B1%E0%B8%99%E0%B8%95%E0%B8%AB%E0%B8%B1%E0%B8%95%E0%B8%96%E0%B8%B5
 
 ## Cara menjawab
 
-Kerjakan berurutan mulai dari `orion-mythology`, sesuai §10: satu blok ```json per makhluk, ditulis ke `data/gemini/inbox/batch-048.md` (mode agen) atau dikirim sebagai jawaban (mode chat).
+Kerjakan berurutan mulai dari `antaboga`, sesuai §10: satu blok ```json per makhluk, ditulis ke `data/gemini/inbox/batch-048.md` (mode agen) atau dikirim sebagai jawaban (mode chat).

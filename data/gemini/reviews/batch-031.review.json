@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-031",
-  "checked_at": "2026-09-29T18:30:32.787Z",
+  "checked_at": "2026-09-30T02:32:20.071Z",
   "files": [
     "batch-031.md",
     "batch-031-fix-1.md"
@@ -22,11 +22,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target rich: 7 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -88,8 +83,9 @@
           "statement_id": "Kamalamika adalah bentuk tantra Lakshmi.",
           "quote": "The beautiful and benign goddess Kamalamika, the “[red] lotus lady,” is a tantric form of Lakshmi, Hinduism’s embodiment of all that is auspicious and abundant.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260613183053id_/https://www.metmuseum.org/art/collection/search/849494",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "lakshmi-c07",
@@ -99,8 +95,9 @@
           "statement_id": "Sebagai Gaja-Lakshmi, ia kerap digambarkan dimandikan gajah surgawi.",
           "quote": "As the goddess of wealth and prosperity, Lakshmi is most often depicted being lustrated by heavenly elephants where she is known as Gaja-Lakshmi.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260613183053id_/https://www.metmuseum.org/art/collection/search/849494",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         }
       ],
       "images": []
@@ -123,7 +120,7 @@
         {
           "level": "manual",
           "where": "claims",
-          "message": "3 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+          "message": "3 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429; arsip Wayback tidak memuat kutipan)."
         }
       ],
       "claims": [
@@ -186,7 +183,8 @@
           "quote": "Her attributes—the vina (a symbol of music and the arts), palm-sized manuscript (a symbol of learning), and rosary (a symbol of religious rites)—denote her role as a goddess of knowledge.",
           "context": "scholarly-interpretation",
           "status": "unreachable",
-          "detail": "HTTP 429"
+          "detail": "HTTP 429; arsip Wayback tidak memuat kutipan",
+          "archive_url": "https://web.archive.org/web/20250223024928id_/https://www.metmuseum.org/art/collection/search/78265"
         },
         {
           "id": "saraswati-c07",
@@ -197,7 +195,8 @@
           "quote": "Saraswati is conventionally accompanied by a swan, but a peacock stands beside her here, enchanted by the divine music she creates.",
           "context": "historical-record",
           "status": "unreachable",
-          "detail": "HTTP 429"
+          "detail": "HTTP 429; arsip Wayback tidak memuat kutipan",
+          "archive_url": "https://web.archive.org/web/20250223024928id_/https://www.metmuseum.org/art/collection/search/78265"
         },
         {
           "id": "saraswati-c08",
@@ -208,7 +207,8 @@
           "quote": "Originally associated with an ancient lost river that bore her name, Saraswati increasingly came to be celebrated as the goddess of all waters and their life-giving and purifying powers.",
           "context": "scholarly-interpretation",
           "status": "unreachable",
-          "detail": "HTTP 429"
+          "detail": "HTTP 429; arsip Wayback tidak memuat kutipan",
+          "archive_url": "https://web.archive.org/web/20250223024928id_/https://www.metmuseum.org/art/collection/search/78265"
         }
       ],
       "images": []
@@ -227,11 +227,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target rich: 8 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "5 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -273,8 +268,9 @@
           "statement_id": "Sebagai raja awal mitis Mesir, Osiris memerintah bersama Isis sebelum dibunuh Seth.",
           "quote": "A mythical early king of Egypt, this god ruled with his sister-wife, Isis, until he was murdered by their jealous brother, Seth.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20251116151512id_/https://www.metmuseum.org/exhibitions/listings/2018/nedjemankh-gilded-coffin/exhibition-gallery",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "osiris-c05",
@@ -284,8 +280,9 @@
           "statement_id": "Dalam bentuk mumi, Osiris turun ke dunia bawah.",
           "quote": "In the form of a mummy, he descended to the underworld, which was imagined to be entered from the west, the land of the setting sun.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20251116151512id_/https://www.metmuseum.org/exhibitions/listings/2018/nedjemankh-gilded-coffin/exhibition-gallery",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "osiris-c06",
@@ -295,8 +292,9 @@
           "statement_id": "Di alam baka, Osiris bergabung dengan Re setiap malam.",
           "quote": "There, he lived on forever as lord of the afterlife, merging with the sun god Re each night to enable the sun's rebirth and his own eternal survival.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20251116151512id_/https://www.metmuseum.org/exhibitions/listings/2018/nedjemankh-gilded-coffin/exhibition-gallery",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "osiris-c07",
@@ -306,8 +304,9 @@
           "statement_id": "Sebuah arca menggambarkan Osiris terbungkus kain kafan dengan hanya kepala dan tangan terlihat.",
           "quote": "Osiris, ruler of the Netherworld, is shown here in his traditional form, wrapped in an enveloping shroud from which only his head and hands emerge.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20220218213242id_/https://www.metmuseum.org/art/collection/search/329771",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "osiris-c08",
@@ -317,8 +316,9 @@
           "statement_id": "Tangannya memegang tongkat penggembala dan cambuk, lambang kerajaan.",
           "quote": "These hold the crook and flail, symbols of kingship.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20220218213242id_/https://www.metmuseum.org/art/collection/search/329771",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         }
       ],
       "images": []
@@ -337,11 +337,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target rich: 8 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "3 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -393,8 +388,9 @@
           "statement_id": "Dalam adegan pengadilan, Anubis berkepala jakal menimbang hati.",
           "quote": "At the culmination of this ceremony, the heart, seen as the center of intelligence and emotion, was weighed against a squatting figure of the goddess Ma’at by the jackal-headed god of embalming, Anubis.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260617221344id_/https://www.metmuseum.org/art/collection/search/557657",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "anubis-c06",
@@ -404,8 +400,9 @@
           "statement_id": "Seniman menggambarkan Anubis berkepala jakal, dan sebuah arca menampilkannya sebagai jakal sepenuhnya.",
           "quote": "Artists represented the Egyptian god of mummification, named Anubis, with a jackal’s head. This statue shows Anubis completely in animal form, as a jackal.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260210212559id_/https://www.metmuseum.org/art/collection/search/544075",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "anubis-c07",
@@ -415,8 +412,9 @@
           "statement_id": "Para imam pembalsem kadang mengenakan topeng berbentuk kepala Anubis.",
           "quote": "The priests who embalmed bodies sometimes wore masks shaped like the head of Anubis.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260210212559id_/https://www.metmuseum.org/art/collection/search/544075",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "anubis-c08",

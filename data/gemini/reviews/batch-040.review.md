@@ -1,14 +1,14 @@
 # Review batch-040
 
-Diperiksa 2026-09-30T00:32:06.412Z. Berkas: batch-040.md, batch-040-fix-1.md.
+Diperiksa 2026-09-30T02:35:00.461Z. Berkas: batch-040.md, batch-040-fix-1.md.
 
 ## agni — lulus-otomatis
 
-Klaim 14 (exact 10, unreachable 4), sumber 3, gambar 0.
+Klaim 14 (exact 13, unreachable 1), sumber 3, gambar 0.
 
 **manual**
 - `tier` Di bawah target rich: 14 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 4 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429); sacred-texts.com (HTTP 403).
+- `claims` 1 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -23,17 +23,17 @@ Klaim 14 (exact 10, unreachable 4), sumber 3, gambar 0.
 | agni-c09 | exact | www.worldhistory.org | Agni's two heads symbolize domestic and sacrificial fire. | His two heads, which spout flames, are symbolic of his association with two types of fire: the domestic hearth and the sacrificial fire. |
 | agni-c10 | exact | www.worldhistory.org | Agni guards the southeast direction. | Agni protects the south-east quarter, Purajyotisa. |
 | agni-c11 | unreachable (HTTP 429) | www.metmuseum.org | The museum places Agni among deities praised in the Vedic hymns. | and Agni, the god of fire. The religion known today as Hinduism has its roots in these ancient texts. |
-| agni-c12 | unreachable (HTTP 403) | sacred-texts.com | The first Rig Veda hymn praises Agni as priest and minister of sacrifice. | 1 I Laud Agni, the chosen Priest, God, minister of sacrifice, |
-| agni-c13 | unreachable (HTTP 403) | sacred-texts.com | The hymn calls Agni worthy of praise by living people and ancient seers. | 2 Worthy is Agni to be praised by living as by ancient seers. |
-| agni-c14 | unreachable (HTTP 403) | sacred-texts.com | The hymn calls Agni ruler of sacrifices and guardian of eternal law. | 8 Ruler of sacrifices, guard of Law eternal, radiant One, |
+| agni-c12 | exact (HTTP 403; dicek lewat arsip Wayback) | sacred-texts.com | The first Rig Veda hymn praises Agni as priest and minister of sacrifice. | 1 I Laud Agni, the chosen Priest, God, minister of sacrifice, |
+| agni-c13 | exact (HTTP 403; dicek lewat arsip Wayback) | sacred-texts.com | The hymn calls Agni worthy of praise by living people and ancient seers. | 2 Worthy is Agni to be praised by living as by ancient seers. |
+| agni-c14 | exact (HTTP 403; dicek lewat arsip Wayback) | sacred-texts.com | The hymn calls Agni ruler of sacrifices and guardian of eternal law. | 8 Ruler of sacrifices, guard of Law eternal, radiant One, |
 
 
 ## hathor — lulus-otomatis
 
-Klaim 15 (exact 10, unreachable 5), sumber 3, gambar 0.
+Klaim 15 (exact 12, unreachable 3), sumber 3, gambar 0.
 
 **manual**
-- `claims` 5 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
+- `claims` 3 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -47,8 +47,8 @@ Klaim 15 (exact 10, unreachable 5), sumber 3, gambar 0.
 | hathor-c08 | exact | www.worldhistory.org | After becoming drunk and sleeping, she wakes as benevolent Hathor. | She becomes drunk, falls asleep, and wakes up as Hathor the benevolent. |
 | hathor-c09 | exact | www.worldhistory.org | Hathor's cult center was at Dendera, but she was worshipped across Egypt. | Hathor's cult center was at Dendera, Egypt, but she was widely regarded and worshipped throughout Egypt. |
 | hathor-c10 | exact | www.worldhistory.org | Early Hathor worship used a cow form, sometimes with stars above her. | Hathor was, in early times, worshipped in the form of a cow or as a cow with stars above her. |
-| hathor-c11 | unreachable (HTTP 429) | www.metmuseum.org | A metal plaque depicts Hathor as a cow with a sun disk between its horns. | This metal plaque depicts a cow with a sundisk between its horns, which is a common representation of the goddess Hathor. |
-| hathor-c12 | unreachable (HTTP 429) | www.metmuseum.org | The plaque was excavated near a Hathor shrine at Deir el-Bahari. | The piece was excavated at Deir el-Bahari, close to a shrine for this goddess. |
+| hathor-c11 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | A metal plaque depicts Hathor as a cow with a sun disk between its horns. | This metal plaque depicts a cow with a sundisk between its horns, which is a common representation of the goddess Hathor. |
+| hathor-c12 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | The plaque was excavated near a Hathor shrine at Deir el-Bahari. | The piece was excavated at Deir el-Bahari, close to a shrine for this goddess. |
 | hathor-c13 | unreachable (HTTP 429) | www.metmuseum.org | Hathor was said to protect and nurse infant Horus and was worshipped in the Shaking of the Papyrus ritual. | Horus was protected and nursed while a baby by the goddess Hathor, who was worshipped in the ritual of the Shaking of the Papyrus. |
 | hathor-c14 | unreachable (HTTP 429) | www.metmuseum.org | Sistrum and menat were rattled in Hathor's cult to evoke rustling papyrus. | Hathor’s primary cult instruments, the sistrum (68.44) and the menat (11.215.450), were rattled to produce a comparable rustling sound and evoke this mythical environment. |
 | hathor-c15 | unreachable (HTTP 429) | www.metmuseum.org | Hathor is also shown as a cow emerging from a papyrus thicket. | this goddess is shown in the form of a cow emerging from the papyrus thicket |
@@ -107,11 +107,10 @@ Klaim 13 (exact 12, unreachable 1), sumber 3, gambar 0.
 
 ## selene — lulus-otomatis
 
-Klaim 14 (exact 12, unreachable 2), sumber 3, gambar 0.
+Klaim 14 (exact 14), sumber 3, gambar 0.
 
 **manual**
 - `tier` Di bawah target rich: 14 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -127,6 +126,6 @@ Klaim 14 (exact 12, unreachable 2), sumber 3, gambar 0.
 | selene-c10 | exact | www.worldhistory.org | Other sources say Endymion chose the perpetual sleep himself. | Other sources state that Endymion chose it for himself |
 | selene-c11 | exact | www.theoi.com | Theoi calls Selene the Titan moon goddess. | SELENE was the Titan goddess of the moon. |
 | selene-c12 | exact | www.theoi.com | Selene's crescent can appear as a crown or the fold of a raised shining cloak. | Her lunar sphere or crescent was either a crown set upon her head or the fold of a raised, shining cloak. |
-| selene-c13 | unreachable (HTTP 429) | www.metmuseum.org | A Roman sarcophagus shows Selene leaving her chariot to visit the reclining Endymion. | In the center, Selene, the moon goddess, alights from her chariot to visit her beloved, the shepherd Endymion, who reclines at the right. |
-| selene-c14 | unreachable (HTTP 429) | www.metmuseum.org | The Endymion story is carved on the front of the sarcophagus. | The story of Endymion is shown in strongly undercut relief on the front of the sarcophagus. |
+| selene-c13 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | A Roman sarcophagus shows Selene leaving her chariot to visit the reclining Endymion. | In the center, Selene, the moon goddess, alights from her chariot to visit her beloved, the shepherd Endymion, who reclines at the right. |
+| selene-c14 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | The Endymion story is carved on the front of the sarcophagus. | The story of Endymion is shown in strongly undercut relief on the front of the sarcophagus. |
 

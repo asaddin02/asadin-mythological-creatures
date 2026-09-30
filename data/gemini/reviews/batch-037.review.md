@@ -1,6 +1,6 @@
 # Review batch-037
 
-Diperiksa 2026-09-29T19:03:42.911Z. Berkas: batch-037.md, batch-037-fix-1.md.
+Diperiksa 2026-09-30T02:34:15.519Z. Berkas: batch-037.md, batch-037-fix-1.md.
 
 ## atlas — lulus-otomatis
 
@@ -65,11 +65,10 @@ Klaim 9 (exact 9), sumber 3, gambar 0.
 
 ## griffin — lulus-otomatis
 
-Klaim 9 (exact 5, unreachable 4), sumber 3, gambar 0.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 **manual**
 - `tier` Di bawah target rich: 9 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 4 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -77,10 +76,10 @@ Klaim 9 (exact 5, unreachable 4), sumber 3, gambar 0.
 | griffin-c02 | exact | www.theoi.com | In Greek accounts, griffins guarded gold in the mountains of Scythia. | A tribe of the creatures guarded rich deposits of gold in the mountains of Skythia (Scythia) in north-eastern Europe. |
 | griffin-c03 | exact | www.theoi.com | The one-eyed Arimaspians were said to fight griffins for gold. | Their one-eyed neighbours, the Arimaspians, battled them for these riches. |
 | griffin-c04 | exact | www.theoi.com | Griffins appeared in ancient Greek art and later in medieval bestiaries and heraldry. | Decorative griffins were popular in ancient Greek art and later in medieval bestiaries and heraldry. |
-| griffin-c05 | unreachable (HTTP 429) | www.metmuseum.org | The griffin was a favored motif on ancient Greek bronze vessels. | The griffin—a fantastic beast with the body of a lion and the head of an eagle—and the sphinx—with a feline body and a human head—were favorite motifs |
-| griffin-c06 | unreachable (HTTP 429) | www.metmuseum.org | On a throne leg documented by the Met, the griffin served as a symbol of royalty. | The griffin on this throne leg exemplifies the use of powerful winged animals (real and imaginary) as symbols of royalty. |
-| griffin-c07 | unreachable (HTTP 429) | www.metmuseum.org | Griffin imagery appeared in Egyptian and Middle Eastern art around 3000 BCE. | The mythical beast’s long history stretches back to about 3000 B.C., when it appeared in the art of Egypt and the Middle East |
-| griffin-c08 | unreachable (HTTP 429) | www.metmuseum.org | In pre-Islamic Iran the griffin was understood as a vehicle of ascension. | In pre-Islamic Iran the griffin—a combination of lion and eagle, two animals associated with the sun—was seen as a vehicle of ascension |
+| griffin-c05 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | The griffin was a favored motif on ancient Greek bronze vessels. | The griffin—a fantastic beast with the body of a lion and the head of an eagle—and the sphinx—with a feline body and a human head—were favorite motifs |
+| griffin-c06 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | On a throne leg documented by the Met, the griffin served as a symbol of royalty. | The griffin on this throne leg exemplifies the use of powerful winged animals (real and imaginary) as symbols of royalty. |
+| griffin-c07 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Griffin imagery appeared in Egyptian and Middle Eastern art around 3000 BCE. | The mythical beast’s long history stretches back to about 3000 B.C., when it appeared in the art of Egypt and the Middle East |
+| griffin-c08 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | In pre-Islamic Iran the griffin was understood as a vehicle of ascension. | In pre-Islamic Iran the griffin—a combination of lion and eagle, two animals associated with the sun—was seen as a vehicle of ascension |
 | griffin-c09 | exact | www.theoi.com | Pausanias described griffins as lion-like beasts with eagle beaks and wings. | Grypas are beasts like lions, but with the beak and wings of an eagle. |
 
 

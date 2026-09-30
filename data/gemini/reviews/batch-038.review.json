@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-038",
-  "checked_at": "2026-09-29T19:09:42.283Z",
+  "checked_at": "2026-09-30T02:34:23.490Z",
   "files": [
     "batch-038.md",
     "batch-038-fix-1.md"
@@ -26,7 +26,7 @@
         {
           "level": "manual",
           "where": "claims",
-          "message": "11 kutipan tidak bisa dicek otomatis: www.ucl.ac.uk (HTTP 403); www.worldhistory.org (tidak bisa dibuka (timeout))."
+          "message": "8 kutipan tidak bisa dicek otomatis: www.ucl.ac.uk (HTTP 403)."
         }
       ],
       "claims": [
@@ -115,8 +115,7 @@
           "statement_id": "Sebelum reformasi Akhenaten, Aten merupakan dewa matahari yang lebih kecil dalam panteon Mesir.",
           "quote": "Aten was a minor solar deity who personified the light of the sun.",
           "context": "scholarly-interpretation",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (timeout)"
+          "status": "exact"
         },
         {
           "id": "aten-c09",
@@ -126,8 +125,7 @@
           "statement_id": "Setelah kematian Akhenaten, Tutankhamun memindahkan ibu kota dari Akhetaten.",
           "quote": "The city flourished until Akhenaten's death; afterwards, Tutankhamun moved the capital back to Memphis and then to Thebes.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (timeout)"
+          "status": "exact"
         },
         {
           "id": "aten-c10",
@@ -137,8 +135,7 @@
           "statement_id": "Tutankhamun memulai pemulihan praktik keagamaan Mesir terdahulu.",
           "quote": "Tutankhamun initiated the measures to reverse his father's policies and return Egypt to the former beliefs and practices",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (timeout)"
+          "status": "exact"
         },
         {
           "id": "aten-c11",
@@ -168,11 +165,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target rich: 10 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -264,8 +256,9 @@
           "statement_id": "Tempat suci Diana yang penting bagi orang Romawi terletak di Aricia dekat Danau Nemi.",
           "quote": "The most important sanctuary of Diana for the ancient Romans was located at Aricia, some eleven miles outside of Rome on the shore of lake Nemi",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260113010028id_/https://www.metmuseum.org/art/collection/search/258081",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "diana-c10",
@@ -275,8 +268,9 @@
           "statement_id": "Patung perunggu yang dicatat The Met menampilkan Artemis yang disebut Diana oleh orang Romawi.",
           "quote": "Artemis, known to the Romans as Diana, stands with her weight on her right leg, her left foot trailing.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260113010028id_/https://www.metmuseum.org/art/collection/search/258081",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         }
       ],
       "images": []

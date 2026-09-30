@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-037",
-  "checked_at": "2026-09-29T19:03:42.911Z",
+  "checked_at": "2026-09-30T02:34:15.519Z",
   "files": [
     "batch-037.md",
     "batch-037-fix-1.md"
@@ -362,11 +362,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target rich: 9 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "4 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -418,8 +413,9 @@
           "statement_id": "Griffin menjadi motif hias yang disukai pada perunggu Yunani kuno.",
           "quote": "The griffin—a fantastic beast with the body of a lion and the head of an eagle—and the sphinx—with a feline body and a human head—were favorite motifs",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260614192055id_/https://www.metmuseum.org/essays/ancient-greek-bronze-vessels",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "griffin-c06",
@@ -429,8 +425,9 @@
           "statement_id": "Pada kaki takhta yang dicatat The Met, griffin melambangkan kekuasaan kerajaan.",
           "quote": "The griffin on this throne leg exemplifies the use of powerful winged animals (real and imaginary) as symbols of royalty.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260420030018id_/https://www.metmuseum.org/art/collection/search/452270",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "griffin-c07",
@@ -440,8 +437,9 @@
           "statement_id": "Motif griffin telah muncul dalam seni Mesir dan Timur Tengah sekitar 3000 SM.",
           "quote": "The mythical beast’s long history stretches back to about 3000 B.C., when it appeared in the art of Egypt and the Middle East",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260420030018id_/https://www.metmuseum.org/art/collection/search/452270",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "griffin-c08",
@@ -451,8 +449,9 @@
           "statement_id": "Di Iran pra-Islam, griffin dipandang sebagai lambang kenaikan status.",
           "quote": "In pre-Islamic Iran the griffin—a combination of lion and eagle, two animals associated with the sun—was seen as a vehicle of ascension",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260420030018id_/https://www.metmuseum.org/art/collection/search/452270",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "griffin-c09",

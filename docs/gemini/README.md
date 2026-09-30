@@ -1,6 +1,6 @@
-# Alur riset Mythics dengan Gemini
+# Alur riset Mythics dengan agen AI
 
-Gemini mencari sumber dan menulis entri. Claude memeriksa hasilnya dan membuat prompt perbaikan sampai entri lulus. Setelah itu, Claude menggabungkan entri ke data aplikasi. Pengguna menjadi penghubung antara keduanya.
+Agen AI (Gemini, Codex, atau lainnya) mencari sumber dan menulis entri. Claude memeriksa hasilnya dan membuat prompt perbaikan sampai entri lulus. Setelah itu, Claude menggabungkan entri ke data aplikasi.
 
 ## Berkas
 
@@ -12,18 +12,24 @@ Gemini mencari sumber dan menulis entri. Claude memeriksa hasilnya dan membuat p
 | `data/gemini/inbox/batch-NNN*.md` | Jawaban Gemini, disalin apa adanya. |
 | `data/gemini/reviews/` | Laporan pemeriksaan. |
 
-## Mode agen: seluruh 5.000 makhluk sekaligus (disarankan)
+## Mode agen (disarankan)
 
-`npm run gemini:worklist` menyusun daftar kerja 5.000 makhluk (`data/gemini/worklist.json`) dari entri yang ada ditambah makhluk dari Wikidata, lengkap dengan **jenis**-nya (hantu, peri, dewa, iblis/setan, malaikat, orang suci, dan lain-lain), lalu memecahnya menjadi batch `batch-002` sampai `batch-537`.
+`npm run gemini:worklist` menyusun daftar kerja awal dari entri yang ada ditambah makhluk dari Wikidata, lengkap dengan **jenis**-nya. Sejak 2026-09-30, `npm run gemini:regroup` menyusun ulang batch yang belum dimulai menjadi batch berisi paling banyak 50 makhluk dari satu kelompok budaya (`batch-048` sampai `batch-152`), dan membuang duplikat serta item yang bukan makhluk (tercatat di `worklist.json` → `dropped`).
 
-Jalankan Gemini sebagai agen di folder repo, lalu tempel seluruh isi `docs/gemini/PROMPT-5000.md`:
+Beberapa agen bisa bekerja bersamaan, di komputer yang sama (dengan clone terpisah) atau berbeda. Semuanya memakai satu prompt, `docs/gemini/PROMPT-AGEN.md`:
 
 ```bash
 cd ~/Projects/asadin-mythological-creatures
-agy -i "$(cat docs/gemini/PROMPT-5000.md)"
+agy -i "$(cat docs/gemini/PROMPT-AGEN.md)"      # Gemini / Antigravity: --agent gemini --arah mundur
+codex "$(cat docs/gemini/PROMPT-AGEN.md)"        # Codex: --agent codex --arah maju
 ```
 
-Atau buka folder ini di Antigravity dan tempel prompt yang sama di panel agen. Agen menulis ke `data/gemini/inbox/`, menjalankan pemeriksa sendiri, memperbaiki kesalahannya, dan mencatat kemajuan di `data/gemini/progress.json`. Kalau sesi terputus atau kuota habis, jalankan prompt yang sama lagi; agen melanjutkan dari `progress.json`. `npm run gemini:status` menampilkan ringkasan kemajuan.
+Siklusnya per batch:
+1. `npm run gemini:next -- --agent <nama> --arah <maju|mundur>` mengambil batch berikutnya dan menulis `data/gemini/progress/<batch>.json` berstatus `dikerjakan`. Agen commit dan push klaim itu.
+2. Agen meneliti, menulis ke `data/gemini/inbox/`, menjalankan `npm run gemini:verify -- <batch>`, dan memperbaiki sampai 3 putaran.
+3. `npm run gemini:done -- <batch> --agent <nama>` mencatat hasil dari laporan pemeriksa dan mencetak pesan commit `... (sisa N batch)`. Agen commit dan push.
+
+Satu berkas progres per batch mencegah konflik git antaragen. `data/gemini/progress.json` hanya berisi batch 001–047 dan tidak ditulis lagi. `npm run gemini:status` menampilkan ringkasan kemajuan, termasuk batch yang sedang dikerjakan.
 
 ## Mode chat: satu batch (cadangan)
 

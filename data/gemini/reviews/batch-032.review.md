@@ -1,6 +1,6 @@
 # Review batch-032
 
-Diperiksa 2026-09-29T18:37:20.106Z. Berkas: batch-032.md, batch-032-fix-1.md.
+Diperiksa 2026-09-30T02:32:47.017Z. Berkas: batch-032.md, batch-032-fix-1.md.
 
 ## heracles — lulus-otomatis
 
@@ -58,22 +58,21 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## sphinx — lulus-otomatis
 
-Klaim 8 (exact 4, unreachable 4), sumber 3, gambar 0.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 **manual**
 - `tier` Di bawah target rich: 8 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 4 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | sphinx-c01 | exact | www.worldhistory.org | A sphinx is a mythical creature with a lion's body, usually a human head, and sometimes wings. | A sphinx is a mythical creature with the body of a lion, most often with a human head and sometimes with wings. |
-| sphinx-c02 | unreachable (HTTP 429) | www.metmuseum.org | The sphinx motif originated in Egypt and was known across the eastern Mediterranean in the Bronze Age. | The sphinx, a mythological creature with a lion's body and a human head, originated in Egypt and has been known throughout the eastern Mediterranean since the Bronze Age. |
-| sphinx-c03 | unreachable (HTTP 429) | www.metmuseum.org | Greek art portrayed the sphinx as a winged lioness with a woman's head. | The Greeks represented the sphinx as a winged lioness with a woman's head. |
+| sphinx-c02 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | The sphinx motif originated in Egypt and was known across the eastern Mediterranean in the Bronze Age. | The sphinx, a mythological creature with a lion's body and a human head, originated in Egypt and has been known throughout the eastern Mediterranean since the Bronze Age. |
+| sphinx-c03 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Greek art portrayed the sphinx as a winged lioness with a woman's head. | The Greeks represented the sphinx as a winged lioness with a woman's head. |
 | sphinx-c04 | exact | www.theoi.com | The Greek sphinx has a lion's body, woman's upper body, eagle wings, and sometimes a serpent tail. | THE SPHINX was a female monster with the body of a lion, the head and breast of a woman, eagle's wings and, according to some, a serpent's tail. |
-| sphinx-c05 | unreachable (HTTP 429) | www.metmuseum.org | Sphinx statues guarded tombs against disturbance. | Statues of sphinxes flanked the entrance of tombs or crowned grave markers, guarding against and punishing those who would disturb the dead. |
+| sphinx-c05 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Sphinx statues guarded tombs against disturbance. | Statues of sphinxes flanked the entrance of tombs or crowned grave markers, guarding against and punishing those who would disturb the dead. |
 | sphinx-c06 | exact | www.worldhistory.org | In the Theban myth, the sphinx devoured those who failed her riddle. | Anyone who dared to answer the riddle and failed to do so correctly was killed and devoured by the sphinx. |
 | sphinx-c07 | exact | www.worldhistory.org | Oedipus answered 'human' and the sphinx leapt to her death. | Oedipus took up the challenge and gave the correct answer —man— and in frustration and anger the sphinx leapt to her death from the acropolis of Thebes. |
-| sphinx-c08 | unreachable (HTTP 429) | www.metmuseum.org | The sphinx's riddle asks what has one voice and four, two, then three feet. | The most famous sphinx plagued the city of Thebes, devouring anyone who gave the wrong answer to her riddle: what is that which has one voice and yet becomes four-footed, two-footed, and three-footed? |
+| sphinx-c08 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | The sphinx's riddle asks what has one voice and four, two, then three feet. | The most famous sphinx plagued the city of Thebes, devouring anyone who gave the wrong answer to her riddle: what is that which has one voice and yet becomes four-footed, two-footed, and three-footed? |
 
 
 ## cronus — lulus-otomatis

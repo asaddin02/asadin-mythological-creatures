@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-033",
-  "checked_at": "2026-09-29T18:42:50.322Z",
+  "checked_at": "2026-09-30T02:33:00.908Z",
   "files": [
     "batch-033.md",
     "batch-033-fix-1.md"
@@ -22,11 +22,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -98,8 +93,9 @@
           "statement_id": "Elang dianggap perwujudan Horus, dewa langit dan kerajaan.",
           "quote": "According to Egyptian belief, the falcon was an incarnation of the sky god Horus, who was also the god of kingship.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260617033342id_/https://www.metmuseum.org/art/collection/search/544887",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "horus-c08",
@@ -109,8 +105,9 @@
           "statement_id": "Firaun Nectanebo II menonjolkan kedekatannya dengan Horus sebagai dewa kerajaan.",
           "quote": "The pharaoh Nectanebo II often invoked a very close connection–even a merging–between himself and the falcon god of kingship, Horus.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260617033342id_/https://www.metmuseum.org/art/collection/search/544887",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "horus-c09",
@@ -143,7 +140,7 @@
         {
           "level": "manual",
           "where": "claims",
-          "message": "8 kutipan tidak bisa dicek otomatis: academic.oup.com (HTTP 403); asia.si.edu (HTTP 403)."
+          "message": "4 kutipan tidak bisa dicek otomatis: academic.oup.com (HTTP 403)."
         }
       ],
       "claims": [
@@ -199,8 +196,9 @@
           "statement_id": "Smithsonian menggambarkan Parvati atau Uma sebagai dewi gunung dan kekuatan feminin ilahi.",
           "quote": "Hindu Goddess of the Mountain, also known as Uma; she is often seen as the feminine half of the god Shiva, and the divine feminine power of the universe (shakti).",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 403"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250708225441id_/https://asia.si.edu/whats-on/exhibitions/wisdom-of-the-goddess/",
+          "detail": "HTTP 403; dicek lewat arsip Wayback"
         },
         {
           "id": "parvati-c06",
@@ -210,8 +208,9 @@
           "statement_id": "Purana menceritakan Parvati ingin menikah dengan Siwa.",
           "quote": "The Puranas, literally the “old stories” of Hindu traditions, relate the narrative of the goddess Parvati, who aspired to marry the god Shiva.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 403"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250708225441id_/https://asia.si.edu/whats-on/exhibitions/wisdom-of-the-goddess/",
+          "detail": "HTTP 403; dicek lewat arsip Wayback"
         },
         {
           "id": "parvati-c07",
@@ -221,8 +220,9 @@
           "statement_id": "Parvati menjalani tapa berat untuk memperoleh kekuatan dan memikat Siwa yang sedang bertapa.",
           "quote": "Because Shiva could not easily be distracted from his yogic meditation, Parvati subjected herself to extreme acts of physical deprivation—such as meditating in cold water during the winter—to gain supernatural powers and win over the celibate god.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 403"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250708225441id_/https://asia.si.edu/whats-on/exhibitions/wisdom-of-the-goddess/",
+          "detail": "HTTP 403; dicek lewat arsip Wayback"
         },
         {
           "id": "parvati-c08",
@@ -252,8 +252,9 @@
           "statement_id": "Di India Selatan, Parvati juga dikenal sebagai Uma.",
           "quote": "In South India, where this sculpture was made, the Hindu goddess Parvati is known as Uma.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 403"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250708225441id_/https://asia.si.edu/whats-on/exhibitions/wisdom-of-the-goddess/",
+          "detail": "HTTP 403; dicek lewat arsip Wayback"
         }
       ],
       "images": []
@@ -276,7 +277,7 @@
         {
           "level": "manual",
           "where": "claims",
-          "message": "3 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -380,8 +381,9 @@
           "statement_id": "Tutankhamun memulihkan monumen Amun di Karnak yang rusak pada masa Akhenaten.",
           "quote": "The statue was certainly created for Karnak, Amun's great temple at Thebes, as part of Tutankhamun's restoration of the god's monuments that had been defaced or destroyed during the reign of Akhenaten.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260329040907id_/https://www.metmuseum.org/art/collection/search/544691",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         }
       ],
       "images": []
@@ -400,11 +402,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target rich: 8 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -456,8 +453,9 @@
           "statement_id": "Menurut The Met, sumber kuno sering menggambarkan entitas semacam ini tanpa pembagian moral yang tegas.",
           "quote": "Although they are often classified as either evil or protective in modern scholarship, supernatural beings in ancient references seem to be presented as largely amoral.",
           "context": "scholarly-interpretation",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260217093845id_/https://www.metmuseum.org/exhibitions/listings/2014/assyria-to-iberia/blog/posts/pazuzu",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "demon-c06",
@@ -467,8 +465,9 @@
           "statement_id": "Pazuzu dipakai sebagai pelindung dari Lamashtu, demon perempuan yang ditakuti ibu hamil dan bayi.",
           "quote": "Pazuzu, as a powerful demon, was frequently set up as a shield against another supernatural terror: Lamashtu, a female demon with broad and far-ranging destructive powers, especially feared by pregnant women and those with newborns, who were her favored (but not only) victims.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260217093845id_/https://www.metmuseum.org/exhibitions/listings/2014/assyria-to-iberia/blog/posts/pazuzu",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "demon-c07",

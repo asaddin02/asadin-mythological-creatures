@@ -1,87 +1,399 @@
 {
   "batch_id": "batch-090",
-  "created_at": "2026-09-29T08:31:11.811Z",
+  "created_at": "2026-09-30T03:03:04.382Z",
   "instructions_version": 3,
   "entries": [
     {
-      "slug": "ninurta",
-      "canonical_name": "Ninurta",
-      "task": "new",
-      "tier": "core",
-      "jenis": "dewa",
-      "qid": "Q726282"
-    },
-    {
-      "slug": "orthrus",
-      "canonical_name": "Orthrus",
-      "task": "new",
-      "tier": "core",
-      "jenis": "tokoh legenda",
-      "qid": "Q336230"
-    },
-    {
-      "slug": "pachamama",
-      "canonical_name": "Pachamama",
-      "task": "new",
-      "tier": "core",
-      "jenis": "dewa",
-      "qid": "Q266462"
-    },
-    {
-      "slug": "pleione",
-      "canonical_name": "Pleione",
-      "task": "new",
-      "tier": "core",
-      "jenis": "peri",
-      "qid": "Q463865"
-    },
-    {
-      "slug": "pomona",
-      "canonical_name": "Pomona",
-      "task": "new",
-      "tier": "core",
-      "jenis": "peri",
-      "qid": "Q171239"
-    },
-    {
-      "slug": "prithvi",
-      "canonical_name": "Prithvi",
-      "task": "new",
-      "tier": "core",
-      "jenis": "makhluk legenda",
-      "qid": "Q1341130"
-    },
-    {
-      "slug": "qilin",
-      "canonical_name": "Qilin",
+      "slug": "orion-mythology",
+      "canonical_name": "Orion (mythology)",
       "task": "enrich",
-      "tier": "core",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q201261"
+    },
+    {
+      "slug": "satyr",
+      "canonical_name": "Satyr",
+      "task": "enrich",
+      "tier": "rich",
+      "jenis": "roh",
+      "qid": "Q163709"
+    },
+    {
+      "slug": "leto",
+      "canonical_name": "Leto",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q103107"
+    },
+    {
+      "slug": "pan",
+      "canonical_name": "Pan",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q132582"
+    },
+    {
+      "slug": "styx",
+      "canonical_name": "Styx",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "peri",
+      "qid": "Q542758"
+    },
+    {
+      "slug": "amphitrite",
+      "canonical_name": "Amphitrite",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "peri",
+      "qid": "Q180222"
+    },
+    {
+      "slug": "chaos",
+      "canonical_name": "Chaos",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q131090"
+    },
+    {
+      "slug": "hebe",
+      "canonical_name": "Hebe",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q131125"
+    },
+    {
+      "slug": "tethys",
+      "canonical_name": "Tethys",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "peri",
+      "qid": "Q184216"
+    },
+    {
+      "slug": "charon",
+      "canonical_name": "Charon",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q6612"
+    },
+    {
+      "slug": "eris",
+      "canonical_name": "Eris",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q140001"
+    },
+    {
+      "slug": "harpy",
+      "canonical_name": "Harpy",
+      "task": "enrich",
+      "tier": "rich",
+      "jenis": "tokoh legenda",
+      "qid": "Q181360"
+    },
+    {
+      "slug": "theia",
+      "canonical_name": "Theia",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q184232"
+    },
+    {
+      "slug": "triton-mythology",
+      "canonical_name": "Triton (mythology)",
+      "task": "enrich",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q148030"
+    },
+    {
+      "slug": "vesta",
+      "canonical_name": "Vesta",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q178710"
+    },
+    {
+      "slug": "basilisk",
+      "canonical_name": "Basilisk",
+      "task": "enrich",
+      "tier": "rich",
+      "jenis": "naga/ular mitos",
+      "qid": "Q152519"
+    },
+    {
+      "slug": "hyperion",
+      "canonical_name": "Hyperion",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q179209"
+    },
+    {
+      "slug": "iapetos",
+      "canonical_name": "Iapetos",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q179543"
+    },
+    {
+      "slug": "phoebe",
+      "canonical_name": "Phoebe",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q183281"
+    },
+    {
+      "slug": "nemesis",
+      "canonical_name": "Nemesis",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "peri",
+      "qid": "Q185747"
+    },
+    {
+      "slug": "pontus",
+      "canonical_name": "Pontus",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q190563"
+    },
+    {
+      "slug": "epimetheus",
+      "canonical_name": "Epimetheus",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q41054"
+    },
+    {
+      "slug": "coeus",
+      "canonical_name": "Coeus",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q182837"
+    },
+    {
+      "slug": "echidna-mythology",
+      "canonical_name": "Echidna (mythology)",
+      "task": "enrich",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q185670"
+    },
+    {
+      "slug": "iris",
+      "canonical_name": "Iris",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q184570"
+    },
+    {
+      "slug": "typhon",
+      "canonical_name": "Typhon",
+      "task": "enrich",
+      "tier": "rich",
+      "jenis": "raksasa",
+      "qid": "Q180237"
+    },
+    {
+      "slug": "aether",
+      "canonical_name": "Aether",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q189175"
+    },
+    {
+      "slug": "erebos",
+      "canonical_name": "Erebos",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q131122"
+    },
+    {
+      "slug": "io",
+      "canonical_name": "Io",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "peri",
+      "qid": "Q179014"
+    },
+    {
+      "slug": "kreios",
+      "canonical_name": "Kreios",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q192136"
+    },
+    {
+      "slug": "moirae",
+      "canonical_name": "Moirae",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q180287"
+    },
+    {
+      "slug": "thanatos",
+      "canonical_name": "Thanatos",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q199647"
+    },
+    {
+      "slug": "chiron",
+      "canonical_name": "Chiron",
+      "task": "new",
+      "tier": "rich",
       "jenis": "makhluk campuran",
-      "qid": "Q14138"
+      "qid": "Q183417"
     },
     {
-      "slug": "sani",
-      "canonical_name": "Śani",
+      "slug": "hercules",
+      "canonical_name": "Hercules",
       "task": "new",
-      "tier": "core",
+      "tier": "rich",
       "jenis": "dewa",
-      "qid": "Q1296733"
+      "qid": "Q240679"
     },
     {
-      "slug": "surtr",
-      "canonical_name": "Surtr",
-      "task": "new",
-      "tier": "core",
-      "jenis": "tokoh legenda",
-      "qid": "Q211700"
-    },
-    {
-      "slug": "uraeus",
-      "canonical_name": "Uraeus",
+      "slug": "nemean-lion",
+      "canonical_name": "Nemean lion",
       "task": "enrich",
-      "tier": "core",
+      "tier": "rich",
+      "jenis": "tokoh legenda",
+      "qid": "Q199438"
+    },
+    {
+      "slug": "calypso",
+      "canonical_name": "Calypso",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "peri",
+      "qid": "Q48961"
+    },
+    {
+      "slug": "fortuna",
+      "canonical_name": "Fortuna",
+      "task": "new",
+      "tier": "rich",
       "jenis": "dewa",
-      "qid": "Q756990"
+      "qid": "Q4654"
+    },
+    {
+      "slug": "metis",
+      "canonical_name": "Metis",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "peri",
+      "qid": "Q190565"
+    },
+    {
+      "slug": "aurora",
+      "canonical_name": "Aurora",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q178831"
+    },
+    {
+      "slug": "hemera",
+      "canonical_name": "Hemera",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q192107"
+    },
+    {
+      "slug": "ouroboros",
+      "canonical_name": "Ouroboros",
+      "task": "enrich",
+      "tier": "rich",
+      "jenis": "naga/ular mitos",
+      "qid": "Q237970"
+    },
+    {
+      "slug": "scylla",
+      "canonical_name": "Scylla",
+      "task": "enrich",
+      "tier": "rich",
+      "jenis": "peri",
+      "qid": "Q193115"
+    },
+    {
+      "slug": "charybdis",
+      "canonical_name": "Charybdis",
+      "task": "enrich",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q192082"
+    },
+    {
+      "slug": "lamia",
+      "canonical_name": "Lamia",
+      "task": "enrich",
+      "tier": "rich",
+      "jenis": "naga/ular mitos",
+      "qid": "Q200073"
+    },
+    {
+      "slug": "argus-panoptes",
+      "canonical_name": "Argus Panoptes",
+      "task": "enrich",
+      "tier": "rich",
+      "jenis": "raksasa",
+      "qid": "Q189821"
+    },
+    {
+      "slug": "harmonia-q978079",
+      "canonical_name": "Harmonia",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q978079"
+    },
+    {
+      "slug": "hypnos",
+      "canonical_name": "Hypnos",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q189347"
+    },
+    {
+      "slug": "nereus",
+      "canonical_name": "Nereus",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q189527"
+    },
+    {
+      "slug": "polyphemus",
+      "canonical_name": "Polyphemus",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "raksasa",
+      "qid": "Q193567"
     }
   ]
 }

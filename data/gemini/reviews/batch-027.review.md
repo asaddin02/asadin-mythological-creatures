@@ -1,6 +1,6 @@
 # Review batch-027
 
-Diperiksa 2026-09-29T18:07:07.212Z. Berkas: batch-027.md, batch-027-fix-1.md.
+Diperiksa 2026-09-30T02:31:43.230Z. Berkas: batch-027.md, batch-027-fix-1.md.
 
 ## artemis — lulus-otomatis
 
@@ -21,20 +21,19 @@ Klaim 6 (exact 6), sumber 3, gambar 0.
 
 ## venus — lulus-otomatis
 
-Klaim 6 (exact 3, unreachable 3), sumber 3, gambar 0.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 **manual**
 - `tier` Di bawah target rich: 6 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 3 kutipan tidak bisa dicek otomatis: www.worldhistory.org (tidak bisa dibuka (timeout)); www.metmuseum.org (HTTP 429).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | venus-c01 | exact | en.wikipedia.org | Venus is a Roman goddess associated with love, beauty, desire, sex, fertility, prosperity, and victory. | is a Roman goddess whose functions encompass love, beauty, desire, sex, fertility, prosperity, and victory. |
 | venus-c02 | exact | en.wikipedia.org | In Roman myth, Venus is the ancestor of the Roman people through her son Aeneas. | In Roman mythology, she was the ancestor of the Roman people through her son, Aeneas, who survived the fall of Troy and fled to Italy. |
 | venus-c03 | exact | en.wikipedia.org | Romans adapted Aphrodite's myths and imagery for Roman art and Latin literature. | The Romans adapted the myths and iconography of her Greek counterpart Aphrodite for Roman art and Latin literature. |
-| venus-c04 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | World History Encyclopedia calls Venus the Roman goddess of love, sex, beauty, and fertility, counterpart to Aphrodite. | In Roman mythology, Venus was the goddess of love, sex, beauty, and fertility. She was the Roman counterpart to the Greek goddess Aphrodite. |
-| venus-c05 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | The source names Vulcan as Venus's husband and Mars as another divine lover. | Venus had two main divine lovers: her husband Vulcan (Hephaistos) and Mars (Ares). |
-| venus-c06 | unreachable (HTTP 429) | www.metmuseum.org | The museum describes Venus and her son Cupid as embodiments of love in verse. | this potent force was often embodied by Venus (the Greek Aphrodite), goddess of love, and her son Cupid (the Greek Eros) |
+| venus-c04 | exact | www.worldhistory.org | World History Encyclopedia calls Venus the Roman goddess of love, sex, beauty, and fertility, counterpart to Aphrodite. | In Roman mythology, Venus was the goddess of love, sex, beauty, and fertility. She was the Roman counterpart to the Greek goddess Aphrodite. |
+| venus-c05 | exact | www.worldhistory.org | The source names Vulcan as Venus's husband and Mars as another divine lover. | Venus had two main divine lovers: her husband Vulcan (Hephaistos) and Mars (Ares). |
+| venus-c06 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | The museum describes Venus and her son Cupid as embodiments of love in verse. | this potent force was often embodied by Venus (the Greek Aphrodite), goddess of love, and her son Cupid (the Greek Eros) |
 
 
 ## hermes — lulus-otomatis

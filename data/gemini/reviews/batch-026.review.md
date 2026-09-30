@@ -1,6 +1,6 @@
 # Review batch-026
 
-Diperiksa 2026-09-29T17:55:50.993Z. Berkas: batch-026.md, batch-026-fix-1.md, batch-026-fix-2.md.
+Diperiksa 2026-09-30T02:31:36.077Z. Berkas: batch-026.md, batch-026-fix-1.md, batch-026-fix-2.md.
 
 ## trimurti — skip
 
@@ -15,11 +15,10 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## gabriel — lulus-otomatis
 
-Klaim 9 (exact 7, unreachable 1, loose 1), sumber 4, gambar 0.
+Klaim 9 (exact 8, loose 1), sumber 4, gambar 0.
 
 **manual**
 - `tier` Di bawah target rich: 9 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 1 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -27,7 +26,7 @@ Klaim 9 (exact 7, unreachable 1, loose 1), sumber 4, gambar 0.
 | gabriel-c02 | exact | en.wikipedia.org | In the Book of Daniel, Gabriel explains Daniel's visions. | In the Book of Daniel, Gabriel appears to the prophet Daniel to explain his visions. |
 | gabriel-c03 | exact | en.wikipedia.org | In Luke’s Gospel, Gabriel announces John the Baptist’s birth to Zechariah. | In the New Testament Gospel of Luke, Gabriel appears to Zechariah foretelling the birth of John the Baptist. |
 | gabriel-c04 | exact | legacy.quran.com | According to Al-Baqarah 2:97, Gabriel brought the Quran to Muhammad by God's permission. | Whoever is an enemy to Gabriel - it is [none but] he who has brought the Qur'an down upon your heart, [O Muhammad], by permission of Allah |
-| gabriel-c05 | unreachable (HTTP 429) | www.metmuseum.org | According to the Metropolitan Museum of Art, Muslims believe Gabriel communicated God's word to Muhammad in Arabic. | Muslims believe that the word of God was revealed to him by the archangel Gabriel in Arabic |
+| gabriel-c05 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | According to the Metropolitan Museum of Art, Muslims believe Gabriel communicated God's word to Muhammad in Arabic. | Muslims believe that the word of God was revealed to him by the archangel Gabriel in Arabic |
 | gabriel-c06 | loose | en.wikipedia.org | The Biblical Hebrew name is Gaḇrīʾēl (גַּבְרִיאֵל), with geber as a component. | The Biblical Hebrew name Gaḇrīʾēl (גַּבְרִיאֵל) is composed of the first person singular possessive form of the noun geber |
 | gabriel-c07 | exact | en.wikipedia.org | Gabriel's name is commonly glossed as 'God is my strength' or 'Strength of God'. | Usually glossed as "God is my strength" or "Strength of God" |
 | gabriel-c08 | exact | en.wikipedia.org | Gabriel is known in Judaism, Christianity, and Islam. | In Judaism, Christianity, Islam, and other Abrahamic religions, Gabriel |

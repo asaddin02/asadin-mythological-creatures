@@ -1,30 +1,27 @@
 # Review batch-046
 
-Diperiksa 2026-09-30T01:39:50.110Z. Berkas: batch-046.md, batch-046-fix-1.md, batch-046-fix-2.md.
+Diperiksa 2026-09-30T02:36:02.241Z. Berkas: batch-046.md, batch-046-fix-1.md, batch-046-fix-2.md.
 
 ## bigfoot — lulus-otomatis
 
-Klaim 15 (unreachable 8, exact 7), sumber 3, gambar 0.
-
-**manual**
-- `claims` 8 kutipan tidak bisa dicek otomatis: www.oregonencyclopedia.org (HTTP 403).
+Klaim 15 (exact 15), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| bigfoot-c01 | unreachable (HTTP 403) | www.oregonencyclopedia.org | Bigfoot is a large and mysterious humanoid creature purported to inhabit the wild and forested areas of Oregon and the West Coast of North America. | Bigfoot is a large and mysterious humanoid creature purported to inhabit the wild and forested areas of Oregon and the West Coast of North America. |
-| bigfoot-c02 | unreachable (HTTP 403) | www.oregonencyclopedia.org | Bigfoot is also known as Sasquatch, an Anglicization of the name Sasq’ets, from the Halq’emeylem language | Bigfoot is also known as Sasquatch, an Anglicization of the name Sasq’ets, from the Halq’emeylem language |
-| bigfoot-c03 | unreachable (HTTP 403) | www.oregonencyclopedia.org | hair-covered bipeds with apelike features up to eight feet tall that leave correspondingly large footprints. | hair-covered bipeds with apelike features up to eight feet tall that leave correspondingly large footprints. |
-| bigfoot-c04 | unreachable (HTTP 403) | www.oregonencyclopedia.org | They are generally characterized as nonaggressive animals, whose shyness and humanlike intelligence make them elusive | They are generally characterized as nonaggressive animals, whose shyness and humanlike intelligence make them elusive |
-| bigfoot-c05 | unreachable (HTTP 403) | www.oregonencyclopedia.org | Most scientists, however, remain skeptics and dismiss the phenomenon as the product of the mistaken identification of known animals or elaborate hoaxes | Most scientists, however, remain skeptics and dismiss the phenomenon as the product of the mistaken identification of known animals or elaborate hoaxes |
-| bigfoot-c06 | unreachable (HTTP 403) | www.oregonencyclopedia.org | stories about Bigfoot have entered into oral tradition and become part of regional folklore. | stories about Bigfoot have entered into oral tradition and become part of regional folklore. |
-| bigfoot-c07 | unreachable (HTTP 403) | www.oregonencyclopedia.org | Local Native Americans used this event to discuss publicly their own knowledge of tsiatko, hirsute “wild Indians” of the woods | Local Native Americans used this event to discuss publicly their own knowledge of tsiatko, hirsute “wild Indians” of the woods |
-| bigfoot-c08 | unreachable (HTTP 403) | www.oregonencyclopedia.org | After 1958, woods workers east and west of the Cascade Mountains began to report seeing creatures and discovering their immense tracks along logging roads | After 1958, woods workers east and west of the Cascade Mountains began to report seeing creatures and discovering their immense tracks along logging roads |
+| bigfoot-c01 | exact (HTTP 403; dicek lewat arsip Wayback) | www.oregonencyclopedia.org | Bigfoot is a large and mysterious humanoid creature purported to inhabit the wild and forested areas of Oregon and the West Coast of North America. | Bigfoot is a large and mysterious humanoid creature purported to inhabit the wild and forested areas of Oregon and the West Coast of North America. |
+| bigfoot-c02 | exact (HTTP 403; dicek lewat arsip Wayback) | www.oregonencyclopedia.org | Bigfoot is also known as Sasquatch, an Anglicization of the name Sasq’ets, from the Halq’emeylem language | Bigfoot is also known as Sasquatch, an Anglicization of the name Sasq’ets, from the Halq’emeylem language |
+| bigfoot-c03 | exact (HTTP 403; dicek lewat arsip Wayback) | www.oregonencyclopedia.org | hair-covered bipeds with apelike features up to eight feet tall that leave correspondingly large footprints. | hair-covered bipeds with apelike features up to eight feet tall that leave correspondingly large footprints. |
+| bigfoot-c04 | exact (HTTP 403; dicek lewat arsip Wayback) | www.oregonencyclopedia.org | They are generally characterized as nonaggressive animals, whose shyness and humanlike intelligence make them elusive | They are generally characterized as nonaggressive animals, whose shyness and humanlike intelligence make them elusive |
+| bigfoot-c05 | exact (HTTP 403; dicek lewat arsip Wayback) | www.oregonencyclopedia.org | Most scientists, however, remain skeptics and dismiss the phenomenon as the product of the mistaken identification of known animals or elaborate hoaxes | Most scientists, however, remain skeptics and dismiss the phenomenon as the product of the mistaken identification of known animals or elaborate hoaxes |
+| bigfoot-c06 | exact (HTTP 403; dicek lewat arsip Wayback) | www.oregonencyclopedia.org | stories about Bigfoot have entered into oral tradition and become part of regional folklore. | stories about Bigfoot have entered into oral tradition and become part of regional folklore. |
+| bigfoot-c07 | exact (HTTP 403; dicek lewat arsip Wayback) | www.oregonencyclopedia.org | Local Native Americans used this event to discuss publicly their own knowledge of tsiatko, hirsute “wild Indians” of the woods | Local Native Americans used this event to discuss publicly their own knowledge of tsiatko, hirsute “wild Indians” of the woods |
+| bigfoot-c08 | exact (HTTP 403; dicek lewat arsip Wayback) | www.oregonencyclopedia.org | After 1958, woods workers east and west of the Cascade Mountains began to report seeing creatures and discovering their immense tracks along logging roads | After 1958, woods workers east and west of the Cascade Mountains began to report seeing creatures and discovering their immense tracks along logging roads |
 | bigfoot-c09 | exact | www.smithsonianmag.com | Sasquatches long populated the mythologies of American Indian tribes in the Pacific Northwest | Sasquatches long populated the mythologies of American Indian tribes in the Pacific Northwest |
 | bigfoot-c10 | exact | www.smithsonianmag.com | those 1958 footprints transformed the myth into a media sensation. | those 1958 footprints transformed the myth into a media sensation. |
 | bigfoot-c11 | exact | www.smithsonianmag.com | The tracks were planted near Bluff Creek in Northern California by a man named Ray Wallace | The tracks were planted near Bluff Creek in Northern California by a man named Ray Wallace |
 | bigfoot-c12 | exact | www.smithsonianmag.com | In 1967, Roger Patterson and Bob Gimlin filmed a few seconds of a hairy creature walking on two legs | In 1967, Roger Patterson and Bob Gimlin filmed a few seconds of a hairy creature walking on two legs |
-| bigfoot-c13 | exact | www.history.com | The hairs are of deer family origin. | The hairs are of deer family origin. |
-| bigfoot-c14 | exact | www.history.com | this is not evidence that the FBI endorsed the existence of Bigfoot | this is not evidence that the FBI endorsed the existence of Bigfoot |
+| bigfoot-c13 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.history.com | The hairs are of deer family origin. | The hairs are of deer family origin. |
+| bigfoot-c14 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | www.history.com | this is not evidence that the FBI endorsed the existence of Bigfoot | this is not evidence that the FBI endorsed the existence of Bigfoot |
 | bigfoot-c15 | exact | www.smithsonianmag.com | Naish has written that Bigfoot is the modern American “manifestation of a human-wide cultural concept, not a zoological reality.” | Naish has written that Bigfoot is the modern American “manifestation of a human-wide cultural concept, not a zoological reality.” |
 
 
@@ -105,10 +102,7 @@ Klaim 15 (exact 15), sumber 3, gambar 0.
 
 ## sobek — lulus-otomatis
 
-Klaim 15 (exact 11, unreachable 4), sumber 3, gambar 0.
-
-**manual**
-- `claims` 4 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
+Klaim 15 (exact 15), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -121,10 +115,10 @@ Klaim 15 (exact 11, unreachable 4), sumber 3, gambar 0.
 | sobek-c07 | exact | www.worldhistory.org | His priests kept live crocodiles in the temples who were fed lavishly | His priests kept live crocodiles in the temples who were fed lavishly |
 | sobek-c08 | exact | www.worldhistory.org | When these crocodiles died they were mummified and buried with all the care given to a person. | When these crocodiles died they were mummified and buried with all the care given to a person. |
 | sobek-c09 | exact | www.worldhistory.org | He was also associated with the Nile which was said to issue forth as the sweat of Sobek. | He was also associated with the Nile which was said to issue forth as the sweat of Sobek. |
-| sobek-c10 | unreachable (HTTP 429) | www.metmuseum.org | A crocodile on a shrine represents the god Sobek. | A crocodile on a shrine represents the god Sobek. |
-| sobek-c11 | unreachable (HTTP 429) | www.metmuseum.org | Sobek was an important god throughout Egypt, and with important cult centers in both Upper Egypt and the Fayum. | Sobek was an important god throughout Egypt, and with important cult centers in both Upper Egypt and the Fayum. |
-| sobek-c12 | unreachable (HTTP 429) | www.metmuseum.org | Associated with the Nile floods and fertility, Sobek's centrality in the Fayum led to his being associated with royal power during the Middle Kingdom | Associated with the Nile floods and fertility, Sobek's centrality in the Fayum led to his being associated with royal power during the Middle Kingdom |
-| sobek-c13 | unreachable (HTTP 429) | www.metmuseum.org | then directly with the god Re. | then directly with the god Re. |
+| sobek-c10 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | A crocodile on a shrine represents the god Sobek. | A crocodile on a shrine represents the god Sobek. |
+| sobek-c11 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Sobek was an important god throughout Egypt, and with important cult centers in both Upper Egypt and the Fayum. | Sobek was an important god throughout Egypt, and with important cult centers in both Upper Egypt and the Fayum. |
+| sobek-c12 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Associated with the Nile floods and fertility, Sobek's centrality in the Fayum led to his being associated with royal power during the Middle Kingdom | Associated with the Nile floods and fertility, Sobek's centrality in the Fayum led to his being associated with royal power during the Middle Kingdom |
+| sobek-c13 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | then directly with the god Re. | then directly with the god Re. |
 | sobek-c14 | exact | ancientegyptonline.co.uk | In some areas, a tame crocodile was worshiped as the earthly embodiment of Sobek himself, while in other places crocodiles were reviled, hunted, and killed. | In some areas, a tame crocodile was worshiped as the earthly embodiment of Sobek himself, while in other places crocodiles were reviled, hunted, and killed. |
 | sobek-c15 | exact | ancientegyptonline.co.uk | Sobek (also known as Sebek, Sebek-Ra, Sobeq, Suchos, Sobki, and Soknopais) was the ancient god of crocodiles. | Sobek (also known as Sebek, Sebek-Ra, Sobeq, Suchos, Sobki, and Soknopais) was the ancient god of crocodiles. |
 

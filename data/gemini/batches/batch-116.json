@@ -1,87 +1,399 @@
 {
   "batch_id": "batch-116",
-  "created_at": "2026-09-29T08:31:11.831Z",
+  "created_at": "2026-09-30T03:03:04.414Z",
   "instructions_version": 3,
   "entries": [
     {
-      "slug": "bull-of-heaven",
-      "canonical_name": "Bull of Heaven",
+      "slug": "puca",
+      "canonical_name": "Púca",
       "task": "enrich",
-      "tier": "core",
-      "jenis": "makhluk legenda",
-      "qid": "Q55606125"
-    },
-    {
-      "slug": "castalia",
-      "canonical_name": "Castalia",
-      "task": "new",
       "tier": "core",
       "jenis": "peri",
-      "qid": "Q170053"
+      "qid": "Q2120968"
     },
     {
-      "slug": "familiar",
-      "canonical_name": "Familiar",
+      "slug": "puck-folklore",
+      "canonical_name": "Puck (folklore)",
       "task": "enrich",
       "tier": "core",
-      "jenis": "hewan mitos",
-      "qid": "Q386905"
+      "jenis": "peri",
+      "qid": "Q14126754"
     },
     {
-      "slug": "fionn-mac-cumhaill",
-      "canonical_name": "Fionn mac Cumhaill",
-      "task": "enrich",
-      "tier": "core",
-      "jenis": "tokoh legenda",
-      "qid": "Q382610"
-    },
-    {
-      "slug": "four-symbols",
-      "canonical_name": "Four Symbols",
-      "task": "enrich",
-      "tier": "core",
-      "jenis": "makhluk legenda",
-      "qid": "Q1073260"
-    },
-    {
-      "slug": "hulder",
-      "canonical_name": "Hulder",
-      "task": "enrich",
-      "tier": "core",
-      "jenis": "makhluk legenda",
-      "qid": "Q2328818"
-    },
-    {
-      "slug": "maui",
-      "canonical_name": "Māui",
-      "task": "new",
-      "tier": "core",
-      "jenis": "dewa",
-      "qid": "Q1791456"
-    },
-    {
-      "slug": "moon-rabbit",
-      "canonical_name": "Moon rabbit",
-      "task": "enrich",
-      "tier": "core",
-      "jenis": "tokoh legenda",
-      "qid": "Q622761"
-    },
-    {
-      "slug": "onryo",
-      "canonical_name": "Onryō",
+      "slug": "baobh-shith",
+      "canonical_name": "Baobh-shìth",
       "task": "enrich",
       "tier": "core",
       "jenis": "hantu",
-      "qid": "Q634195"
+      "qid": "Q807058"
     },
     {
-      "slug": "peneus",
-      "canonical_name": "Peneus",
+      "slug": "boggart",
+      "canonical_name": "Boggart",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "peri",
+      "qid": "Q2501934"
+    },
+    {
+      "slug": "clurichaun",
+      "canonical_name": "Clurichaun",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "peri",
+      "qid": "Q1103448"
+    },
+    {
+      "slug": "manawydan-fab-llyr",
+      "canonical_name": "Manawydan fab Llŷr",
       "task": "new",
       "tier": "core",
       "jenis": "dewa",
-      "qid": "Q1364612"
+      "qid": "Q1615649"
+    },
+    {
+      "slug": "afanc",
+      "canonical_name": "Afanc",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "kriptid",
+      "qid": "Q352835"
+    },
+    {
+      "slug": "black-annis",
+      "canonical_name": "Black Annis",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "raksasa",
+      "qid": "Q475204"
+    },
+    {
+      "slug": "blue-men-of-the-minch",
+      "canonical_name": "Blue men of the Minch",
+      "task": "new",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q17152117"
+    },
+    {
+      "slug": "dea-matrona",
+      "canonical_name": "Dea Matrona",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q2353556"
+    },
+    {
+      "slug": "dobhar-chu",
+      "canonical_name": "Dobhar-chú",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "tokoh legenda",
+      "qid": "Q2618578"
+    },
+    {
+      "slug": "fairy-queen",
+      "canonical_name": "Fairy Queen",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "peri",
+      "qid": "Q5430978"
+    },
+    {
+      "slug": "fand",
+      "canonical_name": "Fand",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q176652"
+    },
+    {
+      "slug": "grannus",
+      "canonical_name": "Grannus",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q1333602"
+    },
+    {
+      "slug": "liver-bird",
+      "canonical_name": "liver bird",
+      "task": "new",
+      "tier": "core",
+      "jenis": "hewan mitos",
+      "qid": "Q2983957"
+    },
+    {
+      "slug": "llyr",
+      "canonical_name": "Llŷr",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q1761627"
+    },
+    {
+      "slug": "redcap",
+      "canonical_name": "Redcap",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "peri",
+      "qid": "Q1807901"
+    },
+    {
+      "slug": "twrch-trwyth",
+      "canonical_name": "Twrch Trwyth",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "tokoh legenda",
+      "qid": "Q1859592"
+    },
+    {
+      "slug": "brown-lady-of-raynham-hall",
+      "canonical_name": "Brown Lady of Raynham Hall",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "hantu",
+      "qid": "Q991048"
+    },
+    {
+      "slug": "crom-cruach",
+      "canonical_name": "Crom Cruach",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q1140870"
+    },
+    {
+      "slug": "dokkalfar-and-ljosalfar",
+      "canonical_name": "Dökkálfar and Ljósálfar",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "peri",
+      "qid": "Q16650590"
+    },
+    {
+      "slug": "leanan-sidhe",
+      "canonical_name": "Leanan sídhe",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "peri",
+      "qid": "Q931856"
+    },
+    {
+      "slug": "nabia",
+      "canonical_name": "Nabia",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q3321513"
+    },
+    {
+      "slug": "spriggan",
+      "canonical_name": "Spriggan",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q525167"
+    },
+    {
+      "slug": "am-fear-liath-mor",
+      "canonical_name": "Am Fear Liath Mòr",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q911979"
+    },
+    {
+      "slug": "british-big-cats",
+      "canonical_name": "British big cats",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "kriptid",
+      "qid": "Q843824"
+    },
+    {
+      "slug": "jenny-greenteeth",
+      "canonical_name": "Jenny Greenteeth",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "tokoh legenda",
+      "qid": "Q1512208"
+    },
+    {
+      "slug": "korrigan",
+      "canonical_name": "Korrigan",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "peri",
+      "qid": "Q582566"
+    },
+    {
+      "slug": "morag-lake-monster",
+      "canonical_name": "Morag (lake monster)",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q1503117"
+    },
+    {
+      "slug": "owlman",
+      "canonical_name": "Owlman",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q2426596"
+    },
+    {
+      "slug": "questing-beast",
+      "canonical_name": "Questing Beast",
+      "task": "new",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q1529836"
+    },
+    {
+      "slug": "water-horse",
+      "canonical_name": "Water horse",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q2962906"
+    },
+    {
+      "slug": "wild-haggis",
+      "canonical_name": "Wild haggis",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "hewan mitos",
+      "qid": "Q3125700"
+    },
+    {
+      "slug": "ysbaddaden",
+      "canonical_name": "Ysbaddaden",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "raksasa",
+      "qid": "Q948501"
+    },
+    {
+      "slug": "beast-of-bodmin",
+      "canonical_name": "Beast of Bodmin",
+      "task": "new",
+      "tier": "core",
+      "jenis": "hewan mitos",
+      "qid": "Q830569"
+    },
+    {
+      "slug": "damona",
+      "canonical_name": "Damona",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q1158728"
+    },
+    {
+      "slug": "double-headed-serpent",
+      "canonical_name": "Double-headed serpent",
+      "task": "new",
+      "tier": "core",
+      "jenis": "naga/ular mitos",
+      "qid": "Q5299596"
+    },
+    {
+      "slug": "grindylow",
+      "canonical_name": "Grindylow",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q1886894"
+    },
+    {
+      "slug": "lludd-llaw-eraint",
+      "canonical_name": "Lludd Llaw Eraint",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q1857350"
+    },
+    {
+      "slug": "merrow",
+      "canonical_name": "Merrow",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "tokoh legenda",
+      "qid": "Q823297"
+    },
+    {
+      "slug": "ritona",
+      "canonical_name": "Ritona",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q1857858"
+    },
+    {
+      "slug": "tarvos-trigaranus",
+      "canonical_name": "Tarvos Trigaranus",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q769739"
+    },
+    {
+      "slug": "black-shuck",
+      "canonical_name": "Black Shuck",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "hewan mitos",
+      "qid": "Q880558"
+    },
+    {
+      "slug": "boobrie",
+      "canonical_name": "Boobrie",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "roh",
+      "qid": "Q2748219"
+    },
+    {
+      "slug": "bugul-noz",
+      "canonical_name": "Bugul Noz",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "peri",
+      "qid": "Q2698640"
+    },
+    {
+      "slug": "church-grim",
+      "canonical_name": "Church grim",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "roh",
+      "qid": "Q2565702"
+    },
+    {
+      "slug": "cu-sith",
+      "canonical_name": "Cù-sìth",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q1142788"
+    },
+    {
+      "slug": "enbarr",
+      "canonical_name": "Enbarr",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "hewan mitos",
+      "qid": "Q634475"
+    },
+    {
+      "slug": "fachan",
+      "canonical_name": "Fachan",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "raksasa",
+      "qid": "Q1077666"
     }
   ]
 }

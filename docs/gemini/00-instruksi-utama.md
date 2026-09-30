@@ -338,6 +338,18 @@ Semua kutipan di batch pertama asli, tetapi hampir setiap entri ditolak karena k
 ### 11.6 Petunjuk batch
 - **Tindak lanjuti setiap petunjuk di prompt batch**, misalnya Garudeya dan relief Candi Kidal untuk Garuda. Kalau tidak menemukan sumber, jelaskan di `gaps`. Jangan dilewati diam-diam.
 
+### 11.7 Nilai yang sering salah (batch 026–047)
+Pemeriksa menolak nilai di luar daftar §8. Kesalahan yang paling sering, beserta penggantinya:
+- `sources[].type`: bukan `museum`, `archive`, `academic`, atau `documentary`. Pakai `museum-or-archive`, `academic-book`, `journal-article`, atau `other`.
+- `relations[].relation_type`: bukan `consort`, `rival`, `protector`, `creator`, atau `aspect`. Pakai `spouse`, `enemy`, `associated`, `parent`, atau `variant`.
+- `alternate_names[].name_type`: bukan `other`, `variant`, `variant-spelling`, `nickname`, `title`, `traditional`, atau `counterpart`. Pakai `alias`, `regional`, `native-script`, `transliteration`, `translation`, atau `epithet`. Padanan di budaya lain (misalnya Venus untuk Aphrodite) ditulis di `relations` dengan `counterpart`, bukan di nama lain.
+- `claims[].context`: bukan `historical-attestation`, `historical-art`, atau `modern-reception`. Pakai `historical-record`, `scholarly-interpretation`, atau `modern-popular-culture`.
+- `culture` dan `region`: salin persis ID dari §8.2 dan §8.3. Misalnya `tradition-hindu`, bukan `hindu-mythology`; `egyptian-mythology`, bukan `ancient-egyptian`; `east-asia`, bukan `asia`.
+- `classification`: hanya nilai §8.1. Kuda mitos seperti Pegasus memakai `hybrid` atau `legendary-creature`, bukan `horse`.
+
+### 11.8 Nama yang sama
+Beberapa makhluk berbagi nama dengan makhluk lain (misalnya Phoebe sang Titan dan Phoebe sang hamadriad). Prompt batch menyebutkannya di baris "Catatan". Teliti hanya makhluk yang sesuai QID Wikidata di prompt. Untuk `task: new`, tulis `canonical_name` dengan pembeda singkat dalam kurung yang didukung sumber, misalnya `"Phoebe (hamadryad)"`. Kalau prompt sudah menentukan `canonical_name`, pakai persis nama itu.
+
 ## 12. Makhluk baru (`task: new`)
 
 - **Periksa identitas dulu.** Buka halaman Wikidata dan artikel Wikipedia yang diberikan. Pastikan item itu memang makhluk, roh, dewa, atau tokoh dari mitologi, cerita rakyat, atau agama tradisional.

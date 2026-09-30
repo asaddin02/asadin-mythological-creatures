@@ -1,14 +1,13 @@
 # Review batch-034
 
-Diperiksa 2026-09-29T18:47:48.957Z. Berkas: batch-034.md, batch-034-fix-1.md.
+Diperiksa 2026-09-30T02:33:27.897Z. Berkas: batch-034.md, batch-034-fix-1.md.
 
 ## neptune — lulus-otomatis
 
-Klaim 9 (exact 8, unreachable 1), sumber 2, gambar 0.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 **manual**
 - `tier` Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 1 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -17,7 +16,7 @@ Klaim 9 (exact 8, unreachable 1), sumber 2, gambar 0.
 | neptune-c03 | exact | www.worldhistory.org | Neptune is the son of Saturn and Ops. | He is the son of Saturn (the Roman counterpart of Cronus) and Ops (the Roman counterpart of Rhea). |
 | neptune-c04 | exact | www.worldhistory.org | Neptune was married to Salacia. | Neptune was married to Salacia (the Roman equivalent of the water goddess Amphitrite). |
 | neptune-c05 | exact | www.worldhistory.org | Neptune's trident was said to smash rocks, raise waves, create waters, and summon storms. | He held a three-pronged trident which possessed extraordinary powers. Neptune used this trident to smash rocks, make waves, create new bodies of water, and call forth fierce storms. |
-| neptune-c06 | unreachable (HTTP 429) | www.metmuseum.org | A Roman bronze statue at The Met originally showed Neptune leaning on a trident. | The god originally leaned on a trident, held in his left hand; his eyes and nipples were probably inlaid with silver and copper. |
+| neptune-c06 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | A Roman bronze statue at The Met originally showed Neptune leaning on a trident. | The god originally leaned on a trident, held in his left hand; his eyes and nipples were probably inlaid with silver and copper. |
 | neptune-c07 | exact | www.worldhistory.org | The Neptunalia was held annually on 23 July. | The Neptunalia was held on the 23rd of July every year, during the height of summer. |
 | neptune-c08 | exact | www.worldhistory.org | Romans sacrificed to Neptune seeking relief from summer water shortages. | The Romans made sacrifices to Neptune so he would ease their water shortages during the heat, and they held chariot races. |
 | neptune-c09 | exact | www.worldhistory.org | In the Aeneid, Neptune calms the sea to aid Aeneas and his men. | Neptune is angered by the storm, which he knows has been sent by his cunning sister Juno, and calms the waters to help Aeneas and his men. |
@@ -25,11 +24,10 @@ Klaim 9 (exact 8, unreachable 1), sumber 2, gambar 0.
 
 ## phoenix — lulus-otomatis
 
-Klaim 9 (exact 7, unreachable 2), sumber 2, gambar 0.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 **manual**
 - `tier` Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -40,8 +38,8 @@ Klaim 9 (exact 7, unreachable 2), sumber 2, gambar 0.
 | phoenix-c05 | exact | www.theoi.com | In Herodotus's account, the phoenix carries its parent's body from Arabia to a sun temple wrapped in myrrh. | Flying from Arabia to the temple of the Helios (the Sun), they say, he conveys his father encased in myrrh and buries him at the temple of Helios [i.e. in the temple of the Egyptian god Ra]. |
 | phoenix-c06 | exact | www.theoi.com | Ovid says a young phoenix is reborn from its parent's body. | Then from his father's body is reborn a little Phoenix, so they say, to live the same long years. |
 | phoenix-c07 | exact | www.theoi.com | The self-burning phoenix is a version that became more popular later. | According to a story which has gained more currency in modern times, Phoenix, when he arrived at a very old age (some say 500 and others 1461 years), committed himself to the flames. |
-| phoenix-c08 | unreachable (HTTP 429) | www.metmuseum.org | Chinese fenghuang is often translated 'phoenix' but is a distinct mythical bird. | Though usually translated as “phoenix” in English, the fenghuang bird is a distinct mythical species with a different set of associations. |
-| phoenix-c09 | unreachable (HTTP 429) | www.metmuseum.org | The fenghuang is said to appear in times of peace and prosperity. | The fenghuang, most noble of all feathered species, is said to appear only in times of peace and prosperity, so the creature is depicted frequently in works commissioned by imperial courts. |
+| phoenix-c08 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Chinese fenghuang is often translated 'phoenix' but is a distinct mythical bird. | Though usually translated as “phoenix” in English, the fenghuang bird is a distinct mythical species with a different set of associations. |
+| phoenix-c09 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | The fenghuang is said to appear in times of peace and prosperity. | The fenghuang, most noble of all feathered species, is said to appear only in times of peace and prosperity, so the creature is depicted frequently in works commissioned by imperial courts. |
 
 
 ## uranus — lulus-otomatis
@@ -67,16 +65,16 @@ Klaim 10 (exact 10), sumber 2, gambar 0.
 
 ## hanuman — lulus-otomatis
 
-Klaim 10 (exact 7, unreachable 3), sumber 3, gambar 0.
+Klaim 10 (exact 8, unreachable 2), sumber 3, gambar 0.
 
 **manual**
 - `tier` Di bawah target rich: 10 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 3 kutipan tidak bisa dicek otomatis: asia.si.edu (HTTP 403); www.metmuseum.org (HTTP 429).
+- `claims` 2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | hanuman-c01 | exact | www.worldhistory.org | Hanuman is an animal-formed figure in Indian mythology revered as a god. | Hanuman is one of several zoomorphic characters in Indian mythology, but is the only wholly animal figure who is revered as a god today. |
-| hanuman-c02 | unreachable (HTTP 403) | asia.si.edu | Hanuman is a monkey-bodied deity, Rama's companion, and an exemplar of devotion. | a deity with the body of a monkey; a companion of the deity Rama and an exemplar of self-discipline and devotion. |
+| hanuman-c02 | exact (HTTP 403; dicek lewat arsip Wayback) | asia.si.edu | Hanuman is a monkey-bodied deity, Rama's companion, and an exemplar of devotion. | a deity with the body of a monkey; a companion of the deity Rama and an exemplar of self-discipline and devotion. |
 | hanuman-c03 | exact | www.worldhistory.org | Mythic texts describe Hanuman as the Wind God's monkey child with strength and Vedic learning. | The mythic texts speak of him as a monkey child of the Wind God, as possessing enormous strength, keen intellect and a mastery over the Vedas and other branches of learning. |
 | hanuman-c04 | exact | www.worldhistory.org | Hanuman is devoted to Rama and can assume any form. | He is also an unquestioning devotee of Rama, the hero of the epic Ramayana, and has the ability to take on any form he wishes. |
 | hanuman-c05 | exact | www.worldhistory.org | Hanuman flies over the sea to locate Sita and report back to Rama. | He is the one who flies across the oceans (he is Wind's child), locates the exact place where Sita is imprisoned and brings this information back to Rama. |

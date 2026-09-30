@@ -1,47 +1,367 @@
 {
   "batch_id": "batch-072",
-  "created_at": "2026-09-29T08:31:11.794Z",
+  "created_at": "2026-09-30T03:03:04.356Z",
   "instructions_version": 3,
   "entries": [
     {
-      "slug": "priapus",
-      "canonical_name": "Priapus",
+      "slug": "sita",
+      "canonical_name": "Sita",
       "task": "new",
       "tier": "rich",
       "jenis": "dewa",
-      "qid": "Q206878"
+      "qid": "Q191114"
     },
     {
-      "slug": "proserpina",
-      "canonical_name": "Proserpina",
+      "slug": "varuna",
+      "canonical_name": "Varuna",
       "task": "new",
       "tier": "rich",
       "jenis": "dewa",
-      "qid": "Q14515330"
+      "qid": "Q1001037"
     },
     {
-      "slug": "seraph",
-      "canonical_name": "Seraph",
+      "slug": "kartikeya",
+      "canonical_name": "Kartikeya",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q380817"
+    },
+    {
+      "slug": "ravana",
+      "canonical_name": "Ravana",
       "task": "enrich",
       "tier": "rich",
-      "jenis": "malaikat",
-      "qid": "Q194077"
+      "jenis": "iblis/setan",
+      "qid": "Q235102"
     },
     {
-      "slug": "serapis",
-      "canonical_name": "Serapis",
+      "slug": "yama",
+      "canonical_name": "Yama",
       "task": "new",
       "tier": "rich",
       "jenis": "dewa",
-      "qid": "Q214554"
+      "qid": "Q45097"
     },
     {
-      "slug": "sol-invictus",
-      "canonical_name": "Sol Invictus",
+      "slug": "radha",
+      "canonical_name": "Rādhā",
       "task": "new",
       "tier": "rich",
       "jenis": "dewa",
-      "qid": "Q214494"
+      "qid": "Q113904"
+    },
+    {
+      "slug": "naga",
+      "canonical_name": "Nāga",
+      "task": "enrich",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q271990"
+    },
+    {
+      "slug": "deva-hinduism",
+      "canonical_name": "Deva (Hinduism)",
+      "task": "enrich",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q211258"
+    },
+    {
+      "slug": "apsara",
+      "canonical_name": "Apsara",
+      "task": "enrich",
+      "tier": "rich",
+      "jenis": "roh",
+      "qid": "Q148773"
+    },
+    {
+      "slug": "devi",
+      "canonical_name": "Devi",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q494511"
+    },
+    {
+      "slug": "aditi",
+      "canonical_name": "Aditi",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q31666"
+    },
+    {
+      "slug": "vayu",
+      "canonical_name": "Vayu",
+      "task": "new",
+      "tier": "rich",
+      "jenis": "dewa",
+      "qid": "Q473731"
+    },
+    {
+      "slug": "sati",
+      "canonical_name": "Sati",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q1796078"
+    },
+    {
+      "slug": "yaksha",
+      "canonical_name": "Yaksha",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "roh",
+      "qid": "Q6011093"
+    },
+    {
+      "slug": "kamadeva",
+      "canonical_name": "Kamadeva",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q113155"
+    },
+    {
+      "slug": "kubera",
+      "canonical_name": "Kubera",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q223617"
+    },
+    {
+      "slug": "chandra",
+      "canonical_name": "Chandra",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q1061795"
+    },
+    {
+      "slug": "ganga",
+      "canonical_name": "Gangā",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q580113"
+    },
+    {
+      "slug": "mara-papiyan",
+      "canonical_name": "Māra Pāpīyān",
+      "task": "new",
+      "tier": "core",
+      "jenis": "iblis/setan",
+      "qid": "Q1352021"
+    },
+    {
+      "slug": "balarama",
+      "canonical_name": "Balarama",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q1061606"
+    },
+    {
+      "slug": "rudra",
+      "canonical_name": "Rudra",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q855310"
+    },
+    {
+      "slug": "karna",
+      "canonical_name": "Karṇa",
+      "task": "new",
+      "tier": "core",
+      "jenis": "tokoh legenda",
+      "qid": "Q2727397"
+    },
+    {
+      "slug": "nandi-hinduism",
+      "canonical_name": "Nandi (Hinduism)",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q841255"
+    },
+    {
+      "slug": "tirthankara",
+      "canonical_name": "Tirthankara",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q1077817"
+    },
+    {
+      "slug": "vairocana",
+      "canonical_name": "Vairocana",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q239847"
+    },
+    {
+      "slug": "ardhanarisvara",
+      "canonical_name": "Ardhanārīśvara",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q639313"
+    },
+    {
+      "slug": "daksha",
+      "canonical_name": "Daksha",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q1157763"
+    },
+    {
+      "slug": "tara",
+      "canonical_name": "Tārā",
+      "task": "new",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q746709"
+    },
+    {
+      "slug": "bhairava",
+      "canonical_name": "Bhairava",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q854730"
+    },
+    {
+      "slug": "jagannath",
+      "canonical_name": "Jagannath",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q1370311"
+    },
+    {
+      "slug": "prithvi",
+      "canonical_name": "Prithvi",
+      "task": "new",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q1341130"
+    },
+    {
+      "slug": "sani",
+      "canonical_name": "Śani",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q1296733"
+    },
+    {
+      "slug": "airavata",
+      "canonical_name": "Airavata",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q440861"
+    },
+    {
+      "slug": "dakini",
+      "canonical_name": "Dakini",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q1127224"
+    },
+    {
+      "slug": "rahu",
+      "canonical_name": "Rahu",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q950298"
+    },
+    {
+      "slug": "vishvakarma",
+      "canonical_name": "Vishvakarma",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q61078183"
+    },
+    {
+      "slug": "dyaus-pita",
+      "canonical_name": "Dyaus Pita",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q1133509"
+    },
+    {
+      "slug": "gandharva",
+      "canonical_name": "Gandharva",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q1291498"
+    },
+    {
+      "slug": "shukra",
+      "canonical_name": "Shukra",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q572235"
+    },
+    {
+      "slug": "kumari",
+      "canonical_name": "Kumari",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q1064555"
+    },
+    {
+      "slug": "purusha",
+      "canonical_name": "Purusha",
+      "task": "new",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "qid": "Q1052353"
+    },
+    {
+      "slug": "sesa",
+      "canonical_name": "Śeṣa",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q2418874"
+    },
+    {
+      "slug": "adityas",
+      "canonical_name": "Ādityas",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q357630"
+    },
+    {
+      "slug": "bharat-mata",
+      "canonical_name": "Bhārat Mātā",
+      "task": "new",
+      "tier": "core",
+      "jenis": "dewa",
+      "qid": "Q2072991"
+    },
+    {
+      "slug": "makara",
+      "canonical_name": "Makara",
+      "task": "enrich",
+      "tier": "core",
+      "jenis": "makhluk campuran",
+      "qid": "Q1136842"
     }
   ]
 }

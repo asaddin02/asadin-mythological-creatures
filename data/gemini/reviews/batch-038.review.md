@@ -1,14 +1,14 @@
 # Review batch-038
 
-Diperiksa 2026-09-29T19:09:42.283Z. Berkas: batch-038.md, batch-038-fix-1.md.
+Diperiksa 2026-09-30T02:34:23.490Z. Berkas: batch-038.md, batch-038-fix-1.md.
 
 ## aten — lulus-otomatis
 
-Klaim 11 (unreachable 11), sumber 3, gambar 0.
+Klaim 11 (unreachable 8, exact 3), sumber 3, gambar 0.
 
 **manual**
 - `tier` Di bawah target rich: 11 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 11 kutipan tidak bisa dicek otomatis: www.ucl.ac.uk (HTTP 403); www.worldhistory.org (tidak bisa dibuka (timeout)).
+- `claims` 8 kutipan tidak bisa dicek otomatis: www.ucl.ac.uk (HTTP 403).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -19,19 +19,18 @@ Klaim 11 (unreachable 11), sumber 3, gambar 0.
 | aten-c05 | unreachable (HTTP 403) | www.ucl.ac.uk | Akhenaten's reform excluded the cult of other deities. | Akhenaten’s religious reforms were not entirely new, but his exclusion of the cult of other deities marks a break with traditions. |
 | aten-c06 | unreachable (HTTP 403) | www.ucl.ac.uk | The Great Hymn to Aten is a major source for Akhenaten's religious reform. | The Great Hymn to the Aten is our principal source for the radical reformulation of ancient Egyptian belief in the reign of Akhenaten. |
 | aten-c07 | unreachable (HTTP 403) | www.ucl.ac.uk | In the Great Hymn, Aten is praised as a giver of life. | Nurse in the womb, who gives breath to cause all he has made to live, |
-| aten-c08 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | Before Akhenaten's reform, Aten was a minor solar deity. | Aten was a minor solar deity who personified the light of the sun. |
-| aten-c09 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | After Akhenaten's death Tutankhamun moved the capital away from Akhetaten. | The city flourished until Akhenaten's death; afterwards, Tutankhamun moved the capital back to Memphis and then to Thebes. |
-| aten-c10 | unreachable (tidak bisa dibuka (timeout)) | www.worldhistory.org | Tutankhamun began restoring Egypt's earlier religious practices. | Tutankhamun initiated the measures to reverse his father's policies and return Egypt to the former beliefs and practices |
+| aten-c08 | exact | www.worldhistory.org | Before Akhenaten's reform, Aten was a minor solar deity. | Aten was a minor solar deity who personified the light of the sun. |
+| aten-c09 | exact | www.worldhistory.org | After Akhenaten's death Tutankhamun moved the capital away from Akhetaten. | The city flourished until Akhenaten's death; afterwards, Tutankhamun moved the capital back to Memphis and then to Thebes. |
+| aten-c10 | exact | www.worldhistory.org | Tutankhamun began restoring Egypt's earlier religious practices. | Tutankhamun initiated the measures to reverse his father's policies and return Egypt to the former beliefs and practices |
 | aten-c11 | unreachable (HTTP 403) | www.ucl.ac.uk | The Amarna temples had open spaces and offering altars. | The temples at Amarna present vast open spaces with altars for offerings and raised platforms. |
 
 
 ## diana — lulus-otomatis
 
-Klaim 10 (exact 8, unreachable 2), sumber 2, gambar 0.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 **manual**
 - `tier` Di bawah target rich: 10 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -43,8 +42,8 @@ Klaim 10 (exact 8, unreachable 2), sumber 2, gambar 0.
 | diana-c06 | exact | www.worldhistory.org | Roman art commonly portrays Diana with a bow and quiver. | In most works of Roman art, Diana is depicted armed with a bow and quiver of arrows |
 | diana-c07 | exact | www.worldhistory.org | Actaeon appears in one of Diana's best-known stories. | One of the best-known myths of Diana is that of Actaeon. |
 | diana-c08 | exact | www.worldhistory.org | In the Actaeon story, he is transformed into a deer after seeing Diana bathe. | he grew the horns of a stag, his hands became feet and his arms were changed into legs. |
-| diana-c09 | unreachable (HTTP 429) | www.metmuseum.org | An important Roman sanctuary of Diana stood at Aricia by Lake Nemi. | The most important sanctuary of Diana for the ancient Romans was located at Aricia, some eleven miles outside of Rome on the shore of lake Nemi |
-| diana-c10 | unreachable (HTTP 429) | www.metmuseum.org | A Met bronze statue depicts Artemis, known to Romans as Diana. | Artemis, known to the Romans as Diana, stands with her weight on her right leg, her left foot trailing. |
+| diana-c09 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | An important Roman sanctuary of Diana stood at Aricia by Lake Nemi. | The most important sanctuary of Diana for the ancient Romans was located at Aricia, some eleven miles outside of Rome on the shore of lake Nemi |
+| diana-c10 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | A Met bronze statue depicts Artemis, known to Romans as Diana. | Artemis, known to the Romans as Diana, stands with her weight on her right leg, her left foot trailing. |
 
 
 ## gaia — lulus-otomatis

@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-044",
-  "checked_at": "2026-09-30T01:20:46.478Z",
+  "checked_at": "2026-09-30T02:35:36.568Z",
   "files": [
     "batch-044.md",
     "batch-044-fix-1.md"
@@ -697,7 +697,7 @@
         {
           "level": "manual",
           "where": "claims",
-          "message": "3 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -840,8 +840,9 @@
           "statement_id": "Lernaean Hydra terkait dengan Statue base with the remains of the scene of Herakles and Iolaos fighting the Lernaean Hydra.",
           "quote": "Statue base with the remains of the scene of Herakles and Iolaos fighting the Lernaean Hydra.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250520125030id_/https://www.metmuseum.org/art/collection/search/242295",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "lernaean-hydra-c15",

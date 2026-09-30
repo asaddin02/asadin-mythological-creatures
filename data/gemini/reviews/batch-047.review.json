@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-047",
-  "checked_at": "2026-09-30T01:52:19.907Z",
+  "checked_at": "2026-09-30T02:36:27.355Z",
   "files": [
     "batch-047.md",
     "batch-047-fix-1.md",
@@ -18,13 +18,7 @@
         "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "2 kutipan tidak bisa dicek otomatis: whc.unesco.org (HTTP 403)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "surya-c01",
@@ -154,8 +148,9 @@
           "statement_id": "Kuil Konarak merupakan contoh besar arsitektur pemujaan Surya.",
           "quote": "The Sun Temple at Konârak, located on the eastern shores of the Indian subcontinent, is one of the outstanding examples of temple architecture and art",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 403"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260924041648id_/https://whc.unesco.org/en/list/246",
+          "detail": "HTTP 403; dicek lewat arsip Wayback"
         },
         {
           "id": "surya-c14",
@@ -165,8 +160,9 @@
           "statement_id": "Kuil itu menyerupai kereta dewa matahari dengan dua belas pasang roda dan tujuh kuda.",
           "quote": "the temple represents a chariot of the Sun God, with twelve pairs of wheels drawn by seven horses evoking its movement across the heavens.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 403"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260924041648id_/https://whc.unesco.org/en/list/246",
+          "detail": "HTTP 403; dicek lewat arsip Wayback"
         },
         {
           "id": "surya-c15",
@@ -368,13 +364,7 @@
         "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "14 kutipan tidak bisa dicek otomatis: www.worldhistory.org (tidak bisa dibuka (timeout)); www.metmuseum.org (HTTP 429)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "baal-c01",
@@ -384,8 +374,7 @@
           "statement_id": "Baal adalah dewa kesuburan dan hujan.",
           "quote": "Baal (also given as Ba'al) is a Canaanite-Phoenician god of fertility and weather, specifically rainstorms.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (timeout)"
+          "status": "exact"
         },
         {
           "id": "baal-c02",
@@ -395,8 +384,7 @@
           "statement_id": "Nama Baal juga gelar berarti penguasa bagi sejumlah dewa.",
           "quote": "The name was also used as a title, however, meaning \"Lord\" and was applied to a number of different deities throughout the ancient Near East.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (timeout)"
+          "status": "exact"
         },
         {
           "id": "baal-c03",
@@ -406,8 +394,7 @@
           "statement_id": "Penggalian Ugarit menemukan ribuan lempeng bertulis.",
           "quote": "Excavations of the ancient city of Ugarit (modern-day Ras Shamra, Syria) beginning in 1929 CE revealed thousands of cuneiform tablets",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (timeout)"
+          "status": "exact"
         },
         {
           "id": "baal-c04",
@@ -417,8 +404,7 @@
           "statement_id": "Baal kerap merujuk kepada Baal Hadad, dewa badai dan hujan.",
           "quote": "most frequently used to refer to Baal Hadad (also Ba'al Adad), the god of storms and rain",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (timeout)"
+          "status": "exact"
         },
         {
           "id": "baal-c05",
@@ -428,8 +414,7 @@
           "statement_id": "Di Ugarit, Baal disebut putra El dan tinggal di Gunung Zaphon.",
           "quote": "He is referenced as the son of El, the king of the gods, in Ugarit and is said to live in a palace on Mount Zaphon.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (timeout)"
+          "status": "exact"
         },
         {
           "id": "baal-c06",
@@ -439,8 +424,7 @@
           "statement_id": "Prasasti menampilkan Baal membawa gada dan petir.",
           "quote": "A stele from the site shows him with a club in one hand and a lightning bolt in the other",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (timeout)"
+          "status": "exact"
         },
         {
           "id": "baal-c07",
@@ -450,8 +434,7 @@
           "statement_id": "Kisah Baal melibatkan Yamm, dewa laut, dan Mot, dewa kematian.",
           "quote": "Yamm, god of the seas, and Mot, the god of death, were also closely associated with Baal through the stories about him",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (timeout)"
+          "status": "exact"
         },
         {
           "id": "baal-c08",
@@ -461,8 +444,7 @@
           "statement_id": "Tanah menjadi tandus ketika Baal tidak hadir.",
           "quote": "As he was the god of rain and fertility, the earth becomes barren in his absence",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (timeout)"
+          "status": "exact"
         },
         {
           "id": "baal-c09",
@@ -472,8 +454,7 @@
           "statement_id": "Anat menyerang dan membunuh Mot.",
           "quote": "Anat, swearing revenge, attacks and kills Mot.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (timeout)"
+          "status": "exact"
         },
         {
           "id": "baal-c10",
@@ -483,8 +464,7 @@
           "statement_id": "Tafsir Baal sebagai dewa yang mati dan bangkit diperdebatkan.",
           "quote": "this has been challenged as Baal does not actually die and return to life.",
           "context": "scholarly-interpretation",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (timeout)"
+          "status": "exact"
         },
         {
           "id": "baal-c11",
@@ -494,8 +474,9 @@
           "statement_id": "Baal dipandang sebagai dewa perang dan badai pembawa kesuburan.",
           "quote": "In a land dependent upon life-sustaining rain, Baal was both a warrior god and the storm god who brought fertility.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260413221615id_/https://www.metmuseum.org/de/essays/the-gods-and-goddesses-of-canaan",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "baal-c12",
@@ -505,8 +486,9 @@
           "statement_id": "Baal bertakhta di Gunung Zaphon.",
           "quote": "Baal was enthroned on Mount Zaphon, identified with Jebel Aqra",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260413221615id_/https://www.metmuseum.org/de/essays/the-gods-and-goddesses-of-canaan",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "baal-c13",
@@ -516,8 +498,9 @@
           "statement_id": "Baal mengalahkan Yamm dengan gada.",
           "quote": "He pummels Yamm with his mace and defeats him.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260413221615id_/https://www.metmuseum.org/de/essays/the-gods-and-goddesses-of-canaan",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "baal-c14",
@@ -527,8 +510,9 @@
           "statement_id": "Baal digambarkan memakai helm bertanduk.",
           "quote": "He wears a horned helmet emblematic of power and strength.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260413221615id_/https://www.metmuseum.org/de/essays/the-gods-and-goddesses-of-canaan",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "baal-c15",

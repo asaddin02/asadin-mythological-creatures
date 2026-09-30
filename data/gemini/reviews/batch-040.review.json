@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-040",
-  "checked_at": "2026-09-30T00:32:06.412Z",
+  "checked_at": "2026-09-30T02:35:00.461Z",
   "files": [
     "batch-040.md",
     "batch-040-fix-1.md"
@@ -26,7 +26,7 @@
         {
           "level": "manual",
           "where": "claims",
-          "message": "4 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429); sacred-texts.com (HTTP 403)."
+          "message": "1 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -149,8 +149,9 @@
           "statement_id": "Himne pertama Rig Weda memuji Agni sebagai imam dan pelayan kurban.",
           "quote": "1 I Laud Agni, the chosen Priest, God, minister of sacrifice,",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 403"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250326044150id_/https://sacred-texts.com/hin/rigveda/rv01001.htm",
+          "detail": "HTTP 403; dicek lewat arsip Wayback"
         },
         {
           "id": "agni-c13",
@@ -160,8 +161,9 @@
           "statement_id": "Himne itu menyebut Agni layak dipuji oleh orang hidup dan para resi terdahulu.",
           "quote": "2 Worthy is Agni to be praised by living as by ancient seers.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 403"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250326044150id_/https://sacred-texts.com/hin/rigveda/rv01001.htm",
+          "detail": "HTTP 403; dicek lewat arsip Wayback"
         },
         {
           "id": "agni-c14",
@@ -171,8 +173,9 @@
           "statement_id": "Himne itu menyebut Agni penguasa kurban dan penjaga hukum abadi.",
           "quote": "8 Ruler of sacrifices, guard of Law eternal, radiant One,",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 403"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250326044150id_/https://sacred-texts.com/hin/rigveda/rv01001.htm",
+          "detail": "HTTP 403; dicek lewat arsip Wayback"
         }
       ],
       "images": []
@@ -190,7 +193,7 @@
         {
           "level": "manual",
           "where": "claims",
-          "message": "5 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+          "message": "3 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -302,8 +305,9 @@
           "statement_id": "Sebuah plak logam menampilkan Hathor sebagai sapi bertanduk dengan cakram matahari.",
           "quote": "This metal plaque depicts a cow with a sundisk between its horns, which is a common representation of the goddess Hathor.",
           "context": "scholarly-interpretation",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20251210025852id_/https://www.metmuseum.org/art/collection/search/549406",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "hathor-c12",
@@ -313,8 +317,9 @@
           "statement_id": "Plak itu ditemukan dekat tempat pemujaan Hathor di Deir el-Bahari.",
           "quote": "The piece was excavated at Deir el-Bahari, close to a shrine for this goddess.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20251210025852id_/https://www.metmuseum.org/art/collection/search/549406",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "hathor-c13",
@@ -689,11 +694,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target rich: 14 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -825,8 +825,9 @@
           "statement_id": "Sarkofagus Romawi menampilkan Selene turun dari kereta untuk menemui Endymion yang berbaring.",
           "quote": "In the center, Selene, the moon goddess, alights from her chariot to visit her beloved, the shepherd Endymion, who reclines at the right.",
           "context": "scholarly-interpretation",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260310153539id_/https://www.metmuseum.org/art/collection/search/254590",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "selene-c14",
@@ -836,8 +837,9 @@
           "statement_id": "Kisah Endymion dipahat pada bagian depan sarkofagus.",
           "quote": "The story of Endymion is shown in strongly undercut relief on the front of the sarcophagus.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260310153539id_/https://www.metmuseum.org/art/collection/search/254590",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         }
       ],
       "images": []

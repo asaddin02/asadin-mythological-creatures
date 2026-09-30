@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-028",
-  "checked_at": "2026-09-29T18:14:45.120Z",
+  "checked_at": "2026-09-30T02:31:47.307Z",
   "files": [
     "batch-028.md",
     "batch-028-fix-1.md",
@@ -23,11 +23,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target rich: 8 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "1 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -109,8 +104,9 @@
           "statement_id": "Ammon dari Afrika Utara disamakan dengan Jupiter sebagai Jupiter Ammon.",
           "quote": "The Romans considered the revered North African oracle Ammon an embodiment of Jupiter, and referred to this syncretic dual divinity as Jupiter Ammon.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260313090015id_/https://www.metmuseum.org/art/collection/search/195179",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         }
       ],
       "images": []
@@ -129,11 +125,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target rich: 8 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -175,8 +166,9 @@
           "statement_id": "Ganesha adalah putra Shiva dan Parvati dan diberi persembahan sebelum tugas penting dimulai.",
           "quote": "The potbellied, elephant-headed Hindu god Ganesha, son of Shiva and Parvati, is venerated throughout India. He is believed to bestow success and abundance through his removal of obstacles. Before any important task is begun, an offering is made to Ganesha.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260412095618id_/https://www.metmuseum.org/art/collection/search/37397",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "ganesha-c05",
@@ -206,8 +198,9 @@
           "statement_id": "Pada patung museum Ganesha memegang tali, kapak, manisan, dan gadingnya sendiri.",
           "quote": "Here, his upper left hand holds a lasso; the upper right, a battle-ax; the lower left, a sweet; and the lower right, one of his own tusks",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260412095618id_/https://www.metmuseum.org/art/collection/search/37397",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "ganesha-c08",
@@ -225,7 +218,7 @@
     {
       "slug": "michael",
       "file": "batch-028-fix-2.md",
-      "verdict": "lulus-otomatis",
+      "verdict": "perlu-perbaikan",
       "counts": {
         "claims": 6,
         "sources": 4,
@@ -238,9 +231,14 @@
           "message": "Di bawah target rich: 6 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
         },
         {
+          "level": "error",
+          "where": "claims (michael-c05)",
+          "message": "Kutipan tidak persis sama dengan teks di https://bible.usccb.org/bible/revelation/12 (hanya 95% cocok). Buka lagi halamannya dan salin ulang kutipannya kata per kata."
+        },
+        {
           "level": "manual",
           "where": "claims",
-          "message": "4 kutipan tidak bisa dicek otomatis: bible.usccb.org (HTTP 403); www.metmuseum.org (HTTP 429)."
+          "message": "1 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -272,8 +270,7 @@
           "statement_id": "Michael adalah malaikat agung yang menjaga Israel.",
           "quote": "Michael: the archangel, guardian and champion of Israel",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 403"
+          "status": "exact"
         },
         {
           "id": "michael-c04",
@@ -283,8 +280,7 @@
           "statement_id": "Michael memimpin para malaikat melawan naga dalam Kitab Wahyu.",
           "quote": "Then war broke out in heaven; Michael and his angels battled against the dragon. The dragon and its angels fought back",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 403"
+          "status": "loose"
         },
         {
           "id": "michael-c05",
@@ -294,8 +290,8 @@
           "statement_id": "Naga yang dihadapi Michael disebut Iblis atau Satan dan dilempar ke bumi.",
           "quote": "The huge dragon, the ancient serpent, who is called the Devil and Satan, who deceived the whole world, was thrown down to earth",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 403"
+          "status": "partial",
+          "detail": "95% potongan 5 kata cocok"
         },
         {
           "id": "michael-c06",
@@ -325,11 +321,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target rich: 6 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "1 kutipan tidak bisa dicek otomatis: www.smithsonianmag.com (HTTP 403)."
         }
       ],
       "claims": [
@@ -371,8 +362,9 @@
           "statement_id": "Makam di Polandia ditemukan dengan sabit atau batu yang ditaruh di tubuh jasad.",
           "quote": "They all had either sickles placed across their neck or body or large rocks stacked under their chin",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 403"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260924170546id_/https://www.smithsonianmag.com/smart-news/17th-century-poland-vampires-werent-boogeymen-out-town-girl-or-boy-next-door-180953476/",
+          "detail": "HTTP 403; dicek lewat arsip Wayback"
         },
         {
           "id": "vampire-c05",

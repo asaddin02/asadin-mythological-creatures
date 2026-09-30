@@ -1,6 +1,6 @@
 # Review batch-029
 
-Diperiksa 2026-09-29T18:19:46.948Z. Berkas: batch-029.md, batch-029-fix-1.md.
+Diperiksa 2026-09-30T02:31:58.963Z. Berkas: batch-029.md, batch-029-fix-1.md.
 
 ## demeter — lulus-otomatis
 
@@ -80,11 +80,10 @@ Klaim 9 (exact 9), sumber 3, gambar 0.
 
 ## indra — lulus-otomatis
 
-Klaim 7 (exact 6, unreachable 1), sumber 3, gambar 0.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 **manual**
 - `tier` Di bawah target rich: 7 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 1 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -94,5 +93,5 @@ Klaim 7 (exact 6, unreachable 1), sumber 3, gambar 0.
 | indra-c04 | exact | www.worldhistory.org | Indra killed Vritra, who blocked rivers and caused drought. | these tremendous coils were blocking up the rivers and streams and causing a great drought. So horrifying was Vritra that none of the gods dared intervene and it was only Indra who found the courage, fortified with soma, to slay the beast with one of his thunderbolts. |
 | indra-c05 | exact | www.worldhistory.org | Indra was important in Vedic religion and later in Hindu and Buddhist traditions. | Indra was the most important god in the Vedic religion and he later became a major figure in Hinduism and an important deity in Buddhism |
 | indra-c06 | exact | www.worldhistory.org | Indra is known as Sakra in Buddhism. | Indra is known as Sakra in Buddhism and he rules the 33 gods. |
-| indra-c07 | unreachable (HTTP 429) | www.metmuseum.org | Depictions of Vajrapani adopted the vajra scepter associated with Indra. | appropriated the lighting-bolt scepter (Skt: vajra) of Indra, the Vedic storm god, and repurposed it. |
+| indra-c07 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Depictions of Vajrapani adopted the vajra scepter associated with Indra. | appropriated the lighting-bolt scepter (Skt: vajra) of Indra, the Vedic storm god, and repurposed it. |
 

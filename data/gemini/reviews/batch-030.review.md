@@ -1,21 +1,20 @@
 # Review batch-030
 
-Diperiksa 2026-09-29T18:26:33.563Z. Berkas: batch-030.md, batch-030-fix-1.md.
+Diperiksa 2026-09-30T02:32:02.462Z. Berkas: batch-030.md, batch-030-fix-1.md.
 
 ## odin — lulus-otomatis
 
-Klaim 7 (exact 6, unreachable 1), sumber 3, gambar 0.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 **manual**
 - `tier` Di bawah target rich: 7 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 1 kutipan tidak bisa dicek otomatis: en.wikipedia.org (tidak bisa dibuka (fetch failed)).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | odin-c01 | exact | www.worldhistory.org | Odin is a leading Norse god depicted as wise and one-eyed. | Odin (Old Norse: Óðinn) is the main god in Norse mythology. Described as an immensely wise, one-eyed old man |
 | odin-c02 | exact | www.worldhistory.org | Odin is associated with poetry, the dead, runes, and magic. | the god of poetry, of the dead, of runes, and of magic. |
 | odin-c03 | exact | www.worldhistory.org | Odin's two ravens are Huginn and Muninn. | Odin's two ravens, Huginn ('thought') and Muninn ('wisdom') are very old mythical elements |
-| odin-c04 | unreachable (tidak bisa dibuka (fetch failed)) | en.wikipedia.org | Odin is killed by Fenrir at Ragnarök. | In the mythic future, Odin leads the einherjar at Ragnarök, where he is killed by the monstrous wolf Fenrir. |
+| odin-c04 | exact | en.wikipedia.org | Odin is killed by Fenrir at Ragnarök. | In the mythic future, Odin leads the einherjar at Ragnarök, where he is killed by the monstrous wolf Fenrir. |
 | odin-c05 | exact | en.natmus.dk | Odin's tales survive in Edda writings and Icelandic sagas recorded in the Middle Ages. | From written sources such as Snorri's Edda, other Edda poems and the Icelandic sagas, which was written down in the Middle Ages, we know the stories of Odin, Thor and the other Norse gods. |
 | odin-c06 | exact | www.worldhistory.org | Odin gathers fallen warriors in Valhalla. | gathers slain warriors around him in Valhalla ('hall of the slain') |
 | odin-c07 | exact | www.worldhistory.org | The ravens fly to gather news for Odin. | They fly around the world gathering news, and when they return, they sit on Odin's shoulder and whisper their tidings into his ear. |
@@ -23,11 +22,10 @@ Klaim 7 (exact 6, unreachable 1), sumber 3, gambar 0.
 
 ## ra-q1252904 — lulus-otomatis
 
-Klaim 8 (exact 4, unreachable 4), sumber 2, gambar 0.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 **manual**
 - `tier` Di bawah target rich: 8 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 4 kutipan tidak bisa dicek otomatis: arce.org (tidak bisa dibuka (timeout)).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -35,49 +33,47 @@ Klaim 8 (exact 4, unreachable 4), sumber 2, gambar 0.
 | ra-q1252904-c02 | exact | www.worldhistory.org | Ra is the Egyptian word for sun. | Ra is the Egyptian word for 'sun'. |
 | ra-q1252904-c03 | exact | www.worldhistory.org | Ra crosses the sky in a barque by day and descends to the underworld at sunset. | As a solar deity, Ra embodied the power of the sun but was also thought to be the sun itself, envisioned as the great god riding in his barge across the heavens throughout the day and descending into the underworld at sunset. |
 | ra-q1252904-c04 | exact | www.worldhistory.org | The serpent Apophis attacks Ra in the underworld each night. | As he made his way through the darkness beneath the earth, he was attacked nightly by the giant serpent Apophis (also known as Apep) who tried to prevent the sun from rising and so destroy all life on earth. |
-| ra-q1252904-c05 | unreachable (tidak bisa dibuka (timeout)) | arce.org | In the creation story, the deity manifests as Ra on an island emerging from water. | An island emerged from the water to support this divinity, who manifested itself in the form of Ra, the sun god of Egypt. |
-| ra-q1252904-c06 | unreachable (tidak bisa dibuka (timeout)) | arce.org | At dawn Ra can appear as the falcon Hor-akhty. | When Ra appeared at dawn in the Eastern horizon, he took the form of a falcon, known as Hor-akhty, or Horus of the Horizon, the falcon who flies high in the sky (Horus = one who is high up.) |
-| ra-q1252904-c07 | unreachable (tidak bisa dibuka (timeout)) | arce.org | At sunset Ra becomes Atum. | At sunset he became Atum, an old man who had completed his life cycle and was ready to disappear to be regenerated for a new day. |
-| ra-q1252904-c08 | unreachable (tidak bisa dibuka (timeout)) | arce.org | Ra's name also appears in Hollywood films and video games. | The word Ra also appears in everything from Hollywood films to video games. |
+| ra-q1252904-c05 | exact | arce.org | In the creation story, the deity manifests as Ra on an island emerging from water. | An island emerged from the water to support this divinity, who manifested itself in the form of Ra, the sun god of Egypt. |
+| ra-q1252904-c06 | exact | arce.org | At dawn Ra can appear as the falcon Hor-akhty. | When Ra appeared at dawn in the Eastern horizon, he took the form of a falcon, known as Hor-akhty, or Horus of the Horizon, the falcon who flies high in the sky (Horus = one who is high up.) |
+| ra-q1252904-c07 | exact | arce.org | At sunset Ra becomes Atum. | At sunset he became Atum, an old man who had completed his life cycle and was ready to disappear to be regenerated for a new day. |
+| ra-q1252904-c08 | exact | arce.org | Ra's name also appears in Hollywood films and video games. | The word Ra also appears in everything from Hollywood films to video games. |
 
 
 ## hestia — lulus-otomatis
 
-Klaim 7 (unreachable 5, exact 2), sumber 2, gambar 0.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 **manual**
 - `tier` Di bawah target rich: 7 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 5 kutipan tidak bisa dicek otomatis: www.worldhistory.org (tidak bisa dibuka (fetch failed)).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| hestia-c01 | unreachable (tidak bisa dibuka (fetch failed)) | www.worldhistory.org | Hestia is the Greek goddess of the hearth, home, and hospitality. | Hestia was the Greek virgin goddess of the hearth, home, and hospitality. |
-| hestia-c02 | unreachable (tidak bisa dibuka (fetch failed)) | www.worldhistory.org | Hestia is the eldest daughter of Cronus and Rhea. | In Greek mythology, she is the eldest daughter of Cronus and Rhea. |
-| hestia-c03 | unreachable (tidak bisa dibuka (fetch failed)) | www.worldhistory.org | The Romans knew her as Vesta. | To the Romans, the goddess was known as Vesta. |
-| hestia-c04 | unreachable (tidak bisa dibuka (fetch failed)) | www.worldhistory.org | Hestia remained unmarried despite the interest of Apollo, Poseidon, and Priapus. | Hestia never married and remained a virgin, despite the amorous attentions of Apollo, Poseidon, and Priapus, the fertility god. |
-| hestia-c05 | unreachable (tidak bisa dibuka (fetch failed)) | www.worldhistory.org | Hestia personified the hearth and received offerings in temples. | The goddess was the personification of the hearth and so she received sacrifices in all the temples of the gods as each one had its own hearth. |
+| hestia-c01 | exact | www.worldhistory.org | Hestia is the Greek goddess of the hearth, home, and hospitality. | Hestia was the Greek virgin goddess of the hearth, home, and hospitality. |
+| hestia-c02 | exact | www.worldhistory.org | Hestia is the eldest daughter of Cronus and Rhea. | In Greek mythology, she is the eldest daughter of Cronus and Rhea. |
+| hestia-c03 | exact | www.worldhistory.org | The Romans knew her as Vesta. | To the Romans, the goddess was known as Vesta. |
+| hestia-c04 | exact | www.worldhistory.org | Hestia remained unmarried despite the interest of Apollo, Poseidon, and Priapus. | Hestia never married and remained a virgin, despite the amorous attentions of Apollo, Poseidon, and Priapus, the fertility god. |
+| hestia-c05 | exact | www.worldhistory.org | Hestia personified the hearth and received offerings in temples. | The goddess was the personification of the hearth and so she received sacrifices in all the temples of the gods as each one had its own hearth. |
 | hestia-c06 | exact | www.theoi.com | Hestia governed the sacrificial flame and received a share of each offering. | Hestia was also the goddess of the sacrificial flame and received a share of every sacrifice to the gods. |
 | hestia-c07 | exact | www.theoi.com | Athenian vase paintings show Hestia veiled and sometimes holding a flowering branch. | Hestia was depicted in Athenian vase painting as a modestly veiled woman sometimes holding a flowered branch (perhaps a chaste-tree). |
 
 
 ## isis — lulus-otomatis
 
-Klaim 8 (exact 2, unreachable 6), sumber 3, gambar 0.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 **manual**
 - `tier` Di bawah target rich: 8 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 6 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | isis-c01 | exact | www.worldhistory.org | Isis is an ancient Egyptian goddess. | Isis is an ancient Egyptian goddess who became the most popular and enduring of all the Egyptian deities. |
-| isis-c02 | unreachable (HTTP 429) | www.metmuseum.org | Isis's name is first attested in the Fifth Dynasty Pyramid Texts. | Isis’ name is first attested in the fifth dynasty in the Pyramid texts. |
-| isis-c03 | unreachable (HTTP 429) | www.metmuseum.org | Isis is the wife of Osiris and mother of Horus. | She was the wife of Osiris and the mother of Horus, and thus was symbolically mother to the pharaoh. |
-| isis-c04 | unreachable (HTTP 429) | www.metmuseum.org | According to the myth, Isis revived Osiris after Seth killed him. | According to this myth Isis was able to revive Osiris after he had been killed by his brother Seth and she became pregnant with their son Horus. |
-| isis-c05 | unreachable (HTTP 429) | www.metmuseum.org | Isis nurtured Horus and protected him from Seth. | After Horus’ birth, Isis nurtured her child and protected him from Seth and other dangers. |
-| isis-c06 | unreachable (HTTP 429) | www.metmuseum.org | A statuette shows Isis nursing Horus. | This statuette shows the goddess in her most beloved pose, nursing her son Horus (known also as the lactans pose). |
+| isis-c02 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Isis's name is first attested in the Fifth Dynasty Pyramid Texts. | Isis’ name is first attested in the fifth dynasty in the Pyramid texts. |
+| isis-c03 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Isis is the wife of Osiris and mother of Horus. | She was the wife of Osiris and the mother of Horus, and thus was symbolically mother to the pharaoh. |
+| isis-c04 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | According to the myth, Isis revived Osiris after Seth killed him. | According to this myth Isis was able to revive Osiris after he had been killed by his brother Seth and she became pregnant with their son Horus. |
+| isis-c05 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Isis nurtured Horus and protected him from Seth. | After Horus’ birth, Isis nurtured her child and protected him from Seth and other dangers. |
+| isis-c06 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | A statuette shows Isis nursing Horus. | This statuette shows the goddess in her most beloved pose, nursing her son Horus (known also as the lactans pose). |
 | isis-c07 | exact | www.worldhistory.org | Isis's cult began in the Nile Delta and spread throughout Egypt. | Her cult began in the Nile Delta and her most important sanctuary was there at the shrine of Behbeit El-Hagar, but worship of Isis eventually spread to all parts of Egypt. |
-| isis-c08 | unreachable (HTTP 429) | www.metmuseum.org | Statuettes of Isis and Horus emphasize her role as life-giver and protector. | The abundance of statuettes in this particular pose demonstrate some of the qualities for which Isis was most valued in the first millennium BC: her role as a life-giver and protector. |
+| isis-c08 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Statuettes of Isis and Horus emphasize her role as life-giver and protector. | The abundance of statuettes in this particular pose demonstrate some of the qualities for which Isis was most valued in the first millennium BC: her role as a life-giver and protector. |
 
 
 ## kali — lulus-otomatis

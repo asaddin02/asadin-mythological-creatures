@@ -1,17 +1,16 @@
 # Review batch-039
 
-Diperiksa 2026-09-29T19:17:36.730Z. Berkas: batch-039.md, batch-039-fix-1.md, batch-039-fix-2.md.
+Diperiksa 2026-09-30T02:34:40.314Z. Berkas: batch-039.md, batch-039-fix-1.md, batch-039-fix-2.md.
 
 ## minotaur-q129866 — perlu-perbaikan
 
-Klaim 10 (exact 8, unreachable 2), sumber 2, gambar 0.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 **error**
 - `slug` Makhluk ini sudah ada di Mythics (minotaur).
 
 **manual**
 - `tier` Di bawah target rich: 10 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -23,8 +22,8 @@ Klaim 10 (exact 8, unreachable 2), sumber 2, gambar 0.
 | minotaur-q129866-c06 | exact | www.worldhistory.org | This source also names the Minotaur Asterion. | the Minotaur's birth name, Asterion, in ancient Greek "ἀστέριον" means "starry one" |
 | minotaur-q129866-c07 | exact | www.worldhistory.org | Ariadne gave Theseus thread to find his way out of the Labyrinth. | Following Daedalus' instructions, she handed Theseus a ball of thread to help him find his way out of the Labyrinth. |
 | minotaur-q129866-c08 | exact | www.worldhistory.org | Accounts vary on whether Theseus killed the Minotaur with his fists or Aegeus' sword. | He found the Minotaur in the furthest corner of the Labyrinth and killed him with the jabs of his fist (or in other accounts, he sneaks in the sword of Aegeus and slays the Minotaur with it). |
-| minotaur-q129866-c09 | unreachable (HTTP 429) | www.metmuseum.org | A Greek amphora at the Met depicts Theseus killing the Minotaur. | This small neck-amphora shows Theseus slaying the Minotaur, the half-man, half-bull who lived in the Labyrinth at Knossos. |
-| minotaur-q129866-c10 | unreachable (HTTP 429) | www.metmuseum.org | Theseus and the Minotaur became a popular subject in Archaic Athenian vase painting. | the subject of Theseus and the Minotaur became a popular scene in Athenian vase painting of the Archaic period. |
+| minotaur-q129866-c09 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | A Greek amphora at the Met depicts Theseus killing the Minotaur. | This small neck-amphora shows Theseus slaying the Minotaur, the half-man, half-bull who lived in the Labyrinth at Knossos. |
+| minotaur-q129866-c10 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Theseus and the Minotaur became a popular subject in Archaic Athenian vase painting. | the subject of Theseus and the Minotaur became a popular scene in Athenian vase painting of the Archaic period. |
 
 
 ## nymph — lulus-otomatis
@@ -73,11 +72,10 @@ Klaim 11 (exact 11), sumber 2, gambar 0.
 
 ## vulcan — lulus-otomatis
 
-Klaim 10 (exact 8, unreachable 2), sumber 2, gambar 0.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 **manual**
 - `tier` Di bawah target rich: 10 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -89,32 +87,32 @@ Klaim 10 (exact 8, unreachable 2), sumber 2, gambar 0.
 | vulcan-c06 | exact | www.worldhistory.org | Vulcan made a trapped golden throne for Juno. | Vulcan fashioned a beautiful golden throne for Juno, but it contained a number of hidden springs. |
 | vulcan-c07 | exact | www.worldhistory.org | In a Roman myth Vulcan opens Jupiter's head and Minerva emerges. | Finally, Jupiter appealed to Vulcan to open up his head with an axe. Vulcan quickly complied, and Minerva sprang forth, fully grown and clad in her armor. |
 | vulcan-c08 | exact | www.worldhistory.org | In the Aeneid Venus asks Vulcan to forge arms for Aeneas. | Venus is concerned for her son Aeneas' safety and appeals to her husband Vulcan to make him weapons and armor. |
-| vulcan-c09 | unreachable (HTTP 429) | www.metmuseum.org | Renaissance art often depicts Vulcan as a lame blacksmith. | In Renaissance art, the Roman god of fire is usually shown in the character of a crippled blacksmith. |
-| vulcan-c10 | unreachable (HTTP 429) | www.metmuseum.org | Vulcan was regarded as patron of workers with molten metal. | As patron of those who worked with molten metal, Vulcan must have had a special meaning for the bronze artist. |
+| vulcan-c09 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Renaissance art often depicts Vulcan as a lame blacksmith. | In Renaissance art, the Roman god of fire is usually shown in the character of a crippled blacksmith. |
+| vulcan-c10 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Vulcan was regarded as patron of workers with molten metal. | As patron of those who worked with molten metal, Vulcan must have had a special meaning for the bronze artist. |
 
 
 ## garuda-q188676 — perlu-perbaikan
 
-Klaim 15 (unreachable 9, exact 6), sumber 4, gambar 0.
+Klaim 15 (exact 10, unreachable 5), sumber 4, gambar 0.
 
 **error**
 - `slug` Makhluk ini sudah ada di Mythics (garuda).
 
 **manual**
-- `claims` 9 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429); asia.si.edu (HTTP 403).
+- `claims` 5 kutipan tidak bisa dicek otomatis: asia.si.edu (HTTP 403); www.metmuseum.org (HTTP 429).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| garuda-q188676-c01 | unreachable (HTTP 429) | www.metmuseum.org | Garuda is a Hindu god combining human and bird features, associated with the sun and slaying evil serpents. | Garuda, the Hindu god who is part man and part bird, symbolizes the power of the sun and is known for slaying evil serpents. |
-| garuda-q188676-c02 | unreachable (HTTP 429) | www.metmuseum.org | In art, Garuda usually appears as Vishnu's mount. | In art he usually appears as the mount or vehicle of Vishnu. |
+| garuda-q188676-c01 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | Garuda is a Hindu god combining human and bird features, associated with the sun and slaying evil serpents. | Garuda, the Hindu god who is part man and part bird, symbolizes the power of the sun and is known for slaying evil serpents. |
+| garuda-q188676-c02 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | In art, Garuda usually appears as Vishnu's mount. | In art he usually appears as the mount or vehicle of Vishnu. |
 | garuda-q188676-c03 | exact | www.worldhistory.org | Garuda traditionally has a human torso and arms with the wings, head, beak, and talons of an eagle or vulture. | The mythological bird creature Garuda traditionally has the torso and arms of a man and the wings, head, beak and talons of an eagle or vulture. |
 | garuda-q188676-c04 | exact | www.worldhistory.org | In this account, Garuda has a gold body, red wings, and a white face. | His body is gold in colour, his wings are red and his face is white. |
 | garuda-q188676-c05 | exact | www.worldhistory.org | This account names Unnati or Vinayaka as his wife and Sampati as his son. | Garuda's wife is Unnati (or Vinayaka in other versions) and his son is Sampati, another mythical bird and ally of Rama. |
 | garuda-q188676-c06 | exact | www.worldhistory.org | This account calls Garuda the offspring of Kasyapa and Vinata, with Tarksya in other versions. | Garuda is the offspring of Kasyapa and Vinata (or also Tarksya in other versions). |
 | garuda-q188676-c07 | exact | www.worldhistory.org | In a Hindu story, Garuda tries to take the sacred amrta from the gods. | In perhaps the most famous episode from Hindu mythology involving Garuda, the giant bird attempted to steal from the gods the sacred amrta or 'water of life'. |
 | garuda-q188676-c08 | exact | www.worldhistory.org | Garuda needed the amrta to free his mother from Kadru. | he needed the amrta as a ransom to free his mother from the clutches of Kadru |
-| garuda-q188676-c09 | unreachable (HTTP 429) | www.metmuseum.org | A Javanese tale describes Garuda stealing an elixir of immortality guarded by two poisonous serpents. | In a tale well known to the Javanese, Garuda stole the elixir of immortality from the gods, who had thought it was well protected by two poisonous serpents from the realm of the gods. |
-| garuda-q188676-c10 | unreachable (HTTP 429) | www.metmuseum.org | The Javanese bronze depicts Garuda carrying Krishna, an avatar of Vishnu. | Here Garuda carries Krishna, an avatar of Vishnu, who not only has borrowed Vishnu's mount but also holds his war discus (chakra). |
+| garuda-q188676-c09 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | A Javanese tale describes Garuda stealing an elixir of immortality guarded by two poisonous serpents. | In a tale well known to the Javanese, Garuda stole the elixir of immortality from the gods, who had thought it was well protected by two poisonous serpents from the realm of the gods. |
+| garuda-q188676-c10 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | The Javanese bronze depicts Garuda carrying Krishna, an avatar of Vishnu. | Here Garuda carries Krishna, an avatar of Vishnu, who not only has borrowed Vishnu's mount but also holds his war discus (chakra). |
 | garuda-q188676-c11 | unreachable (HTTP 403) | asia.si.edu | The Smithsonian describes Garuda as a divine eagle carrying Vishnu in flight. | The divine eagle Garuda carries the Hindu god Vishnu in flight. |
 | garuda-q188676-c12 | unreachable (HTTP 403) | asia.si.edu | In the Smithsonian's sculpture, Garuda's snake ornaments are linked to his victory over serpents. | Garuda wears snakes because, having defeated them in battle, the serpents have become his devotees. |
 | garuda-q188676-c13 | unreachable (HTTP 403) | asia.si.edu | This sculpture once topped a pillar facing a Vishnu temple. | This sculpture of Garuda originally topped a pillar facing a temple dedicated to the Hindu god Vishnu. |

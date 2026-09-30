@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-039",
-  "checked_at": "2026-09-29T19:17:36.730Z",
+  "checked_at": "2026-09-30T02:34:40.314Z",
   "files": [
     "batch-039.md",
     "batch-039-fix-1.md",
@@ -28,11 +28,6 @@
           "level": "error",
           "where": "slug",
           "message": "Makhluk ini sudah ada di Mythics (minotaur)."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -124,8 +119,9 @@
           "statement_id": "Amfora Yunani sekitar 500 SM di The Met memperlihatkan Theseus membunuh Minotaur.",
           "quote": "This small neck-amphora shows Theseus slaying the Minotaur, the half-man, half-bull who lived in the Labyrinth at Knossos.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260213051108id_/https://www.metmuseum.org/art/collection/search/251112",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "minotaur-q129866-c10",
@@ -135,8 +131,9 @@
           "statement_id": "Kisah Theseus dan Minotaur menjadi tema populer dalam lukisan vas Athena masa Arkais.",
           "quote": "the subject of Theseus and the Minotaur became a popular scene in Athenian vase painting of the Archaic period.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260213051108id_/https://www.metmuseum.org/art/collection/search/251112",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         }
       ],
       "images": []
@@ -415,11 +412,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target rich: 10 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -511,8 +503,9 @@
           "statement_id": "Seni Renaisans sering menampilkan Vulcan sebagai pandai besi yang pincang.",
           "quote": "In Renaissance art, the Roman god of fire is usually shown in the character of a crippled blacksmith.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260206200938id_/https://www.metmuseum.org/art/collection/search/206781",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "vulcan-c10",
@@ -522,8 +515,9 @@
           "statement_id": "Vulcan juga dipandang sebagai pelindung pekerja logam cair.",
           "quote": "As patron of those who worked with molten metal, Vulcan must have had a special meaning for the bronze artist.",
           "context": "scholarly-interpretation",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260206200938id_/https://www.metmuseum.org/art/collection/search/206781",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         }
       ],
       "images": []
@@ -546,7 +540,7 @@
         {
           "level": "manual",
           "where": "claims",
-          "message": "9 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429); asia.si.edu (HTTP 403)."
+          "message": "5 kutipan tidak bisa dicek otomatis: asia.si.edu (HTTP 403); www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -558,8 +552,9 @@
           "statement_id": "Garuda adalah dewa Hindu berwujud campuran manusia dan burung, terkait matahari serta pembasmi ular jahat.",
           "quote": "Garuda, the Hindu god who is part man and part bird, symbolizes the power of the sun and is known for slaying evil serpents.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260410095449id_/https://www.metmuseum.org/art/collection/search/37609",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "garuda-q188676-c02",
@@ -569,8 +564,9 @@
           "statement_id": "Dalam seni, Garuda lazim digambarkan sebagai wahana Wisnu.",
           "quote": "In art he usually appears as the mount or vehicle of Vishnu.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260410095449id_/https://www.metmuseum.org/art/collection/search/37609",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "garuda-q188676-c03",
@@ -640,8 +636,9 @@
           "statement_id": "Kisah Jawa yang dijelaskan museum menggambarkan Garuda mencuri ramuan keabadian yang dijaga dua ular berbisa.",
           "quote": "In a tale well known to the Javanese, Garuda stole the elixir of immortality from the gods, who had thought it was well protected by two poisonous serpents from the realm of the gods.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260410095449id_/https://www.metmuseum.org/art/collection/search/37609",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "garuda-q188676-c10",
@@ -651,8 +648,9 @@
           "statement_id": "Perunggu Jawa di museum menggambarkan Garuda membawa Krishna, awatara Wisnu.",
           "quote": "Here Garuda carries Krishna, an avatar of Vishnu, who not only has borrowed Vishnu's mount but also holds his war discus (chakra).",
           "context": "scholarly-interpretation",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260410095449id_/https://www.metmuseum.org/art/collection/search/37609",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "garuda-q188676-c11",

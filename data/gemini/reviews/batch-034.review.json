@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-034",
-  "checked_at": "2026-09-29T18:47:48.957Z",
+  "checked_at": "2026-09-30T02:33:27.897Z",
   "files": [
     "batch-034.md",
     "batch-034-fix-1.md"
@@ -22,11 +22,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "1 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -88,8 +83,9 @@
           "statement_id": "Arca perunggu Romawi di The Met menampilkan Neptune bersandar pada trisula.",
           "quote": "The god originally leaned on a trident, held in his left hand; his eyes and nipples were probably inlaid with silver and copper.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250620142252id_/https://www.metmuseum.org/art/collection/search/248474",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "neptune-c07",
@@ -138,11 +134,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -224,8 +215,9 @@
           "statement_id": "Fenghuang Tiongkok sering diterjemahkan 'phoenix', tetapi menurut The Met merupakan makhluk mitos yang berbeda.",
           "quote": "Though usually translated as “phoenix” in English, the fenghuang bird is a distinct mythical species with a different set of associations.",
           "context": "scholarly-interpretation",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260329041107id_/https://www.metmuseum.org/art/collection/search/42122",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         },
         {
           "id": "phoenix-c09",
@@ -235,8 +227,9 @@
           "statement_id": "Fenghuang dikisahkan muncul pada masa damai dan makmur, berbeda dari kisah kelahiran ulang phoenix.",
           "quote": "The fenghuang, most noble of all feathered species, is said to appear only in times of peace and prosperity, so the creature is depicted frequently in works commissioned by imperial courts.",
           "context": "traditional-belief",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260329041107id_/https://www.metmuseum.org/art/collection/search/42122",
+          "detail": "HTTP 429; dicek lewat arsip Wayback"
         }
       ],
       "images": []
@@ -379,7 +372,7 @@
         {
           "level": "manual",
           "where": "claims",
-          "message": "3 kutipan tidak bisa dicek otomatis: asia.si.edu (HTTP 403); www.metmuseum.org (HTTP 429)."
+          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -401,8 +394,9 @@
           "statement_id": "Hanuman adalah dewa bertubuh kera, pendamping Rama, dan teladan bakti.",
           "quote": "a deity with the body of a monkey; a companion of the deity Rama and an exemplar of self-discipline and devotion.",
           "context": "religious-tradition",
-          "status": "unreachable",
-          "detail": "HTTP 403"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20250329112751id_/https://asia.si.edu/glossary/hanuman/",
+          "detail": "HTTP 403; dicek lewat arsip Wayback"
         },
         {
           "id": "hanuman-c03",
