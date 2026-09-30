@@ -1,0 +1,2475 @@
+{
+  "batch_id": "batch-148",
+  "checked_at": "2026-09-30T06:28:55.541Z",
+  "files": [
+    "batch-148.md"
+  ],
+  "parse_problems": [],
+  "missing": [],
+  "entries": [
+    {
+      "slug": "tata-duende",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"the tata duende or el dueno del monte is a supernatural creature…\"). Tulis ulang dengan kata-kata sendiri."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[1].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"the name tata duende comes from the yucatec maya word tata meaning…\"). Tulis ulang dengan kata-kata sendiri."
+        }
+      ],
+      "claims": [
+        {
+          "id": "tata-duende-c01",
+          "source_id": "tata-duende-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Tata Duende or El Dueño del Monte is a supernatural creature appearing in cultural folklore stories, mostly evident in Creole cultures.",
+          "statement_id": "Tata Duende atau El Dueño del Monte adalah makhluk gaib yang muncul dalam kisah cerita rakyat, terutama pada budaya Kreol.",
+          "quote": "The Tata Duende or El Dueño del Monte is a supernatural creature appearing in cultural folklore stories, mostly evident in Creole cultures.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tata-duende-c02",
+          "source_id": "tata-duende-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Tata Duende is considered a powerful spirit that protects animals and the jungle, though it is believed to lack thumbs.",
+          "statement_id": "Tata Duende dipandang sebagai roh berdaya kuat yang menjaga satwa dan rimba, kendati dipercaya tidak mempunyai ibu jari.",
+          "quote": "Tata Duende is considered a powerful spirit that protects animals and the jungle, though it is believed to lack thumbs.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tata-duende-c03",
+          "source_id": "tata-duende-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name Tata Duende comes from the Yucatec Maya word 'Tata' meaning Grandfather or old and the word 'Duende' is Spanish for goblin.",
+          "statement_id": "Nama Tata Duende berasal dari kata bahasa Maya Yukatek 'Tata' yang berarti kakek atau tua, dan kata bahasa Spanyol 'Duende' yang berarti kurcaci atau goblin.",
+          "quote": "The name Tata Duende comes from the Yucatec Maya word \"Tata\" meaning Grandfather or old and the word \"Duende\" is Spanish for goblin.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "tata-duende-c04",
+          "source_id": "tata-duende-s1",
+          "host": "en.wikipedia.org",
+          "statement": "This creature has appeared on a postage stamp of Belize as part of a series on Belizean folklore.",
+          "statement_id": "Makhluk ini pernah muncul pada prangko pos Belize sebagai bagian seri cerita rakyat Belizean.",
+          "quote": "This creature has appeared on a postage stamp of Belize as part of a series on Belizean folklore.",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "tate",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 2,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[1].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"oversee the cardinal directions the four winds health the weather and fertility…\"). Tulis ulang dengan kata-kata sendiri."
+        }
+      ],
+      "claims": [
+        {
+          "id": "tate-c01",
+          "source_id": "tate-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "Tate is the name of the wind god in Lakota mythology of South Dakota in the United States.",
+          "statement_id": "Tate adalah nama dewa angin dalam mitologi Lakota, penduduk asli Dakota Selatan di Amerika Serikat.",
+          "quote": "Tate é o nome do deus do vento na mitologia Lakota (índios nativos da Dakota do Sul, nos Estados Unidos).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tate-c02",
+          "source_id": "tate-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "In the Lakota language, 'wind runner' is Tate kiyanka.",
+          "statement_id": "Dalam bahasa Lakota, sebutan pelari angin adalah Tate kiyanka.",
+          "quote": "Na língua Lakota, \"corredor do vento\" é Tate kiyanka.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "tate-c03",
+          "source_id": "tate-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Wani, or Wanim are the four elder sons of Tate who oversee the cardinal directions, the four winds, health, the weather, and fertility.",
+          "statement_id": "Wani atau Wanim adalah empat putra tertua Tate yang memimpin empat penjuru mata angin, kesehatan, cuaca, serta kesuburan.",
+          "quote": "Wani, or Wanim - The four elder sons of Tate who oversee the cardinal directions, the four winds, health, the weather, and fertility.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "the-cu-bird",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "short_description.en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"the cu bird spanish pajaro cu or cu is a bird from…\"). Tulis ulang dengan kata-kata sendiri."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"the cu bird spanish pajaro cu or cu is a bird from…\"). Tulis ulang dengan kata-kata sendiri."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[1].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"to a meeting but it was so entranced by the reflection of…\"). Tulis ulang dengan kata-kata sendiri."
+        }
+      ],
+      "claims": [
+        {
+          "id": "the-cu-bird-c01",
+          "source_id": "the-cu-bird-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Cú Bird is a bird from a Mexican folktale that is unhappy with its looks.",
+          "statement_id": "Burung Cu adalah burung dalam dongeng rakyat Meksiko yang merasa tidak puas dengan penampilannya.",
+          "quote": "The Cú Bird (Spanish: pájaro cu or cú) is a bird from a Mexican folktale that is unhappy with its looks.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "the-cu-bird-c02",
+          "source_id": "the-cu-bird-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the legend, the other birds agreed to give the Cu bird one feather each and asked it to become messenger of the council.",
+          "statement_id": "Menurut legenda, burung-burung lain menyetujui usul burung hantu untuk memberikan masing-masing sehelai bulu kepada burung Cu, dengan balasan menjadi pembawa pesan dewan burung.",
+          "quote": "According to the legend, the other birds agreed to the barn owl's proposal to give the Cu bird one feather each and in return asked it to become the messenger of the bird council.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "the-cu-bird-c03",
+          "source_id": "the-cu-bird-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One day the eagle sent the Cu bird to summon others, but it was so entranced by the reflection of its feathers in a lake that it forgot the task.",
+          "statement_id": "Suatu hari sang elang mengirim burung Cu memanggil burung lain untuk berkumpul, tetapi ia begitu terpesona oleh pantulan bulunya di danau hingga melupakan tugasnya.",
+          "quote": "One day the eagle, the head of the council, sent the Cu bird to call other birds to a meeting, but it was so entranced by the reflection of its feathers in a lake that it completely forgot the task.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "tin-tin",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.who",
+          "message": "Tidak muncul di kutipan mana pun: Ecuadorian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "tin-tin-c01",
+          "source_id": "tin-tin-s1",
+          "host": "es.wikipedia.org",
+          "statement": "El Tin-Tin is a duende and a mythical figure in the folklore of coastal Ecuador, originally from Puna Island.",
+          "statement_id": "Tin-Tin adalah sosok duende dan tokoh mitis dari cerita rakyat pesisir Ekuador yang mulanya berasal dari Pulau Puna.",
+          "quote": "El Tin-Tin (también escrito de diversas formas: Tintín o Tin-Tín​​) es un duende y un personaje mítico del folklor del litoral ecuatoriano, originalmente proveniente de la Isla Puná",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tin-tin-c02",
+          "source_id": "tin-tin-s1",
+          "host": "es.wikipedia.org",
+          "statement": "Its legend has spread through oral tradition among the montubios and coastal residents across Ecuador's coastal zone.",
+          "statement_id": "Legenda Tin-Tin tersebar lewat tradisi lisan kaum montubio dan penduduk pesisir di segenap kawasan pantai Ekuador.",
+          "quote": "Su leyenda se ha extendido por la tradición oral de los montubios (campesinos de la costa) y los costeños en toda la zona costeña del Ecuador.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tin-tin-c03",
+          "source_id": "tin-tin-s1",
+          "host": "es.wikipedia.org",
+          "statement": "Its origin stems from a pre-Hispanic deity of Puna Island named Tin, a nocturnal Bat God who had the power to impregnate women.",
+          "statement_id": "Asal-usulnya berasal dari dewa Pulau Puna pada zaman pra-Hispanik bernama Tin, sesosok Dewa Kelelawar nokturnal yang membuahi wanita.",
+          "quote": "Su origen proviene de una deidad de la Isla Puná en tiempos prehispánicos, llamado Tin, un noctámbulo Dios Murciélago, quien tenía la facultad de fecundar a las mujeres y así dar vida un nuevo ser.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "trout-lake-monster",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "short_description.en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"the trout lake monster is an animal claimed to inhabit big trout…\"). Tulis ulang dengan kata-kata sendiri."
+        }
+      ],
+      "claims": [
+        {
+          "id": "trout-lake-monster-c01",
+          "source_id": "trout-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Trout Lake Monster is an animal claimed to inhabit Big Trout Lake in northern Ontario.",
+          "statement_id": "Monster Danau Trout adalah hewan yang diklaim mendiami Danau Big Trout di Ontario utara.",
+          "quote": "The Trout Lake Monster is an animal claimed to inhabit Big Trout Lake in northern Ontario.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "trout-lake-monster-c02",
+          "source_id": "trout-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 2010, photographs of an unidentified carcass prompted speculation and retellings of local First Nations legends of an animal said to presage bad news.",
+          "statement_id": "Pada 2010 foto bangkai hewan memicu dugaan makhluk misterius dan kisah legenda First Nations tentang hewan pertanda kabar buruk.",
+          "quote": "In 2010, photographs of an unidentified carcass prompted Internet speculation of a \"mystery creature\" and retellings of local First Nations legends of an animal said to presage bad news.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "trout-lake-monster-c03",
+          "source_id": "trout-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to a University of Toronto professor, the animal carcass was likely an ordinary mink in a state of decomposition.",
+          "statement_id": "Menurut profesor Universitas Toronto, bangkai hewan itu kemungkinan cerpelai biasa yang membusuk.",
+          "quote": "According to a University of Toronto professor, the animal carcass was likely an ordinary mink in a state of decomposition.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "tuttle-bottoms-monster",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "short_description.en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"the tuttle bottoms monster is a legendary creature said to inhabit a…\"). Tulis ulang dengan kata-kata sendiri."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[1].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"former harrisburg police chief gary crabtree told the harrisburg daily register that…\"). Tulis ulang dengan kata-kata sendiri."
+        }
+      ],
+      "claims": [
+        {
+          "id": "tuttle-bottoms-monster-c01",
+          "source_id": "tuttle-bottoms-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Tuttle Bottoms Monster is a legendary creature said to inhabit a swampy area north of Harrisburg, Illinois, described as ape-like and hairy with a long snout.",
+          "statement_id": "Monster Tuttle Bottoms adalah makhluk legenda di daerah rawa utara Harrisburg Illinois dengan wujud mirip kera berbulu dan bermoncong panjang.",
+          "quote": "The Tuttle Bottoms Monster is a legendary creature said to inhabit a swampy area, north of Harrisburg, Illinois, on the Saline River watershed, usually described as ape-like and hairy with a long snout similar to an anteater.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tuttle-bottoms-monster-c02",
+          "source_id": "tuttle-bottoms-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The former police chief told the local newspaper that his department received roughly 50 reports over 28 years of an unidentified beast with two or four legs.",
+          "statement_id": "Mantan kepala polisi Harrisburg menyatakan kepolisian menerima sekitar 50 laporan selama 28 tahun tentang makhluk tak dikenal berkaki dua atau empat.",
+          "quote": "Former Harrisburg Police Chief Gary Crabtree told the Harrisburg Daily Register that his department received approximately 50 reports over 28 years of an unidentified beast in the area northwest of Harrisburg, some reporting a creature with two legs and some with four.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tuttle-bottoms-monster-c03",
+          "source_id": "tuttle-bottoms-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Most described it as having a long, almost anteater-like snout.",
+          "statement_id": "Sebagian besar laporan menggambarkannya memiliki moncong panjang yang mirip pemakan semut.",
+          "quote": "Most described it as having a long, almost anteater-like snout.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "uirapuru",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "uirapuru-c01",
+          "source_id": "uirapuru-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "Uirapuru is a mythological being, described as a man transformed into a bird that Brazilian Indians consider the king of love.",
+          "statement_id": "Uirapuru adalah makhluk mitologis yang digambarkan sebagai manusia yang diubah menjadi burung dan dipandang pribumi Brasil sebagai raja cinta.",
+          "quote": "Uirapuru é um ser mitológico, descrito como homem transformado em pássaro que os índios brasileiros consideram o rei do amor.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uirapuru-c02",
+          "source_id": "uirapuru-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "It is said that a young warrior fell in love with the wife of a great chief and asked Tupa to transform him into a bird.",
+          "statement_id": "Dikisahkan seorang ksatria muda jatuh cinta pada istri kepala suku dan memohon kepada Tupa agar diubah menjadi burung.",
+          "quote": "Diz-se que um jovem guerreiro apaixonou-se pela esposa de um grande cacique e, por não poder aproximar-se dela, pediu a Tupã que o transformasse em um pássaro.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uirapuru-c03",
+          "source_id": "uirapuru-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "Tupa granted his wish by turning him into a red-brick bird that sang at night for his beloved.",
+          "statement_id": "Tupa mengabulkan permintaannya dengan mengubahnya menjadi burung merah bata yang bernyanyi di malam hari untuk pujaan hatinya.",
+          "quote": "Tupã atendeu seu desejo transformando-lhe em um pássaro vermelho-telha que à noite cantava para sua amada.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "vegetable-man-cryptid",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[1].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"no evidence of the alleged sighting has been documented and there have…\"). Tulis ulang dengan kata-kata sendiri."
+        }
+      ],
+      "claims": [
+        {
+          "id": "vegetable-man-cryptid-c01",
+          "source_id": "vegetable-man-cryptid-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Vegetable Man is a humanoid creature in West Virginia folklore, reportedly seen in Grant Town in 1968.",
+          "statement_id": "Manusia Sayuran adalah makhluk mirip manusia dalam cerita rakyat Virginia Barat yang dilaporkan terlihat pada 1968 di Grant Town.",
+          "quote": "The Vegetable Man, also known as the Veggie Man, is a humanoid creature in West Virginia folklore, reportedly seen in Grant Town, West Virginia, in 1968 by local resident Jennings Frederick.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vegetable-man-cryptid-c02",
+          "source_id": "vegetable-man-cryptid-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The cryptid was first described in print as a thin, plant-like creature with yellow eyes, pointed ears, and suction cups.",
+          "statement_id": "Kriptid ini pertama kali digambarkan dalam tulisan buletin 1976 sebagai makhluk ramping mirip tanaman bermata kuning dan bertelinga runcing.",
+          "quote": "The cryptid was first described in print by known hoaxer, Gray Barker in a 1976 newsletter, which characterized it as a thin, plant-like creature with yellow eyes, pointed ears, and fingers ending in needle-like suction cups.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vegetable-man-cryptid-c03",
+          "source_id": "vegetable-man-cryptid-s1",
+          "host": "en.wikipedia.org",
+          "statement": "No evidence of the alleged sighting has been documented and there have been no subsequent sightings of the creature.",
+          "statement_id": "Tidak ada bukti penampakan yang terdokumentasi dan tidak ada laporan penampakan makhluk ini setelahnya.",
+          "quote": "No evidence of the alleged sighting has been documented and there have been no subsequent sightings of the creature.",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "water-baby-folklore",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[1].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"they are described as small beings with long dark hair possessing physical…\"). Tulis ulang dengan kata-kata sendiri."
+        }
+      ],
+      "claims": [
+        {
+          "id": "water-baby-folklore-c01",
+          "source_id": "water-baby-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Water babies are supernatural entities in the folklore of several Western Native American tribes, primarily within the Great Basin.",
+          "statement_id": "Bayi air adalah entitas gaib dalam cerita rakyat berbagai suku pribumi Amerika Barat, terutama di Great Basin.",
+          "quote": "Water babies (tribal names: Ute pawapicts, Paiute pit-u-u, Washoe me-tsung, Western Shoshone nu-numbi) are supernatural entities in the folklore of several Western Native American tribes, primarily within the Great Basin.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "water-baby-folklore-c02",
+          "source_id": "water-baby-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "While appearing as crying infants leads some to identify them as ghosts, tribal traditions define them as spirits inhabiting springs and lakes.",
+          "statement_id": "Meskipun suara tangisannya membuat sebagian orang mengira mereka hantu, tradisi suku memandangnya sebagai roh penghuni mata air dan danau.",
+          "quote": "While their appearance as crying infants leads some observers to identify them as ghosts, tribal traditions define them as a distinct species of spirits inhabiting springs, lakes, and volcanic regions.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "water-baby-folklore-c03",
+          "source_id": "water-baby-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They are described as small beings with long, dark hair, possessing physical attributes such as fangs, fish tails, or reptilian skin.",
+          "statement_id": "Mereka digambarkan bertubuh kecil dengan rambut hitam panjang dan memiliki ciri fisik seperti taring, ekor ikan, atau kulit reptil.",
+          "quote": "They are described as small beings with long, dark hair, possessing physical attributes such as fangs, fish tails, or reptilian skin.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "white-river-monster",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"in arkansas folklore the white river monster is a large creature reportedly…\"). Tulis ulang dengan kata-kata sendiri."
+        }
+      ],
+      "claims": [
+        {
+          "id": "white-river-monster-c01",
+          "source_id": "white-river-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Arkansas folklore, the White River Monster is a large creature reportedly first spotted off the banks of the White River near Newport.",
+          "statement_id": "Dalam cerita rakyat Arkansas, Monster Sungai White adalah makhluk besar yang pertama kali terlihat di tepi Sungai White dekat Newport.",
+          "quote": "In Arkansas folklore, the White River Monster is a large creature reportedly first spotted off the banks of the White River near Newport in northeastern Arkansas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-river-monster-c02",
+          "source_id": "white-river-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Although reported as a monster, it is loved by neighborhood residents and referred to locally as Whitey.",
+          "statement_id": "Meski diberitakan sebagai monster, makhluk ini disayangi warga sekitar dan dijuluki Whitey oleh penduduk setempat.",
+          "quote": "Although reported in the press as a \"monster\", it is reported to be deeply loved by neighborhood residents near this portion of the White River, and the monster is referred to locally as \"Whitey\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-river-monster-c03",
+          "source_id": "white-river-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is illegal to harm the monster inside the refuge.",
+          "statement_id": "Merupakan tindakan melanggar hukum untuk mencelakai monster tersebut di dalam kawasan suaka.",
+          "quote": "It is illegal to harm the monster inside the refuge.",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "xtabay",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"she is said to dwell in the forest to lure men to…\"). Tulis ulang dengan kata-kata sendiri."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[1].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"she is described as having beautiful shining black hair that falls down…\"). Tulis ulang dengan kata-kata sendiri."
+        }
+      ],
+      "claims": [
+        {
+          "id": "xtabay-c01",
+          "source_id": "xtabay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "La Xtabay is a Yucatec Maya folklore tale about a demonic femme fatale who preys upon men in the Yucatan Peninsula.",
+          "statement_id": "La Xtabay adalah dongeng rakyat Maya Yukatek tentang iblis wanita penggoda yang memangsa pria di Semenanjung Yucatan.",
+          "quote": "La Xtabay (Spanish pronunciation: [la iʃ.taˈβaj]) is a Yucatec Maya folklore tale about a demonic femme fatale who preys upon men in the Yucatán Peninsula.",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "xtabay-c02",
+          "source_id": "xtabay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She is said to dwell in the forest to lure men to their deaths with her incomparable beauty.",
+          "statement_id": "Ia konon berdiam di hutan untuk memikat pria menuju kematian mereka dengan kecantikannya yang tak tertandingi.",
+          "quote": "She is said to dwell in the forest to lure men to their deaths with her incomparable beauty.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xtabay-c03",
+          "source_id": "xtabay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She is described as having beautiful, shining black hair that falls down to her ankles and wearing a white dress.",
+          "statement_id": "Ia digambarkan memiliki rambut hitam berkilau yang indah terurai hingga mata kaki dan mengenakan gaun putih.",
+          "quote": "She is described as having beautiful, shining black hair that falls down to her ankles and wearing a white dress.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "acalica",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"they are said to control the weather live in caves and are…\"). Tulis ulang dengan kata-kata sendiri."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[1].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"when they do appear they are said to take the form of…\"). Tulis ulang dengan kata-kata sendiri."
+        }
+      ],
+      "claims": [
+        {
+          "id": "acalica-c01",
+          "source_id": "acalica-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Acalica are mythological creatures (sometimes called 'weather-fairies') from Bolivia.",
+          "statement_id": "Acalica adalah makhluk mitologi yang kadang disebut peri cuaca dari Bolivia.",
+          "quote": "Acalica are mythological creatures (sometimes called \"weather-fairies\") from Bolivia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "acalica-c02",
+          "source_id": "acalica-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They are said to control the weather, live in caves, and are very rarely seen.",
+          "statement_id": "Mereka konon mengendalikan cuaca, tinggal di gua, dan sangat jarang terlihat.",
+          "quote": "They are said to control the weather, live in caves, and are very rarely seen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "acalica-c03",
+          "source_id": "acalica-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When they do appear they are said to take the form of small, wizened men.",
+          "statement_id": "Saat muncul, mereka konon berwujud pria kerdil yang keriput.",
+          "quote": "When they do appear they are said to take the form of small, wizened men.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "agnen",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 2,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "short_description",
+          "message": "Tidak muncul di kutipan mana pun: Amazonia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.origin",
+          "message": "Tidak muncul di kutipan mana pun: Amazonia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[1].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"he plays a role in the myth of the twins devouring one…\"). Tulis ulang dengan kata-kata sendiri."
+        }
+      ],
+      "claims": [
+        {
+          "id": "agnen-c01",
+          "source_id": "agnen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Agnen is an evil spirit in Amazonian Tupinamba mythology.",
+          "statement_id": "Agnen adalah roh jahat dalam mitologi suku Tupinamba di Amazon.",
+          "quote": "Agnen is an evil spirit in Amazonian Tupinambá mythology.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "agnen-c02",
+          "source_id": "agnen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He plays a role in the myth of the Twins, devouring one before being beaten by the other.",
+          "statement_id": "Ia berperan dalam mitos si Kembar, memangsa salah satu anak sebelum dikalahkan oleh kembarannya.",
+          "quote": "He plays a role in the myth of the Twins, devouring one before being beaten by the other.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "amikuk",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "amikuk-c01",
+          "source_id": "amikuk-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Amikuk is a creature of Yup'ik legend, said to live within the ground.",
+          "statement_id": "Amikuk adalah makhluk legenda Yup'ik yang konon hidup di dalam tanah.",
+          "quote": "The Amikuk is a creature of Yup'ik legend, said to live within the ground.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amikuk-c02",
+          "source_id": "amikuk-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the sea, it is reported to be hairless with four arms.",
+          "statement_id": "Di laut, makhluk ini dilaporkan tidak berbulu dengan empat lengan.",
+          "quote": "In the sea, it is reported to be hairless with four arms.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amikuk-c03",
+          "source_id": "amikuk-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Amikuk pursues hunters onto land, swimming through earth as easily as through water.",
+          "statement_id": "Karena hidup di dalam tanah, Amikuk mengejar pemburu ke darat, berenang menembus bumi semudah di air.",
+          "quote": "As it lives within the ground, the Amikuk will pursue hunters onto land, swimming through the earth as easily as they swim through the water.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "animikii",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Amerika, Utara, Native, American. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "animikii-c01",
+          "source_id": "animikii-s1",
+          "host": "hr.wikipedia.org",
+          "statement": "Animikii is a giant mythological thunderbird common to the Ojibwe, Algonquin, Ottawa, and Shawnee tribes.",
+          "statement_id": "Animikii adalah burung petir raksasa mitologis bagi suku Ojibwe, Algonquin, Ottawa, dan Shawnee.",
+          "quote": "Animikii (Binesi, Wapoothi, Waputhi), Animikii je divovska mitološka ptica gromovnik uobičajena za sjeverna i zapadna plemena sjevernoameričkih Indijanaca Ojibwe, Algonquin, Ottawa i Shawnee.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "animikii-c02",
+          "source_id": "animikii-s1",
+          "host": "hr.wikipedia.org",
+          "statement": "They cause thunder with the beating of their enormous wings.",
+          "statement_id": "Mereka menyebabkan guntur dengan kepakan sayap raksasa mereka.",
+          "quote": "Uzrokuju grmaljavinu udarcima njihovih golemih krila.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "animikii-c03",
+          "source_id": "animikii-s1",
+          "host": "hr.wikipedia.org",
+          "statement": "Animikii literally means thunderer, and Binesi means big bird.",
+          "statement_id": "Animikii secara harfiah berarti pembawa guntur dan Binesi berarti burung besar.",
+          "quote": "Animikii doslovno znači \"gromovnik\", a Binesi znači \"velika ptica\".",
+          "context": "etymology",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "atahsaia",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"he is a giant several times larger than a normal human being…\"). Tulis ulang dengan kata-kata sendiri."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[1].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"in one story he is depicted as so huge that he cannot…\"). Tulis ulang dengan kata-kata sendiri."
+        }
+      ],
+      "claims": [
+        {
+          "id": "atahsaia-c01",
+          "source_id": "atahsaia-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Atahsaia is a giant cannibalistic demon in the religion and mythos of the Zuni people of the Southwestern United States.",
+          "statement_id": "Atahsaia adalah iblis raksasa kanibal dalam agama dan mitos suku Zuni di Southwestern United States.",
+          "quote": "Átahsaia (alternatively spelled A'tahsaia or Atasaya) is a giant cannibalistic demon in the religion and mythos of the Zuni people of the Southwestern United States.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "atahsaia-c02",
+          "source_id": "atahsaia-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He is a giant, several times larger than a normal human being.",
+          "statement_id": "Ia adalah raksasa, beberapa kali lebih besar dari manusia normal.",
+          "quote": "He is a giant, several times larger than a normal human being.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atahsaia-c03",
+          "source_id": "atahsaia-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In one story, he is depicted as so huge that he cannot fit his shoulders into a cave that a normal human easily passes.",
+          "statement_id": "Dalam satu kisah, ia digambarkan sedemikian besar sehingga pundaknya tidak muat ke dalam gua yang dapat dilalui manusia biasa.",
+          "quote": "In one story, he is depicted as so huge that he cannot fit his shoulders into a cave in which a normal human being can pass easily.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "ataide",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "short_description",
+          "message": "Tidak muncul di kutipan mana pun: Brasil, Brazil. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "ataide-c01",
+          "source_id": "ataide-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "Ataíde is a mangrove encantado from Bragança, Para, called Oiaras in Pajelança cabocla.",
+          "statement_id": "Ataíde adalah encantado bakau di Bragança, Para, yang dalam tradisi Pajelança cabocla disebut Oiaras.",
+          "quote": "Ataíde é um encantado do mangue, que na Pajelança cabocla são chamados de Oiaras, da cidade de Bragança, que fica localizada no nordeste do estado brasileiro do Pará.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ataide-c02",
+          "source_id": "ataide-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "This entity is known as a protector of local nature, a territory bathed by rivers and mangroves.",
+          "statement_id": "Entitas ini dikenal sebagai pelindung alam setempat, wilayah yang dialiri sungai dan rawa bakau.",
+          "quote": "Esta entidade é conhecida como protetora da natureza local, território banhado por rios e mangues.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ataide-c03",
+          "source_id": "ataide-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "Ataíde possesses animalistic characteristics such as a hairy body, large claws, and superhuman strength.",
+          "statement_id": "Ataíde memiliki ciri kehewanan, seperti tubuh berbulu, cakar besar, dan kekuatan fisik luar biasa.",
+          "quote": "o Ataíde possui características animalescas, como um corpo coberto de pelos, garras grandes, força e membros sobre-humanos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "augerino",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "augerino-c01",
+          "source_id": "augerino-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The augerino is a legendary creature present in folk tales of lumberjack and ranching communities in the western United States.",
+          "statement_id": "Augerino adalah makhluk legenda dalam dongeng rakyat komunitas penebang kayu dan peternak di barat United States.",
+          "quote": "The augerino is a legendary creature present in the folk tales of lumberjack and ranching communities in the western United States.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "augerino-c02",
+          "source_id": "augerino-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Tales of the augerino described it as a subterranean creature which inhabited the drier regions of Colorado.",
+          "statement_id": "Kisah tentang augerino menggambarkannya sebagai makhluk bawah tanah yang mendiami kawasan kering di Colorado.",
+          "quote": "Tales of the augerino described it as a subterranean creature which inhabited the drier regions of Colorado.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "augerino-c03",
+          "source_id": "augerino-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The augerino required a dry environment and would bore holes in dams and ditches to drain water.",
+          "statement_id": "Augerino membutuhkan lingkungan kering untuk bertahan hidup dan suka melubangi bendungan serta parit irigasi agar airnya habis.",
+          "quote": "The augerino required a dry environment to survive and would bore holes in dams and irrigation ditches to let the water drain out.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "awanyu",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"awanyu or avanyu is a water guardian and a deity of the…\"). Tulis ulang dengan kata-kata sendiri."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[1].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"awanyu is a protector of the pueblo people the guardian of waterways…\"). Tulis ulang dengan kata-kata sendiri."
+        }
+      ],
+      "claims": [
+        {
+          "id": "awanyu-c01",
+          "source_id": "awanyu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Awanyu or Avanyu is a water guardian and a deity of the Tewa people.",
+          "statement_id": "Awanyu atau Avanyu adalah pelindung air dan dewa bangsa Tewa.",
+          "quote": "Awanyu or Avanyu is a water guardian and a deity of the Tewa people.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "awanyu-c02",
+          "source_id": "awanyu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Awanyu is depicted as a horned (or plumed) serpent with a sinuous body suggestive of water flow or lightning.",
+          "statement_id": "Awanyu digambarkan sebagai ular bertanduk atau berbulu dengan tubuh berliku menyerupai aliran air atau kilat.",
+          "quote": "Awanyu is depicted as a horned (or plumed) serpent with a sinuous body suggestive of the flow of water or the zigzag of lightning.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "awanyu-c03",
+          "source_id": "awanyu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Awanyu is a protector of the Pueblo people, guardian of waterways, and harbinger of storms.",
+          "statement_id": "Awanyu adalah pelindung kaum Pueblo people, penjaga perairan, dan pembawa badai.",
+          "quote": "Awanyu is a protector of the Pueblo people, the guardian of waterways and a harbinger of storms, and represented as a plumed (or horned) serpent.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "baca-mythological-creature",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[1].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"commonly described as a large black dog or bull although folklore suggests…\"). Tulis ulang dengan kata-kata sendiri."
+        }
+      ],
+      "claims": [
+        {
+          "id": "baca-mythological-creature-c01",
+          "source_id": "baca-mythological-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A Baca or Baka is a shape-shifting demon in Dominican Republic folklore created when someone makes a deal with the devil.",
+          "statement_id": "Baca atau Baka adalah iblis pengubah wujud dalam cerita rakyat Republik Dominika yang tercipta melalui perjanjian dengan iblis.",
+          "quote": "A Bacá or Baká is shape-shifting demon in Dominican Republic folklore that is created when someone makes a deal with the devil.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "baca-mythological-creature-c02",
+          "source_id": "baca-mythological-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Baca can grant its possessor wealth and protection, but demands large sacrifices in return.",
+          "statement_id": "Baca dapat memberi kekayaan dan perlindungan kepada pemiliknya namun menuntut pengorbanan besar.",
+          "quote": "The Bacá can grant its possessor wealth and protection, but demands large sacrifices in return.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "baca-mythological-creature-c03",
+          "source_id": "baca-mythological-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Baca is a demonic animal familiar commonly described as a large black dog or bull.",
+          "statement_id": "Baca adalah hewan familiar iblis yang umumnya berwujud anjing hitam besar atau banteng.",
+          "quote": "The Bacá is a demonic animal familiar commonly described as a large black dog or bull, although folklore suggests they can take the form of other domestic animals—such as cats, pigs, or chickens.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "baykok",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "baykok-c01",
+          "source_id": "baykok-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The baykok is a malevolent spirit from the mythology of the Ojibway nation.",
+          "statement_id": "Baykok adalah roh jahat dari mitologi bangsa Ojibway.",
+          "quote": "The baykok (or pau'guk, paguk, baguck; bakaak in the Ojibwe language and pakàk in the Algonquin language) is a malevolent spirit from the mythology of the Ojibway nation.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "baykok-c02",
+          "source_id": "baykok-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Baykok is a character from traditional stories said to fly through forests of the Great Lakes region.",
+          "statement_id": "Baykok adalah tokoh dalam cerita tradisional Anishinaabe yang konon terbang melintasi hutan di wilayah Great Lakes.",
+          "quote": "The Baykok is a character from the Anishinaabe aadizookaan (traditional stories). It is said to fly through the forests of the Great Lakes region.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "baykok-c03",
+          "source_id": "baykok-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The cries of Baykok are also described as being shrill.",
+          "statement_id": "Jeritan Baykok juga digambarkan sangat melengking.",
+          "quote": "The cries of Baykok are also described as being shrill.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "bicho-da-fortaleza",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "short_description",
+          "message": "Tidak muncul di kutipan mana pun: Brasil. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "bicho-da-fortaleza-c01",
+          "source_id": "bicho-da-fortaleza-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "The bicho da fortaleza is a monster legend terrifying children in Minas Gerais and Bahia.",
+          "statement_id": "Bicho da fortaleza adalah legenda monster yang menakut-nakuti anak-anak di Minas Gerais dan Bahia.",
+          "quote": "O bicho da fortaleza é a lenda de um monstro que aterroriza as crianças do Vale do Jequitinhonha e de boa parte das regiões vizinhas, em Minas Gerais e na Bahia, é o Bicho da Carneira, também chamado de Bicho da Fortaleza, Bicho de Pedra Azul, Bicho da Rodagem e Lanudo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bicho-da-fortaleza-c02",
+          "source_id": "bicho-da-fortaleza-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "This popular mythological monster takes forms most frequently of a large black dog appearing at dusk or night.",
+          "statement_id": "Monster mitologi rakyat ini mengambil rupa anjing hitam besar yang muncul saat senja atau malam hari.",
+          "quote": "Esse monstro da mitologia popular assume diferentes formas. A mais frequente é a de um cachorro preto e grande que aparece ao entardecer ou depois que a noite cai.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bicho-da-fortaleza-c03",
+          "source_id": "bicho-da-fortaleza-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "It is also described as a werewolf figure or hairy animal.",
+          "statement_id": "Monster ini juga digambarkan sebagai sosok serigala jadi-jadian atau binatang berbulu lebat.",
+          "quote": "Também é descrito como a figura de um lobisomem ou animal peludo",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "blue-crow",
+      "file": "batch-148.md",
+      "verdict": "skip",
+      "counts": {
+        "claims": 0,
+        "sources": 0,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "skip",
+          "message": "Diusulkan dilewati: Bukan makhluk mitologi melainkan spesies burung biologis nyata Cyanocorax coeruleus (azure jay) yang artikel Wikipedianya murni taksonomi biologi. (https://en.wikipedia.org/wiki/Azure_jay)."
+        }
+      ],
+      "claims": [],
+      "images": []
+    },
+    {
+      "slug": "boi-vaquim",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "short_description",
+          "message": "Tidak muncul di kutipan mana pun: Brasil, Brazil. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "boi-vaquim-c01",
+          "source_id": "boi-vaquim-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "It is a fabulous being from Rio Grande do Sul, described by historian Contreira Rodrigues.",
+          "statement_id": "Boi Vaquim adalah makhluk luar biasa dari Rio Grande do Sul yang digambarkan sejarawan Contreira Rodrigues.",
+          "quote": "Trata-se de um ser fabuloso do Rio Grande do Sul, descrito pelo historiador Contreira Rodrigues.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "boi-vaquim-c02",
+          "source_id": "boi-vaquim-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "It is an ox with wings and golden horns that sparks fire and has diamond eyes.",
+          "statement_id": "Makhluk ini adalah banteng bersayap dengan tanduk emas penyembur api dan mata intan.",
+          "quote": "É um boi com asas e guampas de ouro, mete medo aos campeiros, porque chispa fogo pelas pontas das guampas e tem olhos de diamante.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "boi-vaquim-c03",
+          "source_id": "boi-vaquim-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "It requires great courage, a strong arm, and a sure-footed horse to lasso it.",
+          "statement_id": "Dibutuhkan keberanian besar, lengan perkasa, dan kuda tangguh untuk menjeratnya.",
+          "quote": "É preciso muita coragem para laçá-lo, braço forte, cavalo bom de pata e de rédeas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "boo-hag",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Afrika-Amerika. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"a boo hag is a mythical creature in the folklore of the…\"). Tulis ulang dengan kata-kata sendiri."
+        }
+      ],
+      "claims": [
+        {
+          "id": "boo-hag-c01",
+          "source_id": "boo-hag-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A boo hag is a mythical creature in the folklore of the Gullah Geechee people in Georgia.",
+          "statement_id": "Boo hag adalah makhluk mitos dalam cerita rakyat Gullah Geechee di Georgia.",
+          "quote": "A boo hag is a mythical creature in the folklore of the Gullah Geechee people in Georgia, part of African-American folktales.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "boo-hag-c02",
+          "source_id": "boo-hag-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is a unique contribution to hag folklore based on Gullah or Hoodoo cultures.",
+          "statement_id": "Ia adalah sumbangan unik lokal terhadap tradisi nenek sihir dunia berdasarkan sistem sinkretis budaya Gullah atau Hoodoo.",
+          "quote": "It is a locally created, unique contribution to the worldwide hag folklore based on the syncretic belief system of Gullah or Hoodoo cultures.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "boo-hag-c03",
+          "source_id": "boo-hag-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Unlike vampires, they gain sustenance from a person's breath by riding their victims.",
+          "statement_id": "Tidak seperti vampir, mereka memperoleh makanan dari nafas korban dengan menunggangi mereka.",
+          "quote": "Unlike vampires, they gain sustenance from a person's breath, as opposed to their blood, by riding their victims.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "cainame",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 2,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "cainame-c01",
+          "source_id": "cainame-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "Cainamé or Canaimé is a mythical figure responsible for malevolent occurrences according to macuxi and uapixana beliefs.",
+          "statement_id": "Cainamé atau Canaimé adalah tokoh mitis penyebab kemalangan menurut suku macuxi dan uapixana.",
+          "quote": "O Cainamé ou Canaimé é uma personagem mítica que, segundo a crença das tribos macuxi e uapixana, é responsável por acontecimentos maléficos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cainame-c02",
+          "source_id": "cainame-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "It acts primarily through wasting and death upon those committing reprehensible acts.",
+          "statement_id": "Ia bertindak mendatangkan kelemahan fisik dan kematian bagi pelaku tindakan tercela.",
+          "quote": "Age principalmente sob o definhamento e morte daqueles que cometem atos reprováveis.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "capeta-do-vilarinho",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Brazilian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.who",
+          "message": "Tidak muncul di kutipan mana pun: Brazilian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "capeta-do-vilarinho-c01",
+          "source_id": "capeta-do-vilarinho-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "The Capeta do Vilarinho is a legendary character from the city of Belo Horizonte, Brazil.",
+          "statement_id": "Capeta do Vilarinho adalah tokoh legendaris dari kota Belo Horizonte di Brasil.",
+          "quote": "O Capeta do Vilarinho é um personagem lendário da cidade de Belo Horizonte, no Brasil.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "capeta-do-vilarinho-c02",
+          "source_id": "capeta-do-vilarinho-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "The character effectively transitioned into the city's folklore, being an integral part of traditions.",
+          "statement_id": "Tokoh ini secara nyata beralih ke dalam cerita rakyat kota dan menjadi tradisi daerah.",
+          "quote": "o personagem efetivamente transitou para o folclore da cidade, sendo hoje parte integrante das tradições da região.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "capeta-do-vilarinho-c03",
+          "source_id": "capeta-do-vilarinho-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "The legend originated on Avenida Vilarinho in Venda Nova, Belo Horizonte.",
+          "statement_id": "Legenda ini bermula di Avenida Vilarinho di kawasan Venda Nova, Belo Horizonte.",
+          "quote": "A lenda tem origem na Avenida Vilarinho, uma das principais avenidas da região de Venda Nova, em Belo Horizonte",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "cavalo-d-agua",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 1,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Brasil. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "cavalo-d-agua-c01",
+          "source_id": "cavalo-d-agua-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "The cavalo-d'água is a mythical being of the middle São Francisco River pursuing boats without a carranca carved on the bow.",
+          "statement_id": "Cavalo-d'água adalah makhluk mitos Sungai São Francisco yang mengejar perahu tanpa ukiran carranca pada haluannya.",
+          "quote": "O cavalo-d'água, também conhecido como cavalo-do-rio, é um ente mítico do médio rio São Francisco que persegue embarcações que não têm sua carranca esculpida na proa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "che-uinic",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Mayab. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.origin",
+          "message": "Tidak muncul di kutipan mana pun: Mayab. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "che-uinic-c01",
+          "source_id": "che-uinic-s1",
+          "host": "es.wikipedia.org",
+          "statement": "Che Uinic or Hombre de los bosques is a fantastic creature from Maya mythology.",
+          "statement_id": "Che Uinic atau Hombre de los bosques adalah makhluk fantastis dari mitologi Maya.",
+          "quote": "El Che Uinic u Hombre de los bosques es una criatura fantástica que forma parte de la mitología maya.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "che-uinic-c02",
+          "source_id": "che-uinic-s1",
+          "host": "es.wikipedia.org",
+          "statement": "Among those entities are giants, one of the best known being the Hombre de los bosques.",
+          "statement_id": "Di antara tokoh mitos tersebut terdapat golongan raksasa, salah satu yang paling dikenal adalah Hombre de los bosques.",
+          "quote": "Dentro de ese espacio se encuentran los gigantes y uno de los más conocidos es el llamado Hombre de los bosques.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "che-uinic-c03",
+          "source_id": "che-uinic-s1",
+          "host": "es.wikipedia.org",
+          "statement": "He is described as very tall without joints, sleeping leaned against tree trunks.",
+          "statement_id": "Ia digambarkan bertubuh sangat tinggi tanpa persendian sehingga bila tidur harus bersandar pada pohon besar.",
+          "quote": "Las leyendas o referencias recogidas por diversos investigadores, lo describen como un hombre de gran altura, carente de huesos y coyunturas, situación que le dificulta ponerse de pie en caso de caer al suelo, por lo cual cuando duerme debe hacerlo recargado en el tronco de algún gran árbol.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "che-uinic-c04",
+          "source_id": "che-uinic-s1",
+          "host": "es.wikipedia.org",
+          "statement": "The diet of Che Uinic consists of human flesh.",
+          "statement_id": "Makanan dari Che Uinic terdiri atas daging manusia.",
+          "quote": "La alimentación del Che Uinic está constituida por carne humana.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "clermeil",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.origin",
+          "message": "Tidak muncul di kutipan mana pun: Haiti. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"in haitian vodou clermeil is a lwa who makes rivers flood their…\"). Tulis ulang dengan kata-kata sendiri."
+        }
+      ],
+      "claims": [
+        {
+          "id": "clermeil-c01",
+          "source_id": "clermeil-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Haitian Vodou, Clermeil is a lwa who makes rivers flood their banks.",
+          "statement_id": "Dalam Haitian Vodou, Clermeil adalah lwa yang membuat sungai meluapkan airnya.",
+          "quote": "In Haitian Vodou, Clermeil is a lwa who makes rivers flood their banks.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "clermeil-c02",
+          "source_id": "clermeil-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He is usually depicted as a white male.",
+          "statement_id": "Ia biasanya digambarkan sebagai pria berkulit putih.",
+          "quote": "He is usually depicted as a white male.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "clermeil-c03",
+          "source_id": "clermeil-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Clermeil is believed to be the father of all light-colored children.",
+          "statement_id": "Clermeil dipercaya sebagai ayah dari semua anak berkulit terang.",
+          "quote": "Clermeil is believed to be the father of all light-colored children.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "coo",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "short_description",
+          "message": "Tidak muncul di kutipan mana pun: Chile. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.origin",
+          "message": "Tidak muncul di kutipan mana pun: Chile. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "coo-c01",
+          "source_id": "coo-s1",
+          "host": "es.wikipedia.org",
+          "statement": "El Coo is a nocturnal creature belonging to Chilote mythology.",
+          "statement_id": "Coo adalah makhluk malam yang termasuk dalam mitologi Chilote.",
+          "quote": "El Coo es una criatura nocturna perteneciente a la mitología chilota.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "coo-c02",
+          "source_id": "coo-s1",
+          "host": "es.wikipedia.org",
+          "statement": "This word is also used for the Concon of Chiloe, suggesting the legend was inspired by this real animal.",
+          "statement_id": "Kata ini juga digunakan untuk merujuk pada Concon de Chiloe, sehingga legenda ini kemungkinan diilhami hewan nyata.",
+          "quote": "Esta palabra también sería usada para referirse al Concón de Chiloé; por lo que lo más probable es que esta leyenda se inspiró en este animal verdadero.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "coo-c03",
+          "source_id": "coo-s1",
+          "host": "es.wikipedia.org",
+          "statement": "The Coo has the appearance of an owl with large bright round eyes and brownish plumage similar to the Concon.",
+          "statement_id": "Coo berpenampilan seperti burung hantu dengan mata bulat besar yang berkilau dan bulu kecokelatan mirip Concon de Chiloe.",
+          "quote": "El Coo tendría el aspecto de una lechuza de grandes ojos redondos muy brillantes, y un plumaje de un color pardusco; muy similar en tamaño y formas al Concón de Chiloé.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "dark-watchers",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Spanyol. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.origin",
+          "message": "Tidak muncul di kutipan mana pun: Spanyol. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "dark-watchers-c01",
+          "source_id": "dark-watchers-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Dark Watchers is a group of entities in California folklore seen observing travelers along the Santa Lucia Mountains.",
+          "statement_id": "Dark Watchers adalah kelompok entitas dalam cerita rakyat California yang mengamati pelancong di Pegunungan Santa Lucia.",
+          "quote": "The Dark Watchers (also known by early Spanish settlers as Los Vigilantes Oscuros) is a name given to a group of entities in California folklore purportedly seen observing travelers along the Santa Lucia Mountains.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dark-watchers-c02",
+          "source_id": "dark-watchers-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Dark Watchers are described as tall featureless dark silhouettes with brimmed hats or walking sticks.",
+          "statement_id": "Dark Watchers digambarkan sebagai siluet hitam jangkung tanpa wajah yang mengenakan topi atau tongkat jalan.",
+          "quote": "The Dark Watchers are described as tall, sometimes giant-sized featureless dark silhouettes often adorned with brimmed hats or walking sticks.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dark-watchers-c03",
+          "source_id": "dark-watchers-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They are most often reported to be seen in the hours around twilight and dawn.",
+          "statement_id": "Mereka paling sering dilaporkan terlihat pada saat senja dan fajar.",
+          "quote": "They are most often reported to be seen in the hours around twilight and dawn.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "douen",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "douen-c01",
+          "source_id": "douen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Douen is an entity in Trinidadian folklore, also spelt Dwen in Saint Lucian folklore.",
+          "statement_id": "Douen adalah entitas dalam cerita rakyat Trinidad, juga dieja Dwen dalam tradisi Saint Lucia.",
+          "quote": "The Douen (/ˈduːɪn/) is an entity in Trinidadian folklore, also spelt Dwen (/ˈdwɛn/) in Saint Lucian folklore.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "douen-c02",
+          "source_id": "douen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Their most recognized characteristic is backwards feet with heels facing front and being faceless.",
+          "statement_id": "Ciri khas paling dikenali adalah kakinya yang terbalik dengan tumit di depan dan tidak memiliki wajah.",
+          "quote": "Their most recognized characteristic is that their feet are said to be backwards, with the heel facing the front and the knees are backwards also being faceless.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "douen-c03",
+          "source_id": "douen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "If they hear a child's name, they can call in a parent's voice to lure the child into the forest.",
+          "statement_id": "Bila mendengar nama anak, mereka dapat memanggil anak itu dengan suara orang tuanya untuk memikatnya ke hutan.",
+          "quote": "If they hear a child's name, then they can call to the child in a parent's voice and try to lure the child into the forest.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "dungavenhooter",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 2,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "short_description",
+          "message": "Tidak muncul di kutipan mana pun: Amerika. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: North. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "dungavenhooter-c01",
+          "source_id": "dungavenhooter-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In American folklore, the dungavenhooter is a fearsome critter resembling a crocodile that pulverizes prey into vapor and snorts them.",
+          "statement_id": "Dungavenhooter adalah makhluk mirip buaya tanpa mulut yang memangsa manusia dengan menghancurkannya jadi uap dan menghirupnya lewat hidung.",
+          "quote": "In American folklore, the dungavenhooter is a fearsome critter described as resembling a large crocodylian animal, lacking a mouth, which consumes prey by pulverizing its human prey into vapor, and snorting them through the large holes of its nose.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dungavenhooter-c02",
+          "source_id": "dungavenhooter-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The dungavenhooter appears in the 1939 book Fearsome Critters by Tryon, purported to have been sighted in marshlands from Maine to Michigan.",
+          "statement_id": "Dungavenhooter muncul dalam buku Fearsome Critters karya Henry Harrington Tryon tahun 1939, dilaporkan pernah terlihat di rawa Maine hingga Michigan.",
+          "quote": "The dungavenhooter appears in the 1939 book on folklore, Fearsome Critters, by Henry Harrington Tryon (1888–1953), wherein the animal is purported to have once been sighted in marshlands from Maine to Michigan, but has since been extirpated outside the upper peninsula of Michigan, and has become rare.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "gang-gang-sarah",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 2,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"according to the folklore of trinidad and tobago gang gang sarah is…\"). Tulis ulang dengan kata-kata sendiri."
+        }
+      ],
+      "claims": [
+        {
+          "id": "gang-gang-sarah-c01",
+          "source_id": "gang-gang-sarah-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to folklore of Trinidad and Tobago, Gang Gang Sarah is an African witch blown to Tobago landing in Les Coteaux.",
+          "statement_id": "Menurut cerita rakyat Trinidad and Tobago, Gang Gang Sarah adalah penyihir Afrika yang tertiup angin ke Tobago dan mendarat di Les Coteaux.",
+          "quote": "According to the folklore of Trinidad and Tobago, Gang Gang Sarah is an African witch who was blown off course to Tobago on a strong wind and landed in the village of Les Coteaux.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gang-gang-sarah-c02",
+          "source_id": "gang-gang-sarah-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She stayed to search for family, but found she lost the power of flight because she ate salt in Golden Lane, Tobago.",
+          "statement_id": "Ia tinggal mencari keluarganya, namun kehilangan daya terbang karena memakan garam di Golden Lane, Tobago.",
+          "quote": "She chose to stay for a while to search for her family, but when at last she decided to go home found that she had lost the power of flight because she had eaten salt during her stay in Golden Lane, Tobago.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "gloucester-sea-serpent",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.who",
+          "message": "Tidak muncul di kutipan mana pun: Atlantik. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.role",
+          "message": "Tidak muncul di kutipan mana pun: American. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "gloucester-sea-serpent-c01",
+          "source_id": "gloucester-sea-serpent-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Gloucester sea serpent is a legendary creature reported seen around the coast of Gloucester, Massachusetts and Cape Ann.",
+          "statement_id": "Ular laut Gloucester adalah makhluk legenda yang dilaporkan terlihat di pantai Gloucester, Massachusetts dan Cape Ann.",
+          "quote": "The Gloucester sea serpent is a legendary creature reportedly seen around and off the coast of Gloucester, Massachusetts and Cape Ann area in the United States.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gloucester-sea-serpent-c02",
+          "source_id": "gloucester-sea-serpent-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The heyday of sightings began in August 1817 and continued into 1818–1819.",
+          "statement_id": "Puncak masa penampakan dimulai pada Agustus 1817 dan berlangsung hingga 1818–1819.",
+          "quote": "The heyday of sightings began in August 1817 and continued into 1818–1819.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gloucester-sea-serpent-c03",
+          "source_id": "gloucester-sea-serpent-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Described as a massive serpent-like creature with humps along its back, it was subject of encounters by fishermen.",
+          "statement_id": "Digambarkan sebagai makhluk mirip ular raksasa dengan punuk di sepanjang punggungnya, ular laut ini disaksikan banyak nelayan.",
+          "quote": "Described as a massive serpent-like creature with humps along its back, the Gloucester Sea Serpent has been the subject of numerous sightings and tales of encounters by fishermen and sailors.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "golden-bear-legend",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "short_description.en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"in american folklore the golden bear was a large golden ursus arctos…\"). Tulis ulang dengan kata-kata sendiri."
+        }
+      ],
+      "claims": [
+        {
+          "id": "golden-bear-legend-c01",
+          "source_id": "golden-bear-legend-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In American folklore, the Golden Bear was a large golden Ursus arctos.",
+          "statement_id": "Dalam cerita rakyat Amerika, Beruang Emas adalah beruang Ursus arctos emas besar.",
+          "quote": "In American folklore, the Golden Bear was a large golden Ursus arctos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "golden-bear-legend-c02",
+          "source_id": "golden-bear-legend-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A great Golden Bear was reported in the area of Turner, Kansas.",
+          "statement_id": "Seekor Beruang Emas besar dilaporkan di daerah Turner, Kansas.",
+          "quote": "A great Golden Bear was reported in the area of Turner, Kansas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "golden-bear-legend-c03",
+          "source_id": "golden-bear-legend-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to John Gardiner in 1831, it was feared and admired by local Indigenous population.",
+          "statement_id": "Menurut John Gardiner pada 1831, beruang ini ditakuti dan dikagumi oleh penduduk pribumi setempat.",
+          "quote": "According to John Gardiner in 1831, it was feared and admired by the local Indigenous population.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "goose-wife",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "goose-wife-c01",
+          "source_id": "goose-wife-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Goose Wife is a mythical female character in tales from the Inuit across the circumpolar Arctic.",
+          "statement_id": "Goose Wife adalah tokoh mitos perempuan dalam kisah Inuit dan kelompok etnis di wilayah Arktik.",
+          "quote": "The Goose Wife is a mythical female character that appears in tales from the Inuit and other ethnic groups that dwell across the circumpolar Arctic region.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "goose-wife-c02",
+          "source_id": "goose-wife-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The story tells of geese alighting on land, becoming women by removing goose-skins to bathe.",
+          "statement_id": "Kisah umumnya menceritakan angsa mendarat, melepas kulit angsa menjadi wanita, lalu mandi di danau.",
+          "quote": "The usual story is that the geese alight on land, become women by taking off their goose-skins and bathe in a lake.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "goose-wife-c03",
+          "source_id": "goose-wife-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A human hunter spies on them, steals one goose-skin, forcing her to be his wife.",
+          "statement_id": "Seorang pemburu mengintai mereka dan mencuri kulit angsa salah satunya, memaksanya menjadi istri.",
+          "quote": "However, they are unaware that a human hunter is spying on them, and he steals the goose-skin of one of them, forcing her to be his wife.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "grafton-monster",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 2,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "grafton-monster-c01",
+          "source_id": "grafton-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In West Virginia folklore, the Grafton Monster is a cryptid reported around Grafton in 1964.",
+          "statement_id": "Dalam cerita rakyat West Virginia, Monster Grafton adalah kriptid yang dilaporkan di sekitar Grafton pada 1964.",
+          "quote": "In West Virginia folklore, the Grafton Monster is a cryptid reported in and around Grafton, West Virginia, primarily associated with a cluster of sightings and local publicity in 1964.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "grafton-monster-c02",
+          "source_id": "grafton-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The creature is portrayed as very tall, pale, sometimes appearing headless and producing whistling.",
+          "statement_id": "Makhluk ini digambarkan sangat tinggi, berkulit pucat, kadang tampak tanpa kepala dan bersiul ganjil.",
+          "quote": "Descriptions vary by source, but the creature is commonly portrayed as a very tall, pale or light-colored figure, sometimes described as appearing headless and producing an unusual whistling sound.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "guahayona",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 2,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "short_description",
+          "message": "Tidak muncul di kutipan mana pun: Karibia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.origin",
+          "message": "Tidak muncul di kutipan mana pun: Kepulauan, Antillen, Caribbean. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "guahayona-c01",
+          "source_id": "guahayona-s1",
+          "host": "de.wikipedia.org",
+          "statement": "Guahayona is a trickster in the myths of the Taíno Indians.",
+          "statement_id": "Guahayona adalah seorang penipu dalam mitos orang Indian Taíno.",
+          "quote": "Guahayona ist ein Trickster in den Mythen der Taíno-Indianer.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "guahayona-c02",
+          "source_id": "guahayona-s1",
+          "host": "de.wikipedia.org",
+          "statement": "In another tale Guahayona abducted women with his brother-in-law, pushed him into the sea, and left women on an island.",
+          "statement_id": "Dalam kisah lain Guahayona menculik wanita bersama iparnya lalu mendorongnya ke laut dan meninggalkan para wanita di pulau.",
+          "quote": "In einer anderen Erzählung raubte Guahayona gemeinsam mit seinem Schwager die Frauen eines Fürsten und stieß ersteren ins Wasser, als sie gemeinsam das Meer überquerten – um danach alle Frauen doch auf einer Insel zurückzulassen und mit der, die ihm am besten gefiel, auf eine andere zu fahren.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "gumberoo",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.origin",
+          "message": "Tidak muncul di kutipan mana pun: Utara. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "gumberoo-c01",
+          "source_id": "gumberoo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In American folklore, the Gumberoo is a fearsome critter with hide so tough that bullets bounce off it.",
+          "statement_id": "Dalam cerita rakyat Amerika, Gumberoo adalah makhluk dengan kulit begitu alot hingga peluru memantul.",
+          "quote": "In American folklore, the Gumberoo is a fearsome critter with hide so tough that bullets bounce off of it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gumberoo-c02",
+          "source_id": "gumberoo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The gumberoo was described by early lumberjacks to be larger than a bear with a tough, shiny black hide.",
+          "statement_id": "Gumberoo digambarkan oleh penebang kayu lebih besar dari beruang dengan kulit hitam mengilap yang tidak bisa ditembus.",
+          "quote": "The gumberoo was described by early lumberjacks to be larger than a bear with a tough, shiny, black hide that nothing could pierce.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gumberoo-c03",
+          "source_id": "gumberoo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The only way to kill it was said to be fire, which caused the creatures to explode.",
+          "statement_id": "Satu-satunya cara membunuhnya adalah dengan api, yang membuat makhluk itu meledak.",
+          "quote": "The only way to kill it was said to be fire, which caused the creatures to explode.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "hillbilly-beast-of-kentucky",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 2,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Bigfoot-type. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "hillbilly-beast-of-kentucky-c01",
+          "source_id": "hillbilly-beast-of-kentucky-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Hillbilly Beast of Kentucky is an urban legend similar to Bigfoot roaming eastern Kentucky near Ohio River.",
+          "statement_id": "Hillbilly Beast of Kentucky adalah legenda urban mirip Bigfoot di bukit Kentucky timur dekat Sungai Ohio.",
+          "quote": "The Hillbilly Beast of Kentucky, also called the Hillbilly Beast, is a Kentucky urban legend similar to Bigfoot that reportedly roams the hills of eastern Kentucky near the Ohio River.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hillbilly-beast-of-kentucky-c02",
+          "source_id": "hillbilly-beast-of-kentucky-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The beast reportedly has black eyes that glow orange at night, shouts, and bangs on trees.",
+          "statement_id": "Makhluk ini dilaporkan memiliki mata hitam yang menyala oranye di malam hari, berteriak, dan memukul pohon.",
+          "quote": "The beast reportedly has black eyes that glow orange during the night, vocalizes using shouts, and bangs on trees.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "hombre-gato",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "short_description",
+          "message": "Tidak muncul di kutipan mana pun: Argentine. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "hombre-gato-c01",
+          "source_id": "hombre-gato-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Hombre Gato, or Catman, is a legendary creature that possesses both feline and human features.",
+          "statement_id": "Hombre Gato atau Catman adalah makhluk legendaris dengan ciri kucing dan manusia.",
+          "quote": "The Hombre Gato, or Catman, is a legendary creature that possesses both feline and human features.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hombre-gato-c02",
+          "source_id": "hombre-gato-s1",
+          "host": "en.wikipedia.org",
+          "statement": "This South American folk tale is particularly popular in Argentina, especially in rural areas.",
+          "statement_id": "Kisah rakyat Amerika Selatan ini sangat populer di Argentina, terutama di daerah pedesaan.",
+          "quote": "This South American folk tale is particularly popular in Argentina, especially in rural and less populated areas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hombre-gato-c03",
+          "source_id": "hombre-gato-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Much like the werewolf, the catman is thought to come out at night, preying on people and animals.",
+          "statement_id": "Mirip manusia serigala, manusia kucing dipercaya keluar malam memangsa orang dan hewan.",
+          "quote": "Much like the werewolf, the catman is thought to come out at night, roaming neighborhoods and preying on both people and animals.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "homem-dos-pes-de-louca",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "homem-dos-pes-de-louca-c01",
+          "source_id": "homem-dos-pes-de-louca-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "Homem dos Pés de Louça is a Brazilian folkloric figure.",
+          "statement_id": "Homem dos Pés de Louça adalah tokoh cerita rakyat Brasil.",
+          "quote": "Homem dos Pés de Louça é uma figura folclórica brasileira.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "homem-dos-pes-de-louca-c02",
+          "source_id": "homem-dos-pes-de-louca-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "It is considered an apparition, a ghost that appears in Ilha Grande, Restinga de Marambaia, Mangaratiba, in Rio de Janeiro.",
+          "statement_id": "Ia dianggap sebagai hantu penampakan di Ilha Grande, Restinga de Marambaia, dan Mangaratiba, Rio de Janeiro.",
+          "quote": "É tido como uma assombração, um fantasma que aparece na Ilha Grande, Restinga de Marambaia, Mangaratiba, no estado do Rio de Janeiro.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "homem-dos-pes-de-louca-c03",
+          "source_id": "homem-dos-pes-de-louca-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "They have a body like common men, but feet made of porcelain with glints of light.",
+          "statement_id": "Tubuhnya mirip pria biasa, namun kakinya terbuat dari porselen yang memancarkan kilau cahaya.",
+          "quote": "Têm o corpo, a voz, os olhos, os cabelos iguais aos de qualquer homem comum, mas os pés são feitos de louça, com brilhos de luz.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "horned-serpent",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.who",
+          "message": "Tidak muncul di kutipan mana pun: Native, American. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "horned-serpent-c01",
+          "source_id": "horned-serpent-s1",
+          "host": "nl.wikipedia.org",
+          "statement": "The horned serpent is a fabulous beast said to occur throughout North America.",
+          "statement_id": "Ular bertanduk adalah hewan fabel yang ada di seluruh Amerika Utara.",
+          "quote": "Het gehoornd serpent is een fabeldier dat in heel Noord-Amerika voor zou komen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "horned-serpent-c02",
+          "source_id": "horned-serpent-s1",
+          "host": "nl.wikipedia.org",
+          "statement": "The horned serpent is the arch-enemy of the thunderbird.",
+          "statement_id": "Ular bertanduk adalah musuh bebuyutan dari burung petir.",
+          "quote": "Het gehoornd serpent is de aartsvijand van de dondervogel.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "horned-serpent-c03",
+          "source_id": "horned-serpent-s1",
+          "host": "nl.wikipedia.org",
+          "statement": "When they fight against each other, lightning and heavy rain occur.",
+          "statement_id": "Ketika mereka bertarung satu sama lain, kilat dan hujan lebat terjadi.",
+          "quote": "Als ze tegen elkaar vechten, bliksemt en regent het hevig.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "hugag",
+      "file": "batch-148.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 2,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.origin",
+          "message": "Tidak muncul di kutipan mana pun: Northwoods. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "hugag-c01",
+          "source_id": "hugag-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In American folklore, the hugag is a fearsome critter similar to a moose with an extensive upper lip and jointless legs.",
+          "statement_id": "Dalam cerita rakyat Amerika, hugag adalah makhluk mirip rusa berbibir atas panjang dan kaki tanpa sendi.",
+          "quote": "In American folklore, the hugag is a fearsome critter similar to a moose with an extensive upper lip, preventing it from grazing, and jointless legs preventing it from lying down.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hugag-c02",
+          "source_id": "hugag-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The modern conception of the hugag is derived from 1910's Fearsome Creatures of the Lumberwoods by Cox.",
+          "statement_id": "Konsepsi modern hugag sebagian besar berasal dari buku 1910 Fearsome Creatures of the Lumberwoods karya William T. Cox.",
+          "quote": "The modern conception of the hugag is largely derived from 1910's Fearsome Creatures of the Lumberwoods by William T. Cox.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    }
+  ]
+}
