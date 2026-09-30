@@ -1,8 +1,8 @@
 # Review batch-049
 
-Diperiksa 2026-09-30T06:38:22.469Z. Berkas: batch-049.md.
+Diperiksa 2026-09-30T06:52:01.124Z. Berkas: batch-049.md.
 
-**Belum dikirim:** inugami, ryujin, swan-maiden, abura-sumashi, obake, zashiki-warashi, amanojaku, sojobo, toyotama-hime, tsuchigumo, ubume, ugayafukiaezu, ushi-oni
+**Belum dikirim:** abura-sumashi, obake, zashiki-warashi, amanojaku, sojobo, toyotama-hime, tsuchigumo, ubume, ugayafukiaezu, ushi-oni
 
 ## susanoo — lulus-otomatis
 
@@ -624,4 +624,61 @@ Klaim 9 (exact 9), sumber 2, gambar 0.
 | ikiryo-c07 | exact | the-noh.com | The phantom is Lady Rokujō’s vengeful spirit. | The phantom, who is trapped by the priestess's prayer and appears, is the vengeful spirit of Rokujō-no-miyasudokoro (Lady Rokujō) |
 | ikiryo-c08 | exact | the-noh.com | In the play, Rokujō’s jealousy takes the form of a female ogre. | When the priest starts a sacred invocation, the jealousy in Lady Rokujō's heart embodies itself as a female ogre. |
 | ikiryo-c09 | exact | the-noh.com | The play ends with Rokujō’s spirit at peace. | Lady Rokujō's spirit became peaceful and capable of becoming a Buddha. |
+
+
+## inugami — lulus-otomatis
+
+Klaim 10 (exact 10), sumber 4, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| inugami-c01 | exact | izanora.com | Inugami is a possession spirit linked to family lines in Shikoku, Chūgoku, and Kyūshū. | Inugami is a possession spirit of the Shikoku, Chugoku, and Kyushu regions, tied to specific family lines and read as a folk explanation of illness. |
+| inugami-c02 | exact | d-museum.kokugakuin.ac.jp | The encyclopedia calls inugami dog kami among animal spirits. | dog kami or inugami, and different kinds of foxes including izuna, osagigitsune, ninko, and yako. |
+| inugami-c03 | exact | d-museum.kokugakuin.ac.jp | Tsukimono is believed to attach to a person in a form of possession. | A spirit which attaches itself to a human being, usually an evil spirit that causes disasters. The attachment of a tsukimono to a person is a form of possession. |
+| inugami-c04 | exact | d-museum.kokugakuin.ac.jp | Tsukimono possession is described as involuntary and uncontrollable. | an involuntary and unintentional possession which one cannot control. |
+| inugami-c05 | exact | d-museum.kokugakuin.ac.jp | Tsukimono possession served as a cultural explanation for disease and misfortune. | possession by tsukimono is frequently used as an explanatory concept and a cultural device as the cause of disease and misfortune. |
+| inugami-c06 | exact | d-museum.kokugakuin.ac.jp | Belief holds that such spirits could bring prosperity or be sent to harm others. | it is believed that tsukimono can bring about wealth, rank, and prosperity through individual and family prayer; while on the other hand, tsukimono can be directed to possess others and bring about disease, death, and the ruination of a family line. |
+| inugami-c07 | exact | d-museum.kokugakuin.ac.jp | Families labeled as tsukimono lineages faced avoidance in marriage and social relations. | a deep discrimination developed in the form of avoiding marriage and association with families with a tsukimono lineage |
+| inugami-c08 | exact | d-museum.kokugakuin.ac.jp | The tsukimono label can become a mark of social discrimination unrelated to possession. | tsukimono becomes unrelated to a state of possession and functions as a mark of social discrimination. |
+| inugami-c09 | exact | www.jstage.jst.go.jp | Fieldwork in Kōchi links inugami talk to discrimination and groundless slander. | In this paper, it was clarified that "Inugami (犬神)" is existing still now with the consideration of discrimination in Hata (幡多) district, Kochi Prefecture from the fieldwork. "Inugami" has changed intimately to the slander without grounds that stagnate internally individual. |
+| inugami-c10 | exact | www.nps.gov | A Tule Lake study records rumors of inugami, or dog spirits. | In the same week, there were many rumors of inugami, "dog-spirits," nekogami, "cat-spirits," and inugami mochi, "female witches." |
+
+
+## ryujin — lulus-otomatis
+
+Klaim 11 (exact 11), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| ryujin-c01 | exact | d-museum.kokugakuin.ac.jp | Ryūjin means dragon kami and names a faith associated with dragons. | Ryūjin ("dragon kami") faith is a form of religious thought and practice associated with dragons, a mythical sacred animal of ancient China. |
+| ryujin-c02 | exact | d-museum.kokugakuin.ac.jp | Ryūjin worship drew from China, while the dragon could symbolize a deified snake and water kami. | Although Japanese ryūjin worship was influenced by China, the Japanese dragon as an object of faith was a deified snake, a symbol of a water kami (suijin). |
+| ryujin-c03 | exact | d-museum.kokugakuin.ac.jp | Related terms include ryūō, dragon king, and ryūgū, dragon palace. | Besides the term ryūjin, ryūō ("dragon king") and ryūgū ("dragon palace") are also used. |
+| ryujin-c04 | exact | d-museum.kokugakuin.ac.jp | The dragon kami is linked to farming as a water kami. | The dragon kami is connected with agriculture because of its characteristic as a water kami. |
+| ryujin-c05 | exact | d-museum.kokugakuin.ac.jp | Rain prayers took place at rivers, swamps, ponds, and deep pools regarded as Ryūjin’s abodes. | Prayers for rain were performed at rivers, swamps, ponds, and deep pools which were regarded as the abodes of the ryūjin. |
+| ryujin-c06 | exact | d-museum.kokugakuin.ac.jp | Agricultural rituals used straw rope shaped like a serpentine dragon. | Agricultural rituals, such as prayers for rain and rope pulls, were carried out using a straw rope shaped like a serpent-like dragon. |
+| ryujin-c07 | exact | d-museum.kokugakuin.ac.jp | Fishers prayed to the dragon kami for abundant catches and calm seas. | Fishermen prayed to the dragon kami for an abundant catch and calm seas. |
+| ryujin-c08 | exact | d-museum.kokugakuin.ac.jp | Festivals celebrated Ryūjin as kami of the sea and dragon palace. | They carried out festivals for ryūjin, celebrated as the kami of the sea and the kami of the dragon palace. |
+| ryujin-c09 | exact | www.mlit.go.jp | A temple account identifies Ryūjin as a protector at one of four cardinal points. | Ryujin ("dragon god"), one of the protective kami, or Shinto deities that reside at the four cardinal points of the temple grounds. |
+| ryujin-c10 | exact | www.mlit.go.jp | A temple legend says Ryūjin sought to protect the Buddha relics carried by Ganjin. | Ryujin, who guards the east of the temple, petitioned the monk to allow him to become the protector of the Buddha’s relics that Ganjin carried with him. |
+| ryujin-c11 | exact | www.worldhistory.org | Ryūjin is sometimes associated with or identified as Watatsumi. | Ryujin is often associated with or considered the same as Owatatsumi-no-kami, another water deity or Shinto kami (spirit), better known as Watatsumi. |
+
+
+## swan-maiden — lulus-otomatis
+
+Klaim 12 (exact 12), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| swan-maiden-c01 | exact | opensquare.nyupress.org | The Swan Maiden story is found across many cultures. | This is a study of the meaning of gender as framed by the swan maiden tale, a story found in the folklore of virtually every culture. |
+| swan-maiden-c02 | exact | opensquare.nyupress.org | The tale features a supernatural woman compelled to marry a man who holds the key to her confinement. | The swan maiden is a supernatural woman forced to marry, keep house, and bear children for a mortal man who holds the key to her imprisonment. |
+| swan-maiden-c03 | exact | opensquare.nyupress.org | When she recovers that key, she escapes to another world. | When she manages to regain this key, she escapes to the otherworld, never to return. |
+| swan-maiden-c04 | exact | sites.pitt.edu | Jacobs’s tale has seven feather-robed maidens land beside a lake. | there appeared seven maidens all clad in robes made of feathers, and they alighted on the banks of the lake |
+| swan-maiden-c05 | exact | sites.pitt.edu | The hunter takes one maiden’s feather robe. | he crept forward from the bushes and seized her dress of plumage and took it back with him into the bushes. |
+| swan-maiden-c06 | exact | sites.pitt.edu | He compels marriage and hides her feather robe. | And he made her promise to marry him, and took her home, and hid her feather robe where she could not find it. |
+| swan-maiden-c07 | exact | sites.pitt.edu | The Japanese version is set on the Suruga coast and features the fisherman Hakurioo. | On the coast of Suruga, at Miwo, there once lived a fisherman by the name of Hakurioo. |
+| swan-maiden-c08 | exact | sites.pitt.edu | The heavenly maiden cannot leave earth without her feather robe. | she was a heavenly goddess, and that she would have to remain miserably on earth as long as she did not have her feathery robe |
+| swan-maiden-c09 | exact | sites.pitt.edu | The fisherman offers to return the robe in exchange for a dance. | Moved by compassion, the fisherman said, "Very well, I will give your robe back to you, if in return you will dance the heavenly dance for me with which you daughters of heaven soar through the clouds." |
+| swan-maiden-c10 | exact | sites.pitt.edu | The fisherman returns the robe and the maiden rises into the air. | Thereupon Hakurioo handed her the feathery robe. She immediately put it on and rose into the air. |
+| swan-maiden-c11 | exact | sites.pitt.edu | The daughter finds the feather robe and brings it to her mother. | One day her little daughter was playing at hide-and-seek with her brother, and she went behind the wainscoting to hide herself, and found there a robe all made of feathers, and took it to her mother. |
+| swan-maiden-c12 | exact | sites.pitt.edu | She puts on the robe and flies away. | As soon as she saw it she put it on and said to her daughter, "Tell father that if he wishes to see me again he must find me in the Land East o' the Sun and West o' the Moon;" and with that she flew away. |
 

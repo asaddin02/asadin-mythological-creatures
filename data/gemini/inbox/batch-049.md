@@ -8797,3 +8797,818 @@
 }
 ```
 
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "inugami",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Inugami",
+    "native_name": null,
+    "display_name": {
+      "id": "Inugami",
+      "en": "Inugami"
+    },
+    "wikidata_qid": "Q1150212",
+    "claim_ids": [
+      "inugami-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "roh",
+    "claim_ids": [
+      "inugami-c01",
+      "inugami-c02"
+    ]
+  },
+  "classification": {
+    "value": "spirit",
+    "claim_ids": [
+      "inugami-c01",
+      "inugami-c02"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "inugami-c01",
+      "inugami-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "inugami-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Inugami adalah roh anjing dalam kepercayaan kerasukan yang dapat dikaitkan dengan keluarga tertentu.",
+    "en": "Inugami is a dog spirit in possession beliefs, sometimes associated with particular families.",
+    "claim_ids": [
+      "inugami-c01",
+      "inugami-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Inugami digambarkan sebagai roh anjing atau kami anjing dalam kelompok kepercayaan tsukimono, yakni roh yang dipercaya menempel pada manusia. Tradisinya tercatat terutama di Shikoku, Chūgoku, dan Kyūshū. Kerasukan semacam ini dapat dipakai sebagai penjelasan budaya atas penyakit atau kemalangan. Kisahnya juga mengaitkan roh dengan garis keluarga: roh dipercaya dapat menjaga atau memberi kemakmuran, tetapi juga ditakuti dapat dikirim untuk menyakiti orang lain. Semua itu adalah isi kepercayaan, bukan penjelasan medis atas penyakit.",
+      "en": "Inugami is described as a dog spirit or dog kami within tsukimono beliefs about spirits attaching to people. The tradition is recorded especially in Shikoku, Chūgoku, and Kyūshū. Such possession could serve as a cultural explanation for illness or misfortune. Stories also tie spirits to family lines: they might bring prosperity but were feared as a means of harming others. These are beliefs, not medical explanations for illness.",
+      "claim_ids": [
+        "inugami-c01",
+        "inugami-c02",
+        "inugami-c03",
+        "inugami-c04",
+        "inugami-c05",
+        "inugami-c06"
+      ]
+    },
+    {
+      "id": "Tuduhan memiliki roh ini berdampak nyata pada manusia. Sebuah ensiklopedia menjelaskan keluarga yang dikaitkan dengan tsukimono dapat dihindari dalam pernikahan dan pergaulan, bahkan ketika tuduhan itu terlepas dari peristiwa kerasukan. Penelitian lapangan di Kōchi menemukan pembicaraan tentang inugami masih berkaitan dengan diskriminasi dan fitnah. Catatan folklor dari pusat tahanan Tule Lake juga menyebut rumor inugami pada masa ketegangan komunitas. Karena itu, pembahasan inugami perlu membedakan cerita roh dari prasangka sosial yang menimpa keluarga nyata.",
+      "en": "Accusations of keeping such a spirit had real effects on people. An encyclopedia explains that families associated with tsukimono could be avoided in marriage and social contact, even when the label had no connection to an instance of possession. Fieldwork in Kōchi found that talk of inugami still related to discrimination and slander. Folklore recorded at Tule Lake also mentions inugami rumors during community tension. The spirit story should therefore be distinguished from prejudice against real families.",
+      "claim_ids": [
+        "inugami-c07",
+        "inugami-c08",
+        "inugami-c09",
+        "inugami-c10"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "inugami-s1",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=8982",
+      "title": "Tsukimono",
+      "author": "Kawamura Kunimitsu",
+      "publisher": "Encyclopedia of Shinto, Kokugakuin University",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "inugami-s2",
+      "url": "https://izanora.com/en/spirits/inugami",
+      "title": "Inugami",
+      "author": null,
+      "publisher": "IZANORA",
+      "published": null,
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "inugami-s3",
+      "url": "https://www.jstage.jst.go.jp/article/lifology/25/0/25_KJ00009706227/_article/-char/ja",
+      "title": "現代における憑きもの筋の変容に関する地域研究 : 高知県の犬神を事例として",
+      "author": "Sakai Takahiro",
+      "publisher": "Journal of Lifology / J-STAGE",
+      "published": "2014-09-30",
+      "language": "en",
+      "type": "journal-article",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "inugami-s4",
+      "url": "https://www.nps.gov/articles/000/japanese-folk-beliefs-and-practices-in-tule-lake-segregation-center.htm",
+      "title": "Japanese Folk Beliefs and Practices in Tule Lake Segregation Center",
+      "author": "Marvin K. Opler",
+      "publisher": "National Park Service / Journal of American Folklore",
+      "published": "1950",
+      "language": "en",
+      "type": "journal-article",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "inugami-c01",
+      "source_id": "inugami-s2",
+      "quote": "Inugami is a possession spirit of the Shikoku, Chugoku, and Kyushu regions, tied to specific family lines and read as a folk explanation of illness.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Inugami disebut roh kerasukan di Shikoku, Chūgoku, dan Kyūshū yang terkait garis keluarga.",
+        "en": "Inugami is a possession spirit linked to family lines in Shikoku, Chūgoku, and Kyūshū."
+      }
+    },
+    {
+      "id": "inugami-c02",
+      "source_id": "inugami-s1",
+      "quote": "dog kami or inugami, and different kinds of foxes including izuna, osagigitsune, ninko, and yako.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ensiklopedia menggolongkan inugami sebagai kami anjing dalam kelompok roh hewan.",
+        "en": "The encyclopedia calls inugami dog kami among animal spirits."
+      }
+    },
+    {
+      "id": "inugami-c03",
+      "source_id": "inugami-s1",
+      "quote": "A spirit which attaches itself to a human being, usually an evil spirit that causes disasters. The attachment of a tsukimono to a person is a form of possession.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tsukimono adalah roh yang diyakini menempel pada seseorang sebagai kerasukan.",
+        "en": "Tsukimono is believed to attach to a person in a form of possession."
+      }
+    },
+    {
+      "id": "inugami-c04",
+      "source_id": "inugami-s1",
+      "quote": "an involuntary and unintentional possession which one cannot control.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kerasukan tsukimono digambarkan tidak dikehendaki dan tidak terkendali.",
+        "en": "Tsukimono possession is described as involuntary and uncontrollable."
+      }
+    },
+    {
+      "id": "inugami-c05",
+      "source_id": "inugami-s1",
+      "quote": "possession by tsukimono is frequently used as an explanatory concept and a cultural device as the cause of disease and misfortune.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kerasukan tsukimono dipakai sebagai penjelasan budaya atas sakit atau malapetaka.",
+        "en": "Tsukimono possession served as a cultural explanation for disease and misfortune."
+      }
+    },
+    {
+      "id": "inugami-c06",
+      "source_id": "inugami-s1",
+      "quote": "it is believed that tsukimono can bring about wealth, rank, and prosperity through individual and family prayer; while on the other hand, tsukimono can be directed to possess others and bring about disease, death, and the ruination of a family line.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kepercayaan menyebut roh dapat membawa kemakmuran atau diarahkan untuk mencelakai.",
+        "en": "Belief holds that such spirits could bring prosperity or be sent to harm others."
+      }
+    },
+    {
+      "id": "inugami-c07",
+      "source_id": "inugami-s1",
+      "quote": "a deep discrimination developed in the form of avoiding marriage and association with families with a tsukimono lineage",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Keluarga yang dikaitkan dengan tsukimono dapat dihindari dalam pernikahan dan pergaulan.",
+        "en": "Families labeled as tsukimono lineages faced avoidance in marriage and social relations."
+      }
+    },
+    {
+      "id": "inugami-c08",
+      "source_id": "inugami-s1",
+      "quote": "tsukimono becomes unrelated to a state of possession and functions as a mark of social discrimination.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Label tsukimono bisa menjadi tanda diskriminasi sosial tanpa hubungan dengan kerasukan.",
+        "en": "The tsukimono label can become a mark of social discrimination unrelated to possession."
+      }
+    },
+    {
+      "id": "inugami-c09",
+      "source_id": "inugami-s3",
+      "quote": "In this paper, it was clarified that \"Inugami (犬神)\" is existing still now with the consideration of discrimination in Hata (幡多) district, Kochi Prefecture from the fieldwork. \"Inugami\" has changed intimately to the slander without grounds that stagnate internally individual.",
+      "locator": "Abstract",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Penelitian lapangan di Kōchi mengaitkan inugami dengan diskriminasi dan fitnah tanpa dasar.",
+        "en": "Fieldwork in Kōchi links inugami talk to discrimination and groundless slander."
+      }
+    },
+    {
+      "id": "inugami-c10",
+      "source_id": "inugami-s4",
+      "quote": "In the same week, there were many rumors of inugami, \"dog-spirits,\" nekogami, \"cat-spirits,\" and inugami mochi, \"female witches.\"",
+      "locator": "II. Fox, Cat, and Badger Legends",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Catatan Tule Lake menyebut rumor tentang inugami sebagai roh anjing.",
+        "en": "A Tule Lake study records rumors of inugami, or dog spirits."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "ryujin",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Ryūjin",
+    "native_name": null,
+    "display_name": {
+      "id": "Ryūjin",
+      "en": "Ryūjin"
+    },
+    "wikidata_qid": "Q2458617",
+    "claim_ids": [
+      "ryujin-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "ryujin-c01",
+      "ryujin-c08"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "ryujin-c01",
+      "ryujin-c08"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "ryujin-c01",
+      "ryujin-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "ryujin-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Ryūjin adalah kami naga yang dikaitkan dengan air, hujan, dan laut.",
+    "en": "Ryūjin is a dragon kami associated with water, rain, and the sea.",
+    "claim_ids": [
+      "ryujin-c01",
+      "ryujin-c02",
+      "ryujin-c05",
+      "ryujin-c08"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Nama Ryūjin berarti kami naga. Kepercayaan tentangnya memadukan citra naga dari Tiongkok dengan gambaran ular yang didewakan sebagai lambang dewa air. Ia juga disebut ryūō, raja naga; nama ryūgū merujuk pada istana naga. Di sungai, rawa, kolam, dan lubuk yang dianggap tempat tinggalnya, orang memanjatkan doa meminta hujan. Dalam ritual pertanian, tali jerami dapat dibentuk seperti naga berwujud ular.",
+      "en": "Ryūjin means dragon kami. Belief about Ryūjin combines dragon imagery from China with the image of a deified snake as a water kami. Ryūō means dragon king, while ryūgū refers to a dragon palace. People prayed for rain at rivers, swamps, ponds, and deep pools regarded as dragon abodes. Some agricultural rituals used straw rope shaped like a serpentine dragon.",
+      "claim_ids": [
+        "ryujin-c01",
+        "ryujin-c02",
+        "ryujin-c03",
+        "ryujin-c04",
+        "ryujin-c05",
+        "ryujin-c06"
+      ]
+    },
+    {
+      "id": "Di pesisir, nelayan berdoa kepada kami naga agar memperoleh tangkapan banyak dan laut tenang. Ryūjin juga dirayakan sebagai kami laut. Sebuah catatan wisata resmi tentang kuil menggambarkannya sebagai pelindung di salah satu penjuru halaman, lalu menceritakan legenda bahwa ia menawarkan diri menjaga relik Buddha yang dibawa biksu Ganjin. Sumber lain menggambarkan Ryūjin sebagai raja naga laut, tetapi juga mencatat bahwa ia kadang dihubungkan atau disamakan dengan Watatsumi. Beragam pemakaian nama ini mencerminkan tradisi kepercayaan dan cerita, bukan satu riwayat tunggal.",
+      "en": "On the coast, fishers prayed to the dragon kami for abundant catches and calm seas, and Ryūjin was celebrated as a sea kami. An official account of a temple describes Ryūjin as a protector at one corner of its grounds and tells a legend in which he offers to guard the Buddha’s relics brought by the monk Ganjin. Another source calls Ryūjin a sea dragon king and says he is sometimes associated with or identified as Watatsumi. These names belong to varied beliefs and stories rather than a single fixed biography.",
+      "claim_ids": [
+        "ryujin-c07",
+        "ryujin-c08",
+        "ryujin-c09",
+        "ryujin-c10",
+        "ryujin-c11"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "ryujin-s1",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=8979",
+      "title": "Ryūjin shinkō",
+      "author": "Iwai Hiroshi",
+      "publisher": "Encyclopedia of Shinto, Kokugakuin University",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "ryujin-s2",
+      "url": "https://www.mlit.go.jp/tagengo-db/en/R1-00293.html",
+      "title": "The Four Tutelary Deities",
+      "author": null,
+      "publisher": "Japan Tourism Agency",
+      "published": "2019",
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "ryujin-s3",
+      "url": "https://www.worldhistory.org/Ryujin/",
+      "title": "Ryujin",
+      "author": "Mark Cartwright",
+      "publisher": "World History Encyclopedia",
+      "published": "2017-06-28",
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "ryujin-c01",
+      "source_id": "ryujin-s1",
+      "quote": "Ryūjin (\"dragon kami\") faith is a form of religious thought and practice associated with dragons, a mythical sacred animal of ancient China.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ryūjin berarti kami naga dan berkaitan dengan kepercayaan tentang naga.",
+        "en": "Ryūjin means dragon kami and names a faith associated with dragons."
+      }
+    },
+    {
+      "id": "ryujin-c02",
+      "source_id": "ryujin-s1",
+      "quote": "Although Japanese ryūjin worship was influenced by China, the Japanese dragon as an object of faith was a deified snake, a symbol of a water kami (suijin).",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pemujaan Ryūjin dipengaruhi Tiongkok; naga juga dipahami sebagai ular yang didewakan dan lambang dewa air.",
+        "en": "Ryūjin worship drew from China, while the dragon could symbolize a deified snake and water kami."
+      }
+    },
+    {
+      "id": "ryujin-c03",
+      "source_id": "ryujin-s1",
+      "quote": "Besides the term ryūjin, ryūō (\"dragon king\") and ryūgū (\"dragon palace\") are also used.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Istilah terkait Ryūjin meliputi ryūō, raja naga, dan ryūgū, istana naga.",
+        "en": "Related terms include ryūō, dragon king, and ryūgū, dragon palace."
+      }
+    },
+    {
+      "id": "ryujin-c04",
+      "source_id": "ryujin-s1",
+      "quote": "The dragon kami is connected with agriculture because of its characteristic as a water kami.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kami naga terkait pertanian melalui sifatnya sebagai dewa air.",
+        "en": "The dragon kami is linked to farming as a water kami."
+      }
+    },
+    {
+      "id": "ryujin-c05",
+      "source_id": "ryujin-s1",
+      "quote": "Prayers for rain were performed at rivers, swamps, ponds, and deep pools which were regarded as the abodes of the ryūjin.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Doa hujan dilakukan di sungai, rawa, kolam, dan lubuk yang dianggap kediaman Ryūjin.",
+        "en": "Rain prayers took place at rivers, swamps, ponds, and deep pools regarded as Ryūjin’s abodes."
+      }
+    },
+    {
+      "id": "ryujin-c06",
+      "source_id": "ryujin-s1",
+      "quote": "Agricultural rituals, such as prayers for rain and rope pulls, were carried out using a straw rope shaped like a serpent-like dragon.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ritual pertanian memakai tali jerami berbentuk naga menyerupai ular.",
+        "en": "Agricultural rituals used straw rope shaped like a serpentine dragon."
+      }
+    },
+    {
+      "id": "ryujin-c07",
+      "source_id": "ryujin-s1",
+      "quote": "Fishermen prayed to the dragon kami for an abundant catch and calm seas.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Nelayan berdoa kepada kami naga agar tangkapan melimpah dan laut tenang.",
+        "en": "Fishers prayed to the dragon kami for abundant catches and calm seas."
+      }
+    },
+    {
+      "id": "ryujin-c08",
+      "source_id": "ryujin-s1",
+      "quote": "They carried out festivals for ryūjin, celebrated as the kami of the sea and the kami of the dragon palace.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ryūjin dirayakan dalam festival sebagai kami laut dan istana naga.",
+        "en": "Festivals celebrated Ryūjin as kami of the sea and dragon palace."
+      }
+    },
+    {
+      "id": "ryujin-c09",
+      "source_id": "ryujin-s2",
+      "quote": "Ryujin (\"dragon god\"), one of the protective kami, or Shinto deities that reside at the four cardinal points of the temple grounds.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Catatan kuil menyebut Ryūjin sebagai salah satu pelindung pada empat penjuru.",
+        "en": "A temple account identifies Ryūjin as a protector at one of four cardinal points."
+      }
+    },
+    {
+      "id": "ryujin-c10",
+      "source_id": "ryujin-s2",
+      "quote": "Ryujin, who guards the east of the temple, petitioned the monk to allow him to become the protector of the Buddha’s relics that Ganjin carried with him.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Legenda kuil menyebut Ryūjin ingin menjaga relik Buddha yang dibawa Ganjin.",
+        "en": "A temple legend says Ryūjin sought to protect the Buddha relics carried by Ganjin."
+      }
+    },
+    {
+      "id": "ryujin-c11",
+      "source_id": "ryujin-s3",
+      "quote": "Ryujin is often associated with or considered the same as Owatatsumi-no-kami, another water deity or Shinto kami (spirit), better known as Watatsumi.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ryūjin kerap dikaitkan atau disamakan dengan Watatsumi.",
+        "en": "Ryūjin is sometimes associated with or identified as Watatsumi."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "swan-maiden",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Swan Maiden",
+    "native_name": null,
+    "display_name": {
+      "id": "Swan Maiden",
+      "en": "Swan Maiden"
+    },
+    "wikidata_qid": "Q1326754",
+    "claim_ids": [
+      "swan-maiden-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "makhluk legenda",
+    "claim_ids": [
+      "swan-maiden-c01",
+      "swan-maiden-c02"
+    ]
+  },
+  "classification": {
+    "value": "legendary-figure",
+    "claim_ids": [
+      "swan-maiden-c01",
+      "swan-maiden-c02"
+    ]
+  },
+  "culture": {
+    "value": "cross-cultural",
+    "suggested_new": null,
+    "claim_ids": [
+      "swan-maiden-c01",
+      "swan-maiden-c07"
+    ]
+  },
+  "region": {
+    "value": "transregional",
+    "claim_ids": [
+      "swan-maiden-c01",
+      "swan-maiden-c07"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Swan Maiden adalah tokoh perempuan gaib dalam pola cerita lintas budaya tentang jubah bulu yang memungkinkan ia pergi dari dunia manusia.",
+    "en": "The Swan Maiden is a supernatural woman in cross-cultural stories about a feather robe that lets her leave the human world.",
+    "claim_ids": [
+      "swan-maiden-c01",
+      "swan-maiden-c02",
+      "swan-maiden-c03",
+      "swan-maiden-c08"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Swan Maiden adalah sebutan bagi pola cerita, bukan satu tokoh dengan riwayat tetap. Kajian folklor menyebut kisah ini tersebar di banyak budaya: seorang perempuan gaib dipaksa menikah dengan lelaki yang menahan benda kunci kebebasannya, lalu pergi ketika benda itu kembali. Dalam salah satu cerita yang dikumpulkan, tujuh perempuan berbaju bulu turun ke danau. Seorang pemburu mengambil jubah si bungsu, menyembunyikannya, dan membuatnya menikah. Ketika anak mereka menemukan jubah itu, perempuan tersebut mengenakannya dan terbang pergi.",
+      "en": "Swan Maiden names a story pattern rather than one person with a fixed biography. A folklore study describes stories in many cultures in which a supernatural woman is forced to marry a man who holds the key to her freedom; she leaves when she regains it. In one collected tale, seven feather-robed women descend to a lake. A hunter hides the youngest woman’s robe and makes her marry him. When their child finds it, she puts it on and flies away.",
+      "claim_ids": [
+        "swan-maiden-c01",
+        "swan-maiden-c02",
+        "swan-maiden-c03",
+        "swan-maiden-c04",
+        "swan-maiden-c05",
+        "swan-maiden-c06",
+        "swan-maiden-c11",
+        "swan-maiden-c12"
+      ]
+    },
+    {
+      "id": "Sebuah versi dari Jepang yang diterjemahkan dalam kumpulan cerita yang sama memakai perempuan kahyangan dan jubah bulu, tanpa menyebut ia berubah menjadi angsa. Seorang nelayan menemukan jubah itu; sang perempuan mengatakan ia tidak dapat kembali ke langit tanpanya. Nelayan akhirnya mengembalikan jubah setelah ia berjanji menari. Ia pun mengenakannya, menari di udara, lalu menghilang. Perbedaan itu menunjukkan bahwa bentuk burung dan akhir cerita bervariasi; unsur yang berulang adalah jubah yang menahan atau membebaskan perempuan gaib.",
+      "en": "A Japanese version translated in the same collection features a heavenly maiden and a feather robe without saying she becomes a swan. A fisherman finds the robe; the maiden says she cannot return to heaven without it. He eventually gives it back in return for a dance. She puts it on, dances in the air, and disappears. Bird form and endings vary; the recurring element here is the robe that constrains or releases a supernatural woman.",
+      "claim_ids": [
+        "swan-maiden-c07",
+        "swan-maiden-c08",
+        "swan-maiden-c09",
+        "swan-maiden-c10"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "swan-maiden-s1",
+      "url": "https://opensquare.nyupress.org/books/9780814752685/",
+      "title": "In Search of the Swan Maiden: A Narrative on Folklore and Gender",
+      "author": "Barbara Fass Leavy",
+      "publisher": "NYU Press",
+      "published": "1995",
+      "language": "en",
+      "type": "academic-book",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "swan-maiden-s2",
+      "url": "https://sites.pitt.edu/~dash/swan.html",
+      "title": "Swan Maidens: Folktales of Type 400",
+      "author": "D. L. Ashliman, editor and translator",
+      "publisher": "University of Pittsburgh",
+      "published": "2008",
+      "language": "en",
+      "type": "folklore-collection",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "swan-maiden-c01",
+      "source_id": "swan-maiden-s1",
+      "quote": "This is a study of the meaning of gender as framed by the swan maiden tale, a story found in the folklore of virtually every culture.",
+      "locator": "Book description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kisah Swan Maiden memiliki sebaran lintas budaya.",
+        "en": "The Swan Maiden story is found across many cultures."
+      }
+    },
+    {
+      "id": "swan-maiden-c02",
+      "source_id": "swan-maiden-s1",
+      "quote": "The swan maiden is a supernatural woman forced to marry, keep house, and bear children for a mortal man who holds the key to her imprisonment.",
+      "locator": "Book description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tokohnya adalah perempuan gaib yang dipaksa menikah oleh lelaki yang menguasai kebebasannya.",
+        "en": "The tale features a supernatural woman compelled to marry a man who holds the key to her confinement."
+      }
+    },
+    {
+      "id": "swan-maiden-c03",
+      "source_id": "swan-maiden-s1",
+      "quote": "When she manages to regain this key, she escapes to the otherworld, never to return.",
+      "locator": "Book description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ketika mendapatkan kembali benda yang membebaskannya, ia pergi ke dunia lain.",
+        "en": "When she recovers that key, she escapes to another world."
+      }
+    },
+    {
+      "id": "swan-maiden-c04",
+      "source_id": "swan-maiden-s2",
+      "quote": "there appeared seven maidens all clad in robes made of feathers, and they alighted on the banks of the lake",
+      "locator": "The Swan Maidens, Joseph Jacobs",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Versi Jacobs menampilkan tujuh perempuan berjubah bulu yang tiba di danau.",
+        "en": "Jacobs’s tale has seven feather-robed maidens land beside a lake."
+      }
+    },
+    {
+      "id": "swan-maiden-c05",
+      "source_id": "swan-maiden-s2",
+      "quote": "he crept forward from the bushes and seized her dress of plumage and took it back with him into the bushes.",
+      "locator": "The Swan Maidens, Joseph Jacobs",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pemburu mengambil jubah bulu salah seorang perempuan.",
+        "en": "The hunter takes one maiden’s feather robe."
+      }
+    },
+    {
+      "id": "swan-maiden-c06",
+      "source_id": "swan-maiden-s2",
+      "quote": "And he made her promise to marry him, and took her home, and hid her feather robe where she could not find it.",
+      "locator": "The Swan Maidens, Joseph Jacobs",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia membuat perempuan itu menikah lalu menyembunyikan jubahnya.",
+        "en": "He compels marriage and hides her feather robe."
+      }
+    },
+    {
+      "id": "swan-maiden-c07",
+      "source_id": "swan-maiden-s2",
+      "quote": "On the coast of Suruga, at Miwo, there once lived a fisherman by the name of Hakurioo.",
+      "locator": "The Feathery Robe, Japan",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kisah versi Jepang berlatar pesisir Suruga dan menampilkan nelayan Hakurioo.",
+        "en": "The Japanese version is set on the Suruga coast and features the fisherman Hakurioo."
+      }
+    },
+    {
+      "id": "swan-maiden-c08",
+      "source_id": "swan-maiden-s2",
+      "quote": "she was a heavenly goddess, and that she would have to remain miserably on earth as long as she did not have her feathery robe",
+      "locator": "The Feathery Robe, Japan",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Perempuan kahyangan dalam versi Jepang tak dapat pergi tanpa jubah bulunya.",
+        "en": "The heavenly maiden cannot leave earth without her feather robe."
+      }
+    },
+    {
+      "id": "swan-maiden-c09",
+      "source_id": "swan-maiden-s2",
+      "quote": "Moved by compassion, the fisherman said, \"Very well, I will give your robe back to you, if in return you will dance the heavenly dance for me with which you daughters of heaven soar through the clouds.\"",
+      "locator": "The Feathery Robe, Japan",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Nelayan menawarkan jubah itu kembali jika ia menari.",
+        "en": "The fisherman offers to return the robe in exchange for a dance."
+      }
+    },
+    {
+      "id": "swan-maiden-c10",
+      "source_id": "swan-maiden-s2",
+      "quote": "Thereupon Hakurioo handed her the feathery robe. She immediately put it on and rose into the air.",
+      "locator": "The Feathery Robe, Japan",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Nelayan mengembalikan jubah; perempuan itu mengenakannya dan terbang.",
+        "en": "The fisherman returns the robe and the maiden rises into the air."
+      }
+    },
+    {
+      "id": "swan-maiden-c11",
+      "source_id": "swan-maiden-s2",
+      "quote": "One day her little daughter was playing at hide-and-seek with her brother, and she went behind the wainscoting to hide herself, and found there a robe all made of feathers, and took it to her mother.",
+      "locator": "The Swan Maidens, Joseph Jacobs",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Putrinya menemukan jubah bulu itu dan membawanya kepada sang ibu.",
+        "en": "The daughter finds the feather robe and brings it to her mother."
+      }
+    },
+    {
+      "id": "swan-maiden-c12",
+      "source_id": "swan-maiden-s2",
+      "quote": "As soon as she saw it she put it on and said to her daughter, \"Tell father that if he wishes to see me again he must find me in the Land East o' the Sun and West o' the Moon;\" and with that she flew away.",
+      "locator": "The Swan Maidens, Joseph Jacobs",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sang ibu mengenakan jubah dan terbang pergi.",
+        "en": "She puts on the robe and flies away."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
