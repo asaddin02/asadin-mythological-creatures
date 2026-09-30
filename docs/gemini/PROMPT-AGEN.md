@@ -21,7 +21,7 @@ Kalau pengguna menulis nama dan arah lain di bawah prompt ini, ikuti itu.
 ## Sebelum mulai (sekali per sesi)
 
 Baca seluruhnya, jangan dilewati:
-1. `docs/gemini/00-instruksi-utama.md` (versi 3). Ini aturan riset, format JSON, dan daftar nilai yang diizinkan. **§1 (anti-mengarang), §8 (nilai yang diizinkan), §11 (kesalahan sebelumnya, termasuk §11.7 dan §11.8), dan §12 (makhluk baru) paling penting.**
+1. `docs/gemini/00-instruksi-utama.md` (versi 3). Ini aturan riset, format JSON, dan daftar nilai yang diizinkan. **§1 (anti-mengarang), §8 (nilai yang diizinkan), §11 (kesalahan sebelumnya, termasuk §11.7–§11.9), dan §12 (makhluk baru) paling penting.**
 2. `docs/gemini/batches/batch-001-fix-1.md`, contoh nyata kesalahan yang membuat entri ditolak.
 3. Satu contoh jawaban yang lulus, untuk meniru format dan kedalamannya: `data/gemini/inbox/batch-047.md` beserta perbaikannya `batch-047-fix-1.md` dan `batch-047-fix-2.md`, serta laporannya `data/gemini/reviews/batch-047.review.md`.
 

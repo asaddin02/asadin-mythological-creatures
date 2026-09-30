@@ -350,6 +350,12 @@ Pemeriksa menolak nilai di luar daftar §8. Kesalahan yang paling sering, besert
 ### 11.8 Nama yang sama
 Beberapa makhluk berbagi nama dengan makhluk lain (misalnya Phoebe sang Titan dan Phoebe sang hamadriad). Prompt batch menyebutkannya di baris "Catatan". Teliti hanya makhluk yang sesuai QID Wikidata di prompt. Untuk `task: new`, tulis `canonical_name` dengan pembeda singkat dalam kurung yang didukung sumber, misalnya `"Phoebe (hamadryad)"`. Kalau prompt sudah menentukan `canonical_name`, pakai persis nama itu.
 
+### 11.9 Kesalahan dari tinjauan 30 September
+- **QID Wikidata disalin dari prompt batch, bukan dari ingatan.** 33 entri pernah memakai QID yang salah. Pemeriksa sekarang menolaknya.
+- **Setiap kutipan harus mendukung pernyataannya sendiri.** Di satu batch, kutipan bergeser satu klaim ke bawah: kutipannya asli, tetapi isinya tentang hal lain (misalnya pernyataan "Shatapatha Brahmana adalah teks tertua yang menyebut Kurma" dengan kutipan "unlimited, because it is immeasurable."). Periksa pasangan pernyataan dan kutipan satu per satu. Peringatan "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri" wajib ditindaklanjuti.
+- **Jangan menambahkan nama wilayah atau bangsa yang tidak ada di kutipan** ke deskripsi dan `story_mode` (misalnya "di Argentina", "bangsa Maya", "Amerika Selatan"). Tulis hanya yang disebut kutipan. Hati-hati menerjemahkan: "Southern United States" adalah Amerika Serikat bagian selatan, bukan Amerika Selatan.
+- **Kutipan jangan melewati bagian yang tidak ikut terbaca**, seperti lafal IPA dalam kurung, penanda "[edit]", atau tautan antarbahasa "[pt]". Mulai atau akhiri kutipan sebelum bagian itu.
+
 ## 12. Makhluk baru (`task: new`)
 
 - **Periksa identitas dulu.** Buka halaman Wikidata dan artikel Wikipedia yang diberikan. Pastikan item itu memang makhluk, roh, dewa, atau tokoh dari mitologi, cerita rakyat, atau agama tradisional.
