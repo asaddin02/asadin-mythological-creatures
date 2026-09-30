@@ -1,22 +1,11 @@
 {
   "batch_id": "batch-146",
-  "checked_at": "2026-09-30T07:32:07.696Z",
+  "checked_at": "2026-09-30T07:35:44.555Z",
   "files": [
     "batch-146.md"
   ],
   "parse_problems": [],
   "missing": [
-    "flathead-lake-monster",
-    "flying-head",
-    "fresno-nightcrawler",
-    "gallinipper-mythology",
-    "gaoh",
-    "guahaioque",
-    "guaraci",
-    "hudson-river-monster",
-    "jenu",
-    "la-bolefuego",
-    "la-diablesse",
     "lagahoo",
     "letiche",
     "madre-de-aguas",
@@ -1076,6 +1065,756 @@
           "statement_id": "Di De Kalb, Texas, legenda menyebut seorang ibu yang mengemudi terjun ke sungai kecil dan bayinya tenggelam di air yang hampir beku.",
           "quote": "Legend says that a mother driving a car plunged into the creek, and the baby drowned in the near-freezing waters.",
           "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "flathead-lake-monster",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 7,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "flathead-lake-monster-c01",
+          "source_id": "flathead-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Flathead Lake Monster is a lake monster of Indigenous legend and Montana folklore said to live in Flathead Lake, northwestern Montana, United States.",
+          "statement_id": "Flathead Lake Monster adalah monster danau dari legenda pribumi dan cerita rakyat Montana yang konon hidup di Flathead Lake, Montana barat laut, Amerika Serikat.",
+          "quote": "The Flathead Lake Monster is a lake monster of Indigenous legend and Montana folklore that is purported to dwell in Flathead Lake in northwestern Montana, United States.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flathead-lake-monster-c02",
+          "source_id": "flathead-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The story originates in a Kutenai traditional legend.",
+          "statement_id": "Kisah monster di Flathead Lake berasal dari legenda tradisional Kutenai.",
+          "quote": "The story of a monster in Flathead Lake originates in a Kutenai traditional legend.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flathead-lake-monster-c03",
+          "source_id": "flathead-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the legend, the frozen lake split open and a monster's head with giant antlers rose through the ice.",
+          "statement_id": "Dalam legenda itu, permukaan danau yang beku terbelah dan kepala monster bertanduk rusa raksasa muncul dari balik es.",
+          "quote": "The frozen surface of the lake split open around them, and the head of a monster appeared through the ice, shaking its giant antlers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flathead-lake-monster-c04",
+          "source_id": "flathead-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Half the tribe drowned, said to be why there are so few Kutenai people.",
+          "statement_id": "Separuh suku tenggelam di danau, yang konon menjadi alasan jumlah orang Kutenai sedikit.",
+          "quote": "but half of the tribe drowned in the lake, which is said to be the reason why there are so few Kutenai people.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flathead-lake-monster-c05",
+          "source_id": "flathead-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It was supposedly first reported in 1889 by Captain James C. Kerr of the steamboat U.S. Grant.",
+          "statement_id": "Monster ini konon pertama kali dilaporkan pada tahun 1889 oleh Kapten James C. Kerr dari kapal uap U.S. Grant.",
+          "quote": "It was supposedly first reported in 1889 by Captain James C. Kerr of the lake steamboat U.S. Grant.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "flathead-lake-monster-c06",
+          "source_id": "flathead-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Fugleberg, locals named it \"Flessie\", inspired by Loch Ness's \"Nessie\".",
+          "statement_id": "Menurut Fugleberg, warga setempat menamainya \"Flessie\", terilhami \"Nessie\" dari Loch Ness.",
+          "quote": "Fugleberg notes that local residents have named the purported lake monster \"Flessie\", inspired by Loch Ness' \"Nessie\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flathead-lake-monster-c07",
+          "source_id": "flathead-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is usually described as a large eel-shaped creature with a wavy, snake-like body about twenty to forty feet long and brownish to bluish-black skin.",
+          "statement_id": "Ia biasanya digambarkan seperti belut besar bertubuh bergelombang seperti ular, panjang sekitar dua puluh hingga empat puluh kaki, berkulit cokelat hingga hitam kebiruan.",
+          "quote": "The monster is usually described as a large, round, eel-shaped creature with a wavy body like a snake about twenty to forty feet (6.1 to 12.2 m) long, having brownish to bluish-black skin and grayish-black eyes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "flying-head",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "flying-head-c01",
+          "source_id": "flying-head-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Flying Head (also Big Head or the Great Head) is a cannibalistic spirit of Haudenosaunee and Wyandot mythology.",
+          "statement_id": "Flying Head (juga Big Head atau Great Head) adalah roh kanibal dalam mitologi Haudenosaunee dan Wyandot.",
+          "quote": "The Flying Head (also known as Big Head or the Great Head) is a cannibalistic spirit from Haudenosaunee and Wyandot mythology.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flying-head-c02",
+          "source_id": "flying-head-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Flying Heads are ravenous spirits cursed with insatiable hunger.",
+          "statement_id": "Flying Head digambarkan sebagai roh rakus yang dikutuk dengan kelaparan tak terpuaskan.",
+          "quote": "Flying Heads are described as being ravenous spirits that are cursed with an insatiable hunger.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flying-head-c03",
+          "source_id": "flying-head-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They resemble a human head with long dark hair, \"terrible eyes\" and a large mouth of razor-sharp fangs.",
+          "statement_id": "Wujudnya seperti kepala manusia berambut gelap panjang, bermata mengerikan, dan bermulut besar penuh taring tajam.",
+          "quote": "They are generally described as resembling a human head with long dark hair, \"terrible eyes\", and a large mouth filled with razor sharp fangs.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flying-head-c04",
+          "source_id": "flying-head-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In some versions it has bat wings at each cheek and bird-like talons.",
+          "statement_id": "Dalam beberapa versi, ia bersayap kelelawar di kedua pipi dan bercakar seperti burung.",
+          "quote": "In some versions, the Flying Head has a pair of bat wings jutting from each side of its cheek and bird-like talons.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flying-head-c05",
+          "source_id": "flying-head-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In all versions it is larger than the tallest man, with a hide no weapon can pierce.",
+          "statement_id": "Dalam semua versi, ia lebih besar daripada manusia tertinggi dan berkulit yang tak tertembus senjata.",
+          "quote": "In all instances, they are described as being larger in size than that of the tallest man and possessing a hide that no weapon can penetrate.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flying-head-c06",
+          "source_id": "flying-head-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to folklore, the Flying Head drove the original inhabitants near the source of the Hudson River in the Adirondack Mountains from their hunting grounds before Europeans came.",
+          "statement_id": "Menurut cerita rakyat, Flying Head mengusir penduduk asli dekat hulu Sungai Hudson di Pegunungan Adirondack dari tempat berburu mereka sebelum orang Eropa datang.",
+          "quote": "the Flying Head drove the original native inhabitants who lived in the area  of the state of New York near the source of the Hudson River, in the Adirondack Mountains away from their hunting grounds before the Europeans came.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "fresno-nightcrawler",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 7,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "fresno-nightcrawler-c01",
+          "source_id": "fresno-nightcrawler-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Fresno nightcrawler is a cryptid said to originate in Fresno, California.",
+          "statement_id": "Fresno nightcrawler adalah kriptid yang konon berasal dari Fresno, California.",
+          "quote": "The Fresno nightcrawler is a cryptid said to originate in Fresno, California.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "fresno-nightcrawler-c02",
+          "source_id": "fresno-nightcrawler-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is described as semi-humanoid, white and long-legged, usually seen in pairs.",
+          "statement_id": "Ia digambarkan setengah mirip manusia, berwarna putih, berkaki panjang, dan biasanya terlihat berpasangan.",
+          "quote": "It is described as semi-humanoid, white in color, long-legged, and claimed to be typically spotted in pairs.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "fresno-nightcrawler-c03",
+          "source_id": "fresno-nightcrawler-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They have been compared to \"walking pairs of pants\".",
+          "statement_id": "Makhluk ini diibaratkan \"celana panjang yang berjalan\".",
+          "quote": "They have been compared to \"walking pairs of pants\".",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "fresno-nightcrawler-c04",
+          "source_id": "fresno-nightcrawler-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Brian Dunning, it is an urban legend.",
+          "statement_id": "Menurut Brian Dunning, Fresno nightcrawler adalah legenda urban.",
+          "quote": "According to Brian Dunning, the Fresno nightcrawler is an urban legend",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "fresno-nightcrawler-c05",
+          "source_id": "fresno-nightcrawler-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It was first popularized by 2007 CCTV footage from south Fresno aired on Univision.",
+          "statement_id": "Makhluk ini mulai populer lewat rekaman CCTV tahun 2007 dari Fresno selatan yang ditayangkan jaringan televisi Univision.",
+          "quote": "The Fresno nightcrawler was first popularized by CCTV footage shot in 2007 by a man in south Fresno, California, featured on the television network Univision.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "fresno-nightcrawler-c06",
+          "source_id": "fresno-nightcrawler-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When Michael Banti of Weird Fresno checked with regional tribes, they did not recognize the photographed sculptures as local monuments.",
+          "statement_id": "Saat Michael Banti dari Weird Fresno menghubungi suku-suku setempat, mereka tidak mengenali patung yang difoto sebagai monumen pribumi setempat.",
+          "quote": "when Weird Fresno founder Michael Banti contacted regional tribes to confirm their authenticity, his contacts did not recognize the photographed sculptures as matching local indigenous monuments.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "fresno-nightcrawler-c07",
+          "source_id": "fresno-nightcrawler-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It has become an icon of Fresno with merchandise and fans worldwide.",
+          "statement_id": "Fresno nightcrawler menjadi ikon Fresno dan melahirkan barang dagangan serta penggemar di seluruh dunia.",
+          "quote": "The Fresno nightcrawler has become an icon of Fresno, and has spawned merchandise and fans around the world.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "gallinipper-mythology",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "gallinipper-mythology-c01",
+          "source_id": "gallinipper-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The gallinipper is a cryptid of African-American folk tradition.",
+          "statement_id": "Gallinipper adalah kriptid dalam tradisi rakyat Afrika-Amerika.",
+          "quote": "The gallinipper is a cryptid in the African-American folk tradition.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gallinipper-mythology-c02",
+          "source_id": "gallinipper-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They were said to be giant mosquitoes whose bones could fence a 140-acre field.",
+          "statement_id": "Makhluk ini konon nyamuk raksasa yang tulangnya cukup untuk memagari ladang seluas 140 acre.",
+          "quote": "These creatures were said to be a species of giant mosquitoes so big that their bones could fence a 140-acre (57 ha) field.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gallinipper-mythology-c03",
+          "source_id": "gallinipper-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In a popular telling it pulls its bill from a tree trunk, clearing 140 acres in the struggle.",
+          "statement_id": "Dalam kisah populer, makhluk ini menarik paruhnya dari batang pohon dan membersihkan lahan 140 acre selama meronta.",
+          "quote": "A popular telling of the legends has the creature get its bill out of a tree trunk, with the animal being large enough to clear 140 acres of land during the struggle.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gallinipper-mythology-c04",
+          "source_id": "gallinipper-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Gallinipper tales were taken up in minstrel shows and appear in blues songs such as \"Mosquito Moan\" by Blind Lemon Jefferson.",
+          "statement_id": "Kisah gallinipper diambil untuk pertunjukan minstrel, tetapi juga muncul dalam lagu blues seperti \"Mosquito Moan\" karya Blind Lemon Jefferson.",
+          "quote": "Gallinipper tales were appropriated as a feature of minstrel shows, but have also appeared in American blues songs such as \"Mosquito Moan\" by Blind Lemon Jefferson",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "gaoh",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 7,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "gaoh-c01",
+          "source_id": "gaoh-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Gaoh (also Ga-oh) is a wind spirit and giant of the Haudenosaunee, Wendat and Seneca.",
+          "statement_id": "Gaoh (juga Ga-oh) adalah roh angin dan raksasa orang Haudenosaunee, Wendat, dan Seneca.",
+          "quote": "Gaoh, Ga-oh or Gǎ-oh is a wind spirit and giant of the Haudenosaunee, Wendat and Seneca people.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gaoh-c02",
+          "source_id": "gaoh-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Gaoh was described as a cannibal giant who could uproot trees, taking the form of a solitary old man.",
+          "statement_id": "Gaoh digambarkan sebagai raksasa kanibal yang dapat mencabut pohon, berwujud lelaki tua yang menyendiri.",
+          "quote": "Gaoh was described as a cannibal and a giant who could uproot trees. He takes the form of a solitary old man.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gaoh-c03",
+          "source_id": "gaoh-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Gaoh is subservient to the Great Spirit and, in Haudenosaunee mythology, to Adekagagwaa.",
+          "statement_id": "Gaoh tunduk kepada Roh Agung, dan dalam mitologi Haudenosaunee ia tunduk kepada Adekagagwaa.",
+          "quote": "Gaoh is subservient to the Great Spirit, and in Haudenosaunee mythology he is subservient to Adekagagwaa.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gaoh-c04",
+          "source_id": "gaoh-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Gaoh is mostly benevolent but can be restless and violent, creating storms.",
+          "statement_id": "Gaoh umumnya roh baik, tetapi bisa gelisah, ganas, dan menciptakan badai.",
+          "quote": "Gaoh is mostly a benevolent spirit, but can be restless and violent, and would create storms.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gaoh-c05",
+          "source_id": "gaoh-s1",
+          "host": "en.wikipedia.org",
+          "statement": "From his home he controls the seasons and the winds of the four directions.",
+          "statement_id": "Dari rumahnya, ia mengendalikan musim dan angin dari empat penjuru mata angin.",
+          "quote": "From his home, he controls the seasons, and also winds of the four cardinal directions",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gaoh-c06",
+          "source_id": "gaoh-s1",
+          "host": "en.wikipedia.org",
+          "statement": "His winds are Ya-o-gah (Bear, north), Da-jo-ji (Panther, west), O-yan-do-ne (Moose, east) and Ne-o-gah (Fawn, south).",
+          "statement_id": "Angin-anginnya adalah Ya-o-gah (beruang angin utara), Da-jo-ji (macan kumbang angin barat), O-yan-do-ne (rusa besar angin timur), dan Ne-o-gah (anak rusa angin selatan).",
+          "quote": "Ya-o-gah, Bear of the north wind, Da-jo-ji, Panther of the west wind, O-yan-do-ne, Moose of the east wind and Ne-o-gah, Fawn of the south wind.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gaoh-c07",
+          "source_id": "gaoh-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Seneca version, Gaoh is chained to a rock, and winds blow when he tries to break free.",
+          "statement_id": "Dalam versi Seneca, Gaoh dirantai ke batu, dan angin bertiup saat ia berusaha melepaskan diri.",
+          "quote": "In the Seneca version of the myth, Gaoh is chained to a rock, and winds would blow when he attempts to break free.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "guahaioque",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "guahaioque-c01",
+          "source_id": "guahaioque-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Guahaioque was a minor deity of the Muisca religion, god of evil, stealing, lies and death.",
+          "statement_id": "Guahaioque adalah dewa minor dalam agama Muisca, dewa kejahatan, pencurian, kebohongan, dan kematian.",
+          "quote": "Guahaioque was a minor deity in the religion of the Muisca. It was the god of evil, stealing, lies and death.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "guahaioque-c02",
+          "source_id": "guahaioque-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Muisca language, Muysccubun, the name means \"figure of the deceased\".",
+          "statement_id": "Dalam bahasa Muisca, Muysccubun, nama Guahaioque berarti \"sosok orang yang telah meninggal\".",
+          "quote": "The name Guahaioque in the language of the Muisca, Muysccubun, means \"figure of the deceased\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "guahaioque-c03",
+          "source_id": "guahaioque-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name lives on as that of a folk metal band from Cali.",
+          "statement_id": "Nama Guahaioque kini dipakai oleh sebuah band folk metal dari Cali.",
+          "quote": "The name Guahaioque lives on as the name of a folk metal band from Cali.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "guaraci",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 1,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "guaraci-c01",
+          "source_id": "guaraci-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Guaraci or Quaraci (from Tupi kûarasý, \"sun\") is the Sun god of Guaraní mythology, creator of all living creatures.",
+          "statement_id": "Guaraci atau Quaraci (dari kata Tupi kûarasý, \"matahari\") adalah dewa Matahari dalam mitologi Guaraní, pencipta semua makhluk hidup.",
+          "quote": "Guaraci or Quaraci (from Tupi kûarasý, \"sun\") in the Guaraní mythology is the god of the Sun, creator of all living creatures.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "hudson-river-monster",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "hudson-river-monster-c01",
+          "source_id": "hudson-river-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In New York folklore, the Hudson River Monster (\"Kipsy\", also \"Keepsie\" or \"Libby\") is a serpentine water monster reported along the Hudson River and New York Harbor since 1886.",
+          "statement_id": "Dalam cerita rakyat New York, Hudson River Monster (\"Kipsy\", juga \"Keepsie\" atau \"Libby\") adalah monster air mirip ular yang dilaporkan terlihat di Sungai Hudson dan Pelabuhan New York sejak 1886.",
+          "quote": "In New York folklore, the Hudson River Monster, popularly known as \"Kipsy\" or less commonly \"Keepsie\" or \"Libby\" (after the Statue of Liberty) is an aquatic serpentine monster reportedly spotted along the Hudson River and New York Harbor since 1886.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hudson-river-monster-c02",
+          "source_id": "hudson-river-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name \"Kipsy\" is believed to come from Poughkeepsie, a city on the river.",
+          "statement_id": "Nama \"Kipsy\" diyakini berasal dari Poughkeepsie, kota di tepi sungai itu.",
+          "quote": "The name \"Kipsy\" is believed to derive from Poughkeepsie, a city located along the river.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "hudson-river-monster-c03",
+          "source_id": "hudson-river-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It was first reported in 1886 newspaper articles that called it simply \"the sea serpent.\"",
+          "statement_id": "Makhluk ini pertama kali dilaporkan dalam serangkaian artikel surat kabar tahun 1886 yang menyebutnya \"ular laut\".",
+          "quote": "The creature was first reported in a series of newspaper articles published in 1886, in which it is referred to simply as \"the sea serpent.\"",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hudson-river-monster-c04",
+          "source_id": "hudson-river-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Many sources claim Kipsy appears in Native American legends or was seen by Henry Hudson's crew, but none provide documentation.",
+          "statement_id": "Banyak sumber menyebut Kipsy ada dalam legenda pribumi atau dilihat awak Henry Hudson, tetapi tidak ada yang menyertakan bukti dokumen.",
+          "quote": "Though many sources allege that \"Kipsy\" was described in Native American legends or spotted by Henry Hudson's crew as the sailed up the Hudson River on the Halve Maen, none provide any documentation in support of these claims.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "jenu",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "jenu-c01",
+          "source_id": "jenu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Mi'kmaq folklore, a Jenu is a wild, cannibalistic hairy giant.",
+          "statement_id": "Dalam cerita rakyat Mi'kmaq, Jenu adalah raksasa berbulu yang liar dan kanibal.",
+          "quote": "In Miꞌkmaq folklore, a Jenu is a wild and cannibalistic hairy giant.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jenu-c02",
+          "source_id": "jenu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A Jenu is created when a human \"allows ice into their heart\".",
+          "statement_id": "Jenu tercipta ketika seseorang \"membiarkan es masuk ke hatinya\".",
+          "quote": "Jenu are created when a human \"allows ice into their heart\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jenu-c03",
+          "source_id": "jenu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Once transformed, Jenu look hairy and emaciated, with bones poking through the skin.",
+          "statement_id": "Setelah berubah, Jenu tampak berbulu dan kurus kering dengan tulang mencuat dari kulit.",
+          "quote": "Once transformed, Jenu appear hairy and emaciated, with bones poking through the skin.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jenu-c04",
+          "source_id": "jenu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Jenu are most active in winter, when humans move less and are easier to hunt.",
+          "statement_id": "Jenu paling aktif pada musim dingin karena manusia kurang bergerak dan lebih mudah diburu.",
+          "quote": "Jenu are most active during the winter because humans move less and are easier to hunt.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jenu-c05",
+          "source_id": "jenu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Jenu are comparable to the Wendigo of Anishinaabe and Cree mythology and, less so, to Sasquatch.",
+          "statement_id": "Jenu dapat dibandingkan dengan Wendigo dalam mitologi Anishinaabe dan Cree, dan sedikit dengan Sasquatch.",
+          "quote": "Jenua are comparable to the Wendigo of Anishinaabe and Cree mythology (and, to a lesser extent, Sasquatch).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "la-bolefuego",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "la-bolefuego-c01",
+          "source_id": "la-bolefuego-s1",
+          "host": "en.wikipedia.org",
+          "statement": "La Bolefuego (or La Candileja) is a legendary character of Colombian and Venezuelan folklore.",
+          "statement_id": "La Bolefuego (atau La Candileja) adalah tokoh legenda dari cerita rakyat Kolombia dan Venezuela.",
+          "quote": "La Bolefuego (or La Candileja) is a legendary character from Colombian and Venezuelan folklore.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "la-bolefuego-c02",
+          "source_id": "la-bolefuego-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is a bright apparition of the dark nights of Los Llanos, like a flashing lantern that spins and shakes violently.",
+          "statement_id": "Ia konon penampakan terang pada malam gelap di Los Llanos, digambarkan seperti lentera berkedip yang berputar dan berguncang keras.",
+          "quote": "It is said to be a bright apparition, found in the dark nights of Los Llanos. It is described as a flashing lantern that turns and shakes violently.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "la-bolefuego-c03",
+          "source_id": "la-bolefuego-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Bolefuego is said to be the spirit of a woman burned alive at home with her two children; she attacks travelers.",
+          "statement_id": "Bolefuego konon arwah perempuan yang terbakar hidup-hidup di rumahnya bersama dua anaknya; ia menyerang para pelancong.",
+          "quote": "The Bolefuego is said to be the spirit of a woman that was burned alive in her home, along with her two children. She attacks travelers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "la-bolefuego-c04",
+          "source_id": "la-bolefuego-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Those facing her are told not to pray; unlike other evil beings, she is attracted by prayers.",
+          "statement_id": "Orang yang berhadapan dengannya dianjurkan tidak berdoa, karena berbeda dengan makhluk jahat lain, Bolefuego justru tertarik oleh doa.",
+          "quote": "Those facing her are advised not to pray; unlike other evil entities, the Bolefuego is attracted by prayers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "la-diablesse",
+      "file": "batch-146.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "la-diablesse-c01",
+          "source_id": "la-diablesse-s1",
+          "host": "en.wikipedia.org",
+          "statement": "La Diablesse is a figure of Caribbean folklore; she was an enslaved African woman who gave her soul to the Devil for eternal beauty, becoming a demi-human.",
+          "statement_id": "La Diablesse adalah tokoh cerita rakyat Karibia; menurut kisahnya, ia perempuan Afrika yang diperbudak dan menyerahkan jiwanya kepada Iblis demi kecantikan abadi, lalu menjadi setengah manusia.",
+          "quote": "is a character in Caribbean folklore. According to folklore, she was an enslaved African woman who made a deal with Le Diable (the Devil) to give her soul to him, becoming a demi-human, in exchange for eternal beauty.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "la-diablesse-c02",
+          "source_id": "la-diablesse-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Her hideous face is hidden by a wide hat, and her long dress hides one leg ending in a cow hoof.",
+          "statement_id": "Wajahnya yang mengerikan tersembunyi di balik topi lebar, dan gaun panjangnya menutupi satu kaki yang berujung kuku sapi.",
+          "quote": "However, her hideous face is hidden by a large brimmed hat, and her long dress hides the fact that one leg ends in a cow hoof.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "la-diablesse-c03",
+          "source_id": "la-diablesse-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She can bewitch an unsuspecting male victim, lead him into the forest and then vanish.",
+          "statement_id": "Ia dapat menyihir korban laki-laki dan membawanya ke hutan, lalu menghilang.",
+          "quote": "She can cast spells on her unsuspecting male victim, whom she leads into the forest. When in the forest, she disappears.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "la-diablesse-c04",
+          "source_id": "la-diablesse-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The confused, lost victim runs through the forest until he falls into a ravine or river, or is eaten.",
+          "statement_id": "Korban yang bingung dan tersesat berlarian di hutan sampai jatuh ke jurang atau sungai, atau dimangsa.",
+          "quote": "The victim (confused, lost, and scared) runs around the forest until he falls into a ravine or river, or gets eaten.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "la-diablesse-c05",
+          "source_id": "la-diablesse-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Derek Walcott refers to La Diablesse in his play Dream on Monkey Mountain.",
+          "statement_id": "Derek Walcott menyebut La Diablesse dalam dramanya Dream on Monkey Mountain.",
+          "quote": "La Diablesse is referred by Derek Walcott in his play Dream on Monkey Mountain.",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
