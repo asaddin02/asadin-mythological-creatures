@@ -1,6 +1,6 @@
 # Review batch-149
 
-Diperiksa 2026-09-30T04:53:01.716Z. Berkas: batch-149.md.
+Diperiksa 2026-09-30T09:10:39.910Z. Berkas: batch-149.md, batch-149-fix-1.md.
 
 ## irdlirvirissong — lulus-otomatis
 
@@ -189,9 +189,6 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 Klaim 2 (loose 1, exact 1), sumber 1, gambar 0.
 
-**warn**
-- `long_description[0]` Tidak muncul di kutipan mana pun: Algonquian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -204,9 +201,6 @@ Klaim 2 (loose 1, exact 1), sumber 1, gambar 0.
 ## mobile-wolf-woman — lulus-otomatis
 
 Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**warn**
-- `long_description[0]` Tidak muncul di kutipan mana pun: 1971, April. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -275,9 +269,6 @@ Klaim 2 (exact 2), sumber 1, gambar 0.
 
 Klaim 3 (exact 3), sumber 1, gambar 0.
 
-**warn**
-- `long_description[0]` Tidak muncul di kutipan mana pun: Algonquinian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -305,11 +296,6 @@ Klaim 2 (exact 2), sumber 1, gambar 0.
 
 Klaim 2 (exact 2), sumber 1, gambar 0.
 
-**warn**
-- `short_description` Tidak muncul di kutipan mana pun: Iblis. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.who` Tidak muncul di kutipan mana pun: Iblis. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Inggris. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -322,9 +308,6 @@ Klaim 2 (exact 2), sumber 1, gambar 0.
 ## pai-do-mato — lulus-otomatis
 
 Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**warn**
-- `story_mode.who` Tidak muncul di kutipan mana pun: Brazilian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -389,10 +372,6 @@ Klaim 2 (exact 2), sumber 1, gambar 0.
 ## sachayoj-mythology — lulus-otomatis
 
 Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**warn**
-- `long_description[1]` Tidak muncul di kutipan mana pun: Tuan, Hutan, Forest. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `etymology.literal_meaning` Tidak muncul di kutipan mana pun: Tuan, Hutan, Forest. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -462,9 +441,6 @@ Klaim 3 (loose 1, exact 2), sumber 1, gambar 0.
 
 Klaim 3 (exact 3), sumber 1, gambar 0.
 
-**warn**
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Appalachian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -479,9 +455,6 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 Klaim 3 (exact 3), sumber 1, gambar 0.
 
-**warn**
-- `story_mode.who` Tidak muncul di kutipan mana pun: Amazonian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -495,10 +468,6 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 ## teiniagua — lulus-otomatis
 
 Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**warn**
-- `long_description[0]` Tidak muncul di kutipan mana pun: Brasil. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Rio, Grande, Sul. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -525,10 +494,6 @@ Klaim 2 (exact 2), sumber 1, gambar 0.
 ## utah-lake-monster — lulus-otomatis
 
 Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**warn**
-- `long_description[0]` Tidak muncul di kutipan mana pun: Amerika. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.role` Tidak muncul di kutipan mana pun: 19. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -583,11 +548,6 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 Klaim 2 (exact 2), sumber 1, gambar 0.
 
-**warn**
-- `short_description` Tidak muncul di kutipan mana pun: Amazon, Amazonian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `long_description[0]` Tidak muncul di kutipan mana pun: Amazon, Amazonian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Amazon. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -600,10 +560,6 @@ Klaim 2 (exact 2), sumber 1, gambar 0.
 ## yei-tso — lulus-otomatis
 
 Klaim 3 (loose 1, exact 2), sumber 1, gambar 0.
-
-**warn**
-- `etymology.literal_meaning` Tidak muncul di kutipan mana pun: Besar. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.role` Tidak muncul di kutipan mana pun: Dunia, Kelima. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.

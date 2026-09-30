@@ -1,6 +1,6 @@
 # Review batch-148
 
-Diperiksa 2026-09-30T06:28:55.541Z. Berkas: batch-148.md.
+Diperiksa 2026-09-30T09:10:05.797Z. Berkas: batch-148.md, batch-148-fix-1.md.
 
 ## tata-duende — lulus-otomatis
 
@@ -60,9 +60,6 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 ## tin-tin — lulus-otomatis
 
 Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**warn**
-- `story_mode.who` Tidak muncul di kutipan mana pun: Ecuadorian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -215,8 +212,6 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 Klaim 2 (exact 2), sumber 1, gambar 0.
 
 **warn**
-- `short_description` Tidak muncul di kutipan mana pun: Amazonia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Amazonia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 - `long_description[1].en` Ada rangkaian 12 kata yang sama persis dengan sumber ("he plays a role in the myth of the twins devouring one…"). Tulis ulang dengan kata-kata sendiri.
 
 **manual**
@@ -245,9 +240,6 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 ## animikii — lulus-otomatis
 
 Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**warn**
-- `long_description[0]` Tidak muncul di kutipan mana pun: Amerika, Utara, Native, American. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -280,9 +272,6 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 ## ataide — lulus-otomatis
 
 Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**warn**
-- `short_description` Tidak muncul di kutipan mana pun: Brasil, Brazil. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -361,9 +350,6 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 Klaim 3 (exact 3), sumber 1, gambar 0.
 
-**warn**
-- `short_description` Tidak muncul di kutipan mana pun: Brasil. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -389,9 +375,6 @@ Klaim 0 (), sumber 0, gambar 0.
 
 Klaim 3 (exact 3), sumber 1, gambar 0.
 
-**warn**
-- `short_description` Tidak muncul di kutipan mana pun: Brasil, Brazil. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -405,10 +388,6 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 ## boo-hag — lulus-otomatis
 
 Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**warn**
-- `long_description[0]` Tidak muncul di kutipan mana pun: Afrika-Amerika. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `long_description[0].en` Ada rangkaian 12 kata yang sama persis dengan sumber ("a boo hag is a mythical creature in the folklore of the…"). Tulis ulang dengan kata-kata sendiri.
 
 **manual**
 - `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -437,10 +416,6 @@ Klaim 2 (exact 2), sumber 1, gambar 0.
 
 Klaim 3 (exact 3), sumber 1, gambar 0.
 
-**warn**
-- `long_description[0]` Tidak muncul di kutipan mana pun: Brazilian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.who` Tidak muncul di kutipan mana pun: Brazilian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -455,9 +430,6 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 Klaim 1 (exact 1), sumber 1, gambar 0.
 
-**warn**
-- `long_description[0]` Tidak muncul di kutipan mana pun: Brasil. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -469,10 +441,6 @@ Klaim 1 (exact 1), sumber 1, gambar 0.
 ## che-uinic — lulus-otomatis
 
 Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**warn**
-- `long_description[0]` Tidak muncul di kutipan mana pun: Mayab. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Mayab. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -490,7 +458,6 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 Klaim 3 (exact 3), sumber 1, gambar 0.
 
 **warn**
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Haiti. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 - `long_description[0].en` Ada rangkaian 12 kata yang sama persis dengan sumber ("in haitian vodou clermeil is a lwa who makes rivers flood their…"). Tulis ulang dengan kata-kata sendiri.
 
 **manual**
@@ -507,10 +474,6 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 Klaim 3 (exact 3), sumber 1, gambar 0.
 
-**warn**
-- `short_description` Tidak muncul di kutipan mana pun: Chile. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Chile. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -524,10 +487,6 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 ## dark-watchers — lulus-otomatis
 
 Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**warn**
-- `long_description[0]` Tidak muncul di kutipan mana pun: Spanyol. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Spanyol. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -557,10 +516,6 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 Klaim 2 (exact 2), sumber 1, gambar 0.
 
-**warn**
-- `short_description` Tidak muncul di kutipan mana pun: Amerika. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `long_description[0]` Tidak muncul di kutipan mana pun: North. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -589,10 +544,6 @@ Klaim 2 (exact 2), sumber 1, gambar 0.
 ## gloucester-sea-serpent — lulus-otomatis
 
 Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**warn**
-- `story_mode.who` Tidak muncul di kutipan mana pun: Atlantik. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.role` Tidak muncul di kutipan mana pun: American. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -652,10 +603,6 @@ Klaim 2 (exact 2), sumber 1, gambar 0.
 
 Klaim 2 (exact 2), sumber 1, gambar 0.
 
-**warn**
-- `short_description` Tidak muncul di kutipan mana pun: Karibia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Kepulauan, Antillen, Caribbean. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -668,9 +615,6 @@ Klaim 2 (exact 2), sumber 1, gambar 0.
 ## gumberoo — lulus-otomatis
 
 Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**warn**
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Utara. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -686,9 +630,6 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 Klaim 2 (exact 2), sumber 1, gambar 0.
 
-**warn**
-- `long_description[0]` Tidak muncul di kutipan mana pun: Bigfoot-type. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -701,9 +642,6 @@ Klaim 2 (exact 2), sumber 1, gambar 0.
 ## hombre-gato — lulus-otomatis
 
 Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**warn**
-- `short_description` Tidak muncul di kutipan mana pun: Argentine. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -733,9 +671,6 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 Klaim 3 (exact 3), sumber 1, gambar 0.
 
-**warn**
-- `story_mode.who` Tidak muncul di kutipan mana pun: Native, American. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -749,9 +684,6 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 ## hugag — lulus-otomatis
 
 Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**warn**
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Northwoods. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.

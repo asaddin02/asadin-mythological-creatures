@@ -1,6 +1,6 @@
 # Review batch-142
 
-Diperiksa 2026-09-30T09:01:36.590Z. Berkas: batch-142.md.
+Diperiksa 2026-09-30T09:09:31.143Z. Berkas: batch-142.md, batch-142-fix-1.md, batch-142-fix-2.md.
 
 ## chupacabra — lulus-otomatis
 
@@ -19,18 +19,18 @@ Klaim 15 (loose 1, exact 14), sumber 1, gambar 0.
 | chupacabra-c06 | exact | en.wikipedia.org | In the Southwestern US, it is typically described as a hairless dog or coyote. | In contrast, reports from the Southwestern United States typically describe the creature as a hairless, canine animal with pronounced fangs. |
 | chupacabra-c07 | exact | en.wikipedia.org | First widely publicized sightings emerged in Puerto Rico in 1995. | The first widely publicized sightings and descriptions of the chupacabra emerged in Puerto Rico in 1995. |
 | chupacabra-c08 | exact | en.wikipedia.org | Since then, alleged sightings have been reported from Maine to Chile. | Since then, alleged encounters have been reported throughout the Americas, ranging from Maine to Chile, as well as in countries outside the region, including Russia and the Philippines. |
-| chupacabra-c09 | exact | en.wikipedia.org | The name Chupacabras literally translates to goat-sucker in Spanish. | However, these reports remain anecdotal and have not been supported by verifiable evidence. |
-| chupacabra-c10 | exact | en.wikipedia.org | In 1975, unexplained livestock deaths in Moca were attributed to El Vampiro de Moca. | Investigations of purported sightings in northern Mexico and the Southern United States have instead identified the animals involved as canids afflicted by severe mange. |
-| chupacabra-c11 | exact | en.wikipedia.org | Comedian Silverio Pérez coined the term chupacabras shortly after 1995 reports. | The name Chupacabras literally translates to 'goat-sucker', deriving from the Spanish words chupar ('to suck') and cabras ('goats'). |
-| chupacabra-c12 | exact | en.wikipedia.org | Reports of sightings proliferated in the mid-1990s in various locations. | Both chupacabras and chupacabra are used throughout the Americas; the former is the original Spanish term, while the latter emerged later as a regularized singular form. |
-| chupacabra-c13 | exact | en.wikipedia.org | In April 2000, roughly one hundred farm animals were found dead in Calama, Chile. | The name is generally attributed to Puerto Rican comedian Silverio Pérez, who coined the term in 1995 while discussing the reported livestock attacks during his radio program in San Juan. |
-| chupacabra-c14 | exact | en.wikipedia.org | During early 2002, cattle mutilation reports emerged in Argentina. | In 1975, a series of unexplained livestock deaths in the municipality of Moca, Puerto Rico, came to be attributed to a mysterious entity dubbed el vampiro de Moca ('the vampire of Moca'). |
-| chupacabra-c15 | exact | en.wikipedia.org | In July 2004, a rancher killed a creature resembling a hairless dog in Elmendorf, Texas. | Authorities and local residents initially suspected the killings to be the work of a Satanic cult; similar cases were subsequently reported elsewhere on the island. |
+| chupacabra-c09 | exact | en.wikipedia.org | The name Chupacabras literally translates to goat-sucker in Spanish. | The name Chupacabras literally translates to 'goat-sucker', deriving from the Spanish words chupar ('to suck') and cabras ('goats'). |
+| chupacabra-c10 | exact | en.wikipedia.org | In 1975, unexplained livestock deaths in Moca were attributed to El Vampiro de Moca. | In 1975, a series of unexplained livestock deaths in the municipality of Moca, Puerto Rico, came to be attributed to a mysterious entity dubbed el vampiro de Moca ('the vampire of Moca'). |
+| chupacabra-c11 | exact | en.wikipedia.org | Comedian Silverio Pérez coined the term chupacabras shortly after 1995 reports. | The name is generally attributed to Puerto Rican comedian Silverio Pérez, who coined the term in 1995 while discussing the reported livestock attacks during his radio program in San Juan. |
+| chupacabra-c12 | exact | en.wikipedia.org | Reports of sightings proliferated in the mid-1990s in various locations. | Reports of alleged sightings of the creature proliferated in the mid-1990s in various locations. |
+| chupacabra-c13 | exact | en.wikipedia.org | In April 2000, roughly one hundred farm animals were found dead in Calama, Chile. | In April 2000, in the mining city of Calama in northern Chile, approximately one hundred farm animals were reportedly found drained of blood or mutilated under unusual circumstances. |
+| chupacabra-c14 | exact | en.wikipedia.org | During early 2002, cattle mutilation reports emerged in Argentina. | During the first half of 2002, reports of mutilated cattle emerged from several areas of Argentina |
+| chupacabra-c15 | exact | en.wikipedia.org | In July 2004, a rancher killed a creature resembling a hairless dog in Elmendorf, Texas. | In July 2004, a rancher killed a creature resembling a hairless dog, which he discovered attacking his livestock near San Antonio, Texas. |
 
 
 ## kurma — lulus-otomatis
 
-Klaim 15 (loose 2, exact 13), sumber 1, gambar 0.
+Klaim 15 (loose 1, exact 14), sumber 1, gambar 0.
 
 **manual**
 - `tier` Di bawah target rich: 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -43,15 +43,15 @@ Klaim 15 (loose 2, exact 13), sumber 1, gambar 0.
 | kurma-c04 | exact | en.wikipedia.org | Kurma is synonymous with Akupara, the World-Turtle supporting the Earth. | Along with being synonymous with Akupara, the World-Turtle supporting the Earth, Kurma is listed as the 2nd avatar in the Dashavatara, which are the ten principal incarnations of Vishnu. |
 | kurma-c05 | exact | en.wikipedia.org | The Sanskrit word Kurma literally means tortoise and turtle. | The Sanskrit word 'Kurma' (Devanagari: कूर्म) means 'Tortoise' and 'Turtle'. |
 | kurma-c06 | exact | en.wikipedia.org | The tortoise incarnation is also called Kacchapa and Akupara in Puranas. | The tortoise incarnation of Vishnu is also referred to in post-Vedic literature such as the Bhagavata Purana as 'Kacchapa' (कच्छप), 'Kamaṭha' (कमठ), 'Akupara' (अकूपार), and 'Ambucara-Atmana' (अम्बुचर-आत्मना), all of which mean 'tortoise' or 'form of a tortoise'. |
-| kurma-c07 | exact | en.wikipedia.org | Kurmasana (Tortoise Posture) is a Yoga posture. | Written by the grammarian Yaska, the Nirukta is one of the six Vedangas or 'limbs of the Vedas', concerned with correct etymology and interpretation of the Vedas. |
-| kurma-c08 | loose | en.wikipedia.org | In the Dashavataras, Kurma represents the amphibian stage following Matsya. | The entry for the Tortoise states (square brackets '[ ]' are as per the original author):May we obtain that illimitable gift of thine. |
-| kurma-c09 | exact | en.wikipedia.org | The Shatapatha Brahmana is the earliest extant text to mention Kurma. | unlimited, because it is immeasurable. |
-| kurma-c10 | exact | en.wikipedia.org | The Shatapatha Brahmana equates Kurma with the creator deity Prajapati. | The ocean, too, is called akupara, i. |
-| kurma-c11 | exact | en.wikipedia.org | The Shatapatha Brahmana also records the origins of Matsya the Fish. | unlimited, because it is boundless. |
-| kurma-c12 | exact | en.wikipedia.org | Though Kurma is absent in the Rigveda, seer Kashyapa appears in hymns. | A tortoise is also called a-kupa-ara, because it does not move in a well [On account of its shallowness]. |
-| kurma-c13 | exact | en.wikipedia.org | The Samudra Manthana legend is found in the Mahabharata, Ramayana, and Puranas. | Kacchapa (tortoise) is (so called because) it protects (pati) its mouth (kaccham), or it protects itself by means of its shell (kacchena), or it drinks (√pa) by the mouth. |
-| kurma-c14 | exact | en.wikipedia.org | A temple dedicated to Kurma is Sri Kurmam located in Srikakulam district, Andhra Pradesh. | Kaccha (mouth or shell of a tortoise) = kha-ccha, i. |
-| kurma-c15 | exact | en.wikipedia.org | Another temple dedicated to Kurma is Kurmai temple in Chittoor district. | something which covers (chddayatl) space (kham). |
+| kurma-c07 | exact | en.wikipedia.org | Kurmasana (Tortoise Posture) is a Yoga posture. | Kurmasana (Tortoise Posture) is a Yoga posture. |
+| kurma-c08 | exact | en.wikipedia.org | In the Dashavataras, Kurma represents the amphibian stage following Matsya. | The Dashavataras are compared to evolution; Kurma - the amphibian - is regarded the next stage after Matysa, the fish. |
+| kurma-c09 | exact | en.wikipedia.org | The Shatapatha Brahmana is the earliest extant text to mention Kurma. | The Shatapatha Brahmana is the earliest extant text to mention Kurma, the tortoise. |
+| kurma-c10 | exact | en.wikipedia.org | The Shatapatha Brahmana equates Kurma with the creator deity Prajapati. | The Shatapatha Brahmana equates the tortoise - Kurma to the creator of all creatures. |
+| kurma-c11 | exact | en.wikipedia.org | The Shatapatha Brahmana also records the origins of Matsya the Fish. | The Shatapatha Brahmana also has the origins of Matsya, the Fish. |
+| kurma-c12 | exact | en.wikipedia.org | Though Kurma is absent in the Rigveda, seer Kashyapa appears in hymns. | Though Kurma is not found in the oldest Hindu scripture Rigveda, the seer Kashyapa (who is equated with Kurma) appears in hymns in the scripture. |
+| kurma-c13 | exact | en.wikipedia.org | In post-Vedic literature, including the Puranas, Kurma is closely tied to the Samudra Manthana legend. | In post-Vedic literature, including the Puranas, Kurma is inextricably linked with the legend of the churning of the Ocean Of Milk, known as the Samudra Manthana. |
+| kurma-c14 | exact | en.wikipedia.org | A temple dedicated to Kurma is Sri Kurmam located in Srikakulam district, Andhra Pradesh. | Sri Kurmam (Srikakulam District of Andhra Pradesh) |
+| kurma-c15 | exact | en.wikipedia.org | Another temple dedicated to Kurma is Kurmai temple in Chittoor district. | Kurmai (Chittoor District of Andhra Pradesh) |
 
 
 ## tlaloc — lulus-otomatis
@@ -109,24 +109,24 @@ Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | pachamama-c01 | loose | en.wikipedia.org | Pachamama or Mama Pacha is the Andean deity representing the Earth and nature. | Pachamama (Quechua pronunciation: [ˈpatʃa ˈmama]) or Mama Pacha (pronounced [ˈmama ˈpatʃa]) is the Andean deity representing space-time, revered by the peoples of the Andes. |
-| pachamama-c02 | exact | en.wikipedia.org | The four cosmological Quechua principles claim Pachamama as their origin. | In Inca mythology and religion, she is a "mother goddess" type deity, representing the universal energy that connects everything, linked to space, time, the universe, totality, life, fertility, and nature. |
+| pachamama-c02 | exact | en.wikipedia.org | The four cosmological Quechua principles claim Pachamama as their origin. | The four cosmological Quechua principles—Water, Earth, Sun, and Moon—claim Pachamama as their prime origin. |
 | pachamama-c03 | exact | en.wikipedia.org | In Inca mythology, she is a mother goddess sustaining life. | She is considered an omnipresent deity with creative power, capable of sustaining life in the cosmos. |
-| pachamama-c04 | exact | en.wikipedia.org | She is considered an omnipresent deity with creative power sustaining life. | The four cosmological Quechua principles—Water, Earth, Sun, and Moon—claim Pachamama as their prime origin. |
+| pachamama-c04 | exact | en.wikipedia.org | She is considered an omnipresent deity with creative power sustaining life. | She is considered an omnipresent deity with creative power, capable of sustaining life in the cosmos. |
 
 
 ## inti — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
+Klaim 4 (exact 4), sumber 1, gambar 0.
 
 **manual**
 - `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| inti-c01 | loose | en.wikipedia.org | Although most consider Inti the sun god, he is viewed as a cluster of solar aspects. | 'sun') is the ancient Inca sun god. |
-| inti-c02 | exact | en.wikipedia.org | The most common belief was that Inti was born of Viracocha. | He is revered as the national patron of the Inca state. |
-| inti-c03 | exact | en.wikipedia.org | Worshiped as a patron deity of the Inca Empire, Pachacuti is linked to his cult. | Although most consider Inti the sun god, he is more appropriately viewed as a cluster of solar aspects, since the Inca divided his identity according to the stages of the sun. |
-| inti-c04 | exact | en.wikipedia.org | Inti and his sister, Mama Quilla, were generally considered benevolent deities. | The word inti is not of Quechua origin but a loanword from Puquina. |
+| inti-c01 | exact | en.wikipedia.org | Although most consider Inti the sun god, he is viewed as a cluster of solar aspects. | Although most consider Inti the sun god, he is more appropriately viewed as a cluster of solar aspects, since the Inca divided his identity according to the stages of the sun. |
+| inti-c02 | exact | en.wikipedia.org | The most common belief was that Inti was born of Viracocha. | The most common belief was that Inti was born of Viracocha, who had many titles, chief among them being the God of Creation. |
+| inti-c03 | exact | en.wikipedia.org | Worshiped as a patron deity of the Inca Empire, Pachacuti is linked to his cult. | Worshiped as a patron deity of the Inca Empire, Pachacuti is often linked to the origin and expansion of the Inca Sun Cult. |
+| inti-c04 | exact | en.wikipedia.org | Inti and his sister, Mama Quilla, were generally considered benevolent deities. | Inti and his sister, Mama Quilla (also spelled Mama Killa), the Moon goddess were generally considered benevolent deities. |
 
 
 ## mothman — lulus-otomatis
@@ -177,9 +177,6 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 ## coatlicue — lulus-otomatis
 
 Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**warn**
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Mesoamerika. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -241,9 +238,6 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 Klaim 4 (exact 4), sumber 1, gambar 0.
 
-**warn**
-- `story_mode.who` Tidak muncul di kutipan mana pun: Smoking, Mirror. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -303,9 +297,6 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 ## paul-bunyan — lulus-otomatis
 
 Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**warn**
-- `story_mode.origin` Tidak muncul di kutipan mana pun: America. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -367,10 +358,6 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 Klaim 4 (exact 4), sumber 1, gambar 0.
 
-**warn**
-- `short_description` Tidak muncul di kutipan mana pun: Maya. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Maya. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -416,13 +403,6 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 Klaim 4 (exact 4), sumber 1, gambar 0.
 
-**warn**
-- `short_description` Tidak muncul di kutipan mana pun: Maya. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `long_description[0]` Tidak muncul di kutipan mana pun: Hero. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `long_description[1]` Tidak muncul di kutipan mana pun: Maya. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Maya. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.role` Tidak muncul di kutipan mana pun: Xibalba. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -438,10 +418,6 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 Klaim 4 (exact 4), sumber 1, gambar 0.
 
-**warn**
-- `short_description` Tidak muncul di kutipan mana pun: West, Virginia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.origin` Tidak muncul di kutipan mana pun: West, Virginia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -456,12 +432,6 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 ## dover-demon — lulus-otomatis
 
 Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**warn**
-- `short_description` Tidak muncul di kutipan mana pun: Massachusetts. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `long_description[0]` Tidak muncul di kutipan mana pun: Bill. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Massachusetts. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.famous_for` Tidak muncul di kutipan mana pun: Bill. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -493,11 +463,6 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 Klaim 4 (exact 4), sumber 1, gambar 0.
 
-**warn**
-- `short_description` Tidak muncul di kutipan mana pun: Aztec. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `long_description[0]` Tidak muncul di kutipan mana pun: Meksiko. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Aztec, Mesoamerika. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -528,9 +493,6 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 Klaim 4 (exact 4), sumber 1, gambar 0.
 
-**warn**
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Mesoamerica. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -545,9 +507,6 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 ## sewer-alligator — lulus-otomatis
 
 Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**warn**
-- `story_mode.famous_for` Tidak muncul di kutipan mana pun: Day. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -579,9 +538,6 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 Klaim 4 (exact 4), sumber 1, gambar 0.
 
-**warn**
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Mesoamerika. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -597,11 +553,6 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 Klaim 4 (exact 4), sumber 1, gambar 0.
 
-**warn**
-- `short_description` Tidak muncul di kutipan mana pun: Amazon, South, America, Amazonian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `long_description[0]` Tidak muncul di kutipan mana pun: Amerika, Utara. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Amazon, South, America. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -616,10 +567,6 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 ## skunk-ape — lulus-otomatis
 
 Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**warn**
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Everglades. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.role` Tidak muncul di kutipan mana pun: Amerika. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -651,10 +598,6 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 Klaim 4 (exact 4), sumber 1, gambar 0.
 
-**warn**
-- `long_description[1]` Tidak muncul di kutipan mana pun: Washington, Irving, Irish. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Eropa, Amerika, America. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -684,11 +627,6 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 ## cadborosaurus — lulus-otomatis
 
 Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**warn**
-- `long_description[0]` Tidak muncul di kutipan mana pun: Teluk, Yunani. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `long_description[1]` Tidak muncul di kutipan mana pun: Kanada. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.who` Tidak muncul di kutipan mana pun: Samudra. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -720,9 +658,6 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 Klaim 4 (exact 4), sumber 1, gambar 0.
 
-**warn**
-- `long_description[1]` Tidak muncul di kutipan mana pun: Florentine, Codex. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -737,10 +672,6 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 ## opochtli — lulus-otomatis
 
 Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**warn**
-- `short_description` Tidak muncul di kutipan mana pun: Aztec. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Aztec, Lembah, Meksiko. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
@@ -757,12 +688,6 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 
 Klaim 4 (exact 4), sumber 1, gambar 0.
 
-**warn**
-- `short_description` Tidak muncul di kutipan mana pun: Aztec, Lake. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.who` Tidak muncul di kutipan mana pun: Aztec, Lake. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.origin` Tidak muncul di kutipan mana pun: Lake. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.famous_for` Tidak muncul di kutipan mana pun: Lake. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-
 **manual**
 - `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
@@ -777,12 +702,6 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 ## bell-witch — lulus-otomatis
 
 Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**warn**
-- `short_description` Tidak muncul di kutipan mana pun: John, Tennessee. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `long_description[1]` Tidak muncul di kutipan mana pun: Martin, Van, Buren, Ingram. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.role` Tidak muncul di kutipan mana pun: Amerika, Selatan. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
-- `story_mode.famous_for` Tidak muncul di kutipan mana pun: Ingram. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 **manual**
 - `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
