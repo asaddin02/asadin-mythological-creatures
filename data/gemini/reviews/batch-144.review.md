@@ -1,8 +1,8 @@
 # Review batch-144
 
-Diperiksa 2026-09-30T08:41:34.517Z. Berkas: batch-144.md.
+Diperiksa 2026-09-30T08:43:32.281Z. Berkas: batch-144.md.
 
-**Belum dikirim:** alignak, alux, anchanchu, ao-ao, aulanerk, baccoo, beast-of-bladenboro, beast-of-busco, bessie-lake-monster, cadejo, chickcharney, dzahui, eeyeekalduk, el-hombre-caiman, enfield-monster, gaasyendietha, jasy-jatere, legend-of-trentren-vilu-and-caicai-vilu, mani-mythology, memphre
+**Belum dikirim:** chickcharney, dzahui, eeyeekalduk, el-hombre-caiman, enfield-monster, gaasyendietha, jasy-jatere, legend-of-trentren-vilu-and-caicai-vilu, mani-mythology, memphre
 
 ## arnakuagsak — skip
 
@@ -356,4 +356,143 @@ Klaim 2 (exact 2), sumber 1, gambar 0.
 |---|---|---|---|---|
 | ahkiyyini-c01 | exact | en.wikipedia.org | The Ahkiyyini is a skeleton spirit of Inuit folklore, the ghost of Alaska, who causes tidal waves and earthquakes by moving his arms. | The Ahkiyyini is a skeleton spirit in Inuit folklore. He is the ghost of Alaska, and causes tidal waves and earthquakes by moving his arms. |
 | ahkiyyini-c02 | exact | en.wikipedia.org | In death he used his arm bone as a drumstick and his scapula as a drum. | In death he would use his arm bone as a drum stick and his scapula as a drum. |
+
+
+## alignak — lulus-otomatis
+
+Klaim 1 (exact 1), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| alignak-c01 | exact | en.wikipedia.org | In Inuit religion, Alignak is a lunar deity and god of weather, water, tides, eclipses and earthquakes. | In the Inuit religion, Alignak is a lunar deity and god of weather, water, tides, eclipses, and earthquakes. |
+
+
+## alux — lulus-otomatis
+
+Klaim 4 (exact 4), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| alux-c01 | exact | en.wikipedia.org | An alux is a kind of sprite or spirit in the mythology of some Maya peoples of the Yucatán Peninsula, Belize and Guatemala. | is a type of sprite or spirit in the mythological tradition of certain Maya peoples from the Yucatán Peninsula, Belize and Guatemala |
+| alux-c02 | exact | en.wikipedia.org | Aluxob are imagined as knee-high miniature Maya people in traditional dress. | Aluxo'ob are conceived of as being small, only about knee-high, and in appearance resembling miniature traditionally dressed Maya people. |
+| alux-c03 | exact | en.wikipedia.org | Tradition holds they are usually invisible but can take physical form to communicate with or frighten humans. | Tradition holds that aluxob are generally invisible but are able to assume physical form for purposes of communicating with and frightening humans |
+| alux-c04 | exact | en.wikipedia.org | They are linked to forests, caves, stones and fields but can be lured elsewhere with offerings. | They are generally associated with natural features such as forests, caves, stones, and fields but can also be enticed to move somewhere through offerings. |
+
+
+## anchanchu — lulus-otomatis
+
+Klaim 4 (exact 4), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| anchanchu-c01 | exact | en.wikipedia.org | The anchanchu is a legendary Andean vampire mainly from the Aymara region of Bolivia. | is a legendary Andean vampire largely originating from the Aymara region of Bolivia. |
+| anchanchu-c02 | exact | en.wikipedia.org | It takes the form of a helpless old traveler, a rich gold-toothed Aymara woman, a seductive gringa or a monstrous animal. | It shapeshifts into the form of a helpless, elderly traveler, a rich Aymara woman with gold teeth, a seductive gringa, or a monstrous animal. |
+| anchanchu-c03 | exact | en.wikipedia.org | When a passerby offers help, it drinks their blood until they die. | When a passerby offers to help, the anchanchu victimizes them and drinks their blood, causing them to die of blood loss or disease. |
+| anchanchu-c04 | exact | en.wikipedia.org | In Peru the anchanchu is a dwarf-like duende called Muki, living underground and fond of gold. | In Peru, the anchanchu is a duende, similar to a dwarf. Called Muki or Muqui, it lives underground and has a penchant for gold. |
+
+
+## ao-ao — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| ao-ao-c01 | exact | en.wikipedia.org | Ao Ao is a monstrous creature of South American mythology, one of the cursed sons of Tau and Kerana in Guarani-speaking cultures. | Ao Ao is the name of a monstrous creature from South American mythology. As one of the cursed sons of Tau and Kerana, it is one of the central mythological creatures among Guarani-speaking cultures. |
+| ao-ao-c02 | exact | en.wikipedia.org | It is often a voracious sheep-like creature with huge fangs. | The Ao Ao is often described as being a voracious sheep-like creature with a massive set of fangs. |
+| ao-ao-c03 | exact | en.wikipedia.org | Its name comes from its howl, "Ao ao ao!", when chasing victims. | Its name is derived from the sound that it makes, howling "Ao ao ao!" when it is pursuing its victims. |
+
+
+## aulanerk — lulus-otomatis
+
+Klaim 2 (exact 2), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| aulanerk-c01 | exact | en.wikipedia.org | In Inuit mythology, Aulanerk is a friendly sea god of tides, waves and joy who lives naked in the sea. | In Inuit mythology, Aulanerk is a friendly sea god who rules over the tides, waves and joy. He is said to be naked and living in the sea. |
+| aulanerk-c02 | exact | en.wikipedia.org | Besides making waves, he works with the gods who lead Inuit hunters to seals. | Whereas Aulanerk caused the waves, he works with the other gods who lead Inuit hunters to seals. |
+
+
+## baccoo — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| baccoo-c01 | exact | en.wikipedia.org | The Baccoo is a mythical character of Guyanese and Surinamese folklore. | is a mythical character from Guyanese and Surinamese folklore. |
+| baccoo-c02 | exact | en.wikipedia.org | Many describe it with a large head and a body half wood, half flesh. | many describe it as a figure consisting of a large head and a body of which half consists of wood, while the other half consists of flesh. |
+| baccoo-c03 | exact | en.wikipedia.org | Baccoo live on milk and bananas given by whoever they serve. | Baccoo are known to subside on a diet of milk and bananas fed to them by whomever they serve. |
+
+
+## beast-of-bladenboro — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| beast-of-bladenboro-c01 | exact | en.wikipedia.org | The Beast of Bladenboro is a cryptid blamed for animal deaths in Bladenboro, North Carolina, in winter 1953–54. | The Beast of Bladenboro refers to a cryptid responsible for a string of deaths amongst Bladenboro, North Carolina animals in the winter of 1953–54. |
+| beast-of-bladenboro-c02 | exact | en.wikipedia.org | Witnesses and trackers thought it likely a wildcat, but its identity was never confirmed. | According to witnesses and trackers, it was likely a wildcat species, but its identity was ultimately not definitively confirmed. |
+| beast-of-bladenboro-c03 | exact | en.wikipedia.org | Reports say it usually crushed or decapitated its victims, mostly dogs. | According to reports, the animal commonly crushed or decapitated its victims, which were mostly dogs. |
+
+
+## beast-of-busco — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| beast-of-busco-c01 | exact | en.wikipedia.org | The Beast of Busco is a legendary Indiana creature described as an unusually large snapping turtle. | The Beast of Busco is a legendary creature in Indiana folklore, described as an unusually large snapping turtle. |
+| beast-of-busco-c02 | exact | en.wikipedia.org | Residents reported it near Churubusco, Indiana, in 1949, prompting a month-long search with national attention. | It was reportedly sighted by local residents near Churubusco, Indiana, in 1949, prompting a month-long search that attracted national attention. |
+| beast-of-busco-c03 | exact | en.wikipedia.org | Despite great efforts, no conclusive evidence was found. | Despite extensive efforts to locate the animal, no conclusive evidence of its existence was found. |
+
+
+## bessie-lake-monster — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| bessie-lake-monster-c01 | exact | en.wikipedia.org | In northeastern Ohio and Michigan folklore, Bessie is a Lake Erie monster, also called South Bay Bessie or The Lake Erie Monster. | In northeastern Ohio and Michigan folklore, Bessie is a name given to a lake monster in Lake Erie, also known as South Bay Bessie or simply The Lake Erie Monster. |
+| bessie-lake-monster-c02 | exact | en.wikipedia.org | The first recorded sighting was in 1817. | The first recorded sighting of Bessie occurred in 1817 |
+| bessie-lake-monster-c03 | exact | en.wikipedia.org | Bessie is reported as snake-like, 30 to 40 ft long and greyish. | Bessie is reported to be snake-like and 30 to 40 ft (9.1 to 12.2 m) long, at least a foot in diameter, with a grayish color. |
+
+
+## cadejo — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| cadejo-c01 | exact | en.wikipedia.org | The cadejo is a supernatural spirit of Central American folklore of indigenous origin, a dog-like creature with blue eyes when calm and red when hostile. | is a supernatural spirit in Central American folklore of indigenous origin. It is commonly depicted as a dog-like creature with blue eyes when calm and red eyes when hostile. |
+| cadejo-c02 | exact | en.wikipedia.org | Legend says it wanders lonely roads at night. | According to legend, it wanders along isolated roads at night. |
+| cadejo-c03 | exact | en.wikipedia.org | The white cadejo protects travelers, while the black cadejo tries to kill them. | The white cadejo protects travelers from harm and danger, while the black cadejo attempts to kill them |
 

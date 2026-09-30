@@ -5,4 +5,4 @@ Pemeriksaan menemukan masalah di bawah. Perbaiki semuanya, lalu kirim ulang **en
 Kalau kutipan tidak ditemukan, jangan mengubahnya supaya terlihat cocok. Buka lagi halamannya dan salin teks yang benar-benar ada, atau hapus klaim itu beserta teks yang bergantung padanya.
 
 ## Belum dikirim
-Kerjakan juga: alignak, alux, anchanchu, ao-ao, aulanerk, baccoo, beast-of-bladenboro, beast-of-busco, bessie-lake-monster, cadejo, chickcharney, dzahui, eeyeekalduk, el-hombre-caiman, enfield-monster, gaasyendietha, jasy-jatere, legend-of-trentren-vilu-and-caicai-vilu, mani-mythology, memphre.
+Kerjakan juga: chickcharney, dzahui, eeyeekalduk, el-hombre-caiman, enfield-monster, gaasyendietha, jasy-jatere, legend-of-trentren-vilu-and-caicai-vilu, mani-mythology, memphre.

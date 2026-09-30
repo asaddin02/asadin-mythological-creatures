@@ -4259,3 +4259,1772 @@
 }
 ```
 
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-144",
+  "slug": "alignak",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Alignak",
+    "native_name": null,
+    "display_name": {
+      "id": "Alignak",
+      "en": "Alignak"
+    },
+    "wikidata_qid": "Q2742049",
+    "claim_ids": [
+      "alignak-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "alignak-c01"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "alignak-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-inuit",
+    "suggested_new": null,
+    "claim_ids": [
+      "alignak-c01"
+    ]
+  },
+  "region": {
+    "value": "north-america",
+    "claim_ids": [
+      "alignak-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "sky",
+      "claim_ids": [
+        "alignak-c01"
+      ]
+    }
+  ],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Alignak adalah dewa bulan Inuit yang juga menguasai cuaca, pasang surut, gerhana, dan gempa [alignak-c01].",
+    "en": "Alignak is the Inuit moon god, also ruling weather, tides, eclipses and earthquakes [alignak-c01].",
+    "claim_ids": [
+      "alignak-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Dalam agama Inuit, Alignak adalah dewa bulan dan dewa cuaca, air, pasang surut, gerhana, serta gempa bumi [alignak-c01].",
+      "en": "The Inuit revere Alignak as the moon deity, who also governs weather, water, tides, eclipses and earthquakes [alignak-c01].",
+      "claim_ids": [
+        "alignak-c01"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [
+    {
+      "ability_id": "elemental-control",
+      "name": {
+        "id": "Penguasa cuaca dan pasang",
+        "en": "Weather and tides"
+      },
+      "description": {
+        "id": "Menguasai cuaca, air, pasang surut, gerhana, dan gempa.",
+        "en": "Rules weather, water, tides, eclipses and earthquakes."
+      },
+      "claim_ids": [
+        "alignak-c01"
+      ]
+    }
+  ],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa bulan sering dikaitkan dengan pasang surut dalam mitologi?",
+      "en": "Why is the moon often tied to tides in myth?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "alignak-s1",
+      "url": "https://en.wikipedia.org/wiki/Alignak",
+      "title": "Alignak",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "alignak-c01",
+      "source_id": "alignak-s1",
+      "quote": "In the Inuit religion, Alignak is a lunar deity and god of weather, water, tides, eclipses, and earthquakes.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam agama Inuit, Alignak adalah dewa bulan sekaligus dewa cuaca, air, pasang surut, gerhana, dan gempa bumi.",
+        "en": "In Inuit religion, Alignak is a lunar deity and god of weather, water, tides, eclipses and earthquakes."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "long_description",
+      "searched": "Artikel Wikipedia hanya satu kalimat; sumber lain tidak ditemukan."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-144",
+  "slug": "alux",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Alux",
+    "native_name": null,
+    "display_name": {
+      "id": "Alux",
+      "en": "Alux"
+    },
+    "wikidata_qid": "Q4737604",
+    "claim_ids": [
+      "alux-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "peri",
+    "claim_ids": [
+      "alux-c01"
+    ]
+  },
+  "classification": {
+    "value": "fairy",
+    "claim_ids": [
+      "alux-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-maya",
+    "suggested_new": null,
+    "claim_ids": [
+      "alux-c01"
+    ]
+  },
+  "region": {
+    "value": "central-america",
+    "claim_ids": [
+      "alux-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "forest",
+      "claim_ids": [
+        "alux-c04"
+      ]
+    },
+    {
+      "value": "cave",
+      "claim_ids": [
+        "alux-c04"
+      ]
+    },
+    {
+      "value": "fields",
+      "claim_ids": [
+        "alux-c04"
+      ]
+    }
+  ],
+  "disposition": {
+    "value": "trickster",
+    "claim_ids": [
+      "alux-c03"
+    ]
+  },
+  "traits": [
+    {
+      "value": "invisibility",
+      "claim_ids": [
+        "alux-c03"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "Alux adalah peri kecil setinggi lutut dalam tradisi Maya di Yucatán, Belize, dan Guatemala [alux-c01, alux-c02].",
+    "en": "An alux is a knee-high sprite of Maya tradition in Yucatán, Belize and Guatemala [alux-c01, alux-c02].",
+    "claim_ids": [
+      "alux-c01",
+      "alux-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Alux adalah sejenis peri atau roh dalam tradisi Maya [alux-c01], setinggi lutut dan mirip orang Maya mini berpakaian tradisional [alux-c02]. Mereka biasanya tak terlihat tetapi dapat mewujud untuk menakuti manusia [alux-c03], dan dikaitkan dengan hutan, gua, batu, dan ladang [alux-c04].",
+      "en": "An alux is a sprite or spirit of Maya tradition [alux-c01], knee-high and like a miniature Maya person in traditional dress [alux-c02]. They are usually invisible but can take form to frighten humans [alux-c03], and are tied to forests, caves, stones and fields [alux-c04].",
+      "claim_ids": [
+        "alux-c01",
+        "alux-c02",
+        "alux-c03",
+        "alux-c04"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa orang memberi persembahan kepada makhluk kecil penjaga tempat?",
+      "en": "Why do people make offerings to small place-spirits?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "alux-s1",
+      "url": "https://en.wikipedia.org/wiki/Alux",
+      "title": "Alux",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "alux-c01",
+      "source_id": "alux-s1",
+      "quote": "is a type of sprite or spirit in the mythological tradition of certain Maya peoples from the Yucatán Peninsula, Belize and Guatemala",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Alux adalah sejenis peri atau roh dalam tradisi mitologi beberapa bangsa Maya dari Semenanjung Yucatán, Belize, dan Guatemala.",
+        "en": "An alux is a kind of sprite or spirit in the mythology of some Maya peoples of the Yucatán Peninsula, Belize and Guatemala."
+      }
+    },
+    {
+      "id": "alux-c02",
+      "source_id": "alux-s1",
+      "quote": "Aluxo'ob are conceived of as being small, only about knee-high, and in appearance resembling miniature traditionally dressed Maya people.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Aluxob dibayangkan kecil, hanya setinggi lutut, dan mirip orang Maya berpakaian tradisional dalam ukuran mini.",
+        "en": "Aluxob are imagined as knee-high miniature Maya people in traditional dress."
+      }
+    },
+    {
+      "id": "alux-c03",
+      "source_id": "alux-s1",
+      "quote": "Tradition holds that aluxob are generally invisible but are able to assume physical form for purposes of communicating with and frightening humans",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Menurut tradisi, aluxob biasanya tak terlihat tetapi dapat mewujud untuk berkomunikasi dengan atau menakuti manusia.",
+        "en": "Tradition holds they are usually invisible but can take physical form to communicate with or frighten humans."
+      }
+    },
+    {
+      "id": "alux-c04",
+      "source_id": "alux-s1",
+      "quote": "They are generally associated with natural features such as forests, caves, stones, and fields but can also be enticed to move somewhere through offerings.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Mereka dikaitkan dengan hutan, gua, batu, dan ladang, tetapi dapat dibujuk pindah dengan persembahan.",
+        "en": "They are linked to forests, caves, stones and fields but can be lured elsewhere with offerings."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-144",
+  "slug": "anchanchu",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Anchanchu",
+    "native_name": null,
+    "display_name": {
+      "id": "Anchanchu",
+      "en": "Anchanchu"
+    },
+    "wikidata_qid": "Q4664504",
+    "claim_ids": [
+      "anchanchu-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "hantu",
+    "claim_ids": [
+      "anchanchu-c01"
+    ]
+  },
+  "classification": {
+    "value": "shapeshifter",
+    "claim_ids": [
+      "anchanchu-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-aymara",
+    "suggested_new": null,
+    "claim_ids": [
+      "anchanchu-c01"
+    ]
+  },
+  "region": {
+    "value": "south-america",
+    "claim_ids": [
+      "anchanchu-c01"
+    ]
+  },
+  "countries": {
+    "value": [
+      "Bolivia"
+    ],
+    "claim_ids": [
+      "anchanchu-c01"
+    ]
+  },
+  "era": null,
+  "habitats": [],
+  "disposition": {
+    "value": "malevolent",
+    "claim_ids": [
+      "anchanchu-c03"
+    ]
+  },
+  "traits": [
+    {
+      "value": "shapeshifter",
+      "claim_ids": [
+        "anchanchu-c02"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "Anchanchu adalah vampir pengubah wujud dari wilayah Aymara di Bolivia [anchanchu-c01, anchanchu-c02].",
+    "en": "The anchanchu is a shapeshifting vampire of the Aymara region of Bolivia [anchanchu-c01, anchanchu-c02].",
+    "claim_ids": [
+      "anchanchu-c01",
+      "anchanchu-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Anchanchu adalah vampir legendaris Andes dari wilayah Aymara di Bolivia [anchanchu-c01]. Ia menyamar sebagai pelancong tua, perempuan kaya, atau hewan mengerikan [anchanchu-c02], lalu mengisap darah orang yang menolongnya [anchanchu-c03]. Di Peru, ia justru duende mirip kurcaci bernama Muki [anchanchu-c04].",
+      "en": "The anchanchu is a legendary Andean vampire from the Aymara region of Bolivia [anchanchu-c01]. It disguises itself as an old traveler, a rich woman or a monstrous animal [anchanchu-c02], then drinks the blood of whoever helps it [anchanchu-c03]. In Peru it is instead a dwarf-like duende called Muki [anchanchu-c04].",
+      "claim_ids": [
+        "anchanchu-c01",
+        "anchanchu-c02",
+        "anchanchu-c03",
+        "anchanchu-c04"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [
+    {
+      "name": "Muki",
+      "tradition": {
+        "id": "Peru",
+        "en": "Peru"
+      },
+      "description": {
+        "id": "Duende mirip kurcaci yang tinggal di bawah tanah dan menyukai emas.",
+        "en": "A dwarf-like duende living underground, fond of gold."
+      },
+      "claim_ids": [
+        "anchanchu-c04"
+      ]
+    }
+  ],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Muki",
+      "relation_type": "variant",
+      "note": {
+        "id": "Versi Peru dari anchanchu.",
+        "en": "The version told in Peru."
+      },
+      "claim_ids": [
+        "anchanchu-c04"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa makhluk jahat sering menyamar sebagai orang yang butuh pertolongan?",
+      "en": "Why do evil beings often pose as people in need?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "anchanchu-s1",
+      "url": "https://en.wikipedia.org/wiki/Anchanchu",
+      "title": "Anchanchu",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "anchanchu-c01",
+      "source_id": "anchanchu-s1",
+      "quote": "is a legendary Andean vampire largely originating from the Aymara region of Bolivia.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Anchanchu adalah vampir legendaris Andes yang terutama berasal dari wilayah Aymara di Bolivia.",
+        "en": "The anchanchu is a legendary Andean vampire mainly from the Aymara region of Bolivia."
+      }
+    },
+    {
+      "id": "anchanchu-c02",
+      "source_id": "anchanchu-s1",
+      "quote": "It shapeshifts into the form of a helpless, elderly traveler, a rich Aymara woman with gold teeth, a seductive gringa, or a monstrous animal.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia menyamar sebagai pelancong tua tak berdaya, perempuan Aymara kaya bergigi emas, perempuan asing yang memikat, atau hewan mengerikan.",
+        "en": "It takes the form of a helpless old traveler, a rich gold-toothed Aymara woman, a seductive gringa or a monstrous animal."
+      }
+    },
+    {
+      "id": "anchanchu-c03",
+      "source_id": "anchanchu-s1",
+      "quote": "When a passerby offers to help, the anchanchu victimizes them and drinks their blood, causing them to die of blood loss or disease.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Saat orang lewat menawarkan bantuan, anchanchu mengisap darahnya hingga ia mati.",
+        "en": "When a passerby offers help, it drinks their blood until they die."
+      }
+    },
+    {
+      "id": "anchanchu-c04",
+      "source_id": "anchanchu-s1",
+      "quote": "In Peru, the anchanchu is a duende, similar to a dwarf. Called Muki or Muqui, it lives underground and has a penchant for gold.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Di Peru, anchanchu adalah duende mirip kurcaci bernama Muki yang tinggal di bawah tanah dan menyukai emas.",
+        "en": "In Peru the anchanchu is a dwarf-like duende called Muki, living underground and fond of gold."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-144",
+  "slug": "ao-ao",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Ao Ao",
+    "native_name": null,
+    "display_name": {
+      "id": "Ao Ao",
+      "en": "Ao Ao"
+    },
+    "wikidata_qid": "Q4778558",
+    "claim_ids": [
+      "ao-ao-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "monster",
+    "claim_ids": [
+      "ao-ao-c01"
+    ]
+  },
+  "classification": {
+    "value": "monster",
+    "claim_ids": [
+      "ao-ao-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-guarani",
+    "suggested_new": null,
+    "claim_ids": [
+      "ao-ao-c01"
+    ]
+  },
+  "region": {
+    "value": "south-america",
+    "claim_ids": [
+      "ao-ao-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": {
+    "value": "malevolent",
+    "claim_ids": [
+      "ao-ao-c02"
+    ]
+  },
+  "traits": [],
+  "short_description": {
+    "id": "Ao Ao adalah monster rakus mirip domba bertaring, putra terkutuk Tau dan Kerana dalam mitologi Guarani [ao-ao-c01, ao-ao-c02].",
+    "en": "Ao Ao is a voracious, fanged sheep-like monster, a cursed son of Tau and Kerana in Guarani mythology [ao-ao-c01, ao-ao-c02].",
+    "claim_ids": [
+      "ao-ao-c01",
+      "ao-ao-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Ao Ao adalah salah satu putra terkutuk Tau dan Kerana dalam mitologi Guarani [ao-ao-c01], makhluk rakus mirip domba bertaring besar [ao-ao-c02]. Namanya berasal dari lolongannya, \"Ao ao ao!\", saat memburu korban [ao-ao-c03].",
+      "en": "Ao Ao is one of the cursed sons of Tau and Kerana in Guarani mythology [ao-ao-c01], a voracious sheep-like creature with huge fangs [ao-ao-c02]. Its name comes from its howl, \"Ao ao ao!\", when hunting [ao-ao-c03].",
+      "claim_ids": [
+        "ao-ao-c01",
+        "ao-ao-c02",
+        "ao-ao-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": {
+    "original_form": "Ao Ao",
+    "language": "Guarani",
+    "literal_meaning": {
+      "id": "bunyi lolongannya",
+      "en": "the sound of its howl"
+    },
+    "claim_ids": [
+      "ao-ao-c03"
+    ]
+  },
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Tau",
+      "relation_type": "parent",
+      "note": {
+        "id": "Ayahnya.",
+        "en": "Its father."
+      },
+      "claim_ids": [
+        "ao-ao-c01"
+      ]
+    },
+    {
+      "target_name": "Kerana",
+      "relation_type": "parent",
+      "note": {
+        "id": "Ibunya.",
+        "en": "Its mother."
+      },
+      "claim_ids": [
+        "ao-ao-c01"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa nama makhluk sering meniru suaranya?",
+      "en": "Why are creatures often named after their sounds?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "ao-ao-s1",
+      "url": "https://en.wikipedia.org/wiki/Ao_Ao",
+      "title": "Ao Ao",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "ao-ao-c01",
+      "source_id": "ao-ao-s1",
+      "quote": "Ao Ao is the name of a monstrous creature from South American mythology. As one of the cursed sons of Tau and Kerana, it is one of the central mythological creatures among Guarani-speaking cultures.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ao Ao adalah makhluk mengerikan dari mitologi Amerika Selatan, salah satu putra terkutuk Tau dan Kerana dalam budaya berbahasa Guarani.",
+        "en": "Ao Ao is a monstrous creature of South American mythology, one of the cursed sons of Tau and Kerana in Guarani-speaking cultures."
+      }
+    },
+    {
+      "id": "ao-ao-c02",
+      "source_id": "ao-ao-s1",
+      "quote": "The Ao Ao is often described as being a voracious sheep-like creature with a massive set of fangs.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ao Ao sering digambarkan sebagai makhluk rakus mirip domba dengan taring besar.",
+        "en": "It is often a voracious sheep-like creature with huge fangs."
+      }
+    },
+    {
+      "id": "ao-ao-c03",
+      "source_id": "ao-ao-s1",
+      "quote": "Its name is derived from the sound that it makes, howling \"Ao ao ao!\" when it is pursuing its victims.",
+      "locator": "Introduction",
+      "context": "etymology",
+      "statement": {
+        "id": "Namanya berasal dari lolongan \"Ao ao ao!\" saat memburu korbannya.",
+        "en": "Its name comes from its howl, \"Ao ao ao!\", when chasing victims."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-144",
+  "slug": "aulanerk",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Aulanerk",
+    "native_name": null,
+    "display_name": {
+      "id": "Aulanerk",
+      "en": "Aulanerk"
+    },
+    "wikidata_qid": "Q2741894",
+    "claim_ids": [
+      "aulanerk-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "aulanerk-c01"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "aulanerk-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-inuit",
+    "suggested_new": null,
+    "claim_ids": [
+      "aulanerk-c01"
+    ]
+  },
+  "region": {
+    "value": "north-america",
+    "claim_ids": [
+      "aulanerk-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "water",
+      "claim_ids": [
+        "aulanerk-c01"
+      ]
+    }
+  ],
+  "disposition": {
+    "value": "benevolent",
+    "claim_ids": [
+      "aulanerk-c01"
+    ]
+  },
+  "traits": [],
+  "short_description": {
+    "id": "Aulanerk adalah dewa laut Inuit yang ramah, penguasa pasang, ombak, dan sukacita [aulanerk-c01].",
+    "en": "Aulanerk is a friendly Inuit sea god of tides, waves and joy [aulanerk-c01].",
+    "claim_ids": [
+      "aulanerk-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Dalam mitologi Inuit, Aulanerk adalah dewa laut yang ramah, penguasa pasang, ombak, dan sukacita, yang tinggal di laut [aulanerk-c01]. Ia bekerja sama dengan dewa-dewa yang menuntun pemburu ke anjing laut [aulanerk-c02].",
+      "en": "In Inuit mythology, Aulanerk is a friendly sea god of tides, waves and joy who lives in the sea [aulanerk-c01]. He works with the gods who lead hunters to seals [aulanerk-c02].",
+      "claim_ids": [
+        "aulanerk-c01",
+        "aulanerk-c02"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa arti dewa sukacita bagi masyarakat pemburu laut?",
+      "en": "What does a god of joy mean to sea hunters?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "aulanerk-s1",
+      "url": "https://en.wikipedia.org/wiki/Aulanerk",
+      "title": "Aulanerk",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "aulanerk-c01",
+      "source_id": "aulanerk-s1",
+      "quote": "In Inuit mythology, Aulanerk is a friendly sea god who rules over the tides, waves and joy. He is said to be naked and living in the sea.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam mitologi Inuit, Aulanerk adalah dewa laut yang ramah, penguasa pasang, ombak, dan sukacita, yang tinggal telanjang di laut.",
+        "en": "In Inuit mythology, Aulanerk is a friendly sea god of tides, waves and joy who lives naked in the sea."
+      }
+    },
+    {
+      "id": "aulanerk-c02",
+      "source_id": "aulanerk-s1",
+      "quote": "Whereas Aulanerk caused the waves, he works with the other gods who lead Inuit hunters to seals.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Selain membuat ombak, ia bekerja sama dengan dewa lain yang menuntun pemburu Inuit ke anjing laut.",
+        "en": "Besides making waves, he works with the gods who lead Inuit hunters to seals."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-144",
+  "slug": "baccoo",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Baccoo",
+    "native_name": null,
+    "display_name": {
+      "id": "Baccoo",
+      "en": "Baccoo"
+    },
+    "wikidata_qid": "Q2647640",
+    "claim_ids": [
+      "baccoo-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "roh",
+    "claim_ids": [
+      "baccoo-c01"
+    ]
+  },
+  "classification": {
+    "value": "spirit",
+    "claim_ids": [
+      "baccoo-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-caribbean",
+    "suggested_new": null,
+    "claim_ids": [
+      "baccoo-c01"
+    ]
+  },
+  "region": {
+    "value": "south-america",
+    "claim_ids": [
+      "baccoo-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Baccoo adalah makhluk cerita rakyat Guyana dan Suriname yang tubuhnya setengah kayu dan setengah daging [baccoo-c01, baccoo-c02].",
+    "en": "The Baccoo is a being of Guyanese and Surinamese folklore with a body half wood, half flesh [baccoo-c01, baccoo-c02].",
+    "claim_ids": [
+      "baccoo-c01",
+      "baccoo-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Baccoo adalah tokoh mitos dari cerita rakyat Guyana dan Suriname [baccoo-c01], berkepala besar dengan tubuh setengah kayu dan setengah daging [baccoo-c02]. Ia makan susu dan pisang yang diberikan tuannya [baccoo-c03].",
+      "en": "The Baccoo is a mythical character of Guyanese and Surinamese folklore [baccoo-c01], with a big head and a body half wood, half flesh [baccoo-c02]. It lives on milk and bananas from its master [baccoo-c03].",
+      "claim_ids": [
+        "baccoo-c01",
+        "baccoo-c02",
+        "baccoo-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa ada kepercayaan tentang makhluk yang bisa \"dipekerjakan\"?",
+      "en": "Why believe in beings that can be \"hired\"?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "baccoo-s1",
+      "url": "https://en.wikipedia.org/wiki/Baccoo",
+      "title": "Baccoo",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "baccoo-c01",
+      "source_id": "baccoo-s1",
+      "quote": "is a mythical character from Guyanese and Surinamese folklore.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Baccoo adalah tokoh mitos dari cerita rakyat Guyana dan Suriname.",
+        "en": "The Baccoo is a mythical character of Guyanese and Surinamese folklore."
+      }
+    },
+    {
+      "id": "baccoo-c02",
+      "source_id": "baccoo-s1",
+      "quote": "many describe it as a figure consisting of a large head and a body of which half consists of wood, while the other half consists of flesh.",
+      "locator": "Description",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Banyak yang menggambarkannya berkepala besar dengan tubuh setengah kayu dan setengah daging.",
+        "en": "Many describe it with a large head and a body half wood, half flesh."
+      }
+    },
+    {
+      "id": "baccoo-c03",
+      "source_id": "baccoo-s1",
+      "quote": "Baccoo are known to subside on a diet of milk and bananas fed to them by whomever they serve.",
+      "locator": "Description",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Baccoo makan susu dan pisang yang diberikan oleh orang yang dilayaninya.",
+        "en": "Baccoo live on milk and bananas given by whoever they serve."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-144",
+  "slug": "beast-of-bladenboro",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Beast of Bladenboro",
+    "native_name": null,
+    "display_name": {
+      "id": "Beast of Bladenboro",
+      "en": "Beast of Bladenboro"
+    },
+    "wikidata_qid": "Q4189638",
+    "claim_ids": [
+      "beast-of-bladenboro-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "kriptid",
+    "claim_ids": [
+      "beast-of-bladenboro-c01"
+    ]
+  },
+  "classification": {
+    "value": "cryptid",
+    "claim_ids": [
+      "beast-of-bladenboro-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-american",
+    "suggested_new": null,
+    "claim_ids": [
+      "beast-of-bladenboro-c01"
+    ]
+  },
+  "region": {
+    "value": "north-america",
+    "claim_ids": [
+      "beast-of-bladenboro-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": {
+    "value": "malevolent",
+    "claim_ids": [
+      "beast-of-bladenboro-c03"
+    ]
+  },
+  "traits": [],
+  "short_description": {
+    "id": "Beast of Bladenboro adalah kriptid yang dituduh membunuh banyak hewan di Bladenboro, North Carolina, pada 1953–54 [beast-of-bladenboro-c01].",
+    "en": "The Beast of Bladenboro is a cryptid blamed for killing many animals in Bladenboro, North Carolina, in 1953–54 [beast-of-bladenboro-c01].",
+    "claim_ids": [
+      "beast-of-bladenboro-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Beast of Bladenboro adalah kriptid yang dituduh atas kematian banyak hewan di Bladenboro pada musim dingin 1953–54 [beast-of-bladenboro-c01]. Korbannya, kebanyakan anjing, biasanya diremukkan atau dipenggal [beast-of-bladenboro-c03]. Saksi menduga ia kucing liar, tetapi identitasnya tidak pernah dipastikan [beast-of-bladenboro-c02].",
+      "en": "The Beast of Bladenboro is a cryptid blamed for animal deaths in Bladenboro in winter 1953–54 [beast-of-bladenboro-c01]. Its victims, mostly dogs, were usually crushed or decapitated [beast-of-bladenboro-c03]. Witnesses suspected a wildcat, but it was never confirmed [beast-of-bladenboro-c02].",
+      "claim_ids": [
+        "beast-of-bladenboro-c01",
+        "beast-of-bladenboro-c02",
+        "beast-of-bladenboro-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Bagaimana ketakutan warga bisa mengubah hewan liar menjadi legenda?",
+      "en": "How can public fear turn a wild animal into a legend?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "beast-of-bladenboro-s1",
+      "url": "https://en.wikipedia.org/wiki/Beast_of_Bladenboro",
+      "title": "Beast of Bladenboro",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "beast-of-bladenboro-c01",
+      "source_id": "beast-of-bladenboro-s1",
+      "quote": "The Beast of Bladenboro refers to a cryptid  responsible for a string of deaths amongst Bladenboro, North Carolina animals in the winter of 1953–54.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Beast of Bladenboro adalah kriptid yang dituduh atas serangkaian kematian hewan di Bladenboro, North Carolina, pada musim dingin 1953–54.",
+        "en": "The Beast of Bladenboro is a cryptid blamed for animal deaths in Bladenboro, North Carolina, in winter 1953–54."
+      }
+    },
+    {
+      "id": "beast-of-bladenboro-c02",
+      "source_id": "beast-of-bladenboro-s1",
+      "quote": "According to witnesses and trackers, it was likely a wildcat species, but its identity was ultimately not definitively confirmed.",
+      "locator": "Introduction",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Menurut saksi dan pelacak, kemungkinan ia sejenis kucing liar, tetapi identitasnya tidak pernah dipastikan.",
+        "en": "Witnesses and trackers thought it likely a wildcat, but its identity was never confirmed."
+      }
+    },
+    {
+      "id": "beast-of-bladenboro-c03",
+      "source_id": "beast-of-bladenboro-s1",
+      "quote": "According to reports, the animal commonly crushed or decapitated its victims, which were mostly dogs.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Menurut laporan, hewan itu biasanya meremukkan atau memenggal korbannya, yang kebanyakan anjing.",
+        "en": "Reports say it usually crushed or decapitated its victims, mostly dogs."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-144",
+  "slug": "beast-of-busco",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Beast of Busco",
+    "native_name": null,
+    "display_name": {
+      "id": "Beast of Busco",
+      "en": "Beast of Busco"
+    },
+    "wikidata_qid": "Q1084285",
+    "claim_ids": [
+      "beast-of-busco-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "makhluk air",
+    "claim_ids": [
+      "beast-of-busco-c01"
+    ]
+  },
+  "classification": {
+    "value": "aquatic",
+    "claim_ids": [
+      "beast-of-busco-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-american",
+    "suggested_new": null,
+    "claim_ids": [
+      "beast-of-busco-c01"
+    ]
+  },
+  "region": {
+    "value": "north-america",
+    "claim_ids": [
+      "beast-of-busco-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "water",
+      "claim_ids": [
+        "beast-of-busco-c01"
+      ]
+    }
+  ],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Beast of Busco adalah kura-kura penggigit raksasa dalam cerita rakyat Indiana [beast-of-busco-c01].",
+    "en": "The Beast of Busco is a giant snapping turtle of Indiana folklore [beast-of-busco-c01].",
+    "claim_ids": [
+      "beast-of-busco-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Beast of Busco adalah makhluk legenda Indiana berupa kura-kura penggigit yang sangat besar [beast-of-busco-c01]. Penampakannya pada tahun 1949 dekat Churubusco memicu pencarian sebulan yang menarik perhatian nasional [beast-of-busco-c02], tetapi tidak ada bukti yang ditemukan [beast-of-busco-c03].",
+      "en": "The Beast of Busco is a legendary Indiana creature, a huge snapping turtle [beast-of-busco-c01]. A 1949 sighting near Churubusco prompted a month-long, nationally watched search [beast-of-busco-c02], but no evidence was found [beast-of-busco-c03].",
+      "claim_ids": [
+        "beast-of-busco-c01",
+        "beast-of-busco-c02",
+        "beast-of-busco-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [
+    {
+      "period": "1949",
+      "title": {
+        "id": "Pencarian sebulan",
+        "en": "Month-long search"
+      },
+      "description": {
+        "id": "Penampakan memicu pencarian yang menarik perhatian nasional.",
+        "en": "A sighting prompted a nationally watched search."
+      },
+      "earliest_attestation": false,
+      "claim_ids": [
+        "beast-of-busco-c02"
+      ]
+    }
+  ],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa pencarian monster bisa menarik perhatian satu negara?",
+      "en": "Why can a monster hunt capture a nation's attention?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "beast-of-busco-s1",
+      "url": "https://en.wikipedia.org/wiki/Beast_of_Busco",
+      "title": "Beast of Busco",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "beast-of-busco-c01",
+      "source_id": "beast-of-busco-s1",
+      "quote": "The Beast of Busco is a legendary creature in Indiana folklore, described as an unusually large snapping turtle.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Beast of Busco adalah makhluk legenda Indiana yang digambarkan sebagai kura-kura penggigit yang luar biasa besar.",
+        "en": "The Beast of Busco is a legendary Indiana creature described as an unusually large snapping turtle."
+      }
+    },
+    {
+      "id": "beast-of-busco-c02",
+      "source_id": "beast-of-busco-s1",
+      "quote": "It was reportedly sighted by local residents near Churubusco, Indiana, in 1949, prompting a month-long search that attracted national attention.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Warga melaporkan melihatnya dekat Churubusco, Indiana, pada tahun 1949, memicu pencarian sebulan yang menarik perhatian nasional.",
+        "en": "Residents reported it near Churubusco, Indiana, in 1949, prompting a month-long search with national attention."
+      }
+    },
+    {
+      "id": "beast-of-busco-c03",
+      "source_id": "beast-of-busco-s1",
+      "quote": "Despite extensive efforts to locate the animal, no conclusive evidence of its existence was found.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Meski dicari habis-habisan, tidak ada bukti pasti keberadaannya.",
+        "en": "Despite great efforts, no conclusive evidence was found."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-144",
+  "slug": "bessie-lake-monster",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Bessie (lake monster)",
+    "native_name": null,
+    "display_name": {
+      "id": "Bessie",
+      "en": "Bessie"
+    },
+    "wikidata_qid": "Q830188",
+    "claim_ids": [
+      "bessie-lake-monster-c01"
+    ]
+  },
+  "alternate_names": [
+    {
+      "name": "South Bay Bessie",
+      "language": "en",
+      "name_type": "alias",
+      "claim_ids": [
+        "bessie-lake-monster-c01"
+      ]
+    },
+    {
+      "name": "The Lake Erie Monster",
+      "language": "en",
+      "name_type": "alias",
+      "claim_ids": [
+        "bessie-lake-monster-c01"
+      ]
+    }
+  ],
+  "jenis": {
+    "value": "kriptid",
+    "claim_ids": [
+      "bessie-lake-monster-c01"
+    ]
+  },
+  "classification": {
+    "value": "cryptid",
+    "claim_ids": [
+      "bessie-lake-monster-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-american",
+    "suggested_new": null,
+    "claim_ids": [
+      "bessie-lake-monster-c01"
+    ]
+  },
+  "region": {
+    "value": "north-america",
+    "claim_ids": [
+      "bessie-lake-monster-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "water",
+      "claim_ids": [
+        "bessie-lake-monster-c01"
+      ]
+    }
+  ],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Bessie adalah monster mirip ular di Danau Erie dalam cerita rakyat Ohio dan Michigan [bessie-lake-monster-c01, bessie-lake-monster-c03].",
+    "en": "Bessie is a snake-like Lake Erie monster of Ohio and Michigan folklore [bessie-lake-monster-c01, bessie-lake-monster-c03].",
+    "claim_ids": [
+      "bessie-lake-monster-c01",
+      "bessie-lake-monster-c03"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Bessie, juga disebut South Bay Bessie, adalah monster Danau Erie dalam cerita rakyat Ohio dan Michigan [bessie-lake-monster-c01]. Ia mirip ular, panjang 30 hingga 40 kaki, dan keabuan [bessie-lake-monster-c03]. Penampakan pertamanya tercatat pada tahun 1817 [bessie-lake-monster-c02].",
+      "en": "Bessie, also South Bay Bessie, is a Lake Erie monster of Ohio and Michigan folklore [bessie-lake-monster-c01]. It is snake-like, 30 to 40 ft long and grey [bessie-lake-monster-c03]. The first sighting was recorded in 1817 [bessie-lake-monster-c02].",
+      "claim_ids": [
+        "bessie-lake-monster-c01",
+        "bessie-lake-monster-c02",
+        "bessie-lake-monster-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [
+    {
+      "period": "1817",
+      "title": {
+        "id": "Penampakan pertama tercatat",
+        "en": "First recorded sighting"
+      },
+      "description": {
+        "id": "Penampakan pertama yang tercatat.",
+        "en": "The first recorded sighting."
+      },
+      "earliest_attestation": true,
+      "claim_ids": [
+        "bessie-lake-monster-c02"
+      ]
+    }
+  ],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa danau besar sering punya monster bernama julukan?",
+      "en": "Why do big lakes often have nicknamed monsters?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "bessie-lake-monster-s1",
+      "url": "https://en.wikipedia.org/wiki/Bessie_(lake_monster)",
+      "title": "Bessie (lake monster)",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "bessie-lake-monster-c01",
+      "source_id": "bessie-lake-monster-s1",
+      "quote": "In northeastern Ohio and Michigan folklore, Bessie is a name given to a lake monster in Lake Erie, also known as South Bay Bessie or simply The Lake Erie Monster.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam cerita rakyat Ohio timur laut dan Michigan, Bessie adalah monster Danau Erie, juga disebut South Bay Bessie atau The Lake Erie Monster.",
+        "en": "In northeastern Ohio and Michigan folklore, Bessie is a Lake Erie monster, also called South Bay Bessie or The Lake Erie Monster."
+      }
+    },
+    {
+      "id": "bessie-lake-monster-c02",
+      "source_id": "bessie-lake-monster-s1",
+      "quote": "The first recorded sighting of Bessie occurred in 1817",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Penampakan Bessie pertama yang tercatat terjadi pada tahun 1817.",
+        "en": "The first recorded sighting was in 1817."
+      }
+    },
+    {
+      "id": "bessie-lake-monster-c03",
+      "source_id": "bessie-lake-monster-s1",
+      "quote": "Bessie is reported to be snake-like and 30 to 40 ft (9.1 to 12.2 m) long, at least a foot in diameter, with a grayish color.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Bessie dilaporkan mirip ular, panjang 30 hingga 40 kaki, dan berwarna keabuan.",
+        "en": "Bessie is reported as snake-like, 30 to 40 ft long and greyish."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-144",
+  "slug": "cadejo",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Cadejo",
+    "native_name": null,
+    "display_name": {
+      "id": "Cadejo",
+      "en": "Cadejo"
+    },
+    "wikidata_qid": "Q5016347",
+    "claim_ids": [
+      "cadejo-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "roh",
+    "claim_ids": [
+      "cadejo-c01"
+    ]
+  },
+  "classification": {
+    "value": "spirit",
+    "claim_ids": [
+      "cadejo-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-hispanic-mesoamerican",
+    "suggested_new": null,
+    "claim_ids": [
+      "cadejo-c01"
+    ]
+  },
+  "region": {
+    "value": "central-america",
+    "claim_ids": [
+      "cadejo-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "fields",
+      "claim_ids": [
+        "cadejo-c02"
+      ]
+    }
+  ],
+  "disposition": {
+    "value": "ambivalent",
+    "claim_ids": [
+      "cadejo-c03"
+    ]
+  },
+  "traits": [
+    {
+      "value": "nocturnal",
+      "claim_ids": [
+        "cadejo-c02"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "Cadejo adalah roh berwujud anjing dari cerita rakyat Amerika Tengah yang muncul di jalan sepi pada malam hari [cadejo-c01, cadejo-c02].",
+    "en": "The cadejo is a dog-like spirit of Central American folklore that appears on lonely roads at night [cadejo-c01, cadejo-c02].",
+    "claim_ids": [
+      "cadejo-c01",
+      "cadejo-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Cadejo adalah roh gaib berasal pribumi dalam cerita rakyat Amerika Tengah, berwujud anjing bermata biru saat tenang dan merah saat bermusuhan [cadejo-c01]. Ia berkeliaran di jalan sepi pada malam hari [cadejo-c02]. Cadejo putih melindungi pelancong, sedangkan cadejo hitam berusaha membunuh mereka [cadejo-c03].",
+      "en": "The cadejo is a supernatural spirit of indigenous origin in Central American folklore, dog-like with blue eyes when calm and red when hostile [cadejo-c01]. It wanders lonely roads at night [cadejo-c02]. The white cadejo protects travelers; the black one tries to kill them [cadejo-c03].",
+      "claim_ids": [
+        "cadejo-c01",
+        "cadejo-c02",
+        "cadejo-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [
+    {
+      "name": "Cadejo putih",
+      "tradition": {
+        "id": "Cerita rakyat",
+        "en": "Folklore"
+      },
+      "description": {
+        "id": "Melindungi pelancong.",
+        "en": "Protects travelers."
+      },
+      "claim_ids": [
+        "cadejo-c03"
+      ]
+    },
+    {
+      "name": "Cadejo hitam",
+      "tradition": {
+        "id": "Cerita rakyat",
+        "en": "Folklore"
+      },
+      "description": {
+        "id": "Berusaha membunuh pelancong.",
+        "en": "Tries to kill travelers."
+      },
+      "claim_ids": [
+        "cadejo-c03"
+      ]
+    }
+  ],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa makna pasangan roh baik dan jahat dalam kisah cadejo?",
+      "en": "What does the good/evil pair mean in the cadejo tale?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "cadejo-s1",
+      "url": "https://en.wikipedia.org/wiki/Cadejo",
+      "title": "Cadejo",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "cadejo-c01",
+      "source_id": "cadejo-s1",
+      "quote": "is a supernatural spirit in Central American folklore of indigenous origin. It is commonly depicted as a dog-like creature with blue eyes when calm and red eyes when hostile.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Cadejo adalah roh gaib dari cerita rakyat Amerika Tengah berasal pribumi, digambarkan seperti anjing bermata biru saat tenang dan merah saat bermusuhan.",
+        "en": "The cadejo is a supernatural spirit of Central American folklore of indigenous origin, a dog-like creature with blue eyes when calm and red when hostile."
+      }
+    },
+    {
+      "id": "cadejo-c02",
+      "source_id": "cadejo-s1",
+      "quote": "According to legend, it wanders along isolated roads at night.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Menurut legenda, ia berkeliaran di jalan-jalan sepi pada malam hari.",
+        "en": "Legend says it wanders lonely roads at night."
+      }
+    },
+    {
+      "id": "cadejo-c03",
+      "source_id": "cadejo-s1",
+      "quote": "The white cadejo protects travelers from harm and danger, while the black cadejo attempts to kill them",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Cadejo putih melindungi pelancong dari bahaya, sedangkan cadejo hitam berusaha membunuh mereka.",
+        "en": "The white cadejo protects travelers, while the black cadejo tries to kill them."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
