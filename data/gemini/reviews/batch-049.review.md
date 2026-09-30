@@ -1,8 +1,8 @@
 # Review batch-049
 
-Diperiksa 2026-09-30T06:52:01.124Z. Berkas: batch-049.md.
+Diperiksa 2026-09-30T06:57:15.646Z. Berkas: batch-049.md.
 
-**Belum dikirim:** abura-sumashi, obake, zashiki-warashi, amanojaku, sojobo, toyotama-hime, tsuchigumo, ubume, ugayafukiaezu, ushi-oni
+**Belum dikirim:** zashiki-warashi, amanojaku, sojobo, toyotama-hime, tsuchigumo, ubume, ugayafukiaezu, ushi-oni
 
 ## susanoo — lulus-otomatis
 
@@ -681,4 +681,38 @@ Klaim 12 (exact 12), sumber 2, gambar 0.
 | swan-maiden-c10 | exact | sites.pitt.edu | The fisherman returns the robe and the maiden rises into the air. | Thereupon Hakurioo handed her the feathery robe. She immediately put it on and rose into the air. |
 | swan-maiden-c11 | exact | sites.pitt.edu | The daughter finds the feather robe and brings it to her mother. | One day her little daughter was playing at hide-and-seek with her brother, and she went behind the wainscoting to hide herself, and found there a robe all made of feathers, and took it to her mother. |
 | swan-maiden-c12 | exact | sites.pitt.edu | She puts on the robe and flies away. | As soon as she saw it she put it on and said to her daughter, "Tell father that if he wishes to see me again he must find me in the Land East o' the Sun and West o' the Moon;" and with that she flew away. |
+
+
+## abura-sumashi — lulus-otomatis
+
+Klaim 9 (exact 9), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| abura-sumashi-c01 | exact | kumamoto.coamix.co.jp | Abura-sumashi is a yōkai from Amakusa folklore. | The third is “Aburasumashi.” A yokai from Amakusa folklore, it is said that when an elderly woman remarked |
+| abura-sumashi-c02 | exact | fukusakikankou.jp | It is said to appear on mountain paths carrying an oil jar. | This creature is said to appear on mountain paths, carrying an oil jar. |
+| abura-sumashi-c03 | exact | fukusakikankou.jp | A tourism account has a grandmother and grandchild recall an oil-jar bearer. | An old woman was walking with her grandchild when she remarked, “Long ago, something carrying an oil jar would appear here.” |
+| abura-sumashi-c04 | exact | fukusakikankou.jp | In that telling the grandchild replies and the creature appears. | The grandchild replied, “It still appears now,” and at that moment, the creature appeared. |
+| abura-sumashi-c05 | exact | kumamoto.coamix.co.jp | Another telling says the creature itself answers the woman. | it is said that when an elderly woman remarked, “Long ago, there used to be Aburasumashi here,” it called out to her, saying, “I am still here now.” |
+| abura-sumashi-c06 | exact | kumamoto.coamix.co.jp | Its traditional appearance has not been passed down clearly. | Although its traditional appearance has not been passed down |
+| abura-sumashi-c07 | exact | kumamoto.coamix.co.jp | Shigeru Mizuki’s illustration is widely known. | the illustration drawn by Shigeru Mizuki is widely known. |
+| abura-sumashi-c08 | exact | fukusakikankou.jp | The tourism association labels its account as excerpts from Kunio Yanagita’s books. | Excerpts from the books of Kunio Yanagita |
+| abura-sumashi-c09 | exact | fukusakikankou.jp | The tourism association locates this story on Kumamoto mountain paths. | Kumamoto Prefecture / Mountain Paths |
+
+
+## obake — lulus-otomatis
+
+Klaim 9 (exact 9), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| obake-c01 | exact | www.ijlll.org | Obake and bakemono are Japanese terms for a class of yōkai. | Bakemono (化け物) or obake (お化け) are Japanese terms for a class of yōkai: preternatural creatures of indigenous folklore. |
+| obake-c02 | exact | www.ijlll.org | English renderings include apparitions, monsters, and ghosts. | In English they might be referred to as apparitions, phantoms, goblins, monsters, or ghosts. |
+| obake-c03 | exact | www.ijlll.org | Bakemono literally refers to things that change or transform. | In the literal sense, bakemono are things that change, referring to a state of transformation or shapeshifting. |
+| obake-c04 | exact | www.ashmolean.org | The museum glosses obake as something transformed. | Obake, the Japanese word for ghost, means ‘something that is transformed’. |
+| obake-c05 | exact | www.ashmolean.org | The museum lists animated objects, supernatural animals, demons, and vengeful spirits. | There are many kinds of ghosts in Japan, including household objects that come to life, animals with supernatural powers, wicked demons and the vengeful spirits of cruelly-wronged women. |
+| obake-c06 | exact | japansociety.org | People, animals, and neglected objects can become obake; the object form is called tsukumogami. | People, animals, even inanimate objects such as neglected or abandoned containers can become obake (this type of obake is known as a tsukumogami and appears often in Japanese folklore). |
+| obake-c07 | exact | www.ashmolean.org | Related beings appear in paintings, prints, netsuke, and kabuki. | These beings have long been represented in Japanese art and literature – depicted in paintings and prints, carved as netsuke belt toggles and dramatized for the kabuki theatre. |
+| obake-c08 | exact | www.ashmolean.org | The museum’s ukiyo-e prints date to the mid-nineteenth century. | The ukiyo-e woodblock prints shown here all date from the mid-19th century |
+| obake-c09 | exact | japansociety.org | Japan Society notes a broadened use of obake for American-style ghouls. | the term obake has lost much of its original meaning, and now commonly refers to standard American ghouls. |
 

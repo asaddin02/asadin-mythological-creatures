@@ -9612,3 +9612,484 @@
 }
 ```
 
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "abura-sumashi",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Abura-sumashi",
+    "native_name": null,
+    "display_name": {
+      "id": "Abura-sumashi",
+      "en": "Abura-sumashi"
+    },
+    "wikidata_qid": "Q2732289",
+    "claim_ids": [
+      "abura-sumashi-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "abura-sumashi-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "abura-sumashi-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "abura-sumashi-c01",
+      "abura-sumashi-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "abura-sumashi-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Abura-sumashi adalah yōkai dari cerita pegunungan Amakusa yang dikaitkan dengan suara dan guci minyak.",
+    "en": "Abura-sumashi is a yōkai of Amakusa mountain stories associated with a voice and an oil jar.",
+    "claim_ids": [
+      "abura-sumashi-c01",
+      "abura-sumashi-c02",
+      "abura-sumashi-c05"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Abura-sumashi berasal dari cerita rakyat Amakusa di Kumamoto tentang sosok yang disebut muncul di jalur gunung sambil membawa guci minyak. Satu versi menceritakan nenek yang berjalan bersama cucunya dan mengingat penampakan masa lalu; cucunya berkata bahwa sosok itu masih muncul, lalu ia tampak. Versi lain mengisahkan si nenek menyebut namanya, kemudian sebuah suara menjawab bahwa ia masih ada. Kedua penceritaan menekankan respons tiba-tiba di tempat yang sama, tetapi berbeda tentang siapa yang mengucapkan jawaban.",
+      "en": "Abura-sumashi comes from Amakusa folklore in Kumamoto about a presence said to appear on mountain paths carrying an oil jar. In one telling, a grandmother walking with her grandchild recalls a past sighting; the grandchild says it still appears, and the creature appears. Another telling has the old woman mention its name and a voice reply that it is still there. Both emphasize an unexpected response, while differing over who says the words.",
+      "claim_ids": [
+        "abura-sumashi-c01",
+        "abura-sumashi-c02",
+        "abura-sumashi-c03",
+        "abura-sumashi-c04",
+        "abura-sumashi-c05",
+        "abura-sumashi-c09"
+      ]
+    },
+    {
+      "id": "Bentuk aslinya tidak diwariskan dengan jelas menurut wawancara dengan peneliti yōkai setempat. Gambaran Abura-sumashi yang kini banyak dikenal berasal dari ilustrasi Shigeru Mizuki. Karena itu, rupa yang sering ditemui dalam media modern tidak dapat langsung dianggap sebagai deskripsi dari cerita lisan lama. Sebuah asosiasi wisata juga mengaitkan kisah makhluk pembawa guci minyak ini dengan kutipan dari buku folkloris Kunio Yanagita.",
+      "en": "According to an interview with a local yōkai researcher, its traditional appearance has not been handed down clearly. A widely known image of Abura-sumashi comes from an illustration by Shigeru Mizuki. The familiar modern appearance should therefore not be treated as a definite description from the older oral tale. A tourism association also connects the oil-jar story to excerpts from books by folklorist Kunio Yanagita.",
+      "claim_ids": [
+        "abura-sumashi-c06",
+        "abura-sumashi-c07",
+        "abura-sumashi-c08"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "abura-sumashi-s1",
+      "url": "https://fukusakikankou.jp/en/yokai-bench-en/aburasumashi-2/",
+      "title": "Aburasumashi",
+      "author": null,
+      "publisher": "Fukusaki Town Tourism Association",
+      "published": "2025-01-09",
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "abura-sumashi-s2",
+      "url": "https://kumamoto.coamix.co.jp/pomodoro/english/2191/",
+      "title": "If you get to know the three major characters, you will come to love Kumamoto even more. ③ Amabie",
+      "author": "Nakazawa Hanzo and Iwai Daiki",
+      "publisher": "Pomodoro / COAMIX",
+      "published": "2025-12-15",
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "abura-sumashi-c01",
+      "source_id": "abura-sumashi-s2",
+      "quote": "The third is “Aburasumashi.” A yokai from Amakusa folklore, it is said that when an elderly woman remarked",
+      "locator": "What are the Three Major Yokai of Kumamoto!?",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Abura-sumashi adalah yōkai dalam cerita rakyat Amakusa.",
+        "en": "Abura-sumashi is a yōkai from Amakusa folklore."
+      }
+    },
+    {
+      "id": "abura-sumashi-c02",
+      "source_id": "abura-sumashi-s1",
+      "quote": "This creature is said to appear on mountain paths, carrying an oil jar.",
+      "locator": "Excerpts from the books of Kunio Yanagita",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia dikisahkan muncul di jalur gunung dengan guci minyak.",
+        "en": "It is said to appear on mountain paths carrying an oil jar."
+      }
+    },
+    {
+      "id": "abura-sumashi-c03",
+      "source_id": "abura-sumashi-s1",
+      "quote": "An old woman was walking with her grandchild when she remarked, “Long ago, something carrying an oil jar would appear here.”",
+      "locator": "Aburasumashi",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Versi asosiasi wisata menyebut nenek bersama cucunya mengingat sosok pembawa guci minyak.",
+        "en": "A tourism account has a grandmother and grandchild recall an oil-jar bearer."
+      }
+    },
+    {
+      "id": "abura-sumashi-c04",
+      "source_id": "abura-sumashi-s1",
+      "quote": "The grandchild replied, “It still appears now,” and at that moment, the creature appeared.",
+      "locator": "Aburasumashi",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam versi itu sang cucu menjawab dan makhluk muncul.",
+        "en": "In that telling the grandchild replies and the creature appears."
+      }
+    },
+    {
+      "id": "abura-sumashi-c05",
+      "source_id": "abura-sumashi-s2",
+      "quote": "it is said that when an elderly woman remarked, “Long ago, there used to be Aburasumashi here,” it called out to her, saying, “I am still here now.”",
+      "locator": "What are the Three Major Yokai of Kumamoto!?",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Versi lain mengatakan makhluk itulah yang menjawab ucapan nenek.",
+        "en": "Another telling says the creature itself answers the woman."
+      }
+    },
+    {
+      "id": "abura-sumashi-c06",
+      "source_id": "abura-sumashi-s2",
+      "quote": "Although its traditional appearance has not been passed down",
+      "locator": "What are the Three Major Yokai of Kumamoto!?",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Rupa tradisional Abura-sumashi tidak diwariskan dengan jelas.",
+        "en": "Its traditional appearance has not been passed down clearly."
+      }
+    },
+    {
+      "id": "abura-sumashi-c07",
+      "source_id": "abura-sumashi-s2",
+      "quote": "the illustration drawn by Shigeru Mizuki is widely known.",
+      "locator": "What are the Three Major Yokai of Kumamoto!?",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ilustrasi Shigeru Mizuki dikenal luas.",
+        "en": "Shigeru Mizuki’s illustration is widely known."
+      }
+    },
+    {
+      "id": "abura-sumashi-c08",
+      "source_id": "abura-sumashi-s1",
+      "quote": "Excerpts from the books of Kunio Yanagita",
+      "locator": "Heading",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Asosiasi wisata mengaitkan uraian tersebut dengan buku Kunio Yanagita.",
+        "en": "The tourism association labels its account as excerpts from Kunio Yanagita’s books."
+      }
+    },
+    {
+      "id": "abura-sumashi-c09",
+      "source_id": "abura-sumashi-s1",
+      "quote": "Kumamoto Prefecture / Mountain Paths",
+      "locator": "Regions and Locations Associated with This Yokai",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Asosiasi wisata menempatkan kisah ini di jalur gunung Prefektur Kumamoto.",
+        "en": "The tourism association locates this story on Kumamoto mountain paths."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "obake",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Obake",
+    "native_name": null,
+    "display_name": {
+      "id": "Obake",
+      "en": "Obake"
+    },
+    "wikidata_qid": "Q1639284",
+    "claim_ids": [
+      "obake-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "obake-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "obake-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "obake-c01",
+      "obake-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "obake-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Obake adalah istilah Jepang bagi makhluk gaib atau penampakan yang berkaitan dengan perubahan bentuk.",
+    "en": "Obake is a Japanese term for supernatural beings or apparitions associated with transformation.",
+    "claim_ids": [
+      "obake-c01",
+      "obake-c02",
+      "obake-c04"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Obake bukan nama satu makhluk, melainkan sebutan bagi kelompok penampakan atau yōkai. Makna harfiahnya berkaitan dengan sesuatu yang berubah; terjemahan Inggris dapat berupa hantu, monster, atau penampakan. Sumber museum menyebut cakupannya luas: benda rumah tangga yang hidup, hewan berkekuatan gaib, setan, dan roh pendendam. Dalam penjelasan Japan Society, manusia, hewan, bahkan benda yang ditinggalkan dapat menjadi obake; contoh benda itu disebut tsukumogami.",
+      "en": "Obake is a category, not the name of one creature. Its literal sense relates to something transformed; English renderings include ghost, monster, or apparition. A museum account gives a broad range: animated household objects, supernatural animals, demons, and vengeful spirits. Japan Society explains that people, animals, and abandoned objects can become obake; the object type is called tsukumogami.",
+      "claim_ids": [
+        "obake-c01",
+        "obake-c02",
+        "obake-c03",
+        "obake-c04",
+        "obake-c05",
+        "obake-c06"
+      ]
+    },
+    {
+      "id": "Luasnya pemakaian kata ini membuatnya sukar dipadankan tepat dengan satu golongan makhluk. Sebuah kajian bahasa menempatkan obake dan bakemono sebagai istilah Jepang untuk golongan yōkai yang terkait perubahan wujud. Museum menerangkan makhluk seperti itu sudah lama hadir dalam lukisan, cetakan, ukiran netsuke, dan panggung kabuki; cetakan yang dibahasnya berasal dari pertengahan abad ke-19. Japan Society juga mencatat bahwa dalam pemakaian masa kini kata obake bisa merujuk lebih luas pada sosok seram, termasuk gambaran horor yang datang dari luar Jepang.",
+      "en": "The word’s broad use makes it difficult to match with one fixed creature class. A language study places obake and bakemono among Japanese terms for yōkai associated with transformation. A museum notes depictions in paintings, prints, netsuke carvings, and kabuki, including mid-nineteenth-century prints. Japan Society also reports broader current use of obake for spooky figures, including imported horror imagery.",
+      "claim_ids": [
+        "obake-c01",
+        "obake-c03",
+        "obake-c07",
+        "obake-c08",
+        "obake-c09"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "obake-s1",
+      "url": "https://www.ijlll.org/index.php?a=show&c=index&catid=49&id=416&m=content",
+      "title": "Translation as ‘Bakemono’: Shapeshifters of the Meiji Era (1868-1912)",
+      "author": "Daniel J. Wyatt",
+      "publisher": "International Journal of Languages, Literature and Linguistics",
+      "published": "2017",
+      "language": "en",
+      "type": "journal-article",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "obake-s2",
+      "url": "https://www.ashmolean.org/event/japanese-ghosts-and-demons-ukiyo-e-prints-from-the-ashmolean",
+      "title": "Japanese Ghosts and Demons",
+      "author": null,
+      "publisher": "Ashmolean Museum, University of Oxford",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "obake-s3",
+      "url": "https://japansociety.org/news/japans-monsters-inc-getting-to-know-obake-yokai-yurei/",
+      "title": "Japan’s Monsters Inc.: Getting to Know Obake, Yokai & Yurei",
+      "author": "Mark Gallucci",
+      "publisher": "Japan Society",
+      "published": "2015-10-09",
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "obake-c01",
+      "source_id": "obake-s1",
+      "quote": "Bakemono (化け物) or obake (お化け) are Japanese terms for a class of yōkai: preternatural creatures of indigenous folklore.",
+      "locator": "Abstract",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Obake dan bakemono adalah istilah Jepang untuk suatu golongan yōkai.",
+        "en": "Obake and bakemono are Japanese terms for a class of yōkai."
+      }
+    },
+    {
+      "id": "obake-c02",
+      "source_id": "obake-s1",
+      "quote": "In English they might be referred to as apparitions, phantoms, goblins, monsters, or ghosts.",
+      "locator": "Abstract",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Terjemahan bahasa Inggris mencakup penampakan, monster, atau hantu.",
+        "en": "English renderings include apparitions, monsters, and ghosts."
+      }
+    },
+    {
+      "id": "obake-c03",
+      "source_id": "obake-s1",
+      "quote": "In the literal sense, bakemono are things that change, referring to a state of transformation or shapeshifting.",
+      "locator": "Abstract",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Makna harfiah bakemono mengacu pada sesuatu yang berubah.",
+        "en": "Bakemono literally refers to things that change or transform."
+      }
+    },
+    {
+      "id": "obake-c04",
+      "source_id": "obake-s2",
+      "quote": "Obake, the Japanese word for ghost, means ‘something that is transformed’.",
+      "locator": "Exhibition text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Museum menerangkan obake sebagai sesuatu yang berubah wujud.",
+        "en": "The museum glosses obake as something transformed."
+      }
+    },
+    {
+      "id": "obake-c05",
+      "source_id": "obake-s2",
+      "quote": "There are many kinds of ghosts in Japan, including household objects that come to life, animals with supernatural powers, wicked demons and the vengeful spirits of cruelly-wronged women.",
+      "locator": "Exhibition text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Museum mencakup benda hidup, hewan gaib, setan, dan roh pendendam dalam penjelasannya.",
+        "en": "The museum lists animated objects, supernatural animals, demons, and vengeful spirits."
+      }
+    },
+    {
+      "id": "obake-c06",
+      "source_id": "obake-s3",
+      "quote": "People, animals, even inanimate objects such as neglected or abandoned containers can become obake (this type of obake is known as a tsukumogami and appears often in Japanese folklore).",
+      "locator": "Article body",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Manusia, hewan, dan benda yang ditinggalkan dapat menjadi obake; jenis benda itu disebut tsukumogami.",
+        "en": "People, animals, and neglected objects can become obake; the object form is called tsukumogami."
+      }
+    },
+    {
+      "id": "obake-c07",
+      "source_id": "obake-s2",
+      "quote": "These beings have long been represented in Japanese art and literature – depicted in paintings and prints, carved as netsuke belt toggles and dramatized for the kabuki theatre.",
+      "locator": "Exhibition text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Obake dan makhluk terkait hadir dalam lukisan, cetakan, netsuke, serta kabuki.",
+        "en": "Related beings appear in paintings, prints, netsuke, and kabuki."
+      }
+    },
+    {
+      "id": "obake-c08",
+      "source_id": "obake-s2",
+      "quote": "The ukiyo-e woodblock prints shown here all date from the mid-19th century",
+      "locator": "Exhibition text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Cetakan ukiyo-e dalam pameran itu berasal dari pertengahan abad ke-19.",
+        "en": "The museum’s ukiyo-e prints date to the mid-nineteenth century."
+      }
+    },
+    {
+      "id": "obake-c09",
+      "source_id": "obake-s3",
+      "quote": "the term obake has lost much of its original meaning, and now commonly refers to standard American ghouls.",
+      "locator": "Article body",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Japan Society mencatat perluasan makna obake pada sosok seram bergaya Amerika.",
+        "en": "Japan Society notes a broadened use of obake for American-style ghouls."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
