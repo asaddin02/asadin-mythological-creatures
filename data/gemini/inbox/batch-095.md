@@ -4323,3 +4323,2000 @@
 }
 ```
 
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "adrasteia",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Adrasteia",
+    "native_name": null,
+    "display_name": {
+      "id": "Adrasteia",
+      "en": "Adrasteia"
+    },
+    "wikidata_qid": "Q4057954",
+    "claim_ids": [
+      "adrasteia-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "peri",
+    "claim_ids": [
+      "adrasteia-c01"
+    ]
+  },
+  "classification": {
+    "value": "fairy",
+    "claim_ids": [
+      "adrasteia-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "adrasteia-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "adrasteia-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": {
+    "value": "protective",
+    "claim_ids": [
+      "adrasteia-c01"
+    ]
+  },
+  "traits": [],
+  "short_description": {
+    "id": "Adrasteia adalah nimfa yang melindungi Zeus kecil dari Kronos [adrasteia-c01].",
+    "en": "Adrasteia is a nymph who protected the infant Zeus from Cronus [adrasteia-c01].",
+    "claim_ids": [
+      "adrasteia-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Adrasteia adalah nimfa yang ditugasi Rhea, bersama saudarinya Ida, melindungi Zeus kecil dari Kronos [adrasteia-c01]. Ia putri Ananke dan Melisse [adrasteia-c02].",
+      "en": "Adrasteia is a nymph charged by Rhea, with her sister Ida, to protect the infant Zeus from Cronus [adrasteia-c01]. She is the daughter of Ananke and Melisse [adrasteia-c02].",
+      "claim_ids": [
+        "adrasteia-c01",
+        "adrasteia-c02"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Zeus",
+      "relation_type": "associated",
+      "note": {
+        "id": "Ia melindungi Zeus kecil.",
+        "en": "She protected the infant Zeus."
+      },
+      "claim_ids": [
+        "adrasteia-c01"
+      ]
+    },
+    {
+      "target_name": "Ida",
+      "relation_type": "sibling",
+      "note": {
+        "id": "Saudarinya.",
+        "en": "Her sister."
+      },
+      "claim_ids": [
+        "adrasteia-c02"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa peran tokoh-tokoh minor dalam mitologi Yunani dan Romawi?",
+      "en": "What role do minor figures play in Greek and Roman myth?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "adrasteia-s1",
+      "url": "https://fr.wikipedia.org/wiki/Adrast%C3%A9e_(mythologie)",
+      "title": "Adrastée (mythologie)",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "fr",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "adrasteia-c01",
+      "source_id": "adrasteia-s1",
+      "quote": "est une nymphe que Rhéa a chargée, avec sa sœur Ida, de protéger Zeus enfant contre Cronos.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Adrasteia adalah nimfa yang ditugasi Rhea, bersama saudarinya Ida, melindungi Zeus kecil dari Kronos.",
+        "en": "Adrasteia is a nymph whom Rhea charged, with her sister Ida, to protect the infant Zeus from Cronus."
+      }
+    },
+    {
+      "id": "adrasteia-c02",
+      "source_id": "adrasteia-s1",
+      "quote": "C'est la fille d'Ananké et de Mélissé, ainsi que la sœur d'Ida.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia putri Ananke dan Melisse, serta saudari Ida.",
+        "en": "She is the daughter of Ananke and Melisse and sister of Ida."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Artikel yang ditautkan untuk item ini berbahasa Prancis; sumber primer tidak dibuka."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "ampelos",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Ampelos",
+    "native_name": null,
+    "display_name": {
+      "id": "Ampelos",
+      "en": "Ampelos"
+    },
+    "wikidata_qid": "Q474474",
+    "claim_ids": [
+      "ampelos-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "ampelos-c01"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "ampelos-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "ampelos-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "ampelos-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Ampelos adalah satir personifikasi pohon anggur, kekasih Dionysus [ampelos-c01, ampelos-c02].",
+    "en": "Ampelos is a satyr personifying the grapevine, beloved of Dionysus [ampelos-c01, ampelos-c02].",
+    "claim_ids": [
+      "ampelos-c01",
+      "ampelos-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Ampelos adalah personifikasi pohon anggur dan kekasih Dionysus [ampelos-c01], seorang satir yang kemudian diubah menjadi rasi bintang atau pohon anggur [ampelos-c02]. Menurut Nonnus, ia tewas ditanduk banteng setelah mengejek Selene [ampelos-c03].",
+      "en": "Ampelos was a personification of the grapevine and lover of Dionysus [ampelos-c01], a satyr later turned into a constellation or the vine [ampelos-c02]. According to Nonnus, a bull gored him after he mocked Selene [ampelos-c03].",
+      "claim_ids": [
+        "ampelos-c01",
+        "ampelos-c02",
+        "ampelos-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Dionysus",
+      "relation_type": "associated",
+      "note": {
+        "id": "Kekasihnya.",
+        "en": "His lover."
+      },
+      "claim_ids": [
+        "ampelos-c01"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa peran tokoh-tokoh minor dalam mitologi Yunani dan Romawi?",
+      "en": "What role do minor figures play in Greek and Roman myth?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "ampelos-s1",
+      "url": "https://en.wikipedia.org/wiki/Ampelos",
+      "title": "Ampelos",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "ampelos-c01",
+      "source_id": "ampelos-s1",
+      "quote": "was a personification of the grapevine and lover of  Dionysus in Greek and Bacchus in Roman mythology.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ampelos adalah personifikasi pohon anggur dan kekasih Dionysus (Bacchus).",
+        "en": "Ampelos was a personification of the grapevine and lover of Dionysus (Bacchus)."
+      }
+    },
+    {
+      "id": "ampelos-c02",
+      "source_id": "ampelos-s1",
+      "quote": "He was a satyr that Dionysus either turned into a constellation or the grape vine.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia seorang satir yang diubah Dionysus menjadi rasi bintang atau pohon anggur.",
+        "en": "He was a satyr whom Dionysus turned into a constellation or the grapevine."
+      }
+    },
+    {
+      "id": "ampelos-c03",
+      "source_id": "ampelos-s1",
+      "quote": "According to Nonnus, Ampelos was gored to death by a wild bull after he mocked the goddess Selene",
+      "locator": "Nonnus",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Menurut Nonnus, Ampelos tewas ditanduk banteng liar setelah mengejek dewi Selene.",
+        "en": "According to Nonnus, Ampelos was gored by a wild bull after mocking Selene."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "canens",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Canens",
+    "native_name": null,
+    "display_name": {
+      "id": "Canens",
+      "en": "Canens"
+    },
+    "wikidata_qid": "Q2261732",
+    "claim_ids": [
+      "canens-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "peri",
+    "claim_ids": [
+      "canens-c01"
+    ]
+  },
+  "classification": {
+    "value": "fairy",
+    "claim_ids": [
+      "canens-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-roman",
+    "suggested_new": null,
+    "claim_ids": [
+      "canens-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "canens-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Canens adalah nimfa personifikasi nyanyian dalam mitologi Romawi [canens-c01].",
+    "en": "Canens is the Roman nymph who personified song [canens-c01].",
+    "claim_ids": [
+      "canens-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Canens adalah personifikasi nyanyian, nimfa dari Latium, putri Janus dan Venilia [canens-c01]. Setelah enam hari mencari suaminya, ia menceburkan diri ke Sungai Tiber, menyanyikan lagu terakhir, dan mati [canens-c02].",
+      "en": "Canens was the personification of song, a nymph of Latium, daughter of Janus and Venilia [canens-c01]. After six days searching for her husband, she threw herself into the Tiber, sang a last song and died [canens-c02].",
+      "claim_ids": [
+        "canens-c01",
+        "canens-c02"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Janus",
+      "relation_type": "parent",
+      "note": {
+        "id": "Ayahnya.",
+        "en": "Her father."
+      },
+      "claim_ids": [
+        "canens-c01"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa peran tokoh-tokoh minor dalam mitologi Yunani dan Romawi?",
+      "en": "What role do minor figures play in Greek and Roman myth?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "canens-s1",
+      "url": "https://en.wikipedia.org/wiki/Canens_(mythology)",
+      "title": "Canens (mythology)",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "canens-c01",
+      "source_id": "canens-s1",
+      "quote": "In Roman mythology, Canens was the personification of song.  A nymph from Latium, she was the daughter of Janus and Venilia.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam mitologi Romawi, Canens adalah personifikasi nyanyian, nimfa dari Latium, putri Janus dan Venilia.",
+        "en": "In Roman mythology, Canens was the personification of song, a nymph of Latium, daughter of Janus and Venilia."
+      }
+    },
+    {
+      "id": "canens-c02",
+      "source_id": "canens-s1",
+      "quote": "Canens searched for her husband for six days and then threw herself into the Tiber river.  She sang one final song and then died.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Canens mencari suaminya selama enam hari, lalu menceburkan diri ke Sungai Tiber, menyanyikan lagu terakhir, dan mati.",
+        "en": "Canens searched six days for her husband, then threw herself into the Tiber, sang a last song and died."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "catoblepas",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Catoblepas",
+    "native_name": null,
+    "display_name": {
+      "id": "Catoblepas",
+      "en": "Catoblepas"
+    },
+    "wikidata_qid": "Q1636104",
+    "claim_ids": [
+      "catoblepas-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "hewan mitos",
+    "claim_ids": [
+      "catoblepas-c01"
+    ]
+  },
+  "classification": {
+    "value": "legendary-creature",
+    "claim_ids": [
+      "catoblepas-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "catoblepas-c01"
+    ]
+  },
+  "region": {
+    "value": "africa",
+    "claim_ids": [
+      "catoblepas-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Catoblepas adalah makhluk legenda dari Aethiopia yang tatapan atau napasnya dapat membunuh [catoblepas-c01, catoblepas-c02].",
+    "en": "The catoblepas is a legendary creature of Aethiopia whose stare or breath could kill [catoblepas-c01, catoblepas-c02].",
+    "claim_ids": [
+      "catoblepas-c01",
+      "catoblepas-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Catoblepas adalah makhluk legenda dari Aethiopia yang digambarkan Plinius Tua [catoblepas-c01]. Ia mirip kerbau dengan kepala selalu menunduk, dan tatapan atau napasnya dapat membunuh [catoblepas-c02]. Makhluk ini sering diduga berasal dari gnu [catoblepas-c03].",
+      "en": "The catoblepas is a legendary creature of Aethiopia described by Pliny the Elder [catoblepas-c01]. It resembles a buffalo with its head always hanging, and its stare or breath could kill [catoblepas-c02]. It is often thought based on the wildebeest [catoblepas-c03].",
+      "claim_ids": [
+        "catoblepas-c01",
+        "catoblepas-c02",
+        "catoblepas-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [
+    {
+      "ability_id": "curse",
+      "name": {
+        "id": "Tatapan maut",
+        "en": "Deadly gaze"
+      },
+      "description": {
+        "id": "Tatapan atau napasnya dapat membunuh.",
+        "en": "Its stare or breath could kill."
+      },
+      "claim_ids": [
+        "catoblepas-c02"
+      ]
+    }
+  ],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Bagaimana hewan nyata bisa berubah menjadi makhluk legenda?",
+      "en": "How can real animals become legendary creatures?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "catoblepas-s1",
+      "url": "https://en.wikipedia.org/wiki/Catoblepas",
+      "title": "Catoblepas",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "catoblepas-c01",
+      "source_id": "catoblepas-s1",
+      "quote": "is a legendary creature from Aethiopia, first described by Pliny the Elder and later by Claudius Aelianus.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Catoblepas adalah makhluk legenda dari Aethiopia yang pertama kali digambarkan Plinius Tua lalu Claudius Aelianus.",
+        "en": "The catoblepas is a legendary creature of Aethiopia first described by Pliny the Elder and later Claudius Aelianus."
+      }
+    },
+    {
+      "id": "catoblepas-c02",
+      "source_id": "catoblepas-s1",
+      "quote": "One known description of the Catoblepas is said to resemble a cape buffalo, with its head always pointing downwards due to its great weight. Its stare or breath could kill people.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Salah satu gambarannya mirip kerbau Afrika dengan kepala selalu menunduk karena beratnya; tatapan atau napasnya dapat membunuh.",
+        "en": "One description likens it to a cape buffalo whose heavy head always hangs down; its stare or breath could kill."
+      }
+    },
+    {
+      "id": "catoblepas-c03",
+      "source_id": "catoblepas-s1",
+      "quote": "The catoblepas is often thought to be based on real-life encounters with wildebeest",
+      "locator": "Introduction",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Catoblepas sering diduga berasal dari pertemuan nyata dengan gnu.",
+        "en": "It is often thought to be based on encounters with wildebeest."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "delphyne",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Delphyne",
+    "native_name": null,
+    "display_name": {
+      "id": "Delphyne",
+      "en": "Delphyne"
+    },
+    "wikidata_qid": "Q903606",
+    "claim_ids": [
+      "delphyne-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "naga/ular mitos",
+    "claim_ids": [
+      "delphyne-c01"
+    ]
+  },
+  "classification": {
+    "value": "dragon",
+    "claim_ids": [
+      "delphyne-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "delphyne-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "delphyne-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Delphyne adalah ular betina raksasa yang dibunuh Apollo di Delphi [delphyne-c01, delphyne-c02].",
+    "en": "Delphyne is the monstrous she-serpent Apollo killed at Delphi [delphyne-c01, delphyne-c02].",
+    "claim_ids": [
+      "delphyne-c01",
+      "delphyne-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Delphyne adalah nama ular raksasa yang dibunuh Apollo di Delphi menurut sebagian kisah [delphyne-c01]. Dalam Himne Homeros untuk Apollo, ular betina itu belum bernama dan baru kemudian disebut Delphyne [delphyne-c02]. Menurut Suda, nama Delphi berasal darinya [delphyne-c03].",
+      "en": "Delphyne is, in some accounts, the serpent Apollo killed at Delphi [delphyne-c01]. In the Homeric Hymn to Apollo the she-serpent is nameless and only later called Delphyne [delphyne-c02]. According to the Suda, Delphi is named after her [delphyne-c03].",
+      "claim_ids": [
+        "delphyne-c01",
+        "delphyne-c02",
+        "delphyne-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [
+    {
+      "name": {
+        "id": "Delphi",
+        "en": "Delphi"
+      },
+      "type": "temple",
+      "description": {
+        "id": "Tempat ia dibunuh Apollo.",
+        "en": "Where Apollo killed her."
+      },
+      "claim_ids": [
+        "delphyne-c01"
+      ]
+    }
+  ],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Apollo",
+      "relation_type": "enemy",
+      "note": {
+        "id": "Dewa yang membunuhnya.",
+        "en": "The god who killed her."
+      },
+      "claim_ids": [
+        "delphyne-c01"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa kuil-kuil besar sering dikaitkan dengan kemenangan atas monster?",
+      "en": "Why are great shrines tied to victories over monsters?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "delphyne-s1",
+      "url": "https://en.wikipedia.org/wiki/Delphyne",
+      "title": "Delphyne",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "delphyne-c01",
+      "source_id": "delphyne-s1",
+      "quote": "is the name given, by some accounts, to the monstrous serpent killed by Apollo at Delphi.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Delphyne adalah nama, menurut sebagian kisah, bagi ular raksasa yang dibunuh Apollo di Delphi.",
+        "en": "Delphyne is, in some accounts, the name of the monstrous serpent Apollo killed at Delphi."
+      }
+    },
+    {
+      "id": "delphyne-c02",
+      "source_id": "delphyne-s1",
+      "quote": "in the earliest known account of this story, the Homeric Hymn to Apollo (6th century BC), the god kills a nameless she-serpent (drakaina), subsequently called Delphyne.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Dalam kisah tertua, Himne Homeros untuk Apollo (abad ke-6 SM), sang dewa membunuh ular betina tanpa nama yang kemudian disebut Delphyne.",
+        "en": "In the earliest account, the Homeric Hymn to Apollo (6th century BC), the god kills a nameless she-serpent later called Delphyne."
+      }
+    },
+    {
+      "id": "delphyne-c03",
+      "source_id": "delphyne-s1",
+      "quote": "According to the Suda, Delphi was named after Delphyne.",
+      "locator": "Introduction",
+      "context": "etymology",
+      "statement": {
+        "id": "Menurut Suda, nama Delphi berasal dari Delphyne.",
+        "en": "According to the Suda, Delphi was named after Delphyne."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "dragons-in-greek-mythology",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Dragons in Greek mythology",
+    "native_name": null,
+    "display_name": {
+      "id": "Naga dalam mitologi Yunani",
+      "en": "Naga dalam mitologi Yunani"
+    },
+    "wikidata_qid": "Q1401491",
+    "claim_ids": [
+      "dragons-in-greek-mythology-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "naga/ular mitos",
+    "claim_ids": [
+      "dragons-in-greek-mythology-c01"
+    ]
+  },
+  "classification": {
+    "value": "dragon",
+    "claim_ids": [
+      "dragons-in-greek-mythology-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "dragons-in-greek-mythology-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "dragons-in-greek-mythology-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Naga (drakōn) berperan penting dalam mitologi Yunani dan menjadi asal kata \"dragon\" [dragons-in-greek-mythology-c01, dragons-in-greek-mythology-c02].",
+    "en": "Dragons (drakōn) play a significant role in Greek mythology and gave us the word \"dragon\" [dragons-in-greek-mythology-c01, dragons-in-greek-mythology-c02].",
+    "claim_ids": [
+      "dragons-in-greek-mythology-c01",
+      "dragons-in-greek-mythology-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Naga berperan penting dalam mitologi Yunani [dragons-in-greek-mythology-c01]. Drakōn Yunani berbeda dari naga Barat modern, tetapi menjadi asal kata \"dragon\" [dragons-in-greek-mythology-c02], dan awalnya dipakai untuk ular besar pembelit [dragons-in-greek-mythology-c03].",
+      "en": "Dragons play a significant role in Greek mythology [dragons-in-greek-mythology-c01]. The Greek drakōn differs from the modern Western dragon but is the word's origin [dragons-in-greek-mythology-c02], first used for large constricting snakes [dragons-in-greek-mythology-c03].",
+      "claim_ids": [
+        "dragons-in-greek-mythology-c01",
+        "dragons-in-greek-mythology-c02",
+        "dragons-in-greek-mythology-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": {
+    "original_form": "drakōn",
+    "language": "Ancient Greek",
+    "literal_meaning": {
+      "id": "ular besar",
+      "en": "large snake"
+    },
+    "claim_ids": [
+      "dragons-in-greek-mythology-c03"
+    ]
+  },
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Bagaimana gambaran naga berubah dari Yunani kuno ke masa kini?",
+      "en": "How has the dragon changed from ancient Greece to today?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "dragons-in-greek-mythology-s1",
+      "url": "https://en.wikipedia.org/wiki/Dragons_in_Greek_mythology",
+      "title": "Dragons in Greek mythology",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "dragons-in-greek-mythology-c01",
+      "source_id": "dragons-in-greek-mythology-s1",
+      "quote": "play a significant role in Greek mythology.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Naga berperan penting dalam mitologi Yunani.",
+        "en": "Dragons play a significant role in Greek mythology."
+      }
+    },
+    {
+      "id": "dragons-in-greek-mythology-c02",
+      "source_id": "dragons-in-greek-mythology-s1",
+      "quote": "Though the Greek drakōn often differs from the modern Western conception of a dragon, it is both the etymological origin of the modern term",
+      "locator": "Introduction",
+      "context": "etymology",
+      "statement": {
+        "id": "Drakōn Yunani berbeda dari naga Barat modern, tetapi menjadi asal kata \"dragon\".",
+        "en": "The Greek drakōn differs from the modern Western dragon but is the origin of the word."
+      }
+    },
+    {
+      "id": "dragons-in-greek-mythology-c03",
+      "source_id": "dragons-in-greek-mythology-s1",
+      "quote": "Ancient Greeks applied the term to large, constricting snakes.",
+      "locator": "Origins",
+      "context": "etymology",
+      "statement": {
+        "id": "Orang Yunani kuno memakai istilah itu untuk ular besar pembelit.",
+        "en": "Ancient Greeks used the term for large constricting snakes."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "ichthyocentaur",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Ichthyocentaur",
+    "native_name": null,
+    "display_name": {
+      "id": "Ichthyocentaur",
+      "en": "Ichthyocentaur"
+    },
+    "wikidata_qid": "Q723865",
+    "claim_ids": [
+      "ichthyocentaur-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "makhluk campuran",
+    "claim_ids": [
+      "ichthyocentaur-c01"
+    ]
+  },
+  "classification": {
+    "value": "hybrid",
+    "claim_ids": [
+      "ichthyocentaur-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "ichthyocentaur-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "ichthyocentaur-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "water",
+      "claim_ids": [
+        "ichthyocentaur-c01"
+      ]
+    }
+  ],
+  "disposition": null,
+  "traits": [
+    {
+      "value": "aquatic",
+      "claim_ids": [
+        "ichthyocentaur-c01"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "Ichthyocentaur adalah makhluk laut campuran manusia, kuda, dan ikan [ichthyocentaur-c01].",
+    "en": "The ichthyocentaur is a sea being combining human, horse and fish [ichthyocentaur-c01].",
+    "claim_ids": [
+      "ichthyocentaur-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Ichthyocentaur adalah makhluk laut mirip centaur bertubuh atas manusia, bagian depan kuda, dan ekor ikan [ichthyocentaur-c01]. Contoh tertuanya ada pada relief Altar Pergamon dari abad ke-2 SM [ichthyocentaur-c02].",
+      "en": "The ichthyocentaur is a centaur-like sea being with a human torso, horse forequarters and fish tail [ichthyocentaur-c01]. The earliest example is on the Pergamon Altar friezes, 2nd century BC [ichthyocentaur-c02].",
+      "claim_ids": [
+        "ichthyocentaur-c01",
+        "ichthyocentaur-c02"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Centaur",
+      "relation_type": "associated",
+      "note": {
+        "id": "Varian laut dari centaur.",
+        "en": "A sea variant of the centaur."
+      },
+      "claim_ids": [
+        "ichthyocentaur-c01"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa seniman kuno menggabungkan tubuh berbagai hewan?",
+      "en": "Why did ancient artists combine animal bodies?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "ichthyocentaur-s1",
+      "url": "https://en.wikipedia.org/wiki/Ichthyocentaur",
+      "title": "Ichthyocentaur",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "ichthyocentaur-c01",
+      "source_id": "ichthyocentaur-s1",
+      "quote": "is a centaurine sea being with the upper body of a human, the lower anterior half and forelegs of a horse, and the tailed posterior half of a fish.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ichthyocentaur adalah makhluk laut mirip centaur bertubuh atas manusia, bagian depan bawah dan kaki depan kuda, serta bagian belakang ekor ikan.",
+        "en": "An ichthyocentaur is a centaur-like sea being with a human upper body, a horse's forequarters and a fish's tail."
+      }
+    },
+    {
+      "id": "ichthyocentaur-c02",
+      "source_id": "ichthyocentaur-s1",
+      "quote": "The earliest example dates to the 2nd century BC, among the friezes in the Pergamon Altar.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Contoh tertuanya dari abad ke-2 SM, pada relief Altar Pergamon.",
+        "en": "The earliest example dates to the 2nd century BC, on the Pergamon Altar friezes."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "leuce",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Leuce",
+    "native_name": null,
+    "display_name": {
+      "id": "Leuce",
+      "en": "Leuce"
+    },
+    "wikidata_qid": "Q582643",
+    "claim_ids": [
+      "leuce-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "peri",
+    "claim_ids": [
+      "leuce-c01"
+    ]
+  },
+  "classification": {
+    "value": "fairy",
+    "claim_ids": [
+      "leuce-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "leuce-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "leuce-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "underworld",
+      "claim_ids": [
+        "leuce-c02"
+      ]
+    }
+  ],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Leuce adalah nimfa Oceanid yang diubah Hades menjadi pohon poplar putih [leuce-c01, leuce-c03].",
+    "en": "Leuce is an Oceanid nymph turned by Hades into a white poplar [leuce-c01, leuce-c03].",
+    "claim_ids": [
+      "leuce-c01",
+      "leuce-c03"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Leuce adalah nimfa Oceanid, putri Oceanus dan Tethys [leuce-c01]. Hades menculiknya ke dunia bawah [leuce-c02], dan ketika ia mati, Hades mengubahnya menjadi pohon poplar putih di Padang Elysia [leuce-c03].",
+      "en": "Leuce was an Oceanid nymph, daughter of Oceanus and Tethys [leuce-c01]. Hades abducted her to the underworld [leuce-c02], and at her death turned her into a white poplar in the Elysian Fields [leuce-c03].",
+      "claim_ids": [
+        "leuce-c01",
+        "leuce-c02",
+        "leuce-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Hades",
+      "relation_type": "spouse",
+      "note": {
+        "id": "Dewa yang menculiknya.",
+        "en": "The god who abducted her."
+      },
+      "claim_ids": [
+        "leuce-c02"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa peran tokoh-tokoh minor dalam mitologi Yunani dan Romawi?",
+      "en": "What role do minor figures play in Greek and Roman myth?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "leuce-s1",
+      "url": "https://en.wikipedia.org/wiki/Leuce_(mythology)",
+      "title": "Leuce (mythology)",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "leuce-c01",
+      "source_id": "leuce-s1",
+      "quote": "was an Oceanid nymph, one of the daughters of the Titans Oceanus and Tethys.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Leuce adalah nimfa Oceanid, salah satu putri Titan Oceanus dan Tethys.",
+        "en": "Leuce was an Oceanid nymph, a daughter of the Titans Oceanus and Tethys."
+      }
+    },
+    {
+      "id": "leuce-c02",
+      "source_id": "leuce-s1",
+      "quote": "Hades abducted her to the underworld.",
+      "locator": "Mythology",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Hades menculiknya ke dunia bawah.",
+        "en": "Hades abducted her to the underworld."
+      }
+    },
+    {
+      "id": "leuce-c03",
+      "source_id": "leuce-s1",
+      "quote": "when she died, the god turned her into a white poplar which he placed in the Elysian Fields.",
+      "locator": "Mythology",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ketika ia mati, Hades mengubahnya menjadi pohon poplar putih di Padang Elysia.",
+        "en": "When she died, the god turned her into a white poplar in the Elysian Fields."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "lysithea",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Lysithea",
+    "native_name": null,
+    "display_name": {
+      "id": "Lysithea",
+      "en": "Lysithea"
+    },
+    "wikidata_qid": "Q1244430",
+    "claim_ids": [
+      "lysithea-c01"
+    ]
+  },
+  "alternate_names": [
+    {
+      "name": "Lysithoe",
+      "language": "grc",
+      "name_type": "alias",
+      "claim_ids": [
+        "lysithea-c01"
+      ]
+    }
+  ],
+  "jenis": {
+    "value": "peri",
+    "claim_ids": [
+      "lysithea-c01"
+    ]
+  },
+  "classification": {
+    "value": "fairy",
+    "claim_ids": [
+      "lysithea-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "lysithea-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "lysithea-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Lysithea adalah Oceanid, kekasih Zeus dan dalam satu versi ibu Heracles [lysithea-c01, lysithea-c02].",
+    "en": "Lysithea is an Oceanid, lover of Zeus and in one version mother of Heracles [lysithea-c01, lysithea-c02].",
+    "claim_ids": [
+      "lysithea-c01",
+      "lysithea-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Lysithea atau Lysithoe adalah Oceanid, putri Oceanus dan Tethys [lysithea-c01]. Ia salah satu kekasih Zeus dan dalam versi ini ibu Heracles [lysithea-c02].",
+      "en": "Lysithea or Lysithoe is an Oceanid, daughter of Oceanus and Tethys [lysithea-c01]. She was a lover of Zeus and in this version mother of Heracles [lysithea-c02].",
+      "claim_ids": [
+        "lysithea-c01",
+        "lysithea-c02"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Zeus",
+      "relation_type": "spouse",
+      "note": {
+        "id": "Kekasihnya.",
+        "en": "Her lover."
+      },
+      "claim_ids": [
+        "lysithea-c02"
+      ]
+    },
+    {
+      "target_name": "Heracles",
+      "relation_type": "child",
+      "note": {
+        "id": "Putranya dalam versi ini.",
+        "en": "Her son in this version."
+      },
+      "claim_ids": [
+        "lysithea-c02"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa peran tokoh-tokoh minor dalam mitologi Yunani dan Romawi?",
+      "en": "What role do minor figures play in Greek and Roman myth?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "lysithea-s1",
+      "url": "https://en.wikipedia.org/wiki/Lysithea_(mythology)",
+      "title": "Lysithea (mythology)",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "lysithea-c01",
+      "source_id": "lysithea-s1",
+      "quote": "Lysithoe, an Oceanid, as the daughter of the Titans Oceanus and his sister-consort Tethys.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Lysithea (Lysithoe) adalah Oceanid, putri Titan Oceanus dan Tethys.",
+        "en": "Lysithea (Lysithoe) is an Oceanid, daughter of the Titans Oceanus and Tethys."
+      }
+    },
+    {
+      "id": "lysithea-c02",
+      "source_id": "lysithea-s1",
+      "quote": "She was also one of Zeus' many lovers and by him the mother of Heracles.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia salah satu kekasih Zeus dan, dalam versi ini, ibu Heracles.",
+        "en": "She was one of Zeus's lovers and, in this version, mother of Heracles."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "pirene",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Pirene",
+    "native_name": null,
+    "display_name": {
+      "id": "Pirene",
+      "en": "Pirene"
+    },
+    "wikidata_qid": "Q4843985",
+    "claim_ids": [
+      "pirene-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "peri",
+    "claim_ids": [
+      "pirene-c01"
+    ]
+  },
+  "classification": {
+    "value": "fairy",
+    "claim_ids": [
+      "pirene-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "pirene-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "pirene-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "water",
+      "claim_ids": [
+        "pirene-c02"
+      ]
+    }
+  ],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Pirene adalah nimfa yang berubah menjadi mata air di Korintus karena duka [pirene-c02].",
+    "en": "Pirene is a nymph who became a fountain at Corinth out of grief [pirene-c02].",
+    "claim_ids": [
+      "pirene-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Pirene adalah nimfa yang melahirkan Lecheas dan Cenchrias dari Poseidon [pirene-c01]. Ketika Cenchrias tak sengaja dibunuh Artemis, dukanya begitu dalam hingga ia berubah menjadi mata air di luar gerbang Korintus [pirene-c02].",
+      "en": "Pirene is a nymph who bore Lecheas and Cenchrias to Poseidon [pirene-c01]. When Artemis accidentally killed Cenchrias, her grief turned her into the fountain outside Corinth's gates [pirene-c02].",
+      "claim_ids": [
+        "pirene-c01",
+        "pirene-c02"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [
+    {
+      "name": {
+        "id": "Mata air Pirene",
+        "en": "Fountain of Pirene"
+      },
+      "type": "other",
+      "description": {
+        "id": "Mata air di luar gerbang Korintus.",
+        "en": "The fountain outside Corinth's gates."
+      },
+      "claim_ids": [
+        "pirene-c02"
+      ]
+    }
+  ],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Poseidon",
+      "relation_type": "spouse",
+      "note": {
+        "id": "Ayah anak-anaknya.",
+        "en": "Father of her sons."
+      },
+      "claim_ids": [
+        "pirene-c01"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa peran tokoh-tokoh minor dalam mitologi Yunani dan Romawi?",
+      "en": "What role do minor figures play in Greek and Roman myth?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "pirene-s1",
+      "url": "https://en.wikipedia.org/wiki/Pirene_(nymph)",
+      "title": "Pirene (nymph)",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "pirene-c01",
+      "source_id": "pirene-s1",
+      "quote": "By Poseidon she became the mother of Lecheas and Cenchrias.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dengan Poseidon, Pirene menjadi ibu Lecheas dan Cenchrias.",
+        "en": "By Poseidon she became mother of Lecheas and Cenchrias."
+      }
+    },
+    {
+      "id": "pirene-c02",
+      "source_id": "pirene-s1",
+      "quote": "When her son Cenchrias was unintentionally killed by Artemis, Pirene's grief was so profound that she became nothing but tears and turned into the fountain outside the gates of Corinth.",
+      "locator": "Mythology",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ketika putranya Cenchrias tak sengaja dibunuh Artemis, Pirene begitu berduka hingga menjadi air mata dan berubah menjadi mata air di luar gerbang Korintus.",
+        "en": "When Artemis accidentally killed her son Cenchrias, Pirene's grief turned her to tears and into the fountain outside Corinth's gates."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "salamis",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Salamis",
+    "native_name": null,
+    "display_name": {
+      "id": "Salamis",
+      "en": "Salamis"
+    },
+    "wikidata_qid": "Q2349443",
+    "claim_ids": [
+      "salamis-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "peri",
+    "claim_ids": [
+      "salamis-c01"
+    ]
+  },
+  "classification": {
+    "value": "fairy",
+    "claim_ids": [
+      "salamis-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "salamis-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "salamis-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Salamis adalah nimfa, putri dewa sungai Asopus dan Metope [salamis-c01, salamis-c02].",
+    "en": "Salamis is a nymph, daughter of the river god Asopus and Metope [salamis-c01, salamis-c02].",
+    "claim_ids": [
+      "salamis-c01",
+      "salamis-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Salamis adalah nimfa putri dewa sungai Asopus [salamis-c01]; ibunya Metope, putri dewa sungai Ladon [salamis-c02].",
+      "en": "Salamis was a nymph, daughter of the river god Asopus [salamis-c01]; her mother was Metope, daughter of the river god Ladon [salamis-c02].",
+      "claim_ids": [
+        "salamis-c01",
+        "salamis-c02"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Asopus",
+      "relation_type": "parent",
+      "note": {
+        "id": "Ayahnya.",
+        "en": "Her father."
+      },
+      "claim_ids": [
+        "salamis-c01"
+      ]
+    },
+    {
+      "target_name": "Metope",
+      "relation_type": "parent",
+      "note": {
+        "id": "Ibunya.",
+        "en": "Her mother."
+      },
+      "claim_ids": [
+        "salamis-c02"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa peran tokoh-tokoh minor dalam mitologi Yunani dan Romawi?",
+      "en": "What role do minor figures play in Greek and Roman myth?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "salamis-s1",
+      "url": "https://en.wikipedia.org/wiki/Salamis_(mythology)",
+      "title": "Salamis (mythology)",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "salamis-c01",
+      "source_id": "salamis-s1",
+      "quote": "was a nymph in Greek mythology, the daughter of the river-god Asopus.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Salamis adalah nimfa dalam mitologi Yunani, putri dewa sungai Asopus.",
+        "en": "Salamis was a nymph of Greek mythology, daughter of the river god Asopus."
+      }
+    },
+    {
+      "id": "salamis-c02",
+      "source_id": "salamis-s1",
+      "quote": "Salamis’ mother was Metope, daughter of Ladon, another river god.",
+      "locator": "Family",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ibu Salamis adalah Metope, putri dewa sungai Ladon.",
+        "en": "Salamis's mother was Metope, daughter of the river god Ladon."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-095",
+  "slug": "strix-mythology",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Strix (mythology)",
+    "native_name": null,
+    "display_name": {
+      "id": "Strix",
+      "en": "Strix"
+    },
+    "wikidata_qid": "Q2295955",
+    "claim_ids": [
+      "strix-mythology-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "hewan mitos",
+    "claim_ids": [
+      "strix-mythology-c01"
+    ]
+  },
+  "classification": {
+    "value": "bird",
+    "claim_ids": [
+      "strix-mythology-c01"
+    ]
+  },
+  "culture": {
+    "value": "greek-mythology",
+    "suggested_new": null,
+    "claim_ids": [
+      "strix-mythology-c01"
+    ]
+  },
+  "region": {
+    "value": "europe",
+    "claim_ids": [
+      "strix-mythology-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": {
+    "value": "malevolent",
+    "claim_ids": [
+      "strix-mythology-c01"
+    ]
+  },
+  "traits": [
+    {
+      "value": "flight",
+      "claim_ids": [
+        "strix-mythology-c03"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "Strix adalah burung pembawa sial dalam mitologi Klasik yang memakan daging dan darah manusia [strix-mythology-c01].",
+    "en": "The strix is an ill-omened bird of classical myth that fed on human flesh and blood [strix-mythology-c01].",
+    "claim_ids": [
+      "strix-mythology-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Dalam mitologi Klasik, strix adalah burung pembawa sial hasil perubahan wujud yang memakan daging dan darah manusia [strix-mythology-c01]; istilah ini juga dipakai untuk penyihir [strix-mythology-c02]. Ovidius menggambarkannya berkepala besar, berparuh pemangsa, dan bercakar bengkok [strix-mythology-c03].",
+      "en": "In classical myth the strix was an ill-omened bird of metamorphosis feeding on human flesh and blood [strix-mythology-c01]; the word also meant witches [strix-mythology-c02]. Ovid describes it as large-headed with a rapacious beak and hooked claws [strix-mythology-c03].",
+      "claim_ids": [
+        "strix-mythology-c01",
+        "strix-mythology-c02",
+        "strix-mythology-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa burung malam sering dianggap pembawa sial?",
+      "en": "Why are night birds often seen as ill omens?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "strix-mythology-s1",
+      "url": "https://en.wikipedia.org/wiki/Strix_(mythology)",
+      "title": "Strix (mythology)",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "strix-mythology-c01",
+      "source_id": "strix-mythology-s1",
+      "quote": "in the mythology of classical antiquity, was a bird of ill omen, the product of metamorphosis, that fed on human flesh and blood.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam mitologi Klasik, strix adalah burung pembawa sial hasil perubahan wujud yang memakan daging dan darah manusia.",
+        "en": "In classical mythology the strix was an ill-omened bird, product of metamorphosis, that fed on human flesh and blood."
+      }
+    },
+    {
+      "id": "strix-mythology-c02",
+      "source_id": "strix-mythology-s1",
+      "quote": "It also referred to witches and related malevolent folkloric beings.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Istilah ini juga dipakai untuk penyihir dan makhluk jahat serupa.",
+        "en": "The term also referred to witches and similar malevolent beings."
+      }
+    },
+    {
+      "id": "strix-mythology-c03",
+      "source_id": "strix-mythology-s1",
+      "quote": "The strix is described as a large-headed bird with transfixed eyes, rapacious beak, greyish white wings, and hooked claws in Ovid's Fasti.",
+      "locator": "Physical appearance",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam Fasti karya Ovidius, strix digambarkan berkepala besar, bermata menatap tajam, berparuh pemangsa, bersayap putih keabuan, dan bercakar bengkok.",
+        "en": "In Ovid's Fasti the strix is a large-headed bird with staring eyes, a rapacious beak, greyish-white wings and hooked claws."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+

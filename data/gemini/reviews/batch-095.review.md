@@ -1,8 +1,8 @@
 # Review batch-095
 
-Diperiksa 2026-09-30T08:59:06.597Z. Berkas: batch-095.md.
+Diperiksa 2026-09-30T09:00:56.921Z. Berkas: batch-095.md.
 
-**Belum dikirim:** adrasteia, ampelos, canens, catoblepas, delphyne, dragons-in-greek-mythology, ichthyocentaur, leuce, lysithea, pirene, salamis, strix-mythology, vrykolakas, aethon-q1371462, aganippe, clytius, damysos, harpina, idaea, phaethusa, plouto, tuchulcha, zeuxo, crinisus
+**Belum dikirim:** vrykolakas, aethon-q1371462, aganippe, clytius, damysos, harpina, idaea, phaethusa, plouto, tuchulcha, zeuxo, crinisus
 
 ## chloris — lulus-otomatis
 
@@ -342,4 +342,166 @@ Klaim 2 (exact 2), sumber 1, gambar 0.
 |---|---|---|---|---|
 | stilbe-c01 | exact | en.wikipedia.org | Stilbe is a nymph, daughter of the river god Peneus and the Naiad Creusa. | Stilbe, a nymph, daughter of the river god Peneus and the Naiad Creusa. |
 | stilbe-c02 | exact | en.wikipedia.org | She bore Apollo twins: Centaurus, ancestor of the Centaurs, and Lapithus, ancestor of the Lapiths. | She bore Apollo twin sons, Centaurus, ancestor of the Centaurs, and Lapithus, ancestor of the Lapiths. |
+
+
+## adrasteia — lulus-otomatis
+
+Klaim 2 (exact 2), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| adrasteia-c01 | exact | fr.wikipedia.org | Adrasteia is a nymph whom Rhea charged, with her sister Ida, to protect the infant Zeus from Cronus. | est une nymphe que Rhéa a chargée, avec sa sœur Ida, de protéger Zeus enfant contre Cronos. |
+| adrasteia-c02 | exact | fr.wikipedia.org | She is the daughter of Ananke and Melisse and sister of Ida. | C'est la fille d'Ananké et de Mélissé, ainsi que la sœur d'Ida. |
+
+
+## ampelos — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| ampelos-c01 | exact | en.wikipedia.org | Ampelos was a personification of the grapevine and lover of Dionysus (Bacchus). | was a personification of the grapevine and lover of Dionysus in Greek and Bacchus in Roman mythology. |
+| ampelos-c02 | exact | en.wikipedia.org | He was a satyr whom Dionysus turned into a constellation or the grapevine. | He was a satyr that Dionysus either turned into a constellation or the grape vine. |
+| ampelos-c03 | exact | en.wikipedia.org | According to Nonnus, Ampelos was gored by a wild bull after mocking Selene. | According to Nonnus, Ampelos was gored to death by a wild bull after he mocked the goddess Selene |
+
+
+## canens — lulus-otomatis
+
+Klaim 2 (exact 2), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| canens-c01 | exact | en.wikipedia.org | In Roman mythology, Canens was the personification of song, a nymph of Latium, daughter of Janus and Venilia. | In Roman mythology, Canens was the personification of song. A nymph from Latium, she was the daughter of Janus and Venilia. |
+| canens-c02 | exact | en.wikipedia.org | Canens searched six days for her husband, then threw herself into the Tiber, sang a last song and died. | Canens searched for her husband for six days and then threw herself into the Tiber river. She sang one final song and then died. |
+
+
+## catoblepas — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| catoblepas-c01 | exact | en.wikipedia.org | The catoblepas is a legendary creature of Aethiopia first described by Pliny the Elder and later Claudius Aelianus. | is a legendary creature from Aethiopia, first described by Pliny the Elder and later by Claudius Aelianus. |
+| catoblepas-c02 | exact | en.wikipedia.org | One description likens it to a cape buffalo whose heavy head always hangs down; its stare or breath could kill. | One known description of the Catoblepas is said to resemble a cape buffalo, with its head always pointing downwards due to its great weight. Its stare or breath could kill people. |
+| catoblepas-c03 | exact | en.wikipedia.org | It is often thought to be based on encounters with wildebeest. | The catoblepas is often thought to be based on real-life encounters with wildebeest |
+
+
+## delphyne — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| delphyne-c01 | exact | en.wikipedia.org | Delphyne is, in some accounts, the name of the monstrous serpent Apollo killed at Delphi. | is the name given, by some accounts, to the monstrous serpent killed by Apollo at Delphi. |
+| delphyne-c02 | exact | en.wikipedia.org | In the earliest account, the Homeric Hymn to Apollo (6th century BC), the god kills a nameless she-serpent later called Delphyne. | in the earliest known account of this story, the Homeric Hymn to Apollo (6th century BC), the god kills a nameless she-serpent (drakaina), subsequently called Delphyne. |
+| delphyne-c03 | exact | en.wikipedia.org | According to the Suda, Delphi was named after Delphyne. | According to the Suda, Delphi was named after Delphyne. |
+
+
+## dragons-in-greek-mythology — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| dragons-in-greek-mythology-c01 | exact | en.wikipedia.org | Dragons play a significant role in Greek mythology. | play a significant role in Greek mythology. |
+| dragons-in-greek-mythology-c02 | exact | en.wikipedia.org | The Greek drakōn differs from the modern Western dragon but is the origin of the word. | Though the Greek drakōn often differs from the modern Western conception of a dragon, it is both the etymological origin of the modern term |
+| dragons-in-greek-mythology-c03 | exact | en.wikipedia.org | Ancient Greeks used the term for large constricting snakes. | Ancient Greeks applied the term to large, constricting snakes. |
+
+
+## ichthyocentaur — lulus-otomatis
+
+Klaim 2 (exact 2), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| ichthyocentaur-c01 | exact | en.wikipedia.org | An ichthyocentaur is a centaur-like sea being with a human upper body, a horse's forequarters and a fish's tail. | is a centaurine sea being with the upper body of a human, the lower anterior half and forelegs of a horse, and the tailed posterior half of a fish. |
+| ichthyocentaur-c02 | exact | en.wikipedia.org | The earliest example dates to the 2nd century BC, on the Pergamon Altar friezes. | The earliest example dates to the 2nd century BC, among the friezes in the Pergamon Altar. |
+
+
+## leuce — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| leuce-c01 | exact | en.wikipedia.org | Leuce was an Oceanid nymph, a daughter of the Titans Oceanus and Tethys. | was an Oceanid nymph, one of the daughters of the Titans Oceanus and Tethys. |
+| leuce-c02 | exact | en.wikipedia.org | Hades abducted her to the underworld. | Hades abducted her to the underworld. |
+| leuce-c03 | exact | en.wikipedia.org | When she died, the god turned her into a white poplar in the Elysian Fields. | when she died, the god turned her into a white poplar which he placed in the Elysian Fields. |
+
+
+## lysithea — lulus-otomatis
+
+Klaim 2 (exact 2), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| lysithea-c01 | exact | en.wikipedia.org | Lysithea (Lysithoe) is an Oceanid, daughter of the Titans Oceanus and Tethys. | Lysithoe, an Oceanid, as the daughter of the Titans Oceanus and his sister-consort Tethys. |
+| lysithea-c02 | exact | en.wikipedia.org | She was one of Zeus's lovers and, in this version, mother of Heracles. | She was also one of Zeus' many lovers and by him the mother of Heracles. |
+
+
+## pirene — lulus-otomatis
+
+Klaim 2 (exact 2), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| pirene-c01 | exact | en.wikipedia.org | By Poseidon she became mother of Lecheas and Cenchrias. | By Poseidon she became the mother of Lecheas and Cenchrias. |
+| pirene-c02 | exact | en.wikipedia.org | When Artemis accidentally killed her son Cenchrias, Pirene's grief turned her to tears and into the fountain outside Corinth's gates. | When her son Cenchrias was unintentionally killed by Artemis, Pirene's grief was so profound that she became nothing but tears and turned into the fountain outside the gates of Corinth. |
+
+
+## salamis — lulus-otomatis
+
+Klaim 2 (exact 2), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| salamis-c01 | exact | en.wikipedia.org | Salamis was a nymph of Greek mythology, daughter of the river god Asopus. | was a nymph in Greek mythology, the daughter of the river-god Asopus. |
+| salamis-c02 | exact | en.wikipedia.org | Salamis's mother was Metope, daughter of the river god Ladon. | Salamis’ mother was Metope, daughter of Ladon, another river god. |
+
+
+## strix-mythology — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| strix-mythology-c01 | exact | en.wikipedia.org | In classical mythology the strix was an ill-omened bird, product of metamorphosis, that fed on human flesh and blood. | in the mythology of classical antiquity, was a bird of ill omen, the product of metamorphosis, that fed on human flesh and blood. |
+| strix-mythology-c02 | exact | en.wikipedia.org | The term also referred to witches and similar malevolent beings. | It also referred to witches and related malevolent folkloric beings. |
+| strix-mythology-c03 | exact | en.wikipedia.org | In Ovid's Fasti the strix is a large-headed bird with staring eyes, a rapacious beak, greyish-white wings and hooked claws. | The strix is described as a large-headed bird with transfixed eyes, rapacious beak, greyish white wings, and hooked claws in Ovid's Fasti. |
 
