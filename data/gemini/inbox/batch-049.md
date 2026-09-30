@@ -10093,3 +10093,1992 @@
 }
 ```
 
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "zashiki-warashi",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Zashiki-warashi",
+    "native_name": null,
+    "display_name": {
+      "id": "Zashiki-warashi",
+      "en": "Zashiki-warashi"
+    },
+    "wikidata_qid": "Q148209",
+    "claim_ids": [
+      "zashiki-warashi-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "roh",
+    "claim_ids": [
+      "zashiki-warashi-c01",
+      "zashiki-warashi-c03"
+    ]
+  },
+  "classification": {
+    "value": "spirit",
+    "claim_ids": [
+      "zashiki-warashi-c01",
+      "zashiki-warashi-c03"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "zashiki-warashi-c01",
+      "zashiki-warashi-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "zashiki-warashi-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Zashiki-warashi adalah roh rumah yang tampak seperti anak kecil dan dipercaya berkaitan dengan keberuntungan penghuninya.",
+    "en": "Zashiki-warashi is a childlike house spirit believed to be connected with a household’s fortune.",
+    "claim_ids": [
+      "zashiki-warashi-c01",
+      "zashiki-warashi-c03",
+      "zashiki-warashi-c04",
+      "zashiki-warashi-c05"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Dalam cerita Tōno di wilayah Iwate, zashiki-warashi digambarkan sebagai dewa rumah yang tampak seperti anak. Versi lain menyebutnya roh anak yang tinggal di kamar atau gudang. Kehadirannya dipercaya membuat rumah makmur, sedangkan kepergiannya dianggap tanda keluarga akan miskin. Pemandu wisata Iwate menggambarkannya sebagai roh pelindung rumah berwujud anak laki-laki, sehingga sebutan “roh” dan “dewa rumah” sama-sama muncul dalam penuturan tentangnya.",
+      "en": "In stories from Tōno in Iwate, zashiki-warashi is described as a household deity looking like a child. Another account calls it a child spirit living in rooms or storehouses. Its presence is believed to bring prosperity, while its departure foretells poverty. An Iwate guide calls it a boy-shaped guardian spirit of the house, showing that both spirit and household deity are used for this figure.",
+      "claim_ids": [
+        "zashiki-warashi-c01",
+        "zashiki-warashi-c02",
+        "zashiki-warashi-c03",
+        "zashiki-warashi-c04",
+        "zashiki-warashi-c05",
+        "zashiki-warashi-c06"
+      ]
+    },
+    {
+      "id": "Folkloris Yanagita Kunio menerbitkan kumpulan cerita Tōno pada 1910, membantu melestarikan kisah daerah itu. Sebuah penginapan menceritakan bahwa zashiki-warashi tinggal di ruang belakang dan orang yang melihatnya akan berhasil dalam hidup. Kisah tersebut tetap dipakai sebagai bagian dari identitas tempat wisata setempat. Laporan penampakan yang disebut dalam bahan wisata merupakan kesaksian tentang kepercayaan, bukan bukti keberadaan makhluk itu.",
+      "en": "Folklorist Yanagita Kunio published a Tōno story collection in 1910, preserving local tales. An inn tells visitors that zashiki-warashi lives in a back room and that seeing it brings success. The story remains part of local tourism. Sightings mentioned in tourist materials are reports about belief, not proof that the being exists.",
+      "claim_ids": [
+        "zashiki-warashi-c07",
+        "zashiki-warashi-c08",
+        "zashiki-warashi-c09"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "zashiki-warashi-s1",
+      "url": "https://www.worthsharing.jpf.go.jp/en/lifelong-favorites/tales-of-tono/",
+      "title": "Tōno monogatari [Tales of Tōno]",
+      "author": null,
+      "publisher": "The Japan Foundation",
+      "published": null,
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "zashiki-warashi-s2",
+      "url": "https://fukusakikankou.jp/en/yokai-bench-en/zashikiwarashi-2/",
+      "title": "Zashiki-warashi",
+      "author": null,
+      "publisher": "Fukusaki Town Tourism Association",
+      "published": "2025-01-09",
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "zashiki-warashi-s3",
+      "url": "https://iwatetabi.jp/en/spots/94258/",
+      "title": "Zashiki Warashi",
+      "author": null,
+      "publisher": "Iwate Tourism Association",
+      "published": null,
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "zashiki-warashi-s4",
+      "url": "https://iwatetabi.jp/en/spots/90629/",
+      "title": "Ryokufusou [Kindaichi Onsen]",
+      "author": null,
+      "publisher": "Iwate Tourism Association",
+      "published": null,
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "zashiki-warashi-c01",
+      "source_id": "zashiki-warashi-s1",
+      "quote": "The zashiki-warashi, a household deity that looks like a child",
+      "locator": "Book description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Zashiki-warashi digambarkan sebagai dewa rumah berwujud anak.",
+        "en": "Zashiki-warashi is described as a household deity that looks like a child."
+      }
+    },
+    {
+      "id": "zashiki-warashi-c02",
+      "source_id": "zashiki-warashi-s1",
+      "quote": "The Tōno region, nestled amid the mountains of Iwate Prefecture in northern Japan, is famous for its folktales.",
+      "locator": "Book description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Cerita Tōno berasal dari wilayah pegunungan Iwate.",
+        "en": "The Tōno stories come from mountainous Iwate."
+      }
+    },
+    {
+      "id": "zashiki-warashi-c03",
+      "source_id": "zashiki-warashi-s2",
+      "quote": "The Zashiki-warashi is a child spirit that is said to reside in rooms or storehouses.",
+      "locator": "Zashiki-warashi",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kisah lain menempatkan roh anak ini di kamar atau gudang.",
+        "en": "Another account places this child spirit in rooms or storehouses."
+      }
+    },
+    {
+      "id": "zashiki-warashi-c04",
+      "source_id": "zashiki-warashi-s2",
+      "quote": "It is believed that homes with a Zashiki-warashi will thrive",
+      "locator": "Zashiki-warashi",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Rumah yang dihuni zashiki-warashi dipercaya makmur.",
+        "en": "Homes with zashiki-warashi are believed to thrive."
+      }
+    },
+    {
+      "id": "zashiki-warashi-c05",
+      "source_id": "zashiki-warashi-s2",
+      "quote": "while those from which it leaves will become poor.",
+      "locator": "Zashiki-warashi",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kepergiannya dipercaya membuat keluarga miskin.",
+        "en": "Its departure is believed to bring poverty."
+      }
+    },
+    {
+      "id": "zashiki-warashi-c06",
+      "source_id": "zashiki-warashi-s3",
+      "quote": "Zashikiwarashi is not a ghost, but a divine spirit of a boy with a cute bobbed hair, and in this region it is considered an important guardian deity of the house.",
+      "locator": "Zashiki Warashi",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pemandu Iwate menyebut roh pelindung rumah berwujud anak lelaki.",
+        "en": "An Iwate guide calls it a boy-shaped guardian spirit of the house."
+      }
+    },
+    {
+      "id": "zashiki-warashi-c07",
+      "source_id": "zashiki-warashi-s1",
+      "quote": "The original Tōno monogatari [trans. The Legends of Tōno] was published in 1910 by folklorist Yanagita Kunio, collecting stories gathered by Sasaki Kizen, a Tōno native himself.",
+      "locator": "Book description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Yanagita Kunio menerbitkan kumpulan kisah Tōno pada 1910.",
+        "en": "Yanagita Kunio published the Tōno story collection in 1910."
+      }
+    },
+    {
+      "id": "zashiki-warashi-c08",
+      "source_id": "zashiki-warashi-s4",
+      "quote": "At the end of a long corridor is the \"Enju-no-Ma,\" a room where the Zashiki Warashi live, and it is said that those who see them will be successful in life.",
+      "locator": "Ryokufusou",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Penginapan menyebut ruang Enju-no-Ma tempat roh itu tinggal dan menjanjikan sukses bagi yang melihatnya.",
+        "en": "An inn says the spirit lives in Enju-no-Ma and that those who see it succeed."
+      }
+    },
+    {
+      "id": "zashiki-warashi-c09",
+      "source_id": "zashiki-warashi-s3",
+      "quote": "Although it is a legend, there are still many people who claim to have seen the Zashiki Warashi.",
+      "locator": "Zashiki Warashi",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Bahan wisata menyebut klaim penampakan, sambil menegaskan ini legenda.",
+        "en": "The tourism guide reports claimed sightings while calling it a legend."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "amanojaku",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Amanojaku",
+    "native_name": null,
+    "display_name": {
+      "id": "Amanojaku",
+      "en": "Amanojaku"
+    },
+    "wikidata_qid": "Q2417460",
+    "claim_ids": [
+      "amanojaku-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "amanojaku-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "amanojaku-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "amanojaku-c01",
+      "amanojaku-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "amanojaku-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Amanojaku adalah yōkai mirip setan yang dikenal suka melawan perintah dan mengecoh orang.",
+    "en": "Amanojaku is a demon-like yōkai known for defying requests and deceiving people.",
+    "claim_ids": [
+      "amanojaku-c01",
+      "amanojaku-c04",
+      "amanojaku-c05"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Amanojaku dikenal sebagai sosok kecil mirip setan yang menentang permintaan, memutarbalikkan kata-kata, dan gemar melakukan kebalikan dari yang diminta. Sebagai kiasan masa kini, kata amanojaku juga dipakai bagi orang yang selalu mengambil arah berlawanan. Dalam cerita Urikohime, ia menjadi pengganggu yang masuk ke rumah gadis kelahiran buah melon dan mencoba menggantikan tempatnya. Versi cerita berbeda: ada yang menyebut ia membunuh gadis itu, ada pula yang menyebut ia mengikatnya; tipu muslihatnya akhirnya terbongkar.",
+      "en": "Amanojaku is described as a small demon-like being that defies requests, twists words, and does the opposite of what is asked. In current figurative use, amanojaku can also mean a person who always goes the other way. In the Urikohime tale, it enters the home of a girl born from a melon and tries to take her place. Versions differ: it kills her in one, ties her up in another, and its deception is ultimately exposed.",
+      "claim_ids": [
+        "amanojaku-c01",
+        "amanojaku-c02",
+        "amanojaku-c03",
+        "amanojaku-c04",
+        "amanojaku-c05",
+        "amanojaku-c06",
+        "amanojaku-c10"
+      ]
+    },
+    {
+      "id": "Amanojaku juga muncul dalam seni Buddha. Patung Empat Raja Langit di sebuah kuil menggambarkan para pelindung menginjak makhluk mirip setan yang disebut amanojaku; di sana ia melambangkan ketidaktahuan terhadap ajaran Buddha. Keempat patung itu dibuat pada akhir abad kesepuluh, sehingga pemakaian nama dalam penjelasan patung memiliki konteks seni keagamaan yang berbeda dari cerita rakyat Urikohime. Dalam kisah daerah lain, wujud dan perannya bisa berbeda lagi, termasuk sebagai peniru suara atau sosok raksasa.",
+      "en": "Amanojaku also appears in Buddhist art. Statues of the Four Heavenly Kings show protectors trampling demon-like amanojaku, which there symbolize ignorance of Buddhist teaching. The statues were carved in the late tenth century, so their religious-art context differs from the Urikohime folktale. Other local stories vary further, describing a voice mimic or even a giant.",
+      "claim_ids": [
+        "amanojaku-c06",
+        "amanojaku-c07",
+        "amanojaku-c08",
+        "amanojaku-c09",
+        "amanojaku-c11"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "amanojaku-s1",
+      "url": "https://yokai.jp/en/yokai/amano-jaku",
+      "title": "Amanojaku",
+      "author": null,
+      "publisher": "YOKAI.JP",
+      "published": null,
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "amanojaku-s2",
+      "url": "https://performingarts.jpf.go.jp/en/article/6983/",
+      "title": "Ko Murobushi: The body at its physical edge",
+      "author": null,
+      "publisher": "The Japan Foundation, Performing Arts Network Japan",
+      "published": null,
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "amanojaku-s3",
+      "url": "https://www.vogue.pt/english-version-eastern-once-upon-time-fairytale-issue",
+      "title": "Once upon a time: Eastern fairytales",
+      "author": null,
+      "publisher": "Vogue Portugal",
+      "published": null,
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "amanojaku-s4",
+      "url": "https://www.mlit.go.jp/tagengo-db/en/R2-01611.html",
+      "title": "Four Heavenly Kings",
+      "author": null,
+      "publisher": "Japan Tourism Agency",
+      "published": "2020",
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "amanojaku-c01",
+      "source_id": "amanojaku-s1",
+      "quote": "Amanojaku is a small demon known for defying people, twisting words and actions, and teasing by doing the opposite of what is asked.",
+      "locator": "Basic Description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Amanojaku adalah setan kecil yang melawan dan melakukan kebalikan permintaan.",
+        "en": "Amanojaku is described as a small demon that defies people and reverses requests."
+      }
+    },
+    {
+      "id": "amanojaku-c02",
+      "source_id": "amanojaku-s2",
+      "quote": "Amanojaku (contrary person) is an example of one who always looks in the opposite way when everyone is looking in the same direction.",
+      "locator": "Interview",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam kiasan, amanojaku adalah orang yang selalu mengambil arah berlawanan.",
+        "en": "In figurative use, amanojaku is a contrary person."
+      }
+    },
+    {
+      "id": "amanojaku-c03",
+      "source_id": "amanojaku-s3",
+      "quote": "“Princess Melon” tells of a girl born from a melon, which is found streaming down a river by a human couple.",
+      "locator": "Urikohime",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Urikohime dalam cerita lahir dari buah melon.",
+        "en": "The Urikohime tale begins with a girl born from a melon."
+      }
+    },
+    {
+      "id": "amanojaku-c04",
+      "source_id": "amanojaku-s3",
+      "quote": "the young woman is visited by a suspicious spirit, Amanojaku, who already had her in his sights and ends up forcing its entrance.",
+      "locator": "Urikohime",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Amanojaku mendatangi Urikohime dan memaksa masuk ke rumah.",
+        "en": "Amanojaku comes to Urikohime and forces its way inside."
+      }
+    },
+    {
+      "id": "amanojaku-c05",
+      "source_id": "amanojaku-s3",
+      "quote": "In one version of the tale, the spirit kills the girl and uses her skin, taking her place",
+      "locator": "Urikohime",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam satu versi, roh itu membunuh Urikohime dan menggantikannya.",
+        "en": "In one version, the spirit kills the girl and takes her place."
+      }
+    },
+    {
+      "id": "amanojaku-c06",
+      "source_id": "amanojaku-s3",
+      "quote": "Before getting married, Amanojaku kills her (or ties her to a tree) and dresses like her, being taken away in a palanquin to the wedding.",
+      "locator": "Urikohime",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Versi lain menyebut ia membunuh atau mengikat Urikohime lalu menyamar sebagai dirinya.",
+        "en": "Another version says it kills or ties her up and takes her place."
+      }
+    },
+    {
+      "id": "amanojaku-c07",
+      "source_id": "amanojaku-s4",
+      "quote": "They are depicted trampling demonic creatures (amanojaku) that represent ignorance of the Buddha’s teachings.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Patung Empat Raja Langit menginjak amanojaku sebagai lambang ketidaktahuan ajaran Buddha.",
+        "en": "The Four Kings trample amanojaku as a symbol of ignorance of Buddhist teachings."
+      }
+    },
+    {
+      "id": "amanojaku-c08",
+      "source_id": "amanojaku-s4",
+      "quote": "Each of the statues was carved from a single block of Japanese cypress in the late tenth century by the monk Kan’na",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Patung-patung itu dibuat pada akhir abad kesepuluh.",
+        "en": "The statues were carved in the late tenth century."
+      }
+    },
+    {
+      "id": "amanojaku-c09",
+      "source_id": "amanojaku-s1",
+      "quote": "Local traditions portray it variously as a voice-mimicker, a mountain echo, or even a giant.",
+      "locator": "Basic Description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tradisi daerah juga menyebut amanojaku sebagai peniru suara, gema gunung, atau raksasa.",
+        "en": "Local stories describe it as a voice mimic, mountain echo, or giant."
+      }
+    },
+    {
+      "id": "amanojaku-c10",
+      "source_id": "amanojaku-s3",
+      "quote": "But the hoax is also revealed - in the version where she is tied up, she screams for help and is eventually saved, the creature then being chased away.",
+      "locator": "Urikohime",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tipu muslihat amanojaku terbongkar dan ia diusir.",
+        "en": "The deception is exposed and the creature is chased away."
+      }
+    },
+    {
+      "id": "amanojaku-c11",
+      "source_id": "amanojaku-s4",
+      "quote": "The Four Heavenly Kings are deities within the Mahayana Buddhist tradition and are found throughout Asia.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Empat Raja Langit merupakan pelindung dalam tradisi Buddha Mahayana.",
+        "en": "The Four Heavenly Kings are deities in Mahayana Buddhist tradition."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "sojobo",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Sōjōbō",
+    "native_name": null,
+    "display_name": {
+      "id": "Sōjōbō",
+      "en": "Sōjōbō"
+    },
+    "wikidata_qid": "Q1786770",
+    "claim_ids": [
+      "sojobo-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "sojobo-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "sojobo-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "sojobo-c01",
+      "sojobo-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "sojobo-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Sōjōbō adalah tengu besar dari Gunung Kurama yang dalam legenda membimbing Yoshitsune mempelajari taktik perang.",
+    "en": "Sōjōbō is a great tengu of Mount Kurama who guides Yoshitsune in warfare in legend.",
+    "claim_ids": [
+      "sojobo-c01",
+      "sojobo-c03"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Sōjōbō adalah tengu besar yang menurut legenda tinggal di Sōjō-ga-tani, kawasan pegunungan Gunung Kurama di utara Kyoto. Ia juga dikenal sebagai Kurama Tengu. Kisah setempat mengatakan bahwa ia mengajarkan taktik kepada Minamoto no Yoshitsune di Kuil Kurama untuk melawan klan Heike. Panduan resmi Kyoto turut menempatkan kisah latihan Yoshitsune pada masa kecilnya bersama tengu di Kurama; peristiwa itu dipaparkan sebagai legenda.",
+      "en": "Sōjōbō is a great tengu said to live in Sōjō-ga-tani on Mount Kurama north of Kyoto. He is also called Kurama Tengu. Local legend says he taught Minamoto no Yoshitsune tactics at Kurama Temple for the campaign against the Heike clan. Kyoto’s official guide likewise places the childhood training story with a tengu at Kurama and presents it as legend.",
+      "claim_ids": [
+        "sojobo-c01",
+        "sojobo-c02",
+        "sojobo-c03",
+        "sojobo-c04"
+      ]
+    },
+    {
+      "id": "Kisah itu juga hadir dalam seni rupa. Sebuah lukisan nazar menggambarkan Yoshitsune belajar ilmu bela diri dari Sōjōbō dan tengu gagak di Gunung Kurama. Cetakan kayu dari 1853 menggambarkan Yoshitsune menghadapi tengu gagak dengan bimbingan Sōjōbō, yang disebut “Raja Tengu” dalam judulnya. Dalam perkembangan cerita pada zaman awal modern, tengu gagak bawahan Kurama Tengu melatih Ushiwakamaru, nama kecil Yoshitsune.",
+      "en": "The tale also appears in art. A votive painting shows Yoshitsune learning martial arts from Sōjōbō and crow tengu on Mount Kurama. An 1853 woodblock print shows Yoshitsune facing crow tengu under Sōjōbō’s guidance and calls him “King Tengu” in its title. In an early modern form of the story, Kurama Tengu’s subordinate crow tengu trained Ushiwakamaru, Yoshitsune’s childhood name.",
+      "claim_ids": [
+        "sojobo-c05",
+        "sojobo-c06",
+        "sojobo-c07",
+        "sojobo-c08"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "sojobo-s1",
+      "url": "https://jpsearch.go.jp/en/gallery/ndl-9DnAAqljpV6/3",
+      "title": "Tengu",
+      "author": null,
+      "publisher": "Japan Search / Ritsumeikan University Art Research Center and National Diet Library",
+      "published": "2025-11-11",
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "sojobo-s2",
+      "url": "https://asia-archive.si.edu/object/FSC-PA-190/",
+      "title": "“Ema” votive painting of Minamoto Yoshitsune learning martial arts from the Tengu Sōjōbō and karasu tengu on Mt. Kurama",
+      "author": null,
+      "publisher": "Smithsonian National Museum of Asian Art",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "sojobo-s3",
+      "url": "https://www.ngv.vic.gov.au/explore/collection/work/141459/",
+      "title": "Yoshitsune battles Konoha crow tengu under the guidance of the monk Sojobo (King Tengu) at Mt Kurama",
+      "author": null,
+      "publisher": "National Gallery of Victoria",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "sojobo-s4",
+      "url": "https://kyoto.travel/en/areas/kurama-kibune/",
+      "title": "Kurama & Kibune",
+      "author": null,
+      "publisher": "Kyoto City Tourism Association",
+      "published": null,
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "sojobo-c01",
+      "source_id": "sojobo-s1",
+      "quote": "Sōjōbō of Mt. Kurama is a great tengu, who is said to live in Sōjō-ga-tani, and is also known as Kurama Tengu.",
+      "locator": "Kurama Tengu",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sōjōbō adalah tengu besar yang dikatakan tinggal di Sōjō-ga-tani dan dikenal sebagai Kurama Tengu.",
+        "en": "Sōjōbō is a great tengu said to live in Sōjō-ga-tani and known as Kurama Tengu."
+      }
+    },
+    {
+      "id": "sojobo-c02",
+      "source_id": "sojobo-s1",
+      "quote": "Kuramayama (Mt. Kurama), a boundary land located in the north of Kyoto.",
+      "locator": "Kurama Tengu",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Gunung Kurama terletak di utara Kyoto.",
+        "en": "Mount Kurama lies north of Kyoto."
+      }
+    },
+    {
+      "id": "sojobo-c03",
+      "source_id": "sojobo-s1",
+      "quote": "It is said that Minamoto no Yoshitsune was given tactics by Kurama Tengu at Kurama Temple to subdue the Heike clan.",
+      "locator": "Kurama Tengu",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Legenda menyebut Yoshitsune menerima pelajaran taktik dari Kurama Tengu untuk mengalahkan Heike.",
+        "en": "Legend says Yoshitsune learned tactics from Kurama Tengu to defeat the Heike."
+      }
+    },
+    {
+      "id": "sojobo-c04",
+      "source_id": "sojobo-s4",
+      "quote": "According to the story, during his childhood (when he was known as Ushiwakamaru) this is where he trained with a tengu—a legendary long-nosed demon.",
+      "locator": "Kurama & Kibune",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Panduan Kyoto juga menempatkan latihan Yoshitsune saat kecil bersama tengu sebagai cerita.",
+        "en": "Kyoto’s guide also presents Yoshitsune’s childhood training with a tengu as a story."
+      }
+    },
+    {
+      "id": "sojobo-c05",
+      "source_id": "sojobo-s2",
+      "quote": "“Ema” votive painting of Minamoto Yoshitsune learning martial arts from the Tengu Sōjōbō and karasu tengu on Mt. Kurama",
+      "locator": "Object title",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Lukisan nazar Smithsonian menampilkan Yoshitsune belajar bela diri dari Sōjōbō dan tengu gagak.",
+        "en": "The Smithsonian votive painting shows Yoshitsune learning martial arts from Sōjōbō and crow tengu."
+      }
+    },
+    {
+      "id": "sojobo-c06",
+      "source_id": "sojobo-s3",
+      "quote": "Yoshitsune battles Konoha crow tengu under the guidance of the monk Sojobo (King Tengu) at Mt Kurama",
+      "locator": "Object title",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Judul cetakan Kunisada menyebut Sōjōbō sebagai Raja Tengu yang membimbing Yoshitsune.",
+        "en": "The Kunisada print title calls Sōjōbō King Tengu guiding Yoshitsune."
+      }
+    },
+    {
+      "id": "sojobo-c07",
+      "source_id": "sojobo-s3",
+      "quote": "Yoshitsune battles Konoha crow tengu under the guidance of the monk Sojobo (King Tengu) at Mt Kurama 1853",
+      "locator": "Artwork details",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Cetakan tersebut bertanggal 1853.",
+        "en": "The print is dated 1853."
+      }
+    },
+    {
+      "id": "sojobo-c08",
+      "source_id": "sojobo-s1",
+      "quote": "Kurama Tengu's subordinate Karasu Tengu trained Ushiwakamaru (Minamoto no Yoshitsune’s childhood name) in the art of warfare as his training partner.",
+      "locator": "The popularization of Tengu",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam perkembangan kisah, tengu gagak bawahan Kurama Tengu melatih Ushiwakamaru.",
+        "en": "In a later form of the tale, subordinate crow tengu train Ushiwakamaru."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "toyotama-hime",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Toyotama-hime",
+    "native_name": null,
+    "display_name": {
+      "id": "Toyotama-hime",
+      "en": "Toyotama-hime"
+    },
+    "wikidata_qid": "Q2329261",
+    "claim_ids": [
+      "toyotama-hime-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "toyotama-hime-c01"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "toyotama-hime-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "toyotama-hime-c01",
+      "toyotama-hime-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "toyotama-hime-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Toyotama-hime adalah dewi laut, istri Hoori dan ibu Ugayafukiaezu.",
+    "en": "Toyotama-hime is a sea-linked goddess, the wife of Hoori and mother of Ugayafukiaezu.",
+    "claim_ids": [
+      "toyotama-hime-c01",
+      "toyotama-hime-c10"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Toyotama-hime adalah putri dewa laut Watatsumi. Ia bertemu Hoori, yang juga disebut Hohodemi, di istana bawah laut, lalu menjadi istrinya. Setelah hidup bersama di sana selama tiga tahun, Hoori kembali ke daratan. Toyotama-hime menyusul untuk melahirkan putra mereka, Ugayafukiaezu, dan meminta pondok bersalin beratap bulu burung pecuk. Kisah perkawinan dan kelahirannya tercatat dalam Kojiki dan Nihon Shoki.",
+      "en": "Toyotama-hime is the daughter of the sea deity Watatsumi. She meets Hoori, also called Hohodemi, in the undersea palace and becomes his wife. After three years together there, Hoori returns to land. She follows to give birth to their son Ugayafukiaezu and asks for a birthing hut roofed with cormorant feathers. Her marriage and motherhood appear in the Kojiki and Nihon Shoki.",
+      "claim_ids": [
+        "toyotama-hime-c01",
+        "toyotama-hime-c02",
+        "toyotama-hime-c03",
+        "toyotama-hime-c04",
+        "toyotama-hime-c10"
+      ]
+    },
+    {
+      "id": "Saat bersalin, Toyotama-hime meminta suaminya tidak melihat ke dalam pondok. Ia melanggar larangan itu dan melihat wujud aslinya, lalu Toyotama-hime kembali ke laut karena malu. Dalam penjelasan Kojiki, wujudnya adalah wani, yang oleh peneliti kerap dipahami sebagai hiu besar; teks utama Nihon Shoki menyebut naga. Karena sumber lama berbeda, menyebutnya hanya sebagai naga akan menghilangkan variasi kisah. Pemujaan setempat masih berlangsung: di kuilnya orang berdoa untuk kesehatan dan kulit yang indah.",
+      "en": "During childbirth, Toyotama-hime asks her husband not to look inside the hut. He breaks the taboo, sees her transformed form, and she returns to the sea in shame. The Kojiki calls the form wani, often understood by scholars as a great shark; the main Nihon Shoki text says dragon. Calling her simply a dragon would lose this variation. Local worship continues: at her shrine people pray for health and beautiful skin.",
+      "claim_ids": [
+        "toyotama-hime-c05",
+        "toyotama-hime-c06",
+        "toyotama-hime-c07",
+        "toyotama-hime-c08",
+        "toyotama-hime-c09"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "toyotama-hime-s1",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9138",
+      "title": "Toyotamabime",
+      "author": "Mori Mizue",
+      "publisher": "Kokugakuin University Encyclopedia of Shinto",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "toyotama-hime-s2",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9731",
+      "title": "Yahirowani",
+      "author": "Nishioka Kazuhiko",
+      "publisher": "Kokugakuin University Encyclopedia of Shinto",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "toyotama-hime-s3",
+      "url": "https://www.city.ureshino.lg.jp/kanko/_32090/_32152/_32158/_32159.html",
+      "title": "Toyotamahime",
+      "author": null,
+      "publisher": "Ureshino City",
+      "published": null,
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "toyotama-hime-c01",
+      "source_id": "toyotama-hime-s1",
+      "quote": "Daughter of the sea kami Watatsumi, Toyotamabime was the consort of Hohodemi and mother of Ugayafukiaezu.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Toyotama-hime adalah putri Watatsumi, istri Hohodemi, dan ibu Ugayafukiaezu.",
+        "en": "Toyotama-hime is Watatsumi’s daughter, Hohodemi’s consort, and Ugayafukiaezu’s mother."
+      }
+    },
+    {
+      "id": "toyotama-hime-c02",
+      "source_id": "toyotama-hime-s1",
+      "quote": "When Hohodemi visited Watatsumi's undersea palace, Toyotamabime met him and, entranced by his appearance, immediately informed her father of his arrival.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Toyotama-hime bertemu Hohodemi di istana bawah laut.",
+        "en": "Toyotama-hime met Hohodemi in the undersea palace."
+      }
+    },
+    {
+      "id": "toyotama-hime-c03",
+      "source_id": "toyotama-hime-s1",
+      "quote": "She thereafter became his wife, but after three years, she became aware of her husband's longing for home, and Hohodemi subsequently returned to the land.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Setelah tiga tahun, Hohodemi pulang ke daratan.",
+        "en": "Hohodemi returned to land after three years."
+      }
+    },
+    {
+      "id": "toyotama-hime-c04",
+      "source_id": "toyotama-hime-s1",
+      "quote": "Detailed accounts of her marriage and motherhood are provided by both Kojiki and Nihongi.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Perkawinan dan keibuannya dikisahkan dalam Kojiki dan Nihon Shoki.",
+        "en": "Her marriage and motherhood appear in the Kojiki and Nihon Shoki."
+      }
+    },
+    {
+      "id": "toyotama-hime-c05",
+      "source_id": "toyotama-hime-s1",
+      "quote": "she requested that he build her a parturition hut thatched with cormorant feathers.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia meminta pondok bersalin beratap bulu burung pecuk.",
+        "en": "She requested a birthing hut thatched with cormorant feathers."
+      }
+    },
+    {
+      "id": "toyotama-hime-c06",
+      "source_id": "toyotama-hime-s1",
+      "quote": "Toyotamabime asked Hohodemi not to look upon her as she gave birth, but the curious Hohodemi peeked in",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia melarang Hohodemi melihatnya saat melahirkan, tetapi suaminya mengintip.",
+        "en": "She forbade Hohodemi to watch the birth, but he peeped in."
+      }
+    },
+    {
+      "id": "toyotama-hime-c07",
+      "source_id": "toyotama-hime-s1",
+      "quote": "Enraged and shamed that she had been seen in this form, Toyotamabime returned to her ocean home",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Karena malu terlihat dalam wujud itu, ia kembali ke laut.",
+        "en": "Shamed at being seen in that form, she returned to the sea."
+      }
+    },
+    {
+      "id": "toyotama-hime-c08",
+      "source_id": "toyotama-hime-s2",
+      "quote": "in Kojiki, this was her original form, but the main text of Nihongi states that she became a dragon",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kojiki dan teks utama Nihon Shoki berbeda tentang wujudnya; yang terakhir menyebut naga.",
+        "en": "The Kojiki and main Nihon Shoki text differ; the latter says dragon."
+      }
+    },
+    {
+      "id": "toyotama-hime-c09",
+      "source_id": "toyotama-hime-s3",
+      "quote": "Many people come to this shrine to pray for beautiful skin and good health.",
+      "locator": "Toyotamahime",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Orang datang ke kuilnya untuk berdoa bagi kesehatan dan kulit yang indah.",
+        "en": "Visitors pray at her shrine for health and beautiful skin."
+      }
+    },
+    {
+      "id": "toyotama-hime-c10",
+      "source_id": "toyotama-hime-s3",
+      "quote": "Toyotamahime, the story goes, married Prince Hoori no Mikoto, a mythical ancestor of the Japanese imperial line.",
+      "locator": "Toyotamahime",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Toyotama-hime menikah dengan Hoori menurut legenda.",
+        "en": "Toyotama-hime marries Hoori in the legend."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "tsuchigumo",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Tsuchigumo",
+    "native_name": null,
+    "display_name": {
+      "id": "Tsuchigumo",
+      "en": "Tsuchigumo"
+    },
+    "wikidata_qid": "Q2063089",
+    "claim_ids": [
+      "tsuchigumo-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "pengubah wujud",
+    "claim_ids": [
+      "tsuchigumo-c04",
+      "tsuchigumo-c07"
+    ]
+  },
+  "classification": {
+    "value": "shapeshifter",
+    "claim_ids": [
+      "tsuchigumo-c04",
+      "tsuchigumo-c07"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "tsuchigumo-c01",
+      "tsuchigumo-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "tsuchigumo-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Tsuchigumo adalah makhluk laba-laba raksasa yang berhadapan dengan pendekar Yorimitsu.",
+    "en": "Tsuchigumo is a giant spider creature confronted by the warrior Yorimitsu.",
+    "claim_ids": [
+      "tsuchigumo-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Tsuchigumo, atau “laba-laba tanah”, adalah makhluk mengerikan yang dalam gulungan cerita digambarkan sebagai setan berwujud laba-laba raksasa. Musuhnya adalah Minamoto no Yorimitsu dan pengikutnya Watanabe no Tsuna. Dalam alur gulungan itu, mereka mengejar tengkorak terbang ke sebuah rumah tua di Kyoto, menemui berbagai monster, lalu mengalahkan sosok besar yang ternyata laba-laba tanah. Gaya lukisan gulungan berkaitan dengan periode Kamakura; kisahnya juga dikenal dalam cerita perang dan teater Noh.",
+      "en": "Tsuchigumo, or “earth spider,” is a frightening creature portrayed in a narrative scroll as a demon shaped like a giant ground spider. Its opponents are Minamoto no Yorimitsu and his retainer Watanabe no Tsuna. In the scroll, they pursue a flying skull to an old house in Kyoto, encounter monsters, and defeat a giant that reveals itself as an earth spider. Its painting style is associated with the Kamakura period; the story also appears in a warrior tale and Noh.",
+      "claim_ids": [
+        "tsuchigumo-c01",
+        "tsuchigumo-c02",
+        "tsuchigumo-c03",
+        "tsuchigumo-c04",
+        "tsuchigumo-c05",
+        "tsuchigumo-c06"
+      ]
+    },
+    {
+      "id": "Penceritaan lain dalam seni rupa menonjolkan kemampuannya berganti rupa. Sebuah label museum menceritakan laba-laba muncul di hadapan Yorimitsu sebagai biksu dan hendak menjeratnya dengan jaring. Dalam cetakan kayu yang dibahas museum yang sama, sakit Yorimitsu dikaitkan dengan penglihatan laba-laba tanah; serangan terhadap makhluk itu mengakhiri sakitnya. Dengan demikian sosok biksu, monster raksasa, dan laba-laba adalah rupa yang muncul dalam ragam cerita dan pementasan, bukan gambaran satu hewan nyata.",
+      "en": "Other artistic tellings emphasize changes of appearance. A museum label says the spider appears to Yorimitsu as a monk and tries to trap him with a web. In a woodcut discussed by the same museum, his illness is linked to a vision of the earth spider, and attacking it ends the illness. Monk, giant monster, and spider are forms in different stories and performances, rather than descriptions of a real animal.",
+      "claim_ids": [
+        "tsuchigumo-c05",
+        "tsuchigumo-c06",
+        "tsuchigumo-c07",
+        "tsuchigumo-c08"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "tsuchigumo-s1",
+      "url": "https://emuseum.nich.go.jp/detail?content_base_id=100257&content_part_id=001&content_pict_id=0&langId=en&webView=0",
+      "title": "Tsuchigumo no Sōshi Emaki",
+      "author": null,
+      "publisher": "National Institutes for Cultural Heritage / Tokyo National Museum",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "tsuchigumo-s2",
+      "url": "https://spencerart.ku.edu/art/collections-online/object/15200",
+      "title": "Tsuchigumo (Earth Spider)",
+      "author": null,
+      "publisher": "Spencer Museum of Art, University of Kansas",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "tsuchigumo-c01",
+      "source_id": "tsuchigumo-s1",
+      "quote": "Tsuchigumo (a demon in the shape of a giant ground spider) and Minamoto no Yorimitsu",
+      "locator": "Object description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tsuchigumo dalam gulungan digambarkan sebagai setan berbentuk laba-laba tanah raksasa.",
+        "en": "The scroll portrays Tsuchigumo as a demon shaped like a giant ground spider."
+      }
+    },
+    {
+      "id": "tsuchigumo-c02",
+      "source_id": "tsuchigumo-s1",
+      "quote": "Yorimitsu saw a skull flying in the sky and chased it with Watanabe no Tsuna to Kaguraoka, Kyoto.",
+      "locator": "Object description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Yorimitsu dan Watanabe no Tsuna mengejar tengkorak terbang ke Kyoto.",
+        "en": "Yorimitsu and Watanabe no Tsuna pursue a flying skull to Kyoto."
+      }
+    },
+    {
+      "id": "tsuchigumo-c03",
+      "source_id": "tsuchigumo-s1",
+      "quote": "In a run-down house there, they found various monsters. Then a giant creature appeared in front of them.",
+      "locator": "Object description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Mereka menemukan monster di rumah tua dan kemudian menghadapi sosok besar.",
+        "en": "They find monsters in an old house and face a giant creature."
+      }
+    },
+    {
+      "id": "tsuchigumo-c04",
+      "source_id": "tsuchigumo-s1",
+      "quote": "Then the creature showed its true colors: it was a giant ground spider.",
+      "locator": "Object description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sosok itu ternyata laba-laba tanah raksasa.",
+        "en": "The creature reveals itself as a giant ground spider."
+      }
+    },
+    {
+      "id": "tsuchigumo-c05",
+      "source_id": "tsuchigumo-s1",
+      "quote": "the paintings in this picture scroll bear the characteristics of the authentic painting styles of the Kamakura period",
+      "locator": "Object description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Museum mengaitkan gaya lukisan gulungan dengan periode Kamakura.",
+        "en": "The museum associates the scroll’s painting style with the Kamakura period."
+      }
+    },
+    {
+      "id": "tsuchigumo-c06",
+      "source_id": "tsuchigumo-s1",
+      "quote": "The story is well known as an episode in Taiheiki (a warrior tale) and the Noh song \"Tsuchigumo.\"",
+      "locator": "Object description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kisah juga dikenal dalam Taiheiki dan Noh.",
+        "en": "The story is also known in Taiheiki and Noh."
+      }
+    },
+    {
+      "id": "tsuchigumo-c07",
+      "source_id": "tsuchigumo-s2",
+      "quote": "the spider appears to the warrior as a monk and tries to trap him with its mesmerizing web.",
+      "locator": "Archive Label",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam pementasan kabuki, laba-laba muncul sebagai biksu dan menjerat dengan jaring.",
+        "en": "In a kabuki telling, the spider appears as a monk and traps with a web."
+      }
+    },
+    {
+      "id": "tsuchigumo-c08",
+      "source_id": "tsuchigumo-s2",
+      "quote": "The hero succumbs to unexplained sickness and sees a vision of a giant earth spider responsible for his frailty. Yorimitsu bravely attacks and kills the beast in its lair, which also vanquishes the hero's ills.",
+      "locator": "Archive Label",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam cetakan, sakit Yorimitsu dikaitkan dengan laba-laba dan hilang setelah ia mengalahkannya.",
+        "en": "In the print, Yorimitsu’s illness is linked to the spider and ends when he kills it."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "ubume",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Ubume",
+    "native_name": null,
+    "display_name": {
+      "id": "Ubume",
+      "en": "Ubume"
+    },
+    "wikidata_qid": "Q3046467",
+    "claim_ids": [
+      "ubume-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "roh",
+    "claim_ids": [
+      "ubume-c03"
+    ]
+  },
+  "classification": {
+    "value": "spirit",
+    "claim_ids": [
+      "ubume-c03"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "ubume-c01",
+      "ubume-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "ubume-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Ubume adalah roh ibu yang meninggal saat melahirkan dan dalam cerita meminta orang lain menggendong bayinya.",
+    "en": "Ubume is the spirit of a mother who died in childbirth and asks others to hold her baby in stories.",
+    "claim_ids": [
+      "ubume-c03",
+      "ubume-c05"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Ubume adalah sosok gaib yang paling sering digambarkan sebagai roh perempuan yang meninggal saat melahirkan. Ceritanya memiliki rupa dan identitas yang berbeda-beda. Dalam satu pola kisah, ia tampak seperti perempuan biasa yang menggendong bayi, meminta pejalan kaki memegang anak itu, lalu menghilang. Setelah itu, bayi tersebut ternyata hanya seikat daun atau sebongkah batu. Penjelasan dari kalangan museum juga memasukkan ibu yang meninggalkan anak kecil sebagai bagian dari gambaran ubume.",
+      "en": "Ubume is a supernatural figure most often described as the spirit of a woman who died in childbirth. Her identity and appearance vary across stories. In one common pattern she looks like an ordinary woman with a baby, asks a passerby to hold the child, and disappears. The apparent baby turns out to be leaves or a rock. A museum lecture also includes women who left behind young children in its account of ubume.",
+      "claim_ids": [
+        "ubume-c01",
+        "ubume-c02",
+        "ubume-c03",
+        "ubume-c04",
+        "ubume-c05",
+        "ubume-c06"
+      ]
+    },
+    {
+      "id": "Ubume dapat disebut yōkai maupun hantu ibu. Kisahnya berkaitan dengan pandangan sosial dan agama tentang persalinan serta kehilangan ibu. Sebuah ringkasan perpustakaan universitas menyebut bahwa pada akhir abad pertengahan, sebagian masyarakat menganggap kematian ibu saat hamil atau melahirkan sebagai dosa dan menyalahkan ibu atas kematian janin. Pengertian itu adalah sikap masa lampau yang dicatat sebagai latar kepercayaan, bukan penilaian atas ibu yang meninggal. Dalam pembahasan seni, kisah hantu, lukisan ukiyo-e, dan kabuki dipandang sebagai media yang mengembangkan tema hantu perempuan.",
+      "en": "Ubume may be called both a yōkai and a mother ghost. Her tales are connected with social and religious views about childbirth and maternal loss. A university library summary says that in the late medieval period some people viewed a mother’s death in late pregnancy or childbirth as a sin and blamed her for a fetus’s death. That is a historical attitude reported as context, not a judgment on mothers who died. An art lecture notes that ghost tales, ukiyo-e painting, and kabuki developed ghost themes.",
+      "claim_ids": [
+        "ubume-c01",
+        "ubume-c05",
+        "ubume-c07",
+        "ubume-c08",
+        "ubume-c09"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "ubume-s1",
+      "url": "https://bakemono.lib.byu.edu/yokai/ubume/",
+      "title": "Ubume",
+      "author": "Sarah Deeb",
+      "publisher": "Brigham Young University Library",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "ubume-s2",
+      "url": "https://amis-musee-cernuschi.org/en/creatures-qui-font-frissonner-le-surnaturel-dans-lart-du-japon-2/",
+      "title": "Chilling Creatures: The Supernatural in Japanese Art",
+      "author": "Manuela Moscattelio",
+      "publisher": "Society of Friends of the Cernuschi Museum",
+      "published": "2017-05-17",
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "ubume-c01",
+      "source_id": "ubume-s1",
+      "quote": "Ubume (うふめ) can be described as a type of supernatural entity, or yōkai.",
+      "locator": "Ubume",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ubume termasuk sosok gaib atau yōkai.",
+        "en": "Ubume is described as a supernatural being or yōkai."
+      }
+    },
+    {
+      "id": "ubume-c02",
+      "source_id": "ubume-s1",
+      "quote": "Throughout folk stories and literature, the identity and appearance of ubume vary.",
+      "locator": "Ubume",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Rupa dan identitas ubume berbeda-beda menurut cerita.",
+        "en": "Ubume’s identity and appearance vary across stories."
+      }
+    },
+    {
+      "id": "ubume-c03",
+      "source_id": "ubume-s1",
+      "quote": "she is most commonly depicted as the spirit of a woman who has died during childbirth.",
+      "locator": "Ubume",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia paling sering digambarkan sebagai roh perempuan yang meninggal saat melahirkan.",
+        "en": "She is most often depicted as a woman’s spirit after childbirth death."
+      }
+    },
+    {
+      "id": "ubume-c04",
+      "source_id": "ubume-s1",
+      "quote": "Passersby will see her as a normal-looking woman carrying a baby.",
+      "locator": "Ubume",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pejalan kaki melihatnya sebagai perempuan biasa yang menggendong bayi.",
+        "en": "Passersby see her as a normal-looking woman with a baby."
+      }
+    },
+    {
+      "id": "ubume-c05",
+      "source_id": "ubume-s1",
+      "quote": "She will typically try to give a passerby her child, then disappear.",
+      "locator": "Ubume",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia meminta orang menggendong bayinya lalu menghilang.",
+        "en": "She hands over the child and disappears."
+      }
+    },
+    {
+      "id": "ubume-c06",
+      "source_id": "ubume-s1",
+      "quote": "When the person looks at the child they discover it is only a bundle of leaves or a large rock.",
+      "locator": "Ubume",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Bayi itu ternyata seikat daun atau batu besar.",
+        "en": "The baby turns out to be leaves or a rock."
+      }
+    },
+    {
+      "id": "ubume-c07",
+      "source_id": "ubume-s2",
+      "quote": "ubume (ghosts of women who died during childbirth or left behind a young child)",
+      "locator": "Lecture text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ceramah museum memasukkan perempuan yang meninggalkan anak kecil ke dalam gambaran ubume.",
+        "en": "The museum lecture includes mothers who left a young child."
+      }
+    },
+    {
+      "id": "ubume-c08",
+      "source_id": "ubume-s1",
+      "quote": "For a mother to die in childbirth or late pregnancy came to be considered a sin; blame for the death of the unborn child came to be placed on the mother",
+      "locator": "Ubume",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ringkasan perpustakaan mencatat sikap menyalahkan ibu sebagai konteks sejarah.",
+        "en": "The library summary reports historical blame placed on mothers."
+      }
+    },
+    {
+      "id": "ubume-c09",
+      "source_id": "ubume-s2",
+      "quote": "literature, Ukiyo-e painting and theater kabuki used and developed the theme of ghosts",
+      "locator": "Lecture text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sastra, lukisan ukiyo-e, dan kabuki mengembangkan tema hantu.",
+        "en": "Literature, ukiyo-e, and kabuki developed ghost themes."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "ugayafukiaezu",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Ugayafukiaezu",
+    "native_name": null,
+    "display_name": {
+      "id": "Ugayafukiaezu",
+      "en": "Ugayafukiaezu"
+    },
+    "wikidata_qid": "Q1373935",
+    "claim_ids": [
+      "ugayafukiaezu-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "ugayafukiaezu-c08"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "ugayafukiaezu-c08"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "ugayafukiaezu-c01",
+      "ugayafukiaezu-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "ugayafukiaezu-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Ugayafukiaezu adalah dewa, putra Toyotama-hime dan ayah kaisar legendaris Jimmu.",
+    "en": "Ugayafukiaezu is a deity, Toyotama-hime’s son and the father of the legendary Emperor Jimmu.",
+    "claim_ids": [
+      "ugayafukiaezu-c01",
+      "ugayafukiaezu-c08"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Ugayafukiaezu adalah putra dewa Hohodemi dan dewi laut Toyotama-hime dalam cerita klasik. Ia dikenal sebagai ayah Jimmu, tokoh yang dipandang sebagai kaisar pertama dalam silsilah mitologi. Namanya merujuk pada pondok bersalin yang atapnya belum selesai dilapisi bulu burung pecuk ketika ia lahir di tepi laut. Ibunya kembali ke laut setelah dilihat dalam wujudnya saat bersalin, dan bayi itu diasuh oleh adik Toyotama-hime, Tamayori.",
+      "en": "Ugayafukiaezu is the son of Hohodemi and the sea goddess Toyotama-hime in classical accounts. He is the father of Jimmu, regarded as the first emperor in a mythic genealogy. His name refers to a birthing hut whose cormorant-feather roof was unfinished when he was born by the sea. His mother returned to the ocean after being seen in her childbirth form, and her sister Tamayori raised the child.",
+      "claim_ids": [
+        "ugayafukiaezu-c01",
+        "ugayafukiaezu-c02",
+        "ugayafukiaezu-c03",
+        "ugayafukiaezu-c04",
+        "ugayafukiaezu-c05"
+      ]
+    },
+    {
+      "id": "Setelah dewasa, Ugayafukiaezu menikahi Tamayori. Keduanya memiliki beberapa putra; yang termuda dalam uraian ensiklopedia adalah Kamuyamatoiwarebiko atau Jimmu. Sumber-sumber memiliki rincian berbeda tentang peristiwa kelahirannya, termasuk apakah Toyotama-hime meninggalkannya di pantai atau membawa bayi itu lebih dulu ke istana laut. Dalam pemujaan sekarang, Ugayafukiaezu diabadikan sebagai dewa di Kuil Udo di Nichinan; menurut kepercayaan setempat, gua tepi laut yang menampung kuil itu adalah tempat kelahirannya.",
+      "en": "As an adult Ugayafukiaezu marries Tamayori. Their sons include Kamuyamatoiwarebiko, or Jimmu. Accounts differ over his birth, including whether Toyotama-hime leaves him on shore or first takes him to her sea palace. Today he is enshrined as a Shinto deity at Udo Shrine in Nichinan; local belief identifies the coastal cave containing the shrine as his birthplace.",
+      "claim_ids": [
+        "ugayafukiaezu-c06",
+        "ugayafukiaezu-c07",
+        "ugayafukiaezu-c08",
+        "ugayafukiaezu-c09"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "ugayafukiaezu-s1",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9134",
+      "title": "Ugayafukiaezu",
+      "author": "Mori Mizue",
+      "publisher": "Kokugakuin University Encyclopedia of Shinto",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "ugayafukiaezu-s2",
+      "url": "https://www.mlit.go.jp/tagengo-db/en/R2-02134.html",
+      "title": "The Myths of Japan: Ugayafukiaezu",
+      "author": null,
+      "publisher": "Japan Tourism Agency",
+      "published": "2020",
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "ugayafukiaezu-c01",
+      "source_id": "ugayafukiaezu-s1",
+      "quote": "The son of Hohodemi (Ninigi's son) and Toyotamabime (Watatsumi's daughter); the father of Emperor Jinmu.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ugayafukiaezu adalah putra Hohodemi dan Toyotama-hime serta ayah Jimmu.",
+        "en": "Ugayafukiaezu is Hohodemi and Toyotama-hime’s son and Jimmu’s father."
+      }
+    },
+    {
+      "id": "ugayafukiaezu-c02",
+      "source_id": "ugayafukiaezu-s1",
+      "quote": "Ugayafukiaezu's name (\"cormorant-rush-thatching-unfinished\") is associated with the events of his birth",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Namanya berkaitan dengan atap bulu burung pecuk yang belum selesai saat ia lahir.",
+        "en": "His name relates to an unfinished cormorant-thatch roof at birth."
+      }
+    },
+    {
+      "id": "ugayafukiaezu-c03",
+      "source_id": "ugayafukiaezu-s2",
+      "quote": "she goes into labor before the roof, made of cormorant feathers, can be completed.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Persalinan dimulai sebelum atap bulu burung pecuk selesai.",
+        "en": "Labor begins before the cormorant-feather roof is completed."
+      }
+    },
+    {
+      "id": "ugayafukiaezu-c04",
+      "source_id": "ugayafukiaezu-s2",
+      "quote": "Her true form revealed, Toyotama returns to the sea in anguish, leaving her newborn baby behind.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Toyotama kembali ke laut dan meninggalkan bayi yang baru lahir.",
+        "en": "Toyotama returns to the sea and leaves her newborn behind."
+      }
+    },
+    {
+      "id": "ugayafukiaezu-c05",
+      "source_id": "ugayafukiaezu-s2",
+      "quote": "He is brought up by Toyotama’s sister Tamayori, whom he marries after reaching adulthood.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tamayori mengasuhnya lalu menikah dengannya saat dewasa.",
+        "en": "Tamayori raises him and later marries him."
+      }
+    },
+    {
+      "id": "ugayafukiaezu-c06",
+      "source_id": "ugayafukiaezu-s1",
+      "quote": "Ugayafukiaezu later married his aunt Tamayoribime and fathered the kami Itsuse no mikoto, Inahi no mikoto, Mikenu no mikoto, and Kamuyamatoiwarebiko (Emperor Jinmu).",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia menikahi Tamayoribime dan menjadi ayah beberapa putra termasuk Jimmu.",
+        "en": "He marries Tamayoribime and fathers sons including Jimmu."
+      }
+    },
+    {
+      "id": "ugayafukiaezu-c07",
+      "source_id": "ugayafukiaezu-s1",
+      "quote": "Toyotamabime could not bring herself to abandon the child, and took him up and returned with him to her palace in the sea.",
+      "locator": "Alternate writing",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam satu versi lain Toyotama-hime membawa bayi itu ke istana laut.",
+        "en": "In another version she takes the child to her sea palace."
+      }
+    },
+    {
+      "id": "ugayafukiaezu-c08",
+      "source_id": "ugayafukiaezu-s2",
+      "quote": "Ugayafukiaezu is enshrined as a Shinto deity at Udo Shrine in the city of Nichinan.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ugayafukiaezu dipuja sebagai dewa di Kuil Udo, Nichinan.",
+        "en": "Ugayafukiaezu is enshrined as a deity at Udo Shrine in Nichinan."
+      }
+    },
+    {
+      "id": "ugayafukiaezu-c09",
+      "source_id": "ugayafukiaezu-s2",
+      "quote": "According to local beliefs, the coastal cave that houses Udo Shrine is his birthplace.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Menurut kepercayaan setempat, gua tepi laut di Kuil Udo adalah tempat kelahirannya.",
+        "en": "Local belief identifies Udo Shrine’s coastal cave as his birthplace."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "ushi-oni",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Ushi-oni",
+    "native_name": null,
+    "display_name": {
+      "id": "Ushi-oni",
+      "en": "Ushi-oni"
+    },
+    "wikidata_qid": "Q2564776",
+    "claim_ids": [
+      "ushi-oni-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "ushi-oni-c02"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "ushi-oni-c02"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "ushi-oni-c01",
+      "ushi-oni-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "ushi-oni-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Ushi-oni adalah yōkai berkepala sapi atau iblis yang kisah dan arak-arakannya dikenal di wilayah Jepang barat.",
+    "en": "Ushi-oni is an ox- or demon-headed yōkai known in stories and festival processions in western Japan.",
+    "claim_ids": [
+      "ushi-oni-c02",
+      "ushi-oni-c03",
+      "ushi-oni-c08",
+      "ushi-oni-c09"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Ushi-oni, yang namanya berarti iblis sapi, adalah yōkai dengan bentuk yang berbeda-beda menurut cerita. Ada penggambaran kepala sapi pada tubuh oni, ada pula kepala sapi pada tubuh laba-laba. Dalam cerita rakyat ia sering ditempatkan di pesisir, kolam dalam, dan pegunungan Jepang barat. Beberapa kisah menggambarkannya sebagai ancaman yang memangsa manusia atau membawa penyakit. Karena itu, rupa arak-arakan festival tidak boleh dianggap sebagai satu-satunya bentuk yang dimiliki makhluk legenda ini.",
+      "en": "Ushi-oni, literally an ox demon, is a yōkai whose appearance varies across accounts. Depictions include an ox head on an oni body or on a spider body. Stories place it near coasts, deep pools, and mountains in western Japan. Some portray it as a danger that devours people or brings disease. The festival float is therefore one local representation, not its only legendary form.",
+      "claim_ids": [
+        "ushi-oni-c01",
+        "ushi-oni-c02",
+        "ushi-oni-c03",
+        "ushi-oni-c04"
+      ]
+    },
+    {
+      "id": "Di Uwajima, Ehime, ushi-oni mendapat peran lain dalam arak-arakan. Satu penjelasan folklor menyebutnya pengusir roh jahat saat memimpin prosesi mikoshi. Festival musim panas di kota itu juga menampilkan figur ushi-oni yang diarak keluarga. Panduan wisata nasional menggambarkan figur dari kerangka bambu setinggi hingga enam meter, dengan kepala gabungan sapi dan iblis. Perbedaan antara ancaman dalam beberapa cerita dan pelindung dalam festival menunjukkan ragam fungsi sosok ini dalam tradisi.",
+      "en": "In Uwajima, Ehime, ushi-oni has another role in processions. One folklore account says it drives away evil spirits while leading a mikoshi procession. The city’s summer festival also features family ushi-oni floats. The national tourism guide describes figures built on bamboo frames up to six meters high, with heads combining an ox and a demon. The difference between a threat in some tales and a protector in the festival shows its varied roles.",
+      "claim_ids": [
+        "ushi-oni-c05",
+        "ushi-oni-c06",
+        "ushi-oni-c07",
+        "ushi-oni-c08",
+        "ushi-oni-c09",
+        "ushi-oni-c10"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "ushi-oni-s1",
+      "url": "https://yokai.jp/en/yokai/ushioni",
+      "title": "Ushi-oni",
+      "author": null,
+      "publisher": "YOKAI.JP",
+      "published": null,
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "ushi-oni-s2",
+      "url": "https://www.setouchi.travel/en/see-and-do/spot/0122/",
+      "title": "Warei Shrine Festival, Uwajima Ushi-Oni Festival",
+      "author": null,
+      "publisher": "Setouchi Tourism Authority",
+      "published": null,
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "ushi-oni-s3",
+      "url": "https://www.japan.travel/en/spot/813/",
+      "title": "Uwajima Ushioni Festival",
+      "author": null,
+      "publisher": "Japan National Tourism Organization",
+      "published": null,
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "ushi-oni-c01",
+      "source_id": "ushi-oni-s3",
+      "quote": "The ushioni bull demons that parade the streets stand up to six meters high and are constructed on bamboo frames",
+      "locator": "Quick Facts",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ushi-oni disebut iblis sapi dalam panduan festival.",
+        "en": "The festival guide calls ushioni bull demons."
+      }
+    },
+    {
+      "id": "ushi-oni-c02",
+      "source_id": "ushi-oni-s1",
+      "quote": "Its body has no single form: some artists give it a bull's head on an oni's body, while others set the same head on the body of a spider.",
+      "locator": "Basic Description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Wujudnya bervariasi antara kepala sapi bertubuh oni atau laba-laba.",
+        "en": "Depictions vary between an ox head on an oni body and on a spider body."
+      }
+    },
+    {
+      "id": "ushi-oni-c03",
+      "source_id": "ushi-oni-s1",
+      "quote": "Ushi-oni appears chiefly on the coasts, in deep pools, and in the mountains of western Japan.",
+      "locator": "Basic Description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Cerita menempatkannya di pesisir, kolam dalam, dan pegunungan Jepang barat.",
+        "en": "Stories place it by coasts, deep pools, and mountains in western Japan."
+      }
+    },
+    {
+      "id": "ushi-oni-c04",
+      "source_id": "ushi-oni-s1",
+      "quote": "In one guise, Ushi-oni is a cruel man-eater and bringer of disease that spreads poisonous breath without discrimination.",
+      "locator": "Basic Description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Satu gambaran menyebutnya pemangsa manusia dan pembawa penyakit.",
+        "en": "One portrayal makes it a man-eater and bringer of disease."
+      }
+    },
+    {
+      "id": "ushi-oni-c05",
+      "source_id": "ushi-oni-s1",
+      "quote": "In another, it leads a mikoshi procession and uses its tremendous force to drive away other evil spirits.",
+      "locator": "Basic Description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam peran lain ushi-oni memimpin prosesi mikoshi dan mengusir roh jahat.",
+        "en": "In another role it leads mikoshi processions and drives away evil spirits."
+      }
+    },
+    {
+      "id": "ushi-oni-c06",
+      "source_id": "ushi-oni-s1",
+      "quote": "Over time, a frightening presence in literature became part of regional worship and festival performance.",
+      "locator": "Basic Description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sosok yang menakutkan dalam sastra menjadi bagian dari pemujaan dan pertunjukan daerah.",
+        "en": "A frightening literary figure became part of local worship and festivals."
+      }
+    },
+    {
+      "id": "ushi-oni-c07",
+      "source_id": "ushi-oni-s3",
+      "quote": "when ushioni and mikoshi shrines parade through the streets.",
+      "locator": "Festival overview",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ushi-oni dan mikoshi diarak di jalan saat festival.",
+        "en": "Ushi-oni and mikoshi parade in the streets."
+      }
+    },
+    {
+      "id": "ushi-oni-c08",
+      "source_id": "ushi-oni-s3",
+      "quote": "The ushioni bull demons that parade the streets stand up to six meters high and are constructed on bamboo frames",
+      "locator": "Quick Facts",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Figur arak-arakan tingginya hingga enam meter dan dibuat dengan kerangka bambu.",
+        "en": "The parade figures reach six meters and use bamboo frames."
+      }
+    },
+    {
+      "id": "ushi-oni-c09",
+      "source_id": "ushi-oni-s3",
+      "quote": "The head is a cross between a bull and a demon",
+      "locator": "Quick Facts",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kepala figur festival merupakan perpaduan sapi dan iblis.",
+        "en": "The festival figure’s head combines bull and demon."
+      }
+    },
+    {
+      "id": "ushi-oni-c10",
+      "source_id": "ushi-oni-s2",
+      "quote": "A summer festival held in Uwajima City, Ehime prefecture, where various performances can be seen for 3 days from annually July 22nd until July 24th. The highlight is the family ushi-oni parade on the final day.",
+      "locator": "Festival description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Di Uwajima, Ehime, arak-arakan keluarga ushi-oni menjadi puncak festival.",
+        "en": "In Uwajima, Ehime, the family ushi-oni parade is a festival highlight."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+

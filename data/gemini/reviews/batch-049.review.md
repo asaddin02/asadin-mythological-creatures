@@ -1,8 +1,6 @@
 # Review batch-049
 
-Diperiksa 2026-09-30T06:57:15.646Z. Berkas: batch-049.md.
-
-**Belum dikirim:** zashiki-warashi, amanojaku, sojobo, toyotama-hime, tsuchigumo, ubume, ugayafukiaezu, ushi-oni
+Diperiksa 2026-09-30T07:28:23.074Z. Berkas: batch-049.md.
 
 ## susanoo — lulus-otomatis
 
@@ -715,4 +713,145 @@ Klaim 9 (exact 9), sumber 3, gambar 0.
 | obake-c07 | exact | www.ashmolean.org | Related beings appear in paintings, prints, netsuke, and kabuki. | These beings have long been represented in Japanese art and literature – depicted in paintings and prints, carved as netsuke belt toggles and dramatized for the kabuki theatre. |
 | obake-c08 | exact | www.ashmolean.org | The museum’s ukiyo-e prints date to the mid-nineteenth century. | The ukiyo-e woodblock prints shown here all date from the mid-19th century |
 | obake-c09 | exact | japansociety.org | Japan Society notes a broadened use of obake for American-style ghouls. | the term obake has lost much of its original meaning, and now commonly refers to standard American ghouls. |
+
+
+## zashiki-warashi — lulus-otomatis
+
+Klaim 9 (exact 9), sumber 4, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| zashiki-warashi-c01 | exact | www.worthsharing.jpf.go.jp | Zashiki-warashi is described as a household deity that looks like a child. | The zashiki-warashi, a household deity that looks like a child |
+| zashiki-warashi-c02 | exact | www.worthsharing.jpf.go.jp | The Tōno stories come from mountainous Iwate. | The Tōno region, nestled amid the mountains of Iwate Prefecture in northern Japan, is famous for its folktales. |
+| zashiki-warashi-c03 | exact | fukusakikankou.jp | Another account places this child spirit in rooms or storehouses. | The Zashiki-warashi is a child spirit that is said to reside in rooms or storehouses. |
+| zashiki-warashi-c04 | exact | fukusakikankou.jp | Homes with zashiki-warashi are believed to thrive. | It is believed that homes with a Zashiki-warashi will thrive |
+| zashiki-warashi-c05 | exact | fukusakikankou.jp | Its departure is believed to bring poverty. | while those from which it leaves will become poor. |
+| zashiki-warashi-c06 | exact | iwatetabi.jp | An Iwate guide calls it a boy-shaped guardian spirit of the house. | Zashikiwarashi is not a ghost, but a divine spirit of a boy with a cute bobbed hair, and in this region it is considered an important guardian deity of the house. |
+| zashiki-warashi-c07 | exact | www.worthsharing.jpf.go.jp | Yanagita Kunio published the Tōno story collection in 1910. | The original Tōno monogatari [trans. The Legends of Tōno] was published in 1910 by folklorist Yanagita Kunio, collecting stories gathered by Sasaki Kizen, a Tōno native himself. |
+| zashiki-warashi-c08 | exact | iwatetabi.jp | An inn says the spirit lives in Enju-no-Ma and that those who see it succeed. | At the end of a long corridor is the "Enju-no-Ma," a room where the Zashiki Warashi live, and it is said that those who see them will be successful in life. |
+| zashiki-warashi-c09 | exact | iwatetabi.jp | The tourism guide reports claimed sightings while calling it a legend. | Although it is a legend, there are still many people who claim to have seen the Zashiki Warashi. |
+
+
+## amanojaku — lulus-otomatis
+
+Klaim 11 (exact 11), sumber 4, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| amanojaku-c01 | exact | yokai.jp | Amanojaku is described as a small demon that defies people and reverses requests. | Amanojaku is a small demon known for defying people, twisting words and actions, and teasing by doing the opposite of what is asked. |
+| amanojaku-c02 | exact | performingarts.jpf.go.jp | In figurative use, amanojaku is a contrary person. | Amanojaku (contrary person) is an example of one who always looks in the opposite way when everyone is looking in the same direction. |
+| amanojaku-c03 | exact | www.vogue.pt | The Urikohime tale begins with a girl born from a melon. | “Princess Melon” tells of a girl born from a melon, which is found streaming down a river by a human couple. |
+| amanojaku-c04 | exact | www.vogue.pt | Amanojaku comes to Urikohime and forces its way inside. | the young woman is visited by a suspicious spirit, Amanojaku, who already had her in his sights and ends up forcing its entrance. |
+| amanojaku-c05 | exact | www.vogue.pt | In one version, the spirit kills the girl and takes her place. | In one version of the tale, the spirit kills the girl and uses her skin, taking her place |
+| amanojaku-c06 | exact | www.vogue.pt | Another version says it kills or ties her up and takes her place. | Before getting married, Amanojaku kills her (or ties her to a tree) and dresses like her, being taken away in a palanquin to the wedding. |
+| amanojaku-c07 | exact | www.mlit.go.jp | The Four Kings trample amanojaku as a symbol of ignorance of Buddhist teachings. | They are depicted trampling demonic creatures (amanojaku) that represent ignorance of the Buddha’s teachings. |
+| amanojaku-c08 | exact | www.mlit.go.jp | The statues were carved in the late tenth century. | Each of the statues was carved from a single block of Japanese cypress in the late tenth century by the monk Kan’na |
+| amanojaku-c09 | exact | yokai.jp | Local stories describe it as a voice mimic, mountain echo, or giant. | Local traditions portray it variously as a voice-mimicker, a mountain echo, or even a giant. |
+| amanojaku-c10 | exact | www.vogue.pt | The deception is exposed and the creature is chased away. | But the hoax is also revealed - in the version where she is tied up, she screams for help and is eventually saved, the creature then being chased away. |
+| amanojaku-c11 | exact | www.mlit.go.jp | The Four Heavenly Kings are deities in Mahayana Buddhist tradition. | The Four Heavenly Kings are deities within the Mahayana Buddhist tradition and are found throughout Asia. |
+
+
+## sojobo — lulus-otomatis
+
+Klaim 8 (exact 8), sumber 4, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| sojobo-c01 | exact | jpsearch.go.jp | Sōjōbō is a great tengu said to live in Sōjō-ga-tani and known as Kurama Tengu. | Sōjōbō of Mt. Kurama is a great tengu, who is said to live in Sōjō-ga-tani, and is also known as Kurama Tengu. |
+| sojobo-c02 | exact | jpsearch.go.jp | Mount Kurama lies north of Kyoto. | Kuramayama (Mt. Kurama), a boundary land located in the north of Kyoto. |
+| sojobo-c03 | exact | jpsearch.go.jp | Legend says Yoshitsune learned tactics from Kurama Tengu to defeat the Heike. | It is said that Minamoto no Yoshitsune was given tactics by Kurama Tengu at Kurama Temple to subdue the Heike clan. |
+| sojobo-c04 | exact | kyoto.travel | Kyoto’s guide also presents Yoshitsune’s childhood training with a tengu as a story. | According to the story, during his childhood (when he was known as Ushiwakamaru) this is where he trained with a tengu—a legendary long-nosed demon. |
+| sojobo-c05 | exact | asia-archive.si.edu | The Smithsonian votive painting shows Yoshitsune learning martial arts from Sōjōbō and crow tengu. | “Ema” votive painting of Minamoto Yoshitsune learning martial arts from the Tengu Sōjōbō and karasu tengu on Mt. Kurama |
+| sojobo-c06 | exact | www.ngv.vic.gov.au | The Kunisada print title calls Sōjōbō King Tengu guiding Yoshitsune. | Yoshitsune battles Konoha crow tengu under the guidance of the monk Sojobo (King Tengu) at Mt Kurama |
+| sojobo-c07 | exact | www.ngv.vic.gov.au | The print is dated 1853. | Yoshitsune battles Konoha crow tengu under the guidance of the monk Sojobo (King Tengu) at Mt Kurama 1853 |
+| sojobo-c08 | exact | jpsearch.go.jp | In a later form of the tale, subordinate crow tengu train Ushiwakamaru. | Kurama Tengu's subordinate Karasu Tengu trained Ushiwakamaru (Minamoto no Yoshitsune’s childhood name) in the art of warfare as his training partner. |
+
+
+## toyotama-hime — lulus-otomatis
+
+Klaim 10 (exact 10), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| toyotama-hime-c01 | exact | d-museum.kokugakuin.ac.jp | Toyotama-hime is Watatsumi’s daughter, Hohodemi’s consort, and Ugayafukiaezu’s mother. | Daughter of the sea kami Watatsumi, Toyotamabime was the consort of Hohodemi and mother of Ugayafukiaezu. |
+| toyotama-hime-c02 | exact | d-museum.kokugakuin.ac.jp | Toyotama-hime met Hohodemi in the undersea palace. | When Hohodemi visited Watatsumi's undersea palace, Toyotamabime met him and, entranced by his appearance, immediately informed her father of his arrival. |
+| toyotama-hime-c03 | exact | d-museum.kokugakuin.ac.jp | Hohodemi returned to land after three years. | She thereafter became his wife, but after three years, she became aware of her husband's longing for home, and Hohodemi subsequently returned to the land. |
+| toyotama-hime-c04 | exact | d-museum.kokugakuin.ac.jp | Her marriage and motherhood appear in the Kojiki and Nihon Shoki. | Detailed accounts of her marriage and motherhood are provided by both Kojiki and Nihongi. |
+| toyotama-hime-c05 | exact | d-museum.kokugakuin.ac.jp | She requested a birthing hut thatched with cormorant feathers. | she requested that he build her a parturition hut thatched with cormorant feathers. |
+| toyotama-hime-c06 | exact | d-museum.kokugakuin.ac.jp | She forbade Hohodemi to watch the birth, but he peeped in. | Toyotamabime asked Hohodemi not to look upon her as she gave birth, but the curious Hohodemi peeked in |
+| toyotama-hime-c07 | exact | d-museum.kokugakuin.ac.jp | Shamed at being seen in that form, she returned to the sea. | Enraged and shamed that she had been seen in this form, Toyotamabime returned to her ocean home |
+| toyotama-hime-c08 | exact | d-museum.kokugakuin.ac.jp | The Kojiki and main Nihon Shoki text differ; the latter says dragon. | in Kojiki, this was her original form, but the main text of Nihongi states that she became a dragon |
+| toyotama-hime-c09 | exact | www.city.ureshino.lg.jp | Visitors pray at her shrine for health and beautiful skin. | Many people come to this shrine to pray for beautiful skin and good health. |
+| toyotama-hime-c10 | exact | www.city.ureshino.lg.jp | Toyotama-hime marries Hoori in the legend. | Toyotamahime, the story goes, married Prince Hoori no Mikoto, a mythical ancestor of the Japanese imperial line. |
+
+
+## tsuchigumo — lulus-otomatis
+
+Klaim 8 (exact 8), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| tsuchigumo-c01 | exact | emuseum.nich.go.jp | The scroll portrays Tsuchigumo as a demon shaped like a giant ground spider. | Tsuchigumo (a demon in the shape of a giant ground spider) and Minamoto no Yorimitsu |
+| tsuchigumo-c02 | exact | emuseum.nich.go.jp | Yorimitsu and Watanabe no Tsuna pursue a flying skull to Kyoto. | Yorimitsu saw a skull flying in the sky and chased it with Watanabe no Tsuna to Kaguraoka, Kyoto. |
+| tsuchigumo-c03 | exact | emuseum.nich.go.jp | They find monsters in an old house and face a giant creature. | In a run-down house there, they found various monsters. Then a giant creature appeared in front of them. |
+| tsuchigumo-c04 | exact | emuseum.nich.go.jp | The creature reveals itself as a giant ground spider. | Then the creature showed its true colors: it was a giant ground spider. |
+| tsuchigumo-c05 | exact | emuseum.nich.go.jp | The museum associates the scroll’s painting style with the Kamakura period. | the paintings in this picture scroll bear the characteristics of the authentic painting styles of the Kamakura period |
+| tsuchigumo-c06 | exact | emuseum.nich.go.jp | The story is also known in Taiheiki and Noh. | The story is well known as an episode in Taiheiki (a warrior tale) and the Noh song "Tsuchigumo." |
+| tsuchigumo-c07 | exact | spencerart.ku.edu | In a kabuki telling, the spider appears as a monk and traps with a web. | the spider appears to the warrior as a monk and tries to trap him with its mesmerizing web. |
+| tsuchigumo-c08 | exact | spencerart.ku.edu | In the print, Yorimitsu’s illness is linked to the spider and ends when he kills it. | The hero succumbs to unexplained sickness and sees a vision of a giant earth spider responsible for his frailty. Yorimitsu bravely attacks and kills the beast in its lair, which also vanquishes the hero's ills. |
+
+
+## ubume — lulus-otomatis
+
+Klaim 9 (exact 7, unreachable 2), sumber 2, gambar 0.
+
+**manual**
+- `claims` 2 kutipan tidak bisa dicek otomatis: amis-musee-cernuschi.org (tidak bisa dibuka (fetch failed)).
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| ubume-c01 | exact | bakemono.lib.byu.edu | Ubume is described as a supernatural being or yōkai. | Ubume (うふめ) can be described as a type of supernatural entity, or yōkai. |
+| ubume-c02 | exact | bakemono.lib.byu.edu | Ubume’s identity and appearance vary across stories. | Throughout folk stories and literature, the identity and appearance of ubume vary. |
+| ubume-c03 | exact | bakemono.lib.byu.edu | She is most often depicted as a woman’s spirit after childbirth death. | she is most commonly depicted as the spirit of a woman who has died during childbirth. |
+| ubume-c04 | exact | bakemono.lib.byu.edu | Passersby see her as a normal-looking woman with a baby. | Passersby will see her as a normal-looking woman carrying a baby. |
+| ubume-c05 | exact | bakemono.lib.byu.edu | She hands over the child and disappears. | She will typically try to give a passerby her child, then disappear. |
+| ubume-c06 | exact | bakemono.lib.byu.edu | The baby turns out to be leaves or a rock. | When the person looks at the child they discover it is only a bundle of leaves or a large rock. |
+| ubume-c07 | unreachable (tidak bisa dibuka (fetch failed)) | amis-musee-cernuschi.org | The museum lecture includes mothers who left a young child. | ubume (ghosts of women who died during childbirth or left behind a young child) |
+| ubume-c08 | exact | bakemono.lib.byu.edu | The library summary reports historical blame placed on mothers. | For a mother to die in childbirth or late pregnancy came to be considered a sin; blame for the death of the unborn child came to be placed on the mother |
+| ubume-c09 | unreachable (tidak bisa dibuka (fetch failed)) | amis-musee-cernuschi.org | Literature, ukiyo-e, and kabuki developed ghost themes. | literature, Ukiyo-e painting and theater kabuki used and developed the theme of ghosts |
+
+
+## ugayafukiaezu — lulus-otomatis
+
+Klaim 9 (exact 9), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| ugayafukiaezu-c01 | exact | d-museum.kokugakuin.ac.jp | Ugayafukiaezu is Hohodemi and Toyotama-hime’s son and Jimmu’s father. | The son of Hohodemi (Ninigi's son) and Toyotamabime (Watatsumi's daughter); the father of Emperor Jinmu. |
+| ugayafukiaezu-c02 | exact | d-museum.kokugakuin.ac.jp | His name relates to an unfinished cormorant-thatch roof at birth. | Ugayafukiaezu's name ("cormorant-rush-thatching-unfinished") is associated with the events of his birth |
+| ugayafukiaezu-c03 | exact | www.mlit.go.jp | Labor begins before the cormorant-feather roof is completed. | she goes into labor before the roof, made of cormorant feathers, can be completed. |
+| ugayafukiaezu-c04 | exact | www.mlit.go.jp | Toyotama returns to the sea and leaves her newborn behind. | Her true form revealed, Toyotama returns to the sea in anguish, leaving her newborn baby behind. |
+| ugayafukiaezu-c05 | exact | www.mlit.go.jp | Tamayori raises him and later marries him. | He is brought up by Toyotama’s sister Tamayori, whom he marries after reaching adulthood. |
+| ugayafukiaezu-c06 | exact | d-museum.kokugakuin.ac.jp | He marries Tamayoribime and fathers sons including Jimmu. | Ugayafukiaezu later married his aunt Tamayoribime and fathered the kami Itsuse no mikoto, Inahi no mikoto, Mikenu no mikoto, and Kamuyamatoiwarebiko (Emperor Jinmu). |
+| ugayafukiaezu-c07 | exact | d-museum.kokugakuin.ac.jp | In another version she takes the child to her sea palace. | Toyotamabime could not bring herself to abandon the child, and took him up and returned with him to her palace in the sea. |
+| ugayafukiaezu-c08 | exact | www.mlit.go.jp | Ugayafukiaezu is enshrined as a deity at Udo Shrine in Nichinan. | Ugayafukiaezu is enshrined as a Shinto deity at Udo Shrine in the city of Nichinan. |
+| ugayafukiaezu-c09 | exact | www.mlit.go.jp | Local belief identifies Udo Shrine’s coastal cave as his birthplace. | According to local beliefs, the coastal cave that houses Udo Shrine is his birthplace. |
+
+
+## ushi-oni — lulus-otomatis
+
+Klaim 10 (exact 10), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| ushi-oni-c01 | exact | www.japan.travel | The festival guide calls ushioni bull demons. | The ushioni bull demons that parade the streets stand up to six meters high and are constructed on bamboo frames |
+| ushi-oni-c02 | exact | yokai.jp | Depictions vary between an ox head on an oni body and on a spider body. | Its body has no single form: some artists give it a bull's head on an oni's body, while others set the same head on the body of a spider. |
+| ushi-oni-c03 | exact | yokai.jp | Stories place it by coasts, deep pools, and mountains in western Japan. | Ushi-oni appears chiefly on the coasts, in deep pools, and in the mountains of western Japan. |
+| ushi-oni-c04 | exact | yokai.jp | One portrayal makes it a man-eater and bringer of disease. | In one guise, Ushi-oni is a cruel man-eater and bringer of disease that spreads poisonous breath without discrimination. |
+| ushi-oni-c05 | exact | yokai.jp | In another role it leads mikoshi processions and drives away evil spirits. | In another, it leads a mikoshi procession and uses its tremendous force to drive away other evil spirits. |
+| ushi-oni-c06 | exact | yokai.jp | A frightening literary figure became part of local worship and festivals. | Over time, a frightening presence in literature became part of regional worship and festival performance. |
+| ushi-oni-c07 | exact | www.japan.travel | Ushi-oni and mikoshi parade in the streets. | when ushioni and mikoshi shrines parade through the streets. |
+| ushi-oni-c08 | exact | www.japan.travel | The parade figures reach six meters and use bamboo frames. | The ushioni bull demons that parade the streets stand up to six meters high and are constructed on bamboo frames |
+| ushi-oni-c09 | exact | www.japan.travel | The festival figure’s head combines bull and demon. | The head is a cross between a bull and a demon |
+| ushi-oni-c10 | exact | www.setouchi.travel | In Uwajima, Ehime, the family ushi-oni parade is a festival highlight. | A summer festival held in Uwajima City, Ehime prefecture, where various performances can be seen for 3 days from annually July 22nd until July 24th. The highlight is the family ushi-oni parade on the final day. |
 
