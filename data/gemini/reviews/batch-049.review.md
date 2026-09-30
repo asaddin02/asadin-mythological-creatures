@@ -1,8 +1,8 @@
 # Review batch-049
 
-Diperiksa 2026-09-30T04:11:14.617Z. Berkas: batch-049.md.
+Diperiksa 2026-09-30T04:36:18.698Z. Berkas: batch-049.md.
 
-**Belum dikirim:** tsukumogami, yama-uba, amabie, hoori, bake-danuki, ukemochi, fujin, okuninushi, shikigami, tsuchinoko, akaname, hitodama, ikiryo, inugami, ryujin, swan-maiden, abura-sumashi, obake, zashiki-warashi, amanojaku, sojobo, toyotama-hime, tsuchigumo, ubume, ugayafukiaezu, ushi-oni
+**Belum dikirim:** fujin, okuninushi, shikigami, tsuchinoko, akaname, hitodama, ikiryo, inugami, ryujin, swan-maiden, abura-sumashi, obake, zashiki-warashi, amanojaku, sojobo, toyotama-hime, tsuchigumo, ubume, ugayafukiaezu, ushi-oni
 
 ## susanoo — lulus-otomatis
 
@@ -388,4 +388,115 @@ Klaim 10 (exact 10), sumber 2, gambar 0.
 | ninigi-c08 | exact | www.mlit.go.jp | Kushifuru Shrine was built in 1694 on the mountain believed to mark Ninigi’s arrival. | Kushifuru Shine, which venerates Ninigi, was built in 1694 upon the mountain where he and his procession are believed to have arrived. |
 | ninigi-c09 | exact | www.mlit.go.jp | In a local legend Ninigi scatters rice and the fog lifts. | They urged Ninigi to take rice from the stalks he held in his hand and scatter it over the land. Upon doing so, the fog lifted |
 | ninigi-c10 | exact | www.mlit.go.jp | In Japanese mythology Ninigi’s great-grandson becomes the first emperor. | In Japanese mythology, Ninigi’s great-grandson becomes the first emperor of Japan |
+
+
+## tsukumogami — lulus-otomatis
+
+Klaim 10 (exact 10), sumber 4, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| tsukumogami-c01 | exact | nirc.nanzan-u.ac.jp | Tsukumogami are animate household objects. | Tsukumogami are animate household objects. |
+| tsukumogami-c02 | exact | nirc.nanzan-u.ac.jp | In the Muromachi tale Tsukumogami ki, containers, tools, and instruments receive souls after nearly one hundred years. | An otogizōshi (“companion tale”) titled Tsukumogami ki (“Record of tool specters”; Muromachi period) explains that after a service life of nearly one hundred years, utsuwamono or kibutsu (containers, tools, and instruments) receive souls. |
+| tsukumogami-c03 | exact | www.nippon.com | Folktales describe tsukumogami as tools and other objects that acquire spirits over time. | Folktales tell of tsukumogami, tools and other objects that acquire a spirit after a number of years have passed. |
+| tsukumogami-c04 | exact | www.nippon.com | An object may become a malicious yōkai or benevolent spirit depending on its treatment. | An item becomes a tsukumogami after a hundred years, and depending on how it has been treated, it might transform into a malicious yōkai or a benevolent spirit. |
+| tsukumogami-c05 | exact | nirc.nanzan-u.ac.jp | A scholar argues that Tsukumogami ki spread Shingon Buddhist teachings. | the principal motivation of the author(s) in writing it was to spread the doctrines of Shingon Esoteric Buddhism |
+| tsukumogami-c06 | exact | glam.uoregon.edu | Night-parade scrolls show tsukumogami as living objects with limbs. | many of the monsters that populate these scrolls are tsukumogami 付喪神, everyday objects that have gained sentience, sprouted limbs, and taken to frolicking with the demons. |
+| tsukumogami-c07 | exact | glam.uoregon.edu | Prints show animated cups, teapots, ladles, a shamisen, fans, and mochi tools. | a pair of teacups that together make a set of eyes; a teapot with legs and face; a ladle; a kettle; a shamisen 三味線 holding a plectrum and a songbook; a folding fan wielding itself; and a large mortar and pestle |
+| tsukumogami-c08 | exact | glam.uoregon.edu | The depicted animated objects were familiar items of everyday life. | the objects that have become animated are ones that an early modern viewer would still have been familiar with from everyday life. |
+| tsukumogami-c09 | exact | glam.uoregon.edu | One furry-legged kettle is a disguised tanuki, not a tsukumogami. | the kettle’s legs are furry and it has a tail, too; this tells us that it’s not a tsukumogami proper, but a shape-shifting tanuki |
+| tsukumogami-c10 | exact | www.getty.edu | In Japanese folklore, tsukumogami are tools or household objects that acquire a spirit. | In Japanese folklore, tools or household objects that have acquired a kami or spirit. |
+
+
+## yama-uba — lulus-otomatis
+
+Klaim 12 (exact 12), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| yama-uba-c01 | exact | bakemono.lib.byu.edu | Yama-uba, also known as yamamba, is a Japanese yōkai. | Yamamba (山むば) is a Japanese yōkai also known as yamauba (山うば) |
+| yama-uba-c02 | exact | bakemono.lib.byu.edu | Yama-uba are female yōkai living in mountain huts. | Yamamba are female yōkai that live alone in mountain huts. |
+| yama-uba-c03 | exact | bakemono.lib.byu.edu | In some tales she offers lodging as an old or young woman. | They occasionally offer a place to sleep for the night to travelers in the form of an old woman or beautiful young woman. |
+| yama-uba-c04 | exact | bakemono.lib.byu.edu | Some stories have yama-uba reward those who treat her kindly. | tales in which yamamba is a benevolent yōkai that gives good fortune to people who were kind to her. |
+| yama-uba-c05 | exact | www.mlit.go.jp | Rosetsu’s painting shows a fearsome yama-uba with her adopted child. | This painting by the Kyoto-based artist Nagasawa Rosetsu (1754–1799) portrays a fearsome-looking yamauba (“mountain witch”) and her adoptive child. |
+| yama-uba-c06 | exact | www.mlit.go.jp | Legend says yama-uba raised the superhumanly strong Kintarō on a mountain in Hakone. | Raised by the yamauba on a mountain in Hakone (just south of Tokyo), Kintaro was a child with superhuman strength who fought monsters and demons from an early age. |
+| yama-uba-c07 | exact | www.mlit.go.jp | The painting was donated to Itsukushima Shrine in 1797. | the painting was donated to Itsukushima Shrine in 1797 by a group of wealthy merchants from Hiroshima |
+| yama-uba-c08 | exact | www.aisf.or.jp | Yama-uba appears as a character in a Noh drama. | A similar character appears in the Noh drama of the same name YAMAUBA |
+| yama-uba-c09 | exact | www.aisf.or.jp | Yama-uba is often pictured with disheveled hair and ragged clothes. | Yamauba is usually represented with long hair hanging down in dishevelled tresses, and dressed in tattered, flimsy clothing. |
+| yama-uba-c10 | exact | www.aisf.or.jp | Utamaro also depicted yama-uba as beautiful women. | (1754-1806) portrayed many Yamauba in the guise of beautiful women |
+| yama-uba-c11 | exact | bakemono.lib.byu.edu | In some stories yama-uba transforms and eats sleeping guests. | After their guests fall asleep, they transform into their true form and eat their guests. |
+| yama-uba-c12 | exact | bakemono.lib.byu.edu | Yama-uba stories often have her prey on travelers and merchants. | yamamba typically preys on travelers and merchants such as ox-drivers, horse drivers, and coopers |
+
+
+## amabie — lulus-otomatis
+
+Klaim 9 (exact 9), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| amabie-c01 | exact | moa.ubc.ca | Amabie is a yōkai in Japanese folklore. | Amabie (アマビエ) is one of yōkai (妖怪), a class of mythological and supernatural spirits or monsters in Japanese folklore. |
+| amabie-c02 | exact | moa.ubc.ca | The 1846 story places Amabie in Higo, now Kumamoto. | It is said to have appeared in Higo no kuni, today’s Kumamoto prefecture, in 1846 |
+| amabie-c03 | exact (HTTP 403; dicek lewat arsip Wayback) | jamanetwork.com | The early story describes a recurring light in the sea off Higo. | A glowing object appeared every night in the sea of Higo Province [today’s Kumamoto prefecture]. |
+| amabie-c04 | exact (HTTP 403; dicek lewat arsip Wayback) | jamanetwork.com | Amabie says it lives in the sea, predicts harvest and disease, and asks that its image be shown. | I live in the sea. My name is Amabié. Good harvest will continue for six years. At the same time disease will spread. Draw me and show me to the people as soon as possible. |
+| amabie-c05 | exact (HTTP 403; dicek lewat arsip Wayback) | jamanetwork.com | A town official investigated and encountered the creature. | When the town’s official went there and found something like the drawing, he was told |
+| amabie-c06 | exact (HTTP 403; dicek lewat arsip Wayback) | jamanetwork.com | The Amabie story spread through woodblock kawaraban bulletins. | the story was printed and disseminated in kawaraban (woodblock-printed bulletins that were a kind of newspaper of the time featuring news, outrageous gossip, and rumors). |
+| amabie-c07 | exact | moa.ubc.ca | During COVID-19 people shared Amabie drawings and other creations online. | A lot of people responded by posting images of illustrations, manga, stuffed toys and other figures of Amabie with #アマビエチャレンジ |
+| amabie-c08 | exact | moa.ubc.ca | Japan’s health ministry used Amabie in pandemic awareness messages. | Japan’s Ministry of Health, Labour and Welfare even adapted Amabie as a mascot to warn people about the pandemic. |
+| amabie-c09 | exact | www.rekibun.or.jp | A Tokyo museum also records the 1846 Higo sea story and disease prophecy. | in 1846 (Koka 3), Amabie was spotted in the sea in Higo Province. The record says that the two creatures predicted the spread of disease and conveyed how to avoid it. |
+
+
+## hoori — lulus-otomatis
+
+Klaim 10 (exact 10), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| hoori-c01 | exact | d-museum.kokugakuin.ac.jp | Hoori is another name of the kami Hohodemi. | Hoori no mikoto(Kojiki, Nihongi) |
+| hoori-c02 | exact | d-museum.kokugakuin.ac.jp | Hoori is the child of Ninigi and Konohana Sakuyahime and a hunter called Yamasachihiko. | Offspring of Ninigi and Konohana Sakuyahime. Called Yamasachihiko ("mountain-gift-man") for his unique success in the hunt |
+| hoori-c03 | exact | www.mlit.go.jp | Yamasachihiko is a skilled hunter and Umisachihiko an expert fisher. | Yamasachi-hiko, who grows up to be a master hunter, and Umisachi-hiko, who becomes an expert fisherman. |
+| hoori-c04 | exact | www.mlit.go.jp | Hoori loses the fishing hook borrowed from his brother. | Yamasachi-hiko loses the hook he has borrowed and cannot find it, no matter how hard he tries. |
+| hoori-c05 | exact | www.mlit.go.jp | Shiotsuchi sends Hoori to the sea god’s palace. | The despairing Yamasachi-hiko is visited by an old man named Shiotsuchi, who tells him to board a boat and search at the palace of Wadatsumi, god of the sea. |
+| hoori-c06 | exact | www.mlit.go.jp | Hoori marries Toyotama and stays with her for three years. | Yamasachi-hiko is invited to a grand feast and eventually marries Toyotama. The two live together happily for three years. |
+| hoori-c07 | exact | www.mlit.go.jp | The lost hook is found stuck in a sea bream. | Wadatsumi calls for the sea bream, whose pain is found to be caused by a stuck fishing hook that Yamasachi-hiko recognizes to be his brother's. |
+| hoori-c08 | exact | d-museum.kokugakuin.ac.jp | Hoori receives jewels to raise and lower the tide. | a "tide-raising jewel" and "tide-lowering jewel." |
+| hoori-c09 | exact | www.mlit.go.jp | Hoori uses tide jewels in a renewed conflict with his brother. | Yamasachi-hiko uses the orbs given to him by the god of the sea and calls in the tide, almost drowning Umisachi-hiko, who finally relents. |
+| hoori-c10 | exact | www.mlit.go.jp | An Aoshima Shrine winter festival reenacts Hoori’s return and a purification in the sea. | an annual winter festival reenacts the scene of Yamasachi-hiko’s return from the sea god’s palace and his welcoming at shore by a delighted crowd. Participants wearing only loincloths rush into the cold waves to greet the deity and undertake a ritual purification. |
+
+
+## bake-danuki — lulus-otomatis
+
+Klaim 9 (exact 8, unreachable 1), sumber 4, gambar 0.
+
+**manual**
+- `claims` 1 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| bake-danuki-c01 | exact | www.nippon.com | Tanuki are raccoon dogs believed in folklore to change form and trick humans. | animals such as foxes and tanuki (raccoon dogs) were long believed to possess the ability to change form to trick humans |
+| bake-danuki-c02 | unreachable (HTTP 429) | www.metmuseum.org | The folklore tanuki is celebrated for transformation and mischief. | The tanuki, a raccoon dog from Japanese folklore, is celebrated for its powers of transformation and mischievous humor. |
+| bake-danuki-c03 | exact | www.nippon.com | Shapeshifting tanuki belong to the bakemono or yōkai tradition. | Back in the Edo period, yōkai were known as bakemono—shape-shifters. |
+| bake-danuki-c04 | exact | glam.uoregon.edu | Bunbuku chagama tells of a tanuki turning into a teakettle. | One of the most popular tanuki stories (Bunbuku chagama, or “The Lucky Teakettle”) involves a tanuki who turned himself into a teakettle. |
+| bake-danuki-c05 | exact | glam.uoregon.edu | In many versions the tanuki’s tail and legs appear when the kettle is heated. | most at some point involve the tanuki losing his concentration when placed over hot coals, so that his tail and legs pop out of the teakettle. |
+| bake-danuki-c06 | exact | glam.uoregon.edu | Some versions associate the tale with Morinji temple in Gunma. | Some version of the story associate it with the temple of Morinji in Gunma |
+| bake-danuki-c07 | exact | glam.uoregon.edu | A yōkai game print depicts a belly-drumming tanuki. | The “belly-drum” (haratsuzumi) is, of course, a tanuki happily doing his thing. |
+| bake-danuki-c08 | exact | glam.uoregon.edu | Another picture shows a tanuki halfway transformed into Tofu Boy. | What we have here is a tanuki that has half shape-shifted into Tofu Boy—a yōkai pretending to be another yōkai. |
+| bake-danuki-c09 | exact | glam.uoregon.edu | Furry legs and a tail reveal the disguised tanuki. | but then we notice the furry legs and tail. |
+
+
+## ukemochi — lulus-otomatis
+
+Klaim 10 (exact 10), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| ukemochi-c01 | exact | d-museum.kokugakuin.ac.jp | Ukemochi is a deity in an alternative Nihongi account. | A deity appearing in an "alternate writing" quoted within Nihongi. |
+| ukemochi-c02 | exact | d-museum.kokugakuin.ac.jp | Uke and uka mean food; Ukemochi is a tutelary of foodstuffs. | The name uke is synonymous with uka, meaning "food," with the result that ukemochi no kami means a tutelary of foodstuffs |
+| ukemochi-c03 | exact | d-museum.kokugakuin.ac.jp | Amaterasu directs Tsukuyomi to visit Ukemochi. | Amaterasu commanded Tsukuyomi to go to Ukemochi |
+| ukemochi-c04 | exact | d-museum.kokugakuin.ac.jp | Ukemochi produces various foods from her mouth. | Ukemochi produced various foods from her mouth, including "things broad of fin" and "things narrow of fin," "things rough of hair" and "things soft of hair," |
+| ukemochi-c05 | exact | d-museum.kokugakuin.ac.jp | Tsukuyomi kills Ukemochi because he regards her food as polluted. | Tsukuyomi, however, was enraged at being served foods that were "polluted" (since they had issued from Ukemochi's mouth), and drew his sword and killed Ukemochi. |
+| ukemochi-c06 | exact | d-museum.kokugakuin.ac.jp | Cattle, horses, rice, wheat, and beans emerge from Ukemochi’s body. | cattle and horses were produced from the head of Ukemochi's dead body, rice was produced from her belly, and wheat and beans were produced from her genitals. |
+| ukemochi-c07 | exact | d-museum.kokugakuin.ac.jp | Amaterasu plants the grains and seeds in a food-origin myth. | Amaterasu planted the various grains and seeds in fields and paddies, a story said to represent one type of food-origin myth. |
+| ukemochi-c08 | exact | www.kokugakuin.ac.jp | The Kojiki tells a related tale about Susanoo and the food deity Ōgetsuhime. | The mythic origin of food is written in the Kojiki (Records of Ancient Matters). Once upon a time, Susanoo, one of the gods of Japan, asked Ogetsuhime, a goddesses, to give him food. |
+| ukemochi-c09 | exact | www.kokugakuin.ac.jp | The Nihon-shoki tells of Tsukuyomi killing Ukemochi. | The Nihon-shoki (Chronicles of Japan) has a similar myth in which Tsukuyomi, the god of the moon, murders Ukemochi, a goddess. |
+| ukemochi-c10 | exact | www.kokugakuin.ac.jp | Amaterasu shuns Tsukuyomi, explaining the alternating sun and moon. | Amaterasu, the goddess of the sun, who dispatched Tsukuyomi to Ukemochi, became furious about the murder and said she no longer wanted to stay in the same broad sky with him. This is explained as the origin of the alternative appearances of the sun and the moon in the sky. |
 

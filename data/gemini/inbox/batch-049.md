@@ -5474,3 +5474,1560 @@
 }
 ```
 
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "tsukumogami",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Tsukumogami",
+    "native_name": null,
+    "display_name": {
+      "id": "Tsukumogami",
+      "en": "Tsukumogami"
+    },
+    "wikidata_qid": "Q737776",
+    "claim_ids": [
+      "tsukumogami-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "tsukumogami-c04",
+      "tsukumogami-c06"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "tsukumogami-c04",
+      "tsukumogami-c06"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "tsukumogami-c01",
+      "tsukumogami-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "tsukumogami-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Tsukumogami adalah benda rumah tangga yang menjadi hidup atau berjiwa dalam kisah Jepang.",
+    "en": "Tsukumogami are household objects that gain life or a spirit in Japanese stories.",
+    "claim_ids": [
+      "tsukumogami-c01",
+      "tsukumogami-c02",
+      "tsukumogami-c03",
+      "tsukumogami-c10"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Tsukumogami menggambarkan peralatan rumah tangga yang hidup dan memiliki roh. Kisah Tsukumogami ki dari zaman Muromachi mengatakan bahwa wadah, alat, dan instrumen menerima jiwa setelah digunakan hampir seratus tahun. Seorang ahli agama Jepang menjelaskan bahwa benda itu dapat menjadi yōkai yang jahat atau roh yang baik, bergantung pada cara manusia memperlakukannya. Kisah tersebut berkaitan dengan gagasan bahwa benda lama memiliki hubungan dengan kehidupan spiritual manusia.",
+      "en": "Tsukumogami are animated household objects with spirits. The Muromachi-period tale Tsukumogami ki says containers, tools, and instruments receive souls after nearly a hundred years of service. A scholar of Japanese religion explains that such an object can become a hostile yōkai or a benevolent spirit depending on its treatment. The tale links old objects with people’s spiritual lives.",
+      "claim_ids": [
+        "tsukumogami-c01",
+        "tsukumogami-c02",
+        "tsukumogami-c03",
+        "tsukumogami-c04",
+        "tsukumogami-c10"
+      ]
+    },
+    {
+      "id": "Kajian atas Tsukumogami ki menilai bahwa ceritanya juga digunakan untuk menyampaikan ajaran Buddha Shingon. Dalam gulungan dan seni yōkai, benda-benda hidup ini muncul dalam arak-arakan malam bersama makhluk lain; wujudnya dapat memiliki kaki dan lengan. Sebuah koleksi gambar menampilkan cangkir, teko, sendok, kipas, shamisen, serta alat pembuat mochi yang diberi rupa hidup. Gambaran seni tersebut tidak berarti setiap benda yang menyerupai teko adalah tsukumogami: satu teko berkaki berbulu justru dijelaskan sebagai tanuki yang berubah rupa.",
+      "en": "A study of Tsukumogami ki argues that its story also conveyed Shingon Buddhist teachings. In scrolls and yōkai art, living objects join night parades and may sprout arms and legs. A print collection shows cups, teapots, ladles, fans, a shamisen, and mochi-making tools brought to life. The visual likeness does not make every kettle a tsukumogami: one furry-legged kettle is explained as a disguised tanuki.",
+      "claim_ids": [
+        "tsukumogami-c05",
+        "tsukumogami-c06",
+        "tsukumogami-c07",
+        "tsukumogami-c08",
+        "tsukumogami-c09"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "tsukumogami-s1",
+      "url": "https://nirc.nanzan-u.ac.jp/journal/6/issue/179/article/1278",
+      "title": "Animating Objects: Tsukumogami ki and the Medieval Illustration of Shingon Truth",
+      "author": "Noriko T. Reider",
+      "publisher": "Japanese Journal of Religious Studies, Nanzan Institute for Religion and Culture",
+      "published": "2009",
+      "language": "en",
+      "type": "journal-article",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "tsukumogami-s2",
+      "url": "https://www.nippon.com/en/japan-topics/b09805/",
+      "title": "Kami Questions: Hirafuji Kikuko Shares Her Knowledge About Japanese Gods",
+      "author": "Kimie Itakura and James Singleton",
+      "publisher": "Nippon.com",
+      "published": "2024",
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "tsukumogami-s3",
+      "url": "https://glam.uoregon.edu/yokaisenjafuda/page/night-parade",
+      "title": "Night parade of a hundred demons",
+      "author": "Glynne Walley",
+      "publisher": "University of Oregon Libraries and Jordan Schnitzer Museum of Art",
+      "published": "2019",
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "tsukumogami-s4",
+      "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=earthenware&subjectid=300457705",
+      "title": "Art & Architecture Thesaurus: tsukumogami",
+      "author": null,
+      "publisher": "Getty Research Institute",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "tsukumogami-c01",
+      "source_id": "tsukumogami-s1",
+      "quote": "Tsukumogami are animate household objects.",
+      "locator": "Abstract",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tsukumogami adalah benda rumah tangga yang hidup.",
+        "en": "Tsukumogami are animate household objects."
+      }
+    },
+    {
+      "id": "tsukumogami-c02",
+      "source_id": "tsukumogami-s1",
+      "quote": "An otogizōshi (“companion tale”) titled Tsukumogami ki (“Record of tool specters”; Muromachi period) explains that after a service life of nearly one hundred years, utsuwamono or kibutsu (containers, tools, and instruments) receive souls.",
+      "locator": "Abstract",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam Tsukumogami ki zaman Muromachi, wadah, alat, dan instrumen menerima jiwa setelah dipakai hampir seratus tahun.",
+        "en": "In the Muromachi tale Tsukumogami ki, containers, tools, and instruments receive souls after nearly one hundred years."
+      }
+    },
+    {
+      "id": "tsukumogami-c03",
+      "source_id": "tsukumogami-s2",
+      "quote": "Folktales tell of tsukumogami, tools and other objects that acquire a spirit after a number of years have passed.",
+      "locator": "Spirits of Small Things",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Cerita rakyat menyebut tsukumogami sebagai alat dan benda yang memperoleh roh setelah lama digunakan.",
+        "en": "Folktales describe tsukumogami as tools and other objects that acquire spirits over time."
+      }
+    },
+    {
+      "id": "tsukumogami-c04",
+      "source_id": "tsukumogami-s2",
+      "quote": "An item becomes a tsukumogami after a hundred years, and depending on how it has been treated, it might transform into a malicious yōkai or a benevolent spirit.",
+      "locator": "Spirits of Small Things",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Benda itu dapat berubah menjadi yōkai jahat atau roh baik menurut perlakuan manusia.",
+        "en": "An object may become a malicious yōkai or benevolent spirit depending on its treatment."
+      }
+    },
+    {
+      "id": "tsukumogami-c05",
+      "source_id": "tsukumogami-s1",
+      "quote": "the principal motivation of the author(s) in writing it was to spread the doctrines of Shingon Esoteric Buddhism",
+      "locator": "Abstract",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Peneliti menilai Tsukumogami ki dipakai untuk menyebarkan ajaran Buddha Shingon.",
+        "en": "A scholar argues that Tsukumogami ki spread Shingon Buddhist teachings."
+      }
+    },
+    {
+      "id": "tsukumogami-c06",
+      "source_id": "tsukumogami-s3",
+      "quote": "many of the monsters that populate these scrolls are tsukumogami 付喪神, everyday objects that have gained sentience, sprouted limbs, and taken to frolicking with the demons.",
+      "locator": "Night parade of a hundred demons",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Gulungan arak-arakan malam menampilkan tsukumogami sebagai benda hidup yang memiliki anggota badan.",
+        "en": "Night-parade scrolls show tsukumogami as living objects with limbs."
+      }
+    },
+    {
+      "id": "tsukumogami-c07",
+      "source_id": "tsukumogami-s3",
+      "quote": "a pair of teacups that together make a set of eyes; a teapot with legs and face; a ladle; a kettle; a shamisen 三味線 holding a plectrum and a songbook; a folding fan wielding itself; and a large mortar and pestle",
+      "locator": "Night parade of a hundred demons",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Gambar menampilkan cangkir, teko, sendok, shamisen, kipas, lesung, dan alu yang hidup.",
+        "en": "Prints show animated cups, teapots, ladles, a shamisen, fans, and mochi tools."
+      }
+    },
+    {
+      "id": "tsukumogami-c08",
+      "source_id": "tsukumogami-s3",
+      "quote": "the objects that have become animated are ones that an early modern viewer would still have been familiar with from everyday life.",
+      "locator": "Night parade of a hundred demons",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Benda yang hidup dalam gambar merupakan peralatan sehari-hari.",
+        "en": "The depicted animated objects were familiar items of everyday life."
+      }
+    },
+    {
+      "id": "tsukumogami-c09",
+      "source_id": "tsukumogami-s3",
+      "quote": "the kettle’s legs are furry and it has a tail, too; this tells us that it’s not a tsukumogami proper, but a shape-shifting tanuki",
+      "locator": "Night parade of a hundred demons",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Salah satu teko berkaki berbulu adalah tanuki yang berubah rupa, bukan tsukumogami.",
+        "en": "One furry-legged kettle is a disguised tanuki, not a tsukumogami."
+      }
+    },
+    {
+      "id": "tsukumogami-c10",
+      "source_id": "tsukumogami-s4",
+      "quote": "In Japanese folklore, tools or household objects that have acquired a kami or spirit.",
+      "locator": "Note",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam cerita rakyat Jepang, tsukumogami adalah alat atau benda rumah tangga yang memperoleh roh.",
+        "en": "In Japanese folklore, tsukumogami are tools or household objects that acquire a spirit."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "yama-uba",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Yama-uba",
+    "native_name": null,
+    "display_name": {
+      "id": "Yama-uba",
+      "en": "Yama-uba"
+    },
+    "wikidata_qid": "Q1056461",
+    "claim_ids": [
+      "yama-uba-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "yama-uba-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "yama-uba-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "yama-uba-c01",
+      "yama-uba-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "yama-uba-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Yama-uba adalah yōkai perempuan pegunungan Jepang yang dalam kisah dapat menakutkan atau menolong manusia.",
+    "en": "Yama-uba is a Japanese mountain woman yōkai who may frighten or help people in different stories.",
+    "claim_ids": [
+      "yama-uba-c01",
+      "yama-uba-c02",
+      "yama-uba-c04",
+      "yama-uba-c05"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Yama-uba, juga disebut yamamba, adalah yōkai perempuan dalam kisah Jepang yang tinggal di pegunungan. Ia dapat muncul sebagai perempuan tua atau muda yang menawarkan tempat bermalam kepada pelancong, lalu memperlihatkan wujud mengerikannya. Kisah lain menggambarkannya memangsa pedagang yang melintasi jalur gunung. Namun, tidak semua kisah menempatkannya sebagai ancaman: ada pula yama-uba yang memberi keberuntungan kepada orang yang memperlakukannya dengan baik.",
+      "en": "Yama-uba, also called yamamba, is a female yōkai of Japanese mountain stories. She may appear as an old or young woman who offers a traveler shelter, then reveals a frightening form. Other tales describe her preying on merchants crossing mountain routes. Yet some stories instead say that she rewards people who treat her kindly.",
+      "claim_ids": [
+        "yama-uba-c01",
+        "yama-uba-c02",
+        "yama-uba-c03",
+        "yama-uba-c04",
+        "yama-uba-c11",
+        "yama-uba-c12"
+      ]
+    },
+    {
+      "id": "Sisi keibuan tokoh itu tampak dalam legenda Kintarō. Sebuah lukisan karya Nagasawa Rosetsu memperlihatkan yama-uba dan anak angkatnya Kintarō, yang menurut cerita dibesarkan di Gunung Hakone dan memiliki tenaga luar biasa. Lukisan itu disumbangkan ke Kuil Itsukushima pada 1797. Yama-uba juga hadir dalam drama Noh dan seni lukis, kadang dengan rambut terurai dan pakaian compang-camping, kadang digambarkan sebagai perempuan cantik. Berbagai rupa ini memperlihatkan tokoh yang berubah menurut medium dan kisahnya.",
+      "en": "The maternal side of the figure appears in Kintarō’s legend. A painting by Nagasawa Rosetsu shows yama-uba with her adopted child Kintarō, whom a tale says she raised on Mount Hakone and who possessed extraordinary strength. The painting was donated to Itsukushima Shrine in 1797. Yama-uba also appears in Noh drama and painting, sometimes with disheveled hair and ragged clothes, sometimes as a beauty. Her appearance varies with the story and medium.",
+      "claim_ids": [
+        "yama-uba-c05",
+        "yama-uba-c06",
+        "yama-uba-c07",
+        "yama-uba-c08",
+        "yama-uba-c09",
+        "yama-uba-c10"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "yama-uba-s1",
+      "url": "https://bakemono.lib.byu.edu/yokai/yamamba/",
+      "title": "Yamamba",
+      "author": "Lindsey Takeuchi",
+      "publisher": "Brigham Young University Library",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "yama-uba-s2",
+      "url": "https://www.mlit.go.jp/tagengo-db/en/R1-00517.html",
+      "title": "Itsukushima Shrine: Komochi Yamauba",
+      "author": null,
+      "publisher": "Japan Tourism Agency",
+      "published": null,
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "yama-uba-s3",
+      "url": "https://www.aisf.or.jp/~jaanus/deta/y/yamauba.htm",
+      "title": "Yamauba",
+      "author": null,
+      "publisher": "Japanese Architecture and Art Net Users System",
+      "published": "2001",
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "yama-uba-c01",
+      "source_id": "yama-uba-s1",
+      "quote": "Yamamba (山むば) is a Japanese yōkai also known as yamauba (山うば)",
+      "locator": "Yamamba",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Yama-uba atau yamamba adalah yōkai Jepang.",
+        "en": "Yama-uba, also known as yamamba, is a Japanese yōkai."
+      }
+    },
+    {
+      "id": "yama-uba-c02",
+      "source_id": "yama-uba-s1",
+      "quote": "Yamamba are female yōkai that live alone in mountain huts.",
+      "locator": "Yamamba",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Yama-uba adalah yōkai perempuan yang tinggal di pondok gunung.",
+        "en": "Yama-uba are female yōkai living in mountain huts."
+      }
+    },
+    {
+      "id": "yama-uba-c03",
+      "source_id": "yama-uba-s1",
+      "quote": "They occasionally offer a place to sleep for the night to travelers in the form of an old woman or beautiful young woman.",
+      "locator": "Yamamba",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam beberapa cerita ia menawarkan tempat bermalam sebagai perempuan tua atau muda.",
+        "en": "In some tales she offers lodging as an old or young woman."
+      }
+    },
+    {
+      "id": "yama-uba-c04",
+      "source_id": "yama-uba-s1",
+      "quote": "tales in which yamamba is a benevolent yōkai that gives good fortune to people who were kind to her.",
+      "locator": "Yamamba",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ada kisah yama-uba yang memberi keberuntungan kepada orang yang baik padanya.",
+        "en": "Some stories have yama-uba reward those who treat her kindly."
+      }
+    },
+    {
+      "id": "yama-uba-c05",
+      "source_id": "yama-uba-s2",
+      "quote": "This painting by the Kyoto-based artist Nagasawa Rosetsu (1754–1799) portrays a fearsome-looking yamauba (“mountain witch”) and her adoptive child.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Lukisan Rosetsu menggambarkan yama-uba yang menakutkan bersama anak angkatnya.",
+        "en": "Rosetsu’s painting shows a fearsome yama-uba with her adopted child."
+      }
+    },
+    {
+      "id": "yama-uba-c06",
+      "source_id": "yama-uba-s2",
+      "quote": "Raised by the yamauba on a mountain in Hakone (just south of Tokyo), Kintaro was a child with superhuman strength who fought monsters and demons from an early age.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Legenda menyebut yama-uba membesarkan Kintarō di Gunung Hakone; anak itu sangat kuat.",
+        "en": "Legend says yama-uba raised the superhumanly strong Kintarō on a mountain in Hakone."
+      }
+    },
+    {
+      "id": "yama-uba-c07",
+      "source_id": "yama-uba-s2",
+      "quote": "the painting was donated to Itsukushima Shrine in 1797 by a group of wealthy merchants from Hiroshima",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Lukisan itu disumbangkan ke Kuil Itsukushima pada 1797.",
+        "en": "The painting was donated to Itsukushima Shrine in 1797."
+      }
+    },
+    {
+      "id": "yama-uba-c08",
+      "source_id": "yama-uba-s3",
+      "quote": "A similar character appears in the Noh drama of the same name YAMAUBA",
+      "locator": "Yamauba",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tokoh yama-uba muncul dalam drama Noh.",
+        "en": "Yama-uba appears as a character in a Noh drama."
+      }
+    },
+    {
+      "id": "yama-uba-c09",
+      "source_id": "yama-uba-s3",
+      "quote": "Yamauba is usually represented with long hair hanging down in dishevelled tresses, and dressed in tattered, flimsy clothing.",
+      "locator": "Yamauba",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Yama-uba sering digambar dengan rambut terurai dan pakaian compang-camping.",
+        "en": "Yama-uba is often pictured with disheveled hair and ragged clothes."
+      }
+    },
+    {
+      "id": "yama-uba-c10",
+      "source_id": "yama-uba-s3",
+      "quote": "(1754-1806) portrayed many Yamauba in the guise of beautiful women",
+      "locator": "Yamauba",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Utamaro juga menggambar yama-uba sebagai perempuan cantik.",
+        "en": "Utamaro also depicted yama-uba as beautiful women."
+      }
+    },
+    {
+      "id": "yama-uba-c11",
+      "source_id": "yama-uba-s1",
+      "quote": "After their guests fall asleep, they transform into their true form and eat their guests.",
+      "locator": "Yamamba",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Setelah tamu tertidur, yama-uba dalam kisah menampakkan wujudnya dan memakan tamu.",
+        "en": "In some stories yama-uba transforms and eats sleeping guests."
+      }
+    },
+    {
+      "id": "yama-uba-c12",
+      "source_id": "yama-uba-s1",
+      "quote": "yamamba typically preys on travelers and merchants such as ox-drivers, horse drivers, and coopers",
+      "locator": "Yamamba",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kisah yama-uba sering menyebutnya memangsa pelancong dan pedagang.",
+        "en": "Yama-uba stories often have her prey on travelers and merchants."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "amabie",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Amabie",
+    "native_name": null,
+    "display_name": {
+      "id": "Amabie",
+      "en": "Amabie"
+    },
+    "wikidata_qid": "Q4738985",
+    "claim_ids": [
+      "amabie-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "amabie-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "amabie-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "amabie-c01",
+      "amabie-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "amabie-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Amabie adalah yōkai laut Jepang yang dalam kisah tahun 1846 meramalkan panen dan penyakit serta meminta gambarnya disebarkan.",
+    "en": "Amabie is a Japanese sea yōkai whose 1846 story predicts harvests and disease and asks people to share its image.",
+    "claim_ids": [
+      "amabie-c01",
+      "amabie-c02",
+      "amabie-c04",
+      "amabie-c06"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Selembar cetakan dari tahun 1846 mengisahkan munculnya Amabie di laut Higo, wilayah Kumamoto kini. Cahaya terlihat berulang kali di laut, lalu seorang pejabat menemui makhluk yang mengaku bernama Amabie dan tinggal di laut. Makhluk itu meramalkan panen baik selama enam tahun serta penyebaran penyakit, kemudian meminta agar rupanya digambar dan diperlihatkan kepada banyak orang. Kisahnya beredar melalui lembar berita bergambar kawaraban.",
+      "en": "An 1846 print tells of Amabie appearing in the sea off Higo Province, now Kumamoto. A recurring light drew an official to the shore, where the creature identified itself as Amabie and said it lived in the sea. It predicted six years of good harvests and the spread of disease, then asked people to draw and show its image. The story circulated in illustrated kawaraban bulletins.",
+      "claim_ids": [
+        "amabie-c01",
+        "amabie-c02",
+        "amabie-c03",
+        "amabie-c04",
+        "amabie-c05",
+        "amabie-c06"
+      ]
+    },
+    {
+      "id": "Amabie termasuk yōkai dalam cerita rakyat Jepang. Pada masa wabah COVID-19, orang kembali menggambar dan membagikan citranya melalui media sosial. Museum menyebut kementerian kesehatan Jepang memakai Amabie dalam pesan kesadaran pandemi. Penggunaan masa kini itu menunjukkan kehidupan baru gambar lama tersebut, sementara teks cerita awal hanya menyebut ramalan dan permintaan memperlihatkan gambarnya.",
+      "en": "Amabie belongs to Japan’s yōkai tradition. During the COVID-19 pandemic, people began drawing and sharing its image again on social media. A museum reports that Japan’s health ministry used Amabie in pandemic awareness messages. This modern use revived the old image, while the early printed account itself records a prophecy and a request to show the creature’s picture.",
+      "claim_ids": [
+        "amabie-c01",
+        "amabie-c04",
+        "amabie-c07",
+        "amabie-c08",
+        "amabie-c09"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "amabie-s1",
+      "url": "https://moa.ubc.ca/2020/04/amabie-a-japanese-spirit-figure-for-the-pandemic/",
+      "title": "Amabie: A Japanese Spirit Figure for the Pandemic",
+      "author": "Fuyubi Nakamura",
+      "publisher": "Museum of Anthropology at the University of British Columbia",
+      "published": "2020-04-21",
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "amabie-s2",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2768645",
+      "title": "Amabié—A Japanese Symbol of the COVID-19 Pandemic",
+      "author": "Yuki Furukawa and Rei Kansaku",
+      "publisher": "JAMA",
+      "published": "2020-07-17",
+      "language": "en",
+      "type": "journal-article",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "amabie-s3",
+      "url": "https://www.rekibun.or.jp/en/art/reports/20210128-11212/",
+      "title": "Fending Off a Plague with Strange Creatures!",
+      "author": "Yasuna Asano",
+      "publisher": "Tokyo Metropolitan Foundation for History and Culture",
+      "published": "2021-01-28",
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "amabie-c01",
+      "source_id": "amabie-s1",
+      "quote": "Amabie (アマビエ) is one of yōkai (妖怪), a class of mythological and supernatural spirits or monsters in Japanese folklore.",
+      "locator": "Amabie",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Amabie adalah yōkai dalam cerita rakyat Jepang.",
+        "en": "Amabie is a yōkai in Japanese folklore."
+      }
+    },
+    {
+      "id": "amabie-c02",
+      "source_id": "amabie-s1",
+      "quote": "It is said to have appeared in Higo no kuni, today’s Kumamoto prefecture, in 1846",
+      "locator": "Amabie",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kisah tahun 1846 menempatkan kemunculan Amabie di Higo, Kumamoto kini.",
+        "en": "The 1846 story places Amabie in Higo, now Kumamoto."
+      }
+    },
+    {
+      "id": "amabie-c03",
+      "source_id": "amabie-s2",
+      "quote": "A glowing object appeared every night in the sea of Higo Province [today’s Kumamoto prefecture].",
+      "locator": "Translated description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam kisah awal, cahaya tampak tiap malam di laut Higo.",
+        "en": "The early story describes a recurring light in the sea off Higo."
+      }
+    },
+    {
+      "id": "amabie-c04",
+      "source_id": "amabie-s2",
+      "quote": "I live in the sea. My name is Amabié. Good harvest will continue for six years. At the same time disease will spread. Draw me and show me to the people as soon as possible.",
+      "locator": "Translated description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Amabie mengaku hidup di laut, meramalkan panen baik dan penyakit, serta meminta rupanya digambar dan ditunjukkan.",
+        "en": "Amabie says it lives in the sea, predicts harvest and disease, and asks that its image be shown."
+      }
+    },
+    {
+      "id": "amabie-c05",
+      "source_id": "amabie-s2",
+      "quote": "When the town’s official went there and found something like the drawing, he was told",
+      "locator": "Translated description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Seorang pejabat kota pergi menyelidiki dan menemui makhluk itu.",
+        "en": "A town official investigated and encountered the creature."
+      }
+    },
+    {
+      "id": "amabie-c06",
+      "source_id": "amabie-s2",
+      "quote": "the story was printed and disseminated in kawaraban (woodblock-printed bulletins that were a kind of newspaper of the time featuring news, outrageous gossip, and rumors).",
+      "locator": "Article body",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kisah Amabie disebarkan melalui lembar berita bergambar kawaraban.",
+        "en": "The Amabie story spread through woodblock kawaraban bulletins."
+      }
+    },
+    {
+      "id": "amabie-c07",
+      "source_id": "amabie-s1",
+      "quote": "A lot of people responded by posting images of illustrations, manga, stuffed toys and other figures of Amabie with #アマビエチャレンジ",
+      "locator": "Amabie",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pada pandemi COVID-19 orang membagikan gambar dan kreasi Amabie melalui media sosial.",
+        "en": "During COVID-19 people shared Amabie drawings and other creations online."
+      }
+    },
+    {
+      "id": "amabie-c08",
+      "source_id": "amabie-s1",
+      "quote": "Japan’s Ministry of Health, Labour and Welfare even adapted Amabie as a mascot to warn people about the pandemic.",
+      "locator": "Amabie",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kementerian kesehatan Jepang memakai Amabie untuk pesan kesadaran pandemi.",
+        "en": "Japan’s health ministry used Amabie in pandemic awareness messages."
+      }
+    },
+    {
+      "id": "amabie-c09",
+      "source_id": "amabie-s3",
+      "quote": "in 1846 (Koka 3), Amabie was spotted in the sea in Higo Province. The record says that the two creatures predicted the spread of disease and conveyed how to avoid it.",
+      "locator": "Rare animals to drive away diseases",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Museum Tokyo juga mencatat Amabie muncul dalam kisah 1846 di laut Higo dan meramalkan penyakit.",
+        "en": "A Tokyo museum also records the 1846 Higo sea story and disease prophecy."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "hoori",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Hoori",
+    "native_name": null,
+    "display_name": {
+      "id": "Hoori",
+      "en": "Hoori"
+    },
+    "wikidata_qid": "Q1051960",
+    "claim_ids": [
+      "hoori-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "hoori-c01",
+      "hoori-c02"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "hoori-c01",
+      "hoori-c02"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "hoori-c01",
+      "hoori-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "hoori-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Hoori, juga disebut Yamasachihiko, adalah kami pemburu dalam kisah kail hilang dan perjalanan ke istana dewa laut.",
+    "en": "Hoori, also called Yamasachihiko, is a hunting kami in a story about a lost hook and a journey to the sea god’s palace.",
+    "claim_ids": [
+      "hoori-c01",
+      "hoori-c02",
+      "hoori-c04",
+      "hoori-c05"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Hoori dikenal pula sebagai Hohodemi atau Yamasachihiko, tokoh yang terampil berburu. Ia anak Ninigi dan Konohana Sakuyahime. Dalam kisah dua saudara, ia bertukar alat dengan saudaranya Umisachihiko yang mahir memancing, lalu kehilangan kail pinjaman itu. Kail pengganti yang dibuatnya tidak diterima. Shiotsuchi menyuruhnya menuju istana dewa laut.",
+      "en": "Hoori is also known as Hohodemi or Yamasachihiko, a skilled hunter. He is a child of Ninigi and Konohana Sakuyahime. In the brothers’ tale, he trades tools with Umisachihiko, an expert fisher, then loses the borrowed hook. His brother rejects replacement hooks. Shiotsuchi directs him to the sea god’s palace.",
+      "claim_ids": [
+        "hoori-c01",
+        "hoori-c02",
+        "hoori-c03",
+        "hoori-c04",
+        "hoori-c05"
+      ]
+    },
+    {
+      "id": "Di istana laut, Hoori menikahi Toyotama, putri dewa laut, dan tinggal selama tiga tahun. Kail yang hilang akhirnya ditemukan tersangkut pada ikan tai. Sang dewa laut memberinya dua permata untuk menaikkan dan menurunkan pasang laut; Hoori menggunakannya saat berselisih lagi dengan saudaranya. Kisah kepulangannya dirayakan dalam pesta musim dingin di Kuil Aoshima, ketika peserta masuk ke ombak sebagai bagian dari ritual penyucian.",
+      "en": "At the sea palace Hoori marries the sea god’s daughter Toyotama and stays for three years. The lost hook is eventually found stuck in a sea bream. The sea god gives him two jewels that raise and lower the tide; Hoori uses them during another conflict with his brother. His return is reenacted at Aoshima Shrine’s winter festival, where participants enter the waves for a purification rite.",
+      "claim_ids": [
+        "hoori-c06",
+        "hoori-c07",
+        "hoori-c08",
+        "hoori-c09",
+        "hoori-c10"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "hoori-s1",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9403",
+      "title": "Hohodemi",
+      "author": "Mori Mizue",
+      "publisher": "Encyclopedia of Shinto, Kokugakuin University",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "hoori-s2",
+      "url": "https://www.mlit.go.jp/tagengo-db/en/R2-02133.html",
+      "title": "The Myths of Japan: Yamasachi-hiko and Umisachi-hiko",
+      "author": null,
+      "publisher": "Japan Tourism Agency",
+      "published": null,
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "hoori-c01",
+      "source_id": "hoori-s1",
+      "quote": "Hoori no mikoto(Kojiki, Nihongi)",
+      "locator": "Other names",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Hoori adalah nama lain kami Hohodemi.",
+        "en": "Hoori is another name of the kami Hohodemi."
+      }
+    },
+    {
+      "id": "hoori-c02",
+      "source_id": "hoori-s1",
+      "quote": "Offspring of Ninigi and Konohana Sakuyahime. Called Yamasachihiko (\"mountain-gift-man\") for his unique success in the hunt",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Hoori adalah anak Ninigi dan Konohana Sakuyahime yang dikenal sebagai pemburu Yamasachihiko.",
+        "en": "Hoori is the child of Ninigi and Konohana Sakuyahime and a hunter called Yamasachihiko."
+      }
+    },
+    {
+      "id": "hoori-c03",
+      "source_id": "hoori-s2",
+      "quote": "Yamasachi-hiko, who grows up to be a master hunter, and Umisachi-hiko, who becomes an expert fisherman.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Yamasachihiko mahir berburu, sedangkan saudaranya Umisachihiko mahir memancing.",
+        "en": "Yamasachihiko is a skilled hunter and Umisachihiko an expert fisher."
+      }
+    },
+    {
+      "id": "hoori-c04",
+      "source_id": "hoori-s2",
+      "quote": "Yamasachi-hiko loses the hook he has borrowed and cannot find it, no matter how hard he tries.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Hoori kehilangan kail pinjaman saudaranya.",
+        "en": "Hoori loses the fishing hook borrowed from his brother."
+      }
+    },
+    {
+      "id": "hoori-c05",
+      "source_id": "hoori-s2",
+      "quote": "The despairing Yamasachi-hiko is visited by an old man named Shiotsuchi, who tells him to board a boat and search at the palace of Wadatsumi, god of the sea.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Shiotsuchi menyuruh Hoori mencari kail di istana dewa laut.",
+        "en": "Shiotsuchi sends Hoori to the sea god’s palace."
+      }
+    },
+    {
+      "id": "hoori-c06",
+      "source_id": "hoori-s2",
+      "quote": "Yamasachi-hiko is invited to a grand feast and eventually marries Toyotama. The two live together happily for three years.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Hoori menikahi Toyotama dan tinggal bersamanya selama tiga tahun.",
+        "en": "Hoori marries Toyotama and stays with her for three years."
+      }
+    },
+    {
+      "id": "hoori-c07",
+      "source_id": "hoori-s2",
+      "quote": "Wadatsumi calls for the sea bream, whose pain is found to be caused by a stuck fishing hook that Yamasachi-hiko recognizes to be his brother's.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kail yang hilang ditemukan tersangkut pada ikan tai.",
+        "en": "The lost hook is found stuck in a sea bream."
+      }
+    },
+    {
+      "id": "hoori-c08",
+      "source_id": "hoori-s1",
+      "quote": "a \"tide-raising jewel\" and \"tide-lowering jewel.\"",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Hoori menerima permata pengangkat dan penurun pasang laut.",
+        "en": "Hoori receives jewels to raise and lower the tide."
+      }
+    },
+    {
+      "id": "hoori-c09",
+      "source_id": "hoori-s2",
+      "quote": "Yamasachi-hiko uses the orbs given to him by the god of the sea and calls in the tide, almost drowning Umisachi-hiko, who finally relents.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Hoori memakai permata pasang saat menghadapi saudaranya lagi.",
+        "en": "Hoori uses tide jewels in a renewed conflict with his brother."
+      }
+    },
+    {
+      "id": "hoori-c10",
+      "source_id": "hoori-s2",
+      "quote": "an annual winter festival reenacts the scene of Yamasachi-hiko’s return from the sea god’s palace and his welcoming at shore by a delighted crowd. Participants wearing only loincloths rush into the cold waves to greet the deity and undertake a ritual purification.",
+      "locator": "English",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pesta musim dingin di Kuil Aoshima memperagakan kepulangan Hoori dan ritual penyucian di laut.",
+        "en": "An Aoshima Shrine winter festival reenacts Hoori’s return and a purification in the sea."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "bake-danuki",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Bake-danuki",
+    "native_name": null,
+    "display_name": {
+      "id": "Bake-danuki",
+      "en": "Bake-danuki"
+    },
+    "wikidata_qid": "Q1771860",
+    "claim_ids": [
+      "bake-danuki-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "bake-danuki-c01",
+      "bake-danuki-c03"
+    ]
+  },
+  "classification": {
+    "value": "shapeshifter",
+    "claim_ids": [
+      "bake-danuki-c01",
+      "bake-danuki-c02"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "bake-danuki-c01",
+      "bake-danuki-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "bake-danuki-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Bake-danuki adalah tanuki gaib dalam folklor yang dapat berubah wujud dan mempermainkan manusia.",
+    "en": "Bake-danuki are supernatural tanuki of Japanese folklore that can change shape and play tricks on people.",
+    "claim_ids": [
+      "bake-danuki-c01",
+      "bake-danuki-c02",
+      "bake-danuki-c03"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Bake-danuki adalah rupa gaib tanuki dalam folklor; tanuki juga merupakan hewan nyata yang dikenal sebagai anjing rakun. Dalam cerita, hewan gaib ini dapat berubah rupa untuk menipu atau mengusili manusia. Sebuah museum seni menggambarkan tanuki folklor sebagai sosok yang terkenal karena perubahan wujud dan humor nakal. Dengan demikian, kisah bake-danuki perlu dibedakan dari keberadaan tanuki sebagai hewan biasa.",
+      "en": "Bake-danuki are supernatural tanuki in Japanese folklore, while tanuki are also real animals known as raccoon dogs. In stories, the supernatural animal changes form to deceive or tease people. A museum describes the folklore tanuki as celebrated for transformation and mischievous humor. The story figure is distinct from the ordinary animal.",
+      "claim_ids": [
+        "bake-danuki-c01",
+        "bake-danuki-c02",
+        "bake-danuki-c03"
+      ]
+    },
+    {
+      "id": "Salah satu cerita terkenalnya ialah Bunbuku chagama, tentang tanuki yang menjadi ketel teh. Dalam beberapa versi, ekor dan kaki hewannya muncul ketika ketel dipanaskan; sebagian versi mengaitkan kisah itu dengan Kuil Morinji di Gunma. Cetakan permainan yōkai juga menampilkan tanuki yang memukul perutnya seperti genderang. Gambar lain memperlihatkan tanuki yang setengah berubah menjadi Bocah Tahu; kaki berbulu dan ekor yang tersisa membocorkan penyamarannya. Aneka gambar itu menunjukkan bahwa sosoknya hadir dalam kisah dan seni populer.",
+      "en": "One well-known tale is Bunbuku chagama, in which a tanuki becomes a teakettle. In some versions its tail and legs appear when the kettle is heated; some versions place the tale at Morinji temple in Gunma. A yōkai game print also shows a tanuki drumming its belly. Another picture shows a tanuki halfway transformed into Tofu Boy, betrayed by its furry legs and tail. These depictions place the figure in Japanese stories and popular art.",
+      "claim_ids": [
+        "bake-danuki-c04",
+        "bake-danuki-c05",
+        "bake-danuki-c06",
+        "bake-danuki-c07",
+        "bake-danuki-c08",
+        "bake-danuki-c09"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "bake-danuki-s1",
+      "url": "https://www.nippon.com/en/japan-topics/b02504/",
+      "title": "“Yōkai”: Illuminating the History of Japan’s Imaginary Beasts",
+      "author": "Kagawa Masanobu",
+      "publisher": "Nippon.com",
+      "published": "2022-03-15",
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "bake-danuki-s2",
+      "url": "https://www.metmuseum.org/art/collection/search/913872",
+      "title": "Water-Dropper (Suiteki) in Raccoon Dog Shape",
+      "author": null,
+      "publisher": "The Metropolitan Museum of Art",
+      "published": null,
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "bake-danuki-s3",
+      "url": "https://glam.uoregon.edu/yokaisenjafuda/page/boardgame",
+      "title": "A boardgame",
+      "author": "Glynne Walley",
+      "publisher": "University of Oregon Libraries and Jordan Schnitzer Museum of Art",
+      "published": "2019",
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "bake-danuki-s4",
+      "url": "https://glam.uoregon.edu/yokaisenjafuda/page/yokai-senjafuda-series",
+      "title": "A senjafuda yōkai series",
+      "author": "Glynne Walley",
+      "publisher": "University of Oregon Libraries and Jordan Schnitzer Museum of Art",
+      "published": "2019",
+      "language": "en",
+      "type": "museum-or-archive",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "bake-danuki-c01",
+      "source_id": "bake-danuki-s1",
+      "quote": "animals such as foxes and tanuki (raccoon dogs) were long believed to possess the ability to change form to trick humans",
+      "locator": "Yōkai as Popular Fantasies",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tanuki adalah anjing rakun yang dalam folklor dipercaya dapat berubah rupa dan mempermainkan manusia.",
+        "en": "Tanuki are raccoon dogs believed in folklore to change form and trick humans."
+      }
+    },
+    {
+      "id": "bake-danuki-c02",
+      "source_id": "bake-danuki-s2",
+      "quote": "The tanuki, a raccoon dog from Japanese folklore, is celebrated for its powers of transformation and mischievous humor.",
+      "locator": "Object description",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tanuki dalam folklor terkenal karena perubahan wujud dan keusilan.",
+        "en": "The folklore tanuki is celebrated for transformation and mischief."
+      }
+    },
+    {
+      "id": "bake-danuki-c03",
+      "source_id": "bake-danuki-s1",
+      "quote": "Back in the Edo period, yōkai were known as bakemono—shape-shifters.",
+      "locator": "Yōkai as Popular Fantasies",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tanuki yang berubah rupa termasuk tradisi bakemono atau yōkai.",
+        "en": "Shapeshifting tanuki belong to the bakemono or yōkai tradition."
+      }
+    },
+    {
+      "id": "bake-danuki-c04",
+      "source_id": "bake-danuki-s3",
+      "quote": "One of the most popular tanuki stories (Bunbuku chagama, or “The Lucky Teakettle”) involves a tanuki who turned himself into a teakettle.",
+      "locator": "The Morinji Kettle",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Bunbuku chagama mengisahkan tanuki berubah menjadi ketel teh.",
+        "en": "Bunbuku chagama tells of a tanuki turning into a teakettle."
+      }
+    },
+    {
+      "id": "bake-danuki-c05",
+      "source_id": "bake-danuki-s3",
+      "quote": "most at some point involve the tanuki losing his concentration when placed over hot coals, so that his tail and legs pop out of the teakettle.",
+      "locator": "The Morinji Kettle",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam banyak versi, ekor dan kaki tanuki muncul saat ketel dipanaskan.",
+        "en": "In many versions the tanuki’s tail and legs appear when the kettle is heated."
+      }
+    },
+    {
+      "id": "bake-danuki-c06",
+      "source_id": "bake-danuki-s3",
+      "quote": "Some version of the story associate it with the temple of Morinji in Gunma",
+      "locator": "The Morinji Kettle",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sebagian versi menempatkan kisah itu di Kuil Morinji, Gunma.",
+        "en": "Some versions associate the tale with Morinji temple in Gunma."
+      }
+    },
+    {
+      "id": "bake-danuki-c07",
+      "source_id": "bake-danuki-s3",
+      "quote": "The “belly-drum” (haratsuzumi) is, of course, a tanuki happily doing his thing.",
+      "locator": "The Belly-Drum of Tanpo Moor",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Gambar permainan yōkai menampilkan tanuki memukul perutnya seperti genderang.",
+        "en": "A yōkai game print depicts a belly-drumming tanuki."
+      }
+    },
+    {
+      "id": "bake-danuki-c08",
+      "source_id": "bake-danuki-s4",
+      "quote": "What we have here is a tanuki that has half shape-shifted into Tofu Boy—a yōkai pretending to be another yōkai.",
+      "locator": "First slip",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Gambar lain memperlihatkan tanuki setengah berubah menjadi Bocah Tahu.",
+        "en": "Another picture shows a tanuki halfway transformed into Tofu Boy."
+      }
+    },
+    {
+      "id": "bake-danuki-c09",
+      "source_id": "bake-danuki-s4",
+      "quote": "but then we notice the furry legs and tail.",
+      "locator": "First slip",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kaki berbulu dan ekor dalam gambar mengungkap penyamaran tanuki.",
+        "en": "Furry legs and a tail reveal the disguised tanuki."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-049",
+  "slug": "ukemochi",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Ukemochi",
+    "native_name": null,
+    "display_name": {
+      "id": "Ukemochi",
+      "en": "Ukemochi"
+    },
+    "wikidata_qid": "Q2280323",
+    "claim_ids": [
+      "ukemochi-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "ukemochi-c01",
+      "ukemochi-c09"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "ukemochi-c01",
+      "ukemochi-c09"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "ukemochi-c01",
+      "ukemochi-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "ukemochi-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Ukemochi adalah kami makanan dalam Nihongi; sesudah Tsukuyomi membunuhnya, bahan pangan muncul dari tubuhnya.",
+    "en": "Ukemochi is a food kami in the Nihongi; after Tsukuyomi kills her, food crops emerge from her body.",
+    "claim_ids": [
+      "ukemochi-c01",
+      "ukemochi-c02",
+      "ukemochi-c05",
+      "ukemochi-c06"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Ukemochi adalah kami pangan yang muncul dalam sebuah versi alternatif Nihongi. Namanya berkaitan dengan kata uke atau uka yang berarti makanan. Amaterasu mengirim Tsukuyomi mengunjungi Ukemochi. Sang dewi kemudian mengeluarkan beragam hidangan dari mulutnya dan menyajikannya di banyak meja. Tsukuyomi menganggap makanan itu tercemar karena asalnya, lalu membunuh Ukemochi.",
+      "en": "Ukemochi is a food kami appearing in an alternative Nihongi account. Her name is linked to uke or uka, meaning food. Amaterasu sends Tsukuyomi to visit her. Ukemochi produces assorted dishes from her mouth and serves them on many tables. Tsukuyomi regards the food as polluted because of its origin and kills her.",
+      "claim_ids": [
+        "ukemochi-c01",
+        "ukemochi-c02",
+        "ukemochi-c03",
+        "ukemochi-c04",
+        "ukemochi-c05"
+      ]
+    },
+    {
+      "id": "Sesudah kematiannya, utusan Amaterasu menemukan sapi dan kuda dari kepala Ukemochi, padi dari perutnya, serta gandum dan kacang dari bagian tubuh lain. Amaterasu menerima hasil itu dan menanam biji-bijiannya; kisah ini menjelaskan asal bahan pangan. Seorang peneliti membandingkannya dengan Kojiki, yang menuturkan mitos mirip tetapi menghadirkan Ōgetsuhime sebagai dewi makanan yang dibunuh Susanoo. Dalam versi Nihon-shoki yang dibahasnya, pembunuhan Ukemochi juga menyebabkan Amaterasu menjauhi Tsukuyomi, suatu penjelasan mitis bagi bergantinya matahari dan bulan.",
+      "en": "After Ukemochi’s death, Amaterasu’s messenger finds cattle and horses emerging from her head, rice from her belly, and wheat and beans from another part of her body. Amaterasu receives and plants the seeds; the account explains the origin of food. A scholar compares it with the Kojiki, whose similar myth has Susanoo kill the food deity Ōgetsuhime. In the Nihon-shoki version he discusses, Amaterasu shuns Tsukuyomi after the murder, explaining the alternating sun and moon.",
+      "claim_ids": [
+        "ukemochi-c06",
+        "ukemochi-c07",
+        "ukemochi-c08",
+        "ukemochi-c09",
+        "ukemochi-c10"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "ukemochi-s1",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9741",
+      "title": "Ukemochi",
+      "author": "Nakayama Kaoru",
+      "publisher": "Encyclopedia of Shinto, Kokugakuin University",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "ukemochi-s2",
+      "url": "https://www.kokugakuin.ac.jp/en/article/90580",
+      "title": "Does food originate from a murdered goddess? The birth-myth of grains in the Kojiki",
+      "author": "Masahiro Taniguchi",
+      "publisher": "Kokugakuin University",
+      "published": "2018-10-18",
+      "language": "en",
+      "type": "other",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "ukemochi-c01",
+      "source_id": "ukemochi-s1",
+      "quote": "A deity appearing in an \"alternate writing\" quoted within Nihongi.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ukemochi adalah dewa yang muncul dalam versi alternatif Nihongi.",
+        "en": "Ukemochi is a deity in an alternative Nihongi account."
+      }
+    },
+    {
+      "id": "ukemochi-c02",
+      "source_id": "ukemochi-s1",
+      "quote": "The name uke is synonymous with uka, meaning \"food,\" with the result that ukemochi no kami means a tutelary of foodstuffs",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Uke dan uka berarti makanan; nama Ukemochi menunjuk pada pelindung pangan.",
+        "en": "Uke and uka mean food; Ukemochi is a tutelary of foodstuffs."
+      }
+    },
+    {
+      "id": "ukemochi-c03",
+      "source_id": "ukemochi-s1",
+      "quote": "Amaterasu commanded Tsukuyomi to go to Ukemochi",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Amaterasu menyuruh Tsukuyomi menemui Ukemochi.",
+        "en": "Amaterasu directs Tsukuyomi to visit Ukemochi."
+      }
+    },
+    {
+      "id": "ukemochi-c04",
+      "source_id": "ukemochi-s1",
+      "quote": "Ukemochi produced various foods from her mouth, including \"things broad of fin\" and \"things narrow of fin,\" \"things rough of hair\" and \"things soft of hair,\"",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ukemochi mengeluarkan aneka makanan dari mulutnya.",
+        "en": "Ukemochi produces various foods from her mouth."
+      }
+    },
+    {
+      "id": "ukemochi-c05",
+      "source_id": "ukemochi-s1",
+      "quote": "Tsukuyomi, however, was enraged at being served foods that were \"polluted\" (since they had issued from Ukemochi's mouth), and drew his sword and killed Ukemochi.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tsukuyomi marah karena menganggap makanan itu tercemar, lalu membunuh Ukemochi.",
+        "en": "Tsukuyomi kills Ukemochi because he regards her food as polluted."
+      }
+    },
+    {
+      "id": "ukemochi-c06",
+      "source_id": "ukemochi-s1",
+      "quote": "cattle and horses were produced from the head of Ukemochi's dead body, rice was produced from her belly, and wheat and beans were produced from her genitals.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dari jenazah Ukemochi muncul sapi, kuda, padi, gandum, dan kacang.",
+        "en": "Cattle, horses, rice, wheat, and beans emerge from Ukemochi’s body."
+      }
+    },
+    {
+      "id": "ukemochi-c07",
+      "source_id": "ukemochi-s1",
+      "quote": "Amaterasu planted the various grains and seeds in fields and paddies, a story said to represent one type of food-origin myth.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Amaterasu menanam biji-bijian itu; kisahnya menjelaskan asal makanan.",
+        "en": "Amaterasu plants the grains and seeds in a food-origin myth."
+      }
+    },
+    {
+      "id": "ukemochi-c08",
+      "source_id": "ukemochi-s2",
+      "quote": "The mythic origin of food is written in the Kojiki (Records of Ancient Matters). Once upon a time, Susanoo, one of the gods of Japan, asked Ogetsuhime, a goddesses, to give him food.",
+      "locator": "Did food originate from the remains of a god?",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kojiki menuturkan kisah sejenis tentang Susanoo dan dewi pangan Ōgetsuhime.",
+        "en": "The Kojiki tells a related tale about Susanoo and the food deity Ōgetsuhime."
+      }
+    },
+    {
+      "id": "ukemochi-c09",
+      "source_id": "ukemochi-s2",
+      "quote": "The Nihon-shoki (Chronicles of Japan) has a similar myth in which Tsukuyomi, the god of the moon, murders Ukemochi, a goddess.",
+      "locator": "The origin of grains",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Nihon-shoki menuturkan Tsukuyomi membunuh dewi Ukemochi.",
+        "en": "The Nihon-shoki tells of Tsukuyomi killing Ukemochi."
+      }
+    },
+    {
+      "id": "ukemochi-c10",
+      "source_id": "ukemochi-s2",
+      "quote": "Amaterasu, the goddess of the sun, who dispatched Tsukuyomi to Ukemochi, became furious about the murder and said she no longer wanted to stay in the same broad sky with him. This is explained as the origin of the alternative appearances of the sun and the moon in the sky.",
+      "locator": "The origin of grains",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Amaterasu menjauhi Tsukuyomi; kisah itu menjelaskan pergantian matahari dan bulan.",
+        "en": "Amaterasu shuns Tsukuyomi, explaining the alternating sun and moon."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada gambar dengan bukti identitas dan atribusi yang diverifikasi."
+    }
+  ]
+}
+```
+
