@@ -1,8 +1,8 @@
 # Review batch-145
 
-Diperiksa 2026-09-30T07:53:00.539Z. Berkas: batch-145.md.
+Diperiksa 2026-09-30T07:55:37.847Z. Berkas: batch-145.md.
 
-**Belum dikirim:** beaman-monster, bear-lake-monster, boto, cabra-cabriola, carbuncle-legendary-creature, chaneque, colo-colo-mythology, cuero-legendary-creature, el-silbon, huay-chivo, idliragijenget, iliamna-lake-monster, kalku, lady-in-red, lake-worth-monster, lava-bear, monster-of-lake-tota, muelona, nain-rouge, nootaikok, obia-folklore, qallupilluit, sayona, the-hairy-leg, ti-malice-and-bouki, tunda, two-toed-tom, wayob
+**Belum dikirim:** idliragijenget, iliamna-lake-monster, kalku, lady-in-red, lake-worth-monster, lava-bear, monster-of-lake-tota, muelona, nain-rouge, nootaikok, obia-folklore, qallupilluit, sayona, the-hairy-leg, ti-malice-and-bouki, tunda, two-toed-tom, wayob
 
 ## mogollon-monster — lulus-otomatis
 
@@ -272,4 +272,153 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ball-tailed-cat-c02 | exact | en.wikipedia.org | Ball-tailed cat tales were common among woodsmen around the turn of the 20th century. | Tales of ball-tailed cats were common among woodsmen during the turn of the 20th century |
 | ball-tailed-cat-c03 | exact | en.wikipedia.org | Two prominent variants are the Dingmaul and the Sliver Cat. | two of the more prominent variants are the Dingmaul and the Sliver Cat. |
 | ball-tailed-cat-c04 | exact | en.wikipedia.org | The earliest written mention is in Henry Tyron's Fearsome Critters (1939). | The earliest written mention of the ball-tailed cat appears in Henry Tyron's Fearsome Critters (1939). |
+
+
+## beaman-monster — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| beaman-monster-c01 | exact | en.wikipedia.org | In Missouri folklore, the Beaman Monster is named after the town of Beaman. | In Missouri folklore, the Beaman Monster is an entity named after the town of Beaman. |
+| beaman-monster-c02 | exact | en.wikipedia.org | Some call it the offspring of a 12-foot gorilla escaped from a circus train; others say it is "shaped like a wolf or coyote". | some describe the creature as the spawn of a 12-foot-tall gorilla said to have escaped from a circus train, whereas others describe the monster as "shaped like a wolf or coyote". |
+| beaman-monster-c03 | exact | en.wikipedia.org | Its tales have been told for generations around Sedalia. | Tales regarding the Beaman Monster have been told for generations in the Sedalia area. |
+
+
+## bear-lake-monster — lulus-otomatis
+
+Klaim 4 (exact 4), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| bear-lake-monster-c01 | exact | en.wikipedia.org | The Bear Lake Monster is an urban legend of a lake monster near Bear Lake on the Utah–Idaho border. | The Bear Lake Monster is a lake monster urban legend which appears in folklore near Bear Lake, on the Utah–Idaho border. |
+| bear-lake-monster-c02 | exact | en.wikipedia.org | The myth grew from 19th-century articles by Joseph C. Rich, a Latter-day Saint settler, who later recanted them. | The myth originally grew from articles written in the 19th century by Joseph C. Rich, a Latter-day Saint settler in the area, purporting to report second-hand accounts of sightings of the creature. However, he later recanted the stories. |
+| bear-lake-monster-c03 | exact | en.wikipedia.org | It is now a tourist attraction; the last reported sighting was in 2002. | In recent years, the monster has been considered a tourist attraction. The last reported sighting of the monster was in 2002. |
+| bear-lake-monster-c04 | exact | en.wikipedia.org | Folklorists say it resembles a serpent with legs about eighteen inches long, roaming the shore. | is reported to resemble a serpent, but with legs about eighteen inches [46 cm] long on which it marauds along the shoreline. |
+
+
+## boto — lulus-otomatis
+
+Klaim 6 (exact 6), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| boto-c01 | exact | de.wikipedia.org | The legend of the Bufeo Colorado (Portuguese: Boto) comes from northern Brazil and is widespread in the Amazon rainforest. | Die Legende des Bufeo Colorado (portugiesisch: Boto, französisch: Bouto) stammt aus dem Norden Brasiliens und ist im Amazonas-Regenwald weit verbreitet. |
+| boto-c02 | exact | de.wikipedia.org | The legend concerns the Amazon river dolphins, the "pink river dolphins" of the Amazon and its tributaries. | Die Legende handelt von den Amazonasdelfinen, auch „Rosa Flussdelfine“ genannt, welche im Amazonas und seinen Nebenflüssen leben. |
+| boto-c03 | exact | de.wikipedia.org | The legend commonly explains pregnancies outside marriage and was filmed in the Brazilian film "Ele, o Boto" (1987). | Die Legende dient gemeinhin zur Erklärung außerehelicher Schwangerschaften und wurde 1987 im brasilianischen Film „Ele, o Boto“ verfilmt. |
+| boto-c04 | exact | de.wikipedia.org | The Boto is said to appear at local festivals and dances as an elegant young man dressed in white. | Es wird erzählt, dass der Boto während lokaler Festlichkeiten und Tänze in Gestalt eines eleganten, weiß gekleideten jungen Mannes erscheint. |
+| boto-c05 | exact | de.wikipedia.org | He always wears a hat to hide the blowhole that remains on his head in human form. | Er trägt dabei stets einen Hut, um das verräterische Blasloch zu verstecken, das trotz der Verwandlung in einen Menschen auf seinem Kopf zurückbleibt. |
+| boto-c06 | exact | de.wikipedia.org | So unknown young men arriving at a festival in a hat are asked to take it off. | Aus diesem Grund werden unbekannte junge Männer, die mit Hut auf einem Fest erscheinen, gebeten, diesen abzunehmen. |
+
+
+## cabra-cabriola — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| cabra-cabriola-c01 | exact | en.wikipedia.org | The cabra cabriola ("leaping nanny goat") is a bogeyman of Portuguese myth told to children, also known elsewhere in Iberia and Brazil. | is an imaginary bogeyman type being from Portuguese myth told to children, whose legend is also told in other parts of the Iberian Peninsula and Brazil. |
+| cabra-cabriola-c02 | exact | en.wikipedia.org | It is imagined as a fire-breathing, sharp-toothed, goat-like, child-eating beast. | It is imagined to be a fire-breathing, sharp toothed, but goat-like, child-eating beast. |
+| cabra-cabriola-c03 | exact | en.wikipedia.org | It is a bogeyman that frightens children into good behavior. | The cabra cabriola is considered a bogeyman monster that terrifies children into good behavior. |
+
+
+## carbuncle-legendary-creature — lulus-otomatis
+
+Klaim 4 (exact 4), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| carbuncle-legendary-creature-c01 | exact | en.wikipedia.org | The carbuncle is a legendary small animal of South American folklore, especially in Paraguay and the mining folklore of northern Chile. | is a legendary species of small animal in South American folklore, specifically in Paraguay or the mining folklore of northern Chile. |
+| carbuncle-legendary-creature-c02 | exact | en.wikipedia.org | It is said to have a red shining mirror like glowing coal on its head, thought to be a gem. | The animal is said to have a red shining mirror, like hot glowing coal, on its head, thought to be a precious stone. |
+| carbuncle-legendary-creature-c03 | exact | en.wikipedia.org | To colonial Spaniards and Portuguese it embodied medieval lore of a dragon hiding a gem in its brain or body. | To the colonial Spaniards and Portuguese, the creature was a realization of the medieval lore that a dragon or wyvern concealed a precious gem in its brain or body |
+| carbuncle-legendary-creature-c04 | exact | en.wikipedia.org | The name comes from Latin carbunculus, "little coal". | comes from the Latin carbunculus, meaning "little coal" |
+
+
+## chaneque — lulus-otomatis
+
+Klaim 4 (exact 4), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| chaneque-c01 | exact | en.wikipedia.org | Chaneque are legendary creatures of Mexican folklore; in Nahuatl the name means "those who inhabit dangerous places" or "owners of the house". | are legendary creatures in Mexican folklore, meaning "those who inhabit dangerous places" or "owners of the house" in Náhuatl. |
+| chaneque-c02 | exact | en.wikipedia.org | These small sprite-like beings are tied to elemental forces and seen as guardians of nature. | These small, sprite-like beings hold a connection to elemental forces and are regarded as guardians of nature. |
+| chaneque-c03 | exact | en.wikipedia.org | Modern legends portray them as children with elderly faces who can lead people astray for days. | In some contemporary legends, chaneques are portrayed as children with the faces of elderly men or women, capable of leading people astray for several days. |
+| chaneque-c04 | exact | en.wikipedia.org | Elsewhere they frighten intruders until their souls leave their bodies. | In other instances, chaneques are said to intimidate intruders to the point where their souls leave their bodies. |
+
+
+## colo-colo-mythology — lulus-otomatis
+
+Klaim 4 (exact 4), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| colo-colo-mythology-c01 | exact | en.wikipedia.org | The Colo Colo is an evil rat-like creature of Mapuche mythology. | The Colo Colo or Colocolo is an evil rat-like creature from Mapuche mythology. |
+| colo-colo-mythology-c02 | exact | en.wikipedia.org | It nests near homes, sneaks in and drains blood or saliva from sleepers, causing weakness or tuberculosis. | The Colo Colo is reputed to nest near a residence and sneak in, drinking blood from a sleeping resident, extracting saliva or licking utensils, causing debilitating weakness or tuberculosis. |
+| colo-colo-mythology-c03 | exact | en.wikipedia.org | It hatches from a stunted "rooster's egg"; the young is snake- or lizard-like and later becomes a feathered rat. | It is often said to hatch from a stunted-looking "rooster's egg", and the young resembles a snake or burrowing lizard, but it later metamorphoses into a feathered rat form. |
+| colo-colo-mythology-c04 | exact | en.wikipedia.org | A wildcat is also called "colocolo", perhaps related to the lore's origin. | A type of wildcat is also called "colocolo", and this may perhaps be related to the origin of the lore. |
+
+
+## cuero-legendary-creature — lulus-otomatis
+
+Klaim 3 (exact 2, loose 1), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| cuero-legendary-creature-c01 | exact | en.wikipedia.org | El Cuero is an aquatic creature of Mapuche mythology later absorbed into the myths of central and southern Chile and parts of southwest Argentina. | is an aquatic creature from Mapuche mythology subsequently incorporated into the myth of Central Chile (including Chiloé Islands) and Southern Chile, and certain parts of southwest Argentina. |
+| cuero-legendary-creature-c02 | loose | en.wikipedia.org | It is also called cuero del agua or cuero vivo ("live hide"). | This also called cuero del agua or cuero de agua. or colloquially cuero vivo ("live hide"). |
+| cuero-legendary-creature-c03 | exact | en.wikipedia.org | El Cuero dwells in the depths of rivers and lagoons. | El Cuero dwells in the depths of rivers and lagoons. |
+
+
+## el-silbon — lulus-otomatis
+
+Klaim 4 (exact 4), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| el-silbon-c01 | exact | en.wikipedia.org | El Silbón ("The Whistler") is a legendary figure of Venezuela, associated especially with Los Llanos. | El Silbón (The Whistler) is a legendary figure in Venezuela, associated especially with the Venezuelan Los Llanos region |
+| el-silbon-c02 | exact | en.wikipedia.org | It is usually described as a lost soul. | It is usually described as a lost soul. |
+| el-silbon-c03 | exact | en.wikipedia.org | The legend, from the mid-19th century, is part of llanero folklore and serves as a moral warning in rural areas. | The legend, which emerged in the mid-19th century, forms part of Venezuelan llanero folklore and is also shared in Colombian–Venezuelan regions, functioning as a moral warning and an element of social control in rural areas. |
+| el-silbon-c04 | exact | en.wikipedia.org | He was nicknamed El Silbón for his habit of whistling. | He was nicknamed El Silbón because of his habit of whistling. |
+
+
+## huay-chivo — lulus-otomatis
+
+Klaim 4 (exact 4), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| huay-chivo-c01 | exact | en.wikipedia.org | The Huay Chivo is a legendary Maya beast, half man and half beast with burning red eyes, specific to the Yucatán Peninsula. | is a legendary Maya beast. It is a half-man, half-beast creature, with burning red eyes, and is specific to the Yucatán Peninsula. |
+| huay-chivo-c02 | exact | en.wikipedia.org | It is said to be an evil sorcerer who turns into a supernatural animal, usually a goat, dog or deer, to prey on livestock. | It is reputed to be an evil sorcerer who can transform himself into a supernatural animal, usually a goat, dog or deer, in order to prey upon livestock. |
+| huay-chivo-c03 | exact | en.wikipedia.org | The Huay Chivo is a local variation of the Mesoamerican Nahual. | The Huay Chivo is a local variation of the Mesoamerican Nahual. |
+| huay-chivo-c04 | exact | en.wikipedia.org | Chivo is Spanish for goat; the name literally means "sorcerer-goat". | Chivo is Spanish for goat, literally meaning sorcerer-goat |
 

@@ -1,21 +1,11 @@
 {
   "batch_id": "batch-145",
-  "checked_at": "2026-09-30T07:53:00.539Z",
+  "checked_at": "2026-09-30T07:55:37.847Z",
   "files": [
     "batch-145.md"
   ],
   "parse_problems": [],
   "missing": [
-    "beaman-monster",
-    "bear-lake-monster",
-    "boto",
-    "cabra-cabriola",
-    "carbuncle-legendary-creature",
-    "chaneque",
-    "colo-colo-mythology",
-    "cuero-legendary-creature",
-    "el-silbon",
-    "huay-chivo",
     "idliragijenget",
     "iliamna-lake-monster",
     "kalku",
@@ -1110,6 +1100,596 @@
           "statement_id": "Catatan tertulis paling awal muncul dalam Fearsome Critters karya Henry Tyron (1939).",
           "quote": "The earliest written mention of the ball-tailed cat appears in Henry Tyron's Fearsome Critters (1939).",
           "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "beaman-monster",
+      "file": "batch-145.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "beaman-monster-c01",
+          "source_id": "beaman-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Missouri folklore, the Beaman Monster is named after the town of Beaman.",
+          "statement_id": "Dalam cerita rakyat Missouri, Beaman Monster adalah makhluk yang dinamai menurut kota Beaman.",
+          "quote": "In Missouri folklore, the Beaman Monster is an entity named after the town of Beaman.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "beaman-monster-c02",
+          "source_id": "beaman-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some call it the offspring of a 12-foot gorilla escaped from a circus train; others say it is \"shaped like a wolf or coyote\".",
+          "statement_id": "Sebagian menyebutnya keturunan gorila setinggi 12 kaki yang lolos dari kereta sirkus, sebagian lain menyebutnya berbentuk seperti serigala atau koyote.",
+          "quote": "some describe the creature as the spawn of a 12-foot-tall gorilla said to have escaped from a circus train, whereas others describe the monster as \"shaped like a wolf or coyote\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "beaman-monster-c03",
+          "source_id": "beaman-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Its tales have been told for generations around Sedalia.",
+          "statement_id": "Kisah tentang Beaman Monster diceritakan turun-temurun di daerah Sedalia.",
+          "quote": "Tales regarding the Beaman Monster have been told for generations in the Sedalia area.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "bear-lake-monster",
+      "file": "batch-145.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "bear-lake-monster-c01",
+          "source_id": "bear-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Bear Lake Monster is an urban legend of a lake monster near Bear Lake on the Utah–Idaho border.",
+          "statement_id": "Bear Lake Monster adalah legenda urban tentang monster danau di sekitar Bear Lake, perbatasan Utah dan Idaho.",
+          "quote": "The Bear Lake Monster is a lake monster urban legend which appears in folklore near Bear Lake, on the Utah–Idaho border.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bear-lake-monster-c02",
+          "source_id": "bear-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The myth grew from 19th-century articles by Joseph C. Rich, a Latter-day Saint settler, who later recanted them.",
+          "statement_id": "Mitos ini tumbuh dari artikel abad ke-19 karya Joseph C. Rich, pemukim Orang Suci Zaman Akhir, yang kemudian menarik kembali ceritanya.",
+          "quote": "The myth originally grew from articles written in the 19th century by Joseph C. Rich, a Latter-day Saint settler in the area, purporting to report second-hand accounts of sightings of the creature. However, he later recanted the stories.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bear-lake-monster-c03",
+          "source_id": "bear-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is now a tourist attraction; the last reported sighting was in 2002.",
+          "statement_id": "Kini monster ini dianggap daya tarik wisata; penampakan terakhir dilaporkan pada tahun 2002.",
+          "quote": "In recent years, the monster has been considered a tourist attraction. The last reported sighting of the monster was in 2002.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bear-lake-monster-c04",
+          "source_id": "bear-lake-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Folklorists say it resembles a serpent with legs about eighteen inches long, roaming the shore.",
+          "statement_id": "Menurut para folklorist, ia mirip ular tetapi berkaki sekitar delapan belas inci yang dipakainya berkeliaran di tepi danau.",
+          "quote": "is reported to resemble a serpent, but with legs about eighteen inches [46 cm] long on which it marauds along the shoreline.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "boto",
+      "file": "batch-145.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "boto-c01",
+          "source_id": "boto-s1",
+          "host": "de.wikipedia.org",
+          "statement": "The legend of the Bufeo Colorado (Portuguese: Boto) comes from northern Brazil and is widespread in the Amazon rainforest.",
+          "statement_id": "Legenda Bufeo Colorado (bahasa Portugis: Boto) berasal dari Brasil utara dan tersebar luas di hutan hujan Amazon.",
+          "quote": "Die Legende des Bufeo Colorado (portugiesisch: Boto, französisch: Bouto) stammt aus dem Norden Brasiliens und ist im Amazonas-Regenwald weit verbreitet.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "boto-c02",
+          "source_id": "boto-s1",
+          "host": "de.wikipedia.org",
+          "statement": "The legend concerns the Amazon river dolphins, the \"pink river dolphins\" of the Amazon and its tributaries.",
+          "statement_id": "Legenda ini tentang lumba-lumba Amazon, atau \"lumba-lumba sungai merah muda\", yang hidup di Amazon dan anak-anak sungainya.",
+          "quote": "Die Legende handelt von den Amazonasdelfinen, auch „Rosa Flussdelfine“ genannt, welche im Amazonas und seinen Nebenflüssen leben.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "boto-c03",
+          "source_id": "boto-s1",
+          "host": "de.wikipedia.org",
+          "statement": "The legend commonly explains pregnancies outside marriage and was filmed in the Brazilian film \"Ele, o Boto\" (1987).",
+          "statement_id": "Legenda ini biasanya dipakai untuk menjelaskan kehamilan di luar nikah dan difilmkan dalam film Brasil \"Ele, o Boto\" (1987).",
+          "quote": "Die Legende dient gemeinhin zur Erklärung außerehelicher Schwangerschaften und wurde 1987 im brasilianischen Film „Ele, o Boto“ verfilmt.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "boto-c04",
+          "source_id": "boto-s1",
+          "host": "de.wikipedia.org",
+          "statement": "The Boto is said to appear at local festivals and dances as an elegant young man dressed in white.",
+          "statement_id": "Konon Boto muncul di pesta dan tarian setempat dalam wujud pemuda elegan berpakaian putih.",
+          "quote": "Es wird erzählt, dass der Boto während lokaler Festlichkeiten und Tänze in Gestalt eines eleganten, weiß gekleideten jungen Mannes erscheint.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "boto-c05",
+          "source_id": "boto-s1",
+          "host": "de.wikipedia.org",
+          "statement": "He always wears a hat to hide the blowhole that remains on his head in human form.",
+          "statement_id": "Ia selalu memakai topi untuk menyembunyikan lubang napas di kepalanya yang tetap ada meski ia berwujud manusia.",
+          "quote": "Er trägt dabei stets einen Hut, um das verräterische Blasloch zu verstecken, das trotz der Verwandlung in einen Menschen auf seinem Kopf zurückbleibt.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "boto-c06",
+          "source_id": "boto-s1",
+          "host": "de.wikipedia.org",
+          "statement": "So unknown young men arriving at a festival in a hat are asked to take it off.",
+          "statement_id": "Karena itu pemuda tak dikenal yang datang ke pesta bertopi diminta melepas topinya.",
+          "quote": "Aus diesem Grund werden unbekannte junge Männer, die mit Hut auf einem Fest erscheinen, gebeten, diesen abzunehmen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "cabra-cabriola",
+      "file": "batch-145.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "cabra-cabriola-c01",
+          "source_id": "cabra-cabriola-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The cabra cabriola (\"leaping nanny goat\") is a bogeyman of Portuguese myth told to children, also known elsewhere in Iberia and Brazil.",
+          "statement_id": "Cabra cabriola (\"kambing betina yang melompat\") adalah makhluk penakut anak dari mitos Portugis, juga dikisahkan di bagian lain Semenanjung Iberia dan Brasil.",
+          "quote": "is an imaginary bogeyman type being from Portuguese myth told to children, whose legend is also told in other parts of the Iberian Peninsula and Brazil.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cabra-cabriola-c02",
+          "source_id": "cabra-cabriola-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is imagined as a fire-breathing, sharp-toothed, goat-like, child-eating beast.",
+          "statement_id": "Ia dibayangkan sebagai binatang mirip kambing yang menyemburkan api, bergigi tajam, dan memakan anak-anak.",
+          "quote": "It is imagined to be a fire-breathing, sharp toothed, but goat-like, child-eating beast.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cabra-cabriola-c03",
+          "source_id": "cabra-cabriola-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is a bogeyman that frightens children into good behavior.",
+          "statement_id": "Ia dianggap monster penakut agar anak-anak berperilaku baik.",
+          "quote": "The cabra cabriola is considered a bogeyman monster that terrifies children into good behavior.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "carbuncle-legendary-creature",
+      "file": "batch-145.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "carbuncle-legendary-creature-c01",
+          "source_id": "carbuncle-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The carbuncle is a legendary small animal of South American folklore, especially in Paraguay and the mining folklore of northern Chile.",
+          "statement_id": "Carbuncle adalah hewan kecil legendaris dalam cerita rakyat Amerika Selatan, khususnya Paraguay dan cerita rakyat tambang di Chile utara.",
+          "quote": "is a legendary species of small animal in South American folklore, specifically in Paraguay or the mining folklore of northern Chile.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "carbuncle-legendary-creature-c02",
+          "source_id": "carbuncle-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is said to have a red shining mirror like glowing coal on its head, thought to be a gem.",
+          "statement_id": "Hewan ini konon memiliki cermin merah berkilau seperti bara di kepalanya, yang dianggap batu permata.",
+          "quote": "The animal is said to have a red shining mirror, like hot glowing coal, on its head, thought to be a precious stone.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "carbuncle-legendary-creature-c03",
+          "source_id": "carbuncle-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "To colonial Spaniards and Portuguese it embodied medieval lore of a dragon hiding a gem in its brain or body.",
+          "statement_id": "Bagi orang Spanyol dan Portugis masa kolonial, makhluk ini mewujudkan kisah abad pertengahan tentang naga yang menyimpan permata di otak atau tubuhnya.",
+          "quote": "To the colonial Spaniards and Portuguese, the creature was a realization of the medieval lore that a dragon or wyvern concealed a precious gem in its brain or body",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "carbuncle-legendary-creature-c04",
+          "source_id": "carbuncle-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name comes from Latin carbunculus, \"little coal\".",
+          "statement_id": "Namanya berasal dari bahasa Latin carbunculus, \"bara kecil\".",
+          "quote": "comes from the Latin carbunculus, meaning \"little coal\"",
+          "context": "etymology",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "chaneque",
+      "file": "batch-145.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "chaneque-c01",
+          "source_id": "chaneque-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Chaneque are legendary creatures of Mexican folklore; in Nahuatl the name means \"those who inhabit dangerous places\" or \"owners of the house\".",
+          "statement_id": "Chaneque adalah makhluk legenda cerita rakyat Meksiko; dalam bahasa Nahuatl namanya berarti \"mereka yang menghuni tempat berbahaya\" atau \"pemilik rumah\".",
+          "quote": "are legendary creatures in Mexican folklore, meaning \"those who inhabit dangerous places\" or \"owners of the house\" in Náhuatl.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chaneque-c02",
+          "source_id": "chaneque-s1",
+          "host": "en.wikipedia.org",
+          "statement": "These small sprite-like beings are tied to elemental forces and seen as guardians of nature.",
+          "statement_id": "Makhluk kecil mirip peri ini terhubung dengan kekuatan alam dan dianggap penjaga alam.",
+          "quote": "These small, sprite-like beings hold a connection to elemental forces and are regarded as guardians of nature.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chaneque-c03",
+          "source_id": "chaneque-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Modern legends portray them as children with elderly faces who can lead people astray for days.",
+          "statement_id": "Dalam legenda masa kini, chaneque digambarkan seperti anak kecil berwajah orang tua yang dapat menyesatkan orang selama berhari-hari.",
+          "quote": "In some contemporary legends, chaneques are portrayed as children with the faces of elderly men or women, capable of leading people astray for several days.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chaneque-c04",
+          "source_id": "chaneque-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Elsewhere they frighten intruders until their souls leave their bodies.",
+          "statement_id": "Dalam kisah lain, chaneque menakut-nakuti penyusup hingga jiwa mereka meninggalkan tubuh.",
+          "quote": "In other instances, chaneques are said to intimidate intruders to the point where their souls leave their bodies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "colo-colo-mythology",
+      "file": "batch-145.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "colo-colo-mythology-c01",
+          "source_id": "colo-colo-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Colo Colo is an evil rat-like creature of Mapuche mythology.",
+          "statement_id": "Colo Colo adalah makhluk jahat mirip tikus dari mitologi Mapuche.",
+          "quote": "The Colo Colo or Colocolo is an evil rat-like creature from Mapuche mythology.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "colo-colo-mythology-c02",
+          "source_id": "colo-colo-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It nests near homes, sneaks in and drains blood or saliva from sleepers, causing weakness or tuberculosis.",
+          "statement_id": "Ia bersarang dekat rumah, menyelinap masuk, dan mengisap darah atau air liur orang tidur sehingga menyebabkan lemah atau tuberkulosis.",
+          "quote": "The Colo Colo is reputed to nest near a residence and sneak in, drinking blood from a sleeping resident, extracting saliva or licking utensils, causing debilitating weakness or tuberculosis.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "colo-colo-mythology-c03",
+          "source_id": "colo-colo-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It hatches from a stunted \"rooster's egg\"; the young is snake- or lizard-like and later becomes a feathered rat.",
+          "statement_id": "Ia menetas dari \"telur ayam jantan\" yang kerdil; anaknya mirip ular atau kadal, lalu berubah menjadi tikus berbulu.",
+          "quote": "It is often said to hatch from a stunted-looking \"rooster's egg\", and the young resembles a snake or burrowing lizard, but it later metamorphoses into a feathered rat form.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "colo-colo-mythology-c04",
+          "source_id": "colo-colo-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A wildcat is also called \"colocolo\", perhaps related to the lore's origin.",
+          "statement_id": "Sejenis kucing liar juga disebut \"colocolo\", yang mungkin terkait asal-usul cerita ini.",
+          "quote": "A type of wildcat is also called \"colocolo\", and this may perhaps be related to the origin of the lore.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "cuero-legendary-creature",
+      "file": "batch-145.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "cuero-legendary-creature-c01",
+          "source_id": "cuero-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "El Cuero is an aquatic creature of Mapuche mythology later absorbed into the myths of central and southern Chile and parts of southwest Argentina.",
+          "statement_id": "El Cuero adalah makhluk air dari mitologi Mapuche yang kemudian masuk ke mitos Chile tengah dan selatan serta sebagian Argentina barat daya.",
+          "quote": "is an aquatic creature from Mapuche mythology subsequently incorporated into the myth of Central Chile (including Chiloé Islands) and Southern Chile, and certain parts of southwest Argentina.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cuero-legendary-creature-c02",
+          "source_id": "cuero-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is also called cuero del agua or cuero vivo (\"live hide\").",
+          "statement_id": "Ia juga disebut cuero del agua atau cuero vivo (\"kulit hidup\").",
+          "quote": "This also called cuero del agua or cuero de agua. or colloquially cuero vivo (\"live hide\").",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "cuero-legendary-creature-c03",
+          "source_id": "cuero-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "El Cuero dwells in the depths of rivers and lagoons.",
+          "statement_id": "El Cuero tinggal di kedalaman sungai dan laguna.",
+          "quote": "El Cuero dwells in the depths of rivers and lagoons.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "el-silbon",
+      "file": "batch-145.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "el-silbon-c01",
+          "source_id": "el-silbon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "El Silbón (\"The Whistler\") is a legendary figure of Venezuela, associated especially with Los Llanos.",
+          "statement_id": "El Silbón (\"si Peluit\") adalah tokoh legenda Venezuela yang terutama dikaitkan dengan wilayah Los Llanos.",
+          "quote": "El Silbón (The Whistler) is a legendary figure in Venezuela, associated especially with the Venezuelan Los Llanos region",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "el-silbon-c02",
+          "source_id": "el-silbon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is usually described as a lost soul.",
+          "statement_id": "Ia biasanya digambarkan sebagai arwah yang tersesat.",
+          "quote": "It is usually described as a lost soul.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "el-silbon-c03",
+          "source_id": "el-silbon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The legend, from the mid-19th century, is part of llanero folklore and serves as a moral warning in rural areas.",
+          "statement_id": "Legenda yang muncul pada pertengahan abad ke-19 ini bagian dari cerita rakyat llanero dan berfungsi sebagai peringatan moral di pedesaan.",
+          "quote": "The legend, which emerged in the mid-19th century, forms part of Venezuelan llanero folklore and is also shared in Colombian–Venezuelan regions, functioning as a moral warning and an element of social control in rural areas.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "el-silbon-c04",
+          "source_id": "el-silbon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He was nicknamed El Silbón for his habit of whistling.",
+          "statement_id": "Ia dijuluki El Silbón karena kebiasaannya bersiul.",
+          "quote": "He was nicknamed El Silbón because of his habit of whistling.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "huay-chivo",
+      "file": "batch-145.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "huay-chivo-c01",
+          "source_id": "huay-chivo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Huay Chivo is a legendary Maya beast, half man and half beast with burning red eyes, specific to the Yucatán Peninsula.",
+          "statement_id": "Huay Chivo adalah binatang legendaris Maya, setengah manusia setengah binatang bermata merah menyala, khas Semenanjung Yucatán.",
+          "quote": "is a legendary Maya beast. It is a half-man, half-beast creature, with burning red eyes, and is specific to the Yucatán Peninsula.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huay-chivo-c02",
+          "source_id": "huay-chivo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is said to be an evil sorcerer who turns into a supernatural animal, usually a goat, dog or deer, to prey on livestock.",
+          "statement_id": "Ia konon penyihir jahat yang dapat berubah menjadi hewan gaib, biasanya kambing, anjing, atau rusa, untuk memangsa ternak.",
+          "quote": "It is reputed to be an evil sorcerer who can transform himself into a supernatural animal, usually a goat, dog or deer, in order to prey upon livestock.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huay-chivo-c03",
+          "source_id": "huay-chivo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Huay Chivo is a local variation of the Mesoamerican Nahual.",
+          "statement_id": "Huay Chivo adalah variasi lokal dari Nahual Mesoamerika.",
+          "quote": "The Huay Chivo is a local variation of the Mesoamerican Nahual.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "huay-chivo-c04",
+          "source_id": "huay-chivo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Chivo is Spanish for goat; the name literally means \"sorcerer-goat\".",
+          "statement_id": "Chivo berarti kambing dalam bahasa Spanyol; namanya secara harfiah berarti \"kambing penyihir\".",
+          "quote": "Chivo is Spanish for goat, literally meaning sorcerer-goat",
+          "context": "etymology",
           "status": "exact"
         }
       ],
