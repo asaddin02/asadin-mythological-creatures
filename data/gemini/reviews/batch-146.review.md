@@ -1,6 +1,6 @@
 # Review batch-146
 
-Diperiksa 2026-09-30T07:42:45.295Z. Berkas: batch-146.md.
+Diperiksa 2026-09-30T09:11:48.407Z. Berkas: batch-146.md.
 
 ## wihwin — lulus-otomatis
 
@@ -63,6 +63,9 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 ## caboclo-de-agua — lulus-otomatis
 
 Klaim 8 (exact 8), sumber 1, gambar 0.
+
+**warn**
+- `claims (caboclo-de-agua-c06)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
 
 **manual**
 - `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.

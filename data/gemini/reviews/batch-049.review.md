@@ -1,6 +1,6 @@
 # Review batch-049
 
-Diperiksa 2026-09-30T09:06:32.338Z. Berkas: batch-049.md.
+Diperiksa 2026-09-30T09:11:43.275Z. Berkas: batch-049.md.
 
 ## susanoo — lulus-otomatis
 
@@ -340,6 +340,9 @@ Klaim 7 (exact 7), sumber 3, gambar 0.
 
 Klaim 9 (exact 9), sumber 4, gambar 0.
 
+**warn**
+- `claims (namazu-c09)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
+
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | namazu-c01 | exact | www.rijksmuseum.nl | Namazu is a mythical fish said to lie beneath Japan and cause earthquakes. | This catfish represents the namazu: a mythical fish that, according to legend, lies under the islands of Japan and causes earthquakes. |
@@ -410,6 +413,9 @@ Klaim 10 (exact 10), sumber 4, gambar 0.
 
 Klaim 12 (exact 12), sumber 3, gambar 0.
 
+**warn**
+- `claims (yama-uba-c04)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
+
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | yama-uba-c01 | exact | bakemono.lib.byu.edu | Yama-uba, also known as yamamba, is a Japanese yōkai. | Yamamba (山むば) is a Japanese yōkai also known as yamauba (山うば) |
@@ -429,6 +435,9 @@ Klaim 12 (exact 12), sumber 3, gambar 0.
 ## amabie — lulus-otomatis
 
 Klaim 9 (exact 9), sumber 3, gambar 0.
+
+**warn**
+- `claims (amabie-c03)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -664,6 +673,9 @@ Klaim 11 (exact 11), sumber 3, gambar 0.
 ## swan-maiden — lulus-otomatis
 
 Klaim 12 (exact 12), sumber 2, gambar 0.
+
+**warn**
+- `claims (swan-maiden-c05)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|

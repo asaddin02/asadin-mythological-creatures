@@ -1,6 +1,6 @@
 # Review batch-152
 
-Diperiksa 2026-09-30T09:06:35.251Z. Berkas: batch-152.md, batch-152-fix-1.md.
+Diperiksa 2026-09-30T09:11:46.455Z. Berkas: batch-152.md, batch-152-fix-1.md.
 
 ## will-o-the-wisp — lulus-otomatis
 
@@ -357,6 +357,9 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 
 Klaim 6 (exact 5, loose 1), sumber 3, gambar 0.
 
+**warn**
+- `claims (xeglun-c06)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
+
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | xeglun-c01 | exact | en.wikipedia.org | Xeglun is the celestial elk in Tungusic mythology. | Xeglun is the celestial elk in Tungusic mythology. |
@@ -381,6 +384,10 @@ Klaim 0 (), sumber 0, gambar 0.
 ## roesschaert — lulus-otomatis
 
 Klaim 7 (exact 7), sumber 1, gambar 0.
+
+**warn**
+- `claims (roesschaert-c05)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
+- `claims (roesschaert-c06)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
 
 **manual**
 - `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.

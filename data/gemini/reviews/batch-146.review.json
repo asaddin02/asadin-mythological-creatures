@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-146",
-  "checked_at": "2026-09-30T07:42:45.295Z",
+  "checked_at": "2026-09-30T09:11:48.407Z",
   "files": [
     "batch-146.md"
   ],
@@ -241,6 +241,11 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "claims (caboclo-de-agua-c06)",
+          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
         }
       ],
       "claims": [

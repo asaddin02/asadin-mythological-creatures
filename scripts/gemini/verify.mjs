@@ -102,6 +102,8 @@ const shingles = (ws, n) => {
   for (let i = 0; i + n <= ws.length; i++) out.push(ws.slice(i, i + n).join(' '));
   return out;
 };
+const STOPWORDS = new Set('the and that with from this which were was are for into its his her their they them also has have had been being said called known often most more than such other some many one two who whose when where there what about after before over under between among upon onto would could should will can may might not only very much like each both either same then thus these those does did done make made'.split(' '));
+const ENGLISH_MARKERS = new Set(['the', 'and', 'of', 'in', 'is', 'was', 'to', 'a']);
 const hash = s => createHash('sha1').update(s).digest('hex');
 const isObj = v => v !== null && typeof v === 'object' && !Array.isArray(v);
 const nonEmpty = v => typeof v === 'string' && v.trim().length > 0;
@@ -573,6 +575,17 @@ async function checkQuotes(entry, ctx, issues) {
     const source = ctx.sourcesById.get(c.source_id);
     const row = { id: c.id, source_id: c.source_id, host: null, statement: c.statement?.en || '', statement_id: c.statement?.id || '', quote: c.quote, context: c.context };
     results.push(row);
+    // An agent once shifted every quote one claim down: the quotes were real, the statements unsupported.
+    // For English quotes, flag a statement that shares almost no content word with its own quote.
+    const content = s => new Set(words(s).filter(w => w.length > 3 && !STOPWORDS.has(w)).map(w => w.slice(0, 5)));
+    const quoteWords = words(c.quote || '');
+    const english = quoteWords.length && quoteWords.filter(w => ENGLISH_MARKERS.has(w)).length / quoteWords.length >= 0.12;
+    const stmt = content(c.statement?.en || '');
+    if (english && stmt.size >= 3) {
+      const q = content(c.quote);
+      const shared = [...stmt].filter(w => q.has(w)).length / stmt.size;
+      if (shared < 0.2) issues.push({ level: 'warn', where: `claims (${c.id})`, message: 'Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).' });
+    }
     if (!source || !nonEmpty(c.quote)) {
       row.status = 'skipped';
       continue;
