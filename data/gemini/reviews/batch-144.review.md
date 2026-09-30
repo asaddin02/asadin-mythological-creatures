@@ -1,8 +1,6 @@
 # Review batch-144
 
-Diperiksa 2026-09-30T08:43:32.281Z. Berkas: batch-144.md.
-
-**Belum dikirim:** chickcharney, dzahui, eeyeekalduk, el-hombre-caiman, enfield-monster, gaasyendietha, jasy-jatere, legend-of-trentren-vilu-and-caicai-vilu, mani-mythology, memphre
+Diperiksa 2026-09-30T08:45:23.646Z. Berkas: batch-144.md.
 
 ## arnakuagsak — skip
 
@@ -495,4 +493,140 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 | cadejo-c01 | exact | en.wikipedia.org | The cadejo is a supernatural spirit of Central American folklore of indigenous origin, a dog-like creature with blue eyes when calm and red when hostile. | is a supernatural spirit in Central American folklore of indigenous origin. It is commonly depicted as a dog-like creature with blue eyes when calm and red eyes when hostile. |
 | cadejo-c02 | exact | en.wikipedia.org | Legend says it wanders lonely roads at night. | According to legend, it wanders along isolated roads at night. |
 | cadejo-c03 | exact | en.wikipedia.org | The white cadejo protects travelers, while the black cadejo tries to kill them. | The white cadejo protects travelers from harm and danger, while the black cadejo attempts to kill them |
+
+
+## chickcharney — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| chickcharney-c01 | exact | en.wikipedia.org | The chickcharney is a legendary creature of the folklore of Andros in the Bahamas. | The chickcharney is a type of legendary creature in the folklore of Andros in the Bahamas. |
+| chickcharney-c02 | exact | en.wikipedia.org | They are mischievous feathered creatures with red eyes, three toes per foot and long prehensile tails. | They are described as mischievous feathered creatures with red eyes, three toes on each foot, and long prehensile tails. |
+| chickcharney-c03 | exact | en.wikipedia.org | They live in pine forests and curse or bless travelers depending on how they are treated. | They are believed to live in pine forests and will either curse or bless travelers depending on how they are treated. |
+
+
+## dzahui — lulus-otomatis
+
+Klaim 2 (exact 2), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| dzahui-c01 | exact | en.wikipedia.org | In Mixtec mythology, Dzahui (also Dzavui) is the rain god, offered child sacrifices on hilltops in times of drought, disease and harvest. | In Mixtec mythology, Dzahui (also spelled Dzavui) is the god of rain, for whom child sacrifices were performed on hilltops during times of drought, disease, and harvest. |
+| dzahui-c02 | exact | en.wikipedia.org | In Mixtec codices Dzahui wears the blue or green rain goggle mask also seen on Tlaloc. | In Mixtec codices, Dzahui exhibits the blue or green rain goggle mask also seen on the central Mexican deity Tlaloc. |
+
+
+## eeyeekalduk — lulus-otomatis
+
+Klaim 1 (exact 1), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| eeyeekalduk-c01 | exact | en.wikipedia.org | In Inuit mythology, Eeyeekalduk was the god of medicine and good health. | In Inuit mythology, Eeyeekalduk was the god of medicine and good health. |
+
+
+## el-hombre-caiman — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| el-hombre-caiman-c01 | exact | en.wikipedia.org | El Hombre Caimán ("The Alligator Man") is an urban legend of the Caribbean coast of Colombia, set in Plato: Saúl Montenegro, who spied on bathing women, became a being with a man's head and an alligator's body. | El Hombre Caimán (The Alligator Man) is an urban legend from the Caribbean coast of Colombia that takes place in the riverside town of Plato: Saúl Montenegro's passion for spying on naked women turned into a being with the head of a man and the body of an alligator. |
+| el-hombre-caiman-c02 | exact | en.wikipedia.org | The story was reportedly in the press in the 1940s. | The story was allegedly reported in the press in the 1940s. |
+| el-hombre-caiman-c03 | exact | en.wikipedia.org | A witch gave him two potions: a red one to become an alligator and a white one to change back. | The witch gave him two potions: a red one that turned him into an alligator, and a white one that turned him back. |
+
+
+## enfield-monster — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| enfield-monster-c01 | exact | en.wikipedia.org | The Enfield Monster is an unidentified creature reported around Enfield, Illinois, in April 1973. | The Enfield Monster is an unidentified creature reported around Enfield, Illinois, United States in April 1973. |
+| enfield-monster-c02 | exact | en.wikipedia.org | The media covered the reports, some suggesting a wild ape or escaped kangaroo. | The reports were covered by the news media at the time, with some suggesting they may have been caused by a wild ape or escaped kangaroo. |
+| enfield-monster-c03 | exact | en.wikipedia.org | Sociologists cite the episode as an example of collective behavior. | the episode is cited by sociologists as an example of collective behavior |
+
+
+## gaasyendietha — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| gaasyendietha-c01 | exact | en.wikipedia.org | Gaasyendietha, the "meteor dragon" of Seneca mythology, is a giant serpent living in the depths of Canadian rivers and lakes, especially Lake Ontario. | also known as the meteor dragon according to Seneca mythology, is a giant serpent that dwells in the deep areas of rivers and lakes of Canada, especially Lake Ontario. |
+| gaasyendietha-c02 | exact | en.wikipedia.org | It could fly on a trail of fire and spew fire, so it is likened to European dragons. | This serpent could fly on a trail of fire, and it could also spew fire, which has led to it being viewed as analogous to European dragons. |
+| gaasyendietha-c03 | exact | en.wikipedia.org | The name "meteor dragon" refers to its supposed origin in a meteoroid that struck Earth. | in reference to its supposed origin from a meteoroid that had impacted the Earth. |
+
+
+## jasy-jatere — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| jasy-jatere-c01 | exact | en.wikipedia.org | Jasy Jatere is an important figure of Guaraní mythology, one of the seven cursed children of Tau and Kerana and among the most important Guaraní gods, especially in Paraguay. | is an important figure in Guaraní mythology. One of the seven cursed children of Tau and Kerana, Jasy Jatere is one of the most important gods among the Guaraní speaking cultures of South America, especially in Paraguay. |
+| jasy-jatere-c02 | exact | en.wikipedia.org | His name means "a little piece of the moon"; unlike his brothers, he is not monstrous. | Jasy Jatere, which means literally "a little piece of the moon", is unique among his brothers in that he does not have a monstrous appearance. |
+| jasy-jatere-c03 | exact | en.wikipedia.org | He is usually a small man or child with light blond hair and sometimes blue eyes. | He is usually described as being a small man or perhaps a child, with light blonde hair and sometimes blue eyes. |
+
+
+## legend-of-trentren-vilu-and-caicai-vilu — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| legend-of-trentren-vilu-and-caicai-vilu-c01 | exact | en.wikipedia.org | The legend of Trentren Vilu and Caicai Vilu is a Mapuche flood myth of a fierce battle between two mythical snakes. | is a Mapuche flood myth that tells the story of a fierce battle between two mythical snakes, Trentren Vilu and Caicai Vilu. |
+| legend-of-trentren-vilu-and-caicai-vilu-c02 | exact | en.wikipedia.org | It explains the unique geography of the Chiloé archipelago and southern Chile's mountains. | It explains how the Chilóe archipelago and mountains of southern Chile came to have its unique geography. |
+| legend-of-trentren-vilu-and-caicai-vilu-c03 | exact | en.wikipedia.org | Caicai was sent to care for the sea with the Ngen-ko water spirits, and Trentren to live on land. | Caicai was sent to live in the sea to help care for it with the Ngen-ko (water spirits), and Trentren was sent to live on earth |
+
+
+## mani-mythology — lulus-otomatis
+
+Klaim 2 (exact 2), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| mani-mythology-c01 | exact | en.wikipedia.org | Maní is a Tupi mythological character, a very fair-skinned girl whose story forms a Tupi origin myth. | is a Tupi mythological character depicted as a girl with very fair complexion, whose story comprises the Tupi myth of origins. |
+| mani-mythology-c02 | exact | en.wikipedia.org | The Amazonian legend of Maní is tied to the cult of manioc, the staple food that grew from her grave. | The Amazonian legend of Maní is related to the cult of manioc, the native staple food that sprang from her grave. |
+
+
+## memphre — lulus-otomatis
+
+Klaim 3 (exact 3), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| memphre-c01 | exact | en.wikipedia.org | In Canadian folklore, Memphré is a lake monster said to live in Lake Memphremagog between Newport, Vermont, and Magog, Quebec. | In Canadian folklore, Memphré is a lake monster said to live in Lake Memphremagog, a fresh water glacial lake located between Newport, Vermont, United States and Magog, Quebec, Canada. |
+| memphre-c02 | exact | en.wikipedia.org | Memphré is often described much like the Loch Ness Monster. | Memphré is often described much like the Loch Ness Monster. |
+| memphre-c03 | exact | en.wikipedia.org | In August 2011 an image of Memphré appeared on a coloured Canadian quarter. | In August 2011, an artistic impression of Memphré was featured on a coloured Canadian quarter. |
 

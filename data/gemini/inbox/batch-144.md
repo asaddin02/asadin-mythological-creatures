@@ -6028,3 +6028,1722 @@
 }
 ```
 
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-144",
+  "slug": "chickcharney",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Chickcharney",
+    "native_name": null,
+    "display_name": {
+      "id": "Chickcharney",
+      "en": "Chickcharney"
+    },
+    "wikidata_qid": "Q5096216",
+    "claim_ids": [
+      "chickcharney-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "makhluk legenda",
+    "claim_ids": [
+      "chickcharney-c01"
+    ]
+  },
+  "classification": {
+    "value": "legendary-creature",
+    "claim_ids": [
+      "chickcharney-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-caribbean",
+    "suggested_new": null,
+    "claim_ids": [
+      "chickcharney-c01"
+    ]
+  },
+  "region": {
+    "value": "central-america",
+    "claim_ids": [
+      "chickcharney-c01"
+    ]
+  },
+  "countries": {
+    "value": [
+      "Bahamas"
+    ],
+    "claim_ids": [
+      "chickcharney-c01"
+    ]
+  },
+  "era": null,
+  "habitats": [
+    {
+      "value": "forest",
+      "claim_ids": [
+        "chickcharney-c03"
+      ]
+    }
+  ],
+  "disposition": {
+    "value": "ambivalent",
+    "claim_ids": [
+      "chickcharney-c03"
+    ]
+  },
+  "traits": [
+    {
+      "value": "curses",
+      "claim_ids": [
+        "chickcharney-c03"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "Chickcharney adalah makhluk berbulu bermata merah dari cerita rakyat Andros, Bahama, yang mengutuk atau memberkati pelancong [chickcharney-c01, chickcharney-c02, chickcharney-c03].",
+    "en": "The chickcharney is a red-eyed feathered creature of Andros folklore in the Bahamas that curses or blesses travelers [chickcharney-c01, chickcharney-c02, chickcharney-c03].",
+    "claim_ids": [
+      "chickcharney-c01",
+      "chickcharney-c02",
+      "chickcharney-c03"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Chickcharney adalah makhluk legenda dari cerita rakyat Andros, Bahama [chickcharney-c01], berbulu, bermata merah, berjari tiga, dan berekor panjang [chickcharney-c02]. Mereka tinggal di hutan pinus dan mengutuk atau memberkati pelancong sesuai perlakuan yang mereka terima [chickcharney-c03].",
+      "en": "The chickcharney is a legendary creature of Andros folklore in the Bahamas [chickcharney-c01], feathered, red-eyed, three-toed and long-tailed [chickcharney-c02]. They live in pine forests and curse or bless travelers according to how they are treated [chickcharney-c03].",
+      "claim_ids": [
+        "chickcharney-c01",
+        "chickcharney-c02",
+        "chickcharney-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Apa pelajaran dari makhluk yang membalas sesuai perlakuan kita?",
+      "en": "What do beings that repay our treatment teach?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "chickcharney-s1",
+      "url": "https://en.wikipedia.org/wiki/Chickcharney",
+      "title": "Chickcharney",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "chickcharney-c01",
+      "source_id": "chickcharney-s1",
+      "quote": "The chickcharney is a type of legendary creature in the folklore of Andros in the Bahamas.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Chickcharney adalah makhluk legenda dalam cerita rakyat Andros, Bahama.",
+        "en": "The chickcharney is a legendary creature of the folklore of Andros in the Bahamas."
+      }
+    },
+    {
+      "id": "chickcharney-c02",
+      "source_id": "chickcharney-s1",
+      "quote": "They are described as mischievous feathered creatures with red eyes, three toes on each foot, and long prehensile tails.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Mereka digambarkan sebagai makhluk berbulu jahil bermata merah, berjari tiga di tiap kaki, dan berekor panjang yang dapat mencengkeram.",
+        "en": "They are mischievous feathered creatures with red eyes, three toes per foot and long prehensile tails."
+      }
+    },
+    {
+      "id": "chickcharney-c03",
+      "source_id": "chickcharney-s1",
+      "quote": "They are believed to live in pine forests and will either curse or bless travelers depending on how they are treated.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Mereka tinggal di hutan pinus dan akan mengutuk atau memberkati pelancong tergantung cara diperlakukan.",
+        "en": "They live in pine forests and curse or bless travelers depending on how they are treated."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-144",
+  "slug": "dzahui",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Dzahui",
+    "native_name": null,
+    "display_name": {
+      "id": "Dzahui",
+      "en": "Dzahui"
+    },
+    "wikidata_qid": "Q3042185",
+    "claim_ids": [
+      "dzahui-c01"
+    ]
+  },
+  "alternate_names": [
+    {
+      "name": "Dzavui",
+      "language": "mix",
+      "name_type": "alias",
+      "claim_ids": [
+        "dzahui-c01"
+      ]
+    }
+  ],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "dzahui-c01"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "dzahui-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-indigenous-mesoamerican",
+    "suggested_new": null,
+    "claim_ids": [
+      "dzahui-c01"
+    ]
+  },
+  "region": {
+    "value": "central-america",
+    "claim_ids": [
+      "dzahui-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Dzahui adalah dewa hujan dalam mitologi Mixtec [dzahui-c01].",
+    "en": "Dzahui is the rain god of Mixtec mythology [dzahui-c01].",
+    "claim_ids": [
+      "dzahui-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Dalam mitologi Mixtec, Dzahui adalah dewa hujan yang dipersembahi korban di puncak bukit saat kemarau, wabah, dan panen [dzahui-c01]. Dalam kodeks Mixtec ia memakai topeng hujan seperti Tlaloc [dzahui-c02].",
+      "en": "In Mixtec mythology, Dzahui is the rain god offered sacrifices on hilltops in drought, disease and harvest [dzahui-c01]. In Mixtec codices he wears a rain mask like Tlaloc's [dzahui-c02].",
+      "claim_ids": [
+        "dzahui-c01",
+        "dzahui-c02"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Tlaloc",
+      "relation_type": "counterpart",
+      "note": {
+        "id": "Dewa hujan lain dengan topeng serupa.",
+        "en": "The central Mexican rain god with a similar mask."
+      },
+      "claim_ids": [
+        "dzahui-c02"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa dewa hujan sangat penting bagi masyarakat petani?",
+      "en": "Why were rain gods so important to farming peoples?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "dzahui-s1",
+      "url": "https://en.wikipedia.org/wiki/Dzahui",
+      "title": "Dzahui",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "dzahui-c01",
+      "source_id": "dzahui-s1",
+      "quote": "In Mixtec mythology, Dzahui (also spelled Dzavui) is the god of rain, for whom child sacrifices were performed on hilltops during times of drought, disease, and harvest.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam mitologi Mixtec, Dzahui (juga Dzavui) adalah dewa hujan yang dipersembahi korban anak di puncak bukit saat kemarau, wabah, dan panen.",
+        "en": "In Mixtec mythology, Dzahui (also Dzavui) is the rain god, offered child sacrifices on hilltops in times of drought, disease and harvest."
+      }
+    },
+    {
+      "id": "dzahui-c02",
+      "source_id": "dzahui-s1",
+      "quote": "In Mixtec codices, Dzahui exhibits the blue or green rain goggle mask also seen on the central Mexican deity Tlaloc.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Dalam kodeks Mixtec, Dzahui memakai topeng kacamata hujan biru atau hijau yang juga terlihat pada dewa Tlaloc.",
+        "en": "In Mixtec codices Dzahui wears the blue or green rain goggle mask also seen on Tlaloc."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-144",
+  "slug": "eeyeekalduk",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Eeyeekalduk",
+    "native_name": null,
+    "display_name": {
+      "id": "Eeyeekalduk",
+      "en": "Eeyeekalduk"
+    },
+    "wikidata_qid": "Q2006114",
+    "claim_ids": [
+      "eeyeekalduk-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "eeyeekalduk-c01"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "eeyeekalduk-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-inuit",
+    "suggested_new": null,
+    "claim_ids": [
+      "eeyeekalduk-c01"
+    ]
+  },
+  "region": {
+    "value": "north-america",
+    "claim_ids": [
+      "eeyeekalduk-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": {
+    "value": "benevolent",
+    "claim_ids": [
+      "eeyeekalduk-c01"
+    ]
+  },
+  "traits": [],
+  "short_description": {
+    "id": "Eeyeekalduk adalah dewa pengobatan dan kesehatan dalam mitologi Inuit [eeyeekalduk-c01].",
+    "en": "Eeyeekalduk is the Inuit god of medicine and good health [eeyeekalduk-c01].",
+    "claim_ids": [
+      "eeyeekalduk-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Dalam mitologi Inuit, Eeyeekalduk adalah dewa pengobatan dan kesehatan [eeyeekalduk-c01].",
+      "en": "Among the Inuit, Eeyeekalduk was revered as the deity of medicine and health [eeyeekalduk-c01].",
+      "claim_ids": [
+        "eeyeekalduk-c01"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [
+    {
+      "ability_id": "healing",
+      "name": {
+        "id": "Penyembuhan",
+        "en": "Healing"
+      },
+      "description": {
+        "id": "Dewa pengobatan dan kesehatan.",
+        "en": "God of medicine and good health."
+      },
+      "claim_ids": [
+        "eeyeekalduk-c01"
+      ]
+    }
+  ],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Bagaimana masyarakat tradisional memandang kesehatan dan penyakit?",
+      "en": "How did traditional societies view health and illness?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "eeyeekalduk-s1",
+      "url": "https://en.wikipedia.org/wiki/Eeyeekalduk",
+      "title": "Eeyeekalduk",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "eeyeekalduk-c01",
+      "source_id": "eeyeekalduk-s1",
+      "quote": "In Inuit mythology, Eeyeekalduk was the god of medicine and good health.",
+      "locator": "Introduction",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam mitologi Inuit, Eeyeekalduk adalah dewa pengobatan dan kesehatan.",
+        "en": "In Inuit mythology, Eeyeekalduk was the god of medicine and good health."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "long_description",
+      "searched": "Artikel Wikipedia hanya satu kalimat; sumber lain tidak ditemukan."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-144",
+  "slug": "el-hombre-caiman",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "El Hombre Caimán",
+    "native_name": null,
+    "display_name": {
+      "id": "El Hombre Caimán",
+      "en": "El Hombre Caimán"
+    },
+    "wikidata_qid": "Q5901129",
+    "claim_ids": [
+      "el-hombre-caiman-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "pengubah wujud",
+    "claim_ids": [
+      "el-hombre-caiman-c01"
+    ]
+  },
+  "classification": {
+    "value": "shapeshifter",
+    "claim_ids": [
+      "el-hombre-caiman-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-hispanic-south-american",
+    "suggested_new": null,
+    "claim_ids": [
+      "el-hombre-caiman-c01"
+    ]
+  },
+  "region": {
+    "value": "south-america",
+    "claim_ids": [
+      "el-hombre-caiman-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "water",
+      "claim_ids": [
+        "el-hombre-caiman-c01"
+      ]
+    }
+  ],
+  "disposition": null,
+  "traits": [
+    {
+      "value": "shapeshifter",
+      "claim_ids": [
+        "el-hombre-caiman-c03"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "El Hombre Caimán adalah legenda Kolombia tentang lelaki pengintip yang berubah menjadi makhluk berkepala manusia dan bertubuh buaya [el-hombre-caiman-c01].",
+    "en": "El Hombre Caimán is a legend of the Caribbean coast of Colombia about a voyeur turned into a man-headed alligator [el-hombre-caiman-c01].",
+    "claim_ids": [
+      "el-hombre-caiman-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "El Hombre Caimán adalah legenda urban dari kota Plato di pesisir Karibia Kolombia: Saúl Montenegro, yang gemar mengintip perempuan mandi, menjadi makhluk berkepala manusia dan bertubuh buaya [el-hombre-caiman-c01]. Ia memakai ramuan merah untuk menjadi buaya dan ramuan putih untuk kembali [el-hombre-caiman-c03]. Kisah ini konon diberitakan pers pada tahun 1940-an [el-hombre-caiman-c02].",
+      "en": "El Hombre Caimán is an urban legend from Plato on the Caribbean coast of Colombia: Saúl Montenegro, who spied on bathing women, became a man-headed alligator [el-hombre-caiman-c01]. He used a red potion to become an alligator and a white one to change back [el-hombre-caiman-c03]. The story reportedly appeared in the press in the 1940s [el-hombre-caiman-c02].",
+      "claim_ids": [
+        "el-hombre-caiman-c01",
+        "el-hombre-caiman-c02",
+        "el-hombre-caiman-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [
+    {
+      "title": {
+        "id": "Dua ramuan",
+        "en": "The two potions"
+      },
+      "role": {
+        "id": "Lelaki yang terjebak dalam wujud buaya.",
+        "en": "The man trapped in alligator form."
+      },
+      "summary": {
+        "id": "Saúl Montenegro memakai ramuan merah untuk menjadi buaya agar bisa mengintip perempuan mandi, dan ramuan putih untuk kembali.",
+        "en": "Saúl Montenegro used a red potion to become an alligator to spy on bathing women, and a white one to return."
+      },
+      "claim_ids": [
+        "el-hombre-caiman-c01",
+        "el-hombre-caiman-c03"
+      ]
+    }
+  ],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Pesan moral apa yang dibawa legenda El Hombre Caimán?",
+      "en": "What moral does El Hombre Caimán carry?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "el-hombre-caiman-s1",
+      "url": "https://en.wikipedia.org/wiki/El_Hombre_Caim%C3%A1n",
+      "title": "El Hombre Caim%C3%A1n",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "el-hombre-caiman-c01",
+      "source_id": "el-hombre-caiman-s1",
+      "quote": "El Hombre Caimán (The Alligator Man) is an urban legend from the Caribbean coast of Colombia that takes place in the riverside town of Plato: Saúl Montenegro's passion for spying on naked women turned into a being with the head of a man and the body of an alligator.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "El Hombre Caimán (\"Manusia Buaya\") adalah legenda urban pesisir Karibia Kolombia di kota Plato: Saúl Montenegro yang gemar mengintip perempuan mandi berubah menjadi makhluk berkepala manusia dan bertubuh buaya.",
+        "en": "El Hombre Caimán (\"The Alligator Man\") is an urban legend of the Caribbean coast of Colombia, set in Plato: Saúl Montenegro, who spied on bathing women, became a being with a man's head and an alligator's body."
+      }
+    },
+    {
+      "id": "el-hombre-caiman-c02",
+      "source_id": "el-hombre-caiman-s1",
+      "quote": "The story was allegedly reported in the press in the 1940s.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Kisah ini konon diberitakan pers pada tahun 1940-an.",
+        "en": "The story was reportedly in the press in the 1940s."
+      }
+    },
+    {
+      "id": "el-hombre-caiman-c03",
+      "source_id": "el-hombre-caiman-s1",
+      "quote": "The witch gave him two potions: a red one that turned him into an alligator, and a white one that turned him back.",
+      "locator": "Legend",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Seorang penyihir memberinya dua ramuan: merah untuk berubah menjadi buaya, dan putih untuk kembali.",
+        "en": "A witch gave him two potions: a red one to become an alligator and a white one to change back."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-144",
+  "slug": "enfield-monster",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Enfield Monster",
+    "native_name": null,
+    "display_name": {
+      "id": "Enfield Monster",
+      "en": "Enfield Monster"
+    },
+    "wikidata_qid": "Q17012208",
+    "claim_ids": [
+      "enfield-monster-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "kriptid",
+    "claim_ids": [
+      "enfield-monster-c01"
+    ]
+  },
+  "classification": {
+    "value": "cryptid",
+    "claim_ids": [
+      "enfield-monster-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-american",
+    "suggested_new": null,
+    "claim_ids": [
+      "enfield-monster-c01"
+    ]
+  },
+  "region": {
+    "value": "north-america",
+    "claim_ids": [
+      "enfield-monster-c01"
+    ]
+  },
+  "countries": {
+    "value": [
+      "United States"
+    ],
+    "claim_ids": [
+      "enfield-monster-c01"
+    ]
+  },
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Enfield Monster adalah makhluk tak dikenal yang dilaporkan di Enfield, Illinois, pada April 1973 [enfield-monster-c01].",
+    "en": "The Enfield Monster is an unidentified creature reported in Enfield, Illinois, in April 1973 [enfield-monster-c01].",
+    "claim_ids": [
+      "enfield-monster-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Enfield Monster adalah makhluk tak dikenal yang dilaporkan di sekitar Enfield, Illinois, pada April 1973 [enfield-monster-c01]. Media memberitakannya, dan sebagian menduga penyebabnya kera liar atau kanguru [enfield-monster-c02]. Sosiolog menjadikannya contoh perilaku kolektif [enfield-monster-c03].",
+      "en": "The Enfield Monster is an unidentified creature reported around Enfield, Illinois, in April 1973 [enfield-monster-c01]. The media covered it, some suggesting a wild ape or kangaroo [enfield-monster-c02]. Sociologists use it as an example of collective behavior [enfield-monster-c03].",
+      "claim_ids": [
+        "enfield-monster-c01",
+        "enfield-monster-c02",
+        "enfield-monster-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [
+    {
+      "period": "April 1973",
+      "title": {
+        "id": "Laporan penampakan",
+        "en": "Sighting reports"
+      },
+      "description": {
+        "id": "Makhluk dilaporkan di sekitar Enfield.",
+        "en": "The creature was reported around Enfield."
+      },
+      "earliest_attestation": true,
+      "claim_ids": [
+        "enfield-monster-c01"
+      ]
+    }
+  ],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Bagaimana kepanikan bersama bisa melahirkan cerita monster?",
+      "en": "How can shared panic create monster stories?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "enfield-monster-s1",
+      "url": "https://en.wikipedia.org/wiki/Enfield_Monster",
+      "title": "Enfield Monster",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "enfield-monster-c01",
+      "source_id": "enfield-monster-s1",
+      "quote": "The Enfield Monster is an unidentified creature reported around Enfield, Illinois, United States in April 1973.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Enfield Monster adalah makhluk tak dikenal yang dilaporkan di sekitar Enfield, Illinois, pada April 1973.",
+        "en": "The Enfield Monster is an unidentified creature reported around Enfield, Illinois, in April 1973."
+      }
+    },
+    {
+      "id": "enfield-monster-c02",
+      "source_id": "enfield-monster-s1",
+      "quote": "The reports were covered by the news media at the time, with some suggesting they may have been caused by a wild ape or escaped kangaroo.",
+      "locator": "Introduction",
+      "context": "historical-record",
+      "statement": {
+        "id": "Laporannya diberitakan media, dan sebagian menduga penyebabnya kera liar atau kanguru yang lepas.",
+        "en": "The media covered the reports, some suggesting a wild ape or escaped kangaroo."
+      }
+    },
+    {
+      "id": "enfield-monster-c03",
+      "source_id": "enfield-monster-s1",
+      "quote": "the episode is cited by sociologists as an example of collective behavior",
+      "locator": "Introduction",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Para sosiolog mengutip peristiwa ini sebagai contoh perilaku kolektif.",
+        "en": "Sociologists cite the episode as an example of collective behavior."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-144",
+  "slug": "gaasyendietha",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Gaasyendietha",
+    "native_name": null,
+    "display_name": {
+      "id": "Gaasyendietha",
+      "en": "Gaasyendietha"
+    },
+    "wikidata_qid": "Q5515231",
+    "claim_ids": [
+      "gaasyendietha-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "naga/ular mitos",
+    "claim_ids": [
+      "gaasyendietha-c01"
+    ]
+  },
+  "classification": {
+    "value": "dragon",
+    "claim_ids": [
+      "gaasyendietha-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-iroquois",
+    "suggested_new": null,
+    "claim_ids": [
+      "gaasyendietha-c01"
+    ]
+  },
+  "region": {
+    "value": "north-america",
+    "claim_ids": [
+      "gaasyendietha-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "water",
+      "claim_ids": [
+        "gaasyendietha-c01"
+      ]
+    }
+  ],
+  "disposition": null,
+  "traits": [
+    {
+      "value": "flight",
+      "claim_ids": [
+        "gaasyendietha-c02"
+      ]
+    },
+    {
+      "value": "fire-associated",
+      "claim_ids": [
+        "gaasyendietha-c02"
+      ]
+    }
+  ],
+  "short_description": {
+    "id": "Gaasyendietha adalah \"naga meteor\" Seneca, ular raksasa penyembur api di sungai dan danau Kanada [gaasyendietha-c01, gaasyendietha-c02].",
+    "en": "Gaasyendietha is the Seneca \"meteor dragon\", a fire-spewing giant serpent of Canadian rivers and lakes [gaasyendietha-c01, gaasyendietha-c02].",
+    "claim_ids": [
+      "gaasyendietha-c01",
+      "gaasyendietha-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Gaasyendietha, \"naga meteor\" dalam mitologi Seneca, adalah ular raksasa di bagian dalam sungai dan danau Kanada, terutama Danau Ontario [gaasyendietha-c01]. Ia dapat terbang di atas jejak api dan menyemburkan api [gaasyendietha-c02], dan julukannya merujuk pada asal-usulnya dari meteoroid [gaasyendietha-c03].",
+      "en": "Gaasyendietha, the \"meteor dragon\" of Seneca mythology, is a giant serpent in the depths of Canadian rivers and lakes, especially Lake Ontario [gaasyendietha-c01]. It flies on a trail of fire and spews fire [gaasyendietha-c02], its name referring to an origin in a meteoroid [gaasyendietha-c03].",
+      "claim_ids": [
+        "gaasyendietha-c01",
+        "gaasyendietha-c02",
+        "gaasyendietha-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [
+    {
+      "ability_id": "flight",
+      "name": {
+        "id": "Terbang",
+        "en": "Flight"
+      },
+      "description": {
+        "id": "Terbang di atas jejak api.",
+        "en": "Flies on a trail of fire."
+      },
+      "claim_ids": [
+        "gaasyendietha-c02"
+      ]
+    },
+    {
+      "ability_id": "elemental-control",
+      "name": {
+        "id": "Menyemburkan api",
+        "en": "Fire-breathing"
+      },
+      "description": {
+        "id": "Menyemburkan api.",
+        "en": "Spews fire."
+      },
+      "claim_ids": [
+        "gaasyendietha-c02"
+      ]
+    }
+  ],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Bagaimana meteor bisa memengaruhi mitos tentang naga?",
+      "en": "How might meteors shape dragon myths?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "gaasyendietha-s1",
+      "url": "https://en.wikipedia.org/wiki/Gaasyendietha",
+      "title": "Gaasyendietha",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "gaasyendietha-c01",
+      "source_id": "gaasyendietha-s1",
+      "quote": "also known as the meteor dragon according to Seneca mythology, is a giant serpent that dwells in the deep areas of rivers and lakes of Canada, especially Lake Ontario.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Gaasyendietha, \"naga meteor\" dalam mitologi Seneca, adalah ular raksasa yang tinggal di bagian dalam sungai dan danau Kanada, terutama Danau Ontario.",
+        "en": "Gaasyendietha, the \"meteor dragon\" of Seneca mythology, is a giant serpent living in the depths of Canadian rivers and lakes, especially Lake Ontario."
+      }
+    },
+    {
+      "id": "gaasyendietha-c02",
+      "source_id": "gaasyendietha-s1",
+      "quote": "This serpent could fly on a trail of fire, and it could also spew fire, which has led to it being viewed as analogous to European dragons.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ular ini dapat terbang di atas jejak api dan menyemburkan api, sehingga disamakan dengan naga Eropa.",
+        "en": "It could fly on a trail of fire and spew fire, so it is likened to European dragons."
+      }
+    },
+    {
+      "id": "gaasyendietha-c03",
+      "source_id": "gaasyendietha-s1",
+      "quote": "in reference to its supposed origin from a meteoroid that had impacted the Earth.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Julukan \"naga meteor\" merujuk pada asal-usulnya dari meteoroid yang menghantam Bumi.",
+        "en": "The name \"meteor dragon\" refers to its supposed origin in a meteoroid that struck Earth."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-144",
+  "slug": "jasy-jatere",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Jasy Jatere",
+    "native_name": null,
+    "display_name": {
+      "id": "Jasy Jatere",
+      "en": "Jasy Jatere"
+    },
+    "wikidata_qid": "Q3318479",
+    "claim_ids": [
+      "jasy-jatere-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "tokoh legenda",
+    "claim_ids": [
+      "jasy-jatere-c01"
+    ]
+  },
+  "classification": {
+    "value": "legendary-figure",
+    "claim_ids": [
+      "jasy-jatere-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-guarani",
+    "suggested_new": null,
+    "claim_ids": [
+      "jasy-jatere-c01"
+    ]
+  },
+  "region": {
+    "value": "south-america",
+    "claim_ids": [
+      "jasy-jatere-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Jasy Jatere (\"sepotong kecil bulan\") adalah salah satu anak Tau dan Kerana dalam mitologi Guaraní yang tidak berwujud monster [jasy-jatere-c01, jasy-jatere-c02].",
+    "en": "Jasy Jatere (\"a little piece of the moon\") is the one child of Tau and Kerana in Guaraní mythology who is not monstrous [jasy-jatere-c01, jasy-jatere-c02].",
+    "claim_ids": [
+      "jasy-jatere-c01",
+      "jasy-jatere-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Jasy Jatere adalah salah satu dari tujuh anak terkutuk Tau dan Kerana dan salah satu dewa terpenting budaya Guaraní, terutama di Paraguay [jasy-jatere-c01]. Namanya berarti \"sepotong kecil bulan\", dan ia tidak berwujud monster seperti saudara-saudaranya [jasy-jatere-c02]. Ia digambarkan sebagai lelaki kecil atau anak berambut pirang [jasy-jatere-c03].",
+      "en": "Jasy Jatere is one of the seven cursed children of Tau and Kerana and among the most important Guaraní gods, especially in Paraguay [jasy-jatere-c01]. His name means \"a little piece of the moon\", and unlike his brothers he is not monstrous [jasy-jatere-c02]. He is pictured as a small, blond man or child [jasy-jatere-c03].",
+      "claim_ids": [
+        "jasy-jatere-c01",
+        "jasy-jatere-c02",
+        "jasy-jatere-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": {
+    "original_form": "Jasy Jatere",
+    "language": "Guaraní",
+    "literal_meaning": {
+      "id": "sepotong kecil bulan",
+      "en": "a little piece of the moon"
+    },
+    "claim_ids": [
+      "jasy-jatere-c02"
+    ]
+  },
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Tau",
+      "relation_type": "parent",
+      "note": {
+        "id": "Ayahnya.",
+        "en": "His father."
+      },
+      "claim_ids": [
+        "jasy-jatere-c01"
+      ]
+    },
+    {
+      "target_name": "Kerana",
+      "relation_type": "parent",
+      "note": {
+        "id": "Ibunya.",
+        "en": "His mother."
+      },
+      "claim_ids": [
+        "jasy-jatere-c01"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa satu saudara berbeda dari yang lain dalam mitos keluarga?",
+      "en": "Why does one sibling differ from the rest in family myths?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "jasy-jatere-s1",
+      "url": "https://en.wikipedia.org/wiki/Jasy_Jatere",
+      "title": "Jasy Jatere",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "jasy-jatere-c01",
+      "source_id": "jasy-jatere-s1",
+      "quote": "is an important figure in Guaraní mythology. One of the seven cursed children of Tau and Kerana, Jasy Jatere is one of the most important gods among the Guaraní speaking cultures of South America, especially in Paraguay.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Jasy Jatere adalah tokoh penting mitologi Guaraní, salah satu dari tujuh anak terkutuk Tau dan Kerana, dan salah satu dewa terpenting bagi budaya berbahasa Guaraní, terutama di Paraguay.",
+        "en": "Jasy Jatere is an important figure of Guaraní mythology, one of the seven cursed children of Tau and Kerana and among the most important Guaraní gods, especially in Paraguay."
+      }
+    },
+    {
+      "id": "jasy-jatere-c02",
+      "source_id": "jasy-jatere-s1",
+      "quote": "Jasy Jatere, which means literally \"a little piece of the moon\", is unique among his brothers in that he does not have a monstrous appearance.",
+      "locator": "Description",
+      "context": "etymology",
+      "statement": {
+        "id": "Namanya berarti \"sepotong kecil bulan\"; ia satu-satunya di antara saudaranya yang tidak berwujud monster.",
+        "en": "His name means \"a little piece of the moon\"; unlike his brothers, he is not monstrous."
+      }
+    },
+    {
+      "id": "jasy-jatere-c03",
+      "source_id": "jasy-jatere-s1",
+      "quote": "He is usually described as being a small man or perhaps a child, with light blonde hair and sometimes blue eyes.",
+      "locator": "Description",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia biasanya digambarkan sebagai lelaki kecil atau anak berambut pirang terang, kadang bermata biru.",
+        "en": "He is usually a small man or child with light blond hair and sometimes blue eyes."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-144",
+  "slug": "legend-of-trentren-vilu-and-caicai-vilu",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Legend of Trentren Vilu and Caicai Vilu",
+    "native_name": null,
+    "display_name": {
+      "id": "Trentren Vilu dan Caicai Vilu",
+      "en": "Trentren Vilu dan Caicai Vilu"
+    },
+    "wikidata_qid": "Q6517779",
+    "claim_ids": [
+      "legend-of-trentren-vilu-and-caicai-vilu-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "naga/ular mitos",
+    "claim_ids": [
+      "legend-of-trentren-vilu-and-caicai-vilu-c01"
+    ]
+  },
+  "classification": {
+    "value": "dragon",
+    "claim_ids": [
+      "legend-of-trentren-vilu-and-caicai-vilu-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-mapuche",
+    "suggested_new": null,
+    "claim_ids": [
+      "legend-of-trentren-vilu-and-caicai-vilu-c01"
+    ]
+  },
+  "region": {
+    "value": "south-america",
+    "claim_ids": [
+      "legend-of-trentren-vilu-and-caicai-vilu-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "water",
+      "claim_ids": [
+        "legend-of-trentren-vilu-and-caicai-vilu-c03"
+      ]
+    }
+  ],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Trentren Vilu dan Caicai Vilu adalah dua ular mitos Mapuche yang pertarungannya membentuk geografi Chiloé [legend-of-trentren-vilu-and-caicai-vilu-c01, legend-of-trentren-vilu-and-caicai-vilu-c02].",
+    "en": "Trentren Vilu and Caicai Vilu are two Mapuche mythical snakes whose battle shaped the geography of Chiloé [legend-of-trentren-vilu-and-caicai-vilu-c01, legend-of-trentren-vilu-and-caicai-vilu-c02].",
+    "claim_ids": [
+      "legend-of-trentren-vilu-and-caicai-vilu-c01",
+      "legend-of-trentren-vilu-and-caicai-vilu-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Legenda Trentren Vilu dan Caicai Vilu adalah mitos banjir Mapuche tentang pertarungan dua ular mitos [legend-of-trentren-vilu-and-caicai-vilu-c01], yang menjelaskan bentuk Kepulauan Chiloé dan pegunungan Chile selatan [legend-of-trentren-vilu-and-caicai-vilu-c02]. Caicai tinggal di laut bersama roh air, sedangkan Trentren di daratan [legend-of-trentren-vilu-and-caicai-vilu-c03].",
+      "en": "The legend of Trentren Vilu and Caicai Vilu is a Mapuche flood myth of a battle between two mythical snakes [legend-of-trentren-vilu-and-caicai-vilu-c01], explaining the geography of Chiloé and southern Chile [legend-of-trentren-vilu-and-caicai-vilu-c02]. Caicai lives in the sea with the water spirits; Trentren on land [legend-of-trentren-vilu-and-caicai-vilu-c03].",
+      "claim_ids": [
+        "legend-of-trentren-vilu-and-caicai-vilu-c01",
+        "legend-of-trentren-vilu-and-caicai-vilu-c02",
+        "legend-of-trentren-vilu-and-caicai-vilu-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [
+    {
+      "title": {
+        "id": "Pertarungan dua ular",
+        "en": "Battle of the two snakes"
+      },
+      "role": {
+        "id": "Dua ular yang bermusuhan membentuk daratan.",
+        "en": "Two rival snakes shape the land."
+      },
+      "summary": {
+        "id": "Caicai Vilu dari laut dan Trentren Vilu dari daratan bertarung dalam banjir besar, membentuk geografi Chiloé.",
+        "en": "Caicai Vilu of the sea and Trentren Vilu of the land fight in a great flood, shaping Chiloé."
+      },
+      "claim_ids": [
+        "legend-of-trentren-vilu-and-caicai-vilu-c01",
+        "legend-of-trentren-vilu-and-caicai-vilu-c02",
+        "legend-of-trentren-vilu-and-caicai-vilu-c03"
+      ]
+    }
+  ],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Bagaimana mitos menjelaskan bentuk alam di sekitar kita?",
+      "en": "How do myths explain the shape of the land?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "legend-of-trentren-vilu-and-caicai-vilu-s1",
+      "url": "https://en.wikipedia.org/wiki/Legend_of_Trentren_Vilu_and_Caicai_Vilu",
+      "title": "Legend of Trentren Vilu and Caicai Vilu",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "legend-of-trentren-vilu-and-caicai-vilu-c01",
+      "source_id": "legend-of-trentren-vilu-and-caicai-vilu-s1",
+      "quote": "is a Mapuche flood myth that tells the story of a fierce battle between two mythical snakes, Trentren Vilu and Caicai Vilu.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Legenda Trentren Vilu dan Caicai Vilu adalah mitos banjir Mapuche tentang pertarungan sengit dua ular mitos.",
+        "en": "The legend of Trentren Vilu and Caicai Vilu is a Mapuche flood myth of a fierce battle between two mythical snakes."
+      }
+    },
+    {
+      "id": "legend-of-trentren-vilu-and-caicai-vilu-c02",
+      "source_id": "legend-of-trentren-vilu-and-caicai-vilu-s1",
+      "quote": "It explains how the Chilóe archipelago and mountains of southern Chile came to have its unique geography.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Mitos ini menjelaskan asal bentuk geografi Kepulauan Chiloé dan pegunungan Chile selatan.",
+        "en": "It explains the unique geography of the Chiloé archipelago and southern Chile's mountains."
+      }
+    },
+    {
+      "id": "legend-of-trentren-vilu-and-caicai-vilu-c03",
+      "source_id": "legend-of-trentren-vilu-and-caicai-vilu-s1",
+      "quote": "Caicai was sent to live in the sea to help care for it with the Ngen-ko (water spirits), and Trentren was sent to live on earth",
+      "locator": "Myth",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Caicai dikirim ke laut untuk merawatnya bersama roh air Ngen-ko, dan Trentren dikirim ke daratan.",
+        "en": "Caicai was sent to care for the sea with the Ngen-ko water spirits, and Trentren to live on land."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-144",
+  "slug": "mani-mythology",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Maní (mythology)",
+    "native_name": null,
+    "display_name": {
+      "id": "Maní",
+      "en": "Maní"
+    },
+    "wikidata_qid": "Q6753563",
+    "claim_ids": [
+      "mani-mythology-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "tokoh legenda",
+    "claim_ids": [
+      "mani-mythology-c01"
+    ]
+  },
+  "classification": {
+    "value": "legendary-figure",
+    "claim_ids": [
+      "mani-mythology-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-tupi",
+    "suggested_new": null,
+    "claim_ids": [
+      "mani-mythology-c01"
+    ]
+  },
+  "region": {
+    "value": "south-america",
+    "claim_ids": [
+      "mani-mythology-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Maní adalah gadis dalam mitos asal-usul Tupi yang dari kuburnya tumbuh singkong [mani-mythology-c01, mani-mythology-c02].",
+    "en": "Maní is a girl of Tupi origin myth from whose grave manioc grew [mani-mythology-c01, mani-mythology-c02].",
+    "claim_ids": [
+      "mani-mythology-c01",
+      "mani-mythology-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Maní adalah tokoh mitologi Tupi, gadis berkulit sangat terang dalam mitos asal-usul [mani-mythology-c01]. Legendanya terkait pemujaan singkong, makanan pokok yang tumbuh dari kuburnya [mani-mythology-c02].",
+      "en": "Maní is a Tupi mythological character, a very fair-skinned girl of an origin myth [mani-mythology-c01]. Her legend is tied to the cult of manioc, the staple food that grew from her grave [mani-mythology-c02].",
+      "claim_ids": [
+        "mani-mythology-c01",
+        "mani-mythology-c02"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa banyak budaya punya mitos tentang asal makanan pokok?",
+      "en": "Why do many cultures have myths about the origin of staple foods?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "mani-mythology-s1",
+      "url": "https://en.wikipedia.org/wiki/Man%C3%AD_(mythology)",
+      "title": "Man%C3%AD (mythology)",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "mani-mythology-c01",
+      "source_id": "mani-mythology-s1",
+      "quote": "is a Tupi mythological character depicted as a girl with very fair complexion, whose story comprises the Tupi myth of origins.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Maní adalah tokoh mitologi Tupi berupa gadis berkulit sangat terang yang kisahnya bagian dari mitos asal-usul Tupi.",
+        "en": "Maní is a Tupi mythological character, a very fair-skinned girl whose story forms a Tupi origin myth."
+      }
+    },
+    {
+      "id": "mani-mythology-c02",
+      "source_id": "mani-mythology-s1",
+      "quote": "The Amazonian legend of Maní is related to the cult of manioc, the native staple food that sprang from her grave.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Legenda Amazon tentang Maní terkait pemujaan singkong, makanan pokok yang tumbuh dari kuburnya.",
+        "en": "The Amazonian legend of Maní is tied to the cult of manioc, the staple food that grew from her grave."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-144",
+  "slug": "memphre",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-09-30",
+  "identity": {
+    "canonical_name": "Memphré",
+    "native_name": null,
+    "display_name": {
+      "id": "Memphré",
+      "en": "Memphré"
+    },
+    "wikidata_qid": "Q3305648",
+    "claim_ids": [
+      "memphre-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "kriptid",
+    "claim_ids": [
+      "memphre-c01"
+    ]
+  },
+  "classification": {
+    "value": "cryptid",
+    "claim_ids": [
+      "memphre-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-canadian",
+    "suggested_new": null,
+    "claim_ids": [
+      "memphre-c01"
+    ]
+  },
+  "region": {
+    "value": "north-america",
+    "claim_ids": [
+      "memphre-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [
+    {
+      "value": "water",
+      "claim_ids": [
+        "memphre-c01"
+      ]
+    }
+  ],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Memphré adalah monster danau dalam cerita rakyat Kanada yang konon hidup di Danau Memphremagog [memphre-c01].",
+    "en": "Memphré is a Canadian folklore lake monster said to live in Lake Memphremagog [memphre-c01].",
+    "claim_ids": [
+      "memphre-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Memphré adalah monster yang konon hidup di Danau Memphremagog, di perbatasan Vermont dan Quebec [memphre-c01], dan sering digambarkan mirip Loch Ness Monster [memphre-c02]. Pada Agustus 2011, gambarnya tampil pada koin Kanada [memphre-c03].",
+      "en": "Memphré is a monster said to live in Lake Memphremagog on the Vermont–Quebec border [memphre-c01], often described like the Loch Ness Monster [memphre-c02]. In August 2011 its image appeared on a Canadian coin [memphre-c03].",
+      "claim_ids": [
+        "memphre-c01",
+        "memphre-c02",
+        "memphre-c03"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [
+    {
+      "target_name": "Loch Ness Monster",
+      "relation_type": "associated",
+      "note": {
+        "id": "Sering digambarkan mirip dengannya.",
+        "en": "Often described like it."
+      },
+      "claim_ids": [
+        "memphre-c02"
+      ]
+    }
+  ],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [
+    {
+      "id": "Mengapa makhluk legenda muncul di koin atau lambang resmi?",
+      "en": "Why do legendary creatures appear on coins or emblems?"
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "id": "memphre-s1",
+      "url": "https://en.wikipedia.org/wiki/Memphre",
+      "title": "Memphre",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "claims": [
+    {
+      "id": "memphre-c01",
+      "source_id": "memphre-s1",
+      "quote": "In Canadian folklore, Memphré is a lake monster said to live in Lake Memphremagog, a fresh water glacial lake located between Newport, Vermont, United States and Magog, Quebec, Canada.",
+      "locator": "Introduction",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam cerita rakyat Kanada, Memphré adalah monster danau yang konon hidup di Danau Memphremagog, antara Newport, Vermont, dan Magog, Quebec.",
+        "en": "In Canadian folklore, Memphré is a lake monster said to live in Lake Memphremagog between Newport, Vermont, and Magog, Quebec."
+      }
+    },
+    {
+      "id": "memphre-c02",
+      "source_id": "memphre-s1",
+      "quote": "Memphré is often described much like the Loch Ness Monster.",
+      "locator": "History",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Memphré sering digambarkan mirip Loch Ness Monster.",
+        "en": "Memphré is often described much like the Loch Ness Monster."
+      }
+    },
+    {
+      "id": "memphre-c03",
+      "source_id": "memphre-s1",
+      "quote": "In August 2011, an artistic impression of Memphré was featured on a coloured Canadian quarter.",
+      "locator": "Coin",
+      "context": "modern-popular-culture",
+      "statement": {
+        "id": "Pada Agustus 2011, gambar Memphré tampil pada koin seperempat dolar Kanada berwarna.",
+        "en": "In August 2011 an image of Memphré appeared on a coloured Canadian quarter."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ada gambar Commons yang terbukti menggambarkan makhluk ini; artikel Wikipedia-nya tidak memuat ilustrasi makhluk tersebut."
+    },
+    {
+      "field": "sources",
+      "searched": "Hanya artikel Wikipedia yang ditemukan dan bisa dibuka untuk makhluk ini; tidak ada sumber akademik atau lembaga yang bisa dikutip langsung."
+    }
+  ]
+}
+```
+
