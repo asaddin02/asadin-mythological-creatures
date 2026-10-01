@@ -1,8 +1,8 @@
 # Review batch-050
 
-Diperiksa 2026-09-30T09:13:30.549Z. Berkas: batch-050.md, batch-050-fix-1.md.
+Diperiksa 2026-10-01T02:10:04.576Z. Berkas: batch-050.md, batch-050-fix-1.md.
 
-**Belum dikirim:** akabeko, ame-no-minakanushi, bake-kujira, isonade, ittan-momen, kotoamatsukami, mononoke, ningyo, raiju, satori-folklore, amefurikozo, aoandon, dosojin, futakuchi-onna, goryo, kamimusubi, kasha-folklore, nure-onna, sarutahiko-okami, shirime, takamimusubi, akkorokamui, aobozu, aosaginohi
+**Belum dikirim:** bake-kujira, isonade, ittan-momen, kotoamatsukami, mononoke, ningyo, raiju, satori-folklore, amefurikozo, aoandon, dosojin, futakuchi-onna, goryo, kamimusubi, kasha-folklore, nure-onna, sarutahiko-okami, shirime, takamimusubi, akkorokamui, aobozu, aosaginohi
 
 ## yatagarasu — lulus-otomatis
 
@@ -479,3 +479,47 @@ Klaim 6 (loose 1, exact 5), sumber 2, gambar 1.
   - dipakai di: as.wikipedia.org: আবুৰা আকাগো; ca.wikipedia.org: Aburakago; de.wikipedia.org: Abura-akago; en.wikipedia.org: Abura-akago; en.wikipedia.org: Konjaku Gazu Zoku Hyakki; es.wikipedia.org: Aburakago; fa.wikipedia.org: آبورا آکاگو; fr.wikipedia.org: Abura-akago; fr.wikipedia.org: Liste des yōkai; fr.wikipedia.org: Konjaku gazu zoku hyakki; id.wikipedia.org: Abura-akago; id.wikipedia.org: Konjaku Gazu Zoku Hyakki; it.wikipedia.org: Konjaku gazu zoku hyakki; it.wikipedia.org: Abura-akago; ja.wikipedia.org: 油赤子
   - bukti dari Gemini: Judul dan deskripsi halaman Commons secara eksplisit menyebut Abura-akago (油赤子) karya Toriyama Sekien; berkas juga dipakai di artikel Wikipedia makhluk itu.
   - thumbnail: /home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-050/abura-akago-1.jpg
+
+## akabeko — lulus-otomatis
+
+Klaim 9 (exact 9), sumber 2, gambar 1.
+
+**manual**
+- `images[0] (File:Akabeko0926.jpg)` Keterkaitan otomatis: deskripsi berkas, kategori "Akabeko", dipakai di az.wikipedia.org: Akabeko. Cek visual tetap diperlukan.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| akabeko-c01 | exact | www.mlit.go.jp | One Akabeko origin story is linked to Enzoji Temple in Aizu. | There are several theories about the origins of akabeko, but one of the most popular comes from Enzoji Temple in the Aizu region. |
+| akabeko-c02 | exact | www.mlit.go.jp | The tale depicts Akabeko as a mysterious red cow leading the other cattle. | A mysterious “red” cow (probably a brown cow) suddenly appeared and began leading the other animals, working tirelessly until the task was completed. |
+| akabeko-c03 | exact | www.mlit.go.jp | Around 807 in the story, cattle carried temple materials and the red cow led them until the work was complete. | Residents used cattle to help transport heavy materials when they were building the temple circa 807. A mysterious “red” cow (probably a brown cow) suddenly appeared and began leading the other animals, working tirelessly until the task was completed. |
+| akabeko-c04 | exact | www.mlit.go.jp | Residents erected cow statues at the temple, and Akabeko became associated with health and fortune. | The grateful people erected statues of the cow in the temple grounds, and over the years akabeko became associated with good health and fortune. |
+| akabeko-c05 | exact | www.mlit.go.jp | The temple's red-cow tale inspired the production of small toys in Aizu. | After hearing the story of the akabeko at the temple, he invited artisans to create small toys based on the red cow and establish a toy-making industry in the region. |
+| akabeko-c06 | exact | www.mlit.go.jp | During a smallpox outbreak in Japan, Akabeko toys were believed to protect children from illness. | Around this time, smallpox broke out in Japan. It was thought that children with akabeko toys were less likely to catch the disease, which boosted their popularity as a good-luck charm. |
+| akabeko-c07 | exact | www.tohokukanko.jp | Beko means cow in some Tohoku dialects, and Akabeko names the red cow. | In some Tohoku dialects, especially in the Aizu region, the word for "cow" is "beko" ("be" imitates the sound of a cow and "ko" is added to indicate affection). The name "Akabeko" comes from the fact that it is a toy of a cow colored red. |
+| akabeko-c08 | exact | www.mlit.go.jp | Akabeko toys are made of papier-mâché and have bobbing heads. | Akabeko (lit., “red cow”) are made of papier-mâché, with an elongated neck fitting into a hole in the cow’s body. The long neck allows the head to move up and down, giving the akabeko its characteristic head-bobbing motion. |
+| akabeko-c09 | exact | www.tohokukanko.jp | Akabeko toys were formerly used as good-luck charms against evil spirits. | In the old days, they were used as good luck charms to ward off evil spirits, but today, they are popular souvenirs because of their round shape and the way its head sways. |
+
+- Gambar File:Akabeko0926.jpg: lisensi Commons "CC BY-SA 4.0" (OPEN_LICENSE); pembuat Wdqh; tanggal 2017-09-26 23:22:58
+  - deskripsi: Akabeko, a traditional craft made in Fukushima, Japan.
+  - kategori: Akabeko; CC-BY-SA-4.0; Self-published work
+  - dipakai di: ar.wikipedia.org: أيزو (فوكوشيما); ar.wikipedia.org: أكابيكو; az.wikipedia.org: Akabeko; en.wikipedia.org: Fukushima Prefecture; en.wikipedia.org: Aizu; en.wikipedia.org: Akabeko; en.wiktionary.org: 赤べこ; en.wiktionary.org: akabeko; es.wikipedia.org: Akabeko; fr.wikipedia.org: Akabeko; fr.wikivoyage.org: Aizuwakamatsu; it.wikipedia.org: Akabeko; ja.wikipedia.org: 会津; ja.wikipedia.org: 赤べこ; ja.wikipedia.org: 張り子
+  - bukti dari Gemini: Deskripsi berkas Commons menyebut 'Akabeko, a traditional craft made in Fukushima, Japan'; berkas juga berada di Category:Akabeko dan dipakai pada artikel Wikipedia Akabeko.
+  - thumbnail: /home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-050/akabeko-1.jpg
+
+## ame-no-minakanushi — lulus-otomatis
+
+Klaim 10 (exact 9, loose 1), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| ame-no-minakanushi-c01 | exact | en.wikipedia.org | Ame-no-Minakanushi is a deity in Japanese mythology. | is a deity (kami) in Japanese mythology, portrayed in the Kojiki and the Nihon Shoki |
+| ame-no-minakanushi-c02 | exact | kojiki.kokugakuin.ac.jp | The Kojiki places Ame-no-Minakanushi first in Takamanohara, followed by Takamimusuhi and Kamumusuhi. | When Heaven and Earth first became active (1), a deity came into existence (2) in Takamanohara 高天原 (3). Its name was Ame no minakanushi no kami 天之御中主神 (4). Next Takamimusuhi no kami 高御産巣日神 [appeared], and then, Kamumusuhi no kami 神産巣日神 (5). |
+| ame-no-minakanushi-c03 | exact | kojiki.kokugakuin.ac.jp | The three deities appeared alone and hid their bodies. | All three came into existence as solitary deities (6), and they hid their bodies (7). |
+| ame-no-minakanushi-c04 | loose | d-museum.kokugakuin.ac.jp | Nihongi uses the name Ame no minakanushi no mikoto. | Other names: Ame no minakanushi no mikoto (Nihongi) |
+| ame-no-minakanushi-c05 | exact | d-museum.kokugakuin.ac.jp | Ame-no-Minakanushi belongs to the three creation kami and five kotoamatsukami. | Also counted as one of the zōka sanshin ("three kami of creation") and one of the five kotoamatsukami ("separate heavenly deities"). |
+| ame-no-minakanushi-c06 | exact | d-museum.kokugakuin.ac.jp | Ame-no-Minakanushi appears at the beginning of Kojiki but only in a Nihongi variant. | Amenominakanushi is found at the very beginning of Kojiki, while only appearing in an alternate version within the fourth "alternate writing" quoted in Nihongi. |
+| ame-no-minakanushi-c07 | exact | d-museum.kokugakuin.ac.jp | The Encyclopedia of Shinto finds no account of this deity's activities or worship at known ancient shrines. | No mention is made of this kami's activities, and he was not worshiped at any known ancient shrines |
+| ame-no-minakanushi-c08 | exact | d-museum.kokugakuin.ac.jp | Kokugaku scholars who emphasized the Kojiki reevaluated Ame-no-Minakanushi. | As students of National Learning (Kokugaku) began to place greater emphasis on Kojiki, however, Amenominakanushi came to be more widely appreciated, and his significance was reevaluated. |
+| ame-no-minakanushi-c09 | exact | d-museum.kokugakuin.ac.jp | In the early Meiji period, Ame-no-Minakanushi became central at Daikyōin and was worshipped in sectarian Shinto. | Amenominakanushi was made a central deity at the Daikyōin in the early Meiji period, and he was worshiped within sectarian Shinto |
+| ame-no-minakanushi-c10 | exact | kojiki.kokugakuin.ac.jp | The study translates Ame-no-Minakanushi's name as 'center of heaven'. | In the Kojiki, too, Ame no minakanushi no kami, whose name means “center of heaven,” appears first |
+
