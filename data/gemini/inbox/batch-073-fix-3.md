@@ -2295,7 +2295,7 @@
     {
       "id": "kaliya-c05",
       "source_id": "kaliya-s1",
-      "quote": "The people of Gokulam heard the commotion and all the people of Nandagokula were concerned and came running towards the bank of the Yamunā. They heard that Krishna had jumped into the river where the dangerous Kāliya was staying. At the bottom of the river, Kāliya had ensnared Krishna in his coils. Krishna expanded himself, forcing Kāliya to release him.",
+      "quote": "Krishna immediately regained his original form and began to jump on all of Kāliya's heads so as to release the poison in the snake so that he could no longer pollute the Yamunā.",
       "locator": "Article text, paragraph 6",
       "context": "traditional-belief",
       "statement": {

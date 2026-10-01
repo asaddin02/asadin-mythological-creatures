@@ -1,6 +1,6 @@
 # Review batch-073
 
-Diperiksa 2026-10-01T18:19:29.901Z. Berkas: batch-073.md, batch-073-fix-1.md, batch-073-fix-2.md, batch-073-fix-3.md.
+Diperiksa 2026-10-01T18:20:44.999Z. Berkas: batch-073.md, batch-073-fix-1.md, batch-073-fix-2.md, batch-073-fix-3.md.
 
 ## manasa — lulus-otomatis
 
@@ -652,6 +652,6 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | kaliya-c02 | exact | en.wikipedia.org | The surrounding river water is described as boiling and bubbling with poison. | Kaliya (IAST: Kāliya, Devanagari: कालिय), in Hindu traditions, was a venomous Nāga living in the Yamunā river, in Vṛndāvana. The water of the Yamunā for four leagues all around him boiled and bubbled with poison. No bird or beast could go near, and only one solitary Kadamba tree grew on the river bank. |
 | kaliya-c03 | exact | en.wikipedia.org | The Krishna and Kaliya account appears in Bhagavata Purana canto ten chapter sixteen. | The incident of Krishna and Kāliya is told in the sixteenth chapter of the Tenth Canto of the Bhagavata Purana. |
 | kaliya-c04 | exact | en.wikipedia.org | He leaves his Ramanaka homeland in fear of Garuda. | The proper home of Kāliya was the island of Ramaṇaka, but he had been driven away from there in fear of Garuḍa, the foe of all serpents. Garuḍa had been cursed by the yogi Saubhari dwelling at Vrindavan so that he could not come to Vrindavan without meeting his death. Therefore, Kāliya chose Vrindavan as his residence, knowing it was the only place where Garuḍa could not come. |
-| kaliya-c05 | exact | en.wikipedia.org | Krishna dances on Kaliya's heads to release his poison so he no longer pollutes the Yamuna. | The people of Gokulam heard the commotion and all the people of Nandagokula were concerned and came running towards the bank of the Yamunā. They heard that Krishna had jumped into the river where the dangerous Kāliya was staying. At the bottom of the river, Kāliya had ensnared Krishna in his coils. Krishna expanded himself, forcing Kāliya to release him. |
+| kaliya-c05 | exact | en.wikipedia.org | Krishna dances on Kaliya's heads to release his poison so he no longer pollutes the Yamuna. | Krishna immediately regained his original form and began to jump on all of Kāliya's heads so as to release the poison in the snake so that he could no longer pollute the Yamunā. |
 | kaliya-c06 | exact | vedabase.io | In the Vedabase Bhagavata version Krishna orders Kaliya to leave the river with his family and return to Ramanaka. | Kṛṣṇa told him to leave the Yamunā lake with his family and return to Ramaṇaka Island. |
 
