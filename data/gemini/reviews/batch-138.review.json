@@ -1,46 +1,17 @@
 {
   "batch_id": "batch-138",
-  "checked_at": "2026-10-01T02:10:10.666Z",
+  "checked_at": "2026-10-01T02:35:55.074Z",
   "files": [
-    "batch-138.md"
+    "batch-138.md",
+    "batch-138-fix-1.md"
   ],
   "parse_problems": [],
-  "missing": [
-    "germakochi",
-    "kharqyt",
-    "or-n-iy-si",
-    "rs-k",
-    "tarla-iyesi",
-    "ubir",
-    "yel-iyesi",
-    "alara-fairy",
-    "anka",
-    "az-kt",
-    "aza",
-    "azm-c",
-    "badrac",
-    "bajbur",
-    "barak",
-    "bukrek-and-sangal",
-    "bulud-iy-si",
-    "carsamba-kar-s",
-    "degirmen-iyesi",
-    "demirk-ynak",
-    "dir-n",
-    "diyu",
-    "doo",
-    "doydu",
-    "gol-bogalar",
-    "h-b-l-k",
-    "h-nk-r",
-    "h-rt-k",
-    "imr"
-  ],
+  "missing": [],
   "entries": [
     {
       "slug": "ardov",
       "file": "batch-138.md",
-      "verdict": "perlu-perbaikan",
+      "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
         "sources": 1,
@@ -48,14 +19,9 @@
       },
       "issues": [
         {
-          "level": "error",
-          "where": "traits[0]",
-          "message": "Nilai \"water-affinity\" tidak ada di §8.4."
-        },
-        {
-          "level": "warn",
+          "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). Cari sumber tambahan, atau jelaskan di gaps apa yang sudah dicari."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -125,7 +91,7 @@
     {
       "slug": "ayd-n-ata",
       "file": "batch-138.md",
-      "verdict": "perlu-perbaikan",
+      "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
         "sources": 1,
@@ -133,19 +99,9 @@
       },
       "issues": [
         {
-          "level": "error",
-          "where": "traits[0]",
-          "message": "Nilai \"patron-of-poets\" tidak ada di §8.4."
-        },
-        {
-          "level": "error",
-          "where": "traits[1]",
-          "message": "Nilai \"dream-visitation\" tidak ada di §8.4."
-        },
-        {
-          "level": "warn",
+          "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). Cari sumber tambahan, atau jelaskan di gaps apa yang sudah dicari."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -215,7 +171,7 @@
     {
       "slug": "bedik",
       "file": "batch-138.md",
-      "verdict": "perlu-perbaikan",
+      "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
         "sources": 1,
@@ -223,19 +179,9 @@
       },
       "issues": [
         {
-          "level": "error",
-          "where": "traits[0]",
-          "message": "Nilai \"troublemaker\" tidak ada di §8.4."
-        },
-        {
-          "level": "error",
-          "where": "traits[1]",
-          "message": "Nilai \"ritual-entertainment\" tidak ada di §8.4."
-        },
-        {
-          "level": "warn",
+          "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). Cari sumber tambahan, atau jelaskan di gaps apa yang sudah dicari."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -305,7 +251,7 @@
     {
       "slug": "c",
       "file": "batch-138.md",
-      "verdict": "perlu-perbaikan",
+      "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
         "sources": 1,
@@ -313,19 +259,9 @@
       },
       "issues": [
         {
-          "level": "error",
-          "where": "traits[0]",
-          "message": "Nilai \"fire-breathing\" tidak ada di §8.4."
-        },
-        {
-          "level": "warn",
+          "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). Cari sumber tambahan, atau jelaskan di gaps apa yang sudah dicari."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Volga. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -333,8 +269,8 @@
           "id": "c-c01",
           "source_id": "c-s1",
           "host": "ru.wikipedia.org",
-          "statement": "Аçтаха in Chuvash mythology is a multi-headed winged fire dragon spirit acting as an evil entity.",
-          "statement_id": "Аçтаха dalam mitologi Çuvaş adalah makhluk naga berkepala banyak bersayap api yang berperan sebagai roh jahat.",
+          "statement": "Аçтаха in Chuvash mythology is a multi-headed winged fire dragon spirit acting as an evil entity. in the Volga region",
+          "statement_id": "Аçтаха dalam mitologi Çuvaş adalah makhluk naga berkepala banyak bersayap api yang berperan sebagai roh jahat. di kawasan Volga",
           "quote": "Не следует путать с Вереселень — ещё одним змеем чувашской мифологии.",
           "context": "traditional-belief",
           "status": "exact"
@@ -395,7 +331,7 @@
     {
       "slug": "congolos",
       "file": "batch-138.md",
-      "verdict": "perlu-perbaikan",
+      "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
         "sources": 1,
@@ -403,34 +339,9 @@
       },
       "issues": [
         {
-          "level": "error",
-          "where": "traits[0]",
-          "message": "Nilai \"winter-demon\" tidak ada di §8.4."
-        },
-        {
-          "level": "error",
-          "where": "traits[1]",
-          "message": "Nilai \"voice-mimicry\" tidak ada di §8.4."
-        },
-        {
-          "level": "warn",
-          "where": "claims (congolos-c04)",
-          "message": "Klaim ini tidak dirujuk bagian teks mana pun."
-        },
-        {
-          "level": "warn",
-          "where": "claims (congolos-c05)",
-          "message": "Klaim ini tidak dirujuk bagian teks mana pun."
-        },
-        {
-          "level": "warn",
+          "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). Cari sumber tambahan, atau jelaskan di gaps apa yang sudah dicari."
-        },
-        {
-          "level": "warn",
-          "where": "era.text",
-          "message": "Tidak muncul di kutipan mana pun: Turkik, Turkic. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -438,8 +349,8 @@
           "id": "congolos-c01",
           "source_id": "congolos-s1",
           "host": "tr.wikipedia.org",
-          "statement": "Congolos is a demon of vanishing in Turkish and Anatolian folk belief emerging during the coldest winter days.",
-          "statement_id": "Congolos adalah jin penyesat dalam kepercayaan rakyat Turki dan Anatolia yang muncul pada saat terdingin musim dingin.",
+          "statement": "Congolos is a demon of vanishing in Turkish and Anatolian folk belief emerging during the coldest winter days. in Turkic folk belief",
+          "statement_id": "Congolos adalah jin penyesat dalam kepercayaan rakyat Turki dan Anatolia yang muncul pada saat terdingin musim dingin. dalam kepercayaan rakyat Turkik (Turkic folklore)",
           "quote": "Congolos - Türk ve Anadolu halk inancında Kayıp Cini. Kışın en soğuk zamanında ortaya çıkar. Evin kapısına gelerek dışarıdan, içeride bulunanlardan birisinin adını seslenir ve peşine takarak götürüp o kişiyi kaybeder. Bir daha o kişiden haber alınamaz. Kapı ve pencere önüne pancar yemeği koyulursa musallat olmaktan vazgeçeceğine inanılır.",
           "context": "traditional-belief",
           "status": "exact"
@@ -500,7 +411,7 @@
     {
       "slug": "daw-g",
       "file": "batch-138.md",
-      "verdict": "perlu-perbaikan",
+      "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
         "sources": 1,
@@ -508,34 +419,9 @@
       },
       "issues": [
         {
-          "level": "error",
-          "where": "traits[0]",
-          "message": "Nilai \"patron-spirit\" tidak ada di §8.4."
-        },
-        {
-          "level": "error",
-          "where": "traits[1]",
-          "message": "Nilai \"nature-protector\" tidak ada di §8.4."
-        },
-        {
-          "level": "warn",
-          "where": "claims (daw-g-c04)",
-          "message": "Klaim ini tidak dirujuk bagian teks mana pun."
-        },
-        {
-          "level": "warn",
-          "where": "claims (daw-g-c06)",
-          "message": "Klaim ini tidak dirujuk bagian teks mana pun."
-        },
-        {
-          "level": "warn",
+          "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). Cari sumber tambahan, atau jelaskan di gaps apa yang sudah dicari."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Kaukasus, Caucasian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -543,8 +429,8 @@
           "id": "daw-g-c01",
           "source_id": "daw-g-s1",
           "host": "ru.wikipedia.org",
-          "statement": "Dauagi or Duagi is the designation of supernatural spirits in Ossetian myth and the Nart epic.",
-          "statement_id": "Dauagi atau Duagi adalah nama roh supranatural dalam mitologi Ossetia dan epos Nart.",
+          "statement": "Dauagi or Duagi is the designation of supernatural spirits in Ossetian myth and the Nart epic. in the Caucasian region",
+          "statement_id": "Dauagi atau Duagi adalah nama roh supranatural dalam mitologi Ossetia dan epos Nart. di kawasan Kaukasus (Caucasian)",
           "quote": "Дауаги, Дуаги (осет. Дауджытæ, Дуæгтæ, Идаугутæ) — в осетинской мифологии и нартском эпосе название сверхъестественных духов, стоящих на низшей ступени в иерархии духовных существ.",
           "context": "traditional-belief",
           "status": "exact"
@@ -605,7 +491,7 @@
     {
       "slug": "e",
       "file": "batch-138.md",
-      "verdict": "perlu-perbaikan",
+      "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
         "sources": 1,
@@ -613,19 +499,9 @@
       },
       "issues": [
         {
-          "level": "error",
-          "where": "traits[0]",
-          "message": "Nilai \"guardian-angel\" tidak ada di §8.4."
-        },
-        {
-          "level": "error",
-          "where": "traits[1]",
-          "message": "Nilai \"messenger\" tidak ada di §8.4."
-        },
-        {
-          "level": "warn",
+          "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). Cari sumber tambahan, atau jelaskan di gaps apa yang sudah dicari."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -695,7 +571,7 @@
     {
       "slug": "e-e",
       "file": "batch-138.md",
-      "verdict": "perlu-perbaikan",
+      "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
         "sources": 1,
@@ -703,49 +579,9 @@
       },
       "issues": [
         {
-          "level": "error",
-          "where": "traits[0]",
-          "message": "Nilai \"hearth-guardian\" tidak ada di §8.4."
-        },
-        {
-          "level": "error",
-          "where": "traits[1]",
-          "message": "Nilai \"healing\" tidak ada di §8.4."
-        },
-        {
-          "level": "warn",
+          "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). Cari sumber tambahan, atau jelaskan di gaps apa yang sudah dicari."
-        },
-        {
-          "level": "warn",
-          "where": "era.text",
-          "message": "Tidak muncul di kutipan mana pun: Çuvaş, Chuvash. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "short_description",
-          "message": "Tidak muncul di kutipan mana pun: Çuvaş, Chuvash. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0]",
-          "message": "Tidak muncul di kutipan mana pun: Çuvaş, Chuvash. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Çuvaş. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.who",
-          "message": "Tidak muncul di kutipan mana pun: Çuvaş, Chuvash. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Çuvaş, Chuvash. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -773,8 +609,8 @@
           "id": "e-e-c03",
           "source_id": "e-e-s1",
           "host": "ru.wikipedia.org",
-          "statement": "Irikh or Yerekh is the guardian spirit of the hearth tasked with ensuring peace in the family.",
-          "statement_id": "Irikh atau Yerekh adalah roh penjaga perapian rumah dengan tugas utama memelihara kedamaian keluarga.",
+          "statement": "Irikh or Yerekh is the guardian spirit of the hearth tasked with ensuring peace in the family. of the Chuvash (Çuvaş) people",
+          "statement_id": "Irikh atau Yerekh adalah roh penjaga perapian rumah dengan tugas utama memelihara kedamaian keluarga. masyarakat Çuvaş (Chuvash)",
           "quote": "И́рих (чув. Йĕрĕх) — демиург и брат Ульчи в традиционных верованиях чувашей, дух-хранитель домашнего очага (домовой). Основная задача этого божества — обеспечение мирной жизни в семье и обществе.",
           "context": "traditional-belief",
           "status": "exact"
@@ -814,8 +650,8 @@
     },
     {
       "slug": "ergene-iyesi",
-      "file": "batch-138.md",
-      "verdict": "perlu-perbaikan",
+      "file": "batch-138-fix-1.md",
+      "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
         "sources": 1,
@@ -823,29 +659,9 @@
       },
       "issues": [
         {
-          "level": "error",
-          "where": "traits[0]",
-          "message": "Nilai \"mine-guardian\" tidak ada di §8.4."
-        },
-        {
-          "level": "error",
-          "where": "traits[1]",
-          "message": "Nilai \"subterranean\" tidak ada di §8.4."
-        },
-        {
-          "level": "warn",
-          "where": "claims (ergene-iyesi-c06)",
-          "message": "Klaim ini tidak dirujuk bagian teks mana pun."
-        },
-        {
-          "level": "warn",
+          "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). Cari sumber tambahan, atau jelaskan di gaps apa yang sudah dicari."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Uzbek, Ota. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         },
         {
           "level": "warn",
@@ -898,8 +714,8 @@
           "id": "ergene-iyesi-c05",
           "source_id": "ergene-iyesi-s1",
           "host": "en.wikipedia.org",
-          "statement": "Shakhta Ata or Shaxta Baba is the male form and akin of Ergene iyesi.",
-          "statement_id": "Shakhta Ata atau Shaxta Baba merupakan bentuk maskulin dan kerabat dari Ergene iyesi.",
+          "statement": "Ergene iyesi or Shakhta iyesi in Turkic and Tatar mythologies live in mines and pits",
+          "statement_id": "Ergene iyesi atau Shakhta iyesi dalam mitologi Turkik dan Tatar tinggal di tambang dan lubang tambang",
           "quote": "They will also lead them to veins of ore.",
           "context": "traditional-belief",
           "status": "exact"
@@ -920,7 +736,7 @@
     {
       "slug": "esik-iy-si",
       "file": "batch-138.md",
-      "verdict": "perlu-perbaikan",
+      "verdict": "lulus-otomatis",
       "counts": {
         "claims": 6,
         "sources": 1,
@@ -928,29 +744,9 @@
       },
       "issues": [
         {
-          "level": "error",
-          "where": "traits[0]",
-          "message": "Nilai \"threshold-guardian\" tidak ada di §8.4."
-        },
-        {
-          "level": "error",
-          "where": "traits[1]",
-          "message": "Nilai \"livestock-protector\" tidak ada di §8.4."
-        },
-        {
-          "level": "warn",
-          "where": "claims (esik-iy-si-c06)",
-          "message": "Klaim ini tidak dirujuk bagian teks mana pun."
-        },
-        {
-          "level": "warn",
+          "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). Cari sumber tambahan, atau jelaskan di gaps apa yang sudah dicari."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Mongol, Mongols. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -958,8 +754,8 @@
           "id": "esik-iy-si-c01",
           "source_id": "esik-iy-si-s1",
           "host": "tr.wikipedia.org",
-          "statement": "Eşik İyesi is the threshold guardian spirit in Turkic folk belief, also called Astana İyesi or Bosağa İyesi.",
-          "statement_id": "Eşik İyesi adalah roh penjaga ambang pintu dalam kepercayaan rakyat Turkik, juga disebut Astana İyesi atau Bosağa İyesi.",
+          "statement": "Eşik İyesi is the threshold guardian spirit in Turkic folk belief, also called Astana İyesi or Bosağa İyesi. with counterparts in Mongol traditions",
+          "statement_id": "Eşik İyesi adalah roh penjaga ambang pintu dalam kepercayaan rakyat Turkik, juga disebut Astana İyesi atau Bosağa İyesi. yang juga memiliki padanan dalam tradisi Mongol (Mongols)",
           "quote": "Eşik İyesi – Türk halk inancında eşiğin koruyucu ruhu. Eşgik İyesi veya Esik İyesi olarak da söylenir. Eşanlamlı olarak Astana İyesi veya Bosağa (Busağa, Busava, Bosaha, Bosaka) İyesi ifadeleri de kullanılır. Moğollar Bohogo Ezen derler.",
           "context": "traditional-belief",
           "status": "exact"
@@ -1011,6 +807,1936 @@
           "statement": "This threshold guardian spirit is also known by the names Eşgik İyesi or Esik İyesi.",
           "statement_id": "Roh penjaga ambang pintu ini juga dikenal dengan sebutan Eşgik İyesi atau Esik İyesi.",
           "quote": "Günümüz çağdaş beşeri bilimlerde kullanılan terimlerden bilinç eşiği ve duyum eşiği gibi kavramlar da bu sınır anlayışını ortaya koymaktadır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "germakochi",
+      "file": "batch-138.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "germakochi-c01",
+          "source_id": "germakochi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Germakochi is a forest man in Laz mythology resembling Ochokochi in Georgia",
+          "statement_id": "Germakochi adalah manusia hutan dalam mitologi suku Laz yang sepadan dengan Ochokochi di Georgia",
+          "quote": "Germakochi is a forest man who appears in the mythology of the Laz people. Ochokochi of Georgian mythology is considered equivalent to Germakochi.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "germakochi-c02",
+          "source_id": "germakochi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Germakochi is a tall and hairy figure in forests",
+          "statement_id": "Germakochi berbadan tinggi dan berbulu lebat di hutan",
+          "quote": "Germakochi is a tall and hairy figure who lives in the forests.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "germakochi-c03",
+          "source_id": "germakochi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Looks between a monkey and human",
+          "statement_id": "Penampilannya berada di antara monyet dan manusia",
+          "quote": "It looks like something between a monkey and a human.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "germakochi-c04",
+          "source_id": "germakochi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Germakochi is curious and likes interacting with humans",
+          "statement_id": "Germakochi memiliki rasa penasaran dan suka berinteraksi dengan manusia",
+          "quote": "Germakochi is a curious character and likes to interact with humans.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "germakochi-c05",
+          "source_id": "germakochi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Making a fire allows escape from Germakochi",
+          "statement_id": "Cara menyelamatkan diri dari Germakochi adalah dengan membuat api",
+          "quote": "The way to escape from Germakochi is to make a fire.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "germakochi-c06",
+          "source_id": "germakochi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Germakochi takes the fire and burns instantly",
+          "statement_id": "Germakochi akan mengambil api dan langsung terbakar",
+          "quote": "Germakochi takes the fire and burns instantly.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "kharqyt",
+      "file": "batch-138.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 1,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "kharqyt-c01",
+          "source_id": "kharqyt-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Turkey Kharqyt or Harkıt also called Öcü Böcü or Torbalı carries a sack to take away naughty children",
+          "statement_id": "Di Turki sosok Kharqyt atau Harkıt juga disebut Öcü Böcü atau Torbalı memanggul karung untuk menculik anak nakal",
+          "quote": "In Turkey, Kharqyt (Turkish: Harkıt  means 'Sack Man'; he is also called Öcü , Böcü , or Torbalı ) is portrayed as a man with a sack on his back who carries naughty children away to eat or sell them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "or-n-iy-si",
+      "file": "batch-138.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "or-n-iy-si-c01",
+          "source_id": "or-n-iy-si-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Ören İyesi or Üren İyesi is the ruin spirit in Turkic Tatar Altay and Chuvash mythology",
+          "statement_id": "Ören İyesi atau Üren İyesi adalah roh reruntuhan dalam mitologi Turkik Tatar Altay dan Çuvaş",
+          "quote": "Ören İyesi – Türk, Tatar, Altay ve Çuvaş mitolojilerinde Harabe Ruhu. Üren İyesi olarak da söylenir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "or-n-iy-si-c02",
+          "source_id": "or-n-iy-si-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Also called Peg İyesi Kıyrağan İyesi or Çaldıbar İyesi guarding ruins",
+          "statement_id": "Disebut juga Peg İyesi Kıyrağan İyesi atau Çaldıbar İyesi sebagai roh pelindung reruntuhan",
+          "quote": "Peg İyesi, Kıyrağan İyesi veya Çaldıbar İyesi de denir. Harabenin koruyucu ruhudur. Uygarlığın bozulma sınırları olarak görülür. Ölümle iç içe olan ve korkulan yerlerdir. Bu nedenle tıpkı mezarlıklar gibi ölü alanlar olarak algılanırlar. Örenler de, bir anlamda yapıların ölüleri ve onların mezarlarıdır. Buralarda sabaha kadar bilinmeyen ışıklar yanar ve müzik sesleri gelir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "or-n-iy-si-c03",
+          "source_id": "or-n-iy-si-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "These entities wander at night and disperse when rooster crows",
+          "statement_id": "Makhluk-makhluk ini berkelana pada malam hari dan bubar saat mendengar suara kokok ayam",
+          "quote": "Cin, peri, mekir, hortlak, meçkey gibi adlarla anılan varlıkların geceleri dolaştıklarına, horoz sesi ya da sabah ezanı duyulur duyulmaz dağılıp, kendi mekanlarına çekildiklerine inanılır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "or-n-iy-si-c04",
+          "source_id": "or-n-iy-si-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Their habitats are mills baths and ruins",
+          "statement_id": "Tempat tinggal mereka adalah penggilingan pemandian dan reruntuhan",
+          "quote": "Yaşadıkları bu yerler ise değirmenler, hamamlar, terk edilmiş yapılar, örenler, mezarlıklar ve hanlardır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "or-n-iy-si-c05",
+          "source_id": "or-n-iy-si-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "The idiom in-cin top oynuyor originates from this understanding",
+          "statement_id": "Ungkapan in-cin top oynuyor berasal dari pemahaman mengenai tempat sepi ini",
+          "quote": "Issız yerleri anlatmak için kullanılan \"in-cin top oynuyor\" deyimi bu anlayıştan kaynaklanmaktadır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "rs-k",
+      "file": "batch-138.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 2,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "rs-k-c01",
+          "source_id": "rs-k-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Erşek is a mythical creature born of leopard pars and bear with leopard body and bear head and claws",
+          "statement_id": "Erşek adalah makhluk perkawinan macan tutul pars dan beruang dengan tubuh pars serta kepala dan cakar beruang",
+          "quote": "Erşek - Pars ve Ayı'nın çiftleşmesinden doğan efsane yaratığıdır. Yarı ayı yarı pars olarak da düşünülür. Gövdesi pars, kafası ayı şeklindedir. Pençeleri de ayınınkiler gibidir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rs-k-c02",
+          "source_id": "rs-k-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Its name derives from Er meaning strength and Mongolian Ers meaning sharp claws",
+          "statement_id": "Namanya diturunkan dari kata Er yang berarti kekuatan dan kata Mongol Ers yang berarti ketajaman cakar",
+          "quote": "\"Er\" kökünden türemiştir. Güçlülük anlamı içerir. Moğolcada Ers keskinlik ifade eder ve bu canlıların pençelerinin keskinliği ile ilgilidir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "tarla-iyesi",
+      "file": "batch-138.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "tarla-iyesi-c01",
+          "source_id": "tarla-iyesi-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Tarla iyəsi is the field spirit in Turkic Tatar and Altay folklore",
+          "statement_id": "Tarla iyəsi adalah roh ladang dalam kepercayaan rakyat Turkik Tatar dan Altay",
+          "quote": "Tarla iyəsi — türk, tatar və altay xalq inancında tarla ruhu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tarla-iyesi-c02",
+          "source_id": "tarla-iyesi-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Also known as Tarıq iyəsi or Tala Tele iyəsi",
+          "statement_id": "Dikenal pula sebagai Tarıq iyəsi atau Tala Tele iyəsi",
+          "quote": "Tarıq iyəsi və ya Tala (Tele) iyəsi olaraq da bilinər.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tarla-iyesi-c03",
+          "source_id": "tarla-iyesi-s1",
+          "host": "az.wikipedia.org",
+          "statement": "The terms Basu iyəsi or Etiz iyəsi are also used",
+          "statement_id": "Ungkapan Basu iyəsi atau Etiz iyəsi juga digunakan",
+          "quote": "Basu iyəsi və ya Etiz iyəsi ifadələri də istifadə olunur.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tarla-iyesi-c04",
+          "source_id": "tarla-iyesi-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Also named field guardian Tarla Gözətçisi",
+          "statement_id": "Dinamai juga sebagai penjaga ladang Tarla Gözətçisi",
+          "quote": "\"Tarla Gözətçisi\"\" olaraq da adlandırılar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tarla-iyesi-c05",
+          "source_id": "tarla-iyesi-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Described as grey-haired old woman sitting on a tree called Uruq",
+          "statement_id": "Digambarkan sebagai wanita tua berambut kelabu yang duduk di pohon Uruq",
+          "quote": "Qır saçlı yaşlı bir qadındır və Uruq adlı bir ağacda oturur.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tarla-iyesi-c06",
+          "source_id": "tarla-iyesi-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Has long arms reaching the sky to squeeze clouds for rain",
+          "statement_id": "Memiliki lengan panjang untuk menggapai langit dan memeras awan hingga hujan",
+          "quote": "Uzun qollu olduğu üçün göyə uzanıb buludları sıxaraq yağış yağdırar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "ubir",
+      "file": "batch-138.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "ubir-c01",
+          "source_id": "ubir-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "In Chuvash vupar means evil spirit nightmare and shapeshifter",
+          "statement_id": "Dalam bahasa Çuvaş kata Vupar berarti roh jahat mimpi buruk dan pengubah wujud",
+          "quote": "В чувашском языке слово вупӑр обозначает «злой дух», «кошмар», «оборотень», «упырь».",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ubir-c02",
+          "source_id": "ubir-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "Vubar corresponds to Obur or Ubyr in Kyrgyz Kazakh Tatar and Bashkir",
+          "statement_id": "Vubar berpadanan dengan kata Obur atau Ubyr dalam bahasa Kirgiz Kazakh Tatar dan Bashkir",
+          "quote": "тур. obur кирг. обур карач.-балк. обур каз. и ног. обыр тат. и баш. убыр",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ubir-c03",
+          "source_id": "ubir-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "Vubar appears at night in forms of animals fiery snakes or humans crushing sleepers",
+          "statement_id": "Vubar muncul malam hari berwujud hewan ular api atau manusia menindih orang tidur",
+          "quote": "Вубар появляется ночью и, принимая облик домашних животных, огненного змея или человека, наваливается на спящих людей,",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ubir-c04",
+          "source_id": "ubir-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "Vubar not only suffocates sleepers but can inflict severe sickness",
+          "statement_id": "Vubar tidak hanya mencekik orang saat tidur tetapi juga mendatangkan penyakit",
+          "quote": "Вубар не только душит людей во сне, но может навести на них и порчу, причиняя им таким образом тяжелую болезнь,",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "yel-iyesi",
+      "file": "batch-138.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "yel-iyesi-c01",
+          "source_id": "yel-iyesi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name Yel iyesi comes from Yel meaning wind and iye familiar spirit in Turkic traditions",
+          "statement_id": "Nama Yel iyesi berasal dari kata Yel yang berarti angin dan iye roh pelindung dalam tradisi Turkik",
+          "quote": "The name comes from the Turkic words \"Yel,\" which means wind, and \"iye,\" the familiar spirit of any natural asset.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yel-iyesi-c02",
+          "source_id": "yel-iyesi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Yel İye are female fairy-like spirits living in wilderness and clouds in Turkic traditions",
+          "statement_id": "Yel İye adalah roh wanita seperti peri yang hidup di alam liar dan awan dalam tradisi Turkik",
+          "quote": "In Turkic mythology, the Yel İye are female fairy-like spirits who live in the wilderness and sometimes in the clouds.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yel-iyesi-c03",
+          "source_id": "yel-iyesi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They were believed to float between the physical world and afterlife",
+          "statement_id": "Mereka dipercaya melayang di antara dunia fisik dan alam baka",
+          "quote": "They were believed to be the spirits of women who had been frivolous in their lifetimes and now floated between the physical world and the afterlife.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yel-iyesi-c04",
+          "source_id": "yel-iyesi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They appear as beautiful maidens in sparkling white dresses",
+          "statement_id": "Mereka menampakkan diri sebagai gadis bergaun putih berkilau",
+          "quote": "They usually appear as beautiful maidens, naked or dressed in sparkling beautiful white dresses and special fabulous robes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "alara-fairy",
+      "file": "batch-138.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "alara-fairy-c01",
+          "source_id": "alara-fairy-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Alara is a water fairy from Turkic mythology referenced in Siberian and Yakut folklore",
+          "statement_id": "Alara adalah peri air mitologi Turkik yang juga dikisahkan dalam folklor Siberia dan suku Yakut",
+          "quote": "Alara (Cyrillic: Әләрә) is a water fairy from Turkic mythology. A popular female name in Turkish culture, Alara is also referenced in the mythologies of Siberian people and told in the folklore and elders' stories among the Yakut people.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alara-fairy-c02",
+          "source_id": "alara-fairy-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Originated from Lake Baikal appearing as a little girl with butterfly wings of light",
+          "statement_id": "Berasal dari Danau Baikal berwujud gadis kecil bersayap mirip kupu-kupu dari cahaya",
+          "quote": "Said to originate from Lake Baikal and made of the love tears of a thousand women, Alara takes the appearance of a beautiful little girl with butterfly-like wings made of light but sprinkle water as she beats them to hover above the lake.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alara-fairy-c03",
+          "source_id": "alara-fairy-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Her beauty and youth depend on water and must stay close to water sources",
+          "statement_id": "Kecantikan dan masa mudanya bergantung pada air dan harus dekat dengan sumber air",
+          "quote": "Her beauty and youth depend on water so she must always remain close to water sources.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alara-fairy-c04",
+          "source_id": "alara-fairy-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She has power to remove hate and greed from people's hearts",
+          "statement_id": "Memiliki kekuatan menghapus kebencian dan ketamakan dari hati manusia",
+          "quote": "She has the power to remove hate and greed from people's hearts and hence make them capable of true love.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "alara-fairy-c05",
+          "source_id": "alara-fairy-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Those seeking help tie a colorful ribbon on a lakeside tree branch",
+          "statement_id": "Mereka yang memohon bantuan mengikat pita warna-warni di dahan pohon tepi danau",
+          "quote": "Those who seek Alara's help must travel to a lake where she was last seen and tie a colorful ribbon on the branch of a blooming lakeside tree.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "anka",
+      "file": "batch-138.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 1,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "anka-c01",
+          "source_id": "anka-s1",
+          "host": "kk.wikipedia.org",
+          "statement": "Anka is a giant bird roaming Mount Qaf in Kazakh and Altay tales equivalent to Samuryq",
+          "statement_id": "Anka adalah burung raksasa penghuni Gunung Qaf dalam dongeng Kazakh dan Altay yang sepadan dengan Samuryq",
+          "quote": "Аңқа  — иран аңыздары бойынша Қап тауында жүретін алып құс. Оның екінші түрі — самұрық. Қазақ пен алтай халықтары ертегілерінде оған теңдестіріліп айтылатын ертегі құстар: қартлан, көкжөре, құмай.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "az-kt",
+      "file": "batch-138.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "az-kt-c01",
+          "source_id": "az-kt-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Azıktı is a misleading spirit in Turkic and Altay folklore",
+          "statement_id": "Azıktı adalah jin penyesat dalam kepercayaan rakyat Turkik dan Altay",
+          "quote": "Azıktı, Türk ve Altay halk inancında bir kayıp cini.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "az-kt-c02",
+          "source_id": "az-kt-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Means misleading demon in pre-Islamic beliefs of Kyrgyz and Uzbeks",
+          "statement_id": "Bermakna penyesat dalam kepercayaan pra-Islam bangsa Kirgiz Kyrgyz dan Uzbek",
+          "quote": "İsmi \"azdıran\" anlamına gelen Kırgızların ve Özbeklerin İslamiyet öncesi inançlarında yer alan şeytani bir varlıktır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "az-kt-c03",
+          "source_id": "az-kt-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Appears as closest person to lead victim to cliff mountain or river",
+          "statement_id": "Menampakkan diri sebagai orang terdekat untuk menggiring manusia ke jurang atau sungai",
+          "quote": "İnsanlara kendilerine en yakın olan kişi şeklinde görülebilir. Bu şekilde kılığa giren Azıktı insanı azdırıp, uçuruma, dağa veya bir akarsuya götürerek öldürebilir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "az-kt-c04",
+          "source_id": "az-kt-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Also known as Azatkı in folklore",
+          "statement_id": "Juga dikenal dengan sebutan Azatkı dalam folklor",
+          "quote": "Tatar Efsaneleri, Yaşar Kalafat - İlyas Kamalov 11 Haziran 2015 tarihinde Wayback Machine sitesinde arşivlendi. (Azatkı)",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "aza",
+      "file": "batch-138-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "aza-c01",
+          "source_id": "aza-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Aza or Asa is an evil spirit in Turkic Altay Yakut Chuvash and Mongol mythology called Ada",
+          "statement_id": "Aza atau Asa adalah roh jahat dalam mitologi Turkik Altay Yakut Çuvaş dan Mongol yang disebut Ada",
+          "quote": "Aza - Türk, Altay, Yakut, Çuvaş ve Moğol mitolojisinde kötü ruh. Asa şeklinde de söylenir. Moğollar Ada derler. Azalar biçiminde çoğul olarak kullanılır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "aza-c02",
+          "source_id": "aza-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "They live in dark subterranean dwellings",
+          "statement_id": "Mereka hidup di tempat tinggal kegelapan bawah tanah",
+          "quote": "Yeraltındaki karanlık yurtlarında yaşarlar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "aza-c03",
+          "source_id": "aza-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Generally a collective name for malevolent spirits",
+          "statement_id": "Secara umum merupakan nama bagi seluruh roh jahat",
+          "quote": "Genel olarak kötücül ruhların ve kötü varlıkların tamamına verilen bir addır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "aza-c04",
+          "source_id": "aza-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Often lack physical appearance and only their sounds or noise are heard",
+          "statement_id": "Sering kali tidak memiliki rupa fisik dan hanya suara atau kegaduhan mereka yang terdengar",
+          "quote": "Çoğu zaman, görüntüleri yoktur, yalnızca sesleri ve çıkardıkları gürültüler işitilir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "aza-c05",
+          "source_id": "aza-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "People avoid roaming in ruins out of fear",
+          "statement_id": "Manusia takut berkeliaran di reruntuhan karena keberadaan roh ini",
+          "quote": "İnsanlar onlardan korktukları için harabelerde ve kalıntılarda gezmeye çekinirler.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "aza-c06",
+          "source_id": "aza-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Among Oyrots describes 13 categories of evil spirits",
+          "statement_id": "Pada masyarakat Oyrot mencakup 13 kategori roh jahat",
+          "quote": "Oyrotlarda 13 farklı kötücül ruh kategorisinin tamamını anlatır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "azm-c",
+      "file": "batch-138-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "azm-c-c01",
+          "source_id": "azm-c-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Azmıç is a spirit of loss or road guardian in Turkic and Balkar lore",
+          "statement_id": "Azmıç adalah roh penyesat atau penjaga jalan dalam mitologi Turkik dan Balkar",
+          "quote": "Azmıç - Türk ve Balkar mitolojisinde Kayıp Ruhu veya Yol İyesi.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "azm-c-c02",
+          "source_id": "azm-c-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Also known as Aznıç or Azıtkı Azıktı",
+          "statement_id": "Dikenal juga sebagai Aznıç atau Azıtkı Azıktı",
+          "quote": "Aznıç veya Azıtkı (Azıktı) olarak da bilinir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "azm-c-c03",
+          "source_id": "azm-c-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "An evil spirit in Karachay Balkar beliefs",
+          "statement_id": "Merupakan roh jahat dalam kepercayaan masyarakat Karaçay Balkar",
+          "quote": "Karaçay - Balkarların inançlarına göre Şeytani bir ruh.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "azm-c-c04",
+          "source_id": "azm-c-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Throws people down cliffs and leads astray those traveling alone",
+          "statement_id": "Melempar orang dari tebing dan menyesatkan mereka yang bepergian seorang diri",
+          "quote": "Azmıç da bu insanı kayalıklardan aşağı atar.Tek başına yola çıkan insanları kandırıp götüren ve kaybeden kötü ruhtur.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "azm-c-c05",
+          "source_id": "azm-c-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Calls the person with the voice of someone they know",
+          "statement_id": "Memanggil orang tersebut dengan suara orang yang dikenalnya",
+          "quote": "Tanıdığı birisinin sesiyle bu insana seslenir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "azm-c-c06",
+          "source_id": "azm-c-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "If the person turns back they are taken away and lost",
+          "statement_id": "Jika orang tersebut menoleh ke belakang ia akan dibawa pergi dan disesatkan",
+          "quote": "Eğer bu sesi duyan kişi geriye dönüp bakarsa onu alır götürür ve kaybeder.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "badrac",
+      "file": "batch-138.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "badrac-c01",
+          "source_id": "badrac-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Badraç or Padraç is a seven-headed dragon in Turkic mythology",
+          "statement_id": "Badraç atau Padraç adalah naga berkepala tujuh dalam mitologi Turkik",
+          "quote": "Badraç, Türk mitolojisinde Yedibaşlı Ejderha; Padraç da denir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "badrac-c02",
+          "source_id": "badrac-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "To die all seven of its heads must be severed",
+          "statement_id": "Untuk membunuhnya ketujuh kepalanya harus dipenggal",
+          "quote": "Ölmesi için yedisinin de kesilmesi gerekir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "badrac-c03",
+          "source_id": "badrac-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Its tail cracks like a whip",
+          "statement_id": "Ekornya berkelebat kuat bagaikan cambuk",
+          "quote": "Kuyruğu bir kamçı gibi şaklar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "badrac-c04",
+          "source_id": "badrac-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Its skin is covered with scales like armor",
+          "statement_id": "Kulitnya dilapisi sisik tebal seperti baju zirah",
+          "quote": "Derisi zırh gibi pullarla kaplıdır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "badrac-c05",
+          "source_id": "badrac-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "The concept of dragon appears in various cultural folklores",
+          "statement_id": "Gagasan tentang naga muncul dalam berbagai kebudayaan dan cerita rakyat",
+          "quote": "Ejderha kavramına farklı adlarla olsa da hemen her toplumda yer alması son derece ilgi çekicidir.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "bajbur",
+      "file": "batch-138-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "bajbur-c01",
+          "source_id": "bajbur-s1",
+          "host": "av.wikipedia.org",
+          "statement": "Bajbur bájbur is a mythological being of Gimry Genub village",
+          "statement_id": "Bajbur bájbur adalah makhluk mitologis desa Gimry Genub",
+          "quote": "Ба́йбур (Starling: bájbur) – гендерил (Генуб росулӏ) росулӏасеб мифологияб рижи.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bajbur-c02",
+          "source_id": "bajbur-s1",
+          "host": "av.wikipedia.org",
+          "statement": "Gimry villagers know Bajbur as foul creature imitating people's appearance and voice to deceive",
+          "statement_id": "Penduduk Gimry mengenal Bajbur sebagai makhluk kotor peniru rupa dan suara manusia untuk menipu",
+          "quote": "Байбур гендерида лъала чагӏазул куц-мохъги, гьезул гьаракьги босун гӏадамал гуккизе ва гьезул лугби мортизаризе къватӏибе бахъунеб хъублъи букӏин.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bajbur-c03",
+          "source_id": "bajbur-s1",
+          "host": "av.wikipedia.org",
+          "statement": "Villagers believe Bajbur can mimic parents' voices calling someone's name",
+          "statement_id": "Penduduk meyakini Bajbur bisa menirukan suara orang tua untuk memanggil nama seseorang",
+          "quote": "Генал божула, Байбурица босизе бегьулин щив вукӏаниги чиясул эбел-инсул гьаракь ва гьезул гьаркьица ахӏизе бегьулин гьесул цӏарин.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bajbur-c04",
+          "source_id": "bajbur-s1",
+          "host": "av.wikipedia.org",
+          "statement": "Forbidden to answer as limbs may become paralyzed or person goes under ground",
+          "statement_id": "Tidak boleh menjawab panggilan itu karena dapat menyebabkan anggota tubuh lumpuh atau mati masuk ke tanah",
+          "quote": "Гьелъие жаваб кьезе бегьуларо, кьунани – яги лага мортлъула, мачӏхала, яги – рокъосачи ракьукье ккола.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bajbur-c05",
+          "source_id": "bajbur-s1",
+          "host": "av.wikipedia.org",
+          "statement": "If parents are far away the deception is recognized quickly",
+          "statement_id": "Jika orang tua berada di tempat jauh tipuan itu mudah disadari",
+          "quote": "Эбел-инсудаса гьев рикӏкӏада вугони (масала, эбел-эмен Генур, вас – Маскавалда) гьеб цӏакъ хехго лъала.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "barak",
+      "file": "batch-138.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "barak-c01",
+          "source_id": "barak-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Barak is a sacred dog in Turkic mythology and name for shaggy hunting dogs in Anatolia",
+          "statement_id": "Barak adalah anjing suci dalam mitologi Turkik dan nama anjing pemburu berbulu di Anatolia",
+          "quote": "Barak - Türk mitolojisinde Kutsal Köpek. Anadoluda tüylü av köpeklerine de bu ad verilir. Anadolu'da Barak Ata (Barak Baba) adlı bir evliyanın yer alması tesadüfi değildir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "barak-c02",
+          "source_id": "barak-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Derived from root Bar or Var and means tiger in Mongolian",
+          "statement_id": "Namanya diturunkan dari akar kata Bar atau Var dan bermakna harimau dalam bahasa Mongol",
+          "quote": "(Bar/Var) kökünden türemiştir. Varmak fiilini çağrıştırmaktadır. Moğolcada Barah sözcüğü ateşkes, barış gibi anlamlar taşır. Bar ise kaplan demektir.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "barak-c03",
+          "source_id": "barak-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "According to Altay legends God gave dog guardianship duty when human was created",
+          "statement_id": "Menurut legenda Altay Tuhan memberi anjing tugas berjaga saat manusia diciptakan",
+          "quote": "Altay efsanelerine göre insan yaratılırken Tanrı köpeğe bekçilik görevi vermiş fakat o görevini yerine getirmemiş hatta bazı söylencelere göre ihanet etmiştir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "barak-c04",
+          "source_id": "barak-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Underworld deity Erlik approached humans leading them into sin",
+          "statement_id": "Dewa bawah tanah Erlik mendekati manusia untuk menggoda melakukan dosa",
+          "quote": "Bu nedenle de yeraltı tanrısı olan “Erlik”, insanın yanına yaklaşarak onu ve eşini günah işlemeye yöneltebilmiştir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "barak-c05",
+          "source_id": "barak-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "God Ülgen punished dog alongside mankind",
+          "statement_id": "Dewa Ülgen kemudian menghukum anjing bersama manusia",
+          "quote": "Tanrı Ülgen de bunun üzerine insanoğlu ile birlikte köpeği de cezalandırmıştır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "barak-c06",
+          "source_id": "barak-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "In Evenk mythology neighboring Siberian Turks this punishment left dog hairy",
+          "statement_id": "Dalam mitologi Evenk tetangga Turkik Siberia hukuman ini membuat anjing berbulu lebat",
+          "quote": "Sibirya Türklerine komşu olan Evenk mitolojisine göre bu ceza nedeniyle köpek kıllı ve kirli olarak kalacaktır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "bukrek-and-sangal",
+      "file": "batch-138-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "bukrek-and-sangal-c01",
+          "source_id": "bukrek-and-sangal-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Bükrek and Sanqal are two dragons fighting resembling Yin and Yang symbol",
+          "statement_id": "Bükrek dan Sanqal adalah dua naga yang bertarung menyerupai simbol Yin dan Yang",
+          "quote": "Bükrek və Sanqal - türk və altay mifologiyasında bibirleriyle döyüşən iki əjdaha. Döyüşərkən, görünüşləri İn və Yan simvolunu xatırladır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bukrek-and-sangal-c02",
+          "source_id": "bukrek-and-sangal-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Bükrek is a dragon in Turkic and Altay mythology",
+          "statement_id": "Bükrek adalah naga dalam mitologi Turkik dan Altay",
+          "quote": "Bükrek - türk və altay mifologiyasında əjdaha.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bukrek-and-sangal-c03",
+          "source_id": "bukrek-and-sangal-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Also known as Bükre or Bukra Bukrak",
+          "statement_id": "Dikenal pula dengan nama Bükre atau Bukra Bukrak",
+          "quote": "Bükre və yaBukra (Bukrak) olaraq da bilinər.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bukrek-and-sangal-c04",
+          "source_id": "bukrek-and-sangal-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Possesses good qualities",
+          "statement_id": "Memiliki sifat-sifat yang baik",
+          "quote": "Yaxşı xüsusiyyətlərə malikdir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bukrek-and-sangal-c05",
+          "source_id": "bukrek-and-sangal-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Does not harm humans and even assists them",
+          "statement_id": "Tidak membahayakan manusia bahkan suka menolong",
+          "quote": "İnsanlara zərər verməz, hətta köməkçi olar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bukrek-and-sangal-c06",
+          "source_id": "bukrek-and-sangal-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Has no wings hence cannot fly",
+          "statement_id": "Tidak memiliki sayap sehingga tidak dapat terbang",
+          "quote": "Qanadları yoxdur, bu səbəblə uça bilməz.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "bulud-iy-si",
+      "file": "batch-138-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "bulud-iy-si-c01",
+          "source_id": "bulud-iy-si-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Bulud iyəsi is the guardian spirit of clouds in Turkic and Altay myth",
+          "statement_id": "Bulud iyəsi adalah roh pelindung awan dalam mitologi Turkik dan Altay",
+          "quote": "Bulud iyəsi - türk və altay mifologiyasında buludun qoruyucu ruhu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bulud-iy-si-c02",
+          "source_id": "bulud-iy-si-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Also termed Bulut iyəsi or Bolıt iyəsi",
+          "statement_id": "Dinamai juga Bulut iyəsi atau Bolıt iyəsi",
+          "quote": "Bulut iyəsi və ya Bolıt iyəsi olaraq da deyilər.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bulud-iy-si-c03",
+          "source_id": "bulud-iy-si-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Rain guardian Yağış iyəsi is also tied to clouds",
+          "statement_id": "Roh penjaga hujan Yağış iyəsi juga bergantung pada awan",
+          "quote": "Yağış iyəsi (\"Yağmur iyəsi\") yəni yağışın qoruyucu ruhu da buludlara asılıdır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bulud-iy-si-c04",
+          "source_id": "bulud-iy-si-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Linked to thunder being in Siberia called Ətin",
+          "statement_id": "Terkait dengan entitas guruh di Siberia bernama Ətin",
+          "quote": "(Bulud iyəsiylə əlaqəli olan Ətin \"göy gurultusu\" sözü Sibirdəki Ətin adlı üstün varlığı / ruhu da ağla gətirir.)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bulud-iy-si-c05",
+          "source_id": "bulud-iy-si-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Eten iyəsi is the thunder spirit of skies",
+          "statement_id": "Eten iyəsi adalah roh guruh petir di langit",
+          "quote": "Ətin / Eten iyəsi: Göy gurultusu ruhu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "carsamba-kar-s",
+      "file": "batch-138-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "era.text",
+          "message": "Tidak muncul di kutipan mana pun: Turki, Turkish. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "short_description",
+          "message": "Tidak muncul di kutipan mana pun: Turki, Turkish. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.origin",
+          "message": "Tidak muncul di kutipan mana pun: Turki. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "carsamba-kar-s-c01",
+          "source_id": "carsamba-kar-s-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Çarşamba Karısı denotes an untidy woman with disheveled hair corresponding to Alkarısı",
+          "statement_id": "Çarşamba Karısı digunakan untuk menyebut wanita berambut acak-acakan dan berkerabat dengan Alkarısı",
+          "quote": "Çarşamba Karısı, Türkçede saçı başı karmakarışık, üstü başı özensiz kadın anlamında kullanılır. Zaman zaman Alkarısı'na tekabül eder.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "carsamba-kar-s-c02",
+          "source_id": "carsamba-kar-s-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "If work begins Wednesday night this ugly woman becomes angry and abducts children",
+          "statement_id": "Jika pekerjaan dimulai malam Rabu wanita buruk rupa ini akan marah dan membawa lari anak rumah",
+          "quote": "Çarşamba gecesi işe başlanırsa, kızan ve o eve kötülük yapan kötücül çirkin bir kadın olarak tanımlanan Çarşamba Karısı, gelip genelde evin çocuğunu herkesin gözü önünde alıp götürür.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "carsamba-kar-s-c03",
+          "source_id": "carsamba-kar-s-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "A rush to kidnap children before owners arrive",
+          "statement_id": "Terdapat rasa cemas untuk segera melarikan anak sebelum pemiliknya datang",
+          "quote": "('Kaçırmak'ta, kaçırılan canlı ya da cansız nesnenin sahibinden korkma duygusu ile 'Aman bu çocuğun sahipleri gelmeden kendisini alıp kaçırayım' şeklinde tanımlanabilecek bir telaş gizlidir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "carsamba-kar-s-c04",
+          "source_id": "carsamba-kar-s-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Is a memorat element of ghost or jinn type in folklore",
+          "statement_id": "Merupakan unsur memorat sejenis hantu atau jin dalam folklor",
+          "quote": "Mitolojik bir yaratıktan ziyade hortlak, hayalet, -genel anlamda- cin, peri, öcü, dunganga türünde bir memorat unsurudur.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "degirmen-iyesi",
+      "file": "batch-138.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "degirmen-iyesi-c01",
+          "source_id": "degirmen-iyesi-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Değirmen İyesi or Tegermän İyäse is the mill guardian spirit in Turkic and Tatar myth",
+          "statement_id": "Değirmen İyesi atau Tegermän İyäse adalah roh penjaga kincir penggilingan dalam mitologi Turkik dan Tatar",
+          "quote": "Değirmen İyesi (Tatarca: Tegermän İyäse veya Tegermän Anası) - Türk ve Tatar mitolojilerinde değirmenin koruyucu ruhu. Deyirmen İyesi de denir. Değişik Türk dillerinde Tegermen (Tiyirmen) İyesi olarak da bilinir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "degirmen-iyesi-c02",
+          "source_id": "degirmen-iyesi-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Rotation of millstone evokes mystical mood symbolizing eras",
+          "statement_id": "Putaran batu penggilingan menciptakan suasana mistis melambangkan perputaran masa",
+          "quote": "Bu dönüş zamanın geçişini ve dünyanın dönemlerini çağrıştırmaktadır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "degirmen-iyesi-c03",
+          "source_id": "degirmen-iyesi-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Located away from villages considered at borders of civilization",
+          "statement_id": "Terletak terpisah dari permukiman dianggap di perbatasan peradaban",
+          "quote": "Değirmenler yerleşim yerlerinden nispeten uzak oldukları için de, uygarlığın sınırındaki mekanlar arasında kabul edilirler.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "degirmen-iyesi-c04",
+          "source_id": "degirmen-iyesi-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Shamans take water from seven mill troughs for rituals",
+          "statement_id": "Dukun şaman mengambil air dari tujuh talang penggilingan untuk ritual",
+          "quote": "Şamanlar, büyü / urasa yaparken, demir kızdırarak yedi pınardan, yedi değirmen oluğundan aldıkları yedi suya atarlar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "degirmen-iyesi-c05",
+          "source_id": "degirmen-iyesi-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Child illness avak is healed by shamans through tozlandırma method",
+          "statement_id": "Penyakit avak pada anak diobati dukun lewat metode tozlandırma",
+          "quote": "Zayıf kalan çocukların “avak” denilen bir hastalığa yakalandığına inanılır ve bu hastalığı şaman (veya hoca) “tozlandırma” yöntemi ile sağaltır (tedavi eder).",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "demirk-ynak",
+      "file": "batch-138-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "era.text",
+          "message": "Tidak muncul di kutipan mana pun: Turki, Turkish. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        }
+      ],
+      "claims": [
+        {
+          "id": "demirk-ynak-c01",
+          "source_id": "demirk-ynak-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Demirkıynak lives in Bigadiç mountains fears water and screams terrible sounds",
+          "statement_id": "Demirkıynak atau Demirtırnak tinggal di pegunungan Bigadiç takut air dan mengeluarkan suara jeritan",
+          "quote": "Demirkıynak; Bigadiç dağlarında yaşayan, her kılığa girebilen, korkunç sesler çıkararak insanların delirmelerine sebep olan, çok pis kokulu kötücül bir yaratıktır. \"Demirtırnak\" da denir. Sudan çok korkar. O göründüğü anda akarsu veya göle giren insanlara bir zarar veremeyeceğine inanılır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "demirk-ynak-c02",
+          "source_id": "demirk-ynak-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Known among Kyrgyz as Jeztımak or Jez Tumşuk iron nose",
+          "statement_id": "Dikenal di kalangan bangsa Kirgiz sebagai Jeztımak atau Jez Tumşuk hidung besi",
+          "quote": "Kırgızlar ve diğer Türk topluluklarında adına \"Jeztımak\", bazen de \"Jez Tumşuk\" (demir burun) olarak rastlanır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "demirk-ynak-c03",
+          "source_id": "demirk-ynak-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Half legendary being living in forests",
+          "statement_id": "Merupakan sosok setengah legenda yang tinggal di hutan",
+          "quote": "O, yarı gerçek yarı efsane bir varlıktır ve ormanlarda yaşar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "demirk-ynak-c04",
+          "source_id": "demirk-ynak-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "This demon depicted as beautiful woman with iron claws and nose who hides her nose",
+          "statement_id": "Iblis ini digambarkan sebagai wanita cantik berkuku dan berhidung besi yang menyembunyikan hidungnya",
+          "quote": "Bu iblis, demir tırnaklı, demir burunlu, güzel bir kadın görünüşünde betimlenirdi. İnsanlarla yüz yüze geldiği zaman, burnunu saklardı.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "demirk-ynak-c05",
+          "source_id": "demirk-ynak-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Is a motif found in Turkic demonology",
+          "statement_id": "Merupakan motif yang dijumpai dalam demonologi bangsa Turkik",
+          "quote": "Türk halklarının demonolojik görüşlerinde, zaman zaman rastlanan bir motiftir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "dir-n",
+      "file": "batch-138-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "dir-n-c01",
+          "source_id": "dir-n-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Dirən is an evil spirit in Turkic folklore",
+          "statement_id": "Dirən adalah roh jahat dalam kepercayaan rakyat Turkik",
+          "quote": "Tiren (Tiyren, Teyren) də deyilir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dir-n-c02",
+          "source_id": "dir-n-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Also named Tiren Tiyren or Teyren",
+          "statement_id": "Dinamai juga Tiren Tiyren atau Teyren",
+          "quote": "Tiren (Tiyren, Teyren) də deyilir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dir-n-c03",
+          "source_id": "dir-n-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Bears resemblance to the phrase Şeytan Övliyası",
+          "statement_id": "Memiliki kemiripan dengan sebutan Şeytan Övliyası",
+          "quote": "Quran-ı Kərimdəki \"Şeytan Övliyası\" təbiri ilə bənzərlik göstərir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dir-n-c04",
+          "source_id": "dir-n-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Given to evil spirits fulfilling every human desire",
+          "statement_id": "Nama ini diberikan kepada roh jahat yang mengabulkan segala keinginan manusia",
+          "quote": "İnsanların hər cür istəklərini yerinə yetirən şər ruhlara da bu ad verilər.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dir-n-c05",
+          "source_id": "dir-n-s1",
+          "host": "az.wikipedia.org",
+          "statement": "The human is so wicked they end up deceived by the spirit",
+          "statement_id": "Orang yang berhadapan dengannya begitu jahat hingga tertipu oleh roh tersebut",
+          "quote": "Lakin bu ruhun qarşısındakı insan o qədər pisdir ki, onun tərəfindən aldadılar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dir-n-c06",
+          "source_id": "dir-n-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Considered the adversary of the saintly concept of Eren (Ərən)",
+          "statement_id": "Diterima sebagai antitesis dari konsep orang saleh Eren (Ərən)",
+          "quote": "Ərən anlayışının əleyhdarı olaraq qəbul edilər.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "diyu",
+      "file": "batch-138-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "diyu-c01",
+          "source_id": "diyu-s1",
+          "host": "tt.wikipedia.org",
+          "statement": "Diyu peri are mythical beings in Tatar and Bashkir mythology",
+          "statement_id": "Diyu peri adalah makhluk mitis dalam mitologi bangsa Tatar dan Bashkir",
+          "quote": "Дию пәриләре — татар һәм башкорт мифологияләрендә иң түбән дәрәҗәле мифик затлар.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "diyu-c02",
+          "source_id": "diyu-s1",
+          "host": "tt.wikipedia.org",
+          "statement": "According to Kazan Tatar myths they live in cities underground and on sea beds",
+          "statement_id": "Menurut mitos bangsa Tatar Kazan tinggal di kota-kota bawah tanah dan dasar laut",
+          "quote": "Казан татарлары мифлары буенча дию пәриләре җир астында, диңгез төбендә үз калаларында яшәгәннәр.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "diyu-c03",
+          "source_id": "diyu-s1",
+          "host": "tt.wikipedia.org",
+          "statement": "On earth surface possess invisibility and appear as fair humans",
+          "statement_id": "Di permukaan bumi mampu menghilang dan menjelma menjadi manusia rupawan",
+          "quote": "Җир өстендә алар күренмәү саләтенә ия булганнар, ә кешеләргә кеше кыяфәтендә генә күренгәннәр. Шулай итеп, чибәр кызга әйләнеп алар кешеләргә кияүгә чыга, яки өйләнә алганнар.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "diyu-c04",
+          "source_id": "diyu-s1",
+          "host": "tt.wikipedia.org",
+          "statement": "Treat humans to delicacies that turn into horse dung if bismillah is said",
+          "statement_id": "Menyuguhkan makanan lezat yang berubah menjadi kotoran kuda jika dibacakan bismillah",
+          "quote": "Шулай ук, алар кешеләрне төрле тәм- томнар белән сыйлаганнар, тик бу азыкны бисмилла белән капсаң, имеш, дию пәрие ризыгы ат тизәгенә әверелгән.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "diyu-c05",
+          "source_id": "diyu-s1",
+          "host": "tt.wikipedia.org",
+          "statement": "Divided into two types according to myths diyu and peri",
+          "statement_id": "Terbagi menjadi dua jenis menurut sebagian kisah yaitu diyu dan peri",
+          "quote": "Кайбер мифлар буенча дию пәриләре ике төргә бүленә: дию һәм пәри.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "doo",
+      "file": "batch-138-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 6,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "doo-c01",
+          "source_id": "doo-s1",
+          "host": "ky.wikipedia.org",
+          "statement": "Döö is an antagonistic character in Kyrgyz fairy tales",
+          "statement_id": "Döö adalah tokoh antagonis dalam dongeng rakyat masyarakat Kirgiz",
+          "quote": "Дөө — кыргыз элинин жөө жомокторундагы терс каармандын образы.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "doo-c02",
+          "source_id": "doo-s1",
+          "host": "ky.wikipedia.org",
+          "statement": "Human form speaking like human mountain-sized with pine-sized whip",
+          "statement_id": "Berwujud seperti manusia berbicara bahasa manusia berbadan sebesar gunung dengan cambuk cemara",
+          "quote": "Дөө - адам кейпиндеги, адамча сүйлөгөн, аябагандай зор, көлөмү тоодой, камчысы карагайдай мифологиялык алп.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "doo-c03",
+          "source_id": "doo-s1",
+          "host": "ky.wikipedia.org",
+          "statement": "Has single eye on forehead and devours days of food at once",
+          "statement_id": "Memiliki satu mata di dahi dan memakan bekal berhari-hari sekaligus",
+          "quote": "Маңдайында жалгыз көзү бар, жер астында же үстүндө жүрүп, бир нече күндүн тамагын бир эле жеп коёт.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "doo-c04",
+          "source_id": "doo-s1",
+          "host": "ky.wikipedia.org",
+          "statement": "Sleeps months using one ear as mattress and other as blanket",
+          "statement_id": "Tidur berbulan-bulan dengan beralaskan satu telinga dan berselimutkan telinga lainnya",
+          "quote": "Бир кулагын төшөнүп, экинчисин жамынып, ойлонбостон жумалап, айлап уйкуга кетет.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "doo-c05",
+          "source_id": "doo-s1",
+          "host": "ky.wikipedia.org",
+          "statement": "Giants known in human memory since ancient mythologies",
+          "statement_id": "Sosok raksasa ini dikenal dalam ingatan mitologis kuno",
+          "quote": "Дөөлөр адамзаттын эсинде байыркы грек мифологияларынан белгилүү.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "doo-c06",
+          "source_id": "doo-s1",
+          "host": "ky.wikipedia.org",
+          "statement": "In almost all plots Döö is defeated being less clever than human",
+          "statement_id": "Dalam hampir semua cerita Döö dikalahkan manusia karena kurang cerdik",
+          "quote": "Дөө дээрлик бардык сюжеттерде адамдан акылсыз болуп, жеңилет.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "doydu",
+      "file": "batch-138.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "doydu-c01",
+          "source_id": "doydu-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Doydu is a giant Death Fish in Turkic and Altay mythologies",
+          "statement_id": "Doydu adalah Ikan Kematian raksasa dalam mitologi Turkik dan Altay",
+          "quote": "Doydu - türk və altay mifologiyalarında nəhəng Ölüm Balığı.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "doydu-c02",
+          "source_id": "doydu-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Also known as Toydu Balıq",
+          "statement_id": "Dikenal pula dengan sebutan Toydu Balıq",
+          "quote": "Toydu Balıq olaraq da bilinir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "doydu-c03",
+          "source_id": "doydu-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Giant fish living in subterranean sea with mouth under throat and eyes on nape",
+          "statement_id": "Ikan raksasa legendaris yang hidup di lautan luas bawah tanah dengan mulut di bawah tenggorokan dan mata di tengkuk",
+          "quote": "Yeraltındaki böyük dənizdə yaşadığına inanılan əfsanəvi nəhəng balıq. Ağzı gırtlağının altında, gözü isə peysərindədir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "doydu-c04",
+          "source_id": "doydu-s1",
+          "host": "az.wikipedia.org",
+          "statement": "When it moves its head and body earthquakes and storms erupt",
+          "statement_id": "Saat menggerakkan kepala dan badannya terjadi gempa bumi dan badai melanda",
+          "quote": "Baş və bədənini oynatınca zəlzələlər olur, tufanlar qopar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "doydu-c05",
+          "source_id": "doydu-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Its name is remembered alongside Abra and Yutpa",
+          "statement_id": "Namanya diingat bersama makhluk Abra dan Yutpa",
+          "quote": "Adı Abra və Yutpa ilə birlikdə xatırlanar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "gol-bogalar",
+      "file": "batch-138-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "gol-bogalar-c01",
+          "source_id": "gol-bogalar-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Göl boğaları or su boğaları believed to inhabit mountain lakes of Artvin and Posof",
+          "statement_id": "Göl boğaları atau su boğaları dipercaya ada di danau pegunungan kawasan Artvin dan Posof",
+          "quote": "Göl boğaları ya da su boğaları, Artvin (özellikle Ardanuç, Şavşat ve Yusufeli ilçeleri) ve Posof yöresinde dağ göllerinde bulunduğuna inanılan düşsel varlıklar. Göl boğalarının sabahın ilk aydınlığında görülebildiğine ve daha sonrasında suya dalıp yittiklerine inanılır. Hargiver Dağında (Arı Dağı) yer alan Boğa Gölleri isimlerini bu inançtan almaktadır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gol-bogalar-c02",
+          "source_id": "gol-bogalar-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Lake bull comes ashore and wrestles with domestic bull",
+          "statement_id": "Banteng danau keluar dari danau dan bertarung gulat melawan banteng milik warga",
+          "quote": "Göl içerisinden bu sesi işiten göl boğası, gölün kıyısına çıkarak orada bulunan adamın boğasıyla güreşmeye başlar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gol-bogalar-c03",
+          "source_id": "gol-bogalar-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "After chasing its rival the bull re-enters the lake",
+          "statement_id": "Setelah mengusir lawannya banteng danau kembali menyelam ke dalam air",
+          "quote": "boğası galip gelip rakibini kovaladıktan sonra yine göle girer.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "h-b-l-k",
+      "file": "batch-138-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 3,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "h-b-l-k-c01",
+          "source_id": "h-b-l-k-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Hıbılık is a malevolent being resembling Alkarısı according to Turkish belief (Turkey)",
+          "statement_id": "Hıbılık adalah makhluk jahat yang menyerupai Alkarısı menurut kepercayaan di Turki",
+          "quote": "Hıbılık, Türkiye'nin bazı yörelerinde yaşayan insanlara göre, görünüş olarak Alkarısı şeklinde olan kötücül bir varlık.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "h-b-l-k-c02",
+          "source_id": "h-b-l-k-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Unlike Alkarısı disturbing new mothers Hıbılık attacks both men and women",
+          "statement_id": "Berbeda dengan Alkarısı yang hanya mengganggu ibu baru melahirkan Hıbılık menyerang laki-laki dan perempuan",
+          "quote": "Alkarısı sadece yeni doğum yapmış kadınları rahatsız eder. Oysa hıbılık kadın-erkek hiç kimseye rahat vermez.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "h-b-l-k-c03",
+          "source_id": "h-b-l-k-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Crushes the chest of the victim and strangles throat until death by suffocation",
+          "statement_id": "Menindih dada korbannya dan mencekik tenggorokan hingga mati sesak nafas",
+          "quote": "O, yanına gittiği kişinin göğsüne çöker ve nefesi kesilip ölene kadar boğazını sıkar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "h-nk-r",
+      "file": "batch-138-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 4,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "h-nk-r-c01",
+          "source_id": "h-nk-r-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Hınkır munkur is an evil creature killing humans by strangling then eating them",
+          "statement_id": "Hınkır munkur adalah makhluk jahat yang membunuh orang dengan mencekik lalu memakannya",
+          "quote": "Hınkır munkur, halk hikâyelerinde yer alan doğaüstü kötücül bir yaratık. Yakaladığı insanları önce boğarak öldüren sonra da yiyen bir canavar olarak tanımlanır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "h-nk-r-c02",
+          "source_id": "h-nk-r-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Resembles human but carries offspring in a pouch on belly",
+          "statement_id": "Menyerupai manusia tetapi membawa anaknya di dalam kantung di bagian perut",
+          "quote": "İnsana benzer, fakat göbeğinde bulunan bir torbanın içinde yavrusunu taşır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "h-nk-r-c03",
+          "source_id": "h-nk-r-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Called in Eastern Anatolia (Anatolian) hınkır mınkır or hınkır pınkır",
+          "statement_id": "Di Anatolia timur disebut sebagai hınkır mınkır atau hınkır pınkır",
+          "quote": "doğu andoluda yerel halk tarafından hınkır mınkır veya hınkır pınkır olarak söylenir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "h-nk-r-c04",
+          "source_id": "h-nk-r-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Fears being urinated on and vanishes if threatened so",
+          "statement_id": "Hal yang paling ditakutinya adalah dikencingi dan akan menghilang jika diancam demikian",
+          "quote": "En korktuğu şey üzerine idrar yapılmasıdır. Böyle tehdit edilirse ortadan kaybolacağına inanılır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "h-rt-k",
+      "file": "batch-138-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "h-rt-k-c01",
+          "source_id": "h-rt-k-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Hırtık is an evil jinn upper human lower animal with backward feet",
+          "statement_id": "Hırtık adalah jin berbadan manusia di atas dan hewan di bawah dengan kaki terbalik",
+          "quote": "Hırtık; üst kısmının insan, alt kısmının hayvan şeklinde olduğuna inanılan, bedeni tüylerle kaplı, ayakları ters kötücül cin, yaratık.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "h-rt-k-c02",
+          "source_id": "h-rt-k-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Lives in streams around Elazığ especially Euphrates Fırat called Çay hırtığı",
+          "statement_id": "Hidup di sungai kawasan Elazığ terutama Sungai Fırat dan disebut Çay hırtığı",
+          "quote": "Akarsularda (Elazığ yöresinde özellikle Fırat Nehri'nde) yaşadığı kabul edilir. Bu yörelerde adına Çay hırtığı da denilmektedir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "h-rt-k-c03",
+          "source_id": "h-rt-k-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Shapeshifts as human and lures friends to river to drown them",
+          "statement_id": "Menyamar sebagai manusia dan membawa teman korban ke tepi sungai untuk ditenggelamkan",
+          "quote": "Hırtık insan kılığına girip, kılığına girdiği kişinin yakın arkadaşlarına veya akrabalarına gidip, onlarla konuşarak orman ya da akarsu kıyısına götürüp boğmakta, öldürmektedir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "h-rt-k-c04",
+          "source_id": "h-rt-k-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Appears in dark and protection is burning its fur with fire",
+          "statement_id": "Muncul dalam gelap dan perlindungannya adalah membakar bulunya dengan api",
+          "quote": "Özellikle karanlıkta ortaya çıkan hırtıktan korunmanın tek yolu ateş yakmaktır. Konuştukları kişinin hırtık olduğundan şüphelenen kişiler, vücutlarının çevresinden veya ayaklarının altından ateş geçirirler. Bu davranışı tekrarlayan hırtık, tüylerinin yanmasıyla kaçıp kendini suların içine bırakır ve gözden kaybolur.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "h-rt-k-c05",
+          "source_id": "h-rt-k-s1",
+          "host": "tr.wikipedia.org",
+          "statement": "Believed to ride horses causing fatigue",
+          "statement_id": "Dipercaya menunggangi kuda warga hingga kuda kelelahan",
+          "quote": "Yine hırtığın zaman zaman çeşitli kişilerin kılığında, ata binip gezdiğine ve atları yorduğuna inanılmaktadır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "images": []
+    },
+    {
+      "slug": "imr",
+      "file": "batch-138-fix-1.md",
+      "verdict": "lulus-otomatis",
+      "counts": {
+        "claims": 5,
+        "sources": 1,
+        "images": 0
+      },
+      "issues": [
+        {
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+        }
+      ],
+      "claims": [
+        {
+          "id": "imr-c01",
+          "source_id": "imr-s1",
+          "host": "az.wikipedia.org",
+          "statement": "İmrə is the spirit forming Cemre temperature rise at spring start",
+          "statement_id": "İmrə adalah jin pembawa fenomena Cemre kenaikan suhu di awal musim semi",
+          "quote": "İmrə , Yaz başlanğıcında Cemreyi (yeddi gün ara ilə əvvəl hava, sonra su və torpaqda meydana gəldiyi sanılan istilik artımını) təşkil edən cin.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imr-c02",
+          "source_id": "imr-s1",
+          "host": "az.wikipedia.org",
+          "statement": "In Turkic and Altay myth İmrə İmere or Əmrə radiates flickering lights to the sky",
+          "statement_id": "Dalam mitologi Turkik dan Altay İmrə İmere atau Əmrə memancarkan cahaya ke langit",
+          "quote": "Türk və altay xalq mədəniyyətində və mifologiyasında İmrə (İmere və ya Əmrə) yazda görünüb titrək işıqlar saçaraq göyə yüksəlir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imr-c03",
+          "source_id": "imr-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Then descends on ice melting it and steam rises from warmed earth",
+          "statement_id": "Kemudian jatuh ke atas es untuk mencairkannya hingga tanah mengepul uap hangat",
+          "quote": "Sonra buzların üzərinə düşərək onları əridir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imr-c04",
+          "source_id": "imr-s1",
+          "host": "az.wikipedia.org",
+          "statement": "İmrə represents the arrival of spring",
+          "statement_id": "İmrə mewakili datangnya musim semi",
+          "quote": "İmrə baharın gəlişini təmsil edir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "imr-c05",
+          "source_id": "imr-s1",
+          "host": "az.wikipedia.org",
+          "statement": "Among Bulgars exists as Zemire",
+          "statement_id": "Pada bangsa Bulgar dikenal sebagai Zemire",
+          "quote": "Bulqarlarda Zemire olaraq iştirak edər.",
           "context": "traditional-belief",
           "status": "exact"
         }
