@@ -6148,3 +6148,5198 @@
 }
 ```
 
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "bake-kujira",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Bake-kujira",
+    "native_name": null,
+    "display_name": {
+      "id": "Bake-kujira",
+      "en": "Bake-kujira"
+    },
+    "wikidata_qid": "Q3267010",
+    "claim_ids": [
+      "bake-kujira-c01",
+      "bake-kujira-c02"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "bake-kujira-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "bake-kujira-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "bake-kujira-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "bake-kujira-c02",
+      "bake-kujira-c03"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Bake-kujira adalah yōkai Jepang berbentuk kerangka paus yang muncul di laut. Kisahnya ditempatkan di lepas Shimane.",
+    "en": "Bake-kujira is a Japanese sea yōkai shaped like a whale skeleton. Its tale is set off Shimane.",
+    "claim_ids": [
+      "bake-kujira-c01",
+      "bake-kujira-c02",
+      "bake-kujira-c03"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Dalam cerita yang dicatat, para nelayan melihat sosok putih besar pada malam hujan di lepas Pulau Okino. Saat mendekat, mereka menemukan kerangka paus yang bergerak; tombak yang dilemparkan ke arahnya tidak berefek.",
+      "en": "In the recorded tale, fishermen see a huge white form on a rainy night off Okino Island. As they approach, they find a moving whale skeleton, and a thrown harpoon has no effect.",
+      "claim_ids": [
+        "bake-kujira-c01",
+        "bake-kujira-c03",
+        "bake-kujira-c04"
+      ]
+    },
+    {
+      "id": "Ikan yang tidak dikenal dan burung ganjil mengiringi penampakan itu. Para nelayan menduga sosok tersebut roh paus yang pernah diburu atau dewa asing. Penulis sumber memperingatkan bahwa kisah yang diketahui hanya memuat satu penampakan.",
+      "en": "Unknown fish and strange birds accompany the apparition. The fishermen speculate that it is a hunted whale's ghost or a strange god. The source's author cautions that only one appearance is known.",
+      "claim_ids": [
+        "bake-kujira-c05",
+        "bake-kujira-c06",
+        "bake-kujira-c07"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "bake-kujira-s1",
+      "url": "https://hyakumonogatari.com/2013/05/10/bakekujira-and-japans-whale-cults/",
+      "title": "Bakekujira and Japan’s Whale Cults",
+      "author": "Zack Davisson",
+      "publisher": "Hyakumonogatari Kaidankai",
+      "published": "2013-05-10",
+      "language": "en",
+      "type": "folklore-collection",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "bake-kujira-s2",
+      "url": "https://en.wikipedia.org/wiki/Bake-kujira",
+      "title": "Bake-kujira",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "bake-kujira-c01",
+      "source_id": "bake-kujira-s1",
+      "quote": "For bones are all you can see of the Bakekujira—a massive, skeletal baleen whale that appeared and disappeared under mysterious circumstances once of the coast of Japan.",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Bake-kujira digambarkan sebagai kerangka paus besar yang muncul dan lenyap secara misterius.",
+        "en": "Bake-kujira is depicted as a huge whale skeleton that appeared and vanished mysteriously."
+      }
+    },
+    {
+      "id": "bake-kujira-c02",
+      "source_id": "bake-kujira-s2",
+      "quote": "Bake-kujira (化鯨, \"ghost whale\"), also known as Hone-kujira (骨鯨, \"bone whale\"), is a yōkai in Japanese folklore, typically depicted as the skeletal remains of a whale appearing at sea on stormy nights.",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Bake-kujira adalah yōkai Jepang berupa kerangka paus di laut; nama lain ialah Hone-kujira.",
+        "en": "Bake-kujira is a Japanese sea yōkai in whale-skeleton form, also called Hone-kujira."
+      }
+    },
+    {
+      "id": "bake-kujira-c03",
+      "source_id": "bake-kujira-s1",
+      "quote": "One rainy night, something massive and white appeared off the coast of Okino Island, Shimane prefecture. Fishermen from the village watched it get closer and closer, and finally decided to take a rowboat out and see what it was.",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Kisah menempatkan penampakannya pada malam hujan di lepas Pulau Okino, Shimane.",
+        "en": "The tale places its appearance on a rainy night off Okino Island, Shimane."
+      }
+    },
+    {
+      "id": "bake-kujira-c04",
+      "source_id": "bake-kujira-s1",
+      "quote": "As they neared the white whale, one of the fisherman threw his harpoon and it passed through the mass of white unnoticed.",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Tombak nelayan menembus sosok paus itu tanpa efek dalam cerita.",
+        "en": "A fisherman's harpoon passed through the whale without effect in the story."
+      }
+    },
+    {
+      "id": "bake-kujira-c05",
+      "source_id": "bake-kujira-s1",
+      "quote": "The men were terrified, even more so because the ocean was writhing with unknown fish, and the skies were filled with strange birds.",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Penampakan kerangka paus itu disertai ikan asing dan burung ganjil.",
+        "en": "The whale skeleton was accompanied by unfamiliar fish and strange birds."
+      }
+    },
+    {
+      "id": "bake-kujira-c06",
+      "source_id": "bake-kujira-s1",
+      "quote": "When the fishermen went back to shore, they speculated that it might have been the ghost of a whale killed in a hunt or some strange god. Whatever it was, the bakekujira was never seen again.",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Para nelayan menduga ia roh paus buruan atau dewa asing; kisah itu menyebut ia tidak terlihat lagi.",
+        "en": "The fishermen guessed it was a hunted whale's ghost or a strange god, and the tale says it was not seen again."
+      }
+    },
+    {
+      "id": "bake-kujira-c07",
+      "source_id": "bake-kujira-s1",
+      "quote": "That’s it. There is that one story of the one appearance of the bakekujira, and that is the sum total of knowledge on the boney beastie.",
+      "locator": "Main text",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Penulis menekankan hanya satu kisah penampakan Bake-kujira yang diketahui.",
+        "en": "The author stresses that only one account of its appearance is known."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum menemukan ilustrasi Commons yang jelas menggambarkan Bake-kujira dengan lisensi terverifikasi."
+    },
+    {
+      "field": "abilities",
+      "searched": "Kisah menyebut tombak menembus sosoknya, tetapi tidak cukup untuk menetapkan kemampuan tetap."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "isonade",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Isonade",
+    "native_name": null,
+    "display_name": {
+      "id": "Isonade",
+      "en": "Isonade"
+    },
+    "wikidata_qid": "Q2337784",
+    "claim_ids": [
+      "isonade-c01",
+      "isonade-c02"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "isonade-c01",
+      "isonade-c02"
+    ]
+  },
+  "classification": {
+    "value": "aquatic",
+    "claim_ids": [
+      "isonade-c01",
+      "isonade-c02"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "isonade-c01",
+      "isonade-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "isonade-c01",
+      "isonade-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Isonade adalah makhluk laut mirip hiu dalam cerita Jepang, dikenali dari ekornya yang panjang atau berduri.",
+    "en": "Isonade is a shark-like sea being in Japanese lore, known for a long or barbed tail.",
+    "claim_ids": [
+      "isonade-c01",
+      "isonade-c02",
+      "isonade-c03"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Sebuah uraian dari Ehon Hyaku Monogatari menyatakan bahwa tubuh Isonade tetap di bawah permukaan laut, sedangkan sirip ekornya tampak di atas air. Dalam versi itu, ekornya berkait dan dipakai untuk menarik pelaut dari perahu.",
+      "en": "An account from Ehon Hyaku Monogatari says Isonade keeps its body below the sea surface while its tail fin remains visible. In that version, the hooked tail pulls sailors from boats.",
+      "claim_ids": [
+        "isonade-c03",
+        "isonade-c04"
+      ]
+    },
+    {
+      "id": "Catatan folklor dari Kumano menggambarkannya sebagai hiu berekor panjang yang memukul tepi pantai. Versi lain menyebut ekor itu dapat membalikkan perahu atau mencederai orang di pantai. Gambaran setempat itu perlu dibaca sebagai versi kisah, bukan laporan hewan nyata.",
+      "en": "A folklore record from Kumano describes a long-tailed shark that strikes the shore. Another version says the tail can overturn boats or hurt people on the beach. These local descriptions are versions of a tale, not zoological reports.",
+      "claim_ids": [
+        "isonade-c02",
+        "isonade-c05",
+        "isonade-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "isonade-s1",
+      "url": "https://en.wikipedia.org/wiki/Isonade",
+      "title": "Isonade",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "isonade-s2",
+      "url": "https://www.nichibun.ac.jp/YoukaiCard/2360637.html",
+      "title": "磯ナデ",
+      "author": "國學院大學民俗学研究会",
+      "publisher": "International Research Center for Japanese Studies",
+      "published": "1960",
+      "language": "ja",
+      "type": "folklore-collection",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "isonade-c01",
+      "source_id": "isonade-s1",
+      "quote": "The Isonade (磯撫で; \"beach stroker\") is an enormous, shark-like sea monster said to live off the coast of Matsuura and other places in Western Japan.",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Isonade adalah monster laut mirip hiu dalam cerita Jepang barat.",
+        "en": "Isonade is a shark-like sea monster in western Japanese lore."
+      }
+    },
+    {
+      "id": "isonade-c02",
+      "source_id": "isonade-s2",
+      "quote": "イソナデは尾の長い鮫。磯端で尾で打つ。海辺で死んだ人がいると「磯ナデになでられたんだろう」などという。",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Catatan Kumano menggambarkan Isonade sebagai hiu berekor panjang yang memukul tepi pantai.",
+        "en": "A Kumano record describes Isonade as a long-tailed shark striking the shore."
+      }
+    },
+    {
+      "id": "isonade-c03",
+      "source_id": "isonade-s1",
+      "quote": "According to the Ehon Hyaku Monogatari, its body has never been seen, as it is always \"hidden beneath the waves, save for its huge tail fin which is covered in small barbs.\"",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Menurut Ehon Hyaku Monogatari, tubuhnya tersembunyi di bawah air kecuali sirip ekor berduri.",
+        "en": "Ehon Hyaku Monogatari says its body stays underwater except for a barbed tail fin."
+      }
+    },
+    {
+      "id": "isonade-c04",
+      "source_id": "isonade-s1",
+      "quote": "It approaches boats stealthily and uses its hooked tail to snare sailors and drag them into the sea, where it devours them.",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Sebuah versi menyebut Isonade menangkap pelaut dengan ekor berkait dan menyeretnya ke laut.",
+        "en": "One version says Isonade hooks sailors with its tail and drags them into the sea."
+      }
+    },
+    {
+      "id": "isonade-c05",
+      "source_id": "isonade-s1",
+      "quote": "It may also simply use its tail to capsize boats, or strike the beach with its tail and kill people there.",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Versi lain menyebut ekornya membalikkan perahu atau memukul orang di pantai.",
+        "en": "Another version says its tail overturns boats or strikes people on the beach."
+      }
+    },
+    {
+      "id": "isonade-c06",
+      "source_id": "isonade-s2",
+      "quote": "■ 地域（都道府県名） 三重県 ■ 地域（市・郡名） 熊野市 ■ 地域（区町村名） ■ 要約 イソナデは尾の長い鮫。",
+      "locator": "カード表示",
+      "context": "historical-record",
+      "statement": {
+        "id": "Basis data folklor mencatat Isonade di Kota Kumano, Prefektur Mie.",
+        "en": "A folklore database records Isonade in Kumano, Mie Prefecture."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum memverifikasi gambar Isonade dan lisensinya di Wikimedia Commons."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "ittan-momen",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Ittan-momen",
+    "native_name": {
+      "text": "一反木綿",
+      "script": "Kanji",
+      "claim_ids": [
+        "ittan-momen-c01"
+      ]
+    },
+    "display_name": {
+      "id": "Ittan-momen",
+      "en": "Ittan-momen"
+    },
+    "wikidata_qid": "Q2624149",
+    "claim_ids": [
+      "ittan-momen-c01",
+      "ittan-momen-c02"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "ittan-momen-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "ittan-momen-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "ittan-momen-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "ittan-momen-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Ittan-momen adalah yōkai menyerupai kain putih yang berkibar dan menyerang orang dalam cerita Kagoshima.",
+    "en": "Ittan-momen is a fluttering white cloth yōkai that attacks people in Kagoshima tales.",
+    "claim_ids": [
+      "ittan-momen-c01",
+      "ittan-momen-c02",
+      "ittan-momen-c03"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Catatan folklor awal menggambarkan sesuatu berbentuk kain yang berkibar pada malam hari dan menyerang manusia. Versi lain menempatkan kain putih itu di jalan malam, tempat ia menutup pandangan orang yang melintas. Kisah yang lebih rinci menyebut kain itu melilit leher dan wajah.",
+      "en": "Early folklore records describe a cloth-shaped thing fluttering at night and attacking people. Another version places the white cloth on night roads, where it blocks a passerby's vision. A more detailed tale says it wraps around the neck and face.",
+      "claim_ids": [
+        "ittan-momen-c02",
+        "ittan-momen-c03",
+        "ittan-momen-c04"
+      ]
+    },
+    {
+      "id": "Dalam salah satu cerita, seorang pria memotong kain yang melilit lehernya hingga kain itu menghilang. Penggambaran manga karya Mizuki Shigeru kemudian membantu memperkenalkan Ittan-momen kepada khalayak yang lebih luas. Kisah serangan dalam catatan folklor dan tokoh manga tersebut berasal dari konteks berbeda.",
+      "en": "In one story, a man cuts the cloth wrapped around his neck and it disappears. Mizuki Shigeru's manga later brought Ittan-momen to a wider audience. The attack tales in folklore records and the manga character belong to different contexts.",
+      "claim_ids": [
+        "ittan-momen-c02",
+        "ittan-momen-c05",
+        "ittan-momen-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "ittan-momen-s1",
+      "url": "https://en.wikipedia.org/wiki/Ittan-momen",
+      "title": "Ittan-momen",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "ittan-momen-s2",
+      "url": "https://www.nichibun.ac.jp/cgi-bin/YoukaiDB3/youkai_card.cgi?ID=2180776",
+      "title": "一反木綿",
+      "author": "柳田國男",
+      "publisher": "International Research Center for Japanese Studies",
+      "published": "1938",
+      "language": "ja",
+      "type": "folklore-collection",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "ittan-momen-s3",
+      "url": "https://sekiei.nichibun.ac.jp/cgi-bin/YoukaiDB3/youkai_card.cgi?ID=C0410990-000",
+      "title": "一反木綿",
+      "author": "宮城縣",
+      "publisher": "International Research Center for Japanese Studies",
+      "published": "1956",
+      "language": "ja",
+      "type": "folklore-collection",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "ittan-momen-c01",
+      "source_id": "ittan-momen-s1",
+      "quote": "Ittan-momen (一反木綿, \"one bolt (tan) of cotton\") are yōkai (supernatural beings) in the folklore of Kōyama, Kimotsuki District, Kagoshima Prefecture (now Kimotsuki).",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ittan-momen adalah yōkai dalam folklor Kimotsuki, Kagoshima.",
+        "en": "Ittan-momen is a yōkai of Kimotsuki, Kagoshima."
+      }
+    },
+    {
+      "id": "ittan-momen-c02",
+      "source_id": "ittan-momen-s2",
+      "quote": "一反木綿という名の怪物がいる。一反木綿の形をしたものが現れて、夜間にひらひらとして人間を襲うという。",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Catatan Yanagita menyebut monster mirip kain yang berkibar dan menyerang orang pada malam hari.",
+        "en": "Yanagita's record describes a fluttering cloth-like monster attacking people at night."
+      }
+    },
+    {
+      "id": "ittan-momen-c03",
+      "source_id": "ittan-momen-s3",
+      "quote": "夜道で白い反物のようなものが目の前に現れて、ひらひらして人の目をくらまして人を襲う。",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Catatan lain menggambarkan kain putih yang berkibar di jalan malam dan menghalangi penglihatan orang.",
+        "en": "Another record describes fluttering white cloth on a night road that dazzles people."
+      }
+    },
+    {
+      "id": "ittan-momen-c04",
+      "source_id": "ittan-momen-s1",
+      "quote": "They are said to wrap around people's necks and cover people's faces and suffocate people to death",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Cerita menyebut kain itu melilit leher dan menutupi wajah korban.",
+        "en": "The tale says the cloth wraps around necks and covers faces."
+      }
+    },
+    {
+      "id": "ittan-momen-c05",
+      "source_id": "ittan-momen-s1",
+      "quote": "There is a story where one man hurrying to his home at night when a white cloth came and wrapped around his neck, and when he cut it with his wakizashi (short sword), the cloth disappeared",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Satu kisah menceritakan seorang pria memotong kain yang melilit lehernya hingga kain itu lenyap.",
+        "en": "One story tells of a man cutting the cloth from his neck, whereupon it vanished."
+      }
+    },
+    {
+      "id": "ittan-momen-c06",
+      "source_id": "ittan-momen-s1",
+      "quote": "There are no depictions of ittan momen in classical yōkai emaki, so these yōkai was once relatively unknown, but they have become more widely known since appearing in Mizuki Shigeru's manga GeGeGe no Kitarō.",
+      "locator": "In fiction",
+      "context": "modern-popular-culture",
+      "statement": {
+        "id": "Ittan-momen menjadi lebih dikenal setelah tampil dalam manga GeGeGe no Kitarō karya Mizuki Shigeru.",
+        "en": "Ittan-momen became more widely known after appearing in Mizuki Shigeru's manga GeGeGe no Kitarō."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum memverifikasi gambar Commons yang menunjukkan Ittan-momen dan lisensinya."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "kotoamatsukami",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Kotoamatsukami",
+    "native_name": null,
+    "display_name": {
+      "id": "Kotoamatsukami",
+      "en": "Kotoamatsukami"
+    },
+    "wikidata_qid": "Q776371",
+    "claim_ids": [
+      "kotoamatsukami-c01",
+      "kotoamatsukami-c02"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "kotoamatsukami-c01",
+      "kotoamatsukami-c02"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "kotoamatsukami-c01",
+      "kotoamatsukami-c02"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "kotoamatsukami-c01",
+      "kotoamatsukami-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "kotoamatsukami-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Kotoamatsukami adalah sebutan bagi lima kami pertama dalam Kojiki. Kelompok ini mencakup tiga kami penciptaan.",
+    "en": "Kotoamatsukami names the first five kami in the Kojiki, including the three creation kami.",
+    "claim_ids": [
+      "kotoamatsukami-c01",
+      "kotoamatsukami-c02",
+      "kotoamatsukami-c03"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Dalam Kojiki, Kotoamatsukami merujuk pada lima kami awal. Tiga di antaranya ialah Amenominakanushi, Takamimusuhi, dan Kamimusuhi, yang bersama-sama disebut tiga kami penciptaan. Dua anggota lainnya ialah Umashiashikabihikoji dan Amenotokotachi.",
+      "en": "In the Kojiki, Kotoamatsukami refers to five early kami. Three are Amenominakanushi, Takamimusuhi, and Kamimusuhi, together called the three creation kami. The other two are Umashiashikabihikoji and Amenotokotachi.",
+      "claim_ids": [
+        "kotoamatsukami-c02",
+        "kotoamatsukami-c03",
+        "kotoamatsukami-c04"
+      ]
+    },
+    {
+      "id": "Ensiklopedia Shinto menjelaskan bahwa kelimanya hadir sendiri dan kemudian menyembunyikan diri. Istilah Kotoamatsukami terdapat dalam Kojiki, tetapi tidak ditemukan dalam Nihongi. Dengan demikian, nama kelompok ini merujuk pada susunan dewa dalam satu teks tertentu.",
+      "en": "The Encyclopedia of Shinto says all five came into existence alone and later hid themselves. The term Kotoamatsukami occurs in the Kojiki but is absent from the Nihongi. The group name therefore refers to the arrangement of deities in a particular text.",
+      "claim_ids": [
+        "kotoamatsukami-c02",
+        "kotoamatsukami-c05",
+        "kotoamatsukami-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "kotoamatsukami-s1",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9950",
+      "title": "Kotoamatsukami",
+      "author": "Inoue Nobutaka",
+      "publisher": "Encyclopedia of Shinto, Kokugakuin University",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kotoamatsukami-s2",
+      "url": "https://en.wikipedia.org/wiki/Kotoamatsukami",
+      "title": "Kotoamatsukami",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "kotoamatsukami-c01",
+      "source_id": "kotoamatsukami-s2",
+      "quote": "In Shinto, Kotoamatsukami (別天津神; literally \"distinguishing heavenly kami\") is the collective name for the first gods which came into existence at the time of the creation of the universe.",
+      "locator": "Lead",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kotoamatsukami adalah nama kolektif dewa awal dalam Shinto.",
+        "en": "Kotoamatsukami is a collective name for early Shinto deities."
+      }
+    },
+    {
+      "id": "kotoamatsukami-c02",
+      "source_id": "kotoamatsukami-s1",
+      "quote": "\"Separate heavenly kami,\" a name referring to the first five kami appearing in the Kojiki.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ensiklopedia Shinto menyebut Kotoamatsukami lima kami pertama dalam Kojiki.",
+        "en": "The Encyclopedia of Shinto identifies them as the first five kami in the Kojiki."
+      }
+    },
+    {
+      "id": "kotoamatsukami-c03",
+      "source_id": "kotoamatsukami-s1",
+      "quote": "The five include the \"three kami of creation\" (zōka sanshin), namely Amenominakanushi no kami, Takamimusuhi, and Kamimusuhi no kami",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Tiga dari lima kami itu ialah Amenominakanushi, Takamimusuhi, dan Kamimusuhi.",
+        "en": "Three of the five are Amenominakanushi, Takamimusuhi, and Kamimusuhi."
+      }
+    },
+    {
+      "id": "kotoamatsukami-c04",
+      "source_id": "kotoamatsukami-s1",
+      "quote": "together with Umashiashikabihikoji no kami and Amenotokotachi no kami.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dua anggota lainnya ialah Umashiashikabihikoji dan Amenotokotachi.",
+        "en": "The other two are Umashiashikabihikoji and Amenotokotachi."
+      }
+    },
+    {
+      "id": "kotoamatsukami-c05",
+      "source_id": "kotoamatsukami-s1",
+      "quote": "These five kami are characterized by the fact that they came into existence alone (hitorigami), and after coming into being, \"hid\" themselves.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kelima kami itu dikisahkan muncul sendiri lalu menyembunyikan diri.",
+        "en": "The five kami are said to have come into existence alone and then hidden themselves."
+      }
+    },
+    {
+      "id": "kotoamatsukami-c06",
+      "source_id": "kotoamatsukami-s1",
+      "quote": "The term kotoamatsukami is not found in Nihongi.",
+      "locator": "Complete Article",
+      "context": "historical-record",
+      "statement": {
+        "id": "Istilah kotoamatsukami tidak terdapat dalam Nihongi.",
+        "en": "The term kotoamatsukami is absent from the Nihongi."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Tidak ditemukan gambaran Commons yang jelas dan terverifikasi tentang kelima kami sebagai kelompok."
+    },
+    {
+      "field": "abilities",
+      "searched": "Sumber menjelaskan kemunculan dan nama kelompok, bukan kemampuan tiap anggota."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "mononoke",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Mononoke",
+    "native_name": {
+      "text": "物の怪",
+      "script": "Kanji",
+      "claim_ids": [
+        "mononoke-c01"
+      ]
+    },
+    "display_name": {
+      "id": "Mononoke",
+      "en": "Mononoke"
+    },
+    "wikidata_qid": "Q11570636",
+    "claim_ids": [
+      "mononoke-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "roh",
+    "claim_ids": [
+      "mononoke-c01"
+    ]
+  },
+  "classification": {
+    "value": "spirit",
+    "claim_ids": [
+      "mononoke-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "mononoke-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "mononoke-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Mononoke adalah sebutan untuk roh dalam sastra klasik dan kepercayaan rakyat Jepang, termasuk roh yang dipercaya dapat merasuki orang.",
+    "en": "Mononoke denotes spirits in Japanese classical literature and folk belief, including spirits believed to possess people.",
+    "claim_ids": [
+      "mononoke-c01",
+      "mononoke-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Mononoke mencakup beberapa jenis roh, termasuk arwah pendendam serta roh orang hidup dan mati. Dalam kepercayaan yang dicatat, roh tersebut dapat merasuki seseorang atau dikaitkan dengan penyakit. Istilah ini kadang juga dipakai lebih luas untuk yōkai atau makhluk yang berubah wujud.",
+      "en": "Mononoke includes several kinds of spirit, such as vengeful spirits and spirits of living or dead people. In recorded beliefs, such spirits may possess a person or be linked to illness. The term is sometimes also used more broadly for yōkai or changed beings.",
+      "claim_ids": [
+        "mononoke-c01",
+        "mononoke-c02",
+        "mononoke-c03"
+      ]
+    },
+    {
+      "id": "Istilah mononoke banyak muncul dalam sastra zaman Heian. Sebuah pembahasan akademik tentang kisah Ukifune memperlihatkan adanya lebih dari satu tafsir mengenai peran roh di dalam cerita. Penanganan penyakit yang dihubungkan dengan mononoke pernah melibatkan doa oleh biksu dan shugensha.",
+      "en": "Mononoke appears frequently in Heian-period literature. An academic discussion of Ukifune's story shows that the spirit's role has received differing interpretations. Illnesses linked to mononoke were once addressed through prayers by monks and shugensha.",
+      "claim_ids": [
+        "mononoke-c04",
+        "mononoke-c05",
+        "mononoke-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "mononoke-s1",
+      "url": "https://en.wikipedia.org/wiki/Mononoke",
+      "title": "Mononoke",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "mononoke-s2",
+      "url": "https://press.anu.edu.au/downloads/press/p109191/mobile/ch03s03.html",
+      "title": "The spirit",
+      "author": null,
+      "publisher": "ANU Press",
+      "published": null,
+      "language": "en",
+      "type": "academic-book",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "mononoke-c01",
+      "source_id": "mononoke-s1",
+      "quote": "Mononoke (物の怪) are vengeful spirits (onryō), dead spirits (shiryō), live spirits (ikiryō), or spirits in Japanese classical literature and folk religion",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Mononoke adalah sebutan bagi berbagai roh dalam sastra klasik dan agama rakyat Jepang.",
+        "en": "Mononoke denotes several kinds of spirit in Japanese classical literature and folk religion."
+      }
+    },
+    {
+      "id": "mononoke-c02",
+      "source_id": "mononoke-s1",
+      "quote": "that were said to do things like possess individuals and make them suffer, cause disease, or even cause death.",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Mononoke dipercaya dapat merasuki manusia dan menyebabkan penderitaan atau penyakit.",
+        "en": "Mononoke were believed to possess people and cause suffering or disease."
+      }
+    },
+    {
+      "id": "mononoke-c03",
+      "source_id": "mononoke-s1",
+      "quote": "It is also a word sometimes used to refer to yōkai or henge (\"changed beings\").",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Istilah mononoke kadang juga dipakai untuk yōkai atau henge.",
+        "en": "The word mononoke sometimes also refers to yōkai or henge."
+      }
+    },
+    {
+      "id": "mononoke-c04",
+      "source_id": "mononoke-s1",
+      "quote": "Mononoke can be often seen in literature of the Heian period.",
+      "locator": "Summary",
+      "context": "historical-record",
+      "statement": {
+        "id": "Mononoke sering muncul dalam sastra zaman Heian.",
+        "en": "Mononoke often appears in Heian-period literature."
+      }
+    },
+    {
+      "id": "mononoke-c05",
+      "source_id": "mononoke-s1",
+      "quote": "In those times, when medical knowledge had not been fully developed, people like monks and shugensha would perform incantations and prayers against diseases caused by mononoke",
+      "locator": "Summary",
+      "context": "historical-record",
+      "statement": {
+        "id": "Sumber menjelaskan bahwa biksu dan shugensha melakukan doa terhadap penyakit yang dikaitkan dengan mononoke.",
+        "en": "Monks and shugensha performed prayers against illnesses attributed to mononoke."
+      }
+    },
+    {
+      "id": "mononoke-c06",
+      "source_id": "mononoke-s2",
+      "quote": "One scholar writing on spirits ( mononoke ) in the tale speculated that Ukifune must have walked in a trance-like state",
+      "locator": "The spirit",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Kajian akademik membahas mononoke dalam kisah Ukifune dengan beberapa penafsiran.",
+        "en": "An academic study discusses differing interpretations of mononoke in Ukifune's story."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Mononoke adalah sebutan umum bagi roh, sehingga belum ditemukan gambar Commons yang pasti mewakili keseluruhan istilah."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "ningyo",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Ningyo",
+    "native_name": {
+      "text": "人魚",
+      "script": "Kanji",
+      "claim_ids": [
+        "ningyo-c01"
+      ]
+    },
+    "display_name": {
+      "id": "Ningyo",
+      "en": "Ningyo"
+    },
+    "wikidata_qid": "Q1821449",
+    "claim_ids": [
+      "ningyo-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "makhluk air",
+    "claim_ids": [
+      "ningyo-c01"
+    ]
+  },
+  "classification": {
+    "value": "aquatic",
+    "claim_ids": [
+      "ningyo-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "ningyo-c01",
+      "ningyo-c02"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "ningyo-c01",
+      "ningyo-c02"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Ningyo adalah makhluk air berciri manusia dan ikan dalam sastra serta cerita rakyat Jepang. Legenda tertentu mengaitkan dagingnya dengan umur panjang.",
+    "en": "Ningyo is a human-fish water being in Japanese literature and folklore. Some legends link its flesh with longevity.",
+    "claim_ids": [
+      "ningyo-c01",
+      "ningyo-c02",
+      "ningyo-c05",
+      "ningyo-c07"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Istilah ningyo berarti 'ikan manusia' dan dapat mencakup sosok laki-laki maupun perempuan. Japan Search menggambarkannya dengan tubuh bagian atas manusia dan bagian bawah ikan, tetapi sumber Jepang memuat gambaran yang beragam. Galeri itu menunjuk catatan Nihon Shoki tentang ikan langka di Settsu pada tahun 619 sebagai salah satu gambaran paling awal.",
+      "en": "The term ningyo means 'human fish' and can include male or female figures. Japan Search describes a human upper body and fish lower body, though Japanese sources offer varied depictions. The gallery points to a rare-fish account from Settsu in the Nihon Shoki in 619 as an early description.",
+      "claim_ids": [
+        "ningyo-c01",
+        "ningyo-c02",
+        "ningyo-c03"
+      ]
+    },
+    {
+      "id": "Dalam kisah Yao Bikuni, memakan daging ningyo dikaitkan dengan kehidupan yang sangat panjang. Tradisi lain menghubungkan ningyo dengan cerita pendirian Kuil Kannonsho-ji, ketika Pangeran Shotoku bertemu makhluk tersebut. Kedua kisah memperlihatkan peran yang berlainan dalam tradisi Jepang.",
+      "en": "In the Yao Bikuni tale, eating ningyo flesh is linked to exceptionally long life. Another tradition connects a ningyo with the founding of Kannonsho-ji Temple, where Prince Shotoku encounters the being. The two tales give it different roles in Japanese tradition.",
+      "claim_ids": [
+        "ningyo-c04",
+        "ningyo-c05",
+        "ningyo-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "ningyo-s1",
+      "url": "https://en.wikipedia.org/wiki/Ningyo",
+      "title": "Ningyo",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "ningyo-s2",
+      "url": "https://jpsearch.go.jp/en/gallery/ndl-NpwwdPEGYQj",
+      "title": "Ningyo: Mermaids",
+      "author": null,
+      "publisher": "Japan Search",
+      "published": null,
+      "language": "en",
+      "type": "cultural-agency",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "ningyo-c01",
+      "source_id": "ningyo-s1",
+      "quote": "Ningyo (人魚; \"human fish\"), is a creature with both human and fish-like features, described in various pieces of Japanese literature.",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ningyo ialah makhluk dengan ciri manusia dan ikan dalam sastra Jepang.",
+        "en": "Ningyo is a being with human and fish features in Japanese literature."
+      }
+    },
+    {
+      "id": "ningyo-c02",
+      "source_id": "ningyo-s2",
+      "quote": "The mermaid is a legendary, water-dwelling creature, with the upper body of a human, and the lower body of a fish. Mermaid folklore exists throughout Japan.",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Galeri Japan Search menggambarkan ningyo sebagai makhluk air berbagian atas manusia dan bawah ikan; folklornya tersebar di Jepang.",
+        "en": "A Japan Search gallery describes ningyo as a human-fish water being with folklore across Japan."
+      }
+    },
+    {
+      "id": "ningyo-c03",
+      "source_id": "ningyo-s1",
+      "quote": "Though often translated as \"mermaid\", the term is technically not gender-specific and may include the \"mermen\".",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Terjemahan 'mermaid' tidak menangkap bahwa istilah ningyo tidak khusus untuk satu jenis kelamin.",
+        "en": "The translation 'mermaid' obscures that ningyo is not gender-specific."
+      }
+    },
+    {
+      "id": "ningyo-c04",
+      "source_id": "ningyo-s2",
+      "quote": "According to Nihon Shoki (The Chronicles of Japan), a rare fish was discovered in Settsu, modern-day Osaka, in 619. This is the oldest description of a mermaid in Japan.",
+      "locator": "Ningyo: Mermaids",
+      "context": "historical-record",
+      "statement": {
+        "id": "Japan Search menyebut kisah ikan langka di Settsu tahun 619 dalam Nihon Shoki sebagai deskripsi awal ningyo.",
+        "en": "Japan Search identifies the 619 Settsu rare-fish account in the Nihon Shoki as an early ningyo description."
+      }
+    },
+    {
+      "id": "ningyo-c05",
+      "source_id": "ningyo-s2",
+      "quote": "Another legend tells of Yao Bikuni, an 800-year old priestess-mermaid who was granted 1000 years of life after eating the flesh of mermaids.",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Legenda Yao Bikuni mengaitkan makan daging ningyo dengan umur panjang.",
+        "en": "The Yao Bikuni legend links eating ningyo flesh with long life."
+      }
+    },
+    {
+      "id": "ningyo-c06",
+      "source_id": "ningyo-s2",
+      "quote": "The founding of Kannonsho-ji Temple in Omihachiman, Shiga Prefecture involves the story of a mermaid encountered by Prince Shotoku who asked him to build the temple so that they might attain Buddhahood.",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Kisah pendirian Kuil Kannonsho-ji melibatkan ningyo yang ditemui Pangeran Shotoku.",
+        "en": "The Kannonsho-ji founding tale involves a ningyo encountered by Prince Shotoku."
+      }
+    },
+    {
+      "id": "ningyo-c07",
+      "source_id": "ningyo-s1",
+      "quote": "The notion that eating its flesh imparts longevity is attached to the legend of the Yao Bikuni",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Kepercayaan bahwa daging ningyo memberi umur panjang terkait kisah Yao Bikuni.",
+        "en": "The belief that ningyo flesh grants longevity is linked to the Yao Bikuni tale."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum memverifikasi berkas dan lisensi ilustrasi ningyo di Wikimedia Commons."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "raiju",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Raijū",
+    "native_name": {
+      "text": "雷獣",
+      "script": "Kanji",
+      "claim_ids": [
+        "raiju-c01"
+      ]
+    },
+    "display_name": {
+      "id": "Raijū",
+      "en": "Raijū"
+    },
+    "wikidata_qid": "Q2417943",
+    "claim_ids": [
+      "raiju-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "raiju-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "raiju-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "raiju-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "raiju-c01",
+      "raiju-c06"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Raijū adalah yōkai Jepang yang dikaitkan dengan petir dan dewa Raijin. Sejumlah cerita menempatkannya pada saat sambaran petir.",
+    "en": "Raijū is a Japanese yōkai linked to lightning and the god Raijin. Some tales place it at lightning strikes.",
+    "claim_ids": [
+      "raiju-c01",
+      "raiju-c03",
+      "raiju-c05"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Cerita tentang Raijū ditemukan di berbagai wilayah Jepang, terutama bagian timur. Makhluk ini dikaitkan dengan Raijin dan dikatakan muncul saat petir menyambar. Satu penggambaran menyebut tubuhnya berupa atau diselubungi petir.",
+      "en": "Raijū tales occur across Japan, especially in the east. The being is linked to Raijin and said to appear during lightning strikes. One depiction says its body is made of or wrapped in lightning.",
+      "claim_ids": [
+        "raiju-c01",
+        "raiju-c02",
+        "raiju-c03"
+      ]
+    },
+    {
+      "id": "Sebuah catatan folklor dari Shimane menyebut bekas cakaran pada pohon setelah petir jatuh. Dalam cerita itu, orang juga mengaku melihat Raijū memanjat pohon pada saat petir. Rincian ini berasal dari tradisi setempat, sehingga tidak perlu diterapkan pada semua kisah Raijū.",
+      "en": "A folklore record from Shimane describes claw marks on trees after lightning. In that account, people also reported seeing Raijū climb a tree during a strike. These details come from a local tradition and need not describe every Raijū tale.",
+      "claim_ids": [
+        "raiju-c04",
+        "raiju-c05",
+        "raiju-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "raiju-s1",
+      "url": "https://en.wikipedia.org/wiki/Raij%C5%AB",
+      "title": "Raijū",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "raiju-s2",
+      "url": "https://www.nichibun.ac.jp/cgi-bin/YoukaiDB3/youkai_card.cgi?ID=0700092",
+      "title": "雷獣",
+      "author": "山口最子",
+      "publisher": "International Research Center for Japanese Studies",
+      "published": "1959",
+      "language": "ja",
+      "type": "folklore-collection",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "raiju-c01",
+      "source_id": "raiju-s1",
+      "quote": "In Japanese mythology, the raijū (雷獣, らいじゅう; lit. \"thunder animal/beast\") is a legendary creature and yōkai associated with lightning and thunder, as well as the god Raijin.",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Raijū adalah yōkai Jepang yang dikaitkan dengan guntur, petir, dan dewa Raijin.",
+        "en": "Raijū is a Japanese yōkai linked to thunder, lightning, and the god Raijin."
+      }
+    },
+    {
+      "id": "raiju-c02",
+      "source_id": "raiju-s1",
+      "quote": "Legends of the creature exist throughout Japan, centered primarily in East Japan.",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Kisah Raijū tersebar di Jepang dengan pusat utama di Jepang timur.",
+        "en": "Raijū tales occur across Japan, especially in eastern Japan."
+      }
+    },
+    {
+      "id": "raiju-c03",
+      "source_id": "raiju-s1",
+      "quote": "It is said to appear with lightning strikes.",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Raijū dikatakan muncul bersama sambaran petir.",
+        "en": "Raijū is said to appear with lightning strikes."
+      }
+    },
+    {
+      "id": "raiju-c04",
+      "source_id": "raiju-s1",
+      "quote": "A raijū's body is composed of (or wrapped in) lightning. It may also fly about as a ball of lightning",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Salah satu gambaran menyebut tubuh Raijū berupa petir atau diselubungi petir.",
+        "en": "One depiction describes Raijū's body as lightning or wrapped in lightning."
+      }
+    },
+    {
+      "id": "raiju-c05",
+      "source_id": "raiju-s1",
+      "quote": "Raijū is the companion of Raijin, the Shinto god of lightning.",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Salah satu versi menyebut Raijū sebagai pendamping Raijin.",
+        "en": "One version describes Raijū as Raijin's companion."
+      }
+    },
+    {
+      "id": "raiju-c06",
+      "source_id": "raiju-s2",
+      "quote": "■ 地域（都道府県名） 島根県 ■ 地域（市・郡名） 邑智郡 ■ 地域（区町村名） 邑南町 ■ 要約 雷が落ちると雷獣が木を引掻いていくという。木の皮がむけて爪あとがついているとも、雷が落ちた時に雷獣が、木に走り登るのを見たなどという話も聞いた。",
+      "locator": "カード表示",
+      "context": "historical-record",
+      "statement": {
+        "id": "Catatan dari Shimane menghubungkan petir dengan bekas cakaran Raijū pada pohon.",
+        "en": "A Shimane record links lightning with Raijū claw marks on trees."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum memverifikasi gambar Raijū dan lisensinya di Commons."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "satori-folklore",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Satori (folklore)",
+    "native_name": null,
+    "display_name": {
+      "id": "Satori (folklore)",
+      "en": "Satori (folklore)"
+    },
+    "wikidata_qid": "Q2658888",
+    "claim_ids": [
+      "satori-folklore-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "satori-folklore-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "satori-folklore-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "satori-folklore-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "satori-folklore-c01",
+      "satori-folklore-c04",
+      "satori-folklore-c05"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Satori adalah yōkai mirip kera dalam cerita Jepang yang dikatakan mampu membaca pikiran manusia.",
+    "en": "Satori is an ape-like yōkai in Japanese tales said to read human thoughts.",
+    "claim_ids": [
+      "satori-folklore-c01",
+      "satori-folklore-c02"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Cerita menempatkan Satori di kawasan pegunungan, termasuk Hida dan Mino. Ia dikatakan menangkap pikiran manusia lalu mengucapkannya sebelum orang itu sempat berbicara. Makhluk ini juga muncul dalam gambar karya Toriyama Sekien.",
+      "en": "Tales place Satori in mountain areas, including Hida and Mino. It is said to catch a person's thoughts and speak them before the person can respond. The being also appears in an illustration by Toriyama Sekien.",
+      "claim_ids": [
+        "satori-folklore-c01",
+        "satori-folklore-c02",
+        "satori-folklore-c03"
+      ]
+    },
+    {
+      "id": "Sebuah cerita yang dicatat di Fukushima mempertemukan Satori dengan seorang kakek di gubuk gunung; makhluk itu menjadi takut setelah terkena kayu yang melenting. Cerita lain dari Shizuoka menggambarkan pemburu yang pikirannya terbaca, lalu Satori mundur setelah melihat peluru emas. Kedua kisah ini menunjukkan rincian pertemuan yang berlainan.",
+      "en": "A Fukushima account places Satori with an old man in a mountain hut; the being becomes afraid after a piece of wood springs against it. Another story from Shizuoka describes a hunter whose mind is read, after which Satori withdraws at the sight of a gold bullet. The two stories describe different encounters.",
+      "claim_ids": [
+        "satori-folklore-c04",
+        "satori-folklore-c05",
+        "satori-folklore-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "satori-folklore-s1",
+      "url": "https://en.wikipedia.org/wiki/Satori_(folklore)",
+      "title": "Satori (folklore)",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "satori-folklore-s2",
+      "url": "https://www.nichibun.ac.jp/cgi-bin/YoukaiDB3/youkai_card.cgi?ID=0030198",
+      "title": "さとり",
+      "author": "石川純一郎",
+      "publisher": "International Research Center for Japanese Studies",
+      "published": "1960",
+      "language": "ja",
+      "type": "folklore-collection",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "satori-folklore-s3",
+      "url": "https://www.nichibun.ac.jp/cgi-bin/YoukaiDB3/youkai_card.cgi?ID=2240139",
+      "title": "サトリのワッパ，大男",
+      "author": "早川孝太郎",
+      "publisher": "International Research Center for Japanese Studies",
+      "published": "1927",
+      "language": "ja",
+      "type": "folklore-collection",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "satori-folklore-c01",
+      "source_id": "satori-folklore-s1",
+      "quote": "Satori (覚; \"consciousness\") in Japanese folklore are mind-reading monkey-like monsters (\"yōkai\") said to dwell within the mountains of Hida and Mino (presently Gifu Prefecture).",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Satori adalah yōkai mirip kera yang membaca pikiran dalam folklor pegunungan Hida dan Mino.",
+        "en": "Satori is a mind-reading, ape-like yōkai of the Hida and Mino mountains."
+      }
+    },
+    {
+      "id": "satori-folklore-c02",
+      "source_id": "satori-folklore-s1",
+      "quote": "Upon reading a person's mind, the satori would say the person's thoughts aloud faster than a human could.",
+      "locator": "Main text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Satori dikatakan mengucapkan pikiran orang yang dibacanya dengan cepat.",
+        "en": "Satori is said to speak a person's thoughts aloud quickly."
+      }
+    },
+    {
+      "id": "satori-folklore-c03",
+      "source_id": "satori-folklore-s1",
+      "quote": "A satori is depicted in Toriyama Sekien's Konjaku Gazu Zoku Hyakki",
+      "locator": "Mythology",
+      "context": "historical-record",
+      "statement": {
+        "id": "Satori digambarkan dalam Konjaku Gazu Zoku Hyakki karya Toriyama Sekien.",
+        "en": "Satori appears in Toriyama Sekien's Konjaku Gazu Zoku Hyakki."
+      }
+    },
+    {
+      "id": "satori-folklore-c04",
+      "source_id": "satori-folklore-s2",
+      "quote": "■ 地域（都道府県名） 福島県 ■ 地域（市・郡名） 南会津郡 ■ 地域（区町村名） ■ 要約 昔爺様が山小屋で火に当たっていると、得体の知れない化け物がやって来た。爺さんの心の中を見透かすさとりの化け物だった。",
+      "locator": "カード表示",
+      "context": "historical-record",
+      "statement": {
+        "id": "Catatan Fukushima menyebut makhluk Satori mendatangi seorang kakek di gubuk gunung dan membaca pikirannya.",
+        "en": "A Fukushima record tells of Satori visiting an old man in a mountain hut and reading his mind."
+      }
+    },
+    {
+      "id": "satori-folklore-c05",
+      "source_id": "satori-folklore-s2",
+      "quote": "爺さんの心の中を見透かすさとりの化け物だった。柴を折ったときにはねて化け物に当たると化け物はおびえたという。",
+      "locator": "カード表示",
+      "context": "historical-record",
+      "statement": {
+        "id": "Dalam cerita Fukushima, Satori ketakutan ketika terkena kayu yang melenting.",
+        "en": "In the Fukushima tale, Satori is frightened when struck by a springing piece of wood."
+      }
+    },
+    {
+      "id": "satori-folklore-c06",
+      "source_id": "satori-folklore-s3",
+      "quote": "■ 地域（都道府県名） 静岡県 ■ 地域（市・郡名） 周智郡 ■ 地域（区町村名） ■ 要約 狩人が山でサトリにあった。心に思うことを次々に悟られ、恐ろしくなって撃とうと思い、黄金の弾丸を取り出した。",
+      "locator": "カード表示",
+      "context": "historical-record",
+      "statement": {
+        "id": "Catatan Shizuoka menceritakan pemburu yang pikirannya dibaca Satori di gunung.",
+        "en": "A Shizuoka record tells of a hunter whose thoughts Satori reads in the mountains."
+      }
+    },
+    {
+      "id": "satori-folklore-c07",
+      "source_id": "satori-folklore-s3",
+      "quote": "サトリは黄金の弾丸には叶わない。合ったことを口外するなと言い、立ち去った。",
+      "locator": "カード表示",
+      "context": "historical-record",
+      "statement": {
+        "id": "Dalam kisah pemburu, Satori mundur saat menghadapi peluru emas dan meminta pertemuan itu dirahasiakan.",
+        "en": "In the hunter tale, Satori retreats from a gold bullet and asks that the meeting be kept secret."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum memastikan berkas Commons yang benar-benar menggambarkan Satori dan lisensinya."
+    }
+  ]
+}
+```
+
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "mononoke",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Mononoke",
+    "native_name": null,
+    "display_name": {
+      "id": "Mononoke",
+      "en": "Mononoke"
+    },
+    "wikidata_qid": "Q11570636",
+    "claim_ids": [
+      "mononoke-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "roh",
+    "claim_ids": [
+      "mononoke-c01"
+    ]
+  },
+  "classification": {
+    "value": "spirit",
+    "claim_ids": [
+      "mononoke-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "mononoke-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "mononoke-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Mononoke adalah istilah bagi roh yang dipercaya dapat merasuki orang dan menyebabkan penderitaan atau penyakit.",
+    "en": "Mononoke denotes spirits believed to possess people and cause suffering or illness.",
+    "claim_ids": [
+      "mononoke-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Mononoke adalah istilah bagi roh yang dipercaya dapat merasuki orang dan menyebabkan penderitaan atau penyakit. Istilah ini kadang dipakai untuk yōkai atau makhluk yang berubah wujud. Mononoke sering muncul dalam sastra zaman Heian.",
+      "en": "Mononoke denotes spirits believed to possess people and cause suffering or illness. The term is sometimes used for yōkai or transformed beings. Mononoke often appear in Heian literature.",
+      "claim_ids": [
+        "mononoke-c01",
+        "mononoke-c02",
+        "mononoke-c03"
+      ]
+    },
+    {
+      "id": "Kisah Aoi dalam Genji Monogatari mengaitkan roh hidup Lady Rokujō dengan kerasukan Aoi no Ue. Ōkagami dan Masukagami juga menyebut mononoke. The Pillow Book dan buku harian Murasaki mencatat praktik yang berkaitan dengan mononoke.",
+      "en": "The Aoi chapter of The Tale of Genji links Lady Rokujō’s living spirit with Aoi no Ue’s possession. Ōkagami and Masukagami also mention mononoke. The Pillow Book and Lady Murasaki’s diary record practices concerning mononoke.",
+      "claim_ids": [
+        "mononoke-c04",
+        "mononoke-c05",
+        "mononoke-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "mononoke-s1",
+      "url": "https://en.wikipedia.org/wiki/Mononoke",
+      "title": "Mononoke",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "mononoke-c01",
+      "source_id": "mononoke-s1",
+      "quote": "Mononoke (物の怪) are vengeful spirits (onryō), dead spirits (shiryō), live spirits (ikiryō), or spirits in Japanese classical literature and folk religion that were said to do things like possess individuals and make them suffer, cause disease, or even cause death.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Mononoke adalah istilah bagi roh yang dipercaya dapat merasuki orang dan menyebabkan penderitaan atau penyakit.",
+        "en": "Mononoke denotes spirits believed to possess people and cause suffering or illness."
+      }
+    },
+    {
+      "id": "mononoke-c02",
+      "source_id": "mononoke-s1",
+      "quote": "It is also a word sometimes used to refer to yōkai or henge (\"changed beings\").",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Istilah ini kadang dipakai untuk yōkai atau makhluk yang berubah wujud.",
+        "en": "The term is sometimes used for yōkai or transformed beings."
+      }
+    },
+    {
+      "id": "mononoke-c03",
+      "source_id": "mononoke-s1",
+      "quote": "Mononoke can be often seen in literature of the Heian period.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Mononoke sering muncul dalam sastra zaman Heian.",
+        "en": "Mononoke often appear in Heian literature."
+      }
+    },
+    {
+      "id": "mononoke-c04",
+      "source_id": "mononoke-s1",
+      "quote": "As a famous example, in the 9th volume of the Genji Monogatari, \"Aoi\" is the ikiryō of Lady Rokujo, who possessed Aoi no Ue.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Kisah Aoi dalam Genji Monogatari mengaitkan roh hidup Lady Rokujō dengan kerasukan Aoi no Ue.",
+        "en": "The Aoi chapter of The Tale of Genji links Lady Rokujō’s living spirit with Aoi no Ue’s possession."
+      }
+    },
+    {
+      "id": "mononoke-c05",
+      "source_id": "mononoke-s1",
+      "quote": "Other than that, there are also statements about mononoke in publications like Ōkagami and Masukagami.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ōkagami dan Masukagami juga menyebut mononoke.",
+        "en": "Ōkagami and Masukagami also mention mononoke."
+      }
+    },
+    {
+      "id": "mononoke-c06",
+      "source_id": "mononoke-s1",
+      "quote": "Statements on this practice can be found in detail in works like The Pillow Book and The Diary of Lady Murasaki.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "The Pillow Book dan buku harian Murasaki mencatat praktik yang berkaitan dengan mononoke.",
+        "en": "The Pillow Book and Lady Murasaki’s diary record practices concerning mononoke."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "sources",
+      "searched": "Penelusuran awal pada artikel Wikipedia yang tercantum di prompt; sumber independen tambahan belum terverifikasi."
+    },
+    {
+      "field": "images",
+      "searched": "Belum ada berkas Wikimedia Commons yang diverifikasi untuk entri ini."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "ningyo",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Ningyo",
+    "native_name": null,
+    "display_name": {
+      "id": "Ningyo",
+      "en": "Ningyo"
+    },
+    "wikidata_qid": "Q1821449",
+    "claim_ids": [
+      "ningyo-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "roh",
+    "claim_ids": [
+      "ningyo-c01"
+    ]
+  },
+  "classification": {
+    "value": "aquatic",
+    "claim_ids": [
+      "ningyo-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "ningyo-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "ningyo-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Ningyo adalah makhluk dalam sastra Jepang dengan ciri manusia dan ikan.",
+    "en": "Ningyo is a being in Japanese literature with human and fish traits.",
+    "claim_ids": [
+      "ningyo-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Ningyo adalah makhluk dalam sastra Jepang dengan ciri manusia dan ikan. Terjemahan putri duyung tidak mencakup semua ningyo karena istilahnya tidak khusus perempuan. Nihon Shoki mencatat kisah penangkapan makhluk air tawar pada abad ketujuh.",
+      "en": "Ningyo is a being in Japanese literature with human and fish traits. The translation mermaid is incomplete because the word is not limited to females. The Nihon Shoki records alleged captures of freshwater beings in the seventh century.",
+      "claim_ids": [
+        "ningyo-c01",
+        "ningyo-c02",
+        "ningyo-c03"
+      ]
+    },
+    {
+      "id": "Contoh berikutnya umumnya menempatkan ningyo di air laut. Pada abad pertengahan, kemunculannya di pantai dianggap pertanda buruk. Pada zaman Edo, ada spesimen ningyo rakitan dari bagian ikan.",
+      "en": "Later examples generally place ningyo in the sea. In medieval accounts, a ningyo stranded on shore was seen as an ill omen. In the Edo period, preserved ningyo specimens were made from fish parts.",
+      "claim_ids": [
+        "ningyo-c04",
+        "ningyo-c05",
+        "ningyo-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "ningyo-s1",
+      "url": "https://en.wikipedia.org/wiki/Ningyo",
+      "title": "Ningyo",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "ningyo-c01",
+      "source_id": "ningyo-s1",
+      "quote": "Ningyo (人魚; \"human fish\"), is a creature with both human and fish-like features, described in various pieces of Japanese literature.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ningyo adalah makhluk dalam sastra Jepang dengan ciri manusia dan ikan.",
+        "en": "Ningyo is a being in Japanese literature with human and fish traits."
+      }
+    },
+    {
+      "id": "ningyo-c02",
+      "source_id": "ningyo-s1",
+      "quote": "Though often translated as \"mermaid\", the term is technically not gender-specific and may include the \"mermen\".",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Terjemahan putri duyung tidak mencakup semua ningyo karena istilahnya tidak khusus perempuan.",
+        "en": "The translation mermaid is incomplete because the word is not limited to females."
+      }
+    },
+    {
+      "id": "ningyo-c03",
+      "source_id": "ningyo-s1",
+      "quote": "The earliest records of the ningyo attested in written Japanese sources are freshwater beings allegedly captured in the 7th century (§Asuka period), documented later in the Nihon Shoki.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Nihon Shoki mencatat kisah penangkapan makhluk air tawar pada abad ketujuh.",
+        "en": "The Nihon Shoki records alleged captures of freshwater beings in the seventh century."
+      }
+    },
+    {
+      "id": "ningyo-c04",
+      "source_id": "ningyo-s1",
+      "quote": "But subsequent examples are usually seawater beings.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Contoh berikutnya umumnya menempatkan ningyo di air laut.",
+        "en": "Later examples generally place ningyo in the sea."
+      }
+    },
+    {
+      "id": "ningyo-c05",
+      "source_id": "ningyo-s1",
+      "quote": "In later medieval times (§Kamakura and Muromachi periods)), it was held to be a sign of ill omen, and its beaching (§Omens in Michinoku) was blamed for subsequent bloody battles or calamity.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Pada abad pertengahan, kemunculannya di pantai dianggap pertanda buruk.",
+        "en": "In medieval accounts, a ningyo stranded on shore was seen as an ill omen."
+      }
+    },
+    {
+      "id": "ningyo-c06",
+      "source_id": "ningyo-s1",
+      "quote": "There were also preserved ningyo being manufactured using fish parts (§Mummies or Feejee mermaids), and illustrated by some scholars of the period (e.g. §Baien gyofu); some such mummies are held by certain temples that have ningyo legend attached to them (cf. §Prince Shōtoku).",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Pada zaman Edo, ada spesimen ningyo rakitan dari bagian ikan.",
+        "en": "In the Edo period, preserved ningyo specimens were made from fish parts."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "sources",
+      "searched": "Penelusuran awal pada artikel Wikipedia yang tercantum di prompt; sumber independen tambahan belum terverifikasi."
+    },
+    {
+      "field": "images",
+      "searched": "Belum ada berkas Wikimedia Commons yang diverifikasi untuk entri ini."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "raiju",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Raijū",
+    "native_name": null,
+    "display_name": {
+      "id": "Raijū",
+      "en": "Raijū"
+    },
+    "wikidata_qid": "Q2417943",
+    "claim_ids": [
+      "raiju-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "makhluk legenda",
+    "claim_ids": [
+      "raiju-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "raiju-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "raiju-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "raiju-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Raijū adalah yōkai Jepang yang dikaitkan dengan guntur, kilat, dan dewa Raijin.",
+    "en": "Raijū is a Japanese yōkai linked to thunder, lightning and Raijin.",
+    "claim_ids": [
+      "raiju-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Raijū adalah yōkai Jepang yang dikaitkan dengan guntur, kilat, dan dewa Raijin. Konon makhluk ini muncul bersama sambaran petir. Legenda tentangnya terdapat di berbagai wilayah Jepang, terutama bagian timur.",
+      "en": "Raijū is a Japanese yōkai linked to thunder, lightning and Raijin. The creature is said to appear during lightning strikes. Legends about it occur across Japan, especially in the east.",
+      "claim_ids": [
+        "raiju-c01",
+        "raiju-c02",
+        "raiju-c03"
+      ]
+    },
+    {
+      "id": "Namanya kerap muncul dalam esai zaman Edo dan catatan folklor modern. Tubuh raijū digambarkan tersusun dari kilat atau diselubungi kilat. Raijū dikenal sebagai pendamping dewa petir Raijin.",
+      "en": "Its name appears in Edo essays and later folklore records. Raijū is described as made of or wrapped in lightning. Raijū is described as the companion of the thunder god Raijin.",
+      "claim_ids": [
+        "raiju-c04",
+        "raiju-c05",
+        "raiju-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "raiju-s1",
+      "url": "https://en.wikipedia.org/wiki/Raij%C5%AB",
+      "title": "Raijū",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "raiju-c01",
+      "source_id": "raiju-s1",
+      "quote": "In Japanese mythology, the raijū (雷獣, らいじゅう; lit. \"thunder animal/beast\") is a legendary creature and yōkai associated with lightning and thunder, as well as the god Raijin.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Raijū adalah yōkai Jepang yang dikaitkan dengan guntur, kilat, dan dewa Raijin.",
+        "en": "Raijū is a Japanese yōkai linked to thunder, lightning and Raijin."
+      }
+    },
+    {
+      "id": "raiju-c02",
+      "source_id": "raiju-s1",
+      "quote": "It is said to appear with lightning strikes.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Konon makhluk ini muncul bersama sambaran petir.",
+        "en": "The creature is said to appear during lightning strikes."
+      }
+    },
+    {
+      "id": "raiju-c03",
+      "source_id": "raiju-s1",
+      "quote": "Legends of the creature exist throughout Japan, centered primarily in East Japan.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Legenda tentangnya terdapat di berbagai wilayah Jepang, terutama bagian timur.",
+        "en": "Legends about it occur across Japan, especially in the east."
+      }
+    },
+    {
+      "id": "raiju-c04",
+      "source_id": "raiju-s1",
+      "quote": "Its name appears frequently in Edo period essays and modern folklore materials.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Namanya kerap muncul dalam esai zaman Edo dan catatan folklor modern.",
+        "en": "Its name appears in Edo essays and later folklore records."
+      }
+    },
+    {
+      "id": "raiju-c05",
+      "source_id": "raiju-s1",
+      "quote": "A raijū's body is composed of (or wrapped in) lightning.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Tubuh raijū digambarkan tersusun dari kilat atau diselubungi kilat.",
+        "en": "Raijū is described as made of or wrapped in lightning."
+      }
+    },
+    {
+      "id": "raiju-c06",
+      "source_id": "raiju-s1",
+      "quote": "Raijū is the companion of Raijin, the Shinto god of lightning.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Raijū dikenal sebagai pendamping dewa petir Raijin.",
+        "en": "Raijū is described as the companion of the thunder god Raijin."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "sources",
+      "searched": "Penelusuran awal pada artikel Wikipedia yang tercantum di prompt; sumber independen tambahan belum terverifikasi."
+    },
+    {
+      "field": "images",
+      "searched": "Belum ada berkas Wikimedia Commons yang diverifikasi untuk entri ini."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "satori-folklore",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Satori (folklore)",
+    "native_name": null,
+    "display_name": {
+      "id": "Satori (folklore)",
+      "en": "Satori (folklore)"
+    },
+    "wikidata_qid": "Q2658888",
+    "claim_ids": [
+      "satori-folklore-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "monster",
+    "claim_ids": [
+      "satori-folklore-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "satori-folklore-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "satori-folklore-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "satori-folklore-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Satori adalah yōkai mirip monyet yang membaca pikiran dan dikisahkan tinggal di pegunungan Hida dan Mino.",
+    "en": "Satori are mind-reading ape-like yōkai of the Hida and Mino mountains.",
+    "claim_ids": [
+      "satori-folklore-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Satori adalah yōkai mirip monyet yang membaca pikiran dan dikisahkan tinggal di pegunungan Hida dan Mino. Orang dikatakan dapat bertemu satori di jalur pegunungan. Satori mengucapkan pikiran orang yang dibacanya.",
+      "en": "Satori are mind-reading ape-like yōkai of the Hida and Mino mountains. People are said to meet satori on mountain paths. Satori voice the thoughts of people whose minds they read.",
+      "claim_ids": [
+        "satori-folklore-c01",
+        "satori-folklore-c02",
+        "satori-folklore-c03"
+      ]
+    },
+    {
+      "id": "Salah satu tafsir menyebutnya anak dewa gunung yang berubah menjadi yōkai. Beberapa kisah menyebut satori lari ketakutan saat sesuatu yang tak terduga terjadi. Tafsiran lain menyebut satori tidak membahayakan pekerja pegunungan.",
+      "en": "One interpretation makes them children of mountain gods turned into yōkai. Some stories say satori flee when surprised. Another interpretation describes satori as harmless to mountain workers.",
+      "claim_ids": [
+        "satori-folklore-c04",
+        "satori-folklore-c05",
+        "satori-folklore-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "satori-folklore-s1",
+      "url": "https://en.wikipedia.org/wiki/Satori_(folklore)",
+      "title": "Satori (folklore)",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "satori-folklore-c01",
+      "source_id": "satori-folklore-s1",
+      "quote": "Satori (覚; \"consciousness\") in Japanese folklore are mind-reading monkey-like monsters (\"yōkai\") said to dwell within the mountains of Hida and Mino (presently Gifu Prefecture).",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Satori adalah yōkai mirip monyet yang membaca pikiran dan dikisahkan tinggal di pegunungan Hida dan Mino.",
+        "en": "Satori are mind-reading ape-like yōkai of the Hida and Mino mountains."
+      }
+    },
+    {
+      "id": "satori-folklore-c02",
+      "source_id": "satori-folklore-s1",
+      "quote": "People are said to meet them while walking along mountain paths or resting in the mountains.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Orang dikatakan dapat bertemu satori di jalur pegunungan.",
+        "en": "People are said to meet satori on mountain paths."
+      }
+    },
+    {
+      "id": "satori-folklore-c03",
+      "source_id": "satori-folklore-s1",
+      "quote": "Upon reading a person's mind, the satori would say the person's thoughts aloud faster than a human could.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Satori mengucapkan pikiran orang yang dibacanya.",
+        "en": "Satori voice the thoughts of people whose minds they read."
+      }
+    },
+    {
+      "id": "satori-folklore-c04",
+      "source_id": "satori-folklore-s1",
+      "quote": "There is also a theory that they are the child incarnations of mountain gods who have come to ruin and turned into a yōkai form.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Salah satu tafsir menyebutnya anak dewa gunung yang berubah menjadi yōkai.",
+        "en": "One interpretation makes them children of mountain gods turned into yōkai."
+      }
+    },
+    {
+      "id": "satori-folklore-c05",
+      "source_id": "satori-folklore-s1",
+      "quote": "They would appear before people at mountain huts, and are even said to try to eat and kill if they have a chance, but if something unexpectedly strikes the satori, they become stricken with fear and run away.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Beberapa kisah menyebut satori lari ketakutan saat sesuatu yang tak terduga terjadi.",
+        "en": "Some stories say satori flee when surprised."
+      }
+    },
+    {
+      "id": "satori-folklore-c06",
+      "source_id": "satori-folklore-s1",
+      "quote": "There is also a theory that they do not present any danger to people and would not dare to harm those who work on the mountain, allowing people to coexist with satori.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Tafsiran lain menyebut satori tidak membahayakan pekerja pegunungan.",
+        "en": "Another interpretation describes satori as harmless to mountain workers."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "sources",
+      "searched": "Penelusuran awal pada artikel Wikipedia yang tercantum di prompt; sumber independen tambahan belum terverifikasi."
+    },
+    {
+      "field": "images",
+      "searched": "Belum ada berkas Wikimedia Commons yang diverifikasi untuk entri ini."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "amefurikozo",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Amefurikozō",
+    "native_name": null,
+    "display_name": {
+      "id": "Amefurikozō",
+      "en": "Amefurikozō"
+    },
+    "wikidata_qid": "Q2565575",
+    "claim_ids": [
+      "amefurikozo-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "amefurikozo-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "amefurikozo-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "amefurikozo-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "amefurikozo-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Amefurikozō adalah jenis yōkai Jepang.",
+    "en": "Amefurikozō is a Japanese yōkai.",
+    "claim_ids": [
+      "amefurikozo-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Amefurikozō adalah jenis yōkai Jepang. Makhluk ini digambar dalam koleksi Toriyama Sekien dan muncul pula dalam kibyōshi. Gambar Sekien menampilkannya memakai payung tanpa tangkai tengah dan membawa lentera kertas.",
+      "en": "Amefurikozō is a Japanese yōkai. It appears in Toriyama Sekien’s collection and in kibyōshi. Sekien depicts it with a poleless umbrella and a paper lantern.",
+      "claim_ids": [
+        "amefurikozo-c01",
+        "amefurikozo-c02",
+        "amefurikozo-c03"
+      ]
+    },
+    {
+      "id": "Dalam kibyōshi zaman Edo, ia muncul sebagai pelayan. Salah satu kibyōshi tahun 1792 menggambarkannya bermata satu dan memakai topi bambu saat hujan. Kisah tentang payung yang sulit dilepas berasal dari literatur yōkai yang lebih baru.",
+      "en": "In Edo kibyōshi it appears in a servant role. A kibyōshi from 1792 depicts it as one-eyed and wearing a bamboo hat in the rain. The tale of an umbrella that cannot be removed comes from later yōkai literature.",
+      "claim_ids": [
+        "amefurikozo-c04",
+        "amefurikozo-c05",
+        "amefurikozo-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "amefurikozo-s1",
+      "url": "https://en.wikipedia.org/wiki/Amefurikoz%C5%8D",
+      "title": "Amefurikozō",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "amefurikozo-c01",
+      "source_id": "amefurikozo-s1",
+      "quote": "Amefurikozō (雨降小僧, 雨降り小僧) is a type of Japanese yōkai.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Amefurikozō adalah jenis yōkai Jepang.",
+        "en": "Amefurikozō is a Japanese yōkai."
+      }
+    },
+    {
+      "id": "amefurikozo-c02",
+      "source_id": "amefurikozo-s1",
+      "quote": "There is a depiction of this yōkai in Sekien Toriyama's collection of yōkai drawing the Konjaku Gazu Zoku Hyakki, and they can also be seen in the kibyōshi among other publications of the same era.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Makhluk ini digambar dalam koleksi Toriyama Sekien dan muncul pula dalam kibyōshi.",
+        "en": "It appears in Toriyama Sekien’s collection and in kibyōshi."
+      }
+    },
+    {
+      "id": "amefurikozo-c03",
+      "source_id": "amefurikozo-s1",
+      "quote": "In the Konjaku Gazu Zoku Hyakki it wears a Japanese umbrella with its central pole missing, and it is depicted possessing a paper lantern.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Gambar Sekien menampilkannya memakai payung tanpa tangkai tengah dan membawa lentera kertas.",
+        "en": "Sekien depicts it with a poleless umbrella and a paper lantern."
+      }
+    },
+    {
+      "id": "amefurikozo-c04",
+      "source_id": "amefurikozo-s1",
+      "quote": "In the kibyōshi of the Edo period, just like the popular kibyōshi character tōfu-kozō, they appear as yōkai that take on the role of servants.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam kibyōshi zaman Edo, ia muncul sebagai pelayan.",
+        "en": "In Edo kibyōshi it appears in a servant role."
+      }
+    },
+    {
+      "id": "amefurikozo-c05",
+      "source_id": "amefurikozo-s1",
+      "quote": "In the kibyōshi \"Gozonji no Bakemono (御存之化物)\" by Jihinari Sakuragawa and illustrated by Utagawa Toyokuni published in Kansei 4 (1792), when a man walks on a rainy night, a one-eyed amefurikozō wearing a bamboo kasa would step up possessing something in both its hands.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Salah satu kibyōshi tahun 1792 menggambarkannya bermata satu dan memakai topi bambu saat hujan.",
+        "en": "A kibyōshi from 1792 depicts it as one-eyed and wearing a bamboo hat in the rain."
+      }
+    },
+    {
+      "id": "amefurikozo-c06",
+      "source_id": "amefurikozo-s1",
+      "quote": "According to yōkai literature published after the Showa and Heisei eras, there are theories that if one were to steal the umbrella from an amefurikozō and wear it, one would not be able to take it off; and that amefurikozō make it shower and delight at seeing people get troubled.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Kisah tentang payung yang sulit dilepas berasal dari literatur yōkai yang lebih baru.",
+        "en": "The tale of an umbrella that cannot be removed comes from later yōkai literature."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "sources",
+      "searched": "Penelusuran awal pada artikel Wikipedia yang tercantum di prompt; sumber independen tambahan belum terverifikasi."
+    },
+    {
+      "field": "images",
+      "searched": "Belum ada berkas Wikimedia Commons yang diverifikasi untuk entri ini."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "aoandon",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Aoandon",
+    "native_name": null,
+    "display_name": {
+      "id": "Aoandon",
+      "en": "Aoandon"
+    },
+    "wikidata_qid": "Q1152318",
+    "claim_ids": [
+      "aoandon-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "aoandon-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "aoandon-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "aoandon-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "aoandon-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Aoandon adalah makhluk yang digambar Toriyama Sekien dalam Konjaku Hyakki Shūi.",
+    "en": "Aoandon is a being illustrated by Toriyama Sekien in Konjaku Hyakki Shūi.",
+    "claim_ids": [
+      "aoandon-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Aoandon adalah makhluk yang digambar Toriyama Sekien dalam Konjaku Hyakki Shūi. Ia mewakili roh yang konon muncul sesudah kisah terakhir permainan Hyakumonogatari. Nama itu berkaitan dengan lentera kertas biru yang dipakai dalam permainan cerita tersebut.",
+      "en": "Aoandon is a being illustrated by Toriyama Sekien in Konjaku Hyakki Shūi. It represents the spirit said to appear after the last Hyakumonogatari story. Its name is linked to blue-paper lanterns used during the storytelling game.",
+      "claim_ids": [
+        "aoandon-c01",
+        "aoandon-c02",
+        "aoandon-c03"
+      ]
+    },
+    {
+      "id": "Sekien menggambarkannya sebagai perempuan berkulit biru dengan dua tanduk dan gigi tajam. Gim Onmyōji menampilkan Aoandon sebagai shikigami yang menyukai cerita. Aoandon juga muncul dalam gim Assassin’s Creed Shadows tahun 2025.",
+      "en": "Sekien depicts a blue-skinned woman with two horns and sharp teeth. The game Onmyōji depicts Aoandon as a storytelling shikigami. Aoandon also appears in the 2025 game Assassin’s Creed Shadows.",
+      "claim_ids": [
+        "aoandon-c04",
+        "aoandon-c05",
+        "aoandon-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "aoandon-s1",
+      "url": "https://en.wikipedia.org/wiki/Aoandon",
+      "title": "Aoandon",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "aoandon-c01",
+      "source_id": "aoandon-s1",
+      "quote": "Aoandon, or Aoandō (青(あお)行(あん)灯(どん) or 青行燈, \"blue andon\") is a creature illustrated by Toriyama Sekien in his Konjaku Hyakki Shūi.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Aoandon adalah makhluk yang digambar Toriyama Sekien dalam Konjaku Hyakki Shūi.",
+        "en": "Aoandon is a being illustrated by Toriyama Sekien in Konjaku Hyakki Shūi."
+      }
+    },
+    {
+      "id": "aoandon-c02",
+      "source_id": "aoandon-s1",
+      "quote": "It was meant to represent the spirit that appeared during the game Hyakumonogatari Kaidankai, after the last story was told.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia mewakili roh yang konon muncul sesudah kisah terakhir permainan Hyakumonogatari.",
+        "en": "It represents the spirit said to appear after the last Hyakumonogatari story."
+      }
+    },
+    {
+      "id": "aoandon-c03",
+      "source_id": "aoandon-s1",
+      "quote": "The candles in the room during these meetings were often placed in blue-paper andon lamps in order to create an eerie atmosphere, hence this creature's name.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Nama itu berkaitan dengan lentera kertas biru yang dipakai dalam permainan cerita tersebut.",
+        "en": "Its name is linked to blue-paper lanterns used during the storytelling game."
+      }
+    },
+    {
+      "id": "aoandon-c04",
+      "source_id": "aoandon-s1",
+      "quote": "It appears as a woman with a blue complexion and twin horns from its brow, and sharp teeth.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Sekien menggambarkannya sebagai perempuan berkulit biru dengan dua tanduk dan gigi tajam.",
+        "en": "Sekien depicts a blue-skinned woman with two horns and sharp teeth."
+      }
+    },
+    {
+      "id": "aoandon-c05",
+      "source_id": "aoandon-s1",
+      "quote": "In the mobile game Onmyōji, Aoandon is a shikigami who loves storytelling.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Gim Onmyōji menampilkan Aoandon sebagai shikigami yang menyukai cerita.",
+        "en": "The game Onmyōji depicts Aoandon as a storytelling shikigami."
+      }
+    },
+    {
+      "id": "aoandon-c06",
+      "source_id": "aoandon-s1",
+      "quote": "An Aoandon appears in the 2025 video game Assassin's Creed Shadows as a mini-boss in the side mission \"The Yokai\".",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Aoandon juga muncul dalam gim Assassin’s Creed Shadows tahun 2025.",
+        "en": "Aoandon also appears in the 2025 game Assassin’s Creed Shadows."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "sources",
+      "searched": "Penelusuran awal pada artikel Wikipedia yang tercantum di prompt; sumber independen tambahan belum terverifikasi."
+    },
+    {
+      "field": "images",
+      "searched": "Belum ada berkas Wikimedia Commons yang diverifikasi untuk entri ini."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "dosojin",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Dōsojin",
+    "native_name": null,
+    "display_name": {
+      "id": "Dōsojin",
+      "en": "Dōsojin"
+    },
+    "wikidata_qid": "Q269515",
+    "claim_ids": [
+      "dosojin-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "dosojin-c01"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "dosojin-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "dosojin-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "dosojin-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Dōsojin adalah kelompok dewa pelindung Shinto yang dihormati di Jepang timur.",
+    "en": "Dōsojin are protective Shinto deities venerated in eastern Japan.",
+    "claim_ids": [
+      "dosojin-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Dōsojin adalah kelompok dewa pelindung Shinto yang dihormati di Jepang timur. Nama lain kelompok ini mencakup Sae no kami dan Shakujin. Wujudnya dapat berupa pasangan manusia, batu, arca, atau tiang di tepi jalan.",
+      "en": "Dōsojin are protective Shinto deities venerated in eastern Japan. Other names include Sae no kami and Shakujin. They may be represented by a human couple, stones, statues or roadside poles.",
+      "claim_ids": [
+        "dosojin-c01",
+        "dosojin-c02",
+        "dosojin-c03"
+      ]
+    },
+    {
+      "id": "Sebagiannya ditempatkan di kuil kecil pinggir jalan yang disebut hokora. Dōsojin dapat ditemui di batas desa, celah gunung, persimpangan, dan dekat jembatan. Wujud falus dikaitkan dengan kelahiran dan keselarasan perkawinan. Perayaannya mencakup pengusiran roh pembawa wabah dan doa agar panen berikutnya berhasil.",
+      "en": "Some are housed in small roadside shrines called hokora. Dōsojin are found at village borders, mountain passes, crossroads and bridges. Phallic forms are associated with birth and marital harmony. Their festivals include expelling pestilential spirits and praying for a good harvest.",
+      "claim_ids": [
+        "dosojin-c04",
+        "dosojin-c05",
+        "dosojin-c06",
+        "dosojin-c07"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "dosojin-s1",
+      "url": "https://en.wikipedia.org/wiki/D%C5%8Dsojin",
+      "title": "Dōsojin",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "dosojin-s2",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9983",
+      "title": "Dōsojin",
+      "author": "Kawamura Kunimitsu",
+      "publisher": "Encyclopedia of Shinto, Kokugakuin University",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "dosojin-c01",
+      "source_id": "dosojin-s1",
+      "quote": "Dōsojin (道祖神) are a class of protective Shinto deities (kami) commonly venerated in eastern Japan, particularly in the Kantō, Chūbu, and Tōhoku regions.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dōsojin adalah kelompok dewa pelindung Shinto yang dihormati di Jepang timur.",
+        "en": "Dōsojin are protective Shinto deities venerated in eastern Japan."
+      }
+    },
+    {
+      "id": "dosojin-c02",
+      "source_id": "dosojin-s1",
+      "quote": "Also called Sae no kami or Sai no kami (障の神・塞の神), Dōrokujin (道陸神) or Shakujin (石神; literally: \"stone kami\").",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Nama lain kelompok ini mencakup Sae no kami dan Shakujin.",
+        "en": "Other names include Sae no kami and Shakujin."
+      }
+    },
+    {
+      "id": "dosojin-c03",
+      "source_id": "dosojin-s1",
+      "quote": "Dōsojin are often represented as a human couple, carved male or female genitals, large stones or statues, or even tall poles along a road.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Wujudnya dapat berupa pasangan manusia, batu, arca, atau tiang di tepi jalan.",
+        "en": "They may be represented by a human couple, stones, statues or roadside poles."
+      }
+    },
+    {
+      "id": "dosojin-c04",
+      "source_id": "dosojin-s1",
+      "quote": "Dōsojin are sometimes housed in small roadside Shinto shrines called hokora.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sebagiannya ditempatkan di kuil kecil pinggir jalan yang disebut hokora.",
+        "en": "Some are housed in small roadside shrines called hokora."
+      }
+    },
+    {
+      "id": "dosojin-c05",
+      "source_id": "dosojin-s1",
+      "quote": "In rural areas Dōsojin can be found at village boundaries, in mountain passes, or along byways, and in urban areas they can be seen at street corners or near bridges.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dōsojin dapat ditemui di batas desa, celah gunung, persimpangan, dan dekat jembatan.",
+        "en": "Dōsojin are found at village borders, mountain passes, crossroads and bridges."
+      }
+    },
+    {
+      "id": "dosojin-c06",
+      "source_id": "dosojin-s1",
+      "quote": "When shaped like a phallus, they are associated with birth, procreation, and marital harmony.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Wujud falus dikaitkan dengan kelahiran dan keselarasan perkawinan.",
+        "en": "Phallic forms are associated with birth and marital harmony."
+      }
+    },
+    {
+      "id": "dosojin-c07",
+      "source_id": "dosojin-s2",
+      "quote": "observances involve the exorcism of pestilent spirits and prayers for good harvest in the coming year.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Perayaannya mencakup pengusiran roh pembawa wabah dan doa agar panen berikutnya berhasil.",
+        "en": "Their festivals include expelling pestilential spirits and praying for a good harvest."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada berkas Wikimedia Commons yang diverifikasi untuk entri ini."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "futakuchi-onna",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Futakuchi-onna",
+    "native_name": null,
+    "display_name": {
+      "id": "Futakuchi-onna",
+      "en": "Futakuchi-onna"
+    },
+    "wikidata_qid": "Q2564260",
+    "claim_ids": [
+      "futakuchi-onna-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "futakuchi-onna-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "futakuchi-onna-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "futakuchi-onna-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "futakuchi-onna-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Futakuchi-onna adalah yōkai perempuan bermulut dua dalam cerita Jepang.",
+    "en": "Futakuchi-onna is a two-mouthed woman yōkai in Japanese stories.",
+    "claim_ids": [
+      "futakuchi-onna-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Futakuchi-onna adalah yōkai perempuan bermulut dua dalam cerita Jepang. Mulut keduanya berada di belakang kepala, tersembunyi di bawah rambut. Mulut tambahan itu digambarkan mempunyai bibir, gigi, dan lidah.",
+      "en": "Futakuchi-onna is a two-mouthed woman yōkai in Japanese stories. Her second mouth is hidden behind her head under her hair. The extra mouth is depicted with lips, teeth and a tongue.",
+      "claim_ids": [
+        "futakuchi-onna-c01",
+        "futakuchi-onna-c02",
+        "futakuchi-onna-c03"
+      ]
+    },
+    {
+      "id": "Asal mulut keduanya sering dikaitkan dengan perempuan yang makan sangat sedikit. Dalam banyak kisah, calon futakuchi-onna adalah istri orang kikir. Mulut tambahan itu menuntut makanan dan mengucapkan ancaman.",
+      "en": "The second mouth is often linked to a woman who eats very little. In many stories she is the wife of a miser. The extra mouth demands food and utters threats.",
+      "claim_ids": [
+        "futakuchi-onna-c04",
+        "futakuchi-onna-c05",
+        "futakuchi-onna-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "futakuchi-onna-s1",
+      "url": "https://en.wikipedia.org/wiki/Futakuchi-onna",
+      "title": "Futakuchi-onna",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "futakuchi-onna-c01",
+      "source_id": "futakuchi-onna-s1",
+      "quote": "Futakuchi-onna (ふたくちおんな - 二口女; \"two-mouthed woman\") is a type of yōkai or Japanese monster.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Futakuchi-onna adalah yōkai perempuan bermulut dua dalam cerita Jepang.",
+        "en": "Futakuchi-onna is a two-mouthed woman yōkai in Japanese stories."
+      }
+    },
+    {
+      "id": "futakuchi-onna-c02",
+      "source_id": "futakuchi-onna-s1",
+      "quote": "She is characterized by her two mouths – a normal one located on her face and a second one on the back of the head beneath the hair.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Mulut keduanya berada di belakang kepala, tersembunyi di bawah rambut.",
+        "en": "Her second mouth is hidden behind her head under her hair."
+      }
+    },
+    {
+      "id": "futakuchi-onna-c03",
+      "source_id": "futakuchi-onna-s1",
+      "quote": "There, the woman's skull splits apart, forming lips, teeth and a tongue, creating an entirely functional second mouth.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Mulut tambahan itu digambarkan mempunyai bibir, gigi, dan lidah.",
+        "en": "The extra mouth is depicted with lips, teeth and a tongue."
+      }
+    },
+    {
+      "id": "futakuchi-onna-c04",
+      "source_id": "futakuchi-onna-s1",
+      "quote": "The origin of futakuchi-onna's second mouth is often linked to how little a woman eats.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Asal mulut keduanya sering dikaitkan dengan perempuan yang makan sangat sedikit.",
+        "en": "The second mouth is often linked to a woman who eats very little."
+      }
+    },
+    {
+      "id": "futakuchi-onna-c05",
+      "source_id": "futakuchi-onna-s1",
+      "quote": "In many stories, the soon-to-be futakuchi-onna is a wife of a miser and rarely eats.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam banyak kisah, calon futakuchi-onna adalah istri orang kikir.",
+        "en": "In many stories she is the wife of a miser."
+      }
+    },
+    {
+      "id": "futakuchi-onna-c06",
+      "source_id": "futakuchi-onna-s1",
+      "quote": "The second mouth often mumbles spiteful and threatening things to the woman and demands food.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Mulut tambahan itu menuntut makanan dan mengucapkan ancaman.",
+        "en": "The extra mouth demands food and utters threats."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "sources",
+      "searched": "Penelusuran awal pada artikel Wikipedia yang tercantum di prompt; sumber independen tambahan belum terverifikasi."
+    },
+    {
+      "field": "images",
+      "searched": "Belum ada berkas Wikimedia Commons yang diverifikasi untuk entri ini."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "goryo",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Goryō",
+    "native_name": null,
+    "display_name": {
+      "id": "Goryō",
+      "en": "Goryō"
+    },
+    "wikidata_qid": "Q3273210",
+    "claim_ids": [
+      "goryo-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "hantu",
+    "claim_ids": [
+      "goryo-c01"
+    ]
+  },
+  "classification": {
+    "value": "spirit",
+    "claim_ids": [
+      "goryo-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "goryo-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "goryo-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Goryō adalah sebutan hormat bagi roh, khususnya yang menyebabkan gangguan.",
+    "en": "Goryō is an honorific term for spirits, especially haunting ones.",
+    "claim_ids": [
+      "goryo-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Goryō adalah sebutan hormat bagi roh, khususnya yang menyebabkan gangguan. Dalam arti khusus, goryō adalah arwah tokoh yang wafat tragis, lalu dipercaya menyebabkan bencana dan dipuja sebagai kami. Sandai Jitsuroku menyebut enam kuil untuk roh orang yang meninggal tidak wajar.",
+      "en": "Goryō is an honorific term for spirits, especially haunting ones. More narrowly, a goryō is the spirit of a person who died tragically, was blamed for calamity and later enshrined as a kami. Sandai Jitsuroku mentions six shrines for spirits of people who died unnaturally.",
+      "claim_ids": [
+        "goryo-c01",
+        "goryo-c02",
+        "goryo-c03"
+      ]
+    },
+    {
+      "id": "Kepercayaan goryō mencakup upaya menenangkan roh pendendam dengan memujanya sebagai kami. Nama goryō menggabungkan aksara bermakna hormat dan roh. Wabah di Kyoto setelah kematian Pangeran Sawara ditakuti sebagai ulah rohnya. Ensiklopedia Shinto mencatat bahwa goryō ditakuti karena dikaitkan dengan malapetaka.",
+      "en": "Goryō belief includes appeasing resentful spirits by enshrining them as kami. The name combines characters meaning honorable and spirit. A plague in Kyoto after Prince Sawara’s death was feared to be caused by his spirit. The Encyclopedia of Shinto says goryō were feared because they were linked to calamity.",
+      "claim_ids": [
+        "goryo-c04",
+        "goryo-c05",
+        "goryo-c06",
+        "goryo-c07"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "goryo-s1",
+      "url": "https://en.wikipedia.org/wiki/Gory%C5%8D",
+      "title": "Goryō",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "goryo-s2",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=8659",
+      "title": "Goryō",
+      "author": "Yonei Teruyoshi",
+      "publisher": "Encyclopedia of Shinto, Kokugakuin University",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "goryo-c01",
+      "source_id": "goryo-s1",
+      "quote": "In a broad sense, Goryō (御霊; Japanese: [ɡoɾʲoː]) is an honorific for a spirit, especially one that causes hauntings, and the term is used as a synonym for onryō (怨霊, vengeful Japanese ghosts).",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Goryō adalah sebutan hormat bagi roh, khususnya yang menyebabkan gangguan.",
+        "en": "Goryō is an honorific term for spirits, especially haunting ones."
+      }
+    },
+    {
+      "id": "goryo-c02",
+      "source_id": "goryo-s1",
+      "quote": "In a narrower sense, it refers to a noble or accomplished person who lost a political power struggle or died prematurely from an epidemic or other disease, becoming an onryō that brings pestilence or famine and is later enshrined as a kami in Shinto shrines.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam arti khusus, goryō adalah arwah tokoh yang wafat tragis, lalu dipercaya menyebabkan bencana dan dipuja sebagai kami.",
+        "en": "More narrowly, a goryō is the spirit of a person who died tragically, was blamed for calamity and later enshrined as a kami."
+      }
+    },
+    {
+      "id": "goryo-c03",
+      "source_id": "goryo-s1",
+      "quote": "For example, the \"Sandai Jitsuroku\" (a historical Japanese document) mentions that six Shinto shrines were dedicated to the worship of goryō, which were the spirits of those who died from non-natural causes.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Sandai Jitsuroku menyebut enam kuil untuk roh orang yang meninggal tidak wajar.",
+        "en": "Sandai Jitsuroku mentions six shrines for spirits of people who died unnaturally."
+      }
+    },
+    {
+      "id": "goryo-c04",
+      "source_id": "goryo-s1",
+      "quote": "Goryō Shinko (御霊信仰, Belief in goryō) refers to the belief that the onryō of people who have died unfortunate deaths cause hauntings and disasters, and the belief that they are enshrined as kami to appease them.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Kepercayaan goryō mencakup upaya menenangkan roh pendendam dengan memujanya sebagai kami.",
+        "en": "Goryō belief includes appeasing resentful spirits by enshrining them as kami."
+      }
+    },
+    {
+      "id": "goryo-c05",
+      "source_id": "goryo-s1",
+      "quote": "The name consists of two kanji, 御 (go) meaning honorable and 霊 (ryō) meaning soul or spirit.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Nama goryō menggabungkan aksara bermakna hormat dan roh.",
+        "en": "The name combines characters meaning honorable and spirit."
+      }
+    },
+    {
+      "id": "goryo-c06",
+      "source_id": "goryo-s1",
+      "quote": "After his death, a plague epidemic broke out in Kyoto, which people feared was caused by his spirit.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Wabah di Kyoto setelah kematian Pangeran Sawara ditakuti sebagai ulah rohnya.",
+        "en": "A plague in Kyoto after Prince Sawara’s death was feared to be caused by his spirit."
+      }
+    },
+    {
+      "id": "goryo-c07",
+      "source_id": "goryo-s2",
+      "quote": "they were linked to calamities and thus feared.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ensiklopedia Shinto mencatat bahwa goryō ditakuti karena dikaitkan dengan malapetaka.",
+        "en": "The Encyclopedia of Shinto says goryō were feared because they were linked to calamity."
+      }
+    },
+    {
+      "id": "goryo-c08",
+      "source_id": "goryo-s2",
+      "quote": "Although there were aspects of angry spirits (onryō) that overlapped with that of goryō, these former were distinguished from the latter because they did not include kami of epidemics",
+      "locator": "Complete Article",
+      "context": "scholarly-interpretation",
+      "statement": {
+        "id": "Ensiklopedia Shinto membedakan goryō dari onryō karena goryō juga mencakup dewa wabah.",
+        "en": "The Encyclopedia of Shinto distinguishes goryō from onryō because goryō also include epidemic deities."
+      }
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": {
+        "id": "Hubungan goryō dengan onryō",
+        "en": "Relation between goryō and onryō"
+      },
+      "positions": [
+        {
+          "summary": {
+            "id": "Kedua istilah digunakan sebagai sinonim dalam arti luas.",
+            "en": "The two terms are used as synonyms in a broad sense."
+          },
+          "claim_ids": [
+            "goryo-c01"
+          ]
+        },
+        {
+          "summary": {
+            "id": "Ensiklopedia Shinto membedakannya karena cakupan dan sasaran malapetakanya berbeda.",
+            "en": "The Encyclopedia of Shinto distinguishes them by the spirits included and the reach of their calamities."
+          },
+          "claim_ids": [
+            "goryo-c08"
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada berkas Wikimedia Commons yang diverifikasi untuk entri ini."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "kamimusubi",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Kamimusubi",
+    "native_name": null,
+    "display_name": {
+      "id": "Kamimusubi",
+      "en": "Kamimusubi"
+    },
+    "wikidata_qid": "Q3275901",
+    "claim_ids": [
+      "kamimusubi-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "kamimusubi-c01"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "kamimusubi-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "kamimusubi-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "kamimusubi-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Kamimusubi adalah kami penciptaan dalam mitologi Jepang.",
+    "en": "Kamimusubi is a creation kami in Japanese mythology.",
+    "claim_ids": [
+      "kamimusubi-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Kamimusubi adalah kami penciptaan dalam mitologi Jepang. Ia termasuk tiga kami pertama yang muncul, bersama Ame-no-Minakanushi dan Takamimusubi. Nama itu memadukan kata kami dan musubi yang dikaitkan dengan daya penciptaan.",
+      "en": "Kamimusubi is a creation kami in Japanese mythology. It belongs to the first three kami alongside Ame-no-Minakanushi and Takamimusubi. The name joins kami and musubi, a creative force.",
+      "claim_ids": [
+        "kamimusubi-c01",
+        "kamimusubi-c02",
+        "kamimusubi-c03"
+      ]
+    },
+    {
+      "id": "Pada kisah penciptaan, Kamimusubi berada di Takamagahara bersama dua kami awal lainnya. Kojiki menggambarkannya sebagai dewa leluhur yang menolong dewa-dewa Izumo. Kamimusubi dikaitkan dengan asal lima jenis biji-bijian dari tubuh Ōgetsu-hime. Menurut Kojiki, Kamimusubi menghidupkan kembali Ōnamuchi atas permintaan ibunya.",
+      "en": "In the creation account, Kamimusubi is in Takamagahara with the other early kami. The Kojiki portrays Kamimusubi as an ancestral god helping the gods of Izumo. Kamimusubi is linked to the emergence of five grains from Ōgetsu-hime’s body. According to the Kojiki, Kamimusubi restored Ōnamuchi to life at his mother’s request.",
+      "claim_ids": [
+        "kamimusubi-c04",
+        "kamimusubi-c05",
+        "kamimusubi-c06",
+        "kamimusubi-c07"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "kamimusubi-s1",
+      "url": "https://en.wikipedia.org/wiki/Kamimusubi",
+      "title": "Kamimusubi",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "kamimusubi-s2",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9381",
+      "title": "Kamimusuhi",
+      "author": "Mori Mizue",
+      "publisher": "Encyclopedia of Shinto, Kokugakuin University",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "kamimusubi-c01",
+      "source_id": "kamimusubi-s1",
+      "quote": "Kamimusubi (神産巣日, lit. \"Sacred Generative Force\"), also known as Kamimusuhi among other variants, is a kami and god of creation in Japanese mythology.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kamimusubi adalah kami penciptaan dalam mitologi Jepang.",
+        "en": "Kamimusubi is a creation kami in Japanese mythology."
+      }
+    },
+    {
+      "id": "kamimusubi-c02",
+      "source_id": "kamimusubi-s1",
+      "quote": "They are a hitorigami, and the third of the first three kami to come into existence (Kotoamatsukami), alongside Ame-no-Minakanushi and Takamimusubi, forming a trio at the beginning of all creation.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia termasuk tiga kami pertama yang muncul, bersama Ame-no-Minakanushi dan Takamimusubi.",
+        "en": "It belongs to the first three kami alongside Ame-no-Minakanushi and Takamimusubi."
+      }
+    },
+    {
+      "id": "kamimusubi-c03",
+      "source_id": "kamimusubi-s1",
+      "quote": "The name is composed of kami, denoting deity, and musubi, meaning \"effecting force of creation\".",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Nama itu memadukan kata kami dan musubi yang dikaitkan dengan daya penciptaan.",
+        "en": "The name joins kami and musubi, a creative force."
+      }
+    },
+    {
+      "id": "kamimusubi-c04",
+      "source_id": "kamimusubi-s1",
+      "quote": "At the time of the creation of heaven and earth, Kamimusubi was in Takamagahara next to Ame-no-Minakanushi and Takamimusubi.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pada kisah penciptaan, Kamimusubi berada di Takamagahara bersama dua kami awal lainnya.",
+        "en": "In the creation account, Kamimusubi is in Takamagahara with the other early kami."
+      }
+    },
+    {
+      "id": "kamimusubi-c05",
+      "source_id": "kamimusubi-s1",
+      "quote": "In Kojiki, Kamimusubi is an ancestral god who sits in Takamagahara and assists the gods of Izumo, and is called \"Mi-Oya\" (honorfic name for ancestor) by other gods.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kojiki menggambarkannya sebagai dewa leluhur yang menolong dewa-dewa Izumo.",
+        "en": "The Kojiki portrays Kamimusubi as an ancestral god helping the gods of Izumo."
+      }
+    },
+    {
+      "id": "kamimusubi-c06",
+      "source_id": "kamimusubi-s1",
+      "quote": "Kamimusubi became the ancestral god of the five grains (progenitors) after Kamimusubi transformed the grains produced from the body of Ōgetsu-hime, the goddess of food, who was killed by Susanoo, the god of storms.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kamimusubi dikaitkan dengan asal lima jenis biji-bijian dari tubuh Ōgetsu-hime.",
+        "en": "Kamimusubi is linked to the emergence of five grains from Ōgetsu-hime’s body."
+      }
+    },
+    {
+      "id": "kamimusubi-c07",
+      "source_id": "kamimusubi-s2",
+      "quote": "she granted the wish of Ōnamuchi's mother by restoring him to life",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Menurut Kojiki, Kamimusubi menghidupkan kembali Ōnamuchi atas permintaan ibunya.",
+        "en": "According to the Kojiki, Kamimusubi restored Ōnamuchi to life at his mother’s request."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada berkas Wikimedia Commons yang diverifikasi untuk entri ini."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "kasha-folklore",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Kasha (folklore)",
+    "native_name": null,
+    "display_name": {
+      "id": "Kasha (folklore)",
+      "en": "Kasha (folklore)"
+    },
+    "wikidata_qid": "Q473165",
+    "claim_ids": [
+      "kasha-folklore-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "makhluk legenda",
+    "claim_ids": [
+      "kasha-folklore-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "kasha-folklore-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "kasha-folklore-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "kasha-folklore-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Kasha adalah yōkai Jepang yang dikisahkan mencuri jenazah.",
+    "en": "Kasha is a Japanese yōkai said to steal corpses.",
+    "claim_ids": [
+      "kasha-folklore-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Kasha adalah yōkai Jepang yang dikisahkan mencuri jenazah. Penggambaran sekarang kerap menyerupai kucing, sedangkan bentuk awal lebih mirip iblis. Makna awal kasha ialah kendaraan api yang membawa pendosa ke neraka Buddhis.",
+      "en": "Kasha is a Japanese yōkai said to steal corpses. Modern depictions are often cat-like while earlier forms were demon-like. The earlier kasha was a fiery vehicle carrying sinners to Buddhist hell.",
+      "claim_ids": [
+        "kasha-folklore-c01",
+        "kasha-folklore-c02",
+        "kasha-folklore-c03"
+      ]
+    },
+    {
+      "id": "Pada masa awal modern, kasha juga dipahami sebagai penjaga neraka atau dewa petir. Perpaduan dengan kisah nekomata yang mencuri mayat mendorong wujud kucingnya. Kemunculan kasha kerap dikaitkan dengan awan gelap dan guntur.",
+      "en": "Early modern depictions also associated it with hell wardens or the thunder god. Conflation with corpse-stealing nekomata tales helped produce its cat form. Kasha is often associated with dark clouds and thunder.",
+      "claim_ids": [
+        "kasha-folklore-c04",
+        "kasha-folklore-c05",
+        "kasha-folklore-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "kasha-folklore-s1",
+      "url": "https://en.wikipedia.org/wiki/Kasha_(folklore)",
+      "title": "Kasha (folklore)",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "kasha-folklore-c01",
+      "source_id": "kasha-folklore-s1",
+      "quote": "in Japanese folklore is a yōkai said to steal corpses. It is now generally regarded to be a monster in cat-form",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Kasha adalah yōkai Jepang yang dikisahkan mencuri jenazah.",
+        "en": "Kasha is a Japanese yōkai said to steal corpses."
+      }
+    },
+    {
+      "id": "kasha-folklore-c02",
+      "source_id": "kasha-folklore-s1",
+      "quote": "It is now generally regarded to be a monster in cat-form, though earlier archetypes made them demon-like.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Penggambaran sekarang kerap menyerupai kucing, sedangkan bentuk awal lebih mirip iblis.",
+        "en": "Modern depictions are often cat-like while earlier forms were demon-like."
+      }
+    },
+    {
+      "id": "kasha-folklore-c03",
+      "source_id": "kasha-folklore-s1",
+      "quote": "The kasha was originally neither an animal- nor man-like monster, but a fire vehicle (cf. hi no kuruma) assigned the mission of conveying the sinful to Buddhist hell.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Makna awal kasha ialah kendaraan api yang membawa pendosa ke neraka Buddhis.",
+        "en": "The earlier kasha was a fiery vehicle carrying sinners to Buddhist hell."
+      }
+    },
+    {
+      "id": "kasha-folklore-c04",
+      "source_id": "kasha-folklore-s1",
+      "quote": "The kasha as yōkai in the early modern period (16th century) was originally conceived of as the demon-like beings",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Pada masa awal modern, kasha juga dipahami sebagai penjaga neraka atau dewa petir.",
+        "en": "Early modern depictions also associated it with hell wardens or the thunder god."
+      }
+    },
+    {
+      "id": "kasha-folklore-c05",
+      "source_id": "kasha-folklore-s1",
+      "quote": "But due to conflation with the legends of the devil-cat (nekomata) stealing cadavers, the kasha came to be seen as a cat-like yōkai in the late 17th century.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Perpaduan dengan kisah nekomata yang mencuri mayat mendorong wujud kucingnya.",
+        "en": "Conflation with corpse-stealing nekomata tales helped produce its cat form."
+      }
+    },
+    {
+      "id": "kasha-folklore-c06",
+      "source_id": "kasha-folklore-s1",
+      "quote": "The kasha is often said to appear with dark clouds, thunderclaps, or thunderstorms.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Kemunculan kasha kerap dikaitkan dengan awan gelap dan guntur.",
+        "en": "Kasha is often associated with dark clouds and thunder."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "sources",
+      "searched": "Penelusuran awal pada artikel Wikipedia yang tercantum di prompt; sumber independen tambahan belum terverifikasi."
+    },
+    {
+      "field": "images",
+      "searched": "Belum ada berkas Wikimedia Commons yang diverifikasi untuk entri ini."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "nure-onna",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Nure-onna",
+    "native_name": null,
+    "display_name": {
+      "id": "Nure-onna",
+      "en": "Nure-onna"
+    },
+    "wikidata_qid": "Q2756887",
+    "claim_ids": [
+      "nure-onna-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "nure-onna-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "nure-onna-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "nure-onna-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "nure-onna-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Nure-onna adalah yōkai Jepang berkepala perempuan dan bertubuh ular.",
+    "en": "Nure-onna is a Japanese yōkai with a woman’s head and a snake’s body.",
+    "claim_ids": [
+      "nure-onna-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Nure-onna adalah yōkai Jepang berkepala perempuan dan bertubuh ular. Di laut, fenomena ini juga disebut nureyomejo. Legenda sering menyebutnya memakan manusia, tetapi rupa dan wataknya tidak tunggal.",
+      "en": "Nure-onna is a Japanese yōkai with a woman’s head and a snake’s body. At sea, the phenomenon is also called nureyomejo. Legends often portray it as eating people, but its appearance and character vary.",
+      "claim_ids": [
+        "nure-onna-c01",
+        "nure-onna-c02",
+        "nure-onna-c03"
+      ]
+    },
+    {
+      "id": "Kisahnya menempatkan nure-onna di laut atau sungai. Namanya dikaitkan dengan rambut yang selalu basah. Buku ilustrasi zaman Edo menggambarkannya sebagai perempuan bertubuh ular, walau cerita klasik tentang bentuk itu tidak ditemukan.",
+      "en": "Tales place nure-onna at seas or rivers. Its name is linked to hair that is always wet. Edo illustrated books show a snake-bodied woman, though no classical tale of that form has been identified.",
+      "claim_ids": [
+        "nure-onna-c04",
+        "nure-onna-c05",
+        "nure-onna-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "nure-onna-s1",
+      "url": "https://en.wikipedia.org/wiki/Nure-onna",
+      "title": "Nure-onna",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "nure-onna-c01",
+      "source_id": "nure-onna-s1",
+      "quote": "Nure-onna (濡女; \"wet woman\") is a Japanese yōkai which resembles a reptilian creature with the head of a woman and the body of a snake.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Nure-onna adalah yōkai Jepang berkepala perempuan dan bertubuh ular.",
+        "en": "Nure-onna is a Japanese yōkai with a woman’s head and a snake’s body."
+      }
+    },
+    {
+      "id": "nure-onna-c02",
+      "source_id": "nure-onna-s1",
+      "quote": "They are also seen as a paranormal phenomenon at sea under the name of nureyomejo.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Di laut, fenomena ini juga disebut nureyomejo.",
+        "en": "At sea, the phenomenon is also called nureyomejo."
+      }
+    },
+    {
+      "id": "nure-onna-c03",
+      "source_id": "nure-onna-s1",
+      "quote": "In legends, they are often said to consume humans, but they have no single appearance or personality.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Legenda sering menyebutnya memakan manusia, tetapi rupa dan wataknya tidak tunggal.",
+        "en": "Legends often portray it as eating people, but its appearance and character vary."
+      }
+    },
+    {
+      "id": "nure-onna-c04",
+      "source_id": "nure-onna-s1",
+      "quote": "They are similar to the yōkai called isoonna of Kyushu, and like the isoonna, they are said to appear at seas or rivers.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Kisahnya menempatkan nure-onna di laut atau sungai.",
+        "en": "Tales place nure-onna at seas or rivers."
+      }
+    },
+    {
+      "id": "nure-onna-c05",
+      "source_id": "nure-onna-s1",
+      "quote": "Their name comes from how their hair is always wet in legends.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Namanya dikaitkan dengan rambut yang selalu basah.",
+        "en": "Its name is linked to hair that is always wet."
+      }
+    },
+    {
+      "id": "nure-onna-c06",
+      "source_id": "nure-onna-s1",
+      "quote": "Many Edo Period publications such as the Hyakkai Zukan, Gazu Hyakki Yagyō, among others, depict this yōkai as a woman with a snake body, which would make it appear as if this was a well-known yōkai of the time, but there are no stories about a snake-bodied nure-onna in the classical literature of the time that can be found.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Buku ilustrasi zaman Edo menggambarkannya sebagai perempuan bertubuh ular, walau cerita klasik tentang bentuk itu tidak ditemukan.",
+        "en": "Edo illustrated books show a snake-bodied woman, though no classical tale of that form has been identified."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "sources",
+      "searched": "Penelusuran awal pada artikel Wikipedia yang tercantum di prompt; sumber independen tambahan belum terverifikasi."
+    },
+    {
+      "field": "images",
+      "searched": "Belum ada berkas Wikimedia Commons yang diverifikasi untuk entri ini."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "sarutahiko-okami",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Sarutahiko Ōkami",
+    "native_name": null,
+    "display_name": {
+      "id": "Sarutahiko Ōkami",
+      "en": "Sarutahiko Ōkami"
+    },
+    "wikidata_qid": "Q3090037",
+    "claim_ids": [
+      "sarutahiko-okami-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "sarutahiko-okami-c01"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "sarutahiko-okami-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "sarutahiko-okami-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "sarutahiko-okami-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Sarutahiko Ōkami adalah dewa Shinto yang memimpin kami bumi.",
+    "en": "Sarutahiko Ōkami is a Shinto deity who leads the earthly kami.",
+    "claim_ids": [
+      "sarutahiko-okami-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Sarutahiko Ōkami adalah dewa Shinto yang memimpin kami bumi. Jinnō Shōtōki menyebutnya leluhur Otanomikoto. Ia dikaitkan dengan penyucian, kekuatan, dan bimbingan.",
+      "en": "Sarutahiko Ōkami is a Shinto deity who leads the earthly kami. Jinnō Shōtōki names him an ancestor of Otanomikoto. He is associated with purification, strength and guidance.",
+      "claim_ids": [
+        "sarutahiko-okami-c01",
+        "sarutahiko-okami-c02",
+        "sarutahiko-okami-c03"
+      ]
+    },
+    {
+      "id": "Sarutahiko dipuja di beberapa kuil, termasuk Tsubaki Grand Shrine. Nihon Shoki menceritakan pertemuannya dengan Ninigi saat Ninigi turun dari langit. Penggambarannya menyebut tubuh tinggi, janggut lebat, wajah kemerahan, dan hidung panjang. Kojiki menyebut Sarutahiko tenggelam setelah tangannya terjepit kerang besar di Azaka.",
+      "en": "Sarutahiko is enshrined at several sites including Tsubaki Grand Shrine. The Nihon Shoki tells of his meeting Ninigi during Ninigi’s descent. He is portrayed as tall with a large beard, ruddy face and long nose. The Kojiki says Sarutahiko drowned after his hand was trapped by a giant clam at Azaka.",
+      "claim_ids": [
+        "sarutahiko-okami-c04",
+        "sarutahiko-okami-c05",
+        "sarutahiko-okami-c06",
+        "sarutahiko-okami-c07"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "sarutahiko-okami-s1",
+      "url": "https://en.wikipedia.org/wiki/Sarutahiko_%C5%8Ckami",
+      "title": "Sarutahiko Ōkami",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "sarutahiko-okami-s2",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9158",
+      "title": "Sarutahiko",
+      "author": "Kadoya Atsushi",
+      "publisher": "Encyclopedia of Shinto, Kokugakuin University",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "sarutahiko-okami-c01",
+      "source_id": "sarutahiko-okami-s1",
+      "quote": "Sarutahiko/Sarudahiko/Sarutabiko Ōkami (猿田毘古大神／猿田彦大神; Japanese pronunciation: [sa.ɾɯ.taꜜ.çi̥.ko]) is a deity of the Japanese religion of Shinto; he is the leader of the earthly kami.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sarutahiko Ōkami adalah dewa Shinto yang memimpin kami bumi.",
+        "en": "Sarutahiko Ōkami is a Shinto deity who leads the earthly kami."
+      }
+    },
+    {
+      "id": "sarutahiko-okami-c02",
+      "source_id": "sarutahiko-okami-s1",
+      "quote": "Sarutahiko Ōkami was the head of the kunitsukami and in the Jinnō Shōtōki is said to have been the ancestor of Otanomikoto.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Jinnō Shōtōki menyebutnya leluhur Otanomikoto.",
+        "en": "Jinnō Shōtōki names him an ancestor of Otanomikoto."
+      }
+    },
+    {
+      "id": "sarutahiko-okami-c03",
+      "source_id": "sarutahiko-okami-s1",
+      "quote": "Sarutahiko Ōkami is seen as a symbol of Misogi, strength and guidance, which is why he is the patron of martial arts such as aikido.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia dikaitkan dengan penyucian, kekuatan, dan bimbingan.",
+        "en": "He is associated with purification, strength and guidance."
+      }
+    },
+    {
+      "id": "sarutahiko-okami-c04",
+      "source_id": "sarutahiko-okami-s1",
+      "quote": "He is enshrined at Tsubaki Grand Shrine in Mie Prefecture; first among the 2000 shrines of Sarutahiko Ōkami, Sarutahiko Jinja in Ise, Mie; and Ōasahiko Shrine in Tokushima Prefecture, and Sarutahiko Shrine in Mie Prefecture.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sarutahiko dipuja di beberapa kuil, termasuk Tsubaki Grand Shrine.",
+        "en": "Sarutahiko is enshrined at several sites including Tsubaki Grand Shrine."
+      }
+    },
+    {
+      "id": "sarutahiko-okami-c05",
+      "source_id": "sarutahiko-okami-s1",
+      "quote": "In the Nihon Shoki, he is the one who meets Ninigi-no-Mikoto, the grandson of Amaterasu, the Sun goddess, when he descends from Takama-ga-hara.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Nihon Shoki menceritakan pertemuannya dengan Ninigi saat Ninigi turun dari langit.",
+        "en": "The Nihon Shoki tells of his meeting Ninigi during Ninigi’s descent."
+      }
+    },
+    {
+      "id": "sarutahiko-okami-c06",
+      "source_id": "sarutahiko-okami-s1",
+      "quote": "He is depicted as a towering man with a large beard, jeweled spear, ruddy face, and long nose.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Penggambarannya menyebut tubuh tinggi, janggut lebat, wajah kemerahan, dan hidung panjang.",
+        "en": "He is portrayed as tall with a large beard, ruddy face and long nose."
+      }
+    },
+    {
+      "id": "sarutahiko-okami-c07",
+      "source_id": "sarutahiko-okami-s2",
+      "quote": "where Kojiki records that his hand became trapped inside a large clam at Azaka, and he thus drowned.",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kojiki menyebut Sarutahiko tenggelam setelah tangannya terjepit kerang besar di Azaka.",
+        "en": "The Kojiki says Sarutahiko drowned after his hand was trapped by a giant clam at Azaka."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada berkas Wikimedia Commons yang diverifikasi untuk entri ini."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "shirime",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Shirime",
+    "native_name": null,
+    "display_name": {
+      "id": "Shirime",
+      "en": "Shirime"
+    },
+    "wikidata_qid": "Q3536226",
+    "claim_ids": [
+      "shirime-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "shirime-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "shirime-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "shirime-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "shirime-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Shirime adalah yōkai yang sekilas terlihat seperti manusia.",
+    "en": "Shirime is a yōkai that looks human at a distance.",
+    "claim_ids": [
+      "shirime-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Shirime adalah yōkai yang sekilas terlihat seperti manusia. Ia digambarkan tanpa wajah, dengan mata di bagian bokong. Dalam kisahnya, mata berkilau itu terbuka di depan seorang pengelana.",
+      "en": "Shirime is a yōkai that looks human at a distance. It is depicted faceless, with an eye in its buttocks. In its tale, a glittering eye opens before a traveler.",
+      "claim_ids": [
+        "shirime-c01",
+        "shirime-c02",
+        "shirime-c03"
+      ]
+    },
+    {
+      "id": "Penyair dan pelukis Buson memasukkannya dalam sejumlah gambar yōkai. Kisah itu menyebutnya tidak bermaksud mencelakai orang. Makhluk ini suka mengejutkan orang.",
+      "en": "The poet and painter Buson included it in several yōkai pictures. The tale says it does not intend to harm people. The creature enjoys frightening people.",
+      "claim_ids": [
+        "shirime-c04",
+        "shirime-c05",
+        "shirime-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "shirime-s1",
+      "url": "https://en.wikipedia.org/wiki/Shirime",
+      "title": "Shirime",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "shirime-c01",
+      "source_id": "shirime-s1",
+      "quote": "Shirime (Japanese: 尻目; lit. \"buttocks eye\") is a yōkai, but when close enough, however, it appears that it is a human.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Shirime adalah yōkai yang sekilas terlihat seperti manusia.",
+        "en": "Shirime is a yōkai that looks human at a distance."
+      }
+    },
+    {
+      "id": "shirime-c02",
+      "source_id": "shirime-s1",
+      "quote": "It has no facial features, but despite being without a face, It has an eye in its butt, located in the place of its anus.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Ia digambarkan tanpa wajah, dengan mata di bagian bokong.",
+        "en": "It is depicted faceless, with an eye in its buttocks."
+      }
+    },
+    {
+      "id": "shirime-c03",
+      "source_id": "shirime-s1",
+      "quote": "A huge glittering eye then opened up where the strange man's anus should have been.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Dalam kisahnya, mata berkilau itu terbuka di depan seorang pengelana.",
+        "en": "In its tale, a glittering eye opens before a traveler."
+      }
+    },
+    {
+      "id": "shirime-c04",
+      "source_id": "shirime-s1",
+      "quote": "This creature was so liked by the haiku poet and artist Buson, he included it in many of his yōkai paintings.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Penyair dan pelukis Buson memasukkannya dalam sejumlah gambar yōkai.",
+        "en": "The poet and painter Buson included it in several yōkai pictures."
+      }
+    },
+    {
+      "id": "shirime-c05",
+      "source_id": "shirime-s1",
+      "quote": "Although Shirime appears to have a very startling appearance, it does not mean to harm people.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Kisah itu menyebutnya tidak bermaksud mencelakai orang.",
+        "en": "The tale says it does not intend to harm people."
+      }
+    },
+    {
+      "id": "shirime-c06",
+      "source_id": "shirime-s1",
+      "quote": "Its joy comes from scaring people.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Makhluk ini suka mengejutkan orang.",
+        "en": "The creature enjoys frightening people."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "sources",
+      "searched": "Penelusuran awal pada artikel Wikipedia yang tercantum di prompt; sumber independen tambahan belum terverifikasi."
+    },
+    {
+      "field": "images",
+      "searched": "Belum ada berkas Wikimedia Commons yang diverifikasi untuk entri ini."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "takamimusubi",
+  "task": "new",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Takamimusubi",
+    "native_name": null,
+    "display_name": {
+      "id": "Takamimusubi",
+      "en": "Takamimusubi"
+    },
+    "wikidata_qid": "Q125400",
+    "claim_ids": [
+      "takamimusubi-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "dewa",
+    "claim_ids": [
+      "takamimusubi-c01"
+    ]
+  },
+  "classification": {
+    "value": "deity",
+    "claim_ids": [
+      "takamimusubi-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "takamimusubi-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "takamimusubi-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Takamimusubi adalah dewa penciptaan Jepang yang muncul di antara makhluk pertama.",
+    "en": "Takamimusubi is a Japanese creation deity among the first beings.",
+    "claim_ids": [
+      "takamimusubi-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Takamimusubi adalah dewa penciptaan Jepang yang muncul di antara makhluk pertama. Kojiki menggolongkannya sebagai hitorigami. Menurut Kojiki, ia muncul setelah Ame-no-Minakanushi dan sebelum Kamimusubi.",
+      "en": "Takamimusubi is a Japanese creation deity among the first beings. The Kojiki classifies Takamimusubi as a hitorigami. The Kojiki places it after Ame-no-Minakanushi and before Kamimusubi.",
+      "claim_ids": [
+        "takamimusubi-c01",
+        "takamimusubi-c02",
+        "takamimusubi-c03"
+      ]
+    },
+    {
+      "id": "Ia dikisahkan memerintah Takamagahara bersama Amaterasu. Sebuah kisah menyebut burung Nakime diutus menemui Amewakahiko. Dalam kisah itu Takamimusubi melempar panah kembali ke bumi dan menewaskan Amewakahiko. Pada masa kemudian, Takamimusubi juga dipuja sebagai dewa perjodohan.",
+      "en": "It is said to rule Takamagahara with Amaterasu. One tale says Nakime the bird was sent to visit Amewakahiko. In that story Takamimusubi throws an arrow back to earth and kills Amewakahiko. In later periods Takamimusubi was also worshipped as a matchmaking deity.",
+      "claim_ids": [
+        "takamimusubi-c04",
+        "takamimusubi-c05",
+        "takamimusubi-c06",
+        "takamimusubi-c07"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "takamimusubi-s1",
+      "url": "https://en.wikipedia.org/wiki/Takamimusubi",
+      "title": "Takamimusubi",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "takamimusubi-s2",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9147",
+      "title": "Takamimusuhi",
+      "author": "Mori Mizue",
+      "publisher": "Encyclopedia of Shinto, Kokugakuin University",
+      "published": null,
+      "language": "en",
+      "type": "encyclopedia",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "takamimusubi-c01",
+      "source_id": "takamimusubi-s1",
+      "quote": "Takamimusubi (高御産巣日, lit. \"Exalted Generative Force\") is a creation deity in Japanese mythology, who was the second of the first beings to come into existence.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Takamimusubi adalah dewa penciptaan Jepang yang muncul di antara makhluk pertama.",
+        "en": "Takamimusubi is a Japanese creation deity among the first beings."
+      }
+    },
+    {
+      "id": "takamimusubi-c02",
+      "source_id": "takamimusubi-s1",
+      "quote": "According to the Kojiki, Takamimusubi was a hitorigami.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Kojiki menggolongkannya sebagai hitorigami.",
+        "en": "The Kojiki classifies Takamimusubi as a hitorigami."
+      }
+    },
+    {
+      "id": "takamimusubi-c03",
+      "source_id": "takamimusubi-s1",
+      "quote": "According to Kojiki, when the heaven and earth were created, Ame-no-Minakanushi was the first one to appear in Takamagahara, Takamimusubi the second, and Kamimusubi the third.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Menurut Kojiki, ia muncul setelah Ame-no-Minakanushi dan sebelum Kamimusubi.",
+        "en": "The Kojiki places it after Ame-no-Minakanushi and before Kamimusubi."
+      }
+    },
+    {
+      "id": "takamimusubi-c04",
+      "source_id": "takamimusubi-s1",
+      "quote": "Together with Amaterasu, he jointly rules the Takamagahara.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Ia dikisahkan memerintah Takamagahara bersama Amaterasu.",
+        "en": "It is said to rule Takamagahara with Amaterasu."
+      }
+    },
+    {
+      "id": "takamimusubi-c05",
+      "source_id": "takamimusubi-s1",
+      "quote": "One myth tells of a bird named Nakime who was sent down to earth to check in on Amewakahiko.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Sebuah kisah menyebut burung Nakime diutus menemui Amewakahiko.",
+        "en": "One tale says Nakime the bird was sent to visit Amewakahiko."
+      }
+    },
+    {
+      "id": "takamimusubi-c06",
+      "source_id": "takamimusubi-s1",
+      "quote": "Takamimusubi saw the arrow and threw it back at the earth where it hit Amewakahiko while he was lying in bed, killing him.",
+      "locator": "Article text",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Dalam kisah itu Takamimusubi melempar panah kembali ke bumi dan menewaskan Amewakahiko.",
+        "en": "In that story Takamimusubi throws an arrow back to earth and kills Amewakahiko."
+      }
+    },
+    {
+      "id": "takamimusubi-c07",
+      "source_id": "takamimusubi-s2",
+      "quote": "In later ages, Takamimusuhi was also worshiped as a god of matchmaking",
+      "locator": "Complete Article",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Pada masa kemudian, Takamimusubi juga dipuja sebagai dewa perjodohan.",
+        "en": "In later periods Takamimusubi was also worshipped as a matchmaking deity."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "images",
+      "searched": "Belum ada berkas Wikimedia Commons yang diverifikasi untuk entri ini."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "akkorokamui",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Akkorokamui",
+    "native_name": null,
+    "display_name": {
+      "id": "Akkorokamui",
+      "en": "Akkorokamui"
+    },
+    "wikidata_qid": "Q2829098",
+    "claim_ids": [
+      "akkorokamui-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "monster",
+    "claim_ids": [
+      "akkorokamui-c01"
+    ]
+  },
+  "classification": {
+    "value": "cryptid",
+    "claim_ids": [
+      "akkorokamui-c01"
+    ]
+  },
+  "culture": {
+    "value": "tradition-ainu",
+    "suggested_new": null,
+    "claim_ids": [
+      "akkorokamui-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "akkorokamui-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Akkorokamui adalah makhluk besar menyerupai gurita dalam folklor Ainu, dikaitkan dengan Teluk Uchiura.",
+    "en": "Akkorokamui is a giant octopus-like being in Ainu folklore associated with Uchiura Bay.",
+    "claim_ids": [
+      "akkorokamui-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Akkorokamui adalah makhluk besar menyerupai gurita dalam folklor Ainu, dikaitkan dengan Teluk Uchiura. Legenda memperkirakan tubuhnya dapat mencapai luas satu hektare. Istilah Ainu at-koro-guru untuk gurita berkaitan dengan helaian atau untaian.",
+      "en": "Akkorokamui is a giant octopus-like being in Ainu folklore associated with Uchiura Bay. Legend puts its body at up to a hectare in area. The Ainu word at-koro-guru for octopus is linked to strands or strings.",
+      "claim_ids": [
+        "akkorokamui-c01",
+        "akkorokamui-c02",
+        "akkorokamui-c03"
+      ]
+    },
+    {
+      "id": "At-kor-kamuy dapat ditafsirkan sebagai kamuy yang mempunyai tentakel. Salah satu cerita rakyatnya mula-mula diterbitkan oleh Iwao Yoshida pada 1914. Cerita wilayah Iburi menyebutnya penguasa Teluk Funka.",
+      "en": "At-kor-kamuy can be interpreted as a kamuy with tentacles. One of its folktales was first published by Iwao Yoshida in 1914. An Iburi tale calls it the lord of Funka Bay.",
+      "claim_ids": [
+        "akkorokamui-c04",
+        "akkorokamui-c05",
+        "akkorokamui-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "akkorokamui-s1",
+      "url": "https://en.wikipedia.org/wiki/Akkorokamui",
+      "title": "Akkorokamui",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "akkorokamui-c01",
+      "source_id": "akkorokamui-s1",
+      "quote": "Akkorokamui (Japanese: アッコロカムイ; Ainu: At-kor-kamuy) is a gigantic octopus-like cryptid from Ainu folklore, similar to the Nordic kraken, which supposedly lurks in Uchiura Bay in Hokkaido.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Akkorokamui adalah makhluk besar menyerupai gurita dalam folklor Ainu, dikaitkan dengan Teluk Uchiura.",
+        "en": "Akkorokamui is a giant octopus-like being in Ainu folklore associated with Uchiura Bay."
+      }
+    },
+    {
+      "id": "akkorokamui-c02",
+      "source_id": "akkorokamui-s1",
+      "quote": "It is said that its enormous body can reach sizes of up to 1 hectare (110,000 square feet) or roughly 100 metres (330 feet) or more across.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Legenda memperkirakan tubuhnya dapat mencapai luas satu hektare.",
+        "en": "Legend puts its body at up to a hectare in area."
+      }
+    },
+    {
+      "id": "akkorokamui-c03",
+      "source_id": "akkorokamui-s1",
+      "quote": "In Ainu language, atkoro-guru, at-koro-guru, at kor [kur] is \"octopus\", where at refers to \"string, strip, strand\", so that at-koro-guru is literally \"something which has thin strands\".",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Istilah Ainu at-koro-guru untuk gurita berkaitan dengan helaian atau untaian.",
+        "en": "The Ainu word at-koro-guru for octopus is linked to strands or strings."
+      }
+    },
+    {
+      "id": "akkorokamui-c04",
+      "source_id": "akkorokamui-s1",
+      "quote": "at-kor-kamuy, atkor-kamuy also literally translates to \"kamuy which has strings (tentacles)\"",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "At-kor-kamuy dapat ditafsirkan sebagai kamuy yang mempunyai tentakel.",
+        "en": "At-kor-kamuy can be interpreted as a kamuy with tentacles."
+      }
+    },
+    {
+      "id": "akkorokamui-c05",
+      "source_id": "akkorokamui-s1",
+      "quote": "An oft-reprinted folk narrative was one initially published by Iwao Yoshida ... (1914) under the double title of atui-na or akkorokamui",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Salah satu cerita rakyatnya mula-mula diterbitkan oleh Iwao Yoshida pada 1914.",
+        "en": "One of its folktales was first published by Iwao Yoshida in 1914."
+      }
+    },
+    {
+      "id": "akkorokamui-c06",
+      "source_id": "akkorokamui-s1",
+      "quote": "According to the legend of the Iburi region, the akkoro kamuy (a.k.a. atuina) is a giant octopus and the nushi (\"lord\") of Funka Bay (officially called Uchiura Bay).",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Cerita wilayah Iburi menyebutnya penguasa Teluk Funka.",
+        "en": "An Iburi tale calls it the lord of Funka Bay."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "sources",
+      "searched": "Penelusuran awal pada artikel Wikipedia yang tercantum di prompt; sumber independen tambahan belum terverifikasi."
+    },
+    {
+      "field": "images",
+      "searched": "Belum ada berkas Wikimedia Commons yang diverifikasi untuk entri ini."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "aobozu",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Aobōzu",
+    "native_name": null,
+    "display_name": {
+      "id": "Aobōzu",
+      "en": "Aobōzu"
+    },
+    "wikidata_qid": "Q3108877",
+    "claim_ids": [
+      "aobozu-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "aobozu-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "aobozu-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "aobozu-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "aobozu-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Aobōzu adalah yōkai Jepang yang muncul dalam beragam legenda.",
+    "en": "Aobōzu is a Japanese yōkai found in a range of legends.",
+    "claim_ids": [
+      "aobozu-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Aobōzu adalah yōkai Jepang yang muncul dalam beragam legenda. Rincian cerita mengenai makhluk ini berbeda-beda. Toriyama Sekien memasukkannya ke dalam karya ilustrasi yōkai.",
+      "en": "Aobōzu is a Japanese yōkai found in a range of legends. Details of the tales differ. Toriyama Sekien included it in an illustrated yōkai collection.",
+      "claim_ids": [
+        "aobozu-c01",
+        "aobozu-c02",
+        "aobozu-c03"
+      ]
+    },
+    {
+      "id": "Makhluk ini sering digambarkan sebagai sosok besar menyerupai pendeta. Di Gifu dan Hiroshima, beberapa kisah menghubungkannya dengan tanuki yang menyamar. Di Shizuoka, ada kisah aobōzu menculik anak yang melintasi ladang gandum menjelang senja.",
+      "en": "It is often portrayed as a large priest-like figure. Some Gifu and Hiroshima tales describe a disguised tanuki. A Shizuoka tale says it takes children crossing wheat fields near dusk.",
+      "claim_ids": [
+        "aobozu-c04",
+        "aobozu-c05",
+        "aobozu-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "aobozu-s1",
+      "url": "https://en.wikipedia.org/wiki/Aob%C5%8Dzu",
+      "title": "Aobōzu",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "aobozu-c01",
+      "source_id": "aobozu-s1",
+      "quote": "Aobōzu (青(あお)坊(ぼ)主(うず), \"Blue priest\") is a Japanese yōkai (spirit) found in a number of Japanese legends.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Aobōzu adalah yōkai Jepang yang muncul dalam beragam legenda.",
+        "en": "Aobōzu is a Japanese yōkai found in a range of legends."
+      }
+    },
+    {
+      "id": "aobozu-c02",
+      "source_id": "aobozu-s1",
+      "quote": "Stories about aobōzu, in particular the exact details of the spirit, vary widely.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Rincian cerita mengenai makhluk ini berbeda-beda.",
+        "en": "Details of the tales differ."
+      }
+    },
+    {
+      "id": "aobozu-c03",
+      "source_id": "aobozu-s1",
+      "quote": "As well as appearing in Japanese folklore, the aobōzu has also been depicted numerous times in traditional Japanese art; examples include one depiction of aobōzu found in Toriyama Sekien's e-hon tetralogy Gazu Hyakki Yagyō.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Toriyama Sekien memasukkannya ke dalam karya ilustrasi yōkai.",
+        "en": "Toriyama Sekien included it in an illustrated yōkai collection."
+      }
+    },
+    {
+      "id": "aobozu-c04",
+      "source_id": "aobozu-s1",
+      "quote": "Though the exact details of the aobōzu vary throughout legends, with differences often split along regional lines, the aobōzu is typically depicted as a large humanoid figure resembling a bōzu (priest).",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Makhluk ini sering digambarkan sebagai sosok besar menyerupai pendeta.",
+        "en": "It is often portrayed as a large priest-like figure."
+      }
+    },
+    {
+      "id": "aobozu-c05",
+      "source_id": "aobozu-s1",
+      "quote": "In Gifu Prefecture and Hiroshima Prefecture, appearances of the aobōzu are said to be a tanuki disguised as an aobōzu.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Di Gifu dan Hiroshima, beberapa kisah menghubungkannya dengan tanuki yang menyamar.",
+        "en": "Some Gifu and Hiroshima tales describe a disguised tanuki."
+      }
+    },
+    {
+      "id": "aobozu-c06",
+      "source_id": "aobozu-s1",
+      "quote": "In Shizuoka Prefecture, it is said that in spring, children who come home late around the time of sunset and run across a wheat field may be kidnapped by an aobōzu appearing from the wheat.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Di Shizuoka, ada kisah aobōzu menculik anak yang melintasi ladang gandum menjelang senja.",
+        "en": "A Shizuoka tale says it takes children crossing wheat fields near dusk."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "sources",
+      "searched": "Penelusuran awal pada artikel Wikipedia yang tercantum di prompt; sumber independen tambahan belum terverifikasi."
+    },
+    {
+      "field": "images",
+      "searched": "Belum ada berkas Wikimedia Commons yang diverifikasi untuk entri ini."
+    }
+  ]
+}
+```
+
+```json
+{
+  "schema": "mythics-entry/1",
+  "batch_id": "batch-050",
+  "slug": "aosaginohi",
+  "task": "enrich",
+  "tier": "core",
+  "researched_at": "2026-10-01",
+  "identity": {
+    "canonical_name": "Aosaginohi",
+    "native_name": null,
+    "display_name": {
+      "id": "Aosaginohi",
+      "en": "Aosaginohi"
+    },
+    "wikidata_qid": "Q3178924",
+    "claim_ids": [
+      "aosaginohi-c01"
+    ]
+  },
+  "alternate_names": [],
+  "jenis": {
+    "value": "yokai",
+    "claim_ids": [
+      "aosaginohi-c01"
+    ]
+  },
+  "classification": {
+    "value": "yokai",
+    "claim_ids": [
+      "aosaginohi-c01"
+    ]
+  },
+  "culture": {
+    "value": "japanese-folklore",
+    "suggested_new": null,
+    "claim_ids": [
+      "aosaginohi-c01"
+    ]
+  },
+  "region": {
+    "value": "east-asia",
+    "claim_ids": [
+      "aosaginohi-c01"
+    ]
+  },
+  "countries": null,
+  "era": null,
+  "habitats": [],
+  "disposition": null,
+  "traits": [],
+  "short_description": {
+    "id": "Aosaginohi adalah cerita cahaya aneh malam hari yang dihubungkan dengan burung bangau.",
+    "en": "Aosaginohi is a tale of strange night lights linked with a heron.",
+    "claim_ids": [
+      "aosaginohi-c01"
+    ]
+  },
+  "long_description": [
+    {
+      "id": "Aosaginohi adalah cerita cahaya aneh malam hari yang dihubungkan dengan burung bangau. Istilah aosagi merujuk pada bangau abu-abu Eurasia dalam taksonomi modern. Fenomena serupa juga dinamai goi no hi atau goi no hikari.",
+      "en": "Aosaginohi is a tale of strange night lights linked with a heron. Aosagi denotes the Eurasian grey heron in modern taxonomy. Related lights are also called goi no hi or goi no hikari.",
+      "claim_ids": [
+        "aosaginohi-c01",
+        "aosaginohi-c02",
+        "aosaginohi-c03"
+      ]
+    },
+    {
+      "id": "Sekien menggambar aosaginohi dalam kumpulan yōkai terbitan 1779. Sejak zaman Edo, cahaya itu ditafsirkan sebagai mata dan sayap bangau yang tampak bercahaya. Mimibukuro mencatat kabar tentang bangau bercahaya yang ditembak seorang samurai.",
+      "en": "Sekien illustrated aosaginohi in a yōkai collection published in 1779. Since the Edo period, the lights have been explained as apparently glowing heron eyes and wings. Mimibukuro records a tale of a glowing heron shot by a samurai.",
+      "claim_ids": [
+        "aosaginohi-c04",
+        "aosaginohi-c05",
+        "aosaginohi-c06"
+      ]
+    }
+  ],
+  "cultural_context": null,
+  "etymology": null,
+  "story_mode": null,
+  "did_you_know": null,
+  "abilities": [],
+  "weaknesses": [],
+  "variants": [],
+  "stories": [],
+  "places": [],
+  "timeline": [],
+  "relations": [],
+  "modern_depictions": [],
+  "tradition_vs_modern": null,
+  "learning_questions": [],
+  "images": [],
+  "sources": [
+    {
+      "id": "aosaginohi-s1",
+      "url": "https://en.wikipedia.org/wiki/Aosaginohi",
+      "title": "Aosaginohi",
+      "author": null,
+      "publisher": "Wikipedia",
+      "published": null,
+      "language": "en",
+      "type": "wikipedia",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "id": "aosaginohi-c01",
+      "source_id": "aosaginohi-s1",
+      "quote": "Aosaginohi, or Aosagibi (青(あお)鷺(さぎ)火(び), \"blue heron fire\") is a will-o'-the-wisp type phenomenon in the night, a ball of flame or strange glowing light (hikarimono), explained as people mistaking the heron's glittering wings and glowing eyes.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Aosaginohi adalah cerita cahaya aneh malam hari yang dihubungkan dengan burung bangau.",
+        "en": "Aosaginohi is a tale of strange night lights linked with a heron."
+      }
+    },
+    {
+      "id": "aosaginohi-c02",
+      "source_id": "aosaginohi-s1",
+      "quote": "The ao sagi ... in modern taxonomy refers to the Eurasian grey heron",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Istilah aosagi merujuk pada bangau abu-abu Eurasia dalam taksonomi modern.",
+        "en": "Aosagi denotes the Eurasian grey heron in modern taxonomy."
+      }
+    },
+    {
+      "id": "aosaginohi-c03",
+      "source_id": "aosaginohi-s1",
+      "quote": "The strange light phenomenon is also called goi no hi ... or goi no hikari",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Fenomena serupa juga dinamai goi no hi atau goi no hikari.",
+        "en": "Related lights are also called goi no hi or goi no hikari."
+      }
+    },
+    {
+      "id": "aosaginohi-c04",
+      "source_id": "aosaginohi-s1",
+      "quote": "The aosagi-no-hi appears in the illustrated yōkai compendium, Toriyama Sekien's Konjaku Gazu Zoku Hyakki (pub. 1779), whereas goi no hikari appears in Tōsanjin's Ehon hyaku monogatari (1841) illustrated by Takehara Shunsen].",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Sekien menggambar aosaginohi dalam kumpulan yōkai terbitan 1779.",
+        "en": "Sekien illustrated aosaginohi in a yōkai collection published in 1779."
+      }
+    },
+    {
+      "id": "aosaginohi-c05",
+      "source_id": "aosaginohi-s1",
+      "quote": "Since the Edo Period, these mystery lights have been explained away as herons whose wings and eyes glowed in the dark as they flew.",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Sejak zaman Edo, cahaya itu ditafsirkan sebagai mata dan sayap bangau yang tampak bercahaya.",
+        "en": "Since the Edo period, the lights have been explained as apparently glowing heron eyes and wings."
+      }
+    },
+    {
+      "id": "aosaginohi-c06",
+      "source_id": "aosaginohi-s1",
+      "quote": "Rumor about a glowing heron being killed and eaten by a samurai occurs in Mimibukuro",
+      "locator": "Article text",
+      "context": "traditional-belief",
+      "statement": {
+        "id": "Mimibukuro mencatat kabar tentang bangau bercahaya yang ditembak seorang samurai.",
+        "en": "Mimibukuro records a tale of a glowing heron shot by a samurai."
+      }
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "field": "sources",
+      "searched": "Penelusuran awal pada artikel Wikipedia yang tercantum di prompt; sumber independen tambahan belum terverifikasi."
+    },
+    {
+      "field": "images",
+      "searched": "Belum ada berkas Wikimedia Commons yang diverifikasi untuk entri ini."
+    }
+  ]
+}
+```

@@ -1,8 +1,6 @@
 # Review batch-050
 
-Diperiksa 2026-10-01T02:10:04.576Z. Berkas: batch-050.md, batch-050-fix-1.md.
-
-**Belum dikirim:** bake-kujira, isonade, ittan-momen, kotoamatsukami, mononoke, ningyo, raiju, satori-folklore, amefurikozo, aoandon, dosojin, futakuchi-onna, goryo, kamimusubi, kasha-folklore, nure-onna, sarutahiko-okami, shirime, takamimusubi, akkorokamui, aobozu, aosaginohi
+Diperiksa 2026-10-01T02:20:33.925Z. Berkas: batch-050.md, batch-050-fix-1.md, batch-050-fix-2.md.
 
 ## yatagarasu — lulus-otomatis
 
@@ -522,4 +520,359 @@ Klaim 10 (exact 9, loose 1), sumber 3, gambar 0.
 | ame-no-minakanushi-c08 | exact | d-museum.kokugakuin.ac.jp | Kokugaku scholars who emphasized the Kojiki reevaluated Ame-no-Minakanushi. | As students of National Learning (Kokugaku) began to place greater emphasis on Kojiki, however, Amenominakanushi came to be more widely appreciated, and his significance was reevaluated. |
 | ame-no-minakanushi-c09 | exact | d-museum.kokugakuin.ac.jp | In the early Meiji period, Ame-no-Minakanushi became central at Daikyōin and was worshipped in sectarian Shinto. | Amenominakanushi was made a central deity at the Daikyōin in the early Meiji period, and he was worshiped within sectarian Shinto |
 | ame-no-minakanushi-c10 | exact | kojiki.kokugakuin.ac.jp | The study translates Ame-no-Minakanushi's name as 'center of heaven'. | In the Kojiki, too, Ame no minakanushi no kami, whose name means “center of heaven,” appears first |
+
+
+## bake-kujira — lulus-otomatis
+
+Klaim 7 (exact 7), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| bake-kujira-c01 | exact | hyakumonogatari.com | Bake-kujira is depicted as a huge whale skeleton that appeared and vanished mysteriously. | For bones are all you can see of the Bakekujira—a massive, skeletal baleen whale that appeared and disappeared under mysterious circumstances once of the coast of Japan. |
+| bake-kujira-c02 | exact | en.wikipedia.org | Bake-kujira is a Japanese sea yōkai in whale-skeleton form, also called Hone-kujira. | Bake-kujira (化鯨, "ghost whale"), also known as Hone-kujira (骨鯨, "bone whale"), is a yōkai in Japanese folklore, typically depicted as the skeletal remains of a whale appearing at sea on stormy nights. |
+| bake-kujira-c03 | exact | hyakumonogatari.com | The tale places its appearance on a rainy night off Okino Island, Shimane. | One rainy night, something massive and white appeared off the coast of Okino Island, Shimane prefecture. Fishermen from the village watched it get closer and closer, and finally decided to take a rowboat out and see what it was. |
+| bake-kujira-c04 | exact | hyakumonogatari.com | A fisherman's harpoon passed through the whale without effect in the story. | As they neared the white whale, one of the fisherman threw his harpoon and it passed through the mass of white unnoticed. |
+| bake-kujira-c05 | exact | hyakumonogatari.com | The whale skeleton was accompanied by unfamiliar fish and strange birds. | The men were terrified, even more so because the ocean was writhing with unknown fish, and the skies were filled with strange birds. |
+| bake-kujira-c06 | exact | hyakumonogatari.com | The fishermen guessed it was a hunted whale's ghost or a strange god, and the tale says it was not seen again. | When the fishermen went back to shore, they speculated that it might have been the ghost of a whale killed in a hunt or some strange god. Whatever it was, the bakekujira was never seen again. |
+| bake-kujira-c07 | exact | hyakumonogatari.com | The author stresses that only one account of its appearance is known. | That’s it. There is that one story of the one appearance of the bakekujira, and that is the sum total of knowledge on the boney beastie. |
+
+
+## isonade — lulus-otomatis
+
+Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| isonade-c01 | loose | en.wikipedia.org | Isonade is a shark-like sea monster in western Japanese lore. | The Isonade (磯撫で; "beach stroker") is an enormous, shark-like sea monster said to live off the coast of Matsuura and other places in Western Japan. |
+| isonade-c02 | exact | www.nichibun.ac.jp | A Kumano record describes Isonade as a long-tailed shark striking the shore. | イソナデは尾の長い鮫。磯端で尾で打つ。海辺で死んだ人がいると「磯ナデになでられたんだろう」などという。 |
+| isonade-c03 | exact | en.wikipedia.org | Ehon Hyaku Monogatari says its body stays underwater except for a barbed tail fin. | According to the Ehon Hyaku Monogatari, its body has never been seen, as it is always "hidden beneath the waves, save for its huge tail fin which is covered in small barbs." |
+| isonade-c04 | exact | en.wikipedia.org | One version says Isonade hooks sailors with its tail and drags them into the sea. | It approaches boats stealthily and uses its hooked tail to snare sailors and drag them into the sea, where it devours them. |
+| isonade-c05 | exact | en.wikipedia.org | Another version says its tail overturns boats or strikes people on the beach. | It may also simply use its tail to capsize boats, or strike the beach with its tail and kill people there. |
+| isonade-c06 | exact | www.nichibun.ac.jp | A folklore database records Isonade in Kumano, Mie Prefecture. | ■ 地域（都道府県名） 三重県 ■ 地域（市・郡名） 熊野市 ■ 地域（区町村名） ■ 要約 イソナデは尾の長い鮫。 |
+
+
+## ittan-momen — lulus-otomatis
+
+Klaim 6 (loose 1, exact 5), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| ittan-momen-c01 | loose | en.wikipedia.org | Ittan-momen is a yōkai of Kimotsuki, Kagoshima. | Ittan-momen (一反木綿, "one bolt (tan) of cotton") are yōkai (supernatural beings) in the folklore of Kōyama, Kimotsuki District, Kagoshima Prefecture (now Kimotsuki). |
+| ittan-momen-c02 | exact | www.nichibun.ac.jp | Yanagita's record describes a fluttering cloth-like monster attacking people at night. | 一反木綿という名の怪物がいる。一反木綿の形をしたものが現れて、夜間にひらひらとして人間を襲うという。 |
+| ittan-momen-c03 | exact | sekiei.nichibun.ac.jp | Another record describes fluttering white cloth on a night road that dazzles people. | ■ 地域（都道府県名） 鹿児島県 ■ 地域（市・郡名） 高山地方 ■ 地域（区町村名） ■ 要約 夜道で白い反物のようなものが目の前に現れて、ひらひらして人の目をくらまして人を襲う。 |
+| ittan-momen-c04 | exact | en.wikipedia.org | The tale says the cloth wraps around necks and covers faces. | They are said to wrap around people's necks and cover people's faces and suffocate people to death |
+| ittan-momen-c05 | exact | en.wikipedia.org | One story tells of a man cutting the cloth from his neck, whereupon it vanished. | There is a story where one man hurrying to his home at night when a white cloth came and wrapped around his neck, and when he cut it with his wakizashi (short sword), the cloth disappeared |
+| ittan-momen-c06 | exact | en.wikipedia.org | Ittan-momen became more widely known after appearing in Mizuki Shigeru's manga GeGeGe no Kitarō. | There are no depictions of ittan momen in classical yōkai emaki, so these yōkai was once relatively unknown, but they have become more widely known since appearing in Mizuki Shigeru's manga GeGeGe no Kitarō. |
+
+
+## kotoamatsukami — lulus-otomatis
+
+Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| kotoamatsukami-c01 | loose | en.wikipedia.org | Kotoamatsukami is a collective name for early Shinto deities. | In Shinto, Kotoamatsukami (別天津神; literally "distinguishing heavenly kami") is the collective name for the first gods which came into existence at the time of the creation of the universe. |
+| kotoamatsukami-c02 | exact | d-museum.kokugakuin.ac.jp | The Encyclopedia of Shinto identifies them as the first five kami in the Kojiki. | "Separate heavenly kami," a name referring to the first five kami appearing in the Kojiki. |
+| kotoamatsukami-c03 | exact | d-museum.kokugakuin.ac.jp | Three of the five are Amenominakanushi, Takamimusuhi, and Kamimusuhi. | The five include the "three kami of creation" (zōka sanshin), namely Amenominakanushi no kami, Takamimusuhi, and Kamimusuhi no kami |
+| kotoamatsukami-c04 | exact | d-museum.kokugakuin.ac.jp | The other two are Umashiashikabihikoji and Amenotokotachi. | together with Umashiashikabihikoji no kami and Amenotokotachi no kami. |
+| kotoamatsukami-c05 | exact | d-museum.kokugakuin.ac.jp | The five kami are said to have come into existence alone and then hidden themselves. | These five kami are characterized by the fact that they came into existence alone (hitorigami), and after coming into being, "hid" themselves. |
+| kotoamatsukami-c06 | exact | d-museum.kokugakuin.ac.jp | The term kotoamatsukami is absent from the Nihongi. | The term kotoamatsukami is not found in Nihongi. |
+
+
+## mononoke — lulus-otomatis
+
+Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| mononoke-c01 | loose | en.wikipedia.org | Mononoke denotes spirits believed to possess people and cause suffering or illness. | Mononoke (物の怪) are vengeful spirits (onryō), dead spirits (shiryō), live spirits (ikiryō), or spirits in Japanese classical literature and folk religion that were said to do things like possess individuals and make them suffer, cause disease, or even cause death. |
+| mononoke-c02 | exact | en.wikipedia.org | The term is sometimes used for yōkai or transformed beings. | It is also a word sometimes used to refer to yōkai or henge ("changed beings"). |
+| mononoke-c03 | exact | en.wikipedia.org | Mononoke often appear in Heian literature. | Mononoke can be often seen in literature of the Heian period. |
+| mononoke-c04 | exact | en.wikipedia.org | The Aoi chapter of The Tale of Genji links Lady Rokujō’s living spirit with Aoi no Ue’s possession. | As a famous example, in the 9th volume of the Genji Monogatari, "Aoi" is the ikiryō of Lady Rokujo, who possessed Aoi no Ue. |
+| mononoke-c05 | exact | en.wikipedia.org | Ōkagami and Masukagami also mention mononoke. | Other than that, there are also statements about mononoke in publications like Ōkagami and Masukagami. |
+| mononoke-c06 | exact | en.wikipedia.org | The Pillow Book and Lady Murasaki’s diary record practices concerning mononoke. | Statements on this practice can be found in detail in works like The Pillow Book and The Diary of Lady Murasaki. |
+
+
+## ningyo — lulus-otomatis
+
+Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| ningyo-c01 | loose | en.wikipedia.org | Ningyo is a being in Japanese literature with human and fish traits. | Ningyo (人魚; "human fish"), is a creature with both human and fish-like features, described in various pieces of Japanese literature. |
+| ningyo-c02 | exact | en.wikipedia.org | The translation mermaid is incomplete because the word is not limited to females. | Though often translated as "mermaid", the term is technically not gender-specific and may include the "mermen". |
+| ningyo-c03 | exact | en.wikipedia.org | The Nihon Shoki records alleged captures of freshwater beings in the seventh century. | The earliest records of the ningyo attested in written Japanese sources are freshwater beings allegedly captured in the 7th century (§Asuka period), documented later in the Nihon Shoki. |
+| ningyo-c04 | exact | en.wikipedia.org | Later examples generally place ningyo in the sea. | But subsequent examples are usually seawater beings. |
+| ningyo-c05 | exact | en.wikipedia.org | In medieval accounts, a ningyo stranded on shore was seen as an ill omen. | In later medieval times (§Kamakura and Muromachi periods)), it was held to be a sign of ill omen, and its beaching (§Omens in Michinoku) was blamed for subsequent bloody battles or calamity. |
+| ningyo-c06 | exact | en.wikipedia.org | In the Edo period, preserved ningyo specimens were made from fish parts. | There were also preserved ningyo being manufactured using fish parts (§Mummies or Feejee mermaids), and illustrated by some scholars of the period (e.g. §Baien gyofu); some such mummies are held by certain temples that have ningyo legend attached to them (cf. §Prince Shōtoku). |
+
+
+## raiju — lulus-otomatis
+
+Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| raiju-c01 | loose | en.wikipedia.org | Raijū is a Japanese yōkai linked to thunder, lightning and Raijin. | In Japanese mythology, the raijū (雷獣, らいじゅう; lit. "thunder animal/beast") is a legendary creature and yōkai associated with lightning and thunder, as well as the god Raijin. |
+| raiju-c02 | exact | en.wikipedia.org | The creature is said to appear during lightning strikes. | It is said to appear with lightning strikes. |
+| raiju-c03 | exact | en.wikipedia.org | Legends about it occur across Japan, especially in the east. | Legends of the creature exist throughout Japan, centered primarily in East Japan. |
+| raiju-c04 | exact | en.wikipedia.org | Its name appears in Edo essays and later folklore records. | Its name appears frequently in Edo period essays and modern folklore materials. |
+| raiju-c05 | exact | en.wikipedia.org | Raijū is described as made of or wrapped in lightning. | A raijū's body is composed of (or wrapped in) lightning. |
+| raiju-c06 | exact | en.wikipedia.org | Raijū is described as the companion of the thunder god Raijin. | Raijū is the companion of Raijin, the Shinto god of lightning. |
+
+
+## satori-folklore — lulus-otomatis
+
+Klaim 7 (loose 1, exact 6), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| satori-folklore-c01 | loose | en.wikipedia.org | Satori is a mind-reading, ape-like yōkai of the Hida and Mino mountains. | Satori (覚; "consciousness") in Japanese folklore are mind-reading monkey-like monsters ("yōkai") said to dwell within the mountains of Hida and Mino (presently Gifu Prefecture). |
+| satori-folklore-c02 | exact | en.wikipedia.org | Satori is said to speak a person's thoughts aloud quickly. | Upon reading a person's mind, the satori would say the person's thoughts aloud faster than a human could. |
+| satori-folklore-c03 | exact | en.wikipedia.org | Satori appears in Toriyama Sekien's Konjaku Gazu Zoku Hyakki. | A satori is depicted in Toriyama Sekien's Konjaku Gazu Zoku Hyakki |
+| satori-folklore-c04 | exact | www.nichibun.ac.jp | A Fukushima record tells of Satori visiting an old man in a mountain hut and reading his mind. | ■ 地域（都道府県名） 福島県 ■ 地域（市・郡名） 南会津郡 ■ 地域（区町村名） ■ 要約 昔爺様が山小屋で火に当たっていると、得体の知れない化け物がやって来た。爺さんの心の中を見透かすさとりの化け物だった。 |
+| satori-folklore-c05 | exact | www.nichibun.ac.jp | In the Fukushima tale, Satori is frightened when struck by a springing piece of wood. | ■ 地域（都道府県名） 福島県 ■ 地域（市・郡名） 南会津郡 ■ 地域（区町村名） ■ 要約 昔爺様が山小屋で火に当たっていると、得体の知れない化け物がやって来た。爺さんの心の中を見透かすさとりの化け物だった。柴を折ったときにはねて化け物に当たると化け物はおびえたという。 |
+| satori-folklore-c06 | exact | www.nichibun.ac.jp | A Shizuoka record tells of a hunter whose thoughts Satori reads in the mountains. | ■ 地域（都道府県名） 静岡県 ■ 地域（市・郡名） 周智郡 ■ 地域（区町村名） ■ 要約 狩人が山でサトリにあった。心に思うことを次々に悟られ、恐ろしくなって撃とうと思い、黄金の弾丸を取り出した。 |
+| satori-folklore-c07 | exact | www.nichibun.ac.jp | In the hunter tale, Satori retreats from a gold bullet and asks that the meeting be kept secret. | サトリは黄金の弾丸には叶わない。合ったことを口外するなと言い、立ち去った。 |
+
+
+## amefurikozo — lulus-otomatis
+
+Klaim 6 (loose 2, exact 4), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| amefurikozo-c01 | loose | en.wikipedia.org | Amefurikozō is a Japanese yōkai. | Amefurikozō (雨降小僧, 雨降り小僧) is a type of Japanese yōkai. |
+| amefurikozo-c02 | exact | en.wikipedia.org | It appears in Toriyama Sekien’s collection and in kibyōshi. | There is a depiction of this yōkai in Sekien Toriyama's collection of yōkai drawing the Konjaku Gazu Zoku Hyakki, and they can also be seen in the kibyōshi among other publications of the same era. |
+| amefurikozo-c03 | exact | en.wikipedia.org | Sekien depicts it with a poleless umbrella and a paper lantern. | In the Konjaku Gazu Zoku Hyakki it wears a Japanese umbrella with its central pole missing, and it is depicted possessing a paper lantern. |
+| amefurikozo-c04 | exact | en.wikipedia.org | In Edo kibyōshi it appears in a servant role. | In the kibyōshi of the Edo period, just like the popular kibyōshi character tōfu-kozō, they appear as yōkai that take on the role of servants. |
+| amefurikozo-c05 | loose | en.wikipedia.org | A kibyōshi from 1792 depicts it as one-eyed and wearing a bamboo hat in the rain. | In the kibyōshi "Gozonji no Bakemono (御存之化物)" by Jihinari Sakuragawa and illustrated by Utagawa Toyokuni published in Kansei 4 (1792), when a man walks on a rainy night, a one-eyed amefurikozō wearing a bamboo kasa would step up possessing something in both its hands. |
+| amefurikozo-c06 | exact | en.wikipedia.org | The tale of an umbrella that cannot be removed comes from later yōkai literature. | According to yōkai literature published after the Showa and Heisei eras, there are theories that if one were to steal the umbrella from an amefurikozō and wear it, one would not be able to take it off; and that amefurikozō make it shower and delight at seeing people get troubled. |
+
+
+## aoandon — lulus-otomatis
+
+Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| aoandon-c01 | loose | en.wikipedia.org | Aoandon is a being illustrated by Toriyama Sekien in Konjaku Hyakki Shūi. | Aoandon, or Aoandō (青(あお)行(あん)灯(どん) or 青行燈, "blue andon") is a creature illustrated by Toriyama Sekien in his Konjaku Hyakki Shūi. |
+| aoandon-c02 | exact | en.wikipedia.org | It represents the spirit said to appear after the last Hyakumonogatari story. | It was meant to represent the spirit that appeared during the game Hyakumonogatari Kaidankai, after the last story was told. |
+| aoandon-c03 | exact | en.wikipedia.org | Its name is linked to blue-paper lanterns used during the storytelling game. | The candles in the room during these meetings were often placed in blue-paper andon lamps in order to create an eerie atmosphere, hence this creature's name. |
+| aoandon-c04 | exact | en.wikipedia.org | Sekien depicts a blue-skinned woman with two horns and sharp teeth. | It appears as a woman with a blue complexion and twin horns from its brow, and sharp teeth. |
+| aoandon-c05 | exact | en.wikipedia.org | The game Onmyōji depicts Aoandon as a storytelling shikigami. | In the mobile game Onmyōji, Aoandon is a shikigami who loves storytelling. |
+| aoandon-c06 | exact | en.wikipedia.org | Aoandon also appears in the 2025 game Assassin’s Creed Shadows. | An Aoandon appears in the 2025 video game Assassin's Creed Shadows as a mini-boss in the side mission "The Yokai". |
+
+
+## dosojin — lulus-otomatis
+
+Klaim 7 (exact 6, loose 1), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| dosojin-c01 | exact | en.wikipedia.org | Dōsojin are protective Shinto deities venerated in eastern Japan. | Dōsojin (道祖神) are a class of protective Shinto deities (kami) commonly venerated in eastern Japan, particularly in the Kantō, Chūbu, and Tōhoku regions. |
+| dosojin-c02 | loose | en.wikipedia.org | Other names include Sae no kami and Shakujin. | Also called Sae no kami or Sai no kami (障の神・塞の神), Dōrokujin (道陸神) or Shakujin (石神; literally: "stone kami"). |
+| dosojin-c03 | exact | en.wikipedia.org | They may be represented by a human couple, stones, statues or roadside poles. | Dōsojin are often represented as a human couple, carved male or female genitals, large stones or statues, or even tall poles along a road. |
+| dosojin-c04 | exact | en.wikipedia.org | Some are housed in small roadside shrines called hokora. | Dōsojin are sometimes housed in small roadside Shinto shrines called hokora. |
+| dosojin-c05 | exact | en.wikipedia.org | Dōsojin are found at village borders, mountain passes, crossroads and bridges. | In rural areas Dōsojin can be found at village boundaries, in mountain passes, or along byways, and in urban areas they can be seen at street corners or near bridges. |
+| dosojin-c06 | exact | en.wikipedia.org | Phallic forms are associated with birth and marital harmony. | When shaped like a phallus, they are associated with birth, procreation, and marital harmony. |
+| dosojin-c07 | exact | d-museum.kokugakuin.ac.jp | Their festivals include expelling pestilential spirits and praying for a good harvest. | observances involve the exorcism of pestilent spirits and prayers for good harvest in the coming year. |
+
+
+## futakuchi-onna — lulus-otomatis
+
+Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| futakuchi-onna-c01 | loose | en.wikipedia.org | Futakuchi-onna is a two-mouthed woman yōkai in Japanese stories. | Futakuchi-onna (ふたくちおんな - 二口女; "two-mouthed woman") is a type of yōkai or Japanese monster. |
+| futakuchi-onna-c02 | exact | en.wikipedia.org | Her second mouth is hidden behind her head under her hair. | She is characterized by her two mouths – a normal one located on her face and a second one on the back of the head beneath the hair. |
+| futakuchi-onna-c03 | exact | en.wikipedia.org | The extra mouth is depicted with lips, teeth and a tongue. | There, the woman's skull splits apart, forming lips, teeth and a tongue, creating an entirely functional second mouth. |
+| futakuchi-onna-c04 | exact | en.wikipedia.org | The second mouth is often linked to a woman who eats very little. | The origin of futakuchi-onna's second mouth is often linked to how little a woman eats. |
+| futakuchi-onna-c05 | exact | en.wikipedia.org | In many stories she is the wife of a miser. | In many stories, the soon-to-be futakuchi-onna is a wife of a miser and rarely eats. |
+| futakuchi-onna-c06 | exact | en.wikipedia.org | The extra mouth demands food and utters threats. | The second mouth often mumbles spiteful and threatening things to the woman and demands food. |
+
+
+## goryo — lulus-otomatis
+
+Klaim 8 (loose 2, exact 6), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| goryo-c01 | loose | en.wikipedia.org | Goryō is an honorific term for spirits, especially haunting ones. | In a broad sense, Goryō (御霊; Japanese: [ɡoɾʲoː]) is an honorific for a spirit, especially one that causes hauntings, and the term is used as a synonym for onryō (怨霊, vengeful Japanese ghosts). |
+| goryo-c02 | exact | en.wikipedia.org | More narrowly, a goryō is the spirit of a person who died tragically, was blamed for calamity and later enshrined as a kami. | In a narrower sense, it refers to a noble or accomplished person who lost a political power struggle or died prematurely from an epidemic or other disease, becoming an onryō that brings pestilence or famine and is later enshrined as a kami in Shinto shrines. |
+| goryo-c03 | exact | en.wikipedia.org | Sandai Jitsuroku mentions six shrines for spirits of people who died unnaturally. | For example, the "Sandai Jitsuroku" (a historical Japanese document) mentions that six Shinto shrines were dedicated to the worship of goryō, which were the spirits of those who died from non-natural causes. |
+| goryo-c04 | loose | en.wikipedia.org | Goryō belief includes appeasing resentful spirits by enshrining them as kami. | Goryō Shinko (御霊信仰, Belief in goryō) refers to the belief that the onryō of people who have died unfortunate deaths cause hauntings and disasters, and the belief that they are enshrined as kami to appease them. |
+| goryo-c05 | exact | en.wikipedia.org | The name combines characters meaning honorable and spirit. | The name consists of two kanji, 御 (go) meaning honorable and 霊 (ryō) meaning soul or spirit. |
+| goryo-c06 | exact | en.wikipedia.org | A plague in Kyoto after Prince Sawara’s death was feared to be caused by his spirit. | After his death, a plague epidemic broke out in Kyoto, which people feared was caused by his spirit. |
+| goryo-c07 | exact | d-museum.kokugakuin.ac.jp | The Encyclopedia of Shinto says goryō were feared because they were linked to calamity. | they were linked to calamities and thus feared. |
+| goryo-c08 | exact | d-museum.kokugakuin.ac.jp | The Encyclopedia of Shinto distinguishes goryō from onryō because goryō also include epidemic deities. | Although there were aspects of angry spirits (onryō) that overlapped with that of goryō, these former were distinguished from the latter because they did not include kami of epidemics |
+
+
+## kamimusubi — lulus-otomatis
+
+Klaim 7 (exact 6, loose 1), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| kamimusubi-c01 | exact | en.wikipedia.org | Kamimusubi is a creation kami in Japanese mythology. | Kamimusubi (神産巣日, lit. "Sacred Generative Force"), also known as Kamimusuhi among other variants, is a kami and god of creation in Japanese mythology. |
+| kamimusubi-c02 | exact | en.wikipedia.org | It belongs to the first three kami alongside Ame-no-Minakanushi and Takamimusubi. | They are a hitorigami, and the third of the first three kami to come into existence (Kotoamatsukami), alongside Ame-no-Minakanushi and Takamimusubi, forming a trio at the beginning of all creation. |
+| kamimusubi-c03 | exact | en.wikipedia.org | The name joins kami and musubi, a creative force. | The name is composed of kami, denoting deity, and musubi, meaning "effecting force of creation". |
+| kamimusubi-c04 | exact | en.wikipedia.org | In the creation account, Kamimusubi is in Takamagahara with the other early kami. | At the time of the creation of heaven and earth, Kamimusubi was in Takamagahara next to Ame-no-Minakanushi and Takamimusubi. |
+| kamimusubi-c05 | loose | en.wikipedia.org | The Kojiki portrays Kamimusubi as an ancestral god helping the gods of Izumo. | In Kojiki, Kamimusubi is an ancestral god who sits in Takamagahara and assists the gods of Izumo, and is called "Mi-Oya" (honorfic name for ancestor) by other gods. |
+| kamimusubi-c06 | exact | en.wikipedia.org | Kamimusubi is linked to the emergence of five grains from Ōgetsu-hime’s body. | Kamimusubi became the ancestral god of the five grains (progenitors) after Kamimusubi transformed the grains produced from the body of Ōgetsu-hime, the goddess of food, who was killed by Susanoo, the god of storms. |
+| kamimusubi-c07 | exact | d-museum.kokugakuin.ac.jp | According to the Kojiki, Kamimusubi restored Ōnamuchi to life at his mother’s request. | she granted the wish of Ōnamuchi's mother by restoring him to life |
+
+
+## kasha-folklore — lulus-otomatis
+
+Klaim 6 (exact 6), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| kasha-folklore-c01 | exact | en.wikipedia.org | Kasha is a Japanese yōkai said to steal corpses. | in Japanese folklore is a yōkai said to steal corpses. It is now generally regarded to be a monster in cat-form |
+| kasha-folklore-c02 | exact | en.wikipedia.org | Modern depictions are often cat-like while earlier forms were demon-like. | It is now generally regarded to be a monster in cat-form, though earlier archetypes made them demon-like. |
+| kasha-folklore-c03 | exact | en.wikipedia.org | The earlier kasha was a fiery vehicle carrying sinners to Buddhist hell. | The kasha was originally neither an animal- nor man-like monster, but a fire vehicle (cf. hi no kuruma) assigned the mission of conveying the sinful to Buddhist hell. |
+| kasha-folklore-c04 | exact | en.wikipedia.org | Early modern depictions also associated it with hell wardens or the thunder god. | The kasha as yōkai in the early modern period (16th century) was originally conceived of as the demon-like beings |
+| kasha-folklore-c05 | exact | en.wikipedia.org | Conflation with corpse-stealing nekomata tales helped produce its cat form. | But due to conflation with the legends of the devil-cat (nekomata) stealing cadavers, the kasha came to be seen as a cat-like yōkai in the late 17th century. |
+| kasha-folklore-c06 | exact | en.wikipedia.org | Kasha is often associated with dark clouds and thunder. | The kasha is often said to appear with dark clouds, thunderclaps, or thunderstorms. |
+
+
+## nure-onna — lulus-otomatis
+
+Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| nure-onna-c01 | loose | en.wikipedia.org | Nure-onna is a Japanese yōkai with a woman’s head and a snake’s body. | Nure-onna (濡女; "wet woman") is a Japanese yōkai which resembles a reptilian creature with the head of a woman and the body of a snake. |
+| nure-onna-c02 | exact | en.wikipedia.org | At sea, the phenomenon is also called nureyomejo. | They are also seen as a paranormal phenomenon at sea under the name of nureyomejo. |
+| nure-onna-c03 | exact | en.wikipedia.org | Legends often portray it as eating people, but its appearance and character vary. | In legends, they are often said to consume humans, but they have no single appearance or personality. |
+| nure-onna-c04 | exact | en.wikipedia.org | Tales place nure-onna at seas or rivers. | They are similar to the yōkai called isoonna of Kyushu, and like the isoonna, they are said to appear at seas or rivers. |
+| nure-onna-c05 | exact | en.wikipedia.org | Its name is linked to hair that is always wet. | Their name comes from how their hair is always wet in legends. |
+| nure-onna-c06 | exact | en.wikipedia.org | Edo illustrated books show a snake-bodied woman, though no classical tale of that form has been identified. | Many Edo Period publications such as the Hyakkai Zukan, Gazu Hyakki Yagyō, among others, depict this yōkai as a woman with a snake body, which would make it appear as if this was a well-known yōkai of the time, but there are no stories about a snake-bodied nure-onna in the classical literature of the time that can be found. |
+
+
+## sarutahiko-okami — lulus-otomatis
+
+Klaim 7 (loose 1, exact 6), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| sarutahiko-okami-c01 | loose | en.wikipedia.org | Sarutahiko Ōkami is a Shinto deity who leads the earthly kami. | Sarutahiko/Sarudahiko/Sarutabiko Ōkami (猿田毘古大神／猿田彦大神; Japanese pronunciation: [sa.ɾɯ.taꜜ.çi̥.ko]) is a deity of the Japanese religion of Shinto; he is the leader of the earthly kami. |
+| sarutahiko-okami-c02 | exact | en.wikipedia.org | Jinnō Shōtōki names him an ancestor of Otanomikoto. | Sarutahiko Ōkami was the head of the kunitsukami and in the Jinnō Shōtōki is said to have been the ancestor of Otanomikoto. |
+| sarutahiko-okami-c03 | exact | en.wikipedia.org | He is associated with purification, strength and guidance. | Sarutahiko Ōkami is seen as a symbol of Misogi, strength and guidance, which is why he is the patron of martial arts such as aikido. |
+| sarutahiko-okami-c04 | exact | en.wikipedia.org | Sarutahiko is enshrined at several sites including Tsubaki Grand Shrine. | He is enshrined at Tsubaki Grand Shrine in Mie Prefecture; first among the 2000 shrines of Sarutahiko Ōkami, Sarutahiko Jinja in Ise, Mie; and Ōasahiko Shrine in Tokushima Prefecture, and Sarutahiko Shrine in Mie Prefecture. |
+| sarutahiko-okami-c05 | exact | en.wikipedia.org | The Nihon Shoki tells of his meeting Ninigi during Ninigi’s descent. | In the Nihon Shoki, he is the one who meets Ninigi-no-Mikoto, the grandson of Amaterasu, the Sun goddess, when he descends from Takama-ga-hara. |
+| sarutahiko-okami-c06 | exact | en.wikipedia.org | He is portrayed as tall with a large beard, ruddy face and long nose. | He is depicted as a towering man with a large beard, jeweled spear, ruddy face, and long nose. |
+| sarutahiko-okami-c07 | exact | d-museum.kokugakuin.ac.jp | The Kojiki says Sarutahiko drowned after his hand was trapped by a giant clam at Azaka. | where Kojiki records that his hand became trapped inside a large clam at Azaka, and he thus drowned. |
+
+
+## shirime — lulus-otomatis
+
+Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
+
+**warn**
+- `claims (shirime-c02)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
+
+**manual**
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| shirime-c01 | loose | en.wikipedia.org | Shirime is a yōkai that looks human at a distance. | Shirime (Japanese: 尻目; lit. "buttocks eye") is a yōkai, but when close enough, however, it appears that it is a human. |
+| shirime-c02 | exact | en.wikipedia.org | It is depicted faceless, with an eye in its buttocks. | It has no facial features, but despite being without a face, It has an eye in its butt, located in the place of its anus. |
+| shirime-c03 | exact | en.wikipedia.org | In its tale, a glittering eye opens before a traveler. | A huge glittering eye then opened up where the strange man's anus should have been. |
+| shirime-c04 | exact | en.wikipedia.org | The poet and painter Buson included it in several yōkai pictures. | This creature was so liked by the haiku poet and artist Buson, he included it in many of his yōkai paintings. |
+| shirime-c05 | exact | en.wikipedia.org | The tale says it does not intend to harm people. | Although Shirime appears to have a very startling appearance, it does not mean to harm people. |
+| shirime-c06 | exact | en.wikipedia.org | The creature enjoys frightening people. | Its joy comes from scaring people. |
+
+
+## takamimusubi — lulus-otomatis
+
+Klaim 7 (exact 7), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| takamimusubi-c01 | exact | en.wikipedia.org | Takamimusubi is a Japanese creation deity among the first beings. | Takamimusubi (高御産巣日, lit. "Exalted Generative Force") is a creation deity in Japanese mythology, who was the second of the first beings to come into existence. |
+| takamimusubi-c02 | exact | en.wikipedia.org | The Kojiki classifies Takamimusubi as a hitorigami. | According to the Kojiki, Takamimusubi was a hitorigami. |
+| takamimusubi-c03 | exact | en.wikipedia.org | The Kojiki places it after Ame-no-Minakanushi and before Kamimusubi. | According to Kojiki, when the heaven and earth were created, Ame-no-Minakanushi was the first one to appear in Takamagahara, Takamimusubi the second, and Kamimusubi the third. |
+| takamimusubi-c04 | exact | en.wikipedia.org | It is said to rule Takamagahara with Amaterasu. | Together with Amaterasu, he jointly rules the Takamagahara. |
+| takamimusubi-c05 | exact | en.wikipedia.org | One tale says Nakime the bird was sent to visit Amewakahiko. | One myth tells of a bird named Nakime who was sent down to earth to check in on Amewakahiko. |
+| takamimusubi-c06 | exact | en.wikipedia.org | In that story Takamimusubi throws an arrow back to earth and kills Amewakahiko. | Takamimusubi saw the arrow and threw it back at the earth where it hit Amewakahiko while he was lying in bed, killing him. |
+| takamimusubi-c07 | exact | d-museum.kokugakuin.ac.jp | In later periods Takamimusubi was also worshipped as a matchmaking deity. | In later ages, Takamimusuhi was also worshiped as a god of matchmaking |
+
+
+## akkorokamui — lulus-otomatis
+
+Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| akkorokamui-c01 | loose | en.wikipedia.org | Akkorokamui is a giant octopus-like being in Ainu folklore associated with Uchiura Bay. | Akkorokamui (Japanese: アッコロカムイ; Ainu: At-kor-kamuy) is a gigantic octopus-like cryptid from Ainu folklore, similar to the Nordic kraken, which supposedly lurks in Uchiura Bay in Hokkaido. |
+| akkorokamui-c02 | exact | en.wikipedia.org | Legend puts its body at up to a hectare in area. | It is said that its enormous body can reach sizes of up to 1 hectare (110,000 square feet) or roughly 100 metres (330 feet) or more across. |
+| akkorokamui-c03 | exact | en.wikipedia.org | The Ainu word at-koro-guru for octopus is linked to strands or strings. | In Ainu language, atkoro-guru, at-koro-guru, at kor [kur] is "octopus", where at refers to "string, strip, strand", so that at-koro-guru is literally "something which has thin strands". |
+| akkorokamui-c04 | exact | en.wikipedia.org | At-kor-kamuy can be interpreted as a kamuy with tentacles. | at-kor-kamuy, atkor-kamuy also literally translates to "kamuy which has strings (tentacles)" |
+| akkorokamui-c05 | exact | en.wikipedia.org | One of its folktales was first published by Iwao Yoshida in 1914. | An oft-reprinted folk narrative was one initially published by Iwao Yoshida ... (1914) under the double title of atui-na or akkorokamui |
+| akkorokamui-c06 | exact | en.wikipedia.org | An Iburi tale calls it the lord of Funka Bay. | According to the legend of the Iburi region, the akkoro kamuy (a.k.a. atuina) is a giant octopus and the nushi ("lord") of Funka Bay (officially called Uchiura Bay). |
+
+
+## aobozu — lulus-otomatis
+
+Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| aobozu-c01 | loose | en.wikipedia.org | Aobōzu is a Japanese yōkai found in a range of legends. | Aobōzu (青(あお)坊(ぼ)主(うず), "Blue priest") is a Japanese yōkai (spirit) found in a number of Japanese legends. |
+| aobozu-c02 | exact | en.wikipedia.org | Details of the tales differ. | Stories about aobōzu, in particular the exact details of the spirit, vary widely. |
+| aobozu-c03 | exact | en.wikipedia.org | Toriyama Sekien included it in an illustrated yōkai collection. | As well as appearing in Japanese folklore, the aobōzu has also been depicted numerous times in traditional Japanese art; examples include one depiction of aobōzu found in Toriyama Sekien's e-hon tetralogy Gazu Hyakki Yagyō. |
+| aobozu-c04 | exact | en.wikipedia.org | It is often portrayed as a large priest-like figure. | Though the exact details of the aobōzu vary throughout legends, with differences often split along regional lines, the aobōzu is typically depicted as a large humanoid figure resembling a bōzu (priest). |
+| aobozu-c05 | exact | en.wikipedia.org | Some Gifu and Hiroshima tales describe a disguised tanuki. | In Gifu Prefecture and Hiroshima Prefecture, appearances of the aobōzu are said to be a tanuki disguised as an aobōzu. |
+| aobozu-c06 | exact | en.wikipedia.org | A Shizuoka tale says it takes children crossing wheat fields near dusk. | In Shizuoka Prefecture, it is said that in spring, children who come home late around the time of sunset and run across a wheat field may be kidnapped by an aobōzu appearing from the wheat. |
+
+
+## aosaginohi — lulus-otomatis
+
+Klaim 6 (loose 2, exact 4), sumber 1, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| aosaginohi-c01 | loose | en.wikipedia.org | Aosaginohi is a tale of strange night lights linked with a heron. | Aosaginohi, or Aosagibi (青(あお)鷺(さぎ)火(び), "blue heron fire") is a will-o'-the-wisp type phenomenon in the night, a ball of flame or strange glowing light (hikarimono), explained as people mistaking the heron's glittering wings and glowing eyes. |
+| aosaginohi-c02 | exact | en.wikipedia.org | Aosagi denotes the Eurasian grey heron in modern taxonomy. | The ao sagi ... in modern taxonomy refers to the Eurasian grey heron |
+| aosaginohi-c03 | exact | en.wikipedia.org | Related lights are also called goi no hi or goi no hikari. | The strange light phenomenon is also called goi no hi ... or goi no hikari |
+| aosaginohi-c04 | loose | en.wikipedia.org | Sekien illustrated aosaginohi in a yōkai collection published in 1779. | The aosagi-no-hi appears in the illustrated yōkai compendium, Toriyama Sekien's Konjaku Gazu Zoku Hyakki (pub. 1779), whereas goi no hikari appears in Tōsanjin's Ehon hyaku monogatari (1841) illustrated by Takehara Shunsen]. |
+| aosaginohi-c05 | exact | en.wikipedia.org | Since the Edo period, the lights have been explained as apparently glowing heron eyes and wings. | Since the Edo Period, these mystery lights have been explained away as herons whose wings and eyes glowed in the dark as they flew. |
+| aosaginohi-c06 | exact | en.wikipedia.org | Mimibukuro records a tale of a glowing heron shot by a samurai. | Rumor about a glowing heron being killed and eaten by a samurai occurs in Mimibukuro |
 
