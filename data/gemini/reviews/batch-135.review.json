@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-135",
-  "checked_at": "2026-10-01T04:06:58.766Z",
+  "checked_at": "2026-10-02T04:28:32.349Z",
   "files": [
     "batch-135.md"
   ],
@@ -19,13 +19,13 @@
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "culture",
+          "message": "Mengusulkan tradisi baru: \"Masyarakat adat Kamchatka\"."
         },
         {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Pasifik, Siberian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -33,20 +33,20 @@
           "id": "mich-c01",
           "source_id": "mich-s1",
           "host": "es.wikipedia.org",
-          "statement": "Con el nombre de Mich rinden culto al mar los indígenas de Kamchatka en la forma de un pez.",
-          "statement_id": "Dengan nama Mich penduduk Kamchatka memuja laut dalam bentuk ikan.",
-          "quote": "Con el nombre de Mich rinden culto al mar los indígenas de Kamchatka, representando y adornando a tal divinidad en la forma de un pez.",
-          "context": "traditional-belief",
+          "statement": "The indigenous people of Kamchatka worship the sea as Mich, depicting the god as a fish and counting it among the first deities.",
+          "statement_id": "Penduduk asli Kamchatka memuja laut dengan nama Mich, menggambarkan dewa itu berwujud ikan, dan menganggapnya salah satu dewa pertama.",
+          "quote": "Con el nombre de Mich rinden culto al mar los indígenas de Kamchatka, representando y adornando a tal divinidad en la forma de un pez. Lo consideran como una de las primeras deidades.",
+          "context": "religious-tradition",
           "status": "exact"
         },
         {
           "id": "mich-c02",
           "source_id": "mich-s1",
           "host": "es.wikipedia.org",
-          "statement": "Lo consideran como una de las primeras deidades.",
-          "statement_id": "Mereka memandangnya sebagai salah satu dewa tertua dalam mitologi mereka.",
-          "quote": "Lo consideran como una de las primeras deidades.",
-          "context": "traditional-belief",
+          "statement": "Mich thinks only of himself, so people expect no favours; if he sends fish to the shore, it is only so they will fetch him wood for his canoes.",
+          "statement_id": "Mich hanya memikirkan dirinya sendiri, sehingga orang tidak mengharap kebaikan darinya; bila ia mengirim ikan ke pantai, itu hanya agar orang mencarikan kayu untuk kanonya.",
+          "quote": "Mich solo piensa en sí mismo, por lo que aquellos pueblos no esperan del dios ningún beneficio, pues si envía los peces a las orillas del mar, solo es para que le busquen y lleven la madera para hacer sus canoas y no para ser útiles a los hombres.",
+          "context": "religious-tradition",
           "status": "exact"
         }
       ],
@@ -66,16 +66,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "short_description",
-          "message": "Tidak muncul di kutipan mana pun: Catalonia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Catalonia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -83,9 +73,9 @@
           "id": "moixina-c01",
           "source_id": "moixina-s1",
           "host": "ca.wikipedia.org",
-          "statement": "La Moixina és una espantamainades pròpia de l'imaginari popular català.",
-          "statement_id": "Moixina adalah sosok penakut anak dalam khazanah cerita rakyat Catalan.",
-          "quote": "La Moixina és una espantamainades pròpia de l'imaginari popular català.",
+          "statement": "The Moixina is a child-scaring bogey of Catalan folk imagination, a scowling old ogress who lives in caves.",
+          "statement_id": "Moixina adalah momok penakut anak dalam imajinasi rakyat Katalan, raksasa perempuan tua berwajah masam yang tinggal di gua.",
+          "quote": "La Moixina és una espantamainades pròpia de l'imaginari popular català. Es tracta d'una vella ogressa malcarada que viu en coves.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -93,9 +83,9 @@
           "id": "moixina-c02",
           "source_id": "moixina-s1",
           "host": "ca.wikipedia.org",
-          "statement": "Es tracta d'una vella ogressa malcarada que viu en coves.",
-          "statement_id": "Ia adalah raksasa perempuan tua berwajah buruk yang tinggal di dalam gua.",
-          "quote": "Es tracta d'una vella ogressa malcarada que viu en coves.",
+          "statement": "She is very bad-tempered and beats naughty boys; she combs girls' hair with thistles so hard that it all comes out.",
+          "statement_id": "Ia sangat pemarah dan memukul anak laki-laki nakal; rambut anak perempuan disisirnya dengan duri hingga semua rambutnya tercabut.",
+          "quote": "Té molt de mal geni i pega els nens dolents; a les nenes les pentina amb cardots i els fa unes estrebades tan fortes que els arrenca tots els cabells i queden ben pelades.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -107,7 +97,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 5,
         "sources": 1,
         "images": 0
       },
@@ -115,17 +105,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Pirenia, Pyrenean. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.role",
-          "message": "Tidak muncul di kutipan mana pun: Pirenia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -133,9 +113,49 @@
           "id": "molsosa-c01",
           "source_id": "molsosa-s1",
           "host": "ca.wikipedia.org",
-          "statement": "La Molsosa és un personatge descrit com una bèstia de quatre potes cobert de molsa.",
-          "statement_id": "Molsosa adalah makhluk mitologi Catalan berkaki empat dengan tubuh tertutup lumut.",
+          "statement": "The Molsosa is a figure of Catalan mythology that the charcoal-burners of Cerdanya described as a four-legged beast covered in moss or grassy fur.",
+          "statement_id": "Molsosa adalah tokoh mitologi Katalan yang oleh para pembuat arang di Cerdanya digambarkan sebagai binatang berkaki empat bertubuh lumut atau bulu seperti rumput.",
           "quote": "La Molsosa és un personatge de la mitologia catalana que els carboners de la Cerdanya descrivien com una mena de bèstia de quatre potes, amb el cos cobert de molsa o d'un pelatge herbós.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "molsosa-c02",
+          "source_id": "molsosa-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "Its main feature is that wherever it passed it left a trail of fresh, damp green moss.",
+          "statement_id": "Ciri utamanya, di mana pun ia lewat, ia meninggalkan jejak lumut hijau yang segar dan lembap.",
+          "quote": "La seva característica principal és que per allà on passava deixava un rastre o camí de molsa verda, fresca i humida.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "molsosa-c03",
+          "source_id": "molsosa-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "It is a deification of the forest's plant moisture that produces moss.",
+          "statement_id": "Molsosa adalah pendewaan kelembapan tumbuhan hutan yang menumbuhkan lumut.",
+          "quote": "Es tracta d'una divinització de la humitat vegetal dels boscos que produeix la molsa",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "molsosa-c04",
+          "source_id": "molsosa-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "As guardian of the forests it fears fire and smoke, which it tries to put out, and so was feared by the old charcoal-burners of Cerdanya.",
+          "statement_id": "Sebagai penjaga hutan, ia takut pada api dan asap yang berusaha dipadamkannya, sehingga ditakuti para pembuat arang tua di Cerdanya.",
+          "quote": "Com que és la guardiana dels boscos, l'espanten el foc i les fumeres, que procura apagar i, per això, era temuda pels vells carboners cerdans",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "molsosa-c05",
+          "source_id": "molsosa-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "The charcoal-burners believed it attacked them because they cut down trees.",
+          "statement_id": "Para pembuat arang percaya ia menyerang mereka karena mereka menebang pohon.",
+          "quote": "els carboners creien que els atacava perquè tallaven els arbres",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -147,7 +167,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 9,
         "sources": 1,
         "images": 0
       },
@@ -155,32 +175,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "era.text",
-          "message": "Tidak muncul di kutipan mana pun: Basilicata. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "short_description",
-          "message": "Tidak muncul di kutipan mana pun: Italia, Lucanian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0]",
-          "message": "Tidak muncul di kutipan mana pun: Lucanian, Italian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Italia, Italian, Scazzamurill. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Italia, Lucanian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -188,9 +183,89 @@
           "id": "monachicchio-c01",
           "source_id": "monachicchio-s1",
           "host": "it.wikipedia.org",
-          "statement": "Il Monachicchio è il nome di un personaggio del folklore lucano.",
-          "statement_id": "Monachicchio adalah nama tokoh peri dalam tradisi lisan rakyat Lucania.",
+          "statement": "Monachicchio is the Italianised name of a figure of Lucanian folklore.",
+          "statement_id": "Monachicchio adalah nama yang diitalianisasi untuk tokoh cerita rakyat Lucania.",
           "quote": "Il Monachicchio è il nome, in forma italianizzata, di un personaggio del folklore lucano.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "monachicchio-c02",
+          "source_id": "monachicchio-s1",
+          "host": "it.wikipedia.org",
+          "statement": "The Monachicchio has its own identity, and descriptions of it vary across Basilicata.",
+          "statement_id": "Monachicchio punya identitas sendiri, dan gambarannya berbeda dari satu daerah Basilicata ke daerah lain.",
+          "quote": "il Monachicchio non solo ha una sua precisa identità, ma le sue descrizioni variano da zona a zona della Basilicata.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "monachicchio-c03",
+          "source_id": "monachicchio-s1",
+          "host": "it.wikipedia.org",
+          "statement": "Its origin and look have much in common with the Scazzamurrieddhru and the Neapolitan Munaciello.",
+          "statement_id": "Asal dan wujudnya banyak kesamaan dengan Scazzamurrieddhru dan Munaciello dari Napoli.",
+          "quote": "Sebbene l'origine e l'aspetto del suo mito hanno molto in comune con quelli dello Scazzamurrieddhru e del Munaciello napoletano",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "monachicchio-c04",
+          "source_id": "monachicchio-s1",
+          "host": "it.wikipedia.org",
+          "statement": "The myth's origin lies in Roman religion, which entrusted the Lares and Penates with protecting the dead and the home.",
+          "statement_id": "Asal mitosnya dicari pada agama Romawi yang memberi Lares dan Penates tugas melindungi orang mati dan rumah.",
+          "quote": "L'origine del mito va cercata nelle tradizioni religiose romane, che attribuivano ai Lari e ai Penati la protezione dei defunti e della casa.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "monachicchio-c05",
+          "source_id": "monachicchio-s1",
+          "host": "it.wikipedia.org",
+          "statement": "In the tradition of Grassano, province of Matera, the Monachicchio is the spirit of a child who died before baptism, handsome and gentle, wearing a little red cap called u cuppulicchi.",
+          "statement_id": "Menurut tradisi Grassano di provinsi Matera, Monachicchio adalah roh anak yang mati sebelum dibaptis, berwajah elok dan berhati lembut, yang memakai topi kecil merah bernama u cuppulicchi.",
+          "quote": "Seconda la tradizione di Grassano, in provincia di Matera, il Monachicchio è lo spirito di un bambino morto prima di ricevere il battesimo. Di bell'aspetto e di carattere gentile, porta in testa un berrettino di color rosso, detto u cuppulicchi",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "monachicchio-c06",
+          "source_id": "monachicchio-s1",
+          "host": "it.wikipedia.org",
+          "statement": "If playmates snatched his cap, they would collect the little gold coins inside it.",
+          "statement_id": "Bila teman bermainnya merebut topinya, mereka akan mendapat koin emas kecil di dalamnya.",
+          "quote": "sa che se i compagni di gioco gli togliessero u cuppulicchi, ne raccoglierebbero le monetine d'oro che questo contiene.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "monachicchio-c07",
+          "source_id": "monachicchio-s1",
+          "host": "it.wikipedia.org",
+          "statement": "He likes to tie the tail hairs of donkeys and mules or horses' manes.",
+          "statement_id": "Ia suka mengikat bulu ekor keledai dan bagal atau surai kuda.",
+          "quote": "legare i peli della coda di asini e muli o la criniera dei cavalli",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "monachicchio-c08",
+          "source_id": "monachicchio-s1",
+          "host": "it.wikipedia.org",
+          "statement": "In the Matera tradition the Monachicchio is a mischievous sprite whose pranks never cause serious harm.",
+          "statement_id": "Menurut tradisi daerah Matera, Monachicchio peri usil yang keisengannya tidak pernah menimbulkan masalah serius.",
+          "quote": "Secondo la tradizione del materano, il Monachicchio è un folletto che fa dispetti, i quali, però, mai causano problemi o danni seri.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "monachicchio-c09",
+          "source_id": "monachicchio-s1",
+          "host": "it.wikipedia.org",
+          "statement": "The only way to end its pranks is to take away its cap.",
+          "statement_id": "Satu-satunya cara menghentikan keisengannya adalah merebut topinya.",
+          "quote": "L'unico modo per porre fine ai loro scherzi è privarlo del cappello.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -211,31 +286,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "era.text",
-          "message": "Tidak muncul di kutipan mana pun: Mesoamerica. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "short_description",
-          "message": "Tidak muncul di kutipan mana pun: Mesoamerica. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0]",
-          "message": "Tidak muncul di kutipan mana pun: Meksiko, Mexico. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.famous_for",
-          "message": "Tidak muncul di kutipan mana pun: Tlaloc, Aztec, Mexican. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Chaac, Maya, Tlaloc, Nahua. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -243,10 +293,10 @@
           "id": "mu-ye-c01",
           "source_id": "mu-ye-s1",
           "host": "fr.wikipedia.org",
-          "statement": "Mu'ye était le dieu de la pluie des Otomis à l’époque mésoaméricaine.",
-          "statement_id": "Mu'ye adalah dewa hujan bangsa Otomi pada era Mesoamerika.",
+          "statement": "Mu'ye was the rain god of the Otomi in the Mesoamerican period.",
+          "statement_id": "Mu'ye adalah dewa hujan orang Otomi pada masa Mesoamerika.",
           "quote": "Mu'ye était le dieu de la pluie des Otomis, à l’époque mésoaméricaine.",
-          "context": "traditional-belief",
+          "context": "religious-tradition",
           "status": "exact"
         }
       ],
@@ -257,7 +307,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -265,32 +315,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "short_description",
-          "message": "Tidak muncul di kutipan mana pun: Portuguese. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0]",
-          "message": "Tidak muncul di kutipan mana pun: Portuguese. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Atlantik, Iberia, Atlantic. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.role",
-          "message": "Tidak muncul di kutipan mana pun: Atlantic. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Dama, Pe-de-Cabra, Semenanjung, Iberia, Iberian, Lady, Goat, Foot. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -298,10 +323,40 @@
           "id": "mulher-marinha-c01",
           "source_id": "mulher-marinha-s1",
           "host": "pt.wikipedia.org",
-          "statement": "A mulher marinha é um ser mítico das lendas portuguesas e da tradição popular.",
-          "statement_id": "Mulher marinha adalah makhluk mitis dalam legenda dan tradisi rakyat Portugal.",
-          "quote": "A mulher marinha (ou apenas, marinha) é um ser mítico das lendas portuguesas e da tradição popular.",
+          "statement": "The mulher marinha is a mythical being of Portuguese legend and folk tradition, a kind of mermaid with goat's feet.",
+          "statement_id": "Mulher marinha adalah makhluk mitos dalam legenda dan tradisi rakyat Portugis, semacam putri duyung berkaki kambing.",
+          "quote": "A mulher marinha (ou apenas, marinha) é um ser mítico das lendas portuguesas e da tradição popular. Pode ser descrita como uma espécie de sereia com pés de cabra",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mulher-marinha-c02",
+          "source_id": "mulher-marinha-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "From the waist down she was covered in scales, with goat-shaped feet and fins along her legs.",
+          "statement_id": "Dari pinggang ke bawah ia bersisik, kakinya berbentuk kaki kambing, dengan sirip di sepanjang tungkainya.",
+          "quote": "Da cintura para baixo toda estava coberta de escamas, e os pés eram do feitio de cabra, com barbatanas pelas pernas",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mulher-marinha-c03",
+          "source_id": "mulher-marinha-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "In Azorean tradition she is a hybrid being who leaves the water, becomes a woman and marries a farmer or fisherman, bringing joy, fertility and fortune.",
+          "statement_id": "Dalam tradisi Kepulauan Azores, ia makhluk campuran yang keluar dari air, menjelma perempuan, dan menikahi petani atau nelayan, membawakan kebahagiaan, kesuburan, dan keberuntungan.",
+          "quote": "surge em tradições do arquipélagos dos Açores. Aqui, é uma entidade híbrida que sai da água e se transforma em mulher e casando com um homem da terra, agricultor ou pescador, traz-lhe grande alegria, fertilidade e fortuna.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mulher-marinha-c04",
+          "source_id": "mulher-marinha-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "She is also associated with the enchanted mouras, Nereids and Oceanids.",
+          "statement_id": "Ia juga dikaitkan dengan mouras encantadas, Nereid, dan Oceanid.",
+          "quote": "onde também é associada às mouras encantadas, Nereidas e Oceânides",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -312,7 +367,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -320,42 +375,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "era.text",
-          "message": "Tidak muncul di kutipan mana pun: Mallorca, Balears. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "short_description",
-          "message": "Tidak muncul di kutipan mana pun: Mallorca. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0]",
-          "message": "Tidak muncul di kutipan mana pun: Mallorca. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Balears, Catalan, Miquel, Costa, Llobera, Balearic. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.who",
-          "message": "Tidak muncul di kutipan mana pun: Mallorcan. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Cala, Murta, Mallorca. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Miquel, Costa, Llobera, Canço, Ruixa-Mantells, 1907. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -363,9 +383,39 @@
           "id": "na-ruixa-c01",
           "source_id": "na-ruixa-s1",
           "host": "ca.wikipedia.org",
-          "statement": "Na Ruixamantells és maligna i bella de joventut crua com una fada.",
-          "statement_id": "Na Ruixamantells berwatak jahat dan berparas jelita seperti peri pegunungan Pirenia.",
-          "quote": "Na Ruixamantells és maligna i bella, de joventut crua, com una fada dels Pirineus.",
+          "statement": "Na Ruixa (also Na Ruixamantells or Ruixa Mantells) is a Balearic mythological figure, a fairy possibly rooted in the oral tradition of the Balearic Islands.",
+          "statement_id": "Na Ruixa (juga Na Ruixamantells atau Ruixa Mantells) adalah tokoh mitologi Balears, peri yang mungkin berakar pada tradisi lisan Kepulauan Balears.",
+          "quote": "Na Ruixa (també anomenada Na Ruixamantells, o Ruixa Mantells) és un personatge mitològic balear, una fada amb possibles arrels en la tradició oral de les Illes Balears.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "na-ruixa-c02",
+          "source_id": "na-ruixa-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "She was fixed in literature by Miquel Costa i Llobera and later popularised by Maria del Mar Bonet.",
+          "statement_id": "Sosoknya diabadikan dalam sastra oleh Miquel Costa i Llobera dan dipopulerkan oleh Maria del Mar Bonet.",
+          "quote": "Fou cristal·litzada literàriament per Miquel Costa i Llobera i més tard popularitzada per Maria del Mar Bonet.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "na-ruixa-c03",
+          "source_id": "na-ruixa-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "Na Ruixa Mantells was first described in literature by Miquel Costa i Llobera in a poem of his book Tradicions i fantasies (1903).",
+          "statement_id": "Na Ruixa Mantells pertama kali digambarkan dalam sastra oleh Miquel Costa i Llobera dalam puisi di bukunya Tradicions i fantasies (1903).",
+          "quote": "Na Ruixa Mantells és descrita literàriament per primer cop per Miquel Costa i Llobera en un poema del seu llibre Tradicions i fantasies (1903).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "na-ruixa-c04",
+          "source_id": "na-ruixa-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "She is said to live in caves somewhere on Mallorca (supposedly the bay of Pollença) and wears a wide blue cloak with which she captures unwary sailors in storms.",
+          "statement_id": "Ia konon tinggal di gua-gua di suatu tempat di Mallorca (mungkin teluk Pollença) dan memakai mantel biru lebar untuk menangkap pelaut lengah di tengah badai.",
+          "quote": "Es conta que viu a les coves d'un lloc indeterminat de l'illa de Mallorca (suposadament, a la badia de Pollença). Així mateix, porta un ample mantell blau amb el qual captura els mariners incauts enmig de les tempestes.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -386,26 +436,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0]",
-          "message": "Tidak muncul di kutipan mana pun: African. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Ituri. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.who",
-          "message": "Tidak muncul di kutipan mana pun: Africa. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Afrika, African, Pygmies. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -413,9 +443,9 @@
           "id": "negoogunogumbar-c01",
           "source_id": "negoogunogumbar-s1",
           "host": "fr.wikipedia.org",
-          "statement": "Negoogunogumbar est un ogre-géant.",
-          "statement_id": "Negoogunogumbar adalah sosok raksasa pemangsa manusia.",
-          "quote": "Negoogunogumbar est un ogre-géant.",
+          "statement": "Negoogunogumbar is an ogre-giant of the Pygmy peoples of the Congo; he eats the Mbuti, especially children, and stands for the forest's dangerous forces.",
+          "statement_id": "Negoogunogumbar adalah raksasa pemakan manusia dalam kepercayaan orang Pigmi Kongo; ia memangsa orang Mbuti, terutama anak-anak, dan melambangkan kekuatan berbahaya hutan.",
+          "quote": "Negoogunogumbar est un ogre-géant. Lié au peuple des Pygmées du Congo, Negoogunogumbar mange les Mbuti, en particulier les enfants ; il représente les forces dangereuses de la forêt qui pourraient entraîner les Mbuti et les manger.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -423,10 +453,10 @@
           "id": "negoogunogumbar-c02",
           "source_id": "negoogunogumbar-s1",
           "host": "fr.wikipedia.org",
-          "statement": "Lié au peuple des Pygmées Negoogunogumbar mange les Mbuti en particulier les enfants.",
-          "statement_id": "Terkait dengan masyarakat Pigmi Kongo raksasa ini memangsa orang-orang Mbuti terutama anak-anak.",
-          "quote": "Lié au peuple des Pygmées du Congo, Negoogunogumbar mange les Mbuti, en particulier les enfants ",
-          "context": "traditional-belief",
+          "statement": "Mbuti mythology is the mythology of the Mbuti, a Pygmy people of the Democratic Republic of the Congo.",
+          "statement_id": "Mitologi Mbuti adalah mitologi bangsa Pigmi Mbuti di Republik Demokratik Kongo.",
+          "quote": "La mythologie mbuti est la mythologie d'un peuple pygmée de la République démocratique du Congo, les Mbuti.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -437,7 +467,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 6,
         "sources": 1,
         "images": 0
       },
@@ -445,42 +475,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "era.text",
-          "message": "Tidak muncul di kutipan mana pun: Pirenia, Catalan. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "short_description",
-          "message": "Tidak muncul di kutipan mana pun: Pirenia, Pyrenean. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0]",
-          "message": "Tidak muncul di kutipan mana pun: Catalan. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Basajaun, Pirenia, Pyrenean. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.who",
-          "message": "Tidak muncul di kutipan mana pun: Pyrenees. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Pirenia, Catalan, Pyrenees. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Joan, Amades, Katalonia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -488,9 +483,59 @@
           "id": "nonell-de-la-neu-c01",
           "source_id": "nonell-de-la-neu-s1",
           "host": "ca.wikipedia.org",
-          "statement": "Nonell de la neu és una mena de gegant de les neus que es va convertir en un gran gos blanc de la mida d'un cavall.",
-          "statement_id": "Nonell de la neu adalah raksasa salju pemuda yang berubah menjadi anjing putih besar sebesar kuda.",
-          "quote": "Nonell de la neu és una mena de gegant de les neus, un noi que es va convertir en un gran gos blanc, de la mida d'un cavall.",
+          "statement": "In Catalan mythology Nonell de la neu is a kind of snow giant, a young man who turned into a great white dog the size of a horse.",
+          "statement_id": "Dalam mitologi Katalan, Nonell de la neu adalah semacam raksasa salju, seorang pemuda yang berubah menjadi anjing putih besar seukuran kuda.",
+          "quote": "En la mitologia catalana, en Nonell de la neu és una mena de gegant de les neus, un noi que es va convertir en un gran gos blanc, de la mida d'un cavall.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nonell-de-la-neu-c02",
+          "source_id": "nonell-de-la-neu-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "He always appears soon after the first snowfall, since it is he who carries the snow from place to place.",
+          "statement_id": "Ia selalu muncul tak lama setelah salju pertama, karena dialah yang membawa salju dari satu tempat ke tempat lain.",
+          "quote": "Sempre apareix poc després de la primera nevada, ja que, de fet, és ell mateix qui porta la neu d'un lloc a l'altre",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nonell-de-la-neu-c03",
+          "source_id": "nonell-de-la-neu-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "Joan Amades recorded a version of the legend at La Pobla de Lillet.",
+          "statement_id": "Joan Amades mencatat satu versi legendanya di La Pobla de Lillet.",
+          "quote": "Joan Amades va recollir una versió de la llegenda a la Pobla de Lillet.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nonell-de-la-neu-c04",
+          "source_id": "nonell-de-la-neu-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "The figure is related to the Basque Basajaun and similar to the Yeti.",
+          "statement_id": "Tokoh ini berkerabat dengan Basajaun dari Basque dan mirip Yeti.",
+          "quote": "El personatge està emparentat amb el Basajaun basc i és similar al Ieti o abominable home de les neus.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nonell-de-la-neu-c05",
+          "source_id": "nonell-de-la-neu-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "He is considered peaceful; when he nears the flocks their bells ring and they sleep easily, knowing Nonell protects them.",
+          "statement_id": "Ia dianggap damai; bila mendekati kawanan ternak, lonceng ternak berbunyi dan ternak dapat tidur tenang karena tahu Nonell melindungi mereka.",
+          "quote": "Se'l considera pacífic i es diu que quan s'acosta als ramats, les seves esquelles sonen i poden dormir tranquil·les perquè saben que en Nonell les protegeix.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nonell-de-la-neu-c06",
+          "source_id": "nonell-de-la-neu-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "Nonell was once a very handsome young man with a thick beard and long blond hair.",
+          "statement_id": "Dulunya Nonell pemuda yang sangat tampan, berjanggut lebat dan berambut pirang panjang.",
+          "quote": "En Nonell era un xicot de gran bellesa, amb barba poblada i llargs cabells rossos.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -502,7 +547,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 3,
         "sources": 1,
         "images": 0
       },
@@ -510,32 +555,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "short_description",
-          "message": "Tidak muncul di kutipan mana pun: Valencian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0]",
-          "message": "Tidak muncul di kutipan mana pun: Valencian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Iberia, Spain. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.who",
-          "message": "Tidak muncul di kutipan mana pun: Valencian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Valencian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -543,9 +563,29 @@
           "id": "ogre-de-la-caputxa-negra-c01",
           "source_id": "ogre-de-la-caputxa-negra-s1",
           "host": "ca.wikipedia.org",
-          "statement": "L'Ogre de la Caputxa Negra és un espantamainades propi de l'imaginari popular valencià.",
-          "statement_id": "Ogre de la Caputxa Negra adalah sosok penakut anak dalam mitologi rakyat Valencia.",
-          "quote": "L'Ogre de la Caputxa Negra és un espantamainades propi de l'imaginari popular valencià.",
+          "statement": "The Ogre de la Caputxa Negra is a child-scaring bogey of Valencian folk imagination, a terrifying creature with a covered face who carries off every child he meets on the road.",
+          "statement_id": "Ogre de la Caputxa Negra adalah momok penakut anak dalam imajinasi rakyat Valencia, makhluk menakutkan berwajah tertutup yang membawa pergi semua anak yang ditemuinya di jalan.",
+          "quote": "L'Ogre de la Caputxa Negra és un espantamainades propi de l'imaginari popular valencià. Es tracta d'una criatura aterridora que porta la cara tapada i s'emporta tots els xiquets que troba pel camí.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ogre-de-la-caputxa-negra-c02",
+          "source_id": "ogre-de-la-caputxa-negra-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "He lives in a palace hiding a treasure and an enchanted princess who becomes a mermaid if she leaves; he can be killed by making sunlight strike his face.",
+          "statement_id": "Ia tinggal di istana tempat ia menyembunyikan harta dan seorang putri tersihir yang menjadi putri duyung bila keluar dari istana; ia dapat dibunuh dengan membuat sinar matahari mengenai wajahnya.",
+          "quote": "Viu a un palau on amaga un tresor i una princesa encantada que si ix del palau es converteix en sirena. Se'l pot matar fent que la llum del sol li pegue a la cara.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ogre-de-la-caputxa-negra-c03",
+          "source_id": "ogre-de-la-caputxa-negra-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "According to Francesc Gisbert, he always wears the key to his palace around his neck to prevent theft.",
+          "statement_id": "Menurut Francesc Gisbert, ia selalu mengalungkan kunci istananya di leher agar tidak dicuri.",
+          "quote": "Francesc Gisbert ens conta que la clau del palau on viu la du sempre penjada al coll per evitar robatoris.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -557,7 +597,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 5,
         "sources": 1,
         "images": 0
       },
@@ -565,22 +605,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0]",
-          "message": "Tidak muncul di kutipan mana pun: Pyrenean. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Gaueko. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Country. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -588,9 +613,49 @@
           "id": "oilar-c01",
           "source_id": "oilar-s1",
           "host": "fr.wikipedia.org",
-          "statement": "Oilar signifie coq en basque et il n'est pas rare de le rencontrer dans les légendes basques.",
-          "statement_id": "Oilar berarti ayam jantan dalam bahasa Basque dan kerap muncul dalam legenda setempat.",
-          "quote": "Oilar (on peut trouver aussi le nom d'Ollaar) signifie « coq » en basque.",
+          "statement": "Oilar (also Ollaar) means \"rooster\" in Basque, an animal often found in Basque legends.",
+          "statement_id": "Oilar (juga Ollaar) berarti \"ayam jantan\" dalam bahasa Basque, hewan yang cukup sering muncul dalam legenda Basque.",
+          "quote": "Oilar (on peut trouver aussi le nom d'Ollaar) signifie « coq » en basque. Il n'est pas rare de rencontrer le coq dans les légendes basques.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "oilar-c02",
+          "source_id": "oilar-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "Its crow announces the flight of spirits such as the lamiñak.",
+          "statement_id": "Kokoknya menandai larinya makhluk gaib seperti lamiñak.",
+          "quote": "Son chant annonce la fuite des génies comme les lamiñak",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oilar-c03",
+          "source_id": "oilar-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "Sometimes the evil spirit (Gaiskiñe in Basque) takes the form of this animal.",
+          "statement_id": "Kadang roh jahat (Gaiskiñe dalam bahasa Basque) mengambil wujud ayam jantan.",
+          "quote": "Parfois l'esprit malin (\"Gaiskiñe\" en basque) revêt l'aspect de cet animal.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oilar-c04",
+          "source_id": "oilar-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "If someone suffers a mysterious illness, the feathers of their pillow are examined; a clump shaped like a whole rooster means the illness is incurable.",
+          "statement_id": "Bila seseorang menderita penyakit misterius, bulu di bantalnya diperiksa; bila ditemukan gumpalan berbentuk ayam jantan utuh, penyakit itu dianggap tak tersembuhkan.",
+          "quote": "Si quelqu'un souffre d'une maladie mystérieuse il faut examiner les plumes de son oreiller ou du traversin. Si on trouve un amas qui épouse la forme d'un coq entier, on considère que la maladie est incurable.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oilar-c05",
+          "source_id": "oilar-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "If the head is not yet formed, the feathers are burned at a crossroads and the illness is cured.",
+          "statement_id": "Bila kepalanya belum terbentuk, bulu itu dibakar di persimpangan jalan dan penyakit itu pun sembuh.",
+          "quote": "Si la tête n'est pas formée, il faut porter les plumes à une croisée de chemins et les y brûler : alors la maladie sera guéri.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -602,25 +667,20 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 3,
         "sources": 1,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
+          "where": "culture",
+          "message": "Mengusulkan tradisi baru: \"Demonologi Eropa\"."
+        },
+        {
+          "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Eropa. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Seruling, Demon, Flute. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -628,10 +688,30 @@
           "id": "okaryuz-c01",
           "source_id": "okaryuz-s1",
           "host": "es.wikipedia.org",
-          "statement": "Demonio que en otras culturas se conoce como Astaroth.",
-          "statement_id": "Okaryuz adalah iblis yang dalam kebudayaan lain dikenal sebagai Astaroth.",
+          "statement": "Okaryuz is a demon known in other cultures as Astaroth.",
+          "statement_id": "Okaryuz adalah iblis yang dalam budaya lain dikenal sebagai Astaroth.",
           "quote": "Demonio que en otras culturas se conoce como Astaroth.",
-          "context": "traditional-belief",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "okaryuz-c02",
+          "source_id": "okaryuz-s1",
+          "host": "es.wikipedia.org",
+          "statement": "The Dictionnaire Infernal calls him Astaroth but stresses his Greek name, Okaryuz.",
+          "statement_id": "Dictionnaire Infernal menyebutnya Astaroth tetapi menekankan nama Yunaninya, Okaryuz.",
+          "quote": "En el Dictionnaire Infernal, hacen referencia a él con el nombre de Astaroth pero hacen énfasis en su nombre griego Okaryuz.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "okaryuz-c03",
+          "source_id": "okaryuz-s1",
+          "host": "es.wikipedia.org",
+          "statement": "According to this source, the Malleus Maleficarum mentions him as the flute-playing demon who carries off victims' souls with shrill sounds, his attacks strongest in August and at the black Sabbath.",
+          "statement_id": "Menurut sumber ini, Malleus Maleficarum menyebutnya iblis peniup seruling yang membawa jiwa korban dengan bunyi melengking, dan serangannya paling kuat pada bulan Agustus dan saat Sabat hitam.",
+          "quote": "En el libro Malleus Maleficarum hacen mención a él como el demonio flautista que lleva las almas de sus víctimas con sonidos estridentes, los ataques de este demonio se hacen más fuertes en el mes de agosto y en él Sabbath negro.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -642,7 +722,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 2,
         "sources": 1,
         "images": 0
       },
@@ -650,17 +730,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Portugal. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Portugal. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -668,9 +738,19 @@
           "id": "olhapim-c01",
           "source_id": "olhapim-s1",
           "host": "pt.wikipedia.org",
-          "statement": "Olhapins are creatures of Portuguese popular folklore, very short and also called anaios.",
-          "statement_id": "Olhapim adalah makhluk cerita rakyat Portugis bertubuh pendek yang juga disebut anaios.",
-          "quote": "Os olhapins são seres do folclore popular português. São muito baixinhos, por isso também são chamados de  anaios.",
+          "statement": "Olhapins are beings of Portuguese folklore, very small and therefore also called anaios; they are a kind of spirit, goblin or ghost.",
+          "statement_id": "Olhapim adalah makhluk cerita rakyat Portugis yang sangat kecil, sehingga juga disebut anaio; mereka semacam roh, peri, atau hantu.",
+          "quote": "Os olhapins são seres do folclore popular português. São muito baixinhos, por isso também são chamados de anaios. São uma espécie de espíritos, duendes ou assombrações.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "olhapim-c02",
+          "source_id": "olhapim-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "Olhapins have four eyes, two in front and two behind, so they see in every direction; they differ from olharapos in being tiny, whereas olharapos are giants.",
+          "statement_id": "Olhapim bermata empat, dua di depan dan dua di belakang, sehingga dapat melihat ke segala arah; mereka berbeda dari olharapo karena olhapim sangat kecil, sedangkan olharapo raksasa.",
+          "quote": "Os olhapins têm quatro olhos, dois para a frente e dois para trás por isso olham para todo o lado. Diferem dos olharapos por serem muito pequenos e os olharapos serem gigantes.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -682,7 +762,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -690,27 +770,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Trás-os-Montes, Portugal. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.who",
-          "message": "Tidak muncul di kutipan mana pun: Iberia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Trás-os-Montes. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Iberia, Iberian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -718,9 +778,39 @@
           "id": "olharapo-c01",
           "source_id": "olharapo-s1",
           "host": "pt.wikipedia.org",
-          "statement": "In Portuguese fairy tales, the olharapo is a giant with a large single eye on the forehead.",
-          "statement_id": "Olharapo dalam dongeng Portugis adalah ras raksasa bermata satu di dahi.",
+          "statement": "In Portuguese fairy tales the olharapo belongs to a race of giants with one great eye on the forehead, like a cyclops.",
+          "statement_id": "Dalam dongeng Portugis, olharapo termasuk ras raksasa bermata satu besar di dahi, seperti kiklop.",
           "quote": "Nos contos de fadas portugueses o olharapo pertence a uma raça de gigantes que tem um grande olho na testa (Ciclope), e é parecido com o alicórnio.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "olharapo-c02",
+          "source_id": "olharapo-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "According to Alexandre Parafita, the olharapo appears especially in tales and legends of Trás-os-Montes as a violent, fierce man-eating giant with a single eye in the middle of the forehead.",
+          "statement_id": "Menurut Alexandre Parafita, olharapo terutama muncul dalam dongeng dan legenda Trás-os-Montes sebagai raksasa pemakan manusia yang kejam dan buas, bermata satu di tengah dahi.",
+          "quote": "Segundo Alexandre Parafita, o olharapo é referenciado, especialmente, em contos e lendas transmontanos que o apresentam como um gigante antropófago, violento e feroz, que tem a particularidade de possuir um único olho no centro da testa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "olharapo-c03",
+          "source_id": "olharapo-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "Folk tradition also knows the olharapa and the olhapim.",
+          "statement_id": "Tradisi rakyat juga mengenal olharapa (perempuan) dan olhapim.",
+          "quote": "A tradição popular reconhece ainda a olharapa e o olhapim.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "olharapo-c04",
+          "source_id": "olharapo-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "Vinhais has a proverb: \"In the land of the olhapins, he who has two eyes is king.\"",
+          "statement_id": "Di Vinhais ada peribahasa: \"Di negeri para olhapim, yang bermata dua menjadi raja.\"",
+          "quote": "para justificar um provérbio recorrente no concelho de Vinhais: “Na terra dos olhapins, quem tem dois olhos é rei”.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -732,7 +822,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 2,
         "sources": 1,
         "images": 0
       },
@@ -740,17 +830,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Mediterania. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Yunani, Greek. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -758,10 +838,20 @@
           "id": "onocoete-c01",
           "source_id": "onocoete-s1",
           "host": "it.wikipedia.org",
-          "statement": "The onocoete is depicted as a monster half donkey and half pig.",
-          "statement_id": "Onocoete digambarkan sebagai monster separuh keledai dan separuh babi.",
+          "statement": "The onocoete (also onocoirite) is a monster half donkey and half pig.",
+          "statement_id": "Onocoete (juga onocoirite) adalah monster setengah keledai setengah babi.",
           "quote": "L'onocoete (anche onocoirite) nella mitologia è rappresentato da un mostro metà asino e metà porco.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "onocoete-c02",
+          "source_id": "onocoete-s1",
+          "host": "it.wikipedia.org",
+          "statement": "It was one of the popular rumours spread in the pagan world about the god of the Christians.",
+          "statement_id": "Sosok ini salah satu desas-desus rakyat di dunia pagan tentang Tuhan orang Kristen.",
+          "quote": "Era una delle voci popolari diffuse nel mondo pagano sul dio dei Cristiani.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -781,21 +871,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Eropa, European. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Eropa. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: London, Worshipful, Company, Barbers. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -803,8 +878,8 @@
           "id": "opinicus-c01",
           "source_id": "opinicus-s1",
           "host": "ca.wikipedia.org",
-          "statement": "The opinicus is a creature similar to a griffin but with lion forelegs as well.",
-          "statement_id": "Opinicus adalah hewan mitologis mirip griffin tetapi kaki depannya juga merupakan kaki singa.",
+          "statement": "The opinicus is an animal like the griffin, but with a lion's forelegs as well.",
+          "statement_id": "Opinicus adalah hewan mirip griffin, tetapi kaki depannya juga kaki singa.",
           "quote": "Cal no confondre'l amb l'opinicus, un animal semblant però amb les potes davanteres també de lleó.",
           "context": "traditional-belief",
           "status": "exact"
@@ -817,7 +892,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 6,
         "sources": 1,
         "images": 0
       },
@@ -825,27 +900,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "short_description",
-          "message": "Tidak muncul di kutipan mana pun: Friulian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0]",
-          "message": "Tidak muncul di kutipan mana pun: Carnic, Alps. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Alpen, Carnic, Alps, Italy. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Friulian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -853,10 +908,60 @@
           "id": "orcolat-c01",
           "source_id": "orcolat-s1",
           "host": "it.wikipedia.org",
-          "statement": "The Orcolât is a legendary creature belonging to the traditions of Carnia and Friuli.",
-          "statement_id": "Orcolat adalah makhluk legendaris dari tradisi Carnia dan Friuli.",
+          "statement": "The Orcolât (\"nasty ogre\", a pejorative of Friulian orcul, \"ogre\") is a legendary creature of the tradition of Carnia and Friuli-Venezia Giulia.",
+          "statement_id": "Orcolât (\"orc jelek\", bentuk merendahkan dari kata Friuli orcul, \"orc\") adalah makhluk legendaris dalam tradisi Carnia dan Friuli-Venezia Giulia.",
           "quote": "L'Orcolât (\"orcaccio\", spregiativo del friulano orcul, \"orco\") è una creatura leggendaria che appartiene alla tradizione della Carnia e del Friuli-Venezia Giulia.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "orcolat-c02",
+          "source_id": "orcolat-s1",
+          "host": "it.wikipedia.org",
+          "statement": "After 1976 it became a byword for the earthquake that struck Friuli that year.",
+          "statement_id": "Setelah 1976, namanya menjadi sebutan untuk gempa yang melanda Friuli pada tahun itu.",
+          "quote": "Dopo il 1976 è divenuto sinonimo del terremoto che colpì il Friuli in quell'anno.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "orcolat-c03",
+          "source_id": "orcolat-s1",
+          "host": "it.wikipedia.org",
+          "statement": "The Orcolat was an ogre- or giant-like creature living in the caves of Carnia.",
+          "statement_id": "Orcolat makhluk mirip orc dan raksasa yang tinggal di gua-gua daerah Carnia.",
+          "quote": "L'Orcolat era una creatura assimilabile all'orco e al gigante abitante delle aree geografiche della Carnia, ove trovava dimora all'interno delle grotte.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "orcolat-c04",
+          "source_id": "orcolat-s1",
+          "host": "it.wikipedia.org",
+          "statement": "The figure was linked with the power and violence of nature and blamed for earthquakes.",
+          "statement_id": "Sosok ini dikaitkan dengan kekuatan dan kekerasan alam, dan dituduh menjadi penyebab gempa bumi.",
+          "quote": "La figura era associata alla forza della natura e alla sua violenza, venendogli affibiate la cause dei terremoti.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "orcolat-c05",
+          "source_id": "orcolat-s1",
+          "host": "it.wikipedia.org",
+          "statement": "It is also considered the keeper of the secrets of the Carnic Alps.",
+          "statement_id": "Ia juga dianggap penjaga rahasia pegunungan Alpen Carnia.",
+          "quote": "L'essere mitologico viene inoltre considerato il custode dei segreti delle montagne delle Alpi Carniche.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "orcolat-c06",
+          "source_id": "orcolat-s1",
+          "host": "it.wikipedia.org",
+          "statement": "In 2026 Friulian director Federico Savonitto made the documentary Orcolat, produced by Kublai Film with Rai Cinema and narrated by Bruno Pizzul.",
+          "statement_id": "Pada 2026 sutradara Friuli Federico Savonitto membuat film dokumenter berjudul Orcolat, diproduksi Kublai Film dan Rai Cinema dengan narasi Bruno Pizzul.",
+          "quote": "Nel 2026 il regista friulano Federico Savonitto ha realizzato il film documentario omonimo alla creatura mitologica, Orcolat, prodotto da Kublai Film con Rai Cinema e narrato da Bruno Pizzul.",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
@@ -867,7 +972,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -875,27 +980,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "era.text",
-          "message": "Tidak muncul di kutipan mana pun: French. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "short_description",
-          "message": "Tidak muncul di kutipan mana pun: French. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Charlemagne, Matter. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Rochebrune, Ardennes. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -903,9 +988,39 @@
           "id": "oriande-c01",
           "source_id": "oriande-s1",
           "host": "fr.wikipedia.org",
-          "statement": "Oriande is a fairy from the medieval epic tradition of France.",
-          "statement_id": "Oriande adalah peri dalam tradisi epik Abad Pertengahan Prancis.",
+          "statement": "Oriande is a fairy of medieval epic tradition, mentioned in the chanson de geste of the Quatre fils Aymon and above all in Maugis d'Aigremont (late 13th century).",
+          "statement_id": "Oriande adalah peri dalam tradisi epos abad pertengahan, disebut dalam chanson de geste Quatre fils Aymon dan terutama Maugis d'Aigremont (akhir abad ke-13).",
           "quote": "Oriande est une fée de la tradition épique médiévale évoquée dans la chanson de geste des Quatre fils Aymon, et principalement la chanson de geste de Maugis d'Aigremont (fin XIIIe siècle) où elle joue un rôle important.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oriande-c02",
+          "source_id": "oriande-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "She is godmother of the enchanter Maugis, raises him and requires him to win the horse Bayard to gain his status.",
+          "statement_id": "Ia ibu baptis penyihir Maugis, membesarkannya, dan mewajibkannya menaklukkan kuda Bayard untuk meraih statusnya.",
+          "quote": "Elle est la marraine de l'enchanteur Maugis. C'est elle qui l'élève et lui impose de conquérir le cheval Bayard pour obtenir son statut.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oriande-c03",
+          "source_id": "oriande-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "At the start of the tale the child Maugis, son of Beuves d'Aigremont, kidnapped by Sorgalant, is found by Oriande, who raises him at Rosefleur near Mongibel (Etna, Sicily).",
+          "statement_id": "Di awal kisah, Maugis kecil, putra Beuves d'Aigremont yang diculik Sorgalant, ditemukan Oriande dan dibesarkan di Rosefleur dekat Mongibel (Etna, Sisilia).",
+          "quote": "Au début du récit, l’enfant Maugis, fils de Beuves d’Aigremont, enlevé par Sorgalant, est retrouvé par la fée Oriande, qui l’élève à Rosefleur (ou Rocheflor), près de Mongibel (Etna, Sicile).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oriande-c04",
+          "source_id": "oriande-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "The decisive test she sets is to free Bayard, held underground on the volcanic island of Bocan.",
+          "statement_id": "Ujian penentu yang diberikannya adalah membebaskan Bayard yang tertahan di bawah tanah di pulau gunung api Bocan.",
+          "quote": "L’épreuve décisive qu’elle lui impose pour confirmer ses pouvoirs est de délivrer Bayard, retenu sous terre sur l’île volcanique de Bocan/Boucam",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -917,7 +1032,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -925,42 +1040,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "short_description",
-          "message": "Tidak muncul di kutipan mana pun: Wasiat, Salomo, Testament, Solomon. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0]",
-          "message": "Tidak muncul di kutipan mana pun: Salomo, Ilahi, Solomon. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Wasiat, Salomo, Timur, Dekat, Near, Eastern. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.who",
-          "message": "Tidak muncul di kutipan mana pun: Bait, Suci. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Wasiat, Salomo. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.famous_for",
-          "message": "Tidak muncul di kutipan mana pun: Salomo. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Bait, Suci. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -968,10 +1048,40 @@
           "id": "ornias-c01",
           "source_id": "ornias-s1",
           "host": "it.wikipedia.org",
-          "statement": "Ornias is a demon in Jewish mythology.",
+          "statement": "Ornias is a demon of Jewish mythology.",
           "statement_id": "Ornias adalah iblis dalam mitologi Yahudi.",
           "quote": "Ornias è un demòne della mitologia ebraica.",
-          "context": "traditional-belief",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ornias-c02",
+          "source_id": "ornias-s1",
+          "host": "it.wikipedia.org",
+          "statement": "In the Testament of Solomon, Ornias tormented a youth by stealing half his wages and sucking his right thumb until he grew thin.",
+          "statement_id": "Menurut Wasiat Salomo, Ornias menyiksa seorang pemuda dengan mencuri separuh upahnya dan mengisap ibu jari tangan kanannya hingga pemuda itu kurus.",
+          "quote": "Ornias tormentava un ragazzo , rubandogli metà dello stipendio e succhiandogli il pollice della mano destra , facendolo diventare magro sebbene fosse amato.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ornias-c03",
+          "source_id": "ornias-s1",
+          "host": "it.wikipedia.org",
+          "statement": "So Solomon prayed, and God granted him a sealed ring to bind the demon.",
+          "statement_id": "Karena itu Salomo berdoa dan Tuhan memberinya cincin bermeterai untuk menyegel iblis itu.",
+          "quote": "Per tal motivo, Salomone pregò Iddio che gli concesse un anello con sigillo per poterlo sigillare.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ornias-c04",
+          "source_id": "ornias-s1",
+          "host": "it.wikipedia.org",
+          "statement": "Ornias revealed that he tempts men in love by turning into pleasing maidens and toying with them.",
+          "statement_id": "Ornias mengaku menggoda lelaki yang jatuh cinta dengan menjelma gadis cantik dan mempermainkan mereka.",
+          "quote": "svelò di essere colui che tenta gli uomini che si innamorano di una donna , trasformandosi in piacevoli donzelle e giocando con loro",
+          "context": "religious-tradition",
           "status": "exact"
         }
       ],
@@ -982,40 +1092,15 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 5,
         "sources": 1,
         "images": 0
       },
       "issues": [
         {
-          "level": "warn",
-          "where": "claims[0] (orphan-bird-c01)",
-          "message": "Panjang quote 683 karakter; aturannya 30–400."
-        },
-        {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "short_description",
-          "message": "Tidak muncul di kutipan mana pun: European. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0]",
-          "message": "Tidak muncul di kutipan mana pun: Pierre, Beauvais. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Eropa. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Eurasian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1023,10 +1108,50 @@
           "id": "orphan-bird-c01",
           "source_id": "orphan-bird-s1",
           "host": "en.wikipedia.org",
-          "statement": "The Orphan Bird is a legendary bird from medieval bestiaries.",
-          "statement_id": "Orphan Bird adalah burung legendaris dalam bestiari Abad Pertengahan.",
-          "quote": "The Orphan Bird (also known as the Orphanay or Rafanay, and possibly the  Gerahav from a similar tale in an Armenian manuscript) is a legendary bird from medieval bestiaries it is said to live in India in a fictional sea called \"la mer darenoise\". It had a peacock's neck, an eagle's beak, a swan's feet, and a crane's body. It was depicted as having red wings and a black and white coloration. Furthermore, it was said to lay its eggs in the sea. The eggs with the best chicks in them would float, while the bad eggs would sink. When the eggs hatched, the floating eggs would join their parent, while the sunken eggs would hatch under the ocean and live sad and alone under the sea.",
+          "statement": "The Orphan Bird is a legendary bird of medieval bestiaries said to live in India, in a fictional sea called la mer darenoise.",
+          "statement_id": "Orphan Bird adalah burung legendaris dari bestiarium abad pertengahan yang konon hidup di India, di laut khayalan bernama la mer darenoise.",
+          "quote": "is a legendary bird from medieval bestiaries it is said to live in India in a fictional sea called \"la mer darenoise\".",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "orphan-bird-c02",
+          "source_id": "orphan-bird-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It had a peacock's neck, an eagle's beak, a swan's feet and a crane's body, with red wings and black-and-white colouring.",
+          "statement_id": "Ia berleher merak, berparuh elang, berkaki angsa, dan bertubuh bangau, dengan sayap merah dan warna hitam putih.",
+          "quote": "It had a peacock's neck, an eagle's beak, a swan's feet, and a crane's body. It was depicted as having red wings and a black and white coloration.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "orphan-bird-c03",
+          "source_id": "orphan-bird-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It laid its eggs in the sea; eggs with the best chicks floated, the bad ones sank.",
+          "statement_id": "Ia bertelur di laut; telur berisi anak terbaik mengapung, sedangkan telur buruk tenggelam.",
+          "quote": "Furthermore, it was said to lay its eggs in the sea. The eggs with the best chicks in them would float, while the bad eggs would sink.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "orphan-bird-c04",
+          "source_id": "orphan-bird-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The sunken eggs hatched under the ocean, and the chicks lived sad and alone beneath the sea.",
+          "statement_id": "Telur yang tenggelam menetas di dasar laut, dan anaknya hidup sedih sendirian di sana.",
+          "quote": "the sunken eggs would hatch under the ocean and live sad and alone under the sea.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "orphan-bird-c05",
+          "source_id": "orphan-bird-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The only source for this creature is the bestiary of Pierre de Beauvais.",
+          "statement_id": "Satu-satunya sumber tentang makhluk ini adalah bestiarium Pierre de Beauvais.",
+          "quote": "The only source for this creature is the bestiary of Pierre de Beauvais.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -1037,7 +1162,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -1045,37 +1170,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "era.text",
-          "message": "Tidak muncul di kutipan mana pun: Irlandia, Irish. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "short_description",
-          "message": "Tidak muncul di kutipan mana pun: Irlandia, Gerald, Wales, Irish. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Geraldus, Cambrensis, Irlandia, Cambro-Norman, Gerald, Wales. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Pertengahan, Irlandia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.role",
-          "message": "Tidak muncul di kutipan mana pun: Maurice, FitzGerald. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Maurice, FitzGerald. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1083,10 +1178,40 @@
           "id": "ox-man-of-wicklow-c01",
           "source_id": "ox-man-of-wicklow-s1",
           "host": "fr.wikipedia.org",
-          "statement": "The Ox-Man of Wicklow was a half-man half-ox creature living in Wicklow, Ireland, recorded in the 12th century.",
-          "statement_id": "Homme-Bœuf de Wicklow adalah makhluk setengah manusia setengah lembu di Wicklow pada akhir abad ke-12.",
-          "quote": "L'Homme-Bœuf de Wicklow (fl. fin du XIIe siècle) est une créature mi-homme mi-bœuf vivant à Wicklow, en Irlande, et cité par l'historien cambro-normand du XIIe siècle Giraud de Barri dans son ouvrage Topographia Hibernica (en) .",
-          "context": "traditional-belief",
+          "statement": "The Ox Man of Wicklow (late 12th century) is a half-man, half-ox creature of Wicklow, Ireland, mentioned by the Cambro-Norman historian Giraud de Barri (Gerald of Wales) in his Topographia Hibernica.",
+          "statement_id": "Manusia Lembu Wicklow (akhir abad ke-12) adalah makhluk setengah manusia setengah lembu di Wicklow, Irlandia, yang disebut sejarawan Kambro-Norman Giraud de Barri (Gerald dari Wales) dalam Topographia Hibernica.",
+          "quote": "L'Homme-Bœuf de Wicklow (fl. fin du XIIe siècle) est une créature mi-homme mi-bœuf vivant à Wicklow, en Irlande, et cité par l'historien cambro-normand du XIIe siècle Giraud de Barri dans son ouvrage Topographia Hibernica",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ox-man-of-wicklow-c02",
+          "source_id": "ox-man-of-wicklow-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "According to Giraud, the creature, born of an unnatural union of a man and a cow, had a big bald ox-like head and a flat face dominated by two huge eyes.",
+          "statement_id": "Menurut Giraud, makhluk itu hasil hubungan tak wajar antara manusia dan sapi, berkepala besar botak seperti lembu, berwajah datar dengan dua mata besar.",
+          "quote": "Selon Giraud, la créature, fruit d'une union contre-nature entre un homme et une vache, avait une grosse tête chauve comme celle d'un bœuf, tandis que son visage était plat et dominé par deux énormes yeux.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ox-man-of-wicklow-c03",
+          "source_id": "ox-man-of-wicklow-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "Instead of a nose it had two holes that made sounds like a bull's bellow, and cloven hooves for hands and feet.",
+          "statement_id": "Sebagai ganti hidung ia punya dua lubang yang mengeluarkan bunyi seperti lenguhan banteng, dan tangan serta kakinya berupa kuku belah.",
+          "quote": "À la place du nez, la créature avait deux orifices qui servaient de narines et émettaient des sons semblables au mugissement d'un taureau. L'homme-bœuf avait des sabots fendus à la place des mains et des pieds.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ox-man-of-wicklow-c04",
+          "source_id": "ox-man-of-wicklow-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "The creature, which regularly visited the court of the baron Maurice FitzGerald at Black Castle, Wicklow, was eventually seized and killed by the Irish.",
+          "statement_id": "Makhluk yang sering datang ke istana baron Maurice FitzGerald di Black Castle, Wicklow, itu akhirnya diculik dan dibunuh orang Irlandia.",
+          "quote": "la créature, qui se rendait régulièrement à la cour du baron cambro-normand Maurice FitzGerald qui se tenait au Château Noir (Black Castle) de Wicklow, sera enlevée et tuée par les Irlandais.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -1097,7 +1222,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 2,
         "sources": 1,
         "images": 0
       },
@@ -1105,37 +1230,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "era.text",
-          "message": "Tidak muncul di kutipan mana pun: Romawi, Kuno, Roman. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0]",
-          "message": "Tidak muncul di kutipan mana pun: Mediterania. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Romawi, Mediterranean. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.who",
-          "message": "Tidak muncul di kutipan mana pun: Mediterania. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Sejarah, Alam. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Yunani, Greek. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1143,9 +1238,19 @@
           "id": "ozena-c01",
           "source_id": "ozena-s1",
           "host": "it.wikipedia.org",
-          "statement": "The Ozena is a legendary octopus described by Pliny the Elder known for its offensive odor.",
-          "statement_id": "Ozena adalah gurita legendaris yang dijelaskan oleh Plinius Tua karena baunya yang busuk.",
+          "statement": "The Ozena (Latin Ozaena) is a legendary octopus described by Pliny the Elder; its name means \"stinking octopus\" for its foul smell.",
+          "statement_id": "Ozena (Latin: Ozaena) adalah gurita legendaris yang digambarkan Plinius Tua; namanya berarti \"gurita berbau busuk\" karena baunya yang tidak sedap.",
           "quote": "L'Ozena (in latino Ozaena) è una leggendaria piovra descritta da Plinio il vecchio e il suo nome significa \"polpo puzzolente\" per via del suo odore sgradevole.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ozena-c02",
+          "source_id": "ozena-s1",
+          "host": "it.wikipedia.org",
+          "statement": "Most ozenas were small and stayed on the seabed, but rarely larger kinds attacked and drowned people.",
+          "statement_id": "Kebanyakan ozena berukuran kecil dan tinggal di dasar laut, tetapi kadang jenis yang lebih besar menyerang dan menenggelamkan manusia.",
+          "quote": "La maggior parte delle ozene era di piccole dimensioni e rimaneva sul fondo del mare. In casi rari alcune specie più grandi aggredivano gli uomini facendoli annegare.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1157,7 +1262,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -1165,17 +1270,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Italia, Italy. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Marche. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1183,10 +1278,40 @@
           "id": "pantafica-c01",
           "source_id": "pantafica-s1",
           "host": "it.wikipedia.org",
-          "statement": "The pantàfica is a spectral figure from Abruzzese folklore, personifying nightmare.",
-          "statement_id": "Pantafica adalah sosok hantu dalam cerita rakyat Abruzzo yang mempersonifikasikan mimpi buruk.",
-          "quote": "La pantàfica è una figura spettrale del folklore abruzzese, personificazione dell'incubo.",
+          "statement": "The pantafica is a ghostly figure of Abruzzese folklore, the personification of the nightmare, often an old witch who appears in a sleeper's room and stops them breathing.",
+          "statement_id": "Pantafica adalah sosok hantu dalam cerita rakyat Abruzzo, personifikasi mimpi buruk, yang sering berwujud nenek penyihir yang muncul di kamar orang tidur dan menghalangi napasnya.",
+          "quote": "La pantàfica è una figura spettrale del folklore abruzzese, personificazione dell'incubo. Ha spesso le sembianze di una vecchia strega che si materializza in camera del dormiente e gli impedisce di respirare.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pantafica-c02",
+          "source_id": "pantafica-s1",
+          "host": "it.wikipedia.org",
+          "statement": "Sometimes it takes the form of a big black cat.",
+          "statement_id": "Kadang ia berwujud kucing hitam besar.",
+          "quote": "In alcuni casi assume invece l'aspetto di un grosso gatto nero.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pantafica-c03",
+          "source_id": "pantafica-s1",
+          "host": "it.wikipedia.org",
+          "statement": "In the same region it is also called paura (fear).",
+          "statement_id": "Di wilayah yang sama ia juga disebut paura (ketakutan).",
+          "quote": "Nella stessa regione medioadriatica è anche detta paura per metonimia.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "pantafica-c04",
+          "source_id": "pantafica-s1",
+          "host": "it.wikipedia.org",
+          "statement": "Its name apparently derives from the Latin, Greek-derived phantasma, \"ghost\".",
+          "statement_id": "Namanya tampaknya berasal dari kata Latin asal Yunani phantasma, \"hantu\".",
+          "quote": "apparentemente riconducibili al latino d'origine greca phantasma («fantasma»)",
+          "context": "etymology",
           "status": "exact"
         }
       ],
@@ -1197,7 +1322,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 5,
         "sources": 1,
         "images": 0
       },
@@ -1205,17 +1330,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "short_description",
-          "message": "Tidak muncul di kutipan mana pun: Putri, Kaki, Kambing, Portugal. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Portugal, Utara. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1223,9 +1338,49 @@
           "id": "pardalo-c01",
           "source_id": "pardalo-s1",
           "host": "pt.wikipedia.org",
-          "statement": "The Pardalo is a mythical wild onager from Portuguese legends.",
-          "statement_id": "Pardalo adalah makhluk mistis berwujud keledai liar dalam legenda rakyat Portugis.",
-          "quote": "O Pardalo é um ser mítico das lendas portuguesas. O  Pardalo é um onagro silveste, um  ser mágico da lenda da Dama Pé-de-Cabra.",
+          "statement": "The Pardalo is a mythical being of Portuguese legend, a magical wild ass from the legend of the Dama Pé-de-Cabra.",
+          "statement_id": "Pardalo adalah makhluk mitos legenda Portugis, keledai liar ajaib dalam legenda Dama Pé-de-Cabra.",
+          "quote": "O Pardalo é um ser mítico das lendas portuguesas. O Pardalo é um onagro silveste, um ser mágico da lenda da Dama Pé-de-Cabra.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pardalo-c02",
+          "source_id": "pardalo-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "The Pardalo is the mount the Dama Pé-de-Cabra sends her son D. Inigo to rescue his father, D. Diogo, captive of the Moors.",
+          "statement_id": "Pardalo adalah tunggangan yang dikirim Dama Pé-de-Cabra kepada putranya, D. Inigo, untuk menyelamatkan ayahnya, D. Diogo, yang ditawan orang Moor.",
+          "quote": "Pardalo é a montada que a Dama pé de Cabra envia ao filho D. Inigo para este salvar o pai, D. Diogo, cativo dos mouros.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pardalo-c03",
+          "source_id": "pardalo-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "The Pardalo covered incredible distances over mountains and valleys as fast as the wind, could leap twenty streams in one bound and flew like a black cloud.",
+          "statement_id": "Pardalo menempuh jarak luar biasa melintasi gunung dan lembah secepat angin, dapat melompati dua puluh sungai sekali lompat, dan terbang seperti awan hitam.",
+          "quote": "O Pardalo percorria distancias incríveis por serras e vales com a rapidez do vento, era capaz de um pulo saltar vinte ribeiras e voava como uma nuvem negra",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pardalo-c04",
+          "source_id": "pardalo-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "Yet a simple stone cross could make the Pardalo stop, roar like a wild beast and tremble.",
+          "statement_id": "Namun salib batu sederhana dapat membuat Pardalo berhenti, meraung seperti binatang buas, dan gemetar.",
+          "quote": "No entanto, um simples cruzeiro de pedra era capaz de fazer o Pardalo parar, rugir como uma besta-fera e tremer como varas verdes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pardalo-c05",
+          "source_id": "pardalo-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "The Pardalo is a fast, strong war mount that needs no food.",
+          "statement_id": "Pardalo tunggangan perang yang cepat dan kuat serta tidak perlu makan.",
+          "quote": "O Pardalo é uma montada guerreira, veloz, forte, que não necessita de alimento",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1237,7 +1392,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 3,
         "sources": 1,
         "images": 0
       },
@@ -1245,12 +1400,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Sant, Joan, Mercat. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1258,9 +1408,29 @@
           "id": "pardalot-c01",
           "source_id": "pardalot-s1",
           "host": "ca.wikipedia.org",
-          "statement": "The Pardalot is a bogeyman figure in Valencian folklore.",
-          "statement_id": "Pardalot adalah sosok penakut anak-anak dalam folklor Valencia.",
+          "statement": "The Pardalot is a child-scaring bogey of Valencian folk imagination, a terrifying creature living inside the brick chimneys of factories in the Ribera Baixa and Plana Baixa.",
+          "statement_id": "Pardalot adalah momok penakut anak dalam imajinasi rakyat Valencia, makhluk menakutkan yang tinggal di cerobong bata pabrik di daerah Ribera Baixa dan Plana Baixa.",
           "quote": "El Pardalot és un espantamainades propi de l'imaginari popular valencià. Es tracta d'una criatura aterridora que vivia a l'interior de les xemeneies de rajola de les fàbriques que s'ubicaven a la zona de la Ribera Baixa i també a la Plana Baixa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pardalot-c02",
+          "source_id": "pardalot-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "According to Francesc Gisbert, the monster enjoyed the fire's heat and used the chimney smoke to hide when entering or leaving its lair.",
+          "statement_id": "Menurut Francesc Gisbert, monster itu menikmati panas api dan memakai asap cerobong untuk menyamarkan diri saat keluar-masuk sarangnya.",
+          "quote": "Francesc Gisbert ens conta que el monstre gaudia de la calor del foc i utilitzava el fum que eixia per les xemeneies per camuflar-se quan entrava o eixia del seu cau.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pardalot-c03",
+          "source_id": "pardalot-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "Legend says the Pardalot fed itself and its chicks on children it snatched for wandering alone too long in empty places.",
+          "statement_id": "Menurut legenda, Pardalot memakan dan memberi makan anak-anaknya dengan anak-anak yang diculiknya karena terlalu lama bermain sendirian di tempat sepi.",
+          "quote": "Conta la llegenda negra que aquest Pardalot s'alimentava, i alimentava als seus pollets, dels xiquets que raptava per anar a soles massa temps i per zones deshabitades.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1272,7 +1442,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 2,
         "sources": 1,
         "images": 0
       },
@@ -1280,7 +1450,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1288,10 +1458,20 @@
           "id": "pare-esme-c01",
           "source_id": "pare-esme-s1",
           "host": "ca.wikipedia.org",
-          "statement": "Pare Esmè is the giant of Montseny in Catalan mythology.",
-          "statement_id": "Pare Esme adalah raksasa Montseny dalam mitologi Catalunya.",
-          "quote": "El Pare Esmè és, en la mitologia catalana, el gegant del Montseny.",
+          "statement": "In Catalan mythology Pare Esmè is the giant of the Montseny, who dances and leaps across valleys and ranges, can stand with one foot on Les Agudes and the other on the Turó de l'Home, and drinks a whole river when thirsty.",
+          "statement_id": "Dalam mitologi Katalan, Pare Esmè adalah raksasa Montseny yang menari dan melompat di lembah dan pegunungan, dapat menapakkan satu kaki di Les Agudes dan satu lagi di Turó de l'Home, dan meminum seluruh air sungai saat haus.",
+          "quote": "El Pare Esmè és, en la mitologia catalana, el gegant del Montseny. Se'l descriu com un gegant que balla i salta per les valls i serralades, que pot tenir un peu a les Agudes i l'altre al Turó de l'Home. Era molt alt i quan tenia set es bevia tota l'aigua del riu.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pare-esme-c02",
+          "source_id": "pare-esme-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "Some of its legends resemble those of Fort Farell of Caldes de Montbui or the Sagal Nou of Urgell.",
+          "statement_id": "Beberapa legendanya mirip legenda Fort Farell dari Caldes de Montbui atau Sagal Nou dari Urgell.",
+          "quote": "Algunes llegendes relacionades amb aquest gegant tenen similituds amb les del Fort Farell de Caldes de Montbui o el Sagal Nou de l'Urgell.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -1302,7 +1482,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -1310,27 +1490,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "era.text",
-          "message": "Tidak muncul di kutipan mana pun: Portugis. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "short_description",
-          "message": "Tidak muncul di kutipan mana pun: Peri, Portugis, Wolf, Maiden, Fairy, Portuguese. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Portugal, Iberia, Portuguese, Iberian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Portugal. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1338,9 +1498,39 @@
           "id": "peeira-mythological-creature-c01",
           "source_id": "peeira-mythological-creature-s1",
           "host": "pt.wikipedia.org",
-          "statement": "Peeira is the name given to young women who become guardians or companions of wolves.",
-          "statement_id": "Peeira adalah nama bagi perempuan yang menjadi penjaga atau sahabat serigala.",
-          "quote": "Peeira, Pijeira (regionalismo de Soajo) ou Fada dos Lobos é o nome que se dá às jovens que se tornam guardadoras ou companheiras de lobos.",
+          "statement": "Peeira, Pijeira or Wolf Fairy is the name for young women who become keepers or companions of wolves; they are the human, female counterpart of the werewolf in the legends of Portugal and Galicia.",
+          "statement_id": "Peeira, Pijeira, atau Peri Serigala adalah sebutan bagi gadis yang menjadi penjaga atau teman serigala; mereka versi manusia dan perempuan dari manusia serigala dalam legenda Portugal dan Galisia.",
+          "quote": "Peeira, Pijeira (regionalismo de Soajo) ou Fada dos Lobos é o nome que se dá às jovens que se tornam guardadoras ou companheiras de lobos. Elas são a versão humana e feminina do lobisomem e fazem parte das lendas de Portugal e da Galiza.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "peeira-mythological-creature-c02",
+          "source_id": "peeira-mythological-creature-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "The peeira must make food for her wolves and has the gift of communicating with and controlling wolf packs.",
+          "statement_id": "Peeira wajib menyiapkan makanan bagi serigala-serigalanya dan dapat berkomunikasi dengan serta mengendalikan kawanan serigala.",
+          "quote": "A peeira tem a obrigação de fazer comida para os seus lobos, além do dom de comunicar e controlar grupos de lobos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "peeira-mythological-creature-c03",
+          "source_id": "peeira-mythological-creature-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "In one version a seventh daughter, unless one of her sisters is her godmother, is fated to join her destined wolf and guard wolves, forests and hills for seven years.",
+          "statement_id": "Dalam satu versi, putri ketujuh, kecuali salah satu kakaknya menjadi ibu baptisnya, ditakdirkan menemui serigala takdirnya dan menjaga serigala, hutan, dan gunung selama tujuh tahun.",
+          "quote": "uma sétima filha que a menos que uma das irmās seja a madrinha, tem o fado de ir ter com o seu lobo predestinado e ser a guardiā dos lobos, florestas e Montes durante sete anos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "peeira-mythological-creature-c04",
+          "source_id": "peeira-mythological-creature-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "It is said a girl may become a peeira when summoned by the howl of her \"destined wolf\".",
+          "statement_id": "Konon seorang gadis dapat menjadi peeira bila dipanggil lolongan \"serigala takdirnya\".",
+          "quote": "Dizem que uma moça pode se tornar uma peeira ao ser convocada pelo uivo de seu \"lobo predestinado\"",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1352,7 +1542,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 2,
         "sources": 1,
         "images": 0
       },
@@ -1360,7 +1550,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1368,10 +1558,20 @@
           "id": "peladits-c01",
           "source_id": "peladits-s1",
           "host": "ca.wikipedia.org",
-          "statement": "The Peladits is a bogeyman creature from the Catalan popular imaginary originating in Odena.",
-          "statement_id": "Peladits adalah makhluk penakut anak-anak dalam khazanah cerita rakyat Catalunya dari Odena.",
-          "quote": "El Peladits és un espantamainades propi de l'imaginari popular català, concretament d'Òdena (Anoia).",
+          "statement": "The Peladits is a child-scaring bogey from Òdena (Anoia) in Catalan folk imagination, an evil being hiding near Montserrat that punishes children who won't wash by bathing them in boiling water and scrubbing them with pumice.",
+          "statement_id": "Peladits adalah momok penakut anak dari Òdena (Anoia) dalam imajinasi rakyat Katalan, makhluk jahat yang bersembunyi dekat Montserrat dan menghukum anak yang tidak mau mandi dengan merendamnya di air mendidih dan menggosoknya dengan batu apung.",
+          "quote": "El Peladits és un espantamainades propi de l'imaginari popular català, concretament d'Òdena (Anoia). Es tracta d'un ésser malèfic que viu amagat prop de la muntanya de Montserrat i castiga els nens que no es volen rentar amb terribles suplicis, com ara banyar-los en aigua bullent i fregar-los amb pedra tosca.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "peladits-c02",
+          "source_id": "peladits-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "As Joan Amades recorded in the Revista de Dialectología y Tradiciones Populares (1957), the Peladits is tall and thin, black as coal and hairy as a bear.",
+          "statement_id": "Menurut catatan Joan Amades dalam Revista de Dialectología y Tradiciones Populares (1957), Peladits tinggi kurus, hitam seperti arang, dan berbulu seperti beruang.",
+          "quote": "Segons va recollir Joan Amades en un article a la Revista de Dialectología y Tradiciones Populares el 1957, el Peladits és alt i prim, negre com el carbó i pelut com un os.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -1382,7 +1582,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 2,
         "sources": 1,
         "images": 0
       },
@@ -1390,27 +1590,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "era.text",
-          "message": "Tidak muncul di kutipan mana pun: Ripolles, Cerdanya. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "short_description",
-          "message": "Tidak muncul di kutipan mana pun: Pyrenean. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0]",
-          "message": "Tidak muncul di kutipan mana pun: Ripolles, Ripollès. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Ripollès, Cerdanya. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1418,9 +1598,19 @@
           "id": "perico-c01",
           "source_id": "perico-s1",
           "host": "ca.wikipedia.org",
-          "statement": "The pericó is the spirit of metal and the soul of iron in Catalan popular lore.",
-          "statement_id": "Perico adalah roh logam dan jiwa besi dalam imajinasi rakyat Catalunya.",
-          "quote": "El pericó és, dins l'imaginari popular català, el geni del metall, l'ànima del ferro.",
+          "statement": "In Catalan folk imagination the pericó is the spirit of metal, the soul of iron, known especially in Ripollès and Cerdanya; tiny and almost invisible, in fire it grows angry, leaps into the flames and swells into a huge solid-iron giant that smashes everything.",
+          "statement_id": "Dalam imajinasi rakyat Katalan, pericó adalah roh logam, jiwa besi, terutama dikenal di Ripollès dan Cerdanya; ia sangat kecil dan hampir tak terlihat, tetapi bila dibakar ia marah, melompat ke api, dan tumbuh menjadi raksasa besi pejal yang menghancurkan segalanya.",
+          "quote": "El pericó és, dins l'imaginari popular català, el geni del metall, l'ànima del ferro. Especialment conegut al Ripollès i la Cerdanya, és molt menut i gairebé invisible, però amb el foc s'enfada, salta dins les flames i creix fins que es converteix en un gegant enorme de ferro massís, que tot ho esmicola i tot ho aixafa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "perico-c02",
+          "source_id": "perico-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "Blacksmiths used to strike the anvil three times with the hammer, thinking of the Pericó, before starting work, so it could not come out of the iron.",
+          "statement_id": "Dulu para pandai besi memukul landasan tiga kali sambil memikirkan Pericó sebelum bekerja, agar roh itu tidak keluar dari besi.",
+          "quote": "Antigament, els ferrers, abans de començar la feina, donaven tres cops de mall sobre l'enclusa pensant en el Pericó, per tal que no pogués sortir de dins el ferro.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1432,7 +1622,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 2,
         "sources": 1,
         "images": 0
       },
@@ -1440,27 +1630,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "short_description",
-          "message": "Tidak muncul di kutipan mana pun: Lembah, Solsones, Valley. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Katolik, Catholic. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Vall, Solsonès. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Vall. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1468,9 +1638,19 @@
           "id": "pertenidor-c01",
           "source_id": "pertenidor-s1",
           "host": "ca.wikipedia.org",
-          "statement": "A pertenidor is a type of suffering soul from Catalan mythology.",
-          "statement_id": "Pertenidor adalah arwah gentayangan dalam mitologi Catalunya.",
-          "quote": "Un pertenidor és una mena d'ànima en pena propi de la mitologia catalana.",
+          "statement": "A pertenidor is a kind of restless soul of Catalan mythology, found in the Vall de Lord and the Solsonès, that wanders the land repeating in laments whatever it hears.",
+          "statement_id": "Pertenidor adalah sejenis arwah penasaran dalam mitologi Katalan, terutama di Vall de Lord dan Solsonès, yang mengembara dan mengulang dalam ratapan apa yang mereka dengar.",
+          "quote": "Un pertenidor és una mena d'ànima en pena propi de la mitologia catalana. Localitzats a la Vall de Lord i al Solsonès en general, els pertenidors volten errants per la terra i repeteixen en planys allò que van sentint.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pertenidor-c02",
+          "source_id": "pertenidor-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "According to Joan Amades, pertenidors personify the echo, so one must not shout where the voice echoes, so as not to make them suffer.",
+          "statement_id": "Menurut Joan Amades, pertenidor adalah personifikasi gema, sehingga orang tidak boleh berteriak di tempat yang bergema agar tidak menyiksa mereka.",
+          "quote": "Segons Joan Amades, els pertenidors són la personificació del ressò, per la qual cosa cal no cridar ni parlar fort allà on la veu ressoni per tal de no fer-los patir.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1482,7 +1662,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 5,
         "sources": 1,
         "images": 0
       },
@@ -1490,17 +1670,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "era.text",
-          "message": "Tidak muncul di kutipan mana pun: 12. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Eropa, European. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1508,9 +1678,49 @@
           "id": "petitcrieu-c01",
           "source_id": "petitcrieu-s1",
           "host": "en.wikipedia.org",
-          "statement": "Petitcrieu is a legendary magical dog from Arthurian legend.",
-          "statement_id": "Petitcrieu adalah anjing ajaib legendaris dari legenda Arthurian.",
+          "statement": "Petitcrieu (also Petitcreiu, Petitcru or Pticru) is a legendary magical dog of Arthurian legend, found in the chivalric romance of Tristan and Iseult.",
+          "statement_id": "Petitcrieu (juga Petitcreiu, Petitcru, atau Pticru) adalah anjing ajaib legendaris dari legenda Arthur, yang muncul dalam roman kesatria Tristan dan Iseult.",
           "quote": "Petitcrieu, alternatively spelled Petitcreiu, Petitcru, or Pticru, is a legendary magical dog from Arthurian legend present in the chivalric romance of Tristan and Iseult.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "petitcrieu-c02",
+          "source_id": "petitcrieu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Gottfried von Strassburg's Tristan, Petitcrieu was a magical fairy dog from Avalon owned by Duke Gilan of Wales, a goddess's love token.",
+          "statement_id": "Dalam Tristan karya Gottfried von Strassburg, Petitcrieu anjing peri dari Avalon milik Adipati Gilan dari Wales, hadiah cinta dari seorang dewi.",
+          "quote": "In Gottfried von Strassburg's Tristan, Petitcrieu was a magical fairy dog from Avalon owned by Duke Gilan of Wales, given to him by a goddess as a token of love.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "petitcrieu-c03",
+          "source_id": "petitcrieu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Petitcrieu was indescribably beautiful and many-coloured, with a magic golden bell on its collar whose sweet ring made anyone who heard it happy.",
+          "statement_id": "Petitcrieu sangat indah dan berwarna-warni, dengan lonceng emas ajaib di kalungnya yang bunyinya membuat siapa pun yang mendengar merasa bahagia.",
+          "quote": "Petitcrieu was indescribably beautiful and multicolored, and wore a magical golden bell on its collar. The bell had a sweet-sounding ring that made anybody who heard it feel happy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "petitcrieu-c04",
+          "source_id": "petitcrieu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It also had no appetite and could not eat.",
+          "statement_id": "Ia juga tidak punya selera makan dan tidak dapat makan.",
+          "quote": "In addition, it had no appetite and was incapable of eating.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "petitcrieu-c05",
+          "source_id": "petitcrieu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Tristan struck a deal with the Duke to kill the giant Urgan for the dog.",
+          "statement_id": "Tristan membuat perjanjian dengan sang adipati untuk membunuh raksasa Urgan demi anjing itu.",
+          "quote": "Tristan made a deal with the Duke that if he killed the giant Urgan",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1522,7 +1732,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 3,
         "sources": 1,
         "images": 0
       },
@@ -1530,7 +1740,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1538,9 +1748,29 @@
           "id": "pettenedda-c01",
           "source_id": "pettenedda-s1",
           "host": "it.wikipedia.org",
-          "statement": "The pettenedda is a mythical creature belonging to Sardinian tradition who dwells in wells.",
-          "statement_id": "Pettenedda adalah makhluk mitis tradisi Sardinia yang konon tinggal di dalam sumur.",
-          "quote": "La pettenedda è una creatura mitica che appartiene alla tradizione sarda e che vivrebbe nei pozzi.",
+          "statement": "The pettenedda is a mythical creature of Sardinian tradition said to live in wells; the legend was probably invented by mothers to keep children away from wells.",
+          "statement_id": "Pettenedda adalah makhluk mitos tradisi Sardinia yang konon tinggal di sumur; legendanya mungkin dibuat para ibu untuk menakuti anak agar menjauhi sumur.",
+          "quote": "La pettenedda è una creatura mitica che appartiene alla tradizione sarda e che vivrebbe nei pozzi. Probabilmente la leggenda è stata inventata dalle madri per spaventare i bambini e tenerli lontani dai pozzi.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pettenedda-c02",
+          "source_id": "pettenedda-s1",
+          "host": "it.wikipedia.org",
+          "statement": "The pettenedda is imagined as a very old woman who spends her life combing her hair with her very long nails, hence her name.",
+          "statement_id": "Pettenedda dibayangkan sebagai perempuan sangat tua yang menghabiskan hidupnya menyisir rambut dengan kukunya yang sangat panjang, sehingga dinamai demikian.",
+          "quote": "La pettenedda è sempre stata immaginata come una donna molto vecchia che passa la vita a pettinarsi (da qui il suo nome) con le sue unghie lunghissime",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pettenedda-c03",
+          "source_id": "pettenedda-s1",
+          "host": "it.wikipedia.org",
+          "statement": "Children who came near would be seized by her huge claws and dragged to the bottom of the well.",
+          "statement_id": "Anak yang mendekati sumur konon akan disambar cakarnya yang besar dan diseret ke dasar sumur.",
+          "quote": "la pettenedda li avrebbe agguantati con i suoi enormi artigli e li avrebbe trascinati in fondo al pozzo",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1561,11 +1791,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Prancis, Normandy. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -1573,7 +1798,7 @@
           "id": "piterne-c01",
           "source_id": "piterne-s1",
           "host": "nrm.wikipedia.org",
-          "statement": "The piterne is an imaginary creature from Norman stories.",
+          "statement": "The piterne is an imaginary creature of Norman folk tales.",
           "statement_id": "Piterne adalah makhluk khayalan dalam cerita rakyat Normandia.",
           "quote": "La piterne est eune criateure imaginatouère des diries normandes.",
           "context": "traditional-belief",
@@ -1587,15 +1812,20 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
+          "where": "culture",
+          "message": "Mengusulkan tradisi baru: \"Mitologi Galisia\"."
+        },
+        {
+          "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1603,10 +1833,40 @@
           "id": "porviso-c01",
           "source_id": "porviso-s1",
           "host": "gl.wikipedia.org",
-          "statement": "The porviso is a creature from Galician mythology, a goblin or demon appearing at night in animal form.",
-          "statement_id": "Porviso adalah makhluk mitologi Galisia berupa goblin atau iblis yang muncul malam hari berwujud hewan.",
+          "statement": "The porviso or proviso is a being of Galician mythology, a trasno or demon, that appears at night in animal form and stops people breathing in their sleep.",
+          "statement_id": "Porviso atau proviso adalah makhluk mitologi Galisia, semacam trasno atau iblis, yang muncul pada malam hari dalam wujud hewan dan menghalangi napas orang yang tidur.",
           "quote": "O porviso ou proviso é un ser da mitoloxía galega, un trasno ou un demo, que aparece de noite adoptando forma de animal, e impídelle alentar á xente mentres dorme.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "porviso-c02",
+          "source_id": "porviso-s1",
+          "host": "gl.wikipedia.org",
+          "statement": "It is shown with a long tail, very hairy, taking the form of various animals.",
+          "statement_id": "Ia digambarkan berekor panjang, sangat berbulu, dan berwujud berbagai hewan.",
+          "quote": "Represéntase cun rabo longo, adopta a forma de distintos animais e é moi peludo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "porviso-c03",
+          "source_id": "porviso-s1",
+          "host": "gl.wikipedia.org",
+          "statement": "To drive it away one crosses oneself; the \"water flower\" formed on St John's night and gathered at dawn also wards off the porviso, like all demons.",
+          "statement_id": "Untuk mengusirnya orang membuat tanda salib; \"bunga air\" yang terbentuk pada malam Santo Yohanes dan dikumpulkan pagi-pagi juga mengusir porviso seperti semua iblis.",
+          "quote": "Para escorrentalo hai que persignarse; a \"flor da auga\", que se forma a noite de san Xoán e se recolle pola mañanciña, serve para arredar o porviso, ó igual que todos os demos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "porviso-c04",
+          "source_id": "porviso-s1",
+          "host": "gl.wikipedia.org",
+          "statement": "Rafael Dieste names the porviso as a devil in A fiestra valdeira (1927).",
+          "statement_id": "Rafael Dieste menyebut porviso sebagai iblis dalam lakon A fiestra valdeira (1927).",
+          "quote": "Rafael Dieste en A fiestra valdeira (1927) nomea o porviso como diaño",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
@@ -1617,7 +1877,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -1625,27 +1885,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0]",
-          "message": "Tidak muncul di kutipan mana pun: Aberdeen, Bestiary. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Kristen, Christian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Eropa. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Latin. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1653,9 +1893,39 @@
           "id": "prestere-c01",
           "source_id": "prestere-s1",
           "host": "it.wikipedia.org",
-          "statement": "The prestere is a legendary serpent described in medieval bestiaries.",
-          "statement_id": "Prestere adalah ular legendaris yang dijelaskan dalam bestiari Abad Pertengahan.",
+          "statement": "The prestere (from Latin prester) is a legendary serpent described in medieval bestiaries.",
+          "statement_id": "Prestere (dari bahasa Latin prester) adalah ular legendaris dalam bestiarium abad pertengahan.",
           "quote": "Il prestere o prestero (dal latino prester) è un serpente leggendario descritto nei bestiari medievali.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prestere-c02",
+          "source_id": "prestere-s1",
+          "host": "it.wikipedia.org",
+          "statement": "Its venom makes the victim's body swell abnormally until it dies from the stretching of its tissues, which at once begin to rot.",
+          "statement_id": "Bisanya membuat tubuh korban membengkak luar biasa hingga mati karena jaringannya meregang, yang lalu segera membusuk.",
+          "quote": "In particolare, il veleno del prestere provoca nel corpo della vittima un gonfiore abnorme (con un effetto simile all'idropisia), tale che essa viene uccisa dalla semplice dilatazione dei tessuti, i quali iniziano subito a putrefarsi.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prestere-c03",
+          "source_id": "prestere-s1",
+          "host": "it.wikipedia.org",
+          "statement": "Albertus Magnus placed it in the first order of asps, whose bite is most venomous, fatal within three hours and without cure.",
+          "statement_id": "Albertus Magnus menggolongkannya dalam tingkat pertama aspis, yang gigitannya paling berbisa, mematikan dalam tiga jam, dan tak ada obatnya.",
+          "quote": "Alberto Magno colloca il prestere nel primo ordine degli aspidi, ossia di quelli dal morso più velenoso, che risulta fatale entro tre ore e per il quale non si conoscono cure.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "prestere-c04",
+          "source_id": "prestere-s1",
+          "host": "it.wikipedia.org",
+          "statement": "Its most peculiar feature is its mouth, which gives off vapours and stays open even as it moves swiftly.",
+          "statement_id": "Ciri paling khasnya adalah mulut yang mengeluarkan uap dan selalu terbuka, bahkan saat ia bergerak cepat.",
+          "quote": "La caratteristica più peculiare del prestere è la bocca, che emette vapori e che esso tiene sempre aperta, anche quando si muove, cosa che fa con rapidità.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1667,7 +1937,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 3,
         "sources": 1,
         "images": 0
       },
@@ -1675,17 +1945,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Saci-Pererê, Brasil, Brazilian, Saci, Lusophone. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Portugal. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1693,9 +1953,29 @@
           "id": "pretinho-do-barrete-encarnado-c01",
           "source_id": "pretinho-do-barrete-encarnado-s1",
           "host": "pt.wikipedia.org",
-          "statement": "Pretinho do barrete encarnado is a mischievous, provocative being in Portuguese children's mythology.",
-          "statement_id": "Pretinho do Barrete Encarnado adalah sosok usil yang memakai topi merah dalam tradisi folklor anak Portugis.",
+          "statement": "The pretinho do barrete encarnado is a being of Portuguese children's mythology, kindly, mischievous and teasing.",
+          "statement_id": "Pretinho do barrete encarnado adalah makhluk mitologi anak-anak Portugis yang baik hati, nakal, dan suka menggoda.",
           "quote": "O pretinho do barrete encarnado é um ser da mitologia infantil portuguesa. O pretinho do barrete encarnado é um ser benfazejo travesso e provocador.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pretinho-do-barrete-encarnado-c02",
+          "source_id": "pretinho-do-barrete-encarnado-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "It always appears at the calmest hour and pulls faces and plays tricks on children to annoy them.",
+          "statement_id": "Ia selalu muncul pada jam paling tenang dan suka mengejek serta mengusili anak-anak agar mereka kesal.",
+          "quote": "O pretinho do barrete encarnado aparece sempre à hora de maior calma. É uma entidade graciosa que faz figas e pirraças às crianças para as enraivecer.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pretinho-do-barrete-encarnado-c03",
+          "source_id": "pretinho-do-barrete-encarnado-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "It is said to be the Devil's youngest son, who disobeyed his father out of friendship for good souls, especially children.",
+          "statement_id": "Konon ia putra bungsu Iblis yang membangkang kepada ayahnya karena bersahabat dengan jiwa-jiwa baik, terutama anak-anak.",
+          "quote": "Diz-se que é o filho mais novo do Diabo, que desobedeceu ao pai por ser amigo das almas boas, principalmente das crianças.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1707,7 +1987,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 5,
         "sources": 1,
         "images": 0
       },
@@ -1715,42 +1995,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "era.text",
-          "message": "Tidak muncul di kutipan mana pun: Renaisans. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "short_description",
-          "message": "Tidak muncul di kutipan mana pun: Pseudomonarchia, Daemonum. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0]",
-          "message": "Tidak muncul di kutipan mana pun: 38, Johann, Weyer. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: 16, Renaisans, Eropa, European. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Barat. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.famous_for",
-          "message": "Tidak muncul di kutipan mana pun: Pseudomonarchia, Daemonum. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Pseudomonarchia, Daemonum, Lemegeton. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1758,10 +2003,50 @@
           "id": "pucel-c01",
           "source_id": "pucel-s1",
           "host": "fr.wikipedia.org",
-          "statement": "Pucel or Pocel is a demon from the beliefs of goetia.",
-          "statement_id": "Pucel adalah iblis yang berasal dari kepercayaan ilmu goetia.",
+          "statement": "Pucel or Pocel is a demon from goetia, the occult art of summoning demonic beings.",
+          "statement_id": "Pucel atau Pocel adalah iblis dari kepercayaan goetia, ilmu gaib pemanggilan makhluk iblis.",
           "quote": "Pucel ou Pocel est un démon issu des croyances de la goétie, science occulte de l'invocation d'entités démoniaques.",
-          "context": "traditional-belief",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "pucel-c02",
+          "source_id": "pucel-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "The Pseudomonarchia Daemonum lists him 38th, while the Lemegeton does not mention him.",
+          "statement_id": "Pseudomonarchia Daemonum menyebutnya di urutan ke-38 daftar iblisnya, sedangkan Lemegeton tidak menyebutnya.",
+          "quote": "La Pseudomonarchia Daemonum le mentionne en 38e position de sa liste de démons tandis que le Lemegeton ne le mentionne pas.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pucel-c03",
+          "source_id": "pucel-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "Pucel is described as a great and mighty duke of hell appearing as a dark angel, who answers about the occult sciences and teaches geometry and the liberal arts.",
+          "statement_id": "Pucel digambarkan sebagai adipati neraka yang agung dan kuat, tampil sebagai malaikat gelap, menjawab tentang ilmu gaib, serta mengajarkan geometri dan seni liberal.",
+          "quote": "Pucel est décrit comme un grand et puissant duc de l'enfer apparaissant sous la forme d'un ange obscur. Il répond sur les sciences occultes, enseigne la géométrie et les arts libéraux.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "pucel-c04",
+          "source_id": "pucel-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "He makes great noises and the roar of waters where there are none, and commands 48 legions.",
+          "statement_id": "Ia menimbulkan bunyi keras dan suara gemuruh air di tempat yang tidak berair, serta memimpin 48 legiun.",
+          "quote": "Il génère de grand bruits et fait entendre le mugissement des eaux dans les lieux où il n'y en a pas. Il commande 48 légions.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "pucel-c05",
+          "source_id": "pucel-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "According to Collin de Plancy, he may be the same as Crocell.",
+          "statement_id": "Menurut Collin de Plancy, ia mungkin sama dengan Crocell.",
+          "quote": "Selon Collin de Plancy, il pourrait être le même que Crocell",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -1772,7 +2057,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 3,
         "sources": 1,
         "images": 0
       },
@@ -1780,22 +2065,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "era.text",
-          "message": "Tidak muncul di kutipan mana pun: Catalunya. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "short_description",
-          "message": "Tidak muncul di kutipan mana pun: Catalunya, Catalan. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Catalan. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1803,9 +2073,29 @@
           "id": "rosegacebes-c01",
           "source_id": "rosegacebes-s1",
           "host": "ca.wikipedia.org",
-          "statement": "Rosegacebes is the name of a mythological being, a kind of suffering soul or ghost from Pyrenean legends.",
-          "statement_id": "Rosegacebes adalah makhluk mitologis sejenis arwah gentayangan dalam legenda Pirenia.",
+          "statement": "Rosegacebes is a mythological being, a kind of restless soul or ghost, in the legends of the Catalan Pyrenees, especially Cerdanya.",
+          "statement_id": "Rosegacebes adalah makhluk mitologis, semacam arwah penasaran atau hantu, dalam legenda Pirenia Katalan, terutama di Cerdanya.",
           "quote": "Rosegacebes és el nom d'un ésser mitològic, espècie d'ànima en pena, fantasma o espantall que forma part de les llegendes del Pirineu català, especialment de les contrades de la Cerdanya.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rosegacebes-c02",
+          "source_id": "rosegacebes-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "The Cerdanya Research Group revived the Rosegacebes, a bogey from Vilar d'Urtx.",
+          "statement_id": "Kelompok Penelitian Cerdanya menghidupkan kembali Rosegacebes, momok yang berasal dari Vilar d'Urtx.",
+          "quote": "El Grup de Recerca de Cerdanya ha recuperat, entre altres espantamainades, el Rosegacebes, originari del Vilar d'Urtx",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "rosegacebes-c03",
+          "source_id": "rosegacebes-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "Legend says it is the damned soul of a man who stole onions from his neighbour's garden until the angry neighbour cursed him.",
+          "statement_id": "Menurut legenda, ia arwah terkutuk seorang lelaki yang semasa hidup suka mencuri bawang dari kebun tetangganya sampai tetangga itu mengutuknya.",
+          "quote": "segons la llegenda és l'ànima damnada d'un home que, quan era viu, es dedicava a robar les cebes de l'hort del seu veí, fins que aquest, empipat, el va maleir",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1817,7 +2107,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 3,
         "sources": 1,
         "images": 0
       },
@@ -1825,17 +2115,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Semenanjung, Iberia, Iberian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Portugal. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1843,9 +2123,29 @@
           "id": "rosemunho-c01",
           "source_id": "rosemunho-s1",
           "host": "pt.wikipedia.org",
-          "statement": "The rosemunho is a mythical being of Portuguese popular folklore related to whirlwinds.",
-          "statement_id": "Rosemunho adalah makhluk mitis dalam cerita rakyat Portugis yang berkaitan dengan pusaran angin.",
-          "quote": "O rosemunho  (ou remoinho) é um ser mítico do folclore popular português. Este ser está relacionado com o mito solar, que aparece ao meio-dia, ou nas horas abertas (também chamadas Trindades) e é tido como um ser maléfico.",
+          "statement": "The rosemunho or remoinho is a mythical being of Portuguese folklore tied to the solar myth, appearing at noon or at the open hours (Trindades) and considered evil.",
+          "statement_id": "Rosemunho atau remoinho adalah makhluk mitos cerita rakyat Portugis yang terkait mitos matahari, muncul pada tengah hari atau pada jam-jam terbuka (Trindades), dan dianggap jahat.",
+          "quote": "O rosemunho (ou remoinho) é um ser mítico do folclore popular português. Este ser está relacionado com o mito solar, que aparece ao meio-dia, ou nas horas abertas (também chamadas Trindades) e é tido como um ser maléfico.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rosemunho-c02",
+          "source_id": "rosemunho-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "The balborinho resembles the rosemunho: both appear as whirlwinds and wreak havoc on people's lives.",
+          "statement_id": "Balborinho mirip rosemunho: keduanya muncul sebagai pusaran angin dan merusak kehidupan orang.",
+          "quote": "o balborinho assemelha-se ao rosemunho, manifestando-se ambos sob a forma de redemoinho e causando estragos na vida das pessoas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rosemunho-c03",
+          "source_id": "rosemunho-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "Unlike the balborinho, no known origin is attributed to the rosemunho.",
+          "statement_id": "Berbeda dengan balborinho, asal-usul rosemunho tidak diketahui.",
+          "quote": "ao rosemunho não é atribuída qualquer etiologia conhecida.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1866,16 +2166,6 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Portugal. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Portugal. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -1883,9 +2173,9 @@
           "id": "rou-rou-c01",
           "source_id": "rou-rou-s1",
           "host": "pt.wikipedia.org",
-          "statement": "The Rou-rou is a mythical sleep entity from Portuguese children's folklore.",
-          "statement_id": "Rou-rou adalah entitas mitis tidur dalam mitologi anak Portugis.",
-          "quote": "O Rou-rou uma entidade mítica do sono, é uma personagem da mitologia infantil portuguesa.",
+          "statement": "The Rou-rou is a mythical sleep figure of Portuguese children's mythology, a frequent theme of lullabies and nursery rhymes.",
+          "statement_id": "Rou-rou adalah sosok mitos tidur dalam mitologi anak-anak Portugis yang sering muncul dalam lagu nina bobo dan sajak anak.",
+          "quote": "O Rou-rou uma entidade mítica do sono, é uma personagem da mitologia infantil portuguesa. O Rou-rou era tema frequente nas cantigas de embalar e nas rimas infantis.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1897,7 +2187,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 3,
         "sources": 1,
         "images": 0
       },
@@ -1905,22 +2195,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "era.text",
-          "message": "Tidak muncul di kutipan mana pun: 19. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Simões, Lopes, Neto, Brazilian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Tempo, Vento, Érico, Veríssimo, Brazilian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1928,9 +2203,29 @@
           "id": "salamanca-do-jarau-c01",
           "source_id": "salamanca-do-jarau-s1",
           "host": "pt.wikipedia.org",
-          "statement": "The legend of Teiniaguá, also known as Salamanca do Jarau, is a gaucho legend about an enchanted Moorish princess.",
-          "statement_id": "Legenda Teiniagua atau Salamanca do Jarau adalah legenda gaucho tentang putri Moor yang terperangkap dalam gua.",
-          "quote": "A  lenda da 'Teiniaguá', também conhecida como Salamanca do Jarau é uma lenda gaúcha,  que conta a história de uma princesa moura que se transforma em uma bruxa e que vem em uma urna de Salamanca, na Espanha para uma caverna no Cerro do Jarau, em Quaraí, no Rio Grande do Sul.",
+          "statement": "The legend of Teiniaguá, also known as Salamanca do Jarau, is a gaúcho legend about a Moorish princess who becomes a witch and comes in an urn from Salamanca, Spain, to a cave on Cerro do Jarau in Quaraí, Rio Grande do Sul.",
+          "statement_id": "Legenda Teiniaguá atau Salamanca do Jarau adalah legenda gaúcho tentang putri Moor yang berubah menjadi penyihir dan datang dalam sebuah guci dari Salamanca, Spanyol, ke gua di Cerro do Jarau, Quaraí, Rio Grande do Sul.",
+          "quote": "lenda da 'Teiniaguá', também conhecida como Salamanca do Jarau é uma lenda gaúcha, que conta a história de uma princesa moura que se transforma em uma bruxa e que vem em uma urna de Salamanca, na Espanha para uma caverna no Cerro do Jarau, em Quaraí, no Rio Grande do Sul.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "salamanca-do-jarau-c02",
+          "source_id": "salamanca-do-jarau-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "Teiniaguá, an icon of gaúcho culture, is a Moorish princess turned into a lizard by Anhangá-Pitã, the natives' Red Devil.",
+          "statement_id": "Teiniaguá, ikon budaya gaúcho, adalah putri Moor yang diubah menjadi kadal oleh Anhangá-Pitã, Iblis Merah orang pribumi.",
+          "quote": "Um ícone da cultura gaúcha, a Teiniaguá, é uma princesa da região moura, transformada em lagartixa pelo Diabo Vermelho dos índios, Anhangá-Pitã.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "salamanca-do-jarau-c03",
+          "source_id": "salamanca-do-jarau-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "It has a lizard's or salamander's body with a sparkling ruby-red gem for a head that fascinates and lures men, and is fated to live in a lagoon on Cerro do Jarau.",
+          "statement_id": "Ia bertubuh kadal atau salamander, dengan batu permata merah delima berkilau sebagai kepala yang memikat lelaki, dan ditakdirkan hidup di sebuah danau di Cerro do Jarau.",
+          "quote": "Corpo de lagartixa (ou salamandra), encontra-se no lugar de sua cabeça uma pedra preciosa cintilante, cor de rubi, que fascina os homens e os atrai, destinada a viver em uma lagoa no Cerro do Jarau.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1942,7 +2237,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -1950,17 +2245,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Prancis, France. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Romawi. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1968,9 +2253,39 @@
           "id": "salina-c01",
           "source_id": "salina-s1",
           "host": "fr.wikipedia.org",
-          "statement": "Salina is a folkloric figure of Franche-Comte who reportedly gave her name to the city of Salins-les-Bains.",
-          "statement_id": "Salina adalah figur folklor Franche-Comte yang konon memberi nama bagi kota Salins-les-Bains.",
+          "statement": "Salina is a folk figure of Franche-Comté who, in legend, gave her name to the town of Salins-les-Bains in the French department of Jura.",
+          "statement_id": "Salina adalah tokoh cerita rakyat Franche-Comté yang menurut legenda memberi nama pada kota Salins-les-Bains di departemen Jura, Prancis.",
           "quote": "Salina est une figure folklorique franc-comtoise. Elle aurait, selon la légende, donnée son nom à la ville de Salins-les-Bains, dans le département français du Jura.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "salina-c02",
+          "source_id": "salina-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "Salina was said to be born of the love of a nymph and Apollo, also known by the Roman name Phoebus.",
+          "statement_id": "Salina konon lahir dari cinta seorang nimfa dan Apollo, yang juga dikenal dengan nama Romawi Phoebus.",
+          "quote": "Salina serait née de l'amour d'une nymphe et d'Apollon, aussi connu sous le nom romain de Phébus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "salina-c03",
+          "source_id": "salina-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "The sun god gave her the power to extract salt from the sea to offer to humankind.",
+          "statement_id": "Dewa matahari memberinya kemampuan mengambil garam dari laut untuk dipersembahkan kepada manusia.",
+          "quote": "le dieu du soleil décide de lui transmettre le pouvoir d'extraire le sel de la mer, afin de l'offrir aux hommes",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "salina-c04",
+          "source_id": "salina-s1",
+          "host": "fr.wikipedia.org",
+          "statement": "On Neptune's birthday Salina offers him some of her salt.",
+          "statement_id": "Pada ulang tahun Neptunus, Salina mempersembahkan garamnya kepadanya.",
+          "quote": "À l'occasion de l'anniversaire de Neptune, Salina lui offre de son sel.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1982,7 +2297,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 3,
         "sources": 1,
         "images": 0
       },
@@ -1990,37 +2305,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "era.text",
-          "message": "Tidak muncul di kutipan mana pun: Roma. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "short_description",
-          "message": "Tidak muncul di kutipan mana pun: Roma, Roman. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0]",
-          "message": "Tidak muncul di kutipan mana pun: Roman. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Roma, Roman. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Roma. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Roma, Roman. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2028,10 +2313,30 @@
           "id": "santa-pupa-c01",
           "source_id": "santa-pupa-s1",
           "host": "it.wikipedia.org",
-          "statement": "Santa Pupa is an inexistent saint not appearing in the martyrology of the church.",
-          "statement_id": "Santa Pupa adalah santa fiktif yang tidak tercantum dalam martirologi gereja resmi.",
-          "quote": "Santa Pupa è una santa inesistente, o che comunque non compare nel martirologio della Chiesa cattolica.",
-          "context": "traditional-belief",
+          "statement": "Santa Pupa is a saint absent from the Catholic martyrology, yet her help is still popularly invoked in Rome and central Italy to protect children when they fall.",
+          "statement_id": "Santa Pupa adalah santa yang tidak ada dalam martirologi Gereja Katolik, tetapi pertolongannya masih diseru rakyat di Roma dan Italia tengah untuk melindungi anak yang jatuh.",
+          "quote": "Santa Pupa è una santa inesistente, o che comunque non compare nel martirologio della Chiesa cattolica. Il suo soccorso è tuttavia ancora popolarmente invocato a Roma e nell'Italia centrale, a protezione dei bambini quando cadono e rischiano di farsi male.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "santa-pupa-c02",
+          "source_id": "santa-pupa-s1",
+          "host": "it.wikipedia.org",
+          "statement": "Pupa is probably the Christianisation of a pagan deity who protected children.",
+          "statement_id": "Pupa kemungkinan kristenisasi dewa pagan pelindung anak-anak.",
+          "quote": "È verosimile che Pupa sia la cristianizzazione di una qualche divinità pagana che aveva il compito di proteggere i bambini",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "santa-pupa-c03",
+          "source_id": "santa-pupa-s1",
+          "host": "it.wikipedia.org",
+          "statement": "The Roman poet Gioacchino Belli dedicated one of his famous sonnets to this household saint.",
+          "statement_id": "Penyair Roma Gioacchino Belli mendedikasikan salah satu sonetanya yang terkenal kepada santa rumah tangga ini.",
+          "quote": "Il poeta romano Gioacchino Belli doveva nutrirle una particolare devozione, se dedicò, a questa santa domestica, uno dei suoi famosi sonetti",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -2042,7 +2347,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -2050,27 +2355,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0]",
-          "message": "Tidak muncul di kutipan mana pun: Eropa. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: European. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Eropa. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: 1607, Topsell, History, Four-footed, Beasts, Edward. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2078,10 +2363,40 @@
           "id": "satyrus-ape-c01",
           "source_id": "satyrus-ape-s1",
           "host": "en.wikipedia.org",
-          "statement": "Satyrus is a species of ape described in some medieval bestiaries.",
-          "statement_id": "Satyrus adalah spesies kera yang dijelaskan dalam sejumlah bestiari Abad Pertengahan.",
-          "quote": "Satyrus (also known as callitrix or cericopithicus) is a species of ape described in some medieval bestiaries.",
+          "statement": "The satyrus is a kind of ape in some medieval bestiaries that always bears twins, hating one and loving the other.",
+          "statement_id": "Satyrus adalah jenis kera dalam beberapa bestiarium abad pertengahan yang selalu melahirkan anak kembar, membenci salah satunya dan menyayangi yang lain.",
+          "quote": "is a species of ape described in some medieval bestiaries. It is said to always give birth to twins. Of these twins, it hates one, but loves the other.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "satyrus-ape-c02",
+          "source_id": "satyrus-ape-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The ape is also described as lively, with a pleasant face.",
+          "statement_id": "Kera ini juga digambarkan lincah dan berwajah menyenangkan.",
+          "quote": "The ape is also described as lively and having a pleasant face.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "satyrus-ape-c03",
+          "source_id": "satyrus-ape-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The satyrus was among the folklore creatures in early editions of Carl Linnaeus's Systema Naturae, under the catch-all Animalia Paradoxa.",
+          "statement_id": "Satyrus termasuk makhluk cerita rakyat yang dimuat dalam edisi awal Systema Naturae karya Carl Linnaeus, di bawah kelompok Animalia Paradoxa.",
+          "quote": "The satyrus was one of many creatures from folklore included in early editions of Carl Linnaeus' Systema Naturae, alongside other legendary creatures, under the wastebasket taxon of Animalia Paradoxa.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "satyrus-ape-c04",
+          "source_id": "satyrus-ape-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Linnaeus described the satyrus as hairy, bearded, manlike in body, much gesticulating, very deceptive, and a kind of monkey if ever one was seen.",
+          "statement_id": "Linnaeus menyebut satyrus berbulu, berjanggut, bertubuh mirip manusia, banyak bergerak, sangat menipu, dan sejenis monyet bila memang pernah terlihat.",
+          "quote": "Linnaeus is quoted as saying that the satyrus is \"hairy, bearded, with a manlike body, gesticulating much, very fallacious, is a species of monkey, if ever one has been seen.\"",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -2092,7 +2407,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -2100,27 +2415,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "era.text",
-          "message": "Tidak muncul di kutipan mana pun: Galisia, Galician. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "cultural_context",
-          "message": "Tidak muncul di kutipan mana pun: Galisia, Iberian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Portugal, Galisia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Iberia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2128,10 +2423,40 @@
           "id": "secular-das-nuvens-c01",
           "source_id": "secular-das-nuvens-s1",
           "host": "pt.wikipedia.org",
-          "statement": "The Secular das nuvens is a mythical being from Portuguese folklore.",
-          "statement_id": "Secular das nuvens adalah makhluk mitis dalam cerita rakyat Portugis.",
-          "quote": "O Secular das nuvens, Escolar das nuvens ou Escolarão é um ser mítico do folclore português.",
+          "statement": "The Secular das nuvens (also Escolar das nuvens or Escolarão) is a mythical being of Portuguese folklore who makes storms, fights in the clouds, creates lightning and thunder and drives storms wherever he likes.",
+          "statement_id": "Secular das nuvens (juga Escolar das nuvens atau Escolarão) adalah makhluk mitos cerita rakyat Portugis yang membuat badai, bertarung di awan, menciptakan kilat dan guntur, dan membawa badai ke mana pun ia mau.",
+          "quote": "O Secular das nuvens, Escolar das nuvens ou Escolarão é um ser mítico do folclore português. O Secular das Nuvens é quem faz as tempestades, anda pelas nuvens a batalhar, faz o raio e o trovão, faz as tempestades e leva-as para onde ele quer.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "secular-das-nuvens-c02",
+          "source_id": "secular-das-nuvens-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "In Galicia the escolares are believed to have been very wise men who rose to the clouds and made it thunder.",
+          "statement_id": "Di Galisia dipercaya bahwa para escolares adalah orang-orang sangat bijak yang naik ke awan dan membuat guntur.",
+          "quote": "Na Galiza crê-se que os escolares «eram homens muito sábios que subiam às nuvens e faziam trovejar».",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "secular-das-nuvens-c03",
+          "source_id": "secular-das-nuvens-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "By belief, a secular das nuvens is formed by killing a man slowly and piece by piece.",
+          "statement_id": "Menurut kepercayaan, secular das nuvens terbentuk bila seseorang dibunuh perlahan-lahan sebagian demi sebagian.",
+          "quote": "Segundo a crença, para formar um secular das nuvens basta matar um homem, mas devagar e por partes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "secular-das-nuvens-c04",
+          "source_id": "secular-das-nuvens-s1",
+          "host": "pt.wikipedia.org",
+          "statement": "According to Constantino Cabal, the figure refers to the students of magic at the famous Cave of Salamanca.",
+          "statement_id": "Menurut Constantino Cabal, sosok ini merujuk pada para pelajar sihir di Gua Salamanca yang terkenal.",
+          "quote": "Segundo Constantino Cabal, o Secular das nuvens seria uma referência aos estudantes que cursavam a Magia na famosa Cova de Salamanca.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -2149,13 +2474,13 @@
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "culture",
+          "message": "Mengusulkan tradisi baru: \"Cerita rakyat Siberia\"."
         },
         {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Barat, Catherine, Rager. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "level": "manual",
+          "where": "tier",
+          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2163,9 +2488,9 @@
           "id": "selemeg-c01",
           "source_id": "selemeg-s1",
           "host": "fr.wikipedia.org",
-          "statement": "Selemeg, the fire-eater, is a giant from Siberian popular tales.",
-          "statement_id": "Selemeg adalah raksasa pemakan api dalam dongeng rakyat Siberia.",
-          "quote": "Selemeg, le « mangeur de feu », est un géant des contes populaires de Sibérie.",
+          "statement": "Selemeg, the \"fire-eater\", is a giant of Siberian folk tales.",
+          "statement_id": "Selemeg, \"pemakan api\", adalah raksasa dalam dongeng rakyat Siberia.",
+          "quote": "Selemeg, le « mangeur de feu », est un géant des contes populaires de Sibérie.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -2177,7 +2502,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -2185,22 +2510,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "short_description",
-          "message": "Tidak muncul di kutipan mana pun: Catalonia. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0]",
-          "message": "Tidak muncul di kutipan mana pun: Ter. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.who",
-          "message": "Tidak muncul di kutipan mana pun: Ter. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2208,9 +2518,39 @@
           "id": "serpent-de-manlleu-c01",
           "source_id": "serpent-de-manlleu-s1",
           "host": "ca.wikipedia.org",
-          "statement": "The Serpent of Manlleu is a legendary tale native to the city of Manlleu.",
-          "statement_id": "Serpent de Manlleu adalah kisah legenda khas kota Manlleu di Catalunya.",
+          "statement": "The Serpent de Manlleu is a legendary tale from the town of Manlleu (Osona).",
+          "statement_id": "Serpent de Manlleu adalah legenda dari kota Manlleu (Osona).",
           "quote": "El Serpent de Manlleu és un relat llegendari propi de la ciutat de Manlleu (Osona).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "serpent-de-manlleu-c02",
+          "source_id": "serpent-de-manlleu-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "The archive of the Obra del Cançoner Popular keeps a handwritten transcription of it by the poet Jacint Verdaguer.",
+          "statement_id": "Arsip Obra del Cançoner Popular menyimpan salinan tulisan tangan penyair Jacint Verdaguer tentang legenda ini.",
+          "quote": "es conserva a l'Arxiu de l'Obra del Cançoner Popular una transcripció manuscrita del poeta Jacint Verdaguer",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "serpent-de-manlleu-c03",
+          "source_id": "serpent-de-manlleu-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "The legend tells of a serpent in the Devesa woods near town with long hair and a large shining diamond on its head, which it removed only to drink at the river.",
+          "statement_id": "Legenda menggambarkan seekor ular di hutan Devesa dekat kota yang berambut panjang dan memiliki intan besar berkilau di kepalanya, yang hanya dilepas saat minum di sungai.",
+          "quote": "La llegenda descriu com una serp (o \"serpent\") que vivia al bosc de la Devesa, prop del nucli urbà, que tenia una llarga cabellera i un diamant gros i lluent al cap, que només es treia per anar a abeurar-se al riu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "serpent-de-manlleu-c04",
+          "source_id": "serpent-de-manlleu-s1",
+          "host": "ca.wikipedia.org",
+          "statement": "A youth studied the serpent's habits, grabbed the diamond when it was set aside, fled into a house and hid it under an upturned mortar.",
+          "statement_id": "Seorang pemuda mempelajari kebiasaan ular itu, merebut intannya saat dilepas, lalu lari ke sebuah rumah dan menyembunyikan intan itu di bawah lesung terbalik.",
+          "quote": "Un noi que volia aconseguir el diamant va estudiar els costums de l'animal i quan el serpent deixà el diamant, l'agafà i sortí corrents. Veient que el serpent el perseguia va entrar dins una casa i va amagar el diamant en un morter posat a l'inrevés",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -2222,7 +2562,7 @@
       "file": "batch-135.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -2230,22 +2570,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0]",
-          "message": "Tidak muncul di kutipan mana pun: Tuscany, Umbria. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "story_mode.origin",
-          "message": "Tidak muncul di kutipan mana pun: Umbria. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
-        },
-        {
-          "level": "warn",
-          "where": "did_you_know",
-          "message": "Tidak muncul di kutipan mana pun: Pieve, Corsignano, Pienza. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2253,10 +2578,40 @@
           "id": "serpente-regolo-c01",
           "source_id": "serpente-regolo-s1",
           "host": "it.wikipedia.org",
-          "statement": "The regolo is a fantastic animal of Tuscan tradition and other Italian regions.",
-          "statement_id": "Regolo adalah hewan fantastis dalam cerita rakyat Toscana dan kawasan Italia lainnya.",
-          "quote": "Il regolo è un animale fantastico della tradizione toscana, umbra, abruzzese, laziale e delle Marche.",
+          "statement": "The regolo is a fantastic animal of Tuscan, Umbrian, Abruzzese, Lazian and Marchigian tradition: a big serpent with a head as large as a child's, living in thickets, fields and mountain gorges.",
+          "statement_id": "Regolo adalah hewan ajaib dalam tradisi Toskana, Umbria, Abruzzo, Lazio, dan Marche: ular besar berkepala sebesar kepala anak kecil yang hidup di semak, ladang, dan jurang pegunungan.",
+          "quote": "Il regolo è un animale fantastico della tradizione toscana, umbra, abruzzese, laziale e delle Marche. Si tratterebbe di un grosso serpente, dalla testa grande «come quella di un bambino», che vive per le macchie, i campi e gli orridi dei monti.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "serpente-regolo-c02",
+          "source_id": "serpente-regolo-s1",
+          "host": "it.wikipedia.org",
+          "statement": "The name regolo means \"little king\", as it belongs to the Mediterranean basilisk tradition.",
+          "statement_id": "Nama regolo berarti \"raja kecil\", karena termasuk tradisi basilisk di Mediterania.",
+          "quote": "Il nome regolo avrebbe il significato di «piccolo Re», perché appartenente alla tradizione mediterranea del basilisco",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "serpente-regolo-c03",
+          "source_id": "serpente-regolo-s1",
+          "host": "it.wikipedia.org",
+          "statement": "Testimonies of a deity called Serpente Regolo supposedly date back to Roman times.",
+          "statement_id": "Kesaksian tentang dewa bernama Serpente Regolo konon berasal dari zaman Romawi.",
+          "quote": "Testimonianze di una divinità chiamata Serpente Regolo risalirebbero all'epoca romana.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "serpente-regolo-c04",
+          "source_id": "serpente-regolo-s1",
+          "host": "it.wikipedia.org",
+          "statement": "Writers such as Cassius Dio and Pliny the Elder described the encounter of Atilius Regulus's army with a huge reptile in Africa by the Bagrada river during the First Punic War.",
+          "statement_id": "Penulis seperti Dio Cassius dan Plinius Tua menceritakan pertemuan pasukan Atilius Regulus dengan reptil raksasa di Afrika dekat Sungai Bagrada pada Perang Punik Pertama.",
+          "quote": "Autori come Dione Cassio e Plinio il Vecchio descrissero l'incontro con un enorme rettile in cui si imbatté l'esercito di Attilio Regolo in Africa durante la prima guerra punica presso il fiume Bagrada.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
