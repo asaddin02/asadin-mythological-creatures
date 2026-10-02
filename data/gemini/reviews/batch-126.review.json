@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-126",
-  "checked_at": "2026-10-01T07:40:29.745Z",
+  "checked_at": "2026-10-02T15:42:24.677Z",
   "files": [
     "batch-126.md"
   ],
@@ -12,7 +12,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 8,
         "sources": 1,
         "images": 0
       },
@@ -20,7 +20,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -28,10 +28,80 @@
           "id": "croglin-grange-c01",
           "source_id": "croglin-grange-s1",
           "host": "en.wikipedia.org",
-          "statement": "Croglin Grange is documented as vampire croglin grange in regional lore.",
-          "statement_id": "Croglin Grange adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "The Vampire of Croglin Grange is a vampire legend that took place in Cumberland, England.",
+          "statement": "The Vampire of Croglin Grange is a vampire legend set in Cumberland, England; the story first appeared in Augustus Hare's Story of My Life, written in the 1890s.",
+          "statement_id": "Vampir Croglin Grange adalah legenda vampir yang berlatar di Cumberland, Inggris; kisahnya pertama kali muncul dalam Story of My Life karya Augustus Hare yang ditulis pada 1890-an.",
+          "quote": "The Vampire of Croglin Grange is a vampire legend that took place in Cumberland, England. The story first appeared in Story of My Life by Augustus Hare, written in the 1890s.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "croglin-grange-c02",
+          "source_id": "croglin-grange-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1929 Montague Summers republished the story with the first chapter of Varney the Vampire, pointing out that the two stories were very similar and should be dismissed as folklore.",
+          "statement_id": "Pada 1929 Montague Summers menerbitkan ulang kisah itu bersama bab pertama Varney the Vampire, dan menunjukkan bahwa kedua cerita sangat mirip sehingga sebaiknya dianggap cerita rakyat belaka.",
+          "quote": "In 1929, Montague Summers republished the story along with the first chapter of Varney the Vampire. He pointed out that the two stories were very similar and should be dismissed as folklore.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "croglin-grange-c03",
+          "source_id": "croglin-grange-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Charles G. Harper challenged Hare's book in 1924 after visiting the area; he found no evidence that Croglin Grange ever existed but found two similar buildings called Croglin High Hall and Croglin Low Hall.",
+          "statement_id": "Charles G. Harper menggugat buku Hare pada 1924 setelah mengunjungi daerah itu; ia tidak menemukan bukti bahwa Croglin Grange pernah ada, tetapi menemukan dua bangunan serupa bernama Croglin High Hall dan Croglin Low Hall.",
+          "quote": "Charles G. Harper challenged the Hare book in 1924 after visiting the area. He found no evidence that Croglin Grange ever even existed, but did however find two similar buildings called Croglin High Hall and Croglin Low Hall.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "croglin-grange-c04",
+          "source_id": "croglin-grange-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Augustus Hare's tale the episodes took place between 1875 and 1876, when an old house was rented to a woman and her two brothers, Amelia, Edward and Michael Cranswell.",
+          "statement_id": "Dalam kisah Augustus Hare, peristiwanya terjadi antara 1875 dan 1876, ketika sebuah rumah tua disewakan kepada seorang perempuan dan dua saudara laki-lakinya, Amelia, Edward, dan Michael Cranswell.",
+          "quote": "In the tale written by Augustus Hare, several episodes took place between 1875 and 1876. An old house had been rented out to a woman and two brothers, Amelia, Edward, and Michael Cranswell.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "croglin-grange-c05",
+          "source_id": "croglin-grange-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One summer, as Amelia was trying to sleep, a strange creature appeared at her window and began picking out the lead around one of the panes with a long fingernail.",
+          "statement_id": "Pada suatu musim panas, saat Amelia hendak tidur, makhluk aneh muncul di jendelanya dan mulai mencungkil timah di sekeliling salah satu kaca jendela dengan kuku panjang.",
+          "quote": "During one summer, Amelia was trying to sleep when a strange creature appeared at her window and began picking out the lead surrounding one of the window panes with a long fingernail",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "croglin-grange-c06",
+          "source_id": "croglin-grange-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It was described as having a brown face and flaming eyes; the vampire bit her in the throat.",
+          "statement_id": "Makhluk itu digambarkan berwajah cokelat dan bermata menyala; vampir itu menggigit lehernya.",
+          "quote": "It was described as having a brown face and flaming eyes. The vampire bit her in the throat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "croglin-grange-c07",
+          "source_id": "croglin-grange-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Amelia's brother shot it in the leg and tracked it to a vault in the local cemetery; the next day they found the vampire's body, with a fresh leg wound, lying in a coffin, and burned it.",
+          "statement_id": "Saudara Amelia menembak kaki makhluk itu dan melacaknya ke sebuah ruang makam di pemakaman setempat; keesokan harinya mereka menemukan jasad vampir dengan luka baru di kaki terbaring dalam peti, lalu membakarnya.",
+          "quote": "The brother shot it in the leg and was able to track it down to a vault in the local cemetery. They waited until the next day to enter the vault, where they found the body of the vampire, with a fresh wound to the leg, resting inside a coffin. They then burned it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "croglin-grange-c08",
+          "source_id": "croglin-grange-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A version of the story appears as \"The Window\" in Alvin Schwartz and Stephen Gammell's More Scary Stories to Tell in the Dark (1984).",
+          "statement_id": "Salah satu versi kisah ini muncul dengan judul \"The Window\" dalam More Scary Stories to Tell in the Dark (1984) karya Alvin Schwartz dan Stephen Gammell.",
+          "quote": "A version of the story appears under the title \"The Window\" in Alvin Schwartz and Stephen Gammell's More Scary Stories to Tell in the Dark (1984).",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
@@ -42,7 +112,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 2,
         "sources": 1,
         "images": 0
       },
@@ -50,7 +120,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -58,9 +128,19 @@
           "id": "deattan-c01",
           "source_id": "deattan-s1",
           "host": "fi.wikipedia.org",
-          "statement": "Deattán is a mythological figure documented in folklore records.",
-          "statement_id": "Deattán adalah figur mitologis dalam catatan cerita rakyat.",
+          "statement": "Deattán, or Painajainen (nightmare), is a spirit of Sami lore that appears in the form of a bird or other animal and sits at night on the chest of a sleeping person.",
+          "statement_id": "Deattán atau Painajainen (mimpi buruk) dalam cerita rakyat Sami adalah roh yang muncul dalam wujud burung atau hewan lain dan duduk di dada orang yang sedang tidur pada malam hari.",
           "quote": "Deattán eli Painajainen on saamelaisessa tarustossa linnun tai muun eläimen hahmossa esiintyvä haltija, joka istuu yöllä nukkuvan ihmisen rinnan päällä.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "deattan-c02",
+          "source_id": "deattan-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "It causes nightmares, anxiety and poor sleep, or takes sleep away entirely.",
+          "statement_id": "Ia menyebabkan mimpi buruk, kegelisahan, dan tidur yang buruk, atau merampas tidur sama sekali.",
+          "quote": "Se aiheuttaa ihmiselle painajaisia, ahdistusta ja huonounisuutta, tai vie unen kokonaan.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -72,7 +152,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -80,7 +160,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -88,9 +168,39 @@
           "id": "djadadjii-c01",
           "source_id": "djadadjii-s1",
           "host": "en.wikipedia.org",
-          "statement": "Djadadjii is documented as djadadjii type vampire in regional lore.",
-          "statement_id": "Djadadjii adalah figur mitologis dalam catatan cerita rakyat.",
+          "statement": "The Djadadjii is a type of vampire hunter in Bulgarian folklore.",
+          "statement_id": "Djadadjii adalah sejenis pemburu vampir dalam cerita rakyat Bulgaria.",
           "quote": "The Djadadjii is a type of vampire hunter in Bulgarian folklore.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "djadadjii-c02",
+          "source_id": "djadadjii-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to legend, the Djadadjii's speciality is finding and destroying Bulgarian vampires, the Krvoijac, by \"bottling\" them: the hunter fills a bottle with blood and carries it while searching for the vampire's lair.",
+          "statement_id": "Menurut legenda, keahlian Djadadjii adalah menemukan dan memusnahkan vampir Bulgaria, Krvoijac, dengan \"membotolkannya\": ia mengisi botol dengan darah dan membawanya saat mencari sarang vampir.",
+          "quote": "According to legend, the Djadadjii's speciality is to find and destroy Bulgarian vampires, the Krvoijac by \"bottling\" it. First, the vampire hunter takes a bottle and fills it with blood, which they carry with them while they search for the vampire's lair.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "djadadjii-c03",
+          "source_id": "djadadjii-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Djadadjii usually uses icons of Jesus, the Virgin Mary, a saint or a holy relic for protection and to flush out the vampire; when the icon starts to shake, the hunter knows the vampire is near.",
+          "statement_id": "Djadadjii biasanya memakai ikon Yesus, Perawan Maria, orang suci, atau relikui untuk perlindungan dan untuk menyingkap vampir; bila ikon mulai bergetar, ia tahu vampir sudah dekat.",
+          "quote": "The Djadadjii usually uses icons of Jesus, the Virgin Mary, or a saint or holy relic for protection and to weed out the Kroijac. When the icon starts to shake s/he knows that the vampire is close.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "djadadjii-c04",
+          "source_id": "djadadjii-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Then the hunter locks the bottle and throws it into a fire; the bottle breaks, killing the vampire.",
+          "statement_id": "Setelah vampir masuk, pemburu menutup botol dan melemparkannya ke api; botol pecah dan vampir mati.",
+          "quote": "Then, the vampire hunter will lock the bottle and throw it into a burning fire. The bottle will break, killing the vampire.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -102,7 +212,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 10,
         "sources": 1,
         "images": 0
       },
@@ -110,7 +220,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -118,9 +228,99 @@
           "id": "flocka-c01",
           "source_id": "flocka-s1",
           "host": "en.wikipedia.org",
-          "statement": "Floçka is documented as known nymph creature in regional lore.",
-          "statement_id": "Floçka adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "The Floçka also known as the \"Gërzheta\" is a nymph-like creature from Albanian paganism.",
+          "statement": "The Floçka, also known as the Gërzheta, is a nymph-like creature of Albanian paganism, living near waters such as lakes and islands in hidden parts of the mountains and said to be immensely beautiful.",
+          "statement_id": "Floçka, juga dikenal sebagai Gërzheta, adalah makhluk mirip nimfa dari paganisme Albania yang tinggal di dekat perairan seperti danau dan pulau di bagian tersembunyi pegunungan, dan dikatakan amat cantik.",
+          "quote": "The Floçka also known as the \"Gërzheta\" is a nymph-like creature from Albanian paganism. They are described as inhabiting the lands near bodies of water such as lakes and islands in hidden parts of the mountains. The Floçka are said to have immense beauty.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flocka-c02",
+          "source_id": "flocka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name Floçka comes from the Albanian word for hair, \"flokë\", because of their very long hair.",
+          "statement_id": "Nama Floçka berasal dari kata Albania untuk rambut, \"flokë\", karena rambut mereka sangat panjang.",
+          "quote": "The name Floçka comes from the Albanian word for hair \"flokë\", with the name deriving from their very long hair.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "flocka-c03",
+          "source_id": "flocka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Albanian poet Gjergj Fishta also calls them \"Të Bukurat e Detit\" (The Beauties of the Sea).",
+          "statement_id": "Penyair Albania Gjergj Fishta juga menyebut mereka \"Të Bukurat e Detit\" (Para Jelita Laut).",
+          "quote": "Albanian poet Gjergj Fishta also refers to them as \"Të Bukurat e Detit\" (The beauties of the sea).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "flocka-c04",
+          "source_id": "flocka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Unlike other mythological creatures of Albanian paganism, they do not speak Albanian, though it can be taught to them.",
+          "statement_id": "Berbeda dengan makhluk mitologis Albania lainnya, mereka tidak berbahasa Albania, tetapi bahasa itu bisa diajarkan kepada mereka.",
+          "quote": "They do not speak the Albanian language as opposed to other mythological creatures from Albanian paganism, however it can be taught to them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flocka-c05",
+          "source_id": "flocka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Floçka are also believed to protect lakes and rivers.",
+          "statement_id": "Floçka juga dipercaya menjadi pelindung danau dan sungai.",
+          "quote": "The Floçka's are also believed to serve as protectors of lakes and rivers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flocka-c06",
+          "source_id": "flocka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Albanian historian Daniel Gjeçaj, the Floçka were first believed in by the ancestors of the Kelmendi tribe of Shkodër.",
+          "statement_id": "Menurut sejarawan Albania Daniel Gjeçaj, Floçka pertama kali dipercayai oleh leluhur suku Kelmendi di Shkodër.",
+          "quote": "According to Albanian historian Daniel Gjeçaj, the Floçka were firstly believed by the ancestors of the Kelmendi tribe of Shkodër.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "flocka-c07",
+          "source_id": "flocka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the \"Legend of the Gërzheta\", a shepherd, the youngest of 4 sons and the only one unmarried, seeks a wife; herding sheep in the mountains he sees 3 Floçka swimming in a lake.",
+          "statement_id": "Dalam \"Legenda Gërzheta\", seorang gembala, bungsu dari 4 bersaudara dan satu-satunya yang belum menikah, mencari istri; saat menggembala di gunung ia melihat 3 Floçka berenang di danau.",
+          "quote": "In the legend, a shepherd who is the youngest out of the 4 sons in his family tries to find a wife, as he was the only brother that was not married. While hearding sheep in the mountain, he spots 3 Floçka's swimming in a lake.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flocka-c08",
+          "source_id": "flocka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One of the Floçka left the lake and took the bait items one by one before falling into a pit and being caught by the brothers; she married the youngest and bore a son, but never spoke.",
+          "statement_id": "Salah satu Floçka keluar dari danau, mengambil satu per satu benda yang dipasang sebagai umpan, lalu jatuh ke lubang dan ditangkap para saudara; ia menikah dengan si bungsu dan melahirkan seorang putra, tetapi tidak pernah berbicara.",
+          "quote": "One of the Floçka's left the lake and one by one began grabbing each item before falling into the hole and being captured by the brothers. She would marry the youngest brother and would also give birth to a son, however she would never speak.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flocka-c09",
+          "source_id": "flocka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "After five years of marriage the husband, wanting to hear his wife's voice, held a knife to their son's throat, threatening to kill him unless she spoke.",
+          "statement_id": "Setelah lima tahun menikah, sang suami yang ingin mendengar suara istrinya menodongkan pisau ke leher putra mereka dan mengancam membunuhnya bila sang istri tidak berbicara.",
+          "quote": "After five years of marriage, the husband, wanting to hear his wives voice held a knife at their sons throat threatening to kill him if she didnt speak.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "flocka-c10",
+          "source_id": "flocka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "On learning where the bait items were, she took them and ran away because her husband had broken his oath.",
+          "statement_id": "Setelah mengetahui tempat benda-benda umpan itu, ia mengambilnya dan melarikan diri karena sang suami telah melanggar sumpahnya.",
+          "quote": "Upon learning their location, she took them and ran away due to the husband breaking his oath.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -132,7 +332,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 6,
         "sources": 1,
         "images": 0
       },
@@ -140,7 +340,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -148,10 +348,60 @@
           "id": "forest-spirits-in-polish-mythology-c01",
           "source_id": "forest-spirits-in-polish-mythology-s1",
           "host": "ru.wikipedia.org",
-          "statement": "Forest spirits in Polish mythology is a mythological figure documented in folklore records.",
-          "statement_id": "Forest spirits in Polish mythology adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Лесные духи в польской мифологии встречаются под множеством названий: от слова бор — пол.",
+          "statement": "Forest spirits in Polish mythology go by many names: from \"bór\" (pine forest) come borowiec, borowik, borowy, boruta; from \"las\" (forest) come leśnik, lasowy, leśny, leśny duch, leśny dziad.",
+          "statement_id": "Roh hutan dalam mitologi Polandia punya banyak nama: dari kata \"bór\" (hutan pinus) muncul borowiec, borowik, borowy, boruta; dari kata \"las\" (hutan) muncul leśnik, lasowy, leśny, leśny duch, leśny dziad.",
+          "quote": "Лесные духи в польской мифологии встречаются под множеством названий: от слова бор — пол. borowiec, borowik, borowy, boruta (сосна по-древнепольски); от слова лес — leśnik, lasowy, leśny, leśny duch, leśny dziad",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "forest-spirits-in-polish-mythology-c02",
+          "source_id": "forest-spirits-in-polish-mythology-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "According to various sources they could be invisible or appear as forest animals (owl, stag or doe, bear, lynx, boar) or domestic animals (ram, cat, horse, black dog).",
+          "statement_id": "Menurut berbagai sumber, mereka bisa tak terlihat atau muncul sebagai hewan hutan (burung hantu, rusa jantan atau betina, beruang, lynx, babi hutan) maupun hewan ternak (domba jantan, kucing, kuda, anjing hitam).",
+          "quote": "Согласно разным источникам, они могли быть невидимыми; являться в виде лесного животного — совы, оленя или оленихи, медведя, рыси, кабана, или домашнего животного — барана, кота, коня, чёрного пса",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "forest-spirits-in-polish-mythology-c03",
+          "source_id": "forest-spirits-in-polish-mythology-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "They frightened people at night in forests and on dams, led them astray, spilled gathered mushrooms and berries from baskets, and abducted girls to take as wives.",
+          "statement_id": "Mereka menakut-nakuti orang pada malam hari di hutan dan di bendungan, membuat orang tersesat, menumpahkan jamur dan buah beri dari keranjang, dan menculik gadis untuk dijadikan istri.",
+          "quote": "Они пугали людей ночью в лесах и на плотинах, заставляли их блуждать, высыпали из корзин набранные грибы и ягоды, похищали девушек, чтобы взять себе в жёны.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "forest-spirits-in-polish-mythology-c04",
+          "source_id": "forest-spirits-in-polish-mythology-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "But they could also help people out of the forest and reward someone they liked.",
+          "statement_id": "Namun mereka juga bisa membantu orang keluar dari hutan dan memberi hadiah kepada orang yang mereka sukai.",
+          "quote": "Но могли и помочь выйти из леса, одарить понравившегося",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "forest-spirits-in-polish-mythology-c05",
+          "source_id": "forest-spirits-in-polish-mythology-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "Of the Slavic forest spirits, the best described is the East Slavic leshy (in some regions also called borovoi and borovik), with which the Polish spirits share some similarities.",
+          "statement_id": "Di antara roh hutan Slavia, yang paling terdokumentasi adalah leshy Slavia Timur (di beberapa daerah juga disebut borovoi dan borovik), yang punya beberapa kemiripan dengan roh hutan Polandia.",
+          "quote": "Лучше всего из славянских лесных духов описан восточнославянский леший (его также в некоторых регионах называют боровым и боровиком), с которым польские духи имеют некоторое сходство.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "forest-spirits-in-polish-mythology-c06",
+          "source_id": "forest-spirits-in-polish-mythology-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "Among the West Slavs, the role of protector of forest animals and hunters passed entirely from the forest spirits to Saint Hubert, and that of protector against wolves to Saint Nicholas.",
+          "statement_id": "Pada bangsa Slavia Barat, peran pelindung hewan hutan dan pemburu sepenuhnya beralih dari roh hutan kepada Santo Hubertus, dan peran pelindung manusia dari serigala kepada Santo Nikolaus.",
+          "quote": "у западных славян функции покровителя лесных зверей и охотников полностью перешли от лесных духов к святому Хуберту, а защитника людей от волков — к святому Николаю",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -162,7 +412,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -170,7 +420,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -178,10 +428,40 @@
           "id": "gabartai-c01",
           "source_id": "gabartai-s1",
           "host": "lt.wikipedia.org",
-          "statement": "Gabartai is a mythological figure documented in folklore records.",
-          "statement_id": "Gabartai adalah figur mitologis dalam catatan cerita rakyat.",
+          "statement": "In Lithuanian mythology the gabartai (gabvartai) are mythical beings close to the kaukai.",
+          "statement_id": "Dalam mitologi Lituania, gabartai (gabvartai) adalah makhluk mitos yang dekat dengan kaukai (roh pembawa kekayaan).",
           "quote": "Gabartai (Gabvartai) lietuvių mitologijoje – mitinės būtybės, artimos kaukams.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gabartai-c02",
+          "source_id": "gabartai-s1",
+          "host": "lt.wikipedia.org",
+          "statement": "They were first mentioned in 1666 in D. Klein's hymnal, without their functions; in 1673 T. Schultz mentions Gabvartas after the kaukas.",
+          "statement_id": "Mereka pertama kali disebut pada 1666 dalam buku nyanyian D. Klein, tanpa keterangan fungsi; pada 1673 T. Schultz menyebut Gabvartas setelah kaukas.",
+          "quote": "Pirmą kartą paminėtos 1666 m. D. Kleino giesmyne, tačiau funkcijos nepaminėtos. 1673 m. T. Šulcas Gabvartą mini po kauko.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gabartai-c03",
+          "source_id": "gabartai-s1",
+          "host": "lt.wikipedia.org",
+          "statement": "According to M. Praetorius they are identical with the kaukai, earth gods who bring wealth; the etymology is unclear.",
+          "statement_id": "Menurut M. Praetorius, mereka identik dengan kaukai, dewa-dewa bumi yang membawa kekayaan; etimologinya tidak jelas.",
+          "quote": "Pagal M. Pretorijų jie yra tapatus kaukams, žemės dievams, kurie neša turtus. Etimologija neaiški.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gabartai-c04",
+          "source_id": "gabartai-s1",
+          "host": "lt.wikipedia.org",
+          "statement": "A. J. Greimas links them with the gates of the drying barn (jauja): in his view Gabjaujis (Gabjauja) lives in the jauja, and the gabvartai separate the jauja from the rest of the barn; but overall the question of the gabartai remains unclear.",
+          "statement_id": "A. J. Greimas mengaitkan mereka dengan gerbang lumbung pengering (jauja): menurutnya Gabjaujis (Gabjauja) tinggal di jauja, dan gabvartai memisahkan jauja dari bagian lumbung lainnya; namun secara umum masalah gabartai tetap tidak jelas.",
+          "quote": "A. J. Greimas juos sieja su jaujos vartais, pagal jį jaujoje gyvena Gabjaujis (Gabjauja), o jaują nuo viso kluono atskiria gabvartai. Tačiau apskritai gabartų klausimas yra neaiškus.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -192,7 +472,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -200,7 +480,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -208,9 +488,39 @@
           "id": "ghost-of-ship-c01",
           "source_id": "ghost-of-ship-s1",
           "host": "lv.wikipedia.org",
-          "statement": "ghost of ship is a mythological figure documented in folklore records.",
-          "statement_id": "ghost of ship adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Kuģa gars (lībiešu: kuo’ig garā), kuģa spoks (kuo’ig spūok) jeb jūras gars (mie’r garā) lībiešu mitoloģijā ir kuģu un laivu sargātājs un vadītājs, kas ar klaudzēšanu, klaudzināšanu vai dažkārt pat vaidiem, raudām un kliedzieniem brīdina par tuvojošos nelaimi, piemēram, vētru, kuģa strandēšanu vai bojāeju.",
+          "statement": "In Livonian mythology the ship spirit (Livonian kuo’ig garā), ship ghost (kuo’ig spūok) or sea spirit (mie’r garā) is the guardian and guide of ships and boats.",
+          "statement_id": "Dalam mitologi Liv, roh kapal (bahasa Liv: kuo’ig garā), hantu kapal (kuo’ig spūok), atau roh laut (mie’r garā) adalah penjaga dan pemandu kapal dan perahu.",
+          "quote": "Kuģa gars (lībiešu: kuo’ig garā), kuģa spoks (kuo’ig spūok) jeb jūras gars (mie’r garā) lībiešu mitoloģijā ir kuģu un laivu sargātājs un vadītājs",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ghost-of-ship-c02",
+          "source_id": "ghost-of-ship-s1",
+          "host": "lv.wikipedia.org",
+          "statement": "It warns of approaching disaster, such as a storm, stranding or wreck, by knocking and rattling, sometimes even by moans, weeping and cries.",
+          "statement_id": "Ia memperingatkan bencana yang mendekat, seperti badai, kapal kandas, atau tenggelam, dengan bunyi ketukan, kadang bahkan dengan rintihan, tangisan, dan teriakan.",
+          "quote": "kas ar klaudzēšanu, klaudzināšanu vai dažkārt pat vaidiem, raudām un kliedzieniem brīdina par tuvojošos nelaimi, piemēram, vētru, kuģa strandēšanu vai bojāeju.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ghost-of-ship-c03",
+          "source_id": "ghost-of-ship-s1",
+          "host": "lv.wikipedia.org",
+          "statement": "Sometimes in such cases the ship spirit gives sailors instructions in human language, and is said to be harsh to those who do not obey.",
+          "statement_id": "Kadang dalam keadaan seperti itu roh kapal memberi petunjuk kepada pelaut dalam bahasa manusia, dan konon keras terhadap mereka yang tidak mematuhinya.",
+          "quote": "Dažkārt kuģa gars šādos gadījumos jūrniekiem mēdzot dod norādījumus arī cilvēku valodā, un esot bargs pret tiem, kas viņu neklausa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ghost-of-ship-c04",
+          "source_id": "ghost-of-ship-s1",
+          "host": "lv.wikipedia.org",
+          "statement": "The ship spirit is said to leave old, rotting ships and boats, and as soon as it does, the ship perishes.",
+          "statement_id": "Roh kapal konon meninggalkan kapal dan perahu yang tua dan lapuk, dan begitu ia pergi, kapal itu akan binasa.",
+          "quote": "No veciem un satrunējušiem kuģiem un laivām kuģa gars aizejot, un tiklīdz to ir izdarījis kuģis ejot bojā.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -222,7 +532,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 2,
         "sources": 1,
         "images": 0
       },
@@ -230,12 +540,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (gorgonya-c01)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -243,9 +548,19 @@
           "id": "gorgonya-c01",
           "source_id": "gorgonya-s1",
           "host": "ro.wikipedia.org",
-          "statement": "Gorgonya is a mythological figure documented in folklore records.",
-          "statement_id": "Gorgonya adalah figur mitologis dalam catatan cerita rakyat.",
+          "statement": "In Russian mythology Gorgonya is a monster in the form of a woman with snakes in her hair.",
+          "statement_id": "Dalam mitologi Rusia, Gorgonya adalah monster berwujud perempuan dengan ular di rambutnya.",
           "quote": "În mitologia rusă , Gorgonya este un monstru sub înfățișarea unei femei cu șerpi în păr.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gorgonya-c02",
+          "source_id": "gorgonya-s1",
+          "host": "ro.wikipedia.org",
+          "statement": "She knows all languages and her gaze kills; it is said that whoever manages to behead Gorgonya will win every battle if he carries the monster's head with him.",
+          "statement_id": "Ia menguasai semua bahasa dan tatapannya membunuh; konon siapa pun yang berhasil memenggal Gorgonya akan menang dalam setiap pertempuran bila membawa kepala monster itu.",
+          "quote": "Ea știe toate limbile, iar privirea sa ucide. Se spune că cel care va reuși să o decapiteze pe Gorgonya, va ieși învingător în fiecare luptă, dacă va avea cu el capul monstrului.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -255,31 +570,20 @@
     {
       "slug": "hajaja",
       "file": "batch-126.md",
-      "verdict": "lulus-otomatis",
+      "verdict": "skip",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 0,
+        "sources": 0,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "skip",
+          "message": "Diusulkan dilewati: Bukan makhluk mitologi: Hajaja adalah tokoh peri rekaan yang diciptakan untuk siaran dongeng radio Cekoslowakia sejak 2 Januari 1961 (nama dibuat Olga Hejná, disuarakan Vlastimil Brodský). (https://cs.wikipedia.org/wiki/Hajaja)."
         }
       ],
-      "claims": [
-        {
-          "id": "hajaja-c01",
-          "source_id": "hajaja-s1",
-          "host": "cs.wikipedia.org",
-          "statement": "Hajaja is a mythological figure documented in folklore records.",
-          "statement_id": "Hajaja adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Hajaja je skřítek, který se stal symbolem krátkých rozhlasových pohádek na dobrou noc.",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
+      "claims": [],
       "images": []
     },
     {
@@ -287,7 +591,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 7,
         "sources": 1,
         "images": 0
       },
@@ -295,7 +599,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -303,10 +607,70 @@
           "id": "hejkal-c01",
           "source_id": "hejkal-s1",
           "host": "cs.wikipedia.org",
-          "statement": "Hejkal is a mythological figure documented in folklore records.",
-          "statement_id": "Hejkal adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Hejkal je v českém a slovanském bájesloví lesní démon, nazývaný také hýkal či hejkadlo, nebo divý muž.",
+          "statement": "In Czech and Slavic mythology the hejkal is a forest demon also called hýkal, hejkadlo or divý muž (wild man); its name comes from the terrifying call it makes.",
+          "statement_id": "Dalam mitologi Ceko dan Slavia, hejkal adalah demon hutan yang juga disebut hýkal, hejkadlo, atau divý muž (manusia liar); namanya berasal dari seruan mengerikan yang ia keluarkan.",
+          "quote": "Hejkal je v českém a slovanském bájesloví lesní démon, nazývaný také hýkal či hejkadlo, nebo divý muž. Jeho jméno je odvozeno od děsivého volání, které vydává.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hejkal-c02",
+          "source_id": "hejkal-s1",
+          "host": "cs.wikipedia.org",
+          "statement": "According to legend it is especially dangerous to answer the hejkal's call: it then leaps on the person's back and drives them through the forest or tears them apart; the most powerful hejkals were said to live in the Plzeň region, and they look like men covered in fur or moss with a bunch of ferns on their heads.",
+          "statement_id": "Menurut legenda, membalas seruan hejkal sangat berbahaya: ia lalu melompat ke punggung orang dan menggiringnya berlari melintasi hutan atau mencabiknya; hejkal paling kuat konon ada di wilayah Plzeň, dan mereka berwujud lelaki berbulu atau berlumut dengan seikat pakis di kepala.",
+          "quote": "Podle pověstí je zvláště nebezpečné hejkalovo volání opětovat, ten poté skočí člověku na záda a prožene ho po lese či jej roztrhá. Nejmocnější hejkalové se údajně vyskytovali na Plzeňsku. Mají podobu mužů pokrytých srstí či mechem a na hlavě nosí kytici kapradin.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hejkal-c03",
+          "source_id": "hejkal-s1",
+          "host": "cs.wikipedia.org",
+          "statement": "They catch girls and take them as wives, and if the girls flee they tear apart their child; they also like to frighten travellers and lead them astray; protection against them is swapping one's shoes, turning out pockets and bread.",
+          "statement_id": "Mereka menangkap gadis dan menjadikannya istri, dan jika gadis itu kabur, mereka mencabik anaknya; mereka juga suka menakut-nakuti pengembara dan menyesatkannya; perlindungan terhadap mereka adalah menukar sepatu, membalik saku, dan roti.",
+          "quote": "Chytají dívky a berou si je za ženy, pokud utečou, roztrhají jejich dítě. Rádi také děsí poutníky a odvádí je z cesty. Chrání před nimi přezutí, obrácení kapes a chléb.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hejkal-c04",
+          "source_id": "hejkal-s1",
+          "host": "cs.wikipedia.org",
+          "statement": "They are already mentioned by Jan Amos Komenský (Comenius), who glossed fauni et satyri as \"forest gods and forest men (hairy ones) are invented things\".",
+          "statement_id": "Mereka sudah disebut oleh Jan Amos Komenský (Comenius), yang menjelaskan kata fauni et satyri sebagai \"dewa hutan dan manusia hutan (si berbulu) adalah hal-hal rekaan\".",
+          "quote": "Zmiňuje se o nich již Jan Amos Komenský, který při výkladu slov fauni et satyri „Lesní bohové a lesní muži (chlupáči) vymyšlené věci jsou“.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hejkal-c05",
+          "source_id": "hejkal-s1",
+          "host": "cs.wikipedia.org",
+          "statement": "The hejkal resembles the East Slavic leshy (lešij), as well as the fauns (faunům) and satyrs (satyrům) of antiquity and the Western European dusii (dusům).",
+          "statement_id": "Hejkal mirip leshy Slavia Timur, juga mirip faun dan satir zaman antik serta dusii Eropa Barat.",
+          "quote": "Hejkal se podobá východoslovanskému lešijovi, ale také antickým faunům a satyrům, a západoevropským dusům.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hejkal-c06",
+          "source_id": "hejkal-s1",
+          "host": "cs.wikipedia.org",
+          "statement": "Its female counterparts are the hejkalky, divoženky and lesní panny (forest maidens).",
+          "statement_id": "Padanan perempuannya adalah hejkalky, divoženky, dan lesní panny (gadis hutan).",
+          "quote": "Ženskou obdobou jsou hejkalky, divoženky a lesní panny.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hejkal-c07",
+          "source_id": "hejkal-s1",
+          "host": "cs.wikipedia.org",
+          "statement": "Hejkal is the title of a 1978 Czechoslovak television fairy tale.",
+          "statement_id": "Hejkal adalah judul dongeng televisi Cekoslowakia tahun 1978.",
+          "quote": "Hejkal, československá televizní pohádka, 1978",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
@@ -317,7 +681,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 5,
         "sources": 1,
         "images": 0
       },
@@ -325,7 +689,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -333,9 +697,49 @@
           "id": "herattaja-c01",
           "source_id": "herattaja-s1",
           "host": "fi.wikipedia.org",
-          "statement": "Herättäjä is a mythological figure documented in folklore records.",
-          "statement_id": "Herättäjä adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Herättäjä-lehti oli vuosina 1909–1985 ilmestynyt kausijulkaisu.",
+          "statement": "The herättäjä (awakener) is a legendary being that wakes a person when danger threatens, for example by shouting their name in their ear or even jerking them hard.",
+          "statement_id": "Herättäjä (Pembangun) adalah makhluk legenda yang membangunkan orang saat bahaya mengancam, misalnya dengan meneriakkan namanya di telinga atau bahkan menariknya dengan keras.",
+          "quote": "Herättäjä on taruolento, joka herättää ihmisen vaaran uhatessa esimerkiksi huutamalla tämän nimeä tämän korvaan tai jopa tempaisemalla tätä voimakkaasti.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "herattaja-c02",
+          "source_id": "herattaja-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "Some people claim to have their own herättäjä watching over their sleep.",
+          "statement_id": "Sebagian orang mengaku punya herättäjä sendiri yang menjaga tidur mereka.",
+          "quote": "Jotkut väittävät omistavansa oman herättäjän, joka valvoo heidän untaan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "herattaja-c03",
+          "source_id": "herattaja-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "The Kalevala tells of a watching garment: \"there the man lies, the male takes his sleep: the man slept, the garment kept watch.\"",
+          "statement_id": "Kalevala menyebut pakaian yang berjaga: \"lelaki itu berbaring, sang jantan tidur: lelaki tidur, pakaian berjaga.\"",
+          "quote": "Kalevalassa kerrotaan valvovasta vaatteesta: Siinä mies makaelevi, uros unta ottelevi: mies makasi, vaate valvoi.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "herattaja-c04",
+          "source_id": "herattaja-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "Herättäjät are said to have saved people both from fire and from falling trees.",
+          "statement_id": "Herättäjä konon telah menyelamatkan orang dari api maupun dari pohon yang tumbang menimpa.",
+          "quote": "Herättäjien on kerrottu pelastaneen ihmisiä niin tulelta kuin päälle kaatuvalta puultakin.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "herattaja-c05",
+          "source_id": "herattaja-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "In a Finnish story a man trusted his herättäjä so much that he could sleep in peace while watching over a smouldering tar pit.",
+          "statement_id": "Dalam sebuah cerita Finlandia, seseorang begitu memercayai herättäjä-nya sehingga ia bisa tidur tenang sambil menjaga tungku ter yang membara.",
+          "quote": "Eräässä suomalaisessa tarinassa henkilö on luottanut herättäjäänsä niin paljon, että hän on tervahaudan kytemistä vahtiessaan voinut rauhassa nukkua.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -347,7 +751,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 6,
         "sources": 1,
         "images": 0
       },
@@ -355,7 +759,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -363,10 +767,60 @@
           "id": "hippa-c01",
           "source_id": "hippa-s1",
           "host": "fi.wikipedia.org",
-          "statement": "Hippa is a mythological figure documented in folklore records.",
-          "statement_id": "Hippa adalah figur mitologis dalam catatan cerita rakyat.",
+          "statement": "Hippa, also Hiippa, Hiippo, Hippo, Vippo or Viipeli Viippo, is a Finnish legendary being, king of the forest and forest guardian spirit (metsänhaltija).",
+          "statement_id": "Hippa, juga Hiippa, Hiippo, Hippo, Vippo, atau Viipeli Viippo, adalah makhluk legenda Finlandia, raja hutan dan roh penguasa hutan (metsänhaltija).",
           "quote": "Hippa eli Hiippa eli Hiippo eli Hippo eli Vippo eli Viipeli Viippo on suomalainen taruolento, metsän kuningas, metsänhaltija.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hippa-c02",
+          "source_id": "hippa-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "In many hunters' charms Hippa is asked for game; in herders' charms Hippa is ordered to keep bears away from cattle.",
+          "statement_id": "Dalam banyak mantra pemburu, Hippa dimintai hewan buruan; dalam mantra gembala, Hippa diperintahkan menjauhkan beruang dari ternak.",
+          "quote": "Monissa metsämiehen loitsuissa Hipalta pyydetään riistaa. Paimenten loitsuissa Hippaa käsketään pitämään karhut erossa karjasta.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hippa-c03",
+          "source_id": "hippa-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "Hippa was often perceived as a bearded male being and king of the forest.",
+          "statement_id": "Hippa sering dibayangkan sebagai makhluk lelaki berjanggut dan raja hutan.",
+          "quote": "Hippa koettiin usein parrakkaaksi miesolennoksi ja metsän kuninkaaksi",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hippa-c04",
+          "source_id": "hippa-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "Occasionally Hippa could also be female.",
+          "statement_id": "Sesekali Hippa juga bisa berupa perempuan.",
+          "quote": "Satunnaisesti Hippa saattoi olla myös nainen",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hippa-c05",
+          "source_id": "hippa-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "The name Hippa possibly comes from the creature's \"hiippalakki\", a tall pointed headdress.",
+          "statement_id": "Nama Hippa mungkin berasal dari \"hiippalakki\", penutup kepala tinggi dan runcing milik makhluk itu.",
+          "quote": "Hippa-nimitys tulee mahdollisesti olennon hiippalakista, korkeasta suiposta päähineestä.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "hippa-c06",
+          "source_id": "hippa-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "An old text calls Hippa the supreme king of the forest, likened to Faunus or Pan, the most important forest god, perhaps the same as the one named Kuippana.",
+          "statement_id": "Sebuah teks lama menyebut Hippa sebagai raja tertinggi hutan, disejajarkan dengan Faunus atau Pan, dewa hutan terpenting, mungkin sama dengan yang bernama Kuippana.",
+          "quote": "HIPPA, (Ylimmäinen metän Kuningas) Faunus el. Pan, tärkein Metsänjumala, kenties sama, joka on nimeltään Kuippana",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -377,7 +831,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 3,
         "sources": 1,
         "images": 0
       },
@@ -385,7 +839,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -393,9 +847,29 @@
           "id": "hrabia-manteufel-c01",
           "source_id": "hrabia-manteufel-s1",
           "host": "pl.wikipedia.org",
-          "statement": "Hrabia Manteufel is a mythological figure documented in folklore records.",
-          "statement_id": "Hrabia Manteufel adalah figur mitologis dalam catatan cerita rakyat.",
+          "statement": "Count Manteufel is a fictional demonic figure, a kind of devil, said to roam around Miechów (Lesser Poland) in the time of Augustus II the Strong (late 17th and first half of the 18th century).",
+          "statement_id": "Hrabia (Pangeran) Manteufel adalah tokoh demonik rekaan, sejenis setan, yang berkeliaran di sekitar Miechów (Małopolska, Polandia) pada masa August II yang Kuat (akhir abad ke-17 dan paruh pertama abad ke-18).",
           "quote": "Hrabia Manteufel – fikcyjna postać demoniczna, rodzaj diabła, grasujący w okolicach Miechowa (Małopolska), za czasów Augusta II Mocnego (koniec XVII i pierwsza połowa XVIII w.).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hrabia-manteufel-c02",
+          "source_id": "hrabia-manteufel-s1",
+          "host": "pl.wikipedia.org",
+          "statement": "According to legend, Count Manteufel travelled in a black carriage drawn by six black horses, accompanied by many servants also dressed in black.",
+          "statement_id": "Menurut legenda, Hrabia Manteufel bepergian dengan kereta hitam yang ditarik enam kuda hitam, diiringi banyak pelayan yang juga berpakaian hitam.",
+          "quote": "Według podań Hrabia Manteufel poruszał się czarną karetą, zaprzęgniętą w sześć czarnych koni. Towarzyszyła mu liczna służba, również ubrana na czarno.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hrabia-manteufel-c03",
+          "source_id": "hrabia-manteufel-s1",
+          "host": "pl.wikipedia.org",
+          "statement": "The Count wore a black kontusz girded with a silk sash striped black and yellow (the Austrian colours) and a flame-coloured żupan; he caused fear because his visit meant people being carried off to hell.",
+          "statement_id": "Sang Hrabia mengenakan kontusz hitam berikat sabuk sutra bergaris hitam-kuning (warna Austria) dan żupan berwarna api; ia menimbulkan ketakutan karena kunjungannya berarti penculikan orang ke neraka.",
+          "quote": "Sam Hrabia ubierał się w czarny kontusz, opasany jedwabnym pasem (tureckim, w kolorach austriackich, tj. w pręgi czarno-żółte) i w narzucony żupan płomienistej barwy. Budził strach, gdyż jego wizyta wiązała się z porwaniem ludzi do piekła.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -407,7 +881,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -415,7 +889,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -423,9 +897,39 @@
           "id": "illhveli-c01",
           "source_id": "illhveli-s1",
           "host": "ru.wikipedia.org",
-          "statement": "Illhveli is a mythological figure documented in folklore records.",
-          "statement_id": "Illhveli adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Illhveli — злые киты) — мифические китоподобные или полиморфные морские чудовища, будто бы обитающие в исландских водах.",
+          "statement": "The illhveli (Icelandic \"evil whales\") are mythical whale-like or polymorphous sea monsters said to inhabit Icelandic waters and aggressive towards people.",
+          "statement_id": "Illhveli (bahasa Islandia: \"paus jahat\") adalah monster laut mitos berwujud paus atau beragam wujud yang konon menghuni perairan Islandia dan bersikap agresif terhadap manusia.",
+          "quote": "Илхвели (исландск. Illhveli — злые киты) — мифические китоподобные или полиморфные морские чудовища, будто бы обитающие в исландских водах. Агрессивны по отношению к людям.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "illhveli-c02",
+          "source_id": "illhveli-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "The Icelanders placed a taboo on their names; anyone who spoke them was left without food.",
+          "statement_id": "Orang Islandia memberlakukan tabu atas nama-nama mereka; siapa yang mengucapkannya dihukum tidak diberi makan.",
+          "quote": "У исландцев было наложено табу на их названия, за их произнесение оставляли без пищи.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "illhveli-c03",
+          "source_id": "illhveli-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "According to the Icelanders there were \"evil\" and \"good\" whales: good whales save drowning shipwrecked people, while evil ones smash ships and devour the drowning.",
+          "statement_id": "Menurut orang Islandia, ada paus \"jahat\" dan paus \"baik\": paus baik menyelamatkan orang yang tenggelam karena kapal karam, sedangkan paus jahat menghancurkan kapal dan memangsa orang yang tenggelam.",
+          "quote": "По мнению исландцев, существовали «злые» и «добрые» киты. Добрые киты спасают тонущих людей, терпящих крушение, а злые наоборот, сокрушают суда и пожирают утопающих.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "illhveli-c04",
+          "source_id": "illhveli-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "The sperm whale and the narwhal, as well as some mythical whales, were considered evil.",
+          "statement_id": "Paus sperma dan narwhal, serta sebagian paus mitos, dianggap jahat.",
+          "quote": "Злыми считались кашалот и нарвал, а также некоторые мифические киты.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -437,7 +941,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 6,
         "sources": 1,
         "images": 0
       },
@@ -445,7 +949,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -453,10 +957,60 @@
           "id": "irudica-c01",
           "source_id": "irudica-s1",
           "host": "ru.wikipedia.org",
-          "statement": "Irudica is a mythological figure documented in folklore records.",
-          "statement_id": "Irudica adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "У хорватов Полицы Ирудица — это «злой дух женского пола, скитающийся по воздуху и облакам, проклятый богом и преследуемый (на земле) молнией и градом».",
+          "statement": "Irudica (Croatian), also shortened to Rudica, is in West Slavic folk demonology an evil spirit dwelling in the whirlwind.",
+          "statement_id": "Irudica (bahasa Kroasia), juga dalam bentuk pendek Rudica, dalam demonologi rakyat Slavia Barat adalah roh jahat yang berada di dalam angin puyuh.",
+          "quote": "(хорв. Irudica), также редуцированное Рудица (хорв. Rudica) — в западнославянской народной демонологии злой дух, находящийся в вихре.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "irudica-c02",
+          "source_id": "irudica-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "This meteorological notion rests on a transformation of the Gospel's negatively portrayed figures of Herodias and her daughter Salome.",
+          "statement_id": "Gagasan cuaca ini bertumpu pada transformasi sosok Herodias dan putrinya Salome, yang digambarkan negatif dalam Injil.",
+          "quote": "Метеорологическое представление основано на основе трансформации негативно изображённых в Евангелии образов Иродиады и её дочери Саломеи.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "irudica-c03",
+          "source_id": "irudica-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "Dances were condemned by the church and in folk mytho-poetic imagery identified with the whirlwind, later with a demonic wedding.",
+          "statement_id": "Tarian dikecam gereja dan dalam citraan mitopoetik rakyat disamakan dengan angin puyuh, kemudian dengan pesta pernikahan setan.",
+          "quote": "Танцы осуждались церковью и в народной мифо-поэтической образности отождествлялись с вихрем, позже с демонической свадьбой.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "irudica-c04",
+          "source_id": "irudica-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "Among the Croats the granddaughter of Herod the Great is known as Poganica, and her daughter Salome as Irudica.",
+          "statement_id": "Pada orang Kroasia, cucu Herodes Agung dikenal sebagai Poganica, dan putrinya Salome sebagai Irudica.",
+          "quote": "У хорватов внучка Ирода Великого известна как Poganica (Поганица), а её дочь Саломея как Irudica (Ирудица).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "irudica-c05",
+          "source_id": "irudica-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "In Dalmatia John the Baptist acted as protector against the thunderbolts that God directed at Irudica; fleeing the lightning, she is doomed to wander the world finding no shelter, riddled by lightning.",
+          "statement_id": "Di Dalmatia, Yohanes Pembaptis berperan sebagai pelindung dari sambaran guntur yang atas kehendak Tuhan diarahkan kepada Irudica; dikejar petir, ia ditakdirkan mengembara di dunia tanpa menemukan tempat berlindung, tubuhnya berlubang-lubang oleh petir.",
+          "quote": "В Далмации Иоанн Креститель выступал в качестве защитника от громовых ударов, которые по воле Божьей были направлены против Ирудицы. Спасаясь от молний она обречена скитаться по свету не находя нигде укрытия и изрешечена молниями.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "irudica-c06",
+          "source_id": "irudica-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "In a commentary on a folk song from the island of Hvar, its collector explained that the name Rudica derives from her red hair.",
+          "statement_id": "Dalam komentar atas lagu rakyat dari Pulau Hvar, pengumpulnya menjelaskan bahwa nama Rudica berasal dari rambutnya yang merah.",
+          "quote": "В комментарии к этим стихам собиратель объяснил, что имя Рудица восходит к её рыжим волосам",
+          "context": "etymology",
           "status": "exact"
         }
       ],
@@ -467,7 +1021,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 3,
         "sources": 1,
         "images": 0
       },
@@ -475,7 +1029,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -483,9 +1037,29 @@
           "id": "jaroszek-c01",
           "source_id": "jaroszek-s1",
           "host": "pl.wikipedia.org",
-          "statement": "Jaroszek is a mythological figure documented in folklore records.",
-          "statement_id": "Jaroszek adalah figur mitologis dalam catatan cerita rakyat.",
+          "statement": "The jaroszek is a field demon known in Silesia (Śląsk).",
+          "statement_id": "Jaroszek adalah demon ladang yang dikenal di Silesia (Śląsk).",
           "quote": "Jaroszek – demon polny występujący na Śląsku.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jaroszek-c02",
+          "source_id": "jaroszek-s1",
+          "host": "pl.wikipedia.org",
+          "statement": "The jaroszek appears in muddy fields, deluding people in the form of a partridge, pheasant or hare.",
+          "statement_id": "Jaroszek muncul di ladang berlumpur dan memperdaya orang dalam wujud ayam hutan, burung pegar, atau kelinci.",
+          "quote": "Jaroszek pokazuje się na błotnistych polach mamiąc ludzi pod postacią kuropatwy, bażanta lub zająca.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jaroszek-c03",
+          "source_id": "jaroszek-s1",
+          "host": "pl.wikipedia.org",
+          "statement": "Trying to catch a jaroszek can end in drowning in the mud, but if it is caught it turns into a household demon that helps with domestic matters.",
+          "statement_id": "Mencoba menangkap jaroszek bisa berakhir dengan tenggelam di lumpur, tetapi jika berhasil ditangkap, ia berubah menjadi demon rumah yang membantu urusan rumah tangga.",
+          "quote": "Próba złapania jaroszka może się skończyć utonięciem w błocie, ale jeśli uda się go złapać, wtenczas przeobraża się on w demona domowego, który staje się pomocnikiem w sprawach domowych.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -495,61 +1069,39 @@
     {
       "slug": "javu-dvasios",
       "file": "batch-126.md",
-      "verdict": "lulus-otomatis",
+      "verdict": "skip",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 0,
+        "sources": 0,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "skip",
+          "message": "Diusulkan dilewati: Identitas tidak dapat dipastikan dari sumber yang andal: satu-satunya artikel (Wikipedia lt) bertanda \"neturi išnašų į patikimus šaltinius\" (tanpa rujukan ke sumber andal) dan tergolong \"Straipsniai be šaltinių\"; artikel itu juga merupakan ikhtisar umum berbagai roh panen, bukan satu makhluk. (https://lt.wikipedia.org/wiki/Jav%C5%B3_dvasios)."
         }
       ],
-      "claims": [
-        {
-          "id": "javu-dvasios-c01",
-          "source_id": "javu-dvasios-s1",
-          "host": "lt.wikipedia.org",
-          "statement": "Javų dvasios is a mythological figure documented in folklore records.",
-          "statement_id": "Javų dvasios adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Javų dvasios – javus saugančios dvasios ir dievybės, kurių pačios seniausios vaizduotos gyvūnais – buvusiais totemais.",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
+      "claims": [],
       "images": []
     },
     {
       "slug": "jij",
       "file": "batch-126.md",
-      "verdict": "lulus-otomatis",
+      "verdict": "skip",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 0,
+        "sources": 0,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "skip",
+          "message": "Diusulkan dilewati: Duplikat: Jij (Q3178650, fr) adalah roh api Belarus Жыж (Žyž) yang sama dengan wd-q17047370 (Zhyzhal/Жыж) di batch-127; artikel fr menyebutnya \"Le Jij (Жыж, Žyž)... l'esprit du feu\" yang bergerak di bawah tanah dan menyebabkan kebakaran. Isinya sebaiknya digabung ke entri Zhyzhal. (https://fr.wikipedia.org/wiki/Jij)."
         }
       ],
-      "claims": [
-        {
-          "id": "jij-c01",
-          "source_id": "jij-s1",
-          "host": "fr.wikipedia.org",
-          "statement": "Jij is a mythological figure documented in folklore records.",
-          "statement_id": "Jij adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Le Jij (Жыж, en translittération : Žyž), selon la tradition biélorusse, est l'esprit du feu, qui se propage constamment sur le sol en émettant des flammes.",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
+      "claims": [],
       "images": []
     },
     {
@@ -557,7 +1109,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 6,
         "sources": 1,
         "images": 0
       },
@@ -565,7 +1117,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -573,10 +1125,60 @@
           "id": "khaan-khereti-c01",
           "source_id": "khaan-khereti-s1",
           "host": "ru.wikipedia.org",
-          "statement": "Khaan-Khereti is a mythological figure documented in folklore records.",
-          "statement_id": "Khaan-Khereti adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Но в отличие от индийского собрата Хаан-Херети не имеет человеческого лица и не сжигает себя как Феникс.",
+          "statement": "In Tuvan mythology Khaan-Khereti (\"Queen of Birds\"; Bashkir Samrigush) is a giant bird, queen of the birds, able to carry people to the upper world or off to its nest.",
+          "statement_id": "Dalam mitologi Tuva, Khaan-Khereti (\"Ratu Burung\"; bahasa Bashkir: Samrigush) adalah burung raksasa, ratu para burung, yang dapat membawa manusia ke dunia atas atau ke sarangnya.",
+          "quote": "Хаан-Херети (рус. Царица птиц, баш. Самригуш) — в тувинской мифологии это гигантская птица, царица птиц, способная переносить людей в верхний мир или уносить в свое гнездо.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khaan-khereti-c02",
+          "source_id": "khaan-khereti-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "It is a kind of prototype of the Indian Garuda and the European Phoenix, but unlike its Indian relative it has no human face, and it does not burn itself like the Phoenix.",
+          "statement_id": "Ia semacam prototipe Garuda India dan Feniks Eropa, tetapi berbeda dari kerabat Indianya ia tidak berwajah manusia, dan tidak membakar diri seperti Feniks.",
+          "quote": "Своего рода прототип индийской Гаруды и европейского Феникса. Но в отличие от индийского собрата Хаан-Херети не имеет человеческого лица и не сжигает себя как Феникс.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "khaan-khereti-c03",
+          "source_id": "khaan-khereti-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "It is more often a helper of heroes than a bearer of evil, can often speak, and has some human traits such as nobility and devotion to family.",
+          "statement_id": "Ia lebih sering menjadi penolong para pahlawan daripada pembawa kejahatan, sering dapat berbicara, dan memiliki beberapa sifat manusia seperti kemuliaan dan rasa kekeluargaan.",
+          "quote": "Чаще всего она является помощником богатырям, нежели становится носителем зла. Нередко способна разговаривать и наделена некоторыми человеческими чертами как благородство, семейность и т. д.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khaan-khereti-c04",
+          "source_id": "khaan-khereti-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "It is a giant bird in the form of an eagle, more often a hawk; sometimes depicted as fiery, and able to speak human language.",
+          "statement_id": "Ia burung raksasa berwujud elang, lebih sering elang alap-alap; kadang digambarkan berapi, dan bisa berbicara dengan bahasa manusia.",
+          "quote": "Гигантская птица в виде орла, чаще ястреба. В некоторых случаях изображается огненной. Умеет говорить на человеческом языке.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khaan-khereti-c05",
+          "source_id": "khaan-khereti-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "An example motif: a batyr (hero) saves the chicks of Khaan-Khereti (Tuvan) or Samrigush (Bashkir) from a voracious nine-headed azhdaha (Bashkir) or fifteen-headed serpent (Tuvan), and in return the bird promises to lift him to the Upper World.",
+          "statement_id": "Contoh motif: seorang batyr (pahlawan) menyelamatkan anak-anak burung Khaan-Khereti (Tuva) atau Samrigush (Bashkir) dari azhdaha berkepala sembilan (Bashkir) atau ular berkepala lima belas (Tuva), dan sebagai balasannya burung itu berjanji mengangkatnya ke Dunia Atas.",
+          "quote": "Пример: Батыр спасает птенцов Хаан-Херети (тувинск.) Самригуш (башк.) от прожорливой девятиглавой аждахи (башк.) / пятнадцатиголовый змей (тувинск.), за что птица обещает батыра поднять в Верхний мир.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "khaan-khereti-c06",
+          "source_id": "khaan-khereti-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "Following Tibetan tradition, some Tuvans tend to depict Khaan-Khereti as Garuda and put her image on small flags.",
+          "statement_id": "Mengikuti tradisi Tibet, sebagian orang Tuva cenderung menggambarkan Khaan-Khereti dalam wujud Garuda dan melukiskannya pada bendera-bendera kecil.",
+          "quote": "По тибетской традиции, некоторые тувинцы склонны изображать Хаан-Херети в виде Гаруды и наносить её изображение на флажки.",
+          "context": "religious-tradition",
           "status": "exact"
         }
       ],
@@ -587,7 +1189,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 7,
         "sources": 1,
         "images": 0
       },
@@ -595,7 +1197,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -603,10 +1205,70 @@
           "id": "kiira-c01",
           "source_id": "kiira-s1",
           "host": "fi.wikipedia.org",
-          "statement": "Kiira is a mythological figure documented in folklore records.",
-          "statement_id": "Kiira adalah figur mitologis dalam catatan cerita rakyat.",
+          "statement": "Kiira or piharikko is an evil being of belief in Finnish folk tradition, known in many areas of eastern and western Finland, active around the farmyard.",
+          "statement_id": "Kiira atau piharikko adalah makhluk kepercayaan jahat dalam tradisi rakyat Finlandia, dikenal di banyak daerah Finlandia Timur dan Barat, yang beraksi di lingkungan pekarangan rumah.",
           "quote": "Kiira eli piharikko on useilla Itä- ja Länsi-Suomen alueilla suomalaisessa kansanperinteessä tunnettu paha, pihapiirissä vaikuttanut uskomusolento.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kiira-c02",
+          "source_id": "kiira-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "Kiira sometimes came to live in the farmyard, and this evil was driven out on the Thursday of Holy Week, Kiirastorstai (Maundy Thursday).",
+          "statement_id": "Kiira kadang datang tinggal di pekarangan rumah, dan makhluk jahat ini diusir pada Kamis Pekan Sengsara, yaitu Kiirastorstai (Kamis Putih).",
+          "quote": "Kiira tuli toisinaan asumaan talon pihapiiriin, ja tämä paha karkotettiin piinaviikon torstaina eli kiirastorstaina.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kiira-c03",
+          "source_id": "kiira-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "According to Kustaa Vilkuna, kiira was chased or \"dragged\" away with various sayings while running or walking around the house or cowshed, carrying all kinds of repelling things such as pungent tar smoke.",
+          "statement_id": "Menurut Kustaa Vilkuna, kiira diusir atau \"ditarik\" dengan berbagai ucapan sambil berlari atau berjalan mengelilingi rumah atau kandang, membawa segala macam bahan pengusir seperti asap ter yang berbau tajam.",
+          "quote": "Kustaa Vilkuna toteaa teoksessa Vuotuinen ajantieto ... kiiraa ajettiin tai vedettiin erilaisilla sanonnoilla ja liikkumalla juosten tai rauhallisemmin talon tai navetan ympäri sekä kuljettaen mukana kaikkia mahdollisia karkottavia aineksia, kuten väkeväntuoksuista tervansavua",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kiira-c04",
+          "source_id": "kiira-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "While circling the house with a burning tar pot, people might chant a charm such as \"Kits kiira metsään!\" (Off to the forest, kiira!).",
+          "statement_id": "Sambil mengelilingi rumah dengan wadah ter yang menyala, orang bisa mengucapkan mantra seperti \"Kits kiira metsään!\" (Pergi kiira ke hutan!).",
+          "quote": "Taloa kierrettäessä palavan terva-astian ja muun vedettävän kuorman kanssa on saatettu hokea esimerkiksi loitsua Kits kiira metsään!",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kiira-c05",
+          "source_id": "kiira-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "According to Vilkuna, the old people's most common explanation for driving out kiira was that snakes would then not come into the yard in summer.",
+          "statement_id": "Menurut Vilkuna, penjelasan paling umum dari orang tua dahulu untuk pengusiran kiira adalah agar ular tidak datang ke pekarangan pada musim panas.",
+          "quote": "Vilkunan mukaan vanhan kansan tavallisin selitys kiiran ajamiselle on, että näin menetellen käärmet eivät tulleet kesällä pihaan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kiira-c06",
+          "source_id": "kiira-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "According to Vilkuna, kiira remained a vague being to the people, and behind the custom there apparently lies an old purification rite from Catholic times.",
+          "statement_id": "Menurut Vilkuna, kiira tetap menjadi makhluk yang samar bagi rakyat, dan di balik adat ini tampaknya ada ritus penyucian lama dari zaman Katolik.",
+          "quote": "Kiira on Vilkunan mukaan jäänyt kansalle epäselväksi olennoksi. Tavan takana on hänen mukaansa ilmeisesti vanha katolisaikainen puhdistusmeno.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kiira-c07",
+          "source_id": "kiira-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "The Finnish word kiira is apparently a loan from Old Swedish; the corresponding modern Swedish word is \"skär\" (pure).",
+          "statement_id": "Kata Finlandia kiira tampaknya pinjaman dari bahasa Swedia Kuno; padanannya dalam bahasa Swedia modern adalah \"skär\" (murni, bersih).",
+          "quote": "Suomen kielen nimitys kiira on ilmeisesti laina muinaisruotsista. Nykyruotsin vastaava sana on skär 'puhdas'.",
+          "context": "etymology",
           "status": "exact"
         }
       ],
@@ -617,7 +1279,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 5,
         "sources": 1,
         "images": 0
       },
@@ -625,7 +1287,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -633,9 +1295,49 @@
           "id": "kodinhaltija-c01",
           "source_id": "kodinhaltija-s1",
           "host": "fi.wikipedia.org",
-          "statement": "Kodinhaltija is a mythological figure documented in folklore records.",
-          "statement_id": "Kodinhaltija adalah figur mitologis dalam catatan cerita rakyat.",
+          "statement": "The kodinhaltija, kodinhaltia or kotitonttu is in folk tradition a haltija or tonttu believed to live in a dwelling house.",
+          "statement_id": "Kodinhaltija, kodinhaltia, atau kotitonttu dalam tradisi rakyat adalah haltija atau tonttu yang dipercaya tinggal di rumah hunian.",
           "quote": "Kodinhaltija tai kodinhaltia eli kotitonttu on kansanperinteessä haltija tai tonttu, jonka uskotaan asuvan asuintalossa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kodinhaltija-c02",
+          "source_id": "kodinhaltija-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "The kodinhaltija was often believed to arrive when a fire was first lit in the house; sometimes it was believed that the first fire-maker, often the founder of the house, or the first person to die there, became the kodinhaltija.",
+          "statement_id": "Kodinhaltija sering dipercaya datang ke rumah saat api pertama kali dinyalakan di sana; kadang dipercaya bahwa yang menjadi kodinhaltija adalah orang pertama yang menyalakan api, biasanya pendiri rumah, atau orang pertama yang meninggal di rumah itu.",
+          "quote": "Usein kodinhaltijan uskottiin tulevan taloon sillä hetkellä, kun taloon sytytetään ensi kertaa tuli. Toisinaan on uskottu, että kodinhaltijaksi on jäänyt ensimmäinen tulentekijä eli usein talon perustaja, tai talossa ensimmäisenä kuollut ihminen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kodinhaltija-c03",
+          "source_id": "kodinhaltija-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "The kodinhaltija is usually said to like being by the hearth, on top of or behind the stove, and sometimes banged the stove door as a sign that someone was coming to the house.",
+          "statement_id": "Kodinhaltija biasanya dikatakan senang berada di dekat perapian, di atas atau di belakang tungku, dan kadang membanting pintu tungku sebagai tanda ada orang yang datang.",
+          "quote": "Kodinhaltijan on yleensä kerrottu viihtyvän tulisijan äärellä, uunin päällä tai uunin takana. Joskus sen on kuvailtu pamautelleen uunin luukkua merkiksi siitä, että joku tuli taloon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kodinhaltija-c04",
+          "source_id": "kodinhaltija-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "At the table the kodinhaltija was often given its share before the other diners; people tried to stay on good terms with it, since a badly treated kodinhaltija began to cause trouble, and its appearance was taken as an omen of misfortune or death.",
+          "statement_id": "Di meja makan kodinhaltija sering diberi bagiannya sebelum yang lain; orang berusaha menjaga hubungan baik dengannya karena kodinhaltija yang diperlakukan buruk akan mulai mengganggu, dan penampakannya dianggap pertanda kecelakaan atau kematian.",
+          "quote": "Ruokapöydässä kodinhaltijalle annettiin usein oma osuutensa ennen muita ruokailijoita. Kodinhaltijan kanssa yritettiin pysyä hyvissä väleissä, sillä huonosti kohdeltu kodinhaltija alkoi häiriköidä. Haltijan näyttäytymistä pidettiin onnettomuuden tai kuoleman enteenä.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kodinhaltija-c05",
+          "source_id": "kodinhaltija-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "When the kodinhaltija was wanted to move into a new house built to replace the old one, stones, ash or soil from the old hearth were brought to the new house.",
+          "statement_id": "Jika kodinhaltija diharapkan pindah ke rumah baru yang dibangun menggantikan rumah lama, batu perapian, abu, atau tanah dari rumah lama dibawa ke rumah baru.",
+          "quote": "Kun kodinhaltijan haluttiin muuttavan uuteen taloon jos sellainen rakennettiin vanhan tilalle, tuotiin uuteen taloon vanhan talon tulisijan kiviä, tuhkaa tai multaa.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -647,7 +1349,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -655,7 +1357,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -663,10 +1365,40 @@
           "id": "kratti-c01",
           "source_id": "kratti-s1",
           "host": "fi.wikipedia.org",
-          "statement": "Kratti is a mythological figure documented in folklore records.",
-          "statement_id": "Kratti adalah figur mitologis dalam catatan cerita rakyat.",
+          "statement": "In Finnish mythology Kratti or Skratti is a shouting ghost that lies on treasures and money chests hidden in the ground, ruling and guarding them.",
+          "statement_id": "Dalam mitologi Finlandia, Kratti atau Skratti adalah hantu yang berteriak, berbaring di atas harta dan peti uang yang tersembunyi di dalam tanah, menguasai dan menjaganya.",
           "quote": "Kratti tai Skratti on suomalaisessa mytologiassa huutava kummitus, joka makaa maahan kätkettyjen aarteiden ja rahakirstujen päällä niitä halliten ja vartioiden.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kratti-c02",
+          "source_id": "kratti-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "Aarni is a similar being; the name Kratti comes from the Swedish word \"skratt\" (laughter).",
+          "statement_id": "Aarni adalah makhluk serupa; nama Kratti berasal dari kata Swedia \"skratt\" (tawa).",
+          "quote": "Samantapainen on myös Aarni. Nimi Kratti tulee ruotsin sanasta skratt ’nauru’.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kratti-c03",
+          "source_id": "kratti-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "According to Mikael Agricola, Kratti was among the guardian spirits (haltija) worshipped by the Tavastians (Häme people).",
+          "statement_id": "Menurut Mikael Agricola, Kratti termasuk roh penjaga (haltija) yang dipuja orang Häme.",
+          "quote": "Mikael Agricolan mukaan Kratti kuului hämäläisten palvomiin haltijoihin.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kratti-c04",
+          "source_id": "kratti-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "According to a poem by Sigfridus Aronus Forsius written in the 1500s or 1600s, Kratti is one-eyed and grants wealth to its worshipper.",
+          "statement_id": "Menurut sebuah puisi Sigfridus Aronus Forsius dari abad ke-16 atau ke-17 (1500- atau 1600-an), Kratti bermata satu dan menganugerahkan kekayaan kepada pemujanya.",
+          "quote": "Sigfridus Aronus Forsiuksen 1500- tai 1600-luvulla kirjoittaman runon mukaan Kratti on yksisilmäinen ja lahjoittaa rikkautta palvojalleen.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -677,7 +1409,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 6,
         "sources": 1,
         "images": 0
       },
@@ -685,7 +1417,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -693,10 +1425,60 @@
           "id": "krepel-mythology-c01",
           "source_id": "krepel-mythology-s1",
           "host": "en.wikipedia.org",
-          "statement": "Krepel (mythology) is documented as krepel known bytom in regional lore.",
-          "statement_id": "Krepel (mythology) adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "The Krepel, also known as the Bytom Dragon (Polish: smok bytomski ; Silesian: bytōmski smok ), is a legendary Polish dragon said to have inhabited the forests near Bytom in Upper Silesia.",
+          "statement": "Krepel, also called the Bytom Dragon (smok bytomski), is a legendary Polish dragon said to have lived in the forests near Bytom in Upper Silesia; unlike its Kraków counterpart, the Wawel Dragon, Krepel was said to be rather \"well-mannered\".",
+          "statement_id": "Krepel, juga disebut Naga Bytom (smok bytomski), adalah naga legenda Polandia yang konon menghuni hutan dekat Bytom di Silesia Hulu; berbeda dari padanannya di Kraków, Naga Wawel, Krepel konon cukup \"sopan\".",
+          "quote": "is a legendary Polish dragon said to have inhabited the forests near Bytom in Upper Silesia. Unlike its cracovian counterpart—the Wawel Dragon, Krepel is said to have been rather \"well-mannered\".",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "krepel-mythology-c02",
+          "source_id": "krepel-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Local elders told of a dragon guarding a treasure; intrigued, a young farmhand decided to venture to the borderland of Bytom land to claim the treasure.",
+          "statement_id": "Para tetua setempat bercerita tentang naga yang menjaga harta; tertarik oleh kisah itu, seorang buruh tani muda memutuskan pergi ke perbatasan tanah Bytom untuk merebut harta tersebut.",
+          "quote": "local elders spoke of a dragon guarding a treasure. Intrigued by these tales, a young farmhand decided to venture out to the borderland of Bytom land and claim the treasure for himself.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "krepel-mythology-c03",
+          "source_id": "krepel-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Reaching a grotto, he prepared to defeat the beast, club in hand.",
+          "statement_id": "Setibanya di sebuah gua, ia bersiap mengalahkan binatang itu sambil menggenggam pentungan.",
+          "quote": "Reaching a grotto, he prepared himself to defeat the beast, clutching a club in his hand.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "krepel-mythology-c04",
+          "source_id": "krepel-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Deciding to trust the creature, the farmhand went to the dragon's residence and spent time with it; given some of the dragon's treasure, he later bought a tenement on what is now Piłsudski Street and put up an image honouring his new friend, Krepel.",
+          "statement_id": "Memutuskan memercayai makhluk itu, sang buruh tani pergi ke kediaman naga dan menghabiskan waktu bersamanya; setelah diberi sebagian harta naga, ia membeli rumah petak di tempat yang kini Jalan Piłsudski dan memasang gambar untuk menghormati sahabat barunya, Krepel.",
+          "quote": "Deciding to trust the creature, the farmhand set out for the dragon's residence, where they spent some time together. Having been gifted some of the dragon's treasure, the farmhand later bought a tenement on the grounds (on present-day Piłsudski Street), on which he placed an image in honour of his new friend—Krepel.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "krepel-mythology-c05",
+          "source_id": "krepel-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Bytom Dragon has become an iconic symbol of the city, often featured on tourist souvenirs.",
+          "statement_id": "Naga Bytom kini menjadi simbol ikonis kota itu dan sering muncul pada suvenir wisata.",
+          "quote": "The Bytom Dragon has become an iconic symbol of the city, frequently featured on tourist souvenirs.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "krepel-mythology-c06",
+          "source_id": "krepel-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The 2023 children's book Bytom Fantastyczny by Katarzyna Mołdawa, published by Bytom City Council, features a character based on the dragon sculpture on Piłsudski Street.",
+          "statement_id": "Buku anak tahun 2023, Bytom Fantastyczny, karya Katarzyna Mołdawa terbitan Dewan Kota Bytom, menampilkan tokoh berdasarkan patung naga di Jalan Piłsudski.",
+          "quote": "The 2023 children's book Bytom Fantastyczny ... written by Katarzyna Mołdawa and published by the Bytom City Council features a character based on the dragon sculpture on Piłsudski Street",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
@@ -707,7 +1489,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 6,
         "sources": 1,
         "images": 0
       },
@@ -715,7 +1497,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -723,9 +1505,59 @@
           "id": "kuyva-c01",
           "source_id": "kuyva-s1",
           "host": "ru.wikipedia.org",
-          "statement": "Kuyva is a mythological figure documented in folklore records.",
-          "statement_id": "Kuyva adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Ку́йва — персонаж мифологии саамов, легендарный великан, обитающий в Ловозерской тундре (в иных локациях данный персонаж неизвестен: легенды о нём также популярны именно в этом районе).",
+          "statement": "Kuyva is a figure of Sami mythology, a legendary giant living in the Lovozero tundra.",
+          "statement_id": "Kuyva adalah tokoh mitologi Sami, raksasa legenda yang tinggal di tundra Lovozero.",
+          "quote": "— персонаж мифологии саамов, легендарный великан, обитающий в Ловозерской тундре",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kuyva-c02",
+          "source_id": "kuyva-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "According to Sami legends Kuyva lived in ancient times in the Lovozero tundras; the giant robbed and killed the Sami and was destroyed by the Sami pagan gods, \"burned by lightning that struck from the waters of the lake\".",
+          "statement_id": "Menurut legenda Sami, Kuyva hidup pada zaman dahulu di tundra Lovozero; raksasa itu merampok dan membunuh orang Sami, sehingga dibinasakan para dewa pagan Sami, \"dibakar petir yang menyambar dari air danau\".",
+          "quote": "Согласно легендам саамов, Куйва жил в древние времена в Ловозерских тундрах. Великан грабил и убивал саамов, за что был уничтожен саамскими языческими богами — «сожжён молниями, которые ударили из вод озера».",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kuyva-c03",
+          "source_id": "kuyva-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "After the burning, an imprint of his charred body resembling a human silhouette remained on a cliff by Lake Seydozero; the silhouette is 74 m high.",
+          "statement_id": "Setelah dibakar, pada tebing di dekat Danau Seydozero tertinggal jejak tubuhnya yang hangus berbentuk siluet manusia setinggi 74 m.",
+          "quote": "После сожжения на скале у Сейдозера остался отпечаток его сожжённого тела, напоминающий человеческий силуэт. Высота силуэта составляет 74 м.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kuyva-c04",
+          "source_id": "kuyva-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "Studies point to an entirely natural origin of the mark on the cliff: \"the figure is formed by moss, wet traces of meltwater runoff, lichen and other small plants\".",
+          "statement_id": "Kajian menunjukkan asal-usul jejak di tebing itu sepenuhnya alami: \"sosok itu terbentuk dari lumut, bekas basah aliran air lelehan salju, liken, dan tumbuhan kecil lainnya\".",
+          "quote": "указывающие на вполне естественное происхождение следа на скале: «фигура образована мхом, мокрыми следами стока талых вод, лишайником и другими мелкими растениями»",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kuyva-c05",
+          "source_id": "kuyva-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "The Sami called on their gods, who, seeing the havoc Kuyva had wrought, grew angry and struck him with lightning; the giant turned to rock and became a seid (sacred stone), keeping his gigantic size.",
+          "statement_id": "Orang Sami memanggil dewa-dewa mereka, yang murka melihat akibat amukan Kuyva dan menyambarnya dengan petir; raksasa itu menjadi batu, menjadi seid (batu keramat), dengan ukuran raksasanya tetap utuh.",
+          "quote": "Тогда саамы призвали своих богов, те увидели последствия учинённого Куйвой погрома, разгневались и поразили его молниями. Великан превратился в скалу, стал сейдом, сохранив свои исполинские размеры.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kuyva-c06",
+          "source_id": "kuyva-s1",
+          "host": "ru.wikipedia.org",
+          "statement": "In another legend Kuyva is not a troll but the leader of the Chud, enemies of the Sami who came from the south and plundered them.",
+          "statement_id": "Dalam legenda lain, Kuyva bukan troll melainkan pemimpin orang Chud, musuh orang Sami yang datang dari selatan dan merampok mereka.",
+          "quote": "Есть ещё одна легенда, где Куйва уже не тролль, а предводитель чудинов, врагов саамов, приходивших с юга и грабивших лопарей.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -735,31 +1567,20 @@
     {
       "slug": "lacaena",
       "file": "batch-126.md",
-      "verdict": "lulus-otomatis",
+      "verdict": "skip",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 0,
+        "sources": 0,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "skip",
+          "message": "Diusulkan dilewati: Identitas tidak dapat dipastikan: satu-satunya sitelink item Q115794304 (\"one of the dogs of Actaeon\") adalah artikel pl \"Lacaena\" tentang genus anggrek (storczykowate), bukan anjing Aktaion; tidak ditemukan artikel tentang anjing itu. (https://pl.wikipedia.org/wiki/Lacaena)."
         }
       ],
-      "claims": [
-        {
-          "id": "lacaena-c01",
-          "source_id": "lacaena-s1",
-          "host": "pl.wikipedia.org",
-          "statement": "Lacaena is a mythological figure documented in folklore records.",
-          "statement_id": "Lacaena adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Lacaena – rodzaj roślin z rodziny storczykowatych (Orchidaceae).",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
+      "claims": [],
       "images": []
     },
     {
@@ -767,7 +1588,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -775,7 +1596,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -783,10 +1604,40 @@
           "id": "lannetar-c01",
           "source_id": "lannetar-s1",
           "host": "fi.wikipedia.org",
-          "statement": "Lännetär is a mythological figure documented in folklore records.",
-          "statement_id": "Lännetär adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Lännetär esiintyy Elias Lönnrotin toimittamassa Suomen kansan muinaisia loitsurunoja -julkaisussa (s.",
+          "statement": "Lännetär appears in Elias Lönnrot's edition \"Suomen kansan muinaisia loitsurunoja\" (Ancient charm poems of the Finnish people) (p. 320, 2:9).",
+          "statement_id": "Lännetär muncul dalam kumpulan \"Suomen kansan muinaisia loitsurunoja\" (Puisi mantra kuno rakyat Finlandia) suntingan Elias Lönnrot (hlm. 320, 2:9).",
+          "quote": "Lännetär esiintyy Elias Lönnrotin toimittamassa Suomen kansan muinaisia loitsurunoja -julkaisussa (s. 320, 2:9).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lannetar-c02",
+          "source_id": "lannetar-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "A variant of the charm mentions Lemmetär, which is a folk form.",
+          "statement_id": "Dalam varian mantra itu disebut Lemmetär, bentuk yang bersifat rakyat.",
+          "quote": "Sen toisinnossa mainitaan Lemmetär, joka on kansanomainen.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lannetar-c03",
+          "source_id": "lannetar-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "\"Daughters of the West\" appear as a parallel expression for \"Sons of the North\", and \"Wife of the West\" as an epithet of the \"Mistress of Pohjola\".",
+          "statement_id": "\"Putri-putri Barat\" muncul sebagai ungkapan sejajar bagi \"Putra-putra Utara\", demikian pula \"Istri Barat\" sebagai julukan bagi \"Nyonya Pohjola\".",
+          "quote": "\"Lännen tyttäret\" kuitenkin tavataan \"Pohjoisen poikien\" kertosanana, samoin \"Lännen vaimo\" \"Pohjolan emännän\" mainesanana.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lannetar-c04",
+          "source_id": "lannetar-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "Curses were thought to come from the North and God's help from the East; the South is always on the good side, while the West appears to lean both ways.",
+          "statement_id": "Kutukan dianggap datang dari Utara dan pertolongan Tuhan dari Timur; Selatan selalu di pihak baik, sedangkan Barat tampak condong ke dua arah.",
+          "quote": "Kirouksen käsitettiin tulevan Pohjoisesta ja Jumalan avun idästä. Etelä on aina hyvällä puolella, kun taas länsi näkyy kallistuvan kahtaanne.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -797,7 +1648,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 2,
         "sources": 1,
         "images": 0
       },
@@ -805,7 +1656,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -813,9 +1664,19 @@
           "id": "lemmas-c01",
           "source_id": "lemmas-s1",
           "host": "fi.wikipedia.org",
-          "statement": "Lemmas is a mythological figure documented in folklore records.",
-          "statement_id": "Lemmas adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Lemmasta kutsuttiin myös nimityksellä Lemmas Laukan Hattaria – Suo muron murottaria.",
+          "statement": "Lemmas is a Finnish legendary being, a lovely nymph skilled at tending wounds and easing pain.",
+          "statement_id": "Lemmas adalah makhluk legenda Finlandia, nimfa jelita yang pandai merawat luka dan meredakan rasa sakit.",
+          "quote": "Lemmas on suomalainen taruolento. Se on suloinen nymfi, joka osasi hoitaa haavoja ja lieventää kipuja.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lemmas-c02",
+          "source_id": "lemmas-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "Lemmas was also called \"Lemmas Laukan Hattaria, Suo muron murottaria\"; she stirred the ore raised from swamps and bogs when it was smelted.",
+          "statement_id": "Lemmas juga disebut \"Lemmas Laukan Hattaria, Suo muron murottaria\"; ia mengaduk bijih yang diangkat dari rawa dan paya ketika bijih itu dilebur.",
+          "quote": "Lemmasta kutsuttiin myös nimityksellä Lemmas Laukan Hattaria – Suo muron murottaria. Hän hämmensi soista ja rämeistä nostettua malmia, kun sitä keitettiin.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -827,7 +1688,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 10,
         "sources": 1,
         "images": 0
       },
@@ -835,7 +1696,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -843,10 +1704,100 @@
           "id": "liekkio-c01",
           "source_id": "liekkio-s1",
           "host": "fi.wikipedia.org",
-          "statement": "Liekkiö is a mythological figure documented in folklore records.",
-          "statement_id": "Liekkiö adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Kansanperinnettä 1700-luvulla kerännyt Kristfrid Ganander mainitsee teoksessaan Mythologica Fennica (1789) Liekkiön olevan",
+          "statement": "Liekkiö is a legendary being of Finnish folk tradition, and there are various interpretations of the figure.",
+          "statement_id": "Liekkiö adalah makhluk legenda dalam tradisi rakyat Finlandia, dan sosoknya ditafsirkan dengan berbagai cara.",
+          "quote": "Liekkiö on suomalaisen kansanperinteen taruolento. Liekkiön hahmosta on erilaisia tulkintoja.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "liekkio-c02",
+          "source_id": "liekkio-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "Liekkiö is first mentioned by Mikael Agricola in the list of gods in the preface to the Psalter of David published in 1551, as an idol known to the Tavastians (Häme people).",
+          "statement_id": "Liekkiö pertama kali disebut Mikael Agricola dalam daftar dewa pada kata pengantar Mazmur Daud yang terbit tahun 1551, sebagai berhala yang dikenal orang Häme.",
+          "quote": "Ensimmäisen kerran Liekkiön mainitsee Mikael Agricola vuonna 1551 ilmestyneen Dauidin psalttarin alkupuheen jumalaluettelossa hämäläisten tuntemana epäjumalana",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "liekkio-c03",
+          "source_id": "liekkio-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "Agricola's line reads: \"Lieckiö ruled grasses, roots and trees, and such other things.\"",
+          "statement_id": "Baris Agricola berbunyi: \"Lieckiö menguasai rumput, akar, dan pohon, dan hal-hal semacam itu.\"",
+          "quote": "Lieckiö Rohot jwret ja puudh / hallitsi ja sencaltaiset mwdh.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "liekkio-c04",
+          "source_id": "liekkio-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "According to Kristfrid Ganander (Mythologica Fennica, 1789), Liekkiö is a ghost born of abandoned children, who shouted in the forests and frightened travellers with its shrieks; it was lord of trees, grass and roots.",
+          "statement_id": "Menurut Kristfrid Ganander (Mythologica Fennica, 1789), Liekkiö adalah hantu yang lahir dari anak-anak yang ditelantarkan, berteriak di hutan dan menakuti pelancong dengan jeritannya; ia penguasa pohon, rumput, dan akar.",
+          "quote": "Kristfrid Ganander mainitsee teoksessaan Mythologica Fennica (1789) Liekkiön olevan ... heitteille jätetyistä lapsista syntynyt kummittelija, joka huusi metsissä ja pelästytty kiljumisellaan matkustavaisia. Hän oli puitten, ruohon ja juurien herra.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "liekkio-c05",
+          "source_id": "liekkio-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "In later Satakunta tradition the liekkiö was understood as the soul or ghost of a murdered child; it usually harmed no one but could disturb travellers by crying and howling.",
+          "statement_id": "Dalam tradisi Satakunta yang lebih kemudian, liekkiö dipahami sebagai jiwa atau hantu anak yang dibunuh; biasanya ia tidak mencelakai siapa pun, tetapi bisa mengganggu pelancong dengan tangisan dan lolongan.",
+          "quote": "Myöhemmässä satakuntalaisessa perinteessä liekkiö miellettiin surmatun lapsen sieluksi tai kummitukseksi. Liekkiö ei tavallisesti tehnyt pahaa kenellekään, mutta saattoi häiritä matkustavaisia itkemällä ja ulisemalla.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "liekkio-c06",
+          "source_id": "liekkio-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "In some contexts the liekkiö was flame-like, a kind of will-o'-the-wisp.",
+          "statement_id": "Dalam beberapa konteks liekkiö berwujud seperti nyala api, semacam api tipuan (will-o'-the-wisp).",
+          "quote": "Jossain yhteydessä liekkiö oli liekinkaltainen, jolloin kyse oli eräänlaisesta virvatulesta.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "liekkio-c07",
+          "source_id": "liekkio-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "In a tale from Merikarvia (1911), the being stopped echoing people when asked: \"Where were you when Christ was on the cross?\"",
+          "statement_id": "Dalam kisah dari Merikarvia (1911), makhluk itu berhenti meniru suara orang ketika ditanya: \"Di mana kamu ketika Kristus di kayu salib?\"",
+          "quote": "Merikarvialta 1911 kerätty kansantarina kertoo liekkiön kohtaamisesta ... Sitten se lakkasi kun kysyttiin: \"Missä sinä sillon olit kun Kristus oli ristin päällä?\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "liekkio-c08",
+          "source_id": "liekkio-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "According to common belief the liekkiö was a ghost bird moving restlessly in the dark, following a wandering traveller, and could shriek, shout or even repeat human speech.",
+          "statement_id": "Menurut anggapan umum, liekkiö adalah burung hantu (burung arwah) yang bergerak gelisah di kala gelap, mengikuti pengembara, dan bisa menjerit, berteriak, bahkan menirukan ucapan manusia.",
+          "quote": "Yleisen käsityksen mukaan liekkiö oli pimeän aikana levottomasti liikehtivä kummituslintu, joka seurasi vaeltavaa matkamiestä, ja eri tavoin äännellessään saattoi kirkua, huutaa tai jopa toistaa ihmisen puhetta.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "liekkio-c09",
+          "source_id": "liekkio-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "It is said that the liekkiö once warned someone sleeping in the forest of a tree about to fall.",
+          "statement_id": "Konon liekkiö pernah memperingatkan orang yang tidur di hutan tentang pohon yang akan tumbang.",
+          "quote": "Kerrotaan, että liekkiö oli joskus varoittanut metsässä nukkuvaa kohta kaatuvasta puusta.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "liekkio-c10",
+          "source_id": "liekkio-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "The Finnish Bible of 1642 renders Isaiah 34:14 with \"lieckiö\" calling to one another.",
+          "statement_id": "Alkitab Finlandia tahun 1642 menerjemahkan Yesaya 34:14 dengan menyebut \"lieckiö\" yang saling memanggil.",
+          "quote": "Vuoden 1642 Biblia kääntää Jesaja 34:14:n Edomin tuhoa käsittelevän kohdan seuraavasti ... \"Silloin pitä männingäiset ja köpelit cohtaman toinen toistans, ja yhden lieckiön pitä toista huutaman\"",
+          "context": "religious-tradition",
           "status": "exact"
         }
       ],
@@ -857,7 +1808,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 6,
         "sources": 1,
         "images": 0
       },
@@ -865,7 +1816,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -873,10 +1824,60 @@
           "id": "ljubi-c01",
           "source_id": "ljubi-s1",
           "host": "en.wikipedia.org",
-          "statement": "Ljubi is documented as lubia ljubi water in regional lore.",
-          "statement_id": "Ljubi adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "The lubia or ljubi is a water and storm demon in Albanian mythology and folklore, usually depicted as a huge multi-headed female serpentine dragon similar to the kulshedra.",
+          "statement": "The lubia or ljubi is a water and storm demon of Albanian mythology and folklore, usually depicted as a huge multi-headed female serpentine dragon similar to the kulshedra; in Southern Albanian belief she is a storm deity.",
+          "statement_id": "Lubia atau ljubi adalah demon air dan badai dalam mitologi dan cerita rakyat Albania, biasanya digambarkan sebagai naga betina berwujud ular raksasa berkepala banyak yang mirip kulshedra; dalam kepercayaan Albania Selatan ia adalah dewi badai.",
+          "quote": "The lubia or ljubi is a water and storm demon in Albanian mythology and folklore, usually depicted as a huge multi-headed female serpentine dragon similar to the kulshedra. In Southern Albanian beliefs, she is a storm deity.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ljubi-c02",
+          "source_id": "ljubi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She is also called \"mother lubia\".",
+          "statement_id": "Ia juga disebut \"ibu lubia\".",
+          "quote": "She is also referred to as ‘mother lubia’.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ljubi-c03",
+          "source_id": "ljubi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Lubia is depicted as a female demon believed to live in a wonderful vegetable garden; as a powerful demon she can make the waters dry up unless a virgin is sacrificed to her.",
+          "statement_id": "Lubia digambarkan sebagai demon perempuan yang dipercaya tinggal di kebun sayur yang indah; sebagai demon yang kuat, ia bisa membuat air mengering kecuali seorang perawan dikurbankan kepadanya.",
+          "quote": "Lubia is depicted as a female demon. She is believed to live in a wonderful vegetable garden. Lubia, as a powerful demon, can cause the waters to dry up unless a virgin is sacrificed to her.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ljubi-c04",
+          "source_id": "ljubi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Lubia is described as having many heads, anywhere from 7 to 100; like the Lernaean Hydra, when one head is cut off another grows in its place, and she has an irresistible taste for flesh, especially that of little girls.",
+          "statement_id": "Lubia digambarkan berkepala banyak, antara 7 hingga 100; seperti Hydra Lerna, bila satu kepalanya dipenggal, kepala lain tumbuh menggantikannya, dan ia sangat menggemari daging, terutama daging gadis kecil.",
+          "quote": "Lubia is described as having multiple heads, anywhere from 7-100. Like the Lernaean Hydra, when one of her heads is cut off, another grows in its place. Lubia is also known to have irresistible taste for flesh, especially that of little girls.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ljubi-c05",
+          "source_id": "ljubi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Albanian mythology the kulshedra and the ljubi are very similar in both appearance and function.",
+          "statement_id": "Dalam mitologi Albania, kulshedra dan ljubi sangat mirip dalam wujud maupun fungsi.",
+          "quote": "The Kulshedra and Ljubi are very similar in both appearance and function in Albanian mythology.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ljubi-c06",
+          "source_id": "ljubi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The kulshedra's description matches that of the ljubi and may be another name for it, though one with more power and notoriety in Albanian culture.",
+          "statement_id": "Gambaran kulshedra cocok dengan gambaran ljubi, dan kulshedra mungkin nama lain untuknya, meski lebih kuat dan lebih terkenal dalam budaya Albania.",
+          "quote": "This matches the description given to Ljubi, and may be another name for it, albeit one with more power and notoriety within Albanian culture.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -887,7 +1888,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 10,
         "sources": 1,
         "images": 0
       },
@@ -895,7 +1896,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -903,10 +1904,100 @@
           "id": "lukomlskoye-dragon-c01",
           "source_id": "lukomlskoye-dragon-s1",
           "host": "be.wikipedia.org",
-          "statement": "Lukomlskoye dragon is a mythological figure documented in folklore records.",
-          "statement_id": "Lukomlskoye dragon adalah figur mitologis dalam catatan cerita rakyat.",
+          "statement": "The Lukoml dragon (Lukomski tsmok) is a mythical monster that legends link with a boulder near the village of Hohaleuka in Chashniki district.",
+          "statement_id": "Naga Lukoml (Lukomski tsmok) adalah makhluk mitos yang dalam legenda dikaitkan dengan sebuah batu besar dekat desa Hohaleuka, distrik Chashniki.",
           "quote": "Лукомскі цмок — міфічная пачвара, якую паданні звязваюць з валуном ля вёскі Гогалеўка Чашніцкага раёна.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lukomlskoye-dragon-c02",
+          "source_id": "lukomlskoye-dragon-s1",
+          "host": "be.wikipedia.org",
+          "statement": "The stone was said to have once had a window-like hole, and the dragon lived inside; people brought small sums of money to the boulder and asked the dragon to sew clothes, and the next day they collected the finished garments.",
+          "statement_id": "Konon batu itu dulu berlubang seperti jendela dan sang naga tinggal di dalamnya; orang membawa sedikit uang ke batu itu dan meminta naga menjahitkan pakaian, dan keesokan harinya mereka mengambil pakaian yang sudah jadi.",
+          "quote": "Камень раней быццам меў адтуліну-акно, і цмок жыў унутры. Людзі прыносілі да валуна невялічкія грошы і прасілі цмока пашыць адзенне. А на другі дзень ужо забіралі гатовую вопратку.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lukomlskoye-dragon-c03",
+          "source_id": "lukomlskoye-dragon-s1",
+          "host": "be.wikipedia.org",
+          "statement": "Outwardly the dragon looked like a man, but sometimes it took the form of a rainbow, rose over Lake Lukoml, sucked up its water and pumped it into the sky.",
+          "statement_id": "Dari luar naga itu tampak seperti manusia, tetapi kadang berwujud pelangi, naik di atas Danau Lukoml, mengisap airnya, dan memompanya ke langit.",
+          "quote": "Звонку цмок выглядаў як чалавек, але часам прымаў выгляд вясёлкі і падымаўся над Лукомскім возерам, смактаў з яго ваду і перапампоўваў на неба.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lukomlskoye-dragon-c04",
+          "source_id": "lukomlskoye-dragon-s1",
+          "host": "be.wikipedia.org",
+          "statement": "The dragon feared lightning; once, before sleeping in a field, it asked a girl to wake it if a storm began, but when the clouds gathered and lightning flashed the girl did not wake it.",
+          "statement_id": "Naga itu takut petir; suatu kali sebelum tidur di ladang ia meminta seorang gadis membangunkannya bila badai datang, tetapi ketika awan berkumpul dan petir menyambar, gadis itu tidak membangunkannya.",
+          "quote": "Цмок асцерагаўся маланак. І аднойчы, перад тым як заснуць на полі, ён папярэдзіў дзяўчыну, каб тая пабудзіла яго, калі пачнецца навальніца. Сабраліся хмары, зазіхацелі маланкі, але дзяўчына не будзіла цмока.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lukomlskoye-dragon-c05",
+          "source_id": "lukomlskoye-dragon-s1",
+          "host": "be.wikipedia.org",
+          "statement": "Suddenly it woke by itself, realised the betrayal and slapped the girl's face, leaving a mark forever; the next moment lightning killed the dragon.",
+          "statement_id": "Tiba-tiba ia terbangun sendiri, menyadari pengkhianatan itu, dan menampar wajah si gadis sehingga bekasnya tertinggal selamanya; sesaat kemudian petir membunuh naga itu.",
+          "quote": "Раптам ён сам прачнуўся і, зразумеўшы здраду, пляснуў дзяўчыну далонню па твары, з-за чаго ў яе назаўсёды застаўся след. У наступнае імгненне цмока забіла маланка.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lukomlskoye-dragon-c06",
+          "source_id": "lukomlskoye-dragon-s1",
+          "host": "be.wikipedia.org",
+          "statement": "A terrible downpour followed; people learned that the dragon had to be buried quickly to end the calamity, and they did so, but a wind rose and blew the body out of the ground.",
+          "statement_id": "Lalu turun hujan dahsyat; orang tahu bahwa naga itu harus segera dikuburkan agar bencana berakhir, dan mereka melakukannya, tetapi angin bertiup dan mengangkat jasadnya dari dalam tanah.",
+          "quote": "Людзі даведаліся, што трэба хутчэй закапаць цмока — і бедствы скончацца. Так і зрабілі. Але падняўся вецер, які выдзьмуў цела забітага з-пад зямлі.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lukomlskoye-dragon-c07",
+          "source_id": "lukomlskoye-dragon-s1",
+          "host": "be.wikipedia.org",
+          "statement": "Only then did people remember that the earth had to be carried by little children in small bags; so the dragon was buried a second time, and the downpours finally stopped.",
+          "statement_id": "Barulah orang ingat bahwa tanahnya harus dibawa oleh anak-anak kecil dalam kantong; maka naga itu dikuburkan untuk kedua kalinya, dan hujan deras akhirnya berhenti.",
+          "quote": "І толькі тады людзі ўспомнілі, што трэба, каб зямлю насілі маленькія дзеці ў торбачках. Так цмока пахавалі ў другі раз, і залёвы нарэшце спыніліся.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lukomlskoye-dragon-c08",
+          "source_id": "lukomlskoye-dragon-s1",
+          "host": "be.wikipedia.org",
+          "statement": "In the legend the dragon appears as a keeper of natural balance, regulating the equilibrium between earthly and heavenly water; hence its death causes a natural catastrophe.",
+          "statement_id": "Dalam legenda ini naga tampil sebagai salah satu penjaga keseimbangan alam, pengatur keseimbangan antara air bumi dan air langit; karena itu kematiannya menimbulkan bencana alam.",
+          "quote": "У паданні цмок паўстае адным з даглядчыкам прыроднага балансу, размеркавальнікам раўнавагі паміж зямной вадой і нябеснай. Таму яго смерць выклікае прыродную катастрофу.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lukomlskoye-dragon-c09",
+          "source_id": "lukomlskoye-dragon-s1",
+          "host": "be.wikipedia.org",
+          "statement": "This points to a link between the figure and the pagan god Veles, who may have been a rival of the thunder god Perun.",
+          "statement_id": "Hal ini menunjukkan kaitan tokoh ini dengan dewa pagan Veles, yang mungkin menjadi saingan dewa guntur Perun.",
+          "quote": "Гэта паказвае на сувязь персанажа з вобразам язычніцкага бога Вялеса, які мог быць супернікам грамабоя Пяруна.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lukomlskoye-dragon-c10",
+          "source_id": "lukomlskoye-dragon-s1",
+          "host": "be.wikipedia.org",
+          "statement": "The boulder in the legend still exists and is known as Zmeyeu kamen (Serpent Stone), one of the largest boulders in Belarus: 9.8 m long and 2.4 m high.",
+          "statement_id": "Batu besar dalam legenda itu masih ada dan dikenal sebagai Zmeyeu kamen (Batu Ular), salah satu batu besar terbesar di Belarus, panjangnya 9,8 m dan tingginya 2,4 m.",
+          "quote": "Валун, аб якім гаворыцца ў паданні, існуе і ў нашыя дні і вядомы як Змееў камень. Гэта адзін з самых вялікіх валуноў у Беларусі: яго даўжыня — 9,8 м, вышыня — 2,4 м.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -933,10 +2024,10 @@
           "id": "majuna-c01",
           "source_id": "majuna-s1",
           "host": "pl.wikipedia.org",
-          "statement": "Majuna is a mythological figure documented in folklore records.",
-          "statement_id": "Majuna adalah figur mitologis dalam catatan cerita rakyat.",
+          "statement": "Majuna is a Baltic goddess of the home and family and of linden trees.",
+          "statement_id": "Majuna adalah dewi Balt yang melindungi rumah, keluarga, dan pohon linden.",
           "quote": "Majuna – bałtyjska bogini domu i rodziny oraz drzew lipowych.",
-          "context": "traditional-belief",
+          "context": "religious-tradition",
           "status": "exact"
         }
       ],
@@ -945,61 +2036,39 @@
     {
       "slug": "makkylan-kummitus",
       "file": "batch-126.md",
-      "verdict": "lulus-otomatis",
+      "verdict": "skip",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 0,
+        "sources": 0,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "skip",
+          "message": "Diusulkan dilewati: Bukan makhluk mitologi atau cerita rakyat: Mäkkylän kummitus adalah peristiwa poltergeist pada Oktober 1946 di sebuah rumah di Mäkkylä yang diberitakan pers, dan menurut polisi Reino Lindfors kemudian merupakan hoaks pelemparan batu. (https://fi.wikipedia.org/wiki/M%C3%A4kkyl%C3%A4n_kummitus)."
         }
       ],
-      "claims": [
-        {
-          "id": "makkylan-kummitus-c01",
-          "source_id": "makkylan-kummitus-s1",
-          "host": "fi.wikipedia.org",
-          "statement": "Mäkkylän kummitus is a mythological figure documented in folklore records.",
-          "statement_id": "Mäkkylän kummitus adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Mäkkylän kummitus on vuoden 1946 lopulla vajaan kuukauden ajan yksittäiseen taloon keskittynyt selittämättä jäänyt poltergeist-ilmiö.",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
+      "claims": [],
       "images": []
     },
     {
       "slug": "mamuna",
       "file": "batch-126.md",
-      "verdict": "lulus-otomatis",
+      "verdict": "skip",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 0,
+        "sources": 0,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "skip",
+          "message": "Diusulkan dilewati: Duplikat: Mamuna (Q3219468) adalah makhluk yang sama dengan dziwozona yang sudah ada di Mythics (\"Dziwożona (or Mamuna or Boginka)\"); artikel pl Mamuna juga menyebut \"Mamuna, mamona (także: dziwożona, boginka)\". Isinya sebaiknya dipakai untuk memperkaya dziwozona. (https://pl.wikipedia.org/wiki/Mamuna)."
         }
       ],
-      "claims": [
-        {
-          "id": "mamuna-c01",
-          "source_id": "mamuna-s1",
-          "host": "pl.wikipedia.org",
-          "statement": "Mamuna is a mythological figure documented in folklore records.",
-          "statement_id": "Mamuna adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Mamuna, mamona (także: dziwożona, boginka) – demon żeński z wierzeń dawnych Słowian.",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
+      "claims": [],
       "images": []
     },
     {
@@ -1007,7 +2076,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 5,
         "sources": 1,
         "images": 0
       },
@@ -1015,7 +2084,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1023,9 +2092,49 @@
           "id": "manush-lolo-c01",
           "source_id": "manush-lolo-s1",
           "host": "uk.wikipedia.org",
-          "statement": "Manush-lolo is a mythological figure documented in folklore records.",
-          "statement_id": "Manush-lolo adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Мануш-лоло (Мануш-Лоло, Мануш Лоло) — в уявленні ромів демонічна сутність, диявол, чорт, бог смерті, іноді персоніфікація самої смерті, що мешкає у потойбічному світі.",
+          "statement": "In Romani belief Manush-lolo is a demonic being, a devil, a fiend, a god of death, sometimes the personification of death itself, dwelling in the otherworld.",
+          "statement_id": "Dalam kepercayaan orang Roma, Manush-lolo adalah sosok demonik, iblis, setan, dewa kematian, kadang personifikasi kematian itu sendiri, yang tinggal di alam baka.",
+          "quote": "(Мануш-Лоло, Мануш Лоло) — в уявленні ромів демонічна сутність, диявол, чорт, бог смерті, іноді персоніфікація самої смерті, що мешкає у потойбічному світі.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "manush-lolo-c02",
+          "source_id": "manush-lolo-s1",
+          "host": "uk.wikipedia.org",
+          "statement": "The creature's name literally means \"Red Man\".",
+          "statement_id": "Nama makhluk ini secara harfiah berarti \"Manusia Merah\".",
+          "quote": "Дослівно назва істоти перекладається як «Червона людина».",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "manush-lolo-c03",
+          "source_id": "manush-lolo-s1",
+          "host": "uk.wikipedia.org",
+          "statement": "By the most common explanation, this demon appears at night by roadsides in the red glow of a campfire; sometimes the name is explained by its \"raw-flesh face\", that is, one not covered with skin.",
+          "statement_id": "Menurut penjelasan paling umum, demon ini muncul pada malam hari di tepi jalan dalam pantulan merah api unggun; kadang namanya dijelaskan karena wajahnya \"berdaging mentah\", yaitu tidak berkulit.",
+          "quote": "Згідно найпоширенішої, цей демон з'являється вночі на узбіччях доріг в червоних відблисках багаття. Іноді назву сутності пояснюють тим, що у неї «сиром'ясне обличчя», тобто не вкрите шкірою.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "manush-lolo-c04",
+          "source_id": "manush-lolo-s1",
+          "host": "uk.wikipedia.org",
+          "statement": "The name \"Manush-lolo\" is thought to have arisen as a word Roma used in speech to replace the true names of unclean forces so as not to summon them.",
+          "statement_id": "Nama \"Manush-lolo\" dianggap muncul sebagai kata yang dipakai orang Roma dalam bahasa lisan untuk menggantikan nama sebenarnya kekuatan najis agar tidak memanggilnya.",
+          "quote": "Вважається, що ім'я «Мануш-лоло» виникло як слово, яким у своїй усній мові роми замінювали справжні назви нечистої сили, аби не закликати її.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "manush-lolo-c05",
+          "source_id": "manush-lolo-s1",
+          "host": "uk.wikipedia.org",
+          "statement": "Among the Hungarian Csángó Roma a popular legend says this demon gave them the violin: he made the instrument from members of Marika's family, in return helped her bewitch a handsome hunter, and then took the girl and her lover to hell.",
+          "statement_id": "Di kalangan Roma Csángó di Hungaria populer legenda bahwa demon inilah yang memberi mereka biola: ia membuat alat musik itu dari anggota keluarga Marika, sebagai gantinya membantu Marika memikat seorang pemburu tampan, lalu membawa gadis itu dan kekasihnya ke neraka.",
+          "quote": "Серед угорських циган чанґо популярна легенда про те, що саме цей демон подарував їм скрипку. Він виготовив інструмент з членів родини Маріки, натомість допоміг їй причарувати вродливого мисливця, а потім забрав дівчину і її коханого до пекла.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1037,7 +2146,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 5,
         "sources": 1,
         "images": 0
       },
@@ -1045,7 +2154,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1053,9 +2162,49 @@
           "id": "miernik-c01",
           "source_id": "miernik-s1",
           "host": "pl.wikipedia.org",
-          "statement": "miernik is a mythological figure documented in folklore records.",
-          "statement_id": "miernik adalah figur mitologis dalam catatan cerita rakyat.",
+          "statement": "The miernik or mierniczy is a field demon of the will-o'-the-wisp kind: the penitent soul of a dishonest land surveyor, often pictured as a creeping or flying flame.",
+          "statement_id": "Miernik atau mierniczy adalah demon ladang dari golongan api tipuan: jiwa juru ukur tanah yang tidak jujur yang sedang menebus dosa, sering dibayangkan sebagai nyala api kecil yang merayap atau terbang.",
           "quote": "Miernik, mierniczy – polny demon z kategorii błędnych ogni; pokutująca dusza niesprawiedliwego geometry, wyobrażana często jako pełzający lub latający płomyk.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "miernik-c02",
+          "source_id": "miernik-s1",
+          "host": "pl.wikipedia.org",
+          "statement": "In folk belief the souls of surveyors who measured fields wrongly appeared wherever measuring had been done, on meadows, squares and roads; they showed themselves after dusk and at night, mainly during Lent and Advent.",
+          "statement_id": "Menurut kepercayaan rakyat, jiwa para juru ukur yang salah mengukur ladang muncul di mana pun pengukuran pernah dilakukan, yakni di padang rumput, lapangan, dan jalan; mereka tampak setelah senja dan pada malam hari, terutama pada masa Prapaskah dan Adven.",
+          "quote": "Według wierzeń ludowych dusze mierniczych, którzy źle wymierzyli pola, pojawiały się wszędzie tam, gdzie dokonywano pomiarów, tj. na łąkach, placach i drogach. Pokazywały się po zapadnięciu zmroku oraz w nocy. Występowały głównie w okresie wielkopostnym i adwentu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "miernik-c03",
+          "source_id": "miernik-s1",
+          "host": "pl.wikipedia.org",
+          "statement": "Sometimes they took the form of a fiery hand holding a pen, small lights or huge pillars of fire, sometimes a figure holding a lit candle and surveying instruments.",
+          "statement_id": "Kadang mereka berwujud tangan berapi yang memegang pena, cahaya-cahaya kecil, atau tiang api raksasa, kadang sosok yang memegang lilin menyala dan alat ukur tanah.",
+          "quote": "Niekiedy przybierały kształt ognistej ręki trzymającej pióro, światełek albo ogromnych słupów ognia, czasami postaci trzymającej zapaloną świecę i przyrządy geodezyjne.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "miernik-c04",
+          "source_id": "miernik-s1",
+          "host": "pl.wikipedia.org",
+          "statement": "They hated whistling and beat and trampled those who dared whistle in their presence, though sometimes whistling was exactly what scared a miernik away.",
+          "statement_id": "Mereka membenci siulan dan memukul serta menginjak-injak orang yang berani bersiul di dekat mereka, tetapi kadang justru siulan bisa mengusir miernik.",
+          "quote": "Nienawidziły gwizdania, biły i deptały śmiałków, którzy ośmielili się zagwizdać w ich obecności, ale niekiedy właśnie gwizdaniem można było miernika odstraszyć.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "miernik-c05",
+          "source_id": "miernik-s1",
+          "host": "pl.wikipedia.org",
+          "statement": "In Silesia, miernik is also a name for the marsh light (świetlik bagienny).",
+          "statement_id": "Di Silesia, miernik juga nama untuk cahaya rawa (świetlik bagienny).",
+          "quote": "miernik – występująca na Śląsku nazwa świetlika bagiennego",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1067,7 +2216,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -1075,7 +2224,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1083,10 +2232,40 @@
           "id": "mirigy-c01",
           "source_id": "mirigy-s1",
           "host": "hu.wikipedia.org",
-          "statement": "Mirigy is documented as mirigy merigy mirvigy in regional lore.",
-          "statement_id": "Mirigy adalah figur mitologis dalam catatan cerita rakyat.",
+          "statement": "Mirigy (also merigy, mirvigy, mörvigy, mirigyes dögletesség, mirigyhalál, mirigy-kór) is a disease name in Hungarian folk medicine and one of the disease demons of the ancient Hungarian religion.",
+          "statement_id": "Mirigy (juga merigy, mirvigy, mörvigy, mirigyes dögletesség, mirigyhalál, mirigy-kór) adalah nama penyakit dalam pengobatan rakyat Hungaria dan salah satu demon penyakit dalam kepercayaan asli Hungaria.",
           "quote": "A mirigy (más néven merigy, mirvigy, mörvigy, mirigyes dögletesség, mirigyhalál, mirigy-kór) a magyar népi gyógyászat betegségelnevezése és a magyar ősvallás egyik betegségdémona.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mirigy-c02",
+          "source_id": "mirigy-s1",
+          "host": "hu.wikipedia.org",
+          "statement": "Most records since the mid-19th century come from the eastern half of the country, mainly Székelyföld, as with the csuma, with which it is very probably identical.",
+          "statement_id": "Sebagian besar catatan sejak pertengahan abad ke-19 berasal dari bagian timur negeri, terutama Székelyföld, seperti halnya csuma, yang sangat mungkin identik dengannya.",
+          "quote": "A 19. század közepe óta feljegyzett adatok zöme az ország keleti feléből, főként Székelyföldről való, hasonlóan a csumához, mellyel nagy valószínűséggel azonos.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mirigy-c03",
+          "source_id": "mirigy-s1",
+          "host": "hu.wikipedia.org",
+          "statement": "Mirigy is the cause and disease demon (betegségdémona) of bubonic plague (bubópestis), other illnesses with swollen lymph nodes, some skin diseases, livor mortis (hullafoltok), severe and rapid internal diseases, plague inflammation and plague sepsis (pestises szepszis).",
+          "statement_id": "Mirigy adalah penyebab dan demon penyakit bagi pes bubo, penyakit lain dengan pembengkakan kelenjar getah bening, beberapa penyakit kulit, lebam mayat, penyakit dalam yang berat dan cepat, radang pes, dan sepsis pes.",
+          "quote": "A mirigy a bubópestis, más nyirokcsomó-duzzanattal járó betegségek, néhány bőrbetegség, a hullafoltok, a súlyos és gyors lefolyású belső betegségek, a pestises gyulladás, és a pestises szepszis okozója, betegségdémona.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mirigy-c04",
+          "source_id": "mirigy-s1",
+          "host": "hu.wikipedia.org",
+          "statement": "Mihály Vörösmarty used the figure in his drama Csongor és Tünde.",
+          "statement_id": "Mihály Vörösmarty memakai tokoh ini dalam dramanya Csongor és Tünde.",
+          "quote": "Vörösmarty Mihály Csongor és Tünde című drámájában használta fel a figurát.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -1113,8 +2292,8 @@
           "id": "nezit-c01",
           "source_id": "nezit-s1",
           "host": "sr.wikipedia.org",
-          "statement": "Nežit is a mythological figure documented in folklore records.",
-          "statement_id": "Nežit adalah figur mitologis dalam catatan cerita rakyat.",
+          "statement": "Nežit is a demon of Slavic mythology that causes various physical illnesses in people: it settles in the head, dries the brain, twists the mouth, wears down the teeth, bends the neck, deafens the ears, blinds the eyes and so on.",
+          "statement_id": "Nežit adalah demon dari mitologi Slavia yang menimbulkan berbagai penyakit fisik pada manusia: ia bersarang di kepala, mengeringkan otak, memelintir mulut, merusak gigi, membengkokkan leher, menulikan telinga, membutakan mata, dan sebagainya.",
           "quote": "Нежит је демон из словенске митологије, који производи различите физичке болести у човеку: усељава се у човекову главу, суши мозак, крши уста, троши зубе, криви шију, глуши уши, слепи очи, итд.",
           "context": "traditional-belief",
           "status": "exact"
@@ -1127,25 +2306,129 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nightmare-c01",
           "source_id": "nightmare-s1",
           "host": "et.wikipedia.org",
-          "statement": "Nightmare is a mythological figure documented in folklore records.",
-          "statement_id": "Nightmare adalah figur mitologis dalam catatan cerita rakyat.",
+          "statement": "In Estonian mythology the luupainaja is a spirit that presses down on sleepers.",
+          "statement_id": "Dalam mitologi Estonia, luupainaja adalah roh yang menindih orang yang sedang tidur.",
+          "quote": "Luupainaja on eesti mütoloogias magajaid painav vaim.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nightmare-c02",
+          "source_id": "nightmare-s1",
+          "host": "et.wikipedia.org",
+          "statement": "Other names of the luupainaja include painaja, painak, panijas, paanjas, painakane, luupaanija, luupaine, luupatak and tallaja.",
+          "statement_id": "Nama lain luupainaja antara lain painaja, painak, panijas, paanjas, painakane, luupaanija, luupaine, luupatak, dan tallaja.",
           "quote": "Luupainaja teiste nimetuste hulka kuuluvad painaja, painak, panijas, paanjas, painakane, luupaanija, luupaine, luupatak, tallaja.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nightmare-c03",
+          "source_id": "nightmare-s1",
+          "host": "et.wikipedia.org",
+          "statement": "The tallajad come at night to press on their victim, weighing down the body so the victim cannot move.",
+          "statement_id": "Tallaja datang pada malam hari menindih korbannya, menekan tubuh korban sehingga ia tidak bisa bergerak.",
+          "quote": "Nimelt käivad tallajad öösiti oma ohvrit painamas. Nad rõhuvad oma ohvri keha, nii et too liigutada ei saa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nightmare-c04",
+          "source_id": "nightmare-s1",
+          "host": "et.wikipedia.org",
+          "statement": "The old folk believed prolonged pressing could bring death; the tallajad torment not only people but also try to weaken working animals by pressing on them.",
+          "statement_id": "Orang tua dahulu percaya bahwa tindihan yang berlangsung lama bisa membawa kematian; tallaja tidak hanya menyiksa manusia tetapi juga berusaha melemahkan tenaga hewan pekerja dengan tindihannya.",
+          "quote": "Vanarahvas arvas, et pikaaegne painamine võib surma tuua. Tallajad ei käi ainult inimesi piinamas, vaid üritavad ka tööloomade jõudu oma rõhumisega nõrgendada.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nightmare-c05",
+          "source_id": "nightmare-s1",
+          "host": "et.wikipedia.org",
+          "statement": "In most tales the tallajad appear as a young woman, though also as an old woman or old man; luupainajad are also described as black cats, horses, dogs and so on.",
+          "statement_id": "Dalam kebanyakan cerita, tallaja menampakkan diri sebagai perempuan muda, tetapi juga sebagai perempuan tua atau lelaki tua; luupainaja juga digambarkan sebagai kucing hitam, kuda, anjing, dan sebagainya.",
+          "quote": "Enamikus juttudes on öeldud, et tallajad ilmutavad end noore naisena, kuid ei pelga ära ka vana naise ja vana mehena ilmumist. Samuti on loomadega – luupainajaid kirjeldatakse nii mustade kassidena, hobustena, koertena jne.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nightmare-c06",
+          "source_id": "nightmare-s1",
+          "host": "et.wikipedia.org",
+          "statement": "The simplest way to get free is to move the big toe: it was believed that if you feel the luupainaja pressing on you, you must move your big toe and the tallaja will flee.",
+          "statement_id": "Cara paling mudah untuk melepaskan diri adalah menggerakkan ibu jari kaki: orang percaya bila merasa ditindih luupainaja, ibu jari kaki harus digerakkan, maka tallaja akan lari.",
+          "quote": "Lihtsaim neist on suure varba liigutamine. Nimelt arvati, et kui tunned luupainajat end rõhuvat, tuleb suurt varvast liigutada ning siis tallaja põgeneb.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nightmare-c07",
+          "source_id": "nightmare-s1",
+          "host": "et.wikipedia.org",
+          "statement": "Another common way was to light a fire, as the luupainajad were said to fear light.",
+          "statement_id": "Cara umum lainnya adalah menyalakan api, karena luupainaja konon takut cahaya.",
+          "quote": "Teiseks levinud võimaluseks oli tule põlema panemine, valgust pidavat luupainajad kartma.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nightmare-c08",
+          "source_id": "nightmare-s2",
+          "host": "et.wikisource.org",
+          "statement": "According to M. J. Eisen, the luupainaja chooses a person as its victim and comes to press on them every night or every few nights, lying like a stone on the chest or body.",
+          "statement_id": "Menurut M. J. Eisen, luupainaja memilih seseorang sebagai korban dan datang menindihnya setiap malam atau selang beberapa malam, seperti batu yang menimpa dada atau tubuh.",
+          "quote": "Luupainaja valib enesele mingisuguse isiku ohvriks ja hakkab seda kas igal ööl ehk mõne öö takka painamas käima, nagu kivi rinnul ehk kehal lasudes",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nightmare-c09",
+          "source_id": "nightmare-s2",
+          "host": "et.wikisource.org",
+          "statement": "A widely known tale says that when its entry hole is closed and a light is struck, the luupainaja appears as a young girl, whom the person she pressed later marries.",
+          "statement_id": "Dikenal luas kisah bahwa bila lubang masuknya ditutup dan api dinyalakan, luupainaja menampakkan diri sebagai gadis muda, yang kemudian dilamar oleh orang yang ditindihnya.",
+          "quote": "Laialt tuntakse lugu, mille järele sissetuleku-augu sulgumise ja tulesüütamise peale luupainaja ilmub noorena tütarlapsena, kelle painatav hiljemini enesele kosib.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nightmare-c10",
+          "source_id": "nightmare-s2",
+          "host": "et.wikisource.org",
+          "statement": "Both live happily until the husband, 7 or 14 years after the wedding, pulls the plug from the luupainaja's entry hole, and at once the wife vanishes from the room like air.",
+          "statement_id": "Keduanya hidup bahagia sampai sang suami, 7 atau 14 tahun setelah pernikahan, mencabut sumbat dari lubang masuk luupainaja, dan seketika sang istri lenyap dari ruangan seperti udara.",
+          "quote": "Mõlemad elavad õnnelikult, kuni abielumees 7 ehk 14 aastat pärast pulmi luupainaja sissetuleku-augu eest pulga võtab, ja kohe kaob naine nagu õhk toast.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nightmare-c11",
+          "source_id": "nightmare-s2",
+          "host": "et.wikisource.org",
+          "statement": "Eisen concludes that the luupainaja is a human, but not an ordinary one: someone who by special knowledge has acquired the qualities of spirits, in other words a witch.",
+          "statement_id": "Eisen menyimpulkan bahwa luupainaja adalah manusia, tetapi bukan manusia biasa, melainkan orang yang dengan pengetahuan khusus memperoleh sifat roh, dengan kata lain seorang penyihir.",
+          "quote": "Nagu eelmistest seletustest selgub, on luupainaja inimene, kuid mitte tavaline inimene, vaid niisugune, kes enesele iseäraliku tarkusega vaimude omaduse pärinud, teise sõnaga nõid.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nightmare-c12",
+          "source_id": "nightmare-s2",
+          "host": "et.wikisource.org",
+          "statement": "The luupainaja's human body does not really change; rather the soul leaves the body, taking one form or another as it goes.",
+          "statement_id": "Tubuh manusia luupainaja sebenarnya tidak berubah; jiwanya yang meninggalkan tubuh dan mengambil satu atau lain wujud.",
+          "quote": "Tõepoolest ei muuda luupainaja inimlik keha ennast sugugi, vaid hing lahkub kehast, enesele lahkudes üht ehk teist kuju võttes.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1157,7 +2440,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 4,
         "sources": 1,
         "images": 0
       },
@@ -1165,7 +2448,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1173,9 +2456,39 @@
           "id": "oblakinia-c01",
           "source_id": "oblakinia-s1",
           "host": "pl.wikipedia.org",
-          "statement": "Oblakinia is a mythological figure documented in folklore records.",
-          "statement_id": "Oblakinia adalah figur mitologis dalam catatan cerita rakyat.",
+          "statement": "The oblakinia or obłoczyca is a Serbo-Croatian Slavic demon, a kind of vila.",
+          "statement_id": "Oblakinia atau obłoczyca adalah demon Slavia dari tradisi Serbia-Kroasia, sejenis vila.",
           "quote": "Oblakinia, obłoczyca – serbsko-chorwacki demon słowiański; rodzaj wił.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oblakinia-c02",
+          "source_id": "oblakinia-s1",
+          "host": "pl.wikipedia.org",
+          "statement": "A small demon, half the height of an adult, with the body proportions of a grown woman; she was very slender and moved lightly, floating through the air.",
+          "statement_id": "Demon bertubuh kecil, setinggi separuh orang dewasa, dengan proporsi tubuh perempuan dewasa; ia sangat ramping dan bergerak ringan sambil melayang di udara.",
+          "quote": "Demon drobnej budowy, wzrostu połowy dorosłego człowieka. Proporcje ciała nie odbiegały od proporcji dorosłej kobiety. Cechowała ją spora smukłość, a poruszała się lekko, płynąc w powietrzu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oblakinia-c03",
+          "source_id": "oblakinia-s1",
+          "host": "pl.wikipedia.org",
+          "statement": "Her face was thin, her forehead high, her hair straight, long and sky-blue; her eyes were large with a blue gaze, and her skin was blue.",
+          "statement_id": "Wajahnya tirus, dahinya tinggi, rambutnya lurus, panjang, dan berwarna biru langit; matanya besar dengan tatapan biru, dan kulitnya biru.",
+          "quote": "Twarz miała szczupłą, głowę z wysokim czołem, włosy proste, długie, koloru błękitnego. Oczy duże, z błękitnym spojrzeniem. Skórę miała niebieską.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oblakinia-c04",
+          "source_id": "oblakinia-s1",
+          "host": "pl.wikipedia.org",
+          "statement": "Her main occupation was sewing gowns, which she made from snowflakes, dewdrops, shreds of cloud, mists and spider threads and decorated with various objects.",
+          "statement_id": "Pekerjaan utamanya menjahit gaun, yang ia buat dari kepingan salju, tetes embun, serpihan awan, kabut, dan benang laba-laba, lalu ia hiasi dengan berbagai benda.",
+          "quote": "Głównym jej zajęciem było szycie sukien. Czyniła je z płatków śniegu, kropel rosy, strzępów obłoków, mgieł, nici pająków i ozdabiała je różnymi przedmiotami.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1185,31 +2498,20 @@
     {
       "slug": "polovoi",
       "file": "batch-126.md",
-      "verdict": "lulus-otomatis",
+      "verdict": "skip",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 0,
+        "sources": 0,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "skip",
+          "message": "Diusulkan dilewati: Duplikat: Polovoi (Q12738321; artikel ro \"spirit al câmpurilor\" dalam mitologi Rusia berambut hijau) adalah roh ladang yang sama dengan polevik yang sudah ada di Mythics (Polevik/Polewik, roh ladang mitologi Slavia); polovoi hanyalah varian nama. (https://ro.wikipedia.org/wiki/Polovoi)."
         }
       ],
-      "claims": [
-        {
-          "id": "polovoi-c01",
-          "source_id": "polovoi-s1",
-          "host": "ro.wikipedia.org",
-          "statement": "Polovoi is a mythological figure documented in folklore records.",
-          "statement_id": "Polovoi adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Polovoi este un spirit, prezent în mitologia rusă, al câmpurilor, având părul verde ca iarba.",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
+      "claims": [],
       "images": []
     },
     {
@@ -1217,15 +2519,20 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 7,
         "sources": 1,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
+          "where": "culture",
+          "message": "Mengusulkan tradisi baru: \"tradisi pegunungan Jeseníky (Ceko–Jerman)\"."
+        },
+        {
+          "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1233,10 +2540,70 @@
           "id": "praded-c01",
           "source_id": "praded-s1",
           "host": "cs.wikipedia.org",
-          "statement": "Praděd is a mythological figure documented in folklore records.",
-          "statement_id": "Praděd adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Název hory Altvater, česky Praděd, která je podle legend sídlem horského ducha, je poprvé zaznamenán v 19.",
+          "statement": "Praděd (German: Altvater) is a mythical mountain spirit, ruler and guardian of the Hrubý Jeseník mountains.",
+          "statement_id": "Praděd (bahasa Jerman: Altvater) adalah roh gunung mitis, penguasa dan penjaga pegunungan Hrubý Jeseník.",
+          "quote": "Praděd (německy Altvater) je mytický horský duch, vládce a strážce Hrubého Jeseník.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "praded-c02",
+          "source_id": "praded-s1",
+          "host": "cs.wikipedia.org",
+          "statement": "The highest mountain of the Hrubý Jeseník, Moravia and Czech Silesia, Praděd, is named after him, as are the herbal liqueurs Altvater and Praděd.",
+          "statement_id": "Gunung tertinggi Hrubý Jeseník, Moravia, dan Silesia Ceko, yaitu Praděd, dinamai menurutnya, demikian pula minuman keras herbal Altvater dan Praděd.",
+          "quote": "Je po něm pojmenovaná nejvyšší hora Hrubého Jeseníku, Moravy a českého Slezska Praděd a bylinné likéry Altvater a Praděd.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "praded-c03",
+          "source_id": "praded-s1",
+          "host": "cs.wikipedia.org",
+          "statement": "Praděd is most often pictured as an old man with a long white beard, but he also appears in other forms, such as a forester or a shepherd boy; according to legend he is just, values goodness and is set against wicked people, to whom he shows his unfriendly face.",
+          "statement_id": "Praděd paling sering digambarkan sebagai lelaki tua berjanggut putih panjang, tetapi juga muncul dalam wujud lain, misalnya sebagai rimbawan atau gembala kecil; menurut legenda ia adil, menghargai kebaikan, dan memusuhi orang jahat, yang ia tunjukkan wajah garangnya.",
+          "quote": "Praděd je nejčastěji zobrazován jako stařec s dlouhým bílým vousem, ale zjevuje se i v jiných podobách, například jako lesník nebo pasáček. Podle legend je spravedlivý, oceňuje dobrotu a má spadeno na zlé lidi, kterým ukazuje svou nevlídnou tvář.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "praded-c04",
+          "source_id": "praded-s1",
+          "host": "cs.wikipedia.org",
+          "statement": "A legend tells how Praděd punished the shepherd boy Konrád, whom he invited into an underground hall full of treasure; in the end the boy was glad to escape with his life, did not regret losing all his ducats, and was cured of greed and envy.",
+          "statement_id": "Sebuah legenda menceritakan bagaimana Praděd menghukum gembala muda Konrád yang ia undang ke ruang bawah tanah penuh harta; akhirnya anak itu bersyukur bisa selamat, tidak menyesal kehilangan semua dukatnya, dan sembuh dari ketamakan serta iri hati.",
+          "quote": "Legenda vypráví například o tom, jak Praděd potrestal ovčáka, chlapce Konráda, kterého pozval do podzemní síně plné pokladů. Nakonec byl chlapec rád, když vyvázl s holým životem, a vůbec už nelitoval, že přišel o všechny dukáty, z chamtivosti a závistivosti byl vyléčen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "praded-c05",
+          "source_id": "praded-s1",
+          "host": "cs.wikipedia.org",
+          "statement": "According to local legend, Praděd is one of the ancestors of the mountain folk who did not pass into eternity but stayed in the world to protect his descendants; legend says he had no supernatural powers and became known for helping the poor, since he had grown rich and had no relatives.",
+          "statement_id": "Menurut legenda setempat, Praděd adalah salah satu leluhur para penghuni pegunungan yang tidak pergi ke alam baka melainkan tetap di dunia untuk melindungi keturunannya; menurut legenda ia tidak punya kekuatan gaib dan dikenal orang karena menolong kaum miskin, sebab ia kaya dan tidak punya kerabat.",
+          "quote": "Podle místní legendy je Praděd jeden z prapředků místních horalů, který neodešel na věčnost, ale zůstal na světě, aby chránil své potomstvo. Podle legend neměl žádné nadpřirozené schopnosti a do povědomí lidí se dostal tím, že pomáhal chudým, protože zbohatl a neměl žádné příbuzné.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "praded-c06",
+          "source_id": "praded-s1",
+          "host": "cs.wikipedia.org",
+          "statement": "The Jiříkov woodcarver Jiří Halouzka made a ten-metre statue of Praděd, the centrepiece of his Praděd Gallery in Jiříkov.",
+          "statement_id": "Pemahat kayu dari Jiříkov, Jiří Halouzka, membuat patung Praděd setinggi sepuluh meter yang menjadi ikon Galeri Praděd miliknya di Jiříkov.",
+          "quote": "Jiříkovský řezbář Jiří Halouzka vytvořil desetimetrovou sochu Praděda, která je dominantou jeho Pradědovy galerie v Jiříkově.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "praded-c07",
+          "source_id": "praded-s1",
+          "host": "cs.wikipedia.org",
+          "statement": "The name of the mountain Altvater (Czech Praděd), said in legend to be the spirit's seat, is first recorded in the 19th century; before that various other names were used.",
+          "statement_id": "Nama gunung Altvater (bahasa Ceko: Praděd), yang menurut legenda merupakan kediaman roh gunung itu, pertama kali tercatat pada abad ke-19; sebelumnya gunung itu disebut dengan berbagai nama lain.",
+          "quote": "Název hory Altvater, česky Praděd, která je podle legend sídlem horského ducha, je poprvé zaznamenán v 19. století, předtím se pro ni používala řada jiných názvů.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -1247,7 +2614,7 @@
       "file": "batch-126.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
+        "claims": 5,
         "sources": 1,
         "images": 0
       },
@@ -1255,7 +2622,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -1263,9 +2630,49 @@
           "id": "ravga-c01",
           "source_id": "ravga-s1",
           "host": "fi.wikipedia.org",
-          "statement": "rávgá is a mythological figure documented in folklore records.",
-          "statement_id": "rávgá adalah figur mitologis dalam catatan cerita rakyat.",
+          "statement": "Rávgá is a figure of Sami mythology usually described as a humanlike being with long hair and a large mouth, explained as a drowned person.",
+          "statement_id": "Rávgá adalah tokoh mitologi Sami yang biasanya digambarkan sebagai makhluk mirip manusia berambut panjang dan bermulut besar, dan dijelaskan sebagai orang yang mati tenggelam.",
           "quote": "Rávgá on saamelaiseen mytologiaan kuuluva hahmo, joka kuvataan tavallisesti ihmistä muistuttavaksi pitkätukkaiseksi ja suurisuiseksi olennoksi ja selitetään hukkuneeksi ihmiseksi.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ravga-c02",
+          "source_id": "ravga-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "The word rávga, known to the Finnish and Norwegian Sami, goes back to Norwegian \"draug\" (the drowned); it is a placeless dead being, known among the Kvens as meriraukka.",
+          "statement_id": "Kata rávga, yang dikenal orang Sami di Finlandia dan Norwegia, berasal dari kata Norwegia \"draug\" (orang tenggelam); ini makhluk arwah yang tak bertempat, dan di kalangan orang Kven makhluk ini disebut meriraukka.",
+          "quote": "Suomen- ja norjansaamelaisten tunteman rávga-sanan taustalla on norjan draug, 'hukkunut'. Kysymyksessä on sijaton vainajaolento. Ruijan suomalaisten eli kveenien parissa olento on tunnettu nimityksellä meriraukka.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "ravga-c03",
+          "source_id": "ravga-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "The rávga was not really dangerous and is not usually linked with the ráimmahallan state (compare eahpáraš), but it harassed people on the water and on the shore by shouting, often mimicking the speech of the living; one got rid of it by reading the words of the burial rite to it.",
+          "statement_id": "Rávga sebenarnya tidak berbahaya dan biasanya tidak dikaitkan dengan keadaan ráimmahallan (bandingkan eahpáraš), tetapi ia mengganggu orang yang berada di air atau di pantai dengan berteriak, sering menirukan ucapan orang hidup; orang bisa menyingkirkannya dengan membacakan kata-kata upacara pemakaman kepadanya.",
+          "quote": "Rávga ei ollut varsinaisesti vaarallinen eikä siihen yleensä liitetä ráimmahallan-tilan syntymistä (vrt. eahpáraš), mutta se kiusasi vesillä liikkujia ja rannalla olijoita yleensä huutamalla, usein matkimalla elävien puheita. Sitä päästiin eroon lukemalla sille hautauskaavan sanat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ravga-c04",
+          "source_id": "ravga-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "In folk tradition, death by drowning, when the body is not found and cannot be properly buried, generally created a status-less state lasting until the required rite of passage, burial and in Christian times the blessing of the grave, was performed.",
+          "statement_id": "Dalam tradisi rakyat, kematian karena tenggelam, ketika jasad tidak ditemukan dan tak bisa dikuburkan semestinya, umumnya menimbulkan keadaan tanpa status yang berlangsung sampai ritus peralihan, penguburan, dan pada masa Kristen pemberkatan makam, dilaksanakan.",
+          "quote": "Hukkumiskuolema - kun ruumista ei ole löydetty eikä ole voitu asianmukaisesti haudata - on kansanperinteessä yleisesti tuottanut statuksettoman tilan, joka jatkuu siihen asti, kunnes vaadittu siirtymäriitti, hautaaminen ja kristillisellä ajalla hautaan siunaaminen on suoritettu.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ravga-c05",
+          "source_id": "ravga-s1",
+          "host": "fi.wikipedia.org",
+          "statement": "Unlike the rávga, the čáhcerávga (\"water rávga\") was a being known to be imaginary, a so-called fiction used to frighten children.",
+          "statement_id": "Berbeda dari rávga, čáhcerávga (\"rávga air\") adalah makhluk yang memang diketahui khayalan, dipakai untuk menakut-nakuti anak-anak.",
+          "quote": "Čáhcerávga, 'vesiraukka', oli rávgasta poiketen kuvitteelliseksi tiedetty olento, lasten pelotteluun käytetty ns. fikti.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1275,31 +2682,20 @@
     {
       "slug": "spor",
       "file": "batch-126.md",
-      "verdict": "lulus-otomatis",
+      "verdict": "skip",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 0,
+        "sources": 0,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "skip",
+          "message": "Diusulkan dilewati: Duplikat: Spor (Q9340403, artikel pl \"Spor, sporysz – demon z mitologii słowiańskiej\") adalah demon kesuburan/biji-bijian yang sama dengan spor-slavic-demon (Q39079198, \"Spor, sporysz... grain demon in Slavic mythology\") yang sudah ada di Mythics; isi artikel pl sebaiknya dipakai untuk memperkaya spor-slavic-demon. (https://pl.wikipedia.org/wiki/Spor)."
         }
       ],
-      "claims": [
-        {
-          "id": "spor-c01",
-          "source_id": "spor-s1",
-          "host": "pl.wikipedia.org",
-          "statement": "Spor is a mythological figure documented in folklore records.",
-          "statement_id": "Spor adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Spor, sporysz – demon z mitologii słowiańskiej, będący personifikacją płodności i plenności.",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
+      "claims": [],
       "images": []
     }
   ]
