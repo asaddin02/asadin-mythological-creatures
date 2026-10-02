@@ -2674,7 +2674,7 @@
     {
       "id": "vostrukha-c06",
       "source_id": "vostrukha-s1",
-      "quote": "считает, что талантливый автор изданных в середине XIX века «Белорусских народных преданий» Павел Михайлович Шпилевский (Древлянский) наряду с другими персонажами народного творчества воссоздал образ Ваструхи",
+      "quote": "Е. Е. Левкиевская считает, что талантливый автор изданных в середине XIX века «Белорусских народных преданий» Павел Михайлович Шпилевский (Древлянский) наряду с другими персонажами народного творчества воссоздал образ Ваструхи",
       "locator": "История",
       "context": "scholarly-interpretation",
       "statement": {
@@ -2696,7 +2696,7 @@
     {
       "id": "vostrukha-c08",
       "source_id": "vostrukha-s1",
-      "quote": "Так, например, появилась зоркая «Ваструха», белорусская богиня правды».",
+      "quote": "Литературный критик, эссеист В. Костырко отмечает ... Так, например, появилась зоркая «Ваструха», белорусская богиня правды».",
       "locator": "История",
       "context": "scholarly-interpretation",
       "statement": {
@@ -6038,8 +6038,8 @@
   },
   "long_description": [
     {
-      "id": "Dalam kepercayaan rakyat Bulgaria, Mratinyak atau mrata adalah demon jahat yang menyebabkan penyakit pada ayam dan unggas, yang juga disebut penyakit ayam; ia adalah personifikasi penyakit unggas. Ia digambarkan sebagai ayam betina hitam besar yang sangat buruk rupa, bersayap besar dan bermata sangat besar. Terutama di Bulgaria Utara dan Barat, orang merayakan hari raya Mratintsi untuk menghormatinya.",
-      "en": "In Bulgarian folk belief Mratinyak or mrata is a malevolent demon that causes disease in hens and poultry, also called hen disease; it is the personification of poultry diseases. It is pictured as a big, extremely ugly black hen with large wings and huge eyes. Mainly in Northern and Western Bulgaria people keep the feast of Mratintsi in its honour.",
+      "id": "Dalam kepercayaan rakyat Bulgaria, Mratinyak adalah demon jahat yang menyebabkan penyakit pada ayam dan unggas, yang juga disebut penyakit ayam; ia adalah personifikasi penyakit unggas. Ia digambarkan sebagai ayam betina hitam besar yang sangat buruk rupa, bersayap besar dan bermata sangat besar. Terutama di Bulgaria Utara dan Barat, orang merayakan hari raya Mratintsi untuk menghormatinya.",
+      "en": "In Bulgarian folk belief Mratinyak is a malevolent demon that causes disease in hens and poultry, also called hen disease; it is the personification of poultry diseases. It is pictured as a big, extremely ugly black hen with large wings and huge eyes. Mainly in Northern and Western Bulgaria people keep the feast of Mratintsi in its honour.",
       "claim_ids": [
         "wd-q12287431-c01",
         "wd-q12287431-c02"
@@ -6122,8 +6122,8 @@
       "locator": "увод",
       "context": "traditional-belief",
       "statement": {
-        "id": "Dalam kepercayaan rakyat Bulgaria, Mratinyak (juga mrata) adalah demon jahat yang menyebabkan penyakit bernama sama pada ayam dan unggas (disebut juga penyakit ayam), personifikasi penyakit unggas.",
-        "en": "In Bulgarian folk belief Mratinyak (also mrata) is a malevolent demon causing the disease of the same name in hens and poultry (also called hen disease), the personification of poultry diseases."
+        "id": "Dalam kepercayaan rakyat Bulgaria, Mratinyak adalah demon jahat yang menyebabkan penyakit bernama sama pada ayam dan unggas (disebut juga penyakit ayam), personifikasi penyakit unggas.",
+        "en": "In Bulgarian folk belief Mratinyak is a malevolent demon causing the disease of the same name in hens and poultry (also called hen disease), the personification of poultry diseases."
       }
     },
     {
@@ -8497,7 +8497,7 @@
     {
       "id": "wd-q21720598-c04",
       "source_id": "wd-q21720598-s1",
-      "quote": "у свіцязянак ператварыліся жанчыны горада Свіцязі, затопленага багамі на іх просьбу, каб унікнуць ганьбавання варожым рускім войскам",
+      "quote": "Паводле першай з іх ... у свіцязянак ператварыліся жанчыны горада Свіцязі, затопленага багамі на іх просьбу, каб унікнуць ганьбавання варожым рускім войскам",
       "locator": "уводзіны",
       "context": "traditional-belief",
       "statement": {
@@ -8530,7 +8530,7 @@
     {
       "id": "wd-q21720598-c07",
       "source_id": "wd-q21720598-s1",
-      "quote": "расказвае пра выпрабаванне, якому свіцязянка, якая спачатку выдае сябе за звычайную дзяўчыну, паддае закаханага ў яе юнака-стральца.",
+      "quote": "Другая балада, «Свіцязянка» ... расказвае пра выпрабаванне, якому свіцязянка, якая спачатку выдае сябе за звычайную дзяўчыну, паддае закаханага ў яе юнака-стральца.",
       "locator": "уводзіны",
       "context": "traditional-belief",
       "statement": {
@@ -10424,8 +10424,8 @@
       "locator": "Облик и функции",
       "context": "traditional-belief",
       "statement": {
-        "id": "Di Zaonezhye dipercaya bahwa jika perempuan hamil tidur telentang dengan pakaian terbuka tanpa ikat pinggang dan kebetulan ada pisau di meja, udelnitsa akan mengeluarkan bayinya dengan pisau itu.",
-        "en": "In Zaonezhye it was believed that if a pregnant woman \"sleeps on her back, uncovered, without a belt, and a knife happens to be on the table, the udelnitsa takes out the baby with it.\""
+        "id": "Di tempat yang sama dipercaya bahwa jika perempuan hamil tidur telentang dengan pakaian terbuka tanpa ikat pinggang dan kebetulan ada pisau di meja, udelnitsa akan mengeluarkan bayinya dengan pisau itu.",
+        "en": "In the same area it was believed that if a pregnant woman \"sleeps on her back, uncovered, without a belt, and a knife happens to be on the table, the udelnitsa takes out the baby with it.\""
       }
     },
     {
