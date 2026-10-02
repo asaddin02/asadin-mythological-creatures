@@ -1,3 +1,5 @@
+import { artwork, previewAttributes, downloadAttributes } from './image-viewer.js';
+import { renderGildedFrame } from './gilded-frame.js';
 /**
  * CreatureDetail Component
  * Comprehensive, scholarly, and immersive archive page for an individual entity.
@@ -5,7 +7,9 @@
  * Ability Matrix, Historical Timeline, Tradition vs Pop Culture, and Semantic Relationship Graph.
  */
 
-import { bi, editorialArt, escapeHtml } from '../ui.js';
+import { getAssessment } from '../scaling.js';
+import { renderScaleBadges, renderAssessmentPanel } from './scaling-guide.js';
+import { bi, editorialArt, escapeHtml, icon } from '../ui.js';
 import { api } from '../api-client.js';
 import { t, resolveLocalized } from '../i18n.js';
 import { renderCreatureCard } from './creature-card.js';
@@ -37,6 +41,8 @@ export async function renderCreatureDetail(container, slug) {
     const art = editorialArt(creature.slug);
     const primaryImg = art ? { url: art, image_type: bi('Interpretasi artistik AI', 'AI artistic interpretation'), license: bi('Ilustrasi editorial', 'Editorial illustration'), author: 'Mythics · OpenAI image generation' } : creature.images?.[0];
     const imgUrl = primaryImg?.preview_url || primaryImg?.url || '/assets/placeholders/creature-fallback.svg';
+    const artData = artwork(creature);
+    const profile = getAssessment(creature);
     const isFav = gamification.isFavorite(creature.slug);
 
     const tier = creature.content_tier || 'rich';
@@ -73,99 +79,34 @@ export async function renderCreatureDetail(container, slug) {
     container.innerHTML = `
       <div class="detail-view">
         <div class="container">
-          <!-- Breadcrumb & Tier Badge -->
-          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem;">
-            <nav class="detail-breadcrumb" style="margin-bottom: 0;" aria-label="Breadcrumb">
-              <a href="#/">Mythics</a>
-              <span>/</span>
-              <a href="#/explore">Jelajah</a>
-              <span>/</span>
-              <a href="#/culture/${creature.culture}">${creature.culture}</a>
-              <span>/</span>
-              <span style="color: var(--text-primary); font-weight: 600;">${creature.canonical_name}</span>
-            </nav>
-            <span class="tier-badge tier-${tier}">
-              <span>📜</span>
-              <span>${tierLabel}</span>
-            </span>
-          </div>
-
-          <!-- Detail Hero (2 Columns) -->
-          <div class="detail-hero-grid">
-            <!-- Left: Imagery & Provenance -->
-            <div class="detail-image-box">
-              <img 
-                src="${imgUrl}" 
-                alt="${displayName}"
-                class="detail-primary-img"
-                onerror="this.onerror=null; this.src='/assets/placeholders/creature-fallback.svg';"
-              />
-              <div class="detail-image-meta">
-                <div class="detail-image-meta-row">
-                  <span style="font-weight: 600;">${primaryImg?.image_type || bi('Visual belum tersedia', 'Visual unavailable')}</span>
-                  <span class="badge" style="background: var(--bg-tertiary);">${primaryImg?.license || bi('Periksa sumber', 'Check source')}</span>
-                </div>
-                <div>
-                  Kredit: ${primaryImg?.author || '—'}
-                  ${primaryImg?.source_url ? ` · <a href="${primaryImg.source_url}" target="_blank" rel="noopener noreferrer" style="font-size: 0.78rem;">Sumber Asli ↗</a>` : ''}
-                </div>
-              </div>
-            </div>
-
-            <!-- Right: Metadata & Specs -->
+          <nav class="detail-breadcrumb" aria-label="Breadcrumb"><a href="#/explore">${bi('Bestiary','Bestiary')}</a><span>/</span><a href="#/culture/${creature.culture}">${escapeHtml((creature.culture || '').replace(/-/g, ' '))}</a><span>/</span><span aria-current="page">${escapeHtml(displayName)}</span></nav>
+          <header class="detail-hero-grid">
             <div class="detail-header-content">
-              <div class="detail-badge-strip">
-                <a href="#/culture/${creature.culture}" class="badge badge-culture" style="text-decoration: none;">${creature.culture}</a>
-                <span class="badge badge-classification">${creature.classification}</span>
-                <span class="badge" style="background: var(--bg-tertiary);">${creature.region}</span>
-              </div>
-
-              <h1 class="detail-canonical-name">${displayName}</h1>
-              ${creature.original_name ? `<div class="detail-original-script">${creature.original_name}</div>` : ''}
-
-              <p class="detail-short-summary">${shortDesc}</p>
-
-              <!-- Quick Specs Grid -->
-              <div class="detail-specs-grid">
-                <div class="spec-cell">
-                  <span class="spec-key">${t('card.origin')}</span>
-                  <span class="spec-val">${creature.country || creature.region}</span>
-                </div>
-                <div class="spec-cell">
-                  <span class="spec-key">Era / Periode</span>
-                  <span class="spec-val">${creature.era || bi('Belum dicatat', 'Not recorded')}</span>
-                </div>
-                <div class="spec-cell">
-                  <span class="spec-key">Habitat</span>
-                  <span class="spec-val">${creature.habitat || 'Tidak Ditentukan'}</span>
-                </div>
-                <div class="spec-cell">
-                  <span class="spec-key">Elemen / Sifat</span>
-                  <span class="spec-val">${creature.element || '—'} · ${creature.behavior || '—'}</span>
-                </div>
-              </div>
-
-              <!-- Header Action Buttons -->
-              <div class="detail-header-actions">
-                <button class="btn btn-secondary" id="btn-toggle-favorite" aria-pressed="${isFav}">
-                  <span id="fav-icon">${isFav ? '★' : '☆'}</span>
-                  <span id="fav-text">${isFav ? t('detail.bookmarkRemove') : t('detail.bookmarkAdd')}</span>
-                </button>
-                <a href="#/compare?a=${creature.slug}" class="btn btn-ghost" style="border: 1px solid var(--border-subtle);">
-                  <span>⚔️ ${t('nav.compare')}</span>
-                </a>
-              </div>
+              <div class="detail-overline"><span class="fine-line"></span>${escapeHtml(creature.country || creature.region)} · ${escapeHtml(creature.classification)}</div>
+              <h1 class="detail-canonical-name">${escapeHtml(displayName)}</h1>
+              ${creature.original_name ? `<p class="detail-original-script">${escapeHtml(creature.original_name)}</p>` : ''}
+              <p class="detail-short-summary">${escapeHtml(shortDesc)}</p>
+              <div class="detail-classification-heading"><span>${bi('TIGA DIMENSI LEGENDA','THREE DIMENSIONS OF LEGEND')}</span><a href="#/scales">${bi('Panduan kelas','Class guide')} ↗</a></div>
+              ${renderScaleBadges(creature, true)}
+              <dl class="detail-facts">
+                <div><dt>${bi('Tradisi','Tradition')}</dt><dd>${escapeHtml((creature.culture || '').replace(/-/g, ' '))}</dd></div>
+                <div><dt>${bi('Habitat','Habitat')}</dt><dd>${escapeHtml(creature.habitat || bi('Belum dicatat','Not recorded'))}</dd></div>
+                <div><dt>${bi('Elemen','Element')}</dt><dd>${escapeHtml(creature.element || '—')}</dd></div>
+                <div><dt>${bi('Periode','Period')}</dt><dd>${escapeHtml(creature.era || bi('Tradisi lintas zaman','A tradition across time'))}</dd></div>
+              </dl>
+              <div class="detail-header-actions"><button class="btn btn-primary" data-scroll="detail-lore">${bi('Baca kisahnya','Read the story')} ${icon('arrow',17)}</button><button class="detail-save" id="btn-toggle-favorite" aria-pressed="${isFav}"><span id="fav-icon">${isFav ? '★' : '☆'}</span><span id="fav-text">${isFav ? t('detail.bookmarkRemove') : t('detail.bookmarkAdd')}</span></button><a class="detail-compare-link" href="#/compare?a=${creature.slug}">${t('nav.compare')} ↗</a></div>
             </div>
-          </div>
-
-          <nav class="detail-toc" aria-label="${bi('Daftar isi', 'On this page')}"><button class="btn-ghost" data-scroll="detail-lore">${bi('Kisah & asal-usul','Story & origins')}</button><button class="btn-ghost" data-scroll="detail-study">${bi('Catatan belajar','Study notes')}</button><button class="btn-ghost" data-scroll="detail-sources">${bi('Sumber bacaan','Reading sources')}</button></nav>
-          <p class="archive-reading-note">${bi('Arsip ini memuat ringkasan tradisi dan interpretasi editorial. Rincian dapat berbeda menurut versi; periksa sumber untuk setiap klaim.','This archive contains summaries of traditions and editorial interpretations. Details vary between versions; consult sources for individual claims.')}</p>
-          <!-- Mode Switcher (Story Mode vs Expert Mode) -->
-          <div class="mode-switch-bar">
-            <button class="mode-btn active" id="btn-mode-story">${t('detail.storyMode')}</button>
-            <button class="mode-btn" id="btn-mode-expert">${t('detail.expertMode')}</button>
-          </div>
-
+            <figure class="detail-illustration">
+              <div class="detail-art-stage power-${profile.power || 'unknown'}"><button type="button" class="detail-preview image-preview-trigger" ${previewAttributes(artData)}><img src="${escapeHtml(imgUrl)}" alt="${escapeHtml(displayName)}" class="detail-primary-img" decoding="async" onerror="this.onerror=null;this.src='/assets/placeholders/creature-fallback.svg';"><span class="detail-zoom-mark">${icon('zoom',20)}<span>${bi('Perbesar','Zoom')}</span></span></button>${renderGildedFrame(profile.power)}</div>
+              <div class="detail-art-tools"><button type="button" class="detail-open-art" ${previewAttributes(artData)}>${icon('zoom',17)} ${bi('Lihat ilustrasi','View artwork')}</button><button type="button" class="detail-download" ${downloadAttributes(artData)}>${icon('download',17)} ${bi('Unduh gambar','Download image')}</button></div>
+              <p class="detail-download-status" role="status"></p>
+              <figcaption><span>${escapeHtml(primaryImg?.image_type || bi('Visual belum tersedia','Visual unavailable'))}</span><span>${escapeHtml(primaryImg?.author || '—')}${primaryImg?.source_url ? ` · <a href="${escapeHtml(primaryImg.source_url)}" target="_blank" rel="noopener noreferrer">${bi('Sumber asli','Original source')} ↗</a>` : ''}</span><small>${escapeHtml(primaryImg?.license || '')}</small></figcaption>
+            </figure>
+          </header>
+          <div class="detail-reading-layout">
+            <aside class="detail-reading-rail"><div class="detail-rail-inner"><span class="eyebrow">${bi('DI DALAM ARSIP','IN THIS ARCHIVE')}</span><nav class="detail-toc" aria-label="${bi('Daftar isi','On this page')}"><button data-scroll="detail-lore"><span>01</span>${bi('Kisah & asal-usul','Story & origins')}</button><button data-scroll="detail-scaling"><span>02</span>${bi('Kelas & kekuatan','Classes & powers')}</button><button data-scroll="detail-study"><span>03</span>${bi('Catatan pembaca','Reader’s notes')}</button>${creature.sources?.length ? `<button data-scroll="detail-sources"><span>04</span>${bi('Sumber bacaan','Reading sources')}</button>` : ''}</nav><p>${bi('Setiap legenda hidup dalam banyak versi. Baca bersama tradisi dan sumbernya.','Every legend lives in many versions. Read it with its traditions and sources.')}</p><span class="detail-curation-note">${escapeHtml(tierLabel)}</span></div></aside>
+            <article class="detail-reading-content">
+              <section class="detail-summary-section"><div class="eyebrow">${bi('SEKILAS TENTANGNYA','AT A GLANCE')}</div><h2>${bi('Mengenal','Meet')} ${escapeHtml(displayName)}</h2>
           <!-- Story Mode (TL;DR Cards) -->
           <div id="story-mode-container" class="story-mode-grid">
             <div class="story-card">
@@ -183,6 +124,20 @@ export async function renderCreatureDetail(container, slug) {
             <div class="story-card">
               <div class="story-card-title">${t('story.famousFor')}</div>
               <div class="story-card-body">${resolveLocalized(story.famous_for, 'Dikenal dalam cerita rakyat dan sastra klasik.')}</div>
+            </div>
+          </div>
+
+              </section>
+          <!-- Detailed Lore Block -->
+          <div class="detail-section-block" id="detail-lore">
+            <h2 class="detail-block-title">
+              <span>📜</span>
+              <span>${t('detail.lore')}</span>
+            </h2>
+            <div class="detail-prose-text">
+              ${creature.import_method === 'wikipedia-category-library' ? `<div class="source-reading-notice"><strong>${bi('Pengantar bersumber · belum dikurasi mendalam','Sourced introduction · not yet individually curated')}</strong><p>${creature.translation_status === 'english-source-only' ? bi('Uraian berikut tersedia dalam bahasa sumber (Inggris). Terjemahan lengkap Bahasa Indonesia belum tersedia.','This introduction is available in English. A full Indonesian translation is not yet available.') : bi('Uraian berasal dari edisi bahasa sumber Wikipedia; versi Indonesia dan Inggris dapat berbeda cakupan.','Text comes from Wikipedia language editions; Indonesian and English introductions may differ in coverage.')}</p></div>` : ''}
+              <p ${creature.translation_status === 'english-source-only' ? 'lang="en"' : ''}>${escapeHtml(longDesc)}</p>
+              ${creature.import_method === 'wikipedia-category-library' ? `<p class="source-text-credit">${bi('Kutipan pengantar dinormalisasi spasinya dari','Introductory extract with normalized whitespace from')} <a href="${creature.sources.find(s => s.source_name.includes(creature.translation_status === 'english-source-only' ? '(en)' : bi('(id)','(en)')))?.url || creature.sources[0].url}" target="_blank" rel="noopener noreferrer">Wikipedia · ${escapeHtml(creature.canonical_name)}</a> · Wikipedia contributors · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></p>` : ''}
             </div>
           </div>
 
@@ -236,19 +191,6 @@ export async function renderCreatureDetail(container, slug) {
             </div>
           ` : ''}
 
-          <!-- Detailed Lore Block -->
-          <div class="detail-section-block" id="detail-lore">
-            <h2 class="detail-block-title">
-              <span>📜</span>
-              <span>${t('detail.lore')}</span>
-            </h2>
-            <div class="detail-prose-text">
-              ${creature.import_method === 'wikipedia-category-library' ? `<div class="source-reading-notice"><strong>${bi('Pengantar bersumber · belum dikurasi mendalam','Sourced introduction · not yet individually curated')}</strong><p>${creature.translation_status === 'english-source-only' ? bi('Uraian berikut tersedia dalam bahasa sumber (Inggris). Terjemahan lengkap Bahasa Indonesia belum tersedia.','This introduction is available in English. A full Indonesian translation is not yet available.') : bi('Uraian berasal dari edisi bahasa sumber Wikipedia; versi Indonesia dan Inggris dapat berbeda cakupan.','Text comes from Wikipedia language editions; Indonesian and English introductions may differ in coverage.')}</p></div>` : ''}
-              <p ${creature.translation_status === 'english-source-only' ? 'lang="en"' : ''}>${escapeHtml(longDesc)}</p>
-              ${creature.import_method === 'wikipedia-category-library' ? `<p class="source-text-credit">${bi('Kutipan pengantar dinormalisasi spasinya dari','Introductory extract with normalized whitespace from')} <a href="${creature.sources.find(s => s.source_name.includes(creature.translation_status === 'english-source-only' ? '(en)' : bi('(id)','(en)')))?.url || creature.sources[0].url}" target="_blank" rel="noopener noreferrer">Wikipedia · ${escapeHtml(creature.canonical_name)}</a> · Wikipedia contributors · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></p>` : ''}
-            </div>
-          </div>
-
           <section class="detail-section-block" id="detail-study"><div class="study-notes"><div><span class="eyebrow">${bi('CATATAN PEMBACA','READER’S NOTES')}</span><h3>${bi('Membaca dengan konteks','Read with context')}</h3><p>${resolveLocalized(creature.learning_notes?.context, bi('Baca rincian kisah bersama tempat, masa, dan sumber yang mencatatnya. Variasi antarpenutur tidak selalu merupakan pertentangan.','Read story details with their place, period, and source. Differences between narrators are not necessarily contradictions.'))}</p><a class="text-link" href="#/learn?module=reading">${bi('Panduan membaca sumber','A guide to reading sources')} →</a></div><div><h3>${bi('Pertanyaan untuk ditelusuri','Questions to explore')}</h3><ul>${(creature.learning_notes?.questions || [{id:'Bagian mana yang berasal dari tradisi, dan mana yang merupakan interpretasi modern?',en:'Which details come from tradition, and which are modern interpretations?'}]).map(q=>`<li>${resolveLocalized(q)}</li>`).join('')}</ul><p style="margin-top:14px;font-size:11px">${bi('Pertanyaan reflektif editorial; bukan tambahan klaim sejarah.','Editorial reflection prompts; not additional historical claims.')}</p></div></div></section>
           <!-- Cultural Context & Sacred Nuance Block -->
           ${culturalContext ? `
@@ -270,7 +212,7 @@ export async function renderCreatureDetail(container, slug) {
                 <span>📊</span>
                 <span>${t('detail.abilityMatrix')}</span>
               </h2>
-              <div class="ability-matrix-panel">
+              <div class="ability-matrix-panel table-scroll" tabindex="0" role="region" aria-label="${bi('Tabel kemampuan', 'Ability table')}">
                 <table class="ability-matrix-table">
                   <thead>
                     <tr>
@@ -345,6 +287,7 @@ export async function renderCreatureDetail(container, slug) {
             </div>
           ` : ''}
 
+          ${renderAssessmentPanel(creature)}
           <!-- Mythics Power Profile Panel -->
           <div class="detail-section-block">
             <h2 class="detail-block-title">
@@ -371,7 +314,7 @@ export async function renderCreatureDetail(container, slug) {
 
               ${basisList.length > 0 ? `
                 <div style="font-size: 0.82rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 0.5rem;">
-                  Faktor Penurunan Profil (Deterministic Triggers):
+                  ${bi('Dasar perhitungan profil:', 'Profile calculation basis:')}
                 </div>
                 <ul class="power-basis-list">
                   ${basisList.map(item => `<li>• ${item}</li>`).join('')}
@@ -539,7 +482,7 @@ export async function renderCreatureDetail(container, slug) {
                 <span>🔍</span>
                 <span>${t('detail.claimsProvenance')}</span>
               </h2>
-              <div class="claims-panel">
+              <div class="claims-panel table-scroll" tabindex="0" role="region" aria-label="${bi('Tabel sumber klaim', 'Claim source table')}">
                 <table class="claims-table">
                   <thead>
                     <tr>
@@ -600,11 +543,13 @@ export async function renderCreatureDetail(container, slug) {
               </div>
             </div>
           ` : ''}
+            </article>
+          </div>
         </div>
       </div>
     `;
 
-    container.querySelectorAll('[data-scroll]').forEach(button => button.addEventListener('click', () => { const target = container.querySelector('#' + button.dataset.scroll); target?.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' }); }));
+    container.querySelectorAll('[data-scroll]').forEach(button => button.addEventListener('click', () => { const target = container.querySelector('#' + button.dataset.scroll); if (!target) return; target.setAttribute('tabindex', '-1'); target.focus({preventScroll:true}); target.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' }); }));
     // Mount Relationship Graph asynchronously into the container
     const graphMount = container.querySelector('#relationship-graph-mount');
     if (graphMount) {
@@ -623,34 +568,6 @@ export async function renderCreatureDetail(container, slug) {
       favText.textContent = nowFav ? t('detail.bookmarkRemove') : t('detail.bookmarkAdd');
     });
 
-    // Story vs Expert Mode toggles
-    const btnStory = container.querySelector('#btn-mode-story');
-    const btnExpert = container.querySelector('#btn-mode-expert');
-    const storyContainer = container.querySelector('#story-mode-container');
-
-    btnStory?.addEventListener('click', () => {
-      btnStory.classList.add('active');
-      btnExpert.classList.remove('active');
-      if (storyContainer) storyContainer.style.display = 'grid';
-    });
-
-    btnExpert?.addEventListener('click', () => {
-      btnExpert.classList.add('active');
-      btnStory.classList.remove('active');
-      if (storyContainer) storyContainer.style.display = 'none';
-    });
-
-    // Related creature card clicks
-    container.querySelectorAll('.creature-card').forEach(card => {
-      card.addEventListener('click', (e) => {
-        e.preventDefault();
-        const targetSlug = card.getAttribute('data-slug');
-        if (targetSlug) {
-          window.location.hash = `#/creature/${targetSlug}`;
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-      });
-    });
 
   } catch (err) {
     container.innerHTML = `

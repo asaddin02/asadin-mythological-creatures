@@ -96,13 +96,7 @@ export async function renderJournalView(container) {
     favSlot.className = 'creature-grid';
     favSlot.innerHTML = favCreatures.map(c => renderCreatureCard(c)).join('');
 
-    favSlot.querySelectorAll('.creature-card').forEach(card => {
-      card.addEventListener('click', (e) => {
-        e.preventDefault();
-        const slug = card.getAttribute('data-slug');
-        if (slug) window.location.hash = `#/creature/${slug}`;
-      });
-    });
+
 
   } catch (err) {
     favSlot.innerHTML = `<div style="color: var(--accent-crimson);">Gagal memuat favorit: ${err.message}</div>`;

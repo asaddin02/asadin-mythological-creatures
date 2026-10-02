@@ -10,7 +10,7 @@
     "seed": "node scripts/seed.mjs",
     "ingest": "node scripts/ingest-cli.mjs",
     "check": "node scripts/check-data.mjs",
-    "test": "node tests/test-all.mjs && node tests/server-policy.mjs",
+    "test": "node tests/test-all.mjs && node tests/scaling.mjs && node tests/server-policy.mjs",
     "test:ui": "node tests/browser.mjs",
     "build:site": "node scripts/build-site.mjs",
     "preview:static": "node scripts/serve-static.mjs",

@@ -2,6 +2,8 @@
 <html lang="id" data-theme="dark">
 <head>
   <meta charset="UTF-8">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#100c09">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mythics — Ensiklopedia Makhluk Mitologi & Folklor Dunia</title>
   <meta name="description" content="Mythics adalah ensiklopedia digital dwibahasa untuk mengeksplorasi makhluk mitologi, arwah legenda, naga purba, dan entitas supernatural dari seluruh peradaban dunia dengan rujukan sumber dan konteks budaya.">
@@ -22,7 +24,12 @@
 
   <!-- Manifest -->
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="icon" type="image/png" href="/assets/logo.png">
+  <link rel="icon" type="image/svg+xml" href="/assets/brand-mark.svg">
+
+  <!-- Local typefaces: no external font request. -->
+  <link rel="preload" href="/assets/fonts/cinzel-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/fonts.css">
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="/css/main.css">
@@ -30,6 +37,10 @@
   <link rel="stylesheet" href="/css/creature-detail.css">
   <link rel="stylesheet" href="/css/admin.css">
   <link rel="stylesheet" href="/css/editorial.css">
+  <link rel="stylesheet" href="/css/bestiary.css">
+  <link rel="stylesheet" href="/css/tier-frames.css">
+  <link rel="stylesheet" href="/css/gallery.css">
+  <link rel="stylesheet" href="/css/detail-editorial.css">
 </head>
 <body>
   <a class="skip-link" href="#app">Langsung ke konten / Skip to content</a>

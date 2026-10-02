@@ -10,6 +10,8 @@ export const escapeHtml = (value) =>
   );
 export const icon = (name, size = 20) => {
   const paths = {
+    download: '<path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/>',
+    zoom: '<circle cx="10" cy="10" r="7"/><path d="m15 15 6 6M10 7v6m-3-3h6"/>',
     search: '<circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/>',
     arrow: '<path d="M4 12h16m-6-6 6 6-6 6"/>',
     book: '<path d="M12 5v16m0-16C8 2 4 3 2 4v15c4-1 7-1 10 2 3-3 6-3 10-2V4c-4-1-7-1-10 1Z"/>',

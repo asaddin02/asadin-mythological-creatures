@@ -1,0 +1,100 @@
+/* Seven generated museum frames. No aura, floating particles, or reactive tilt. */
+.power-mortal { --tier-color:#bd9169;--metal-highlight:#dbc5a4;--metal-light:#ba9773;--metal-mid:#866549;--metal-deep:#493324;--art-radius:1px; }
+.power-superhuman { --tier-color:#74a8cd;--metal-highlight:#d6e2e7;--metal-light:#a3b7c3;--metal-mid:#54748c;--metal-deep:#283948;--art-radius:6px; }
+.power-monstrous { --tier-color:#b77964;--metal-highlight:#ead0b7;--metal-light:#c29377;--metal-mid:#906049;--metal-deep:#502c24;--art-radius:24px; }
+.power-regional { --tier-color:#77a88e;--metal-highlight:#deead9;--metal-light:#b2c3a1;--metal-mid:#688e71;--metal-deep:#2f4739;--art-radius:8px; }
+.power-divine { --tier-color:#cfb077;--metal-highlight:#f5e3bb;--metal-light:#d8bd88;--metal-mid:#a88850;--metal-deep:#5c4327;--art-radius:46% 46% 0 0; }
+.power-cosmic { --tier-color:#ac90c5;--metal-highlight:#e5d9ed;--metal-light:#c5b2d4;--metal-mid:#897398;--metal-deep:#45364f;--art-radius:48% 48% 0 0; }
+.power-transcendent { --tier-color:#ded0e9;--metal-highlight:#fff0db;--metal-light:#dfd3bd;--metal-mid:#a79c86;--metal-deep:#5a524c;--art-radius:48% 48% 0 0; }
+.power-unknown { --tier-color:#9b8870;--metal-highlight:#d1bea5;--metal-light:#b39b7d;--metal-mid:#79654d;--metal-deep:#433728;--art-radius:3px; }
+.frame-art { position:absolute;inset:0;z-index:3;pointer-events:none; }
+.frame-art img { display:block;width:100%;height:100%;object-fit:fill; }
+.creature-card,.creature-card:hover,.creature-card:focus-visible {
+ --frame-radius:0;position:relative;isolation:isolate;overflow:visible;border:0;border-radius:0;background:none;box-shadow:none;padding:55px 13% 80px;gap:0;color:#d3c3a8;text-decoration:none;
+}
+.creature-card::before { content:'';position:absolute;inset:8% 11% 7%;z-index:-1;background:#15110d;border-radius:var(--art-radius); }
+.creature-card:hover { transform:translateY(-3px); }
+.creature-card:focus-visible { outline:2px solid var(--metal-light);outline-offset:3px; }
+.creature-card .card-media,.featured-grid .card-media { width:100%;height:208px;margin:0;border:0;border-radius:var(--art-radius);background:#15110d;overflow:hidden; }
+.creature-card .card-media::before { display:none; }
+.creature-card .card-media::after { background:linear-gradient(0deg,#15110d,transparent 42%); }
+.creature-card .card-content { padding:0 10px;z-index:2;min-width:0; }
+.creature-card .card-content::before { margin:0 0 14px;color:var(--metal-light); }
+.creature-card .card-kicker { font-size:7px;letter-spacing:1px;margin:0 0 10px; }
+.creature-card .card-title { font-size:20px;color:var(--metal-highlight);letter-spacing:.3px;overflow-wrap:anywhere; }
+.creature-card .card-title-wrap { margin-bottom:12px;min-height:32px; }
+.creature-card .card-desc { font-size:11px;line-height:1.8;margin:0 0 16px;-webkit-line-clamp:2;min-height:40px; }
+.creature-card .card-rank { top:auto;bottom:30px;left:9px;max-width:calc(100% - 18px);font-size:7px;color:var(--metal-highlight);border-color:var(--metal-mid);background:#15100de8; }
+.creature-card .card-region { display:none; }
+.creature-card .card-art-tag { top:auto;bottom:9px;right:9px;font-size:6px; }
+.creature-card .card-bottom { margin-top:14px;padding:12px 0 0;border-top:1px solid var(--metal-deep);font-size:7px;flex-wrap:wrap;gap:8px; }
+.creature-card .card-bottom span:last-child { font-size:9px;color:var(--metal-light); }
+.creature-card.power-unknown { padding:18px 19px 24px;border:1px solid #63523c;background:#18130e;border-radius:5px; }
+.frame-art[data-frame-tier="unknown"] { border:1px solid #88715166;inset:5px;border-radius:3px; }
+.hero-art-name { color:var(--metal-highlight); }
+.hero-art-label { background:#18120feb;border:1px solid #9a794775;box-shadow:inset 0 0 0 4px #18120f,inset 0 0 0 5px #9a794735; }
+@media(max-width:600px){.creature-card { padding:58px 13% 85px; }.creature-card .card-media,.featured-grid .card-media { height:250px; }.creature-card .card-title { font-size:24px; }.creature-card .card-desc { font-size:12px; }}
+/* Power = faceted crest. Threat = pointed shield. Fear = round eye medallion. */
+.badge-code { display: inline-block; font-weight: 800; margin-right: 4px; }
+.badge-name { display: inline; }
+.creature-card .scale-badges { gap: 7px; }
+.creature-card .scale-badge { position: relative; isolation: isolate; border: 0; min-height: 125px; padding: 13px 3px 20px; gap: 8px; background: color-mix(in srgb,var(--badge-color) 70%,#2a2014); border-radius: 0; box-shadow: none; clip-path: var(--badge-shape); }
+.creature-card .scale-badge::before { content: ''; position: absolute; z-index: -1; inset: 1px; background: linear-gradient(155deg,color-mix(in srgb,var(--badge-color) 22%,#1b140d),#140f0c 66%,color-mix(in srgb,var(--badge-color) 12%,#140f0c)); clip-path: var(--badge-shape); border-radius: inherit; }
+.creature-card .badge-power { --badge-shape: polygon(17% 0,83% 0,100% 16%,100% 83%,83% 100%,17% 100%,0 83%,0 16%); }
+.creature-card .badge-threat { --badge-shape: polygon(0 0,100% 0,100% 73%,88% 85%,50% 100%,12% 85%,0 73%); }
+.creature-card .badge-fear { --badge-shape: ellipse(50% 50% at 50% 50%); padding-top: 17px; }
+.creature-card .scale-badge svg { width: 31px; height: 31px; flex-basis: 31px; }
+.creature-card .scale-badge small { font-size: 7px; letter-spacing: .9px; font-weight: 600; color: #e3d6c0; }
+.creature-card .scale-badge strong { font-size: 10px; line-height: 1.35; margin-top: 6px; }
+.creature-card .badge-code { display: block; margin: 0 0 2px; font-size: 12px; }
+.creature-card .badge-power .badge-name { display: block; margin-top: 8px; }
+.creature-card .badge-name { font-size: 9px; }
+.creature-card .is-unassessed { opacity: .7; }
+
+/* The guide shows all seven frames, including tiers without assessed creatures. */
+.power-gallery { grid-template-columns: repeat(3,minmax(0,1fr)); }
+.power-gallery .scale-level { display: flex; flex-direction: column; padding: 18px; gap: 18px; }
+.power-gallery .level-emblem { display: none; }
+.power-gallery .level-explore { align-self: flex-end; margin-top: auto; }
+.tier-preview { position: relative; width: 100%; height: 310px; isolation: isolate; overflow: hidden; }
+.tier-preview-copy { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 15px; height: 100%; position: relative; z-index: 2; background: radial-gradient(circle at 50% 42%,color-mix(in srgb,var(--aura) 14%,transparent),transparent 58%); }
+.tier-preview-copy > small { font: 8px var(--font-body); letter-spacing: 3px; color: var(--metal-light); }
+.tier-preview-copy > svg { color: var(--aura); filter: drop-shadow(0 0 10px color-mix(in srgb,var(--aura) 40%,transparent)); }
+.tier-preview-copy > strong { font: 17px var(--font-display); color: var(--metal-highlight); letter-spacing: 1px; }
+.tier-preview-copy > span { font: italic 17px var(--font-accent); color: #b7a587; }
+@media (max-width: 1100px) { .power-gallery { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media (max-width: 600px) {
+  .power-gallery { grid-template-columns: 1fr; }
+  .tier-preview { max-width: 300px; align-self: center; }
+  .creature-card .scale-badge { min-height: 132px; }
+  .creature-card .scale-badge small { font-size: 8px; }
+  .creature-card .scale-badge strong,.creature-card .badge-name { font-size: 10px; }
+}
+/* Enamel seals with legible labels, independent of the frame's Power tier. */
+.creature-card .scale-badge { min-height:125px; background:color-mix(in srgb,var(--badge-color) 52%,#7e674b); }
+.creature-card .scale-badge svg { width:27px;height:27px;flex-basis:27px; }
+.creature-card .scale-badge small { font-size:8px;letter-spacing:.6px; }
+.creature-card .badge-name { font-size:10px; }
+.creature-card .badge-power { --badge-shape:polygon(24% 0,76% 0,100% 17%,100% 83%,76% 100%,24% 100%,0 83%,0 17%); }
+.power-gallery .scale-level { padding:26px 20px 20px;overflow:visible; }
+.tier-preview { overflow:visible; margin-top:8px; }
+.tier-preview-copy { border-radius:inherit; }
+.tier-preview-copy > svg { display:none; }
+.tier-preview-copy > small { margin-top:35px; }
+/* Compact enamel class seals keep the illustration and title prominent. */
+.creature-card .scale-badges { gap:5px;margin:0; }
+.creature-card .scale-badge { min-height:86px;padding:10px 2px 12px;gap:5px; }
+.creature-card .scale-badge svg { width:19px;height:19px;flex-basis:19px; }
+.creature-card .scale-badge small { font-size:6px;letter-spacing:.6px; }
+.creature-card .scale-badge strong { margin-top:4px;line-height:1.25; }
+.creature-card .badge-name { font-size:8px; }
+.creature-card .badge-code { font-size:10px;margin-bottom:2px; }
+.creature-card .badge-power .badge-name { margin-top:4px; }
+.power-gallery .scale-level { padding:15px 15px 23px;gap:20px;background:#19140e;box-shadow:none;border:1px solid #79613b60; }
+.tier-preview { margin:0;height:auto;aspect-ratio:2/3;border:0;background:transparent;box-shadow:none;overflow:visible; }
+.tier-preview-copy { background:none;padding:25% 15%; }
+.tier-preview-copy::before { content:'';position:absolute;inset:15% 12% 8%;background:#120f0b;z-index:-1; }
+.tier-preview-copy > small { margin:0; }
+.tier-preview-copy > strong { font-size:18px; }
+.tier-preview-copy > span { font-size:15px; }
+@media(max-width:600px){.creature-card .scale-badge { min-height:93px; }.creature-card .badge-name { font-size:9px; }.creature-card .scale-badge small { font-size:7px; }.tier-preview { max-width:340px; }}

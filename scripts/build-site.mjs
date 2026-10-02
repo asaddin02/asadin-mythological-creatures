@@ -141,7 +141,7 @@ await writeFile(
   join(dist, '_headers'),
   `/*\n${Object.entries(HEADERS)
     .map(([name, value]) => `  ${name}: ${value}`)
-    .join('\n')}\n/api/*\n  Cache-Control: public, max-age=300\n`
+    .join('\n')}\n/api/*\n  Cache-Control: public, max-age=300\n/css/*\n  Cache-Control: no-cache\n/js/*\n  Cache-Control: no-cache\n/assets/ornaments/*\n  Cache-Control: no-cache\n`
 );
 await writeFile(join(dist, 'robots.txt'), 'User-agent: *\nAllow: /\n# The JSON API is for the app, not for search engines.\nDisallow: /api/\n');
 

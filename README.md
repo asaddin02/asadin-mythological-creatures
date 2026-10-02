@@ -38,10 +38,8 @@ Mythics dirancang sebagai perpaduan antara **arsip museum digital premium**, **i
 - **Backend**: Node.js 20+ ES Modules native HTTP server (tanpa *framework overhead*, kompresi gzip/brotli terintegrasi, header keamanan CSP & HSTS).
 - **Database**: Normalized In-Memory Datastore berbasis file JSON terindeks (`data/creatures.json`, `data/cultures.json`, `data/categories.json`, `data/reviews.json`, `data/ingestion-jobs.json`).
 - **Frontend**: Vanilla ES Modules JavaScript modular & Semantic HTML5 dengan Sistem Desain CSS murni berstandar modern.
-- **Tipografi**: `DM Serif Display` (judul editorial) + `DM Sans` (antarmuka dan teks bacaan).
-- **Tema Ganda**:
-  - *Dark Theme*: Midnight Museum Archive (latar obsidian dengan aksen emas kuno).
-  - *Light Theme*: Editorial Museum Catalog (latar gading dengan tipografi tinta tajam).
+- **Tipografi**: `Cinzel` (judul bergaya prasasti), `Cormorant Garamond` (aksen kaligrafis), dan `Manrope` (antarmuka), seluruhnya WOFF2 lokal.
+- **Tema Tetap**: hitam hangat dan cokelat tua, tujuh pigura hasil generate dengan material dan batu permata sesuai tier Power, tanpa efek aura.
 
 ---
 
@@ -151,7 +149,7 @@ Tanpa GitHub Actions: `SITE_URL=https://alamat-situs npm run build:site`, lalu `
 
 ## Editorial redesign · September 2026
 
-The discovery homepage now uses an editorial forest-and-copper design, custom hero artwork, selected stories, a Nusantara feature, and culture portals. Shared navigation, collections, forms, and reading surfaces support desktop and mobile layouts and light/dark themes. See [DESIGN.md](DESIGN.md) for the visual system.
+The discovery homepage uses a permanent warm dark-and-gold design, locally hosted typefaces, seven generated museum frames with gemstones and no aura effects, hero artwork, selected stories, a Nusantara feature, and culture portals. Shared navigation, collections, forms, and reading surfaces support desktop and mobile layouts. See [DESIGN.md](DESIGN.md) for the visual system.
 
 ### Learning and source context
 
@@ -173,7 +171,7 @@ npx playwright install chromium
 npm run test:ui
 ```
 
-The browser suite starts its own server on port 8098 (`UI_TEST_PORT` overrides it), exercises search, pagination, regions, favorites, quizzes, persistence, language/theme settings, modal keyboard behavior, and navigation, then checks eight routes at four viewport widths. No production build is required for the native ES module frontend.
+The browser suite starts its own server on port 8098 (`UI_TEST_PORT` overrides it), exercises search, pagination, regions, favorites, quizzes, persistence, language settings, permanent dark styling, local fonts, modal keyboard behavior, and navigation, then checks eleven routes at four viewport widths. No production build is required for the native ES module frontend.
 
 ## Bulk library expansion
 
@@ -184,3 +182,5 @@ The current library contains **1,736 entries** across **124 culture groups with 
 Imported records are **sourced introductions**, not complete scholarly dossiers. They retain Wikipedia article URLs, revision IDs, contributor credit, and CC BY-SA 4.0 licensing. Indonesian text is included only when an Indonesian source article exists; English-only introductions are visibly labeled. Missing powers, dates, habitats, and images remain unfilled. Each source identity is deduplicated by Wikidata QID, and associated works, locations, rituals, historical people, and other out-of-scope topics are excluded by an additional identity audit. Category mappings are documented, not presented as definitive cultural attribution.
 
 The encyclopedia supports content-depth filtering and compact pagination. Comparison uses the complete lightweight index, and journal favorites are fetched by slug, avoiding the former 100-record limit. Missing power assessments display a dash rather than zero. See the generated import report for the actual accepted count and exclusions.
+
+Clicking a card or its image opens the creature detail. Only the detail page provides illustration preview with zoom, pinch, pan, and fit-to-screen, plus downloads from both the detail and viewer. The comparison page supports searchable creature selectors and separate Power, Threat, and Fear comparisons, with the chosen pair preserved in the URL.

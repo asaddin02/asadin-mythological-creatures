@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=DM+Serif+Display:ital@0;1&display=swap");
 :root {
-  --font-display: "DM Serif Display", Georgia, serif;
-  --font-body: "DM Sans", system-ui, sans-serif;
+  --font-display: "Cinzel", Georgia, serif;
+  --font-body: "Manrope", system-ui, sans-serif;
   --max-width: 1240px;
   --radius-lg: 10px;
   --radius-xl: 14px;
@@ -32,26 +31,6 @@
   --accent-crimson: #d99383;
   --accent-emerald: #aec4a0;
   --accent-purple: #b0a0ba;
-}
-[data-theme="light"] {
-  --bg-primary: #f6f3eb;
-  --bg-secondary: #eeeade;
-  --bg-tertiary: #e7e2d6;
-  --bg-surface: #fffcf5;
-  --bg-card: #faf7ef;
-  --bg-card-hover: #fffdf6;
-  --bg-glass: rgba(246, 243, 235, 0.95);
-  --text-primary: #242b23;
-  --text-secondary: #555e50;
-  --text-muted: #666d5e;
-  --gold-300: #876437;
-  --gold-400: #71542f;
-  --gold-500: #805e32;
-  --gold-600: #6e4d25;
-  --border-subtle: #d8d7c8;
-  --border-medium: #babdab;
-  --border-glow: #ac9977;
-  --shadow-gold: none;
 }
 body {
   font-size: 14px;
@@ -558,7 +537,7 @@ button:disabled {
   overflow: hidden;
 }
 .nusantara-art {
-  background: url("/assets/art/barong-editorial.webp") center 40% / cover;
+  background: #20160e;
   min-height: 350px;
   position: relative;
 }

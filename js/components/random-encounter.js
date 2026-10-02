@@ -3,6 +3,7 @@
  * Mysterious, immersive encounter reveal with cultural filtering.
  */
 
+import { editorialArt } from '../ui.js';
 import { api } from '../api-client.js';
 import { t, resolveLocalized } from '../i18n.js';
 import { gamification } from './gamification.js';
@@ -90,18 +91,18 @@ export function openRandomEncounterModal(preferredCulture = null) {
 
       const displayName = resolveLocalized(creature.display_name, creature.canonical_name);
       const shortDesc = resolveLocalized(creature.short_description, '');
-      const primaryImg = creature.images?.[0]?.thumbnail_url || '/assets/placeholders/creature-fallback.svg';
+      const primaryImg = editorialArt(creature.slug) || creature.images?.[0]?.thumbnail_url || '/assets/placeholders/creature-fallback.svg';
 
       slot.innerHTML = `
         <div style="text-align: center; width: 100%;">
-          <div style="width: 140px; height: 140px; margin: 0 auto 1.25rem; border-radius: var(--radius-full); overflow: hidden; border: 2px solid var(--border-glow); box-shadow: var(--shadow-gold);">
+          <button type="button" id="random-art-detail" aria-label="${displayName}" style="width: 140px; height: 140px; margin: 0 auto 1.25rem; border-radius: var(--radius-full); overflow: hidden; border: 2px solid var(--border-glow); box-shadow: var(--shadow-gold);">
             <img 
               src="${primaryImg}" 
               alt="${displayName}" 
               style="width: 100%; height: 100%; object-fit: cover;"
               onerror="this.onerror=null; this.src='/assets/placeholders/creature-fallback.svg';"
             />
-          </div>
+          </button>
           <h3 style="font-family: var(--font-display); font-size: 1.8rem; margin-bottom: 0.25rem; color: var(--gold-500);">
             ${displayName}
           </h3>
@@ -116,10 +117,12 @@ export function openRandomEncounterModal(preferredCulture = null) {
       `;
 
       inspectBtn.style.display = 'inline-flex';
-      inspectBtn.onclick = () => {
+      const inspect = () => {
         close();
         window.location.hash = `#/creature/${creature.slug}`;
       };
+      inspectBtn.onclick = inspect;
+      slot.querySelector('#random-art-detail').onclick = inspect;
     } catch (err) {
       slot.innerHTML = `
         <div style="text-align: center; color: var(--text-muted);">

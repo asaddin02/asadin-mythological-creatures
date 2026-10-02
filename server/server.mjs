@@ -46,6 +46,7 @@ const MIME = {
   '.jpg': 'image/jpeg',
   '.jpeg': 'image/jpeg',
   '.webp': 'image/webp',
+  '.woff2': 'font/woff2',
   '.ico': 'image/x-icon',
   '.webmanifest': 'application/manifest+json; charset=utf-8',
   '.txt': 'text/plain; charset=utf-8'
@@ -71,7 +72,8 @@ async function serveFile(req, res, filePath, contentType) {
     const headers = {
       ...SECURITY_HEADERS,
       'Content-Type': contentType,
-      'Cache-Control': filePath.endsWith('index.html') ? 'no-cache' : 'public, max-age=3600'
+      // Unversioned application files must revalidate after a UI update.
+      'Cache-Control': /\.(html|css|js|svg)$/.test(filePath) ? 'no-cache' : 'public, max-age=3600'
     };
 
     const acceptEncoding = req.headers['accept-encoding'] || '';

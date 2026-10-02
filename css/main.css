@@ -7,7 +7,7 @@
 :root {
   /* Fonts */
   --font-display: 'Cinzel', Georgia, serif;
-  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-body: 'Manrope', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
 
   /* Global Geometry */
@@ -63,44 +63,6 @@
   --shadow-gold: 0 4px 20px rgba(212, 175, 55, 0.15);
 
   --filter-invert: 0;
-}
-
-/* ==================== LIGHT THEME (Editorial Museum Catalog) ==================== */
-[data-theme="light"] {
-  --bg-primary: #f9f9fb;
-  --bg-secondary: #f0f2f5;
-  --bg-tertiary: #e4e7ec;
-  --bg-surface: #ffffff;
-  --bg-card: rgba(255, 255, 255, 0.9);
-  --bg-card-hover: #ffffff;
-  --bg-glass: rgba(249, 249, 251, 0.9);
-
-  --border-subtle: rgba(0, 0, 0, 0.08);
-  --border-medium: rgba(0, 0, 0, 0.14);
-  --border-glow: rgba(180, 140, 30, 0.35);
-
-  --text-primary: #0f172a;
-  --text-secondary: #334155;
-  --text-muted: #64748b;
-  --text-inverse: #ffffff;
-
-  --gold-300: #b48c1e;
-  --gold-400: #937322;
-  --gold-500: #7d5e16;
-  --gold-600: #5f450f;
-  --gold-glow: rgba(180, 140, 30, 0.15);
-
-  --accent-cyan: #0284c7;
-  --accent-crimson: #e11d48;
-  --accent-emerald: #059669;
-  --accent-purple: #7c3aed;
-
-  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.06);
-  --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.08);
-  --shadow-lg: 0 12px 30px rgba(0, 0, 0, 0.12);
-  --shadow-gold: 0 4px 16px rgba(180, 140, 30, 0.12);
-
-  --filter-invert: 1;
 }
 
 /* Base Reset */

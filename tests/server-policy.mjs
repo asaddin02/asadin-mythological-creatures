@@ -40,6 +40,8 @@ try {
   const base = `http://127.0.0.1:${BASE_PORT}`;
   for (const path of ['/', '/index.html', '/css/main.css', '/js/app.js', '/manifest.webmanifest', '/assets/logo.png'])
     assert.equal(await status(base + path), 200, `public file ${path}`);
+  for (const path of ['/css/tier-frames.css', '/js/components/image-viewer.js', '/assets/ornaments/tiers/divine-crest.svg'])
+    assert.equal((await fetch(base + path)).headers.get('cache-control'), 'no-cache', `UI updates revalidate ${path}`);
   for (const path of ['/package.json', '/server/api.mjs', '/scripts/ingest-cli.mjs', '/data/creatures.json', '/data/import/report.json', '/tests/test-all.mjs'])
     assert.equal(await status(base + path), 404, `private file ${path}`);
   assert.equal(await status(`${base}/api/creatures/garuda`), 200);

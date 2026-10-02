@@ -1,3 +1,4 @@
+import { getAssessment, SCALES } from './scaling.js';
 /**
  * Mythics Query Engine
  * Pure read-only queries over the library data, shared by the Node server (server/db.mjs),
@@ -48,6 +49,12 @@ export function queryCreatures(data, options = {}) {
 
   if (tier === 'core') results = results.filter(c => c.content_tier === 'core');
   if (tier === 'rich') results = results.filter(c => c.content_tier !== 'core');
+
+  for (const axis of ['power', 'threat', 'fear']) {
+    const selected = options[axis];
+    if (selected && selected !== 'all') results = results.filter(c =>
+      selected === 'unassessed' ? !getAssessment(c)[axis] : getAssessment(c)[axis] === selected);
+  }
 
   // Filter culture
   if (culture && culture !== 'all') {
@@ -136,8 +143,8 @@ export function queryCreatures(data, options = {}) {
     results.sort((a, b) => (b.completeness_score || 0) - (a.completeness_score || 0));
   } else if (sort === 'power') {
     results.sort((a, b) => {
-      const pA = a.power_profile?.dimensions?.supernatural || 0;
-      const pB = b.power_profile?.dimensions?.supernatural || 0;
+      const pA = SCALES.power.findIndex(level => level.id === getAssessment(a).power);
+      const pB = SCALES.power.findIndex(level => level.id === getAssessment(b).power);
       return pB - pA;
     });
   }

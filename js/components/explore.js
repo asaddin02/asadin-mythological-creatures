@@ -3,6 +3,7 @@
  * Multi-faceted search and filtering interface with URL synchronization.
  */
 
+import { SCALES } from '../scaling.js';
 import { bi, escapeHtml } from '../ui.js';
 import { api } from '../api-client.js';
 import { t, resolveLocalized } from '../i18n.js';
@@ -12,9 +13,9 @@ export async function renderExploreView(container, initialParams = {}) {
   container.innerHTML = `
     <div class="container" style="padding: 2.5rem 1.5rem 5rem;">
       <div class="section-header">
-        <span class="section-badge">${t('explore.title')}</span>
+        <span class="section-badge">THE LIVING BESTIARY</span>
         <h1 class="section-title">${t('explore.title')}</h1>
-        <p class="section-subtitle">${t('explore.subtitle')}</p>
+        <p class="section-subtitle">${bi('Temukan legenda. Baca kekuatannya. Kenali apa yang bersembunyi di balik mitos.', 'Discover legends. Read their power. Uncover what lies behind the myth.')}</p><a class="text-link" href="#/scales">${bi('Panduan Power · Threat · Fear', 'Power · Threat · Fear guide')} ↗</a>
       </div>
 
       <div class="library-overview" id="library-overview" aria-live="polite"></div>
@@ -34,6 +35,7 @@ export async function renderExploreView(container, initialParams = {}) {
           />
         </div>
 
+        <div class="scaling-filter-row">${Object.entries(SCALES).map(([axis, levels]) => `<label><span>${axis.toUpperCase()}</span><select class="filter-select" id="filter-${axis}"><option value="all">${bi('Semua kelas', 'All classes')}</option>${levels.map(level => `<option value="${level.id}">${axis === 'power' ? '' : level.id.toUpperCase() + ' · '}${level.name}</option>`).join('')}<option value="unassessed">${bi('Belum dinilai', 'Unassessed')}</option></select></label>`).join('')}</div>
         <div class="filters-row">
           <!-- Culture Filter -->
           <select id="filter-culture" aria-label="Tradisi budaya / Culture" class="filter-select">
@@ -110,6 +112,12 @@ export async function renderExploreView(container, initialParams = {}) {
   const tierSelect = container.querySelector('#filter-tier');
   tierSelect.value = initialParams.tier || 'all';
   tierSelect.addEventListener('change', () => loadResults(1));
+  const scaleSelects = Object.keys(SCALES).map(axis => {
+    const select = container.querySelector(`#filter-${axis}`);
+    select.value = SCALES[axis].some(level => level.id === initialParams[axis]) || initialParams[axis] === 'unassessed' ? initialParams[axis] : 'all';
+    select.addEventListener('change', () => loadResults(1));
+    return [axis, select];
+  });
   const grid = container.querySelector('#explore-creature-grid');
   const countSpan = container.querySelector('#explore-results-count');
   const clearBtn = container.querySelector('#btn-clear-filters');
@@ -148,6 +156,7 @@ export async function renderExploreView(container, initialParams = {}) {
   async function loadResults(page = 1) {
     const request = ++requestVersion;
     const params = {
+      ...Object.fromEntries(scaleSelects.map(([axis, select]) => [axis, select.value])),
       tier: tierSelect.value,
       q: searchInput.value.trim(),
       region: initialParams.region || '',
@@ -248,6 +257,7 @@ export async function renderExploreView(container, initialParams = {}) {
 
   function resetFilters() {
     initialParams.region = '';
+    scaleSelects.forEach(([, select]) => { select.value = 'all'; });
     tierSelect.value = 'all';
     searchInput.value = '';
     cultureSelect.value = 'all';

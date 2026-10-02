@@ -3,19 +3,12 @@
  * Routing, view lifecycle management, and global event coordination.
  */
 
+import { initImageViewer } from './components/image-viewer.js';
+import { renderScalingGuide } from './components/scaling-guide.js';
 import { bi, icon } from './ui.js';
-import { renderLearnView } from './components/learn-view.js';
 import { initI18n, t } from './i18n.js';
 import { renderNavbar } from './components/navbar.js';
 import { renderHomeView } from './components/home-view.js';
-import { renderExploreView } from './components/explore.js';
-import { renderCreatureDetail } from './components/creature-detail.js';
-import { renderCulturesView } from './components/cultures-view.js';
-import { renderCultureDetailView } from './components/culture-detail-view.js';
-import { renderRegionsView } from './components/regions-view.js';
-import { renderComparisonView } from './components/comparison.js';
-import { renderJournalView } from './components/journal.js';
-import { renderAdminDashboard } from './components/admin-dashboard.js';
 import { openRandomEncounterModal } from './components/random-encounter.js';
 import { adminEnabled } from './api-client.js';
 
@@ -27,12 +20,15 @@ class App {
   }
 
   init() {
-    // 1. Initialize Theme from storage
-    const savedTheme = localStorage.getItem('mythics_theme') || 'dark';
-    document.documentElement.setAttribute('data-theme', savedTheme);
+    // A single, permanent dark identity, including visitors with a saved legacy light theme.
+    document.documentElement.dataset.theme = 'dark';
+    localStorage.removeItem('mythics_theme');
+
+    localStorage.removeItem('mythics_aura');
 
     // 2. Initialize i18n
     initI18n();
+    initImageViewer();
 
     // 3. Render Persistent Chrome (Navbar & Footer)
     this.renderChrome();
@@ -59,7 +55,7 @@ class App {
             <div class="footer-grid">
               <div class="footer-brand">
                 <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
-                  <img src="/assets/logo.png" alt="Mythics Logo" class="footer-logo-img">
+                  <span class="footer-emblem" aria-hidden="true">${icon('compass', 30)}</span>
                   <span style="font-family: var(--font-display); font-size: 1.4rem; font-weight: 800; color: var(--gold-500); letter-spacing: 0.15em;">MYTHICS</span>
                 </div>
                 <p class="footer-desc">${t('footer.aboutText')}</p>
@@ -70,7 +66,7 @@ class App {
                 <h4 class="footer-col-title">${t('footer.quickLinks')}</h4>
                 <ul class="footer-links">
                   <li><a href="#/explore">${t('nav.explore')}</a></li>
-                  <li><a href="#/cultures">${t('nav.cultures')}</a></li>
+                  <li><a href="#/cultures">${t('nav.cultures')}</a></li><li><a href="#/scales">${bi('Panduan Kelas', 'Class Guide')}</a></li>
                   <li><a href="#/compare">${t('nav.compare')}</a></li>
                   <li><a href="#/journal">${t('nav.journal')}</a></li>
                   ${adminEnabled ? `<li><a href="#/admin">${t('nav.admin')}</a></li>` : ''}
@@ -126,12 +122,22 @@ class App {
     const creatureMatch = path.match(/^\/creature\/([a-zA-Z0-9_-]+)$/);
     if (creatureMatch) {
       const slug = creatureMatch[1];
+      const { renderCreatureDetail } = await import('./components/creature-detail.js');
+      if (!routeContainer.isConnected) return;
       await renderCreatureDetail(routeContainer, slug);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (routeContainer.isConnected) window.scrollTo({ top: 0, behavior: 'instant' });
+      return;
+    }
+
+    if (path === '/scales') {
+      renderScalingGuide(routeContainer, params);
+      window.scrollTo({ top: 0, behavior: 'instant' });
       return;
     }
 
     if (path === '/learn') {
+      const { renderLearnView } = await import('./components/learn-view.js');
+      if (!routeContainer.isConnected) return;
       renderLearnView(routeContainer, params);
       window.scrollTo({ top: 0, behavior: 'instant' });
       return;
@@ -139,15 +145,19 @@ class App {
 
     // Explore Route: /explore
     if (path === '/explore') {
+      const { renderExploreView } = await import('./components/explore.js');
+      if (!routeContainer.isConnected) return;
       await renderExploreView(routeContainer, params);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (routeContainer.isConnected) window.scrollTo({ top: 0, behavior: 'instant' });
       return;
     }
 
     // Cultures Route: /cultures
     if (path === '/cultures') {
+      const { renderCulturesView } = await import('./components/cultures-view.js');
+      if (!routeContainer.isConnected) return;
       await renderCulturesView(routeContainer);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (routeContainer.isConnected) window.scrollTo({ top: 0, behavior: 'instant' });
       return;
     }
 
@@ -155,15 +165,19 @@ class App {
     const cultureMatch = path.match(/^\/culture\/([a-zA-Z0-9_-]+)$/);
     if (cultureMatch) {
       const cultureId = cultureMatch[1];
+      const { renderCultureDetailView } = await import('./components/culture-detail-view.js');
+      if (!routeContainer.isConnected) return;
       await renderCultureDetailView(routeContainer, cultureId);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (routeContainer.isConnected) window.scrollTo({ top: 0, behavior: 'instant' });
       return;
     }
 
     // Regions Route: /regions
     if (path === '/regions') {
+      const { renderRegionsView } = await import('./components/regions-view.js');
+      if (!routeContainer.isConnected) return;
       await renderRegionsView(routeContainer);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (routeContainer.isConnected) window.scrollTo({ top: 0, behavior: 'instant' });
       return;
     }
 
@@ -171,35 +185,43 @@ class App {
     const regionMatch = path.match(/^\/region\/([a-zA-Z0-9_-]+)$/);
     if (regionMatch) {
       const regId = regionMatch[1];
+      const { renderExploreView } = await import('./components/explore.js');
+      if (!routeContainer.isConnected) return;
       await renderExploreView(routeContainer, { region: regId });
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (routeContainer.isConnected) window.scrollTo({ top: 0, behavior: 'instant' });
       return;
     }
 
     // Compare Route: /compare
     if (path === '/compare') {
-      await renderComparisonView(routeContainer, params.a || 'garuda', params.b || 'minotaur');
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      const { renderComparisonView } = await import('./components/comparison.js');
+      if (!routeContainer.isConnected) return;
+      await renderComparisonView(routeContainer, params.a || 'garuda', params.b || 'kitsune');
+      if (routeContainer.isConnected) window.scrollTo({ top: 0, behavior: 'instant' });
       return;
     }
 
     // Journal Route: /journal
     if (path === '/journal') {
+      const { renderJournalView } = await import('./components/journal.js');
+      if (!routeContainer.isConnected) return;
       await renderJournalView(routeContainer);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (routeContainer.isConnected) window.scrollTo({ top: 0, behavior: 'instant' });
       return;
     }
 
     // Admin Route: /admin (only when the local server enables the editorial console)
     if (path === '/admin' && adminEnabled) {
+      const { renderAdminDashboard } = await import('./components/admin-dashboard.js');
+      if (!routeContainer.isConnected) return;
       await renderAdminDashboard(routeContainer);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (routeContainer.isConnected) window.scrollTo({ top: 0, behavior: 'instant' });
       return;
     }
 
     // Default: Home
     await renderHomeView(routeContainer);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (routeContainer.isConnected) window.scrollTo({ top: 0, behavior: 'instant' });
   }
 }
 

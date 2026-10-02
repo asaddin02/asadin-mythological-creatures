@@ -60,6 +60,11 @@ const cases = [
   { sort: 'power', limit: '24' },
   { sort: 'completeness', classification: 'dragon' },
   { trait: 'flight' },
+  { power: 'divine' },
+  { power: 'cosmic', threat: 't6', fear: 'f4' },
+  { threat: 'unassessed', sort: 'power' },
+  { fear: 'f3', page: '2', limit: '3' },
+  { power: 'transcendent' },
 ];
 for (const params of cases) {
   const server = queryCreatures(params);
