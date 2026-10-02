@@ -1,6 +1,6 @@
 # Review batch-133
 
-Diperiksa 2026-10-02T04:59:21.450Z. Berkas: batch-133.md.
+Diperiksa 2026-10-02T05:13:43.547Z. Berkas: batch-133.md.
 
 ## bitru — lulus-otomatis
 
@@ -402,22 +402,15 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 | dimoni-cucarell-c03 | exact | ca.wikipedia.org | The Alcover-Moll dictionary defines it as a class of demon people have no clear idea of, but not confused with the great devil or the dimonis boiets; in Menorca it is called the dimoni serenell. | certa classe de dimonis de la qual la gent no té idea clara, però que no es confon ni amb el dimoni gros ni amb els dimonis boiets. A Menorca en diuen el dimoni serenell. |
 
 
-## drac-de-banyoles — lulus-otomatis
+## drac-de-banyoles — skip
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
+Klaim 0 (), sumber 0, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `skip` Diusulkan dilewati: Duplikat: naga danau Banyoles yang sama dengan entri banyoles-monster; isi artikel ca Drac de Banyoles sudah digabung ke banyoles-monster (batch-132) sebagai sumber kedua. (https://ca.wikipedia.org/wiki/Drac_de_Banyoles).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| drac-de-banyoles-c01 | exact | ca.wikipedia.org | The Drac de Banyoles is a mythological being of Catalan folk imagination; its legend, set in the 8th century, tells of a terrible dragon that terrorised the people of Banyoles and that even Charlemagne could not kill. | El Drac de Banyoles és un ésser mitològic propi de l'imaginari popular català. La llegenda, ambientada al segle viii, parla d'un drac terrible que tenia atemorits els habitants de Banyoles i al qual ni tan sols el mateix Carlemany va poder matar. |
-| drac-de-banyoles-c02 | exact | ca.wikipedia.org | The nightmare ended only when Sant Mer tamed the dragon and led it into town, where the citizens killed it. | El malson dels banyolins no es va acabar fins que Sant Mer va pacificar el drac i el va portar a la vila, on els ciutadans el van matar |
-| drac-de-banyoles-c03 | exact | ca.wikipedia.org | The huge, fierce dragon had its lair in the lake of Banyoles, in the cave of La Draga. | el drac, enorme i ferotge, tenia el cau a l'estany de Banyoles, concretament, a la cova de la Draga |
-| drac-de-banyoles-c04 | exact | ca.wikipedia.org | It could fly, swim and walk, its fetid breath polluted the whole Gironès, and it devoured many animals and people. | Podia volar, nedar i caminar i amb el seu alè fètid infestava tot el Gironès. Era el terror de la zona i es menjava molts animals i persones |
-| drac-de-banyoles-c05 | exact | ca.wikipedia.org | The legend closely resembles that of the Tarasque of Tarascon. | Com es pot comprovar, la llegenda té una gran similitud amb la de la Tarasca de Tarascó |
-| drac-de-banyoles-c06 | exact | ca.wikipedia.org | Charlemagne attacked the dragon with his legendary sword Joyeuse, which could never be defeated in battle, but the sword shattered into a thousand pieces without piercing its hard scales. | Carlemany va atacar el drac brandant la seva mítica espasa Joyeuse, que tenia el do de no poder ser vençuda mai en batalla. Tanmateix, en intentar ferir el monstre, l'espasa es va trencar en mil bocins sense poder traspassar les seves dures escates. |
-| drac-de-banyoles-c07 | exact | ca.wikipedia.org | The dragon has become an icon of Banyoles, used by many of the town's sports clubs in their emblems. | La figura del drac ha esdevingut una icona de Banyoles i nombroses entitats esportives de la ciutat |
 
 
 ## drac-de-beaucaire — lulus-otomatis

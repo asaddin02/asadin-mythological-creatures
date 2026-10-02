@@ -1,6 +1,6 @@
 {
   "batch_id": "batch-133",
-  "checked_at": "2026-10-02T04:59:21.450Z",
+  "checked_at": "2026-10-02T05:13:43.547Z",
   "files": [
     "batch-133.md"
   ],
@@ -1670,91 +1670,20 @@
     {
       "slug": "drac-de-banyoles",
       "file": "batch-133.md",
-      "verdict": "lulus-otomatis",
+      "verdict": "skip",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 0,
+        "sources": 0,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "skip",
+          "message": "Diusulkan dilewati: Duplikat: naga danau Banyoles yang sama dengan entri banyoles-monster; isi artikel ca Drac de Banyoles sudah digabung ke banyoles-monster (batch-132) sebagai sumber kedua. (https://ca.wikipedia.org/wiki/Drac_de_Banyoles)."
         }
       ],
-      "claims": [
-        {
-          "id": "drac-de-banyoles-c01",
-          "source_id": "drac-de-banyoles-s1",
-          "host": "ca.wikipedia.org",
-          "statement": "The Drac de Banyoles is a mythological being of Catalan folk imagination; its legend, set in the 8th century, tells of a terrible dragon that terrorised the people of Banyoles and that even Charlemagne could not kill.",
-          "statement_id": "Drac de Banyoles adalah makhluk mitologis imajinasi rakyat Katalan; legenda berlatar abad ke-8 ini menceritakan naga mengerikan yang meneror penduduk Banyoles dan bahkan tidak dapat dibunuh Charlemagne.",
-          "quote": "El Drac de Banyoles és un ésser mitològic propi de l'imaginari popular català. La llegenda, ambientada al segle viii, parla d'un drac terrible que tenia atemorits els habitants de Banyoles i al qual ni tan sols el mateix Carlemany va poder matar.",
-          "context": "traditional-belief",
-          "status": "exact"
-        },
-        {
-          "id": "drac-de-banyoles-c02",
-          "source_id": "drac-de-banyoles-s1",
-          "host": "ca.wikipedia.org",
-          "statement": "The nightmare ended only when Sant Mer tamed the dragon and led it into town, where the citizens killed it.",
-          "statement_id": "Mimpi buruk warga Banyoles baru berakhir ketika Sant Mer menjinakkan naga itu dan membawanya ke kota, tempat warga membunuhnya.",
-          "quote": "El malson dels banyolins no es va acabar fins que Sant Mer va pacificar el drac i el va portar a la vila, on els ciutadans el van matar",
-          "context": "traditional-belief",
-          "status": "exact"
-        },
-        {
-          "id": "drac-de-banyoles-c03",
-          "source_id": "drac-de-banyoles-s1",
-          "host": "ca.wikipedia.org",
-          "statement": "The huge, fierce dragon had its lair in the lake of Banyoles, in the cave of La Draga.",
-          "statement_id": "Naga yang besar dan buas itu bersarang di danau Banyoles, tepatnya di gua La Draga.",
-          "quote": "el drac, enorme i ferotge, tenia el cau a l'estany de Banyoles, concretament, a la cova de la Draga",
-          "context": "traditional-belief",
-          "status": "exact"
-        },
-        {
-          "id": "drac-de-banyoles-c04",
-          "source_id": "drac-de-banyoles-s1",
-          "host": "ca.wikipedia.org",
-          "statement": "It could fly, swim and walk, its fetid breath polluted the whole Gironès, and it devoured many animals and people.",
-          "statement_id": "Ia dapat terbang, berenang, dan berjalan, napasnya yang busuk mencemari seluruh Gironès, dan ia memangsa banyak hewan dan manusia.",
-          "quote": "Podia volar, nedar i caminar i amb el seu alè fètid infestava tot el Gironès. Era el terror de la zona i es menjava molts animals i persones",
-          "context": "traditional-belief",
-          "status": "exact"
-        },
-        {
-          "id": "drac-de-banyoles-c05",
-          "source_id": "drac-de-banyoles-s1",
-          "host": "ca.wikipedia.org",
-          "statement": "The legend closely resembles that of the Tarasque of Tarascon.",
-          "statement_id": "Legenda ini sangat mirip legenda Tarasque dari Tarascon.",
-          "quote": "Com es pot comprovar, la llegenda té una gran similitud amb la de la Tarasca de Tarascó",
-          "context": "scholarly-interpretation",
-          "status": "exact"
-        },
-        {
-          "id": "drac-de-banyoles-c06",
-          "source_id": "drac-de-banyoles-s1",
-          "host": "ca.wikipedia.org",
-          "statement": "Charlemagne attacked the dragon with his legendary sword Joyeuse, which could never be defeated in battle, but the sword shattered into a thousand pieces without piercing its hard scales.",
-          "statement_id": "Charlemagne menyerang naga itu dengan pedang mitisnya Joyeuse yang tak terkalahkan, tetapi pedang itu hancur berkeping-keping tanpa menembus sisik kerasnya.",
-          "quote": "Carlemany va atacar el drac brandant la seva mítica espasa Joyeuse, que tenia el do de no poder ser vençuda mai en batalla. Tanmateix, en intentar ferir el monstre, l'espasa es va trencar en mil bocins sense poder traspassar les seves dures escates.",
-          "context": "traditional-belief",
-          "status": "exact"
-        },
-        {
-          "id": "drac-de-banyoles-c07",
-          "source_id": "drac-de-banyoles-s1",
-          "host": "ca.wikipedia.org",
-          "statement": "The dragon has become an icon of Banyoles, used by many of the town's sports clubs in their emblems.",
-          "statement_id": "Sosok naga ini menjadi ikon Banyoles dan dipakai banyak klub olahraga kota itu pada lambang mereka.",
-          "quote": "La figura del drac ha esdevingut una icona de Banyoles i nombroses entitats esportives de la ciutat",
-          "context": "modern-popular-culture",
-          "status": "exact"
-        }
-      ],
+      "claims": [],
       "images": []
     },
     {
