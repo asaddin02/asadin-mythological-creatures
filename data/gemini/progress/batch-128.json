@@ -1,12 +1,14 @@
 {
-  "status": "ditolak",
+  "status": "dikerjakan",
+  "oleh": "claude",
+  "mulai": "2026-10-02T10:07:58.136Z",
+  "selesai": null,
   "putaran": 1,
   "entri": 48,
-  "lulus": 48,
+  "lulus": 47,
   "skip": 0,
-  "perlu_manusia": [],
-  "oleh": "gemini",
-  "mulai": "2026-10-01T07:36:01.264Z",
-  "selesai": "2026-10-01T07:36:37.573Z",
-  "catatan": "Tinjauan 2 Okt: dibuat skrip (1 klaim cetakan/entri atau teks tanpa kutipan). Diulang oleh claude."
+  "perlu_manusia": [
+    "azure-jay"
+  ],
+  "catatan": "Serah terima 2 Okt 2026: Claude menulis ulang semua 48 entri, lalu kehabisan kuota sebelum memperbaiki hasil verifier/finalisasi. Codex menyimpan WIP atas permintaan pengguna; verifikasi ulang menghasilkan 47 lulus otomatis, azure-jay gagal karena skip hanya boleh untuk task new (manifest: enrich), dan tartalo-c12 belum dirujuk teks. Jangan jalankan gemini:done sebelum tindak lanjut. Versi Gemini sebelumnya ditolak; progres lama 48 lulus bukan hasil versi Claude. Lihat docs/HANDOFF-2026-10-02.md."
 }

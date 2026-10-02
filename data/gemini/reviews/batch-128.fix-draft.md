@@ -4,5 +4,8 @@ Pemeriksaan menemukan masalah di bawah. Perbaiki semuanya, lalu kirim ulang **en
 
 Kalau kutipan tidak ditemukan, jangan mengubahnya supaya terlihat cocok. Buka lagi halamannya dan salin teks yang benar-benar ada, atau hapus klaim itu beserta teks yang bergantung padanya.
 
-## succubus
-- `long_description`: Tingkat rich sebaiknya 2–6 paragraf.
+## azure-jay
+- `skip`: skip hanya boleh untuk task "new".
+
+## tartalo
+- `claims (tartalo-c12)`: Klaim ini tidak dirujuk bagian teks mana pun.
