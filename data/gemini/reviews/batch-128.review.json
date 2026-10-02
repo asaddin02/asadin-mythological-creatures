@@ -1,8 +1,9 @@
 {
   "batch_id": "batch-128",
-  "checked_at": "2026-10-02T11:32:25.633Z",
+  "checked_at": "2026-10-02T14:26:22.983Z",
   "files": [
-    "batch-128.md"
+    "batch-128.md",
+    "batch-128-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -873,26 +874,86 @@
     },
     {
       "slug": "azure-jay",
-      "file": "batch-128.md",
-      "verdict": "perlu-perbaikan",
+      "file": "batch-128-fix-1.md",
+      "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 0,
-        "sources": 0,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
+      "issues": [],
+      "claims": [
         {
-          "level": "error",
-          "where": "skip",
-          "message": "skip hanya boleh untuk task \"new\"."
+          "id": "azure-jay-c01",
+          "source_id": "azure-jay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The azure jay (Cyanocorax coeruleus; Brazilian Portuguese gralha-azul) is a Near Threatened passerine species of the family Corvidae, the crows and jays.",
+          "statement_id": "Gralha-azul (Cyanocorax coeruleus; bahasa Portugis Brasil: gralha-azul) adalah spesies burung pengicau berstatus hampir terancam dari famili Corvidae (gagak dan jay).",
+          "quote": "The azure jay (Cyanocorax coeruleus) (Brazilian Portuguese: gralha-azul) is a Near Threatened species of passeriform bird in the family Corvidae, the crows and jays.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         },
         {
-          "level": "manual",
-          "where": "skip",
-          "message": "Diusulkan dilewati: Bukan makhluk mitologi dalam sumber yang dibaca: artikel en, de, dan ja hanya membahas burung nyata Cyanocorax caeruleus (gralha-azul); legenda Gralha Azul hanya muncul sebagai tautan luar. (https://en.wikipedia.org/wiki/Azure_jay)."
+          "id": "azure-jay-c02",
+          "source_id": "azure-jay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It appears to feed heavily on Araucaria angustifolia seeds and plays an important role in their dispersal.",
+          "statement_id": "Burung ini tampaknya banyak memakan biji Araucaria angustifolia dan berperan penting dalam penyebaran bijinya.",
+          "quote": "However, it appears to feed heavily on Araucaria angustifolia seeds, and plays an important role in its seed dispersal.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "azure-jay-c03",
+          "source_id": "azure-jay-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Brazil the azure jay is found from southern São Paulo south through Paraná, Santa Catarina and Rio Grande do Sul almost to Uruguay.",
+          "statement_id": "Di Brasil, gralha-azul ditemukan dari selatan São Paulo ke selatan melalui Paraná, Santa Catarina, dan Rio Grande do Sul hingga hampir ke Uruguay.",
+          "quote": "The azure jay is found in Brazil from southern São Paulo south through Paraná, Santa Catarina, and Rio Grande do Sul almost to Uruguay.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "azure-jay-c04",
+          "source_id": "azure-jay-s2",
+          "host": "pt.wikipedia.org",
+          "statement": "In the folklore of the state of Paraná the creation and upkeep of the araucaria forests is credited to this bird as a divine mission, which is why guns pointed at it would explode or fail to fire.",
+          "statement_id": "Dalam cerita rakyat negara bagian Paraná (Brasil), pembentukan dan pemeliharaan hutan araukaria dianggap misi ilahi burung ini, sehingga senapan yang diarahkan kepadanya akan meledak atau gagal menembak.",
+          "quote": "No folclore do estado do Paraná atribui-se a formação e manutenção das florestas de araucária a este pássaro, como uma missão divina, razão porque as espingardas explodiriam ou negariam fogo quando para elas apontadas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "azure-jay-c05",
+          "source_id": "azure-jay-s2",
+          "host": "pt.wikipedia.org",
+          "statement": "The bird is one of the symbols of the state of Paraná under State Law no. 7957 of 1984, which names it the \"symbol bird\".",
+          "statement_id": "Burung ini adalah salah satu lambang negara bagian Paraná berdasarkan Undang-Undang Negara Bagian No. 7957 tahun 1984 yang menetapkannya sebagai \"burung lambang\".",
+          "quote": "é um dos símbolos do Estado do Paraná, segundo a Lei Estadual n. 7957 de 1984 que a consagra como \"ave símbolo\" deste estado.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "azure-jay-c06",
+          "source_id": "azure-jay-s2",
+          "host": "pt.wikipedia.org",
+          "statement": "Because it is part of Paraná folklore, the bird was chosen as the mascot of Paraná Clube, a traditional football club of Curitiba.",
+          "statement_id": "Karena menjadi bagian dari folklor Paraná, burung ini dipilih sebagai maskot Paraná Clube, klub sepak bola tradisional kota Curitiba.",
+          "quote": "Por fazer parte do folclore do Estado do Paraná, a ave foi escolhida como mascote do Paraná Clube, time tradicional de futebol da cidade de Curitiba.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "azure-jay-c07",
+          "source_id": "azure-jay-s2",
+          "host": "pt.wikipedia.org",
+          "statement": "Azure jays push pine seeds (pinhões) firmly into the soil, into fallen trunks already rotting, or into exposed roots, places suited to the growth of a new tree.",
+          "statement_id": "Gralha-azul menancapkan biji pinus (pinhão) kuat-kuat ke tanah, ke batang kayu tumbang yang mulai lapuk, atau ke akar di atas tanah, tempat yang cocok bagi tumbuhnya pohon baru.",
+          "quote": "as gralhas-azuis encravam fortemente os pinhões no solo ou em troncos caídos no solo, já em processo de putrefação, ou mesmo nas partes aéreas de raízes nas mesmas condições, local propício para a formação de uma nova árvore.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "claims": [],
       "images": []
     },
     {
@@ -2152,7 +2213,13 @@
         "sources": 3,
         "images": 0
       },
-      "issues": [],
+      "issues": [
+        {
+          "level": "manual",
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: de.wikipedia.org (tidak bisa dibuka (fetch failed))."
+        }
+      ],
       "claims": [
         {
           "id": "dahu-c01",
@@ -2222,7 +2289,8 @@
           "statement_id": "Menurut artikel bahasa Jerman, dahu (juga Dahut, Däjü, atau Dairi di Jura, Darou di Vosges, Tamarou di Pyrenees) adalah makhluk dongeng padanan berbahasa Prancis bagi Wolpertinger Bayern.",
           "quote": "Der Dahu (schweiz. auch das Dahu, auch Dahut, Däjü oder Dairi im Jura), Darou in den Vogesen oder Tamarou in den Pyrenäen – ist ein Fabelwesen und eine frankophone Entsprechung zum bayerischen Wolpertinger beziehungsweise dem Hanghuhn.",
           "context": "etymology",
-          "status": "exact"
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (fetch failed)"
         },
         {
           "id": "dahu-c08",
@@ -2232,7 +2300,8 @@
           "statement_id": "Dahu kadang digambarkan mirip chamois, kadang sebagai campuran musang, kelinci, tupai, burung, dan kambing.",
           "quote": "Der Dahu wird manchmal als gämsenähnliches Tier beschrieben, manchmal als Mischform von Wieseln, Kaninchen, Eichhörnchen, Vögeln und Ziegen.",
           "context": "traditional-belief",
-          "status": "exact"
+          "status": "unreachable",
+          "detail": "tidak bisa dibuka (fetch failed)"
         },
         {
           "id": "dahu-c09",
@@ -2266,7 +2335,9 @@
           "statement_id": "Alerion (kadang Avalerion) adalah istilah untuk burung heraldik; awalnya merujuk elang heraldik biasa, lalu dipakai para ahli heraldik untuk \"anak elang\".",
           "quote": "Alerion (sometimes known as Avalerion) is a term for a heraldic bird. Historically, it referred to the regular heraldic eagle. Later, heralds used the term alerion to refer to \"baby eagles\" or \"eaglets\".",
           "context": "historical-record",
-          "status": "exact"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260912051802id_/https://en.wikipedia.org/wiki/Alerion",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         },
         {
           "id": "alerion-c02",
@@ -2276,7 +2347,9 @@
           "statement_id": "Untuk membedakannya dari elang dewasa, alerion digambarkan sebagai elang tanpa paruh dan cakar.",
           "quote": "To differentiate them from mature eagles, alerions were shown as an eagle displayed inverted without a beak or claws (disarmed).",
           "context": "historical-record",
-          "status": "exact"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260912051802id_/https://en.wikipedia.org/wiki/Alerion",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         },
         {
           "id": "alerion-c03",
@@ -2286,7 +2359,9 @@
           "statement_id": "Bestiari abad pertengahan memakai nama alerion untuk burung mitologis yang sedikit lebih besar dari elang, yang hanya sepasang hidup pada satu waktu; mereka bertelur dua butir setiap 60 tahun, dan setelah telur menetas induknya menenggelamkan diri.",
           "quote": "Medieval bestiaries use alerion for a mythological bird described as somewhat larger than an eagle of which only a single pair was said to live at any time. A pair of eggs was laid every 60 years; after hatching, the parents drowned themselves.",
           "context": "historical-record",
-          "status": "exact"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260912051802id_/https://en.wikipedia.org/wiki/Alerion",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         },
         {
           "id": "alerion-c04",
@@ -2296,7 +2371,9 @@
           "statement_id": "Nama avalerion tercantum pada Peta Hereford dekat sungai Hydaspes dan Indus, mungkin berdasarkan deskripsi Plinius.",
           "quote": "The term avalerion is used on the Hereford Map near the Hydaspes and the Indus, possibly based on a description by Pliny.",
           "context": "historical-record",
-          "status": "exact"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260912051802id_/https://en.wikipedia.org/wiki/Alerion",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         },
         {
           "id": "alerion-c05",
@@ -2306,7 +2383,9 @@
           "statement_id": "Contohnya lambang Kadipaten Lorraine dengan tiga alerion perak, yang konon terilhami kisah tentara salib Godefroy dari Bouillon yang memanah tiga anak elang putih saat berburu.",
           "quote": "An example is the arms of the Duchy of Lorraine (or, on a bend gules, 3 alerions abaisé argent). It supposedly had been inspired by the assumed arms of crusader Geoffrey de Bouillon, according to a tale that he killed three white eaglets with a bow and arrow when out hunting.",
           "context": "traditional-belief",
-          "status": "exact"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260912051802id_/https://en.wikipedia.org/wiki/Alerion",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         },
         {
           "id": "alerion-c06",
@@ -2316,7 +2395,9 @@
           "statement_id": "Asal katanya tidak jelas, mungkin dari bahasa Jerman Adler atau Adelar, \"elang\"; dalam bahasa Prancis abad ke-12 alérion dan Latin abad pertengahan alariōnem.",
           "quote": "The word's ultimate origin is unclear, possibly adapted from the German Adler or Adelar (\"eagle\"). It is found in 12th-century French as alérion and in medieval Latin as alariōnem (a large eagle-like bird).",
           "context": "etymology",
-          "status": "exact"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260912051802id_/https://en.wikipedia.org/wiki/Alerion",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         },
         {
           "id": "alerion-c07",
@@ -2336,7 +2417,9 @@
           "statement_id": "Menurut artikel bahasa Jerman, alerion sejak abad ke-13 sering muncul bertiga pada pita miring merah dalam lambang Lorraine.",
           "quote": "Als Wappen Lothringens erscheint sie seit dem 13. Jahrhundert häufig zu dritt auf rotem Schrägbalken.",
           "context": "historical-record",
-          "status": "exact"
+          "status": "exact",
+          "archive_url": "https://web.archive.org/web/20260710225118id_/https://de.wikipedia.org/wiki/Al%C3%A9rion",
+          "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
       "images": []
@@ -3845,20 +3928,14 @@
     },
     {
       "slug": "tartalo",
-      "file": "batch-128.md",
+      "file": "batch-128-fix-1.md",
       "verdict": "lulus-otomatis",
       "counts": {
         "claims": 12,
         "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "warn",
-          "where": "claims (tartalo-c12)",
-          "message": "Klaim ini tidak dirujuk bagian teks mana pun."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tartalo-c01",

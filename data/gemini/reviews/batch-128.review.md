@@ -1,6 +1,6 @@
 # Review batch-128
 
-Diperiksa 2026-10-02T11:32:25.633Z. Berkas: batch-128.md.
+Diperiksa 2026-10-02T14:26:22.983Z. Berkas: batch-128.md, batch-128-fix-1.md.
 
 ## succubus — lulus-otomatis
 
@@ -137,18 +137,19 @@ Klaim 9 (exact 9), sumber 3, gambar 0.
 | tooth-fairy-c09 | exact | ja.wikipedia.org | In Japan a lost upper milk tooth is thrown under the floor and a lower one towards the roof from a veranda or window. | 日本では、抜けた乳歯を、上の歯の場合には床下に、下の歯の場合には屋根に向かって縁側や窓などから放り投げることが行われる。 |
 
 
-## azure-jay — perlu-perbaikan
+## azure-jay — lulus-otomatis
 
-Klaim 0 (), sumber 0, gambar 0.
-
-**error**
-- `skip` skip hanya boleh untuk task "new".
-
-**manual**
-- `skip` Diusulkan dilewati: Bukan makhluk mitologi dalam sumber yang dibaca: artikel en, de, dan ja hanya membahas burung nyata Cyanocorax caeruleus (gralha-azul); legenda Gralha Azul hanya muncul sebagai tautan luar. (https://en.wikipedia.org/wiki/Azure_jay).
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
+| azure-jay-c01 | exact | en.wikipedia.org | The azure jay (Cyanocorax coeruleus; Brazilian Portuguese gralha-azul) is a Near Threatened passerine species of the family Corvidae, the crows and jays. | The azure jay (Cyanocorax coeruleus) (Brazilian Portuguese: gralha-azul) is a Near Threatened species of passeriform bird in the family Corvidae, the crows and jays. |
+| azure-jay-c02 | exact | en.wikipedia.org | It appears to feed heavily on Araucaria angustifolia seeds and plays an important role in their dispersal. | However, it appears to feed heavily on Araucaria angustifolia seeds, and plays an important role in its seed dispersal. |
+| azure-jay-c03 | exact | en.wikipedia.org | In Brazil the azure jay is found from southern São Paulo south through Paraná, Santa Catarina and Rio Grande do Sul almost to Uruguay. | The azure jay is found in Brazil from southern São Paulo south through Paraná, Santa Catarina, and Rio Grande do Sul almost to Uruguay. |
+| azure-jay-c04 | exact | pt.wikipedia.org | In the folklore of the state of Paraná the creation and upkeep of the araucaria forests is credited to this bird as a divine mission, which is why guns pointed at it would explode or fail to fire. | No folclore do estado do Paraná atribui-se a formação e manutenção das florestas de araucária a este pássaro, como uma missão divina, razão porque as espingardas explodiriam ou negariam fogo quando para elas apontadas. |
+| azure-jay-c05 | exact | pt.wikipedia.org | The bird is one of the symbols of the state of Paraná under State Law no. 7957 of 1984, which names it the "symbol bird". | é um dos símbolos do Estado do Paraná, segundo a Lei Estadual n. 7957 de 1984 que a consagra como "ave símbolo" deste estado. |
+| azure-jay-c06 | exact | pt.wikipedia.org | Because it is part of Paraná folklore, the bird was chosen as the mascot of Paraná Clube, a traditional football club of Curitiba. | Por fazer parte do folclore do Estado do Paraná, a ave foi escolhida como mascote do Paraná Clube, time tradicional de futebol da cidade de Curitiba. |
+| azure-jay-c07 | exact | pt.wikipedia.org | Azure jays push pine seeds (pinhões) firmly into the soil, into fallen trunks already rotting, or into exposed roots, places suited to the growth of a new tree. | as gralhas-azuis encravam fortemente os pinhões no solo ou em troncos caídos no solo, já em processo de putrefação, ou mesmo nas partes aéreas de raízes nas mesmas condições, local propício para a formação de uma nova árvore. |
 
 
 ## elemental — lulus-otomatis
@@ -357,7 +358,10 @@ Klaim 10 (exact 9, loose 1), sumber 3, gambar 0.
 
 ## dahu — lulus-otomatis
 
-Klaim 9 (loose 2, exact 7), sumber 3, gambar 0.
+Klaim 9 (loose 2, exact 5, unreachable 2), sumber 3, gambar 0.
+
+**manual**
+- `claims` 2 kutipan tidak bisa dicek otomatis: de.wikipedia.org (tidak bisa dibuka (fetch failed)).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -367,8 +371,8 @@ Klaim 9 (loose 2, exact 7), sumber 3, gambar 0.
 | dahu-c04 | exact | en.wikipedia.org | So there are two kinds: the laevogyrous dahu, with shorter left legs, circles the mountain anticlockwise, and the dextrogyre dahu, with shorter right legs, clockwise. | Therefore, there are two different types of dahu: the laevogyrous dahu, with shorter legs on its left side, walks around the mountain counterclockwise; the dextrogyre dahu, with the shorter legs on its right side, walks clockwise around the mountain. |
 | dahu-c05 | loose | en.wikipedia.org | The 'dahu hunt' (chasse au dahu), like the snipe hunt, is a prank in which the victim is taken out at night to catch a dahu and then abandoned on the mountain. | The "dahu hunt" (French: chasse au dahu), similar to another wildlife-related practical joke, the snipe hunt, is a prank in which pranksters may take a victim out at night with the stated intention of catching a dahu only to abandon the victim on the mountain. |
 | dahu-c06 | exact | en.wikipedia.org | Supposedly, when the dahu turns towards an imitated call, it loses its balance and rolls down the slope to the person with the sack. | When the dahu turns around to see the source of the sound, it will lose its balance and roll down the slope to the person with the bag. |
-| dahu-c07 | exact | de.wikipedia.org | According to the German article, the dahu (also Dahut, Däjü or Dairi in the Jura, Darou in the Vosges, Tamarou in the Pyrenees) is a fabulous creature, the French-speaking counterpart of the Bavarian Wolpertinger. | Der Dahu (schweiz. auch das Dahu, auch Dahut, Däjü oder Dairi im Jura), Darou in den Vogesen oder Tamarou in den Pyrenäen – ist ein Fabelwesen und eine frankophone Entsprechung zum bayerischen Wolpertinger beziehungsweise dem Hanghuhn. |
-| dahu-c08 | exact | de.wikipedia.org | The dahu is sometimes described as chamois-like, sometimes as a mix of weasel, rabbit, squirrel, bird and goat. | Der Dahu wird manchmal als gämsenähnliches Tier beschrieben, manchmal als Mischform von Wieseln, Kaninchen, Eichhörnchen, Vögeln und Ziegen. |
+| dahu-c07 | unreachable (tidak bisa dibuka (fetch failed)) | de.wikipedia.org | According to the German article, the dahu (also Dahut, Däjü or Dairi in the Jura, Darou in the Vosges, Tamarou in the Pyrenees) is a fabulous creature, the French-speaking counterpart of the Bavarian Wolpertinger. | Der Dahu (schweiz. auch das Dahu, auch Dahut, Däjü oder Dairi im Jura), Darou in den Vogesen oder Tamarou in den Pyrenäen – ist ein Fabelwesen und eine frankophone Entsprechung zum bayerischen Wolpertinger beziehungsweise dem Hanghuhn. |
+| dahu-c08 | unreachable (tidak bisa dibuka (fetch failed)) | de.wikipedia.org | The dahu is sometimes described as chamois-like, sometimes as a mix of weasel, rabbit, squirrel, bird and goat. | Der Dahu wird manchmal als gämsenähnliches Tier beschrieben, manchmal als Mischform von Wieseln, Kaninchen, Eichhörnchen, Vögeln und Ziegen. |
 | dahu-c09 | exact | fr.wikipedia.org | According to the French article, the dahu is usually brought up in the countryside as a joke on naive people or city folk unfamiliar with mountain wildlife. | L'existence du dahu est généralement évoquée en milieu rural et par plaisanterie auprès de personnes particulièrement naïves et de citadins peu au fait, par exemple, de la faune montagnarde |
 
 
@@ -378,14 +382,14 @@ Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| alerion-c01 | exact | en.wikipedia.org | Alerion (sometimes Avalerion) is a term for a heraldic bird; it first meant the ordinary heraldic eagle and later 'eaglets'. | Alerion (sometimes known as Avalerion) is a term for a heraldic bird. Historically, it referred to the regular heraldic eagle. Later, heralds used the term alerion to refer to "baby eagles" or "eaglets". |
-| alerion-c02 | exact | en.wikipedia.org | To distinguish them from mature eagles, alerions were shown as eagles without beak or claws. | To differentiate them from mature eagles, alerions were shown as an eagle displayed inverted without a beak or claws (disarmed). |
-| alerion-c03 | exact | en.wikipedia.org | Medieval bestiaries use alerion for a mythological bird somewhat larger than an eagle, of which only one pair lived at a time; they laid two eggs every 60 years, and after hatching the parents drowned themselves. | Medieval bestiaries use alerion for a mythological bird described as somewhat larger than an eagle of which only a single pair was said to live at any time. A pair of eggs was laid every 60 years; after hatching, the parents drowned themselves. |
-| alerion-c04 | exact | en.wikipedia.org | The term avalerion appears on the Hereford Map near the Hydaspes and the Indus, possibly from a description by Pliny. | The term avalerion is used on the Hereford Map near the Hydaspes and the Indus, possibly based on a description by Pliny. |
-| alerion-c05 | exact | en.wikipedia.org | An example is the arms of the Duchy of Lorraine with three silver alerions, said to be inspired by a tale that the crusader Godfrey of Bouillon shot three white eaglets while hunting. | An example is the arms of the Duchy of Lorraine (or, on a bend gules, 3 alerions abaisé argent). It supposedly had been inspired by the assumed arms of crusader Geoffrey de Bouillon, according to a tale that he killed three white eaglets with a bow and arrow when out hunting. |
-| alerion-c06 | exact | en.wikipedia.org | The word's origin is unclear, perhaps from German Adler or Adelar, 'eagle'; it appears in 12th-century French as alérion and in medieval Latin as alariōnem. | The word's ultimate origin is unclear, possibly adapted from the German Adler or Adelar ("eagle"). It is found in 12th-century French as alérion and in medieval Latin as alariōnem (a large eagle-like bird). |
+| alerion-c01 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | en.wikipedia.org | Alerion (sometimes Avalerion) is a term for a heraldic bird; it first meant the ordinary heraldic eagle and later 'eaglets'. | Alerion (sometimes known as Avalerion) is a term for a heraldic bird. Historically, it referred to the regular heraldic eagle. Later, heralds used the term alerion to refer to "baby eagles" or "eaglets". |
+| alerion-c02 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | en.wikipedia.org | To distinguish them from mature eagles, alerions were shown as eagles without beak or claws. | To differentiate them from mature eagles, alerions were shown as an eagle displayed inverted without a beak or claws (disarmed). |
+| alerion-c03 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | en.wikipedia.org | Medieval bestiaries use alerion for a mythological bird somewhat larger than an eagle, of which only one pair lived at a time; they laid two eggs every 60 years, and after hatching the parents drowned themselves. | Medieval bestiaries use alerion for a mythological bird described as somewhat larger than an eagle of which only a single pair was said to live at any time. A pair of eggs was laid every 60 years; after hatching, the parents drowned themselves. |
+| alerion-c04 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | en.wikipedia.org | The term avalerion appears on the Hereford Map near the Hydaspes and the Indus, possibly from a description by Pliny. | The term avalerion is used on the Hereford Map near the Hydaspes and the Indus, possibly based on a description by Pliny. |
+| alerion-c05 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | en.wikipedia.org | An example is the arms of the Duchy of Lorraine with three silver alerions, said to be inspired by a tale that the crusader Godfrey of Bouillon shot three white eaglets while hunting. | An example is the arms of the Duchy of Lorraine (or, on a bend gules, 3 alerions abaisé argent). It supposedly had been inspired by the assumed arms of crusader Geoffrey de Bouillon, according to a tale that he killed three white eaglets with a bow and arrow when out hunting. |
+| alerion-c06 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | en.wikipedia.org | The word's origin is unclear, perhaps from German Adler or Adelar, 'eagle'; it appears in 12th-century French as alérion and in medieval Latin as alariōnem. | The word's ultimate origin is unclear, possibly adapted from the German Adler or Adelar ("eagle"). It is found in 12th-century French as alérion and in medieval Latin as alariōnem (a large eagle-like bird). |
 | alerion-c07 | exact | id.wikipedia.org | The Indonesian article also calls the alerion a mythological bird that medieval geographers and bestiarists placed near the Hydaspes and Indus, somewhat larger than an eagle. | Alerion atau avalerion adalah burung mitologis. Menurut geografer dan ahli hewan buas abad Pertengahan, wujudnya "agak kecil, tetapi lebih besar daripada elang" dan hidup di dekat Hydaspes dan Indus |
-| alerion-c08 | exact | de.wikipedia.org | According to the German article, since the 13th century the alerion has often appeared in threes on a red bend in the arms of Lorraine. | Als Wappen Lothringens erscheint sie seit dem 13. Jahrhundert häufig zu dritt auf rotem Schrägbalken. |
+| alerion-c08 | exact (tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback) | de.wikipedia.org | According to the German article, since the 13th century the alerion has often appeared in threes on a red bend in the arms of Lorraine. | Als Wappen Lothringens erscheint sie seit dem 13. Jahrhundert häufig zu dritt auf rotem Schrägbalken. |
 
 
 ## amphiptere — lulus-otomatis
@@ -627,9 +631,6 @@ Klaim 10 (exact 10), sumber 3, gambar 0.
 ## tartalo — lulus-otomatis
 
 Klaim 12 (exact 12), sumber 3, gambar 0.
-
-**warn**
-- `claims (tartalo-c12)` Klaim ini tidak dirujuk bagian teks mana pun.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
