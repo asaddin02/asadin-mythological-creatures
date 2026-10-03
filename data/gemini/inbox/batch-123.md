@@ -7320,3 +7320,6021 @@
 }
 ```
 
+```json
+{
+ "schema": "mythics-entry/1",
+ "batch_id": "batch-123",
+ "slug": "surma",
+ "task": "new",
+ "tier": "core",
+ "researched_at": "2026-10-03",
+ "identity": {
+  "canonical_name": "Surma",
+  "native_name": {
+   "text": "Сурма",
+   "script": "Cyrillic",
+   "claim_ids": [
+    "surma-c01"
+   ]
+  },
+  "display_name": {
+   "id": "Surma",
+   "en": "Surma"
+  },
+  "wikidata_qid": "Q966607",
+  "claim_ids": [
+   "surma-c01",
+   "surma-c02"
+  ]
+ },
+ "alternate_names": [],
+ "jenis": {
+  "value": "monster",
+  "claim_ids": [
+   "surma-c01",
+   "surma-c02"
+  ]
+ },
+ "classification": {
+  "value": "monster",
+  "claim_ids": [
+   "surma-c01",
+   "surma-c02"
+  ]
+ },
+ "culture": {
+  "value": "tradition-finnish",
+  "suggested_new": null,
+  "claim_ids": [
+   "surma-c01",
+   "surma-c02"
+  ]
+ },
+ "region": {
+  "value": "europe",
+  "claim_ids": [
+   "surma-c01",
+   "surma-c02"
+  ]
+ },
+ "countries": null,
+ "era": null,
+ "habitats": [
+  {
+   "value": "underworld",
+   "claim_ids": [
+    "surma-c01",
+    "surma-c02"
+   ]
+  }
+ ],
+ "disposition": {
+  "value": "malevolent",
+  "claim_ids": [
+   "surma-c01"
+  ]
+ },
+ "traits": [
+  {
+   "value": "guardian",
+   "claim_ids": [
+    "surma-c01",
+    "surma-c02"
+   ]
+  }
+ ],
+ "short_description": {
+  "id": "Surma adalah binatang mengerikan dalam cerita rakyat Finlandia dari Kalevala, perwujudan kematian mendadak yang menjaga gerbang Tuonela.",
+  "en": "Surma is a terrible beast of Finnish folklore from the Kalevala, the embodiment of sudden death who guards the gates of Tuonela.",
+  "claim_ids": [
+   "surma-c01",
+   "surma-c02"
+  ]
+ },
+ "long_description": [
+  {
+   "id": "Surma adalah tokoh cerita rakyat Finlandia dari epos Kalevala yang muncul dalam kisah Lemminkäinen. Ia binatang mengerikan yang melambangkan kematian mendadak, biasanya kematian karena kekerasan, dan berjaga di gerbang Tuonela, dunia orang mati, agar tak seorang pun bisa melarikan diri.",
+   "en": "Surma is a figure of Finnish folklore from the Kalevala epic, appearing in the tale of Lemminkäinen. He is a terrible beast standing for sudden, usually violent death, and he keeps watch at the gates of Tuonela, the land of the dead, so that no one escapes.",
+   "claim_ids": [
+    "surma-c01",
+    "surma-c02",
+    "surma-c06"
+   ]
+  },
+  {
+   "id": "Ia sering digambarkan sebagai anjing besar berekor ular yang dapat mengubah manusia menjadi batu hanya dengan tatapannya. Namanya berasal dari kata Finlandia surma, \"kematian\"; dari kata itu pula lahir kata kerja surmata, \"membunuh\". Ungkapan Finlandia Surman suuhun, \"ke mulut Surma\", berarti seseorang telah tewas.",
+   "en": "He is often described as a big dog with a serpent's tail who can turn people to stone with a single look. His name comes from the Finnish word surma, \"death\", which also gives the verb surmata, \"to kill\". The Finnish phrase Surman suuhun, \"into Surma's mouth\", means someone has been killed.",
+   "claim_ids": [
+    "surma-c03",
+    "surma-c04",
+    "surma-c05",
+    "surma-c07"
+   ]
+  }
+ ],
+ "cultural_context": null,
+ "etymology": {
+  "original_form": "surma",
+  "language": "Finnish",
+  "literal_meaning": {
+   "id": "kematian",
+   "en": "death"
+  },
+  "claim_ids": [
+   "surma-c04",
+   "surma-c05"
+  ]
+ },
+ "story_mode": {
+  "who": {
+   "id": "Surma adalah binatang penjaga dunia orang mati.",
+   "en": "Surma is a beast guarding the land of the dead.",
+   "claim_ids": [
+    "surma-c01"
+   ]
+  },
+  "origin": {
+   "id": "Ia berasal dari Kalevala dan cerita rakyat Finlandia.",
+   "en": "He comes from the Kalevala and Finnish folklore.",
+   "claim_ids": [
+    "surma-c01",
+    "surma-c02"
+   ]
+  },
+  "role": {
+   "id": "Ia mencegah orang melarikan diri dari Tuonela.",
+   "en": "He stops anyone escaping from Tuonela.",
+   "claim_ids": [
+    "surma-c01"
+   ]
+  },
+  "famous_for": {
+   "id": "Tatapannya mengubah manusia menjadi batu.",
+   "en": "His gaze turns people to stone.",
+   "claim_ids": [
+    "surma-c03"
+   ]
+  }
+ },
+ "did_you_know": {
+  "id": "Ungkapan Finlandia Surman suuhun (\"ke mulut Surma\") berarti seseorang telah tewas.",
+  "en": "The Finnish phrase Surman suuhun (\"into Surma's mouth\") means someone has been killed.",
+  "claim_ids": [
+   "surma-c05"
+  ]
+ },
+ "abilities": [
+  {
+   "ability_id": "petrification",
+   "name": {
+    "id": "Tatapan membatu",
+    "en": "Petrifying gaze"
+   },
+   "description": {
+    "id": "Surma dapat mengubah manusia menjadi batu dengan tatapannya.",
+    "en": "Surma can turn people to stone with his gaze."
+   },
+   "claim_ids": [
+    "surma-c03"
+   ]
+  }
+ ],
+ "weaknesses": [],
+ "variants": [],
+ "stories": [],
+ "places": [
+  {
+   "name": {
+    "id": "Tuonela",
+    "en": "Tuonela"
+   },
+   "type": "other",
+   "description": {
+    "id": "Dunia orang mati yang gerbangnya dijaga Surma.",
+    "en": "The land of the dead whose gates Surma guards."
+   },
+   "claim_ids": [
+    "surma-c01"
+   ]
+  }
+ ],
+ "timeline": [],
+ "relations": [
+  {
+   "target_name": "Lemminkäinen",
+   "relation_type": "associated",
+   "note": {
+    "id": "Surma muncul dalam kisah Lemminkäinen.",
+    "en": "Surma appears in the tale of Lemminkäinen."
+   },
+   "claim_ids": [
+    "surma-c02"
+   ]
+  }
+ ],
+ "modern_depictions": [],
+ "tradition_vs_modern": null,
+ "learning_questions": [
+  {
+   "id": "Mengapa banyak mitologi menempatkan anjing sebagai penjaga dunia orang mati?",
+   "en": "Why do many mythologies place a dog at the gates of the dead?"
+  }
+ ],
+ "images": [],
+ "sources": [
+  {
+   "id": "surma-s1",
+   "url": "https://fr.wikipedia.org/wiki/Surma_(mythologie)",
+   "title": "Surma (mythologie)",
+   "author": null,
+   "publisher": "Wikipédia (fr)",
+   "published": null,
+   "language": "fr",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  },
+  {
+   "id": "surma-s2",
+   "url": "https://ru.wikipedia.org/wiki/%D0%A1%D1%83%D1%80%D0%BC%D0%B0_(%D0%BC%D0%B8%D1%84%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F)",
+   "title": "Сурма (мифология)",
+   "author": null,
+   "publisher": "Википедия (ru)",
+   "published": null,
+   "language": "ru",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  }
+ ],
+ "claims": [
+  {
+   "id": "surma-c01",
+   "source_id": "surma-s1",
+   "quote": "Surma est une bête terrifiante, qui incarne la mort soudaine et violente et garde les portes de l'Enfer, le Tuonela, afin d'empêcher toute évasion.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Surma adalah binatang mengerikan yang melambangkan kematian mendadak dan kekerasan, dan menjaga gerbang dunia bawah, Tuonela, agar tak ada yang melarikan diri.",
+    "en": "Surma is a terrifying beast embodying sudden and violent death, guarding the gates of the underworld, Tuonela, to prevent any escape."
+   }
+  },
+  {
+   "id": "surma-c02",
+   "source_id": "surma-s2",
+   "quote": "Сурма — персонаж финского фольклора из эпоса Калевала, фигурирующий в рассказе Лемминкяйнена.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Surma adalah tokoh cerita rakyat Finlandia dari epos Kalevala yang muncul dalam kisah Lemminkäinen.",
+    "en": "Surma is a character of Finnish folklore from the Kalevala, appearing in the story of Lemminkäinen."
+   }
+  },
+  {
+   "id": "surma-c03",
+   "source_id": "surma-s1",
+   "quote": "Il est souvent décrit sous les traits d'un grand chien muni d'une queue de serpent et peut transformer les gens en pierre (de son seul regard pétrifiant).",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Ia sering digambarkan sebagai anjing besar berekor ular yang dapat mengubah manusia menjadi batu dengan tatapannya.",
+    "en": "He is often described as a big dog with a serpent's tail who can turn people to stone with his gaze."
+   }
+  },
+  {
+   "id": "surma-c04",
+   "source_id": "surma-s2",
+   "quote": "Имя Сурма происходит от финского слова «фин. Surma» (Смерть).",
+   "locator": "Описание",
+   "context": "etymology",
+   "statement": {
+    "id": "Nama Surma berasal dari kata Finlandia surma, \"kematian\".",
+    "en": "The name Surma comes from the Finnish word surma, \"death\"."
+   }
+  },
+  {
+   "id": "surma-c05",
+   "source_id": "surma-s1",
+   "quote": "L'expression métaphorique finnoise Surman suuhun qui signifie littéralement « de la bouche de Surma », indique qu'une victime a été tuée par Surma.",
+   "locator": "lead",
+   "context": "etymology",
+   "statement": {
+    "id": "Ungkapan kiasan Finlandia Surman suuhun, harfiah \"dari/ke mulut Surma\", menunjukkan seseorang telah dibunuh Surma.",
+    "en": "The Finnish metaphor Surman suuhun, literally \"from Surma's mouth\", indicates a victim was killed by Surma."
+   }
+  },
+  {
+   "id": "surma-c06",
+   "source_id": "surma-s2",
+   "quote": "Сурма — ужасный зверь, олицетворяющий внезапную (чаще всего, насильственную) смерть. Он стоит на страже ворот Туонела, чтобы предотвращать попытки побега из загробного мира.",
+   "locator": "Описание",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Surma adalah binatang mengerikan yang melambangkan kematian mendadak (paling sering karena kekerasan) dan menjaga gerbang Tuonela agar tak ada yang lari dari alam baka.",
+    "en": "Surma is a terrible beast personifying sudden (most often violent) death, guarding the gates of Tuonela to stop escapes from the afterlife."
+   }
+  },
+  {
+   "id": "surma-c07",
+   "source_id": "surma-s1",
+   "quote": "Surma signifie aussi tuer, ou plus spécifiquement mettre à mort, et le verbe finlandais surmata, tuer ou assassiner, en est dérivé.",
+   "locator": "lead",
+   "context": "etymology",
+   "statement": {
+    "id": "Surma juga berarti membunuh atau menghukum mati, dan kata kerja Finlandia surmata, membunuh, berasal darinya.",
+    "en": "Surma also means killing or putting to death, and the Finnish verb surmata, to kill, derives from it."
+   }
+  }
+ ],
+ "conflicts": [],
+ "gaps": [
+  {
+   "field": "images",
+   "searched": "Tidak ada gambar Commons yang terbukti menggambarkan Surma."
+  },
+  {
+   "field": "sources",
+   "searched": "Tautan en \"Surma (Finnish mythology)\" kini dialihkan ke artikel Lemminkäinen; teks Kalevala belum dikutip langsung."
+  }
+ ]
+}
+```
+
+```json
+{
+ "schema": "mythics-entry/1",
+ "batch_id": "batch-123",
+ "slug": "vishap",
+ "task": "enrich",
+ "tier": "core",
+ "researched_at": "2026-10-03",
+ "identity": {
+  "canonical_name": "Vishap",
+  "native_name": {
+   "text": "վիշապ",
+   "script": "Armenian",
+   "claim_ids": [
+    "vishap-c01"
+   ]
+  },
+  "display_name": {
+   "id": "Vishap",
+   "en": "Vishap"
+  },
+  "wikidata_qid": "Q28130191",
+  "claim_ids": [
+   "vishap-c01"
+  ]
+ },
+ "alternate_names": [],
+ "jenis": {
+  "value": "naga/ular mitos",
+  "claim_ids": [
+   "vishap-c01"
+  ]
+ },
+ "classification": {
+  "value": "dragon",
+  "claim_ids": [
+   "vishap-c01"
+  ]
+ },
+ "culture": {
+  "value": "tradition-armenian",
+  "suggested_new": null,
+  "claim_ids": [
+   "vishap-c01"
+  ]
+ },
+ "region": {
+  "value": "caucasus",
+  "claim_ids": [
+   "vishap-c01"
+  ]
+ },
+ "countries": null,
+ "era": null,
+ "habitats": [
+  {
+   "value": "water",
+   "claim_ids": [
+    "vishap-c01"
+   ]
+  },
+  {
+   "value": "mountain",
+   "claim_ids": [
+    "vishap-c03"
+   ]
+  }
+ ],
+ "disposition": {
+  "value": "malevolent",
+  "claim_ids": [
+   "vishap-c04"
+  ]
+ },
+ "traits": [
+  {
+   "value": "water-associated",
+   "claim_ids": [
+    "vishap-c01"
+   ]
+  },
+  {
+   "value": "flight",
+   "claim_ids": [
+    "vishap-c01"
+   ]
+  }
+ ],
+ "short_description": {
+  "id": "Vishap adalah naga dalam mitologi Armenia yang erat kaitannya dengan air, biasanya digambarkan sebagai ular bersayap, dan musuh dewa Vahagn.",
+  "en": "The vishap is a dragon of Armenian mythology closely tied to water, usually shown as a winged serpent, and the foe of the god Vahagn.",
+  "claim_ids": [
+   "vishap-c01",
+   "vishap-c05"
+  ]
+ },
+ "long_description": [
+  {
+   "id": "Vishap adalah naga dalam mitologi Armenia yang erat kaitannya dengan air, mirip Leviatan. Ia biasanya digambarkan sebagai ular bersayap atau gabungan bagian berbagai hewan. Namanya mungkin berasal dari istilah Iran kuno vi-šāpa, \"yang bergetah beracun\", yang dipakai untuk ular.",
+   "en": "In Armenian myth the vishap is a water-linked dragon comparable to the Leviathan. Artists usually show it as a winged snake or as a blend of parts from several animals. Its name may go back to an old Iranian term, vi-šāpa, \"having poisonous juices\", applied to snakes.",
+   "claim_ids": [
+    "vishap-c01",
+    "vishap-c02",
+    "vishap-c07"
+   ]
+  },
+  {
+   "id": "Gunung Ararat adalah kediaman utama vishap; sifat vulkanik puncaknya dan gempa-gempanya mungkin mengilhami kaitan itu. Kadang bersama anak-anaknya, vishap mencuri bayi dan menggantinya dengan roh jahat kecil dari keturunannya sendiri. Menurut kepercayaan kuno, ia naik ke langit atau turun ke bumi sambil menimbulkan badai petir, angin puting, dan menelan matahari sehingga terjadi gerhana.",
+   "en": "Mount Ararat was the vishap's chief home, perhaps because of the peak's volcanic nature and earthquakes. Sometimes with its young, the vishap stole infants and left a small evil spirit of its own brood in their place. Ancient belief had it rise to the sky or come down to earth, raising thunderstorms and whirlwinds and swallowing the sun to cause an eclipse.",
+   "claim_ids": [
+    "vishap-c03",
+    "vishap-c04"
+   ]
+  },
+  {
+   "id": "Di sejumlah negeri Timur naga ini dipuja sebagai lambang air, kesuburan, dan kekayaan, lalu menjadi lambang kekuasaan yang menakutkan. Menurut legenda kuno, ia bertarung dengan Vahagn Pembunuh Naga, dan di Yerevan berdiri patung Vahagn karya Karlen Nurijanyan dan Nerses Charkhchyan.",
+   "en": "In several Eastern lands the dragon was worshipped as a symbol of water, fertility and wealth, and it later became a fearsome symbol of power. Ancient legend has it fight Vahagn the Dragon Slayer, and a statue of Vahagn by Karlen Nurijanyan and Nerses Charkhchyan stands in Yerevan.",
+   "claim_ids": [
+    "vishap-c05",
+    "vishap-c06"
+   ]
+  }
+ ],
+ "cultural_context": null,
+ "etymology": {
+  "original_form": "vi-šāpa",
+  "language": "Old Iranian",
+  "literal_meaning": {
+   "id": "yang bergetah beracun",
+   "en": "having poisonous juices"
+  },
+  "claim_ids": [
+   "vishap-c02"
+  ]
+ },
+ "story_mode": {
+  "who": {
+   "id": "Vishap adalah naga air Armenia.",
+   "en": "The vishap is an Armenian water dragon.",
+   "claim_ids": [
+    "vishap-c01"
+   ]
+  },
+  "origin": {
+   "id": "Ia berasal dari mitologi Armenia.",
+   "en": "It comes from Armenian mythology.",
+   "claim_ids": [
+    "vishap-c01"
+   ]
+  },
+  "role": {
+   "id": "Ia menimbulkan badai dan gerhana.",
+   "en": "It causes storms and eclipses.",
+   "claim_ids": [
+    "vishap-c04"
+   ]
+  },
+  "famous_for": {
+   "id": "Ia dikalahkan Vahagn Pembunuh Naga.",
+   "en": "It was fought by Vahagn the Dragon Slayer.",
+   "claim_ids": [
+    "vishap-c05"
+   ]
+  }
+ },
+ "did_you_know": {
+  "id": "Menurut kepercayaan kuno, vishap menelan matahari sehingga terjadi gerhana.",
+  "en": "By ancient belief, the vishap swallowed the sun, causing an eclipse.",
+  "claim_ids": [
+   "vishap-c04"
+  ]
+ },
+ "abilities": [
+  {
+   "ability_id": "elemental-control",
+   "name": {
+    "id": "Badai dan angin puting",
+    "en": "Storms and whirlwinds"
+   },
+   "description": {
+    "id": "Ia menimbulkan badai petir dan angin puting.",
+    "en": "It causes thunderstorms and whirlwinds."
+   },
+   "claim_ids": [
+    "vishap-c04"
+   ]
+  }
+ ],
+ "weaknesses": [],
+ "variants": [],
+ "stories": [],
+ "places": [
+  {
+   "name": {
+    "id": "Gunung Ararat",
+    "en": "Mount Ararat"
+   },
+   "type": "mountain",
+   "description": {
+    "id": "Kediaman utama vishap.",
+    "en": "The vishap's main home."
+   },
+   "claim_ids": [
+    "vishap-c03"
+   ]
+  }
+ ],
+ "timeline": [],
+ "relations": [
+  {
+   "target_name": "Vahagn",
+   "relation_type": "enemy",
+   "note": {
+    "id": "Dewa pembunuh naga yang melawan vishap.",
+    "en": "The dragon-slaying god who fights the vishap."
+   },
+   "claim_ids": [
+    "vishap-c05"
+   ]
+  },
+  {
+   "target_name": "Leviatan",
+   "relation_type": "associated",
+   "note": {
+    "id": "Vishap mirip Leviatan.",
+    "en": "The vishap is similar to the Leviathan."
+   },
+   "claim_ids": [
+    "vishap-c01"
+   ]
+  }
+ ],
+ "modern_depictions": [],
+ "tradition_vs_modern": null,
+ "learning_questions": [
+  {
+   "id": "Mengapa gunung berapi seperti Ararat sering dikaitkan dengan naga?",
+   "en": "Why are volcanoes like Ararat often linked with dragons?"
+  }
+ ],
+ "images": [],
+ "sources": [
+  {
+   "id": "vishap-s1",
+   "url": "https://en.wikipedia.org/wiki/Vishap",
+   "title": "Vishap",
+   "author": null,
+   "publisher": "Wikipedia (en)",
+   "published": null,
+   "language": "en",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  },
+  {
+   "id": "vishap-s2",
+   "url": "https://hy.wikipedia.org/wiki/%D5%8E%D5%AB%D5%B7%D5%A1%D5%BA_(%D5%A4%D5%AB%D6%81%D5%A1%D5%A2%D5%A1%D5%B6%D5%A1%D5%AF%D5%A1%D5%B6_%D5%AF%D5%A5%D6%80%D5%BA%D5%A1%D6%80)",
+   "title": "Վիշապ (դիցաբանական կերպար)",
+   "author": null,
+   "publisher": "Վիքիպեդիա (hy)",
+   "published": null,
+   "language": "hy",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  }
+ ],
+ "claims": [
+  {
+   "id": "vishap-c01",
+   "source_id": "vishap-s1",
+   "quote": "is a dragon in Armenian mythology closely associated with water, similar to the Leviathan. It is usually depicted as a winged snake or with a combination of elements from different animals.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Vishap (վիշապ) adalah naga mitologi Armenia yang erat kaitannya dengan air, mirip Leviatan (Leviathan), biasanya digambarkan sebagai ular bersayap atau gabungan berbagai hewan.",
+    "en": "The vishap is a dragon of Armenian mythology closely tied to water, similar to the Leviathan, usually depicted as a winged snake or a combination of animals."
+   }
+  },
+  {
+   "id": "vishap-c02",
+   "source_id": "vishap-s1",
+   "quote": "The name might derive from an ancient Iranian term vi-šāpa, 'having poisonous juices', used in reference to snakes",
+   "locator": "lead",
+   "context": "etymology",
+   "statement": {
+    "id": "Namanya mungkin berasal dari istilah Iran kuno vi-šāpa, \"yang bergetah beracun\", yang dipakai untuk ular.",
+    "en": "The name might derive from the old Iranian vi-šāpa, \"having poisonous juices\", used of snakes."
+   }
+  },
+  {
+   "id": "vishap-c03",
+   "source_id": "vishap-s1",
+   "quote": "Mount Ararat was the main home of the Vishap. The volcanic character of the Araratian peak and its earthquakes may have suggested its association with the Vishap.",
+   "locator": "lead",
+   "context": "scholarly-interpretation",
+   "statement": {
+    "id": "Gunung Ararat adalah kediaman utama vishap; sifat vulkanik puncaknya dan gempanya mungkin mengilhami kaitan itu.",
+    "en": "Mount Ararat was the vishap's main home; the peak's volcanic nature and earthquakes may have suggested the link."
+   }
+  },
+  {
+   "id": "vishap-c04",
+   "source_id": "vishap-s1",
+   "quote": "Sometimes with its children, the Vishap used to steal children or toddlers and put a small evil spirit of their own brood in their stead. According to ancient beliefs, the Vishap ascended to the sky or descended therefrom to earth, causing thunderous storms, whirlwinds, and absorption of the sun (causing an eclipse).",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Kadang bersama anaknya, vishap mencuri anak kecil dan menggantinya dengan roh jahat kecil dari keturunannya; menurut kepercayaan kuno ia naik ke langit atau turun ke bumi, menimbulkan badai petir, angin puting, dan menelan matahari (gerhana).",
+    "en": "Sometimes with its children the vishap stole toddlers and left a small evil spirit of its brood instead; by ancient belief it rose to the sky or came down, causing thunderstorms, whirlwinds and swallowing the sun (an eclipse)."
+   }
+  },
+  {
+   "id": "vishap-c05",
+   "source_id": "vishap-s1",
+   "quote": "The dragon was worshipped in a number of Eastern countries, symbolising the element of water, fertility and wealth, and later became a frightful symbol of power. According to ancient legends, the dragon fought Vahagn the Dragon Slayer.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Naga ini dipuja di sejumlah negeri Timur sebagai lambang air, kesuburan, dan kekayaan, kemudian menjadi lambang kekuasaan yang menakutkan; menurut legenda kuno ia bertarung dengan Vahagn Pembunuh Naga.",
+    "en": "The dragon was worshipped in several Eastern countries as a symbol of water, fertility and wealth, later a frightful symbol of power; ancient legend has it fight Vahagn the Dragon Slayer."
+   }
+  },
+  {
+   "id": "vishap-c06",
+   "source_id": "vishap-s1",
+   "quote": "There is a statue to Vahagn, who slew the Vishap, in Yerevan by Karlen Nurijanyan and Nerses Charkhchyan.",
+   "locator": "lead",
+   "context": "modern-popular-culture",
+   "statement": {
+    "id": "Di Yerevan ada patung Vahagn, pembunuh vishap, karya Karlen Nurijanyan dan Nerses Charkhchyan.",
+    "en": "In Yerevan stands a statue of Vahagn, who slew the vishap, by Karlen Nurijanyan and Nerses Charkhchyan."
+   }
+  },
+  {
+   "id": "vishap-c07",
+   "source_id": "vishap-s2",
+   "quote": "Վիշապ, հայկական դիցաբանական կերպար, որը սերտորեն կապված է ջրի հետ: Վիշապը առասպելական կենդանի է:",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Vishap adalah tokoh mitologi Armenia yang erat kaitannya dengan air; ia hewan legendaris.",
+    "en": "The vishap is a figure of Armenian mythology closely linked with water; it is a legendary animal."
+   }
+  }
+ ],
+ "conflicts": [],
+ "gaps": [
+  {
+   "field": "images",
+   "searched": "Batu vishapakar (batu naga) di Commons belum diperiksa pada putaran ini."
+  }
+ ]
+}
+```
+
+```json
+{
+ "schema": "mythics-entry/1",
+ "batch_id": "batch-123",
+ "slug": "yalmavuz",
+ "task": "new",
+ "tier": "core",
+ "researched_at": "2026-10-03",
+ "identity": {
+  "canonical_name": "Yalmavuz",
+  "native_name": {
+   "text": "Ялмауз",
+   "script": "Cyrillic",
+   "claim_ids": [
+    "yalmavuz-c01"
+   ]
+  },
+  "display_name": {
+   "id": "Yalmavuz",
+   "en": "Yalmavuz"
+  },
+  "wikidata_qid": "Q4773036",
+  "claim_ids": [
+   "yalmavuz-c01"
+  ]
+ },
+ "alternate_names": [
+  {
+   "name": "Җалмавыз",
+   "language": "tt",
+   "name_type": "native-script",
+   "claim_ids": [
+    "yalmavuz-c06"
+   ]
+  },
+  {
+   "name": "Jalmaus",
+   "language": "ky",
+   "name_type": "regional",
+   "claim_ids": [
+    "yalmavuz-c07"
+   ]
+  }
+ ],
+ "jenis": {
+  "value": "iblis/setan",
+  "claim_ids": [
+   "yalmavuz-c01"
+  ]
+ },
+ "classification": {
+  "value": "demon",
+  "claim_ids": [
+   "yalmavuz-c01"
+  ]
+ },
+ "culture": {
+  "value": "tradition-turkic",
+  "suggested_new": null,
+  "claim_ids": [
+   "yalmavuz-c01",
+   "yalmavuz-c06"
+  ]
+ },
+ "region": {
+  "value": "central-asia",
+  "claim_ids": [
+   "yalmavuz-c06"
+  ]
+ },
+ "countries": null,
+ "era": null,
+ "habitats": [],
+ "disposition": {
+  "value": "malevolent",
+  "claim_ids": [
+   "yalmavuz-c01",
+   "yalmavuz-c03"
+  ]
+ },
+ "traits": [],
+ "short_description": {
+  "id": "Yalmavuz (Yalmauz) adalah iblis jahat dalam mitologi Bashkir dan makhluk raksasa berkepala banyak dalam mitologi Turkik dan Altai.",
+  "en": "Yalmavuz (Yalmauz) is an evil demon of Bashkir mythology and a many-headed giant being of Turkic and Altai mythology.",
+  "claim_ids": [
+   "yalmavuz-c01",
+   "yalmavuz-c06"
+  ]
+ },
+ "long_description": [
+  {
+   "id": "Dalam mitologi Bashkir, Yalmauz adalah iblis jahat yang namanya berarti \"yang menelan segalanya\", dari kata ialmau, \"melingkupi\", dan auyz, \"mulut\". Ia muncul dalam dongeng Bashkir seperti Karasa-batyr dan Altyndugha-batyr. Iblis ini berupa makhluk mirip ular berkepala tujuh, sembilan, atau dua belas yang tinggal di kebun yang ditanaminya sendiri; dalam dongeng, para batyr menyelamatkan gadis-gadis tawanannya dengan bertarung dan membunuhnya.",
+   "en": "In Bashkir mythology Yalmauz is an evil demon whose name means \"the one who swallows everything\", from ialmau, \"to enclose\", and auyz, \"mouth\". It appears in Bashkir tales such as Karasa-batyr and Altyndugha-batyr. The demon is a serpent-like creature with seven, nine or twelve heads living in a garden it planted itself; in the tales, heroes (batyrs) free the maidens it holds captive by fighting and killing it.",
+   "claim_ids": [
+    "yalmavuz-c01",
+    "yalmavuz-c02",
+    "yalmavuz-c03"
+   ]
+  },
+  {
+   "id": "Menurut kepercayaan, Yalmauz juga penyihir pemakan manusia, vampir yang menculik bayi dan gadis; M. A. Kulaev menggambarkannya sebagai perempuan tua bermulut lebar. Dalam bahasa Uighur kata yalmauz berarti \"naga\". Dalam mitologi Turkik dan Altai, Yalmavuz adalah raksasa berwujud manusia dengan tiga, tujuh, atau dua belas kepala, berwarna hitam atau kuning, memusuhi kuda, dan memakan manusia.",
+   "en": "By belief Yalmauz is also a man-eating sorcerer, a vampire that abducts babies and girls; M. A. Kulaev describes it as a wide-mouthed old woman. In Uyghur, yalmauz means \"dragon\". In Turkic and Altai mythology Yalmavuz is a human-shaped giant with three, seven or twelve heads, black or yellow in colour, hostile to horses and devouring people.",
+   "claim_ids": [
+    "yalmavuz-c04",
+    "yalmavuz-c05",
+    "yalmavuz-c06"
+   ]
+  }
+ ],
+ "cultural_context": null,
+ "etymology": {
+  "original_form": "ялмау + ауыҙ",
+  "language": "Bashkir",
+  "literal_meaning": {
+   "id": "yang menelan segalanya",
+   "en": "the one who swallows everything"
+  },
+  "claim_ids": [
+   "yalmavuz-c01"
+  ]
+ },
+ "story_mode": {
+  "who": {
+   "id": "Yalmavuz adalah iblis berkepala banyak.",
+   "en": "Yalmavuz is a many-headed demon.",
+   "claim_ids": [
+    "yalmavuz-c01",
+    "yalmavuz-c03"
+   ]
+  },
+  "origin": {
+   "id": "Ia berasal dari mitologi Bashkir dan Turkik.",
+   "en": "It comes from Bashkir and Turkic mythology.",
+   "claim_ids": [
+    "yalmavuz-c01",
+    "yalmavuz-c06"
+   ]
+  },
+  "role": {
+   "id": "Ia menawan gadis-gadis dan dibunuh para batyr.",
+   "en": "It holds maidens captive and is slain by heroes.",
+   "claim_ids": [
+    "yalmavuz-c03"
+   ]
+  },
+  "famous_for": {
+   "id": "Namanya berarti \"yang menelan segalanya\".",
+   "en": "Its name means \"the one who swallows everything\".",
+   "claim_ids": [
+    "yalmavuz-c01"
+   ]
+  }
+ },
+ "did_you_know": {
+  "id": "Dalam bahasa Uighur, yalmauz berarti \"naga\".",
+  "en": "In Uyghur, yalmauz means \"dragon\".",
+  "claim_ids": [
+   "yalmavuz-c05"
+  ]
+ },
+ "abilities": [],
+ "weaknesses": [],
+ "variants": [],
+ "stories": [],
+ "places": [],
+ "timeline": [],
+ "relations": [
+  {
+   "target_name": "Yelbegen",
+   "relation_type": "variant",
+   "note": {
+    "id": "Kadang dipakai sebagai sinonim Yelbegen.",
+    "en": "Sometimes used as a synonym of Yelbegen."
+   },
+   "claim_ids": [
+    "yalmavuz-c06",
+    "yalmavuz-c07"
+   ]
+  }
+ ],
+ "modern_depictions": [],
+ "tradition_vs_modern": null,
+ "learning_questions": [
+  {
+   "id": "Apa kesamaan Yalmavuz dengan monster berkepala banyak dalam cerita rakyat lain?",
+   "en": "What does Yalmavuz share with many-headed monsters in other folklore?"
+  }
+ ],
+ "images": [],
+ "sources": [
+  {
+   "id": "yalmavuz-s1",
+   "url": "https://ru.wikipedia.org/wiki/%D0%AF%D0%BB%D0%BC%D0%B0%D1%83%D0%B7",
+   "title": "Ялмауз",
+   "author": null,
+   "publisher": "Википедия (ru)",
+   "published": null,
+   "language": "ru",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  },
+  {
+   "id": "yalmavuz-s2",
+   "url": "https://tr.wikipedia.org/wiki/Yalmavuz",
+   "title": "Yalmavuz",
+   "author": null,
+   "publisher": "Vikipedi (tr)",
+   "published": null,
+   "language": "tr",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  }
+ ],
+ "claims": [
+  {
+   "id": "yalmavuz-c01",
+   "source_id": "yalmavuz-s1",
+   "quote": "Ялмауз (ялмауыҙ, от баш. ялмау — охватывать и ауыҙ — рот; букв. — заглатывающий всё) — злой демон в башкирской мифологии.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Yalmauz (Ялмауз; dari bahasa Bashkir ialmau, \"melingkupi\", dan auyz, \"mulut\"; harfiah \"yang menelan segalanya\") adalah iblis jahat dalam mitologi Bashkir.",
+    "en": "Yalmauz (from Bashkir ialmau, \"to enclose\", and auyz, \"mouth\"; literally \"the one who swallows everything\") is an evil demon in Bashkir mythology."
+   }
+  },
+  {
+   "id": "yalmavuz-c02",
+   "source_id": "yalmavuz-s1",
+   "quote": "Ялмауз встречается в башкирских сказках («Ҡараса батыр» — «Караса-батыр», «Алтындуға батыр» — «Алтындуга-батыр» и др.).",
+   "locator": "История",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Yalmauz muncul dalam dongeng Bashkir seperti \"Karasa-batyr\" dan \"Altyndugha-batyr\".",
+    "en": "Yalmauz appears in Bashkir tales such as \"Karasa-batyr\" and \"Altyndugha-batyr\"."
+   }
+  },
+  {
+   "id": "yalmavuz-c03",
+   "source_id": "yalmavuz-s1",
+   "quote": "Злой демон Ялмауз представляет собой 7-, 9- или 12-головое змееподобное существо, живущее в саду, который он сам засадил деревьями. Обычно в сказках батыры, спасая девушек, находящихся в неволе у Ялмауза, вступают с демоном в поединок и убивают его.",
+   "locator": "Характеристика",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Iblis Yalmauz adalah makhluk mirip ular berkepala 7, 9, atau 12 (tujuh, sembilan, dua belas) yang tinggal di kebun yang ditanaminya sendiri; dalam dongeng para batyr menyelamatkan gadis tawanannya dengan bertarung dan membunuhnya.",
+    "en": "The demon Yalmauz is a 7-, 9- or 12-headed (seven, nine, twelve) serpent-like creature living in a garden it planted; in tales the batyrs rescue the maidens it holds by fighting and killing it."
+   }
+  },
+  {
+   "id": "yalmavuz-c04",
+   "source_id": "yalmavuz-s1",
+   "quote": "По поверьям, Ялмауз также — колдун-людоед, вампир, который похищает младенцев и девушек. Согласно М. А. Кулаеву, Ялмауз описывается как большеротая старая женщина, похожая на мяскай.",
+   "locator": "Характеристика",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Menurut kepercayaan, Yalmauz juga penyihir pemakan manusia, vampir yang menculik bayi dan gadis; menurut M. A. Kulaev ia digambarkan sebagai perempuan tua bermulut lebar mirip myaskai.",
+    "en": "By belief Yalmauz is also a man-eating sorcerer, a vampire abducting babies and girls; according to M. A. Kulaev it is described as a wide-mouthed old woman like a myaskai."
+   }
+  },
+  {
+   "id": "yalmavuz-c05",
+   "source_id": "yalmavuz-s1",
+   "quote": "Например, в уйгурском языке ялмауз означает «дракон»",
+   "locator": "Характеристика",
+   "context": "etymology",
+   "statement": {
+    "id": "Misalnya, dalam bahasa Uighur yalmauz berarti \"naga\".",
+    "en": "For example, in Uyghur yalmauz means \"dragon\"."
+   }
+  },
+  {
+   "id": "yalmavuz-c06",
+   "source_id": "yalmavuz-s2",
+   "quote": "Türk ve Altay mitolojisinde Dev. Calmağus veya Yelmeves de denir. “Yalmuz” olarak da bilinir. Çok büyük masal yaratığı. İnsan biçimlidir. Üç, yedi veya 12 başı vardır. Siyah ya da sarı renklidir. Kimi zaman Yelbegen ile eşanlamlı olarak kullanılır. Devler, atlara düşmandır. Ayrıca insanları yerler.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Yalmavuz (Tatar: Җалмавыз) adalah raksasa dalam mitologi Turkik dan Altai, juga disebut Calmağus, Yelmeves, atau Yalmuz; makhluk dongeng sangat besar berwujud manusia dengan tiga, tujuh, atau 12 (dua belas) kepala, berwarna hitam atau kuning, kadang sinonim Yelbegen; para raksasa memusuhi kuda dan memakan manusia.",
+    "en": "Yalmavuz (Tatar Җалмавыз) is a giant of Turkic and Altai mythology, also called Calmağus, Yelmeves or Yalmuz; a huge human-shaped tale creature with three, seven or 12 (twelve) heads, black or yellow, sometimes synonymous with Yelbegen; giants are hostile to horses and eat people."
+   }
+  },
+  {
+   "id": "yalmavuz-c07",
+   "source_id": "yalmavuz-s2",
+   "quote": "Radlofa göre, Teleğütlerdeki Yilbegen ile Kırgızlardaki \"Jalmaus\" adı birbirlerini karşılamaktadır.",
+   "locator": "lead",
+   "context": "scholarly-interpretation",
+   "statement": {
+    "id": "Menurut Radloff, nama Yilbegen pada orang Teleut sepadan dengan \"Jalmaus\" pada orang Kirgiz.",
+    "en": "According to Radloff, the Teleut Yilbegen corresponds to the Kyrgyz \"Jalmaus\"."
+   }
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": {
+    "id": "Wujud",
+    "en": "Form"
+   },
+   "positions": [
+    {
+     "summary": {
+      "id": "Makhluk mirip ular berkepala banyak.",
+      "en": "A many-headed serpent-like creature."
+     },
+     "claim_ids": [
+      "yalmavuz-c03"
+     ]
+    },
+    {
+     "summary": {
+      "id": "Perempuan tua bermulut lebar.",
+      "en": "A wide-mouthed old woman."
+     },
+     "claim_ids": [
+      "yalmavuz-c04"
+     ]
+    },
+    {
+     "summary": {
+      "id": "Raksasa berwujud manusia.",
+      "en": "A human-shaped giant."
+     },
+     "claim_ids": [
+      "yalmavuz-c06"
+     ]
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  {
+   "field": "images",
+   "searched": "Tidak ada gambar Commons yang terbukti menggambarkan Yalmavuz."
+  }
+ ]
+}
+```
+
+```json
+{
+ "schema": "mythics-entry/1",
+ "batch_id": "batch-123",
+ "slug": "z-ota-kaczka",
+ "task": "new",
+ "tier": "core",
+ "researched_at": "2026-10-03",
+ "identity": {
+  "canonical_name": "Złota Kaczka",
+  "native_name": null,
+  "display_name": {
+   "id": "Złota Kaczka (Bebek Emas)",
+   "en": "Złota Kaczka (Gold Duck)"
+  },
+  "wikidata_qid": "Q30177090",
+  "claim_ids": [
+   "z-ota-kaczka-c01"
+  ]
+ },
+ "alternate_names": [
+  {
+   "name": "Gold Duck",
+   "language": "en",
+   "name_type": "translation",
+   "claim_ids": [
+    "z-ota-kaczka-c01"
+   ]
+  }
+ ],
+ "jenis": {
+  "value": "hewan mitos",
+  "claim_ids": [
+   "z-ota-kaczka-c01"
+  ]
+ },
+ "classification": {
+  "value": "bird",
+  "claim_ids": [
+   "z-ota-kaczka-c01"
+  ]
+ },
+ "culture": {
+  "value": "tradition-polish",
+  "suggested_new": null,
+  "claim_ids": [
+   "z-ota-kaczka-c01"
+  ]
+ },
+ "region": {
+  "value": "europe",
+  "claim_ids": [
+   "z-ota-kaczka-c01"
+  ]
+ },
+ "countries": {
+  "value": [
+   "Poland"
+  ],
+  "claim_ids": [
+   "z-ota-kaczka-c02"
+  ]
+ },
+ "era": null,
+ "habitats": [
+  {
+   "value": "water",
+   "claim_ids": [
+    "z-ota-kaczka-c03"
+   ]
+  }
+ ],
+ "disposition": null,
+ "traits": [],
+ "short_description": {
+  "id": "Złota Kaczka (\"Bebek Emas\") adalah tokoh legenda Warsawa, seorang putri yang disihir menjadi bebek emas dan hidup di danau bawah tanah di bawah Kastel Ostrogski.",
+  "en": "Złota Kaczka (\"Gold Duck\") is a figure of Warsaw legend, a princess bewitched into a golden duck living in an underground lake beneath Ostrogski Castle.",
+  "claim_ids": [
+   "z-ota-kaczka-c01",
+   "z-ota-kaczka-c03"
+  ]
+ },
+ "long_description": [
+  {
+   "id": "Złota Kaczka, \"Bebek Emas\" dalam bahasa Polandia, adalah tokoh utama dongeng rakyat yang diceritakan dalam banyak latar dan oleh banyak penulis, termasuk penyair Artur Oppman, dan kini paling erat dikaitkan dengan Warsawa. Dalam satu versi ia seorang putri yang disihir penyihir jahat dan berenang di danau di bawah Kastel Ostrogski, yang kini menjadi Museum Fryderyk Chopin.",
+   "en": "Złota Kaczka, Polish for \"Gold Duck\", heads a folk tale told in many settings and by many writers, including the poet Artur Oppman, and is now most closely tied to Warsaw. In one version she is a princess bewitched by a wicked sorcerer, swimming in a lake under Ostrogski Castle, today the Fryderyk Chopin Museum.",
+   "claim_ids": [
+    "z-ota-kaczka-c01",
+    "z-ota-kaczka-c02",
+    "z-ota-kaczka-c03"
+   ]
+  },
+  {
+   "id": "Ia hanya bisa kembali ke wujud manusia bila seseorang membelanjakan seratus dukat sehari selama tiga hari berturut-turut tanpa membaginya dengan siapa pun. Seorang prajurit hampir berhasil, tetapi menjelang akhir hari ketiga ia memberikan grosz terakhirnya kepada pengemis, dan Bebek Emas pun lenyap bersama kastelnya.",
+   "en": "She could regain human form only if someone spent a hundred ducats a day for three days running without sharing any of it. A soldier nearly managed it, but as the third day ended he gave his last grosz to a beggar, and the Gold Duck vanished along with the castle.",
+   "claim_ids": [
+    "z-ota-kaczka-c04",
+    "z-ota-kaczka-c05"
+   ]
+  },
+  {
+   "id": "Bukti tertua legenda ini di Warsawa berasal dari tahun 1830, ketika Andrzej Słowaczyński memakai alurnya dalam vaudeville Chłopiec studukatowy. Pada 1852 Roman Zmorski mencatatnya dalam Podania i baśnie ludu w Mazowszu, dengan bebek emas tinggal di ruang bawah tanah istana Pangeran de Nassau yang tergenang.",
+   "en": "The oldest evidence of the legend in Warsaw dates from 1830, when Andrzej Słowaczyński used its plot in the vaudeville Chłopiec studukatowy. In 1852 Roman Zmorski recorded it in Podania i baśnie ludu w Mazowszu, with the duck living in the flooded cellars of the Prince de Nassau's palace.",
+   "claim_ids": [
+    "z-ota-kaczka-c06",
+    "z-ota-kaczka-c07"
+   ]
+  }
+ ],
+ "cultural_context": null,
+ "etymology": null,
+ "story_mode": {
+  "who": {
+   "id": "Złota Kaczka adalah putri yang disihir menjadi bebek emas.",
+   "en": "Złota Kaczka is a princess bewitched into a golden duck.",
+   "claim_ids": [
+    "z-ota-kaczka-c03"
+   ]
+  },
+  "origin": {
+   "id": "Ia berasal dari legenda Warsawa.",
+   "en": "She comes from Warsaw legend.",
+   "claim_ids": [
+    "z-ota-kaczka-c02"
+   ]
+  },
+  "role": {
+   "id": "Ia menguji orang dengan tugas menghabiskan harta tanpa berbagi.",
+   "en": "She tests people with the task of spending a fortune without sharing.",
+   "claim_ids": [
+    "z-ota-kaczka-c04"
+   ]
+  },
+  "famous_for": {
+   "id": "Prajurit yang memberi grosz terakhirnya kepada pengemis kehilangan kesempatan menyelamatkannya.",
+   "en": "A soldier who gave his last grosz to a beggar lost his chance to save her.",
+   "claim_ids": [
+    "z-ota-kaczka-c05"
+   ]
+  }
+ },
+ "did_you_know": {
+  "id": "Kastel Ostrogski, tempat danau Bebek Emas dalam legenda, kini menjadi Museum Fryderyk Chopin.",
+  "en": "Ostrogski Castle, home of the Gold Duck's lake in legend, is now the Fryderyk Chopin Museum.",
+  "claim_ids": [
+   "z-ota-kaczka-c03"
+  ]
+ },
+ "abilities": [],
+ "weaknesses": [],
+ "variants": [],
+ "stories": [],
+ "places": [
+  {
+   "name": {
+    "id": "Kastel Ostrogski",
+    "en": "Ostrogski Castle"
+   },
+   "type": "other",
+   "description": {
+    "id": "Danau Bebek Emas berada di bawah kastel ini di Warsawa.",
+    "en": "The Gold Duck's lake lies beneath this castle in Warsaw."
+   },
+   "claim_ids": [
+    "z-ota-kaczka-c03"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "period": "1830",
+   "title": {
+    "id": "Chłopiec studukatowy",
+    "en": "Chłopiec studukatowy"
+   },
+   "description": {
+    "id": "Bukti tertua legenda di Warsawa: vaudeville karya Andrzej Słowaczyński.",
+    "en": "Oldest evidence of the legend in Warsaw: a vaudeville by Andrzej Słowaczyński."
+   },
+   "earliest_attestation": true,
+   "claim_ids": [
+    "z-ota-kaczka-c06"
+   ]
+  },
+  {
+   "period": "1852",
+   "title": {
+    "id": "Catatan Roman Zmorski",
+    "en": "Roman Zmorski's record"
+   },
+   "description": {
+    "id": "Zmorski mencatat legenda ini dalam Podania i baśnie ludu w Mazowszu.",
+    "en": "Zmorski recorded the legend in Podania i baśnie ludu w Mazowszu."
+   },
+   "earliest_attestation": false,
+   "claim_ids": [
+    "z-ota-kaczka-c07"
+   ]
+  }
+ ],
+ "relations": [],
+ "modern_depictions": [],
+ "tradition_vs_modern": null,
+ "learning_questions": [
+  {
+   "id": "Apa pesan legenda Bebek Emas tentang harta dan kemurahan hati?",
+   "en": "What does the Gold Duck legend say about wealth and generosity?"
+  }
+ ],
+ "images": [],
+ "sources": [
+  {
+   "id": "z-ota-kaczka-s1",
+   "url": "https://en.wikipedia.org/wiki/Gold_Duck",
+   "title": "Gold Duck",
+   "author": null,
+   "publisher": "Wikipedia (en)",
+   "published": null,
+   "language": "en",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  },
+  {
+   "id": "z-ota-kaczka-s2",
+   "url": "https://pl.wikipedia.org/wiki/Legenda_o_z%C5%82otej_kaczce",
+   "title": "Legenda o złotej kaczce",
+   "author": null,
+   "publisher": "Wikipedia (pl)",
+   "published": null,
+   "language": "pl",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  }
+ ],
+ "claims": [
+  {
+   "id": "z-ota-kaczka-c01",
+   "source_id": "z-ota-kaczka-s1",
+   "quote": "(Polish for \"Gold Duck\") is the heroine of a folk tale which has been recounted with many settings and by many writers, including the Young Poland poet Artur Oppman.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Złota Kaczka (bahasa Polandia untuk \"Bebek Emas\") adalah tokoh utama dongeng rakyat yang diceritakan dalam banyak latar oleh banyak penulis, termasuk penyair Artur Oppman.",
+    "en": "Złota Kaczka (Polish for \"Gold Duck\") is the heroine of a folk tale retold in many settings by many writers, including the poet Artur Oppman."
+   }
+  },
+  {
+   "id": "z-ota-kaczka-c02",
+   "source_id": "z-ota-kaczka-s1",
+   "quote": "The story has come to be most closely associated with Warsaw, Poland.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Kisah ini kini paling erat dikaitkan dengan Warsawa, Polandia.",
+    "en": "The story is now most closely associated with Warsaw, Poland."
+   }
+  },
+  {
+   "id": "z-ota-kaczka-c03",
+   "source_id": "z-ota-kaczka-s1",
+   "quote": "In one version the Gold Duck, a princess who had been bewitched by an evil sorcerer, swam in a lake beneath Warsaw's Ostrogski Castle (now home to the Fryderyk Chopin Museum).",
+   "locator": "Plot",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Dalam satu versi, Bebek Emas adalah putri yang disihir penyihir jahat dan berenang di danau di bawah Kastel Ostrogski di Warsawa (kini Museum Fryderyk Chopin).",
+    "en": "In one version the Gold Duck, a princess bewitched by an evil sorcerer, swam in a lake beneath Warsaw's Ostrogski Castle (now the Fryderyk Chopin Museum)."
+   }
+  },
+  {
+   "id": "z-ota-kaczka-c04",
+   "source_id": "z-ota-kaczka-s1",
+   "quote": "She could be restored to human form only by someone who could spend 100 ducats a day over three consecutive days, without sharing this fortune with anyone.",
+   "locator": "Plot",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Ia hanya bisa kembali ke wujud manusia bila seseorang membelanjakan 100 (seratus) dukat sehari selama tiga hari berturut-turut tanpa membaginya dengan siapa pun.",
+    "en": "She could be restored to human form only by someone spending 100 (a hundred) ducats a day for three straight days without sharing it."
+   }
+  },
+  {
+   "id": "z-ota-kaczka-c05",
+   "source_id": "z-ota-kaczka-s1",
+   "quote": "A certain soldier was close to succeeding. But as the third day was drawing to a close, he gave the last grosz (penny) to a beggar, and the Gold Duck vanished together with the castle.",
+   "locator": "Plot",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Seorang prajurit hampir berhasil, tetapi menjelang akhir hari ketiga ia memberikan grosz terakhirnya kepada pengemis, dan Bebek Emas lenyap bersama kastelnya.",
+    "en": "A soldier nearly succeeded, but as the third day closed he gave his last grosz to a beggar, and the Gold Duck vanished with the castle."
+   }
+  },
+  {
+   "id": "z-ota-kaczka-c06",
+   "source_id": "z-ota-kaczka-s2",
+   "quote": "Najstarszy dowód na funkcjonowanie legendy o złotej kaczce w Warszawie pochodzi z 1830 roku. Wtedy to Andrzej Słowaczyński wykorzystał jej fabułę w wodewilu Chłopiec studukatowy.",
+   "locator": "Warianty legendy",
+   "context": "historical-record",
+   "statement": {
+    "id": "Bukti tertua legenda bebek emas di Warsawa berasal dari tahun 1830, ketika Andrzej Słowaczyński memakai alurnya dalam vaudeville Chłopiec studukatowy.",
+    "en": "The oldest evidence of the gold duck legend in Warsaw dates from 1830, when Andrzej Słowaczyński used its plot in the vaudeville Chłopiec studukatowy."
+   }
+  },
+  {
+   "id": "z-ota-kaczka-c07",
+   "source_id": "z-ota-kaczka-s2",
+   "quote": "W 1852 roku legendę przytoczył Roman Zmorski w swoich Podaniach i baśniach ludu w Mazowszu. W jego wersji złota kaczka żyje nie pod Zamkiem Ostrogskich, lecz „na Dynasowskiej Górze”, w zalanych piwnicach zrujnowanego pałacu księcia de Nassau.",
+   "locator": "Warianty legendy",
+   "context": "historical-record",
+   "statement": {
+    "id": "Pada 1852 Roman Zmorski mencatat legenda ini dalam Podania i baśnie ludu w Mazowszu; dalam versinya bebek emas tinggal di ruang bawah tanah yang tergenang di istana runtuh milik Pangeran de Nassau.",
+    "en": "In 1852 Roman Zmorski recorded the legend in Podania i baśnie ludu w Mazowszu; in his version the gold duck lives in the flooded cellars of the ruined palace of the Prince de Nassau."
+   }
+  }
+ ],
+ "conflicts": [],
+ "gaps": [
+  {
+   "field": "images",
+   "searched": "Patung Bebek Emas di Warsawa mungkin ada di Commons tetapi belum diperiksa."
+  }
+ ]
+}
+```
+
+```json
+{
+ "schema": "mythics-entry/1",
+ "batch_id": "batch-123",
+ "slug": "zana-mythology",
+ "task": "enrich",
+ "tier": "core",
+ "researched_at": "2026-10-03",
+ "identity": {
+  "canonical_name": "Zana",
+  "native_name": null,
+  "display_name": {
+   "id": "Zana (mitologi Albania)",
+   "en": "Zana (Albanian mythology)"
+  },
+  "wikidata_qid": "Q3305717",
+  "claim_ids": [
+   "zana-mythology-c01"
+  ]
+ },
+ "alternate_names": [
+  {
+   "name": "Zanë",
+   "language": "sq",
+   "name_type": "regional",
+   "claim_ids": [
+    "zana-mythology-c01"
+   ]
+  },
+  {
+   "name": "Zërë",
+   "language": "sq",
+   "name_type": "regional",
+   "claim_ids": [
+    "zana-mythology-c01"
+   ]
+  }
+ ],
+ "jenis": {
+  "value": "peri",
+  "claim_ids": [
+   "zana-mythology-c01"
+  ]
+ },
+ "classification": {
+  "value": "fairy",
+  "claim_ids": [
+   "zana-mythology-c01"
+  ]
+ },
+ "culture": {
+  "value": "tradition-albanian",
+  "suggested_new": null,
+  "claim_ids": [
+   "zana-mythology-c01"
+  ]
+ },
+ "region": {
+  "value": "europe",
+  "claim_ids": [
+   "zana-mythology-c01"
+  ]
+ },
+ "countries": null,
+ "era": null,
+ "habitats": [
+  {
+   "value": "mountain",
+   "claim_ids": [
+    "zana-mythology-c01",
+    "zana-mythology-c04"
+   ]
+  },
+  {
+   "value": "water",
+   "claim_ids": [
+    "zana-mythology-c01"
+   ]
+  },
+  {
+   "value": "forest",
+   "claim_ids": [
+    "zana-mythology-c01"
+   ]
+  }
+ ],
+ "disposition": {
+  "value": "protective",
+  "claim_ids": [
+   "zana-mythology-c02"
+  ]
+ },
+ "traits": [],
+ "short_description": {
+  "id": "Zana adalah sosok mirip nimfa dalam mitologi Albania, terkait gunung, mata air, hutan, dan hewan, yang terkenal sangat berani dan melindungi para pejuang.",
+  "en": "The zana is a nymph-like figure of Albanian mythology, linked to mountains, springs, forests and animals, famed for great courage and for protecting warriors.",
+  "claim_ids": [
+   "zana-mythology-c01",
+   "zana-mythology-c02"
+  ]
+ },
+ "long_description": [
+  {
+   "id": "Zana (zanë dalam dialek Gheg, zërë dalam dialek Tosk) adalah sosok mirip nimfa dalam mitologi dan cerita rakyat Albania, biasanya terkait gunung, mata air dan sungai, hutan, tumbuhan, hewan, energi hidup manusia, dan kadang takdir. Zana e Madhe, \"Zana Agung\", diduga dewi Iliria yang setara dengan Artemis Yunani dan Diana Romawi.",
+   "en": "Albanian myth and folklore know the zana (Gheg zanë, Tosk zërë) as a nymph-like being bound up with mountains, springs and streams, woods, plants, animals, human life-force and at times fate. The \"Great Zana\", Zana e Madhe, is thought to have been an Illyrian goddess matching the Greek Artemis and the Roman Diana.",
+   "claim_ids": [
+    "zana-mythology-c01"
+   ]
+  },
+  {
+   "id": "Menurut kepercayaan rakyat, zana luar biasa berani, sehingga ada ungkapan Albania trim si zana, \"berani seperti zana\", dan mereka melindungi para pejuang seperti Pallas Athena. Di Albania utara dan Kosovo setiap gunung dikatakan punya zana-nya sendiri, yang tampak sebagai gadis cantik mandi di sungai gunung. Zana asli dikawal tiga kambing liar bertanduk emas, dan zana dipercaya dapat membuat manusia membatu dengan tatapannya.",
+   "en": "Folk belief holds the zana to be fearless, hence the Albanian saying trim si zana, \"brave as a zana\", and she shields warriors much as Pallas Athena did. Across northern Albania and Kosovo, each peak is thought to have a zana of its own, seen as a lovely girl bathing in a mountain brook. Three wild, golden-horned goats escort the first zana, and a zana's look alone is believed to turn people to stone.",
+   "claim_ids": [
+    "zana-mythology-c02",
+    "zana-mythology-c04",
+    "zana-mythology-c05",
+    "zana-mythology-c07"
+   ]
+  },
+  {
+   "id": "Thana dari Iliria, nama nimfa atau dewi dalam prasasti nazar zaman Romawi, secara tradisional dianggap cikal bakal Zana Albania, dan dipandang seasal dengan Diāna dalam bahasa Latin. Kepercayaan rakyat bahkan menyebut para zana menyaksikan pidato-pidato di Liga Prizren tahun 1878.",
+   "en": "The Illyrian Thana, a nymph or goddess named in Roman-era votive inscriptions, is traditionally held to be the forerunner of the Albanian zana and is seen as cognate with Latin Diāna. Folk belief even has the zanas watching the speeches at the League of Prizren in 1878.",
+   "claim_ids": [
+    "zana-mythology-c03",
+    "zana-mythology-c08"
+   ]
+  }
+ ],
+ "cultural_context": null,
+ "etymology": {
+  "original_form": "Thana",
+  "language": "Illyrian",
+  "literal_meaning": {
+   "id": "nama nimfa atau dewi Iliria",
+   "en": "name of an Illyrian nymph or goddess"
+  },
+  "claim_ids": [
+   "zana-mythology-c03"
+  ]
+ },
+ "story_mode": {
+  "who": {
+   "id": "Zana adalah sosok mirip nimfa Albania.",
+   "en": "The zana is an Albanian nymph-like figure.",
+   "claim_ids": [
+    "zana-mythology-c01"
+   ]
+  },
+  "origin": {
+   "id": "Ia berasal dari mitologi dan cerita rakyat Albania.",
+   "en": "She comes from Albanian myth and folklore.",
+   "claim_ids": [
+    "zana-mythology-c01"
+   ]
+  },
+  "role": {
+   "id": "Ia melindungi para pejuang.",
+   "en": "She protects warriors.",
+   "claim_ids": [
+    "zana-mythology-c02"
+   ]
+  },
+  "famous_for": {
+   "id": "Keberaniannya melahirkan ungkapan \"berani seperti zana\".",
+   "en": "Her courage gave rise to the saying \"brave as a zana\".",
+   "claim_ids": [
+    "zana-mythology-c02"
+   ]
+  }
+ },
+ "did_you_know": {
+  "id": "Di Albania utara dan Kosovo setiap gunung dikatakan punya zana-nya sendiri.",
+  "en": "Folk belief in northern Albania and Kosovo gives each mountain a zana of its own.",
+  "claim_ids": [
+   "zana-mythology-c04"
+  ]
+ },
+ "abilities": [
+  {
+   "ability_id": "petrification",
+   "name": {
+    "id": "Tatapan membatu",
+    "en": "Petrifying glance"
+   },
+   "description": {
+    "id": "Zana dipercaya dapat membuat manusia membatu dengan tatapannya.",
+    "en": "The zana is believed able to petrify people with a glance."
+   },
+   "claim_ids": [
+    "zana-mythology-c05"
+   ]
+  }
+ ],
+ "weaknesses": [],
+ "variants": [],
+ "stories": [],
+ "places": [],
+ "timeline": [],
+ "relations": [
+  {
+   "target_name": "Artemis",
+   "relation_type": "counterpart",
+   "note": {
+    "id": "Zana Agung disamakan dengan Artemis Yunani.",
+    "en": "The Great Zana is equated with the Greek Artemis."
+   },
+   "claim_ids": [
+    "zana-mythology-c01"
+   ]
+  },
+  {
+   "target_name": "Bardha",
+   "relation_type": "associated",
+   "note": {
+    "id": "Tokoh mitologi Albania lain yang mirip nimfa.",
+    "en": "Another nymph-like Albanian mythological figure."
+   },
+   "claim_ids": [
+    "zana-mythology-c06"
+   ]
+  },
+  {
+   "target_name": "Shtojzovalle",
+   "relation_type": "associated",
+   "note": {
+    "id": "Tokoh mitologi Albania lain yang mirip nimfa.",
+    "en": "Another nymph-like Albanian mythological figure."
+   },
+   "claim_ids": [
+    "zana-mythology-c06"
+   ]
+  }
+ ],
+ "modern_depictions": [],
+ "tradition_vs_modern": null,
+ "learning_questions": [
+  {
+   "id": "Mengapa sosok penjaga alam seperti zana sering digambarkan sebagai perempuan pemberani?",
+   "en": "Why are nature guardians like the zana often pictured as brave women?"
+  }
+ ],
+ "images": [],
+ "sources": [
+  {
+   "id": "zana-mythology-s1",
+   "url": "https://en.wikipedia.org/wiki/Zana_(mythology)",
+   "title": "Zana (mythology)",
+   "author": null,
+   "publisher": "Wikipedia (en)",
+   "published": null,
+   "language": "en",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  },
+  {
+   "id": "zana-mythology-s2",
+   "url": "https://sq.wikipedia.org/wiki/Zana_e_malit",
+   "title": "Zana e malit",
+   "author": null,
+   "publisher": "Wikipedia (sq)",
+   "published": null,
+   "language": "sq",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  }
+ ],
+ "claims": [
+  {
+   "id": "zana-mythology-c01",
+   "source_id": "zana-mythology-s1",
+   "quote": "is a nymph-like figure in Albanian mythology and folklore, usually associated with mountains, springs and streams, forests, vegetation and animals, human vital energy and sometimes destiny. Zana e Madhe (\"the Great Zana\") is thought to have been an Illyrian goddess, equivalent of the Ancient Greek Artemis and Roman Diana.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Zana (Zanë dalam Gheg, Zërë dalam Tosk) adalah sosok mirip nimfa dalam mitologi Albania yang terkait gunung, mata air, sungai, hutan, tumbuhan, hewan, energi hidup manusia, dan kadang takdir; Zana e Madhe (\"Zana Agung\") diduga dewi Iliria setara Artemis Yunani dan Diana Romawi.",
+    "en": "The zana (Gheg Zanë, Tosk Zërë) is a nymph-like figure of Albanian mythology tied to mountains, springs, streams, forests, plants, animals, human vital energy and sometimes destiny; Zana e Madhe (\"the Great Zana\") is thought to have been an Illyrian goddess equivalent to the Greek Artemis and Roman Diana."
+   }
+  },
+  {
+   "id": "zana-mythology-c02",
+   "source_id": "zana-mythology-s1",
+   "quote": "The zana are considered in folk beliefs to be extraordinary courageous (thus the Albanian expression trim si zana) and they confer their protection on warriors similarly to Pallas Athena of Ancient Greece.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Dalam kepercayaan rakyat zana dianggap luar biasa berani (sehingga ada ungkapan Albania trim si zana) dan melindungi para pejuang seperti Pallas Athena dari Yunani Kuno.",
+    "en": "Folk belief considers the zana extraordinarily courageous (hence the Albanian expression trim si zana), and they protect warriors like Pallas Athena of Ancient Greece."
+   }
+  },
+  {
+   "id": "zana-mythology-c03",
+   "source_id": "zana-mythology-s1",
+   "quote": "the Illyrian Thana (the name of a nymph, fairy or deity, attested in votive inscriptions of the Roman era) is traditionally considered the precursor of the Albanian Zana. The theonym is also regarded as a cognate and equivalent of the Latin Diāna.",
+   "locator": "Etymology",
+   "context": "etymology",
+   "statement": {
+    "id": "Thana dari Iliria (nama nimfa, peri, atau dewa dalam prasasti nazar zaman Romawi) secara tradisional dianggap cikal bakal Zana Albania, dan dipandang seasal dengan Diāna dalam bahasa Latin.",
+    "en": "The Illyrian Thana (a nymph, fairy or deity named in Roman-era votive inscriptions) is traditionally considered the precursor of the Albanian Zana and a cognate of Latin Diāna."
+   }
+  },
+  {
+   "id": "zana-mythology-c04",
+   "source_id": "zana-mythology-s1",
+   "quote": "In Northern Albania and Kosovo every mountain is said to have its own zana, who appeared as a fair maiden found bathing naked in mountain streams.",
+   "locator": "Attributes",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Di Albania utara dan Kosovo setiap gunung dikatakan punya zana sendiri, yang tampak sebagai gadis cantik mandi di sungai gunung; zana asli dikawal tiga kambing liar bertanduk emas.",
+    "en": "In Northern Albania and Kosovo every mountain is said to have its own zana, appearing as a fair maiden bathing in mountain streams; the original zana is escorted by three wild goats with golden horns."
+   }
+  },
+  {
+   "id": "zana-mythology-c05",
+   "source_id": "zana-mythology-s1",
+   "quote": "The zana is believed to have the power to petrify humans with a glance",
+   "locator": "Attributes",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Zana dipercaya memiliki kekuatan membuat manusia membatu dengan tatapannya.",
+    "en": "The zana is believed to have the power to petrify humans with a glance."
+   }
+  },
+  {
+   "id": "zana-mythology-c06",
+   "source_id": "zana-mythology-s1",
+   "quote": "Similar Albanian mythological figures with nymph-like attributes are: Ora, Bardha, Shtojzovalle, Mira and Fatí.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Tokoh mitologi Albania serupa yang mirip nimfa adalah Ora, Bardha, Shtojzovalle, Mira, dan Fatí.",
+    "en": "Similar Albanian nymph-like figures are Ora, Bardha, Shtojzovalle, Mira and Fatí."
+   }
+  },
+  {
+   "id": "zana-mythology-c07",
+   "source_id": "zana-mythology-s1",
+   "quote": "In Albanian folklore the original Zana is escorted by three wild goats with golden horns.",
+   "locator": "Attributes",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Dalam cerita rakyat Albania, Zana asli dikawal tiga kambing liar bertanduk emas.",
+    "en": "In Albanian folklore the original Zana is escorted by three wild goats with golden horns."
+   }
+  },
+  {
+   "id": "zana-mythology-c08",
+   "source_id": "zana-mythology-s2",
+   "quote": "Zanat mendohet se kanë vëzhguar fjalimet në Lidhjen e Prizrenit të vitit 1878.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Para zana dipercaya menyaksikan pidato-pidato di Liga Prizren tahun 1878.",
+    "en": "The zanas are thought to have watched the speeches at the League of Prizren in 1878."
+   }
+  }
+ ],
+ "conflicts": [],
+ "gaps": [
+  {
+   "field": "images",
+   "searched": "Tidak ada gambar Commons yang terbukti menggambarkan zana."
+  }
+ ]
+}
+```
+
+```json
+{
+ "schema": "mythics-entry/1",
+ "batch_id": "batch-123",
+ "slug": "autrimps",
+ "task": "new",
+ "tier": "core",
+ "researched_at": "2026-10-03",
+ "identity": {
+  "canonical_name": "Autrimps",
+  "native_name": null,
+  "display_name": {
+   "id": "Autrimps",
+   "en": "Autrimps"
+  },
+  "wikidata_qid": "Q9162856",
+  "claim_ids": [
+   "autrimps-c01",
+   "autrimps-c02"
+  ]
+ },
+ "alternate_names": [
+  {
+   "name": "Autrimpas",
+   "language": "lt",
+   "name_type": "regional",
+   "claim_ids": [
+    "autrimps-c02"
+   ]
+  },
+  {
+   "name": "Natrimpe",
+   "language": "lt",
+   "name_type": "alias",
+   "claim_ids": [
+    "autrimps-c03"
+   ]
+  }
+ ],
+ "jenis": {
+  "value": "dewa",
+  "claim_ids": [
+   "autrimps-c01",
+   "autrimps-c02"
+  ]
+ },
+ "classification": {
+  "value": "deity",
+  "claim_ids": [
+   "autrimps-c01",
+   "autrimps-c02"
+  ]
+ },
+ "culture": {
+  "value": "tradition-baltic",
+  "suggested_new": null,
+  "claim_ids": [
+   "autrimps-c01",
+   "autrimps-c02"
+  ]
+ },
+ "region": {
+  "value": "europe",
+  "claim_ids": [
+   "autrimps-c01",
+   "autrimps-c02"
+  ]
+ },
+ "countries": null,
+ "era": null,
+ "habitats": [
+  {
+   "value": "water",
+   "claim_ids": [
+    "autrimps-c01",
+    "autrimps-c02"
+   ]
+  }
+ ],
+ "disposition": null,
+ "traits": [
+  {
+   "value": "water-associated",
+   "claim_ids": [
+    "autrimps-c01",
+    "autrimps-c02"
+   ]
+  }
+ ],
+ "short_description": {
+  "id": "Autrimps adalah dewa laut dan danau Prusia Kuno menurut katalog Hieronim Malecki abad ke-16, yang dibandingkan dengan Neptunus Romawi.",
+  "en": "Autrimps is the Old Prussian god of seas and lakes according to Hieronim Malecki's 16th-century catalogue, compared with the Roman Neptune.",
+  "claim_ids": [
+   "autrimps-c01",
+   "autrimps-c03"
+  ]
+ },
+ "long_description": [
+  {
+   "id": "Autrimps adalah dewa laut dan danau Prusia Kuno menurut katalog Hieronim Malecki dari abad ke-16. Ia disamakan dengan penguasa sihir, dewa perairan Patrimps-Andaj.",
+   "en": "Autrimps is the Old Prussian god of seas and lakes as listed in Hieronim Malecki's 16th-century catalogue. He is identified with the master of magic, the water god Patrimps-Andaj.",
+   "claim_ids": [
+    "autrimps-c01"
+   ]
+  },
+  {
+   "id": "Dalam sumber abad ke-16 dan ke-17 ia disebut Antrimpus atau Natrimpe dan digambarkan sebagai dewa laut dan perairan luas, yang dibandingkan dengan Neptunus Romawi. Vladimir Toporov menurunkan Autrimps dan Patrimps dari dewa kesuburan Trimps.",
+   "en": "Sixteenth- and seventeenth-century sources call him Antrimpus or Natrimpe and describe him as god of the sea and wide waters, likened to the Roman Neptune. Vladimir Toporov derives Autrimps and Patrimps from a fertility god, Trimps.",
+   "claim_ids": [
+    "autrimps-c02",
+    "autrimps-c03",
+    "autrimps-c04"
+   ]
+  }
+ ],
+ "cultural_context": null,
+ "etymology": null,
+ "story_mode": {
+  "who": {
+   "id": "Autrimps adalah dewa laut Prusia Kuno.",
+   "en": "Autrimps is an Old Prussian sea god.",
+   "claim_ids": [
+    "autrimps-c01",
+    "autrimps-c02"
+   ]
+  },
+  "origin": {
+   "id": "Ia berasal dari agama Prusia Kuno.",
+   "en": "He comes from Old Prussian religion.",
+   "claim_ids": [
+    "autrimps-c02"
+   ]
+  },
+  "role": {
+   "id": "Ia menguasai laut dan perairan luas.",
+   "en": "He rules the sea and wide waters.",
+   "claim_ids": [
+    "autrimps-c03"
+   ]
+  },
+  "famous_for": {
+   "id": "Ia dibandingkan dengan Neptunus Romawi.",
+   "en": "He is compared with the Roman Neptune.",
+   "claim_ids": [
+    "autrimps-c03"
+   ]
+  }
+ },
+ "did_you_know": null,
+ "abilities": [],
+ "weaknesses": [],
+ "variants": [],
+ "stories": [],
+ "places": [],
+ "timeline": [],
+ "relations": [
+  {
+   "target_name": "Patrimps",
+   "relation_type": "associated",
+   "note": {
+    "id": "Autrimps disamakan dengan dewa perairan Patrimps-Andaj.",
+    "en": "Autrimps is identified with the water god Patrimps-Andaj."
+   },
+   "claim_ids": [
+    "autrimps-c01"
+   ]
+  },
+  {
+   "target_name": "Neptunus",
+   "relation_type": "counterpart",
+   "note": {
+    "id": "Ia dibandingkan dengan Neptunus Romawi.",
+    "en": "He is compared with the Roman Neptune."
+   },
+   "claim_ids": [
+    "autrimps-c03"
+   ]
+  }
+ ],
+ "modern_depictions": [],
+ "tradition_vs_modern": null,
+ "learning_questions": [
+  {
+   "id": "Mengapa bangsa pesisir Baltik memerlukan dewa laut dan danau?",
+   "en": "Why would Baltic coastal peoples need a god of seas and lakes?"
+  }
+ ],
+ "images": [],
+ "sources": [
+  {
+   "id": "autrimps-s1",
+   "url": "https://pl.wikipedia.org/wiki/Autrimps",
+   "title": "Autrimps",
+   "author": null,
+   "publisher": "Wikipedia (pl)",
+   "published": null,
+   "language": "pl",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  },
+  {
+   "id": "autrimps-s2",
+   "url": "https://lt.wikipedia.org/wiki/Autrimpas",
+   "title": "Autrimpas",
+   "author": null,
+   "publisher": "Vikipedija (lt)",
+   "published": null,
+   "language": "lt",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  }
+ ],
+ "claims": [
+  {
+   "id": "autrimps-c01",
+   "source_id": "autrimps-s1",
+   "quote": "według katalogu Hieronima Maleckiego (XVI w) staropruski bóg mórz i jezior; tożsamy z władcą magii, bogiem wód Patrimpsem-Andajem.",
+   "locator": "lead",
+   "context": "religious-tradition",
+   "statement": {
+    "id": "Menurut katalog Hieronim Malecki (abad ke-16, XVI), Autrimps adalah dewa laut dan danau Prusia Kuno, disamakan dengan penguasa sihir, dewa perairan Patrimps-Andaj.",
+    "en": "According to Hieronim Malecki's catalogue (16th century, XVI), Autrimps is the Old Prussian god of seas and lakes, identified with the master of magic, the water god Patrimps-Andaj."
+   }
+  },
+  {
+   "id": "autrimps-c02",
+   "source_id": "autrimps-s2",
+   "quote": "Autrimpas – senovės prūsų jūros dievas.",
+   "locator": "lead",
+   "context": "religious-tradition",
+   "statement": {
+    "id": "Autrimpas adalah dewa laut Prusia Kuno.",
+    "en": "Autrimpas is the ancient Prussian sea god."
+   }
+  },
+  {
+   "id": "autrimps-c03",
+   "source_id": "autrimps-s2",
+   "quote": "XVI a. – XVII a. šaltiniuose jis vadinamas Antrimpu, Natrimpu, apibūdinamas kaip jūros ir plačių vandenų dievas. Lyginamas su romėnų Neptūnu.",
+   "locator": "lead",
+   "context": "historical-record",
+   "statement": {
+    "id": "Dalam sumber abad ke-16 hingga ke-17 (XVI, XVII) ia disebut Antrimpus atau Natrimpe, digambarkan sebagai dewa laut dan perairan luas, dan dibandingkan dengan Neptunus (Neptune) Romawi.",
+    "en": "In 16th–17th-century (XVI, XVII) sources he is called Antrimpus or Natrimpe, described as god of the sea and wide waters, and compared with the Roman Neptune."
+   }
+  },
+  {
+   "id": "autrimps-c04",
+   "source_id": "autrimps-s2",
+   "quote": "Vladimiras Toporovas Autrimpą ir Patrimpą kildina iš vaisingumo dievo Trimpo.",
+   "locator": "lead",
+   "context": "scholarly-interpretation",
+   "statement": {
+    "id": "Vladimir Toporov menurunkan Autrimps dan Patrimps dari dewa kesuburan Trimps.",
+    "en": "Vladimir Toporov derives Autrimps and Patrimps from the fertility god Trimps."
+   }
+  }
+ ],
+ "conflicts": [],
+ "gaps": [
+  {
+   "field": "images",
+   "searched": "Tidak ada gambar Commons yang terbukti menggambarkan Autrimps."
+  },
+  {
+   "field": "sources",
+   "searched": "Hanya dua artikel Wikipedia pendek; katalog Malecki tidak dibuka langsung. Klaim di bawah target core karena sumber memang sangat sedikit."
+  }
+ ]
+}
+```
+
+```json
+{
+ "schema": "mythics-entry/1",
+ "batch_id": "batch-123",
+ "slug": "conde-estruch",
+ "task": "enrich",
+ "tier": "core",
+ "researched_at": "2026-10-03",
+ "identity": {
+  "canonical_name": "Conde Estruch",
+  "native_name": null,
+  "display_name": {
+   "id": "Conde Estruch",
+   "en": "Conde Estruch"
+  },
+  "wikidata_qid": "Q2720272",
+  "claim_ids": [
+   "conde-estruch-c01"
+  ]
+ },
+ "alternate_names": [
+  {
+   "name": "Comte Estruc",
+   "language": "ca",
+   "name_type": "regional",
+   "claim_ids": [
+    "conde-estruch-c05"
+   ]
+  },
+  {
+   "name": "Arnald Estruc",
+   "language": "ca",
+   "name_type": "alias",
+   "claim_ids": [
+    "conde-estruch-c01"
+   ]
+  }
+ ],
+ "jenis": {
+  "value": "hantu",
+  "claim_ids": [
+   "conde-estruch-c01"
+  ]
+ },
+ "classification": {
+  "value": "undead",
+  "claim_ids": [
+   "conde-estruch-c01"
+  ]
+ },
+ "culture": {
+  "value": "tradition-catalan",
+  "suggested_new": null,
+  "claim_ids": [
+   "conde-estruch-c01"
+  ]
+ },
+ "region": {
+  "value": "europe",
+  "claim_ids": [
+   "conde-estruch-c01"
+  ]
+ },
+ "countries": null,
+ "era": null,
+ "habitats": [],
+ "disposition": {
+  "value": "malevolent",
+  "claim_ids": [
+   "conde-estruch-c03"
+  ]
+ },
+ "traits": [
+  {
+   "value": "undead",
+   "claim_ids": [
+    "conde-estruch-c03"
+   ]
+  }
+ ],
+ "short_description": {
+  "id": "Conde Estruch adalah bangsawan Katalan abad ke-12 yang menurut kisahnya menjadi vampir; para sejarawan meragukan bahwa legenda ini benar-benar tradisi lama.",
+  "en": "Conde Estruch is a 12th-century Catalan noble said to have become a vampire; historians doubt that the legend is genuinely old.",
+  "claim_ids": [
+   "conde-estruch-c01",
+   "conde-estruch-c06"
+  ]
+ },
+ "long_description": [
+  {
+   "id": "Dalam mitologi Katalan, Comte Estruch, juga dikenal sebagai Arnald Estruc atau Wilfred Estruch, adalah bangsawan Katalan abad ke-12 yang menjadi vampir. Kisah ini disebut sebagai salah satu dari sedikit mitos Iberia yang berkaitan dengan vampirisme.",
+   "en": "Catalan myth tells of Comte Estruch, also called Arnald Estruc or Wilfred Estruch, a twelfth-century Catalan nobleman who turned into a vampire. The tale is described as one of the few Iberian myths connected with vampirism.",
+   "claim_ids": [
+    "conde-estruch-c01",
+    "conde-estruch-c02"
+   ]
+  },
+  {
+   "id": "Menurut legenda, Raja Alfons II dari Aragon mengirim sang bangsawan tua ke Kastel Llers untuk memerangi paganisme dan sihir, dan ia terbunuh di sana pada 1173. Setelah mati ia mengisap darah penduduk dan menghamili perempuan muda, yang sembilan bulan kemudian melahirkan bayi-bayi mengerikan yang mati saat lahir. Ia akhirnya dibunuh, dalam satu versi oleh seorang biarawati tua, dalam versi lain oleh pertapa Yahudi dengan ritual Kabbalah.",
+   "en": "Legend says King Alfons II of Aragon sent the aged noble to Llers Castle to fight paganism and witchcraft, and he was killed there in 1173. After death he drank villagers' blood and got young women pregnant; nine months later they bore monstrous babies who died at birth. He was finally destroyed, in one version by an old nun, in another by a Jewish hermit using rites from the Kabbalah.",
+   "claim_ids": [
+    "conde-estruch-c03",
+    "conde-estruch-c04"
+   ]
+  },
+  {
+   "id": "Kisah ini dipopulerkan oleh novel Salvador Sáinz, Estruch (1991). Penulisnya tidak pernah membuktikan sumber abad ke-12 yang ia klaim, dan para sejarawan umumnya menolak keaslian legenda ini karena tidak ada jejak sejarah sosok Estruch.",
+   "en": "The story was popularised by Salvador Sáinz's novel Estruch (1991). The author never proved the 12th-century source he claimed, and historians generally reject the legend's authenticity, as there is no historical trace of Estruch.",
+   "claim_ids": [
+    "conde-estruch-c05",
+    "conde-estruch-c06"
+   ]
+  }
+ ],
+ "cultural_context": null,
+ "etymology": null,
+ "story_mode": {
+  "who": {
+   "id": "Conde Estruch adalah bangsawan yang menjadi vampir.",
+   "en": "Conde Estruch is a noble who became a vampire.",
+   "claim_ids": [
+    "conde-estruch-c01"
+   ]
+  },
+  "origin": {
+   "id": "Kisahnya berasal dari mitologi Katalan.",
+   "en": "His tale comes from Catalan mythology.",
+   "claim_ids": [
+    "conde-estruch-c01"
+   ]
+  },
+  "role": {
+   "id": "Ia mengisap darah penduduk sekitar Kastel Llers.",
+   "en": "He drinks the blood of people around Llers Castle.",
+   "claim_ids": [
+    "conde-estruch-c03"
+   ]
+  },
+  "famous_for": {
+   "id": "Kisahnya disebut legenda vampir tertua di Eropa, walau keasliannya diragukan.",
+   "en": "His tale is called the oldest vampire tale in European history, though its authenticity is doubted.",
+   "claim_ids": [
+    "conde-estruch-c02",
+    "conde-estruch-c06"
+   ]
+  }
+ },
+ "did_you_know": {
+  "id": "Kastel Llers, latar kisah Conde Estruch, hancur dalam Perang Saudara Spanyol.",
+  "en": "Llers Castle, setting of the Conde Estruch tale, was destroyed in the Spanish Civil War.",
+  "claim_ids": [
+   "conde-estruch-c04"
+  ]
+ },
+ "abilities": [],
+ "weaknesses": [],
+ "variants": [],
+ "stories": [],
+ "places": [
+  {
+   "name": {
+    "id": "Kastel Llers",
+    "en": "Llers Castle"
+   },
+   "type": "other",
+   "description": {
+    "id": "Tempat sang bangsawan terbunuh dan meneror penduduk; hancur dalam Perang Saudara Spanyol.",
+    "en": "Where the noble was killed and terrorised villagers; destroyed in the Spanish Civil War."
+   },
+   "claim_ids": [
+    "conde-estruch-c03",
+    "conde-estruch-c04"
+   ]
+  }
+ ],
+ "timeline": [],
+ "relations": [],
+ "modern_depictions": [
+  {
+   "title": "Estruch",
+   "year": 1991,
+   "medium": "literature",
+   "description": {
+    "id": "Novel Salvador Sáinz yang mempopulerkan kisah ini.",
+    "en": "Salvador Sáinz's novel that popularised the tale."
+   },
+   "claim_ids": [
+    "conde-estruch-c05"
+   ]
+  }
+ ],
+ "tradition_vs_modern": null,
+ "learning_questions": [
+  {
+   "id": "Bagaimana cara membedakan legenda rakyat yang asli dari kisah rekaan modern?",
+   "en": "How can we tell a genuine folk legend from a modern invention?"
+  }
+ ],
+ "images": [],
+ "sources": [
+  {
+   "id": "conde-estruch-s1",
+   "url": "https://en.wikipedia.org/wiki/Conde_Estruch",
+   "title": "Conde Estruch",
+   "author": null,
+   "publisher": "Wikipedia (en)",
+   "published": null,
+   "language": "en",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  },
+  {
+   "id": "conde-estruch-s2",
+   "url": "https://ca.wikipedia.org/wiki/Comte_Estruc",
+   "title": "Comte Estruc",
+   "author": null,
+   "publisher": "Viquipèdia (ca)",
+   "published": null,
+   "language": "ca",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  }
+ ],
+ "claims": [
+  {
+   "id": "conde-estruch-c01",
+   "source_id": "conde-estruch-s1",
+   "quote": "In Catalan mythology, Comte Estruch—also known as Arnald Estruc or Wilfred Estruch—was a 12th-century Catalan noble who became a vampire.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Dalam mitologi Katalan, Comte Estruch, juga disebut Arnald Estruc atau Wilfred Estruch, adalah bangsawan Katalan abad ke-12 yang menjadi vampir.",
+    "en": "In Catalan mythology, Comte Estruch, also Arnald Estruc or Wilfred Estruch, was a 12th-century Catalan noble who became a vampire."
+   }
+  },
+  {
+   "id": "conde-estruch-c02",
+   "source_id": "conde-estruch-s1",
+   "quote": "This legend is the oldest vampire tale in European history and is one of the few Iberian myths associated with vampirism.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Legenda ini disebut kisah vampir tertua dalam sejarah Eropa dan salah satu dari sedikit mitos Iberia tentang vampirisme.",
+    "en": "This legend is called the oldest vampire tale in European history and one of the few Iberian myths about vampirism."
+   }
+  },
+  {
+   "id": "conde-estruch-c03",
+   "source_id": "conde-estruch-s1",
+   "quote": "King Alfons II of Aragon sent the old noble Count Arnald Estruc to fight paganism and witchcraft at Llers Castle (Alt Emporda) where the Count was killed in 1173. ... Count Estruch sucked blood from the villagers in the area and seduced and impregnated young women. After nine months, these women would give birth to monstrous newborns who were dead at birth.",
+   "locator": "Legend",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Raja Alfons II dari Aragon mengirim bangsawan tua Arnald Estruc ke Kastel Llers (Alt Empordà) untuk memerangi paganisme dan sihir, dan ia terbunuh di sana pada 1173; setelah itu ia mengisap darah penduduk dan menghamili perempuan muda, yang setelah sembilan bulan melahirkan bayi mengerikan yang mati saat lahir.",
+    "en": "King Alfons II of Aragon sent the old noble Arnald Estruc to Llers Castle (Alt Empordà) to fight paganism and witchcraft, where he was killed in 1173; afterwards he sucked villagers' blood and impregnated young women, who after nine months bore monstrous newborns dead at birth."
+   }
+  },
+  {
+   "id": "conde-estruch-c04",
+   "source_id": "conde-estruch-s1",
+   "quote": "In one version, he was slain by an elderly nun. In other versions, a Jewish hermit killed the count using ancient rituals from the Kabbalah. The castle was destroyed during the Spanish Civil War .",
+   "locator": "Legend",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Dalam satu versi ia dibunuh seorang biarawati tua; dalam versi lain seorang pertapa Yahudi membunuhnya dengan ritual kuno Kabbalah; kastelnya hancur dalam Perang Saudara Spanyol.",
+    "en": "In one version he was slain by an elderly nun; in others a Jewish hermit killed him with ancient Kabbalah rituals; the castle was destroyed in the Spanish Civil War."
+   }
+  },
+  {
+   "id": "conde-estruch-c05",
+   "source_id": "conde-estruch-s2",
+   "quote": "El Comte Estruc és un personatge literari que apareix a la novel·la de l'escriptor Salvador Sáinz Estruch (1991).",
+   "locator": "lead",
+   "context": "modern-popular-culture",
+   "statement": {
+    "id": "Comte Estruc adalah tokoh sastra dalam novel karya Salvador Sáinz, Estruch (1991).",
+    "en": "Comte Estruc is a literary character in Salvador Sáinz's novel Estruch (1991)."
+   }
+  },
+  {
+   "id": "conde-estruch-c06",
+   "source_id": "conde-estruch-s2",
+   "quote": "Malgrat que l'autor afirma que la seva obra es basa en una llegenda que ell mateix recuperà d'una història del segle xii, mai no n'ha establert la fidelitat ni n'ha aportat cap prova. ... fa que, en general, els historiadors neguin la veracitat de la suposada llegenda i sostinguin que no hi ha rastres històrics de la figura d'Estruch.",
+   "locator": "Polèmica sobre les fonts",
+   "context": "scholarly-interpretation",
+   "statement": {
+    "id": "Para sejarawan umumnya menolak kebenaran legenda yang diklaim itu dan berpendapat tidak ada jejak sejarah sosok Estruch; penulisnya tidak pernah membuktikan sumber abad ke-12 yang ia klaim.",
+    "en": "Historians generally deny the truth of the supposed legend and hold that there is no historical trace of Estruch; the author never proved the 12th-century source he claimed."
+   }
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": {
+    "id": "Keaslian legenda",
+    "en": "Authenticity of the legend"
+   },
+   "positions": [
+    {
+     "summary": {
+      "id": "Disebut legenda vampir tertua di Eropa dan mitos Katalan.",
+      "en": "Called the oldest vampire tale in European history and a Catalan myth."
+     },
+     "claim_ids": [
+      "conde-estruch-c01",
+      "conde-estruch-c02"
+     ]
+    },
+    {
+     "summary": {
+      "id": "Para sejarawan menganggapnya rekaan novelis Salvador Sáinz tanpa jejak sejarah.",
+      "en": "Historians see it as an invention of novelist Salvador Sáinz with no historical trace."
+     },
+     "claim_ids": [
+      "conde-estruch-c06"
+     ]
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  {
+   "field": "images",
+   "searched": "Tidak ada gambar Commons yang terbukti menggambarkan Conde Estruch."
+  }
+ ]
+}
+```
+
+```json
+{
+ "schema": "mythics-entry/1",
+ "batch_id": "batch-123",
+ "slug": "dakhanavar",
+ "task": "enrich",
+ "tier": "core",
+ "researched_at": "2026-10-03",
+ "identity": {
+  "canonical_name": "Dakhanavar",
+  "native_name": {
+   "text": "Դախանավար",
+   "script": "Armenian",
+   "claim_ids": [
+    "dakhanavar-c05"
+   ]
+  },
+  "display_name": {
+   "id": "Dakhanavar",
+   "en": "Dakhanavar"
+  },
+  "wikidata_qid": "Q4155338",
+  "claim_ids": [
+   "dakhanavar-c01"
+  ]
+ },
+ "alternate_names": [
+  {
+   "name": "Dashnavar",
+   "language": "hy",
+   "name_type": "alias",
+   "claim_ids": [
+    "dakhanavar-c05"
+   ]
+  }
+ ],
+ "jenis": {
+  "value": "hantu",
+  "claim_ids": [
+   "dakhanavar-c01"
+  ]
+ },
+ "classification": {
+  "value": "undead",
+  "claim_ids": [
+   "dakhanavar-c01"
+  ]
+ },
+ "culture": {
+  "value": "tradition-armenian",
+  "suggested_new": null,
+  "claim_ids": [
+   "dakhanavar-c01",
+   "dakhanavar-c05"
+  ]
+ },
+ "region": {
+  "value": "caucasus",
+  "claim_ids": [
+   "dakhanavar-c01"
+  ]
+ },
+ "countries": null,
+ "era": null,
+ "habitats": [
+  {
+   "value": "mountain",
+   "claim_ids": [
+    "dakhanavar-c03",
+    "dakhanavar-c05"
+   ]
+  },
+  {
+   "value": "cave",
+   "claim_ids": [
+    "dakhanavar-c03"
+   ]
+  }
+ ],
+ "disposition": {
+  "value": "protective",
+  "claim_ids": [
+   "dakhanavar-c01",
+   "dakhanavar-c05"
+  ]
+ },
+ "traits": [],
+ "short_description": {
+  "id": "Dakhanavar adalah vampir dalam cerita rakyat Armenia yang melindungi lembahnya dari penyusup dengan mengisap darah dari telapak kaki mereka saat tidur.",
+  "en": "The dakhanavar is a vampire of Armenian folklore who guarded his valley from intruders by sucking blood from their soles as they slept.",
+  "claim_ids": [
+   "dakhanavar-c01",
+   "dakhanavar-c03"
+  ]
+ },
+ "long_description": [
+  {
+   "id": "Dakhanavar adalah vampir dalam cerita rakyat Armenia yang menjaga lembahnya dari penyusup. Ia pertama kali dicatat oleh Baron August von Haxthausen dalam kisah perjalanannya tentang Armenia dan Transkaukasia Rusia pada pertengahan abad ke-19. Ia tinggal di Pegunungan Ultish Alto-tem, menguasai 366 lembah, dan tidak pernah membunuh penduduk yang tinggal di tanahnya.",
+   "en": "The dakhanavar is a vampire of Armenian lore who kept intruders out of his valley. The earliest record of him comes from Baron August von Haxthausen, who wrote about Armenia and Russian Transcaucasia around the middle of the 19th century. He lived in the Ultish Alto-tem mountains, held 366 valleys, and never killed the people who lived on his land.",
+   "claim_ids": [
+    "dakhanavar-c01",
+    "dakhanavar-c05",
+    "dakhanavar-c06"
+   ]
+  },
+  {
+   "id": "Ia membuntuti para pelancong sampai mereka beristirahat, lalu menyerang saat mereka tidur, biasanya mengisap darah dari kaki mereka. Dalam kisah yang dicatat Haxthausen, ia tinggal di sebuah gua dan tidak tahan bila ada yang masuk ke pegunungan itu atau menghitung lembahnya. Dua lelaki cerdik akhirnya mengakalinya dengan tidur saling meletakkan kaki di bawah kepala yang lain; sang vampir mengira mereka satu makhluk berkepala dua tanpa kaki, lalu lari dari lembah itu dan tak pernah terdengar lagi.",
+   "en": "He stalks travellers until they rest, then attacks them asleep, usually drinking from their feet. In the tale Haxthausen recorded he lived in a cave and could not bear anyone entering the mountains or counting the valleys. Two clever men finally tricked him by sleeping with each one's feet under the other's head; taking them for one creature with two heads and no feet, the vampire fled the valley and was never heard of again.",
+   "claim_ids": [
+    "dakhanavar-c02",
+    "dakhanavar-c03",
+    "dakhanavar-c04"
+   ]
+  }
+ ],
+ "cultural_context": null,
+ "etymology": null,
+ "story_mode": {
+  "who": {
+   "id": "Dakhanavar adalah vampir penjaga lembah.",
+   "en": "The dakhanavar is a valley-guarding vampire.",
+   "claim_ids": [
+    "dakhanavar-c01"
+   ]
+  },
+  "origin": {
+   "id": "Ia berasal dari cerita rakyat Armenia.",
+   "en": "He comes from Armenian folklore.",
+   "claim_ids": [
+    "dakhanavar-c01"
+   ]
+  },
+  "role": {
+   "id": "Ia melindungi lembahnya dari penyusup.",
+   "en": "He protects his valley from intruders.",
+   "claim_ids": [
+    "dakhanavar-c01",
+    "dakhanavar-c06"
+   ]
+  },
+  "famous_for": {
+   "id": "Ia mengisap darah dari telapak kaki orang yang tidur.",
+   "en": "He sucks blood from the soles of sleepers.",
+   "claim_ids": [
+    "dakhanavar-c03"
+   ]
+  }
+ },
+ "did_you_know": {
+  "id": "Dua lelaki mengakali dakhanavar dengan tidur saling meletakkan kaki di bawah kepala yang lain.",
+  "en": "Two men fooled the dakhanavar by sleeping with each one's feet under the other's head.",
+  "claim_ids": [
+   "dakhanavar-c04"
+  ]
+ },
+ "abilities": [],
+ "weaknesses": [
+  {
+   "name": {
+    "id": "Tipu daya tidur kepala-kaki",
+    "en": "Head-to-foot sleeping trick"
+   },
+   "description": {
+    "id": "Ia bingung melihat orang yang tidur dengan kaki di bawah kepala orang lain dan meninggalkan lembah.",
+    "en": "Confused by men sleeping feet-to-head, he left the valley."
+   },
+   "claim_ids": [
+    "dakhanavar-c04"
+   ]
+  }
+ ],
+ "variants": [],
+ "stories": [],
+ "places": [],
+ "timeline": [],
+ "relations": [],
+ "modern_depictions": [],
+ "tradition_vs_modern": null,
+ "learning_questions": [
+  {
+   "id": "Mengapa makhluk yang menakutkan bisa juga dianggap pelindung?",
+   "en": "How can a frightening creature also be seen as a protector?"
+  }
+ ],
+ "images": [],
+ "sources": [
+  {
+   "id": "dakhanavar-s1",
+   "url": "https://en.wikipedia.org/wiki/Dakhanavar",
+   "title": "Dakhanavar",
+   "author": null,
+   "publisher": "Wikipedia (en)",
+   "published": null,
+   "language": "en",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  },
+  {
+   "id": "dakhanavar-s2",
+   "url": "https://ru.wikipedia.org/wiki/%D0%94%D0%B0%D1%85%D0%B0%D0%BD%D0%B0%D0%B2%D0%B0%D1%80",
+   "title": "Даханавар",
+   "author": null,
+   "publisher": "Википедия (ru)",
+   "published": null,
+   "language": "ru",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  }
+ ],
+ "claims": [
+  {
+   "id": "dakhanavar-c01",
+   "source_id": "dakhanavar-s1",
+   "quote": "is a vampire in Armenian folklore who protected the valley from intruders, first reported by Baron August von Haxthausen in his mid-19th century account of Armenia and Russian Transcaucasia",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Dakhanavar adalah vampir dalam cerita rakyat Armenia yang melindungi lembah dari penyusup, pertama dicatat Baron August von Haxthausen dalam kisahnya tentang Armenia dan Transkaukasia Rusia pada pertengahan abad ke-19.",
+    "en": "The dakhanavar is a vampire of Armenian folklore who protected the valley from intruders, first reported by Baron August von Haxthausen in his mid-19th-century account of Armenia and Russian Transcaucasia."
+   }
+  },
+  {
+   "id": "dakhanavar-c02",
+   "source_id": "dakhanavar-s1",
+   "quote": "The Dakhanavar follows travelers until they stop for a rest, stalking their every move.  When they finally stop, the vampire attacks them in their sleep, typically going for their feet.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Dakhanavar membuntuti pelancong sampai mereka beristirahat, lalu menyerang saat mereka tidur, biasanya menyasar kaki mereka.",
+    "en": "The dakhanavar follows travellers until they rest, then attacks them asleep, typically going for their feet."
+   }
+  },
+  {
+   "id": "dakhanavar-c03",
+   "source_id": "dakhanavar-s1",
+   "quote": "There once dwelt in a cavern in this country a vampire, called Dakhanavar, who could not endure anyone to penetrate into these mountains or count their valleys. Everyone who attempted this had in the night his blood sucked by the monster, from the soles of his feet, until he died.",
+   "locator": "Description and common attributes",
+   "context": "historical-record",
+   "statement": {
+    "id": "Menurut catatan Haxthausen, di negeri itu pernah tinggal di sebuah gua vampir bernama Dakhanavar yang tidak tahan bila ada yang masuk ke pegunungan atau menghitung lembahnya; siapa pun yang mencoba diisap darahnya dari telapak kaki pada malam hari sampai mati.",
+    "en": "Per Haxthausen, a vampire called Dakhanavar once lived in a cave there and could not bear anyone entering the mountains or counting the valleys; anyone who tried had his blood sucked from his soles at night until he died."
+   }
+  },
+  {
+   "id": "dakhanavar-c04",
+   "source_id": "dakhanavar-s1",
+   "quote": "In one legend, he was outsmarted by two men who had already heard of the vampire's habits and slept with their feet under the other's head.  The vampire, thinking that they were one being with two heads and no feet, ran from the valley and was never heard from again.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Dalam satu legenda ia diakali dua lelaki yang tidur dengan kaki di bawah kepala yang lain; vampir itu mengira mereka satu makhluk berkepala dua tanpa kaki, lalu lari dari lembah dan tak terdengar lagi.",
+    "en": "In one legend two men outwitted him by sleeping with their feet under each other's heads; thinking them one two-headed, footless being, the vampire fled the valley and was never heard from again."
+   }
+  },
+  {
+   "id": "dakhanavar-c05",
+   "source_id": "dakhanavar-s2",
+   "quote": "Даханавар, также Дашнавар (арм. Դախանավար) — в древнеармянской мифологии вампир, который проживает в горах Ултиш Альто-тэм. Он прославился тем, что никогда не убивал жителей, которые жили на его землях.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Dakhanavar, juga Dashnavar (Դախանավար), dalam mitologi Armenia kuno adalah vampir yang tinggal di Pegunungan Ultish Alto-tem dan terkenal tidak pernah membunuh penduduk di tanahnya.",
+    "en": "The dakhanavar, also Dashnavar, is a vampire of ancient Armenian mythology living in the Ultish Alto-tem mountains, famed for never killing the people who lived on his land."
+   }
+  },
+  {
+   "id": "dakhanavar-c06",
+   "source_id": "dakhanavar-s2",
+   "quote": "Даханавар, по легенде, владел 366 долинами и никогда не пускал к себе чужаков. Обладая нечеловеческой мощью, он долгие годы защищал людей, не давая врагам пройти горное ущелье Ултиш Альто-тэм и захватить Армению",
+   "locator": "Описание",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Menurut legenda, Dakhanavar menguasai 366 lembah dan tidak pernah membiarkan orang asing masuk; dengan kekuatan luar biasa ia bertahun-tahun melindungi rakyat dengan mencegah musuh melewati ngarai Ultish Alto-tem dan menaklukkan Armenia.",
+    "en": "By legend the dakhanavar held 366 valleys and never let strangers in; with inhuman strength he protected the people for years, keeping enemies from passing the Ultish Alto-tem gorge to conquer Armenia."
+   }
+  }
+ ],
+ "conflicts": [],
+ "gaps": [
+  {
+   "field": "images",
+   "searched": "Tidak ada gambar Commons yang terbukti menggambarkan dakhanavar."
+  },
+  {
+   "field": "sources",
+   "searched": "Buku Haxthausen (1854) belum dibuka langsung; kutipannya diambil dari Wikipedia en."
+  }
+ ]
+}
+```
+
+```json
+{
+ "schema": "mythics-entry/1",
+ "batch_id": "batch-123",
+ "slug": "haltija",
+ "task": "enrich",
+ "tier": "core",
+ "researched_at": "2026-10-03",
+ "identity": {
+  "canonical_name": "Haltija",
+  "native_name": null,
+  "display_name": {
+   "id": "Haltija",
+   "en": "Haltija"
+  },
+  "wikidata_qid": "Q4708297",
+  "claim_ids": [
+   "haltija-c01"
+  ]
+ },
+ "alternate_names": [
+  {
+   "name": "Haltia",
+   "language": "fi",
+   "name_type": "alias",
+   "claim_ids": [
+    "haltija-c06"
+   ]
+  }
+ ],
+ "jenis": {
+  "value": "roh",
+  "claim_ids": [
+   "haltija-c01"
+  ]
+ },
+ "classification": {
+  "value": "spirit",
+  "claim_ids": [
+   "haltija-c01"
+  ]
+ },
+ "culture": {
+  "value": "tradition-finnish",
+  "suggested_new": null,
+  "claim_ids": [
+   "haltija-c01"
+  ]
+ },
+ "region": {
+  "value": "europe",
+  "claim_ids": [
+   "haltija-c01"
+  ]
+ },
+ "countries": null,
+ "era": null,
+ "habitats": [
+  {
+   "value": "dwelling",
+   "claim_ids": [
+    "haltija-c02"
+   ]
+  },
+  {
+   "value": "forest",
+   "claim_ids": [
+    "haltija-c01"
+   ]
+  }
+ ],
+ "disposition": {
+  "value": "protective",
+  "claim_ids": [
+   "haltija-c01"
+  ]
+ },
+ "traits": [
+  {
+   "value": "guardian",
+   "claim_ids": [
+    "haltija-c01"
+   ]
+  },
+  {
+   "value": "invisibility",
+   "claim_ids": [
+    "haltija-c01"
+   ]
+  }
+ ],
+ "short_description": {
+  "id": "Haltija adalah penghuni gaib suatu tempat dan pelindung makhluk hidup dalam mitologi Finlandia, yang hidup tak terlihat tetapi dapat menampakkan diri.",
+  "en": "In Finnish mythology a haltija is the supernatural inhabitant of a place and protector of living beings, living unseen but able to show itself.",
+  "claim_ids": [
+   "haltija-c01",
+   "haltija-c07"
+  ]
+ },
+ "long_description": [
+  {
+   "id": "Dalam mitologi Finlandia, haltija adalah penghuni gaib suatu tempat dan pelindung makhluk hidup. Ia hidup di lingkungan yang tak terlihat tetapi dapat menampakkan diri kepada manusia. Haltija bisa berupa penghuni asli dan penjaga gaib suatu tempat, atau ibu asal suatu jenis hewan; orang yang meninggal dan dikuburkan di rumahnya juga dapat menjadi haltija.",
+   "en": "Finnish myth knows the haltija as a place's otherworldly resident and the guardian of living things. It dwells out of sight yet may reveal itself to people. A haltija may be the first, supernatural dweller and keeper of a place or the primal mother of an animal kind; someone who died and was buried at home could also become one.",
+   "claim_ids": [
+    "haltija-c01",
+    "haltija-c02",
+    "haltija-c06"
+   ]
+  },
+  {
+   "id": "Haltija suatu tempat adalah makhluk penyendiri yang melindungi rumahnya, alamnya, dan ketenangannya, sedangkan haltija suatu jenis hewan menjaga kelangsungan jenis itu dengan mengembalikan hewan yang mati ke bumi. Menurut Risto Pulkkinen, jumala menguasai konsep yang luas seperti air, sedangkan haltija lebih setempat, misalnya menguasai satu perairan tertentu.",
+   "en": "A local haltija is a solitary being guarding its home, its nature and its peace, while the haltija of an animal kind keeps that kind alive by returning dead animals to the earth. Risto Pulkkinen described a jumala as ruling a broad concept such as water, while a haltija is local, ruling a particular body of water.",
+   "claim_ids": [
+    "haltija-c03",
+    "haltija-c04"
+   ]
+  },
+  {
+   "id": "Kata haltija mungkin berasal dari bahasa Proto-Nordik *halđiaz, \"memegang\", atau dari kata kerja Finlandia hallita, \"menguasai\". Lauri Harvilahti mengusulkan asal Baltik dari žaltys, \"ular rumput\", yang dianggap roh rumah.",
+   "en": "The word may come from Proto-Norse *halđiaz, \"hold\", or from the Finnish verb hallita, \"to rule\". Lauri Harvilahti suggested a Baltic source in žaltys, \"grass snake\", regarded as a household spirit.",
+   "claim_ids": [
+    "haltija-c05"
+   ]
+  }
+ ],
+ "cultural_context": null,
+ "etymology": {
+  "original_form": "*halđiaz",
+  "language": "Proto-Norse",
+  "literal_meaning": {
+   "id": "memegang (atau dari hallita, \"menguasai\")",
+   "en": "hold (or from hallita, \"to rule\")"
+  },
+  "claim_ids": [
+   "haltija-c05"
+  ]
+ },
+ "story_mode": {
+  "who": {
+   "id": "Haltija adalah roh penjaga suatu tempat.",
+   "en": "A haltija is a place's guardian spirit.",
+   "claim_ids": [
+    "haltija-c01"
+   ]
+  },
+  "origin": {
+   "id": "Ia berasal dari mitologi Finlandia.",
+   "en": "It comes from Finnish mythology.",
+   "claim_ids": [
+    "haltija-c01"
+   ]
+  },
+  "role": {
+   "id": "Ia melindungi tempat, alam, dan makhluk hidup.",
+   "en": "It protects places, nature and living beings.",
+   "claim_ids": [
+    "haltija-c01",
+    "haltija-c03"
+   ]
+  },
+  "famous_for": {
+   "id": "Banyak sekali jenis haltija, jauh lebih banyak daripada dewa.",
+   "en": "There are many more kinds of haltija than gods.",
+   "claim_ids": [
+    "haltija-c04"
+   ]
+  }
+ },
+ "did_you_know": {
+  "id": "Orang yang meninggal dan dikuburkan di rumahnya dapat menjadi haltija.",
+  "en": "A person who died and was buried at home could become a haltija.",
+  "claim_ids": [
+   "haltija-c02"
+  ]
+ },
+ "abilities": [],
+ "weaknesses": [],
+ "variants": [],
+ "stories": [],
+ "places": [],
+ "timeline": [],
+ "relations": [],
+ "modern_depictions": [],
+ "tradition_vs_modern": null,
+ "learning_questions": [
+  {
+   "id": "Apa beda roh penjaga tempat seperti haltija dengan dewa yang menguasai seluruh alam?",
+   "en": "How does a place spirit like the haltija differ from a god ruling all of nature?"
+  }
+ ],
+ "images": [],
+ "sources": [
+  {
+   "id": "haltija-s1",
+   "url": "https://en.wikipedia.org/wiki/Haltija",
+   "title": "Haltija",
+   "author": null,
+   "publisher": "Wikipedia (en)",
+   "published": null,
+   "language": "en",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  },
+  {
+   "id": "haltija-s2",
+   "url": "https://fi.wikipedia.org/wiki/Haltija",
+   "title": "Haltija",
+   "author": null,
+   "publisher": "Wikipedia (fi)",
+   "published": null,
+   "language": "fi",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  }
+ ],
+ "claims": [
+  {
+   "id": "haltija-c01",
+   "source_id": "haltija-s1",
+   "quote": "In Finnish mythology, a haltija is a supernatural inhabitant of a specific place and a protector of living beings, living in an invisible environment but able to show themselves to humans.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Dalam mitologi Finlandia, haltija adalah penghuni gaib suatu tempat dan pelindung makhluk hidup, hidup di lingkungan tak terlihat tetapi dapat menampakkan diri kepada manusia.",
+    "en": "In Finnish mythology a haltija is the supernatural inhabitant of a place and protector of living beings, living invisibly but able to show itself to humans."
+   }
+  },
+  {
+   "id": "haltija-c02",
+   "source_id": "haltija-s1",
+   "quote": "A haltija could be the supernatural original inhabitant and guardian of a place or the original mother of an animal species. A person who died and was buried to their home could also become a haltija.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Haltija bisa berupa penghuni asli dan penjaga gaib suatu tempat atau ibu asal suatu jenis hewan; orang yang meninggal dan dikuburkan di rumahnya juga bisa menjadi haltija.",
+    "en": "A haltija could be the supernatural original inhabitant and guardian of a place or the original mother of an animal species; a person buried at home could also become one."
+   }
+  },
+  {
+   "id": "haltija-c03",
+   "source_id": "haltija-s1",
+   "quote": "A haltija of a locality is a solitary creature who protects their home, its nature and peace. A haltija of an animal species protects their continued existence by returning dead animals back to earth.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Haltija suatu tempat adalah makhluk penyendiri yang melindungi rumah, alam, dan ketenangannya; haltija suatu jenis hewan menjaga kelangsungan jenis itu dengan mengembalikan hewan mati ke bumi.",
+    "en": "A local haltija is a solitary creature protecting its home, nature and peace; a haltija of an animal species keeps it alive by returning dead animals to the earth."
+   }
+  },
+  {
+   "id": "haltija-c04",
+   "source_id": "haltija-s1",
+   "quote": "Risto Pulkkinen ... described a jumala as a being who rules over a wider concept, such as water, while a haltija is more localized, ruling over a specific body of water. According to him, there is only a small number of beings in Finnish paganism which could be called jumala, but a wide variety of haltija beings.",
+   "locator": "lead",
+   "context": "scholarly-interpretation",
+   "statement": {
+    "id": "Risto Pulkkinen menggambarkan jumala sebagai penguasa konsep luas seperti air, sedangkan haltija lebih setempat, menguasai satu perairan; menurutnya hanya sedikit jumala dalam paganisme Finlandia tetapi ada banyak sekali jenis haltija.",
+    "en": "Risto Pulkkinen described a jumala as ruling a wider concept such as water and a haltija as more local, ruling a specific body of water; he held that Finnish paganism had few jumala but a wide variety of haltija."
+   }
+  },
+  {
+   "id": "haltija-c05",
+   "source_id": "haltija-s1",
+   "quote": "The word is possibly derived from the Proto-Norse *halđiaz or *halđia- ... It can also be derived from the Finnish verb hallita, which means \"to rule\", \"to command\", \"to master\". ... Lauri Harvilahti suggested a Baltic origin: žaltys means a \"grass snake\", which was considered a household spirit.",
+   "locator": "Etymology",
+   "context": "etymology",
+   "statement": {
+    "id": "Kata ini mungkin berasal dari Proto-Nordik *halđiaz (\"memegang\"), atau dari kata kerja Finlandia hallita, \"menguasai\"; Lauri Harvilahti mengusulkan asal Baltik žaltys, \"ular rumput\", yang dianggap roh rumah.",
+    "en": "The word may derive from Proto-Norse *halđiaz (\"hold\") or from the Finnish verb hallita, \"to rule\"; Lauri Harvilahti suggested a Baltic origin in žaltys, \"grass snake\", seen as a household spirit."
+   }
+  },
+  {
+   "id": "haltija-c06",
+   "source_id": "haltija-s2",
+   "quote": "Haltijat eli haltiat ovat mytologisia taruolentoja, joiden on uskottu hallitsevan tai suojelevan jotakin paikkaa tai olentoa.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Haltija atau haltia adalah makhluk mitologis yang dipercaya menguasai atau melindungi suatu tempat atau makhluk.",
+    "en": "Haltijat or haltiat are mythological beings believed to rule or protect a place or a being."
+   }
+  },
+  {
+   "id": "haltija-c07",
+   "source_id": "haltija-s2",
+   "quote": "Haltijoiden katsotaan elävän yleensä ihmisille näkymättömissä, mutta toisinaan ne voivat näyttäytyä.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Haltija dianggap biasanya hidup tak terlihat oleh manusia, tetapi kadang dapat menampakkan diri.",
+    "en": "Haltijat are thought usually to live unseen by humans, but sometimes they can show themselves."
+   }
+  }
+ ],
+ "conflicts": [],
+ "gaps": [
+  {
+   "field": "images",
+   "searched": "Tidak ada gambar Commons yang terbukti menggambarkan haltija."
+  }
+ ]
+}
+```
+
+```json
+{
+ "schema": "mythics-entry/1",
+ "batch_id": "batch-123",
+ "slug": "k-op-ala",
+ "task": "new",
+ "tier": "core",
+ "researched_at": "2026-10-03",
+ "identity": {
+  "canonical_name": "K'op'ala",
+  "native_name": {
+   "text": "კოპალა",
+   "script": "Georgian",
+   "claim_ids": [
+    "k-op-ala-c01"
+   ]
+  },
+  "display_name": {
+   "id": "K'op'ala",
+   "en": "K'op'ala"
+  },
+  "wikidata_qid": "Q2911905",
+  "claim_ids": [
+   "k-op-ala-c01",
+   "k-op-ala-c04"
+  ]
+ },
+ "alternate_names": [
+  {
+   "name": "Kopala",
+   "language": "ka",
+   "name_type": "transliteration",
+   "claim_ids": [
+    "k-op-ala-c01"
+   ]
+  }
+ ],
+ "jenis": {
+  "value": "dewa",
+  "claim_ids": [
+   "k-op-ala-c01",
+   "k-op-ala-c04"
+  ]
+ },
+ "classification": {
+  "value": "deity",
+  "claim_ids": [
+   "k-op-ala-c01",
+   "k-op-ala-c04"
+  ]
+ },
+ "culture": {
+  "value": "tradition-georgian",
+  "suggested_new": null,
+  "claim_ids": [
+   "k-op-ala-c01",
+   "k-op-ala-c04"
+  ]
+ },
+ "region": {
+  "value": "caucasus",
+  "claim_ids": [
+   "k-op-ala-c01"
+  ]
+ },
+ "countries": null,
+ "era": null,
+ "habitats": [
+  {
+   "value": "mountain",
+   "claim_ids": [
+    "k-op-ala-c01",
+    "k-op-ala-c05"
+   ]
+  }
+ ],
+ "disposition": {
+  "value": "protective",
+  "claim_ids": [
+   "k-op-ala-c06"
+  ]
+ },
+ "traits": [
+  {
+   "value": "supernatural-strength",
+   "claim_ids": [
+    "k-op-ala-c02"
+   ]
+  }
+ ],
+ "short_description": {
+  "id": "K'op'ala adalah dewa komunitas pra-Kristen di pegunungan Georgia timur, pahlawan setengah dewa yang dihormati di Pshavi dan terkenal mengalahkan para devi (raksasa).",
+  "en": "K'op'ala is a pre-Christian community deity of the eastern Georgian highlands, a demigod hero revered in Pshavi and famed for defeating the devi (ogres).",
+  "claim_ids": [
+   "k-op-ala-c01",
+   "k-op-ala-c04"
+  ]
+ },
+ "long_description": [
+  {
+   "id": "K'op'ala adalah pahlawan tradisional atau setengah dewa yang dihormati di dataran tinggi Pshavi, Georgia. Dalam mitologi Georgia ia dewa setempat orang Pshav dari golongan khvtisshvili, \"anak-anak Tuhan\", dan merupakan dewa komunitas pra-Kristen di pegunungan Georgia timur. Tempat pemujaan utamanya ada di Pshavi dan Khevsureti.",
+   "en": "K'op'ala is a traditional hero or demigod revered in the Pshavi highlands of Georgia. Georgian mythology makes him a local god of the Pshavs from the khvtisshvili, the \"children of God\", a pre-Christian community deity of the eastern Georgian mountains. His chief shrines stood in Pshavi and Khevsureti.",
+   "claim_ids": [
+    "k-op-ala-c01",
+    "k-op-ala-c04",
+    "k-op-ala-c05"
+   ]
+  },
+  {
+   "id": "Ia pernah beradu melempar batu besar dengan para devi, raksasa jahat. Dalam adu itu, dewa Kviria memecut batu lemparan K'op'ala dengan cambuknya sehingga mendarat di atas benteng para devi di Tsikhetgori. Setelah kalah dalam pertempuran melawan K'op'ala dan rekannya Iakhsar, sisa para devi mundur ke bawah tanah, sehingga manusia dapat menetap di daerah itu.",
+   "en": "He once held a boulder-throwing contest with the devi, wicked ogres. In that contest the god Kviria lashed K'op'ala's stone with his whip so that it landed on the ogres' fortress of Tsikhetgori. Beaten in the battle that followed against K'op'ala and his companion Iakhsar, the surviving ogres withdrew underground and people could settle the land.",
+   "claim_ids": [
+    "k-op-ala-c02",
+    "k-op-ala-c03"
+   ]
+  },
+  {
+   "id": "Menurut kepercayaan orang Khevsur, memuja salib Karati, tempat pemujaannya, melindungi dari tenggelam dan tertimbun longsoran salju. Sebagai dewa komunitas ia melindungi para pengikutnya dalam kesulitan dan menyertai mereka dalam peperangan.",
+   "en": "Khevsurs believed that venerating the Karati cross, his shrine, protects against drowning and avalanches. As a community god he protected his followers in hardship and went with them on campaigns.",
+   "claim_ids": [
+    "k-op-ala-c05",
+    "k-op-ala-c06"
+   ]
+  }
+ ],
+ "cultural_context": null,
+ "etymology": null,
+ "story_mode": {
+  "who": {
+   "id": "K'op'ala adalah dewa setempat orang Pshav.",
+   "en": "K'op'ala is a local god of the Pshavs.",
+   "claim_ids": [
+    "k-op-ala-c04"
+   ]
+  },
+  "origin": {
+   "id": "Ia berasal dari dataran tinggi Pshavi, Georgia.",
+   "en": "He comes from the Pshavi highlands of Georgia.",
+   "claim_ids": [
+    "k-op-ala-c01"
+   ]
+  },
+  "role": {
+   "id": "Ia mengusir para devi dan melindungi pengikutnya.",
+   "en": "He drove out the devi and protects his followers.",
+   "claim_ids": [
+    "k-op-ala-c03",
+    "k-op-ala-c06"
+   ]
+  },
+  "famous_for": {
+   "id": "Ia terkenal karena adu lempar batu melawan para devi.",
+   "en": "He is famed for his boulder-throwing contest with the devi.",
+   "claim_ids": [
+    "k-op-ala-c02"
+   ]
+  }
+ },
+ "did_you_know": {
+  "id": "Dewa Kviria membantu lemparan batu K'op'ala dengan memecutnya agar terbang lebih jauh.",
+  "en": "The god Kviria helped K'op'ala's throw by whipping the stone so it flew farther.",
+  "claim_ids": [
+   "k-op-ala-c02"
+  ]
+ },
+ "abilities": [],
+ "weaknesses": [],
+ "variants": [],
+ "stories": [
+  {
+   "title": {
+    "id": "Adu lempar batu",
+    "en": "The boulder-throwing contest"
+   },
+   "role": {
+    "id": "Pahlawan",
+    "en": "Hero"
+   },
+   "summary": {
+    "id": "K'op'ala memenangkan adu lempar batu melawan para devi berkat bantuan Kviria, lalu bersama Iakhsar mengalahkan mereka dalam pertempuran.",
+    "en": "K'op'ala won the boulder-throwing contest against the devi with Kviria's help, then with Iakhsar defeated them in battle."
+   },
+   "claim_ids": [
+    "k-op-ala-c02",
+    "k-op-ala-c03"
+   ]
+  }
+ ],
+ "places": [],
+ "timeline": [],
+ "relations": [
+  {
+   "target_name": "Iakhsar",
+   "relation_type": "ally",
+   "note": {
+    "id": "Rekan K'op'ala dalam pertempuran melawan para devi.",
+    "en": "K'op'ala's companion in the battle against the devi."
+   },
+   "claim_ids": [
+    "k-op-ala-c03"
+   ]
+  },
+  {
+   "target_name": "Kviria",
+   "relation_type": "ally",
+   "note": {
+    "id": "Dewa yang membantu lemparan batunya.",
+    "en": "The god who helped his throw."
+   },
+   "claim_ids": [
+    "k-op-ala-c02"
+   ]
+  },
+  {
+   "target_name": "Devebi",
+   "relation_type": "enemy",
+   "note": {
+    "id": "Raksasa yang ia usir ke bawah tanah.",
+    "en": "The ogres he drove underground."
+   },
+   "claim_ids": [
+    "k-op-ala-c03"
+   ]
+  }
+ ],
+ "modern_depictions": [],
+ "tradition_vs_modern": null,
+ "learning_questions": [
+  {
+   "id": "Mengapa kisah pengusiran raksasa sering menjelaskan asal permukiman manusia?",
+   "en": "Why do tales of driving out giants often explain how people came to settle a land?"
+  }
+ ],
+ "images": [],
+ "sources": [
+  {
+   "id": "k-op-ala-s1",
+   "url": "https://en.wikipedia.org/wiki/Kopala",
+   "title": "Kopala",
+   "author": null,
+   "publisher": "Wikipedia (en)",
+   "published": null,
+   "language": "en",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  },
+  {
+   "id": "k-op-ala-s2",
+   "url": "https://ka.wikipedia.org/wiki/%E1%83%99%E1%83%9D%E1%83%9E%E1%83%90%E1%83%9A%E1%83%90",
+   "title": "კოპალა",
+   "author": null,
+   "publisher": "ვიკიპედია (ka)",
+   "published": null,
+   "language": "ka",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  }
+ ],
+ "claims": [
+  {
+   "id": "k-op-ala-c01",
+   "source_id": "k-op-ala-s1",
+   "quote": "(Georgian: კოპალა) is a traditional hero or demigod revered in the highlands of Pshavi in Georgia.",
+   "locator": "lead",
+   "context": "religious-tradition",
+   "statement": {
+    "id": "K'op'ala (Kopala, კოპალა) adalah pahlawan tradisional atau setengah dewa yang dihormati di dataran tinggi Pshavi, Georgia.",
+    "en": "Kopala (კოპალა) is a traditional hero or demigod revered in the Pshavi highlands of Georgia."
+   }
+  },
+  {
+   "id": "k-op-ala-c02",
+   "source_id": "k-op-ala-s1",
+   "quote": "he once was in a boulder-throwing contest against a number of devebi, or ogres, to see who could throw a boulder the furthest. ... the god \"Kviria\" struck the boulder with his whip, causing it to fly further than the ogre's boulder, and it landed on top of the ogres' fortress of Tsikhetgori.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Ia pernah beradu melempar batu besar melawan para devebi (raksasa); dewa Kviria memecut batunya sehingga mendarat di benteng Tsikhetgori.",
+    "en": "He once had a boulder-throwing contest with the devebi (ogres); the god Kviria whipped the stone so it landed on the fortress of Tsikhetgori."
+   }
+  },
+  {
+   "id": "k-op-ala-c03",
+   "source_id": "k-op-ala-s1",
+   "quote": "As a result of their defeat in an ensuing battle that Kopala fought with his companion \"Iakhsar\", the surviving ogres retreated underground, allowing mankind to settle in the area undisturbed.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Setelah kalah dalam pertempuran melawan K'op'ala dan rekannya Iakhsar, sisa raksasa mundur ke bawah tanah sehingga manusia dapat menetap di daerah itu tanpa gangguan.",
+    "en": "After their defeat in the ensuing battle against Kopala and his companion Iakhsar, the surviving ogres retreated underground, letting people settle the area undisturbed."
+   }
+  },
+  {
+   "id": "k-op-ala-c04",
+   "source_id": "k-op-ala-s2",
+   "quote": "კოპალა — წინაქრისტიანული სათემო ღვთაება აღმოსავლეთ საქართველოს მთაში. ქართულ მითოლოგიაში ფშაველთა (ფხოველთა) ლოკალური ღვთაება ხვთისშვილთა რიგიდან.",
+   "locator": "lead",
+   "context": "religious-tradition",
+   "statement": {
+    "id": "K'op'ala adalah dewa komunitas pra-Kristen di pegunungan Georgia timur; dalam mitologi Georgia ia dewa setempat orang Pshav (Pkhovel) dari golongan khvtisshvili (anak-anak Tuhan).",
+    "en": "K'op'ala is a pre-Christian community deity of the eastern Georgian mountains; in Georgian mythology a local god of the Pshavs (Pkhovels) from the khvtisshvili (children of God)."
+   }
+  },
+  {
+   "id": "k-op-ala-c05",
+   "source_id": "k-op-ala-s2",
+   "quote": "მისი ძირითადი სამლოცველო იყო ფშავსა (სოფ. უძილაურთა) და ხევსურეთში (ლიქოკის ხეობა, ჭალაისოფელი). სალოცავი ლიქოკის ხეობაში, კარატის მთის მწვერვალზე დგას. ხევსურთა რწმენით, კარატის ჯვრის თაყვანისცემა იცავს წყალში დახრჩობისგან და ზვავში მოყოლისგან",
+   "locator": "lead",
+   "context": "religious-tradition",
+   "statement": {
+    "id": "Tempat pemujaan utamanya di Pshavi dan Khevsureti; tempat suci di lembah Likoki berdiri di puncak Gunung Karati; menurut kepercayaan orang Khevsur, memuja salib Karati melindungi dari tenggelam dan tertimbun longsoran salju.",
+    "en": "His main shrines were in Pshavi and Khevsureti; the sanctuary in the Likoki valley stands on Mount Karati; Khevsurs believed venerating the Karati cross protects from drowning and avalanches."
+   }
+  },
+  {
+   "id": "k-op-ala-c06",
+   "source_id": "k-op-ala-s2",
+   "quote": "კოპალა, როგორც სათემო ღვთაება, თავის ყმებს მფარველობდა გასაჭირში, თან ახლდა ლაშქრობებში და ხელს უმართავდა.",
+   "locator": "lead",
+   "context": "religious-tradition",
+   "statement": {
+    "id": "Sebagai dewa komunitas, K'op'ala melindungi para pengikutnya dalam kesulitan, menyertai mereka dalam peperangan, dan menolong mereka.",
+    "en": "As a community deity, K'op'ala protected his followers in hardship, accompanied them on campaigns and helped them."
+   }
+  }
+ ],
+ "conflicts": [],
+ "gaps": [
+  {
+   "field": "images",
+   "searched": "Tidak ada gambar Commons yang terbukti menggambarkan K'op'ala."
+  }
+ ]
+}
+```
+
+```json
+{
+ "schema": "mythics-entry/1",
+ "batch_id": "batch-123",
+ "slug": "lamia-q12284666",
+ "task": "new",
+ "tier": "core",
+ "researched_at": "2026-10-03",
+ "identity": {
+  "canonical_name": "Lamia (Bulgarian folklore)",
+  "native_name": {
+   "text": "Ламя",
+   "script": "Cyrillic",
+   "claim_ids": [
+    "lamia-q12284666-c01"
+   ]
+  },
+  "display_name": {
+   "id": "Lamia (cerita rakyat Bulgaria)",
+   "en": "Lamia (Bulgarian folklore)"
+  },
+  "wikidata_qid": "Q12284666",
+  "claim_ids": [
+   "lamia-q12284666-c01",
+   "lamia-q12284666-c02"
+  ]
+ },
+ "alternate_names": [
+  {
+   "name": "Lamja",
+   "language": "bg",
+   "name_type": "transliteration",
+   "claim_ids": [
+    "lamia-q12284666-c02"
+   ]
+  }
+ ],
+ "jenis": {
+  "value": "naga/ular mitos",
+  "claim_ids": [
+   "lamia-q12284666-c01",
+   "lamia-q12284666-c02"
+  ]
+ },
+ "classification": {
+  "value": "dragon",
+  "claim_ids": [
+   "lamia-q12284666-c01",
+   "lamia-q12284666-c02"
+  ]
+ },
+ "culture": {
+  "value": "slavic-folklore",
+  "suggested_new": null,
+  "claim_ids": [
+   "lamia-q12284666-c01",
+   "lamia-q12284666-c02"
+  ]
+ },
+ "region": {
+  "value": "europe",
+  "claim_ids": [
+   "lamia-q12284666-c01",
+   "lamia-q12284666-c02"
+  ]
+ },
+ "countries": {
+  "value": [
+   "Bulgaria"
+  ],
+  "claim_ids": [
+   "lamia-q12284666-c01"
+  ]
+ },
+ "era": null,
+ "habitats": [
+  {
+   "value": "water",
+   "claim_ids": [
+    "lamia-q12284666-c01"
+   ]
+  },
+  {
+   "value": "cave",
+   "claim_ids": [
+    "lamia-q12284666-c01"
+   ]
+  }
+ ],
+ "disposition": {
+  "value": "malevolent",
+  "claim_ids": [
+   "lamia-q12284666-c01",
+   "lamia-q12284666-c04"
+  ]
+ },
+ "traits": [],
+ "short_description": {
+  "id": "Lamia dalam cerita rakyat Bulgaria adalah makhluk betina raksasa mirip naga yang jahat, tinggal di dasar danau, sungai, dan laut, dan menahan air hingga terjadi kekeringan.",
+  "en": "In Bulgarian folklore the lamia is a huge, evil, dragon-like female creature living at the bottom of lakes, rivers and seas, who holds back water to cause drought.",
+  "claim_ids": [
+   "lamia-q12284666-c01",
+   "lamia-q12284666-c04"
+  ]
+ },
+ "long_description": [
+  {
+   "id": "Dalam mitos dan legenda Bulgaria, lamia adalah makhluk betina raksasa mirip naga yang jahat. Ia tinggal di dasar danau, sungai, dan laut, dan di guanya sering menyimpan batu permata dan harta emas. Walau tampak menakutkan, para pahlawan Bulgaria mudah membunuhnya dengan memenggal kepalanya; namun bila kepala itu ditancapkan pada tanduk banteng, setelah empat puluh hari kepala dan tanduk menyatu menjadi ular lagi.",
+   "en": "In Bulgarian myth and legend the lamia is a gigantic, wicked, dragon-like she-creature. She dwells on the beds of lakes, rivers and seas and often hoards gems and gold in her caves. Fearsome as she looks, Bulgarian heroes slay her easily by cutting off her head; yet if the head is set on a bull's horn, after forty days head and horn grow together into a serpent again.",
+   "claim_ids": [
+    "lamia-q12284666-c01",
+    "lamia-q12284666-c02"
+   ]
+  },
+  {
+   "id": "Ia biasanya digambarkan sebagai makhluk mirip ular betina berukuran raksasa, bersayap sisik, bersisik kuning, bercakar dan bergigi tajam, biasanya berkepala anjing di leher ular, kadang berkepala tiga atau sembilan. Dalam seni rakyat ia juga digambarkan sebagai kabut gelap atau angin kencang yang merusak. Mulutnya sangat besar sehingga dapat menelan manusia hidup-hidup.",
+   "en": "She is usually pictured as a giant female serpent-like being with scaly wings, yellow scales and sharp claws and teeth, most often with a dog's head on a snake's neck, sometimes three- or nine-headed. Folk art also shows her as dark fog or a strong, destructive wind. Her mouth is so huge she can swallow a person alive.",
+   "claim_ids": [
+    "lamia-q12284666-c03",
+    "lamia-q12284666-c05"
+   ]
+  },
+  {
+   "id": "Ia selalu lapar dan haus darah, kadang membendung sungai sehingga terjadi kekeringan dan menuntut korban manusia agar air kembali mengalir. Ia memusuhi zmey: zmey membela panen, sedangkan lamia ingin menghancurkannya. Legenda tentang Santo Georgi yang membunuh lamia tersebar luas, dan kepercayaan kepadanya sudah memudar menjelang akhir abad ke-19.",
+   "en": "Always hungry and thirsting for blood, she sometimes dams rivers to cause drought and demands human sacrifice before letting the water flow. She is the enemy of the zmey: the zmey defends the harvest and the lamia seeks to destroy it. The legend of Saint George killing the lamia was widespread, and belief in her faded by the late 19th century.",
+   "claim_ids": [
+    "lamia-q12284666-c04",
+    "lamia-q12284666-c06",
+    "lamia-q12284666-c07"
+   ]
+  }
+ ],
+ "cultural_context": null,
+ "etymology": null,
+ "story_mode": {
+  "who": {
+   "id": "Lamia adalah naga betina raksasa dalam cerita rakyat Bulgaria.",
+   "en": "The lamia is a giant she-dragon of Bulgarian folklore.",
+   "claim_ids": [
+    "lamia-q12284666-c01"
+   ]
+  },
+  "origin": {
+   "id": "Ia berasal dari mitos dan legenda Bulgaria.",
+   "en": "She comes from Bulgarian myths and legends.",
+   "claim_ids": [
+    "lamia-q12284666-c01"
+   ]
+  },
+  "role": {
+   "id": "Ia membendung air dan menuntut korban manusia.",
+   "en": "She dams the waters and demands human sacrifice.",
+   "claim_ids": [
+    "lamia-q12284666-c04"
+   ]
+  },
+  "famous_for": {
+   "id": "Ia dibunuh Santo Georgi dalam legenda yang tersebar luas.",
+   "en": "She is slain by Saint George in a widespread legend.",
+   "claim_ids": [
+    "lamia-q12284666-c07"
+   ]
+  }
+ },
+ "did_you_know": {
+  "id": "Bila kepala lamia yang terpenggal ditancapkan pada tanduk banteng, setelah empat puluh hari ia menyatu kembali menjadi ular.",
+  "en": "If a lamia's severed head is set on a bull's horn, after forty days it grows back into a serpent.",
+  "claim_ids": [
+   "lamia-q12284666-c01",
+   "lamia-q12284666-c02"
+  ]
+ },
+ "abilities": [
+  {
+   "ability_id": "elemental-control",
+   "name": {
+    "id": "Menahan air",
+    "en": "Holding back water"
+   },
+   "description": {
+    "id": "Ia membendung sungai sehingga terjadi kekeringan.",
+    "en": "She dams rivers, causing drought."
+   },
+   "claim_ids": [
+    "lamia-q12284666-c04"
+   ]
+  },
+  {
+   "ability_id": "regeneration",
+   "name": {
+    "id": "Tumbuh kembali",
+    "en": "Regrowth"
+   },
+   "description": {
+    "id": "Kepalanya yang terpenggal dapat menyatu kembali menjadi ular.",
+    "en": "Her severed head can grow back into a serpent."
+   },
+   "claim_ids": [
+    "lamia-q12284666-c01"
+   ]
+  }
+ ],
+ "weaknesses": [],
+ "variants": [],
+ "stories": [],
+ "places": [],
+ "timeline": [],
+ "relations": [
+  {
+   "target_name": "Zmey",
+   "relation_type": "enemy",
+   "note": {
+    "id": "Lamia terus berperang dengan zmey yang membela panen.",
+    "en": "The lamia is at constant war with the zmey, defender of the harvest."
+   },
+   "claim_ids": [
+    "lamia-q12284666-c06"
+   ]
+  },
+  {
+   "target_name": "Santo Georgi",
+   "relation_type": "enemy",
+   "note": {
+    "id": "Santo Georgi membunuh lamia dalam legenda.",
+    "en": "Saint George kills the lamia in legend."
+   },
+   "claim_ids": [
+    "lamia-q12284666-c07"
+   ]
+  }
+ ],
+ "modern_depictions": [],
+ "tradition_vs_modern": null,
+ "learning_questions": [
+  {
+   "id": "Mengapa kekeringan dalam banyak cerita dikaitkan dengan naga yang menahan air?",
+   "en": "Why is drought in many tales blamed on a dragon holding back the water?"
+  }
+ ],
+ "images": [],
+ "sources": [
+  {
+   "id": "lamia-q12284666-s1",
+   "url": "https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D0%BC%D0%B8%D1%8F_(%D0%B1%D0%BE%D0%BB%D0%B3%D0%B0%D1%80%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%B8%D1%84%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F)",
+   "title": "Ламия (болгарская мифология)",
+   "author": null,
+   "publisher": "Википедия (ru)",
+   "published": null,
+   "language": "ru",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  },
+  {
+   "id": "lamia-q12284666-s2",
+   "url": "https://pl.wikipedia.org/wiki/Lamia_(mitologia_s%C5%82owia%C5%84ska)",
+   "title": "Lamia (mitologia słowiańska)",
+   "author": null,
+   "publisher": "Wikipedia (pl)",
+   "published": null,
+   "language": "pl",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  }
+ ],
+ "claims": [
+  {
+   "id": "lamia-q12284666-c01",
+   "source_id": "lamia-q12284666-s1",
+   "quote": "— гигантское злое драконообразное существо женского пола в мифах и легендах болгар. Ламии обитают на дне озёр, рек, морей. В своих пещерах часто хранят драгоценные камни и золотые клады. Несмотря на грозный вид Ламии, болгарские герои легко расправляются с ней, отрубив голову. Однако если отрезанную голову насадить на бычий рог, то через сорок дней голова и рог вновь срастаются в змею.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Lamia (Bulgaria: Ламя) adalah makhluk betina raksasa mirip naga yang jahat dalam mitos Bulgaria, tinggal di dasar danau, sungai, dan laut, menyimpan permata dan emas di gua; pahlawan Bulgaria mudah memenggalnya, tetapi bila kepalanya ditancapkan pada tanduk banteng, setelah empat puluh hari kepala dan tanduk menyatu menjadi ular lagi.",
+    "en": "The lamia is a giant evil dragon-like female being of Bulgarian myth, living at the bottom of lakes, rivers and seas, hoarding gems and gold in caves; Bulgarian heroes easily behead her, but if the head is put on a bull's horn, after forty days head and horn grow back into a serpent."
+   }
+  },
+  {
+   "id": "lamia-q12284666-c02",
+   "source_id": "lamia-q12284666-s2",
+   "quote": "demon słowiański z mitologii bułgarskiej, pochodzący od węża, któremu odcięto głowę i zatknięto ją na róg wołu (po 40 dniach głowa i róg zrastały się i tak powstawała lamia).",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Lamia (Lamja) adalah iblis Slavia dalam mitologi Bulgaria yang berasal dari ular yang kepalanya dipenggal dan ditancapkan pada tanduk lembu; setelah 40 hari (empat puluh) kepala dan tanduk menyatu menjadi lamia.",
+    "en": "The lamia is a Slavic demon of Bulgarian mythology arising from a snake whose head was cut off and stuck on an ox horn; after 40 (forty) days head and horn grew together into a lamia."
+   }
+  },
+  {
+   "id": "lamia-q12284666-c03",
+   "source_id": "lamia-q12284666-s1",
+   "quote": "Чаще всего Ламию изображают женственным змееподобным существом гигантских размеров, с чешуйчатыми крыльями, жёлтой чешуей, острыми когтями и зубами. Чаще всего имеет одну собачью голову на змеиной шее, но изредка её изображают трёхглавой или девятиглавой.",
+   "locator": "Описание",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Lamia biasanya digambarkan sebagai makhluk betina mirip ular berukuran raksasa, bersayap sisik, bersisik kuning, bercakar dan bergigi tajam, biasanya berkepala anjing di leher ular, kadang berkepala tiga atau sembilan.",
+    "en": "The lamia is usually shown as a giant female serpent-like being with scaly wings, yellow scales, sharp claws and teeth, usually a dog's head on a snake's neck, sometimes three- or nine-headed."
+   }
+  },
+  {
+   "id": "lamia-q12284666-c04",
+   "source_id": "lamia-q12284666-s1",
+   "quote": "Она постоянно голодна и жаждет крови, иногда Ламия перекрывает русла рек, вызывая засухи, и требует людских жертвоприношений для их окончания.",
+   "locator": "Описание",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Ia selalu lapar dan haus darah, kadang membendung sungai sehingga terjadi kekeringan, dan menuntut korban manusia untuk mengakhirinya.",
+    "en": "She is always hungry and thirsty for blood, sometimes damming rivers to cause drought and demanding human sacrifice to end it."
+   }
+  },
+  {
+   "id": "lamia-q12284666-c05",
+   "source_id": "lamia-q12284666-s1",
+   "quote": "В народном творчестве Ламий изображали также в виде темного тумана или сильного, разрушительного ветра. Ламия имеет огромный рот, что позволяет ей проглотить человека живьём, когда она голодна.",
+   "locator": "Описание",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Dalam seni rakyat lamia juga digambarkan sebagai kabut gelap atau angin kencang yang merusak; mulutnya sangat besar sehingga dapat menelan manusia hidup-hidup.",
+    "en": "In folk art the lamia was also shown as dark fog or a strong destructive wind; her mouth is so huge she can swallow a person alive."
+   }
+  },
+  {
+   "id": "lamia-q12284666-c06",
+   "source_id": "lamia-q12284666-s2",
+   "quote": "Lamia była antagonistką zmeja. Zmej i lamia byli w nieustającej wojnie – zmej bronił urodzaju, a lamia chciała go unicestwić.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Lamia adalah lawan zmey; keduanya terus berperang, zmey membela panen dan lamia ingin menghancurkannya.",
+    "en": "The lamia was the zmey's antagonist; they were at constant war, the zmey defending the harvest and the lamia wishing to destroy it."
+   }
+  },
+  {
+   "id": "lamia-q12284666-c07",
+   "source_id": "lamia-q12284666-s2",
+   "quote": "Szeroko rozpowszechniona była także legenda o świętym Georgim, który zabija lamię (w polskiej wersji – święty Jerzy zabijający smoka). Po tym jak święty Georgi zabił ją swoją kopią, lamia przepadła i za to zaczęto czcić tego świętego. Wiara w lamię zanikła dość wcześnie, o czym świadczą przekazy z końca XIX wieku.",
+   "locator": "lead",
+   "context": "religious-tradition",
+   "statement": {
+    "id": "Legenda tentang Santo Georgi yang membunuh lamia tersebar luas; setelah ia membunuhnya dengan tombak, lamia lenyap dan santo itu mulai dihormati; kepercayaan kepada lamia memudar cukup awal, seperti terlihat dari catatan akhir abad ke-19 (XIX).",
+    "en": "The legend of Saint George (Georgi) killing the lamia was widespread; after he slew her with his spear she vanished and the saint came to be venerated; belief in the lamia faded early, as late 19th-century (XIX) records show."
+   }
+  }
+ ],
+ "conflicts": [],
+ "gaps": [
+  {
+   "field": "images",
+   "searched": "Tidak ada gambar Commons yang terbukti menggambarkan lamia Bulgaria."
+  }
+ ]
+}
+```
+
+```json
+{
+ "schema": "mythics-entry/1",
+ "batch_id": "batch-123",
+ "slug": "maaema",
+ "task": "new",
+ "tier": "core",
+ "researched_at": "2026-10-03",
+ "identity": {
+  "canonical_name": "Maaemä",
+  "native_name": null,
+  "display_name": {
+   "id": "Maaemä",
+   "en": "Maaemä"
+  },
+  "wikidata_qid": "Q134760234",
+  "claim_ids": [
+   "maaema-c01"
+  ]
+ },
+ "alternate_names": [
+  {
+   "name": "Maaema",
+   "language": "et",
+   "name_type": "regional",
+   "claim_ids": [
+    "maaema-c01"
+   ]
+  },
+  {
+   "name": "Maatar",
+   "language": "fi",
+   "name_type": "epithet",
+   "claim_ids": [
+    "maaema-c04"
+   ]
+  }
+ ],
+ "jenis": {
+  "value": "dewa",
+  "claim_ids": [
+   "maaema-c01"
+  ]
+ },
+ "classification": {
+  "value": "deity",
+  "claim_ids": [
+   "maaema-c01"
+  ]
+ },
+ "culture": {
+  "value": "tradition-finno-ugric",
+  "suggested_new": null,
+  "claim_ids": [
+   "maaema-c01"
+  ]
+ },
+ "region": {
+  "value": "europe",
+  "claim_ids": [
+   "maaema-c01"
+  ]
+ },
+ "countries": null,
+ "era": null,
+ "habitats": [],
+ "disposition": {
+  "value": "benevolent",
+  "claim_ids": [
+   "maaema-c06"
+  ]
+ },
+ "traits": [],
+ "short_description": {
+  "id": "Maaemä adalah dewi bumi, atau bumi itu sendiri, dalam mitologi Finlandia dan Estonia, kadang disebut istri Ukko.",
+  "en": "Maaemä is a goddess of the earth, or the earth itself, in Finnish and Estonian mythology, sometimes called the wife of Ukko.",
+  "claim_ids": [
+   "maaema-c01"
+  ]
+ },
+ "long_description": [
+  {
+   "id": "Maaemä (Finlandia) atau Maaema (Estonia) adalah dewi atau bumi itu sendiri dalam mitologi Finlandia dan Estonia. Ia kadang disebut istri Ukko, walau hal itu tidak pasti. Dalam lagu-lagu rune Finlandia, bumi sendiri kadang disebut maaemä, \"ibu bumi\", dan kadang dipertentangkan dengan bapa di langit, Ukko.",
+   "en": "Maaemä (Finnish) or Maaema (Estonian) is a goddess, or the earth itself, in Finnish and Estonian myth. She is sometimes named as Ukko's wife, though that is uncertain. In Finnish runic songs the earth itself is at times called maaemä, \"earth mother\", and set against the father in the sky, Ukko.",
+   "claim_ids": [
+    "maaema-c01",
+    "maaema-c02"
+   ]
+  },
+  {
+   "id": "Lagu rune dari Savo Selatan memanggilnya sebagai dia yang membangkitkan ular dari tanah, dan lagu dari Savo Utara mengisahkan Nyonya Bumi menyisir rambutnya hingga dari sehelai bulu sikat terbentuk seekor ular. Lagu dari Kainuu menyebut batu \"berasa seperti tanah Maatar\".",
+   "en": "A South Savo runic song invokes her as the one who raised snakes from the ground, and a North Savo song tells how the Mistress of Earth brushed her hair and a snake formed from a bristle of the brush. A Kainuu song describes a stone that \"tastes like the earth of Maatar\".",
+   "claim_ids": [
+    "maaema-c03",
+    "maaema-c04"
+   ]
+  },
+  {
+   "id": "Dalam kepercayaan Estonia, maaema adalah roh bumi yang paling dikasihi dan dihormati, juga disebut pelindung tanah. Karena bumi adalah ibu yang tak pernah mengusir siapa pun, para tunawisma menjadi asuhannya. Untuk melindunginya, orang dilarang menusuk-nusuk tanah dengan pisau, sebab itu berarti melukai hati maaema, dan mencabut rumput pun dilarang karena sama dengan mencabut rambutnya.",
+   "en": "In Estonian belief maaema is the dearest and most honoured spirit of the land, also called its protector. Since the earth is a mother who turns no one away, the homeless are her special wards. To protect her, people were not to poke the ground with a knife, which wounds maaema's heart, and even pulling grass was forbidden, as it tore out her hair.",
+   "claim_ids": [
+    "maaema-c05",
+    "maaema-c06",
+    "maaema-c07"
+   ]
+  }
+ ],
+ "cultural_context": null,
+ "etymology": null,
+ "story_mode": {
+  "who": {
+   "id": "Maaemä adalah dewi bumi.",
+   "en": "Maaemä is the earth goddess.",
+   "claim_ids": [
+    "maaema-c01"
+   ]
+  },
+  "origin": {
+   "id": "Ia berasal dari mitologi Finlandia dan Estonia.",
+   "en": "She comes from Finnish and Estonian mythology.",
+   "claim_ids": [
+    "maaema-c01"
+   ]
+  },
+  "role": {
+   "id": "Ia dipertentangkan dengan bapa langit Ukko.",
+   "en": "She is set against the sky father Ukko.",
+   "claim_ids": [
+    "maaema-c02"
+   ]
+  },
+  "famous_for": {
+   "id": "Dari sehelai bulu sikat rambutnya terbentuk seekor ular.",
+   "en": "A snake formed from a bristle of her hairbrush.",
+   "claim_ids": [
+    "maaema-c03"
+   ]
+  }
+ },
+ "did_you_know": {
+  "id": "Dalam kepercayaan Estonia, mencabut rumput dilarang karena sama dengan mencabut rambut maaema.",
+  "en": "In Estonian belief pulling grass was forbidden, as it tore out maaema's hair.",
+  "claim_ids": [
+   "maaema-c07"
+  ]
+ },
+ "abilities": [],
+ "weaknesses": [],
+ "variants": [],
+ "stories": [],
+ "places": [],
+ "timeline": [],
+ "relations": [
+  {
+   "target_name": "Ukko",
+   "relation_type": "spouse",
+   "note": {
+    "id": "Maaemä kadang disebut istri Ukko, walau tidak pasti.",
+    "en": "Maaemä is sometimes called Ukko's wife, though this is uncertain."
+   },
+   "claim_ids": [
+    "maaema-c01"
+   ]
+  }
+ ],
+ "modern_depictions": [],
+ "tradition_vs_modern": null,
+ "learning_questions": [
+  {
+   "id": "Mengapa banyak budaya pertanian membayangkan bumi sebagai seorang ibu?",
+   "en": "Why do many farming cultures imagine the earth as a mother?"
+  }
+ ],
+ "images": [],
+ "sources": [
+  {
+   "id": "maaema-s1",
+   "url": "https://en.wikipedia.org/wiki/Maaem%C3%A4",
+   "title": "Maaemä",
+   "author": null,
+   "publisher": "Wikipedia (en)",
+   "published": null,
+   "language": "en",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  },
+  {
+   "id": "maaema-s2",
+   "url": "https://et.wikipedia.org/wiki/Maaema",
+   "title": "Maaema",
+   "author": null,
+   "publisher": "Vikipeedia (et)",
+   "published": null,
+   "language": "et",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  }
+ ],
+ "claims": [
+  {
+   "id": "maaema-c01",
+   "source_id": "maaema-s1",
+   "quote": "(Finnish) or Maaema (Estonian) is a goddess or earth itself in Finnish and Estonian mythologies. She is sometimes called the wife of Ukko but this is not certain.",
+   "locator": "lead",
+   "context": "religious-tradition",
+   "statement": {
+    "id": "Maaemä (Finlandia) atau Maaema (Estonia) adalah dewi atau bumi itu sendiri dalam mitologi Finlandia dan Estonia; ia kadang disebut istri Ukko, tetapi hal itu tidak pasti.",
+    "en": "Maaemä (Finnish) or Maaema (Estonian) is a goddess or the earth itself in Finnish and Estonian mythologies; she is sometimes called Ukko's wife, but this is not certain."
+   }
+  },
+  {
+   "id": "maaema-c02",
+   "source_id": "maaema-s1",
+   "quote": "In runic songs, the earth itself is sometimes called maaemä 'earth mother'. ... Maaemä is sometimes set as the opposite of a father in the sky or Ukko",
+   "locator": "In Finnish runic songs",
+   "context": "religious-tradition",
+   "statement": {
+    "id": "Dalam lagu rune, bumi sendiri kadang disebut maaemä, \"ibu bumi\", dan kadang dipertentangkan dengan bapa di langit atau Ukko.",
+    "en": "In runic songs the earth itself is sometimes called maaemä, \"earth mother\", and set against a father in the sky, Ukko."
+   }
+  },
+  {
+   "id": "maaema-c03",
+   "source_id": "maaema-s1",
+   "quote": "A South Savo runic song invokes her, calling her the one who raised snakes from the ground. A North Savo runic song explains how the Mistress of Earth brushed her hair and from a bristle of the brush, a snake was formed.",
+   "locator": "In Finnish runic songs",
+   "context": "religious-tradition",
+   "statement": {
+    "id": "Lagu rune dari Savo Selatan memanggilnya sebagai dia yang membangkitkan ular dari tanah; lagu dari Savo Utara mengisahkan Nyonya Bumi menyisir rambut dan dari sehelai bulu sikat terbentuk ular.",
+    "en": "A South Savo runic song invokes her as the one who raised snakes from the ground; a North Savo song tells how the Mistress of Earth brushed her hair and a snake formed from a bristle."
+   }
+  },
+  {
+   "id": "maaema-c04",
+   "source_id": "maaema-s1",
+   "quote": "A Kainuu runic song describes a stone as something that \"tastes like the earth of Maatar\"",
+   "locator": "In Finnish runic songs",
+   "context": "religious-tradition",
+   "statement": {
+    "id": "Lagu rune dari Kainuu menggambarkan batu sebagai sesuatu yang \"berasa seperti tanah Maatar\" (Nyonya Bumi).",
+    "en": "A Kainuu runic song describes a stone as something that \"tastes like the earth of Maatar\" (Lady Earth)."
+   }
+  },
+  {
+   "id": "maaema-c05",
+   "source_id": "maaema-s2",
+   "quote": "Maaema on kõige armsam ja austatud maa haldjas üldse. Teda kutsutakse ka maakaitsjaks.",
+   "locator": "Maaema Eesti mütoloogias",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Maaema adalah roh bumi yang paling dikasihi dan dihormati, juga disebut pelindung tanah.",
+    "en": "Maaema is the dearest and most honoured spirit of the land, also called the land's protector."
+   }
+  },
+  {
+   "id": "maaema-c06",
+   "source_id": "maaema-s2",
+   "quote": "Kuna maa on kõige armsam ema, kes ei aja kedagi enda juurest ära, siis kodutud on tema erilised hoolealused.",
+   "locator": "Maaema Eesti mütoloogias",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Karena bumi adalah ibu terkasih yang tak mengusir siapa pun, para tunawisma menjadi asuhan khususnya.",
+    "en": "Since the earth is the dearest mother who turns no one away, the homeless are her special wards."
+   }
+  },
+  {
+   "id": "maaema-c07",
+   "source_id": "maaema-s2",
+   "quote": "Maaema kaitsmiseks ei tohtinud keegi noaga maas surkida, sest siis sorgitakse maaema südames ning tulist vett maha visates kõrvetatakse maaema pead. Ka rohukitkumine oli keelatud, sest siis kitkuti maaema juukseid.",
+   "locator": "Maaema Eesti mütoloogias",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Untuk melindungi maaema, orang dilarang menusuk tanah dengan pisau karena itu melukai hatinya, dan menyiram air panas ke tanah membakar kepalanya; mencabut rumput juga dilarang karena sama dengan mencabut rambutnya.",
+    "en": "To protect maaema no one could poke the ground with a knife, which pierces her heart, and throwing hot water scalds her head; pulling grass was forbidden too, since it pulled her hair."
+   }
+  }
+ ],
+ "conflicts": [],
+ "gaps": [
+  {
+   "field": "images",
+   "searched": "Tidak ada gambar Commons yang terbukti menggambarkan Maaemä."
+  }
+ ]
+}
+```
+
+```json
+{
+ "schema": "mythics-entry/1",
+ "batch_id": "batch-123",
+ "slug": "piru-spirit",
+ "task": "enrich",
+ "tier": "core",
+ "researched_at": "2026-10-03",
+ "identity": {
+  "canonical_name": "Piru",
+  "native_name": null,
+  "display_name": {
+   "id": "Piru (roh)",
+   "en": "Piru (spirit)"
+  },
+  "wikidata_qid": "Q3823178",
+  "claim_ids": [
+   "piru-spirit-c01"
+  ]
+ },
+ "alternate_names": [
+  {
+   "name": "Pääpiru",
+   "language": "fi",
+   "name_type": "epithet",
+   "claim_ids": [
+    "piru-spirit-c03"
+   ]
+  }
+ ],
+ "jenis": {
+  "value": "iblis/setan",
+  "claim_ids": [
+   "piru-spirit-c01"
+  ]
+ },
+ "classification": {
+  "value": "demon",
+  "claim_ids": [
+   "piru-spirit-c01"
+  ]
+ },
+ "culture": {
+  "value": "tradition-finnish",
+  "suggested_new": null,
+  "claim_ids": [
+   "piru-spirit-c01"
+  ]
+ },
+ "region": {
+  "value": "europe",
+  "claim_ids": [
+   "piru-spirit-c01"
+  ]
+ },
+ "countries": null,
+ "era": null,
+ "habitats": [
+  {
+   "value": "forest",
+   "claim_ids": [
+    "piru-spirit-c02"
+   ]
+  }
+ ],
+ "disposition": {
+  "value": "malevolent",
+  "claim_ids": [
+   "piru-spirit-c01",
+   "piru-spirit-c02"
+  ]
+ },
+ "traits": [
+  {
+   "value": "possession",
+   "claim_ids": [
+    "piru-spirit-c05"
+   ]
+  },
+  {
+   "value": "trickster",
+   "claim_ids": [
+    "piru-spirit-c02"
+   ]
+  }
+ ],
+ "short_description": {
+  "id": "Piru adalah iblis atau setan dalam mitologi Finlandia, sering tampil sebagai roh hutan jahat yang beradu akal dengan manusia.",
+  "en": "A piru is a fiend or demon of Finnish mythology, often appearing as a nasty forest spirit who matches wits with people.",
+  "claim_ids": [
+   "piru-spirit-c01",
+   "piru-spirit-c02"
+  ]
+ },
+ "long_description": [
+  {
+   "id": "Piru adalah iblis atau setan dalam mitologi Finlandia. Kata ini diwarisi dari bahasa Proto-Finnik *piru, \"setan, iblis\", yang berkerabat dengan kata dalam bahasa Karelia, Ingria, dan Estonia; asal-usul akhirnya tidak diketahui. Dalam cerita rakyat, piru sering tampil sebagai roh hutan jahat yang diajak beradu akal oleh orang cerdik, dengan taruhan yang dimenangkan atau dikalahkan.",
+   "en": "Finnish myth calls a fiend or demon a piru. The word goes back to Proto-Finnic *piru, \"devil, demon\", with relatives in Karelian, Ingrian and Estonian, though its deeper origin is unknown. Folk tales often cast the piru as a mean forest spirit whom a quick-witted person outsmarts, or loses to, in a contest with a forfeit at stake.",
+   "claim_ids": [
+    "piru-spirit-c01",
+    "piru-spirit-c02"
+   ]
+  },
+  {
+   "id": "Gejala poltergeist dan rumah berhantu sering disebut ulah piru, dan Iblis sendiri dapat disebut Piru atau Pääpiru, \"piru utama\". Dalam kepercayaan rakyat Finlandia, piru bisa pelayan Iblis atau makhluk jahat yang lebih rendah, atau Iblis itu sendiri. Mereka dapat merasuki manusia sehingga orang itu berperilaku aneh, jatuh sakit, atau berubah kepribadian, dan rasukan itu dapat diusir oleh pengusir setan. Kini piru juga kata makian ringan dalam bahasa Finlandia.",
+   "en": "Poltergeists and hauntings are often blamed on pirus, and the Devil himself may be called Piru or Pääpiru, \"the chief piru\". In Finnish folk belief a piru may serve the Devil, be a lesser evil being, or be the Devil himself. Pirus can possess people, making them act strangely, fall ill or change personality, and an exorcist can drive them out. Today piru is also a mild Finnish swearword.",
+   "claim_ids": [
+    "piru-spirit-c03",
+    "piru-spirit-c04",
+    "piru-spirit-c05",
+    "piru-spirit-c06"
+   ]
+  }
+ ],
+ "cultural_context": null,
+ "etymology": {
+  "original_form": "*piru",
+  "language": "Proto-Finnic",
+  "literal_meaning": {
+   "id": "setan, iblis",
+   "en": "devil, demon"
+  },
+  "claim_ids": [
+   "piru-spirit-c01"
+  ]
+ },
+ "story_mode": {
+  "who": {
+   "id": "Piru adalah iblis dalam mitologi Finlandia.",
+   "en": "A piru is a demon of Finnish mythology.",
+   "claim_ids": [
+    "piru-spirit-c01"
+   ]
+  },
+  "origin": {
+   "id": "Ia berasal dari cerita rakyat Finlandia.",
+   "en": "It comes from Finnish folklore.",
+   "claim_ids": [
+    "piru-spirit-c01"
+   ]
+  },
+  "role": {
+   "id": "Ia beradu akal dengan manusia di hutan.",
+   "en": "It matches wits with people in the forest.",
+   "claim_ids": [
+    "piru-spirit-c02"
+   ]
+  },
+  "famous_for": {
+   "id": "Kini namanya menjadi kata makian ringan.",
+   "en": "Today its name is a mild swearword.",
+   "claim_ids": [
+    "piru-spirit-c06"
+   ]
+  }
+ },
+ "did_you_know": {
+  "id": "Dalam bahasa Finlandia modern, piru juga dipakai sebagai kata makian ringan.",
+  "en": "In modern Finnish, piru is also used as a mild swearword.",
+  "claim_ids": [
+   "piru-spirit-c06"
+  ]
+ },
+ "abilities": [
+  {
+   "ability_id": "possession",
+   "name": {
+    "id": "Merasuki",
+    "en": "Possession"
+   },
+   "description": {
+    "id": "Piru dapat merasuki manusia atau rumah.",
+    "en": "Pirus can possess people or houses."
+   },
+   "claim_ids": [
+    "piru-spirit-c05"
+   ]
+  }
+ ],
+ "weaknesses": [],
+ "variants": [],
+ "stories": [],
+ "places": [],
+ "timeline": [],
+ "relations": [],
+ "modern_depictions": [],
+ "tradition_vs_modern": null,
+ "learning_questions": [
+  {
+   "id": "Mengapa nama makhluk jahat sering berubah menjadi kata makian?",
+   "en": "Why do the names of evil beings often become swearwords?"
+  }
+ ],
+ "images": [],
+ "sources": [
+  {
+   "id": "piru-spirit-s1",
+   "url": "https://en.wikipedia.org/wiki/Piru_(spirit)",
+   "title": "Piru (spirit)",
+   "author": null,
+   "publisher": "Wikipedia (en)",
+   "published": null,
+   "language": "en",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  },
+  {
+   "id": "piru-spirit-s2",
+   "url": "https://fi.wikipedia.org/wiki/Piru",
+   "title": "Piru",
+   "author": null,
+   "publisher": "Wikipedia (fi)",
+   "published": null,
+   "language": "fi",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  },
+  {
+   "id": "piru-spirit-s3",
+   "url": "https://ca.wikipedia.org/wiki/Piru",
+   "title": "Piru",
+   "author": null,
+   "publisher": "Viquipèdia (ca)",
+   "published": null,
+   "language": "ca",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  }
+ ],
+ "claims": [
+  {
+   "id": "piru-spirit-c01",
+   "source_id": "piru-spirit-s1",
+   "quote": "A piru is a fiend or demon in Finnish mythology. The word is inherited from Proto-Finnic *piru* ‘devil, demon’, with cognates in Karelian, Ingrian and Estonian; its ultimate origin is unknown.",
+   "locator": "lead",
+   "context": "etymology",
+   "statement": {
+    "id": "Piru adalah iblis atau setan dalam mitologi Finlandia; katanya diwarisi dari Proto-Finnik *piru, \"setan, iblis\", berkerabat dengan bahasa Karelia, Ingria, dan Estonia; asal akhirnya tidak diketahui.",
+    "en": "A piru is a fiend or demon of Finnish mythology; the word comes from Proto-Finnic *piru, \"devil, demon\", with cognates in Karelian, Ingrian and Estonian; its ultimate origin is unknown."
+   }
+  },
+  {
+   "id": "piru-spirit-c02",
+   "source_id": "piru-spirit-s1",
+   "quote": "In folklore, a piru is often featured as a nasty spirit of the forest with which a smart aleck either wins or loses a battle of wits, giving or receiving a forfeit in return.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Dalam cerita rakyat, piru sering tampil sebagai roh hutan jahat yang diajak beradu akal oleh orang cerdik, yang menang atau kalah dan memberi atau menerima taruhan.",
+    "en": "In folklore a piru is often a nasty forest spirit with whom a smart aleck wins or loses a battle of wits, giving or receiving a forfeit."
+   }
+  },
+  {
+   "id": "piru-spirit-c03",
+   "source_id": "piru-spirit-s3",
+   "quote": "En molts casos, els poltergeist i fenòmens d'aparicions es descriuen com pirus. Sovint el Diable és anomenat també Piru o Pääpiru, el piru major.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Gejala poltergeist dan rumah berhantu sering disebut \"piru\"; Iblis dapat disebut Piru atau Pääpiru, piru utama.",
+    "en": "Poltergeist and haunting phenomena are often called \"pirus\"; the Devil may be called Piru or Pääpiru, the main piru."
+   }
+  },
+  {
+   "id": "piru-spirit-c04",
+   "source_id": "piru-spirit-s2",
+   "quote": "Piru on suomalaisessa kansanperinteessä joko paholaista palveleva tai muutoin vähäisempi paha olento eli demoni, tai itse paholainen.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Dalam kepercayaan rakyat Finlandia, piru adalah pelayan Iblis atau makhluk jahat yang lebih rendah (demon), atau Iblis itu sendiri.",
+    "en": "In Finnish folk tradition a piru is either a servant of the Devil or another lesser evil being (a demon), or the Devil himself."
+   }
+  },
+  {
+   "id": "piru-spirit-c05",
+   "source_id": "piru-spirit-s2",
+   "quote": "Ne voivat iskeä äkkiarvaamatta ja riivata ihmisiä eli asettua ihmiseen asumaan. Riivattu ihminen saattaa käyttäytyä hullusti tai sairastua, tai hänen persoonallisuutensa voi muuttua täysin. Riivauksen voi poistaa asiansa osaava manaaja.",
+   "locator": "Pirun käyttäytyminen",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Piru dapat menyerang tiba-tiba dan merasuki manusia; orang yang dirasuki bisa berperilaku gila, jatuh sakit, atau berubah kepribadian, dan rasukan dapat diusir oleh pengusir setan yang ahli.",
+    "en": "Pirus can strike suddenly and possess people; the possessed may act madly, fall ill or change personality entirely, and a skilled exorcist can remove the possession."
+   }
+  },
+  {
+   "id": "piru-spirit-c06",
+   "source_id": "piru-spirit-s1",
+   "quote": "\"Piru\" is also a mild swearword in Finnish.",
+   "locator": "lead",
+   "context": "etymology",
+   "statement": {
+    "id": "\"Piru\" juga kata makian ringan dalam bahasa Finlandia.",
+    "en": "\"Piru\" is also a mild swearword in Finnish."
+   }
+  }
+ ],
+ "conflicts": [],
+ "gaps": [
+  {
+   "field": "images",
+   "searched": "Tidak ada gambar Commons yang terbukti menggambarkan piru."
+  }
+ ]
+}
+```
+
+```json
+{
+ "schema": "mythics-entry/1",
+ "batch_id": "batch-123",
+ "slug": "polkan",
+ "task": "enrich",
+ "tier": "core",
+ "researched_at": "2026-10-03",
+ "identity": {
+  "canonical_name": "Polkan",
+  "native_name": {
+   "text": "Полкан",
+   "script": "Cyrillic",
+   "claim_ids": [
+    "polkan-c01"
+   ]
+  },
+  "display_name": {
+   "id": "Polkan",
+   "en": "Polkan"
+  },
+  "wikidata_qid": "Q1990860",
+  "claim_ids": [
+   "polkan-c01"
+  ]
+ },
+ "alternate_names": [
+  {
+   "name": "Palkan",
+   "language": "ru",
+   "name_type": "alias",
+   "claim_ids": [
+    "polkan-c01"
+   ]
+  }
+ ],
+ "jenis": {
+  "value": "makhluk campuran",
+  "claim_ids": [
+   "polkan-c01"
+  ]
+ },
+ "classification": {
+  "value": "hybrid",
+  "claim_ids": [
+   "polkan-c01"
+  ]
+ },
+ "culture": {
+  "value": "tradition-russian",
+  "suggested_new": null,
+  "claim_ids": [
+   "polkan-c01"
+  ]
+ },
+ "region": {
+  "value": "europe",
+  "claim_ids": [
+   "polkan-c01"
+  ]
+ },
+ "countries": null,
+ "era": null,
+ "habitats": [],
+ "disposition": {
+  "value": "ambivalent",
+  "claim_ids": [
+   "polkan-c03"
+  ]
+ },
+ "traits": [
+  {
+   "value": "supernatural-strength",
+   "claim_ids": [
+    "polkan-c01"
+   ]
+  }
+ ],
+ "short_description": {
+  "id": "Polkan adalah makhluk setengah manusia setengah kuda (dalam beberapa versi setengah anjing) dari dongeng Rusia, terkenal karena kekuatan dan kecepatannya.",
+  "en": "Polkan is a half-human, half-horse creature (half-dog in some variants) of Russian folk tales, famed for his great strength and speed.",
+  "claim_ids": [
+   "polkan-c01"
+  ]
+ },
+ "long_description": [
+  {
+   "id": "Polkan atau Palkan adalah makhluk setengah manusia setengah kuda, dalam beberapa versi setengah anjing, dari dongeng Rusia yang terkenal karena kekuatan dan kecepatannya. Menurut etimologi rakyat namanya ditafsirkan sebagai polukon, \"setengah kuda\". Ia dapat melompat sangat jauh, \"tujuh versta dalam satu lompatan\".",
+   "en": "Polkan, or Palkan, is a Russian folk-tale being who is half man and half horse, or in some tellings half dog, renowned for his might and speed. Folk etymology reads his name as polukon, \"half-horse\". He can cover huge distances in bounds, \"seven versts in one leap\".",
+   "claim_ids": [
+    "polkan-c01",
+    "polkan-c02",
+    "polkan-c05"
+   ]
+  },
+  {
+   "id": "Dalam Kisah Bova Korolevich ia mula-mula musuh sang pahlawan Bova, tetapi setelah bertarung menjadi sahabat dan sekutu setianya. Ia akhirnya gugur melawan singa saat melindungi istri dan anak-anak Bova. Kisah ini sangat populer di Rusia, masuk ke cerita rakyat, dan banyak dicetak dalam lubok; Alexander Pushkin memakai beberapa unsurnya dalam dongengnya sendiri.",
+   "en": "In the Tale of Bova Korolevich he first fights the hero Bova but then becomes his loyal friend and ally. He finally dies battling lions while shielding Bova's wife and children. The tale was hugely popular in Russia, passed into folklore and appeared in many lubok prints; Alexander Pushkin borrowed some of its elements for his own fairy tales.",
+   "claim_ids": [
+    "polkan-c03",
+    "polkan-c04"
+   ]
+  },
+  {
+   "id": "Polkan berasal dari Pulicane, tokoh setengah anjing dalam puisi Andrea da Barberino, I Reali di Francia, yang dulu populer di dunia Slavia lewat terjemahan prosa. Di Rusia modern, Polkan menjadi nama populer untuk anjing besar.",
+   "en": "Polkan derives from Pulicane, a half-dog figure in Andrea da Barberino's poem I Reali di Francia, once popular in the Slavonic world through prose translations. In modern Russia Polkan is a common name for large dogs.",
+   "claim_ids": [
+    "polkan-c06"
+   ]
+  }
+ ],
+ "cultural_context": null,
+ "etymology": {
+  "original_form": "Pulicane",
+  "language": "Italian",
+  "literal_meaning": {
+   "id": "nama tokoh setengah anjing dalam I Reali di Francia; dalam etimologi rakyat ditafsirkan sebagai polukon, \"setengah kuda\"",
+   "en": "name of a half-dog character in I Reali di Francia; folk-etymologised as polukon, \"half-horse\""
+  },
+  "claim_ids": [
+   "polkan-c01",
+   "polkan-c02",
+   "polkan-c06"
+  ]
+ },
+ "story_mode": {
+  "who": {
+   "id": "Polkan adalah makhluk setengah manusia setengah kuda.",
+   "en": "Polkan is a half-human, half-horse creature.",
+   "claim_ids": [
+    "polkan-c01"
+   ]
+  },
+  "origin": {
+   "id": "Ia berasal dari dongeng Rusia.",
+   "en": "He comes from Russian folk tales.",
+   "claim_ids": [
+    "polkan-c01"
+   ]
+  },
+  "role": {
+   "id": "Ia menjadi sahabat setia pahlawan Bova.",
+   "en": "He becomes the hero Bova's loyal friend.",
+   "claim_ids": [
+    "polkan-c03"
+   ]
+  },
+  "famous_for": {
+   "id": "Ia gugur melindungi keluarga Bova dari singa.",
+   "en": "He dies protecting Bova's family from lions.",
+   "claim_ids": [
+    "polkan-c03"
+   ]
+  }
+ },
+ "did_you_know": {
+  "id": "Di Rusia modern, Polkan menjadi nama populer untuk anjing besar.",
+  "en": "In modern Russia, Polkan is a popular name for large dogs.",
+  "claim_ids": [
+   "polkan-c06"
+  ]
+ },
+ "abilities": [
+  {
+   "ability_id": "supernatural-strength",
+   "name": {
+    "id": "Kekuatan dan kecepatan",
+    "en": "Strength and speed"
+   },
+   "description": {
+    "id": "Polkan sangat kuat dan dapat melompat tujuh versta sekali lompat.",
+    "en": "Polkan is immensely strong and can leap seven versts at a bound."
+   },
+   "claim_ids": [
+    "polkan-c01",
+    "polkan-c05"
+   ]
+  }
+ ],
+ "weaknesses": [],
+ "variants": [],
+ "stories": [
+  {
+   "title": {
+    "id": "Kisah Bova Korolevich",
+    "en": "The Tale of Bova Korolevich"
+   },
+   "role": {
+    "id": "Musuh lalu sekutu",
+    "en": "Foe turned ally"
+   },
+   "summary": {
+    "id": "Polkan melawan Bova, lalu menjadi sahabatnya dan gugur melindungi keluarganya dari singa.",
+    "en": "Polkan fights Bova, then becomes his friend and dies defending his family from lions."
+   },
+   "claim_ids": [
+    "polkan-c03"
+   ]
+  }
+ ],
+ "places": [],
+ "timeline": [],
+ "relations": [
+  {
+   "target_name": "Bova Korolevich",
+   "relation_type": "ally",
+   "note": {
+    "id": "Polkan menjadi sekutu setia Bova.",
+    "en": "Polkan becomes Bova's loyal ally."
+   },
+   "claim_ids": [
+    "polkan-c03"
+   ]
+  }
+ ],
+ "modern_depictions": [],
+ "tradition_vs_modern": null,
+ "learning_questions": [
+  {
+   "id": "Bagaimana tokoh dari roman Eropa Barat bisa menjadi bagian dari cerita rakyat Rusia?",
+   "en": "How can a figure from a Western European romance become part of Russian folklore?"
+  }
+ ],
+ "images": [],
+ "sources": [
+  {
+   "id": "polkan-s1",
+   "url": "https://en.wikipedia.org/wiki/Polkan",
+   "title": "Polkan",
+   "author": null,
+   "publisher": "Wikipedia (en)",
+   "published": null,
+   "language": "en",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  },
+  {
+   "id": "polkan-s2",
+   "url": "https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB%D0%BA%D0%B0%D0%BD_(%D1%84%D0%BE%D0%BB%D1%8C%D0%BA%D0%BB%D0%BE%D1%80)",
+   "title": "Полкан (фольклор)",
+   "author": null,
+   "publisher": "Википедия (ru)",
+   "published": null,
+   "language": "ru",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  }
+ ],
+ "claims": [
+  {
+   "id": "polkan-c01",
+   "source_id": "polkan-s1",
+   "quote": "is a half-human, half-horse creature (in some variants, half-dog) from Russian folktales, known for his immense power and speed.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Polkan (Полкан) atau Palkan adalah makhluk setengah manusia setengah kuda (dalam beberapa varian setengah anjing) dari dongeng Rusia, terkenal karena kekuatan dan kecepatannya.",
+    "en": "Polkan or Palkan is a half-human, half-horse creature (half-dog in some variants) of Russian folktales, known for his immense power and speed."
+   }
+  },
+  {
+   "id": "polkan-c02",
+   "source_id": "polkan-s1",
+   "quote": "In folk etymology, his name is interpreted as polukon (Russian: полуконь), meaning 'half-horse'.",
+   "locator": "lead",
+   "context": "etymology",
+   "statement": {
+    "id": "Dalam etimologi rakyat namanya ditafsirkan sebagai polukon, \"setengah kuda\".",
+    "en": "In folk etymology his name is read as polukon, \"half-horse\"."
+   }
+  },
+  {
+   "id": "polkan-c03",
+   "source_id": "polkan-s1",
+   "quote": "He initially appears as the enemy of the hero Bova Korolevich, but after a battle, he becomes Bova's loyal friend and ally. He eventually dies fighting lions while protecting Bova's wife and children.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Ia mula-mula musuh pahlawan Bova Korolevich, tetapi setelah bertarung menjadi sahabat dan sekutu setia Bova, lalu gugur melawan singa saat melindungi istri dan anak-anak Bova.",
+    "en": "He first appears as the enemy of the hero Bova Korolevich but after a battle becomes Bova's loyal friend and ally, eventually dying fighting lions to protect Bova's wife and children."
+   }
+  },
+  {
+   "id": "polkan-c04",
+   "source_id": "polkan-s1",
+   "quote": "This tale was extremely popular in Russia and became part of Russian folklore, leading to numerous lubok prints containing the tale as well as woodcut illustrations. Alexander Pushkin in particular used some elements from the story for his own fairy tales.",
+   "locator": "lead",
+   "context": "historical-record",
+   "statement": {
+    "id": "Kisah ini sangat populer di Rusia, menjadi bagian cerita rakyat, dan muncul dalam banyak lubok serta ilustrasi cukil kayu; Alexander Pushkin memakai beberapa unsurnya untuk dongengnya.",
+    "en": "The tale was extremely popular in Russia and entered folklore, appearing in many lubok prints and woodcuts; Alexander Pushkin used some of its elements in his fairy tales."
+   }
+  },
+  {
+   "id": "polkan-c05",
+   "source_id": "polkan-s2",
+   "quote": "обладающий огромной силой и скоростью (может скачками перемещаться на большие расстояния — «семь вёрст за один скок»).",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Polkan memiliki kekuatan dan kecepatan luar biasa dan dapat melompat sangat jauh, \"tujuh versta dalam satu lompatan\".",
+    "en": "Polkan has immense strength and speed and can bound great distances, \"seven versts in one leap\"."
+   }
+  },
+  {
+   "id": "polkan-c06",
+   "source_id": "polkan-s1",
+   "quote": "Polkan is originally based on Pulicane, a half-dog character from Andrea da Barberino's poem I Reali di Francia, which was once popular in the Slavonic world through prosaic translations.",
+   "locator": "lead",
+   "context": "historical-record",
+   "statement": {
+    "id": "Polkan berasal dari Pulicane, tokoh setengah anjing dalam puisi Andrea da Barberino, I Reali di Francia, yang dulu populer di dunia Slavia lewat terjemahan prosa; di Rusia modern Polkan menjadi nama populer untuk anjing besar.",
+    "en": "Polkan is based on Pulicane, a half-dog character in Andrea da Barberino's poem I Reali di Francia, once popular in the Slavonic world through prose translations; in modern Russia Polkan is a popular name for large dogs."
+   }
+  }
+ ],
+ "conflicts": [],
+ "gaps": [
+  {
+   "field": "images",
+   "searched": "Lubok Polkan di Commons belum diperiksa."
+  }
+ ]
+}
+```
+
+```json
+{
+ "schema": "mythics-entry/1",
+ "batch_id": "batch-123",
+ "slug": "poroniec",
+ "task": "enrich",
+ "tier": "core",
+ "researched_at": "2026-10-03",
+ "identity": {
+  "canonical_name": "Poroniec",
+  "native_name": null,
+  "display_name": {
+   "id": "Poroniec",
+   "en": "Poroniec"
+  },
+  "wikidata_qid": "Q11824091",
+  "claim_ids": [
+   "poroniec-c01"
+  ]
+ },
+ "alternate_names": [
+  {
+   "name": "Porońce",
+   "language": "pl",
+   "name_type": "alias",
+   "claim_ids": [
+    "poroniec-c01"
+   ]
+  }
+ ],
+ "jenis": {
+  "value": "iblis/setan",
+  "claim_ids": [
+   "poroniec-c01"
+  ]
+ },
+ "classification": {
+  "value": "demon",
+  "claim_ids": [
+   "poroniec-c01"
+  ]
+ },
+ "culture": {
+  "value": "slavic-folklore",
+  "suggested_new": null,
+  "claim_ids": [
+   "poroniec-c01",
+   "poroniec-c05"
+  ]
+ },
+ "region": {
+  "value": "europe",
+  "claim_ids": [
+   "poroniec-c01"
+  ]
+ },
+ "countries": null,
+ "era": null,
+ "habitats": [],
+ "disposition": {
+  "value": "malevolent",
+  "claim_ids": [
+   "poroniec-c01"
+  ]
+ },
+ "traits": [
+  {
+   "value": "undead",
+   "claim_ids": [
+    "poroniec-c01"
+   ]
+  }
+ ],
+ "short_description": {
+  "id": "Poroniec adalah iblis jahat dalam mitologi Slavia yang dipercaya muncul dari janin yang lahir mati atau jasad bayi yang tidak dikuburkan dengan benar.",
+  "en": "A poroniec is a hostile demon of Slavic mythology believed to arise from a stillborn fetus or an improperly buried infant.",
+  "claim_ids": [
+   "poroniec-c01"
+  ]
+ },
+ "long_description": [
+  {
+   "id": "Dalam kepercayaan Slavia, poroniec (jamak porońce) adalah iblis jahat yang memusuhi manusia. Ia dipercaya lahir dari janin yang mati dalam kandungan, juga dari jasad bayi yang meninggal dan tidak dikuburkan sesuai adat. Porońce dianggap sangat kuat karena membawa potensi kehidupan yang tidak sempat terwujud.",
+   "en": "Slavic belief knows the poroniec (plural porońce) as a malicious demon hostile to people. It was thought to come from stillborn fetuses and from the remains of babies who died young and were not buried by custom. Porońce were held to be very powerful because of the unlived life they carried.",
+   "claim_ids": [
+    "poroniec-c01",
+    "poroniec-c02",
+    "poroniec-c05"
+   ]
+  },
+  {
+   "id": "Kepercayaan ini melahirkan banyak pantangan bagi perempuan hamil dan yang baru melahirkan, seperti menimba air dari sumur, membawa bayi keluar rumah, atau berhubungan badan. Janin yang dikuburkan di bawah ambang pintu rumah tidak menjadi poroniec, melainkan kłobuk, roh pelindung rumah. Poroniec mirip myling dalam cerita rakyat Skandinavia.",
+   "en": "The belief gave rise to many taboos for pregnant women and new mothers, such as drawing water from a well, taking a baby outdoors or having sex. A fetus buried under the house threshold did not become a poroniec but a kłobuk, a protective house spirit. The poroniec resembles the myling of Scandinavian folklore.",
+   "claim_ids": [
+    "poroniec-c03",
+    "poroniec-c04",
+    "poroniec-c06"
+   ]
+  }
+ ],
+ "cultural_context": null,
+ "etymology": null,
+ "story_mode": {
+  "who": {
+   "id": "Poroniec adalah iblis dari jiwa bayi yang lahir mati.",
+   "en": "The poroniec is a demon from a stillborn baby's soul.",
+   "claim_ids": [
+    "poroniec-c01",
+    "poroniec-c05"
+   ]
+  },
+  "origin": {
+   "id": "Ia berasal dari mitologi Slavia.",
+   "en": "It comes from Slavic mythology.",
+   "claim_ids": [
+    "poroniec-c01"
+   ]
+  },
+  "role": {
+   "id": "Ia memusuhi dan mencelakai manusia.",
+   "en": "It is hostile and harmful to people.",
+   "claim_ids": [
+    "poroniec-c01"
+   ]
+  },
+  "famous_for": {
+   "id": "Bila dikuburkan di bawah ambang pintu, ia menjadi kłobuk pelindung rumah.",
+   "en": "Buried under the threshold, it becomes a protective kłobuk.",
+   "claim_ids": [
+    "poroniec-c04"
+   ]
+  }
+ },
+ "did_you_know": {
+  "id": "Dalam gim The Witcher 3: Wild Hunt (2015), salah satu misi utama berkisar tentang pencarian poroniec.",
+  "en": "In the video game The Witcher 3: Wild Hunt (2015), one main quest revolves around finding a poroniec.",
+  "claim_ids": [
+   "poroniec-c07"
+  ]
+ },
+ "abilities": [],
+ "weaknesses": [],
+ "variants": [],
+ "stories": [],
+ "places": [],
+ "timeline": [],
+ "relations": [
+  {
+   "target_name": "Kłobuk",
+   "relation_type": "associated",
+   "note": {
+    "id": "Janin yang dikuburkan di bawah ambang pintu menjadi kłobuk, bukan poroniec.",
+    "en": "A fetus buried under the threshold becomes a kłobuk, not a poroniec."
+   },
+   "claim_ids": [
+    "poroniec-c04"
+   ]
+  },
+  {
+   "target_name": "Myling",
+   "relation_type": "counterpart",
+   "note": {
+    "id": "Poroniec mirip myling Skandinavia.",
+    "en": "The poroniec resembles the Scandinavian myling."
+   },
+   "claim_ids": [
+    "poroniec-c06"
+   ]
+  }
+ ],
+ "modern_depictions": [
+  {
+   "title": "The Witcher 3: Wild Hunt",
+   "year": 2015,
+   "medium": "video-game",
+   "description": {
+    "id": "Salah satu misi utama berkisar tentang pencarian poroniec.",
+    "en": "One of the main quests revolves around searching for a poroniec."
+   },
+   "claim_ids": [
+    "poroniec-c07"
+   ]
+  }
+ ],
+ "tradition_vs_modern": null,
+ "learning_questions": [
+  {
+   "id": "Bagaimana kepercayaan tentang poroniec mencerminkan cara masyarakat dulu menghadapi kematian bayi?",
+   "en": "How does the poroniec belief reflect how people once coped with infant death?"
+  }
+ ],
+ "images": [],
+ "sources": [
+  {
+   "id": "poroniec-s1",
+   "url": "https://en.wikipedia.org/wiki/Poroniec",
+   "title": "Poroniec",
+   "author": null,
+   "publisher": "Wikipedia (en)",
+   "published": null,
+   "language": "en",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  },
+  {
+   "id": "poroniec-s2",
+   "url": "https://pl.wikipedia.org/wiki/Poroniec_(demon)",
+   "title": "Poroniec (demon)",
+   "author": null,
+   "publisher": "Wikipedia (pl)",
+   "published": null,
+   "language": "pl",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  }
+ ],
+ "claims": [
+  {
+   "id": "poroniec-c01",
+   "source_id": "poroniec-s1",
+   "quote": "is a hostile and malicious demon from Slavic mythology. They were believed to come into existence from stillborn fetuses, but also from improperly buried remains of children who had died during infancy.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Poroniec (jamak porońce) adalah iblis jahat dari mitologi Slavia yang dipercaya berasal dari janin yang lahir mati dan dari jasad bayi yang tidak dikuburkan dengan benar.",
+    "en": "The poroniec (plural porońce) is a hostile demon of Slavic mythology believed to arise from stillborn fetuses and improperly buried infants."
+   }
+  },
+  {
+   "id": "poroniec-c02",
+   "source_id": "poroniec-s1",
+   "quote": "Porońce were considered to be extremely powerful demons, due to their potential of unrealized life.",
+   "locator": "Folklore",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Porońce dianggap iblis yang sangat kuat karena potensi kehidupan yang tak terwujud.",
+    "en": "Porońce were thought extremely powerful demons because of their unrealised potential of life."
+   }
+  },
+  {
+   "id": "poroniec-c03",
+   "source_id": "poroniec-s1",
+   "quote": "Porońce were associated with many taboos regarding pregnant women, such as drawing water from a well, leaving home with an infant, or engaging in sexual intercourse.",
+   "locator": "Folklore",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Porońce terkait banyak pantangan bagi perempuan hamil, seperti menimba air dari sumur, keluar rumah membawa bayi, atau berhubungan badan.",
+    "en": "Porońce were tied to many taboos for pregnant women, such as drawing water from a well, leaving home with an infant or having sex."
+   }
+  },
+  {
+   "id": "poroniec-c04",
+   "source_id": "poroniec-s1",
+   "quote": "A stillborn fetus did not turn into a poroniec if it was buried under the threshold of the house. Instead, it turned into a kłobuk ... – a protective house spirit.",
+   "locator": "Folklore",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Janin yang lahir mati tidak menjadi poroniec bila dikuburkan di bawah ambang pintu rumah, melainkan menjadi kłobuk, roh pelindung rumah.",
+    "en": "A stillborn fetus buried under the house threshold did not become a poroniec but a kłobuk, a protective house spirit."
+   }
+  },
+  {
+   "id": "poroniec-c05",
+   "source_id": "poroniec-s2",
+   "quote": "w wierzeniach słowiańskich złośliwy i wrogi ludziom demon wywodzący się z duszy poronionego dziecka lub spędzonego płodu.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Dalam kepercayaan Slavia, poroniec adalah iblis jahat yang memusuhi manusia, berasal dari jiwa bayi yang keguguran atau janin yang digugurkan.",
+    "en": "In Slavic belief the poroniec is a malicious demon hostile to people, arising from the soul of a miscarried child or aborted fetus."
+   }
+  },
+  {
+   "id": "poroniec-c06",
+   "source_id": "poroniec-s1",
+   "quote": "A poroniec is somewhat similar to a being from Scandinavian folklore, the myling.",
+   "locator": "Folklore",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Poroniec agak mirip myling, makhluk dalam cerita rakyat Skandinavia.",
+    "en": "A poroniec is somewhat similar to the myling of Scandinavian folklore."
+   }
+  },
+  {
+   "id": "poroniec-c07",
+   "source_id": "poroniec-s1",
+   "quote": "In the 2015 video game The Witcher 3: Wild Hunt, one of the main quests revolves around the search for a botchling (poroniec in the original version)",
+   "locator": "In popular culture",
+   "context": "modern-popular-culture",
+   "statement": {
+    "id": "Dalam gim The Witcher 3: Wild Hunt tahun 2015, salah satu misi utama berkisar tentang pencarian botchling (poroniec dalam versi asli).",
+    "en": "In the 2015 video game The Witcher 3: Wild Hunt, one main quest revolves around the search for a botchling (poroniec in the original)."
+   }
+  }
+ ],
+ "conflicts": [],
+ "gaps": [
+  {
+   "field": "images",
+   "searched": "Tidak ada gambar Commons yang terbukti menggambarkan poroniec."
+  }
+ ]
+}
+```
+
+```json
+{
+ "schema": "mythics-entry/1",
+ "batch_id": "batch-123",
+ "slug": "salme",
+ "task": "new",
+ "skip": {
+  "reason": "Bukan makhluk: Salme adalah tokoh perempuan dalam lagu rakyat Estonia dan epos Kalevipoeg (gadis yang menikah dengan Bintang). Sesuai aturan 3 Oktober 2026 (§12), tokoh yang berwujud manusia tidak dimasukkan.",
+  "evidence_url": "https://et.wikipedia.org/wiki/Salme_(tegelaskuju)"
+ }
+}
+```
+
+```json
+{
+ "schema": "mythics-entry/1",
+ "batch_id": "batch-123",
+ "slug": "sarkany-mythology",
+ "task": "enrich",
+ "tier": "core",
+ "researched_at": "2026-10-03",
+ "identity": {
+  "canonical_name": "Sárkány",
+  "native_name": null,
+  "display_name": {
+   "id": "Sárkány (mitologi Hungaria)",
+   "en": "Sárkány (Hungarian mythology)"
+  },
+  "wikidata_qid": "Q4834124",
+  "claim_ids": [
+   "sarkany-mythology-c01"
+  ]
+ },
+ "alternate_names": [],
+ "jenis": {
+  "value": "naga/ular mitos",
+  "claim_ids": [
+   "sarkany-mythology-c01"
+  ]
+ },
+ "classification": {
+  "value": "dragon",
+  "claim_ids": [
+   "sarkany-mythology-c01"
+  ]
+ },
+ "culture": {
+  "value": "tradition-hungarian",
+  "suggested_new": null,
+  "claim_ids": [
+   "sarkany-mythology-c01"
+  ]
+ },
+ "region": {
+  "value": "europe",
+  "claim_ids": [
+   "sarkany-mythology-c01"
+  ]
+ },
+ "countries": null,
+ "era": null,
+ "habitats": [
+  {
+   "value": "sky",
+   "claim_ids": [
+    "sarkany-mythology-c05"
+   ]
+  }
+ ],
+ "disposition": {
+  "value": "malevolent",
+  "claim_ids": [
+   "sarkany-mythology-c04"
+  ]
+ },
+ "traits": [
+  {
+   "value": "fire-associated",
+   "claim_ids": [
+    "sarkany-mythology-c04"
+   ]
+  }
+ ],
+ "short_description": {
+  "id": "Sárkány (\"naga\") adalah monster legendaris dalam mitologi Hungaria, biasanya berupa makhluk reptil bersisik dan bersayap, yang dikaitkan dengan badai, hujan es, dan harta.",
+  "en": "The sárkány (\"dragon\") is a legendary monster of Hungarian mythology, usually a scaly, winged reptile, linked with storms, hail and treasure.",
+  "claim_ids": [
+   "sarkany-mythology-c01",
+   "sarkany-mythology-c05"
+  ]
+ },
+ "long_description": [
+  {
+   "id": "Sárkány, \"naga\", adalah monster legendaris dalam mitologi Hungaria. Ia biasanya tampil sebagai binatang reptil bersisik dan bersayap, tetapi kadang merupakan campuran makhluk lain. Dalam kebudayaan Hungaria ia juga digambarkan sebagai monster ilahi purba dan penjaga harta.",
+   "en": "The sárkány, \"dragon\", is a legendary monster of Hungarian myth. It usually takes the form of a scaly, winged reptile, though at times it blends features of other beings. Hungarian tradition also casts it as an ancient divine monster and a keeper of treasure.",
+   "claim_ids": [
+    "sarkany-mythology-c01",
+    "sarkany-mythology-c03"
+   ]
+  },
+  {
+   "id": "Menurut Magyar néprajzi lexikon, kepercayaan rakyat mengenal tarajos kígyó, \"ular berjengger\", ular menakutkan berkekuatan gaib yang bersayap, bagian depannya mirip kuda dan belakangnya mirip ular, bersisik keras, berkuku dan bergigi panjang, berjengger menyala, meniup percikan dan memuntahkan api. Sárkány juga kuda tunggangan garabonciás dan berhubungan dengan badai, hujan es, dan harta; ia lahir dari ikan atau ular yang tujuh tahun tersembunyi dari pandangan manusia di rawa atau tebing batu.",
+   "en": "According to the Hungarian ethnographic lexicon, folk belief knows the tarajos kígyó, the \"crested serpent\", a dreadful, supernaturally strong winged snake, horse-like in front and serpent-like behind, hard-scaled, long-clawed and long-toothed, with a flaming crest, blowing sparks and spewing flame. The sárkány is also the steed of the garabonciás and is tied to storms, hail and treasure; it grows from a fish or snake hidden from human eyes for seven years in a marsh or rock cleft.",
+   "claim_ids": [
+    "sarkany-mythology-c04",
+    "sarkany-mythology-c05"
+   ]
+  },
+  {
+   "id": "Kata sárkány dianggap serapan dari bahasa Turkik Oghur šaragan, \"naga\", dan mungkin berakar sama dengan kata Hungaria sárga, \"kuning\". Badai petir yang merusak sering dikaitkan dengan kemunculan naga, dan gemuruh guntur dianggap amukan naga di langit.",
+   "en": "The word sárkány is thought to be borrowed from Oghuric Turkic šaragan, \"dragon\", and may share a root with Hungarian sárga, \"yellow\". Destructive thunderstorms were often linked with dragons, the thunder being the dragons raging in the sky.",
+   "claim_ids": [
+    "sarkany-mythology-c02",
+    "sarkany-mythology-c06"
+   ]
+  }
+ ],
+ "cultural_context": null,
+ "etymology": {
+  "original_form": "šaragan",
+  "language": "Oghuric Turkic",
+  "literal_meaning": {
+   "id": "naga",
+   "en": "dragon"
+  },
+  "claim_ids": [
+   "sarkany-mythology-c02"
+  ]
+ },
+ "story_mode": {
+  "who": {
+   "id": "Sárkány adalah naga dalam mitologi Hungaria.",
+   "en": "The sárkány is the dragon of Hungarian mythology.",
+   "claim_ids": [
+    "sarkany-mythology-c01"
+   ]
+  },
+  "origin": {
+   "id": "Ia berasal dari kepercayaan rakyat Hungaria.",
+   "en": "It comes from Hungarian folk belief.",
+   "claim_ids": [
+    "sarkany-mythology-c01"
+   ]
+  },
+  "role": {
+   "id": "Ia membawa badai dan hujan es serta menjaga harta.",
+   "en": "It brings storms and hail and guards treasure.",
+   "claim_ids": [
+    "sarkany-mythology-c03",
+    "sarkany-mythology-c05"
+   ]
+  },
+  "famous_for": {
+   "id": "Ia menjadi kuda tunggangan garabonciás.",
+   "en": "It is the steed of the garabonciás.",
+   "claim_ids": [
+    "sarkany-mythology-c05"
+   ]
+  }
+ },
+ "did_you_know": {
+  "id": "Menurut kepercayaan, sárkány lahir dari ikan atau ular yang tujuh tahun tidak terlihat mata manusia.",
+  "en": "By belief, a sárkány grows from a fish or snake unseen by human eyes for seven years.",
+  "claim_ids": [
+   "sarkany-mythology-c05"
+  ]
+ },
+ "abilities": [
+  {
+   "ability_id": "elemental-control",
+   "name": {
+    "id": "Badai",
+    "en": "Storms"
+   },
+   "description": {
+    "id": "Sárkány berhubungan dengan badai dan hujan es.",
+    "en": "The sárkány is linked with storms and hail."
+   },
+   "claim_ids": [
+    "sarkany-mythology-c05",
+    "sarkany-mythology-c06"
+   ]
+  }
+ ],
+ "weaknesses": [],
+ "variants": [],
+ "stories": [],
+ "places": [],
+ "timeline": [],
+ "relations": [
+  {
+   "target_name": "Garabonciás",
+   "relation_type": "associated",
+   "note": {
+    "id": "Sárkány adalah kuda tunggangan garabonciás.",
+    "en": "The sárkány is the garabonciás's steed."
+   },
+   "claim_ids": [
+    "sarkany-mythology-c05"
+   ]
+  }
+ ],
+ "modern_depictions": [],
+ "tradition_vs_modern": null,
+ "learning_questions": [
+  {
+   "id": "Mengapa naga dalam banyak budaya Eropa dikaitkan dengan badai?",
+   "en": "Why are dragons in many European cultures linked with storms?"
+  }
+ ],
+ "images": [],
+ "sources": [
+  {
+   "id": "sarkany-mythology-s1",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A1rk%C3%A1ny_(mythology)",
+   "title": "Sárkány (mythology)",
+   "author": null,
+   "publisher": "Wikipedia (en)",
+   "published": null,
+   "language": "en",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  },
+  {
+   "id": "sarkany-mythology-s2",
+   "url": "https://hu.wikipedia.org/wiki/S%C3%A1rk%C3%A1nyok_a_magyar_mes%C3%A9kben",
+   "title": "Sárkányok a magyar mesékben",
+   "author": null,
+   "publisher": "Wikipédia (hu)",
+   "published": null,
+   "language": "hu",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  }
+ ],
+ "claims": [
+  {
+   "id": "sarkany-mythology-c01",
+   "source_id": "sarkany-mythology-s1",
+   "quote": "('dragon') is a legendary monster found in Hungarian mythology. It usually appears as a scaly, winged, reptilian beast, but in some cases it could be a mixture of other beings.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Sárkány (\"naga\") adalah monster legendaris dalam mitologi Hungaria, biasanya berupa binatang reptil bersisik dan bersayap, kadang campuran makhluk lain.",
+    "en": "The sárkány (\"dragon\") is a legendary monster of Hungarian mythology, usually a scaly, winged, reptilian beast, sometimes a mixture of other beings."
+   }
+  },
+  {
+   "id": "sarkany-mythology-c02",
+   "source_id": "sarkany-mythology-s1",
+   "quote": "Hungarian sárkány is regarded as a loanword from Oghuric Turkic (or \"West Old Turkic\") šaragan 'dragon' ... The word may be connected to the same root as occurs in Hungarian sárga ('yellow')",
+   "locator": "Etymology",
+   "context": "etymology",
+   "statement": {
+    "id": "Kata sárkány dianggap serapan dari bahasa Turkik Oghur šaragan, \"naga\", dan mungkin berakar sama dengan kata Hungaria sárga, \"kuning\".",
+    "en": "Hungarian sárkány is regarded as a loanword from Oghuric Turkic šaragan, \"dragon\", and may share a root with Hungarian sárga, \"yellow\"."
+   }
+  },
+  {
+   "id": "sarkany-mythology-c03",
+   "source_id": "sarkany-mythology-s2",
+   "quote": "A magyar kultúrkörben a sárkány mítoszok és legendák ősi sárkánya, isteni szörnyetege és a kincseket őrző lény, legtöbbször szárnyas, pikkelyes hüllő alakjában",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Dalam kebudayaan Hungaria, sárkány adalah naga purba mitos dan legenda, monster ilahi dan penjaga harta, biasanya berwujud reptil bersayap dan bersisik.",
+    "en": "In Hungarian culture the sárkány is the ancient dragon of myth and legend, a divine monster and treasure guardian, usually a winged, scaly reptile."
+   }
+  },
+  {
+   "id": "sarkany-mythology-c04",
+   "source_id": "sarkany-mythology-s2",
+   "quote": "„A tarajos csúszó, tarajos kígyó félelmetes, természetfeletti erejű kígyó. Szárnyas alakú, elöl lóhoz, hátul kígyóhoz hasonlít, pikkelyes kemény bőrű, hosszú körmű, hosszú fogú, lángoló tarajú; szikrát fúj, lángot hány.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Menurut Magyar néprajzi lexikon, tarajos kígyó (\"ular berjengger\") adalah ular menakutkan berkekuatan gaib, bersayap, depannya mirip kuda dan belakangnya mirip ular, bersisik keras, berkuku dan bergigi panjang, berjengger menyala, meniup percikan dan memuntahkan api.",
+    "en": "Per the Hungarian ethnographic lexicon, the tarajos kígyó (\"crested serpent\") is a dreadful, supernaturally strong winged snake, horse-like in front and snake-like behind, hard-scaled, long-clawed and long-toothed, with a flaming crest, blowing sparks and spewing flame."
+   }
+  },
+  {
+   "id": "sarkany-mythology-c05",
+   "source_id": "sarkany-mythology-s2",
+   "quote": "„Sárkány, mint a garabonciás lova, kapcsolatban áll a viharral, jégesővel és a kincsekkel. Olyan halból vagy kígyóból lesz, amelyet mocsárban, kőszirtben elbújva hét évig emberi szem nem látott.”",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Sárkány, sebagai kuda tunggangan garabonciás, berhubungan dengan badai, hujan es, dan harta; ia lahir dari ikan atau ular yang tersembunyi di rawa atau tebing batu dan tujuh tahun tidak terlihat mata manusia.",
+    "en": "The sárkány, as the garabonciás's steed, is linked with storms, hail and treasure; it comes from a fish or snake hidden in a marsh or rock cleft and unseen by human eyes for seven years."
+   }
+  },
+  {
+   "id": "sarkany-mythology-c06",
+   "source_id": "sarkany-mythology-s2",
+   "quote": "Általánosságban kijelenthető, hogy legtöbbször a pusztító, villámló viharokkal hozták összefüggésbe a sárkányok megjelenését, ahol a vihar mennydörgése tulajdonképpen a sárkányok tombolása volt az égben",
+   "locator": "Korai megjelenések",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Kemunculan naga paling sering dikaitkan dengan badai petir yang merusak, dan gemuruh guntur dianggap amukan naga di langit.",
+    "en": "The appearance of dragons was most often linked with destructive lightning storms, the thunder being the dragons raging in the sky."
+   }
+  }
+ ],
+ "conflicts": [],
+ "gaps": [
+  {
+   "field": "images",
+   "searched": "Tidak dicari ilustrasi Commons yang terbukti menggambarkan sárkány."
+  }
+ ]
+}
+```
+
+```json
+{
+ "schema": "mythics-entry/1",
+ "batch_id": "batch-123",
+ "slug": "shubin-ghost",
+ "task": "enrich",
+ "tier": "core",
+ "researched_at": "2026-10-03",
+ "identity": {
+  "canonical_name": "Shubin",
+  "native_name": {
+   "text": "Шубін",
+   "script": "Cyrillic",
+   "claim_ids": [
+    "shubin-ghost-c01"
+   ]
+  },
+  "display_name": {
+   "id": "Shubin (roh tambang)",
+   "en": "Shubin (mining spirit)"
+  },
+  "wikidata_qid": "Q4527185",
+  "claim_ids": [
+   "shubin-ghost-c01"
+  ]
+ },
+ "alternate_names": [],
+ "jenis": {
+  "value": "roh",
+  "claim_ids": [
+   "shubin-ghost-c01"
+  ]
+ },
+ "classification": {
+  "value": "spirit",
+  "claim_ids": [
+   "shubin-ghost-c01"
+  ]
+ },
+ "culture": {
+  "value": "slavic-folklore",
+  "suggested_new": null,
+  "claim_ids": [
+   "shubin-ghost-c01",
+   "shubin-ghost-c04"
+  ]
+ },
+ "region": {
+  "value": "europe",
+  "claim_ids": [
+   "shubin-ghost-c01"
+  ]
+ },
+ "countries": {
+  "value": [
+   "Ukraine",
+   "Russia"
+  ],
+  "claim_ids": [
+   "shubin-ghost-c01"
+  ]
+ },
+ "era": null,
+ "habitats": [
+  {
+   "value": "cave",
+   "claim_ids": [
+    "shubin-ghost-c01",
+    "shubin-ghost-c04"
+   ]
+  }
+ ],
+ "disposition": {
+  "value": "ambivalent",
+  "claim_ids": [
+   "shubin-ghost-c01"
+  ]
+ },
+ "traits": [
+  {
+   "value": "guardian",
+   "claim_ids": [
+    "shubin-ghost-c04"
+   ]
+  }
+ ],
+ "short_description": {
+  "id": "Shubin adalah roh tambang dalam cerita rakyat para penambang Donbas, \"tuan tambang\" yang biasanya baik dan memperingatkan penambang akan bahaya.",
+  "en": "Shubin is a mining spirit of Donbas miners' folklore, the \"master of the mine\" who is usually kind and warns miners of danger.",
+  "claim_ids": [
+   "shubin-ghost-c01",
+   "shubin-ghost-c04",
+   "shubin-ghost-c05"
+  ]
+ },
+ "long_description": [
+  {
+   "id": "Shubin adalah roh tambang dalam mitologi. Legendanya terutama tersebar di kota-kota tambang wilayah Donbas di perbatasan Rusia dan Ukraina. Roh ini biasanya baik, tetapi bisa juga jahat. Dalam cerita rakyat penambang Donbas ia disebut Shubin yang Baik, roh tambang mirip gnome, \"tuan tambang\" dan pelindung para penambang.",
+   "en": "Shubin is a spirit of the mines in folk myth. His legend circulates mainly in the mining towns of the Donbas on the Russia–Ukraine border. The spirit is usually kindly but can turn wicked. Donbas miners' lore calls him Good Shubin, a gnome-like mine spirit, \"master of the mine\" and patron of miners.",
+   "claim_ids": [
+    "shubin-ghost-c01",
+    "shubin-ghost-c04"
+   ]
+  },
+  {
+   "id": "Asal namanya diperdebatkan. Ada yang mengaitkannya dengan julukan seorang penambang yang arwahnya berjalan di dasar tambang memakai mantel bulu sambil membawa obor dan membakar gas tambang; ada yang mengaitkannya dengan mandor kejam bernama Shubin yang membunuh pekerja di bawah tanah; ada pula yang menurunkannya dari bunyi metana, \"shu-shu\". Tuturan lisan menyebut Shubin yang baik memperingatkan penambang akan bencana, dan bila terdengar batuknya, penambang harus segera lari.",
+   "en": "The origin of the name is disputed: some link it to the nickname of a miner whose soul walks the bottom of the mine in a fur coat with a torch, burning off firedamp; some to a cruel mine boss named Shubin who killed workers underground; others to the \"shu-shu\" sound of methane. Oral lore says good Shubin warns miners of coming disasters, and when his cough is heard, it is time to run.",
+   "claim_ids": [
+    "shubin-ghost-c02",
+    "shubin-ghost-c05"
+   ]
+  },
+  {
+   "id": "Pada September 2026, kisah-kisah penambang tentang roh pelindung Shubin dimasukkan ke Daftar Nasional Warisan Budaya Takbenda Ukraina. Kepercayaan tentangnya dicatat oleh penulis Boris Gorbatov dan Leonid Zharikov.",
+   "en": "Ukraine added the miners' stories of Shubin, the protective spirit, to its national list of intangible cultural heritage in September 2026. Beliefs about him were written down by the writers Boris Gorbatov and Leonid Zharikov.",
+   "claim_ids": [
+    "shubin-ghost-c03",
+    "shubin-ghost-c06"
+   ]
+  }
+ ],
+ "cultural_context": null,
+ "etymology": null,
+ "story_mode": {
+  "who": {
+   "id": "Shubin adalah roh tambang.",
+   "en": "Shubin is a mining spirit.",
+   "claim_ids": [
+    "shubin-ghost-c01"
+   ]
+  },
+  "origin": {
+   "id": "Ia berasal dari cerita rakyat penambang Donbas.",
+   "en": "He comes from Donbas miners' folklore.",
+   "claim_ids": [
+    "shubin-ghost-c01",
+    "shubin-ghost-c04"
+   ]
+  },
+  "role": {
+   "id": "Ia melindungi penambang dan memperingatkan bahaya.",
+   "en": "He protects miners and warns of danger.",
+   "claim_ids": [
+    "shubin-ghost-c04",
+    "shubin-ghost-c05"
+   ]
+  },
+  "famous_for": {
+   "id": "Batuknya menjadi tanda agar penambang segera lari.",
+   "en": "His cough tells miners to run.",
+   "claim_ids": [
+    "shubin-ghost-c05"
+   ]
+  }
+ },
+ "did_you_know": {
+  "id": "Pada September 2026 kisah Shubin masuk Daftar Nasional Warisan Budaya Takbenda Ukraina.",
+  "en": "In September 2026 the Shubin tales were inscribed on Ukraine's National Register of Intangible Cultural Heritage.",
+  "claim_ids": [
+   "shubin-ghost-c03"
+  ]
+ },
+ "abilities": [],
+ "weaknesses": [],
+ "variants": [],
+ "stories": [],
+ "places": [
+  {
+   "name": {
+    "id": "Donbas",
+    "en": "Donbas"
+   },
+   "type": "region",
+   "description": {
+    "id": "Wilayah tambang tempat legenda Shubin terutama tersebar.",
+    "en": "The mining region where Shubin's legend chiefly spreads."
+   },
+   "claim_ids": [
+    "shubin-ghost-c01"
+   ]
+  }
+ ],
+ "timeline": [],
+ "relations": [],
+ "modern_depictions": [],
+ "tradition_vs_modern": null,
+ "learning_questions": [
+  {
+   "id": "Mengapa pekerja di tempat berbahaya seperti tambang menciptakan sosok roh pelindung?",
+   "en": "Why do people in dangerous work like mining imagine guardian spirits?"
+  }
+ ],
+ "images": [],
+ "sources": [
+  {
+   "id": "shubin-ghost-s1",
+   "url": "https://en.wikipedia.org/wiki/Shubin_(ghost)",
+   "title": "Shubin (ghost)",
+   "author": null,
+   "publisher": "Wikipedia (en)",
+   "published": null,
+   "language": "en",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  },
+  {
+   "id": "shubin-ghost-s2",
+   "url": "https://ru.wikipedia.org/wiki/%D0%A8%D1%83%D0%B1%D0%B8%D0%BD_(%D0%BC%D0%B8%D1%84%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F)",
+   "title": "Шубин (мифология)",
+   "author": null,
+   "publisher": "Википедия (ru)",
+   "published": null,
+   "language": "ru",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  }
+ ],
+ "claims": [
+  {
+   "id": "shubin-ghost-c01",
+   "source_id": "shubin-ghost-s1",
+   "quote": "is the mythological mining spirit. The legend of Shubin is distributed mainly in the mining towns of the Donbas region on the Russia–Ukraine border. In the north one can hear several legends about the spirit of the mines. The spirit is usually good, but can be wicked.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Shubin (Шубін) adalah roh tambang mitologis; legendanya terutama tersebar di kota-kota tambang Donbas di perbatasan Rusia dan Ukraina (Russia, Ukraine); roh ini biasanya baik tetapi bisa jahat.",
+    "en": "Shubin is the mythological mining spirit; his legend spreads mainly in the mining towns of the Donbas on the Russia–Ukraine border; the spirit is usually good but can be wicked."
+   }
+  },
+  {
+   "id": "shubin-ghost-c02",
+   "source_id": "shubin-ghost-s1",
+   "quote": "(1) the nickname of a miner, whose soul, according to legend, walks in a fur coat at the bottom of the mine with a torch in his hand and burns the gas (firedamp); (2) the name of the cruel mining master Shubin, who slew workers underground; (3) the sound from methane (Shu-Shu), which often accumulates in the mines.",
+   "locator": "lead",
+   "context": "etymology",
+   "statement": {
+    "id": "Penjelasan nama: (1) julukan penambang yang arwahnya berjalan di dasar tambang bermantel bulu membawa obor dan membakar gas tambang; (2) nama mandor kejam Shubin yang membunuh pekerja di bawah tanah; (3) bunyi metana \"shu-shu\".",
+    "en": "Explanations of the name: (1) the nickname of a miner whose soul walks the mine bottom in a fur coat with a torch, burning firedamp; (2) the cruel mine boss Shubin who killed workers underground; (3) the \"shu-shu\" sound of methane."
+   }
+  },
+  {
+   "id": "shubin-ghost-c03",
+   "source_id": "shubin-ghost-s1",
+   "quote": "In September 2026, miners' tales about the guardian spirit Shubin were inscribed on the National Register of the Intangible Cultural Heritage of Ukraine.",
+   "locator": "lead",
+   "context": "historical-record",
+   "statement": {
+    "id": "Pada September 2026, kisah penambang tentang roh pelindung Shubin dimasukkan ke Daftar Nasional Warisan Budaya Takbenda Ukraina.",
+    "en": "In September 2026, miners' tales about the guardian spirit Shubin were inscribed on the National Register of the Intangible Cultural Heritage of Ukraine."
+   }
+  },
+  {
+   "id": "shubin-ghost-c04",
+   "source_id": "shubin-ghost-s2",
+   "quote": "Добрый Шу́бин, или просто Шубин — персонаж шахтёрского фольклора Донбасса, горняцкий дух, похожий на гнома, «хозяин шахты» и покровитель шахтёров.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Shubin yang Baik, atau Shubin saja, adalah tokoh cerita rakyat penambang Donbas, roh tambang mirip gnome, \"tuan tambang\" dan pelindung para penambang.",
+    "en": "Good Shubin, or just Shubin, is a figure of Donbas miners' folklore, a gnome-like mining spirit, \"master of the mine\" and patron of miners."
+   }
+  },
+  {
+   "id": "shubin-ghost-c05",
+   "source_id": "shubin-ghost-s2",
+   "quote": "Изустное предание гласит о добром Шубине, предупреждающим шахтёров о грядущих бедах. Образ Шубина представляется мужчиной средних лет с кашлем курильщика.\"Слышишь кашель-делай ноги!\".",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Tuturan lisan menyebut Shubin yang baik memperingatkan penambang akan bencana; ia dibayangkan sebagai lelaki paruh baya dengan batuk perokok: \"Dengar batuk, segera lari!\"",
+    "en": "Oral lore tells of good Shubin warning miners of coming disasters; he is imagined as a middle-aged man with a smoker's cough: \"Hear the cough, run!\""
+   }
+  },
+  {
+   "id": "shubin-ghost-c06",
+   "source_id": "shubin-ghost-s2",
+   "quote": "Поверья о Шубине записали собиратели фольклора писатели Борис Горбатов и Леонид Жариков.",
+   "locator": "lead",
+   "context": "historical-record",
+   "statement": {
+    "id": "Kepercayaan tentang Shubin dicatat oleh pengumpul cerita rakyat, penulis Boris Gorbatov dan Leonid Zharikov.",
+    "en": "Beliefs about Shubin were recorded by folklore collectors, the writers Boris Gorbatov and Leonid Zharikov."
+   }
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": {
+    "id": "Asal nama",
+    "en": "Origin of the name"
+   },
+   "positions": [
+    {
+     "summary": {
+      "id": "Julukan penambang yang arwahnya membakar gas tambang.",
+      "en": "A miner's nickname whose soul burns off firedamp."
+     },
+     "claim_ids": [
+      "shubin-ghost-c02"
+     ]
+    },
+    {
+     "summary": {
+      "id": "Mandor kejam bernama Shubin.",
+      "en": "A cruel mine boss named Shubin."
+     },
+     "claim_ids": [
+      "shubin-ghost-c02"
+     ]
+    },
+    {
+     "summary": {
+      "id": "Bunyi metana \"shu-shu\".",
+      "en": "The \"shu-shu\" sound of methane."
+     },
+     "claim_ids": [
+      "shubin-ghost-c02"
+     ]
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  {
+   "field": "images",
+   "searched": "Tidak ada gambar Commons yang terbukti menggambarkan Shubin."
+  }
+ ]
+}
+```
+
+```json
+{
+ "schema": "mythics-entry/1",
+ "batch_id": "batch-123",
+ "slug": "supernatural-beings-in-slavic-religion",
+ "task": "enrich",
+ "tier": "core",
+ "researched_at": "2026-10-03",
+ "identity": {
+  "canonical_name": "Supernatural beings in Slavic religion",
+  "native_name": null,
+  "display_name": {
+   "id": "Makhluk gaib dalam agama Slavia",
+   "en": "Supernatural beings in Slavic religion"
+  },
+  "wikidata_qid": "Q39091086",
+  "claim_ids": [
+   "supernatural-beings-in-slavic-religion-c01"
+  ]
+ },
+ "alternate_names": [],
+ "jenis": {
+  "value": "roh",
+  "claim_ids": [
+   "supernatural-beings-in-slavic-religion-c01"
+  ]
+ },
+ "classification": {
+  "value": "spirit",
+  "claim_ids": [
+   "supernatural-beings-in-slavic-religion-c01"
+  ]
+ },
+ "culture": {
+  "value": "slavic-folklore",
+  "suggested_new": null,
+  "claim_ids": [
+   "supernatural-beings-in-slavic-religion-c01"
+  ]
+ },
+ "region": {
+  "value": "europe",
+  "claim_ids": [
+   "supernatural-beings-in-slavic-religion-c01"
+  ]
+ },
+ "countries": null,
+ "era": null,
+ "habitats": [],
+ "disposition": null,
+ "traits": [],
+ "short_description": {
+  "id": "Entri ini adalah ikhtisar: selain para dewa, bangsa Slavia kuno percaya dan menghormati banyak makhluk gaib yang hidup di alam, seperti vila.",
+  "en": "This entry is an overview: besides their gods, the ancient Slavs believed in and revered many supernatural beings of nature, such as the vila.",
+  "claim_ids": [
+   "supernatural-beings-in-slavic-religion-c01",
+   "supernatural-beings-in-slavic-religion-c02"
+  ]
+ },
+ "long_description": [
+  {
+   "id": "Selain banyak dewa dan dewi, bangsa Slavia kuno percaya dan menghormati banyak makhluk gaib yang ada di alam. Makhluk-makhluk ini beragam wujudnya, dan nama satu makhluk dapat dieja atau ditransliterasi berbeda menurut bahasa dan sistem transliterasi.",
+   "en": "Beyond their many gods and goddesses, the ancient Slavs believed in and honoured a host of supernatural beings dwelling in nature. These beings take many shapes, and the name of any one of them may be spelled or transliterated differently depending on language and system.",
+   "claim_ids": [
+    "supernatural-beings-in-slavic-religion-c01"
+   ]
+  },
+  {
+   "id": "Salah satu contohnya adalah vila (jamak vile), peri mirip nimfa yang oleh sejarawan Yunani Procopius disebut nimfa; namanya berakar sama dengan nama Veles. Vila digambarkan cantik, muda selamanya, berbaju putih, bermata berkilat seperti guntur, bersayap, dan berambut pirang. Bagi Slavia Selatan dan sebagian Slovakia, vila adalah makhluk perempuan yang umumnya bersifat baik.",
+   "en": "One example is the vila (plural vile), a nymph-like fairy whom the Greek historian Procopius called a nymph; her name shares its root with that of Veles. Vile are described as beautiful and ever young, dressed in white, with eyes flashing like thunder, wings and blonde hair. Among the South Slavs and partly the Slovaks she is a female being with mostly good qualities.",
+   "claim_ids": [
+    "supernatural-beings-in-slavic-religion-c02",
+    "supernatural-beings-in-slavic-religion-c03",
+    "supernatural-beings-in-slavic-religion-c04"
+   ]
+  }
+ ],
+ "cultural_context": null,
+ "etymology": null,
+ "story_mode": {
+  "who": {
+   "id": "Ini kumpulan makhluk gaib alam dalam agama Slavia.",
+   "en": "This is the collection of nature spirits of Slavic religion.",
+   "claim_ids": [
+    "supernatural-beings-in-slavic-religion-c01"
+   ]
+  },
+  "origin": {
+   "id": "Mereka berasal dari kepercayaan bangsa Slavia kuno.",
+   "en": "They come from the beliefs of the ancient Slavs.",
+   "claim_ids": [
+    "supernatural-beings-in-slavic-religion-c01"
+   ]
+  },
+  "role": {
+   "id": "Mereka dihormati sebagai penghuni alam.",
+   "en": "They were revered as dwellers of nature.",
+   "claim_ids": [
+    "supernatural-beings-in-slavic-religion-c01"
+   ]
+  },
+  "famous_for": {
+   "id": "Contoh terkenalnya adalah vila.",
+   "en": "A famous example is the vila.",
+   "claim_ids": [
+    "supernatural-beings-in-slavic-religion-c02"
+   ]
+  }
+ },
+ "did_you_know": null,
+ "abilities": [],
+ "weaknesses": [],
+ "variants": [],
+ "stories": [],
+ "places": [],
+ "timeline": [],
+ "relations": [
+  {
+   "target_name": "Vila",
+   "relation_type": "type-of",
+   "note": {
+    "id": "Vila adalah salah satu makhluk gaib Slavia.",
+    "en": "The vila is one of the Slavic supernatural beings."
+   },
+   "claim_ids": [
+    "supernatural-beings-in-slavic-religion-c02"
+   ]
+  }
+ ],
+ "modern_depictions": [],
+ "tradition_vs_modern": null,
+ "learning_questions": [
+  {
+   "id": "Mengapa satu makhluk gaib Slavia bisa punya banyak ejaan nama?",
+   "en": "Why can one Slavic supernatural being have many spellings of its name?"
+  }
+ ],
+ "images": [],
+ "sources": [
+  {
+   "id": "supernatural-beings-in-slavic-religion-s1",
+   "url": "https://en.wikipedia.org/wiki/Supernatural_beings_in_Slavic_religion",
+   "title": "Supernatural beings in Slavic religion",
+   "author": null,
+   "publisher": "Wikipedia (en)",
+   "published": null,
+   "language": "en",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  },
+  {
+   "id": "supernatural-beings-in-slavic-religion-s2",
+   "url": "https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D0%BB%D1%8B_(%D0%BC%D0%B8%D1%84%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F)",
+   "title": "Вила",
+   "author": null,
+   "publisher": "Википедия (ru)",
+   "published": null,
+   "language": "ru",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  }
+ ],
+ "claims": [
+  {
+   "id": "supernatural-beings-in-slavic-religion-c01",
+   "source_id": "supernatural-beings-in-slavic-religion-s1",
+   "quote": "Other than the many gods and goddesses of the Slavs, the ancient Slavs believed in and revered many supernatural beings that existed in nature. These supernatural beings in Slavic religion come in various forms, and the same name of any single being can be spelled or transliterated differently according to language and transliteration system.",
+   "locator": "lead",
+   "context": "religious-tradition",
+   "statement": {
+    "id": "Selain banyak dewa dan dewi, bangsa Slavia kuno percaya dan menghormati banyak makhluk gaib di alam, yang beragam wujudnya, dan nama satu makhluk dapat dieja berbeda menurut bahasa dan sistem transliterasi.",
+    "en": "Besides the many Slavic gods and goddesses, the ancient Slavs believed in and revered many supernatural beings of nature, in various forms, whose names can be spelled differently by language and transliteration."
+   }
+  },
+  {
+   "id": "supernatural-beings-in-slavic-religion-c02",
+   "source_id": "supernatural-beings-in-slavic-religion-s1",
+   "quote": "is a fairy that is similar to a nymph, identified as a nymph by the Greek historian Procopius; their name comes from the same root as the name of Veles.",
+   "locator": "Vila",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Vila adalah peri mirip nimfa yang oleh sejarawan Yunani Procopius disebut nimfa; namanya berakar sama dengan nama Veles.",
+    "en": "The vila is a nymph-like fairy, identified as a nymph by the Greek historian Procopius; the name shares its root with Veles."
+   }
+  },
+  {
+   "id": "supernatural-beings-in-slavic-religion-c03",
+   "source_id": "supernatural-beings-in-slavic-religion-s1",
+   "quote": "They are described as beautiful, eternally young, dressed in white, with eyes flashing like thunder, and provided with wings, and blonde hair.",
+   "locator": "Vila",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Vila digambarkan cantik, muda selamanya, berbaju putih, bermata berkilat seperti guntur, bersayap, dan berambut pirang. Bagi Slavia Selatan dan sebagian Slovakia, vila adalah makhluk perempuan yang umumnya bersifat baik.",
+    "en": "Vile are described as beautiful, eternally young, dressed in white, with thunder-flashing eyes, wings and blonde hair."
+   }
+  },
+  {
+   "id": "supernatural-beings-in-slavic-religion-c04",
+   "source_id": "supernatural-beings-in-slavic-religion-s2",
+   "quote": "в верованиях и фольклоре южных славян и отчасти словаков женское мифологическое существо, наделяемое преимущественно положительными свойствами.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Dalam kepercayaan dan cerita rakyat Slavia Selatan dan sebagian Slovakia, vila adalah makhluk mitologis perempuan yang umumnya bersifat baik.",
+    "en": "In the beliefs and folklore of the South Slavs and partly the Slovaks, the vila is a female mythological being with mainly positive qualities."
+   }
+  }
+ ],
+ "conflicts": [],
+ "gaps": [
+  {
+   "field": "scope",
+   "searched": "Item ini adalah artikel ikhtisar tentang banyak makhluk gaib Slavia, bukan satu makhluk; entri lama ini sebaiknya dihapus atau diganti entri per makhluk (vila, rusalka, dll.) oleh pemilik proyek."
+  },
+  {
+   "field": "images",
+   "searched": "Tidak relevan untuk entri ikhtisar."
+  }
+ ]
+}
+```
+
+```json
+{
+ "schema": "mythics-entry/1",
+ "batch_id": "batch-123",
+ "slug": "vantoase",
+ "task": "enrich",
+ "tier": "core",
+ "researched_at": "2026-10-03",
+ "identity": {
+  "canonical_name": "Vântoase",
+  "native_name": {
+   "text": "Вынтоасе",
+   "script": "Cyrillic",
+   "claim_ids": [
+    "vantoase-c03"
+   ]
+  },
+  "display_name": {
+   "id": "Vântoase",
+   "en": "Vântoase"
+  },
+  "wikidata_qid": "Q4129058",
+  "claim_ids": [
+   "vantoase-c01"
+  ]
+ },
+ "alternate_names": [],
+ "jenis": {
+  "value": "roh",
+  "claim_ids": [
+   "vantoase-c01"
+  ]
+ },
+ "classification": {
+  "value": "spirit",
+  "claim_ids": [
+   "vantoase-c01"
+  ]
+ },
+ "culture": {
+  "value": "tradition-romanian",
+  "suggested_new": null,
+  "claim_ids": [
+   "vantoase-c01"
+  ]
+ },
+ "region": {
+  "value": "europe",
+  "claim_ids": [
+   "vantoase-c01"
+  ]
+ },
+ "countries": null,
+ "era": null,
+ "habitats": [
+  {
+   "value": "forest",
+   "claim_ids": [
+    "vantoase-c02"
+   ]
+  },
+  {
+   "value": "sky",
+   "claim_ids": [
+    "vantoase-c02"
+   ]
+  },
+  {
+   "value": "water",
+   "claim_ids": [
+    "vantoase-c02"
+   ]
+  }
+ ],
+ "disposition": {
+  "value": "malevolent",
+  "claim_ids": [
+   "vantoase-c02"
+  ]
+ },
+ "traits": [
+  {
+   "value": "flight",
+   "claim_ids": [
+    "vantoase-c02"
+   ]
+  }
+ ],
+ "short_description": {
+  "id": "Vântoase adalah roh perempuan dalam cerita rakyat Rumania, sejenis iele, yang menimbulkan badai debu dan angin kencang.",
+  "en": "The vântoase are female spirits of Romanian folklore, a kind of iele, who raise dust storms and strong winds.",
+  "claim_ids": [
+   "vantoase-c01"
+  ]
+ },
+ "long_description": [
+  {
+   "id": "Vântoase adalah makhluk dalam cerita rakyat Rumania, sejenis roh perempuan (iele). Kepercayaan rakyat menggambarkan mereka mampu menimbulkan badai debu dan angin kencang, mirip harpy. Nama mereka berasal dari kata Rumania vânt, \"angin\".",
+   "en": "In Romanian folklore the vântoase are a kind of female spirit, counted among the iele. Popular belief credits them with whipping up dust storms and fierce winds, rather like harpies. Their name comes from the Romanian vânt, \"wind\".",
+   "claim_ids": [
+    "vantoase-c01",
+    "vantoase-c04"
+   ]
+  },
+  {
+   "id": "Mereka tinggal di hutan, di udara, dan di danau yang dalam, dan bepergian dengan kereta khusus atau dengan angin. Kadang dikatakan mereka menimbulkan angin saat menari hora. Mereka dipercaya dapat menyerang anak-anak, dan satu-satunya perlindungan adalah \"rumput angin\" yang misterius. Dalam beberapa legenda mereka justru digambarkan sebagai pelayan Tuhan.",
+   "en": "They live in forests, in the air and in deep lakes, and travel in a special wagon or on the winds. They are sometimes said to raise winds while dancing the hora. They are believed able to attack children, the only protection being the mysterious \"grass of the winds\". In some legends they are instead servants of God.",
+   "claim_ids": [
+    "vantoase-c02",
+    "vantoase-c03",
+    "vantoase-c05",
+    "vantoase-c06"
+   ]
+  }
+ ],
+ "cultural_context": null,
+ "etymology": {
+  "original_form": "vânt",
+  "language": "Romanian",
+  "literal_meaning": {
+   "id": "angin",
+   "en": "wind"
+  },
+  "claim_ids": [
+   "vantoase-c04"
+  ]
+ },
+ "story_mode": {
+  "who": {
+   "id": "Vântoase adalah roh perempuan angin.",
+   "en": "The vântoase are female wind spirits.",
+   "claim_ids": [
+    "vantoase-c01"
+   ]
+  },
+  "origin": {
+   "id": "Mereka berasal dari cerita rakyat Rumania.",
+   "en": "They come from Romanian folklore.",
+   "claim_ids": [
+    "vantoase-c01"
+   ]
+  },
+  "role": {
+   "id": "Mereka menimbulkan badai debu dan angin kencang.",
+   "en": "They raise dust storms and strong winds.",
+   "claim_ids": [
+    "vantoase-c01"
+   ]
+  },
+  "famous_for": {
+   "id": "Satu-satunya perlindungan dari mereka adalah \"rumput angin\".",
+   "en": "The only protection from them is the \"grass of the winds\".",
+   "claim_ids": [
+    "vantoase-c02"
+   ]
+  }
+ },
+ "did_you_know": {
+  "id": "Konon vântoase menimbulkan angin saat menari tarian hora.",
+  "en": "The vântoase are said to raise winds while dancing the hora.",
+  "claim_ids": [
+   "vantoase-c03"
+  ]
+ },
+ "abilities": [
+  {
+   "ability_id": "elemental-control",
+   "name": {
+    "id": "Badai dan angin",
+    "en": "Storms and winds"
+   },
+   "description": {
+    "id": "Mereka menimbulkan badai debu dan angin kencang.",
+    "en": "They raise dust storms and strong winds."
+   },
+   "claim_ids": [
+    "vantoase-c01"
+   ]
+  }
+ ],
+ "weaknesses": [
+  {
+   "name": {
+    "id": "Rumput angin",
+    "en": "Grass of the winds"
+   },
+   "description": {
+    "id": "Satu-satunya perlindungan dari serangan mereka.",
+    "en": "The only protection against their attacks."
+   },
+   "claim_ids": [
+    "vantoase-c02"
+   ]
+  }
+ ],
+ "variants": [],
+ "stories": [],
+ "places": [],
+ "timeline": [],
+ "relations": [
+  {
+   "target_name": "Iele",
+   "relation_type": "type-of",
+   "note": {
+    "id": "Vântoase adalah sejenis iele.",
+    "en": "The vântoase are a kind of iele."
+   },
+   "claim_ids": [
+    "vantoase-c01"
+   ]
+  }
+ ],
+ "modern_depictions": [],
+ "tradition_vs_modern": null,
+ "learning_questions": [
+  {
+   "id": "Mengapa angin kencang dan badai debu dibayangkan sebagai sosok perempuan yang menari?",
+   "en": "Why might strong winds and dust storms be imagined as dancing women?"
+  }
+ ],
+ "images": [],
+ "sources": [
+  {
+   "id": "vantoase-s1",
+   "url": "https://en.wikipedia.org/wiki/V%C3%A2ntoase",
+   "title": "Vântoase",
+   "author": null,
+   "publisher": "Wikipedia (en)",
+   "published": null,
+   "language": "en",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  },
+  {
+   "id": "vantoase-s2",
+   "url": "https://ru.wikipedia.org/wiki/%D0%92%D1%8B%D0%BD%D1%82%D0%BE%D0%B0%D1%81%D0%B5",
+   "title": "Вынтоасе",
+   "author": null,
+   "publisher": "Википедия (ru)",
+   "published": null,
+   "language": "ru",
+   "type": "wikipedia",
+   "accessed": "2026-10-03"
+  }
+ ],
+ "claims": [
+  {
+   "id": "vantoase-c01",
+   "source_id": "vantoase-s1",
+   "quote": "are creatures present in Romanian folklore, as a sort of female spirits (iele). Popular beliefs describe them as capable of causing dust storms and powerful winds, similar to harpies.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Vântoase adalah makhluk dalam cerita rakyat Rumania, sejenis roh perempuan (iele), yang menurut kepercayaan dapat menimbulkan badai debu dan angin kencang, mirip harpy.",
+    "en": "The vântoase are creatures of Romanian folklore, a sort of female spirit (iele), believed able to cause dust storms and powerful winds, like harpies."
+   }
+  },
+  {
+   "id": "vantoase-c02",
+   "source_id": "vantoase-s1",
+   "quote": "They live in forests, in the air, in deep lakes, and use a special wagon for traveling. The Vântoase are also believed to be capable of attacking children, and the only protection against them is the mysterious \"grass of the winds\".",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Mereka tinggal di hutan, di udara, dan di danau dalam, bepergian dengan kereta khusus, dipercaya dapat menyerang anak-anak, dan satu-satunya perlindungan adalah \"rumput angin\" yang misterius.",
+    "en": "They live in forests, in the air and in deep lakes, travel in a special wagon, are believed able to attack children, and the only protection is the mysterious \"grass of the winds\"."
+   }
+  },
+  {
+   "id": "vantoase-c03",
+   "source_id": "vantoase-s2",
+   "quote": "Иногда говорят, что они вызывают ветры, когда танцуют хору.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Kadang dikatakan mereka menimbulkan angin saat menari hora.",
+    "en": "They are sometimes said to raise winds when they dance the hora."
+   }
+  },
+  {
+   "id": "vantoase-c04",
+   "source_id": "vantoase-s2",
+   "quote": "Имя вынтоасе (ед. ч. вынтоаса) происходит от румынского слова ветер (vânt).",
+   "locator": "lead",
+   "context": "etymology",
+   "statement": {
+    "id": "Nama vântoase (tunggal vântoasa) berasal dari kata Rumania vânt, \"angin\".",
+    "en": "The name vântoase (singular vântoasa) comes from the Romanian word vânt, \"wind\"."
+   }
+  },
+  {
+   "id": "vantoase-c05",
+   "source_id": "vantoase-s2",
+   "quote": "Они живут в лесах, в воздухе, в озёрах и используют ветры для путешествий. ... В некоторых легендах они представлены как слуги Господа.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Mereka tinggal di hutan, di udara, dan di danau, dan memakai angin untuk bepergian; dalam beberapa legenda mereka digambarkan sebagai pelayan Tuhan.",
+    "en": "They live in forests, in the air and in lakes and use winds to travel; in some legends they are servants of God."
+   }
+  },
+  {
+   "id": "vantoase-c06",
+   "source_id": "vantoase-s2",
+   "quote": "Считается, что они могут нападать на детей. Единственным средством защиты от них в таком случае является загадочная трава ветров.",
+   "locator": "lead",
+   "context": "traditional-belief",
+   "statement": {
+    "id": "Dipercaya mereka dapat menyerang anak-anak, dan satu-satunya perlindungan adalah rumput angin yang misterius.",
+    "en": "They are believed able to attack children, and the only protection then is the mysterious grass of the winds."
+   }
+  }
+ ],
+ "conflicts": [],
+ "gaps": [
+  {
+   "field": "images",
+   "searched": "Tidak ada gambar Commons yang terbukti menggambarkan vântoase."
+  }
+ ]
+}
+```
+

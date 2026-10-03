@@ -1,8 +1,6 @@
 # Review batch-123
 
-Diperiksa 2026-10-03T03:24:54.159Z. Berkas: batch-123.md.
-
-**Belum dikirim:** surma, vishap, yalmavuz, z-ota-kaczka, zana-mythology, autrimps, conde-estruch, dakhanavar, haltija, k-op-ala, lamia-q12284666, maaema, piru-spirit, polkan, poroniec, salme, sarkany-mythology, shubin-ghost, supernatural-beings-in-slavic-religion, vantoase
+Diperiksa 2026-10-03T03:37:28.559Z. Berkas: batch-123.md.
 
 ## topielec — lulus-otomatis
 
@@ -332,4 +330,297 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 | spiridus-c04 | exact | ru.wikipedia.org | The word spiriduș is a diminutive of Romanian spirit, "spirit". | Слова «спиридуш» является уменьшительным от рум. spirit, что значит «дух». |
 | spiridus-c05 | exact | ru.wikipedia.org | They live in large groups and are fine craftsmen; they are believed to know the secrets of underground treasure and understand the language of plants and animals. | Живут большими группами и являются прекрасными мастерами. Считается, что спиридуши знают тайны подземных сокровищ, понимают язык растений и животных. |
 | spiridus-c06 | exact | ru.wikipedia.org | Figuratively, a naughty, restless child may be called a spiriduș in Romania. | Образно спиридушем в Румынии могут называть непослушного и непоседливого ребёнка. |
+
+
+## surma — lulus-otomatis
+
+Klaim 7 (exact 7), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| surma-c01 | exact | fr.wikipedia.org | Surma is a terrifying beast embodying sudden and violent death, guarding the gates of the underworld, Tuonela, to prevent any escape. | Surma est une bête terrifiante, qui incarne la mort soudaine et violente et garde les portes de l'Enfer, le Tuonela, afin d'empêcher toute évasion. |
+| surma-c02 | exact | ru.wikipedia.org | Surma is a character of Finnish folklore from the Kalevala, appearing in the story of Lemminkäinen. | Сурма — персонаж финского фольклора из эпоса Калевала, фигурирующий в рассказе Лемминкяйнена. |
+| surma-c03 | exact | fr.wikipedia.org | He is often described as a big dog with a serpent's tail who can turn people to stone with his gaze. | Il est souvent décrit sous les traits d'un grand chien muni d'une queue de serpent et peut transformer les gens en pierre (de son seul regard pétrifiant). |
+| surma-c04 | exact | ru.wikipedia.org | The name Surma comes from the Finnish word surma, "death". | Имя Сурма происходит от финского слова «фин. Surma» (Смерть). |
+| surma-c05 | exact | fr.wikipedia.org | The Finnish metaphor Surman suuhun, literally "from Surma's mouth", indicates a victim was killed by Surma. | L'expression métaphorique finnoise Surman suuhun qui signifie littéralement « de la bouche de Surma », indique qu'une victime a été tuée par Surma. |
+| surma-c06 | exact | ru.wikipedia.org | Surma is a terrible beast personifying sudden (most often violent) death, guarding the gates of Tuonela to stop escapes from the afterlife. | Сурма — ужасный зверь, олицетворяющий внезапную (чаще всего, насильственную) смерть. Он стоит на страже ворот Туонела, чтобы предотвращать попытки побега из загробного мира. |
+| surma-c07 | exact | fr.wikipedia.org | Surma also means killing or putting to death, and the Finnish verb surmata, to kill, derives from it. | Surma signifie aussi tuer, ou plus spécifiquement mettre à mort, et le verbe finlandais surmata, tuer ou assassiner, en est dérivé. |
+
+
+## vishap — lulus-otomatis
+
+Klaim 7 (exact 7), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| vishap-c01 | exact | en.wikipedia.org | The vishap is a dragon of Armenian mythology closely tied to water, similar to the Leviathan, usually depicted as a winged snake or a combination of animals. | is a dragon in Armenian mythology closely associated with water, similar to the Leviathan. It is usually depicted as a winged snake or with a combination of elements from different animals. |
+| vishap-c02 | exact | en.wikipedia.org | The name might derive from the old Iranian vi-šāpa, "having poisonous juices", used of snakes. | The name might derive from an ancient Iranian term vi-šāpa, 'having poisonous juices', used in reference to snakes |
+| vishap-c03 | exact | en.wikipedia.org | Mount Ararat was the vishap's main home; the peak's volcanic nature and earthquakes may have suggested the link. | Mount Ararat was the main home of the Vishap. The volcanic character of the Araratian peak and its earthquakes may have suggested its association with the Vishap. |
+| vishap-c04 | exact | en.wikipedia.org | Sometimes with its children the vishap stole toddlers and left a small evil spirit of its brood instead; by ancient belief it rose to the sky or came down, causing thunderstorms, whirlwinds and swallowing the sun (an eclipse). | Sometimes with its children, the Vishap used to steal children or toddlers and put a small evil spirit of their own brood in their stead. According to ancient beliefs, the Vishap ascended to the sky or descended therefrom to earth, causing thunderous storms, whirlwinds, and absorption of the sun (causing an eclipse). |
+| vishap-c05 | exact | en.wikipedia.org | The dragon was worshipped in several Eastern countries as a symbol of water, fertility and wealth, later a frightful symbol of power; ancient legend has it fight Vahagn the Dragon Slayer. | The dragon was worshipped in a number of Eastern countries, symbolising the element of water, fertility and wealth, and later became a frightful symbol of power. According to ancient legends, the dragon fought Vahagn the Dragon Slayer. |
+| vishap-c06 | exact | en.wikipedia.org | In Yerevan stands a statue of Vahagn, who slew the vishap, by Karlen Nurijanyan and Nerses Charkhchyan. | There is a statue to Vahagn, who slew the Vishap, in Yerevan by Karlen Nurijanyan and Nerses Charkhchyan. |
+| vishap-c07 | exact | hy.wikipedia.org | The vishap is a figure of Armenian mythology closely linked with water; it is a legendary animal. | Վիշապ, հայկական դիցաբանական կերպար, որը սերտորեն կապված է ջրի հետ: Վիշապը առասպելական կենդանի է: |
+
+
+## yalmavuz — lulus-otomatis
+
+Klaim 7 (exact 7), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| yalmavuz-c01 | exact | ru.wikipedia.org | Yalmauz (from Bashkir ialmau, "to enclose", and auyz, "mouth"; literally "the one who swallows everything") is an evil demon in Bashkir mythology. | Ялмауз (ялмауыҙ, от баш. ялмау — охватывать и ауыҙ — рот; букв. — заглатывающий всё) — злой демон в башкирской мифологии. |
+| yalmavuz-c02 | exact | ru.wikipedia.org | Yalmauz appears in Bashkir tales such as "Karasa-batyr" and "Altyndugha-batyr". | Ялмауз встречается в башкирских сказках («Ҡараса батыр» — «Караса-батыр», «Алтындуға батыр» — «Алтындуга-батыр» и др.). |
+| yalmavuz-c03 | exact | ru.wikipedia.org | The demon Yalmauz is a 7-, 9- or 12-headed (seven, nine, twelve) serpent-like creature living in a garden it planted; in tales the batyrs rescue the maidens it holds by fighting and killing it. | Злой демон Ялмауз представляет собой 7-, 9- или 12-головое змееподобное существо, живущее в саду, который он сам засадил деревьями. Обычно в сказках батыры, спасая девушек, находящихся в неволе у Ялмауза, вступают с демоном в поединок и убивают его. |
+| yalmavuz-c04 | exact | ru.wikipedia.org | By belief Yalmauz is also a man-eating sorcerer, a vampire abducting babies and girls; according to M. A. Kulaev it is described as a wide-mouthed old woman like a myaskai. | По поверьям, Ялмауз также — колдун-людоед, вампир, который похищает младенцев и девушек. Согласно М. А. Кулаеву, Ялмауз описывается как большеротая старая женщина, похожая на мяскай. |
+| yalmavuz-c05 | exact | ru.wikipedia.org | For example, in Uyghur yalmauz means "dragon". | Например, в уйгурском языке ялмауз означает «дракон» |
+| yalmavuz-c06 | exact | tr.wikipedia.org | Yalmavuz (Tatar Җалмавыз) is a giant of Turkic and Altai mythology, also called Calmağus, Yelmeves or Yalmuz; a huge human-shaped tale creature with three, seven or 12 (twelve) heads, black or yellow, sometimes synonymous with Yelbegen; giants are hostile to horses and eat people. | Türk ve Altay mitolojisinde Dev. Calmağus veya Yelmeves de denir. “Yalmuz” olarak da bilinir. Çok büyük masal yaratığı. İnsan biçimlidir. Üç, yedi veya 12 başı vardır. Siyah ya da sarı renklidir. Kimi zaman Yelbegen ile eşanlamlı olarak kullanılır. Devler, atlara düşmandır. Ayrıca insanları yerler. |
+| yalmavuz-c07 | exact | tr.wikipedia.org | According to Radloff, the Teleut Yilbegen corresponds to the Kyrgyz "Jalmaus". | Radlofa göre, Teleğütlerdeki Yilbegen ile Kırgızlardaki "Jalmaus" adı birbirlerini karşılamaktadır. |
+
+
+## z-ota-kaczka — lulus-otomatis
+
+Klaim 7 (exact 7), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| z-ota-kaczka-c01 | exact | en.wikipedia.org | Złota Kaczka (Polish for "Gold Duck") is the heroine of a folk tale retold in many settings by many writers, including the poet Artur Oppman. | (Polish for "Gold Duck") is the heroine of a folk tale which has been recounted with many settings and by many writers, including the Young Poland poet Artur Oppman. |
+| z-ota-kaczka-c02 | exact | en.wikipedia.org | The story is now most closely associated with Warsaw, Poland. | The story has come to be most closely associated with Warsaw, Poland. |
+| z-ota-kaczka-c03 | exact | en.wikipedia.org | In one version the Gold Duck, a princess bewitched by an evil sorcerer, swam in a lake beneath Warsaw's Ostrogski Castle (now the Fryderyk Chopin Museum). | In one version the Gold Duck, a princess who had been bewitched by an evil sorcerer, swam in a lake beneath Warsaw's Ostrogski Castle (now home to the Fryderyk Chopin Museum). |
+| z-ota-kaczka-c04 | exact | en.wikipedia.org | She could be restored to human form only by someone spending 100 (a hundred) ducats a day for three straight days without sharing it. | She could be restored to human form only by someone who could spend 100 ducats a day over three consecutive days, without sharing this fortune with anyone. |
+| z-ota-kaczka-c05 | exact | en.wikipedia.org | A soldier nearly succeeded, but as the third day closed he gave his last grosz to a beggar, and the Gold Duck vanished with the castle. | A certain soldier was close to succeeding. But as the third day was drawing to a close, he gave the last grosz (penny) to a beggar, and the Gold Duck vanished together with the castle. |
+| z-ota-kaczka-c06 | exact | pl.wikipedia.org | The oldest evidence of the gold duck legend in Warsaw dates from 1830, when Andrzej Słowaczyński used its plot in the vaudeville Chłopiec studukatowy. | Najstarszy dowód na funkcjonowanie legendy o złotej kaczce w Warszawie pochodzi z 1830 roku. Wtedy to Andrzej Słowaczyński wykorzystał jej fabułę w wodewilu Chłopiec studukatowy. |
+| z-ota-kaczka-c07 | exact | pl.wikipedia.org | In 1852 Roman Zmorski recorded the legend in Podania i baśnie ludu w Mazowszu; in his version the gold duck lives in the flooded cellars of the ruined palace of the Prince de Nassau. | W 1852 roku legendę przytoczył Roman Zmorski w swoich Podaniach i baśniach ludu w Mazowszu. W jego wersji złota kaczka żyje nie pod Zamkiem Ostrogskich, lecz „na Dynasowskiej Górze”, w zalanych piwnicach zrujnowanego pałacu księcia de Nassau. |
+
+
+## zana-mythology — lulus-otomatis
+
+Klaim 8 (exact 8), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| zana-mythology-c01 | exact | en.wikipedia.org | The zana (Gheg Zanë, Tosk Zërë) is a nymph-like figure of Albanian mythology tied to mountains, springs, streams, forests, plants, animals, human vital energy and sometimes destiny; Zana e Madhe ("the Great Zana") is thought to have been an Illyrian goddess equivalent to the Greek Artemis and Roman Diana. | is a nymph-like figure in Albanian mythology and folklore, usually associated with mountains, springs and streams, forests, vegetation and animals, human vital energy and sometimes destiny. Zana e Madhe ("the Great Zana") is thought to have been an Illyrian goddess, equivalent of the Ancient Greek Artemis and Roman Diana. |
+| zana-mythology-c02 | exact | en.wikipedia.org | Folk belief considers the zana extraordinarily courageous (hence the Albanian expression trim si zana), and they protect warriors like Pallas Athena of Ancient Greece. | The zana are considered in folk beliefs to be extraordinary courageous (thus the Albanian expression trim si zana) and they confer their protection on warriors similarly to Pallas Athena of Ancient Greece. |
+| zana-mythology-c03 | exact | en.wikipedia.org | The Illyrian Thana (a nymph, fairy or deity named in Roman-era votive inscriptions) is traditionally considered the precursor of the Albanian Zana and a cognate of Latin Diāna. | the Illyrian Thana (the name of a nymph, fairy or deity, attested in votive inscriptions of the Roman era) is traditionally considered the precursor of the Albanian Zana. The theonym is also regarded as a cognate and equivalent of the Latin Diāna. |
+| zana-mythology-c04 | exact | en.wikipedia.org | In Northern Albania and Kosovo every mountain is said to have its own zana, appearing as a fair maiden bathing in mountain streams; the original zana is escorted by three wild goats with golden horns. | In Northern Albania and Kosovo every mountain is said to have its own zana, who appeared as a fair maiden found bathing naked in mountain streams. |
+| zana-mythology-c05 | exact | en.wikipedia.org | The zana is believed to have the power to petrify humans with a glance. | The zana is believed to have the power to petrify humans with a glance |
+| zana-mythology-c06 | exact | en.wikipedia.org | Similar Albanian nymph-like figures are Ora, Bardha, Shtojzovalle, Mira and Fatí. | Similar Albanian mythological figures with nymph-like attributes are: Ora, Bardha, Shtojzovalle, Mira and Fatí. |
+| zana-mythology-c07 | exact | en.wikipedia.org | In Albanian folklore the original Zana is escorted by three wild goats with golden horns. | In Albanian folklore the original Zana is escorted by three wild goats with golden horns. |
+| zana-mythology-c08 | exact | sq.wikipedia.org | The zanas are thought to have watched the speeches at the League of Prizren in 1878. | Zanat mendohet se kanë vëzhguar fjalimet në Lidhjen e Prizrenit të vitit 1878. |
+
+
+## autrimps — lulus-otomatis
+
+Klaim 4 (exact 4), sumber 2, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| autrimps-c01 | exact | pl.wikipedia.org | According to Hieronim Malecki's catalogue (16th century, XVI), Autrimps is the Old Prussian god of seas and lakes, identified with the master of magic, the water god Patrimps-Andaj. | według katalogu Hieronima Maleckiego (XVI w) staropruski bóg mórz i jezior; tożsamy z władcą magii, bogiem wód Patrimpsem-Andajem. |
+| autrimps-c02 | exact | lt.wikipedia.org | Autrimpas is the ancient Prussian sea god. | Autrimpas – senovės prūsų jūros dievas. |
+| autrimps-c03 | exact | lt.wikipedia.org | In 16th–17th-century (XVI, XVII) sources he is called Antrimpus or Natrimpe, described as god of the sea and wide waters, and compared with the Roman Neptune. | XVI a. – XVII a. šaltiniuose jis vadinamas Antrimpu, Natrimpu, apibūdinamas kaip jūros ir plačių vandenų dievas. Lyginamas su romėnų Neptūnu. |
+| autrimps-c04 | exact | lt.wikipedia.org | Vladimir Toporov derives Autrimps and Patrimps from the fertility god Trimps. | Vladimiras Toporovas Autrimpą ir Patrimpą kildina iš vaisingumo dievo Trimpo. |
+
+
+## conde-estruch — lulus-otomatis
+
+Klaim 6 (exact 6), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| conde-estruch-c01 | exact | en.wikipedia.org | In Catalan mythology, Comte Estruch, also Arnald Estruc or Wilfred Estruch, was a 12th-century Catalan noble who became a vampire. | In Catalan mythology, Comte Estruch—also known as Arnald Estruc or Wilfred Estruch—was a 12th-century Catalan noble who became a vampire. |
+| conde-estruch-c02 | exact | en.wikipedia.org | This legend is called the oldest vampire tale in European history and one of the few Iberian myths about vampirism. | This legend is the oldest vampire tale in European history and is one of the few Iberian myths associated with vampirism. |
+| conde-estruch-c03 | exact | en.wikipedia.org | King Alfons II of Aragon sent the old noble Arnald Estruc to Llers Castle (Alt Empordà) to fight paganism and witchcraft, where he was killed in 1173; afterwards he sucked villagers' blood and impregnated young women, who after nine months bore monstrous newborns dead at birth. | King Alfons II of Aragon sent the old noble Count Arnald Estruc to fight paganism and witchcraft at Llers Castle (Alt Emporda) where the Count was killed in 1173. ... Count Estruch sucked blood from the villagers in the area and seduced and impregnated young women. After nine months, these women would give birth to monstrous newborns who were dead at birth. |
+| conde-estruch-c04 | exact | en.wikipedia.org | In one version he was slain by an elderly nun; in others a Jewish hermit killed him with ancient Kabbalah rituals; the castle was destroyed in the Spanish Civil War. | In one version, he was slain by an elderly nun. In other versions, a Jewish hermit killed the count using ancient rituals from the Kabbalah. The castle was destroyed during the Spanish Civil War . |
+| conde-estruch-c05 | exact | ca.wikipedia.org | Comte Estruc is a literary character in Salvador Sáinz's novel Estruch (1991). | El Comte Estruc és un personatge literari que apareix a la novel·la de l'escriptor Salvador Sáinz Estruch (1991). |
+| conde-estruch-c06 | exact | ca.wikipedia.org | Historians generally deny the truth of the supposed legend and hold that there is no historical trace of Estruch; the author never proved the 12th-century source he claimed. | Malgrat que l'autor afirma que la seva obra es basa en una llegenda que ell mateix recuperà d'una història del segle xii, mai no n'ha establert la fidelitat ni n'ha aportat cap prova. ... fa que, en general, els historiadors neguin la veracitat de la suposada llegenda i sostinguin que no hi ha rastres històrics de la figura d'Estruch. |
+
+
+## dakhanavar — lulus-otomatis
+
+Klaim 6 (exact 6), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| dakhanavar-c01 | exact | en.wikipedia.org | The dakhanavar is a vampire of Armenian folklore who protected the valley from intruders, first reported by Baron August von Haxthausen in his mid-19th-century account of Armenia and Russian Transcaucasia. | is a vampire in Armenian folklore who protected the valley from intruders, first reported by Baron August von Haxthausen in his mid-19th century account of Armenia and Russian Transcaucasia |
+| dakhanavar-c02 | exact | en.wikipedia.org | The dakhanavar follows travellers until they rest, then attacks them asleep, typically going for their feet. | The Dakhanavar follows travelers until they stop for a rest, stalking their every move. When they finally stop, the vampire attacks them in their sleep, typically going for their feet. |
+| dakhanavar-c03 | exact | en.wikipedia.org | Per Haxthausen, a vampire called Dakhanavar once lived in a cave there and could not bear anyone entering the mountains or counting the valleys; anyone who tried had his blood sucked from his soles at night until he died. | There once dwelt in a cavern in this country a vampire, called Dakhanavar, who could not endure anyone to penetrate into these mountains or count their valleys. Everyone who attempted this had in the night his blood sucked by the monster, from the soles of his feet, until he died. |
+| dakhanavar-c04 | exact | en.wikipedia.org | In one legend two men outwitted him by sleeping with their feet under each other's heads; thinking them one two-headed, footless being, the vampire fled the valley and was never heard from again. | In one legend, he was outsmarted by two men who had already heard of the vampire's habits and slept with their feet under the other's head. The vampire, thinking that they were one being with two heads and no feet, ran from the valley and was never heard from again. |
+| dakhanavar-c05 | exact | ru.wikipedia.org | The dakhanavar, also Dashnavar, is a vampire of ancient Armenian mythology living in the Ultish Alto-tem mountains, famed for never killing the people who lived on his land. | Даханавар, также Дашнавар (арм. Դախանավար) — в древнеармянской мифологии вампир, который проживает в горах Ултиш Альто-тэм. Он прославился тем, что никогда не убивал жителей, которые жили на его землях. |
+| dakhanavar-c06 | exact | ru.wikipedia.org | By legend the dakhanavar held 366 valleys and never let strangers in; with inhuman strength he protected the people for years, keeping enemies from passing the Ultish Alto-tem gorge to conquer Armenia. | Даханавар, по легенде, владел 366 долинами и никогда не пускал к себе чужаков. Обладая нечеловеческой мощью, он долгие годы защищал людей, не давая врагам пройти горное ущелье Ултиш Альто-тэм и захватить Армению |
+
+
+## haltija — lulus-otomatis
+
+Klaim 7 (exact 7), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| haltija-c01 | exact | en.wikipedia.org | In Finnish mythology a haltija is the supernatural inhabitant of a place and protector of living beings, living invisibly but able to show itself to humans. | In Finnish mythology, a haltija is a supernatural inhabitant of a specific place and a protector of living beings, living in an invisible environment but able to show themselves to humans. |
+| haltija-c02 | exact | en.wikipedia.org | A haltija could be the supernatural original inhabitant and guardian of a place or the original mother of an animal species; a person buried at home could also become one. | A haltija could be the supernatural original inhabitant and guardian of a place or the original mother of an animal species. A person who died and was buried to their home could also become a haltija. |
+| haltija-c03 | exact | en.wikipedia.org | A local haltija is a solitary creature protecting its home, nature and peace; a haltija of an animal species keeps it alive by returning dead animals to the earth. | A haltija of a locality is a solitary creature who protects their home, its nature and peace. A haltija of an animal species protects their continued existence by returning dead animals back to earth. |
+| haltija-c04 | exact | en.wikipedia.org | Risto Pulkkinen described a jumala as ruling a wider concept such as water and a haltija as more local, ruling a specific body of water; he held that Finnish paganism had few jumala but a wide variety of haltija. | Risto Pulkkinen ... described a jumala as a being who rules over a wider concept, such as water, while a haltija is more localized, ruling over a specific body of water. According to him, there is only a small number of beings in Finnish paganism which could be called jumala, but a wide variety of haltija beings. |
+| haltija-c05 | exact | en.wikipedia.org | The word may derive from Proto-Norse *halđiaz ("hold") or from the Finnish verb hallita, "to rule"; Lauri Harvilahti suggested a Baltic origin in žaltys, "grass snake", seen as a household spirit. | The word is possibly derived from the Proto-Norse *halđiaz or *halđia- ... It can also be derived from the Finnish verb hallita, which means "to rule", "to command", "to master". ... Lauri Harvilahti suggested a Baltic origin: žaltys means a "grass snake", which was considered a household spirit. |
+| haltija-c06 | exact | fi.wikipedia.org | Haltijat or haltiat are mythological beings believed to rule or protect a place or a being. | Haltijat eli haltiat ovat mytologisia taruolentoja, joiden on uskottu hallitsevan tai suojelevan jotakin paikkaa tai olentoa. |
+| haltija-c07 | exact | fi.wikipedia.org | Haltijat are thought usually to live unseen by humans, but sometimes they can show themselves. | Haltijoiden katsotaan elävän yleensä ihmisille näkymättömissä, mutta toisinaan ne voivat näyttäytyä. |
+
+
+## k-op-ala — lulus-otomatis
+
+Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| k-op-ala-c01 | loose | en.wikipedia.org | Kopala (კოპალა) is a traditional hero or demigod revered in the Pshavi highlands of Georgia. | (Georgian: კოპალა) is a traditional hero or demigod revered in the highlands of Pshavi in Georgia. |
+| k-op-ala-c02 | exact | en.wikipedia.org | He once had a boulder-throwing contest with the devebi (ogres); the god Kviria whipped the stone so it landed on the fortress of Tsikhetgori. | he once was in a boulder-throwing contest against a number of devebi, or ogres, to see who could throw a boulder the furthest. ... the god "Kviria" struck the boulder with his whip, causing it to fly further than the ogre's boulder, and it landed on top of the ogres' fortress of Tsikhetgori. |
+| k-op-ala-c03 | exact | en.wikipedia.org | After their defeat in the ensuing battle against Kopala and his companion Iakhsar, the surviving ogres retreated underground, letting people settle the area undisturbed. | As a result of their defeat in an ensuing battle that Kopala fought with his companion "Iakhsar", the surviving ogres retreated underground, allowing mankind to settle in the area undisturbed. |
+| k-op-ala-c04 | exact | ka.wikipedia.org | K'op'ala is a pre-Christian community deity of the eastern Georgian mountains; in Georgian mythology a local god of the Pshavs (Pkhovels) from the khvtisshvili (children of God). | კოპალა — წინაქრისტიანული სათემო ღვთაება აღმოსავლეთ საქართველოს მთაში. ქართულ მითოლოგიაში ფშაველთა (ფხოველთა) ლოკალური ღვთაება ხვთისშვილთა რიგიდან. |
+| k-op-ala-c05 | exact | ka.wikipedia.org | His main shrines were in Pshavi and Khevsureti; the sanctuary in the Likoki valley stands on Mount Karati; Khevsurs believed venerating the Karati cross protects from drowning and avalanches. | მისი ძირითადი სამლოცველო იყო ფშავსა (სოფ. უძილაურთა) და ხევსურეთში (ლიქოკის ხეობა, ჭალაისოფელი). სალოცავი ლიქოკის ხეობაში, კარატის მთის მწვერვალზე დგას. ხევსურთა რწმენით, კარატის ჯვრის თაყვანისცემა იცავს წყალში დახრჩობისგან და ზვავში მოყოლისგან |
+| k-op-ala-c06 | exact | ka.wikipedia.org | As a community deity, K'op'ala protected his followers in hardship, accompanied them on campaigns and helped them. | კოპალა, როგორც სათემო ღვთაება, თავის ყმებს მფარველობდა გასაჭირში, თან ახლდა ლაშქრობებში და ხელს უმართავდა. |
+
+
+## lamia-q12284666 — lulus-otomatis
+
+Klaim 7 (exact 7), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| lamia-q12284666-c01 | exact | ru.wikipedia.org | The lamia is a giant evil dragon-like female being of Bulgarian myth, living at the bottom of lakes, rivers and seas, hoarding gems and gold in caves; Bulgarian heroes easily behead her, but if the head is put on a bull's horn, after forty days head and horn grow back into a serpent. | — гигантское злое драконообразное существо женского пола в мифах и легендах болгар. Ламии обитают на дне озёр, рек, морей. В своих пещерах часто хранят драгоценные камни и золотые клады. Несмотря на грозный вид Ламии, болгарские герои легко расправляются с ней, отрубив голову. Однако если отрезанную голову насадить на бычий рог, то через сорок дней голова и рог вновь срастаются в змею. |
+| lamia-q12284666-c02 | exact | pl.wikipedia.org | The lamia is a Slavic demon of Bulgarian mythology arising from a snake whose head was cut off and stuck on an ox horn; after 40 (forty) days head and horn grew together into a lamia. | demon słowiański z mitologii bułgarskiej, pochodzący od węża, któremu odcięto głowę i zatknięto ją na róg wołu (po 40 dniach głowa i róg zrastały się i tak powstawała lamia). |
+| lamia-q12284666-c03 | exact | ru.wikipedia.org | The lamia is usually shown as a giant female serpent-like being with scaly wings, yellow scales, sharp claws and teeth, usually a dog's head on a snake's neck, sometimes three- or nine-headed. | Чаще всего Ламию изображают женственным змееподобным существом гигантских размеров, с чешуйчатыми крыльями, жёлтой чешуей, острыми когтями и зубами. Чаще всего имеет одну собачью голову на змеиной шее, но изредка её изображают трёхглавой или девятиглавой. |
+| lamia-q12284666-c04 | exact | ru.wikipedia.org | She is always hungry and thirsty for blood, sometimes damming rivers to cause drought and demanding human sacrifice to end it. | Она постоянно голодна и жаждет крови, иногда Ламия перекрывает русла рек, вызывая засухи, и требует людских жертвоприношений для их окончания. |
+| lamia-q12284666-c05 | exact | ru.wikipedia.org | In folk art the lamia was also shown as dark fog or a strong destructive wind; her mouth is so huge she can swallow a person alive. | В народном творчестве Ламий изображали также в виде темного тумана или сильного, разрушительного ветра. Ламия имеет огромный рот, что позволяет ей проглотить человека живьём, когда она голодна. |
+| lamia-q12284666-c06 | exact | pl.wikipedia.org | The lamia was the zmey's antagonist; they were at constant war, the zmey defending the harvest and the lamia wishing to destroy it. | Lamia była antagonistką zmeja. Zmej i lamia byli w nieustającej wojnie – zmej bronił urodzaju, a lamia chciała go unicestwić. |
+| lamia-q12284666-c07 | exact | pl.wikipedia.org | The legend of Saint George (Georgi) killing the lamia was widespread; after he slew her with his spear she vanished and the saint came to be venerated; belief in the lamia faded early, as late 19th-century (XIX) records show. | Szeroko rozpowszechniona była także legenda o świętym Georgim, który zabija lamię (w polskiej wersji – święty Jerzy zabijający smoka). Po tym jak święty Georgi zabił ją swoją kopią, lamia przepadła i za to zaczęto czcić tego świętego. Wiara w lamię zanikła dość wcześnie, o czym świadczą przekazy z końca XIX wieku. |
+
+
+## maaema — lulus-otomatis
+
+Klaim 7 (exact 7), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| maaema-c01 | exact | en.wikipedia.org | Maaemä (Finnish) or Maaema (Estonian) is a goddess or the earth itself in Finnish and Estonian mythologies; she is sometimes called Ukko's wife, but this is not certain. | (Finnish) or Maaema (Estonian) is a goddess or earth itself in Finnish and Estonian mythologies. She is sometimes called the wife of Ukko but this is not certain. |
+| maaema-c02 | exact | en.wikipedia.org | In runic songs the earth itself is sometimes called maaemä, "earth mother", and set against a father in the sky, Ukko. | In runic songs, the earth itself is sometimes called maaemä 'earth mother'. ... Maaemä is sometimes set as the opposite of a father in the sky or Ukko |
+| maaema-c03 | exact | en.wikipedia.org | A South Savo runic song invokes her as the one who raised snakes from the ground; a North Savo song tells how the Mistress of Earth brushed her hair and a snake formed from a bristle. | A South Savo runic song invokes her, calling her the one who raised snakes from the ground. A North Savo runic song explains how the Mistress of Earth brushed her hair and from a bristle of the brush, a snake was formed. |
+| maaema-c04 | exact | en.wikipedia.org | A Kainuu runic song describes a stone as something that "tastes like the earth of Maatar" (Lady Earth). | A Kainuu runic song describes a stone as something that "tastes like the earth of Maatar" |
+| maaema-c05 | exact | et.wikipedia.org | Maaema is the dearest and most honoured spirit of the land, also called the land's protector. | Maaema on kõige armsam ja austatud maa haldjas üldse. Teda kutsutakse ka maakaitsjaks. |
+| maaema-c06 | exact | et.wikipedia.org | Since the earth is the dearest mother who turns no one away, the homeless are her special wards. | Kuna maa on kõige armsam ema, kes ei aja kedagi enda juurest ära, siis kodutud on tema erilised hoolealused. |
+| maaema-c07 | exact | et.wikipedia.org | To protect maaema no one could poke the ground with a knife, which pierces her heart, and throwing hot water scalds her head; pulling grass was forbidden too, since it pulled her hair. | Maaema kaitsmiseks ei tohtinud keegi noaga maas surkida, sest siis sorgitakse maaema südames ning tulist vett maha visates kõrvetatakse maaema pead. Ka rohukitkumine oli keelatud, sest siis kitkuti maaema juukseid. |
+
+
+## piru-spirit — lulus-otomatis
+
+Klaim 6 (exact 6), sumber 3, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| piru-spirit-c01 | exact | en.wikipedia.org | A piru is a fiend or demon of Finnish mythology; the word comes from Proto-Finnic *piru, "devil, demon", with cognates in Karelian, Ingrian and Estonian; its ultimate origin is unknown. | A piru is a fiend or demon in Finnish mythology. The word is inherited from Proto-Finnic *piru* ‘devil, demon’, with cognates in Karelian, Ingrian and Estonian; its ultimate origin is unknown. |
+| piru-spirit-c02 | exact | en.wikipedia.org | In folklore a piru is often a nasty forest spirit with whom a smart aleck wins or loses a battle of wits, giving or receiving a forfeit. | In folklore, a piru is often featured as a nasty spirit of the forest with which a smart aleck either wins or loses a battle of wits, giving or receiving a forfeit in return. |
+| piru-spirit-c03 | exact | ca.wikipedia.org | Poltergeist and haunting phenomena are often called "pirus"; the Devil may be called Piru or Pääpiru, the main piru. | En molts casos, els poltergeist i fenòmens d'aparicions es descriuen com pirus. Sovint el Diable és anomenat també Piru o Pääpiru, el piru major. |
+| piru-spirit-c04 | exact | fi.wikipedia.org | In Finnish folk tradition a piru is either a servant of the Devil or another lesser evil being (a demon), or the Devil himself. | Piru on suomalaisessa kansanperinteessä joko paholaista palveleva tai muutoin vähäisempi paha olento eli demoni, tai itse paholainen. |
+| piru-spirit-c05 | exact | fi.wikipedia.org | Pirus can strike suddenly and possess people; the possessed may act madly, fall ill or change personality entirely, and a skilled exorcist can remove the possession. | Ne voivat iskeä äkkiarvaamatta ja riivata ihmisiä eli asettua ihmiseen asumaan. Riivattu ihminen saattaa käyttäytyä hullusti tai sairastua, tai hänen persoonallisuutensa voi muuttua täysin. Riivauksen voi poistaa asiansa osaava manaaja. |
+| piru-spirit-c06 | exact | en.wikipedia.org | "Piru" is also a mild swearword in Finnish. | "Piru" is also a mild swearword in Finnish. |
+
+
+## polkan — lulus-otomatis
+
+Klaim 6 (exact 5, loose 1), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| polkan-c01 | exact | en.wikipedia.org | Polkan or Palkan is a half-human, half-horse creature (half-dog in some variants) of Russian folktales, known for his immense power and speed. | is a half-human, half-horse creature (in some variants, half-dog) from Russian folktales, known for his immense power and speed. |
+| polkan-c02 | loose | en.wikipedia.org | In folk etymology his name is read as polukon, "half-horse". | In folk etymology, his name is interpreted as polukon (Russian: полуконь), meaning 'half-horse'. |
+| polkan-c03 | exact | en.wikipedia.org | He first appears as the enemy of the hero Bova Korolevich but after a battle becomes Bova's loyal friend and ally, eventually dying fighting lions to protect Bova's wife and children. | He initially appears as the enemy of the hero Bova Korolevich, but after a battle, he becomes Bova's loyal friend and ally. He eventually dies fighting lions while protecting Bova's wife and children. |
+| polkan-c04 | exact | en.wikipedia.org | The tale was extremely popular in Russia and entered folklore, appearing in many lubok prints and woodcuts; Alexander Pushkin used some of its elements in his fairy tales. | This tale was extremely popular in Russia and became part of Russian folklore, leading to numerous lubok prints containing the tale as well as woodcut illustrations. Alexander Pushkin in particular used some elements from the story for his own fairy tales. |
+| polkan-c05 | exact | ru.wikipedia.org | Polkan has immense strength and speed and can bound great distances, "seven versts in one leap". | обладающий огромной силой и скоростью (может скачками перемещаться на большие расстояния — «семь вёрст за один скок»). |
+| polkan-c06 | exact | en.wikipedia.org | Polkan is based on Pulicane, a half-dog character in Andrea da Barberino's poem I Reali di Francia, once popular in the Slavonic world through prose translations; in modern Russia Polkan is a popular name for large dogs. | Polkan is originally based on Pulicane, a half-dog character from Andrea da Barberino's poem I Reali di Francia, which was once popular in the Slavonic world through prosaic translations. |
+
+
+## poroniec — lulus-otomatis
+
+Klaim 7 (exact 6, loose 1), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| poroniec-c01 | exact | en.wikipedia.org | The poroniec (plural porońce) is a hostile demon of Slavic mythology believed to arise from stillborn fetuses and improperly buried infants. | is a hostile and malicious demon from Slavic mythology. They were believed to come into existence from stillborn fetuses, but also from improperly buried remains of children who had died during infancy. |
+| poroniec-c02 | exact | en.wikipedia.org | Porońce were thought extremely powerful demons because of their unrealised potential of life. | Porońce were considered to be extremely powerful demons, due to their potential of unrealized life. |
+| poroniec-c03 | exact | en.wikipedia.org | Porońce were tied to many taboos for pregnant women, such as drawing water from a well, leaving home with an infant or having sex. | Porońce were associated with many taboos regarding pregnant women, such as drawing water from a well, leaving home with an infant, or engaging in sexual intercourse. |
+| poroniec-c04 | exact | en.wikipedia.org | A stillborn fetus buried under the house threshold did not become a poroniec but a kłobuk, a protective house spirit. | A stillborn fetus did not turn into a poroniec if it was buried under the threshold of the house. Instead, it turned into a kłobuk ... – a protective house spirit. |
+| poroniec-c05 | exact | pl.wikipedia.org | In Slavic belief the poroniec is a malicious demon hostile to people, arising from the soul of a miscarried child or aborted fetus. | w wierzeniach słowiańskich złośliwy i wrogi ludziom demon wywodzący się z duszy poronionego dziecka lub spędzonego płodu. |
+| poroniec-c06 | loose | en.wikipedia.org | A poroniec is somewhat similar to the myling of Scandinavian folklore. | A poroniec is somewhat similar to a being from Scandinavian folklore, the myling. |
+| poroniec-c07 | exact | en.wikipedia.org | In the 2015 video game The Witcher 3: Wild Hunt, one main quest revolves around the search for a botchling (poroniec in the original). | In the 2015 video game The Witcher 3: Wild Hunt, one of the main quests revolves around the search for a botchling (poroniec in the original version) |
+
+
+## salme — skip
+
+Klaim 0 (), sumber 0, gambar 0.
+
+**manual**
+- `skip` Diusulkan dilewati: Bukan makhluk: Salme adalah tokoh perempuan dalam lagu rakyat Estonia dan epos Kalevipoeg (gadis yang menikah dengan Bintang). Sesuai aturan 3 Oktober 2026 (§12), tokoh yang berwujud manusia tidak dimasukkan. (https://et.wikipedia.org/wiki/Salme_(tegelaskuju)).
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+
+
+## sarkany-mythology — lulus-otomatis
+
+Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
+
+**warn**
+- `claims (sarkany-mythology-c03)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
+- `claims (sarkany-mythology-c06)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| sarkany-mythology-c01 | loose | en.wikipedia.org | The sárkány ("dragon") is a legendary monster of Hungarian mythology, usually a scaly, winged, reptilian beast, sometimes a mixture of other beings. | ('dragon') is a legendary monster found in Hungarian mythology. It usually appears as a scaly, winged, reptilian beast, but in some cases it could be a mixture of other beings. |
+| sarkany-mythology-c02 | exact | en.wikipedia.org | Hungarian sárkány is regarded as a loanword from Oghuric Turkic šaragan, "dragon", and may share a root with Hungarian sárga, "yellow". | Hungarian sárkány is regarded as a loanword from Oghuric Turkic (or "West Old Turkic") šaragan 'dragon' ... The word may be connected to the same root as occurs in Hungarian sárga ('yellow') |
+| sarkany-mythology-c03 | exact | hu.wikipedia.org | In Hungarian culture the sárkány is the ancient dragon of myth and legend, a divine monster and treasure guardian, usually a winged, scaly reptile. | A magyar kultúrkörben a sárkány mítoszok és legendák ősi sárkánya, isteni szörnyetege és a kincseket őrző lény, legtöbbször szárnyas, pikkelyes hüllő alakjában |
+| sarkany-mythology-c04 | exact | hu.wikipedia.org | Per the Hungarian ethnographic lexicon, the tarajos kígyó ("crested serpent") is a dreadful, supernaturally strong winged snake, horse-like in front and snake-like behind, hard-scaled, long-clawed and long-toothed, with a flaming crest, blowing sparks and spewing flame. | „A tarajos csúszó, tarajos kígyó félelmetes, természetfeletti erejű kígyó. Szárnyas alakú, elöl lóhoz, hátul kígyóhoz hasonlít, pikkelyes kemény bőrű, hosszú körmű, hosszú fogú, lángoló tarajú; szikrát fúj, lángot hány. |
+| sarkany-mythology-c05 | exact | hu.wikipedia.org | The sárkány, as the garabonciás's steed, is linked with storms, hail and treasure; it comes from a fish or snake hidden in a marsh or rock cleft and unseen by human eyes for seven years. | „Sárkány, mint a garabonciás lova, kapcsolatban áll a viharral, jégesővel és a kincsekkel. Olyan halból vagy kígyóból lesz, amelyet mocsárban, kőszirtben elbújva hét évig emberi szem nem látott.” |
+| sarkany-mythology-c06 | exact | hu.wikipedia.org | The appearance of dragons was most often linked with destructive lightning storms, the thunder being the dragons raging in the sky. | Általánosságban kijelenthető, hogy legtöbbször a pusztító, villámló viharokkal hozták összefüggésbe a sárkányok megjelenését, ahol a vihar mennydörgése tulajdonképpen a sárkányok tombolása volt az égben |
+
+
+## shubin-ghost — lulus-otomatis
+
+Klaim 6 (exact 6), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| shubin-ghost-c01 | exact | en.wikipedia.org | Shubin is the mythological mining spirit; his legend spreads mainly in the mining towns of the Donbas on the Russia–Ukraine border; the spirit is usually good but can be wicked. | is the mythological mining spirit. The legend of Shubin is distributed mainly in the mining towns of the Donbas region on the Russia–Ukraine border. In the north one can hear several legends about the spirit of the mines. The spirit is usually good, but can be wicked. |
+| shubin-ghost-c02 | exact | en.wikipedia.org | Explanations of the name: (1) the nickname of a miner whose soul walks the mine bottom in a fur coat with a torch, burning firedamp; (2) the cruel mine boss Shubin who killed workers underground; (3) the "shu-shu" sound of methane. | (1) the nickname of a miner, whose soul, according to legend, walks in a fur coat at the bottom of the mine with a torch in his hand and burns the gas (firedamp); (2) the name of the cruel mining master Shubin, who slew workers underground; (3) the sound from methane (Shu-Shu), which often accumulates in the mines. |
+| shubin-ghost-c03 | exact | en.wikipedia.org | In September 2026, miners' tales about the guardian spirit Shubin were inscribed on the National Register of the Intangible Cultural Heritage of Ukraine. | In September 2026, miners' tales about the guardian spirit Shubin were inscribed on the National Register of the Intangible Cultural Heritage of Ukraine. |
+| shubin-ghost-c04 | exact | ru.wikipedia.org | Good Shubin, or just Shubin, is a figure of Donbas miners' folklore, a gnome-like mining spirit, "master of the mine" and patron of miners. | Добрый Шу́бин, или просто Шубин — персонаж шахтёрского фольклора Донбасса, горняцкий дух, похожий на гнома, «хозяин шахты» и покровитель шахтёров. |
+| shubin-ghost-c05 | exact | ru.wikipedia.org | Oral lore tells of good Shubin warning miners of coming disasters; he is imagined as a middle-aged man with a smoker's cough: "Hear the cough, run!" | Изустное предание гласит о добром Шубине, предупреждающим шахтёров о грядущих бедах. Образ Шубина представляется мужчиной средних лет с кашлем курильщика."Слышишь кашель-делай ноги!". |
+| shubin-ghost-c06 | exact | ru.wikipedia.org | Beliefs about Shubin were recorded by folklore collectors, the writers Boris Gorbatov and Leonid Zharikov. | Поверья о Шубине записали собиратели фольклора писатели Борис Горбатов и Леонид Жариков. |
+
+
+## supernatural-beings-in-slavic-religion — lulus-otomatis
+
+Klaim 4 (exact 4), sumber 2, gambar 0.
+
+**manual**
+- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| supernatural-beings-in-slavic-religion-c01 | exact | en.wikipedia.org | Besides the many Slavic gods and goddesses, the ancient Slavs believed in and revered many supernatural beings of nature, in various forms, whose names can be spelled differently by language and transliteration. | Other than the many gods and goddesses of the Slavs, the ancient Slavs believed in and revered many supernatural beings that existed in nature. These supernatural beings in Slavic religion come in various forms, and the same name of any single being can be spelled or transliterated differently according to language and transliteration system. |
+| supernatural-beings-in-slavic-religion-c02 | exact | en.wikipedia.org | The vila is a nymph-like fairy, identified as a nymph by the Greek historian Procopius; the name shares its root with Veles. | is a fairy that is similar to a nymph, identified as a nymph by the Greek historian Procopius; their name comes from the same root as the name of Veles. |
+| supernatural-beings-in-slavic-religion-c03 | exact | en.wikipedia.org | Vile are described as beautiful, eternally young, dressed in white, with thunder-flashing eyes, wings and blonde hair. | They are described as beautiful, eternally young, dressed in white, with eyes flashing like thunder, and provided with wings, and blonde hair. |
+| supernatural-beings-in-slavic-religion-c04 | exact | ru.wikipedia.org | In the beliefs and folklore of the South Slavs and partly the Slovaks, the vila is a female mythological being with mainly positive qualities. | в верованиях и фольклоре южных славян и отчасти словаков женское мифологическое существо, наделяемое преимущественно положительными свойствами. |
+
+
+## vantoase — lulus-otomatis
+
+Klaim 6 (exact 6), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| vantoase-c01 | exact | en.wikipedia.org | The vântoase are creatures of Romanian folklore, a sort of female spirit (iele), believed able to cause dust storms and powerful winds, like harpies. | are creatures present in Romanian folklore, as a sort of female spirits (iele). Popular beliefs describe them as capable of causing dust storms and powerful winds, similar to harpies. |
+| vantoase-c02 | exact | en.wikipedia.org | They live in forests, in the air and in deep lakes, travel in a special wagon, are believed able to attack children, and the only protection is the mysterious "grass of the winds". | They live in forests, in the air, in deep lakes, and use a special wagon for traveling. The Vântoase are also believed to be capable of attacking children, and the only protection against them is the mysterious "grass of the winds". |
+| vantoase-c03 | exact | ru.wikipedia.org | They are sometimes said to raise winds when they dance the hora. | Иногда говорят, что они вызывают ветры, когда танцуют хору. |
+| vantoase-c04 | exact | ru.wikipedia.org | The name vântoase (singular vântoasa) comes from the Romanian word vânt, "wind". | Имя вынтоасе (ед. ч. вынтоаса) происходит от румынского слова ветер (vânt). |
+| vantoase-c05 | exact | ru.wikipedia.org | They live in forests, in the air and in lakes and use winds to travel; in some legends they are servants of God. | Они живут в лесах, в воздухе, в озёрах и используют ветры для путешествий. ... В некоторых легендах они представлены как слуги Господа. |
+| vantoase-c06 | exact | ru.wikipedia.org | They are believed able to attack children, and the only protection then is the mysterious grass of the winds. | Считается, что они могут нападать на детей. Единственным средством защиты от них в таком случае является загадочная трава ветров. |
 
