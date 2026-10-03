@@ -1,8 +1,6 @@
 # Review batch-124
 
-Diperiksa 2026-10-03T01:54:54.235Z. Berkas: batch-124.md.
-
-**Belum dikirim:** baloz, bardha, chudo-yudo, djall, drangue, dzedka, e-bija-e-henes-dhe-e-diellit, ebajalg, faronika, gundyr
+Diperiksa 2026-10-03T03:10:07.773Z. Berkas: batch-124.md.
 
 ## ved-ava — lulus-otomatis
 
@@ -524,4 +522,161 @@ Klaim 11 (exact 11), sumber 3, gambar 0.
 | valva-c09 | exact | ru.wikipedia.org | Vâlva Băilor is the protector of mines; when she leaves a mine, the ore is thought to be running out. | Вылва руды (Vâlva Băilor) — защитница шахт; когда она покидает копь, считается, что руда заканчивается. |
 | valva-c10 | exact | ro.wikipedia.org | The Romanian article says vâlve are said to be children conceived on great feast days, and in rural areas such children are said to be born with a small red cap or swelling on the head. | Se spune că ar fi copiii care sunt concepuți la zile mari, de sărbătoare. În zonele rurale se spune că acești copii se nasc cu o tichiuță sau cu o gogoașă pe cap, roșie |
 | valva-c11 | exact | ro.wikipedia.org | The solomonari are said to be Vâlve, people who are different and have special powers. | Se spune despre solomonari că sunt Vâlve, că sunt oameni diferiți, având puteri deosebite. |
+
+
+## baloz — lulus-otomatis
+
+Klaim 9 (exact 9), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| baloz-c01 | exact | en.wikipedia.org | Baloz or bajloz is a legendary character of Albanian mythology and folklore, an antagonist of the Albanian legendary heroes, sometimes described as a sea monster. | Baloz or bajloz is a legendary character in Albanian mythology and folklore, who appears as an antagonist of the Albanian legendary heroes. He sometimes is described as a sea monster. |
+| baloz-c02 | exact | en.wikipedia.org | Baloz is found in many Albanian myths and legends about fighting the Albanian nobles Muji, Halili, Gjergj Elez Alia and Constantin, and in the Albanian Songs of the Frontier Warriors. | Baloz (as a character) has been found in many Albanian myths and legends about fighting against the Albanian nobles such as: Muji, Halili, Gjergj Elez Alia and Constantin. The monster is found in the Albanian Songs of the Frontier Warriors. |
+| baloz-c03 | exact | en.wikipedia.org | The word baloz or bajloz seems to derive from the Latin baiulus. | The word baloz or bajloz seems to be derived from the Latin word baiulus. |
+| baloz-c04 | exact | en.wikipedia.org | Maximilian Lambertz suggested that Baloz derives from the Italian bailo, the title of the Venetian ambassador to the Ottomans. | Maximilian Lambertz also suggested that the word 'Baloz' is derived from Italian bailo, the title of the Venetian ambassador to the Ottomans. |
+| baloz-c05 | exact | en.wikipedia.org | Baloz Sedelija was a Slavic warrior in Albanian folklore. | Baloz Sedelija was a Slavic warrior in Albanian folklore. |
+| baloz-c06 | exact | sq.wikipedia.org | Bajlozi or balozi is a mythological-demonological figure of Albanian folk rhapsodies, a danger coming from the sea; according to Arshi Pipa he is described as an evil giant and at times a monster in folk mythology. | Bajlozi ose balozi është një figurë mitologjike-demonologjike e rapsodive popullore shqiptare si një rrezik të ardhur nga deti. Sipas Arshi Pipës përshkruhet si një vigan i keq, herë-herë, përbindësh në mitologjinë popullore. |
+| baloz-c07 | exact | sq.wikipedia.org | Its root, Latin baiulus, means overseer or keeper. | Në rrënjën e vet baiulus në gjuhën latine do të thotë mbikëqyrës, mbarështues |
+| baloz-c08 | exact | sq.wikipedia.org | Historically, the figure relates to the demonisation of the Republic of Saint Mark (Venice). | Në rrafshin historik ka të bëjë me demonizimin e Republikës së Shën Markut |
+| baloz-c09 | exact | sq.wikipedia.org | Gjergj Elez Alia fought the bajloz who came from the sea and defeated him, though he had just come through a long illness from nine war wounds. | Gjergj Elez Alia luftoi me bajlozin e ardhur nga deti, duke e mundur atë edhe pse vinte pas një lëngate te gjate për shkak te nënte plagëve te marra ne lufte. |
+
+
+## bardha — lulus-otomatis
+
+Klaim 7 (loose 1, exact 6), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| bardha-c01 | loose | en.wikipedia.org | A bardha ("the white one") is an Albanian mythological figure appearing as a zana (nymph) or an ora (Fate goddess) associated with good luck; the plural is bardhat. | A bardha (Albanian pronunciation: [baɾða], English: 'the white one') is an Albanian mythological figure, appearing either as a zana (nymph) or as an ora (Fate goddess) associated with good luck. The plural form is bardhat. |
+| bardha-c02 | exact | en.wikipedia.org | Bardhat are described as pale, nebulous figures or apparitions of women in white living on misty mountains and in the underworld; they are sometimes considered mountain or nature spirits. | Bardhat are described as pale, nebulous figures, or as apparitions of women in white that live both on misty mountains and in the underworld. They are sometimes considered mountain or nature spirits. |
+| bardha-c03 | exact | en.wikipedia.org | They are generally indifferent to humans but harm those who offend them, can paralyse or mute a person who accidentally steps on them, and make a rider fall if the horse steps on them. | They are generally indifferent to humans, but will harm people if offended, and can paralyze or make mute a person who inadvertently steps on them. It is also said that they cause the rider of a horse to fall off if the horse steps on them. |
+| bardha-c04 | exact | en.wikipedia.org | To appease them, especially after an accident, people would leave sugar, cakes or honey on the ground at the spot and say nice things about the bardha. | In order to appease them, especially after an accident, one would leave sugar, cakes, or honey on the ground at the site where it happened and say nice things about the bardha. |
+| bardha-c05 | exact | en.wikipedia.org | The inhabitants of the Dukagjini Mountains believed in three types of Ora: e Bardha (The White One) gives good luck, e Verdha (The Yellow One) bad luck and evil spells, and e Zeza (The Black One) decides death. | The inhabitants of the Dukagjini Mountains believed that three types of Ora (Fate goddesses) existed: "e Bardha (The White One) distributes good luck and wishes humans well, e Verdha (The Yellow One) distributes bad luck and casts evil spells, and e Zeza (The Black One) who decides death". |
+| bardha-c06 | exact | en.wikipedia.org | According to old folklore that sees them as nymph-like, a bardha is similar to zana e malit. | According to old folklore that thinks of them as nymph-like creatures, a bardha is similar to zana e malit. |
+| bardha-c07 | exact | sq.wikipedia.org | According to Albanian folk belief they are pale, misty figures who live underground. | Sipas besimit popullor shqiptar ato janë figura të zbehta, të mjegullta që banojnë nën tokë. |
+
+
+## chudo-yudo — lulus-otomatis
+
+Klaim 9 (exact 9), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| chudo-yudo-c01 | exact | ru.wikipedia.org | Chudo-Yudo ("sea wonder") is a Russian folk-tale character often with fish traits; ethnographers and cultural scholars have not agreed on its origin. | Чудо-юдо (чудо морское) — персонаж русских народных сказок, часто обладающий чертами и свойствами рыбы. Единого мнения о происхождении персонажа в работах этнографов и культурологов на сегодняшний день не сложилось. |
+| chudo-yudo-c02 | exact | ru.wikipedia.org | According to A. N. Afanasyev, in other versions of the tale of the Sea King and his wise daughter the Sea King's role passes to a serpent, the devil and the lawless Chudo-Yudo. | в одном варианте народной сказки о Морском Царе и его вещей дочери Морской Царь прямо назван Окиан-море; в других же списках роль его передаётся змею, чёрту и беззаконному Чуду-Юду. |
+| chudo-yudo-c03 | exact | ru.wikipedia.org | According to Afanasyev, the name Chudo-Yudo is mostly given to the mythical serpent, the dragon-cloud. | Название Чудо-Юдо, согласно Афанасьеву, подтверждает ту же мысль: оно большею частью придаётся мифическому змею (дракону-туче). |
+| chudo-yudo-c04 | exact | ru.wikipedia.org | Max Vasmer thought it most likely that "yudo" is merely a rhyming formation modelled on "chudo". | Макс Фасмер считал наиболее вероятным, что юдо — «всего лишь рифмованное образование по образцу слова чудо» |
+| chudo-yudo-c05 | exact | ru.wikipedia.org | In the tale "Ivan the Peasant's Son and Chudo-Yudo", Chudo-Yudo is a group of evil 6-, 9- and 12-headed serpents living beyond the River Smorodina, crossing by the Kalinov Bridge, shown on horseback, burning towns and villages. | В русской народной сказке «Иван — крестьянский сын и Чудо-юдо» Чудо-юдо — это группа многоголовых (6-, 9-, 12-головых) змеев, отрицательных персонажей. Живут они за рекой Смородиной, через которую перебираются по Калинову мосту. В сказке Чудо-юдо изображается верхом на коне. Вред от него заключается в том, что оно сжигает города-сёла огнём. |
+| chudo-yudo-c06 | exact | ru.wikipedia.org | The 12-headed (twelve-headed) Chudo-Yudo has a fiery finger that regrows severed heads. | 12-головое Чудо-юдо обладает огненным пальцем, который позволяет регенерировать срубленные головы. |
+| chudo-yudo-c07 | exact | ru.wikipedia.org | Chudo-Yudo lives in stone chambers with sorceress wives and a serpent mother; its chief opponent is Ivan, the peasant's son. | Живёт чудо-юдо в каменных палатах, где у чуда-юда есть жёны-колдуньи и мать-змеиха. Главный противник чуда-юда, как и следует из названия сказки, — Иван — крестьянский сын. |
+| chudo-yudo-c08 | exact | ru.wikipedia.org | In Pyotr Yershov's 1834 tale "Конёк-Горбунок" (The Little Humpbacked Horse), Chudo-Yudo the Fish-Whale appears as a separate character, an island-fish lying across the sea. | В сказке Петра Ершова «Конёк-Горбунок» 1834 года как самостоятельный персонаж присутствует Чудо-юдо Рыба-кит. Собственно, это рыба-остров, которая лежит «поперёк моря». |
+| chudo-yudo-c09 | exact | ba.wikipedia.org | Chudo-Yudo is a character of Russian folk tales. | Чудо-юдо — рус халыҡ әкиәттәре персонажы. |
+
+
+## djall — lulus-otomatis
+
+Klaim 6 (exact 6), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| djall-c01 | exact | en.wikipedia.org | Djall or Dreq is the personification of evil in Albanian mythology and folklore; the name is also used for a demon of fire. | Djall or Dreq is the personification of evil in Albanian mythology and folklore. The name is used also for a demon of fire. |
+| djall-c02 | exact | en.wikipedia.org | Various tales have cast Djall as the antagonist that heroes and ordinary people alike must contend with. | Various tales woven through the years have pitched Djall as the antagonist, the villainous element against which heroes and ordinary people alike must contend. |
+| djall-c03 | exact | en.wikipedia.org | The name djall derives from Latin diabolus, "devil"; alternative forms are dreqi from Latin draco, "dragon", satan and shejtan. | The name djall derives from the Latin diabolus, "devil". Alternative forms are dreqi from the Latin draco, "dragon", satan and shejtan. |
+| djall-c04 | exact | en.wikipedia.org | Djall is no mere metaphor; in these narratives he can manifest in the physical world, most terrifyingly as a fire demon. | But Djall is no mere metaphor, in these narratives, it takes a form that can manifest in the physical world, most terrifyingly as a fire demon. |
+| djall-c05 | exact | sq.wikipedia.org | A moving inferno, he brings moral and mortal danger. | Një infern në lëvizje, ai sjell rrezik moral dhe vdekjeprurës. |
+| djall-c06 | exact | sq.wikipedia.org | Djalli or Dreqi is the personification of evil in Albanian mythology and folklore; the name is also used for a fire demon. | Djalli ose Dreqi është personifikimi i së keqes në mitologjinë dhe folklorin shqiptar. Emri përdoret gjithashtu për një demon të zjarrit. |
+
+
+## drangue — lulus-otomatis
+
+Klaim 14 (exact 14), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| drangue-c01 | exact | en.wikipedia.org | The drangue is a semi-human winged divine hero of Albanian pagan mythology tied to weather and storms; archetype of light and good opposing the kulshedra; babies destined to be drangue are born with a caul and two or four wings under the arms. | is a semi-human winged divine hero in Albanian pagan mythology, associated with weather and storms. He is the archetype of light and good, the complementary and opposing force to kulshedra, the archetype of darkness and evil. Babies destined to become drangue are born with their heads covered in caul and with two or sometimes four wings under their arms. |
+| drangue-c02 | exact | en.wikipedia.org | To defeat the kulshedra he uses lightning-swords and thunderbolts, plus meteoric stones, piles of trees and rocks, protecting mankind from storms, fire, drought and floods caused by the kulshedra. | In order to defeat the kulshedra he uses lightning-swords and thunderbolts as his most powerful weapons, but he also uses meteoric stones, piles of trees and rocks, eventually protecting mankind from storms, fire, droughts, floods and other natural disasters caused by kulshedra's destructive power. |
+| drangue-c03 | exact | en.wikipedia.org | The standard form is dragùa; drangue is a common dialectal variant, and Durham recorded the form drangoni. | Standard Albanian form of the name is dragùa (def. dragói). A common dialectal variant is drangue. Durham recorded the form drangoni. |
+| drangue-c04 | exact | en.wikipedia.org | The sense of dragùa as a hero battling the kulshedra is attested in 17th-century Albanian texts such as the 1635 Dictionarium Latino-Epiroticum by Frang Bardhi. | a hero battling the Kulshedra, a mythological tradition already attested in the 17th century Albanian texts, such as the 1635 Dictionarium Latino-Epiroticum by Frang Bardhi. |
+| drangue-c05 | exact | en.wikipedia.org | Drangues are semi-human divine warriors of extraordinary strength who can uproot trees and hurl boulders, lightning bolts, meteors or whole houses. | The drangues are semi-human divine warriors with extraordinary strength, giving them the ability to tear trees out of the ground and throw large boulders at their enemies. They can also cast lightning bolts and meteors, or whole houses. |
+| drangue-c06 | exact | en.wikipedia.org | The wings and arms of a dragùa are thought to be the source of his power. | The wings and arms of a dragùa are thought to be the source of his power |
+| drangue-c07 | exact | en.wikipedia.org | Thunderstorms are conceived as battles between drangues and kulshedras, the thunder being their weapons clashing. | Thunderstorms are conceived as battles between the drangues and the kulshedras, the roll of thunder taken to be the sounds of their weapons clashing. |
+| drangue-c08 | exact | en.wikipedia.org | In some parts of Kosovo such as Rugova it is believed drangues die when seen by anyone other than their mothers. | However in some parts of Kosovo, such as Rugova it is believed that drangue's die when they are seen by somebody other than their mothers. |
+| drangue-c09 | exact | en.wikipedia.org | Drangue is the most widespread culture hero among Albanians. | Drangue is the most widespread culture hero among Albanians. |
+| drangue-c10 | exact | en.wikipedia.org | The best-known Albanian mythological image of the struggle between good and evil, light and darkness, is the constant battle of drangue and kulshedra, symbolising cosmic renewal. | The most famous Albanian mythological representation of the dualistic struggle between good and evil, light and darkness, is the constant battle between drangue and kulshedra, a conflict that symbolises the cyclic return in the watery and chthonian world of death, accomplishing the cosmic renewal of rebirth. |
+| drangue-c11 | exact | en.wikipedia.org | In the southeastern Albanian regions of Pogradec and Korça, the dragùa is envisaged as a beautiful strong winged horse defending civilisation and mankind. | In southeastern Albanian regions of Pogradec and Korça, the dragùa is "envisaged.. as a beautiful strong horse with wings, who defends civilization and mankind". |
+| drangue-c12 | exact | en.wikipedia.org | According to local lore of central Albania, he knocked her out with trees and boulders and then drowned her in the Shkumbin River. | having knocked her unconscious by throwing trees and boulders at her, and afterwards drowning her in the Shkumbin River, according to the localized lore of central Albania. |
+| drangue-c13 | exact | en.wikipedia.org | The celestial divine heroes who defeat the kulshedra are often drangue, but also E Bija e Hënës dhe e Diellit ("the Daughter of the Moon and the Sun"). | Those celestial divine heroes are often drangue (the most widespread culture hero among Albanians), but also E Bija e Hënës dhe e Diellit ("the Daughter of the Moon and the Sun") |
+| drangue-c14 | exact | sq.wikipedia.org | Drangoi or drangùe is a semi-human winged divine figure in Albanian mythology and folklore, tied to weather and storms. | Drangoi ose drangùe është një figurë hyjnore me krahë gjysmë-njerëzore në mitologjinë dhe folklorin shqiptar, e lidhur me motin dhe stuhitë. |
+
+
+## dzedka — lulus-otomatis
+
+Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| dzedka-c01 | loose | en.wikipedia.org | Dzedka (Belarusian Дзедка, Russian Кладенец, Polish Skarbnik) is a character of Belarusian mythology, a good mythological creature considered a symbol of richness and companion of fortune. | Dzedka (Belarusian: Дзедка, Russian: Кладенец, Polish: Skarbnik) is a character of Belarusian mythology. Dzedka is a good mythological creature. It is considered to be the symbol of richness and fortune companion. |
+| dzedka-c02 | exact | en.wikipedia.org | Dzedka is described as an old man with a long red beard and red eyes, in simple clothes, looking like a beggar with a bag. | Dzedka is described as an old man with long red beard and red eyes. Dzedka wears simple clothes and looks like a beggar with a bag. |
+| dzedka-c03 | exact | en.wikipedia.org | According to Belarusian folk belief, by day Dzedka walks the roads and fields; a person meeting him falls asleep before noticing him and on waking finds a desired sum of money. | According to Belarusian folk beliefs, in the daytime Dzedka walks around the roads and fields. When a person meets Dzedka, prior to noticing it, this person falls asleep. When the person wakes up, he or she discovers a desired sum of money. |
+| dzedka-c04 | exact | en.wikipedia.org | If rich but unhappy people meet Dzedka, he shows them in a dream what they must do to become happy. | If rich, but unhappy people meet Dzedka, it shows such people in a dream what they need to do to become happy. |
+| dzedka-c05 | exact | fr.wikipedia.org | By day Dzedka walks the roads and fields; when someone meets him, Dzedka puts them to sleep before they realise it. | Pendant la journée, Dzedka se promène sur les routes et dans les champs. Lorsqu'une personne rencontre Dzedka, celui ci l'endort avant qu'elle ne s'en rende compte. |
+| dzedka-c06 | exact | fr.wikipedia.org | Dzedka is described as an old man with a long red beard and red eyes, in simple clothes, resembling a beggar with a bag. | Dzedka est décrit comme un vieil homme ayant une longue barbe rousse et des yeux rouges. Il porte des vêtements simples et ressemble à un mendiant avec un sac. |
+
+
+## e-bija-e-henes-dhe-e-diellit — lulus-otomatis
+
+Klaim 7 (exact 7), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| e-bija-e-henes-dhe-e-diellit-c01 | exact | en.wikipedia.org | She is a character of Albanian mythology and folklore, daughter of Hëna (the Moon) and Dielli (the Sun), described as pika e qiellit ("drop of the sky" or "lightning") that falls from heaven on mountains and valleys and strikes pride and evil. | is a character in Albanian mythology and folklore, the daughter of Hëna ("the Moon") and Dielli ("the Sun"). She is described as pika e qiellit ("drop of the sky" or "lightning") which falls everywhere from heaven on the mountains and the valleys and strikes pride and evil. |
+| e-bija-e-henes-dhe-e-diellit-c02 | exact | en.wikipedia.org | In Albanian folk belief the sun (Dielli) and the moon (Hëna) are personified deities; the sun appears as a male figure and the moon as a female one. | In Albanian folk beliefs the sun (Dielli) and the moon (Hëna) are personified deities. In folk tales, myths and legends the sun appears as a male figure, and the moon as a female figure. |
+| e-bija-e-henes-dhe-e-diellit-c03 | exact | en.wikipedia.org | Some traditions regard sun and moon as husband and wife, others as brother and sister; for E Bija e Hënës dhe e Diellit the sun is her father and the moon her mother. | In some traditions the sun and the moon are regarded as husband and wife, and in other traditions as brother and sister. In the case of E Bija e Hënës dhe e Diellit the sun is her father and the moon is her mother. |
+| e-bija-e-henes-dhe-e-diellit-c04 | exact | en.wikipedia.org | Her victory over the kulshedra symbolises the supremacy of the sky deity over the underworld deity in the dualistic struggle of light and darkness. | Her victory over the kulshedra symbolizes the supremacy of the deity of the sky over that of the underworld in the dualistic struggle between light and darkness. |
+| e-bija-e-henes-dhe-e-diellit-c05 | exact | en.wikipedia.org | In the legends she helps a hero fight a kulshedra, an earthly or chthonic deity or demon from darkness; in Albanian mythology the kulshedra is usually defeated by the drangue, a sky and lightning divine hero. | In the legends she helps a hero in his fight against a kulshedra, an earthly/chthonic deity or demon originating from darkness. In Albanian mythology the kulshedra is usually fought and defeated by the drangue, also seen as a sky and lightning deity or divine hero. |
+| e-bija-e-henes-dhe-e-diellit-c06 | exact | en.wikipedia.org | The legend was also narrated by Albanian writer Mitrush Kuteli in the collection Tregime të moçme shqiptare ("Old Albanian tales"), published in 1965. | The legend of E Bija e Hënës dhe e Diellit has also been narrated by the Albanian writer Mitrush Kuteli in the collection Tregime të moçme shqiptare ("Old Albanian tales"), published in 1965. |
+| e-bija-e-henes-dhe-e-diellit-c07 | exact | sq.wikipedia.org | In the legends she helps a hero to victory over a kuçedra (kulshedra). | Në legjendat ajo ndihmon një hero në fitoren e tij kundër një kuçedre. |
+
+
+## ebajalg — lulus-otomatis
+
+Klaim 6 (exact 6), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| ebajalg-c01 | exact | en.wikipedia.org | Ebajalg (whirlwind) is a being of Estonian mythology, a whirlwind believed to be a malicious spirit or demon, described as very strong and often destructive. | Ebajalg (whirlwind) is a being found in Estonian mythology. It is a whirlwind, believed to be a malicious spirit or demon. They are described as having great strength, often leading to destruction. |
+| ebajalg-c02 | exact | et.wikipedia.org | Tuulispask (also vihur or ebajalg) is the folk name for a strong whirlwind moving over land. | Tuulispask (ka vihur või ebajalg) on rahvapärane nimetus maismaa kohal liikuva tugeva tuulekeerise kohta. |
+| ebajalg-c03 | exact | et.wikipedia.org | In Estonian folk belief the whirlwind was commonly imagined to be caused by the soul of a person (a witch) temporarily out of the body, more rarely the soul of a dead person. | Eesti rahvausundis oli levinud kujutelm, et keeristuult tekitab inimese(nõia) kehast ajutiselt lahkunud hing, harvem surnud inimese hing. |
+| ebajalg-c04 | exact | et.wikipedia.org | The whirlwind could also be a being made or sent by a witch; among the Seto it was the devil, his son or mother; it carried off grain and hay from others' fields, also luck, brought illness and did other harm. | Tuulispask võis olla ka nõia tehtud või saadetud olevus, setudel kurat, selle poeg või ema. Uskumuse järgi viis ta võõrastelt põldudelt ära vilja, heina jms, kuid võis ära viia ka õnne, tuua haigust ja teha muud halba. |
+| ebajalg-c05 | exact | et.wikipedia.org | According to Matthias Johann Eisen, in the south the tuulispask is also called ebajalg; the ebajalg shows great strength, even carrying off haystacks. | Lõuna pool nimetatakse tuulispaska ka ebajalaks. Ebajalg avaldab iseäranis suurt jõudu, viib isegi heinasaod ja -kuhjad kaasa. |
+| ebajalg-c06 | exact | et.wikipedia.org | The whirlwind was warded off magically; a common method was to throw a bladed tool into it, hoping that hitting the soul would also wound the person's body. | Tuulispaska tõrjuti maagiliste võtetega. Sageli kasutatud võte oli visata keerist mõne terariistaga, lootes, et nii hinge tabades saab vigastatud ka vastava isiku keha. |
+
+
+## faronika — lulus-otomatis
+
+Klaim 7 (exact 7), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| faronika-c01 | exact | cs.wikipedia.org | Faronika is a fish or water serpent of Slovene folklore that carries the earth on its back; its movement causes earthquakes, and when it dives the world ends. | Faronika je ryba či vodní had ze slovinského folklóru, která na svých zádech nese zemi. Její pohyb způsobuje zemětřesení a když se potopí nastane konec světa. |
+| faronika-c02 | exact | cs.wikipedia.org | A fish or serpent linked to the cosmic ocean is a common motif of many mythical cosmologies, such as the biblical Leviathan or the Norse Jörmungandr. | Ryba či had spojený s kosmickým oceánem je běžným motivem mnoha mytických kosmologií, příkladem je biblický Leviatan nebo severský Jörmungandr |
+| faronika-c03 | exact | cs.wikipedia.org | Its name derives from the biblical Pharaoh who drowned in the Red Sea and, according to Slovene folk belief, turned into a fish. | Její jméno je odvozeno od biblického faraóna, který utonul v Rudém moři, a podle slovinské lidové víry se změnil v rybu. |
+| faronika-c04 | exact | sl.wikipedia.org | Faronika is a figure of Slovene mythology, a fish-shaped being that carries the world on its back. | Faronika je lik iz slovenske mitologije. Je bitje v obliki ribe, ki na hrbtu nosi svet. |
+| faronika-c05 | exact | cs.wikipedia.org | Slovenes from Zámuří instead know two fish circling the earth in the waters, causing earthquakes when they rub against it or strike it with their tails. | Slovinci ze Zámuří znají naopak ryby dvě, které kolem země krouží na vodách, a když se o ní otřou či ji zasáhnou svým ocasem způsobí zemětřesení. |
+| faronika-c06 | exact | cs.wikipedia.org | The Faronika tale later merged with the legend of Veronika of Mali Grad near Kamnik, turned into half woman, half snake for her greed. | Příběh o Faronice později splynul s pověstí o Veronice z Mali Gradu u Kamniku, která byla kvůli své lakotě proměněna v napůl ženu, napůl hada. |
+| faronika-c07 | exact | sl.wikipedia.org | The fish Faronika, as a mythological being, is said to appear in an Old Slavic, Christian-linked story of the creation of the world, in which at first only God, the Sun and the sea existed. | Riba Faronika, naj bi, kot mitološko bitje, nastopala v s krščanstvom povezani staroslovanski zgodbi o nastanku sveta, v katerem so sprva obstajali le Bog, Sonce in morje. |
+
+
+## gundyr — lulus-otomatis
+
+Klaim 6 (exact 6), sumber 2, gambar 0.
+
+| klaim | status | sumber | pernyataan (en) | kutipan |
+|---|---|---|---|---|
+| gundyr-c01 | exact | ru.wikipedia.org | Gundyr is a many-headed giant of Komi mythology; in Komi-Zyrian and Komi-Permyak folklore he had human form but under Russian folklore influence became a giant serpent or dragon. | Гундыр — образ многоголового великана в мифологии коми. В фольклоре коми-зырян и коми-пермяков Гундыр имел человеческий образ, однако под влиянием русского фольклора превратился в гигантского змея или дракона. |
+| gundyr-c02 | exact | ru.wikipedia.org | Tales disagree on the number of his heads: 3, 6, 9, 12 or even 24 (three, six, nine, twelve, twenty-four). | По сказкам и быличкам нет однозначного ответа о количестве его голов; их может быть 3, 6, 9, 12 или даже 24. |
+| gundyr-c03 | exact | ru.wikipedia.org | His breath is considered pezh, unclean; in tales he lives under water, underground, in or on a mountain, or in the sky, and emerges as a black cloud, black smoke or blue mist. | Дыхание его считается пеж — нечистым. Обитает он в различных быличках под водой, землёй, в горе или на ней, либо на небе. Выходит он из своего укрытия в виде чёрной тучи, чёрного дыма или синего тумана. |
+| gundyr-c04 | exact | ru.wikipedia.org | He is a negative figure in Komi mythology and in fairy tales is always the hero's opponent. | Является отрицательным персонажем в мифологии коми. В сказках выступает всегда как противник главного героя. |
+| gundyr-c05 | exact | ru.wikipedia.org | He is often called master of a lake, sea or mountain; guards magical wealth or an object; devours people and Shondi (the Sun), abducts wives and brides; and is often husband, son or son-in-law of Yoma. | Его часто называли хозяином определённого места: озера, моря, горы. Сюжет сказок часто завязан на том, что он сторожит волшебное богатство или предмет. Пожирает людей, Шонды, похищает чужих жён и невест. Часто сам является мужем, сыном или зятем Йомы. |
+| gundyr-c06 | exact | kv.wikipedia.org | Gundyr is a beast-and-human-like figure with 4, 6, 9 or 12 heads, a tail and iron skin, living under water, on and under the earth, and travelling by horse cart; his role is close to the Russian Zmey Gorynych. | Гундыр – пемӧс да морт кодь персонаж. Сiйӧ: 4, 6, 9, 12 юра, бӧжа, кӧрт кучика, олӧ ва улын, му вылын да му улын, ветлӧ вӧла телегаӧн. ... Функция серти матын роч Змей Горынычлы |
 
