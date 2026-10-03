@@ -1,0 +1,32 @@
+{
+  "note": "Makhluk mitologi yang terlewat oleh build-worklist.mjs karena kelas Wikidata-nya di luar akar yang dipakai (mis. 'legendary figure'). Hanya makhluk mitologi, cerita rakyat, atau agama tradisional; bukan manusia, rasul, nabi, orang suci, atau tokoh sejarah. Jalankan: node scripts/gemini/add-manual.mjs",
+  "items": [
+    {
+      "slug": "ryomen-sukuna",
+      "canonical_name": "Ryōmen Sukuna",
+      "qid": "Q11362694",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "description_en": "character described at Nihon Shoki",
+      "classes": ["legendary figure"],
+      "wiki_links": [
+        { "wiki": "jawiki", "title": "両面宿儺" },
+        { "wiki": "zhwiki", "title": "兩面宿儺" },
+        { "wiki": "rowiki", "title": "Ryōmen Sukuna" },
+        { "wiki": "hywiki", "title": "Ռյոմեն Սուկունա" }
+      ],
+      "hint": "Makhluk dari Nihon Shoki (両面宿儺), bukan tokoh Jujutsu Kaisen. Item Wikidata Q105037685 dan artikel tentang anime/manga Jujutsu Kaisen bukan sumber tradisi; Jujutsu Kaisen hanya boleh masuk ke modern_depictions dengan sumbernya sendiri. Ditambahkan manual 2026-10-03 (kelas Wikidata 'legendary figure' tidak tercakup worklist)."
+    },
+    {
+      "slug": "istervo",
+      "canonical_name": "Istervo",
+      "qid": "Q11865257",
+      "tier": "core",
+      "jenis": "makhluk legenda",
+      "description_en": "Finnish legendary creature",
+      "classes": ["legendary figure"],
+      "wiki_links": [{ "wiki": "fiwiki", "title": "Istervo" }],
+      "hint": "Ditambahkan manual 2026-10-03 (kelas Wikidata 'legendary figure' tidak tercakup worklist)."
+    }
+  ]
+}

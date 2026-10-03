@@ -365,5 +365,6 @@ Beberapa makhluk berbagi nama dengan makhluk lain (misalnya Phoebe sang Titan da
 {"schema": "mythics-entry/1", "batch_id": "<batch_id>", "slug": "<slug>", "task": "new", "skip": {"reason": "<alasan singkat>", "evidence_url": "<halaman yang menunjukkannya>"}}
 ```
 
+- **Mythics hanya memuat makhluk mitologi** (keputusan pemilik proyek, 3 Oktober 2026). Kirim `skip` untuk manusia, walaupun legendaris atau dihormati: rasul, nabi, orang suci, tokoh Alkitab atau kitab suci lain yang berwujud manusia biasa, raja, pahlawan, pendiri agama, dan tokoh sejarah. Raksasa, makhluk gaib, roh, dewa, dan malaikat tetap dikerjakan. Jangan pula mengusulkan atau menambahkan tokoh manusia ke worklist atau `data/gemini/manual-additions.json`.
 - **Jangan memakai `skip` untuk menghindari kerja.** Makhluk yang sumbernya sedikit tetap dikerjakan sebagai entri `core` yang pendek, dengan `gaps` yang jujur.
-- **Malaikat, orang suci, dan dewa dari agama yang masih dianut** ditulis dengan hormat, sebagai bagian dari tradisi keagamaan tersebut (lihat §6). Tuliskan apa yang diyakini dan oleh siapa, bukan pernyataan bahwa hal itu benar atau salah.
+- **Malaikat dan dewa dari agama yang masih dianut** ditulis dengan hormat, sebagai bagian dari tradisi keagamaan tersebut (lihat §6). Tuliskan apa yang diyakini dan oleh siapa, bukan pernyataan bahwa hal itu benar atau salah.
