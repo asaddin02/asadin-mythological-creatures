@@ -27,6 +27,7 @@ async function runCheck() {
   let warnings = 0;
   let sourceLanguageOnly = 0;
   let missingVisuals = 0;
+  let editorialVisuals = 0;
   const identities = new Set();
 
   console.log(`Auditing ${creatures.length} creatures across ${cultures.length} cultures...`);
@@ -85,8 +86,10 @@ async function runCheck() {
     }
 
     // 5. Images attribution
+    if (c.images?.some(img => img.ai_generated)) editorialVisuals++;
+    if (!c.images?.some(img => !img.ai_generated)) missingVisuals++;
     if (!c.images || c.images.length === 0) {
-      missingVisuals++;
+      // Entries may have editorial art without a documentary image.
     } else {
       for (const img of c.images) {
         if (!img.url || !img.license) {
@@ -122,6 +125,7 @@ async function runCheck() {
   console.log(`  - Total Warnings: ${warnings}`);
   console.log(`  - English-source introductions: ${sourceLanguageOnly}`);
   console.log(`  - Without documentary images: ${missingVisuals} (explicit fallback supported)`);
+  console.log(`  - With attached AI editorial illustrations: ${editorialVisuals}`);
 
   if (errors > 0) {
     console.error(`\n❌ Quality check FAILED with ${errors} critical errors.`);

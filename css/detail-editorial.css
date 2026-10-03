@@ -29,13 +29,10 @@
 .detail-save [id="fav-icon"] { font-size:20px; }
 .detail-save[aria-pressed="true"] { color:#e4c386; }
 .detail-illustration { width:100%;max-width:424px;justify-self:center;margin:0;min-width:0; }
-.detail-art-stage { position:relative;isolation:isolate;aspect-ratio:2/3;background:none; }
-.detail-art-stage::before { content:'';position:absolute;inset:13% 12% 8%;background:#100e0b;z-index:-1;border-radius:var(--art-radius); }
-.detail-art-stage .detail-preview { position:absolute;inset:12.5% 12.5% 9%;width:75%;height:78.5%;border-radius:var(--art-radius);overflow:hidden; }
+.detail-art-stage { position:relative;isolation:isolate;aspect-ratio:4/5;background:#191511;border-radius:var(--frame-radius); }
+.detail-art-stage .detail-preview { position:absolute;inset:12px;width:calc(100% - 24px);height:calc(100% - 24px);border-radius:4px;overflow:hidden; }
 .detail-art-stage .detail-primary-img { border:0;width:100%;height:100%;max-height:none;object-fit:cover;object-position:center; }
 .detail-art-stage.power-divine .detail-primary-img { object-position:73% center; }
-.detail-art-stage.power-unknown { border:1px solid #847052;border-radius:6px; }
-.detail-art-stage.power-unknown .detail-preview { inset:13px;width:calc(100% - 26px);height:calc(100% - 26px); }
 .detail-zoom-mark { position:absolute;left:50%;bottom:17px;transform:translateX(-50%);border:1px solid #c5b18c88;background:#15110bda;border-radius:24px;display:flex;gap:8px;align-items:center;padding:9px 13px;color:#ebdbc0;font-size:11px; }
 .detail-art-tools { display:flex;gap:10px;padding:13px 10px 0; }
 .detail-art-tools button { flex:1;display:flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px;background:#211a12;border:1px solid #856b4366;border-radius:4px;color:#d9c5a0;font:11px var(--font-body);cursor:pointer; }

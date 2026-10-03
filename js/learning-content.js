@@ -320,8 +320,8 @@ export const lessons = [
       {
         title: L("Tentang visual dan atribusi", "Visuals and attribution"),
         text: L(
-          "Enam ilustrasi editorial, termasuk Garuda, Kitsune, Jörmungandr, dan Barong, dibuat dengan AI untuk pengalaman membaca. Visual tersebut bukan artefak atau rekonstruksi ilmiah. Gambar dokumenter, jika tersedia, mengikuti keterangan sumber dan lisensinya masing-masing. Jangan menganggap semua gambar dalam arsip bebas dipakai; periksa atribusi dan ketentuan sumber sebelum menggunakannya kembali.",
-          "Six editorial illustrations, including Garuda, Kitsune, Jörmungandr, and Barong, were generated with AI for the reading experience. They are not artifacts or scholarly reconstructions. Documentary images, where available, carry their own sources and licenses. Do not assume every image is free to reuse; check attribution and source terms first.",
+          "Ilustrasi editorial, termasuk Garuda, Kitsune, Jörmungandr, dan Barong, dibuat dengan AI untuk pengalaman membaca. Visual tersebut bukan artefak atau rekonstruksi ilmiah. Gambar dokumenter, jika tersedia, mengikuti keterangan sumber dan lisensinya masing-masing. Jangan menganggap semua gambar dalam arsip bebas dipakai; periksa atribusi dan ketentuan sumber sebelum menggunakannya kembali.",
+          "Editorial illustrations, including Garuda, Kitsune, Jörmungandr, and Barong, were generated with AI for the reading experience. They are not artifacts or scholarly reconstructions. Documentary images, where available, carry their own sources and licenses. Do not assume every image is free to reuse; check attribution and source terms first.",
         ),
       },
       {

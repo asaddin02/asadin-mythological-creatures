@@ -1,4 +1,5 @@
 import { getLanguage } from "./i18n.js";
+import { EDITORIAL_ART } from "./editorial-art.js";
 export const bi = (id, en) => (getLanguage() === "en" ? en : id);
 export const escapeHtml = (value) =>
   String(value ?? "").replace(
@@ -10,6 +11,7 @@ export const escapeHtml = (value) =>
   );
 export const icon = (name, size = 20) => {
   const paths = {
+    crown: '<path d="M4 17 2 6l6 5 4-8 4 8 6-5-2 11ZM5 21h14M4 17h16"/><path d="M8 17v-3m8 3v-3"/>',
     download: '<path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/>',
     zoom: '<circle cx="10" cy="10" r="7"/><path d="m15 15 6 6M10 7v6m-3-3h6"/>',
     search: '<circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/>',
@@ -26,6 +28,4 @@ export const icon = (name, size = 20) => {
   return `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[name] || paths.spark}</svg>`;
 };
 export const editorialArt = (slug) =>
-  ["garuda", "kitsune", "jormungandr", "barong", "kuntilanak", "genderuwo"].includes(slug)
-    ? `/assets/art/${slug}-editorial.webp`
-    : null;
+  Object.hasOwn(EDITORIAL_ART, slug) ? EDITORIAL_ART[slug] : null;

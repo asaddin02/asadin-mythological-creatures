@@ -11,7 +11,7 @@ import { renderCreatureCard } from './creature-card.js';
 
 export async function renderExploreView(container, initialParams = {}) {
   container.innerHTML = `
-    <div class="container" style="padding: 2.5rem 1.5rem 5rem;">
+    <div class="container browse-page archive-browser">
       <div class="section-header">
         <span class="section-badge">THE LIVING BESTIARY</span>
         <h1 class="section-title">${t('explore.title')}</h1>
@@ -36,7 +36,7 @@ export async function renderExploreView(container, initialParams = {}) {
         </div>
 
         <div class="scaling-filter-row">${Object.entries(SCALES).map(([axis, levels]) => `<label><span>${axis.toUpperCase()}</span><select class="filter-select" id="filter-${axis}"><option value="all">${bi('Semua kelas', 'All classes')}</option>${levels.map(level => `<option value="${level.id}">${axis === 'power' ? '' : level.id.toUpperCase() + ' · '}${level.name}</option>`).join('')}<option value="unassessed">${bi('Belum dinilai', 'Unassessed')}</option></select></label>`).join('')}</div>
-        <div class="filters-row">
+        <details class="filter-disclosure"><summary>${bi('Filter budaya, habitat & urutan', 'Culture, habitat & sorting')}</summary><div class="filters-row">
           <!-- Culture Filter -->
           <select id="filter-culture" aria-label="Tradisi budaya / Culture" class="filter-select">
             <option value="all">${t('explore.allCultures')}</option>
@@ -82,6 +82,7 @@ export async function renderExploreView(container, initialParams = {}) {
           </select>
         </div>
 
+        </details>
         <div class="filter-status-strip">
           <span id="explore-results-count" role="status">Memuat data...</span>
           <button class="btn-ghost" id="btn-clear-filters" style="font-size: 0.85rem; padding: 0.25rem 0.5rem;">
@@ -102,6 +103,8 @@ export async function renderExploreView(container, initialParams = {}) {
     const overview = container.querySelector('#library-overview');
     if (overview) overview.innerHTML = `<strong>${stats.total.toLocaleString()} ${bi('entri siap dijelajahi', 'entries to explore')}</strong><span>${stats.detailed} ${bi('materi mendalam','detailed entries')} · ${stats.introductory.toLocaleString()} ${bi('pengantar bersumber','sourced introductions')} · ${stats.cultures} ${bi('kelompok budaya','cultural groups')}</span><small>${bi('Sebagian pengantar tersedia dalam bahasa Inggris. Kedalaman materi dan ketersediaan visual berbeda pada setiap entri.','Some introductions are available in English. Content depth and visual coverage vary by entry.')}</small>`;
   }).catch(() => {});
+  if (['culture','classification','type','element','habitat','tier','sort'].some(key => initialParams[key] && initialParams[key] !== 'all')) container.querySelector('.filter-disclosure').open = true;
+
   // Populate culture and category dropdowns
   const cultureSelect = container.querySelector('#filter-culture');
   const categorySelect = container.querySelector('#filter-category');
@@ -154,6 +157,7 @@ export async function renderExploreView(container, initialParams = {}) {
   // Ignore stale responses when filters change rapidly.
   let requestVersion = 0;
   async function loadResults(page = 1) {
+    if (!container.isConnected) return;
     const request = ++requestVersion;
     const params = {
       ...Object.fromEntries(scaleSelects.map(([axis, select]) => [axis, select.value])),
@@ -202,22 +206,14 @@ export async function renderExploreView(container, initialParams = {}) {
 
       grid.innerHTML = data.creatures.map(c => renderCreatureCard(c)).join('');
 
-      // Attach card click handlers
-      grid.querySelectorAll('.creature-card').forEach(card => {
-        card.addEventListener('click', (e) => {
-          e.preventDefault();
-          const slug = card.getAttribute('data-slug');
-          if (slug) window.location.hash = `#/creature/${slug}`;
-        });
-      });
-
       // Pagination
       renderPagination(data.pagination);
 
     } catch (err) {
       if (request !== requestVersion || !grid.isConnected) return;
       grid.setAttribute('aria-busy', 'false');
-      grid.innerHTML = `<div style="grid-column: 1 / -1; color: var(--accent-crimson); text-align: center;">Gagal memuat arsip: ${escapeHtml(err.message)}</div>`;
+      grid.innerHTML = `<div class="archive-load-error" role="status"><p>${bi('Arsip belum dapat dimuat. Periksa koneksi lalu coba lagi.', 'The archive could not be loaded. Check your connection and try again.')}</p><button class="btn btn-secondary" id="explore-retry">${bi('Coba lagi','Try again')}</button></div>`;
+      grid.querySelector('#explore-retry').onclick = () => loadResults(page);
     }
   }
 

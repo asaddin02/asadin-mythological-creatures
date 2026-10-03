@@ -40,10 +40,12 @@ export function openRandomEncounterModal(preferredCulture = null) {
   `;
 
   const previousFocus = document.activeElement;
+  let request = 0;
   const previousOverflow = document.body.style.overflow;
   document.body.style.overflow = 'hidden';
   modalEl.classList.add('open');
   const close = () => {
+    request++;
     modalEl.classList.remove('open');
     document.body.style.overflow = previousOverflow;
     modalEl.onkeydown = null;
@@ -70,6 +72,8 @@ export function openRandomEncounterModal(preferredCulture = null) {
   fetchAndDisplay(preferredCulture);
 
   async function fetchAndDisplay(culture) {
+    const ticket = ++request;
+    againBtn.disabled = true;
     const slot = modalEl.querySelector('#random-encounter-card-slot');
     const inspectBtn = modalEl.querySelector('#random-inspect-btn');
     inspectBtn.style.display = 'none';
@@ -85,6 +89,7 @@ export function openRandomEncounterModal(preferredCulture = null) {
     try {
       const filters = culture ? { culture } : {};
       const creature = await api.getRandom(filters);
+      if (ticket !== request) return;
 
       // Track encounter in bestiary journal
       gamification.markDiscovered(creature.slug, creature);
@@ -124,11 +129,14 @@ export function openRandomEncounterModal(preferredCulture = null) {
       inspectBtn.onclick = inspect;
       slot.querySelector('#random-art-detail').onclick = inspect;
     } catch (err) {
+      if (ticket !== request) return;
       slot.innerHTML = `
         <div style="text-align: center; color: var(--text-muted);">
           Gagal memanggil entitas. Silakan coba kembali.
         </div>
       `;
+    } finally {
+      if (ticket === request) againBtn.disabled = false;
     }
   }
 }

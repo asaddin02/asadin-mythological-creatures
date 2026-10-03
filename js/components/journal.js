@@ -1,3 +1,4 @@
+import { bi, icon } from '../ui.js';
 /**
  * Bestiary Journal Component
  * Personal explorer dashboard tracking discovered entities and favorited creatures.
@@ -15,10 +16,10 @@ export async function renderJournalView(container) {
   const favoriteSlugs = gamification.getFavorites();
 
   container.innerHTML = `
-    <div class="container" style="padding: 2.5rem 1.5rem 5rem;">
+    <div class="container browse-page">
       <div class="section-header">
-        <span class="section-badge">${t('journal.title')}</span>
-        <h1 class="section-title">${t('journal.title')}</h1>
+        <span class="section-badge">MYTHICS / ${bi('JURNAL SAYA','MY JOURNAL')}</span>
+        <h1 class="section-title">${bi('Setiap penemuan,<br>bagian dari perjalanan.','Every discovery,<br>part of your journey.')}</h1>
         <p class="section-subtitle">${t('journal.subtitle')}</p>
       </div>
 
@@ -26,13 +27,13 @@ export async function renderJournalView(container) {
       <div class="journal-stats-banner">
         <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem;">
           <div>
-            <div style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;">Tingkat Eksplorasi Arsip</div>
+            <div style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;">${bi('Jejak penjelajahanmu','Your exploration trail')}</div>
             <div style="font-family: var(--font-display); font-size: 2.2rem; font-weight: 700; color: var(--gold-500);">
-              ${stats.discoveredCount} Entitas Terbuka (${stats.percentage}%)
+              ${stats.discoveredCount} <small>${bi('legenda ditemukan','legends discovered')}</small>
             </div>
           </div>
           <div style="font-size: 0.95rem; color: var(--text-secondary);">
-            ⭐ <strong>${stats.favoritesCount}</strong> makhluk tersimpan di koleksi favorit
+            ${icon('bookmark',16)} <strong>${stats.favoritesCount}</strong> ${bi('tersimpan di jurnal','saved in your journal')} · ${stats.percentage}% ${bi('arsip dijelajahi','of the archive explored')}
           </div>
         </div>
         <div class="journal-progress-bar">
@@ -47,10 +48,10 @@ export async function renderJournalView(container) {
       <div class="achievements-grid">
         ${achievements.map(ach => `
           <div class="achievement-card ${ach.unlocked ? 'unlocked' : ''}">
-            <div class="achievement-icon">${ach.icon}</div>
+            <div class="achievement-icon">${icon(({'first-encounter':'book','nusantara-explorer':'globe','dragon-hunter':'spark','spirit-whisperer':'sun','master-archivist':'compass'})[ach.id],24)}</div>
             <div>
               <div class="achievement-title">
-                ${resolveLocalized(ach.title)} ${ach.unlocked ? '✓' : '🔒'}
+                ${resolveLocalized(ach.title)} <span class="achievement-state">${ach.unlocked ? '✓ '+bi('Terbuka','Unlocked') : bi('Terkunci','Locked')}</span>
               </div>
               <div class="achievement-desc">${resolveLocalized(ach.desc)}</div>
             </div>
@@ -60,10 +61,10 @@ export async function renderJournalView(container) {
 
       <!-- Favorites Grid -->
       <h2 style="font-family: var(--font-display); font-size: 1.5rem; margin-top: 3.5rem; margin-bottom: 1.25rem;">
-        Koleksi Makhluk Favorit (${favoriteSlugs.length})
+        ${bi('Koleksi pribadimu','Your personal collection')} <small>(${favoriteSlugs.length})</small>
       </h2>
       <div id="journal-favorites-slot">
-        <div style="color: var(--text-muted); text-align: center; padding: 2rem;">Memuat koleksi favorit...</div>
+        <div style="color: var(--text-muted); text-align: center; padding: 2rem;">${bi('Menyiapkan koleksimu…','Preparing your collection…')}</div>
       </div>
     </div>
   `;
@@ -73,9 +74,9 @@ export async function renderJournalView(container) {
   if (favoriteSlugs.length === 0) {
     favSlot.innerHTML = `
       <div style="padding: 3rem 1.5rem; text-align: center; background: var(--bg-card); border-radius: var(--radius-lg); border: 1px dashed var(--border-medium); color: var(--text-secondary);">
-        <div style="font-size: 2rem; margin-bottom: 0.5rem;">⭐</div>
+        <div class="journal-empty-mark">${icon('bookmark',34)}</div>
         <p>${t('journal.emptyFavorites')}</p>
-        <a href="#/explore" class="btn btn-secondary" style="margin-top: 1rem;">Jelajahi dan Temukan Makhluk</a>
+        <a href="#/explore" class="btn btn-secondary" style="margin-top: 1rem;">${bi('Temukan legenda pertamamu','Find your first legend')}</a>
       </div>
     `;
     return;

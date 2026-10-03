@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="color-scheme" content="dark">
-  <meta name="theme-color" content="#100c09">
+  <meta name="theme-color" content="#160f09">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mythics — Ensiklopedia Makhluk Mitologi & Folklor Dunia</title>
   <meta name="description" content="Mythics adalah ensiklopedia digital dwibahasa untuk mengeksplorasi makhluk mitologi, arwah legenda, naga purba, dan entitas supernatural dari seluruh peradaban dunia dengan rujukan sumber dan konteks budaya.">
@@ -28,6 +28,7 @@
 
   <!-- Local typefaces: no external font request. -->
   <link rel="preload" href="/assets/fonts/cinzel-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/cormorant-garamond-roman-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/css/fonts.css">
 
@@ -41,6 +42,8 @@
   <link rel="stylesheet" href="/css/tier-frames.css">
   <link rel="stylesheet" href="/css/gallery.css">
   <link rel="stylesheet" href="/css/detail-editorial.css">
+  <link rel="stylesheet" href="/css/archive.css">
+  <link rel="stylesheet" href="/css/support.css">
 </head>
 <body>
   <a class="skip-link" href="#app">Langsung ke konten / Skip to content</a>
@@ -50,9 +53,15 @@
   <!-- Dynamic Application Main Container -->
   <main id="app" role="main" tabindex="-1">
     <div class="container" style="padding: 6rem 1.5rem; text-align: center;">
-      <div style="font-family: 'Cinzel', serif; font-size: 1.5rem; color: #d4af37; letter-spacing: 0.15em;">
+      <div id="app-boot-loading" style="font-family: 'Cinzel', serif; font-size: 1.5rem; color: #c6aa76; letter-spacing: 0.15em;">
         ✦ MEMBUKA GERBANG ARSIP KOSMIS... ✦
       </div>
+      <div id="app-boot-error" hidden role="alert">
+        <h1>Arsip belum dapat dibuka.</h1>
+        <p>Periksa koneksi lalu coba lagi. / Check your connection and try again.</p>
+        <button type="button" class="btn btn-primary" onclick="location.reload()">Coba lagi / Try again</button>
+      </div>
+      <noscript>Aktifkan JavaScript untuk menjelajahi Mythics. / Enable JavaScript to explore Mythics.</noscript>
     </div>
   </main>
 
@@ -60,6 +69,6 @@
   <div id="footer-root"></div>
 
   <!-- Application Script -->
-  <script type="module" src="/js/app.js"></script>
+  <script type="module" src="/js/app.js" onerror="document.getElementById('app-boot-error').hidden=false;document.getElementById('app-boot-loading').hidden=true;"></script>
 </body>
 </html>

@@ -1,3 +1,4 @@
+import { mountDossier } from './dossier.js';
 import { artwork, previewAttributes, downloadAttributes } from './image-viewer.js';
 import { renderGildedFrame } from './gilded-frame.js';
 /**
@@ -106,7 +107,7 @@ export async function renderCreatureDetail(container, slug) {
           <div class="detail-reading-layout">
             <aside class="detail-reading-rail"><div class="detail-rail-inner"><span class="eyebrow">${bi('DI DALAM ARSIP','IN THIS ARCHIVE')}</span><nav class="detail-toc" aria-label="${bi('Daftar isi','On this page')}"><button data-scroll="detail-lore"><span>01</span>${bi('Kisah & asal-usul','Story & origins')}</button><button data-scroll="detail-scaling"><span>02</span>${bi('Kelas & kekuatan','Classes & powers')}</button><button data-scroll="detail-study"><span>03</span>${bi('Catatan pembaca','Reader’s notes')}</button>${creature.sources?.length ? `<button data-scroll="detail-sources"><span>04</span>${bi('Sumber bacaan','Reading sources')}</button>` : ''}</nav><p>${bi('Setiap legenda hidup dalam banyak versi. Baca bersama tradisi dan sumbernya.','Every legend lives in many versions. Read it with its traditions and sources.')}</p><span class="detail-curation-note">${escapeHtml(tierLabel)}</span></div></aside>
             <article class="detail-reading-content">
-              <section class="detail-summary-section"><div class="eyebrow">${bi('SEKILAS TENTANGNYA','AT A GLANCE')}</div><h2>${bi('Mengenal','Meet')} ${escapeHtml(displayName)}</h2>
+              <section class="detail-summary-section" data-topic="overview"><div class="eyebrow">${bi('SEKILAS TENTANGNYA','AT A GLANCE')}</div><h2>${bi('Mengenal','Meet')} ${escapeHtml(displayName)}</h2>
           <!-- Story Mode (TL;DR Cards) -->
           <div id="story-mode-container" class="story-mode-grid">
             <div class="story-card">
@@ -191,10 +192,10 @@ export async function renderCreatureDetail(container, slug) {
             </div>
           ` : ''}
 
-          <section class="detail-section-block" id="detail-study"><div class="study-notes"><div><span class="eyebrow">${bi('CATATAN PEMBACA','READER’S NOTES')}</span><h3>${bi('Membaca dengan konteks','Read with context')}</h3><p>${resolveLocalized(creature.learning_notes?.context, bi('Baca rincian kisah bersama tempat, masa, dan sumber yang mencatatnya. Variasi antarpenutur tidak selalu merupakan pertentangan.','Read story details with their place, period, and source. Differences between narrators are not necessarily contradictions.'))}</p><a class="text-link" href="#/learn?module=reading">${bi('Panduan membaca sumber','A guide to reading sources')} →</a></div><div><h3>${bi('Pertanyaan untuk ditelusuri','Questions to explore')}</h3><ul>${(creature.learning_notes?.questions || [{id:'Bagian mana yang berasal dari tradisi, dan mana yang merupakan interpretasi modern?',en:'Which details come from tradition, and which are modern interpretations?'}]).map(q=>`<li>${resolveLocalized(q)}</li>`).join('')}</ul><p style="margin-top:14px;font-size:11px">${bi('Pertanyaan reflektif editorial; bukan tambahan klaim sejarah.','Editorial reflection prompts; not additional historical claims.')}</p></div></div></section>
+          <section class="detail-section-block" data-topic="culture" id="detail-study"><div class="study-notes"><div><span class="eyebrow">${bi('CATATAN PEMBACA','READER’S NOTES')}</span><h3>${bi('Membaca dengan konteks','Read with context')}</h3><p>${resolveLocalized(creature.learning_notes?.context, bi('Baca rincian kisah bersama tempat, masa, dan sumber yang mencatatnya. Variasi antarpenutur tidak selalu merupakan pertentangan.','Read story details with their place, period, and source. Differences between narrators are not necessarily contradictions.'))}</p><a class="text-link" href="#/learn?module=reading">${bi('Panduan membaca sumber','A guide to reading sources')} →</a></div><div><h3>${bi('Pertanyaan untuk ditelusuri','Questions to explore')}</h3><ul>${(creature.learning_notes?.questions || [{id:'Bagian mana yang berasal dari tradisi, dan mana yang merupakan interpretasi modern?',en:'Which details come from tradition, and which are modern interpretations?'}]).map(q=>`<li>${resolveLocalized(q)}</li>`).join('')}</ul><p style="margin-top:14px;font-size:11px">${bi('Pertanyaan reflektif editorial; bukan tambahan klaim sejarah.','Editorial reflection prompts; not additional historical claims.')}</p></div></div></section>
           <!-- Cultural Context & Sacred Nuance Block -->
           ${culturalContext ? `
-            <div class="detail-section-block">
+            <div class="detail-section-block" data-topic="culture">
               <h2 class="detail-block-title">
                 <span>🏛️</span>
                 <span>${t('detail.culturalContext')}</span>
@@ -207,7 +208,7 @@ export async function renderCreatureDetail(container, slug) {
 
           <!-- Ability Matrix Panel -->
           ${abilityMatrix && abilityMatrix.length > 0 ? `
-            <div class="detail-section-block">
+            <div class="detail-section-block" data-topic="power">
               <h2 class="detail-block-title">
                 <span>📊</span>
                 <span>${t('detail.abilityMatrix')}</span>
@@ -243,7 +244,7 @@ export async function renderCreatureDetail(container, slug) {
 
           <!-- Documented Abilities Section -->
           ${creature.documented_abilities && creature.documented_abilities.length > 0 ? `
-            <div class="detail-section-block">
+            <div class="detail-section-block" data-topic="power">
               <h2 class="detail-block-title">
                 <span>⚡</span>
                 <span>${t('detail.abilities')}</span>
@@ -265,7 +266,7 @@ export async function renderCreatureDetail(container, slug) {
 
           <!-- Weaknesses & Constraints -->
           ${weaknesses && weaknesses.length > 0 ? `
-            <div class="detail-section-block">
+            <div class="detail-section-block" data-topic="power">
               <h2 class="detail-block-title">
                 <span>🛡️</span>
                 <span>${t('detail.weaknesses')}</span>
@@ -289,7 +290,7 @@ export async function renderCreatureDetail(container, slug) {
 
           ${renderAssessmentPanel(creature)}
           <!-- Mythics Power Profile Panel -->
-          <div class="detail-section-block">
+          <div class="detail-section-block" data-topic="power">
             <h2 class="detail-block-title">
               <span>🔮</span>
               <span>${t('detail.powerProfile')}</span>
@@ -325,7 +326,7 @@ export async function renderCreatureDetail(container, slug) {
 
           <!-- Historical Timeline & Earliest Attestation -->
           ${timeline && timeline.length > 0 ? `
-            <div class="detail-section-block">
+            <div class="detail-section-block" data-topic="culture">
               <h2 class="detail-block-title">
                 <span>⏳</span>
                 <span>${t('detail.historicalTimeline')}</span>
@@ -350,7 +351,7 @@ export async function renderCreatureDetail(container, slug) {
 
           <!-- Tradition vs Pop Culture -->
           ${popContrast ? `
-            <div class="detail-section-block">
+            <div class="detail-section-block" data-topic="culture">
               <h2 class="detail-block-title">
                 <span>🎭</span>
                 <span>${t('detail.popCulture')}</span>
@@ -397,7 +398,7 @@ export async function renderCreatureDetail(container, slug) {
 
           <!-- Associated Stories & Sacred Places -->
           ${stories && stories.length > 0 ? `
-            <div class="detail-section-block">
+            <div class="detail-section-block" data-topic="lore">
               <h2 class="detail-block-title">
                 <span>📖</span>
                 <span>${t('detail.associatedStories')}</span>
@@ -435,7 +436,7 @@ export async function renderCreatureDetail(container, slug) {
 
           <!-- Traditional & Regional Variants -->
           ${variants && variants.length > 0 ? `
-            <div class="detail-section-block">
+            <div class="detail-section-block" data-topic="culture">
               <h2 class="detail-block-title">
                 <span>🗺️</span>
                 <span>${t('detail.variants')}</span>
@@ -454,7 +455,7 @@ export async function renderCreatureDetail(container, slug) {
           ` : ''}
 
           <!-- Semantic Relationship Graph -->
-          <div class="detail-section-block">
+          <div class="detail-section-block" data-topic="relations">
             <h2 class="detail-block-title">
               <span>🕸️</span>
               <span>${t('detail.relationshipGraph')}</span>
@@ -464,7 +465,7 @@ export async function renderCreatureDetail(container, slug) {
 
           <!-- Related Beings -->
           ${creature.resolved_related && creature.resolved_related.length > 0 ? `
-            <div class="detail-section-block">
+            <div class="detail-section-block" data-topic="relations">
               <h2 class="detail-block-title">
                 <span>👥</span>
                 <span>${t('detail.related')}</span>
@@ -477,7 +478,7 @@ export async function renderCreatureDetail(container, slug) {
 
           <!-- Claim-Level Provenance & Source Hierarchy -->
           ${claims && claims.length > 0 ? `
-            <div class="detail-section-block">
+            <div class="detail-section-block" data-topic="sources">
               <h2 class="detail-block-title">
                 <span>🔍</span>
                 <span>${t('detail.claimsProvenance')}</span>
@@ -521,7 +522,7 @@ export async function renderCreatureDetail(container, slug) {
 
           <!-- Sources & Bibliographic Provenance -->
           ${creature.sources && creature.sources.length > 0 ? `
-            <div class="detail-section-block" id="detail-sources">
+            <div class="detail-section-block" data-topic="sources" id="detail-sources">
               <h2 class="detail-block-title">
                 <span>📚</span>
                 <span>${t('detail.sources')}</span>
@@ -549,7 +550,14 @@ export async function renderCreatureDetail(container, slug) {
       </div>
     `;
 
-    container.querySelectorAll('[data-scroll]').forEach(button => button.addEventListener('click', () => { const target = container.querySelector('#' + button.dataset.scroll); if (!target) return; target.setAttribute('tabindex', '-1'); target.focus({preventScroll:true}); target.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' }); }));
+    const sources = container.querySelector('#detail-sources');
+    const firstSourceBlock = container.querySelector('[data-topic="sources"]');
+    if (sources && firstSourceBlock !== sources) firstSourceBlock.before(sources);
+    const assessment = container.querySelector('#detail-scaling');
+    assessment.dataset.topic = 'power';
+    const firstPowerBlock = container.querySelector('[data-topic="power"]');
+    if (firstPowerBlock !== assessment) firstPowerBlock.before(assessment);
+    mountDossier(container, creature.slug);
     // Mount Relationship Graph asynchronously into the container
     const graphMount = container.querySelector('#relationship-graph-mount');
     if (graphMount) {

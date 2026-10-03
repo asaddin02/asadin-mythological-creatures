@@ -124,6 +124,26 @@ async function runTests() {
       if (img.url.startsWith('/assets/')) await readFile(new URL('..' + img.url, import.meta.url));
     }
   }
+  const { EDITORIAL_ART } = await import('../js/editorial-art.js');
+  const artManifest = JSON.parse(await readFile(new URL('../assets/art/verified-manifest.json', import.meta.url), 'utf8'));
+  const { createHash } = await import('node:crypto');
+  const artHashes = new Set();
+  for (const [slug, art] of Object.entries(artManifest.artworks)) {
+    const creature = records.find(c => c.slug === slug);
+    assert(creature, `Artwork must belong to a creature: ${slug}`);
+    assert.equal(art.creature_id, creature.id, `Artwork ID must match ${slug}`);
+    assert.equal(art.canonical_name, creature.canonical_name);
+    assert.equal(EDITORIAL_ART[slug], art.url, `Cards and dossiers must use the registered artwork: ${slug}`);
+    const image = creature.images.find(i => i.url === art.url);
+    assert(image?.ai_generated && image.is_primary, `Artwork must be labeled and attached to ${slug}`);
+    assert.equal(image.creature_slug, slug, 'Artwork must not be attached to another creature');
+    const review = JSON.parse(await readFile(new URL('../' + art.review_path, import.meta.url), 'utf8'));
+    assert(review.entries.some(e => e.slug === slug && e.verdict === 'lulus-otomatis'), `Artwork requires a passing review: ${slug}`);
+    const file = await readFile(new URL('..' + art.url, import.meta.url));
+    const hash = createHash('sha256').update(file).digest('hex');
+    assert(!artHashes.has(hash), `Distinct creatures must not reuse identical artwork: ${slug}`);
+    artHashes.add(hash);
+  }
   const imported = records.filter(c => c.import_method === 'wikipedia-category-library');
   if (imported.length) {
     const { getCreatureIndex, getLibraryStats } = await import('../server/db.mjs');
@@ -148,4 +168,3 @@ runTests().catch(err => {
   console.error('\n❌ Test suite failure:', err);
   process.exit(1);
 });
-

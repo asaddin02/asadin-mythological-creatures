@@ -1,73 +1,14 @@
-/**
- * RegionsView Component
- * Curatorial overview of the world's mythological and folkloric macro-regions.
- */
-
 import { api } from '../api-client.js';
-import { t, resolveLocalized } from '../i18n.js';
-
+import { t, resolveLocalized as tr } from '../i18n.js';
+import { bi, escapeHtml as esc, icon } from '../ui.js';
 export async function renderRegionsView(container) {
-  container.innerHTML = `
-    <div class="container" style="padding: 2.5rem 1.5rem 5rem;">
-      <div class="section-header">
-        <span class="section-badge">${t('nav.regions')}</span>
-        <h1 class="section-title">${t('regions.title')}</h1>
-        <p class="section-subtitle">${t('regions.subtitle')}</p>
-      </div>
-
-      <div id="regions-grid-slot" class="culture-grid">
-        <div style="grid-column: 1 / -1; text-align: center; color: var(--gold-500); padding: 3rem;">
-          ✦ MEMUAT KAWASAN MAKRO-REGIONAL DUNIA... ✦
-        </div>
-      </div>
-    </div>
-  `;
-
-  const slot = container.querySelector('#regions-grid-slot');
-
+  container.innerHTML=`<div class="container browse-page"><header class="section-header"><span class="eyebrow">MYTHICS / ${bi('ATLAS DUNIA','WORLD ATLAS')}</span><h1 class="section-title">${bi('Legenda tak mengenal<br>batas dunia.','Legends know<br>no borders.')}</h1><p class="section-subtitle">${t('regions.subtitle')}</p></header><div id="regions-grid-slot" class="culture-grid"></div></div>`;
+  const slot=container.querySelector('#regions-grid-slot');
   try {
-    const regions = await api.getRegions();
-    if (!regions || regions.length === 0) {
-      slot.innerHTML = `<div style="grid-column: 1 / -1; text-align: center; color: var(--text-muted);">Belum ada data wilayah yang tersedia.</div>`;
-      return;
-    }
-
-    slot.innerHTML = regions.map(reg => {
-      const name = resolveLocalized(reg.name);
-      const desc = resolveLocalized(reg.description);
-      const cultureList = reg.cultures || [];
-
-      return `
-        <div class="culture-card region-card" data-region="${reg.id}">
-          <div class="culture-card-header">
-            <h3 class="culture-name">${name}</h3>
-            <span class="culture-count-pill">${cultureList.length} tradisi</span>
-          </div>
-          <p class="culture-desc" style="margin-bottom: 1.25rem;">${desc}</p>
-          
-          <div style="margin-bottom: 1.25rem;">
-            <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); font-weight: 600; margin-bottom: 0.4rem; letter-spacing: 0.05em;">
-              Tradisi Tercakup:
-            </div>
-            <div style="display: flex; flex-wrap: wrap; gap: 0.35rem;">
-              ${cultureList.map(cId => `
-                <a href="#/culture/${cId}" class="badge badge-culture" style="text-decoration: none; font-size: 0.75rem;">
-                  ${cId.replace(/-/g, ' ')}
-                </a>
-              `).join('')}
-            </div>
-          </div>
-
-          <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--border-subtle);">
-            <a href="#/explore?region=${encodeURIComponent(reg.id)}" class="btn btn-secondary btn-sm" style="width: 100%; text-align: center; justify-content: center;">
-              Jelajahi Entitas ${name} →
-            </a>
-          </div>
-        </div>
-      `;
-    }).join('');
-
-  } catch (err) {
-    slot.innerHTML = `<div style="grid-column: 1 / -1; color: var(--accent-crimson);">Gagal memuat kawasan regional: ${err.message}</div>`;
+    const regions=await api.getRegions();
+    slot.innerHTML=regions.map((r,i)=>`<article class="culture-card region-card" data-region="${esc(r.id)}"><div class="region-number"><span>${String(i+1).padStart(2,'0')}</span>${icon('globe',44)}</div><div class="culture-card-header"><h2 class="culture-name">${esc(tr(r.name))}</h2><span class="culture-count-pill">${r.cultures?.length||0} ${bi('tradisi','traditions')}</span></div><p class="culture-desc">${esc(tr(r.description))}</p><details class="region-index"><summary>${bi('Lihat tradisi dalam kawasan','View traditions in this region')} <span>+</span></summary><div class="region-traditions">${(r.cultures||[]).map(id=>`<a href="#/culture/${encodeURIComponent(id)}">${esc(id.replace(/-/g,' '))}</a>`).join('')}</div></details><div class="directory-card-footer"><a href="#/explore?region=${encodeURIComponent(r.id)}">${bi('Jelajahi kawasan ini','Explore this region')} ${icon('arrow',16)}</a></div></article>`).join('')||`<p class="directory-empty">${bi('Belum ada kawasan yang tersedia.','No regions are available yet.')}</p>`;
+  } catch {
+    slot.innerHTML=`<div class="directory-empty"><p>${bi('Atlas belum dapat dimuat.','The atlas could not be loaded.')}</p><button class="btn btn-secondary">${bi('Coba lagi','Try again')}</button></div>`;
+    slot.querySelector('button').onclick=()=>renderRegionsView(container);
   }
 }

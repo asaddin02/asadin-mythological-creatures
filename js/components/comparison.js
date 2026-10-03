@@ -6,7 +6,7 @@ import { SCALES, getAssessment, getLevel } from '../scaling.js';
 
 export async function renderComparisonView(container, initialSlugA = 'garuda', initialSlugB = 'kitsune') {
   container.innerHTML = `<div class="container comparison-view"><header class="section-header"><span class="eyebrow">MYTHICS / ${bi('DUA LEGENDA','TWO LEGENDS')}</span><h1 class="section-title">${bi('Sandingkan kekuatannya.', 'Their powers, side by side.')}</h1><p class="section-subtitle">${bi('Pilih dua makhluk. Telusuri perbedaan kekuatan, ancaman, dan kengerian dalam kisahnya.','Choose two beings. Explore the power, threat, and fear within their stories.')}</p></header>
-    <form class="compare-controls"><div class="compare-picker"><label for="compare-search-a">${bi('Legenda pertama','First legend')}</label><input id="compare-search-a" type="search" placeholder="${bi('Cari nama makhluk…','Search beings…')}" autocomplete="off"><select id="compare-select-a" class="filter-select" aria-label="${bi('Pilih legenda pertama','Choose first legend')}" disabled></select></div><span class="compare-divider" aria-hidden="true">&</span><div class="compare-picker"><label for="compare-search-b">${bi('Legenda kedua','Second legend')}</label><input id="compare-search-b" type="search" placeholder="${bi('Cari nama makhluk…','Search beings…')}" autocomplete="off"><select id="compare-select-b" class="filter-select" aria-label="${bi('Pilih legenda kedua','Choose second legend')}" disabled></select></div><button class="btn btn-primary" id="btn-run-compare" disabled>${bi('Bandingkan','Compare')}</button></form><p class="compare-status" role="status"></p><div id="comparison-result-slot" aria-busy="true"></div></div>`;
+    <form class="compare-controls"><div class="compare-picker"><label for="compare-search-a">${bi('Legenda pertama','First legend')}</label><input id="compare-search-a" type="search" placeholder="${bi('Cari nama makhluk…','Search beings…')}" autocomplete="off"><select id="compare-select-a" class="filter-select" aria-label="${bi('Pilih legenda pertama','Choose first legend')}" disabled></select></div><button class="compare-swap" type="button" id="compare-swap" aria-label="${bi('Tukar kedua legenda','Swap the two legends')}" title="${bi('Tukar pilihan','Swap selections')}"><span aria-hidden="true">↔</span></button><div class="compare-picker"><label for="compare-search-b">${bi('Legenda kedua','Second legend')}</label><input id="compare-search-b" type="search" placeholder="${bi('Cari nama makhluk…','Search beings…')}" autocomplete="off"><select id="compare-select-b" class="filter-select" aria-label="${bi('Pilih legenda kedua','Choose second legend')}" disabled></select></div><button class="btn btn-primary" id="btn-run-compare" disabled>${bi('Bandingkan','Compare')}</button></form><p class="compare-status" role="status"></p><div id="comparison-result-slot" aria-busy="true"></div></div>`;
   const selectA=container.querySelector('#compare-select-a'),selectB=container.querySelector('#compare-select-b');
   const button=container.querySelector('#btn-run-compare'),slot=container.querySelector('#comparison-result-slot');
   const status=container.querySelector('.compare-status');
@@ -21,12 +21,20 @@ export async function renderComparisonView(container, initialSlugA = 'garuda', i
     if(!matches.length)select.add(new Option(bi('Tidak ditemukan','No matches'),''));
     button.disabled=!selectA.value||!selectB.value;
   }
+  container.querySelector('#compare-swap').onclick=()=>{
+    if(!list.length||!selectA.value||!selectB.value)return;
+    const a=selectA.value,b=selectB.value;
+    container.querySelectorAll('.compare-picker input').forEach(input=>{input.value='';});
+    populate(selectA,'',b);populate(selectB,'',a);
+    executeCompare(true);
+  };
   async function load(){
     status.textContent=bi('Memuat daftar legenda…','Loading legends…');
     try{
       list=await api.getCreatureIndex();if(!container.isConnected)return;
-      populate(selectA,'',initialSlugA);populate(selectB,'',initialSlugB===initialSlugA?(initialSlugA==='kitsune'?'garuda':'kitsune'):initialSlugB);
-      button.disabled=false;
+      if(!list.length){slot.setAttribute('aria-busy','false');status.textContent=bi('Belum ada legenda yang dapat dibandingkan.','There are no legends to compare yet.');return;}
+      populate(selectA,'',initialSlugA);populate(selectB,'',initialSlugB);
+      button.disabled=!selectA.value||!selectB.value;
       await executeCompare(false);
     }catch{
       slot.setAttribute('aria-busy','false');
@@ -37,6 +45,9 @@ export async function renderComparisonView(container, initialSlugA = 'garuda', i
   container.querySelector('.compare-controls').onsubmit=e=>{e.preventDefault();executeCompare(true);};
   for(const [side,select] of [['a',selectA],['b',selectB]]){
     container.querySelector(`#compare-search-${side}`).oninput=e=>{
+      // A result for an older pair must not overwrite the user's new selection.
+      request++;
+      slot.setAttribute('aria-busy','false');
       populate(select,e.target.value,select.value);
       status.textContent=select.disabled?bi('Nama tidak ditemukan. Coba nama lain.','No matches. Try another name.'):bi('Pilih hasil pencarian, lalu tekan Bandingkan.','Choose a search result, then press Compare.');
     };
@@ -63,7 +74,7 @@ export async function renderComparisonView(container, initialSlugA = 'garuda', i
         return `<tr data-axis="${axis}"><th scope="row">${axis==='power'?'Power':axis==='threat'?'Threat':'Fear'}</th><td>${classCell(axis,pA)}</td><td>${classCell(axis,pB)}</td><td>${esc(result)}</td></tr>`;
       }).join('');
       const textRow=(label,vA,vB)=>`<tr><th scope="row">${label}</th><td>${esc(vA||'—')}</td><td>${esc(vB||'—')}</td><td>${vA&&vB&&vA===vB?bi('Sama','Shared'):'—'}</td></tr>`;
-      slot.innerHTML=`<div class="compare-header-row">${renderCreatureCard(A)}<span class="compare-vs-badge" aria-hidden="true">&</span>${renderCreatureCard(B)}</div><div class="comparison-heading"><span class="eyebrow">${bi('TIGA DIMENSI','THREE DIMENSIONS')}</span><h2>${bi('Di mana letak perbedaannya?','Where do they differ?')}</h2><p>${bi('Kekuatan, ancaman, dan ketakutan dinilai terpisah. Tingkat yang lebih tinggi bukan keputusan siapa menang.','Power, threat, and fear are assessed separately. A higher tier does not determine a winner.')}</p></div><div class="table-scroll" tabindex="0" role="region" aria-label="${bi('Tabel perbandingan','Comparison table')}"><table class="compare-matrix-table"><thead><tr><th scope="col">${bi('Dimensi','Dimension')}</th><th scope="col">${nA}</th><th scope="col">${nB}</th><th scope="col">${bi('Perbedaan','Difference')}</th></tr></thead><tbody>${axes}${textRow(bi('Asal','Origin'),A.country||A.region,B.country||B.region)}${textRow(bi('Tradisi','Tradition'),A.culture,B.culture)}${textRow(bi('Klasifikasi','Classification'),A.classification,B.classification)}${textRow(bi('Habitat','Habitat'),A.habitat,B.habitat)}</tbody></table></div><p class="comparison-note">${bi('Dasar tiap penilaian dapat dibaca dalam arsip makhluk. Kelas yang belum dinilai tetap ditandai, tanpa memberi skor nol.','Read the rationale for each assessment in the creature archive. Unassessed classes stay marked without assigning a zero score.')} <a href="#/scales">${bi('Panduan kelas ↗','Class guide ↗')}</a></p>`;
+      slot.innerHTML=`<div class="compare-header-row">${renderCreatureCard(A)}<span class="compare-vs-badge" aria-hidden="true">&</span>${renderCreatureCard(B)}</div><div class="comparison-heading"><span class="eyebrow">${bi('TIGA DIMENSI','THREE DIMENSIONS')}</span><h2>${bi('Di mana letak perbedaannya?','Where do they differ?')}</h2><p>${bi('Kekuatan, ancaman, dan ketakutan dinilai terpisah. Tingkat yang lebih tinggi bukan keputusan siapa menang.','Power, threat, and fear are assessed separately. A higher tier does not determine a winner.')}</p></div><p class="compare-table-hint">${bi('Geser tabel untuk membaca kedua legenda dan perbedaannya →','Scroll the table to read both legends and their differences →')}</p><div class="table-scroll" tabindex="0" role="region" aria-label="${bi('Tabel perbandingan','Comparison table')}"><table class="compare-matrix-table"><thead><tr><th scope="col">${bi('Dimensi','Dimension')}</th><th scope="col">${nA}</th><th scope="col">${nB}</th><th scope="col">${bi('Perbedaan','Difference')}</th></tr></thead><tbody>${axes}${textRow(bi('Asal','Origin'),A.country||A.region,B.country||B.region)}${textRow(bi('Tradisi','Tradition'),A.culture,B.culture)}${textRow(bi('Klasifikasi','Classification'),A.classification,B.classification)}${textRow(bi('Habitat','Habitat'),A.habitat,B.habitat)}</tbody></table></div><p class="comparison-note">${bi('Dasar tiap penilaian dapat dibaca dalam arsip makhluk. Kelas yang belum dinilai tetap ditandai, tanpa memberi skor nol.','Read the rationale for each assessment in the creature archive. Unassessed classes stay marked without assigning a zero score.')} <a href="#/scales">${bi('Panduan kelas ↗','Class guide ↗')}</a></p>`;
       if(saveURL)history.replaceState(null,'',`#/compare?${new URLSearchParams({a,b})}`);
       status.textContent=a===b?bi('Kedua pilihan adalah makhluk yang sama. Pilih makhluk lain untuk melihat perbedaan.','Both choices are the same being. Choose another to see differences.'):bi(`${name(A)} dan ${name(B)} siap dibandingkan.`,`${name(A)} and ${name(B)} are ready to compare.`);
     }catch{

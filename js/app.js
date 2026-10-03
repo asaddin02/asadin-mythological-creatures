@@ -4,6 +4,7 @@
  */
 
 import { initImageViewer } from './components/image-viewer.js';
+import { initMotion } from './motion.js';
 import { renderScalingGuide } from './components/scaling-guide.js';
 import { bi, icon } from './ui.js';
 import { initI18n, t } from './i18n.js';
@@ -29,6 +30,7 @@ class App {
     // 2. Initialize i18n
     initI18n();
     initImageViewer();
+    initMotion(this.appContainer);
 
     // 3. Render Persistent Chrome (Navbar & Footer)
     this.renderChrome();
@@ -55,7 +57,7 @@ class App {
             <div class="footer-grid">
               <div class="footer-brand">
                 <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
-                  <span class="footer-emblem" aria-hidden="true">${icon('compass', 30)}</span>
+                  <span class="footer-emblem" aria-hidden="true">${icon('crown', 30)}</span>
                   <span style="font-family: var(--font-display); font-size: 1.4rem; font-weight: 800; color: var(--gold-500); letter-spacing: 0.15em;">MYTHICS</span>
                 </div>
                 <p class="footer-desc">${t('footer.aboutText')}</p>
@@ -76,6 +78,7 @@ class App {
               <div>
                 <h4 class="footer-col-title">${bi('Tentang arsip', 'About the archive')}</h4>
                 <ul class="footer-links">
+                  <li><a href="#/dukung">${bi('Dukung Mythics', 'Support Mythics')}</a></li>
                   <li><a href="#/learn?module=reading">${t('footer.sourcesPolicy')}</a></li>
                   <li><a href="#/learn?module=reading">${t('footer.licensing')}</a></li>
                   <li><span style="font-size: 0.85rem; color: var(--text-muted);">${bi('Tradisi · Konteks · Interpretasi', 'Tradition · Context · Interpretation')}</span></li>
@@ -94,6 +97,9 @@ class App {
   }
 
   async handleRouting() {
+    this.routeController?.abort();
+    const controller = new AbortController();
+    this.routeController = controller;
     // A detached view cannot overwrite a newer route after an asynchronous fetch.
     const routeContainer = document.createElement('div');
     this.appContainer.replaceChildren(routeContainer);
@@ -107,8 +113,12 @@ class App {
     document.querySelectorAll('.nav-link').forEach(link => {
       const routeAttr = link.getAttribute('data-route');
       const href = link.getAttribute('href')?.replace('#/', '');
-      const currentSection = path.replace(/^\//, '').split('/')[0];
-      link.classList.toggle('active', routeAttr === currentSection || href === currentSection);
+      const section = path.replace(/^\//, '').split('/')[0];
+      const currentSection = ({creature:'explore',culture:'cultures',region:'regions'})[section] || section;
+      const active = routeAttr === currentSection || href === currentSection;
+      link.classList.toggle('active', active);
+      if (active) link.setAttribute('aria-current', 'page');
+      else link.removeAttribute('aria-current');
     });
 
     // Check actions (e.g. random)
@@ -131,6 +141,14 @@ class App {
 
     if (path === '/scales') {
       renderScalingGuide(routeContainer, params);
+      window.scrollTo({ top: 0, behavior: 'instant' });
+      return;
+    }
+
+    if (path === '/dukung') {
+      const { renderSupportView } = await import('./components/support-view.js');
+      if (!routeContainer.isConnected) return;
+      renderSupportView(routeContainer);
       window.scrollTo({ top: 0, behavior: 'instant' });
       return;
     }
@@ -220,13 +238,15 @@ class App {
     }
 
     // Default: Home
-    await renderHomeView(routeContainer);
+    await renderHomeView(routeContainer, controller.signal);
     if (routeContainer.isConnected) window.scrollTo({ top: 0, behavior: 'instant' });
   }
 }
 
-// Bootstrap application on DOM ready
-document.addEventListener('DOMContentLoaded', () => {
-  const app = new App();
-  app.init();
-});
+// Cached modules and late imports must also initialize after DOMContentLoaded.
+const bootstrap = () => new App().init();
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', bootstrap, { once:true });
+} else {
+  bootstrap();
+}
