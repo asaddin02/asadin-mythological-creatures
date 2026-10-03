@@ -1,594 +1,834 @@
 # Review batch-115
 
-Diperiksa 2026-10-01T08:14:53.094Z. Berkas: batch-115.md.
+Diperiksa 2026-10-03T01:30:07.757Z. Berkas: batch-115.md.
 
 ## dwarf-folklore — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**warn**
-- `long_description` Tingkat rich sebaiknya 2–6 paragraf.
+Klaim 20 (exact 19, unreachable 1), sumber 5, gambar 0.
 
 **manual**
-- `tier` Di bawah target rich: 1 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `claims` 1 kutipan tidak bisa dicek otomatis: www.gutenberg.org (tidak bisa dibuka (fetch failed)).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| dwarf-folklore-c01 | exact | en.wikipedia.org | Dwarf (folklore) is documented as dwarfs dwarves type in regional lore. | dwarfs or dwarves) is a type of supernatural human-shaped being in Germanic folklore. |
+| dwarf-folklore-c01 | exact | en.wikipedia.org | A dwarf is a supernatural human-shaped being in Germanic folklore, commonly living in mountains or stones and a skilled craftsman. | is a type of supernatural human-shaped being in Germanic folklore. Accounts of dwarfs vary significantly throughout history. They are commonly, but not exclusively, presented as living in mountains or stones and being skilled craftsmen. |
+| dwarf-folklore-c02 | exact | en.wikipedia.org | In early sources only males are called dwarfs, but they have sisters and daughters. | In early literary sources, only males are explicitly referred to as dwarfs. However, they are described as having sisters and daughters, while male and female dwarfs feature in later saga literature and folklore. |
+| dwarf-folklore-c03 | exact | en.wikipedia.org | English dwarf descends from Old English dweorg, cognate with Old Norse dvergr and Old High German twerg. | The modern English noun dwarf descends from Old English: dweorg . It has a variety of cognates in other Germanic languages, including Old Norse dvergr, Old Frisian dwerch, Middle Dutch dwerch, Middle Low German dwerch, and Old High German twerg. |
+| dwarf-folklore-c04 | unreachable (tidak bisa dibuka (fetch failed)) | www.gutenberg.org | Prose Edda (Anderson): the dwarfs were first maggots in Ymer's flesh; the gods gave them understanding and human likeness, but they dwell in earth and rocks; Modsogner and Durin. | The dwarfs had first been created and had quickened in Ymer’s flesh, and were then maggots; but now, by the decision of the gods, they got the understanding and likeness of men, but still had to dwell in the earth and in rocks. Modsogner was one dwarf and Durin another. |
+| dwarf-folklore-c05 | exact | en.wikipedia.org | In Eddic sources dwarfs craft Mjölnir, Sif's hair, Draupnir, Gullinbursti, Skíðblaðnir, Gleipnir, Gungnir, Brísingamen for Freyja, and the Mead of Poetry from Kvasir's blood. | In Eddic sources dwarfs are attributed with creating magical treasures for the gods such as Mjölnir, Sif's hair, Draupnir, Gullinbursti, Skíðblaðnir, Gleipnir and Gungnir, while in Sörla þáttr they craft Brísingamen for Freyja. They further created the Mead of Poetry from the blood of Kvasir |
+| dwarf-folklore-c06 | exact | en.wikipedia.org | The dwarf Alberich in the Nibelungenlied guards the Nibelung's treasure with the strength of twelve men. | The dwarf Alberich plays a vital role in the Nibelungenlied, where he guards the Nibelung's treasure and has the strength of twelve men. |
+| dwarf-folklore-c07 | exact | en.wikipedia.org | In German literature many dwarfs turn invisible via a Tarnkappe and may be hostile or friendly to humans. | In German literature, many dwarfs can make themselves invisible, typically via a "Tarnkappe" (cloak of invisibility), which has been suggested to be an ancient attribute of dwarfs. Depending on the story, they may be hostile or friendly to humans. |
+| dwarf-folklore-c08 | exact | en.wikipedia.org | Early Old Norse sources do not call dwarfs small; legendary sagas and later folklore often describe them as short. | In the early Old Norse sources, dwarfs are typically described vaguely, with no reference to them being particularly small; in the legendary sagas and later folklore, however, they are often described as short. |
+| dwarf-folklore-c09 | exact | en.wikisource.org | Alvissmol (Bellows): the dwarf Alvis, wishing to marry Thor's daughter, is compelled to answer many questions. | the dwarf Alvis, desirous of marrying Thor's daughter, is compelled by the god to answer a number of questions to test his knowledge. |
+| dwarf-folklore-c10 | exact | en.wikisource.org | Alvissmol: Thor says the day has caught the dwarf as the sun shines in the hall. | But with treacherous wiles must I now betray thee: The day has caught thee, dwarf! (Now the sun shines here in the hall.) |
+| dwarf-folklore-c11 | exact | en.wikisource.org | Völuspá (Voluspo, Bellows): Motsognir the mightiest of the dwarfs, Durin next; the dwarfs in the earth made many likenesses of men. | There was Motsognir the mightiest made Of all the dwarfs, and Durin next; Many a likeness of men they made, The dwarfs in the earth, as Durin said. |
+| dwarf-folklore-c12 | exact | en.wikipedia.org | Scholars note the Svartálfar (black elves) seem the same as dwarfs, both living in Svartálfheimr in the Prose Edda. | Scholars have noted that the Svartálfar ('black elves') appear to be the same beings as dwarfs, given that both are described in the Prose Edda as the residents of Svartálfheimr. |
+| dwarf-folklore-c13 | exact | id.wikipedia.org | Kurcaci (dwarf) are small people (manusia kerdil) in Norse (Nordik) mythology. | Kurcaci (bahasa Inggris: dwarf ) adalah manusia kerdil dalam mitologi Nordik. |
+| dwarf-folklore-c14 | exact | id.wikipedia.org | Dwarfs live in mountain caves or underground (gua, bawah tanah), see well in darkness (kegelapan), mine gold and silver (emas, perak), and are skilled smiths (tukang besi). | Mereka hidup di gua-gua di daerah pegunungan atau di bawah tanah. Mereka mampu beradaptasi di lingkungan bawah tanah dan mampu melihat dengan baik di dalam kegelapan. Di sana mereka menggali barang-barang tambang seperti emas, perak, besi, dan sebagainya. Mereka juga merupakan pembuat senjata dan tukang besi yang mahir. |
+| dwarf-folklore-c15 | exact | en.wikipedia.org | The Codex Regius Völuspá has dwarfs come out of the earth; the Prose Edda has them form like maggots in Ymir's flesh. | The Codex Regius version of Völuspá records that dwarfs were produced out of the earth, while in the Prose Edda, they form like maggots in the flesh of Ymir, which became the earth. |
+| dwarf-folklore-c16 | exact | id.wikipedia.org | In Norse (Nordik) mythology the dwarfs made the magic chain (rantai pusaka) that bound the wolf (serigala) Fenrir. | Dalam mitologi Nordik, mereka menciptakan rantai pusaka yang mampu mengikat serigala ganas, Fenrir. |
+| dwarf-folklore-c17 | exact | en.wikipedia.org | The Simonside Dwarfs of Northumberland are said to use lights to lure people off paths, like a will-o'-the-wisp. | Dwarfs feature in the modern folklore of Germanic-speaking regions of Europe, such as the Simonside Dwarfs in Northumberland, who are sometimes believed to use lights to lure people off paths, akin to a will-o'-the-wisp. |
+| dwarf-folklore-c18 | exact | en.wikipedia.org | Dwarfs feature in popular culture such as the works of J. R. R. Tolkien and Terry Pratchett. | Dwarfs continue to feature in modern popular culture, such as in the works of J. R. R. Tolkien and Terry Pratchett |
+| dwarf-folklore-c19 | exact | id.wikipedia.org | In Snow White (Putih Salju) dwarfs are hard-working, simple and protective (pelindung); in The Lord of the Rings a race of Middle-earth (Dunia Tengah). | Dalam kisah dongeng Putih Salju, kurcaci digambarkan sebagai bangsa pekerja keras, polos, sedikit serakah, penggerutu, tetapi juga pelindung. Dalam kisah-kisah The Lord of the Rings, kurcaci adalah salah satu ras yang menghuni Dunia Tengah. |
+| dwarf-folklore-c20 | exact | en.wikipedia.org | Individual dwarfs can change shape and size; in Reginsmál the dwarf Andvari lived as a pike due to a Norn's curse. | Diversity in appearance is not only seen between dwarfs throughout time and region but also with individual dwarfs, who can be capable of changing their shape and size, such as in Reginsmál, in which the dwarf Andvari lived as a pike in the water due to curse from a Norn |
 
 
 ## leprechaun — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| leprechaun-c01 | exact | en.wikipedia.org | Leprechaun is documented as leprechaun irish diminutive in regional lore. | A leprechaun (Irish: lucharachán/leipreachán/luchorpán ) is a diminutive supernatural being in Irish folklore, classed by some as a type of solitary fairy. |
+| leprechaun-c01 | exact | en.wikipedia.org | A leprechaun (Irish: leipreachán) is a diminutive supernatural being of Irish folklore, a solitary fairy, a little bearded man of mischief, and a shoemaker with a pot of gold at the rainbow's end. | A leprechaun (Irish: lucharachán/leipreachán/luchorpán ) is a diminutive supernatural being in Irish folklore, classed by some as a type of solitary fairy. They are usually depicted as little bearded men, wearing a coat and hat, who partake in mischief. In later times, they have been depicted as shoe-makers who have a hidden pot of gold at the end of the rainbow. |
+| leprechaun-c02 | exact | en.wikipedia.org | The word leprechaun descends from Old Irish luchorpán or lupracán. | The Anglo-Irish (Hiberno-English) word leprechaun is descended from Old Irish luchorpán or lupracán |
+| leprechaun-c03 | exact | en.wikipedia.org | In Echtra Fergus mac Léti, Fergus mac Léti, King of Ulster, is dragged into the sea by three lúchorpáin who grant him three wishes. | The text contains an episode in which Fergus mac Léti, King of Ulster, falls asleep on the beach and wakes to find himself being dragged into the sea by three lúchorpáin. He captures his abductors, who grant him three wishes in exchange for release. |
+| leprechaun-c04 | exact | en.wikipedia.org | The leprechaun is a solitary creature whose main work is making and cobbling shoes and who enjoys practical jokes. | The leprechaun is said to be a solitary creature, whose principal occupation is making and cobbling shoes, and who enjoys practical jokes. |
+| leprechaun-c05 | exact | en.wikipedia.org | Per McAnally, a human can capture the Leprechaun and refuse to release him until given supernatural wealth. | This is, he claims, the perfect opportunity for a human being to capture the Leprechaun, refusing to release him until the Leprechaun gives his captor supernatural wealth. |
+| leprechaun-c06 | exact | en.wikipedia.org | William Butler Yeats classed the leprechaun as a solitary fairy. | The leprechaun has been classed as a "solitary fairy" by the writer and amateur folklorist William Butler Yeats. |
+| leprechaun-c07 | exact | en.wikipedia.org | According to William Butler Yeats, leprechauns' wealth comes from treasure-crocks buried in war-time. | According to William Butler Yeats, the great wealth of the leprechauns comes from the "treasure-crocks, buried of old in war-time", which they have uncovered and appropriated. |
+| leprechaun-c08 | exact | en.wikipedia.org | Before the 20th century the leprechaun was generally held to wear red, not green. | Before the 20th century, it was generally held that the leprechaun wore red, not green. |
+| leprechaun-c09 | exact | id.wikipedia.org | The Leprechaun (leipreachán) in Irish (Irlandia) mythology is a male fairy (peri jantan) dwelling in Ireland before the Celts (bangsa Kelt). | Leprechaun (bahasa Irlandia: leipreachán) dalam mitologi Irlandia adalah sebangsa peri jantan yang mendiami daratan Irlandia. Bersama peri-peri lainnya, Leprechaun mendiami daratan Irlandia sebelum kedatangan bangsa Kelt. |
+| leprechaun-c10 | exact | id.wikipedia.org | By legend the leprechaun has a pot of gold (gentong emas) at the rainbow's end (ujung pelangi); its thief gets 3 wishes (permintaan) for its return. | Menurut legenda, leprechaun memiliki sebuah gentong yang berisi emas. Gentong tersebut dikatakan di letakkan di ujung pelangi. Dikatakan bahwa siapapun yang berhasil mencuri gentong emas tersebut, maka sang dewa muslihat tersebut harus mengabulkan 3 permintaan jika gentongnya ingin dikembalikan. |
+| leprechaun-c11 | exact | id.wikipedia.org | On Saint Patrick's Day (Santo Patrick), the leprechaun is said to visit people's homes. | Pada saat perayaan Hari Hijau atau hari untuk mengingat Santo Patrick, dikatakan leprechaun akan datang kerumah seseorang. |
+| leprechaun-c12 | exact | en.wikipedia.org | The leprechaun is distinguished from the Aos Sí of the fairy mounds. | It is stressed that the leprechaun, though some may call it fairy, is clearly to be distinguished from the Aos Sí (or the 'good people') of the fairy mounds (sidhe) and raths. |
 
 
 ## goblin — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| goblin-c01 | exact | en.wikipedia.org | Goblin is documented as term sometimes expanded in regional lore. | The term is sometimes expanded to include goblin-like creatures of other cultures, such as the pukwudgie, dokkaebi, or ifrit. |
+| goblin-c01 | exact | en.wikipedia.org | A goblin is a small, grotesque, often malevolent humanoid of European folklore, mischievous or demonic, about 30 cm tall, furry, able to shapeshift. | A goblin is a diminutive, grotesque, and often malevolent humanoid creature prominent in European folklore, typically characterized by its mischievous or demonic nature, small stature (around 30 cm (12 in) in some traditions), furry or leathery appearance, and ability to shapeshift. |
+| goblin-c02 | exact | en.wikipedia.org | Goblins are believed to dwell underground or in households, doing anything from pranks to murder. | Goblins are believed to dwell in subterranean areas or households, where they engage in acts ranging from pranks to murder. |
+| goblin-c03 | exact | en.wikipedia.org | Gobelin was first attested in 1195 in L'Estoire de la guerre sainte by the Norman monk Ambroise; the French form goes back to Medieval Latin gobelinus, around 1140 in Orderic Vitalis's Historia ecclesiastica, for a demon expelled from a church in Évreux. | which was first attested in 1195 in the chronicle L'Estoire de la guerre sainte by the Norman monk Ambroise, where it described a treacherous figure. This French form traces back to Medieval Latin gobelinus, appearing around 1140 in Orderic Vitalis's Historia ecclesiastica, referring to a demon expelled from a church in Évreux. |
+| goblin-c04 | exact | en.wikipedia.org | The Welsh coblyn, a knocker, derives from Old French gobelin via English goblin. | The Welsh coblyn, a type of knocker, derives from the Old French gobelin via the English goblin. |
+| goblin-c05 | exact | en.wikipedia.org | In English and Scottish folklore goblins appear as brownies, household spirits doing night chores for an offering of porridge or milk. | In English and Scottish folklore, goblins often appear as brownies, benevolent household spirits that perform domestic chores such as threshing grain, churning butter, or tending livestock during the night, provided they receive a small offering like porridge or milk left by the hearth. |
+| goblin-c06 | exact | en.wikipedia.org | In contrast, boggarts from Yorkshire are a more malevolent variant. | In contrast, boggarts from Yorkshire traditions represent a more malevolent variant |
+| goblin-c07 | exact | en.wikipedia.org | Similar creatures include brownies, dwarves, duendes, gnomes, imps, leprechauns and kobolds; it is also a blanket term for all small fay creatures. | Similar creatures include brownies, dwarves, duendes, gnomes, imps, leprechauns, and kobolds, but it is also commonly used as a blanket term for all small, fay creatures. |
+| goblin-c08 | exact | en.wikipedia.org | The term goblin entered English in the early 14th century from Old French gobelin. | The term "goblin" entered English in the early 14th century, derived from the Anglo-Norman French gobelin or Old French gobelin |
+| goblin-c09 | exact | id.wikipedia.org | In European (Eropa) folklore Goblins are fairy folk (bangsa peri), small, sometimes unseen, little green beings with pointed ears (telinga runcing). | Dalam cerita rakyat Eropa, Goblin merupakan bangsa peri atau makhluk supranatural. Ukuran tubuh mereka kecil dan kadang kala tidak terlihat oleh mata manusia. Mereka dilukiskan sebagai makhluk mungil berwarna hijau dan bertelinga runcing. |
+| goblin-c10 | exact | id.wikipedia.org | Goblins are greedy and love gold (emas), are tied to fire (api), and in other versions are savage (buas), living in dark caves (gua-gua) or underground. | Mereka juga sangat serakah dan cinta emas atau jenis perhiasan. Goblin juga erat kaitannya dengan api dan memiliki kemahiran untuk menciptakannya. Menurut versi lain dalam beberapa dongeng dan kisah fantasi, Goblin merupakan bangsa makhluk yang buas dan ganas. Mereka tinggal di gua-gua yang gelap atau di bawah tanah. |
+| goblin-c11 | exact | en.wikipedia.org | Scholars link it to Ancient Greek kóbalos ("rogue") and to the Germanic household spirit kobold. | Scholars propose possible etymological connections to earlier languages, including Ancient Greek kóbalos, meaning "rogue" or "mischievous sprite", which may have influenced post-classical Latin forms like cobalus denoting a demon. Additionally, links have been suggested to Germanic kobold, a household spirit |
+| goblin-c12 | exact | id.wikipedia.org | Goblins are sometimes classed as small pestering beings with various magical powers (kemampuan magis). | Dalam beberapa kasus, Goblin telah diklasifikasikan sebagai makhluk kecil yang terus-menerus mengganggu dan memiliki berbagai kemampuan magis. |
 
 
 ## vamana — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| vamana-c01 | exact | en.wikipedia.org | Vamana is documented as vamana arrived asked in regional lore. | Vamana arrived there, and asked for three feet (steps) of land (usually to build a fire-altar). |
+| vamana-c01 | exact | en.wikipedia.org | Vamana is the fifth avatar of the Hindu deity Vishnu, the first Dashavatara of the Treta Yuga after Narasimha, who in the Vedas and Puranas takes back the three worlds (Trailokya) from Mahabali with three steps. | is an avatar of the Hindu deity Vishnu. He is the fifth avatar of Vishnu and the first Dashavatara in the Treta Yuga, after Narasimha. First mentioned in the Vedas, Vamana is most commonly associated in the Hindu epics and Puranas with the story of taking back the three worlds (collectively referred to as the Trailokya) from the daitya-king Mahabali by taking three steps |
+| vamana-c02 | exact | en.wikipedia.org | Vāmana (Sanskrit वामन) means dwarf, small or short in stature. | 'Vāmana' (Sanskrit वामन) means 'dwarf', 'small' or 'small or short in stature'. |
+| vamana-c03 | exact | en.wikipedia.org | He restores cosmic order and pushes Mahabali into the netherworld; he is the youngest of the adityas, sons of Aditi and the sage Kashyapa. | to restore the cosmic order and push Mahabali into the netherworld. He is the youngest among the adityas, the sons of Aditi and the sage Kashyapa. |
+| vamana-c04 | exact | id.wikipedia.org | Wamana is an avatar of the god Vishnu (Wisnu) in Hinduism, a dwarf priest (pendeta kerdil), son of Aditi and Kasyapa in the Tretayuga. | adalah salah satu awatara (penjelmaan) Dewa Wisnu dalam agama Hindu, yang berwujud pendeta kerdil, lahir pada masa Tretayuga sebagai putra Dewi Aditi dan Resi Kasyapa. |
+| vamana-c05 | exact | id.wikipedia.org | Wamana is shown as a brahmin (brahmana) in a child's body with a kamandalu and umbrella (payung), also called Upendra. | Wamana dilukiskan sebagai brahmana dengan raga anak kecil yang membawa kamandalu dan payung. Wamana kadang-kadang dikenal juga dengan sebutan Upendra |
+| vamana-c06 | exact | id.wikipedia.org | Wamana's story in the Bhagawatapurana, Brahmapurana, Padmapurana, Wamanapurana and other Mahapuranas: he came to King Bali's (Raja Bali) palace when Bali invited brahmins for gifts, though Sukracarya had warned Bali. | Kisah Wamana dimuat dalam kitab Bhagawatapurana, Brahmapurana, Padmapurana, Wamanapurana, dan berbagai kitab Mahapurana lainnya. Menurut cerita dalam kitab, Wamana sebagai brahmana cilik datang ke istana Raja Bali karena pada saat itu Raja Bali mengundang seluruh brahmana untuk diberikan hadiah. Ia sudah dinasihati oleh Sukracarya (Guru Sukra) |
+| vamana-c07 | exact | id.wikipedia.org | The little brahmin asked for land of three strides; King Bali (Raja Bali) granted it, and the brahmin grew until he strode over heaven (surga) and earth (bumi) at once. | brahmana kecil itu meminta tanah seluas tiga jengkal yang diukur dengan langkah kakinya. Raja Bali pun takabur dan melupakan nasihat Sukracarya, dan menyuruh brahmana kecil itu melangkah. Pada waktu itu juga, brahmana tersebut membesar dan terus membesar. Dengan ukurannya yang sangat besar, ia mampu melangkah di surga dan bumi sekaligus. |
+| vamana-c08 | exact | id.wikipedia.org | His first step trod swarga, the second the earth (bumi), and for the third Bali offered his head (kepalanya). | Pada langkah yang pertama, ia menginjak swarga. Pada langkah yang kedua, ia menginjak bumi. Pada langkah yang ketiga, karena tidak ada lahan untuknya berpijak, maka Bali menyerahkan kepalanya. |
+| vamana-c09 | exact | id.wikipedia.org | Impressed by Bali's generosity, Wamana titled him Mahabali and promised he would be Indra in the next Manwantara. | Karena terkesan dengan kedermawanan Bali, Wamana memberinya gelar "Mahabali". Ia juga berjanji bahwa kelak Bali akan menjabat sebagai Indra (pemimpin para dewa) pada Manwantara berikutnya. |
+| vamana-c10 | exact | en.wikipedia.org | The epithet Trivikrama means three steps, referring to Vishnu's three strides in the Rigveda. | 'Trivikrama' त्रिविक्रम 'three steps' or 'three strides' (tri 'three' + vikrama 'step' or 'stride'). This epithet refers to the three steps or strides of Vishnu in the Rigveda. |
+| vamana-c11 | exact | id.wikipedia.org | The tale of Wamana Awatara and King Bali (Raja Bali) is marked yearly at Onam in Kerala (India); Wamana temples include Kerala and Kanchipuram near the Kamakshi temple. | Kisah Wamana Awatara dan Raja Bali diperingati setiap tahun pada perayaan Onam di Kerala (India). Di sana juga terdapat kuil yang khusus memuja dia (Wamana). Selain di sana, beberapa kuil Wamana tersebar di India, salah satunya di Kanchipuram, dekat kuil Kamakshi. |
 
 
 ## morgan-le-fay — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| morgan-le-fay-c01 | exact | en.wikipedia.org | Morgan le Fay is documented as early appearances morgan in regional lore. | Early appearances of Morgan in Arthurian literature do not elaborate her character beyond her role as a goddess, a fay, a witch, or a sorceress, generally benevolent and connected to Arthur as his magical saviour and protector. |
+| morgan-le-fay-c01 | exact | en.wikipedia.org | Morgan le Fay is a powerful, ambiguous enchantress of the King Arthur legend, a fairy or human, good or harmful, Arthur's sister or no kin. | is a powerful and ambiguous enchantress from the legend of King Arthur, in which most often she and he are siblings. According to the different authors, she is a fairy or a human; beneficial or harmful; either a sister, half-sister, or unrelated to Arthur. |
+| morgan-le-fay-c02 | exact | en.wikipedia.org | Her character may originate from Welsh mythology and other ancient and medieval myths. | Her character may have originated from Welsh mythology as well as from other ancient and medieval myths and historical figures. |
+| morgan-le-fay-c03 | exact | en.wikipedia.org | Geoffrey of Monmouth's Vita Merlini (c. 1150) links Morgan to the Isle of Apples (Avalon), where Arthur was carried after the Battle of Camlann, as leader of nine magical sisters. | The earliest documented account, by Geoffrey of Monmouth in Vita Merlini (written c. 1150) refers to Morgan in association with the Isle of Apples (Avalon), to which Arthur was carried after having been fatally wounded at the Battle of Camlann, as the leader of the nine magical sisters unrelated to Arthur. |
+| morgan-le-fay-c04 | exact | en.wikipedia.org | Late 12th-century romance authors made Morgan Arthur's supernatural elder sister. | Romance authors of the late 12th century established Morgan as Arthur's supernatural elder sister. |
+| morgan-le-fay-c05 | exact | en.wikipedia.org | In the 13th-century prose cycles and Le Morte d'Arthur she is Igraine's youngest daughter; Arthur, son of Igraine and Uther Pendragon, is her half-brother. | In the 13th-century prose cycles – and the later works based on them, including the influential Le Morte d'Arthur – she is usually described as the youngest daughter of Arthur's mother Igraine and her first husband. Arthur, son of Igraine and Uther Pendragon, is thus Morgan's half-brother |
+| morgan-le-fay-c06 | exact | en.wikipedia.org | In some variants, including Malory's, Morgan is Arthur's greatest enemy, yet she reconciles and takes him to Avalon. | In some variants, including in the popular retelling by Malory, Morgan is the greatest enemy of Arthur, scheming to usurp his throne and indirectly becoming an instrument of his death. However, she eventually reconciles with Arthur, retaining her original role of taking him on his final journey to Avalon. |
+| morgan-le-fay-c07 | exact | en.wikipedia.org | Medieval and Renaissance tales after Camlann show Morgan as the immortal queen of Avalon. | Medieval and Renaissance tales feature continuations from the aftermath of Camlann where Morgan appears as the immortal queen of Avalon |
+| morgan-le-fay-c08 | exact | en.wikipedia.org | Morgan le Fay is Morgen in Welsh and Cornish and Fée Morgane in Modern French. | Morgan le Fay (/ˈmɔːr.ɡən lə ˈfeɪ/; Welsh and Cornish: Morgen; Modern French: Fée Morgane) |
+| morgan-le-fay-c09 | exact | de.wikipedia.org | Morgan le Fay, also Morgana or Feimorgan (Mittelhochdeutschen), is an important female figure (weibliche Figur) of the King Arthur (König Artus) legend. | Morgan le Fay, auch bekannt als Morgaine, Morgain (la Fée) oder Morgana und unter weiteren Namen, zum Beispiel im Mittelhochdeutschen: Feimorgan, Feimurgân oder Famurgan/Fâmurgân, ist eine wichtige weibliche Figur in der Mythologie um König Artus, der Artussage. |
+| morgan-le-fay-c10 | exact | de.wikipedia.org | Geoffrey of Monmouth (Geoffrey von Monmouth) portrays her as a healer (Heilerin) who could change shape (Gestalten verwandeln). | Von Geoffrey von Monmouth wird sie sowohl als Heilerin dargestellt wie auch als jemand, der sich in unterschiedliche Gestalten verwandeln konnte. |
+| morgan-le-fay-c11 | exact | en.wikipedia.org | Her modern character is often conflated with her sister the Queen of Orkney, making Morgan the mother of Mordred. | Notably, her modern character is frequently being conflated with that of her sister, the Queen of Orkney, thus making Morgan the mother of Arthur's son and nemesis Mordred. |
+| morgan-le-fay-c12 | exact | en.wikipedia.org | Morgan marries Urien, has a son Yvain, becomes Merlin's apprentice, opposes knights of the Round Table and hates Guinevere. | The young Morgan unhappily marries Urien, with whom she has a son, Yvain. She becomes an apprentice of Merlin, and a capricious and vindictive adversary of some knights of the Round Table, all the while harbouring a special hatred for Arthur's wife Guinevere. |
+| morgan-le-fay-c13 | exact | en.wikipedia.org | A key aspect of many versions of Morgan is the unpredictable duality of her nature, capable of good and evil. | A significant aspect in many of Morgan's medieval and later iterations is the unpredictable duality of her nature, with potential for both good and evil. |
+| morgan-le-fay-c14 | exact | en.wikipedia.org | In Vita Merlini and Chrétien de Troyes's early romances Morgan's chief role is a great healer. | Therein, and in the early chivalric romances by Chrétien de Troyes and others, Morgan's chief role is that of a great healer. |
 
 
 ## epona — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| epona-c01 | exact | en.wikipedia.org | Epona is documented as video game character in regional lore. | For the video game character, see Epona (The Legend of Zelda). |
+| epona-c01 | exact | en.wikipedia.org | In Gallo-Roman religion Epona was goddess of horses and ponies, a fertility and mother goddess, shown riding or enthroned with foals. | In Gallo-Roman religion, Epona was the goddess of horses and ponies. She was also a fertility and mother goddess, and was frequently depicted in art and sculptures either mounted on a horse, etc., (usually in sidesaddle position) or sitting on a throne with foals, or standing beside a foal. |
+| epona-c02 | exact | en.wikipedia.org | She holds a patera, cornucopia, fruit or bread; she may also have been a death goddess escorting souls with her horses to the afterlife. | She is typically depicted holding a patera, cornucopia, fruit, bread, (wheat, grain); or accompanied by a foal or foals. She may have had a death goddess's aspect, and it is speculated that She (and her horses) might have been regarded as escorting souls to the world of the afterlife. |
+| epona-c03 | exact | en.wikipedia.org | Scholars compare Epona to the Welsh legendary figure Rhiannon, also tied to horses. | Various scholars also point to the parallel between Epona and the Welsh legendary figure Rhiannon (also closely associated with horses) |
+| epona-c04 | exact | en.wikipedia.org | Epona's worship as cavalry patroness spread through the Roman Empire in the 1st–3rd centuries; she was the sole Celtic deity worshipped in Rome. | Epona's worship as the patroness of cavalry was widespread in the Roman Empire between the 1st and 3rd centuries AD. While adopted Celtic deities were usually only associated with specific localities, Epona was "the sole Celtic divinity ultimately worshipped in Rome itself." |
+| epona-c05 | exact | en.wikipedia.org | The name Epona (Great Mare) comes from Gaulish epos (horse), from the Proto-Indo-European word for horse. | The name Epona ('Great Mare') originates from Gaulish, an extinct Celtic language. It is derived from the reconstructed Proto-Indo-European word for horse: *éḱwos, which appeared in the reconstructed Proto-Celtic language as *ekʷos ('horse'), and later became the Celtic Gaulish epos ('horse'). |
+| epona-c06 | exact | de.wikipedia.org | Epona (also Epana) is a Celtic fertility goddess (keltische Göttin der Fruchtbarkeit) and the Roman goddess of horses (Göttin der Pferde). | Epona, seltener auch Epana genannt, ist eine keltische Göttin der Fruchtbarkeit sowie die römische Göttin der Pferde. |
+| epona-c07 | exact | de.wikipedia.org | Roman troops (römischen Truppen) adopted Epona as goddess of horses and cavalry (Kavallerie); in late antiquity (Spätantike) her feast was held near Mantua on 18 December (Dezember). | Die römischen Truppen übernahmen Epona als Göttin der Pferde und der Reiterei, wobei sie nicht nur als Schutzgöttin der Kavallerie, sondern auch der Wagenführer verehrt wurde. In der Spätantike wurde das Fest der Epona in der Umgebung von Mantua am 18. Dezember begangen. |
+| epona-c08 | exact | de.wikipedia.org | According to Juvenal and Apuleius, images of the goddess (Figuren der Göttin) were worshipped in small shrines (Schreinen) by stables (Pferdeställen). | Nach Angaben bei Juvenal (Satiren 8,155–157) und Apuleius (Metamorphosen 3,27,2) wurden Figuren der Göttin in kleinen Schreinen bei Pferdeställen verehrt. |
+| epona-c09 | exact | de.wikipedia.org | Epona's worship spread across the Celtic world (Celticum), attested by about 60 dedicatory inscriptions (Weiheinschriften). | Die Verehrung Eponas war zu Zeiten der Kelten und Gallo-Römer in der Antike bis Spätantike im gesamten keltischen Raum (Celticum) verbreitet, was durch rund 60 Weiheinschriften bezeugt ist. |
 
 
 ## cernunnos — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| cernunnos-c01 | exact | en.wikipedia.org | Cernunnos is documented as cernunnos celtic whose in regional lore. | Cernunnos is a Celtic god whose name is only clearly attested once, on the 1st-century CE Pillar of the Boatmen from Paris, where it is identified with an image of an aged, antlered figure with torcs around his horns. |
+| cernunnos-c01 | exact | en.wikipedia.org | Cernunnos is a Celtic god whose name is clearly attested only on the 1st-century CE Pillar of the Boatmen from Paris, with an aged, antlered figure wearing torcs. | Cernunnos is a Celtic god whose name is only clearly attested once, on the 1st-century CE Pillar of the Boatmen from Paris, where it is identified with an image of an aged, antlered figure with torcs around his horns. |
+| cernunnos-c02 | exact | en.wikipedia.org | The name Cernunnos is applied to images of an antlered, cross-legged god with torcs, ram-horned serpents, fertility symbols and wild beasts. | the name "Cernunnos" has been applied to the members of an iconographic cluster, consisting of depictions of an antlered god (often aged and with crossed legs) associated with torcs, ram-horned (or ram-headed) serpents, symbols of fertility, and wild beasts (especially deer). |
+| cernunnos-c03 | exact | en.wikipedia.org | As many as 25 Cernunnos-type images are known, mostly in north-eastern Gaul, as far as Italy (Val Camonica) and Denmark (Gundestrup). | As many as 25 depictions of the Cernunnos-type have been identified. Though this iconographic group is best attested in north-eastern Gaul, depictions of the god have been identified as far off as Italy (Val Camonica) and Denmark (Gundestrup). |
+| cernunnos-c04 | exact | en.wikipedia.org | Cernunnos is read as a god of fertility, the underworld and bi-directionality; his cult from the 4th century BCE was largely unaffected by the Roman conquest of Gaul. | Cernunnos has been variously interpreted as a god of fertility, of the underworld, and of bi-directionality. His cult, attested iconographically as early as the 4th century BCE, seems to have been largely unaffected by the Roman conquest of Gaul |
+| cernunnos-c05 | exact | en.wikipedia.org | The Gallo-Roman Pillar of the Boatmen was discovered in 1711 under Notre-Dame de Paris. | The Gallo-Roman Pillar of the Boatmen was discovered in 1711 under the choir of Notre-Dame de Paris. |
+| cernunnos-c06 | exact | en.wikipedia.org | Joseph Vendryes and Whatmough argue it read Cernennos. | Joseph Vendryes and Whatmough argue (following the Dacia inscription) that it read "Cernennos". |
+| cernunnos-c07 | exact | id.wikipedia.org | In Celtic (keltik) mythology Cernunnos is a horned god (dewa bertanduk) ruling wild places and a god of vegetation (tumbuh-tumbuhan). | Cernunnos menurut kepercayaan mitologi keltik merujuk pada dewa bertanduk yang menguasai tempat-tempat liar. Ia juga disebutkan sebagai dewa tumbuh-tumbuhan. |
+| cernunnos-c08 | exact | id.wikipedia.org | Cernunnos is nicknamed Lord of the wild things. | Cernunnos juga dijuluki dengan sebutan Lord of the wild things atau penguasa hal-hal liar. |
+| cernunnos-c09 | exact | id.wikipedia.org | In the Middle Ages the Christian church (gereja kristen) used Cernunnos as a symbol of the antichrist (antikristus). | Pada abad pertengahan Cernunnos digunakan sebagai simbol antikristus oleh gereja kristen. |
+| cernunnos-c10 | exact | en.wikipedia.org | Cernunnos has been tentatively linked with Conall Cernach, a hero of medieval Irish mythology. | Cernunnos has been tentatively linked with Conall Cernach, a hero of medieval Irish mythology |
 
 
 ## lugh — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| lugh-c01 | exact | en.wikipedia.org | Lugh is documented as lugh justice kingship in regional lore. | Lugh God of Justice, war, kingship, craftsmen, skills, trade and harvests. |
+| lugh-c01 | exact | en.wikipedia.org | Lugh is a figure of Irish mythology, one of the Tuatha Dé Danann, a warrior, king, master craftsman and saviour skilled in many arts. | is a figure in Irish mythology. A member of the Tuatha Dé Danann, a group of supernatural beings, Lugh is portrayed as a warrior, a king, a master craftsman and a saviour. He is associated with skill and mastery in multiple disciplines, including the arts. |
+| lugh-c02 | exact | en.wikipedia.org | Lugh is tied to oaths, truth, law and rightful kingship, and to the harvest festival of Lughnasadh named after him. | Lugh also has associations with oaths, truth, and the law, and therefore with rightful kingship. He is also associated with intelligence. Lugh is linked with the harvest festival of Lughnasadh, which bears his name. |
+| lugh-c03 | exact | en.wikipedia.org | His epithets are Lámfada (Modern Irish: Lámhfhada, long hand) and Samildánach. | His most common epithets are Lámfada (Modern Irish: Lámhfhada [ˈl̪ˠaːw ad̪ˠə] ; "long hand" or "long arm", possibly for his skill with a spear or his ability as a ruler) and Samildánach |
+| lugh-c04 | exact | en.wikipedia.org | Lugh is son of Cian and Ethniu, grandson of the Fomorian tyrant Balor whom he kills at the Battle of Mag Tuired; his son is the hero Cú Chulainn. | In mythology, Lugh is the son of Cian and Ethniu (or Ethliu). He is the maternal grandson of the Fomorian tyrant Balor, whom Lugh kills in the Battle of Mag Tuired. Lugh's son is the hero Cú Chulainn, who is believed to be an incarnation of Lugh. |
+| lugh-c05 | exact | en.wikipedia.org | Lugh has an unstoppable fiery spear, a sling stone, a hound named Failinis, and invented fidchell, ball games and horse racing. | He wields an unstoppable fiery spear and a sling stone and owns a hound named Failinis. He is said to have invented fidchell, ball games, and horse racing. |
+| lugh-c06 | exact | en.wikipedia.org | Lugh is the Irish form of the pan-Celtic god Lugus; his Welsh counterpart is Lleu Llaw Gyffes; he corresponds to Mercury. | He is the Irish manifestation of the pan-Celtic god Lugus, and his Welsh counterpart is Lleu Llaw Gyffes. The interpretatio romana has Lug correspond to the Romans god Mercury. |
+| lugh-c07 | exact | id.wikipedia.org | In Celtic myth Lugh is the chief god of the ancient Celts (Bangsa Celtic) and king of the Tuatha Dé Danann; Julius Caesar paired him with Mercury (Romawi). | menurut mitos celtic adalah dewa utama bagi Bangsa Celtic kuno, raja penguasa Tuatha Dé Danann. Dalam beberapa catatan oleh Julius Caesar, ia disandingkan dengan Mercury, dewa utama dalam mitologi Romawi |
+| lugh-c08 | exact | id.wikipedia.org | Lugus is often called Lugh or Lug. | Lugus, sering disebut sebagai Lugh atau Lug |
+| lugh-c09 | exact | id.wikipedia.org | Lugh dwells at Tara in County Meath and at Moytura in County Sligo. | Ia mempunyai dua tempat tinggal yang berada di Tara di County Meath dan di Moytura, di County Sligo. |
+| lugh-c10 | exact | id.wikipedia.org | The ancient Celts (Bangsa Celtic) marked 1 August (Agustus) as Lughnasa, a holy day for the god (Dewa) Lugh. | Bangsa Celtic kuno memperingati setiap tanggal 1 Agustus yang disebut dengan Lughnasa, yang diyakini mereka sebagai hari suci untuk Dewa Laugh. |
+| lugh-c11 | exact | en.wikipedia.org | Some scholars derive the name from a Proto-Indo-European root meaning to bind by oath. | Some scholars propose that it derives from a suggested Proto-Indo-European root *(h₂)lewgʰ- meaning "to bind by oath" |
+| lugh-c12 | exact | id.wikipedia.org | In war Lugh wields the lightning spear (tombak petir) Assal or Assail. | Dalam peperangan Lugh dilengkapi dengan senjata tombak petir Assal atau Assail |
 
 
 ## belenus — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| belenus-c01 | exact | en.wikipedia.org | Belenus is documented as belenos health healing in regional lore. | Belenos God of good health and healing waters Other names Belenus, Belinos Venerated in Roman Empire Major cult center Aquileia Gender Male Consort Belisama (speculative) Equivalents Roman Apollo |
+| belenus-c01 | exact | en.wikipedia.org | Belenus is an ancient Celtic healing god centred at Aquileia in north-eastern Italy, tied to Noricum, attested from Italy to the British Isles, Gaul, Aquitania and Britain. | is an ancient Celtic healing god whose cult is attested across much of the Celtic-speaking world. While his principal centre of worship lay at Aquileia in northeastern Italy, and the deity is primarily associated with the Noricum region, mentions extend from the Italian peninsula to the British Isles, including Gaul, Aquitania, and Britain. |
+| belenus-c02 | exact | en.wikipedia.org | In Roman sources Belenus was identified with Apollo, especially for healing and therapeutic springs. | In Roman sources and inscriptions, Belenus was commonly identified with Apollo through interpretatio romana, especially in contexts associated with healing and therapeutic springs. |
+| belenus-c03 | exact | en.wikipedia.org | Tertullian and Herodian call him a protective civic deity, notably at Aquileia; his cult tied to medicinal waters, sanctuaries and oracles. | Ancient authors such as Tertullian and Herodian describe him as a prominent protective and civic deity, notably at Aquileia, where he was regarded as the city's patron god. Archaeological and epigraphic evidence further indicate that his cult was closely connected with medicinal waters, sanctuaries, and, in some regions, oracular functions. |
+| belenus-c04 | exact | en.wikipedia.org | Belenus, the Latin form of Gaulish Belenos, appears in some 51 inscriptions, mostly at Aquileia (Friuli, Italy). | which is a latinised form of the Gaulish Belenos (or Belinos), appears in some 51 inscriptions. Although most of them are located in Aquileia (Friuli, Italy), the main centre of his cult |
+| belenus-c05 | exact | en.wikipedia.org | Traditionally the name is read as 'bright one' or 'shining one'. | Traditionally, the name has been interpreted as meaning 'bright one' or the 'shining one' |
+| belenus-c06 | exact | de.wikipedia.org | Belenus (Belenos, Belinos) was a Celtic god (keltischer Gott) equated with the Roman (römischen) Apollon; after Epona he is the Celtic deity most named by ancient authors (antiken Autoren). | Belenus, latinisierte Form von Belenos, Belinos, war ein keltischer Gott, der nach der Interpretatio Romana mit dem römischen Apollon gleichgesetzt wurde. Nach Epona ist er die von antiken Autoren am meisten genannte keltische Gottheit. |
+| belenus-c07 | exact | de.wikipedia.org | The etymology as a spring god (Quellgott) supports reading Belenus as a healing deity (Heilgottheit). | Für die Deutung von Belenus als Heilgottheit spricht die Etymologie als „Quellgott“ |
 
 
 ## kelpie — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| kelpie-c01 | exact | en.wikipedia.org | Kelpie is documented as scottish folklore kelpie in regional lore. | In Scottish folklore, a kelpie, or water kelpie (Scottish Gaelic: each-uisge), is a mythical shape-shifting spirit inhabiting lochs in Scotland. |
+| kelpie-c01 | exact | en.wikipedia.org | In Scottish folklore the kelpie is a shape-shifting spirit of Scotland's lochs, also in Yorkshire; tales of these water-horses spread across the British Isles. | In Scottish folklore, a kelpie, or water kelpie (Scottish Gaelic: each-uisge), is a mythical shape-shifting spirit inhabiting lochs in Scotland. They also inhabit meres and streams in Yorkshire (Jórvik) mythology. Legends of these shape-shifting water-horses, under various names, spread across the British Isles |
+| kelpie-c02 | exact | en.wikipedia.org | The kelpie is a grey or white horse-like creature that can take human form, keeping its hooves, tied to Satan by Robert Burns in Address to the Devil (1786). | It is usually described as a grey or white horse-like creature, able to adopt human form. Some accounts state that the kelpie retains its hooves when appearing as a human, leading to its association with the Christian idea of Satan as alluded to by Robert Burns in his 1786 poem "Address to the Devil". |
+| kelpie-c03 | exact | en.wikipedia.org | Almost every water in Scotland has a kelpie tale, most at Loch Ness; counterparts include the Germanic nixie, the wihwin of Central America and the Australian bunyip. | Almost every sizeable body of water in Scotland has an associated kelpie story, but the most extensively reported is that of Loch Ness. The kelpie has counterparts across the world, such as the Germanic nixie, the wihwin of Central America and the Australian bunyip. |
+| kelpie-c04 | exact | en.wikipedia.org | Kelpie tales served to keep children from dangerous water and warn young women of handsome strangers. | but the practical purposes of keeping children away from dangerous stretches of water and warning young women to be wary of handsome strangers has been noted in secondary literature. |
+| kelpie-c05 | exact | en.wikipedia.org | The Scots word kelpie may come from Gaelic calpa or cailpeach; the spelling kaelpie first appears in an ode by William Collins before 1759. | The etymology of the Scots word kelpie is uncertain, but it may be derived from the Gaelic calpa or cailpeach, meaning "heifer" or "colt". The first recorded use of the term to describe a mythological creature, then spelled kaelpie, appears in the manuscript of an ode by William Collins, composed some time before 1759 |
+| kelpie-c06 | exact | en.wikipedia.org | The kelpie has counterparts across the world. | The kelpie has counterparts across the world |
+| kelpie-c07 | exact | en.wikipedia.org | The kelpie is the most common water spirit in Scottish folklore. | The kelpie is the most common water spirit in Scottish folklore |
+| kelpie-c08 | exact | id.wikipedia.org | Kelpies appear in art and literature, including two steel sculptures at Falkirk, The Kelpies, finished in October (Oktober) 2013. | Kelpi telah digambarkan dalam berbagai bentuknya dalam seni dan sastra, termasuk dua patung baja setinggi 30-meter-high (100 ft) di Falkirk, The Kelpies, yang rampung pada bulan Oktober 2013. |
+| kelpie-c09 | exact | en.wikipedia.org | Some folklorists, like John Gregorson Campbell of Tiree, distinguish river-dwelling kelpies from the Celtic loch-dwelling each-uisge. | Folklorists who define kelpies as spirits living beside rivers, as distinguished from the Celtic lochside-dwelling water horse (each-uisge), include 19th-century minister of Tiree John Gregorson Campbell |
 
 
 ## changeling — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| changeling-c01 | exact | en.wikipedia.org | Changeling is documented as changeling historically referred in regional lore. | A changeling, also historically referred to as an auf or oaf, is a human-like creature found throughout much of European folklore. |
+| changeling-c01 | exact | en.wikipedia.org | A changeling (auf or oaf) is a human-like creature of European folklore, a substitute left by a supernatural being when kidnapping a human. | A changeling, also historically referred to as an auf or oaf, is a human-like creature found throughout much of European folklore. According to folklore, a changeling was a substitute left by a supernatural being when kidnapping a human being. |
+| changeling-c02 | exact | en.wikipedia.org | Sometimes the changeling was a stock of wood, more often a supernatural being magically made to look like the victim. | Although sometimes it was a "stock" (a piece of wood made magically to resemble the kidnapped human), more often the changeling was a supernatural being made magically to look like the kidnapped human. |
+| changeling-c03 | exact | en.wikipedia.org | Kidnappers included fairies, demons, trolls and nereids; victims were usually children, but adults too in Scandinavia and Ireland. | Supernatural beings blamed for stealing children included fairies, demons, trolls, nereids and many others. Usually, the kidnapped human was a child; but there were cases, particularly in Scandinavia and Ireland, where adults were taken. |
+| changeling-c04 | exact | en.wikipedia.org | In Irish legend a fairy child looks sickly, does not grow, may have a beard or long teeth, and is clever beyond its years. | In Irish legend, a fairy child may appear sickly and will not grow in size like a normal child, and may have notable physical characteristics such as a beard or long teeth. They may also display intelligence far beyond their apparent years and possess uncanny insight. |
+| changeling-c05 | exact | en.wikipedia.org | An inverted coat or open iron scissors where the child sleeps were thought to ward them off. | Simple charms such as an inverted coat or open iron scissors left where the child sleeps were thought to ward them off |
+| changeling-c06 | exact | en.wikipedia.org | Some modern scholars argue these stories began as folk explanations for autism or other developmental conditions. | Some modern scholars have argued these stories of replaced children originated as folklore explanations for autism or other developmental conditions. |
+| changeling-c07 | exact | en.wikipedia.org | Bridget Cleary, an adult thought a changeling, was killed by her husband trying to force the fairies to return his real wife. | Bridget Cleary is one of the most well-known cases of an adult thought to be a changeling by her family: her husband killed her, attempting to force the fairies to return his 'real' wife. |
+| changeling-c08 | exact | de.wikipedia.org | In medieval European superstition (Aberglauben) the Wechselbalg was an infant (Säugling) swapped by a demonic being (dämonisches Wesen) to harass and harm people (Menschen). | Der Wechselbalg war im Aberglauben des europäischen Mittelalters ein Säugling (veraltet „Balg“), der einer Wöchnerin durch ein dämonisches Wesen im Austausch gegen ihr eigenes Kind mit der Absicht untergeschoben wurde, die Menschen zu belästigen und ihnen zu schaden. |
+| changeling-c09 | exact | de.wikipedia.org | In non-Christian (nichtchristlichen) belief the Wechselbalg was fathered by Druden, dwarfs (Zwergen) or elves (Elfen). | In nichtchristlichen Glaubensvorstellungen wurde der Wechselbalg von Druden, Zwergen oder Elfen gezeugt und untergeschoben. |
+| changeling-c10 | exact | de.wikipedia.org | In Christian (christlichen) belief the Wechselbalg was a child of witches (Hexen) or the Devil (Teufels), who sought unbaptized children (ungetaufte Kinder). | Der Wechselbalg im christlichen Volksglauben war ein Kind von Hexen oder sogar des Teufels. Der Teufel interessierte sich besonders für ungetaufte Kinder |
+| changeling-c11 | exact | de.wikipedia.org | The term (Begriff) Wechselbalg first appears in the early 11th century (11. Jahrhunderts). | Der für das Böse und Unheimliche stehende Begriff Wechselbalg taucht Anfang des 11. Jahrhunderts erstmals auf. |
+| changeling-c12 | exact | de.wikipedia.org | The frightened mother (Mutter) saw baptism (Taufe) as the best protection (besten Schutz) from a Wechselbalg. | Die verängstigte Mutter betrachtete wiederum die Taufe als den besten Schutz vor einem Wechselbalg. |
 
 
 ## taranis — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| taranis-c01 | exact | en.wikipedia.org | Taranis is documented as taranis sometimes taranus in regional lore. | Taranis (sometimes Taranus or Tanarus) is a Celtic thunder god attested in literary and epigraphic sources. |
+| taranis-c01 | exact | en.wikipedia.org | Taranis (Taranus, Tanarus) is a Celtic thunder god; the Roman poet Lucan's Pharsalia names Taranis, Esus and Teutates as gods given human sacrifice by the Gauls. | Taranis (sometimes Taranus or Tanarus) is a Celtic thunder god attested in literary and epigraphic sources. The Roman poet Lucan's epic Pharsalia mentions Taranis, Esus, and Teutates as gods to whom the Gauls sacrificed humans. |
+| taranis-c02 | exact | en.wikipedia.org | Victims of Taranis were burned in a hollow wooden container, compared with the wicker man described by Caesar. | in particular, that the victims of Taranis were burned in a hollow wooden container. This sacrifice has been compared with the wicker man described by Caesar. |
+| taranis-c03 | exact | en.wikipedia.org | The scholia say the Romans equated Taranis with Dis Pater or Jupiter; scholars prefer Jupiter, as inscriptions agree. | These scholia also tell us that Taranis was perhaps either equated by the Romans with Dis Pater, Roman god of the underworld, or Jupiter, Roman god of weather. Scholars have preferred the latter equation to the former, as Taranis is also equated with Jupiter in inscriptions. |
+| taranis-c04 | exact | en.wikipedia.org | The Celtic wheel god is shown with a spoked wheel and Jupiter's attributes, including a thunderbolt. | This god, known only from iconographic sources, is depicted with a spoked wheel and the attributes of Jupiter (including a thunderbolt). |
+| taranis-c05 | exact | en.wikipedia.org | Inscriptions to Taranis date from the 4th century BCE to the 3rd century CE. | Various inscriptions attest to Taranis's worship, dating between the 4th century BCE and the 3rd century CE. |
+| taranis-c06 | exact | en.wikipedia.org | A dedication to Iovi Tanaro (Jupiter Tanaris) in Dalmatia confirms the form Tanaris; so does the Chester altar (154 AD). | The issue was settled by the discovery of a dedication to Iovi Tanaro ('Jupiter Tanaris') in Dalmatia, which confirms that this form did exist. |
+| taranis-c07 | exact | de.wikipedia.org | Taranis is a Celtic god (keltischer Gott) of sky (Himmels), weather (Wetters) and thunder (Donners); in Lucan he stood with Teutates and Esus atop the Celtic pantheon. | Taranis ist ein keltischer Gott des Himmels, des Wetters und des Donners. Dem römischen Dichter Lucan zufolge stand er mit Teutates und Esus an der Spitze der keltischen Götterwelt. |
+| taranis-c08 | exact | en.wikipedia.org | The name Taranis comes from proto-Celtic *torano- (thunder), cognate with Old Irish torann and Middle Welsh taran. | The name Taranis derives from proto-Celtic *torano- ("thunder"), which in turn derives from the proto-Indo-European root *(s)tenh₂- ("to thunder"). Through this proto-Celtic etymon, the theonym is cognate with words for thunder in Old Irish (torann ), Old Breton (taran ), Middle Welsh (taran ) |
+| taranis-c09 | exact | en.wikipedia.org | Taranis's name corresponds etymologically to the Germanic god Donar (Thor). | Taranis's name corresponds etymologically to that of the Germanic god Donar (i.e., Thor). |
 
 
 ## brigid — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| brigid-c01 | exact | en.wikipedia.org | Brigid is documented as brigid brigit brij in regional lore. | Brigid or Brigit (/ˈbrɪdʒɪd, ˈbriːɪd/ BRIJ-id, BREE-id, Irish: [ˈbʲɾʲiːdʲ] ; meaning 'exalted one'), also Bríg, is a goddess of pre-Christian Ireland. |
+| brigid-c01 | exact | en.wikipedia.org | Brigid is a goddess of pre-Christian Ireland, one of the Tuatha Dé Danann, daughter of the Dagda, wife of Bres, mother of Ruadán, tied to wisdom, poetry, healing, protection and smithing. | is a goddess of pre-Christian Ireland. She appears in Irish mythology as a member of the Tuatha Dé Danann, the daughter of the Dagda and wife of Bres, with whom she had a son named Ruadán. She is associated with wisdom, poetry, healing, protection, smithing and domesticated animals. |
+| brigid-c02 | exact | en.wikipedia.org | Cormac's Glossary of the 9th century calls Brigid the goddess poets adored, with sisters Brigid the healer and Brigid the smith; perhaps a triple deity. | Cormac's Glossary, written in the 9th century by Christian monks, says that Brigid was "the goddess whom poets adored" and that she had two sisters: Brigid the healer and Brigid the smith. This suggests she may have been a triple deity. |
+| brigid-c03 | exact | en.wikipedia.org | Saint Brigid shares the goddess's attributes; her 1 February feast was originally Imbolc, so the saint may be a Christianization of the goddess. | Saint Brigid shares many of the goddess's attributes and her feast day, 1 February, was originally a festival called Imbolc. It has thus been argued that the saint is a Christianization of the goddess |
+| brigid-c04 | exact | en.wikipedia.org | The name comes from Proto-Celtic *Brigantī, "the high one", cognate with the ancient British goddess Brigantia. | The name comes from Proto-Celtic *Brigantī and means "the high one" or "the exalted one". It is cognate with the name of the ancient British goddess Brigantia |
+| brigid-c05 | exact | en.wikipedia.org | Middle Irish Brigit became Brighid and, after the 1948 spelling reform, Bríd. | Middle Irish Brigit [ˈbʲɾʲiʝidʲ] evolved into early modern Irish Brighid [bʲɾʲiːdʲ] and, after a spelling reform in 1948, the spelling was standardised as Bríd |
+| brigid-c06 | exact | de.wikipedia.org | Her sanctuary (Heiligtum) was at Kildare (Irland) where her sacred fire (heiliges Feuer) was kept; her Welsh name (walisischer Name) is Ffraid. | Ihr Heiligtum war in Kildare (Irland), wo ihr heiliges Feuer gehütet wurde. Ihr walisischer Name lautet Ffraid |
+| brigid-c07 | exact | de.wikipedia.org | Brigid personifies poetry (Dichtkunst), protects poets (Poeten), is worshipped in threefold form (dreifacher Gestalt), and is patron of lawgivers (Gesetzgeber), healing (Heilkunst), fertility and smiths (Schmiede). | Sie soll eine Personifikation der Dichtkunst und Beschützerin der Poeten gewesen sein und wurde in dreifacher Gestalt verehrt, weshalb manchmal von den „drei Brigids“ die Rede ist. Zusammen mit ihren beiden „Schwestern“ wird sie noch dazu als Schutzgöttin der Gesetzgeber, der Heilkunst, der Fruchtbarkeit und der Schmiede gesehen. |
 
 
 ## the-morrigan — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| the-morrigan-c01 | exact | en.wikipedia.org | The Morrígan is documented as known figure irish in regional lore. | The Morrígan or Mórrígan, also known as Morrígu, is a figure from Irish mythology. |
+| the-morrigan-c01 | exact | en.wikipedia.org | The Morrígan (Mórrígan, Morrígu, Mór-ríoghan) is a figure of Irish mythology, "great queen" or "phantom queen", tied to war and fate, foretelling doom, death or victory, often as a crow, the badb. | The Morrígan or Mórrígan, also known as Morrígu, is a figure from Irish mythology. The name is Mór-ríoghan in modern Irish before the spelling reform, and it has been translated as "great queen" or "phantom queen". The Morrígan is mainly associated with war and fate, especially with foretelling doom, death, or victory in battle. In this role she often appears as a crow, the badb. |
+| the-morrigan-c02 | exact | en.wikipedia.org | The Morrígan spurs warriors to brave deeds, frightens their foes and washes the bloodstained clothes of those fated to die. | The Morrígan encourages warriors to do brave deeds, strikes fear into their enemies, and is portrayed washing the bloodstained clothes of those fated to die. |
+| the-morrigan-c03 | exact | en.wikipedia.org | She is seen as a goddess of battle and war, and as a form of the earth and sovereignty goddess, guardian of land and people. | She is most frequently seen as a goddess of battle and war and has also been seen as a manifestation of the earth- and sovereignty-goddess, chiefly representing the goddess's role as guardian of the territory and its people. |
+| the-morrigan-c04 | exact | en.wikipedia.org | The Morrígan is often three sisters, the three Morrígna: Badb, Macha and the Morrigan, who may be named Anu, perhaps names of one goddess. | The Morrígan is often described as a trio of individuals, all sisters, called "the three Morrígna". In mythology membership of the triad is given as Badb, Macha, and the Morrigan, who may be named Anu. It is believed that these were all names for the same goddess. |
+| the-morrigan-c05 | exact | en.wikipedia.org | The Morrígan is described as the envious wife of The Dagda and a shape-shifting goddess. | The Morrígan is described as the envious wife of The Dagda and a shape-shifting goddess |
+| the-morrigan-c06 | exact | en.wikipedia.org | She is associated with the banshee of later folklore. | She is associated with the banshee of later folklore. |
+| the-morrigan-c07 | exact | id.wikipedia.org | The Morrigan can become a fair maiden, war leader, old woman, crow or vulture (burung bangkai). | Ia dapat mengubah wujudnya menjadi seorang gadis rupawan, pemimpin pasukan, nenek tua, dan burung gagak maupun burung bangkai (hering). |
+| the-morrigan-c08 | exact | id.wikipedia.org | As a black crow (gagak hitam) she flies over the battlefield (medan perang) shrieking and foretells the outcome (hasil peperangan). | Citra gagak hitam sering muncul dalam suatu peperangan yang mana ia terbang diatas medan perang sambil mengeluarkan lengkingannya dan mampu meramalkan hasil peperangan tersebut. |
+| the-morrigan-c09 | exact | en.wikipedia.org | Mor may come from an Indo-European root of terror, akin to Old English maere (in nightmare) and Scandinavian mara. | Mor may derive from an Indo-European root connoting terror, monstrousness, cognate with the Old English maere (which survives in the modern English word "nightmare") and the Scandinavian mara |
+| the-morrigan-c10 | exact | en.wikipedia.org | The earliest sources are glosses in Latin manuscripts; the 8th-century O'Mulconry's Glossary names Macha one of the three morrígna. | The earliest sources for the Morrígan are glosses in Latin manuscripts and glossaries (collections of glosses). The 8th century O'Mulconry's Glossary says that Macha is one of the three morrígna. |
+| the-morrigan-c11 | exact | en.wikipedia.org | Rígan means queen; Morrígan is read as Phantom Queen, the derivation now favoured. | while rígan translates as "queen". This etymological sequence can be reconstructed in the Proto-Celtic language as *Moro-rīganī-s. Accordingly, Morrígan is often translated as "Phantom Queen". This is the derivation generally favoured in current scholarship. |
 
 
 ## danu — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| danu-c01 | exact | en.wikipedia.org | Danu is documented as danu presumed goddess in regional lore. | *Danu ([ˈd̪anu] ) is presumed to have been a goddess in Irish mythology, whose sole attestation is in the name of the Tuatha Dé Danann, which is usually translated 'the folk of the goddess Danu'. |
+| danu-c01 | exact | en.wikipedia.org | Danu is presumed a goddess of Irish mythology, attested only in the name Tuatha Dé Danann; Victorian folklorists gave her traits of motherhood and prosperity. | is presumed to have been a goddess in Irish mythology, whose sole attestation is in the name of the Tuatha Dé Danann, which is usually translated 'the folk of the goddess Danu'. Despite the complete absence of any such figure from the primary texts, some later Victorian folklorists attempted to ascribe certain attributes to Danu, such as association with motherhood or agricultural prosperity. |
+| danu-c02 | exact | en.wikipedia.org | The form *Danu is not in any medieval Irish text but is reconstructed from the genitive Danann. | The hypothetical nominative form of the name, *Danu, is not found in any medieval Irish text, but is rather a reconstruction by modern scholars based on the genitive Danann (also spelled Donand or Danand), which is the only form attested in the primary sources |
+| danu-c03 | exact | en.wikipedia.org | In Irish mythology Anu is a goddess, distinct or another name for Danu. | In Irish mythology, Anu (sometimes declined as Anann or Anand) is a goddess. She may be a distinct goddess in her own right or an alternative name for Danu |
+| danu-c04 | exact | en.wikipedia.org | Cormac's Glossary, older than the Lebor Gabala Erenn, names Anu mother of the gods; some scholars merge Danu with Anu. | Cormac's Glossary, a text that predates the Lebor Gabala Erenn, names the goddess Anu as the mother of the gods. Some scholars suggest that Danu was a conflation of Anu and is the same goddess. |
+| danu-c05 | exact | en.wikipedia.org | No myths or legends about Danu survive in medieval Irish texts. | Danu has no surviving myths or legends associated with her in any of the medieval Irish texts. |
+| danu-c06 | exact | en.wikipedia.org | Early scholars linked it to the Vedic water goddess Danu from a Proto-Indo-European root to flow, perhaps behind the river name Danube. | with some earlier scholars favoring a link with the Vedic water goddess Danu, whose name is derived from the Proto-Indo-European root *dʰenh₂- "to run, to flow", which may also lie behind the ancient name for the river Danube |
+| danu-c07 | exact | de.wikipedia.org | The name (Name) Danu never appears in Old Irish mythology (altirischen Mythologie) but is inferred from Túatha Dé Danann and Tri Dée Dána. | Der Name Danu selbst taucht in der altirischen Mythologie als solcher niemals auf, wird aber aus den tradierten Begriffen Túatha Dé Danann („Die Stämme der Göttin Danu“) und Tri Dée Dána („Die drei Götter von Dána“) abgeleitet. |
+| danu-c08 | exact | en.wikipedia.org | Danu may parallel the Welsh legendary figure Dôn of the Mabinogion, seen as a mother goddess. | She has possible parallels with the Welsh legendary figure Dôn in the medieval tales of the Mabinogion, whom most modern scholars consider to be a mythological mother goddess. |
+| danu-c09 | exact | en.wikipedia.org | This may also link Danu to The Morrígan, which some scholars call an epithet of Anu. | This may also connect Danu to The Morrígan, which some scholars say is an epithet for Anu. |
 
 
 ## the-dagda — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| the-dagda-c01 | exact | en.wikipedia.org | The Dagda is documented as dagda irish dagda in regional lore. | The Dagda (Old Irish: In Dagda [ˈd̪aɣða] , Irish: An Daghdha ) is considered the great god of Irish mythology. |
+| the-dagda-c01 | exact | en.wikipedia.org | The Dagda is the great god of Irish mythology, chief god of the Tuatha Dé Danann, a father-figure, king and druid. | is considered the great god of Irish mythology. He is the chief god of the Tuatha Dé Danann, with the Dagda portrayed as a father-figure, king, and druid. |
+| the-dagda-c02 | exact | en.wikipedia.org | The Dagda is tied to fertility, agriculture, strength, magic, druidry, wisdom; controls life and death, weather, crops, time, seasons; a big bearded man or giant in a hooded cloak. | He is associated with fertility, agriculture, masculinity and strength, as well as magic, druidry and wisdom. He can control life and death (cf. his staff), the weather and crops, as well as time and the seasons. He is often described as a large bearded man or giant wearing a hooded cloak. |
+| the-dagda-c03 | exact | en.wikipedia.org | He owns a magic staff (lorc) that kills and revives, a cauldron (coire ansic) never empty, and a magic harp. | He owns a magic staff (lorc ) of dual nature: it kills with one end and brings to life with the other. He also owns a cauldron (the coire ansic) which never runs empty, and a magic harp |
+| the-dagda-c04 | exact | en.wikipedia.org | He is said to dwell in Brú na Bóinne (Newgrange). | He is said to dwell in Brú na Bóinne (Newgrange). |
+| the-dagda-c05 | exact | en.wikipedia.org | The Dagda's name means the good god or great god; other names include Eochu or Eochaid Ollathair and Ruad Rofhessa. | The Dagda's name is thought to mean "the good god" or "the great god". His other names include Eochu or Eochaid Ollathair ("horseman, great father"), and Ruad Rofhessa ("mighty one/lord of great knowledge"). |
+| the-dagda-c06 | exact | en.wikipedia.org | The Dagda is husband of the Morrígan and lover of Boann; his children include Aengus, Brigit, Bodb Derg, Cermait, Aed and Midir. | The Dagda is said to be the husband of the Morrígan and lover of Boann. His children include Aengus, Brigit, Bodb Derg, Cermait, Aed, and Midir. |
+| the-dagda-c07 | exact | en.wikipedia.org | The Dagda is likened to the Germanic Odin, the Gaulish Sucellos and the Roman Dīs Pater or Jupiter. | The Dagda has been likened to the Germanic god Odin, the Gaulish god Sucellos, and the Roman god Dīs Pater or Jupiter. |
+| the-dagda-c08 | exact | de.wikipedia.org | The Dagda is a leader (Anführer) of the Túatha Dé Danann, the Allvater over law (Gesetz) and order (Ordnung), ugly (hässlich) and pot-bellied (Schmerbauch), with hood (Kapuze) and tunic (Tunika). | Dagda ist ein Anführer der mythischen Túatha Dé Danann. Er ist der Allvater und zuständig für Recht, Gesetz und Ordnung. Er wird als hässlich mit einem Schmerbauch beschrieben. Er trägt eine Kapuze, mit der er sein Gesicht verhüllt, und eine Tunika. |
+| the-dagda-c09 | exact | de.wikipedia.org | His attributes (Attribute) are the magic cauldron (magische Kessel), harp (Harfe) and club (Keule). | Seine Attribute sind der „magische Kessel“, die „magische Harfe“ und die „magische Keule“. |
+| the-dagda-c10 | exact | en.wikipedia.org | The Old Irish name Dagda stems from Proto-Celtic *Dago-dēwos. | The Old Irish name Dagda is generally believed to stem from Proto-Celtic: *Dago-dēwos , meaning "the good god" or "the great god". |
 
 
 ## fomorians — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| fomorians-c01 | exact | en.wikipedia.org | Fomorians is documented as fomorians fomori irish in regional lore. | The Fomorians or Fomori (Old Irish: Fomóire , Modern Irish: Fomhóraigh / Fomóraigh ) are a supernatural race in Irish mythology, who are often portrayed as hostile and monstrous beings. |
+| fomorians-c01 | exact | en.wikipedia.org | The Fomorians (Fomori; Old Irish Fomóire, Modern Irish Fomhóraigh) are a hostile, monstrous supernatural race of Irish mythology. | The Fomorians or Fomori (Old Irish: Fomóire , Modern Irish: Fomhóraigh / Fomóraigh ) are a supernatural race in Irish mythology, who are often portrayed as hostile and monstrous beings. |
+| fomorians-c02 | exact | en.wikipedia.org | At first from under the sea or earth; later sea raiders and giants. | Originally they were said to come from under the sea or the earth. Later, they were portrayed as sea raiders and giants. |
+| fomorians-c03 | exact | en.wikipedia.org | The Fomorians are foes of Ireland's first settlers and the Tuatha Dé Danann, who defeat them at the Battle of Mag Tuired. | They are enemies of Ireland's first settlers and opponents of the Tuatha Dé Danann, the other supernatural race in Irish mythology; although some members of the two races have offspring. The Tuatha Dé Danann defeat the Fomorians in the Battle of Mag Tuired. |
+| fomorians-c04 | exact | en.wikipedia.org | One theory: the Fomorians represent nature's wild, destructive powers; chaos, darkness, death, blight and drought. | One theory is that the Fomorians were supernatural beings representing the wild or destructive powers of nature; personifications of chaos, darkness, death, blight and drought. |
+| fomorians-c05 | exact | en.wikipedia.org | The first part of the name is Old Irish fo, under. | The first part is generally agreed to be the Old Irish fo, meaning under, below, lower, beneath, nether, etc. |
+| fomorians-c06 | exact | en.wikipedia.org | A probably 7th-century elegy for Mess-Telmann says they dwell under the worlds of men. | In one of the earliest references to them, a probably 7th-century elegy for Mess-Telmann, they are said to dwell "under the worlds of men". |
+| fomorians-c07 | exact | en.wikipedia.org | Per the 11th-century Lebor na hUidre, they have a man's body and goat's head, or one eye, arm and leg. | Sometimes they are said to have the body of a man and the head of a goat, according to an 11th-century text in Lebor na hUidre (the Book of the Dun Cow), or to have had one eye, one arm and one leg. |
+| fomorians-c08 | exact | de.wikipedia.org | In Scotland (Schottland) they are called Foawr; demonic giants (dämonische Riesen) with one arm (Arm) and leg (Bein), some with animal heads (Tierköpfe). | In Schottland sind sie als „Foawr“ bekannt. Sie erscheinen als dämonische Riesen mit nur einem Arm und einem Bein und einige Angehörige ihres Volkes haben Tierköpfe (Ziegen-, Hirsch- oder Stier-), sind gehörnt oder reptilienartig. |
+| fomorians-c09 | exact | de.wikipedia.org | The Tuatha de Danann took Ireland (Irland) from the Firbolg at the first battle of Magh Tuireadh and beat the Fomorii at the second (zweiten Schlacht). | Die Tuatha de Danann entrissen den Firbolg bei der ersten Schlacht von Magh Tuireadh die Herrschaft über Irland und mussten dann bei der zweiten Schlacht von Magh Tuireadh die Fomorii schlagen, um die Eroberung zu sichern. |
+| fomorians-c10 | exact | en.wikipedia.org | This is likened to other myths of a war between gods, such as the Æsir–Vanir War and the Titanomachy. | This has been likened to other Indo-European myths of a war between gods, such as the Æsir and Vanir War in Norse mythology, the Titanomachy (Olympian-Titan War) in Greek mythology, and the Devas and Asuras in Indian mythology. |
 
 
 ## aos-si — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| aos-si-c01 | exact | en.wikipedia.org | Aos Sí is documented as pronounced english approximation in regional lore. | Aos sí or aos sídhe ( pronounced [iːsˠ ˈʃiː] ; English approximation: /iːs ˈʃiː/ eess SHEE) is the Irish name for a supernatural race in Gaelic folklore, similar to elves. |
+| aos-si-c01 | exact | en.wikipedia.org | Aos sí is the Irish name for a supernatural race of Gaelic folklore, similar to elves, descended from the Tuatha Dé Danann or Irish gods. | is the Irish name for a supernatural race in Gaelic folklore, similar to elves. They are said to descend from the Tuatha Dé Danann or the gods of Irish mythology. |
+| aos-si-c02 | exact | en.wikipedia.org | Aos sí means folk of the sí, mounds that are portals to an Otherworld, in English fairy mounds or hollow hills; they are called ancestors, nature spirits, or gods. | The term aos sí means "folk of the sí"; these are the mounds in which they are said to dwell, which are seen as portals to an Otherworld. Such abodes are referred to in English as "shees", "fairy mounds", "elf mounds" or "hollow hills". The aos sí interact with humans and the human world. They are variously said to be the ancestors, the spirits of nature, or goddesses and gods. |
+| aos-si-c03 | exact | en.wikipedia.org | Another name is daoine sí, people of the fairy mound; in English "the Sidhe". | Another name for the aos sí is daoine sí , which likewise means "people of the fairy mound". |
+| aos-si-c04 | exact | en.wikipedia.org | The 7th-century Irish bishop Tírechán called the sídh folk earthly gods (dei terreni); the 8th-century Fiacc's Hymn says they were adored before Saint Patrick. | Writing in the 7th century, the Irish bishop Tírechán described the sídh folk as "earthly gods" (Latin: dei terreni ). The 8th century Fiacc's Hymn says that the Irish adored the sídh folk before the coming of Saint Patrick. |
+| aos-si-c05 | exact | en.wikipedia.org | Fairies could be fallen angels or descendants of the Tuatha Dé Danann, equivalent to the aos sí. | The fairies could either be fallen angels or the descendants of the Tuatha Dé Danann; in the latter case, this is equivalent with aos sí. |
+| aos-si-c06 | exact | en.wikipedia.org | In folk belief the aos sí are appeased with offerings and care is taken not to anger them. | In folk belief and practice, the aos sí are often appeased with offerings and care is taken to avoid angering or insulting them. |
+| aos-si-c07 | exact | id.wikipedia.org | The aos sí are a supernatural race of Irish and Scottish (Irlandia, Skotlandia) mythology like fairies or elves, living underground or in a world beside ours, a parallel universe in the Lebor Gabála Érenn. | adalah istilah yang mengacu kepada ras supranatural dalam mitologi Irlandia dan Skotlandia yang mirip dengan peri atau elf. Konon mereka tinggal di bawah tanah atau di dunia kasatmata yang ada bersamaan dengan dunia manusia. Dunia ini dijelaskan di dalam Lebor Gabála Érenn sebagai alam semesta paralel |
+| aos-si-c08 | exact | id.wikipedia.org | In Scottish (Skotlandia) mythology they are called daoine sìth. | sementara dalam mitologi Skotlandia mereka dinamai daoine sìth. |
+| aos-si-c09 | exact | en.wikipedia.org | Some sources call them survivors of the Tuatha Dé Danann who retreated into the Otherworld from the Sons of Míl Espáine. | Some sources describe them as the survivors of the Tuatha Dé Danann who retreated into the Otherworld when fleeing the mortal Sons of Míl Espáine |
 
 
 ## familiar — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| familiar-c01 | exact | en.wikipedia.org | Familiar is documented as late century english in regional lore. | A late-16th-century English illustration of a witch feeding her familiars |
+| familiar-c01 | exact | en.wikipedia.org | In European folklore, familiars (familiar spirits) were supernatural beings protecting or helping witches and cunning folk in magic and divination. | were believed to be supernatural entities, interdimensional beings, or spiritual guardians that would protect or assist witches and cunning folk in their practice of magic, divination, and spiritual insight. |
+| familiar-c02 | exact | en.wikipedia.org | Familiars could appear in many forms, usually an animal, sometimes a human. | those alleging to have had contact with familiar spirits reported that they could manifest as numerous forms, usually as an animal, but sometimes as a human or humanoid figure |
+| familiar-c03 | exact | en.wikipedia.org | Witches' familiars were thought malevolent and classed as demons; cunning folk's were benevolent and called fairies. | When they served witches, they were often thought to be malevolent, but when working for cunning folk, they were often considered benevolent (although there was some ambiguity in both cases). The former were often categorized as demons, while the latter were more commonly thought of and described as fairies. |
+| familiar-c04 | exact | en.wikipedia.org | The main purpose of familiars was to serve and protect the witch. | The main purpose of familiars was to serve the witch, providing protection for them as they came into their new powers. |
+| familiar-c05 | exact | en.wikipedia.org | Since the 20th century practitioners, including Wiccans, use familiars, with pets or invisible familiars as aides. | Since the 20th century some magical practitioners, including adherents of the neopagan religion of Wicca, use the concept of familiars, due to their association with older forms of magic. These contemporary practitioners use pets or wildlife, or believe that invisible versions of familiars act as magical aides. |
+| familiar-c06 | exact | de.wikipedia.org | The Familiar or Hexentier (spiritus familiaris) is a small animal-shaped (tierischer Gestalt) supernatural being of Celtic (keltischen) and Anglo-Saxon (angelsächsischen) folklore aiding witches (Hexen) and healers (Heilerinnen). | Als Familiar (englisch für Vertraute/r) oder Hexentier – mitunter auch lateinisch spiritus familiaris – werden besonders in der keltischen und angelsächsischen Folklore kleine übernatürliche Wesen mit tierischer Gestalt bezeichnet, die oftmals Hexen und Heilerinnen zur Seite stehen und diese unterstützen sollen. |
+| familiar-c07 | exact | de.wikipedia.org | Familiars are not bound to a house (Haus) and can travel (reisen) with their owner (Besitzerin). | Sie sind nicht an ein Haus und Grundstück gebunden und können mit ihrer Besitzerin reisen. |
+| familiar-c08 | exact | de.wikipedia.org | Some witch-hunters (Hexenjäger) saw Familiars as proof and as an earthly form of a demon (Dämons) or the Devil (Teufels). | Manche Hexenjäger sahen in den Familiars nicht nur einen Beweis für die Wahrheit ihrer Theorie, dass eine beschuldigte Person eine Hexe war, sondern in den Familiars eine irdische Gestalt eines Dämons oder des Teufels selbst. |
 
 
 ## fionn-mac-cumhaill — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| fionn-mac-cumhaill-c01 | exact | en.wikipedia.org | Fionn mac Cumhaill is documented as fionn cumhaill alternatively in regional lore. | Fionn mac Cumhaill (alternatively spelled Finn mac Cumhaill), sometimes anglicised Finn McCool or MacCool, is a hero in Irish mythology, as well as in later Scottish and Manx folklore. |
+| fionn-mac-cumhaill-c01 | exact | en.wikipedia.org | Fionn mac Cumhaill (Finn McCool) is a hero of Irish mythology and Scottish and Manx folklore, leader of the Fianna, seer and poet with a magic thumb, hunting with hounds Bran and Sceólang. | is a hero in Irish mythology, as well as in later Scottish and Manx folklore. He is the leader of the Fianna bands of young roving hunter-warriors, as well as being a seer and poet. He is said to have a magic thumb that bestows him with great wisdom. He is often depicted hunting with his hounds Bran and Sceólang, and fighting with his spear and sword. |
+| fionn-mac-cumhaill-c02 | exact | en.wikipedia.org | Fionn's tales form the Fianna or Fenian Cycle, much narrated by his son, the poet Oisín. | The tales of Fionn and his fiann form the Fianna Cycle or Fenian Cycle (an Fhiannaíocht ), much of it narrated by Fionn's son, the poet Oisín |
+| fionn-mac-cumhaill-c03 | exact | en.wikipedia.org | In Old Irish finn means white, bright, fair. | In Old Irish, finn/find means "white, bright, lustrous; fair, light-hued (of complexion, hair, etc.) |
+| fionn-mac-cumhaill-c04 | exact | en.wikipedia.org | Fionn was the posthumous son of Cumhall, leader of the Fianna, and Muirne. | Fionn was the posthumous son of Cumhall, leader of the Fianna, by Muirne. |
+| fionn-mac-cumhaill-c05 | exact | en.wikipedia.org | At the Battle of Cnucha Cumhall was killed by Goll mac Morna, who took over the Fianna. | The Battle of Cnucha was fought between Conn and Cumhall, and Cumhall was killed by Goll mac Morna, who took over leadership of the Fianna. |
+| fionn-mac-cumhaill-c06 | exact | de.wikipedia.org | Fionn (Finn, Find Mac Cumail, MacCool) is an Irish hero (irischer Held) of medieval epic (mittelalterlichen Epik), namesake of the Finn-Zyklus. | auch Finn oder Find Mac Cumail (auch Mac Umaill, MacCool), ist ein irischer Held aus der mittelalterlichen Epik. Er ist die namensgebende Hauptperson im Finn-Zyklus. |
+| fionn-mac-cumhaill-c07 | exact | de.wikipedia.org | Fionn has healing hands (heilende Hände); whoever he gives water (Wasser) recovers; he learns combat from his aunt (Tante) Los Lurgann and gets the sword (Schwert) Mac an Luinn from his mother Muirne. | Er hat „heilende Hände“ – wem er Wasser reicht, der wird wieder gesund. Er lernt Kampfkunststücke bei seiner Tante Los Lurgann („Schnellfuß“) und erhält sein Schwert Mac an Luinn von seiner Mutter Muirne. |
+| fionn-mac-cumhaill-c08 | exact | de.wikipedia.org | In later tales Fionn is a good warrior (Krieger) and seer (Seher), late in life envious (neidisch) and vengeful (rachsüchtig) in Diarmuid und Gráinne. | In den jüngeren Berichten ist Fionn ein positiv gezeichneten Krieger und Seher, gegen Ende seines Lebens wird er als neidisch und rachsüchtig dargestellt (Diarmuid und Gráinne). |
 
 
 ## manannan-mac-lir — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| manannan-mac-lir-c01 | exact | en.wikipedia.org | Manannán mac Lir is documented as manann known warrior in regional lore. | Manannán or Manann , also known as Manannán mac Lir ('son of the Sea'), is a sea god, warrior and king of the otherworld in Gaelic (Irish, Manx and Scottish) mythology who is one of the Tuatha Dé Danann . |
+| manannan-mac-lir-c01 | exact | en.wikipedia.org | Manannán (Manann, Manannán mac Lir, son of the Sea) is a sea god, warrior and otherworld king of Gaelic (Irish, Manx, Scottish) myth, one of the Tuatha Dé Danann. | Manannán or Manann , also known as Manannán mac Lir ('son of the Sea'), is a sea god, warrior and king of the otherworld in Gaelic (Irish, Manx and Scottish) mythology who is one of the Tuatha Dé Danann . |
+| manannan-mac-lir-c02 | exact | en.wikipedia.org | He rules and guards the otherworld: Emain Ablach (Isle of Apple Trees), Mag Mell (Plain of Delights), Tír Tairngire (Land of Promise). | He is seen as a ruler and guardian of the otherworld and his dominion is referred by such names as Emain Ablach (or Emhain Abhlach , 'Isle of Apple Trees'), Mag Mell ('Plain of Delights'), or Tír Tairngire ('Land of Promise'). |
+| manannan-mac-lir-c03 | exact | en.wikipedia.org | He owns the boat Sguaba Tuinne (Wave-sweeper), the horse Aonbharr that runs over water and land, and the sword Fragarach. | He is said to own a self-navigating boat named Sguaba Tuinne ('Wave-sweeper'), a horse Aonbharr which can course over water as well as land and a deadly strength-sapping sword named Fragarach |
+| manannan-mac-lir-c04 | exact | en.wikipedia.org | In Scottish and Manx legend he is Manannan beg mac y Leir; the Isle of Man (Mannin) is named after him; cognate with the Welsh Manawydan fab Llŷr. | Manannán appears also in Scottish and Manx legend, where he is known as Manannan beg mac y Leir ('little Manannan, son of the Sea'). The Isle of Man (Mannin ) is generally thought to be named after him, though some have said he is named after the island. He is cognate with the Welsh figure Manawydan fab Llŷr . |
+| manannan-mac-lir-c05 | exact | en.wikipedia.org | His name is Manandán in Old Irish, Manannán in Modern Irish and Mannan in Manx Gaelic. | His name is spelt Manandán in Old Irish, Manannán in Modern Irish, Manannàn in Scottish Gaelic and Mannan in Manx Gaelic. |
+| manannan-mac-lir-c06 | exact | id.wikipedia.org | Manannán is seen as the guardian of the Otherworld (penjaga dunia lain) who frees souls into the afterlife (alam baka). | Ia dipandang sebagai 'the guardian of the Otherworld (penjaga dunia lain) dan salah satu yang membebaskan jiwa-jiwa ke alam baka. |
+| manannan-mac-lir-c07 | exact | id.wikipedia.org | Manannán is also known as Oirbsiu or Oirbsen, from whom Lough Corrib takes its name. | Manannán juga dikenal sebagai Oirbsiu atau Oirbsen, asal Lough Corrib mengambil namanya. |
+| manannan-mac-lir-c08 | exact | id.wikipedia.org | Manannán is identified with the trickster (sosok penipu) in Bodach an Chóta Lachtna. | Manannán selanjutnya diidentifikasikan dengan sosok penipu dalam Bodach an Chóta Lachtna |
+| manannan-mac-lir-c09 | exact | en.wikipedia.org | After the coming of humans (Milesians) Manannán is over-king of the surviving Tuatha Dé and uses the féth fíada mist to hide his home. | He is described as over-king of the surviving Tuatha Dé after the advent of humans (Milesians) and uses the mist of invisibility (féth fíada ) to cloak the whereabouts of his home as well as the sidhe dwellings of the others. |
 
 
 ## welsh-dragon — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| welsh-dragon-c01 | exact | en.wikipedia.org | Welsh Dragon is documented as welsh dragon welsh in regional lore. | The Welsh Dragon (Welsh: y Ddraig Goch , meaning 'the red dragon', pronounced [ə ˈðraiɡ ˈɡoːχ] ) is a heraldic symbol that represents Wales and appears on the national flag of Wales. |
+| welsh-dragon-c01 | exact | en.wikipedia.org | The Welsh Dragon (y Ddraig Goch, the red dragon) is a heraldic symbol of Wales on its national flag. | The Welsh Dragon (Welsh: y Ddraig Goch , meaning 'the red dragon', pronounced [ə ˈðraiɡ ˈɡoːχ] ) is a heraldic symbol that represents Wales and appears on the national flag of Wales. |
+| welsh-dragon-c02 | exact | en.wikipedia.org | The red dragon appears in the Mabinogion tale of Lludd and Llefelys, confined and fighting a white dragon at Dinas Emrys. | The red dragon appears in the ancient Mabinogion story of Lludd and Llefelys where it is confined, battling with an invading white dragon, at Dinas Emrys. |
+| welsh-dragon-c03 | exact | en.wikipedia.org | In the Historia Brittonum (c. 829 AD), Gwrtheyrn, King of the Britons, is told by the boy Emrys to dig up two dragons; the Anglo-Saxon white dragon will be beaten by the red dragon of Wales. | The story continues in the Historia Brittonum , written around AD 829, where Gwrtheyrn, King of the Britons is frustrated in attempts to build a fort at Dinas Emrys. He is told by a boy, Emrys, to dig up two dragons fighting beneath the castle. He discovers the white dragon representing the Anglo-Saxons, which is soon to be defeated by the red dragon of Wales. |
+| welsh-dragon-c04 | exact | en.wikipedia.org | Celtic Briton leaders personified as dragons include Maelgwn Gwynedd, Mynyddog Mwynfawr and Urien Rheged; later Owain Gwynedd, Llywelyn ap Gruffydd and Owain Glyndŵr. | Ancient leaders of the Celtic Britons that are personified as dragons include Maelgwn Gwynedd, Mynyddog Mwynfawr and Urien Rheged. Later Welsh "dragons" include Owain Gwynedd, Llywelyn ap Gruffydd and Owain Glyndŵr. |
+| welsh-dragon-c05 | exact | en.wikipedia.org | The red dragon now symbolises Wales, on the national flag official since 1959. | The red dragon is now seen as symbolising Wales, present on the current national flag of Wales, which became an official flag in 1959. |
+| welsh-dragon-c06 | exact | id.wikipedia.org | The oldest recorded use of the dragon for Wales is in the Historia Brittonum (c. 829 AD), but it is popularly seen as the battle standard of King Arthur (Raja Arthur) and ancient Celtic leaders. | Penggunaan naga tertua yang tercatat untuk melambangkan Wales adalah dalam Historia Brittonum, yang ditulis sekitar tahun 829 M, tetapi secara populer dianggap sebagai standar pertempuran Raja Arthur dan para pemimpin Celtic kuno lainnya. |
+| welsh-dragon-c07 | exact | id.wikipedia.org | Under the Tudor kings the red dragon supported the arms of the Kingdom of England (Kerajaan Inggris); today the Welsh Government (Pemerintah Welsh), the Senedd and others use it. | Selama pemerintahan raja Tudor (mereka sendiri berasal dari Welsh), naga merah digunakan sebagai pendukung dalam lambang Kerajaan Inggris. Naga merah sering dianggap melambangkan segala hal Welsh, dan digunakan oleh banyak institusi publik dan swasta. Ini termasuk Pemerintah Welsh, Senedd, Visit Wales |
+| welsh-dragon-c08 | exact | en.wikipedia.org | Military use of the term dragon (Latin draco) dates back to the Roman period. | The military use of the term "dragon" (in Latin, "draco") dates back to the Roman period |
 
 
 ## imp — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| imp-c01 | exact | en.wikipedia.org | Imp is documented as european mythological similar in regional lore. | An imp is a European mythological being similar to a fairy or demon, frequently described in folklore and superstition. |
+| imp-c01 | exact | en.wikipedia.org | An imp is a European mythological being like a fairy or demon in folklore and superstition; the word may come from ympe. | An imp is a European mythological being similar to a fairy or demon, frequently described in folklore and superstition. The word may perhaps derive from the term ympe, used to denote a young grafted tree. |
+| imp-c02 | exact | en.wikipedia.org | Imps are mischievous rather than dangerous, lesser beings, sometimes the devil's attendants, lively and small. | Imps are often described as troublesome and mischievous more than seriously threatening or dangerous, and as lesser beings rather than more important supernatural beings. The attendants of the devil are sometimes described as imps. They are usually described as lively and having small stature. |
+| imp-c03 | exact | en.wikipedia.org | Old English impa meant a young shoot, then a noble scion or child; from the 16th century "imp of hell", and by the 17th a small demon, a witch's familiar. | The Old English noun impa meant a young shoot or scion of a plant or tree, and later came to mean the scion of a noble house, or a child in general. Starting in the 16th century, it was often used in expressions like "imps of serpents", "imp of hell", "imp of the devil", and so on; and by the 17th century, it came to mean a small demon, a familiar of a witch. |
+| imp-c04 | exact | en.wikipedia.org | Unlike Christian folklore, Germanic demons were not always evil; imps were mischievous, and in some religions attendants of the gods. | Unlike the Christian folklore, demons in Germanic legends were not necessarily always evil. Imps were often mischievous rather than evil or harmful. In some religions, they were attendants of the gods. |
+| imp-c05 | exact | en.wikipedia.org | A 14th-century Lincolnshire legend: the devil came with two imps who wrecked the cathedral; an angel ordered them to stop, and the imp that threw a rock was petrified. | A legend in Lincolnshire dating to the 14th-century recounts that the devil, being annoyed with the completion of the cathedral, paid a visit, accompanied by two imps who proceeded to wreak havoc in the building. An angel appeared and ordered them to stop. One turned to throw a rock at the angel and was instantly petrified. |
+| imp-c06 | exact | en.wikipedia.org | The Lincoln Imp statue in Lincoln Cathedral, England, is now a symbol of the city. | A statue of the Lincoln Imp inside the medieval Lincoln Cathedral in Lincoln, England. It has now become a symbol of the city. |
+| imp-c07 | exact | id.wikipedia.org | The Imp is a European (Eropa) mythological being like a fairy (peri) or demon in folklore and superstition (takhayul). | Imp adalah makhluk mitologi Eropa yang mirip dengan peri atau demon, yang sering digambarkan dalam cerita rakyat dan takhayul. |
+| imp-c08 | exact | id.wikipedia.org | The servants of the Devil (Sang Iblis) are sometimes depicted as imps, lively and small (bertubuh kecil). | Para pelayan Sang Iblis terkadang digambarkan sebagai sosok imp. Mereka biasanya digambarkan sebagai sosok yang lincah dan bertubuh kecil. |
 
 
 ## brownie-folklore — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| brownie-folklore-c01 | exact | en.wikipedia.org | Brownie (folklore) is documented as creature information names in regional lore. | Creature information Other names Brounie Urisk Brùnaidh Ùruisg Gruagach Grouping Legendary creature Sub grouping Fairy Goblin Household spirit Origin First attested In folklore Country Scotland, England, and Ireland Details Found within the home |
+| brownie-folklore-c01 | exact | en.wikipedia.org | The brownie (broonie; brùnaidh, gruagach) is a household spirit or hobgoblin of Scottish folklore working at night, given a bowl of milk or cream by the hearth. | A brownie or broonie (Scots), also known as a brùnaidh or gruagach (Scottish Gaelic), is a household spirit or hobgoblin from Scottish folklore that is said to come out at night while the owners of the house are asleep and perform various chores and farming tasks. The human owners of the house must leave a bowl of milk or cream or some other offering for the brownie, usually by the hearth. |
+| brownie-folklore-c02 | exact | en.wikipedia.org | Brownies are easily offended, leave forever if insulted, are mischievous and punish lazy servants. | Brownies are described as easily offended and will leave their homes forever if they feel they have been insulted or in any way taken advantage of. Brownies are characteristically mischievous and are often said to punish or pull pranks on lazy servants. |
+| brownie-folklore-c03 | exact | en.wikipedia.org | Brownies began as domestic tutelary spirits, like the Lares of ancient Roman tradition. | Brownies originated as domestic tutelary spirits, very similar to the Lares of ancient Roman tradition. |
+| brownie-folklore-c04 | exact | en.wikipedia.org | Brownies are ugly, brown-skinned, hairy; once human-sized, now small; can turn invisible and take animal shapes; leave if given clothes or baptized. | they are usually described as ugly, brown-skinned, and covered in hair. In the oldest stories, they are usually human-sized or larger. In more recent times, they have come to be seen as small and wizened. They are often capable of turning invisible, and they sometimes appear in the shapes of animals. |
+| brownie-folklore-c05 | exact | en.wikipedia.org | Variants in England and Scotland include hobs and ùruisgs; outside them the Welsh Bwbach and Manx Fenodyree. | Regional variants in England and Scotland include hobs, and ùruisgs. Variants outside England and Scotland are the Welsh Bwbach and the Manx Fenodyree. |
+| brownie-folklore-c06 | exact | id.wikipedia.org | The Brownie is a small hard-working fairy or hobgoblin in a house or barn, seldom seen, heard working at night, expecting porridge and honey (bubur, madu). | Brownie merupakan sejenis peri atau hobgoblin kecil yang rajin, dan dipercayai mendiami suatu rumah atau lumbung. Mereka jarang terlihat, tetapi sering terdengar di malam hari, membersihkan dan melakukan pekerjaan rumah. Sebagai imbalan atas kerja kerasnya, Brownie mengharapkan hadiah makanan, seperti bubur dan madu. |
+| brownie-folklore-c07 | exact | id.wikipedia.org | The Brownie is a mythological being popular in Scottish and English (Skotlandia, Inggris) folklore. | Brownie adalah makhluk mitologi yang populer dalam cerita rakyat di sekitar Skotlandia dan Inggris. |
+| brownie-folklore-c08 | exact | en.wikipedia.org | Brownies appear in John Milton's L'Allegro; the Brownies of the Girl Guides are named after a story by Juliana Horatia Ewing. | Brownies have also appeared outside of folklore, including in John Milton's poem L'Allegro. They became popular in works of children's literature in the late nineteenth century and continue to appear in works of modern fantasy. The Brownies in the Girl Guides are named after a short story by Juliana Horatia Ewing based on brownie folklore. |
+| brownie-folklore-c09 | exact | id.wikipedia.org | Brownies take the gift not as payment (pembayaran) but as a token of thanks (tanda penghargaan). | Namun mereka tidak menganggap hadiahnya tersebut sebagai pembayaran, tetapi hanya sebagai tanda penghargaan. |
+| brownie-folklore-c10 | exact | en.wikipedia.org | Brownies are always naked or in rags, and leave forever if given clothing or baptized. | They are always either naked or dressed in rags. If a person attempts to present a brownie with clothing or baptize it, it will leave forever. |
 
 
 ## selkie — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| selkie-c01 | exact | en.wikipedia.org | Selkie is documented as selkie faroese stamp in regional lore. | Selkie 2007 Faroese stamp depicting a selkie Creature information Grouping Mythological Similar entities |
+| selkie-c01 | exact | en.wikipedia.org | Selkies shapeshift between seal and human by removing or donning their seal skin; prominent in Celtic and Norse tradition. | Selkies are mythological creatures that can shapeshift between seal and human forms by removing or putting on their seal skin. They feature prominently in the oral traditions and mythology of various cultures, especially those of Celtic and Norse origin. |
+| selkie-c02 | exact | en.wikipedia.org | Selkie comes from the Scots word for seal; also silkies, selchies; called selkie fowk, seal folk. | The term "selkie" derives from the Scots word for "seal", and is also spelled as silkies, sylkies, or selchies. Selkies are sometimes referred to as selkie folk (Scots: selkie fowk ), meaning "seal folk". |
+| selkie-c03 | exact | en.wikipedia.org | Selkies are mainly tied to Scotland's Northern Isles, living as seals and shedding skin to be human on land. | Selkies are mainly associated with the Northern Isles of Scotland, where they are said to live as seals in the sea but shed their skin to become human on land. |
+| selkie-c04 | exact | en.wikipedia.org | Selkies are dual-natured, friendly or dangerous and vengeful; seductive in human form, often in love affairs with humans that produce children. | Selkies have a dual nature: they can be friendly and helpful to humans, but they can also be dangerous and vengeful. Selkies are often depicted as attractive and seductive in human form, and many stories involve selkies having romantic or sexual relationships with humans, sometimes resulting in children. |
+| selkie-c05 | exact | en.wikipedia.org | Selkies can be forced to marry by someone stealing their skin; such marriages are unhappy, and the selkie escapes if it finds its skin. | Selkies can also be coerced or tricked into marrying humans, usually by someone who steals and hides their seal skin, preventing them from returning to the sea. Such marriages are often unhappy, as the selkie always longs for the sea and may eventually escape if they find their skin. |
+| selkie-c06 | exact | id.wikipedia.org | Selkies are mythological beings of Irish, Scottish and Faroese (Irlandia, Skotlandia, Faroe) folklore; similar ones in Icelandic (Islandia) tradition. | adalah makhluk mitologi yang ditemukan di Irlandia, Skotlandia, dan cerita rakyat Faroe. Makhluk serupa juga dijelaskan dalam tradisi Islandia. |
+| selkie-c07 | exact | id.wikipedia.org | Male selkies are very handsome (tampan) and seduce women (perempuan), especially discontented fishermen's wives (nelayan). | Selkies laki-laki digambarkan sebagai sosok yang sangat tampan dalam bentuk manusia, dan memiliki kekuatan besar untuk menggoda manusia perempuan. Mereka biasanya mencari orang-orang yang tidak puas dengan kehidupan mereka, seperti wanita yang sudah menikah dan sedang menunggu suami nelayan mereka. |
+| selkie-c08 | exact | en.wikipedia.org | Selkies have counterparts elsewhere and are sometimes confused with mermaids or the finfolk. | Selkies have counterparts in other cultures. They are sometimes confused with other seal-like creatures, such as the mermaids or the finfolk. |
+| selkie-c09 | exact | id.wikipedia.org | The legend is most common in the Northern Isles (Kepulauan Northern) of Scotland and very like the swan-maiden (gadis angsa) tale. | Legenda ini rupanya yang paling umum di Kepulauan Northern dari Skotlandia dan ini sangat mirip dengan kisah gadis angsa. |
 
 
 ## pixie — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| pixie-c01 | exact | en.wikipedia.org | Pixie is documented as pixie called pisky in regional lore. | A pixie (also called pisky, pixy, pixi, pizkie, piskie, or pigsie in parts of Cornwall and Devon) is a mythical creature of British folklore. |
+| pixie-c01 | exact | en.wikipedia.org | A pixie (pisky, pixy, piskie or pigsie in Cornwall and Devon) is a mythical creature of British folklore. | A pixie (also called pisky, pixy, pixi, pizkie, piskie, or pigsie in parts of Cornwall and Devon) is a mythical creature of British folklore. |
+| pixie-c02 | exact | en.wikipedia.org | Pixies cluster in the moorlands of Cornwall and Devon, suggesting a Celtic origin; the word also appears in Dorset, Somerset and elsewhere. | Pixies are speculated to be particularly concentrated in the high moorland areas around Cornwall and Devon, suggesting some Celtic origin for the belief and name. However, the word 'pixie' (under various forms) also appears in Dorset, Somerset and to a lesser extent in Sussex, Wiltshire and Hampshire. |
+| pixie-c03 | exact | en.wikipedia.org | Like the Irish and Scottish Aos Sí, pixies inhabit ancient underground sites such as stone circles, barrows, dolmens, ringforts or menhirs. | Similar to the Irish and Scottish Aos Sí (also spelled Aos Sidhe), pixies are believed to inhabit ancient underground sites such as stone circles, barrows, dolmens, ringforts, or menhirs. |
+| pixie-c04 | exact | en.wikipedia.org | Pixies are generally benign, mischievous, short and childlike, dancing and wrestling outdoors through the night. | In traditional regional lore, pixies are generally benign, mischievous, short of stature, and childlike; they are fond of dancing and wrestling outdoors, which they perform through the night. |
+| pixie-c05 | exact | en.wikipedia.org | The term Pobel Vean (Little People) is used for them collectively. | The term Pobel Vean (Little People) is often used to refer to them collectively. |
+| pixie-c06 | exact | en.wikipedia.org | In west Penwith spriggans are distinguished from pixies by their malevolence. | In west Penwith, the area of late survival of the Cornish language, spriggans are distinguished from pixies by their malevolent nature |
+| pixie-c07 | exact | de.wikipedia.org | Pixies are small fabulous beings (kleine Fabelwesen) of English folklore (englischen Folklore) like kobolds (Kobolden) and fairies (Feen), in Devon and Cornwall. | Pixies sind kleine Fabelwesen aus der englischen Folklore, deren Charakteristika denen von Kobolden und Feen ähneln. Geschichten über diese Wesen sind im Südwesten Englands, in den Regionen Devon und Cornwall, verbreitet. |
+| pixie-c08 | exact | de.wikipedia.org | Pixies were beings not good enough for paradise (Paradies) nor bad enough for hell (Hölle), or druids (Druiden) who did not convert to Christianity (Christentum). | So sollen die pixies Wesen sein, die nicht gut genug für das Paradies und nicht schlecht genug für die Hölle waren und daher für ewig auf der Erde bleiben mussten. Nach einer anderen Geschichte sind die pixies Druiden, die nicht zum Christentum konvertierten und zur Strafe von Gott so lange geschrumpft wurden, bis sie sich zum Christentum bekannten. |
+| pixie-c09 | exact | en.wikipedia.org | The origin of pixie is uncertain; perhaps Swedish dialect pyske, 'small fairy'. | The origin of the word pixie is uncertain. It could have come from the Swedish dialectal pyske, meaning 'small fairy'. |
 
 
 ## wight — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| wight-c01 | exact | en.wikipedia.org | Wight is documented as english wiht variously in regional lore. | In Old English, wiht has been variously translated as "wight", "creature" and "being". |
+| wight-c01 | exact | en.wikipedia.org | A wight is a being or thing in Germanic languages; in Old English anything, more specific in Middle English; in modern fantasy often undead. | A wight is a being or thing. This general meaning of the term is shared by its cognates in other Germanic languages, but their usages vary greatly over time and between regions. In Old English, it could refer to anything in existence, with more specificity arising in Middle English |
+| wight-c02 | exact | en.wikipedia.org | Wight is cognate with German Wicht, Old Norse vættr, Swedish vätte and Danish vætte. | "Wight" is further cognate with Scots: wicht , German: Wicht , Dutch: Wicht , Gothic: 𐍅𐌰𐌹𐌷𐍄𐍃 and Old Norse: vættr , the ancestor of Swedish: vätte , Danish: vætte and Icelandic: vættur . |
+| wight-c03 | exact | en.wikipedia.org | The eoten Grendel is called in Beowulf wiht unhaélo, that damned creature. | The eoten Grendel, who is described in Beowulf as wiht unhaélo ("that damned creature") |
+| wight-c04 | exact | en.wikipedia.org | The term is used for the dwarf of the XCIIIB charm and the eoten Grendel and the dragon in Beowulf. | The term is also used to refer to beings such as the dwarf which is the focus of the XCIIIB charm, and the eoten Grendel and the dragon in Beowulf. |
+| wight-c05 | exact | en.wikipedia.org | The word began to mean supernatural or unearthly beings, as in the 8th-century Lindisfarne Gospels. | The word began to acquire the sense of supernatural or unearthly beings, included in the 8th century Lindisfarne Gospels. |
+| wight-c06 | exact | de.wikipedia.org | Wichtel in tales (Märchen) and legends (Sagen) look human (menschenähnlich) but small, living in groups underground (unterirdisch), in caves (Höhlen) or corners of houses (Häusern). | Als Wichtel werden in Märchen, Sagen und Erzählungen Wesen bezeichnet, die von der Gestalt und Art her menschenähnlich sind, aber deutlich kleiner und in eigenen Gemeinschaften lebend. Sie tauchen meist in Gruppen auf, leben unterirdisch, in Höhlen oder in versteckten Ecken in den Häusern der Menschen. |
+| wight-c07 | exact | de.wikipedia.org | Wichtel is a diminutive (Diminutiv) of Wicht, which in old German (Altdeutschen) meant a living being (lebendes Wesen, Geschöpf). | Wichtel oder Wichtelmännchen ist ein Diminutiv von Wicht, einem Begriff, der im Altdeutschen allgemein für lebendes Wesen, Geschöpf stand. |
+| wight-c08 | exact | de.wikipedia.org | Wichtel are friendly (freundlich), help with daily work (täglichen Arbeit), and sometimes swap a human child (menschliches Kind). | Im Allgemeinen sind sie den Menschen gegenüber freundlich und helfen ihnen, meist unaufgefordert, bei der täglichen Arbeit. Bisweilen bitten sie ihrerseits die Menschen um Hilfe, manchmal tauschen sie ein menschliches Kind gegen ein eigenes aus. |
+| wight-c09 | exact | en.wikipedia.org | In modern fantasy, wights are often specifically undead. | In modern fantasy, wights are often specifically undead. |
 
 
 ## christmas-elf — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| christmas-elf-c01 | exact | en.wikipedia.org | Christmas elf is documented as english word derives in regional lore. | The English word elf derives from the álfar from Ancient Norse mythology. |
+| christmas-elf-c01 | exact | en.wikipedia.org | In English-speaking cultures Christmas elves live with Santa Claus at the North Pole as helpers, clad in green or red, with pointy ears and hats. | In English-speaking cultures, Christmas elves are diminutive elves that live with Santa Claus at the North Pole and act as his helpers. Christmas elves are usually depicted as green- or red-clad, with large, pointy ears and wearing pointy hats. |
+| christmas-elf-c02 | exact | en.wikipedia.org | They are humanoid or sometimes furry mammals; Santa's elves make toys in Santa's workshop and tend his reindeer. | They are most often depicted as humanoids, but sometimes as furry mammals with tails. Santa's elves are often said to make the toys in Santa's workshop and take care of his reindeer, among other tasks. |
+| christmas-elf-c03 | exact | en.wikipedia.org | The link of Christmas presents with elves has precedents in the Scandinavian nisse or tomte in the 19th century. | The association of Christmas presents with elves has precedents in the first half of the 19th century with the Scandinavian nisse or tomte |
+| christmas-elf-c04 | exact | en.wikipedia.org | In the 1823 poem A Visit from St. Nicholas, often attributed to Clement Clarke Moore, Santa Claus is called "a right jolly old elf". | In the 1823 poem A Visit from St. Nicholas (commonly known as 'Twas the Night Before Christmas), often attributed to Clement Clarke Moore, Santa Claus himself is described in line 45: "He was chubby and plump, a right jolly old elf". |
+| christmas-elf-c05 | exact | en.wikipedia.org | The image of elves in the workshop was popularized by Godey's Lady's Book on its 1873 Christmas cover. | The image of elves in the workshop was popularized by Godey's Lady's Book, with a front cover illustration for its 1873 Christmas issue showing Santa surrounded by toys and elves |
+| christmas-elf-c06 | exact | en.wikipedia.org | By 1891 the saint had merged with Tomten, a farm guardian; through Jenny Nyström the figure became Jultomten. | Prior to the influence of Saint Nicholas in Sweden, the job of giving out gifts was done by the Yule goat. By 1891, the saint had merged with Tomten, which was previously an elfish / dwarfish farm guardian. Following the work of Jenny Nyström, this hybrid figure became known as Jultomten. |
+| christmas-elf-c07 | exact | id.wikipedia.org | In American, Canadian, Irish and British (Amerika, Kanada, Irlandia, Inggris) culture, Christmas elves live with Santa (Sinterklas) at the North Pole (Kutub Utara) as helpers. | Dalam budaya Amerika, Kanada, Irlandia, dan Inggris, kurcaci Natal adalah kurcaci yang tinggal dengan Sinterklas di Kutub Utara dan bertindak sebagai pembantunya. |
+| christmas-elf-c08 | exact | en.wikipedia.org | Europe had elf-like beings such as kobolds from Germany and brownies in Scotland. | In various regions of Europe there were similar supernatural beings that can be connected to elves, such as kobolds from Germany and house spirits named brownies in Scotland. |
+| christmas-elf-c09 | exact | en.wikipedia.org | The 2003 Christmas film Elf. | Sailors aboard USS Harry S. Truman watch a screening of the 2003 Christmas film Elf |
 
 
 ## gremlin — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| gremlin-c01 | exact | en.wikipedia.org | Gremlin is documented as gremlin mischievous fictional in regional lore. | A gremlin is a mischievous fictional creature invented at the beginning of the 20th century originally to explain malfunctions in aircraft, and later in other machinery, processes and their operators. |
+| gremlin-c01 | exact | en.wikipedia.org | A gremlin is a mischievous fictional creature invented in the early 20th century to explain aircraft and later machine malfunctions; depictions vary. | A gremlin is a mischievous fictional creature invented at the beginning of the 20th century originally to explain malfunctions in aircraft, and later in other machinery, processes and their operators. Depictions of these creatures vary widely. |
+| gremlin-c02 | exact | en.wikipedia.org | The term for an aircraft saboteur arose in Royal Air Force (RAF) slang among British pilots in Malta, the Middle East and India in the 1920s; earliest print a poem in Aeroplane in Malta, 10 April 1929. | Use of the term in the sense of a mischievous creature that sabotages aircraft first arose in Royal Air Force (RAF) slang among British pilots stationed in Malta, the Middle East and India in the 1920s, with the earliest printed record in a poem published in the journal Aeroplane in Malta on 10 April 1929. |
+| gremlin-c03 | exact | en.wikipedia.org | Folklorist John W. Hazen: some derive the name from Old English gremian, to vex; Carol Rose links it to Grimm's Fairy Tales and Fremlin beer. | the folklorist John W. Hazen states that some people derive the name from the Old English word gremian, "to vex", while Carol Rose, in her book Spirits, Fairies, Leprechauns, and Goblins: An Encyclopedia, attributes the name to a portmanteau of Grimm's Fairy Tales and Fremlin Beer. |
+| gremlin-c04 | exact | en.wikipedia.org | Flight crews blamed gremlins for inexplicable accidents; enemy aircraft turned out to have the same problems. | The flight crews blamed gremlins for otherwise inexplicable accidents which sometimes occurred during their flights. Gremlins were also thought at one point to have enemy sympathies, but investigations revealed that enemy aircraft had similar and equally inexplicable mechanical problems. |
+| gremlin-c05 | exact | en.wikipedia.org | According to Paul Quinion, the term may blend goblin with Fremlin, the commonest beer in the RAF in the 1920s. | According to Paul Quinion, it is plausible that the term is a blend of the word "goblin" with the name of the manufacturer of the most common beer available in the RAF in the 1920s, Fremlin. |
+| gremlin-c06 | exact | de.wikipedia.org | The British writer (britische Schriftsteller) Roald Dahl, who served in the Royal Air Force, published The Gremlins in 1943. | Der britische Schriftsteller Roald Dahl, der auch in der Royal Air Force gedient hatte, veröffentlichte 1943 „The Gremlins“. |
+| gremlin-c07 | exact | de.wikipedia.org | The Gremlin, like other kinds of kobold (Koboldarten), loves mischief (Schabernack), above all with machines (maschinellen) and technology (technischen). | Der Gremlin hat, wie viele andere Koboldarten auch, Spaß am Schabernack, vor allem im maschinellen und technischen Bereich. |
+| gremlin-c08 | exact | en.wikipedia.org | The gremlin concept was popularized in World War II among Royal Air Force airmen. | This concept of gremlins was popularized during World War II among airmen of the Royal Air Force (RAF) units |
 
 
 ## lir — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| lir-c01 | exact | en.wikipedia.org | Lir is documented as meaning irish nominative in regional lore. | Lir or Ler (meaning "Sea" in Old Irish; Ler and Lir are the nominative and genitive forms, respectively) is a sea god in Irish mythology. |
+| lir-c01 | exact | en.wikipedia.org | Lir or Ler (Old Irish 'Sea') is a sea god of Irish mythology, a personification of the sea, called Allód in early genealogies, matching Llŷr of Welsh mythology. | Lir or Ler (meaning "Sea" in Old Irish; Ler and Lir are the nominative and genitive forms, respectively) is a sea god in Irish mythology. His name suggests that he is a personification of the sea, rather than a distinct deity. He is named Allód in early genealogies, and corresponds to the Llŷr of Welsh mythology. |
+| lir-c02 | exact | en.wikipedia.org | Lir is chiefly an ancestor, father of the god Manannán mac Lir of medieval Irish literature. | Lir is chiefly an ancestor figure, and is the father of the god Manannán mac Lir, who appears frequently in medieval Irish literature. |
+| lir-c03 | exact | en.wikipedia.org | Lir, like the Welsh Llŷr, is a sea god; in Gaelic myth his son Manannán mac Lir takes over his place. | Lir, like his Welsh counterpart Llŷr, is a god of the sea, though in the case of the Gaelic myths his son Manannán mac Lir seems to take over his position and so features more prominently. |
+| lir-c04 | exact | en.wikipedia.org | Lir is key in The Children of Lir, perhaps not Manannán's father; he was Bodb Dearg's rival for the kingship of the Tuatha Dé Danann. | Lir is a key character in the mythological story The Children of Lir; however, it is not definitely established whether this is the same person as Manannán's father or a different Lir. The Lir in this story was the rival of Bodb Dearg for the kingship of the Tuatha Dé Danann after their retreat into the fairy mounds. |
+| lir-c05 | exact | en.wikipedia.org | Bodb gave Lir his daughter Aeb; they had Fionnuala, Aed, Fiachra and Conn. | In order to appease Lir, Bodb gave one of his daughters to marry him, Aeb. The couple had four children, one girl, Fionnuala, and three sons, Aed and twins, Fiachra and Conn. |
+| lir-c06 | exact | de.wikipedia.org | Lir married Aobh's sister (Schwester) Aoife, who from jealousy (Eifersucht) turned the children (Kinder) into swans (Schwäne); they wandered for 900 years (Jahre). | Lir heiratete daraufhin Aobhs Schwester Aoife, die jedoch kinderlos bleibt und aus Eifersucht und Neid versucht, die Kinder ihrer Schwester zu töten. Als sie dies doch nicht übers Herz bringt, verwandelt sie die Kinder stattdessen in Schwäne. Die vier Kinder müssen 900 Jahre lang umherirren |
+| lir-c07 | exact | id.wikipedia.org | Ler ('Sea' in old Irish; Lir the genitive) is a sea god of Irish (Irlandia) mythology, a personification of the sea (laut). | Ler (berarti "Laut" dalam bahasa Irlandia kuno; Lir adalah bentuk genitif) adalah dewa laut dalam mitologi Irlandia. Nama-nya menunjukkan bahwa ia adalah personifikasi dari laut, bukan dewa yang berbeda. |
 
 
 ## nibelung — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| nibelung-c01 | exact | en.wikipedia.org | Nibelung is documented as term nibelung germanic in regional lore. | This article is about the term "Nibelung" in Germanic heroic legend. |
+| nibelung-c01 | exact | en.wikipedia.org | Nibelung (German) or Niflungr (Old Norse) is a personal or clan name of Germanic legend, tied to Nebel ('mist'), naming the Middle High German Nibelungenlied. | The term Nibelung (German) or Niflungr (Old Norse) is a personal or clan name with several competing and contradictory uses in Germanic heroic legend. It has an unclear etymology, but is often connected to the root of German Nebel , meaning 'mist'. The term in its various meanings gives its name to the Middle High German heroic epic the Nibelungenlied . |
+| nibelung-c02 | exact | en.wikipedia.org | Nibelung mostly names the Burgundian royal house, Gibichungen or Gjúkingar, led by Gunther or Gunnar, who killed Siegfried or Sigurd and were destroyed at Attila the Hun's court. | The most widespread use of the term Nibelung denotes the Burgundian royal house, also known as the Gibichungen (German) or Gjúkingar (Old Norse). A group of royal brothers led by king Gunther or Gunnar, the Gibichungs are responsible for the death of the hero Siegfried or Sigurd and are later destroyed at the court of Attila the Hun |
+| nibelung-c03 | exact | en.wikipedia.org | Nibelung also names the king and people of a mythical land of dwarfs and giants in the Nibelungenlied, origin of the hoard of the Nibelungs. | it refers to the king and inhabitants of a mythical land inhabited by dwarfs and giants in the first half of the Nibelungenlied, as well as to the father and one of two brothers fighting over a divided inheritance. This land and its inhabitants give their name to the "hoard of the Nibelungs" |
+| nibelung-c04 | exact | en.wikipedia.org | Medieval German documents other uses of Nibelung besides the Gibichungs. | In medieval German, several other uses of the term Nibelung are documented besides the reference to the Gibichungs |
+| nibelung-c05 | exact | es.wikipedia.org | The nibelungos are a mythical people (pueblo mitológico) of Germanic (germanas) legend ruled by prince (príncipe) Nibelung, dark dwarfs (enanos oscuros) deep in the earth (tierra) mining gold (oro). | Los nibelungos (en alemán Nibelung, en nórdico antiguo Niflungr) son un pueblo mitológico de las leyendas germanas gobernado por el príncipe «Nibelung». Eran enanos oscuros que vivían en las profundidades de la tierra y se dedicaban a la extracción de metales preciosos, particularmente oro. |
+| nibelung-c06 | exact | es.wikipedia.org | They held a treasure (tesoro) at the bottom of the Rin (Rhine) stolen from the nymphs (ninfas); their king owned a cursed magic ring (anillo); Sigfrido killed Nibelung and Schilbung over sharing the hoard. | Poseían un enorme tesoro que se encontraba en el fondo del río Rin y que habían robado a las ninfas que lo custodiaban. El rey de los nibelungos poseía un anillo que tenía poderosas propiedades mágicas y atraía la desgracia a su portador. El caballero Sigfrido mató a los príncipes nibelungos Nibelung y Schilbung tras discutir con ellos sobre la forma de repartir el tesoro. |
+| nibelung-c07 | exact | es.wikipedia.org | The composer (compositor) Richard Wagner wrote a cycle of four operas (óperas), El anillo del nibelungo, based on these legends. | Posteriormente, el compositor Richard Wagner, basándose en estas leyendas mitológicas, compuso un ciclo de cuatro óperas titulado El anillo del nibelungo |
 
 
 ## borvo — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| borvo-c01 | exact | en.wikipedia.org | Borvo is documented as borvo bormo ancient in regional lore. | Borvo, also Bormo, was an ancient Celtic god of thermal and healing springs. |
+| borvo-c01 | exact | en.wikipedia.org | Borvo (Bormo) was a Celtic god of thermal and healing springs in Roman Gaul and the Iberian Peninsula; equated with Apollo, at Aix-en-Provence with Hercules; his partner was Damona. | Borvo, also Bormo, was an ancient Celtic god of thermal and healing springs. His cult is attested across a wide area of Roman Gaul and reached the northwest of the Iberian Peninsula. Under the interpretatio romana he was usually identified with Apollo, and at Aix-en-Provence instead with Hercules. His most frequent divine partner was the goddess Damona. |
+| borvo-c02 | exact | en.wikipedia.org | The Gaulish name Boruō means 'hot spring', from Proto-Celtic berw-, 'boil'. | The Gaulish theonym Boruō means 'hot spring', 'warm source'. It stems from the Proto-Celtic verbal root berw- ('boil, brew' |
+| borvo-c03 | exact | en.wikipedia.org | Borvo is god of warm curative spring waters; evidence is almost all votive inscriptions at Gallo-Roman spas. | Borvo is generally interpreted as a god of the warm, welling waters of thermal springs, which were held to be curative. The evidence for his worship is almost entirely epigraphic, in the form of votive dedications set up at Gallo-Roman spa sites. |
+| borvo-c04 | exact | en.wikipedia.org | A relief from Entrains shows him with goblet, money bag and fruit; one from Vichy shows him naked on a rock with a bubbling cup. | A relief from Entrains shows him with a goblet, a money bag and a plate of fruit, features that have been taken to mark a god of plenty and wealth. A relief from Vichy shows him seated naked on a rock, holding a cup from which liquid bubbles over. |
+| borvo-c05 | exact | en.wikipedia.org | Many spring-town names derive from Borvo, including Bourbon, Bourbonne and La Bourboule. | Numerous toponyms of settlements linked to springs are derived from Borvo or Bormo, including Bourbon, Bourbonne, Boulbon, Bormes, Bourbriac, La Bourboule and Worms. |
+| borvo-c06 | exact | de.wikipedia.org | Bormo (Borvo, Bormanus, deus Bormanicus in Portugal) is a Celtic healing god (keltischen Heil-Gottes). | Bormo, auch Borvo, Bormanus oder deus Bormanicus (im heutigen Portugal), ist der Name eines keltischen Heil-Gottes. |
+| borvo-c07 | exact | de.wikipedia.org | Borvo/Bormo survives in the French place names (französischen Ortsnamen) Bourbonne-les-Bains and Bourbon-Lancy. | Borvo/Bormo ist noch heute in den französischen Ortsnamen Bourbonne-les-Bains (Département Haute-Marne) und Bourbon-Lancy (Département Saône-et-Loire) zu finden. |
+| borvo-c08 | exact | de.wikipedia.org | The name Borvo derives from the Celtic word for boil (kochen), linked to his role as local god of hot springs (heißen Quellen). | Der Name Borvo wird vom keltischen Wort für „kochen“ hergeleitet, er hängt mit seiner Funktion als Lokalgottheit bei heißen Quellen zusammen („der Kochende/Sprudelnde“). |
 
 
 ## nuckelavee — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| nuckelavee-c01 | exact | en.wikipedia.org | Nuckelavee is documented as nuckelavee nuckalavee horse in regional lore. | The nuckelavee ( /nʌklɑːˈviː/) or nuckalavee is a horse-like demon from Orcadian folklore that combines equine and human elements. |
+| nuckelavee-c01 | exact | en.wikipedia.org | The nuckelavee is a horse-like demon of Orcadian folklore, seeming a horseman but a fleshless one-eyed finned horse with a fleshless human torso on its back. | is a horse-like demon from Orcadian folklore that combines equine and human elements. If one was looking casually, or under the cover of shadow in the night, it was thought to have the silhouette of a normal horseman. However, upon further inspection, it resembles a fleshless horse which sports one eye and fins on its legs |
+| nuckelavee-c02 | exact | en.wikipedia.org | British folklorist Katharine Briggs called it the nastiest of the demons of Scotland's Northern Isles. | British folklorist Katharine Briggs called it "the nastiest" of all the demons of Scotland's Northern Isles. |
+| nuckelavee-c03 | exact | en.wikipedia.org | The nuckelavee's breath wilts crops and sickens livestock; it was blamed for droughts and epidemics though it lives in the sea. | The nuckelavee's breath was thought to wilt crops and sicken livestock and the creature was held responsible for droughts and epidemics on land despite being predominantly a sea-dweller. |
+| nuckelavee-c04 | exact | en.wikipedia.org | Like other sea monsters it cannot tolerate fresh water; those it chases need only cross a stream. | In common with many other sea monsters, it is unable to tolerate fresh water. Therefore, those it is pursuing have only to cross a river or stream to be rid of it. |
+| nuckelavee-c05 | exact | en.wikipedia.org | The nuckelavee is confined in summer by the Mither o' the Sea, an ancient Orcadian spirit who controls it. | The nuckelavee is kept in confinement during the summer months by the Mither o' the Sea, an ancient Orcadian spirit, and the only one able to control it. |
+| nuckelavee-c06 | exact | en.wikipedia.org | Nuckelavee comes from Orcadian knoggelvi, per Walter Traill Dennison of Orkney 'Devil of the Sea'; in Shetland it is mukkelevi. | The term nuckelavee derives from Orcadian knoggelvi, and according to Orkney resident and 19th-century folklorist Walter Traill Dennison means "Devil of the Sea". The same demon is called a mukkelevi in Shetland |
+| nuckelavee-c07 | exact | en.wikipedia.org | Orcadian folklore had strong Scandinavian influence; the nuckelavee may blend a Celtic water horse with a creature of the Norsemen; like the kelpie it explained puzzling events. | Orcadian folklore had a strong Scandinavian influence, and it may be that the nuckelavee is a composite of a water horse from Celtic mythology and a creature imported by the Norsemen. As with similar malevolent entities such as the kelpie, it possibly offered an explanation for incidents that islanders in ancient times could not otherwise understand. |
+| nuckelavee-c08 | exact | id.wikipedia.org | The nuckelavee is a horse-like evil spirit (roh jahat) of Orkney folklore (cerita rakyat Orkney) combining horse and human. | Nuckelavee (pengucapan: /nʌklɑːˈviː/) atau nuckalavee adalah roh jahat serupa kuda dari cerita rakyat Orkney yang menggabungkan elemen kuda dan manusia. |
 
 
 ## barghest — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| barghest-c01 | exact | en.wikipedia.org | Barghest is documented as recounts tale ventures in regional lore. | It recounts the tale of a man who ventures forth "to the horrid gill of the limestone hill" in order to summon and confront the Barghest in an act of ritual magic. |
+| barghest-c01 | exact | en.wikipedia.org | In Northern English folklore the Barghest (Barguest) is a monstrous black dog with large teeth and claws, or a ghost or household elf in Northumberland and Durham, like the Cauld Lad of Hylton. | In Northern English folklore, the Barghest or Barguest is a mythical monstrous black dog with large teeth and claws; however, in other cases, the name can refer to a ghost or household elf, especially in Northumberland and Durham, such as the Cauld Lad of Hylton. |
+| barghest-c02 | exact | en.wikipedia.org | Ghost was pronounced guest in Northern England, so the name may be burh-ghest; or from German Berg-geist, Bär-geist or Bahr-Geist. | "Ghost" in Northern England was pronounced "guest", and the origin is thought to be of the combination burh-ghest, "town-ghost". Others explain it as cognate to German Berg-geist, "mountain ghost" or Bär-geist, "bear-ghost". Another mooted derivation is Bahr-Geist, German for the "spirit of the funeral bier". |
+| barghest-c03 | exact | en.wikipedia.org | In Yorkshire, England, a Barghest haunts the gorge of Troller's Gill in the Yorkshire Dales; the ballad The Legend of the Troller's Gill is in William Hone's Everyday Book (1830). | In Yorkshire, England, one notable case is said to frequent a remote gorge named Troller's Gill in the Yorkshire Dales. A ballad entitled "The Legend of the Troller's Gill" can be found in William Hone's Everyday Book (1830). |
+| barghest-c04 | exact | en.wikipedia.org | In 1870s Durham a shapeshifting Barghest near Darlington took the form of a headless man or lady, a white cat, rabbit or black dog. | In Durham, during the 1870s a shapeshifting Barghest was said to live near Darlington and was said to take the form of a headless man (who would vanish in flames), a headless lady, a white cat, a rabbit, a dog, or a black dog. |
+| barghest-c05 | exact | en.wikipedia.org | The Barghest is an omen of death; at a notable death it appears followed by the local dogs in a funeral procession. | The Barghest often allegedly serves as an omen of death. At the passing of a notable person the Barghest may appear, followed by all the other dogs of the local area in a kind of funeral procession, heralding the person's death with howling and barking. |
+| barghest-c06 | exact | en.wikipedia.org | Besides a fiery-eyed black dog it can go invisible with rattling chains, foretell death lying across a threshold, and like the vampire cannot cross rivers. | Besides taking the form of a large black dog with fiery eyes, it may also become invisible and walk about with the sound of rattling chains. It may also foretell the death of an individual by lying across the threshold of his or her house, and like the vampire the Barghest is unable to cross rivers. |
+| barghest-c07 | exact | de.wikipedia.org | The Barghest (Bargtjest, Bo-guest, Bargest) is a mythical black dog (mythischer Schwarzer Hund) believed in northern England (Norden Englands), especially Yorkshire. | Der Barghest (auch „Bargtjest“, „Bo-guest“ oder „Bargest“) ist ein mythischer Schwarzer Hund, an den man im Norden Englands, insbesondere in Yorkshire, glaubte. |
+| barghest-c08 | exact | de.wikipedia.org | A tale says it sometimes enters the city (Stadt) of York to stalk lone travellers (einsamen Reisenden) in narrow streets. | Es gibt eine Geschichte, wonach er gelegentlich in die Stadt York eindringt und dann einsamen Reisenden auf den engen Straßen der Stadt auflauert. |
+| barghest-c09 | exact | de.wikipedia.org | Some say it is not a ghost (Geist) but a kobold (Kobold) able to turn into a dog (Hundeform). | Er soll kein Geist sein, sondern eher ein Kobold, der sich unter anderem in eine Hundeform verwandeln kann. |
 
 
 ## dullahan — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| dullahan-c01 | exact | en.wikipedia.org | Dullahan is documented as dullahan irish dubhlachan in regional lore. | The Dullahan (Irish: Dubhlachan; dúlachán, /ˈduːləˌhɑːn/) is a type of legendary creature in Irish folklore. |
+| dullahan-c01 | exact | en.wikipedia.org | The Dullahan (Dubhlachan, dúlachán) is a legendary creature of Irish folklore, a headless rider on a black horse or coachman carrying his own head. | The Dullahan (Irish: Dubhlachan; dúlachán, /ˈduːləˌhɑːn/) is a type of legendary creature in Irish folklore. He is depicted as a headless rider on a black horse, or as a coachman, who carries his own head. |
+| dullahan-c02 | exact | en.wikipedia.org | Per the lexicographer Edward O'Reilly, Dullahan (Dulachan), meaning a hobgoblin, signifies a dark, sullen person. | Dullahan or Dulachan (Irish: Dubhlachan [Duḃlaċan]) referring to "hobgoblin" (generic term; cf. Dullahan described as "unseelie (wicked) fairy"), literally "signifies dark, sullen person", according to the lexicographer Edward O'Reilly. |
+| dullahan-c03 | exact | en.wikipedia.org | The Dullahan is also called Colainn Gan Cheann, 'without a head' in Irish. | The Dullahan is also called Colainn Gan Cheann, meaning "without a head" in Irish. |
+| dullahan-c04 | exact | en.wikipedia.org | The Dullahan's vehicle is the Cóiste Gan Cheann (Headless Coach) or cóiste bodhar (Soundless Coach), in Hiberno-English coach-a-bower. | "Headless Coach" (Irish: Cóiste Gan Cheann ) or the "Soundless Coach" (literally "deaf coach", Irish: cóiste bodhar ; Hiberno-English: Coshta Bower, corrupted to "coach-a-bower") is the name given to the vehicle driven by the Dullahan. |
+| dullahan-c05 | exact | en.wikipedia.org | In Croker's tale the head looks like a large cream cheese hung with black puddings, ashen pale, with two fiery eyes flashing like meteors. | It looked like a large cream cheese hung round with black puddings: no speck of colour enlivened the ashy paleness of the depressed features; the skin lay stretched over the unearthly surface almost like the parchment head of a drum. Two fiery eyes of prodigious circumference, with a strange and irregular motion, flashed like meteors. |
+| dullahan-c06 | exact | de.wikipedia.org | The Dullahan (Gan Ceann, kopflos) of Irish mythology (irischen Mythologie) is an evil being (böses Wesen), a headless rider or knight (kopfloser Reiter, Ritter), usually fallen soldiers (Soldaten) and heroes (Helden). | Der Begriff Dullahan (im Irischen auch Gan Ceann, zu deutsch „kopflos“) stammt aus der irischen Mythologie und bezeichnet eine Art böses Wesen, welches als kopfloser Reiter oder auch kopfloser Ritter in Erscheinung tritt. Es handelt sich meist um gefallene Soldaten und Helden, die als Geistererscheinung in Form eines kopflosen Reiters weiterleben. |
+| dullahan-c07 | exact | de.wikipedia.org | Armed with armour (Rüstung), shield (Schild) and sword (Schwert), the Dullahan is read as a death omen (Todesomen); usually male (männliche), sometimes female (weiblich). | Mit Rüstung, Schild und Schwert bewaffnet ist der Dullahan in den meisten mythologischen Sagen als Todesomen zu deuten. Dullahan werden meist als männliche Wesen dargestellt, können jedoch auch weiblich sein. |
 
 
 ## herne-the-hunter — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| herne-the-hunter-c01 | exact | en.wikipedia.org | Herne the Hunter is documented as english folklore herne in regional lore. | In English folklore, Herne the Hunter is a ghost associated with Windsor Forest and Great Park in the English county of Berkshire. |
+| herne-the-hunter-c01 | exact | en.wikipedia.org | In English folklore Herne the Hunter is a ghost of Windsor Forest and Great Park in Berkshire, antlered, horse-riding, tormenting cattle and rattling chains. | In English folklore, Herne the Hunter is a ghost associated with Windsor Forest and Great Park in the English county of Berkshire. He is said to have antlers growing from his head, ride a horse, torment cattle, and rattle chains. |
+| herne-the-hunter-c02 | exact | en.wikipedia.org | Herne is first mentioned in William Shakespeare's 1597 play The Merry Wives of Windsor; how far it used a real local legend is unknown. | The earliest mention of Herne comes from William Shakespeare's 1597 play The Merry Wives of Windsor, and it is impossible to know how accurately or to what degree Shakespeare may have incorporated a real local legend into his work |
+| herne-the-hunter-c03 | exact | en.wikipedia.org | Shakespeare: all winter at midnight Herne walks round an oak with great ragged horns, blasts the tree, makes milch-kine yield blood and shakes a chain. | Doth all the winter-time, at still midnight Walk round about an oak, with great ragg'd horns; And there he blasts the tree, and takes the cattle, And makes milch-kine yield blood, and shakes a chain In a most hideous and dreadful manner. |
+| herne-the-hunter-c04 | exact | en.wikipedia.org | The 1602 first quarto says the ghost, Horne, was invented to scare children into obedience, walking the forest as a great stag. | The first quarto of the play from 1602 includes a different version of this text, which states that the ghost (spelled "Horne" in this version) was invented to scare children into obedience, and that mothers tell their children the tale of a ghost who walks the forest in the form of a great stag. |
+| herne-the-hunter-c05 | exact | en.wikipedia.org | Official versions call Herne the ghost of a former Windsor Forest keeper haunting an oak at midnight in winter. | Officially published versions of the play refer only to the tale of Herne as the ghost of a former Windsor Forest keeper who haunts a particular oak tree at midnight in the winter time. |
+| herne-the-hunter-c06 | exact | de.wikipedia.org | Herne is read as a god of the hunt (Gott der Jagd) and lord of game (Herr des Wildes), perhaps a local Anglo-Saxon (Angelsachsen) god of Windsor Forest; some equate him with Cernunnos. | Herne wird als Gott der Jagd und Herr des Wildes gedeutet. Vermutungen zufolge war Herne eine Lokalgottheit der Angelsachsen im Windsor Forest, einem Wald, der sich über die heutigen Grafschaften Berkshire, Buckinghamshire und Hampshire erstreckte. Man nimmt an, Herne sei identisch mit Cernunnos |
+| herne-the-hunter-c07 | exact | de.wikipedia.org | Others see Herne as a form of the Germanic god (germanischen Gottes) Odin in the Wild Hunt (Wilden Jagd). | Konträr dazu sieht man in Herne eine Erscheinungsform des germanischen Gottes Odin bei der Wilden Jagd. |
 
 
 ## nodens — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| nodens-c01 | exact | en.wikipedia.org | Nodens is documented as nodens nodons nudens in regional lore. | *Nodens, *Nodons or *Nudens (reconstructed from the dative Nodenti or Nodonti) is a Celtic healing god worshipped in Ancient Britain. |
+| nodens-c01 | exact | en.wikipedia.org | Nodens (from dative Nodenti or Nodonti) is a Celtic healing god of Ancient Britain; plaques at Lydney Park (Gloucestershire) link him with dogs. | (reconstructed from the dative Nodenti or Nodonti) is a Celtic healing god worshipped in Ancient Britain. Although no physical depiction of him has survived, votive plaques found in a shrine at Lydney Park (Gloucestershire) indicate his connection with dogs, a beast associated with healing symbolism in antiquity. |
+| nodens-c02 | exact | en.wikipedia.org | The deity is known at only one other place, Cockersand Moss (Lancashire). | The deity is known in only one other location, in Cockersand Moss (Lancashire). |
+| nodens-c03 | exact | en.wikipedia.org | He was equated with the Roman Mars as healer; his name is cognate with the Irish Nuada and Welsh Nudd. | He was equated on most inscriptions with the Roman god Mars (as a healer rather than as a warrior) and associated in a curse with Silvanus (a hunting-god). His name is cognate with that of later Celtic mythological figures, such as the Irish Nuada and the Welsh Nudd. |
+| nodens-c04 | exact | en.wikipedia.org | J. R. R. Tolkien investigated the Latin inscription; it may have shaped Middle-earth and Celebrimbor, whose name like Airgetlám means Silver-hand. | The philologist and author J. R. R. Tolkien was invited to investigate the Latin inscription, and scholars have noted several likely influences on his Middle-earth fantasy writings, including the Elvish smith, maker of Rings of Power, Celebrimbor, whose name, like that of Nuada's epithet Airgetlám, means 'Silver-hand'. |
+| nodens-c05 | exact | en.wikipedia.org | Nodens appears in Arthur Machen's works and H. P. Lovecraft's Cthulhu Mythos. | Nodens appears, too, in the works of Arthur Machen, as well as H. P. Lovecraft's Cthulhu Mythos. |
+| nodens-c06 | exact | de.wikipedia.org | Nodons (Nodens) is an old Celtic god (altkeltischer Gott) of Britain (Britannien), god of healing (Heilung), water (Wassers) and dogs (Hunde). | Nodons, auch Nodens, ist ein in Britannien verehrter altkeltischer Gott. Er wird als Gott der Heilung, des Wassers und der Hunde beschrieben. |
+| nodens-c07 | exact | de.wikipedia.org | At Lydney Park were found offerings naming Nodons, a bronze (Bronzestatue) of a four-horse (vier Pferden) chariot, and a monument of a man killing a fish (Fisch). | Neben Votivgaben, die den Namen Nodons tragen, wurde eine Bronzestatue gefunden, die einen von vier Pferden gezogenen Wagen darstellt, auf dem ein Mann mit einer Keule steht, sowie ein Monument, auf dem ein Mann einen Fisch tötet. |
 
 
 ## sulis — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| sulis-c01 | exact | en.wikipedia.org | Sulis is documented as localised celtic polytheism in regional lore. | In the localised Celtic polytheism practised in Great Britain, Sulis was a deity worshipped at the thermal spring of Bath. |
+| sulis-c01 | exact | en.wikipedia.org | Sulis was the deity of Bath's thermal spring, worshipped by the Romano-British as Sulis Minerva, a life-giving mother goddess and agent of curses. | Sulis was a deity worshipped at the thermal spring of Bath. She was worshipped by the Romano-British as Sulis Minerva, whose votive objects and inscribed lead tablets suggest that she was conceived of both as a nourishing, life-giving mother goddess and as an effective agent of curses invoked by her votaries. |
+| sulis-c02 | exact | en.wikipedia.org | Linguists increasingly see the name as cognate with Old Irish súil, eye. | an emerging consensus among linguists regards the name as cognate with Old Irish súil ("eye, sight"). |
+| sulis-c03 | exact | en.wikipedia.org | Sul was standard until a 1979 curse tablet from Aquae Sulis read dea Sulis, the only nominative instance. | Sul was the standard rendering until the 1979 discovery of a lead curse tablet from the sacred spring at Aquae Sulis which contained the phrase "dea Sulis," which is the first and only example preserving the deity's name in the nominative case. |
+| sulis-c04 | exact | en.wikipedia.org | The Romans called Bath Aquae Sulis, the waters of Sulis; she was likely a healing goddess. | Sulis was the local goddess of the thermal springs that still feed the spa baths at Bath, which the Romans called Aquae Sulis ("the waters of Sulis"). Sulis was likely venerated as a healing divinity, whose sacred hot springs could cure physical or spiritual suffering and illness. |
+| sulis-c05 | exact | en.wikipedia.org | According to Miranda Green the cult of Sulis at Bath lasted to the mid-fourth century CE. | According to scholar Miranda Green, the cult of Sulis at Bath was active until the mid-fourth century CE. |
+| sulis-c06 | exact | de.wikipedia.org | Sulis is a sun and healing goddess of the British Celts, equated with Minerva under the Interpretatio Romana. | Sulis ist eine Sonnen- und Heil-Gottheit der britannischen Kelten. Nach der Interpretatio Romana wurde sie der Göttin Minerva gleichgesetzt. |
+| sulis-c07 | exact | en.wikipedia.org | Over 12,500 Roman and 18 Celtic coins were found in the reservoir. | with over 12,500 Roman coins and 18 Celtic coins having been found in the reservoir. |
+| sulis-c08 | exact | en.wikipedia.org | About 130 curse tablets, mostly to Sulis, were found in the sacred spring at Bath's Roman baths. | About 130 curse tablets, mostly addressed to Sulis, have been found in the sacred spring at the Roman baths in Bath. |
 
 
 ## boann — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| boann-c01 | exact | en.wikipedia.org | Boann is documented as boann boand irish in regional lore. | Boann or Boand is the Irish goddess of the River Boyne (Bóinn), an important river in Ireland's historical province of Meath. |
+| boann-c01 | exact | en.wikipedia.org | Boann (Boand) is the Irish goddess of the River Boyne (Bóinn) in Meath; per the Lebor Gabála Érenn and Táin Bó Fraích, sister of Befind, daughter of Delbáeth son of Elada of the Tuatha Dé Danann; husband Nechtan or Elcmar; mother of Aengus by the Dagda. | Boann or Boand is the Irish goddess of the River Boyne (Bóinn), an important river in Ireland's historical province of Meath. According to the Lebor Gabála Érenn and Táin Bó Fraích she was the sister of Befind and daughter of Delbáeth, son of Elada, of the Tuatha Dé Danann. Her husband is variously Nechtan or Elcmar. |
+| boann-c02 | exact | en.wikipedia.org | In the dinsenchas her name is read as white cow. | Her name is interpreted as "white cow" (Irish: bó fhionn ; Old Irish: bó find ) in the dinsenchas, where she is also called "White Boand". |
+| boann-c03 | exact | en.wikipedia.org | The Dagda made the sun stand still so Elcmar would not notice; nine months passed and Boann bore Aengus, at Brú na Bóinne. | To hide the pregnancy from Elcmar, the Dagda casts a spell on him, making "the sun stand still" so he will not notice the passing of time. Meanwhile, nine months pass and Boann gives birth to Aengus. |
+| boann-c04 | exact | en.wikipedia.org | Per the Dindsenchas, though Nechtan forbade it, Boann approached the Well of Segais (Connla's Well), ringed by nine magic hazels. | Though forbidden to by her husband, Nechtan, Boann approached the magical Well of Segais (also known as the Connla's Well), which was surrounded, according to the legend, by nine magic hazel-trees. |
+| boann-c05 | exact | en.wikipedia.org | Boann circled the well tuathal; the waters surged to the sea creating the Boyne, and she lost an arm, leg, eye and then her life. | Boann challenged the power of the well by walking around it tuathal; this caused the waters to surge up violently and rush down to the sea, creating the Boyne. In this catastrophe, she was swept along in the rushing waters, and lost an arm, leg and eye, and ultimately her life, in the flood. |
+| boann-c06 | exact | de.wikipedia.org | Bóann is a figure of Irish Celtic myth, river goddess (Flussgöttin) of the Boyne; she profaned Nechtan's secret spring in the Síd by walking against the sun (tuaithbel), drowned, and the Boyne arose. | ist eine Figur der keltischen Mythologie Irlands und dort die Flussgöttin des Boyne. Die Mythologie erzählt, sie habe die geheime Quelle ihres Gatten Nechtan im Síd durch Herumgehen gegen den Sonnenlauf (tuaithbel) entweiht, worauf sie darin ertrunken sei und der Boyne entstand. |
+| boann-c07 | exact | de.wikipedia.org | The land around the pre-Celtic mounds of Newgrange in the Boyne valley (Boyne-Tal) is called Brug na Boinne after her. | Die Gegend um die vorkeltischen Grabhügel bei Newgrange im Boyne-Tal wird nach ihr Brug na Boinne genannt. |
 
 
 ## hobgoblin — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| hobgoblin-c01 | exact | en.wikipedia.org | Hobgoblin is documented as hobgoblin household spirit in regional lore. | A hobgoblin is a household spirit, appearing in English folklore, once considered helpful, but which since the spread of Christianity has often been considered mischievous. |
+| hobgoblin-c01 | exact | en.wikipedia.org | A hobgoblin is a household spirit of English folklore, once helpful, since Christianity seen as mischievous; Shakespeare calls Puck in A Midsummer Night's Dream a hobgoblin. | A hobgoblin is a household spirit, appearing in English folklore, once considered helpful, but which since the spread of Christianity has often been considered mischievous. Shakespeare identifies the character of Puck in his A Midsummer Night's Dream as a hobgoblin. |
+| hobgoblin-c02 | exact | en.wikipedia.org | The term hobgoblin comes from hob; recorded about 1530. | The term "hobgoblin" comes from "hob". The earliest known use of the word can be traced to about 1530, although it was likely in use for some time prior to that. |
+| hobgoblin-c03 | exact | en.wikipedia.org | Hobgoblins are small hairy men, kin of brownies, doing house chores while the family sleeps. | Hobgoblins seem to be small, hairy little men who, like their close relatives the brownies, are often found within human dwellings, doing odd jobs around the house while the family is asleep. Such chores are typically small tasks like dusting and ironing. |
+| hobgoblin-c04 | exact | en.wikipedia.org | Hobgoblins like pranks more than brownies and seem able to shapeshift, as in a monologue by Puck. | While brownies are more peaceful creatures, hobgoblins are more fond of practical jokes. They also seem to be able to shapeshift, as seen in one of Puck's monologues in A Midsummer Night's Dream. |
+| hobgoblin-c05 | exact | en.wikipedia.org | Hobgoblins are easily annoyed and can be dangerous; giving them clothing often banishes them forever. | Like other fairy folk, hobgoblins are easily annoyed. They can be mischievous, frightening, and even dangerous. Attempts to give them clothing will often banish them forever |
+| hobgoblin-c06 | exact | en.wikipedia.org | According to Elizabeth Mary Wright, dobby is another term for hobgoblin in Lancashire and Yorkshire. | Dobby is another term for hobgoblin in Lancashire and Yorkshire according to the folklorist Elizabeth Mary Wright, especially one that is a relentless prankster. |
+| hobgoblin-c07 | exact | fr.wikipedia.org | The hobgoblin is a legendary British (britannique) creature, friendly, living in country homes; later sometimes an evil spirit confused with the goblin (gobelin). | Le hobgoblin est une créature légendaire du folklore britannique. Il est décrit comme amical et parfois serviable, vivant dans les habitations des campagnes. Dans le folklore anglais plus tardif, il est parfois décrit comme un esprit diabolique et confondu avec le gobelin. |
+| hobgoblin-c08 | exact | fr.wikipedia.org | Hob may come from Welsh (gallois) hob to hop, or English (anglais) hob hearth. | Une hypothèse dérive hobgoblin du gallois hob, « sautiller », et coblyn « gobelin » ; ce « gobelin sautillant » pouvant être rattaché au personnage légendaire de Puck. Ou bien Hob dérive de l'anglais hob, « foyer » |
+| hobgoblin-c09 | exact | fr.wikipedia.org | Hob is a diminutive of Robert/Robin, perhaps linking the hobgoblin to Robin Goodfellow (Puck). | De même Hob est le diminutif de Robert/Robin, rattachant peut-être le hobgoblin au Robin Goodfellow (Puck). |
 
 
 ## each-uisge — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| each-uisge-c01 | exact | en.wikipedia.org | Each-uisge is documented as each uisge scottish in regional lore. | The each-uisge ( Scottish Gaelic: [ɛxˈɯʃkʲə] , literally "water horse") is a water spirit in Irish and Scottish folklore, spelled as the each-uisce (anglicized as aughisky or ech-ushkya) in Ireland and cabbyl-ushtey on the Isle of Man. |
+| each-uisge-c01 | exact | en.wikipedia.org | Each-uisge (Scottish Gaelic) means water horse; an Irish and Scottish water spirit, each-uisce/aughisky/ech-ushkya in Ireland, cabbyl-ushtey on the Isle of Man; horse-shaped, like the kelpie but more vicious. | literally "water horse") is a water spirit in Irish and Scottish folklore, spelled as the each-uisce (anglicized as aughisky or ech-ushkya) in Ireland and cabbyl-ushtey on the Isle of Man. It usually takes the form of a horse, and is similar to the kelpie but far more vicious. |
+| each-uisge-c02 | exact | en.wikipedia.org | Katharine Briggs called it perhaps the fiercest and most dangerous water-horse. | has been described as "perhaps the fiercest and most dangerous of all the water-horses" by the folklorist Katharine Briggs. |
+| each-uisge-c03 | exact | en.wikipedia.org | The each-uisge lives in the sea and lochs of the Scottish Highlands and shapeshifts into a horse, pony, handsome man or giant bird. | the each-uisge lives in the sea, sea lochs, and fresh water lochs. The each-uisge is a shape-shifter, disguising itself as a fine horse, pony, a handsome man or an enormous bird such as a boobrie. |
+| each-uisge-c04 | exact | en.wikipedia.org | Its skin turns adhesive; it drags the victim to the deepest loch and eats all but the liver. | the each-uisge's skin becomes adhesive and the creature immediately goes to the deepest part of the loch with its victim. After the victim has drowned, the each-uisge tears them apart and devours the entire body except for the liver, which floats to the surface. |
+| each-uisge-c05 | exact | en.wikipedia.org | In human form it is known by water weeds or sand and mud in its hair. | In its human form it is said to appear as a handsome man, and can be recognised as a mythological creature only by the water weeds or profuse sand and mud in its hair. |
+| each-uisge-c06 | exact | de.wikipedia.org | Each Uisge is a shapeshifting creature of the fairy realm (Feenreiches) or Otherworld (Anderswelt), living in the lochs (Lochs) and coasts of Scotland (Schottlands), one of the most dangerous water monsters of the Scottish-Celtic legend world (schottisch-keltischen Sagenwelt). | ist im schottischen Volksglauben eine gestaltwandelnde Kreatur des Feenreiches oder der Anderswelt, die der Sage nach die Lochs und Küstengewässer Schottlands bewohnen soll und als eines der gefährlichsten Wassermonster der schottisch-keltischen Sagenwelt gilt. |
+| each-uisge-c07 | exact | de.wikipedia.org | Each Uisge is easily confused with the Irish (irischen, Irlands) Aughisky, with the same powers but living in still waters. | Das Each Uisge kann leicht mit dem irischen Aughisky verwechselt werden, dem die Erzählungen dieselben Fähigkeiten und eine ähnliche Verhaltensweise zusprechen, das aber die stehenden Gewässer Irlands bewohnt haben soll. |
+| each-uisge-c08 | exact | en.wikipedia.org | A blacksmith from Raasay took revenge with large red-hot hooks and a roasted sheep as bait. | In revenge the blacksmith and his son made a set of large hooks, in a forge they set up by the loch side. They then roasted a sheep and heated the hooks until they were red hot. |
 
 
-## enfield-poltergeist — lulus-otomatis
+## enfield-poltergeist — skip
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 0 (), sumber 0, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `skip` Diusulkan dilewati: Bukan makhluk: Enfield poltergeist adalah klaim aktivitas supranatural di rumah 284 Green Street, Enfield, London pada 1977–1979 yang berpusat pada dua kakak beradik Hodgson; sebagian penyelidik menemukan bukti kejadiannya dipalsukan. Artikelnya membahas peristiwa modern dan perdebatannya, bukan sosok makhluk cerita rakyat. (https://en.wikipedia.org/wiki/Enfield_poltergeist).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| enfield-poltergeist-c01 | exact | en.wikipedia.org | Enfield Poltergeist is documented as enfield poltergeist claim in regional lore. | The Enfield poltergeist was a claim of supernatural activity at 284 Green Street, a council house in Brimsdown, Enfield, London, England, between 1977 and 1979. |
 
 
 ## huldufolk — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| huldufolk-c01 | exact | en.wikipedia.org | Huldufólk is documented as term taken synonym in regional lore. | The term huldufólk was taken as a synonym of álfar (elves) in 19th-century Icelandic folklore. |
+| huldufolk-c01 | exact | en.wikipedia.org | In Nordic folklore, including the Northern Isles, hidden-folk: Faroese and Icelandic huldufólk, Norwegian huldrefolk; covering elves, wights, brownies (nisse), trolls. | In Nordic folklore, including the Northern Isles, hidden-folk (Faroese and Icelandic: huldufólk ; Norwegian: huldrefolk ), |
+| huldufolk-c02 | exact | en.wikipedia.org | Supernatural beings of nature, humanlike, in a parallel world, visible at will. | They are supernatural beings that live in nature. They look and behave similarly to humans, but live in a parallel world. They can make themselves visible at will. |
+| huldufolk-c03 | exact | en.wikipedia.org | Konrad von Maurer cites a 19th-century Icelandic source: their philtrum is convex. | Konrad von Maurer cites a 19th-century Icelandic source claiming that the only visible difference between normal people and outwardly human-appearing huldufólk is, the latter have a convex rather than concave philtrum |
+| huldufolk-c04 | exact | en.wikipedia.org | In Faroese tales they dwell in mounds (also called Elves); Icelandic tales warn against throwing stones. | Their dwellings are in mounds, and they are also called Elves." Some Icelandic folk tales caution against throwing stones, as it may hit the hidden people. |
+| huldufolk-c05 | exact | en.wikipedia.org | Huldufólk was a synonym of álfar in the 19th century; Jón Árnason found álfar pejorative. | The term huldufólk was taken as a synonym of álfar (elves) in 19th-century Icelandic folklore. Jón Árnason found that the terms are synonymous, except álfar is a pejorative term. |
+| huldufolk-c06 | exact | fr.wikipedia.org | Huldufólk means hidden people (peuple caché), beings of Icelandic (islandais) folklore: elves, trolls and invisible people in mountains and rocks, their towns the Álagablettur. | terme islandais signifiant littéralement en français « peuple caché », est composé des créatures des légendes et croyances du folklore islandais. Il s'agit d'elfes, de trolls et de personnes invisibles qui vivent préférentiellement dans les montagnes et les rochers où ils construisent leurs villes, les Álagablettur. |
+| huldufolk-c07 | exact | fr.wikipedia.org | A road at Kópavogur was reportedly planned to avoid destroying their home. | citant notamment l'exemple d'un tracé de route qui aurait été étudié pour éviter de détruire leur lieu de vie à Kópavogur. |
 
 
 ## salmon-of-knowledge — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| salmon-of-knowledge-c01 | exact | en.wikipedia.org | Salmon of Knowledge is documented as salmon knowledge salmon in regional lore. | Salmon of Knowledge The salmon eating the hazelnuts that are falling into the Well of Wisdom Creature information Other name Bradán Feasa Grouping Irish Mythology Sub grouping Mythical fish Origin Country Ireland |
+| salmon-of-knowledge-c01 | exact | en.wikipedia.org | The Salmon of Knowledge (Irish An Bradán Feasa) is a creature of the Fenian Cycle, sometimes identified with Fintan mac Bóchra the Wise. | The Salmon of Knowledge (Irish: An Bradán Feasa ) is a creature in the Fenian Cycle of Irish mythology, sometimes identified with the mythical seer Fintan mac Bóchra who was known as "The Wise" and was once transformed into a salmon. |
+| salmon-of-knowledge-c02 | exact | en.wikipedia.org | In The Boyhood Deeds of Fionn, a salmon ate nine hazelnuts fallen into the Well of Wisdom and gained all the world's knowledge. | In the story, an ordinary salmon ate nine hazelnuts that fell into the Well of Wisdom (an Tobar Segais) from nine hazel trees that surrounded the well. By this act, the salmon gained all the world's knowledge. The first person to eat of its flesh would in turn gain this knowledge. |
+| salmon-of-knowledge-c03 | exact | en.wikipedia.org | Finn Eces (Finegas) fished seven years and gave the fish to Fionn son of Cumhall to cook but not eat. Fionn mac Cumhaill. | The poet Finn Eces (or Finegas) spent seven years fishing for this salmon. Finally Finn caught the salmon and gave the fish to Fionn, his servant and son of Cumhall, with instructions to cook it but on no account eat any of it. |
+| salmon-of-knowledge-c04 | exact | en.wikipedia.org | Fionn gained all knowledge, drew on it by biting his thumb, and became leader of the Fianna. | Fionn ate the salmon and in so doing gained all the knowledge of the world. For the rest of his life, Fionn could draw upon this knowledge merely by biting his thumb. The deep knowledge and wisdom gained from the Salmon of Knowledge allowed Fionn to become the leader of the Fianna |
+| salmon-of-knowledge-c05 | exact | en.wikipedia.org | The Welsh Hanes Taliesin has a similar story about Taliesin. | The Welsh Hanes Taliesin (16th c.) has a similar story of how the poet Taliesin received his wisdom, that also involves shape-shifting into the form of a fish. |
+| salmon-of-knowledge-c06 | exact | fr.wikipedia.org | The Saumon de la sagesse ate nine hazelnuts fallen into the Boyne or Shannon, grew enormous and knew everything. | est à l'origine un saumon ordinaire, qui mange les neuf noisettes tombés de l'arbre du savoir dans le fleuve Boyne — ou parfois le Shannon. Ce faisant, le saumon devient énorme et acquiert tout le savoir du monde, devenant plus sage que les hommes. |
 
 
 ## sirona — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| sirona-c01 | exact | en.wikipedia.org | Sirona is documented as sirona dirona ancient in regional lore. | Sirona (also Đirona or Dirona) was an ancient Celtic goddess of healing, associated with curative and thermal springs, worshipped in eastern Gaul, the Germanies and the Danube provinces. |
+| sirona-c01 | exact | en.wikipedia.org | Sirona was an ancient Celtic healing goddess of curative springs in eastern Gaul, the Germanies and the Danube provinces; consort of Apollo Grannus. | was an ancient Celtic goddess of healing, associated with curative and thermal springs, worshipped in eastern Gaul, the Germanies and the Danube provinces. She is attested chiefly as the consort of Apollo under his healing surname Grannus |
+| sirona-c02 | exact | en.wikipedia.org | Her emblems are a snake and a bowl of eggs; no classical author names her. | Her most distinctive attributes are the snake and a bowl of eggs, taken as emblems of healing and renewal. No classical author names her, the evidence being epigraphic and iconographic. |
+| sirona-c03 | exact | en.wikipedia.org | The name derives from the Proto-Indo-European word for star. | Most scholars derive its first element from the Proto-Indo-European word for 'star', *h₂ster, which gives Proto-Celtic *sterā-, so that the name means something like 'star (goddess)'. |
+| sirona-c04 | exact | en.wikipedia.org | Cult in the Germanies and eastern Gaul, upper Moselle (Treveri), Mainz; also Raetia, Noricum, Pannonia, Dacia and Rome. | Her cult was concentrated in the Germanies and eastern Gaul, above all in the valley of the upper Moselle, among the Treveri, and in the Mainz area. Dedications also come from the territories of the Aedui and the Leuci, and from further afield: the Danube provinces of Raetia, Noricum and Pannonia, the province of Dacia, and the city of Rome. |
+| sirona-c05 | exact | en.wikipedia.org | At Corseul in Brittany she is named Tsirona. | At Corseul in Brittany she is named Tsirona and is invoked together with the numen of the emperor, a pairing that points to her high standing. |
+| sirona-c06 | exact | de.wikipedia.org | Sirona (Đirona) was a Celtic goddess of healing (keltische Göttin der Heilung), equated with the Greek (griechischen) Hygieia, cult partner of Apollo Grannus. | Sirona, auch Đirona, war eine keltische Göttin der Heilung. Sie wurde ikonographisch der griechischen Heilgöttin Hygieia gleichgesetzt. Sie ist häufig Kultgenossin des Apollo Grannus. |
+| sirona-c07 | exact | de.wikipedia.org | Sirona is known only from ancient votive inscriptions; no mythology survives. | Sirona ist ausschließlich aus antiken Weiheinschriften bekannt, eine Mythologie ist nicht überliefert. |
+| sirona-c08 | exact | de.wikipedia.org | A 2nd-century AD shrine of Apollo and Sirona was excavated at Hochscheid (Hunsrück). | Ein Heiligtum des Apollo und der Sirona des 2. Jahrhunderts n. Chr. wurde in Hochscheid (Hunsrück) ausgegraben. |
 
 
 ## bran-the-blessed — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| bran-the-blessed-c01 | exact | en.wikipedia.org | Brân the Blessed is documented as blessed welsh bendigeidfran in regional lore. | Brân the Blessed (Welsh: Bendigeidfran or Brân Fendigaidd, literally "Blessed Crow") is a giant and king of Britain in Welsh mythology. |
+| bran-the-blessed-c01 | exact | en.wikipedia.org | Brân the Blessed (Welsh Bendigeidfran/Brân Fendigaidd, Blessed Crow) is a giant king of Britain in the Welsh Triads and the Second Branch of the Mabinogi, Branwen ferch Llŷr; son of Llŷr and Penarddun, brother of Brânwen, Manawydan, Nisien, Efnysien. | Brân the Blessed (Welsh: Bendigeidfran or Brân Fendigaidd, literally "Blessed Crow") is a giant and king of Britain in Welsh mythology. He appears in several of the Welsh Triads, but his most significant role is in the Second Branch of the Mabinogi, Branwen ferch Llŷr. He is a son of Llŷr and Penarddun, and the brother of Brânwen, Manawydan, Nisien and Efnysien. |
+| bran-the-blessed-c02 | exact | en.wikipedia.org | Brân means crow or raven; he is considered a sea god and god of poetry and bards. | The name "Brân" in Welsh is usually translated as crow or raven. He is considered a sea-god as well as a god of poetry and bards. |
+| bran-the-blessed-c03 | exact | en.wikipedia.org | In the Mabinogion, Brân gives Matholwch a magic cauldron that revives the dead after Efnysien's insult. | Matholwch is deeply offended until Brân offers him compensation in the form of a magic cauldron that can restore the dead to life. |
+| bran-the-blessed-c04 | exact | en.wikipedia.org | Brân wades across the Irish Sea to rescue Branwen. (Ireland) | Brân wades across the Irish Sea to rescue her with his brother Manawydan and a huge host of warriors |
+| bran-the-blessed-c05 | exact | en.wikipedia.org | Brân has his head cut off and taken to Britain; it speaks for seven years at Harlech. | The survivors are told by a mortally wounded Brân to cut off his head and to return it to Britain. For seven years the seven survivors stay in Harlech, where they are entertained by Brân's head, which continues to speak. |
+| bran-the-blessed-c06 | exact | en.wikipedia.org | The head is buried at the Gwynfryn, the White Hill (perhaps the Tower of London), facing France. | they take the now silent head to the Gwynfryn, the "White Hill" (thought to be the location where the Tower of London now stands), where they bury it facing France so as to ward off invasion. |
+| bran-the-blessed-c07 | exact | de.wikipedia.org | Bran der Gesegnete is a giant (Riese) of Welsh legend (walisischen Sagen); Bran means crow (Krähe) or raven (Rabe). | ist ein Riese aus den walisischen Sagen. Aus dem Walisischen übersetzt bedeutet Bran „Krähe“, oft wird er jedoch auch „Rabe“ genannt. |
+| bran-the-blessed-c08 | exact | de.wikipedia.org | Crow and raven are often synonyms for warrior (Krieger). | Beides ist häufig ein Synonym für „Krieger“. |
 
 
 ## cat-sith — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| cat-sith-c01 | exact | en.wikipedia.org | Cat-sìth is documented as illustration english fairy in regional lore. | Cat-sìth An Illustration from More English Fairy Tales from the story "The King of the Cats". |
+| cat-sith-c01 | exact | en.wikipedia.org | The cat-sìth (Scottish Gaelic; Irish cat sí) is a fairy of Celtic myth, a large black cat with a white spot walking on its hind legs, in the Scottish Highlands. More common in Scotland than Ireland. | is a fairy creature from Celtic mythology, said to resemble a large black cat with a white spot on its chest that walks on its hind legs. Legend has it that the spectral cat haunts the Scottish Highlands. The legends surrounding this creature are more common in Scottish folklore, but a few occur in Irish. |
+| cat-sith-c02 | exact | en.wikipedia.org | Some held it a witch able to become a cat nine times. | Some common folklore suggested that the cat-sìth was not a fairy, but a witch that could transform into a cat nine times. |
+| cat-sith-c03 | exact | en.wikipedia.org | As large as a dog, back arched and bristles erect. | It is described as being as large as a dog and chooses to display itself with its back arched and bristles erect. |
+| cat-sith-c04 | exact | en.wikipedia.org | The cat-sìth was believed to steal souls of the newly dead by crossing over the body; guarded in the Late Wake (Fèill Fhadalach). | The cat-sìth were believed to steal the souls of the recently deceased that hadn't gone to the land of the dead. This would happen by a cat-sìth crossing over a new dead body. |
+| cat-sith-c05 | exact | en.wikipedia.org | At Samhain milk was left out for luck; otherwise it dried up the cows' milk. | Around Samhain, it was custom to leave out a saucer of milk for them. If you did, your household would receive good luck for the year. If you didn't, the cat-sìth would return the favor and dry up the milk of the house's cows. |
+| cat-sith-c06 | exact | en.wikipedia.org | People kept a vigil called the Late Wake or Fèill Fhadalach (Irish Gaelic). | To avoid the soul being taken during this period, people would stay to watch the body in a vigil called the Late Wake or Fèill Fhadalach in Irish Gaelic. |
+| cat-sith-c07 | exact | de.wikipedia.org | Cait Sith is a figure of Celtic myth (keltischen Mythologie), a large black cat in the Highlands; linked to the Cu Sith (Cù-sìth). | ist eine Sagengestalt der keltischen Mythologie. Es handelt sich um eine große schwarze Katze, die in den Highlands leben soll. |
+| cat-sith-c08 | exact | de.wikipedia.org | Cait Sith usually means no harm but can turn wild if surprised or threatened; name means fairy cat (Feenkatze). | Die Cait Sith ist üblicherweise nicht darauf aus, dem Menschen zu schaden. Jedoch, sollte man sie alleine in abgelegenen Orten überraschen oder sie bedrohen, dann kann sie sehr wild und gefährlich werden. |
+| cat-sith-c09 | exact | de.wikipedia.org | The legend is thought to come from sightings of the Kellas cat (Kellas-Katze). | Es wird vermutet, dass die Sage von Beobachtungen der Kellas-Katze herrührt. |
 
 
 ## cliodhna — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| cliodhna-c01 | exact | en.wikipedia.org | Clíodhna is documented as irish mythology sometimes in regional lore. | In Irish mythology, Clíodhna (Clídna, Clíodna, Clíona, sometimes anglicised to Cleena) is a Queen of the Banshees of the Tuatha Dé Danann. |
+| cliodhna-c01 | exact | en.wikipedia.org | In Irish mythology Clíodhna (Clídna, Clíodna, Clíona, Cleena) is a Queen of the Banshees of the Tuatha Dé Danann; Clíodna of Carrigcleena rules the sióga of South Munster (Desmond). | In Irish mythology, Clíodhna (Clídna, Clíodna, Clíona, sometimes anglicised to Cleena) is a Queen of the Banshees of the Tuatha Dé Danann. Clíodna of Carrigcleena is the potent banshee that rules as queen over the sióga (fairies) of South Munster, or Desmond. |
+| cliodhna-c02 | exact | en.wikipedia.org | In some myths she is a goddess of love and beauty, patron of County Cork, with three birds whose song heals. | In some Irish myths, Clíodhna is a goddess of love and beauty, and the patron of County Cork. She is said to have three brightly coloured birds who eat apples from an otherworldly tree and whose sweet song heals sickness. |
+| cliodhna-c03 | exact | en.wikipedia.org | Her palace was in rocks near Mallow, Carrig-Cleena; Munster peasants saw her as benefactor. | She had her palace in the heart of a pile of rocks, 5 mi (8.0 km) from Mallow, which is still commonly known by the name of Carrig-Cleena, and numerous legends about her are told among the Munster peasantry who considered her their benefactor. |
+| cliodhna-c04 | exact | en.wikipedia.org | The legend of Cleena's Wave is in the Acallam na Senórach; Ciabham was son of the King of Ulster. | This legend is recorded in Acallam na Senórach ("Colloquy of the Ancients"), longest-surviving work of medieval Irish literature. During the time of the Fianna lived Ciabham of the Curling Hair, son of the King of Ulster. |
+| cliodhna-c05 | exact | en.wikipedia.org | They reached Tír Tairngire, Manannan's land; the druid Gebann's daughter was Cleena. | They then reached Tír Tairngire ("the land of promise"), an otherworldly land ruled by Manannan their king. Ciabham is entertained at a feast within Manannan's city. The chief druid Gebann had a daughter named Cleena of the Fair Hair. |
+| cliodhna-c06 | exact | en.wikipedia.org | Music lulled Cleena asleep and a great wave swept her away; the spot is Tonn Chlíodhna, Clíodhna's Wave, near Glandore. | One of them treacherously played music which caused Cleena to fall asleep. Then a great wave came and swept her away. The place was then called Tonn Chlíodhna, "Clíodhna's Wave", which is near Glandore harbour. |
+| cliodhna-c07 | exact | de.wikipedia.org | Cliodhna is seen as a Banshee, one of the Túatha Dé Danann, and a figure of the Celtic Otherworld (Keltischen Anderswelt). | Cliodhna wird als Banshee, als Túatha Dé Danann und als Gestalt aus der Keltischen Anderswelt gesehen. |
+| cliodhna-c08 | exact | de.wikipedia.org | Cormac Laidir Mac Carthy, builder of Blarney Castle, asked the goddess (Göttin) for help and was told to kiss the first stone he saw. | Einer anderen Legende nach rief Cormac Laidir Mac Carthy, der Erbauer des Blarney Castle, die Göttin um Hilfe bei einem Rechtsstreit an. Die wies ihn an, den ersten Stein, den er morgens sah, zu küssen. |
 
 
 ## coventina — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| coventina-c01 | exact | en.wikipedia.org | Coventina is documented as inscribed relief coventina in regional lore. | Inscribed bas-relief of Coventina Coventina was a Romano-British goddess of wells and springs. |
+| coventina-c01 | exact | en.wikipedia.org | Coventina was a Romano-British goddess of wells and springs, known from inscriptions in Northumberland, England, near Carrawburgh on Hadrian's Wall; perhaps also Hispania and Narbonensis. | Coventina was a Romano-British goddess of wells and springs. She is known from multiple inscriptions at one site in Northumberland, England, an area surrounding a wellspring near Carrawburgh on Hadrian's Wall. It is possible that other inscriptions, two from Hispania and one from Narbonensis, refer to Coventina, but this is disputed. |
+| coventina-c02 | exact | en.wikipedia.org | In 1879 dedications were found in a walled area around the spring called Coventina's Well. | In 1879, dedications to Coventina and votive deposits were found in a walled area which had been built to contain the outflow from a spring now called "Coventina's Well". |
+| coventina-c03 | exact | en.wikipedia.org | The well held 13,487 coins from Mark Anthony to Gratian, a relief of three nymphs, ten altars to Coventina and Minerva. | The contents of the well included 13,487 coins from Mark Anthony to Gratian, a relief of three water nymphs, the head of a male statue, two dedication slabs to the goddess Coventina, ten altars to Coventina and Minerva, two clay incense burners, and a wide range of votive objects. |
+| coventina-c04 | exact | en.wikipedia.org | Worship ended abruptly around 388, perhaps due to Theodosius I's anti-pagan edicts. | Evidence from coin hoards and stones which covered them and those also blocking the well suggest a fairly abrupt end around 388, perhaps due to events linked to anti-pagan edicts of Theodosius I. |
+| coventina-c05 | exact | en.wikipedia.org | Altars show Coventina as a Roman nymph; one in triple form or with two attendants. | Excavation of the site revealed several inscribed altars, some with depictions of Coventina in typical Roman nymph form: reclining, partially clothed and associated with water. On one, Coventina is either depicted in triple form or with two attendants. |
+| coventina-c06 | exact | de.wikipedia.org | Coventina was a healing and spring goddess (Heil- und Quellgöttin) of British myth, worshipped at Hadrian's Wall (Hadrianswall). | Coventina war in der britannischen Mythologie eine Heil- und Quellgöttin, die am Hadrianswall verehrt wurde. |
+| coventina-c07 | exact | de.wikipedia.org | Legionaries (Legionäre) on Hadrian's Wall built Coventina a shrine near the fort of Brocolitia (Carrawburgh). | Für Coventina errichteten die am Hadrianswall stationierten Legionäre ein Heiligtum beim Kastell Brocolitia (Carrawburgh, Northumberland). |
 
