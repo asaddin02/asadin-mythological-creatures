@@ -1,555 +1,777 @@
 # Review batch-112
 
-Diperiksa 2026-10-01T08:46:42.546Z. Berkas: batch-112.md.
+Diperiksa 2026-10-03T01:28:46.282Z. Berkas: batch-112.md.
 
 ## lorelei — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| lorelei-c01 | exact | es.wikipedia.org | Lorelei is a mythological figure documented in folklore records. | Imagen de Lorelei, roca en la que la ondina del mismo nombre se aparecía a los marineros del río Rin según la mitología germánica. |
+| lorelei-c01 | exact | es.wikipedia.org | According to legend she was a beautiful siren of the Rhine (Rin) who drew men from the rock bearing her name with her beauty and songs, causing shipwrecks and disasters. | Según la leyenda, fue una hermosa sirena del río Rin que atraía a los hombres desde la roca que lleva su nombre con su belleza y sus cantos, causando naufragios y desastres. |
+| lorelei-c02 | exact | it.wikipedia.org | Lorelei is a legendary figure of Germany (Germania). | Lorelei è una figura leggendaria della Germania. |
+| lorelei-c03 | exact | it.wikipedia.org | According to legend Lorelei was a lovely undine of the Rhine (Reno) who drew men with her song and looks, causing shipwrecks and misfortune; the rock where she appeared still bears her name. | Secondo la leggenda, Lorelei era una bellissima ondina del fiume Reno, che attirava a sé gli uomini col suo canto e con il suo aspetto, causando naufragi e sciagure. |
+| lorelei-c04 | exact | es.wikipedia.org | She was believed to have first been a beautiful girl betrayed by the man she loved, who then threw herself from a cliff, unable to bear the pain. | Según se creía, originariamente era una hermosa muchacha que fue traicionada por el hombre al que amaba, tras lo cual se arrojó de un acantilado por no poder soportar el dolor. |
+| lorelei-c05 | exact | tr.wikipedia.org | Per the Turkish article, the legend says she wants revenge on sailors after the fisherman she loved deceived her. | Efsaneye göre âşık olduğu balıkçının kendisini aldatması üzerine gemicilerden öç almak istemektedir. |
+| lorelei-c06 | exact | it.wikipedia.org | To avenge his dead son, a nobleman sent soldiers immune to her charm to kill her; her father sent a horse of foam that took the nymph to the river depths, from which she never returned. | Un giorno, per vendicare il figlio morto, un nobile inviò i suoi soldati a uccidere la fanciulla, soldati che seppero resistere al suo incanto e che l'avrebbero uccisa, se lei non avesse chiamato suo padre in aiuto: egli mandò un cavallo di schiuma che condusse la ninfa nelle profondità del fiume, da cui ella non fece più ritorno. |
+| lorelei-c07 | exact | it.wikipedia.org | The figure often appears in German Romantic poetry, as in Heinrich Heine's Das Lied der Loreley (1827) or Joseph Freiherr von Eichendorff's Waldgespräch (1815); composer Alfredo Catalani drew on the myth for his opera Loreley. | Questa figura leggendaria si ritrova spesso nei componimenti dei poeti tedeschi dell'epoca romantica, come ad esempio in Das Lied der Loreley (1827) di Heinrich Heine o in Waldgespräch (1815) di Joseph Freiherr von Eichendorff. Fu inoltre proprio da questo mito che il compositore Alfredo Catalani trasse ispirazione per la sua opera Loreley. |
 
 
 ## moss-people — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| moss-people-c01 | exact | en.wikipedia.org | Moss people is documented as moss both male in regional lore. | Moss people, both male Moosmännlein ("moss men") and female Moosweiblein ("moss women"), as depicted in traditional German wood art from the Vogtland. |
+| moss-people-c01 | exact | en.wikipedia.org | Moss people (Moosleute), also wood folk (Holzleute) or forest folk (Waldleute), are a class of fairy-folk compared with dwarfs, elves or spirits, described in German folklore as intimately tied to trees and the forest. | are a class of fairy-folk, variously compared to dwarfs, elves, or spirits, described in German folklore as having an intimate connection to trees and the forest. |
+| moss-people-c02 | exact | en.wikipedia.org | In German, Schrat and Waldschrat also denote a moss person. | In German, the words Schrat and Waldschrat are also used for a moss person. |
+| moss-people-c03 | exact | en.wikipedia.org | Moss people are sometimes like dwarfs, child-sized but grey, old-looking, hairy and moss-clad; sometimes bigger, and in other accounts pretty. | The moss people are sometimes described as similar to dwarfs, being the same size as children, but "grey and old-looking, hairy, and clad in moss." Sometimes, moss folk are also bigger. In other descriptions they are said to be pretty. |
+| moss-people-c04 | exact | en.wikipedia.org | They resemble hamadryads: their lives are bound to the trees, and if someone rubs loose a tree's inner bark, a wood-woman dies. | They are similar to hamadryads. Their lives are "attached to the trees; if any one causes by friction the inner bark to loosen a Wood-woman dies." |
+| moss-people-c05 | exact | en.wikipedia.org | Legend says these fairies sometimes borrowed things or asked for help but always repaid generously, often with advice or bread; they were easily angered if their gifts were spurned or if given caraway bread, crying 'Kümmelbrot, unser Tod!'. | According to legend, these fairies would occasionally borrow items from people or ask for help but would always compensate the owners generously, often with either good advice or bread. It was, however, easy to anger such wood-sprites, either by spurning their gifts (which might be the compensations named above) or by giving them caraway bread |
+| moss-people-c06 | exact | en.wikipedia.org | In some myths the moss folk ask people for breast milk for their young or steal human children, motifs of changeling lore. | In certain myths, the moss folk would ask humans for breast milk to feed their young, or steal little human children – motifs found in changeling lore. |
+| moss-people-c07 | exact | en.wikipedia.org | Moss people, especially females, can send plagues yet also heal their victims; in epidemics the Holzfräulein came out of the forest to show which herbs cure or prevent plague. | Moss people, especially the females of the species, are able to send plagues on one hand; on the other, they can also heal the victims of such plagues. During epidemics the Holzfräulein ("Wood ladies") would emerge from the forest to show the people which medicinal herbs could cure or ward off plague. |
+| moss-people-c08 | exact | de.wikipedia.org | Moosweiblein appear in Sachsen, Thüringen, an der Saale, Orlagau, Harz, Vogtland, Oberpfalz, Bayerischen Wald, Franken, Oberfranken, Böhmerwald, around Warnsdorf in Nordtschechien, Riesengebirge and Westfalen (Saxony, Thuringia, Upper Palatinate, Bavarian Forest, Franconia, Giant Mountains, Westphalia). | Moosweiblein treten in Sachsen, Thüringen, an der Saale, im Orlagau, im Harz, im Vogtland, in der Oberpfalz, im Bayerischen Wald, in Franken, in Oberfranken, im Böhmerwald, um Warnsdorf in Nordtschechien, im Riesengebirge und in Westfalen auf. |
+| moss-people-c09 | exact | de.wikipedia.org | Moosweiblein live in the forest, on heaths, in dark places or the deepest woods; they dwell in earth holes, hollow trees, root huts or moss huts, sleep on moss and bed their children on moss or bark. | Die Moosweiblein leben im Wald. Sie wohnen auf der Heide, an dunklen Orten im Holz oder im tiefsten Wald. Ihre Behausung ist ein Erdloch, ein hohler Baum, ein Häuslein aus Baumwurzeln oder eine Mooshütte. Sie schlafen auf Moos und betten auch ihre Kinder auf Moos oder Rinde. |
+| moss-people-c10 | exact | en.wikipedia.org | In Thuringia the only refuge for a Moosweibchen from the wild huntsman (the Wild Hunt; wilder Jäger) is a stump marked with three crosses by a woodsman while the tree was still falling. | In Thuringia, the only place where a Moosweibchen "little moss woman") is safe from the wild huntsman (German wilder Jäger) chasing her kind in the afternoon and at night is a tree stump marked with three crosses by a woodsman while the tree was still falling. |
+| moss-people-c11 | exact | en.wikipedia.org | The female moss people, the Moosfräulein, have a queen called the Buschgroßmutter ('Shrub Grandmother'). | The female Moss people, the Moosfräulein ("Moss ladies"), have a queen called the Buschgroßmutter (Buschgrossmutter; "Shrub Grandmother"). |
 
 
 ## selkolla — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| selkolla-c01 | exact | en.wikipedia.org | Selkolla is documented as selkolla literally seal in regional lore. | Selkolla (literally 'seal-head') is a supernatural being in Icelandic folklore. |
+| selkolla-c01 | exact | en.wikipedia.org | Selkolla ('seal-head') is a supernatural being of Icelandic folklore, a fair woman sometimes seen with a seal's head; she is chiefly attested as an antagonist of Bishop Guðmundur Arason (1161–1237), and her tales mix Christian ideas with Scandinavian non-Christian concepts. | Selkolla (literally 'seal-head') is a supernatural being in Icelandic folklore. She is described as a fair woman that is sometimes seen having the head of a seal. She is most prominently attested as an antagonist of Bishop Guðmundur Arason (1161–1237). Tales of Selkolla are noted for combining Christian ideas with concepts found in Scandinavian non-Christian traditions. |
+| selkolla-c02 | exact | en.wikipedia.org | Then a woman is said to have newly arrived in the district, sometimes with an ordinary face, sometimes with a seal's head; this devil walked boldly by day and night, so this midday-devil was called Selkolla. | It is then said that a certain woman is "newly arrived in the district, sometimes with an ordinary face but sometimes with a seal's head. This devil walked about as boldly by day as by night, for which reason this midday-devil was called Selkolla in the district". |
+| selkolla-c03 | exact | en.wikipedia.org | The events of Selkollu þáttr take place in the Westfjords, beginning when a man and woman take a baby girl to be baptised. | The events of Selkollu þáttr take place in the Westfjords, beginning when a man and woman are taking a baby girl to be baptised. |
+| selkolla-c04 | exact | en.wikipedia.org | First, disguised as the farmer's wife, she tries to seduce him; when he realises and turns for home, Selkolla bars his way. | First, in the guise of the farmer's wife, she tries to entice him into having sex. When he realises what is actually going on, he tries to turn for home, but Selkolla bars his way |
+| selkolla-c05 | exact | en.wikipedia.org | Guðmundur (Guðmundr) knows her at once and drives her off with 'far niðr, fjandi, ok gakk ei framarr!' ('go down, devil, and don't come back!'); the next day he banishes her again by setting up seven crosses. | Guðmundur realises immediately who it is and drives Selkolla away with the words "far niðr, fjandi, ok gakk ei framarr!" ("go down, devil, and don't come back!"). The next day, Guðmundr and Selkolla meet again and he drives her down once more, this time by setting up seven crosses. |
+| selkolla-c06 | exact | en.wikipedia.org | The main medieval sources on Selkolla are versions B and D of Guðmundar saga Arasonar, the episode now often called Selkollu þáttr ('the Selkolla episode'). | The main medieval source for stories about Selkolla is different versions of Guðmundar saga Arasonar, specifically versions B and D, where the episode is often now referred to as Selkollu þáttr ('the Selkolla episode'). |
+| selkolla-c07 | exact | is.wikipedia.org | Selkolla is a wondrous being of Icelandic (íslenskri) folk belief; a beautiful woman, sometimes seen with a seal's head. | Selkolla er kynjavera í íslenskri þjóðtrú. Hún er falleg kona, en sést stundum með selshöfuð. |
+| selkolla-c08 | exact | is.wikipedia.org | She is first mentioned in Sturla Þórðarson's Íslendinga saga, which says the bishop struggled with the being in the Westfjords (Vestfjörðum). | Hennar er fyrst getið í Íslendinga sögu eftir Sturlu Þórðarson og er þar nefnt að biskupinn hafi glímt við veruna á Vestfjörðum. |
+| selkolla-c09 | exact | is.wikipedia.org | The Selkolla story is thought to recall later folk tales of hidden-folk children and child ghosts. | Sagan af Selkollu þykir minna á seinni tíma þjóðsögur af huldubörnum og barnadraugum. |
+| selkolla-c10 | exact | en.wikipedia.org | Having finished, they go back to the child they had set down and find it 'black, dead, and hideous'; it later revives in a terrifying form and vanishes. | Once they have finished having sex, they return to the child, who they had set down, and find that it is now "black, dead, and hideous". |
+| selkolla-c11 | exact | en.wikipedia.org | Only a diligent kinsman stays with him, until Selkolla overcomes him at night and bursts out his eyes; the farmer himself is left sick and robbed of his virility. | except for one diligent kinsman of his, who lies beside him until Selkolla overcomes him in the night and bursts out his eyes |
+| selkolla-c12 | exact | en.wikipedia.org | On the way they take an 'immoral rest' beside a large stone aptly named Miklisteinn ('large stone'). | On the way, they indulge in an "immoral rest" beside a large stone, fittingly called Miklisteinn ('large stone') |
 
 
 ## treuer-eckart — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| treuer-eckart-c01 | exact | en.wikipedia.org | Treuer Eckart is documented as heroic legend eckart in regional lore. | In heroic legend, Eckart, also called Eckehart or Eckewart, is the guardian of the Harlungs, two young men whose late father Diether bequeathed them the Breisgau territory, Breisach Castle, and immeasurable treasure. |
+| treuer-eckart-c01 | exact | en.wikipedia.org | Eckart, commonly der treue Eckart or treuer Eckart ('the faithful Eckart'), is a figure of Germanic heroic legend, especially the Dietrich von Bern legends, and also features in German legends of the Wild Hunt. | is a character of Germanic heroic legend, particularly the legends about Dietrich von Bern, and also features in German legends about the wild hunt. |
+| treuer-eckart-c02 | exact | en.wikipedia.org | In heroic legend Eckart (Eckehart, Eckewart) is the guardian of the Harlungs, two young men left the Breisgau, Breisach Castle and vast treasure by their late father Diether; he is a Harlung himself and renowned for loyalty; the Harlungs are cousins of Dietrich von Bern. | In heroic legend, Eckart, also called Eckehart or Eckewart, is the guardian of the Harlungs, two young men whose late father Diether bequeathed them the Breisgau territory, Breisach Castle, and immeasurable treasure. He is a Harlung himself, and has great renown for his loyalty and faithfulness |
+| treuer-eckart-c03 | exact | en.wikipedia.org | In the Rabenschlacht Eckart captured Sibeche and dragged him on horseback to the gallows; he avenged his wards by killing Ermenrich with other heroes. | During the Rabenschlacht battle, Eckart took Sibeche captive and dragged him away on horseback to be hung on the gallows. He also took revenge for the demise of his charges when he and other heroes slew Ermenrich. |
+| treuer-eckart-c04 | exact | en.wikipedia.org | The Harlungs' treasure (Harlungenhort) is said to be enchanted in the Bürglenberg near Breisach, guarded by Eckart's spirit, who warns every treasure-seeker that it is fated for the true heir; hence the saying 'Du bist der treue Eckart, du warnest jedermann'. | The rich treasure of the Harlungs, the Harlungenhort, is said to be enchanted and hidden inside the mountain Bürglenberg near Breisach. This treasure is guarded by the spirit of treuer Eckart who warns every treasure seeker that this treasure is fated to fall into the hands of the true heir of the Harlungs |
+| treuer-eckart-c05 | exact | en.wikipedia.org | In Thuringia Eckart is tied to the Wild Hunt (wütendes Heer) led by Frau Holle over the Twelve Nights of Christmas; he goes ahead of it, telling people to step aside so they come to no harm. | In Thuringia, der treue Eckart is connected with the wild hunt, locally called wütendes Heer or furious host. Leader of the wild hunt is Frau Holle ... who roams the countryside with the furious host during Christmas, namely the Zwölften, that is the Twelve Nights of Christmas. Der treue Eckart goes ahead of the wild hunt, warning the people to step out of the way so they will suffer no harm. |
+| treuer-eckart-c06 | exact | en.wikipedia.org | He looks like an old man with a staff; when the host stays inside the Hörselberg, Eckart sits outside the cave warning all against entering the realm of Frau Venus (the Venusberg), whence none return. | His appearance is that of an old man with a staff. When the furious host doesn’t travel and stays inside Hörselberg Mountain, der treue Eckart sits outside the cave, warning everybody against entering the realm of Frau Venus from where there is no return. |
+| treuer-eckart-c07 | exact | de.wikipedia.org | The Getreue Eckart or Treue Eckart is a figure rooted in Germanic legend and also a subject of literature and art. | Der Getreue Eckart oder Treue Eckart (auch in den diversen Namensvarianten von „Eckart“ wie „Eckhart“, „Eckehard“ usw.) ist eine Figur mit Wurzeln in der germanischen Sagenwelt, zugleich ein Stoff der Literatur und Kunst. |
+| treuer-eckart-c08 | exact | en.wikipedia.org | Eckart's guarding of the Venusberg entrance and warning people off is known since at least 1453; in Denmark he warns people before entering a brothel, and a chronicle of 1566 makes him a judge at the gates of hell. | That der treue Eckart guards the entrance to the Venusberg, i.e. the mountain of Frau Venus, and advises people against entering is known since 1453 if not longer, giving rise to the saying mentioned above. In Denmark, he also is found warning people before entering a brothel, and a chronicle from 1566 places him as a judge at the gates of hell. |
+| treuer-eckart-c09 | exact | de.wikipedia.org | Eckart refilled the children's beer jugs drunk by the Wild Hunt and promised they would stay full as long as the children kept silent about what they had seen (Thüringen). | Der Getreue Eckart macht sie ihnen wieder voll und verspricht, sie würden immer voll bleiben, solange die Kinder über das Geschaute Schweigen bewahrten. |
+| treuer-eckart-c10 | exact | sv.wikipedia.org | Jörg Wickram used Eckart in the play Der trew Eckart (1532), and Johann Wolfgang Goethe made him the hero of the ballad Der getreue Eckart (1813). | Jörg Wickram använde Eckart i pjäsen Der trew Eckart från 1532. Johann Wolfgang Goethe gjorde honom till huvudperson i balladen Der getreue Eckart från 1813 |
+| treuer-eckart-c11 | exact | en.wikipedia.org | One day while Eckart was away, King Ermenrich, the Harlungs' uncle, driven by greed for their inheritance and his adviser Sibeche's slanders, seized Breisach Castle, hanged his nephews and took their property. | One day, when Eckart was absent, King Ermenrich, uncle of the Harlungs, driven by both greed for his nephews’ heritage and his advisor Sibeche’s slanderous, fraudulent remarks |
 
 
 ## ulm-sparrow — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| ulm-sparrow-c01 | exact | en.wikipedia.org | Ulm Sparrow is documented as according legend inhabitants in regional lore. | According to legend, the inhabitants of Ulm needed a particularly large beam for the construction of Ulm Minster, but could not get it through the city gate. |
+| ulm-sparrow-c01 | exact | en.wikipedia.org | The Ulm Sparrow (Ulmer Spatz) is a landmark and symbol of the German city of Ulm, a bird statue atop Ulm Minster, the world's second-tallest church. | The Ulm Sparrow (Ger. Ulmer Spatz) is a landmark in, and symbol of, the German city of Ulm. The landmark is a statue of a bird that sits atop the Ulm Minster, the second-tallest church in the world. |
+| ulm-sparrow-c02 | exact | de.wikipedia.org | Legend says the people of Ulm carted a huge beam for building the minster (Münsters) but could not get it through the city gate; about to tear the gate down, they saw a sparrow carrying a twig for its nest. | Der Sage nach sollen die Ulmer beim Bau des Münsters einen besonders großen Balken angekarrt haben. Sie schafften es aber nicht, ihn durch das Stadttor zu bringen. Als sie kurz davor waren, das Tor einzureißen, sahen sie einen Spatzen, der einen Zweig im Schnabel trug, um diesen in sein Nest einzubauen. |
+| ulm-sparrow-c03 | exact | de.wikipedia.org | The sparrow turned the twig lengthwise before building it in; the Ulmers then saw the light and laid the beam lengthwise on their cart rather than across as before; the Ulmer Spatz is a landmark (Wahrzeichen) of Ulm. | Dieser Spatz drehte den Zweig vor dem Einbau längsseits. Da ging dann wohl auch den Ulmern ein Licht auf und sie legten den Balken der Länge nach auf ihren Karren und nicht quer, wie bisher. |
+| ulm-sparrow-c04 | exact | de.wikipedia.org | This humorous legend is traceable from the second quarter of the 19th century. | Diese humoristische Sage ist seit dem zweiten Viertel des 19. Jahrhunderts nachweisbar. |
+| ulm-sparrow-c05 | exact | de.wikipedia.org | It belongs to a widespread cycle of tales about logs and beams carried crosswise, solved by watching a bird (sparrow, stork, jackdaw) build its nest; in 1872 Eduard Mauch called it a 'falsification of history' (Geschichtsfälschung). | Sie gehört zu dem weit verbreiteten Sagenkreis um kreuzweis statt längsseits transportierte Baumstämme und Holzbalken, wobei die Lösung des Problems durch die Beobachtung eines Vogels (Sperling, Storch, Dohle etc.) beim Nestbau gewonnen wurde. Schon 1872 bezeichnete Eduard Mauch die Sage als eine „Geschichtsfälschung“ |
+| ulm-sparrow-c06 | exact | de.wikipedia.org | In 1842 Carl Hertzog published his poem 'Der Ulmer Spatz. Volkssage'. | Bereits 1842 veröffentlichte Carl Hertzog (1810–nach 1874) sein Gedicht „Der Ulmer Spatz. Volkssage“. |
+| ulm-sparrow-c07 | exact | en.wikipedia.org | The figure on the nave of Ulm Minster was donated by wealthy citizens; it is not a sparrow but a dove with an olive branch, as in the biblical story of Noah's Ark, and small relative to the building, easily seen only from the tower. | The figure on the nave of Ulm Minster was donated by wealthy citizens. It is not a sparrow, but a dove carrying an olive branch in its beak, as in the biblical story of Noah's Ark. It is small in relation to the building, and only easily visible from the tower. |
+| ulm-sparrow-c08 | exact | de.wikipedia.org | The original Ulmer Spatz of 1858 from the minster roof (Münsterdach) is now in a display case near the entrance of Ulm Minster (Ulmer Münster). | „Ulmer Spatz“: das Original aus dem Jahr 1858 vom Münsterdach befindet sich heute im Ulmer Münster nahe dem Eingang in einer Vitrine |
 
 
 ## white-stag — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| white-stag-c01 | exact | de.wikipedia.org | White Stag is a mythological figure documented in folklore records. | Die Söhne von Ménrót und Eneth, Hunor und Magor, von denen der Legende nach die Hunnen und Magyaren abstammen, wurden in der Sage vom Wunderhirsch in ein neues Siedlungsgebiet geführt. |
+| white-stag-c01 | exact | de.wikipedia.org | The Wunderhirsch (wondrous stag) is a fabulous beast in the Hun and Hungarian (ungarischen) legend cycle. | Der Wunderhirsch ist ein Fabeltier im hunnischen und ungarischen Sagenkreis. |
+| white-stag-c02 | exact | de.wikipedia.org | The legend survives in the Gesta Hunnorum et Hungarorum by medieval chronicler Simon Kézai; Hunor and Magor, sons of Ménrót and Eneth and ancestors of the Huns and Magyars, were led by the wondrous stag to a new land of settlement. | Im Werk Gesta Hunnorum et Hungarorum des mittelalterlichen Chronisten Simon Kézai blieb die Sage erhalten. Die Söhne von Ménrót und Eneth, Hunor und Magor, von denen der Legende nach die Hunnen und Magyaren abstammen, wurden in der Sage vom Wunderhirsch in ein neues Siedlungsgebiet geführt. |
+| white-stag-c03 | exact | de.wikipedia.org | Hunting on the steppe, they attacked a hind and chased it into the Meotis marshes, where it vanished from sight; they searched long in vain. | Als sie einmal zum Jagen weggingen, ereignete es sich, dass sie in einer Steppe eine Hirschkuh angriffen, der sie, wie sie vor ihnen herlief, in das Sumpfgebiet Meotis nachjagten. Und nachdem er dort vor ihren Augen völlig verschwand, suchten sie lange, doch gelang es ihnen nicht, sie zu finden. |
+| white-stag-c04 | exact | de.wikipedia.org | The Hungarians (Ungarn) presumably brought this legend from eastern cultures at the time of the Landnahme; later it merged with the Christian legends of Eustace (Eustachius) and Hubert (Hubertus). | Es ist zu vermuten, dass die Ungarn zur Zeit der Landnahme die aus östlichen Kulturen stammende Sage mit sich brachten. Später vermischte sie sich mit den christlichen Legenden von Eustachius und Hubertus. |
+| white-stag-c05 | exact | de.wikipedia.org | It also appears in Hungarian neo-paganism and folklore as the csodaszarvas and is regarded as a national symbol. | Er kommt auch im ungarischen Neuheidentum bzw. in der (ggf. völkisch missbrauchten) Folklore als csodaszarvas vor und gilt als nationales Symbol. |
+| white-stag-c06 | exact | hu.wikipedia.org | A csodaszarvas (wondrous stag) is a mitikus vezérállat, a mythical guiding animal sent by Isten (God), known in the hun-magyar mondakör (Hun-Hungarian legend cycle) and magyar népi hagyomány (Hungarian folk tradition). | A csodaszarvas a hun-magyar mondakörben és a magyar népi hagyományokban ismert, Isten által küldött mitikus vezérállat. |
+| white-stag-c07 | exact | hu.wikipedia.org | The csodaszarvas is a symbol of rebirth, renewal and the Sun (Nap). | A csodaszarvas az újjászületés és a megújulás, valamint a Nap jelképe. |
+| white-stag-c08 | exact | de.wikipedia.org | The wondrous stag also features as a path-showing animal in the anonymous Gesta Hungarorum, in the chapter on chieftain Bars (Bors) and the founding of his castle. | Der Wunderhirsch spielt auch in den anonymen Gesta Hungarorum im Kapitel über den Stammesführer Bars und der Gründung seiner Burg eine Rolle als den Weg weisendes Tier. |
+| white-stag-c09 | exact | de.wikipedia.org | At last, at the edge of those marshes, they found land fit for keeping cattle. | Schließlich fanden sie am Eingang des erwähnten Sumpfgebietes für Rinderhaltung geeignetes Land vor. |
+| white-stag-c10 | exact | de.wikipedia.org | Since ancient times the wondrous stag has been a sky sign for many Eurasian peoples and some North American tribes. | Der Wunderhirsch ist auch seit alten Zeiten ein Himmelszeichen bei vielen eurasischen Völkern und einigen nordamerikanischen Stämmen. |
+| white-stag-c11 | exact | de.wikipedia.org | Research has shown parallels of this widespread motif group in East and West. | In der Forschung konnten Parallelen der weit verbreiteten Motivgruppe im Osten und Westen nachgewiesen werden. |
 
 
 ## airon — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| airon-c01 | exact | de.wikipedia.org | Airón is a mythological figure documented in folklore records. | Airón war eine prärömische Gottheit, die auf der Iberischen Halbinsel und in Teilen Galliens verehrt wurde. |
+| airon-c01 | exact | de.wikipedia.org | Airón was a pre-Roman deity worshipped on the Iberian Peninsula and in parts of Gaul (Galliens). | Airón war eine prärömische Gottheit, die auf der Iberischen Halbinsel und in Teilen Galliens verehrt wurde. |
+| airon-c02 | exact | de.wikipedia.org | Airón was connected with spring pools and wells and so revered as a god of life, yet also held to be a god of the underworld and death. | Airón war verbunden mit Quelltöpfen und Brunnen und wurde insofern als Gott des Lebens verehrt. Gleichzeitig galt er aber auch als Gott der Unterwelt und des Todes. |
+| airon-c03 | exact | es.wikipedia.org | Airón was a native god rooted in Hispania before the Roman (romanos) conquest; his cult was respected by the Romans, and he relates to deep waters in wells and lagoons and to chasms, hence a direct link with the underworld. | Airón fue un dios indígena que estaba arraigado en Hispania antes de que los romanos emprendieran su conquista. Este dios, cuyo culto fue respetado por los romanos, se relaciona con aguas profundas (ubicadas en pozos y lagunas) y también con simas, por lo tanto hay una relación directa entre Airón y el inframundo. |
+| airon-c04 | exact | es.wikipedia.org | In his positive aspect Airón is the god of life, as water and vegetation emerge from the underworld; in his negative aspect the god of death, as the underworld was where souls of the dead were thought to go. | En su aspecto positivo Airón es el dios de la vida, pues del inframundo emerge el agua (fuente de vida) y la vegetación. En su vertiente negativa, Airón se nos manifiesta como el dios de la muerte, pues el inframundo era el lugar a donde se consideraba —en las religiones precristianas— que iban a parar las almas de los muertos |
+| airon-c05 | exact | de.wikipedia.org | No figurative images of the god are known; only springs and wells were revered. | Figürliche Darstellungen des Gottes sind nicht bekannt; verehrt wurden lediglich Quellen und Brunnen. |
+| airon-c06 | exact | es.wikipedia.org | Spain (España) has 101 Airón place names, plus six in France (Francia), eight in Portugal, and one each in Italy, Wales, Mexico and Brazil. | En España se conocen ciento un topónimos Airón, a los que se han de añadir seis hallados en Francia, ocho en Portugal, uno en Italia, uno en el País de Gales, uno en México y otro en Brasil. |
+| airon-c07 | exact | es.wikipedia.org | At many sites with an Airón well there are horror legends whose protagonist dies by falling into the Airón well. | aunque en muchos sitios donde existe un pozo Airón se encuentran leyendas de terror, en las que el protagonista termina muriendo al caer en el pozo Airón. |
+| airon-c08 | exact | es.wikipedia.org | The inexhaustible well or unfathomable lagoon is really a metaphor for the channel joining the underworld, the world of the dead, with the earth of humans and the sky of the gods. | El pozo de agua inagotable o la laguna insondable en realidad son una metáfora que significa el canal que comunica el inframundo —o mundo de los muertos de donde no se puede salir— con la tierra habitada por los hombres y con el cielo donde se suponía que moraban los dioses. |
 
 
 ## arvakr — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| arvakr-c01 | exact | en.wikipedia.org | Árvakr is documented as norse mythology norse in regional lore. | In Norse mythology, Árvakr (Old Norse "early awake") and Alsviðr ("very quick") are the horses which pull the sun, or Sól's chariot, across the sky each day. |
+| arvakr-c01 | exact | en.wikipedia.org | In Norse mythology Árvakr (Old Norse 'early awake') and Alsviðr ('very quick') are the horses that pull the sun, or Sól's chariot, across the sky each day. | In Norse mythology, Árvakr (Old Norse "early awake") and Alsviðr ("very quick") are the horses which pull the sun, or Sól's chariot, across the sky each day. |
+| arvakr-c02 | exact | en.wikipedia.org | Both horses are named in Gylfaginning and Grímnismál, and their names often go with descriptions of the Sun. | Both horses are mentioned in Gylfaginning and Grímnismál and their names are frequently associated with descriptions of the Sun. |
+| arvakr-c03 | exact | en.wikipedia.org | Sól is abducted by the gods to drive the Sun in a chariot drawn by two horses; two large bellows (ísarnkol, 'cold iron') were set under the horses' shoulders against the Sun's immense heat. | Sól is kidnapped by the gods to drive the Sun in a chariot pulled by two horses. Two large bellows (ísarnkol; cold iron) were placed under the shoulders of the two horses to protect them from the immense heat of the Sun. |
+| arvakr-c04 | exact | en.wikipedia.org | Sól cannot stop driving, else Sköll will catch and devour the Sun; this is expected on the day of Ragnarök. | Sól is unable to stop driving the chariot or else Sköll will catch the Sun and devour it; the Sun is expected to be caught and devoured on the day of Ragnarök. |
+| arvakr-c05 | exact | en.wikipedia.org | The myth of Árvakr and Alsviðr is thought to have inspired English dramatist James Shirley's play The Triumph of Peace (1663). | The myth of Árvakr and Alsviðr is thought to have inspired English dramatist and poet James Shirley's play The Triumph of Peace (1663). |
+| arvakr-c06 | exact | da.wikipedia.org | Årvången (Árvakr) in Norse (nordisk) mythology is one of the two horses pulling the sun across the sky. | Årvången er i nordisk mytologi en af de to heste der trækker solen over himlen (de har flere navne). |
+| arvakr-c07 | exact | en.wikipedia.org | In Nordic mythology the gods govern days, nights and seasons and shape the Sun from a spark of Muspelheim's flame, but the Sun stands still without a driver. | In Nordic mythology, gods govern the passage of days, nights, and seasons, and shape the Sun from a spark of the flame Muspelheim, but the Sun stands still without a driver. |
+| arvakr-c08 | exact | en.wikipedia.org | The horse-drawn Sun myth is not exclusive to Norse or Germanic religion; many other mythologies have a solar deity or Sun chariot drawn by horses. | The myth of the Sun pulled by horses is not exclusive to Norse or Germanic religion. Many other mythologies and religions contain a solar deity or carriage of the Sun pulled by horses. |
 
 
 ## ashaqlun — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 4 (exact 4), sumber 1, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| ashaqlun-c01 | exact | de.wikipedia.org | Ashaqlun is a mythological figure documented in folklore records. | Ashaqlun, auch Ashaqlūn geschrieben, ist ein manichäischer Dämon, der in der Apokalypse des Adam im Zusammenhang mit der Erschaffung von Adam und Eva genannt wird. |
+| ashaqlun-c01 | exact | de.wikipedia.org | Ashaqlun (also Ashaqlūn) is a Manichaean demon (manichäischer Dämon) named in the Apocalypse of Adam (Apokalypse des Adam) in connection with the creation of Adam and Eve (Eva). | Ashaqlun, auch Ashaqlūn geschrieben, ist ein manichäischer Dämon, der in der Apokalypse des Adam im Zusammenhang mit der Erschaffung von Adam und Eva genannt wird. |
+| ashaqlun-c02 | exact | de.wikipedia.org | Ashaqlun is the son of the King of Darkness (Königs der Finsternis); his consort is Namrael or Nebroel; they supposedly created the first human pair, Gehmurd (first man, Adam) and Murdiyanag (mother of life, Eve/Eva). | Ashaqlun ist der Sohn des Königs der Finsternis. Seine Gemahlin ist Namrael oder Nebroel. Angeblich erschufen sie das erste Menschenpaar, Gehmurd (Erster Mensch=Adam) und Murdiyanag (Mutter des Lebens=Eva). |
+| ashaqlun-c03 | exact | de.wikipedia.org | Ashaqlun said: bring me your sons and daughters and give me some of the Light we have taken; it is I who will make for you a form like what you have seen, the first man. | “Bring me your sons and daughters; come, give me some of the Light we have taken; it is I who will make for you a form like what you have seen, which is the first man (not the heavenly first man).” |
+| ashaqlun-c04 | exact | de.wikipedia.org | They brought him their children; he ate the boys and gave the girls to his consort to feed on their 'life-lights' (Lebenslichtern); then the two united, Nebroel conceived and bore a son named Adam, and later a daughter named Eve (Eva). | Nun brachten sie ihre Kinder zu ihm und er verspeiste die Knaben und gab die Mädchen seiner Gemahlin, um sich an deren „Lebenslichtern“ zu nähren. Anschließend vereinigten sich die beiden und Nebroel wurde schwanger. Sie gebar einen Sohn, dem sie den Namen „Adam“ gab. |
 
 
 ## aufhocker — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| aufhocker-c01 | exact | en.wikipedia.org | Aufhocker is documented as aufhocker german huckup in regional lore. | The aufhocker ( German: [ˈaʊfˌhɔkɐ] ) or huckup ( German: [ˈhʊkˌʔʊp] ) is a shapeshifter in German folklore. |
+| aufhocker-c01 | exact | en.wikipedia.org | The aufhocker or huckup is a shapeshifter of German folklore. | The aufhocker ( German: [ˈaʊfˌhɔkɐ] ) or huckup ( German: [ˈhʊkˌʔʊp] ) is a shapeshifter in German folklore. |
+| aufhocker-c02 | exact | en.wikipedia.org | The Aufhocker is said to have no identifiable shape, taking forms such as a goblin, a beautiful woman, a dead man or various animals. | The Aufhocker is described in German legend as having an unidentifiable shape because it takes on shapes such as a goblin, a beautiful woman, a dead man, or various animals. |
+| aufhocker-c03 | exact | en.wikipedia.org | The name Aufhocker means 'leap upon', since legend says it leaps onto victims' backs, often thieves and criminals needing a lesson, also lone travellers and old women. | The name Aufhocker means "leap upon". This name is used because according to legend, the Aufhocker would leap upon the back of its victims which are often thieves and criminals that need to be taught a lesson. Other common targets in the Aufhocker legend are lone travelers and old women. |
+| aufhocker-c04 | exact | en.wikipedia.org | Victims often die of exhaustion as the Aufhocker cannot be shaken off or killed, but travellers can free themselves by reaching home; attacks occur at bridges, crossroads, springs, woods, hollow paths and cemeteries. | The victims often die of exhaustion because the Aufhocker cannot be shaken off or killed. However, it is believed that travelers can free themselves if they are able to make it home before being killed. These attacks often occur in specific locations such as bridges, crossroads, springs, woods, on a path through a hollow, and cemeteries. |
+| aufhocker-c05 | exact | en.wikipedia.org | Similar myths are found across most of Europe; in Charente-Maritime, France, the Ganipote is described with similar traits. | Similar myths can be found in most of Europe. In the Charente-Maritime département of France, the Ganipote is depicted as having similar traits. |
+| aufhocker-c06 | exact | de.wikipedia.org | The Aufhocker (Low German Huckup, Sorbian Bubak) is a kobold-like pressure spirit that leaps onto the shoulders or back of night travellers and grows heavier each step; it stays there until the traveller is freed by dawn light, a prayer or bells. | Der Aufhocker (niederdeutsch Huckup, sorbisch Bubak) ist in der Mythologie ein koboldartiger Druckgeist, der Wanderern, die nachts noch unterwegs sind, auf die Schultern oder den Rücken springt und mit jedem Schritt schwerer wird. ... Der Aufhocker bleibt auf dem Wanderer sitzen, bis dieser durch das heraufbrechende Licht, ein Gebet oder Glockenläuten von ihm erlöst wird |
+| aufhocker-c07 | exact | de.wikipedia.org | Aufhockers sometimes first appear as pitiable old women, but can also take animal forms such as a bear, calf (Bahkauv), werewolf (Stüpp) or dog. | Manchmal treten die Aufhocker zunächst als mitleiderregende alte Frauen in Erscheinung; sie können aber auch Tiergestalten wie Bär, Kalb (wie beim Bahkauv), Werwolf (wie beim Stüpp) oder Hund (wie beim Sürthgens Mossel) annehmen. |
+| aufhocker-c08 | exact | de.wikipedia.org | Typical haunted places such as brooks, bridges, lakes, woods, ditches, crossroads, sunken lanes, churchyards and murder or execution sites are where one usually meets the Aufhocker. | Typische Spukorte wie Bäche, Brücken, Seen, Wälder, Gräben, Wegkreuzungen, Hohlwege, Kirchhöfe und Mord- oder Richtstätten sind die übliche Stelle für eine Begegnung mit dem Aufhocker |
+| aufhocker-c09 | exact | de.wikipedia.org | Belief in the Aufhocker stems from fear of the Wiedergänger (revenant); the oldest reports clearly speak of 'corpses leaping onto backs' (aufhuckenden Leichen), not kobolds or ghosts. | Seine Ursprünge hat der Glaube an den Aufhocker jedoch in der Furcht vor dem Wiedergänger, dem Untoten. Die ältesten Berichte über Aufhocker sprechen eindeutig von „aufhuckenden Leichen“ und nicht von Kobolden oder Gespenstern. |
+| aufhocker-c10 | exact | en.wikipedia.org | The Aufhocker is sometimes said to tear out human throats rather than exhaust its victims; this version is linked to vampirism. | The Aufhocker is a very dangerous theriomorph that is sometimes said to tear out the throats of humans instead of killing its victims from exhaustion. The version of the Aufhocker that attacks victims' throats is linked to vampirism. |
+| aufhocker-c11 | exact | de.wikipedia.org | The Hackestüpp of Düren is such an Aufhocker: it first follows victims as a playful puppy, then leaps onto their backs, cannot be shaken off and grows heavier step by step. | Um solch einen Aufhocker handelt es sich auch bei dem Hackestüpp von Düren, der seine Opfer zunächst als verspieltes Hündchen begleitet, ihnen dann auf den Rücken springt, sich nicht mehr abschütteln lässt und von Schritt zu Schritt schwerer wird. |
+| aufhocker-c12 | exact | de.wikipedia.org | The Bahkauv ('brook calf') is an Aachen legend figure said to frighten drunken men at night and demand to be carried on their shoulders. | Das Bahkauv („Bachkalb“) ist eine Aachener Sagengestalt, die nachts betrunkene Männer erschrecken und sie auffordern soll, sie auf ihren Schultern zu tragen. |
+| aufhocker-c13 | exact | de.wikipedia.org | The traveller is as if paralysed, feels oppressed and cannot turn around. | Der Wanderer ist wie gelähmt, leidet unter Beklemmung und ist unfähig sich umzuwenden. |
 
 
 ## bergmonch — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| bergmonch-c01 | exact | en.wikipedia.org | Bergmönch is documented as mountain monk german in regional lore. | The Bergmönch ("mountain monk"; German: [ˈbɛʁkˌmœnç] ) is a mountain spirit from German folklore. |
+| bergmonch-c01 | exact | en.wikipedia.org | The Bergmönch ('mountain monk') is a mountain spirit of German folklore, also called Meister Hämmerling. | The Bergmönch ("mountain monk"; German: [ˈbɛʁkˌmœnç] ) is a mountain spirit from German folklore. He is also known as Meister Hämmerling ("master hammering guy"). |
+| bergmonch-c02 | exact | en.wikipedia.org | The Bergmönch is white-haired, with fiery plate-sized eyes and a black monk's hooded cowl; he can dress as a miner (Meister Hämmerling), become a long-necked horse and turn invisible. | He has white hair and fiery looking eyes as large as dining plates. The mountain spirit wears a black hooded cowl as used by monks; this gave rise to his name Bergmönch. He also can be dressed like a miner. As such he is called Meister Hämmerling. Additionally, he can take the shape of a horse with long neck and terrible looking eyes, and is also able to become invisible. |
+| bergmonch-c03 | exact | en.wikipedia.org | The Bergmönch dwells in mountain pits and mines, active deep down and at the surface, busiest on Fridays, moving ore from one bucket to another. | The residence of the Bergmönch are pits and mines in the mountains. There he is active as well deep in the pits as up on the surface. Especially on Fridays this mountain spirit is very busy. He fills the excavated ores from one bucket to another. |
+| bergmonch-c04 | exact | en.wikipedia.org | The mountain spirit is generally an erratic, dangerous being; his poisonous breath can kill twelve people at once. | The mountain spirit generally is an erratic and dangerous being. His breath is poisonous, able to kill twelve people at once. |
+| bergmonch-c05 | exact | en.wikipedia.org | The Bergmönch can also be just and helpful, guarding good miners and punishing evil ones; he punishes whistling, cursing, egoism, infidelity and idleness, once killing an evil foreman by invisibly crushing his head. | The Bergmönch can also be just and helpful, guarding the good miners and punishing the evil ones. He punishes vices such as whistling and cursing, egoism, infidelity and idleness. For example, the mountain spirit killed an evil foreman of miners by crushing his head invisibly with his knees. |
+| bergmonch-c06 | exact | en.wikipedia.org | The oil he gives never diminishes and burns for years so long as the miner keeps the secret; he also does the work of favourite miners, digging ore for them. | This oil never diminishes and burns steadily even for years when the miner never reveals the secret that he got lamp oil from the Bergmönch. He also has favorite miners whose work he does, excavating ores for them. |
+| bergmonch-c07 | exact | de.wikipedia.org | The Bergmönch became a highly contradictory figure: besides a monk he appears as a hooded giant with sparkling eyes as big as coach wheels, as a foreman or mine master (Bergmeister) with a silver lamp, or as a mine juror. | Besonders der Bergmönch wurde zu einer ausgesprochen widersprüchlichen Figur: anstatt in der Gestalt eines Mönches erscheint er auch als Riese mit Kapuze (mit sprühenden Augen, groß wie Kutschenräder), in der Gestalt eines Steigers oder Bergmeisters (mit einem silbernen Grubenlicht) oder noch häufiger als Geschworener. |
+| bergmonch-c08 | exact | de.wikipedia.org | Some legends hold him to be the ghost of a dead mine master (Bergmeister) unable to leave his beloved work, now haunting the galleries forever; still dangerous, he kills complaining miners with his poisonous breath. | Tatsächlich wird er in manchen Sagen für das Gespenst eines toten Bergmeisters gehalten, der sich nicht von seiner geliebten Arbeit trennen konnte, und nun für immer in den Stollen und Gruben umgehen muss. Noch immer ist er gefährlich, wie ein Bergteufel, und tötet mit seinem Gifthauch die Bergleute, die sich über ihn beschweren. |
+| bergmonch-c09 | exact | en.wikipedia.org | He shows favourite miners hidden lodes of gold and silver, but the miner must throw some tools into the lode or it closes, never to be seen again. | He also shows his favourite miners hidden lodes of gold and silver but the miner has to throw some of his mining tools in the offered lode or it will be closed to never being seen by human eyes again. |
+| bergmonch-c10 | exact | de.wikipedia.org | He makes galleries collapse or causes inrushes of water and firedamp. | Er lässt Stollen einstürzen oder verursacht Wassereinbrüche und Schlagwetter. |
+| bergmonch-c11 | exact | en.wikipedia.org | The Bergmönch is giant-like in size. | The appearance of the Bergmönch is like a giant in size. |
 
 
 ## bergsra — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| bergsra-c01 | exact | en.wikipedia.org | Bergsrå is documented as mountain bergatrollet mountain in regional lore. | The Bergsrå (Mountain Rå), Bergatrollet (Mountain Troll), or Bergakungen (Mountain King) was a mythical creature or spirit of the mountain in Norse mythology. |
+| bergsra-c01 | exact | en.wikipedia.org | The Bergsrå (Mountain Rå), Bergatrollet (Mountain Troll) or Bergakungen (Mountain King) was a mythical creature or mountain spirit in Norse mythology. | The Bergsrå (Mountain Rå), Bergatrollet (Mountain Troll), or Bergakungen (Mountain King) was a mythical creature or spirit of the mountain in Norse mythology. |
+| bergsra-c02 | exact | en.wikipedia.org | The bergsrå could be male or female, living in the mountain with a court of relatives and sometimes trolls; it commonly tricked people into its mountain home so they became bergtagen ('taken into the mountain'). | The bergsrå could be either masculine or feminine. It lived in the mountain with a court of relatives and sometimes surrounded by trolls. It was a common phenomenon in the mythology about the bergsrå to trick people into their dwellings in the mountain and to become bergtagen |
+| bergsra-c03 | exact | en.wikipedia.org | A typical account was given by Sven Andersson in 1691 when tried for intercourse with a female bergsrå. | A typical description of such a claimed occurrence was given by Sven Andersson in 1691 when he was on trial for having sexual intercourse with a female bergsrå. |
+| bergsra-c04 | exact | sv.wikipedia.org | Bergsrået (bergatrollet, bergakungen) in Nordic (nordisk) folk belief is a supernatural being living in the mountain and ruling its ore; it often twists the sight of those who find ore deposits so they cannot find them again, and in many tales is surrounded by family and a court of trolls. | Bergsrået, eller bergatrollet eller bergakungen, var i nordisk folktro ett övernaturligt väsen, som bor i berget och råder över dess malm. Bergsrået förvänder ofta synen på dem som råkat upptäcka malmfyndigheter, så att de senare inte kan hitta dem. I många berättelser omges bergsrået av sin familj och ett hov av troll. |
+| bergsra-c05 | exact | sv.wikipedia.org | Dealings between humans and a bergrå were long seen as real; one who had them was taken into the mountain, called bergtagning, a known phenomenon in bergsrå lore. | Umgänge mellan människor och bergrå var något som långt fram i tiden sågs som en realitet: en människa som hade gjort detta blev tagen in i berget, något som kallades bergtagning och var ett känt fenomen inom mytologin kring bergsrået. |
+| bergsra-c06 | exact | sv.wikipedia.org | In 1691 farmhand Sven Andersson of Vättle hundred in Västergötland was sentenced to death for intercourse with a female bergrå. | År 1691 dömdes en dräng, Sven Andersson från Vättle härad i Västergötland, till döden för att ha haft samlag med ett kvinnligt bergrå . |
+| bergsra-c07 | exact | sv.wikipedia.org | The farmhand said he had once fallen asleep in the forest by a mountain while seeking a stray goat and was taken into the mountain by a woman in white, who gave him food and drink and then lay with him. | Drängen hade förklarat att han en gång somnat i skogen vid ett berg då han letat efter en bortsprungen get och då tagits in i berget av en kvinna i vitt. Kvinnan hade gett honom mat och dryck och sedan haft samlag med honom. |
 
 
 ## blain — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| blain-c01 | exact | en.wikipedia.org | Bláin is documented as norse mythology ymir in regional lore. | In Norse mythology, Ymir (/ˈiːmɪər/), also called Aurgelmir, Brimir, or Bláinn, is the ancestor of all jötnar. |
+| blain-c01 | exact | de.wikipedia.org | Blainn (Old Norse Bláinn) is a term in Norse (nordischen) poetry also used for mythical beings. | Blainn (altnordisch Bláinn) ist in der nordischen Dichtung ein Begriff, der auch für mythische Wesen verwendet wurde. |
+| blain-c02 | exact | de.wikipedia.org | It was used as a byname both for the primeval giant Ymir and for dwarfs, and also for non-mythical things such as a part of the sky. | Er wurde sowohl als Umschreibung für den Vorzeitriesen Ymir als auch für Zwerge gebraucht. Das Wort konnte aber auch zur Umschreibung von nichtmythischen Dingen verwendet werden, wie zum Beispiel einem Teil des Himmels. |
+| blain-c03 | exact | de.wikipedia.org | Bláinn is held to derive from Old Norse blár 'blue, dark, black', so the names are rendered 'the dark-coloured one', 'blue corpse' or 'the bluing one'. | Bláinn gilt als Ableitung von altnordisch blár „blau, dunkel, schwarz“. Man übersetzt somit die mythischen Namen als „der Dunkel-Farbige“, „Blau-Leiche“ oder „der Blauende.“ |
+| blain-c04 | exact | de.wikipedia.org | Völuspá 9: the gods strode to their judgement seats and deliberated who should create the race of dwarfs from Brimir's blood and Blainn's bones; in Eddic poetry the term occurs only in Völuspá. | „Da schritten alle Rater zum Richterstuhl, die heiligsten Götter, und beratschlagten, wer das Volk der Zwerge erschaffen sollte aus Brimirs Blut und aus Blainns Knochen.“ |
+| blain-c05 | exact | de.wikipedia.org | The phrase 'from Brimir's blood and Blainn's bones' seems to allude to the gods making the sea and mountains from Ymir's blood and bones, as Grimnismál and Vafþrúðnismál relate. | Die Wendung „aus Brimirs Blut und Blainns Knochen“ scheint darauf anzuspielen, dass die Götter das Meer und die Berge aus Ymirs Blut und Knochen schufen, wie zwei andere Lieder der Lieder-Edda überliefern, das Grimnismál und das Vafþrúðnismál. |
+| blain-c06 | exact | de.wikipedia.org | It is surmised that Bláinn could denote the giant because, per both poems, the sky, and thus its blue, was made from his skull. | Man mutmaßt, dass Bláinn als Umschreibung für den Riesen gebraucht werden konnte, weil nach den beiden Liedern der Himmel aus seinem Schädel erschaffen wurde – und damit auch das Blau des Himmels. |
+| blain-c07 | exact | de.wikipedia.org | In the Þulur Bláinn is listed as a heiti for dwarf; a poet could use Bláinn as another word for dwarf. | In den Þulur wird Bláinn als Heiti für Zwerg angeführt. Das heißt, ein Dichter konnte Bláinn als alternatives Wort für Zwerg verwenden. |
+| blain-c08 | exact | en.wikipedia.org | The English article says Ymir in Norse mythology, also called Aurgelmir, Brimir or Bláinn, is the ancestor of all jötnar. | In Norse mythology, Ymir (/ˈiːmɪər/), also called Aurgelmir, Brimir, or Bláinn, is the ancestor of all jötnar. |
 
 
 ## brunnmigi — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 3 (exact 3), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| brunnmigi-c01 | exact | en.wikipedia.org | Brunnmigi is documented as norse mythology brunnmigi in regional lore. | In Norse mythology, a Brunnmigi (Old Norse "pees in a well") is a being who defiles wells encountered by King Hjörleifr in Hálfs saga ok Hálfsrekka and, as recorded in the Prose Edda þulur, is also a kenning applied to foxes. |
+| brunnmigi-c01 | exact | en.wikipedia.org | In Norse mythology a Brunnmigi (Old Norse 'pees in a well') is a being that defiles wells met by King Hjörleifr in Hálfs saga ok Hálfsrekka and, per the Prose Edda þulur, also a kenning for foxes; it is a large beast. | In Norse mythology, a Brunnmigi (Old Norse "pees in a well") is a being who defiles wells encountered by King Hjörleifr in Hálfs saga ok Hálfsrekka and, as recorded in the Prose Edda þulur, is also a kenning applied to foxes. It is a large beast. |
+| brunnmigi-c02 | exact | es.wikipedia.org | The Spanish article likewise calls the Brunnmigi a being of Norse (nórdica) mythology that defiles wells met by King Hjörleifr in Hálfs saga ok Hálfsrekka. | En la mitología nórdica, un Brunnmigi (nórdico antiguo "hace pis en un pozo") es un ser que profana los pozos encontrados por el rey Hjörleifr en Hálfs saga ok Hálfsrekka |
+| brunnmigi-c03 | exact | es.wikipedia.org | The Brunnmigi appears in the second book of the Magnus Chase and the Gods of Asgard series, The Hammer of Thor (El Martillo de Thor). | El Brunnmigi es mencionado en el segundo libro de la serie "Magnus Chase y los dioses de Asgard", El Martillo de Thor |
 
 
 ## buschgro-mutter — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| buschgro-mutter-c01 | exact | en.wikipedia.org | Buschgroßmutter is documented as forest spirit living in regional lore. | The Buschgroßmutter is a forest spirit living in the deepest woods which shows herself to humans only once every hundred years. |
+| buschgro-mutter-c01 | exact | en.wikipedia.org | The Buschgroßmutter ('shrub grandmother') is a legendary creature of German folklore, especially in Thuringia, Saxony, Silesia and Bohemia, called Pusch-Grohla and Buschmutter in Silesia and Buschweibchen in Bohemia. | is a legendary creature from German folklore, especially found in folktales from the regions Thuringia, Saxony, former German-speaking Silesia and the former German-speaking parts of Bohemia. She is called various regional names such as Pusch-Grohla ("shrub granny" in Silesian German) and Buschmutter ("shrub mother") in Silesia, 's Buschkathel ("th' Shrub-Katie") and Buschweibchen in Bohemia |
+| buschgro-mutter-c02 | exact | en.wikipedia.org | The Buschgroßmutter is a forest spirit of the deepest woods, showing herself only once a century; ancient, small, stooped, wrinkled and staring, with long snow-white but tangled, lice-ridden hair. | The Buschgroßmutter is a forest spirit living in the deepest woods which shows herself to humans only once every hundred years. She is as old as the hills, her appearance being small and ducked, wrinkly and ugly. She has staring eyes and is sometimes said to have an iron head, a typical demonic feature. The Buschgroßmutter's hair is long, as white as snow, but messy and full of lice. |
+| buschgro-mutter-c03 | exact | en.wikipedia.org | When the mountains 'smoke' with fog in spring and autumn, the Buschweibchen is said to be cooking. | When the mountains are "smoking" with fog in spring and autumn, then the Buschweibchen is said to be cooking. |
+| buschgro-mutter-c04 | exact | en.wikipedia.org | The Buschgroßmutter's character wavers between benevolent and malevolent; she asks people to comb or delouse her hair, and those who comply get an endless clew of yarn or green or yellow leaves that later become gold if kept. | The character of the Buschgroßmutter is ambivalent, fluctuating between benevolent and malevolent behaviour. She asks people to comb or louse her hair. Those who fulfill her request will be rewarded with a neverending clew of yarn ... or with either green or yellow leaves which will later become gold if not thrown away. |
+| buschgro-mutter-c05 | exact | en.wikipedia.org | Tidying her hair is very hard since her head is ice-cold, briefly freezing the helper's hands; when sneered at, the Buschgroßmutter takes revenge by breathing on the mocker, who falls ill, usually with a rash. | It is but very difficult to clean and tidy the Buschweibchen's hair because her head is as cold as ice, thus leading to a (temporary) freezing of the helper's hands. When she was sneered at, the Buschgroßmutter takes revenge by breathing on the sneerer which will result in illnesses, most commonly rash. |
+| buschgro-mutter-c06 | exact | en.wikipedia.org | The Buschgroßmutter is usually solitary, but at times said to lead a band of Moosfräulein, female forest spirits called her daughters, roaming the land with them in the holy nights. | Normally the Buschgroßmutter is a solitary figure, but occasionally she is said to be the leader of a horde of Moosfräulein ("moss ladies"), female forest spirits which are said to be her daughters. Accompanied by her daughters, the Buschgroßmutter roams the countryside in holy nights. |
+| buschgro-mutter-c07 | exact | de.wikipedia.org | By the Saale the Buschgroßmutter is called mistress of the Moosweiblein; strictly she is their mother (Moosfräuleins), roaming the land with them, usually in a little cart; with tangled hair and a fixed stare, she is also a bogey for children and corresponds to Frau Holle or Perchta. | Als Herrin der Moosweiblein wird an der Saale die Buschgroßmutter bezeichnet. Die Buschgroßmutter ist genau genommen die Mutter der Moosweiblein (hier: Moosfräuleins), mit welchen sie im Lande umherzieht, meist in einem kleinen Rollwagen. Sie hat wirres Haar und einen starren Blick. Die Buschgroßmutter ist auch ein Kinderschreck. Sie entspricht der andernorts verbreiteten Frau Holle oder Perchta. |
+| buschgro-mutter-c08 | exact | en.wikipedia.org | In the 19th century mythologists like Jacob Grimm and Wilhelm Mannhardt made the Buschgroßmutter leader or even queen of the moss people, like an elf queen. | In the 19th century, mythologists such as Jacob Grimm or Wilhelm Mannhardt declared the Buschgroßmutter to be the leader or even the queen of the moss people, similar to the elf queen. |
+| buschgro-mutter-c09 | exact | en.wikipedia.org | In folktales of the German-speaking Transylvanian Saxons, in today's Romania, there is a similar being called Baschgrîs, Baschmôter or Baschäinjel. | In traditional folktales of the German-speaking Transylvanian Saxons in Transylvania, today part of Romania, there is a similar being called Baschgrîs ("shrub grandmother"), Baschmôter ("shrub mother") or Baschäinjel ("shrub angel") in Transylvanian Saxon dialect. |
+| buschgro-mutter-c10 | exact | de.wikipedia.org | Though 19th-century mythologists regarded her as queen of the moss people (Moosleute), she is rather seen as a primitive forest demon. | Während sie von den Mythologen des 19. Jahrhunderts als Königin der Moosleute betrachtet wurde, wird sie doch eher als primitiver Walddämon gesehen. |
+| buschgro-mutter-c11 | exact | en.wikipedia.org | All three names serve to scare children and denote a female wood sprite with shaggy, fluttering hair, large fiery eyes and very big teeth. | All three names are used to scare children and denote a female wood sprite with shaggy fluttering hair, large fiery eyes and very big teeth. |
 
 
 ## dvalinn-q118525447 — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| dvalinn-q118525447-c01 | exact | de.wikipedia.org | Dvalinn (stag) is a mythological figure documented in folklore records. | gaghálsir gnaga:<br />Dáinn oc Dvalinn,<br />Duneyrr oc Duraþrór. |
+| dvalinn-q118525447-c01 | exact | de.wikipedia.org | Dain, Dwalin (also Dvalin or Dvalar), Duneyr and Durathror are four stags in Norse (nordischen) mythology belonging to the animals of the world tree Yggdrasil. | Dain, Dwalin (auch Dvalin oder Dvalar), Duneyr und Durathror sind vier Hirsche in der nordischen Mythologie, die zu den Tieren am Weltenbaum Yggdrasil gehören. |
+| dvalinn-q118525447-c02 | exact | no.wikipedia.org | Dåin, Dvalin, Dunøyr and Duratro (Old Norse Dáinn, Dvalinn, Duneyrr, Duraþrór) are four deer that, per Gylfaginning (Gylvaginning) in the Younger Edda, run about Yggdrasil's branches and graze its foliage. | Dåin, Dvalin, Dunøyr og Duratro (norrønt: Dáinn, Dvalinn, Duneyrr og Duraþrór) er fire hjortedyr som ifølge Gylvaginning i Den yngre Edda løper omkring på greinene til verdenstreet Yggdrasil og beiter i løvverket. |
+| dvalinn-q118525447-c03 | exact | no.wikipedia.org | The four stags are also mentioned in Grímnismál (Grimnesmål) in the Elder Edda. | De fire hjortene omtales også i Grimnesmål i Den eldre Edda |
+| dvalinn-q118525447-c04 | exact | no.wikipedia.org | The stags belong to the description of the many animals in Yggdrasil: the eagle Vidofnir at the top with the hawk Verfolne between its eyes, the serpent Nidhogg coiled round its root and the squirrel Ratatosk running up and down bearing hateful words. | Hjortene inngår i beskrivelsen av mange dyr som har tilhold i Yggdrasil. I toppen sitter ørnen Vidofnir med hauken Verfolne mellom øynene. Rundt rota på treet snor slangen Nidhogg seg, mens ekornet Ratatosk løper opp og ned og bringer hatefulle ord mellom dem. |
+| dvalinn-q118525447-c05 | exact | no.wikipedia.org | Author Vera Henriksen has argued that the animals helping to destroy the world tree are 'the beginning of misery' ending in Ragnarok. | Forfatteren Vera Henriksen har hevdet at dyrene som bidrar til å ødelegge verdenstreet er «begynnelsen på elendigheten» som ender i Ragnarok. |
+| dvalinn-q118525447-c06 | exact | no.wikipedia.org | The Norwegian article distinguishes these stags from the dwarfs named Dåin and Dvalin. | For dvergene, se Dåin og Dvalin |
 
 
 ## elder-mother — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| elder-mother-c01 | exact | en.wikipedia.org | Elder Mother is documented as elder mother elder in regional lore. | The Elder Mother is an elder-guarding being in English and Scandinavian folklore known by a variety of names, such as the Danish Hyldemoer ("Elder-Mother") and the Lincolnshire names Old Lady and Old Girl. |
+| elder-mother-c01 | exact | en.wikipedia.org | The Elder Mother is an elder-guarding being in English and Scandinavian folklore with many names, such as the Danish Hyldemoer and the Lincolnshire Old Lady and Old Girl. | The Elder Mother is an elder-guarding being in English and Scandinavian folklore known by a variety of names, such as the Danish Hyldemoer ("Elder-Mother") and the Lincolnshire names Old Lady and Old Girl. |
+| elder-mother-c02 | exact | en.wikipedia.org | The Elder Mother is held to guard elder trees; until recently in parts of England and Scandinavia it was said one must first ask her before taking elder wood, or ill luck would befall the woodsman. | The Elder Mother is thought to be the guardian of the elder trees, and it was said, until recent times in various parts of England and Scandinavia that to take wood from the elder tree one would have to ask the Elder Mother first, or else ill luck would befall the woodsman. |
+| elder-mother-c03 | exact | en.wikipedia.org | A Somerset tale makes the Elder Mother a villain, a witch a farmer sees as an elder milking his cow; his silver bullet misses and he is chased indoors, but the old granny throws burning coal at the elder and the witch dies. | Another tale, from Somerset, casts the Elder Mother as the villain, a witch that a farmer sees as an elder milking his cow. The farmer shoots at the witch with a silver bullet but misses and is chased back into the farmhouse. The old granny, however, picks up the burning coal from the fire with a shovel and throws it at the elder tree, burning cinders, and thus the witch is dead. |
+| elder-mother-c04 | exact | fy.wikipedia.org | In later tales, probably under Christian influence, the image of the Flearemem (Elder Mother) shifted from protector of elder trees to a witch who may or may not mean harm. | Yn lettere ferhalen ferskoot de persepsje fan 'e Flearemem, grif ûnder kristlike ynfloed, fan in beskermfrouwe fan flearebeammen nei in hekse dy't al of net boasaardige bedoelings hat. |
+| elder-mother-c05 | exact | en.wikipedia.org | Thus the king and his knights were turned to stone and the witch turned herself into an elder tree. | And thus the king and his knights were turned to stone and the witch turned herself into an elder tree. |
+| elder-mother-c06 | exact | en.wikipedia.org | In Denmark the Hyldemoer or Hyldequinde ('elder woman') is a spirit like a wood nymph or dryad living in the elder tree, said to haunt or torment those who build with elder wood without asking permission. | In Denmark, the Hyldemoer (“Elder-mother”) or Hyldequinde (“Elder-woman”) is a spirit like a wood-nymph or dryad that lives in the elder tree. The spirit is said to haunt or torment people who build from elder wood unless they ask permission first. |
+| elder-mother-c07 | exact | fy.wikipedia.org | The belief in the Flearemem may well have originated in Scandinavia (Skandinaavje) and been brought to England (Ingelân) by the Vikings (Wytsingen) in the early Middle Ages, in the Danelaw era. | It soe skoan kinne dat it leauwen yn 'e Flearemem syn oarsprong fynt yn Skandinaavje en yn 'e Iere Midsiuwen troch de Wytsingen yn 'e tiid fan 'e Danelaw yn Ingelân brocht is. |
+| elder-mother-c08 | exact | fy.wikipedia.org | In one such tale the Flearemem turns a king and his men into the Rollright Stones on the Oxfordshire–Warwickshire border, while turning herself into an elder tree. | Yn ien sa'n ferhaal feroaret de Flearmem sa'n kening en syn mannen yn 'e Rollright Stones, dy't op 'e grins fan 'e Ingelske greefskippen Oxfordshire en Warwickshire steane, wylst se harsels yn in flearebeam feroaret. |
 
 
 ## erawan — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| erawan-c01 | exact | de.wikipedia.org | Erawan is a mythological figure documented in folklore records. | Dieser Artikel behandelt den Begriff Erawan aus der thailändischen Mythologie. |
+| erawan-c01 | exact | de.wikipedia.org | Erawan (Thai: เอราวัณ) is the Thai (thailändische) form of the mythical elephant Airavata. | Erawan (in Thai: เอราวัณ) ist die thailändische Form des mythischen Elefanten Airavata. |
+| erawan-c02 | exact | de.wikipedia.org | Erawan is a giant elephant as big as a mountain, usually with three heads, sometimes 33, each with seven tusks. | Er ist ein riesenhafter Elefant, groß wie ein Berg. Er hat meistens drei, manchmal sogar 33 Köpfe, jeder Kopf ist mit sieben Stoßzähnen ausgestattet. |
+| erawan-c03 | exact | de.wikipedia.org | Erawan is the mount of Indra, the Hindu god of rain and thunder, ruler of the Tavatimsa heaven, home of 33 gods of Vedic origin. | Er ist das Reittier des hinduistischen Gottes des Regens und des Donners Indra, dem Herrscher über den Tavatimsa-Himmel, der Wohnstatt von 33 Göttern vedischen Ursprungs. |
+| erawan-c04 | exact | de.wikipedia.org | Per the Traiphum Phra Ruang (14th century), in Indra's city there is an elephant named Erawan, but it is no animal, since that heaven holds no animals, only devatā; hence it is called 'Devatā Erawan'. | In der Stadt gibt es einen Elefanten mit Namen Erawan. Allerdings ist dieser Elefant kein Tier, denn in diesem Himmel gibt es keine Tiere, er ist ausschließlich von Devatā bewohnt. So gibt es dort einen Elefanten mit Namen „Devatā Erawan“. |
+| erawan-c05 | exact | de.wikipedia.org | Whenever King Indra wishes to ride out for pleasure on an elephant, Devatā Erawan becomes a huge white elephant 1,200,000 wa tall with 33 heads. | Wann immer König Indra zum Vergnügen ausreiten möchte, und er möchte dabei auf einem Elefanten reiten, verwandelt sich „Devatā Erawan“ in einen sehr großen weißen Elefanten. Dieser Elefant ist 1.200.000 Wa hoch und hat 33 Köpfe. |
+| erawan-c06 | exact | nl.wikipedia.org | This giant white elephant is Indra's mount and dwells in the Tavatimsa heaven; it is shown with three or more elephant heads, and the name I-rapote is also used in Thailand. | Deze reusachtige witte olifant is het rijdier van Indra en bevindt zich in de hemel Tavatimsa. Het dier wordt afgebeeld met drie of meer driekoppige olifantskoppen. Ook de naam "I-rapote" wordt in Thailand gebruikt. |
+| erawan-c07 | exact | nl.wikipedia.org | Erawan is an important religious motif often used as ornament, as on Thai honours like the Order of Chula Chom Klao and on monuments. | De Erawan is een belangrijk religieus motief en de olifant wordt vaak als ornament gebruikt. Men ziet hem op Thaise onderscheidingen als de Orde van Chula Chom Klao waarin de erawan een centrale plaats in de keten kreeg en op monumenten. |
+| erawan-c08 | exact | de.wikipedia.org | In each tusk there are seven ponds, in each pond seven lotus plants; each lotus has seven flowers, each with seven petals. | In jedem Stoßzahn gibt es sieben Teiche, in jedem Teich sieben Lotuspflanzen; jede Lotuspflanze hat sieben Blüten, eine jede mit sieben Blütenblättern. |
+| erawan-c09 | exact | de.wikipedia.org | The heads grow ever larger toward the middle; the central head is called Sudassana, Indra's throne, with a circumference of 24,000 wa. | Die Köpfe zur Mitte hin werden immer größer, der Kopf im Zentrum heißt Sudassana. Er ist der Thron Indras und hat einen Umfang von 24.000 Wa. |
 
 
 ## falhofnir — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 3 (exact 3), sumber 3, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| falhofnir-c01 | exact | en.wikipedia.org | Falhófnir is documented as norse mythology norse in regional lore. | In Norse mythology, Falhófnir (Old Norse: [ˈfɑlˌhoːvnez̠] ) is a horse listed in both Grímnismál and Gylfaginning among the steeds ridden by the gods each day when they go to make judgements at Yggdrasil. |
+| falhofnir-c01 | exact | en.wikipedia.org | In Norse mythology Falhófnir is a horse listed in Grímnismál and Gylfaginning among the mounts the gods ride daily to give judgements at Yggdrasil, not tied to any specific god. | In Norse mythology, Falhófnir (Old Norse: [ˈfɑlˌhoːvnez̠] ) is a horse listed in both Grímnismál and Gylfaginning among the steeds ridden by the gods each day when they go to make judgements at Yggdrasil. However, in both stanzas Falhófnir is not assigned to any specific deity. |
+| falhofnir-c02 | exact | da.wikipedia.org | The Danish article glosses Falhófnir as 'hairy hoof' or 'hidden hoof'; it is one of the stallions the Æsir (aserne) ride to Yggdrasil, and no stanza names its owner, unlike Sleipnir (Sleipner) and Freyfaxi (Frejfaxe). | Falhófnir (norrønt for "behåret hov" eller "skjult hov") er en hest i nordisk mytologi, som bliver nævnt i både Grímnismál og Gylfaginning som en af de hingste, som aserne rider på hver dag, når drager til Yggdrasil for at dømme ting. I ingen af stanzaerne bliver ejerskabet af hesten tilskrevet til en bestemt gud, som det er tilfældet med bl.a. Sleipner og Frejfaxe. |
+| falhofnir-c03 | exact | en.wikipedia.org | Gylfaginning (Brodeur's translation) lists the Æsir's steeds: Sleipnir, Odin's eight-footed best, then Gladr, Gyllir, Glenr, Skeidbrimir, Silfrintoppr, Sinir, Gisl, Falhófnir, Gulltoppr and Léttfeti. | These are the names of the Æsir's steeds: Sleipnir is best, which Odin has; he has eight feet. The second is Gladr, the third Gyllir, the fourth Glenr, the fifth Skeidbrimir, the sixth Silfrintoppr, the seventh Sinir, the eighth Gisl, the ninth Falhófnir, the tenth Gulltoppr, the eleventh Léttfeti. |
 
 
 ## fanggen — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| fanggen-c01 | exact | en.wikipedia.org | Fänggen is documented as plural wood sprite in regional lore. | A Fängge (plural Fänggen ) is a wood sprite or a subtype of wild women in German folklore, found in German-speaking parts of the Alpine Region into more northerly non-Alpine parts of Bavaria (Upper Palatinate). |
+| fanggen-c01 | exact | en.wikipedia.org | A Fängge (plural Fänggen) is a wood sprite or kind of wild woman in German folklore, found in the German-speaking Alpine region and further north in Bavaria (Upper Palatinate). | A Fängge (plural Fänggen ) is a wood sprite or a subtype of wild women in German folklore, found in German-speaking parts of the Alpine Region into more northerly non-Alpine parts of Bavaria (Upper Palatinate). |
+| fanggen-c02 | exact | en.wikipedia.org | The Fängge is conceived as strictly female, a hairy, ugly giantess (counterpart of the moss-grown male giant or wild man), though the gender line is vague. | The Fängge has been conceived of strictly as female, a hairy, ugly giantess (counterpart of the moss-grown male giant or wild man). However, the gender demarcation is vague. |
+| fanggen-c03 | exact | en.wikipedia.org | In the broad sense Fängge (also Wildfanggen) means a nature spirit, giant or dwarfish, in Bavaria (Upper Palatinate), Liechtenstein, Tyrol and Switzerland. | Fängge in the broad sense refers to a nature spirit, either gigantic or dwarfish, in Bavaria (Upper Palatinate), Liechtenstein, Tyrol, as well as in Switzerland |
+| fanggen-c04 | exact | en.wikipedia.org | The Fankerl is a bearded dwarf with flashy red eyes on the Pfreimd River in Upper Palatinate lore, Bavaria, counted as a type of Fängge. | The Fankerl (plural Fankerln ) is a type of bearded dwarf with flashy red eyes living on the Pfreimd River according to the lore of the Upper Palatinate, Bavaria, and it is counted as a type of Fängge. |
+| fanggen-c05 | exact | en.wikipedia.org | Per the lore of Tyrol and the Bavarian Alps, the Fängge (Fangga) is a giantess as tall as a tree. | The Fängge (var. Fangga ) is a giantess as tall as a tree, according to the lore of Tyrol and the Bavarian Alps. |
+| fanggen-c06 | exact | de.wikipedia.org | The Fänggen (singular Fangga, Fanggin), also Fänken, Fenggen and Fanggen, are legendary beings of southern Germany (Süddeutschland), Austria (Österreich) and South Tyrol (Südtirol); by author, time and place they are giant forest demons, witch figures or tree-bound forest fairies. | Die Fänggen (Sing.: Fangga; Fanggin), welche auch Fänken, Fenggen und Fanggen genannt werden, sind Wesen und Sagengestalten in Süddeutschland, Österreich und Südtirol. Je nach Autor, Zeit und Ort werden sie entweder als riesenhafte Walddämonen, als Hexengestalten oder auch als baumverbundene Waldfeen beschrieben. |
+| fanggen-c07 | exact | de.wikipedia.org | Johann Nepomuk von Alpenburg (1857) describes the Fänggen as huge, hairy all over, with a distorted face, a mouth stretched from ear to ear and black hair hung with tree-beard. | riesengroß, am ganzen Körper behaart, geborstet, das Antlitz verzerrt, der Mund von einem Ohre zum anderen gezogen, das schwarze Haupthaar hängt voll Baumbart |
+| fanggen-c08 | exact | de.wikipedia.org | They are said to have secret knowledge, such as the hidden powers of plants, which can be coaxed from them once drunk; most have names like Rauhrinda and Stutzförcha; in legends they are often reduced to bogeys for children or shown as stupid. | Es heißt, dass sie über geheimes Wissen verfügen, wie zum Beispiel jenes über die geheimen Kräfte der Pflanzen, das man ihnen entlocken kann, wenn man sie erst betrunken gemacht hat. Auch sollen die meisten über Eigennamen verfügen, wie zum Beispiel Rauhrinda und Stutzförcha. In Sagen werden sie häufig zum Kinderschreck deklassiert oder als dumm dargestellt. |
+| fanggen-c09 | exact | de.wikipedia.org | They appear alone or in groups, but their lives are always bound to a particular forest; if it disappears, say through felling, they disappear too. | Sie sollen sowohl solitär, als auch in Gruppen auftreten, wie in den oben beschriebenen Sagen, sind dabei aber stets an einen bestimmten Wald mit ihrem Leben gebunden. Würde besagter Wald verschwinden, etwa durch Abholzung, würden auch sie verschwinden. |
+| fanggen-c10 | exact | de.wikipedia.org | Besides giant Fänggen, some legends know small dwarf-like Fängge living in rock clefts and mounds called Fänggenlöcher. | Neben den riesenhaften Fänggen existieren in manchen Sagen und Erzählungen auch kleine, zwerghafte Fängge. Diese Winzlinge sollen in Felsenklüften und Erdhügeln, die Fänggenlöcher genannt werden, hausen. |
+| fanggen-c11 | exact | de.wikipedia.org | Another trait, surely added with Christianisation, is that the Fänggen, like other pagan figures, can be driven off by the ringing of a church bell. | Ein weiteres Merkmal der Fänggen, das sicherlich erst im Zuge der Christianisierung hinzukam, ist, dass man sie, wie auch andere heidnische Gestalten durch das Läuten einer Kirchenglocke vertreiben kann. |
+| fanggen-c12 | exact | de.wikipedia.org | Their eyes are dark and coal-black but sometimes glow and flash; their voice is a man's, rough and coarse; they wear aprons of wildcat fur, jackets of tree bark and shaggy fox-skin aprons. | Die Augen sind dunkel und nachtschwarz wie Kohlen, glühen aber auch zu Zeiten und sprühen Blitze – die Stimme ist Mannesstimme, rauh und ungefüge. Ihre Kleidung sind Schurze von Wildkatzenpelzen, Joppen von Baumrinden und Zottelschurze von Füchsen und anderm Getier. |
+| fanggen-c13 | exact | de.wikipedia.org | The small Fängge are often equated with dwarfs and gnomes but, despite their size, are immensely strong; they tame chamois and wolves, drink their milk and even ride them. | Sie werden oft mit den Zwergen, Gnomen und derlei gleichgesetzt, sollen aber, trotz ihrer geringen Körpergröße, über gewaltige Kräfte verfügen. Außerdem heißt es, dass sie Gämse und Wölfe zähmen, deren Milch trinken und sie gar als Reittiere nutzen sollen. |
+| fanggen-c14 | exact | de.wikipedia.org | A Tyrolean (Tiroler) legend: in the forest from Nassereit to Stra lived a Fangg as tall as a middling tree, always lurking for people; when she caught little boys she snuffed them up her nose. | „Im Walde, der von Nassereit nach Stra sich zieht, hauste eine Fangg, welche von der Größe eines mittelmäßigen Baumes war. Sie lauerte stets auf Menschen, und wenn sie kleine Buben zu fassen bekam, so schnupfte sie dieselben in ihre Nase |
 
 
 ## fenixmannlein — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| fenixmannlein-c01 | exact | en.wikipedia.org | Fenixmännlein is documented as particularly abducting women in regional lore. | The Fenixmännlein particularly like abducting women in childbed, carrying them off to the Fenixmannlaberg (Fenix Men Mountain) to care for their children or for washing. |
+| fenixmannlein-c01 | exact | en.wikipedia.org | The Fenixmännlein (also Fenixmännel, Fenskemännel, Fenesleute) are earth sprites and dwarfs of German folklore, once known in Silesia, especially the Oderské vrchy and Hrubý Jeseník, and in the Saxon part of Lusatia. | are earth sprites and dwarves from German folklore. They were historically known in Silesia, particularly in the Oderské vrchy and Hrubý Jeseník as well as in the part of Lusatia belonging to Saxony. |
+| fenixmannlein-c02 | exact | en.wikipedia.org | Derivation from the Venedigermännlein ('little Venetian men') is supported since both are bigger than dwarfs but smaller than humans; the Fenixmännlein live collectively in hills and shrubbery. | The latter option is supported by the fact that both Fenixmännlein and Venedigermännlein are supposed to be bigger than dwarves (German Zwerge, sg. Zwerg) but smaller than humans. The Fenixmännlein are collective beings dwelling in hills and shrubbery. |
+| fenixmannlein-c03 | exact | en.wikipedia.org | Inside the mountains they hold big parties; they are said to own the original Silesian streuselkuchen recipe, and when they bake in their caves smoke rises from earth holes. | Inside the mountains, they throw big parties. The Fenismannla (pl. Mannla = little men in Silesian German) are said to be the original owners of the recipe for Silesian streuselkuchen. When the Fänismännchen (sg., pl.;Männchen = little man) are baking cake in their caves, smoke is rising from earth holes and from beneath clods. |
+| fenixmannlein-c04 | exact | en.wikipedia.org | The Fenixmännlein occasionally swap human children for their own, left behind as changelings. | The Fenixmännlein are known to occasionally exchange human children for their own which are left behind as changelings. |
+| fenixmannlein-c05 | exact | en.wikipedia.org | A ploughboy who asked for cake was at once handed a cabbage cake with linseed oil by an invisible hand, threatened to eat it on an iron table; he used his ploughshare as that table. | Immediately, an invisible hand gave him a Krautkuchen (cabbage cake) coated with green linseed oil. At the same time, he got threatened to eat this cake on a table made from iron or else he would be done for. The ploughboy fulfilled the condition by using his ploughshare as the iron table. |
+| fenixmannlein-c06 | exact | en.wikipedia.org | The Fenixmännlein's cake may turn to lead in the stomach, to dust (that of the Fenesleute of the Fenesloch), or to gold. | The cake of the Fenixmannla turns to lead inside the stomach. The Krautplatz (cabbage cake) of the Fenesleute dwelling in the Fenesloch (Fenes Hole) turns to dust. The cake of the Fenixmännchen might also turn to gold. |
+| fenixmannlein-c07 | exact | de.wikipedia.org | Fenixmännlein (Fenixmännel, Fenskemännel, Fenisleute) are a group of Silesian (schlesischer) dwarfish demons thought related to earth spirits and dwarfs; like most nature spirits they live near people and try to swap human children with changelings, but are rarely malicious. | Als Fenixmännlein (Fenixmännel, Fenskemännel, Fenisleute) bezeichnet man eine Gruppe schlesischer zwergenhafter Dämonen, die mit den Erdgeistern und Zwergen verwandt sein sollen, da sie denselben Beschäftigungen nachgehen. Wie die meisten Naturgeister leben sie in menschlicher Nähe und versuchen, die Kinder der Menschen mit ihren Wechselbälgern zu vertauschen. Selten sind sie bösartig. |
+| fenixmannlein-c08 | exact | en.wikipedia.org | The rescuer of an abducted woman must ride as fast as possible, throwing flax, a comb and soap behind him. | The rescuer will need to ride his horse as fast as he can, all the while throwing behind him flax (the dwarves must pull) a comb (the dwarves must heckle the flax with) and soap (the dwarves will slip on). |
+| fenixmannlein-c09 | exact | en.wikipedia.org | In Austrian Silesia the Fenesleute left because people began adding parsley, which they could not stand, to their food, and because of the railways. | In Austrian Silesia, the Fenesleute have moved out of the country. This happened because people started adding parsley to their dishes which they were unable to tolerate. The introduction railways also made the Fenesleute migrate |
+| fenixmannlein-c10 | exact | en.wikipedia.org | In Lusatia the Venusmännel or Feensmännel moved west after Ostritz got its bell tower, as the dwarfs could not stand the big bell. | In Lusatia, the Venusmännel or Feensmännel migrated westwards after Ostritz had got its bell tower. The dwarves could not stand the sound of the large bell in particular. |
+| fenixmannlein-c11 | exact | en.wikipedia.org | The Fenixmännlein especially like abducting women in childbed to the Fenixmannlaberg to nurse their children or wash. | The Fenixmännlein particularly like abducting women in childbed, carrying them off to the Fenixmannlaberg (Fenix Men Mountain) to care for their children or for washing. |
+| fenixmannlein-c12 | exact | en.wikipedia.org | Not only the male Fenixmännlein can bake; their female counterparts, the Venusweiblein, can too. | But not only the male Fenixmännlein know how to bake, their female equivalent, the Venusweiblein (sg., pl.; Weiblein = little woman), do too. |
 
 
 ## feuermann-ghost — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| feuermann-ghost-c01 | exact | en.wikipedia.org | Feuermann (ghost) is documented as alternatively feuermann appears in regional lore. | Alternatively, the Feuermann also appears more or less shapeless like a (sometimes gigantic) sheaf or bundle of straw, a big floating light, a fiery ball, a pyramid, a snake, or a fiery wheel. |
+| feuermann-ghost-c01 | exact | en.wikipedia.org | The Feuermann ('fire man'; also Brennender, Brünnling, Züsler, Glühender, glühende Männer) is a fiery ghost of German folklore, unlike the will-o'-the-wisp (Irrlicht) in size: Feuermänner are big, Irrlichter small. | is a fiery ghost from German folklore, which is different from the will-o'-the-wisp (German Irrlicht) owing to its size: Feuermänner are rather big, while Irrlichter are rather small. |
+| feuermann-ghost-c02 | exact | en.wikipedia.org | Some are humanlike, such as a skeleton blazing inside or a leaden manikin with fire under its mantle; others a black man in a pillar of fire; it can change its height at will from gigantic to tiny. | Some are described as rather humanoid, such as a human skeleton whose insides are blazing with fire, or as a leaden manikin wearing a leaden mantle blazing with fire underneath. Another description is of a black man inside a tall, wide pillar of fire, or a Feuermann who is half black, half fiery. It is able to change its height at will, varying from gigantic to diminutive. |
+| feuermann-ghost-c03 | exact | en.wikipedia.org | The Feuermann may also appear nearly shapeless, as a (sometimes giant) sheaf of straw, a big floating light, a fireball, a pyramid, a snake or a fiery wheel; it is very fast and can rise to hover above the treetops. | Alternatively, the Feuermann also appears more or less shapeless like a (sometimes gigantic) sheaf or bundle of straw, a big floating light, a fiery ball, a pyramid, a snake, or a fiery wheel. The Feuermann is very quick and able to rise in the air so that it hovers above the treetops. |
+| feuermann-ghost-c04 | exact | en.wikipedia.org | The Feuermann is seen as a sinner haunting the earth to atone for its life's sins; often a Grenzfrevler who moved a boundary stone with criminal intent and is damned to haunt that boundary. | It is seen as a sinner remaining hauntingly on earth to repent for its sins during lifetime. Frequently, the Feuermann is a so-called Grenzfrevler (sg., pl.) or boundary sinner who has moved a boundary stone or similar landmark with criminal intent, thus damning the soul to haunt the very boundary it unlawfully changed in life. |
+| feuermann-ghost-c05 | exact | en.wikipedia.org | The Feuermann appears only in the evening or at night, preferably in fields, especially field borders, and meadows, particularly swampy ones. | The Feuermann appears only at evening or at night, preferably at fields, particularly field borders, and meadows, especially swampy ones. |
+| feuermann-ghost-c06 | exact | de.wikipedia.org | The Feuerputz, also called Brünnling, Feuerpütz, Glühender, Züsler, but most often Feuermann, is a fiery spook and legendary figure. | Der Feuerputz, der auch Brünnling, Feuerpütz, Feurputz, Glühender, Züsler, am häufigsten aber Feuermann genannt wird, ist ein feuriger Spuk und eine Sagengestalt. |
+| feuermann-ghost-c07 | exact | de.wikipedia.org | Feuermänner are souls who sinned in life and must now atone; their fiery form is their purgatory. | Feuermänner sind Seelen, die sich im Leben versündigt haben und dies nun abbüßen müssen. Ihre feurige Erscheinung ist also ihr Fegefeuer. |
+| feuermann-ghost-c08 | exact | en.wikipedia.org | Usually harmless, the Feuermann may help by lighting the way at night for a small coin or thanks such as 'Vergelt's Gott'; such a blessing redeems the burning sinner. | Usually harmless, the Feuermann can also appear helpful to humans by showing and illuminating them the way at night for a small sum of money or a word of gratitude such as "Vergelt's Gott" ("May God reward it") or "Bezahl dir's Gott (soviel Mal wie du's nötig hast)" ("May God repay you (as many times as you need)"). Such a blessing redeems the burning sinner |
+| feuermann-ghost-c09 | exact | en.wikipedia.org | A Feuermann turns malicious when refused a promised reward or taking revenge on a prankster; then it leads people astray and leaps onto their backs (aufhocken). | A malicious Feuermann can be experienced when it has helped out a human and is refused the promised reward or when it takes revenge on a human who has played a prank on it. Then, the Feuermann leads astray, practices "aufhocken" |
+| feuermann-ghost-c10 | exact | en.wikipedia.org | Touching the Feuermann's hand is dangerous; so one should offer an object instead of one's hand, as a black handprint will be burnt where it touched. | It is dangerous to touch the Feuermann's hand. Thus, one should always give an object instead of one's hand as one will find a black handprint burnt on it where the Feuermann has touched. |
+| feuermann-ghost-c11 | exact | de.wikipedia.org | A simple 'Vergelt's Gott' is said to be enough to redeem the Feuermann. | Schon ein schlichtes „Vergelt's Gott“ soll dabei ausreichen, um den Feuermann zu erlösen. |
+| feuermann-ghost-c12 | exact | en.wikipedia.org | Rarer forms are a fiery, sometimes headless rider on a fiery horse and a fiery ploughman with fiery horse and plough. | Rarer appearances are that of a fiery, sometimes headless rider on a fiery horse and that of a fiery ploughman with fiery horse and plough. |
+| feuermann-ghost-c13 | exact | en.wikipedia.org | Such a blessing redeems the burning sinner, as do prayers and masses, so Feuermänner approach on hearing a prayer; swearing drives them away. | Such a blessing redeems the burning sinner, as do prayers and masses because of which Feuermänner draw near upon hearing a prayer. Swearing drives them away instead. |
+| feuermann-ghost-c14 | exact | en.wikipedia.org | Or it follows the person and sets the straw on their wagon or even their house on fire. | or follows the person and sets the straw on their wagon or even their house ablaze. |
+| feuermann-ghost-c15 | exact | en.wikipedia.org | Other possible identities of the Feuermann include a sacristan who stole from the collection bag, a murderous arsonist, a traitor to his country and other evildoers. | Other possible identities of the Feuermann include a sacristan who has stolen money from the collection bag, a murderous incendiary, a traitor of his country, and several other kinds of evildoers. |
 
 
 ## finngalkn — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| finngalkn-c01 | exact | is.wikipedia.org | Finngálkn is a mythological figure documented in folklore records. | Finngálkn er furðusagnakvikindi, maður að ofan en dýr að neðan (einnig kallað Kentári). |
+| finngalkn-c01 | exact | is.wikipedia.org | The Finngálkn is a fabulous beast, human above and animal below (also called Kentári, centaur); the word also denotes the offspring of a fox and a cat. | Finngálkn er furðusagnakvikindi, maður að ofan en dýr að neðan (einnig kallað Kentári). Finngálkn er einnig haft um afkvæmi tófu og kattar. |
+| finngalkn-c02 | exact | is.wikipedia.org | Per Jón Árnason's folktales (Þjóðsögum Jóns Árnasonar), the finngálkn is the beast a cat and fox beget, very fierce, more harmful to sheep than any other predator and hardest of all to shoot; no bullet works on it but a silver button or bullet. | Finngálkn er það dýr kallað, sem köttur og tófa geta saman. Er það grimmt mjög, og öllum vargi skaðlegra fyrir sauðfé manna, og skotharðast allra dýra. Vinnur engin kúla á Finngálknið, og verður það ekki skotið nema með silfurhnapp eða silfurkúlu. |
+| finngalkn-c03 | exact | sv.wikipedia.org | The Finngálkn is a fabulous beast named in several legendary sagas (fornaldarsagor), a chimera, usually a mix of human and animal. | Finngálkn är ett fabeldjur som omtalas i flera fornaldarsagor. Det rör sig om en chimär; oftast en blandning mellan människa och djur. |
+| finngalkn-c04 | exact | sv.wikipedia.org | In the 12th-century Icelandic (isländska) translation of the bestiary Physiologus, surviving only in two 13th-century fragments, finngálkn is said to be a centaur (onocentaurus). | I den isländska översättningen av bestiariet Physiologus, gjord på 1100-talet men endast bevarad i två 1200-talsfragment, sägs finngálkn vara en kentaur |
+| finngalkn-c05 | exact | sv.wikipedia.org | Örvar-Odds saga says Grímhildr, mother of Ögmundr Eyþjófsbani, once turned into a finngálkn: her head human, her hind body an animal's, with very large claws and a huge tail. | Om Ögmundr Eyþjófsbanis mor Grímhildr sägs i Örvar-Odds saga att hon vid en viss tidpunkt hade förvandlats till finngálkn. Hennes huvud var som en människas, men bakkroppen ett djurs. Hon hade mycket stora klor och en väldig svans. |
+| finngalkn-c06 | exact | sv.wikipedia.org | Hjálmþés saga ok Ölvis mentions a female named Vargeisa, seemingly a 'horse-centaur': horse's tail and hooves, long mane, bright eyes, wide mouth and large hands. | En hona, lystrande till namnet Vargeisa, som tycks ha tillhört ”hästkentaurerna”, omtalas i Hjálmþés saga ok Ölvis. ”Hon hade hästsvans, hovar och lång man; ögonen var ljusa, munnen bred och händerna stora.” |
+| finngalkn-c07 | exact | sv.wikipedia.org | The etymology of finngálkn is unknown; the word is associated with 'unnatural mixture'. | Etymologin för ordet finngálkn är okänd. Ordet associerar till ”onaturlig blandning”. |
+| finngalkn-c08 | exact | sv.wikipedia.org | In the Middle Ages Finngálkn was a Norse (norrönt) name for the constellation Sagittarius. | Under medeltiden var Finngálkn ett norrönt namn på stjärnbilden Sagittarius. |
+| finngalkn-c09 | exact | sv.wikipedia.org | In Njáls saga Þorkell hákr met a finngálkn, fought it long and finally killed it. | Þá mœtti hann finngálkni og varðisk því lengi, en svá lauk með þeim, at hann drap finngálknit. |
+| finngalkn-c10 | exact | is.wikipedia.org | In Hjálmþés saga ok Ölvis Prince Hjálmþér is forced to kiss the finngálkn Vargeisa, who proves to be a bewitched princess. | Í Hjálmþés sögu og Ölvis neyðist konungssonurinn Hjálmþés til að kyssa finngálknið Vargeisu. Hún reynist þó vera prinsessa í álögum. |
+| finngalkn-c11 | exact | sv.wikipedia.org | Sagittarius was often shown as an archer centaur, so the constellation, besides Bogmaðr or Skyti, came to be called Finngálkn. | Sagittarius avbildades ofta som en bågskjutande kentaur, varför denna stjärnbild – förutom de mer korrekta benämningarna Bogmaðr eller Skyti – också kom att kallas Finngálkn. |
 
 
 ## fjalar — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| fjalar-c01 | exact | en.wikipedia.org | Fjalar is documented as fjalar norse fjalarr in regional lore. | Fjalar (Old Norse: Fjalarr [ˈfjɑlɑrː] , "deceiver") is the mythical red rooster that is said to herald the onset of Ragnarök in Norse mythology. |
+| fjalar-c01 | exact | en.wikipedia.org | Fjalar (Old Norse Fjalarr, 'deceiver') is the mythical red rooster said to herald the onset of Ragnarök in Norse mythology. | Fjalar (Old Norse: Fjalarr [ˈfjɑlɑrː] , "deceiver") is the mythical red rooster that is said to herald the onset of Ragnarök in Norse mythology. |
+| fjalar-c02 | exact | en.wikipedia.org | The Old Norse name Fjalarr has been rendered 'deceiver' or 'hider', probably from a reconstructed Proto-Norse *felaraʀ. | The Old Norse name Fjalarr has been translated as 'deceiver' or 'hider'. It probably derives from an earlier Proto-Norse form reconstructed as *felaraʀ. |
+| fjalar-c03 | exact | en.wikipedia.org | Three other unrelated figures are called Fjalar: an alias of Suttungr in Hávamál's version of Odin's theft of the mead of poetry, one of the dwarfs who made the mead from Kvasir's blood in Skáldskaparmál. | Three other unrelated figures bear the name Fjalar in Norse mythology. It is an alias of Suttungr in the Hávamál ('Sayings of the High One') version of Odin's theft of the mead of poetry. Fjalar is also the name of one of the dwarfs who made the mead of poetry from the blood of Kvasir in Skáldskaparmál ('The Language of Poetry'). |
+| fjalar-c04 | exact | en.wikipedia.org | Peter H. Salus and Paul B. Taylor argue that of the four probably only the dwarf is really named Fjalar; the cock and the two giants are so called for their cunning. | Peter H. Salus and Paul B. Taylor argue that "of these four, probably only one (the dwarf) is actually named Fjalar, the cock and the two giants are called Fjalar because of their cunning." |
+| fjalar-c05 | exact | en.wikipedia.org | In Völuspá Fjalar is shown as a beautiful red rooster crowing in the onset of Ragnarök near the herdsman Eggþér, who joyfully strikes his harp. | In Völuspá (Prophecy of the Völva), Fjalar is portrayed as a beautiful red rooster who crows the onset of Ragnarök, sitting near the herdsman Eggþér who is joyfully striking his harp. |
+| fjalar-c06 | exact | da.wikipedia.org | In Norse (nordisk) mythology (Vølvens spådom, Völuspá) Fjalar is a red rooster who crows in a tree and so heralds Ragnarok. | I nordisk mytologi (Vølvens spådom) er Fjalar en rød hane, der galer i et træ og dermed indvarsler Ragnarok. |
+| fjalar-c07 | exact | en.wikipedia.org | In Hárbarðsljóð the jötunn who succeeded in deceiving Thor is also named Fjalar. | Finally, in Hárbarðsljóð ('The Lay of Hárbarðr'), the jötunn who succeeded in deceiving Thor is also named Fjalar. |
+| fjalar-c08 | exact | en.wikipedia.org | Völuspá 42: on the mound sat glad Egðir, herdsman of the giantess, striking his harp; above him in the gaglviðr ('gallows-wood') crowed the fair red cock called Fjalarr. | Sat þar á haugi ok sló hörpu gýgjar hirðir glaðr Egðir; gól um hánum í gaglviði fagrrauðr hani, sá er Fjalarr heitir . |
 
 
 ## flodder — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| flodder-c01 | exact | fy.wikipedia.org | Flodder is documented as flodder flodderduivel kwelgeast in regional lore. | De Flodder of de Flodderduivel is in kwelgeast út 'e folkloare fan it westlike part fan Noard-Brabân. |
+| flodder-c01 | exact | nl.wikipedia.org | The Flodder (also Flodderduivel) is a tormenting spirit of West Brabant (West-Brabantse) folklore, in the Netherlands. | De Flodder (ook wel Flodderduivel) is een kwelgeest uit de West-Brabantse folklore. |
+| flodder-c02 | exact | nl.wikipedia.org | The creature lives in ditches, pools and along dykes; it lurks in the water for night walkers, leaps on their backs and is carried as a lead-heavy load; once the victim reaches inhabited parts, it suddenly vanishes. | Het wezen houdt zich op in sloten, plassen en langs dijken. Het loert vanuit het water langs de kant op nachtelijke wandelaars, bespringt hen op de rug en laat zich vervolgens als een loodzware last meedragen. Zodra het slachtoffer de bewoonde wereld bereikt, verdwijnt de demon plots weer. |
+| flodder-c03 | exact | nl.wikipedia.org | The Flodder owes its name to the sound it makes when rising from the water. | Zijn naam dankt de Flodder aan het geluid dat hij voortbrengt wanneer hij uit het water oprijst. |
+| flodder-c04 | exact | nl.wikipedia.org | The Flodder is halfway between ghost and beast, immaterial yet visible, untouchable yet enormously heavy on the victim's back; in some Brabant (Brabantse) tales it appears as a large black dog called a hellhound (helhond). | Het houdt het midden tussen een geest en een beest. Niet stoffelijk, maar wel zichtbaar. De Flodder is dus onaantastbaar, maar weegt wel gigantisch zwaar op de rug van het slachtoffer. In sommige Brabantse sagen verschijnt de plaaggeest in de gedaante van een grote, zwarte hond, die wordt aangeduid als helhond. |
+| flodder-c05 | exact | fy.wikipedia.org | The Frisian article also calls the Flodder or Flodderduivel a tormenting spirit of the folklore of western North Brabant (Noard-Brabân). | De Flodder of de Flodderduivel is in kwelgeast út 'e folkloare fan it westlike part fan Noard-Brabân. |
+| flodder-c06 | exact | nl.wikipedia.org | It is related to Lange Wapper and the Kludde of Flanders (Vlaanderen), Blauwe Gerrit of the Veluwe, the Ossaert of Zeeland and the Stoep of Gelderland; the Bahkauv of Aachen (Aken) is similar too. | Het wezen is verwant aan Lange Wapper en de Kludde uit Vlaanderen, Blauwe Gerrit van de Veluwe, de Ossaert uit Zeeland en de Stoep uit Gelderland. Ook het Bahkauv uit Aken vertoont overeenkomsten. |
 
 
 ## flogdrake — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| flogdrake-c01 | exact | en.wikipedia.org | Flogdrake is documented as swedish flogdrake derives in regional lore. | Swedish: flogdrake derives from Old Swedish: floghdraki (including the form flughdraki), meaning ”fly-dragon”, and initially referred to just flying dragons, as opposed to non-flying ones. |
+| flogdrake-c01 | exact | en.wikipedia.org | The flogdrake (Old Swedish floghdraki; Finnish louhikäärme; also elddrake or godsdrake) is a dragon type of Swedish folklore, and less so Finnish and Estonian: a wingless worm-dragon flying glowing across the sky like a streak of fire or a shooting star, living in mountain tunnels it bores. | is a type of dragon in Swedish folklore, and to a lesser extent Finnish and Estonian folklore (see kratt), by analogy a variation of the Pan-European firedrake myth; it is a wingless worm-dragon that flies across the sky while glowing, looking like a streak of fire or light akin to a shooting star, while living in mountain tunnels that it bores. |
+| flogdrake-c02 | exact | sv.wikipedia.org | The flogdrake is a Nordic (nordisk) dragon type chiefly from Swedish (svensk) folk belief, also Estonian-Swedish; a wingless serpent-dragon flying like a fire streak across the sky like a falling star, dwelling in mountain tunnels it bored itself. | är en nordisk typ av drake som huvudsakligen härrör svensk folktro och folkminne, därtill även estsvensk folktro. Det är en vinglös ormdrake som flyger likt en eldstrimma eller ljusfenomen över himlen likt ett stjärnfall och bor i bergstunnlar de själva borrat. |
+| flogdrake-c03 | exact | en.wikipedia.org | Swedish flogdrake derives from Old Swedish floghdraki (flughdraki), 'fly-dragon', at first only for flying dragons, a literary loan from Old Norse flugdreki. | Swedish: flogdrake derives from Old Swedish: floghdraki (including the form flughdraki), meaning ”fly-dragon”, and initially referred to just flying dragons, as opposed to non-flying ones. The term is a literary loan from Old Norse: flugdreki . |
+| flogdrake-c04 | exact | en.wikipedia.org | From Old Swedish the term entered Finnish as a partial calque, louhikäärme, 'louhi serpent'. | From Old Swedish, the term was borrowed into Finnish as a partial calque, there becoming louhikäärme , "louhi serpent". |
+| flogdrake-c05 | exact | en.wikipedia.org | The flogdrake resembles the eastern dragon in flying without visible wings, but Germanic dragons are always evil; it comes flying in the evening sky amid sparks, like a golden stripe sweeping across it. | Thus the flogdrake can be compared to the eastern dragon in that it can fly despite lacking any visible wings. Unlike eastern dragons, however, Germanic dragons are always portrayed as evil. It is said to come flying in the evening sky surrounded by sparks, looking like a golden stripe that sweeps across the sky. |
+| flogdrake-c06 | exact | en.wikipedia.org | It is large and seemingly limbless, said to be shaped like a steelyard balance, essentially a long tadpole. | It is large and seems to lack limbs, but is said to resemble a steelyard balance in shape, essentially like a long tadpole. |
+| flogdrake-c07 | exact | en.wikipedia.org | Flogdrakes are said to have lived in mountains, drilling into the rock and digging large tunnels called drakarör, where they dwelt and hid their treasure. | The flogdrakes are said to have lived in mountains. They would drill into the rock mass, thus digging large tunnels, so-called drakarör |
+| flogdrake-c08 | exact | en.wikipedia.org | Some read the fire streak as the dragon 'illuminating his goods', so revealing where the treasure or nest lies. | Some interpret the fire streak phenomenon as the dragon "firing over his possessions" or "illuminating his goods", and thus pointing out where the treasure or dragon's nest is to be found. |
+| flogdrake-c09 | exact | sv.wikipedia.org | Laurentius Petri perhaps used the term in its later sense as early as 1568, in his translation of Isaiah (Jesaja). | Laurentius Petri använde begreppet i sin senare betydelse kanske redan 1568 i sin översättning av Jesaja |
+| flogdrake-c10 | exact | sv.wikipedia.org | Through folk etymology louhikäärme later became lohikäärme (literally 'salmon serpent'), the modern Finnish (finska) word for dragon in general. | Genom folketymologi har louhikäärme sedermera blivit lohikäärme (bokstavligen ”laxorm”) som på modern finska är ordet för drake i allmänhet. |
+| flogdrake-c11 | exact | en.wikipedia.org | This pattern also occurs in the Baltic states and Northern Germany, where gnomes like the German-Slavic Schrat/Puk and Estonian kratt appear at night as a 'fiery dragon'. | This mythological pattern also occurs elsewhere, such as in the Baltic states and Northern Germany, where gnomes, such as the German-Slavic Schrat/Puk , and Estonian derivative kratt/puuk (Estonian Swedish: skrat), appear at night as a "fiery dragon" or thereof. |
+| flogdrake-c12 | exact | en.wikipedia.org | Petri rendered the end of Isaiah 14:29 (the seraph) as 'en brinnande floghdrake' ('a burning fly-dragon'). | in which Petri translated the last part as: "en brinnande floghdrake" ("a burning fly-dragon"). |
+| flogdrake-c13 | exact | en.wikipedia.org | Unlike the treasure-guarding dragon, the flogdrake 'is rarely seen in its true form, but more often observed streaking through the air like a flame', wrote Leonhard Fredrik Rääf (1856). | The flogdrake, as opposed to the treasure-guarding dragon, "is rarely seen in its true form, but more often observed streaking through the air like a flame", wrote Leonhard Fredrik Rääf (1856). |
 
 
 ## galar — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| galar-c01 | exact | is.wikipedia.org | Galar is a mythological figure documented in folklore records. | Nafnið Fjalar er talið þýða „felur“ eða „svikari“ en Galar „sá sem öskrar“. |
+| galar-c01 | exact | is.wikipedia.org | Fjalar and Galar are dwarfs in Norse (norrænni) mythology; they murdered Kvasir (Kvasi) and brewed the mead of poetry from his blood and honey. | Fjalar og Galar eru dvergar í norrænni goðafræði. Þeir myrtu Kvasi og brugguðu skáldskaparmjöðinn úr blóði hans og hunangi. |
+| galar-c02 | exact | no.wikipedia.org | Galar (Old Norse Galarr) was a dwarf in Norse mythology; with his brother Fjalar he killed Kvasir (Kvase), the wisest of all, born of the peace pact between the Vanir (Vaner) and Æsir (Æser), and from his blood mixed with honey they made the mead of poetry. | Galar (norrønt: Galarr) var i norrøn mytologi en dverg. Sammen med broren Fjalar drepte han den viseste av alle, skapt av fredspakten mellom Vaner og Æser, Kvase. Av hans blod blandet med honning laget de skaldskapsmjøden |
+| galar-c03 | exact | is.wikipedia.org | Later, after they caused the deaths of the giant Gillingr (Gillings) and his wife, their son Suttungr (Suttungur) demanded the mead as compensation. | Síðar, er þeir höfðu valdið dauða jötunsins Gillings og konu hans, þá krafðist Suttungur sonur þeirra, mjaðarins í bætur. |
+| galar-c04 | exact | is.wikipedia.org | The name Fjalar is taken to mean 'hider' or 'deceiver', and Galar 'the one who screams'. | Nafnið Fjalar er talið þýða „felur“ eða „svikari“ en Galar „sá sem öskrar“. |
+| galar-c05 | exact | no.wikipedia.org | Austrian philologist Rudolf Simek argues that the names Galar and Fjalar were constructed by Snorri (Snorre). | Den østerrikske filologen Rudolf Simek hevder at navnene Galar og Fjalar er konstruert av Snorre. |
+| galar-c06 | exact | no.wikipedia.org | The story of the origin of poetry and Suttungr's mead is told in Snorri Sturluson's (Snorre Sturlasons) Gylfaginning (Gylvaginning). | Historien om opphavet til skaldskapen og Suttungs mjød er fortalt i Snorre Sturlasons Gylvaginning. |
 
 
 ## geldmannlein — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| geldmannlein-c01 | exact | de.wikipedia.org | Geldmännlein is a mythological figure documented in folklore records. | Das Geldmännlein ist ein koboldartiges Wesen der „Niederen Mythologie“, ein Hausgeist, der seinen Eigentümer mit Geld versorgt. |
+| geldmannlein-c01 | exact | de.wikipedia.org | The Geldmännlein is a kobold-like being of 'lower mythology', a house spirit that provides its owner with money; not always a little man, it may appear as a toad, frog, owl, eagle, worm or beetle. | Das Geldmännlein ist ein koboldartiges Wesen der „Niederen Mythologie“, ein Hausgeist, der seinen Eigentümer mit Geld versorgt. Nicht immer hat es die Gestalt eines kleinen Männchens, sondern kann auch als Tier erscheinen, wie z. B. als Kröte oder Frosch, oder als ein Vogel, wie Eule oder Adler, gelegentlich als Wurm oder Käfer. |
+| geldmannlein-c02 | exact | de.wikipedia.org | Closely related is the legend of the Drak as a fiery dragon; similar motifs appear in the tale of the gold donkey and the goose that lays golden eggs, and it shades into human-like root figures such as the Alraune. | Nah verwandt ist die Sage vom Drak in Gestalt eines feurigen Drachens. Ähnliche Motive finden sich im Märchen vom Goldesel und der Fabel von der Gans, die goldene Eier legt. Fließend ist der Übergang zu menschenähnlichen Figuren, die man aus Wurzeln, wie der Alraune, herstellt |
+| geldmannlein-c03 | exact | de.wikipedia.org | The first mention by name is in 1657 court records against Caspar Michel Fuchs of Sulzfeld near Meiningen, accused of owning a geldtmännlein. | Die erste namentliche Erwähnung findet sich 1657 in den Gerichtsakten gegen einen Caspar Michel Fuchs aus Sulzfeld im Grabfeld bei Meiningen, der beschuldigt wurde, ein geldtmännlein zu besitzen. |
+| geldmannlein-c04 | exact | de.wikipedia.org | The Geldmännlein was kept in a chest, box or pot where money was put in the evening; next morning the 'hatched' money was taken out, never all, so the rest could multiply; like other house spirits it got offerings of milk, bread or porridge. | Das Geldmännlein befand sich, je nach Gestalt und Größe, in einer Kiste, einer Schachtel oder einem Topf, in welche man am Abend Geld legte. Am nächsten Morgen nahm man das „ausgebrütete“ Geld heraus, aber niemals alles, damit sich der Rest weiter vermehren konnte. Wie anderen Hausgeistern wurden dem Geldmännlein Speiseopfer dargebracht, wie Milch, Brot oder Brei. |
+| geldmannlein-c05 | exact | de.wikipedia.org | Martin Luther in his Tischreden already mentioned a peasant woman suspected of having a Heckergroschen (breeding coin). | Aber schon Martin Luther erwähnte in seinen Tischreden eine Bäuerin, die man verdächtigte, einen Heckergroschen zu haben. |
+| geldmannlein-c06 | exact | cs.wikipedia.org | It is also called Heckemännchen, Geldschisser or Geldbrüter. | Je také nazýván také Heckemännchen „mužíček živého plotu“, Geldschisser „peníze kálející“ či Geldbrüter „peníze rodící“. |
+| geldmannlein-c07 | exact | cs.wikipedia.org | It looks like a little grey man, sometimes with a red cap and green vest, and sometimes turns into animals such as a frog, toad, owl or beetle. | Má podobu šedivého mužíčka, někdy s červenou čapkou a zelenou vestou, a někdy se mění ve zvířata – žábu, ropuchu, sovu či brouka. |
+| geldmannlein-c08 | exact | cs.wikipedia.org | Unlike the Drac (draca), it is almost impossible to get rid of: the first two owners may sell it, but the third owner's soul falls to hell. | Na rozdíl od draca jej téměř nemožné se jej zbavit, první dva majitelé jej mohou prodat, ale duše třetího propadne peklu. |
+| geldmannlein-c09 | exact | cs.wikipedia.org | Names vary by region: Geldmännlein is typical of Saxony (Sasko) and Thuringia (Durynsko), Geldschisser of Bavaria (Bavorsko), Alraunel of Lower Austria (Dolní Rakousy). | Označení se liší především krajově, Geldmännlein je typický pro Sasko a Durynsko, Geldschisser pro Bavorsko, Alraunel pro Dolní Rakousy. |
+| geldmannlein-c10 | exact | de.wikipedia.org | If the food did not please it, it could grow angry and take revenge. | Wenn ihm die Speisen nicht zusagten, konnte es zornig werden und sich rächen. |
+| geldmannlein-c11 | exact | de.wikipedia.org | Luther was utterly opposed to such folk belief. | Luther stand solchem Volksglauben äußerst ablehnend gegenüber |
+| geldmannlein-c12 | exact | cs.wikipedia.org | In German (německém) folklore the Geldmännlein ('little money man') is a being or magic object that magically brings its owner money. | Geldmännlein „peněžní mužíček“ je v německém folklóru bytost či kouzelný předmět magicky přinášející svému majiteli peníze. |
 
 
 ## gisl — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 5 (exact 5), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| gisl-c01 | exact | en.wikipedia.org | Gísl is documented as second gladr third in regional lore. | The second is Gladr, the third Gyllir, the fourth Glenr, the fifth Skeidbrimir, the sixth Silfrintoppr, the seventh Sinir, the eighth Gisl, the ninth Falhófnir, the tenth Gulltoppr, the eleventh Léttfeti. |
+| gisl-c01 | exact | en.wikipedia.org | The horses of the Æsir (Gísl among them, listed in Grímnismál and Gylfaginning) are mainly ridden daily to Yggdrasil so their riders can pass judgement, and are said to cross Bifröst on the way. | Their main purpose is to be ridden daily to Yggdrasil in order for their riders to pass judgements. They are said to cross Bifröst along their journey. |
+| gisl-c02 | exact | da.wikipedia.org | The Danish article calls Gísl a horse of Norse (nordisk) mythology ridden by the Æsir (aserne) to Yggdrasil, with no stanza naming its owner, unlike Sleipnir (Sleipner) and Freyfaxi (Frejfaxe). | Gísl er en hest i nordisk mytologi, som bliver nævnt i både Grímnismál og Gylfaginning som en af de hingste, som aserne rider på hver dag, når drager til Yggdrasil for at dømme ting. I ingen af stanzaerne bliver ejerskabet af hesten tilskrevet til en bestemt gud, som det er tilfældet med bl.a. Sleipner og Frejfaxe. |
+| gisl-c03 | exact | en.wikipedia.org | Gylfaginning (Brodeur's translation) lists the Æsir's steeds: Sleipnir, Odin's eight-footed best, then Gladr, Gyllir, Glenr, Skeidbrimir, Silfrintoppr, Sinir, Gisl, Falhófnir, Gulltoppr and Léttfeti. | These are the names of the Æsir's steeds: Sleipnir is best, which Odin has; he has eight feet. The second is Gladr, the third Gyllir, the fourth Glenr, the fifth Skeidbrimir, the sixth Silfrintoppr, the seventh Sinir, the eighth Gisl, the ninth Falhófnir, the tenth Gulltoppr, the eleventh Léttfeti. |
+| gisl-c04 | exact | en.wikipedia.org | The name Gísl is related to 'beam' or 'ray'. | Gísl: related to "beam", "ray"; |
+| gisl-c05 | exact | en.wikipedia.org | Apart from Odin's Sleipnir and Heimdallr's Gulltoppr, nothing is known of these horses, including their owners, except that the Æsir ride them; the names are absent from the þulur. | Apart from Odin's eight-legged horse Sleipnir, and Gulltoppr, who belongs to Heimdallr according to the Prose Edda, nothing is known about these horses, especially their owner other than that they are ridden by the Æsir. These names aren't listed in the þulur. |
 
 
 ## gl-r — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 3 (exact 3), sumber 3, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| gl-r-c01 | exact | en.wikipedia.org | Glær is documented as norse mythology transparent in regional lore. | In Norse mythology, Glær (transparent) or Glenr is a horse listed in both Grímnismál and Gylfaginning among the steeds ridden by the gods each day when they go to make judgements at Yggdrasil. |
+| gl-r-c01 | exact | en.wikipedia.org | In Norse mythology Glær is a horse listed in Grímnismál and Gylfaginning among the mounts the gods ride daily to give judgements at Yggdrasil, not tied to any specific god. | In Norse mythology, Glær (transparent) or Glenr is a horse listed in both Grímnismál and Gylfaginning among the steeds ridden by the gods each day when they go to make judgements at Yggdrasil. However, in both poems Glær is not assigned to any specific deity. |
+| gl-r-c02 | exact | da.wikipedia.org | The Danish article glosses Glær as 'clear' or 'glassy'; it is one of the stallions the Æsir (aserne) ride to Yggdrasil, and no stanza names its owner, unlike Sleipnir (Sleipner) and Freyfaxi (Frejfaxe). | Glær (norrønt for "klar" eller "glasagtig") er en hest i nordisk mytologi, som bliver nævnt i både Grímnismál og Gylfaginning som en af de hingste, som aserne rider på hver dag, når drager til Yggdrasil for at dømme ting. I ingen af stanzaerne bliver ejerskabet af hesten tilskrevet til en bestemt gud, som det er tilfældet med bl.a. Sleipner og Frejfaxe. |
+| gl-r-c03 | exact | en.wikipedia.org | Gylfaginning (Brodeur's translation) lists the Æsir's steeds: Sleipnir, Odin's eight-footed best, then Gladr, Gyllir, Glenr, Skeidbrimir, Silfrintoppr, Sinir, Gisl, Falhófnir, Gulltoppr and Léttfeti. | These are the names of the Æsir's steeds: Sleipnir is best, which Odin has; he has eight feet. The second is Gladr, the third Gyllir, the fourth Glenr, the fifth Skeidbrimir, the sixth Silfrintoppr, the seventh Sinir, the eighth Gisl, the ninth Falhófnir, the tenth Gulltoppr, the eleventh Léttfeti. |
 
 
 ## glad — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 4 (exact 4), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| glad-c01 | exact | en.wikipedia.org | Glad is documented as sometimes anglicised glad in regional lore. | Glaðr (sometimes anglicised as Glad, Gladr, or Glath) is a horse in Nordic mythology. |
+| glad-c01 | exact | en.wikipedia.org | Glaðr (also Glad, Gladr or Glath) is a horse of Nordic mythology listed among the Æsir's horses ridden to Yggdrasil each morning in the Poetic Edda; the Prose Edda calls it one of the horses of the Day (likely Dagr), with Skinfaxi. | Glaðr (sometimes anglicised as Glad, Gladr, or Glath) is a horse in Nordic mythology. It is listed as among the horses of the Æsir ridden to Yggdrasil each morning in the Poetic Edda. The Prose Edda specifically refers to it as one of the horses of the Day (likely Dagr), along with Skinfaxi. |
+| glad-c02 | exact | da.wikipedia.org | The Danish article glosses Glaðr as 'glad one', 'shining one' or 'bright one'; it is one of the stallions the Æsir (aserne) ride to Yggdrasil, and no stanza names its owner, unlike Sleipnir (Sleipner) and Freyfaxi (Frejfaxe). | Glad (norrønt Glaðr, "glad" eller "lys") er en hest i nordisk mytologi, som bliver nævnt i både Grímnismál og Gylfaginning som en af de hingste, som aserne rider på hver dag, når drager til Yggdrasil for at dømme ting. I ingen af stanzaerne bliver ejerskabet af hesten tilskrevet til en bestemt gud, som det er tilfældet med bl.a. Sleipner og Frejfaxe. |
+| glad-c03 | exact | en.wikipedia.org | Old Norse Glaðr means 'glad one', 'shining one' or 'bright one', from Proto-Germanic *gladaz ('bright, shining, cheerful'), cognate with English 'glad'. | The Old Norse word Glaðr translates to English as "glad one", "shining one", or "bright one". It is derived from the adjective Proto-Germanic: *gladaz , meaning "bright", "shining" or "cheerful", and is cognate with modern English "glad". |
+| glad-c04 | exact | en.wikipedia.org | In Háttatal Glaðr is used as a heiti for horse in a kenning for a ship. | In Háttatal, Glaðr is used as a heiti for a horse in a kenning for a ship. |
 
 
 ## gyllir — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 4 (exact 4), sumber 3, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| gyllir-c01 | exact | en.wikipedia.org | Gyllir is documented as norse mythology gyllir in regional lore. | In Norse mythology, Gyllir (Old Norse: [ˈɡylːez̠] ) is a horse listed in both Grímnismál and Gylfaginning among the steeds ridden by the gods each day when they go to make judgements at Yggdrasil. |
+| gyllir-c01 | exact | en.wikipedia.org | In Norse mythology Gyllir is a horse listed in Grímnismál and Gylfaginning among the mounts the gods ride daily to give judgements at Yggdrasil, not tied to any specific god. | In Norse mythology, Gyllir (Old Norse: [ˈɡylːez̠] ) is a horse listed in both Grímnismál and Gylfaginning among the steeds ridden by the gods each day when they go to make judgements at Yggdrasil. However, in both poems, Gyllir is not assigned to any specific deity. |
+| gyllir-c02 | exact | da.wikipedia.org | The Danish article glosses Gyllir as 'golden'; it is one of the stallions the Æsir (aserne) ride to Yggdrasil, and no stanza names its owner, unlike Sleipnir (Sleipner) and Freyfaxi (Frejfaxe). | Gyllir (norrønt for "gylden") er en hest i nordisk mytologi, som bliver nævnt i både Grímnismál og Gylfaginning som en af de hingste, som aserne rider på hver dag, når drager til Yggdrasil for at dømme ting. I ingen af stanzaerne bliver ejerskabet af hesten tilskrevet til en bestemt gud, som det er tilfældet med bl.a. Sleipner og Frejfaxe. |
+| gyllir-c03 | exact | en.wikipedia.org | Gylfaginning (Brodeur's translation) lists the Æsir's steeds: Sleipnir, Odin's eight-footed best, then Gladr, Gyllir, Glenr, Skeidbrimir, Silfrintoppr, Sinir, Gisl, Falhófnir, Gulltoppr and Léttfeti. | These are the names of the Æsir's steeds: Sleipnir is best, which Odin has; he has eight feet. The second is Gladr, the third Gyllir, the fourth Glenr, the fifth Skeidbrimir, the sixth Silfrintoppr, the seventh Sinir, the eighth Gisl, the ninth Falhófnir, the tenth Gulltoppr, the eleventh Léttfeti. |
+| gyllir-c04 | exact | en.wikipedia.org | Gyllir also appears in the þulur as a jötunn name. | Gyllir is also found in the thulur as a jötunn name. |
 
 
 ## haymon — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| haymon-c01 | exact | en.wikipedia.org | Haymon is documented as haymon dragon tongue in regional lore. | Haymon and the dragon with its tongue torn; below the monastery of Wilten. |
+| haymon-c01 | exact | en.wikipedia.org | Haymon is a mythical giant figure from Tyrol (Austria); he is said to have founded Stift Wilten, a Premonstratensian abbey south of Innsbruck, to have lived between 600 and 900 years ago, and died in 878 AD in Wilten. | Haymon is a mythical figure from Tyrol in form of a giant. It is said that Haymon was the founder of Stift Wilten [de], a premonstratensian abbey, located in the south of Innsbruck. He is said to have lived between 600 and 900 years ago and to have died in the year 878 A.D. in Wilten. |
+| haymon-c02 | exact | en.wikipedia.org | Various traditions have merged in the legend of the giant Haymon. | Different traditions have been amalgamated in the legend of the giant Haymon. |
+| haymon-c03 | exact | de.wikipedia.org | In the 15th century the local legend arose of the gold-guarding dragon in the Sill gorge east of Bergisel, killed by Haymon; the dragon may stand for the often-flooding Sill river; the dragon's tongue (a swordfish's horn extension), set in gold, is still shown in the Tyrolean (Tiroler) State Museum Ferdinandeum in Innsbruck. | Im 15. Jahrhundert entstand die lokale Sage von dem goldhütenden Drachen in der Sillschlucht östlich des Bergisel, der von Haymon erschlagen wird. Der Drache könnte für den Fluss Sill stehen, die damals häufig Hochwasser führte. Die Drachenzunge (der Hornfortsatz eines Schwertfisches) wird noch heute, in Gold gefasst, im Tiroler Landesmuseum Ferdinandeum in Innsbruck gezeigt. |
+| haymon-c04 | exact | de.wikipedia.org | A second strand from around the 16th century has Haymon fight and kill the giant Thyrsus of the Zirl and Seefeld area; from Thyrsus's blood the healing Tyrolean shale oil (Steinöl) is said to come. | Ein zweiter Überlieferungsstrang, der etwa im 16. Jahrhundert aufkommt, lässt Haymon mit dem Riesen Thyrsus, der in der Gegend von Zirl und Seefeld lebte, kämpfen und ihn erschlagen. Aus dessen Thyrsenblut wird das heilkräftige Tiroler Steinöl bzw. Ichthyol gewonnen. |
+| haymon-c05 | exact | de.wikipedia.org | The giant (Riese) Haymon is a legendary figure from Tyrol; legend makes him founder of Wilten monastery south of Innsbruck and ruler of Tyrol. | Der Riese Haymon ist eine Sagenfigur aus Tirol. Der Sage nach ist er der Gründer des Klosters Wilten im Süden Innsbrucks und war Landesherr in Tirol. |
+| haymon-c06 | exact | de.wikipedia.org | Haymon's grave by the altar of the Wilten collegiate church is mentioned as early as the 13th century; he was probably a Bavarian (bayerischer) nobleman named Haimo. | Haymons Grab beim Altar der Wiltener Stiftskirche wird bereits im 13. Jahrhundert erwähnt. Wahrscheinlich war er ein bayerischer Adeliger namens Haimo. |
+| haymon-c07 | exact | en.wikipedia.org | In remorse Haymon became a Christian, baptised by the Bishop of Chur, founded Wilten monastery and gave it to Benedictine monks from Tegernsee Abbey, then joined the order as a lay brother until death. | In remorse, Haymon takes the Christian faith being baptized by the Bishop of Chur. Thereafter, he founded the monastery Wilten which he hands over to Benedictine monks from the Tegernsee Abbey. Then he joined the order as a lay brother and stayed there until his death. |
+| haymon-c08 | exact | en.wikipedia.org | Seventeenth-century scholarly interpretation saw Thyrsus as the Romansh people and Haymon as the incoming Bavarians who settled the Inn valley from the 6th century. | According to contemporary scholarly interpretation of the 17th Century, the giant Thyrsus represents the Romansh people while the invading Bavarians, who populated the Inn valley as of the 6th century, are being represented through Haymon. |
+| haymon-c09 | exact | en.wikipedia.org | The publisher Haymon Verlag is named after the mythical figure. | The book publisher Haymon Verlag is named after the mythical figure. |
+| haymon-c10 | exact | en.wikipedia.org | Life-size figures of the two giants Haymon and Thyrsus stand at the entrance to the church at Wilten. | Life-size figures of the two giants Haymon and Thyrsus can be found at Wilten where they are at the entrance to the church. |
 
 
 ## himinhrjod — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| himinhrjod-c01 | exact | da.wikipedia.org | Himinhrjód is a mythological figure documented in folklore records. | Himinhrjod kommer af dage, da Thor under et besøg hos Hymer brækker hovedet af tyren for at bruge det som madding på en forestående fisketur. |
+| himinhrjod-c01 | exact | da.wikipedia.org | In Norse (nordisk) mythology Himinhrjod is the name of the giant Hymir's (Hymers) biggest and finest breeding bull. | Himinhrjod er i nordisk mytologi navnet på jætten Hymers største og flotteste avlstyr. |
+| himinhrjod-c02 | exact | sv.wikipedia.org | Himinhrjóðr is an ox of Norse mythology; according to Snorri Sturluson (Snorre Sturlasson) it was this ox's head Thor (Tor) put on the hook when fishing with the giant Hymir (Hymer) and catching the Midgard Serpent (Midgårdsormen). | Himinhrjóðr (med flera stavningsvarianter) är en oxe i nordisk mytologi. Enligt Snorre Sturlasson var det denna oxes huvud som Tor satte på kroken när han var ute på fiske med jätten Hymer och råkade fånga Midgårdsormen. |
+| himinhrjod-c03 | exact | sv.wikipedia.org | Thor (Tor) asked Hymir (Hymer) what bait to use, and Hymir told him to get his own; Thor found Hymir's herd of oxen, took the largest, named Himinhrjótr, tore off its head and went to the shore (Gylfaginning). | Han [Tor] frågade Hymer vad de skulle ha till bete, men Hymer sade åt honom att skaffa sig bete själv. Då gav sig Tor åstad tills han såg en flock oxar som Hymer ägde. Han tog den största oxen, som hette Himinhrjótr, slet av den huvudet och gick med det till stranden. |
+| himinhrjod-c04 | exact | sv.wikipedia.org | It was this ox head the Midgard Serpent (Midgårdsormen) later bit, but Hymir (Hymer) was so terrified at the catch that he cut the line, and the serpent sank back into the depths. | Det var på detta oxhuvud som Midgårdsormen senare nappade, men när Hymer såg vilken fångst de fått blev han så förskräckt att han högg av reven, varpå ormen sjönk tillbaka i havets djup. |
+| himinhrjod-c05 | exact | sv.wikipedia.org | None of the other sources names Hymir's (Hymers) ox; only Snorri (Snorre) does. | Men i ingen av dessa källor nämns namnet på Hymers oxe – Snorre är ensam om den uppgiften. |
+| himinhrjod-c06 | exact | sv.wikipedia.org | Himinhrjóðr may mean 'sky-destroyer' if the last element comes from the verb hrjóða; Finnur Jónsson pictured its horns so high they seemed to pierce the sky. | Himinhrjóðr kan betyda ”himmelsförstörare” om sista ledet kommer av verbet hrjóða, ”röja, göra rent hus, länsa”. Finnur Jónsson tänkte sig hornen vara så höga ”at de synes at gennembore himlen”. |
+| himinhrjod-c07 | exact | sv.wikipedia.org | Snorri's (Snorres) source seems to have been Hymiskviða, stanzas 18–25; Thor's (Tors) fishing is also told in Bragi's (Brage) Ragnarsdrápa and Úlfr Uggason's Húsdrápa. | Snorres källa tycks ha varit Hymiskviða, stroferna 18–25. Men Tors fiske omtalas också i Brage den gamles Ragnarsdrápa och i Húsdrápa av Úlfr Uggason. |
+| himinhrjod-c08 | exact | sv.wikipedia.org | Rudolf Simek guesses Snorri (Snorre) himself named Hymir's (Hymers) ox Himinhrjóðr, but the name also appears in the Øxna heiti of the þulur. | Rudolf Simek gissar att det var Snorre själv som lät Hymers oxe heta Himinhrjóðr. Men namnet finns även i tulornas Øxna heiti, liksom i Torgrimstulans andra fragment. |
+| himinhrjod-c09 | exact | sv.wikipedia.org | The Uppsala Edda spells it Himinrjóðr, 'reddener of the sky', from rjóða; the name might also be Himinbrjótr, from brjóta, 'break, smash'. | Uppsala-Eddan har stavningen Himinrjóðr, vilket betyder ”himlens rödfärgare”, av rjóða, ”färga röd”. Slutligen kan namnet vara Himinbrjótr av brjóta, ”bryta, slå sönder, förstöra”. |
 
 
-## innerer-schweinehund — lulus-otomatis
+## innerer-schweinehund — skip
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 0 (), sumber 0, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `skip` Diusulkan dilewati: Bukan makhluk cerita rakyat: artikel de dan fa menjelaskan "innerer Schweinehund" sebagai ungkapan atau alegori bahasa Jerman untuk lemahnya kemauan (akrasia), yang tercatat sejak sekitar 1930-an dalam pidato politik; tidak ada kepercayaan atau legenda tentang makhluk nyata. Kedua artikel juga bertanda kurang rujukan. (https://de.wikipedia.org/wiki/Innerer_Schweinehund).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| innerer-schweinehund-c01 | exact | de.wikipedia.org | Innerer Schweinehund is a mythological figure documented in folklore records. | Die Bezeichnung innerer Schweinehund umschreibt – oft als Vorwurf – die Allegorie der Willensschwäche, die eine Person daran hindert, unangenehme Tätigkeiten auszuführen, obwohl sie entweder als ethisch geboten gesehen werden (z. |
 
 
 ## kludde — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| kludde-c01 | exact | fr.wikipedia.org | Kludde is a mythological figure documented in folklore records. | Kludde est une créature métamorphe des croyances germaniques et flamandes, mentionnée aux Pays-Bas et en Flandre, tant belge que française. |
+| kludde-c01 | exact | fr.wikipedia.org | Kludde is a shapeshifting creature of Germanic and Flemish belief, known in the Netherlands and in Belgian and French Flanders; it takes many forms, a black dog, a horse, a cat, and as a horse tricks stable boys and throws them into a ditch. | Kludde est une créature métamorphe des croyances germaniques et flamandes, mentionnée aux Pays-Bas et en Flandre, tant belge que française. C'est un métamorphe, qui prend de nombreuses formes dont celle d'un chien noir, d'un cheval et d'un chat. Sous forme de cheval, il trompe les garçons d'écurie et les jette dans un fossé |
+| kludde-c02 | exact | nl.wikipedia.org | Kludde is a figure of Flemish (Vlaamse) and southern Dutch (Zuid-Nederlandse) folklore. | Kludde is een fictieve figuur uit de Vlaamse en Zuid-Nederlandse folklore. |
+| kludde-c03 | exact | nl.wikipedia.org | In some tales it is a monstrous black dog walking on its hind legs; it can also become a big black cat or giant black bird; the faster passers-by flee, the faster it follows, and it can grow and shrink. | In sommige vertellingen wordt hij omschreven als een monsterlijke zwarte hond die zich op zijn achterste poten voorbeweegt. Hij kan ook de gedaante van een grote zwarte kat of gigantische zwarte vogel aannemen. Hoe sneller de passanten weglopen, hoe sneller het wezen hen op de voet volgt. Bovendien kan hij zich vergroten en verkleinen. |
+| kludde-c04 | exact | nl.wikipedia.org | Kludde is a tormenting spirit hiding under bridges or in hollow trees, emerging only at night; walkers know it comes only from the rattle of the chain it must wear on its left ankle. | Kludde is een kwelgeest die zich vaak onder bruggen of in holle bomen schuilhoudt en enkel 's nachts tevoorschijn komt. Wandelaars weten uitsluitend aan de hand van het geluid dat hij maakt, dat hij eraan komt. Kludde rammelt namelijk met een ketting die hij verplicht is aan zijn linkerenkel te dragen. |
+| kludde-c05 | exact | nl.wikipedia.org | Having announced itself, it leaps onto the unsuspecting walker's neck, who must carry it for the rest of the night; at daybreak or when the walker arrives, Kludde vanishes. | Als hij eenmaal zijn komst heeft laten merken, springt hij de nietsvermoedende voorbijganger in zijn of haar nek. Deze is dan verplicht hem de rest van de nacht op zijn of haar rug te dragen. Als de dag weer aanbreekt of de voorbijganger zijn bestemming bereikt verdwijnt Kludde weer. |
+| kludde-c06 | exact | nl.wikipedia.org | In Schelle, when the butcher opened the door and found Kludde in the doorway, he fearlessly stabbed it in the belly, and the demon fled wailing, never to return. | Toen hij hem opende bleek Kludde in het deurgat te staan. Onbevreesd stak de slager een mes in Kluddes buik, waarna de demon jammerend op de vlucht sloeg en nooit meer naar het huis terugkeerde. |
+| kludde-c07 | exact | nl.wikipedia.org | Other tales name praying as a way to escape the creature. | Andere verhalen duiden bidden als een manier aan om aan het wezen te ontsnappen. |
+| kludde-c08 | exact | nl.wikipedia.org | Kludde is linked with the Scheldt region (Scheldestreek), Dendermonde and other East Flanders villages, and around Antwerp such as Hemiksem and Schelle. | Kludde wordt geassocieerd met de Scheldestreek; Dendermonde en andere dorpen in Oost-Vlaanderen, maar ook in de omgeving van Antwerpen, zoals Hemiksem en Schelle bestaan er verhalen. |
+| kludde-c09 | exact | nl.wikipedia.org | In other tales (andere verhalen) it is rather a man wrapped in a hairy dog skin (harige hondenhuid), recalling the legend of the werewolf (weerwolf). | In andere verhalen is hij eerder een man die zich in een harige hondenhuid hult, waarmee hij doet denken aan de legende van de weerwolf. |
+| kludde-c10 | exact | nl.wikipedia.org | In the comic Suske en Wiske, Vandersteen drew him as a bearded little man with a big fish tail. | In de strip Suske en Wiske stelde Vandersteen hem voor als een bebaard mannetje met een grote vissestaart. |
+| kludde-c11 | exact | nl.wikipedia.org | In Aalst it was called Kledden and lived in the Dender, until the people of Aalst drove it towards Dendermonde. | In Aalst werd hij Kledden genoemd. Hij woonde in de Dender, de Aalstenaars wisten hem te verjagen richting Dendermonde. |
+| kludde-c12 | exact | nl.wikipedia.org | Kludde is also known around Dilbeek, Zemst and Zemst-Laar in Flemish Brabant (Vlaams Brabant), dwelling in former marshes, woods, meadows and the Zenne under the name Kleudde. | Eveneens is Kludde gekend in de streken rond Dilbeek, Zemst en Zemst-Laar in Vlaams Brabant, daar huist hij in de vroegere moerassen, bossen, weilanden en de Zenne. Kludde draagt daar de naam Kleudde |
 
 
 ## marmennill — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| marmennill-c01 | exact | en.wikipedia.org | Marmennill is documented as scandinavian folklore marmennill in regional lore. | In Scandinavian folklore, a marmennill (pronounced /mɑɹ'mɛnɪtlᵊ/) (also marmandill, marbendill, or margmelli) is a merman that often features in stories after having been accidentally caught at sea by fishermen. |
+| marmennill-c01 | exact | en.wikipedia.org | In Scandinavian folklore the marmennill is a merman often featured after being accidentally caught by fishermen; he is known for seeing the future or revealing hidden knowledge, and often laughs at others' folly. | is a merman that often features in stories after having been accidentally caught at sea by fishermen. The creature is typically known for its ability to see the future or to reveal otherwise hidden knowledge, often laughing when he sees others acting foolishly. |
+| marmennill-c02 | exact | en.wikipedia.org | Marmennill is rendered 'merman', 'sea-mannikin' or 'sea-goblin'; Hauksbók's Landnámabók spells it margmelli, another medieval variant is marmandill, and the modern Icelandic form is marbendill. | Marmennill has been variously translated as "merman", "mereman", "sea-mannikin" and "sea-goblin". In the Hauksbók version of Landnámabók, it is spelt as margmelli , with other medieval variants including marmandill . The modern Icelandic form is marbendill . |
+| marmennill-c03 | exact | en.wikipedia.org | In Landnámabók Grímr (Grim) hauled up a merman and asked their fortune and where to settle in Iceland; it said there was no need to foretell Grímr's fortune, but the boy's in the sealskin bag, who would settle where the mare Skálm (Skalm) lay down under her load. | Grim drew up a mereman and when he came up asked him "What do you foretell shall be our fortune, or where shall we settle in Iceland ? The mereman answered, "No need to tell the fortune of you and your men, but rather of the lad that lays in the seal bag, he shall there settle and take land where Skalm your mare lays down under her load," |
+| marmennill-c04 | exact | en.wikipedia.org | Later that winter Grímr (Grim) and his men rowed out while the boy was ashore, and the whole crew was lost; another prophetic marmennill appears in the 14th-century Hálfs saga ok Hálfsrekka. | Later in the winter Grim and his men rowed out, but the lad was upon land; then the whole crew was lost. Another prophetic marmennill appears in the 14th-century Hálfs saga ok Hálfsrekka. |
+| marmennill-c05 | exact | en.wikipedia.org | The tale 'Þá hló marbendill' tells of a farmer who catches a marbendill at sea and takes it home; on the way it laughs at him three times. | It tells the story of a farmer who catches a marbendill out at sea and takes it home with him. On the way home, the creature laughs three times at the farmer. |
+| marmennill-c06 | exact | sv.wikipedia.org | In Icelandic (isländsk) folk belief the marmennill is a sea being which, like a mermaid, has a human upper body and a fish tail; it was thought able to foretell the future; its female counterpart was Margygur, and the corresponding being in Sweden (Sverige) and Denmark (Danmark) was Havmannen. | Marmennill är i isländsk folktro ett havsväsen som liksom sjöjungfrun har en människas överkropp och en fiskstjärt som underkropp. Varelsen menades ha förmågan att förutspå framtiden. Den kvinnliga motsvarigheten kallades Margygur och en motsvarande varelse i Sverige och Danmark kallades Havmannen. |
+| marmennill-c07 | exact | en.wikipedia.org | The phrase þá hló marbendill ('then the merman laughed') is used in Iceland for a sudden spiteful laugh, after the folktale motif. | The phrase þá hló marbendill ("then the merman laughed") is used in Iceland to refer to a sudden and spiteful fit of laughter in reference to the motif in folktales. |
+| marmennill-c08 | exact | en.wikipedia.org | In exchange for freedom the creature reveals he laughed because the farmer's wife is unfaithful, his dog truly loves him, and the tuft of grass hides a treasure. | In exchange for his freedom, the creature reveals that he laughed at the farmer because his wife is unfaithful, his dog truly loves him, and the tuft of grass conceals a treasure. |
+| marmennill-c09 | exact | en.wikipedia.org | Once returned to the sea, however, he utters several prophecies in verse. | Upon being returned to the sea, however, he issues several prophecies in poetic verse. |
 
 
 ## melanchaetes — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 4 (exact 4), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| melanchaetes-c01 | exact | en.wikipedia.org | Melanchaetes is documented as greek mythology melanchaetes in regional lore. | In Greek mythology, Melanchaetes (Ancient Greek: Μελαγχαίτης means ‘black-haired’) may refer to the following: |
+| melanchaetes-c01 | exact | en.wikipedia.org | In Greek mythology Melanchaetes (Μελαγχαίτης, 'black-haired') is one of the female dogs of the hunter Actaeon; like the rest of the pack she devoured her master when Artemis, goddess of the hunt, turned him into a stag. | Melanchaetes, one of the female dogs of the hunter Actaeon. Like the rest of the pack, she also devoured her master when he was transformed into a stag by Artemis, goddess of the hunt. |
+| melanchaetes-c02 | exact | de.wikipedia.org | Melanchaetes (Ancient Greek Μελαγχαίτης, 'black-haired') is, in Ovid's (Ovids) Metamorphoses and Hyginus's (Hygins) Fabulae, one of Actaeon's (Aktaion) hounds that finally tear him apart. | Melanchaetes (altgriechisch Μελαγχαίτης Melanchaítēs, deutsch ‚schwarzhaarig‘) ist in Ovids Metamorphosen und Hygins Fabulae einer der Hunde des Aktaion, die ihn schließlich zerreißen. |
+| melanchaetes-c03 | exact | de.wikipedia.org | Melanchaetes fell behind the pack in the hunt but took a shortcut over a ridge, so she was the first bitch to attack Actaeon (Aktaion) and wound his back, while Theridamas and Oresitrophos seized his shoulders. | Er war auf der Jagd gegen das Rudel zurückgefallen, hatte dann aber eine Abkürzung über einen Bergrücken genommen. So war Melanchaetes die erste Hündin, die Aktaion angreift und im Rücken verwundet, während zwei weitere Hündinnen, Theridamas und Oresitrophos, seine Schultern packen. |
+| melanchaetes-c04 | exact | en.wikipedia.org | Melanchaetes is also one of the centaurs who tried to steal Pholus's wine and was killed by Heracles. | Melanchaetes, one of the centaurs who tried to steal the wine of Pholus and was killed by Heracles. |
 
 
 ## roggenwolf — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| roggenwolf-c01 | exact | de.wikipedia.org | Roggenwolf is a mythological figure documented in folklore records. | Der Roggenwolf ist ein wolfsgestaltiger Korndämon und Kinderschreck der deutschen Sage, der sich im Feld und Acker aufhält. |
+| roggenwolf-c01 | exact | de.wikipedia.org | The Roggenwolf is a wolf-shaped corn demon (Korndämon) and children's bogey of German (deutschen) legend dwelling in fields; 19th-century proverbs call it insatiable and gluttonous to the point of immobility, aggressive, howling and roaring in its hunger. | Der Roggenwolf ist ein wolfsgestaltiger Korndämon und Kinderschreck der deutschen Sage, der sich im Feld und Acker aufhält. Verschiedene Sprichwörter des 19. Jahrhunderts charakterisieren den Roggenwolf als unersättlich und gefräßig bis hin zur Bewegungsunfähigkeit als Folge des unmäßigen Schlingens. Auch ist er aggressiv. Der Roggenwolf heult und brüllt in seiner Gier nach Futter. |
+| roggenwolf-c02 | exact | de.wikipedia.org | The Roggenwolf is a wind spirit, hence called Windwolf; especially when the wind sets the ears waving, it was said the wolf was going through the corn. | Der Roggenwolf ist ein Windgeist. Er trägt davon auch den Namen Windwolf. Besonders, wenn der Wind die Getreideähren in wellenförmige Bewegung bringt, hieß es, der Wolf gehe durch oder über das Korn, sei im Korn oder jage die Schafe im Korn. |
+| roggenwolf-c03 | exact | de.wikipedia.org | It is said to cause ergot (Mutterkorn), therefore called Wolf or Wolfszahn; it sits in the last harvest sheaf, also called Wolf, and whoever touches it at harvest falls ill. | Er soll auch das Mutterkorn verursachen, welches nach ihm Wolf oder Wolfszahn genannt wird. In der letzten Erntegarbe soll der Roggenwolf sitzen. Nach ihm wird auch die letzte Garbe als Wolf bezeichnet. Wer bei der Ernte mit dem Roggenwolf in Kontakt kommt, wird davon krank. |
+| roggenwolf-c04 | exact | de.wikipedia.org | The Roggenwolf's activity in the field was thought either to boost its fertility or, conversely, to reduce it, especially as it feeds on the grain. | Dem Treiben des Roggenwolfes im Feld wird entweder die Eigenschaft zugesprochen, dass es die Fruchtbarkeit des Feldes fördere oder gegenteilig, dass es die Fruchtbarkeit des Feldes verringere, zumal der Roggenwolf sich vom Korn des Feldes ernährt. |
+| roggenwolf-c05 | exact | de.wikipedia.org | Besides Roggenwolf, its names follow the crop: Getreidewolf, Kornwolf, Haferwolf, Gerstenwolf, Kartoffelwolf, Graswolf, Erbswolf and Pflaumenwolf. | Neben Roggenwolf (Roggenwulf) sind dies die Namensformen Getreidewolf, Kornwolf (großer Kornwolf, Kürnwolf, Koorwolf, Koanwolf, Körwolp), Haferwolf (Hawerwolf), Gerstenwolf, Kartoffelwolf (Kantüffelwolf), Graswolf (Grasewolf), Erbswolf und Pflaumenwolf (Plummenwolf). |
+| roggenwolf-c06 | exact | de.wikipedia.org | The Roggenwolf waits in the field for children seeking cornflowers (Kornblumen) or picking ears, to tear, bite, seize, devour or carry them off; the souls of children it ate must fly about the trees until the grain is in; the Roggenwölfe are held to be children of the Roggenmuhme, another field bogey. | Er soll im Feld auf die Kornblumen suchenden oder Ähren pflückenden Kinder warten, um sie zu zerreißen, zu beißen, zu packen, zu fressen oder fortzutragen. Die Seelen der vom Roggenwolf gefressenen Kinder müssen auf den Bäumen umherfliegen, bis das Korn eingefahren wird. Die Roggenwölfe gelten als Kinder der ebenfalls im Kornfeld hausenden Roggenmuhme, eines anderen Kinderschrecks. |
+| roggenwolf-c07 | exact | cs.wikipedia.org | The Roggenwolf ('rye wolf'), also Roggenhund, is a field spirit of German (německém) folklore; it lurks in the grain and strangles careless farmers, and children are warned it will tear them apart if they go into the field. | Roggenwolf, německy „žitný vlk“, též Roggenhund (žitný pes), je polní duch v německém folklóru. Číhá v obilí a dáví nepozorné rolníky a děti jsou varovány, že jím budou roztrhány, když půjdou do pole. |
+| roggenwolf-c08 | exact | de.wikipedia.org | The Roggenwolf's role as a children's bogey is shown by the names Gelbzahn ('yellow tooth') and Speilzahn. | Die Funktion des Roggenwolfs als Kinderschreck wird durch die Namen Gelbzahn und Speilzahn verdeutlicht. |
+| roggenwolf-c09 | exact | cs.wikipedia.org | Folklorist Wilhelm Mannhardt compared the Roggenwolf with the Norse Fenrir (severským Fenrim); both wolves are bound, sometimes with iron. | Folklorista Wilhelm Mannhardt srovnal Roggenwolfa se severským Fenrim. Oba vlci jsou spoutáni, někdy i s pomocí železa |
+| roggenwolf-c10 | exact | de.wikipedia.org | The howling of the wind is said to be caused by the Roggenwolf; it also appears as the embodiment of rough air, fog and rain. | Das Heulen des Windes soll durch den Roggenwolf hervorgerufen werden. Der Roggenwolf tritt auch als Verkörperung der rauen Luft, des Nebels und des Regens auf. |
 
 
 ## schimmelreiter — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| schimmelreiter-c01 | exact | fr.wikipedia.org | Schimmelreiter is a mythological figure documented in folklore records. | Selon Katharine Briggs, le schimmelreiter est le fantôme le plus souvent mentionné dans le folklore allemand, sous le nom de « der Schimmelreiter », qui signifie « le cavalier sur le cheval blanc ». |
+| schimmelreiter-c01 | exact | fr.wikipedia.org | The Schimmelreiter, in Germanic (germanique) folklore, specifically in Lower Saxony (Basse-Saxe) and the Altmark, is an evil white horse or a rider on one, symbols of sea disaster that destroys dykes during storms. | Le schimmelreiter ou schimmel reiter est, dans le folklore germanique et plus précisément en Basse-Saxe et dans l'Altmark, un cheval blanc maléfique ou un cavalier sur un cheval blanc, symboles de la catastrophe marine, qui détruit les digues pendant les tempêtes. |
+| schimmelreiter-c02 | exact | fr.wikipedia.org | The Schimmelreiter seems to derive from memories of the sacred horse of the Germanic peoples (germains); Stengel noted that horses sacrificed in chthonic rites are always white. | Le schimmelreiter semble être issu du souvenir du cheval sacré des germains, Stengel a noté que les chevaux sacrifiés dans des rites « chtoniens » sont toujours |
+| schimmelreiter-c03 | exact | fr.wikipedia.org | According to Katharine Briggs, the Schimmelreiter is the ghost most often mentioned in German (allemand) folklore, as der Schimmelreiter, 'the rider on the white horse'. | Selon Katharine Briggs, le schimmelreiter est le fantôme le plus souvent mentionné dans le folklore allemand, sous le nom de « der Schimmelreiter », qui signifie « le cavalier sur le cheval blanc ». |
+| schimmelreiter-c04 | exact | fr.wikipedia.org | The Schimmelreiter is regarded as an 'emissary of the underworld'. | Le schimmelreiter est considéré comme un « émissaire du monde souterrain ». |
+| schimmelreiter-c05 | exact | fr.wikipedia.org | In the 19th century, theories called 'hazy' made Saint Martin the successor of the Schimmelreiter and Odin. | Au XIXe siècle, des théories qualifiées de « fumeuses » faisaient de saint Martin le successeur du schimmelreiter et d'Odin. |
+| schimmelreiter-c06 | exact | nl.wikipedia.org | The schimmelrijder in Germanic (Germaanse) folklore, specifically Lower Saxony (Nedersaksen) and Altmark, is the evil white horse or a rider on it, symbol of the worst maritime disaster: dams destroyed in storms. | De schimmelrijder is in de Germaanse folklore (meer specifiek in Nedersaksen en Altmark) het kwade witte paard, of een ruiter op het witte paard. Het mythisch wezen is het symbool van de ergste maritieme ramp: de vernietiging van dammen in stormen. |
+| schimmelreiter-c07 | exact | fr.wikipedia.org | These are animals of a 'nocturnal, lunar, cold and empty' whiteness, like a shroud or a ghost, evoking mourning. | Il s'agit d'animaux à la blancheur « nocturne, lunaire, froide et vide », comme un suaire ou un fantôme, ils évoquent le deuil |
+| schimmelreiter-c08 | exact | nl.wikipedia.org | Theodor Storm's well-known novella Der Schimmelreiter (1888), filmed several times, is set in North Frisia (Noord-Friesland), Germany. | Bekend is de – meermaals verfilmde – novelle Der Schimmelreiter (1888) van Theodor Storm, een verhaal dat zich afspeelt in het Duitse Noord-Friesland. |
 
 
 ## sjora — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| sjora-c01 | exact | en.wikipedia.org | Sjörå is documented as swedish lake mistress in regional lore. | The sjörå (in Swedish) , (lake Sjö) or the Sjöfru (Mistress of the Lake) was a mythical creature of the lake, or sjö, in Swedish folklore. |
+| sjora-c01 | exact | en.wikipedia.org | The sjörå or Sjöfru ('Mistress of the Lake') was a mythical lake creature in Swedish folklore. | The sjörå (in Swedish) , (lake Sjö) or the Sjöfru (Mistress of the Lake) was a mythical creature of the lake, or sjö, in Swedish folklore. |
+| sjora-c02 | exact | en.wikipedia.org | Sjörå are considered the aquatic equivalent of the skogsrå, helping fishermen as the skogsrå helps hunters, but generally less involved with humans because of the water's separation. | Sjörå are considered to be the aquatic equivalent of the skogsrå, in that they can help fishermen the same way the skogsrå can help hunters. They are generally less willing to become involved with humans than skogsrå due to the separation provided by the water. |
+| sjora-c03 | exact | en.wikipedia.org | She is a seductive creature, often shown happily combing her long hair, who lures and drowns men unkind, unfaithful or disrespectful to her or the lake; like all rå she guards her domain and rewards the kind with good fishing, rescue from drowning and storm warnings. | She is a seductive creature, often featured sitting and combing her long, sweeping hair with delight, and often lures and drowns men who are unkind, unfaithful or otherwise disrespectful to her or the lake. Like all other rå (keepers) she protects her domain and awards those kind to her with prosperous fishing and good luck, by rescuing them from drowning and warning of incoming storms. |
+| sjora-c04 | exact | en.wikipedia.org | Male sjörå look more troll-like and are as protective of the water; some tales have them try to drown or blind people; one male sjörå, Håvålen, lived among humans and married a human woman before returning to the water at life's end. | Male sjörå are described as appearing more like trolls, and are as protective of the water as female sjörå. Some stories have them attempt to drown or blind humans. One particular male sjörå named Håvålen lived amongst humans married a human woman before returning to the water at the end of his life. |
+| sjora-c05 | exact | sv.wikipedia.org | In Nordic (nordisk) folk belief, the sjörå is the spirit or ruler watching over a pond, a lake or, if mighty, a whole lake system. | Sjörået är i nordisk folktro namnet på den ande eller rådare som vakar över en tjärn, en insjö eller – om det är ett mäktigt sjörå – över ett helt sjösystem. |
+| sjora-c06 | exact | sv.wikipedia.org | Like the skogsrå she was a seductive humanlike female, sometimes hollow-backed or partly scaled; she was easily scared off with a metal object, such as a fishing knife thrown before her feet. | Liksom skogsrået var hon en förförisk kvinnlig humanoid, som ibland kunde ha ihålig rygg eller vara delvis täckt med fjäll. ... För att undvika närkontakt med henne kunde man lätt skrämma bort henne med ett metallföremål. Ett sådant knep var att kasta fiskekniven framför hennes fötter och vips var hon försvunnen. |
+| sjora-c07 | exact | sv.wikipedia.org | A popular legend tells of a fisherman who gives a mitten (or stocking) to the sjörå and in thanks gets good fishing and a warning of approaching storms; Olaus Magnus records it in his History of the Northern Peoples. | En populär sägen är en om en fiskare som ger en vante (eller strumpa) till sjörået och till tack får god fiskelycka och varnas av henne vid annalkande storm. Berättelsen återges av Olaus Magnus i Historia om de nordiska folken. |
+| sjora-c08 | exact | sv.wikipedia.org | Unlike the näck, she seldom lured people to drown out of pure malice, only as revenge for a wrong; the two beings also disliked each other and rarely shared waters. | Till skillnad från exempelvis näcken så lurade hon sällan folk att drunkna av ren illvilja, utan detta skedde bara som vedergällning för en oförrätt. Till på köpet ogillade dessa båda varelser varandra varför de sällan förekom i varandras vatten. |
+| sjora-c09 | exact | sv.wikipedia.org | The sjörå sometimes kept cattle called sjönöt or sjökreatur: mottled or striped cows grazing at the shore, or perch and pike belonging to her lake. | Sjörået höll sig ibland med kreatur som kallades sjönöt eller sjökreatur. Dessa kunde vara brokiga eller strimmiga kor som betade i strandkanten, men kunde också förekomma som abborrar eller gäddor som tillhörde hennes sjö. |
+| sjora-c10 | exact | sv.wikipedia.org | Other names for the sjörå are nixa, nikse, sjöfru or sjöfröken. | Andra namn på sjörået är nixa, nikse, sjöfru eller sjöfröken. |
+| sjora-c11 | exact | sv.wikipedia.org | She showed herself almost only to lone men near the lake, delightedly sitting on a stone combing her long dark hair. | Hon visade sig nästan enbart för ensamma män, som vistades i sjöns närhet, där hon med förtjusning brukade sitta på en sten och kamma sitt långa, mörka svepande hår. |
 
 
 ## stinthengst — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| stinthengst-c01 | exact | de.wikipedia.org | Stinthengst is a mythological figure documented in folklore records. | Der Stinthengst (polnisch Rybi Król – Fischkönig oder auch Król Sielaw – Stintkönig) ist ein Fabelwesen, das aus den masurischen Gewässern um Nikolaiken (Mikołajki) stammt. |
+| stinthengst-c01 | exact | de.wikipedia.org | The Stinthengst (Polish Rybi Król, 'fish king', or Król Sielaw, 'smelt king') is a fabulous being from the Masurian (masurischen) waters around Nikolaiken (Mikołajki). | Der Stinthengst (polnisch Rybi Król – Fischkönig oder auch Król Sielaw – Stintkönig) ist ein Fabelwesen, das aus den masurischen Gewässern um Nikolaiken (Mikołajki) stammt. |
+| stinthengst-c02 | exact | de.wikipedia.org | The Stinthengst is the king of the smelt (Stinte), a fish common in the Masurian waters. | Bei dem Stinthengst handelt es sich um den König der Stinte, einer Fischart, die in den masurischen Gewässern häufig anzutreffen ist. |
+| stinthengst-c03 | exact | de.wikipedia.org | Once caught, he promised the fishermen any wish if they spared him; they let him live but, to keep using his magic, tied him with his rope prison to the town bridge. | Einmal gefangen, versprach er den Fischern, in deren Netz er gelandet war, alle möglichen Wünsche zu erfüllen, wenn sie nur sein Leben verschonen würden. ... Um seine magischen Kräfte aber weiterhin ausnützen zu können, bemühten sie sich darum, den Fischkönig im Netz zu behalten. Sie banden ihn mitsamt seinem seilernen Gefängnis an der Stadtbrücke fest. |
+| stinthengst-c04 | exact | de.wikipedia.org | The Stinthengst is honoured yearly with the so-called Wasserung, wears a golden crown, ensures plenty of fish where he was tied, and is the heraldic animal of today's Mikołajki. | Der Stinthengst wird alljährlich mit der sogenannten Wasserung geehrt, trägt eine goldene Krone und sorgt dafür, dass reichlich Fische an der Stelle zu fangen sind, an der ihn die Fischer festgebunden haben. Er ist auch das Wappentier der heutigen Stadt Mikołajki. |
+| stinthengst-c05 | exact | pl.wikipedia.org | Rybi Król (also Król Sielaw) is the legendary ruler of the waters of the land of the Prussians (Prusów), now Masuria (Mazury). | Rybi Król (także: Król Sielaw) – legendarny władca wód ziemi Prusów (obecnie Mazury). |
+| stinthengst-c06 | exact | pl.wikipedia.org | In another version (Król Sielaw) he guarded the creatures of the Prussian (pruskich) lakes and rivers so well that people could catch nothing and starved, until a Prussian fisherman's wife prayed to the gods and was given a metal ring as the pattern for a net that caught the Rybi Król. | Strzegł on bezpieczeństwa mieszkańców wód w pruskich jeziorach i rzekach. Czynił to tak skutecznie, że mieszkańcy nie mogąc niczego złowić zaczęli cierpieć głód. Dopiero gdy żona pruskiego rybaka zwróciła się o pomoc do bogów, składając im ofiarę, ci w zamian dali jej metalowe kółko, stanowiące wzór dla wykonanej następnie sieci, w którą złowiono Rybiego Króla. |
+| stinthengst-c07 | exact | de.wikipedia.org | In the town of Nikolaiken (Mikołajki) there is a fountain with a sculpture of the Stinthengst in its centre. | In der Stadt Nikolaiken ist ein Brunnen angelegt, in dessen Mitte eine Skulptur des Stinthengstes zu sehen ist. |
+| stinthengst-c08 | exact | de.wikipedia.org | The outwitted fish king had to keep his promise and still grants wishes today; only the bridge has changed, the original having been destroyed in World War II (Zweiten Weltkrieg). | Der überlistete Fischkönig aber musste sein Versprechen halten und erfüllt noch heute Wünsche. Nur die Brücke, unter der er haust, hat sich verändert. Die Originalbrücke wurde im Zweiten Weltkrieg zerstört. |
 
 
 ## unnamed-eagle-on-the-top-of-yggdrasil — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| unnamed-eagle-on-the-top-of-yggdrasil-c01 | exact | en.wikipedia.org | unnamed eagle on the top of Yggdrasil is documented as norse mythology norse in regional lore. | In Norse mythology, Veðrfölnir (Old Norse "storm pale", "wind bleached", or "wind-witherer") is a hawk sitting between the eyes of an unnamed eagle that is perched on top of the world tree Yggdrasil. |
+| unnamed-eagle-on-the-top-of-yggdrasil-c01 | exact | en.wikipedia.org | In Norse mythology Veðrfölnir is a hawk sitting between the eyes of an unnamed eagle perched on top of the world tree Yggdrasil. | In Norse mythology, Veðrfölnir (Old Norse "storm pale", "wind bleached", or "wind-witherer") is a hawk sitting between the eyes of an unnamed eagle that is perched on top of the world tree Yggdrasil. |
+| unnamed-eagle-on-the-top-of-yggdrasil-c02 | exact | en.wikipedia.org | The unnamed eagle is attested in the Poetic Edda, compiled in the 13th century from older sources, and in Snorri Sturluson's 13th-century Prose Edda, while Veðrfölnir is only in the Prose Edda. | The unnamed eagle is attested in both the Poetic Edda, compiled in the 13th century from earlier traditional sources, and the Prose Edda, written in the 13th century by Snorri Sturluson, while Veðrfölnir is solely attested in the Prose Edda. |
+| unnamed-eagle-on-the-top-of-yggdrasil-c03 | exact | en.wikipedia.org | In both Eddas the squirrel Ratatoskr carries messages between the unnamed eagle and Nidhöggr, the worm dwelling below the world tree. | In both the Poetic Edda and the Prose Edda, the squirrel Ratatoskr carries messages between the unnamed eagle and Nidhöggr, the worm that resides below the world tree. |
+| unnamed-eagle-on-the-top-of-yggdrasil-c04 | exact | en.wikipedia.org | Gylfaginning: an eagle sits at the top of the ash with knowledge of many things; between its eyes sits the hawk Vedrfolnir; the squirrel Ratatosk runs up and down telling slanderous gossip that provokes the eagle and Nidhogg. | There is much to be told. An eagle sits at the top of the ash, and it has knowledge of many things. Between its eyes sits the hawk called Vedrfolnir [...]. The squirrel called Ratatosk runs up and down the ash. He tells slanderous gossip, provoking the eagle and Nidhogg. |
+| unnamed-eagle-on-the-top-of-yggdrasil-c05 | exact | de.wikipedia.org | In Norse (nordischen) mythology there is an eagle on the world tree Yggdrasil whose name is unknown. | In der nordischen Mythologie gibt es einen Adler am Weltenbaum Yggdrasil, dessen Name unbekannt ist. |
+| unnamed-eagle-on-the-top-of-yggdrasil-c06 | exact | de.wikipedia.org | The eagle–Nidhöggr pairing suggests this Völuspá passage ('the eagle screams') also means the world-tree eagle, since the 'pale-nosed one' is taken to be Nidhöggr; the passage concerns the onset of Ragnarök. | Das Gegensatzpaar Adler–Nidhöggr deutet darauf hin, dass auch diese Stelle des Lieds Völuspá den Weltenbaum-Adler meint, da man davon ausgeht, dass mit dem Nasenbleichen wohl Nidhöggr gemeint ist. Die Textstelle handelt vom Beginn der Ragnarök, der Endzeit der Götter. |
+| unnamed-eagle-on-the-top-of-yggdrasil-c07 | exact | en.wikipedia.org | John Lindow points out that Snorri does not say why a hawk sits between an eagle's eyes or what role it plays; Lindow suggests it is presumably linked to the eagle's wisdom and perhaps, like Odin's ravens, flies off gathering and bringing back knowledge. | John Lindow points out that Snorri does not say why a hawk should be sitting between the eyes of an eagle or what role it may play. Lindow theorizes that "presumably the hawk is associated with the wisdom of the eagle" and that "perhaps, like Odin's ravens, it flies off acquiring and bringing back knowledge". |
+| unnamed-eagle-on-the-top-of-yggdrasil-c08 | exact | en.wikipedia.org | In Grímnismál (Bellows's translation), Ratatosk bears the words of the eagle from above and tells them to Nithhogg beneath. | From above the words of the eagle he bears, And tells them to Nithhogg beneath. |
 
 
 ## vittra-folklore — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| vittra-folklore-c01 | exact | en.wikipedia.org | Vittra (folklore) is documented as vittra plural vittror in regional lore. | A vittra (plural: vittror) is a type of wight (a term for supernatural beings) from northern Sweden. |
+| vittra-folklore-c01 | exact | en.wikipedia.org | A vittra (plural vittror) is a kind of wight (supernatural being) from northern Sweden, associated with herding cattle or reindeer; they were believed to live normally among humans, revealing their supernatural nature only if their livestock were mistreated. | A vittra (plural: vittror) is a type of wight (a term for supernatural beings) from northern Sweden. They were associated with herding, either cattle or reindeer; they were believed to live normally among humans and only revealed a supernatural nature if their livestock were mistreated. |
+| vittra-folklore-c02 | exact | en.wikipedia.org | Like the hulder and skogsrå, the vittra is linked with longing and desire, appearing as a beautiful female wight who seduces men in the forest. | Like the hulder and the skogsrå, the vittra is also associated with longing and desire. The vittra appears as a beautiful, female wight who seduces men in the forest. |
+| vittra-folklore-c03 | exact | sv.wikipedia.org | Vittra or vitter is a side form of vätte and denotes a mythical people in the folk belief of northern Nordic fäbod culture, or an invisible or underground, rather female supernatural being of Norrland belief, comparable to the skogsrå or elves (älvor). | Vittra eller vitter är en sidoform till vätte (vätter) och avser ett mytiskt folk inom den norra nordiska fäbodkulturens folktro, ibland särskilt som vitterfolk, eller ett övernaturligt osynligt eller underjordiskt snarare kvinnligt väsen i norrländsk folktro, jämförbart med skogsrå eller älvor |
+| vittra-folklore-c04 | exact | sv.wikipedia.org | The southern limit of vittra belief runs roughly through Hälsingland and Dalarna, and it exists in Norway (Norge) and Finland too; vittra legends recall the Norwegian huldrefolk and the Gutnish tales of di sma undar jordi. | Sydgränsen för vittertron går ungefär genom Hälsingland och Dalarna, och finns även i Norge och Finland. Sägnerna om vittra påminner om de i Norge förekommande om huldrefolket, och gutniska berättelser om di sma undar jordi. |
+| vittra-folklore-c05 | exact | sv.wikipedia.org | The vittra stay on the summer pasture (fäbodvallen) in winter when people are absent, and keep their own cattle called vitterkor, considered especially enchanted. | De håller till på fäbodvallen under vinterhalvåret då människorna inte är där. Vittra sägs hålla egen boskap, som kallas vitterkor, och dessa kor ansågs som särskilt förtrollade. |
+| vittra-folklore-c06 | exact | sv.wikipedia.org | The vittra's paths are called vitterstråk, and many places have old maps of them; woe to whoever builds a house right on a vitterstråk, for the vittra will walk their cattle straight through it. | Vittras vägar kallas för vitterstråk, och på många platser finns det kartor över dessa från förr. Illa går det för den som bygger sitt hus rakt på ett vitterstråk, då går vittra med sin boskap tvärs genom huset. |
+| vittra-folklore-c07 | exact | sv.wikipedia.org | The word vittra is etymologically related to vätte, used south of Dalarna, and comes from Old Norse (fornnordiskt) vættr, '(supernatural) being'. | Ordet "vittra" är etymologiskt besläktat med "vätte", som används söder om Dalarna. Det kommer från ett fornnordiskt vættr, vilket helt enkelt betyder "(övernaturligt) väsen". |
+| vittra-folklore-c08 | exact | en.wikipedia.org | The Swedish film Vittra (American title Wither) has a Vittra as its main villain. | The Swedish film Vittra, or its American title Wither, has a Vittra as the main villain. |
+| vittra-folklore-c09 | exact | sv.wikipedia.org | The vittra look, live and dress like people and, unlike many other folk-belief beings, are mortal. | Vittra ser ut, lever och klär sig som människor, och de är till skillnad från många andra väsen i folktron dödliga. |
+| vittra-folklore-c10 | exact | sv.wikipedia.org | In Jämtland dialect the vittra is usually called jolbyggar ('earth builders'); in Sami ganij, sajva or ulda, and in Finnish (finska) maahinen or haltija. | På jämtska benämns vittra vanligen jolbyggar ("jordbyggare"), stundom även smågåbban, småruskan och småtussan. På samiska används ganij, sajva, eller ulda, och på finska maahinen eller haltija. |
 
 
-## vogel-gryff — lulus-otomatis
+## vogel-gryff — skip
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 0 (), sumber 0, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `skip` Diusulkan dilewati: Bukan makhluk cerita rakyat: Vogel Gryff adalah sosok heraldik Kleinbasel yang diperankan dengan kostum griffin dalam pawai tahunan tiga Ehrengesellschaften Basel (bermula dari pemeriksaan senjata abad pertengahan), sekaligus nama hari raya itu sendiri; artikel de dan als tidak memuat kepercayaan atau legenda tentang makhluknya. Termasuk kategori sosok/boneka pawai menurut §12. (https://de.wikipedia.org/wiki/Vogel_Gryff).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| vogel-gryff-c01 | exact | de.wikipedia.org | Vogel Gryff is a mythological figure documented in folklore records. | Kategorien: Feiertag in der Schweiz Mythischer Vogel Kultur (Basel) Geschichte (Basel) Immaterielles Kulturerbe (Schweiz) Versteckte Kategorie: MediaWiki:Gadget/annotationPair |
 
 
 ## wanambi — lulus-otomatis
 
-Klaim 1 (exact 1), sumber 1, gambar 0.
+Klaim 2 (exact 2), sumber 2, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 2 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| wanambi-c01 | exact | nl.wikipedia.org | Wanambi is a mythological figure documented in folklore records. | Wanambi is een mythologische slang die in de mythologie van de Australische Aboriginals in een waterhol dicht bij de hoogste rots van Kata Tjuṯa, Wanambi-pidi leeft. |
+| wanambi-c01 | exact | nl.wikipedia.org | In Australian Aboriginal mythology Wanambi is a mythical serpent living in a waterhole near Kata Tjuṯa's highest rock, Wanambi-pidi; its hair is the dark lines on the rock's east side, the wind through the rock's holes is its breath, and when very angry it swells into a hurricane (orkaan). | Wanambi is een mythologische slang die in de mythologie van de Australische Aboriginals in een waterhol dicht bij de hoogste rots van Kata Tjuṯa, Wanambi-pidi leeft. De haren van de slang zijn de donkere lijnen op de oostkant van de rots. De wind die door de vele gaten van de rots waait is zijn adem. Als de slang erg boos is zwelt deze aan tot een orkaan. |
+| wanambi-c02 | exact | sv.wikipedia.org | In Oceanian (Oceaniens) mythology, among the indigenous people of western Australia (västra Australien), Wanambi is the name of 'the great rainbow serpent', still feared for its great power. | Wanambi är i Oceaniens mytologi hos urinvånarna i västra Australien namnet på ”den stora regnbågsormen”. Han är fortfarande fruktad för sin stora makt. |
 
