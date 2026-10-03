@@ -1,36 +1,101 @@
 {
   "batch_id": "batch-123",
-  "checked_at": "2026-10-01T07:43:01.376Z",
+  "checked_at": "2026-10-03T03:24:54.159Z",
   "files": [
     "batch-123.md"
   ],
   "parse_problems": [],
-  "missing": [],
+  "missing": [
+    "surma",
+    "vishap",
+    "yalmavuz",
+    "z-ota-kaczka",
+    "zana-mythology",
+    "autrimps",
+    "conde-estruch",
+    "dakhanavar",
+    "haltija",
+    "k-op-ala",
+    "lamia-q12284666",
+    "maaema",
+    "piru-spirit",
+    "polkan",
+    "poroniec",
+    "salme",
+    "sarkany-mythology",
+    "shubin-ghost",
+    "supernatural-beings-in-slavic-religion",
+    "vantoase"
+  ],
   "entries": [
     {
       "slug": "topielec",
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "topielec-c01",
           "source_id": "topielec-s1",
           "host": "en.wikipedia.org",
-          "statement": "Topielec is documented as tenth chapter book in regional lore.",
-          "statement_id": "Topielec adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "In the tenth chapter of book two, some of the characters gather together to exchange stories and legends, in one of which the topielica (feminine form of topielec) is mentioned.",
+          "statement": "Utopiec (plural utopce), Vodník or Topnik is a name for Slavic water spirits; the utopce are souls of the drowned living in the water where they died, sucking people into swamps and lakes and killing animals near still water.",
+          "statement_id": "Utopiec (jamak utopce), Vodník, atau Topnik adalah nama roh air Slavia; utopce adalah jiwa manusia yang mati tenggelam dan tinggal di air tempat mereka mati, menyeret orang ke rawa dan danau serta membunuh hewan di dekat air tenang.",
+          "quote": "Utopiec (plural Utopce), Vodník or Topnik is a name applied to Slavic spirits of water. The utopce are spirits of human souls that died drowning, residing in the element of their own demise. They are responsible for sucking people into swamps and lakes as well as killing the animals standing near the still waters.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "topielec-c02",
+          "source_id": "topielec-s2",
+          "host": "pt.wikipedia.org",
+          "statement": "The topielce are spirits of human souls who died by drowning, living in the element of their own death.",
+          "statement_id": "Topielce adalah roh jiwa manusia yang mati tenggelam dan tinggal di unsur tempat mereka meninggal.",
+          "quote": "O topielce são espíritos de almas humanas que morreram se afogando, residindo no elemento de seu próprio falecimento.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "topielec-c03",
+          "source_id": "topielec-s3",
+          "host": "fr.wikipedia.org",
+          "statement": "A topielec (plural topielce) is a spirit of Slavic mythology that lives in water.",
+          "statement_id": "Topielec (jamak topielce) adalah roh mitologi Slavia yang hidup di air.",
+          "quote": "Un Topielec (pluriel : Topielce) est un esprit de la mythologie slave qui vit dans l'eau.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "topielec-c04",
+          "source_id": "topielec-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Slavic water spirits of the drowned remained popular in rural Polish folklore at the turn of the 19th and 20th century, as Władysław Reymont showed in his Nobel Prize-winning novel Chłopi (The Peasants).",
+          "statement_id": "Roh air Slavia dari orang yang mati tenggelam tetap populer dalam cerita rakyat pedesaan Polandia pada pergantian abad ke-19 dan ke-20 (19th, 20th), seperti ditunjukkan Władysław Reymont dalam novel Chłopi (Para Petani) yang meraih Hadiah Nobel.",
+          "quote": "Slavonic water spirits of the drowned dead remained a popular element of rural Polish folklore at the turn of the 19th and 20th century, as shown by Władysław Reymont in his Nobel Prize-winning novel Chłopi (The Peasants).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "topielec-c05",
+          "source_id": "topielec-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A more recent example in Polish popular culture is the comic series Lil and Put (Lil i Put), whose two title characters are constantly at odds with an utopiec in a pond next to their village.",
+          "statement_id": "Contoh utopiec dalam budaya populer Polandia yang lebih baru adalah serial komik Lil dan Put (Lil i Put), yang dua tokoh utamanya terus berselisih dengan utopiec di kolam dekat desa mereka.",
+          "quote": "A more recent example of the utopiec in Polish popular culture is the comic book series Lil and Put, where the two titular characters are constantly at odds with an Utopiec living in a pond next to their village.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "topielec-c06",
+          "source_id": "topielec-s3",
+          "host": "fr.wikipedia.org",
+          "statement": "It lives in water and is a creature that drowns people.",
+          "statement_id": "Ia hidup di air dan merupakan makhluk yang menenggelamkan orang.",
+          "quote": "qui vit dans l'eau. C'est une créature noyeuse.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -40,31 +105,20 @@
     {
       "slug": "volga-svyatoslavich",
       "file": "batch-123.md",
-      "verdict": "lulus-otomatis",
+      "verdict": "skip",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 0,
+        "sources": 0,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "skip",
+          "message": "Diusulkan dilewati: Bukan makhluk: Volga Svyatoslavich adalah bogatyr, pahlawan manusia dalam bylina Rusia. Sesuai aturan 3 Oktober 2026 (§12), pahlawan manusia tidak dimasukkan walaupun memiliki kemampuan berubah wujud. (https://en.wikipedia.org/wiki/Volga_Svyatoslavich)."
         }
       ],
-      "claims": [
-        {
-          "id": "volga-svyatoslavich-c01",
-          "source_id": "volga-svyatoslavich-s1",
-          "host": "en.wikipedia.org",
-          "statement": "Volga Svyatoslavich is documented as volga svyatoslavich mikula in regional lore.",
-          "statement_id": "Volga Svyatoslavich adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Volga Svyatoslavich and Mikula Selyaninovich, by Ivan Bilibin",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
+      "claims": [],
       "images": []
     },
     {
@@ -72,26 +126,90 @@
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "zana-c01",
           "source_id": "zana-s1",
           "host": "en.wikipedia.org",
-          "statement": "Zână is documented as plural spellings romanian in regional lore.",
-          "statement_id": "Zână adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Zână (plural zâne; zînă and zîne, d̦ână and d̦âne in old spellings) is the Romanian equivalent of the Greek Charites or the fairy godmother.",
+          "statement": "The zână is the Romanian equivalent of the Greek Charites or the fairy godmother, the opposite of monsters like Muma Pădurii; they appear positively in fairy tales and mostly live in the woods.",
+          "statement_id": "Zână adalah padanan Rumania untuk Charites Yunani atau peri ibu baptis, kebalikan dari monster seperti Muma Pădurii; mereka tampil positif dalam dongeng dan kebanyakan tinggal di hutan.",
+          "quote": "is the Romanian equivalent of the Greek Charites or the fairy godmother. They are the opposite of monsters such as Muma Pădurii. These characters make positive appearances in fairy tales and mostly reside in the woods.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zana-c02",
+          "source_id": "zana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They vary in size and look and can transform to blend into their surroundings for protection; they may appear in the woods and coax travellers to follow them to find their way.",
+          "statement_id": "Ukuran dan rupa mereka beragam dan dapat berubah wujud untuk menyatu dengan lingkungan demi perlindungan; mereka dapat muncul di hutan dan membujuk pengelana mengikuti mereka agar menemukan jalan.",
+          "quote": "They vary in size and appearance and can transform to blend into their surroundings for protection and cover. They can appear openly in the woods and coax travelers to follow them in order to help them find their way.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zana-c03",
+          "source_id": "zana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They give life to unborn children and bestow gifts like dancing, beauty, kindness and luck.",
+          "statement_id": "Mereka memberi kehidupan kepada janin dalam kandungan dan menganugerahkan bakat seperti menari, kecantikan, kebaikan hati, dan keberuntungan.",
+          "quote": "They give life to fetuses in utero and bestow upon them great gifts like the art of dancing, beauty, kindness, and luck.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zana-c04",
+          "source_id": "zana-s2",
+          "host": "ro.wikipedia.org",
+          "statement": "Yet the good zâne's kindness has limits: they sometimes punish whoever breaks a declared taboo, such as entering zâne territory uninvited, the usual penalty being blindness.",
+          "statement_id": "Namun kebaikan zâne ada batasnya: kadang mereka menghukum orang yang melanggar pantangan, misalnya masuk tanpa izin ke wilayah zâne, dengan hukuman yang lazim berupa kebutaan.",
+          "quote": "Totuși zânele bune au limite în bunăvoință și uneori pedepsesc îndeosebi pe cel care le calcă un tabu declarat (de exemplu, intrarea neîngăduită pe un teritoriu controlat de zâne), pedeapsa curentă fiind orbirea.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zana-c05",
+          "source_id": "zana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The word zână comes from the Roman goddess Diana (as does Astur-Leonese xana).",
+          "statement_id": "Kata zână berasal dari nama dewi Romawi Diana (begitu pula xana dalam bahasa Astur-Leon).",
+          "quote": "The word zână comes from the Roman goddess Diana (as does Astur-Leonese xana).",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "zana-c06",
+          "source_id": "zana-s2",
+          "host": "ro.wikipedia.org",
+          "statement": "In Romanian mythology zâne are of two moral kinds, good and evil; the good ones predominate, being beautiful, very young, magical maidens who favour honest people and always hold the solution for the hero, usually Făt-Frumos.",
+          "statement_id": "Dalam mitologi Rumania, zâne terbagi menjadi baik dan jahat; zâne yang baik lebih banyak, berupa gadis cantik yang sangat muda dan sakti, berpihak pada orang jujur, dan selalu punya jalan keluar bagi pahlawan, biasanya Făt-Frumos.",
+          "quote": "În mitologia românească, acestea sunt de 2 categorii morale: bune și rele. Zânele bune sunt preponderente numeric și categorial, sunt fecioare frumoase, zvelte, foarte tinere, năzdrăvane, prielnice omului cinstit și având totdeauna soluțiile esențiale pentru dificultățile ori impasurile inevitabile de care este asaltat eroul arhetipal (de obicei Făt-Frumos).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zana-c07",
+          "source_id": "zana-s2",
+          "host": "ro.wikipedia.org",
+          "statement": "Good zâne are thought to be born from flowers.",
+          "statement_id": "Zâne yang baik dipercaya lahir dari bunga.",
+          "quote": "Zânele bune sunt socotite ca născându-se din flori.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zana-c08",
+          "source_id": "zana-s2",
+          "host": "ro.wikipedia.org",
+          "statement": "Evil zâne are often confused with the Ielele, though they are structurally different divinities.",
+          "statement_id": "Zâne jahat sering dikacaukan dengan Ielele, padahal keduanya makhluk ilahi yang berbeda.",
+          "quote": "Acestea sunt adesea confundate cu Ielele, însă prin contaminare, căci  sunt divinități structural și atributiv diferite.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -102,26 +220,70 @@
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bukavac-c01",
           "source_id": "bukavac-s1",
           "host": "en.wikipedia.org",
-          "statement": "Bukavac is documented as bukavac serbo croatian in regional lore.",
-          "statement_id": "Bukavac adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Bukavac ( Serbo-Croatian pronunciation: [bǔːkaʋat͡s] ) is a demonic mythical creature in Slavic mythology.",
+          "statement": "Bukavac is a demonic mythical creature of Slavic mythology; belief in it existed in Syrmia.",
+          "statement_id": "Bukavac adalah makhluk mitis bersifat iblis dalam mitologi Slavia; kepercayaan kepadanya ada di Syrmia.",
+          "quote": "is a demonic mythical creature in Slavic mythology. Belief in it existed in Syrmia.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bukavac-c02",
+          "source_id": "bukavac-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Bukavac was sometimes imagined as a six-legged monster with gnarled horns and bright blue eyes; it lives in lakes and pools, comes out at night making a loud noise (buka, noise), and jumps on people and animals to strangle them.",
+          "statement_id": "Bukavac kadang dibayangkan sebagai monster berkaki enam bertanduk bengkok dan bermata biru terang; ia tinggal di danau dan kolam, keluar pada malam hari dengan suara gaduh (dari buka, kebisingan), melompat ke manusia dan hewan lalu mencekiknya.",
+          "quote": "Bukavac was sometimes imagined as a six-legged monster with gnarled horns and bright blue eyes.  It lives in lakes and pools, coming out of the water during the night to make a loud noise (hence the name: buka – noise). It would jump onto people and animals and strangle them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bukavac-c03",
+          "source_id": "bukavac-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "Bukavac or Vodeni bik (\"water bull\"; Bukavac meaning \"the noisy one\") is a demonic being resembling a werewolf or vampire; belief in it is recorded in Syrmia (Serbia, Croatia).",
+          "statement_id": "Bukavac atau Vodeni bik (\"banteng air\"; Bukavac berarti \"yang bergemuruh\") adalah makhluk iblis mirip manusia serigala atau vampir; kepercayaan kepadanya tercatat di Syrmia (Serbia, Kroasia).",
+          "quote": "Бу́кавац или Водени бик, воденбика (сербохорв. Букавац, Bukavac «шумящий») — демоническое существо мифологии, похожее на оборотня (вампира). Верования в него зафиксированы в Среме (Сербия, Хорватия).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bukavac-c04",
+          "source_id": "bukavac-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It would jump on people and animals and strangle them.",
+          "statement_id": "Ia melompat ke atas manusia dan hewan lalu mencekik mereka.",
+          "quote": "It would jump onto people and animals and strangle them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bukavac-c05",
+          "source_id": "bukavac-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "Bukavac is sometimes described as a six-legged monster with deer antlers.",
+          "statement_id": "Bukavac kadang digambarkan sebagai monster berkaki enam bertanduk rusa.",
+          "quote": "Букавац иногда описывается, как шестиногий монстр с оленьими рогами.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bukavac-c06",
+          "source_id": "bukavac-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "Figuratively, bukavac or bukalo means a person who makes a lot of noise.",
+          "statement_id": "Secara kiasan, bukavac atau bukalo berarti orang yang sangat berisik.",
+          "quote": "Букавац, Буковац, Букало — иносказательно: человек производящий много шума.",
+          "context": "etymology",
           "status": "exact"
         }
       ],
@@ -132,25 +294,69 @@
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "chernava-c01",
           "source_id": "chernava-s1",
           "host": "en.wikipedia.org",
-          "statement": "Chernava is documented as russian folklore chernava in regional lore.",
-          "statement_id": "Chernava adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "In Russian folklore, Chernava (diminutive: Chernavushka; Russian: Чернава, Чернавушка ) is Sea Tsar's daughter (or, according to some versions, a niece), spirit and personification of the river of the same name.",
+          "statement": "In Russian folklore, Chernava is the Sea Tsar's daughter (or niece), spirit and personification of the river of the same name; a mermaid with human head and upper body and a fish tail, famed from the epic of Sadko.",
+          "statement_id": "Dalam cerita rakyat Rusia, Chernava (Чернава) adalah putri Tsar Laut (atau keponakannya), roh dan perwujudan sungai bernama sama; ia putri duyung berkepala dan bertubuh atas manusia dengan ekor ikan, terkenal dari epos Sadko.",
+          "quote": "is Sea Tsar's daughter (or, according to some versions, a niece), spirit and personification of the river of the same name. She is a mermaid. Her head and upper body are human, while the lower body is a fish's tail. Chernava is famed from her appearance in the epic of Sadko.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chernava-c02",
+          "source_id": "chernava-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Sadko bylina Chernava is one of 900 mermaids offered to Sadko as a bride; consummating the marriage would mean he could not return to the human world.",
+          "statement_id": "Dalam bylina Sadko, Chernava adalah salah satu dari 900 putri duyung yang ditawarkan kepada Sadko sebagai pengantin; menyempurnakan pernikahan berarti Sadko tak bisa kembali ke dunia manusia.",
+          "quote": "In the Sadko bylina, Chernava appears as one of the 900 mermaids offered to Sadko as a new bride, though to consummate the marriage would mean that Sadko would no longer be able to go to the human world.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chernava-c03",
+          "source_id": "chernava-s1",
+          "host": "en.wikipedia.org",
+          "statement": "On the wedding night Sadko did not touch her; while he slept Chernava became a river and helped him back to the human world; he woke on the shore of the river Chernava and rejoined his first wife.",
+          "statement_id": "Pada malam pernikahan Sadko tidak menyentuhnya; ketika ia tidur, Chernava berubah menjadi sungai dan membantunya kembali ke dunia manusia; Sadko terbangun di tepi sungai Chernava dan kembali kepada istri pertamanya.",
+          "quote": "On their wedding night he did not touch her. When Sadko was asleep, Chernava had transformed into a river, helping him to get into the human world. Sadko woke up on the shore of the river Chernava and rejoined his first wife.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chernava-c04",
+          "source_id": "chernava-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Chernava Colles, hills on the planet Venus, are named after her.",
+          "statement_id": "Chernava Colles, bukit-bukit di planet Venus, dinamai menurut namanya.",
+          "quote": "Chernava Colles, the hills on planet Venus are named after her.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "chernava-c05",
+          "source_id": "chernava-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "Hills on Venus, the \"Chernava hills\", are named in her honour and were approved in 1997.",
+          "statement_id": "Bukit di Venus, \"Bukit Chernava\", dinamai untuk menghormatinya dan disahkan pada tahun 1997.",
+          "quote": "В честь Чернавы названы холмы на Венере — «холмы Чернавы», утверждённые в 1997 году.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "chernava-c06",
+          "source_id": "chernava-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "A beauty, one of the 900 sea maidens (precisely the 901st, \"three times three hundred and one more\"), the last and most beautiful of them.",
+          "statement_id": "Ia gadis cantik, salah satu dari 900 gadis laut (tepatnya yang ke-901, \"tiga kali tiga ratus dan satu lagi\"), yang terakhir dan tercantik di antara mereka.",
+          "quote": "Красавица. Одна из 900 (точнее 901-я, «три по триста и ещё одна…») морских дев, самая последняя и прекрасная из них.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -162,25 +368,69 @@
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cornflower-wraith-c01",
           "source_id": "cornflower-wraith-s1",
           "host": "en.wikipedia.org",
-          "statement": "Cornflower Wraith is documented as referred english cornflower in regional lore.",
-          "statement_id": "Cornflower Wraith adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "She can be referred to in English as \"Cornflower Wraith\", \"Lady Cornflower\" or \"Cornflower Witch\".",
+          "statement": "Habernitsa is a noon demon of Slavic mythology said to live around Prudnik; called Chabernica in Polish and Хаберница in Russian; similar to Lady Midday.",
+          "statement_id": "Habernitsa adalah iblis tengah hari dalam mitologi Slavia yang dikatakan tinggal di daerah Prudnik; dalam bahasa Polandia disebut Chabernica dan dalam bahasa Rusia Хаберница; ia mirip Lady Midday.",
+          "quote": "Habernitsa is a noon demon in Slavic mythology, said to live in the area of Prudnik. She is referred to as Chabernica in Polish and Хаберница (Habernitsa) in Russian.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cornflower-wraith-c02",
+          "source_id": "cornflower-wraith-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She was usually pictured as a slim young woman in azure with cornflowers in her hair, roaming field bounds at midday, angered by those who trampled grain or used sharp tools.",
+          "statement_id": "Ia biasanya digambarkan sebagai perempuan muda ramping berbaju biru langit dengan bunga cornflower di rambut, berkeliaran di pematang ladang pada tengah hari, dan marah kepada orang yang menginjak gandum atau memakai alat tajam.",
+          "quote": "She was usually pictured as a young slim woman dressed in azure with cornflowers in her hair, that roamed field bounds during midday. She was angered by people who trampled the grain or used sharp tools.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cornflower-wraith-c03",
+          "source_id": "cornflower-wraith-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Those she judged deserving were lulled asleep by her whisper and then given headache, paralysis or low back pain; sometimes she broke their arms, legs or neck; workers avoided her by resting at the midday Angelus.",
+          "statement_id": "Orang yang dianggapnya pantas dihukum ditidurkan dengan bisikannya lalu ditimpa sakit kepala, kelumpuhan, atau nyeri punggung bawah; kadang ia mematahkan lengan, kaki, atau leher korbannya; untuk menghindarinya pekerja beristirahat saat Angelus tengah hari.",
+          "quote": "Those she thought deserved punishment were put to sleep with her whisper, after which she caused them headache, paralysis or low back pain. Sometimes she attacked her victims by breaking their arms, legs or neck.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cornflower-wraith-c04",
+          "source_id": "cornflower-wraith-s2",
+          "host": "pl.wikipedia.org",
+          "statement": "The chabernica is a female field demon in Silesia around Prudnik, the counterpart of the południca (Lady Midday).",
+          "statement_id": "Chabernica adalah iblis perempuan ladang di Silesia, sekitar Prudnik, padanan południca (Lady Midday).",
+          "quote": "polny demon żeński na Śląsku, w okolicach Prudnika. Odpowiedniczka południcy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cornflower-wraith-c05",
+          "source_id": "cornflower-wraith-s2",
+          "host": "pl.wikipedia.org",
+          "statement": "A Polish dialect dictionary describes the chabernica as a bogey to scare children so they do not go into the grain.",
+          "statement_id": "Kamus dialek Polandia menggambarkan chabernica sebagai momok untuk menakut-nakuti anak-anak agar tidak masuk ke ladang gandum.",
+          "quote": "opisuje chabernicę jako „strach, którym się straszy dzieci, aby nie wchodziły w zboże”",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cornflower-wraith-c06",
+          "source_id": "cornflower-wraith-s2",
+          "host": "pl.wikipedia.org",
+          "statement": "Hearing the cries of a little girl caught in brambles, the chabernica freed her by parting the thorns and led her home.",
+          "statement_id": "Mendengar tangis seorang gadis kecil yang tersangkut semak berduri, Chabernica membebaskannya dengan menyibak semak lalu mengantarnya ke rumah.",
+          "quote": "Chabernica, reagując na płacz dziewczynki, uwolniła ją rozgarniając jeżyny i zaprowadziła ją pod jej dom.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -192,25 +442,69 @@
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "etiainen-c01",
           "source_id": "etiainen-s1",
           "host": "en.wikipedia.org",
-          "statement": "Etiäinen is documented as refer kind feeling in regional lore.",
-          "statement_id": "Etiäinen adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Etiäinen can also refer to some kind of a feeling that something is going to happen.",
+          "statement": "In Finnish folklore all places, things and people have a haltija (guardian spirit); one is the etiäinen, an image, doppelgänger or impression that goes ahead of a person doing what they later do.",
+          "statement_id": "Dalam cerita rakyat Finlandia, semua tempat, benda, dan manusia punya haltija (roh penjaga); salah satunya etiäinen, bayangan, kembaran, atau kesan yang mendahului seseorang dan melakukan hal yang kelak ia lakukan.",
+          "quote": "In Finnish folklore, all places and things, and also human beings, have a haltija (a genie, guardian spirit) of their own.  One such haltija is called etiäinen—an image, doppelgänger, or just an impression that goes ahead of a person, doing things the person in question later does.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "etiainen-c02",
+          "source_id": "etiainen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Etiäinen can also mean a feeling that something is going to happen, for example a warning of a bad year coming.",
+          "statement_id": "Etiäinen juga bisa berarti perasaan bahwa sesuatu akan terjadi, misalnya peringatan akan datangnya tahun yang buruk.",
+          "quote": "Etiäinen can also refer to some kind of a feeling that something is going to happen. Sometimes it could, for example, warn of a bad year coming.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "etiainen-c03",
+          "source_id": "etiainen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In modern Finnish the term has left its shamanistic origins and means premonition; etiäiset (plural) are spontaneous, cannot be induced, and may be unwanted and cause anxiety, like ghosts.",
+          "statement_id": "Dalam bahasa Finlandia modern istilah ini lepas dari asal syamanistiknya dan berarti firasat; etiäiset (jamak) bersifat spontan, tidak bisa dipanggil, dan dapat tidak diinginkan serta menimbulkan kecemasan seperti hantu.",
+          "quote": "In modern Finnish, the term has detached from its shamanistic origins and refers to premonition. Unlike clairvoyance, divination, and similar practices, etiäiset (plural) are spontaneous and cannot be induced. Quite the opposite, they may be unwanted and cause anxiety, like ghosts.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "etiainen-c04",
+          "source_id": "etiainen-s2",
+          "host": "fi.wikipedia.org",
+          "statement": "People may hear a family member walk into the yard and open the door, even see their figure or shadow, then realise they have not come; soon the person arrives and repeats what their etiäinen did.",
+          "statement_id": "Orang bisa mendengar anggota keluarganya masuk halaman dan membuka pintu, bahkan melihat sosok atau bayangannya, lalu sadar ia belum datang; tak lama ia benar-benar datang dan mengulangi apa yang dilakukan etiäinen-nya.",
+          "quote": "Ihmiset saattavat kuulla esimerkiksi perheenjäsenensä kävelevän pihaan, avaavan oven, jopa nähdä tämän hahmon tai varjon, kunnes huomaavat, ettei tämä todellisuudessa vielä tullutkaan. Pian perheenjäsen kuitenkin tulee ja toistaa saman kuin etiäisensä.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "etiainen-c05",
+          "source_id": "etiainen-s2",
+          "host": "fi.wikipedia.org",
+          "statement": "The etiäinen is received at three days old and follows its person's character traits.",
+          "statement_id": "Etiäinen diperoleh pada usia tiga hari dan mengikuti watak pemiliknya.",
+          "quote": "Etiäinen saadaan kolmen päivän vanhana, ja se noudattaa ihmisensä luonteenpiirteitä.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "etiainen-c06",
+          "source_id": "etiainen-s2",
+          "host": "fi.wikipedia.org",
+          "statement": "Vardøger is the Norwegian etiäinen.",
+          "statement_id": "Vardøger adalah etiäinen versi Norwegia.",
+          "quote": "Vardøger, norjalainen etiäinen",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -222,26 +516,70 @@
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gagana-c01",
           "source_id": "gagana-s1",
           "host": "en.wikipedia.org",
-          "statement": "Gagana is documented as gagana miraculous bird in regional lore.",
-          "statement_id": "Gagana adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Gagana is a miraculous bird with an iron beak and copper claws featured in Russian folklore.",
+          "statement": "Gagana is a miraculous bird with an iron beak and copper claws in Russian folklore; she lives on Buyan Island, is often named in incantations, and guards the Alatyr with Garafena the snake.",
+          "statement_id": "Gagana adalah burung ajaib berparuh besi dan bercakar tembaga dalam cerita rakyat Rusia; ia tinggal di Pulau Buyan, sering disebut dalam mantra, dan menjaga Alatyr bersama ular Garafena.",
+          "quote": "Gagana is a miraculous bird with an iron beak and copper claws featured in Russian folklore. She is said to live on the Buyan Island. The bird is often mentioned in incantations. It is also said this bird guards the Alatyr, alongside Garafena the snake.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gagana-c02",
+          "source_id": "gagana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Gagana can conjure and work miracles, can help a person if asked correctly, and is the only one able to give bird's milk.",
+          "statement_id": "Gagana pandai menyihir dan membuat keajaiban, dapat menolong orang bila diminta dengan benar, dan satu-satunya yang mampu memberikan susu burung.",
+          "quote": "Gagana knows how to conjure and work miracles and, if she is asked correctly, can help a person. This bird is also the only one capable of giving the milk of the birds.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gagana-c03",
+          "source_id": "gagana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "William Ralston Shedden-Ralston, citing Alexander Afanasyev's notes, writes that on the mythical island of Buyan lives \"The Tempest Bird\", the oldest and largest of birds, with an iron beak and copper claws.",
+          "statement_id": "William Ralston Shedden-Ralston, mengutip catatan Alexander Afanasyev, menulis bahwa di pulau mitis Buyan hidup \"Burung Badai\", burung tertua dan terbesar, berparuh besi dan bercakar tembaga.",
+          "quote": "William Ralston Shedden-Ralston, citing Alexander Afanasyev's notes on Slavic folklore, writes that on the mythical island of Buyan there lives \"The Tempest Bird\", \"the oldest and largest of all the birds\", said to possess \"an iron beak\" and \"copper claws\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gagana-c04",
+          "source_id": "gagana-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "Gagana is a mythical bird mentioned in 19th-century (XIX) Russian folk texts.",
+          "statement_id": "Gagana (Гагана) adalah burung mitis yang disebut dalam teks rakyat Rusia abad ke-19 (XIX).",
+          "quote": "Гагана — мифическая птица, упоминаемая в русских фольклорных текстах XIX века.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gagana-c05",
+          "source_id": "gagana-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "In a charm published by I. P. Sakharov, Gagana sits on Buyan with an iron nose and copper claws and is to drive off and bite the \"black murii\".",
+          "statement_id": "Dalam salah satu mantra yang diterbitkan I. P. Sakharov, Gagana duduk di Buyan, berhidung besi dan bercakar tembaga, dan harus mengusir serta menggigit \"murii hitam\".",
+          "quote": "В одном из заговоров, опубликованных И. П. Сахаровым, она представлена сидящей на Буяне; ей приписываются железный нос и медные когти. В том же тексте Гагана должна отгонять и кусать «чёрных муриев».",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gagana-c06",
+          "source_id": "gagana-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "The Gagana figure was reworked by A. M. Remizov; in the book \"Посолонь\" (Posolon) Gagana appears in the tale \"Зайчик Иваныч\" as a mythical bird giving bird's milk.",
+          "statement_id": "Tokoh Gagana diolah secara sastra oleh A. M. Remizov; dalam buku \"Посолонь\" (Posolon) Gagana muncul dalam dongeng \"Зайчик Иваныч\" sebagai burung mitis pemberi susu burung.",
+          "quote": "Образ Гаганы получил литературную переработку в творчестве А. М. Ремизова. В книге «Посолонь» Гагана появляется в сказке «Зайчик Иваныч» как мифическая птица, дающая птичье молоко.",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
@@ -252,25 +590,69 @@
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "meduza-russian-folklore-c01",
           "source_id": "meduza-russian-folklore-s1",
           "host": "en.wikipedia.org",
-          "statement": "Meduza (Russian folklore) is documented as meduza russian meluza in regional lore.",
-          "statement_id": "Meduza (Russian folklore) adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Meduza (Russian: Медуза ), Meluza (Russian: Мелуза, literally \"small\", \"little\" ) or Meluzina (Russian: Мелузина ) is a mythical creature in Russian folklore.",
+          "statement": "Meduza (Медуза), Meluza (literally \"little\") or Meluzina is a mythical creature of Russian folklore depicted in a 17th- or 18th-century Russian lubok as half woman, half snake or fish, and said to be the deity of deception.",
+          "statement_id": "Meduza (Медуза), Meluza (harfiah \"kecil\") atau Meluzina adalah makhluk mitis cerita rakyat Rusia yang digambarkan pada lubok Rusia abad ke-17 atau ke-18 sebagai setengah perempuan setengah ular atau ikan, dan disebut dewi tipu daya.",
+          "quote": "Meduza (Russian: Медуза), Meluza (Russian: Мелуза, literally \"small\", \"little\") or Meluzina (Russian: Мелузина) is a mythical creature in Russian folklore. She was depicted in a Russian lubok of the 17th or 18th century. She is described as half-woman, half-snake, or as the half-woman, half-fish creature. She is also said to be the deity of deception.",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "meduza-russian-folklore-c02",
+          "source_id": "meduza-russian-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She is shown as a sea monster with a beautiful dark-haired maiden's head, a striped beast's body, a dragon tail ending in a snake mouth, elephant-like legs ending in snake mouths, and a crown.",
+          "statement_id": "Ia digambarkan sebagai monster laut berkepala gadis cantik berambut gelap, bertubuh binatang belang, berekor naga dengan mulut ular di ujung, berkaki seperti gajah dengan mulut ular di ujungnya, dan bermahkota.",
+          "quote": "She is represented as a sea monster with the head of a beautiful dark-haired maiden, having the body and belly of a striped beast, a dragon tail with a snake's mouth at the end, and legs resembling those of an elephant with the same snake mouths at the end. She also wears a crown.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "meduza-russian-folklore-c03",
+          "source_id": "meduza-russian-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to belief her snake mouths held deadly dragon poison; she lived in the sea near the Ethiopian abyss or in the Western Ocean.",
+          "statement_id": "Menurut kepercayaan, mulut-mulut ularnya mengandung racun naga yang mematikan; ia tinggal di laut dekat jurang Ethiopia atau di Samudra Barat.",
+          "quote": "According to belief, her snake mouths contained a deadly dragon poison. She was said to live in the Sea near the Ethiopian abyss, or in the Western Ocean.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "meduza-russian-folklore-c04",
+          "source_id": "meduza-russian-folklore-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "She is mentioned in the \"Book of Natural Science\" attributed to Nikolai Spathari; according to B. M. Sokolov, this lubok's subject is mysterious but refers to a theme known from oral narrative.",
+          "statement_id": "Ia disebut dalam \"Kitab Ilmu Alam\" yang dikaitkan dengan Nikolai Spathari; menurut B. M. Sokolov, kisah lubok ini misterius tetapi merujuk tema yang dikenal dari tradisi lisan.",
+          "quote": "Упоминается в «Книге естествословной», приписываемой Николаю Спафарию. По мнению Б. М. Соколова, сюжет этого лубка является загадочным, но содержит отсылку к знакомой теме из устного повествования.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "meduza-russian-folklore-c05",
+          "source_id": "meduza-russian-folklore-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "Meluza (also Meduza or Meluzina) is a figure of Russian lubok pictures from the second half of the 17th (XVII) to the 18th (XVIII) century, a mythical being half woman, half snake or fish.",
+          "statement_id": "Meluza (juga Meduza atau Meluzina) adalah tokoh gambar lubok Rusia dari paruh kedua abad ke-17 (XVII) hingga abad ke-18 (XVIII), makhluk mitis setengah perempuan setengah ular atau ikan.",
+          "quote": "Мелуза (так же Медуза или Мелузина) — персонаж русских лубочных картинок второй половины XVII—XVIII века. Представляет собой мифическое существо в виде полуженщины-полузмеи или полурыбы.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "meduza-russian-folklore-c06",
+          "source_id": "meduza-russian-folklore-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "Her snake mouths held deadly dragon venom; Meluza lived in the western Ocean, \"in the ocean-sea near the Ethiopian abyss\".",
+          "statement_id": "Mulut-mulut ularnya berisi racun naga yang mematikan; Meluza tinggal di Samudra barat, \"di samudra-laut dekat jurang Ethiopia\".",
+          "quote": "Змеиные пасти содержали в себе смертельный драконий яд. Обитала Мелуза в западном Океане, в «океане-море близ Эфиопской пучины».",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -282,26 +664,80 @@
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "moryana-c01",
           "source_id": "moryana-s1",
           "host": "en.wikipedia.org",
-          "statement": "Moryana is documented as moryana russian pronounced in regional lore.",
-          "statement_id": "Moryana adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Moryana (Russian: Моря́на , pronounced [mɐˈrʲanə] ) is a female sea spirit in Slavic folklore, possibly a goddess.",
+          "statement": "Moryana is a female sea spirit of Slavic folklore, possibly a goddess; a sea vodyanitsa and daughter of the Sea Tsar who in some beliefs ruled the winds; sometimes the moryany were many sea spirits, a marine kind of rusalki threatening ships, but usually she was a single entity.",
+          "statement_id": "Moryana (Моряна) adalah roh laut perempuan dalam cerita rakyat Slavia, mungkin dewi; ia vodyanitsa laut dan putri Tsar Laut yang menurut sebagian kepercayaan menguasai angin; kadang moryany disebut banyak roh laut semacam rusalka yang mengancam kapal, tetapi biasanya digambarkan sebagai satu sosok.",
+          "quote": "is a female sea spirit in Slavic folklore, possibly a goddess. Moryana was a sea vodyanitsa and daughter of the Sea Tsar, and also, according to some beliefs, she ruled the winds. ... were said to be numerous spirits of the sea and a marine kind of rusalki, which posed a great threat to ships, but usually Moryana was represented as a single entity.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moryana-c02",
+          "source_id": "moryana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Moryana's name comes from море (more, \"sea\") with the feminine ending яна (-yana), roughly \"she of the sea\"; in some Russian regions it names the cold, harsh winds she personifies, also called moryanka.",
+          "statement_id": "Nama Moryana berasal dari море (more, \"laut\") dengan akhiran perempuan яна (-yana), kira-kira \"dia yang dari laut\"; di beberapa daerah Rusia namanya dipakai untuk angin dingin dan keras yang ia personifikasikan, juga disebut moryanka.",
+          "quote": "Moryana's name is derived from море meaning \"sea\", and with the feminine ending яна it is roughly translated as \"she of the sea\". Moryana's name is used in some regions of Russia to describe the cold and harsh winds she personifies",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "moryana-c03",
+          "source_id": "moryana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Because her name sounds like the goddess Morana, Moryana was sometimes identified with her and called the goddess of death.",
+          "statement_id": "Karena namanya mirip dengan dewi Morana, Moryana kadang disamakan dengannya dan disebut dewi kematian.",
+          "quote": "Due to the consonance of her name with the name of the goddess Morana, Moryana was sometimes identified with her and was called the goddess of death.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "moryana-c04",
+          "source_id": "moryana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Moryana was believed to swim deep in the sea as a big fish playing with dolphins, coming ashore only on quiet evenings.",
+          "statement_id": "Moryana dipercaya sering berenang jauh di laut dalam wujud ikan besar sambil bermain dengan lumba-lumba, dan naik ke darat hanya pada senja yang tenang.",
+          "quote": "It was believed that Moryana often swam deep in the sea, taking the form of a big fish and playing with dolphins. She came ashore only on quiet evenings.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moryana-c05",
+          "source_id": "moryana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When a storm rose because the Sea Tsar (Morskoy Tsar) was angry, Moryana calmed him and the storm subsided.",
+          "statement_id": "Ketika badai muncul karena Tsar Laut (Morskoy Tsar) marah, Moryana menenangkannya dan badai pun reda.",
+          "quote": "When a storm was rising due to the Morskoy Tsar becoming angry, Moryana calmed him down, and the storm also subsided.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moryana-c06",
+          "source_id": "moryana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In another belief Moryana was a stern, very tall woman with uncombed hair in white who controlled the southeast winds at the Volga mouth, threatening sailors and fishermen on the Caspian Sea coast and bringing disaster; her main enemy was Ded Shapka Dranaya, lord of the northwest wind.",
+          "statement_id": "Menurut kepercayaan lain, Moryana adalah perempuan sangat tinggi berwajah keras, berambut kusut, berbaju putih, menguasai angin tenggara di muara Volga yang mengancam pelaut dan nelayan di pantai Laut Kaspia, membawa bencana; musuh utamanya Ded Shapka Dranaya, penguasa angin barat laut.",
+          "quote": "In another belief, Moryana was described as a stern, very tall woman with uncombed hair and wearing white clothes. She controlled the southeast winds at the mouth of the Volga, which posed a huge threat to sailors and fishermen on the northwest coast of the Caspian Sea. Slowly walking across the water, she brought disasters and devastation. Moryana's main enemy was Ded Shapka Dranaya",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moryana-c07",
+          "source_id": "moryana-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "A. M. Remizov calls Moryana the goddess of the sea and mistress of the winds.",
+          "statement_id": "A. M. Remizov menyebut Moryana dewi laut dan penguasa angin.",
+          "quote": "А. М. Ремизов называет Моряну богиней моря и повелительницей ветров",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -312,26 +748,80 @@
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "q-ursha-c01",
           "source_id": "q-ursha-s1",
           "host": "en.wikipedia.org",
-          "statement": "Q'ursha is documented as ursha georgian qursha in regional lore.",
-          "statement_id": "Q'ursha adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Q'ursha (Georgian: ყურშა ; also Qursha or Kursha) is a legendary dog from Georgian mythology.",
+          "statement": "Q'ursha is a legendary dog of Georgian mythology, best known as the loyal companion of the culture hero Amirani; his name means \"black-ear\", a common Georgian dog name.",
+          "statement_id": "Q'ursha (ყურშა) adalah anjing legendaris mitologi Georgia, paling dikenal sebagai teman setia pahlawan budaya Amirani; namanya berarti \"telinga hitam\", nama anjing yang umum di Georgia.",
+          "quote": "is a legendary dog from Georgian mythology. Although he appears in a number of different stories, he is best known as the loyal companion of the culture hero Amirani. His name means \"black-ear\", a common Georgian name for dogs.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "q-ursha-c02",
+          "source_id": "q-ursha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He was said to be born of a raven or eagle and so sometimes shown with eagle wings, colossal paws, golden lips and eyes as big as sieves.",
+          "statement_id": "Ia dikatakan lahir dari gagak atau elang sehingga kadang digambarkan bersayap elang, dengan kaki sangat besar, bibir emas, dan mata sebesar ayakan.",
+          "quote": "He was said to be born of either a raven or an eagle and is sometimes depicted as having eagle's wings as a result. Apart from his wings, Q'ursha was sometimes described with other special features: colossal paws, \"lips of gold, and eyes as big as sieves\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "q-ursha-c03",
+          "source_id": "q-ursha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He was credited with a thunderous bark, a leap \"as big as a great field\" and infallible tracking of prey.",
+          "statement_id": "Ia diberi kemampuan gaib seperti gonggongan bak guntur, lompatan \"sebesar padang luas\", dan kemampuan melacak buruan yang tak pernah gagal.",
+          "quote": "He was attributed supernatural abilities such as a thunderous bark, a leap \"as big as a great field\" and an infallible ability to track prey.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "q-ursha-c04",
+          "source_id": "q-ursha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "God chains Amirani to a pole inside a mountain and Q'ursha is trapped with him; Q'ursha licks the chains until Amirani almost escapes, but every year they are renewed.",
+          "statement_id": "Tuhan merantai Amirani pada tiang di dalam gunung, dan Q'ursha ikut terkurung; Q'ursha terus menjilati rantai hingga Amirani hampir lolos, tetapi setiap tahun rantai itu diperbarui.",
+          "quote": "God chains him to a pole inside a mountain for his defiance, and his faithful hound Q'ursha is trapped along with him. Q'ursha licks Amirani's chains constantly, weakening them more and more until Amirani is almost able to escape. However, every year they would be renewed just before Q'ursha could free Amirani.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "q-ursha-c05",
+          "source_id": "q-ursha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Q'ursha was the subject of the Georgian folk song \"O my Kursha!\", dating to at least the 18th century; the poet Davit Guramishvili, born 1705, wrote of wanting to hear it again.",
+          "statement_id": "Q'ursha menjadi pokok lagu rakyat Georgia \"O my Kursha!\" yang setidaknya berasal dari abad ke-18; penyair Davit Guramishvili, lahir 1705, menulis keinginannya untuk mendengarnya lagi.",
+          "quote": "was the subject of the popular Georgian folk song \"O my Kursha!\", which dates back to at least the 18th century. The Georgian poet Davit Guramishvili, born in 1705, wrote of a desire to hear it again",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "q-ursha-c06",
+          "source_id": "q-ursha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The hunter Betkil was also said to be accompanied by Q'ursha.",
+          "statement_id": "Pemburu Betkil juga dikatakan ditemani Q'ursha.",
+          "quote": "The hunter Betkil was another man said to be accompanied by Q'ursha.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "q-ursha-c07",
+          "source_id": "q-ursha-s2",
+          "host": "it.wikipedia.org",
+          "statement": "There are at least twenty-seven documented versions of the song.",
+          "statement_id": "Setidaknya ada dua puluh tujuh versi lagu itu yang terdokumentasi.",
+          "quote": "Ci sono almeno ventisette versioni documentate della canzone.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -342,33 +832,81 @@
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (sanziana-c01)",
-          "message": "Kalimat yang dikutip ditandai \"citation needed/butuh rujukan\" di Wikipedia. Dukung klaim ini dengan sumber lain yang independen, atau hapus."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "sanziana-c01",
           "source_id": "sanziana-s1",
           "host": "en.wikipedia.org",
-          "statement": "Sânziană is documented as romanian gentle fairies in regional lore.",
-          "statement_id": "Sânziană adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Sânziană is the Romanian name for gentle fairies who play an important part in local folklore, also used to designate the Galium verum or Cruciata laevipes flowers.",
+          "statement": "Sânziană is the Romanian name for gentle fairies important in folklore, also for the Galium verum or Cruciata laevipes flowers; the plural Sânziene names an annual festival in their honour.",
+          "statement_id": "Sânziană adalah nama Rumania untuk peri lembut yang penting dalam cerita rakyat, juga nama bunga Galium verum atau Cruciata laevipes; bentuk jamak Sânziene berarti perayaan tahunan untuk para peri.",
+          "quote": "Sânziană is the Romanian name for gentle fairies who play an important part in local folklore, also used to designate the Galium verum or Cruciata laevipes flowers. Under the plural form Sânziene, the word designates an annual festival in the fairies' honor.",
           "context": "traditional-belief",
-          "status": "exact",
-          "wiki_flag": "citation needed"
+          "status": "exact"
+        },
+        {
+          "id": "sanziana-c02",
+          "source_id": "sanziana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "People in the western Carpathians celebrate Sânziene each 24 June, similar to Swedish Midsummer and thought to be a pagan solstice feast; the Romanian Orthodox Church relates the customs to Saint John the Baptist's Nativity.",
+          "statement_id": "Orang di Pegunungan Carpathia barat merayakan Sânziene setiap 24 Juni, mirip Midsummer Swedia, dan dipercaya perayaan pagan titik balik matahari; menurut Gereja Ortodoks Rumania adat ini berkaitan dengan kelahiran Santo Yohanes Pembaptis.",
+          "quote": "People in the western Carpathian Mountains celebrate the Sânziene holiday annually, on June 24. This is similar to the Swedish Midsummer holiday, and is believed to be a pagan celebration of the summer solstice in June. According to the official position of the Romanian Orthodox Church, the customs actually relate to the celebration of Saint John the Baptist's Nativity",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sanziana-c03",
+          "source_id": "sanziana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Sânziene custom, the village's most beautiful maidens dress in white and pick flowers all day, one of which must be Galium verum, then weave crowns and dance around a bonfire.",
+          "statement_id": "Dalam adat Sânziene, gadis-gadis tercantik desa berbaju putih sepanjang hari mencari dan memetik bunga, salah satunya harus Galium verum, lalu menganyam mahkota bunga dan menari mengelilingi api unggun.",
+          "quote": "The folk practices of Sânziene imply that the most beautiful maidens in the village dress in white and spend all day searching for and picking flowers, of which one MUST be Galium verum",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sanziana-c04",
+          "source_id": "sanziana-s2",
+          "host": "ro.wikipedia.org",
+          "statement": "In Romanian mythology the Sânziene are good fairies of the iele class, but when their feast is not respected they become kin to the rusalii, who are evil fairies.",
+          "statement_id": "Dalam mitologi Rumania, Sânziene adalah peri baik dari golongan iele, tetapi bila hari rayanya tidak dihormati mereka menjadi sejenis rusalii, peri jahat.",
+          "quote": "Sânzienele sunt, în mitologia românească, zâne bune din clasa ielelor, dar care atunci când nu le este respectată sărbătoarea devin surate cu rusaliile, care sunt zâne rele.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sanziana-c05",
+          "source_id": "sanziana-s2",
+          "host": "ro.wikipedia.org",
+          "statement": "The Sânziene are sometimes also called drăgaice.",
+          "statement_id": "Kadang Sânziene juga disebut drăgaice.",
+          "quote": "Uneori sânzienele sunt numite și drăgaice",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sanziana-c06",
+          "source_id": "sanziana-s2",
+          "host": "ro.wikipedia.org",
+          "statement": "In more recent layers of folklore a single fairy appears, Iana Sânziana, sister of the Sun in cosmological carols.",
+          "statement_id": "Dalam lapisan cerita rakyat yang lebih baru muncul peri tunggal, Iana Sânziana, saudari Matahari dalam colinde kosmologis.",
+          "quote": "în straturile mai recente ale folclorului apare și o zână individualizată, Iana Sânziana (sora Soarelui în colindele cosmologice)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sanziana-c07",
+          "source_id": "sanziana-s2",
+          "host": "ro.wikipedia.org",
+          "statement": "According to Mircea Eliade, the Sânziene derive from a Roman cult connected with the goddess Diana, Sancta Diana.",
+          "statement_id": "Menurut Mircea Eliade, Sânziene berasal dari kultus Romawi yang berkaitan dengan dewi Diana, Sancta Diana.",
+          "quote": "După Mircea Eliade, Sânzienele provin dintr-un cult roman, raportat la zeița Diana — Sancta Diana",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
       "images": []
@@ -378,25 +916,89 @@
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "shtriga-c01",
           "source_id": "shtriga-s1",
           "host": "en.wikipedia.org",
-          "statement": "Shtriga is documented as shtriga albanian vampiric in regional lore.",
-          "statement_id": "Shtriga adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "A shtriga (Albanian: shtrigë ) is a vampiric witch in Albanian mythology and folklore that sucks the blood of infants at night while they sleep, and then transform themselves into a flying insect (traditionally a moth, fly or bee).",
+          "statement": "The shtriga is a vampiric witch of Albanian mythology who sucks sleeping infants' blood at night, then becomes a flying insect (moth, fly or bee); only she can cure those she drained; pictured as a hateful-eyed woman, sometimes caped, with a disfigured face, hiding in the forest with supernatural powers.",
+          "statement_id": "Shtriga adalah penyihir vampir dalam mitologi Albania yang mengisap darah bayi tidur pada malam hari lalu menjelma serangga terbang (ngengat, lalat, atau lebah); hanya ia yang dapat menyembuhkan korbannya; digambarkan berperempuan bertatapan benci, kadang berjubah, berwajah rusak, tinggal tersembunyi di hutan dan punya kekuatan gaib.",
+          "quote": "is a vampiric witch in Albanian mythology and folklore that sucks the blood of infants at night while they sleep, and then transform themselves into a flying insect (traditionally a moth, fly or bee). ... The shtriga is often pictured as a woman with a hateful stare ... and a horribly disfigured face. They usually live in hidden places in the forest and have supernatural powers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shtriga-c02",
+          "source_id": "shtriga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Shtriga also means \"witch\", a bad old woman casting evil spells; the male form is shtrigu or shtrigan.",
+          "statement_id": "Istilah shtriga juga berarti \"penyihir\", perempuan tua jahat yang memantrai orang; bentuk laki-lakinya shtrigu atau shtrigan.",
+          "quote": "The term shtriga is used also with the common meaning of \"witch\", referring to a bad and ugly old woman who casts evil spells upon people. The male noun for shtriga is shtrigu or shtrigan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shtriga-c03",
+          "source_id": "shtriga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Only the shtriga could cure those she drained (often by spitting in their mouths); the uncured sickened and died.",
+          "statement_id": "Hanya shtriga yang dapat menyembuhkan korbannya (sering dengan meludah ke mulut mereka), dan yang tidak disembuhkan pasti sakit lalu mati.",
+          "quote": "only the shtriga herself could cure those she had drained (often by spitting in their mouths), and those who were not cured inevitably sickened and died.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shtriga-c04",
+          "source_id": "shtriga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Northern Albanian folklore a woman is not born a witch but becomes one, often through childlessness or envy.",
+          "statement_id": "Menurut cerita rakyat Albania utara, perempuan tidak lahir sebagai penyihir melainkan menjadi penyihir, sering karena tidak punya anak atau karena iri hati.",
+          "quote": "According to Northern Albanian folklore, a woman is not born a witch; she becomes one, often because she is childless or made evil by envy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shtriga-c05",
+          "source_id": "shtriga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Shtrigë derives from Latin strīga, \"evil spirit, witch\", related to Italian strega, Romanian strigă and Polish strzyga.",
+          "statement_id": "Kata shtrigë berasal dari Latin strīga, \"roh jahat, penyihir\", berkerabat dengan strega (Italia), strigă (Rumania), dan strzyga (Polandia).",
+          "quote": "derives from the Latin strīga, \"evil spirit, witch\", related to Italian: strega, Romanian: strigă and Polish: strzyga.",
+          "context": "etymology",
+          "status": "loose"
+        },
+        {
+          "id": "shtriga-c06",
+          "source_id": "shtriga-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Strong belief in God could make people immune to a witch, as He would protect them.",
+          "statement_id": "Kepercayaan kuat kepada Tuhan dapat membuat orang kebal terhadap penyihir karena Ia akan melindungi mereka.",
+          "quote": "A strong belief in God could make people immune to a witch as He would protect them.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shtriga-c07",
+          "source_id": "shtriga-s2",
+          "host": "it.wikipedia.org",
+          "statement": "According to Edith Durham's report, a cross of pig bones placed at a church entrance on Easter Sunday leaves any shtriga inside unable to get out.",
+          "statement_id": "Menurut laporan Edith Durham, salib dari tulang babi yang dipasang di pintu gereja pada Minggu Paskah membuat shtriga di dalamnya tidak bisa keluar.",
+          "quote": "Una croce fatta di ossa di maiale potrebbe essere posta all'ingresso di una chiesa nella Domenica di Pasqua, rendendo qualsiasi shtriga all'interno incapace di uscire.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shtriga-c08",
+          "source_id": "shtriga-s2",
+          "host": "it.wikipedia.org",
+          "statement": "It is often said that a wrought-iron ball or bullet can kill a shtriga, but only while she is eating.",
+          "statement_id": "Konon bola atau peluru besi tempa dapat membunuh shtriga, tetapi hanya ketika ia sedang makan.",
+          "quote": "Si dice spesso che una sfera (o proiettile) di ferro battuto può uccidere uno shtriga ma solo quando essa sta mangiando.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -408,25 +1010,69 @@
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "solomonari-c01",
           "source_id": "solomonari-s1",
           "host": "en.wikipedia.org",
-          "statement": "Solomonari is documented as solomonar german phonetization in regional lore.",
-          "statement_id": "Solomonari adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "The Solomonar or Șolomonar (German phonetization: Scholomonar; plural Solomonari) is a wizard believed in Romanian folklore to ride a dragon (zmeu or a balaur) and control the weather, causing rain, thunder, or hailstorm.",
+          "statement": "The solomonar is a wizard believed in Romanian folklore to ride a dragon (zmeu or balaur) and control the weather, causing rain, thunder or hail; they are recruited from common folk and taught at the Solomonărie or Şolomanţă.",
+          "statement_id": "Solomonar adalah penyihir yang dalam cerita rakyat Rumania dipercaya menunggang naga (zmeu atau balaur) dan mengendalikan cuaca, mendatangkan hujan, guntur, atau badai es; mereka direkrut dari rakyat biasa dan belajar di Solomonărie atau Şolomanţă.",
+          "quote": "is a wizard believed in Romanian folklore to ride a dragon (zmeu or a balaur) and control the weather, causing rain, thunder, or hailstorm.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "solomonari-c02",
+          "source_id": "solomonari-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "The solomonari are not supernatural beings; they are people who have learned sorcery.",
+          "statement_id": "Solomonari bukan makhluk gaib, melainkan manusia yang mempelajari sihir.",
+          "quote": "Соломонары не являются сверхъестественными существами. Это люди, выучившиеся колдовству.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "solomonari-c03",
+          "source_id": "solomonari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Solomonars are said to be tall, red-haired, in long white peasant robes or ragged patched attire; when not helping the Devil they beg and throw the coins into rivers for the water spirits; their magic bag holds an iron axe, reins and a book of wisdom, the source of their power.",
+          "statement_id": "Solomonar dikatakan tinggi, berambut merah, berjubah putih panjang petani atau berpakaian compang-camping; saat tidak melayani Iblis mereka meminta-minta dan melempar uangnya ke sungai bagi roh air; tas sihir mereka berisi kapak besi, kekang, dan kitab kebijaksanaan sumber kekuatan mereka.",
+          "quote": "The Solomonars are said to be tall, red-haired, wearing long white robes of peasants, sometimes woolen, or clad in ragged attire made from patches",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "solomonari-c04",
+          "source_id": "solomonari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They learn magic and the speech of beasts at the Scholomance and become able to ride dragons.",
+          "statement_id": "Mereka belajar sihir dan bahasa binatang di sekolah Scholomance dan menjadi mampu menunggang naga.",
+          "quote": "They are taught their magic and the speech of beasts at the school (Scholomance), and become capable of riding the dragons.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "solomonari-c05",
+          "source_id": "solomonari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The default explanation links the word to King Solomon via the occupational suffix -ar, though this may be folk etymology.",
+          "statement_id": "Penjelasan umum adalah bahwa kata ini berkaitan dengan Raja Salomo (King Solomon) lewat akhiran pekerjaan -ar, walau mungkin etimologi rakyat.",
+          "quote": "The default explanation is that the word is connected to King Solomon via the addition of the occupational suffix \"-ar\", although this may be folk etymology.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "solomonari-c06",
+          "source_id": "solomonari-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "Early on the solomonari were considered good magicians, but with the coming of Christianity they turned evil.",
+          "statement_id": "Pada masa awal solomonari dianggap penyihir baik, tetapi dengan datangnya Kekristenan mereka menjadi jahat.",
+          "quote": "На раннем этапе истории соломонары считались добрыми магами, но с приходом христианства они превратились в злых.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -438,25 +1084,69 @@
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "stuhac-c01",
           "source_id": "stuhac-s1",
           "host": "en.wikipedia.org",
-          "statement": "Stuhać is documented as serbian demonic mythical in regional lore.",
-          "statement_id": "Stuhać adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Stuhać (Serbian: Стухаћ ) is a demonic mythical creature in Serbian mythology, recorded in Herzegovina.",
+          "statement": "Stuhać is a demonic mythical creature of Serbian mythology recorded in Herzegovina; its name resembles zduhać but there is no real similarity.",
+          "statement_id": "Stuhać (Стухаћ) adalah makhluk mitis bersifat iblis dalam mitologi Serbia yang tercatat di Herzegovina; namanya mirip zduhać, tetapi keduanya tidak serupa.",
+          "quote": "is a demonic mythical creature in Serbian mythology, recorded in Herzegovina. Though its name is similar to zduhać, there is no actual similarity.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "stuhac-c02",
+          "source_id": "stuhac-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Stuhać lives in high mountains and barren areas; its look is not described, but it wears ties of human ligaments on its legs so as not to slip on cliffs; if they break it pulls ligaments from someone's legs to make new ones.",
+          "statement_id": "Stuhać tinggal di pegunungan tinggi dan tanah tandus; rupanya tidak dijelaskan, tetapi ia memakai pengikat dari urat manusia di kakinya agar tidak tergelincir di tebing; bila rusak, ia menarik urat dari kaki seseorang untuk membuat yang baru.",
+          "quote": "Stuhać lives in high mountains and barren areas; how it looks is not described, however, it is known that it wears clutters made of human ligaments on its legs, so that it would not slip on mountain precipices. If its clutter broke, he would pull ligaments from someone's legs to make new ones.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "stuhac-c03",
+          "source_id": "stuhac-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "In Serbian folklore it is a demonic mythical being, \"a devil or a vila\", known especially in Herzegovina.",
+          "statement_id": "Dalam cerita rakyat Serbia ia makhluk mitis bersifat iblis, \"iblis atau vila\", terutama dikenal di Herzegovina.",
+          "quote": "демоническое мифическое существо «дьявол или вила» в сербском фольклоре, в особенности известное в Герцеговине.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "stuhac-c04",
+          "source_id": "stuhac-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "According to legend, Stuhać lives in high mountains and wastelands, and its appearance is never described.",
+          "statement_id": "Menurut legenda, Stuhać tinggal di pegunungan tinggi dan tanah tandus, dan rupanya tidak pernah dijelaskan.",
+          "quote": "Стухач, согласно легендам, живёт в высоких горах и пустошах; его внешний вид никогда не описывается",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "stuhac-c05",
+          "source_id": "stuhac-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "By belief, to scare off a Stuhać one must raise one's legs to the level of the hands, confusing it.",
+          "statement_id": "Menurut kepercayaan, untuk mengusir Stuhać orang harus mengangkat kaki setinggi tangan agar ia bingung.",
+          "quote": "Чтобы спугнуть стухача, по повериям, необходимо задрать ноги до уровня рук, запутав таким образом его.",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "stuhac-c06",
+          "source_id": "stuhac-s1",
+          "host": "en.wikipedia.org",
+          "statement": "If its ties broke, it would pull ligaments from someone's legs to make new ones.",
+          "statement_id": "Bila pengikatnya rusak, ia menarik urat dari kaki seseorang untuk membuat yang baru.",
+          "quote": "If its clutter broke, he would pull ligaments from someone's legs to make new ones.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -468,26 +1158,100 @@
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tugarin-c01",
           "source_id": "tugarin-s1",
           "host": "en.wikipedia.org",
-          "statement": "Tugarin is documented as tugarin russian mythical in regional lore.",
-          "statement_id": "Tugarin adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Tugarin (Russian: Тугарин ) is a mythical creature in Russian byliny and fairy tales, which personifies evil and cruelty and appears in a dragon-like form.",
+          "statement": "Tugarin is a mythical creature of Russian byliny and fairy tales personifying evil and cruelty, dragon-like in form, depicted as a giant and opponent of Alyosha Popovich.",
+          "statement_id": "Tugarin (Тугарин) adalah makhluk mitis dalam bylina dan dongeng Rusia yang mempersonifikasikan kejahatan dan kekejaman, berwujud mirip naga, digambarkan sebagai raksasa dan lawan Alyosha Popovich.",
+          "quote": "is a mythical creature in Russian byliny and fairy tales, which personifies evil and cruelty and appears in a dragon-like form. Tugarin is depicted as a giant and an opponent of Alyosha Popovich.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tugarin-c02",
+          "source_id": "tugarin-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Tugarin has many names in Russian byliny and tales, such as Zmey Tugarin, Zmey Tugaretin and Zmeishche Tugarishche.",
+          "statement_id": "Tugarin punya banyak nama dalam bylina dan dongeng Rusia, seperti Zmey Tugarin, Zmey Tugaretin, dan Zmeishche Tugarishche.",
+          "quote": "Tugarin has many different names in Russian byliny and fairy tales, such as Zmey Tugarin, Zmey Tugaretin, Zmeishche Tugarishche, and others.",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "tugarin-c03",
+          "source_id": "tugarin-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Though called a dragon, Tugarin largely keeps a human form and rides a horse; he seems winged and soars during the duel with Alyosha; some versions call the wings a paper contraption on his horse.",
+          "statement_id": "Walau disebut naga, Tugarin sebagian besar berwujud manusia dan menunggang kuda; ia tampak bersayap dan terbang saat duel dengan Alyosha; beberapa versi menyebut sayap itu alat dari kertas yang dipasang pada kudanya.",
+          "quote": "Tugarin, although spoken of as a dragon, largely retains an \"anthropomorphic\" form, and is seen riding a horse. It appears he has wings with which to fly, and he soars to the air during the duel with Alyosha.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tugarin-c04",
+          "source_id": "tugarin-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Tugarin was a great glutton: he could stuff a whole wheel of bread in each cheek, then put a whole swan on his tongue and swallow it.",
+          "statement_id": "Tugarin sangat rakus: ia dapat menjejalkan satu roti bundar utuh di tiap pipi, lalu meletakkan seekor angsa utuh di lidahnya dan menelannya.",
+          "quote": "Tugarin was a great glutton, which is somewhat of a dragon-like trait. He could stuff a whole wheel of bread in each cheek, then deposit a whole swan on his tongue and swallow it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tugarin-c05",
+          "source_id": "tugarin-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some commentators suggest Tugarin represents fire, since in some versions his torso is covered with fiery snakes used as weapons and he tries to strangle Alyosha with smoke.",
+          "statement_id": "Sebagian pengulas berpendapat Tugarin melambangkan unsur api, karena dalam beberapa versi tubuhnya diselimuti ular berapi yang dipakai sebagai senjata dan ia mencoba mencekik Alyosha dengan asap.",
+          "quote": "It has been suggested by some commentators that Tugarin represents the element of fire, since in some versions of \"Alyosha Popovich\", Tugarin's torso is covered with fiery snakes which he uses as a weapon, attempts to strangle Alyosha with smoke",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tugarin-c06",
+          "source_id": "tugarin-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "Tugarin (also Zmey Tugarin, Tugarin Zmeyevich and others) is an evil bogatyr of Russian byliny and tales, opponent of the Russian bogatyrs Dobrynya Nikitich and Alyosha Popovich.",
+          "statement_id": "Tugarin (juga Zmey Tugarin, Tugarin Zmeyevich, dan lain-lain) adalah bogatyr jahat dalam bylina dan dongeng Rusia, lawan para bogatyr Rusia Dobrynya Nikitich dan Alyosha Popovich.",
+          "quote": "(также Змей Тугарин, Тугарин Змей, Змей Тугаретин, Тугарин Змеевич, Змеище Тугарище) — злой богатырь в русских былинах и сказках, противник русских богатырей Добрыни Никитича и Алёши Поповича.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tugarin-c07",
+          "source_id": "tugarin-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name Tugarin as a corruption of Tugar-Khan (Tugor-Khan of the Turkic Polovtsians) has been contested by an etymology from the root tug, \"grief\".",
+          "statement_id": "Nama Tugarin sebagai rusakan dari Tugar-Khan (Tugor-Khan dari bangsa Turkik Polovtsia) dibantah oleh etimologi dari akar kata tug, \"duka\".",
+          "quote": "The name Tugarin as a corruption of Tugar-Khan (Tugor-Khan ... of the Turkic Polovets), has been contested by an etymology from the root tug \"grief\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "tugarin-c08",
+          "source_id": "tugarin-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "Tugarin was linked with the historical Polovtsian khan Tugorkan.",
+          "statement_id": "Tugarin dikaitkan dengan khan Polovtsia historis Tugorkan.",
+          "quote": "Тугарина связывали с историческим половецким ханом Тугорканом.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "tugarin-c09",
+          "source_id": "tugarin-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "A. K. Tolstoy's poem \"Змей Тугарин\" (Zmey Tugarin), 1867.",
+          "statement_id": "Puisi A. K. Tolstoy \"Змей Тугарин\" (Zmey Tugarin) tahun 1867.",
+          "quote": "Стихотворение А. К. Толстого «Змей Тугарин» (1867)",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
@@ -498,25 +1262,69 @@
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "vjesci-c01",
           "source_id": "vjesci-s1",
           "host": "en.wikipedia.org",
-          "statement": "Vjesci is documented as vjesci polish wieszczy in regional lore.",
-          "statement_id": "Vjesci adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "A vjesci (Polish: wieszczy , Silesian and Kashubian: wjesci ) is a vampire in Polish folklore.",
+          "statement": "The vjesci is a vampire of Polish folklore; some are born destined for it, marked by a caul on the head; to prevent it the caul was removed, dried, ground and fed to them on their seventh birthday.",
+          "statement_id": "Vjesci adalah vampir dalam cerita rakyat Polandia; sebagian orang lahir ditakdirkan menjadi vjesci, tampak dari selaput ketuban di kepala bayi; untuk mencegahnya selaput itu dilepas, dikeringkan, digiling, dan diberikan pada ulang tahun ketujuh.",
+          "quote": "is a vampire in Polish folklore. According to legend, some people are born with the destiny of becoming vjesci, discernible by a caul located on the newborn's head. In order to prevent these individuals from becoming vjesci, the caul was removed, dried, ground and fed to the person on their seventh birthday.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vjesci-c02",
+          "source_id": "vjesci-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Vjesci were usually indistinguishable from humans; at death they refused the sacrament, the body cooled quickly, the limbs stayed limber and lips and cheeks stayed red.",
+          "statement_id": "Vjesci biasanya tak bisa dibedakan dari manusia; saat mati ia menolak sakramen, tubuhnya cepat dingin, anggota badan tetap lentur, dan bibir serta pipinya tetap merah.",
+          "quote": "Typically, vjesci were said to be indistinguishable from humans, although in some stories, they had a ruddy complexion and an excitable nature. At the time of their death, a vjesci would refuse to take the sacrament. Their body would cool quickly, and their limbs would remain limber. Their lips and cheeks would remain red",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vjesci-c03",
+          "source_id": "vjesci-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The vjesci did not die but rose at midnight after burial, ate its clothes and some of its flesh, left the grave to eat family and neighbours, then rang the church bell; those who heard it were its next victims.",
+          "statement_id": "Vjesci tidak mati, melainkan bangkit pada tengah malam setelah dikubur, memakan pakaian dan sebagian dagingnya, meninggalkan kubur untuk memangsa keluarga dan tetangga, lalu membunyikan lonceng gereja; yang mendengarnya menjadi korban berikutnya.",
+          "quote": "the vjesci did not die, instead returning to life at midnight after its burial and eating its clothes and some of its own flesh. The vampire would leave the grave and return home to eat its family and neighbors. After visiting its relatives, it would go to the local church and ring the church bell. Those who heard the bell were supposedly destined to be the vampire's next victims.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vjesci-c04",
+          "source_id": "vjesci-s1",
+          "host": "en.wikipedia.org",
+          "statement": "All dying persons must receive the Eucharist; soil was placed in the coffin and under the body to stop it returning home.",
+          "statement_id": "Semua orang yang sekarat harus menerima Ekaristi; tanah ditaruh di dalam peti dan di bawah jenazah agar tidak pulang.",
+          "quote": "All dying persons must receive the Eucharist. ... Soil was placed inside the coffin and underneath the body to prevent it from returning home.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "vjesci-c05",
+          "source_id": "vjesci-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A crucifix or coin was put under the corpse's tongue for the vampire to suck on; bodies were laid face down so that, if revived, they would dig deeper.",
+          "statement_id": "Salib atau koin diletakkan di bawah lidah jenazah agar diisap sang vampir; jenazah dibaringkan telungkup agar menggali lebih dalam bila bangkit.",
+          "quote": "A crucifix or coin was placed under the tongue of the corpse for the vampire to suck on. ... Bodies were laid in the coffin face down in belief that the corpse, if it returned to life, would simply dig further into the earth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "vjesci-c06",
+          "source_id": "vjesci-s2",
+          "host": "pl.wikipedia.org",
+          "statement": "The wieszczy is a figure of Slavic demonology, a form of the human soul's existence after death, close to the upiór or vampire but with its own identity in many regions.",
+          "statement_id": "Wieszczy adalah tokoh demonologi Slavia, bentuk keberadaan jiwa manusia setelah mati, mirip upiór atau vampir, tetapi di banyak daerah punya identitas tersendiri.",
+          "quote": "postać z zakresu demonologii słowiańskiej, będąca formą pośmiertnej egzystencji ludzkiej duszy, zbliżona do wyobrażeń upiora lub wampira, posiadająca jednak na wielu terenach własną, odrębną tożsamość",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -528,26 +1336,70 @@
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "zburator-c01",
           "source_id": "zburator-s1",
           "host": "en.wikipedia.org",
-          "statement": "Zburător is documented as romanian word meaning in regional lore.",
-          "statement_id": "Zburător adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Zburător or sburător (Romanian word meaning 'flyer') is a supernatural being in Romanian folklore, described as a \"roving spirit who makes love to maidens by night\".",
+          "statement": "Zburător or sburător (Romanian for \"flyer\") is a supernatural being of Romanian folklore, a \"roving spirit who makes love to maidens by night\".",
+          "statement_id": "Zburător atau sburător (kata Rumania yang berarti \"yang terbang\") adalah makhluk gaib dalam cerita rakyat Rumania, \"roh pengembara yang bercinta dengan gadis-gadis pada malam hari\".",
+          "quote": "or sburător (Romanian word meaning 'flyer') is a supernatural being in Romanian folklore, described as a \"roving spirit who makes love to maidens by night\".",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zburator-c02",
+          "source_id": "zburator-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The zburător is likened to an incubus, a malevolent demon visiting women in dreams in the guise of a handsome young man.",
+          "statement_id": "Zburător disamakan dengan inkubus, iblis jahat yang mendatangi perempuan dalam mimpi dengan menyamar sebagai pemuda tampan.",
+          "quote": "The zburător is also likened to an incubus, and described as a malevolent demon active in a \"oniric-erotic\" manner, i.e., visiting women in their dreams in the guise of a handsome young man.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zburator-c03",
+          "source_id": "zburator-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A zburător may also be a specific form a zmeu takes; in some regions it is called a zmeu.",
+          "statement_id": "Zburător bisa juga merupakan wujud tertentu dari zmeu; di beberapa daerah ia disebut zmeu.",
+          "quote": "A zburător may also be a specific form that a zmeu can take.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zburator-c04",
+          "source_id": "zburator-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Dimitrie Cantemir in Descriptio Moldaviae (1714–1716) recorded the Moldavian belief that he was a ghost, a handsome youth coming at midnight to women, especially newlyweds, unseen by others.",
+          "statement_id": "Dimitrie Cantemir dalam Descriptio Moldaviae (1714–1716) mencatat kepercayaan orang Moldavia bahwa ia hantu berupa pemuda tampan yang datang tengah malam kepada perempuan, terutama pengantin baru, dan tidak dapat dilihat orang lain.",
+          "quote": "\"a ghost, a young, handsome man who comes in the middle of the night at women, especially recently married ones and does indecent things with them, although he cannot be seen by other people, not even by the ones who waylay him\".",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "zburator-c05",
+          "source_id": "zburator-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A literary reworking appeared in Ion Heliade Rădulescu's romantic poem Zburătorul (1843).",
+          "statement_id": "Pengolahan sastra mitos ini muncul dalam puisi romantis Ion Heliade Rădulescu, Zburătorul (1843).",
+          "quote": "A literary reworking of the myth later appeared in the romantic poem by Ion Heliade Rădulescu Zburătorul ('The Flyer/Flying Incubus', 1843)",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "zburator-c06",
+          "source_id": "zburator-s2",
+          "host": "bg.wikipedia.org",
+          "statement": "According to George Călinescu's classification, the zburător, with the Miorița epic and the legends of Master Manole and Baba Dochia, is one of the four fundamental Romanian myths.",
+          "statement_id": "Menurut klasifikasi George Călinescu, zburător, bersama epos Miorița dan legenda Meșterul Manole serta Baba Dochia, adalah salah satu dari empat mitos dasar Rumania.",
+          "quote": "Според класификацията на Джордже Кълинеску е, заедно с епоса Миорица и легендите за майстор Манол и Баба Докия – един от четирите основни румънски мита.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -558,25 +1410,69 @@
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "e-bukura-e-dheut-c01",
           "source_id": "e-bukura-e-dheut-s1",
           "host": "en.wikipedia.org",
-          "statement": "E Bukura e Dheut is documented as central albanian folklore in regional lore.",
-          "statement_id": "E Bukura e Dheut adalah figur mitologis dalam catatan cerita rakyat.",
+          "statement": "E Bukura e Dheut (\"Beauty of the Earth\") is an epithet in Albanian myth and folklore for a crafty fairy in some traditions and a chthonic or earth goddess in others, counterpart of e Bukura e Detit (Beauty of the Sea) and i Bukuri i Qiellit (Beauty of the Sky).",
+          "statement_id": "E Bukura e Dheut (\"Kecantikan Bumi\") adalah julukan dalam mitologi dan cerita rakyat Albania bagi peri licik dalam sebagian tradisi dan dewi bumi atau dunia bawah dalam tradisi lain, pasangan e Bukura e Detit (Kecantikan Laut) dan i Bukuri i Qiellit (Kecantikan Langit).",
+          "quote": "(the \"Beauty of the Earth\" or \"Earthly Beauty\") is an epithet in Albanian mythology and folklore, used in some traditions for a crafty fairy, and in other traditions for a chthonic/earth goddess, the counterpart of e Bukura e Detit (the Beauty of the Sea) and i Bukuri i Qiellit (the Beauty of the Sky).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "e-bukura-e-dheut-c02",
+          "source_id": "e-bukura-e-dheut-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In central Albanian folklore E Bukura e Dheut is the sister of e Bukura e Detit and consort of Baba Tomor.",
+          "statement_id": "Dalam cerita rakyat Albania tengah, E Bukura e Dheut adalah saudari e Bukura e Detit dan pasangan Baba Tomor.",
           "quote": "In central Albanian folklore E Bukura e Dheut appears as the sister of e Bukura e Detit and the consort of Baba Tomor.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "e-bukura-e-dheut-c03",
+          "source_id": "e-bukura-e-dheut-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She is beauty made manifest with golden hair; a good or (more often) evil spirit whose magic comes from her dress, living in the underworld in a palace guarded by a three-headed dog, a kuçedra and other strange creatures.",
+          "statement_id": "Ia kecantikan yang menjelma, bercahaya dengan rambut emas; bisa roh baik atau (lebih sering) jahat, kekuatan sihirnya dari pakaiannya, dan tinggal di dunia bawah dalam istana yang dijaga anjing berkepala tiga, kuçedra, dan makhluk aneh lainnya.",
+          "quote": "E Bukura e Dheut is beauty made manifest, radiating with golden hair. She may be a good spirit or (more often) evil, with magical powers that derive from her dress, and lives in the underworld, where her palace is guarded by a three-headed dog, a kuçedra and all sorts of other weird and wonderful creatures.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "e-bukura-e-dheut-c04",
+          "source_id": "e-bukura-e-dheut-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The quest for e Bukura e Dheut is a very popular motif in Albanian folktales: the princely hero must find or rescue her, even entering her mystical underworld palace.",
+          "statement_id": "Pencarian e Bukura e Dheut adalah motif sangat populer dalam dongeng Albania: pahlawan pangeran harus mencari atau menyelamatkannya, bahkan masuk ke istana mistisnya di dunia bawah.",
+          "quote": "The quest for the e Bukura e Dheut is a very popular and frequent motif in Albanian folktales: the princely hero must search for or rescue the Earthly Beauty, even going into her mystical underworld palace.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "e-bukura-e-dheut-c05",
+          "source_id": "e-bukura-e-dheut-s2",
+          "host": "sq.wikipedia.org",
+          "statement": "In central Albanian folklore, E Bukura e Dheut is the wife of the god Tomor.",
+          "statement_id": "Dalam cerita rakyat Albania tengah, E Bukura e Dheut adalah istri dewa Tomor.",
+          "quote": "Në folklorin qendror shqiptar, E Bukura e Dheut është gruaja e perëndisë Tomor.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "e-bukura-e-dheut-c06",
+          "source_id": "e-bukura-e-dheut-s2",
+          "host": "sq.wikipedia.org",
+          "statement": "The search for E Bukura e Dheut is a very popular and frequent motif in Albanian folk tales.",
+          "statement_id": "Pencarian E Bukura e Dheut adalah motif yang sangat populer dan sering dalam cerita rakyat Albania.",
+          "quote": "Kërkimi për E Bukura e Dheut është një motiv shumë i popullarizuar dhe i shpeshtë në tregimet folklorike shqiptare",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -588,26 +1484,80 @@
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kratt-c01",
           "source_id": "kratt-s1",
           "host": "en.wikipedia.org",
-          "statement": "Kratt is documented as kratt estonian swedish in regional lore.",
-          "statement_id": "Kratt adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Kratt (Estonian Swedish skrat), also pisuhänd, puuk, tulihänd, vedaja, is a magical creature in Estonian mythology, a treasure-bearer.",
+          "statement": "The kratt, also pisuhänd, puuk, tulihänd, vedaja, is a magical treasure-bearer of Estonian mythology; Finnish mythology has a treasure guardian called Kratti or Aarni.",
+          "statement_id": "Kratt, juga pisuhänd, puuk, tulihänd, vedaja, adalah makhluk ajaib pembawa harta dalam mitologi Estonia; dalam mitologi Finlandia ada penjaga harta bernama Kratti atau Aarni.",
+          "quote": "also pisuhänd, puuk, tulihänd, vedaja, is a magical creature in Estonian mythology, a treasure-bearer. In Votic, a similar creature is called lemmüz. In Finnish mythology, there is a treasure guardian called Kratti or Aarni.",
           "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "kratt-c02",
+          "source_id": "kratt-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A kratt was formed by its master from hay or old household tools, who then had to give the Devil three drops of blood to bring it to life.",
+          "statement_id": "Kratt dibuat tuannya dari jerami atau perkakas rumah tangga lama, lalu tuannya harus memberi Iblis tiga tetes darah untuk menghidupkannya.",
+          "quote": "A kratt was a creature formed from hay or of old household implements by its master, who then had to give the Devil three drops of blood to bring life to the kratt.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kratt-c03",
+          "source_id": "kratt-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The kratt did all its master ordered, mostly stealing and fetching goods; it could fly; it had to keep working or it would turn dangerous to its owner.",
+          "statement_id": "Kratt melakukan semua perintah tuannya, terutama mencuri dan membawa barang; ia dapat terbang; ia harus terus bekerja, bila tidak menjadi berbahaya bagi pemiliknya.",
+          "quote": "The kratt was notable for doing everything the master ordered it to and was mostly used for stealing and bringing various goods for the kratt's owner. It was said to be able to fly around. An interesting aspect of the kratt is that it was necessary for it to constantly keep working, otherwise it would turn dangerous to its owner.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kratt-c04",
+          "source_id": "kratt-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Impossible tasks such as a ladder of bread took so long that the hay kratt caught fire and burned to pieces; in folk astronomy a fireball was a kratt given an impossible job.",
+          "statement_id": "Tugas mustahil seperti membuat tangga dari roti begitu lama sehingga kratt dari jerami itu terbakar habis; dalam astronomi rakyat bola api dianggap kratt yang diberi tugas mustahil.",
+          "quote": "Impossible tasks took so long to complete that it caused the kratt, which was made of hay, to catch fire and burn to pieces, thus solving the issue of how to get rid of the problematic creature.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kratt-c05",
+          "source_id": "kratt-s2",
+          "host": "pl.wikipedia.org",
+          "statement": "From 1925 to 1940 (1925, 1940) Estonia had a satirical magazine called Kratt; the first Estonian ballet, by Eduard Tubin, premiered in 1943, is titled Kratt.",
+          "statement_id": "Pada 1925–1940 (1925, 1940) di Estonia terbit majalah satire Kratt; balet Estonia pertama karya Eduard Tubin yang dipentaskan pada 1943 berjudul Kratt.",
+          "quote": "W latach 1925-1940 w Estonii ukazywało się czasopismo satyryczne pt. Kratt.Pierwszy estoński balet, skomponowany przez Eduarda Tubina i którego premiera miała miejsce w 1943, nosi tytuł Kratt.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "kratt-c06",
+          "source_id": "kratt-s3",
+          "host": "et.wikipedia.org",
+          "statement": "The kratt is a magical being of Estonian folklore that flies about as a streak of fire or sparks carrying goods (grain, clothes, money and so on).",
+          "statement_id": "Kratt adalah makhluk sihir dalam cerita rakyat Estonia yang terbang sebagai pancaran api atau percikan sambil mengangkut berbagai harta (gandum, pakaian, uang, dan lain-lain).",
+          "quote": "on eesti folklooris nõiduslik olend, kes tule- või sädemejoana ringi lennates mitmesugust vara (vilja, rõivaid, raha jne) kokku veab.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kratt-c07",
+          "source_id": "kratt-s2",
+          "host": "pl.wikipedia.org",
+          "statement": "Estonian authorities use the kratt as a metaphor for AI.",
+          "statement_id": "Pemerintah Estonia memakai tokoh kratt sebagai metafora kecerdasan buatan (AI).",
+          "quote": "Estońskie władze posługują się postacią kratta jako metaforą AI",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
@@ -618,25 +1568,69 @@
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "lietuvens-c01",
           "source_id": "lietuvens-s1",
           "host": "en.wikipedia.org",
-          "statement": "Lietuvēns is documented as lietonis latgale called in regional lore.",
-          "statement_id": "Lietuvēns adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Lietuvēns or lietonis (in Latgale also can be called “lītūņš”, similar to Slavic mara (Russian: Мара) or Lithuanian “lauma”) is a mythological creature in Latvian folklore.",
+          "statement": "The lietuvēns (also lietonis, in Latgale lītūņš; like the Slavic mara or Lithuanian lauma) is a creature of Latvian folklore, the soul of a murdered (strangled, drowned or hanged) person cursed to live on as long as it was meant to; by some beliefs, an unbaptised child's soul.",
+          "statement_id": "Lietuvēns (juga lietonis, di Latgale lītūņš; mirip mara Slavia atau lauma Lituania) adalah makhluk mitologis cerita rakyat Latvia, jiwa orang yang dibunuh (dicekik, ditenggelamkan, digantung) yang dikutuk hidup di dunia selama umur yang semestinya; menurut sebagian kepercayaan, jiwa anak yang belum dibaptis.",
+          "quote": "is a mythological creature in Latvian folklore. According to Latvian folk epics and omens, lietuvēns is the soul of a murdered (strangled, drowned or hanged) person cursed to live in this world as long as it has been meant to live. By some beliefs, it is the soul of an unbaptized child.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lietuvens-c02",
+          "source_id": "lietuvens-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It attacks people and domestic animals; sleep paralysis is thought to be its torture or strangling; under attack, one must move the left toe to drive it off.",
+          "statement_id": "Ia menyerang manusia dan hewan ternak; kelumpuhan tidur dianggap siksaan atau cekikan lietuvēns; saat diserang, orang harus menggerakkan jari kaki kiri untuk mengusirnya.",
+          "quote": "It attacks both people and domestic animals. Sleep paralysis is thought to be torture or strangling by a lietuvēns. When under attack, one must move the toe of the left foot to get rid of the attacker.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lietuvens-c03",
+          "source_id": "lietuvens-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It always leaves where it entered, usually a hole or crack in the wall, a keyhole or a slot in the door.",
+          "statement_id": "Ia selalu keluar lewat tempat ia masuk, biasanya lubang atau celah di dinding, lubang kunci, atau celah pintu.",
+          "quote": "It always leaves through the same place: where it entered. Commonly it’s some hole or crack in the wall; also it can be a keyhole or slot in the door.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lietuvens-c04",
+          "source_id": "lietuvens-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Latvian folk culture the lietuvēns is usually a wretched small child, moving fast and coming at noon or night, sometimes turning into an ugly vicious woman like a witch.",
+          "statement_id": "Dalam budaya rakyat Latvia lietuvēns biasanya digambarkan sebagai anak kecil yang menderita, bertubuh pendek, bergerak cepat, datang tengah hari atau malam, dan kadang berubah menjadi perempuan buruk rupa yang jahat seperti penyihir.",
+          "quote": "In Latvian folk culture, lietuvēns is usually described as a labored wretched child. It is small in height, moves fast, and comes at noon or night. Sometimes, but rarely, it turns into ugly vicious women reminiscent of a witch.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lietuvens-c05",
+          "source_id": "lietuvens-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "The lietuvēns can enter homes even through keyholes and, besides bringing nightmares, can strangle its victim.",
+          "statement_id": "Lietuvēns dapat masuk ke rumah bahkan lewat lubang kunci, dan selain mendatangkan mimpi buruk dapat mencekik korbannya.",
+          "quote": "Лиетуонис способен проникать в жилые дома даже через замочные скважины и, помимо нагнетения кошмаров, может задушить жертву.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "lietuvens-c06",
+          "source_id": "lietuvens-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "A being of Latvian mythology, the personification of nightmare and suffocation as an evil spirit sending night terrors on people and livestock.",
+          "statement_id": "Makhluk mitologi Latvia, personifikasi mimpi buruk dan sesak napas berupa roh jahat yang mengirim mimpi buruk kepada manusia dan hewan ternak pada malam hari.",
+          "quote": "существо из латышской мифологии, олицетворение кошмара и удушья в виде злого духа, насылающего кошмары по ночам на людей и домашних животных.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -648,25 +1642,69 @@
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "likhoradka-c01",
           "source_id": "likhoradka-s1",
           "host": "en.wikipedia.org",
-          "statement": "Likhoradka is documented as likhoradka russian serbian in regional lore.",
-          "statement_id": "Likhoradka adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Likhoradka (Russian: Лихорадка, Serbian: Милоснице or Milosnice) or tryasavitsa is a female spirit in Slavic mythology.",
+          "statement": "Likhoradka (Serbian Milosnice) or tryasavitsa is a female Slavic spirit who could possess a body and cause sickness; in some tales a creation of the dark deity Chernobog; later Russian legends describe 12 (twelve) Likhoradkas named for particular illnesses.",
+          "statement_id": "Likhoradka (Лихорадка; Serbia: Milosnice) atau tryasavitsa adalah roh perempuan mitologi Slavia yang dapat merasuki tubuh dan menimbulkan sakit; dalam beberapa kisah ciptaan dewa gelap Chernobog; legenda Rusia kemudian menyebut 12 (dua belas) Likhoradka dengan nama terkait penyakit tertentu.",
+          "quote": "or tryasavitsa is a female spirit in Slavic mythology. Likhoradka was purported to be able to possess a person's body and cause sickness. In some tales, she is considered a creation of the dark deity Chernobog. Later Russian legends describe 12 Likhoradkas with individual names associated with special illnesses.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "likhoradka-c02",
+          "source_id": "likhoradka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Likhoradka was sometimes portrayed as a tall woman with dishevelled hair, a pale face and white dress who brought sickness to those she touched or kissed.",
+          "statement_id": "Likhoradka kadang digambarkan sebagai perempuan tinggi berambut kusut, berwajah pucat, berbaju putih, yang membawa penyakit kepada orang yang ia sentuh atau cium.",
+          "quote": "Likhoradka was sometimes portrayed as a tall woman with disheveled hair, a pale face and a white dress who brought sickness to people she tried to touch or to kiss.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "likhoradka-c03",
+          "source_id": "likhoradka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The word likhoradka comes from Old Russian likho (harm or bad luck) and radet (to endeavour).",
+          "statement_id": "Kata likhoradka berasal dari bahasa Rusia kuno likho (kejahatan atau nasib buruk) dan radet (berusaha).",
+          "quote": "The word likhoradka comes from ancient Russian likho (harm or bad luck) and radet which means to endeavor.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "likhoradka-c04",
+          "source_id": "likhoradka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In modern Russian likhoradka means \"fever\"; as a mythological figure she was related to Chuma, the modern Russian word for plague.",
+          "statement_id": "Dalam bahasa Rusia modern likhoradka berarti \"demam\"; sebagai tokoh mitologi ia berkerabat dengan Chuma, yang dalam bahasa Rusia modern berarti wabah.",
+          "quote": "In modern Russian, the word likhoradka has obtained the meaning \"fever\". As a mythological figure, Likhoradka was related to the figure of Chuma, which in modern Russian is the term for plague.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "likhoradka-c05",
+          "source_id": "likhoradka-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "In Slavic mythology, likhoradka is an illness personified as a woman that enters a person and causes chills and then heat.",
+          "statement_id": "Dalam mitologi Slavia, likhoradka adalah penyakit yang dipersonifikasikan sebagai perempuan, merasuki manusia dan menimbulkan menggigil lalu panas.",
+          "quote": "в славянской мифологии персонифицированная в образе женщины болезнь, вселяющаяся в человека и вызывающая то озноб, то жар.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "likhoradka-c06",
+          "source_id": "likhoradka-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "The hallmark of likhoradka is multiplicity (7, 9, 12, 77 women, sisters, flies or air currents; seven, nine, twelve, seventy-seven) and a changing image.",
+          "statement_id": "Ciri khas likhoradka adalah kejamakan (7, 9, 12, 77 perempuan, saudari, lalat, atau embusan udara; tujuh, sembilan, dua belas, tujuh puluh tujuh) dan wujud yang berubah-ubah.",
+          "quote": "Отличительная особенность лихорадки — множественность (7, 9, 12, 77 женщин, сестёр, мух, струй воздуха) и изменчивость образа.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -678,632 +1716,70 @@
       "file": "batch-123.md",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 1,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (spiridus-c01)",
-          "message": "Kalimat yang dikutip ditandai \"citation needed/butuh rujukan\" di Wikipedia. Dukung klaim ini dengan sumber lain yang independen, atau hapus."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "spiridus-c01",
+          "source_id": "spiridus-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "In some tales they serve sorcerers.",
+          "statement_id": "Dalam beberapa dongeng mereka melayani para penyihir.",
+          "quote": "В некоторых сказках они прислуживают колдунам.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "spiridus-c02",
           "source_id": "spiridus-s1",
           "host": "en.wikipedia.org",
-          "statement": "Spiriduș is documented as romanian mythology demon in regional lore.",
-          "statement_id": "Spiriduș adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "A spiriduș in Romanian mythology is said to be a \"demon incarnate\", or a domestic spirit, oftentimes taking the form of an avian familiar, such as hens, crows, or hunting birds.",
-          "context": "traditional-belief",
-          "status": "exact",
-          "wiki_flag": "citation needed"
-        }
-      ],
-      "images": []
-    },
-    {
-      "slug": "surma",
-      "file": "batch-123.md",
-      "verdict": "lulus-otomatis",
-      "counts": {
-        "claims": 1,
-        "sources": 1,
-        "images": 0
-      },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
-      "claims": [
-        {
-          "id": "surma-c01",
-          "source_id": "surma-s1",
-          "host": "en.wikipedia.org",
-          "statement": "Surma is documented as surma terrible beast in regional lore.",
-          "statement_id": "Surma adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Surma was a terrible beast which embodied sudden, violent death and guarded the gates of the Tuonela to prevent escape.",
+          "statement": "Once summoned, the spiriduș acts as messenger or intermediary between the master of its home and the Devil; the master can ask the Devil for any mortal desire in return for his soul in the afterlife.",
+          "statement_id": "Setelah dipanggil, spiriduș menjadi pesuruh atau perantara antara tuan rumah tempat ia lahir dan Iblis; sang tuan dapat meminta keinginan duniawi apa pun kepada Iblis dengan imbalan jiwanya di akhirat.",
+          "quote": "The purpose of these familiars once they're summoned, is to act as messengers or intermediaries between the master of the home in which the spiriduș was born, and the devil. The master can use the spiriduș to request from the devil any mortal desire, in return for their soul in the afterlife.",
           "context": "traditional-belief",
           "status": "exact"
-        }
-      ],
-      "images": []
-    },
-    {
-      "slug": "vishap",
-      "file": "batch-123.md",
-      "verdict": "lulus-otomatis",
-      "counts": {
-        "claims": 1,
-        "sources": 1,
-        "images": 0
-      },
-      "issues": [
+        },
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
-      "claims": [
-        {
-          "id": "vishap-c01",
-          "source_id": "vishap-s1",
-          "host": "en.wikipedia.org",
-          "statement": "Vishap is documented as vishap armenian dragon in regional lore.",
-          "statement_id": "Vishap adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "The Vishap (Armenian: վիշապ ) is a dragon in Armenian mythology closely associated with water, similar to the Leviathan.",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
-      "images": []
-    },
-    {
-      "slug": "yalmavuz",
-      "file": "batch-123.md",
-      "verdict": "lulus-otomatis",
-      "counts": {
-        "claims": 1,
-        "sources": 1,
-        "images": 0
-      },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
-      "claims": [
-        {
-          "id": "yalmavuz-c01",
-          "source_id": "yalmavuz-s1",
+          "id": "spiridus-c03",
+          "source_id": "spiridus-s2",
           "host": "ru.wikipedia.org",
-          "statement": "Yalmavuz is a mythological figure documented in folklore records.",
-          "statement_id": "Yalmavuz adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Злой демон Ялмауз представляет собой 7-, 9- или 12-головое змееподобное существо, живущее в саду, который он сам засадил деревьями.",
+          "statement": "In Romanian mythology the spiriduș is a being like a human but many times smaller, an analogue of the elf or gnome, living in tree hollows and the roots of flowers and grasses, and can be evil or good.",
+          "statement_id": "Dalam mitologi Rumania spiriduș (Спиридуш) adalah makhluk mirip manusia tetapi jauh lebih kecil, padanan elf atau gnome, tinggal di rongga pohon dan akar bunga serta rumput, dan bisa jahat maupun baik.",
+          "quote": "в румынской мифологии существо, выглядящие как человек, только во много раз меньше. Аналог эльфа или гнома. Спиридуши живут в дуплах деревьев, в корнях цветов и трав. Они могут быть как злыми, так и добрыми.",
           "context": "traditional-belief",
           "status": "exact"
-        }
-      ],
-      "images": []
-    },
-    {
-      "slug": "z-ota-kaczka",
-      "file": "batch-123.md",
-      "verdict": "lulus-otomatis",
-      "counts": {
-        "claims": 1,
-        "sources": 1,
-        "images": 0
-      },
-      "issues": [
+        },
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
-      "claims": [
-        {
-          "id": "z-ota-kaczka-c01",
-          "source_id": "z-ota-kaczka-s1",
-          "host": "en.wikipedia.org",
-          "statement": "Złota Kaczka is documented as kaczka polish gold in regional lore.",
-          "statement_id": "Złota Kaczka adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Złota Kaczka (Polish for \"Gold Duck\") is the heroine of a folk tale which has been recounted with many settings and by many writers, including the Young Poland poet Artur Oppman.",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
-      "images": []
-    },
-    {
-      "slug": "zana-mythology",
-      "file": "batch-123.md",
-      "verdict": "lulus-otomatis",
-      "counts": {
-        "claims": 1,
-        "sources": 1,
-        "images": 0
-      },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
-      "claims": [
-        {
-          "id": "zana-mythology-c01",
-          "source_id": "zana-mythology-s1",
-          "host": "en.wikipedia.org",
-          "statement": "Zana (mythology) is documented as variants below nymph in regional lore.",
-          "statement_id": "Zana (mythology) adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "zanë(t), see other variants below) is a nymph-like figure in Albanian mythology and folklore, usually associated with mountains, springs and streams, forests, vegetation and animals, human vital energy and sometimes destiny.",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
-      "images": []
-    },
-    {
-      "slug": "autrimps",
-      "file": "batch-123.md",
-      "verdict": "lulus-otomatis",
-      "counts": {
-        "claims": 1,
-        "sources": 1,
-        "images": 0
-      },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
-      "claims": [
-        {
-          "id": "autrimps-c01",
-          "source_id": "autrimps-s1",
-          "host": "pl.wikipedia.org",
-          "statement": "Autrimps is a mythological figure documented in folklore records.",
-          "statement_id": "Autrimps adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Autrimps – według katalogu Hieronima Maleckiego (XVI w) staropruski bóg mórz i jezior; tożsamy z władcą magii, bogiem wód Patrimpsem-Andajem.",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
-      "images": []
-    },
-    {
-      "slug": "conde-estruch",
-      "file": "batch-123.md",
-      "verdict": "lulus-otomatis",
-      "counts": {
-        "claims": 1,
-        "sources": 1,
-        "images": 0
-      },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
-      "claims": [
-        {
-          "id": "conde-estruch-c01",
-          "source_id": "conde-estruch-s1",
-          "host": "en.wikipedia.org",
-          "statement": "Conde Estruch is documented as catalan mythology comte in regional lore.",
-          "statement_id": "Conde Estruch adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "In Catalan mythology, Comte Estruch—also known as Arnald Estruc or Wilfred Estruch—was a 12th-century Catalan noble who became a vampire.",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
-      "images": []
-    },
-    {
-      "slug": "dakhanavar",
-      "file": "batch-123.md",
-      "verdict": "lulus-otomatis",
-      "counts": {
-        "claims": 1,
-        "sources": 1,
-        "images": 0
-      },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
-      "claims": [
-        {
-          "id": "dakhanavar-c01",
-          "source_id": "dakhanavar-s1",
-          "host": "en.wikipedia.org",
-          "statement": "Dakhanavar is documented as dakhanavar creature information in regional lore.",
-          "statement_id": "Dakhanavar adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Dakhanavar Creature information Other name(s) Dashnavar, Dachnavar Family vampire Folklore Armenian folklore Origin First attested Transcaucasia: Sketches of the Nations and Races Between the Black Sea and the Caspian Country Armenia",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
-      "images": []
-    },
-    {
-      "slug": "haltija",
-      "file": "batch-123.md",
-      "verdict": "lulus-otomatis",
-      "counts": {
-        "claims": 1,
-        "sources": 1,
-        "images": 0
-      },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
-      "claims": [
-        {
-          "id": "haltija-c01",
-          "source_id": "haltija-s1",
-          "host": "en.wikipedia.org",
-          "statement": "Haltija is documented as finnish mythology haltija in regional lore.",
-          "statement_id": "Haltija adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "In Finnish mythology, a haltija is a supernatural inhabitant of a specific place and a protector of living beings, living in an invisible environment but able to show themselves to humans.",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
-      "images": []
-    },
-    {
-      "slug": "k-op-ala",
-      "file": "batch-123.md",
-      "verdict": "lulus-otomatis",
-      "counts": {
-        "claims": 1,
-        "sources": 1,
-        "images": 0
-      },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
-      "claims": [
-        {
-          "id": "k-op-ala-c01",
-          "source_id": "k-op-ala-s1",
-          "host": "en.wikipedia.org",
-          "statement": "K'op'ala is documented as kopala georgian traditional in regional lore.",
-          "statement_id": "K'op'ala adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Kopala (Georgian: კოპალა ) is a traditional hero or demigod revered in the highlands of Pshavi in Georgia.",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
-      "images": []
-    },
-    {
-      "slug": "lamia-q12284666",
-      "file": "batch-123.md",
-      "verdict": "lulus-otomatis",
-      "counts": {
-        "claims": 1,
-        "sources": 1,
-        "images": 0
-      },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
-      "claims": [
-        {
-          "id": "lamia-q12284666-c01",
-          "source_id": "lamia-q12284666-s1",
+          "id": "spiridus-c04",
+          "source_id": "spiridus-s2",
           "host": "ru.wikipedia.org",
-          "statement": "Lamia (Bulgarian folklore) is a mythological figure documented in folklore records.",
-          "statement_id": "Lamia (Bulgarian folklore) adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Необходимо проверить качество перевода статьи «Ламия (Българска митология)» c болгарского языка, исправить содержательные и стилистические ошибки.",
-          "context": "traditional-belief",
+          "statement": "The word spiriduș is a diminutive of Romanian spirit, \"spirit\".",
+          "statement_id": "Kata spiriduș adalah bentuk kecil dari kata Rumania spirit, \"roh\".",
+          "quote": "Слова «спиридуш» является уменьшительным от рум. spirit, что значит «дух».",
+          "context": "etymology",
           "status": "exact"
-        }
-      ],
-      "images": []
-    },
-    {
-      "slug": "maaema",
-      "file": "batch-123.md",
-      "verdict": "lulus-otomatis",
-      "counts": {
-        "claims": 1,
-        "sources": 1,
-        "images": 0
-      },
-      "issues": [
+        },
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
-      "claims": [
-        {
-          "id": "maaema-c01",
-          "source_id": "maaema-s1",
-          "host": "en.wikipedia.org",
-          "statement": "Maaemä is documented as finnish maaema estonian in regional lore.",
-          "statement_id": "Maaemä adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Maaemä (Finnish) or Maaema (Estonian) is a goddess or earth itself in Finnish and Estonian mythologies.",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
-      "images": []
-    },
-    {
-      "slug": "piru-spirit",
-      "file": "batch-123.md",
-      "verdict": "lulus-otomatis",
-      "counts": {
-        "claims": 1,
-        "sources": 1,
-        "images": 0
-      },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
-      "claims": [
-        {
-          "id": "piru-spirit-c01",
-          "source_id": "piru-spirit-s1",
-          "host": "en.wikipedia.org",
-          "statement": "Piru (spirit) is documented as word inherited proto in regional lore.",
-          "statement_id": "Piru (spirit) adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "The word is inherited from Proto-Finnic *piru* ‘devil, demon’, with cognates in Karelian, Ingrian and Estonian; its ultimate origin is unknown.",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
-      "images": []
-    },
-    {
-      "slug": "polkan",
-      "file": "batch-123.md",
-      "verdict": "lulus-otomatis",
-      "counts": {
-        "claims": 1,
-        "sources": 1,
-        "images": 0
-      },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
-      "claims": [
-        {
-          "id": "polkan-c01",
-          "source_id": "polkan-s1",
-          "host": "en.wikipedia.org",
-          "statement": "Polkan is documented as polkan russian palkan in regional lore.",
-          "statement_id": "Polkan adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Polkan (Russian: Полка́н ), or Palkan (Russian: Палкан ; from Italian Pulicane), is a half-human, half-horse creature (in some variants, half-dog) from Russian folktales, known for his immense power and speed.",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
-      "images": []
-    },
-    {
-      "slug": "poroniec",
-      "file": "batch-123.md",
-      "verdict": "lulus-otomatis",
-      "counts": {
-        "claims": 1,
-        "sources": 1,
-        "images": 0
-      },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
-      "claims": [
-        {
-          "id": "poroniec-c01",
-          "source_id": "poroniec-s1",
-          "host": "en.wikipedia.org",
-          "statement": "Poroniec is documented as poroniec plural hostile in regional lore.",
-          "statement_id": "Poroniec adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "A poroniec ([ˈpɔrɔɲɛt͡s]; plural porońce ) is a hostile and malicious demon from Slavic mythology.",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
-      "images": []
-    },
-    {
-      "slug": "salme",
-      "file": "batch-123.md",
-      "verdict": "lulus-otomatis",
-      "counts": {
-        "claims": 1,
-        "sources": 1,
-        "images": 0
-      },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
-      "claims": [
-        {
-          "id": "salme-c01",
-          "source_id": "salme-s1",
+          "id": "spiridus-c05",
+          "source_id": "spiridus-s2",
           "host": "ru.wikipedia.org",
-          "statement": "Salme is a mythological figure documented in folklore records.",
-          "statement_id": "Salme adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "В некоторых местностях песня заканчивает иначе: Сальме всем красивым и богатым женихам предпочитает какого-либо крестьянина или парня из своей деревни.",
+          "statement": "They live in large groups and are fine craftsmen; they are believed to know the secrets of underground treasure and understand the language of plants and animals.",
+          "statement_id": "Mereka hidup berkelompok besar dan pengrajin ulung; dipercaya mengetahui rahasia harta di bawah tanah dan memahami bahasa tumbuhan dan hewan.",
+          "quote": "Живут большими группами и являются прекрасными мастерами. Считается, что спиридуши знают тайны подземных сокровищ, понимают язык растений и животных.",
           "context": "traditional-belief",
           "status": "exact"
-        }
-      ],
-      "images": []
-    },
-    {
-      "slug": "sarkany-mythology",
-      "file": "batch-123.md",
-      "verdict": "lulus-otomatis",
-      "counts": {
-        "claims": 1,
-        "sources": 1,
-        "images": 0
-      },
-      "issues": [
+        },
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
-      "claims": [
-        {
-          "id": "sarkany-mythology-c01",
-          "source_id": "sarkany-mythology-s1",
-          "host": "en.wikipedia.org",
-          "statement": "Sárkány (mythology) is documented as shar kahnyuh dragon in regional lore.",
-          "statement_id": "Sárkány (mythology) adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "A sárkány (SHAR-kahnyuh, 'dragon') is a legendary monster found in Hungarian mythology.",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
-      "images": []
-    },
-    {
-      "slug": "shubin-ghost",
-      "file": "batch-123.md",
-      "verdict": "lulus-otomatis",
-      "counts": {
-        "claims": 1,
-        "sources": 1,
-        "images": 0
-      },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
-      "claims": [
-        {
-          "id": "shubin-ghost-c01",
-          "source_id": "shubin-ghost-s1",
-          "host": "en.wikipedia.org",
-          "statement": "Shubin (ghost) is documented as shubin ukrainian mythological in regional lore.",
-          "statement_id": "Shubin (ghost) adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Shubin (Ukrainian: Шубін ) is the mythological mining spirit.",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
-      "images": []
-    },
-    {
-      "slug": "supernatural-beings-in-slavic-religion",
-      "file": "batch-123.md",
-      "verdict": "lulus-otomatis",
-      "counts": {
-        "claims": 1,
-        "sources": 1,
-        "images": 0
-      },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
-      "claims": [
-        {
-          "id": "supernatural-beings-in-slavic-religion-c01",
-          "source_id": "supernatural-beings-in-slavic-religion-s1",
-          "host": "en.wikipedia.org",
-          "statement": "Supernatural beings in Slavic religion is documented as many gods goddesses in regional lore.",
-          "statement_id": "Supernatural beings in Slavic religion adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Other than the many gods and goddesses of the Slavs, the ancient Slavs believed in and revered many supernatural beings that existed in nature.",
-          "context": "traditional-belief",
-          "status": "exact"
-        }
-      ],
-      "images": []
-    },
-    {
-      "slug": "vantoase",
-      "file": "batch-123.md",
-      "verdict": "lulus-otomatis",
-      "counts": {
-        "claims": 1,
-        "sources": 1,
-        "images": 0
-      },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
-      "claims": [
-        {
-          "id": "vantoase-c01",
-          "source_id": "vantoase-s1",
-          "host": "en.wikipedia.org",
-          "statement": "Vântoase is documented as creatures present romanian in regional lore.",
-          "statement_id": "Vântoase adalah figur mitologis dalam catatan cerita rakyat.",
-          "quote": "Vântoase are creatures present in Romanian folklore, as a sort of female spirits (iele).",
-          "context": "traditional-belief",
+          "id": "spiridus-c06",
+          "source_id": "spiridus-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "Figuratively, a naughty, restless child may be called a spiriduș in Romania.",
+          "statement_id": "Secara kiasan, di Rumania anak yang nakal dan tak bisa diam dapat disebut spiriduș.",
+          "quote": "Образно спиридушем в Румынии могут называть непослушного и непоседливого ребёнка.",
+          "context": "etymology",
           "status": "exact"
         }
       ],
