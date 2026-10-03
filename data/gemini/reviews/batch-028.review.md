@@ -1,6 +1,6 @@
 # Review batch-028
 
-Diperiksa 2026-09-30T02:31:47.307Z. Berkas: batch-028.md, batch-028-fix-1.md, batch-028-fix-2.md.
+Diperiksa 2026-10-03T15:58:11.156Z. Berkas: batch-028.md, batch-028-fix-1.md, batch-028-fix-2.md, batch-028-fix-3.md.
 
 ## jupiter — lulus-otomatis
 
@@ -40,30 +40,51 @@ Klaim 8 (exact 8), sumber 3, gambar 0.
 | ganesha-c08 | exact | en.wikipedia.org | Hindu texts mention Ganesha between the first century BCE and the second century CE. | Ganesha is mentioned in Hindu texts between the 1st century BCE and 2nd century CE |
 
 
-## michael — perlu-perbaikan
+## michael — lulus-otomatis
 
-Klaim 6 (exact 3, loose 1, partial 1, unreachable 1), sumber 4, gambar 0.
-
-**error**
-- `claims (michael-c05)` Kutipan tidak persis sama dengan teks di https://bible.usccb.org/bible/revelation/12 (hanya 95% cocok). Buka lagi halamannya dan salin ulang kutipannya kata per kata.
-
-**manual**
-- `tier` Di bawah target rich: 6 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 1 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429).
+Klaim 31 (exact 31), sumber 7, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| michael-c01 | exact | en.wikipedia.org | Michael is an archangel and divine warrior in Judaism, Christianity, and Islam. | is an archangel and the warrior of God in Judaism, Christianity, and Islam |
-| michael-c02 | exact | bible.usccb.org | Daniel describes Michael as one of the chief princes who came to help. | until finally Michael, one of the chief princes, came to help me. |
-| michael-c03 | exact | bible.usccb.org | Michael is identified as an archangel and guardian of Israel. | Michael: the archangel, guardian and champion of Israel |
-| michael-c04 | loose | bible.usccb.org | Michael leads angels against the dragon in Revelation. | Then war broke out in heaven; Michael and his angels battled against the dragon. The dragon and its angels fought back |
-| michael-c05 | partial (95% potongan 5 kata cocok) | bible.usccb.org | The dragon opposed by Michael is called Devil or Satan and is cast to earth. | The huge dragon, the ancient serpent, who is called the Devil and Satan, who deceived the whole world, was thrown down to earth |
-| michael-c06 | unreachable (HTTP 429) | www.metmuseum.org | A French sculpture shows armored Michael fighting the devil as a dragon. | Saint Michael, the warrior archangel of Heaven, is portrayed battling the devil in the guise of a dragon. Swiveling to spear the serpentine foe, the saint is clad in a suit of mail covered by a cuirass of plate armor. |
+| michael-c01 | exact | en.wikipedia.org | Michael, also called Archangel Michael or Michael the Taxiarch, is an archangel and the warrior of God in Judaism, Christianity, and Islam, and is venerated as a saint in some Christian traditions. | Michael, also called Archangel Michael or Michael the Taxiarch, is an archangel and the warrior of God in Judaism, Christianity, and Islam while additionally being venerated as a saint in some Christian traditions. |
+| michael-c02 | exact | en.wikipedia.org | The earliest surviving mentions of his name are in third- and second-century BC Jewish works, where he is chief of the angels and archangels. | The earliest surviving mentions of his name are in third- and second-century BC Jewish works, often but not always apocalyptic, where he is the chief of the angels and archangels |
+| michael-c03 | exact | en.wikipedia.org | He is the guardian prince of ancient Israel, responsible for the care of the Israelites. | he is the guardian prince of ancient Israel and is responsible for the care of the Israelites |
+| michael-c04 | exact | en.wikipedia.org | The Book of Enoch lists Michael as one of seven archangels, with Uriel, Raguel, Raphael, Sariel, Gabriel, and Remiel. | The Book of Enoch lists Michael as one of seven archangels (the remaining names are Uriel, Raguel, Raphael, Sariel, Gabriel, and Remiel) |
+| michael-c05 | exact | en.wikipedia.org | In Islam, Michael, or Mīkāʾīl, is one of the four archangels along with Jibril (Gabriel), with whom he is often paired, Israfil, and Azrail. | In Islam, Michael, or Mīkāʾīl, is one of the four archangels along with Jibril (Gabriel, with whom he is often paired), ʾIsrāfīl (trumpeter angel) and ʿAzrāʾīl (angel of death). |
+| michael-c06 | exact | en.wikipedia.org | In Islamic literature, Michael is associated with mercy and asks God for forgiveness for humans. | In further Islamic literature, Michael is associated with mercy. He asks God for forgiveness for humans |
+| michael-c07 | exact | en.wikipedia.org | As the angel who carries out God's providence, he is associated with natural phenomena and causes rain upon the lands. | As the angel to effectuate God's providence he is also associated with natural phenomena and causes rain upon the lands. |
+| michael-c08 | exact | en.wikipedia.org | Unlike in Christian tradition, in Islam Michael is rarely portrayed as a warrior angel. | Unlike Christian tradition, Michael is rarely portrayed as a warrior-angel |
+| michael-c09 | exact | www.newadvent.org | The Hebrew name Michael means "Who is like God?"; he is one of the principal angels, and his name was the war-cry of the good angels in the battle in heaven. | (Hebrew "Who is like God?"). St. Michael is one of the principal angels; his name was the war-cry of the good angels in the battle fought in heaven against the enemy and his followers. |
+| michael-c10 | exact | www.newadvent.org | According to the Catholic Encyclopedia, Christian tradition gives Michael four offices, including fighting against Satan and rescuing the souls of the faithful from the power of the enemy, especially at the hour of death. | Following these Scriptural passages, Christian tradition gives to St. Michael four offices: To fight against Satan. To rescue the souls of the faithful from the power of the enemy, especially at the hour of death. |
+| michael-c11 | exact | www.newadvent.org | Michael is the champion of God's people, the Jews in the Old Law and the Christians in the New Testament, and therefore the patron of the Church. | To be the champion of God's people, the Jews in the Old Law, the Christians in the New Testament; therefore he was the patron of the Church |
+| michael-c12 | exact | www.newadvent.org | In art, Michael is represented as an angelic warrior fully armed with helmet, sword, and shield, standing over the dragon, which he sometimes pierces with a lance. | In art St. Michael is represented as an angelic warrior, fully armed with helmet, sword, and shield (often the shield bears the Latin inscription: Quis ut Deus), standing over the dragon, whom he sometimes pierces with a lance. |
+| michael-c13 | exact | www.newadvent.org | He also holds a pair of scales in which he weighs the souls of the departed. | He also holds a pair of scales in which he weighs the souls of the departed |
+| michael-c14 | exact | www.newadvent.org | The Greek Liturgy styles him Archistrategos, "highest general". | The Greek Liturgy styles him Archistrategos, "highest general" |
+| michael-c15 | exact | www.newadvent.org | In Normandy, Michael is the patron of mariners at his famous sanctuary at Mont-Saint-Michel in the Diocese of Coutances. | In Normandy St. Michael is the patron of mariners in his famous sanctuary at Mont-Saint-Michel in the Diocese of Coutances. |
+| michael-c16 | exact | www.newadvent.org | Well known is the apparition of Michael (a. 494 or 530-40) at his renowned sanctuary on Monte Gargano, as related in the Roman Breviary. | Well known is the apparition of St. Michael (a. 494 or 530-40), as related in the Roman Breviary, 8 May, at his renowned sanctuary on Monte Gargano |
+| michael-c17 | exact | www.newadvent.org | Early Christians gave Michael the care of their sick; in Phrygia, where he was first venerated, his prestige as angelic healer obscured his role in military affairs. | but to St. Michael they gave the care of their sick. At the place where he was first venerated, in Phrygia, his prestige as angelic healer obscured his interposition in military affairs. |
+| michael-c18 | exact | www.newadvent.org | St. Basil and other Greek Fathers, as well as Salmeron and Bellarmine, place Michael over all the angels. | St. Basil (Hom. de angelis) and other Greek Fathers, also Salmeron, Bellarmine, etc., place St. Michael over all the angels |
+| michael-c19 | exact | www.jewishencyclopedia.com | Early Jewish writings, and very frequently the Book of Enoch, designate Michael as "the prince of Israel". | Michael is specially designated in early Jewish writings and very frequently in the Book of Enoch as "the prince of Israel" |
+| michael-c20 | exact | www.jewishencyclopedia.com | As "the advocate of the Jews", Michael is represented as the angel of forbearance and mercy. | "the advocate of the Jews." It is for this reason that he is represented as the angel of forbearance and mercy |
+| michael-c21 | exact | www.jewishencyclopedia.com | Michael is opposed particularly to Samael, Israel's accuser; his enmity with Samael dates from when Samael was thrown down from heaven. | particularly with Samael, Israel's accuser. His enmity with Samael dates from the time when the latter was thrown down from heaven. |
+| michael-c22 | exact | www.jewishencyclopedia.com | In Arabic literature Michael is called "Mika'il" or, in the Koran, "Mikal", and he is one of the four archangels. | Michael is called in Arabic literature "Mika'il" or (in the Koran) "Mikal." He is one of the four archangels |
+| michael-c23 | exact | www.jewishencyclopedia.com | In the Haggadah, Michael is represented as the most prominent of the archangels. | Michael should be represented in the Haggadah as the most prominent of the archangels |
+| michael-c24 | exact | www.jewishencyclopedia.com | According to the Jewish Encyclopedia, the idea that Michael is the Charon of individual souls, common among Christians, is not found in Jewish sources. | The idea that Michael is the Charon of individual souls, which is common among Christians, is not found in Jewish sources |
+| michael-c25 | exact | ebible.org | According to Revelation, there was war in heaven: Michael and his angels fought against the dragon, and the dragon and his angels fought. | And there was war in heaven: Michael and his angels fought against the dragon; and the dragon fought and his angels, |
+| michael-c26 | exact | ebible.org | The great dragon, that old serpent called the Devil and Satan, who deceives the whole world, was cast out into the earth. | And the great dragon was cast out, that old serpent, called the Devil, and Satan, which deceiveth the whole world: he was cast out into the earth |
+| michael-c27 | exact | ebible.org | In the Book of Daniel, Michael, one of the chief princes, came to help the messenger who remained there with the kings of Persia. | but, lo, Michael, one of the chief princes, came to help me; and I remained there with the kings of Persia. |
+| michael-c28 | exact | ebible.org | At that time Michael shall stand up, the great prince who stands for the children of thy people. | And at that time shall Michael stand up, the great prince which standeth for the children of thy people |
+| michael-c29 | exact | ebible.org | According to the Epistle of Jude, Michael the archangel, when contending with the devil about the body of Moses, did not dare bring a railing accusation against him, but said, "The Lord rebuke thee." | Yet Michael the archangel, when contending with the devil he disputed about the body of Moses, durst not bring against him a railing accusation, but said, The Lord rebuke thee. |
+| michael-c30 | exact | www.newadvent.org | According to St. Thomas, Michael is the prince of the last and lowest choir, the angels. | But, according to St. Thomas (Summa Ia.113.3) he is the prince of the last and lowest choir, the angels. |
+| michael-c31 | exact | en.wikipedia.org | The Hebrew name מִיכָאֵל, romanized Mīḵāʾēl, literally means 'Who is like El [God]?'. | Hebrew: מִיכָאֵל, romanized: Mīḵāʾēl, lit. 'Who is like El [God]?' |
 
 
 ## vampire — lulus-otomatis
 
 Klaim 6 (exact 6), sumber 4, gambar 0.
+
+**warn**
+- `claims (vampire-c03)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
 
 **manual**
 - `tier` Di bawah target rich: 6 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai.

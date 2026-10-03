@@ -1,10 +1,11 @@
 {
   "batch_id": "batch-028",
-  "checked_at": "2026-09-30T02:31:47.307Z",
+  "checked_at": "2026-10-03T15:58:11.156Z",
   "files": [
     "batch-028.md",
     "batch-028-fix-1.md",
-    "batch-028-fix-2.md"
+    "batch-028-fix-2.md",
+    "batch-028-fix-3.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -217,92 +218,324 @@
     },
     {
       "slug": "michael",
-      "file": "batch-028-fix-2.md",
-      "verdict": "perlu-perbaikan",
+      "file": "batch-028-fix-3.md",
+      "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 4,
+        "claims": 31,
+        "sources": 7,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 6 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "error",
-          "where": "claims (michael-c05)",
-          "message": "Kutipan tidak persis sama dengan teks di https://bible.usccb.org/bible/revelation/12 (hanya 95% cocok). Buka lagi halamannya dan salin ulang kutipannya kata per kata."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "1 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "michael-c01",
           "source_id": "michael-s1",
           "host": "en.wikipedia.org",
-          "statement": "Michael is an archangel and divine warrior in Judaism, Christianity, and Islam.",
-          "statement_id": "Michael adalah malaikat agung dan pejuang Tuhan dalam Yahudi, Kristen, dan Islam.",
-          "quote": "is an archangel and the warrior of God in Judaism, Christianity, and Islam",
+          "statement": "Michael, also called Archangel Michael or Michael the Taxiarch, is an archangel and the warrior of God in Judaism, Christianity, and Islam, and is venerated as a saint in some Christian traditions.",
+          "statement_id": "Michael, juga disebut Archangel Michael atau Michael the Taxiarch, adalah malaikat agung dan pejuang Tuhan dalam agama Yahudi, Kristen, dan Islam, dan dihormati sebagai orang kudus dalam sebagian tradisi Kristen.",
+          "quote": "Michael, also called Archangel Michael or Michael the Taxiarch, is an archangel and the warrior of God in Judaism, Christianity, and Islam while additionally being venerated as a saint in some Christian traditions.",
           "context": "religious-tradition",
           "status": "exact"
         },
         {
           "id": "michael-c02",
-          "source_id": "michael-s3",
-          "host": "bible.usccb.org",
-          "statement": "Daniel describes Michael as one of the chief princes who came to help.",
-          "statement_id": "Kitab Daniel menyebut Michael sebagai salah satu pemimpin utama yang datang membantu.",
-          "quote": "until finally Michael, one of the chief princes, came to help me.",
-          "context": "religious-tradition",
+          "source_id": "michael-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The earliest surviving mentions of his name are in third- and second-century BC Jewish works, where he is chief of the angels and archangels.",
+          "statement_id": "Penyebutan nama Michael tertua yang masih ada terdapat dalam karya-karya Yahudi abad ke-3 dan ke-2 SM, yang menyebutnya pemimpin para malaikat dan malaikat agung.",
+          "quote": "The earliest surviving mentions of his name are in third- and second-century BC Jewish works, often but not always apocalyptic, where he is the chief of the angels and archangels",
+          "context": "historical-record",
           "status": "exact"
         },
         {
           "id": "michael-c03",
-          "source_id": "michael-s2",
-          "host": "bible.usccb.org",
-          "statement": "Michael is identified as an archangel and guardian of Israel.",
-          "statement_id": "Michael adalah malaikat agung yang menjaga Israel.",
-          "quote": "Michael: the archangel, guardian and champion of Israel",
+          "source_id": "michael-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He is the guardian prince of ancient Israel, responsible for the care of the Israelites.",
+          "statement_id": "Ia adalah pangeran pelindung Israel kuno dan bertanggung jawab memelihara bangsa Israel.",
+          "quote": "he is the guardian prince of ancient Israel and is responsible for the care of the Israelites",
           "context": "religious-tradition",
           "status": "exact"
         },
         {
           "id": "michael-c04",
-          "source_id": "michael-s2",
-          "host": "bible.usccb.org",
-          "statement": "Michael leads angels against the dragon in Revelation.",
-          "statement_id": "Michael memimpin para malaikat melawan naga dalam Kitab Wahyu.",
-          "quote": "Then war broke out in heaven; Michael and his angels battled against the dragon. The dragon and its angels fought back",
+          "source_id": "michael-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Book of Enoch lists Michael as one of seven archangels, with Uriel, Raguel, Raphael, Sariel, Gabriel, and Remiel.",
+          "statement_id": "Kitab Henokh (Book of Enoch) mendaftar Michael sebagai salah satu dari tujuh malaikat agung, bersama Uriel, Raguel, Raphael, Sariel, Gabriel, dan Remiel.",
+          "quote": "The Book of Enoch lists Michael as one of seven archangels (the remaining names are Uriel, Raguel, Raphael, Sariel, Gabriel, and Remiel)",
           "context": "religious-tradition",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "michael-c05",
-          "source_id": "michael-s2",
-          "host": "bible.usccb.org",
-          "statement": "The dragon opposed by Michael is called Devil or Satan and is cast to earth.",
-          "statement_id": "Naga yang dihadapi Michael disebut Iblis atau Satan dan dilempar ke bumi.",
-          "quote": "The huge dragon, the ancient serpent, who is called the Devil and Satan, who deceived the whole world, was thrown down to earth",
+          "source_id": "michael-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Islam, Michael, or Mīkāʾīl, is one of the four archangels along with Jibril (Gabriel), with whom he is often paired, Israfil, and Azrail.",
+          "statement_id": "Dalam Islam, Michael atau Mīkāʾīl adalah salah satu dari empat malaikat agung bersama Jibril (Gabriel), yang sering dipasangkan dengannya, Israfil, dan Azrail.",
+          "quote": "In Islam, Michael, or Mīkāʾīl, is one of the four archangels along with Jibril (Gabriel, with whom he is often paired), ʾIsrāfīl (trumpeter angel) and ʿAzrāʾīl (angel of death).",
           "context": "religious-tradition",
-          "status": "partial",
-          "detail": "95% potongan 5 kata cocok"
+          "status": "exact"
         },
         {
           "id": "michael-c06",
-          "source_id": "michael-s4",
-          "host": "www.metmuseum.org",
-          "statement": "A French sculpture shows armored Michael fighting the devil as a dragon.",
-          "statement_id": "Patung Prancis menggambarkan Michael berzirah saat melawan iblis berwujud naga.",
-          "quote": "Saint Michael, the warrior archangel of Heaven, is portrayed battling the devil in the guise of a dragon. Swiveling to spear the serpentine foe, the saint is clad in a suit of mail covered by a cuirass of plate armor.",
+          "source_id": "michael-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Islamic literature, Michael is associated with mercy and asks God for forgiveness for humans.",
+          "statement_id": "Dalam literatur Islam, Michael dikaitkan dengan rahmat dan memohon ampun kepada Tuhan bagi manusia.",
+          "quote": "In further Islamic literature, Michael is associated with mercy. He asks God for forgiveness for humans",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c07",
+          "source_id": "michael-s1",
+          "host": "en.wikipedia.org",
+          "statement": "As the angel who carries out God's providence, he is associated with natural phenomena and causes rain upon the lands.",
+          "statement_id": "Sebagai malaikat pelaksana pemeliharaan Tuhan, ia dikaitkan dengan gejala alam dan menurunkan hujan ke daratan.",
+          "quote": "As the angel to effectuate God's providence he is also associated with natural phenomena and causes rain upon the lands.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c08",
+          "source_id": "michael-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Unlike in Christian tradition, in Islam Michael is rarely portrayed as a warrior angel.",
+          "statement_id": "Berbeda dengan tradisi Kristen, dalam Islam Michael jarang digambarkan sebagai malaikat pejuang.",
+          "quote": "Unlike Christian tradition, Michael is rarely portrayed as a warrior-angel",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c09",
+          "source_id": "michael-s2",
+          "host": "www.newadvent.org",
+          "statement": "The Hebrew name Michael means \"Who is like God?\"; he is one of the principal angels, and his name was the war-cry of the good angels in the battle in heaven.",
+          "statement_id": "Nama Michael dalam bahasa Ibrani berarti \"Who is like God?\" (Siapa yang seperti Allah?); ia salah satu malaikat utama, dan namanya menjadi seruan perang para malaikat baik dalam pertempuran di surga.",
+          "quote": "(Hebrew \"Who is like God?\"). St. Michael is one of the principal angels; his name was the war-cry of the good angels in the battle fought in heaven against the enemy and his followers.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c10",
+          "source_id": "michael-s2",
+          "host": "www.newadvent.org",
+          "statement": "According to the Catholic Encyclopedia, Christian tradition gives Michael four offices, including fighting against Satan and rescuing the souls of the faithful from the power of the enemy, especially at the hour of death.",
+          "statement_id": "Menurut Catholic Encyclopedia (Ensiklopedia Katolik), tradisi Kristen memberi Michael empat tugas, antara lain melawan Satan dan menyelamatkan jiwa orang beriman dari kuasa musuh, terutama pada saat kematian.",
+          "quote": "Following these Scriptural passages, Christian tradition gives to St. Michael four offices: To fight against Satan. To rescue the souls of the faithful from the power of the enemy, especially at the hour of death.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c11",
+          "source_id": "michael-s2",
+          "host": "www.newadvent.org",
+          "statement": "Michael is the champion of God's people, the Jews in the Old Law and the Christians in the New Testament, and therefore the patron of the Church.",
+          "statement_id": "Michael adalah pembela umat Tuhan, orang Yahudi dalam Hukum Lama dan orang Kristen dalam Perjanjian Baru, sehingga ia menjadi pelindung Gereja.",
+          "quote": "To be the champion of God's people, the Jews in the Old Law, the Christians in the New Testament; therefore he was the patron of the Church",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c12",
+          "source_id": "michael-s2",
+          "host": "www.newadvent.org",
+          "statement": "In art, Michael is represented as an angelic warrior fully armed with helmet, sword, and shield, standing over the dragon, which he sometimes pierces with a lance.",
+          "statement_id": "Dalam seni, Michael digambarkan sebagai malaikat pejuang bersenjata lengkap dengan helm, pedang, dan perisai, berdiri di atas naga yang kadang ditusuknya dengan tombak.",
+          "quote": "In art St. Michael is represented as an angelic warrior, fully armed with helmet, sword, and shield (often the shield bears the Latin inscription: Quis ut Deus), standing over the dragon, whom he sometimes pierces with a lance.",
           "context": "historical-record",
-          "status": "unreachable",
-          "detail": "HTTP 429"
+          "status": "exact"
+        },
+        {
+          "id": "michael-c13",
+          "source_id": "michael-s2",
+          "host": "www.newadvent.org",
+          "statement": "He also holds a pair of scales in which he weighs the souls of the departed.",
+          "statement_id": "Ia juga memegang timbangan untuk menimbang jiwa orang yang telah meninggal.",
+          "quote": "He also holds a pair of scales in which he weighs the souls of the departed",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c14",
+          "source_id": "michael-s2",
+          "host": "www.newadvent.org",
+          "statement": "The Greek Liturgy styles him Archistrategos, \"highest general\".",
+          "statement_id": "Liturgi Yunani menyebutnya Archistrategos, \"panglima tertinggi\" (highest general).",
+          "quote": "The Greek Liturgy styles him Archistrategos, \"highest general\"",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c15",
+          "source_id": "michael-s2",
+          "host": "www.newadvent.org",
+          "statement": "In Normandy, Michael is the patron of mariners at his famous sanctuary at Mont-Saint-Michel in the Diocese of Coutances.",
+          "statement_id": "Di Normandia, Michael adalah pelindung para pelaut di tempat sucinya yang terkenal di Mont-Saint-Michel, Keuskupan Coutances.",
+          "quote": "In Normandy St. Michael is the patron of mariners in his famous sanctuary at Mont-Saint-Michel in the Diocese of Coutances.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c16",
+          "source_id": "michael-s2",
+          "host": "www.newadvent.org",
+          "statement": "Well known is the apparition of Michael (a. 494 or 530-40) at his renowned sanctuary on Monte Gargano, as related in the Roman Breviary.",
+          "statement_id": "Terkenal kisah penampakan Michael (tahun 494 atau 530-40) di tempat sucinya yang termasyhur di Monte Gargano, sebagaimana diceritakan dalam Brevir Romawi (Roman Breviary).",
+          "quote": "Well known is the apparition of St. Michael (a. 494 or 530-40), as related in the Roman Breviary, 8 May, at his renowned sanctuary on Monte Gargano",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c17",
+          "source_id": "michael-s2",
+          "host": "www.newadvent.org",
+          "statement": "Early Christians gave Michael the care of their sick; in Phrygia, where he was first venerated, his prestige as angelic healer obscured his role in military affairs.",
+          "statement_id": "Pemeluk Kristen awal menyerahkan perawatan orang sakit kepada Michael; di Frigia (Phrygia), tempat ia pertama dihormati, kemasyhurannya sebagai penyembuh malaikat mengalahkan perannya dalam urusan militer.",
+          "quote": "but to St. Michael they gave the care of their sick. At the place where he was first venerated, in Phrygia, his prestige as angelic healer obscured his interposition in military affairs.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c18",
+          "source_id": "michael-s2",
+          "host": "www.newadvent.org",
+          "statement": "St. Basil and other Greek Fathers, as well as Salmeron and Bellarmine, place Michael over all the angels.",
+          "statement_id": "St. Basil, para Bapa Gereja Yunani lain, Salmeron, dan Bellarmine menempatkan Michael di atas semua malaikat.",
+          "quote": "St. Basil (Hom. de angelis) and other Greek Fathers, also Salmeron, Bellarmine, etc., place St. Michael over all the angels",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c19",
+          "source_id": "michael-s3",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "Early Jewish writings, and very frequently the Book of Enoch, designate Michael as \"the prince of Israel\".",
+          "statement_id": "Tulisan Yahudi awal, dan sangat sering Kitab Henokh (Book of Enoch), menyebut Michael \"the prince of Israel\" (pemimpin Israel).",
+          "quote": "Michael is specially designated in early Jewish writings and very frequently in the Book of Enoch as \"the prince of Israel\"",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c20",
+          "source_id": "michael-s3",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "As \"the advocate of the Jews\", Michael is represented as the angel of forbearance and mercy.",
+          "statement_id": "Sebagai \"the advocate of the Jews\" (pembela orang Yahudi), Michael digambarkan sebagai malaikat kesabaran dan belas kasihan.",
+          "quote": "\"the advocate of the Jews.\" It is for this reason that he is represented as the angel of forbearance and mercy",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c21",
+          "source_id": "michael-s3",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "Michael is opposed particularly to Samael, Israel's accuser; his enmity with Samael dates from when Samael was thrown down from heaven.",
+          "statement_id": "Michael bermusuhan terutama dengan Samael, penuduh Israel; permusuhan itu bermula ketika Samael dicampakkan dari surga.",
+          "quote": "particularly with Samael, Israel's accuser. His enmity with Samael dates from the time when the latter was thrown down from heaven.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c22",
+          "source_id": "michael-s3",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "In Arabic literature Michael is called \"Mika'il\" or, in the Koran, \"Mikal\", and he is one of the four archangels.",
+          "statement_id": "Dalam literatur Arab, Michael disebut \"Mika'il\" atau, dalam Al-Qur'an (Koran), \"Mikal\", dan ia salah satu dari empat malaikat agung.",
+          "quote": "Michael is called in Arabic literature \"Mika'il\" or (in the Koran) \"Mikal.\" He is one of the four archangels",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c23",
+          "source_id": "michael-s3",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "In the Haggadah, Michael is represented as the most prominent of the archangels.",
+          "statement_id": "Dalam Haggadah, Michael digambarkan sebagai malaikat agung yang paling menonjol.",
+          "quote": "Michael should be represented in the Haggadah as the most prominent of the archangels",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c24",
+          "source_id": "michael-s3",
+          "host": "www.jewishencyclopedia.com",
+          "statement": "According to the Jewish Encyclopedia, the idea that Michael is the Charon of individual souls, common among Christians, is not found in Jewish sources.",
+          "statement_id": "Menurut Jewish Encyclopedia, gagasan bahwa Michael adalah pengantar (Charon) jiwa-jiwa perorangan, yang umum di kalangan Kristen, tidak ditemukan dalam sumber Yahudi.",
+          "quote": "The idea that Michael is the Charon of individual souls, which is common among Christians, is not found in Jewish sources",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c25",
+          "source_id": "michael-s4",
+          "host": "ebible.org",
+          "statement": "According to Revelation, there was war in heaven: Michael and his angels fought against the dragon, and the dragon and his angels fought.",
+          "statement_id": "Menurut Kitab Wahyu (Revelation), terjadi perang di surga: Michael dan para malaikatnya berperang melawan naga, dan naga beserta malaikat-malaikatnya berperang.",
+          "quote": "And there was war in heaven: Michael and his angels fought against the dragon; and the dragon fought and his angels,",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c26",
+          "source_id": "michael-s4",
+          "host": "ebible.org",
+          "statement": "The great dragon, that old serpent called the Devil and Satan, who deceives the whole world, was cast out into the earth.",
+          "statement_id": "Naga besar itu, ular tua yang disebut Iblis (Devil) dan Satan, yang menyesatkan seluruh dunia, dicampakkan ke bumi.",
+          "quote": "And the great dragon was cast out, that old serpent, called the Devil, and Satan, which deceiveth the whole world: he was cast out into the earth",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c27",
+          "source_id": "michael-s5",
+          "host": "ebible.org",
+          "statement": "In the Book of Daniel, Michael, one of the chief princes, came to help the messenger who remained there with the kings of Persia.",
+          "statement_id": "Dalam Kitab Daniel, Michael, salah satu pemimpin utama (chief princes), datang menolong utusan yang tertahan di hadapan raja-raja Persia.",
+          "quote": "but, lo, Michael, one of the chief princes, came to help me; and I remained there with the kings of Persia.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c28",
+          "source_id": "michael-s6",
+          "host": "ebible.org",
+          "statement": "At that time Michael shall stand up, the great prince who stands for the children of thy people.",
+          "statement_id": "Pada waktu itu Michael akan bangkit, pemimpin agung (great prince) yang membela anak-anak bangsamu.",
+          "quote": "And at that time shall Michael stand up, the great prince which standeth for the children of thy people",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c29",
+          "source_id": "michael-s7",
+          "host": "ebible.org",
+          "statement": "According to the Epistle of Jude, Michael the archangel, when contending with the devil about the body of Moses, did not dare bring a railing accusation against him, but said, \"The Lord rebuke thee.\"",
+          "statement_id": "Menurut Surat Yudas (Epistle of Jude), Michael sang malaikat agung, ketika berbantah dengan Iblis tentang jenazah Musa (body of Moses), tidak berani menghujatnya, tetapi berkata, \"The Lord rebuke thee.\"",
+          "quote": "Yet Michael the archangel, when contending with the devil he disputed about the body of Moses, durst not bring against him a railing accusation, but said, The Lord rebuke thee.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c30",
+          "source_id": "michael-s2",
+          "host": "www.newadvent.org",
+          "statement": "According to St. Thomas, Michael is the prince of the last and lowest choir, the angels.",
+          "statement_id": "Menurut St. Thomas, Michael adalah pemimpin paduan terakhir dan terendah, yaitu para malaikat.",
+          "quote": "But, according to St. Thomas (Summa Ia.113.3) he is the prince of the last and lowest choir, the angels.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "michael-c31",
+          "source_id": "michael-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Hebrew name מִיכָאֵל, romanized Mīḵāʾēl, literally means 'Who is like El [God]?'.",
+          "statement_id": "Nama Ibrani (Hebrew) מִיכָאֵל, dilatinkan Mīḵāʾēl, secara harfiah berarti 'Who is like El [God]?' (Siapa yang seperti El [Allah]?).",
+          "quote": "Hebrew: מִיכָאֵל, romanized: Mīḵāʾēl, lit. 'Who is like El [God]?'",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
       "images": []
@@ -321,6 +554,11 @@
           "level": "manual",
           "where": "tier",
           "message": "Di bawah target rich: 6 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+        },
+        {
+          "level": "warn",
+          "where": "claims (vampire-c03)",
+          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
         }
       ],
       "claims": [

@@ -4,5 +4,5 @@ Pemeriksaan menemukan masalah di bawah. Perbaiki semuanya, lalu kirim ulang **en
 
 Kalau kutipan tidak ditemukan, jangan mengubahnya supaya terlihat cocok. Buka lagi halamannya dan salin teks yang benar-benar ada, atau hapus klaim itu beserta teks yang bergantung padanya.
 
-## michael
-- `claims (michael-c05)`: Kutipan tidak persis sama dengan teks di https://bible.usccb.org/bible/revelation/12 (hanya 95% cocok). Buka lagi halamannya dan salin ulang kutipannya kata per kata.
+## vampire
+- `claims (vampire-c03)`: Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).

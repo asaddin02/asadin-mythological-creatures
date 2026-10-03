@@ -1,6 +1,6 @@
 # Review batch-065
 
-Diperiksa 2026-10-01T13:06:45.568Z. Berkas: batch-065.md, batch-065-fix-1.md, batch-065-fix-2.md, batch-065-fix-3.md.
+Diperiksa 2026-10-03T15:58:12.083Z. Berkas: batch-065.md, batch-065-fix-1.md, batch-065-fix-2.md, batch-065-fix-3.md, batch-065-fix-4.md.
 
 ## wd-q11667794 — lulus-otomatis
 
@@ -372,22 +372,23 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | wd-q97189476-c05 | exact | www.cbaigui.com | Roosters crowing makes it return to the river, allowing the scholar to escape. | 鸡鸣一声，怪忽惊竦，已而群鸡叠唱，慌遽跳入江，某始得脱，今后庙门夜不敢启。 |
 
 
-## wd-q97218240 — perlu-perbaikan
+## wd-q97218240 — lulus-otomatis
 
-Klaim 3 (exact 2, partial 1), sumber 2, gambar 0.
-
-**error**
-- `claims (wd-q97218240-c03)` Kutipan tidak persis sama dengan teks di https://www.edo-tokyo-museum.or.jp/en/s-exhibition/daiyokai/ (hanya 67% cocok). Buka lagi halamannya dan salin ulang kutipannya kata per kata.
-
-**manual**
-- `culture` Mengusulkan tradisi baru: "Tradisi Buddhis".
-- `tier` Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| wd-q97218240-c01 | exact | ja.wikipedia.org | Gokusotsu are hell-guard beings tormenting the dead with various punishments. | 獄卒（ごくそつ。簡体字中国語: 狱卒）は、地獄にいる異形で、様々な責め苦をもって亡者を苦しめるとされる。いわゆる地獄の鬼。閻羅人。閻魔卒。転じて、囚人を直接取り扱う下級の役人。獄吏。牢番。看守。 |
-| wd-q97218240-c02 | exact | ja.wikipedia.org | The term is also used for prison officers as an extended meaning. | 獄卒（ごくそつ。簡体字中国語: 狱卒）は、地獄にいる異形で、様々な責め苦をもって亡者を苦しめるとされる。いわゆる地獄の鬼。閻羅人。閻魔卒。転じて、囚人を直接取り扱う下級の役人。獄吏。牢番。看守。 |
-| wd-q97218240-c03 | partial (67% potongan 5 kata cocok) | www.edo-tokyo-museum.or.jp | The Edo-Tokyo Museum connects depictions of hell guards with the spread of Buddhist hell concepts in Japan. | A.地獄にうごめくものたち仏教の伝来によって、地獄の思想が広まり、もののけや鬼が地獄の獄卒や奇怪な生き物として造形化された。国宝、重要文化財に指定された「地獄草紙」「六道絵」などをとおして、妖怪表現のルーツを探る。 |
+| wd-q97218240-c01 | exact | ja.wikipedia.org | Gokusotsu (獄卒, ごくそつ) are strange-formed beings (異形) in hell (地獄) believed to torment the dead (亡者) with various punishments. | 獄卒（ごくそつ。簡体字中国語: 狱卒）は、地獄にいる異形で、様々な責め苦をもって亡者を苦しめるとされる。 |
+| wd-q97218240-c02 | exact | ja.wikipedia.org | They are also called hell oni (地獄の鬼), 閻羅人 or 閻魔卒; in an extended sense the word means a low-ranking official handling prisoners (獄吏, 牢番, 看守). | いわゆる地獄の鬼。閻羅人。閻魔卒。転じて、囚人を直接取り扱う下級の役人。獄吏。牢番。看守。 |
+| wd-q97218240-c03 | exact | kotobank.jp | As a Buddhist term (仏語), gokusotsu is an oni (鬼) that punishes the sins of the dead in hell; the first cited example is from 秘蔵宝鑰 (around 830). | 仏語。地獄で亡者の罪を責めたてる鬼。地獄の鬼。 獄卒②〈地獄草紙〉 [初出の実例]「閻魔獄卒構レ獄断レ罪」(出典：秘蔵宝鑰（830頃）上) |
+| wd-q97218240-c04 | exact | kotobank.jp | The デジタル大辞泉 dictionary defines gokusotsu as an evil demon (悪鬼) said to torment the dead (死者) in hell, and also as an insult for a person without a sense of duty or compassion (義理や人情を解さない人). | ２ 地獄で死者を責めるという悪鬼。 ３ 義理や人情を解さない人をののしっていう語。 |
+| wd-q97218240-c05 | exact | zh.wikisource.org | According to 佛學大辭典, 獄卒 is a term (術語) for figures in hell (地獄) who show fearsome forms and harm sinners (罪人) with instruments of torment; they are not real sentient beings (有情) but appear so through the sinners' karma (業力). | （術語）在地獄之內，現種種可畏之形，以種種之苦具，殘害罪人者。然是非實之有情，則於罪人之業力而見之如有情也。 |
+| wd-q97218240-c06 | exact | zh.wikisource.org | The dictionary cites 俱舍論 volume 11, which asks whether the hell guards (諸地獄卒) are sentient beings (有情), and how they move if they are not (非情). | 俱舍論十一曰：「諸地獄卒是有情不？有說非情如何動作？有情業力，如成劫風 |
+| wd-q97218240-c07 | exact | zh.wikisource.org | The passage says those who rejoice at others' suffering become 琰魔卒 after death; 琰魔卒 are the rākṣasas (邏剎婆) sent by King 琰魔 to cast beings into hell, and they are real sentient beings (是實有情), unlike those who harm beings inside hell. | 見他苦欣悅，死作琰魔卒。琰魔王使諸邏剎婆，擲諸有情置地獄者，名琰魔卒。是實有情，非地獄中害有情者 |
+| wd-q97218240-c08 | exact | ja.wikipedia.org | Gozu-mezu (牛頭馬頭, ごずめず) are gokusotsu (獄卒) in Buddhism (仏教) who torment the dead in hell: 牛頭 with an ox head and 馬頭 with a horse head, both with human bodies. | 牛頭馬頭（ごずめず）とは、仏教において地獄にいるとされる亡者達を責め苛む獄卒で、牛の頭に体は人身の姿をした牛頭と、馬の頭に体は人身の姿をした馬頭をいう。 |
+| wd-q97218240-c09 | exact | ja.wikipedia.org | Hell gokusotsu based on Buddhist thought (仏教の思想) appear in fiction of China (中国) from the 六朝 period onward, and in Japan (日本) their figures are invariably depicted in tales of hell and in paintings such as 『地獄草紙』 and 『十王図』. | 仏教の思想に基づく地獄の獄卒は、六朝以後の中国の小説類にも散見される。日本でも地獄の登場する説話や、地獄の様子を描いた『六道輪廻図』、『六道道』、『十王図』、『地獄草紙』などの絵画にその姿が決まって描かれている。 |
+| wd-q97218240-c10 | exact | ja.wikipedia.org | 阿傍羅刹 (Abō rasetsu, あぼう らせつ) is a gokusotsu (獄卒) believed to dwell in hell, also called 阿防羅刹, 獄卒阿傍 or 阿防夜叉. | 阿傍羅刹（あぼう らせつ）は地獄にいるとされる獄卒である。阿防羅刹、獄卒阿傍、阿防夜叉とも。 |
+| wd-q97218240-c11 | exact | ja.wikipedia.org | People who did evil (悪事) in this world and fall into hell are taken by them before 閻魔 (Enma) and tormented (呵責) for hundreds of millions of years (百千万歳). | 現世で悪事をなした人間が地獄に堕ちたとき、彼らによって閻魔のもとにともなわれて行き、百千万歳のあいだ呵責（かしゃく）をあたえられる。 |
 
 
 ## yachinomi-no-mikoto — lulus-otomatis
