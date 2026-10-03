@@ -506,6 +506,7 @@ export async function renderCreatureDetail(container, slug) {
                         </td>
                         <td style="font-size: 0.85rem; color: var(--text-secondary);">
                           ${cl.source_citation || 'Tradisi Historis'}
+                          ${cl.quote ? `<blockquote class="claim-quote" ${cl.locator ? `title="${escapeHtml(cl.locator)}"` : ''}>“${escapeHtml(cl.quote)}”</blockquote>` : ''}
                         </td>
                         <td>
                           <span class="source-hierarchy-badge ${cl.source_type || 'Reference'}">

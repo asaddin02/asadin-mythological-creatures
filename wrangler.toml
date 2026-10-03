@@ -1,0 +1,10 @@
+# Cloudflare Pages configuration for `wrangler pages deploy` (see .github/workflows/deploy.yml).
+# The project name must match the repository variable CLOUDFLARE_PAGES_PROJECT.
+name = "mythics"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-09-21"
+
+# Creature artwork, served by functions/media/[[path]].js and uploaded by scripts/upload-media.mjs.
+[[r2_buckets]]
+binding = "MEDIA"
+bucket_name = "mythics-media"
