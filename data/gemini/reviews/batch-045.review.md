@@ -1,6 +1,6 @@
 # Review batch-045
 
-Diperiksa 2026-09-30T02:35:53.005Z. Berkas: batch-045.md, batch-045-fix-1.md, batch-045-fix-2.md, batch-045-fix-3.md.
+Diperiksa 2026-10-03T15:47:02.720Z. Berkas: batch-045.md, batch-045-fix-1.md, batch-045-fix-2.md, batch-045-fix-3.md, batch-045-fix-4.md.
 
 ## nike — lulus-otomatis
 
@@ -96,28 +96,13 @@ Klaim 15 (exact 15), sumber 3, gambar 0.
 | adonis-c15 | exact (HTTP 429; dicek lewat arsip Wayback) | www.metmuseum.org | With cavalier indifference to the goddess’s adoration and her warnings of danger, Adonis hunted a wild boar and was gored to death. | Rubens took the subject of this painting from the Roman poet Ovid’s Metamorphoses. Accidently pricked by one of Cupid’s arrows, Venus fell in love with the handsome hunter Adonis. With cavalier indifference to the goddess’s adoration and her warnings of danger, Adonis hunted a wild boar and was gored to death. |
 
 
-## baba-yaga-q187002 — perlu-perbaikan
+## baba-yaga-q187002 — skip
 
-Klaim 15 (exact 15), sumber 3, gambar 0.
+Klaim 0 (), sumber 0, gambar 0.
 
-**error**
-- `slug` Makhluk ini sudah ada di Mythics (baba-yaga).
+**manual**
+- `skip` Diusulkan dilewati: Duplikat: Baba Yaga (Q187002, artikel en Baba_Yaga) sudah ada di Mythics sebagai slug `baba-yaga`, diriset lengkap di batch-002. Entri ganda ini tidak diterbitkan. (https://en.wikipedia.org/wiki/Baba_Yaga).
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| baba-yaga-q187002-c01 | exact | www.worldhistory.org | Baba Yaga (Baba Jaga) is a witch or ogress from Slavic folklore | Baba Yaga (Baba Jaga) is a witch or ogress from Slavic folklore |
-| baba-yaga-q187002-c02 | exact | www.worldhistory.org | lives in a magical hut in the forest and either helps, imprisons, or eats people (usually children). | lives in a magical hut in the forest and either helps, imprisons, or eats people (usually children). |
-| baba-yaga-q187002-c03 | exact | www.worldhistory.org | Her name is often understood to mean "Grandmother Witch", though this is challenged and there is no universal agreement on the meaning of Yaga. | Her name is often understood to mean "Grandmother Witch", though this is challenged and there is no universal agreement on the meaning of Yaga. |
-| baba-yaga-q187002-c04 | exact | www.worldhistory.org | she can also offer assistance and is understood as more of a trickster character | she can also offer assistance and is understood as more of a trickster character |
-| baba-yaga-q187002-c05 | exact | www.worldhistory.org | Baba Yaga is depicted as an enormous, ugly old woman who lives in a hut built on four tall chicken legs | Baba Yaga is depicted as an enormous, ugly old woman who lives in a hut built on four tall chicken legs |
-| baba-yaga-q187002-c06 | exact | www.worldhistory.org | she rides in a mortar propelled by a pestle with one hand while, in the other, she holds a broom she uses to wipe away any trace of her tracks. | she rides in a mortar propelled by a pestle with one hand while, in the other, she holds a broom she uses to wipe away any trace of her tracks. |
-| baba-yaga-q187002-c07 | exact | www.worldhistory.org | she may have originally been a Slavic goddess and Earth Mother. | she may have originally been a Slavic goddess and Earth Mother. |
-| baba-yaga-q187002-c08 | exact | www.worldhistory.org | No single interpretation of her origin is universally agreed upon | No single interpretation of her origin is universally agreed upon |
-| baba-yaga-q187002-c09 | exact | www.worldhistory.org | Baba Yaga also serves as a catalyst for change. | Baba Yaga also serves as a catalyst for change. |
-| baba-yaga-q187002-c10 | exact | www.worldhistory.org | Baba Yaga sends her home with a skull containing the fire she was sent to fetch | Baba Yaga sends her home with a skull containing the fire she was sent to fetch |
-| baba-yaga-q187002-c11 | exact | www.worldhistory.org | In The Frog Princess, Baba Yaga and her sisters play the pivotal role of helping Prince Ivan reunite with his runaway princess | In The Frog Princess, Baba Yaga and her sisters play the pivotal role of helping Prince Ivan reunite with his runaway princess |
-| baba-yaga-q187002-c12 | exact | www.encyclopedia.com | known in Russian folklore as a witch and an ogress | known in Russian folklore as a witch and an ogress |
-| baba-yaga-q187002-c13 | exact | www.encyclopedia.com | She is variously depicted as an evil old hag who eats humans, especially children, and as a wise, prophetic old woman. | She is variously depicted as an evil old hag who eats humans, especially children, and as a wise, prophetic old woman. |
-| baba-yaga-q187002-c14 | exact | www.encyclopedia.com | Baba Yaga never walks; she either flies in a fiery mortar | Baba Yaga never walks; she either flies in a fiery mortar |
-| baba-yaga-q187002-c15 | exact (HTTP 403; dicek lewat arsip Wayback) | www.smithsonianmag.com | Baba Yaga is the witch from Slavic folklore who lives in a house on chicken legs. | Baba Yaga is the witch from Slavic folklore who lives in a house on chicken legs. |
 

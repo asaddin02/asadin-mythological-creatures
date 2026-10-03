@@ -1,11 +1,12 @@
 {
   "batch_id": "batch-045",
-  "checked_at": "2026-09-30T02:35:53.005Z",
+  "checked_at": "2026-10-03T15:47:02.720Z",
   "files": [
     "batch-045.md",
     "batch-045-fix-1.md",
     "batch-045-fix-2.md",
-    "batch-045-fix-3.md"
+    "batch-045-fix-3.md",
+    "batch-045-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -696,174 +697,21 @@
     },
     {
       "slug": "baba-yaga-q187002",
-      "file": "batch-045-fix-3.md",
-      "verdict": "perlu-perbaikan",
+      "file": "batch-045-fix-4.md",
+      "verdict": "skip",
       "counts": {
-        "claims": 15,
-        "sources": 3,
+        "claims": 0,
+        "sources": 0,
         "images": 0
       },
       "issues": [
         {
-          "level": "error",
-          "where": "slug",
-          "message": "Makhluk ini sudah ada di Mythics (baba-yaga)."
+          "level": "manual",
+          "where": "skip",
+          "message": "Diusulkan dilewati: Duplikat: Baba Yaga (Q187002, artikel en Baba_Yaga) sudah ada di Mythics sebagai slug `baba-yaga`, diriset lengkap di batch-002. Entri ganda ini tidak diterbitkan. (https://en.wikipedia.org/wiki/Baba_Yaga)."
         }
       ],
-      "claims": [
-        {
-          "id": "baba-yaga-q187002-c01",
-          "source_id": "baba-yaga-q187002-s1",
-          "host": "www.worldhistory.org",
-          "statement": "Baba Yaga (Baba Jaga) is a witch or ogress from Slavic folklore",
-          "statement_id": "Baba Yaga terkait dengan Baba Yaga (Baba Jaga) is a witch or ogress from Slavic folklore",
-          "quote": "Baba Yaga (Baba Jaga) is a witch or ogress from Slavic folklore",
-          "context": "religious-tradition",
-          "status": "exact"
-        },
-        {
-          "id": "baba-yaga-q187002-c02",
-          "source_id": "baba-yaga-q187002-s1",
-          "host": "www.worldhistory.org",
-          "statement": "lives in a magical hut in the forest and either helps, imprisons, or eats people (usually children).",
-          "statement_id": "Baba Yaga terkait dengan lives in a magical hut in the forest and either helps, imprisons, or eats people (usually children).",
-          "quote": "lives in a magical hut in the forest and either helps, imprisons, or eats people (usually children).",
-          "context": "religious-tradition",
-          "status": "exact"
-        },
-        {
-          "id": "baba-yaga-q187002-c03",
-          "source_id": "baba-yaga-q187002-s1",
-          "host": "www.worldhistory.org",
-          "statement": "Her name is often understood to mean \"Grandmother Witch\", though this is challenged and there is no universal agreement on the meaning of Yaga.",
-          "statement_id": "Baba Yaga terkait dengan Her name is often understood to mean \"Grandmother Witch\", though this is challenged and there is no universal agreement on the meaning of Yaga.",
-          "quote": "Her name is often understood to mean \"Grandmother Witch\", though this is challenged and there is no universal agreement on the meaning of Yaga.",
-          "context": "etymology",
-          "status": "exact"
-        },
-        {
-          "id": "baba-yaga-q187002-c04",
-          "source_id": "baba-yaga-q187002-s1",
-          "host": "www.worldhistory.org",
-          "statement": "she can also offer assistance and is understood as more of a trickster character",
-          "statement_id": "Baba Yaga terkait dengan she can also offer assistance and is understood as more of a trickster character",
-          "quote": "she can also offer assistance and is understood as more of a trickster character",
-          "context": "religious-tradition",
-          "status": "exact"
-        },
-        {
-          "id": "baba-yaga-q187002-c05",
-          "source_id": "baba-yaga-q187002-s1",
-          "host": "www.worldhistory.org",
-          "statement": "Baba Yaga is depicted as an enormous, ugly old woman who lives in a hut built on four tall chicken legs",
-          "statement_id": "Baba Yaga terkait dengan Baba Yaga is depicted as an enormous, ugly old woman who lives in a hut built on four tall chicken legs",
-          "quote": "Baba Yaga is depicted as an enormous, ugly old woman who lives in a hut built on four tall chicken legs",
-          "context": "religious-tradition",
-          "status": "exact"
-        },
-        {
-          "id": "baba-yaga-q187002-c06",
-          "source_id": "baba-yaga-q187002-s1",
-          "host": "www.worldhistory.org",
-          "statement": "she rides in a mortar propelled by a pestle with one hand while, in the other, she holds a broom she uses to wipe away any trace of her tracks.",
-          "statement_id": "Baba Yaga terkait dengan she rides in a mortar propelled by a pestle with one hand while, in the other, she holds a broom she uses to wipe away any trace of her tracks.",
-          "quote": "she rides in a mortar propelled by a pestle with one hand while, in the other, she holds a broom she uses to wipe away any trace of her tracks.",
-          "context": "religious-tradition",
-          "status": "exact"
-        },
-        {
-          "id": "baba-yaga-q187002-c07",
-          "source_id": "baba-yaga-q187002-s1",
-          "host": "www.worldhistory.org",
-          "statement": "she may have originally been a Slavic goddess and Earth Mother.",
-          "statement_id": "Baba Yaga terkait dengan she may have originally been a Slavic goddess and Earth Mother.",
-          "quote": "she may have originally been a Slavic goddess and Earth Mother.",
-          "context": "scholarly-interpretation",
-          "status": "exact"
-        },
-        {
-          "id": "baba-yaga-q187002-c08",
-          "source_id": "baba-yaga-q187002-s1",
-          "host": "www.worldhistory.org",
-          "statement": "No single interpretation of her origin is universally agreed upon",
-          "statement_id": "Baba Yaga terkait dengan No single interpretation of her origin is universally agreed upon",
-          "quote": "No single interpretation of her origin is universally agreed upon",
-          "context": "scholarly-interpretation",
-          "status": "exact"
-        },
-        {
-          "id": "baba-yaga-q187002-c09",
-          "source_id": "baba-yaga-q187002-s1",
-          "host": "www.worldhistory.org",
-          "statement": "Baba Yaga also serves as a catalyst for change.",
-          "statement_id": "Baba Yaga terkait dengan Baba Yaga also serves as a catalyst for change.",
-          "quote": "Baba Yaga also serves as a catalyst for change.",
-          "context": "scholarly-interpretation",
-          "status": "exact"
-        },
-        {
-          "id": "baba-yaga-q187002-c10",
-          "source_id": "baba-yaga-q187002-s1",
-          "host": "www.worldhistory.org",
-          "statement": "Baba Yaga sends her home with a skull containing the fire she was sent to fetch",
-          "statement_id": "Baba Yaga terkait dengan Baba Yaga sends her home with a skull containing the fire she was sent to fetch",
-          "quote": "Baba Yaga sends her home with a skull containing the fire she was sent to fetch",
-          "context": "religious-tradition",
-          "status": "exact"
-        },
-        {
-          "id": "baba-yaga-q187002-c11",
-          "source_id": "baba-yaga-q187002-s1",
-          "host": "www.worldhistory.org",
-          "statement": "In The Frog Princess, Baba Yaga and her sisters play the pivotal role of helping Prince Ivan reunite with his runaway princess",
-          "statement_id": "Baba Yaga terkait dengan In The Frog Princess, Baba Yaga and her sisters play the pivotal role of helping Prince Ivan reunite with his runaway princess",
-          "quote": "In The Frog Princess, Baba Yaga and her sisters play the pivotal role of helping Prince Ivan reunite with his runaway princess",
-          "context": "religious-tradition",
-          "status": "exact"
-        },
-        {
-          "id": "baba-yaga-q187002-c12",
-          "source_id": "baba-yaga-q187002-s2",
-          "host": "www.encyclopedia.com",
-          "statement": "known in Russian folklore as a witch and an ogress",
-          "statement_id": "Baba Yaga terkait dengan known in Russian folklore as a witch and an ogress",
-          "quote": "known in Russian folklore as a witch and an ogress",
-          "context": "religious-tradition",
-          "status": "exact"
-        },
-        {
-          "id": "baba-yaga-q187002-c13",
-          "source_id": "baba-yaga-q187002-s2",
-          "host": "www.encyclopedia.com",
-          "statement": "She is variously depicted as an evil old hag who eats humans, especially children, and as a wise, prophetic old woman.",
-          "statement_id": "Baba Yaga terkait dengan She is variously depicted as an evil old hag who eats humans, especially children, and as a wise, prophetic old woman.",
-          "quote": "She is variously depicted as an evil old hag who eats humans, especially children, and as a wise, prophetic old woman.",
-          "context": "religious-tradition",
-          "status": "exact"
-        },
-        {
-          "id": "baba-yaga-q187002-c14",
-          "source_id": "baba-yaga-q187002-s2",
-          "host": "www.encyclopedia.com",
-          "statement": "Baba Yaga never walks; she either flies in a fiery mortar",
-          "statement_id": "Baba Yaga terkait dengan Baba Yaga never walks; she either flies in a fiery mortar",
-          "quote": "Baba Yaga never walks; she either flies in a fiery mortar",
-          "context": "religious-tradition",
-          "status": "exact"
-        },
-        {
-          "id": "baba-yaga-q187002-c15",
-          "source_id": "baba-yaga-q187002-s3",
-          "host": "www.smithsonianmag.com",
-          "statement": "Baba Yaga is the witch from Slavic folklore who lives in a house on chicken legs.",
-          "statement_id": "Baba Yaga terkait dengan Baba Yaga is the witch from Slavic folklore who lives in a house on chicken legs.",
-          "quote": "Baba Yaga is the witch from Slavic folklore who lives in a house on chicken legs.",
-          "context": "modern-popular-culture",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250912230604id_/https://www.smithsonianmag.com/blogs/smithsonian-american-art-museum/2019/01/18/embrace-dust-burning-man-journal/",
-          "detail": "HTTP 403; dicek lewat arsip Wayback"
-        }
-      ],
+      "claims": [],
       "images": []
     }
   ]
