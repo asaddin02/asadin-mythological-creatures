@@ -4,5 +4,8 @@ Pemeriksaan menemukan masalah di bawah. Perbaiki semuanya, lalu kirim ulang **en
 
 Kalau kutipan tidak ditemukan, jangan mengubahnya supaya terlihat cocok. Buka lagi halamannya dan salin teks yang benar-benar ada, atau hapus klaim itu beserta teks yang bergantung padanya.
 
-## nocnitsa
-- `claims (nocnitsa-c01)`: Kutipan berasal dari bagian Wikipedia "Folklore [edit] This section does not cite any sources. Plea" yang ditandai tidak mencantumkan sumber. Dukung klaim ini dengan sumber lain yang independen, atau hapus.
+## kutkh
+- `claims (kutkh-c06)`: Klaim ini tidak dirujuk bagian teks mana pun.
+
+## psoglav
+- `claims (psoglav-c02)`: Kalimat yang dikutip ditandai "citation needed/butuh rujukan" di Wikipedia. Dukung klaim ini dengan sumber lain yang independen, atau hapus.
