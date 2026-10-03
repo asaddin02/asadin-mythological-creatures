@@ -1,0 +1,1594 @@
+{
+  "lane": "c",
+  "target": 50,
+  "items": [
+    {
+      "slug": "afanc",
+      "exact_prompt": "Use case: illustration-story. Asset: square mythology encyclopedia illustration. Subject: Afanc, depicting ONLY the documented crocodile-like variant of this Welsh lake monster. A huge thick-skinned crocodilian with a long toothed snout, four squat legs and a long heavy tapering tail, emerging onto a stony bank of a misty Welsh upland lake. Show all defining anatomy in three-quarter side view. No beaver parts, no horns, no wings, no humanoid parts. Style: richly detailed painterly folklore illustration, natural textures, atmospheric light, readable silhouette, cohesive earth colors. Composition: square image, subject fully visible, dominant in frame, no cropped identifying anatomy. Constraints: no words, labels, frame, watermark, modern objects, gore. Create one illustration.",
+      "depicted_variant": "Crocodile-like Welsh lake monster",
+      "basis_claim_ids": [
+        "afanc-c01",
+        "afanc-c02",
+        "afanc-c05"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-2e82dbd4-cd54-4ac3-84c7-64dba38ad0cd.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Crocodilian snout, armored hide, heavy tail and squat forelegs are clearly visible at a lake shore; consistent with selected crocodile variant. Hind legs partially occluded by water and torso."
+      },
+      "canonical_name": "Afanc",
+      "review_path": "data/gemini/reviews/batch-116.review.json",
+      "basis_claims": [
+        {
+          "id": "afanc-c01",
+          "source_id": "afanc-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The afanc (Addanc) is a Welsh lake monster resembling a crocodile, beaver, dwarf or platypus, sometimes a demon.",
+          "statement_id": "Afanc (Addanc) monster danau mitologi Wales (Welsh), mirip buaya, berang-berang, kerdil, platipus, atau iblis; di Britania Raya.",
+          "quote": "is a lake monster from Welsh mythology. Its exact description varies, being described as resembling a crocodile, beaver or dwarf-like creature, or a platypus and is sometimes said to be a demon.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "afanc-c02",
+          "source_id": "afanc-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It lives in Llyn Llion, Llyn Barfog, near Brynberian Bridge or Llyn yr Afanc on the Afon Conwy near Betws-y-coed.",
+          "statement_id": "Tempatnya Llyn Llion, Llyn Barfog, dekat Brynberian Bridge, atau Llyn yr Afanc di Afon Conwy dekat Betws-y-coed.",
+          "quote": "The lake in which it dwells is also uncertain and it is variously said to live in Llyn Llion, Llyn Barfog, near Brynberian Bridge or in Llyn yr Afanc, a pool on the Afon Conwy near Betws-y-coed that was named after the creature.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "afanc-c05",
+          "source_id": "afanc-s2",
+          "host": "de.wikipedia.org",
+          "statement": "Its very tough hide (sehr starke Haut) is hard to wound with ordinary weapons.",
+          "statement_id": "Kulitnya sangat kuat (sehr starke Haut), sulit dilukai senjata biasa.",
+          "quote": "Es besitzt eine sehr starke Haut, was es sehr schwer, wenn nicht gar unmöglich macht, es mit herkömmlichen Waffen zu verletzen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/afanc-verified.webp"
+    },
+    {
+      "slug": "akkorokamui",
+      "exact_prompt": "Use case: illustration-story. Asset: square mythology encyclopedia illustration. Subject: Akkorokamui, the giant octopus-like being of Ainu folklore, immense octopus rising through the coastal water of Uchiura Bay. One rounded octopus mantle, two eyes and exactly eight distinct supple arms bearing paired rows of suckers. Spread the arms organically with clear separations, some reaching over low rocks. Emphasize the vast scale against tiny distant headland pines. Anatomically octopus-like, no dragon head, no claws, no wings. Style: richly detailed painterly folklore illustration, natural textures, atmospheric light, readable silhouette, cohesive earth colors. Composition: square image, subject fully visible, dominant in frame, no cropped identifying anatomy. Constraints: no words, labels, frame, watermark, modern objects, gore. Create one illustration.",
+      "depicted_variant": "Giant octopus of Uchiura Bay",
+      "basis_claim_ids": [
+        "akkorokamui-c01",
+        "akkorokamui-c02"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-8f9552e7-ac9a-4997-8700-cb7c67ad9541.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Giant octopus mantle, paired eyes and multiple sucker-lined arms are clearly visible against coastal cliffs; lower arm roots are water-occluded, so exact eight-arm count cannot be independently confirmed. No conflicting dragon features."
+      },
+      "canonical_name": "Akkorokamui",
+      "review_path": "data/gemini/reviews/batch-050.review.json",
+      "basis_claims": [
+        {
+          "id": "akkorokamui-c01",
+          "source_id": "akkorokamui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Akkorokamui is a giant octopus-like being in Ainu folklore associated with Uchiura Bay.",
+          "statement_id": "Akkorokamui adalah makhluk besar menyerupai gurita dalam folklor Ainu, dikaitkan dengan Teluk Uchiura.",
+          "quote": "Akkorokamui (Japanese: アッコロカムイ; Ainu: At-kor-kamuy) is a gigantic octopus-like cryptid from Ainu folklore, similar to the Nordic kraken, which supposedly lurks in Uchiura Bay in Hokkaido.",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "akkorokamui-c02",
+          "source_id": "akkorokamui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Legend puts its body at up to a hectare in area.",
+          "statement_id": "Legenda memperkirakan tubuhnya dapat mencapai luas satu hektare.",
+          "quote": "It is said that its enormous body can reach sizes of up to 1 hectare (110,000 square feet) or roughly 100 metres (330 feet) or more across.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/akkorokamui-verified.webp"
+    },
+    {
+      "slug": "arkan-sonney",
+      "exact_prompt": "Use case: illustration-story. Asset: square mythology encyclopedia illustration. Subject: Arkan Sonney, the lucky fairy pig of Manx folklore, as a small white pig with distinctly red eyes and red ears standing on a mossy path in an Isle of Man woodland. Full body, four short pig legs, cloven hooves, rounded pig snout, curled pig tail; bright white bristles and visibly red ears. A gentle enchanted presence. Depict ONLY the pig variant, no hedgehog spines, no wings, no human features. Style: richly detailed painterly folklore illustration, natural textures, atmospheric light, readable silhouette, cohesive earth colors. Composition: square image, subject fully visible, dominant in frame, no cropped identifying anatomy. Constraints: no words, labels, frame, watermark, modern objects, gore. Create one illustration.",
+      "depicted_variant": "Manx white fairy pig with red eyes and ears",
+      "basis_claim_ids": [
+        "arkan-sonney-c02",
+        "arkan-sonney-c04"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-234ded65-86d0-463b-886f-eee99f38350d.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "White pig with red eyes and ears, four visible cloven feet and curled tail; full identifying anatomy matches selected Manx pig variant."
+      },
+      "canonical_name": "Arkan sonney",
+      "review_path": "data/gemini/reviews/batch-117.review.json",
+      "basis_claims": [
+        {
+          "id": "arkan-sonney-c02",
+          "source_id": "arkan-sonney-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A fairy animal shaped like a white pig bringing fortune; seeing the lucky piggy is a good omen.",
+          "statement_id": "Hewan peri berwujud babi putih pembawa keberuntungan; melihat lucky piggy pertanda baik.",
+          "quote": "The arkan sonney is a type of fairy animal that takes the form of a white pig that brings good fortune to those who manage to catch it. It was even considered a favourable omen just to have seen the \"lucky piggy\".",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "arkan-sonney-c04",
+          "source_id": "arkan-sonney-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Fairy Tales From the Isle of Man (1951) by Dora Broome: red eyes and ears; changes size, not shape.",
+          "statement_id": "Fairy Tales From the Isle of Man (1951), Dora Broome: mata dan telinga merah, ubah ukuran bukan wujud.",
+          "quote": "In Fairy Tales From the Isle of Man (1951) by Dora Broome, the white pig is described as having red eyes and ears, and though it can alter its size it is not able to change its shape.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/arkan-sonney-verified.webp"
+    },
+    {
+      "slug": "barmanou",
+      "exact_prompt": "Use case: illustration-story. Asset: square mythology encyclopedia illustration. Subject: Barmanou of Chitral and Karakoram folklore: a robust shaggy brown-haired bipedal humanoid primate with clearly human and ape traits, long arms, broad face, walking upright along a rocky mountain pass. A rough animal hide drapes across its back and partly over its head, distinguishable from its own fur. Entire figure and both feet visible. No weapons, no modern clothing, no horns. Style: richly detailed painterly folklore illustration, atmospheric natural light and tactile textures, readable silhouette. Square composition, subject dominant and uncropped. No labels, text, border, watermark, gore. Create one illustration.",
+      "depicted_variant": "Hairy biped wearing animal skins",
+      "basis_claim_ids": [
+        "barmanou-c01",
+        "barmanou-c03",
+        "barmanou-c04"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-05532cf2-5a0a-4b86-a288-d2bc08508119.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Upright hairy humanoid primate with two feet, animal hide distinctly covering head/back; mountain setting matches. Sober rather than horror mood, generated before steering."
+      },
+      "canonical_name": "Barmanou",
+      "review_path": "data/gemini/reviews/batch-137.review.json",
+      "basis_claims": [
+        {
+          "id": "barmanou-c01",
+          "source_id": "barmanou-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Barmanou is a bipedal humanoid primate cryptid said to inhabit the mountains of northern Afghanistan and Pakistan.",
+          "statement_id": "Barmanou adalah kriptid primata mirip manusia berjalan dua kaki yang konon menghuni pegunungan Afganistan utara dan Pakistan.",
+          "quote": "is a bipedal humanoid primate cryptid that is said to inhabit the mountainous region of northern Afghanistan and Pakistan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "barmanou-c03",
+          "source_id": "barmanou-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Its supposed range covers the Chitral and Karakoram ranges, between the Pamirs and the Himalayas.",
+          "statement_id": "Wilayah jelajahnya diduga meliputi Pegunungan Chitral dan Karakoram, di antara Pamir dan Himalaya.",
+          "quote": "The proposed range of the Barmanou covers the Chitral and Karakoram Ranges, between the Pamirs and the Himalayas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "barmanou-c04",
+          "source_id": "barmanou-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Barmanou allegedly has human and ape traits, is known for abducting women, and is said to wear animal skins on its back and head.",
+          "statement_id": "Barmanou konon berciri manusia sekaligus kera, terkenal menculik perempuan, dan dilaporkan memakai kulit binatang di punggung dan kepalanya.",
+          "quote": "The Barmanou allegedly possesses both human and apelike characteristics, and has a reputation for abducting women and attempting to mate with them. It is also reported to wear animal skins upon its back and head.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/barmanou-verified.webp"
+    },
+    {
+      "slug": "beast-of-gevaudan",
+      "exact_prompt": "Use case: illustration-story. Asset: square mythology encyclopedia illustration. Subject: Beast of Gévaudan, rendered as the documented wolf-like tawny-russet beast: calf-sized four-legged canine predator, reddish tawny coat with dark stripes, a clear dark stripe down its spine and an unusually long tail ending in a dark tuft. Fearsome teeth visible without blood. Full side-three-quarter view crossing a moorland field beneath the Margeride Mountains. Not a certainty about historical species; portray the legendary witness description. No horns, no wings. Style: richly detailed painterly folklore illustration, atmospheric natural light and tactile textures, readable silhouette. Square composition, subject dominant and uncropped. No labels, text, border, watermark, gore. Create one illustration.",
+      "depicted_variant": "Tawny-russet wolf-like witness-description variant",
+      "basis_claim_ids": [
+        "beast-of-gevaudan-c01",
+        "beast-of-gevaudan-c02",
+        "beast-of-gevaudan-c03",
+        "beast-of-gevaudan-c04"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-b0413ea5-a6d4-403a-9290-13a0c9db55ad.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Russet canine beast has dark stripes, dark dorsal band and long tufted tail. Four feet and bared teeth visible; threatening alert pose."
+      },
+      "canonical_name": "Beast of Gévaudan",
+      "review_path": "data/gemini/reviews/batch-128.review.json",
+      "basis_claims": [
+        {
+          "id": "beast-of-gevaudan-c01",
+          "source_id": "beast-of-gevaudan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Beast of Gévaudan (La Bête du Gévaudan) is the historic name for one or more man-eating cryptids that terrorised the former province of Gévaudan in the Margeride Mountains of south-central France between 30 June 1764 and 19 June 1767.",
+          "statement_id": "Binatang Gévaudan (La Bête du Gévaudan) adalah nama historis untuk satu atau lebih kriptid pemangsa manusia yang meneror bekas provinsi Gévaudan di Pegunungan Margeride, Prancis selatan-tengah, antara 30 Juni 1764 dan 19 Juni 1767.",
+          "quote": "The Beast of Gévaudan ... is the historic name associated with a man-eating cryptid or cryptids that terrorized the former province of Gévaudan ... in the Margeride Mountains of south-central France between 30 June 1764 and 19 June 1767.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "beast-of-gevaudan-c02",
+          "source_id": "beast-of-gevaudan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Contemporary witnesses said the attacks were by one or more tawny-russet beasts with dark stripes and a dark stripe down the back, with a tail 'longer than a wolf's' ending in a tuft.",
+          "statement_id": "Menurut saksi mata masa itu, serangan dilakukan satu atau lebih binatang berwarna cokelat kemerahan dengan belang gelap dan garis gelap di punggung, berekor lebih panjang daripada serigala dengan jumbai di ujungnya.",
+          "quote": "were said to have been committed by one or more beasts of a tawny/russet colour with dark streaks/stripes and a dark stripe down its back, a tail \"longer than a wolf's\" ending in a tuft according to contemporary eyewitnesses.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "beast-of-gevaudan-c03",
+          "source_id": "beast-of-gevaudan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It attacked with fearsome teeth and claws, looked the size of a calf or cow, and seemed to fly or bound across fields at its victims.",
+          "statement_id": "Ia menyerang dengan gigi dan cakar yang mengerikan, tampak sebesar anak sapi atau sapi, dan seolah terbang atau melompat melintasi ladang ke arah korbannya.",
+          "quote": "It was said to attack with formidable teeth and claws, and appeared to be the size of a calf or cow and seemed to fly or bound across fields towards its victims.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "beast-of-gevaudan-c04",
+          "source_id": "beast-of-gevaudan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "These descriptions could fit a striped hyena, a large wolf, a large dog or a wolfdog, but its identity is still debated and unsolved.",
+          "statement_id": "Gambaran itu dapat cocok dengan dubuk belang, serigala besar, anjing besar, atau anjing-serigala, tetapi identitasnya masih diperdebatkan sampai kini.",
+          "quote": "These descriptions from the period could identify the beast as a striped hyena, a large wolf, a large dog, or a wolfdog, though its identity is still the subject of debate and remains unsolved to this day.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/beast-of-gevaudan-verified.webp"
+    },
+    {
+      "slug": "cu-sith",
+      "exact_prompt": "Use case: illustration-story. Asset: square mythology encyclopedia illustration. Subject: Cù-sìth, Scottish Highland fairy hound, a huge dog the size of a small cow with a distinctly DARK GREEN SHAGGY COAT, standing fully visible at a rocky cleft on heather-covered moors. Dog head, four dog paws, long shaggy dog tail. The green hair should be clearly visible in soft daylight, not mistaken for black. No horns, wings or human features. Style: richly detailed painterly folklore illustration, atmospheric natural light and tactile textures, readable silhouette. Square composition, subject dominant and uncropped. No labels, text, border, watermark, gore. Create one illustration.",
+      "depicted_variant": "Cow-sized green shaggy fairy hound",
+      "basis_claim_ids": [
+        "cu-sith-c01",
+        "cu-sith-c02"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-4cadb3bf-944c-4502-a6df-da4a3fdb2657.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Large shaggy dark-green dog with four paws and a full tail; rocky Highland moor setting. Generated before horror steering, majestic watchful mood."
+      },
+      "canonical_name": "Cù-sìth",
+      "review_path": "data/gemini/reviews/batch-116.review.json",
+      "basis_claims": [
+        {
+          "id": "cu-sith-c01",
+          "source_id": "cu-sith-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The cù-sìth (coin-shìth) is a mythical hound of Irish and Scottish folklore, cú sídhe; like the Welsh Cŵn Annwn.",
+          "statement_id": "Cù-sìth (coin-shìth) anjing mitos cerita rakyat Irlandia (Irish folklore) dan Skotlandia (Scottish folklore), cú sídhe; mirip Cŵn Annwn Wales (Welsh); di Britania dan Irlandia.",
+          "quote": "is a mythical hound found in Irish folklore and Scottish folklore. In Irish folklore it is spelled cú sídhe, and it also bears some resemblance to the Welsh Cŵn Annwn.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "cu-sith-c02",
+          "source_id": "cu-sith-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Lives in rock clefts and roams the Highland moors; dark green shaggy coat; size of a small cow.",
+          "statement_id": "Tinggal di celah batu, menjelajahi padang Dataran Tinggi (Highlands); bulu hijau gelap; seukuran sapi kecil.",
+          "quote": "The cù-sìth is thought to make its home in the clefts of rocks and to roam the moors of the Highlands. It is usually described as having a shaggy, dark green coat with deeper green fur on the ears and more yellow fur towards the feet. It is said to be the size of a small cow",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/cu-sith-verified.webp"
+    },
+    {
+      "slug": "egg-ghost",
+      "exact_prompt": "Use case: illustration-story. Asset: square mythology encyclopedia illustration. Subject: Dalgyal gwisin, Korean egg ghost, a single uncanny smooth upright egg-shaped pale ghost hovering just above an old rural Korean path in blue twilight. Its entire oval form is featureless: absolutely NO eyes, nose, mouth, face, separate head, arms or legs. Subtle translucent edges and a soft grounded shadow distinguish the spirit from a literal chicken egg. Restrained eerie atmosphere; no other creatures. Style: richly detailed painterly folklore illustration, atmospheric natural light and tactile textures, readable silhouette. Square composition, subject dominant and uncropped. No labels, text, border, watermark, gore. Create one illustration.",
+      "depicted_variant": "Faceless limbless egg-shaped Korean ghost",
+      "basis_claim_ids": [
+        "egg-ghost-c01",
+        "egg-ghost-c02"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-d0c03405-d2fb-4994-8f43-162c43cbdc0b.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Smooth featureless egg-shaped apparition has no face, limbs or separate head; twilight and translucent rim create an eerie presence."
+      },
+      "canonical_name": "Egg ghost",
+      "review_path": "data/gemini/reviews/batch-067.review.json",
+      "basis_claims": [
+        {
+          "id": "egg-ghost-c01",
+          "source_id": "egg-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Egg ghost, or dalgyal gwisin, is a Korean ghost resembling an egg.",
+          "statement_id": "Egg ghost atau dalgyal gwisin adalah hantu Korea yang bentuknya menyerupai telur.",
+          "quote": "Egg ghost refers to dalgyal gwisin (Korean: 달걀귀신), a type of Korean ghost. Its name comes from its resemblance to an egg. It does not have arms, legs, nor a head, not even eyes, nose, or mouth. Legend says that when a person sees an egg ghost, they will die. Its origin and personality are not significant.",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "egg-ghost-c02",
+          "source_id": "egg-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Its portrayal lacks arms, legs, head, eyes, nose, and mouth.",
+          "statement_id": "Penggambarannya tidak memiliki lengan, kaki, kepala, mata, hidung, atau mulut.",
+          "quote": "Egg ghost refers to dalgyal gwisin (Korean: 달걀귀신), a type of Korean ghost. Its name comes from its resemblance to an egg. It does not have arms, legs, nor a head, not even eyes, nose, or mouth. Legend says that when a person sees an egg ghost, they will die. Its origin and personality are not significant.",
+          "context": "traditional-belief",
+          "status": "loose"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/egg-ghost-verified.webp"
+    },
+    {
+      "slug": "black-shuck",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Black Shuck, an immense shaggy black ghost dog with two fiery eyes, standing on all four dog paws by an old East Anglian churchyard at midnight. Full body with heavy tail, snarling canine mouth subtly visible. Choose the 1850 fiery-eyed dog tradition, NOT the alternate single-eye cyclops version. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Taylor fiery-eyed shaggy dog variant",
+      "basis_claim_ids": [
+        "black-shuck-c01",
+        "black-shuck-c03",
+        "black-shuck-c07"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-75b7e55a-e26c-477c-9529-3de954f47d48.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Black shaggy dog, two fiery eyes, four paws and tail all visible; churchyard, rain-dark fur and moonlit fog supply dread."
+      },
+      "canonical_name": "Black Shuck",
+      "review_path": "data/gemini/reviews/batch-116.review.json",
+      "basis_claims": [
+        {
+          "id": "black-shuck-c01",
+          "source_id": "black-shuck-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Black Shuck tales belong to the folklore of Norfolk, Suffolk, the Cambridgeshire Fens and Essex; sometimes an omen of death, sometimes companionable.",
+          "statement_id": "Kisah Black Shuck bagian dari cerita rakyat Norfolk, Suffolk, Cambridgeshire Fens, Essex (East Anglia); kadang pertanda kematian, kadang teman; anjing hitam (Black dog), Old Shuck, Old Shock; Inggris (English folklore), Kepulauan Britania (British Isles); di Britania Raya.",
+          "quote": "Accounts of Black Shuck form part of the folklore of Norfolk, Suffolk, the Cambridgeshire Fens and Essex, and descriptions of the creature's appearance and nature vary considerably; it is sometimes recorded as an omen of death, but, in other instances, is described as companionable.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "black-shuck-c03",
+          "source_id": "black-shuck-s1",
+          "host": "en.wikipedia.org",
+          "statement": "First printed mention by Reverend E. S. Taylor in Notes and Queries, 1850: a shaggy fiery-eyed dog visiting churchyards at midnight.",
+          "statement_id": "Penyebutan tertulis pertama oleh Pendeta (Reverend) E. S. Taylor, Notes and Queries 1850: anjing hitam berbulu, bermata api, mengunjungi pekuburan tengah malam.",
+          "quote": "The first mention in print of \"Black Shuck\" is by Reverend E. S. Taylor in an 1850 edition of the journal Notes and Queries which describes \"Shuck the Dog-fiend\"",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "black-shuck-c07",
+          "source_id": "black-shuck-s2",
+          "host": "de.wikipedia.org",
+          "statement": "Black Shuck (der Alte Shuck) is a mysterious black ghost dog (schwarzen Geisterhundes) said to haunt Norfolk, Essex and Suffolk.",
+          "statement_id": "Black Shuck (der Alte Shuck) anjing hantu hitam (schwarzen Geisterhundes) yang menghantui Norfolk, Essex, Suffolk.",
+          "quote": "Black Shuck oder der Alte Shuck ist der Name eines geheimnisumwobenen schwarzen Geisterhundes, der angeblich in Norfolk, Essex und Suffolk spuken soll.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/black-shuck-verified.webp"
+    },
+    {
+      "slug": "borda-legendary-creature",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Borda, the frightening blindfolded witch of Emilia-Romagna. An eerie old female figure in simple ragged dark rural robes stands beside a Po Valley marsh canal in dense night fog. An opaque cloth blindfold fully covers both eyes. Show full figure, bony hands, bare twisted trees, still water. No pointed witch hat, no broom, no horns, no victims. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Blindfolded marsh witch",
+      "basis_claim_ids": [
+        "borda-legendary-creature-c01",
+        "borda-legendary-creature-c02",
+        "borda-legendary-creature-c03"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-d5c8e3f1-5d47-4b82-9216-ea0914664208.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Blindfold entirely covers the old female figure's eyes; worn robe and foggy marsh match Borda; restrained horror comes from face, shadows and isolation."
+      },
+      "canonical_name": "Borda (legendary creature)",
+      "review_path": "data/gemini/reviews/batch-131.review.json",
+      "basis_claims": [
+        {
+          "id": "borda-legendary-creature-c01",
+          "source_id": "borda-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Borda is a legendary creature of the culture of Emilia-Romagna and other parts of the Po Valley in Italy.",
+          "statement_id": "Borda adalah makhluk legendaris dalam budaya Emilia-Romagna dan daerah lain di Lembah Po, Italia.",
+          "quote": "The Borda is a legendary creature that belongs to the culture of the Emilia-Romagna and other areas of the Po Valley in Italy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "borda-legendary-creature-c02",
+          "source_id": "borda-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is a kind of witch, blindfolded and horrible, that appears at night and on foggy days and kills anyone unlucky enough to meet her.",
+          "statement_id": "Ia semacam penyihir mengerikan bermata tertutup yang muncul pada malam hari dan hari berkabut, dan membunuh siapa pun yang malang bertemu dengannya.",
+          "quote": "It is a sort of witch that appears, blindfolded and horrible, both at night and on foggy days and kills anyone who has the misfortune to meet her.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "borda-legendary-creature-c03",
+          "source_id": "borda-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It personifies the fear of swamps, ponds and canals, invoked by adults to scare children away from such dangerous places.",
+          "statement_id": "Ia personifikasi ketakutan akan rawa, kolam, dan kanal, yang dipakai orang dewasa untuk menakuti anak-anak agar menjauhi tempat berbahaya itu.",
+          "quote": "It is a personification of the fear related to swamps and marshlands, and to ponds and canals, invoked by adults to scare children and keep them away from such potentially dangerous places.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/borda-legendary-creature-verified.webp"
+    },
+    {
+      "slug": "erdhenne",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Erdhenne, Bavarian household warning spirit, an old ash-grey shaggy short-necked hen standing in the shadowy floor corner of a rustic Alpine house. Normal hen anatomy: one beaked head, compact feathered body, folded wings, two clawed bird legs. It has an uncanny watchful presence as a benign guardian announcing danger, not a demonic monster. Hearth light and creeping floor mist. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Ash-grey shaggy short-necked house hen",
+      "basis_claim_ids": [
+        "erdhenne-c01",
+        "erdhenne-c03",
+        "erdhenne-c04"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-4ea3a980-2c8b-4877-851b-0f0b31737043.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Ash-grey short-necked shaggy hen with normal two-leg bird anatomy in hearth corner; uncanny mist and shadow, without making the guardian demonic."
+      },
+      "canonical_name": "Erdhenne",
+      "review_path": "data/gemini/reviews/batch-111.review.json",
+      "basis_claims": [
+        {
+          "id": "erdhenne-c01",
+          "source_id": "erdhenne-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Erdhenne ('earth hen'), also called Coluber domesticus, Erdhühnlein, Erdglucke, Erdglutsch or Herdhendl, is a German house spirit from the folklore of the Alp region, the Upper Palatinate and Bavaria.",
+          "statement_id": "Erdhenne (\"ayam betina tanah\"), juga disebut Coluber domesticus, Erdhühnlein, Erdglucke, Erdglutsch, atau Herdhendl, adalah roh rumah Jerman dari cerita rakyat kawasan Alpen (Alp), Oberpfalz (Upper Palatinate), dan Bayern (Bavaria).",
+          "quote": "alternatively called Coluber domesticus, Erdhühnlein, Erdglucke, Erdglutsch, or Herdhendl, is a German house spirit originating from German folklore of the Alp region, the Upper Palatinate, and Bavaria.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "erdhenne-c03",
+          "source_id": "erdhenne-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The spirit appears as an old, ash-grey, shaggy short-necked hen; becoming visible, it foretells a death within a year, usually of the one who sees it; another legend says nine clucks and wing-flaps mean the head of the house will fall mortally ill.",
+          "statement_id": "Roh itu tampil sebagai ayam betina tua kelabu abu berbulu kusut berleher pendek; penampakannya meramalkan kematian dalam setahun, biasanya orang yang melihatnya; menurut legenda lain, bila ia berkotek dan mengepakkan sayap sembilan kali, kepala rumah tangga jatuh sakit parah.",
+          "quote": "the spirit appears as an old, ash grey, shaggy hen with a short neck. By becoming visible, the Erdhenne foretells death within a year, usually that of the person it shows itself to. However, according to another legend, should it cluck and flutter its wings nine times, the head of the house would fall deadly ill.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "erdhenne-c04",
+          "source_id": "erdhenne-s2",
+          "host": "de.wikipedia.org",
+          "statement": "This spirit's voice is said to come from the ground or a dark corner of the room, sounding like a hen clucking to her chicks, which gave it its name; like the Unke or the Hausotter (house snake), the Erdhenne is held to be a benign guardian spirit.",
+          "statement_id": "Suara roh ini konon keluar dari tanah atau sudut gelap ruangan, terdengar seperti kotek induk ayam yang menuntun anak-anaknya, sehingga ia dinamai demikian; seperti Unke atau Hausotter (ular rumah), Erdhenne dianggap roh pelindung yang baik.",
+          "quote": "Die Stimme dieses Geistwesens soll aus dem Erdboden oder einer dunklen Ecke der Stube dringen und wie das Glucksen, beziehungsweise Piepsen, einer Henne klingen, die Küklein führt, was ihm den Namen einbrachte. Die Erdhenne soll, wie die Unke oder die Hausotter ein gutartiger Schutzgeist sein",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/erdhenne-verified.webp"
+    },
+    {
+      "slug": "gulon",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Gulon of Scandinavian legend, a dog-sized dog-shaped shaggy brown quadruped with a clearly CAT-LIKE HEAD and CAT EARS, feline clawed paws, and a thick bushy FOX-LIKE TAIL. Its compact dog-shaped torso looks heavy and gluttonous. Stand in three-quarter profile between two trees in a Nordic forest. All four feet, feline head and full fox tail visible. Not a wolf head, no antlers, no wings. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Dog body with cat head/claws and fox tail",
+      "basis_claim_ids": [
+        "gulon-c01",
+        "gulon-c03"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-26f3983a-a604-46fa-8da8-bdbabe3cebbc.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Cat head/ears, broad doglike quadruped body, exposed feline claws, shaggy brown coat and bushy fox tail are distinct; twilight forest yields numinous unease."
+      },
+      "canonical_name": "Gulon",
+      "review_path": "data/gemini/reviews/batch-111.review.json",
+      "basis_claims": [
+        {
+          "id": "gulon-c01",
+          "source_id": "gulon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The gulon looks like a mix of animals, usually dog-sized and dog-shaped with cat-like head, ears and claws, a thick shaggy brown coat and a fox-like tail.",
+          "statement_id": "Gulon tampak seperti campuran berbagai hewan, biasanya seukuran dan sebentuk anjing dengan kepala, telinga, dan cakar seperti kucing, berbulu cokelat tebal yang kusut dan berekor seperti rubah.",
+          "quote": "It resembles a hodgepodge of various animals, usually described as being the size and shape of a dog, with some cat-like features such as the head, ears, and claws. It also supposedly has a thick coat of shaggy brown fur and a tail resembling that of a fox.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gulon-c03",
+          "source_id": "gulon-s2",
+          "host": "sv.wikipedia.org",
+          "statement": "The jerff, modern spelling järv, is in Scandinavian legend a blend of animals resembling a dog with a cat's head and claws, a thick coat and a fox-like tail; in Germany it is Vielfraß and in English Gulon.",
+          "statement_id": "Jerff, dalam ejaan modern Järv, dalam legenda Skandinavia adalah campuran berbagai hewan yang mirip anjing dengan kepala dan cakar kucing, berbulu tebal dan berekor seperti rubah; di Jerman ia dikenal sebagai Vielfraß dan dalam bahasa Inggris Gulon.",
+          "quote": "En Jerff eller med modern stavning Järv, är inom skandinavisk legend en blandning av olika djur men som ska likna en hund, med huvud och klor av en katt. Den ska även ha en tjock päls och en svans liknande den på en räv. I Tyskland är varelsen känd som Vielfraß och på engelska heter det Gulon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/gulon-verified.webp"
+    },
+    {
+      "slug": "gonggong",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Gonggong, Chinese water deity: formidable human male upper body and long coiled serpent lower body in a flooded rocky gorge, long RED HAIR flowing and a dark iron-like FOREHEAD clearly visible above the eyes. The human and serpent anatomy meet naturally at the waist. He rises from surging floodwater under storm clouds. No added dragon horns or wings. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Human-serpentine water deity, red hair and iron forehead",
+      "basis_claim_ids": [
+        "gonggong-c01",
+        "gonggong-c02",
+        "gonggong-c04"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-d511c5f2-b79f-4345-b69c-10fc47ff40d5.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Human upper body joins scaled serpent coils; red hair and dark metallic forehead clearly visible in stormy floods. Powerful ominous deity, no added horns."
+      },
+      "canonical_name": "Gonggong",
+      "review_path": "data/gemini/reviews/batch-066.review.json",
+      "basis_claims": [
+        {
+          "id": "gonggong-c01",
+          "source_id": "gonggong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Gonggong is a Chinese water deity portrayed with human and serpentine features.",
+          "statement_id": "Gonggong adalah dewa air dalam mitologi Tiongkok dengan ciri manusia dan ular.",
+          "quote": "Gonggong (/ˈɡɒŋɡɒŋ/) is a Chinese water god who is depicted in Chinese mythology and folktales as having a copper human head with an iron forehead, red hair, and the body of a serpent, or sometimes the head and torso are human, with the tail of a serpent. He is destructive and is blamed for various cosmic catastrophes.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gonggong-c02",
+          "source_id": "gonggong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "His portrayal includes red hair and an iron forehead.",
+          "statement_id": "Penggambarannya mencakup rambut merah dan dahi besi.",
+          "quote": "Gonggong (/ˈɡɒŋɡɒŋ/) is a Chinese water god who is depicted in Chinese mythology and folktales as having a copper human head with an iron forehead, red hair, and the body of a serpent, or sometimes the head and torso are human, with the tail of a serpent. He is destructive and is blamed for various cosmic catastrophes.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "gonggong-c04",
+          "source_id": "gonggong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Gonggong is linked to great floods alongside his subordinate Xiangliu.",
+          "statement_id": "Gonggong dikaitkan dengan banjir besar bersama bawahannya Xiangliu.",
+          "quote": "Gonggong was credited in various mythological contexts as being responsible for great floods, often in concert with his minister Xiangliu (a.k.a. Xiangyao), who has nine heads and the body of a snake.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/gonggong-verified.webp"
+    },
+    {
+      "slug": "grafton-monster",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Grafton Monster of West Virginia: an immense tall pale humanoid cryptid with broad rounded shoulders and NO VISIBLE HEAD, no face anywhere, long thick arms hanging down and two sturdy legs. Its neck region simply slopes between high shoulders, uncanny but not injured or severed. Full figure at the edge of a dark Appalachian roadside woodland, fog skirting its ankles. No gore or wounds. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Tall pale apparently headless humanoid",
+      "basis_claim_ids": [
+        "grafton-monster-c01",
+        "grafton-monster-c02"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-f87bc4a8-9466-4e73-aca5-e7a7e87b88d9.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Very tall pale humanoid has no visible head or face and no wound; long arms, two legs and foggy roadside convey dread."
+      },
+      "canonical_name": "Grafton monster",
+      "review_path": "data/gemini/reviews/batch-148.review.json",
+      "basis_claims": [
+        {
+          "id": "grafton-monster-c01",
+          "source_id": "grafton-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In West Virginia folklore, the Grafton Monster is a cryptid reported around Grafton in 1964.",
+          "statement_id": "Dalam cerita rakyat West Virginia, Monster Grafton adalah kriptid yang dilaporkan di sekitar Grafton pada 1964.",
+          "quote": "In West Virginia folklore, the Grafton Monster is a cryptid reported in and around Grafton, West Virginia, primarily associated with a cluster of sightings and local publicity in 1964.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "grafton-monster-c02",
+          "source_id": "grafton-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The creature is portrayed as very tall, pale, sometimes appearing headless and producing whistling.",
+          "statement_id": "Makhluk ini digambarkan sangat tinggi, berkulit pucat, kadang tampak tanpa kepala dan bersiul ganjil.",
+          "quote": "Descriptions vary by source, but the creature is commonly portrayed as a very tall, pale or light-colored figure, sometimes described as appearing headless and producing an unusual whistling sound.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/grafton-monster-verified.webp"
+    },
+    {
+      "slug": "harionago",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Harionago, Japanese yokai on a remote Shikoku road: a sinister adult woman in a modest faded kimono, with exceptionally long black hair drifting outward in strands whose ends terminate in small sharp metal-like HOOKS. Make several hook-shaped tips unmistakably visible against mist at either side of her body. Calm unsettling smile, human face and two arms, no extra body appendages. Full figure on old mountain road at dusk. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Roadside woman with hooked hair tips",
+      "basis_claim_ids": [
+        "harionago-c01",
+        "harionago-c02",
+        "harionago-c03"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-089c989b-dbeb-40ca-b770-6c261b0c527e.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Woman in kimono has long black hair with multiple unmistakable hooked ends; twilight roadside and quiet smile maintain eerie aura."
+      },
+      "canonical_name": "Harionago",
+      "review_path": "data/gemini/reviews/batch-052.review.json",
+      "basis_claims": [
+        {
+          "id": "harionago-c01",
+          "source_id": "harionago-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Harionago is a Japanese yōkai said to prey on young men.",
+          "statement_id": "Harionago adalah yōkai Jepang yang konon memangsa pria muda.",
+          "quote": "a yokai in Japanese folklore that preys on young men.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "harionago-c02",
+          "source_id": "harionago-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She is said to appear on roads in Shikoku.",
+          "statement_id": "Ia konon muncul di jalanan Shikoku.",
+          "quote": "Harionago appears along roads on the island of Shikoku as an attractive young woman with long black hair.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "harionago-c03",
+          "source_id": "harionago-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Stories give her long hair tipped with hooks.",
+          "statement_id": "Kisah-kisah memberinya rambut panjang berujung kait.",
+          "quote": "The strands of her hair are prehensile and tipped with sharp barbed hooks.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/harionago-verified.webp"
+    },
+    {
+      "slug": "indrik",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Indrik, mighty beast of Russian folklore on the sacred mountain: gigantic muscular BULL TORSO supported on four slender DEER LEGS with cloven hooves, a clear HORSE HEAD, and ONE enormous horn emerging from its SNOUT above the nose. The horn is on the snout, not forehead; NO bull horns on the crown, no antlers. Entire hybrid body in profile on a lonely crag. Awe and earth-shaking weight, not evil. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Bull body, deer legs, horse head, single snout horn",
+      "basis_claim_ids": [
+        "indrik-c01",
+        "indrik-c02"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-383c66af-4469-4122-91d3-e388d1b13fe7.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Horse head bears single enormous snout horn; bull torso and four slender cloven deer legs visible. No crown horns. Stormy sacred crag gives numinous weight."
+      },
+      "canonical_name": "Indrik",
+      "review_path": "data/gemini/reviews/batch-122.review.json",
+      "basis_claims": [
+        {
+          "id": "indrik-c01",
+          "source_id": "indrik-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Indrik (the Indrik-Beast) of the Dove Book and Russian folklore is a fabulous beast, king of all animals, living on \"the Holy Mountain\" where no other foot may tread; when it stirs the earth trembles.",
+          "statement_id": "Indrik (Binatang Indrik) dalam Kitab Merpati dan cerita rakyat Rusia adalah binatang dongeng, raja segala binatang, yang tinggal di \"Gunung Suci\" yang tak boleh diinjak kaki lain; bila bergerak, bumi bergetar.",
+          "quote": "is a fabulous beast, the king of all animals, who lives on a mountain known as \"The Holy Mountain\" where no other foot may tread. When it stirs, the Earth trembles.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "indrik-c02",
+          "source_id": "indrik-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is described as a gigantic bull with deer legs, a horse head and an enormous horn on its snout, vaguely like a rhinoceros.",
+          "statement_id": "Ia digambarkan sebagai banteng raksasa berkaki rusa, berkepala kuda, dan bercula besar di moncong, agak mirip badak.",
+          "quote": "It is described as a gigantic bull with legs of a deer, the head of a horse and an enormous horn in its snout, making it vaguely similar to a rhinoceros.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/indrik-verified.webp"
+    },
+    {
+      "slug": "jimmy-squarefoot",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Jimmy Squarefoot of the Isle of Man: a tall bipedal figure with a tusked PIG HEAD and humanoid body, wearing rough simple old clothing. Its two LARGE FEET are wrapped thickly in pale CALICO CLOTH into SQUARE blocklike bundles, clearly visible at bottom of full-body composition. Standing near a rocky cave under South Barrule, quiet uncanny menace. No extra limbs, not a quadruped boar. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Tusked pig-headed biped with calico-wrapped feet",
+      "basis_claim_ids": [
+        "jimmy-squarefoot-c01",
+        "jimmy-squarefoot-c02",
+        "jimmy-squarefoot-c05"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-4c4c95b7-c1cc-4556-8730-c48812cf9ac2.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Pig-headed tusked biped with oversized square calico-wrapped feet, two arms and two legs; shadowed cave backdrop gives eerie mood."
+      },
+      "canonical_name": "Jimmy Squarefoot",
+      "review_path": "data/gemini/reviews/batch-118.review.json",
+      "basis_claims": [
+        {
+          "id": "jimmy-squarefoot-c01",
+          "source_id": "jimmy-squarefoot-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Jimmy Squarefoot, a bipedal pig-headed creature of Manx folklore, Isle of Man.",
+          "statement_id": "Jimmy Squarefoot, makhluk berkaki dua berkepala babi folklor Manx, Pulau Man (Isle of Man).",
+          "quote": "In Manx folklore, Jimmy Squarefoot is a legendary bipedal pig-headed creature living on the Isle of Man.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jimmy-squarefoot-c02",
+          "source_id": "jimmy-squarefoot-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ridden by a Foawr, stone-throwing giant of Cronk yn Irree Lhaa, husband of the Caillagh ny Groamagh; tusked pig-headed man or white boar.",
+          "statement_id": "Ditunggangi Foawr, raksasa pelempar batu di Cronk yn Irree Lhaa, suami Caillagh ny Groamagh; lelaki berkepala babi bertaring atau babi hutan putih.",
+          "quote": "He is thought to have once been ridden by an unnamed Foawr, a type of stone-throwing giant, living on Cronk yn Irree Lhaa who may have been the husband of the Caillagh ny Groamagh.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jimmy-squarefoot-c05",
+          "source_id": "jimmy-squarefoot-s2",
+          "host": "de.wikipedia.org",
+          "statement": "Large feet wrapped in calico look square, hence the name Squarefoot.",
+          "statement_id": "Kaki besar dibalut kain belacu tampak persegi, asal nama Squarefoot.",
+          "quote": "Seine großen Füße sind mit Kaliko-Bändern umwickelt und wirken quadratisch, daher der Name „Squarefoot“.",
+          "context": "etymology",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/jimmy-squarefoot-verified.webp"
+    },
+    {
+      "slug": "kalavinka",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Kalavinka, immortal Buddhist singing creature, in the Chinese human-headed bird variant. A serene adult HUMAN HEAD rises directly from a fully FEATHERED BIRD BODY with two folded feathered wings, two bird feet and a long flowing feather tail. No human torso or arms. Perched upon a dark rock in a misty lotus garden, lips slightly parted as if singing. Sacred numinous presence, not a demon; soft rim light makes the hybrid identity unmistakable. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Human-headed bird with long tail",
+      "basis_claim_ids": [
+        "kalavinka-c01",
+        "kalavinka-c06"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-56e0c581-5428-400b-b707-511c313d943c.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Human head joins fully feathered bird body with long tail and two bird feet; no human arms. Sacred misty lotus setting, numinous expression. Some tail tips extend to frame but defining anatomy is clear."
+      },
+      "canonical_name": "Kalaviṅka",
+      "review_path": "data/gemini/reviews/batch-074.review.json",
+      "basis_claims": [
+        {
+          "id": "kalavinka-c01",
+          "source_id": "kalavinka-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Kalavinka is an immortal Buddhist creature with a human head, bird body, and long tail.",
+          "statement_id": "Kalavinka adalah makhluk abadi Buddha berkepala manusia dan berbadan burung dengan ekor panjang.",
+          "quote": "is a fantastical immortal creature in Buddhism, with a human head and a bird's torso, with long flowing tail.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kalavinka-c06",
+          "source_id": "kalavinka-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "The Japanese source compares human headed Chinese paintings with Japanese art giving the upper body a winged bodhisattva form.",
+          "statement_id": "Sumber Jepang membandingkan lukisan Tiongkok berkepala manusia dengan seni Jepang yang memberi bagian atas berbentuk bodhisattva bersayap.",
+          "quote": "中国の仏教壁画などには人頭鳥身で表されるが、日本の仏教美術では、有翼の菩薩形の上半身に鳥の下半身の姿で描かれてきた。",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/kalavinka-verified.webp"
+    },
+    {
+      "slug": "krahang",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Krahang of Thai folklore: a shirtless adult man in a traditional loincloth flying low above a rural rice field at night. He rides astride ONE LONG WOODEN RICE-POUNDING PESTLE; his two arms each hold ONE ROUND WOVEN RICE-WINNOWING BASKET outward like wings, total exactly TWO circular baskets. Human arms and legs remain normal, no biological wings. Full body plus both baskets and wooden pestle visible; unsettling moonlit rural specter. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Flying loincloth-clad man with two winnowing baskets and pestle",
+      "basis_claim_ids": [
+        "krahang-c01",
+        "krahang-c02"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-27725f44-efdd-44ce-aa6d-057f4e1047bc.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Shirtless loincloth-clad man astride single pestle holding exactly two round rice-winnowing baskets. Full equipment visible; ominous night sky."
+      },
+      "canonical_name": "Krahang",
+      "review_path": "data/gemini/reviews/batch-012.review.json",
+      "basis_claims": [
+        {
+          "id": "krahang-c01",
+          "source_id": "krahang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Krahang (กระหัง) is a male spirit of Thai folklore appearing as a shirtless man in a traditional loincloth who flies at night.",
+          "statement_id": "Krahang (กระหัง) adalah roh laki-laki cerita rakyat Thailand yang tampil sebagai laki-laki bertelanjang dada bercawat tradisional yang terbang di malam hari.",
+          "quote": "is a male spirit of the Thai folklore. It manifests itself as a shirtless man, wearing a traditional loincloth, who flies in the night.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "krahang-c02",
+          "source_id": "krahang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Krahang uses two kradong, round rice-winnowing baskets, to fly at night in rural Thailand, and often rides a long wooden rice-pounding pestle.",
+          "statement_id": "Krahang memakai dua kradong, tampah bundar penampi beras, untuk terbang malam hari di pedesaan Thailand, dan sering menunggangi alu kayu panjang penumbuk padi.",
+          "quote": "Krahang uses two large kradong (กระด้ง), round rice winnowing baskets, to fly in the night in rural areas of Thailand. It also often rides a sak tam khao (สากตำข้าว), the long wooden pestle of a traditional manual rice pounder.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/krahang-verified.webp"
+    },
+    {
+      "slug": "leprechaun",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Leprechaun of Irish folklore, traditional pre-twentieth-century RED clothing variant: a diminutive elderly bearded man in an old red coat sits on a low stool, cobbling a tiny leather shoe by a tree root. Small awl, leather scraps and a restrained pot of gold near his feet. Full little figure, mischievous knowing expression; moonlit Irish woodland makes the encounter uncanny. No green costume, no rainbow spectacle, no modern logos. A solitary fairy, not an evil monster. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Traditional red-clothed bearded cobbler",
+      "basis_claim_ids": [
+        "leprechaun-c01",
+        "leprechaun-c04",
+        "leprechaun-c08"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-c7e332d7-c465-42cc-ad98-233b18db7af5.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Small bearded red-clad shoemaker cobbles a shoe beside gold pot; mischievous expression and moonlit woodland retain folkloric uncanny mood."
+      },
+      "canonical_name": "Leprechaun",
+      "review_path": "data/gemini/reviews/batch-115.review.json",
+      "basis_claims": [
+        {
+          "id": "leprechaun-c01",
+          "source_id": "leprechaun-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A leprechaun (Irish: leipreachán) is a diminutive supernatural being of Irish folklore, a solitary fairy, a little bearded man of mischief, and a shoemaker with a pot of gold at the rainbow's end.",
+          "statement_id": "Leprechaun (Irish: leipreachán) adalah makhluk gaib kecil cerita rakyat Irlandia (Irish folklore), peri penyendiri (solitary fairy), lelaki kecil berjanggut yang usil, dan pembuat sepatu dengan sepanci emas di ujung pelangi.",
+          "quote": "A leprechaun (Irish: lucharachán/leipreachán/luchorpán ) is a diminutive supernatural being in Irish folklore, classed by some as a type of solitary fairy. They are usually depicted as little bearded men, wearing a coat and hat, who partake in mischief. In later times, they have been depicted as shoe-makers who have a hidden pot of gold at the end of the rainbow.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "leprechaun-c04",
+          "source_id": "leprechaun-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The leprechaun is a solitary creature whose main work is making and cobbling shoes and who enjoys practical jokes.",
+          "statement_id": "Leprechaun adalah makhluk penyendiri (solitary) yang pekerjaan utamanya membuat dan menambal sepatu (shoes) dan gemar bercanda.",
+          "quote": "The leprechaun is said to be a solitary creature, whose principal occupation is making and cobbling shoes, and who enjoys practical jokes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "leprechaun-c08",
+          "source_id": "leprechaun-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Before the 20th century the leprechaun was generally held to wear red, not green.",
+          "statement_id": "Sebelum abad ke-20 leprechaun umumnya dianggap berpakaian merah (red), bukan hijau (green).",
+          "quote": "Before the 20th century, it was generally held that the leprechaun wore red, not green.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/leprechaun-verified.webp"
+    },
+    {
+      "slug": "likho",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Likho of Slavic folklore as a thin frightening elderly woman in a long black dress, with exactly ONE SINGLE EYE at the center of her forehead and no other eyes or eye sockets. Gaunt face, long bony arms and stooped posture, standing beside a dark forest hut. Full figure, one-eye anatomy very readable, no horns. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "One-eyed skinny old woman in black",
+      "basis_claim_ids": [
+        "likho-c01",
+        "likho-c06"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-a7b9003e-9c25-467d-8a84-61d7a382f578.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "One central eye and no extra eyes on gaunt old woman's face; thin arms and black dress match selected variant. Eerie forest cottage atmosphere."
+      },
+      "canonical_name": "Likho",
+      "review_path": "data/gemini/reviews/batch-122.review.json",
+      "basis_claims": [
+        {
+          "id": "likho-c01",
+          "source_id": "likho-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Likho (Polish licho) embodies evil fate and misfortune in Slavic mythology, a one-eyed creature often shown as a skinny old woman in black (One-eyed Likho) or an evil male forest goblin.",
+          "statement_id": "Likho (Лихо, Polandia licho) adalah perwujudan nasib buruk dan kemalangan dalam mitologi Slavia, makhluk bermata satu yang sering digambarkan sebagai perempuan tua kurus berpakaian hitam (Likho Bermata Satu) atau goblin hutan laki-laki yang jahat.",
+          "quote": "is an embodiment of evil fate and misfortune in Slavic mythology. A creature with one eye who is often depicted as an old, skinny woman in black (Лихо одноглазое, One-eyed Likho) or as an evil male goblin of forests.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "likho-c06",
+          "source_id": "likho-s2",
+          "host": "ru.wikipedia.org",
+          "statement": "In the Russian folk tale \"One-eyed Likho\" it appears as a thin, one-eyed, man-eating giantess.",
+          "statement_id": "Dalam dongeng rakyat Rusia \"Likho Bermata Satu\", Likho tampil sebagai raksasa perempuan kurus bermata satu pemakan manusia.",
+          "quote": "В русской народной сказке «Лихо одноглазое» предстаёт в образе худой одноглазой великанши-людоедки.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/likho-verified.webp"
+    },
+    {
+      "slug": "llamhigyn-y-dwr",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Llamhigyn y Dŵr, Welsh Water Leaper: GIANT FROG HEAD AND ROUND FROG BODY, exactly two broad BAT WINGS replacing forelimbs, absolutely NO LEGS OR FEET, one long LIZARD TAIL ending in a sharp stinger. Hover just above a misty Welsh pond. Full side-three-quarter view showing smooth legless underside, both membranous wings, and complete curved stinging tail. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Legless frog with bat wings and stinging lizard tail",
+      "basis_claim_ids": [
+        "llamhigyn-y-dwr-c01",
+        "llamhigyn-y-dwr-c02",
+        "llamhigyn-y-dwr-c04"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-f3b16b94-f4b6-4cd1-8061-12aad18ad8f3.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Frog head and round body, two bat wings, no legs, long scaled tail with pointed sting visible. Ominous pond matches lore."
+      },
+      "canonical_name": "Llamhigyn y Dŵr",
+      "review_path": "data/gemini/reviews/batch-117.review.json",
+      "basis_claims": [
+        {
+          "id": "llamhigyn-y-dwr-c01",
+          "source_id": "llamhigyn-y-dwr-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Llamhigyn y Dŵr (Welsh for Water Leaper) is an evil creature of Welsh folklore of swamps and ponds.",
+          "statement_id": "Llamhigyn y Dŵr (Wales/Welsh: Water Leaper, Pelompat Air) makhluk jahat cerita rakyat Wales, di rawa dan kolam; di Britania Raya.",
+          "quote": "Llamhigyn y Dŵr (Welsh for 'Water Leaper') is an evil creature from Welsh folklore that lived in swamps and ponds.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "llamhigyn-y-dwr-c02",
+          "source_id": "llamhigyn-y-dwr-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A giant frog with bat's wings, no legs, a lizard tail with a sting; leaps over water on its wings.",
+          "statement_id": "Katak raksasa bersayap kelelawar, tanpa kaki, ekor kadal bersengat; melompat di air dengan sayap.",
+          "quote": "It is described as a giant frog with a bat's wings and zero legs whatsoever, and a long, lizard-like tail with a stinger at the end. It jumps across the water using its wings, hence its name.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "llamhigyn-y-dwr-c04",
+          "source_id": "llamhigyn-y-dwr-s2",
+          "host": "fr.wikipedia.org",
+          "statement": "A giant frog (grenouille géante) with bat (chauve-souris) wings for forelegs, no hind legs, a stinging lizard (lézard) tail.",
+          "statement_id": "Katak raksasa (grenouille géante), sayap kelelawar (chauve-souris) menggantikan kaki depan, tanpa kaki belakang, ekor kadal (lézard) bersengat.",
+          "quote": "Il est décrit comme une grenouille géante avec des ailes de chauve-souris à la place des pattes avant, sans pattes arrière et avec une longue queue de lézard avec un dard à la fin.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/llamhigyn-y-dwr-verified.webp"
+    },
+    {
+      "slug": "matagot",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Matagot of southern French folklore as a sleek black domestic cat with ordinary fur and anatomy, carrying one small old gold coin gently in its mouth as it returns at dawn to a rustic stone threshold. Four paws and a long cat tail visible; knowing eerie gaze, deep surrounding shadows and pale morning mist. Not hairless, not a modern movie design; no horns or extra eyes. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Wealth-bringing black cat",
+      "basis_claim_ids": [
+        "matagot-c01",
+        "matagot-c02",
+        "matagot-c08"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-d413a98e-93aa-44ec-bb5b-8fc86b5d53b8.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Furred black cat with four legs and one tail bringing gold coin at dawn; plausible normal feline anatomy, uncanny stare and mist."
+      },
+      "canonical_name": "Matagot",
+      "review_path": "data/gemini/reviews/batch-129.review.json",
+      "basis_claims": [
+        {
+          "id": "matagot-c01",
+          "source_id": "matagot-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A matagot is a spirit of French folklore that usually takes the form of a black cat.",
+          "statement_id": "Matagot adalah roh dalam cerita rakyat Prancis yang biasanya berwujud kucing hitam.",
+          "quote": "A Matagot is a spirit in French folklore that tends to take the form of a black cat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "matagot-c02",
+          "source_id": "matagot-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Matagots are generally evil, but some help, like the 'magician cat' that brings wealth to a home if well fed.",
+          "statement_id": "Matagot umumnya jahat, tetapi sebagian dapat membantu, seperti \"kucing penyihir\" yang membawa kekayaan ke rumah bila diberi makan dengan baik.",
+          "quote": "Matagots are generally evil, but some may prove helpful, like the \"magician cat\" said to bring wealth into a home if it is well fed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "matagot-c08",
+          "source_id": "matagot-s2",
+          "host": "fr.wikipedia.org",
+          "statement": "It roams mysterious places at night and returns at dawn with gold louis for its master; if neglected or unrewarded it takes offence and may take cruel revenge.",
+          "statement_id": "Ia berkeliaran di tempat misterius pada malam hari dan pulang saat fajar membawa koin emas louis untuk tuannya; bila diabaikan atau tidak diberi imbalan, ia tersinggung dan dapat membalas dengan kejam.",
+          "quote": "Il est censé se promener dans quelques lieux mystérieux pendant la nuit, et revenir à l'aube avec un stock de louis d'or pour son maître. Si celui-ci le néglige ou ne le récompense pas, le chat s'offense et peut se venger cruellement.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/matagot-verified.webp"
+    },
+    {
+      "slug": "mongolian-death-worm",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Olgoi-khorkhoi, Mongolian death worm of the Gobi Desert, a fat bright red intestinal sausage-shaped worm about two feet long lying half-curved across desert gravel. NO distinct head, NO eyes, NO legs, NO teeth or giant mouth. Both ends rounded and continuous with the thick red ridged body. Low camera view with foreboding shadows beneath storm clouds and blowing sand. It should feel unsettling through its red fleshy form, not gore. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Bright red headless legless sausage-shaped worm",
+      "basis_claim_ids": [
+        "mongolian-death-worm-c01",
+        "mongolian-death-worm-c04",
+        "mongolian-death-worm-c07",
+        "mongolian-death-worm-c09"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-2f7dede2-ecfa-4417-9f09-0d267f042935.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Thick bright-red sausage form lacks distinct head, face, legs and teeth; desert setting and storm shadows supply horror without added anatomy."
+      },
+      "canonical_name": "Mongolian death worm",
+      "review_path": "data/gemini/reviews/batch-137.review.json",
+      "basis_claims": [
+        {
+          "id": "mongolian-death-worm-c01",
+          "source_id": "mongolian-death-worm-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Mongolian death worm is a creature alleged to live in the Gobi Desert.",
+          "statement_id": "Cacing maut Mongolia adalah makhluk yang konon hidup di Gurun Gobi.",
+          "quote": "is a creature alleged to exist in the Gobi Desert.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mongolian-death-worm-c04",
+          "source_id": "mongolian-death-worm-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is shaped like a sausage about two feet long, with no head or legs, and so poisonous that touching it means instant death.",
+          "statement_id": "Bentuknya seperti sosis sepanjang sekitar dua kaki, tanpa kepala dan kaki, dan begitu beracun sehingga menyentuhnya berarti mati seketika.",
+          "quote": "It is shaped like a sausage about two feet long, has no head nor legs and is so poisonous that merely to touch it means instant death.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mongolian-death-worm-c07",
+          "source_id": "mongolian-death-worm-s2",
+          "host": "id.wikipedia.org",
+          "statement": "The worm is described as fat and bright red, 0.6 to 1.5 metres long.",
+          "statement_id": "Cacing ini bertubuh gemuk, berwarna merah cerah, dan panjangnya 0,6 hingga 1,5 meter.",
+          "quote": "Cacing ini bertubuh gemuk dan berwarna merah cerah, memiliki panjang 0.6 hingga 1.5 meter.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mongolian-death-worm-c09",
+          "source_id": "mongolian-death-worm-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Because it resembles a cow's intestine, locals call it olgoi-khorkhoi, \"intestine worm\".",
+          "statement_id": "Karena mirip usus sapi, warga setempat menyebutnya olgoi-khorkhoi, \"cacing usus\".",
+          "quote": "牛の腸に似ていることから、現地ではオルゴイホルホイ（olgoi-khorkhoi、モンゴル語: олгой-хорхой、腸虫の意）と呼ばれている。",
+          "context": "etymology",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/mongolian-death-worm-verified.webp"
+    },
+    {
+      "slug": "moon-rabbit",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Moon Rabbit in the Chinese medicine-pounding tradition: a single rabbit, clearly rabbit ears and face, seated upright beside a stone mortar, holding a wooden pestle with both front paws as it pounds medicinal herbs. Rabbit hind feet and tail remain visible. On a desolate luminous lunar rock terrace under the dark sky, subtle dreamlike mist. Sacred numinous solitude, no humanoid body, no clothing, no mooncakes. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Chinese medicine-pounding lunar rabbit",
+      "basis_claim_ids": [
+        "moon-rabbit-c01",
+        "moon-rabbit-c02"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-8e933ce0-319e-4691-bf99-137736717493.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Rabbit holds pestle above herb-filled mortar; ears, hind paws and tail visible. Dreamlike lunar landscape with moon-disc behind, appropriate illustrative lunar association rather than astronomical realism."
+      },
+      "canonical_name": "Moon rabbit",
+      "review_path": "data/gemini/reviews/batch-142.review.json",
+      "basis_claims": [
+        {
+          "id": "moon-rabbit-c01",
+          "source_id": "moon-rabbit-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In East Asian mythology, the rabbit is seen as pounding with a mortar and pestle, but the contents of the mortar differ among Chinese, Japanese, Korean, and Vietnamese folklore.",
+          "statement_id": "Dalam mitologi Asia Timur kelinci tampak menumbuk dengan lesung dan alu.",
+          "quote": "In East Asian mythology, the rabbit is seen as pounding with a mortar and pestle, but the contents of the mortar differ among Chinese, Japanese, Korean, and Vietnamese folklore.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moon-rabbit-c02",
+          "source_id": "moon-rabbit-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In some Chinese versions, the rabbit pounds medicine for the mortals and some include making of mooncakes.",
+          "statement_id": "Dalam beberapa versi Tiongkok kelinci menumbuk obat untuk manusia dan membuat kue bulan.",
+          "quote": "In some Chinese versions, the rabbit pounds medicine for the mortals and some include making of mooncakes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/moon-rabbit-verified.webp"
+    },
+    {
+      "slug": "morvarc-h",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Morvarc'h, Breton sea horse of King Gradlon: magnificent BLACK HORSE galloping over the tops of dark ocean waves, ordinary horse anatomy with four legs and hooves, mane and tail swept by wind. Small unmistakable flames issue from BOTH NOSTRILS, not from mouth. Entire horse visible, no fishtail, no wings, no horns. Stormy Breton coast, spectral moonlight and threatening sea spray. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Black wave-running horse breathing flame",
+      "basis_claim_ids": [
+        "morvarc-h-c01",
+        "morvarc-h-c02",
+        "morvarc-h-c06"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-092b0818-1af9-4567-8f56-84da39fffd14.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Black horse runs over waves with flames visibly issuing from nostrils, four legs and equine tail. Storm atmosphere gives appropriate dread."
+      },
+      "canonical_name": "Morvarc'h",
+      "review_path": "data/gemini/reviews/batch-118.review.json",
+      "basis_claims": [
+        {
+          "id": "morvarc-h-c01",
+          "source_id": "morvarc-h-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Morvarc'h (sea horse, Breton), of Breton legend; Charles Guyot, Morvark, city of Ys, 1926; Malgven's, Queen of the North, given to King Gradlon. Two folktales reworked in the 19th and 20th centuries.",
+          "statement_id": "Morvarc'h (kuda laut, Breton), legenda Bretagne (Breton, Prancis); Charles Guyot, Morvark, kota Ys, 1926; milik Malgven, Ratu Utara (Queen of the North), untuk Raja (King) Gradlon. Dua dongeng digubah ulang abad ke-19 dan ke-20 (19th, 20th).",
+          "quote": "is the name of a fabulous horse of Breton legend found in two folktales reworked in the 19th and 20th centuries. Though its name appears in older sources, it was invented or reinterpreted by Charles Guyot, who named it Morvark in his version of the legend of the city of Ys in 1926. It belongs to the \"Queen of the North\" Malgven, who gives it to her husband King Gradlon.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "morvarc-h-c02",
+          "source_id": "morvarc-h-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Gallops on the waves, black coat, breathes flames.",
+          "statement_id": "Berlari di atas ombak, bulu hitam, menyemburkan api.",
+          "quote": "Endowed with the ability to gallop on the waves, Morvarc'h is described as having a black coat and as breathing flames through its nostrils.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "morvarc-h-c06",
+          "source_id": "morvarc-h-s2",
+          "host": "es.wikipedia.org",
+          "statement": "es article: gallops on the waves and breathes flames from its nostrils.",
+          "statement_id": "Artikel es: berlari di atas ombak dan menyemburkan api dari hidung.",
+          "quote": "Dotado de la facultad de galopar sobre las olas, Morvarc'h está descrito como cubierto de sombras y expira llamas por las fosas nasales.",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/morvarc-h-verified.webp"
+    },
+    {
+      "slug": "nekomata",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Nekomata of Japanese folklore: an old shaggy cat standing and dancing on its TWO HIND LEGS, front paws raised, with its tail visibly splitting from ONE BASE into TWO LONG SEPARATE TAILS. Show both complete tail branches clearly against pale mist. In an old dim Japanese wooden room lit by a small lamp. Feline head/body retained, no human face, no horns; unsettling intelligent expression. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Old cat dancing upright with split tail",
+      "basis_claim_ids": [
+        "nekomata-c01",
+        "nekomata-c02",
+        "nekomata-c03",
+        "nekomata-c05"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-0e1082a1-a74f-4a97-9646-cfd0188eecd0.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Old cat dances upright with raised front paws and exactly two long tail branches from a shared base; one hind paw planted and one raised. Dark Japanese interior supports uncanny mood."
+      },
+      "canonical_name": "Nekomata",
+      "review_path": "data/gemini/reviews/batch-049.review.json",
+      "basis_claims": [
+        {
+          "id": "nekomata-c01",
+          "source_id": "nekomata-s1",
+          "host": "bakemono.lib.byu.edu",
+          "statement": "Nekomata are Japanese yōkai said to transform from old or large cats.",
+          "statement_id": "Nekomata adalah yōkai Jepang yang menurut cerita berasal dari kucing tua atau besar.",
+          "quote": "Nekomata (ねこまた) are Japanese yōkai said to have transformed from old and large cats.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nekomata-c02",
+          "source_id": "nekomata-s1",
+          "host": "bakemono.lib.byu.edu",
+          "statement": "Nekomata tails are depicted as splitting in two.",
+          "statement_id": "Ekor nekomata digambarkan terbelah menjadi dua.",
+          "quote": "their tails split down the middle into two identical tails.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nekomata-c03",
+          "source_id": "nekomata-s1",
+          "host": "bakemono.lib.byu.edu",
+          "statement": "Nekomata are said to speak, walk on their hind legs, and cause mischief.",
+          "statement_id": "Nekomata dikisahkan dapat berbicara, berjalan pada kaki belakang, dan mengganggu orang.",
+          "quote": "speaking human languages as well as walking on their rear legs, causing mischief.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nekomata-c05",
+          "source_id": "nekomata-s3",
+          "host": "glam.uoregon.edu",
+          "statement": "Toriyama Sekien’s art depicts nekomata dancing on two legs.",
+          "statement_id": "Seni Toriyama Sekien menggambarkan nekomata menari dengan dua kaki.",
+          "quote": "One sign of this, evidently, was dancing madly on two legs—this is how the nekomata is depicted in Toriyama Sekien’s Gazu hyakki yagyō",
+          "context": "religious-tradition",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/nekomata-verified.webp"
+    },
+    {
+      "slug": "nian",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Nian, Chinese New Year beast, choosing ONLY the documented FLAT-FACED LION WITH A DOG BODY variant. One broad flat feline face with mane joins a powerful four-legged dog-shaped body and canine paws, shaggy tawny fur. Crouching at the edge of a dark old Chinese mountain village with distant red lanterns. Fearsome stare and bared ordinary predator teeth, no horns, no wings, no fish scales. Entire body visible. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Flat-faced lion head on dog body",
+      "basis_claim_ids": [
+        "nian-c01",
+        "nian-c03",
+        "nian-c04",
+        "nian-c05"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-2fb0d568-c705-4fbc-836a-fb07b1375e67.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Flat lion face and mane join doglike quadruped body with curled canine tail. Four paws visible, no horns/wings; lantern village and threatening expression match chosen variant."
+      },
+      "canonical_name": "Nian",
+      "review_path": "data/gemini/reviews/batch-066.review.json",
+      "basis_claims": [
+        {
+          "id": "nian-c01",
+          "source_id": "nian-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Nian is a beast in Chinese tales said to inhabit the sea or mountains.",
+          "statement_id": "Nian adalah makhluk dalam kisah Tiongkok yang tinggal di laut atau gunung.",
+          "quote": "A nian beast (traditional Chinese: 年獸; simplified Chinese: 年兽; Hanyu Pinyin: Nián shòu; Tongyong Pinyin: Nián shòu; Wade–Giles: Nien2 shou4; Cantonese Yale: Nìhn sau; Zhuyin Fuhao: ㄋㄧㄢˊ ㄕㄡˋ) is a beast in Chinese mythology. According to Chinese mythology, the nian lives under the sea or in the mountains. The Chinese character nian more usually means \"year\" or \"new year\".",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "nian-c03",
+          "source_id": "nian-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The tale describes it emerging at New Year to feed on people and animals.",
+          "statement_id": "Kisah menyebutnya keluar pada tahun baru untuk memangsa manusia dan hewan.",
+          "quote": "Once every year at the beginning of Chinese New Year, the nian would come out of its hiding place to feed, mostly on people and animals. During the winter, when food was scarce, it would raid villages, eating the crops and sometimes the villagers themselves - particularly their children.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nian-c04",
+          "source_id": "nian-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Nian's appearance varies, including a flat-faced lion with a dog's body.",
+          "statement_id": "Penampilan Nian memiliki varian, termasuk singa berwajah datar dengan tubuh anjing.",
+          "quote": "Several accounts describe its appearance, with some claiming that it resembles a flat-faced lion with the body of a dog and prominent incisors.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nian-c05",
+          "source_id": "nian-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A legend explains red lanterns as an attempt to avert Nian's attacks.",
+          "statement_id": "Legenda menjelaskan pemasangan lentera merah sebagai upaya menghindari serangan Nian.",
+          "quote": "Some local legends attribute the Chinese lion dance (舞獅) to the nian. The tradition has its origins in a story of a nian's attack on a village. After the attack, the villagers discussed how to make the nian leave them in peace. Since it was discovered that the beast was afraid of the color red, people put red lanterns and spring scrolls on their windows and doors.",
+          "context": "traditional-belief",
+          "status": "loose"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/nian-verified.webp"
+    },
+    {
+      "slug": "nyami-nyami",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Nyami Nyami, Zambezi River God, selecting the FISH HEAD and SNAKE BODY variant: a gigantic scaled river serpent raises a clearly fishlike head with round fish eye, gill cover and broad fish mouth above a churning Zambezi gorge. Long limbless snake body coils through the current. No horns, whiskers, legs or wings. Protective sacred river presence, numinous and formidable rather than evil. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Fish-headed river serpent",
+      "basis_claim_ids": [
+        "nyami-nyami-c01",
+        "nyami-nyami-c02",
+        "nyami-nyami-c03"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-326d506e-dda3-4489-aaee-c150f2a73123.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Fish head with mouth and gill cover joins long coiled limbless scaled body in gorge; powerful river deity mood."
+      },
+      "canonical_name": "Nyami Nyami",
+      "review_path": "data/gemini/reviews/batch-140.review.json",
+      "basis_claims": [
+        {
+          "id": "nyami-nyami-c01",
+          "source_id": "nyami-nyami-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Nyami Nyami, known as the Zambezi River God, is one of the most important gods along the Zambezi River.",
+          "statement_id": "Nyami Nyami atau Zambezi River God adalah dewa terpenting masyarakat di sepanjang Sungai Zambezi.",
+          "quote": "The Nyami Nyami, otherwise known as the Zambezi River God or Zambezi Snake Spirit, is one of the most important gods of the people living along the Zambezi River.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nyami-nyami-c02",
+          "source_id": "nyami-nyami-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Nyami Nyami is believed to protect the people and give them sustenance in difficult times.",
+          "statement_id": "Nyami Nyami dipercaya melindungi masyarakat dan memberi rezeki di masa sulit.",
+          "quote": "The Nyami Nyami is believed to protect the people and give them sustenance in difficult times. The River God is usually portrayed as male.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nyami-nyami-c03",
+          "source_id": "nyami-nyami-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Described as having the body of a snake and head of a fish or river dragon, god of the Zambezi Valley.",
+          "statement_id": "Digambarkan bertubuh ular dan berkepala ikan atau naga sungai, ia adalah dewa lembah Zambezi sebelum Bendungan Kariba.",
+          "quote": "Variously described as having the body of a snake and the head of a fish, a whirlpool or a river dragon, the Nyami Nyami is seen as the god of Zambezi Valley and the river before the creation of the Kariba Dam.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/nyami-nyami-verified.webp"
+    },
+    {
+      "slug": "okuri-inu",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Okuri-inu of Japanese folklore, choosing the WOLF form: one lean wolf with normal wolf anatomy, four paws and one bushy tail, following an old Japanese mountain footpath at night. A tiny distant traveler carrying a dim lantern walks away along the trail; wolf is the dominant full-body foreground subject, silent watchful gaze. No supernatural flames, horns or extra eyes. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Wolf form following a night mountain trail",
+      "basis_claim_ids": [
+        "okuri-inu-c01",
+        "okuri-inu-c02",
+        "okuri-inu-c03"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-af4ee319-451c-48ce-b01e-148e1113e0ec.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Wolf with normal four-legged anatomy follows distant traveler on dark mountain path. Intense gaze and fog give dread without invented traits."
+      },
+      "canonical_name": "Okuri-inu",
+      "review_path": "data/gemini/reviews/batch-052.review.json",
+      "basis_claims": [
+        {
+          "id": "okuri-inu-c01",
+          "source_id": "okuri-inu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Okuri-inu is a doglike yōkai in Japanese folklore.",
+          "statement_id": "Okuri-inu adalah yōkai mirip anjing dalam cerita rakyat Jepang.",
+          "quote": "The Okuri-inu (送り犬) (literally, 'escorting dog') is a kind of yōkai.",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "okuri-inu-c02",
+          "source_id": "okuri-inu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Its regional forms include both dogs and wolves.",
+          "statement_id": "Bentuk daerahnya mencakup anjing maupun serigala.",
+          "quote": "There are stories of the okuri-inu from the Tōhoku region to Kyushu, but depending on the area it can be a wolf not a dog, and there are numerous differences in its behaviour.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "okuri-inu-c03",
+          "source_id": "okuri-inu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It follows people walking mountain paths at night.",
+          "statement_id": "Ia mengikuti pejalan di jalan pegunungan pada malam hari.",
+          "quote": "The okuri-inu closely follows people who are walking along mountain paths at nighttime.",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/okuri-inu-verified.webp"
+    },
+    {
+      "slug": "ouni",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Ouni, the enigmatic Japanese yokai pictured by Toriyama Sekien: an uncanny hunched demon-woman with a gaunt wrinkled face and an extraordinarily long coarse dark mane of hair spilling down over her shoulders, back and body almost to the ground. She crouches alone at a misty rocky forest edge; humanlike arms and feet subtly visible beneath the hair. Emphasize the wild hair and eerie aged face. No invented horns or wings, no narrative powers asserted. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Long-haired demon-woman depiction",
+      "basis_claim_ids": [
+        "ouni-c01",
+        "ouni-c02",
+        "ouni-c03",
+        "ouni-c04"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-eff462ad-d12c-4a10-b0c8-3ed53c89f512.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Wild long dark hair envelops hunched aged female figure; wrinkled uncanny face, arm and foot visible. Restrained horror, no invented powers."
+      },
+      "canonical_name": "Ouni",
+      "review_path": "data/gemini/reviews/batch-052.review.json",
+      "basis_claims": [
+        {
+          "id": "ouni-c01",
+          "source_id": "ouni-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ouni is a yōkai pictured by Toriyama Sekien.",
+          "statement_id": "Ouni adalah yōkai yang digambar Toriyama Sekien.",
+          "quote": "The ouni (苧うに) is a yōkai depicted in the Gazu Hyakki Yagyō by Toriyama Sekien.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ouni-c02",
+          "source_id": "ouni-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The illustration gives it long hair and a face resembling a demon woman.",
+          "statement_id": "Ilustrasinya memberi sosok itu rambut panjang dan wajah mirip perempuan iblis.",
+          "quote": "It is a yōkai with a face like that of a demon woman (kijo) torn from mouth to ear, and its entire body is covered in hair.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ouni-c03",
+          "source_id": "ouni-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Sekien left no explanation of its nature.",
+          "statement_id": "Sekien tidak menjelaskan sifat makhluk itu.",
+          "quote": "There is no explanatory text from Sekien, so it is unclear what kind of yōkai this is.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ouni-c04",
+          "source_id": "ouni-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Researchers have not found a clear older folk legend about this figure.",
+          "statement_id": "Para peneliti belum menemukan legenda rakyat lama yang jelas tentang sosok ini.",
+          "quote": "There are no folk legends or records that are clearly about the ouni (or the \"wauwau\" based on Sekien's), so it is presently not clear what kind of yōkai they were intending to depict, but starting in the Heisei period, inferring from how there are many tales that seem highly related to the previous \"o\" and the yamauba, there have started to be many illustrated references, books, and oth",
+          "context": "traditional-belief",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/ouni-verified.webp"
+    },
+    {
+      "slug": "shachihoko",
+      "exact_prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Shachihoko of Japan: ONE legendary creature with the clearly striped HEAD OF A TIGER joined directly to a curved, heavily scaled FISH BODY ending in a broad split FISH TAIL. NO tiger legs, no human limbs. Depict the creature as a living golden-ochre mythic guardian arcing above a dark Japanese castle roof in rain, spouting a thin arc of water. Whole tiger head, fish fins and upcurved tail visible. Sacred protective intensity, not evil. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "depicted_variant": "Tiger-headed fish",
+      "basis_claim_ids": [
+        "shachihoko-c01",
+        "shachihoko-c02",
+        "shachihoko-c03",
+        "shachihoko-c08"
+      ],
+      "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-33e379e9-7c2f-489a-abac-63724ef41ed7.png",
+      "status": "passed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Striped tiger head joins scaled fish body, fins and upturned fish tail, no mammal legs. Water spout and castle roof show guardian context; dramatic rain."
+      },
+      "canonical_name": "Shachihoko",
+      "review_path": "data/gemini/reviews/batch-050.review.json",
+      "basis_claims": [
+        {
+          "id": "shachihoko-c01",
+          "source_id": "shachihoko-s1",
+          "host": "www.mlit.go.jp",
+          "statement": "Shachihoko are also called shachi and used as castle-roof ornaments.",
+          "statement_id": "Shachihoko juga disebut shachi dan dijadikan hiasan atap kastel.",
+          "quote": "The roofs of many castles are adorned with ornamental ridge-end tiles in the shape of creatures called shachi (or shachihoko).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shachihoko-c02",
+          "source_id": "shachihoko-s1",
+          "host": "www.mlit.go.jp",
+          "statement": "These legendary creatures have tiger heads and fish bodies.",
+          "statement_id": "Makhluk legenda ini berkepala harimau dan bertubuh ikan.",
+          "quote": "These legendary beasts have the heads of tigers and the bodies of fish.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shachihoko-c03",
+          "source_id": "shachihoko-s1",
+          "host": "www.mlit.go.jp",
+          "statement": "Folklore says shachi spray water to put out fires, and their ornaments were believed to protect castles.",
+          "statement_id": "Menurut cerita rakyat, shachi menyemburkan air untuk memadamkan api dan hiasannya dianggap melindungi kastel.",
+          "quote": "According to folklore, shachi can spray water from their mouths to put out fires, and the tiles were believed to protect the castle.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shachihoko-c08",
+          "source_id": "shachihoko-s2",
+          "host": "www.nagoyajo.city.nagoya.jp",
+          "statement": "Nagoya Castle has golden shachihoko on its roof.",
+          "statement_id": "Kastel Nagoya memiliki shachihoko keemasan di atap.",
+          "quote": "Topped with golden shachihoko, votive tiger-fish roof devices, and boasting the largest floorspace of any tower keep, Nagoya Castle",
+          "context": "historical-record",
+          "status": "exact"
+        }
+      ],
+      "width": 1254,
+      "height": 1254,
+      "url": "assets/art/shachihoko-verified.webp"
+    }
+  ]
+}

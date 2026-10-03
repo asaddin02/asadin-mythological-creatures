@@ -1,0 +1,56 @@
+{
+  "slug": "fachan",
+  "canonical_name": "Fachan",
+  "prompt": "Use case: illustration-story. Asset type: ONE individual square editorial mythology encyclopedia illustration for Mythics. Subject: Fachan (slug fachan). Depicted variant and essential identifying features: The Fachan from Campbell's Scottish account: a giant with exactly ONE centered eye, exactly ONE muscular arm growing from the MIDDLE OF THE CHEST ending in one hand, exactly ONE leg below the torso, and ONE stiff tuft of hair. Shoulders have no additional arms. Front full-body view on a rocky Highland slope makes each unusual feature unmistakable. Modest ragged waist cloth. No extra limbs, weapon or horns. Style: detailed painterly illustrated folklore book with believable materials, readable anatomy, restrained atmosphere, colors as specified. Composition: one main creature, full identifying form comfortably within all four image edges. Follow ONLY the specified variant. No labels, letters, decorative border, logos, watermark, gore, or sexualized posing. Clothing mentioned is a modest artistic treatment. This is a contemporary AI artistic interpretation; never present it as documentary evidence. Mood requested by user: a subtle but unmistakable horror aura, cinematic chiaroscuro, deep atmospheric shadows, faint mist and an uncanny sense of presence. Keep identifying anatomy legible; use unsettling gaze or pose only if appropriate to this being. Benevolent or sacred subjects feel numinous and awe-inspiring rather than evil. Do not add lore-inaccurate monster features. Correction priority: BOTH shoulders end smoothly with ABSOLUTELY NO ARMS AT THE SHOULDERS. Only one arm grows out of the center of the sternum, extending straight forward and down, terminating in one hand. No loop joining shoulder and chest, no second upper arm.",
+  "depicted_variant": "The Fachan from Campbell's Scottish account: a giant with exactly ONE centered eye, exactly ONE muscular arm growing from the MIDDLE OF THE CHEST ending in one hand, exactly ONE leg below the torso, and ONE stiff tuft of hair. Shoulders have no additional arms. Front full-body view on a rocky Highland slope makes each unusual feature unmistakable. Modest ragged waist cloth. No extra limbs, weapon or horns.",
+  "basis_claims": [
+    {
+      "id": "fachan-c01",
+      "source_id": "fachan-s1",
+      "host": "en.wikipedia.org",
+      "statement": "In Scottish folklore the fachan (fachin, Direach Ghlinn Eitidh) is a monster or giant described by John Francis Campbell in Popular Tales of the West Highlands: one eye, one hand from the chest, one leg.",
+      "statement_id": "Dalam cerita rakyat Skotlandia (Scottish folklore), fachan (fachin, fachen, Direach Ghlinn Eitidh, Dithreach, kerdil Glen Etive) monster atau raksasa menurut John Francis Campbell dalam Popular Tales of the West Highlands: satu mata, satu tangan dari dada, satu kaki; di Britania Raya.",
+      "quote": "is a monster or giant described by John Francis Campbell in Popular Tales of the West Highlands as having a single eye in the middle of its face, a single hand protruding from its chest instead of arms, and a single leg emerging from its central axis.",
+      "context": "religious-tradition",
+      "status": "exact"
+    },
+    {
+      "id": "fachan-c02",
+      "source_id": "fachan-s1",
+      "host": "en.wikipedia.org",
+      "statement": "A single tuft of hair; per Campbell easier to uproot a mountain than bend it.",
+      "statement_id": "Sejumput rambut; menurut Campbell lebih mudah mencabut gunung.",
+      "quote": "It has a single tuft of hair on the top of its head, regarding which Campbell says \"it were easier to take a mountain from the root than to bend that tuft.\"",
+      "context": "traditional-belief",
+      "status": "exact"
+    },
+    {
+      "id": "fachan-c06",
+      "source_id": "fachan-s1",
+      "host": "en.wikipedia.org",
+      "statement": "The manuscript monster: one eye in the forehead of a black face, one hand from the chest, one leg.",
+      "statement_id": "Monster dalam naskah: satu mata di dahi wajah hitam, satu tangan dari dada, satu kaki; lebih mirip setan.",
+      "quote": "and one eye in the forehead of his black-faced countenance, and one bare, hard, very hairy hand coming out of his chest, and one veiny, thick-soled leg supporting him",
+      "context": "traditional-belief",
+      "status": "exact"
+    }
+  ],
+  "review_path": "data/gemini/reviews/batch-116.review.json",
+  "status": "complete",
+  "previous_attempts": [
+    {
+      "original_file": "/home/asadin/.codex/generated_images/01a0ffb4-c716-7683-8e30-26a08a0544d6/exec-d7fedaa2-cb91-4ac8-b7f7-f9559d6182d6.png",
+      "verdict": "reject",
+      "notes": "Unwanted shoulder arm forms an ambiguous loop with chest arm; single chest-origin limb not unambiguous."
+    }
+  ],
+  "original_file": "/home/asadin/.codex/generated_images/01a0ffb4-c716-7683-8e30-26a08a0544d6/exec-b65729fb-babc-42bd-9ba4-4401011c3b57.png",
+  "width": 1254,
+  "height": 1254,
+  "url": "/assets/art/fachan-verified.webp",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Corrected image has exactly one eye, one central chest-origin arm and one supporting leg; shoulders have no arms. Hair tuft and looming Highland setting clear.",
+    "reviewed_at": "2026-10-03T07:05:05.106823+00:00"
+  }
+}
