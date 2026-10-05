@@ -1,0 +1,94 @@
+{
+  "slug": "erlik",
+  "basis_claim_ids": [
+    "erlik-c01",
+    "erlik-c05",
+    "erlik-c07"
+  ],
+  "depicted_variant": "Source-described symbolic representation of Erlik as a totemic bear",
+  "visual_requirements": [
+    "Natural coherent bear anatomy",
+    "Four legs and one head; no hybrid",
+    "Source symbolic totemic representation, not literal universal form",
+    "Same underworld castle staging",
+    "Character presence through pose, framing, atmosphere and scene lighting; no generic emitted aura"
+  ],
+  "aura": "Terrifying underworld majesty through bear's imposing natural pose, dark fur, cavern framing and distant architectural/fire illumination.",
+  "source_representation_note": "This depicts the source's occasional totemic-bear representation of Erlik; it does not assert that bear anatomy is Erlik's literal universal physical form.",
+  "prompt": "Use case: precise-object-edit / lighting-weather. Edit the supplied mythology artwork. Remove ONLY unsupported visual effects: all generic glowing envelopes, neon body outlines, colored energy ribbons, magical motes/particles, luminous colored fog, swirling aura, and glowing eye bulbs. Do not replace them with other magic. Preserve the SAME individual creature, body anatomy, count of eyes/limbs/heads, exact scale, pose, framing, clothing coverage, props, setting and painterly quality. Source invariants: Natural coherent bear anatomy; Four legs and one head; no hybrid; Source symbolic totemic representation, not literal universal form; Same underworld castle staging. Character presence instead: Terrifying underworld majesty through bear's imposing natural pose, dark fur, cavern framing and distant architectural/fire illumination.. Restore clean natural textures where effects were removed, ordinary reflected light and realistic shadows.  No new characters or anatomical embellishments, no nudity or gore, no text, watermark or border.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-137.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/erlik-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-1ef04263-1d0c-4334-a573-331759adfa6d.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output inspected: bear's purple-crimson wisps and glowing eye bulbs removed, coherent natural symbolic bear and same castle scene preserved; background fire illumination does not outline body.",
+    "reviewer": "worker-2"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: solid dark bear as explicitly editorial totemic depiction, infernal castle behind. Natural scene firelight, no red energy tendrils/eyes or body halo."
+  },
+  "attempt_history": [
+    {
+      "slug": "erlik",
+      "basis_claim_ids": [
+        "erlik-c01",
+        "erlik-c05",
+        "erlik-c07"
+      ],
+      "depicted_variant": "Source-described symbolic representation of Erlik as a totemic bear",
+      "visual_requirements": [
+        "Coherent natural bear anatomy",
+        "Four legs and one bear head",
+        "No horns, wings or human hybrid",
+        "Underworld castle as artistic staging"
+      ],
+      "aura": "Strong emitted crimson-violet underworld magical wisps",
+      "source_representation_note": "This depicts the source's occasional totemic-bear representation of Erlik; it does not assert that bear anatomy is Erlik's literal universal physical form.",
+      "prompt": "Depict Erlik, Turkic lord of death and the underworld, using the source's occasional SYMBOLIC REPRESENTATION as a TOTEMIC BEAR. One powerful dark bear with coherent natural bear anatomy: one bear head, four heavy legs and natural paws, dense fur and normal short bear tail. Full bear silhouette visible, no horns, wings, antlers, human limbs, armor, added heads or invented anatomy. The bear stands before a forbidding castle at the deepest point of a cavernous underworld, the source-described castle used as artistic staging. Very strong unmistakable crimson-violet magical wisps, radiating supernatural light and glowing particles visibly emanate from the bear's body, with subtly inner-lit eyes and oppressive underworld energy identifying a mythic representation rather than ordinary wildlife. Majestic terrifying atmosphere, towering dark stone and abyssal depth, size is a large natural bear rather than mountain-sized. No people, corpses, victims or gore. Square premium highly detailed painterly mythological encyclopedia artwork, no text, captions, symbols, border or watermark.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-137.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/erlik.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-1ef04263-1d0c-4334-a573-331759adfa6d.png",
+      "reviewed_at": "2026-10-05T04:52:17.118Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed native image: coherent dark bear with natural head/paws/quadrupedal body, some far-side anatomy naturally occluded, no invented horns/wings/human hybrid. Strong emitted crimson-violet underworld aura before castle. Image is explicitly a source-backed totemic representation, not a claim of literal universal anatomy."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected final images: Coherent bear with four-leg anatomy and one head, intense emitted crimson-violet underworld aura; depicted source totemic representation explicitly disclosed, no universal literal body claim.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/erlik-verified.webp",
+      "sha256": "2a961b4a75ee593d146f452db0331bfb46fd29bbdff5d56952cab394f27deff8",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-ac95bbd4-be9a-4c64-b01e-6aeab562d075.png",
+  "revision_generator": "worker-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-2",
+    "rationale": "Bear emits crimson-violet smoke/ribbons and red eye bulbs; source only supports symbolic totemic bear representation.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "erlik-c01",
+      "erlik-c05",
+      "erlik-c07"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/erlik.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/erlik.json"
+  }
+}

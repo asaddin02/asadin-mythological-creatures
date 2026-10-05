@@ -1,0 +1,93 @@
+{
+  "slug": "zheuzhyk",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Remove ONLY unsupported effects: all gold-blue emitted body ribbons, luminous boat envelope and magic water trails; source wave-parting shown only as ordinary physical boat wake, natural moon reflections. Preserve exactly same ONE THIN old man with LONG RED beard and LONG THIN arms and legs, modest plain clothes, natural HUMAN anatomy, same seated rowing pose in small boat patrolling lake at NIGHT, scale and framing, framing, painterly detail and clothing coverage. Character presence through watchful benevolent old guardian face, thin red-bearded silhouette and calm moonlit patrol. Ordinary scene light, texture and shadows. No generic emitted aura, new anatomy, additional subjects, gore, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/zheuzhyk-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-badd70d8-f0a9-4199-a163-55f4481e9bc3.png",
+  "depicted_variant": "Thin old man with red beard and long thin limbs in night boat",
+  "basis_claim_ids": [
+    "zheuzhyk-c01",
+    "zheuzhyk-c02",
+    "zheuzhyk-c03",
+    "zheuzhyk-c04",
+    "zheuzhyk-c05"
+  ],
+  "aura": "watchful benevolent old guardian face, thin red-bearded silhouette and calm moonlit patrol",
+  "visual_requirements": [
+    "same ONE THIN old man with LONG RED beard and LONG THIN arms and legs, modest plain clothes, natural HUMAN anatomy, same seated rowing pose in small boat patrolling lake at NIGHT, scale and framing",
+    "No generic emitted body aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native inspected: thin old man with long red beard, long thin arms/legs in modest clothes rowing same boat at night; gold-blue wrapping removed, physical wake and ordinary moon reflections preserved.",
+    "reviewer": "aura-resume-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-124.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected native: thin long-limbed elder with long red beard rowing small lake boat at night; physical wake and moonlit water reflections, no luminous waves or body aura."
+  },
+  "attempt_history": [
+    {
+      "slug": "zheuzhyk",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square detailed painterly naturalistic mythology illustration of ZHEUZHYK, Belarusian river/lake guardian, attributed to possibly inventive folklorist Shpilevsky. ONE THIN OLD adult man with LONG RED BEARD and very LONG THIN ARMS AND LEGS sits in a small boat at night, slowly parting waves across Belarusian lake. Plain modest old robe, full man/boat framed, source humanlike anatomy with elongated slender limbs kept clear. Clearly luminous pale amber-blue supernatural wisps RADIATE FROM BODY into water, calming wind/storm around boat while distant clouds remain dark, benevolent protector aura artistic. No horns, wings, extra limbs, fisherman victim, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/zheuzhyk.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-badd70d8-f0a9-4199-a163-55f4481e9bc3.png",
+      "depicted_variant": "Thin old man with red beard and long thin limbs in night boat",
+      "basis_claim_ids": [
+        "zheuzhyk-c01",
+        "zheuzhyk-c02",
+        "zheuzhyk-c03",
+        "zheuzhyk-c04",
+        "zheuzhyk-c05"
+      ],
+      "aura": "benevolent Belarusian water-guardian storm-calming radiance",
+      "visual_requirements": [
+        "thin old man long red beard",
+        "long thin arms/legs",
+        "night boat water patrol with emitted aura"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected native: thin aged man long red beard and long thin forearms, clothed long legs bent in small boat patrolling night lake. Amber-blue emitted wisps clearly visible; source attribution possibly invented by Shpilevsky retained in prompt."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-124.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Thin old human man with long red beard and thin elongated limbs paddles nighttime boat, emitted silver-gold water wisps.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/zheuzhyk-verified.webp",
+      "sha256": "94833fb5c597861d4bfa25d7e2154f15449f7edcee434ea01517497ab4ac4580",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-fff9-76e1-92c1-76bde2aff5e5/exec-d63f3a4b-a79d-4074-96f0-fdf794100d42.png",
+  "revision_generator": "aura-resume-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-2",
+    "rationale": "Unsupported emitted wrapping removed, source variant and meaningful physical manifestation preserved.",
+    "allowed_magic": "Wave parting represented with physical boat wake, zheuzhyk-c03",
+    "source_basis_claim_ids": [
+      "zheuzhyk-c01",
+      "zheuzhyk-c02",
+      "zheuzhyk-c03",
+      "zheuzhyk-c04",
+      "zheuzhyk-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/zheuzhyk.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/zheuzhyk.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

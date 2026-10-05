@@ -1,0 +1,30 @@
+{
+  "slug": "wild-haggis",
+  "rationale": "Small asymmetrical-legged animal is wrapped in unsupported golden energy and sparkles.",
+  "allowed_magic": "none",
+  "aura": "Charming uncanny Highland rabbit-squirrel-like mammal through unusual leg proportions, steep hillside and natural sunset.",
+  "visual_requirements": [
+    "Small furry rabbit-squirrel-like mammal, same face/tail.",
+    "Exactly four legs; source unequal left/right leg lengths and original slope contacts unchanged.",
+    "No emitted gold body sparkle or light ribbons."
+  ],
+  "prompt": "Use case: precise-object-edit. Input image is sole EDIT TARGET. Remove all unsupported emitted energy ribbons, luminous colored fog, magical sparkles/particles, halo and neon body outlines. Reconstruct natural physical materials underneath. Preserve exact identity, anatomy, counts, scale, pose, perspective, clothing, composition and scene. No additional characters, text or watermark. Wild Haggis: preserve EXACTLY FOUR original legs and their differing left-versus-right leg lengths; do not normalize leg proportions. Keep same paw contact points on steep mountainside, same coherent rabbit/squirrel-like face, fur and bushy tail, small body size and natural Highland landscape. Remove golden energy loops and glowing dots around animal, do NOT replace them with fireflies. Ordinary warm sunset fur highlights only.",
+  "reviewer": "root",
+  "decision": "revise",
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-b9e42214-8aa8-4621-970e-0f5a2f407fea.png",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native edit: small furry rabbit-squirrel-like mammal with same four leg contacts/unequal side proportions and bushy tail on slope. All gold filaments/sparkles gone, ordinary sunset rim on fur."
+  },
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/wild-haggis-v3.png",
+  "source_basis_claim_ids": [
+    "wild-haggis-c01",
+    "wild-haggis-c02",
+    "wild-haggis-c05",
+    "wild-haggis-c06",
+    "wild-haggis-c07"
+  ],
+  "status": "reviewed",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/aura-revision-797/originals/wild-haggis.png",
+  "tool": "OpenAI built-in image_gen"
+}

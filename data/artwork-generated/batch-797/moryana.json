@@ -1,0 +1,85 @@
+{
+  "slug": "moryana",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: lighting-weather. Input image is EDIT TARGET. Change only magical lighting and atmospheric VFX; preserve exact identity, expression, pose, anatomy, limb counts, scale, scenery, square framing and fully modest opaque clothing. No text/watermark. Remove ALL luminous white-blue wind ribbons, glowing air streams and suspended glitter around woman. Keep natural rough waves, storm cloud, physically wind-blown uncombed hair and white opaque dress. Stern very tall female wind-controller; same boats and water-walking context. Wind presence through hair, cloth, wave direction and storm without luminous vortex.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/moryana-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-71e48a6b-fd7a-4f51-886f-5bc0a48c79f7.png",
+  "review_path": "data/gemini/reviews/batch-123.review.json",
+  "visual_requirements": [
+    "One very tall stern adult woman",
+    "Uncombed hair and white clothes",
+    "Volga/Caspian wind coast with boats",
+    "Natural gale and water-walking context, no fish variant or emitted wind vortex"
+  ],
+  "depicted_variant": "Stern very tall white-clad uncombed-haired southeast wind woman at Volga/Caspian coast, excludes big-fish Moryana.",
+  "basis_claim_ids": [
+    "moryana-c06"
+  ],
+  "aura": "Stern wind spirit presence through towering white-clad woman, windblown hair, storm waves and vulnerable small boats.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected revised native contact: very tall stern woman in opaque white dress and blown uncombed hair, boats and rough water preserved; all luminous air ribbons/glitter gone.",
+    "reviewer": "aura-resume-0"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: very tall white-clad stern woman on stormy shore, uncombed hair/drapery windblown above ships. Natural wind/waves supported c06; no emitted luminous ribbons."
+  },
+  "attempt_history": [
+    {
+      "slug": "moryana",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Slavic folklore mythology illustration, stylized-concept. ONE MORYANA selecting the documented WIND-WOMAN variant at the VOLGA MOUTH and CASPIAN COAST, not big-fish variant. Stern VERY TALL adult woman with uncombed long hair wearing WHITE flowing clothes, two human arms and legs, naturalistic human face and body. Tall imposing height above ordinary shoreline reeds, not invented mountain-sized giant. Standing on storm-struck coast while fierce southeast wind whips white clothes and wild hair, distant small fishing boats beyond establish coastal danger without victims. Unmistakably luminous pale blue-white wind-energy ribbons visibly emitted around her body and hands, suspended radiant droplets, magical gale coils above dark sea. Terrifying solemn weather-spirit presence, dramatic night storm, exquisite face/fabric/water detail. No fish tail, no fish head, no wings, no horns, no text or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/moryana.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-71e48a6b-fd7a-4f51-886f-5bc0a48c79f7.png",
+      "review_path": "data/gemini/reviews/batch-123.review.json",
+      "visual_requirements": [
+        "One very tall stern adult woman",
+        "Uncombed hair and white clothes",
+        "Volga/Caspian wind coast",
+        "No fish variant combined; visible gale aura"
+      ],
+      "depicted_variant": "Stern very tall white-clad uncombed-haired southeast wind woman at Volga/Caspian coast, excludes big-fish Moryana.",
+      "basis_claim_ids": [
+        "moryana-c06"
+      ],
+      "aura": "Luminous blue-white emitted gale ribbons and suspended radiant sea droplets.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: One stern tall white-clad human woman with uncombed windblown hair at storm sea, luminous blue-white gale emitted from hands/body, reeds and distant boats; no fish variant. Exact surface detail/costume not specified by claims and aura editorial."
+      },
+      "reviewed_at": "2026-10-05T03:16:48.885Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Very tall stern woman in white with uncombed windblown hair, clearly emitted silver gale aura at coast.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/moryana-verified.webp",
+      "sha256": "6e6ed5f3ad1b20a21bf2f13ec18c1833dfcee98467fb58c02e630e30e64dfe28",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-1b553c97-b0c2-4d3d-8303-f5d5e26cca70.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Excessive luminous wind streams removed; source wind control expressed through physically windswept hair, clothing and rough waves.",
+    "allowed_magic": "Source c06 wind control and water walking retained; no emitted luminous wind ribbons.",
+    "source_basis_claim_ids": [
+      "moryana-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/moryana.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/moryana.json"
+  }
+}

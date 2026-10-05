@@ -13,7 +13,8 @@
  * 2 sources; rich: 15 claims, 3 sources, 2 publishers besides Wikipedia). An approved image
  * is a Commons image in the research entry or a reviewed editorial illustration in
  * data/creatures.json (artwork audit, flagged `ai_generated`); older unproven Commons images
- * in the legacy data do not count. Entries skipped as "not a creature" are listed apart.
+ * in the legacy data do not count. Permanent exclusions in data/artwork-exclusions.json
+ * override either image source without discarding research. Entries skipped as "not a creature" are listed apart.
  *
  * Writes data/gemini/fill-status.json (summary + status per slug).
  *   node scripts/gemini/fill-status.mjs

@@ -1,0 +1,92 @@
+{
+  "slug": "black-lady-of-bradley-woods",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit / lighting-weather. Edit the supplied mythology artwork. Remove ONLY unsupported visual effects: all generic glowing envelopes, neon body outlines, colored energy ribbons, magical motes/particles, luminous colored fog, swirling aura, and glowing eye bulbs. Do not replace them with other magic. Preserve the SAME individual creature, body anatomy, count of eyes/limbs/heads, exact scale, pose, framing, clothing coverage, props, setting and painterly quality. Source invariants: Adult woman with pale tear-soaked face; Black hood and cloak; Natural 168cm scale and same modest clothing. Character presence instead: Grief and haunting presence through pale tear-soaked face, black hooded silhouette, cold moonlight and dark wood edge.. Restore clean natural textures where effects were removed, ordinary reflected light and realistic shadows.  No new characters or anatomical embellishments, no nudity or gore, no text, watermark or border.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/black-lady-of-bradley-woods-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-f1f9acba-4fd7-4401-9156-4725867eb261.png",
+  "depicted_variant": "Young pale tear-faced ghost in black hooded cloak",
+  "basis_claim_ids": [
+    "black-lady-of-bradley-woods-c01",
+    "black-lady-of-bradley-woods-c02",
+    "black-lady-of-bradley-woods-c05",
+    "black-lady-of-bradley-woods-c07"
+  ],
+  "aura": "Grief and haunting presence through pale tear-soaked face, black hooded silhouette, cold moonlight and dark wood edge.",
+  "visual_requirements": [
+    "Adult woman with pale tear-soaked face",
+    "Black hood and cloak",
+    "Natural 168cm scale and same modest clothing",
+    "Character presence through pose, framing, atmosphere and scene lighting; no generic emitted aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output inspected: blue envelope/fog removed; pale tearful face, black hood/cloak, ordinary human scale and moonlit woodland retained.",
+    "reviewer": "worker-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-117.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: pale mourning young woman fully covered by black hood/cloak under tree. Moonlight and sorrowful face, no glowing tears/blue haze."
+  },
+  "attempt_history": [
+    {
+      "slug": "black-lady-of-bradley-woods",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square haunting painterly naturalistic mythology illustration of BLACK LADY OF BRADLEY WOODS. ONE pretty young ADULT woman ghost, normal human height about168cm, pale TEAR-SOAKED FACE, BLACK CLOAK AND BLACK HOOD completely covering body. Full figure standing at lonely Lincolnshire wood edge at night, mourning gaze, source-faithful human face with subtly translucent apparition edges. Clearly luminous cold pearl-blue spectral wisps RADIATE FROM BODY and cast ghostlight on roots, sorrowful frightening woodland aura. Never depict her harming anyone. No child, horsemen, violence, horns, wings, extra limbs, fangs, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/black-lady-of-bradley-woods.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-f1f9acba-4fd7-4401-9156-4725867eb261.png",
+      "depicted_variant": "Young pale tear-faced ghost in black hooded cloak",
+      "basis_claim_ids": [
+        "black-lady-of-bradley-woods-c01",
+        "black-lady-of-bradley-woods-c02",
+        "black-lady-of-bradley-woods-c05",
+        "black-lady-of-bradley-woods-c07"
+      ],
+      "aura": "sorrowful frightening woodland ghost, emitted cold wisps",
+      "visual_requirements": [
+        "adult young woman, pale tear-soaked face",
+        "black cloak and hood",
+        "ordinary human scale168cm, no victims"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected the native generated image. Source variant morphology, garments and setting agree with cited claims. Emitted supernatural wisps are visible; lighting, composition and aura are artistic interpretation."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-117.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Pale sorrowful young adult woman in black hooded cloak, ordinary human scale and clear emitted icy spectral wisps.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/black-lady-of-bradley-woods-verified.webp",
+      "sha256": "e1f25e02d361826886520e88f8998b10f8539c2acfa9712d0684aea95afe8ff9",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-e5a930b4-8025-419d-b090-c923aa6ee270.png",
+  "revision_generator": "worker-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-2",
+    "rationale": "Blue glowing body envelope and luminous fog frame cloaked ghost; source describes tearful black-cloaked woman without emitted light.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "black-lady-of-bradley-woods-c01",
+      "black-lady-of-bradley-woods-c02",
+      "black-lady-of-bradley-woods-c05",
+      "black-lady-of-bradley-woods-c07"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/black-lady-of-bradley-woods.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/black-lady-of-bradley-woods.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

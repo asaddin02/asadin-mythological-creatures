@@ -1,0 +1,90 @@
+{
+  "slug": "freybug",
+  "worker": "worker-0",
+  "prompt": "Edit the provided square painterly mythology artwork to follow its documented physical manifestation. Preserve ONE calf-sized large shaggy black DOG with anatomically correct FOUR legs and ordinary tail beside full-size gate on Norfolk rural lane. Remove ALL blue luminous flames, mist trailing body, glowing paw halos, sparks and luminous outlines. Ordinary dark dog eyes, natural wet road reflects moonlight only. Threatening dog posture and moonlit clouds. Preserve painterly naturalistic quality and square composition. No text, border or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/freybug-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-23176947-5581-4955-991a-f80048b3d7ae.png",
+  "depicted_variant": "Calf-sized monstrous black dog on Norfolk road",
+  "basis_claim_ids": [
+    "freybug-c01",
+    "freybug-c02",
+    "freybug-c03",
+    "freybug-c04"
+  ],
+  "aura": "Character presence through pose, framing, atmosphere and natural light",
+  "visual_requirements": [
+    "Calf-sized black canine with four legs on Norfolk lane, no body mist",
+    "No generic emitted aura, neon halo, magic particles or luminous vapor"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native: calf-sized shaggy black dog with four coherent legs and normal tail beside full-sized rural gate; dark ordinary eyes and wet moonlit lane, no blue flames or body mist.",
+    "reviewer": "root"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-120.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "finish_aura_b",
+    "reviewed_at": "2026-10-05",
+    "notes": "Independently inspected selected full-resolution native image and source basis: one shaggy black canine has four coherent legs, normal tail, ordinary dark eyes and calf-like scale beside the rural gate. Wet lane reflects moonlight; no emitted blue flame, paw halos, sparks or body mist. Low head, looming posture and clouded night create threatening presence."
+  },
+  "attempt_history": [
+    {
+      "slug": "freybug",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square deeply terrifying painterly naturalistic mythology illustration of FREYBUG, monstrous BLACK DOG of Norfolk folklore. ONE black canine ROUGHLY THE SIZE OF A CALF, big heavy shoulders and dog head, correct FOUR legs and natural tail, prowls an empty narrow rural Norfolk road at night. Full silhouette inside frame, roadside gate establishes calf-like size without making landscape giant. No special eyes color asserted by source: normal dark predatory eyes. Clearly luminous cold blue-grey supernatural wisps RADIATE FROM BLACK BODY and coil around paws, casting unnatural light on road, dreadful spectre-dog aura artistic. No horns, wings, extra limbs, prey, blood, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/freybug.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-23176947-5581-4955-991a-f80048b3d7ae.png",
+      "depicted_variant": "Calf-sized monstrous black dog on Norfolk road",
+      "basis_claim_ids": [
+        "freybug-c01",
+        "freybug-c02",
+        "freybug-c03",
+        "freybug-c04"
+      ],
+      "aura": "terrifying emitted ghost-black-dog light",
+      "visual_requirements": [
+        "black dog roughly calf-sized",
+        "correct four-leg canine anatomy",
+        "rural Norfolk road, emitted aura"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected native: calf-sized heavy black dog beside full-size gate, correct four canine legs and tail, ordinary dark eyes, emitted blue-grey spectral wisps directly from body/paws. No unsupported giant scale or anatomy."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-120.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Large black dog with coherent four legs, gate reference suggests calf-sized body, strong emitted blue-white aura on rural road.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/freybug-verified.webp",
+      "sha256": "7204ac30dc89c1e411b1585143b7a56d0d0a136972d657cce200d71634fdd848",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-4b091b3e-d43e-4314-8d86-802d49f6579c.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Original has generic emitted magical wrapping unsupported by selected documented depiction; use physical presence and natural scene lighting.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "freybug-c01",
+      "freybug-c02",
+      "freybug-c03",
+      "freybug-c04"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/freybug.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/freybug.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

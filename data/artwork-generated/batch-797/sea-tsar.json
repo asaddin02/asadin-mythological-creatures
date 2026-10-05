@@ -1,0 +1,92 @@
+{
+  "slug": "sea-tsar",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove cyan/gold magical ribbons spiraling around sovereign, body emission, luminous particles and magic circles on floor. Preserve same human royal interpretation, face/beard, crown, gold/blue regal gown coverage, pose/anatomy/scale and rich crystal/silver/gold/gem underwater palace with fish. No frog/fish anatomy. Majesty through posture, material reflections, ordinary underwater daylight caustics. Preserve original composition, count, exact scale and identity. No added subjects, nudity, gore, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/sea-tsar-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-1e13aa6a-caab-4343-9b3a-796ec0f69acf.png",
+  "depicted_variant": "Sea-realm sovereign in rich underwater palace; human royal appearance/title-based artistic styling",
+  "basis_claim_ids": [
+    "sea-tsar-c01",
+    "sea-tsar-c06",
+    "sea-tsar-c07",
+    "sea-tsar-c11"
+  ],
+  "aura": "Commanding royal posture in a treasure palace illuminated by underwater daylight.",
+  "visual_requirements": [
+    "humanroyal interpretation",
+    "crystal/silver/gold/gempalace",
+    "no vodyanoyfrog/fishanatomy",
+    "No generic emitted wrapping, halo, luminous particles or energy smoke; preserve original identity, anatomy, count, clothing and scale."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Directly inspected original and recovered native edit: same bearded human sovereign, crown, blue/gold opaque royal robe and crystal/gold/gem underwater palace. Cyan/gold body ribbons and luminous floor circles removed; ordinary underwater daylight and material reflections retained. Human anatomy, hand pose, scale, clothing and fish background retained.",
+    "reviewer": "finish_aura_a"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-124.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected revised native preview: regal human-form sea ruler in elaborate modest robes and crown within rich crystal/gold underwater palace; material reflections and underwater daylight retain grandeur without emitted body ribbons."
+  },
+  "attempt_history": [
+    {
+      "slug": "sea-tsar",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square exquisite high-detail painterly naturalistic cinematic mythology encyclopedia illustration. SEA TSAR, East Slavic king of allsea realms. ONE ADULT HUMANLIKE royal sovereign stands fullfigure in magnificent SUBMERGED PALACE built of CRYSTAL, SILVER, GOLD AND GEMSTONES, underwater blue light and fish well in distantbackground. Source royaltitle supports human royal visual interpretation, exacthumanface/crown/beard/costume ARTISTIC: dignified mature human king in opaque richlyembroidered royalrobe, ordinaryhumanlimbs, normalears. Clearly luminous TURQUOISE-GOLD supernatural wisps RADIATE FROM BODY and royalrobe, swirlingwater illuminated as commanded, immenselypowerful musicalsea ruler aura. NO VODYANOY frogfeatures, swollenbelly, fishhead, tail, horns, wings, trident, victims or musicians. No text, watermark, border, collage or labels.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/sea-tsar.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-1e13aa6a-caab-4343-9b3a-796ec0f69acf.png",
+      "depicted_variant": "Sea-realm sovereign in rich underwater palace; human royal appearance/title-based artistic styling",
+      "basis_claim_ids": [
+        "sea-tsar-c01",
+        "sea-tsar-c06",
+        "sea-tsar-c07",
+        "sea-tsar-c11"
+      ],
+      "aura": "commanding underwater ruler emitted turquoise-gold magic",
+      "visual_requirements": [
+        "humanroyal interpretation",
+        "crystal/silver/gold/gempalace",
+        "no vodyanoyfrog/fishanatomy"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected native: royal sovereign in crystal/silver/gold/gem underwater palace, turquoise-gold emitted aura. IMPORTANT human king, crown, beard, face, robe are ROYAL-TITLE-BASED ARTISTIC depiction rather than detailed attested physical description. Source underwater realm/rich halls c06/c07/c11 retained, no vodyanoy anatomy."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-124.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Human royal interpretation of underwater ruler in crystal/gold/gem palace, emitted teal-gold aura, no invented Vodyanoy frog/fish anatomy.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/sea-tsar-verified.webp",
+      "sha256": "91cdb6e945a33207fe093278a548781b99f13fa8bf515e6a176a5e8eb2e869de",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-d6e6346a-6e68-479a-a40a-b642596fb5cf.png",
+  "revision_generator": "finish_aura_a",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "finish_aura_a",
+    "rationale": "Selected source manifestation does not warrant the original generic emitted magic wrapping; recovered faithful native edit removes it while retaining documented attributes.",
+    "allowed_magic": "none; ordinary scene lighting and material reflections only",
+    "source_basis_claim_ids": [
+      "sea-tsar-c01",
+      "sea-tsar-c06",
+      "sea-tsar-c07",
+      "sea-tsar-c11"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/sea-tsar.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/sea-tsar.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

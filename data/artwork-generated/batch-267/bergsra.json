@@ -1,0 +1,30 @@
+{
+  "slug": "bergsra",
+  "worker": "worker-1",
+  "generated_by": "root",
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "prompt": "Use case: illustration-story. Create ONE square detailed painterly naturalistic folklore encyclopedia image of the Nordic Bergsrå, selecting the documented WOMAN IN WHITE who brings people into the mountain. One adult humanlike woman in a plain opaque WHITE historically rustic long dress, ordinary human face, two arms, two legs covered by the gown. She stands just inside a shadowed mountain cavern with faint mineral and ore veins, one hand gently beckoning inward. Her expression is poised and faintly knowing rather than a friendly smile; quietly unsettling fixed eye contact, cold reflected mineral light, dark receding cavern and low mist convey a deceptive supernatural ruler of the mountain. One main figure only, full silhouette with margins; no court of trolls or anonymous victims. The record supplies no monstrous anatomy: do not invent horns, tails, wings, pointy ears, glowing monster eyes, elaborate fairy crown, weapons or revealing clothes. Do not turn her into a generic glittering benevolent fairy or crowned fantasy queen. No text, symbols, runes, borders or watermark. Contemporary interpretation of the source-described white-clothed female mountain spirit.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-110191d6-4964-45d2-9ea1-8fe124c71783.png",
+  "review_path": "data/gemini/reviews/batch-112.review.json",
+  "visual_requirements": [
+    "One woman in white",
+    "Inside a mountain dwelling",
+    "Ore-bearing cavern setting",
+    "Deceptively inviting but ominous supernatural aura"
+  ],
+  "depicted_variant": "The woman-in-white Bergsrå variant from the 1691 testimony, beckoning from her mountain dwelling.",
+  "basis_claim_ids": [
+    "bergsra-c02",
+    "bergsra-c04",
+    "bergsra-c07"
+  ],
+  "aura": "Deceptively alluring mountain spirit with quiet predatory menace, not benevolent fairy.",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Ordinary pale woman in white dress in cave, with normal human anatomy."
+  },
+  "reviewed_at": "2026-10-04T01:50:23.195Z",
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-1.json"
+}

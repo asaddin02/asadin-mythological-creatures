@@ -1,0 +1,31 @@
+{
+  "slug": "ikiryo",
+  "worker": "worker-3",
+  "prompt": "Use case: historical-scene. ONE square detailed painterly naturalistic encyclopedia illustration of Ikiryo, the living soul that can leave its still-living human owner in Japanese tales. Choose Lady Rokujo's resentful wandering living spirit from the Genji monogatari interpretation, NOT the later Noh female-ogre transformation. One adult Japanese noblewoman as a translucent apparition, wearing richly layered historically plausible Heian court robes in muted plum, cream and dark red, long straight black hair trailing behind. Her human face shows wounded pride, jealous suffering and controlled hostility. She glides alone through a dim aristocratic wooden corridor at night; robe edges are faintly transparent and misty, but she appears dressed as a living court lady rather than a corpse in burial clothes. No separate sleeping body or victim in scene. Moonlit shadow and restrained tension convey a dangerously resentful living spirit driven by powerful emotion. One central complete figure comfortably inside square, naturalistic painterly fabric and anatomy. Invariants: human female living-spirit apparition, documented Lady Rokujo literary variant, jealous anguish, Heian noble dress. Avoid Noh ogre mask or horns, wings, demon skin, clawed hands, white burial shroud, rotting corpse, modern clothing, extra humans, gore, sexualized costume, weapons, written symbols, text, watermark, collage or border.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-abb385f8-cad5-4d51-91ac-1b4c13727a89.png",
+  "review_path": "data/gemini/reviews/batch-049.review.json",
+  "visual_requirements": [
+    "Human female living spirit",
+    "Lady Rokujo literary variant",
+    "Heian noble robes rather than burial shroud",
+    "Wounded jealous resentment",
+    "No Noh ogre transformation"
+  ],
+  "depicted_variant": "Lady Rokujo's unwitting wandering living soul in Genji monogatari, before later Noh ogre adaptation",
+  "basis_claim_ids": [
+    "ikiryo-c01",
+    "ikiryo-c02",
+    "ikiryo-c03",
+    "ikiryo-c04",
+    "ikiryo-c05"
+  ],
+  "aura": "Restrained jealous suffering and dangerous wounded pride",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-3.json"
+}

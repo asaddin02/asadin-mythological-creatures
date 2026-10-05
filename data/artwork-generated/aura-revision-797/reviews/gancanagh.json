@@ -1,0 +1,27 @@
+{
+  "slug": "gancanagh",
+  "rationale": "Original has emitted violet ribbons, particles and halo unsupported by the selected shadowless fairy source.",
+  "allowed_magic": "Only ordinary atmospheric approach mist supported by c06; no self-emission.",
+  "aura": "Unsettling black-eyed, shadowless handsome fairy on dusk path with ordinary low mist.",
+  "visual_requirements": [
+    "Handsome adult male fairy with black eyes, same face/clothes/pose.",
+    "No cast body shadow on visible ground.",
+    "Natural low mist only; no violet emitted glow, filaments or particles."
+  ],
+  "prompt": "Use case: precise-object-edit. Input image is sole EDIT TARGET. Remove only the purple magical ribbons, glowing particles, emitted violet body halo and luminous outline around Gancanagh. Reconstruct natural dark cloak, hair and ground beneath effects. Preserve exactly handsome adult man's face, black eyes, hair, clothing, body anatomy, pose, camera and mountain path scene. This selected source describes NO cast bodily shadow: keep visible ground without his shadow. Retain ordinary low atmospheric mist in landscape because his approach is documented as accompanied by mist, but no illuminated colored magic fog or body emission. Dusk sky and unsettling direct gaze carry character presence. No extra creatures, text or watermark.",
+  "reviewer": "root",
+  "decision": "revise",
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-b6872780-723f-4d76-b431-497753afecd2.png",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native edit: black-eyed handsome adult male retained, no cast body shadow on path; violet emitted ribbons/sparks removed. Ordinary landscape mist, dark cloak and dusk natural light."
+  },
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/gancanagh.png",
+  "source_basis_claim_ids": [
+    "gancanagh-c01",
+    "gancanagh-c06"
+  ],
+  "status": "reviewed",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/aura-revision-797/originals/gancanagh.png",
+  "tool": "OpenAI built-in image_gen"
+}

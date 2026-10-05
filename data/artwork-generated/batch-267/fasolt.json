@@ -1,0 +1,29 @@
+{
+  "slug": "fasolt",
+  "worker": "worker-3",
+  "generated_by": "root",
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "prompt": "Use case: illustration-story. Create ONE square detailed painterly naturalistic folklore encyclopedia illustration of Fasolt, the GIANT KNIGHT of the medieval German Eckenlied tradition. Show a towering adult humanlike male knight with conspicuous VERY LONG BRAIDED HAIR hanging in thick plaits down over his chest and beyond the waist, no helmet hiding the braids. Plain historically grounded medieval mail and an opaque tunic, two human arms and two human legs, realistic human face, full figure in frame. Huge old stone doorway and rocky German mountain pass establish giant scale. A brooding storm sky recalls his storm-related folkloric association. Proud severe heroic expression and monumental presence, not cheerful mascot. Select ONLY the medieval long-braided knight variant, not Wagner theatrical staging. No horns, wings, pointed monster ears, fangs, extra limbs, fantasy spiked armor, giant hammer or additional characters. No text, runes, labels, borders or watermark. Contemporary artistic interpretation.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-9e1b5895-4d5d-4bab-a5c8-e94523551034.png",
+  "review_path": "data/gemini/reviews/batch-111.review.json",
+  "visual_requirements": [
+    "One giant knight in medieval German heroic setting",
+    "Distinctly long braided hair",
+    "Two human arms and legs",
+    "Storm-associated imposing heroic aura"
+  ],
+  "depicted_variant": "Fasolt as the giant knight of the medieval Eckenlied tradition, with conspicuous long braided hair.",
+  "basis_claim_ids": [
+    "fasolt-c01",
+    "fasolt-c03"
+  ],
+  "aura": "Imposing stormy heroic giant, formidable rather than a generic horned monster.",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Large human warrior; giant scale and armor alone do not qualify."
+  },
+  "reviewed_at": "2026-10-03T16:31:06.760Z",
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-3.json"
+}

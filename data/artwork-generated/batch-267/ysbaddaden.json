@@ -1,0 +1,29 @@
+{
+  "slug": "ysbaddaden",
+  "prompt": "One square detailed painterly naturalistic encyclopedia illustration of Ysbaddaden, the cruel Welsh giant father of Olwen. An enormous old human-shaped giant seated on a huge stone chair in his ancient Welsh castle, two arms two legs, coarse gray beard and heavy weathered face. Defining feature: extraordinary heavy drooping upper eyelids. A tiny adult servant next to his face uses a long blunt fork to gently prop one heavy upper eyelid open, no injury. Giant's other lid hangs down heavily. Giant visibly many times larger than servant. Cruel stern intimidating expression, oppressive foreboding aura, moody medieval Welsh fortress chamber and cold twilight, elaborate weathered textures. Full giant and servant comfortably in square, central face clearly readable. No horns, wings, extra limbs, magical glow, blood, child victims, text or watermark.",
+  "visual_requirements": [
+    "Enormous old human-shaped giant",
+    "Extremely heavy eyelids",
+    "Servant lifting heavy lid with fork",
+    "Cruel intimidating Welsh castle aura"
+  ],
+  "depicted_variant": "Welsh giant with fork-lifted eyelid",
+  "basis_claim_ids": [
+    "ysbaddaden-c01",
+    "ysbaddaden-c03",
+    "ysbaddaden-c05",
+    "ysbaddaden-c06"
+  ],
+  "aura": "Cruel oppressive giant menace",
+  "review_path": "data/gemini/reviews/batch-116.review.json",
+  "worker": "worker-1",
+  "original_file": "/home/asadin/.codex/generated_images/01a1027b-a981-7740-919f-fedd3124720e/exec-5b94cd6c-2053-4bca-ab0a-d9f87c1c4162.png",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Large elderly human male giant on throne; scale and supported drooping eyelids only, otherwise ordinary human anatomy."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-1.json"
+}

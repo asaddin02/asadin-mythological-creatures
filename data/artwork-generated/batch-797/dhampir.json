@@ -1,0 +1,97 @@
+{
+  "slug": "dhampir",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: lighting-weather. Image is EDIT TARGET. Change ONLY unsupported magical lighting and VFX. Preserve exact face, identity, expression, pose, anatomy, limb counts, source size, opaque modest clothing, landscape, camera and square frame. No text/watermark. Remove all red/silver magical filaments around eyes, flute, wrists and body, glowing particles and eye beams. Preserve prominent nose, unusually large HUMAN ears and eyes, ritual flute held by both hands, adult human male in same clothes. Ordinary focused eyes with natural sunset/lantern reflection; normal alley air, no magic aura.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/dhampir-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-0ea07ca3-5f4e-4a59-9e0c-29f5a5600886.png",
+  "review_path": "data/gemini/reviews/batch-121.review.json",
+  "visual_requirements": [
+    "Adult male human-vampire offspring",
+    "Prominent nose, large human ears/eyes",
+    "Ritual flute role",
+    "No jelly/boneless mixing or emitted energy"
+  ],
+  "depicted_variant": "Adult human-bodied Dhampir with prominent nose/large human ears/eyes and documented ritual flute; excludes boneless/jelly variants.",
+  "basis_claim_ids": [
+    "dhampir-c01",
+    "dhampir-c05",
+    "dhampir-c08",
+    "dhampir-c11",
+    "dhampir-c13"
+  ],
+  "aura": "Focused vampire-hunter presence through large eyes, prominent nose, flute ritual and tense village-alley gaze.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected revised native contact: Human male, prominent nose and large human ears/eyes, two hands holding flute preserved; filaments and red glitter gone, natural lantern/sunset only.",
+    "reviewer": "aura-resume-0"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected revised: ordinary clothed adult Balkan hunter holding wooden flute in village at sunset, no luminous eyes or aura."
+  },
+  "attempt_history": [
+    {
+      "slug": "dhampir",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Balkan mythology artwork, stylized-concept. ONE ADULT MALE DHAMPIR, human-vampire offspring and sorcerous vampire detector, choosing documented SIGNS variant with PROMINENT NOSE and UNUSUALLY LARGE HUMAN EARS AND EYES. Human adult body two arms/two legs, naturalistic face mildly otherworldly through those specific features, NOT elf-pointed ears, NOT animal face, no unsupported fangs. Modest old Balkan rural clothes editorial, holding a simple flute as documented ritual vampire-hunt instrument, standing alert on dusk village lane perceiving unseen foe. Unmistakably emitted luminous silver-red magical wisps and suspended particles around eyes, hands and flute, sorcerous detection aura, tense intelligent hunter presence. DO NOT combine boneless/jelly-body short-lived variants with this ordinary-bodied adult. Beautiful detailed face and old stone scene, no actual victim or vampire needed. No horns, wings, gore, text or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/dhampir.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-0ea07ca3-5f4e-4a59-9e0c-29f5a5600886.png",
+      "review_path": "data/gemini/reviews/batch-121.review.json",
+      "visual_requirements": [
+        "One adult male human-vampire offspring",
+        "Prominent nose and unusually large human ears/eyes",
+        "Ritual flute vampire-detector role",
+        "No jelly/boneless variant mixing; visible aura"
+      ],
+      "depicted_variant": "Adult human-bodied Dhampir with prominent nose/large human ears/eyes and documented ritual flute; excludes boneless/jelly variants.",
+      "basis_claim_ids": [
+        "dhampir-c01",
+        "dhampir-c05",
+        "dhampir-c08",
+        "dhampir-c11",
+        "dhampir-c13"
+      ],
+      "aura": "Silver-red emitted detection wisps and suspended magic around eyes/hands/flute.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: Adult human-bodied male with prominent nose and enlarged round human ears/eyes holds flute, silver-red emitted wisps around eyes/hands/flute; not jelly or boneless variant. Exact surface detail/costume and visible aura editorial beyond listed source traits."
+      },
+      "reviewed_at": "2026-10-05T04:22:55.793Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Adult human-vampire offspring with prominent nose and enlarged ears/eyes, ritual flute and emitted red-silver magic, no boneless variant mixing.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/dhampir-verified.webp",
+      "sha256": "c951e9fab0a2e77a680a077a336c2cbd3482808e1204fe52216619fe8b19ce79",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-e7664ca3-ca5c-4a77-be73-b31ffd3eedec.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Unsupported red-silver energy filaments around eyes/flute/hands removed; seeing vampires does not source visible emitted aura.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "dhampir-c01",
+      "dhampir-c05",
+      "dhampir-c08",
+      "dhampir-c11",
+      "dhampir-c13"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/dhampir.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/dhampir.json"
+  }
+}

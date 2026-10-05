@@ -1,0 +1,30 @@
+{
+  "slug": "boginka",
+  "reviewer": "worker-2",
+  "decision": "revise",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/boginka.png",
+  "rationale": "Green neon fog/ribbons around frog; source supports frog transformation but no emitted green aura.",
+  "source_basis_claim_ids": [
+    "boginka-c01",
+    "boginka-c05",
+    "boginka-c06"
+  ],
+  "allowed_magic": "none",
+  "aura": "Threatening hidden nature spirit through watchful frog posture, close low framing, moonlit wet skin and oppressive dark marsh.",
+  "visual_requirements": [
+    "One natural frog with four legs",
+    "Natural frog scale relative reeds",
+    "No human-animal hybrid",
+    "Character presence through pose, framing, atmosphere and scene lighting; no generic emitted aura"
+  ],
+  "prompt": "Use case: precise-object-edit / lighting-weather. Edit the supplied mythology artwork. Remove ONLY unsupported visual effects: all generic glowing envelopes, neon body outlines, colored energy ribbons, magical motes/particles, luminous colored fog, swirling aura, and glowing eye bulbs. Do not replace them with other magic. Preserve the SAME individual creature, body anatomy, count of eyes/limbs/heads, exact scale, pose, framing, clothing coverage, props, setting and painterly quality. Source invariants: One natural frog with four legs; Natural frog scale relative reeds; No human-animal hybrid. Character presence instead: Threatening hidden nature spirit through watchful frog posture, close low framing, moonlit wet skin and oppressive dark marsh.. Restore clean natural textures where effects were removed, ordinary reflected light and realistic shadows.  No new characters or anatomical embellishments, no nudity or gore, no text, watermark or border.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/aura-revision-797/originals/boginka.png",
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-661bc44a-dac8-4eb2-90ba-71059ea4da82.png",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output inspected: green aura removed; natural frog anatomy and reed-relative small scale preserved, moonlit wet textures and dark marsh carry unease."
+  },
+  "reviewed_at": "2026-10-05T05:23:10.759Z"
+}

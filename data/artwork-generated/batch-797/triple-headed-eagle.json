@@ -1,0 +1,68 @@
+{
+  "slug": "triple-headed-eagle",
+  "worker": "worker-0",
+  "prompt": "Use case: stylized-concept. ONE square finely detailed painterly naturalistic folklore encyclopedia illustration of the TRIPLE-HEADED EAGLE, selecting the monstrous Chechen fairy-tale foe, not Ezra's twelve-wing dream variant. Exactly THREE distinct fierce eagle heads on three short necks attached to ONE eagle body, TWO broad feathered wings and TWO taloned legs. Entire bird readable, wings opening on a wind-beaten mountain crag under a violent night storm. Eagle beaks, brown-black layered feathers, three predatory gazes. Terrifying mythical predator aura, charged silver mist and cold lightning rim light are artistic atmospheric treatment. No human head, lion body, crowns, heraldic shield, extra heads, twelve wings, prey, gore, lettering, watermark, border or collage.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/triple-headed-eagle.png",
+  "depicted_variant": "Chechen monstrous three-headed eagle, excluding twelve-wing Ezra variant",
+  "basis_claim_ids": [
+    "triple-headed-eagle-c01",
+    "triple-headed-eagle-c03"
+  ],
+  "aura": "Monstrous presence through three screaming heads, spread wings, towering low-angle mountain perch.",
+  "visual_requirements": [
+    "exactly three eagle heads on one body",
+    "two feathered wings and two taloned legs",
+    "no heraldic text, no twelve wings",
+    "Preserve existing source anatomy, count, scale and modest framing.",
+    "Character presence through pose, composition, atmosphere and natural scene lighting; no generic emitted aura.",
+    "none; background weather is natural atmospheric composition, not eagle magic."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected full original with view_image. Observed three-headed eagle in distant lightning clouds, lighting is natural storm background with no emitted body outline or halo.",
+    "reviewer": "worker-0"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-137.review.json",
+  "workspace_original_file": "data/artwork-generated/batch-797/originals/triple-headed-eagle.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-46a252d1-68aa-40a4-aad3-f1b39c222756.png",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected contact image: exactly three heads, solid feathers, broad wings and talons on high rock. Lightning stays in distant storm sky; no body glow or magic wrap. Strong low viewpoint conveys imposing presence."
+  },
+  "aura_policy_history": [
+    {
+      "aura": "terrifying avian predator in mountain storm",
+      "visual_requirements": [
+        "exactly three eagle heads on one body",
+        "two feathered wings and two taloned legs",
+        "no heraldic text, no twelve wings"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: exactly three eagle heads sharing one feathered body, two spread wings and two taloned legs on mountain rock. Predatory storm aura, no twelve-wing Ezra or heraldic variant. Wing extremities meet frame edges; all three heads and defining anatomy clear. Feather colors and crag are artistic choices."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: three distinct eagle heads sharing one feathered body, two broad wings and two taloned legs; Chechen variant with mountain storm atmosphere.",
+        "reviewed_at": "2026-10-05"
+      }
+    }
+  ],
+  "aura_revision": {
+    "decision": "keep",
+    "reviewer": "worker-0",
+    "rationale": "Observed three-headed eagle in distant lightning clouds, lighting is natural storm background with no emitted body outline or halo.",
+    "allowed_magic": "none; background weather is natural atmospheric composition, not eagle magic.",
+    "source_basis_claim_ids": [
+      "triple-headed-eagle-c01",
+      "triple-headed-eagle-c03"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/triple-headed-eagle.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/triple-headed-eagle.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "sugaar",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: lighting-weather. Input image is EDIT TARGET. Edit ONLY the unsupported magical lighting and vapor described below. Preserve exact character identity, face, pose, anatomy and limb counts, size, framing, fully modest opaque clothing and all environment details. Natural scene illumination only. No text or watermark. Remove body-wrapping blue electrical arcs, golden aura and glowing particles entirely, because this selects solid serpent form rather than separate pure lightning/fire form. Retain distant natural storm lightning only in sky. Preserve exact single continuous scaled legless serpent, one head, forked tongue, coils, cave rock and landscape. Wet scales reflect distant cool storm light; no self-emission.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/sugaar-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-30422d0d-848f-4d93-adc6-095304294b0e.png",
+  "review_path": "data/gemini/reviews/batch-128.review.json",
+  "visual_requirements": [
+    "One continuous legless serpent",
+    "Baltzola cave context",
+    "Selected solid serpent form, no mixed human or wings",
+    "Natural distant storm only; no body energy ribbons"
+  ],
+  "depicted_variant": "Sugaar true serpent form with lightning/fire-associated artistic aura at documented Baltzola cave.",
+  "basis_claim_ids": [
+    "sugaar-c02",
+    "sugaar-c06",
+    "sugaar-c08"
+  ],
+  "aura": "Power through raised serpent head, massive coils, rocky cave and distant natural storm.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected native output: Single head and continuous coiled scaly serpent preserved, wet cave rocks and distant storm; gold particles and body electrical loops gone.",
+    "reviewer": "aura-resume-0"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: solid blue-scaled serpent by mountain cave, lightning confined to distant weather sky. No blue energy bands or emitted serpent glow."
+  },
+  "attempt_history": [
+    {
+      "slug": "sugaar",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Basque mythology artwork, stylized-concept. ONE SUGAAR in documented true SERPENT form, a powerful single long continuous legless serpent at the mouth of Baltzola cave beneath dark Basque mountain stone. One serpent head and coiling scaled body, no limbs or wings or human features; exact scale and scales editorial but primary anatomy serpent source-backed. Source-associated lightning/fire visualized as unmistakable luminous blue-white lightning wisps tracing around coils and fiery golden particles suspended by cave; do not split serpent into multiple beings. Looming dramatic presence, storm sky above mountains, elemental aura, exquisite naturalistic scales and stone, strong cinematic tension. No tail injury or gore, no heads added, no horns, no text or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/sugaar.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-30422d0d-848f-4d93-adc6-095304294b0e.png",
+      "review_path": "data/gemini/reviews/batch-128.review.json",
+      "visual_requirements": [
+        "One continuous legless serpent",
+        "Baltzola cave setting",
+        "Lightning/fire-associated supernatural aura",
+        "No combined human or winged form"
+      ],
+      "depicted_variant": "Sugaar true serpent form with lightning/fire-associated artistic aura at documented Baltzola cave.",
+      "basis_claim_ids": [
+        "sugaar-c02",
+        "sugaar-c06",
+        "sugaar-c08"
+      ],
+      "aura": "Luminous blue-white lightning wisps and golden fire particles.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: One coherent continuous legless serpent at cave mouth; blue-white lightning traces around coils, gold particles, mountainous storm. No wings, limbs, horns or injury. Aura, costume and exact surface detail are editorial; anatomy/variant and setting traced to listed claims."
+      },
+      "reviewed_at": "2026-10-05T02:57:35.144Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: one legless/wingless continuous serpent by mountain cave, conspicuous blue-white lightning and golden fire particles emitted from body; coherent source serpent form.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/sugaar-verified.webp",
+      "sha256": "1ed7f6e3cf5b9889fea44530dbee24cd53fb5498dd30edb30aadf2f90a2f2726",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-a80702b2-cf54-453e-8f98-da40c8c880e7.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Excessive mixed golden aura and body electrical envelope removed to keep selected solid serpent variant distinct from pure fire/lightning manifestations.",
+    "allowed_magic": "c02 permits pure lightning/fire alternative forms, but this selects solid serpent; only distant natural weather retained.",
+    "source_basis_claim_ids": [
+      "sugaar-c02",
+      "sugaar-c06",
+      "sugaar-c08"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/sugaar.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/sugaar.json"
+  }
+}

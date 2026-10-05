@@ -1,0 +1,36 @@
+{
+  "slug": "monster-of-ravenna",
+  "worker": "worker-1",
+  "prompt": "Use case: historical-scene / stylized-concept. Asset type: ONE square painterly historical mythology encyclopedia illustration, no lettering. MONSTER OF RAVENNA specifically the NONHUMAN fantastic omen-image described by Luca Landucci in March 1512, a reconstructed illustration of the historical legend, NOT a medical portrait or realistic malformed infant. Small strange mythic hybrid with a stylized impish youthful face and torso, exactly ONE long upright horn in the center of the forehead, and exactly TWO large dark leathery BAT WINGS growing where arms would be: NO ARMS and NO HANDS. Exactly TWO distinct lower legs in this Landucci variant: its anatomical RIGHT knee (viewer LEFT) bears ONE clearly recognizable additional open eye; its anatomical LEFT foot (viewer RIGHT) is an EAGLE talon with sharp avian toes, while its right foot is a simple normal foot. Both knees/feet entirely visible. An opaque plain dark cloth covering at waist and upper thighs keeps groin fully covered; no exposed private anatomy. Do not add chest letters or crosses, this no-text illustration omits symbolic chest markings. Creature balances on old stone beside distant Renaissance Ravenna architecture under somber clouded twilight. Aura eerie, portentous, unsettling historical wonder, solemn rather than savage; do not romanticize suffering or portray any victim, starvation, injuries or gore. Clearly fantastical single-horn BAT-WING hybrid, not ordinary human costume, not cheerful cherub, not generic modern demon. Fine painterly textures with subtle old engraving-inspired contours, full figure and both wings within frame and margin. No tail, serpents, extra horns, extra legs, single fused leg, arms, hands, feathered wings, people, weapons, exposed genitals, text, inscription, border or watermark. Count ONE forehead horn, TWO bat wings INSTEAD OF arms, TWO legs, ONE knee-eye on its RIGHT knee and EAGLE talon on its LEFT foot. CORRECTION TO THE REFERENCE: change ONLY the two pointed elf ears into small ordinary human rounded ears with completely round ear outlines, no pointed tip, no elf or bat ears. Preserve the exactly one horn, two bat wings instead of arms, two legs, right-knee eye and left eagle foot, modest dark opaque covering, historical painterly setting and solemn mood. All other anatomy and composition stays the same.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-267/reviewed-images/monster-of-ravenna.png",
+  "workspace_original": "data/artwork-generated/batch-267/reviewed-images/monster-of-ravenna.png",
+  "review_path": "data/gemini/reviews/batch-130.review.json",
+  "visual_requirements": [
+    "Single upright forehead horn",
+    "Two bat wings replace arms, with no hands or arms",
+    "Landucci two-leg variant with eye on anatomical right knee and eagle talon on anatomical left foot",
+    "Somber uncanny historical omen, explicit fictional reconstruction"
+  ],
+  "depicted_variant": "Landucci 1512 two-leg bat-wing omen-image, modestly covered; chest signs and genital anatomy omitted",
+  "basis_claim_ids": [
+    "monster-of-ravenna-c01",
+    "monster-of-ravenna-c02",
+    "monster-of-ravenna-c05"
+  ],
+  "additional_sources": [
+    {
+      "url": "https://web.english.upenn.edu/~cavitch/pdf-library/Landucci_Florentine_Diary.pdf",
+      "title": "Luca Landucci, A Florentine Diary from 1450 to 1516, translated by Alice de Rosen Jervis (1927)",
+      "locator": "Printed pages 249–250, entry 11 March 1512",
+      "purpose": "Primary diary directly checked from downloaded PDF. Confirms two bat wings instead of arms, eye on right knee and eagle-like left foot; prevents mixing with later monopod variants."
+    }
+  ],
+  "aura": "Uncanny, solemn and portentous Renaissance historical wonder",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Individually inspected corrected original with view_image. Exactly one central horn; two leathery bat wings grow where arms would be with no hands/arms; two distinct legs, open additional eye on anatomical right knee (viewer left), eagle talon on anatomical left foot (viewer right), right foot ordinary. Correction removed unsupported pointed elf ears, now rounded. Opaque dark cloth fully covers groin. Somber uncanny legendary omen stands over Ravenna-like Renaissance city. No letters, graphic suffering, injury or nudity. Depicts historical fantastic image rather than diagnosis or realistic disabled child; chest signs, waist serpents and genital details deliberately omitted."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "reviewed_at": "2026-10-04T12:16:13.265Z"
+}

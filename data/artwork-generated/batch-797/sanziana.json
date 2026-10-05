@@ -1,0 +1,91 @@
+{
+  "slug": "sanziana",
+  "worker": "worker-0",
+  "prompt": "Use case: lighting-weather. Image is EDIT TARGET. Remove unsupported magical lighting only; preserve exact identity, face, expression, pose, coherent anatomy and counts, source size, modest opaque clothing, setting, camera and square framing. No text/watermark. Remove ALL golden emitted body ribbons, floating magical particles and luminous grass. Preserve good adult female fairy, opaque WHITE dress, Galium verum yellow flowers held and in hair, pose, sunset mountain pasture and natural sunshine. Benign character through gaze and posture, no body halo.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/sanziana-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-213384dc-ef56-4c2d-96e5-f5daee526ff9.png",
+  "depicted_variant": "Good Romanian female fairy; white dress and Galium verum festival-inspired editorial styling",
+  "basis_claim_ids": [
+    "sanziana-c01",
+    "sanziana-c03",
+    "sanziana-c04",
+    "sanziana-c06"
+  ],
+  "aura": "Gentle fairy presence through serene gaze, white festival dress, Galium bouquet and quiet mountain sunset.",
+  "visual_requirements": [
+    "Good adult female fairy",
+    "White costume and Galium festival-inspired styling",
+    "No invented wings or emitted aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected revised native contact: Same adult female, opaque white dress, Galium flowers and pasture; gold loops and glowing motes gone, natural sunset.",
+    "reviewer": "aura-resume-0"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-123.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected selected native preview: gentle beautiful fairy in modest white dress, flower crown and yellow flowers in mountain pasture; festival-inspired clothing and natural sunset convey grace without luminous loops or motes."
+  },
+  "attempt_history": [
+    {
+      "slug": "sanziana",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square exquisite high-detail painterly naturalistic cinematic mythology encyclopedia illustration. SÂNZIANĂ, Romanian gentle good female fairy. ONE ADULT HUMANLIKE WOMAN, natural serene beautiful humanface, normalears, modest opaque WHITE DRESS and small bunch of yellow GALIUM VERUM flowers, standing fullfigure in Carpathian meadow at summer solstice twilight. Female fairy source category interpreted conservatively; WHITE CLOTHING AND GALIUM are FESTIVAL-INSPIRED ARTISTIC styling from celebrating maidens, not claimed traditional fairy anatomy. Clearly luminous yellow-white supernatural wisps RADIATE FROM BODY and flowers, cast magical light upon meadow, benevolent enchanting solstice presence. No wings, horns, pointedelfears, otherpeople or sexualscene. No text, watermark, border, collage or labels.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/sanziana.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-213384dc-ef56-4c2d-96e5-f5daee526ff9.png",
+      "depicted_variant": "Good Romanian female fairy; white dress and Galium verum festival-inspired editorial styling",
+      "basis_claim_ids": [
+        "sanziana-c01",
+        "sanziana-c03",
+        "sanziana-c04",
+        "sanziana-c06"
+      ],
+      "aura": "gentle solstice fairy emitted yellow-white flower magic",
+      "visual_requirements": [
+        "good adultfemale fairy",
+        "whitecostume/Galium explicitlyfestivalinspired",
+        "no inventedwings"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected native: adult humanlike gentle female fairy, natural anatomy, modest white dress, yellow Galium-verum-like flower bunch and Carpathian meadow, emitted yellow-white magic. IMPORTANT dress and flowers are FESTIVAL-INSPIRED EDITORIAL styling from celebrating maidens c03, not asserted fairy morphology. Source good female fairy c01/c04/c06 interpreted conservatively."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-123.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Good adult female fairy with emitted gold aura; white dress and Galium flowers disclosed as festival-inspired artistic styling.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/sanziana-verified.webp",
+      "sha256": "b13d0018886b65db3edcf439d53553db27eba0d3e0dfbb65fcb7da8b820dd6f9",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-bd9918ca-fa6a-4123-b7a5-c0a5835e79a5.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Gold body loops, magical motes and glowing pasture removed.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "sanziana-c01",
+      "sanziana-c03",
+      "sanziana-c04",
+      "sanziana-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/sanziana.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/sanziana.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "yume-no-seirei",
+  "worker": "worker-3",
+  "prompt": "Use case: historical-scene. ONE square detailed painterly naturalistic encyclopedia illustration of Yume no seirei, the Japanese nightmare dream spirit documented in Sawaki Suushi's 1737 Hyakkai Zukan. One emaciated elderly Japanese man with a hollow gaunt human face, sparse thin wispy grey hair flowing backward, and visible frail ribs through the loose open upper portion of a WHITE ROBE; modest lower body covered. His RIGHT hand holds a plain crooked cane, his LEFT hand reaches toward the viewer in a clearly beckoning gesture. The BOTTOM HALF of his figure fades into dream mist and disappears, not solid feet. He appears in a dim empty dreamlike old Japanese room, shadows subtly distorted. His intense hollow gaze and beckoning make the atmosphere genuinely eerie and nightmare-threatening, not a kindly old sage; subtle cold side light. Central complete upper spirit and cane comfortably in square, naturalistic painterly anatomy and cloth. Invariants: thin elderly man, loose white robe revealing ribs, sparse flowing hair, right-hand cane, left-hand beckoning, lower body fading away. Avoid healthy muscular body, beard replacing thin hair, crown, horns, wings, fangs, armor, scythe, visible feet, cute mascot, gore, nudity, other people, lettering, watermark, border, collage.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-b51fdd5f-d0e4-49ca-9c79-77246341ebcd.png",
+  "review_path": "data/gemini/reviews/batch-060.review.json",
+  "visual_requirements": [
+    "Emaciated elderly man",
+    "Loose white robe showing frail ribcage",
+    "Sparse flowing hair",
+    "Right-hand cane; left-hand beckoning",
+    "Lower body fades away; nightmare aura"
+  ],
+  "depicted_variant": "1737 Hyakkai Zukan nightmare dream spirit figure",
+  "basis_claim_ids": [
+    "yume-no-seirei-c01",
+    "yume-no-seirei-c02",
+    "yume-no-seirei-c03",
+    "yume-no-seirei-c04",
+    "yume-no-seirei-c05",
+    "yume-no-seirei-c06",
+    "yume-no-seirei-c07"
+  ],
+  "aura": "Gaunt unsettling nightmare invitation",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-3.json"
+}

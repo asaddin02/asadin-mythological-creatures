@@ -1,0 +1,32 @@
+{
+  "slug": "sjora",
+  "worker": "worker-2",
+  "generated_by": "root",
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "prompt": "Use case: illustration-story. Create ONE square detailed painterly naturalistic folklore encyclopedia image of the Swedish Sjörå or Mistress of the Lake. Select her documented HUMANLIKE FEMALE FORM: one adult woman with LONG DARK HAIR, seated on a stone at the edge of a still northern lake, delicately COMBING her hair with a simple plain comb. Ordinary human anatomy, two arms and two legs, fully covered in an opaque simple rustic pale-blue long gown. Show full seated figure and long hair with comfortable margins. Dark pine reflections, water mist and cold twilight with a subtle soft glint from the lake. Her calm knowing gaze and unhurried gesture should evoke an enigmatic powerful ruler guarding the lake who may reward respect or take revenge, not a cheerful ordinary portrait or generic sparkling fairy. Preserve woman-on-stone, long dark hair and comb; select only this humanlike variant, no fish tail, scales, hollow visible back, horns, wings, pointed ears, crown or trident. No victims, injuries, drowning, extra people or creatures. No text, runes, labels, border or watermark. Contemporary artistic interpretation of the specific source-described lakeside combing figure.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-16edc85c-ba89-4fae-8420-c23dd9c1d404.png",
+  "review_path": "data/gemini/reviews/batch-112.review.json",
+  "visual_requirements": [
+    "Humanlike female lake guardian",
+    "Long dark hair being combed",
+    "Seated on a stone at lake shore",
+    "Enigmatic ambivalent water-ruler atmosphere"
+  ],
+  "depicted_variant": "Sjörå's documented humanlike female form seated on a lakeside stone combing her long dark hair; no mixed fish-tail or hollow-backed variant.",
+  "basis_claim_ids": [
+    "sjora-c03",
+    "sjora-c05",
+    "sjora-c06",
+    "sjora-c08",
+    "sjora-c11"
+  ],
+  "aura": "Enigmatic compelling lake guardian, quietly powerful and ambivalent rather than an evil attacker.",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Ordinary woman combing hair beside lake; no physical tail or hollow back visible."
+  },
+  "reviewed_at": "2026-10-04T02:42:09.258Z",
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-2.json"
+}

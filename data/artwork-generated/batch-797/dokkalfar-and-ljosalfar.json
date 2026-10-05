@@ -1,0 +1,91 @@
+{
+  "slug": "dokkalfar-and-ljosalfar",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: lighting-weather. Supplied image is EDIT TARGET. Change ONLY unsupported magical lighting/VFX. Preserve exact identity, face, expression, pose, coherent anatomy and limb counts, size, opaque modest coverings, camera, square composition and environment. No text/watermark. Remove ALL purple and golden emitted magical ribbons, glowing particles and energy in each elf's palm. Keep two humanlike elves: LEFT pitch-black skin underground in cave, RIGHT very fair sun-bright-complexioned elf in sunlit Alfheimr-like grove. Left lit only by physical low torches/reflections; right lit only by natural strong sunshine. No emitted body aura, no glowing cave crystals. Preserve distinction of complexion and separate habitats, faces and robes.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/dokkalfar-and-ljosalfar-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-2b50962e-8f59-45c1-a2f5-44672456bbfe.png",
+  "review_path": "data/gemini/reviews/batch-116.review.json",
+  "visual_requirements": [
+    "One pitch-black dark elf underground",
+    "One very fair light elf in Alfheimr-like grove",
+    "Natural torches underground and sunshine in grove",
+    "No emitted ribbons, particles, palm magic or wings"
+  ],
+  "depicted_variant": "Edda distinction one pitch-black underground dark elf and one sun-fair Álfheimr light elf; humanlike silhouettes/robes editorial, no inferred moral alignment.",
+  "basis_claim_ids": [
+    "dokkalfar-and-ljosalfar-c01",
+    "dokkalfar-and-ljosalfar-c03",
+    "dokkalfar-and-ljosalfar-c05"
+  ],
+  "aura": "Contrast through pitch-black underground elf, fair elf in sunny grove, poses and separate environments.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected revised native contact: Two source-complexion elves and separate cave/grove preserved; purple/gold energy ribbons and palm light gone, physical torch and sunshine illumination only.",
+    "reviewer": "aura-resume-0"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: dark elf underground and fair light elf in sunlit landscape, two source appearances retained. Brightness tied to physical sun/fire scene, no detached body halo."
+  },
+  "attempt_history": [
+    {
+      "slug": "dokkalfar-and-ljosalfar",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Norse mythology encyclopedia illustration, stylized-concept. Two source-attested elf kinds together as educational mythical tableau: ONE DÖKKÁLFR underground with body surface BLACKER THAN PITCH, and ONE LJÓSÁLFR at bright Álfheimr-like grove above earth FAIRER/BRIGHTER THAN SUN. Two dignified ADULT humanlike spirit silhouettes, ordinary two-arm/two-leg anatomy, no unsupported wings, horns or pointed-ear emphasis; exact body features and modest robes editorial interpretation because text distinguishes appearance/color not fixed anatomy. Natural rocky opening divides subterranean side and luminous forest side without labels. Dark elf's pitch-dark silhouette surrounded by visibly emitted violet-blue magic wisps and glowing dark sparks; light elf radiates unmistakable white-gold emitted wisps and sunlike luminous particles, keep facial detail readable. Powerful serene mythic duality, exquisite naturalistic painting and roots/light. Do not depict moral evil/good claims from color, no battle, no text or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/dokkalfar-and-ljosalfar.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-2b50962e-8f59-45c1-a2f5-44672456bbfe.png",
+      "review_path": "data/gemini/reviews/batch-116.review.json",
+      "visual_requirements": [
+        "One pitch-black dark elf underground",
+        "One sun-fair light elf in Alfheimr-like grove",
+        "Separate emitted magical auras",
+        "No moral color inference or invented wings"
+      ],
+      "depicted_variant": "Edda distinction one pitch-black underground dark elf and one sun-fair Álfheimr light elf; humanlike silhouettes/robes editorial, no inferred moral alignment.",
+      "basis_claim_ids": [
+        "dokkalfar-and-ljosalfar-c01",
+        "dokkalfar-and-ljosalfar-c03",
+        "dokkalfar-and-ljosalfar-c05"
+      ],
+      "aura": "Violet-blue emitted dark wisps contrasted with white-gold sunlike light-elf radiance.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: Two adult humanlike spirit silhouettes: pitch-black dark elf in rocky underground and sun-fair light elf in bright grove; violet-blue/white-gold emitted energy around each, no moral conflict or wings. Robes/features editorial. Exact surface detail/costume and aura editorial beyond listed source traits."
+      },
+      "reviewed_at": "2026-10-05T04:09:09.976Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Separate pitch-black underground elf and sun-fair light elf in grove, coherent clothed humanlike staging and distinct emitted violet/gold auras.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/dokkalfar-and-ljosalfar-verified.webp",
+      "sha256": "2bbc55e0914517de1cb88904c741410d5477e69cf6c2b111af623897c33f837c",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-5a05bd63-2093-48e8-bd6d-87266ccd94d2.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Unsupported purple/gold body ribbons and palm energy removed; selected source contrasting complexions/habitats preserved.",
+    "allowed_magic": "none; fairer-than-sun source complexion is rendered through bright natural sunshine without a separate emitted envelope.",
+    "source_basis_claim_ids": [
+      "dokkalfar-and-ljosalfar-c01",
+      "dokkalfar-and-ljosalfar-c03",
+      "dokkalfar-and-ljosalfar-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/dokkalfar-and-ljosalfar.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/dokkalfar-and-ljosalfar.json"
+  }
+}

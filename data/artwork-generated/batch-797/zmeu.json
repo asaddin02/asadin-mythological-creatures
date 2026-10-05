@@ -1,0 +1,65 @@
+{
+  "slug": "zmeu",
+  "basis_claim_ids": [
+    "zmeu-c02",
+    "zmeu-c03",
+    "zmeu-c06"
+  ],
+  "depicted_variant": "Romanian zmeu as a colossal humanlike giant with a sun-bright gem on his head",
+  "visual_requirements": [
+    "Preserve source humanoid giant with arms/legs and localized sun-bright head gem (c03)",
+    "Preserve source scale and landscape, no generic emitted aura; natural lighting outside explicit source effect"
+  ],
+  "aura": "Huge humanoid ogre silhouette and bright source head gem over miniature valley.",
+  "prompt": "Use case: illustration-story. ONE square epic dark painterly mythology illustration of ROMANIAN ZMEU, the GIANT HUMANLIKE variant with a magical gem on its head. One colossal adult male ogre-like giant with TWO humanlike arms and TWO humanlike legs, coarse threatening face and tremendous muscular scale; modest plain worn tunic and belt are artistic costume treatment. A prominent magical gem set at the front of his head shines with the brightness of a small sun, sending supernatural gold rays through sinister storm haze. He looms over tiny distant mountain towers and pine trees, clearly enormous according to his giant identity. Entire towering silhouette visible inside frame; low viewpoint conveys vast size. Menacing expression, dramatic chiaroscuro, ominous winds and richly textured cloth/skin. No dragon wings, horns, animal legs, serpent body, extra heads, abducted women, sexual scene, gore, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-122.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/zmeu.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-4f3a4635-fd2e-4dfb-b322-d8b697924828.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected full native original. Source magical head gem shines like the sun; only this localized gem emission is present, alongside natural cloud and valley light.",
+    "reviewer": "worker-0"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected original: towering humanoid giant, weapons retained. Forehead gem shines as explicitly supported by c03; no unrelated emitted body wrapping."
+  },
+  "aura_policy_history": [
+    {
+      "aura": "Sun-bright forehead gem radiance, ominous mountain storm haze",
+      "visual_requirements": [
+        "Colossal humanlike giant with two arms and two legs",
+        "Brilliant magic gem on head",
+        "Huge scale against small mountain buildings and threatening aura"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed colossal humanlike male giant with two arms and two legs, coarse stern face and modest worn tunic. A prominent forehead gem emits brilliant sun-like golden rays. Tiny pine trees, mountain towers and river valley demonstrate giant scale. No dragon body, wings, horns, extra heads or abducted women."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: colossal humanlike giant with source forehead gem emitting sunlight, tiny trees/towers establish great scale, no dragon limbs or extra heads.",
+        "reviewed_at": "2026-10-05"
+      }
+    }
+  ],
+  "aura_revision": {
+    "decision": "keep",
+    "reviewer": "worker-0",
+    "rationale": "Source magical head gem shines like the sun; only this localized gem emission is present, alongside natural cloud and valley light.",
+    "allowed_magic": "Head precious stone shining like the sun explicitly described c03; no general body energy.",
+    "source_basis_claim_ids": [
+      "zmeu-c02",
+      "zmeu-c03",
+      "zmeu-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/zmeu.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/zmeu.json"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "syojatar",
+  "basis_claim_ids": [
+    "syojatar-c01",
+    "syojatar-c06",
+    "syojatar-c09",
+    "syojatar-c10"
+  ],
+  "depicted_variant": "Syöjätär transformed into adult princess likeness",
+  "visual_requirements": [
+    "Remove violet-green emitted body ribbons, magical particles and hand glow. Preserve same adult female princess likeness, face, natural anatomy, two hands with exact finger positions, crown, modest opaque regal gown, exact pose and Nordic palace/forest setting. Source spell supports princess likeness but no persistent energy envelope. Menacing presence through severe stare and commanding gesture, natural dusk light.",
+    "No generic emitted wrapping; preserve anatomy and counts"
+  ],
+  "aura": "Severe regal gaze, crown and commanding pose at palace door.",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove violet-green emitted body ribbons, magical particles and hand glow. Preserve same adult female princess likeness, face, natural anatomy, two hands with exact finger positions, crown, modest opaque regal gown, exact pose and Nordic palace/forest setting. Source spell supports princess likeness but no persistent energy envelope. Menacing presence through severe stare and commanding gesture, natural dusk light. Preserve original composition, count, exact scale and identity. No added subjects, nudity, gore, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-125.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/syojatar-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-a70253b1-ffb9-44f9-bb06-f9f575b37fcc.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output individually inspected: same adult princess likeness, crown, regal opaque clothes and gesture, natural human anatomy; green/violet wrapping/hand glow removed.",
+    "reviewer": "aura-resume-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected revised native: cruel-looking adult woman in selected princess disguise at forest cabin, normal anatomy, ordinary evening light, no magical aura."
+  },
+  "attempt_history": [
+    {
+      "slug": "syojatar",
+      "basis_claim_ids": [
+        "syojatar-c01",
+        "syojatar-c06",
+        "syojatar-c09",
+        "syojatar-c10"
+      ],
+      "depicted_variant": "Syöjätär transformed into adult princess likeness",
+      "visual_requirements": [
+        "Adult woman in princess likeness",
+        "Modest opaque regal clothes",
+        "Natural human anatomy",
+        "No blinded victim"
+      ],
+      "aura": "Sinister emitted purple-green sorcery wisps",
+      "prompt": "Depict Syöjätär in the Finnish song variant where she magically transforms HERSELF into the princess's likeness. A clearly ADULT humanlike princess in modest opaque regal Finnish-inspired period clothing, a long embroidered dress and restrained ornamental headpiece, alone near a shadowy woodland court doorway. Beautiful human face with subtly cold unnatural eyes and a cruel calculating expression; natural human anatomy, two arms and legs, no horns, troll limbs, wings, fangs or invented monster features because she is in the princess's human likeness. Strong sinister purple-green sorcery wisps and luminous magical particles visibly emanate from her body and fingers, exposing the evil spirit beneath this appearance. Full body, frightening enchanted atmosphere, no other princess, blinded victim, burning sauna or sexual imagery. Square premium highly detailed painterly encyclopedia illustration, one coherent mythological entity, clear silhouette fully inside frame. No text, caption, border, watermark, gore, attacks or victims.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-125.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/syojatar.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-a70253b1-ffb9-44f9-bb06-f9f575b37fcc.png",
+      "reviewed_at": "2026-10-05T04:07:00.342Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: fully dressed adult human princess likeness from source transformation song, natural arms and hands, sinister purple-green emitted sorcery aura; no invented troll anatomy or victims."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Adult woman in source princess likeness, opaque regal dress and natural human anatomy, sinister emitted violet-green aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/syojatar-verified.webp",
+      "sha256": "2769f6e2226ffc878cc29e27345601f5928d9278241baaee75e6aaec2de8593e",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-bd49e509-a80b-47ed-9a7a-d05e6c48a304.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Transformation spell supports princess likeness, not persistent purple/green wrapping.",
+    "allowed_magic": "none beyond documented manifestation",
+    "source_basis_claim_ids": [
+      "syojatar-c01",
+      "syojatar-c06",
+      "syojatar-c09",
+      "syojatar-c10"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/syojatar.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/syojatar.json"
+  }
+}

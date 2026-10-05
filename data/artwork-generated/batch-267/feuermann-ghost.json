@@ -1,0 +1,32 @@
+{
+  "slug": "feuermann-ghost",
+  "worker": "worker-3",
+  "generated_by": "root",
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "prompt": "Use case: stylized-concept. Create ONE square detailed painterly naturalistic folklore image of the German Feuermann ('fire man'), choosing the documented LEADEN HUMANLIKE MANIKIN WITH FIRE UNDER ITS MANTLE variant. Show one LARGE human-shaped supernatural figure with grey lead-metal face and hands, two arms and two legs, wearing a dark mantle open just enough to reveal incorporeal orange-gold FLAME beneath the cloak. The flame is magical light within an otherwise intact metal spirit, NOT a human body being burned, no injury or tissue. He stands at an old boundary stone beside a marshy field at night. Entire silhouette clearly framed; large human-sized form must distinguish him from a tiny will-o'-the-wisp. Cold moonlit mist, warm fire glowing through the mantle, severe solemn haunted expression; uncanny wandering purgatorial spirit, not a cheerful lantern guide, superhero or elemental combat monster. No fire attack, burning scenery, victims, skeleton, horns, wings, weapons, extra beings or fantasy armor. Choose only this leaden-mantled variant; no snake, wheel or rider mixture. No text, runes, labels, borders or watermark. Contemporary artistic interpretation.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-7b9b9c5c-c727-4570-b544-f39d40822274.png",
+  "review_path": "data/gemini/reviews/batch-112.review.json",
+  "visual_requirements": [
+    "Large humanlike fire ghost",
+    "Leaden manikin with fire under mantle",
+    "Nighttime field boundary",
+    "Uncanny purgatorial wandering-spirit aura"
+  ],
+  "depicted_variant": "The documented leaden humanlike manikin with fire beneath its mantle, appearing at a field boundary at night.",
+  "basis_claim_ids": [
+    "feuermann-ghost-c01",
+    "feuermann-ghost-c02",
+    "feuermann-ghost-c05",
+    "feuermann-ghost-c07",
+    "feuermann-ghost-c08"
+  ],
+  "aura": "Uncanny solemn purgatorial fire ghost, potentially dangerous but not a violent attacking fire demon.",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Ordinary human male figure surrounded by flames; fire/aura is insufficient."
+  },
+  "reviewed_at": "2026-10-04T02:42:09.237Z",
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-3.json"
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "simonside-dwarfs",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Edit this existing mythological encyclopedia artwork to revise AURA as CHARACTER PRESENCE. REMOVE ALL generic emitted colored energy ribbons, neon outlines/halos, magical wisps, glowing particles/sparkles, colored luminous smoke/fog and body glow, including residual lines around silhouette, from creature and environment. Remove unsupported luminous eyes, retain normal natural eyes and reflections. Do not replace effects with white magic or fireflies. Use natural scene light only. Character presence: Menace from ugly scowl, close low view and natural cold moor light. Preserve EXACT subject anatomy/counts/scale, identity, pose, perspective, scene, adult modest clothing and concealment. Critical invariants: Short dwarf, lambskin coat, moleskin trousers, moss hat with feather, exact proportions. Retain detailed painterly naturalism, keep source physical colors/materials. No additional creatures, no text/watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/simonside-dwarfs-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-8d2192b7-420a-41f7-823d-1c8c73af7f67.png",
+  "review_path": "data/gemini/reviews/batch-118.review.json",
+  "visual_requirements": [
+    "Short dwarf, lambskin coat, moleskin trousers, moss hat with feather, exact proportions.",
+    "Character presence through pose/framing/natural scene light; no generic emitted aura."
+  ],
+  "depicted_variant": "Grice1944 short Simonside Duergar in lambskin coat, moleskin trousers, feathered moss hat; face/aura editorial.",
+  "basis_claim_ids": [
+    "simonside-dwarfs-c02",
+    "simonside-dwarfs-c05"
+  ],
+  "aura": "Menace from ugly scowl, close low view and natural cold moor light.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actual new output inspected in six-image contact sheet. Removed luminous ribbons, particles and emitted color fields; retained source anatomy, subject scale, physical colors and modest clothes. Tartalo has exactly one central eye and non-glowing physical ring; Ora retains golden horns; Sihuanaba retains horse head.",
+    "reviewer": "worker-1"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: short ugly dwarf, lambskin coat, moss/feather hat, moor rocks. All energy wisps removed; natural moonlight and fog."
+  },
+  "attempt_history": [
+    {
+      "slug": "simonside-dwarfs",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Northumbrian folklore mythology illustration, stylized-concept. ONE SIMONSIDE DUERGAR, an ugly wicked SHORT DWARF from Simonside Hills, dressed EXACTLY in a LAMBSKIN COAT, MOLESKIN TROUSERS and a MOSS HAT WITH ONE FEATHER, as Frederick Grice's documented variant. Small stout humanlike figure, coarse unhandsome uncanny humanlike face, two arms and legs, no invented horns or wings. Stand on rocky Simonside moor path beside normal heather and large boulders demonstrating very short stature; body not giant. Threatening malicious stare, night mist, UNMISTAKABLE luminous cold green supernatural wisps emitted around dwarf silhouette and hat, drifting uncanny glowing particles near path. Creepy northern hills darkness, detailed coat wool, trousers, moss and feather, whole figure visible. Clothing distinctions clearly readable. No generic pointed elf hat replacing moss, no animal face, no text or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/simonside-dwarfs.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-8d2192b7-420a-41f7-823d-1c8c73af7f67.png",
+      "review_path": "data/gemini/reviews/batch-118.review.json",
+      "visual_requirements": [
+        "Very short ugly wicked dwarf",
+        "Lambskin coat and moleskin trousers",
+        "Moss hat with feather",
+        "Hill-path scale and malevolent aura"
+      ],
+      "depicted_variant": "Grice1944 short Simonside Duergar in lambskin coat, moleskin trousers, feathered moss hat; face/aura editorial.",
+      "basis_claim_ids": [
+        "simonside-dwarfs-c02",
+        "simonside-dwarfs-c05"
+      ],
+      "aura": "Cold green luminous emitted dwarf wisps and uncanny glowing path particles.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: One short ugly humanlike dwarf on Simonside moor; readable woolly lambskin coat, dark moleskin-style trousers, moss-covered hat with feather; luminous green emitted aura. Exact surface detail/costume not specified by claims and aura editorial."
+      },
+      "reviewed_at": "2026-10-05T03:16:49.663Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Short ugly dwarf in lambskin coat, moleskin trousers and moss feather hat, malevolent green emitted wisps.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/simonside-dwarfs-verified.webp",
+      "sha256": "fcc352587d06fb5646e0b72dd93de0cf1af08aeb2d408e8a4018cf0a660cd208",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-e744119a-37b9-44ef-a053-80a05a468d08.png",
+  "revision_generator": "worker-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-1",
+    "rationale": "Green magical envelope and glowing particles around dwarf ungrounded in clothing/source.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "simonside-dwarfs-c02",
+      "simonside-dwarfs-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/simonside-dwarfs.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/simonside-dwarfs.json"
+  }
+}

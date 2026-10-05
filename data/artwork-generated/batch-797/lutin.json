@@ -1,0 +1,87 @@
+{
+  "slug": "lutin",
+  "basis_claim_ids": [
+    "lutin-c09",
+    "lutin-c10"
+  ],
+  "depicted_variant": "Quebec lutin in completely white domestic cat form",
+  "visual_requirements": [
+    "Completely white domestic cat",
+    "Natural four-legged feline anatomy and one tail",
+    "Same pose, scale, framing and household setting",
+    "No generic emitted aura"
+  ],
+  "aura": "Poised household presence through alert gaze, fireplace warmth and quiet moonlit room.",
+  "prompt": "Use case: precise-object-edit. Edit this supplied mythology artwork: remove all emitted blue aura ribbons, glowing neon body outline and magical particles from the white cat. Preserve exactly this completely white domestic cat, natural feline anatomy with four legs and one tail, pose, size, face, fireplace room, moonlit window, framing and painterly detail. Restore ordinary white fur and floor shadows. Presence comes from poised alert gaze, warm real fireplace light, cool natural moonlight and the quiet room. No magical wrapping, new objects, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-143.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/lutin-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-dc12f9fb-0d3c-4e85-b8e7-97d5db149403.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native output: completely white cat, four legs and one tail preserved, clean fur without blue wrapping or particles; ordinary fireplace and moonlight retained.",
+    "reviewer": "aura-resume-2"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edited white cat with coherent paws and body by hearth; no emitted outline, particles or ribbons. Warm illumination tied to physical fire."
+  },
+  "attempt_history": [
+    {
+      "slug": "lutin",
+      "basis_claim_ids": [
+        "lutin-c09",
+        "lutin-c10"
+      ],
+      "depicted_variant": "Quebec lutin in completely white domestic cat form",
+      "visual_requirements": [
+        "Completely white domestic cat",
+        "Natural feline body with four legs and one tail",
+        "Clearly supernatural household spirit aura"
+      ],
+      "aura": "Soft spectral blue household glow and luminous mist around paws",
+      "prompt": "Use case: illustration-story. ONE square exquisite painterly mythology encyclopedia illustration of a LUTIN in the Quebec animal variant: one completely WHITE domestic CAT, natural four feline legs, white fur, white face and one white tail, perched beside a hearth in a rustic French-Canadian home at night. Entire cat visible inside comfortable margins. A distinctly supernatural silvery-blue aura radiates from its fur and tiny luminous wisps curl around its paws, contrasting with warm hearth glow and mysterious deep room shadows. Alert intelligent mischievous spirit expression, tactile fur and old timber, numinous folklore mood. This is cat-form lutin, not an elf holding a cat. No clothing on cat, no horns, wings, colored fur patches, extra limbs, text, watermark, border or gore.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-143.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/lutin.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-dc12f9fb-0d3c-4e85-b8e7-97d5db149403.png",
+      "reviewed_at": "2026-10-05T02:43:38.188Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed entirely white natural domestic cat with four legs, one tail and no fantasy appendages. Explicit blue luminous wisps, particles and glowing outline surround the cat, clearly distinguishing the Quebec animal-form household spirit from an ordinary cat."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: entirely white domestic cat with four feline legs and one tail, unmistakably luminous blue emitted wisps/rim glow; coherent Quebec animal-spirit variant.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/lutin-verified.webp",
+      "sha256": "82e6e74bd022bfb1c97c6895e53140e4d168e7ded3d1c94fa75080ec5a20b621",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-fff9-76e1-92c1-76bde2aff5e5/exec-b432d23d-2c3b-4c13-b666-fe42b74918f0.png",
+  "revision_generator": "aura-resume-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-2",
+    "rationale": "Original white-cat variant had unsupported blue emitted ribbons, particles and neon fur outline.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "lutin-c09",
+      "lutin-c10"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/lutin.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/lutin.json"
+  }
+}

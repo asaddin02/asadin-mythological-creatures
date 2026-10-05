@@ -1,0 +1,86 @@
+{
+  "slug": "vishap",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Edit this existing artwork: change aura to CHARACTER PRESENCE. Remove all generic emitted halos, luminous outlines, energy ribbons, glowing particles, colored luminous fog and swirling light around body and environment. No replacement white magic/fireflies. Natural light and ordinary NON-luminous weather only. Presence: Colossal power through mountain/lake scale, raised serpent head and natural cloud light. Preserve anatomy, counts, scale, pose, subject, scene, modest adult clothing and style. Critical invariants: One continuous LEGLESS winged snake, EXACTLY TWO wings, no legs, mountain lake scale. No text/watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/vishap-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-dd13d7df-8101-4e21-a3d8-ed47f4f3027c.png",
+  "review_path": "data/gemini/reviews/batch-123.review.json",
+  "visual_requirements": [
+    "One continuous LEGLESS winged snake, EXACTLY TWO wings, no legs, mountain lake scale.",
+    "Character presence through pose/framing/natural light; no generic emitted aura."
+  ],
+  "depicted_variant": "Attested winged-snake Vishap, not composite-animal alternatives; wing materials/color/aura editorial.",
+  "basis_claim_ids": [
+    "vishap-c01",
+    "vishap-c05"
+  ],
+  "aura": "Colossal power through mountain/lake scale, raised serpent head and natural cloud light.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actual new image inspected in five-image contact sheet. Generic luminous effects removed. Tiddy Mun retains ordinary low fen fog; Trauco has footless rounded stumps; Vedmak clean shaven with small tail; Vishap continuous legless serpent with two wings; Zana exactly three golden-horned goats. Anatomy, scale and modest clothing preserved.",
+    "reviewer": "worker-1"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: immense blue-scaled winged serpent over mountain lake, coherent scales and gold wing membranes; no cyan energy threads, natural reflections only."
+  },
+  "attempt_history": [
+    {
+      "slug": "vishap",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Armenian mythology encyclopedia artwork, stylized-concept. ONE VISHAP in explicitly documented WINGED SNAKE variant: one enormous continuous serpentine scaled body, ONE snake-dragon head, TWO wings attached organically to upper serpent torso, absolutely NO LEGS or human anatomy. Coils rise beside an ancient Armenian mountain lake, winged serpent dominates landscape, cliffs and normal trees establish immense water-dragon power. Wings clearly readable and serpent body unbroken, no invented mixed animals. UNMISTAKABLY luminous deep blue-gold magical water wisps and suspended radiant droplets coil around body and wings, frightful ancient power and fertility/water association. Richly detailed naturalistic scales, leathery wings as editorial wing treatment, storm-lit mountain water, no victims or battle wounds. No extra heads, no text or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/vishap.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-dd13d7df-8101-4e21-a3d8-ed47f4f3027c.png",
+      "review_path": "data/gemini/reviews/batch-123.review.json",
+      "visual_requirements": [
+        "One continuous winged serpent",
+        "Two wings, no legs",
+        "Armenian mountain water setting",
+        "Powerful emitted water aura"
+      ],
+      "depicted_variant": "Attested winged-snake Vishap, not composite-animal alternatives; wing materials/color/aura editorial.",
+      "basis_claim_ids": [
+        "vishap-c01",
+        "vishap-c05"
+      ],
+      "aura": "Deep blue-gold luminous water wisps and suspended radiant droplets.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: One massive winged serpentine dragon, exactly two wings, one head and continuous legless scaled body at mountain lake; luminous blue-gold wisps/droplets clearly emitted. Head ornamentation/colors and wing material editorial. Exact size/color/costume and aura editorial beyond listed source traits."
+      },
+      "reviewed_at": "2026-10-05T03:26:13.584Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: One continuous winged serpent with two wings and no legs, Armenian mountain water scene and emitted blue-gold aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/vishap-verified.webp",
+      "sha256": "e3aa857465ea88dd0170fe3fb847e7e5ab6163e68a337c78c60de7c157c7af0b",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-6a1c9884-6a63-4b00-aed4-8f470606ae0a.png",
+  "revision_generator": "worker-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-1",
+    "rationale": "Blue/gold spirals and hovering luminous droplets ring the snake; water association does not support luminous orbit.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "vishap-c01",
+      "vishap-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/vishap.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/vishap.json"
+  }
+}

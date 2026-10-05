@@ -11,3 +11,12 @@ data/cache/
 data/import/checkpoint.json
 data/import/*.tmp
 dist-media/
+# Native tool outputs and contact sheets remain available locally; reviewed WebP assets
+# and JSON provenance are versioned for the public build.
+/tmp/
+/data/artwork-generated/**/*.png
+/data/artwork-generated/**/*.jpg
+/data/artwork-generated/**/*.jpeg
+/data/artwork-generated/**/*.webp
+/data/artwork-generated/**/jobs*.json
+/data/artwork-generated/**/regen-*-current-jobs.json

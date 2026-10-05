@@ -1,0 +1,90 @@
+{
+  "slug": "lincoln-s-ghost",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Remove ONLY unsupported effects: all blue emitted ghost wisps, luminous envelope, neon edge and bright floor magic; retain faint whole-figure translucent vanishing apparition, no self-emitted light. Preserve exactly same ONE recognizable Abraham Lincoln apparition, human face with chin beard, frock coat and top hat, same upright pose, scale, White House columned doorway and warm indoor candles, framing, detail and full clothing coverage. Character presence through solemn recognizable Lincoln face and silent dim doorway composition. Natural ordinary scene light and shadows, nonluminous distant mist. No generic emitted aura, anatomy changes, extra people, violence, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/lincoln-s-ghost-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-b0960912-4598-4158-b985-1de60ed65bd1.png",
+  "depicted_variant": "Reported Lincoln apparition in frock coat and top hat",
+  "basis_claim_ids": [
+    "lincoln-s-ghost-c01",
+    "lincoln-s-ghost-c03",
+    "lincoln-s-ghost-c05",
+    "lincoln-s-ghost-c06"
+  ],
+  "aura": "solemn recognizable Lincoln face and silent dim doorway composition",
+  "visual_requirements": [
+    "same ONE recognizable Abraham Lincoln apparition, human face with chin beard, frock coat and top hat, same upright pose, scale, White House columned doorway and warm indoor candles",
+    "No generic emitted body aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native inspected: recognizable Lincoln face with beard, top hat and frock coat, same doorway stance; emitted blue envelope removed, quiet faint translucent vanishing ghost figure remains with ordinary scene light.",
+    "reviewer": "aura-resume-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-143.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected native: recognizable tall Lincoln ghost in frock coat and top hat at White House doorway, mildly translucent fading figure, no neon halo, radiant filaments or magic energy."
+  },
+  "attempt_history": [
+    {
+      "slug": "lincoln-s-ghost",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square haunting detailed painterly naturalistic legend encyclopedia illustration of LINCOLN'S GHOST, reported White House apparition. ONE recognizably ABRAHAM LINCOLN adult human ghost with familiar lined long face and chin beard, black FROCK COAT and TOP HAT, stands alone at an old White House doorway at night. Whole figure framed. Preserve source recognizable historical human likeness; make ghostly through translucent edges and CLEARLY LUMINOUS silver-blue wisps RADIATING FROM BODY, softly illuminating floor as he seems to vanish. Reported legend artistic interpretation, no claim documentary photograph. No witness, gunshot, wounds, wings, horns, fantasy anatomy, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/lincoln-s-ghost.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-b0960912-4598-4158-b985-1de60ed65bd1.png",
+      "depicted_variant": "Reported Lincoln apparition in frock coat and top hat",
+      "basis_claim_ids": [
+        "lincoln-s-ghost-c01",
+        "lincoln-s-ghost-c03",
+        "lincoln-s-ghost-c05",
+        "lincoln-s-ghost-c06"
+      ],
+      "aura": "haunting White House spectral apparition",
+      "visual_requirements": [
+        "recognizable Abraham Lincoln human appearance",
+        "frock coat and top hat",
+        "ghost wisps/vanishing aura, no invented anatomy"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected: recognizable Abraham Lincoln human face, beard, top hat and frock coat in White House setting. Blue spectral translucency and emitted aura are artistic ghost effects."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-143.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Recognizable Abraham Lincoln adult human ghost in frock coat and top hat, clear blue emitted vanishing aura, no invented anatomy.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/lincoln-s-ghost-verified.webp",
+      "sha256": "5d89367ff8a7c3f14014ffe783669928f93388228a43be0c5d3d3384a8ea408e",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-fff9-76e1-92c1-76bde2aff5e5/exec-9c809ec6-aa16-467e-885d-a291b5484f5e.png",
+  "revision_generator": "aura-resume-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-2",
+    "rationale": "Removed unsupported emitted wrapping while preserving supported manifestation and source traits.",
+    "allowed_magic": "Reported ghost apparition and vanishing, lincoln-s-ghost-c05/c06",
+    "source_basis_claim_ids": [
+      "lincoln-s-ghost-c01",
+      "lincoln-s-ghost-c03",
+      "lincoln-s-ghost-c05",
+      "lincoln-s-ghost-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/lincoln-s-ghost.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/lincoln-s-ghost.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

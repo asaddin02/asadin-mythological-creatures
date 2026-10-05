@@ -1,0 +1,90 @@
+{
+  "slug": "sirin",
+  "basis_claim_ids": [
+    "sirin-c01",
+    "sirin-c06",
+    "sirin-c13"
+  ],
+  "depicted_variant": "Sirin with beautiful woman's head and modestly clothed breast on an owl body, crown and nimbus",
+  "visual_requirements": [
+    "Woman head and modest clothed breast fused to owl body",
+    "Two feathered wings and two bird feet",
+    "Crown and restrained nimbus",
+    "No emitted ribbons or magic glitter"
+  ],
+  "aura": "Regal prophetic singing presence through open beak-mouth expression, poised wings and sunlight.",
+  "prompt": "Use case: precise-object-edit. Remove ONLY the swirling golden energy ribbons and magical glitter around this Sirin and through the background. Keep source-attested crown and a restrained plain circular iconographic nimbus behind her head, but simplify any magical rune-like marks into an unlettered subtle gold disk. Preserve SAME woman's head and modestly clothed breast fused to owl body, two owl wings and two bird feet, perched pose, scale, face, jewelry, coverage, branch, composition and landscape. Warm natural sunlight on feathers and an expressive singing face carry regal prophetic presence. No body aura, neon edge, airborne magic or new anatomy; no text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-121.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/sirin-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-a921f693-2552-4c1f-b699-5de1a6c4c3ee.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output inspected: ribbons removed, plain iconographic gold nimbus and crown retained; modest woman-owl hybrid with two wings and two bird feet, perch and landscape preserved.",
+    "reviewer": "aura-resume-2"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: woman's head and modest upper breast on owl-like bird body, two wings and talons, singing with crown/nimbus. Source iconographic nimbus retained; no floating magic ribbons or particles."
+  },
+  "attempt_history": [
+    {
+      "slug": "sirin",
+      "basis_claim_ids": [
+        "sirin-c01",
+        "sirin-c06",
+        "sirin-c13"
+      ],
+      "depicted_variant": "Sirin with beautiful woman's head and modestly clothed breast on an owl body, crown and nimbus",
+      "visual_requirements": [
+        "Woman head and upper breast fused to owl body",
+        "Two feathered bird wings and two bird feet",
+        "Crown/nimbus and prophetic singing aura"
+      ],
+      "aura": "Golden paradise halo and luminous song-like mist in enchanted orchard",
+      "prompt": "Use case: illustration-story. ONE square richly detailed painterly Russian mythology illustration of SIRIN. One mythical bird with the HEAD and UPPER BREAST of a beautiful ADULT WOMAN seamlessly fused to the fully feathered BODY of an OWL. The human upper breast is modestly covered by opaque embroidered cloth as artistic treatment. Two owl wings, two owl clawed feet, feathered bird body and tail, no human arms or legs. A traditional ornate crown and luminous golden nimbus encircle her head. She perches on a fruit tree branch, singing, surrounded by enchanting gold-white songlike light wisps and luminous paradise mist. A haunting prophetic beauty with solemn expression, intricate feathers, supernatural radiance. Full body and wings inside frame. No mermaid tail, mammalian hind legs, extra arms, text, glyphs, border, watermark, nudity or gore.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-121.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/sirin.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-a921f693-2552-4c1f-b699-5de1a6c4c3ee.png",
+      "reviewed_at": "2026-10-05T02:43:38.407Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed adult woman head and cloth-covered upper breast fused to owl-like feathered body, two bird wings and two bird clawed feet on orchard branch; no human arms or legs. Ornate crown, luminous nimbus and radiant gold wisps create prophetic paradise-song aura."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: woman head and covered upper breast joined to owl body, two feathered wings and bird feet, crown/nimbus and clear golden paradise-song aura; no human arms/legs.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/sirin-verified.webp",
+      "sha256": "49e8ac7df22e21240eb33f87b01d83646a9595e854b5d4c700200154a0cd4583",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-fff9-76e1-92c1-76bde2aff5e5/exec-3d6d7fa1-0887-4df0-81ca-03d6988cb26c.png",
+  "revision_generator": "aura-resume-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-2",
+    "rationale": "Crown and nimbus source-supported; surrounding golden energy ribbons and glitter ungrounded.",
+    "allowed_magic": "Source-attested iconographic nimbus retained",
+    "source_basis_claim_ids": [
+      "sirin-c01",
+      "sirin-c06",
+      "sirin-c13"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/sirin.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/sirin.json"
+  }
+}

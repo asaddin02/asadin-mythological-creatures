@@ -1,0 +1,70 @@
+{
+  "slug": "zitiron",
+  "worker": "worker-0",
+  "prompt": "Use case: stylized-concept. ONE square meticulously detailed painterly naturalistic medieval mythology illustration of ZITIRON, the SEA KNIGHT. One being with upper body like an armed medieval knight fused seamlessly at waist into ONE powerful FISH TAIL and caudal fin, NO legs. Rough hard crustlike skin visible on thick bare forearms. EACH visible hand has exactly TWO thick FINGERS, clearly separated, one grips a stout plain shield while other braces on sea rock. Plain early medieval helmet and chest armor only, no modern fantasy spikes. Entire figure framed emerging from dark storm surf. Formidable otherworldly ocean aura, silver spray and cold blue luminous currents as artistic treatment. Source skin and two-finger anatomy take priority. No trident, spear, sword, extra hands, human legs, wings, horns, text, watermark, border or collage.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/zitiron.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-de26afec-56a9-4381-a55b-47a98d3416f0.png",
+  "depicted_variant": "Medieval armed sea-knight with rough skin, thick two-fingered arms and fish tail",
+  "basis_claim_ids": [
+    "zitiron-c01",
+    "zitiron-c02",
+    "zitiron-c03",
+    "zitiron-c06",
+    "zitiron-c07"
+  ],
+  "aura": "Resolute armored sea-knight bracing amid crashing waves, low viewpoint and dramatic storm light.",
+  "visual_requirements": [
+    "Armed knight-like upper body joined to a fish tail; no legs",
+    "Hard rough skin, thick arms with two fingers and shield",
+    "Preserve physical sea spray and storm composition; no generic magical envelope"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected original contact preview: natural wave spray around solid fish-tailed armored knight, two thick fingers on visible hand and shield; no unsupported glow or energy envelope. Presence arises from braced pose and storm camera framing.",
+    "reviewer": "root"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-152.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-0",
+    "reviewed_at": "2026-10-05T05:26:42.072871+00:00",
+    "notes": "Actually viewed native: sea knight armored upperbody/shield, two-finger hand and coherent fish tail, natural sea spray/storm light; no generic emitted magic."
+  },
+  "aura_policy_history": [
+    {
+      "aura": "formidable enchanted sea-knight and luminous storm surf",
+      "visual_requirements": [
+        "knight-like human upper body fused with fish tail",
+        "rough hard skin, thick arms, exactly two fingers per hand",
+        "shield, no legs"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: armed knight upper body fused into one scaled fish tail with fin, rough hard skin/thick arms, shield and exactly two visible thick digits on hand braced against rock. Other hand behind shield. Formidable storm surf aura, no legs/wings. Armor specifics/scale color/light artistic."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: armored sea-knight torso fused with one fish tail, rough thick scaled arms, two thick digits on visible hand and shield hiding other hand; no human legs.",
+        "reviewed_at": "2026-10-05"
+      }
+    }
+  ],
+  "aura_revision": {
+    "decision": "keep",
+    "reviewer": "root",
+    "rationale": "Actual image has sea spray, rough armored sea-knight body and storm daylight, without emitted neon aura, light ribbons or magical colored fog.",
+    "allowed_magic": "none; spray and clouds are natural environment.",
+    "source_basis_claim_ids": [
+      "zitiron-c01",
+      "zitiron-c02",
+      "zitiron-c03",
+      "zitiron-c06",
+      "zitiron-c07"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/zitiron.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/zitiron.json"
+  },
+  "reviewed_at": "2026-10-05T05:26:42.072871+00:00"
+}

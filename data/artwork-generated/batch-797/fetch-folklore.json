@@ -1,0 +1,96 @@
+{
+  "slug": "fetch-folklore",
+  "worker": "root",
+  "prompt": "Edit the provided square painterly mythology artwork to follow its documented physical manifestation. Preserve TWO adults with identical faces, ages, hair and matching village clothes: living man at left, his Irish fetch double at right. Remove all luminous blue edge halos, smoky envelope and energy tendrils. Keep right double only mildly transparent using nonluminous double exposure, visible stone lane through a little of his clothes, no smoke, no radiance. Same exact face for both. Natural dusk sky only. Preserve painterly naturalistic quality and square composition. No text, border or watermark.",
+  "depicted_variant": "Irish supernatural double of a living adult person",
+  "basis_claim_ids": [
+    "fetch-folklore-c01",
+    "fetch-folklore-c06"
+  ],
+  "visual_requirements": [
+    "Living adult and identical mildly translucent fetch; no emitted glow",
+    "No generic emitted aura, neon halo, magic particles or luminous vapor"
+  ],
+  "aura": "Character presence through pose, framing, atmosphere and natural light",
+  "review_path": "data/gemini/reviews/batch-118.review.json",
+  "tool": "OpenAI built-in image_gen",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-5fdf0378-848d-4d82-8c78-05d90c4169ff.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/fetch-folklore-presence-v2.png",
+  "status": "reviewed",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native: two adults share same face, hairstyle and village clothes; right fetch mildly transparent with lane visible through clothes, no luminous outline or mist.",
+    "reviewer": "root"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "aura-resume-0",
+    "reviewed_at": "2026-10-05",
+    "notes": "Independently inspected revised native contact: living clothed adult male and matching mildly translucent supernatural double in same lane, same identity/clothes. No emitted glow, colored fog, particles or energy outline."
+  },
+  "independent_visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native: two adults share same face, hairstyle and village clothes; right fetch mildly transparent with lane visible through clothes, no luminous outline or mist.",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05"
+  },
+  "attempt_history": [
+    {
+      "slug": "fetch-folklore",
+      "worker": "root",
+      "prompt": "Use case: stylized-concept. One square high-detail painterly naturalistic cinematic mythology encyclopedia illustration. Two visually IDENTICAL adult human men, same face, hair, modest historical Irish rural clothes and height, stand several feet apart on an old Irish village lane at dusk. Foreground man solid natural human, watching his supernatural FETCH double in dread; double has identical human anatomy and clothes, slightly ethereal translucency, unmistakable icy white-blue luminous wisps EMITTED FROM its body, curling around boots and shoulders. Show two full figures clearly; one living person and one apparition, no mirrors, third person, skullhead, horns or wings. Terrifying quiet omen. No writing, text, watermark, frame, collage or labels.",
+      "depicted_variant": "Irish supernatural double of a living adult person",
+      "basis_claim_ids": [
+        "fetch-folklore-c01",
+        "fetch-folklore-c06"
+      ],
+      "visual_requirements": [
+        "Two visually identical adult human faces and clothes",
+        "One living person and its apparition double",
+        "Apparition emitted pale spectral aura"
+      ],
+      "aura": "Clearly emitted supernatural luminous wisps and particles as artistic aura",
+      "review_path": "data/gemini/reviews/batch-118.review.json",
+      "tool": "OpenAI built-in image_gen",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-5fdf0378-848d-4d82-8c78-05d90c4169ff.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/fetch-folklore.png",
+      "status": "reviewed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually viewed two matching adult human men in same clothes, one solid and one apparition with emitted blue-white wisps; no unrelated monster anatomy."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Actually viewed two matching adult human men in same clothes, one solid and one apparition with emitted blue-white wisps; no unrelated monster anatomy.",
+        "reviewed_at": "2026-10-05"
+      },
+      "independent_visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-0",
+        "notes": "Worker-0 independently inspected native image: two matching adult male faces, hair, clothing and stature; one solid living figure and one pale emitted-blue-wisp apparition. Source double preserved.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/fetch-folklore-verified.webp",
+      "sha256": "e05e88e142e2d1c09421f88b52d19b0418138329b0cba302be7c52b627ea4259",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-ad75e4f4-a4c5-4ea3-a7c1-bdf2eb5ae33f.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Original has generic emitted magical wrapping unsupported by selected documented depiction; use physical presence and natural scene lighting.",
+    "allowed_magic": "Only subtle nonluminous source-supported apparition transparency",
+    "source_basis_claim_ids": [
+      "fetch-folklore-c01",
+      "fetch-folklore-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/fetch-folklore.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/fetch-folklore.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

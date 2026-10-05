@@ -1,0 +1,94 @@
+{
+  "slug": "odei",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: lighting-weather. Input is EDIT TARGET. Change ONLY unsupported magical lighting/VFX. Preserve exact identity, expression, pose, coherent anatomy and limb counts, source size, opaque modest clothes, environment, camera and square frame. No text or watermark. Remove the CONTINUOUS BLUE NEON OUTLINE and looping electrical ribbons hugging the whole periphery of this storm cloud. Keep ONE physically convincing great dark gray STORM CLOUD with only a few ordinary branching lightning bolts within it and downward to distant ground, natural lightning illumination, rain and shadow. No uniformly glowing outline, circular ring, luminous purple fog or invented face/body. Preserve Basque farmland and mountain scale.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/odei-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-27223524-6974-4be1-8192-9193f414ea13.png",
+  "review_path": "data/gemini/reviews/batch-129.review.json",
+  "visual_requirements": [
+    "One great storm cloud, no invented body/face",
+    "Source thunder/lightning association",
+    "Basque farmland/mountain scale",
+    "Few ordinary bolts and rain, no glowing cloud envelope"
+  ],
+  "depicted_variant": "Explicitly storm-cloud Odei personification, avoids unsubstantiated humanoid son-of-Mari anatomy.",
+  "basis_claim_ids": [
+    "odei-c01",
+    "odei-c02",
+    "odei-c04",
+    "odei-c05"
+  ],
+  "aura": "Overwhelming thunder-spirit presence through huge dark storm cloud, rain and branching bolts over Basque farmland.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected revised native contact: Huge dark physical storm cloud over same farmland; no uniform blue neon perimeter, ordinary embedded/downward lightning and rain remain.",
+    "reviewer": "aura-resume-0"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected native: bodiless dark storm cloud with a few branching lightning bolts over Basque farmland, no neon perimeter or invented humanoid."
+  },
+  "attempt_history": [
+    {
+      "slug": "odei",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Basque mythology artwork, stylized-concept. ONE ODEI in explicitly documented STORM-CLOUD appearance, personification of thunder: a single great looming coherent BLACK THUNDERCLOUD over Basque mountain farmland, no humanoid face, no torso or limbs imagined in cloud. UNMISTAKABLE supernatural emitted electric blue-white aura ribbons surround cloud boundary and curl down into air, branching bright lightning flares from cloud, suspended radiant storm sparks. Colossal source-compatible storm-cloud scale dominates sky and dwarfs ordinary fields, stone farmhouses, wooded valleys below. Extreme frightening weather-spirit fury, thunder and crop-threatening storm power without showing people hurt. Exquisite naturalistic billowing cloud detail, cinematic black/purple sky and powerful lightning, distinct mythic entity read through energetic aura. No giant man invented, no animals or extra cloud faces, no text or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/odei.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-27223524-6974-4be1-8192-9193f414ea13.png",
+      "review_path": "data/gemini/reviews/batch-129.review.json",
+      "visual_requirements": [
+        "One great storm cloud, no invented body",
+        "Thunder/lightning association",
+        "Basque farmland/mountain scale",
+        "Visible supernatural cloud aura"
+      ],
+      "depicted_variant": "Explicitly storm-cloud Odei personification, avoids unsubstantiated humanoid son-of-Mari anatomy.",
+      "basis_claim_ids": [
+        "odei-c01",
+        "odei-c02",
+        "odei-c04",
+        "odei-c05"
+      ],
+      "aura": "Electric blue-white emitted cloud energy, lightning and radiant storm sparks.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: One vast coherent storm-cloud manifestation over mountain farmland; no invented human face/body, bright blue-white emitted electric energy wreathes cloud with lightning/sparks. Exact surface details and emitted aura editorial beyond listed traits."
+      },
+      "reviewed_at": "2026-10-05T04:40:04.965Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: One great Basque storm cloud with thunder lightning and distinctly luminous violet rim/wisps, no invented bodily form.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/odei-verified.webp",
+      "sha256": "66f169f1ee1550295dc190dab4b2c5d9d93382a7ec9a972420e8bcc6781f0462",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-9de98aa0-252c-4456-8178-5c002bca75dd.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Excessive continuous neon cloud perimeter and looping blue electrical outline removed; source thunder/cloud retained.",
+    "allowed_magic": "Source c01/c02/c05 storm cloud and branching lightning allowed in restrained natural form.",
+    "source_basis_claim_ids": [
+      "odei-c01",
+      "odei-c02",
+      "odei-c04",
+      "odei-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/odei.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/odei.json"
+  }
+}

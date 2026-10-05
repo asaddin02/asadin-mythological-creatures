@@ -1,0 +1,86 @@
+{
+  "slug": "mhachkay",
+  "worker": "worker-0",
+  "prompt": "Use case: lighting-weather. Input image is EDIT TARGET. Change ONLY unsupported magical lighting/VFX. Preserve exact identity, face, expression, pose, coherent anatomy, limb counts, source size, modest opaque clothing, scene, viewpoint and square framing. No text/watermark. Remove all luminous mint-green body/wing fog, energy ribbons and neon eyes. Preserve exact ONE natural owl shapeshift, feathered body, TWO feathered wings, TWO taloned legs, head, plumage, flight pose, forest and moon. Natural dark avian eyes with small reflected moon glint, solid feathers; menace through predatory gaze and flight composition. No emitted aura or invented vampire anatomy.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/mhachkay-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-797f071f-0b2d-47df-8c2f-f7cb83aa05dc.png",
+  "depicted_variant": "Turkic undead in source owl nocturnal flying form",
+  "basis_claim_ids": [
+    "mhachkay-c01",
+    "mhachkay-c04"
+  ],
+  "aura": "Predatory nocturnal presence through flying owl silhouette, dark focused eyes and isolated moonlit forest.",
+  "visual_requirements": [
+    "One owl shapeshift only",
+    "Two feathered wings, two taloned legs, coherent avian body",
+    "Nightforest without victims",
+    "Solid feathers, natural eyes and no emitted glow"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected revised native contact: Same one owl in flight, two feathered wings and two taloned legs preserved; mint vapor and neon eyes gone, dark avian eyes under moonlight.",
+    "reviewer": "aura-resume-0"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-137.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected native: ordinary owl manifestation flying through night forest, two wings and natural owl anatomy/eyes, moonlight only, no purple emission."
+  },
+  "attempt_history": [
+    {
+      "slug": "mhachkay",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square exquisite high-detail painterly naturalistic cinematic mythology encyclopedia illustration. MHACHKAY, Turkic/Tatar vampirelike undead, choosing source NIGHT-FLYING OWL FORM. ONE terrifying OWL with coherent avian anatomy, two broad feathered wings fully framed, round facial disc and raptorfeet, flying low through dark Tatar forest above abandoned track at night. Ordinary owlform, exactspecies/featherpattern artistic; no humanhead or hybrid anatomy. Clearly luminous icy grey-green spectral wisps RADIATE FROM OWL BODY/WINGS, illuminate branches, dreadful predatory undead atmosphere. No attack, victims, blood, gore, extraheads or extra wings. No text, watermark, border, collage or labels.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/mhachkay.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-797f071f-0b2d-47df-8c2f-f7cb83aa05dc.png",
+      "depicted_variant": "Turkic undead in source owl nocturnal flying form",
+      "basis_claim_ids": [
+        "mhachkay-c01",
+        "mhachkay-c04"
+      ],
+      "aura": "terrifying nocturnal vampire owl emitted ghost light",
+      "visual_requirements": [
+        "owl shapeshift only",
+        "two featheredwings coherent avianbody",
+        "nightforest no victims"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected native: source night-flying owl variant with two coherent feathered wings, owl face/body and talons, terrifying forest track, emitted green-white ghostlight. Exact owl species and featherpattern artistic; wings touch frame, identity clear."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-137.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Coherent owl shapeshift with two feathered wings, no human hybrid, emitted pale green aura in night forest.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/mhachkay-verified.webp",
+      "sha256": "576a7210595087d3b65c66e10b9a2960b0cf635aa3bc0900071b1510a2a474a2",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-02cedf5d-ed33-4fdc-9bbb-e85dc44f9d74.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Unsupported mint luminous body/wing fog, filaments and neon eyes removed.",
+    "allowed_magic": "none; source owl shapeshift does not establish constant glowing envelope.",
+    "source_basis_claim_ids": [
+      "mhachkay-c01",
+      "mhachkay-c04"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/mhachkay.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/mhachkay.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

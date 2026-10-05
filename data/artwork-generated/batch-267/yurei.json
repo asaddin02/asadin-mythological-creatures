@@ -1,0 +1,31 @@
+{
+  "slug": "yurei",
+  "worker": "worker-3",
+  "prompt": "Use case: historical-scene. ONE square detailed painterly naturalistic encyclopedia illustration of a Japanese Yurei, selecting the familiar Edo-period female ghost form documented in Japanese art and literature. One pale Japanese woman with long disheveled black hair partially obstructing her face, dressed in loose white traditional burial clothing. Her two arms hang forward, elbows bent, limp curved hands with hanging wrists. Her lower robe and body visibly dissolve into cold mist with NO feet, NO legs protruding, no contact with the ground. She hovers in the dark of a deserted old Japanese wooden corridor at night. A gaunt sorrowful face only partly glimpsed beneath hair, restrained frightening spectral presence and profound melancholy, cold muted light, lifelike painterly fabric, wood and hair details. Central entire apparition comfortably inside square. Invariants: female human ghost, long disheveled black hair covering face, white burial robe, dangling curved hands, absolutely footless fading lower body. Avoid horns, wings, fangs, clawed monster hands, bleeding wounds, modern horror costumes, zombies, cute anime, visible feet, extra figures, text, watermark, borders, collage.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-2dccec23-c360-4cfe-b8e5-ddfd4663e0b6.png",
+  "review_path": "data/gemini/reviews/batch-049.review.json",
+  "visual_requirements": [
+    "Female human ghost",
+    "Long disheveled black hair obstructing face",
+    "Traditional white burial clothing",
+    "Curved dangling hands",
+    "No feet; lower body dissolves in mist",
+    "Frightening mournful aura"
+  ],
+  "depicted_variant": "Familiar female ghost form in Japanese art and literature",
+  "basis_claim_ids": [
+    "yurei-c01",
+    "yurei-c03",
+    "yurei-c04",
+    "yurei-c08"
+  ],
+  "aura": "Cold, sorrowful, unsettling spectral horror",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-3.json"
+}

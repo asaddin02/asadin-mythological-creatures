@@ -1,0 +1,2842 @@
+{
+  "worker": "worker-3",
+  "audited_at": "2026-10-04T08:42:08.599776+00:00",
+  "policy": "Exclude ordinary human dramatic portraits. Retain physically distinct source-backed nonhuman anatomy. Excluded characters must not be regenerated. Root serializes deletion and replacements.",
+  "complete_audited": 69,
+  "retain_count": 33,
+  "delete_count": 36,
+  "completed": [
+    {
+      "slug": "lilith",
+      "index": 3,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-b39dc683-a513-45d3-8179-595edcc718a3.png",
+      "receipt": "data/artwork-generated/batch-267/lilith.json",
+      "basis_claim_ids": [
+        "lilith-c01",
+        "lilith-c05",
+        "lilith-c07",
+        "lilith-c08",
+        "lilith-c13",
+        "lilith-c14"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "lucifer",
+      "index": 6,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Two anatomically integrated feathered wings emerge behind the male torso; source-backed fallen-angel iconography.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-16d8eb8e-2386-4876-82a2-62e0bfeafa61.png",
+      "receipt": "data/artwork-generated/batch-267/lucifer.json",
+      "basis_claim_ids": [
+        "lucifer-c01",
+        "lucifer-c04",
+        "lucifer-c10",
+        "lucifer-c12"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "troll",
+      "index": 9,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Grotesque rocklike broad face, oversized nose, coarse fur and monstrous limb proportions; distinct troll anatomy rather than merely tall man.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-398e0a52-ae40-44c5-9d7a-374afc6683d6.png",
+      "receipt": "data/artwork-generated/batch-267/troll.json",
+      "basis_claim_ids": [
+        "troll-c01",
+        "troll-c02",
+        "troll-c03",
+        "troll-c04",
+        "troll-c07",
+        "troll-c14"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "yurei",
+      "index": 12,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-2dccec23-c360-4cfe-b8e5-ddfd4663e0b6.png",
+      "receipt": "data/artwork-generated/batch-267/yurei.json",
+      "basis_claim_ids": [
+        "yurei-c01",
+        "yurei-c03",
+        "yurei-c04",
+        "yurei-c08"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "onryo",
+      "index": 15,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-3a51a9fc-1be7-4042-b63a-448e2ca537d5.png",
+      "receipt": "data/artwork-generated/batch-267/onryo.json",
+      "basis_claim_ids": [
+        "onryo-c01",
+        "onryo-c02",
+        "onryo-c04",
+        "onryo-c05",
+        "onryo-c07",
+        "onryo-c09"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "tsukumogami",
+      "index": 18,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Animate teapot body with eyes, mouth and small feet; no ordinary human figure.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-8f673812-2ecd-41fc-a5fa-1db8fec961e1.png",
+      "receipt": "data/artwork-generated/batch-267/tsukumogami.json",
+      "basis_claim_ids": [
+        "tsukumogami-c01",
+        "tsukumogami-c02",
+        "tsukumogami-c04",
+        "tsukumogami-c06",
+        "tsukumogami-c07",
+        "tsukumogami-c09"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "shikigami",
+      "index": 21,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-9435b420-2a4c-46ef-99d4-290c88684200.png",
+      "receipt": "data/artwork-generated/batch-267/shikigami.json",
+      "basis_claim_ids": [
+        "shikigami-c01",
+        "shikigami-c03",
+        "shikigami-c04",
+        "shikigami-c05",
+        "shikigami-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "ikiryo",
+      "index": 24,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-abb385f8-cad5-4d51-91ac-1b4c13727a89.png",
+      "receipt": "data/artwork-generated/batch-267/ikiryo.json",
+      "basis_claim_ids": [
+        "ikiryo-c01",
+        "ikiryo-c02",
+        "ikiryo-c03",
+        "ikiryo-c04",
+        "ikiryo-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "swan-maiden",
+      "index": 27,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary female human face, arms and legs; feathers form a garment/cape rather than actual swan wings or bird body.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-ce22d4fb-f3d2-407b-a160-077a5ade0ac8.png",
+      "receipt": "data/artwork-generated/batch-267/swan-maiden.json",
+      "basis_claim_ids": [
+        "swan-maiden-c03",
+        "swan-maiden-c04",
+        "swan-maiden-c05",
+        "swan-maiden-c11",
+        "swan-maiden-c12"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "zashiki-warashi",
+      "index": 30,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-4ea46ec2-1613-423d-afaa-7d8304555097.png",
+      "receipt": "data/artwork-generated/batch-267/zashiki-warashi.json",
+      "basis_claim_ids": [
+        "zashiki-warashi-c01",
+        "zashiki-warashi-c03",
+        "zashiki-warashi-c04",
+        "zashiki-warashi-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "toyotama-hime",
+      "index": 33,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-9f54dee5-ebe2-4515-8f43-ee3102bd19c3.png",
+      "receipt": "data/artwork-generated/batch-267/toyotama-hime.json",
+      "basis_claim_ids": [
+        "toyotama-hime-c01",
+        "toyotama-hime-c02",
+        "toyotama-hime-c03",
+        "toyotama-hime-c04"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "ushi-oni",
+      "index": 36,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Horned ox head on six-legged spider body.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-26b58715-7c30-40b9-aee3-d00906d1e835.png",
+      "receipt": "data/artwork-generated/batch-267/ushi-oni.json",
+      "basis_claim_ids": [
+        "ushi-oni-c02",
+        "ushi-oni-c03",
+        "ushi-oni-c04"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "kamaitachi",
+      "index": 39,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Weasel animal body and sickle-shaped claws.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-833926b6-1b55-4902-a01c-abb9d5b1fd05.png",
+      "receipt": "data/artwork-generated/batch-267/kamaitachi.json",
+      "basis_claim_ids": [
+        "kamaitachi-c02",
+        "kamaitachi-c04",
+        "kamaitachi-c05",
+        "kamaitachi-c11"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "ameonna",
+      "index": 42,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-72a1f7ff-55c1-48bf-b870-ca29be277c50.png",
+      "receipt": "data/artwork-generated/batch-267/ameonna.json",
+      "basis_claim_ids": [
+        "ameonna-c01",
+        "ameonna-c02",
+        "ameonna-c03"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "hannya",
+      "index": 45,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Horned fang-bearing inhuman demon mask.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-f80aa129-0097-4e64-9766-6f991279abc9.png",
+      "receipt": "data/artwork-generated/batch-267/hannya.json",
+      "basis_claim_ids": [
+        "hannya-c01",
+        "hannya-c02",
+        "hannya-c03",
+        "hannya-c04",
+        "hannya-c05",
+        "hannya-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "nurikabe",
+      "index": 48,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "White three-eyed monstrous quadruped.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-7cb2b0a9-c447-41aa-b1ca-faf79fcf67e7.png",
+      "receipt": "data/artwork-generated/batch-267/nurikabe.json",
+      "basis_claim_ids": [
+        "nurikabe-c01",
+        "nurikabe-c03",
+        "nurikabe-c06",
+        "nurikabe-c08"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "dosojin",
+      "index": 51,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Shrine stone depicts ordinary human couple; no physically nonhuman creature anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-a48c8037-df04-400f-a9fd-b7a9dbf94ece.png",
+      "receipt": "data/artwork-generated/batch-267/dosojin.json",
+      "basis_claim_ids": [
+        "dosojin-c01",
+        "dosojin-c03",
+        "dosojin-c04",
+        "dosojin-c05",
+        "dosojin-c07"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "tesso",
+      "index": 54,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Giant predatory rat with long rat tail.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-ccdbf2cd-7aeb-427a-8215-8aa9586b5837.png",
+      "receipt": "data/artwork-generated/batch-267/tesso.json",
+      "basis_claim_ids": [
+        "tesso-c01",
+        "tesso-c03",
+        "tesso-c04",
+        "tesso-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "kuraokami",
+      "index": 57,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Massive serpentine water-dragon body.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-6654367d-6a74-45d9-bd2b-7d36988da53c.png",
+      "receipt": "data/artwork-generated/batch-267/kuraokami.json",
+      "basis_claim_ids": [
+        "kuraokami-c01",
+        "kuraokami-c05",
+        "kuraokami-c07"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "waira",
+      "index": 60,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Rocklike monster with huge single curved claws.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-718e4036-e5e1-4d83-840f-28553232bd08.png",
+      "receipt": "data/artwork-generated/batch-267/waira.json",
+      "basis_claim_ids": [
+        "waira-c01",
+        "waira-c02",
+        "waira-c03",
+        "waira-c04",
+        "waira-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "nuribotoke",
+      "index": 63,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Black corpse yokai with both eyeballs dangling outside sockets and monstrous extremities.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-e8af8652-757d-4c49-8d98-12866ff9318e.png",
+      "receipt": "data/artwork-generated/batch-267/nuribotoke.json",
+      "basis_claim_ids": [
+        "nuribotoke-c01",
+        "nuribotoke-c02",
+        "nuribotoke-c03",
+        "nuribotoke-c05",
+        "nuribotoke-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "yosuzume",
+      "index": 66,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Fully avian nocturnal sparrow form.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-9f98197f-eab9-4798-952d-8d1a3c58711d.png",
+      "receipt": "data/artwork-generated/batch-267/yosuzume.json",
+      "basis_claim_ids": [
+        "yosuzume-c01",
+        "yosuzume-c02",
+        "yosuzume-c03",
+        "yosuzume-c04",
+        "yosuzume-c05",
+        "yosuzume-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "furutsubaki-no-rei",
+      "index": 69,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-e60919cc-bd6c-4181-a7e3-2e97e39ee96b.png",
+      "receipt": "data/artwork-generated/batch-267/furutsubaki-no-rei.json",
+      "basis_claim_ids": [
+        "furutsubaki-no-rei-c01",
+        "furutsubaki-no-rei-c02",
+        "furutsubaki-no-rei-c03",
+        "furutsubaki-no-rei-c04",
+        "furutsubaki-no-rei-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "koromodako",
+      "index": 72,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Giant octopus body, webbed arms, mantle and suckers.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-c3485bb9-3531-4a5c-a8c6-13638e7332b3.png",
+      "receipt": "data/artwork-generated/batch-267/koromodako.json",
+      "basis_claim_ids": [
+        "koromodako-c01",
+        "koromodako-c02",
+        "koromodako-c03",
+        "koromodako-c04",
+        "koromodako-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "nobusuma",
+      "index": 75,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Flying squirrel animal body with gliding membrane and tail.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-9146b308-9984-481f-afbb-0a04b710931c.png",
+      "receipt": "data/artwork-generated/batch-267/nobusuma.json",
+      "basis_claim_ids": [
+        "nobusuma-c01",
+        "nobusuma-c02",
+        "nobusuma-c03",
+        "nobusuma-c04"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "oshiroibaba",
+      "index": 78,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-21779877-6862-4e3d-8f55-51900bdfc337.png",
+      "receipt": "data/artwork-generated/batch-267/oshiroibaba.json",
+      "basis_claim_ids": [
+        "oshiroibaba-c01",
+        "oshiroibaba-c03",
+        "oshiroibaba-c04",
+        "oshiroibaba-c05",
+        "oshiroibaba-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "yume-no-seirei",
+      "index": 81,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-b51fdd5f-d0e4-49ca-9c79-77246341ebcd.png",
+      "receipt": "data/artwork-generated/batch-267/yume-no-seirei.json",
+      "basis_claim_ids": [
+        "yume-no-seirei-c01",
+        "yume-no-seirei-c02",
+        "yume-no-seirei-c03",
+        "yume-no-seirei-c04",
+        "yume-no-seirei-c05",
+        "yume-no-seirei-c06",
+        "yume-no-seirei-c07"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "shuihu",
+      "index": 84,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Tiger head/body with overlapping scales.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-95c557be-2616-4e18-bc15-20dc180053c4.png",
+      "receipt": "data/artwork-generated/batch-267/shuihu.json",
+      "basis_claim_ids": [
+        "shuihu-c01",
+        "shuihu-c02",
+        "shuihu-c03",
+        "shuihu-c04",
+        "shuihu-c07"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "leanan-sidhe",
+      "index": 87,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-c7eea141-554d-4ef1-ade4-763d9c0ad820.png",
+      "receipt": "data/artwork-generated/batch-267/leanan-sidhe.json",
+      "basis_claim_ids": [
+        "leanan-sidhe-c01",
+        "leanan-sidhe-c03",
+        "leanan-sidhe-c04",
+        "leanan-sidhe-c06",
+        "leanan-sidhe-c07"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "airavata",
+      "index": 90,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "White elephant with source-backed multiple tusks.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-8927e633-af51-41d2-98cb-7f98ecc3819f.png",
+      "receipt": "data/artwork-generated/batch-267/airavata.json",
+      "basis_claim_ids": [
+        "airavata-c01",
+        "airavata-c02",
+        "airavata-c04",
+        "airavata-c05",
+        "airavata-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "cwn-annwn",
+      "index": 93,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Full white canine body and source-backed red ears.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-5cfdeba6-9973-43dd-946f-0637821ed651.png",
+      "receipt": "data/artwork-generated/batch-267/cwn-annwn.json",
+      "basis_claim_ids": [
+        "cwn-annwn-c01",
+        "cwn-annwn-c03",
+        "cwn-annwn-c04",
+        "cwn-annwn-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "merrow",
+      "index": 96,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Human upper body attached to clear scaled fish tail; physically nonhuman hybrid.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-e781e96f-2844-40f8-b4b3-bb6180137f11.png",
+      "receipt": "data/artwork-generated/batch-267/merrow.json",
+      "basis_claim_ids": [
+        "merrow-c01",
+        "merrow-c02",
+        "merrow-c03",
+        "merrow-c06",
+        "merrow-c07"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "sharabha",
+      "index": 99,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Lionlike beast with visible eight-legged anatomy and wings.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-88460c99-3f68-4358-be99-d14a92443df9.png",
+      "receipt": "data/artwork-generated/batch-267/sharabha.json",
+      "basis_claim_ids": [
+        "sharabha-c01",
+        "sharabha-c02",
+        "sharabha-c03",
+        "sharabha-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "yali-mythology",
+      "index": 102,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Lion body, elephant trunk/tusks, and serpentine tail.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-800f9a07-ae87-4a0b-aceb-ae4b4b703d84.png",
+      "receipt": "data/artwork-generated/batch-267/yali-mythology.json",
+      "basis_claim_ids": [
+        "yali-mythology-c01",
+        "yali-mythology-c02",
+        "yali-mythology-c03",
+        "yali-mythology-c04",
+        "yali-mythology-c05",
+        "yali-mythology-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "far-darrig",
+      "index": 105,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Short elderly man in red hat and coat; size, wrinkles and costume alone do not meet nonhuman-body requirement.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-d8ad8b98-5cf8-4949-94a6-8306763ddc88.png",
+      "receipt": "data/artwork-generated/batch-267/far-darrig.json",
+      "basis_claim_ids": [
+        "far-darrig-c01",
+        "far-darrig-c02",
+        "far-darrig-c03",
+        "far-darrig-c05",
+        "far-darrig-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "sarama",
+      "index": 108,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Full canine body; no human portrait.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-b2640e5b-8e09-45f8-a747-b9461019ccd0.png",
+      "receipt": "data/artwork-generated/batch-267/sarama.json",
+      "basis_claim_ids": [
+        "sarama-c01",
+        "sarama-c02",
+        "sarama-c03",
+        "sarama-c04",
+        "sarama-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "mahoraga",
+      "index": 111,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Human torso continues directly into a large coiled snake lower body.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-47c72b67-a705-497e-8828-66db803d1ca6.png",
+      "receipt": "data/artwork-generated/batch-267/mahoraga.json",
+      "basis_claim_ids": [
+        "mahoraga-c01",
+        "mahoraga-c02",
+        "mahoraga-c03",
+        "mahoraga-c05",
+        "mahoraga-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "kumbhanda",
+      "index": 114,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Obese human man wearing cloth; round belly and short stature alone do not establish nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-2cba478f-d653-40fe-917e-fb8db8f08549.png",
+      "receipt": "data/artwork-generated/batch-267/kumbhanda.json",
+      "basis_claim_ids": [
+        "kumbhanda-c01",
+        "kumbhanda-c02",
+        "kumbhanda-c04",
+        "kumbhanda-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "naale-ba",
+      "index": 117,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-516dae81-485d-463e-affa-bc63d65792e0.png",
+      "receipt": "data/artwork-generated/batch-267/naale-ba.json",
+      "basis_claim_ids": [
+        "naale-ba-c01",
+        "naale-ba-c03",
+        "naale-ba-c04"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "lambton-worm",
+      "index": 120,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Massive serpentine monster winding across rocks and river.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-b2fe27da-1fea-4ab8-b272-ba582a659a1b.png",
+      "receipt": "data/artwork-generated/batch-267/lambton-worm.json",
+      "basis_claim_ids": [
+        "lambton-worm-c01",
+        "lambton-worm-c02",
+        "lambton-worm-c04",
+        "lambton-worm-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "aana-marutha",
+      "index": 123,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-f4c7a54d-bf8a-4b85-9134-150662461fcf.png",
+      "receipt": "data/artwork-generated/batch-267/aana-marutha.json",
+      "basis_claim_ids": [
+        "aana-marutha-c01",
+        "aana-marutha-c02",
+        "aana-marutha-c03",
+        "aana-marutha-c04",
+        "aana-marutha-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "susna",
+      "index": 126,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Large horned snake/dragon body.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-9e3069af-14cd-4249-8415-2d4594a9440c.png",
+      "receipt": "data/artwork-generated/batch-267/susna.json",
+      "basis_claim_ids": [
+        "susna-c01",
+        "susna-c02",
+        "susna-c04",
+        "susna-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "iblis",
+      "index": 129,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Documented black dog variant with full canine anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-bf3e52fd-e7b7-47f7-afff-a3ec0a6a08ac.png",
+      "receipt": "data/artwork-generated/batch-267/iblis.json",
+      "basis_claim_ids": [
+        "iblis-c04",
+        "iblis-c08",
+        "iblis-c09",
+        "iblis-c10",
+        "iblis-c14"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "ghoul",
+      "index": 132,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Emaciated monstrous corpse head and disproportionately long clawlike digits; skeletal predatory inhuman form.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-618a6298-627d-42b8-ad4d-c431961bbc1d.png",
+      "receipt": "data/artwork-generated/batch-267/ghoul.json",
+      "basis_claim_ids": [
+        "ghoul-c01",
+        "ghoul-c02",
+        "ghoul-c03",
+        "ghoul-c04",
+        "ghoul-c05",
+        "ghoul-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "roc-mythology",
+      "index": 135,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Giant fully avian eagle body.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-0da07475-d2f4-4d8e-b35a-38229778ab2b.png",
+      "receipt": "data/artwork-generated/batch-267/roc-mythology.json",
+      "basis_claim_ids": [
+        "roc-mythology-c01",
+        "roc-mythology-c02",
+        "roc-mythology-c03",
+        "roc-mythology-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "pazuzu",
+      "index": 138,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Metal artifact depicting a source-backed monstrous fanged head with animallike ears and abnormal eyes.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-2f39e660-908b-4723-b6b1-b77ac5af0a06.png",
+      "receipt": "data/artwork-generated/batch-267/pazuzu.json",
+      "basis_claim_ids": [
+        "pazuzu-c01",
+        "pazuzu-c03",
+        "pazuzu-c04",
+        "pazuzu-c05",
+        "pazuzu-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "abcan",
+      "index": 141,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-a4fe697b-2adf-4858-874c-7bb33150f6b7.png",
+      "receipt": "data/artwork-generated/batch-267/abcan.json",
+      "basis_claim_ids": [
+        "abcan-c01",
+        "abcan-c02",
+        "abcan-c03",
+        "abcan-c04",
+        "abcan-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "huma-bird",
+      "index": 144,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Fully avian flying bird form.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-07a970e7-16b6-42d1-8cbf-4f28d7066633.png",
+      "receipt": "data/artwork-generated/batch-267/huma-bird.json",
+      "basis_claim_ids": [
+        "huma-bird-c01",
+        "huma-bird-c02",
+        "huma-bird-c03",
+        "huma-bird-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "karkadann",
+      "index": 147,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Rhinoceroslike quadruped body and horn.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-9a22430e-a9de-451a-9a21-e830dbe92652.png",
+      "receipt": "data/artwork-generated/batch-267/karkadann.json",
+      "basis_claim_ids": [
+        "karkadann-c01",
+        "karkadann-c02",
+        "karkadann-c04",
+        "karkadann-c05",
+        "karkadann-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "al-folklore",
+      "index": 150,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Large visibly reddish textured clay nose protrudes as nonhuman anatomy; documented Armenian form.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-05f8aa90-b1ea-440c-8dd6-189128129108.png",
+      "receipt": "data/artwork-generated/batch-267/al-folklore.json",
+      "basis_claim_ids": [
+        "al-folklore-c01",
+        "al-folklore-c02",
+        "al-folklore-c04",
+        "al-folklore-c05",
+        "al-folklore-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "rubezahl",
+      "index": 156,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Human male in robe; landscape scale and dramatic clouds do not change physical human form.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-bcd9e280-450d-447a-ba39-fecccce528a7.png",
+      "receipt": "data/artwork-generated/batch-267/rubezahl.json",
+      "basis_claim_ids": [
+        "rubezahl-c01",
+        "rubezahl-c06",
+        "rubezahl-c07",
+        "rubezahl-c09",
+        "rubezahl-c11",
+        "rubezahl-c12"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "hodekin",
+      "index": 201,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Short human man with hat; no nonhuman anatomical features.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-d3336c7e-662c-4ea1-a8d5-385cd6f455f3.png",
+      "receipt": "data/artwork-generated/batch-267/hodekin.json",
+      "basis_claim_ids": [
+        "hodekin-c01",
+        "hodekin-c04",
+        "hodekin-c05",
+        "hodekin-c08"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "bysen",
+      "index": 204,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Short elderly human man with beard and hat; no nonhuman anatomical features.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-072a7d35-9f93-46f1-8700-3a78e54e5da4.png",
+      "receipt": "data/artwork-generated/batch-267/bysen.json",
+      "basis_claim_ids": [
+        "bysen-c01",
+        "bysen-c02",
+        "bysen-c03"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "fasolt",
+      "index": 207,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Large human warrior; giant scale and armor alone do not qualify.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-9e1b5895-4d5d-4bab-a5c8-e94523551034.png",
+      "receipt": "data/artwork-generated/batch-267/fasolt.json",
+      "basis_claim_ids": [
+        "fasolt-c01",
+        "fasolt-c03"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "knights-of-alleberg",
+      "index": 210,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human knight in armor with translucent appearance; ghost effect alone does not qualify.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-27197350-37e5-4244-a00d-84bcdd31ba64.png",
+      "receipt": "data/artwork-generated/batch-267/knights-of-alleberg.json",
+      "basis_claim_ids": [
+        "knights-of-alleberg-c01",
+        "knights-of-alleberg-c03",
+        "knights-of-alleberg-c04"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "treuer-eckart",
+      "index": 213,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-e0d3c372-844c-4714-be7f-c0f0f5ae1534.png",
+      "receipt": "data/artwork-generated/batch-267/treuer-eckart.json",
+      "basis_claim_ids": [
+        "treuer-eckart-c04",
+        "treuer-eckart-c05",
+        "treuer-eckart-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "bergmonch",
+      "index": 216,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Human monk in black robe with glowing eyes; glow is insufficient and body remains ordinary-human.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-ebc781ae-7e8a-423a-a6ff-3668d6ca9d3b.png",
+      "receipt": "data/artwork-generated/batch-267/bergmonch.json",
+      "basis_claim_ids": [
+        "bergmonch-c02",
+        "bergmonch-c03",
+        "bergmonch-c05",
+        "bergmonch-c11"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "elder-mother",
+      "index": 219,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-9cd1abcc-555f-474e-81f5-8de2400b3a90.png",
+      "receipt": "data/artwork-generated/batch-267/elder-mother.json",
+      "basis_claim_ids": [
+        "elder-mother-c01",
+        "elder-mother-c02",
+        "elder-mother-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "feuermann-ghost",
+      "index": 222,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human male figure surrounded by flames; fire/aura is insufficient.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-7b9b9c5c-c727-4570-b544-f39d40822274.png",
+      "receipt": "data/artwork-generated/batch-267/feuermann-ghost.json",
+      "basis_claim_ids": [
+        "feuermann-ghost-c01",
+        "feuermann-ghost-c02",
+        "feuermann-ghost-c05",
+        "feuermann-ghost-c07",
+        "feuermann-ghost-c08"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "vittra-folklore",
+      "index": 225,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-e41afe54-f3be-4640-97d2-2ac9201ef3db.png",
+      "receipt": "data/artwork-generated/batch-267/vittra-folklore.json",
+      "basis_claim_ids": [
+        "vittra-folklore-c01",
+        "vittra-folklore-c02",
+        "vittra-folklore-c05",
+        "vittra-folklore-c09"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "wei-e-frauen",
+      "index": 228,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-a5b59553-b210-4cb8-8801-32a1cdb3fe87.png",
+      "receipt": "data/artwork-generated/batch-267/wei-e-frauen.json",
+      "basis_claim_ids": [
+        "wei-e-frauen-c01",
+        "wei-e-frauen-c02",
+        "wei-e-frauen-c03",
+        "wei-e-frauen-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "ysatters-kajsa",
+      "index": 231,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Human woman in swirling wind; dramatic wind/aura leaves ordinary-human anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-0bd51b91-e30f-418e-8b78-58973ab60f8c.png",
+      "receipt": "data/artwork-generated/batch-267/ysatters-kajsa.json",
+      "basis_claim_ids": [
+        "ysatters-kajsa-c01",
+        "ysatters-kajsa-c03",
+        "ysatters-kajsa-c04",
+        "ysatters-kajsa-c05",
+        "ysatters-kajsa-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "vamana",
+      "index": 234,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human boy with umbrella and draped cloth; no nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-3f7233dc-b82d-4589-8614-2a8f764b5cc4.png",
+      "receipt": "data/artwork-generated/batch-267/vamana.json",
+      "basis_claim_ids": [
+        "vamana-c01",
+        "vamana-c02",
+        "vamana-c04",
+        "vamana-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "fomorians",
+      "index": 237,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Source-backed goat head with horns integrated into anthropomorphic body.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-d457eace-3a3f-4893-b282-dc6cb2b8a76f.png",
+      "receipt": "data/artwork-generated/batch-267/fomorians.json",
+      "basis_claim_ids": [
+        "fomorians-c01",
+        "fomorians-c02",
+        "fomorians-c04",
+        "fomorians-c07"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "fionn-mac-cumhaill",
+      "index": 240,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-4cb55549-04a0-4dba-bfd1-023a37ee3e09.png",
+      "receipt": "data/artwork-generated/batch-267/fionn-mac-cumhaill.json",
+      "basis_claim_ids": [
+        "fionn-mac-cumhaill-c01",
+        "fionn-mac-cumhaill-c03",
+        "fionn-mac-cumhaill-c07",
+        "fionn-mac-cumhaill-c08"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "imp",
+      "index": 243,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Small caricatured humanlike child/old face with ordinary two-arm/two-leg anatomy; exaggerated expression and size alone insufficient.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-f80339f9-629a-4bca-aa0f-20ccebc8d529.png",
+      "receipt": "data/artwork-generated/batch-267/imp.json",
+      "basis_claim_ids": [
+        "imp-c01",
+        "imp-c02",
+        "imp-c03",
+        "imp-c04"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "wight",
+      "index": 246,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Short bearded human man wearing cap; mundane human anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-98efa88d-d46e-4206-a607-e3a4755f0961.png",
+      "receipt": "data/artwork-generated/batch-267/wight.json",
+      "basis_claim_ids": [
+        "wight-c02",
+        "wight-c06",
+        "wight-c08"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "nibelung",
+      "index": 249,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Human dwarf miner with beard and tools; short stature and setting alone insufficient.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-38315a06-42dc-4970-849e-a5ba2325ffc5.png",
+      "receipt": "data/artwork-generated/batch-267/nibelung.json",
+      "basis_claim_ids": [
+        "nibelung-c01",
+        "nibelung-c03",
+        "nibelung-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    },
+    {
+      "slug": "herne-the-hunter",
+      "index": 252,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Large stag antlers anatomically emerge from skull, source-backed by Shakespeare/Windsor tradition.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-d4c02d31-5131-4290-aa6a-32d6972bc538.png",
+      "receipt": "data/artwork-generated/batch-267/herne-the-hunter.json",
+      "basis_claim_ids": [
+        "herne-the-hunter-c01",
+        "herne-the-hunter-c03",
+        "herne-the-hunter-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image."
+    }
+  ],
+  "pending_screening": [
+    {
+      "slug": "morag-lake-monster",
+      "worker": "worker-3",
+      "decision": "eligible-nonhuman-variant",
+      "reason": "Source-backed animal, hybrid or grotesquely monstrous variant available."
+    },
+    {
+      "slug": "half-elf",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted."
+    },
+    {
+      "slug": "durinn",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted."
+    },
+    {
+      "slug": "hamingja",
+      "worker": "worker-3",
+      "decision": "eligible-nonhuman-variant",
+      "reason": "Source-backed animal, hybrid or grotesquely monstrous variant available."
+    },
+    {
+      "slug": "troll-cat",
+      "worker": "worker-3",
+      "decision": "eligible-nonhuman-variant",
+      "reason": "Source-backed animal, hybrid or grotesquely monstrous variant available."
+    },
+    {
+      "slug": "eitri",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted."
+    },
+    {
+      "slug": "nachzehrer",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted."
+    },
+    {
+      "slug": "baldanders",
+      "worker": "worker-3",
+      "decision": "eligible-nonhuman-variant",
+      "reason": "Source-backed animal, hybrid or grotesquely monstrous variant available."
+    },
+    {
+      "slug": "fossegrim",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted."
+    },
+    {
+      "slug": "litr",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted."
+    },
+    {
+      "slug": "vard-ger",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted."
+    },
+    {
+      "slug": "askafroa",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted."
+    },
+    {
+      "slug": "night-raven",
+      "worker": "worker-3",
+      "decision": "eligible-nonhuman-variant",
+      "reason": "Source-backed animal, hybrid or grotesquely monstrous variant available."
+    },
+    {
+      "slug": "slattenpatte",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted."
+    },
+    {
+      "slug": "ekke-nekkepenn",
+      "worker": "worker-3",
+      "decision": "eligible-nonhuman-variant",
+      "reason": "Source-backed animal, hybrid or grotesquely monstrous variant available."
+    },
+    {
+      "slug": "salmon-of-knowledge",
+      "worker": "worker-3",
+      "decision": "eligible-nonhuman-variant",
+      "reason": "Source-backed animal, hybrid or grotesquely monstrous variant available."
+    },
+    {
+      "slug": "puca",
+      "worker": "worker-3",
+      "decision": "eligible-nonhuman-variant",
+      "reason": "Source-backed animal, hybrid or grotesquely monstrous variant available."
+    },
+    {
+      "slug": "boggart",
+      "worker": "worker-3",
+      "decision": "eligible-nonhuman-variant",
+      "reason": "Source-backed animal, hybrid or grotesquely monstrous variant available."
+    },
+    {
+      "slug": "fairy-queen",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted."
+    },
+    {
+      "slug": "brown-lady-of-raynham-hall",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted."
+    }
+  ],
+  "items": [
+    {
+      "slug": "lilith",
+      "index": 3,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-b39dc683-a513-45d3-8179-595edcc718a3.png",
+      "receipt": "data/artwork-generated/batch-267/lilith.json",
+      "basis_claim_ids": [
+        "lilith-c01",
+        "lilith-c05",
+        "lilith-c07",
+        "lilith-c08",
+        "lilith-c13",
+        "lilith-c14"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "lucifer",
+      "index": 6,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Two anatomically integrated feathered wings emerge behind the male torso; source-backed fallen-angel iconography.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-16d8eb8e-2386-4876-82a2-62e0bfeafa61.png",
+      "receipt": "data/artwork-generated/batch-267/lucifer.json",
+      "basis_claim_ids": [
+        "lucifer-c01",
+        "lucifer-c04",
+        "lucifer-c10",
+        "lucifer-c12"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "troll",
+      "index": 9,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Grotesque rocklike broad face, oversized nose, coarse fur and monstrous limb proportions; distinct troll anatomy rather than merely tall man.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-398e0a52-ae40-44c5-9d7a-374afc6683d6.png",
+      "receipt": "data/artwork-generated/batch-267/troll.json",
+      "basis_claim_ids": [
+        "troll-c01",
+        "troll-c02",
+        "troll-c03",
+        "troll-c04",
+        "troll-c07",
+        "troll-c14"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "yurei",
+      "index": 12,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-2dccec23-c360-4cfe-b8e5-ddfd4663e0b6.png",
+      "receipt": "data/artwork-generated/batch-267/yurei.json",
+      "basis_claim_ids": [
+        "yurei-c01",
+        "yurei-c03",
+        "yurei-c04",
+        "yurei-c08"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "onryo",
+      "index": 15,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-3a51a9fc-1be7-4042-b63a-448e2ca537d5.png",
+      "receipt": "data/artwork-generated/batch-267/onryo.json",
+      "basis_claim_ids": [
+        "onryo-c01",
+        "onryo-c02",
+        "onryo-c04",
+        "onryo-c05",
+        "onryo-c07",
+        "onryo-c09"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "tsukumogami",
+      "index": 18,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Animate teapot body with eyes, mouth and small feet; no ordinary human figure.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-8f673812-2ecd-41fc-a5fa-1db8fec961e1.png",
+      "receipt": "data/artwork-generated/batch-267/tsukumogami.json",
+      "basis_claim_ids": [
+        "tsukumogami-c01",
+        "tsukumogami-c02",
+        "tsukumogami-c04",
+        "tsukumogami-c06",
+        "tsukumogami-c07",
+        "tsukumogami-c09"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "shikigami",
+      "index": 21,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-9435b420-2a4c-46ef-99d4-290c88684200.png",
+      "receipt": "data/artwork-generated/batch-267/shikigami.json",
+      "basis_claim_ids": [
+        "shikigami-c01",
+        "shikigami-c03",
+        "shikigami-c04",
+        "shikigami-c05",
+        "shikigami-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "ikiryo",
+      "index": 24,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-abb385f8-cad5-4d51-91ac-1b4c13727a89.png",
+      "receipt": "data/artwork-generated/batch-267/ikiryo.json",
+      "basis_claim_ids": [
+        "ikiryo-c01",
+        "ikiryo-c02",
+        "ikiryo-c03",
+        "ikiryo-c04",
+        "ikiryo-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "swan-maiden",
+      "index": 27,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary female human face, arms and legs; feathers form a garment/cape rather than actual swan wings or bird body.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-ce22d4fb-f3d2-407b-a160-077a5ade0ac8.png",
+      "receipt": "data/artwork-generated/batch-267/swan-maiden.json",
+      "basis_claim_ids": [
+        "swan-maiden-c03",
+        "swan-maiden-c04",
+        "swan-maiden-c05",
+        "swan-maiden-c11",
+        "swan-maiden-c12"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "zashiki-warashi",
+      "index": 30,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-4ea46ec2-1613-423d-afaa-7d8304555097.png",
+      "receipt": "data/artwork-generated/batch-267/zashiki-warashi.json",
+      "basis_claim_ids": [
+        "zashiki-warashi-c01",
+        "zashiki-warashi-c03",
+        "zashiki-warashi-c04",
+        "zashiki-warashi-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "toyotama-hime",
+      "index": 33,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-9f54dee5-ebe2-4515-8f43-ee3102bd19c3.png",
+      "receipt": "data/artwork-generated/batch-267/toyotama-hime.json",
+      "basis_claim_ids": [
+        "toyotama-hime-c01",
+        "toyotama-hime-c02",
+        "toyotama-hime-c03",
+        "toyotama-hime-c04"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "ushi-oni",
+      "index": 36,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Horned ox head on six-legged spider body.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-26b58715-7c30-40b9-aee3-d00906d1e835.png",
+      "receipt": "data/artwork-generated/batch-267/ushi-oni.json",
+      "basis_claim_ids": [
+        "ushi-oni-c02",
+        "ushi-oni-c03",
+        "ushi-oni-c04"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "kamaitachi",
+      "index": 39,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Weasel animal body and sickle-shaped claws.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-833926b6-1b55-4902-a01c-abb9d5b1fd05.png",
+      "receipt": "data/artwork-generated/batch-267/kamaitachi.json",
+      "basis_claim_ids": [
+        "kamaitachi-c02",
+        "kamaitachi-c04",
+        "kamaitachi-c05",
+        "kamaitachi-c11"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "ameonna",
+      "index": 42,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-72a1f7ff-55c1-48bf-b870-ca29be277c50.png",
+      "receipt": "data/artwork-generated/batch-267/ameonna.json",
+      "basis_claim_ids": [
+        "ameonna-c01",
+        "ameonna-c02",
+        "ameonna-c03"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "hannya",
+      "index": 45,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Horned fang-bearing inhuman demon mask.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-f80aa129-0097-4e64-9766-6f991279abc9.png",
+      "receipt": "data/artwork-generated/batch-267/hannya.json",
+      "basis_claim_ids": [
+        "hannya-c01",
+        "hannya-c02",
+        "hannya-c03",
+        "hannya-c04",
+        "hannya-c05",
+        "hannya-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "nurikabe",
+      "index": 48,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "White three-eyed monstrous quadruped.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-7cb2b0a9-c447-41aa-b1ca-faf79fcf67e7.png",
+      "receipt": "data/artwork-generated/batch-267/nurikabe.json",
+      "basis_claim_ids": [
+        "nurikabe-c01",
+        "nurikabe-c03",
+        "nurikabe-c06",
+        "nurikabe-c08"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "dosojin",
+      "index": 51,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Shrine stone depicts ordinary human couple; no physically nonhuman creature anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-a48c8037-df04-400f-a9fd-b7a9dbf94ece.png",
+      "receipt": "data/artwork-generated/batch-267/dosojin.json",
+      "basis_claim_ids": [
+        "dosojin-c01",
+        "dosojin-c03",
+        "dosojin-c04",
+        "dosojin-c05",
+        "dosojin-c07"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "tesso",
+      "index": 54,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Giant predatory rat with long rat tail.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-ccdbf2cd-7aeb-427a-8215-8aa9586b5837.png",
+      "receipt": "data/artwork-generated/batch-267/tesso.json",
+      "basis_claim_ids": [
+        "tesso-c01",
+        "tesso-c03",
+        "tesso-c04",
+        "tesso-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "kuraokami",
+      "index": 57,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Massive serpentine water-dragon body.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-6654367d-6a74-45d9-bd2b-7d36988da53c.png",
+      "receipt": "data/artwork-generated/batch-267/kuraokami.json",
+      "basis_claim_ids": [
+        "kuraokami-c01",
+        "kuraokami-c05",
+        "kuraokami-c07"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "waira",
+      "index": 60,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Rocklike monster with huge single curved claws.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-718e4036-e5e1-4d83-840f-28553232bd08.png",
+      "receipt": "data/artwork-generated/batch-267/waira.json",
+      "basis_claim_ids": [
+        "waira-c01",
+        "waira-c02",
+        "waira-c03",
+        "waira-c04",
+        "waira-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "nuribotoke",
+      "index": 63,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Black corpse yokai with both eyeballs dangling outside sockets and monstrous extremities.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-e8af8652-757d-4c49-8d98-12866ff9318e.png",
+      "receipt": "data/artwork-generated/batch-267/nuribotoke.json",
+      "basis_claim_ids": [
+        "nuribotoke-c01",
+        "nuribotoke-c02",
+        "nuribotoke-c03",
+        "nuribotoke-c05",
+        "nuribotoke-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "yosuzume",
+      "index": 66,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Fully avian nocturnal sparrow form.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-9f98197f-eab9-4798-952d-8d1a3c58711d.png",
+      "receipt": "data/artwork-generated/batch-267/yosuzume.json",
+      "basis_claim_ids": [
+        "yosuzume-c01",
+        "yosuzume-c02",
+        "yosuzume-c03",
+        "yosuzume-c04",
+        "yosuzume-c05",
+        "yosuzume-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "furutsubaki-no-rei",
+      "index": 69,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-e60919cc-bd6c-4181-a7e3-2e97e39ee96b.png",
+      "receipt": "data/artwork-generated/batch-267/furutsubaki-no-rei.json",
+      "basis_claim_ids": [
+        "furutsubaki-no-rei-c01",
+        "furutsubaki-no-rei-c02",
+        "furutsubaki-no-rei-c03",
+        "furutsubaki-no-rei-c04",
+        "furutsubaki-no-rei-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "koromodako",
+      "index": 72,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Giant octopus body, webbed arms, mantle and suckers.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-c3485bb9-3531-4a5c-a8c6-13638e7332b3.png",
+      "receipt": "data/artwork-generated/batch-267/koromodako.json",
+      "basis_claim_ids": [
+        "koromodako-c01",
+        "koromodako-c02",
+        "koromodako-c03",
+        "koromodako-c04",
+        "koromodako-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "nobusuma",
+      "index": 75,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Flying squirrel animal body with gliding membrane and tail.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-9146b308-9984-481f-afbb-0a04b710931c.png",
+      "receipt": "data/artwork-generated/batch-267/nobusuma.json",
+      "basis_claim_ids": [
+        "nobusuma-c01",
+        "nobusuma-c02",
+        "nobusuma-c03",
+        "nobusuma-c04"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "oshiroibaba",
+      "index": 78,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-21779877-6862-4e3d-8f55-51900bdfc337.png",
+      "receipt": "data/artwork-generated/batch-267/oshiroibaba.json",
+      "basis_claim_ids": [
+        "oshiroibaba-c01",
+        "oshiroibaba-c03",
+        "oshiroibaba-c04",
+        "oshiroibaba-c05",
+        "oshiroibaba-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "yume-no-seirei",
+      "index": 81,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-b51fdd5f-d0e4-49ca-9c79-77246341ebcd.png",
+      "receipt": "data/artwork-generated/batch-267/yume-no-seirei.json",
+      "basis_claim_ids": [
+        "yume-no-seirei-c01",
+        "yume-no-seirei-c02",
+        "yume-no-seirei-c03",
+        "yume-no-seirei-c04",
+        "yume-no-seirei-c05",
+        "yume-no-seirei-c06",
+        "yume-no-seirei-c07"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "shuihu",
+      "index": 84,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Tiger head/body with overlapping scales.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-95c557be-2616-4e18-bc15-20dc180053c4.png",
+      "receipt": "data/artwork-generated/batch-267/shuihu.json",
+      "basis_claim_ids": [
+        "shuihu-c01",
+        "shuihu-c02",
+        "shuihu-c03",
+        "shuihu-c04",
+        "shuihu-c07"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "leanan-sidhe",
+      "index": 87,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-c7eea141-554d-4ef1-ade4-763d9c0ad820.png",
+      "receipt": "data/artwork-generated/batch-267/leanan-sidhe.json",
+      "basis_claim_ids": [
+        "leanan-sidhe-c01",
+        "leanan-sidhe-c03",
+        "leanan-sidhe-c04",
+        "leanan-sidhe-c06",
+        "leanan-sidhe-c07"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "airavata",
+      "index": 90,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "White elephant with source-backed multiple tusks.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-8927e633-af51-41d2-98cb-7f98ecc3819f.png",
+      "receipt": "data/artwork-generated/batch-267/airavata.json",
+      "basis_claim_ids": [
+        "airavata-c01",
+        "airavata-c02",
+        "airavata-c04",
+        "airavata-c05",
+        "airavata-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "cwn-annwn",
+      "index": 93,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Full white canine body and source-backed red ears.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-5cfdeba6-9973-43dd-946f-0637821ed651.png",
+      "receipt": "data/artwork-generated/batch-267/cwn-annwn.json",
+      "basis_claim_ids": [
+        "cwn-annwn-c01",
+        "cwn-annwn-c03",
+        "cwn-annwn-c04",
+        "cwn-annwn-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "merrow",
+      "index": 96,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Human upper body attached to clear scaled fish tail; physically nonhuman hybrid.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-e781e96f-2844-40f8-b4b3-bb6180137f11.png",
+      "receipt": "data/artwork-generated/batch-267/merrow.json",
+      "basis_claim_ids": [
+        "merrow-c01",
+        "merrow-c02",
+        "merrow-c03",
+        "merrow-c06",
+        "merrow-c07"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "sharabha",
+      "index": 99,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Lionlike beast with visible eight-legged anatomy and wings.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-88460c99-3f68-4358-be99-d14a92443df9.png",
+      "receipt": "data/artwork-generated/batch-267/sharabha.json",
+      "basis_claim_ids": [
+        "sharabha-c01",
+        "sharabha-c02",
+        "sharabha-c03",
+        "sharabha-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "yali-mythology",
+      "index": 102,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Lion body, elephant trunk/tusks, and serpentine tail.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-800f9a07-ae87-4a0b-aceb-ae4b4b703d84.png",
+      "receipt": "data/artwork-generated/batch-267/yali-mythology.json",
+      "basis_claim_ids": [
+        "yali-mythology-c01",
+        "yali-mythology-c02",
+        "yali-mythology-c03",
+        "yali-mythology-c04",
+        "yali-mythology-c05",
+        "yali-mythology-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "far-darrig",
+      "index": 105,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Short elderly man in red hat and coat; size, wrinkles and costume alone do not meet nonhuman-body requirement.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-d8ad8b98-5cf8-4949-94a6-8306763ddc88.png",
+      "receipt": "data/artwork-generated/batch-267/far-darrig.json",
+      "basis_claim_ids": [
+        "far-darrig-c01",
+        "far-darrig-c02",
+        "far-darrig-c03",
+        "far-darrig-c05",
+        "far-darrig-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "sarama",
+      "index": 108,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Full canine body; no human portrait.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-b2640e5b-8e09-45f8-a747-b9461019ccd0.png",
+      "receipt": "data/artwork-generated/batch-267/sarama.json",
+      "basis_claim_ids": [
+        "sarama-c01",
+        "sarama-c02",
+        "sarama-c03",
+        "sarama-c04",
+        "sarama-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "mahoraga",
+      "index": 111,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Human torso continues directly into a large coiled snake lower body.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-47c72b67-a705-497e-8828-66db803d1ca6.png",
+      "receipt": "data/artwork-generated/batch-267/mahoraga.json",
+      "basis_claim_ids": [
+        "mahoraga-c01",
+        "mahoraga-c02",
+        "mahoraga-c03",
+        "mahoraga-c05",
+        "mahoraga-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "kumbhanda",
+      "index": 114,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Obese human man wearing cloth; round belly and short stature alone do not establish nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-2cba478f-d653-40fe-917e-fb8db8f08549.png",
+      "receipt": "data/artwork-generated/batch-267/kumbhanda.json",
+      "basis_claim_ids": [
+        "kumbhanda-c01",
+        "kumbhanda-c02",
+        "kumbhanda-c04",
+        "kumbhanda-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "naale-ba",
+      "index": 117,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-516dae81-485d-463e-affa-bc63d65792e0.png",
+      "receipt": "data/artwork-generated/batch-267/naale-ba.json",
+      "basis_claim_ids": [
+        "naale-ba-c01",
+        "naale-ba-c03",
+        "naale-ba-c04"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "lambton-worm",
+      "index": 120,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Massive serpentine monster winding across rocks and river.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-b2fe27da-1fea-4ab8-b272-ba582a659a1b.png",
+      "receipt": "data/artwork-generated/batch-267/lambton-worm.json",
+      "basis_claim_ids": [
+        "lambton-worm-c01",
+        "lambton-worm-c02",
+        "lambton-worm-c04",
+        "lambton-worm-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "aana-marutha",
+      "index": 123,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-f4c7a54d-bf8a-4b85-9134-150662461fcf.png",
+      "receipt": "data/artwork-generated/batch-267/aana-marutha.json",
+      "basis_claim_ids": [
+        "aana-marutha-c01",
+        "aana-marutha-c02",
+        "aana-marutha-c03",
+        "aana-marutha-c04",
+        "aana-marutha-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "susna",
+      "index": 126,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Large horned snake/dragon body.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-9e3069af-14cd-4249-8415-2d4594a9440c.png",
+      "receipt": "data/artwork-generated/batch-267/susna.json",
+      "basis_claim_ids": [
+        "susna-c01",
+        "susna-c02",
+        "susna-c04",
+        "susna-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "iblis",
+      "index": 129,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Documented black dog variant with full canine anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-bf3e52fd-e7b7-47f7-afff-a3ec0a6a08ac.png",
+      "receipt": "data/artwork-generated/batch-267/iblis.json",
+      "basis_claim_ids": [
+        "iblis-c04",
+        "iblis-c08",
+        "iblis-c09",
+        "iblis-c10",
+        "iblis-c14"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "ghoul",
+      "index": 132,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Emaciated monstrous corpse head and disproportionately long clawlike digits; skeletal predatory inhuman form.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-618a6298-627d-42b8-ad4d-c431961bbc1d.png",
+      "receipt": "data/artwork-generated/batch-267/ghoul.json",
+      "basis_claim_ids": [
+        "ghoul-c01",
+        "ghoul-c02",
+        "ghoul-c03",
+        "ghoul-c04",
+        "ghoul-c05",
+        "ghoul-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "roc-mythology",
+      "index": 135,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Giant fully avian eagle body.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-0da07475-d2f4-4d8e-b35a-38229778ab2b.png",
+      "receipt": "data/artwork-generated/batch-267/roc-mythology.json",
+      "basis_claim_ids": [
+        "roc-mythology-c01",
+        "roc-mythology-c02",
+        "roc-mythology-c03",
+        "roc-mythology-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "pazuzu",
+      "index": 138,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Metal artifact depicting a source-backed monstrous fanged head with animallike ears and abnormal eyes.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-2f39e660-908b-4723-b6b1-b77ac5af0a06.png",
+      "receipt": "data/artwork-generated/batch-267/pazuzu.json",
+      "basis_claim_ids": [
+        "pazuzu-c01",
+        "pazuzu-c03",
+        "pazuzu-c04",
+        "pazuzu-c05",
+        "pazuzu-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "abcan",
+      "index": 141,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-a4fe697b-2adf-4858-874c-7bb33150f6b7.png",
+      "receipt": "data/artwork-generated/batch-267/abcan.json",
+      "basis_claim_ids": [
+        "abcan-c01",
+        "abcan-c02",
+        "abcan-c03",
+        "abcan-c04",
+        "abcan-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "huma-bird",
+      "index": 144,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Fully avian flying bird form.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-07a970e7-16b6-42d1-8cbf-4f28d7066633.png",
+      "receipt": "data/artwork-generated/batch-267/huma-bird.json",
+      "basis_claim_ids": [
+        "huma-bird-c01",
+        "huma-bird-c02",
+        "huma-bird-c03",
+        "huma-bird-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "karkadann",
+      "index": 147,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Rhinoceroslike quadruped body and horn.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-9a22430e-a9de-451a-9a21-e830dbe92652.png",
+      "receipt": "data/artwork-generated/batch-267/karkadann.json",
+      "basis_claim_ids": [
+        "karkadann-c01",
+        "karkadann-c02",
+        "karkadann-c04",
+        "karkadann-c05",
+        "karkadann-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "al-folklore",
+      "index": 150,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Large visibly reddish textured clay nose protrudes as nonhuman anatomy; documented Armenian form.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-05f8aa90-b1ea-440c-8dd6-189128129108.png",
+      "receipt": "data/artwork-generated/batch-267/al-folklore.json",
+      "basis_claim_ids": [
+        "al-folklore-c01",
+        "al-folklore-c02",
+        "al-folklore-c04",
+        "al-folklore-c05",
+        "al-folklore-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "rubezahl",
+      "index": 156,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Human male in robe; landscape scale and dramatic clouds do not change physical human form.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-bcd9e280-450d-447a-ba39-fecccce528a7.png",
+      "receipt": "data/artwork-generated/batch-267/rubezahl.json",
+      "basis_claim_ids": [
+        "rubezahl-c01",
+        "rubezahl-c06",
+        "rubezahl-c07",
+        "rubezahl-c09",
+        "rubezahl-c11",
+        "rubezahl-c12"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "hodekin",
+      "index": 201,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Short human man with hat; no nonhuman anatomical features.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-d3336c7e-662c-4ea1-a8d5-385cd6f455f3.png",
+      "receipt": "data/artwork-generated/batch-267/hodekin.json",
+      "basis_claim_ids": [
+        "hodekin-c01",
+        "hodekin-c04",
+        "hodekin-c05",
+        "hodekin-c08"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "bysen",
+      "index": 204,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Short elderly human man with beard and hat; no nonhuman anatomical features.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-072a7d35-9f93-46f1-8700-3a78e54e5da4.png",
+      "receipt": "data/artwork-generated/batch-267/bysen.json",
+      "basis_claim_ids": [
+        "bysen-c01",
+        "bysen-c02",
+        "bysen-c03"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "fasolt",
+      "index": 207,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Large human warrior; giant scale and armor alone do not qualify.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-9e1b5895-4d5d-4bab-a5c8-e94523551034.png",
+      "receipt": "data/artwork-generated/batch-267/fasolt.json",
+      "basis_claim_ids": [
+        "fasolt-c01",
+        "fasolt-c03"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "knights-of-alleberg",
+      "index": 210,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human knight in armor with translucent appearance; ghost effect alone does not qualify.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-27197350-37e5-4244-a00d-84bcdd31ba64.png",
+      "receipt": "data/artwork-generated/batch-267/knights-of-alleberg.json",
+      "basis_claim_ids": [
+        "knights-of-alleberg-c01",
+        "knights-of-alleberg-c03",
+        "knights-of-alleberg-c04"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "treuer-eckart",
+      "index": 213,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-e0d3c372-844c-4714-be7f-c0f0f5ae1534.png",
+      "receipt": "data/artwork-generated/batch-267/treuer-eckart.json",
+      "basis_claim_ids": [
+        "treuer-eckart-c04",
+        "treuer-eckart-c05",
+        "treuer-eckart-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "bergmonch",
+      "index": 216,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Human monk in black robe with glowing eyes; glow is insufficient and body remains ordinary-human.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-ebc781ae-7e8a-423a-a6ff-3668d6ca9d3b.png",
+      "receipt": "data/artwork-generated/batch-267/bergmonch.json",
+      "basis_claim_ids": [
+        "bergmonch-c02",
+        "bergmonch-c03",
+        "bergmonch-c05",
+        "bergmonch-c11"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "elder-mother",
+      "index": 219,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-9cd1abcc-555f-474e-81f5-8de2400b3a90.png",
+      "receipt": "data/artwork-generated/batch-267/elder-mother.json",
+      "basis_claim_ids": [
+        "elder-mother-c01",
+        "elder-mother-c02",
+        "elder-mother-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "feuermann-ghost",
+      "index": 222,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human male figure surrounded by flames; fire/aura is insufficient.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-7b9b9c5c-c727-4570-b544-f39d40822274.png",
+      "receipt": "data/artwork-generated/batch-267/feuermann-ghost.json",
+      "basis_claim_ids": [
+        "feuermann-ghost-c01",
+        "feuermann-ghost-c02",
+        "feuermann-ghost-c05",
+        "feuermann-ghost-c07",
+        "feuermann-ghost-c08"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "vittra-folklore",
+      "index": 225,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-e41afe54-f3be-4640-97d2-2ac9201ef3db.png",
+      "receipt": "data/artwork-generated/batch-267/vittra-folklore.json",
+      "basis_claim_ids": [
+        "vittra-folklore-c01",
+        "vittra-folklore-c02",
+        "vittra-folklore-c05",
+        "vittra-folklore-c09"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "wei-e-frauen",
+      "index": 228,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-a5b59553-b210-4cb8-8801-32a1cdb3fe87.png",
+      "receipt": "data/artwork-generated/batch-267/wei-e-frauen.json",
+      "basis_claim_ids": [
+        "wei-e-frauen-c01",
+        "wei-e-frauen-c02",
+        "wei-e-frauen-c03",
+        "wei-e-frauen-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "ysatters-kajsa",
+      "index": 231,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Human woman in swirling wind; dramatic wind/aura leaves ordinary-human anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-0bd51b91-e30f-418e-8b78-58973ab60f8c.png",
+      "receipt": "data/artwork-generated/batch-267/ysatters-kajsa.json",
+      "basis_claim_ids": [
+        "ysatters-kajsa-c01",
+        "ysatters-kajsa-c03",
+        "ysatters-kajsa-c04",
+        "ysatters-kajsa-c05",
+        "ysatters-kajsa-c06"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "vamana",
+      "index": 234,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human boy with umbrella and draped cloth; no nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-3f7233dc-b82d-4589-8614-2a8f764b5cc4.png",
+      "receipt": "data/artwork-generated/batch-267/vamana.json",
+      "basis_claim_ids": [
+        "vamana-c01",
+        "vamana-c02",
+        "vamana-c04",
+        "vamana-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "fomorians",
+      "index": 237,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Source-backed goat head with horns integrated into anthropomorphic body.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-d457eace-3a3f-4893-b282-dc6cb2b8a76f.png",
+      "receipt": "data/artwork-generated/batch-267/fomorians.json",
+      "basis_claim_ids": [
+        "fomorians-c01",
+        "fomorians-c02",
+        "fomorians-c04",
+        "fomorians-c07"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "fionn-mac-cumhaill",
+      "index": 240,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-4cb55549-04a0-4dba-bfd1-023a37ee3e09.png",
+      "receipt": "data/artwork-generated/batch-267/fionn-mac-cumhaill.json",
+      "basis_claim_ids": [
+        "fionn-mac-cumhaill-c01",
+        "fionn-mac-cumhaill-c03",
+        "fionn-mac-cumhaill-c07",
+        "fionn-mac-cumhaill-c08"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "imp",
+      "index": 243,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Small caricatured humanlike child/old face with ordinary two-arm/two-leg anatomy; exaggerated expression and size alone insufficient.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-f80339f9-629a-4bca-aa0f-20ccebc8d529.png",
+      "receipt": "data/artwork-generated/batch-267/imp.json",
+      "basis_claim_ids": [
+        "imp-c01",
+        "imp-c02",
+        "imp-c03",
+        "imp-c04"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "wight",
+      "index": 246,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Short bearded human man wearing cap; mundane human anatomy.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-98efa88d-d46e-4206-a607-e3a4755f0961.png",
+      "receipt": "data/artwork-generated/batch-267/wight.json",
+      "basis_claim_ids": [
+        "wight-c02",
+        "wight-c06",
+        "wight-c08"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "nibelung",
+      "index": 249,
+      "worker": "worker-3",
+      "decision": "delete-artwork-and-exclude-character",
+      "reason": "Human dwarf miner with beard and tools; short stature and setting alone insufficient.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-38315a06-42dc-4970-849e-a5ba2325ffc5.png",
+      "receipt": "data/artwork-generated/batch-267/nibelung.json",
+      "basis_claim_ids": [
+        "nibelung-c01",
+        "nibelung-c03",
+        "nibelung-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "delete-and-exclude-character",
+      "regenerate": false
+    },
+    {
+      "slug": "herne-the-hunter",
+      "index": 252,
+      "worker": "worker-3",
+      "decision": "retain",
+      "reason": "Large stag antlers anatomically emerge from skull, source-backed by Shakespeare/Windsor tradition.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-d4c02d31-5131-4290-aa6a-32d6972bc538.png",
+      "receipt": "data/artwork-generated/batch-267/herne-the-hunter.json",
+      "basis_claim_ids": [
+        "herne-the-hunter-c01",
+        "herne-the-hunter-c03",
+        "herne-the-hunter-c05"
+      ],
+      "visually_inspected": true,
+      "inspection": "Individual image or 400px contact-sheet tile inspected with view_image.",
+      "recommendation": "retain",
+      "regenerate": false
+    },
+    {
+      "slug": "morag-lake-monster",
+      "worker": "worker-3",
+      "decision": "eligible-nonhuman-variant",
+      "reason": "Source-backed animal, hybrid or grotesquely monstrous variant available.",
+      "recommendation": "generate-source-backed-nonhuman-variant",
+      "regenerate": false
+    },
+    {
+      "slug": "half-elf",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted.",
+      "recommendation": "exclude-without-regeneration",
+      "regenerate": false
+    },
+    {
+      "slug": "durinn",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted.",
+      "recommendation": "exclude-without-regeneration",
+      "regenerate": false
+    },
+    {
+      "slug": "hamingja",
+      "worker": "worker-3",
+      "decision": "eligible-nonhuman-variant",
+      "reason": "Source-backed animal, hybrid or grotesquely monstrous variant available.",
+      "recommendation": "generate-source-backed-nonhuman-variant",
+      "regenerate": false
+    },
+    {
+      "slug": "troll-cat",
+      "worker": "worker-3",
+      "decision": "eligible-nonhuman-variant",
+      "reason": "Source-backed animal, hybrid or grotesquely monstrous variant available.",
+      "recommendation": "generate-source-backed-nonhuman-variant",
+      "regenerate": false
+    },
+    {
+      "slug": "eitri",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted.",
+      "recommendation": "exclude-without-regeneration",
+      "regenerate": false
+    },
+    {
+      "slug": "nachzehrer",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted.",
+      "recommendation": "exclude-without-regeneration",
+      "regenerate": false
+    },
+    {
+      "slug": "baldanders",
+      "worker": "worker-3",
+      "decision": "eligible-nonhuman-variant",
+      "reason": "Source-backed animal, hybrid or grotesquely monstrous variant available.",
+      "recommendation": "generate-source-backed-nonhuman-variant",
+      "regenerate": false
+    },
+    {
+      "slug": "fossegrim",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted.",
+      "recommendation": "exclude-without-regeneration",
+      "regenerate": false
+    },
+    {
+      "slug": "litr",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted.",
+      "recommendation": "exclude-without-regeneration",
+      "regenerate": false
+    },
+    {
+      "slug": "vard-ger",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted.",
+      "recommendation": "exclude-without-regeneration",
+      "regenerate": false
+    },
+    {
+      "slug": "askafroa",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted.",
+      "recommendation": "exclude-without-regeneration",
+      "regenerate": false
+    },
+    {
+      "slug": "night-raven",
+      "worker": "worker-3",
+      "decision": "eligible-nonhuman-variant",
+      "reason": "Source-backed animal, hybrid or grotesquely monstrous variant available.",
+      "recommendation": "generate-source-backed-nonhuman-variant",
+      "regenerate": false
+    },
+    {
+      "slug": "slattenpatte",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted.",
+      "recommendation": "exclude-without-regeneration",
+      "regenerate": false
+    },
+    {
+      "slug": "ekke-nekkepenn",
+      "worker": "worker-3",
+      "decision": "eligible-nonhuman-variant",
+      "reason": "Source-backed animal, hybrid or grotesquely monstrous variant available.",
+      "recommendation": "generate-source-backed-nonhuman-variant",
+      "regenerate": false
+    },
+    {
+      "slug": "salmon-of-knowledge",
+      "worker": "worker-3",
+      "decision": "eligible-nonhuman-variant",
+      "reason": "Source-backed animal, hybrid or grotesquely monstrous variant available.",
+      "recommendation": "generate-source-backed-nonhuman-variant",
+      "regenerate": false
+    },
+    {
+      "slug": "puca",
+      "worker": "worker-3",
+      "decision": "eligible-nonhuman-variant",
+      "reason": "Source-backed animal, hybrid or grotesquely monstrous variant available.",
+      "recommendation": "generate-source-backed-nonhuman-variant",
+      "regenerate": false
+    },
+    {
+      "slug": "boggart",
+      "worker": "worker-3",
+      "decision": "eligible-nonhuman-variant",
+      "reason": "Source-backed animal, hybrid or grotesquely monstrous variant available.",
+      "recommendation": "generate-source-backed-nonhuman-variant",
+      "regenerate": false
+    },
+    {
+      "slug": "fairy-queen",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted.",
+      "recommendation": "exclude-without-regeneration",
+      "regenerate": false
+    },
+    {
+      "slug": "brown-lady-of-raynham-hall",
+      "worker": "worker-3",
+      "decision": "exclude-without-generating",
+      "reason": "Documented humanoid/ghost form does not supply clearly nonhuman body; no invention of anatomy permitted.",
+      "recommendation": "exclude-without-regeneration",
+      "regenerate": false
+    }
+  ]
+}

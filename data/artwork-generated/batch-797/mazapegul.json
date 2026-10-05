@@ -1,0 +1,88 @@
+{
+  "slug": "mazapegul",
+  "basis_claim_ids": [
+    "mazapegul-c01",
+    "mazapegul-c02",
+    "mazapegul-c06"
+  ],
+  "depicted_variant": "Grey-furred ape/homunculus with red cap",
+  "visual_requirements": [
+    "Remove all purple-magenta energy ribbons, sparkling light dots and emitted body/cap glow. Preserve small grey-furred ape-like homunculus, two arms/two legs, distinctive red cap, face, playful crouch, exact size, grain bowl, window ledge and moonlit Romagna scene. Red cap supports mischief, not glowing energy. Presence through mischievous smirk and pose.",
+    "No generic emitted wrapping; preserve original anatomy and counts"
+  ],
+  "aura": "Mischievous smirk and small crouch on windowsill.",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove all purple-magenta energy ribbons, sparkling light dots and emitted body/cap glow. Preserve small grey-furred ape-like homunculus, two arms/two legs, distinctive red cap, face, playful crouch, exact size, grain bowl, window ledge and moonlit Romagna scene. Red cap supports mischief, not glowing energy. Presence through mischievous smirk and pose. Preserve original composition, anatomy, count, exact size and identity. No added subjects, nudity, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-130.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/mazapegul-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-93e3a41b-31fe-4e45-91bb-7c803cbd1b1e.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native edited output actually inspected: same small grey ape-homunculus, two arms/two legs, red cap and playful crouch; purple emission and sparkles removed.",
+    "reviewer": "aura-resume-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: small grey-furred ape/homunculus-like being wearing physical red cap at window. Coherent hands/face, warm window and moonlight; no gold sparkles."
+  },
+  "attempt_history": [
+    {
+      "slug": "mazapegul",
+      "basis_claim_ids": [
+        "mazapegul-c01",
+        "mazapegul-c02",
+        "mazapegul-c06"
+      ],
+      "depicted_variant": "Grey-furred ape/homunculus with red cap",
+      "visual_requirements": [
+        "Small grey-furred ape-like homunculus",
+        "Distinctive red cap",
+        "Two arms, two legs"
+      ],
+      "aura": "Violet-red emitted trickster wisps",
+      "prompt": "Depict a Mazapégul from Romagna folklore as a small mischievous grey-furred creature intermediate between an ape and a homunculus, a compact monkeylike humanoid with two arms, two legs, an ape-like face and a distinctive bright RED CAP. No invented horns, wings, long fangs or extra limbs. Fully visible perched on an old farmhouse stone windowsill at night, grains of rice nearby as a folklore detail. Cunning unnerving expression, grey shaggy fur clearly readable. Vivid violet-red magical wisps and tiny lights visibly radiate from its cap and furry body, making its supernatural night-elf nature unmistakable. Old Apennine countryside beyond window, no sleeping people or sexual imagery. Square premium detailed painterly mythological encyclopedia illustration, entire identifying body within frame, coherent anatomy, no text, captions, borders, watermark, gore or victims. Aura must visibly emanate from creature.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-130.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/mazapegul.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-93e3a41b-31fe-4e45-91bb-7c803cbd1b1e.png",
+      "reviewed_at": "2026-10-05T04:01:08.520Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: small grey-furred ape-like homunculus with distinctive red cap, two arms and two legs, rice nearby and explicit violet emitted magic."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Small grey-furred ape-like homunculus with red cap and coherent two arms/legs, emitted violet aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/mazapegul-verified.webp",
+      "sha256": "3e0fc4865b08d16cc2c414918d9aa5a59aafcbd59e092a1dfe0e7bff886ed855",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-41fb74fc-f0b7-4953-9081-cf77a2028457.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Mischief cap does not support purple magical envelope.",
+    "allowed_magic": "none beyond documented manifestation",
+    "source_basis_claim_ids": [
+      "mazapegul-c01",
+      "mazapegul-c02",
+      "mazapegul-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/mazapegul.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/mazapegul.json"
+  }
+}

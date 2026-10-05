@@ -1,0 +1,99 @@
+{
+  "slug": "elemental",
+  "worker": "root",
+  "prompt": "Edit the provided square painterly mythology artwork to follow its documented physical manifestation. Preserve ONE clothed bearded humanlike earth elemental in rocky cave with ordinary roots and crystals. Remove every yellow particle, gold magic spiral, glowing palm, body halo, luminous rock and magic light. Normal fingers and ordinary open hands, neutral crystals catching faint ambient daylight from cave mouth. No horns or pointed ears. Preserve painterly naturalistic quality and square composition. No text, border or watermark.",
+  "depicted_variant": "Clothed humanlike earth-associated elemental",
+  "basis_claim_ids": [
+    "elemental-c01",
+    "elemental-c02",
+    "elemental-c05"
+  ],
+  "visual_requirements": [
+    "Clothed humanlike earth elemental in cave, nonluminous hands and rocks",
+    "No generic emitted aura, neon halo, magic particles or luminous vapor"
+  ],
+  "aura": "Character presence through pose, framing, atmosphere and natural light",
+  "review_path": "data/gemini/reviews/batch-128.review.json",
+  "tool": "OpenAI built-in image_gen",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-6e5974f2-ec58-41fc-9be1-0beb1f706a03.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/elemental-presence-v2.png",
+  "status": "reviewed",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native: ordinary clothed humanlike bearded earth elemental in rocky cave, human fingers and ears, passive nonluminous crystals; daylight from cave opening, no glowing palms.",
+    "reviewer": "root"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "finish_aura_c",
+    "reviewed_at": "2026-10-05",
+    "notes": "Independently inspected revised native: one fully clothed bearded humanlike earth elemental in cave, human ears and hands, ordinary crystals and roots. Cave opening provides daylight; no luminous palms, emitted particles, energy ribbons or body halo. Physical earthy presence and clothing preserved."
+  },
+  "independent_visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native: ordinary clothed humanlike bearded earth elemental in rocky cave, human fingers and ears, passive nonluminous crystals; daylight from cave opening, no glowing palms.",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05"
+  },
+  "attempt_history": [
+    {
+      "slug": "elemental",
+      "worker": "root",
+      "prompt": "Use case: stylized-concept. One square high-detail painterly naturalistic cinematic mythology encyclopedia illustration. One Renaissance-alchemical earth-associated ELEMENTAL, selecting source gnome category with mostly HUMANLIKE PHYSICAL body. One ADULT human-shaped figure in opaque plain Renaissance work tunic, two arms and two legs, rounded natural ears and subtle uncanny luminous gaze, no stone/crystal body, animalparts, horns, pointyears or fantasy monster. Stands in mineral-rich underground chamber with earthen roots and rocks, natural small human stature without unsupported preciseheight. Golden-green luminous earth magic wisps clearly EMIT FROM body and hands, illuminate soil/grain-like motes. Exact face/clothes/cave aura are artistic. No writing, labels, text, watermark, frame or collage.",
+      "depicted_variant": "Clothed humanlike earth-associated elemental",
+      "basis_claim_ids": [
+        "elemental-c01",
+        "elemental-c02",
+        "elemental-c05"
+      ],
+      "visual_requirements": [
+        "Clothed physical mostly humanlike body",
+        "Earth-associated setting and aura",
+        "No unsupported horns wings pointed ears"
+      ],
+      "aura": "Clearly emitted supernatural luminous wisps and particles as artistic aura",
+      "review_path": "data/gemini/reviews/batch-128.review.json",
+      "tool": "OpenAI built-in image_gen",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-6e5974f2-ec58-41fc-9be1-0beb1f706a03.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/elemental.png",
+      "status": "reviewed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually viewed clothed physical humanlike earth elemental, natural ears and anatomy, emitted golden underground magic."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Actually viewed clothed physical humanlike earth elemental, natural ears and anatomy, emitted golden underground magic.",
+        "reviewed_at": "2026-10-05"
+      },
+      "independent_visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-0",
+        "notes": "Worker-0 independently inspected root-sheet3: natural clothed humanlike gnome elemental in underground mineral cavern, coherent limbs, golden-green emitted earth magic.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/elemental-verified.webp",
+      "sha256": "f29003d08c00a4f554f0bb3c5bab1e42a654fe6d78823959f9b1de667743d6a0",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-2cd61c68-61e9-4917-b268-4ecbc4ab75fc.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Original has generic emitted magical wrapping unsupported by selected documented depiction; use physical presence and natural scene lighting.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "elemental-c01",
+      "elemental-c02",
+      "elemental-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/elemental.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/elemental.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

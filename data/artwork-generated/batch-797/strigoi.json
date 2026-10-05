@@ -1,0 +1,91 @@
+{
+  "slug": "strigoi",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove red-white luminous energy wisps, emitted body outline and red ground light. Preserve visibly BALD CROWN, adult human revenant face, natural anatomy, clothing coverage, exact walking pose, no generic vampire fangs, Romanian graveyard/village. Neutral ordinary ground mist only. Presence through bald gaunt head, downward stare and approaching posture. Preserve original composition, count, exact scale and identity. No added subjects, nudity, gore, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/strigoi-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-1128b998-32b1-4a1f-bb93-1af724747eab.png",
+  "depicted_variant": "Dead human revenant with clearly bald crown of head",
+  "basis_claim_ids": [
+    "strigoi-c01",
+    "strigoi-c09",
+    "strigoi-c11",
+    "strigoi-c13"
+  ],
+  "aura": "Dread through gaunt bald crown, downcast stare, approaching posture, elevated camera and dark graveyard.",
+  "visual_requirements": [
+    "Clearly visible bald crown with sparse side hair.",
+    "Preserve adult human revenant anatomy, rural clothing, exact approaching pose and graveyard.",
+    "No red-white energy wisps or glowing ground; no added fangs or Dracula costume."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected source and recovered native edit: bald crown, sparse side hair, gaunt face, complete opaque rural clothes, human hands/legs, grave and village remain. Red/white emitted energy and glowing ground are removed; restrained ordinary gray mist and dark approaching posture create menace.",
+    "reviewer": "finish_aura_b"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-121.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected revised native preview: troubled adult revenant with bald crown, intact modest historical clothes, standing in open cemetery grave; natural gray mist, solemn expression and nighttime scene without emitted eye/body light."
+  },
+  "attempt_history": [
+    {
+      "slug": "strigoi",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square exquisite high-detail painterly naturalistic cinematic mythology encyclopedia illustration. STRIGOI, Romanian troubled grave-risen spirit, selecting deadstrigoi HUMAN REVENANT form. ONE adultmale revenant with VERY CLEAR BALD CROWN OF HEAD surroundedby sparse darksidehair, intact pallid naturalhumanface, closedmouth and ordinarylimbs, opaqueplain oldRomanianrural clothes. Stand fullfigure justoutside oldgrave in moonless ruralcemetery, sourcecrownidentity priority, camera slightlyaboveso baldtopvisible. Clearly luminous ASH-RED and coldwhite supernatural wisps RADIATE FROM BODY and grave, cast dreadful light onstones, terrifying revenant aura. No extra fangs, Dracula cape, horns, wings, victims, gore or violentritual. No text, watermark, border, collage or labels.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/strigoi.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-1128b998-32b1-4a1f-bb93-1af724747eab.png",
+      "depicted_variant": "Dead human revenant with clearly bald crown of head",
+      "basis_claim_ids": [
+        "strigoi-c01",
+        "strigoi-c09",
+        "strigoi-c11",
+        "strigoi-c13"
+      ],
+      "aura": "terrifying grave-risen vampire spirit emitted ash-red magic",
+      "visual_requirements": [
+        "BALDCROWN visible",
+        "adult humanrevenant sourceform",
+        "nogenericDraculafangs"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected native: adult human male dead revenant with unmistakably BALD CROWN framed from above, sparse sidehair, intact natural face/body and modest rural clothes, rising beside grave. Ash-red/white emitted aura artistic; no generic Dracula fangs or costume."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-121.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Clearly visible bald crown on adult human revenant, no generic Dracula fangs, emitted red-silver aura by cemetery.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/strigoi-verified.webp",
+      "sha256": "4980e8137ea499f7609a1664eab9ebfbbb93e07190b12b63a2889ebfa03c7fab",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-3e04e01b-2fda-4784-9102-00555b5f7243.png",
+  "revision_generator": "finish_aura_b",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "finish_aura_b",
+    "rationale": "The source supports a grave-risen revenant and a bald crown, but does not support emitted red/white light.",
+    "allowed_magic": "None visible; ordinary gray cemetery mist only.",
+    "source_basis_claim_ids": [
+      "strigoi-c01",
+      "strigoi-c09",
+      "strigoi-c11",
+      "strigoi-c13"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/strigoi.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/strigoi.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

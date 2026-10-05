@@ -1,0 +1,70 @@
+{
+  "slug": "strzyga",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Edit this STRZYGA mythology illustration only to make the defining Silesian DOUBLE DENTITION clear. Preserve this adult female revenant, pale face, modest worn dress, wooded graveyard, coffin and terrifying mist. Bring her head and upper body closer to camera so face takes at least one third of frame. Mouth open wide enough to show TWO NESTED PARALLEL ROWS OF TEETH on the upper jaw and corresponding duplicated lower teeth, the second row sitting immediately behind the front teeth, rather than ordinary upper/lower dentition. Non-graphic supernatural anatomy, no blood, wounds or gore. Keep source-faithful humanlike body, one head, two arms, no owl parts or wings; no text, watermark or border. Cold spectral aura remains artistic atmosphere.",
+  "base_prompt": "Use case: stylized-concept. ONE square terrifying premium painterly naturalistic mythology encyclopedia illustration of STRZYGA, choosing the Silesian female revenant-demon form, not the separate owl form. One pallid adult female undead figure in plain worn modest historic dress stands beside a closed coffin in a dark Polish woodland burial ground. Face close enough to clearly show TWO ROWS OF TEETH in an open predatory mouth, subtly uncanny corpse-pale skin, hollow stare. Humanlike anatomy remains source-faithful; internal two hearts/two souls must NOT be drawn externally or as extra figures. Full figure with comfortably framed head and hands. Truly oppressive nightmare darkness, cold vapor and sickly lunar rim aura as artistic interpretation. No wings, owl head, horns, extra limbs, exposed organs, blood, victims, gore, modern vampire cape, text, watermark, border or collage.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/strzyga.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-fd6492bd-74f5-4125-b9fd-818f192e7f8d.png",
+  "depicted_variant": "Silesian female undead demon with two visible rows of teeth",
+  "basis_claim_ids": [
+    "strzyga-c01",
+    "strzyga-c04",
+    "strzyga-c06"
+  ],
+  "aura": "Threatening close stare, bared double dentition and naturally moonlit cemetery.",
+  "visual_requirements": [
+    "Adult female humanlike form, visible double tooth rows and existing modest clothing",
+    "Retain natural moonlit cemetery horror; no emitted magical aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected full native original. Adult clothed female revenant displays the source double row of teeth; moonlit cemetery and confrontational framing contain no generic light envelope.",
+    "reviewer": "worker-0"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "superseded_generation": {
+    "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-3782ba1a-b7af-4838-bb61-e02ed37bbe34.png",
+    "reason": "Mouth did not clearly show source double dentition."
+  },
+  "review_path": "data/gemini/reviews/batch-122.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected original: threatening adult vampirelike female, visible teeth and ordinary moonlit graveyard. No luminous eye beams, ribbons or body halo."
+  },
+  "aura_policy_history": [
+    {
+      "aura": "terrifying revenant demon, oppressive graveyard darkness",
+      "visual_requirements": [
+        "female revenant demon",
+        "two rows of teeth visible",
+        "no owl anatomy mixed into humanoid variant"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected corrected image: closer adult female revenant face clearly shows duplicated nested upper teeth, two visible upper rows, lower dentition and predatory open mouth. Source Silesian double dentition now clear; no owl anatomy, exposed hearts or gore. Modest worn dress, dark forest coffin and cold mist support identity. Corpse skin/lighting artistic."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected full-resolution corrected original: two distinct nested upper rows of teeth are visible, source female revenant body retained, no owl hybrid, terrifying graveyard mist and coffin setting. Modest worn dress and non-graphic corpse-like skin.",
+        "reviewed_at": "2026-10-05"
+      }
+    }
+  ],
+  "aura_revision": {
+    "decision": "keep",
+    "reviewer": "worker-0",
+    "rationale": "Adult clothed female revenant displays the source double row of teeth; moonlit cemetery and confrontational framing contain no generic light envelope.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "strzyga-c01",
+      "strzyga-c04",
+      "strzyga-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/strzyga.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/strzyga.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

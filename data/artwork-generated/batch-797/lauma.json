@@ -1,0 +1,94 @@
+{
+  "slug": "lauma",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: lighting-weather. Input image is EDIT TARGET. Change only magical lighting and atmospheric VFX; preserve exact identity, expression, pose, anatomy, limb counts, scale, scenery, square framing and fully modest opaque clothing. No text/watermark. Remove all pale cyan glowing ribbons and gold star particles around woman and hands/feet. Keep exact human adult woman with TWO clearly readable BIRD TALON FEET, dress, lake, old bathhouse. Ordinary dusk light and natural lake mist, no emission.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/lauma-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-d35ccc8d-9339-46a5-92b4-ce96d69f1624.png",
+  "review_path": "data/gemini/reviews/batch-121.review.json",
+  "visual_requirements": [
+    "One adult humanlike woodland female spirit",
+    "Both feet visibly bird talons",
+    "No wings/goat features combined",
+    "Lakeside woodland and bathhouse, natural dusk only"
+  ],
+  "depicted_variant": "Human-like Lauma with bird feet, excludes alternative animal shapes and she-goat variants; dress and aura editorial.",
+  "basis_claim_ids": [
+    "lauma-c01",
+    "lauma-c02",
+    "lauma-c05",
+    "lauma-c06"
+  ],
+  "aura": "Quiet woodland-spirit presence through poised hands, bird talon feet, watchful gaze and atmospheric lake dusk.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected revised native contact: adult female, dress, hands, both bird talon feet and lakeside bathhouse preserved; cyan ribbons and particles removed.",
+    "reviewer": "aura-resume-0"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: adult woodland maiden retains two bird-clawed feet, modest dress and lake/bathhouse context. Physical gold leg scales in natural sunset; no magic light envelope."
+  },
+  "attempt_history": [
+    {
+      "slug": "lauma",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Baltic mythology encyclopedia illustration, stylized-concept. ONE LAUMA in documented human-like BIRD-FEET woodland-spirit variant. Adult female humanlike upper body and lovely uncanny human face, two arms, modest long woven woodland dress deliberately lifted clear of ankles so BOTH FEET are visibly BIRD TALONS with avian scaly ankles and claws, no human feet or shoes. One coherent fairy-spirit body, not ordinary human portrait, no wings or goat features combined from another variant. Dense Baltic lakeside forest and abandoned wooden bath-house behind, source setting. Unmistakably luminous pale blue-green supernatural wisps and floating gold particles curve around her hands, torso and taloned feet, benevolent yet powerful ancient fairy presence. Detailed bird claws, woven fibers, moss and mist, whole silhouette and feet clearly framed. Goat head/lower half excluded, no horns, no text or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/lauma.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-d35ccc8d-9339-46a5-92b4-ce96d69f1624.png",
+      "review_path": "data/gemini/reviews/batch-121.review.json",
+      "visual_requirements": [
+        "One adult humanlike woodland female spirit",
+        "Both feet visibly bird talons",
+        "No wings/goat features combined",
+        "Lakeside woodland with magical aura"
+      ],
+      "depicted_variant": "Human-like Lauma with bird feet, excludes alternative animal shapes and she-goat variants; dress and aura editorial.",
+      "basis_claim_ids": [
+        "lauma-c01",
+        "lauma-c02",
+        "lauma-c05",
+        "lauma-c06"
+      ],
+      "aura": "Pale blue-green luminous woodland wisps and floating gold particles.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: One adult humanlike female upper body with two visibly avian scaly taloned feet, modest woven dress lifted clear of ankles, lake/bath-house woodland, blue-green luminous energy wisps and gold particles. No wings or goat features. Costume, exact dimensions and aura are editorial, source claims support variant."
+      },
+      "reviewed_at": "2026-10-05T03:05:04.124Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Adult woodland woman with two visible bird-taloned feet, no wings, emitted green-gold wisps.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/lauma-verified.webp",
+      "sha256": "ce15d07e4bbe05e88d35bf38a90d67d9ff1f9fe07777c97b3941589bcbd870b5",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-d071bb8a-dca8-41bd-96e3-fa704e5294d1.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Unsupported cyan ribbons and golden emitted star particles removed from source female bird-foot form.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "lauma-c01",
+      "lauma-c02",
+      "lauma-c05",
+      "lauma-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/lauma.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/lauma.json"
+  }
+}

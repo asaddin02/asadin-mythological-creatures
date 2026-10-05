@@ -549,3 +549,28 @@ body { background:radial-gradient(ellipse at 75% 0,#70471f18,transparent 45%),ra
 @media(max-width:350px) {
  .royal-hero-copy h1 { font-size:37px; }.royal-hero-copy > p { font-size:11px; }.royal-hero-actions .btn { padding:12px 11px;font-size:9px;gap:8px; }.royal-discover-note { font-size:14px; }.royal-feature { max-width:100%;padding:17px;width:270px;margin-top:150px; }.royal-feature .gateway-art-name { font-size:36px; }.royal-gateway .hero-select { font-size:9px; }.royal-gateway .hero-selection { gap:10px; }.royal-stat strong { font-size:30px; }.royal-stat span { font-size:5px; }.section-title,.archive-browser .section-title,.comparison-view .section-title { font-size:37px; }.detail-view .detail-canonical-name { font-size:27px; }
 }
+
+/* Give every illustration its own fitted stage so heads and limbs stay visible. */
+.royal-gateway.gateway { height:auto;min-height:0;max-height:none; }
+.royal-gateway .royal-hero-body { display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:20px 60px;min-height:0;padding-block:42px; }
+.royal-hero-copy { grid-column:1;grid-row:1 / span 2;align-self:center; }
+.royal-visual { grid-column:2;grid-row:1;position:relative;isolation:isolate;width:100%;aspect-ratio:1;overflow:hidden;background:#171008;border:1px solid #c1995533;border-radius:4px; }
+.royal-visual .royal-background { z-index:0; }
+.royal-visual .royal-slide > .hero-art { inset:0;width:100%;height:100%;object-fit:contain;object-position:center;animation:none!important;transform:none!important; }
+.royal-visual .royal-scene-link { inset:0;z-index:2;pointer-events:auto; }
+.royal-gateway .royal-feature { grid-column:2;grid-row:2;width:100%;max-width:none;align-self:start;justify-self:stretch;margin:0;padding:18px 23px; }
+.royal-feature .gateway-art-name { font-size:34px; }
+.royal-feature .scale-badges { margin-top:14px; }
+.royal-feature .scale-badge { min-height:72px; }
+.creature-card .card-media img,.creature-card:hover .card-media img { object-fit:contain;object-position:center;transform:none; }
+.card-media { background:#19120b; }
+.dossier-art .detail-primary-img { object-fit:contain;object-position:center;transform:none; }
+.nusantara-art > img { object-fit:contain;object-position:center;transform:none; }
+@media(max-width:760px) {
+ .royal-gateway .royal-hero-body { grid-template-columns:minmax(0,1fr);gap:25px;padding-block:32px; }
+ .royal-hero-copy,.royal-visual,.royal-gateway .royal-feature { grid-column:1;grid-row:auto; }
+ .royal-hero-copy { max-width:none; }
+ .royal-visual { max-width:520px;justify-self:center; }
+ .royal-gateway .royal-feature { max-width:520px;justify-self:center; }
+ .dossier-art .detail-art-stage { aspect-ratio:1;min-height:0;height:auto; }
+}

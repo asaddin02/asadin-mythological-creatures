@@ -1,0 +1,88 @@
+{
+  "slug": "lugat",
+  "basis_claim_ids": [
+    "lugat-c02",
+    "lugat-c03",
+    "lugat-c04"
+  ],
+  "depicted_variant": "Albanian Lugat as terrifying humanlike revenant with corpse-like skin and long fingernails",
+  "visual_requirements": [
+    "Remove cyan magical ribbons, luminous motes, cyan body/ground glow and glowing eyes; preserve pale corpse-like human face, extremely long visible fingernails, original shroud coverage and hovering wind-riding pose (flight is source supported), hair wind movement and dark ruined arch. Wind stays ordinary air moving hair/shroud, no glowing streamlines. Frightening presence through upward stare, long claws and looming ruin.",
+    "No generic emitted wrapping; original counts and anatomy"
+  ],
+  "aura": "Pale looming revenant, long nails, wind-tossed hair and dark arch.",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove cyan magical ribbons, luminous motes, cyan body/ground glow and glowing eyes; preserve pale corpse-like human face, extremely long visible fingernails, original shroud coverage and hovering wind-riding pose (flight is source supported), hair wind movement and dark ruined arch. Wind stays ordinary air moving hair/shroud, no glowing streamlines. Frightening presence through upward stare, long claws and looming ruin. Preserve exact original anatomy, counts, scale and composition. No new subjects, nudity, gore, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-125.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/lugat-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-47b60e4d-6981-4945-8cca-fc5135c57d1a.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output actually inspected: cyan wrapping and motes gone; same corpse-like human revenant, long fingernails, shroud coverage, wind-tossed hair and dark arch preserved.",
+    "reviewer": "aura-resume-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: frightening adult revenant in concealing ragged burial cloth, long fingernails, windblown hovering pose within ruins. No emitted blue outline or cyan magical vapor; pale physical face retained."
+  },
+  "attempt_history": [
+    {
+      "slug": "lugat",
+      "basis_claim_ids": [
+        "lugat-c02",
+        "lugat-c03",
+        "lugat-c04"
+      ],
+      "depicted_variant": "Albanian Lugat as terrifying humanlike revenant with corpse-like skin and long fingernails",
+      "visual_requirements": [
+        "Humanlike undead figure with frightening face",
+        "Very long fingernails clearly visible",
+        "Dark cave or ruin habitat and wind-riding spectral aura"
+      ],
+      "aura": "Ominous blue-green luminous death wisps and spiraling haunted wind",
+      "prompt": "Depict LUGAT, Albanian vampire-like revenant, as one terrifying humanlike adult undead figure at an ancient dark ruin's doorway. Corpse-like dry pale skin, profoundly frightening gaunt face and TWO hands with clearly VERY LONG FINGERNAILS. Modest worn opaque burial cloth fully covers torso and lower body; no exposed corpse wounds. The figure seems lifted slightly in a spiraling wind, supported by intense blue-green supernatural death wisps that emit around the silhouette and luminous ghost particles against deep sunless darkness. Severe wide-eyed predatory expression, unnerving chiaroscuro, maximum non-graphic horror. No invented horns, wings, canine fangs, bat body, exposed organs or victims. ONE square premium detailed painterly mythology encyclopedia illustration, complete identifying silhouette inside frame. No captions, letters, decorative frame, watermark, gore, sexual scene or victims.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-125.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/lugat.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-47b60e4d-6981-4945-8cca-fc5135c57d1a.png",
+      "reviewed_at": "2026-10-05T03:06:05.238Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed frightening pale dry corpse-like human revenant in modest worn burial cloth, two hands with conspicuously long curved fingernails, lifted within windlike turquoise death wisps at a ruin doorway. Bright emitted energy and ghost particles make the horror aura explicit. No wounds, horns, wings or invented bat form."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Humanlike revenant with clearly elongated fingernails and terrifying face, teal spectral wind aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/lugat-verified.webp",
+      "sha256": "e66060f823b5acb657d760b338385106e7a917d62fb3ecafc60a29e6920c7272",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-8f994a4f-0d7c-4afe-af31-2364f08308da.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Wind-riding supports flight, not cyan energy wrapping.",
+    "allowed_magic": "Source c03 supports flying/riding wind; no light wrapping",
+    "source_basis_claim_ids": [
+      "lugat-c02",
+      "lugat-c03",
+      "lugat-c04"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/lugat.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/lugat.json"
+  }
+}

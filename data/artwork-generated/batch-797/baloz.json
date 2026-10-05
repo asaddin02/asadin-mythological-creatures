@@ -1,0 +1,90 @@
+{
+  "slug": "baloz",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: precise-object-edit. Input image 1 is the sole edit target. Change only excessive aura effects while preserving character/source traits. Remove all cyan energy ribbons around both arms/body, turquoise emitted glow and floating rock fragments. Preserve identical evil male humanoid giant emerging from the sea, face, rugged warrior clothes, TWO arms, giant size, waves, fortress/tree size references, coastal setting and composition. Use only natural storm/sunset light and physical spray. Terror comes from enormous looming presence and angry face, not cyan magic. No text, watermark, new characters or objects.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/baloz-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-3da16fb3-8858-4f4f-b8e5-cc8ea43722f5.png",
+  "review_path": "data/gemini/reviews/batch-124.review.json",
+  "visual_requirements": [
+    "Same evil humanoid giant emerging from sea",
+    "Preserve face, two arms, rugged clothes, fortress/tree reference scale",
+    "No cyan emitted arm ribbons, glow or levitating rocks"
+  ],
+  "depicted_variant": "Baloz evil giant from sea per c06, excludes unsupported sea-monster anatomy; warrior clothes and aura editorial.",
+  "basis_claim_ids": [
+    "baloz-c01",
+    "baloz-c06",
+    "baloz-c09"
+  ],
+  "aura": "Menacing giant emerging through real sea spray, storm sunset and coast/fortress scale.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native output: giant face/body/clothes and coastal scale preserved. Cyan energy and floating rocks gone; ordinary wave spray, storm clouds and sunset carry menace.",
+    "reviewer": "root"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "aura-resume-0",
+    "reviewed_at": "2026-10-05",
+    "notes": "Independently inspected revised image: immense coherent human giant emerging from natural sea waves; cyan energy ribbons absent, no levitating debris. Environmental fortress and coast convey source giant scale, storm lightning stays in background."
+  },
+  "attempt_history": [
+    {
+      "slug": "baloz",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Albanian folklore mythology artwork, stylized-concept. ONE BALOZ in explicitly documented EVIL GIANT variant, coming from the sea to threaten Albanian shore. Enormous human-shaped adult male giant, two arms two legs, fierce humanlike weathered face, coarse dark medieval warrior clothing is editorial interpretation of folkloric antagonist. Stand waist-deep in storm surf then stride toward rocky coast, body so huge that full-grown coastal trees and an ordinary shore fortress are dwarfed beneath him, maximum awe-inspiring giant scale shown through landscape references. Terrifying malevolent atmosphere, unmistakably luminous deep teal spectral energy wisps coil around huge arms and shoulders, black-red floating magic particles and sea spray, dramatic thunder-dark Adriatic sky. No invented sea-serpent anatomy, no multiple heads, no horns or wings; choose giant interpretation not uncertain sea-monster alternative. No human victims, no gore, no text, no watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/baloz.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-3da16fb3-8858-4f4f-b8e5-cc8ea43722f5.png",
+      "review_path": "data/gemini/reviews/batch-124.review.json",
+      "visual_requirements": [
+        "One evil humanoid giant",
+        "Emerges from sea to Albanian coast",
+        "Trees and fortress establish enormous scale",
+        "Terrifying visible supernatural aura"
+      ],
+      "depicted_variant": "Baloz evil giant from sea per c06, excludes unsupported sea-monster anatomy; warrior clothes and aura editorial.",
+      "basis_claim_ids": [
+        "baloz-c01",
+        "baloz-c06",
+        "baloz-c09"
+      ],
+      "aura": "Deep teal luminous sea wisps and black-red magical particles.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: One immense human-shaped evil giant strides from sea toward shore fortress, two arms and humanlike face, dwarfs coast trees and buildings; bright teal energy wisps emitted around arms, black-red particles. No sea-serpent variant conflation. Costume, exact dimensions and aura are editorial, source claims support variant."
+      },
+      "reviewed_at": "2026-10-05T03:05:03.743Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Human-shaped evil sea giant dwarfs coastal fortress, coherent limbs and visible teal supernatural wisps.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/baloz-verified.webp",
+      "sha256": "e827f0fab519f46954b100d7ac7dc836e78c1f8788a3c0e42c1735b7bbc9375d",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-cdf9faa7-f609-4319-a04c-d66be411ecfb.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Cyan emitted arm/body ribbons and levitating debris removed.",
+    "allowed_magic": "none; sea storm is scene atmosphere.",
+    "source_basis_claim_ids": [
+      "baloz-c01",
+      "baloz-c06",
+      "baloz-c09"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/baloz.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/baloz.json"
+  }
+}

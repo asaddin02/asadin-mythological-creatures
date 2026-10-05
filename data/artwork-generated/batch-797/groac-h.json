@@ -1,0 +1,92 @@
+{
+  "slug": "groac-h",
+  "basis_claim_ids": [
+    "groac-h-c01",
+    "groac-h-c02",
+    "groac-h-c07",
+    "groac-h-c11"
+  ],
+  "depicted_variant": "Old Breton water fairy with walrus teeth",
+  "visual_requirements": [
+    "Elderly female humanlike crone with EXACTLY TWO downward walrus tusks, fully covered aged greenrobes and shawl, twoarms/twolegs.",
+    "Character presence from pose, framing and natural scene light; no generic magical envelope."
+  ],
+  "aura": "Hostile ancient crone in dark coastal cave with naturally lit water.",
+  "prompt": "Edit this existing mythological artwork to replace generic magical AURA with CHARACTER PRESENCE. REMOVE ALL emitted wisps, neon outlines, halos, energy ribbons, glowing particles/sparks and luminous colored fog from body and environment. Remove glowing eyes; retain normal natural eyes/reflections. Make waterfall natural water, no emitted water glow. No new magic/fireflies. Presence: Hostile ancient crone in dark coastal cave with naturally lit water. Preserve EXACT anatomy/counts/scale, subject pose, scene and modest clothing. Invariants: Elderly female humanlike crone with EXACTLY TWO downward walrus tusks, fully covered aged greenrobes and shawl, twoarms/twolegs. Ordinary natural scene light only, detailed painterly realism, no text/watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-130.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/groac-h-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-26b73b4a-89f9-4a0c-a2b9-005f105a6445.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actual new output inspected in five-image contact sheet: no emitted energy ribbons/particles, natural scene light; Bodach grey old man, Caipora hairy guardian, Donas two cat-paw feet, Duppy EXACTLY THREE countable hoofed legs, Groac'h two downward walrus tusks retained. Source form, scale and adult modest clothing intact.",
+    "reviewer": "worker-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: old crone with walrus tusks in modest green robes inside sea cave, natural spray and moonlight. No green energy emissions."
+  },
+  "attempt_history": [
+    {
+      "slug": "groac-h",
+      "basis_claim_ids": [
+        "groac-h-c01",
+        "groac-h-c02",
+        "groac-h-c07",
+        "groac-h-c11"
+      ],
+      "depicted_variant": "Old Breton water fairy with walrus teeth",
+      "visual_requirements": [
+        "Elderly female water fairy",
+        "Two downward walrus canine tusks",
+        "Modest old robes",
+        "Water-side cave"
+      ],
+      "aura": "Blue-green luminous water wisps",
+      "prompt": "Depict a Groac'h of Breton folklore as an ancient female water fairy, a wrinkled crone with TWO long downward walrus-like canine tusks protruding from the mouth. Preserve a coherent old humanlike female face with those source-documented tusks, two arms and two legs, no horns, wings, fins or additional limbs. Fully covered by aged dark green modest robes and shawl, standing at a spring-fed cave beside dark coastal water. Her hateful stare and immense age are frightening. Luminous turquoise-green magical water wisps and radiating particles visibly emerge around her hands and body, casting uncanny glow upon her skin and the cave. Full creature inside frame; no seductive pose. Square premium dark-fantasy encyclopedia illustration, highly detailed painterly realism, one coherent creature, entire identifying silhouette inside frame, clear anatomy, dramatic atmosphere. Explicit emitted magical aura, not merely ambient light. No text, caption, border, watermark, gore, victims, or sexual elements.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-130.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/groac-h.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-26b73b4a-89f9-4a0c-a2b9-005f105a6445.png",
+      "reviewed_at": "2026-10-05T03:22:39.141Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: fully robed ancient female water fairy with exactly two downward walrus-like tusks, blue-green emitted water aura at a coastal spring cave."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Elderly clothed female water fairy with two clearly visible downward walrus tusks, emitted teal wisps at coastal cave.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/groac-h-verified.webp",
+      "sha256": "9122478d7835195c8bbe65fc67624dd0fde8e5e38ad3d534dbf9086c2bd1732e",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-090012c4-1f12-4bd2-a3c1-6151c6920dc4.png",
+  "revision_generator": "worker-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-1",
+    "rationale": "Turquoise hand/body ribbons, particles and luminous waterfall unsupported by generic nature power.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "groac-h-c01",
+      "groac-h-c02",
+      "groac-h-c07",
+      "groac-h-c11"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/groac-h.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/groac-h.json"
+  }
+}

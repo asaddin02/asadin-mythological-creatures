@@ -1,0 +1,30 @@
+{
+  "slug": "yama-uba",
+  "prompt": "One square detailed painterly naturalistic encyclopedia illustration of Yama-uba, the Japanese mountain witch. Choose the frightening OLD WOMAN variant with disheveled hair and ragged clothes, not the beautiful maternal variant. A single elderly human-shaped woman with deeply wrinkled face, wild long gray-black tangled hair, ragged worn Japanese robe, bony two hands and bare weathered feet stands hunched on a forested steep mountain path near an old wooden hut. Her intense watchful eyes, sly threatening grimace and shadowed gaunt face create frightening predatory supernatural presence. Dusk mountain fog and cold moonlight, unnerving rural isolation. Full figure comfortably framed with margins, hands and feet clearly visible, natural human anatomy. No horns, no bat wings, no extra mouth, no monster limbs, no invented weapons or jewelry, no blood or injury, no travelers or children. Atmospheric folklore horror, no cute style, no text or watermark.",
+  "visual_requirements": [
+    "Single old mountain woman",
+    "Disheveled hair and ragged Japanese clothes",
+    "Mountain path and hut setting",
+    "Frightening predatory variant aura"
+  ],
+  "depicted_variant": "Frightening elderly mountain woman with disheveled hair and ragged clothes",
+  "basis_claim_ids": [
+    "yama-uba-c01",
+    "yama-uba-c02",
+    "yama-uba-c04",
+    "yama-uba-c08",
+    "yama-uba-c09"
+  ],
+  "aura": "frightening threatening mountain witch",
+  "worker": "worker-1",
+  "original_file": "/home/asadin/.codex/generated_images/01a1027b-a981-7740-919f-fedd3124720e/exec-6a454c7c-cfde-4dff-abc9-0158545a744f.png",
+  "review_path": "data/gemini/reviews/batch-049.review.json",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Human old woman or hag with two arms and two legs; dramatic face and hair do not create distinctly nonhuman anatomy."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-1.json"
+}

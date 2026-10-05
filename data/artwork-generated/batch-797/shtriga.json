@@ -1,0 +1,86 @@
+{
+  "slug": "shtriga",
+  "basis_claim_ids": [
+    "shtriga-c01",
+    "shtriga-c02"
+  ],
+  "depicted_variant": "Hateful-eyed caped elderly Albanian witch",
+  "visual_requirements": [
+    "Remove crimson/magenta emitted ribbons, finger lightning, body envelope, motes and glowing eye color. General witch powers do not justify generic wrapping. Preserve same elderly woman, hateful gaze, disfigured wrinkled face without wounds, long dark cape coverage, two hands, threatening hand pose and dark forest. Natural eyes, natural cold moonlight; no new effects.",
+    "No generic emitted wrapping; preserve original anatomy and counts"
+  ],
+  "aura": "Elderly hateful gaze and threatening raised hand in dark forest.",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove crimson/magenta emitted ribbons, finger lightning, body envelope, motes and glowing eye color. General witch powers do not justify generic wrapping. Preserve same elderly woman, hateful gaze, disfigured wrinkled face without wounds, long dark cape coverage, two hands, threatening hand pose and dark forest. Natural eyes, natural cold moonlight; no new effects. Preserve original composition, anatomy, count, size and identity. No added subjects, nudity, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-123.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/shtriga-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-ba50a300-a3e5-4995-b54e-03f66d21f474.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native edited output actually inspected: same elderly wrinkled witch, hateful gaze, cape and threatening hand gesture; red/magenta effects gone.",
+    "reviewer": "aura-resume-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: ugly old witch with disfigured face under dark robe in forest. Hatred conveyed by expression/hands, ordinary moonlight only; colored wrapping removed."
+  },
+  "attempt_history": [
+    {
+      "slug": "shtriga",
+      "basis_claim_ids": [
+        "shtriga-c01",
+        "shtriga-c02"
+      ],
+      "depicted_variant": "Hateful-eyed caped elderly Albanian witch",
+      "visual_requirements": [
+        "Old female witch",
+        "Hateful eyes and disfigured face without wounds",
+        "Cape",
+        "Forest setting"
+      ],
+      "aura": "Crimson-violet magical wisps",
+      "prompt": "Depict a Shtriga of Albanian folklore in her documented woman form: an elderly caped witch with hateful staring eyes and an unsettling asymmetric, misshapen old face, without wounds or gore. Fully clothed in dark layered robes and a worn hooded cape, two humanlike arms and legs, no horns, fangs, wings, animal ears or invented body parts. Alone in an oppressive dense Albanian forest at night. Pallid skin subtly lit from within; strong crimson-violet supernatural wisps and glowing motes visibly stream from her body and fingers into the trees. The emitted aura and ominous expression make her clearly a mythological witch. Terrifying atmosphere; no children, victims, feeding or attacks. Square premium dark-fantasy encyclopedia illustration, highly detailed painterly realism, one coherent creature, entire identifying silhouette inside frame, clear anatomy, dramatic atmosphere. Explicit emitted magical aura, not merely ambient light. No text, caption, border, watermark, gore, victims, or sexual elements.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-123.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/shtriga.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-ba50a300-a3e5-4995-b54e-03f66d21f474.png",
+      "reviewed_at": "2026-10-05T03:22:39.553Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: caped elderly witch with hateful eyes, asymmetric wrinkled face and crimson-violet emitted aura; fully covered, alone in forest."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Old caped female witch with hateful eyes and disfigured non-graphic face, intense emitted crimson aura in forest.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/shtriga-verified.webp",
+      "sha256": "e012e1b68687bd557e08811a5c1cb23257a696491ae69df520d3f72957831563",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-80db2dcf-6105-4dec-a209-4504df558c40.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Generic witch powers do not specifically support red emitted magic wrapping.",
+    "allowed_magic": "none beyond documented manifestation",
+    "source_basis_claim_ids": [
+      "shtriga-c01",
+      "shtriga-c02"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/shtriga.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/shtriga.json"
+  }
+}

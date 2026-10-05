@@ -1,0 +1,87 @@
+{
+  "slug": "xeglun",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: precise-object-edit. Input image 1 is the edit target, Xeglun the celestial elk. Remove ONLY the decorative magical aura: all luminous spiral filaments, bright star-like particles floating beside or on the body and antlers, artificial gold outlines and emitted hoof glow. Reconstruct clean natural elk fur, ordinary solid antlers, and rock/snow where those overlays were. Preserve the same elk identity, face, posture, antler geometry, exactly four hoofed legs, proportions, landscape and square composition. Keep the distant night sky, stars and natural aurora in the SKY; celestial dignity comes from the low camera angle, noble pose and expansive sky, not effects wrapped around the elk. Use moonlight and ambient sky illumination with natural fur reflections, no self-emission. Source supports a celestial elk, not glittering anatomy. Keep painterly realism, fine detail, no text, no added objects or characters.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/xeglun-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-48c09894-2d2b-4155-8384-a05e031dc34d.png",
+  "review_path": "data/gemini/reviews/batch-152.review.json",
+  "visual_requirements": [
+    "One celestial elk with antlers and exactly four hoofed legs",
+    "Preserve identity, pose and proportions; no hybrid anatomy or invented giant size",
+    "Distant celestial sky retained; no luminous filaments, particles or self-emitted body outline"
+  ],
+  "depicted_variant": "Source-attested celestial elk Xeglun; coat, star particles and dream landscape editorial.",
+  "basis_claim_ids": [
+    "xeglun-c01",
+    "xeglun-c03"
+  ],
+  "aura": "Dignified elk posture, low viewpoint and expansive night sky, with natural moonlight on fur.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected edited native output: all magical body ribbons, bright star overlays and hoof glow removed. Solid antlers, natural fur, four hoofed legs and original dignified pose retained; stars and aurora confined to distant sky.",
+    "reviewer": "root"
+  },
+  "reviewed_at": "2026-10-05T05:26:42.058652+00:00",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-0",
+    "reviewed_at": "2026-10-05T05:26:42.058652+00:00",
+    "notes": "Actually viewed native: elk antlers/4leg body preserved, luminous body filaments removed. Natural starlit sky/aurora backdrop separate from body, no emitted envelope."
+  },
+  "attempt_history": [
+    {
+      "slug": "xeglun",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Tungusic mythology encyclopedia illustration, stylized-concept. ONE XEGLUN, source-attested CELESTIAL ELK. One majestic coherent elk with broad palmate antlers, elongated equine-like elk muzzle, four hoofed legs, mammal body and small tail, no human face. Stand in a dreamlike northern celestial night landscape with sky and earth merging. Unmistakably luminous star-silver supernatural energy wisps and many suspended glowing particles wrap around entire elk silhouette, emitted stars trace antlers and silver light glows at hooves. Appearance remains recognizable elk rather than invented hybrid, exact coat and celestial staging editorial. Dominant noble magical presence, luminous Milky Way haze, detailed naturalistic fur and antlers. Do not assert mountain-size unsupported by source; rocks and trees preserve elk-like scale. No wings, no extra heads or limbs, no text or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/xeglun.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-48c09894-2d2b-4155-8384-a05e031dc34d.png",
+      "review_path": "data/gemini/reviews/batch-152.review.json",
+      "visual_requirements": [
+        "One celestial elk/antlered ungulate with four hoofed legs",
+        "No invented hybrid anatomy",
+        "Unmistakable celestial aura",
+        "No invented mountain-size claim"
+      ],
+      "depicted_variant": "Source-attested celestial elk Xeglun; coat, star particles and dream landscape editorial.",
+      "basis_claim_ids": [
+        "xeglun-c01",
+        "xeglun-c03"
+      ],
+      "aura": "Star-silver luminous wisps and celestial particles around elk and antlers.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: One coherent celestial elk/deer-like ungulate with large antlers, elongated muzzle, four hoofed legs and mammal body, star-silver luminous spirals and star particles around antlers/body. No invented hybrid or wings; exact species/coat and sky staging editorial. Costume, exact dimensions and aura are editorial, source claims support variant."
+      },
+      "reviewed_at": "2026-10-05T03:05:02.929Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Four-legged antlered celestial elk with clear emitted star wisps, coherent mammal anatomy.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/xeglun-verified.webp",
+      "sha256": "f715e4bcb574b309fc39d5030effd66a2827477edfe46caa72d12dd5d867dcdd",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-09c67a88-6e22-461a-aa81-2175533c5bb7.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Original elk had gold filaments and star particles wrapped around antlers, torso and hooves, unsupported by the celestial-elk source.",
+    "allowed_magic": "Celestial setting retained as stars and distant sky aurora, no emitted body aura.",
+    "source_basis_claim_ids": [
+      "xeglun-c01",
+      "xeglun-c03"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/xeglun.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/xeglun.json"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "slavic-dragon",
+  "worker": "worker-0",
+  "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic mythology encyclopedia illustration: Slavic dragon, selecting the general flying winged SERPENT form, ONE reptilian snake head, long scaled serpentine body and two broad membranous wings, no legs. The serpent coils above a dark Slavic river, its tail dipping into the water amid swirling mist, storm clouds and rain. Readable entire silhouette with generous margins, detailed scales, physically convincing wings. Mythical aura of weather and water mastery suggested through storm turbulence and a subtle cold rim glow, awe and looming danger. The atmosphere and glow are artistic interpretation rather than extra anatomical claims. No human form, extra heads, arms, fire, crown, armor, text, watermark, border or collage.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/slavic-dragon.png",
+  "depicted_variant": "General single-headed winged-serpent dragon form, excluding regional multihead and human variants",
+  "basis_claim_ids": [
+    "slavic-dragon-c01",
+    "slavic-dragon-c02",
+    "slavic-dragon-c05",
+    "slavic-dragon-c09"
+  ],
+  "aura": "Majesty through massive winged-serpent silhouette and violent storm over lake.",
+  "visual_requirements": [
+    "one snake-like head",
+    "long serpentine body and paired wings",
+    "Preserve existing source anatomy, count, scale and modest framing.",
+    "Character presence through pose, composition, atmosphere and natural scene lighting; no generic emitted aura.",
+    "Storm/weather and tail lake siphoning supported c05/c09; no emitted aura."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected full original with view_image. Rain/clouds and natural lightning lighting, no emitted body envelope observed; source weather/water mastery and lake-siphoning tail support selected scene.",
+    "reviewer": "worker-0"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-121.review.json",
+  "workspace_original_file": "data/artwork-generated/batch-797/originals/slavic-dragon.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-c48aa25d-381d-4bff-8ef6-13077f3c867b.png",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected contact image: solid winged serpentine dragon with tail dipping into lake, storm clouds and distant lightning. No emitted neon outline or magic spiral. Weather and water mastery source c05/c09 warrant this scene."
+  },
+  "aura_policy_history": [
+    {
+      "aura": "storm and water mastery, ominous mythical majesty",
+      "visual_requirements": [
+        "one snake-like head",
+        "long serpentine body and paired wings",
+        "storm-water aura, full silhouette"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: one snake-like reptilian head, long coiled scaled serpent body, two membranous wings, no legs; tail reaches river under storm clouds and mist. Wing tips meet frame edges but identifying anatomy is clear. Storm/water aura is artistic; scale coloring and wing texture unspecified in source."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: single serpent head, long coiling limbless body, two membranous wings, immense stormy river setting; source winged-serpent variant preserved.",
+        "reviewed_at": "2026-10-05"
+      }
+    }
+  ],
+  "aura_revision": {
+    "decision": "keep",
+    "reviewer": "worker-0",
+    "rationale": "Rain/clouds and natural lightning lighting, no emitted body envelope observed; source weather/water mastery and lake-siphoning tail support selected scene.",
+    "allowed_magic": "Storm/weather and tail lake siphoning supported c05/c09; no emitted aura.",
+    "source_basis_claim_ids": [
+      "slavic-dragon-c01",
+      "slavic-dragon-c02",
+      "slavic-dragon-c05",
+      "slavic-dragon-c09"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/slavic-dragon.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/slavic-dragon.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

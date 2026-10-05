@@ -1,0 +1,30 @@
+{
+  "slug": "strigoi",
+  "reviewer": "finish_aura_b",
+  "decision": "revise",
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-3e04e01b-2fda-4784-9102-00555b5f7243.png",
+  "rationale": "The source supports a grave-risen revenant and a bald crown, but does not support emitted red/white light.",
+  "allowed_magic": "None visible; ordinary gray cemetery mist only.",
+  "aura": "Dread through gaunt bald crown, downcast stare, approaching posture, elevated camera and dark graveyard.",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove red-white luminous energy wisps, emitted body outline and red ground light. Preserve visibly BALD CROWN, adult human revenant face, natural anatomy, clothing coverage, exact walking pose, no generic vampire fangs, Romanian graveyard/village. Neutral ordinary ground mist only. Presence through bald gaunt head, downward stare and approaching posture. Preserve original composition, count, exact scale and identity. No added subjects, nudity, gore, text or watermark.",
+  "visual_requirements": [
+    "Clearly visible bald crown with sparse side hair.",
+    "Preserve adult human revenant anatomy, rural clothing, exact approaching pose and graveyard.",
+    "No red-white energy wisps or glowing ground; no added fangs or Dracula costume."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected source and recovered native edit: bald crown, sparse side hair, gaunt face, complete opaque rural clothes, human hands/legs, grave and village remain. Red/white emitted energy and glowing ground are removed; restrained ordinary gray mist and dark approaching posture create menace."
+  },
+  "recovered_from_session": "rollout-2026-10-05T14-44-48-01a10b05-be4c-74c0-8109-513d2abf724e.jsonl",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/strigoi.png",
+  "source_basis_claim_ids": [
+    "strigoi-c01",
+    "strigoi-c09",
+    "strigoi-c11",
+    "strigoi-c13"
+  ],
+  "status": "reviewed",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/aura-revision-797/originals/strigoi.png",
+  "tool": "OpenAI built-in image_gen"
+}

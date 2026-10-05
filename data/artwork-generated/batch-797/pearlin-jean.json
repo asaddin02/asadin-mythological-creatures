@@ -1,0 +1,87 @@
+{
+  "slug": "pearlin-jean",
+  "worker": "worker-0",
+  "prompt": "Edit the provided square painterly mythology artwork to follow its documented physical manifestation. Preserve ONE skeleton ghost fully clothed/covered in pearlin lace gown and veil at old courtyard door, visible skull and skeletal hands. Remove ALL blue energy ribbons, glowing lace, body halo and luminous floor mist. Subtle nonluminous ghost translucency permitted in lace, ordinary moonlight with warm doorway light. No blood, no added flesh. Preserve painterly naturalistic quality and square composition. No text, border or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/pearlin-jean-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-45f72b0a-875c-4c1c-b8d9-689ddd64643c.png",
+  "depicted_variant": "Later skeletal Pearlin-lace ghost of Allanbank, non-graphic",
+  "basis_claim_ids": [
+    "pearlin-jean-c01",
+    "pearlin-jean-c02",
+    "pearlin-jean-c05"
+  ],
+  "aura": "Character presence through pose, framing, atmosphere and natural light",
+  "visual_requirements": [
+    "Skeleton apparition in pearlin lace at courtyard door, no radiance",
+    "No generic emitted aura, neon halo, magic particles or luminous vapor"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native: skeleton apparition covered in pearlin lace gown and veil at courtyard door, visible skull and skeletal hands, normal moon/window lighting; no blue halo or luminous lace.",
+    "reviewer": "root"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-118.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "finish_aura_b",
+    "reviewed_at": "2026-10-05",
+    "notes": "Independently inspected selected full-resolution native image and source basis: one skeleton apparition covered in pearlin lace gown and veil at courtyard doorway, visible skull and coherent skeletal hands. Lace reads as naturally moonlit material with warm candle/door illumination; no blue energy ribbons, glowing outline or luminous floor mist. Still pose and dark courtyard create haunting presence."
+  },
+  "attempt_history": [
+    {
+      "slug": "pearlin-jean",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square terrifying detailed painterly naturalistic mythology illustration of PEARLIN JEAN, Scottish Allanbank Courtyard ghost, selecting LATER SKELETON COVERED IN PEARLIN LACE variant rather than early blood-covered woman. ONE non-graphic HUMAN SKELETON apparition in a full modest old pale lace gown and lace veil, skull and skeletal hands visible, clothes cover torso/pelvis. Full figure stands beside open old courtyard doorway/window at night, source haunting association. Clearly luminous pearl-blue spectral wisps RADIATE FROM BODY and lace, illuminating stone, dreadful haunted-courtyard aura artistic. No blood, flesh wounds, carriage accident, victim, horns, wings, extra limbs, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/pearlin-jean.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-45f72b0a-875c-4c1c-b8d9-689ddd64643c.png",
+      "depicted_variant": "Later skeletal Pearlin-lace ghost of Allanbank, non-graphic",
+      "basis_claim_ids": [
+        "pearlin-jean-c01",
+        "pearlin-jean-c02",
+        "pearlin-jean-c05"
+      ],
+      "aura": "terrifying Scottish skeletal lace apparition radiance",
+      "visual_requirements": [
+        "human skeleton ghost covered in pearlin lace",
+        "old courtyard doorway",
+        "no blood-covered early variant mixture"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected native: later source skeleton ghost with skull and skeletal hands, pearlin lace gown and veil at courtyard doorway, obvious pearl-blue emitted aura. Non-graphic, no early blood-covered variant mixing."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-118.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Human skeleton ghost covered by pearlin lace in old courtyard, no bloody variant mixing, emitted blue aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/pearlin-jean-verified.webp",
+      "sha256": "aff58246e521cb3eedca6b86dfd1a9d80318efec374e7b9f41a61730418d03f3",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-1f7a2856-2aad-48e1-a711-68d41694a39d.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Original has generic emitted magical wrapping unsupported by selected documented depiction; use physical presence and natural scene lighting.",
+    "allowed_magic": "Only subtle nonluminous source-supported apparition transparency",
+    "source_basis_claim_ids": [
+      "pearlin-jean-c01",
+      "pearlin-jean-c02",
+      "pearlin-jean-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/pearlin-jean.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/pearlin-jean.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

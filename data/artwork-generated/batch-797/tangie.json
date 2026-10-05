@@ -1,0 +1,89 @@
+{
+  "slug": "tangie",
+  "basis_claim_ids": [
+    "tangie-c01",
+    "tangie-c02",
+    "tangie-c03"
+  ],
+  "depicted_variant": "Sea spirit in seaweed-covered horse form",
+  "visual_requirements": [
+    "Remove cyan body energy loops, glowing motes and luminous eye. Preserve same single horse, four legs, one tail, Fucus seaweed covering, wet textures, exact stance, scale and Orkney/Shetland storm coastline. Ordinary equine eye with natural catchlight and ordinary sea spray. Menace through looming stance and surf.",
+    "No generic emitted wrapping; preserve original anatomy and counts"
+  ],
+  "aura": "Seaweed-draped horse towering at stormy shore.",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove cyan body energy loops, glowing motes and luminous eye. Preserve same single horse, four legs, one tail, Fucus seaweed covering, wet textures, exact stance, scale and Orkney/Shetland storm coastline. Ordinary equine eye with natural catchlight and ordinary sea spray. Menace through looming stance and surf. Preserve original composition, anatomy, count, size and identity. No added subjects, nudity, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-117.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/tangie-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-88233076-19ac-46af-a82d-89d42d6a94fc.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native edited output actually inspected: same seaweed-covered horse, four legs and single tail in surf; cyan loops, motes and glowing eye gone.",
+    "reviewer": "aura-resume-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: solid horse fully covered in physical Fucus seaweed on rocky coast. Ordinary sea spray/cloud light, no cyan emitted fog."
+  },
+  "attempt_history": [
+    {
+      "slug": "tangie",
+      "basis_claim_ids": [
+        "tangie-c01",
+        "tangie-c02",
+        "tangie-c03"
+      ],
+      "depicted_variant": "Sea spirit in seaweed-covered horse form",
+      "visual_requirements": [
+        "Natural four-legged horse body",
+        "Fucus seaweed covering",
+        "One horse tail",
+        "Orkney or Shetland coastline"
+      ],
+      "aura": "Luminous blue-green sea-spirit tendrils",
+      "prompt": "Depict the Tangie sea spirit of Orkney and Shetland in the documented HORSE form, a powerful natural horse with four legs, normal equine head and one tail, its wet body, mane and tail heavily draped in branching Fucus seaweed. Standing alone on a stormy rocky North Atlantic shore, full silhouette visible. No fish tail, humanoid torso, horns, wings, extra limbs or monstrous teeth. Make the eyes subtly uncanny and radiate unmistakable cold turquoise-blue magical tendrils and glowing briny particles from the seaweed-covered body, showing the horse is a terrifying supernatural sea spirit. Violent sea and dark cliffs enhance the haunted mood; horse size remains plausible, not a mountain-sized giant. Square premium dark-fantasy encyclopedia illustration, highly detailed painterly realism, one coherent creature, entire identifying silhouette inside frame, clear anatomy, dramatic atmosphere. Explicit emitted magical aura, not merely ambient light. No text, caption, border, watermark, gore, victims, or sexual elements.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-117.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/tangie.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-88233076-19ac-46af-a82d-89d42d6a94fc.png",
+      "reviewed_at": "2026-10-05T03:22:39.743Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: coherent natural horse covered with branching seaweed, four-legged equine silhouette and turquoise emitted sea-spirit wisps; no hybrid or additional anatomy."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Coherent four-legged horse covered by seaweed, one tail, rocky island coastline and emitted turquoise wisps.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/tangie-verified.webp",
+      "sha256": "ab5e43879a6a9525bf0f0cbf02fb81cd650cbb747f5c53c8f68b2175cd888e04",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-0f622391-ef72-4c86-882c-9d5c41994186.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Seaweed-covered shapechanging horse has no documented cyan emission.",
+    "allowed_magic": "none beyond documented manifestation",
+    "source_basis_claim_ids": [
+      "tangie-c01",
+      "tangie-c02",
+      "tangie-c03"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/tangie.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/tangie.json"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "madam-pigott",
+  "basis_claim_ids": [
+    "madam-pigott-c01",
+    "madam-pigott-c09",
+    "madam-pigott-c11"
+  ],
+  "depicted_variant": "White Lady ghost Madam Pigott with her black cat in a high-banked Chetwynd lane",
+  "visual_requirements": [
+    "Remove generic white energy ribbons swirling outside the White Lady and cat, floating magical sparkles and luminous body contour. Retain pale spectral female ghost identity with subtle restrained ghost pallor, her same face, pose, long white clothing coverage, single black cat, same steep high-banked wet lane and moon. No ribbons, sparks or emitted wrapping. Horror through severe stare, isolated lane, dark banks and moonlight.",
+    "No generic emitted magical wrapping; preserve original anatomy, counts and scale"
+  ],
+  "aura": "Oppressive White Lady stare, black cat and steep moonlit lane.",
+  "prompt": "Use case: precise-object-edit. Edit target supplied mythology artwork. Remove generic white energy ribbons swirling outside the White Lady and cat, floating magical sparkles and luminous body contour. Retain pale spectral female ghost identity with subtle restrained ghost pallor, her same face, pose, long white clothing coverage, single black cat, same steep high-banked wet lane and moon. No ribbons, sparks or emitted wrapping. Horror through severe stare, isolated lane, dark banks and moonlight. Preserve original framing, subject count, exact scale and anatomy; no new objects, nudity, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-120.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/madam-pigott-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-c75d7604-f64c-448f-b9b1-51fe105695f9.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output actually inspected: same white-clad pale female ghost and one black cat in steep lane; swirling white ribbons and sparkling envelope removed, moonlight and pallor retained.",
+    "reviewer": "aura-resume-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: modest white-dressed ghost with black cat in steep dark lane. Pale moonlight on fabric, no luminous ribbons or glowing vapor."
+  },
+  "attempt_history": [
+    {
+      "slug": "madam-pigott",
+      "basis_claim_ids": [
+        "madam-pigott-c01",
+        "madam-pigott-c09",
+        "madam-pigott-c11"
+      ],
+      "depicted_variant": "White Lady ghost Madam Pigott with her black cat in a high-banked Chetwynd lane",
+      "visual_requirements": [
+        "Adult white-clad female ghost",
+        "Black cat companion",
+        "Oppressive supernatural horror aura in high-banked lane"
+      ],
+      "aura": "Pale phosphorescent ghost glow and curling spectral wisps around white figure",
+      "prompt": "ONE square terrifying painterly folklore illustration of MADAM PIGOTT, the White Lady ghost of Chetwynd. Adult female human-shaped apparition in modest opaque white historic dress, accompanied by one BLACK CAT in a steep dark high-banked Shropshire lane at night. Entire ghostly silhouette inside frame, gaunt furious mournful expression rather than glamorous smile. White phosphorescent light radiates through the outer fabric, curling luminous spectral wisps and floating cold particles surround her and the cat, deep black trees frame the haunted road. Clearly supernatural horror, no wounds or blood. Human anatomy faithful to White Lady identity, no horns, wings, fangs or monster limbs. No rider/victim, baby, text, watermark or border.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-120.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/madam-pigott.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-c75d7604-f64c-448f-b9b1-51fe105695f9.png",
+      "reviewed_at": "2026-10-05T02:53:37.424Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed adult White Lady apparition in modest white historic dress accompanied by a black cat on a dark high-banked lane. Gaunt furious expression, luminous white ghost outline and distinct spectral threads/particles make the frightening supernatural aura explicit. No victims, injuries or invented anatomy."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: white-clad adult female ghost accompanied by black cat in high-banked lane, furious gaunt expression and emitted luminous white spectral ribbons; source White Lady variant preserved.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/madam-pigott-verified.webp",
+      "sha256": "de567928264782c3fd9aec5d5ee5b35458f864d52d06b5a317d6afa4f8e16ad2",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-d9f71ea9-4520-4c72-bad1-731fe45d6fd4.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "White luminous swirling ribbons around ghost and cat unsupported.",
+    "allowed_magic": "none beyond the documented creature manifestation; ordinary light sources retained",
+    "source_basis_claim_ids": [
+      "madam-pigott-c01",
+      "madam-pigott-c09",
+      "madam-pigott-c11"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/madam-pigott.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/madam-pigott.json"
+  }
+}

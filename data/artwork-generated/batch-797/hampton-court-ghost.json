@@ -1,0 +1,95 @@
+{
+  "slug": "hampton-court-ghost",
+  "basis_claim_ids": [
+    "hampton-court-ghost-c02",
+    "hampton-court-ghost-c04",
+    "hampton-court-ghost-c06",
+    "hampton-court-ghost-c10",
+    "hampton-court-ghost-c11"
+  ],
+  "depicted_variant": "White-faced robed apparition at palace door",
+  "visual_requirements": [
+    "Remove blue luminous wisps, magical sparkles, blue emitted contour and blue ground energy. Source c10 supports SOMEWHAT BLURRED area around man; preserve a subtle neutral nonluminous blurred perimeter, NOT power aura. Preserve same adult male apparition with unnaturally white face, long dark period robe, natural-colored outstretched hand reaching door, identity, pose, palace doors and corridor. Ordinary window/candle light; haunting presence through pale face and subtle blur.",
+    "No generic emitted wrapping; preserve original anatomy and counts"
+  ],
+  "aura": "Pale apparition at doorway with subtly blurred neutral edges.",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove blue luminous wisps, magical sparkles, blue emitted contour and blue ground energy. Source c10 supports SOMEWHAT BLURRED area around man; preserve a subtle neutral nonluminous blurred perimeter, NOT power aura. Preserve same adult male apparition with unnaturally white face, long dark period robe, natural-colored outstretched hand reaching door, identity, pose, palace doors and corridor. Ordinary window/candle light; haunting presence through pale face and subtle blur. Preserve original composition, anatomy, count, exact size and identity. No added subjects, nudity, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-120.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/hampton-court-ghost-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-172ba655-e8e8-4b0c-a424-5fcc472b6d58.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native edited output actually inspected: pale male apparition, white face, period robe and reaching hand retained; blue emitted wisps and motes gone, edge treatment now subtle and neutral.",
+    "reviewer": "aura-resume-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: white-faced cloaked figure opening door in period hall. Subtle neutral edge softness fits described blurred perimeter, no blue glow or fog."
+  },
+  "attempt_history": [
+    {
+      "slug": "hampton-court-ghost",
+      "basis_claim_ids": [
+        "hampton-court-ghost-c02",
+        "hampton-court-ghost-c04",
+        "hampton-court-ghost-c06",
+        "hampton-court-ghost-c10",
+        "hampton-court-ghost-c11"
+      ],
+      "depicted_variant": "White-faced robed apparition at palace door",
+      "visual_requirements": [
+        "Adult male figure in long period robe",
+        "Unnaturally white face",
+        "One hand reaching door",
+        "Blurred ghostly perimeter"
+      ],
+      "aura": "Cold white-blue emitted spectral light",
+      "prompt": "Depict the legendary Hampton Court ghost apparition as an adult male figure in a long cloak-like period robe stepping from a shadowy doorway of a Tudor palace. One hand reaches toward a door handle, the other remains at his side. The face is unnaturally white compared with his hand, ambiguous and unsettling, with blurred spectral edges around the body. No skull face, horns, fangs, wings or extra anatomy. An unmistakable emitted cold blue-white ghost aura flows from the robe and pale face into the palace corridor, with floating luminous particles. Full robed figure visible, oppressive haunted atmosphere. An interpretive folklore artwork, not CCTV footage; no text, timestamps or interface. Square premium detailed painterly mythological encyclopedia illustration, entire identifying body within frame, coherent anatomy, no text, captions, borders, watermark, gore or victims. Aura must visibly emanate from creature.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-120.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/hampton-court-ghost.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-172ba655-e8e8-4b0c-a424-5fcc472b6d58.png",
+      "reviewed_at": "2026-10-05T04:01:08.657Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: full adult robed period figure with unnaturally pale face, one hand at palace door and blurred blue-white luminous spectral perimeter; no invented monster anatomy."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Long-robed adult male apparition with unnaturally white face reaching doorway, blurred spectral outline and emitted blue wisps.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/hampton-court-ghost-verified.webp",
+      "sha256": "7a7eb031f05d6fa8aae0b16082b661c81f24bd7a4d247f9a794c127adbaa1f60",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-c7a4f6e1-eb02-44dd-b2aa-b924eff4e004.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Source supports blurred perimeter and white face, not blue emitted wrapping.",
+    "allowed_magic": "Source c10 white face and subtle neutral perimeter blur",
+    "source_basis_claim_ids": [
+      "hampton-court-ghost-c02",
+      "hampton-court-ghost-c04",
+      "hampton-court-ghost-c06",
+      "hampton-court-ghost-c10",
+      "hampton-court-ghost-c11"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/hampton-court-ghost.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/hampton-court-ghost.json"
+  }
+}

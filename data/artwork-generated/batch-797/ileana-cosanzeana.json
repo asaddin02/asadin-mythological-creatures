@@ -1,0 +1,88 @@
+{
+  "slug": "ileana-cosanzeana",
+  "worker": "worker-0",
+  "prompt": "Use case: lighting-weather. Input image is EDIT TARGET. Change ONLY unsupported magical lighting/VFX. Preserve exact identity, face, expression, pose, coherent anatomy, limb counts, source size, modest opaque clothing, scene, viewpoint and square framing. No text/watermark. Remove all golden magical loops, star particles and self-emission from hair/body/dress. Preserve beautiful good-natured adult princess, GOLDEN HAIR as ordinary physical hair reflecting SUNLIGHT, flowerqueen styling, opaque embroidered white-gold dress and castle/garden. Kind serene expression and graceful pose. No glow outline; natural warm sun only.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/ileana-cosanzeana-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-bd80fb4d-66d4-4a72-95e8-a930f0817718.png",
+  "depicted_variant": "Beautiful good-natured Romanian princess/fairy with golden hair",
+  "basis_claim_ids": [
+    "ileana-cosanzeana-c01",
+    "ileana-cosanzeana-c02",
+    "ileana-cosanzeana-c05"
+  ],
+  "aura": "Good-natured fairy-princess presence through warm gaze, golden hair, flower garden and graceful pose.",
+  "visual_requirements": [
+    "Beautiful adult woman with golden hair",
+    "Princess attire and flowerqueen styling",
+    "Human form, no wings or emitted aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected revised native contact: Same adult golden-haired princess in opaque embroidered dress and garden/castle, no gold ribbons or body particles; hair reflects sunshine.",
+    "reviewer": "aura-resume-0"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-122.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected native: golden-haired good-natured princess in modest ornate gown amid flowers at palace garden, sunlight only, no golden energy halo."
+  },
+  "attempt_history": [
+    {
+      "slug": "ileana-cosanzeana",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square exquisite high-detail painterly naturalistic cinematic mythology encyclopedia illustration. ILEANA COSÂNZEANA, Romanian source beautiful good-natured princess or immensely powerful fairy, choosing princess/fairy human appearance and explicitly golden-hair name tradition. ONE beautiful ADULT woman with long GOLDEN HAIR, opaque modest regal Romanian-inspired ivory-gold dress, poised among abundantflowers in sunlit palace garden, Queen of Flowers epithet reflected artistically. Coherent natural humanface/body, normal ears, fullfigure. Clearly luminous solar-gold magical wisps RADIATE FROM BODY AND HAIR and illuminate petals, immense gracious fairy power. No wings, horns, pointedelfears, children or otherfigures. No text, watermark, border, collage or labels.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/ileana-cosanzeana.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-bd80fb4d-66d4-4a72-95e8-a930f0817718.png",
+      "depicted_variant": "Beautiful good-natured Romanian princess/fairy with golden hair",
+      "basis_claim_ids": [
+        "ileana-cosanzeana-c01",
+        "ileana-cosanzeana-c02",
+        "ileana-cosanzeana-c05"
+      ],
+      "aura": "benevolent queen of flowers emitted solar gold magic",
+      "visual_requirements": [
+        "adult beautiful woman goldenhair",
+        "princess attire flowerqueen styling",
+        "humanform no inventedwings"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected native: beautiful adult humanlike princess/fairy with long golden hair, modest regal dress and flowers, source golden-hair name and flowerqueen epithet. Gold emitted aura clear. Exact clothes/face/palace artistic, no invented wings."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-122.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Beautiful adult princess with golden hair and flower styling, natural human form, emitted golden magical wisps.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/ileana-cosanzeana-verified.webp",
+      "sha256": "2d7e80f0403654143bf4f2657fba6d455644145db9a56d108a32c1d9cee33e1b",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-7dc7c0ef-e1e2-4260-a55c-1d5e0f6757a0.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Gold magical loops and emitted hair/body glitter removed; golden hair retained as physical coloration.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "ileana-cosanzeana-c01",
+      "ileana-cosanzeana-c02",
+      "ileana-cosanzeana-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/ileana-cosanzeana.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/ileana-cosanzeana.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

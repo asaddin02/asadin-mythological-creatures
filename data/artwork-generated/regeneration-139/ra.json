@@ -1,0 +1,51 @@
+{
+  "slug": "ra",
+  "worker": "regen-3",
+  "prompt": "Use case: illustration-story. Square premium mature painterly Scandinavian folklore encyclopedia artwork of RÅ selecting the forest-guardian SKOGSRÅ in its source-recorded LARGE BIRD transformation. The official Swedish ISOF Folke oral record ifgh02351_199133, page15, describes the skogsrå laughing and flying away as a large bird. Depict ONE full large dark-feathered forest bird taking flight above mossy northern tree roots, entirely avian: one bird head with a natural beak, exactly two wings spread widely, two bird legs and feet drawn under body, one feathered tail. Wing tips, feet and tail fit comfortably inside frame with clear separated wing silhouette. Species is intentionally unspecified because the historical account says only a large bird; generic crow-like dark plumage and broad rounded feathered wings are aesthetic interpretation, not a claim of a particular species. Dense quiet pine/birch woodland, ancient trunks, fern and moss ground, golden slanted twilight rim light and deep forest-green shadows. Watchful independent nature-guardian aura with a hint of mischievous departing laughter conveyed through alert pose; no visual text or facial human features. Fully natural bird morphology, no human head, breasts, torso, hands or costume. No horns, antlers, extra wings, fiery eyes, talisman, glowing anatomy, hybrid tails, other animals, people, hunter, weapons, text, border, signature or watermark. This shows one documented forest-rå subtype animal transformation, not the form of all rår.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/ra.png",
+  "review_path": "data/gemini/reviews/batch-111.review.json",
+  "depicted_variant": "Skogsrå flying away as a large bird in Swedish oral tradition",
+  "visual_requirements": [
+    "Entirely avian large bird with exactly two wings and two feet",
+    "Complete head, beak, tail and wing tips within frame",
+    "Quiet northern forest habitat without invented hybrid parts"
+  ],
+  "basis_claim_ids": [
+    "ra-c03",
+    "ra-c06"
+  ],
+  "aura": "Watchful forest guardian departing through golden woodland light",
+  "additional_sources": [
+    {
+      "url": "https://sok.folke.isof.se/records/ifgh02351_199133/transcriptionstatus/published%2Caccession%2Creadytocontribute%2Creadytotranscribe",
+      "title": "ISOF Folke record ifgh02351_199133, p.15, Skogsråt och drängen",
+      "evidence": "Primary published Swedish oral record says the skogsrå laughed and flew away as a large bird. Indexed record transcription was verified; site open renders a JavaScript loader."
+    }
+  ],
+  "nonhuman_features": [
+    "Full feathered avian body, beak, two wings, bird legs and tail"
+  ],
+  "accuracy_mode": "source-supported",
+  "historical_basis": "Selects the source-recorded large-bird transformation of one forest-rå subtype, not a claim of the common shape of every rå.",
+  "artistic_changes": [
+    "The account does not identify a bird species. Dark crow-like plumage, feather shape, exact forest composition and golden light are visual interpretation."
+  ],
+  "invented_anatomy": [],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Individually inspected corrected image via view_image: one entirely avian bird, one head/beak, two spread wings, two visible bird feet and one feathered tail. All feather tips now fit comfortably within frame. No human head, breasts, costume, extra appendages, visible signature or text."
+  },
+  "correction": {
+    "tool": "OpenAI built-in image_gen edit",
+    "purpose": "Expand composition around complete bird and remove initial clipped wing tips",
+    "rejection_ledger": "data/artwork-generated/regeneration-139/ra.rejections.json"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "reviewed_at": "2026-10-04T16:52:48.032Z",
+  "root_visual_review": {
+    "verdict": "pass",
+    "notes": "Independently viewed: one fully avian black bird flying through northern woodland, two wings and two bird feet, all essential anatomy inside frame; specifically forest-ra large-bird transformation.",
+    "reviewed_at": "2026-10-04T17:56:02.720803+00:00"
+  }
+}

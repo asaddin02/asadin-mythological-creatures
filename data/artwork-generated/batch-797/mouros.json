@@ -1,0 +1,92 @@
+{
+  "slug": "mouros",
+  "basis_claim_ids": [
+    "mouros-c01",
+    "mouros-c02",
+    "mouros-c06",
+    "mouros-c08"
+  ],
+  "depicted_variant": "Giant male Mouros goldsmith",
+  "visual_requirements": [
+    "Remove gold energy ribbons wrapping giant, magical sparks far from metalwork, emitted eye glow and body glow. Preserve same dark-skinned giant male human goldsmith, face/beard, seated hammering pose, coverage, huge scale relative to underground workshop architecture, hammer/gold item, anvil and treasure. Retain ordinary forge fire, natural reflected gold light and at most tiny localized plausible metalworking sparks. Presence through giant scale and skilled hammering.",
+    "No generic emitted wrapping; preserve anatomy and counts"
+  ],
+  "aura": "Massive dark-skinned craftsman with hammer in forge-lit treasure cave.",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove gold energy ribbons wrapping giant, magical sparks far from metalwork, emitted eye glow and body glow. Preserve same dark-skinned giant male human goldsmith, face/beard, seated hammering pose, coverage, huge scale relative to underground workshop architecture, hammer/gold item, anvil and treasure. Retain ordinary forge fire, natural reflected gold light and at most tiny localized plausible metalworking sparks. Presence through giant scale and skilled hammering. Preserve original composition, count, exact scale and identity. No added subjects, nudity, gore, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-128.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/mouros-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-8f769849-dc78-4c29-adcb-469ea7e89655.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output actually inspected: same giant dark-skinned goldsmith and hammer pose, treasure workshop and clothing; gold power envelope/eyes gone, localized actual hammer contact sparks and forge retained.",
+    "reviewer": "aura-resume-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected native: huge humanlike goldsmith at underground treasure and forge, local metalworking sparks and ordinary fire illumination only; no body light or energy wrapping."
+  },
+  "attempt_history": [
+    {
+      "slug": "mouros",
+      "basis_claim_ids": [
+        "mouros-c01",
+        "mouros-c02",
+        "mouros-c06",
+        "mouros-c08"
+      ],
+      "depicted_variant": "Giant male Mouros goldsmith",
+      "visual_requirements": [
+        "Giant humanlike male goldsmith",
+        "Dark skin",
+        "Underground treasure workshop",
+        "No invented anatomy"
+      ],
+      "aura": "Gold-silver emitted magical wisps",
+      "prompt": "Depict a male Mouro of Portuguese and Galician folklore using documented variants: a GIANT humanlike dark-skinned goldsmith in an underground treasure workshop beneath an ancient stone castro. A towering fully clothed adult man with two arms and two legs, large rugged human face, no horns, wings, animal ears or extra limbs. Seated or standing beside huge goldsmith tools and piles of gold, silver and gems; a normal-size stone doorway on the same ground plane reaches only his knee/upper shin, conveying an immense source-described giant. Clothing modest old work garments, not modern costume. Unmistakably luminous gold-silver magical wisps and sparks radiate from his hands and body into the underground darkness, inner-lit eyes slightly uncanny. No dragon required, no humans for attack. Square premium detailed painterly mythology encyclopedia illustration, one coherent full-body entity, clear source anatomy and emitted magical aura. No text, captions, borders, watermark, gore, exposed organs or victims.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-128.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/mouros.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-8f769849-dc78-4c29-adcb-469ea7e89655.png",
+      "reviewed_at": "2026-10-05T04:13:32.371Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: giant dark-skinned adult goldsmith in underground treasure workshop, coherent human anatomy and work garments, normal-size doorway for scale, clear emitted golden magical aura."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Dark-skinned humanlike giant goldsmith in underground treasure workshop, doorway comparison gives enormous scale, emitted golden smith magic.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/mouros-verified.webp",
+      "sha256": "1ce602ca8d4da02be58e6611e3a734f39822558cd350d0a1a702dcb328889b52",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-02de8acf-92f0-4da6-aa40-8f43e66f56c6.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Giant goldsmith treasure crafting does not support golden power envelope.",
+    "allowed_magic": "none beyond documented manifestation",
+    "source_basis_claim_ids": [
+      "mouros-c01",
+      "mouros-c02",
+      "mouros-c06",
+      "mouros-c08"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/mouros.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/mouros.json"
+  }
+}

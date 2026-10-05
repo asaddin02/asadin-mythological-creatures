@@ -1,0 +1,87 @@
+{
+  "slug": "legend-of-la-encantada",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Remove ONLY unsupported effects: all golden luminous ribbons, emitted hair light, sparkling magic and neon body envelope; use ordinary dawn reflected light and subtle ghostly pallor. Preserve exactly same very pale ADULT female apparition with VERY long blonde hair, golden comb in same hands, modest long white dress, human anatomy, same combing pose, scale and cave mouth at dawn, framing, detail and clothing coverage. Character presence through wistful expression, long hair and solitary cave-mouth dawn composition. Restore natural scene texture and shadows. No generic emitted aura, new anatomy, extra characters, nudity, gore, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/legend-of-la-encantada-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-2f565d54-b538-41c1-8cfe-7a1f2c847e8d.png",
+  "depicted_variant": "Las Camarillas very white long-blonde-haired cave apparition with comb",
+  "basis_claim_ids": [
+    "legend-of-la-encantada-c02",
+    "legend-of-la-encantada-c08",
+    "legend-of-la-encantada-c09"
+  ],
+  "aura": "wistful expression, long hair and solitary cave-mouth dawn composition",
+  "visual_requirements": [
+    "same very pale ADULT female apparition with VERY long blonde hair, golden comb in same hands, modest long white dress, human anatomy, same combing pose, scale and cave mouth at dawn",
+    "No generic emitted body aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native inspected: very pale adult woman with exceptionally long blonde hair, golden comb and full white modest dress at dawn cave; all gold wrapping/particles gone, natural dawn lighting.",
+    "reviewer": "aura-resume-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-129.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: pale modest adult maiden with very long blonde hair combing with physical golden comb at cave. Dawn light and wistful presence; no emitted energy trails."
+  },
+  "attempt_history": [
+    {
+      "slug": "legend-of-la-encantada",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square beautiful detailed painterly naturalistic mythology illustration of LA ENCANTADA, selecting Las Camarillas/Hellín cave apparition on early St John's morning. ONE very pale adult woman with VERY LONG BLONDE HAIR combs it with a clearly GOLDEN COMB at foot of rocky Camareta-like cave. Modest long opaque pale dress covers body, source-faithful human anatomy and face with subtly uncanny still gaze. Full figure framed, early dawn twilight. Clearly luminous soft gold-white wisps RADIATE FROM HER BODY AND COMB and light the rocks, mysterious imprisoned enchantment aura as artistic effect. No wings, horns, snake body, local-variant mixture, victim, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/legend-of-la-encantada.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-2f565d54-b538-41c1-8cfe-7a1f2c847e8d.png",
+      "depicted_variant": "Las Camarillas very white long-blonde-haired cave apparition with comb",
+      "basis_claim_ids": [
+        "legend-of-la-encantada-c02",
+        "legend-of-la-encantada-c08",
+        "legend-of-la-encantada-c09"
+      ],
+      "aura": "enchanted St John's dawn cave-maiden radiance",
+      "visual_requirements": [
+        "adult very pale female apparition, very long blonde hair",
+        "golden comb at cave mouth",
+        "human anatomy with clearly emitted enchantment"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: very pale adult woman with extremely long blonde hair combing with gold comb at cave foot near early dawn, modest pale dress. Strong emitted gold-white luminous wisps light rocks. Las Camarillas variant identity clear, no local forms mixed. Dress/light artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-129.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Pale adult apparition, long blonde hair, golden comb and emitted golden cave-mouth aura inspected.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/legend-of-la-encantada-verified.webp",
+      "sha256": "bd24e5732bde2b07d2cefc665095023e6f31be4eac3f0357ec384f1a268f896a",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-fff9-76e1-92c1-76bde2aff5e5/exec-5bbf4c26-3f0f-47cb-8805-dc40cb6ce299.png",
+  "revision_generator": "aura-resume-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-2",
+    "rationale": "Removed unsupported emitted wrapping, preserved source variant and documented manifestation/ability.",
+    "allowed_magic": "Pale female apparition, no emitted effects",
+    "source_basis_claim_ids": [
+      "legend-of-la-encantada-c02",
+      "legend-of-la-encantada-c08",
+      "legend-of-la-encantada-c09"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/legend-of-la-encantada.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/legend-of-la-encantada.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

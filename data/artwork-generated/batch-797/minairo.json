@@ -1,0 +1,99 @@
+{
+  "slug": "minairo",
+  "worker": "root",
+  "prompt": "Edit the provided square painterly mythology artwork to follow its documented physical manifestation. Preserve the needle case, ordinary mosquito-like tiny winged beings, actual insects and surroundings. Remove ALL glowing fairy dust, yellow lights, green trails and particle spirals. A cloud of ordinary almost invisible tiny insects emerges from an open small needle case on wooden table, nearby needle establishes minute scale. Natural sunlight only. No humanlike fairies. Preserve painterly naturalistic quality and square composition. No text, border or watermark.",
+  "depicted_variant": "Almost invisible mosquito-like swarm emerging from a needle tube",
+  "basis_claim_ids": [
+    "minairo-c01",
+    "minairo-c03",
+    "minairo-c04"
+  ],
+  "visual_requirements": [
+    "Tiny mosquito-like swarm and needle case, natural light only",
+    "No generic emitted aura, neon halo, magic particles or luminous vapor"
+  ],
+  "aura": "Character presence through pose, framing, atmosphere and natural light",
+  "review_path": "data/gemini/reviews/batch-129.review.json",
+  "tool": "OpenAI built-in image_gen",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-1336c2d8-366f-43c4-95b5-a13b81c1ea74.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/minairo-presence-v2.png",
+  "status": "reviewed",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native: ordinary tiny mosquito-like swarm at needle case with needle reference, naturally sunlit wings, no luminous dust or trails.",
+    "reviewer": "root"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "aura-resume-0",
+    "reviewed_at": "2026-10-05",
+    "notes": "Independently inspected revised native contact: tiny mosquito-like swarm emerging from needle case, needle/table scale cues, anatomically ordinary insects and sunlit wings. No aura loops, emitted magic points or vapor."
+  },
+  "independent_visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native: ordinary tiny mosquito-like swarm at needle case with needle reference, naturally sunlit wings, no luminous dust or trails.",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05"
+  },
+  "attempt_history": [
+    {
+      "slug": "minairo",
+      "worker": "root",
+      "prompt": "Use case: stylized-concept. Asset type: mythology encyclopedia artwork. Produce ONE square high-detail painterly naturalistic cinematic fantasy illustration. A swarm of minuscule mosquito-like MINAIRONS emerges from an open wooden NEEDLE TUBE on a weathered Pyrenean worktable. Macro cinematic view: many almost invisible tiny insects with delicate wing pairs, fine legs and narrow bodies, near-tube insects clearly readable, thousands implied by a luminous swarm fading into background. Rusted sewing needle establishes EXTREMELY TINY scale. Tiny silver-green luminous wisps and magical points of light clearly EMIT FROM insect swarm, spiral above tube and cast unnatural light on wood. Distant Pyrenean mountain window. No humanoid fairies, bee-striped substitutes, huge monsterinsect, text or watermark. No border, collage, labels, writing or watermark.",
+      "depicted_variant": "Almost invisible mosquito-like swarm emerging from a needle tube",
+      "basis_claim_ids": [
+        "minairo-c01",
+        "minairo-c03",
+        "minairo-c04"
+      ],
+      "visual_requirements": [
+        "Many tiny mosquito-like creatures",
+        "Swarm exits needle tube, tiny scale",
+        "Visible emitted magical aura, no humanoid fairy substitution"
+      ],
+      "aura": "Clearly emitted supernatural luminous wisps and particles as artistic aura",
+      "review_path": "data/gemini/reviews/batch-129.review.json",
+      "tool": "OpenAI built-in image_gen",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-1336c2d8-366f-43c4-95b5-a13b81c1ea74.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/minairo.png",
+      "status": "reviewed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually viewed: numerous tiny mosquito-like winged insects emerging from needle tube, needle reference scale and clearly emitted green-white magical wisps."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Actually viewed: numerous tiny mosquito-like winged insects emerging from needle tube, needle reference scale and clearly emitted green-white magical wisps.",
+        "reviewed_at": "2026-10-05"
+      },
+      "independent_visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-0",
+        "notes": "Worker-0 independently inspected root contact sheet: many very small mosquito-like slender winged insects issuing from wooden needle tube, needle supplies scale, emitted green-white magic. No humanoid substitutes.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/minairo-verified.webp",
+      "sha256": "1d7da264118f6673145d6f4deba191f928b3879105cfd6d67b6c55e44b9ec679",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-387148fc-8a13-4d21-bb4b-c73143a053f9.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Original has generic emitted magical wrapping unsupported by selected documented depiction; use physical presence and natural scene lighting.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "minairo-c01",
+      "minairo-c03",
+      "minairo-c04"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/minairo.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/minairo.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

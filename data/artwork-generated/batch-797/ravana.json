@@ -1,0 +1,99 @@
+{
+  "slug": "ravana",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: precise-object-edit. Edit this Ravana artwork only to remove unsupported crimson energy ribbons, glowing body envelope and magical light motes. Preserve EXACTLY ten human heads: nine in the lower horizontal row plus one above, their faces, crowns, positions, one shared royal torso, body scale, pose, jewelry, red drape and coverage, Lanka palace, sunset and actual torch flames. No addition or deletion of heads or limbs. Majesty and intimidating presence come from ten stern gazes, imposing framing, regal costume and ordinary warm sunset/torchlight. Restore natural skin and architecture where light trails vanish; no alternate magical effects, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/ravana-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-6acd96ff-dbf7-4f22-afb9-d4d82c22145f.png",
+  "review_path": "data/gemini/reviews/batch-072.review.json",
+  "visual_requirements": [
+    "Exactly ten human heads: nine below, one above",
+    "One shared royal torso and same Lanka setting",
+    "No red energy ribbons or emitted aura"
+  ],
+  "depicted_variant": "Documented ten-headed Ravana rakshasa king; regal costume and palace/aura artistic, arms framed out to avoid unsupported limb-count claim.",
+  "basis_claim_ids": [
+    "ravana-c01",
+    "ravana-c09"
+  ],
+  "aura": "Ten stern faces, imposing royal framing, gold regalia and ordinary sunset/torchlight.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native edited output individually inspected. Counted ten crowned heads, original torso/pose retained, red light ribbons gone; actual torch flames retained.",
+    "reviewer": "aura-resume-1"
+  },
+  "reviewed_at": "2026-10-05",
+  "superseded_variants": [
+    {
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-61f0031e-f934-41f8-8082-5524f6fd67e6.png",
+      "reason": "Only nine heads."
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: ten distinct crowned heads (nine in row, one above), same royal face, jewelry and red cloth in Lanka palace. Natural sunset and torches, no emitted fire-ring or generic magical wrap."
+  },
+  "attempt_history": [
+    {
+      "slug": "ravana",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium painterly naturalistic mythology illustration. One RAVANA, rakshasa KING OF LANKA with EXACTLY TEN human heads attached to one royal body. Absolute count-critical arrangement: NINE HEADS IN ONE LOWER ROW (one center head, four left heads, four right heads), PLUS ONE TENTH HEAD centered ABOVE the row. This gives nine lower plus one upper = exactly TEN total heads. Every human face fully visible and countable, no head cropped, no extra or hidden heads. One kingly torso, broad upper body framing, South Asian royal ornaments and crowns editorial regal interpretation. Lanka palace in background. Strong luminous red-gold supernatural energy wisps and floating embers curve around the ten heads and body, fierce dignified ancient royal power. Detailed painted human faces, beautiful crowns. No animal faces, no horns, no textual labels or numbers, no watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/ravana.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-6acd96ff-dbf7-4f22-afb9-d4d82c22145f.png",
+      "review_path": "data/gemini/reviews/batch-072.review.json",
+      "visual_requirements": [
+        "Exactly ten human heads, clearly countable",
+        "One shared royal torso",
+        "Lanka royal setting",
+        "Majestic intimidating aura"
+      ],
+      "depicted_variant": "Documented ten-headed Ravana rakshasa king; regal costume and palace/aura artistic, arms framed out to avoid unsupported limb-count claim.",
+      "basis_claim_ids": [
+        "ravana-c01",
+        "ravana-c09"
+      ],
+      "aura": "Intense royal red-gold supernatural radiance and deep shadows.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected regenerated native and counted exactly TEN fully visible human faces: nine lower-row heads (four left + center + four right) and one above center. One royal torso, crowns and South Asian ornaments, luminous red-gold energy ribbons/particles around body. Source ten-headed king retained; costume, palace and aura editorial. Initial nine-headed result rejected and not copied as accepted original."
+      },
+      "reviewed_at": "2026-10-05T02:47:49.631Z",
+      "superseded_variants": [
+        {
+          "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-61f0031e-f934-41f8-8082-5524f6fd67e6.png",
+          "reason": "Only nine heads."
+        }
+      ],
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root counted exactly10heads:9 fully discernible faces in lower row plus1abovecenter. Shared regal torso with intimidating red/gold emitted energy and Lanka palace setting.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/ravana-verified.webp",
+      "sha256": "10e28ef4dae0edcb98ba09457c40c346fcc15956c00abc0ada010a94e76709ac",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-b544ae4f-ec4f-4c31-910e-5c1b532a16e9.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Red energy wraps and motes are unsupported by ten-headed king source claims.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "ravana-c01",
+      "ravana-c09"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/ravana.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/ravana.json"
+  }
+}

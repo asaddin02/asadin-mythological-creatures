@@ -1,0 +1,71 @@
+{
+  "slug": "korbolko",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: stylized-concept. Square premium painterly naturalistic mythology artwork. One KORBOLKO, the Turkic bird made of fire that brought fire to earth. A large magnificent bird, coherent fully avian body with two feathered wings, hooked bird beak, two avian feet and splendid tail plumage, flying low above dark ground. Feathers themselves burn and glow RED AND YELLOW like a bright bonfire, majestic red-and-gold plumage, luminous tail feather, clearly a fire bird rather than ordinary animal lit orange. Dominant bright supernatural fire aura with drifting sparks, radiant air and dancing flame outlines, dark atmospheric landscape makes light legible. Avian silhouette readable, detailed feathers, beautiful mythological benevolence and elemental power. Body large within composition but no invented mountain-sized claim. No human face, no human arms, no horns, no extra heads, no phoenix resurrection scene, no text, no watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/korbolko.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-eb3712e3-e2d6-4ef1-bb38-ac716d5e6284.png",
+  "review_path": "data/gemini/reviews/batch-139.review.json",
+  "visual_requirements": [
+    "One avian fire bird",
+    "Two wings and bird body",
+    "Preserve existing source anatomy, count, scale and modest framing.",
+    "Character presence through pose, composition, atmosphere and natural scene lighting; no generic emitted aura.",
+    "Source c01/c03/c07 explicitly fiery bird and bright red/yellow emitting plumage; combustion glow/embers allowed."
+  ],
+  "depicted_variant": "Documented large red-and-yellow luminous fire-bird Korbolko; surrounding flame and landscape are artistic staging.",
+  "basis_claim_ids": [
+    "korbolko-c01",
+    "korbolko-c03",
+    "korbolko-c07",
+    "korbolko-c09"
+  ],
+  "aura": "Majesty through gigantic spread fire-feather wings and source fiery plumage illuminating landscape.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected full original with view_image. Observed bird itself consists of red-yellow fire/plumage with combustion embers, exactly matching source made-of-fire bird and luminous feathers; no detached generic envelope.",
+    "reviewer": "worker-0"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected contact image: source firebird with fiery red/yellow plumage, physical sparks tied to burning feathers. c01/c03/c07 explicitly describe fire body and luminous feathers, so the effects are intrinsic and retained."
+  },
+  "aura_policy_history": [
+    {
+      "aura": "Bright red-yellow bonfire radiance, embers and flame edges.",
+      "visual_requirements": [
+        "One avian fire bird",
+        "Large bird with majestic red and yellow glowing plumage",
+        "Two wings and bird body",
+        "Strong intrinsic fire aura"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: one coherent fiery avian body with two spread wings, hooked bird beak, avian talons, red-yellow feather plumage and long radiant tail; intrinsic flames and embers clearly differentiate mythic fire bird. Landscape and feather details are editorial staging."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: one large avian fire-bird with two feathered wings, red/yellow radiant plumage, luminous fiery tail and surrounding sparks; documented glowing bird identity retained.",
+        "reviewed_at": "2026-10-05"
+      }
+    }
+  ],
+  "aura_revision": {
+    "decision": "keep",
+    "reviewer": "worker-0",
+    "rationale": "Observed bird itself consists of red-yellow fire/plumage with combustion embers, exactly matching source made-of-fire bird and luminous feathers; no detached generic envelope.",
+    "allowed_magic": "Source c01/c03/c07 explicitly fiery bird and bright red/yellow emitting plumage; combustion glow/embers allowed.",
+    "source_basis_claim_ids": [
+      "korbolko-c01",
+      "korbolko-c03",
+      "korbolko-c07",
+      "korbolko-c09"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/korbolko.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/korbolko.json"
+  }
+}

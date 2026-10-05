@@ -1,0 +1,63 @@
+{
+  "slug": "rubezahl",
+  "worker": "regen-1",
+  "status": "reviewed",
+  "tool": "OpenAI built-in image_gen",
+  "prompt": "Generate ONE RUBEZAHL specifically the ORIGINAL 1561 MARTIN HELWIG MAP nonhuman hybrid form. The reference is an inspected crop of the actual original map; use its historic upright beast silhouette and components, remove all map lettering and land-map background. One EAGLE HEAD with curved bird beak, NO human face, bearing ONE PAIR of branching DEER ANTLERS. Lion-like tawny walnut fur torso with TWO forelimbs and TWO GOAT HIND LEGS ending cloven hooves, upright walking pose, exactly four limbs total. One long tail splits into TWO distinct terminal branches, following historical bifurcated tail. Forelimbs clawlike animal paws, one holds plain wooden mountain staff. No wings: do not infer eagle wings from head. Whole figure from antler tips to hooves and two tail tips within square frame with ample margins. Majestic capricious commanding mountain guardian on rocky trail amidst Giant Mountains forest, forest-green conifers, walnut fur, antique-gold storm light, distant thunderclouds. Rich detailed painterly art, authentic animal anatomy, powerful eerie mountain aura, no ordinary human body, no clothing, no extra limbs or heads, no text watermark frame or signature.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/reviewed-images/rubezahl.png",
+  "workspace_original": "data/artwork-generated/regeneration-139/reviewed-images/rubezahl.png",
+  "review_path": "data/gemini/reviews/batch-110.review.json",
+  "depicted_variant": "Martin Helwig's 1561 map depiction of Rübezahl / Krakonoš",
+  "visual_requirements": [
+    "One eagle head bearing one pair of branching deer antlers",
+    "Lion-like torso with two forelimbs and two goat hindlegs",
+    "Goat hooves and one bifurcated tail with two terminal branches",
+    "Whole upright heraldic hybrid beast, no human face"
+  ],
+  "basis_claim_ids": [
+    "rubezahl-c06",
+    "rubezahl-c07",
+    "rubezahl-c08",
+    "rubezahl-c09",
+    "rubezahl-c12",
+    "rubezahl-c14"
+  ],
+  "additional_sources": [
+    {
+      "url": "https://digital.blb-karlsruhe.de/blbihd/content/titleinfo/3105338",
+      "title": "Badische Landesbibliothek: Helwig 1561 Silesia map",
+      "purpose": "Primary original map and IIIF crop individually inspected; beast near Rübenzal label."
+    },
+    {
+      "url": "https://digital.blb-karlsruhe.de/i3f/v20/3105343/pct:40.5,39.4,4.5,5.4/800,/0/default.jpg",
+      "title": "Primary map Rübenzal detail",
+      "purpose": "Direct zoom of original 1561 hybrid figure used as visual anatomy reference."
+    },
+    {
+      "url": "https://www.krkonose.eu/sites/default/files/docs/2022-02/krkonose-hiking-tips-ausflugtipps_0.pdf",
+      "title": "Krkonoše official regional heritage publication",
+      "purpose": "Lists named historic hybrid components, not generic demon anatomy."
+    }
+  ],
+  "aura": "Capricious commanding mountain guardian with storm-bearing power",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Individually inspected entire output against original map detail and official regional anatomy description: one eagle beak head, paired branching antlers, lionlike fur body, two forelimbs, two cloven-hoof goat hindlegs, single tail dividing into two branches. Staff and mountain storm setting preserve commanding mountain-spirit aura; no human face or wings."
+  },
+  "nonhuman_features": [
+    "One eagle head bearing one pair of branching deer antlers",
+    "Lion-like torso with two forelimbs and two goat hindlegs",
+    "Goat hooves and one bifurcated tail with two terminal branches",
+    "Whole upright heraldic hybrid beast, no human face"
+  ],
+  "accuracy_mode": "source-supported",
+  "invented_anatomy": [],
+  "historical_basis": "Actual public-domain 1561 Helwig map held at Badische Landesbibliothek was individually inspected, including zoomed Rübenzal figure. Regional Krkonoše heritage publication explicitly describes eagle head, deer antlers, lion body, goat legs and twofold tail.",
+  "artistic_changes": "Painterly forest mountain lighting and richer natural animal textures; faithful historic hybrid silhouette and bodily components retained.",
+  "reviewed_at": "2026-10-04T15:24:32.556Z",
+  "root_visual_review": {
+    "verdict": "pass",
+    "notes": "Individually viewed original. One eagle-beaked head with paired antlers, lionlike furry torso, two forelimbs and two goat-hooved hindlegs. One tail bifurcates into two endpoints. Mountain guardian with staff and commanding aura matches Helwig hybrid variant.",
+    "reviewed_at": "2026-10-04T16:18:48.410603+00:00"
+  }
+}

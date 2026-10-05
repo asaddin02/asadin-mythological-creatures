@@ -1,0 +1,72 @@
+{
+  "slug": "wawel-dragon",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: stylized-concept. Square premium painterly naturalistic mythological encyclopedia illustration. One WAWEL DRAGON, the cattle-devouring Polish cave dragon: a huge reptilian dragon emerging from Smocza Jama beneath Wawel Hill on the Vistula, medieval castle high above, recognizable riverbank setting. Coherent heavy scaled body, long serpentine tail, threatening maw and fire spilling from its mouth in the documented fire-breathing chronicle episode; this is an artistic dragon morphology, not a claim of historically specified color or limb count. Towering over cave entrance and riverbank rocks, body fits natural cave landscape, entire principal silhouette clear. Terrifying predatory presence, sulfur-orange firelight, black smoke and uncanny heat shimmer as mythology aura. Fine scales, dark wet stone, dramatic cinematic dusk. No people being harmed, no gore, no text, no watermark, no multiple dragons.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/wawel-dragon.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-dd13d717-1d00-458d-9136-549d813ac8ee.png",
+  "review_path": "data/gemini/reviews/batch-121.review.json",
+  "visual_requirements": [
+    "One large reptilian dragon",
+    "Wawel cave beside Vistula and castle hill",
+    "Fire from mouth",
+    "Preserve existing source anatomy, count, scale and modest framing.",
+    "Character presence through pose, composition, atmosphere and natural scene lighting; no generic emitted aura.",
+    "Mouth fire permitted c08 Długosz pre-death variant; natural combustion smoke/sparks only."
+  ],
+  "depicted_variant": "Cave-dwelling Wawel dragon in documented fire-breathing chronicle episode; reptilian limb/color specifics are editorial visualization, not textual certainty.",
+  "basis_claim_ids": [
+    "wawel-dragon-c01",
+    "wawel-dragon-c03",
+    "wawel-dragon-c08",
+    "wawel-dragon-c11"
+  ],
+  "aura": "Terror through cave emergence, jaws, low viewpoint and physical flame illumination.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected full original with view_image. Observed mouth fire and ordinary smoke physically linked to breath, no generic halo or energy ribbons. Fire breathing explicitly sourced in c08.",
+    "reviewer": "worker-0"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected contact image: solid dragon outside riverside cave below castle, mouth fire and combustion smoke only. No decorative envelope. c08 supports fire just before death in the selected chronicle variant."
+  },
+  "aura_policy_history": [
+    {
+      "aura": "Terrifying sulfur firelight, black smoke and heat shimmer.",
+      "visual_requirements": [
+        "One large reptilian dragon",
+        "Wawel cave beside Vistula and castle hill",
+        "Fire from mouth",
+        "Terrifying aura; no human victims"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: one massive scaled wingless reptilian dragon with long tail emerging from cave beside river beneath castle, orange fire visibly emitted from mouth, threatening gaze and black smoke. Horns, scales and limb arrangement are editorial dragon design, not source-specified attributes."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: one large reptilian dragon emerging from Wawel cave beside river and castle, clear fire breath with smoky terrifying aura. Horns/scales are disclosed editorial visualization.",
+        "reviewed_at": "2026-10-05"
+      }
+    }
+  ],
+  "aura_revision": {
+    "decision": "keep",
+    "reviewer": "worker-0",
+    "rationale": "Observed mouth fire and ordinary smoke physically linked to breath, no generic halo or energy ribbons. Fire breathing explicitly sourced in c08.",
+    "allowed_magic": "Mouth fire permitted c08 Długosz pre-death variant; natural combustion smoke/sparks only.",
+    "source_basis_claim_ids": [
+      "wawel-dragon-c01",
+      "wawel-dragon-c03",
+      "wawel-dragon-c08",
+      "wawel-dragon-c11"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/wawel-dragon.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/wawel-dragon.json"
+  }
+}

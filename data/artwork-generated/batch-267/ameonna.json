@@ -1,0 +1,29 @@
+{
+  "slug": "ameonna",
+  "worker": "worker-3",
+  "prompt": "Use case: historical-scene. ONE square detailed painterly naturalistic encyclopedia illustration of Ameonna, the rain woman in Toriyama Sekien's Konjaku Hyakki Shui. Preserve the documented pose: ONE rain-soaked adult Japanese woman standing outdoors in falling rain, lifting one of her own wet hands to her mouth and visibly licking the back of the hand with the tongue. Normal human anatomy and modest loose traditional plain Japanese robe saturated by rain, long dark wet hair hanging in strands. Her serious hollow stare, strange private gesture and unrelenting night rain convey eerie unsettling yokai mystery, not glamorous fashion. Dark simple woodland path, wet leaves and grey rain mist, cold low light revealing droplets on hair, fingers and robe. Central complete woman comfortably in square, hand-to-mouth gesture easy to see, detailed painterly naturalism. Invariants: humanlike rain woman, rain-soaked appearance, standing in rain and licking own hand. Avoid umbrella, pouring water jar, hand-held prop replacing licking gesture, horns, wings, monster mouth, giant tongue, blood, ghost footlessness, invented Chinese goddess crown, sexy transparent robe, nudity, extra people, baby, text, watermark, border, collage.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-72a1f7ff-55c1-48bf-b870-ca29be277c50.png",
+  "review_path": "data/gemini/reviews/batch-050.review.json",
+  "visual_requirements": [
+    "Adult Japanese rain-soaked woman",
+    "Standing in heavy rain",
+    "Visibly licking own hand",
+    "Normal human anatomy and modest traditional robe",
+    "Eerie unsettling rain-woman aura"
+  ],
+  "depicted_variant": "Sekien's Konjaku Hyakki Shūi rain-soaked hand-licking woman; not later unlucky-person idiom or Ameonba",
+  "basis_claim_ids": [
+    "ameonna-c01",
+    "ameonna-c02",
+    "ameonna-c03"
+  ],
+  "aura": "Eerie cold mysterious yokai presence in persistent rain",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-3.json"
+}

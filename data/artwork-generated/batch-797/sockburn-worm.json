@@ -1,0 +1,95 @@
+{
+  "slug": "sockburn-worm",
+  "basis_claim_ids": [
+    "sockburn-worm-c01",
+    "sockburn-worm-c12",
+    "sockburn-worm-c19",
+    "sockburn-worm-c20"
+  ],
+  "depicted_variant": "Sockburn Worm as a two-legged winged wyvern with arrow-tipped tail",
+  "visual_requirements": [
+    "Exactly two hind legs and two wings, no front legs",
+    "Arrow-tipped long serpent tail",
+    "Colossal fearsome scale against tiny River Tees village",
+    "Preserve exact original source anatomy, limb/head count, scale, identity and modest framing.",
+    "No generic emitted halo, neon outline, colored body fog, energy ribbons or magical particles.",
+    "none"
+  ],
+  "aura": "Ferocious wyvern presence through massive silhouette, roaring jaws and natural storm sunset.",
+  "prompt": "Use case: lighting-weather. Input image is EDIT TARGET. Targeted atmosphere edit ONLY. Remove luminous green mouth vapor, green glowing eye and all emitted mist, replacing with ordinary dark storm clouds and natural sunset reflections. Keep exactly two legs, two wings, arrow-tipped tail, menacing open jaws, giant scale/landscape. Keep composition, camera, source anatomy/counts/scale, identity, materials, pose and painterly rendering exact. No generic magical halo, neon outline, emitted energy ribbons, colored luminous fog, sparkling particles. No new anatomy or figures, no text/watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-120.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/sockburn-worm-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-7c4f58a9-1abc-4d9e-9793-3d1f308e6b53.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected native edited output. Targeted generic effects removed; source anatomy, pose, scale and composition retained. Ferocious wyvern presence through massive silhouette, roaring jaws and natural storm sunset.",
+    "reviewer": "worker-0"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected revised contact image: two-legged winged wyvern, solid scaled body and arrow-ended tail retained; green emitted mouth cloud gone. Threat arises from open jaws, towering ruins and storm-sunset scene."
+  },
+  "attempt_history": [
+    {
+      "slug": "sockburn-worm",
+      "basis_claim_ids": [
+        "sockburn-worm-c01",
+        "sockburn-worm-c12",
+        "sockburn-worm-c19",
+        "sockburn-worm-c20"
+      ],
+      "depicted_variant": "Sockburn Worm as a two-legged winged wyvern with arrow-tipped tail",
+      "visual_requirements": [
+        "Exactly two hind legs and two wings, no front legs",
+        "Arrow-tipped long serpent tail",
+        "Colossal fearsome scale against tiny River Tees village"
+      ],
+      "aura": "Malevolent poisonous haze, dark storm-cloud rim glow and scorched riverbank dread",
+      "prompt": "Use case: illustration-story. ONE square epic painterly mythology encyclopedia illustration of the SOCKBURN WORM, the monstrous Northumbrian wyvern. Precisely TWO strong hind legs and TWO enormous leathery wings, absolutely no front legs: wings are wing limbs, not additional legs. Long coiled serpentine scaled body and an unmistakable sharply arrow-tipped tail. The gigantic creature towers over tiny distant medieval village rooftops beside the River Tees, showing enormous story-scale through landscape. Full creature and all identifying appendages inside frame, wings clearly separated and both hind feet visible. Unsettling green poisonous vapor around its mouth, oppressive storm clouds, spectral amber rim glow, ruined riverbank and menacing expression create terrifying supernatural horror. Rich naturalistic painterly scales and dramatic atmospheric depth. No humans close up, victims, gore, text, labels, border or watermark. No four-legged dragon anatomy.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-120.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/sockburn-worm.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-7c4f58a9-1abc-4d9e-9793-3d1f308e6b53.png",
+      "reviewed_at": "2026-10-05T02:33:45.165Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed one vast scaled serpentine wyvern with exactly two visible hind legs and two leathery wings, no forelegs; long tail ends in a clearly arrowlike point. Tiny village and River Tees landscape establish gigantic scale. Poisonous green mouth vapor, storm clouds and amber lighting create malevolent dread. Outer wing edges touch image borders but identifying wing and leg anatomy remain clear."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: two hind legs, two leathery wings, long arrow-tipped tail; vast body above tiny settlement and river, poisonous mouth mist and ominous storm atmosphere.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/sockburn-worm-verified.webp",
+      "sha256": "f93776c7a15b597730b737cda25b57bceee2ca820a48715a4ae22b0c33d111dd",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-eef91bca-4660-4eae-b52d-eb252539b032.png",
+  "revision_generator": "worker-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-0",
+    "rationale": "Actually viewed original: green luminous breath/cloud at mouth unsupported as visible manifestation in chosen source variant.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "sockburn-worm-c01",
+      "sockburn-worm-c12",
+      "sockburn-worm-c19",
+      "sockburn-worm-c20"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/sockburn-worm.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/sockburn-worm.json"
+  }
+}

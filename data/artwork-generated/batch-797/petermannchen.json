@@ -1,0 +1,89 @@
+{
+  "slug": "petermannchen",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove blue/gold emitted ribbons, body/key envelope, luminous dots and magical glow at lock. Preserve same small good-natured adult man, few-feet scale, happy face, original costume, many keys clearly held in one hand, other hand unlocking castle vault door, exact pose and vault/tunnel. Keys/lock reflect ordinary lantern light only. Preserve original composition, count, exact scale and identity. No added subjects, nudity, gore, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/petermannchen-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-623c1cff-c5bb-4de7-b21b-89f69d65d836.png",
+  "depicted_variant": "Small good-natured castle keeper carrying many keys; humanlike little-man interpretation",
+  "basis_claim_ids": [
+    "petermannchen-c01",
+    "petermannchen-c02",
+    "petermannchen-c03"
+  ],
+  "aura": "Cheerful keeper dwarfed by vault architecture, welcoming expression and lantern-lit keys.",
+  "visual_requirements": [
+    "fewfeettall smallspirit",
+    "manykeys",
+    "castle vaultdoors",
+    "No generic emitted wrapping, halo, luminous particles or energy smoke; preserve original identity, anatomy, count, clothing and scale."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Directly inspected original and recovered native edit: same cheerful small adult keeper with many metal keys, huge vault door and unlocking hand; beard, clothing, anatomy, count, pose and castle retained. Blue/gold body spirals, key emission, lock glow and magic particles removed; warm lantern reflections only.",
+    "reviewer": "finish_aura_a"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-132.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected revised native preview: diminutive kindly household spirit with many physical keys opening castle vault door; warm lantern light and natural reflections, no emitted cyan body ribbons or motes."
+  },
+  "attempt_history": [
+    {
+      "slug": "petermannchen",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square exquisite high-detail painterly naturalistic cinematic mythology encyclopedia illustration. PETERMÄNNCHEN, good-natured little household spirit of Schwerin Palace. ONE SMALL adult HUMANLIKE castlekeeper only a fewfeet tall carries MANY METAL KEYS on broad ring, reaching to unlock an old vaultdoor in tunnels beneathcastle. Full figure visible beside normal-sized castle doorway and latch establishing diminutive size, friendly agedhuman face, ordinary humanlimbs/ears, opaque modest oldkeeper coat and trousers; exactface/costume are artistic interpretation of little-man identity. Clearly luminous blue-gold supernatural wisps RADIATE FROM BODY and keys, illuminate stonevaults, protective loyal guardian aura. No horns, wings, pointedears, children or thieves. No text, watermark, border, collage or labels.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/petermannchen.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-623c1cff-c5bb-4de7-b21b-89f69d65d836.png",
+      "depicted_variant": "Small good-natured castle keeper carrying many keys; humanlike little-man interpretation",
+      "basis_claim_ids": [
+        "petermannchen-c01",
+        "petermannchen-c02",
+        "petermannchen-c03"
+      ],
+      "aura": "helpful castle watchman emitted warm blue-gold magic",
+      "visual_requirements": [
+        "fewfeettall smallspirit",
+        "manykeys",
+        "castle vaultdoors"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected native: small adult humanlike castlekeeper only few feet tall against door scale, many keys in hand and one unlocking vault door, emitted blue-gold aura. Source small household spirit/castlekeeper retained; exact human face, beard, keeper clothing artistic little-man identity interpretation."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-132.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Few-feet-tall humanlike spirit with many keys at castle vault doors, emitted blue-gold aura and coherent anatomy.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/petermannchen-verified.webp",
+      "sha256": "30138fbb48867091f6ee3304c8bf8bdde7924b861d0cd96250c64f0269566aca",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-f634393c-cc6a-4935-8e25-8a26f0020dfd.png",
+  "revision_generator": "finish_aura_a",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "finish_aura_a",
+    "rationale": "Selected source manifestation does not warrant the original generic emitted magic wrapping; recovered faithful native edit removes it while retaining documented attributes.",
+    "allowed_magic": "none; ordinary scene lighting and material reflections only",
+    "source_basis_claim_ids": [
+      "petermannchen-c01",
+      "petermannchen-c02",
+      "petermannchen-c03"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/petermannchen.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/petermannchen.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

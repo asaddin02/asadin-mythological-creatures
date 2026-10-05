@@ -34,3 +34,5 @@ jobs:
         run: npm run test:ui
       - name: Static site matches the server, and the same browser tests pass on it
         run: npm run test:static
+      - name: Public catalog and R2 media work on desktop and mobile
+        run: npm run test:public

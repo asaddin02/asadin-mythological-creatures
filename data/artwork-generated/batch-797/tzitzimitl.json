@@ -1,0 +1,94 @@
+{
+  "slug": "tzitzimitl",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Edit this square painterly mythology encyclopedia artwork of Tzitzimitl. Preserve the single human-proportioned skeletal female deity, coherent skull, ribs, two arms and two legs, shell-edged opaque skirt with skull and crossbones motifs, physical shell headdress and ornaments, stone temple terrace and solar eclipse with real distant stars. Remove ALL violet/silver supernatural glowing ribbons, luminous hair, cosmic vapor, emitted particles and energy wrapping around the body, arms, hands, skirt or legs. Replace those ribbons with ordinary dark clouded sky. Any hair retained is opaque physical dark hair, no glowing strands. Bones and shells are opaque and reflect only faint eclipse skylight and ordinary temple brazier firelight. The eclipse sun corona stays confined to the celestial sun in the sky; no halo around the character. Atmosphere of terrifying majesty comes from low camera, posture, skeletal face, dark architecture and ominous eclipse. Maintain same normal-human terrace scale, anatomy, clothing and square painterly naturalistic quality. No horns, wings, gore, text, border or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/tzitzimitl-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-3f7b8b1c-fbd7-4114-98a0-2c48715a5efc.png",
+  "depicted_variant": "Aztec skeletal female star deity in shell-edged skirt, non-graphic codex-inspired",
+  "basis_claim_ids": [
+    "tzitzimitl-c01",
+    "tzitzimitl-c02",
+    "tzitzimitl-c04",
+    "tzitzimitl-c07",
+    "tzitzimitl-c12"
+  ],
+  "aura": "Terrifying celestial presence through low camera, skull expression, posture and ominous eclipse clouds",
+  "visual_requirements": [
+    "One coherent skeletal female deity wearing shell-edged skirt with skull/crossbones motifs",
+    "Eclipse and distant stars associated with sky, ordinary temple terrace scale",
+    "No emitted body glow, cosmic ribbons, luminous vapor or particles"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native: coherent skull/ribs and two arms/two legs, shell-edged skull/crossbones skirt retained. Violet cosmic ribbons, magic vapor and emitted particles removed; opaque dark hair and ornaments. Eclipse corona belongs to sun in sky, temple fires and low angle provide ominous natural scene lighting. Normal terrace figure scale preserved.",
+    "reviewer": "finish_aura_c"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-143.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected revised native preview: skeletal female celestial deity, shell-edged skirt with skull/crossbones and coherent skeletal limbs, low camera and source-associated solar eclipse convey terrifying scale/presence. No violet energy ribbons or body emissions; eclipse corona remains in sky."
+  },
+  "attempt_history": [
+    {
+      "slug": "tzitzimitl",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square exquisite high-detail painterly naturalistic cinematic mythology encyclopedia illustration. TZITZIMITL, Aztec female celestial star deity, choosing source CODEX SKELETON WITH SHELL-EDGED SKIRT form. ONE fullyframed human SKELETAL FEMALE deity, coherent skull/ribs/twoarms/twolegs, wearing opaque ancientMesoamerican skirt clearly EDGED WITH SEASHELLS and simple SKULL-AND-CROSSBONES designs. No livingflesh or wounds, non-graphic mythic bones. Stands on darktemple terrace beneath dramatic solarECLIPSE and brilliantstars, terrifyingimmense celestialpresence WITHOUT inventing giantsize; terrace anchors normalhuman proportion. Clearly luminous silver-violet cosmic wisps RADIATE FROM SKELETON and shells, powerful starlightenergyswirls, dreadful eclipsedeity atmosphere. No Christian devil horns, wings, sacrificialscene, victims or gore. No text, watermark, border, collage or labels.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/tzitzimitl.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-3f7b8b1c-fbd7-4114-98a0-2c48715a5efc.png",
+      "depicted_variant": "Aztec skeletal female star deity in shell-edged skirt, non-graphic codex-inspired",
+      "basis_claim_ids": [
+        "tzitzimitl-c01",
+        "tzitzimitl-c02",
+        "tzitzimitl-c04",
+        "tzitzimitl-c07",
+        "tzitzimitl-c12"
+      ],
+      "aura": "terrifying eclipse star deity emitted silver-violet cosmic light",
+      "visual_requirements": [
+        "skeletalfemale",
+        "shell-edgedskirt skullcrossbonesdesign",
+        "eclipse/starassociation"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected native: coherent human female skeleton deity in skirt visibly edged with seashells and skull/crossbones motifs, solar eclipse/stars above temple terrace, emitted silver-violet cosmic wisps. Source skeletal female/skirt c02/c12 preserved; exact headdress/jewelry artistic. Normal human terrace proportion, no unsupported giant size or wounds."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-143.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Skeletal female in shell-edged skirt with skull/crossbones pattern, eclipse/star setting and emitted violet cosmic aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/tzitzimitl-verified.webp",
+      "sha256": "9e7ba0f630650f36405a8919eff9a2fdd97598f8fcec42c83087ff9ea8b56c0c",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b61-b0e2-7ba0-9e46-606882add868/exec-0158742e-c692-4808-91d5-3a090b4e1937.png",
+  "revision_generator": "finish_aura_c",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "finish_aura_c",
+    "rationale": "Selected source skeletal female deity with shell-edged skirt and eclipse association requires no violet emitted cosmic ribbons; remove generic glow while retaining terrifying physical presence.",
+    "allowed_magic": "none; source-associated solar eclipse and ordinary sky stars retained",
+    "source_basis_claim_ids": [
+      "tzitzimitl-c01",
+      "tzitzimitl-c02",
+      "tzitzimitl-c04",
+      "tzitzimitl-c07",
+      "tzitzimitl-c12"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/tzitzimitl.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/tzitzimitl.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

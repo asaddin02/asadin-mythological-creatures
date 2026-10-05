@@ -1,0 +1,70 @@
+{
+  "slug": "uraeus",
+  "worker": "worker-0",
+  "prompt": "Use case: stylized-concept. ONE square refined detailed painterly naturalistic mythology encyclopedia illustration of URAEUS, the upright rearing cobra representing Wadjet and Egyptian divine royal protection. ONE anatomically convincing cobra rears upright with fully expanded hood above a low ancient Egyptian royal crown base, serpent body coiled beneath, whole cobra comfortably framed. Show living sacred cobra manifestation with bronze-gold scale sheen; quiet temple stone backdrop and solar shafts. Majestic protective divine aura expressed as amber dust and subtle warm radiance, artistic treatment rather than literal anatomy. Not a generic dragon or human goddess. No human face, arms, legs, wings, added horns, multiple snakes, modern objects, invented readable hieroglyphs, text, watermark, border or collage.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/uraeus.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-ec12626d-47bf-4e6d-9893-d24ea19a3890.png",
+  "depicted_variant": "Upright rearing cobra manifestation representing Wadjet and royal protection",
+  "basis_claim_ids": [
+    "uraeus-c01",
+    "uraeus-c02",
+    "uraeus-c03",
+    "uraeus-c05",
+    "uraeus-c06"
+  ],
+  "aura": "Royal sacred presence through proud raised cobra posture, reflective bronze-gold scales and temple framing.",
+  "visual_requirements": [
+    "One upright rearing hooded cobra",
+    "Egyptian temple context and royal symbol",
+    "No human goddess hybrid or generic magic"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected original contact sheet: single hooded rearing cobra with continuous coiled legless body beside symbolic royal band, Egyptian columns; ordinary golden sunlight and dust, no emitted ribbons.",
+    "reviewer": "aura-resume-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-078.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected original: upright royal cobra, physical crown and golden scales lit by strong palace sunlight. Fine dust in shaft light, no emitted energy swirls or neon outline."
+  },
+  "aura_policy_history": [
+    {
+      "aura": "sacred Egyptian royal-protection radiance",
+      "visual_requirements": [
+        "upright rearing hooded cobra",
+        "Egyptian sacred context",
+        "symbolic royal protection, no human goddess hybrid"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: upright rearing cobra with expanded hood and coiled body, golden crown base in Egyptian temple. Sacred gold-glowing scales/amber particles and temple radiance convey protective Wadjet aura. Source cobra representation/royal protection preserved, no goddess hybrid; metallic palette/crown design artistic."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: rearing hooded cobra coiled on Egyptian royal crown, sacred gold radiance and suspended glowing particles; cobra/Wadjet royal-protection symbol, no human hybrid.",
+        "reviewed_at": "2026-10-05"
+      }
+    }
+  ],
+  "aura_revision": {
+    "decision": "keep",
+    "reviewer": "aura-resume-2",
+    "rationale": "Warm shafts are ordinary temple sunlight; upright cobra royal form source-grounded.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "uraeus-c01",
+      "uraeus-c02",
+      "uraeus-c03",
+      "uraeus-c05",
+      "uraeus-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/uraeus.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/uraeus.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

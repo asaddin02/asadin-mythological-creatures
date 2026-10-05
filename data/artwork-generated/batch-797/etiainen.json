@@ -1,0 +1,93 @@
+{
+  "slug": "etiainen",
+  "worker": "worker-0",
+  "prompt": "Edit the provided square painterly mythology artwork to follow its documented physical manifestation. Preserve ONE modestly clothed adult human-shaped ghost arriving ahead at cabin door. Remove every white luminous filament, halo, outline and smoky magic envelope. A barely perceptible nonluminous transparent double exposure in dress suggests spectral impression; natural light from open doorway and twilight only, no duplicate living person in frame. Preserve painterly naturalistic quality and square composition. No text, border or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/etiainen-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-755a8073-e206-4136-9543-bb37b4b5da4d.png",
+  "depicted_variant": "Human-shaped guardian double arriving at doorway ahead of living person",
+  "basis_claim_ids": [
+    "etiainen-c01",
+    "etiainen-c02",
+    "etiainen-c03",
+    "etiainen-c04",
+    "etiainen-c06"
+  ],
+  "aura": "Character presence through pose, framing, atmosphere and natural light",
+  "visual_requirements": [
+    "Single human-shaped spectral impression at doorway, subtle transparency",
+    "No generic emitted aura, neon halo, magic particles or luminous vapor"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native: single clothed adult apparition at cabin doorway with mild dress transparency showing stones, warm light comes from doorway; no glowing edge or smoke.",
+    "reviewer": "root"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-123.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "finish_aura_c",
+    "reviewed_at": "2026-10-05",
+    "notes": "Independently inspected revised native: one modestly clothed adult human-shaped apparition arriving at cabin doorway, dress transparency subtly reveals stones underneath. Warm light originates inside cabin and twilight from sky; no glowing filaments, halo or luminous mist. Single spectral figure and coherent human anatomy."
+  },
+  "attempt_history": [
+    {
+      "slug": "etiainen",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square uncanny painterly naturalistic mythology illustration of ETIÄINEN, Finnish guardian double/impression arriving ahead of a living person. ONE adult human-shaped spectral impression in modest plain rural Finnish clothing opens a wooden house door from the yard at twilight, source action repeated later by person. No second person shown, no invented creature anatomy; natural human face mostly softly shadowed, familiar yet numinous. Full figure framed. Clearly luminous pale silver supernatural wisps RADIATE FROM BODY and translucent edges, casting ghostlight on threshold, eerie premonition aura artistic. No horns, wings, fangs, mirror monster, victim, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/etiainen.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-755a8073-e206-4136-9543-bb37b4b5da4d.png",
+      "depicted_variant": "Human-shaped guardian double arriving at doorway ahead of living person",
+      "basis_claim_ids": [
+        "etiainen-c01",
+        "etiainen-c02",
+        "etiainen-c03",
+        "etiainen-c04",
+        "etiainen-c06"
+      ],
+      "aura": "uncanny premonition-double emitted pale spirit light",
+      "visual_requirements": [
+        "single human-shaped spectral impression at door",
+        "source ordinary human likeness, no mutations",
+        "no second living person needed"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected native: natural human-shaped adult spectral impression opening rural Finnish door at twilight, modest clothing and luminous silver translucent edges. Source guardian-double action retained; exact face/costume artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-123.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Single humanlike spectral impression at door, natural human face and outline with emitted silver apparition wisps.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/etiainen-verified.webp",
+      "sha256": "4a490bc19de842762ab87c904e625fc554577f8ed13d7e94e281cb1943f4b028",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-c64e4544-85b0-4e31-bbb0-52a1fc3cb5ed.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Original has generic emitted magical wrapping unsupported by selected documented depiction; use physical presence and natural scene lighting.",
+    "allowed_magic": "Only subtle nonluminous source-supported apparition transparency",
+    "source_basis_claim_ids": [
+      "etiainen-c01",
+      "etiainen-c02",
+      "etiainen-c03",
+      "etiainen-c04",
+      "etiainen-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/etiainen.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/etiainen.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "cornflower-wraith",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit / lighting-weather. Edit the supplied mythology artwork. Remove ONLY unsupported visual effects: all generic glowing envelopes, neon body outlines, colored energy ribbons, magical motes/particles, luminous colored fog, swirling aura, and glowing eye bulbs. Do not replace them with other magic. Preserve the SAME individual creature, body anatomy, count of eyes/limbs/heads, exact scale, pose, framing, clothing coverage, props, setting and painterly quality. Source invariants: Slim adult woman in azure dress; Cornflowers in hair; Natural human anatomy and full modest coverage; Field boundary at midday. Character presence instead: Commanding ominous midday presence through stern adult expression, harsh noon sun, azure dress and cornflowers amid sunlit grain.. Restore clean natural textures where effects were removed, ordinary reflected light and realistic shadows.  No new characters or anatomical embellishments, no nudity or gore, no text, watermark or border.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/cornflower-wraith-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-e437057b-9817-4ea6-bdec-1f5d23435f23.png",
+  "depicted_variant": "Slim adult azure-clothed woman with cornflowers in hair at noon",
+  "basis_claim_ids": [
+    "cornflower-wraith-c01",
+    "cornflower-wraith-c02",
+    "cornflower-wraith-c03",
+    "cornflower-wraith-c04"
+  ],
+  "aura": "Commanding ominous midday presence through stern adult expression, harsh noon sun, azure dress and cornflowers amid sunlit grain.",
+  "visual_requirements": [
+    "Slim adult woman in azure dress",
+    "Cornflowers in hair",
+    "Natural human anatomy and full modest coverage",
+    "Field boundary at midday",
+    "Character presence through pose, framing, atmosphere and scene lighting; no generic emitted aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output inspected: blue emitted ribbons removed; slim adult in azure, hair cornflowers and noon grain-field setting preserved, stern gaze and daylight carry presence.",
+    "reviewer": "worker-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-123.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: azure-clad young woman with cornflowers in hair among grain at midday. Natural hard sunlight and ominous stare; no aura trails."
+  },
+  "attempt_history": [
+    {
+      "slug": "cornflower-wraith",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square unnerving detailed painterly naturalistic mythology illustration of CORNFLOWER WRAITH / HABERNITSA, Silesian noon field demon. ONE SLIM young ADULT woman in modest long AZURE clothing, blue CORNFLOWERS clearly woven in hair, roams grain-field boundary near Prudnik under HOT MIDDAY SUN. Source human anatomy and face remain natural, eerily calm severe gaze, full figure framed. Clearly luminous AZURE supernatural wisps RADIATE FROM HER BODY, lighting grain unnaturally blue against summer glare, threatening field-spirit aura artistic. No night, sickle added, victim, broken limbs, child, wings, horns, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/cornflower-wraith.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-e437057b-9817-4ea6-bdec-1f5d23435f23.png",
+      "depicted_variant": "Slim adult azure-clothed woman with cornflowers in hair at noon",
+      "basis_claim_ids": [
+        "cornflower-wraith-c01",
+        "cornflower-wraith-c02",
+        "cornflower-wraith-c03",
+        "cornflower-wraith-c04"
+      ],
+      "aura": "unnerving azure field-demon radiance under scorching noon",
+      "visual_requirements": [
+        "slim adult woman in azure",
+        "cornflowers in hair",
+        "field bounds at midday, emitted blue aura"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected the native generated image. Source variant morphology, garments and setting agree with cited claims. Emitted supernatural wisps are visible; lighting, composition and aura are artistic interpretation."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-123.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Slim adult woman in azure clothes with cornflowers in hair, bright midday field and emitted blue aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/cornflower-wraith-verified.webp",
+      "sha256": "def93e0dcc3f6cf0d6145f6ff44a5ae597bbe9a172a61116bae584f488184d8e",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-a9abc14d-e0cc-4452-8f78-b65be265961f.png",
+  "revision_generator": "worker-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-2",
+    "rationale": "Bright blue emitted ribbons around woman and grain unsupported by noon-demon appearance.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "cornflower-wraith-c01",
+      "cornflower-wraith-c02",
+      "cornflower-wraith-c03",
+      "cornflower-wraith-c04"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/cornflower-wraith.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/cornflower-wraith.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

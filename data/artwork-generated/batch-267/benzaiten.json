@@ -1,0 +1,34 @@
+{
+  "slug": "benzaiten",
+  "prompt": "One square finely detailed painterly naturalistic encyclopedia illustration of Benzaiten, the revered Japanese goddess of music and flowing water. Choose her lute-playing human form documented in the British Museum Muromachi-period hanging scroll, not the eight-arm Uga Benten variant. Depict one serenely majestic adult female deity seated on a rocky crag above rolling water, waterfall and mist behind her. She has a fully human body and exactly TWO arms and TWO hands playing a Japanese biwa lute: wooden pear-shaped body, short fretted neck and strings, one hand on neck and one at strings. Traditional flowing elegant East Asian Buddhist deity robes and restrained golden head ornament, full seated body and complete instrument visible with margins. Gentle luminous golden aureole and clear sacred presence, serene compassionate expression, divine reverence and poetic grace. Rich natural painted textures with water reflected light. No snake body or snake head, no extra limbs, no horns, wings, sword or other weapons, no modern guitar, no other figures, no text or watermark.",
+  "visual_requirements": [
+    "Female deity with exactly two arms in lute-playing human variant",
+    "Japanese biwa lute clearly visible",
+    "Seated on rocky crag above water with waterfall",
+    "Serene luminous sacred goddess aura"
+  ],
+  "depicted_variant": "Lute-playing human form documented in Muromachi hanging scroll, not Uga Benten",
+  "basis_claim_ids": [
+    "benzaiten-c01",
+    "benzaiten-c02",
+    "benzaiten-c03"
+  ],
+  "additional_sources": [
+    {
+      "url": "https://www.britishmuseum.org/collection/object/A_1924-0714-0-2",
+      "basis": "Museum describes Benzaiten playing lute, seated on rocky crag buffeted by waves, waterfall behind"
+    }
+  ],
+  "aura": "serene majestic sacred reverence",
+  "worker": "worker-1",
+  "original_file": "/home/asadin/.codex/generated_images/01a1027b-a981-7740-919f-fedd3124720e/exec-15d5b6cf-f4f5-4b86-95ea-a374aa226513.png",
+  "review_path": "data/gemini/reviews/batch-049.review.json",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Ordinary human seated woman playing biwa; halo and clothing do not change anatomy."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-1.json"
+}

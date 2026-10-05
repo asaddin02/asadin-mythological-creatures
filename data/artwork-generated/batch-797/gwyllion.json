@@ -1,0 +1,94 @@
+{
+  "slug": "gwyllion",
+  "basis_claim_ids": [
+    "gwyllion-c01",
+    "gwyllion-c02",
+    "gwyllion-c03",
+    "gwyllion-c07",
+    "gwyllion-c10"
+  ],
+  "depicted_variant": "Frightful Old Woman of the Mountain",
+  "visual_requirements": [
+    "Remove violet lightning coming from hands, magical light trails on path, motes and emitted eye light. Preserve same old frightful female hag, face, stoop, reaching hands, natural human anatomy, opaque ragged cloak and lonely Welsh mountain road. Eyes ordinary shaded eyes. Presence through crooked approach, frightening face and dark winding moonlit road.",
+    "No generic emitted wrapping; preserve anatomy and counts"
+  ],
+  "aura": "Stooped frightful old woman approaching on lonely mountain road.",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove violet lightning coming from hands, magical light trails on path, motes and emitted eye light. Preserve same old frightful female hag, face, stoop, reaching hands, natural human anatomy, opaque ragged cloak and lonely Welsh mountain road. Eyes ordinary shaded eyes. Presence through crooked approach, frightening face and dark winding moonlit road. Preserve original composition, count, exact scale and identity. No added subjects, nudity, gore, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-120.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/gwyllion-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-8267ebc3-818f-4831-a572-fec3c8d7a22e.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output actually inspected: same frightful old woman, stoop and reaching hands on mountain road; violet hand lightning, eye emission and luminous path removed.",
+    "reviewer": "aura-resume-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected native: frightful old hag in ragged clothes on lonely mountain path, physical moonlit scene, no body mist or luminous hands."
+  },
+  "attempt_history": [
+    {
+      "slug": "gwyllion",
+      "basis_claim_ids": [
+        "gwyllion-c01",
+        "gwyllion-c02",
+        "gwyllion-c03",
+        "gwyllion-c07",
+        "gwyllion-c10"
+      ],
+      "depicted_variant": "Frightful Old Woman of the Mountain",
+      "visual_requirements": [
+        "Old female hag/witch fairy",
+        "Welsh mountain lonely road",
+        "Natural human anatomy"
+      ],
+      "aura": "Emitted violet-white spectral strands",
+      "prompt": "Depict a Gwyllion, the Welsh Old Woman of the Mountain archetype, as a frightful elderly female hag fairy haunting a lonely winding road through the Welsh mountains. A gaunt stooped old woman with a severely wrinkled face and disturbing glaring eyes, completely covered in old dark modest layered robes and shawl, two human arms and legs, no horns, wings, fangs or animal limbs. Alone on the mountain path at night, clear full silhouette. Strong uncanny violet-white luminous spectral strands and glowing particles emanate directly from her body and crooked fingers, winding across the path as an ominous illusion of misleading directions. Extremely frightening gloomy atmosphere with jagged hills and storm clouds, no lost travellers or victims. Square premium highly detailed painterly mythological encyclopedia artwork, coherent anatomy, full identifying silhouette visible, emitted supernatural aura. No text, caption, border, watermark, gore, victims or sexual elements.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-120.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/gwyllion.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-8267ebc3-818f-4831-a572-fec3c8d7a22e.png",
+      "reviewed_at": "2026-10-05T04:20:32.623Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: frightful fully robed elderly female mountain hag, natural human anatomy, violet-white emitted magic visibly winds along lonely Welsh mountain road."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Old humanlike hag fairy on lonely Welsh mountain road, no invented horns/wings and emitted violet wisps.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/gwyllion-verified.webp",
+      "sha256": "68de6165e851800ee3099880d0f0433f59b2b581ccdbafe79a81da87597aa690",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-5404624f-7ec0-4787-8f2c-f1b504ef30d8.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Leading travelers astray does not support purple light trails.",
+    "allowed_magic": "none beyond documented manifestation",
+    "source_basis_claim_ids": [
+      "gwyllion-c01",
+      "gwyllion-c02",
+      "gwyllion-c03",
+      "gwyllion-c07",
+      "gwyllion-c10"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/gwyllion.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/gwyllion.json"
+  }
+}

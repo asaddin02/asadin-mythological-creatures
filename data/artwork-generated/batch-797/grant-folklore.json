@@ -1,0 +1,94 @@
+{
+  "slug": "grant-folklore",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Input image 1 is the sole edit target. Change only excessive aura effects while preserving character/source traits. Remove the luminous blue-white magic fog wrapping around the foal, luminous lines, floating glitter and emitted body outline. Retain same yearling horse on TWO hind legs with both natural forelegs raised, face, street, dog, sunset and composition. Source sparkling eyes may keep a tiny subtle light-catching eye glint, but remove the bright blue eye beam/starburst. Reconstruct natural fur and cobbled street in overlay areas. Uncanny rearing pose, warning dog and dusk shadows convey presence; no fire or magic envelope. No text, watermark, new characters or objects.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/grant-folklore-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-2794ddc0-fa85-449c-8601-b2ade0b081c6.png",
+  "depicted_variant": "Gervase yearling-foal demon upright on hind legs",
+  "basis_claim_ids": [
+    "grant-folklore-c01",
+    "grant-folklore-c05",
+    "grant-folklore-c06",
+    "grant-folklore-c07",
+    "grant-folklore-c08"
+  ],
+  "aura": "Uncanny upright yearling foal on dusk village street with warning dog.",
+  "visual_requirements": [
+    "Yearling foal standing on two hind legs, both natural forelegs raised",
+    "Preserve dog, street, pose and small eye catchlight",
+    "No luminous body fog, filaments, glitter or eye beam"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected output: upright foal retains two hind legs/two raised forelegs, dog and wet dusk street. Magic fog and body glitter gone; eye is ordinary dark eye with small reflected glint, no blue beam.",
+    "reviewer": "root"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-120.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "aura-resume-0",
+    "reviewed_at": "2026-10-05",
+    "notes": "Independently inspected revised image: one yearling foal upright on hind legs, forelegs raised, four coherent equine limbs, street and barking dog context. Eyes have small ordinary glints; no starburst, blue energy fog or halo."
+  },
+  "attempt_history": [
+    {
+      "slug": "grant-folklore",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square detailed painterly naturalistic medieval folklore illustration of GRANT / GYANT, selecting Gervase of Tilbury's demon description rather than modern hare explanation. ONE YEARLING FOAL stands UPRIGHT ON ITS TWO HIND LEGS, its two ordinary horse forelegs raised, bright SPARKLING EYES, young foal proportions and natural horse head/tail. On an old English village lane at dusk, a distant dog barking reacts to its warning appearance. Full foal inside frame. Terrifying supernatural presence despite protective warning purpose: cold silvery mist and sparkling eye aura, no actual disaster required. Preserve four horse limbs, no human hands or face. No rider, wings, horns, extra legs, hare ears, fire destruction, gore, text, watermark, border or collage. Aura requirement: visibly luminous supernatural wisps and light radiate directly from the creature's body and cast a subtle glow on nearby surfaces; this is artistic effect, not extra anatomy.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/grant-folklore.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-2794ddc0-fa85-449c-8601-b2ade0b081c6.png",
+      "depicted_variant": "Gervase yearling-foal demon upright on hind legs",
+      "basis_claim_ids": [
+        "grant-folklore-c01",
+        "grant-folklore-c05",
+        "grant-folklore-c06",
+        "grant-folklore-c07",
+        "grant-folklore-c08"
+      ],
+      "aura": "terrifying but protective warning apparition, sparkling eyes",
+      "visual_requirements": [
+        "yearling foal upright on two hind legs",
+        "sparkling eyes, natural horse forelegs",
+        "street warning atmosphere, no hare interpretation"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: yearling foal upright on two hind legs, two raised horse forelegs, sparkling eyes, horse head/tail; barking dog reacts on village lane. Clearly emitted silvery light/wisps around creature cast glow on ground. Gervase variant preserved rather than hare theory; coat/color/light artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-120.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: yearling foal upright on two hind legs with two raised forelegs, sparkling eyes and emitted pale spectral wisps on village lane; barking dog context and source warning form coherent.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/grant-folklore-verified.webp",
+      "sha256": "47769f33c2129a72ab35fcdcefb8eced522cd5501bffefdc1fe2915f8d232caf",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-b22b5529-1d4a-46f5-b662-c5a25efd00a0.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Generic blue-white fog ribbons and bright eye starburst removed.",
+    "allowed_magic": "Source c06 sparkling eyes reduced to natural tiny reflected glint; no body magic.",
+    "source_basis_claim_ids": [
+      "grant-folklore-c01",
+      "grant-folklore-c05",
+      "grant-folklore-c06",
+      "grant-folklore-c07",
+      "grant-folklore-c08"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/grant-folklore.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/grant-folklore.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

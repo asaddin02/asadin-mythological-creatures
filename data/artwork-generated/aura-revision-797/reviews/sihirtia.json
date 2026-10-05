@@ -1,0 +1,28 @@
+{
+  "slug": "sihirtia",
+  "rationale": "Tiny tundra person and pendants emit large golden energy spirals unrelated to source appearance.",
+  "allowed_magic": "none; background aurora is natural sky light, retain.",
+  "aura": "Small finely dressed tundra person with physical metal pendants among large grass and sandy hills at night.",
+  "visual_requirements": [
+    "Very short adult humanlike person, same face, clothes and scale cues.",
+    "Metal pendants retain physical gold material but do not emit light.",
+    "Natural sky aurora and moon/snow reflections retained; no golden energy loops."
+  ],
+  "prompt": "Use case: precise-object-edit. Input image is sole EDIT TARGET. Remove all unsupported magical body envelopes, colored luminous fog, emitted energy ribbons, neon outlines, halo, glowing particles and sparkle trails. Reconstruct natural clothing, textures and scene beneath removed overlays. Preserve exact source anatomy, face, pose, scale, camera, composition and physical materials. No new objects/characters, text or watermark. For Sihirtia, remove gold magical energy loops, glowing sparks and self-emitting light from ALL metal pendants on person's clothing and surrounding grass. Keep necklaces and pendants as solid reflecting metal objects. Preserve same very short ADULT person, face, detailed fine fur clothing, stance, tiny stature relative to large grass and sandy hill composition. Retain natural green aurora HIGH IN DISTANT SKY, ordinary starry tundra night and natural sky/moon reflections on snow, no emitted aurora from person. Presence from small humanlike figure and quiet night.",
+  "reviewer": "root",
+  "decision": "revise",
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-e26e6821-7e56-405a-a776-a5870232f85d.png",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native edit: tiny finely dressed adult retains physical metal pendants with no self-emission. Golden loops/particles gone; natural distant aurora and snowy tundra scene retained."
+  },
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/sihirtia.png",
+  "source_basis_claim_ids": [
+    "sihirtia-c01",
+    "sihirtia-c02",
+    "sihirtia-c03"
+  ],
+  "status": "reviewed",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/aura-revision-797/originals/sihirtia.png",
+  "tool": "OpenAI built-in image_gen"
+}

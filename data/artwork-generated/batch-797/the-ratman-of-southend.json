@@ -1,0 +1,87 @@
+{
+  "slug": "the-ratman-of-southend",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Remove ONLY unsupported effects: all emitted blue smoke around body, luminous envelope, neon outline and bright floor aura; retain ghostly apparition through VERY slight translucency in coat/lower legs, no emitted light or fog. Preserve exactly same ONE adult male human ghost, bedraggled modest coat and trousers, shadow-obscured non-graphic face, same wall-reaching pose, scale and tiled Southend underpass, framing, detail and clothing coverage. Character presence through shadowed face and hunched posture in quiet oppressive underpass with ordinary ceiling lamps. Natural texture, ordinary reflected scene light and shadows. No generic emitted aura, new anatomy, subjects, rat-headed hybrid, gore, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/the-ratman-of-southend-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-1ecaa083-e12a-4718-af8c-c674b83427ac.png",
+  "depicted_variant": "Ghostly underpass revenant of Southend urban legend, no invented rat hybrid",
+  "basis_claim_ids": [
+    "the-ratman-of-southend-c01",
+    "the-ratman-of-southend-c02",
+    "the-ratman-of-southend-c03"
+  ],
+  "aura": "shadowed face and hunched posture in quiet oppressive underpass with ordinary ceiling lamps",
+  "visual_requirements": [
+    "same ONE adult male human ghost, bedraggled modest coat and trousers, shadow-obscured non-graphic face, same wall-reaching pose, scale and tiled Southend underpass",
+    "No generic emitted body aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native inspected: same male ghost in modest ragged coat, shadow-obscured face, hunched wall-reaching pose; blue smoke and floor glow removed, slight spectral translucency remains under ordinary tunnel lamps.",
+    "reviewer": "aura-resume-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-119.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: adult ragged revenant in tiled underpass, source apparition indicated by subtle transparency and ominous shadowed face. Physical overhead lights, no emitted cyan/green envelope."
+  },
+  "attempt_history": [
+    {
+      "slug": "the-ratman-of-southend",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square deeply terrifying painterly naturalistic urban-legend encyclopedia illustration of THE RATMAN OF SOUTHEND. Source legend is a dead homeless man's GHOST in a pedestrian underpass, not a literal rat-headed hybrid. ONE adult male spectral figure in worn modest everyday coat, gaunt human silhouette, face largely obscured by deep shadow and cold vapor to convey the story's damage NON-GRAPHICALLY, no visible wound. He stands in an empty tiled English underpass at night; faint scraping motion suggested by one hand near wall. Clearly luminous ash-blue ghost wisps RADIATE FROM BODY and cast sickly light along floor, extreme oppressive dread. No rat head, animal mutation, exposed flesh, gore, violence, victims, readable signs, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/the-ratman-of-southend.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-1ecaa083-e12a-4718-af8c-c674b83427ac.png",
+      "depicted_variant": "Ghostly underpass revenant of Southend urban legend, no invented rat hybrid",
+      "basis_claim_ids": [
+        "the-ratman-of-southend-c01",
+        "the-ratman-of-southend-c02",
+        "the-ratman-of-southend-c03"
+      ],
+      "aura": "terrifying underpass ghost and vermin-sound dread",
+      "visual_requirements": [
+        "adult male ghost in underpass",
+        "non-graphic obscured damaged face",
+        "no rat-head hybrid unsupported by source"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: adult male ghost in worn coat within tiled underpass, human face mostly dark shadow without wound or rat mutation, one hand against wall. Strong emitted blue spectral vapor casts cold floor light, terrifying urban ghost aura. Damage non-graphic/obscured, clothing and spectral appearance artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-119.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Human male underpass ghost, shadow-obscured non-graphic face and emitted blue wisps inspected; no invented rat head.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/the-ratman-of-southend-verified.webp",
+      "sha256": "cd8a65bd13b8bfae3f3024e42077ae3b08bfc49178e2f44260aabc924a8c0557",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-fff9-76e1-92c1-76bde2aff5e5/exec-8716b2c1-580f-4ee6-9fcc-73fb94ed5891.png",
+  "revision_generator": "aura-resume-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-2",
+    "rationale": "Removed unsupported body wrapping while preserving supported manifestation/ability.",
+    "allowed_magic": "Subtle translucent ghost manifestation, the-ratman-of-southend-c03",
+    "source_basis_claim_ids": [
+      "the-ratman-of-southend-c01",
+      "the-ratman-of-southend-c02",
+      "the-ratman-of-southend-c03"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/the-ratman-of-southend.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/the-ratman-of-southend.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "kurupi",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Input image 1 is the sole edit target. Change only excessive aura effects while preserving character/source traits. Remove green luminous filaments around the man and leaves, glowing particles, artificial green outline and green self-lit eye glints. Preserve exact short ugly hairy ADULT male identity, modest opaque waist covering, backward-pointing feet with heels facing camera as currently shown, forest path, camera and proportions. Reconstruct natural matte hair, skin and leaves. He is a nature-associated being, but this portrait needs no magic light: presence through fierce expression, low forest light, cramped foliage and peculiar backwards feet. No genital exposure, no invented anatomy. No text, watermark, new characters or objects.",
+  "base_prompt": "Use case: stylized-concept. ONE square nonsexual detailed painterly naturalistic mythology encyclopedia illustration of KURUPI from Guaraní mythology. One SHORT adult ugly HAIRY male forest spirit, aged face, stocky mature body, walks through dense subtropical thicket. His FEET POINT BACKWARDS relative to his torso and movement, clearly show both backward-pointing feet and misleading tracks. Modest plain opaque waist cloth completely covers pelvis and all genital anatomy, no belt substitute or invented organ shapes. Keep adult, not child. Ominous nature-protector mythology aura through green-black forest fog, luminous fern edges and watchful uncanny gaze as artistic atmosphere. No woman, child, victim, nudity, sexual content, violence, horns, wings, extra limbs, text, watermark, border or collage. Aura requirement: visibly luminous supernatural wisps and light radiate directly from the creature's body and cast a subtle glow on nearby surfaces; this is artistic effect, not extra anatomy.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/kurupi-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-ca38b84a-c07b-4395-8a3f-45f8b6dd25f4.png",
+  "depicted_variant": "Modest adult short hairy backward-footed Guarani Kurupi, defining genital feature concealed",
+  "basis_claim_ids": [
+    "kurupi-c02",
+    "kurupi-c03",
+    "kurupi-c04",
+    "kurupi-c05",
+    "kurupi-c08"
+  ],
+  "aura": "Fierce short hairy male in cramped forest, backward feet and dim natural canopy light.",
+  "visual_requirements": [
+    "Short ugly hairy adult male with modest opaque waist covering",
+    "Backward-pointing feet preserved with heels facing camera",
+    "No green magic ribbons, emitted eyes or foliage glitter"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native output: short hairy adult man, modest waist covering, backwards feet with visible forward-facing heels retained. Green emitted ribbons, dots and eye glow gone; matte hair and natural damp forest remain.",
+    "reviewer": "root"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "superseded_generation": {
+    "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-aee42cce-00d2-4110-913b-9868dbb23932.png",
+    "reason": "Feet ordinary orientation; corrected source backward-foot invariant."
+  },
+  "review_path": "data/gemini/reviews/batch-143.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "aura-resume-0",
+    "reviewed_at": "2026-10-05",
+    "notes": "Independently inspected revised image: small ugly hairy adult humanoid with backward-pointing feet, modest opaque waist cloth, coherent two arms and legs in dense forest. No green ribbons, eye emission or particles; natural damp jungle light and expression carry presence."
+  },
+  "attempt_history": [
+    {
+      "slug": "kurupi",
+      "worker": "worker-0",
+      "prompt": "Use case: precise-object-edit. Correct this KURUPI nonsexual mythology illustration to show his defining BACKWARD FEET unambiguously. Keep adult aged short hairy male, opaque plain waist cloth fully covering pelvis, forest, green emitted luminous aura, no victims. Change pose to full FRONT-FACING torso and face toward camera, knees forward. Rotate EACH FOOT180 degrees at ankle so the HEELS face the camera and the TOES POINT DIRECTLY BEHIND HIM away from camera. Show both feet clearly from low front three-quarter viewpoint; feet backwards while knees/torso face forward, not ordinary heels seen because body turned away. Feet anatomy otherwise normal. No exposed genitals, new belt anatomy, horns, wings, extra limbs, gore, text, watermark or border.",
+      "base_prompt": "Use case: stylized-concept. ONE square nonsexual detailed painterly naturalistic mythology encyclopedia illustration of KURUPI from Guaraní mythology. One SHORT adult ugly HAIRY male forest spirit, aged face, stocky mature body, walks through dense subtropical thicket. His FEET POINT BACKWARDS relative to his torso and movement, clearly show both backward-pointing feet and misleading tracks. Modest plain opaque waist cloth completely covers pelvis and all genital anatomy, no belt substitute or invented organ shapes. Keep adult, not child. Ominous nature-protector mythology aura through green-black forest fog, luminous fern edges and watchful uncanny gaze as artistic atmosphere. No woman, child, victim, nudity, sexual content, violence, horns, wings, extra limbs, text, watermark, border or collage. Aura requirement: visibly luminous supernatural wisps and light radiate directly from the creature's body and cast a subtle glow on nearby surfaces; this is artistic effect, not extra anatomy.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/kurupi.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-ca38b84a-c07b-4395-8a3f-45f8b6dd25f4.png",
+      "depicted_variant": "Modest adult short hairy backward-footed Guarani Kurupi, defining genital feature concealed",
+      "basis_claim_ids": [
+        "kurupi-c02",
+        "kurupi-c03",
+        "kurupi-c04",
+        "kurupi-c05",
+        "kurupi-c08"
+      ],
+      "aura": "ominous forest nature spirit and misleading backward tracks",
+      "visual_requirements": [
+        "adult short ugly hairy male",
+        "backward-pointing feet clearly visible",
+        "modest waist covering, nonsexual scene"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected corrected image: front-facing adult aged short hairy man, opaque modest waist cloth completely conceals genital feature; knees/torso forward but heels face viewer and toes project behind, clearly reversed feet. Emitted green forest wisps cast glow. Defining genital source feature deliberately concealed rather than changed into invented belt/anatomy; morphology/hair/feet source supported."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "superseded_generation": {
+        "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-aee42cce-00d2-4110-913b-9868dbb23932.png",
+        "reason": "Feet ordinary orientation; corrected source backward-foot invariant."
+      },
+      "review_path": "data/gemini/reviews/batch-143.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected corrected image: short hairy adult male with modest opaque waist cloth, front-facing torso and clearly reversed heels toward viewer/toes behind; emitted green forest aura. Concealed genital feature remains disclosed rather than altered.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/kurupi-verified.webp",
+      "sha256": "7ef779279b67a9e16b9bb68f644b12b158f75362aec218a8d683523d4021f766",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-69baf147-599c-4de8-954d-c0705df1fc85.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Green emitted hair/body ribbons, eye glow and floating particles removed.",
+    "allowed_magic": "None; nature protection does not require luminous envelope.",
+    "source_basis_claim_ids": [
+      "kurupi-c02",
+      "kurupi-c03",
+      "kurupi-c04",
+      "kurupi-c05",
+      "kurupi-c08"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/kurupi.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/kurupi.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

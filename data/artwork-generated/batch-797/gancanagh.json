@@ -1,0 +1,97 @@
+{
+  "slug": "gancanagh",
+  "worker": "root",
+  "prompt": "Use case: precise-object-edit. Input image is sole EDIT TARGET. Remove only the purple magical ribbons, glowing particles, emitted violet body halo and luminous outline around Gancanagh. Reconstruct natural dark cloak, hair and ground beneath effects. Preserve exactly handsome adult man's face, black eyes, hair, clothing, body anatomy, pose, camera and mountain path scene. This selected source describes NO cast bodily shadow: keep visible ground without his shadow. Retain ordinary low atmospheric mist in landscape because his approach is documented as accompanied by mist, but no illuminated colored magic fog or body emission. Dusk sky and unsettling direct gaze carry character presence. No extra creatures, text or watermark.",
+  "depicted_variant": "Ethna Carbery handsome black-eyed shadowless Love-Talker",
+  "basis_claim_ids": [
+    "gancanagh-c01",
+    "gancanagh-c06"
+  ],
+  "visual_requirements": [
+    "Handsome adult male fairy with black eyes, same face/clothes/pose.",
+    "No cast body shadow on visible ground.",
+    "Natural low mist only; no violet emitted glow, filaments or particles."
+  ],
+  "aura": "Unsettling black-eyed, shadowless handsome fairy on dusk path with ordinary low mist.",
+  "review_path": "data/gemini/reviews/batch-117.review.json",
+  "tool": "OpenAI built-in image_gen",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-632f38c8-ca46-4a2d-82d3-e3380a632b79.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/gancanagh-presence-v2.png",
+  "status": "reviewed",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native edit: black-eyed handsome adult male retained, no cast body shadow on path; violet emitted ribbons/sparks removed. Ordinary landscape mist, dark cloak and dusk natural light.",
+    "reviewer": "root"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "aura-resume-0",
+    "reviewed_at": "2026-10-05",
+    "notes": "Independently inspected revised native contact: handsome adult clothed male fairy with dark black eyes, no distinct cast body shadow on visible ground. Violet ribbons, particles and halo absent; only natural mountain mist and dusk light."
+  },
+  "independent_visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native edit: black-eyed handsome adult male retained, no cast body shadow on path; violet emitted ribbons/sparks removed. Ordinary landscape mist, dark cloak and dusk natural light.",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05"
+  },
+  "attempt_history": [
+    {
+      "slug": "gancanagh",
+      "worker": "root",
+      "prompt": "Use case: stylized-concept. One square high-detail painterly naturalistic cinematic mythology encyclopedia illustration. One handsome ADULT male Irish fairy GANCANAGH, choosing Ethna Carbery Love-Talker variant: natural human face, both eyes entirely DARK BLACK, human rounded ears, fully opaque modest antique Irish rural clothes. Alone in a lonely misty valley, unnervingly beautiful and predatory gaze. Clearly lit visible stone path beneath and beside boots has NO CAST SHADOW from him despite directional twilight lighting. Silver-violet supernatural wisps clearly EMIT FROM his outline and glimmer in approaching mist. No women, seduction scene, victims, horns, wings, pointyears or monsterteeth. No pipe needed for this particular source variant. No writing, text, watermark, frame, collage or labels.",
+      "depicted_variant": "Ethna Carbery handsome black-eyed shadowless Love-Talker",
+      "basis_claim_ids": [
+        "gancanagh-c01",
+        "gancanagh-c06"
+      ],
+      "visual_requirements": [
+        "Handsome adult male fairy with black eyes",
+        "No cast bodily shadow on visible ground",
+        "Mist and emitted supernatural aura"
+      ],
+      "aura": "Clearly emitted supernatural luminous wisps and particles as artistic aura",
+      "review_path": "data/gemini/reviews/batch-117.review.json",
+      "tool": "OpenAI built-in image_gen",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-632f38c8-ca46-4a2d-82d3-e3380a632b79.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/gancanagh.png",
+      "status": "reviewed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually viewed handsome adult male fairy with dark eyes on visible valley path, no directional bodily cast shadow, emitted violet mist aura."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Actually viewed handsome adult male fairy with dark eyes on visible valley path, no directional bodily cast shadow, emitted violet mist aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "independent_visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-0",
+        "notes": "Worker-0 independently inspected native image: handsome adult male, both eyes clearly entirely black; visible path has no directional cast body shadow. Violet emitted aura clearly present.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/gancanagh-verified.webp",
+      "sha256": "de880ddf1ad76c277ef3f36461f8adb468c889e62d6d6ce0774daf13962c33aa",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-b6872780-723f-4d76-b431-497753afecd2.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Original has emitted violet ribbons, particles and halo unsupported by the selected shadowless fairy source.",
+    "allowed_magic": "Only ordinary atmospheric approach mist supported by c06; no self-emission.",
+    "source_basis_claim_ids": [
+      "gancanagh-c01",
+      "gancanagh-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/gancanagh.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/gancanagh.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

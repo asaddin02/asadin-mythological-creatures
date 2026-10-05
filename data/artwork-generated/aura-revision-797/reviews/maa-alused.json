@@ -1,0 +1,29 @@
+{
+  "slug": "maa-alused",
+  "rationale": "Tiny underground smith and roots emit unsupported gold magical filaments instead of physical forge lighting.",
+  "allowed_magic": "none; ordinary forge flame/sparks retained.",
+  "aura": "Tiny underground human-shaped smith working with small tools, physical forge fire and deep root chamber create atmosphere.",
+  "visual_requirements": [
+    "Tiny human-shaped adult smith with same face/hands/hammer/anvil.",
+    "Underground physical roots and reversed-world staging retained as editorial composition.",
+    "No gold energy ribbons from roots/body; sparks only physically from hammer/forge if any."
+  ],
+  "prompt": "Use case: precise-object-edit. Input image is sole EDIT TARGET. Remove all unsupported emitted energy ribbons, luminous colored fog, magical sparkles/particles, halos and neon outlines from subjects and environment. Reconstruct ordinary physical textures underneath. Preserve exact identities, anatomy/counts, pose, scale, perspective, clothing and scene. Natural light only; no new objects/characters, text or watermark. Maa-alused: preserve tiny human-shaped ADULT smith, same face, hands, hammer striking anvil, small physical tools and underground root chamber with ceiling workshop editorial staging. Remove emitted golden magical lines from roots, body and surroundings. Retain ordinary physical forge FIRE and only tiny natural hot-metal sparks immediately at hammer/anvil contact, no floating magical particles elsewhere. Presence through underground depth, miniature scale and honest firelight, not body emission.",
+  "reviewer": "root",
+  "decision": "revise",
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-1aff88e3-b2b0-4bc9-bd30-0f7f92e2bf22.png",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native edit: tiny adult smith, hammer/anvil/tools, underground roots and inverted ceiling workshop retained. Gold root ribbons removed; only physical forge fire and small sparks at metal contact."
+  },
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/maa-alused.png",
+  "source_basis_claim_ids": [
+    "maa-alused-c01",
+    "maa-alused-c02",
+    "maa-alused-c04",
+    "maa-alused-c05"
+  ],
+  "status": "reviewed",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/aura-revision-797/originals/maa-alused.png",
+  "tool": "OpenAI built-in image_gen"
+}

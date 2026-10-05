@@ -3,7 +3,7 @@
   "baseline": 118,
   "tool": "OpenAI built-in image_gen",
   "status": "in-progress",
-  "complete": 99,
+  "complete": 82,
   "items": [
     {
       "slug": "adze-folklore",
@@ -91,12 +91,14 @@
         "verdict": "pass",
         "notes": "Small dark-haired male fairy dressed in leaves and moss among birches, gentle demeanor."
       },
-      "status": "complete",
+      "status": "excluded-human",
       "canonical_name": "Ghillie Dhu",
       "review_path": "data/gemini/reviews/batch-118.review.json",
       "url": "/assets/art/ghillie-dhu-verified.webp",
       "width": 1254,
-      "height": 1254
+      "height": 1254,
+      "regenerate": false,
+      "exclusion_reason": "Ordinary bearded man wearing foliage, human anatomy and costume."
     },
     {
       "slug": "helhest",
@@ -422,12 +424,14 @@
         "verdict": "pass",
         "notes": "Human woman with two human legs and removed seal skin bearing seal head/flippers; moody northern shore, no mermaid tail."
       },
-      "status": "complete",
+      "status": "excluded-human",
       "canonical_name": "Selkie",
       "review_path": "data/gemini/reviews/batch-115.review.json",
       "url": "/assets/art/selkie-verified.webp",
       "width": 1254,
-      "height": 1254
+      "height": 1254,
+      "regenerate": false,
+      "exclusion_reason": "Image depicts ordinary woman standing on shore rather than seal form."
     },
     {
       "slug": "shahmaran",
@@ -547,12 +551,14 @@
         "verdict": "pass",
         "notes": "Pale white-skinned woman in white kimono and snowy forest, cold breath visible; quiet horror mood."
       },
-      "status": "complete",
+      "status": "excluded-human",
       "canonical_name": "Yuki-onna",
       "review_path": "data/gemini/reviews/batch-049.review.json",
       "url": "/assets/art/yuki-onna-verified.webp",
       "width": 1254,
-      "height": 1254
+      "height": 1254,
+      "regenerate": false,
+      "exclusion_reason": "Ordinary woman in white robe, snow and pallor only."
     },
     {
       "slug": "zouyu",
@@ -579,7 +585,7 @@
       "exact_prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Subject: A kindly elderly woman in plain woven clothing walking over dry leaves among tall Siberian trees. Ordinary human anatomy, aged face; no horns, no green beard.",
       "depicted_variant": "Harmless old-woman forest spirit variant",
       "original_file": "/home/asadin/.codex/generated_images/01a10068-c5d0-7a40-849c-11e4d3ae6097/exec-84bb9e2e-0584-4402-92c2-46a92a1d385a.png",
-      "status": "complete",
+      "status": "excluded-human",
       "visual_review": {
         "verdict": "pass",
         "notes": "Elderly harmless woman variant in leaf-littered forest; no contradictory horned male features. Gentle numinous atmosphere."
@@ -621,7 +627,9 @@
       "width": 1254,
       "height": 1254,
       "url": "/assets/art/abada-verified.webp",
-      "prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Subject: A kindly elderly woman in plain woven clothing walking over dry leaves among tall Siberian trees. Ordinary human anatomy, aged face; no horns, no green beard."
+      "prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Subject: A kindly elderly woman in plain woven clothing walking over dry leaves among tall Siberian trees. Ordinary human anatomy, aged face; no horns, no green beard.",
+      "regenerate": false,
+      "exclusion_reason": "Ordinary elderly woman with walking staff."
     },
     {
       "slug": "akateko-folklore",
@@ -667,7 +675,7 @@
       "exact_prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Subject: An ancient, very obese female spirit with deeply aged face sits within the broad roots of a massive Philippine forest tree. Simple loose woven dress, substantial body proportions, tree-dwelling presence, no horns or wings.",
       "depicted_variant": "Ancient tree-dwelling female spirit",
       "original_file": "/home/asadin/.codex/generated_images/01a10068-c5d0-7a40-849c-11e4d3ae6097/exec-4669bac8-edb5-4cf7-b93d-f23f6b198bce.png",
-      "status": "complete",
+      "status": "excluded-human",
       "visual_review": {
         "verdict": "pass",
         "notes": "Ancient very obese female clearly associated with tree roots; no invented anatomy. Uncanny scale but gentle light."
@@ -699,7 +707,9 @@
       "width": 1254,
       "height": 1254,
       "url": "/assets/art/batibat-verified.webp",
-      "prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Subject: An ancient, very obese female spirit with deeply aged face sits within the broad roots of a massive Philippine forest tree. Simple loose woven dress, substantial body proportions, tree-dwelling presence, no horns or wings."
+      "prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Subject: An ancient, very obese female spirit with deeply aged face sits within the broad roots of a massive Philippine forest tree. Simple loose woven dress, substantial body proportions, tree-dwelling presence, no horns or wings.",
+      "regenerate": false,
+      "exclusion_reason": "Ordinary elderly woman seated in tree; size and clothing only."
     },
     {
       "slug": "boobrie",
@@ -774,7 +784,7 @@
       "exact_prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: One very tall featureless dark humanoid silhouette wearing a broad brimmed hat and holding a plain walking stick watches from a Santa Lucia Mountains ridge at twilight. No eyes or face details; full silhouette.",
       "depicted_variant": "Twilight brimmed-hat silhouette",
       "original_file": "/home/asadin/.codex/generated_images/01a10068-c5d0-7a40-849c-11e4d3ae6097/exec-ebc70e42-5c59-4262-be1a-686f4033076a.png",
-      "status": "complete",
+      "status": "excluded-human",
       "visual_review": {
         "verdict": "pass",
         "notes": "Tall featureless brimmed-hat silhouette with stick on twilight ridge; restrained dread."
@@ -816,7 +826,9 @@
       "width": 1254,
       "height": 1254,
       "url": "/assets/art/dark-watchers-verified.webp",
-      "prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: One very tall featureless dark humanoid silhouette wearing a broad brimmed hat and holding a plain walking stick watches from a Santa Lucia Mountains ridge at twilight. No eyes or face details; full silhouette."
+      "prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: One very tall featureless dark humanoid silhouette wearing a broad brimmed hat and holding a plain walking stick watches from a Santa Lucia Mountains ridge at twilight. No eyes or face details; full silhouette.",
+      "regenerate": false,
+      "exclusion_reason": "Human silhouette in hat; dramatic background but no visible distinct anatomy."
     },
     {
       "slug": "dragon-of-mordiford",
@@ -1029,7 +1041,7 @@
       "exact_prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: One tiny humanoid Basque house spirit in vivid red trousers stands beside an open little wooden box on a rustic table; sewing needle nearby provides miniature scale. Full humanlike anatomy, no wings in this variant.",
       "depicted_variant": "Tiny red-trousered house spirit",
       "original_file": "/home/asadin/.codex/generated_images/01a10068-c5d0-7a40-849c-11e4d3ae6097/exec-2cf916fa-a00b-4441-99f8-405f8a2911b9.png",
-      "status": "complete",
+      "status": "excluded-human",
       "visual_review": {
         "verdict": "pass",
         "notes": "Tiny humanlike spirit with clear red trousers beside miniature box and large needle; shadowed interior gives uncanny mood."
@@ -1061,7 +1073,9 @@
       "width": 1254,
       "height": 1254,
       "url": "/assets/art/galtxagorriak-verified.webp",
-      "prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: One tiny humanoid Basque house spirit in vivid red trousers stands beside an open little wooden box on a rustic table; sewing needle nearby provides miniature scale. Full humanlike anatomy, no wings in this variant."
+      "prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: One tiny humanoid Basque house spirit in vivid red trousers stands beside an open little wooden box on a rustic table; sewing needle nearby provides miniature scale. Full humanlike anatomy, no wings in this variant.",
+      "regenerate": false,
+      "exclusion_reason": "Human dwarf worker in red cap, normal face and limbs."
     },
     {
       "slug": "hatuibwari",
@@ -1586,7 +1600,7 @@
       "exact_prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: Pangu as a colossal hairy humanlike giant with two horns, bracing his arms upward to separate cloud-filled heaven from rocky primordial earth. Whole powerful body visible, simple fur covering around hips, no extra limbs, cosmic landscape scale.",
       "depicted_variant": "Horned hairy primordial giant",
       "original_file": "/home/asadin/.codex/generated_images/01a10068-c5d0-7a40-849c-11e4d3ae6097/exec-81bbbc0e-56c8-4964-b609-b45745f64dbd.png",
-      "status": "complete",
+      "status": "excluded-human",
       "visual_review": {
         "verdict": "pass",
         "notes": "Hairy horned primordial giant visibly separates heaven and earth with two raised arms; cosmic scale and dark clouds."
@@ -1618,7 +1632,9 @@
       "width": 1254,
       "height": 1254,
       "url": "/assets/art/pangu-verified.webp",
-      "prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: Pangu as a colossal hairy humanlike giant with two horns, bracing his arms upward to separate cloud-filled heaven from rocky primordial earth. Whole powerful body visible, simple fur covering around hips, no extra limbs, cosmic landscape scale."
+      "prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: Pangu as a colossal hairy humanlike giant with two horns, bracing his arms upward to separate cloud-filled heaven from rocky primordial earth. Whole powerful body visible, simple fur covering around hips, no extra limbs, cosmic landscape scale.",
+      "regenerate": false,
+      "exclusion_reason": "Ordinary muscular human male depicted large; mountain scale only."
     },
     {
       "slug": "papa-bois",
@@ -2088,7 +2104,7 @@
         "borda-legendary-creature-c03"
       ],
       "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-d5c8e3f1-5d47-4b82-9216-ea0914664208.png",
-      "status": "complete",
+      "status": "excluded-human",
       "visual_review": {
         "verdict": "pass",
         "notes": "Blindfold entirely covers the old female figure's eyes; worn robe and foggy marsh match Borda; restrained horror comes from face, shadows and isolation."
@@ -2130,7 +2146,9 @@
       "width": 1254,
       "height": 1254,
       "url": "/assets/art/borda-legendary-creature-verified.webp",
-      "prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Borda, the frightening blindfolded witch of Emilia-Romagna. An eerie old female figure in simple ragged dark rural robes stands beside a Po Valley marsh canal in dense night fog. An opaque cloth blindfold fully covers both eyes. Show full figure, bony hands, bare twisted trees, still water. No pointed witch hat, no broom, no horns, no victims. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image."
+      "prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Borda, the frightening blindfolded witch of Emilia-Romagna. An eerie old female figure in simple ragged dark rural robes stands beside a Po Valley marsh canal in dense night fog. An opaque cloth blindfold fully covers both eyes. Show full figure, bony hands, bare twisted trees, still water. No pointed witch hat, no broom, no horns, no victims. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "regenerate": false,
+      "exclusion_reason": "Ordinary elderly woman holding a rope beside water."
     },
     {
       "slug": "erdhenne",
@@ -2336,7 +2354,7 @@
         "harionago-c03"
       ],
       "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-089c989b-dbeb-40ca-b770-6c261b0c527e.png",
-      "status": "complete",
+      "status": "excluded-human",
       "visual_review": {
         "verdict": "pass",
         "notes": "Woman in kimono has long black hair with multiple unmistakable hooked ends; twilight roadside and quiet smile maintain eerie aura."
@@ -2378,7 +2396,9 @@
       "width": 1254,
       "height": 1254,
       "url": "/assets/art/harionago-verified.webp",
-      "prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Harionago, Japanese yokai on a remote Shikoku road: a sinister adult woman in a modest faded kimono, with exceptionally long black hair drifting outward in strands whose ends terminate in small sharp metal-like HOOKS. Make several hook-shaped tips unmistakably visible against mist at either side of her body. Calm unsettling smile, human face and two arms, no extra body appendages. Full figure on old mountain road at dusk. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image."
+      "prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Harionago, Japanese yokai on a remote Shikoku road: a sinister adult woman in a modest faded kimono, with exceptionally long black hair drifting outward in strands whose ends terminate in small sharp metal-like HOOKS. Make several hook-shaped tips unmistakably visible against mist at either side of her body. Calm unsettling smile, human face and two arms, no extra body appendages. Full figure on old mountain road at dusk. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "regenerate": false,
+      "exclusion_reason": "Ordinary woman in patterned dress; distinctive hair hooks not readable in image."
     },
     {
       "slug": "indrik",
@@ -2573,7 +2593,7 @@
         "leprechaun-c08"
       ],
       "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-c7e332d7-c465-42cc-ad98-233b18db7af5.png",
-      "status": "complete",
+      "status": "excluded-human",
       "visual_review": {
         "verdict": "pass",
         "notes": "Small bearded red-clad shoemaker cobbles a shoe beside gold pot; mischievous expression and moonlit woodland retain folkloric uncanny mood."
@@ -2615,7 +2635,9 @@
       "width": 1254,
       "height": 1254,
       "url": "/assets/art/leprechaun-verified.webp",
-      "prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Leprechaun of Irish folklore, traditional pre-twentieth-century RED clothing variant: a diminutive elderly bearded man in an old red coat sits on a low stool, cobbling a tiny leather shoe by a tree root. Small awl, leather scraps and a restrained pot of gold near his feet. Full little figure, mischievous knowing expression; moonlit Irish woodland makes the encounter uncanny. No green costume, no rainbow spectacle, no modern logos. A solitary fairy, not an evil monster. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image."
+      "prompt": "Use case: illustration-story. Square mythology encyclopedia artwork. Subject: Leprechaun of Irish folklore, traditional pre-twentieth-century RED clothing variant: a diminutive elderly bearded man in an old red coat sits on a low stool, cobbling a tiny leather shoe by a tree root. Small awl, leather scraps and a restrained pot of gold near his feet. Full little figure, mischievous knowing expression; moonlit Irish woodland makes the encounter uncanny. No green costume, no rainbow spectacle, no modern logos. A solitary fairy, not an evil monster. Style: richly detailed painterly folklore illustration, restrained folk-horror atmosphere, dramatic chiaroscuro, deep shadows and thin fog, tactile textures, clear identifying anatomy. Ominous presence where appropriate; sacred/benign subjects feel numinous rather than evil. Square full-body composition, readable silhouette. No text, border, watermark, gratuitous gore or invented anatomical features. Create one image.",
+      "regenerate": false,
+      "exclusion_reason": "Short elderly human man in hat and red coat, scale and costume only."
     },
     {
       "slug": "likho",
@@ -2871,7 +2893,7 @@
         }
       ],
       "review_path": "data/gemini/reviews/batch-148.review.json",
-      "status": "complete",
+      "status": "excluded-human",
       "original_file": "/home/asadin/.codex/generated_images/01a0ffb4-c716-7683-8e30-26a08a0544d6/exec-bca25fda-33a4-4013-8a4d-a854e2371d65.png",
       "width": 1254,
       "height": 1254,
@@ -2880,7 +2902,9 @@
         "verdict": "pass",
         "notes": "Small wizened man in modest Andean clothing at cave entrance; storm clouds and rain lend atmosphere without adding hybrid anatomy.",
         "reviewed_at": "2026-10-03T06:25:57.032266+00:00"
-      }
+      },
+      "regenerate": false,
+      "exclusion_reason": "Ordinary small elderly man in clothes, no nonhuman anatomy."
     },
     {
       "slug": "am-fear-liath-mor",
@@ -2969,7 +2993,7 @@
         }
       ],
       "review_path": "data/gemini/reviews/batch-050.review.json",
-      "status": "complete",
+      "status": "excluded-human",
       "original_file": "/home/asadin/.codex/generated_images/01a0ffb4-c716-7683-8e30-26a08a0544d6/exec-60e64ff4-95ac-4c62-a6d3-b0a80b9b7b42.png",
       "width": 1254,
       "height": 1254,
@@ -2978,7 +3002,9 @@
         "verdict": "pass",
         "notes": "Exactly one centered eye, wide woven bamboo hat and modest robe in rainy lane; 1792 variant is readable and eerie.",
         "reviewed_at": "2026-10-03T06:25:57.530156+00:00"
-      }
+      },
+      "regenerate": false,
+      "exclusion_reason": "Ordinary child in hat and robe, normal visible face and limbs."
     },
     {
       "slug": "amomongo",
@@ -3106,7 +3132,7 @@
         }
       ],
       "review_path": "data/gemini/reviews/batch-055.review.json",
-      "status": "complete",
+      "status": "excluded-human",
       "original_file": "/home/asadin/.codex/generated_images/01a0ffb4-c716-7683-8e30-26a08a0544d6/exec-40872972-c509-4ead-ba3e-976697b65efe.png",
       "width": 1254,
       "height": 1254,
@@ -3115,7 +3141,9 @@
         "verdict": "pass",
         "notes": "Elderly Japanese woman in worn modest robe with beans at rainy temple; lined face and wary listening pose, no unrelated yokai anatomy.",
         "reviewed_at": "2026-10-03T06:30:02.549084+00:00"
-      }
+      },
+      "regenerate": false,
+      "exclusion_reason": "Ordinary elderly woman holding bowl."
     },
     {
       "slug": "bear-lake-monster",
@@ -3272,7 +3300,7 @@
         }
       ],
       "review_path": "data/gemini/reviews/batch-119.review.json",
-      "status": "complete",
+      "status": "excluded-human",
       "original_file": "/home/asadin/.codex/generated_images/01a0ffb4-c716-7683-8e30-26a08a0544d6/exec-5c277459-75bd-4a33-b959-b0e55a8c2470.png",
       "width": 1254,
       "height": 1254,
@@ -3281,7 +3309,9 @@
         "verdict": "pass",
         "notes": "Stocky short guardian in brown attire, red hair and unusually large bull-like eyes; no bull head or horns, moorland setting clear.",
         "reviewed_at": "2026-10-03T06:42:36.200358+00:00"
-      }
+      },
+      "regenerate": false,
+      "exclusion_reason": "Short bearded human man with walking stick, scale and costume only."
     },
     {
       "slug": "chernava",
@@ -3370,7 +3400,7 @@
         }
       ],
       "review_path": "data/gemini/reviews/batch-115.review.json",
-      "status": "complete",
+      "status": "excluded-human",
       "original_file": "/home/asadin/.codex/generated_images/01a0ffb4-c716-7683-8e30-26a08a0544d6/exec-4040c413-f0cd-4817-aca5-d5ab99735dce.png",
       "width": 1254,
       "height": 1254,
@@ -3379,7 +3409,9 @@
         "verdict": "pass",
         "notes": "Adult cloaked woman on Irish coast with exactly three separate songbirds, one on rock and two on branch; solemn atmosphere, no invented hybrid anatomy.",
         "reviewed_at": "2026-10-03T06:42:37.256031+00:00"
-      }
+      },
+      "regenerate": false,
+      "exclusion_reason": "Ordinary woman in green dress beside water."
     },
     {
       "slug": "dullahan",
@@ -3729,7 +3761,7 @@
         }
       ],
       "review_path": "data/gemini/reviews/batch-152.review.json",
-      "status": "complete",
+      "status": "excluded-human",
       "original_file": "/home/asadin/.codex/generated_images/01a0ffb4-c716-7683-8e30-26a08a0544d6/exec-fc549725-1d6e-413e-8262-0be0b5dec8cf.png",
       "width": 1254,
       "height": 1254,
@@ -3738,7 +3770,9 @@
         "verdict": "pass",
         "notes": "Wizened stooped elderly woman with gnarled hands and rough shawl by hedge; suspicious gaze and dark misty setting provide restrained dread.",
         "reviewed_at": "2026-10-03T07:05:05.664382+00:00"
-      }
+      },
+      "regenerate": false,
+      "exclusion_reason": "Ordinary elderly woman in forest, weathered face and costume only."
     },
     {
       "slug": "henwen",

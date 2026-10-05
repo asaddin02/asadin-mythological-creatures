@@ -1,0 +1,88 @@
+{
+  "slug": "shubin-ghost",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove only unsupported blue/gold magical ribbons and emitted body envelope. Preserve actual torch flame, its warm illumination and smoke, same middle-aged human miner with fur coat, face, torch hand, exact standing pose/count/scale and Donbas mine. Source supports torch burning firedamp; if any gas flame remains it must be tiny localized flame near torch, NOT body-wrapping blue fire. Presence through watchful miner posture and torchlit tunnel. Preserve original composition, count, exact scale and identity. No added subjects, nudity, gore, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/shubin-ghost-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-16922c3c-0625-47eb-8e87-8c5197cde791.png",
+  "depicted_variant": "Middle-aged miner ghost in fur coat carrying torch",
+  "basis_claim_ids": [
+    "shubin-ghost-c01",
+    "shubin-ghost-c02",
+    "shubin-ghost-c05"
+  ],
+  "aura": "Watchful mine guardian presence through alert gaze, sturdy standing pose, low camera and torchlit tunnel shadows.",
+  "visual_requirements": [
+    "Middle-aged human miner wearing heavy fur coat and holding actual lit torch.",
+    "Preserve human anatomy, exact face, pose, clothes, scale and Donbas mine.",
+    "Remove body-wrapping blue/gold wisps; retain actual torch flame and light."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected source and recovered native edit: blue/gold body-emitted ribbons are removed; the same watchful middle-aged human miner, heavy fur coat, hands, torch and standing pose are retained. Amber highlights follow real torchlight; cool coal reflections are surface lighting without glowing ribbons.",
+    "reviewer": "finish_aura_b"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-123.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected revised native preview: middle-aged man in fur coat holding physical burning torch in underground mine, natural warm firelight and damp rock reflections, no emitted body envelope or magic ribbons."
+  },
+  "attempt_history": [
+    {
+      "slug": "shubin-ghost",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square exquisite high-detail painterly naturalistic cinematic mythology encyclopedia illustration. SHUBIN, Donbas miningghost guardian, selecting SOURCE MINER form. ONE MIDDLE-AGED ADULT HUMAN MAN with weathered face wears heavy FUR COAT and holds lit TORCH in hand at bottom of dark oldmine, fullbody framed among beams and coalstrata. Ordinaryhumanbody, opaqueclothes, exactface/coatstyling artistic. Clearly luminous AMBER-BLUE spectral wisps RADIATE FROM BODY separatefrom torchflame, brighten coalwall and roots, commanding ominous helpful mineguardian aura, warningofdanger. No pointedgnomeears, horns, wings, workers, gasexplosion or victims. No text, watermark, border, collage or labels.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/shubin-ghost.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-16922c3c-0625-47eb-8e87-8c5197cde791.png",
+      "depicted_variant": "Middle-aged miner ghost in fur coat carrying torch",
+      "basis_claim_ids": [
+        "shubin-ghost-c01",
+        "shubin-ghost-c02",
+        "shubin-ghost-c05"
+      ],
+      "aura": "ominous mine protector emitted amber-blue energy",
+      "visual_requirements": [
+        "middleaged humanman",
+        "furcoat andtorch",
+        "Donbas underground mine"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected native: middle-aged human miner in heavy fur coat holding torch underground in mine, clearly emitted amber-blue wisps distinguish aura from torch fire. Source human miner variant c02/c05 preserved; exact clothes/face artistic, no gnome traits."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-123.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Middle-aged human miner spirit in fur coat carrying torch in underground mine, emitted blue-gold wisps distinct from torch flame.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/shubin-ghost-verified.webp",
+      "sha256": "cbc64a55228d68c3f0d3d30d011b58c3cd3159be154a1a8dfc0c322f17e7f76d",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-d7a6d1bc-fe0d-4755-bf51-629f836d93d5.png",
+  "revision_generator": "finish_aura_b",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "finish_aura_b",
+    "rationale": "The source supports the torch and burning firedamp, but does not support a blue/gold body envelope.",
+    "allowed_magic": "Torch flame and natural torch smoke only; no emitted body aura.",
+    "source_basis_claim_ids": [
+      "shubin-ghost-c01",
+      "shubin-ghost-c02",
+      "shubin-ghost-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/shubin-ghost.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/shubin-ghost.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

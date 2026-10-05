@@ -1,0 +1,87 @@
+{
+  "slug": "nicnevin",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Remove ONLY unsupported effects: all white-blue ribbons and luminous wisps wrapping her hair, body and clothes; retain only a VERY small restrained pale glimmer exactly at wand tip touching stream, with clearly water changing into ordinary rocks, supported water-to-rock magic. Preserve exactly same adult female witch/fairy queen in long modest grey mantle with wand, same face, human anatomy, pose, scale, Scottish stream/rock landscape, framing, detail and clothing coverage. Character presence through commanding wand gesture, wind-blown grey mantle and sombre Scottish landscape. Natural texture, ordinary reflected scene light and shadows. No generic emitted aura, new anatomy, subjects, rat-headed hybrid, gore, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/nicnevin-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-087050ea-6c01-4ca6-b2f7-b7d09e280066.png",
+  "depicted_variant": "Scottish witch/fairy queen in long grey mantle with water-to-rock wand",
+  "basis_claim_ids": [
+    "nicnevin-c01",
+    "nicnevin-c05",
+    "nicnevin-c06"
+  ],
+  "aura": "commanding wand gesture, wind-blown grey mantle and sombre Scottish landscape",
+  "visual_requirements": [
+    "same adult female witch/fairy queen in long modest grey mantle with wand, same face, human anatomy, pose, scale, Scottish stream/rock landscape",
+    "No generic emitted body aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native inspected: same grey-mantled queen with wand and natural anatomy; all body wrapping gone. Tiny wand-tip transformation glimmer at stream and rocks retained as supported water-to-rock ability.",
+    "reviewer": "aura-resume-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-118.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: grey-mantled adult queen pointing wand at rocky water edge. Local source transformation indicated by rocks and wand action; generic luminous ribbons/particles removed."
+  },
+  "attempt_history": [
+    {
+      "slug": "nicnevin",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic mythology illustration of NICNEVIN, Scottish witch or fairy queen, choosing Robert Cromek's account. ONE adult female supernatural queen in a LONG GREY MANTLE holds a simple WAND over a dark stream where a small portion of flowing WATER BECOMES ROCK, clearly readable transformation. Source adult humanlike woman anatomy stays natural, uncanny ancient gaze, no invented animal parts. Entire figure framed on misty Scottish hillside. Clearly luminous grey-silver supernatural wisps RADIATE FROM HER BODY AND WAND, casting cold glow across stream; ominous royal fairy aura, artistic glow. No crown, wings, horns, Hecate triplebody, victims, readable spells, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/nicnevin.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-087050ea-6c01-4ca6-b2f7-b7d09e280066.png",
+      "depicted_variant": "Scottish witch/fairy queen in long grey mantle with water-to-rock wand",
+      "basis_claim_ids": [
+        "nicnevin-c01",
+        "nicnevin-c05",
+        "nicnevin-c06"
+      ],
+      "aura": "ominous fairy sovereign transforming-water magic",
+      "visual_requirements": [
+        "adult female witch/fairy queen",
+        "long grey mantle and wand",
+        "water-to-rock magic, emitted aura"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: adult woman witch/fairy queen in long grey mantle, holding wand over stream where pale water-to-rock transition appears amid magical light. Emitted silver-grey wisps from body/wand. Source Cromek costume/wand/transformation preserved, no triple goddess/crown/wings. Face, garment ornament and glow artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-118.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: adult witch/fairy queen in long grey mantle with wand directed over stream/rock, emitted silver-grey spell wisps; source Cromek attire and wand role preserved, no added horns/wings.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/nicnevin-verified.webp",
+      "sha256": "4b7a6d5fc17d5f55b17a52464a48540e9a12760146b7ea836f9186bba0b57950",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-fff9-76e1-92c1-76bde2aff5e5/exec-2f246378-5acd-46de-96b6-473dc20822b6.png",
+  "revision_generator": "aura-resume-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-2",
+    "rationale": "Removed unsupported body wrapping while preserving supported manifestation/ability.",
+    "allowed_magic": "Restrained localized wand water-to-rock transformation, nicnevin-c05",
+    "source_basis_claim_ids": [
+      "nicnevin-c01",
+      "nicnevin-c05",
+      "nicnevin-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/nicnevin.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/nicnevin.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

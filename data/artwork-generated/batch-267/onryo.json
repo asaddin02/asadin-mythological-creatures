@@ -1,0 +1,39 @@
+{
+  "slug": "onryo",
+  "worker": "worker-3",
+  "prompt": "Use case: historical-scene. ONE square detailed painterly naturalistic encyclopedia illustration of Onryo, the resentful Japanese human spirit believed to cause curses and calamities. Choose the documented Sugawara no Michizane spirit after unjust exile and death, BEFORE peaceful deification as Tenjin. One middle-aged Japanese male court scholar in historically plausible dark Heian court robes and black eboshi cap, with unmistakably human features, modest small beard. A wrathful tormented gaze, pale ghostly face; edges of his layered robe subtly blend into storm mist while the figure remains clearly visible. He stands solitary on an empty wooden veranda against a violently dark thunderstorm over a distant Heian palace. His composed but angry dignity and looming lightning convey the fearful calamitous power of a wronged vengeful soul. Central entire figure comfortably inside frame, realistic painterly materials, solemn supernatural horror rather than cartoon monster. Invariants: resentful DEAD HUMAN SPIRIT, documented male court-scholar variant, Heian period context, calamitous and threatening aura. Avoid a generic female yurei, white burial dress and missing feet as automatic traits, horns, wings, monster anatomy, claws, ogre mask, armor, weapons, glowing magical symbols, modern clothes, blood, victims, friendly saintly halo, text, watermark, border or collage.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-3a51a9fc-1be7-4042-b63a-448e2ca537d5.png",
+  "review_path": "data/gemini/reviews/batch-049.review.json",
+  "visual_requirements": [
+    "Tormented dead human spirit",
+    "Source-selected Sugawara no Michizane male scholar variant",
+    "Historically plausible Heian court dress",
+    "Calamitous threatening storm aura",
+    "No invented ogre traits"
+  ],
+  "depicted_variant": "Sugawara no Michizane as feared vengeful spirit before appeasement and Tenjin deification",
+  "basis_claim_ids": [
+    "onryo-c01",
+    "onryo-c02",
+    "onryo-c04",
+    "onryo-c05",
+    "onryo-c07",
+    "onryo-c09"
+  ],
+  "additional_sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/45428",
+      "title": "The Metropolitan Museum of Art: Illustrated Legends of the Kitano Tenjin Shrine",
+      "basis": "Source corroborates Michizane as tormented spirit underlying calamitous natural forces, unjust exile, and feared revenge before deification."
+    }
+  ],
+  "aura": "Fierce dignified resentment and threatening calamitous supernatural storm",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-3.json"
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "sooterkin",
+  "worker": "root",
+  "prompt": "Use case: lighting-weather. Image is EDIT TARGET. Change ONLY unsupported magical lighting/VFX. Preserve exact face, identity, pose, coherent anatomy/counts, source size, modest opaque clothes, setting, camera and square frame. No text/watermark. Remove ALL blue emitted smoke wisps, magical star particles and luminous sheen from small mouse-sized mole-like mammal. Render same compact furry body solid and normal, same small feet, face, pose, thimble scale, brickroom and physical stove. Natural warm stove light only, no animal emission or colored magical vapor.",
+  "depicted_variant": "Small molelike mouse-sized creature, historical folkloric fantasy only",
+  "basis_claim_ids": [
+    "sooterkin-c01",
+    "sooterkin-c05"
+  ],
+  "visual_requirements": [
+    "One mouse-sized molelike mammal",
+    "Short fur and compact coherent body",
+    "Stove setting and thimble scale, no birth scene",
+    "No emitted animal smoke or particles"
+  ],
+  "aura": "Folkloric strangeness through tiny mole-like mammal beside Dutch stove, thimble scale and cozy natural firelight.",
+  "review_path": "data/gemini/reviews/batch-117.review.json",
+  "tool": "OpenAI built-in image_gen",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-c14481d6-b93c-49e9-b4b2-e27c3d800489.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/sooterkin-presence-v2.png",
+  "status": "reviewed",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected revised native contact: Same tiny compact furry mole-like mammal with small feet and thimble/stove scale; blue smoke and motes gone, normal warm stove light.",
+    "reviewer": "aura-resume-0"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected selected native preview: small mole-like animal beside thimble and Dutch stove, natural firelight on fur; no blue smoke, emitted outline or particles."
+  },
+  "independent_visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected revised native contact: Same tiny compact furry mole-like mammal with small feet and thimble/stove scale; blue smoke and motes gone, normal warm stove light.",
+    "reviewer": "aura-resume-0",
+    "reviewed_at": "2026-10-05"
+  },
+  "attempt_history": [
+    {
+      "slug": "sooterkin",
+      "worker": "root",
+      "prompt": "Use case: stylized-concept. Asset type: mythology encyclopedia artwork. Produce ONE square high-detail painterly naturalistic cinematic fantasy illustration. One MOUSE-SIZED molelike mythical mammal, compact soft charcoal-brown furred body, short blunt pointed snout, tiny eyes, little molelike digging paws, no human anatomy. Alone beside an old Dutch ceramic foot-warmer and cold brick hearth, antique rustic interior. A thimble establishes tiny scale. Uncanny but not violent: emitted silver-blue smoky wisps and glowing motes unmistakably rise FROM its body and cast light on bricks. This is a standalone historical folkloric fantasy animal, no childbirth, women, infants, gore or medical scene. No text. No border, collage, labels, writing or watermark.",
+      "depicted_variant": "Small molelike mouse-sized creature, historical folkloric fantasy only",
+      "basis_claim_ids": [
+        "sooterkin-c01",
+        "sooterkin-c05"
+      ],
+      "visual_requirements": [
+        "One mouse-sized molelike mammal",
+        "Short fur, compact coherent body",
+        "Emitted smoky supernatural aura, no birth scene"
+      ],
+      "aura": "Clearly emitted supernatural luminous wisps and particles as artistic aura",
+      "review_path": "data/gemini/reviews/batch-117.review.json",
+      "tool": "OpenAI built-in image_gen",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-c14481d6-b93c-49e9-b4b2-e27c3d800489.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/sooterkin.png",
+      "status": "reviewed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually viewed: mouse-sized molelike mammal with compact furred body beside thimble/hearth, emitted blue wisps, no childbirth scene."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Actually viewed: mouse-sized molelike mammal with compact furred body beside thimble/hearth, emitted blue wisps, no childbirth scene.",
+        "reviewed_at": "2026-10-05"
+      },
+      "independent_visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-0",
+        "notes": "Worker-0 independently inspected root contact sheet: compact molelike tiny furred mammal with small eyes and paws beside thimble and warmer, blue emitted wisps; no birth scene.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/sooterkin-verified.webp",
+      "sha256": "237e2272e5fe7870fcf74b17ac7224b9a1df671f617b9f9a03d7b5948c2cd1e7",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-13f1188d-6fe3-4212-8e9b-ee94e76f063f.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Unsupported blue animal smoke and glowing particles removed.",
+    "allowed_magic": "none; physical stove fire retained.",
+    "source_basis_claim_ids": [
+      "sooterkin-c01",
+      "sooterkin-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/sooterkin.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/sooterkin.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

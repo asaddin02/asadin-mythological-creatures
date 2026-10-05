@@ -1,0 +1,49 @@
+{
+  "slug": "feuermann-ghost",
+  "worker": "regen-3",
+  "prompt": "Use case: illustration-story. Square premium painterly mythology encyclopedia artwork: FEUERMANN, the German fiery ghost, in its explicitly recorded SNAKE manifestation (not its human form). One large single-bodied serpentine apparition made of bright golden-orange flame drifting low above a damp field boundary at night. Exactly one snake head with a recognisable narrow snake snout, one continuous curving limbless serpent body and one tapering tail; full unbroken silhouette clearly visible within frame. Fire adheres to the snake silhouette, no stray fiery animal heads. Quiet midnight meadows, old boundary stone and dark reed-lined ditch, warm firelight reflected on wet grass, rich detailed brushwork in deep forest green and antique gold. Aura of eerie penitent wandering and nocturnal guidance, rather than aggressive monster combat. Record supports snake form, fiery manifestation, field borders at night, and flight. No legs, arms, wings, horns, human face, human figure, costumes, dragon anatomy, multiple snakes, cropped tail, text, border, watermark. Artistic illustration, educational folklore depiction; a documented alternative manifestation and not a claim that all Feuermänner look like snakes.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/feuermann-ghost.png",
+  "review_path": "data/gemini/reviews/batch-112.review.json",
+  "depicted_variant": "German Feuermann fiery ghost in the recorded snake manifestation",
+  "visual_requirements": [
+    "One continuous limbless snake body with one head and tapering tail",
+    "Fire surrounds the snake silhouette",
+    "No humanoid body or invented hybrid anatomy",
+    "Nocturnal wet field boundary setting"
+  ],
+  "basis_claim_ids": [
+    "feuermann-ghost-c01",
+    "feuermann-ghost-c03",
+    "feuermann-ghost-c04",
+    "feuermann-ghost-c05"
+  ],
+  "aura": "Eerie nocturnal wandering and a fiery presence at a field boundary",
+  "additional_sources": [],
+  "nonhuman_features": [
+    "Fully serpentine body formed from supernatural fire, no human parts"
+  ],
+  "accuracy_mode": "source-supported",
+  "historical_basis": "Verified research claim c03 records snake and fiery-wheel alternatives plus floating flight; c05 records nocturnal field boundaries and wet meadows.",
+  "artistic_changes": [
+    "Generic snake species, curving pose, orange-gold fire, moonlit composition and boundary stone details are artistic choices."
+  ],
+  "invented_anatomy": [],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Individually viewed corrected full image. The bottom-right cursive signature is removed and replaced by natural dark grass/water texture. One snake head, one continuous limbless fire body, visible tail tip and tongue remain in frame; no horns, wings, humanoid parts or extra heads. Field boundary and reflected light preserved. Rejected signature-bearing original deleted with ledger."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "reviewed_at": "2026-10-04T16:28:40.964559+00:00",
+  "correction": {
+    "tool": "OpenAI built-in image_gen edit",
+    "purpose": "Remove tiny cursive signature from extreme bottom-right; preserve snake, anatomy, composition and setting.",
+    "generated_file": "/home/asadin/.codex/generated_images/01a107aa-b02c-7190-a622-fc363d79ce48/exec-fb45a335-350a-4399-be7b-085d5fdfbc99.png",
+    "rejection_ledger": "data/artwork-generated/regeneration-139/feuermann-ghost.rejections.json"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "notes": "Individually viewed corrected original. One whole flying fire-serpent with one snake head, continuous legless body and complete tapering tail. No wings or human form. Marsh boundary-stone night context and uncanny fire aura match variant. Previous bottom-right signature now absent.",
+    "reviewed_at": "2026-10-04T16:58:31.543449+00:00"
+  }
+}

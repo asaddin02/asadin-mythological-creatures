@@ -1,0 +1,68 @@
+{
+  "slug": "tugarin",
+  "basis_claim_ids": [
+    "tugarin-c01",
+    "tugarin-c03",
+    "tugarin-c05",
+    "tugarin-c06"
+  ],
+  "depicted_variant": "Tugarin in humanlike giant bogatyr form with fiery serpents around torso",
+  "visual_requirements": [
+    "Humanlike giant bogatyr with two arms and two legs; ordinary horse establishes immense scale.",
+    "Source c05 fiery snakes visibly covering torso with their flame and smoke.",
+    "Character presence from stance and storm atmosphere; no extra generic halos/ribbons/particles."
+  ],
+  "aura": "Giant warrior menace through body scale, stance and storm landscape; torso serpent fire is source-specific.",
+  "prompt": "TUGARIN in his HUMANLIKE GIANT BOGATYR form, not a reptilian dragon. A tremendously large coarse adult male warrior, two human arms and two human legs, modest opaque dark medieval Slavic tunic. His TORSO is encircled by several vivid FIERY SNAKES whose serpent heads and glowing sinuous bodies are clearly identifiable as living supernatural flame. He stands beside a normal horse on the Russian steppe, visibly much larger than an ordinary man, no victim or battle opponent. Bright magical fire snakes cast red-gold radiance and emitted smoky luminous wisps wrap the giant; menacing storm darkness conveys embodiment of evil. No real wings or paper wings, no horns, dragonhead, extra arms, graphic burn wounds or invented armor. ONE square premium detailed painterly mythology encyclopedia image, whole identifying subject inside frame. No text, watermark, border, gore or victims.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-123.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/tugarin.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-c0226919-81d6-41cc-8024-c844ce6d2749.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actual original individually inspected: massive humanlike warrior with intrinsic fiery snakes covering torso, horse scale and storm setting; flame/smoke source c05. No unrelated halo.",
+    "reviewer": "worker-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected original: humanlike giant beside horse with distinct fiery serpents across torso. c05 specifically supports these fiery snake weapons, so retained; no unrelated halo."
+  },
+  "aura_policy_history": [
+    {
+      "aura": "Supernatural fiery serpent radiance and curling sinister smoke",
+      "visual_requirements": [
+        "Humanlike giant warrior body with two arms and legs",
+        "Fiery snakes visibly covering torso",
+        "Powerful emitted fire/smoke aura without dragon-body mixing"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: enormous humanlike warrior beside a natural horse, with fiery snakes around the torso and emitted flame aura; source-backed giant warrior variant."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Two-armed humanlike giant warrior, fiery snakes visibly surrounding torso, powerful emitted fire aura.",
+        "reviewed_at": "2026-10-05"
+      }
+    }
+  ],
+  "aura_revision": {
+    "decision": "keep",
+    "reviewer": "worker-1",
+    "rationale": "Observed fiery serpent bodies and associated flame/smoke covering giant torso, directly supported by c05; no unrelated neon envelope. Giant scale and horse comparison intact.",
+    "allowed_magic": "c05 explicitly describes torso covered in fiery snakes with fiery weapons and smoke; retain intrinsic serpent flames and associated smoke.",
+    "source_basis_claim_ids": [
+      "tugarin-c01",
+      "tugarin-c03",
+      "tugarin-c05",
+      "tugarin-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/tugarin.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/tugarin.json"
+  }
+}

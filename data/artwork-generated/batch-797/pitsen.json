@@ -1,0 +1,99 @@
+{
+  "slug": "pitsen",
+  "worker": "root",
+  "prompt": "Edit the provided square painterly mythology artwork to follow its documented physical manifestation. Preserve old human forest elder with crooked staff, worn knapsack and clothes at derelict lodge. Remove every teal flame, luminous mist, spark, ribbon and glow from body, staff and trees. Natural dim forest light and weather only. No new monster anatomy. Preserve painterly naturalistic quality and square composition. No text, border or watermark.",
+  "depicted_variant": "Old man with staff and knapsack source shapeshift",
+  "basis_claim_ids": [
+    "pitsen-c01",
+    "pitsen-c03",
+    "pitsen-c06"
+  ],
+  "visual_requirements": [
+    "Old man with staff and knapsack near derelict forest lodge",
+    "No generic emitted aura, neon halo, magic particles or luminous vapor"
+  ],
+  "aura": "Character presence through pose, framing, atmosphere and natural light",
+  "review_path": "data/gemini/reviews/batch-137.review.json",
+  "tool": "OpenAI built-in image_gen",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-cd255cc7-7468-4a45-b7ad-d77f0aef5a42.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/pitsen-presence-v2.png",
+  "status": "reviewed",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native: elderly forest man with staff, knapsack and worn clothes at ruined lodge; ordinary background fog, no teal fire or body aura.",
+    "reviewer": "root"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "aura-resume-0",
+    "reviewed_at": "2026-10-05",
+    "notes": "Independently inspected revised native contact: elderly human male with staff and knapsack near derelict forest lodge, coherent body and natural mist. No luminous body aura, particles or magical fog."
+  },
+  "independent_visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native: elderly forest man with staff, knapsack and worn clothes at ruined lodge; ordinary background fog, no teal fire or body aura.",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05"
+  },
+  "attempt_history": [
+    {
+      "slug": "pitsen",
+      "worker": "root",
+      "prompt": "Use case: stylized-concept. One square high-detail painterly naturalistic cinematic mythology encyclopedia illustration. One elderly Siberian Tatar forest spirit in the explicitly attested OLD MAN form, wrinkled human face, two normal arms/legs, plain modest rustic clothes. He carries a walking STAFF and worn KNAPSACK in deep boreal forest beside a derelict lodge. Ambiguous ominous guardian mood. Emerald-blue luminous wisps visibly EMIT FROM body and staff, cast eerie light on roots, unnatural glowing motes. No tusked monster form combined, horns, wings, animalhead or pointedelfears. No writing, text, watermark, frame, collage or labels.",
+      "depicted_variant": "Old man with staff and knapsack source shapeshift",
+      "basis_claim_ids": [
+        "pitsen-c01",
+        "pitsen-c03",
+        "pitsen-c06"
+      ],
+      "visual_requirements": [
+        "Elderly human male forest spirit",
+        "Staff and knapsack visible",
+        "Emitted forest aura without invented anatomy"
+      ],
+      "aura": "Clearly emitted supernatural luminous wisps and particles as artistic aura",
+      "review_path": "data/gemini/reviews/batch-137.review.json",
+      "tool": "OpenAI built-in image_gen",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-cd255cc7-7468-4a45-b7ad-d77f0aef5a42.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/pitsen.png",
+      "status": "reviewed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually viewed elderly human male with staff and knapsack beside forest lodge, emitted teal guardian wisps, no mixed monster variant."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Actually viewed elderly human male with staff and knapsack beside forest lodge, emitted teal guardian wisps, no mixed monster variant.",
+        "reviewed_at": "2026-10-05"
+      },
+      "independent_visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-0",
+        "notes": "Worker-0 independently viewed contact sheet: old human male forest variant, staff and knapsack visible, boreal lodge and emitted teal wisps; no tusked variant mixing.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/pitsen-verified.webp",
+      "sha256": "180c37cd2ae33f88f49ae11511954dce7a875306e3e9d3c34aa9a57c28f4dd39",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-eeea1924-cef9-4877-9360-4e38ba6c4f55.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Original has generic emitted magical wrapping unsupported by selected documented depiction; use physical presence and natural scene lighting.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "pitsen-c01",
+      "pitsen-c03",
+      "pitsen-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/pitsen.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/pitsen.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

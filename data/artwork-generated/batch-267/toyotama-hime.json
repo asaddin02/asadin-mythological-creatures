@@ -1,0 +1,31 @@
+{
+  "slug": "toyotama-hime",
+  "worker": "worker-3",
+  "prompt": "Use case: historical-scene. ONE square detailed painterly naturalistic encyclopedia illustration of Toyotama-hime, daughter of sea kami Watatsumi in Japanese Kojiki mythology. Select her HUMANLIKE adult woman appearance at her father's undersea dwelling, before any birth transformation. CULTURAL CORRECTION: depict an archaic JAPANESE woman with very simple plain layered straight-cut robes wrapped modestly and tied with a simple narrow woven cord, white over muted indigo. No Chinese hanfu, no long embroidered vertical imperial panels, no dangling bead hair crown, no elaborate jewelry, no sparkle palace. Long plain black hair loose, only a simple unobtrusive tie. Ordinary human anatomy, normal two arms and hands, serene compassionate face. She stands at a simple dark wood entrance with surrounding deep blue ocean visible, faint underwater light and natural rock. Her quiet luminous presence conveys reverent sea deity dignity, calmly powerful but no generic fantasy princess glamour. Central full figure comfortably inside frame; gentle light through water, painterly naturalistic fabric and skin. Invariants: female Japanese sea divinity, humanlike palace encounter variant, restrained archaic dress and ocean setting. Avoid crown, Chinese costume, mermaid tail, shark head, dragon anatomy, horns, wings, trident, shell bra, modern fashion, infant, childbirth, Hoori, other people, text, watermark, border, collage.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-9f54dee5-ebe2-4515-8f43-ee3102bd19c3.png",
+  "review_path": "data/gemini/reviews/batch-049.review.json",
+  "visual_requirements": [
+    "Humanlike adult female sea divinity",
+    "Plain archaic Japanese robe and unadorned hair",
+    "Undersea palace setting",
+    "Serene reverent divine dignity",
+    "No conflation with childbirth shark/dragon variants"
+  ],
+  "depicted_variant": "Humanlike sea-princess at Watatsumi's undersea palace in her encounter with Hoori; no specific transformed body asserted",
+  "basis_claim_ids": [
+    "toyotama-hime-c01",
+    "toyotama-hime-c02",
+    "toyotama-hime-c03",
+    "toyotama-hime-c04"
+  ],
+  "aura": "Quiet compassionate ocean divinity and reverent serene dignity",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "attempt": 2,
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-3.json"
+}

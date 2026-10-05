@@ -1,0 +1,65 @@
+{
+  "slug": "djall",
+  "basis_claim_ids": [
+    "djall-c01",
+    "djall-c04",
+    "djall-c05"
+  ],
+  "depicted_variant": "Fire demon physically manifested as a moving inferno",
+  "visual_requirements": [
+    "Entity is a moving inferno, source c05; no invented humanoid limbs/horns/wings.",
+    "Retain intrinsic fire, embers and smoke of inferno manifestation; no unrelated neon energy envelope.",
+    "Danger and scale through composition and rocky landscape."
+  ],
+  "aura": "Danger through overwhelming moving fire mass against tiny rocky landscape.",
+  "prompt": "Depict Djall of Albanian folklore in the source-described terrifying physical manifestation as a moving inferno. The creature IS an upright swirling mass of raging supernatural fire with a deep dark core, standing alone in a desolate rocky clearing at night, heat twisting the surrounding air. Do not give the flames a humanoid skeleton, arms, legs, a face, horns, wings, or animal anatomy. Shape the fire into a coherent turbulent advancing presence, not a recognizable person. Fierce orange-white luminous tendrils and sparks emanate far from the fiery mass into the oppressive darkness. Frightening sense of moving, living fire and mortal danger, no burning people or buildings. Square premium dark-fantasy encyclopedia illustration, highly detailed painterly realism, one coherent creature, entire identifying silhouette inside frame, clear anatomy, dramatic atmosphere. Explicit emitted magical aura, not merely ambient light. No text, caption, border, watermark, gore, victims, or sexual elements.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-124.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/djall.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-25c27639-6e94-4d57-8668-b18c0bfad48b.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actual original individually inspected: entity is moving inferno, explicitly documented source c05, no separate humanoid or added nonfire magical envelope.",
+    "reviewer": "worker-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected original: entire entity manifests as moving inferno, fire and embers directly connected to body; explicitly documented c01,c04,c05 fire demon, retained."
+  },
+  "aura_policy_history": [
+    {
+      "aura": "Radiating orange-white fire wisps and sparks",
+      "visual_requirements": [
+        "Moving inferno is the entity itself",
+        "No invented humanoid limbs, horns, wings or animal anatomy"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: moving inferno rendered as a coherent fiery presence without humanoid or animal anatomy; strong emitted flame tendrils and particles."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Entity is a moving inferno with emitted sparks and fire wisps, no humanoid or animal anatomy imposed.",
+        "reviewed_at": "2026-10-05"
+      }
+    }
+  ],
+  "aura_revision": {
+    "decision": "keep",
+    "reviewer": "worker-1",
+    "rationale": "Actual original is one moving inferno, the source fire-demon manifestation itself, with intrinsic flame and embers; no separate creature wearing a generic magic envelope.",
+    "allowed_magic": "c01/c04 fire demon and c05 moving inferno explicitly support the entire fire manifestation and intrinsic flame/embers/smoke.",
+    "source_basis_claim_ids": [
+      "djall-c01",
+      "djall-c04",
+      "djall-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/djall.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/djall.json"
+  }
+}

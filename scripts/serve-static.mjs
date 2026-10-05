@@ -11,6 +11,7 @@ import { extname, join, normalize, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const DIST = fileURLToPath(new URL('../dist', import.meta.url));
+const MEDIA = fileURLToPath(new URL('../dist-media', import.meta.url));
 const PORT = Number(process.env.PORT || 8096);
 const HOST = process.env.HOST || '127.0.0.1';
 const MIME = {
@@ -28,12 +29,12 @@ const MIME = {
   '.txt': 'text/plain; charset=utf-8',
 };
 
-async function file(path) {
+async function file(path, root = DIST) {
   try {
-    const full = normalize(join(DIST, path));
-    if (full !== DIST && !full.startsWith(DIST + sep)) return null;
+    const full = normalize(join(root, path));
+    if (full !== root && !full.startsWith(root + sep)) return null;
     const info = await stat(full);
-    return info.isDirectory() ? file(join(path, 'index.html')) : { full, body: await readFile(full) };
+    return info.isDirectory() ? file(join(path, 'index.html'), root) : { full, body: await readFile(full) };
   } catch {
     return null;
   }
@@ -47,7 +48,8 @@ createServer(async (req, res) => {
     res.writeHead(400);
     return res.end();
   }
-  const found = await file(path);
+  // The public build uses the same /media route backed by R2 in production.
+  const found = path.startsWith('/media/') ? await file(path.slice('/media/'.length), MEDIA) : await file(path);
   const hit = found || (await file('404.html'));
   if (!hit) {
     res.writeHead(404);

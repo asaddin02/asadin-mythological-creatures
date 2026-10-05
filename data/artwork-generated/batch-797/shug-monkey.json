@@ -1,0 +1,88 @@
+{
+  "slug": "shug-monkey",
+  "basis_claim_ids": [
+    "shug-monkey-c01",
+    "shug-monkey-c02",
+    "shug-monkey-c06"
+  ],
+  "depicted_variant": "Shug Monkey with jet-black shaggy sheepdog body and staring monkey face",
+  "visual_requirements": [
+    "Remove ONLY purple emitted body smoke/ribbons, purple motes, luminous fur contour and purple ground reflections. Source explicitly supports big shining staring eyes; preserve two big shining eyes but use restrained pale reflected shine, no purple eye beams or body emission. Preserve jet-black shaggy sheepdog body, monkey face, quadrupedal stance, proportions, same lane. Spectral presence through staring monkey face and dark misty lane.",
+    "No generic emitted wrapping; original counts and anatomy"
+  ],
+  "aura": "Big staring monkey eyes and crouching black shaggy dog on dark lane.",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove ONLY purple emitted body smoke/ribbons, purple motes, luminous fur contour and purple ground reflections. Source explicitly supports big shining staring eyes; preserve two big shining eyes but use restrained pale reflected shine, no purple eye beams or body emission. Preserve jet-black shaggy sheepdog body, monkey face, quadrupedal stance, proportions, same lane. Spectral presence through staring monkey face and dark misty lane. Preserve exact original anatomy, count, scale, composition and coverage. No new subjects, nudity, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-120.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/shug-monkey-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-4d733ef5-59df-4c5b-8be9-773ae39204b7.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output actually inspected: black shaggy quadrupedal sheepdog body and monkey face retained; purple wrapping/motes gone, source-supported shining staring eyes restrained pale and no body emission.",
+    "reviewer": "aura-resume-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: black shaggy dog body, monkey face, coherent quadrupedal stance. Only localized shining eyes c06 retained; purple fog/ribbons removed, no eye beams."
+  },
+  "attempt_history": [
+    {
+      "slug": "shug-monkey",
+      "basis_claim_ids": [
+        "shug-monkey-c01",
+        "shug-monkey-c02",
+        "shug-monkey-c06"
+      ],
+      "depicted_variant": "Shug Monkey with jet-black shaggy sheepdog body and staring monkey face",
+      "visual_requirements": [
+        "Jet-black shaggy sheepdog quadrupedal body",
+        "Monkey face with large staring eyes",
+        "Explicit spectral aura on Cambridgeshire lane"
+      ],
+      "aura": "Luminous violet ghost wisps around black shaggy body and glaring eyes",
+      "prompt": "ONE square frightening painterly Cambridgeshire folklore illustration of SHUG MONKEY. A large quadrupedal creature with the BODY OF A JET-BLACK SHAGGY SHEEPDOG, four canine legs/paws and one shaggy tail, but a distinct MONKEY FACE with huge staring shining eyes. Whole animal inside image with margin. It crouches in a dark rural lane between West Wratting and Balsham. Luminous violet spectral wisps spiral around its fur, tiny eldritch light particles hover at paws, and eerie cold radiance from its eyes cuts through oppressive fog. Frightening ghost/demon presence, richly detailed shaggy black coat. Not a monkey body or upright ape. No human hands, horns, wings, extra heads, victims, blood, text or watermark.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-120.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/shug-monkey.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-4d733ef5-59df-4c5b-8be9-773ae39204b7.png",
+      "reviewed_at": "2026-10-05T02:53:37.894Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed jet-black shaggy quadrupedal dog-like body, four paws and one bushy tail, with a distinct monkey face and huge staring luminous eyes. Bright violet ghost wisps and floating particles surround fur and paws on the dark rural lane. No upright human torso or fantasy wings/horns."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: shaggy black quadrupedal sheepdog body with distinct staring monkey face and bushy tail, emitted violet spectral wisps/eyes on rural lane; coherent source hybrid.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/shug-monkey-verified.webp",
+      "sha256": "1497fb8664a8eee93dd6237c32bd3cc0d6be02e39d36a4cd2003f39fe05a3d1d",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-2d0a087f-a0a8-476b-919d-264d69793fbb.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Purple body wrapping unsupported; documented shining eyes retained in restrained form.",
+    "allowed_magic": "Source c06 supports big shining eyes only",
+    "source_basis_claim_ids": [
+      "shug-monkey-c01",
+      "shug-monkey-c02",
+      "shug-monkey-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/shug-monkey.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/shug-monkey.json"
+  }
+}

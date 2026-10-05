@@ -1,0 +1,89 @@
+{
+  "slug": "yekyua",
+  "basis_claim_ids": [
+    "yekyua-c01",
+    "yekyua-c02",
+    "yekyua-c06"
+  ],
+  "depicted_variant": "Mammoth mother-animal shaman familiar",
+  "visual_requirements": [
+    "Remove blue-and-gold luminous ribbons, sparkles, power envelope and glowing eye. Preserve same natural mammoth anatomy, four legs, one trunk, exactly two curved tusks, huge scale, exact walking pose, fur, snow on fur and spring snowmelt landscape. Ordinary dark eye and natural golden sunlight; presence through massive mammoth scale.",
+    "No generic emitted wrapping; preserve original anatomy and counts"
+  ],
+  "aura": "Massive mammoth silhouette and bright spring snowmelt.",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove blue-and-gold luminous ribbons, sparkles, power envelope and glowing eye. Preserve same natural mammoth anatomy, four legs, one trunk, exactly two curved tusks, huge scale, exact walking pose, fur, snow on fur and spring snowmelt landscape. Ordinary dark eye and natural golden sunlight; presence through massive mammoth scale. Preserve original composition, anatomy, count, size and identity. No added subjects, nudity, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-137.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/yekyua-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-39e1be16-b2f4-49a3-b5c7-a8320851f207.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native edited output actually inspected: mammoth retained four legs, one trunk and two tusks with same scale/pose; blue/gold wrapping and glowing eye removed.",
+    "reviewer": "aura-resume-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: mammoth manifestation with tusks, trunk and shaggy fur above forest/snow. Natural sunset, no golden emitted energy spirals."
+  },
+  "attempt_history": [
+    {
+      "slug": "yekyua",
+      "basis_claim_ids": [
+        "yekyua-c01",
+        "yekyua-c02",
+        "yekyua-c06"
+      ],
+      "depicted_variant": "Mammoth mother-animal shaman familiar",
+      "visual_requirements": [
+        "Natural mammoth anatomy",
+        "Four legs, one trunk, two curved tusks",
+        "Spring snowmelt",
+        "No extra anatomy"
+      ],
+      "aura": "Golden-blue spectral wisps",
+      "prompt": "Depict the strongest Yekyua, the source-documented MAMMOTH mother-animal familiar spirit of Yakut shamans. An immense shaggy woolly mammoth with natural mammoth anatomy, four columnar legs, one trunk, TWO curved ivory tusks and small ears, emerging in Siberian spring as snow melts beside larch forest. Full body, powerful but normal mammoth proportions, no horns, wings or extra limbs. Surround and permeate its shaggy body with unmistakably luminous gold-blue supernatural wisps, floating spectral particles and an inner light at the eyes, revealing a dangerous invisible-to-ordinary-people spirit animal. Ancient shamanic atmosphere, no shaman depicted, no attack. Square premium detailed painterly mythological encyclopedia illustration, entire identifying body within frame, coherent anatomy, no text, captions, borders, watermark, gore or victims. Aura must visibly emanate from creature.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-137.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/yekyua.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-39e1be16-b2f4-49a3-b5c7-a8320851f207.png",
+      "reviewed_at": "2026-10-05T04:01:08.373Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: woolly mammoth familiar with two curved tusks, one trunk and coherent quadrupedal body, spring snowmelt landscape, strong emitted blue-gold supernatural wisps. Some legs are naturally occluded by the full body."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Coherent mammoth spirit with one trunk and two curved tusks in melting-snow landscape, clearly emitted gold-blue aura; foreground framing does not establish a literal mountain-sized claim.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/yekyua-verified.webp",
+      "sha256": "976f3a70784dc1a7ed7fce571dfe8f565e3461fa2fe28d0dcf9f3f11bf8c342c",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-d3c252ae-e23f-4a3b-93c8-110ba9d59ec8.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Powerful mammoth familiar has no documented blue/gold body emission.",
+    "allowed_magic": "none beyond documented manifestation",
+    "source_basis_claim_ids": [
+      "yekyua-c01",
+      "yekyua-c02",
+      "yekyua-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/yekyua.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/yekyua.json"
+  }
+}

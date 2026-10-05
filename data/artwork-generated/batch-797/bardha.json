@@ -1,0 +1,89 @@
+{
+  "slug": "bardha",
+  "basis_claim_ids": [
+    "bardha-c01",
+    "bardha-c02",
+    "bardha-c07"
+  ],
+  "depicted_variant": "Albanian Bardha as pale nebulous woman in white among misty mountains",
+  "visual_requirements": [
+    "Same pale adult female apparition in white clothes",
+    "Preserve mountain habitat and subtly nebulous lower silhouette",
+    "No luminous white filaments, glitter or emitted halo"
+  ],
+  "aura": "Quiet pale mist-softened woman against mountain fog, subdued natural moonlight.",
+  "prompt": "Use case: precise-object-edit. Input image 1 is the sole edit target. Change only excessive aura effects while preserving character/source traits. Remove all white energy filaments spiraling around the woman, star-like particles and brilliant self-emitted halo. Preserve same pale adult female apparition, white dress, face, flowing white hair, pose, square mountain scene and proportions. Source explicitly describes a pale nebulous woman on misty mountains, so preserve a SUBTLE diffuse mist-softened lower silhouette merging with ordinary cool mountain fog, without neon edges or luminous ribbons. Use muted natural moonlight. Quiet mountain presence, no added anatomy. No text, watermark, new characters or objects.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-124.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/bardha-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-12265478-03a2-405e-bab7-34906bf4f5f5.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native output: all white energy spirals and stars removed. Same pale white-haired woman/dress remains, lower outline softened into ordinary mountain mist as source describes; no halo.",
+    "reviewer": "root"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "aura-resume-0",
+    "reviewed_at": "2026-10-05",
+    "notes": "Independently inspected revised image: pale white-dressed female apparition in misty mountains; ordinary mountain mist with subtle source-supported nebulous skirt edges, no decorative spiral, emitted halo or particles."
+  },
+  "attempt_history": [
+    {
+      "slug": "bardha",
+      "basis_claim_ids": [
+        "bardha-c01",
+        "bardha-c02",
+        "bardha-c07"
+      ],
+      "depicted_variant": "Albanian Bardha as pale nebulous woman in white among misty mountains",
+      "visual_requirements": [
+        "Adult female pale mist-like apparition",
+        "White clothing with nebulous silhouette",
+        "Misty Albanian mountain setting and luminous spirit aura"
+      ],
+      "aura": "Pearlescent white emitted wisps and pale suspended spectral particles",
+      "prompt": "Depict BARDHA, the Albanian 'white one': one ADULT woman-shaped spirit, pale and NEBULOUS, dressed in modest opaque WHITE robes whose outer edges fade into luminous mist. She stands on a misty Albanian mountain path; lower robe edges transition softly into vapor, no explicit new animal anatomy. Pearlescent WHITE supernatural light wisps radiate from her body and luminous pale particles orbit her, unmistakably an otherworldly mountain apparition. Serene but uncanny distant gaze; numinous indifferent presence, atmospheric deep blue mountain shadows and cold mist. No horns, wings, fish tail, aggressive monster teeth or sun-tan humanportrait. ONE square premium detailed painterly mythology encyclopedia illustration, complete identifying silhouette inside frame. No captions, letters, decorative frame, watermark, gore, sexual scene or victims.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-124.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/bardha.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-12265478-03a2-405e-bab7-34906bf4f5f5.png",
+      "reviewed_at": "2026-10-05T03:06:04.851Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed pale adult woman-shaped apparition in opaque white robes with vaporous lower edges, on a misty mountain path. Pearlescent white emitted wisps and sparkling particles encircle the nebulous figure, giving a clear supernatural mountain-spirit aura. No unsupported animal features or wings."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Pale mistlike adult woman in white, nebulous silhouette and emitted white wisps in mountains.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/bardha-verified.webp",
+      "sha256": "37227b795fc0476b422c2034c0d4c0ba5aad7f33c9260d76436c355e7239e3ba",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-70098fce-160c-4399-a26d-5106a7ffcb57.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Decorative brilliant white aura spirals and floating star particles removed.",
+    "allowed_magic": "Source c02/c07 pale nebulous female manifestation retained subtly, without decorative emission.",
+    "source_basis_claim_ids": [
+      "bardha-c01",
+      "bardha-c02",
+      "bardha-c07"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/bardha.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/bardha.json"
+  }
+}

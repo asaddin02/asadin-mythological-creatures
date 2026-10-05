@@ -1,0 +1,91 @@
+{
+  "slug": "habetrot",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Input image is sole EDIT TARGET. Remove all unsupported emitted energy ribbons, luminous colored fog, magical sparkles/particles, halo and neon body outlines. Reconstruct natural physical materials underneath. Preserve exact identity, anatomy, counts, scale, pose, perspective, clothing, composition and scene. No additional characters, text or watermark. Habetrot: remove all luminous gold swirling thread-like energy around old spinner and ceiling/walls. KEEP normal physical yarn/THREAD connecting hands to spindle as dull unlit textile fibers, same original hands and spindle position. Preserve old adult woman's existing deformity/stooped posture without inventing anatomy, face, modest worn clothes, underground chamber and chair. Retain background physical lamp with natural warm light, no self-emitting skin/yarn.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/habetrot-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-ad693247-481e-4b54-8b3f-c1ef00c0c076.png",
+  "depicted_variant": "Old deformed woman spinner underground, unspecified deformity restrained",
+  "basis_claim_ids": [
+    "habetrot-c01",
+    "habetrot-c02",
+    "habetrot-c03",
+    "habetrot-c06"
+  ],
+  "aura": "Old bent underground spinner through posture, thread work, stone chamber and quiet natural lamplight.",
+  "visual_requirements": [
+    "Old deformed female, original stooped posture and face preserved.",
+    "Same spindle/hands/physical thread and modest worn clothing.",
+    "No emitted glowing thread, gold energy swirl or magic fog."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native edit: same stooped old woman spinning with physical spindle and continuous ordinary yarn. Gold swirl/particle envelope gone; lamp behind provides natural warm light.",
+    "reviewer": "root"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-118.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "aura-resume-0",
+    "reviewed_at": "2026-10-05",
+    "notes": "Independently inspected revised native contact: old deformed stooped adult woman in modest ragged clothes, ordinary spindle and taut physical thread between hands preserved. No glowing thread, energy loop, emitted particles; physical lamp lighting."
+  },
+  "attempt_history": [
+    {
+      "slug": "habetrot",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square detailed painterly naturalistic mythology illustration of HABETROT, Northern English/Lowland Scottish spinning spirit. ONE aged deformed adult woman spins flax on a simple wooden spindle in an underground stone chamber. Source only says old/deformed, no named anatomical deformity: convey with restrained stooped uneven posture and aged asymmetrical face, do not invent animal parts or massive mutated limbs. Modest opaque plain old dress covers body, whole figure/hands framed. Clearly luminous soft amber-silver supernatural wisps RADIATE FROM BODY and freshly spun thread, lighting subterranean stone, mysterious benevolent fairy aura artistic. No other spinners needed, child, victims, horns, wings, extra limbs, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/habetrot.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-ad693247-481e-4b54-8b3f-c1ef00c0c076.png",
+      "depicted_variant": "Old deformed woman spinner underground, unspecified deformity restrained",
+      "basis_claim_ids": [
+        "habetrot-c01",
+        "habetrot-c02",
+        "habetrot-c03",
+        "habetrot-c06"
+      ],
+      "aura": "mysterious helpful underground spinning-fairy radiance",
+      "visual_requirements": [
+        "old deformed female, no invented named anatomical deformity",
+        "underground spinning scene",
+        "modest cloth, emitted aura"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected native: aged asymmetrical stooped woman spinning thread with wooden spindle in underground stone chamber, modest dress. Deformed source morphology interpreted conservatively via posture/face, no specific unsupported mutation. Amber-silver emitted wisps artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-118.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Elderly hunched female spinner in underground chamber, no invented named anatomical deformity, emitted warm gold aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/habetrot-verified.webp",
+      "sha256": "77d978c1db52e4b760bb5e8b69a1cca03a5ef5e8c3e30919f00d2969604b23d3",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-76f42e68-4312-4d11-a6b1-399319954421.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Underground spinner and thread surrounded by unsupported bright golden energy swirls.",
+    "allowed_magic": "none; physical lamp light retained.",
+    "source_basis_claim_ids": [
+      "habetrot-c01",
+      "habetrot-c02",
+      "habetrot-c03",
+      "habetrot-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/habetrot.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/habetrot.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

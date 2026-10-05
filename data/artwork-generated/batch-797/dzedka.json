@@ -1,0 +1,88 @@
+{
+  "slug": "dzedka",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: lighting-weather. Image is EDIT TARGET. Change ONLY unsupported magical lighting and VFX. Preserve exact face, identity, expression, pose, anatomy, limb counts, source size, opaque modest clothing, landscape, camera and square frame. No text/watermark. Remove ALL emitted red/orange ribbons and glowing particles from body and bag. Preserve source red eyes as physically red irises with ordinary small reflection, NO emitted light or neon beam. Same old man with long RED beard, simple clothes and bag, rural sunset. Natural light, expression and pose carry presence.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/dzedka-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-53580616-2fe0-4330-a63b-4d6eb97fa3f5.png",
+  "review_path": "data/gemini/reviews/batch-124.review.json",
+  "visual_requirements": [
+    "Old human man",
+    "Long red beard and red non-emitting eyes",
+    "Simple clothes and bag",
+    "No glowing body/bag ribbons or particles"
+  ],
+  "depicted_variant": "Source old red-bearded red-eyed simple-clothed beggar-like Dzedka with bag; setting/aura editorial.",
+  "basis_claim_ids": [
+    "dzedka-c02",
+    "dzedka-c06"
+  ],
+  "aura": "Uncanny beggar presence through red beard/eyes, long stare, simple coarse clothing and bag on rural path.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected revised native contact: Same aged man, long red beard, red eyes, coarse simple clothes and bag; no emitted eyes, energy threads or aura particles.",
+    "reviewer": "aura-resume-0"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected revised: beggar-like old man with long red beard and bag, red eye coloration, no luminous eyes/body, ordinary sunset."
+  },
+  "attempt_history": [
+    {
+      "slug": "dzedka",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Belarusian folklore mythology illustration, stylized-concept. ONE DZEDKA choosing source-attested OLD BEGGAR-LIKE MAN with LONG RED BEARD and RED EYES, SIMPLE CLOTHES and A BAG. One adult elder human figure, weathered wrinkled naturalistic face, long vividly red beard clearly distinct from brown, both irises visibly supernatural RED, two arms/legs. Plain worn linen clothes and simple shoulder bag, forest country path old rural landscape editorial staging. UNMISTAKABLE luminous amber-ruby magical wisps emitted around body and bag, small radiant particles, mysterious ancient mythological presence, no invented king crown or animal anatomy. Detailed red hair, eyes, cloth and bag, whole figure readable, moody dusk. Preserve human elder form with source eye/beard difference. No horns, wings, fangs, modern items, text or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/dzedka.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-53580616-2fe0-4330-a63b-4d6eb97fa3f5.png",
+      "review_path": "data/gemini/reviews/batch-124.review.json",
+      "visual_requirements": [
+        "Old human man",
+        "Long red beard and red eyes",
+        "Simple clothes and bag",
+        "Unmistakable emitted aura"
+      ],
+      "depicted_variant": "Source old red-bearded red-eyed simple-clothed beggar-like Dzedka with bag; setting/aura editorial.",
+      "basis_claim_ids": [
+        "dzedka-c02",
+        "dzedka-c06"
+      ],
+      "aura": "Amber-ruby emitted elder wisps and radiant particles around bag.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: One elderly human beggar-like man with vivid long red beard and visibly red irises, simple worn clothes/shoulder bag; amber-ruby emitted wisps/particles around body and bag. Exact surface details and emitted aura editorial beyond listed traits."
+      },
+      "reviewed_at": "2026-10-05T04:40:04.433Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Old human man with long red beard and red eyes, simple clothes/bag and emitted red-gold aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/dzedka-verified.webp",
+      "sha256": "94cf2fdd6517d22244fb6c7cac9cde9d7f36b36b722994084cdd698672a49365",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-df6ecfa9-3fd9-4f8e-b9ab-3984f42e7d4e.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Unsupported red-orange body/bag ribbons and particles removed; source red eyes retained as physical non-emitting irises.",
+    "allowed_magic": "Source red eyes as physical coloration only.",
+    "source_basis_claim_ids": [
+      "dzedka-c02",
+      "dzedka-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/dzedka.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/dzedka.json"
+  }
+}

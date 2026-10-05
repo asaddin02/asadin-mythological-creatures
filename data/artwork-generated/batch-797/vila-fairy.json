@@ -1,0 +1,96 @@
+{
+  "slug": "vila-fairy",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Required local change: Add a restrained ghost double-exposure effect to entire fully clothed figure, so distant trees are faintly overlaid through whole figure including face and garment, demonstrating source-attested translucent apparition. This is spectral fading of whole person, no revealing clothing. No emitted light, glowing outline, wisps, ribbons or particles. Preserve exactly same adult nature spirit with same face, long blonde hair, two arms/two feet, stream-touching pose and forest; FULL OPAQUE MODEST gown covers chest, torso and legs fully, no sheer fabric or visible body through clothing, painterly detail and framing. Character presence through serene translucent spirit presence in naturally sunlit forest. Natural light and textures; no generic emitted aura, new anatomy, added characters, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/vila-fairy-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-621ad8d3-78ef-494f-a4a9-ba80a7891d0b.png",
+  "depicted_variant": "Beautiful long-haired translucent female nature spirit, no animal transformation",
+  "basis_claim_ids": [
+    "vila-fairy-c01",
+    "vila-fairy-c03",
+    "vila-fairy-c07",
+    "vila-fairy-c10",
+    "vila-fairy-c15",
+    "vila-fairy-c18"
+  ],
+  "aura": "serene translucent spirit presence in naturally sunlit forest",
+  "visual_requirements": [
+    "same adult nature spirit with same face, long blonde hair, two arms/two feet, stream-touching pose and forest; FULL OPAQUE MODEST gown covers chest, torso and legs fully, no sheer fabric or visible body through clothing",
+    "No generic emitted body aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native third output inspected: adult long-haired fully clothed nature spirit with forest faintly visible through whole figure including gown/shoulders as spectral double exposure; no body exposure, no glowing ribbons or particles.",
+    "reviewer": "aura-resume-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-121.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected corrected native: long-haired adult female apparition with modest gown and subtle whole-figure nonluminous transparency, trees visible through dress; natural stream daylight, no emitted energy."
+  },
+  "attempt_history": [
+    {
+      "slug": "vila-fairy",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square exquisite painterly naturalistic mythology illustration of VILA, Slavic female nature spirit. ONE beautiful adult woman with LONG HAIR and a visibly TRANSLUCENT BODY silhouette, clothed in a modest long opaque pale dress, at a woodland mountain spring. Natural human face source-faithful, no animal transformation or unrelated fairy anatomy. Full figure visible with margins. Clearly luminous pearl-green supernatural wisps RADIATE FROM HER BODY, lighting leaves and water, healing benevolent but mysterious nymph aura artistic. Body translucency source-attested; dress/hair color/glow artistic. No wings, horns, pointed ears, swan limbs, bow/weapon, victim, nudity, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/vila-fairy.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-621ad8d3-78ef-494f-a4a9-ba80a7891d0b.png",
+      "depicted_variant": "Beautiful long-haired translucent female nature spirit, no animal transformation",
+      "basis_claim_ids": [
+        "vila-fairy-c01",
+        "vila-fairy-c03",
+        "vila-fairy-c07",
+        "vila-fairy-c10",
+        "vila-fairy-c15",
+        "vila-fairy-c18"
+      ],
+      "aura": "benevolent woodland nymph radiance with ambivalent mystery",
+      "visual_requirements": [
+        "adult female translucent form and long hair",
+        "nature setting, no wings unless unsupported",
+        "emitted aura, natural human face"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: beautiful adult female nature spirit with long hair, airy subtly translucent silhouette edges and pale dress by woodland mountain spring, emitted pearl-green wisps light leaves/water. Source female long-haired nymph form preserved, no wings or animal transformations. Body center remains natural humanlike; dress/floral ornaments/palette/glow artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-121.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Long-haired adult female apparition in nature, subtle translucency and strong emitted green aura, no invented wings.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/vila-fairy-verified.webp",
+      "sha256": "4aa49f09c6d26370680dd0ed6ceb64d058261c793cda57b06a80b94b1974862d",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-fff9-76e1-92c1-76bde2aff5e5/exec-fbd221fe-d3c2-4815-8ec7-e5b84873c6c2.png",
+  "revision_generator": "aura-resume-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-2",
+    "rationale": "Removed unsupported emitted wrapping while preserving supported manifestation and source traits.",
+    "allowed_magic": "Translucent female apparition, vila-fairy-c15",
+    "source_basis_claim_ids": [
+      "vila-fairy-c01",
+      "vila-fairy-c03",
+      "vila-fairy-c07",
+      "vila-fairy-c10",
+      "vila-fairy-c15",
+      "vila-fairy-c18"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/vila-fairy.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/vila-fairy.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

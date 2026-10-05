@@ -1,0 +1,88 @@
+{
+  "slug": "hiisi",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: lighting-weather. Input image is EDIT TARGET. Remove ALL luminous green energy ribbons, emitted green fog and glowing particles surrounding Hiisi's body and the standing stones. Replace them with ordinary low forest haze, dark tree shadows and restrained natural silver moonlight. Preserve EXACT huge male giant, face, mossy long beard, same anatomy and limb counts, fully opaque ragged clothing, posture, low-angle composition, tree/stones scale references, moon, landscape and square frame. No emitted body halo or neon outline; no invented horns, wings or anatomy. Majestic malicious presence through giant scale, looming posture and stern expression. Same high-detail painterly naturalism, no text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/hiisi-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-b1d029b1-09e5-4859-bd23-9dd1a578da7a.png",
+  "review_path": "data/gemini/reviews/batch-121.review.json",
+  "visual_requirements": [
+    "One giant-like male forest being",
+    "Forest hidden sacred-place setting",
+    "Trees establish huge scale",
+    "Menacing expression and natural forest haze; no emitted green aura"
+  ],
+  "depicted_variant": "Later giant-like forest Hiisi / son of Kaleva interpretation; no conflation with Hiisi's elk, face/clothing editorial.",
+  "basis_claim_ids": [
+    "hiisi-c02",
+    "hiisi-c13"
+  ],
+  "aura": "Malicious majesty through colossal source giant form, looming low-angle view, stern face and dark moonlit forest.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected edited native: huge moss-covered male with coherent limbs and opaque ragged clothes preserved, tree scale intact; green ribbons and particles gone, ordinary gray forest haze and moonlight only.",
+    "reviewer": "aura-resume-0"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: towering forest giant in moss-covered physical garments and menhir forest. Low perspective and natural moonlight establish menace; no emitted green aura."
+  },
+  "attempt_history": [
+    {
+      "slug": "hiisi",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Finnish mythology artwork, stylized-concept. One HIISI choosing later giant-like forest-being interpretation and Hiisi son of giant Kaleva tradition. One huge human-shaped male forest giant, coarse weathered humanlike face, two arms and two legs, earthy simple clothing, towering among full-grown Finnish conifers near hidden woodland sacred stones. Exact face and clothing editorial, no claim of fixed source anatomy beyond giant-like being. Menacing forest malice, oppressive nocturnal forest horror, unmistakably luminous dark-green supernatural energy wisps and drifting sparks wreath giant body while shadow coils around stones. Detailed bark, moss, fog, low-angle scale emphasizing giant enormity, no animal limbs or horns. No depicted elk because it is Hiisi's animal rather than Hiisi itself, no victim, no text or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/hiisi.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-b1d029b1-09e5-4859-bd23-9dd1a578da7a.png",
+      "review_path": "data/gemini/reviews/batch-121.review.json",
+      "visual_requirements": [
+        "One giant-like male forest being",
+        "Forest hidden sacred-place setting",
+        "Trees establish huge scale",
+        "Malicious supernatural aura; no elk conflation"
+      ],
+      "depicted_variant": "Later giant-like forest Hiisi / son of Kaleva interpretation; no conflation with Hiisi's elk, face/clothing editorial.",
+      "basis_claim_ids": [
+        "hiisi-c02",
+        "hiisi-c13"
+      ],
+      "aura": "Dark green luminous energy wisps and oppressive shadow at sacred woodland stones.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: One immense human-shaped forest giant amid conifers/sacred stones, two arms and humanlike face; green luminous wisps and particles clearly visible. Giant-like appearance chosen, no elk conflation. Aura, costume and exact surface detail are editorial; anatomy/variant and setting traced to listed claims."
+      },
+      "reviewed_at": "2026-10-05T02:57:33.326Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: enormous humanlike forest giant amid sacred stones/conifers, no elk conflation, emitted green spectral wisps/particles; later giant-like source variant retained.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/hiisi-verified.webp",
+      "sha256": "c246908dc3e8a7183d7961665331fda28ae9279f09206abd6d7b6970376a292b",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-6625a8ae-da94-48d5-ae5d-b15617eb5914.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Original inspected: unsupported green energy ribbons and glowing particles around giant and stones removed.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "hiisi-c02",
+      "hiisi-c13"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/hiisi.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/hiisi.json"
+  }
+}

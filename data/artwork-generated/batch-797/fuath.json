@@ -1,0 +1,104 @@
+{
+  "slug": "fuath",
+  "basis_claim_ids": [
+    "fuath-c01",
+    "fuath-c02",
+    "fuath-c08"
+  ],
+  "depicted_variant": "Moulin na Vaugha fuath as noseless yellow-haired female water spirit in green silk",
+  "visual_requirements": [
+    "Remove unsupported green luminous fog, yellow emitted hair glow and bright unnatural eye coloration. Replace green fog with ordinary neutral gray low water mist, yellow hair with nonluminous yellow hair under moonlight and eyes with naturally shaded eyes. Preserve noseless adult female face (NO NOSE), green silk long dress coverage, yellow hair, same posture, anatomy and haunted watermill. Keep female identity. Malevolence through severe gaze, dark wet stone and night composition; no magic wrapping.",
+    "No generic emitted magical wrapping; preserve original anatomy, counts and scale"
+  ],
+  "aura": "Noseless severe gaze, dark watermill and natural night mist.",
+  "prompt": "Use case: precise-object-edit. Edit target supplied mythology artwork. Remove unsupported green luminous fog, yellow emitted hair glow and bright unnatural eye coloration. Replace green fog with ordinary neutral gray low water mist, yellow hair with nonluminous yellow hair under moonlight and eyes with naturally shaded eyes. Preserve noseless adult female face (NO NOSE), green silk long dress coverage, yellow hair, same posture, anatomy and haunted watermill. Keep female identity. Malevolence through severe gaze, dark wet stone and night composition; no magic wrapping. Preserve original framing, subject count, exact scale and anatomy; no new objects, nudity, text or watermark.",
+  "initial_prompt": "Use case: illustration-story. ONE square terrifying painterly Gaelic folklore illustration of FUATH in the specific Moulin na Vaugha variant: an adult FEMALE water spirit with long YELLOW HAIR, clearly NO NOSE on the otherwise humanlike face, wearing modest opaque GREEN SILK robes. View her front three-quarter face clearly so the smooth noseless central facial plane is unmistakable, with uncanny eyes and grim malevolent expression. Entire figure stands beside a shadowed Sutherland watermill and dark water. Cold luminous green river mist coils around her robe, spectral yellow rim-light catches her hair and deep nocturnal shadows create intense supernatural horror. No gore or bodily injury: the missing nose is congenital mythical anatomy, not a wound. No horns, wings, invented animal tail, jellyfish transformation or mixed variant. No exposed body, text, watermark or border.",
+  "edit_prompt": "Edit only the face of this existing Fuath illustration. The folklore requires NO NOSE but an otherwise normal female human face. The previous image incorrectly also omitted the mouth. ADD a clearly visible natural HUMAN MOUTH with two thin closed lips, placed in the lower face above the chin. Retain the smooth completely nose-less central face: absolutely no nose, no nostrils, no wound. Keep yellow hair, supernatural eyes, green silk robe, body, watermill, green luminous mist, framing and the entire background unchanged. No text or watermark. This is a single precise mouth correction, not a redesign.",
+  "attempt_history": [
+    {
+      "file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-e0ee1bf3-64d8-4a5b-9864-83766c11a13d.png",
+      "status": "superseded",
+      "reason": "Initial output also omitted the mouth although only the nose should be absent."
+    },
+    {
+      "slug": "fuath",
+      "basis_claim_ids": [
+        "fuath-c01",
+        "fuath-c02",
+        "fuath-c08"
+      ],
+      "depicted_variant": "Moulin na Vaugha fuath as noseless yellow-haired female water spirit in green silk",
+      "visual_requirements": [
+        "Adult female water spirit with visibly absent nose",
+        "Yellow hair and green silk clothing",
+        "Haunted Sutherland watermill setting with malevolent aura"
+      ],
+      "aura": "Cold luminous river mist, sinister green reflection and abyssal night shadows",
+      "prompt": "Use case: illustration-story. ONE square terrifying painterly Gaelic folklore illustration of FUATH in the specific Moulin na Vaugha variant: an adult FEMALE water spirit with long YELLOW HAIR, clearly NO NOSE on the otherwise humanlike face, wearing modest opaque GREEN SILK robes. View her front three-quarter face clearly so the smooth noseless central facial plane is unmistakable, with uncanny eyes and grim malevolent expression. Entire figure stands beside a shadowed Sutherland watermill and dark water. Cold luminous green river mist coils around her robe, spectral yellow rim-light catches her hair and deep nocturnal shadows create intense supernatural horror. No gore or bodily injury: the missing nose is congenital mythical anatomy, not a wound. No horns, wings, invented animal tail, jellyfish transformation or mixed variant. No exposed body, text, watermark or border.\nFinal edit prompt: Edit only the face of this existing Fuath illustration. The folklore requires NO NOSE but an otherwise normal female human face. The previous image incorrectly also omitted the mouth. ADD a clearly visible natural HUMAN MOUTH with two thin closed lips, placed in the lower face above the chin. Retain the smooth completely nose-less central face: absolutely no nose, no nostrils, no wound. Keep yellow hair, supernatural eyes, green silk robe, body, watermill, green luminous mist, framing and the entire background unchanged. No text or watermark. This is a single precise mouth correction, not a redesign.",
+      "initial_prompt": "Use case: illustration-story. ONE square terrifying painterly Gaelic folklore illustration of FUATH in the specific Moulin na Vaugha variant: an adult FEMALE water spirit with long YELLOW HAIR, clearly NO NOSE on the otherwise humanlike face, wearing modest opaque GREEN SILK robes. View her front three-quarter face clearly so the smooth noseless central facial plane is unmistakable, with uncanny eyes and grim malevolent expression. Entire figure stands beside a shadowed Sutherland watermill and dark water. Cold luminous green river mist coils around her robe, spectral yellow rim-light catches her hair and deep nocturnal shadows create intense supernatural horror. No gore or bodily injury: the missing nose is congenital mythical anatomy, not a wound. No horns, wings, invented animal tail, jellyfish transformation or mixed variant. No exposed body, text, watermark or border.",
+      "edit_prompt": "Edit only the face of this existing Fuath illustration. The folklore requires NO NOSE but an otherwise normal female human face. The previous image incorrectly also omitted the mouth. ADD a clearly visible natural HUMAN MOUTH with two thin closed lips, placed in the lower face above the chin. Retain the smooth completely nose-less central face: absolutely no nose, no nostrils, no wound. Keep yellow hair, supernatural eyes, green silk robe, body, watermill, green luminous mist, framing and the entire background unchanged. No text or watermark. This is a single precise mouth correction, not a redesign.",
+      "attempt_history": [
+        {
+          "file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-e0ee1bf3-64d8-4a5b-9864-83766c11a13d.png",
+          "status": "superseded",
+          "reason": "Initial output also omitted the mouth although only the nose should be absent."
+        }
+      ],
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-117.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/fuath.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-b0622a84-1e7d-4e2b-8663-2298cc0387a4.png",
+      "reviewed_at": "2026-10-05T02:45:52.549Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed adult female water spirit with yellow hair, opaque green silk robes and a smooth clearly noseless face retaining a natural visible closed mouth after targeted correction. No wounds, wings, horns or animal tail. Luminous green river mist and spectral yellow rim-glow beside the Sutherland watermill create malevolent supernatural aura. Initial mouthless variant was superseded."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: yellow-haired female water spirit in green garment, visibly smooth noseless face with normalmouth, green spectral mist by mill; corrected source facial anatomy retained.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/fuath-verified.webp",
+      "sha256": "c8795e7d45ba4e892c831d300b877055700e61c0e67c3a065ff07c44d24b0264",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-117.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/fuath-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-b0622a84-1e7d-4e2b-8663-2298cc0387a4.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output actually inspected: absent nose retained, adult identity, yellow hair and green silk coverage preserved; luminous green fog and hair emission removed, natural gray water mist.",
+    "reviewer": "aura-resume-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected full native edit: conspicuously absent nose preserved, yellow hair now natural moonlit hair, green silk dress retained at mill. Ordinary river mist, no luminous teal fog or gold strands."
+  },
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-0fff31d1-d446-41ac-9b4c-31d1c9c9f692.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Green luminous vapor and emitted yellow hair glow unsupported.",
+    "allowed_magic": "none beyond the documented creature manifestation; ordinary light sources retained",
+    "source_basis_claim_ids": [
+      "fuath-c01",
+      "fuath-c02",
+      "fuath-c08"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/fuath.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/fuath.json"
+  }
+}

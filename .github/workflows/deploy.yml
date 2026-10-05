@@ -1,6 +1,6 @@
 # Publishes Mythics to Cloudflare Pages: the app plus the read-only API as pre-built JSON (npm run build:site).
 # Only the public library is published: creatures whose verified research meets its tier target and has an
-# approved image (MYTHICS_PUBLISH=complete). Their artwork goes to the R2 bucket mythics-media and is served
+# approved image (MYTHICS_PUBLISH=complete). All active reviewed artwork goes to R2 mythics-media and is served
 # under /media/ by functions/media/[[path]].js (MEDIA_BASE=/media); the token needs Pages and R2 edit rights.
 # The editorial console is not published; it runs only on the local server (npm run dev).
 # Setup (once): repository variable CLOUDFLARE_PAGES_PROJECT, secrets CLOUDFLARE_API_TOKEN and
@@ -71,3 +71,7 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: npx --yes wrangler@4 pages deploy dist --project-name="$PROJECT" --branch=main --commit-hash="$(git rev-parse HEAD)" --commit-dirty=true
+      - name: Verify every active illustration on the public R2 route
+        env:
+          PUBLIC_SITE_URL: ${{ vars.SITE_URL || format('https://{0}.pages.dev', vars.CLOUDFLARE_PAGES_PROJECT) }}
+        run: node scripts/check-public-media.mjs

@@ -1,0 +1,90 @@
+{
+  "slug": "muma-padurii",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Required local change: all emitted green body ribbons, glowing forest trails, cauldron green light and luminous smoke; retain only small ordinary gray STEAM from cauldron as she brews source-supported potions, natural forest sunlight and existing candles. Preserve exactly same very ugly OLD HUMAN woman in long modest ragged dress, same two hands stirring cauldron, human anatomy, face, scale, pose, dark hidden hut and deep forest, framing and painterly quality. Character presence through weathered hag stare and guarded deep-forest herbalist setting. Natural scene texture and shadows. No generic emitted aura, new anatomy, extra characters, gore, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/muma-padurii-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-9b41d864-bbac-4f38-87f0-6ffdd565a97f.png",
+  "depicted_variant": "Very ugly old woman forest spirit protecting forest/plants",
+  "basis_claim_ids": [
+    "muma-padurii-c01",
+    "muma-padurii-c02",
+    "muma-padurii-c04",
+    "muma-padurii-c09"
+  ],
+  "aura": "weathered hag stare and guarded deep-forest herbalist setting",
+  "visual_requirements": [
+    "same very ugly OLD HUMAN woman in long modest ragged dress, same two hands stirring cauldron, human anatomy, face, scale, pose, dark hidden hut and deep forest",
+    "No generic emitted body aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native inspected: very ugly old human woman in modest ragged long clothes stirring cauldron at hidden forest hut; green body/forest wrapping gone, ordinary gray steam, sunlight and candle retained.",
+    "reviewer": "aura-resume-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-122.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected revised native: old wrinkled forest woman at hidden hut and steaming cauldron, ordinary grey steam only; no glowing roots, eyes or body."
+  },
+  "attempt_history": [
+    {
+      "slug": "muma-padurii",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square frightening detailed painterly naturalistic mythology illustration of MUMA PĂDURII, Romanian Mother of Forest. ONE VERY UGLY aged adult woman, deeply weathered human face and wild grey hair, modest ragged dark traditional dress, stirring a small herbal potion pot beside a dreadful hidden hut in virgin forest. Full figure framed, hands and face readable, no invented animal parts. She protects plants and animals yet frightens intruders; twisted ancient trunks loom. Clearly luminous moss-green supernatural wisps RADIATE FROM BODY and potion, lighting ferns, terrifying primordial forest-spirit aura artistic. No child, victim, boiling person, blood, Baba Yaga chicken hut legs, wings, horns, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/muma-padurii.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-9b41d864-bbac-4f38-87f0-6ffdd565a97f.png",
+      "depicted_variant": "Very ugly old woman forest spirit protecting forest/plants",
+      "basis_claim_ids": [
+        "muma-padurii-c01",
+        "muma-padurii-c02",
+        "muma-padurii-c04",
+        "muma-padurii-c09"
+      ],
+      "aura": "frightening primordial forest-mother and potion radiance",
+      "visual_requirements": [
+        "very ugly old woman",
+        "deep forest with hidden dark hut, potion",
+        "human source form with emitted aura"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: very ugly aged adult woman with wild grey hair, modest ragged dress, potion pot near hidden dark forest hut; strong emitted green wisps illuminate forest. Source forest-mother human form/protective potion context preserved, no invented animal parts or violence. Clothing/lighting artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-122.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Very ugly elderly human woman brewing forest potion beside hidden hut, vivid emitted green aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/muma-padurii-verified.webp",
+      "sha256": "83b29c488da4c2a12033a93e0b39033d99c7595cf7085ac9b2ba2f1cd8955193",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-fff9-76e1-92c1-76bde2aff5e5/exec-0eb2f12f-3e23-43dc-9901-47e87509e907.png",
+  "revision_generator": "aura-resume-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-2",
+    "rationale": "Unsupported emitted wrapping removed while preserving source form.",
+    "allowed_magic": "Potion brewing represented with ordinary cauldron steam, muma-padurii-c01",
+    "source_basis_claim_ids": [
+      "muma-padurii-c01",
+      "muma-padurii-c02",
+      "muma-padurii-c04",
+      "muma-padurii-c09"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/muma-padurii.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/muma-padurii.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

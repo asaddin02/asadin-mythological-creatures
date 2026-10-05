@@ -1,0 +1,93 @@
+{
+  "slug": "sihuanaba",
+  "worker": "worker-0",
+  "prompt": "Edit this existing mythological encyclopedia artwork to revise AURA as CHARACTER PRESENCE. REMOVE ALL generic emitted colored energy ribbons, neon outlines/halos, magical wisps, glowing particles/sparkles, colored luminous smoke/fog and body glow, including residual lines around silhouette, from creature and environment. Remove unsupported luminous eyes, retain normal natural eyes and reflections. Do not replace effects with white magic or fireflies. Use natural scene light only. Character presence: Horror from unsettling horse head glance, black river shadows and restrained moonlight. Preserve EXACT subject anatomy/counts/scale, identity, pose, perspective, scene, adult modest clothing and concealment. Critical invariants: Adult human female body with horse head, long hair, existing modest dress and washing cloth; no skull mixture. Retain detailed painterly naturalism, keep source physical colors/materials. No additional creatures, no text/watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/sihuanaba-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-683028fb-a6d3-4257-a021-0e60f2791fc4.png",
+  "depicted_variant": "Horse-headed adult female water spirit after true-form revelation",
+  "basis_claim_ids": [
+    "sihuanaba-c01",
+    "sihuanaba-c02",
+    "sihuanaba-c03",
+    "sihuanaba-c06",
+    "sihuanaba-c07"
+  ],
+  "aura": "Horror from unsettling horse head glance, black river shadows and restrained moonlight.",
+  "visual_requirements": [
+    "Adult human female body with horse head, long hair, existing modest dress and washing cloth; no skull mixture.",
+    "Character presence through pose/framing/natural scene light; no generic emitted aura."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actual new output inspected in six-image contact sheet. Removed luminous ribbons, particles and emitted color fields; retained source anatomy, subject scale, physical colors and modest clothes. Tartalo has exactly one central eye and non-glowing physical ring; Ora retains golden horns; Sihuanaba retains horse head.",
+    "reviewer": "worker-1"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-143.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: horse-headed adult woman in modest dress with long black hair in dark stream. Natural moon reflections only; no blue luminous smoke."
+  },
+  "attempt_history": [
+    {
+      "slug": "sihuanaba",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square terrifying premium painterly naturalistic mythology illustration of SIHUANABA / SIGUANABA, selecting the revealed HORSE-HEAD form, not fleshless skull form. ONE adult woman's body in modest worn pale dress with one unmistakable real HORSE HEAD and long dark mane/hair. She turns toward viewer from washing plain cloth at an isolated Central American river, full figure inside frame. Exact human-body/horse-head hybrid clear. Terrible panic-inducing night atmosphere; visibly luminous cold spectral wisps RADIATE FROM HER BODY and cast pale green glow on nearby water. Aura is artistic effect. No victim, nudity, skull mask, wings, horns, extra limbs, gore, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/sihuanaba.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-683028fb-a6d3-4257-a021-0e60f2791fc4.png",
+      "depicted_variant": "Horse-headed adult female water spirit after true-form revelation",
+      "basis_claim_ids": [
+        "sihuanaba-c01",
+        "sihuanaba-c02",
+        "sihuanaba-c03",
+        "sihuanaba-c06",
+        "sihuanaba-c07"
+      ],
+      "aura": "terrifying revealed horse-headed river apparition",
+      "visual_requirements": [
+        "human adult female body with horse head",
+        "long hair, river washing scene",
+        "no skull variant mixture"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: adult female body in modest pale dress with unmistakable horse head and long mane, river-washing cloth scene, emitted green spectral wisps reflect on water. No skull variant mixture. Source revealed hybrid clear, lighting/dress details artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-143.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: adult female human body in modest dress with clearly equine head/mane, cloth-washing scene at river and emitted green aura; no skull-form mixture.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/sihuanaba-verified.webp",
+      "sha256": "a1201db769823eb8dc6af8c93f1f5ff2b60d422426724e51f841911afd87dc2c",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-1869bf78-6e58-42e0-95f5-5895af0c50fc.png",
+  "revision_generator": "worker-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-1",
+    "rationale": "Green luminous fog ribbons around horse-headed woman not supported by form reveal.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "sihuanaba-c01",
+      "sihuanaba-c02",
+      "sihuanaba-c03",
+      "sihuanaba-c06",
+      "sihuanaba-c07"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/sihuanaba.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/sihuanaba.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

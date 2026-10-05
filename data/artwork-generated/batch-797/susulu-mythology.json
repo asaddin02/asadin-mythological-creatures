@@ -1,0 +1,72 @@
+{
+  "slug": "susulu-mythology",
+  "basis_claim_ids": [
+    "susulu-mythology-c01",
+    "susulu-mythology-c03",
+    "susulu-mythology-c04",
+    "susulu-mythology-c09",
+    "susulu-mythology-c12"
+  ],
+  "depicted_variant": "Turkic Susulu in half-woman half-fish aquatic form",
+  "visual_requirements": [
+    "Adult female human upper body with long flowing hair",
+    "One continuous fish tail with fin; no human legs",
+    "Preserve existing source anatomy, count, scale and modest framing.",
+    "Character presence through pose, composition, atmosphere and natural scene lighting; no generic emitted aura.",
+    "none"
+  ],
+  "aura": "Unlucky-omen presence through direct gaze, moonlight, wet scales and secluded dark lake.",
+  "prompt": "Use case: illustration-story. Create ONE square high-quality painterly mythology encyclopedia illustration of Turkic SUSULU, adult female upper body and a single fish tail, with very long flowing dark hair. Her chest is modestly covered by opaque woven cloth; this artistic modesty treatment leaves shoulders and arms clear. Full fish tail curves above a moonlit freshwater lake rock, ending in a clearly visible tail fin; no human legs. An uncanny ominous gaze, ghostly turquoise reflected water light, pale supernatural rim glow and thick cold lake mist create the unsettling aura of a disaster-foretelling water spirit. Beautiful yet dangerous, frightening night atmosphere. Keep all identifying anatomy inside the frame, richly detailed scales and rippling water, distant shore silhouette. Follow only half-woman half-fish variant. No horns, wings, extra tails, invented fangs, text, border, watermark, blood or nudity.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-139.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/susulu-mythology.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-07568721-219d-49aa-9ceb-ffbc5e492bb0.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected full original with view_image. Observed natural moonlit water mist and reflective tail scales, no detached neon halo or energy ribbons.",
+    "reviewer": "worker-0"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected contact image: female torso, long dark hair, fish tail on lakeside rocks. Cyan tail highlights reflect scene moonlight; ordinary lake mist, no detached energy ribbons or emitted envelope."
+  },
+  "aura_policy_history": [
+    {
+      "aura": "Moonlit spectral turquoise water-glow, ominous beckoning gaze and chilling mist",
+      "visual_requirements": [
+        "Adult female human upper body with long flowing hair",
+        "One continuous fish tail with fin; no human legs",
+        "Menacing omen-like supernatural lake aura"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed adult female upper body with opaque cloth covering the chest, long black hair, one continuous scaled fish tail and clearly visible fish tail fin. No human legs or unsupported monster appendages. Moonlit cold lake mist and turquoise water luminescence create an ominous supernatural water-spirit aura."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: adult female upper body joined to one scaled fish tail and broad fin, long black hair, cold moonlit lake glow; modest source-supported water-spirit form.",
+        "reviewed_at": "2026-10-05"
+      }
+    }
+  ],
+  "aura_revision": {
+    "decision": "keep",
+    "reviewer": "worker-0",
+    "rationale": "Observed natural moonlit water mist and reflective tail scales, no detached neon halo or energy ribbons.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "susulu-mythology-c01",
+      "susulu-mythology-c03",
+      "susulu-mythology-c04",
+      "susulu-mythology-c09",
+      "susulu-mythology-c12"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/susulu-mythology.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/susulu-mythology.json"
+  }
+}

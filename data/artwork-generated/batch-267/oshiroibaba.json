@@ -1,0 +1,31 @@
+{
+  "slug": "oshiroibaba",
+  "worker": "worker-3",
+  "prompt": "Use case: historical-scene. ONE square detailed painterly naturalistic encyclopedia illustration of Oshiroibaba. Choose Toriyama Sekien's depicted old-woman form in Konjaku Hyakki Shui, keeping it distinct from the uncertain Nara mirror-dragging variant. One elderly Japanese woman with a very bent hunched back, deeply wrinkled face caked in thick sloppy chalk-white face powder. A LARGE BROKEN Japanese paper umbrella rests on her head like an improvised cover, visibly torn paper and exposed bamboo ribs. She holds a plain walking stick in her RIGHT hand and a small traditional ceramic tokkuri sake flask in her LEFT hand. Modest ragged traditional robes, old rural wooded path at twilight. Her strange persistent demanding expression and powder-caked face give uncanny shabby unsettling folklore character, not cute granny or terrifying monster anatomy. Central entire stooped woman and complete umbrella within square, stick and flask clear, painterly naturalistic skin, powder, bamboo and cloth textures. Invariants: old bent-backed woman, broken umbrella ON HEAD, right-hand stick, left-hand sake flask, messy white powder. Avoid umbrella held normally by hand, mirror mixed from separate uncertain variant, witch hat, horns, wings, fangs, giant claws, crown, modern liquor bottle, young beauty, nude costume, gore, text, watermark, border, collage.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-21779877-6862-4e3d-8f55-51900bdfc337.png",
+  "review_path": "data/gemini/reviews/batch-056.review.json",
+  "visual_requirements": [
+    "Bent-backed elderly woman",
+    "Thick sloppy white face powder",
+    "Broken umbrella resting on head",
+    "Right-hand walking stick; left-hand sake flask",
+    "Uncanny demanding aura"
+  ],
+  "depicted_variant": "Sekien depicted broken-umbrella old woman; no uncertain Nara mirror variant mixed",
+  "basis_claim_ids": [
+    "oshiroibaba-c01",
+    "oshiroibaba-c03",
+    "oshiroibaba-c04",
+    "oshiroibaba-c05",
+    "oshiroibaba-c06"
+  ],
+  "aura": "Uncanny shabby demanding old-woman spirit",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-3.json"
+}

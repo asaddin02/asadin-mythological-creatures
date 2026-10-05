@@ -1,0 +1,67 @@
+{
+  "slug": "wulver",
+  "worker": "worker-0",
+  "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic mythology illustration of WULVER, selecting Jessie Saxby's Shetland description. One kindly upright humanoid with a true WOLF HEAD, long wolf muzzle, pointed wolf ears, body entirely covered in SHORT BROWN FUR. Seated fishing with a simple rod on a small rock in deep water below a steep grassy Shetland hill and a modest cave opening. Both arms and legs naturally readable, full silhouette inside square, no aggressive pose. Quiet benevolent mythical aura, delicate silver sea mist and warm dusk rim light as artistic treatment. Anatomy is wolf head on manlike body, not a quadruped wolf or transforming human. No wings, horns, armor, snarling giant fangs, humanoid face, text, watermark, border or collage.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/wulver.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-df0d3a4c-7e06-4349-a243-ecaa8cd91570.png",
+  "depicted_variant": "Saxby wolf-headed short-brown-haired fishing humanoid",
+  "basis_claim_ids": [
+    "wulver-c01",
+    "wulver-c02",
+    "wulver-c03",
+    "wulver-c04"
+  ],
+  "aura": "Quiet fishing pose, rugged shore and warm natural evening light.",
+  "visual_requirements": [
+    "Preserve wolf head, short brown fur, humanoid fishing pose and rock",
+    "Natural coastal light and spray; no generic emitted aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected full native original. Wolf-headed short-brown-furred fishing humanoid sits on source rock with natural coastal evening light; no emitted aura.",
+    "reviewer": "worker-0"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-129.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected image: short brown-haired wolf-headed humanoid fishing on coastal rock. Sunset, natural mist, no emitted aura."
+  },
+  "aura_policy_history": [
+    {
+      "aura": "benevolent quiet otherworldly guardian amid Shetland sea mist",
+      "visual_requirements": [
+        "wolf head on humanoid body",
+        "short brown fur",
+        "fishing from waterside rock; benevolent aura"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: true wolf head and muzzle on upright humanoid brown-furred body, two arms and two legs, fishing from waterside rock below hillside cave. Kind quiet expression and silver-gold sea mist, no quadruped or human-face confusion. Fur slightly shaggy painterly treatment; source short-brown-haired identity broadly preserved. Rod/cave/fishing source supported; lighting artistic."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: wolf head and brown-furred humanoid body, fishing from shore rock beside cave; benevolent expression and luminous sea mist, no ordinary human face or quadruped anatomy.",
+        "reviewed_at": "2026-10-05"
+      }
+    }
+  ],
+  "aura_revision": {
+    "decision": "keep",
+    "reviewer": "worker-0",
+    "rationale": "Wolf-headed short-brown-furred fishing humanoid sits on source rock with natural coastal evening light; no emitted aura.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "wulver-c01",
+      "wulver-c02",
+      "wulver-c03",
+      "wulver-c04"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/wulver.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/wulver.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

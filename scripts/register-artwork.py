@@ -6,6 +6,7 @@ New outputs are encoded as WebP; existing artwork is registered without alterati
 """
 import argparse
 import json
+import re
 from pathlib import Path
 
 from PIL import Image
@@ -27,7 +28,14 @@ parser.add_argument('image', type=Path)
 parser.add_argument('--reviewed', action='store_true', required=True)
 parser.add_argument('--existing', action='store_true')
 parser.add_argument('--review-notes', default='')
+parser.add_argument('--asset-suffix', default='verified')
+parser.add_argument('--skip-historical-batches', action='store_true')
 args = parser.parse_args()
+if not re.fullmatch(r'[a-z0-9-]+', args.asset_suffix):
+    raise SystemExit('Asset suffix must contain only lowercase letters, numbers and hyphens.')
+exclusions = read(ROOT / 'data/artwork-exclusions.json', {'items': {}})
+if args.slug in exclusions['items']:
+    raise SystemExit('This character was excluded by the owner; do not regenerate or register artwork.')
 creatures_path = ROOT / 'data/creatures.json'
 creatures = read(creatures_path)
 matches = [c for c in creatures if c['slug'] == args.slug]
@@ -47,7 +55,12 @@ specification = prompt_set.get('specifications', {}).get(args.slug, {})
 if not prompt:
     raise SystemExit('An exact creature-specific generation prompt is required.')
 source = args.image.resolve(strict=True)
-destination = source if args.existing else ROOT / 'assets/art' / f'{args.slug}-verified.webp'
+destination = source if args.existing else ROOT / 'assets/art' / f'{args.slug}-{args.asset_suffix}.webp'
+if not args.existing:
+    version = 2
+    while destination.exists():
+        destination = ROOT / 'assets/art' / f'{args.slug}-{args.asset_suffix}-v{version}.webp'
+        version += 1
 if args.existing and source.parent != (ROOT / 'assets/art').resolve():
     raise SystemExit('Existing artwork must already be in assets/art.')
 with Image.open(source) as im:
@@ -84,6 +97,13 @@ creature['images'] = [{
     'width': width,
     'height': height,
 }] + others
+if specification.get('accuracy_mode') == 'authorized-artistic':
+    creature['images'][0]['caption'] = {
+        'id': f"{creature['display_name']['id']} — interpretasi monster artistik AI; anatomi kreasi, bukan deskripsi harfiah sumber folklor.",
+        'en': f"{creature['display_name']['en']} — AI artistic monster interpretation; invented anatomy, not a literal folklore-source depiction.",
+    }
+    creature['images'][0]['artistic_interpretation'] = True
+    creature['images'][0]['artistic_changes'] = specification.get('artistic_changes', [])
 manifest_path = ROOT / 'assets/art/verified-manifest.json'
 manifest = read(manifest_path, {'tool': 'OpenAI built-in image_gen', 'artworks': {}})
 manifest['artworks'][args.slug] = {
@@ -103,8 +123,11 @@ if args.review_notes:
 if specification:
     manifest['artworks'][args.slug]['depicted_variant'] = specification['depicted_variant']
     manifest['artworks'][args.slug]['visual_basis'] = specification['basis_review']
+    for key in ('accuracy_mode', 'nonhuman_features', 'historical_basis', 'artistic_changes', 'additional_sources'):
+        if key in specification:
+            manifest['artworks'][args.slug][key] = specification[key]
 # Keep the browser lookup available for the six existing homepage illustrations.
-mapping = {slug: f'/assets/art/{slug}-editorial.webp' for slug in read(ROOT / 'assets/art/prompts.json')['prompts']}
+mapping = {slug: f'/assets/art/{slug}-editorial.webp' for slug in read(ROOT / 'assets/art/prompts.json')['prompts'] if slug not in exclusions['items']}
 mapping.update({slug: art['url'] for slug, art in manifest['artworks'].items()})
 write(creatures_path, creatures)
 write(manifest_path, manifest)
@@ -117,7 +140,7 @@ for item in worklist['items']:
         item.update(status='complete', url=url, prompt=prompt)
 write(worklist_path, worklist)
 batch_path = ROOT / 'data/artwork-batch-100.json'
-if batch_path.exists():
+if batch_path.exists() and not args.skip_historical_batches:
     batch = read(batch_path)
     for item in batch['items']:
         if item['slug'] == args.slug:

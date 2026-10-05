@@ -1,0 +1,65 @@
+{
+  "slug": "werewolf-in-slavic-mythology",
+  "basis_claim_ids": [
+    "werewolf-in-slavic-mythology-c01",
+    "werewolf-in-slavic-mythology-c04",
+    "werewolf-in-slavic-mythology-c09"
+  ],
+  "depicted_variant": "Slavic volkolak in ordinary quadrupedal wolf form retaining human intelligence",
+  "visual_requirements": [
+    "Ordinary four-legged wolf without humanoid limbs",
+    "Natural moonlight and ordinary nonluminous ground mist; no emitted magical aura"
+  ],
+  "aura": "Alert intelligent stare and low woodland framing with moonlight and ground mist.",
+  "prompt": "Use case: illustration-story. ONE square dark painterly folklore encyclopedia illustration of the SLAVIC VOLKOLAK, a werewolf in its traditional WOLF FORM. One fully quadrupedal natural grey wolf, four canine legs and paws, ordinary wolf head and muzzle, fur, one bushy tail; no upright humanlike body. Whole wolf clearly visible with comfortable image margins, standing alert in a shadowed eastern European forest. Its focused unnervingly intelligent expression hints at the human mind retained in this form. Pale silver spectral mist coils close around its paws and silhouette, eerie cold moon rim-light, deep black forest shadows and wind-driven fog create frightening supernatural shapeshifter atmosphere. Keep size comparable to a large natural wolf, not an unsupported mountain-sized beast. Naturalistic painterly fur texture. No human hands, human torso, bat wings, horns, extra tails, victims, blood, text, border or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-130.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/werewolf-in-slavic-mythology.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-90afe849-2fa1-43f8-8149-2e743e3bbc2a.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected full native original. Quadrupedal wolf shows cold moonlit fur and ordinary low woodland mist; no colored emission or luminous energy contour.",
+    "reviewer": "worker-0"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected image: coherent quadrupedal wolf, ordinary moonlight fur highlights and low forest mist, no emission or energy ribbons."
+  },
+  "aura_policy_history": [
+    {
+      "aura": "Pale moonlit spectral vapor surrounding the wolf, oppressive nocturnal forest dread",
+      "visual_requirements": [
+        "Natural wolf form with four canine legs",
+        "No humanoid torso or hands",
+        "Uncanny intelligent expression and threatening supernatural woodland atmosphere"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed natural quadrupedal grey wolf with four canine legs/paws, one wolf head and one bushy tail; no human hands or torso. The attentive intelligent gaze and silver spectral fog winding around the silhouette express a shapeshifter's uncanny mind. Moonlit forest gives restrained frightening supernatural atmosphere without unsupported giant size."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: natural quadrupedal grey wolf with intelligent uncanny gaze, no humanoid hands, silver spectral mist at night; documented ordinary wolf variant retained.",
+        "reviewed_at": "2026-10-05"
+      }
+    }
+  ],
+  "aura_revision": {
+    "decision": "keep",
+    "reviewer": "worker-0",
+    "rationale": "Quadrupedal wolf shows cold moonlit fur and ordinary low woodland mist; no colored emission or luminous energy contour.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "werewolf-in-slavic-mythology-c01",
+      "werewolf-in-slavic-mythology-c04",
+      "werewolf-in-slavic-mythology-c09"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/werewolf-in-slavic-mythology.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/werewolf-in-slavic-mythology.json"
+  }
+}

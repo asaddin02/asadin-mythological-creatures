@@ -1,0 +1,87 @@
+{
+  "slug": "vedmak",
+  "worker": "worker-0",
+  "prompt": "Edit this existing artwork: change aura to CHARACTER PRESENCE. Remove all generic emitted halos, luminous outlines, energy ribbons, glowing particles, colored luminous fog and swirling light around body and environment. No replacement white magic/fireflies. Natural light and ordinary NON-luminous weather only. Presence: Intent quiet male sorcerer beside herbs, natural dusk light and deep shadow. Preserve anatomy, counts, scale, pose, subject, scene, modest adult clothing and style. Critical invariants: Adult male WITHOUT beard or moustache, SMALL TAIL behind waist, existing modest white tunic and herbs bench. No text/watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/vedmak-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-7357e3e8-711c-4f90-8947-eee690b63b72.png",
+  "depicted_variant": "Born beardless male sorcerer with small tail",
+  "basis_claim_ids": [
+    "vedmak-c01",
+    "vedmak-c02",
+    "vedmak-c04"
+  ],
+  "aura": "Intent quiet male sorcerer beside herbs, natural dusk light and deep shadow.",
+  "visual_requirements": [
+    "Adult male WITHOUT beard or moustache, SMALL TAIL behind waist, existing modest white tunic and herbs bench.",
+    "Character presence through pose/framing/natural light; no generic emitted aura."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actual new image inspected in five-image contact sheet. Generic luminous effects removed. Tiddy Mun retains ordinary low fen fog; Trauco has footless rounded stumps; Vedmak clean shaven with small tail; Vishap continuous legless serpent with two wings; Zana exactly three golden-horned goats. Anatomy, scale and modest clothing preserved.",
+    "reviewer": "worker-1"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-122.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: clothed male sorcerer by herbs and hut, small tail visible. No magical hand sparks or body ribbons; dusk light and stance carry presence."
+  },
+  "attempt_history": [
+    {
+      "slug": "vedmak",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square detailed painterly naturalistic mythology illustration of VEDMAK, selecting Slavic BORN WARLOCK variant: ONE adult male humanlike sorcerer WITHOUT BEARD OR MOUSTACHE and with a SMALL TAIL clearly peeking from a simple modest peasant tunic below waist, not a massive devil tail. Full figure standing by a rural forest herb table, hands making a restrained healing charm. Source human face/body remain natural, subtly uncanny gaze. Visibly luminous pale amber and blue spell wisps RADIATE FROM HIS HANDS AND BODY onto herbs, ambivalent protective/mysterious aura as artistic treatment. No Witcher armor, swords, white-haired game hero, horns, wings, animal transformation, victims, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/vedmak.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-7357e3e8-711c-4f90-8947-eee690b63b72.png",
+      "depicted_variant": "Born beardless male sorcerer with small tail",
+      "basis_claim_ids": [
+        "vedmak-c01",
+        "vedmak-c02",
+        "vedmak-c04"
+      ],
+      "aura": "ambivalent Slavic healing-and-sorcery light",
+      "visual_requirements": [
+        "adult male warlock without beard/moustache",
+        "small tail visible",
+        "restrained source morphology, no Witcher copy"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: adult beardless/moustacheless male in plain peasant tunic, small tail visible behind garment, hands casting amber-blue wisps over herb table. Natural human face/anatomy preserved for born-warlock variant, no Witcher copy. Tail exact shape, tunic decoration and healing-glow rendering artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-122.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: beardless adult human male with small visible tail, plain peasant clothing and amber-blue emitted sorcery over herbs; no unsupported horns or modern franchise styling.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/vedmak-verified.webp",
+      "sha256": "d670a16ab7f8afd27159ab5fff5200fe1044115b1bbeb4dd5ff983755e83fa9b",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-e7807560-2d2d-49d5-aa05-5fb76c9e641c.png",
+  "revision_generator": "worker-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-1",
+    "rationale": "Blue and gold energy ribbons wrap hands and body; source sorcery does not prescribe a glowing envelope.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "vedmak-c01",
+      "vedmak-c02",
+      "vedmak-c04"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/vedmak.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/vedmak.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

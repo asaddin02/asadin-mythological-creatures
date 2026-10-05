@@ -1,0 +1,100 @@
+{
+  "slug": "vahana",
+  "worker": "root",
+  "prompt": "Edit this square painterly mythology artwork of selected vahana Nandi, the bull mount of Shiva. Preserve ONE white humped zebu BULL with four anatomically correct legs, two natural curved horns, ordinary bovine tail and temple ornament cloth, standing at stone Hindu temple. Remove every golden supernatural glowing ribbon, halo, luminous vapor, emitted hoof glow and magic wrapping around horns or body. White coat, horns, gold ornaments and temple are opaque physical objects illuminated only by natural warm sunlight and ordinary distant temple lamps. No deity riding, no added animals, no human body, no wings or invented anatomy. Presence from massive peaceful bull stance, majestic framing, temple setting and natural light. Preserve square painterly naturalistic quality. No text, collage, border or watermark.",
+  "depicted_variant": "Nandi bull as a source-attested example of Hindu divine vehicle class",
+  "basis_claim_ids": [
+    "vahana-c01",
+    "vahana-c02",
+    "vahana-c04"
+  ],
+  "visual_requirements": [
+    "One white humped zebu bull Nandi with four legs and two horns",
+    "Stone temple context and physical ornaments",
+    "No generic aura or luminous ribbons"
+  ],
+  "aura": "Majestic peaceful bull presence through stance, scale, framing and temple sunlight",
+  "review_path": "data/gemini/reviews/batch-073.review.json",
+  "tool": "OpenAI built-in image_gen",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-524a43e8-bdf7-41b8-86d4-1b4ebb3a9158.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/vahana-presence-v2.png",
+  "status": "reviewed",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected recovered native: one white humped bull, coherent four bovine legs and two horns, ordinary tail and physical gold neck ornament. Removed all glowing ribbons, emitted particles and horn halo. Warm sunlight and physical temple lamps illuminate coat/stone; dignified low camera temple setting retained.",
+    "reviewer": "finish_aura_c"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected revised native preview: coherent white Nandi bull with two horns, decorated neck and four legs in Hindu temple setting; natural sunset and reflective ornaments, no emitted golden horn/body ribbons."
+  },
+  "independent_visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected recovered native: one white humped bull, coherent four bovine legs and two horns, ordinary tail and physical gold neck ornament. Removed all glowing ribbons, emitted particles and horn halo. Warm sunlight and physical temple lamps illuminate coat/stone; dignified low camera temple setting retained.",
+    "reviewer": "finish_aura_c",
+    "reviewed_at": "2026-10-05"
+  },
+  "attempt_history": [
+    {
+      "slug": "vahana",
+      "worker": "root",
+      "prompt": "Use case: stylized-concept. Asset type: mythology encyclopedia artwork. Produce ONE square high-detail painterly naturalistic cinematic fantasy illustration. One powerful sacred BULL as the source-attested Nandi example of VAHANA, the Hindu divine vehicle class. Coherent four-legged bovine anatomy, two simple bull horns, broad muzzle, strong shoulder hump, immaculate ivory-white fur, modest ornate gold neck ornament. Stands at an ancient Hindu temple courtyard; stone doorway provides plausible bull scale. Serene dignity and strength, no human hybrid. Warm gold-white luminous sacred energy wisps visibly EMIT FROM its body and curve around horns, casting magical light on carved stones, abundant luminous particles. No mounted deity required, no elephant or mixedanimal body, no extra legs, text or watermark. Exact coat and ornament are artistic styling, bull identity source-grounded. No border, collage, labels, writing or watermark.",
+      "depicted_variant": "Nandi bull as a source-attested example of Hindu divine vehicle class",
+      "basis_claim_ids": [
+        "vahana-c01",
+        "vahana-c02",
+        "vahana-c04"
+      ],
+      "visual_requirements": [
+        "One coherent divine bull representing Nandi variant",
+        "Bull anatomy, no invented human hybrid",
+        "Visible sacred emitted aura and temple setting"
+      ],
+      "aura": "Clearly emitted supernatural luminous wisps and particles as artistic aura",
+      "review_path": "data/gemini/reviews/batch-073.review.json",
+      "tool": "OpenAI built-in image_gen",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-524a43e8-bdf7-41b8-86d4-1b4ebb3a9158.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/vahana.png",
+      "status": "reviewed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually viewed: coherent four-legged sacred bull representing Nandi vehicle variant, two horns and temple setting with strong emitted gold aura."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Actually viewed: coherent four-legged sacred bull representing Nandi vehicle variant, two horns and temple setting with strong emitted gold aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "independent_visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-0",
+        "notes": "Worker-0 independently inspected root contact sheet: Nandi bull example with four bovine limbs, two horns, temple doorway scale and emitted golden sacred aura; styling documented as artistic.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/vahana-verified.webp",
+      "sha256": "53824b44e9723bfdaa0c6539e9fabdd45e2ba1118ff00df5ef5f64c9cbb5d818",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-9ceca3e7-167a-42d0-925a-5020ad14ac60.png",
+  "revision_generator": "finish_aura_c",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "finish_aura_c",
+    "rationale": "Selected Nandi bull is documented physical vahana; generic emitted golden body/horn ribbons are unsupported and removed.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "vahana-c01",
+      "vahana-c02",
+      "vahana-c04"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/vahana.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/vahana.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

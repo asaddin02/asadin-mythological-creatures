@@ -1,0 +1,31 @@
+{
+  "slug": "furutsubaki-no-rei",
+  "worker": "worker-3",
+  "prompt": "Use case: historical-scene. ONE square detailed painterly naturalistic encyclopedia illustration of Furutsubaki-no-rei, the old camellia spirit in Japanese folklore. Choose the source-documented Yamagata beautiful-woman apparition associated with an old camellia tree; do not invent a tree-monster face. One beautiful adult Japanese woman in modest subdued traditional robes appears beside an ancient gnarled camellia on a mountain road. Her long dark hair and pale composed face blend subtly into the tree's deep shadows; a cold enigmatic almost deceptive gaze conveys an alluring but unsettling spirit. Clearly identifiable camellia has dense glossy evergreen leaves and red flowers with yellow stamens, and whole intact fallen blooms on the ground rather than scattered petals. A single tiny bee nearby hints at the documented transformation tale, no human victim depicted. Moonlit mountain setting, somber death-omen atmosphere and deceptive supernatural elegance, naturalistic painterly botanical and cloth details. One main complete apparition and relevant camellia comfortably in square. Invariants: old camellia, source-selected female apparition, intact fallen blooms, eerie deception/death association. Avoid generic dry oak, cherry blossom petals, tree face or humanoid branch arms, horns, wings, seductive exposed outfit, crown, witch hat, weapon, blood, victim, lettering, watermark, border, collage.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-e60919cc-bd6c-4181-a7e3-2e97e39ee96b.png",
+  "review_path": "data/gemini/reviews/batch-054.review.json",
+  "visual_requirements": [
+    "Old camellia tree",
+    "Beautiful adult female apparition variant",
+    "Glossy evergreen leaves and camellia blooms",
+    "Whole fallen blooms rather than petals",
+    "Cold deceptive death-associated aura"
+  ],
+  "depicted_variant": "Yamagata beautiful-woman apparition by an old camellia; bee allusion to documented transformation tale",
+  "basis_claim_ids": [
+    "furutsubaki-no-rei-c01",
+    "furutsubaki-no-rei-c02",
+    "furutsubaki-no-rei-c03",
+    "furutsubaki-no-rei-c04",
+    "furutsubaki-no-rei-c05"
+  ],
+  "aura": "Deceptive supernatural elegance and somber uncanny death omen",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-3.json"
+}

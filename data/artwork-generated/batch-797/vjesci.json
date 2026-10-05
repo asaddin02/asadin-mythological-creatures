@@ -1,0 +1,94 @@
+{
+  "slug": "vjesci",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: lighting-weather. Image is EDIT TARGET. Change ONLY unsupported magical lighting and VFX. Preserve exact face, identity, expression, pose, anatomy, limb counts, source size, opaque modest clothing, landscape, camera and square frame. No text/watermark. Remove all red neon body outlines, red vapor ribbons, glowing particles and eye self-emission. Preserve source red cheeks and red lips as normal physical complexion, ordinary non-glowing eyes, human-indistinguishable anatomy. Same cemetery/church night scene, naturally dark clothing and ordinary moonlight; no fangs.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/vjesci-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-9f11599c-47a6-49fc-bac6-d93699124f34.png",
+  "review_path": "data/gemini/reviews/batch-123.review.json",
+  "visual_requirements": [
+    "Ordinary-human-form adult vampire",
+    "Red physical lips and cheeks, limber posture",
+    "Midnight cemetery/church",
+    "No invented fangs or emitted red aura"
+  ],
+  "depicted_variant": "Human-indistinguishable adult Vjesci with red lips/cheeks and midnight rising setting, excludes invented fangs or gore; clothing/aura editorial.",
+  "basis_claim_ids": [
+    "vjesci-c01",
+    "vjesci-c02",
+    "vjesci-c03",
+    "vjesci-c06"
+  ],
+  "aura": "Uncanny ordinary-human vampire presence through ruddy face, direct stare and midnight graveyard/church.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected revised native contact: Same human male, red lips/cheeks, modest dark clothes and cemetery preserved; no red ribbons, luminous eyes or particles.",
+    "reviewer": "aura-resume-0"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected revised: humanlike vampire with red cheeks and lips in cemetery, ordinary dark eyes, no blood spray or supernatural mist."
+  },
+  "attempt_history": [
+    {
+      "slug": "vjesci",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Polish folklore horror mythology artwork, stylized-concept. ONE VJESCI, source-described vampire usually INDISTINGUISHABLE FROM HUMANS, rising at midnight near old Polish graveyard and distant church bell tower. Choose ordinary fully human ADULT man with limber posture, visibly RED LIPS and RED CHEEKS, naturalistic finely rendered human face; source human appearance preserved, no invented fangs, ears, horns or corpse wounds. Plain intact dark old rural clothes editorial privacy staging, no flesh-eating shown. Unmistakably malevolent luminous crimson spectral wisps emitted around body and limbs, blood-red floating magic particles, supernatural shadow spilling over grave soil, extremely chilling nocturnal cemetery atmosphere. Ordinary anatomy plus uncanny aura communicates mythological vampire. No gore, no victims, no children, no coffin violence, no animal form, no text or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/vjesci.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-9f11599c-47a6-49fc-bac6-d93699124f34.png",
+      "review_path": "data/gemini/reviews/batch-123.review.json",
+      "visual_requirements": [
+        "One ordinary-human-form adult vampire",
+        "Red lips and cheeks; limber human posture",
+        "Midnight cemetery/church setting",
+        "Terrifying emitted aura; no invented fangs"
+      ],
+      "depicted_variant": "Human-indistinguishable adult Vjesci with red lips/cheeks and midnight rising setting, excludes invented fangs or gore; clothing/aura editorial.",
+      "basis_claim_ids": [
+        "vjesci-c01",
+        "vjesci-c02",
+        "vjesci-c03",
+        "vjesci-c06"
+      ],
+      "aura": "Crimson emitted spectral wisps, red magical particles and supernatural grave shadow.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: One source-human-form adult male vampire with clearly red lips/cheeks, ordinary human ears/face and limber posture at cemetery/church night, luminous crimson emitted spectral wisps, no fangs. Exact surface detail/costume and visible aura editorial beyond listed source traits."
+      },
+      "reviewed_at": "2026-10-05T04:22:55.513Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Ordinary adult human vampire form with red lips/cheeks and limber posture, emitted terrifying crimson aura by church cemetery.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/vjesci-verified.webp",
+      "sha256": "e7274cb93bb2eb205f6ef7eff45a44f815c29e1495159d094cade0428fdba29b",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-45eb3448-8d8f-427b-937f-deafce8f5542.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Unsupported red envelope, vapor, particles and eye emission removed; physical red lips/cheeks retained.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "vjesci-c01",
+      "vjesci-c02",
+      "vjesci-c03",
+      "vjesci-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/vjesci.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/vjesci.json"
+  }
+}

@@ -8,6 +8,8 @@
  *                      or added later because the worklist missed it (manual-additions.json)
  *   bukan-makhluk      skipped as not a creature
  *
+ * Permanent artwork exclusions override both research images and editorial images.
+ * Research and its provenance remain available; excluded characters stay without approved artwork.
  * See fill-status.mjs for what "valid", the tier target and an approved image mean.
  */
 import { readFile, readdir } from 'node:fs/promises';
@@ -18,16 +20,27 @@ const read = async (p, fallback) => JSON.parse(await readFile(new URL(p, ROOT), 
 
 export const ORDER = ['lengkap-bergambar', 'lengkap-informasi', 'valid', 'tidak-valid', 'bukan-makhluk'];
 
-/** Latest version of every entry in a batch: the main inbox file, then fix files in order. */
-async function entriesOf(batch, inbox) {
-  const files = inbox.filter(n => n === `${batch}.md` || n.startsWith(`${batch}-fix-`))
+/** Load each accepted entry from the exact inbox fragment named by its review. */
+async function entriesOf(batch, inbox, review) {
+  const reviewedFiles = new Set((review?.entries || []).map(e => e.file).filter(Boolean));
+  const files = inbox.filter(n => n === `${batch}.md` || n.startsWith(`${batch}-fix-`) || reviewedFiles.has(n))
     .sort((a, b) => (a === `${batch}.md` ? -1 : b === `${batch}.md` ? 1 : a.localeCompare(b, undefined, { numeric: true })));
   const out = new Map();
+  const byFile = new Map();
   for (const name of files) {
     const md = await readFile(new URL(`data/gemini/inbox/${name}`, ROOT), 'utf8');
+    const entries = new Map();
     for (const m of md.matchAll(/```json\s*\n([\s\S]*?)\n```/g)) {
-      try { const j = JSON.parse(m[1]); if (j.slug) out.set(j.slug, j); } catch { /* reported by verify */ }
+      try { const j = JSON.parse(m[1]); if (j.slug) { out.set(j.slug, j); entries.set(j.slug, j); } } catch { /* reported by verify */ }
     }
+    byFile.set(name, entries);
+  }
+  for (const verdict of review?.entries || []) {
+    if (!verdict.file) continue;
+    const entry = byFile.get(verdict.file)?.get(verdict.slug);
+    // An absent reviewed record cannot be replaced by an unreviewed newer fragment.
+    if (entry) out.set(verdict.slug, entry);
+    else out.delete(verdict.slug);
   }
   return out;
 }
@@ -42,6 +55,7 @@ export async function computeFillStatus(creatures) {
   const progress = await readProgress();
   const inbox = await readdir(new URL('data/gemini/inbox/', ROOT));
   const illustrated = new Set(creatures.filter(c => (c.images || []).some(i => i.ai_generated)).map(c => c.slug));
+  const excludedArtwork = new Set(Object.keys((await read('data/artwork-exclusions.json', { items: {} })).items));
   const manual = new Set((await read('data/gemini/manual-additions.json', { items: [] })).items.map(i => i.slug));
 
   const status = {};
@@ -53,16 +67,16 @@ export async function computeFillStatus(creatures) {
     const accepted = DONE.has(state);
     const review = accepted ? await read(`data/gemini/reviews/${batch}.review.json`) : null;
     const verdicts = new Map((review?.entries || []).map(e => [e.slug, e]));
-    const entries = accepted ? await entriesOf(batch, inbox) : new Map();
+    const entries = accepted ? await entriesOf(batch, inbox, review) : new Map();
     for (const { slug } of manifest.entries) {
       const rev = verdicts.get(slug);
       let s;
       if (!accepted) s = 'tidak-valid';
       else if (rev?.verdict === 'skip') s = 'bukan-makhluk';
-      else if (rev?.verdict !== 'lulus-otomatis') s = 'tidak-valid';
+      else if (rev?.verdict !== 'lulus-otomatis' || !entries.has(slug)) s = 'tidak-valid';
       else {
         const complete = !rev.issues.some(i => i.where === 'tier');
-        const image = (entries.get(slug)?.images || []).length > 0 || illustrated.has(slug);
+        const image = !excludedArtwork.has(slug) && ((entries.get(slug)?.images || []).length > 0 || illustrated.has(slug));
         s = !complete ? 'valid' : image ? 'lengkap-bergambar' : 'lengkap-informasi';
         if (entries.has(slug)) passed.set(slug, entries.get(slug));
       }

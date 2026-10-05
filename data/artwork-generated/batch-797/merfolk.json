@@ -1,0 +1,86 @@
+{
+  "slug": "merfolk",
+  "worker": "worker-0",
+  "prompt": "Use case: stylized-concept. Create a square premium painterly naturalistic mythology encyclopedia illustration of one MERMAID: adult woman upper half joined smoothly to ONE long fish tail ending in a clearly visible broad split tail fin, no human legs. She wears an opaque modest high-neck long-sleeved dark turquoise woven tunic covering her entire human torso; this clothing is editorial modesty treatment. Long flowing hair, calm watchful adult face. Natural normal-sized aquatic being swimming among submerged rocks in a clear deep lake or sea. Full figure and fin visible with generous margins. Natural moonlight filtered through surface water creates soft silver-blue caustic reflections on textured scales, deep shadowed rocks. Character presence through elegant swimming pose, focused gaze and secluded aquatic composition. Absolutely no magical aura, emitted light, glitter, star particles, neon outlines, luminous ribbons, invented horns/wings, text, watermark or border.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/merfolk-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-bf00b089-2e35-4499-959d-9f01f3fddc83.png",
+  "depicted_variant": "Generic adult female half-human half-fish mermaid",
+  "basis_claim_ids": [
+    "merfolk-c01",
+    "merfolk-c02"
+  ],
+  "aura": "Aquatic wonder through flowing hair, poised swimming silhouette, watchful expression and moonlight filtered through secluded water.",
+  "visual_requirements": [
+    "Adult female human upper half fused seamlessly with single fish tail",
+    "No human legs, full split tail fin visible",
+    "Opaque editorial tunic covers human torso",
+    "Natural underwater moonlight; no emitted particles or aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected replacement native output: one adult woman in opaque long-sleeved tunic, two arms, smoothly fused single scaled fish tail and full split fin, no legs; submerged rocks and natural surface moonlight only, no glowing particles.",
+    "reviewer": "aura-resume-0"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-152.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected replacement: adult female human upper half in opaque teal tunic and one fish tail with coherent fin underwater. Natural moonbeams on scales; no colored sparkles/energy wraps. New source-faithful modest depiction documented."
+  },
+  "attempt_history": [
+    {
+      "slug": "merfolk",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square beautiful detailed painterly naturalistic mythology encyclopedia illustration of MERFOLK, selecting a generic adult female MERMAID, not a specific regional ningyo variant. ONE adult woman-like upper body smoothly fused at waist into ONE long scaled FISH TAIL with a broad natural caudal fin, NO legs. Entire silhouette visible underwater beside a dark rocky shoreline. Human face remains natural but subtly otherworldly with pearlescent lighting; long drifting hair and plain modest woven sea-colored chest wrap cover chest. Mysterious aquatic mythology aura expressed with luminous blue-green currents and floating light motes, artistic atmosphere rather than anatomical claim. Realistic scale and water textures, comfortable margins. No additional fish, crowns, tridents, wings, horns, extra arms, tentacles, shell bikini, nudity, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/merfolk.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-bf00b089-2e35-4499-959d-9f01f3fddc83.png",
+      "depicted_variant": "Generic adult female half-human half-fish mermaid",
+      "basis_claim_ids": [
+        "merfolk-c01",
+        "merfolk-c02"
+      ],
+      "aura": "mysterious aquatic enchantment and luminous currents",
+      "visual_requirements": [
+        "human adult female upper half fused seamlessly with single fish tail",
+        "no legs",
+        "aquatic mythical aura"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: adult human female upper body fused at waist with one scaled fish tail and fan caudal fin, no legs. Modest chest wrap, long drifting hair, blue-green luminous aquatic aura. Generic female merfolk identity preserved, no regional mixed features. Palette, chest wrap, hair and glowing particles artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-152.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: adult female human upper body smoothly fused to one scaled fish tail and caudal fin, no human legs; luminous underwater currents and modest cloth wrap.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/merfolk-verified.webp",
+      "sha256": "4d3856eda16a22e839d215655f7bdfe48f0df4482f3fdeda1219ebbe6b5443ea",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-5a64e1b6-d249-4619-a728-9a217f391a0f.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Original inspected: unsupported luminous cyan star particles around mermaid. Two atmosphere edits were rejected by output moderation; faithful modest replacement preserves source half-woman half-fish variant and natural aquatic scale/location, with opaque editorial clothing and moonlight, no magical sparkles.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "merfolk-c01",
+      "merfolk-c02"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/merfolk.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/merfolk.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

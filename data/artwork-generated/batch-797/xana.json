@@ -1,0 +1,92 @@
+{
+  "slug": "xana",
+  "basis_claim_ids": [
+    "xana-c01",
+    "xana-c04",
+    "xana-c07",
+    "xana-c09"
+  ],
+  "depicted_variant": "Blonde light-eyed adult water fairy with golden comb",
+  "visual_requirements": [
+    "Remove gold/white magical ribbons circling woman, floating sparkles and emitted hair/body glow. Preserve adult beautiful blonde light-eyed female, face, golden comb clearly held, exact seated combing pose/anatomy, opaque white/gold clothing coverage, riverbank, pure waterfall and mountains. No wings. Hair and comb reflect ordinary sun, no emission. Presence through serene gaze and combing gesture.",
+    "No generic emitted wrapping; preserve anatomy and counts"
+  ],
+  "aura": "Serene blonde woman combing hair by pure mountain water.",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove gold/white magical ribbons circling woman, floating sparkles and emitted hair/body glow. Preserve adult beautiful blonde light-eyed female, face, golden comb clearly held, exact seated combing pose/anatomy, opaque white/gold clothing coverage, riverbank, pure waterfall and mountains. No wings. Hair and comb reflect ordinary sun, no emission. Presence through serene gaze and combing gesture. Preserve original composition, count, exact scale and identity. No added subjects, nudity, gore, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-128.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/xana-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-aad6ede7-b822-4866-9728-c5f2a011f410.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output actually inspected: same blonde light-eyed adult female holding golden comb, opaque gown and seated river pose; white/gold light ribbons and magical motes gone.",
+    "reviewer": "aura-resume-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected native: blonde female fairy combing long hair with gold comb at clear spring, opaque white gown, natural sunlit landscape without emitted particles or body halo."
+  },
+  "attempt_history": [
+    {
+      "slug": "xana",
+      "basis_claim_ids": [
+        "xana-c01",
+        "xana-c04",
+        "xana-c07",
+        "xana-c09"
+      ],
+      "depicted_variant": "Blonde light-eyed adult water fairy with golden comb",
+      "visual_requirements": [
+        "Beautiful adult female fairy",
+        "Blonde hair, light eyes",
+        "Golden comb at riverbank",
+        "No invented wings"
+      ],
+      "aura": "Silver-gold emitted water-fairy wisps",
+      "prompt": "Depict a Xana of Asturian folklore as an extraordinarily beautiful ADULT woman with long BLONDE hair and LIGHT-COLOURED eyes, sitting fully clothed on a spring riverbank and combing her hair with a GOLDEN COMB. Modest opaque flowing ivory gown, natural humanlike arms and legs, no wings, horns, animal ears or mermaid tail. Clear cold water emerges from a mountain cave amid Picos de Europa vegetation. Her skin has a subtle pearlescent inner glow and unmistakably emitted silver-gold magical water wisps and floating luminous particles radiate from her body and comb, distinguishing a benevolent supernatural being. Full figure visible, serene enchantment, no bathing nudity or traveller. Square premium detailed painterly mythology encyclopedia illustration, one coherent full-body entity, clear source anatomy and emitted magical aura. No text, captions, borders, watermark, gore, exposed organs or victims.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-128.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/xana.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-aad6ede7-b822-4866-9728-c5f2a011f410.png",
+      "reviewed_at": "2026-10-05T04:13:32.648Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: adult blonde light-eyed water fairy combing hair with golden comb, opaque modest gown by spring cave, clear silver-gold emitted aura and natural human anatomy."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Beautiful blonde adult female fairy with light eyes and golden comb by river, no wings and emitted silver-gold aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/xana-verified.webp",
+      "sha256": "e07863a86ab44081e9b517e533a619b950a95a9c7a7bd4a6c33eb17e535bfe47",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-29ee4a4d-5826-4b66-9e07-a0bcc960e2b0.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Water fairy beauty and golden comb do not support golden emitted aura.",
+    "allowed_magic": "none beyond documented manifestation",
+    "source_basis_claim_ids": [
+      "xana-c01",
+      "xana-c04",
+      "xana-c07",
+      "xana-c09"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/xana.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/xana.json"
+  }
+}

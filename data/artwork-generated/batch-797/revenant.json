@@ -1,0 +1,91 @@
+{
+  "slug": "revenant",
+  "basis_claim_ids": [
+    "revenant-c01",
+    "revenant-c02",
+    "revenant-c07",
+    "revenant-c08"
+  ],
+  "depicted_variant": "Fully clothed revived human corpse",
+  "visual_requirements": [
+    "Remove green luminous body wisps, emitted eye bulbs, glowing ground envelope and colored magic around trees. Preserve same human animated corpse, pallid decayed face without gore, fully covered tattered clothes, original walking pose/anatomy/count and moonlit graveyard. Eyes dark/nonluminous, ordinary gray low mist. Haunting presence through staggering corpse posture and grave composition.",
+    "No generic emitted wrapping; preserve anatomy and counts"
+  ],
+  "aura": "Pallid clothed corpse rising among moonlit graves.",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove green luminous body wisps, emitted eye bulbs, glowing ground envelope and colored magic around trees. Preserve same human animated corpse, pallid decayed face without gore, fully covered tattered clothes, original walking pose/anatomy/count and moonlit graveyard. Eyes dark/nonluminous, ordinary gray low mist. Haunting presence through staggering corpse posture and grave composition. Preserve original composition, count, exact scale and identity. No added subjects, nudity, gore, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-129.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/revenant-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-f8434ab4-b566-4984-842e-30ee46a2b58b.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output actually inspected: same fully clothed animated corpse and walking pose in graves; green eye bulbs, body wisps and tree magic removed, ordinary gray mist.",
+    "reviewer": "aura-resume-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected native: physical clothed animated corpse in cemetery, ordinary nonluminous ground fog distributed in scene, no body-bound magic envelope."
+  },
+  "attempt_history": [
+    {
+      "slug": "revenant",
+      "basis_claim_ids": [
+        "revenant-c01",
+        "revenant-c02",
+        "revenant-c07",
+        "revenant-c08"
+      ],
+      "depicted_variant": "Fully clothed revived human corpse",
+      "visual_requirements": [
+        "Human animated corpse returned from grave",
+        "Covered decayed body without gore",
+        "No vampire-specific fangs"
+      ],
+      "aura": "Luminous cold green-white undead wisps",
+      "prompt": "Depict a revenant of medieval European folklore as an animated human corpse that has risen from its grave to haunt the living. An upright gaunt adult humanlike figure, two arms and two legs, entirely covered in weathered opaque burial clothing, face pallid and dry with sunken eyes and intact skin, dirt on fabric, no exposed wounds or organs. Emerging from an open earth grave in a desolate old cemetery, full silhouette visible. No invented fangs, horns, wings, animal limbs, armor or monster anatomy. Clearly emitted cold green-white luminous undead wisps coil from the body and grave around skeletal trees, eyes faintly inner-lit. Exceptionally terrifying oppressive atmosphere through expression, posture and supernatural energy, no other bodies or victims. Square premium detailed painterly mythology encyclopedia illustration, one coherent full-body entity, clear source anatomy and emitted magical aura. No text, captions, borders, watermark, gore, exposed organs or victims.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-129.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/revenant.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-f8434ab4-b566-4984-842e-30ee46a2b58b.png",
+      "reviewed_at": "2026-10-05T04:13:32.529Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: gaunt animated adult corpse returning from open grave, body covered in burial clothing, intact dry pallid face, no exposed organs or fangs, strong emitted green-white undead wisps."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Clothed animated human corpse returned from grave, non-graphic decay and no vampire-specific fangs, emitted pale green aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/revenant-verified.webp",
+      "sha256": "effacfc44988c3626797c007b5c674c58510a2dc9076b3aec52ac26603511c7c",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-a49975b9-484c-45f0-82ad-a12949e1055c.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Revived corpse manifestation does not support green power wrapping.",
+    "allowed_magic": "none beyond documented manifestation",
+    "source_basis_claim_ids": [
+      "revenant-c01",
+      "revenant-c02",
+      "revenant-c07",
+      "revenant-c08"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/revenant.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/revenant.json"
+  }
+}

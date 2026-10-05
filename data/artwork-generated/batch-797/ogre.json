@@ -1,0 +1,86 @@
+{
+  "slug": "ogre",
+  "worker": "worker-0",
+  "prompt": "Use case: lighting-weather. Image is EDIT TARGET. Remove unsupported magical lighting only; preserve exact identity, face, expression, pose, coherent anatomy and counts, source size, modest opaque clothing, setting, camera and square framing. No text/watermark. Remove yellow-green luminous fog/ribbons around huge ogre body. Ordinary natural dark woodland mist and moonlight only. Preserve huge hideous muscular humanoid with disproportionately large head, abundant hair, unusual gray skin, ragged opaque clothes and cabin scale. No emitted eyes or halo.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/ogre-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-b36ae712-8e9d-491a-84cd-d901edba8103.png",
+  "depicted_variant": "Huge hideous strong humanoid with disproportionately large head and abundant hair",
+  "basis_claim_ids": [
+    "ogre-c01",
+    "ogre-c02"
+  ],
+  "aura": "Ogre terror through huge muscular frame, oversized hideous head and oppressive cabin/forest scale.",
+  "visual_requirements": [
+    "Huge strong humanoid",
+    "Disproportionately large head, abundant hair, unusual gray skin",
+    "Source giant scale, opaque clothes",
+    "Natural moonlit shadows, no emitted fog"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected revised native contact: Same huge ogre anatomy, oversized head, hair/clothes and cabin scale; all yellow-green body vapor and ribbons removed.",
+    "reviewer": "aura-resume-0"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-128.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected selected native preview: enormous hideous strong humanoid with oversized head and thick hair towers over cottage; menace from low camera, scowl and dark forest. No luminous body vapor or ribbons."
+  },
+  "attempt_history": [
+    {
+      "slug": "ogre",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square exquisite high-detail painterly naturalistic cinematic mythology encyclopedia illustration. OGRE, one enormous hideous adult HUMANOID with DISPROPORTIONATELY LARGE HEAD, ABUNDANT tangled hair, unusual ashen-olive skin and massively STRONG BODY. Huge towering figure beside an ordinary abandoned cottage reaching only his waist, fullsourcegiantbody framed, two normalarms/twolegs. Coarse uncanny humanoidface broadnose closedmouth, opaque rough tunic and trousers, terrifying hungry expression without eating scene. Clearly sickly green-amber luminous supernatural wisps RADIATE FROM BODY, casting haunted light across trees, pitchdark nightmare forest atmosphere. No Shrek imitation, tubular ears, horns, cyclops singleeye, wings, children, victims or gore. No text, watermark, border, collage or labels.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/ogre.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-b36ae712-8e9d-491a-84cd-d901edba8103.png",
+      "depicted_variant": "Huge hideous strong humanoid with disproportionately large head and abundant hair",
+      "basis_claim_ids": [
+        "ogre-c01",
+        "ogre-c02"
+      ],
+      "aura": "terrifying massive humanoid emitted foul green magic",
+      "visual_requirements": [
+        "huge muscularhumanoid",
+        "disproportionately largehead abundant hair unusualskin",
+        "sourcegiant scale"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected native: huge hideous strong adult humanoid, large disproportionate head, abundant hair, unusual ashen-olive skin, cottage establishes towering size. Sickly green emitted aura, no victims or unsupported extra anatomy."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-128.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Huge muscular humanoid with large head, abundant hair and unusual green-grey skin, hut scale and terrifying emitted green aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/ogre-verified.webp",
+      "sha256": "4826aaab01dc6f5c9b2a632b1f65a6b160b980bb553b18f8c031324bb86e34cb",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-b92aba7a-2e32-4e6d-8db7-e4b7571eff42.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Unsupported yellow-green body vapor and luminous ribbons removed.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "ogre-c01",
+      "ogre-c02"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/ogre.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/ogre.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

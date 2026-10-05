@@ -1,0 +1,71 @@
+{
+  "slug": "kikimora",
+  "worker": "worker-0",
+  "prompt": "Use case: stylized-concept. ONE square terrifying detailed painterly naturalistic mythology encyclopedia illustration of KIKIMORA, selecting the Slavic FEMALE HOUSE SPIRIT with a CHICKEN BEAK, not swamp hag, goat variant or modern spider monster. One small thin female humanoid in plain worn modest Slavic household dress has an unmistakable natural chicken beak replacing the human mouth, otherwise source-faithful humanlike face and body. She sits beside an old masonry stove spinning thread on a wooden spindle at night. Both hands and whole figure framed with margins. Oppressive nightmare atmosphere, ghostly pale thread, cold vapor and deep shadow aura as artistic interpretation. No rooster crest, dog muzzle, goat horns, wings, spider legs, extra limbs, victims, text, watermark, border or collage.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/kikimora.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-466038c5-b29b-4a23-ac23-d955233b61da.png",
+  "depicted_variant": "House spirit female chicken-beaked variant, excluding swamp hag and modern spider monster",
+  "basis_claim_ids": [
+    "kikimora-c01",
+    "kikimora-c05",
+    "kikimora-c09",
+    "kikimora-c13",
+    "kikimora-c15"
+  ],
+  "aura": "Unsettling household presence through wary chicken-beaked female face, spinning pose and gloomy room.",
+  "visual_requirements": [
+    "Female house spirit with chicken beak",
+    "Night spinning near old stove",
+    "Modest clothing and no animal variant mixing",
+    "Natural smoke and lighting only"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native original inspected: chicken-beaked woman spinning, two human hands/arms, full modest dress, ordinary stove fire and room smoke, no generic magical wrapping.",
+    "reviewer": "aura-resume-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-121.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected original: female chicken-beaked house spirit spinning by stove; smoke rises physically from stove. Natural fire/window light, no emitted body aura."
+  },
+  "aura_policy_history": [
+    {
+      "aura": "nightmare household haunting and ghostly spinning thread",
+      "visual_requirements": [
+        "female house spirit with chicken beak",
+        "spinning near old stove at night",
+        "no mixed dog/goat/spider anatomy"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: female humanlike household spirit with clear chicken beak, spinning thread at masonry stove, two arms and legs under modest dress. No dog/goat/spider hybrid. Distinct frightening gaze and blue vapor with stove light. Source female house spirit/chicken-beak/spinning/stove features preserved; dress embroidery, proportions and lighting artistic."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: adult female household spirit with unmistakable chicken beak, spinning thread at masonry stove, two arms/legs under modest dress and eerie spectral vapor; no mixed monster species.",
+        "reviewed_at": "2026-10-05"
+      }
+    }
+  ],
+  "aura_revision": {
+    "decision": "keep",
+    "reviewer": "aura-resume-2",
+    "rationale": "Native original inspected: atmosphere is ordinary stove smoke and dim moon/fire lighting; no emitted body glow, ribbon or magic particles.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "kikimora-c01",
+      "kikimora-c05",
+      "kikimora-c09",
+      "kikimora-c13",
+      "kikimora-c15"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/kikimora.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/kikimora.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

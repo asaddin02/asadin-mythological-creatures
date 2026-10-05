@@ -1,0 +1,67 @@
+{
+  "slug": "azhdahak-mythology",
+  "worker": "worker-0",
+  "prompt": "Use case: stylized-concept. ONE square masterful painterly naturalistic mythology encyclopedia illustration of AZHDAHAK, the Armenian MAN-VISHAP / MAN-DRAGON king, not a three-headed Avestan demon. ONE adult male humanoid dragon-king with a single stern subtly serpentine face, restrained dark reptilian scales across exposed face and hands, otherwise anatomically human upright body, two arms and two legs. Simple dark ancient royal robe covers torso, no invented magical armor. At a high Armenian mountain lake, imposing full figure dwarfs foreground rocks while fissures and water turbulence suggest source earthquake power. Source supports man-dragon identity but does not specify scales placement, face shape or costume: treat these as restrained contemporary artistic interpretation. Terrifying sovereign mythical aura, storm vapor, deep shadow and cold fiery-looking rimlight without bodily flames. No additional heads, neck snakes, wings, horns, serpent-tail belt, victims, gore, text, watermark, border or collage.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/azhdahak-mythology.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-ba41a7da-cfae-4bcf-b400-307d2cda2e95.png",
+  "depicted_variant": "Armenian man-vishap dragon-king hybrid, restrained artistic morphology",
+  "basis_claim_ids": [
+    "azhdahak-mythology-c04",
+    "azhdahak-mythology-c05",
+    "azhdahak-mythology-c07",
+    "azhdahak-mythology-c09"
+  ],
+  "aura": "Imposing dragon-king stance against mountain lake and storm sunset.",
+  "visual_requirements": [
+    "Preserve one-headed human-dragon king, restrained scaled skin and royal clothing without added wings/heads",
+    "Preserve source scale and landscape, no generic emitted aura; natural lighting outside explicit source effect"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected full native original. Restrained human-dragon king has textured scales and clothing under natural cloud sunset; ordinary ground mist, no emitted ribbons or aura.",
+    "reviewer": "worker-0"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-122.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected original: clothed man-dragon king with scaled face/hands in mountain lake scene. Natural waves, storm and backlight; no aura filaments."
+  },
+  "aura_policy_history": [
+    {
+      "aura": "terrifying earthquake and mountain-lake dragon sovereignty",
+      "visual_requirements": [
+        "adult male humanoid dragon-king hybrid",
+        "restrained serpentlike face and scaled skin, no extra heads/wings",
+        "mountain-lake terror aura; unspecified visual details artistic"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: one imposing adult male humanoid dragon-king with subtly serpentine scaled face/hands and long royal robe, no extra heads/wings. Mountain-lake turbulence and rift support earthquake setting. Source explicitly man-vishap/dragon king; scale placement, robe ornament, face shaping and warm cloud aura are contemporary artistic morphology, not precise source anatomy."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: adult humanoid dragon king with subtle scaled face/hands, robe and mountain-lake earthquake setting. Restrained hybrid rendering is disclosed artistic morphology, without extra heads/wings.",
+        "reviewed_at": "2026-10-05"
+      }
+    }
+  ],
+  "aura_revision": {
+    "decision": "keep",
+    "reviewer": "worker-0",
+    "rationale": "Restrained human-dragon king has textured scales and clothing under natural cloud sunset; ordinary ground mist, no emitted ribbons or aura.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "azhdahak-mythology-c04",
+      "azhdahak-mythology-c05",
+      "azhdahak-mythology-c07",
+      "azhdahak-mythology-c09"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/azhdahak-mythology.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/azhdahak-mythology.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "duppy",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Edit this existing mythological artwork to replace generic magical AURA with CHARACTER PRESENCE. REMOVE ALL emitted wisps, neon outlines, halos, energy ribbons, glowing particles/sparks and luminous colored fog from body and environment. Remove glowing eyes; retain normal natural eyes/reflections. Make waterfall natural water, no emitted water glow. No new magic/fireflies. Presence: Dread through still threatening three-legged horse on deserted dark Caribbean path, natural moonlight. Preserve EXACT anatomy/counts/scale, subject pose, scene and modest clothing. Invariants: EXACTLY THREE LEGS and THREE HOOFS: twoforelegs plus ONE centered hindleg. No fourthleg/shadowleg. Horsehead/tail. Ordinary natural scene light only, detailed painterly realism, no text/watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/duppy-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-40efdb4c-f200-4970-987c-354c0005fb1c.png",
+  "review_path": "data/gemini/reviews/batch-143.review.json",
+  "visual_requirements": [
+    "EXACTLY THREE LEGS and THREE HOOFS: twoforelegs plus ONE centered hindleg. No fourthleg/shadowleg. Horsehead/tail.",
+    "Character presence from pose, framing and natural scene light; no generic magical envelope."
+  ],
+  "depicted_variant": "Duppy malicious Three-footed Horse example, excludes Rolling Calf/Ol'Hige forms; spectral color/environment editorial.",
+  "basis_claim_ids": [
+    "duppy-c01",
+    "duppy-c02",
+    "duppy-c03",
+    "duppy-c07"
+  ],
+  "aura": "Dread through still threatening three-legged horse on deserted dark Caribbean path, natural moonlight.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actual new output inspected in five-image contact sheet: no emitted energy ribbons/particles, natural scene light; Bodach grey old man, Caipora hairy guardian, Donas two cat-paw feet, Duppy EXACTLY THREE countable hoofed legs, Groac'h two downward walrus tusks retained. Source form, scale and adult modest clothing intact.",
+    "reviewer": "worker-1"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: dark spectral horse retains selected three-legged anatomy. Moonlight and ominous deserted lane; no eye beam or luminous blue fog."
+  },
+  "attempt_history": [
+    {
+      "slug": "duppy",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Caribbean folklore mythology artwork, stylized-concept. ONE DUPPY in source-listed THREE-FOOTED HORSE malicious-spirit example. One terrifying spectral HORSE with EXACTLY THREE LEGS ending in EXACTLY THREE HOOFED FEET, not four; three legs fully separated and countable (two forelegs and ONE centered hind leg), body angle chosen to make the sole hind leg obvious, no fourth leg hidden or duplicated. One equine head, mane, horse torso and tail, no human face. Haunting deserted Caribbean path at night, palm silhouettes and old rural fence, extreme frightening malevolent ghost atmosphere. UNMISTAKABLE luminous sickly turquoise spectral wisps emitted around body and three hooves, drifting ghost particles and translucent edges, detailed naturalistic horse face and skin. No rider or victims, no horns/wings, no chains combining Rolling Calf variant, no text or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/duppy.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-40efdb4c-f200-4970-987c-354c0005fb1c.png",
+      "review_path": "data/gemini/reviews/batch-143.review.json",
+      "visual_requirements": [
+        "Exactly three equine legs and hoofed feet",
+        "One ghost horse not ordinary four-legged horse",
+        "Caribbean night haunting",
+        "Malevolent emitted spectral aura"
+      ],
+      "depicted_variant": "Duppy malicious Three-footed Horse example, excludes Rolling Calf/Ol'Hige forms; spectral color/environment editorial.",
+      "basis_claim_ids": [
+        "duppy-c01",
+        "duppy-c02",
+        "duppy-c03",
+        "duppy-c07"
+      ],
+      "aura": "Sickly turquoise luminous ghost wisps, particles and translucent edges.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: Exactly THREE countable hoofed equine legs: two forelegs and one centered hindleg; one ghost horse with no fourth limb, strong turquoise spectral wisps and Caribbean palm-path setting. Exact size/color/costume and aura editorial beyond listed source traits."
+      },
+      "reviewed_at": "2026-10-05T03:26:14.705Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Exactly three distinct equine legs with hooves counted, coherent horse apparition and emitted turquoise spectral wisps.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/duppy-verified.webp",
+      "sha256": "5a74fa0a67892a72ca34ac1950cdcd6ffcb46ba494eeea8f939972ec2371a856",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-dfce7a16-ead8-44c5-9a51-f78bfc329da6.png",
+  "revision_generator": "worker-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-1",
+    "rationale": "Entire horse shrouded in turquoise wisps and glowing eyes without specific source light.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "duppy-c01",
+      "duppy-c02",
+      "duppy-c03",
+      "duppy-c07"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/duppy.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/duppy.json"
+  }
+}

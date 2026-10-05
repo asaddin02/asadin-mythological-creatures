@@ -1,0 +1,92 @@
+{
+  "slug": "richmond-vampire",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove purple emitted smoke envelope, light wisps and eye glow. Preserve same muscular creature, jagged teeth clearly visible, loose hanging intact skin, crouching pose, anatomy/count/scale, trousers coverage and collapsed Church Hill tunnel. No gore, wounds, blood or victim. Menace through muscle tension, jagged grin and natural light shaft amid rubble. Preserve original composition, count, exact scale and identity. No added subjects, nudity, gore, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/richmond-vampire-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-ddee8f57-faa0-42c6-b5a4-9ec9f2d4d750.png",
+  "depicted_variant": "Recent tunnel-legend muscular creature with jagged teeth and loose hanging skin, sanitized non-graphic",
+  "basis_claim_ids": [
+    "richmond-vampire-c01",
+    "richmond-vampire-c04",
+    "richmond-vampire-c05",
+    "richmond-vampire-c08"
+  ],
+  "aura": "Tense crouch and jagged grin in shadowed collapsed tunnel under natural daylight.",
+  "visual_requirements": [
+    "muscularbody loose hangingintactskin",
+    "jaggedteeth visible",
+    "no blood/victims graphicinjury",
+    "No generic emitted wrapping, halo, luminous particles or energy smoke; preserve original identity, anatomy, count, clothing and scale."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Directly inspected original and recovered native edit: same crouching muscular creature, visibly jagged teeth, loose hanging intact skin, covered trousers and collapsed tunnel. Purple smoke ribbons and glowing eyes removed; menace comes from tense crouch, stare, teeth and ordinary daylight shaft. No blood, victims, wounds or added subjects.",
+    "reviewer": "finish_aura_a"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-124.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected revised native preview: muscular crouching creature with jagged teeth and loose hanging skin in ruined railway tunnel; natural daylight and threatening expression convey horror with no red aura or supernatural emissions."
+  },
+  "attempt_history": [
+    {
+      "slug": "richmond-vampire",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square exquisite high-detail painterly naturalistic cinematic mythology encyclopedia illustration. RICHMOND VAMPIRE, choosing recent post-2001 Church Hill tunnel URBAN LEGEND creature, NOT historical railroadfireman. ONE terrifying muscular ADULT HUMANLIKE CREATURE crouches alone in empty collapsed railwaytunnel, JAGGED TEETH visibly exposed and loose leathery INTACT skin folded and hanging over shoulders/arms (NOT openinjury, no exposedtissue). Opaque tattered old trousers, exactface/clothes artistic. Full creature within frame, emptyrails and fallen stones, malevolent violet-silver luminous wisps visibly RADIATE FROM BODY, light dusty tunnel, nightmareatmosphere. No blood, burns, wounds, gore, victims, workers, attacks, horns or wings. No text, watermark, border, collage or labels.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/richmond-vampire.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-ddee8f57-faa0-42c6-b5a4-9ec9f2d4d750.png",
+      "depicted_variant": "Recent tunnel-legend muscular creature with jagged teeth and loose hanging skin, sanitized non-graphic",
+      "basis_claim_ids": [
+        "richmond-vampire-c01",
+        "richmond-vampire-c04",
+        "richmond-vampire-c05",
+        "richmond-vampire-c08"
+      ],
+      "aura": "terrifying urbanlegend tunnel creature emitted violet-black magic",
+      "visual_requirements": [
+        "muscularbody loose hangingintactskin",
+        "jaggedteeth visible",
+        "no blood/victims graphicinjury"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected native: muscular crouching humanoid creature, jagged visible teeth, loose hanging intact skin draped over shoulders/arms, empty collapsed rail tunnel and emitted violet wisps. Sanitized non-graphic version of RECENT post-2001 urbanlegend c04/c05; no blood/victims, not historical fireman c07 and records lack alleged details c08. Exactface/costume artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-124.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Muscular monster with loose hanging intact skin and visible jagged teeth, no blood/victims/graphic injuries, emitted violet aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/richmond-vampire-verified.webp",
+      "sha256": "d7ac52534d7941c887a4eab28f52739a21658f2d2c1ab8ccfde168d552f7f534",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-22074457-af14-4def-a937-5407f092255b.png",
+  "revision_generator": "finish_aura_a",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "finish_aura_a",
+    "rationale": "Selected source manifestation does not warrant the original generic emitted magic wrapping; recovered faithful native edit removes it while retaining documented attributes.",
+    "allowed_magic": "none; ordinary scene lighting and material reflections only",
+    "source_basis_claim_ids": [
+      "richmond-vampire-c01",
+      "richmond-vampire-c04",
+      "richmond-vampire-c05",
+      "richmond-vampire-c08"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/richmond-vampire.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/richmond-vampire.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

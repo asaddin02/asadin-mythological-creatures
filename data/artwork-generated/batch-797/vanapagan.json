@@ -1,0 +1,64 @@
+{
+  "slug": "vanapagan",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Square premium painterly naturalistic Estonian mythology encyclopedia artwork, stylized-concept. ONE VANAPAGAN, the source-attested GIANT FARMER and underworld devil more foolish than malevolent. A COLOSSAL human-shaped weathered adult male farmer with simple rough linen rustic clothes, earthy bewildered face, holding a huge wooden farm tool. Make body immense, towering over full-grown Estonian forest trees and ordinary farm cottages, entire giant silhouette above rolling fields, extremely low viewpoint with clear landscape scale. Preserve farmer/giant source appearance, no added goat legs or horns; exact facial details, tool and clothing editorial. Eerie underworld-green ground fog and dark amber dust swirling about his giant feet create mythology aura, dramatic thundercloud light, power with a slightly puzzled rather than sadistic expression. Detailed naturalistic human face, enormous presence. No second giant, no victims, no modern machinery, no fingernail invisibility hat combined into this visible variant, no text, no watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/vanapagan.png",
+  "review_path": "data/gemini/reviews/batch-128.review.json",
+  "visual_requirements": [
+    "Preserve enormous human giant farmer, rake, clothing and buildings for scale",
+    "Natural sunset, wind and ground dust; no generic emitted aura"
+  ],
+  "depicted_variant": "Vanapagan as enormous dull giant farmer; no invisibility-hat or unsupported animal-anatomy additions.",
+  "basis_claim_ids": [
+    "vanapagan-c01",
+    "vanapagan-c09"
+  ],
+  "aura": "Huge awkward farmer posture and village scale under dramatic natural clouds.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected full native original. Giant farmer towers over farms with a rake; dust, clouds and sunset appear physical, without luminous body contour or energy strands.",
+    "reviewer": "worker-0"
+  },
+  "reviewed_at": "2026-10-05",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-d99fdae2-f0a0-41f7-9ef6-d878fe327b6b.png",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected original: enormous farmer with rake above village and trees. Clouds/dust ground scale and natural backlight, no energy envelope."
+  },
+  "aura_policy_history": [
+    {
+      "aura": "Eerie underworld-green fog and dark amber earthen dust.",
+      "visual_requirements": [
+        "One colossal male giant farmer",
+        "Humanlike farmer anatomy",
+        "Cottages and mature trees establish scale",
+        "Foolish rather than cruel expression"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native: one immense fully human farmer giant with weathered face and puzzled expression, rough linen clothing and giant wooden rake, towers far above mature trees and farm cottages. Green ground fog and amber dust surround feet. Giant scale undeniable; clothing, exact height and farm tool editorial."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: immense humanlike farmer with puzzled weathered face and rake, tiny cottages/trees provide scale; uncanny green and amber dust aura near feet.",
+        "reviewed_at": "2026-10-05"
+      }
+    }
+  ],
+  "aura_revision": {
+    "decision": "keep",
+    "reviewer": "worker-0",
+    "rationale": "Giant farmer towers over farms with a rake; dust, clouds and sunset appear physical, without luminous body contour or energy strands.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "vanapagan-c01",
+      "vanapagan-c09"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/vanapagan.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/vanapagan.json"
+  }
+}

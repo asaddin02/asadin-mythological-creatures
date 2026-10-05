@@ -1,0 +1,91 @@
+{
+  "slug": "e-bukura-e-dheut",
+  "basis_claim_ids": [
+    "e-bukura-e-dheut-c01",
+    "e-bukura-e-dheut-c03",
+    "e-bukura-e-dheut-c04"
+  ],
+  "depicted_variant": "Golden-haired earth beauty in magical dress at underworld palace",
+  "visual_requirements": [
+    "Beautiful adult woman with golden hair",
+    "Same modest magical dress and underworld palace",
+    "Natural anatomy",
+    "Character presence through pose, framing, atmosphere and scene lighting; no generic emitted aura"
+  ],
+  "aura": "Commanding earthly beauty through poised adult expression, textured golden hair, ornate opaque gown and palace candlelight.",
+  "prompt": "Use case: precise-object-edit / lighting-weather. Edit the supplied mythology artwork. Remove ONLY unsupported visual effects: all generic glowing envelopes, neon body outlines, colored energy ribbons, magical motes/particles, luminous colored fog, swirling aura, and glowing eye bulbs. Do not replace them with other magic. Preserve the SAME individual creature, body anatomy, count of eyes/limbs/heads, exact scale, pose, framing, clothing coverage, props, setting and painterly quality. Source invariants: Beautiful adult woman with golden hair; Same modest magical dress and underworld palace; Natural anatomy. Character presence instead: Commanding earthly beauty through poised adult expression, textured golden hair, ornate opaque gown and palace candlelight.. Restore clean natural textures where effects were removed, ordinary reflected light and realistic shadows.  No new characters or anatomical embellishments, no nudity or gore, no text, watermark or border.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-123.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/e-bukura-e-dheut-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-51722320-23a6-4614-a5c9-39ec571e31d3.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output inspected: emitted gold-purple ribbons removed, beautiful adult golden-haired form and opaque ornate dress preserved; palace scene light carries command.",
+    "reviewer": "worker-2"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: gold-haired earth beauty in ornate physical purple/gold gown within underground palace. No emitted dress swirls, particles or body halo; reflected torchlight and palace lamps retained."
+  },
+  "attempt_history": [
+    {
+      "slug": "e-bukura-e-dheut",
+      "basis_claim_ids": [
+        "e-bukura-e-dheut-c01",
+        "e-bukura-e-dheut-c03",
+        "e-bukura-e-dheut-c04"
+      ],
+      "depicted_variant": "Golden-haired earth beauty in magical dress at underworld palace",
+      "visual_requirements": [
+        "Beautiful adult humanlike female",
+        "Golden hair",
+        "Magic emanating from dress",
+        "Underworld palace"
+      ],
+      "aura": "Golden-violet dress-born magical energy",
+      "prompt": "Depict E Bukura e Dheut, Albanian Beauty of the Earth, as beauty made manifest: a remarkably beautiful ADULT humanlike woman with long GOLDEN HAIR, fully dressed in an ornate opaque modest magical gown. The source explicitly says her magic comes from her DRESS, so unmistakable luminous gold-violet magical tendrils, fine glowing threads and radiant particles stream directly from the fabric and embroidered hem around her full body. Natural human anatomy, two arms and legs, no horns, wings, animal ears, monster limbs or fangs. She stands alone within an opulent shadowy underworld palace carved into the earth, gems and dark stone suggest her chthonic domain. Slightly uncanny inner-lit skin and calculating enigmatic expression. Full silhouette, no hero, rescue, nudity or additional guardian creatures. Square premium highly detailed painterly mythological encyclopedia artwork, coherent anatomy, full identifying silhouette visible, emitted supernatural aura. No text, caption, border, watermark, gore, victims or sexual elements.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-123.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/e-bukura-e-dheut.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-51722320-23a6-4614-a5c9-39ec571e31d3.png",
+      "reviewed_at": "2026-10-05T04:20:32.478Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: beautiful adult golden-haired earth spirit, opaque ornate gown emits gold-violet magical tendrils from fabric and hem, underworld palace and natural human anatomy."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Beautiful golden-haired adult female with dress emitting golden magic in underworld palace, source humanlike variant.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/e-bukura-e-dheut-verified.webp",
+      "sha256": "ad1d3c43ffdc95b0b9445b123693a8b2f7cf54f560cca1f5c259f7dd937168f7",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-cb92da16-eb3f-4615-a6b5-e0603bf6d962.png",
+  "revision_generator": "worker-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-2",
+    "rationale": "Broad gold-purple airborne ribbons envelope gown and body; source magic dress does not warrant generic visual envelope.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "e-bukura-e-dheut-c01",
+      "e-bukura-e-dheut-c03",
+      "e-bukura-e-dheut-c04"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/e-bukura-e-dheut.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/e-bukura-e-dheut.json"
+  }
+}

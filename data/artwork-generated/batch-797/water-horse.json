@@ -1,0 +1,87 @@
+{
+  "slug": "water-horse",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Edit target supplied mythology artwork. Remove ONLY unnatural cyan glowing eyebulbs. Give both eyes ordinary dark equine eyes with tiny natural moonlight catchlights. Preserve same single black horse, four legs, wet mane, stepping pose, scale, anatomy, natural lake splashes, moon and mountains. No emitted light or magic. Presence comes from alert gaze and moonlit lake. Preserve original framing, subject count, exact scale and anatomy; no new objects, nudity, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/water-horse-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-2d225233-9eb6-4f06-b108-dd647d69e219.png",
+  "depicted_variant": "Generic horse-shaped lake water spirit, excluding lake-monster nickname forms",
+  "basis_claim_ids": [
+    "water-horse-c01",
+    "water-horse-c04",
+    "water-horse-c05"
+  ],
+  "aura": "Alert horse posture and moonlit lake.",
+  "visual_requirements": [
+    "Remove ONLY unnatural cyan glowing eyebulbs. Give both eyes ordinary dark equine eyes with tiny natural moonlight catchlights. Preserve same single black horse, four legs, wet mane, stepping pose, scale, anatomy, natural lake splashes, moon and mountains. No emitted light or magic. Presence comes from alert gaze and moonlit lake.",
+    "No generic emitted magical wrapping; preserve original anatomy, counts and scale"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output actually inspected: both cyan eyes replaced by dark equine eyes, same horse anatomy, four legs, stepping pose, wet mane and moonlit lake preserved.",
+    "reviewer": "aura-resume-1"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-116.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: same solid black quadrupedal horse emerging from lake, natural dark eyes and wet hair under moonlight. Blue eye emission removed, no energy wrapping."
+  },
+  "attempt_history": [
+    {
+      "slug": "water-horse",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square premium detailed painterly naturalistic mythology encyclopedia illustration of WATER HORSE, selecting the generic Celtic horse-shaped water spirit of a loch, NOT Ogopogo/Nessie lake-monster nickname forms. ONE powerful horse with anatomically correct FOUR legs, one horse head, natural mane and tail, stands half emerging from dark lake shallows beneath a moonlit Highland shore. Full horse silhouette and legs readable with margins. Wet dark coat, unnaturally still piercing gaze and drifting aquatic mist convey its supernatural nature while preserving source horse anatomy. Terrifying cold lake atmosphere, subtle blue-green currents and moonlight aura are artistic choices. No human rider, fins, fish tail, scales, horns, wings, extra limbs, prey, blood, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/water-horse.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-2d225233-9eb6-4f06-b108-dd647d69e219.png",
+      "depicted_variant": "Generic horse-shaped lake water spirit, excluding lake-monster nickname forms",
+      "basis_claim_ids": [
+        "water-horse-c01",
+        "water-horse-c04",
+        "water-horse-c05"
+      ],
+      "aura": "ominous aquatic horse apparition and lake fog",
+      "visual_requirements": [
+        "recognizable single horse, four legs",
+        "lake water spirit atmosphere",
+        "no fish-tail lake-monster hybrid"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: single four-legged anatomically equine water spirit emerging from dark loch, wet dark mane/tail and unnaturally bright cold gaze. No fish tail, humanoid or lake-monster hybrid. Horse form/lake relation source backed; coat, gaze light and aquatic mist artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-116.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: continuous natural horse body, four legs in lake, wet mane/tail and unnaturally luminous blue eyes with aquatic spectral atmosphere; no fish-tail hybrid.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/water-horse-verified.webp",
+      "sha256": "f4ce7c14eac19a9c01be07b034c6a94fbe82491b7b794d9a254fa3d7d6e6bf14",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-6427d571-e46e-4f46-a5e4-3950eeeee8af.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Cyan glowing eyes unsupported by water spirit claims.",
+    "allowed_magic": "none beyond the documented creature manifestation; ordinary light sources retained",
+    "source_basis_claim_ids": [
+      "water-horse-c01",
+      "water-horse-c04",
+      "water-horse-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/water-horse.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/water-horse.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

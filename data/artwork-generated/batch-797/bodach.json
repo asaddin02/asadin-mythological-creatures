@@ -1,0 +1,90 @@
+{
+  "slug": "bodach",
+  "worker": "worker-0",
+  "prompt": "Edit this existing mythological artwork to replace generic magical AURA with CHARACTER PRESENCE. REMOVE ALL emitted wisps, neon outlines, halos, energy ribbons, glowing particles/sparks and luminous colored fog from body and environment. Remove glowing eyes; retain normal natural eyes/reflections. Make waterfall natural water, no emitted water glow. No new magic/fireflies. Presence: Death-omen stillness of grey old man by Highland wall under cold natural moonlight. Preserve EXACT anatomy/counts/scale, subject pose, scene and modest clothing. Invariants: Old adult grey man in grey modest clothes, exact human anatomy and wall. Ordinary natural scene light only, detailed painterly realism, no text/watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/bodach-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-e5ea6b54-80de-4af0-ba58-10e3c421717a.png",
+  "depicted_variant": "Bodach Glas old grey man death-omen spirit",
+  "basis_claim_ids": [
+    "bodach-c01",
+    "bodach-c02",
+    "bodach-c05",
+    "bodach-c06"
+  ],
+  "aura": "Death-omen stillness of grey old man by Highland wall under cold natural moonlight.",
+  "visual_requirements": [
+    "Old adult grey man in grey modest clothes, exact human anatomy and wall.",
+    "Character presence from pose, framing and natural scene light; no generic magical envelope."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actual new output inspected in five-image contact sheet: no emitted energy ribbons/particles, natural scene light; Bodach grey old man, Caipora hairy guardian, Donas two cat-paw feet, Duppy EXACTLY THREE countable hoofed legs, Groac'h two downward walrus tusks retained. Source form, scale and adult modest clothing intact.",
+    "reviewer": "worker-1"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-119.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: old grey man in ragged garment by dark wall, natural moonlit lake background, no blue aura fog/outline."
+  },
+  "attempt_history": [
+    {
+      "slug": "bodach",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square terrifying detailed painterly naturalistic mythology illustration of BODACH, selecting BODACH GLAS / OLD GREY MAN death-omen form. ONE aged adult human man entirely grey in worn plain grey historical Gaelic clothes, lined elderly face and unnerving still gaze, full figure appearing beside dark Highland stone wall at night. Preserve source old-man anatomy, no invented animal parts. Visible luminous ash-grey spectral wisps RADIATE FROM HIS BODY; translucent silhouette casts unnatural cold glow on stones, deeply dreadful omen atmosphere. No kidnapped child, chimney scene mixture, horns, wings, claws, extra limbs, gore, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/bodach.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-e5ea6b54-80de-4af0-ba58-10e3c421717a.png",
+      "depicted_variant": "Bodach Glas old grey man death-omen spirit",
+      "basis_claim_ids": [
+        "bodach-c01",
+        "bodach-c02",
+        "bodach-c05",
+        "bodach-c06"
+      ],
+      "aura": "terrifying old-grey-man death omen",
+      "visual_requirements": [
+        "adult elderly grey man apparition",
+        "spectral death-omen appearance",
+        "no invented bogeyman anatomy"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: elderly adult human old grey man in grey worn Gaelic garments by Highland wall, emitted ghostly ash-grey wisps and translucent silhouette. Bodach Glas death-omen variant clear, no kidnapped child or invented monster anatomy. Costume details and cold glow artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-119.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: elderly grey human apparition in worn grey clothing beside Highland wall, gaunt death-omen expression and clearly emitted ash-grey ghost wisps; source Bodach Glas variant.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/bodach-verified.webp",
+      "sha256": "de317de27c803170cc8605771c9ffdc1ad96ac9d220cbfe162ae5c9fdd2eba37",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-8f0861bc-2737-4676-8b1f-27280df2668d.png",
+  "revision_generator": "worker-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-1",
+    "rationale": "Emitted grey luminous filaments wrap aged body; c05 death omen has no light emission.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "bodach-c01",
+      "bodach-c02",
+      "bodach-c05",
+      "bodach-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/bodach.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/bodach.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

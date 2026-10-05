@@ -1,0 +1,92 @@
+{
+  "slug": "vitore",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Edit this exact image of Vitore. Remove every luminous golden energy filament, looping aura strand, magical spark or floating golden particle encircling or emitted by the serpent. Remove supernatural glow from its eyes and body. Preserve the exact small legless colorful serpent, its golden horns, all scale patterns, pose, proportions, expression, hearth stones, rustic domestic room and camera composition. Gold horns should remain reflective gold material, not emit light. Keep the ordinary fireplace flame and natural warm firelight reflected on surfaces, with physical fireplace smoke only if subtle. Convey benevolent mythological household-guardian presence through its poised watchful gaze, intimate small scale, hearth framing and warm natural light. No neon halo, colored luminous fog, magic ribbon, energy envelope or magical particles. Do not introduce limbs, wings, extra heads, new anatomy or text.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/vitore-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-787049f4-b658-456d-8fe5-47ad7c722ba1.png",
+  "review_path": "data/gemini/reviews/batch-125.review.json",
+  "visual_requirements": [
+    "Small legless colorful serpent with golden horns; hearth establishes small scale",
+    "Preserve natural physical fireplace flames and reflections only; no generic emitted aura"
+  ],
+  "depicted_variant": "Small colorful benign golden-horned household serpent Vitore; excludes old-woman variant, aura editorial.",
+  "basis_claim_ids": [
+    "vitore-c01",
+    "vitore-c03",
+    "vitore-c04",
+    "vitore-c06"
+  ],
+  "aura": "Small benevolent household guardian resting near a warmly lit hearth, with natural flame reflections on colorful scales and gold horns.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected edited native. Golden threads and magical dots fully removed; horned small colorful serpent preserved, lit only by physical hearth fire.",
+    "reviewer": "worker-0"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: small multicolored serpent retains golden physical horns beside hearth; warm light comes from fire. Luminous filaments/particles absent."
+  },
+  "attempt_history": [
+    {
+      "slug": "vitore",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Use case: stylized-concept. Square premium naturalistic painterly Albanian mythology artwork. ONE VITORE in the explicitly documented SMALL COLORFUL BENIGN GOLDEN-HORNED SERPENT variant, not old-woman form. One continuous slender legless snake body, rich small colorful scales, elegant small golden horns on serpent head, resting in a gentle coil along stones beside the hearth inside an old Albanian home. Keep truly small domestic-serpent scale: hearth stones and firewood larger than serpent. Serene alert watchful gaze, guardian of house and ancestral good fortune. Soft golden supernatural ancestral aura and delicate luminous wisps curl beside warm hearthlight; atmosphere is artistic, not a source claim of literal glowing scales. Beautiful detailed scales, stone, old timber and warm ash. Coherent single snake with one head, no legs, no wings, no human face, no giant size, no crown, no text, no watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/vitore.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-787049f4-b658-456d-8fe5-47ad7c722ba1.png",
+      "review_path": "data/gemini/reviews/batch-125.review.json",
+      "visual_requirements": [
+        "Small legless colorful serpent",
+        "Golden horns",
+        "Domestic hearth sets small scale",
+        "Benevolent house-guardian aura"
+      ],
+      "depicted_variant": "Small colorful benign golden-horned household serpent Vitore; excludes old-woman variant, aura editorial.",
+      "basis_claim_ids": [
+        "vitore-c01",
+        "vitore-c03",
+        "vitore-c04",
+        "vitore-c06"
+      ],
+      "aura": "Gentle golden ancestral wisps and hearth guardian radiance.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native: one continuous colorful legless snake with one head and two golden horns, coiled beside hearth fire and larger firewood/stone scale references, warm benign gaze, gentle gold wisps. No woman form or invented limbs."
+      },
+      "reviewed_at": "2026-10-05T02:36:08.150Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: small continuous colorful snake with golden horns at domestic hearth; household scale and benign gold wisps match guardian variant, no limbs.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/vitore-verified.webp",
+      "sha256": "efe3fdd98ab758de06a4181393dc8de2ca25b7870303d581df996de2348da057",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-a3f80fc8-d760-40aa-9298-3160146b756e.png",
+  "revision_generator": "worker-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-0",
+    "rationale": "Golden luminous filaments and particles encircle the household serpent despite no selected-source emitted magic.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "vitore-c01",
+      "vitore-c03",
+      "vitore-c04",
+      "vitore-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/vitore.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/vitore.json"
+  }
+}

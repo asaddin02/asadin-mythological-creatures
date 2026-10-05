@@ -1,0 +1,92 @@
+{
+  "slug": "caipora",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Edit this existing mythological artwork to replace generic magical AURA with CHARACTER PRESENCE. REMOVE ALL emitted wisps, neon outlines, halos, energy ribbons, glowing particles/sparks and luminous colored fog from body and environment. Remove glowing eyes; retain normal natural eyes/reflections. Make waterfall natural water, no emitted water glow. No new magic/fireflies. Presence: Protective enormous hairy guardian stance in naturally sunlit dense Brazilian forest. Preserve EXACT anatomy/counts/scale, subject pose, scene and modest clothing. Invariants: Large hairy adult humanoid, twoarms/twolegs, FORWARD feet, plant staff and existing concealment. Ordinary natural scene light only, detailed painterly realism, no text/watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/caipora-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-d4d8ae1a-0982-4677-9f98-abe0e9320d77.png",
+  "review_path": "data/gemini/reviews/batch-143.review.json",
+  "visual_requirements": [
+    "Large hairy adult humanoid, twoarms/twolegs, FORWARD feet, plant staff and existing concealment.",
+    "Character presence from pose, framing and natural scene light; no generic magical envelope."
+  ],
+  "depicted_variant": "Large hairy adult humanoid Caipora guardian, excludes child/dwarf alternatives and Curupira foot reversal; garment/aura editorial.",
+  "basis_claim_ids": [
+    "caipora-c01",
+    "caipora-c03",
+    "caipora-c04",
+    "caipora-c09"
+  ],
+  "aura": "Protective enormous hairy guardian stance in naturally sunlit dense Brazilian forest.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actual new output inspected in five-image contact sheet: no emitted energy ribbons/particles, natural scene light; Bodach grey old man, Caipora hairy guardian, Donas two cat-paw feet, Duppy EXACTLY THREE countable hoofed legs, Groac'h two downward walrus tusks retained. Source form, scale and adult modest clothing intact.",
+    "reviewer": "worker-1"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: large hairy forest guardian with plant staff, foliage waist cover and animals. Daylight and posture carry presence, no green glowing ribbons."
+  },
+  "attempt_history": [
+    {
+      "slug": "caipora",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Brazilian folklore mythology artwork, stylized-concept. ONE CAIPORA choosing documented LARGE HAIRY HUMANOID forest-guardian variant, not child or dwarf forms. Imposing adult humanlike forest being covered in coarse thick brown body hair, one humanlike uncanny face, two arms two legs, normal forward-facing feet, modest rustic waist garment editorial. Standing among deep Brazilian forest trees and wildlife tracks, holding a simple plant-wood staff, guardian poised protectively rather than hunting. Hairy nonordinary humanoid anatomy clear; do not confuse with Curupira backwards feet. Large imposing body taller than foliage but no invented mountain-sized giant. UNMISTAKABLE luminous emerald-gold magical wisps and bright floating pollen particles emitted around body and staff, protective wild forest presence. Detailed fur, vines and mist. No child, no animal mount required, no wings, horns or extra limbs, no victims, no text or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/caipora.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-d4d8ae1a-0982-4677-9f98-abe0e9320d77.png",
+      "review_path": "data/gemini/reviews/batch-143.review.json",
+      "visual_requirements": [
+        "One large hairy adult humanoid forest guardian",
+        "Two arms/legs, forward-facing feet",
+        "Brazilian forest and plant staff",
+        "Protective visible aura"
+      ],
+      "depicted_variant": "Large hairy adult humanoid Caipora guardian, excludes child/dwarf alternatives and Curupira foot reversal; garment/aura editorial.",
+      "basis_claim_ids": [
+        "caipora-c01",
+        "caipora-c03",
+        "caipora-c04",
+        "caipora-c09"
+      ],
+      "aura": "Emerald-gold luminous forest wisps and radiant pollen particles.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: One large hairy adult humanlike forest guardian with two arms/two legs and forward-facing feet, plant staff, luminous emerald-gold particles/wisps, wildlife unharmed; no child/Curupira feet. Exact size/color/costume and aura editorial beyond listed source traits."
+      },
+      "reviewed_at": "2026-10-05T03:26:14.291Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Large hairy adult humanoid with plant staff, coherent two arms/legs and forward-facing feet, emitted gold-green protective aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/caipora-verified.webp",
+      "sha256": "37e2b3a668f77317b5c7cf9a55652f6916bdb20a6aa23e3cf18f009411b2be55",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-e2dca3b6-c56c-4fb2-bbce-5472551daa35.png",
+  "revision_generator": "worker-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-1",
+    "rationale": "Green/gold ribbons and yellow particles around hairy guardian, unsupported by forest guardianship.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "caipora-c01",
+      "caipora-c03",
+      "caipora-c04",
+      "caipora-c09"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/caipora.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/caipora.json"
+  }
+}

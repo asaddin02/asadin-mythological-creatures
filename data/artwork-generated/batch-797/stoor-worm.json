@@ -1,0 +1,66 @@
+{
+  "slug": "stoor-worm",
+  "worker": "worker-0",
+  "prompt": "Use case: stylized-concept. ONE square breathtaking terrifying detailed painterly naturalistic mythology illustration of STOOR WORM / MESTER STOOR WORM, evil giant sea serpent of Orkney. ONE immense legless wingless sea SERPENT with one reptilian head, its unimaginably long body stretching across the ocean and coiling around rocky islands, enormous teeth and PUTRID BREATH shown as sickly vapor streaming from mouth. Make genuinely island-scale: tiny coastal boats and cliff settlements beneath its coils, low panorama, entire main head and multiple massive body coils inside frame. Its teeth were said to form island groups and body Iceland after defeat; this depicts alive, not landform transformation. Truly dreadful apocalyptic storm, black Atlantic water, poisonous-looking breath mist and cold green aura; vapor color/artistic scale depiction are interpretation. No horns, wings, legs, extra heads, victims, blood, gore, text, watermark, border or collage.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/stoor-worm.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-6643ef77-dadf-43a4-8bdb-051b84ae4faf.png",
+  "depicted_variant": "Living evil Orcadian giant sea serpent before Assipattle defeat",
+  "basis_claim_ids": [
+    "stoor-worm-c01",
+    "stoor-worm-c02",
+    "stoor-worm-c06"
+  ],
+  "aura": "Terrifying colossal serpent scale among tiny island settlements and storm sea.",
+  "visual_requirements": [
+    "One colossal sea serpent head and continuous body without limbs or wings",
+    "Island-scale reference",
+    "Restrained mouth-origin putrid breath"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected original contact sheet: immense dark serpent, one head, legless wingless coils across sea, greenish putrid breath from mouth as attested; ordinary waves and storm light, no full-body emitted wrapping.",
+    "reviewer": "aura-resume-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-119.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected original: colossal solid sea serpent with islands/boats as scale cues. Putrid breath emerges directly from mouth as documented c01/c06; no unrelated glowing body aura."
+  },
+  "aura_policy_history": [
+    {
+      "aura": "apocalyptic sea-serpent terror with putrid breath",
+      "visual_requirements": [
+        "colossal serpent coiling across sea with island references",
+        "one serpent head, no legs/wings",
+        "putrid breath haze, terrifying atmosphere"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: colossal one-headed legless sea serpent coils across rocky island archipelago, minuscule boats/settlements establish immense island scale; open mouth emits sickly putrid breath vapor. Terrifying storm/ocean mythical aura, no extra heads/wings/limbs. Teeth/body becoming islands not depicted; breath color/scale rendering artistic."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: vast one-headed legless sea serpent crossing island archipelago, tiny boats/settlements and sickly emitted mouth haze; terrifying documented sea-worm scale preserved.",
+        "reviewed_at": "2026-10-05"
+      }
+    }
+  ],
+  "aura_revision": {
+    "decision": "keep",
+    "reviewer": "aura-resume-2",
+    "rationale": "Putrid mouth breath explicitly supported, no generic luminous wrapping.",
+    "allowed_magic": "Putrid breath from mouth supported by stoor-worm-c01/c06",
+    "source_basis_claim_ids": [
+      "stoor-worm-c01",
+      "stoor-worm-c02",
+      "stoor-worm-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/stoor-worm.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/stoor-worm.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

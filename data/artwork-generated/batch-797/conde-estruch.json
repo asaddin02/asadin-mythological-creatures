@@ -1,0 +1,99 @@
+{
+  "slug": "conde-estruch",
+  "worker": "root",
+  "prompt": "Edit the provided square painterly mythology artwork to follow its documented physical manifestation. Preserve ONE elderly pale human vampire noble in opaque ornate clothes at old Catalan Llers castle. Remove ALL scarlet and white aura smoke, glowing edge outlines, magic tendrils and sparks. Pale tired intact face without invented fangs, human proportions, ordinary moonlight and distant windows only. Preserve painterly naturalistic quality and square composition. No text, border or watermark.",
+  "depicted_variant": "Old human Catalan noble vampire in disputed Estruch legend",
+  "basis_claim_ids": [
+    "conde-estruch-c01",
+    "conde-estruch-c03",
+    "conde-estruch-c06"
+  ],
+  "visual_requirements": [
+    "Old pale Catalan noble vampire, intact human face, natural moonlight",
+    "No generic emitted aura, neon halo, magic particles or luminous vapor"
+  ],
+  "aura": "Character presence through pose, framing, atmosphere and natural light",
+  "review_path": "data/gemini/reviews/batch-123.review.json",
+  "tool": "OpenAI built-in image_gen",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-cd0bca95-e09f-45e7-aa69-8a974b5c8c16.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/conde-estruch-presence-v2.png",
+  "status": "reviewed",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native: elderly pale human vampire noble in ornate opaque clothes at castle, intact ordinary face and hands, moonlit stones without aura.",
+    "reviewer": "root"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "aura-resume-0",
+    "reviewed_at": "2026-10-05",
+    "notes": "Independently inspected revised native contact: old pale adult noble vampire in opaque red/black robe at castle arch, intact human face. No unsupported red/violet aura or glowing eyes; natural moonlight scene."
+  },
+  "independent_visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native: elderly pale human vampire noble in ornate opaque clothes at castle, intact ordinary face and hands, moonlit stones without aura.",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05"
+  },
+  "attempt_history": [
+    {
+      "slug": "conde-estruch",
+      "worker": "root",
+      "prompt": "Use case: stylized-concept. One square high-detail painterly naturalistic cinematic mythology encyclopedia illustration. One elderly ADULT Catalan nobleman CONDE ESTRUCH vampire, choosing documented old human noble form in the historically disputed legend. Pale intact wrinkled face, sinister intelligent gaze, coherent normal human anatomy, mouth closed, modest fine12th-century-inspired noble tunic/cloak. Stands alone beneath ruined Llers castle arch at night, surrounding Catalan landscape. Terrifying wine-red and icy silver luminous wisps visibly EMIT FROM body, cast light on old stones. No extra fangs, horns, wings, blooddrinking, women, children, birth scene or sexual scene. Exact garments and features artistic. No writing, labels, text, watermark, frame or collage.",
+      "depicted_variant": "Old human Catalan noble vampire in disputed Estruch legend",
+      "basis_claim_ids": [
+        "conde-estruch-c01",
+        "conde-estruch-c03",
+        "conde-estruch-c06"
+      ],
+      "visual_requirements": [
+        "Old adult human noble vampire",
+        "Medieval Llers castle context",
+        "Clearly emitted vampiric aura, no invented fangs"
+      ],
+      "aura": "Clearly emitted supernatural luminous wisps and particles as artistic aura",
+      "review_path": "data/gemini/reviews/batch-123.review.json",
+      "tool": "OpenAI built-in image_gen",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-cd0bca95-e09f-45e7-aa69-8a974b5c8c16.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/conde-estruch.png",
+      "status": "reviewed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually viewed pale elderly human noble vampire in castle arch, closed mouth/no invented fangs, emitted red-silver aura."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Actually viewed pale elderly human noble vampire in castle arch, closed mouth/no invented fangs, emitted red-silver aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "independent_visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-0",
+        "notes": "Worker-0 independently inspected root-sheet3: pale elderly human noble in ruined arch, closed mouth, clear emitted red-silver aura. Source disputed legend human variant retained.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/conde-estruch-verified.webp",
+      "sha256": "fc4dd0b6ff0fe093a4338f9a4dbdefa03cbe6f5d7d70481c1f66b5f1b8d18189",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-f09a287e-b081-4683-9d6d-ffee1c4c7c44.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Original has generic emitted magical wrapping unsupported by selected documented depiction; use physical presence and natural scene lighting.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "conde-estruch-c01",
+      "conde-estruch-c03",
+      "conde-estruch-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/conde-estruch.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/conde-estruch.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

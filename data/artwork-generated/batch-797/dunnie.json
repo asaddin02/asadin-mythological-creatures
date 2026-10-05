@@ -1,0 +1,91 @@
+{
+  "slug": "dunnie",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: lighting-weather. Input image is EDIT TARGET. Change only magical lighting and atmospheric VFX; preserve exact identity, expression, pose, anatomy, limb counts, scale, scenery, square framing and fully modest opaque clothing. No text/watermark. Remove all broad cyan luminous vapor/filaments behind horse and below front legs. Keep horse FRONT COMPLETELY SOLID with ordinary fur and hooves. Suggest documented disappearance ONLY by a softly fading slightly translucent rear outline blending with background, no smoke plume or emitted light. Preserve empty dangling harness, muddy rural road, rearing pose, four equine limbs, mane, face, moonlight.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/dunnie-presence-v2.png",
+  "review_path": "data/gemini/reviews/batch-120.review.json",
+  "visual_requirements": [
+    "One anatomically coherent horse shapeshift",
+    "Muddy rural road",
+    "Empty harness and only subtle disappearing rear outline",
+    "Solid front horse, no broad cyan vapor or energy filaments"
+  ],
+  "depicted_variant": "Dunnie in source-described horse form tricking riders/ploughmen; vanishing effect editorial depiction of documented disappearance.",
+  "basis_claim_ids": [
+    "dunnie-c02",
+    "dunnie-c09",
+    "dunnie-c11"
+  ],
+  "aura": "Uncanny trickster presence through solid rearing forequarters, slipping empty harness, muddy moonlit lane and subtly disappearing hindquarters.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected revised native contact: front head, neck and forelegs solid, rear blends softly into scene without emitted cyan fog. Empty harness, mud splashes, road and moon preserved.",
+    "reviewer": "aura-resume-0"
+  },
+  "reviewed_at": "2026-10-05",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-db75aa90-a95c-4fdb-889b-8309be2f80b9.png",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected corrective edit: broad luminous cyan vapor/filaments gone; head/front body solid and rear softly fading, natural grey mist/moonlight. Disappearance c02 conveyed subtly; harness and muddy splashes retained."
+  },
+  "attempt_history": [
+    {
+      "slug": "dunnie",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium painterly naturalistic Northumbrian folklore encyclopedia artwork, stylized-concept. ONE DUNNIE in its documented HORSE SHAPESHIFT, galloping mischievously through the muddiest stretch of an old rural road, empty simple harness trailing to ground as it is about to vanish, no rider. Entire coherent ordinary HORSE anatomy: one equine head, four horse legs, mane and tail, elegant natural face, no unicorn horn. Distinguish supernatural trickster by translucent mist beginning to dissolve the REAR edge of body and curling pale blue ghost aura around hooves; preserve clearly readable solid principal horse silhouette. Dark countryside lane, ploughed fields and stone farmhouse in distance, muddy splashes, moonlit fog, lively mischievous energy rather than gore or predation. Beautiful detailed equine coat, magical vanishing effect is editorial visualization of source ability. No human face, no wings, no horns, no extra limbs, no text, no watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/dunnie.png",
+      "review_path": "data/gemini/reviews/batch-120.review.json",
+      "visual_requirements": [
+        "One anatomically coherent horse shapeshift",
+        "Muddy rural road",
+        "Empty harness and supernatural vanishing hint",
+        "No unsupported horn or wings"
+      ],
+      "depicted_variant": "Dunnie in source-described horse form tricking riders/ploughmen; vanishing effect editorial depiction of documented disappearance.",
+      "basis_claim_ids": [
+        "dunnie-c02",
+        "dunnie-c09",
+        "dunnie-c11"
+      ],
+      "aura": "Pale blue mist, dissolving rear silhouette and spectral hooflight.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native: coherent equine form with horse head, mane, front legs and dissolving rear body, empty loose harness, galloping above muddy country road. Bright blue spectral wisps and particles visibly dissolve hindquarters and illuminate hoof area, no wings or horns."
+      },
+      "reviewed_at": "2026-10-05T02:44:47.532Z",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-db75aa90-a95c-4fdb-889b-8309be2f80b9.png",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: source horse shapeshift with anatomical forequarters, hindquarters visibly dissolving into luminous blue spectral wisps over rural road; no wings/horns.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/dunnie-verified.webp",
+      "sha256": "8ed86e1f4dda42eae2897e2f2bec445380dfc036fd5f078c8647bc0c77734dad",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-08715d0a-7ae6-418b-a8a5-5be40b9f9b98.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Initial keep decision superseded after independent reviewer correctly identified excessive cyan rear/foreleg plume. Native revision removes emitted vapor and filaments, retains only subtly translucent disappearing hindquarters.",
+    "allowed_magic": "Source c02 documented disappearance expressed only through softly fading rear outline; no emitted colored fog.",
+    "source_basis_claim_ids": [
+      "dunnie-c02",
+      "dunnie-c09",
+      "dunnie-c11"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/dunnie.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/dunnie.json"
+  }
+}

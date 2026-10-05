@@ -1,0 +1,39 @@
+{
+  "slug": "kuraokami",
+  "worker": "worker-3",
+  "prompt": "Use case: historical-scene. ONE square detailed painterly naturalistic encyclopedia illustration of Kuraokami, Japanese Shinto rain-and-snow water divinity. Choose the documented SERPENT FORM of the dragon/snake god, rather than inventing a generic winged dragon: one immense dignified serpent with a long continuous scaled body, snake-like head, no limbs, no horns, no wings. Its broad coils rise slowly from a deep clear pool at the bottom of a narrow dark mountain gorge beneath falling rain and a few snowflakes. Dark wet natural scales catch subtle silver light; wise still eyes and composed raised head give a sense of divine authority and ancient sacred water power, not a predatory horror monster. Clouds and fine rain surround the gorge; the stream flows tranquilly below. Majestic reverent atmosphere, luminous filtered celestial light through storm cloud, lifelike painterly water and scales. Entire single serpent head and body silhouette comfortably in square. Invariants: source-supported serpent/dragon water-deity form, dark valley/abyss and rain/snow, divine reverence. Avoid Western dragon wings or limbs, generic antlers/horns, multiple heads, human arms, crown, trident, sword, fire breath, demon gore, aggressive attack, shrine inscription, other characters, text, watermark, border, collage.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-6654367d-6a74-45d9-bd2b-7d36988da53c.png",
+  "review_path": "data/gemini/reviews/batch-053.review.json",
+  "visual_requirements": [
+    "Source-supported serpent form of rain/snow dragon-snake divinity",
+    "Continuous scaled serpent anatomy",
+    "No generic horns wings or limbs",
+    "Dark mountain valley pool and rain/snow",
+    "Majestic revered divine aura"
+  ],
+  "depicted_variant": "Serpent form of Kuraokami, consistent with De Visser's 1913 analysis of dragon/snake water deity; not a standardized horned dragon portrait",
+  "basis_claim_ids": [
+    "kuraokami-c01",
+    "kuraokami-c05",
+    "kuraokami-c07"
+  ],
+  "additional_sources": [
+    {
+      "url": "https://kifunejinja.jp/en/shrine/",
+      "title": "Kifune Shrine: About Kifune Shrine",
+      "basis": "Primary shrine account associates Kuraokami with dark abyss/valley and life-supplying water and rain."
+    },
+    {
+      "url": "https://religion-in-japan.univie.ac.at/k/img_auth.php/archive/a/a7/20160512121924%21De_Visser_1913.pdf",
+      "title": "Marinus Willem de Visser, The Dragon in China and Japan (1913), Book II chapter I, pp.135–136",
+      "basis": "Primary scholarly monograph describes original Japanese water gods as serpent- or dragon-shaped and identifies Kura-okami as dragon or snake and rain/snow divinity."
+    }
+  ],
+  "aura": "Ancient sacred water authority, immense tranquil reverent majesty",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Observed one immense continuous dark scaled serpent with a single snake-like head and raised composed neck, coiling in deep pool under rain/snow among gorge cliffs. No limbs, horns, wings or extra heads. Calm gaze and filtered overhead light convey sacred majestic water presence without attacking posture. No weapon, fire, gore, text or watermark."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed"
+}

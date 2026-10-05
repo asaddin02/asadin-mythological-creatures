@@ -1,0 +1,93 @@
+{
+  "slug": "fat-lips",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit / lighting-weather. Edit the supplied mythology artwork. Remove ONLY unsupported visual effects: all generic glowing envelopes, neon body outlines, colored energy ribbons, magical motes/particles, luminous colored fog, swirling aura, and glowing eye bulbs. Do not replace them with other magic. Preserve the SAME individual creature, body anatomy, count of eyes/limbs/heads, exact scale, pose, framing, clothing coverage, props, setting and painterly quality. Source invariants: Little adult man; Heavy iron boots stamping damp clay; Same abbey vault; No inferred oversized lips. Character presence instead: Strange industrious household presence through heavy iron stamping boots, focused little-man posture, damp abbey stone and ordinary daylight.. Restore clean natural textures where effects were removed, ordinary reflected light and realistic shadows.  No new characters or anatomical embellishments, no nudity or gore, no text, watermark or border.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/fat-lips-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-ed9983b1-91e5-4999-b3de-9c0c65562caf.png",
+  "depicted_variant": "Little humanlike spirit wearing heavy iron boots in Dryburgh Abbey vault",
+  "basis_claim_ids": [
+    "fat-lips-c01",
+    "fat-lips-c02",
+    "fat-lips-c03",
+    "fat-lips-c05"
+  ],
+  "aura": "Strange industrious household presence through heavy iron stamping boots, focused little-man posture, damp abbey stone and ordinary daylight.",
+  "visual_requirements": [
+    "Little adult man",
+    "Heavy iron boots stamping damp clay",
+    "Same abbey vault",
+    "No inferred oversized lips",
+    "Character presence through pose, framing, atmosphere and scene lighting; no generic emitted aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output inspected: orange halo/colored vapor removed, same little adult and heavy iron stamping boots, damp clay/abbey preserved; ordinary mud splash replaces luminous vapor.",
+    "reviewer": "worker-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-120.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: small clothed man in heavy iron boots stamping damp abbey floor. Physical water splashes and natural light, no golden wisps."
+  },
+  "attempt_history": [
+    {
+      "slug": "fat-lips",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square detailed painterly naturalistic mythology illustration of FAT LIPS / FATLIPS, Dryburgh Abbey spirit. ONE LITTLE adult humanlike man wearing plain modest old clothes and clearly HEAVY IRON BOOTS stamps the damp clay floor of a ruined Scottish abbey vault to remove moisture. Full figure small beside ordinary stone blocks; water vapor lifts from floor. Keep source human form, NO oversized lips inferred from name because source gives none. Clearly luminous soft copper-grey spectral wisps RADIATE FROM BODY AND BOOTS, lighting clay, mysterious helpful household aura artistic. No woman victim, wings, horns, pointed ears, extra limbs, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/fat-lips.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-ed9983b1-91e5-4999-b3de-9c0c65562caf.png",
+      "depicted_variant": "Little humanlike spirit wearing heavy iron boots in Dryburgh Abbey vault",
+      "basis_claim_ids": [
+        "fat-lips-c01",
+        "fat-lips-c02",
+        "fat-lips-c03",
+        "fat-lips-c05"
+      ],
+      "aura": "mysterious helpful vault spirit with emitted light drying earth",
+      "visual_requirements": [
+        "little adult man",
+        "heavy iron boots stamping damp clay",
+        "abbey vault, no inferred oversized lips"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected: small adult male spirit stamping wet clay in ruined abbey, prominent heavy iron boots. Normal lips retained; name not used to invent anatomy. Amber emitted aura artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-120.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Little adult man stamps heavy iron boots into damp abbey clay, normal human mouth and visible emitted warm ghost aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/fat-lips-verified.webp",
+      "sha256": "4cb4476622f500815d3156303e80274a170f2069fa486db2e6ffbb895674c820",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-bac02900-64a5-435b-82fe-b87c77523d87.png",
+  "revision_generator": "worker-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-2",
+    "rationale": "Orange luminous envelope surrounds little man and boots; floor-drying stamping does not imply magical light.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "fat-lips-c01",
+      "fat-lips-c02",
+      "fat-lips-c03",
+      "fat-lips-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/fat-lips.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/fat-lips.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

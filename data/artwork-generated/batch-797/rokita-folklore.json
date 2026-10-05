@@ -1,0 +1,86 @@
+{
+  "slug": "rokita-folklore",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Edit this existing mythological encyclopedia artwork to revise AURA as CHARACTER PRESENCE. REMOVE ALL generic emitted colored energy ribbons, neon outlines/halos, magical wisps, glowing particles/sparkles, colored luminous smoke/fog and body glow, including residual lines around silhouette, from creature and environment. Remove unsupported luminous eyes, retain normal natural eyes and reflections. Do not replace effects with white magic or fireflies. Use natural scene light only. Character presence: Hostile tense stalking pose, ordinary cat eye reflections, deep night shadows and dim barn lantern. Preserve EXACT subject anatomy/counts/scale, identity, pose, perspective, scene, adult modest clothing and concealment. Critical invariants: One coherent cat shapeshift, exact feline limbs/tail, unharmed cow/barn. Retain detailed painterly naturalism, keep source physical colors/materials. No additional creatures, no text/watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/rokita-folklore-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-08a1cdc2-9eb1-4497-ad5b-c0d5396b4798.png",
+  "review_path": "data/gemini/reviews/batch-124.review.json",
+  "visual_requirements": [
+    "One coherent cat shapeshift, exact feline limbs/tail, unharmed cow/barn.",
+    "Character presence through pose/framing/natural scene light; no generic emitted aura."
+  ],
+  "depicted_variant": "Rokita documented cat shapeshift, not Łęczyca general/Boruta iconography; coat/stable/aura editorial.",
+  "basis_claim_ids": [
+    "rokita-folklore-c04",
+    "rokita-folklore-c07"
+  ],
+  "aura": "Hostile tense stalking pose, ordinary cat eye reflections, deep night shadows and dim barn lantern.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actual new output inspected in six-image contact sheet. Removed luminous ribbons, particles and emitted color fields; retained source anatomy, subject scale, physical colors and modest clothes. Tartalo has exactly one central eye and non-glowing physical ring; Ora retains golden horns; Sihuanaba retains horse head.",
+    "reviewer": "worker-1"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected revised contact image: solid dark cat, four legs, curled tail and ordinary yellow eyes in rural stable. Red vapor, emitted eyes and green paw energy removed; warm stable light and tense posture remain."
+  },
+  "attempt_history": [
+    {
+      "slug": "rokita-folklore",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Polish folklore mythology illustration, stylized-concept. ONE ROKITA choosing his explicitly documented CAT SHAPESHIFT, sinister adult cat in a moonless old Polish rural yard beside dark wet trees and simple cow stable. One coherent cat body, one feline head, four paws, one tail, source-compatible ordinary animal anatomy, no horns or human face. Deep hostile stare, tense fur and claws, frightening supernatural demon presence conveyed by UNMISTAKABLE luminous ember-red spectral wisps emitted around cat body and coiling shadow-green energy around paws, suspended red magic particles, wavering vanishing outline. Exact cat coat/colors and barn editorial staging of livestock-associated spells. Extremely ominous atmosphere, beautifully detailed naturalistic fur. Do not combine cat with general costume, hat or other animal variants. No cow harmed, no people harmed, no gore, no wings, no text or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/rokita-folklore.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-08a1cdc2-9eb1-4497-ad5b-c0d5396b4798.png",
+      "review_path": "data/gemini/reviews/batch-124.review.json",
+      "visual_requirements": [
+        "One coherent cat shapeshift",
+        "Hostile supernatural presence",
+        "No mixed general/other-animal variant",
+        "Visible emitted spectral aura"
+      ],
+      "depicted_variant": "Rokita documented cat shapeshift, not Łęczyca general/Boruta iconography; coat/stable/aura editorial.",
+      "basis_claim_ids": [
+        "rokita-folklore-c04",
+        "rokita-folklore-c07"
+      ],
+      "aura": "Ember-red luminous spectral wisps, green shadow energy and magic particles.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: One coherent cat with feline head/paws/tail beside cow stable, hostile stare, luminous red emitted body wisps and green paw-energy, no horns/general costume. Cow unharmed. Exact surface detail/costume not specified by claims and aura editorial."
+      },
+      "reviewed_at": "2026-10-05T03:16:49.222Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: One coherent threatening cat shapeshift with intense emitted red-green aura, no mixed anatomy.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/rokita-folklore-verified.webp",
+      "sha256": "06802e188e31404b6b83f3ca08c8dc81e5d05b1e8c4ab563de9d03defb5d0e8f",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-e829a0b7-170c-44e1-b441-a1bdbf8159e5.png",
+  "revision_generator": "worker-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-1",
+    "rationale": "Red wisps, luminous eyes and green paw-energy surround cat with no source effect.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "rokita-folklore-c04",
+      "rokita-folklore-c07"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/rokita-folklore.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/rokita-folklore.json"
+  }
+}

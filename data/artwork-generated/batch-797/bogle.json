@@ -1,0 +1,90 @@
+{
+  "slug": "bogle",
+  "worker": "worker-0",
+  "prompt": "Edit the provided square painterly mythology artwork to follow its documented physical manifestation. Preserve Tatty Bogle as ONE physical ragged straw scarecrow tied on wooden cross pole in potato field. Remove all glowing green ghost wisps, magic smoke, sparks and shining fabric. Real straw and torn cloth with deep ordinary moonlit shadow, threatening wind-bent pose, potato leaves visible. No new humanoid monster. Preserve painterly naturalistic quality and square composition. No text, border or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/bogle-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-66ddb944-dc37-4127-b2e3-5b20b22d5a2b.png",
+  "depicted_variant": "Tatty Bogle animated scarecrow in potato field",
+  "basis_claim_ids": [
+    "bogle-c01",
+    "bogle-c02",
+    "bogle-c03",
+    "bogle-c06"
+  ],
+  "aura": "Character presence through pose, framing, atmosphere and natural light",
+  "visual_requirements": [
+    "Physical straw scarecrow in potato field; ordinary moonlight",
+    "No generic emitted aura, neon halo, magic particles or luminous vapor"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native: ragged straw scarecrow on wooden cross pole above potato plants, natural moonlit torn cloth and straw, no green mist or glowing field.",
+    "reviewer": "root"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-118.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "finish_aura_a",
+    "reviewed_at": "2026-10-05",
+    "notes": "Independent direct inspection against selected claims bogle-c03 and source requirements: one physical ragged straw scarecrow tied to a wooden cross pole above potato plants, visible potatoes and natural moonlit field. Wind-bent head, torn cloth and silhouette provide presence. No monster anatomy, emitted green wisps, glowing cloth or magical particles."
+  },
+  "attempt_history": [
+    {
+      "slug": "bogle",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square terrifying painterly naturalistic mythology illustration of BOGLE, specifically TATTY BOGLE SCARECROW variant. ONE old human-shaped rag-and-straw SCARECROW in a potato field at night, tattered coat, simple featureless sack head, ordinary wooden support and straw limbs animated in an eerie slight twist. Full figure framed; potatoes/low crop rows establish source habitat. Clearly luminous cold grey-green supernatural wisps RADIATE FROM SCARECROW and cast light on blighted leaves, malicious perplexing ghost aura artistic. No invented demonic head, fangs, animal hybrid, wings, horns, victim, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/bogle.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-66ddb944-dc37-4127-b2e3-5b20b22d5a2b.png",
+      "depicted_variant": "Tatty Bogle animated scarecrow in potato field",
+      "basis_claim_ids": [
+        "bogle-c01",
+        "bogle-c02",
+        "bogle-c03",
+        "bogle-c06"
+      ],
+      "aura": "terrifying malicious field-scarecrow emitted spectre glow",
+      "visual_requirements": [
+        "Tatty Bogle scarecrow form",
+        "potato field",
+        "animated aura without added monster anatomy"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected native: Tatty Bogle source scarecrow form, sack head, rag-and-straw body on wooden crosspiece amidst potato plants. Grey-green luminous emitted aura; no invented monster anatomy."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-118.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Animated Tatty Bogle scarecrow in potato field, no unsupported monster anatomy, emitted green-white wisps.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/bogle-verified.webp",
+      "sha256": "7455148829d4f9be38ace1bd905e1a0e8ff112bf7369a00f96bfe97c66ddc04a",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-c910295d-47f6-46e2-af92-a8e8d6f466dd.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Original has generic emitted magical wrapping unsupported by selected documented depiction; use physical presence and natural scene lighting.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "bogle-c01",
+      "bogle-c02",
+      "bogle-c03",
+      "bogle-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/bogle.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/bogle.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

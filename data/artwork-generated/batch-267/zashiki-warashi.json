@@ -1,0 +1,30 @@
+{
+  "slug": "zashiki-warashi",
+  "worker": "worker-3",
+  "prompt": "Use case: historical-scene. ONE square detailed painterly naturalistic encyclopedia illustration of Zashiki-warashi, the benevolent childlike household guardian spirit of Tono, Iwate, Japan. Choose the explicitly documented BOY form with cute bobbed hair, not a corpse ghost. One small Japanese boy with neat straight dark bob haircut, warm observant face and playful reserved smile, wearing a simple modest traditional patterned child kimono. He stands quietly in the corner of a warmly lit old tatami room in a rural Iwate house, surrounded by carefully kept domestic furnishings; no other characters. Slight soft luminosity at the edge of his figure suggests guardian spirit without making him transparent horror. The atmosphere is reassuring, gently mysterious, auspicious and protective; his presence brings household prosperity. Central entire child comfortably inside frame, lifelike painterly wood, tatami and textile textures. Invariants: humanlike young boy, bobbed hair, house spirit inside traditional room, benevolent guardian aura. Avoid undead paleness, black eyes, horror grin, corpse wounds, floating footless ghost anatomy, horns, wings, weapons, grand crown, anime, modern clothing, western toy nursery, lettering, watermark, border, collage.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-4ea46ec2-1613-423d-afaa-7d8304555097.png",
+  "review_path": "data/gemini/reviews/batch-049.review.json",
+  "visual_requirements": [
+    "Humanlike young boy",
+    "Cute bobbed black hair",
+    "Traditional Japanese domestic interior",
+    "Benevolent household guardian aura",
+    "No undead horror"
+  ],
+  "depicted_variant": "Iwate boy-shaped divine household guardian with bobbed hair",
+  "basis_claim_ids": [
+    "zashiki-warashi-c01",
+    "zashiki-warashi-c03",
+    "zashiki-warashi-c04",
+    "zashiki-warashi-c06"
+  ],
+  "aura": "Reassuring auspicious protection and gentle household mystery",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-3.json"
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "bichura-folklore",
+  "basis_claim_ids": [
+    "bichura-folklore-c01",
+    "bichura-folklore-c03",
+    "bichura-folklore-c07",
+    "bichura-folklore-c09"
+  ],
+  "depicted_variant": "Small woman house spirit in red clothes and old-fashioned Tatar headdress",
+  "visual_requirements": [
+    "Remove red-orange energy loops, floating luminous dots, glowing hands/eyes and energy spilling into floor hole. Preserve same small adult female house spirit, red dress coverage, old-fashioned Tatar headdress, face, posture, exact stature compared with stool, domestic Tatar room and underfloor opening. Ordinary warm room light. Presence through small stature and quiet gaze.",
+    "No generic emitted wrapping; preserve anatomy and counts"
+  ],
+  "aura": "Small red-clad house spirit at underfloor opening.",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove red-orange energy loops, floating luminous dots, glowing hands/eyes and energy spilling into floor hole. Preserve same small adult female house spirit, red dress coverage, old-fashioned Tatar headdress, face, posture, exact stature compared with stool, domestic Tatar room and underfloor opening. Ordinary warm room light. Presence through small stature and quiet gaze. Preserve original composition, anatomy, count, exact size and identity. No added subjects, nudity, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-137.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/bichura-folklore-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-b8e38436-8634-4fbe-a288-8700ff8ddf35.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output individually inspected: same small woman with red dress and Tatar headdress at underfloor opening; orange ribbons/dots/eye glow removed.",
+    "reviewer": "aura-resume-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected revised native: tiny woman in red clothes and traditional headdress beside opened floorboards; natural warm room lighting, no body glow."
+  },
+  "attempt_history": [
+    {
+      "slug": "bichura-folklore",
+      "basis_claim_ids": [
+        "bichura-folklore-c01",
+        "bichura-folklore-c03",
+        "bichura-folklore-c07",
+        "bichura-folklore-c09"
+      ],
+      "depicted_variant": "Small woman house spirit in red clothes and old-fashioned Tatar headdress",
+      "visual_requirements": [
+        "Small humanlike female house spirit",
+        "Red clothing",
+        "Old-fashioned Tatar headdress",
+        "Underfloor domestic setting"
+      ],
+      "aura": "Warm red-gold magical wisps",
+      "prompt": "Depict Bichura, the Tatar house spirit, using the documented small-woman form. A diminutive adult humanlike woman with two arms and two legs, fully clothed in red traditional domestic clothes and an old-fashioned Tatar headdress, standing beside an open underfloor space in a historic wooden house. Small stature relative to normal floorboards and a nearby household stool, no invented animal ears, horns, wings or claws. Her face subtly uncanny through warm luminous eyes and unusual red-gold inner light. Clearly emitted red-gold magical wisps and floating lights surround her body and flow into the underfloor darkness. Mysterious domestic guardian atmosphere, no other people. Square premium detailed painterly mythological encyclopedia illustration, entire identifying body within frame, coherent anatomy, no text, captions, borders, watermark, gore or victims. Aura must visibly emanate from creature.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-137.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/bichura-folklore.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-b8e38436-8634-4fbe-a288-8700ff8ddf35.png",
+      "reviewed_at": "2026-10-05T04:01:08.936Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: small fully dressed female house spirit in red clothing and ornamental old-fashioned Tatar headdress beside open underfloor area, clear emitted red-gold aura."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Small humanlike female household spirit in red clothing and Tatar headdress near underfloor space, emitted amber-red aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/bichura-folklore-verified.webp",
+      "sha256": "1af3b2fe26643a836e70289f457a392ebb1e77f94f7d209bc6b61b5eaa2cbf72",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-08cdc8af-c589-4e54-9f31-2d574e9f4725.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "House poltergeist traits do not support red light wrapping.",
+    "allowed_magic": "none beyond documented manifestation",
+    "source_basis_claim_ids": [
+      "bichura-folklore-c01",
+      "bichura-folklore-c03",
+      "bichura-folklore-c07",
+      "bichura-folklore-c09"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/bichura-folklore.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/bichura-folklore.json"
+  }
+}

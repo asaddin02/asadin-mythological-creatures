@@ -1,0 +1,92 @@
+{
+  "slug": "cauld-lad-of-hylton",
+  "basis_claim_ids": [
+    "cauld-lad-of-hylton-c01",
+    "cauld-lad-of-hylton-c03",
+    "cauld-lad-of-hylton-c04",
+    "cauld-lad-of-hylton-c06"
+  ],
+  "depicted_variant": "Stable boy ghost covered by documented warm cloak",
+  "visual_requirements": [
+    "Remove blue luminous envelope, light ribbons, magical motes and blue floor energy. Preserve SAME young stable-boy apparition, face, pose, two hands clutching thick opaque warm cloak which fully covers body, boots, exact stature and Hylton Castle kitchen. No nudity. Keep subtle pale ghost pallor, no emitted blue outline. Melancholy presence through cold worried face, wrapped posture and ordinary window light.",
+    "No generic emitted wrapping; preserve anatomy and counts"
+  ],
+  "aura": "Worried cold boy clasping warm cloak in stone kitchen.",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove blue luminous envelope, light ribbons, magical motes and blue floor energy. Preserve SAME young stable-boy apparition, face, pose, two hands clutching thick opaque warm cloak which fully covers body, boots, exact stature and Hylton Castle kitchen. No nudity. Keep subtle pale ghost pallor, no emitted blue outline. Melancholy presence through cold worried face, wrapped posture and ordinary window light. Preserve original composition, count, exact scale and identity. No added subjects, nudity, gore, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-119.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/cauld-lad-of-hylton-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-235f1fb8-e229-4086-b670-926bd520ded4.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output individually inspected: same young boy clutching thick fully covering warm cloak, boots and kitchen; blue envelope/motes/floor energy removed; face remains pale.",
+    "reviewer": "aura-resume-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected revised native: boy wrapped in warm coarse cloak in stone castle kitchen, melancholy pose, window and candle light; no supernatural envelope."
+  },
+  "attempt_history": [
+    {
+      "slug": "cauld-lad-of-hylton",
+      "basis_claim_ids": [
+        "cauld-lad-of-hylton-c01",
+        "cauld-lad-of-hylton-c03",
+        "cauld-lad-of-hylton-c04",
+        "cauld-lad-of-hylton-c06"
+      ],
+      "depicted_variant": "Stable boy ghost covered by documented warm cloak",
+      "visual_requirements": [
+        "Young stable-boy apparition",
+        "Opaque warm cloak completely covering body",
+        "Castle kitchen",
+        "No nudity or violence"
+      ],
+      "aura": "Cold blue-white emitted ghost wisps",
+      "prompt": "Depict the Cauld Lad of Hylton, the legendary ghost of stable boy Robert Skelton, after receiving the source-documented WARM CLOAK. A lonely youthful boy apparition fully and opaquely covered from shoulders to feet by a thick warm cloak, only innocent pale face and modestly held hands visible, no nudity at all. Standing in an old stone Hylton Castle kitchen with swept floor and silent hearth. Two natural humanlike arms and legs under cloak, no wounds, blood, skull face, horns, wings or invented anatomy. Clearly emitted chilly blue-white spectral wisps and glowing motes envelop his cloaked body and drift along the floor, translucent glowing perimeter, sad shivering expression and melancholic haunted mood. No other people, murder, body in well or attack. Square premium highly detailed painterly encyclopedia illustration, one coherent mythological entity, clear silhouette fully inside frame. No text, caption, border, watermark, gore, attacks or victims.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-119.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/cauld-lad-of-hylton.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-235f1fb8-e229-4086-b670-926bd520ded4.png",
+      "reviewed_at": "2026-10-05T04:07:00.218Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: youthful stable-boy ghost completely covered in warm cloak, only face and hands exposed, emitted blue-white spectral wisps in castle kitchen; no nudity, wounds or violence."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Young stable-boy apparition entirely covered by opaque warm cloak in castle kitchen, no violence or nudity, emitted blue aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/cauld-lad-of-hylton-verified.webp",
+      "sha256": "d51568d9aadebbe3af1a157621f553372622b2351e1113ff89be2a2fd3eff7c7",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-07e39941-f894-4d1a-81dc-20f1a6e68e9e.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Ghost stable boy does not have documented blue energy envelope.",
+    "allowed_magic": "none beyond documented manifestation",
+    "source_basis_claim_ids": [
+      "cauld-lad-of-hylton-c01",
+      "cauld-lad-of-hylton-c03",
+      "cauld-lad-of-hylton-c04",
+      "cauld-lad-of-hylton-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/cauld-lad-of-hylton.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/cauld-lad-of-hylton.json"
+  }
+}

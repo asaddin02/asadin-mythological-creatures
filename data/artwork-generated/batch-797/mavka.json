@@ -1,0 +1,92 @@
+{
+  "slug": "mavka",
+  "basis_claim_ids": [
+    "mavka-c01",
+    "mavka-c04",
+    "mavka-c07",
+    "mavka-c15"
+  ],
+  "depicted_variant": "Long-haired tall female Ukrainian forest spirit",
+  "visual_requirements": [
+    "Remove green luminous hair/body ribbons, fairy-like luminous dots and emitted gown light. Preserve same tall round-faced adult female, VERY long hair, floral hair/gown decoration, modest opaque gown, exact pose/anatomy/scale and forest stream. Source c04 no reflection/no shadow: ensure woman has NO reflection in water and no cast body shadow; keep normal trees/sky reflections. Enigmatic presence through quiet gaze and unusual absence of reflection, natural sunlight.",
+    "No generic emitted wrapping; preserve anatomy and counts"
+  ],
+  "aura": "Long-haired spirit by reflective forest water without personal reflection.",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove green luminous hair/body ribbons, fairy-like luminous dots and emitted gown light. Preserve same tall round-faced adult female, VERY long hair, floral hair/gown decoration, modest opaque gown, exact pose/anatomy/scale and forest stream. Source c04 no reflection/no shadow: ensure woman has NO reflection in water and no cast body shadow; keep normal trees/sky reflections. Enigmatic presence through quiet gaze and unusual absence of reflection, natural sunlight. Preserve original composition, anatomy, count, exact size and identity. No added subjects, nudity, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-121.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/mavka-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-a121fabc-d9a2-4115-a299-e110f78b1ce1.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output individually inspected: tall round-faced adult, very long hair, floral opaque gown and stream preserved; green motes/ribbons removed; no personal water reflection or cast shadow visible.",
+    "reviewer": "aura-resume-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected revised native: long-haired clothed forest woman at water with only landscape reflection and no personal shadow; natural daylight, no emitted light."
+  },
+  "attempt_history": [
+    {
+      "slug": "mavka",
+      "basis_claim_ids": [
+        "mavka-c01",
+        "mavka-c04",
+        "mavka-c07",
+        "mavka-c15"
+      ],
+      "depicted_variant": "Long-haired tall female Ukrainian forest spirit",
+      "visual_requirements": [
+        "Tall round-faced adult female spirit",
+        "Very long hair",
+        "No reflection in water and no cast shadow",
+        "No nyavka exposed-back anatomy"
+      ],
+      "aura": "Visible green-white spectral wisps",
+      "prompt": "Depict a Mavka, a Ukrainian female Soul of the Forest, as a tall beautiful ADULT woman with a round face and very long flowing hair. Fully clothed in an opaque modest flowing woodland dress. Natural humanlike anatomy, two arms and legs, no antlers, horns, wings, animal ears or exposed spine: this is the ordinary Mavka, not the no-back nyavka subtype. Standing beside a still pool in a Ukrainian mountain forest, her reflection is ABSENT from the pool while surrounding trees reflect; she casts no shadow on the ground. Her pale skin subtly glows from within and unmistakable bright green-white magical wisps and luminous motes radiate from her body and long hair among spring flowers. Haunting, enticing but nonsexual presence, no men or victims. Square premium highly detailed painterly encyclopedia illustration, one coherent mythological entity, clear silhouette fully inside frame. No text, caption, border, watermark, gore, attacks or victims.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-121.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/mavka.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-a121fabc-d9a2-4115-a299-e110f78b1ce1.png",
+      "reviewed_at": "2026-10-05T04:07:00.079Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: tall adult round-faced long-haired female forest spirit, fully clothed, explicit green-white magical aura; still pool reflects surrounding trees but not her, no visible cast shadow."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Tall round-faced adult female with very long hair by water, no bodily reflection or cast shadow visible, emitted green aura and no exposed-back anatomy.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/mavka-verified.webp",
+      "sha256": "a82ba1c2306b54963287f5948cd87dac4c4b95017606e2d6614e733762292049",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-d29db18a-44cc-4a96-8356-055b11f54edf.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Forest spirit and absent shadow/reflection do not support green envelope.",
+    "allowed_magic": "Source c04 no personal reflection or cast shadow",
+    "source_basis_claim_ids": [
+      "mavka-c01",
+      "mavka-c04",
+      "mavka-c07",
+      "mavka-c15"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/mavka.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/mavka.json"
+  }
+}

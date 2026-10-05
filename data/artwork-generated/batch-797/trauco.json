@@ -1,0 +1,86 @@
+{
+  "slug": "trauco",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Edit this existing artwork: change aura to CHARACTER PRESENCE. Remove all generic emitted halos, luminous outlines, energy ribbons, glowing particles, colored luminous fog and swirling light around body and environment. No replacement white magic/fireflies. Natural light and ordinary NON-luminous weather only. Presence: Uneasy ogre stare and hunched small figure among vast dim forest trees. Preserve anatomy, counts, scale, pose, subject, scene, modest adult clothing and style. Critical invariants: Dwarf-like no taller than80cm, ugly ogre face, EXACTLY two rounded leg STUMPS without feet/toes/shoes, existing modest clothing. No text/watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/trauco-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-b6ca5e47-f550-48d3-9d62-c97db67151dc.png",
+  "review_path": "data/gemini/reviews/batch-143.review.json",
+  "visual_requirements": [
+    "Dwarf-like no taller than80cm, ugly ogre face, EXACTLY two rounded leg STUMPS without feet/toes/shoes, existing modest clothing.",
+    "Character presence through pose/framing/natural light; no generic emitted aura."
+  ],
+  "depicted_variant": "Small80cm ugly ogre-faced footless-stump Trauco, clothing and emitted forest aura editorial.",
+  "basis_claim_ids": [
+    "trauco-c01",
+    "trauco-c07"
+  ],
+  "aura": "Uneasy ogre stare and hunched small figure among vast dim forest trees.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actual new image inspected in five-image contact sheet. Generic luminous effects removed. Tiddy Mun retains ordinary low fen fog; Trauco has footless rounded stumps; Vedmak clean shaven with small tail; Vishap continuous legless serpent with two wings; Zana exactly three golden-horned goats. Anatomy, scale and modest clothing preserved.",
+    "reviewer": "worker-1"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: ugly squat forest humanoid, legs terminate in rounded stumps without feet. Natural dark forest lighting, no luminous halo."
+  },
+  "attempt_history": [
+    {
+      "slug": "trauco",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Chiloé Chile folklore mythology illustration, stylized-concept. ONE TRAUCO: UGLY OGRE-FACED dwarf-like humanoid no taller than80cm, TWO LEGS ENDING IN ROUNDED STUMPS INSTEAD OF FEET. Both stump ends must be clearly visible on forest ground, absolutely NO toes, NO foot-shaped forms, NO shoes or hooves. Small squat humanlike torso with two arms, grotesque yet naturalistic ogre-like face slightly different from ordinary man, modest rough woodland garments editorial. Deep moist Chilote forest, enormous normal ferns and trees demonstrate tiny80cm stature, full-body low framing showing both footless stumps. Eerie predatory mythological woodland aura, UNMISTAKABLE luminous dark amber-green magic wisps and suspended particles emitted around small body, oppressive fog and shadows. Detailed moss/fabric/skin. No sexual scene, no victim, no horns, no wings, no extra limbs, no text or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/trauco.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-b6ca5e47-f550-48d3-9d62-c97db67151dc.png",
+      "review_path": "data/gemini/reviews/batch-143.review.json",
+      "visual_requirements": [
+        "Dwarf-like no taller than80cm",
+        "Ugly ogre-like humanoid face",
+        "Two legs end in stumps with no feet/toes/shoes",
+        "Forest-scale references and eerie aura"
+      ],
+      "depicted_variant": "Small80cm ugly ogre-faced footless-stump Trauco, clothing and emitted forest aura editorial.",
+      "basis_claim_ids": [
+        "trauco-c01",
+        "trauco-c07"
+      ],
+      "aura": "Dark amber-green luminous forest wisps and suspended magic particles.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: One small ogre-faced humanoid beside normal forest ferns; BOTH lower legs end in rounded stumps with no toes/feet/shoes, two arms, bright amber-green emitted wisps and particles. Exact surface detail/costume not specified by claims and aura editorial."
+      },
+      "reviewed_at": "2026-10-05T03:16:50.081Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Small ugly humanoid dwarf, two legs ending in plain footless stumps, forest scale and emitted golden aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/trauco-verified.webp",
+      "sha256": "03d112acadbddee5fe7f59e69eeea25d0ae74a222f152223b0d8fea5e07426cf",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-5aea40d5-dac9-4b77-a9c4-90683e73d71a.png",
+  "revision_generator": "worker-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-1",
+    "rationale": "Amber wisps and yellow particles wrap the small body without source manifestation.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "trauco-c01",
+      "trauco-c07"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/trauco.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/trauco.json"
+  }
+}

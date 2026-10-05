@@ -1,0 +1,31 @@
+{
+  "slug": "swan-maiden",
+  "worker": "worker-3",
+  "prompt": "Use case: historical-scene. ONE square detailed painterly naturalistic encyclopedia illustration of Swan Maiden, choosing the documented lake-maiden folktale form of a supernatural adult woman wearing a robe made of feathers that lets her fly home to the otherworld. One adult woman lifts just above the quiet bank of a lake at dawn, dressed modestly in a long flowing robe visibly composed of overlapping white bird feathers, including a feathered mantle around shoulders. Human face, two human arms and human lower form concealed by the robe; robe and mantle carry her through the air. Show NO literal bird transformation and NO bird torso, because the selected story says feather-robed maidens rather than a fixed swan anatomy. She looks serene, dignified and wistfully liberated, soft luminous dawn mist over lake, natural graceful flight without generic angel wings. Central full identifiable woman and complete feather robe comfortably inside square, realistic feather and fabric texture, subtle painterly mythic beauty. Invariants: supernatural adult woman, clearly visible feather garment, return-flight and regained freedom, calm otherworldly aura. Avoid feather bikini, nudity, swan head, bird feet, giant feather wings attached to bare back, crown, weapon, horns, modern gown, glitter princess cliché, male captor, babies, extra maidens, lettering, watermark, border, collage.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-ce22d4fb-f3d2-407b-a160-077a5ade0ac8.png",
+  "review_path": "data/gemini/reviews/batch-049.review.json",
+  "visual_requirements": [
+    "Adult supernatural human woman",
+    "Robe made of feathers clearly visible",
+    "Flight over a lake shore",
+    "Regained freedom and serene otherworldly aura",
+    "No forced swan anatomy"
+  ],
+  "depicted_variant": "Feather-robed lake-maiden folktale form who regains her robe and flies home; no literal swan transformation asserted",
+  "basis_claim_ids": [
+    "swan-maiden-c03",
+    "swan-maiden-c04",
+    "swan-maiden-c05",
+    "swan-maiden-c11",
+    "swan-maiden-c12"
+  ],
+  "aura": "Serene liberated dignity and luminous otherworldly wonder",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Ordinary female human face, arms and legs; feathers form a garment/cape rather than actual swan wings or bird body."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-3.json"
+}

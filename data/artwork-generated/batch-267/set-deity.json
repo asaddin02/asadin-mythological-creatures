@@ -1,0 +1,29 @@
+{
+  "slug": "set-deity",
+  "worker": "worker-2",
+  "prompt": "Use case: historical-scene. Asset type: square encyclopedia illustration. Create ONE 1024x1024 detailed painterly naturalistic illustration of Set, the ancient Egyptian desert and storm god, in his canonical animal-headed HUMAN-bodied form. One solitary dignified powerful standing male deity, full figure comfortably inside frame, with a recognizable enigmatic Set-animal head in clear three-quarter side profile: long narrow muzzle bending downward at its end, and two tall straight upright rectangular ears with squared flat tips. The head is NOT a jackal, dog, wolf, fox, horse, or ordinary donkey. Dark reddish animal head, muscular human torso and human limbs, simple ancient Egyptian linen kilt and broad collar. Hands empty. Behind him, immense ochre desert dunes and dark gathering storm clouds; austere monumental divine majesty with dangerous storm power, not a generic demon. Soft dramatic golden edge light, exceptionally clear silhouette and head anatomy, exquisite brush texture. Keep all identifying parts visible; no extra limbs, horns, wings, sword, modern fantasy armor, canine pointed ears, jackal head, humans beside him, gore, writing, hieroglyphs, labels, border, text, watermark. Select only the anthropomorphic documented Egyptian variant, do not hybridize variants.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1027b-edc4-7382-86ca-b0e984343606/exec-699fad61-a16e-4b6c-9a5c-1b19e52f51a6.png",
+  "review_path": "data/gemini/reviews/batch-041.review.json",
+  "visual_requirements": [
+    "Human male body and limbs",
+    "Distinctive mythical Set-animal head with downcurving elongated snout and square upright ears",
+    "Desert and storm divine majesty"
+  ],
+  "depicted_variant": "Animal-headed anthropomorphic Egyptian Set",
+  "basis_claim_ids": [
+    "set-deity-c01",
+    "set-deity-c03",
+    "set-deity-c12",
+    "set-deity-c15"
+  ],
+  "additional_source_urls": [
+    "https://www.globalegyptianmuseum.org/glossary.aspx?id=343"
+  ],
+  "aura": "Austere powerful desert and storm deity",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Observed human muscular body with two arms and two legs, long distinctly downcurved muzzle, two rectangular flat-tipped upright ears, Egyptian linen kilt. Monumental dignified stance under enormous storm clouds and gold light over desert; no jackal substitution, wings, horns or fantasy weapons."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed"
+}

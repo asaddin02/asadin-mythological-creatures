@@ -1,0 +1,91 @@
+{
+  "slug": "maa-alused",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Input image is sole EDIT TARGET. Remove all unsupported emitted energy ribbons, luminous colored fog, magical sparkles/particles, halos and neon outlines from subjects and environment. Reconstruct ordinary physical textures underneath. Preserve exact identities, anatomy/counts, pose, scale, perspective, clothing and scene. Natural light only; no new objects/characters, text or watermark. Maa-alused: preserve tiny human-shaped ADULT smith, same face, hands, hammer striking anvil, small physical tools and underground root chamber with ceiling workshop editorial staging. Remove emitted golden magical lines from roots, body and surroundings. Retain ordinary physical forge FIRE and only tiny natural hot-metal sparks immediately at hammer/anvil contact, no floating magical particles elsewhere. Presence through underground depth, miniature scale and honest firelight, not body emission.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/maa-alused-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-a631d0eb-8f42-41e1-ada2-a4b4cc8fff12.png",
+  "depicted_variant": "Tiny human-shaped underground smith in reversed-world setting",
+  "basis_claim_ids": [
+    "maa-alused-c01",
+    "maa-alused-c02",
+    "maa-alused-c04",
+    "maa-alused-c05"
+  ],
+  "aura": "Tiny underground human-shaped smith working with small tools, physical forge fire and deep root chamber create atmosphere.",
+  "visual_requirements": [
+    "Tiny human-shaped adult smith with same face/hands/hammer/anvil.",
+    "Underground physical roots and reversed-world staging retained as editorial composition.",
+    "No gold energy ribbons from roots/body; sparks only physically from hammer/forge if any."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native edit: tiny adult smith, hammer/anvil/tools, underground roots and inverted ceiling workshop retained. Gold root ribbons removed; only physical forge fire and small sparks at metal contact.",
+    "reviewer": "root"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-124.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "aura-resume-0",
+    "reviewed_at": "2026-10-05",
+    "notes": "Independently inspected revised native contact: tiny human-shaped adult smith at hammer/anvil under physical roots and editorial inverted upper chamber. Roots emit nothing; only small local hammer sparks and physical forge flame produce light."
+  },
+  "attempt_history": [
+    {
+      "slug": "maa-alused",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square detailed painterly naturalistic mythology illustration of MAA-ALUSED, Estonian tiny human-shaped underground beings. ONE tiny ADULT HUMANLIKE SMITH in modest miniature plain clothes hammers a tiny metal piece with TINY HAMMER and ANVIL in a cavern beneath soil. Giant ordinary roots overhead and large earth clods establish tiny scale. Source reversed parallel-world belief suggested artistically with a faint inverted tiny workshop reflection on cavern roof, not anatomical mutation; choose smith form only, no frog/insect mixture. Natural human face, NO pointed elf ears. Clearly luminous amber supernatural wisps RADIATE FROM BODY and smithing tool into soil, mysterious rewarding underground-spirit aura artistic. Full smith/tool composition framed. No wings, horns, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/maa-alused.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-a631d0eb-8f42-41e1-ada2-a4b4cc8fff12.png",
+      "depicted_variant": "Tiny human-shaped underground smith in reversed-world setting",
+      "basis_claim_ids": [
+        "maa-alused-c01",
+        "maa-alused-c02",
+        "maa-alused-c04",
+        "maa-alused-c05"
+      ],
+      "aura": "mysterious Estonian underground smith-spirit emitted amber light",
+      "visual_requirements": [
+        "tiny human-shaped smith",
+        "underground small tools and reversed-world setting artistic",
+        "no pointed ears or animal form mixture"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected native: tiny human-shaped smith working hammer/anvil underground among large roots and clods, human anatomy/rounded ears. Faint upside-down workshop reflection depicts reversed-world belief artistically; emitted amber wisps obvious."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-124.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Tiny human-shaped smith underground with small tools, artistic reversed workshop above, clearly emitted amber earth aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/maa-alused-verified.webp",
+      "sha256": "c592b9e8baddbedfb55e48c8852933f7efb9ab73e5d7a40efc9fc20508ecb0a6",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-1aff88e3-b2b0-4bc9-bd30-0f7f92e2bf22.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Tiny underground smith and roots emit unsupported gold magical filaments instead of physical forge lighting.",
+    "allowed_magic": "none; ordinary forge flame/sparks retained.",
+    "source_basis_claim_ids": [
+      "maa-alused-c01",
+      "maa-alused-c02",
+      "maa-alused-c04",
+      "maa-alused-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/maa-alused.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/maa-alused.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

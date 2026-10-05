@@ -1,0 +1,29 @@
+{
+  "slug": "amaterasu",
+  "prompt": "Use case: historical-scene. One square detailed painterly naturalistic encyclopedia illustration of Amaterasu Omikami, revered Japanese Shinto sun goddess. Depict ONE adult Japanese female deity emerging from the mouth of a rocky heavenly cave; her whole figure is comfortably visible, dressed in dignified layered traditional flowing Japanese robes, with long dark hair and calm authoritative expression. Bright sacred golden sunlight radiates from her, transforming the dark cave entrance to luminous heaven. Beside the entrance place a green sakaki tree decorated with a round sacred mirror, comma-shaped magatama jewels and strips of white cloth, as in the documented cave legend. Those objects belong to the tree, not extra body limbs. Mood: divine majesty, benevolent awe, sacred reverence, radiant celestial presence. Naturalistic rich painted textures and restrained Japanese historical visual language, no anime. This is an interpretive depiction of the documented emergence scene; avoid fabricated weapons, armor, horns, wings or extra arms. One goddess only, no other characters, no text or watermark. Square composition with margins and clear central silhouette.",
+  "visual_requirements": [
+    "Single female sun goddess",
+    "Emerging from rocky cave illuminated by divine sunlight",
+    "Sakaki with mirror, magatama and white cloth",
+    "Dignified majestic sacred aura"
+  ],
+  "depicted_variant": "Interpretive single-figure emergence from heavenly cave",
+  "basis_claim_ids": [
+    "amaterasu-c01",
+    "amaterasu-c05",
+    "amaterasu-c07",
+    "amaterasu-c18"
+  ],
+  "aura": "radiant divine majesty and sacred reverence",
+  "worker": "worker-1",
+  "original_file": "/home/asadin/.codex/generated_images/01a1027b-a981-7740-919f-fedd3124720e/exec-e8d1ca98-0aee-4fc6-b73f-b7afa7501efe.png",
+  "review_path": "data/gemini/reviews/batch-042.review.json",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Ordinary human woman with sunlight halo and robe; no nonhuman anatomy."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-1.json"
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "shtojzovalle",
+  "worker": "root",
+  "prompt": "Use case: lighting-weather. Image is EDIT TARGET. Change ONLY unsupported magical lighting/VFX. Preserve exact face, identity, pose, coherent anatomy/counts, source size, modest opaque clothes, setting, camera and square frame. No text/watermark. Remove all silver-green magical ribbons, bright star motes and self-emitting skirt/body halo. Preserve small beautiful ADULT female dancing/floating woodland maiden, same face, pose and opaque dress. Source flight allowed without wings; natural dusk light and ordinary foliage only.",
+  "depicted_variant": "Beautiful small Albanian woodland maiden form, rare visible dancing appearance",
+  "basis_claim_ids": [
+    "shtojzovalle-c01",
+    "shtojzovalle-c03",
+    "shtojzovalle-c04",
+    "shtojzovalle-c10"
+  ],
+  "visual_requirements": [
+    "Small beautiful adult humanlike woodland maiden",
+    "Dancing/floating with source flight, no wings",
+    "Natural dusk, no emitted body/grass glow"
+  ],
+  "aura": "Woodland maiden presence through small beautiful adult form, floating dance and secluded dusk foliage.",
+  "review_path": "data/gemini/reviews/batch-124.review.json",
+  "tool": "OpenAI built-in image_gen",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-66c0075c-e746-4975-80d6-2f0f85f7142d.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/shtojzovalle-presence-v2.png",
+  "status": "reviewed",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected revised native contact: Small beautiful adult woman, same floating dance pose and opaque dress preserved; silver-green envelope/motes removed.",
+    "reviewer": "aura-resume-0"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected selected native preview: beautiful fully dressed woodland fairy dancing/hovering above pasture without wings, consistent with source flight; natural sunset and pose convey grace, no emitted ribbons or skirt halo."
+  },
+  "independent_visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected revised native contact: Small beautiful adult woman, same floating dance pose and opaque dress preserved; silver-green envelope/motes removed.",
+    "reviewer": "aura-resume-0",
+    "reviewed_at": "2026-10-05"
+  },
+  "attempt_history": [
+    {
+      "slug": "shtojzovalle",
+      "worker": "root",
+      "prompt": "Use case: stylized-concept. Asset type: mythology encyclopedia artwork. Produce ONE square high-detail painterly naturalistic cinematic fantasy illustration. One tiny beautiful ADULT human-shaped female woodland spirit in modest opaque flowing traditional clothing, dancing just above moss, ordinary round human ears, delicate natural human face with ethereal glow. Ferns and tall grass establish SMALL size; clearly adult facial proportions, not a child. Rare visible appearance of an otherwise invisible Albanian forest being. Forest clearing at twilight. Silver-green luminous energy wisps unmistakably RADIATE from body, spiral among ferns and cast magical light. No wings, horns, animal feet, child, text. No border, collage, labels, writing or watermark.",
+      "depicted_variant": "Beautiful small Albanian woodland maiden form, rare visible dancing appearance",
+      "basis_claim_ids": [
+        "shtojzovalle-c01",
+        "shtojzovalle-c03",
+        "shtojzovalle-c04",
+        "shtojzovalle-c10"
+      ],
+      "visual_requirements": [
+        "Small beautiful adult humanlike woodland maiden",
+        "Dancing or floating without invented wings",
+        "Clearly supernatural silver-green emitted aura"
+      ],
+      "aura": "Clearly emitted supernatural luminous wisps and particles as artistic aura",
+      "review_path": "data/gemini/reviews/batch-124.review.json",
+      "tool": "OpenAI built-in image_gen",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-66c0075c-e746-4975-80d6-2f0f85f7142d.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/shtojzovalle.png",
+      "status": "reviewed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually viewed: small adult maiden floating among oversized ferns, natural human features and obvious emitted silver-green wisps; no wings."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Actually viewed: small adult maiden floating among oversized ferns, natural human features and obvious emitted silver-green wisps; no wings.",
+        "reviewed_at": "2026-10-05"
+      },
+      "independent_visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-0",
+        "notes": "Worker-0 independently inspected root contact sheet: beautiful adult human-shaped dancing maiden, small versus ferns, luminous green-white emitted wisps, no wings or anatomy substitutions.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/shtojzovalle-verified.webp",
+      "sha256": "4b98919468175c80d1f216f5a6d545057291fd31f18fd4e7f3ad6e5ab3b4b3ac",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-719cd611-add5-4c18-8c01-908ad22f1480.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Unsupported silver-green emitted ribbons, star motes and skirt halo removed; source flight retained.",
+    "allowed_magic": "Source c03 flight without wings retained; no magical emission.",
+    "source_basis_claim_ids": [
+      "shtojzovalle-c01",
+      "shtojzovalle-c03",
+      "shtojzovalle-c04",
+      "shtojzovalle-c10"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/shtojzovalle.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/shtojzovalle.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

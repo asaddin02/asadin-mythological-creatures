@@ -1,0 +1,96 @@
+{
+  "slug": "babay-slavic-folklore",
+  "worker": "root",
+  "prompt": "Edit the provided square painterly mythology artwork to follow its documented physical manifestation. Preserve single pitch-black crooked old man with bag and walking cane, lame posture and rugged forest lane. Remove all red fire, scarlet smoke, glowing sparks, magical edge light and luminous eye effects. Dark charcoal skin/hair and worn clothes, ordinary moonlit shadows, no new anatomy. Preserve painterly naturalistic quality and square composition. No text, border or watermark.",
+  "depicted_variant": "Pitch-black crooked old man with bag and cane",
+  "basis_claim_ids": [
+    "babay-slavic-folklore-c01",
+    "babay-slavic-folklore-c02"
+  ],
+  "visual_requirements": [
+    "Pitch-black crooked elder with bag and cane, no red flames",
+    "No generic emitted aura, neon halo, magic particles or luminous vapor"
+  ],
+  "aura": "Character presence through pose, framing, atmosphere and natural light",
+  "review_path": "data/gemini/reviews/batch-122.review.json",
+  "tool": "OpenAI built-in image_gen",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-1e83b4ef-b351-44e9-b3bd-b7d9f92f8253.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/babay-slavic-folklore-presence-v2.png",
+  "status": "reviewed",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native: pitch-black crooked elder holding bag and cane with lame posture on dark lane, ordinary moonlight, no red fire or glowing eyes.",
+    "reviewer": "root"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "aura-resume-0",
+    "reviewed_at": "2026-10-05",
+    "notes": "Independently inspected revised native contact: pitch-black crooked elderly human form with bag and cane in nocturnal forest lane. No red flame, neon outline, particles or emitted aura; moonlight and threatening posture only."
+  },
+  "independent_visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native: pitch-black crooked elder holding bag and cane with lame posture on dark lane, ordinary moonlight, no red fire or glowing eyes.",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05"
+  },
+  "attempt_history": [
+    {
+      "slug": "babay-slavic-folklore",
+      "worker": "root",
+      "prompt": "Use case: stylized-concept. One square high-detail painterly naturalistic cinematic mythology encyclopedia illustration. One PITCH-BLACK crooked elderly human male BABAY night spirit, choosing explicit old-man variant. Skin and face charcoal-black with readable wrinkled contours, bent hunched body, limping gait, modest worn dark clothes, carries a BAG and walking CANE. Alone beside deserted Slavic forest lane at midnight, no children or victims. Malevolent crimson-black luminous wisps unmistakably EMIT FROM outline, dreadful magical sparks light twisted roots. No ethnic caricature, horns, wings, monsterhead or modernfilm imitation. No writing, labels, text, watermark, frame or collage.",
+      "depicted_variant": "Pitch-black crooked old man with bag and cane",
+      "basis_claim_ids": [
+        "babay-slavic-folklore-c01",
+        "babay-slavic-folklore-c02"
+      ],
+      "visual_requirements": [
+        "Pitch-black crooked elderly male",
+        "Bag and cane visible, lamely walking",
+        "Terrifying emitted supernatural aura"
+      ],
+      "aura": "Clearly emitted supernatural luminous wisps and particles as artistic aura",
+      "review_path": "data/gemini/reviews/batch-122.review.json",
+      "tool": "OpenAI built-in image_gen",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-1e83b4ef-b351-44e9-b3bd-b7d9f92f8253.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/babay-slavic-folklore.png",
+      "status": "reviewed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually viewed pitch-black crooked old man with bag and cane, limping woodland posture and terrifying emitted crimson aura."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Actually viewed pitch-black crooked old man with bag and cane, limping woodland posture and terrifying emitted crimson aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "independent_visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-0",
+        "notes": "Worker-0 independently inspected root-sheet3: pitch-black crooked elderly male, bag and cane, bent limping posture, emitted crimson aura, no added monster features.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/babay-slavic-folklore-verified.webp",
+      "sha256": "d088c2fb334aa04174ea177c1b0c252dd58a8a8505ad71d691f1b18594a7e18c",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-42cc232e-b145-4569-9041-6f7d7bb2f1e8.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Original has generic emitted magical wrapping unsupported by selected documented depiction; use physical presence and natural scene lighting.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "babay-slavic-folklore-c01",
+      "babay-slavic-folklore-c02"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/babay-slavic-folklore.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/babay-slavic-folklore.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

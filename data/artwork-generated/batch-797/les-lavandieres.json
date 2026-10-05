@@ -1,0 +1,91 @@
+{
+  "slug": "les-lavandieres",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Input image is sole EDIT TARGET. Remove all unsupported emitted energy ribbons, luminous colored fog, magical sparkles/particles, halos and neon outlines from subjects and environment. Reconstruct ordinary physical textures underneath. Preserve exact identities, anatomy/counts, pose, scale, perspective, clothing and scene. Natural light only; no new objects/characters, text or watermark. Les Lavandieres: preserve EXACTLY THREE old female washerwomen, same faces/poses, modest green clothing, visible WEBBED FEET and WHITE PHYSICAL SHROUDS being washed at river. Remove ALL glowing green energy from hair, face edges, cloth, feet and water; make shroud fabric solid and not self-luminous. Ordinary moonlight and natural water ripples only. Dark midnight river, ominous gazes and repeated washing action convey horror. Keep feet inside frame, no gore.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/les-lavandieres-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-88a2f80c-9815-4196-9b39-0845816ad910.png",
+  "depicted_variant": "Three small elderly green-clad web-footed Breton midnight washerwomen",
+  "basis_claim_ids": [
+    "les-lavandieres-c01",
+    "les-lavandieres-c02",
+    "les-lavandieres-c03",
+    "les-lavandieres-c05"
+  ],
+  "aura": "Three old web-footed washerwomen washing white shrouds by dark midnight river, moonlight and unsettling expressions.",
+  "visual_requirements": [
+    "EXACTLY THREE small elderly women in green clothes.",
+    "Visible webbed feet and physical white shrouds at midnight river.",
+    "No emitting green eyes/hair/body aura or glowing cloth."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native edit: exactly three old green-clad washerwomen with webbed feet and solid white shrouds. All green luminous hair/fog/cloth energy removed; ordinary reflected moonlight on wet stone/water.",
+    "reviewer": "root"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-117.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "aura-resume-0",
+    "reviewed_at": "2026-10-05",
+    "notes": "Independently inspected revised native contact: exactly three small elderly women in green clothes washing physical white shrouds at midnight river; webbed feet visible. No luminous green eyes, body/hair aura or glowing cloth."
+  },
+  "attempt_history": [
+    {
+      "slug": "les-lavandieres",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square terrifying painterly naturalistic mythology illustration of LES LAVANDIÈRES, choosing Breton MIDNIGHT WASHERWOMEN. EXACTLY THREE SMALL ELDERLY women in modest GREEN CLOTHES, each with clearly WEBBED FEET visible below hems, wash plain WHITE BURIAL SHROUDS beside dark stream at MIDNIGHT. All three full figures framed, old humanlike faces and webbed feet readable, stream stones establish small stature. Source death-omen trio preserved. Clearly luminous cold green-white spectral wisps RADIATE FROM EACH BODY and damp shrouds, casting ghostlight on water, truly dreadful quiet death aura artistic. No bloodstained cloth in this shroud variant, victims, violence, duck heads, wings, horns, extra figures, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/les-lavandieres.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-88a2f80c-9815-4196-9b39-0845816ad910.png",
+      "depicted_variant": "Three small elderly green-clad web-footed Breton midnight washerwomen",
+      "basis_claim_ids": [
+        "les-lavandieres-c01",
+        "les-lavandieres-c02",
+        "les-lavandieres-c03",
+        "les-lavandieres-c05"
+      ],
+      "aura": "terrifying triple midnight death-omen washerwomen radiance",
+      "visual_requirements": [
+        "exactly three small elderly female washerwomen",
+        "green clothes and webbed feet clearly visible",
+        "washing shrouds at midnight, no blood"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected native: exactly three elderly green-clothed small humanlike washerwomen, clearly visible webbed feet under each hem, white burial shrouds at midnight stream. Luminous green-white aura radiates from all three, no blood or extra figures."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-117.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Exactly three elderly washerwomen in green counted, visible webbed feet and shrouds washed at midnight, emitted ghostly green-white aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/les-lavandieres-verified.webp",
+      "sha256": "24a0d9fdb8b0762321d5fe7c1dd4546ffbb0caa7d93cfd9ee39569910f55ea08",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-6de08098-5e87-4aa6-bbad-f726921aebcc.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Three source washerwomen enveloped in unsupported luminous green fog/ribbons.",
+    "allowed_magic": "none; ominous midnight washerwomen depicted physically.",
+    "source_basis_claim_ids": [
+      "les-lavandieres-c01",
+      "les-lavandieres-c02",
+      "les-lavandieres-c03",
+      "les-lavandieres-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/les-lavandieres.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/les-lavandieres.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

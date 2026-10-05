@@ -1,0 +1,107 @@
+{
+  "slug": "al-basty",
+  "worker": "root",
+  "review_path": "data/gemini/reviews/batch-137.review.json",
+  "depicted_variant": "Turkic/Caucasus ugly female nightmare spirit with long yellow hair",
+  "basis_claim_ids": [
+    "al-basty-c01",
+    "al-basty-c06",
+    "al-basty-c07",
+    "al-basty-c08"
+  ],
+  "aura": "Oppressive nightmare presence through gaunt stare, looming posture, chest pressing, deep chamber shadows and natural moonlight.",
+  "visual_requirements": [
+    "Preserve aged female human anatomy, long yellow hair and pressing hand on adult sleeper chest.",
+    "Preserve modest hair/shadow concealment and existing pose/counts/scene.",
+    "No emitted generic aura, crimson fog or outline; presence from natural moonlight/chamber shadow."
+  ],
+  "prompt": "Use case: lighting-weather. Input image is EDIT TARGET. Edit only atmosphere/lighting: REMOVE all red luminous fog, emitted crimson vapor, halo, neon outline, glowing particles and energy swirls around Al Basty. Replace removed vapor with ordinary deep chamber shadows and restrained natural window moonlight, so terror comes from looming posture, gaunt stare and suffocating composition. Preserve EXACT aged adult female humanoid, very long loose yellow hair, readable pressing hand on clothed adult sleeper's chest, facial identity, human anatomy/counts, chamber/bed/camera and painterly detail. Maintain fully modest hair/shadow concealment of chest/pelvis, nonsexual framing; do not reveal any skin concealed before. No body self-emission, coloured magical fog, rings or particles. Natural pale skin under window light only; keep square composition.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/al-basty-presence-v2.png",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected native edit: all crimson emitted fog removed, gaunt female long yellow hair and pressing hand retained, modest concealment unchanged. Natural moonlight/deep shadows now create nightmare presence.",
+    "reviewer": "worker-0"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edited contact image: all crimson vapor gone, same ugly adult female spirit, long yellow hair, hand pressing clothed adult sleeper chest, hair/shadows concealing body. Oppressive pose and dark chamber moonlight carry horror without magical envelope."
+  },
+  "accuracy_mode": "source-supported",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "independent_visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected native edit: all crimson emitted fog removed, gaunt female long yellow hair and pressing hand retained, modest concealment unchanged. Natural moonlight/deep shadows now create nightmare presence.",
+    "reviewer": "worker-0",
+    "reviewed_at": "2026-10-05"
+  },
+  "attempt_history": [
+    {
+      "slug": "al-basty",
+      "worker": "root",
+      "review_path": "data/gemini/reviews/batch-137.review.json",
+      "depicted_variant": "Turkic/Caucasus ugly female nightmare spirit with long yellow hair",
+      "basis_claim_ids": [
+        "al-basty-c01",
+        "al-basty-c06",
+        "al-basty-c07",
+        "al-basty-c08"
+      ],
+      "aura": "Crimson spectral vapor and cold dream light; oppressive nightmare horror (artistic atmosphere)",
+      "visual_requirements": [
+        "Ugly adult female spirit with long loose yellow hair",
+        "Human anatomy retained; no arbitrary horns, wings or animal features",
+        "Presses an adult sleeper's chest; non-erotic framing with body concealed by hair and shadows",
+        "Visible red spectral aura, terrifying shadowy chamber"
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: Mythics encyclopedia illustration. Create ONE square premium naturalistic dark folklore painting of Al Basty, the malevolent female spirit of Turkic and Caucasus traditions, in an ancient shadowy sleeping chamber. Depict her source-described ugly adult female humanoid form with very long loose yellow hair, dreadful aged gaunt face, entirely non-erotic; hair and shadow fully conceal chest and pelvis. Her body is recognizable as female, with uncanny pallor and a subtly translucent supernatural edge; no invented horns, wings, fangs or animal anatomy. She looms over a faint anonymous adult sleeper, pressing the chest with a menacing hand to suggest nightmare suffocation without wounds. Aura effect: dense crimson spectral vapor curling around her, cold dreamlike light, deeply ominous enveloping shadows and disturbed dust; these atmosphere effects are artistic interpretation. Detailed textured hair and skin, face and pressing hand clearly readable, powerful terrifying atmosphere, cinematic composition, restrained painterly realism. Preserve human anatomy because the source specifies it, make her distinctly supernatural through aura and presence. No text, logos, frame, collage, modern franchise costume, graphic injury or sexualized pose.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/al-basty.png",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "reviewed_at": "2026-10-05",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected generated original: aged gaunt female spirit, very long yellow hair, hand pressing clothed adult sleeper's chest, exposed areas nonsexual. Human anatomy preserved; crimson fog and cold moonlight visibly distinguish supernatural nightmare. No arbitrary horns or wings. Source supports female appearance, hair, malevolent disposition and chest pressing."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected full-resolution generated result and confirmed long yellow hair, source female humanoid form, nightmare chest pressing and clearly visible crimson aura."
+      },
+      "accuracy_mode": "source-supported",
+      "artistic_changes": [
+        "Crimson aura and pale supernatural appearance are atmosphere, not asserted historical anatomy."
+      ],
+      "independent_visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-0",
+        "reviewed_at": "2026-10-05",
+        "notes": "Worker-0 actually inspected native original against claims c01/c06/c07/c08: ugly aged female humanoid with very long loose yellow hair, hand pressing clothed adult sleeper chest. Natural human anatomy, hair/shadow modestly conceal source nude variant, clear crimson emitted spirit aura and nightmare setting. No invented animal traits."
+      },
+      "registered_url": "/assets/art/al-basty-verified.webp",
+      "sha256": "057174791ef2facd31c6f48b37e55f1e07f525693bf25e3868facac0a409f5c0",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-e3918c17-e737-4e78-9b79-988e09bc0500.png",
+  "revision_generator": "worker-0",
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-0",
+    "rationale": "Original actually inspected: unsupported dense crimson luminous fog curls around female body; source nightmare pressing/red name do not justify emitted aura.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "al-basty-c01",
+      "al-basty-c06",
+      "al-basty-c07",
+      "al-basty-c08"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/al-basty.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/al-basty.json"
+  }
+}

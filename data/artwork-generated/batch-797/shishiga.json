@@ -1,0 +1,90 @@
+{
+  "slug": "shishiga",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Remove ONLY unsupported effects: all blue glowing wisps, emitted hair light, body envelope, particles and neon outline, ordinary dim dusk reflected light only. Preserve exactly same ONE small HUNCHBACKED adult female, white pale skin, tousled white hair, combing with same two hands, modestly concealed full cloth body and same bent seated pose, scale, reeds/stream at DUSK, framing and painterly detail. Character presence through uncanny hunchbacked pale silhouette, wary face and still dusk reeds. Natural light, shadows and textures, no generic emitted aura, new anatomy, extra characters, nudity, gore, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/shishiga-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-fbca858f-70c2-49a3-aa4f-fa9e68b40cf4.png",
+  "depicted_variant": "Small hunchbacked white female swamp spirit, modestly concealed source nude body",
+  "basis_claim_ids": [
+    "shishiga-c01",
+    "shishiga-c02",
+    "shishiga-c03",
+    "shishiga-c06"
+  ],
+  "aura": "uncanny hunchbacked pale silhouette, wary face and still dusk reeds",
+  "visual_requirements": [
+    "same ONE small HUNCHBACKED adult female, white pale skin, tousled white hair, combing with same two hands, modestly concealed full cloth body and same bent seated pose, scale, reeds/stream at DUSK",
+    "No generic emitted body aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native inspected: small hunchbacked pale adult woman with tousled hair combing, modest cloth conceals body, same bent pose amid reeds at dusk; all blue emitted hair/body wrapping gone.",
+    "reviewer": "aura-resume-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-117.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected native: small hunched pale woman combing tousled hair beside marsh reeds at dusk, opaque clothes and ordinary water reflections; no body glow."
+  },
+  "attempt_history": [
+    {
+      "slug": "shishiga",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square terrifying painterly naturalistic mythology illustration of SHISHIGA, Russian female swamp/forest spirit. ONE SMALL HUNCHBACKED aged ADULT female being, corpse-WHITE skin, TOUSLED wild hair, crouches among tall reeds at a stream edge at DUSK while combing tangled hair, source Komi river motif. Nonsexual modest presentation: loose opaque pale wrap fully covers chest/pelvis, no exposed torso. Full small figure visible, aged humanlike face deeply uncanny, no invented animal limbs. Clearly luminous white-blue supernatural wisps RADIATE FROM BODY and cast cold glow on water, deadly swamp-apparition aura artistic. No child, victim, attack, wings, horns, extra limbs, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/shishiga.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-fbca858f-70c2-49a3-aa4f-fa9e68b40cf4.png",
+      "depicted_variant": "Small hunchbacked white female swamp spirit, modestly concealed source nude body",
+      "basis_claim_ids": [
+        "shishiga-c01",
+        "shishiga-c02",
+        "shishiga-c03",
+        "shishiga-c06"
+      ],
+      "aura": "terrifying dusk reed-water spirit emitted pale luminescence",
+      "visual_requirements": [
+        "small hunchbacked adult female",
+        "white pale skin, tousled hair",
+        "reeds/stream at dusk, body modestly concealed"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected: small stooped hunchbacked elderly white-skinned woman with wild tousled hair combing at reed-covered water edge at dusk. Body modestly clothed; emits blue-white aura. Concealment/garment artistic for nude source variant."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-117.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Small pale hunchbacked adult woman with tousled hair, modestly concealed body beside reeds and emitted cold blue aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/shishiga-verified.webp",
+      "sha256": "950aaafa916925771d411e2a72a49152eddfc7fba203cdca9e4b98c70cae3e89",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-fff9-76e1-92c1-76bde2aff5e5/exec-bd0ae904-d4e5-4079-bbbc-10b9df617d7b.png",
+  "revision_generator": "aura-resume-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-2",
+    "rationale": "Removed unsupported emitted body effects, preserving source variant, identity and anatomical traits.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "shishiga-c01",
+      "shishiga-c02",
+      "shishiga-c03",
+      "shishiga-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/shishiga.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/shishiga.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

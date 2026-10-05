@@ -135,9 +135,15 @@ node scripts/ingest-cli.mjs "Valkyrie" --publish
 
 Situs publik adalah **situs statis**: `npm run build:site` menyusun `dist/` berisi aplikasi dan seluruh API baca sebagai berkas JSON (`dist/api/…`) yang dihasilkan oleh mesin query yang sama dengan server (`js/query-engine.js`). Di browser, pencarian, filter, pengurutan, halaman, dan pertemuan acak dijalankan atas `dist/api/catalog.json`, dengan hasil yang sama dengan server (`npm run test:static` membuktikannya, lalu menjalankan tes browser yang sama pada situs statis). Konsol redaksi tidak ikut terbit; tambahkan atau setujui entri secara lokal, commit `data/`, lalu push.
 
-1. Buat API token Cloudflare dengan izin **Account · Cloudflare Pages · Edit**, lalu salin **Account ID** dari **Workers & Pages**.
+1. Buat API token Cloudflare dengan izin **Account · Cloudflare Pages · Edit** dan **Account · Workers R2 Storage · Edit**, lalu salin **Account ID** dari **Workers & Pages**.
 2. Di GitHub, buka **Settings → Secrets and variables → Actions**. Isi secret `CLOUDFLARE_API_TOKEN` dan `CLOUDFLARE_ACCOUNT_ID`, serta variable `CLOUDFLARE_PAGES_PROJECT` (misalnya `asadin-mythics`). Opsional: variable `SITE_URL` untuk domain sendiri; tanpa itu dipakai `https://<proyek>.pages.dev`.
 3. Workflow [Deploy](.github/workflows/deploy.yml) berjalan setiap [CI](.github/workflows/ci.yml) lulus di `main`, atau jalankan manual dari tab **Actions**. Sebelum variable diisi, workflow ini dilewati.
+
+Workflow membangun katalog dengan `MYTHICS_PUBLISH=complete MEDIA_BASE=/media`, sehingga hanya entri dengan riset lengkap yang disetujui dan gambar tersedia yang tampil publik. Seluruh ilustrasi aktif yang telah diperiksa tetap diunggah ke R2 `mythics-media`, termasuk gambar untuk entri yang belum memenuhi syarat publik. Unggahan membandingkan hash, memakai empat pekerja, dan menyimpan kemajuan yang berhasil jika terjadi kegagalan. Setelah deploy, setiap ilustrasi R2 diperiksa melalui alamat publik dan dicocokkan dengan hash aset yang disetujui.
+
+Jalankan `npm run test:public` untuk menguji katalog publik dan rute media R2 pada desktop serta ponsel sebelum deploy. Berkas WebP dan catatan JSON pemeriksaan disimpan di Git; PNG native dan contact sheet tetap berada di workspace lokal. Audit native dan galeri yang memakai PNG asli membutuhkan berkas lokal tersebut.
+
+Isi `SITE_URL` dengan alamat yang benar-benar diberikan Cloudflare. Nama proyek `mythics` saat ini memakai `https://mythics-99o.pages.dev`; [Cloudflare tidak menyediakan penggantian langsung subdomain Pages](https://developers.cloudflare.com/pages/platform/known-issues/). Mengganti nama proyek saja tidak mengubah alamat itu.
 
 Tanpa GitHub Actions: `SITE_URL=https://alamat-situs npm run build:site`, lalu `npx wrangler pages deploy dist --project-name <nama>`. `dist/` berisi sekitar 5.400 berkas; unggahan drag-and-drop di dashboard juga bisa, tetapi Wrangler lebih cepat. Pratinjau lokal: `npm run preview:static` (meniru Cloudflare Pages) atau `npm run preview:cloudflare`.
 

@@ -1,0 +1,71 @@
+{
+  "slug": "dormarch",
+  "worker": "worker-0",
+  "prompt": "Use case: stylized-concept. ONE square meticulous painterly naturalistic mythology illustration of DORMARCH, Welsh hound of Annwn. Show exact strange anatomy clearly: ONE handsome canine HEAD with RUDDY RED NOSE, a rounded canine chest, exactly TWO FRONT LEGS, NO hind legs; the chest narrows quickly into a slender rear body that forks into exactly THREE separate FISH-LIKE TAILS, each fan-ended, all three separated and visible. Hound rides through silver clouds haunting rugged Welsh mountain peaks. Full creature comfortably inside frame, pale natural canine coat chosen artistically. Ominous otherworldly soul-guide aura in cold cloudlight and drifting mist, not bodily fire. No owner, corpse, three heads, fourth tail, hind legs, wings, extra limbs, armor, text, watermark, border or collage.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/dormarch.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-e3d87554-70ad-4371-b837-45d3c458f263.png",
+  "depicted_variant": "Single-headed two-front-legged hound with three fish-like tails",
+  "basis_claim_ids": [
+    "dormarch-c01",
+    "dormarch-c03",
+    "dormarch-c04",
+    "dormarch-c05",
+    "dormarch-c12",
+    "dormarch-c18"
+  ],
+  "aura": "Regal alert gaze and uncanny three-tail silhouette above distant mountain clouds.",
+  "visual_requirements": [
+    "Single hound head, ruddy nose, exactly two front legs and three fishlike fan tails",
+    "Retain source mountain-cloud habitat; natural moonlight only, no generic emitted aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected full native original. Single-headed ruddy-nosed hound has two forelegs and three distinct fanlike fish tails, naturally lit above mountain clouds. No energy envelope or luminous particles.",
+    "reviewer": "worker-0"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-120.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected original: one hound head, two forelegs, exactly three fishlike tails; cloud-riding mountain setting source supported, no emission."
+  },
+  "aura_policy_history": [
+    {
+      "aura": "ominous Annwn soul-guide hound riding mountain clouds",
+      "visual_requirements": [
+        "one canine head and exactly two front legs",
+        "body narrows from chest into three separate fish-like tails",
+        "ruddy nose, mountain-cloud setting"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: exactly one handsome canine head with ruddy nose, two front legs and no rear legs; rounded chest tapers into exactly three separated fish-like fan-ended tails. Mountain cloud dwelling and cold spectral mist clear. Pale coat and rendering choices artistic; unusual anatomy and habitat directly source-backed."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: one canine head with reddish nose, two front legs, tapering chest divided into three fish-finned tails, mountain clouds and cold spirit mist; defining unusual source anatomy visible.",
+        "reviewed_at": "2026-10-05"
+      }
+    }
+  ],
+  "aura_revision": {
+    "decision": "keep",
+    "reviewer": "worker-0",
+    "rationale": "Single-headed ruddy-nosed hound has two forelegs and three distinct fanlike fish tails, naturally lit above mountain clouds. No energy envelope or luminous particles.",
+    "allowed_magic": "Riding mountain-top clouds is explicitly source habitat c04/c13; cloud placement retained without emitted body glow.",
+    "source_basis_claim_ids": [
+      "dormarch-c01",
+      "dormarch-c03",
+      "dormarch-c04",
+      "dormarch-c05",
+      "dormarch-c12",
+      "dormarch-c18"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/dormarch.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/dormarch.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

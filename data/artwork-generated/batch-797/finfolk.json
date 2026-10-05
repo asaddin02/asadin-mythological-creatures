@@ -1,0 +1,105 @@
+{
+  "slug": "finfolk",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: precise-object-edit. Edit target: supplied Finfolk artwork. Remove only the cyan magical ribbons circling the woman, luminous dots and floating glowing bubbles, glitter painted on skin, cyan body emission and ground energy loops. Preserve the same adult female face, wet hair, clothing and coverage, walking pose, two human legs, anatomy, scale, composition, crashing ordinary sea waves, Orkney rocks and fog-hidden island. The accepted mythology supports amphibious sea people and an island hidden in magical fog; retain distant island fog but no emitted power around the woman. Create uncanny presence with gaze, seaward posture, dramatic natural storm light and ordinary sea spray. No new objects, characters, magic, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/finfolk-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-20f9825b-7cc4-46e9-8233-e16ae3df430c.png",
+  "review_path": "data/gemini/reviews/batch-120.review.json",
+  "visual_requirements": [
+    "One adult amphibious female with two human legs and existing modest clothing",
+    "Retain rocky Orkney shore and fog-hidden distant island",
+    "No luminous body wrapping, magical motes or ground energy loops"
+  ],
+  "depicted_variant": "Adult female Finfolk after documented tail-to-legs maturity, amphibious shore form; clothes and pearly aura editorial.",
+  "basis_claim_ids": [
+    "finfolk-c07",
+    "finfolk-c09",
+    "finfolk-c10",
+    "finfolk-c13"
+  ],
+  "aura": "Uncanny seaward gaze, adult walking posture, crashing waves and natural storm lighting.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected native edited image: cyan loops and particles gone, same adult identity, pose, two legs, clothing coverage and island fog preserved.",
+    "reviewer": "aura-resume-1"
+  },
+  "reviewed_at": "2026-10-05",
+  "superseded_variants": [
+    {
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-c9700352-0be1-4acc-82e9-4ca8b90c735d.png",
+      "reason": "Aura too ordinary; refined with luminous magic."
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: adult sea woman with legs on surf rocks; natural sea spray and distant island mist retained. No glowing teal body ribbons or skin emission."
+  },
+  "attempt_history": [
+    {
+      "slug": "finfolk",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium painterly naturalistic mythology encyclopedia illustration, use case stylized-concept. ONE ADULT FEMALE FINFOLK of Orkney, amphibious sea person stepping out of cold waves onto a rocky island shore, with TWO HUMAN LEGS, since documented female fish tails divide into legs at maturity. Adult human-shaped face and two arms, modest woven sea-wet clothing, wet hair. Preserve source-compatible adult human form, differentiate by subtle uncanny pearly reflected light and dreamlike presence, not unsupported fish-tail adult, gills or animal anatomy. Hildaland appears beyond through magical sea fog. Silver-blue sea-witch aura, luminous mist and curling waterlight as artistic effects, captivating but unsettling expression, dramatic stormy Orkney coast. Whole figure and feet visible, beautiful detailed face, not generic glamour photo. No child, no nudity, no fins, no wings, no text, no watermark.\nRefinement edit: Edit this mythology illustration preserving exactly the adult female Finfolk, her human face, two human arms, two human legs, clothes, pose, sea shore, and fog-hidden island. ADD UNMISTAKABLE supernatural sea aura: visibly luminous turquoise-silver wisps spiraling around both arms and shoulders, small suspended glowing water particles floating around her body, pale glowing energy ribbon at her feet above waves. Magical emission lights her skin and wet cloth subtly. The creature must read as mythological amphibious sea person, not ordinary seaside woman. Keep source human form; add NO gills, wings, fins, scales or horns. No text or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/finfolk.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-20f9825b-7cc4-46e9-8233-e16ae3df430c.png",
+      "review_path": "data/gemini/reviews/batch-120.review.json",
+      "visual_requirements": [
+        "One adult female amphibious person",
+        "Two human legs after maturity, no adult mermaid tail",
+        "Orkney rocky shore and fog-hidden island",
+        "Uncanny sea aura"
+      ],
+      "depicted_variant": "Adult female Finfolk after documented tail-to-legs maturity, amphibious shore form; clothes and pearly aura editorial.",
+      "basis_claim_ids": [
+        "finfolk-c07",
+        "finfolk-c09",
+        "finfolk-c10",
+        "finfolk-c13"
+      ],
+      "aura": "Visibly luminous silver-blue magical wisps, floating radiant particles and energy ribbons.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected refined native: adult human-shaped woman emerges on rocky sea shore with two arms and mature human legs, sea-wet clothing, magical island beyond; unmistakable luminous turquoise-silver energy wisps coil around shoulders, arms and feet with suspended glowing water particles. No invented fish anatomy."
+      },
+      "reviewed_at": "2026-10-05T02:47:48.807Z",
+      "superseded_variants": [
+        {
+          "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-c9700352-0be1-4acc-82e9-4ca8b90c735d.png",
+          "reason": "Aura too ordinary; refined with luminous magic."
+        }
+      ],
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected refined image: adult female shore spirit with human legs, sea-wet garment and clearly emitted silver-blue energy ribbons/particles, no adult fish tail; source maturity variant preserved.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/finfolk-verified.webp",
+      "sha256": "190730bba4e8d4ebd1e4b7315b74e61d097b5020d220077392657c3af46949ad",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-454ca58a-b295-45c9-b6c5-b62969ffdffa.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Cyan ribbons, floating luminous bubbles and energy circles were unsupported by the accepted amphibious-person claims.",
+    "allowed_magic": "Distant island-hiding fog from finfolk-c07 only; no body emission.",
+    "source_basis_claim_ids": [
+      "finfolk-c07",
+      "finfolk-c09",
+      "finfolk-c10",
+      "finfolk-c13"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/finfolk.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/finfolk.json"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "dosojin",
+  "worker": "worker-3",
+  "prompt": "Use case: historical-scene. ONE square detailed painterly naturalistic encyclopedia illustration of Dosojin, the protective Shinto roadside kami of eastern Japan. Choose the explicitly documented HUMAN COUPLE represented as one small weathered stone guardian carving, not phallic iconography. A single old carved stone stele depicts two human figures, one male and one female, standing close together in simple traditional Japanese robes with gentle composed faces. Both figures are visibly part of the SAME guardian stone relief. The sacred stone rests within a modest small wooden roadside hokora at a rural village boundary near a quiet mountain crossroads. Moss, lichens and natural weathering, soft clean morning light. Convey humble revered protective divinity, marital harmony, blessing and calm safety, not horror or cartoon romance. Central complete shrine stone and carved couple comfortably inside square; realistic painterly stone and wood texture. Invariants: protective kami represented by human couple on stone, roadside village boundary shrine, gentle sacred aura. Avoid living romantic couple scene, royal crowns, Buddhist lotus throne, wings, horns, weapons, phallic carving, nude figures, European angels, modern road signs, text inscriptions, readable lettering, watermark, collage, border.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-a48c8037-df04-400f-a9fd-b7a9dbf94ece.png",
+  "review_path": "data/gemini/reviews/batch-050.review.json",
+  "visual_requirements": [
+    "Human couple in one stone guardian relief",
+    "Traditional modest Japanese robes",
+    "Small roadside hokora",
+    "Village boundary or crossroads",
+    "Reverent protective auspicious aura"
+  ],
+  "depicted_variant": "Human-couple stone representation of protective roadside Shinto kami",
+  "basis_claim_ids": [
+    "dosojin-c01",
+    "dosojin-c03",
+    "dosojin-c04",
+    "dosojin-c05",
+    "dosojin-c07"
+  ],
+  "aura": "Humble revered protection, calm safety and household harmony",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Shrine stone depicts ordinary human couple; no physically nonhuman creature anatomy."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-3.json"
+}

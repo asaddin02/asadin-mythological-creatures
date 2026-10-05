@@ -1,0 +1,89 @@
+{
+  "slug": "joint-eater",
+  "basis_claim_ids": [
+    "joint-eater-c01",
+    "joint-eater-c02",
+    "joint-eater-c05"
+  ],
+  "depicted_variant": "Alp-luachra in newt form beside running stream",
+  "visual_requirements": [
+    "Remove pale-green luminous ribbons, floating magic dots and body envelope. Preserve same natural small newt, four legs, single curled tail, head/eyes, skin pattern, exact size/pose and mossy stream bank. Water/skin natural highlights only. Fairy invisibility/transformation does not imply emitted magic. Presence through watchful amphibian gaze and intimate creek framing.",
+    "No generic emitted wrapping; preserve anatomy and counts"
+  ],
+  "aura": "Watchful small newt on wet stream rock.",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove pale-green luminous ribbons, floating magic dots and body envelope. Preserve same natural small newt, four legs, single curled tail, head/eyes, skin pattern, exact size/pose and mossy stream bank. Water/skin natural highlights only. Fairy invisibility/transformation does not imply emitted magic. Presence through watchful amphibian gaze and intimate creek framing. Preserve original composition, count, exact scale and identity. No added subjects, nudity, gore, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-120.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/joint-eater-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-3c4035dd-8dc1-4bc2-8117-51fbfc445c13.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output actually inspected: same small natural newt, four legs and single curled tail beside creek; pale-green wrapping/dots removed.",
+    "reviewer": "aura-resume-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected native: physical newt with four limbs and curved tail beside stream, wet skin has normal daylight highlights, no luminous aura."
+  },
+  "attempt_history": [
+    {
+      "slug": "joint-eater",
+      "basis_claim_ids": [
+        "joint-eater-c01",
+        "joint-eater-c02",
+        "joint-eater-c05"
+      ],
+      "depicted_variant": "Alp-luachra in newt form beside running stream",
+      "visual_requirements": [
+        "Natural small four-legged newt",
+        "Single tail",
+        "Stream habitat",
+        "No victim"
+      ],
+      "aura": "Clearly emitted silver-green fairy wisps",
+      "prompt": "Depict an Alp-luachra or Joint-eater from Irish folklore in its documented NEWT form, a small natural newt with smooth damp skin, a slender amphibian head, four short legs and ONE long tapering tail. Full animal visible on a wet stone beside a running Irish woodland stream; grasses and moss establish its small natural size. No human head, horns, wings, extra legs, dragon teeth or monster anatomy. Bright unmistakably supernatural silver-green luminous wisps and magical particles visibly stream from its skin and surround its little body, identifying a mythological fairy transformed into a newt. Uncanny threatening expression and haunted river mood, no sleeping person, mouth entry, feeding or victim. Square premium highly detailed painterly mythological encyclopedia artwork, coherent anatomy, full identifying silhouette visible, emitted supernatural aura. No text, caption, border, watermark, gore, victims or sexual elements.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-120.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/joint-eater.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-3c4035dd-8dc1-4bc2-8117-51fbfc445c13.png",
+      "reviewed_at": "2026-10-05T04:20:32.750Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: natural small four-legged newt with one tail and smooth damp skin beside stream, silver-green emitted fairy aura; no invented humanoid or dragon anatomy."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Small coherent four-legged newt with single tail at stream, no victim, clearly emitted green spectral aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/joint-eater-verified.webp",
+      "sha256": "5f3fec3d35887cc6799b34f0b3a26afd305ac0992c6b6956ceef8bdc7c050b43",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-67248dc5-b87c-42d7-acc3-acdc0e8b5ac1.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Newt manifestation has no documented emitted light.",
+    "allowed_magic": "none beyond documented manifestation",
+    "source_basis_claim_ids": [
+      "joint-eater-c01",
+      "joint-eater-c02",
+      "joint-eater-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/joint-eater.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/joint-eater.json"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "bai-baianai",
+  "basis_claim_ids": [
+    "bai-baianai-c01",
+    "bai-baianai-c08",
+    "bai-baianai-c09"
+  ],
+  "depicted_variant": "Jolly old male Yakut forest patron rich in furs",
+  "visual_requirements": [
+    "Old male variant with jolly expression",
+    "Rich fur clothing",
+    "Natural human anatomy and same forest/offerings",
+    "Character presence through pose, framing, atmosphere and scene lighting; no generic emitted aura"
+  ],
+  "aura": "Majestic benevolent forest patron through jolly expression, abundant textured furs, warm sunset and natural offering-fire light.",
+  "prompt": "Use case: precise-object-edit / lighting-weather. Edit the supplied mythology artwork. Remove ONLY unsupported visual effects: all generic glowing envelopes, neon body outlines, colored energy ribbons, magical motes/particles, luminous colored fog, swirling aura, and glowing eye bulbs. Do not replace them with other magic. Preserve the SAME individual creature, body anatomy, count of eyes/limbs/heads, exact scale, pose, framing, clothing coverage, props, setting and painterly quality. Source invariants: Old male variant with jolly expression; Rich fur clothing; Natural human anatomy and same forest/offerings. Character presence instead: Majestic benevolent forest patron through jolly expression, abundant textured furs, warm sunset and natural offering-fire light.. Restore clean natural textures where effects were removed, ordinary reflected light and realistic shadows.  No new characters or anatomical embellishments, no nudity or gore, no text, watermark or border.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-137.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/bai-baianai-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-01c036f6-62c3-4746-8339-1131669029a3.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output inspected: luminous envelope and eye bulbs removed; jolly fur-clad male form, forest, staff and ordinary offering fire retained, sunset warmth carries majesty.",
+    "reviewer": "worker-2"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: jovial fur-clad old forest man with offering campfire in snow. Natural sunset/firelight, no emitted golden filaments."
+  },
+  "attempt_history": [
+    {
+      "slug": "bai-baianai",
+      "basis_claim_ids": [
+        "bai-baianai-c01",
+        "bai-baianai-c08",
+        "bai-baianai-c09"
+      ],
+      "depicted_variant": "Jolly old male Yakut forest patron rich in furs",
+      "visual_requirements": [
+        "Old male forest spirit",
+        "Jolly expression",
+        "Rich fur clothing",
+        "Single male variant, not combined goddess"
+      ],
+      "aura": "Amber-green emitted guardian energy",
+      "prompt": "Depict Bai Baianai using the specifically documented OLD MAN variant, the jolly noisy forest patron rich in furs. An elderly adult male with a joyful broad expression, fully clothed in abundant layered warm fur garments suitable for the Yakut forest, two human arms and legs, no horns, antlers, wings or animal limbs. Standing full-body beside Siberian larch and birch trees near a small offering fire. Face subtly uncanny with luminous amber eyes and warm inner light, clearly emitted amber-green magical wisps and sparkling energy radiate from his fur-clad body throughout the forest. Powerful protective guardian atmosphere, no hunt victims, no combined female goddess anatomy. Square premium detailed painterly mythology encyclopedia illustration, one coherent full-body entity, clear source anatomy and emitted magical aura. No text, captions, borders, watermark, gore, exposed organs or victims.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-137.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/bai-baianai.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-01c036f6-62c3-4746-8339-1131669029a3.png",
+      "reviewed_at": "2026-10-05T04:13:32.771Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: source-supported male variant only, jolly old man rich in layered fur clothing in Siberian forest, uncanny luminous eyes and strong emitted amber-green guardian wisps."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Single jolly old male forest-spirit variant in rich fur clothing, human anatomy and emitted gold-green aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/bai-baianai-verified.webp",
+      "sha256": "7e0c654d013cdb9834491f72fc29ff51398c3031bb73d9c6f11f615fdcebbbd7",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-c4fabc76-fce2-4742-af74-4abddf7060a3.png",
+  "revision_generator": "worker-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-2",
+    "rationale": "Yellow-green luminous envelope and bright glowing eyes surround fur-clad old man, unsupported by documented patron form.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "bai-baianai-c01",
+      "bai-baianai-c08",
+      "bai-baianai-c09"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/bai-baianai.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/bai-baianai.json"
+  }
+}

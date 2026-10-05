@@ -1,0 +1,31 @@
+{
+  "slug": "shikigami",
+  "worker": "worker-3",
+  "prompt": "Use case: historical-scene. ONE square detailed painterly naturalistic encyclopedia illustration of a Shikigami, choosing the documented young-man familiar-spirit form of Japanese Onmyodo, rather than modern anime paper creature imagery. One youthful adult Japanese male spirit kneels attentively in a dim traditional Heian room, wearing simple pale layered period robes, black hair tied neatly. Normal human anatomy and calm attentive face. His outline is subtly translucent in drifting incense haze to suggest an invoked kami familiar; no monstrous additions. A small circular cosmographic divination board rests nearby, depicted without legible writing, supporting its traditional invocation in magic and divination. Quiet disciplined supernatural presence, restrained reverent mystery and soft cool lantern light, neither evil monster nor grand king. Central full young-man spirit clearly identifiable comfortably inside frame, realistic painterly detail. Invariants: one young humanlike male familiar spirit, Japanese Onmyodo context, attentive servant aura; form is one documented variant, not universal. Avoid paper talisman anatomy, fox mask, invented animal species, horns, wings, magical weapons, crown, armor, giant demon form, nudity, violent horror, modern clothes, extra figures, text, symbols with legible lettering, watermark, border, collage.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-9435b420-2a4c-46ef-99d4-290c88684200.png",
+  "review_path": "data/gemini/reviews/batch-049.review.json",
+  "visual_requirements": [
+    "Young-man familiar-spirit variant",
+    "Normal humanlike anatomy",
+    "Attentive dutiful presence",
+    "Traditional Onmyodo divination context",
+    "No invented monster or paper body"
+  ],
+  "depicted_variant": "Young humanlike male familiar spirit, one of the diverse forms described by Kokugakuin Encyclopedia of Shinto",
+  "basis_claim_ids": [
+    "shikigami-c01",
+    "shikigami-c03",
+    "shikigami-c04",
+    "shikigami-c05",
+    "shikigami-c06"
+  ],
+  "aura": "Quiet attentive supernatural service and reverent mystery",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-3.json"
+}

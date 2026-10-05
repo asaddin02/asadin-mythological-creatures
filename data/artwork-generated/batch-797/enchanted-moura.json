@@ -1,0 +1,95 @@
+{
+  "slug": "enchanted-moura",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit / lighting-weather. Edit the supplied mythology artwork. Remove ONLY unsupported visual effects: all generic glowing envelopes, neon body outlines, colored energy ribbons, magical motes/particles, luminous colored fog, swirling aura, and glowing eye bulbs. Do not replace them with other magic. Preserve the SAME individual creature, body anatomy, count of eyes/limbs/heads, exact scale, pose, framing, clothing coverage, props, setting and painterly quality. Source invariants: Beautiful adult humanlike maiden; Long golden hair and golden comb; Cave/treasure staging and modest gown. Character presence instead: Spellbound enigmatic guardian through quiet combing pose, sunset on golden hair, cave threshold shadows and ordinary treasure highlights.. Restore clean natural textures where effects were removed, ordinary reflected light and realistic shadows.  No new characters or anatomical embellishments, no nudity or gore, no text, watermark or border.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/enchanted-moura-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-fc89a4f5-01c8-4a43-bd31-f1cf72e68924.png",
+  "depicted_variant": "Long golden-haired adult enchanted treasure-guardian maiden with golden comb",
+  "basis_claim_ids": [
+    "enchanted-moura-c01",
+    "enchanted-moura-c02",
+    "enchanted-moura-c03",
+    "enchanted-moura-c04",
+    "enchanted-moura-c05"
+  ],
+  "aura": "Spellbound enigmatic guardian through quiet combing pose, sunset on golden hair, cave threshold shadows and ordinary treasure highlights.",
+  "visual_requirements": [
+    "Beautiful adult humanlike maiden",
+    "Long golden hair and golden comb",
+    "Cave/treasure staging and modest gown",
+    "Character presence through pose, framing, atmosphere and scene lighting; no generic emitted aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output inspected: luminous hair/body spirals removed, same golden hair/golden comb, adult modest gown/cave treasure preserved, sunset highlights natural.",
+    "reviewer": "worker-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-129.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: long golden-haired maiden with physical golden comb by cave treasure at sunset. Hair/coins naturally reflect warm scene light, no floating magic."
+  },
+  "attempt_history": [
+    {
+      "slug": "enchanted-moura",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square exquisite painterly naturalistic mythology illustration of MOURA ENCANTADA, Portuguese/Galician enchanted treasure-guardian maiden. ONE beautiful ADULT humanlike woman with very LONG GOLDEN HAIR, singing quietly while combing it with a clearly GOLDEN COMB, wearing modest long opaque ivory dress. Full figure beside old stone cave entrance and a small partly hidden ancient treasure chest, liminal twilight setting. Preserve source human form and natural face, subtly numinous imprisoned expression. Clearly luminous GOLD supernatural wisps RADIATE FROM BODY AND COMB, casting enchantment light on stones and treasure. No snake form mixture, wings, horns, extra limbs, nudity, victim, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/enchanted-moura.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-fc89a4f5-01c8-4a43-bd31-f1cf72e68924.png",
+      "depicted_variant": "Long golden-haired adult enchanted treasure-guardian maiden with golden comb",
+      "basis_claim_ids": [
+        "enchanted-moura-c01",
+        "enchanted-moura-c02",
+        "enchanted-moura-c03",
+        "enchanted-moura-c04",
+        "enchanted-moura-c05"
+      ],
+      "aura": "ancient cursed treasure-guardian emitted gold enchantment",
+      "visual_requirements": [
+        "adult beautiful humanlike maiden",
+        "long golden hair and golden comb",
+        "liminal cave/treasure setting, no shapeshifting mixture"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected the native generated image. Source variant morphology, garments and setting agree with cited claims. Emitted supernatural wisps are visible; lighting, composition and aura are artistic interpretation."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-129.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Beautiful clothed adult maiden with long golden hair and visible golden comb, cave treasure and emitted gold wisps.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/enchanted-moura-verified.webp",
+      "sha256": "e7cec4a4aa50c3bde41e5621b33a5f1823b6969e8e87809eb7939bc1472f9ca3",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-25c9c7d7-e228-436d-9d84-e5d92c27ba72.png",
+  "revision_generator": "worker-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-2",
+    "rationale": "Gold spirals and sparkling hair/body envelope unsupported by golden-haired treasure maiden source.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "enchanted-moura-c01",
+      "enchanted-moura-c02",
+      "enchanted-moura-c03",
+      "enchanted-moura-c04",
+      "enchanted-moura-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/enchanted-moura.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/enchanted-moura.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

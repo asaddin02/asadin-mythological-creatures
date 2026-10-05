@@ -1,0 +1,87 @@
+{
+  "slug": "coco-folklore",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Remove ONLY unsupported effects: all luminous green body smoke, wisps, neon edges and magical wrapping. Preserve exactly same ONE female Cuca literary variant with alligator face and clawed fingers, dark hooded modest full dress, no blonde TV hair, same proportions, pose, scale, doorway and moonlit village, framing, painterly quality and clothing coverage. Character presence through threatening reptilian gaze and claws in dark nighttime doorway. Restore natural textures, reflected moonlight, shadows, only ordinary nonluminous distant mist. No generic emitted aura, new anatomy, additional characters, gore, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/coco-folklore-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-273803c7-3e57-4f11-a309-a747e0f13c37.png",
+  "depicted_variant": "Monteiro Lobato1921 literary Cuca with alligator face and clawed fingers; excludes1952 blonde TV styling",
+  "basis_claim_ids": [
+    "coco-folklore-c01",
+    "coco-folklore-c02",
+    "coco-folklore-c05"
+  ],
+  "aura": "threatening reptilian gaze and claws in dark nighttime doorway",
+  "visual_requirements": [
+    "same ONE female Cuca literary variant with alligator face and clawed fingers, dark hooded modest full dress, no blonde TV hair, same proportions, pose, scale, doorway and moonlit village",
+    "No generic emitted body aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native inspected: one dark-robed hooded female Cuca with alligator face and clawed fingers, no blonde TV variant; green emitted envelope removed, natural doorway shadows.",
+    "reviewer": "aura-resume-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-128.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: selected adult Cuca with alligator face and clawed fingers under dark concealing robe. Same physical scales and night doorway; green luminous halo removed."
+  },
+  "attempt_history": [
+    {
+      "slug": "coco-folklore",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square terrifying detailed painterly naturalistic mythology encyclopedia illustration of COCO / CUCA, explicitly selecting the SOURCE-ATTESTED1921 Monteiro Lobato literary Cuca form: ONE female humanoid monster with an ALLIGATOR FACE and long CLAWED FINGERS, modest plain dark draped dress. Do not copy1952 blonde TV alligator styling or pretend this is generic shapeless Iberian Coco. Full figure stands outside a dark old doorway at night. Two arms, two legs, one reptilian alligator face; no full quadrupedal alligator. Clearly luminous sickly grey-green spectral wisps RADIATE FROM BODY, terrifying bogeywoman aura, no children or victims. Hair color/details unspecified: dark hood conceals scalp. No wings, horns, cartoon clothing, gore, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/coco-folklore.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-273803c7-3e57-4f11-a309-a747e0f13c37.png",
+      "depicted_variant": "Monteiro Lobato1921 literary Cuca with alligator face and clawed fingers; excludes1952 blonde TV styling",
+      "basis_claim_ids": [
+        "coco-folklore-c01",
+        "coco-folklore-c02",
+        "coco-folklore-c05"
+      ],
+      "aura": "terrifying night bogeywoman",
+      "visual_requirements": [
+        "female Cuca with alligator face and clawed fingers",
+        "no blonde1952 TV styling",
+        "literary variant explicitly attributed"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: hooded adult female humanoid with true alligator face and clawed fingers in plain dark modest dress by doorway; scalp concealed, no blonde television Cuca styling. Emitted green-grey spectral vapor creates frightening aura. Explicitly1921 Lobato literary appearance, not shapeless generic Iberian Coco. Scaled limbs/robe details artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-128.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Selected1921Cuca literary variant: female alligator-faced witch with clawed hands and emitted green aura inspected; no blonde TV styling.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/coco-folklore-verified.webp",
+      "sha256": "2efb9043a7182709b2b6bf2b0a6a0d6fef6e8abc91ce76176409aa5e20b5089d",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-fff9-76e1-92c1-76bde2aff5e5/exec-6a12a5b5-792a-45a2-8cff-e5730350e2f4.png",
+  "revision_generator": "aura-resume-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-2",
+    "rationale": "Unsupported emitted body wrapping removed; source variant and trait counts preserved.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "coco-folklore-c01",
+      "coco-folklore-c02",
+      "coco-folklore-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/coco-folklore.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/coco-folklore.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

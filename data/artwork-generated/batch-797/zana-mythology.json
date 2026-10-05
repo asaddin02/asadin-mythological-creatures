@@ -1,0 +1,91 @@
+{
+  "slug": "zana-mythology",
+  "basis_claim_ids": [
+    "zana-mythology-c01",
+    "zana-mythology-c04",
+    "zana-mythology-c05",
+    "zana-mythology-c07"
+  ],
+  "depicted_variant": "Albanian Zana as adult maiden by mountain stream with three golden-horned wild goats",
+  "visual_requirements": [
+    "Beautiful ADULT maiden fully covered modest white dress; EXACTLY THREE wild goats with physical GOLDEN HORNS, no extra goats.",
+    "Character presence through pose/framing/natural light; no generic emitted aura."
+  ],
+  "aura": "Serene adult maiden authority in naturally lit mountain stream scene.",
+  "prompt": "Edit this existing artwork: change aura to CHARACTER PRESENCE. Remove all generic emitted halos, luminous outlines, energy ribbons, glowing particles, colored luminous fog and swirling light around body and environment. No replacement white magic/fireflies. Natural light and ordinary NON-luminous weather only. Presence: Serene adult maiden authority in naturally lit mountain stream scene. Preserve anatomy, counts, scale, pose, subject, scene, modest adult clothing and style. Critical invariants: Beautiful ADULT maiden fully covered modest white dress; EXACTLY THREE wild goats with physical GOLDEN HORNS, no extra goats. No text/watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-123.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/zana-mythology-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-ffe55fdf-bc4a-42c8-bb68-3bbb91c34a6a.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actual new image inspected in five-image contact sheet. Generic luminous effects removed. Tiddy Mun retains ordinary low fen fog; Trauco has footless rounded stumps; Vedmak clean shaven with small tail; Vishap continuous legless serpent with two wings; Zana exactly three golden-horned goats. Anatomy, scale and modest clothing preserved.",
+    "reviewer": "worker-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: mountain maiden and exactly three golden-horned goats by waterfall. Physical golden materials, no light envelope, particles or magical wisps."
+  },
+  "attempt_history": [
+    {
+      "slug": "zana-mythology",
+      "basis_claim_ids": [
+        "zana-mythology-c01",
+        "zana-mythology-c04",
+        "zana-mythology-c05",
+        "zana-mythology-c07"
+      ],
+      "depicted_variant": "Albanian Zana as adult maiden by mountain stream with three golden-horned wild goats",
+      "visual_requirements": [
+        "Beautiful adult humanlike female spirit in modest cloth",
+        "Exactly three wild goats with golden horns",
+        "Luminous numinous mountain-stream aura"
+      ],
+      "aura": "Bright silver-green emitted fairy wisps and golden glints around goat horns",
+      "prompt": "The ALBANIAN ZANA, one extraordinarily beautiful ADULT woman-shaped mountain spirit beside a clear mountain stream, fully modestly clothed in opaque pale woven robes as artistic modesty treatment. EXACTLY THREE distinct wild GOATS accompany her; each goat's HORNS are visibly GOLDEN. All three complete goat silhouettes visible and separate, no extra goats. Strong silver-green luminous fairy wisps emit from her body and swirl above water; suspended magical particles and golden horn gleams create a numinous brave protective mountain aura. Calm powerful gaze and readable human anatomy, forested Albanian peaks. No butterfly wings, horns on woman, fangs, animal feet, nudity or people turned to stone. ONE square premium detailed painterly mythology encyclopedia image, whole identifying subject inside frame. No text, watermark, border, gore or victims.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-123.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/zana-mythology.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-ffe55fdf-bc4a-42c8-bb68-3bbb91c34a6a.png",
+      "reviewed_at": "2026-10-05T03:17:30.011Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: fully clothed adult mountain fairy beside exactly three wild goats with golden horns, surrounded by silver-green supernatural wisps; no invented wings or horns on the woman."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Beautiful clothed adult female spirit and exactly three goats counted, all with golden horns, emitted pearlescent woodland aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/zana-mythology-verified.webp",
+      "sha256": "41243c19e045b2ccdf2789be1f777c28b39fe63145d59bcf140f7fa3b78f2eb0",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-1dc1bd3f-6204-49bd-872a-879361c86233.png",
+  "revision_generator": "worker-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-1",
+    "rationale": "White-green ribbons and particles surround maiden and goats; source physical golden horns are not energy.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "zana-mythology-c01",
+      "zana-mythology-c04",
+      "zana-mythology-c05",
+      "zana-mythology-c07"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/zana-mythology.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/zana-mythology.json"
+  }
+}

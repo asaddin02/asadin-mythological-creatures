@@ -1,0 +1,29 @@
+{
+  "slug": "shubin-ghost",
+  "reviewer": "finish_aura_b",
+  "decision": "revise",
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-d7a6d1bc-fe0d-4755-bf51-629f836d93d5.png",
+  "rationale": "The source supports the torch and burning firedamp, but does not support a blue/gold body envelope.",
+  "allowed_magic": "Torch flame and natural torch smoke only; no emitted body aura.",
+  "aura": "Watchful mine guardian presence through alert gaze, sturdy standing pose, low camera and torchlit tunnel shadows.",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove only unsupported blue/gold magical ribbons and emitted body envelope. Preserve actual torch flame, its warm illumination and smoke, same middle-aged human miner with fur coat, face, torch hand, exact standing pose/count/scale and Donbas mine. Source supports torch burning firedamp; if any gas flame remains it must be tiny localized flame near torch, NOT body-wrapping blue fire. Presence through watchful miner posture and torchlit tunnel. Preserve original composition, count, exact scale and identity. No added subjects, nudity, gore, text or watermark.",
+  "visual_requirements": [
+    "Middle-aged human miner wearing heavy fur coat and holding actual lit torch.",
+    "Preserve human anatomy, exact face, pose, clothes, scale and Donbas mine.",
+    "Remove body-wrapping blue/gold wisps; retain actual torch flame and light."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected source and recovered native edit: blue/gold body-emitted ribbons are removed; the same watchful middle-aged human miner, heavy fur coat, hands, torch and standing pose are retained. Amber highlights follow real torchlight; cool coal reflections are surface lighting without glowing ribbons."
+  },
+  "recovered_from_session": "rollout-2026-10-05T14-44-48-01a10b05-be4c-74c0-8109-513d2abf724e.jsonl",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/shubin-ghost.png",
+  "source_basis_claim_ids": [
+    "shubin-ghost-c01",
+    "shubin-ghost-c02",
+    "shubin-ghost-c05"
+  ],
+  "status": "reviewed",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/aura-revision-797/originals/shubin-ghost.png",
+  "tool": "OpenAI built-in image_gen"
+}

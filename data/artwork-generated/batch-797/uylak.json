@@ -1,0 +1,91 @@
+{
+  "slug": "uylak",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: lighting-weather. Input image is EDIT TARGET. Remove ALL green luminous vapor, energy ribbons, neon outline, glowing particles and self-emitting green eyes around this hound. Render ordinary canine eyes with tiny moonlight reflection and solid dark natural fur. Preserve EXACT single adult hound breed, face, snarl, four canine legs, tail, size, stance, muddy road, trees, moon, camera and square composition. Replace removed glow with normal road darkness and colorless low atmospheric mist; silver natural moonlight only. Menacing presence through tense stance, teeth, direct gaze and desolate road. Same painterly naturalistic detail. No horns, wings, extra limbs, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/uylak-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-32a8e621-a5f4-4ba3-84f4-8d5a008609a5.png",
+  "review_path": "data/gemini/reviews/batch-137.review.json",
+  "visual_requirements": [
+    "One adult hound form",
+    "Coherent four-legged canine anatomy",
+    "Desolate road haunting",
+    "Natural eyes, solid fur and moonlight; no luminous green aura"
+  ],
+  "depicted_variant": "Uylak malevolent desolate-road hound shapeshift, no unsupported demon anatomy.",
+  "basis_claim_ids": [
+    "uylak-c02",
+    "uylak-c03",
+    "uylak-c04"
+  ],
+  "aura": "Malevolent presence through snarling adult hound, tense forward stance, direct stare and isolated moonlit road.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected revised native: same snarling hound with four legs, tail and solid patterned fur; ordinary eyes, desolate road, gray low mist and moonlight replace all green energy.",
+    "reviewer": "aura-resume-0"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: solid ominous hound form on empty muddy lane, natural dark eyes/teeth and normal moon highlights. No blue fog envelope or energy ribbons."
+  },
+  "attempt_history": [
+    {
+      "slug": "uylak",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Chuvash folklore mythology artwork, stylized-concept. One UYLAK in expressly documented HOUND SHAPESHIFT form, terrifying spectral adult hunting hound standing on a desolate old road at night. One coherent canine body, one dog head, four legs, dog tail, ordinary hound anatomy remains unchanged, no demonic horns or wings or extra heads. Naturalistic tense hound face, predatory bared teeth with no gore. Strong luminous sickly green supernatural wisps visibly radiate around dog silhouette and curl over road, suspended embers, wavering spectral rear edge show shapeshifter rather than ordinary dog. Malevolent haunting, extremely ominous dark deserted road, distant skeletal trees and cold fog, exquisite coat and eyes. Exact coat breed/colors editorial, sourced form hound. No human victims, no text, no watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/uylak.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-32a8e621-a5f4-4ba3-84f4-8d5a008609a5.png",
+      "review_path": "data/gemini/reviews/batch-137.review.json",
+      "visual_requirements": [
+        "One adult hound form",
+        "Coherent four-legged canine anatomy",
+        "Desolate road haunting",
+        "Clearly visible malevolent spectral aura"
+      ],
+      "depicted_variant": "Uylak malevolent desolate-road hound shapeshift, no unsupported demon anatomy.",
+      "basis_claim_ids": [
+        "uylak-c02",
+        "uylak-c03",
+        "uylak-c04"
+      ],
+      "aura": "Luminous sickly green spectral wisps, suspended embers and wavering edges.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: One coherent adult hound with four canine legs, dog head/tail, bared teeth, desolate road and strong luminous green spectral body wisps. No unsupported demon appendages. Aura, costume and exact surface detail are editorial; anatomy/variant and setting traced to listed claims."
+      },
+      "reviewed_at": "2026-10-05T02:57:33.756Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: coherent adult hound with canine legs/head/tail on desolate road, clear sickly green emitted magic aura; source shapeshift form, no added demon anatomy.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/uylak-verified.webp",
+      "sha256": "dbb91e955e57d95350beefff01e4ab9f179a4ac68b50352fd53cefa264dbf49c",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-293d7f43-2707-431f-98a4-32c71dea63ac.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Original inspected: hound covered by unsupported green luminous body fog, neon eyes, ribbons and particles. Removed while preserving hound shapeshift.",
+    "allowed_magic": "none; shapeshifting identity does not establish continuous luminous envelope.",
+    "source_basis_claim_ids": [
+      "uylak-c02",
+      "uylak-c03",
+      "uylak-c04"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/uylak.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/uylak.json"
+  }
+}

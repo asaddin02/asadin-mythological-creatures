@@ -1,0 +1,85 @@
+{
+  "slug": "saci-folklore",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: lighting-weather. Input image is EDIT TARGET. Edit ONLY the unsupported magical lighting and vapor described below. Preserve exact character identity, face, pose, anatomy and limb counts, size, framing, fully modest opaque clothing and all environment details. Natural scene illumination only. No text or watermark. Remove red-orange neon energy loops and spark particles including the cap's emitted tail; retain physically visible brown dust-devil with ordinary airborne leaves, soil and pipe smoke, source-backed c02. Preserve dark-skinned goblin-like adult, EXACTLY ONE leg and foot, two arms, pipe, red cap, red opaque shorts and lively pose.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/saci-folklore-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-42efccec-053e-4b23-a2ca-2e2d4420fb7d.png",
+  "review_path": "data/gemini/reviews/batch-143.review.json",
+  "visual_requirements": [
+    "Exactly one leg and foot",
+    "Dark-skinned goblin-like adult",
+    "Red magic cap and pipe",
+    "Source brown dust devil, no red luminous energy"
+  ],
+  "depicted_variant": "Saci's documented dark-skinned one-legged red-cap pipe-smoking dust-devil form; clothing and aura editorial.",
+  "basis_claim_ids": [
+    "saci-folklore-c02"
+  ],
+  "aura": "Mischievous presence through smile, pipe, red cap, single-legged motion and documented dust-devil.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected native output: Single leg, two arms, pipe, cap and red shorts preserved; ordinary dust, soil and leaves swirl naturally, all red neon trails gone.",
+    "reviewer": "aura-resume-0"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: one-legged black-skinned adult goblin with red cap and pipe in physical dust devil. Dust/leaves and pipe smoke source-consistent, red emitted filaments removed."
+  },
+  "attempt_history": [
+    {
+      "slug": "saci-folklore",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Brazilian folklore mythology artwork, stylized-concept. ONE SACI, source-described BLACK-SKINNED GOBLIN-LIKE ONE-LEGGED BEING with MAGIC RED CAP, smoking a small pipe, mischievous grin, caught within a DUST DEVIL. Exactly ONE LEG and ONE FOOT visible, coherent torso and two arms, red cap unmistakable, dark skin and slightly goblin-like stylized features while respectful naturalistic rendering. Simple modest rustic clothing is editorial. Whole single-legged silhouette readable mid-hop in swirling rural Brazilian woodland dust. Unmistakably luminous amber-red magical wisps and sparks spiral through dust around him, supernatural vanish shimmer at outline, lively trickster aura. Detailed soil, leaves, cap and pipe. No second leg hidden or attached, no extra arms, no horn, no wings, no stereotyping caricature, no text or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/saci-folklore.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-42efccec-053e-4b23-a2ca-2e2d4420fb7d.png",
+      "review_path": "data/gemini/reviews/batch-143.review.json",
+      "visual_requirements": [
+        "Exactly one leg and foot",
+        "Black skin goblin-like being",
+        "Red magic cap and pipe",
+        "Dust-devil supernatural aura"
+      ],
+      "depicted_variant": "Saci's documented dark-skinned one-legged red-cap pipe-smoking dust-devil form; clothing and aura editorial.",
+      "basis_claim_ids": [
+        "saci-folklore-c02"
+      ],
+      "aura": "Amber-red luminous dust-devil spiral, sparks and vanishing shimmer.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: Exactly one leg and one foot; dark-skinned goblin-like being with two arms, red cap and smoking pipe, dust-devil spiral threaded with luminous amber-red magic. No second leg. Aura, costume and exact surface detail are editorial; anatomy/variant and setting traced to listed claims."
+      },
+      "reviewed_at": "2026-10-05T02:57:34.638Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: one-legged dark-skinned mischievous being with red cap and pipe, exactly one visible foot and no extra leg, emitted amber-red dust-devil magic; source defining form retained.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/saci-folklore-verified.webp",
+      "sha256": "a8477202174ab624632a0ae75dd0485973ac73f5f835b8b6e5dc21054ebb0c30",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-f09b1296-eb52-4245-853c-83f0cb945bf3.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Red-orange neon loops and emitted cap sparks removed; source dust-devil retained as physical brown dust and airborne leaves.",
+    "allowed_magic": "Source c02 dust-devil appearance and vanishing allowed; no emitted red energy.",
+    "source_basis_claim_ids": [
+      "saci-folklore-c02"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/saci-folklore.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/saci-folklore.json"
+  }
+}

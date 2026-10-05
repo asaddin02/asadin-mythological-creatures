@@ -1,0 +1,89 @@
+{
+  "slug": "polevik",
+  "worker": "worker-0",
+  "prompt": "Use case: lighting-weather. Image is EDIT TARGET. Remove unsupported magical lighting only; preserve exact identity, face, expression, pose, coherent anatomy and counts, source size, modest opaque clothing, setting, camera and square framing. No text/watermark. Remove entire yellow-green body outline, luminous grass threads and looping energy. Preserve deformed humanlike field spirit with TWO DIFFERENT-COLOURED EYES, grass for hair, ALL-WHITE suit in noon field. Ordinary sunlit grass and wind. Source c07 permits a FEW small isolated restrained sparks near grass, not bright starburst, no emitted eye glow or continuous body envelope.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/polevik-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-a1bef8c6-9c9d-4ab7-99cb-30f43a1d0a7d.png",
+  "depicted_variant": "Deformed humanlike field spirit with different-coloured eyes and grass hair in all-white suit",
+  "basis_claim_ids": [
+    "polevik-c01",
+    "polevik-c04",
+    "polevik-c07"
+  ],
+  "aura": "Field-spirit presence through deformed face, mismatched eyes, grass hair and wind across noon field.",
+  "visual_requirements": [
+    "Different-coloured physical eyes",
+    "Grass instead of hair",
+    "All-white suit at noon",
+    "No continuous emitted outline or energy threads"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected revised native contact: Deformed humanoid with golden/blue mismatched eyes, grass hair and all-white suit in wheat remains; neon threads and outline gone.",
+    "reviewer": "aura-resume-0"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-121.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected selected native preview: deformed humanlike field spirit, grass hair, differently coloured eyes and all-white suit in windblown field; natural daylight without green-gold envelope or emitted threads."
+  },
+  "attempt_history": [
+    {
+      "slug": "polevik",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square exquisite high-detail painterly naturalistic cinematic mythology encyclopedia illustration. POLEVIK, East Slavic field spirit. ONE deformed ADULT HUMANLIKE FIELDMASTER with visibly DIFFERENT-COLOURED EYES (one amber one blue), GRASS BLADES growing instead of hair, restrained uneven stoopedposture and asymmetrical wrinkledface, dressed entirely in opaque WHITE old rural suit. Stands fullfigure among wheat at NOON, harsh sunlight with threatening unnatural wind. Source hair/eyes are highestpriority. Clearly luminous green-gold wisps and SPARKS RADIATE FROM BODY and grasshair, light grain aroundhim even atnoon, hostile numinous fieldaura. No horns, wings, animalhead, inventedextra limbs, victims or horses. No text, watermark, border, collage or labels.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/polevik.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-a1bef8c6-9c9d-4ab7-99cb-30f43a1d0a7d.png",
+      "depicted_variant": "Deformed humanlike field spirit with different-coloured eyes and grass hair in all-white suit",
+      "basis_claim_ids": [
+        "polevik-c01",
+        "polevik-c04",
+        "polevik-c07"
+      ],
+      "aura": "hostile noon field spirit emitted green fire sparks",
+      "visual_requirements": [
+        "differentcolouredeyes",
+        "grass insteadofhair",
+        "allwhitesuit atnoon"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected native: deformed stooped humanlike field spirit, grass growing instead of hair, one amber and one blue eye visibly different, all-white clothes in noon grain field. Emitted green-gold wisps/sparks visible; no extra anatomy."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-121.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Different-coloured eyes visible, living grass hair and all-white suit in midday field, emitted gold-green wisps.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/polevik-verified.webp",
+      "sha256": "531533efa51d8ed44334bf89ecb7220021553ead5fd60d2b56933637c637248a",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-33fcd562-38da-4e1b-9e55-b74dea413907.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Excessive continuous green-gold body envelope and luminous grass threads removed; source grass hair and different eyes retained.",
+    "allowed_magic": "c07 permits wind and occasional sparks/lights; new output shows ordinary windy grass without excessive effects.",
+    "source_basis_claim_ids": [
+      "polevik-c01",
+      "polevik-c04",
+      "polevik-c07"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/polevik.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/polevik.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "trasgu",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Remove ONLY unsupported effects: all red-orange emitted ribbons, glowing outline, magical motes and luminous footprints; millet remains ordinary nonluminous grain, palm hole must remain anatomical opening without emitting light. Preserve exactly same ONE tiny dark-skinned adult humanlike goblin, red clothes and pointed red hat, HOLE IN LEFT PALM with millet falling through it, right leg limp/raised, cane held in right hand, same small scale beside large stool, pose and household night setting, framing and painterly detail. Character presence through mischievous old face, limping stance and ordinary fireplace-lit household. Natural light, shadows and textures, no generic emitted aura, new anatomy, extra characters, nudity, gore, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/trasgu-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-8bdb32eb-0dce-4643-aeaa-b49b9803d3cf.png",
+  "depicted_variant": "Tiny dark-skinned red-clothed limping house goblin with hole in left hand",
+  "basis_claim_ids": [
+    "trasgu-c01",
+    "trasgu-c02",
+    "trasgu-c03",
+    "trasgu-c04",
+    "trasgu-c06"
+  ],
+  "aura": "mischievous old face, limping stance and ordinary fireplace-lit household",
+  "visual_requirements": [
+    "same ONE tiny dark-skinned adult humanlike goblin, red clothes and pointed red hat, HOLE IN LEFT PALM with millet falling through it, right leg limp/raised, cane held in right hand, same small scale beside large stool, pose and household night setting",
+    "No generic emitted body aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native inspected: tiny dark-skinned red-clothed goblin and pointed hat, hole clearly remains in anatomical LEFT palm with ordinary millet falling through, right leg raised/limp, right-hand cane; red magic removed.",
+    "reviewer": "aura-resume-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-129.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected native: small dark-skinned goblin in red clothes and pointed hat, limping pose and distinct hole in raised left palm with grain falling through; hearth lighting only."
+  },
+  "attempt_history": [
+    {
+      "slug": "trasgu",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square detailed painterly naturalistic mythology illustration of TRASGU, Asturian/Northern Spanish household goblin. ONE TINY dark-skinned ADULT humanlike man in RED CLOTHES and POINTED RED HAT, favoring his RIGHT LEG in a limp. His LEFT HAND raised palm toward viewer clearly has a ROUND HOLE THROUGH PALM; a few millet grains fall through hole, highest-priority identifying feature. Full figure beside normal-size old kitchen stool at night to establish tiny scale. Natural aged mischievous face, no arbitrary elf ears. Clearly luminous warm red-gold supernatural wisps RADIATE FROM BODY and palm, lighting floor, restless household aura artistic. No bloody wound, horns, wings, extra limbs, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/trasgu.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-8bdb32eb-0dce-4643-aeaa-b49b9803d3cf.png",
+      "depicted_variant": "Tiny dark-skinned red-clothed limping house goblin with hole in left hand",
+      "basis_claim_ids": [
+        "trasgu-c01",
+        "trasgu-c02",
+        "trasgu-c03",
+        "trasgu-c04",
+        "trasgu-c06"
+      ],
+      "aura": "mischievous household goblin emitted red-gold magic",
+      "visual_requirements": [
+        "tiny dark-skinned adult man red clothes and pointed red hat",
+        "hole in LEFT palm, right leg limping",
+        "night household scene, emitted aura"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected: tiny adult dark-skinned man in red clothes and pointed red hat, LEFT palm clearly has round through-hole spilling millet. Cane and uneven leg pose depict limping. Red-gold emitted aura artistic; stool establishes source small stature."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-129.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Tiny dark-skinned adult man in red clothes/pointed hat, clearly visible through-hole in anatomical left palm, limping posture and emitted red-gold aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/trasgu-verified.webp",
+      "sha256": "b95913e102dde6d16a76602996c96d9267737ab55ccdf3d9febef5498643ab65",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-fff9-76e1-92c1-76bde2aff5e5/exec-ccf9b7b9-e753-440c-8143-2754c0a0ec0b.png",
+  "revision_generator": "aura-resume-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-2",
+    "rationale": "Removed unsupported emitted body effects, preserving source variant, identity and anatomical traits.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "trasgu-c01",
+      "trasgu-c02",
+      "trasgu-c03",
+      "trasgu-c04",
+      "trasgu-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/trasgu.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/trasgu.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

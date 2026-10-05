@@ -1,0 +1,91 @@
+{
+  "slug": "tartalo",
+  "basis_claim_ids": [
+    "tartalo-c01",
+    "tartalo-c04",
+    "tartalo-c10",
+    "tartalo-c12"
+  ],
+  "depicted_variant": "Basque Tartalo as enormous one-eyed cave-dwelling giant with magic ring",
+  "visual_requirements": [
+    "Exactly one central eye; colossal humanlike giant, source ring remains physical NON-glowing, sheep/cave.",
+    "Character presence through pose/framing/natural scene light; no generic emitted aura."
+  ],
+  "aura": "Massive cave menace through size, snarling pose and natural opening light.",
+  "prompt": "Edit this existing mythological encyclopedia artwork to revise AURA as CHARACTER PRESENCE. REMOVE ALL generic emitted colored energy ribbons, neon outlines/halos, magical wisps, glowing particles/sparkles, colored luminous smoke/fog and body glow, including residual lines around silhouette, from creature and environment. Remove unsupported luminous eyes, retain normal natural eyes and reflections. Do not replace effects with white magic or fireflies. Use natural scene light only. Character presence: Massive cave menace through size, snarling pose and natural opening light. Preserve EXACT subject anatomy/counts/scale, identity, pose, perspective, scene, adult modest clothing and concealment. Critical invariants: Exactly one central eye; colossal humanlike giant, source ring remains physical NON-glowing, sheep/cave. Retain detailed painterly naturalism, keep source physical colors/materials. No additional creatures, no text/watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-128.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/tartalo-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-83ffe743-ea63-4914-b77b-0d7c276c16d4.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actual new output inspected in six-image contact sheet. Removed luminous ribbons, particles and emitted color fields; retained source anatomy, subject scale, physical colors and modest clothes. Tartalo has exactly one central eye and non-glowing physical ring; Ora retains golden horns; Sihuanaba retains horse head.",
+    "reviewer": "worker-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: exactly one central eye, immense cave giant, physical non-glowing ring and sheep scale cues. No purple ribbons or glowing aura."
+  },
+  "attempt_history": [
+    {
+      "slug": "tartalo",
+      "basis_claim_ids": [
+        "tartalo-c01",
+        "tartalo-c04",
+        "tartalo-c10",
+        "tartalo-c12"
+      ],
+      "depicted_variant": "Basque Tartalo as enormous one-eyed cave-dwelling giant with magic ring",
+      "visual_requirements": [
+        "Exactly one central eye",
+        "Enormous humanlike giant at mountain cave",
+        "Magic ring and sheep context without victims"
+      ],
+      "aura": "Sinister purple magical ring glow and emitted giant-energy wisps",
+      "prompt": "TARTALO, the enormous ONE-EYED giant of Basque mountain caves. One hugely strong adult humanlike giant with exactly ONE central eye, ferocious coarse face, modest rough hide tunic and broad belt as artistic clothes. At a cavern entrance, with tiny sheep farther below for giant-scale comparison, no humans. On one broad hand a simple MAGIC RING emits uncanny violet light; glowing violet wisps also wrap the whole giant and float in the cave shadows. Huge source-supported giant scale, mountain boulders, frightening predatory expression, rich painterly textures. Keep one eye and ring visible. No second eye, extra limbs, horns, dragon wings, body wounds or eaten people. ONE square premium detailed painterly mythology encyclopedia image, whole identifying subject inside frame. No text, watermark, border, gore or victims.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-128.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/tartalo.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-83ffe743-ea63-4914-b77b-0d7c276c16d4.png",
+      "reviewed_at": "2026-10-05T03:17:29.603Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: giant humanoid with one central eye at a cave, clearly glowing ring, small sheep for scale and violet supernatural aura; no additional unsupported anatomy."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Exactly one central eye on enormous cave giant, magical ring and sheep references, emitted violet aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/tartalo-verified.webp",
+      "sha256": "435a0c5fc51f3bbe4881d0266c9212c529d7f33433562b3441d0829dd2e006b5",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-92c59f79-757e-4c1a-8996-1596f6ef72e6.png",
+  "revision_generator": "worker-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-1",
+    "rationale": "Violet body smoke/ribbons and shining ring treated as emitted force; source only magic-ring motif.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "tartalo-c01",
+      "tartalo-c04",
+      "tartalo-c10",
+      "tartalo-c12"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/tartalo.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/tartalo.json"
+  }
+}

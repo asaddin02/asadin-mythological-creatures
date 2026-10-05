@@ -1,0 +1,89 @@
+{
+  "slug": "maggy-moulach",
+  "basis_claim_ids": [
+    "maggy-moulach-c01",
+    "maggy-moulach-c02",
+    "maggy-moulach-c03"
+  ],
+  "depicted_variant": "Two-foot-tall Hairy Meg brownie",
+  "visual_requirements": [
+    "Remove yellow-green glowing ribbons, emitted body envelope, magical particles and yellow-green ground light. Preserve same little adult female brownie, about two feet tall next to normal chair, thick hair and clearly hairy hands, face, clothing coverage, exact stance/scale, chair, chessboard and warm castle room. Keep actual fireplace/candle light and natural reflection. Friendly uncanny presence from small stature and hairy hands.",
+    "No generic emitted wrapping; original counts and anatomy"
+  ],
+  "aura": "Tiny hairy female beside full-size chair in warm castle room.",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove yellow-green glowing ribbons, emitted body envelope, magical particles and yellow-green ground light. Preserve same little adult female brownie, about two feet tall next to normal chair, thick hair and clearly hairy hands, face, clothing coverage, exact stance/scale, chair, chessboard and warm castle room. Keep actual fireplace/candle light and natural reflection. Friendly uncanny presence from small stature and hairy hands. Preserve exact original anatomy, counts, scale and composition. No new subjects, nudity, gore, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-119.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/maggy-moulach-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-bee43dc4-f4c6-4440-81fd-d8ae5dfd43d7.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output actually inspected: female brownie still about two feet against chair, thick hair/hairy hands, coverage and castle room retained; yellow-green wrapping removed.",
+    "reviewer": "aura-resume-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: very small hairy elderly brownie woman beside huge chair and chess table. Natural hearth/candle reflections, no golden body fog."
+  },
+  "attempt_history": [
+    {
+      "slug": "maggy-moulach",
+      "basis_claim_ids": [
+        "maggy-moulach-c01",
+        "maggy-moulach-c02",
+        "maggy-moulach-c03"
+      ],
+      "depicted_variant": "Two-foot-tall Hairy Meg brownie",
+      "visual_requirements": [
+        "About 0.6 metre tall",
+        "Thick hair and hairy hands",
+        "Humanlike female brownie",
+        "Normal chair for accurate scale"
+      ],
+      "aura": "Amber-green emitted supernatural wisps",
+      "prompt": "Depict Maggy Moulach, Hairy Meg of Highland folklore, as a tiny adult female brownie only TWO FEET (about 0.6 metre) tall, with extraordinarily thick shaggy hair and conspicuously hairy hands. She has a humanlike elderly face, two arms and two legs, no horns, wings or insect body. Fully dressed in modest weathered dark Scottish domestic clothing. Show her full body standing beside a normal one-metre-high wooden chair on exactly the same floor plane inside an old Highland castle room: her head reaches around the chair seat/back junction, making her small stature unmistakable. A chessboard is on a table in the distance. Her skin catches an uncanny faint green light and unmistakable amber-green magical wisps visibly radiate from her small body and hairy fingers. Mysterious household spirit mood. Square premium dark-fantasy encyclopedia illustration, highly detailed painterly realism, one coherent creature, entire identifying silhouette inside frame, clear anatomy, dramatic atmosphere. Explicit emitted magical aura, not merely ambient light. No text, caption, border, watermark, gore, victims, or sexual elements.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-119.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/maggy-moulach.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-bee43dc4-f4c6-4440-81fd-d8ae5dfd43d7.png",
+      "reviewed_at": "2026-10-05T03:22:39.365Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: tiny adult female with thick shaggy hair and visibly hairy hands beside a full-sized chair; height proportion approximately two feet versus one-metre chair. Amber-green wisps clearly emitted."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Tiny humanlike female brownie with thick hair/hairy hands, chair comparison supports roughly two-foot size, emitted yellow-green aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/maggy-moulach-verified.webp",
+      "sha256": "ad36cd2d77c00008a8c85ffc515331d3dbb5a01a67be8030843c76e57d84b36d",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-296865b8-e641-43f3-bf6c-8dc073006651.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Brownie shapechanging claims do not support green emitted light.",
+    "allowed_magic": "none beyond documented creature manifestation",
+    "source_basis_claim_ids": [
+      "maggy-moulach-c01",
+      "maggy-moulach-c02",
+      "maggy-moulach-c03"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/maggy-moulach.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/maggy-moulach.json"
+  }
+}

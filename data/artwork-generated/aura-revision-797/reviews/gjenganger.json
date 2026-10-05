@@ -1,0 +1,27 @@
+{
+  "slug": "gjenganger",
+  "rationale": "Opaque corporeal revenant is surrounded by unsupported cyan emitted smoke and halo.",
+  "allowed_magic": "none; corporeal form explicitly documented c05.",
+  "aura": "Solid returned dead man with grim stare at graveyard wall, restrained natural cold dusk lighting.",
+  "visual_requirements": [
+    "Entirely solid opaque adult male revenant, same face and coarse clothing.",
+    "No translucent/faded torso or limbs.",
+    "No self-emission, cyan fog, luminous body outline or energy particles."
+  ],
+  "prompt": "Use case: precise-object-edit. Input image is sole EDIT TARGET. Remove all unsupported magical body envelopes, colored luminous fog, emitted energy ribbons, neon outlines, halo, glowing particles and sparkle trails. Reconstruct natural clothing, textures and scene beneath removed overlays. Preserve exact source anatomy, face, pose, scale, camera, composition and physical materials. No new objects/characters, text or watermark. For Gjenganger, REMOVE ALL luminous cyan vapor and emitted blue contour around man including at boots. The source emphasizes ENTIRELY CORPOREAL form: keep every limb and torso fully SOLID OPAQUE, with physical cloth/fur/skin details; do NOT make transparent or disappearing. Same adult bearded man, grim pale face, coarse clothing, pose and Nordic graveyard wall/mountain/village composition. Only natural cold dusk and ordinary distant low mist; no spectral glow.",
+  "reviewer": "root",
+  "decision": "revise",
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-7a2e4edc-3ae5-433a-9169-d62b325d2c4e.png",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native edit: corporeal male revenant fully opaque from head to boots, same face/cloth at graveyard wall. Cyan halo/vapor eliminated without making body transparent."
+  },
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/gjenganger.png",
+  "source_basis_claim_ids": [
+    "gjenganger-c01",
+    "gjenganger-c05"
+  ],
+  "status": "reviewed",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/aura-revision-797/originals/gjenganger.png",
+  "tool": "OpenAI built-in image_gen"
+}

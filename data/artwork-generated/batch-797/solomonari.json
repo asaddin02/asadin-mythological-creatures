@@ -1,0 +1,90 @@
+{
+  "slug": "solomonari",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Remove ONLY unsupported effects: all white-blue glowing body ribbons, luminous book wisps and magical wrap; RETAIN weather control shown by ordinary storm lightning in clouds, rainfall and thunderstorm above raised hand, without lightning wrapping human body. Preserve exactly same tall red-haired HUMAN sorcerer in modest long white peasant robes, book in left hand, raised right hand, bag containing axe and reins, same pose, mountain panorama and scale, framing, detail and clothing coverage. Character presence through bold storm-commanding human gesture, wind-blown red hair and dark storm landscape. Natural texture, ordinary reflected scene light and shadows. No generic emitted aura, new anatomy, subjects, rat-headed hybrid, gore, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/solomonari-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-bccc8512-45c5-47a2-bb7f-2d0ba847d9fb.png",
+  "depicted_variant": "Tall red-haired human Romanian learned weather sorcerer",
+  "basis_claim_ids": [
+    "solomonari-c01",
+    "solomonari-c02",
+    "solomonari-c03",
+    "solomonari-c04"
+  ],
+  "aura": "bold storm-commanding human gesture, wind-blown red hair and dark storm landscape",
+  "visual_requirements": [
+    "same tall red-haired HUMAN sorcerer in modest long white peasant robes, book in left hand, raised right hand, bag containing axe and reins, same pose, mountain panorama and scale",
+    "No generic emitted body aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native inspected: tall red-haired human in white robe with book, bag, axe/reins, raised hand preserved; book/body energy ribbons gone, weather-control storm clouds/rain/lightning retained.",
+    "reviewer": "aura-resume-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-123.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: tall red-haired clothed wizard with book, bag/axe/reins in mountain scene; distant rain/thunder source c01. No emitted hand sparkles or bodily halo."
+  },
+  "attempt_history": [
+    {
+      "slug": "solomonari",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic mythology illustration of SOLOMONAR, Romanian learned HUMAN weather sorcerer. ONE TALL adult man with RED HAIR wearing modest LONG WHITE PEASANT ROBES, holding a plain old BOOK OF WISDOM; a simple magic bag beside him partly shows IRON AXE and dragon REINS. He stands on a Carpathian ridge calling rain and thunder, no dragon in this representative portrait. Full human figure with margins, source-faithful natural human face/anatomy because tradition explicitly calls them people who learned sorcery. Clearly luminous white-blue spell wisps radiate from book, hands and body into storm, casting light on robe; aura artistic rendering of source weather magic. No horns, wings, extra limbs, game armor, magical writing or readable text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/solomonari.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-bccc8512-45c5-47a2-bb7f-2d0ba847d9fb.png",
+      "depicted_variant": "Tall red-haired human Romanian learned weather sorcerer",
+      "basis_claim_ids": [
+        "solomonari-c01",
+        "solomonari-c02",
+        "solomonari-c03",
+        "solomonari-c04"
+      ],
+      "aura": "human sorcerer's storm-control magic radiating from book and body",
+      "visual_requirements": [
+        "tall red-haired human wizard, long white peasant robes",
+        "wisdom book and magic bag; weather magic",
+        "no arbitrary nonhuman mutation"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: tall red-haired human male wizard in long white peasant robe, book of wisdom, bag with iron axe and reins, storm-control gesture; emitted blue-white spell wisps light robe. Source explicit learned-human sorcerer remains human, no arbitrary nonhuman anatomy. Beard, decoration/light artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-123.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Red-haired human weather wizard, white robes, book/bag and emitted storm magic inspected.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/solomonari-verified.webp",
+      "sha256": "b428410f27e95da201d0416f284456624b7f3bfd025a5a25a1f1903a06ceebbf",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-fff9-76e1-92c1-76bde2aff5e5/exec-c649301c-e579-4c30-a9cb-ba244524f3e4.png",
+  "revision_generator": "aura-resume-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-2",
+    "rationale": "Removed unsupported body wrapping while preserving supported manifestation/ability.",
+    "allowed_magic": "Weather control rain/thunder/hail supported solomonari-c01",
+    "source_basis_claim_ids": [
+      "solomonari-c01",
+      "solomonari-c02",
+      "solomonari-c03",
+      "solomonari-c04"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/solomonari.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/solomonari.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

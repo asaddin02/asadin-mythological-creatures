@@ -1,0 +1,90 @@
+{
+  "slug": "gwragedd-annwn",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Remove ONLY unsupported effects: all green luminous body-wrapping ribbons, glowing particles, neon dress outline and magical bright water ring. Preserve exactly same ONE adult female Welsh lake fairy in long modest green dress, natural human anatomy without fish tail, same face, hands, scale, walking pose, rocks and moonlit lake; retain framing, painterly detail and clothing coverage. Character presence through poised serene lake-maiden expression and natural moonlit ripples. Restore ordinary textures, reflected real scene light, natural shadows and nonluminous distant mist. No generic emitted aura, new anatomy, characters, nudity, gore, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/gwragedd-annwn-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-d051eac0-24b8-40c7-a0d6-460b33d05d6e.png",
+  "depicted_variant": "Welsh female lake fairy in green",
+  "basis_claim_ids": [
+    "gwragedd-annwn-c01",
+    "gwragedd-annwn-c02",
+    "gwragedd-annwn-c04",
+    "gwragedd-annwn-c05"
+  ],
+  "aura": "poised serene lake-maiden expression and natural moonlit ripples",
+  "visual_requirements": [
+    "same ONE adult female Welsh lake fairy in long modest green dress, natural human anatomy without fish tail, same face, hands, scale, walking pose, rocks and moonlit lake",
+    "Character presence through natural scene lighting; no emitted body aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native inspected: adult green-dressed lake maiden with human anatomy, same face and walking pose; all green emitted ribbons/particles removed, ordinary moonlit water ripples.",
+    "reviewer": "aura-resume-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-119.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: lake maiden in green physical dress wading under moon. Natural lake reflections and distant mist; no luminous aqua bands or sparkle envelope."
+  },
+  "attempt_history": [
+    {
+      "slug": "gwragedd-annwn",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square exquisite painterly naturalistic mythology illustration of one GWRAGEDD ANNWN, female Welsh lake fairy beneath lakes and rivers. ONE adult beautiful humanlike woman in a modest opaque long GREEN DRESS appears from moonlit Llyn Barfog shallows, two human legs under dress, no fish tail. Full figure comfortably framed. Human face stays source-faithful, subtly uncanny translucent edges and shining gaze. Clearly luminous emerald-white magical wisps radiate directly from her body, casting light across water and stones; mysterious enchanted Lower World aura as artistic effect. No wings, horns, seal skin, mermaid tail, extra limbs, nudity, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/gwragedd-annwn.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-d051eac0-24b8-40c7-a0d6-460b33d05d6e.png",
+      "depicted_variant": "Welsh female lake fairy in green",
+      "basis_claim_ids": [
+        "gwragedd-annwn-c01",
+        "gwragedd-annwn-c02",
+        "gwragedd-annwn-c04",
+        "gwragedd-annwn-c05"
+      ],
+      "aura": "enchanted underwater lake-maiden radiance",
+      "visual_requirements": [
+        "adult female lake fairy in green dress",
+        "human anatomy, no fish tail",
+        "source Welsh lake setting, emitted aura"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: adult female lake maiden in green dress, humanlike body with no fish tail, at Welsh mountain lake, emitted luminous green-white wisps illuminate water. Source female fairy/green clothing/lake identity preserved, human face remains natural. Floral ornaments and dress texture/light artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-119.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: adult female humanlike lake maiden in green dress, no fish tail, clear emitted green-white wisps reflected in Welsh lake water; source human-form fairy retained.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/gwragedd-annwn-verified.webp",
+      "sha256": "1e0fa0f810c1747473e6a47170e8caec29ba1087e73b2b39f07506d459c45666",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-fff9-76e1-92c1-76bde2aff5e5/exec-209e83a6-7fab-411c-807c-a6a5820b8a76.png",
+  "revision_generator": "aura-resume-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-2",
+    "rationale": "Original unsupported effects removed: all green luminous body-wrapping ribbons, glowing particles, neon dress outline and magical bright water ring",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "gwragedd-annwn-c01",
+      "gwragedd-annwn-c02",
+      "gwragedd-annwn-c04",
+      "gwragedd-annwn-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/gwragedd-annwn.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/gwragedd-annwn.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

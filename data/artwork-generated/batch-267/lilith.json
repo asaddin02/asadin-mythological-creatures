@@ -1,0 +1,32 @@
+{
+  "slug": "lilith",
+  "worker": "worker-3",
+  "prompt": "Use case: historical-scene. Create ONE square detailed painterly naturalistic encyclopedia illustration of Lilith, the feminine night demon of Jewish post-biblical tradition, choosing the Alphabet of Ben Sira escaped female spirit interpretation. One adult woman with a grave hostile gaze floats silently in a bleak rocky wilderness at night, long dark hair moving in the night wind, fully clothed in an opaque ancient Near Eastern robe. Her clearly human feminine form hangs unsupported above the ground; no wings are necessary to convey her sourced flight. Cold moonlight illuminates her face and clothing against deep shadows, producing a fearful, unsettling demonic nocturnal aura, not seductive glamour. Central full identifiable figure comfortably inside frame, realistic painterly anatomy and atmospheric depth. Invariants: female humanlike night demon, darkness and flight, clothed. Avoid invented defining iconography: no horns, no wings, no owl feet, no claws, no Burney relief pose, no throne, no crown, no weapon, no modern outfit, no babies or victims, no nudity, no gore. No text, lettering, watermark, collage, or border.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-b39dc683-a513-45d3-8179-595edcc718a3.png",
+  "review_path": "data/gemini/reviews/batch-041.review.json",
+  "visual_requirements": [
+    "Female humanlike demonic figure",
+    "Nocturnal setting and frightening aura",
+    "Unsupported flight",
+    "Fully clothed",
+    "No invented horns or owl anatomy"
+  ],
+  "depicted_variant": "Alphabet of Ben Sira feminine night demon / escaped flying spirit; source does not specify a unique bodily iconography",
+  "basis_claim_ids": [
+    "lilith-c01",
+    "lilith-c05",
+    "lilith-c07",
+    "lilith-c08",
+    "lilith-c13",
+    "lilith-c14"
+  ],
+  "aura": "Ominous and nocturnal; hostile restrained menace",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Ordinary human figure; costume, setting, lighting or apparition effects do not add distinct nonhuman anatomy."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-3.json"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "farfadet",
+  "reviewer": "worker-2",
+  "decision": "revise",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/farfadet.png",
+  "rationale": "Small fairy glows with gold motes and ribbons; no emitted aura documented.",
+  "source_basis_claim_ids": [
+    "farfadet-c01",
+    "farfadet-c02",
+    "farfadet-c03",
+    "farfadet-c04"
+  ],
+  "allowed_magic": "none",
+  "aura": "Uncanny friendly presence through half-metre stature, wrinkled face, worn brown clothing, warm dusk and milk offering.",
+  "visual_requirements": [
+    "About 0.5m tall; preserve corrected half-chair-back scale",
+    "Wrinkled brown skin",
+    "Tattered brown clothes",
+    "Milk bowl and same chair",
+    "Character presence through pose, framing, atmosphere and scene lighting; no generic emitted aura"
+  ],
+  "prompt": "Use case: precise-object-edit / lighting-weather. Edit the supplied mythology artwork. Remove ONLY unsupported visual effects: all generic glowing envelopes, neon body outlines, colored energy ribbons, magical motes/particles, luminous colored fog, swirling aura, and glowing eye bulbs. Do not replace them with other magic. Preserve the SAME individual creature, body anatomy, count of eyes/limbs/heads, exact scale, pose, framing, clothing coverage, props, setting and painterly quality. Source invariants: About 0.5m tall; preserve corrected half-chair-back scale; Wrinkled brown skin; Tattered brown clothes; Milk bowl and same chair. Character presence instead: Uncanny friendly presence through half-metre stature, wrinkled face, worn brown clothing, warm dusk and milk offering.. Restore clean natural textures where effects were removed, ordinary reflected light and realistic shadows.  No new characters or anatomical embellishments, no nudity or gore, no text, watermark or border.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/aura-revision-797/originals/farfadet.png",
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-a34ca45a-d56c-46e3-b028-81b276bb20be.png",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output inspected: gold ribbons/motes and glowing hands/eyes removed, corrected tiny half-chair stature, brown skin/clothes/milk bowl unchanged, dusk presence."
+  },
+  "reviewed_at": "2026-10-05T05:36:44.895Z"
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "toell-the-great",
+  "worker": "worker-0",
+  "prompt": "Use case: stylized-concept. ONE square highly detailed painterly naturalistic mythological encyclopedia illustration of SUUR TÕLL / TOELL THE GREAT, living giant hero of Estonia, before his beheading. One ENORMOUS adult male human giant in simple historical Estonian farmer clothes, carrying a massive coastal boulder under one arm and using an entire spruce trunk as walking stick. He wades at the Baltic coast of Saaremaa, tiny farm buildings, ordinary full-size spruce trees and boats far below establish genuinely colossal scale, low broad camera view, full figure and head inside frame. Source-faithful human anatomy, weathered kind but resolute face, no arbitrary monster anatomy. Protective mythological aura expressed in sweeping dawn gold, sea mist and immense cloud scale as artistic atmosphere. No crown, armor, extra limbs, wings, horns, beheading, blood, text, watermark, border or collage.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/toell-the-great.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-8058b1e6-f3fe-462e-9637-ae2b81f72179.png",
+  "depicted_variant": "Living giant farmer hero of Saaremaa before beheading",
+  "basis_claim_ids": [
+    "toell-the-great-c01",
+    "toell-the-great-c02",
+    "toell-the-great-c03",
+    "toell-the-great-c04",
+    "toell-the-great-c05"
+  ],
+  "aura": "Monumental human scale, boulder and spruce trunk against tiny coastal buildings and boats.",
+  "visual_requirements": [
+    "Preserve human giant scale, farmer clothes, boulder and spruce trunk",
+    "Natural sunset, ordinary sea spray; no generic emitted aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected full native original. Giant coastal farmer is lit by natural sunset and sea spray, with no luminous ribbons, halo or magical fog.",
+    "reviewer": "worker-0"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-121.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected image: enormous farmer carrying boulder and spruce trunk, sea and village scale cues. Natural sunset and sea spray, no magical wrapping."
+  },
+  "aura_policy_history": [
+    {
+      "aura": "majestic protective giant, Baltic mist and dawn radiance",
+      "visual_requirements": [
+        "enormous human giant dwarfing coastal trees and farm buildings",
+        "spruce trunk walking stick, large boulder",
+        "simple farmer clothing, no crown"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: enormous human farmer giant carrying huge boulder, using whole spruce trunk walking stick, wading on Baltic shore; small boats/farm buildings/trees make giant scale evident. Human face/source giant anatomy preserved. Golden sea mist and dawn grandeur supply protective mythical aura. Beard, clothing specifics and warm light artistic."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: enormous human farmer beside tiny houses, boats and trees, carrying boulder and spruce-trunk staff; source giant scale compelling and golden sea-mist aura appropriate.",
+        "reviewed_at": "2026-10-05"
+      }
+    }
+  ],
+  "aura_revision": {
+    "decision": "keep",
+    "reviewer": "worker-0",
+    "rationale": "Giant coastal farmer is lit by natural sunset and sea spray, with no luminous ribbons, halo or magical fog.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "toell-the-great-c01",
+      "toell-the-great-c02",
+      "toell-the-great-c03",
+      "toell-the-great-c04",
+      "toell-the-great-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/toell-the-great.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/toell-the-great.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

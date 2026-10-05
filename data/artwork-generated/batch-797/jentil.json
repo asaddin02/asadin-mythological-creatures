@@ -1,0 +1,91 @@
+{
+  "slug": "jentil",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: lighting-weather. Supplied image is EDIT TARGET. Change ONLY unsupported magical lighting/VFX. Preserve exact character identities, faces, expressions, poses, coherent anatomy and limb counts, source scale, opaque modest clothing, camera, square framing and environment. No text/watermark. Remove all emitted golden energy filaments, neon outline and glitter around giant, boulder, arms and legs. Preserve immense hairy human giant about to throw huge rock, physically held in BOTH HANDS, mountain/sea/forest scale, same sunset. Natural warm sunset highlights and ordinary sea spray only; giant and rock do not emit light.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/jentil-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-6c613976-a191-43bf-9a31-714949092d70.png",
+  "review_path": "data/gemini/reviews/batch-129.review.json",
+  "visual_requirements": [
+    "One immense hairy humanoid giant",
+    "Mountain/sea/forest scale demonstrates source enormity",
+    "Huge rock held by both hands for mountain-to-mountain throw",
+    "Natural sunset and waves only, no emitted gold aura"
+  ],
+  "depicted_variant": "Hairy mountain-to-mountain stone-throwing, sea-walking Jentil giant; exact height and clothing editorial.",
+  "basis_claim_ids": [
+    "jentil-c01",
+    "jentil-c02",
+    "jentil-c03"
+  ],
+  "aura": "Ancient giant presence through immense hairy body, rock-throwing stance, mountains and sea scale references.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected revised native contact: Immense hairy source giant, both hands on huge rock and opaque loin wrap preserved; golden aura removed, warm sunset reflections and sea spray remain.",
+    "reviewer": "aura-resume-0"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: colossal hairy giant lifting physical boulder above sea, forests and settlements provide scale. No emitted gold ring/ribbons; natural sunrise and sea spray."
+  },
+  "attempt_history": [
+    {
+      "slug": "jentil",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Basque mythology artwork, stylized-concept. ONE JENTIL, source-described HAIRY GIANT so tall it can walk in the sea and throw stones from one mountain to another. Enormous hairy humanlike male giant with two arms and legs, weathered humanlike face, rough modest waist clothing editorial, lifting a boulder larger than ordinary houses in preparation to throw across mountain valley. MAXIMUM awe-inspiring source-compatible gigantic scale: body towers above full mountain ridges and mature forests, sea inlet barely reaches huge lower legs, villages tiny far below, complete giant silhouette. UNMISTAKABLE luminous earth-gold supernatural energy wisps and radiant dust particles coil around giant body and boulder, ancient pre-Christian mountain power. Naturalistic hair/stone/skin, dramatic sky and enormous landscape, not normal tall man portrait. No other giant, no human targets, no battle casualties, no horns/wings, no text or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/jentil.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-6c613976-a191-43bf-9a31-714949092d70.png",
+      "review_path": "data/gemini/reviews/batch-129.review.json",
+      "visual_requirements": [
+        "One immense hairy humanoid giant",
+        "Mountain/sea/forest scale demonstrates source enormity",
+        "Throws huge rock mountain-to-mountain",
+        "Visible ancient earth aura"
+      ],
+      "depicted_variant": "Hairy mountain-to-mountain stone-throwing, sea-walking Jentil giant; exact height and clothing editorial.",
+      "basis_claim_ids": [
+        "jentil-c01",
+        "jentil-c02",
+        "jentil-c03"
+      ],
+      "aura": "Earth-gold luminous giant wisps and radiant stone-dust particles.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: One hairy colossal humanlike giant holds enormous boulder, stands in sea inlet towering above mountain ridges/forests/villages, luminous golden earth aura. Two arms/legs and giant scale source-compatible. Exact size/color/costume and aura editorial beyond listed source traits."
+      },
+      "reviewed_at": "2026-10-05T03:26:15.072Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Immense hairy humanoid giant throws huge boulder, mountain-to-body comparison supports vast source scale, emitted gold earth aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/jentil-verified.webp",
+      "sha256": "27e8bdc31809fb2f37057670d6dc45aa2d28242b3e2f3099a26edf9ba0b413cb",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-bc5af43b-e9db-4ecd-a037-94de9074cced.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Unsupported gold body/boulder envelope, luminous threads and glitter removed.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "jentil-c01",
+      "jentil-c02",
+      "jentil-c03"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/jentil.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/jentil.json"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "bannik",
+  "basis_claim_ids": [
+    "bannik-c01",
+    "bannik-c10",
+    "bannik-c11"
+  ],
+  "depicted_variant": "Small elderly Bannik with long beard, birch leaves and large hands in Slavic bathhouse",
+  "visual_requirements": [
+    "Small elderly male spirit with long hair and beard",
+    "Birch leaves covering body, large hands",
+    "Natural colorless bath steam and physical stove fire; no emitted green eyes or magical vapor"
+  ],
+  "aura": "Mischievous menace through narrowed stare, crouched posture, oversized hands and contrast of stove firelight with shadowy bathhouse.",
+  "prompt": "Use case: lighting-weather. Input image is EDIT TARGET. Change ONLY unsupported magical lighting: remove the bright self-emitting green eyes and any luminous green vapor from this Bannik illustration. Make his eyes ordinary dark natural human eyes with tiny reflected stove/window highlights. Steam should remain ordinary colorless bath steam, visible only through the warm stove and cool window light. Preserve exactly same small elderly male, long tangled hair and beard, unusually large hands, birch leaf covering, crouched posture, facial identity, anatomy, camera, square framing, bathhouse and stove. Preserve opaque modest coverings; no nudity. No emitted aura, neon outline, magical particles, text or watermark. Keep painterly naturalistic quality and intimidating stare through shadows and expression.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-121.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/bannik-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-75c910c5-4e73-40c7-9bce-e3befe2bc8ef.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected revised native output: same crouching old man, beard, large hands, birch leaves and modest body covering; ordinary dark eyes and colorless steam replace green glow. Stove fire and window reflections only.",
+    "reviewer": "aura-resume-0"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: small grimy bearded man with birch leaves concealing body, large hands beside banya stove. Steam is ordinary bath steam, fire physically inside stove; no body aura."
+  },
+  "attempt_history": [
+    {
+      "slug": "bannik",
+      "basis_claim_ids": [
+        "bannik-c01",
+        "bannik-c10",
+        "bannik-c11"
+      ],
+      "depicted_variant": "Small elderly Bannik with long beard, birch leaves and large hands in Slavic bathhouse",
+      "visual_requirements": [
+        "Small elderly male spirit with long hair and beard",
+        "Birch leaves covering body, large hands",
+        "Haunted steam aura in wooden banya beside stove"
+      ],
+      "aura": "Uncanny luminous steam and sinister stove-glow in shadowed bathhouse",
+      "prompt": "Use case: illustration-story. ONE square detailed painterly Slavic mythology illustration of BANNIK: a very SMALL dirty elderly male bathhouse spirit with a long tangled grey beard, long hair, and conspicuously large human hands. Birch leaves from used bath brooms cover his shoulders and torso, while a modest opaque linen wrap and leaves obscure the lower body as an artistic modesty treatment. No exposed genitals. He crouches beside a great dark stove in an old wooden banya, his tiny scale clear against normal wooden buckets and benches. His gaunt wrinkled face peers fiercely through uncanny luminous pale-green STEAM, deep shadows and orange stove-glow; numinous menace appropriate to a mischievous sometimes dangerous bathhouse spirit. Entire silhouette and both hands inside frame. Realistic aged skin, wet birch leaves and timber textures, painterly encyclopedia art. No horns, wings, invented animal body, human victims, text, watermark, decorative frame or gore.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-121.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/bannik.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-75c910c5-4e73-40c7-9bce-e3befe2bc8ef.png",
+      "reviewed_at": "2026-10-05T02:37:50.184Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed small gaunt elderly male spirit crouching beside a banya stove, long tangled hair and beard, large human hands, birch-leaf covering and opaque cloth over lower body. No nudity, horns or wings. Greenish luminous steam and orange stove light create menacing haunted-bathhouse aura."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: small elderly male with long beard/hair, conspicuously large hands, birch-leaf cover near bathhouse stove; eerie green steam and no unsupported appendages.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/bannik-verified.webp",
+      "sha256": "fb83a7eb267886439dc6212e773e2fc90cf3c1d9e49bb5a590a75a993e91c4be",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-07e381fe-1303-4fd8-be60-4c49cf7ef969.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Original inspected: self-emitting green eyes and green-tinted vapor are unsupported by selected bathhouse-spirit form; revised to ordinary eyes and natural steam.",
+    "allowed_magic": "none; physical stove fire and bath steam retained.",
+    "source_basis_claim_ids": [
+      "bannik-c01",
+      "bannik-c10",
+      "bannik-c11"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/bannik.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/bannik.json"
+  }
+}

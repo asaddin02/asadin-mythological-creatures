@@ -1,0 +1,57 @@
+{
+  "checked_at": "2026-10-04T19:21:28.913363+07:00",
+  "scope": "Continuation of batch-267 with three parallel image-generation agents and serial root registration.",
+  "starting_complete": 244,
+  "ending_complete": 267,
+  "registered_this_session": 23,
+  "newly_generated_this_session": 11,
+  "generation_tool": "OpenAI built-in image_gen",
+  "asset_directory": "assets/art/",
+  "prompt_set": "assets/art/verified-prompts.json",
+  "gallery": "docs/artwork-batch-267.html",
+  "audit": {
+    "path": "data/artwork-batch-267-audit.json",
+    "status": "pass",
+    "unique_images": 267,
+    "decoded_files": 534,
+    "permanent_exclusions": 139,
+    "deleted_rejected_variants": 42
+  },
+  "checks": [
+    {
+      "command": "node scripts/audit-artwork-batch.mjs 267 --require-complete",
+      "status": "pass",
+      "scope": "Final 267 images"
+    },
+    {
+      "command": "node tests/publish-site.mjs",
+      "status": "pass",
+      "scope": "Final public build: 378 complete illustrated creatures; 365 artwork files for R2"
+    },
+    {
+      "command": "npm run check",
+      "status": "pass",
+      "scope": "Data quality after initial receipt integration; zero errors or warnings"
+    },
+    {
+      "command": "npm run test:static",
+      "status": "pass",
+      "scope": "Static API equivalence and browser flows, including 66 responsive route checks"
+    },
+    {
+      "command": "node tests/scaling.mjs && node tests/server-policy.mjs",
+      "status": "pass"
+    },
+    {
+      "command": "git diff --check",
+      "status": "pass"
+    },
+    {
+      "command": "npm test",
+      "status": "fail",
+      "reason": "Artwork requires a passing review: alara-fairy",
+      "context": "Existing Alara artwork references batch-138.review.json, which independent research rework currently replaced without an Alara entry. Active research was preserved; historical review was not substituted to hide the failure."
+    }
+  ],
+  "publication": "Local assets and public build prepared; no remote deployment performed."
+}

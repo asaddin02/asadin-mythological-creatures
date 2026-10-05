@@ -1,0 +1,60 @@
+{
+  "slug": "pixie",
+  "worker": "regen-2",
+  "review_path": "data/gemini/reviews/batch-115.review.json",
+  "depicted_variant": "Joseph Jacobs Fairy Ointment pixie morphology: pointed ears, flat nose and long hairy paws",
+  "visual_requirements": [
+    "One small adult fairy sprite with two naturally pointed bodily ears and two hairy paw hands",
+    "One head, two arms and two legs; full frame",
+    "Playful benign mischievous dance aura, no added wings or horns"
+  ],
+  "nonhuman_features": [
+    "Two long pointed bodily ears",
+    "Long hairy pawlike hands"
+  ],
+  "basis_claim_ids": [
+    "pixie-c01",
+    "pixie-c02",
+    "pixie-c03",
+    "pixie-c04"
+  ],
+  "aura": "Playful benign mischievous dancing Cornish/Devon fairy sprite",
+  "accuracy_mode": "source-supported",
+  "invented_anatomy": [],
+  "historical_basis": "Joseph Jacobs, English Fairy Tales, Fairy Ointment, directly describes revealed pixie household as flat-nosed imps with pointed ears and long hairy paws. Museum of Witchcraft and Magic's own pisky exhibition text documents pointed ears and squinting eyes. Current c01/c02 establish local type; c03 standing-stone habitat, c04 benign mischievous short childlike dancing character. Adult solitary depiction is generic sprite portrait of documented morphology, not reproduction of infant scene.",
+  "additional_sources": [
+    {
+      "url": "https://www.gutenberg.org/cache/epub/7439/pg7439.html.utf8",
+      "title": "English Fairy Tales: Fairy Ointment",
+      "author": "Joseph Jacobs",
+      "publisher": "Project Gutenberg",
+      "basis": "Primary tale describes flat-nosed pixies, pointed ears and long hairy paws"
+    },
+    {
+      "url": "https://museumofwitchcraftandmagic.co.uk/news/the-upstairs-gallery-part-three/",
+      "title": "The Upstairs Gallery part three",
+      "publisher": "Museum of Witchcraft and Magic",
+      "basis": "Museum's pisky display documents pointed ears, round face, squinting eyes and medieval-style tunic"
+    }
+  ],
+  "artistic_changes": [
+    "Solitary adult generic pixie portrait rather than reproducing child/infant household episode",
+    "Ragged tunic, dance pose and standing-stone clearing combine documented general type/habitat traits"
+  ],
+  "prompt": "Use case: scientific-educational. ONE square premium painterly mythology encyclopedia illustration of PIXIE / PISKY of Cornwall and Devon, following the revealed pixie morphology in Joseph Jacobs's English Fairy Tales 'Fairy Ointment': flat nose, pointed ears, long hairy paws. One small ADULT fairy sprite with round flat-nosed face, two unmistakably long bodily POINTED EARS exposed on either side of head and TWO slightly elongated HAIRY PAW-LIKE HANDS visibly furry at wrist/knuckles, not an ordinary human in costume. Exactly one head, two arms and two legs, no wings, horns, tail or added monster limbs. Short childlike fairy proportions but clearly adult woodland being, cheerful mischievous playful amused squinting expression, benign impish dancing posture. Modest ragged earth-brown medieval wool tunic and leggings, simple curved-toed shoes; both paws visible held apart empty, ear cartilage exposed with no hat hiding it. Full ear tips/head/paws/feet inside frame with ample margin. Moonlit Cornish standing-stone clearing with low fern beds, damp stones and deep forest green moorland; warm walnut robe and restrained old-gold twilight glints, premium refined naturalistic oil-painted texture. One solitary pixie, no infants, mother, human characters, weapons, gore, jewelry, glowing spell graphics, text, signature, border or watermark. Preserve friendly prankster fairy aura, not evil demon. This is a source-attested pointed-ear/hairy-paw local variant, not a modern cartoon winged fairy.",
+  "edit_prompt": "Remove ONLY the small faint gold signature-like writing at the extreme lower-left corner of this image, replacing it with continuous leaves, soil and fern textures. Preserve the entire pixie, head, BOTH pointed ears, hairy paws, two arms/two legs, clothing, dancing pose, standing stones and moonlit environment exactly. No text, signature, inscription, watermark or border anywhere.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/pixie.png",
+  "generated_original": "/home/asadin/.codex/generated_images/01a107aa-9947-7b23-af38-2b3374b93da2/exec-29a308dd-4522-416f-8392-096f3b51cf4e.png",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "reviewed_at": "2026-10-04T16:39:29.960Z",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Individually inspected corrected output with view_image. One flat-nosed adult sprite face with two large sharply pointed naturally bodily ears, two long hairy paw hands, two arms and two legs/curved shoes entirely in square frame. Cheerful mischievous expression and dancing posture on standing-stone moor preserve benign prankster aura. No added wings/horns/tail, no human companions or ordinary costumed man. Initial tiny lower-left gold signature removed via built-in imagegen correction; final re-inspected with no text remaining."
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "notes": "Independently viewed: small dancing sprite with flattened nose, two pointed ears and hairy pawlike hands, full body and no invented wings; Jacobs variant recorded.",
+    "reviewed_at": "2026-10-04T17:56:02.721459+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "nuberu",
+  "basis_claim_ids": [
+    "nuberu-c02",
+    "nuberu-c10",
+    "nuberu-c11"
+  ],
+  "depicted_variant": "Cantabrian Nuberu as a small chubby weather spirit with little black wings",
+  "visual_requirements": [
+    "Small chubby adult humanlike being with exactly two small black wings",
+    "Retain storm setting as source manifestation; no generic emitted aura"
+  ],
+  "aura": "Mischievous posture, storm contrast and cloud lightning convey weather-spirit presence.",
+  "prompt": "Use case: illustration-story. ONE square detailed painterly mythology encyclopedia illustration of NUBERU in the specifically Cantabrian variant: one SMALL, CHUBBY humanlike male weather spirit with a devilish mischievous grin and TWO LITTLE BLACK WINGS. He hovers amid charged storm clouds above distant tiny fields and the Cantabrian coast. His stout body and short small wings are entirely visible; plain modest dark cloth is an artistic clothing treatment. Powerful violet-blue cloud luminescence, lightning curling through surrounding clouds and ominous storm wind make him unmistakably supernatural. Preserve his little size relative to cloud banks; not a huge muscular demon. Distinct black wings and stout little silhouette, expressive menacing grin, richly painted skin and cloud textures. No horns, animal hooves, long tail, giant bat wings, eyepatch or wolf chariot from different variants. No text, watermark, border, nudity, victims or gore.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-128.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/nuberu.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-8648dea8-4286-4ff4-8027-9c232e44cd26.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected full native original. Cloud lightning belongs to the storm spirit's source identity; the small black-winged body has no surrounding energy envelope.",
+    "reviewer": "worker-0"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected image: small chubby black-winged spirit amid storm clouds; distant lightning is source-supported weather (c02,c10), no emitted body envelope."
+  },
+  "aura_policy_history": [
+    {
+      "aura": "Charged violet storm haze, lightning and turbulent cloud-glow",
+      "visual_requirements": [
+        "Small chubby humanlike being",
+        "Exactly two little black wings",
+        "Mischievous devilish grin amid supernatural storm clouds"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed small chubby male weather spirit with a devilish grin, two little black feathered wings and modest dark cloth. No horns, tail, eye patch or mixed chariot variant. Violet luminous storm clouds and lightning surround his hovering figure, making the supernatural weather-spirit aura unmistakable."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: chubby small humanlike weather spirit with two small black wings, malicious grin and charged violet lightning-cloud aura; no added horns or mixed regional costume.",
+        "reviewed_at": "2026-10-05"
+      }
+    }
+  ],
+  "aura_revision": {
+    "decision": "keep",
+    "reviewer": "worker-0",
+    "rationale": "Cloud lightning belongs to the storm spirit's source identity; the small black-winged body has no surrounding energy envelope.",
+    "allowed_magic": "Storm clouds and lightning justified by Nuberu weather divinity (c02) and northwest storm wind (c10); no bodily glow.",
+    "source_basis_claim_ids": [
+      "nuberu-c02",
+      "nuberu-c10",
+      "nuberu-c11"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/nuberu.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/nuberu.json"
+  }
+}

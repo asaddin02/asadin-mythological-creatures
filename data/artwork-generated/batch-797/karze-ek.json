@@ -1,0 +1,88 @@
+{
+  "slug": "karze-ek",
+  "basis_claim_ids": [
+    "karze-ek-c01",
+    "karze-ek-c05",
+    "karze-ek-c07"
+  ],
+  "depicted_variant": "Skarbnik as a small elderly bearded miner carrying a lamp",
+  "visual_requirements": [
+    "Remove only gold magical ribbons wrapping miner and lantern, magical motes and green crystal emission. Preserve actual held lamp flame and warm lamp illumination/reflections, small elderly bearded miner, same face, pose, clothes, lamp, mine and crystals. Crystals reflect lamplight, not emit it. Protective presence through watchful posture and mine composition; no emitted aura.",
+    "No generic emitted magical wrapping; preserve original anatomy, counts and scale"
+  ],
+  "aura": "Watchful elderly miner, held lamp and reflective underground crystals.",
+  "prompt": "Use case: precise-object-edit. Edit target supplied mythology artwork. Remove only gold magical ribbons wrapping miner and lantern, magical motes and green crystal emission. Preserve actual held lamp flame and warm lamp illumination/reflections, small elderly bearded miner, same face, pose, clothes, lamp, mine and crystals. Crystals reflect lamplight, not emit it. Protective presence through watchful posture and mine composition; no emitted aura. Preserve original framing, subject count, exact scale and anatomy; no new objects, nudity, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-122.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/karze-ek-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-85af0ed2-51b5-47be-a0af-a83917af43ad.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output actually inspected: gold wrapping and sparkles removed, same small bearded miner holding lamp preserved, crystals now reflective and actual lamp remains luminous.",
+    "reviewer": "aura-resume-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: old bearded dwarf miner carrying physical lantern amid ore and crystals. Warm light tied to lantern/reflections; no floating golden spirals."
+  },
+  "attempt_history": [
+    {
+      "slug": "karze-ek",
+      "basis_claim_ids": [
+        "karze-ek-c01",
+        "karze-ek-c05",
+        "karze-ek-c07"
+      ],
+      "depicted_variant": "Skarbnik as a small elderly bearded miner carrying a lamp",
+      "visual_requirements": [
+        "Small elderly bearded humanlike miner",
+        "Clearly held mine lamp",
+        "Luminous protective aura among underground crystals"
+      ],
+      "aura": "Protective golden lamp wisps and emerald crystal-light particles",
+      "prompt": "ONE square detailed painterly Slavic folklore illustration of SKARBNIK/KARZEŁEK: a small elderly humanlike MINER with thick grey beard, simple worn mining clothes and a clearly held old mine LAMP. Whole figure inside frame amid subterranean ore veins and crystals. His small stature is apparent beside mine timbers. The lamp emits impossible curling golden light wisps and luminous particles that wrap around his silhouette; emerald crystals glow in resonance, creating unmistakable supernatural guardian aura. Watchful stern wise face; underground dread yet protective mood. Accurate humanlike body, no horns, wings, pointed ears or animal parts. Historical clothing is artistic treatment. No text, watermark, border, victims or gore.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-122.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/karze-ek.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-85af0ed2-51b5-47be-a0af-a83917af43ad.png",
+      "reviewed_at": "2026-10-05T02:53:37.207Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed small elderly bearded humanlike miner holding a clear lamp, worn mining clothes and underground ore/crystal habitat. Bright golden lamp wisps curl around his whole silhouette and sparkling emerald crystals amplify a protective magical guardian aura. No unsupported horns, wings or animal form."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: elderly bearded small miner holding mine lamp, underground ore/crystal setting, clear emitted gold wisps and green particles; source guardian miner appearance retained.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/karze-ek-verified.webp",
+      "sha256": "b995816f31c1d95bdddccb0a567f726bcf56cd7a26fc4a774801b8b2fbae6d67",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-75280a2b-8f7a-4b83-bf73-1753fc9b84d8.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Gold spiral envelope and magical sparkles unsupported by miner with lamp claims.",
+    "allowed_magic": "none beyond the documented creature manifestation; ordinary light sources retained",
+    "source_basis_claim_ids": [
+      "karze-ek-c01",
+      "karze-ek-c05",
+      "karze-ek-c07"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/karze-ek.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/karze-ek.json"
+  }
+}

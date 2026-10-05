@@ -1,0 +1,35 @@
+{
+  "slug": "lucifer",
+  "worker": "worker-3",
+  "prompt": "Use case: historical-scene. ONE square detailed painterly naturalistic encyclopedia illustration of Lucifer as the Christian fallen angel, using the historical male feather-winged Satan iconography in Alexandre Cabanel's 1847 L'Ange déchu held by Musée Fabre. Create an original composition rather than copying the painting. One beautiful but terrifyingly defiant adult male angel seated on desolate dark rocks beneath a distant cold celestial light that he can no longer reach. Two large clearly feathered dusky wings attached naturally at his shoulder blades, intact human anatomy, dark auburn curly hair, face marked by proud bitterness, grief and an intense hostile stare. Simple opaque dark drapery covers torso and lower body modestly, feet bare. The divine beauty remains but he radiates ominous tragic rage after being expelled from heaven. Dramatic shadow and pale distant celestial light. Central complete identifiable figure and feather wings comfortably inside the square, realistic painterly texture. Invariants: fallen humanlike male angel, feather wings and embittered despair, original subdued composition. Avoid horns, bat wings, red skin, fangs, claws, goat legs, tail, crown, weapon, armor, torch, star deity, cartoon demon, gore, nudity. No other characters, no text, no watermark, no border.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-16d8eb8e-2386-4876-82a2-62e0bfeafa61.png",
+  "review_path": "data/gemini/reviews/batch-043.review.json",
+  "visual_requirements": [
+    "Humanlike male fallen angel",
+    "Two feathered wings",
+    "Proud rage and tragic celestial exile",
+    "No invented horns or monstrous anatomy",
+    "Lower body modestly draped"
+  ],
+  "depicted_variant": "Christian fallen angel using Cabanel's historic iconographic interpretation; not Roman morning-star personification",
+  "basis_claim_ids": [
+    "lucifer-c01",
+    "lucifer-c04",
+    "lucifer-c10",
+    "lucifer-c12"
+  ],
+  "additional_sources": [
+    {
+      "url": "https://www.museefabre.fr/recherche/musee:MUS_BIEN:4064",
+      "title": "Musée Fabre: Alexandre Cabanel, L'Ange déchu, 1847",
+      "basis": "Institution identifies raging Satan cast from Paradise. Visually inspected museum-hosted painting for human male form, feathered wings, and bitter despair; output is a new composition."
+    }
+  ],
+  "aura": "Ominous, bitter, tragic fallen-divine majesty",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Observed a humanlike adult male with curly auburn hair, normal face and limbs, two dusky feather wings, lower body covered by dark cloth. Fierce embittered gaze, hunched seated posture on dark rocks, and remote bright heaven convey lost divine majesty and threatening rage. No horns, bat membranes, claws, tail, weapon, gore, visible genitals, text, or watermark. One wing edge approaches the frame but form remains identifiable."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed"
+}

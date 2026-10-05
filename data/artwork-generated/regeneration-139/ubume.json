@@ -1,0 +1,56 @@
+{
+  "slug": "ubume",
+  "worker": "regen-3",
+  "prompt": "Use case: illustration-story. Square premium painterly mythology encyclopedia artwork of UBUME in the specific regional KYUSHU UBUMEDORI BIRD manifestation recorded in Terajima Ryōan's Wakan Sansai Zue (1712), author commentary, translated in Yasui Manami's Japan Review study 2021 pages101-102. That Kyushu account describes a bird resembling a seagull in appearance, voice and size, near the western Japanese sea coast on a dark drizzly night, with phosphorescent ghost-fire where it appears. Show ONE entire gull-like bird standing on a slick dark shoreline rock in light rain. Fully avian head with beak, two folded wings integrated naturally into one feathered body, exactly two bird legs with two feet, one feathered tail. All visible body and tail within frame. White and muted grey plumage, natural yellowish gull beak, wet coastal wind ruffling feathers, no human face or body. A single faint bluish-green phosphorescent flame beside the rock marks its uncanny folkloric presence; this is an environmental supernatural light, not added bird anatomy. Rich detailed mature brushwork, deep forest green coastal shadows, very subtle antique-gold cloud-edge light and mournful eerie night atmosphere. Select only Ryōan's Kyushu gull-like bird form, do NOT combine with the separate Chinese human-breasted bird or usual Japanese maternal human ghost: no human breasts, hands, woman, child, bundles, blood, gore, clothing, horns, extra wings, invented hybrid parts, multiple birds, attacking scene, text, border, signature or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/ubume.png",
+  "review_path": "data/gemini/reviews/batch-049.review.json",
+  "depicted_variant": "Kyushu ubumedori, the gull-like night bird in Ryōan's Wakan Sansai Zue author commentary",
+  "visual_requirements": [
+    "Entire gull-like avian form with one head, two wings, two feet and tail",
+    "Natural webbed gull feet",
+    "Coastal dark drizzle and associated phosphor fire",
+    "No hybrid anatomy from separate Chinese version"
+  ],
+  "basis_claim_ids": [
+    "ubume-c02"
+  ],
+  "aura": "Mournful uncanny coastal bird on a dark wet night",
+  "additional_sources": [
+    {
+      "url": "https://japanreview.jp/issues/35/1922/",
+      "title": "Yasui Manami (2021), Imagining the Spirits of Deceased Pregnant Women, Japan Review 35, pp.101–102",
+      "evidence": "Study translates Ryōan's source commentary describing Kyushu coastal birds resembling gulls in size, form and call, associated with ghost-fire in drizzle."
+    },
+    {
+      "url": "https://nichibun.repo.nii.ac.jp/record/7629/files/jare_035_091.pdf",
+      "title": "Yasui — full article and Wakan Sansai Zue quotation, pp.101–102",
+      "evidence": "Full paper downloaded and read. This selects Ryōan's local bird interpretation, separately from the Chinese mammary-bearing hybrid."
+    }
+  ],
+  "nonhuman_features": [
+    "Fully feathered gull-like body with beak, folded wings, webbed feet and avian tail"
+  ],
+  "accuracy_mode": "source-supported",
+  "historical_basis": "The existing ubume research records varying appearances. The source commentary translated in Yasui explicitly supplies the Kyushu gull-like coastal apparition chosen here.",
+  "artistic_changes": [
+    "Grey-white plumage, exact gull species, rock perch, beak colour and blue-green fire are artistic choices. The fixed colour/species is not claimed by the source."
+  ],
+  "invented_anatomy": [],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Individually inspected corrected image via view_image: one entirely avian gull-like bird with one beaked head, folded wing plumage, one tail, two legs and now clearly webbed gull feet. No human breasts, hands, figure, child or clothing. All avian body parts fit frame. Coastal night rain and one blue-green flame preserve the selected Kyushu account. Initial unwebbed-foot variant was rejected/deleted with ledger; corrected image has no visible text/signature."
+  },
+  "correction": {
+    "tool": "OpenAI built-in image_gen edit",
+    "purpose": "Correct both feet to clearly webbed gull feet; preserve bird and scene",
+    "rejection_ledger": "data/artwork-generated/regeneration-139/ubume.rejections.json"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "reviewed_at": "2026-10-04T16:34:55.200Z",
+  "root_visual_review": {
+    "verdict": "pass",
+    "notes": "Independently viewed: one complete gull-like bird with two folded wings and two webbed feet, coastal drizzle and ghost fire; Kyushu bird account selected without mixing separate mammary hybrid.",
+    "reviewed_at": "2026-10-04T17:56:02.719530+00:00"
+  }
+}

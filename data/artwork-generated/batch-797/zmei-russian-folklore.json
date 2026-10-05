@@ -1,0 +1,69 @@
+{
+  "slug": "zmei-russian-folklore",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: stylized-concept. Square premium naturalistic painterly terrifying mythology artwork. ONE RUSSIAN ZMEI in the common THREE-HEADED FLYING DRAGON variant, a single immense serpent-dragon body with exactly THREE distinct long necks and THREE dragon heads clearly spaced, no more or less. Flying above a fiery river and Kalinov Bridge at the mountainous border of the realm of the dead; bridge, trees and mountain slopes convey massive size. A single shared coiling scaled torso and tail, coherent dragon anatomy, float without conspicuous wings because wings are rarely mentioned in these tales; no need to invent wings. Predatory terrifying three heads stare down, huge jaws, dark scales editorial texture. Fiery riverlight from below, smoke and sinister red supernatural fog as mythic aura. Entire three-head silhouette readable, detailed dramatic environment, formidable enormous presence. No human captives, no gore, no crowns, no text, no watermark, no detached heads or second dragon.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/zmei-russian-folklore.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-c7d1385c-4688-40e8-95e6-7eefe9ea1437.png",
+  "review_path": "data/gemini/reviews/batch-122.review.json",
+  "visual_requirements": [
+    "Exactly three dragon heads on one body without conspicuous wings",
+    "Preserve giant scale, mountain bridge and source fiery river",
+    "Retain river fire and physical steam only; no generic emitted aura"
+  ],
+  "depicted_variant": "Most common three-headed flying zmei, in documented Gorynych mountain/fiery-river/bridge setting; deliberately no conspicuous wings.",
+  "basis_claim_ids": [
+    "zmei-russian-folklore-c01",
+    "zmei-russian-folklore-c04",
+    "zmei-russian-folklore-c05",
+    "zmei-russian-folklore-c06"
+  ],
+  "aura": "Threatening three-head pose, huge scale and fiery-river contrast.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected full native original. Exactly three heads share one enormous wingless body above the bridge and fiery river; reddish illumination comes from the source setting without energy ribbons.",
+    "reviewer": "worker-0"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected image: exactly three heads on enormous serpentine body over bridge and fiery river. Warm illumination tied to source setting c05; no floating energy wrap."
+  },
+  "aura_policy_history": [
+    {
+      "aura": "Sinister red fog, fiery riverlight and smoke at realm-of-dead bridge.",
+      "visual_requirements": [
+        "One shared body with exactly three dragon heads",
+        "Flying presence without invented conspicuous wings",
+        "Fiery river and mountain bridge",
+        "Enormous threatening aura"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native: exactly three dragon heads on three necks join one coiling flying serpent-dragon torso/tail above fiery river bridge and mountainous forest. No wings, no captive victims; sinister red smoky aura. Horns and dark scales editorial texture, not asserted textual specifics."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: exactly three heads and necks on one coiling body, wingless flying presence over fiery bridge/river, ominous red smoke and great scale; source common threehead variant preserved.",
+        "reviewed_at": "2026-10-05"
+      }
+    }
+  ],
+  "aura_revision": {
+    "decision": "keep",
+    "reviewer": "worker-0",
+    "rationale": "Exactly three heads share one enormous wingless body above the bridge and fiery river; reddish illumination comes from the source setting without energy ribbons.",
+    "allowed_magic": "Fiery river in Gorynych mountain and Kalinov Bridge setting, c05; warm reflected firelight retained.",
+    "source_basis_claim_ids": [
+      "zmei-russian-folklore-c01",
+      "zmei-russian-folklore-c04",
+      "zmei-russian-folklore-c05",
+      "zmei-russian-folklore-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/zmei-russian-folklore.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/zmei-russian-folklore.json"
+  }
+}

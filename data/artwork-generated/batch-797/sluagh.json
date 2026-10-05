@@ -1,0 +1,90 @@
+{
+  "slug": "sluagh",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Remove ONLY unsupported effects: all pale green luminous energy ribbons and magical neon swirls around body; retain nonluminous DARK SHADOW trailing whirling shape as source-supported apparition, ordinary gray storm clouds. Preserve exactly same flying whirling dark HUMANLIKE SHADOW form, long WEBBED FINGERS on both hands and two clawed legs, no bird head or added wings, same scale/pose and storm-sea composition; background host silhouettes may remain, framing and painterly detail. Character presence through terrifying flying shadow silhouette, long webbed hands and storm-tossed island sea. Natural light, shadows and textures, no generic emitted aura, new anatomy, extra characters, nudity, gore, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/sluagh-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-562291a3-0bc1-44a2-8cac-5f5ff56fec71.png",
+  "depicted_variant": "Flying whirling shadow spirit with long webbed fingers and clawed legs",
+  "basis_claim_ids": [
+    "sluagh-c01",
+    "sluagh-c02",
+    "sluagh-c04",
+    "sluagh-c06"
+  ],
+  "aura": "terrifying flying shadow silhouette, long webbed hands and storm-tossed island sea",
+  "visual_requirements": [
+    "same flying whirling dark HUMANLIKE SHADOW form, long WEBBED FINGERS on both hands and two clawed legs, no bird head or added wings, same scale/pose and storm-sea composition; background host silhouettes may remain",
+    "No generic emitted body aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native inspected: dark flying whirling humanlike shadow, long webbed fingers and clawed legs preserved; pale green emitted swirls removed, nonluminous shadow trails and supported host silhouettes retained.",
+    "reviewer": "aura-resume-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-117.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected native: dark flying whirling shadow host above sea, long webbed fingers and clawed legs retained, nonluminous shadow manifestation without blue/white aura."
+  },
+  "attempt_history": [
+    {
+      "slug": "sluagh",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square terrifying painterly naturalistic mythology illustration of SLUAGH, hosts of unforgiven dead in Scottish/Irish folklore, choosing one representative of source FLYING WHIRLING SHADOW form. ONE humanlike dark spectral silhouette whirls above stormy Western Isles sea, two long hands with LONG WEBBED FINGERS clearly spread, TWO CLAWED LEGS, head shadowed rather than invented bird head. Full shape framed, body remains shadow/light rather than graphic corpse. Faint crescent of trailing shadows suggests host without adding solid creatures. Clearly luminous cold grey-green wisps RADIATE FROM SHADOW BODY, rotting-looking vapor aura evokes source odor artistically, extreme dreadful night atmosphere. No wings added, victim, gore, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/sluagh.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-562291a3-0bc1-44a2-8cac-5f5ff56fec71.png",
+      "depicted_variant": "Flying whirling shadow spirit with long webbed fingers and clawed legs",
+      "basis_claim_ids": [
+        "sluagh-c01",
+        "sluagh-c02",
+        "sluagh-c04",
+        "sluagh-c06"
+      ],
+      "aura": "terrifying unforgiven dead host represented by one shadow apparition",
+      "visual_requirements": [
+        "one flying humanlike whirling shadow",
+        "long webbed fingers, clawed legs",
+        "host represented by one member, no bird-head hybrid"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected: one flying whirling humanlike shadow, two hands with elongated webbed fingers, two clawed legs, shadow host trailing over dark coast. No invented bird head or added wings; grey-green emitted aura artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-117.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Flying whirling humanlike shadow, visibly long webbed fingers and clawed legs, strong emitted spectral wind aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/sluagh-verified.webp",
+      "sha256": "80b86a641e7e8d00d81a84de5188e884ecbd9ffd2bdb79b105783e3fbe4aa1b7",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-fff9-76e1-92c1-76bde2aff5e5/exec-30852648-c952-4102-bf74-542eb3b9982c.png",
+  "revision_generator": "aura-resume-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-2",
+    "rationale": "Removed unsupported emitted body effects, preserving source variant, identity and anatomical traits.",
+    "allowed_magic": "Flying whirling shadow, sluagh-c04",
+    "source_basis_claim_ids": [
+      "sluagh-c01",
+      "sluagh-c02",
+      "sluagh-c04",
+      "sluagh-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/sluagh.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/sluagh.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

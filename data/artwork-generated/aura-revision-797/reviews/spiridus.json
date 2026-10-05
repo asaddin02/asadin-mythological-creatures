@@ -1,0 +1,29 @@
+{
+  "slug": "spiridus",
+  "rationale": "Tiny craftsman and plant roots wrapped in unsupported golden emitted energy.",
+  "allowed_magic": "none",
+  "aura": "Small meticulous humanlike craftsman under gigantic flower/root, warm natural sunlight conveys scale and woodland wonder.",
+  "visual_requirements": [
+    "Tiny adult humanlike craftsman, same hands/face/clothes and work pose.",
+    "Large plant roots and flower establish miniature scale.",
+    "No golden emitted root/body filaments, particles or magic fog."
+  ],
+  "prompt": "Use case: precise-object-edit. Input image is sole EDIT TARGET. Remove all unsupported emitted energy ribbons, luminous colored fog, magical sparkles/particles, halos and neon outlines from subjects and environment. Reconstruct ordinary physical textures underneath. Preserve exact identities, anatomy/counts, pose, scale, perspective, clothing and scene. Natural light only; no new objects/characters, text or watermark. Spiridus: preserve tiny humanlike ADULT craftsman kneeling at tree root, same hand tool and work pose; no anatomy changes, keep gigantic flower and roots providing small-scale reference. Remove self-glowing gold lines from tree roots and floating bright energy around his body. Natural sun filtering through leaves lights moss, clothes and skin; wonder through physical scale and attentive posture.",
+  "reviewer": "root",
+  "decision": "revise",
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-bf4719b4-40c2-4c5b-88be-4f256794e95d.png",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native edit: tiny adult craftsman retains tools/hands and same root/giant-flower scale. Gold filaments/dots gone; natural woodland sunlight only."
+  },
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/spiridus.png",
+  "source_basis_claim_ids": [
+    "spiridus-c01",
+    "spiridus-c03",
+    "spiridus-c04",
+    "spiridus-c05"
+  ],
+  "status": "reviewed",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/aura-revision-797/originals/spiridus.png",
+  "tool": "OpenAI built-in image_gen"
+}

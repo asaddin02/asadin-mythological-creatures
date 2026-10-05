@@ -1,0 +1,90 @@
+{
+  "slug": "ora-mythology",
+  "worker": "worker-0",
+  "prompt": "Edit this existing mythological encyclopedia artwork to revise AURA as CHARACTER PRESENCE. REMOVE ALL generic emitted colored energy ribbons, neon outlines/halos, magical wisps, glowing particles/sparkles, colored luminous smoke/fog and body glow, including residual lines around silhouette, from creature and environment. Remove unsupported luminous eyes, retain normal natural eyes and reflections. Do not replace effects with white magic or fireflies. Use natural scene light only. Character presence: Quiet protective authority through raised head, natural warm daylight and mountain stream. Preserve EXACT subject anatomy/counts/scale, identity, pose, perspective, scene, adult modest clothing and concealment. Critical invariants: One golden-horned legless wingless serpent, exact continuous coils/head and stream setting. Retain detailed painterly naturalism, keep source physical colors/materials. No additional creatures, no text/watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/ora-mythology-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-71eedea5-76a8-41ce-9344-2a37d7f05c7d.png",
+  "depicted_variant": "Northern Albanian golden-horned serpent Ora",
+  "basis_claim_ids": [
+    "ora-mythology-c01",
+    "ora-mythology-c02",
+    "ora-mythology-c03",
+    "ora-mythology-c04"
+  ],
+  "aura": "Quiet protective authority through raised head, natural warm daylight and mountain stream.",
+  "visual_requirements": [
+    "One golden-horned legless wingless serpent, exact continuous coils/head and stream setting.",
+    "Character presence through pose/framing/natural scene light; no generic emitted aura."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actual new output inspected in six-image contact sheet. Removed luminous ribbons, particles and emitted color fields; retained source anatomy, subject scale, physical colors and modest clothes. Tartalo has exactly one central eye and non-glowing physical ring; Ora retains golden horns; Sihuanaba retains horse head.",
+    "reviewer": "worker-1"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-124.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected revised contact image: solid serpent with material golden horns and scales beside stream; gold energy loops and particles gone. Source serpent variant remains dignified through pose, daylight and mountains."
+  },
+  "attempt_history": [
+    {
+      "slug": "ora-mythology",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square exquisite detailed painterly naturalistic mythology illustration of ORA, Albanian protective destiny spirit, selecting the Northern Albanian GOLDEN-HORNED SERPENT form rather than the three-goddess group. ONE long coiled natural serpent with one snake head and two small clearly GOLDEN HORNS, no legs or wings. It rests beside a clear mountain stream north of the Drin among weathered rocks, subtle scattered gold glints in streambed. Full coiled body and tail inside frame. Watchful benevolent sacred fate-keeper aura through warm gold rimlight, pale protective mist and luminous water as artistic atmosphere. Source serpent/golden-horn/bringing gold identity preserved; scale colors and light artistic. No human face, dragon wings, extra heads, arms, crowned goddess, text, watermark, border or collage. Aura requirement: visibly luminous supernatural wisps and light radiate directly from the creature's body and cast a subtle glow on nearby surfaces; this is artistic effect, not extra anatomy.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/ora-mythology.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-71eedea5-76a8-41ce-9344-2a37d7f05c7d.png",
+      "depicted_variant": "Northern Albanian golden-horned serpent Ora",
+      "basis_claim_ids": [
+        "ora-mythology-c01",
+        "ora-mythology-c02",
+        "ora-mythology-c03",
+        "ora-mythology-c04"
+      ],
+      "aura": "protective destiny spirit, gold and mountain-stream luminescence",
+      "visual_requirements": [
+        "single serpent with golden horns",
+        "legless, wingless",
+        "Albanian mountain/stream protective aura"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: one legless/wingless coiled serpent with golden horns and one snake head at mountain stream. Clearly emitted golden luminous wisps cast warm light on nearby rock/water. Northern Albanian serpent fate-spirit variant preserved, no triple-goddess mixture. Scale palette, horn shape and light artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-124.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: one continuous wingless/legless serpent with golden horns near mountain stream, unmistakable emitted gold wisps and water reflections; guardian fate-spirit variant retained.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/ora-mythology-verified.webp",
+      "sha256": "ecabf194012295417b72585bc7b73dcc97a44ff17a9c28afb3bc67bb5e969671",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-f6ed4725-d062-4ce8-8c63-63d700003068.png",
+  "revision_generator": "worker-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-1",
+    "rationale": "Gold light-ribbons/particles surround golden-horned serpent; source gold horns are material, no emitted field.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "ora-mythology-c01",
+      "ora-mythology-c02",
+      "ora-mythology-c03",
+      "ora-mythology-c04"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/ora-mythology.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/ora-mythology.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

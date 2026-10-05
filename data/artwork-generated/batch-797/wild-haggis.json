@@ -1,0 +1,132 @@
+{
+  "slug": "wild-haggis",
+  "worker": "root",
+  "prompt": "Use case: precise-object-edit. Input image is sole EDIT TARGET. Remove all unsupported emitted energy ribbons, luminous colored fog, magical sparkles/particles, halo and neon body outlines. Reconstruct natural physical materials underneath. Preserve exact identity, anatomy, counts, scale, pose, perspective, clothing, composition and scene. No additional characters, text or watermark. Wild Haggis: preserve EXACTLY FOUR original legs and their differing left-versus-right leg lengths; do not normalize leg proportions. Keep same paw contact points on steep mountainside, same coherent rabbit/squirrel-like face, fur and bushy tail, small body size and natural Highland landscape. Remove golden energy loops and glowing dots around animal, do NOT replace them with fireflies. Ordinary warm sunset fur highlights only.",
+  "depicted_variant": "Small furry rabbit-squirrel-like creature with unequal left/right legs",
+  "basis_claim_ids": [
+    "wild-haggis-c01",
+    "wild-haggis-c02",
+    "wild-haggis-c05",
+    "wild-haggis-c06",
+    "wild-haggis-c07"
+  ],
+  "visual_requirements": [
+    "Small furry rabbit-squirrel-like mammal, same face/tail.",
+    "Exactly four legs; source unequal left/right leg lengths and original slope contacts unchanged.",
+    "No emitted gold body sparkle or light ribbons."
+  ],
+  "aura": "Charming uncanny Highland rabbit-squirrel-like mammal through unusual leg proportions, steep hillside and natural sunset.",
+  "review_path": "data/gemini/reviews/batch-116.review.json",
+  "tool": "OpenAI built-in image_gen",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-4910bbc0-b629-466c-978f-98bf8f4a3632.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/wild-haggis-presence-v2.png",
+  "status": "reviewed",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "aura-resume-0",
+    "reviewed_at": "2026-10-05",
+    "notes": "Independently inspected revised native contact: small furry rabbit-squirrel-like mammal on slope, original unequal-side leg placement and slope contacts preserved; no added limbs or emitted gold sparkles/ribbons. Natural warm sunset."
+  },
+  "attempt_history": [
+    {
+      "prompt": "Use case: stylized-concept. One square high-detail painterly naturalistic cinematic mythology encyclopedia illustration. One small furry WILD HAGGIS fictional Scottish Highlands creature, source resembles rabbit-and-squirrel cross: compact brown mammal body, soft short muzzle, moderately long ears and bushy squirrel-like tail, FOUR legs total. Show all four legs from low three-quarter angle on hillside contour path, LEFT-side front and hind legs clearly LONGER than RIGHT-side pair, compensating for steep hillside slope. Daisies/grass establish small animal size. Charming humorousfolklore, coherent anatomy, not grotesque. Green-gold luminous wisps clearly EMIT FROM furry silhouette, magical motes around feet. No giant, antlers, extra paws or haggisfood. No writing, labels, text, watermark, frame or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/wild-haggis.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-8eb9c862-759f-47d3-ae87-2cd6620e1c8a.png",
+      "reason": "Initial left/right limb length asymmetry unclear."
+    },
+    {
+      "prompt": "Use case: precise-object-edit. Edit provided wild-haggis illustration, preserve animal's brown rabbit-squirrel likeness, adult animal face, large ears, bushy tail, small body scale against daisies, Highland scenery, painterly realism and glowing emitted green-gold magical wisps. Change ONLY leg pose and relative side lengths to make its folkloric sidehill anatomy unmistakable. Exactly FOUR separate mammalian legs and four paws, all visible without overlap or obstruction. Left-side front AND hind legs should be clearly twice as long as corresponding right-side legs, not merely an apparent perspective difference. Pose it walking along a lateral steep slope so shorter pair stand upslope and longer pair downslope, body level. Three-quarter low view showing all four separate full legs beneath body. No added limbs, humans, text, labels or panels. Keep beautiful coherent mammalian anatomy.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/wild-haggis-v2.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-a314e6fa-4c7c-4048-9c86-aafa3cb25d94.png",
+      "reason": "Targeted asymmetry improved but introduced fifth paw."
+    },
+    {
+      "slug": "wild-haggis",
+      "worker": "root",
+      "prompt": "Use case: precise-object-edit. Critical anatomical correction to this same wild-haggis animal image. It currently has FIVE paws because an extra short front limb appears under the chest between the raised far front paw at upper-left and the long near front leg. REMOVE ONLY that middle short duplicate forelimb and its paw (paw immediately below chest near roughly30% imagewidth/52%imageheight). Replace removed limb seamlessly with natural chestfur/grass. Keep exactly FOUR legs total: far front limb stretching upslope to viewerleft, long near front leg down center-left, short far hind leg below belly center-right, long near hind leg reaching lower right. Preserve all four remaining paws, creature face, rabbit-squirrelfur, tail, unequal side lengths, landscape and emitted green-gold aura. NO extra limb or fifth paw. No other changes.",
+      "depicted_variant": "Small furry rabbit-squirrel-like creature with unequal left/right legs",
+      "basis_claim_ids": [
+        "wild-haggis-c01",
+        "wild-haggis-c02",
+        "wild-haggis-c05",
+        "wild-haggis-c06",
+        "wild-haggis-c07"
+      ],
+      "visual_requirements": [
+        "Small furry rabbit-squirrel-like mammal",
+        "Four legs, left-side legs longer than right-side legs",
+        "Highland slope and clearly emitted aura"
+      ],
+      "aura": "Clearly emitted supernatural luminous wisps and particles as artistic aura",
+      "review_path": "data/gemini/reviews/batch-116.review.json",
+      "tool": "OpenAI built-in image_gen",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-4910bbc0-b629-466c-978f-98bf8f4a3632.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/wild-haggis-v3.png",
+      "status": "reviewed",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected corrected native: exactly four legs/paws counted after duplicate limb removal, near/downhill-side pair visibly longer than opposite uphill pair, coherent small rabbit-squirrel-like furry mammal with Highland slope and emitted green-gold aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "attempt_history": [
+        {
+          "prompt": "Use case: stylized-concept. One square high-detail painterly naturalistic cinematic mythology encyclopedia illustration. One small furry WILD HAGGIS fictional Scottish Highlands creature, source resembles rabbit-and-squirrel cross: compact brown mammal body, soft short muzzle, moderately long ears and bushy squirrel-like tail, FOUR legs total. Show all four legs from low three-quarter angle on hillside contour path, LEFT-side front and hind legs clearly LONGER than RIGHT-side pair, compensating for steep hillside slope. Daisies/grass establish small animal size. Charming humorousfolklore, coherent anatomy, not grotesque. Green-gold luminous wisps clearly EMIT FROM furry silhouette, magical motes around feet. No giant, antlers, extra paws or haggisfood. No writing, labels, text, watermark, frame or collage.",
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/wild-haggis.png",
+          "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-8eb9c862-759f-47d3-ae87-2cd6620e1c8a.png",
+          "reason": "Initial left/right limb length asymmetry unclear."
+        },
+        {
+          "prompt": "Use case: precise-object-edit. Edit provided wild-haggis illustration, preserve animal's brown rabbit-squirrel likeness, adult animal face, large ears, bushy tail, small body scale against daisies, Highland scenery, painterly realism and glowing emitted green-gold magical wisps. Change ONLY leg pose and relative side lengths to make its folkloric sidehill anatomy unmistakable. Exactly FOUR separate mammalian legs and four paws, all visible without overlap or obstruction. Left-side front AND hind legs should be clearly twice as long as corresponding right-side legs, not merely an apparent perspective difference. Pose it walking along a lateral steep slope so shorter pair stand upslope and longer pair downslope, body level. Three-quarter low view showing all four separate full legs beneath body. No added limbs, humans, text, labels or panels. Keep beautiful coherent mammalian anatomy.",
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/wild-haggis-v2.png",
+          "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-a314e6fa-4c7c-4048-9c86-aafa3cb25d94.png",
+          "reason": "Targeted asymmetry improved but introduced fifth paw."
+        }
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected corrected native: exactly four legs/paws counted after duplicate limb removal, near/downhill-side pair visibly longer than opposite uphill pair, coherent small rabbit-squirrel-like furry mammal with Highland slope and emitted green-gold aura."
+      },
+      "independent_visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-0",
+        "notes": "Worker-0 actually inspected native v3: exactly four distinct paws visible; uphill far foreleg short and far hindleg short, downhill near foreleg and near hindleg substantially longer, standing level on slope. Emitted green-gold magic clear; squirrel/rabbit-like artistic coat/body styling remains documented.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/wild-haggis-verified.webp",
+      "sha256": "cf5d2fd799a4ca13251f869bf5a34a602ae56652ef54022fcc5e129357c7a09b",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native edit: small furry rabbit-squirrel-like mammal with same four leg contacts/unequal side proportions and bushy tail on slope. All gold filaments/sparkles gone, ordinary sunset rim on fur.",
+    "reviewer": "root"
+  },
+  "independent_visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native edit: small furry rabbit-squirrel-like mammal with same four leg contacts/unequal side proportions and bushy tail on slope. All gold filaments/sparkles gone, ordinary sunset rim on fur.",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05"
+  },
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-b9e42214-8aa8-4621-970e-0f5a2f407fea.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Small asymmetrical-legged animal is wrapped in unsupported golden energy and sparkles.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "wild-haggis-c01",
+      "wild-haggis-c02",
+      "wild-haggis-c05",
+      "wild-haggis-c06",
+      "wild-haggis-c07"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/wild-haggis.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/wild-haggis.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

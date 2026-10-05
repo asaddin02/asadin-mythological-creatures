@@ -1,0 +1,94 @@
+{
+  "slug": "vantoase",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: lighting-weather. Supplied image is EDIT TARGET. Change ONLY unsupported magical lighting/VFX. Preserve exact character identities, faces, expressions, poses, coherent anatomy and limb counts, source scale, opaque modest clothing, camera, square framing and environment. No text/watermark. Remove ALL glowing cyan wind ribbons, luminous streams and glitter around THREE adult women dancing joined hands. Preserve three women, hand links, opaque white dresses, forest/lake, physical wind-blown hair and cloth, ordinary flying leaves and dusty wind from source hora dance. Wind shown by leaf movement and ripples, no neon vortex or invented bird anatomy.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/vantoase-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-b211bc37-9718-4a5a-b2a1-9c633a58ee75.png",
+  "review_path": "data/gemini/reviews/batch-123.review.json",
+  "visual_requirements": [
+    "Three adult female wind spirits",
+    "Hora joined dance raises wind",
+    "Forest/lake habitat",
+    "Natural airborne leaves and wind; no harpy anatomy or emitted cyan vortex"
+  ],
+  "depicted_variant": "Female Vântoase hora wind-raising spirits, humanlike anatomy and clothing editorial; explicitly no harpy-anatomy inference.",
+  "basis_claim_ids": [
+    "vantoase-c01",
+    "vantoase-c02",
+    "vantoase-c03",
+    "vantoase-c05"
+  ],
+  "aura": "Wind-spirit presence through joined hora dance, streaming hair, flying leaves, storm skies and lake waves.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected revised native contact: Three adult females still joined at hands with opaque white dresses, windblown hair and physical leaves over lake; all cyan ribbons and star particles removed.",
+    "reviewer": "aura-resume-0"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: female spirits dancing joined hands while wind raises leaves/dust by lake. Source wind/hora action retained physically, no luminous wind ribbons."
+  },
+  "attempt_history": [
+    {
+      "slug": "vantoase",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Romanian mythology artwork, stylized-concept. Three fully clothed ADULT FEMALE VÂNTOASE spirits dancing the HORA in a small joined circle at a forest lake shore, source-attested female wind spirits. Source-compatible humanlike female faces and two arms/two legs each, naturalistic beautiful yet unsettling features, modest flowing pale woodland dresses editorial not source dress claims. Their hora raises powerful wind: unmistakably luminous pale turquoise wind energy visibly emitted from each body and joined hands, ribbons spiral upward through dust storm, suspended radiant particles, swirling leaves across lake. Magical wind dominates scene, ominous supernatural atmosphere, naturalistic forest and water. Do not infer harpy wings/claws from comparison, no wings, no horns or bird feet, no victims or children, no text or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/vantoase.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-b211bc37-9718-4a5a-b2a1-9c633a58ee75.png",
+      "review_path": "data/gemini/reviews/batch-123.review.json",
+      "visual_requirements": [
+        "Adult female wind spirits",
+        "Hora joined dance raises wind",
+        "Forest/lake habitat",
+        "Visible emitted wind aura without harpy anatomy"
+      ],
+      "depicted_variant": "Female Vântoase hora wind-raising spirits, humanlike anatomy and clothing editorial; explicitly no harpy-anatomy inference.",
+      "basis_claim_ids": [
+        "vantoase-c01",
+        "vantoase-c02",
+        "vantoase-c03",
+        "vantoase-c05"
+      ],
+      "aura": "Pale turquoise emitted gale ribbons, radiant dust and wind spirals.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: Three fully clothed adult female humanlike spirits joined in hora at forest lake, powerful turquoise emitted wind ribbons/leaves around body/hands, no harpy anatomy. Exact surface detail/costume and visible aura editorial beyond listed source traits."
+      },
+      "reviewed_at": "2026-10-05T04:22:55.232Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Clothed adult female wind spirits in joined hora dance, body-emitted silver-blue wind wisps, no harpy anatomy imposed.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/vantoase-verified.webp",
+      "sha256": "46684a5db6c7b773845db5d00ab413d2352c93921d078112d1af657b3585c5b0",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-6870c14e-2497-4cec-9ab8-24fb02f3c3da.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Excessive luminous cyan wind ribbons removed; source wind-raising dance expressed by ordinary leaves, hair and dress movement.",
+    "allowed_magic": "Source c01/c03 windstorms and hora wind-raising retained physically; no luminous wind energy.",
+    "source_basis_claim_ids": [
+      "vantoase-c01",
+      "vantoase-c02",
+      "vantoase-c03",
+      "vantoase-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/vantoase.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/vantoase.json"
+  }
+}

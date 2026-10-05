@@ -1,0 +1,101 @@
+{
+  "slug": "zhytsen",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit / lighting-weather. Edit the supplied mythology artwork. Remove ONLY unsupported visual effects: all generic glowing envelopes, neon body outlines, colored energy ribbons, magical motes/particles, luminous colored fog, swirling aura, and glowing eye bulbs. Do not replace them with other magic. Preserve the SAME individual creature, body anatomy, count of eyes/limbs/heads, exact scale, pose, framing, clothing coverage, props, setting and painterly quality. Source invariants: Little long-bearded old man; One physical third eye on BACK of head only; Two normal front eyes in ordinary water reflection; Small stature relative rye; Harvest sheaf and same reflection staging. Character presence instead: Benevolent ancient harvest presence through warm late-afternoon sunlight on rye, stooped grain-tying pose and uncanny rear eye.. Restore clean natural textures where effects were removed, ordinary reflected light and realistic shadows.  No new characters or anatomical embellishments, no nudity or gore, no text, watermark or border.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/zhytsen-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-76741190-6d90-4578-8d88-638cddc4ae77.png",
+  "depicted_variant": "Little old long-bearded rye grandfather with third eye on BACK of head; front two eyes readable in ordinary water reflection",
+  "basis_claim_ids": [
+    "zhytsen-c01",
+    "zhytsen-c02",
+    "zhytsen-c03",
+    "zhytsen-c04",
+    "zhytsen-c05",
+    "zhytsen-c06"
+  ],
+  "aura": "Benevolent ancient harvest presence through warm late-afternoon sunlight on rye, stooped grain-tying pose and uncanny rear eye.",
+  "visual_requirements": [
+    "Little long-bearded old man",
+    "One physical third eye on BACK of head only",
+    "Two normal front eyes in ordinary water reflection",
+    "Small stature relative rye",
+    "Harvest sheaf and same reflection staging",
+    "Character presence through pose, framing, atmosphere and scene lighting; no generic emitted aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output inspected: airborne gold ribbons/motes removed; one rear eye and two normal front eyes in reflection retained, beard/sheaf/small rye stature unchanged, warm field sunlight carries presence.",
+    "reviewer": "worker-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-124.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: small bearded rye old man with third eye at back of head and reflection in water. Natural wheat sunset, no gold aura ribbons."
+  },
+  "attempt_history": [
+    {
+      "slug": "zhytsen",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square premium detailed painterly naturalistic cinematic mythology encyclopedia illustration. ZHYTSEN, Belarusian Rye Grandfather, source LITTLE OLD MAN with LONG BEARD and THIRD EYE ON BACK OF HEAD. One small fullyclothed elderlyhumanlike man kneels beside shallow crystalclear still fieldditch amid tall autumn RYE, tying leftover ears into sheaf. View from ABOVE BEHIND his head: rearhead baldpart CLEARLY has ONE living eye centered ON BACK OF HEAD, looking toward camera; no forehead third eye. His head bends over water, so natural water REFLECTION clearly shows full FRONT FACE with TWO NORMAL EYES and LONG BEARD; one physical man plus accurate mirrorlike waterreflection ONLY. Thus exactly3actualeyes oncharacter: normal2front, 1back, no extrahead or floatingeyes. Longbeard also visible from side curling below chin; plain opaque rural linen clothes and normalears, smallsize versus rye. Composition prioritizes BACK EYE and front-face waterreflection readable without collision. Clearly luminous AMBER-GREEN magical wisps RADIATE FROM BODY and grain, cast light on pool and stalks, benevolentharvest guardian aura. Fieldpool/reflection/costume are artistic composition, notclaimedfolklore behavior; source Shpilevsky attribution possibly inventive. No hats covering backeye, wings, horns, victims or otherfigures. No text, watermark, frame, collage or labels.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/zhytsen.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-76741190-6d90-4578-8d88-638cddc4ae77.png",
+      "depicted_variant": "Little old long-bearded rye grandfather with third eye on BACK of head; front two eyes readable in ordinary water reflection",
+      "basis_claim_ids": [
+        "zhytsen-c01",
+        "zhytsen-c02",
+        "zhytsen-c03",
+        "zhytsen-c04",
+        "zhytsen-c05",
+        "zhytsen-c06"
+      ],
+      "aura": "benevolent harvest guardian emitting amber-green mythic light",
+      "visual_requirements": [
+        "small oldman longbeard",
+        "third eye on BACK of head only",
+        "two normalfront eyes inwaterreflection",
+        "ryefield sourceharvest"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected native: little elderly man with long beard tying harvested grain in rye field. ONE clearly readable living third eye is on BACK of bare head; ordinary water reflection clearly shows front human face with TWO NORMAL EYES, no forehead eye. Coherent one man/one reflection, amber-green emitted wisps. Pool/reflection are editorial composition solely to expose source morphology, not folklore magical mirror ability. Possibly inventive Shpilevsky attribution recorded."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-124.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected final images: Root inspected contact sheet and native: one third eye clearly on back of old mans head; reflection shows exactly two normal front eyes, long beard and small rye-field harvest spirit with emitted gold aura. Reflection is artistic staging.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/zhytsen-verified.webp",
+      "sha256": "827e8e85b15e13b606544fc249c96c1c3d0c839801273e1031e2bac66609c887",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-3d8ca2a5-a8e6-47fd-a5b6-d59853f55a6f.png",
+  "revision_generator": "worker-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-2",
+    "rationale": "Gold-green luminous ribbons and motes surround body and grain, unsupported by harvest spirit source.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "zhytsen-c01",
+      "zhytsen-c02",
+      "zhytsen-c03",
+      "zhytsen-c04",
+      "zhytsen-c05",
+      "zhytsen-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/zhytsen.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/zhytsen.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

@@ -15,6 +15,7 @@
     "build:site": "node scripts/build-site.mjs",
     "preview:static": "node scripts/serve-static.mjs",
     "test:static": "npm run build:site && node tests/static-site.mjs && UI_TEST_TARGET=static node tests/browser.mjs",
+    "test:public": "node tests/publish-site.mjs && node tests/public-browser.mjs",
     "preview:cloudflare": "npm run build:site && npx --yes wrangler@4 pages dev dist --port 8788 --compatibility-date=2026-09-21",
     "import:library": "node scripts/import-library.mjs && node scripts/audit-library.mjs",
     "discover:library": "node scripts/import-library.mjs --discover && node scripts/audit-library.mjs",

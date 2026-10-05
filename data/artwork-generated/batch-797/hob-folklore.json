@@ -1,0 +1,97 @@
+{
+  "slug": "hob-folklore",
+  "worker": "root",
+  "prompt": "Use case: precise-object-edit. Input image is sole EDIT TARGET. Remove all golden emitted energy ribbons, halos, sparkles, magical glowing dots and neon trails around small Hob, his broom and farmyard. Reconstruct natural ordinary broom fibers, wooden handle, straw, dark farm clothes and physical hair. Preserve exact small hairy wizened old male fairy, face, hands, anatomy, clothing, broom sweeping action, large milk can, chicken, camera and composition. Keep physical lantern light in background and warm natural reflections; no body or broom self-emission. Presence from helpful posture, very small scale relative to milk can and quiet warm farmyard. No new characters, text or watermark.",
+  "depicted_variant": "Small hairy wizened Yorkshire male household spirit",
+  "basis_claim_ids": [
+    "hob-folklore-c01",
+    "hob-folklore-c05"
+  ],
+  "visual_requirements": [
+    "Small hairy wrinkled elderly man, same clothes/body/face and broom pose.",
+    "Preserve large milk can and chicken establishing scale.",
+    "No glowing particles, emitted gold ribbons, body outline or magically shining broom."
+  ],
+  "aura": "Helpful small wrinkled household worker through low scale, broom pose and warm lantern-lit farmyard.",
+  "review_path": "data/gemini/reviews/batch-119.review.json",
+  "tool": "OpenAI built-in image_gen",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-1c6c6ab9-090d-47a0-8d21-fef316125171.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/hob-folklore-presence-v2.png",
+  "status": "reviewed",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native edit: small hairy wrinkled old worker retains broom sweep, hands/clothes, milk can and chicken. Golden magic spirals/dots gone; physical background lantern and natural warm reflections only.",
+    "reviewer": "root"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "aura-resume-0",
+    "reviewed_at": "2026-10-05",
+    "notes": "Independently inspected revised native contact: small hairy wrinkled elderly male sweeps with ordinary broom, milk can and chicken establish small stature. Golden VFX absent; warm highlights belong to physical stable lamps and wet floor."
+  },
+  "independent_visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native edit: small hairy wrinkled old worker retains broom sweep, hands/clothes, milk can and chicken. Golden magic spirals/dots gone; physical background lantern and natural warm reflections only.",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05"
+  },
+  "attempt_history": [
+    {
+      "slug": "hob-folklore",
+      "worker": "root",
+      "prompt": "Use case: stylized-concept. One square high-detail painterly naturalistic cinematic mythology encyclopedia illustration. One SMALL hairy wizened elderly male HOB household spirit, wrinkled natural human face, shaggy grey body hair visible at forearms and neck, ordinary rounded ears, two arms and two legs under worn modest plain farm clothes. Works quietly at midnight farmyard sweeping beside milk churns; full-sized churn and wooden bucket establish knee-high SMALL body size. Helpful but mischievous, vivid warm amber-green luminous wisps clearly EMIT FROM body and sweeping hand, glowing motes brighten dark barn. No child, horns, wings, pointyears or animalhybrid. No writing, text, watermark, frame, collage or labels.",
+      "depicted_variant": "Small hairy wizened Yorkshire male household spirit",
+      "basis_claim_ids": [
+        "hob-folklore-c01",
+        "hob-folklore-c05"
+      ],
+      "visual_requirements": [
+        "Small hairy wrinkled elderly male",
+        "Farmyard work context establishes small scale",
+        "Emitted gentle household magical aura"
+      ],
+      "aura": "Clearly emitted supernatural luminous wisps and particles as artistic aura",
+      "review_path": "data/gemini/reviews/batch-119.review.json",
+      "tool": "OpenAI built-in image_gen",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-1c6c6ab9-090d-47a0-8d21-fef316125171.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/hob-folklore.png",
+      "status": "reviewed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually viewed small hairy wizened male sweeping farmyard beside full-size churn, emitted warm amber wisps and coherent human anatomy."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Actually viewed small hairy wizened male sweeping farmyard beside full-size churn, emitted warm amber wisps and coherent human anatomy.",
+        "reviewed_at": "2026-10-05"
+      },
+      "independent_visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-0",
+        "notes": "Worker-0 independently viewed contact sheet: small wizened elderly hairy human male sweeping farmyard, churn towers beside him, warm emitted magic. Coherent anatomy.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/hob-folklore-verified-v2.webp",
+      "sha256": "0f29d8042c63ba53c24842143057567f57480a0218e1ab6786874c49adb3e78a",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-4441bcff-fb56-4fdd-a147-ebee9b433ffc.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Original surrounds small farm hob and broom with golden glowing spirals and floating magical particles without source basis.",
+    "allowed_magic": "none; physical lamplight retained.",
+    "source_basis_claim_ids": [
+      "hob-folklore-c01",
+      "hob-folklore-c05"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/hob-folklore.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/hob-folklore.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

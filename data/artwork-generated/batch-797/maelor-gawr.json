@@ -1,0 +1,94 @@
+{
+  "slug": "maelor-gawr",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: lighting-weather. Input image is EDIT TARGET. Targeted atmosphere edit ONLY. Remove all luminous rings, spirals and vapor emitted from horn. Represent horn power through forceful blowing posture, wind-blown beard/cloak and ominous natural clouds only, invisible sound. Keep gigantic human king, horn in hand/mouth, landscape fortress scale exactly. Keep composition, camera, source anatomy/counts/scale, identity, materials, pose and painterly rendering exact. No generic magical halo, neon outline, emitted energy ribbons, colored luminous fog, sparkling particles. No new anatomy or figures, no text/watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/maelor-gawr-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-8db12a15-481b-407e-9ca2-3a144cd5d078.png",
+  "review_path": "data/gemini/reviews/batch-120.review.json",
+  "visual_requirements": [
+    "One enormous human male giant king",
+    "Signal horn at mouth",
+    "Hillfort trees and dwellings establish giant scale",
+    "Human anatomy preserved",
+    "Preserve exact original source anatomy, limb/head count, scale, identity and modest framing.",
+    "No generic emitted halo, neon outline, colored body fog, energy ribbons or magical particles.",
+    "Source powerful horn sound c04/c10 retained as invisible sound; no visible magical waves."
+  ],
+  "depicted_variant": "Maelor Gawr as source-attested Welsh giant king sounding his horn; human king appearance and period clothing editorial, exact height unspecified.",
+  "basis_claim_ids": [
+    "maelor-gawr-c01",
+    "maelor-gawr-c04",
+    "maelor-gawr-c10"
+  ],
+  "aura": "Giant royal presence through huge body, forceful horn posture and stormy natural sunset composition.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected native edited output. Targeted generic effects removed; source anatomy, pose, scale and composition retained. Giant royal presence through huge body, forceful horn posture and stormy natural sunset composition.",
+    "reviewer": "worker-0"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected revised contact image: giant king blowing horn over fortress landscape; same humanoid anatomy, clothes and source giant scale. No visible luminous sound wave now; ordinary cloud backdrop and sunset carry force."
+  },
+  "attempt_history": [
+    {
+      "slug": "maelor-gawr",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Use case: stylized-concept. Square premium naturalistic painterly Welsh mythology artwork. ONE MAELOR GAWR, early Celtic KING and GIANT, pictured alive solemnly blowing his great signal horn three times in the documented final horn episode, without execution or injury. Entire colossal male HUMAN giant silhouette, human face, two arms two legs, simple weathered early Celtic cloak and tunic; costume and facial details are editorial reconstruction not known fixed iconography. Make his tremendous giant body towering above old Welsh hillfort walls and full-sized ancient oaks, distant river valley and tiny ordinary stone dwellings clearly establish enormous scale. No other giants. Grave regal supernatural presence, visible air ripples and silver mist rolling away from horn as artistic aura conveying its overwhelming sound. Low-angle camera, stormy sunset, beautifully detailed natural face, enormous landscape. Preserve human giant anatomy; no animal face, no horns on head, no wings, no modern armor, no text, no watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/maelor-gawr.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-8db12a15-481b-407e-9ca2-3a144cd5d078.png",
+      "review_path": "data/gemini/reviews/batch-120.review.json",
+      "visual_requirements": [
+        "One enormous human male giant king",
+        "Signal horn at mouth",
+        "Hillfort trees and dwellings establish giant scale",
+        "Human anatomy preserved"
+      ],
+      "depicted_variant": "Maelor Gawr as source-attested Welsh giant king sounding his horn; human king appearance and period clothing editorial, exact height unspecified.",
+      "basis_claim_ids": [
+        "maelor-gawr-c01",
+        "maelor-gawr-c04",
+        "maelor-gawr-c10"
+      ],
+      "aura": "Silver wind and sonic air ripples radiating from great horn.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native: colossal fully human male giant holds horn at mouth, tunic/cloak, two arms and legs, towers over Welsh-style hillfort and mature trees with river valley houses below. Sonic ripples/silver wind visible. Exact height, clothing and features editorial; king/giant/horn sourced."
+      },
+      "reviewed_at": "2026-10-05T02:36:07.849Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: immense human giant king sounding horn, source signal role visible, smaller fort and trees emphasize scale; silver air ripples provide overt mythic aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/maelor-gawr-verified.webp",
+      "sha256": "2ea5f2f02fecbb6eeb2ca174c88bf82cf8fd7f7c9052c1ed6ceb8921d694f3bd",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-0fbb6d01-0914-4686-9afc-204ca388db0c.png",
+  "revision_generator": "worker-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-0",
+    "rationale": "Actually viewed original: luminous spiral energy waves streaming out of horn unsupported as visible manifestation in chosen source variant.",
+    "allowed_magic": "Source powerful horn sound c04/c10 retained as invisible sound; no visible magical waves.",
+    "source_basis_claim_ids": [
+      "maelor-gawr-c01",
+      "maelor-gawr-c04",
+      "maelor-gawr-c10"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/maelor-gawr.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/maelor-gawr.json"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "el-sombreron",
+  "worker": "worker-0",
+  "prompt": "Use case: lighting-weather. Input image is EDIT TARGET. Targeted atmosphere edit ONLY. Remove all black emitted smoke swirls and body vapor, restore ordinary clear dusk air, lamp/sunset light and cast shadows. Preserve tiny adult man, giant black hat, black clothes/boots/shiny belt, silver guitar, mules and village. Keep composition, camera, source anatomy/counts/scale, identity, materials, pose and painterly rendering exact. No generic magical halo, neon outline, emitted energy ribbons, colored luminous fog, sparkling particles. No new anatomy or figures, no text/watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/el-sombreron-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-d9f34b9a-872e-4777-a22d-00d002aff9d9.png",
+  "depicted_variant": "Guatemalan dwarf serenader in oversized black hat",
+  "basis_claim_ids": [
+    "el-sombreron-c01",
+    "el-sombreron-c03",
+    "el-sombreron-c04",
+    "el-sombreron-c06"
+  ],
+  "aura": "Unnerving serenader through sidelong gaze, oversized hat, still dusk street and natural lantern light.",
+  "visual_requirements": [
+    "very short dwarf in black with huge black hat",
+    "shining thick belt and noisy-looking boots",
+    "Preserve exact original source anatomy, limb/head count, scale, identity and modest framing.",
+    "No generic emitted halo, neon outline, colored body fog, energy ribbons or magical particles.",
+    "none"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected native edited output. Targeted generic effects removed; source anatomy, pose, scale and composition retained. Unnerving serenader through sidelong gaze, oversized hat, still dusk street and natural lantern light.",
+    "reviewer": "worker-0"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-118.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected revised contact image: small adult in black clothing, enormous hat, bright physical belt, silver guitar and coal-laden mule retained. Black enveloping smoke gone; dusk lantern light and solemn pose remain."
+  },
+  "attempt_history": [
+    {
+      "slug": "el-sombreron",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square premium detailed painterly naturalistic mythology illustration of EL SOMBRERÓN, the Guatemalan dwarf serenader. One very short adult male dwarf in black clothes, thick shining belt, heavy boots and an ENORMOUS wide-brimmed BLACK hat, holding a clearly SILVER guitar. Full figure on old Guatemalan cobbled lane at dusk, a distant coal-laden mule establishes his short scale. Source-faithful human face with subtly uncanny deep-set gaze and shadowed expression; no invented animal anatomy. Chilling supernatural serenade aura expressed as charcoal-dark curling mist and silvery guitar reflections, ominous twilight atmosphere. All subject inside square with margins. No victim, romantic couple, wings, horns, extra limbs, modern guitar, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/el-sombreron.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-d9f34b9a-872e-4777-a22d-00d002aff9d9.png",
+      "depicted_variant": "Guatemalan dwarf serenader in oversized black hat",
+      "basis_claim_ids": [
+        "el-sombreron-c01",
+        "el-sombreron-c03",
+        "el-sombreron-c04",
+        "el-sombreron-c06"
+      ],
+      "aura": "uncanny dusk serenade and charcoal mist",
+      "visual_requirements": [
+        "very short dwarf in black with huge black hat",
+        "shining thick belt and noisy-looking boots",
+        "silver guitar, unsettling mythology aura"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: short adult human dwarf, enormous black wide hat, black clothing, shining thick belt, boots and clearly silver guitar. Coal-laden mule behind and dark curling dusk mist. Source identity/anatomy/costume preserved; human face remains source-faithful rather than adding arbitrary nonhuman features. Mist, ornamentation and street composition are artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-118.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: very short adult male, enormous black hat, black garments, broad bright belt, boots and silver guitar; ominous spectral wisps in street, preserved source human dwarf form.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/el-sombreron-verified.webp",
+      "sha256": "c31ee3396f635ddb9e3b3681bf60c90f2b98792a473b3a94bc931c18913c38df",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-9031e6da-1b3e-4c6d-b3b4-28278fb7e9e2.png",
+  "revision_generator": "worker-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-0",
+    "rationale": "Actually viewed original: unsupported black smoke swirls enveloping torso/feet/hat unsupported as visible manifestation in chosen source variant.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "el-sombreron-c01",
+      "el-sombreron-c03",
+      "el-sombreron-c04",
+      "el-sombreron-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/el-sombreron.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/el-sombreron.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "zana",
+  "worker": "worker-1",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "prompt": "Use case: lighting-weather. Input image is EDIT TARGET. Edit ONLY the unsupported magical lighting and vapor described below. Preserve exact character identity, face, pose, anatomy and limb counts, size, framing, fully modest opaque clothing and all environment details. Natural scene illumination only. No text or watermark. Remove ALL gold/pink magical light ribbons, luminous halo and emitted star particles; make floating petals ordinary flower petals lit by forest sunlight. Preserve adult human female, floral dress, flower crown, human feet, waterfall and flowers. Benevolence through warm face, open pose and flowering woodland.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/zana-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-1b8fc9a0-fb0e-4009-86dd-02eb039725e7.png",
+  "review_path": "data/gemini/reviews/batch-123.review.json",
+  "visual_requirements": [
+    "Beautiful adult human female maiden",
+    "Woodland flowers and modest floral dress",
+    "No invented wings/horns, emitted aura or particles"
+  ],
+  "depicted_variant": "Good adult woodland zână, flower-associated magical maiden; costume and visible luminous magic editorial.",
+  "basis_claim_ids": [
+    "zana-c01",
+    "zana-c06",
+    "zana-c07"
+  ],
+  "aura": "Benevolence through warm expression, open arms, woodland flowers and natural sunshine.",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actually inspected native output: Same adult floral maiden, human anatomy, opaque dress, crown and waterfall preserved; ribbons and star particles gone, natural petals and sunlight only.",
+    "reviewer": "aura-resume-0"
+  },
+  "reviewed_at": "2026-10-05",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: modest flower-decorated maiden in forest, natural pink falling petals and daylight. No emitted green/gold energy lines or magical body fog."
+  },
+  "attempt_history": [
+    {
+      "slug": "zana",
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Square premium naturalistic painterly Romanian mythology artwork, stylized-concept. ONE GOOD ZÂNĂ, a beautiful young ADULT magical maiden who lives in the woods and favors honest heroes; explicitly adult about25, human female anatomy with two arms two legs, finely rendered lovely human face, graceful modest flowing woodland dress. Source-compatible human maiden shape; no wings, antlers, horns, or animal features. A bloom-filled woodland glade evokes good zâne born from flowers. Unmistakably luminous soft pink-gold and green supernatural wisps circle her shoulders and hands, floating radiant flower-pollen particles, emitted magical light subtly reflected on skin and cloth, gentle helpful aura. Mythological presence achieved through magic and refined uncanny gaze, not unsupported monstrous anatomy. Dress, flowers and light editorial visual staging of sourced wood/flower association. Whole adult figure visible, painterly premium detail, no child, no nudity, no text, no watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/zana.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-1b8fc9a0-fb0e-4009-86dd-02eb039725e7.png",
+      "review_path": "data/gemini/reviews/batch-123.review.json",
+      "visual_requirements": [
+        "One beautiful adult female magical maiden",
+        "Human source-compatible form without wings or horns",
+        "Woodland flowers",
+        "Unmistakable benevolent magical aura"
+      ],
+      "depicted_variant": "Good adult woodland zână, flower-associated magical maiden; costume and visible luminous magic editorial.",
+      "basis_claim_ids": [
+        "zana-c01",
+        "zana-c06",
+        "zana-c07"
+      ],
+      "aura": "Luminous pink-gold woodland wisps and radiant flower-pollen particles.",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Inspected native output: One beautiful adult human female maiden in modest flowing flower dress amid woodland blooms, two arms, radiant pink-gold energy ribbons/pollen, no wings or horns. Aura, costume and exact surface detail are editorial; anatomy/variant and setting traced to listed claims."
+      },
+      "reviewed_at": "2026-10-05T02:57:34.215Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: beautiful adult human maiden among woodland flowers, modest floral garment, no wings/horns, unmistakable pink-gold emitted pollen/energy aura; good flower-associated fairy form.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/zana-verified.webp",
+      "sha256": "bbde71f28a2696a6c35a5177ca39a3eca5c6cfffaa11e7b4c035e076b0427ebf",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-e9203fad-dd7d-4005-a946-a864e91a8ec9.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Gold/pink emitted ribbons and floating luminous particles removed; source magical maiden identity does not establish luminous aura.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "zana-c01",
+      "zana-c06",
+      "zana-c07"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/zana.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/zana.json"
+  }
+}

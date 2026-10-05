@@ -1,0 +1,36 @@
+{
+  "slug": "waira",
+  "worker": "worker-3",
+  "prompt": "Use case: historical-scene. ONE square detailed painterly naturalistic encyclopedia illustration of Waira, using the source-preserved upper-body form in the Edo Bakemono no e scroll at BYU Library. ONE large pale earthy-grey lumpy creature emerges halfway over a rocky mountain ridge: bulky ox-sized upper torso, grotesque low wide head with bulging round eyes, knobbly folded forehead, broad protruding muzzle and gaping mouth. TWO front arms/forelimbs reach forward, and EACH ends in EXACTLY ONE thick long curved pointed claw; no fingers, no cluster of talons. Critically, the BACK HALF / LOWER BODY must remain completely concealed behind the dark ridge and mist because the historical images never show it and its full anatomy is unknown. Keep all pictured upper features comfortably in frame. Heavily wooded Japanese mountain landscape at twilight, frightening uncanny lumbering presence with predatory watchfulness, painterly naturalistic lumpy skin texture and sharp hooked claw highlights. Invariants: source-selected bulky grotesque upper-body form, two forelimbs each with one claw, unseen lower half, mountain habitat. Avoid bull horns, wings, invented hind legs or tail, multi-clawed hands, humanoid clothing, armor, weapon, flat plains, cute mascot, gore, text, watermark, border, collage.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-718e4036-e5e1-4d83-840f-28553232bd08.png",
+  "review_path": "data/gemini/reviews/batch-053.review.json",
+  "visual_requirements": [
+    "Bulky grotesque lumpy upper-body form",
+    "Two forelimbs with exactly one thick claw each",
+    "Lower/back half concealed because unknown",
+    "Mountain habitat",
+    "Uncanny frightening looming aura"
+  ],
+  "depicted_variant": "Source-preserved Edo scroll upper-body form; hind-body anatomy deliberately left unseen",
+  "basis_claim_ids": [
+    "waira-c01",
+    "waira-c02",
+    "waira-c03",
+    "waira-c04",
+    "waira-c05"
+  ],
+  "additional_sources": [
+    {
+      "url": "https://bakemono.lib.byu.edu/yokai/waira/",
+      "title": "BYU Library Bakemono: Waira",
+      "basis": "Institution describes exactly two arms each with one claw and never-depicted back half; visually inspected institution's Edo illustration for lumpy head, bulging eyes and broad muzzle."
+    }
+  ],
+  "aura": "Uncanny heavy predatory mountain menace",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Observed one huge pale lumpy upper-body creature with bulging eyes, folded knobbly forehead and broad gaping muzzle. Two thick forelimbs each terminate in one large pointed hooked claw. The entire lower/back half is concealed behind mountain ridge and mist, avoiding invented anatomy. Looming expression and shadowed wooded mountains are frightening. No horns, tail, invented hind legs, multi-clawed hands, clothes, weapon, gore, text or watermark."
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed"
+}

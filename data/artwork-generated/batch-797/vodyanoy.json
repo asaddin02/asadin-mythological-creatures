@@ -1,0 +1,89 @@
+{
+  "slug": "vodyanoy",
+  "basis_claim_ids": [
+    "vodyanoy-c02",
+    "vodyanoy-c05",
+    "vodyanoy-c16"
+  ],
+  "depicted_variant": "Vodyanoy in man-like frog aquatic spirit form",
+  "visual_requirements": [
+    "Humanlike upright frog creature with frog face and webbed limbs",
+    "Opaque modest lower-body covering",
+    "River-watermill habitat and natural silver moon reflections; no luminous turquoise magic"
+  ],
+  "aura": "Dangerous presence through large frog stare, forward crouch, wet skin and secluded moonlit watermill river.",
+  "prompt": "Use case: lighting-weather. Input image is EDIT TARGET. Change ONLY lighting and atmosphere: remove the luminous turquoise supernatural swirls on the river and any emitted glow around Vodyanoy. Keep ordinary river ripples, dark blue-gray water with silver moon reflections, natural low mist. Preserve exactly the same upright anthropomorphic frog face/body, webbed limbs, two arms and two legs, natural eye pupils/glints, wet textured skin, opaque modest reed-cloth covering, reeds, watermill, moon, viewpoint and square composition. No body emission, magical fog, neon edge, luminous river ribbons, particles or added anatomy. Menace through frog stare, forward crouch and dark watermill scene. Same detailed painterly naturalistic style, no text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-121.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/vodyanoy-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-d4bc7666-cde8-4024-a368-ce3973a4d470.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native output: same anthropomorphic frog body, webbed limbs and reed clothing; river now has physically plausible dark waves and silver moon reflections, no turquoise magic ribbons or body halo.",
+    "reviewer": "aura-resume-0"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: potbellied frog-man with physical algae, reed belt and webbed hands/feet near watermill. Moonlit water and ordinary mist, no green emission."
+  },
+  "attempt_history": [
+    {
+      "slug": "vodyanoy",
+      "basis_claim_ids": [
+        "vodyanoy-c02",
+        "vodyanoy-c05",
+        "vodyanoy-c16"
+      ],
+      "depicted_variant": "Vodyanoy in man-like frog aquatic spirit form",
+      "visual_requirements": [
+        "Humanlike upright frog creature with frog face and webbed limbs",
+        "Opaque modest lower-body covering",
+        "River-watermill habitat with uncanny water aura"
+      ],
+      "aura": "Eerie green-blue river luminescence and thick predatory mist",
+      "prompt": "Use case: illustration-story. ONE square dark painterly Slavic mythology illustration of VODYANOY, specifically the MAN-LIKE FROG variant. One crouching upright frog-humanoid, with broad frog face, bulbous frog eyes, slick mottled green frog skin, two arm-like forelimbs and two webbed hindfeet. Its lower body is modestly obscured by an opaque reed-and-cloth wrap as artistic treatment. Whole creature on a wet riverbank beside a distant old watermill, no human face, no extra fish tail. Eerie green-blue supernatural water-light seems to emanate from the pool around it; ghostly river vapor, dark swirling water and intense suspicious predatory expression make the scene frightening and uncanny. Distinct readable frog anatomy, painterly wet textures. Do not merge green-bearded old man or giant fish variants. No crown, horns, wings, text, watermark, border, victims or gore.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-121.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/vodyanoy.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-d4bc7666-cde8-4024-a368-ce3973a4d470.png",
+      "reviewed_at": "2026-10-05T02:43:38.599Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed crouching frog humanoid with broad frog face, slick mottled frog skin, two arm-like forelimbs and two webbed hindfeet. Reed/cloth modesty wrap covers lower body. Glowing turquoise river swirls and mist surround a distant watermill. No green-bearded human, giant fish, wings or horns mixed into the variant."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: frog-faced humanoid with webbed feet and forelimbs, modest reed/cloth cover, turquoise supernatural river swirls near watermill; no unrelated human-beard variant.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/vodyanoy-verified.webp",
+      "sha256": "fd29a38d37974e941f52592e2f01f1876eab3491bf0dd0ee04fe8853e7d12bc8",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b04-04eb-7e81-bffa-7239e2bc8639/exec-70544cae-504a-4b55-80ec-0850ca584069.png",
+  "revision_generator": "aura-resume-0",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-0",
+    "rationale": "Inspected original: unsupported luminous turquoise river ribbons around man-like frog; revised to silver moon reflections and ordinary river mist.",
+    "allowed_magic": "none; watermill river and ordinary ripples retained.",
+    "source_basis_claim_ids": [
+      "vodyanoy-c02",
+      "vodyanoy-c05",
+      "vodyanoy-c16"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/vodyanoy.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/vodyanoy.json"
+  }
+}

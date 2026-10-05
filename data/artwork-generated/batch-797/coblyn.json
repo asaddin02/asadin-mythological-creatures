@@ -1,0 +1,91 @@
+{
+  "slug": "coblyn",
+  "basis_claim_ids": [
+    "coblyn-c01",
+    "coblyn-c02",
+    "coblyn-c03"
+  ],
+  "depicted_variant": "Short ugly Welsh miner fairy",
+  "visual_requirements": [
+    "Short gnome-like adult in miners clothes",
+    "Wrinkled ugly humanlike face",
+    "Natural limbs and same mine/cart/ore",
+    "Character presence through pose, framing, atmosphere and scene lighting; no generic emitted aura"
+  ],
+  "aura": "Friendly uncanny mine guardian through short miner proportions, wrinkled expression, confident pointing pose and ordinary lantern light on ore.",
+  "prompt": "Use case: precise-object-edit / lighting-weather. Edit the supplied mythology artwork. Remove ONLY unsupported visual effects: all generic glowing envelopes, neon body outlines, colored energy ribbons, magical motes/particles, luminous colored fog, swirling aura, and glowing eye bulbs. Do not replace them with other magic. Preserve the SAME individual creature, body anatomy, count of eyes/limbs/heads, exact scale, pose, framing, clothing coverage, props, setting and painterly quality. Source invariants: Short gnome-like adult in miners clothes; Wrinkled ugly humanlike face; Natural limbs and same mine/cart/ore. Character presence instead: Friendly uncanny mine guardian through short miner proportions, wrinkled expression, confident pointing pose and ordinary lantern light on ore.. Restore clean natural textures where effects were removed, ordinary reflected light and realistic shadows.  No new characters or anatomical embellishments, no nudity or gore, no text, watermark or border.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-118.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/coblyn-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-6185b666-d6f3-4936-a628-90b343a506d1.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output inspected: blue-gold streams/motes removed; short wrinkled miner, pointing hand/cart and ore retained. Ore metallic highlights reflect scene light rather than magical stream.",
+    "reviewer": "worker-2"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: short miner in clothing pointing to physical ore vein, mine lanterns and reflected metallic highlights only, no floating golden magic."
+  },
+  "attempt_history": [
+    {
+      "slug": "coblyn",
+      "basis_claim_ids": [
+        "coblyn-c01",
+        "coblyn-c02",
+        "coblyn-c03"
+      ],
+      "depicted_variant": "Short ugly Welsh miner fairy",
+      "visual_requirements": [
+        "Short gnome-like adult",
+        "Very ugly humanlike face",
+        "Traditional miners clothing",
+        "Mine ore veins"
+      ],
+      "aura": "Blue-gold emitted ore-finding wisps",
+      "prompt": "Depict a Coblyn from Welsh mine folklore as a very SHORT gnome-like adult fairy with a very ugly weathered humanlike face, broad nose, irregular wrinkles and squat proportions, wearing old Welsh MINERS' CLOTHING and boots. Two arms and two legs, no invented horns, wings, oversized animal ears or fangs. Full figure standing in an old rocky mine tunnel, pointing toward a gleaming ore vein, a normal mine cart nearby for his small scale. A friendly but uncanny expression rather than a horror villain. Clearly luminous blue-gold supernatural wisps radiate from his hand and body toward the ore, magical particles glowing over dark rock. No modern construction helmet or text. Square premium detailed painterly mythology encyclopedia illustration, one coherent full-body entity, clear source anatomy and emitted magical aura. No text, captions, borders, watermark, gore, exposed organs or victims.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-118.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/coblyn.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-6185b666-d6f3-4936-a628-90b343a506d1.png",
+      "reviewed_at": "2026-10-05T04:13:32.890Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: short squat wrinkled miner fairy in old miners clothing beside mine cart, points to ore vein, natural two arms and legs, emitted blue-gold magical streams."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Short ugly humanlike mine spirit in miners clothing, points at ore vein with emitted blue-gold magic.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/coblyn-verified.webp",
+      "sha256": "d7c75f7c11cb1a9c3bdcc28e2a81a93e43a8989a99113222f7f7b3751c0b3467",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-3beb8e1f-a827-4a67-a323-d49a15fab9a8.png",
+  "revision_generator": "worker-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-2",
+    "rationale": "Blue-gold magical streams from miner hands/body/ore unsupported by ore-guidance description.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "coblyn-c01",
+      "coblyn-c02",
+      "coblyn-c03"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/coblyn.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/coblyn.json"
+  }
+}

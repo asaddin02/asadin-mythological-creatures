@@ -1,0 +1,93 @@
+{
+  "slug": "jiangshi",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Remove ONLY unsupported effects: all cyan body wisps, magical hand glow, particles, neon outline and luminous eyes, restoring ordinary pale eyes and moonlight. Preserve exactly same ONE stiff greenish-white-skinned reanimated corpse with long black hair, Qing official dress and hat, exactly two outstretched arms, same hopping pose and boots, no forehead talisman, same temple framing and size, framing, painterly quality and clothing coverage. Character presence through stiff hopping posture, corpse pallor and temple night atmosphere. Restore natural textures, reflected moonlight, shadows, only ordinary nonluminous distant mist. No generic emitted aura, new anatomy, additional characters, gore, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/jiangshi-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-6c756305-dc3c-4d30-ab40-4cd0cafdd974.png",
+  "depicted_variant": "Greenish-white stiff corpse in Qing official dress, popular-culture costume distinguished",
+  "basis_claim_ids": [
+    "jiangshi-c01",
+    "jiangshi-c02",
+    "jiangshi-c11",
+    "jiangshi-c12",
+    "jiangshi-c18"
+  ],
+  "aura": "stiff hopping posture, corpse pallor and temple night atmosphere",
+  "visual_requirements": [
+    "same ONE stiff greenish-white-skinned reanimated corpse with long black hair, Qing official dress and hat, exactly two outstretched arms, same hopping pose and boots, no forehead talisman, same temple framing and size",
+    "No generic emitted body aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native inspected: stiff greenish-white corpse with long hair, Qing official robe/hat and two outstretched arms in hopping pose; no talisman, all cyan wrapping and hand glow gone.",
+    "reviewer": "aura-resume-2"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-121.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: stiff hopping corpse in Qing official garments, greenish-white physical skin and arms outstretched. Ordinary night lantern/moonlight; no violet body emission or glowing eyes."
+  },
+  "attempt_history": [
+    {
+      "slug": "jiangshi",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square terrifying detailed painterly naturalistic mythology illustration of JIANGSHI, Chinese stiff undead corpse. ONE adult reanimated corpse with GREENISH-WHITE SKIN, long hair and ravenous animal-like stare, in historically informed Qing official robe and hat, popular-culture costume choice explicitly distinguished from earlier folklore. Stiff body, arms rigidly OUTSTRETCHED, both legs close in a hopping pose outside dark Chinese burial pavilion at night. Full figure framed, no talisman immobilizing an active creature. Clearly luminous cold turquoise supernatural wisps RADIATE FROM BODY and hands, qi-like dread aura, non-graphic corpse texture. No blood, victims, exposed wounds, Western vampire cape, extra limbs, wings, horns, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/jiangshi.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-6c756305-dc3c-4d30-ab40-4cd0cafdd974.png",
+      "depicted_variant": "Greenish-white stiff corpse in Qing official dress, popular-culture costume distinguished",
+      "basis_claim_ids": [
+        "jiangshi-c01",
+        "jiangshi-c02",
+        "jiangshi-c11",
+        "jiangshi-c12",
+        "jiangshi-c18"
+      ],
+      "aura": "terrifying stiff undead with emitted qi-like spectral aura",
+      "visual_requirements": [
+        "stiff corpse, greenish-white skin and long hair",
+        "Qing official dress, arms outstretched",
+        "no forehead immobilizing talisman if active"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected image: greenish-white long-haired stiff adult corpse in Qing official robe/hat, arms rigidly outstretched, legs close in airborne hop, emitted turquoise spectral wisps. Source corpse/skin/hair preserved; costume recognized as popular-culture layer. No forehead talisman on active creature. Tiny decorative background sign glyphs present, not creature label; architecture/embroidery/glow artistic."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-121.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: stiff greenish-white corpse with long hair in Qing official dress, arms extended, emitted cyan spirit wisps; no immobilizing forehead talisman on active hopping form.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/jiangshi-verified.webp",
+      "sha256": "7aa2653bd5275abf15d5486c60092461a98e77a2dc3041fb78f31bccd6fff546",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-fff9-76e1-92c1-76bde2aff5e5/exec-99edda3b-ec82-4130-a02d-1b26966d2855.png",
+  "revision_generator": "aura-resume-2",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-2",
+    "rationale": "Unsupported emitted body wrapping removed; source variant and trait counts preserved.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "jiangshi-c01",
+      "jiangshi-c02",
+      "jiangshi-c11",
+      "jiangshi-c12",
+      "jiangshi-c18"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/jiangshi.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/jiangshi.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

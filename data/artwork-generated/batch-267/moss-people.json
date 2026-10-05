@@ -1,0 +1,30 @@
+{
+  "slug": "moss-people",
+  "worker": "worker-1",
+  "generated_by": "root",
+  "tool": "OpenAI built-in image_gen",
+  "status": "excluded-human",
+  "prompt": "Use case: illustration-story. Create ONE square detailed painterly naturalistic folklore encyclopedia illustration of German moss people (Moosleute), selecting the source-described SMALL OLD GREY MOSS-CLAD FORM. One child-sized yet unmistakably ELDERLY adult humanoid forest person with a wrinkled grey humanlike face, grey shaggy hair and beard, two arms and two legs. Clothing consists of dense soft GREEN MOSS draped over shoulders and body, with rough bark-like cloth underneath covering the body. Standing beside a large hollow tree with roots and a small mossy dwelling opening; scale establishes small stature. Entire figure framed with margins. Deep damp forest, dappled misty light, wary wise gaze and secretive ancient woodland atmosphere, neither cute toy nor evil monster. Preserve moss as CLOTHING, not tree limbs replacing arms; no antlers, horns, wings, pointed elf ears, wizard hat, weapons or extra characters. No text, labels, runes, border or watermark. Contemporary artistic interpretation of the documented elderly moss-folk variant.",
+  "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-bed0c497-5d84-414b-8cd0-2c8e7de458a3.png",
+  "review_path": "data/gemini/reviews/batch-112.review.json",
+  "visual_requirements": [
+    "Child-sized but visibly elderly forest humanoid",
+    "Grey hairy old-looking face",
+    "Moss clothing",
+    "Closely tied to trees and forest"
+  ],
+  "depicted_variant": "A small elderly grey hairy moss-clad woodland person beside a hollow-tree dwelling.",
+  "basis_claim_ids": [
+    "moss-people-c01",
+    "moss-people-c03",
+    "moss-people-c09"
+  ],
+  "aura": "Ancient secretive woodland neighbor, wary and uncanny with living forest presence.",
+  "visual_review": {
+    "verdict": "fail",
+    "notes": "Small ordinary human bearded man wearing moss; costume and scale do not change anatomy."
+  },
+  "reviewed_at": "2026-10-03T16:58:02.933Z",
+  "regenerate": false,
+  "exclusion_audit": "data/artwork-generated/batch-267/human-audit-worker-1.json"
+}

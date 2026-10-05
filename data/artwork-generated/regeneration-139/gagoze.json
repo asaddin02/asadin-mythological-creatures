@@ -1,0 +1,58 @@
+{
+  "slug": "gagoze",
+  "worker": "regen-2",
+  "review_path": "data/gemini/reviews/batch-053.review.json",
+  "depicted_variant": "Toriyama Sekien's Gazu Hyakki Yagyo (1776) crawling monk-robed oni",
+  "visual_requirements": [
+    "One hornless grotesque monk-robed oni crawling on two arms and two legs",
+    "Elongated bent claw fingers, sharp teeth and distorted oni jaw clearly visible",
+    "Entire four-limb figure inside frame, nocturnal menacing temple-stalker aura"
+  ],
+  "nonhuman_features": [
+    "Elongated bony claw hands and feet with hooked nails",
+    "Grotesque oni jaw and prominent sharp canine teeth"
+  ],
+  "basis_claim_ids": [
+    "gagoze-c01",
+    "gagoze-c03",
+    "gagoze-c04"
+  ],
+  "aura": "Menacing furtive nocturnal Gangō-ji temple demon",
+  "accuracy_mode": "source-supported",
+  "invented_anatomy": [],
+  "historical_basis": "Individually inspected Sekien's 1776 Gagoze plate (Commons scan of primary historical illustration): temple-eave crawling robed oni with distorted open-jawed face and very long claw fingers. Current research c03 identifies monk-like oni, c04 four-limb crawling. Retains source morphology without adding generic horns/wings.",
+  "additional_sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:SekienGagoze.jpg",
+      "title": "Gagoze in Gazu Hyakki Yagyo (1776)",
+      "author": "Toriyama Sekien",
+      "publisher": "Wikimedia Commons reproduction scanned from ISBN 4-336-03386-2",
+      "basis": "Primary historical plate individually visually inspected for crawling clawed monk-robed oni morphology"
+    },
+    {
+      "url": "https://jmapps.ne.jp/geidailib/det.html?data_id=11348",
+      "title": "Gazu Hyakki Yagyo",
+      "publisher": "Tokyo University of the Arts Library",
+      "basis": "1776 original book catalog provenance"
+    }
+  ],
+  "artistic_changes": [
+    "Painterly color, moonlit temple location and exact claw lengths interpreted from monochrome plate",
+    "Both hind feet made visible for four-limb review; no invented additional appendages"
+  ],
+  "prompt": "Use case: scientific-educational. ONE square premium painterly mythology encyclopedia illustration of GAGOZE, the temple yōkai of Gangō-ji Nara, using Toriyama Sekien's 1776 Gazu Hyakki Yagyo classical variant: a grotesque monk-robed oni crawling low on all FOUR LIMBS along the temple's wooden roof walkway. ONE hornless shaggy-haired monstrous head with exaggerated broad contorted ogre jaw and prominent sharp teeth/fangs, deeply wrinkled face; no ordinary monk's face. TWO long arms end in extremely LONG BENT BONY CLAW FINGERS with hooked pointed nails, stretched distinctly in front along roof; TWO legs behind under a modest opaque tattered brown monk robe, both clawed feet separately visible. Body coherent with only two arms/two legs, crouched crawling posture as Sekien. Full head, entire robe/body, both clawed hands and both feet entirely within frame with ample margin. Three-quarter front-side view emphasizes actual structural grotesque claw hands and face. Menacing furtive nocturnal temple-stalker aura, not benevolent wise priest. Traditional Japanese tiled eave, wooden temple railing and distant bell tower, moonlit deep forest green and weathered walnut wood, soft antique gold ambient temple light, refined naturalistic oil-painted detail. No horns, wings, extra arms, extra legs, weapons, victims, blood, text, inscriptions, signatures, border or watermark. Source-attested demon anatomy should be apparent without adding generic demon motifs. One individual only.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/gagoze.png",
+  "generated_original": "/home/asadin/.codex/generated_images/01a107aa-9947-7b23-af38-2b3374b93da2/exec-21951e8d-035d-439c-b754-167597b1db61.png",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "reviewed_at": "2026-10-04T16:21:02.351Z",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Individually inspected via view_image against Sekien primary plate. One grotesque hornless head with distorted jaw and canine teeth, two very long claw-finger hands on roof walkway, two hind legs/feet separately visible beneath opaque tattered monk robe. Figure fully fits square frame and has coherent four limbs. Nighttime temple eaves/bell tower and hunched predatory expression preserve menacing demon identity. No ordinary monk portrait, extra limbs, horns, wings, victims, blood, signatures or text."
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "notes": "Individually viewed original. One crawling monk-robed grotesque oni with fanged jaw and extremely long claw fingers/toes. Four coherent limbs, hornless head, all endpoints in frame. Menacing temple-prowling aura follows selected historical plate.",
+    "reviewed_at": "2026-10-04T16:58:31.540189+00:00"
+  }
+}

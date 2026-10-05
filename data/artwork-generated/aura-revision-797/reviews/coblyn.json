@@ -1,0 +1,30 @@
+{
+  "slug": "coblyn",
+  "reviewer": "worker-2",
+  "decision": "revise",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/coblyn.png",
+  "rationale": "Blue-gold magical streams from miner hands/body/ore unsupported by ore-guidance description.",
+  "source_basis_claim_ids": [
+    "coblyn-c01",
+    "coblyn-c02",
+    "coblyn-c03"
+  ],
+  "allowed_magic": "none",
+  "aura": "Friendly uncanny mine guardian through short miner proportions, wrinkled expression, confident pointing pose and ordinary lantern light on ore.",
+  "visual_requirements": [
+    "Short gnome-like adult in miners clothes",
+    "Wrinkled ugly humanlike face",
+    "Natural limbs and same mine/cart/ore",
+    "Character presence through pose, framing, atmosphere and scene lighting; no generic emitted aura"
+  ],
+  "prompt": "Use case: precise-object-edit / lighting-weather. Edit the supplied mythology artwork. Remove ONLY unsupported visual effects: all generic glowing envelopes, neon body outlines, colored energy ribbons, magical motes/particles, luminous colored fog, swirling aura, and glowing eye bulbs. Do not replace them with other magic. Preserve the SAME individual creature, body anatomy, count of eyes/limbs/heads, exact scale, pose, framing, clothing coverage, props, setting and painterly quality. Source invariants: Short gnome-like adult in miners clothes; Wrinkled ugly humanlike face; Natural limbs and same mine/cart/ore. Character presence instead: Friendly uncanny mine guardian through short miner proportions, wrinkled expression, confident pointing pose and ordinary lantern light on ore.. Restore clean natural textures where effects were removed, ordinary reflected light and realistic shadows.  No new characters or anatomical embellishments, no nudity or gore, no text, watermark or border.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/aura-revision-797/originals/coblyn.png",
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-3beb8e1f-a827-4a67-a323-d49a15fab9a8.png",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output inspected: blue-gold streams/motes removed; short wrinkled miner, pointing hand/cart and ore retained. Ore metallic highlights reflect scene light rather than magical stream."
+  },
+  "reviewed_at": "2026-10-05T05:23:10.878Z"
+}

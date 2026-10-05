@@ -1,0 +1,108 @@
+{
+  "slug": "asrai",
+  "worker": "worker-0",
+  "prompt": "Use case: precise-object-edit. Input image 1 is Asrai edit target. Remove ONLY the blue luminous ribbons swirling around the woman, blue star particles and artificial emitted edge glow. Reconstruct clean lake/shore background and matte fabric where overlays were. Preserve this same adult fully clothed female aquatic fairy: natural green hair, pale gentle face, clearly webbed feet, long opaque modest white dress, exact pose, silhouette, lakeside rocks and moonlit lake, square composition. Do not change facial identity or anatomy; no fish tail, no wings, no new objects. Her quiet otherworldly presence comes from shy expression, solitary lakeside posture, green hair and webbed feet under natural moonlight, not magical VFX. Preserve restrained painterly realism and fine texture. Moon and its water reflection remain ordinary scene light. No aura envelope, luminous dust, extra light trails, text or watermark.",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/asrai-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-b9372d31-b109-47d5-9edb-c192ed2b7f84.png",
+  "depicted_variant": "Ruth Tongue green-haired web-footed female aquatic fairy, reliability disputed",
+  "basis_claim_ids": [
+    "asrai-c01",
+    "asrai-c03",
+    "asrai-c05",
+    "asrai-c06",
+    "asrai-c07"
+  ],
+  "aura": "Gentle shy expression, solitary lakeside composition and natural reflected moonlight.",
+  "visual_requirements": [
+    "Same adult pale gentle female fairy with green hair and webbed feet",
+    "Opaque modest long white clothing, no fish tail or wings",
+    "Preserve lakeside night scene; no blue ribbons, glowing dots or emitted edge aura"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected edited native output: no blue ribbons or floating dots remain. Same pale adult woman, green hair, modest opaque dress and visible webbed feet retained, with lake and natural moonlight.",
+    "reviewer": "root"
+  },
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generation_rejection": {
+    "request_id": "1bd23d08-bff3-41a4-b9c5-53b17db93dd4",
+    "code": "moderation_blocked",
+    "category": "sexual",
+    "stage": "output",
+    "resolution": "Revised to explicit fully clothed adult in opaque ankle-length high-neck long-sleeved dress."
+  },
+  "review_path": "data/gemini/reviews/batch-118.review.json",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "worker-0",
+    "reviewed_at": "2026-10-05T05:26:42.092568+00:00",
+    "notes": "Actually viewed native: pale modest fully clothed female, greenhair and clearly webbedfeet retained. Blue ribbons/particles removed; natural moonlight on water/clothing only."
+  },
+  "attempt_history": [
+    {
+      "slug": "asrai",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square refined painterly naturalistic encyclopedia illustration of ASRAI, an adult English female lake fairy, choosing the green-haired web-footed account of Ruth Tongue, whose reliability is disputed. ONE ADULT WOMAN fully clothed in a loose OPAQUE long-sleeved high-neck ANKLE-LENGTH WHITE DRESS, no transparent cloth, no exposed torso, peacefully stands on the rocky edge of a lake at night. GREEN HAIR, pale face, both WEBBED FEET below dress hem clearly visible, membranes between toes. Humanlike adult anatomy, full figure comfortably framed. Moonlight only, no sunlight. Clearly luminous blue-white supernatural wisps radiate from her body and cast soft glow onto shore, artistic magical aura. Gentle ancient spirit, no fish tail, wings, horns, victims, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/asrai.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-b9372d31-b109-47d5-9edb-c192ed2b7f84.png",
+      "depicted_variant": "Ruth Tongue green-haired web-footed female aquatic fairy, reliability disputed",
+      "basis_claim_ids": [
+        "asrai-c01",
+        "asrai-c03",
+        "asrai-c05",
+        "asrai-c06",
+        "asrai-c07"
+      ],
+      "aura": "gentle ancient moonlit aquatic spirit, sunlight-fragile shimmer",
+      "visual_requirements": [
+        "female aquatic fairy, green hair and webbed feet",
+        "pale gentle form under moonlight",
+        "no fish tail, no sun"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected revised image: fully clothed adult pale female lake fairy in opaque long-sleeved ankle-length white dress, long green hair and clearly membranous webbed feet. Moonlit lake, emitted blue-white luminous wisps; no fish tail. Ruth Tongue variant source-backed with disputed reliability; dress and glow artistic. Prior no-deliverable moderation rejection recorded."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "generation_rejection": {
+        "request_id": "1bd23d08-bff3-41a4-b9c5-53b17db93dd4",
+        "code": "moderation_blocked",
+        "category": "sexual",
+        "stage": "output",
+        "resolution": "Revised to explicit fully clothed adult in opaque ankle-length high-neck long-sleeved dress."
+      },
+      "review_path": "data/gemini/reviews/batch-118.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected: clothed adult pale female water fairy with long green hair, clearly webbed feet, no fish tail; emitted blue-white wisps under moonlight, selected Tongue variant distinguished in receipt.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/asrai-verified.webp",
+      "sha256": "11c472297d2a4e15369b89b3f765d4f022cb09955c958d69145e2fda3fc047e3",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-5e16882f-efdb-420d-a8bf-e3c1f3bab70c.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Original had blue energy ribbons and floating luminous dots circling the lake fairy, beyond the source green-haired web-footed appearance.",
+    "allowed_magic": "None needed in this quiet moonlit portrait; source green hair and webbed feet retained.",
+    "source_basis_claim_ids": [
+      "asrai-c01",
+      "asrai-c03",
+      "asrai-c05",
+      "asrai-c06",
+      "asrai-c07"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/asrai.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/asrai.json"
+  },
+  "reviewed_at": "2026-10-05T05:26:42.092568+00:00"
+}

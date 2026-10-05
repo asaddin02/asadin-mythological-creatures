@@ -1,0 +1,100 @@
+{
+  "slug": "sihirtia",
+  "worker": "root",
+  "prompt": "Use case: precise-object-edit. Input image is sole EDIT TARGET. Remove all unsupported magical body envelopes, colored luminous fog, emitted energy ribbons, neon outlines, halo, glowing particles and sparkle trails. Reconstruct natural clothing, textures and scene beneath removed overlays. Preserve exact source anatomy, face, pose, scale, camera, composition and physical materials. No new objects/characters, text or watermark. For Sihirtia, remove gold magical energy loops, glowing sparks and self-emitting light from ALL metal pendants on person's clothing and surrounding grass. Keep necklaces and pendants as solid reflecting metal objects. Preserve same very short ADULT person, face, detailed fine fur clothing, stance, tiny stature relative to large grass and sandy hill composition. Retain natural green aurora HIGH IN DISTANT SKY, ordinary starry tundra night and natural sky/moon reflections on snow, no emitted aurora from person. Presence from small humanlike figure and quiet night.",
+  "depicted_variant": "Very short finely dressed Nenets mythical tundra person",
+  "basis_claim_ids": [
+    "sihirtia-c01",
+    "sihirtia-c02",
+    "sihirtia-c03"
+  ],
+  "visual_requirements": [
+    "Very short adult humanlike person, same face, clothes and scale cues.",
+    "Metal pendants retain physical gold material but do not emit light.",
+    "Natural sky aurora and moon/snow reflections retained; no golden energy loops."
+  ],
+  "aura": "Small finely dressed tundra person with physical metal pendants among large grass and sandy hills at night.",
+  "review_path": "data/gemini/reviews/batch-118.review.json",
+  "tool": "OpenAI built-in image_gen",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-2483e311-67bc-49b3-ace1-4b5e542f7bd5.png",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/sihirtia-presence-v2.png",
+  "status": "reviewed",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native edit: tiny finely dressed adult retains physical metal pendants with no self-emission. Golden loops/particles gone; natural distant aurora and snowy tundra scene retained.",
+    "reviewer": "root"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "aura-resume-0",
+    "reviewed_at": "2026-10-05",
+    "notes": "Independently inspected revised native contact: very short adult humanlike person, winter clothes, physical metal pendants and boulder/shrub scale intact. Jewelry does not emit light; aurora is distant natural sky, no gold loops."
+  },
+  "independent_visual_review": {
+    "verdict": "pass",
+    "notes": "Inspected native edit: tiny finely dressed adult retains physical metal pendants with no self-emission. Golden loops/particles gone; natural distant aurora and snowy tundra scene retained.",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05"
+  },
+  "attempt_history": [
+    {
+      "slug": "sihirtia",
+      "worker": "root",
+      "prompt": "Use case: stylized-concept. One square high-detail painterly naturalistic cinematic mythology encyclopedia illustration. One VERY SHORT ADULT humanlike SIHIRTIA mythical Nenets tundra person, natural adult face, coherent two arms/two legs, rounded ears. Finely made modest layered northern tundra clothes with several visibly gleaming METAL PENDANTS. Stands at a small sandy hill entrance in Arctic tundra at night, large natural grasses/rocks establish short body size; distant snowyflatland. Skilled smith aura editorial: silver-amber supernatural luminous wisps visibly EMIT FROM body and pendants, clear glowing particles illuminate sand. No horns, wings, pointyears, babyfeatures or unsupported preciseheight. No writing, labels, text, watermark, frame or collage.",
+      "depicted_variant": "Very short finely dressed Nenets mythical tundra person",
+      "basis_claim_ids": [
+        "sihirtia-c01",
+        "sihirtia-c02",
+        "sihirtia-c03"
+      ],
+      "visual_requirements": [
+        "Very short adult humanlike person",
+        "Fine clothing with clear metal pendants",
+        "Tundra sandy hills at night, visible emitted aura"
+      ],
+      "aura": "Clearly emitted supernatural luminous wisps and particles as artistic aura",
+      "review_path": "data/gemini/reviews/batch-118.review.json",
+      "tool": "OpenAI built-in image_gen",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109da-3d87-72e1-b837-21cf9003ce67/exec-2483e311-67bc-49b3-ace1-4b5e542f7bd5.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/sihirtia.png",
+      "status": "reviewed",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually viewed very short humanlike person with fine tundra clothing and conspicuous metal pendants, emitted silver-gold aura."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: Actually viewed very short humanlike person with fine tundra clothing and conspicuous metal pendants, emitted silver-gold aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "independent_visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-0",
+        "notes": "Worker-0 independently inspected root-sheet3: short adult humanlike tundra figure in fine northern clothing with conspicuous metallic pendants, emitted amber-silver aura.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/sihirtia-verified.webp",
+      "sha256": "2085fb60c60e91f1d7b4cd146803e388844f498450c9f2fee6370883abdd0dde",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b02-4776-79d0-a984-dda82ffbf833/exec-e26e6821-7e56-405a-a776-a5870232f85d.png",
+  "revision_generator": "root",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "root",
+    "rationale": "Tiny tundra person and pendants emit large golden energy spirals unrelated to source appearance.",
+    "allowed_magic": "none; background aurora is natural sky light, retain.",
+    "source_basis_claim_ids": [
+      "sihirtia-c01",
+      "sihirtia-c02",
+      "sihirtia-c03"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/sihirtia.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/sihirtia.json"
+  },
+  "reviewed_at": "2026-10-05"
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "sigmund",
+  "basis_claim_ids": [
+    "sigmund-c01",
+    "sigmund-c07"
+  ],
+  "depicted_variant": "Sigmund in his Völsunga saga werewolf period, fully wolf form",
+  "visual_requirements": [
+    "One fully quadrupedal transformed wolf, same paws/face/tail and forest.",
+    "Character presence through pose/framing/natural scene light; no generic emitted aura."
+  ],
+  "aura": "Predatory outlaw tension through low stance, cold moonlight and dark Norse woods.",
+  "prompt": "Edit this existing mythological encyclopedia artwork to revise AURA as CHARACTER PRESENCE. REMOVE ALL generic emitted colored energy ribbons, neon outlines/halos, magical wisps, glowing particles/sparkles, colored luminous smoke/fog and body glow, including residual lines around silhouette, from creature and environment. Remove unsupported luminous eyes, retain normal natural eyes and reflections. Do not replace effects with white magic or fireflies. Use natural scene light only. Character presence: Predatory outlaw tension through low stance, cold moonlight and dark Norse woods. Preserve EXACT subject anatomy/counts/scale, identity, pose, perspective, scene, adult modest clothing and concealment. Critical invariants: One fully quadrupedal transformed wolf, same paws/face/tail and forest. Retain detailed painterly naturalism, keep source physical colors/materials. No additional creatures, no text/watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-128.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/sigmund-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-89d4f24f-ea82-4047-88ee-9050a67c677c.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Actual new output inspected in six-image contact sheet. Removed luminous ribbons, particles and emitted color fields; retained source anatomy, subject scale, physical colors and modest clothes. Tartalo has exactly one central eye and non-glowing physical ring; Ora retains golden horns; Sihuanaba retains horse head.",
+    "reviewer": "worker-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: solid quadrupedal wolf on forest rock, amber natural eyes, moonlit mountains. No colored energy trails or emitted blue outline."
+  },
+  "attempt_history": [
+    {
+      "slug": "sigmund",
+      "basis_claim_ids": [
+        "sigmund-c01",
+        "sigmund-c07"
+      ],
+      "depicted_variant": "Sigmund in his Völsunga saga werewolf period, fully wolf form",
+      "visual_requirements": [
+        "One quadrupedal wolf representing transformed Sigmund",
+        "No ordinary human hero portrait",
+        "Clear numinous transformation aura in Norse woodland"
+      ],
+      "aura": "Emitted amber-gold transformation wisps and spectral particles",
+      "prompt": "SIGMUND in the Völsunga saga period when he lived as a WEREWOLF: one fully transformed quadrupedal natural WOLF, four canine legs and paws, thick brown-grey wolf fur and one bushy tail, alone in rugged Norse pine woodland. No human body, no conventional hero portrait, no costume on wolf. Amber-gold supernatural transformation wisps clearly emit from the wolf's silhouette and spiral around paws and tail; floating golden motes and an unnervingly intelligent wolf gaze reveal the mythical shapeshifter. Dense forest shadows, boulders, early night light, serious haunting heroic-outlaw atmosphere. Do not depict the separate she-wolf who ate his brothers. No horns, wings, armor, extra heads, sword or readable runes. ONE square premium detailed painterly mythology encyclopedia image, whole identifying subject inside frame. No text, watermark, border, gore or victims.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-128.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/sigmund.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-89d4f24f-ea82-4047-88ee-9050a67c677c.png",
+      "reviewed_at": "2026-10-05T03:17:29.430Z",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Reviewed: full quadrupedal wolf in a Norse forest; four paws, one tail, and visible gold supernatural wisps, consistent with the documented werewolf episode."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: One coherent quadrupedal wolf in Norse woodland, emitted golden transformation wisps.",
+        "reviewed_at": "2026-10-05"
+      },
+      "registered_url": "/assets/art/sigmund-verified.webp",
+      "sha256": "31f6b579320968b36800dd5ce183f0bfb985ad884e203c9ed006cd65cb30e392",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a109e0-3203-7010-b601-1b4ef1325b47/exec-4ff01086-2c9c-4e96-af9f-1f0053e3ee08.png",
+  "revision_generator": "worker-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "worker-1",
+    "rationale": "Gold energy coils/sparks surround transformed wolf with no source support.",
+    "allowed_magic": "none",
+    "source_basis_claim_ids": [
+      "sigmund-c01",
+      "sigmund-c07"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/sigmund.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/sigmund.json"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "slug": "ojancanu",
+  "basis_claim_ids": [
+    "ojancanu-c01",
+    "ojancanu-c02",
+    "ojancanu-c03",
+    "ojancanu-c06"
+  ],
+  "depicted_variant": "Ojáncanu as a 20-foot one-eyed giant with tangled beard and its single white hair",
+  "visual_requirements": [
+    "Remove the red luminous energy envelope and red magical motes surrounding the giant. Retain one central eye (natural yellow iris, no glow), tangled beard and SINGLE white beard hair, two rows of teeth, giant size relative to cottage, boulder held in both hands, obscured hands/feet, same costume coverage and pose. Never add eyes/digits or expose hidden digits. Intimidation through towering size, boulder, grimace and dark mountains.",
+    "No generic emitted wrapping; original counts and anatomy"
+  ],
+  "aura": "Towering giant scale, furious grimace and heavy boulder.",
+  "prompt": "Use case: precise-object-edit. Edit supplied mythology artwork. Remove the red luminous energy envelope and red magical motes surrounding the giant. Retain one central eye (natural yellow iris, no glow), tangled beard and SINGLE white beard hair, two rows of teeth, giant size relative to cottage, boulder held in both hands, obscured hands/feet, same costume coverage and pose. Never add eyes/digits or expose hidden digits. Intimidation through towering size, boulder, grimace and dark mountains. Preserve exact original anatomy, count, scale, composition and coverage. No new subjects, nudity, text or watermark.",
+  "worker": "worker-2",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-131.review.json",
+  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/ojancanu-presence-v2.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-8f33274f-d0cc-41a8-a8d2-8c4cfa18b247.png",
+  "reviewed_at": "2026-10-05",
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native output actually inspected: one central eye, single white hair in tangled beard, boulder, giant cottage-relative scale and covered hands/feet retained; red energy removed.",
+    "reviewer": "aura-resume-1"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "root",
+    "reviewed_at": "2026-10-05",
+    "notes": "Inspected edit: one central eye, immense solid giant clutching rock over cabin, single white beard hair. Same hands/feet pose retained, natural storm lighting; no violet emitted body wrapping."
+  },
+  "initial_prompt": "ONE square terrifying painterly Cantabrian mythology illustration of OJÁNCANU, a ONE-EYED GIANT about20feet/6meters tall. Exactly ONE huge central eye, no second eye; tangled dark beard contains one clearly visible LONG WHITE HAIR. His snarling mouth shows two densely packed ROWS OF TEETH. He rises at a gloomy mountain cave above a normal tiny wooden hut for accurate20-foot scale, no mountain-sized exaggeration. Rough opaque hide garments and long wrist wraps are artistic modesty treatment. Hands hold a large rock so fingers are concealed; feet stand behind foreground boulders, do not expose ordinary five-digit hands or feet because the tradition specifies ten digits per limb. One eye, beard and white hair remain unobscured. Crimson supernatural vapor and luminous dust wrap the giant, oppressive cave shadow and storm dread. No extra eyes, horns, wings, text, watermark, victims or gore.",
+  "edit_prompts": [
+    "Correct ONLY the depicted physical SCALE and its environmental comparison in this Ojáncanu image. The giant is at most20feet, approximately6METERS tall, not mountain-sized. Place a normal2.5meter-high rural hut immediately beside him on the EXACT SAME FLAT GROUND PLANE, hut roof reaching about the giant's upper thighs/hip level. The hut must be only about2.4times shorter than his full standing height. Show the giant's full body so this ratio is objectively visible; his feet remain behind low foreground rocks and hands remain hidden holding the boulder/wristwraps, preserving no exposed five-digit contradiction. Keep one central eye, tangled dark beard with single long white strand, existing mouth/tooth arrangement, rough clothes, frightening expression and bright crimson emitted supernatural wisps unchanged. Do not add people. Adjust composition enough to make the6m-versus2.5m comparison clear, keeping giant and hut both inside canvas. No other new features, text or watermark.",
+    "Two precise corrections to this image. ENLARGE THE HUT to approximately1.6TIMES its current HEIGHT and WIDTH, keeping its base on the same ground plane as the giant's feet. Its roof must align with the giant's UPPER THIGHS, not his shins or knees. The hut is a normal2.5m building; this makes the whole giant6m tall (20feet maximum). Place hut slightly left of the giant without cropping it. SECOND: entirely cover both giant forefeet/toes with opaque dark rough FOOT WRAPPINGS, no toe tips or toes visible, because the source says ten digits per foot and ordinary five toes must not be shown. Do not expose hands/fingers. Keep the face, ONE central eye, single white beard strand, held rock, dark beard, clothing, crimson luminous aura, mountains and scale of the giant's image unchanged. Only enlarge/reposition hut and cover toes. No text, labels, people or watermark."
+  ],
+  "attempt_history": [
+    {
+      "file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/ojancanu.png",
+      "status": "superseded",
+      "reason": "Root review found apparent scale beyond the source maximum20feet."
+    },
+    {
+      "file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-e4057994-90f1-485f-960d-f70dd46d6a4d.png",
+      "status": "superseded",
+      "reason": "First scale correction still showed hut too small and exposed toe tips."
+    },
+    {
+      "slug": "ojancanu",
+      "basis_claim_ids": [
+        "ojancanu-c01",
+        "ojancanu-c02",
+        "ojancanu-c03",
+        "ojancanu-c06"
+      ],
+      "depicted_variant": "Ojáncanu as a 20-foot one-eyed giant with tangled beard and its single white hair",
+      "visual_requirements": [
+        "Exactly one central eye",
+        "Tangled dark beard with one visible white hair",
+        "About20-foot giant scale, two tooth rows and intimidating cave aura"
+      ],
+      "aura": "Malevolent crimson energy vapor and luminous dust around giant's cave silhouette",
+      "prompt": "ONE square terrifying painterly Cantabrian mythology illustration of OJÁNCANU, a ONE-EYED GIANT about20feet/6meters tall. Exactly ONE huge central eye, no second eye; tangled dark beard contains one clearly visible LONG WHITE HAIR. His snarling mouth shows two densely packed ROWS OF TEETH. He rises at a gloomy mountain cave above a normal tiny wooden hut for accurate20-foot scale, no mountain-sized exaggeration. Rough opaque hide garments and long wrist wraps are artistic modesty treatment. Hands hold a large rock so fingers are concealed; feet stand behind foreground boulders, do not expose ordinary five-digit hands or feet because the tradition specifies ten digits per limb. One eye, beard and white hair remain unobscured. Crimson supernatural vapor and luminous dust wrap the giant, oppressive cave shadow and storm dread. No extra eyes, horns, wings, text, watermark, victims or gore.\nScale correction prompts:\nCorrect ONLY the depicted physical SCALE and its environmental comparison in this Ojáncanu image. The giant is at most20feet, approximately6METERS tall, not mountain-sized. Place a normal2.5meter-high rural hut immediately beside him on the EXACT SAME FLAT GROUND PLANE, hut roof reaching about the giant's upper thighs/hip level. The hut must be only about2.4times shorter than his full standing height. Show the giant's full body so this ratio is objectively visible; his feet remain behind low foreground rocks and hands remain hidden holding the boulder/wristwraps, preserving no exposed five-digit contradiction. Keep one central eye, tangled dark beard with single long white strand, existing mouth/tooth arrangement, rough clothes, frightening expression and bright crimson emitted supernatural wisps unchanged. Do not add people. Adjust composition enough to make the6m-versus2.5m comparison clear, keeping giant and hut both inside canvas. No other new features, text or watermark.\nTwo precise corrections to this image. ENLARGE THE HUT to approximately1.6TIMES its current HEIGHT and WIDTH, keeping its base on the same ground plane as the giant's feet. Its roof must align with the giant's UPPER THIGHS, not his shins or knees. The hut is a normal2.5m building; this makes the whole giant6m tall (20feet maximum). Place hut slightly left of the giant without cropping it. SECOND: entirely cover both giant forefeet/toes with opaque dark rough FOOT WRAPPINGS, no toe tips or toes visible, because the source says ten digits per foot and ordinary five toes must not be shown. Do not expose hands/fingers. Keep the face, ONE central eye, single white beard strand, held rock, dark beard, clothing, crimson luminous aura, mountains and scale of the giant's image unchanged. Only enlarge/reposition hut and cover toes. No text, labels, people or watermark.",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-131.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/ojancanu-corrected.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-8f33274f-d0cc-41a8-a8d2-8c4cfa18b247.png",
+      "reviewed_at": "2026-10-05T03:03:13.379304+00:00",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Corrected composition places hut and giant on the same ground plane; hut roof reaches upper thighs, about42%of full giant height, consistent with roughly6m maximum against2.5m hut. One central eye, one conspicuous white beard strand, existing tooth rows and bright crimson supernatural wisps preserved. Hands remain concealed by held rock/wrappings. Feet are heavily wrapped and partly hidden by foreground boulders; digits are not countable, so ten-digit anatomy is not claimed visually verified."
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Root inspected contact sheet: One central eye, white beard strand and crimson aura visible; corrected hut-to-body comparison supports roughly20-foot maximum, wrapped digits not asserted counted.",
+        "reviewed_at": "2026-10-05"
+      },
+      "initial_prompt": "ONE square terrifying painterly Cantabrian mythology illustration of OJÁNCANU, a ONE-EYED GIANT about20feet/6meters tall. Exactly ONE huge central eye, no second eye; tangled dark beard contains one clearly visible LONG WHITE HAIR. His snarling mouth shows two densely packed ROWS OF TEETH. He rises at a gloomy mountain cave above a normal tiny wooden hut for accurate20-foot scale, no mountain-sized exaggeration. Rough opaque hide garments and long wrist wraps are artistic modesty treatment. Hands hold a large rock so fingers are concealed; feet stand behind foreground boulders, do not expose ordinary five-digit hands or feet because the tradition specifies ten digits per limb. One eye, beard and white hair remain unobscured. Crimson supernatural vapor and luminous dust wrap the giant, oppressive cave shadow and storm dread. No extra eyes, horns, wings, text, watermark, victims or gore.",
+      "edit_prompts": [
+        "Correct ONLY the depicted physical SCALE and its environmental comparison in this Ojáncanu image. The giant is at most20feet, approximately6METERS tall, not mountain-sized. Place a normal2.5meter-high rural hut immediately beside him on the EXACT SAME FLAT GROUND PLANE, hut roof reaching about the giant's upper thighs/hip level. The hut must be only about2.4times shorter than his full standing height. Show the giant's full body so this ratio is objectively visible; his feet remain behind low foreground rocks and hands remain hidden holding the boulder/wristwraps, preserving no exposed five-digit contradiction. Keep one central eye, tangled dark beard with single long white strand, existing mouth/tooth arrangement, rough clothes, frightening expression and bright crimson emitted supernatural wisps unchanged. Do not add people. Adjust composition enough to make the6m-versus2.5m comparison clear, keeping giant and hut both inside canvas. No other new features, text or watermark.",
+        "Two precise corrections to this image. ENLARGE THE HUT to approximately1.6TIMES its current HEIGHT and WIDTH, keeping its base on the same ground plane as the giant's feet. Its roof must align with the giant's UPPER THIGHS, not his shins or knees. The hut is a normal2.5m building; this makes the whole giant6m tall (20feet maximum). Place hut slightly left of the giant without cropping it. SECOND: entirely cover both giant forefeet/toes with opaque dark rough FOOT WRAPPINGS, no toe tips or toes visible, because the source says ten digits per foot and ordinary five toes must not be shown. Do not expose hands/fingers. Keep the face, ONE central eye, single white beard strand, held rock, dark beard, clothing, crimson luminous aura, mountains and scale of the giant's image unchanged. Only enlarge/reposition hut and cover toes. No text, labels, people or watermark."
+      ],
+      "attempt_history": [
+        {
+          "file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/ojancanu.png",
+          "status": "superseded",
+          "reason": "Root review found apparent scale beyond the source maximum20feet."
+        },
+        {
+          "file": "/home/asadin/.codex/generated_images/01a109de-3332-7701-8e5a-bb62cea72a55/exec-e4057994-90f1-485f-960d-f70dd46d6a4d.png",
+          "status": "superseded",
+          "reason": "First scale correction still showed hut too small and exposed toe tips."
+        }
+      ],
+      "registered_url": "/assets/art/ojancanu-verified.webp",
+      "sha256": "ec1bb3fd11aed8e2b100deaf44cb4e46ef447e7d07717eb03236055a730a0e74",
+      "superseded_reason": "User clarified aura as character presence rather than generic magical effects."
+    }
+  ],
+  "native_tool_file": "/home/asadin/.codex/generated_images/01a10b05-be4c-74c0-8109-513d2abf724e/exec-4f8c3902-a13f-4dad-a817-713b047dc5de.png",
+  "revision_generator": "aura-resume-1",
+  "artistic_changes": [
+    "Character presence conveyed by pose, composition, scene atmosphere and natural lighting; effects only where the source supports them."
+  ],
+  "aura_revision": {
+    "decision": "revise",
+    "reviewer": "aura-resume-1",
+    "rationale": "Red luminous envelope unsupported by giant source claims.",
+    "allowed_magic": "none beyond documented creature manifestation",
+    "source_basis_claim_ids": [
+      "ojancanu-c01",
+      "ojancanu-c02",
+      "ojancanu-c03",
+      "ojancanu-c06"
+    ],
+    "review_path": "data/artwork-generated/aura-revision-797/reviews/ojancanu.json",
+    "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/ojancanu.json"
+  }
+}

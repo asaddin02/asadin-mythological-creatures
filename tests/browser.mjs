@@ -70,6 +70,8 @@ try {
   await page.locator('[data-hero="garuda"]').click();
   assert.equal(await page.locator('#hero-play').getAttribute('aria-pressed'), 'false');
   await page.locator('#hero-play').click();
+  // The fitted artwork makes the banner taller; leave the hovered controls before autoplay.
+  await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }));
   await page.mouse.move(5, 5);
   await page.waitForFunction(() => document.querySelector('.gateway').classList.contains('is-playing'));
   await page.clock.fastForward(9100);
@@ -109,7 +111,7 @@ try {
   await page.waitForFunction(() => !document.querySelector('.gateway').classList.contains('is-playing'));
   await page.clock.fastForward(10000);
   assert.equal(await page.locator('.gateway').getAttribute('data-legend'), 'garuda', 'Offscreen slideshow must pause');
-  await page.waitForFunction(()=>getComputedStyle(document.querySelector('.royal-slide.is-active .hero-art')).animationPlayState==='paused');
+  assert.equal(await page.locator('.royal-slide.is-active .hero-art').evaluate(img => getComputedStyle(img).transform), 'none', 'Artwork must stay fully framed without zoom drift');
   await page.locator('.featured-grid img').evaluateAll(images => Promise.all(images.map(img => img.decode())));
   assert.equal(await page.locator('[data-preview-src], [data-download-src], .card-aura, #aura-toggle-btn').count(), 0, 'Home cards navigate; artwork tools belong on detail pages');
   await page.evaluate(() => { window.departedHero = document.querySelector('.gateway'); });
