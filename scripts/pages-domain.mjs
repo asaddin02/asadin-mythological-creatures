@@ -43,16 +43,21 @@ async function main() {
   const target = process.env.PAGES_TARGET || 'mythics';
   if (!token || !account) throw new Error('Cloudflare credentials are required.');
   if (!/^[a-z0-9][a-z0-9-]{0,50}$/.test(target)) throw new Error('Invalid Pages target.');
-  const api = async (method, path, body) => {
+  const api = async (method, path, body, envelope = false) => {
     const response = await fetch(`https://api.cloudflare.com/client/v4/accounts/${account}/pages${path}`, {
       method, headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
       ...(body ? { body: JSON.stringify(body) } : {}), signal: AbortSignal.timeout(30000),
     });
     const json = await response.json();
     if (!response.ok || !json.success) throw new Error(`${method} ${path}: ${JSON.stringify(json.errors)}`);
-    return json.result;
+    return envelope ? json : json.result;
   };
-  const projects = await api('GET', '/projects?per_page=100');
+  const projects = [];
+  for (let page = 1; ; page++) {
+    const listed = await api('GET', `/projects?page=${page}`, undefined, true);
+    projects.push(...listed.result);
+    if (page >= (listed.result_info?.total_pages || 1)) break;
+  }
   // Never print deployment configs, environment variables, tokens, or raw account responses.
   console.log(JSON.stringify({ projects: projects.map(p => ({ name: p.name, subdomain: p.subdomain, deployed: Boolean(p.canonical_deployment), created_on: p.created_on })) }, null, 2));
   if (!process.argv.includes('--reserve')) return;
