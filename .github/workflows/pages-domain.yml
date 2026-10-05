@@ -1,0 +1,62 @@
+name: Pages domain
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Inspect the account, or try to reserve mythics.pages.dev while retaining the live project
+        type: choice
+        options: [inspect, reserve]
+        default: inspect
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  domain:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - name: Check domain reservation and rollback logic
+        run: node --test tests/pages-domain.mjs
+      - name: Inspect or reserve Pages name
+        id: domain
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          MODE: ${{ inputs.mode }}
+        run: |
+          if [ "$MODE" = reserve ]; then
+            node scripts/pages-domain.mjs --reserve
+          else
+            node scripts/pages-domain.mjs
+          fi
+      - run: npm ci
+        if: steps.domain.outputs.outcome == 'reserved'
+      - name: Build public site for the reserved address
+        if: steps.domain.outputs.outcome == 'reserved'
+        run: npm run build:site
+        env:
+          SITE_URL: ${{ steps.domain.outputs.site_url }}
+          MYTHICS_PUBLISH: complete
+          MEDIA_BASE: /media
+      - name: Publish the reserved project
+        if: steps.domain.outputs.outcome == 'reserved'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          PROJECT: ${{ steps.domain.outputs.project }}
+        run: npx --yes wrangler@4 pages deploy dist --project-name="$PROJECT" --branch=main --commit-hash="$(git rev-parse HEAD)" --commit-dirty=true
+      - name: Verify all public artwork at the reserved address
+        if: steps.domain.outputs.outcome == 'reserved'
+        env:
+          PUBLIC_SITE_URL: ${{ steps.domain.outputs.site_url }}
+        run: node scripts/check-public-media.mjs
