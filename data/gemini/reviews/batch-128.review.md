@@ -1,13 +1,10 @@
 # Review batch-128
 
-Diperiksa 2026-10-02T14:26:22.983Z. Berkas: batch-128.md, batch-128-fix-1.md.
+Diperiksa 2026-10-06T14:11:59.820Z. Berkas: batch-128.md, batch-128-fix-1.md, batch-128-fix-2.md.
 
 ## succubus — lulus-otomatis
 
-Klaim 16 (exact 14, loose 2), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target rich: 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 29 (exact 27, loose 2), sumber 6, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -27,6 +24,19 @@ Klaim 16 (exact 14, loose 2), sumber 3, gambar 0.
 | succubus-c14 | exact | id.wikipedia.org | A cambion is said to grow like an ordinary child before the age of 7. | Cambion dikatakan akan tumbuh seperti anak-anak normal di usia sebelum 7 tahun |
 | succubus-c15 | exact | ja.wikipedia.org | According to the Japanese article, the 17th-century Italian theologian Ludovico Maria Sinistrari (1622–1701) wrote that incubi and succubi are not demons but a different kind of rational creature from humans. | 17世紀イタリアの神学者ルドヴィコ・マリア・シニストラリ（1622年 – 1701年）は著書にて、「インキュバス・サキュバスは悪魔ではなく、人間とは別の種類の理性的な動物」としている。 |
 | succubus-c16 | exact | ja.wikipedia.org | Thomas Aquinas in the Summa Theologiae describes it as a being that takes semen from men as a succubus and then, turned incubus, impregnates women, so the two are sometimes said to be one hermaphrodite being. | 男性形のインキュバスとは表裏一体で、サキュバスの姿で男性から精液を採取し、それをインキュバスに変身後に女性へと注いで望まぬ妊娠をさせる存在とトマス・アクィナスは『神学大全』で記述しており、両性具有の同一者であるとも言われている。 |
+| succubus-c17 | exact | www.gutenberg.org | William of Paris, confessor of Philip le Bel, lays down that there exist beings commonly called incubi or succubi who indulge their burning lusts. | The learned William of Paris, confessor of Philip le Bel, lays down: “That there exist such beings as are commonly called incubi or succubi and that they indulge their burning lusts |
+| succubus-c18 | exact | www.gutenberg.org | A passage quoted in Summers's book states that the same evil spirit may serve as a succubus to a man and as an incubus to a woman. | The same evil spirit may serve as a succubus to a man, and as an incubus to a woman. |
+| succubus-c19 | exact | www.gutenberg.org | In a passage quoted by Summers, evil spirits appear as incubi and succubi apparently to inflict a double hurt on man, in both soul and body, which is a supreme joy to devils. | The reason why evil spirits appear as incubi and succubi would seem to be that ... they inflict a double hurt on man, both in his soul and body, and it is a supreme joy to devils thus to injure humankind. |
+| succubus-c20 | exact | www.gutenberg.org | In a passage quoted by Summers, a demon assumes the form of the succubus. | A demon assumes the form of the succubus |
+| succubus-c21 | exact | www.gutenberg.org | In an accusation against witches quoted by Summers, the Devil appears in human form, is used by the men as a succubus and carnally serves the woman as an incubus. | fornicating with the Devil himself who appears to them in a human form, being used by the men as a succubus, & carnally serving the woman as an incubus. |
+| succubus-c22 | exact | www.gutenberg.org | Summers allows that many such accounts may be ascribed to hysteria, hallucinations, nightmare and the imaginings of disease. | In the first place, we may freely allow that many of these lubricities are to be ascribed to hysteria and hallucinations, to nightmare and the imaginings of disease |
+| succubus-c23 | exact | www.gutenberg.org | Brignoli relates that at Bergamo in 1650 a young man of twenty-two came to him and made a long confession. | Brignoli, in his ... relates that when he was at Bergamo in 1650, a young man, twenty-two years of age, sought him out and made a long and ample confession. |
+| succubus-c24 | exact | www.gutenberg.org | In the tale, before dawn the visitant revealed the true nature of the deceit and the young man realized he had lain with a succubus. | Before dawn, however, the visitant revealed the true nature of the deceit, and the young man realized he had lain with a succubus. |
+| succubus-c25 | exact | www.gutenberg.org | Summers records Abrahel and Jezebel as names of familiars, each described as a succubus. | Martinet; Abrahel (a succubus); and to animal familiars in England, Tissy; Grissell; Greedigut; Blackman; Jezebel (a succubus) |
+| succubus-c26 | exact | www.newadvent.org | In the Summa Theologiae, the demon assumes first the form of a woman and afterwards that of a man, in answer to the claim that demons beget human children. | as when the demon assumes first the form of a woman, and afterwards of a man |
+| succubus-c27 | exact | www.newadvent.org | Aquinas holds that if children are born from demons, it is not from the demons' own seed but from the seed of men taken for the purpose. | but from the seed of men taken for the purpose |
+| succubus-c28 | exact | en.wikisource.org | The 1911 Britannica states that the female counterparts of incubus demons were called succubae. | The female counterparts of these demons were called succubae. |
+| succubus-c29 | exact | en.wikisource.org | The 1911 Britannica describes the incubus as a male demon supposed to haunt women in their sleep. | a male demon which was supposed to haunt women in their sleep |
 
 
 ## beast-of-gevaudan — lulus-otomatis
