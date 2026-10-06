@@ -1,26 +1,28 @@
 {
   "batch_id": "batch-014",
-  "checked_at": "2026-09-29T12:44:25.350Z",
+  "checked_at": "2026-10-06T19:19:50.182Z",
   "files": [
-    "batch-014.md"
+    "batch-014.md",
+    "batch-014-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "dalaketnon",
-      "file": "batch-014.md",
+      "file": "batch-014-fix-1.md",
+      "entry_sha256": "5d0ac903828613f800baa6dc6318571e1c91e4deac54363e93fca284ea2dd30a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 16,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target rich: 4 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target rich: 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
         },
         {
           "level": "warn",
@@ -43,9 +45,9 @@
           "id": "dalaketnon-c01",
           "source_id": "dalaketnon-s1",
           "host": "en.wikipedia.org",
-          "statement": "Dalaketnon are evil engkanto, environmental spirits often in human form, an elf-like race with pointed ears in Philippine mythology; in Visayan culture they were thought beautiful like pre-Hispanic nobles and monarchs, men light-skinned and dark-haired, women bronze-brown.",
-          "statement_id": "Dalaketnon adalah engkanto jahat, roh lingkungan yang sering tampil dalam wujud manusia, bangsa mirip peri bertelinga runcing dalam mitologi Filipina; dalam budaya Visayas mereka diyakini rupawan seperti bangsawan dan raja Filipina prakolonial, laki-laki berkulit terang berambut gelap dan perempuan berkulit cokelat perunggu.",
-          "quote": "Dalaketnon are evil engkanto, or mythological environmental spirits that often appear in human form. Dalaketnons are a race of elf-like creatures in Philippine mythology with pointed, leaf-shaped ears. In Visayan culture, they were believed to be handsome and beautiful beings resembling nobles and monarchs of pre-Hispanic Philippines.",
+          "statement": "Dalaketnon are evil engkanto, mythological environmental spirits said to appear in human form.",
+          "statement_id": "Dalaketnon adalah engkanto jahat, roh lingkungan mitologis yang konon tampil dalam wujud manusia.",
+          "quote": "Dalaketnon are evil engkanto, or mythological environmental spirits that are said to appear in human form.",
           "context": "traditional-belief",
           "status": "exact",
           "wiki_flag": "bagian tanpa sumber"
@@ -54,9 +56,9 @@
           "id": "dalaketnon-c02",
           "source_id": "dalaketnon-s1",
           "host": "en.wikipedia.org",
-          "statement": "The name dalaketnon comes from these spirits living in dalakit trees (balete or dakit), meaning 'from the dalakit tree'.",
-          "statement_id": "Nama dalaketnon berasal dari kepercayaan bahwa roh ini tinggal di pohon dalakit (balete atau dakit), dan berarti 'dari pohon dalakit'.",
-          "quote": "The name dalaketnon comes from the fact that these spirits are said to reside in Dalakit trees (also known as Balete or Dakit), with their name meaning \"from the Dalakit (or Dakit) tree.\"",
+          "statement": "The name dalaketnon comes from these spirits being said to reside in dalakit trees (also known as balete or dakit); it means \"from the dalakit tree\".",
+          "statement_id": "Nama dalaketnon berasal dari kepercayaan bahwa roh-roh ini tinggal di pohon dalakit (juga disebut balete atau dakit); artinya \"dari pohon dalakit\".",
+          "quote": "The name dalaketnon comes from the fact that these spirits are said to reside in Dalakit trees (also known as Balete or Dakit), with their name meaning \"from the Dalakit tree.\"",
           "context": "etymology",
           "status": "exact",
           "wiki_flag": "citation needed"
@@ -65,8 +67,8 @@
           "id": "dalaketnon-c03",
           "source_id": "dalaketnon-s1",
           "host": "en.wikipedia.org",
-          "statement": "In folklore these beings abduct people to their world and feast them; victims must eat black rice, which enchants them so they cannot escape.",
-          "statement_id": "Menurut cerita rakyat, makhluk ini menculik orang ke dunianya dan menjamu mereka; korban dipaksa memakan nasi hitam yang membuat mereka terpesona dan tak bisa melarikan diri.",
+          "statement": "According to folklore, these creatures abduct people to their own world and prepare feasts for their captives; victims are forced to eat black rice, which is believed to enchant them and keep them from escaping.",
+          "statement_id": "Menurut cerita rakyat, makhluk ini menculik orang ke dunia mereka dan menyiapkan jamuan bagi tawanannya; korban dipaksa memakan nasi hitam yang diyakini membuat mereka terpesona dan tak bisa melarikan diri.",
           "quote": "According to folklore, these creatures abduct people and take them to their own world, where they prepare feasts for their captives. The victims are forced to eat Black Rice, which is believed to place them under the creatures’ enchantment and prevent them from escaping.",
           "context": "traditional-belief",
           "status": "exact",
@@ -76,9 +78,129 @@
           "id": "dalaketnon-c04",
           "source_id": "dalaketnon-s1",
           "host": "en.wikipedia.org",
-          "statement": "The elderly believed dalaketnon could turn humans into their kind with magical black rice; they were enemies of benevolent engkanto, royal rulers of the evil ones, linked with the tiyanak, aswang, manananggal and tiktik.",
-          "statement_id": "Orang tua dulu percaya dalaketnon dapat mengubah manusia menjadi seperti mereka dengan nasi hitam ajaib; mereka musuh bebuyutan engkanto yang baik, keturunan bangsawan dan penguasa engkanto jahat, serta dikaitkan dengan tiyanak, aswang, manananggal, dan tiktik.",
+          "statement": "According to folklore, the elderly believed dalaketnon could transform ordinary humans into beings like themselves using magical black rice, and they were thought to be mortal enemies of the benevolent engkanto.",
+          "statement_id": "Menurut cerita rakyat, orang tua dulu percaya dalaketnon mampu mengubah manusia biasa menjadi makhluk seperti mereka dengan nasi hitam ajaib, dan mereka dianggap musuh bebuyutan engkanto yang baik.",
           "quote": "According to folklore, the elderly believed that Dalaketnons possessed the ability to transform ordinary humans into beings like themselves, using magical black rice for this purpose. They were also thought to be mortal enemies of the benevolent engkanto.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dalaketnon-c05",
+          "source_id": "dalaketnon-s2",
+          "host": "www.aswangproject.com",
+          "statement": "The dalaketnon (Waray) are called dalakitnon by the East Visayans; the name means \"those who live in the balete tree\".",
+          "statement_id": "Dalaketnon (Waray) disebut dalakitnon oleh orang Visayas Timur; namanya berarti \"mereka yang tinggal di pohon balete\".",
+          "quote": "DALAKETNON – (Waray) They are called dalakitnon by the East Visayans. Their name means ‘those who live in the balete tree’.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "dalaketnon-c06",
+          "source_id": "dalaketnon-s2",
+          "host": "www.aswangproject.com",
+          "statement": "They appear like good-looking tall men and women, with smooth white skin, wavy brown hair, and clothes with gold and silver threads.",
+          "statement_id": "Mereka tampak seperti pria dan wanita tinggi yang rupawan, berkulit halus dan putih, berambut ikal cokelat, dengan pakaian bersulam benang emas dan perak.",
+          "quote": "They appear like good-looking tall men and women. Their skin is smooth and white. Their hair is wavy and brown. Their clothes have gold and silver threads.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dalaketnon-c07",
+          "source_id": "dalaketnon-s2",
+          "host": "www.aswangproject.com",
+          "statement": "They mix with people and attend public dances, go to college, travel in foreign lands, drive new cars and win beauty contests.",
+          "statement_id": "Mereka berbaur dengan manusia dan datang ke pesta dansa umum, kuliah, bepergian ke negeri asing, mengendarai mobil baru, dan memenangi kontes kecantikan.",
+          "quote": "They mix with people and attend public dances. They go to college and travel in foreign lands. They drive new cars and win beauty contests.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dalaketnon-c08",
+          "source_id": "dalaketnon-s2",
+          "host": "www.aswangproject.com",
+          "statement": "They live deep in the wild woods; what we think are balete trees are their mansions, where the clink of dishes in their kitchens is heard, their cooking smelled and their babies heard crying.",
+          "statement_id": "Mereka tinggal jauh di dalam hutan liar; apa yang kita kira pohon balete adalah mansion mereka, tempat terdengar denting piring di dapur, tercium bau masakan, dan terdengar tangis bayi mereka.",
+          "quote": "But they live deep in the wild woods. What we think are balete trees are their mansions. We hear the clink of dishes in their kitchens. We smell their cooking and hear their babies cry.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dalaketnon-c09",
+          "source_id": "dalaketnon-s2",
+          "host": "www.aswangproject.com",
+          "statement": "In one tale, a good-looking youth met a city girl at the village dance; she fell in love and agreed to visit his folks, was driven in his car to a beautiful city, and next morning was found weeping alone in the woods.",
+          "statement_id": "Dalam sebuah kisah, seorang pemuda rupawan bertemu seorang gadis kota di pesta dansa desa; ia jatuh cinta dan setuju mengunjungi keluarganya, diantar mobil ke kota indah, tetapi keesokan paginya ditemukan menangis sendirian di hutan.",
+          "quote": "A good-looking youth met her at the village dance. They danced and danced, and she fell in love. She agreed to visit his folks. In his car he drove her to a beautiful city. The streets were wide and the houses were splendid. Next morning she was found weeping in the woods alone.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dalaketnon-c10",
+          "source_id": "dalaketnon-s2",
+          "host": "www.aswangproject.com",
+          "statement": "The dalaketnon entry in this Aswang Project compendium cites The Creatures of Midnight by Maximo Ramos (Phoenix Publishing, 1990) as its source.",
+          "statement_id": "Entri dalaketnon dalam kompendium Aswang Project ini mencantumkan The Creatures of Midnight karya Maximo Ramos (Phoenix Publishing, 1990) sebagai sumbernya.",
+          "quote": "Next morning she was found weeping in the woods alone. (source: The Creatures of Midnight , Maximo Ramos, Phoenix Publishing, 1990)",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dalaketnon-c11",
+          "source_id": "dalaketnon-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The tree from which the dalakitnon (\"one who lives in the dalakit tree\") got its name is the dalakit.",
+          "statement_id": "Pohon yang menjadi asal nama dalakitnon (\"yang tinggal di pohon dalakit\") adalah dalakit.",
+          "quote": "The tree from which the dalakitnon (‘one who lives in the dalakit tree’) got its name is the dalakit.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "dalaketnon-c12",
+          "source_id": "dalaketnon-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The tall elves include the dalakitnon of the legend about Gloria; they freely interact with humans, going to public dances, driving flashy new cars and winning beauty contests.",
+          "statement_id": "Di antara elf yang tinggi terdapat dalakitnon dalam legenda tentang Gloria; mereka bebas bergaul dengan manusia, datang ke pesta dansa umum, mengendarai mobil mencolok, dan memenangi kontes kecantikan.",
+          "quote": "The tall elves include the dalakitnon of the legend about Gloria. They freely interact with humans, going to public dances, driving flashy new cars, and winning beauty contests.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dalaketnon-c13",
+          "source_id": "dalaketnon-s3",
+          "host": "www.aswangproject.com",
+          "statement": "They all live in trees in the Philippines; people imagine the dalakit and kalumpang are just trees, but these are elf mansions, and some have heard the clink of elf plates in elf kitchens and dining tables in these trees.",
+          "statement_id": "Semua elf itu tinggal di pohon di Filipina; orang mengira dalakit dan kalumpang hanyalah pohon, padahal itu mansion elf, dan sebagian orang pernah mendengar denting piring elf di dapur dan meja makan di dalam pohon-pohon itu.",
+          "quote": "But they all live in trees in the Philippines. People imagine that the dalakit and kalumpang are trees but these are elf mansions and some have heard the clink of elf plates in elf kitchens and dining tables in these trees.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dalaketnon-c14",
+          "source_id": "dalaketnon-s3",
+          "host": "www.aswangproject.com",
+          "statement": "In this legend a city girl meets a tall, blond youth at a village dance, agrees that same night to visit his folks, is driven in his sports car to a wondrous city, and next day is found weeping alone in the deep woods after a long search by the villagers.",
+          "statement_id": "Dalam legenda ini seorang gadis kota bertemu pemuda tinggi berambut pirang di pesta dansa desa, setuju mengunjungi keluarganya malam itu, dibawa dengan mobil sport ke kota megah, dan keesokan harinya ditemukan menangis sendirian di hutan lebat setelah pencarian panjang oleh warga desa.",
+          "quote": "She met a tall, blond youth at a village dance given in her honor. They danced and danced and then she agreed to go with him and visit his folks that same night. In his gleaming sports car they drove to a wondrous city with bright lights, wide streets, and splendid homes. She was found weeping alone in the deep woods next day after a long and anxious search by the village folk.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dalaketnon-c15",
+          "source_id": "dalaketnon-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The special attraction of the dalakitnon to Gloria was that he had the physical traits of the conquering Spanish and American Caucasoid: tall, light-complexioned, blond, with a long narrow nose and blue eyes rather than dark brown or black like a Filipino's.",
+          "statement_id": "Daya tarik khusus dalakitnon bagi Gloria adalah ciri fisiknya seperti orang Kaukasoid Spanyol dan Amerika penakluk: tinggi, berkulit terang, pirang, berhidung panjang dan sempit, bermata biru, bukan cokelat tua atau hitam seperti orang Filipina.",
+          "quote": "The special attraction of the dalakitnon to Gloria was that he had the physical traits of the conquering Spanish and American Caucasoid—tall, light-complex- ioned, blond, his nose long and narrow, and his eyes blue rather than dark brown or black like a Filipino’s.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dalaketnon-c16",
+          "source_id": "dalaketnon-s3",
+          "host": "www.aswangproject.com",
+          "statement": "Some elves are just a few inches tall and others about a foot, but the rest are six-footers or taller.",
+          "statement_id": "Sebagian elf hanya setinggi beberapa inci dan yang lain sekitar satu kaki, tetapi sisanya setinggi enam kaki atau lebih.",
+          "quote": "Some elves are just a few inches tall and others about a foot, but the rest are six-footers or taller.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -87,20 +209,15 @@
     },
     {
       "slug": "kong-koi",
-      "file": "batch-014.md",
+      "file": "batch-014-fix-1.md",
+      "entry_sha256": "2e87207537abe27a2c1df5354de0deb69ce95bdf8ae5399eea7db6e326d6e4aa",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 19,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kong-koi-c01",
@@ -151,25 +268,161 @@
           "quote": "He described the Phi Kong Koi as being shaped like children of about 13–14 years old. They were thin with a bulging belly, dark brown skin, dark hair, and a chubby nose. They were armed with small crossbows or arrows",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "kong-koi-c06",
+          "source_id": "kong-koi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name Phi Kong Koi has several sources; phi means ghost in the Thai language.",
+          "statement_id": "Nama Phi Kong Koi memiliki beberapa sumber; phi berarti hantu dalam bahasa Thai.",
+          "quote": "The name Phi Kong Koi  has several sources. Phi means ghost in the Thai language",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kong-koi-c07",
+          "source_id": "kong-koi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The word koi or koy (กอย), as defined by the Royal Institute Dictionary, means an ethnic group with black skin and curly hair in the Malay Peninsula, also known as Sakai.",
+          "statement_id": "Kata koi atau koy (กอย), menurut Kamus Royal Institute, berarti kelompok etnis berkulit hitam dan berambut keriting di Semenanjung Malaya, yang juga disebut Sakai.",
+          "quote": "The word koi or koy (กอย), as defined by the Royal Institute Dictionary means, \"An ethnic group having black skin, curly hair in the Malay Peninsula, also known as Sakai.\"",
+          "context": "etymology",
+          "status": "loose"
+        },
+        {
+          "id": "kong-koi-c08",
+          "source_id": "kong-koi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the account of Luang Pu Waen, he and his fellow travelers were meditating, which protected them from the Phi Kong Koi; at dawn the Phi Kong Koi surrendered and invited both to their home.",
+          "statement_id": "Dalam kisah Luang Pu Waen, ia dan rekan seperjalanannya bermeditasi, yang melindungi mereka dari Phi Kong Koi; saat fajar, Phi Kong Koi menyerah dan mengundang keduanya ke rumah mereka.",
+          "quote": "Luang Pu Waen and fellow travelers were meditating, which protected them from the Phi Kong Koi. At dawn, the Phi Kong Koi surrendered and invited both of them to their home.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kong-koi-c09",
+          "source_id": "kong-koi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Luang Pu Waen Suciṇṇo, former abbot of Wat Doi Mae Pang in Chiang Mai province, said that while travelling in the jungle in Khammouane, Laos, with Luang Pu Tue Ajala Thamฺmo, they fought many Phi Kong Koi at night.",
+          "statement_id": "Luang Pu Waen Suciṇṇo, mantan kepala wihara Wat Doi Mae Pang di provinsi Chiang Mai, mengatakan bahwa saat menjelajah hutan di Khammouane, Laos, bersama Luang Pu Tue Ajala Thamฺmo, mereka bertarung dengan banyak Phi Kong Koi pada malam hari.",
+          "quote": "Luang Pu Waen Suciṇṇo (former abbot of Wat Doi Mae Pang, Chiang Mai province) said that when he traveled in the jungle in Khammouane, Laos, with Luang Pu Tue Ajala Thamฺmo, they fought with many Phi Kong Koi at night.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kong-koi-c10",
+          "source_id": "kong-koi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some have suggested, based on this story, that the Phi Kong Koi are really the Kha Ra Dae (ข่าระแด), an ethnic group.",
+          "statement_id": "Ada yang berpendapat, berdasarkan kisah ini, bahwa Phi Kong Koi sebenarnya adalah Kha Ra Dae (ข่าระแด), sebuah kelompok etnis.",
+          "quote": "Some have suggested, based on this story, that the Phi Kong Koi are really the Kha Ra Dae (ข่าระแด) an ethnic group.",
+          "context": "scholarly-interpretation",
+          "status": "loose"
+        },
+        {
+          "id": "kong-koi-c11",
+          "source_id": "kong-koi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Karen have a different belief: the Phi Kong Koi is seen as a small, extremely agile, shrew-like creature with small, sharp teeth and fangs used to suck the blood of its prey.",
+          "statement_id": "Orang Karen memiliki kepercayaan berbeda: Phi Kong Koi dipandang sebagai makhluk kecil yang sangat lincah mirip celurut, bergigi dan bertaring kecil tajam yang dipakai mengisap darah mangsanya.",
+          "quote": "The Karen have a different belief: the Phi Kong Koi is seen as a small, extremely agile, shrew-like creature with small, sharp teeth and fangs used to suck the blood of its prey for nourishment.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kong-koi-c12",
+          "source_id": "kong-koi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In September 2016, strange footprints were found at a cave in the forest in Loei province; believed to be Phi Kong Koi footprints, a local cultural agency director said the Phi Kong Koi are real and are an ethnic group not seen for a long time.",
+          "statement_id": "Pada September 2016, jejak kaki aneh ditemukan di sebuah gua di hutan provinsi Loei; diyakini sebagai jejak Phi Kong Koi, dan direktur sebuah lembaga budaya setempat mengatakan Phi Kong Koi nyata dan merupakan kelompok etnis yang lama tak terlihat.",
+          "quote": "In September 2016, strange footprint were found at a cave in the forest in Loei province. Believed to be the footprints of Phi Kong Koi, the director of a local cultural agency said Phi Kong Koi are real and that they are ethnic group whose has not been seen for a long time.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "kong-koi-c13",
+          "source_id": "kong-koi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 2018 a video of roadside grass at night circulated online and was first claimed to show Phi Kong Koi, but most observers dismissed it as staged, the figure being nothing more than a puppet.",
+          "statement_id": "Pada 2018, sebuah video rumput di tepi jalan pada malam hari beredar di internet dan awalnya diklaim menampilkan Phi Kong Koi, tetapi kebanyakan pengamat menganggapnya rekayasa dan sosoknya hanya boneka.",
+          "quote": "In 2018, a video clip was circulated online showing roadside grass at night in an unidentified location. ... The footage was initially claimed to show Phi Kong Koi. However, the clip attracted skepticism, with most observers dismissing it as staged content, suggesting the figure was nothing more than a puppet.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "kong-koi-c14",
+          "source_id": "kong-koi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Dr. Weerachai Phutdhawong of the Faculty of Science, Kasetsart University, offered a skeptical explanation: the footprint was likely human, and when someone steps on ashes or salt, evaporating moisture can make the print expand and look larger than normal.",
+          "statement_id": "Dr. Weerachai Phutdhawong dari Fakultas Sains, Universitas Kasetsart, memberi penjelasan skeptis: jejak itu kemungkinan jejak manusia, dan ketika seseorang menginjak abu atau garam, penguapan lembap dapat membuat bekasnya melebar dan tampak lebih besar dari normal.",
+          "quote": "About this matter, Dr. Weerachai Phutdhawong from the Faculty of Science, Kasetsart University offered a more skeptical explanation. He suggested that the footprint was likely human, and that when someone steps on ashes or salt, the evaporation of moisture can cause the print to expand and appear larger than normal.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kong-koi-c15",
+          "source_id": "kong-koi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Around mid-August 2024, reports surfaced that an internet celebrity claimed his home in Surin province had been invaded by the Phi Kong Koi.",
+          "statement_id": "Sekitar pertengahan Agustus 2024, beredar laporan bahwa seorang selebritas internet mengaku rumahnya di provinsi Surin diserbu Phi Kong Koi.",
+          "quote": "Around mid-August 2024, reports surfaced that an internet celebrity claimed his home in Surin province had been invaded by the Phi Kong Koi.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "kong-koi-c16",
+          "source_id": "kong-koi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Kong koi is also referenced in the 2025 supernatural horror adventure film Death Whisperer III, and the 2026 Thai-Lao horror film Wrecked draws inspiration from the Kong Koi legend.",
+          "statement_id": "Kong koi juga dirujuk dalam film horor petualangan supernatural Death Whisperer III (2025), dan film horor Thailand-Laos Wrecked (2026) terinspirasi dari legenda Kong Koi.",
+          "quote": "It is also referenced in the 2025 supernatural horror adventure film Death Whisperer III. ... The 2026 Thai–Lao horror film Wrecked also draws inspiration from the legend of the Kong Koi.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "kong-koi-c17",
+          "source_id": "kong-koi-s2",
+          "host": "so06.tci-thaijo.org",
+          "statement": "A Thai journal article, citing Nathi Sasiwimon's summary of Thai ghost legends, describes the \"pong kang or kong koi\" as a forest ghost with a fly-like tube mouth that moves by hopping and looks like a monkey or langur, sometimes called phi pong or phi kong koi, and is believed to like sucking blood from the big toes of people camping overnight in the forest.",
+          "statement_id": "Sebuah artikel jurnal Thailand, mengutip ringkasan legenda hantu Thai oleh Nathi Sasiwimon, menyebut \"pong kang atau kong koi\" sebagai sejenis hantu hutan bermulut tabung seperti lalat, bergerak dengan melompat, berwajah mirip monyet atau lutung, kadang disebut phi pong atau phi kong koi, dan dipercaya suka mengisap darah dari ibu jari kaki orang yang bermalam di hutan.",
+          "quote": "นทธี ศศิวิมล สรุป ตำนานภูตผีปีศาจไทยไว้ว่า “โป่งค่างหรือกองกอย” เป็นผีป่าชนิดหนึ่ง มีปากเป็นท่อเหมือนแมลงวัน เคลื่อนที่โดยการกระโดด หน้าตาคล้ายลิงหรือค่าง บ้างเรียกผีโป่ง หรือผีกองกอย เชื่อว่าโป่งค่างชอบดูดเลือดจากหัวแม่เท้าของคนที่นอนค้างแรมในป่า",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kong-koi-c18",
+          "source_id": "kong-koi-s3",
+          "host": "www.naewna.com",
+          "statement": "Thai news reported that a well-known internet celebrity was frightened by Phi Kong Koi footprints at his house after hearing mysterious sounds like someone hitting the wall; CCTV showed nothing, and he then found a large footprint on the balcony stairs.",
+          "statement_id": "Berita Thailand melaporkan bahwa seorang selebritas internet terkenal ketakutan oleh jejak kaki Phi Kong Koi di rumahnya setelah mendengar suara misterius seperti orang memukul dinding; kamera CCTV tidak menangkap apa pun, lalu ia menemukan jejak kaki besar di tangga beranda.",
+          "quote": "ผวารอยตีนผีกองกอยโผล่ขึ้นบ้าน เน็ตไอดอลชื่อดังสุดหลอน หลังได้ยินเสียงปริศนาคล้ายคนมาทุบผนัง เช็คกล้องวงจรปิดกลับไม่พบอะไร ก่อนจะเจอรอยเท้าปริศนาขนาดใหญ่ที่บันไดระเบียงบ้าน",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "kong-koi-c19",
+          "source_id": "kong-koi-s4",
+          "host": "www.naewna.com",
+          "statement": "A Thai entertainment news report calls \"Kong Koi - Wrecked\" a 2026 Thai-Lao horror film that created a buzz from its first day of release in Laos.",
+          "statement_id": "Berita hiburan Thailand menyebut \"Kong Koi - Wrecked\" sebagai film horor Thailand-Laos tahun 2026 yang menarik perhatian sejak hari pertama tayang di Laos.",
+          "quote": "“กองกอย – WRECKED” หนังสยองขวัญไทย-ลาวตัวตึงแห่งปี 2026 หลังจากสร้างกระแสฮือฮาตั้งแต่วันแรกที่เข้าฉายในลาว",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "nawarupa",
-      "file": "batch-014.md",
+      "file": "batch-014-fix-1.md",
+      "entry_sha256": "d157a2e5d14b5d9963c7b1f9721c076c2a257b51044d336e70efff756c5a2bfd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 16,
+        "sources": 8,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 3 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Bya La statue in Sittwe.jpg)",
@@ -204,6 +457,136 @@
           "statement": "In the Konbaung dynasty, the nawarupa decorated a ceremonial royal barge.",
           "statement_id": "Pada masa dinasti Konbaung, nawarupa menghiasi salah satu perahu upacara kerajaan.",
           "quote": "In the Konbaung dynasty, the nawarupa decorated one of the ceremonial royal barges.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nawarupa-c04",
+          "source_id": "nawarupa-s2",
+          "host": "archive.org",
+          "statement": "In a royal order passed on 2 July 1841, Nawa Rupa is named as a royal barge with a figure on its prow of an animal made of nine parts of nine animals put together.",
+          "statement_id": "Dalam sebuah perintah raja yang disahkan pada 2 Juli 1841, Nawa Rupa disebut sebagai perahu kerajaan yang pada haluannya terdapat patung hewan dengan sembilan bagian dari sembilan hewan yang digabungkan.",
+          "quote": "Nawa Rupa - Royal Barge which has on the prow a figure of an animal with nine parts of nine animals put together ... This Order was passed on 2 July 1841",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nawarupa-c05",
+          "source_id": "nawarupa-s2",
+          "host": "archive.org",
+          "statement": "In the same list of royal barges, Panca Rupa is described with a prow figure of an animal made of five parts of five animals, and Satta Rupa with seven parts of seven animals.",
+          "statement_id": "Dalam daftar perahu kerajaan yang sama, Panca Rupa disebut berpatung hewan di haluan dengan lima bagian dari lima hewan, dan Satta Rupa dengan tujuh bagian dari tujuh hewan.",
+          "quote": "Panca Rupa - Royal Barge which has on the prow a figure of an animal with five parts of five animals put together Satta Rupa - Royal Barge which has on the prow a figure of an animal with seven parts of seven animals put together",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nawarupa-c06",
+          "source_id": "nawarupa-s3",
+          "host": "archive.org",
+          "statement": "According to the Upper Burma Gazetteer, the Nawarupa or Nawarasa boat had figures of five Brahmas in the prow and four in the stern, in memory of the nine Brahmas who appeared on earth in the beginning of the world.",
+          "statement_id": "Menurut Upper Burma Gazetteer, perahu Nawarupa atau Nawarasa memiliki patung lima Brahma di haluan dan empat di buritan, untuk mengenang sembilan Brahma yang muncul di bumi pada awal dunia.",
+          "quote": "The Nawarupa or Nawarasa boat had figures of five Brahmas in the prow and four in the stern, in memory of the nine Brahmas who appeared on earth in the beginning of the world.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nawarupa-c07",
+          "source_id": "nawarupa-s6",
+          "host": "en.wikipedia.org",
+          "statement": "The Nawarupa barge was used by the royal ministers and officers, with a figurehead of a nawarupa, a chimeric animal with the mane of a karaweik, the hump of a bull, the tail of a ngagyin fish, two elephant tusks, the trunk of a makara, the horns of a toe naya, two parakeet wings, and a front and hind leg of a horse.",
+          "statement_id": "Perahu Nawarupa dipakai para menteri dan pejabat kerajaan, dengan hiasan haluan berupa nawarupa, hewan campuran dengan surai karaweik, punuk banteng, ekor ikan ngagyin, dua gading gajah, belalai makara, tanduk toe naya, dua sayap burung parkit, serta kaki depan dan belakang kuda.",
+          "quote": "Nawarupa (နဝရူပ) - used by the royal ministers and officers, with a figurehead of a nawarupa (a chimeric animal with the mane of a karaweik, the hump of bull, the tail of a ngagyin fish, two elephant tusks, the trunk of a makara, and horns of a toe naya, two wings of parakeet, and a front and hind leg of a horse)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nawarupa-c08",
+          "source_id": "nawarupa-s4",
+          "host": "archive.org",
+          "statement": "The byala, the mythological animal of the Rakhine, is described as having four legs, a smiling face, a beautiful girdle of hair around the neck and a beautiful tail, and is considered a symbol of peace and prosperity.",
+          "statement_id": "Byala, hewan mitologi orang Rakhine, digambarkan berkaki empat, berwajah tersenyum, dengan lingkaran rambut yang indah di leher dan ekor yang indah, serta dianggap sebagai lambang perdamaian dan kemakmuran.",
+          "quote": "Byala -The mythological animal of the Rakhuies- having four legs, smiling face, beautiful girdle of hair around the neck, and a beautiful tail is considered as a symbol of peace and prosperity.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nawarupa-c09",
+          "source_id": "nawarupa-s4",
+          "host": "archive.org",
+          "statement": "Onlookers always take pleasure in the ever-smiling looks of the animal; as an auspicious symbol, the figure of the byala can be found erected near the pagodas.",
+          "statement_id": "Para penonton selalu senang melihat wajah hewan itu yang senantiasa tersenyum; sebagai lambang pertanda baik, patung byala dapat ditemukan didirikan di dekat pagoda.",
+          "quote": "The onlookers always derive pleasure from the ever-smiling looks of the animal. As an auspicious symbol the figure of byala can be found erected near the pagodas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nawarupa-c10",
+          "source_id": "nawarupa-s4",
+          "host": "archive.org",
+          "statement": "The Byala is described as a creature of peace always wearing a smiling face.",
+          "statement_id": "Byala digambarkan sebagai makhluk perdamaian yang selalu berwajah tersenyum.",
+          "quote": "Byala is a creature of peace always wearing a smiling face.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nawarupa-c11",
+          "source_id": "nawarupa-s4",
+          "host": "archive.org",
+          "statement": "Figures of the Byala in different styles can be seen in most of the temples of Mrauk-U.",
+          "statement_id": "Patung Byala dalam berbagai gaya dapat dilihat di sebagian besar kuil di Mrauk-U.",
+          "quote": "The figures of Byala in different styles can be seen in most of the temples of Mrauk-U.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nawarupa-c12",
+          "source_id": "nawarupa-s5",
+          "host": "www.bnionline.net",
+          "statement": "Two Rakhine political parties, the Arakan League for Democracy (ALD) and the Arakan National Party (ANP), both laid claim to the Byala; the ALD decided to use the Byala emblem on its new flag and seal, but the ANP raised objections.",
+          "statement_id": "Dua partai politik Rakhine, Arakan League for Democracy (ALD) dan Arakan National Party (ANP), sama-sama mengklaim Byala; ALD memutuskan memakai lambang Byala pada bendera dan segel barunya, tetapi ANP mengajukan keberatan.",
+          "quote": "The newly reformed Arakan League for Democracy (ALD) and the Arakan National Party (ANP) are both laying claim to the Byala ... The ALD decided to use the Byala emblem on their new flag and seal, but the ANP raised objections.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "nawarupa-c13",
+          "source_id": "nawarupa-s7",
+          "host": "en.wikipedia.org",
+          "statement": "Viewpoint (Point), the principal attraction in Sittwe, the capital of Rakhine State, has a few statues of Rakhine cultural aspects, including the Rakhine mythical creature Byala (known as Nawa Rupa in Burmese).",
+          "statement_id": "Viewpoint (Point), atraksi utama Sittwe, ibu kota Negara Bagian Rakhine, memiliki beberapa patung unsur budaya Rakhine, termasuk makhluk mitos Rakhine, Byala (dikenal sebagai Nawa Rupa dalam bahasa Burma).",
+          "quote": "Viewpoint, popularly known as Point, is the principal attraction in Sittwe, the capital of Rakhine State, Myanmar. ... a few statues of Rakhine cultural aspects, including a Rakhine mythical creature, Byala (known as Nawa Rupa in Burmese)",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "nawarupa-c14",
+          "source_id": "nawarupa-s8",
+          "host": "en.wikipedia.org",
+          "statement": "A list of mythical creatures in Burmese folklore records the Byala as the Rakhine version of the Nawa Rupa, a creature with nine hybrid features.",
+          "statement_id": "Daftar makhluk mitos Burma mencatat Byala sebagai versi Rakhine dari Nawa Rupa, makhluk dengan sembilan ciri campuran.",
+          "quote": "Byala – Rakhine version of the Nawa Rupa. A creature with nine hybrid features.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nawarupa-c15",
+          "source_id": "nawarupa-s6",
+          "host": "en.wikipedia.org",
+          "statement": "The royal barge was an important ceremonial possession of the Burmese monarchy; by the Konbaung dynasty several types of royal state barges existed, each distinguished by a specific mythical figurehead at the front.",
+          "statement_id": "Perahu kerajaan adalah milik upacara penting monarki Burma; pada masa dinasti Konbaung ada beberapa jenis perahu kerajaan, masing-masing dibedakan oleh patung mitos tertentu di haluannya.",
+          "quote": "The royal barge was an important ceremonial possession of the Burmese monarchy, and was used for ceremonial and state affairs, such as a procession around the royal palace moat following a monarch's coronation. By the Konbaung dynasty, several types of royal state barges existed, each distinguished by a specific mythical figurehead at the front of the barge",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nawarupa-c16",
+          "source_id": "nawarupa-s6",
+          "host": "en.wikipedia.org",
+          "statement": "The Pyinsarupa barge was used by the chief queens, a gilt barge with the figurehead of a pyinsarupa, a chimeric animal with the mane of a karaweik bird, the tusk and trunk of an elephant, the hump of a bull, the tail of a ngagyin fish and the horns of a toe naya.",
+          "statement_id": "Perahu Pyinsarupa dipakai para permaisuri utama, sebuah perahu berlapis emas dengan hiasan haluan pyinsarupa, hewan campuran dengan surai burung karaweik, gading dan belalai gajah, punuk banteng, ekor ikan ngagyin, dan tanduk toe naya.",
+          "quote": "Pyinsarupa (ပဉ္စရူပ) - used by the chief queens, a gilt barge with the figurehead of a pyinsarupa (a chimeric animal with the mane of karaweik bird, the tusk and trunk of an elephant, the hump of bull, the tail of a ngagyin fish, and the horns of a toe naya)",
           "context": "historical-record",
           "status": "exact"
         }
@@ -242,26 +625,21 @@
             "kategori \"Nawarupa\"",
             "dipakai di en.wikipedia.org: Nawarupa"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-014/nawarupa-1.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-014/nawarupa-1.jpg"
         }
       ]
     },
     {
       "slug": "nuno-sa-punso",
-      "file": "batch-014.md",
+      "file": "batch-014-fix-1.md",
+      "entry_sha256": "2f38dffdf2e317047cb419cc3f4e0126a805e327364cc8142e9f525000cfac0c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 2,
+        "claims": 30,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 8 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nuno-sa-punso-c01",
@@ -287,9 +665,9 @@
           "id": "nuno-sa-punso-c03",
           "source_id": "nuno-sa-punso-s1",
           "host": "en.wikipedia.org",
-          "statement": "The nuno is a tiny old man, unlike the playful dwende who appears to children; the nuno is easily angered and punishes those who damage his mound, e.g. swelling the foot that kicked it; he also lives under large rocks, trees, riverbanks, caves or gardens.",
-          "statement_id": "Nuno digambarkan sebagai kakek mungil, berbeda dengan dwende yang suka bermain dengan anak-anak; nuno mudah marah dan membalas orang yang merusak gundukannya, misalnya membuat kaki yang menendangnya bengkak; ia juga tinggal di bawah batu besar, pohon, tepi sungai, gua, atau kebun.",
-          "quote": "The dwende is a playful hobgoblin who shows himself to children, while the nuno is a goblin easily angered that will do harm to those who damage or disturb his mound, and will seek retribution, for example by causing the foot of someone who kicked his mound to become swollen.",
+          "statement": "The nuno is described as a tiny old man who differs from the dwende, a playful hobgoblin who shows himself to children; the nuno is an easily angered goblin who harms those who damage or disturb his mound and seeks retribution, for example by making swollen the foot of someone who kicked his mound.",
+          "statement_id": "Nuno digambarkan sebagai kakek mungil yang berbeda dari dwende, makhluk jahil yang menampakkan diri kepada anak-anak; nuno adalah goblin yang mudah marah, mencelakai orang yang merusak atau mengganggu gundukannya, dan membalas, misalnya dengan membuat kaki orang yang menendang gundukannya membengkak.",
+          "quote": "The nuno is described to be a tiny old man, but differs from a dwende or dwarf of Philippine folklore. The dwende is a playful hobgoblin who shows himself to children, while the nuno is a goblin easily angered that will do harm to those who damage or disturb his mound, and will seek retribution, for example by causing the foot of someone who kicked his mound to become swollen.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -297,9 +675,9 @@
           "id": "nuno-sa-punso-c04",
           "source_id": "nuno-sa-punso-s1",
           "host": "en.wikipedia.org",
-          "statement": "Nunos can curse trespassers with swelling or pain and excessive back hair, usually by spitting on them.",
-          "statement_id": "Nuno dapat mengutuk penyusup dengan bengkak atau nyeri di bagian tubuh dan tumbuhnya bulu berlebihan di punggung, biasanya dengan meludahinya.",
-          "quote": "Nunos have the ability to curse trespassers. ... Swelling or pain on any part of the body ... Excessive hair growth on the back",
+          "statement": "Nunos can curse trespassers; a curse may include illness, boils, swelling or pain on any part of the body, vomiting of blood, urinating black liquid, and excessive hair growth on the back.",
+          "statement_id": "Nuno dapat mengutuk penyusup; kutukannya antara lain penyakit, bisul, bengkak atau nyeri di bagian tubuh mana pun, muntah darah, buang air kecil cairan hitam, dan tumbuhnya bulu berlebihan di punggung.",
+          "quote": "Nunos have the ability to curse trespassers. A curse may include the following: Illness Boils Swelling or pain on any part of the body Vomiting of blood Urinating black liquid Excessive hair growth on the back",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -307,8 +685,8 @@
           "id": "nuno-sa-punso-c05",
           "source_id": "nuno-sa-punso-s1",
           "host": "en.wikipedia.org",
-          "statement": "It is commonly believed in the Philippines that illness modern medicine cannot cure may be a nuno's curse; the victim goes to an albularyo, a traditional healer, who performs pagtatawas divination with alum or wax melted into water.",
-          "statement_id": "Di Filipina umum dipercaya bahwa penyakit yang tak tersembuhkan obat modern mungkin akibat kutukan nuno; korban dibawa ke albularyo, tabib tradisional, yang melakukan ramalan pagtatawas dengan tawas atau lilin yang dilelehkan ke air.",
+          "statement": "It is a common belief in the Philippines that if modern medicine cannot cure an illness, it may be due to a nuno's curse; the victim is brought to an albularyo, a Philippine practitioner of traditional medicine, who performs a divination known as pagtatawas.",
+          "statement_id": "Di Filipina umum dipercaya bahwa penyakit yang tak tersembuhkan obat modern mungkin akibat kutukan nuno; korban dibawa ke albularyo, praktisi pengobatan tradisional Filipina, yang melakukan ramalan bernama pagtatawas.",
           "quote": "It is a common belief in the Philippines that if modern medicine is unable to cure a particular illness, the ailment may be due to a nuno's curse. The victim is brought to an albularyo, a Philippine practitioner of traditional medicine. The albularyo will perform a type of divination known as pagtatawas.",
           "context": "traditional-belief",
           "status": "exact"
@@ -342,25 +720,241 @@
           "quote": "The late Dr. Maximo Ramos, one of the early scholars who created a compendium of lower mythological creatures of the Philippines, describe Dwarves or Duwende as a “spirit of the fields”, “spirit of the hills” and “people of the ground.”",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c09",
+          "source_id": "nuno-sa-punso-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Nuno sa punso are also believed to reside in places such as underneath large rocks, trees, riverbanks, caves, or a garden.",
+          "statement_id": "Nuno sa punso juga dipercaya tinggal di tempat seperti di bawah batu besar, pohon, tepi sungai, gua, atau kebun.",
+          "quote": "Nuno sa punso are also believed to reside in places such as underneath large rocks, trees, riverbanks, caves, or a garden.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c10",
+          "source_id": "nuno-sa-punso-s1",
+          "host": "en.wikipedia.org",
+          "statement": "For a curse to succeed the trespasser must be close to the nuno; if within range the nuno can spit on any part of the trespasser's body, and the trespasser then feels aches or soreness there.",
+          "statement_id": "Agar kutukan berhasil, penyusup harus berada dekat dengan nuno; jika dalam jangkauan, nuno dapat meludahi bagian tubuh mana pun, dan penyusup lalu merasakan nyeri atau pegal di bagian itu.",
+          "quote": "In order for a nuno to successfully curse a person, the trespasser must be in close proximity to the nuno. If the trespasser is within range, the Nuno can spit on any part of the trespasser's body. The trespasser will then experience aches or soreness on the affected part of the body",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c11",
+          "source_id": "nuno-sa-punso-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A nuno can be killed by catching it and crushing its head between the fingers or thighs, which removes any spell it cast; the method is often not recommended as it could incur the wrath of the nuno's kin and friends.",
+          "statement_id": "Nuno dapat dibunuh dengan menangkapnya dan meremukkan kepalanya di antara jari atau paha, yang menghapus mantra yang dilontarkannya; cara ini tidak dianjurkan karena dapat memancing murka kerabat dan teman nuno.",
+          "quote": "It is also possible to kill the nuno by catching it and crushing its head between a person's fingers or thighs. This will remove any spell cast by the nuno. But this method is often not recommended as it could incur the wrath of a nuno's kin and friends.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c12",
+          "source_id": "nuno-sa-punso-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Nunos are called protectors of the Earth able to sense goodness and evil; those who radiate purity are recognised and often met, while those with skepticism or darkness are avoided or made ill so they stay away.",
+          "statement_id": "Nuno disebut pelindung bumi yang mampu merasakan kebaikan dan kejahatan; orang yang memancarkan kemurnian akan mereka kenali dan sering mereka temui, sedangkan orang yang skeptis atau gelap dihindari atau dibuat sakit agar menjauh.",
+          "quote": "Nunos are protectors of the Earth, and have the ability to sense goodness and evil. If you radiate purity, they are able to tell, and will often reveal themselves. If you have skepticism, cynicism or darkness, they will avoid you or make you ill so you stay away from the area.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c13",
+          "source_id": "nuno-sa-punso-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When the countryside becomes modernized and urbanized, the nunos often flee, die, or go further down into the earth.",
+          "statement_id": "Ketika pedesaan menjadi modern dan perkotaan, nuno sering melarikan diri, mati, atau pergi lebih dalam ke dalam tanah.",
+          "quote": "When countryside becomes modernized and urbanized, the nunos often flee, die, or go further down into the earth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c14",
+          "source_id": "nuno-sa-punso-s1",
+          "host": "en.wikipedia.org",
+          "statement": "To avoid the wrath of a nuno sa punso, children are reminded not to play outside between noon and three o'clock in the afternoon and are asked by their parents to come home before six in the evening.",
+          "statement_id": "Untuk menghindari murka nuno sa punso, anak-anak diingatkan agar tidak bermain di luar antara tengah hari dan pukul tiga sore, dan diminta orang tua pulang sebelum pukul enam sore.",
+          "quote": "To avoid the wrath of a nuno sa punso, children are reminded not to play outside between noon and three o'clock in the afternoon. They are also asked by their parents to come home before six o'clock in the evening.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c15",
+          "source_id": "nuno-sa-punso-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Children are also warned to ask permission or give notice before passing places inhabited by the nuno, by saying \"tabi tabi po\" (literally \"please be on the side\" or \"please move aside\"), that is, telling the nuno to stand aside.",
+          "statement_id": "Anak-anak juga diperingatkan agar meminta izin atau memberi tahu sebelum melewati tempat yang dihuni nuno, yaitu dengan mengucapkan \"tabi tabi po\" (secara harfiah \"mohon minggir\"), yang berarti meminta nuno menepi.",
+          "quote": "Children are also warned to ask permission or give fair notice before passing by such places inhabited by the nuno, which is done by saying \"tabi tabi po\"(literally \"please be on the side\" or \"please move aside\", that is, you tell the nuno to stand aside)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c16",
+          "source_id": "nuno-sa-punso-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A disrespectful person will purposely trample around in tall grassy areas, places where nuno are also believed to dwell, or intentionally urinate on suspected nuno anthills to display dominance over the mound dweller.",
+          "statement_id": "Orang yang tidak hormat sengaja menginjak-injak area rumput tinggi, tempat yang juga dipercaya dihuni nuno, atau sengaja buang air kecil di sarang semut yang diduga milik nuno untuk menunjukkan dominasi atas penghuni gundukan.",
+          "quote": "A disrespectful person will purposely trample around in tall grassy areas, places where nuno are also believed to inhabit or will intentionally urinate on suspected nuno anthills to display dominance over the mound dweller.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c17",
+          "source_id": "nuno-sa-punso-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The 1950 romantic fantasy film Nuno sa Punso depicts a main hero reducing his size in order to save his love within the mounds where a nuno lives.",
+          "statement_id": "Film fantasi romantis Nuno sa Punso (1950) menampilkan tokoh utama yang mengecilkan ukuran tubuhnya untuk menyelamatkan kekasihnya di dalam gundukan tempat nuno tinggal.",
+          "quote": "The 1950 romantic fantasy film Nuno sa Punso depicts a main hero reducing his size in order to save his love within the mounds where a nuno lives.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c18",
+          "source_id": "nuno-sa-punso-s2",
+          "host": "www.aswangproject.com",
+          "statement": "Duwende are commonly described as an old man or \"nuno\" with the height of a small child dwelling beneath the earth, hence the term \"nuno sa punso\".",
+          "statement_id": "Duwende umumnya digambarkan sebagai kakek atau \"nuno\" setinggi anak kecil yang tinggal di bawah tanah, sehingga muncul istilah \"nuno sa punso\".",
+          "quote": "Commonly described as an old man or ‘nuno’ with the height of a small child dwelling beneath the earth (thus the term “nuno sa punso”)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c19",
+          "source_id": "nuno-sa-punso-s2",
+          "host": "www.aswangproject.com",
+          "statement": "Matanda sa punso is a Tagalog name referring to an old being associated with a mound.",
+          "statement_id": "Matanda sa punso adalah nama Tagalog untuk makhluk tua yang dikaitkan dengan gundukan.",
+          "quote": "Matanda sa punso — a Tagalog name referring to an old being associated with a mound.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c20",
+          "source_id": "nuno-sa-punso-s2",
+          "host": "www.aswangproject.com",
+          "statement": "Separate reports in a folk-belief collection describe helpful or retaliating little folk, including punishment after an ant hill is destroyed.",
+          "statement_id": "Laporan-laporan terpisah dalam sebuah koleksi kepercayaan rakyat menggambarkan makhluk kecil penolong atau pembalas, termasuk hukuman setelah sarang semut dihancurkan.",
+          "quote": "Helpful or retaliating little folk — separate reports describe aid to poor or vulnerable people and punishment after an ant hill is destroyed (entries 4189–4191).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c21",
+          "source_id": "nuno-sa-punso-s3",
+          "host": "www.aswangproject.com",
+          "statement": "Nono or nuno (Tagalog), meaning grandfather, was one of the names the old Tagalogs gave to the spirits of their ancestors and ultimately to all anito spirits.",
+          "statement_id": "Nono atau nuno (Tagalog), yang berarti kakek, adalah salah satu nama yang diberikan orang Tagalog kuno kepada roh leluhur mereka dan akhirnya kepada semua roh anito.",
+          "quote": "NONO or NUNO – (Tagalogs) Meaning grandfather, was one of the names given by the old Tagalogs to the spirits of their ancestors and ultimately, to all anito spirits.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c22",
+          "source_id": "nuno-sa-punso-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The same name was also given to alligators; it is believed that when an alligator devours a human, the soul remains inside the animal.",
+          "statement_id": "Nama yang sama juga diberikan kepada buaya; dipercaya bahwa ketika buaya melahap manusia, jiwanya tetap berada di dalam hewan itu.",
+          "quote": "The same name was given to alligators. It is believed that when an alligator devours a human, the soul remains inside the animal.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c23",
+          "source_id": "nuno-sa-punso-s3",
+          "host": "www.aswangproject.com",
+          "statement": "It is also believed that the anitos or nonos reside particularly in baliti trees (Ficus indica, L.), thus the tree was given the name Nonok.",
+          "statement_id": "Juga dipercaya bahwa anito atau nono tinggal terutama di pohon baliti (Ficus indica, L.), sehingga pohon itu dinamai Nonok.",
+          "quote": "It is also believed that the anitos or nonos reside particularly in baliti trees (Ficus indica, L.) thus it was given the name Nonok.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c24",
+          "source_id": "nuno-sa-punso-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The Tagalog peasants still believe in nunó; in Bulacan, nunó is a very old man who resides in forests, particularly in anthills or any mounds, and is also called Matandá sa punsó.",
+          "statement_id": "Petani Tagalog masih percaya pada nunó; di Bulacan, nunó adalah kakek yang sangat tua yang tinggal di hutan, terutama di sarang semut atau gundukan apa pun, dan disebut juga Matandá sa punsó.",
+          "quote": "The Tagalog peasants still believe in nunó. In Bulacan, nunó is a very old man who resides in forests particularly in the anthills or any mounds. Also called Matandá sa punsó.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c25",
+          "source_id": "nuno-sa-punso-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The Visayans also call the baliti tree Nonok and believe that the spirits dwelling in it may cause harm if they are not feared or respected.",
+          "statement_id": "Orang Visayas juga menyebut pohon baliti Nonok dan percaya roh yang tinggal di dalamnya dapat mencelakai bila tidak ditakuti atau dihormati.",
+          "quote": "Lastly, the Visayans also call the baliti tree Nonok and believe that the spirits who dwell in it may cause harm if they are not feared or respected.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c26",
+          "source_id": "nuno-sa-punso-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The nuno sa punso (literally grandfather of the mound) is also simply called nuno; it lives inside a mound of earth, sometimes mistaken for a termites' home, usually seen as slightly smaller than the average dwende.",
+          "statement_id": "Nuno sa punso (harfiah: kakek dari gundukan) juga disebut nuno saja; ia tinggal di dalam gundukan tanah yang kadang disangka rumah rayap, biasanya terlihat sedikit lebih kecil daripada dwende rata-rata.",
+          "quote": "NUNO SA PUNSO – (Tagalogs) Nuno sa punso (literally, grandfather of the mound) are also simply called nuno. It lives inside a mound of earth, sometimes mistaken to be termites’ home, usually seen to be slightly smaller than the average dwende.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c27",
+          "source_id": "nuno-sa-punso-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The Ilokanos call him ansisit: an old man as short as a boy of three, with large joints, belly, head, eyes, nose and mouth, who lives underground and owns all the land, and also lives in caves and anthills.",
+          "statement_id": "Orang Ilokano menyebutnya ansisit: seorang kakek sependek anak tiga tahun, bersendi, perut, kepala, mata, hidung, dan mulut besar, yang tinggal di bawah tanah dan memiliki semua tanah, serta tinggal di gua dan sarang semut.",
+          "quote": "The Ilokanos call him ansisit. He is an old man who is as short as a boy of three. His joints, belly, head, eyes, nose, and mouth are large. He lives underground and owns all the land. He lives in caves and anthills, too.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c28",
+          "source_id": "nuno-sa-punso-s4",
+          "host": "archive.org",
+          "statement": "Among the Tagalogs they are called nuno, or ancestral spirits, and before entering woods their consent had to be asked; an intruder who failed to do so was punished by having his head twisted so that his face looked backward.",
+          "statement_id": "Di antara orang Tagalog, mereka disebut nuno, atau roh leluhur, dan sebelum memasuki hutan harus meminta persetujuan mereka; penyusup yang tidak melakukannya dihukum dengan kepala dipelintir sehingga wajahnya menghadap ke belakang.",
+          "quote": "Among the Tagologs they are called nuno, or ancestral spirits, and before entering woods their con- sent had to be asked, failing which the intruder was punished by having his head twisted so that his face looked backward.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c29",
+          "source_id": "nuno-sa-punso-s4",
+          "host": "archive.org",
+          "statement": "The nunos lived in mounds made by the termites called punso, from which \"Matanda sa punso\", or \"old man of the mounds\", is derived, still heard in the Philippines.",
+          "statement_id": "Para nuno tinggal di gundukan yang dibuat oleh anay yang disebut punso, yang darinya diturunkan \"Matanda sa punso\" atau \"kakek gundukan\", yang masih terdengar di Filipina.",
+          "quote": "The nunos lived in mounds, which were made by the Anay called ... from which is derived “Matanda sa punso,” or “old man of the mounds,” still heard in the Philippines.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nuno-sa-punso-c30",
+          "source_id": "nuno-sa-punso-s4",
+          "host": "archive.org",
+          "statement": "The Tagalogs say that this fantastic old man was of the most vener- able age and was usually seen crouching in a mound.",
+          "statement_id": "Orang Tagalog mengatakan bahwa kakek fantastis ini berusia sangat tua dan biasanya terlihat berjongkok di dalam gundukan.",
+          "quote": "The Tagologs say that this fantastic old man was of the most vener- able age, and was usually seen crouching in a mound.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "sirena-philippine-mythology",
-      "file": "batch-014.md",
+      "file": "batch-014-fix-1.md",
+      "entry_sha256": "d3882b1082e449df58a5f00421c7b0c0cea9edb4b113ab3a8ef5d05d21f8d535",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 2,
+        "claims": 31,
+        "sources": 4,
         "images": 0
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 8 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "warn",
           "where": "claims (sirena-philippine-mythology-c02)",
@@ -403,8 +997,8 @@
           "id": "sirena-philippine-mythology-c04",
           "source_id": "sirena-philippine-mythology-s1",
           "host": "en.wikipedia.org",
-          "statement": "Some traditions say the sirena carries victims under the sea as sacrifices to water deities; dugongs, sea turtles and dolphins usually accompany her.",
-          "statement_id": "Sebagian tradisi menyebut sirena membawa korbannya ke bawah laut dan mempersembahkannya kepada dewa-dewa air; duyung, penyu, dan lumba-lumba biasanya menyertainya.",
+          "statement": "Some folk traditions claim that the sirena carries her victims under the sea, sacrificing them to water deities.",
+          "statement_id": "Menurut sebagian tradisi rakyat, sirena membawa korbannya ke bawah laut dan mempersembahkan mereka kepada dewa-dewa air.",
           "quote": "Some folk traditions claim that the Sirena carry their victims under the sea, sacrificing them to water deities.",
           "context": "traditional-belief",
           "status": "exact"
@@ -443,9 +1037,239 @@
           "id": "sirena-philippine-mythology-c08",
           "source_id": "sirena-philippine-mythology-s1",
           "host": "en.wikipedia.org",
-          "statement": "Marina was a 2004 fantasy series about a mermaid starring Claudine Barretto; a popular mermaid character in the Philippines is Dyesebel.",
-          "statement_id": "Marina adalah serial fantasi tentang putri duyung yang tayang pada 2004 dengan Claudine Barretto; tokoh putri duyung populer di Filipina adalah Dyesebel.",
+          "statement": "Marina was a fantasy series featuring a mermaid, aired from February 23 to November 12, 2004, featuring Claudine Barretto.",
+          "statement_id": "Marina adalah serial fantasi tentang putri duyung yang ditayangkan dari 23 Februari hingga 12 November 2004 dengan Claudine Barretto.",
           "quote": "Marina was a fantasy series that featured a mermaid. It aired from February 23, 2004, to November 12, 2004, featuring Claudine Barretto.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c09",
+          "source_id": "sirena-philippine-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Sirena sing with enchanting voices while hiding among the rocks by the shore; when men hear the songs they are hypnotized and abducted by the sirena.",
+          "statement_id": "Sirena bernyanyi dengan suara memikat sambil bersembunyi di antara batu di tepi pantai; ketika para pria mendengar lagu itu, mereka terhipnotis dan diculik oleh sirena.",
+          "quote": "They sing with enchanting voices while hiding among the rocks by the shore. When the men hear these songs, they are hypnotized and abducted by the Sirena.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c10",
+          "source_id": "sirena-philippine-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Other stories claim that sirena pretend to need rescuing from drowning, luring men into the sea and then squeezing the life out of any man who falls for the hoax.",
+          "statement_id": "Cerita lain mengatakan sirena berpura-pura perlu diselamatkan dari tenggelam untuk memancing pria ke laut, lalu meremas habis nyawa pria yang termakan tipuannya.",
+          "quote": "Other stories claim that the Sirena pretend to need rescuing from drowning, luring men into the sea, but then to squeeze the life out of any man who falls prey to their hoax.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c11",
+          "source_id": "sirena-philippine-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A malevolent sirena may tease and attract men with spellbinding songs; occasional reports had sirena grabbing seemingly hypnotized humans and drowning them or taking them underwater.",
+          "statement_id": "Sirena yang jahat dapat menggoda dan menarik pria dengan lagu yang memukau; ada laporan sesekali tentang sirena yang menangkap manusia yang tampak terhipnotis dan menenggelamkan atau membawa mereka ke bawah air.",
+          "quote": "A malevolent Sirena may tease and attract human males with its spellbinding songs. Occasional reports had Sirena grabbing seemingly hypnotized humans and drowning them or taking them underwater.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c12",
+          "source_id": "sirena-philippine-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Sirena are beautiful sea creatures with a human upper body and long, flowing, often curly or wavy hair, and a fish's lower body or tail; in pre-Hispanic Philippines they were regarded as beautiful aquatic creatures.",
+          "statement_id": "Sirena adalah makhluk laut yang cantik, bertubuh atas manusia dengan rambut panjang mengalir yang sering ikal atau bergelombang dan bertubuh bawah ikan atau berekor ikan; pada Filipina prakolonial mereka dipandang sebagai makhluk akuatik yang indah.",
+          "quote": "Sirena are beautiful sea creatures with the upper body of a human with long, flowing hair that is often curly or wavy and the lower body of a fish or a tail of a fish. In pre-Hispanic Philippines, Sirena were regarded as beautiful aquatic creatures.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c13",
+          "source_id": "sirena-philippine-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In some stories, sirena are guardians of the waters of \"asin-palan\", shielding it from the tattooed raiders from the Visayas.",
+          "statement_id": "Dalam beberapa cerita, sirena adalah penjaga perairan \"asin-palan\" yang melindunginya dari perampok bertato dari Visayas.",
+          "quote": "In some stories, they are guardians of the waters of \"asin-palan,\" shielding it from the tattooed raiders from the Visayas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c14",
+          "source_id": "sirena-philippine-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The first TV series adaptation of Dyesebel was broadcast on GMA Network in 2008, airing from April 28 to October 17, 2008, for 125 episodes.",
+          "statement_id": "Adaptasi serial televisi pertama Dyesebel disiarkan di GMA Network pada 2008, tayang dari 28 April hingga 17 Oktober 2008 sebanyak 125 episode.",
+          "quote": "The first TV series adaptation of Dyesebel was broadcast on GMA Network in 2008. It originally aired on April 28, 2008, and ended on October 17, 2008, completing 125 episodes.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c15",
+          "source_id": "sirena-philippine-mythology-s2",
+          "host": "www.aswangproject.com",
+          "statement": "According to the Aswang Project writer, the sirena or mermaid and the facts surrounding this mythical creature are of Spanish origin.",
+          "statement_id": "Menurut penulis Aswang Project, sirena atau putri duyung dan fakta-fakta seputar makhluk mitos ini berasal dari Spanyol.",
+          "quote": "The sirena or mermaid and the facts surrounding this mythical creature are of Spanish origin.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c16",
+          "source_id": "sirena-philippine-mythology-s2",
+          "host": "www.aswangproject.com",
+          "statement": "According to the author's grandmother, the rivers of the Ilocos region are calm on the surface but have strong currents and undertows beneath, and with no other explanation the early Spaniards told the natives it might have been a mermaid or sirena.",
+          "statement_id": "Menurut neneknya, penulis diberi tahu bahwa sungai-sungai di wilayah Ilocos tenang di permukaan tetapi berarus dan berpusaran kuat di bawah, dan karena tak ada penjelasan lain, orang Spanyol awal mengatakan kepada penduduk asli bahwa itu mungkin putri duyung atau sirena.",
+          "quote": "The different rivers in the Ilocos region although calm and pristine on the surface have strong currents and undertows beneath. ... having no other explanation for this phenomena the early Spaniards told the natives it might have been a mermaid or sirena.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c17",
+          "source_id": "sirena-philippine-mythology-s2",
+          "host": "www.aswangproject.com",
+          "statement": "The Ilokano term litao, the male deity of the waters, supports Ilokano traditions and dialects.",
+          "statement_id": "Istilah Ilokano litao, dewa air laki-laki, mendukung tradisi dan dialek Ilokano.",
+          "quote": "The Ilokano term litao – the male deity of the waters, supports the Ilokano traditions and dialects",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c18",
+          "source_id": "sirena-philippine-mythology-s2",
+          "host": "www.aswangproject.com",
+          "statement": "In \"The Mermaid Queen\", one of the oldest stories in the Ilokano volumes, the sirena is described as a kind lady with supernatural powers rather than a half human-fish creature.",
+          "statement_id": "Dalam \"The Mermaid Queen\", salah satu cerita tertua dalam jilid Ilokano, sirena digambarkan sebagai wanita baik hati berkekuatan supernatural, bukan makhluk setengah manusia setengah ikan.",
+          "quote": "The Mermaid Queen “ is one of the oldest stories in the Ilokano volumes, dating back to the 1600’s; The sirena is described as a kind lady with supernatural powers rather than a half human –fish creature.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c19",
+          "source_id": "sirena-philippine-mythology-s2",
+          "host": "www.aswangproject.com",
+          "statement": "In a story, a ruler thanks the mermaid for guiding his fishermen back to shore in a storm, rescuing Datu Angat's only son from drowning and leaving a string of pearls to the widow of Datu Bakat, killed by raiding Tirong pirates.",
+          "statement_id": "Dalam sebuah cerita, seorang penguasa berterima kasih kepada putri duyung karena menuntun nelayannya pulang saat badai, menyelamatkan putra tunggal Datu Angat dari tenggelam, dan meninggalkan seuntai mutiara bagi janda Datu Bakat yang dibunuh perompak Tirong.",
+          "quote": "Thank you for guiding my fishermen back into shore during a storm, for rescuing Datu Angat’s only son from drowning and leaving a string of pearls to Datu’ Bakat’s widow after he was killed by raiding Tirong pirates.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c20",
+          "source_id": "sirena-philippine-mythology-s2",
+          "host": "www.aswangproject.com",
+          "statement": "In \"The American and the Sirena of Amburayan\", the siren living in the Amburayan river in Tagudin, intent on making an American her husband, changed herself into a human and knocked on his door.",
+          "statement_id": "Dalam kisah \"The American and the Sirena of Amburayan\", sirena yang tinggal di sungai Amburayan di Tagudin, ingin menjadikan seorang Amerika suaminya, mengubah dirinya menjadi manusia dan mengetuk pintunya.",
+          "quote": "This story is about the siren living in the Amburayan river in Tagudin. ... That same evening, the mermaid was intent in making the American her husband, changed herself into a human and knocked on his door.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c21",
+          "source_id": "sirena-philippine-mythology-s2",
+          "host": "www.aswangproject.com",
+          "statement": "In that tale the rotten fishlike odor from the mermaid's skin made the man sick to the stomach and pass out; seeing his panic, the mermaid grabbed his legs and tried to drag him to the water's edge.",
+          "statement_id": "Dalam kisah itu, bau amis busuk dari kulit putri duyung membuat sang pria mual dan pingsan; melihat kepanikannya, putri duyung menangkap kakinya dan mencoba menyeretnya ke tepi air.",
+          "quote": "the rotten fishlike odor permeating from the mermaid’s skin made him sick to the stomach, causing him to pass out. ... The mermaid seeing the panic in his eyes grabbed his legs and tried to drag him towards the water’s edge.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c22",
+          "source_id": "sirena-philippine-mythology-s2",
+          "host": "www.aswangproject.com",
+          "statement": "In one story, the beautiful Serena lived with her mother by the sea; the litao explained that she would have to drink a potion mixed with his blood to transform her into an immortal half-human, half-fish creature like himself.",
+          "statement_id": "Dalam sebuah kisah, Serena yang cantik tinggal bersama ibunya di tepi laut; litao menjelaskan bahwa ia harus meminum ramuan bercampur darahnya untuk berubah menjadi makhluk abadi setengah manusia setengah ikan seperti dirinya.",
+          "quote": "Long ago, the beautiful Serena lived with her mother by the sea. ... The litao explained she would have to drink a potion mixed with his blood to transform her into an immortal half-human and half fish creature like himself.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c23",
+          "source_id": "sirena-philippine-mythology-s3",
+          "host": "www.aswangproject.com",
+          "statement": "In an Iloko tale Maximo Ramos recalled his mother telling, a boy playing at the river bank saw a beautiful woman bathing who proved to be a sirena; attracted by her long hair and charming smile, he walked to her.",
+          "statement_id": "Dalam kisah Iloko yang diingat Maximo Ramos dari ibunya, seorang anak yang bermain di tepi sungai melihat wanita cantik mandi yang ternyata sirena; ia tertarik pada rambut panjang dan senyumnya dan berjalan mendekat.",
+          "quote": "In an Iloko tale which Maximo Ramos recalled his mother used to tell, a boy playing at the river bank saw a beautiful woman bathing and she proved to be a sirena. He was attracted by her long hair and her charming smile and he walked to her.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c24",
+          "source_id": "sirena-philippine-mythology-s3",
+          "host": "www.aswangproject.com",
+          "statement": "Informants from Zambales and elsewhere told Ramos that the sirena made the water rise quickly and engulfed her victim.",
+          "statement_id": "Informan dari Zambales dan tempat lain memberi tahu Ramos bahwa sirena membuat air naik cepat dan menelan korbannya.",
+          "quote": "Informants from Zambales and elsewhere told Ramos that the sirena made the water rise quickly and engulfed her victim",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c25",
+          "source_id": "sirena-philippine-mythology-s3",
+          "host": "www.aswangproject.com",
+          "statement": "Sirena is the Spanish equivalent of mermaid, and the term appears to have driven many of the vernacular terms out of use.",
+          "statement_id": "Sirena adalah padanan Spanyol untuk putri duyung, dan istilah ini tampaknya telah menggeser banyak istilah daerah hingga tak dipakai lagi.",
+          "quote": "Sirena is the Spanish equivalent of mermaid, and the term appears to have driven many of the vernacular terms out of use.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c26",
+          "source_id": "sirena-philippine-mythology-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The litao (Ilokano), described in Isabelo de los Reyes' book El Folk-lore Filipino, is a male anito of the waters; in Vigan it is a small man living in bamboo branches along river banks and the husband of the sirena.",
+          "statement_id": "Litao (Ilokano), dijelaskan dalam buku El Folk-lore Filipino karya Isabelo de los Reyes, adalah anito air laki-laki; di Vigan ia pria kecil yang tinggal di dahan bambu di tepi sungai dan suami sirena.",
+          "quote": "LITAO – (Ilokano) Described in Isabelo de los Reyes’ book, El Folk-lore Filipino, the litao is a male anito of the waters. In Vigan, it is a small man that lives in the branches of bamboo trees along river banks and is the husband of the sirena.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c27",
+          "source_id": "sirena-philippine-mythology-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The kataw (Cebuano, Hiligaynon): the Visayans call her kataw; she is a pretty woman from head to waist and a fish with shiny scales below the waist.",
+          "statement_id": "Kataw (Cebuano, Hiligaynon): orang Visayas menyebutnya kataw; ia wanita cantik dari kepala hingga pinggang dan berupa ikan bersisik mengilap di bawah pinggang.",
+          "quote": "KATAW – (Cebuano, Hiligaynon) The Visayans call her kataw. Her name means that she looks like a person. She is a pretty woman from head to waist. She is a fish with shiny scales below the waist.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c28",
+          "source_id": "sirena-philippine-mythology-s3",
+          "host": "www.aswangproject.com",
+          "statement": "The kataw sits on a rock drying her long hair and sings a sweet, sad song; she makes the fisherman row his boat to her, then sinks his boat and gets him.",
+          "statement_id": "Kataw duduk di batu mengeringkan rambut panjangnya dan menyanyikan lagu manis yang sedih; ia membuat nelayan mendayung perahunya ke arahnya, lalu menenggelamkan perahunya dan menangkapnya.",
+          "quote": "She sits on a rock drying her long hair. She sings a sweet, sad song as she sits there. She makes the fisherman row his boat to her. Then she sinks his boat and gets him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c29",
+          "source_id": "sirena-philippine-mythology-s4",
+          "host": "www.pep.ph",
+          "statement": "Dingdong Dantes and Marian Rivera topbill Dyesebel, GMA-7's fantaserye about the world of mermaids and underwater creatures.",
+          "statement_id": "Dingdong Dantes dan Marian Rivera menjadi bintang utama Dyesebel, fantaserye GMA-7 tentang dunia putri duyung dan makhluk bawah laut.",
+          "quote": "Dingdong Dantes and Marian Rivera topbill Dyesebel, GMA-7's fantaserye about the world of mermaids and underwater creatures.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c30",
+          "source_id": "sirena-philippine-mythology-s4",
+          "host": "www.pep.ph",
+          "statement": "For decades the story of Dyesebel was shown on the big screen with five actresses playing the mermaid: Edna Luna, Vilma Santos, Alma Moreno, Alice Dixon and Charlene Gonzales.",
+          "statement_id": "Selama beberapa dekade, kisah Dyesebel ditampilkan di layar lebar dengan lima aktris memerankan putri duyung itu: Edna Luna, Vilma Santos, Alma Moreno, Alice Dixon, dan Charlene Gonzales.",
+          "quote": "For the past decades, the story of Dyesebel was shown on the big screen with five beautiful ladies portraying the role of the mermaid—Edna Luna, Vilma Santos, Alma Moreno, Alice Dixon, and Charlene Gonzales.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sirena-philippine-mythology-c31",
+          "source_id": "sirena-philippine-mythology-s4",
+          "host": "www.pep.ph",
+          "statement": "Mars Ravelo's Dyesebel begins when the human Lucia ... delivers a beautiful baby girl who, unlike other babies, is half-human, half-fish.",
+          "statement_id": "Dyesebel karya Mars Ravelo dimulai ketika Lucia, seorang manusia, melahirkan bayi perempuan cantik yang setengah manusia, setengah ikan.",
+          "quote": "Mars Ravelo's Dyesebel begins when the human Lucia ... delivers a beautiful baby girl. Unlike other normal babies, Lucia's child is half-human, half-fish.",
           "context": "modern-popular-culture",
           "status": "exact"
         }
