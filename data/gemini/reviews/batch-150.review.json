@@ -1,29 +1,25 @@
 {
   "batch_id": "batch-150",
-  "checked_at": "2026-09-30T09:11:45.541Z",
+  "checked_at": "2026-10-06T14:53:59.758Z",
   "files": [
     "batch-150.md",
-    "batch-150-fix-1.md"
+    "batch-150-fix-1.md",
+    "batch-150-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "bunyip",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-2.md",
+      "entry_sha256": "f3b2cde700feca7b7da2547ab4d9f81044327b36253ba0cb2b9b23c51cfee0c5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 15,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bunyip-c01",
@@ -49,9 +45,129 @@
           "id": "bunyip-c03",
           "source_id": "bunyip-s1",
           "host": "en.wikipedia.org",
-          "statement": "Bunyip is commonly translated today as devil or evil spirit.",
-          "statement_id": "Kata bunyip kini umumnya diterjemahkan sebagai iblis atau roh jahat.",
-          "quote": "The word bunyip is usually translated by Aboriginal Australians today as devil or evil spirit.",
+          "statement": "The word bunyip is usually translated by Aboriginal Australians today as devil or evil spirit, but this modern translation may not accurately represent the bunyip's role in pre-contact Aboriginal mythology.",
+          "statement_id": "Kata bunyip kini umumnya diterjemahkan orang Aborigin Australia sebagai iblis atau roh jahat, tetapi terjemahan modern ini mungkin tidak menggambarkan dengan tepat peran bunyip dalam mitologi Aborigin sebelum kontak dengan bangsa Eropa.",
+          "quote": "The word bunyip is usually translated by Aboriginal Australians today as devil or evil spirit. This modern translation may not accurately represent the role of the bunyip in pre-contact Aboriginal mythology or its possible origins before written accounts were made.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bunyip-c04",
+          "source_id": "bunyip-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The bunyip is part of traditional Aboriginal beliefs and stories throughout Australia, and its name varies according to tribal nomenclature.",
+          "statement_id": "Bunyip adalah bagian dari kepercayaan dan kisah tradisional Aborigin di seluruh Australia, dengan nama yang berbeda-beda menurut penamaan tiap suku.",
+          "quote": "The bunyip is part of traditional Aboriginal beliefs and stories throughout Australia, while its name varies according to tribal nomenclature.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bunyip-c05",
+          "source_id": "bunyip-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In his 2001 book, Robert Holden identified at least nine regional variations of the creature known as the bunyip across Aboriginal Australia.",
+          "statement_id": "Dalam bukunya tahun 2001, Robert Holden mengidentifikasi sedikitnya sembilan variasi daerah dari makhluk yang disebut bunyip di seluruh wilayah Aborigin Australia.",
+          "quote": "In his 2001 book Robert Holden identified at least nine regional variations of the creature known as the bunyip across Aboriginal Australia.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bunyip-c06",
+          "source_id": "bunyip-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Ngarrindjeri dreaming the bunyip appears as a water spirit called the Mulyawonk, which would get anyone who took more than their fair share of fish from the waterways, or take children who got too close to the water. The stories taught practical means of long-term survival for the Ngarrindjeri and embodied care for country and its people.",
+          "statement_id": "Dalam dreaming bangsa Ngarrindjeri, bunyip muncul sebagai roh air bernama Mulyawonk, yang akan menangkap siapa pun yang mengambil ikan melebihi bagiannya dari perairan, atau mengambil anak-anak yang terlalu dekat dengan air. Kisah-kisah itu mengajarkan cara praktis menjamin kelangsungan hidup jangka panjang bagi bangsa Ngarrindjeri dan mencerminkan kepedulian terhadap tanah dan penghuninya.",
+          "quote": "The bunyip appears in Ngarrindjeri dreaming as a water spirit called the Mulyawonk, which would get anyone who took more than their fair share of fish from the waterways, or take children if they got too close to the water. The stories taught practical means of ensuring long-term survival for the Ngarrindjeri, embodying care for country and its people.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bunyip-c07",
+          "source_id": "bunyip-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Aboriginal mythology, bunyips can swim swiftly with fins or flippers, have a loud roaring call and feed on crayfish, though some legends portray them as bloodthirsty predators of humans, particularly women and children.",
+          "statement_id": "Menurut mitologi Aborigin, bunyip dapat berenang cepat dengan sirip atau kaki dayung, bersuara mengaum keras, dan memakan udang karang, meskipun sebagian legenda menggambarkannya sebagai pemangsa manusia yang haus darah, terutama perempuan dan anak-anak.",
+          "quote": "Bunyips, according to Aboriginal mythology, can swim swiftly with fins or flippers, have a loud, roaring call and feed on crayfish, though some legends portray them as bloodthirsty predators of humans, particularly women and children.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bunyip-c08",
+          "source_id": "bunyip-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The word \"bahnyip\" first appeared in the Sydney Gazette in 1812, used by James Ives to describe \"a large black animal like a seal, with a terrible voice which creates terror among the blacks\".",
+          "statement_id": "Kata \"bahnyip\" pertama kali muncul dalam Sydney Gazette pada 1812, dipakai oleh James Ives untuk menggambarkan \"hewan hitam besar seperti anjing laut, dengan suara mengerikan yang menimbulkan ketakutan di antara orang kulit hitam\".",
+          "quote": "The word bahnyip first appeared in the Sydney Gazette in 1812. It was used by James Ives to describe \"a large black animal like a seal, with a terrible voice which creates terror among the blacks\".",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bunyip-c09",
+          "source_id": "bunyip-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Writing in 1933, Charles Fenner suggested that the actual origin of the bunyip myth lies in seals having made their way up the Murray and Darling rivers from time to time.",
+          "statement_id": "Dalam tulisannya tahun 1933, Charles Fenner menduga bahwa \"asal sebenarnya mitos bunyip\" terletak pada kenyataan bahwa dari waktu ke waktu anjing laut naik menyusuri Sungai Murray dan Darling.",
+          "quote": "Writing in 1933, Charles Fenner suggested that it was likely that the \"actual origin of the bunyip myth lies in the fact that from time to time seals have made their way up the Murray and Darling (Rivers)\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bunyip-c10",
+          "source_id": "bunyip-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Another suggestion is that the bunyip may be a folk memory of extinct Australian marsupials such as Diprotodon, Zygomaturus, Nototherium, Palorchestes or Thylacoleo.",
+          "statement_id": "Usulan lain menyatakan bahwa bunyip mungkin merupakan ingatan rakyat tentang marsupial Australia yang telah punah, seperti Diprotodon, Zygomaturus, Nototherium, Palorchestes, atau Thylacoleo.",
+          "quote": "Another suggestion is that the bunyip may be a folk memory of extinct Australian marsupials such as the Diprotodon, Zygomaturus, Nototherium, Palorchestes or Thylacoleo.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bunyip-c11",
+          "source_id": "bunyip-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "The bunyip is said to live at the bottom of lakes and water holes, into which it drags its victims.",
+          "statement_id": "Bunyip konon hidup di dasar danau dan kubangan air, tempat ia menyeret korbannya.",
+          "quote": "The bunyip is said to live at the bottom of lakes and water holes, into which it drags its victims.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bunyip-c12",
+          "source_id": "bunyip-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "The name implies \"devil,\" although bunyips have been given other local names, such as \"yaa-loo\" and \"wowee-wowee.\"",
+          "statement_id": "Nama bunyip mengandung arti \"iblis\", meskipun bunyip juga diberi nama lokal lain, seperti \"yaa-loo\" dan \"wowee-wowee\".",
+          "quote": "The name implies \"devil,\" although bunyips have been given other local names, such as \"yaa-loo\" and \"wowee-wowee.\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bunyip-c13",
+          "source_id": "bunyip-s3",
+          "host": "archive.org",
+          "statement": "A caption in Dixon's book describes the bunyip as a mythical animal living in deep pools or streams, attacking and eating men, and greatly feared by the natives.",
+          "statement_id": "Keterangan gambar dalam buku Dixon menyebut bunyip sebagai hewan mitos yang hidup di kolam atau aliran sungai yang dalam, menyerang dan memakan manusia, serta sangat ditakuti oleh penduduk asli.",
+          "quote": "a mythical animal, living in deep pools or streams, and attacking men, whom it eats. It was greatly feared by the natives.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bunyip-c14",
+          "source_id": "bunyip-s3",
+          "host": "archive.org",
+          "statement": "In a flood tale recorded by Dixon, a man found he had caught a young bunyip, a water monster the people greatly feared; his companions begged him to let it go because the water monsters would be angry if it were killed, but he refused.",
+          "statement_id": "Dalam salah satu kisah banjir yang dicatat Dixon, seorang lelaki mendapati dirinya menangkap seekor anak bunyip, monster air yang sangat ditakuti orang; teman-temannya memohon agar ia melepaskannya karena monster air akan marah jika anak itu dibunuh, tetapi ia menolak.",
+          "quote": "he found that he had caught a young bunyip, a ... water monster of which the people were much afraid; but though his companions begged him to let it go, because the water monsters would be angry if it were killed, he refused",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bunyip-c15",
+          "source_id": "bunyip-s3",
+          "host": "archive.org",
+          "statement": "In the same tale, the mother flew into a great rage and caused the waters of the lake to rise and follow the man who had dared to rob her of her young.",
+          "statement_id": "Dalam kisah yang sama, sang induk murka dan membuat air danau naik mengikuti lelaki yang berani merampas anaknya.",
+          "quote": "The mother, however, flew into a great rage and caused the waters of the lake to rise and follow the man who had dared to rob her of her young.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -60,20 +176,15 @@
     },
     {
       "slug": "maui",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-2.md",
+      "entry_sha256": "f0a3b7dafa62c2a5c7df112ef3f1622b1fda0bc3f9673e09c7897dc912d73e3c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 19,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "maui-c01",
@@ -104,26 +215,181 @@
           "quote": "Very rarely was Māui actually worshipped, being less of a deity (demigod) and more of a folk hero.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "maui-c04",
+          "source_id": "maui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some exploits common to most Polynesian traditions are stealing fire for humans from the underworld, fishing up islands with his magical hook, and capturing the Sun to lengthen the days.",
+          "statement_id": "Beberapa perbuatan yang umum dalam kebanyakan tradisi Polinesia adalah mencuri api untuk manusia dari dunia bawah, memancing pulau-pulau dengan kail saktinya, dan menangkap Matahari untuk memperpanjang hari.",
+          "quote": "Some exploits common to most Polynesian traditions are stealing fire for humans from the underworld, fishing up islands with his magical hook, and capturing the Sun to lengthen the days.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maui-c05",
+          "source_id": "maui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Although Māui was said to be very rascally, or \"kolohe\", many of his deeds were to better the lives of his fellow people.",
+          "statement_id": "Meskipun Māui dikatakan sangat nakal atau \"kolohe\", banyak perbuatannya bertujuan memperbaiki kehidupan sesama manusia.",
+          "quote": "Although Māui was said to be very rascally or \"kolohe\", many of his deeds were to better the lives of his fellow people.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maui-c06",
+          "source_id": "maui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Māui's origins vary from culture to culture, including his parentage, divine status and the specific form of several major myths, but many of his main exploits remain relatively similar.",
+          "statement_id": "Asal-usul Māui berbeda dari satu budaya ke budaya lain, termasuk orang tuanya, status ilahinya, dan bentuk beberapa mitos utama, tetapi banyak perbuatan pokoknya relatif serupa.",
+          "quote": "His origins vary from culture to culture, with variation in his parentage, divine status, and the specific form of several major myths, but many of his main exploits remain relatively similar.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "maui-c07",
+          "source_id": "maui-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Westervelt, the noted greenstone god of the Maoris, Potiki, may well be considered a representation of Maui-Tiki-Tiki, who was sometimes called Maui-po-tiki.",
+          "statement_id": "Menurut Westervelt, dewa batu hijau (greenstone) Māori yang terkenal, Potiki, dapat dianggap sebagai perwujudan Maui-Tiki-Tiki, yang kadang disebut Maui-po-tiki.",
+          "quote": "The noted greenstone god of the Maoris of New Zealand, Potiki, may well be considered a representation of Maui-Tiki-Tiki, who was sometimes called Maui-po-tiki.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maui-c08",
+          "source_id": "maui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Māui's last trick led to his death and involved Hine-nui-te-pō, the goddess of death and the underworld.",
+          "statement_id": "Tipu daya terakhir Māui berujung pada kematiannya dan melibatkan Hine-nui-te-pō, dewi kematian dan dunia bawah.",
+          "quote": "Māui's last trick led to his death and involved Hine-nui-te-pō, the goddess of death and the underworld.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maui-c09",
+          "source_id": "maui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Māui is also credited with creating the Hawaiian islands: on a fishing expedition with his friends he used a magic fish hook to pull up various island groups from the ocean depths.",
+          "statement_id": "Māui juga dipercaya menciptakan kepulauan Hawaii: dalam ekspedisi memancing bersama teman-temannya ia memakai kail ajaib untuk menarik berbagai gugusan pulau dari dasar samudra.",
+          "quote": "Māui also is credited with the creation of the Hawaiian islands, when he went on a fishing expedition with his friends, and, using a magic fish hook, pulled up various island groups from the oceanic depths.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maui-c10",
+          "source_id": "maui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One night he wove a flax fishing line and enchanted it with a karakia (incantation) to give it strength; to it he attached the magic fish-hook made from the jawbone his grandmother Murirangawhenua had given him.",
+          "statement_id": "Pada suatu malam ia menganyam tali pancing dari rami dan memberinya kekuatan dengan karakia (mantra); padanya ia mengikatkan kail ajaib dari tulang rahang yang diberikan neneknya, Murirangawhenua.",
+          "quote": "One night, he wove for himself a flax fishing line and enchanted it with a karakia to give it strength; to this he attached the magic fish-hook made from the jawbone that his grandmother Murirangawhenua had given him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maui-c11",
+          "source_id": "maui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He pulled up a giant fish that would become the North Island of New Zealand, known as Te Ika-a-Māui; the island's valleys and mountains were made by his brothers chopping up the fish for themselves.",
+          "statement_id": "Ia menarik seekor ikan raksasa yang kelak menjadi Pulau Utara Selandia Baru, yang dikenal sebagai Te Ika-a-Māui; lembah dan gunung di pulau itu terbentuk ketika saudara-saudaranya mencincang ikan itu untuk diri mereka sendiri.",
+          "quote": "He pulled up a giant fish which would become the North Island of New Zealand, known as Te Ika-a-Māui; the valleys and mountains of the island were made by his brothers chopping up the fish for themselves.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maui-c12",
+          "source_id": "maui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Māui (a grandson of Mahuika) offered to find her; Mahuika lived in a cave in a burning mountain at the end of the earth. She gave him one of her burning fingernails to relight the fires, but Māui put out fingernail after fingernail until Mahuika became angry and sent fire to pursue him.",
+          "statement_id": "Māui (cucu Mahuika) menawarkan diri mencari Mahuika, yang tinggal di gua dalam gunung yang menyala di ujung bumi. Mahuika memberinya satu kuku jarinya yang menyala untuk menyalakan kembali api, tetapi Māui memadamkan kuku demi kuku sampai Mahuika marah dan mengirim api untuk mengejarnya.",
+          "quote": "So Māui (a grandson of Mahuika) offered to go and find her. Mahuika lived in a cave in a burning mountain at the end of the earth. She gave Māui one of her burning fingernails to relight the fires, but Māui extinguished fingernail after fingernail until Mahuika became angry and sent fire to pursue Māui",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maui-c13",
+          "source_id": "maui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Māui brought dry sticks of these trees back to his village and showed his people how to rub the sticks together to make fire.",
+          "statement_id": "Māui membawa pulang ranting kering dari pohon-pohon itu ke desanya dan menunjukkan kepada rakyatnya cara menggosokkan ranting untuk membuat api.",
+          "quote": "Māui brought back dry sticks of these trees to his village and showed his people how to rub the sticks together and make fire.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maui-c14",
+          "source_id": "maui-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Tama-nui-te-rā was caught in the noose and Māui struck him with the jawbone until he surrendered and agreed to travel slowly across the sky.",
+          "statement_id": "Tama-nui-te-rā terjerat dalam jerat itu dan Māui memukulnya dengan tulang rahang sampai ia menyerah dan setuju bergerak pelan melintasi langit.",
+          "quote": "Tama-nui-te-rā was caught in the noose and Māui struck him with the jawbone until he surrendered and agreed to travel slowly across the sky.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maui-c15",
+          "source_id": "maui-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Westervelt, Maui was one of the Polynesian demi-gods; his parents belonged to the family of supernatural beings, and he himself possessed supernatural powers and was supposed to use all manner of enchantments.",
+          "statement_id": "Menurut Westervelt, Maui adalah salah satu demigod Polinesia; orang tuanya termasuk keluarga makhluk gaib, dan ia sendiri memiliki kekuatan supernatural serta dianggap memakai segala macam mantra.",
+          "quote": "Maui was one of the Polynesian demi-gods. His parents belonged to the family of supernatural beings. He himself was possessed of supernatural powers and was supposed to make use of all manner of enchantments.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maui-c16",
+          "source_id": "maui-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Westervelt, the legends of Hawaii, Tonga, Tahiti, New Zealand and the Hervey group make this youngest Maui \"the discoverer of fire\", \"the ensnarer of the sun\", \"the fisherman who pulls up islands\", \"the man endowed with magic\" or \"Maui with spirit power\".",
+          "statement_id": "Menurut Westervelt, legenda dari Hawaii, Tonga, Tahiti, Selandia Baru, dan kelompok Hervey menjadikan Maui yang paling muda ini \"penemu api\", \"penjerat matahari\", \"nelayan yang menarik pulau\", \"orang yang dianugerahi sihir\", atau \"Maui dengan kekuatan roh\".",
+          "quote": "The legends of Hawaii, Tonga, Tahiti, New Zealand and the Hervey group make this youngest Maui \"the discoverer of fire\" or \"the ensnarer of the sun\" or \"the fisherman who pulls up islands\" or \"the man endowed with magic,\" or \"Maui with spirit power.\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maui-c17",
+          "source_id": "maui-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Westervelt, the New Zealanders claim Maui as an ancestor of their most ancient tribes and sometimes class him among their most ancient gods, calling him \"creator of land\" and \"creator of man\".",
+          "statement_id": "Menurut Westervelt, orang Selandia Baru menganggap Maui sebagai leluhur suku-suku tertua mereka dan kadang menggolongkannya di antara dewa-dewa tertua mereka, menyebutnya \"pencipta daratan\" dan \"pencipta manusia\".",
+          "quote": "The New Zealanders claim Maui as an ancestor of their most ancient tribes and sometimes class him among the most ancient of their gods, calling him \"creator of land\" and \"creator of man.\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maui-c18",
+          "source_id": "maui-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Westervelt, the Samoans tell the same story without mentioning Maui's name; they say the snare was cast by a child of the sun itself.",
+          "statement_id": "Menurut Westervelt, orang Samoa menceritakan kisah yang sama tanpa menyebut nama Maui; mereka mengatakan jerat itu dilemparkan oleh anak matahari sendiri.",
+          "quote": "The Samoans tell the same story without mentioning the name of Maui. They say that the snare was cast by a child of the sun itself.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "maui-c19",
+          "source_id": "maui-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Westervelt, Haleakala (\"the House of the Sun\") is the mountain from which Maui the demi-god snared the sun.",
+          "statement_id": "Menurut Westervelt, Haleakala (\"Rumah Matahari\") adalah gunung tempat Maui sang demigod menjerat matahari.",
+          "quote": "Haleakala (the House of the Sun), the mountain from which Maui the demi-god snared the sun, looks down ten thousand feet upon the Kauiki headland.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "yowie",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-2.md",
+      "entry_sha256": "77854dd83cb87f59a9749c4c9256b952a018d1a7aa54ce9ae5e61d47e39465d5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "yowie-c01",
@@ -154,26 +420,101 @@
           "quote": "In parts of New South Wales, it is referred to by various names, including Ghindaring, Jurrawarra, Myngawin, Puttikan, Doolaga, Gulaga and Thoolagal.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "yowie-c04",
+          "source_id": "yowie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Other recorded names for similar entities include Noocoonah, Wawee, Pangkarlangu, Jimbra and Tjangara. Legends of Yowie-type creatures appear in Aboriginal Australian legends, particularly in the eastern Australian states.",
+          "statement_id": "Nama-nama lain yang tercatat untuk entitas serupa antara lain Noocoonah, Wawee, Pangkarlangu, Jimbra, dan Tjangara. Legenda makhluk bertipe Yowie muncul dalam legenda Aborigin Australia, terutama di negara bagian timur Australia.",
+          "quote": "Other recorded names for similar entities include, Noocoonah, Wawee, Pangkarlangu, Jimbra and Tjangara. Legends of Yowie-type creatures appear in Aboriginal Australian legends, particularly in the eastern Australian states.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yowie-c05",
+          "source_id": "yowie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Yowie is typically described as a bipedal, hairy, ape-like creature standing upright at between 2.1 m and 3.6 m.",
+          "statement_id": "Yowie umumnya digambarkan sebagai makhluk berkaki dua, berbulu, dan menyerupai kera, berdiri tegak setinggi antara 2,1 m dan 3,6 m.",
+          "quote": "The Yowie is typically described as a bipedal, hairy, and ape-like creature, standing upright at between 2.1 m (6 ft 11 in) and 3.6 m (12 ft).",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "yowie-c06",
+          "source_id": "yowie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Descriptions of the Yowie's behavior vary; some accounts depict it as timid and reclusive, while others suggest it can be violent or aggressive.",
+          "statement_id": "Gambaran perilaku Yowie beragam; sebagian kisah menggambarkannya pemalu dan menyendiri, sementara yang lain menyebutnya bisa bersikap kasar atau agresif.",
+          "quote": "Descriptions of the Yowie's behavior vary; some accounts depict the Yowie as timid and reclusive,  while others suggest it can be violent or aggressive.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "yowie-c07",
+          "source_id": "yowie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The exact origin of the name \"Yowie\" for Australian hominid legends is uncertain. The term was documented in 1875 among the Gamilaraay people by Rev. William Ridley in Kámilarói and Other Australian Languages, where \"Yō-wī\" was described as a spirit that roams the earth at night.",
+          "statement_id": "Asal pasti nama \"Yowie\" untuk legenda hominid Australia belum pasti. Istilah itu dicatat pada 1875 di kalangan orang Gamilaraay oleh Pdt. William Ridley dalam Kámilarói and Other Australian Languages, yang menggambarkan \"Yō-wī\" sebagai roh yang berkeliaran di bumi pada malam hari.",
+          "quote": "The exact origin of the name \"Yowie\" in reference to Australian hominid legends is uncertain. The term was documented in 1875 among the Gamilaraay  people by Rev. William Ridley in Kámilarói and Other Australian Languages, where \"Yō-wī\" was described as a spirit that roams the earth at night.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yowie-c08",
+          "source_id": "yowie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some researchers suggest that the term arose through Aboriginal legends of the \"Yahoo\".",
+          "statement_id": "Sebagian peneliti menduga istilah itu muncul dari legenda Aborigin tentang \"Yahoo\".",
+          "quote": "Some researchers suggest that the term arose through Aboriginal legends of the \"Yahoo\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yowie-c09",
+          "source_id": "yowie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Additionally, some scholars propose that the Yowie legend may have been influenced by European folklore.",
+          "statement_id": "Selain itu, sebagian ahli mengusulkan bahwa legenda Yowie mungkin dipengaruhi cerita rakyat Eropa.",
+          "quote": "Additionally, some scholars propose that the Yowie legend may have been influenced by European folklore.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yowie-c10",
+          "source_id": "yowie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One account from Old Bungaree, a Gunedah elder, states that the Yahoo was an ancient race that once inhabited Australia. He describes conflicts between Yahoos and Aboriginal people in an event called Dreamtime, saying the latter usually overpowered them, although the Yahoo is said to be a fast runner.",
+          "statement_id": "Satu kisah dari Old Bungaree, seorang tetua di Gunedah, menyatakan bahwa Yahoo adalah ras kuno yang pernah mendiami Australia. Ia menceritakan konflik antara Yahoo dan orang Aborigin dalam peristiwa yang disebut Dreamtime, dan mengatakan orang Aborigin biasanya mengalahkan mereka, meskipun Yahoo dikatakan pelari cepat.",
+          "quote": "One account from Old Bungaree, a Gunedah elder, stating that the Yahoo was an ancient race that once inhabited Australia. He describes conflicts between Yahoos and Aboriginal people in an event called Dreamtime, claiming that the latter usually overpowered them, although the Yahoo is said to be a fast runner.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yowie-c11",
+          "source_id": "yowie-s2",
+          "host": "archive.org",
+          "statement": "Ridley (1875) records, among the Wailwun tribes, a name printed \"Yo-wl\" in the digitised text as a spirit that roams over the earth at night; \"Kinirkinlr\" are the spirits of the departed.",
+          "statement_id": "Ridley (1875) mencatat, di kalangan suku-suku Wailwun, sebuah nama yang pada teks hasil digitalisasi tertulis \"Yo-wl\" sebagai roh yang berkeliaran di bumi pada malam hari; \"Kinirkinlr\" disebut sebagai roh orang yang telah meninggal.",
+          "quote": "Among the Wailwun tribes \" Kinirkinlr\" are the spirits of the departed, wandering over the face of the earth. \" Yo-wl\" is a spirit that roams over the earth at night.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "rainbow-serpent",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-2.md",
+      "entry_sha256": "66a7185a5561d87156edf3f475edc75bf5f1fed3927396f259b76aa08f617933",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 25,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "rainbow-serpent-c01",
@@ -204,26 +545,241 @@
           "quote": "There are many names and stories associated with the serpent, all of which communicate the significance and power of this being within Aboriginal mythology, which includes the worldview commonly referred to as The Dreaming.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c04",
+          "source_id": "rainbow-serpent-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Much like the archetypal mother goddess, the Rainbow Serpent creates land and diversity for the Aboriginal people, but can bring great chaos when disturbed.",
+          "statement_id": "Ular Pelangi menciptakan daratan dan keragaman bagi orang Aborigin, mirip dewi ibu arketipal, tetapi bila terganggu dapat membawa kekacauan besar.",
+          "quote": "Much like the archetypal mother goddess, the Rainbow Serpent creates land and diversity for the Aboriginal people, but when disturbed can bring great chaos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c05",
+          "source_id": "rainbow-serpent-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The serpent is viewed as a giver of life through its association with water, but can be a destructive force if angry.",
+          "statement_id": "Ular itu dipandang sebagai pemberi kehidupan melalui kaitannya dengan air, tetapi dapat menjadi kekuatan yang merusak bila marah.",
+          "quote": "The serpent is viewed as a giver of life through its association with water, but can be a destructive force if angry.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c06",
+          "source_id": "rainbow-serpent-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Not all myths in this family describe the ancestral being as a snake, and of those that do not all connect it with a rainbow; a link with water or rain is typical, however.",
+          "statement_id": "Tidak semua mitos dalam keluarga ini menggambarkan sosok leluhur itu sebagai ular, dan di antara yang demikian tidak semuanya mengaitkannya dengan pelangi; namun kaitan dengan air atau hujan bersifat khas.",
+          "quote": "Not all of the myths in this family describe the ancestral being as a snake. Of those that do, not all of them draw a connection with a rainbow. However, a link with water or rain is typical.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c07",
+          "source_id": "rainbow-serpent-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When a rainbow is seen in the sky, it is said to be the Rainbow Serpent (Dhakkan) moving from one water-hole to another, as in Kabi Kabi lore.",
+          "statement_id": "Ketika pelangi terlihat di langit, dikatakan itu adalah Ular Pelangi (Dhakkan) yang berpindah dari satu lubang air ke lubang air lain (seperti dalam tradisi Kabi Kabi).",
+          "quote": "When the rainbow is seen in the sky, it is said to be the Rainbow Serpent (Dhakkan) moving from one water-hole (or panhole) to another (as in Kabi Kabi lore).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c08",
+          "source_id": "rainbow-serpent-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Yurlunggur is the name of the \"rainbow serpent\" according to the Murngin (a Yolngu group) in north-eastern Arnhem Land, also styled Yurlungur, Yulunggur, Jurlungur, Julunggur or Julunggul. The Yurlunggur was considered \"the great father\".",
+          "statement_id": "Yurlunggur adalah nama \"ular pelangi\" menurut Murngin (kelompok Yolngu) di timur laut Arnhem Land, juga ditulis Yurlungur, Yulunggur, Jurlungur, Julunggur, atau Julunggul. Yurlunggur dianggap sebagai \"sang bapak agung\".",
+          "quote": "Yurlunggur is the name of the \"rainbow serpent\" according to the Murngin (a Yolngu group) in north-eastern Arnhem Land, also styled Yurlungur, Yulunggur, Jurlungur, Julunggur or Julunggul. The Yurlunggur was considered \"the great father\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c09",
+          "source_id": "rainbow-serpent-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "The Rainbow Snake (Rainbow Serpent) is an almost ubiquitous but elusive mythological figure throughout the Australian continent.",
+          "statement_id": "Ular Pelangi adalah tokoh mitologis yang hampir ada di mana-mana namun sulit ditangkap di seluruh benua Australia.",
+          "quote": "RAINBOW SNAKE (Rainbow Serpent) is an almost ubiquitous but elusive mythological figure throughout the Australian continent.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c10",
+          "source_id": "rainbow-serpent-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "For A. R. Radcliffe-Brown (1930), the Rainbow Snake was \"perhaps the most important nature-deity\" and \"the most important representation of the creative and destructive power of nature, principally in connection with rain and water\".",
+          "statement_id": "Bagi A. R. Radcliffe-Brown (1930), Ular Pelangi adalah \"mungkin dewa alam terpenting\" dan \"perwujudan terpenting dari kekuatan alam yang kreatif dan merusak, terutama yang berkaitan dengan hujan dan air\".",
+          "quote": "To A. R. Radcliffe-Brown (1930), the Rainbow Snake was \"perhaps the most important nature-deity, ... the most important representation of the creative and destructive power of nature, principally in connection with rain and water.\"",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c11",
+          "source_id": "rainbow-serpent-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "For all the people of western Arnhem Land, the Rainbow Snake is traditionally a symbol of monsoon storms, rain, floods and danger.",
+          "statement_id": "Bagi seluruh masyarakat Arnhem Land bagian barat, Ular Pelangi secara tradisional adalah simbol badai monsun, hujan, banjir, dan bahaya.",
+          "quote": "For all the people of western Arnhem Land, the Rainbow Snake is traditionally a symbol of monsoon storms, rain, floods, and of danger;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c12",
+          "source_id": "rainbow-serpent-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "In one traditional western Arnhem Land view, the Rainbow Snake is a creator, the first mother. She travels under the sea from the northwest and on the mainland eventually gives birth to the people she carries inside her.",
+          "statement_id": "Dalam salah satu pandangan tradisional Arnhem Land bagian barat, Ular Pelangi adalah pencipta, sang ibu pertama. Ia bepergian di bawah laut dari barat laut, dan di daratan utama ia akhirnya melahirkan orang-orang yang ia kandung di dalam tubuhnya.",
+          "quote": "In one traditional western Arnhem Land view the Rainbow Snake is a creator, the first mother. She travels under the sea from the northwest, and on the mainland she eventually gives birth to the people she is carrying inside her.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c13",
+          "source_id": "rainbow-serpent-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "Elkin adds that the rainbow-serpent is associated with the coming of rain, the increase of natural species and the continuance of mankind.",
+          "statement_id": "Elkin menambahkan bahwa ular pelangi dikaitkan dengan datangnya hujan, bertambahnya jenis-jenis alam, dan kelangsungan umat manusia.",
+          "quote": "Elkin adds, \"The rainbow-serpent is associated with the coming of rain, the increase of natural species and the continuance of mankind.\"",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c14",
+          "source_id": "rainbow-serpent-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "The Rainbow Snake in the west has several names: Ambidj among the Maung of the Goulburn Islands and the adjacent mainland, and Ngalyod among Gunwinggu speakers farther inland.",
+          "statement_id": "Ular Pelangi di bagian barat memiliki beberapa nama, misalnya Ambidj di kalangan Maung di Kepulauan Goulburn dan daratan di dekatnya, dan Ngalyod di kalangan penutur Gunwinggu yang lebih jauh ke pedalaman.",
+          "quote": "The Rainbow Snake in the west has several names—Ambidj, for instance, among the Maung of Goulburn Islands and the adjacent mainland, and Ngalyod among Gunwinggu speakers farther inland.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c15",
+          "source_id": "rainbow-serpent-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "Hundreds of myths recount the events of the creative era in which the landscape was formed, and the Rainbow Snake plays an active role in the majority of them.",
+          "statement_id": "Ratusan mitos menceritakan peristiwa pada zaman penciptaan ketika lanskap terbentuk, dan Ular Pelangi berperan aktif dalam sebagian besar mitos itu.",
+          "quote": "Hundreds of myths recount the events of the creative era in which the landscape was formed, and the Rainbow Snake plays an active role in the majority of them.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c16",
+          "source_id": "rainbow-serpent-s3",
+          "host": "www.ngv.vic.gov.au",
+          "statement": "Ngalyod, the Rainbow Serpent, is an all-powerful female ancestral creator of the Bininj people, capable of benevolent and malevolent actions embedded in the animate topography of djang.",
+          "statement_id": "Ngalyod, Ular Pelangi, adalah leluhur pencipta perempuan yang mahakuasa bagi orang Bininj, mampu melakukan tindakan baik maupun jahat yang tertanam dalam topografi hidup yang disebut djang.",
+          "quote": "Ngalyod, the Rainbow Serpent is an all-powerful female ancestral creator of the Bininj people, capable of benevolent and malevolent actions that are embedded in the animate topography of djang",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c17",
+          "source_id": "rainbow-serpent-s3",
+          "host": "www.ngv.vic.gov.au",
+          "statement": "For the Kuninjku, Ngalyod is visible standing in the sky as the rainbow and, like the Yawkyawk, is mostly associated with bodies of water such as billabongs, creeks, rivers and waterfalls, where she resides.",
+          "statement_id": "Bagi orang Kuninjku, Ngalyod tampak berdiri di langit sebagai pelangi dan, seperti Yawkyawk, terutama dikaitkan dengan perairan seperti billabong, anak sungai, sungai, dan air terjun tempat ia tinggal.",
+          "quote": "For Kuninjku, Ngalyod is visible standing in the sky as the rainbow and, similar to the Yawkyawk, is mostly associated with bodies of water such as billabongs, creeks, rivers and waterfalls, where she resides.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c18",
+          "source_id": "rainbow-serpent-s3",
+          "host": "www.ngv.vic.gov.au",
+          "statement": "The roar of waterfalls in the Escarpment Country is said to be her voice, and large holes in the stony banks of rivers and cliff faces are said to be her tracks.",
+          "statement_id": "Gemuruh air terjun di Escarpment Country dikatakan suaranya, dan lubang-lubang besar di tepi berbatu sungai serta tebing dikatakan jejaknya.",
+          "quote": "The roar of waterfalls in the Escarpment Country is said to be her voice and large holes in the stony banks of rivers and cliff faces are said to be her tracks.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c19",
+          "source_id": "rainbow-serpent-s3",
+          "host": "www.ngv.vic.gov.au",
+          "statement": "The Kuninjku also often describe her as a fearsome creature who swallows humans only to regurgitate them, transformed by her blood.",
+          "statement_id": "Orang Kuninjku juga sering menggambarkannya sebagai makhluk menakutkan yang menelan manusia lalu memuntahkannya kembali dalam keadaan berubah oleh darahnya.",
+          "quote": "Moreover, Kuninjku often describe her as a fearsome creature who swallows humans only to regurgitate them, transformed by her blood.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c20",
+          "source_id": "rainbow-serpent-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "The Rainbow Snake is not necessarily a destroyer, but rather a symbol and reminder of the potentially destructive and overpowering, as well as revitalizing, forces of nature, which can be fearsome as well as splendid.",
+          "statement_id": "Ular Pelangi belum tentu perusak, melainkan simbol dan pengingat akan kekuatan alam yang berpotensi merusak dan mendominasi sekaligus menghidupkan kembali, yang bisa menakutkan sekaligus megah.",
+          "quote": "The Rainbow Snake is not necessarily a destroyer, to go back to Radcliffe-Brown's comment, but rather a symbol and a reminder of the potentially destructive and overpowering, as well as revitalizing, forces of nature, which can be fearsome as well as splendid.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c21",
+          "source_id": "rainbow-serpent-s3",
+          "host": "www.ngv.vic.gov.au",
+          "statement": "She is held in awe because of her apparent ability to renew her life by shedding her skin and emerging anew.",
+          "statement_id": "Ia dikagumi karena kemampuannya yang tampak untuk memperbarui hidupnya dengan berganti kulit dan muncul kembali sebagai yang baru.",
+          "quote": "She is held in awe because of her apparent ability to renew her life by shedding her skin and emerging anew.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c22",
+          "source_id": "rainbow-serpent-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "In an account told by Gunwinggu women at Oenpelli, she comes up like a dream and swallows all those people, carries them about for a while, then vomits their bones, which turn into stone.",
+          "statement_id": "Dalam kisah yang dituturkan perempuan Gunwinggu di Oenpelli, ia muncul seperti mimpi dan menelan semua orang di tempat itu, membawa mereka sebentar, lalu memuntahkan tulang mereka dan tulang itu berubah menjadi batu.",
+          "quote": "Gunwinggu women at Oenpelli summed up the expected consequences: ... she comes up like a dream and swallows all those people. She carries them about for a while. Then she vomits their bones, and they turn into stone.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c23",
+          "source_id": "rainbow-serpent-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "In Ungarinyin territory, these spirits (the wandjina), which can be manifestations of the Rainbow Snake, are also sometimes called Ungud.",
+          "statement_id": "Di wilayah Ungarinyin, roh-roh itu (wandjina), yang dapat menjadi perwujudan Ular Pelangi, kadang juga disebut Ungud.",
+          "quote": "Among the most important mythic characters are the wandjina (wondjina ), well known to the outside world through cave and bark paintings. In Ungarinyin territory, these spirits, which can be manifestations of Rainbow Snake, are also sometimes called Ungud.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c24",
+          "source_id": "rainbow-serpent-s2",
+          "host": "www.encyclopedia.com",
+          "statement": "Although Radcliffe-Brown concludes that the bunyip in Victoria was not a Rainbow Snake, Charles P. Mountford (1978) includes bunyips, along with other snake-like characters, in this category of beings.",
+          "statement_id": "Meskipun Radcliffe-Brown menyimpulkan bahwa bunyip di Victoria bukan Ular Pelangi, Charles P. Mountford (1978) memasukkan bunyip, bersama tokoh mirip ular lainnya, ke dalam kategori makhluk ini.",
+          "quote": "Although Radcliffe-Brown concludes that the bunyip in Victoria was not a Rainbow Snake, Charles P. Mountford (1978) includes bunyip s, as well as other Snake-like characters, in this category of beings.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "rainbow-serpent-c25",
+          "source_id": "rainbow-serpent-s3",
+          "host": "www.ngv.vic.gov.au",
+          "statement": "In Kuninjku art, two female transformational beings whose stories are linked, the Yawkyawk or Ngalkunburriyaymi (the young girl, mermaid spirit) and Ngalyod, the Rainbow Serpent, are magically brought to life.",
+          "statement_id": "Dalam seni Kuninjku, dua makhluk perempuan yang dapat berubah wujud dan kisahnya saling terkait, yaitu Yawkyawk atau Ngalkunburriyaymi (gadis muda, roh putri duyung) dan Ngalyod, Ular Pelangi, digambarkan seolah hidup secara ajaib.",
+          "quote": "In Kuninjku art, two female transformational beings whose stories are linked – the Yawkyawk or Ngalkunburriyaymi (the young girl, mermaid spirit) and Ngalyod, the Rainbow Serpent, an all-powerful ancestral creator) are magically brought to life.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "tangaroa",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-2.md",
+      "entry_sha256": "33b9f5ea0b2182286a7fa26d2df4b6fbb4f7e6199725ed91475a6a46115635e7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 19,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tangaroa-c01",
@@ -254,26 +810,181 @@
           "quote": "Tangaroa is son of Ranginui and Papatūānuku, Sky and Earth. After joining his brothers Rongo, Tū, Haumia, and Tāne in the forcible separation of their parents, he is attacked by his brother Tāwhirimātea, the atua of storms, and forced to hide in the sea.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "tangaroa-c04",
+          "source_id": "tangaroa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Tangaroa is the father of many sea creatures. His son Punga has two children: Ikatere, the ancestor of fish, and Tū-te-wehiwehi (or Tū-te-wanawana), the ancestor of reptiles.",
+          "statement_id": "Tangaroa adalah ayah dari banyak makhluk laut. Punga, putra Tangaroa, memiliki dua anak: Ikatere, leluhur ikan, dan Tū-te-wehiwehi (atau Tū-te-wanawana), leluhur reptil.",
+          "quote": "Tangaroa is the father of many sea creatures. Tangaroa's son, Punga, has two children, Ikatere, the ancestor of fish, and Tū-te-wehiwehi (or Tū-te-wanawana), the ancestor of reptiles.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tangaroa-c05",
+          "source_id": "tangaroa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The contention between Tangaroa and Tāne Mahuta, the father of birds, trees and humans, indicates that the Māori thought of the ocean and the land as opposed realms.",
+          "statement_id": "Pertentangan antara Tangaroa dan Tāne Mahuta, ayah burung, pohon, dan manusia, menandakan bahwa orang Māori memandang lautan dan daratan sebagai ranah yang berlawanan.",
+          "quote": "The contention between Tangaroa and Tāne Mahuta, the father of birds, trees, and humans, is an indication that the Māori thought of the ocean and the land as opposed realms.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tangaroa-c06",
+          "source_id": "tangaroa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When people go out to sea to fish or travel, they are in effect representatives of Tāne Mahuta entering the realm of his enemy. For this reason, offerings need to be made to Tangaroa before any such expedition.",
+          "statement_id": "Ketika orang pergi ke laut untuk menangkap ikan atau bepergian, mereka pada dasarnya mewakili Tāne Mahuta yang memasuki ranah musuh Tāne Mahuta. Karena itu, persembahan perlu diberikan kepada Tangaroa sebelum ekspedisi semacam itu.",
+          "quote": "When people go out to sea to fish or to travel, they are, in effect, representatives of Tāne Mahuta, entering the realm of Tāne Mahuta's enemy. For this reason, offerings need to be made to Tangaroa before any such expedition.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tangaroa-c07",
+          "source_id": "tangaroa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Rarotonga, Tangaroa is god of the sea and fertility and the most important of all the departmental gods.",
+          "statement_id": "Di Rarotonga, Tangaroa adalah dewa laut dan kesuburan, serta yang terpenting di antara semua dewa departemental.",
+          "quote": "In Rarotonga, Tangaroa is god of the sea and fertility. He is the most important of all the departmental gods.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tangaroa-c08",
+          "source_id": "tangaroa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Tangaloa is one of the oldest Polynesian deities. In Western Polynesian traditions such as Samoa and Tonga he is considered the supreme and creator deity; in Eastern Polynesian cultures he is usually considered equal in status to Tāne and thus not supreme.",
+          "statement_id": "Tangaloa adalah salah satu dewa Polinesia tertua. Dalam tradisi Polinesia Barat seperti Samoa dan Tonga, Tangaloa dianggap dewa tertinggi dan pencipta; dalam budaya Polinesia Timur ia biasanya dianggap setara dengan Tāne dan karena itu tidak tertinggi.",
+          "quote": "Tangaloa is one of the oldest Polynesian deities. In Western Polynesian traditions such as Samoa and Tonga, Tangaloa is considered the supreme and creator deity. In Eastern Polynesian cultures, however, he is usually considered of equal status to Tāne and thus not supreme.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tangaroa-c09",
+          "source_id": "tangaroa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Kāi Tahu version of Takaroa's origin holds that he is the son of Temoretu and that Papatūānuku is his wife. Papatūānuku commits adultery with Rakinui while Takaroa is away; in the battle on the beach Takaroa's spear pierces Rakinui through both thighs, and Papatūānuku then marries Rakinui.",
+          "statement_id": "Versi Kāi Tahu tentang asal Takaroa menyatakan bahwa ia putra Temoretu dan Papatūānuku adalah istrinya. Papatūānuku berzina dengan Rakinui saat Takaroa pergi; dalam pertempuran di pantai, tombak Takaroa menembus kedua paha Rakinui, lalu Papatūānuku menikah dengan Rakinui.",
+          "quote": "The Kāi Tahu version of the origin of Takaroa maintains that he is the son of Temoretu and that Papatūānuku is his wife. Papatūānuku commits adultery with Rakinui while Takaroa is away, and in the resulting battle on the beach, Takaroa's spear pierces Rakinui through both his thighs. Papatūānuku then marries Rakinui.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tangaroa-c10",
+          "source_id": "tangaroa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Hawaiʻi, the god of the ocean, healing and long travels is called Kanaloa, the cognate term in the Hawaiian language.",
+          "statement_id": "Di Hawaiʻi, dewa samudra, penyembuhan, dan perjalanan jauh disebut Kanaloa, istilah sepadan (kognat) dalam bahasa Hawaii.",
+          "quote": "In Hawaiʻi, the god of ocean, healing, and long travels is called Kanaloa, the cognate term in the Hawaiian language",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tangaroa-c11",
+          "source_id": "tangaroa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Shortland, Tangaroa was the ancestor of fish and of the pounamu, which the Maori classed with fish.",
+          "statement_id": "Menurut Shortland, Tangaroa adalah leluhur ikan dan pounamu, yang oleh orang Māori digolongkan bersama ikan.",
+          "quote": "Tangaroa was ancestor of Fish and the Pounamu, which is classed with fish by the Maori.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tangaroa-c12",
+          "source_id": "tangaroa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Shortland, Tangaroa took Te Anu-matao (= the chilly cold) as his wife.",
+          "statement_id": "Menurut Shortland, Tangaroa memperistri Te Anu-matao (= dingin yang menusuk).",
+          "quote": "Tangaroa took to wife Te Anu-matao (=the chilly cold)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tangaroa-c13",
+          "source_id": "tangaroa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the story of Ihenga recorded by Shortland, when he called on Tangaroa, Tangaroa sent the eels; the mode of calling was a karakia (incantation).",
+          "statement_id": "Dalam kisah Ihenga yang dicatat Shortland, ketika memanggil Tangaroa, Tangaroa mengirim belut; cara memanggilnya adalah dengan karakia (mantra).",
+          "quote": "Then Ihenga threw into the water some of his inanga. ... Then he called on Tangaroa, and Tangaroa sent the eels. The mode of calling was a karakia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tangaroa-c14",
+          "source_id": "tangaroa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the version recorded by Shortland, Tangaroa warded off the thrust so that it missed him, then thrust at Rangi and pierced him quite through the thigh, so that he fell.",
+          "statement_id": "Dalam versi yang dicatat Shortland, Tangaroa menangkis tusukan itu hingga meleset, lalu menusuk Rangi menembus pahanya hingga ia jatuh.",
+          "quote": "Tangaroa warded it off, and it missed him. Then Tangaroa made a thrust at Rangi, and pierced him quite through the thigh, and he fell.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tangaroa-c15",
+          "source_id": "tangaroa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Shortland, these personified Powers of Nature are regarded by the Maori as their primitive ancestors and invoked in karakia by the whole Maori race; the names of Rangi, Rongo, Tangaroa and others are mentioned as Atua or gods of the Maori of the Sandwich Islands and other Pacific islands inhabited by the same race.",
+          "statement_id": "Menurut Shortland, kekuatan-kekuatan alam personifikasi itu dianggap orang Māori sebagai leluhur purba mereka dan dipanggil dalam karakia oleh seluruh bangsa Māori; nama Rangi, Rongo, Tangaroa, dan lainnya disebut sebagai Atua atau dewa orang Māori di Kepulauan Sandwich dan pulau-pulau Pasifik lain yang dihuni ras yang sama.",
+          "quote": "which Powers are regarded by the Maori as their own primitive ancestors, and are invoked in their karakia by all the Maori race; for we find the names of Rangi, Rongo, Tangaroa, &c., mentioned as Atua or Gods of the Maori of the Sandwich Islands and other Islands of the Pacific inhabited by the same race.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tangaroa-c16",
+          "source_id": "tangaroa-s3",
+          "host": "archive.org",
+          "statement": "In the account Dixon quotes, Tangaroa, the god and father of fish and reptiles, rises up to rend heaven and earth apart but does not succeed.",
+          "statement_id": "Dalam kisah yang dikutip Dixon, Tangaroa, dewa dan ayah ikan serta reptil, bangkit untuk memisahkan langit dan bumi tetapi tidak berhasil.",
+          "quote": "Lo, next Tangaroa, the god and father of fish and reptiles rises up, that he may rend apart the heavens and the earth, but he rends them not apart.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tangaroa-c17",
+          "source_id": "tangaroa-s3",
+          "host": "archive.org",
+          "statement": "According to Dixon, Papa-tu-a-nuku was Tangaroa's wife but deserted him and came to Rangi while Tangaroa was away; when he returned and learned of her faithlessness, he attacked Rangi and speared him in the thigh.",
+          "statement_id": "Menurut Dixon, Papa-tu-a-nuku adalah istri Tangaroa tetapi meninggalkannya dan datang kepada Rangi saat Tangaroa pergi; ketika Tangaroa kembali dan mengetahui ketidaksetiaan istrinya, ia menyerang Rangi dan menombak pahanya.",
+          "quote": "Now Papa-tu-a-nuku was the wife of Tangaroa, but had deserted him, coming to Rangi while Tangaroa was away. When the latter returned and learned of his wife's faithlessness, he attacked Rangi and speared him in the thigh",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tangaroa-c19",
+          "source_id": "tangaroa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In some of the Cook Islands he has similar roles, though in Manihiki he is the fire deity that Māui steals from, whereas in Māori mythology that figure is Mahuika, a goddess of fire.",
+          "statement_id": "Di sebagian Kepulauan Cook ia memiliki peran serupa, meskipun di Manihiki ia adalah dewa api tempat Māui mencuri api, yang dalam mitologi Māori justru adalah Mahuika, dewi api.",
+          "quote": "In some of the Cook Islands, he has similar roles, though in Manihiki, he is the fire deity that Māui steals from, which in Māori mythology is instead Mahuika, a goddess of fire.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tangaroa-c18",
+          "source_id": "tangaroa-s3",
+          "host": "archive.org",
+          "statement": "A plate caption in Dixon's book describes a wooden figure of Tangaroa Upao Vahu, a sea-deity, shown in the act of creating other gods and men.",
+          "statement_id": "Keterangan plat dalam buku Dixon menyebut sebuah patung kayu Tangaroa Upao Vahu, dewa laut, yang digambarkan sedang menciptakan dewa-dewa lain dan manusia.",
+          "quote": "Wooden figure of Tangaroa Upao Vahu,a sea-deity, represented in the act of creating other gods and men.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "menehune",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-2.md",
+      "entry_sha256": "7f145ed034109e69d1365a42e7bfcb8e5e857cb51fbcbee218a8271f7659e1bc",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 20,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "menehune-c01",
@@ -304,17 +1015,188 @@
           "quote": "Some of these structures that Hawaiian folklore attributed to the Menehune still exist.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "menehune-c04",
+          "source_id": "menehune-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to legend, the Menehune appear only at night to build masterpieces, and if they cannot finish a work within the night they leave it unoccupied.",
+          "statement_id": "Menurut legenda, Menehune hanya muncul pada malam hari untuk membangun mahakarya, dan bila gagal menyelesaikan pekerjaan dalam semalam, mereka akan meninggalkannya tanpa dihuni.",
+          "quote": "Legend has it that the Menehune appear only during the night hours to build masterpieces, and if they fail to complete their work in the length of the night, they will leave it unoccupied.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "menehune-c05",
+          "source_id": "menehune-s1",
+          "host": "en.wikipedia.org",
+          "statement": "No one but their children and humans connected to them can see the Menehune.",
+          "statement_id": "Tidak ada yang dapat melihat Menehune kecuali anak-anak mereka dan manusia yang berhubungan dengan mereka.",
+          "quote": "No one but their children and humans connected to them can see the Menehune.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "menehune-c06",
+          "source_id": "menehune-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Their favorite food is the maiʻa (banana), and they also like fish.",
+          "statement_id": "Makanan kesukaan mereka adalah maiʻa (pisang), dan mereka juga menyukai ikan.",
+          "quote": "Their favorite food is the maiʻa (banana), and they also like fish.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "menehune-c07",
+          "source_id": "menehune-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They are said to have lived in Hawaiʻi before settlers arrived from Polynesia many centuries ago.",
+          "statement_id": "Mereka dikatakan telah tinggal di Hawaiʻi sebelum para pemukim tiba dari Polinesia berabad-abad lalu.",
+          "quote": "They are said to have lived in Hawaiʻi before settlers arrived from Polynesia many centuries ago.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "menehune-c08",
+          "source_id": "menehune-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Folklorist Katharine Luomala believes the Menehune legends are a post-European-contact mythology created by adapting the term manahune (which by the time of European colonization meant \"lowly people\" or \"low social status\", not small stature) to European legends of brownies.",
+          "statement_id": "Folkloris Katharine Luomala berpendapat bahwa legenda Menehune adalah mitologi pasca-kontak dengan Eropa, yang tercipta dengan menyesuaikan istilah manahune (yang pada masa kolonisasi Eropa bermakna \"orang rendahan\" atau \"berstatus sosial rendah\", bukan bertubuh kecil) dengan legenda Eropa tentang brownies.",
+          "quote": "Folklorist Katharine Luomala believes that the legends of the Menehune are a post-European contact mythology created by adaptation of the term manahune (which by the time of the colonization of the Hawaiian Islands by Europeans had acquired a meaning of \"lowly people\" or \"low social status\" and not diminutive in stature) to European legends of brownies.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "menehune-c09",
+          "source_id": "menehune-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some early scholars hypothesized a first settlement of Hawaiʻi from the Marquesas Islands and a second from Tahiti. The Tahitian settlers oppressed the \"commoners\" (manahune in Tahitian), who fled to the mountains and were called Menahune.",
+          "statement_id": "Sebagian sarjana awal berhipotesis bahwa Hawaiʻi dimukimi dua kali: pertama oleh pendatang dari Kepulauan Marquesas, kedua dari Tahiti. Pendatang Tahiti menindas \"rakyat jelata\", yaitu manahune dalam bahasa Tahiti, yang lari ke pegunungan dan disebut Menahune.",
+          "quote": "Some early scholars hypothesized that there was a first settlement of Hawaiʻi, by settlers from the Marquesas Islands, and a second, from Tahiti. The Tahitian settlers oppressed the \"commoners\", the manahune in the Tahitian language, who fled to the mountains and were called Menahune.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "menehune-c10",
+          "source_id": "menehune-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Thrum's account, the Menehunes were supposed to be a wonderful people, small of stature and very active, always united in doing any service required of them.",
+          "statement_id": "Menurut catatan Thrum, Menehune dianggap bangsa yang menakjubkan, bertubuh kecil dan sangat aktif, dan mereka selalu bersatu dalam melakukan setiap pekerjaan yang diminta.",
+          "quote": "The Menehunes were supposed to have been a wonderful people, small of stature and of great activity. They were always united in doing any service required of them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "menehune-c11",
+          "source_id": "menehune-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Thrum's account, their rule was that any work undertaken must be finished in one night, otherwise it was left unfinished, as they did not labor twice on the same work.",
+          "statement_id": "Menurut catatan Thrum, aturan mereka adalah bahwa setiap pekerjaan yang dimulai harus selesai dalam satu malam; kalau tidak, pekerjaan itu dibiarkan belum selesai karena mereka tidak mengerjakan hal yang sama dua kali.",
+          "quote": "It was their rule that any work undertaken must be completed in one night, otherwise it would be left unfinished, as they did not labor twice on the same work; hence the origin of the saying: “He po hookahi, a ao ua pau,”—in one night, and by dawn it is finished.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "menehune-c12",
+          "source_id": "menehune-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Thrum's account, they were invisible to everyone but their own descendants or those connected with them; many could hear the noise and hum of their voices, but the gift of seeing them with the naked eye was denied to those not akin to them.",
+          "statement_id": "Menurut catatan Thrum, mereka tidak terlihat oleh siapa pun kecuali keturunan mereka atau orang yang berhubungan dengan mereka; banyak orang dapat mendengar deru dan dengung suara mereka, tetapi kemampuan melihat mereka dengan mata telanjang tidak diberikan kepada yang bukan kerabat.",
+          "quote": "and were invisible to every one but their own descendants, or those connected with them in some way. Many persons could hear the noise and hum of their voices, but the gift of seeing them with the naked eye was denied to those not akin to them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "menehune-c13",
+          "source_id": "menehune-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Thrum's account, they were always willing to do their descendants' bidding, and their supernatural powers enabled them to perform some wonderful works.",
+          "statement_id": "Menurut catatan Thrum, mereka selalu bersedia memenuhi perintah keturunan mereka, dan kekuatan supernatural mereka memungkinkan mereka melakukan beberapa pekerjaan menakjubkan.",
+          "quote": "They were always willing to do the bidding of their descendants, and their supernatural powers enabled them to perform some wonderful works.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "menehune-c14",
+          "source_id": "menehune-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Thrum, Hawaiians differ about the Menehunes: some treat them with gravity and believe they were the original inhabitants who gradually gave way to heavier-bodied ancestors, while the more educated regard them as a mythical class of gnomes or dwarfs.",
+          "statement_id": "Menurut Thrum, pendapat orang Hawaii tentang Menehune berbeda: sebagian memperlakukannya dengan serius dan percaya bahwa mereka penghuni asli pulau-pulau itu yang perlahan tersisih oleh leluhur yang bertubuh lebih besar, sedangkan yang lebih terpelajar memandang Menehune sebagai golongan mitos gnome atau kurcaci.",
+          "quote": "Some treat the subject with gravity and respect, and express the belief that they were the original inhabitants of these islands, but gradually gave way to the heavier-bodied ancestors of the present race; ... the more intelligent and better educated look upon the Menehunes as a mythical class of gnomes or dwarfs",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "menehune-c15",
+          "source_id": "menehune-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In a story recorded by Thrum, at dead of night the hum of the Menehunes' voices was heard on their way to Kikiaola, each carrying a stone. The dam was built with every stone fitting in place, and the stone auwai (watercourse) was laid around the bend of Kikiaola; before daybreak the work was complete.",
+          "statement_id": "Dalam kisah yang dicatat Thrum, pada tengah malam terdengar deru dan dengung suara para Menehune dalam perjalanan ke Kikiaola, masing-masing membawa sebuah batu. Bendungan dibangun dengan setiap batu pas pada tempatnya, dan auwai (saluran air) batu dipasang mengitari tikungan Kikiaola; sebelum fajar pekerjaan itu selesai.",
+          "quote": "At the dead of night he heard the noise and hum of the voices of the Menehunes on their way to Kikiaola, each of whom was carrying a stone. The dam was duly constructed, every stone fitting in its proper place, and the stone auwai, or watercourse, also laid around the bend of Kikiaola. Before the break of day the work was completed",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "menehune-c16",
+          "source_id": "menehune-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In a story recorded by Thrum, Pi once told the Menehunes to wall in a fish-pond at the bend of the Huleia River. They began toward midnight, but at dawn the walls were not finished enough to meet, so it was left incomplete and remains so to this day.",
+          "statement_id": "Dalam kisah yang dicatat Thrum, Pi pernah menyuruh Menehune membuat dinding kolam ikan di tikungan Sungai Huleia. Mereka mulai bekerja menjelang tengah malam, tetapi saat fajar dinding kolam belum cukup rampung untuk bertemu, sehingga dibiarkan tak selesai hingga kini.",
+          "quote": "At one time Pi also told the Menehunes to wall in a fish-pond at the bend of the Huleia River. They commenced work toward midnight, but at dawn the walls of the pond were not sufficiently finished to meet, so it was left incomplete, and has remained so to this day.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "menehune-c17",
+          "source_id": "menehune-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the story of Laka recorded by Thrum, the Menehunes said the canoe would be brought to the halau that night; at dead of night the hum of their voices was heard, the lifting of the canoe began, and it was held up by hand rather than dragged.",
+          "statement_id": "Dalam kisah Laka yang dicatat Thrum, Menehune berkata bahwa perahu akan dibawa ke halau malam itu; pada tengah malam terdengar dengung suara mereka, dimulainya pengangkatan perahu, yang tidak diseret melainkan diangkat dengan tangan.",
+          "quote": "The Menehunes told Laka that it would be brought to the halau that night. At the dead of night the hum of the voices of the Menehunes was heard; this was the commencement of the lifting of the canoe. It was not dragged, but held up by hand.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "menehune-c18",
+          "source_id": "menehune-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Thrum, the Menehunes are credited with building numerous heiaus (ancient temples) in various parts of the islands.",
+          "statement_id": "Menurut Thrum, Menehune dikreditkan membangun banyak heiau (kuil kuno) di berbagai bagian kepulauan.",
+          "quote": "The Menehunes are credited with the construction of numerous heiaus (ancient temples) in various parts of the islands.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "menehune-c19",
+          "source_id": "menehune-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Thrum, the heiau of Mookini, near Honoipu, Kohala, is pointed out as an instance of their marvellous work; tradition says the Menehunes were placed in a line covering the whole distance from Pololu to Honoipu, so that the stones were passed from hand to hand throughout the work.",
+          "statement_id": "Menurut Thrum, heiau Mookini, dekat Honoipu, Kohala, ditunjuk sebagai contoh karya menakjubkan mereka; tradisi mengatakan para Menehune ditempatkan berbaris sepanjang seluruh jarak dari Pololu ke Honoipu sehingga batu-batu dioper dari tangan ke tangan selama seluruh pekerjaan.",
+          "quote": "The heiau of Mookini, near Honoipu, Kohala, is pointed out as an instance of their marvellous work. ... Tradition says the Menehunes were placed in a line covering the entire distance from Pololu to Honoipu, whereby the stones were passed from hand to hand for the entire work.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "menehune-c20",
+          "source_id": "menehune-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Thrum, on the pali of Waikolu, near Kalaupapa, Molokai, stands a heiau that Hawaiians believe was built by none other than the Menehunes.",
+          "statement_id": "Menurut Thrum, di tebing (pali) Waikolu, dekat Kalaupapa, Molokai, berdiri sebuah heiau yang diyakini orang Hawaii dibangun oleh tidak lain daripada Menehune.",
+          "quote": "There stands on the pali of Waikolu, near Kalaupapa, Molokai, a heiau that Hawaiians believe to have been constructed by no one else than the Menehunes.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "areop-enap",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-2.md",
+      "entry_sha256": "6638d94e0a34203f1e47ff49f84ee6679010831fc9708ca4c76740bd6e546ce4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
       "issues": [
@@ -322,11 +1204,6 @@
           "level": "manual",
           "where": "culture",
           "message": "Mengusulkan tradisi baru: \"tradition-micronesian\"."
-        },
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -359,26 +1236,131 @@
           "quote": "Areop-Enap created humans from stones so they could support the sky, and then discovered there were other creatures in the newly created world.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "areop-enap-c04",
+          "source_id": "areop-enap-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Areop-Enap searched for food in the darkness and found an enormous clam (in some accounts a Tridacna clam). Before he could stun it, the clam swallowed him and snapped shut again.",
+          "statement_id": "Areop-Enap mencari makanan dalam kegelapan dan menemukan kerang raksasa (dalam beberapa versi kerang Tridacna). Sebelum sempat membuatnya pingsan, kerang itu menelannya dan menutup lagi.",
+          "quote": "Areop-Enap searched for food in the darkness and found an enormous clam (in some accounts a Tridacna clam). Before he could stun it, the clam swallowed him and snapped shut again.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "areop-enap-c05",
+          "source_id": "areop-enap-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ignoring the snail, Areop-Enap cast a strength spell on Rigi and persuaded him to try to open the clam.",
+          "statement_id": "Mengabaikan siput itu, Areop-Enap merapal mantra kekuatan pada Rigi dan membujuknya mencoba membuka kerang.",
+          "quote": "Ignoring the snail, Areop-Enap cast a strength spell on Rigi and persuaded him to try to open the clam.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "areop-enap-c06",
+          "source_id": "areop-enap-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The saltiness of the water killed the clam and opened the shell. Areop-Enap made the lower shell into Earth and the upper shell into the sky, set the smaller snail west of the sky-shell where it became the Moon, and set the second snail to the east where it became the Sun.",
+          "statement_id": "Asinnya air membunuh kerang dan membuka cangkangnya. Areop-Enap menjadikan cangkang bawah sebagai Bumi dan cangkang atas sebagai langit, menempatkan siput yang lebih kecil di barat cangkang langit sehingga menjadi Bulan, dan siput kedua di timur sehingga menjadi Matahari.",
+          "quote": "The saltiness of the water killed the clam and opened the shell. Areop-Enap made the lower shell into Earth and the upper shell into the sky and set the smaller snail west of the sky-shell where it became the Moon. The second snail was set to the east and became the Sun.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "areop-enap-c07",
+          "source_id": "areop-enap-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Areop-Enap made islands from clam-flesh and clothed them in vegetation made from his own web-thread.",
+          "statement_id": "Areop-Enap membuat pulau-pulau dari daging kerang dan menyelimutinya dengan tumbuhan yang dibuat dari benang jaringnya sendiri.",
+          "quote": "Areop-Enap made islands from clam-flesh and clothed them in vegetation made from his own web-thread.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "areop-enap-c08",
+          "source_id": "areop-enap-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Finally he turned to Rigi and found that he had drowned in his own sweat, killed by his own exertions. Areop-Enap wrapped him in a silk cocoon and hung him in the sky to become the Milky Way.",
+          "statement_id": "Akhirnya ia menoleh kepada Rigi dan mendapati bahwa Rigi tenggelam dalam keringatnya sendiri, tewas karena jerih payahnya. Areop-Enap membungkusnya dalam kepompong sutra dan menggantungnya di langit menjadi Bima Sakti.",
+          "quote": "Finally he turned to Rigi and found that he had drowned in his own sweat, killed by his own exertions. Areop-Enap wrapped him in a cocoon of silk and hung him in the sky to become the Milky Way.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "areop-enap-c09",
+          "source_id": "areop-enap-s1",
+          "host": "en.wikipedia.org",
+          "statement": "So he created a winged creature or flying bird from the dirt under his nails and set it to annoy the creatures so that they called to each other to kill it. In this way Areop-Enap learned the names of the inhabitants of the world.",
+          "statement_id": "Maka ia menciptakan makhluk bersayap atau burung terbang dari kotoran di bawah kukunya dan menyuruhnya mengganggu makhluk-makhluk itu sehingga mereka saling memanggil untuk membunuhnya. Dengan cara ini Areop-Enap mengetahui nama-nama penghuni dunia.",
+          "quote": "So he created a winged creature or flying bird from the dirt under his nails and set it to annoy the creatures so that they called to each other to kill it. In this way Areop-Enap learned the names of the inhabitants of the world.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "areop-enap-c10",
+          "source_id": "areop-enap-s2",
+          "host": "archive.org",
+          "statement": "In the tale recorded by Dixon, in the beginning there were only the sea and Areop-Enap, \"Ancient Spider\", who floated above in endless space.",
+          "statement_id": "Dalam kisah yang dicatat Dixon, pada mulanya hanya ada laut dan Areop-Enap, \"Laba-laba Purba\", yang melayang di atas dalam ruang tanpa batas.",
+          "quote": "in the beginning there were only the sea and Areop-Enap, ‘Ancient Spider,” who floated above in endless space.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "areop-enap-c11",
+          "source_id": "areop-enap-s2",
+          "host": "archive.org",
+          "statement": "In Dixon's version the upper shell was raised very high and became the sky, but Rigi the worm, exhausted by his great work, fell and died; from the other snail Ancient Spider made the sun and set it on the east side of the lower shell, which became the earth.",
+          "statement_id": "Dalam versi Dixon, cangkang atas diangkat sangat tinggi dan menjadi langit, tetapi Rigi, si cacing, kelelahan karena kerja kerasnya, jatuh dan mati. Dari siput yang lain Laba-laba Purba membuat matahari dan menaruhnya di sisi timur cangkang bawah, yang menjadi bumi.",
+          "quote": "At last he raised the upper shell very high, and it became the sky; but Rigi, the worm, exhausted by his great work, fell and died. From the other snail Ancient Spider now made the sun and set it on the east side of the lower shell, which became the earth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "areop-enap-c12",
+          "source_id": "areop-enap-s2",
+          "host": "archive.org",
+          "statement": "According to Dixon, Ancient Spider turned stones into men, but these became the supporters of the heavens and were not ordinary human beings.",
+          "statement_id": "Menurut Dixon, Laba-laba Purba mengubah batu menjadi manusia, tetapi mereka menjadi penopang langit dan bukan manusia biasa.",
+          "quote": "Ancient Spider turned stones into men; but these became the supporters of the heavens and were not ordinary human beings.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "areop-enap-c13",
+          "source_id": "areop-enap-s2",
+          "host": "archive.org",
+          "statement": "According to Dixon, after the world was created Ancient Spider set out to see whether there were other beings besides himself, and came to a land where he found men and women sitting on the shore in the shade of the trees.",
+          "statement_id": "Menurut Dixon, setelah dunia tercipta Laba-laba Purba pergi untuk melihat apakah ada makhluk lain selain dirinya, dan ia tiba di sebuah negeri tempat ia mendapati laki-laki dan perempuan duduk di pantai di bawah naungan pohon.",
+          "quote": "Thus, Ancient Spider set out, after the world was created, to see if there were any other beings beside himself, and he came to a land where he found men and women sitting on the shore in the shade of the trees.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "areop-enap-c14",
+          "source_id": "areop-enap-s2",
+          "host": "archive.org",
+          "statement": "According to Dixon, \"Young Spider\" was born miraculously from a boil on Dabage, the tortoise.",
+          "statement_id": "Menurut Dixon, \"Young Spider\" lahir secara ajaib dari bisul pada Dabage, si kura-kura.",
+          "quote": "(“Young Spider”) was born miraculously from a boil upon Dabage, the tortoise;",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "tawhirimatea",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-2.md",
+      "entry_sha256": "92592074feb5936e5d814b8eb078eb03833eebc8a783d058b16d3d5f179368ed",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tawhirimatea-c01",
@@ -409,26 +1391,91 @@
           "quote": "Tāwhirimātea lives on the sky with his father Rangi and brother, the star Rehua.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "tawhirimatea-c04",
+          "source_id": "tawhirimatea-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In his anger at his brothers for separating their parents, Tāwhirimātea destroyed the forests of Tāne (god of forests), drove Tangaroa (god of the sea) and his offspring into the sea, pursued Rongo and Haumia-tiketike until they took refuge in the bosom of their mother Papa, and found a worthy opponent and eternal enemy only in Tūmatauenga.",
+          "statement_id": "Dalam amarahnya kepada saudara-saudaranya karena memisahkan orang tua mereka, Tāwhirimātea menghancurkan hutan Tāne (dewa hutan), mengusir Tangaroa (dewa laut) dan keturunannya ke laut, mengejar Rongo dan Haumia-tiketike hingga mereka berlindung di dada ibu mereka, Papa, dan hanya menemukan lawan sepadan dan musuh abadi pada Tūmatauenga.",
+          "quote": "In his anger at his brothers for separating their parents, Tāwhirimātea destroyed the forests of Tāne (god of forests), drove Tangaroa (god of the sea) and his progeny into the sea, pursued Rongo and Haumia-tiketike till they had to take refuge in the bosom of their mother Papa, and only found in Tūmatauenga a worthy opponent and eternal enemy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tawhirimatea-c05",
+          "source_id": "tawhirimatea-s1",
+          "host": "en.wikipedia.org",
+          "statement": "To fight his brothers, Tāwhirimātea gathered an army of his children, winds and clouds of various kinds.",
+          "statement_id": "Untuk melawan saudara-saudaranya, Tāwhirimātea mengumpulkan pasukan anak-anaknya, yaitu berbagai jenis angin dan awan.",
+          "quote": "To fight his brothers, Tāwhirimātea gathered an army of his children, winds and clouds of different kinds",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tawhirimatea-c06",
+          "source_id": "tawhirimatea-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Other children of Tāwhirimātea are the various kinds of rain, mists and fog. His attacks on his brothers led to the flooding of large areas of land.",
+          "statement_id": "Anak-anak Tāwhirimātea yang lain adalah berbagai jenis hujan, kabut tipis, dan kabut tebal. Serangan Tāwhirimātea pada saudara-saudaranya menyebabkan banjir di wilayah daratan yang luas.",
+          "quote": "Other children of Tāwhirimātea are the various kinds of rain, mists and fog. Tāwhirimātea's attacks on his brothers led to the flooding of large areas of the land.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tawhirimatea-c07",
+          "source_id": "tawhirimatea-s2",
+          "host": "archive.org",
+          "statement": "In the account Dixon quotes, Tawhiri-ma-tea, the father of winds and storms, feared his kingdom was about to be overthrown and grieved greatly at the thought of his parents being torn apart.",
+          "statement_id": "Dalam kisah yang dikutip Dixon, Tawhiri-ma-tea, ayah angin dan badai, takut kerajaannya akan digulingkan dan sangat bersedih memikirkan orang tuanya dirobek terpisah.",
+          "quote": "Tawhiri-ma-tea, the father of winds and storms, and he, fearing that his kingdom was about to be overthrown, grieved greatly at the thought of his parents being torn apart.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tawhirimatea-c08",
+          "source_id": "tawhirimatea-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the tale recorded by Dittmer, Tawhiri-matea is the father of the winds.",
+          "statement_id": "Dalam kisah yang dicatat Dittmer, Tawhiri-matea adalah bapak angin.",
+          "quote": "Tawhiri-matea, the father of the winds.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tawhirimatea-c09",
+          "source_id": "tawhirimatea-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the tale recorded by Dittmer, the lowest heaven is Tawhiri-matea, the dwelling-place of the god of the winds.",
+          "statement_id": "Dalam kisah yang dicatat Dittmer, langit terendah adalah Tawhiri-matea, tempat tinggal dewa angin.",
+          "quote": "The lowest heaven is Tawhiri-matea, the dwelling-place of the god of the winds.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tawhirimatea-c10",
+          "source_id": "tawhirimatea-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the story of Maui recorded by Dittmer, Maui sang great incantations to Tawhiri-matea and the gods, and they sent clouds of rain.",
+          "statement_id": "Dalam kisah Maui yang dicatat Dittmer, Maui mendaraskan mantra-mantra besar kepada Tawhiri-matea dan para dewa, dan mereka mengirim awan hujan.",
+          "quote": "Ah, then Maui began to run! ... he sang great incantations to Tawhiri-matea and the gods, and they sent clouds of rain.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "mimi-folklore",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-2.md",
+      "entry_sha256": "381c57e00aa3318373d386c3876b50b67d15e35bf30f0d57bec9d5428f31173b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mimi-folklore-c01",
@@ -459,26 +1506,61 @@
           "quote": "According to Aboriginal folklore, Mimi had human form and made the first rock paintings before the Aboriginal people first came to northern Australia.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "mimi-folklore-c04",
+          "source_id": "mimi-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Mimi taught the Aboriginal people how to paint, and how to hunt and cook kangaroo meat. The Mimis are considered mischievous but generally harmless.",
+          "statement_id": "Mimi mengajari orang Aborigin cara melukis, berburu, dan memasak daging kanguru. Mimi dianggap nakal tetapi pada umumnya tidak berbahaya.",
+          "quote": "The Mimi taught the Aboriginal people how to paint, and how to hunt and cook kangaroo meat. The Mimis are considered to be mischievous but generally harmless.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mimi-folklore-c05",
+          "source_id": "mimi-folklore-s2",
+          "host": "www.ngv.vic.gov.au",
+          "statement": "The NGV work description depicts slender female Mimih spirits of the Stone Country in a ceremonial dance, and calls them beings credited with teaching Kunwinjku people how to hunt, make love, dance, sing and paint.",
+          "statement_id": "Keterangan karya NGV menggambarkan roh Mimih perempuan yang ramping dari Stone Country sedang menari dalam tarian upacara, dan menyebut mereka makhluk yang dipercaya mengajari orang Kunwinjku cara berburu, bercinta, menari, bernyanyi, dan melukis.",
+          "quote": "slender female Mimih spirits of the Stone Country engaging in a lithesome ceremonial dance. The faces, limbs and torsos of these beings credited with teaching Kunwinjku people how to hunt, make love, dance, sing and paint",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mimi-folklore-c06",
+          "source_id": "mimi-folklore-s3",
+          "host": "www.cambridge.org",
+          "statement": "According to this archaeological journal article, over time additional mythological figures appeared in the rock art of western Arnhem Land, such as Namarrkon the Lightning Man, Namande spirits, Namarkaiin and Mimih.",
+          "statement_id": "Menurut artikel jurnal arkeologi ini, seiring waktu tokoh-tokoh mitologis tambahan muncul dalam seni cadas Arnhem Land bagian barat, seperti Namarrkon Si Manusia Petir, roh Namande, Namarkaiin, dan Mimih.",
+          "quote": "Over time, additional mythological figures appeared in the rock art of western Arnhem Land, such as Namarrkon the Lightning Man, Namande spirits, Namarkaiin and Mimih",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mimi-folklore-c07",
+          "source_id": "mimi-folklore-s3",
+          "host": "www.cambridge.org",
+          "statement": "The article records that in 1970 the Kunwinjku artist Bilinyara Nabegeyo painted dancing back-to-back Mimih spirits in ceremony with nested-diamond Mardaiyan designs on their bodies.",
+          "statement_id": "Artikel itu mencatat bahwa pada 1970 seniman Kunwinjku Bilinyara Nabegeyo melukis roh Mimih menari punggung-ke-punggung dalam upacara dengan motif belah ketupat bersarang Mardaiyan di tubuh mereka.",
+          "quote": "Also in 1970, Kunwinjku artist Bilinyara Nabegeyo painted dancing back-to-back Mimih spirits in ceremony with nested diamond Mardaiyan designs on their bodies.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "abere",
-      "file": "batch-150.md",
+      "file": "batch-150-fix-2.md",
+      "entry_sha256": "6e74e6e8f7d860a473bbf0f9c40f7223a683ff209d771f94816ff6fc0d37388e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "abere-c01",
@@ -508,6 +1590,46 @@
           "statement_id": "Abere tinggal di rawa dan menjebak orang dengan menumbuhkan gelagah di sekeliling mereka.",
           "quote": "She is said to reside in marshes. She draws people to her by her beauty, entrapping them by causing reeds to grow around them.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "abere-c04",
+          "source_id": "abere-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A second-hand account from 1914 shows a transcription of a song claiming that Abere is not a demoness but a shape-shifting culture hero who taught people how to build and plant crops and keeps them from harm.",
+          "statement_id": "Sebuah catatan tangan kedua dari 1914 menampilkan transkripsi lagu yang menyatakan bahwa Abere bukan iblis perempuan, melainkan pahlawan budaya pengubah wujud yang mengajari orang membangun dan menanam tanaman serta menjaga mereka dari bahaya.",
+          "quote": "A second-hand account from 1914 ... shows a transcription of a song that claims that Abere is not a demoness but a shape shifting culture hero who taught people how to build and plant crops and keeps them from harm.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "abere-c05",
+          "source_id": "abere-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A separate story says Abere created the first dugongs by pulling an infant into the water and transforming it before it drowned, causing the mother to follow and be transformed as well.",
+          "statement_id": "Kisah lain menyatakan bahwa Abere menciptakan dugong pertama dengan menarik seorang bayi ke dalam air dan mengubahnya sebelum tenggelam, sehingga sang ibu menyusul dan ikut berubah.",
+          "quote": "A separate story says that Abere created the first dugongs by pulling an infant into the water and transforming it before it drowned, causing the mother to follow and be transformed as well.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "abere-c06",
+          "source_id": "abere-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Once they are trapped, she proceeds to devour her victims.",
+          "statement_id": "Setelah mereka terperangkap, ia memangsa korbannya.",
+          "quote": "Once they are trapped, she proceeds to devour her victims.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "abere-c07",
+          "source_id": "abere-s2",
+          "host": "archive.org",
+          "statement": "This source describes a song relating the building and destruction of a darimo on the mainland opposite the island of Kiwai (where the song was sung) and the party's subsequent adventures, and calls Abere their \"Culture Heroine\".",
+          "statement_id": "Sumber ini menyebut sebuah lagu yang menceritakan pembangunan dan pembongkaran sebuah darimo di daratan seberang pulau Kiwai (tempat lagu itu dinyanyikan) serta petualangan rombongan selanjutnya, dan menyebut Abere sebagai \"Culture Heroine\" mereka.",
+          "quote": "relating the building and destruction of a darimo on the mainland opposite the island of Kiwai (where the song was sung) ... of their Culture Heroine, Abere, and the subsequent adventures of the party",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -561,7 +1683,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6034c492868970c404f2d1b13528cffb6585877a667b851ddeccc1532d7a60a5"
     },
     {
       "slug": "degei",
@@ -611,7 +1734,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2a7bf1d381e9711f7ce0046bcf66ba40687b59837375fb90a3fdfaaaf74bd974"
     },
     {
       "slug": "waitoreke",
@@ -651,7 +1775,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "115c6578f5e7a8801f42f25e7e17aaba7f6ef94c614b10e607e476e91defc7f6"
     },
     {
       "slug": "yara-ma-yha-who",
@@ -691,7 +1816,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "fa7263792f080604a98003bfb5ec2c24d4dbbdacc7c18d56d714c8a6ec18a8d5"
     },
     {
       "slug": "aitu",
@@ -741,7 +1867,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "eac9a5f22bdd7a6cdb11ac86c01ae1b942914146af13478144a6df9790b37722"
     },
     {
       "slug": "bobbi-bobbi",
@@ -781,7 +1908,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "57866f9da596dd2fec7706b5fa9e808d4b677aa4e77e6851ea818947655af95a"
     },
     {
       "slug": "ikatere",
@@ -821,7 +1949,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7a52e39876fd9325bab9f9eed947c1d353720a70b5c88a514caa425e3a49b287"
     },
     {
       "slug": "namaka",
@@ -861,7 +1990,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "695dc5af5bba9adf270b7905a48bc1208df2ddac09b03064c588a270cc8067f5"
     },
     {
       "slug": "punga",
@@ -901,7 +2031,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5edc77a55e1c12de618e199c9937fbde771fd72e95a5cbcbec2242180869859f"
     },
     {
       "slug": "taniwha",
@@ -941,7 +2072,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2800671f59e6d87d6691328595defbb1cc56e5fa49379f53aa61b0e26c99b86b"
     },
     {
       "slug": "abaia",
@@ -991,7 +2123,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bfb1e9c4b5f674e5246cf8159f114d988b290cde73b3ff6e9be830b17426459d"
     },
     {
       "slug": "aku-aku",
@@ -1041,7 +2174,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3f65743584a7abfa4537e2d965fb420955794fea5bdec4bfba7c1e339f8a51e3"
     },
     {
       "slug": "apukohai",
@@ -1091,7 +2225,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8349a11320ba5d38d703ce6e740c92f6bb0532ea05d63a6daecaeadc6de495d4"
     },
     {
       "slug": "dakuwaqa",
@@ -1141,7 +2276,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "20e99b3fa6c3133c42083d4fd6ec4a64ebc087f29f69537150ccec0a86c2b14d"
     },
     {
       "slug": "fisher-s-ghost",
@@ -1191,7 +2327,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "97e03f12b7c73c3d7ad48ae58574c61abffb3d49b5c3cecfb9c325a471121da5"
     },
     {
       "slug": "julunggul",
@@ -1241,7 +2378,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7e94690c4e747c860d6d6ff1242682e59fb3ce44ad0691df178b321febb826e2"
     },
     {
       "slug": "nightmarchers",
@@ -1291,7 +2429,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "84cb624cbebba242d198f48f1990b441b4a96a4dd1c1580066c892ec111d2de0"
     },
     {
       "slug": "queensland-tiger",
@@ -1341,7 +2480,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0f78cbc3874e2a10c0ce5e6e18063a3edee2d04049ae6795c3efdaed5d8e21f5"
     },
     {
       "slug": "ukupanipo",
@@ -1381,7 +2521,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4c3ba622d58d1e014a6a4f3a88a811b9260da2abbacc4b4142083af903aab3f1"
     },
     {
       "slug": "adaro-mythology",
@@ -1431,7 +2572,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7ec16b5648a531fd3c2ff9464b3fc00effc4778f293ecdef63bafcea83828484"
     },
     {
       "slug": "atanua",
@@ -1481,7 +2623,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c8921499a07ee8c0ec6c8f62d942e9e7af38716ddc1fc28444edcbb8dab7c675"
     },
     {
       "slug": "aumakua",
@@ -1521,7 +2664,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "06ab1fd06aef11096293a137b79f581c1cb2af05ae17e6ce947a477c6cd32c14"
     },
     {
       "slug": "daucina",
@@ -1571,7 +2715,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "699d4311a83cf9db5fc009e2d04f3166dbf89d974615cea35105d7d10e7f1f6d"
     },
     {
       "slug": "flaming-teeth",
@@ -1611,7 +2756,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7f1f4268280f38be4b66aa01a21b2b50141b440f56914f38e202d681e95c4424"
     },
     {
       "slug": "galeru",
@@ -1661,7 +2807,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "51b7b13c81b78d81b328a64bc6d77543f425e1f9043312feb1738fbc78622be7"
     },
     {
       "slug": "kamohoali-i",
@@ -1711,7 +2858,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "78ee543263746e39c4e31b56b23d99ed6e8a67aa48ece2c9a731c16b99e10661"
     },
     {
       "slug": "moehau",
@@ -1751,7 +2899,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "abff3b1fad95b37cb8207913906947800cd6fe7b91ba6b7953995cc9b8d8b306"
     },
     {
       "slug": "mokoi",
@@ -1791,7 +2940,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4f20c56d59c5289f48e2519d86ac7a62cfc96d63b0d0300f1cbd6b7e3a609ed4"
     },
     {
       "slug": "taotao-mona",
@@ -1831,7 +2981,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6ed151c195a85f9d8ce4c4e387c2eb1e9ce638b4aa8f83d65e65454dd20bdeba"
     },
     {
       "slug": "tinirau",
@@ -1881,7 +3032,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4a316c9ac72f7bdf81f24319158b160899f546e80686c8b6948c88a7fd76e8ed"
     },
     {
       "slug": "ungud",
@@ -1931,7 +3083,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8a62cb31e7d8f0921cece06d88bafd2b4ddffa0862a035149b96a03aaa718bf6"
     },
     {
       "slug": "wagyl",
@@ -1981,7 +3134,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e6c843ae5caec889a454a0719de3fe86f6a57c680ce441680a6d9a3b14e221ce"
     },
     {
       "slug": "yurlungur",
@@ -2031,7 +3185,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6c0dc1157026737bc7252be756ed00d2d53dc28d4c24f485bb8330a18e1c80fe"
     },
     {
       "slug": "blue-mountains-panther",
@@ -2081,7 +3236,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e5a240be618a1663dcf6d634b9bcc6f628b3ce7b8292e89fc3cb616f2898c1d4"
     },
     {
       "slug": "dirawong",
@@ -2131,7 +3287,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1dd9d1f54034e2e2ad474f2f07293ffcb79a1d193853e66178807928d8a4343f"
     },
     {
       "slug": "hahau-whenua",
@@ -2171,7 +3328,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5c581a0b27682e1758b128f5419bc6e0d24ad7a67f9008d6bf0a1cf2cb0441b9"
     },
     {
       "slug": "hakuturi",
@@ -2221,7 +3379,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e0f1cd6518ce7c30dd0424bfa9fe043103f74c94305ee4bb7e0323ca8c6b9e3f"
     },
     {
       "slug": "hatuibwari",
@@ -2271,7 +3430,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "39f371894394a72539a52a730630727e6b5ca3da2448a2139c3aacae1bd249fb"
     },
     {
       "slug": "kumi-lizard",
@@ -2321,7 +3481,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "263c72e3d817e4d485f4b6ae1fe3e4a36239ebdcab17fe93b5465d5fdf92b124"
     }
   ]
 }
