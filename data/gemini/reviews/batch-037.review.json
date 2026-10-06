@@ -1,29 +1,25 @@
 {
   "batch_id": "batch-037",
-  "checked_at": "2026-09-30T02:34:15.519Z",
+  "checked_at": "2026-10-06T13:57:58.581Z",
   "files": [
     "batch-037.md",
-    "batch-037-fix-1.md"
+    "batch-037-fix-1.md",
+    "batch-037-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "atlas",
-      "file": "batch-037-fix-1.md",
+      "file": "batch-037-fix-2.md",
+      "entry_sha256": "bbc3170fd51617e9bcd74ea9d1136156c7863523fa4e9deff748987ff489c6d8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 2,
+        "claims": 27,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "atlas-c01",
@@ -114,26 +110,201 @@
           "quote": "In Hellenistic and Roman times, Atlas is frequently represented in his now familiar position with bent knees and back, straining to hold the globe on his shoulders.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "atlas-c10",
+          "source_id": "atlas-s3",
+          "host": "www.theoi.com",
+          "statement": "Atlas was the Titan god who bore the sky aloft and personified the quality of endurance.",
+          "statement_id": "Atlas adalah dewa Titan yang menopang langit dan melambangkan sifat ketahanan.",
+          "quote": "Atlas was the Titan god who bore the sky aloft. He personified the quality of endurance",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atlas-c11",
+          "source_id": "atlas-s3",
+          "host": "www.theoi.com",
+          "statement": "Atlas was also the god who instructed mankind in astronomy, used by sailors for navigation and by farmers to measure the seasons.",
+          "statement_id": "Atlas juga dikenal sebagai dewa yang mengajarkan manusia ilmu astronomi, yang dipakai pelaut untuk navigasi dan petani untuk mengukur musim.",
+          "quote": "Atlas was also the God who instructed mankind in the art of Astronomy, a tool which was used by sailors in navigation and farmers in measuring the Seasons.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atlas-c12",
+          "source_id": "atlas-s3",
+          "host": "www.theoi.com",
+          "statement": "Homer's Odyssey says Atlas knows the depths of all the seas and guards (or holds) the tall pillars that keep sky and earth apart.",
+          "statement_id": "Odyssey karya Homer menyebut Atlas mengetahui kedalaman semua laut dan menjaga (atau memegang) tiang-tiang tinggi yang memisahkan langit dan bumi.",
+          "quote": "Atlas the baleful; he knows the depths of all the seas, and he, no other, guards (or holds) the tall pillars that keep the sky and earth apart.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "atlas-c13",
+          "source_id": "atlas-s3",
+          "host": "www.theoi.com",
+          "statement": "Aeschylus's Prometheus Bound describes Atlas as pre-eminent in mighty strength, moaning as he supports the vault of heaven on his back.",
+          "statement_id": "Prometheus Bound karya Aeschylus menggambarkan Atlas sebagai yang unggul dalam kekuatan besar, mengerang sambil menopang kubah langit di punggungnya.",
+          "quote": "Atlas, pre-eminent in mighty strength, who moans as he supports the vault of heaven on his back.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "atlas-c14",
+          "source_id": "atlas-s3",
+          "host": "www.theoi.com",
+          "statement": "Pindar writes that Atlas still struggles to bear the weight of heaven far from his fathers' land, but almighty Zeus set the Titans free.",
+          "statement_id": "Pindar menulis bahwa Atlas masih bergulat menopang beban langit jauh dari tanah ayahnya, tetapi Zeus yang mahakuasa membebaskan para Titan.",
+          "quote": "Does not even now great Atlas struggle to bear up the weight of heaven, far from his fathers' land and his possessions? But almighty Zeus set free the Titanes (Titans)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "atlas-c15",
+          "source_id": "atlas-s3",
+          "host": "www.theoi.com",
+          "statement": "According to Pseudo-Apollodorus, Heracles agreed but by a trick gave the sphere back to Atlas, asking him to take the sky while he put a cushion on his head.",
+          "statement_id": "Menurut Pseudo-Apollodorus, Herakles menyetujui tawaran Atlas lalu dengan tipu daya mengembalikan bola langit kepadanya, dengan alasan hendak meletakkan bantalan di kepala.",
+          "quote": "Herakles agreed, but by a trick gave the sphere back to Atlas. On the advise of Prometheus he asked Atlas to take the sky while he put a cushion on his head.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "atlas-c16",
+          "source_id": "atlas-s3",
+          "host": "www.theoi.com",
+          "statement": "Pseudo-Apollodorus states the golden apples were not in Libya but with Atlas among the Hyperboreans.",
+          "statement_id": "Pseudo-Apollodorus menyatakan apel emas itu bukan di Libya, melainkan bersama Atlas di antara bangsa Hyperborea.",
+          "quote": "These apples were not, as some maintain, in Libya, but rather were with Atlas among the Hyperboreans.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "atlas-c17",
+          "source_id": "atlas-s3",
+          "host": "www.theoi.com",
+          "statement": "Pausanias describes Atlas on the chest of Cypselus supporting heaven and earth on his shoulders while carrying the apples of the Hesperides.",
+          "statement_id": "Pausanias menggambarkan Atlas pada peti Kypselos menopang langit dan bumi di bahunya sambil membawa apel Hesperides.",
+          "quote": "Atlas too is supporting, just as the story has it, heaven and earth upon his shoulders; he is also carrying the apples of the Hesperides.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "atlas-c18",
+          "source_id": "atlas-s3",
+          "host": "www.theoi.com",
+          "statement": "In Ovid's Metamorphoses, the huge Atlas becomes a mountain: his beard and hair turn to forests, his shoulders to cliffs, his hands to ridges.",
+          "statement_id": "Dalam Metamorphoses karya Ovid, Atlas yang sangat besar berubah menjadi gunung: janggut dan rambutnya menjadi hutan, bahunya tebing, tangannya punggung bukit.",
+          "quote": "Atlas, so huge, became a mountain; beard and hair were changed to forests, shoulders were cliffs, hands ridges",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "atlas-c19",
+          "source_id": "atlas-s3",
+          "host": "www.theoi.com",
+          "statement": "Atlas's daughters were the star-nymphs the Pleiades and Hyades, and his son was the beautiful youth Hyas.",
+          "statement_id": "Putri-putri Atlas adalah Pleiades dan Hyades, nimfa bintang, dan putranya adalah pemuda tampan Hyas.",
+          "quote": "The daughters of Atlas were the star-nymphe Pleaides and Hyades, and his son, the beautiful youth Hyas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atlas-c20",
+          "source_id": "atlas-s3",
+          "host": "www.theoi.com",
+          "statement": "Diodorus Siculus offers a rationalised reading: Atlas mastered the science of the stars and discovered their spherical arrangement, so he was believed to bear the whole firmament on his shoulders.",
+          "statement_id": "Diodorus Siculus memberi tafsir rasional: Atlas menguasai ilmu bintang dan menemukan susunan bola bintang, sehingga dipercaya memikul seluruh cakrawala di bahunya.",
+          "quote": "Atlas had worked out the science of astrology to a degree surpassing others and had ingeniously discovered the spherical arrangement of the stars, and for that reason was generally believed to be bearing the entire firmament upon his shoulders.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "atlas-c21",
+          "source_id": "atlas-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The name Atlas perhaps conveys the meaning 'suffering' or 'very enduring'.",
+          "statement_id": "Nama Atlas mungkin bermakna 'menderita' atau 'sangat tahan'.",
+          "quote": "With a name perhaps conveying the meaning 'suffering' or 'very enduring,'",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "atlas-c22",
+          "source_id": "atlas-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Atlas was the father of the nymph Calypso and the seven Pleiades.",
+          "statement_id": "Atlas adalah ayah nimfa Calypso dan tujuh Pleiades.",
+          "quote": "Atlas was the father of the nymph Calypso and the seven Pleiades.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atlas-c23",
+          "source_id": "atlas-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Later tradition, including Herodotus, associates Atlas with the Atlas Mountains in North Africa.",
+          "statement_id": "Tradisi yang lebih kemudian, termasuk Herodotus, mengaitkan Atlas dengan Pegunungan Atlas di Afrika Utara.",
+          "quote": "Later tradition, including Herodotus, associates the god with the Atlas Mountains in North Africa.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "atlas-c24",
+          "source_id": "atlas-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Greek art from the 6th century BCE, Atlas often appears in depictions of the labours of Hercules, most notably on a metope from the Temple of Zeus at Olympia (c. 460 BCE) where he stands in the gardens of the Hesperides.",
+          "statement_id": "Dalam seni Yunani sejak abad ke-6 SM, Atlas sering muncul dalam penggambaran kerja keras Hercules, terutama pada metope Kuil Zeus di Olympia (sekitar 460 SM) tempat ia berdiri di taman Hesperides.",
+          "quote": "In Greek art, Atlas is, from the 6th century BCE, often featured in depictions of the labours of Hercules, most notably in a metope from the Temple of Zeus at Olympia (c. 460 BCE) where he stands in the gardens of the Hesperides.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "atlas-c25",
+          "source_id": "atlas-s1",
+          "host": "www.worldhistory.org",
+          "statement": "For Plato, Atlas was the eponymous first king of Atlantis; his name was also given to a huge mountain range in Northern Africa, the Atlantic Ocean and any large collection of maps.",
+          "statement_id": "Bagi Plato, Atlas adalah raja pertama Atlantis; namanya juga dipakai untuk pegunungan besar di Afrika Utara, Samudra Atlantik, dan kumpulan peta besar.",
+          "quote": "For Plato, he was the eponymous first king of Atlantis, and this giant of a god also gave his name to a huge mountain range in Northern Africa, the great Atlantic Ocean and any large collection of maps.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "atlas-c26",
+          "source_id": "atlas-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The story of Perseus turning Atlas into a mountain may go back to the 5th century BCE.",
+          "statement_id": "Kisah Atlas diubah menjadi gunung oleh Perseus mungkin berasal dari abad ke-5 SM.",
+          "quote": "This story may go back to the 5th century BCE.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "atlas-c27",
+          "source_id": "atlas-s3",
+          "host": "www.theoi.com",
+          "statement": "Telamon is a surname of Atlas describing him as the sufferer or bearer of heaven.",
+          "statement_id": "Telamon adalah nama julukan Atlas yang menggambarkannya sebagai penderita atau pemikul langit.",
+          "quote": "A surname of Atlas, describing him as the sufferer or bearer of heaven",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "cerberus",
-      "file": "batch-037.md",
+      "file": "batch-037-fix-2.md",
+      "entry_sha256": "ac9c8172d8afc6757ca156cfeb9e3d7a614a4b184b77743a828d441af1133b56",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 10,
-        "sources": 2,
+        "claims": 36,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 10 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cerberus-c01",
@@ -234,26 +405,281 @@
           "quote": "Once he had arrived in Hades, he used his lyre to bewitch Charon, Cerberus, and the three Judges of the Dead",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "cerberus-c11",
+          "source_id": "cerberus-s3",
+          "host": "www.theoi.com",
+          "statement": "Kerberos (Cerberus) was the gigantic three-headed hound of Haides that guarded the gates of the Underworld and prevented the shades of the dead from escaping.",
+          "statement_id": "Kerberos (Cerberus) adalah anjing raksasa berkepala tiga milik Haides yang menjaga gerbang dunia bawah dan mencegah arwah orang mati melarikan diri.",
+          "quote": "Kerberos (Cerberus) was the gigantic, three-headed hound of Haides which guarded the gates of the Underworld and prevented the escape of the shades of the dead.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c12",
+          "source_id": "cerberus-s3",
+          "host": "www.theoi.com",
+          "statement": "Kerberos was depicted as a three-headed dog with a serpent's tail, a mane of snakes and a lion's claws.",
+          "statement_id": "Kerberos digambarkan sebagai anjing berkepala tiga dengan ekor ular, surai ular, dan cakar singa.",
+          "quote": "Kerberos was depicted as a three-headed dog with a serpent's tail, mane of snakes, and a lion's claws.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c13",
+          "source_id": "cerberus-s3",
+          "host": "www.theoi.com",
+          "statement": "According to some he had fifty heads, although this count may have included the serpents of his mane.",
+          "statement_id": "Menurut sebagian sumber ia berkepala lima puluh, meski hitungan itu mungkin mencakup ular-ular di suraiannya.",
+          "quote": "According to some he had fifty heads although this count may have included the serpents of his mane.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c14",
+          "source_id": "cerberus-s3",
+          "host": "www.theoi.com",
+          "statement": "Heracles was sent to fetch Kerberos as one of his twelve labours, which he accomplished with the aid of the goddess Persephone.",
+          "statement_id": "Herakles diutus membawa Kerberos sebagai salah satu dari dua belas tugasnya, dan berhasil dengan bantuan dewi Persephone.",
+          "quote": "Herakles (Heracles) was sent to fetch Kerberos as one of his twelve labours, a task which he accomplished with the aid of the goddess Persephone.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c15",
+          "source_id": "cerberus-s3",
+          "host": "www.theoi.com",
+          "statement": "The name Kerberos perhaps means \"death-daemon of the dark\", from Ancient Greek words.",
+          "statement_id": "Nama Kerberos mungkin berarti \"daimon maut dari kegelapan\", dari kata-kata Yunani Kuno.",
+          "quote": "Kerberos' name perhaps means \"death-daemon of the dark\" from the Ancient Greek words",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c16",
+          "source_id": "cerberus-s3",
+          "host": "www.theoi.com",
+          "statement": "In Hesiod's Theogony the hound fawns on all who go in with its tail and ears, but will not let them go back out and eats them.",
+          "statement_id": "Dalam Theogony karya Hesiod, anjing itu menjilat setiap orang yang masuk dengan gerak ekor dan telinga, tetapi tidak membiarkan mereka keluar lagi dan memangsa mereka.",
+          "quote": "As people go in he fawns on all, with actions of his tail and both ears, but he will not let them go back out, but lies in wait for them and eats them up",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c17",
+          "source_id": "cerberus-s3",
+          "host": "www.theoi.com",
+          "statement": "Hesiod calls Kerberos unspeakable and unmanageable, the savage bronze-barking dog of Haides, fifty-headed, powerful and without pity.",
+          "statement_id": "Hesiod menyebut Kerberos tak terkatakan dan tak terkendali, anjing Haides yang ganas, berkepala lima puluh, kuat, dan tanpa belas kasihan.",
+          "quote": "the unspeakable, unmanageable Kerberos (Cerberus), the savage, the bronze-barking dog of Haides, fifty-headed, and powerful, and without pity.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c18",
+          "source_id": "cerberus-s3",
+          "host": "www.theoi.com",
+          "statement": "Pseudo-Apollodorus says Kerberos had three dog-heads, a serpent for a tail, and along his back the heads of all kinds of snakes.",
+          "statement_id": "Pseudo-Apollodorus menyebut Kerberos berkepala tiga anjing, berekor ular, dan di sepanjang punggungnya terdapat kepala segala jenis ular.",
+          "quote": "Kerberos had three dog-heads, a serpent for a tail, and along his back the heads of all kinds of snakes.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c19",
+          "source_id": "cerberus-s3",
+          "host": "www.theoi.com",
+          "statement": "According to Pseudo-Apollodorus, Heracles found Kerberos at the gates of Acheron, covered by the lion's skin, threw his arms round its head and held on despite bites from the serpent tail until the beast yielded to his choke-hold.",
+          "statement_id": "Menurut Pseudo-Apollodorus, Herakles menemukan Kerberos di gerbang Akheron, berlindung di balik kulit singa, memeluk kepalanya dan bertahan meski digigit ekor ular sampai binatang itu menyerah oleh cekikannya.",
+          "quote": "He found Kerberos at the gates of Akheron (Acheron), and there, pressed inside his armour and totally covered by the lion's skin, he threw his arms round its head and hung on, despite bites from the serpent-tail, until he convinced the beast with his choke-hold.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c20",
+          "source_id": "cerberus-s3",
+          "host": "www.theoi.com",
+          "statement": "In Virgil's Aeneid the Sibyl throws a honey-and-wheat cake infused with sedative drugs as bait, and the hungry creature opens its three mouths and gobbles it.",
+          "statement_id": "Dalam Aeneid karya Virgil, sang Sibyl melemparkan kue madu dan gandum yang dicampur obat penenang sebagai umpan; makhluk yang lapar itu membuka tiga mulutnya dan melahapnya.",
+          "quote": "The Sibyl, seeing the snakes bristling upon his neck now, threw him for bait a cake for honey and wheat infused with sedative drugs. The creature, crazy with hunger, opened its three mouths, gobbled the bait",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c21",
+          "source_id": "cerberus-s3",
+          "host": "www.theoi.com",
+          "statement": "According to the dictionary reproduced by Theoi, Hesiod first gives his name and origin and calls him fifty-headed, while later writers describe him with only three heads, a serpent tail and a mane of snake heads.",
+          "statement_id": "Menurut kamus yang dimuat Theoi, Hesiod pertama memberinya nama dan asal-usul dan menyebutnya berkepala lima puluh, sedangkan penulis kemudian menggambarkannya hanya berkepala tiga dengan ekor ular dan surai kepala berbagai ular.",
+          "quote": "Hesiod, who is the first that gives his name and origin, calls him (Theog. 311) fifty-headed and a son of Typhaon and Echidna. Later writers describe him as a monster with only three heads, with the tail of a serpent and a mane consisting of the heads of various snakes.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c22",
+          "source_id": "cerberus-s3",
+          "host": "www.theoi.com",
+          "statement": "In Virgil's Georgics, Cerberus stood agape and his triple jaws forgot to bark as Orpheus sang.",
+          "statement_id": "Dalam Georgics karya Virgil, Cerberus ternganga dan tiga rahangnya lupa menggonggong ketika Orpheus bernyanyi.",
+          "quote": "Cerberus stood agape and his triple jaws forgot to bark.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c23",
+          "source_id": "cerberus-s3",
+          "host": "www.theoi.com",
+          "statement": "Diodorus Siculus writes that Heracles received the dog Kerberos in chains, carried him away and exhibited him to men.",
+          "statement_id": "Diodorus Siculus menulis bahwa Herakles menerima anjing Kerberos dalam rantai, membawanya pergi dan memamerkannya kepada manusia.",
+          "quote": "receiving the dog Kerberos in chains he carried him away to the amazement of all and exhibited him to men",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c24",
+          "source_id": "cerberus-s3",
+          "host": "www.theoi.com",
+          "statement": "Theoi notes that in Homer the dog is simply called \"the hound of Haides\", and Hesiod is the first author to give it the name Kerberos.",
+          "statement_id": "Catatan Theoi: pada Homer anjing itu hanya disebut \"anjing Haides\"; Hesiod penulis pertama yang memberinya nama Kerberos.",
+          "quote": "in Homer the dog is just called \"the hound of Haides.\" Hesiod is the first author to give it the name Kerberos (Cerberus).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c25",
+          "source_id": "cerberus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Anubis is described as the Egyptian counterpart of Cerberus; both had the head of a dog and guarded the underworld.",
+          "statement_id": "Anubis disebut sebagai padanan Mesir bagi Cerberus; keduanya berkepala anjing dan menjaga dunia bawah.",
+          "quote": "Anubis is the Egyptian counterpart of Cerberus. Like Cerberus, he had the head of a dog and guarded the underworld.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c26",
+          "source_id": "cerberus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Cerberus guarded the underworld, letting in those who had crossed the River Styx but preventing the living from entering by devouring them.",
+          "statement_id": "Cerberus menjaga dunia bawah: membiarkan masuk mereka yang telah menyeberangi Sungai Styx, tetapi mencegah orang hidup masuk dengan memangsa mereka.",
+          "quote": "Cerberus guarded the underworld, allowing those who had already crossed the River Styx to enter but preventing the living from setting foot in the underworld by devouring them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c27",
+          "source_id": "cerberus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hercules is described as the only Greek hero to defeat Cerberus physically.",
+          "statement_id": "Hercules disebut satu-satunya pahlawan Yunani yang mengalahkan Cerberus secara fisik.",
+          "quote": "Hercules was the only Greek hero to defeat Cerberus physically.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c28",
+          "source_id": "cerberus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The nymph Psyche used honey cakes to placate the vicious dog so she could collect a box from Persephone.",
+          "statement_id": "Nimfa Psyche memakai kue madu untuk menenangkan anjing buas itu agar dapat mengambil sebuah kotak dari Persephone.",
+          "quote": "The nymph Psyche used honey cakes to placate the vicious dog so she could collect a box from Persephone",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c29",
+          "source_id": "cerberus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the Theseus story the wine was poisoned with wolfsbane, which sprang from Cerberus's deadly saliva scattered over the earth after Hercules dragged him out of Hades.",
+          "statement_id": "Dalam kisah Theseus, anggur beracun berisi wolfsbane, tanaman yang tumbuh dari air liur mematikan Cerberus yang tercecer ke bumi setelah Hercules menyeretnya keluar dari Hades.",
+          "quote": "this wine was poisoned with wolfsbane, which had sprung into existence from Cerberus' deadly saliva that was scattered over the earth after Hercules had dragged him out of Hades.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c30",
+          "source_id": "cerberus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The now-obsolete Cerberus constellation was named in 1690 by the Polish astronomer Johannes Hevelius.",
+          "statement_id": "Rasi bintang Cerberus yang kini usang dinamai pada 1690 oleh astronom Polandia Johannes Hevelius.",
+          "quote": "The now-obsolete Cerberus constellation was discovered and named in 1690 by the Polish astronomer Johannes Hevelius (1611-1687).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c31",
+          "source_id": "cerberus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The French naturalist Georges Cuvier named a genus of Asian snakes Cerberus in 1829.",
+          "statement_id": "Naturalis Prancis Georges Cuvier menamai satu genus ular Asia Cerberus pada 1829.",
+          "quote": "The French naturalist Georges Cuvier (1769-1832) named a genus of Asian snakes Cerberus in 1829.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c32",
+          "source_id": "cerberus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Theseus and Pirithous were trapped in the chair of Forgetfulness and attacked by Cerberus and the Furies while Hades looked on.",
+          "statement_id": "Theseus dan Pirithous terjebak di kursi Kelupaan, lalu diserang Cerberus dan para Furies sementara Hades menonton.",
+          "quote": "Unbeknownst to Theseus and Pirithous, Hades had instructed them to sit in the chair of Forgetfulness. They became trapped as Cerberus and the Furies attacked them, and Hades looked on.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c33",
+          "source_id": "cerberus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hecataeus of Miletus (c. 550 to c. 476 BCE) believed Cerberus was called the Hound of Hades because a deadly serpent bred at Tainaron (Cape Matapan).",
+          "statement_id": "Hecataeus dari Miletos (sekitar 550-476 SM) berpendapat Cerberus disebut Anjing Hades karena seekor ular mematikan berkembang biak di Tainaron (Tanjung Matapan).",
+          "quote": "Hecataeus of Miletus (c. 550 to c. 476 BCE) believed Cerberus was called the Hound of Hades because a deadly serpent was bred at Tainaron (Cape Matapan).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c34",
+          "source_id": "cerberus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Cerberus was the brother of other fearsome creatures, including the two-headed dog Orthos and the Lernaean Hydra.",
+          "statement_id": "Cerberus adalah saudara makhluk mengerikan lain, termasuk anjing berkepala dua Orthos dan Hydra Lerna.",
+          "quote": "In addition, he was the brother of other fearsome creatures, including the two-headed dog Orthos and the Lernaean Hydra (a water serpent).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c35",
+          "source_id": "cerberus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Cerberus's name is first mentioned in Hesiod's Theogony (c. 700 BCE).",
+          "statement_id": "Nama Cerberus pertama kali disebut dalam Theogony karya Hesiod (sekitar 700 SM).",
+          "quote": "Cerberus' name is first mentioned in Hesiod's (c. 700 BCE) Theogony.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cerberus-c36",
+          "source_id": "cerberus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "One of the most famous depictions of Cerberus in Greek art is on the Perseus vase in the Louvre Museum, showing Hercules holding Cerberus on a red leash.",
+          "statement_id": "Salah satu penggambaran Cerberus yang paling terkenal dalam seni Yunani ada pada vas Perseus di Museum Louvre, yang menunjukkan Hercules menahan Cerberus dengan tali kekang merah.",
+          "quote": "One of the most famous depictions of Cerberus in Greek art can be found on the Perseus vase, which is currently on display in the Louvre Museum. It shows Hercules holding Cerberus on a red leash.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "fairy",
-      "file": "batch-037.md",
+      "file": "batch-037-fix-2.md",
+      "entry_sha256": "a9397ed1e1dc6afe248c0b46116425db52c7c980cc9c93b6bf8914041dbcf60f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 3,
+        "claims": 32,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 9 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "fairy-c01",
@@ -279,8 +705,8 @@
           "id": "fairy-c03",
           "source_id": "fairy-s2",
           "host": "www.folklore-society.com",
-          "statement": "Fairy size and type vary among local stories.",
-          "statement_id": "Ukuran dan jenis fairy berbeda menurut kisah setempat.",
+          "statement": "Fairies are split between numerous local species, from full-sized Scottish elf-queens to small, wizened male house fairies.",
+          "statement_id": "Fairy terbagi dalam banyak jenis lokal, dari ratu elf Skotlandia berukuran penuh sampai peri rumah laki-laki yang kecil dan keriput.",
           "quote": "Split between numerous local species, ranging from full-sized Scottish elf-queens to small, wizened male house fairies, they share a number of common characteristics.",
           "context": "scholarly-interpretation",
           "status": "exact"
@@ -339,9 +765,239 @@
           "id": "fairy-c09",
           "source_id": "fairy-s1",
           "host": "en.wikisource.org",
-          "statement": "Some Irish and Scottish fairies are described as ordinary human size.",
-          "statement_id": "Sebagian peri Irlandia dan Skotlandia digambarkan setinggi manusia biasa.",
+          "statement": "The \"people of peace\" (Daoine Shie) of Ireland and Scotland are usually of ordinary stature and not recognisable as differing from mankind except by their proceedings.",
+          "statement_id": "Daoine Shie (\"people of peace\") Irlandia dan Skotlandia biasanya berukuran biasa dan tidak dapat dibedakan dari manusia kecuali dari tindakan mereka.",
           "quote": "The “people of peace” (Daoine Shie) of Ireland and Scotland are usually of ordinary stature, indeed not to be recognized as varying from mankind except by their proceedings",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c10",
+          "source_id": "fairy-s1",
+          "host": "en.wikisource.org",
+          "statement": "The 1911 Britannica traces the word fairy (and its cognates fée, fada, hada, fata) to Medieval Latin fatare, \"to enchant\", from Latin fatum, fate or destiny.",
+          "statement_id": "Britannica 1911 menelusuri kata fairy (dan padanannya fée, fada, hada, fata) ke bahasa Latin Abad Pertengahan fatare, \"memikat\", dari Latin fatum, nasib.",
+          "quote": "Med. Lat. fatare, to enchant, from Lat. fatum, fate, destiny",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c11",
+          "source_id": "fairy-s1",
+          "host": "en.wikisource.org",
+          "statement": "Andrew Lang judges fairies the most beautiful, most numerous and most memorable in literature of the minor creatures of mythology.",
+          "statement_id": "Andrew Lang menilai fairy sebagai makhluk kecil mitologi yang paling indah, paling banyak, dan paling berkesan dalam sastra.",
+          "quote": "Of all the minor creatures of mythology the Fairies are the most beautiful, the most numerous, the most memorable in literature.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c12",
+          "source_id": "fairy-s1",
+          "host": "en.wikisource.org",
+          "statement": "In Irish belief, fairies dwell in the \"raths\", old earth-forts, and in subterranean houses, which are also common in Scotland.",
+          "statement_id": "Dalam kepercayaan Irlandia, fairy tinggal di \"raths\", benteng tanah tua, dan di rumah bawah tanah yang juga umum di Skotlandia.",
+          "quote": "Here they dwell in the \"raths,\" old earth-forts, or earthen bases of later palisaded dwellings of the Norman period, and in the subterranean houses, common also in Scotland.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c13",
+          "source_id": "fairy-s1",
+          "host": "en.wikisource.org",
+          "statement": "Irish fairies are described as an organized people, often called \"the army\", whose life corresponds to human life in all particulars.",
+          "statement_id": "Fairy Irlandia digambarkan sebagai bangsa yang terorganisasi, sering disebut \"pasukan\", dengan kehidupan yang sejajar dengan kehidupan manusia dalam segala hal.",
+          "quote": "They are an organized people, often called \"the army,\" and their life corresponds to human life in all particulars.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c14",
+          "source_id": "fairy-s1",
+          "host": "en.wikisource.org",
+          "statement": "A living human being must not eat in Fairyland; if he does, he dwells there for ever.",
+          "statement_id": "Manusia hidup tidak boleh makan di negeri peri; jika makan, ia tinggal di sana selamanya.",
+          "quote": "a living human being must not eat in Fairyland; if he does, he dwells there for ever.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c15",
+          "source_id": "fairy-s1",
+          "host": "en.wikisource.org",
+          "statement": "In one report, neighbours said fairies caused flying stones because the man had swept his chimney with a bough of holly, \"a gentle tree\" dear to the fairies.",
+          "statement_id": "Dalam satu laporan, tetangga menyebut fairy menyebabkan lemparan batu karena si pemilik rumah menyapu cerobong dengan ranting holly, pohon \"lembut\" yang disayangi fairy.",
+          "quote": "The neighbours said that the Fairies caused the phenomenon, as the man had swept his chimney with a bough of holly, and the holly is \"a gentle tree,\" dear to the Fairies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c16",
+          "source_id": "fairy-s1",
+          "host": "en.wikisource.org",
+          "statement": "In Ireland and the West Highlands, Neolithic arrow-heads and flint chips are still regarded as fairy weapons.",
+          "statement_id": "Di Irlandia dan Dataran Tinggi Barat, mata panah Neolitik dan serpihan batu api masih dianggap senjata fairy.",
+          "quote": "In Ireland and the West Highlands Neolithic arrow-heads and flint chips are still fairy weapons.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c17",
+          "source_id": "fairy-s1",
+          "host": "en.wikisource.org",
+          "statement": "Lang writes that the nearest analogy to the form of the belief in Scotland and Ireland, and the \"pixies\" of south-western England, is found in the jān or jinn of Arabs, Moors and people of Palestine.",
+          "statement_id": "Lang menulis bahwa padanan terdekat bentuk kepercayaan ini di Skotlandia dan Irlandia, serta \"pixies\" Inggris barat daya, ada pada jān atau jin orang Arab, Moor, dan Palestina.",
+          "quote": "the nearest analogy to the shape which it takes in Scotland and Ireland—the \"pixies\" of south-western England—is to be found in Jān or Jinnis of the Arabs, Moors and people of Palestine.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c18",
+          "source_id": "fairy-s1",
+          "host": "en.wikisource.org",
+          "statement": "Lang concludes that fairies and jān are practically identical.",
+          "statement_id": "Lang menyimpulkan bahwa fairy dan jān praktis identik.",
+          "quote": "It is plain that Fairies and Jān are practically identical",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c19",
+          "source_id": "fairy-s1",
+          "host": "en.wikisource.org",
+          "statement": "Fairies entered the poetry of the Middle Ages; they take lovers from among men and are often described as delicately, unearthly beautiful.",
+          "statement_id": "Fairy masuk ke puisi Abad Pertengahan; mereka mengambil kekasih dari kalangan manusia dan sering dilukiskan sangat indah dan tak berbau duniawi.",
+          "quote": "Fairies naturally won their way into the poetry of the Middle Ages. They take lovers from among men, and are often described as of delicate, unearthly, ravishing beauty.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c20",
+          "source_id": "fairy-s1",
+          "host": "en.wikisource.org",
+          "statement": "In the tale of Melusine, the fay built the Castle of Lusignan by enchantment for her husband and each week took the form of a serpent from the waist down.",
+          "statement_id": "Dalam kisah Melusine, fay itu membangun Kastil Lusignan dengan sihir untuk suaminya dan setiap pekan berubah menjadi ular dari pinggang ke bawah.",
+          "quote": "as in the notable tale of Melusine. This fay by enchantment built the Castle of Lusignan for her husband. It was her nature to take every week the form of a serpent from the waist below.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c21",
+          "source_id": "fairy-s1",
+          "host": "en.wikisource.org",
+          "statement": "The fairies of medieval romance differ little from human beings except in supernatural knowledge and power, and are not often shown as diminutive.",
+          "statement_id": "Fairy dalam roman Abad Pertengahan sedikit berbeda dari manusia kecuali pengetahuan dan kekuatan gaibnya, dan jarang digambarkan bertubuh kecil.",
+          "quote": "There seems little in the characteristics of these Fairies of romance to distinguish them from human beings, except their supernatural knowledge and power. They are not often represented as diminutive in stature",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c22",
+          "source_id": "fairy-s1",
+          "host": "en.wikisource.org",
+          "statement": "Lang mentions fairy women who come to the births of children and foretell their fortunes.",
+          "statement_id": "Lang menyebut adanya perempuan fairy yang datang pada kelahiran anak dan meramalkan nasibnya.",
+          "quote": "The fairy women who come to the births of children and foretell their fortunes",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c23",
+          "source_id": "fairy-s1",
+          "host": "en.wikisource.org",
+          "statement": "Lang mentions the theory that fairies survive from prehistoric memories of a pigmy people in subterranean earth-houses, but notes the contents of these do not point to an age before the close of the Roman occupation of Britain.",
+          "statement_id": "Lang menyebut teori bahwa fairy berasal dari ingatan prasejarah tentang bangsa kerdil penghuni rumah bawah tanah, tetapi isi rumah-rumah itu tidak menunjukkan zaman sebelum berakhirnya pendudukan Romawi di Britania.",
+          "quote": "It is a not uncommon theory that the Fairies survive in legend from prehistoric memories of a pigmy people dwelling in the subterranean earth-houses, but the contents of these do not indicate an age prior to the close of the Roman occupation of Britain",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c24",
+          "source_id": "fairy-s1",
+          "host": "en.wikisource.org",
+          "statement": "Gervaise of Tilbury, writing in the early 13th century in his Otia Imperialia, reports that men have been lovers of beings they call fadas.",
+          "statement_id": "Gervaise dari Tilbury, menulis pada awal abad ke-13 dalam Otia Imperialia, menyatakan bahwa ada manusia yang menjadi kekasih makhluk yang mereka sebut fadas.",
+          "quote": "Gervaise of Tilbury, writing early in the 13th century, has in his Otia Imperialia a chapter, De lamiis et nocturnis larvis, where he gives it out, as proved by individuals beyond all exception, that men have been lovers of beings of this kind whom they call fadas",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c25",
+          "source_id": "fairy-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Keightley divides the beings called fairies into two classes; the first are beings of the human race endowed with powers beyond those usually allotted to men, whom he terms fays, or fairies of romance.",
+          "statement_id": "Keightley membagi makhluk bernama fairy menjadi dua golongan; golongan pertama adalah makhluk dari ras manusia dengan kekuatan melampaui manusia biasa, yang disebutnya fays atau fairy roman.",
+          "quote": "The first, beings of the human race, but endowed with powers beyond those usually allotted to men, whom we shall term Fays, or Fairies of Romance.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c26",
+          "source_id": "fairy-s4",
+          "host": "www.gutenberg.org",
+          "statement": "The second class, in Keightley's scheme, are the little beings of popular creeds, whose descent he proposes to trace from the Duergar or dwarfs of Northern mythology, and whom he calls elves or popular fairies.",
+          "statement_id": "Golongan kedua menurut Keightley adalah makhluk kecil dalam kepercayaan rakyat, yang ia usulkan berasal dari Duergar atau kurcaci mitologi Nordik, dan disebutnya elf atau fairy rakyat.",
+          "quote": "The second, those little beings of the popular creeds, whose descent we propose to trace from the cunning and ingenious Duergar or Dwarfs of Northern Mythology, and whom we shall denominate Elves or popular Fairies.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c27",
+          "source_id": "fairy-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Keightley concludes that the root of the Romance words fée, fada, hada and fata is the Latin fatum.",
+          "statement_id": "Keightley menyimpulkan bahwa akar kata fée, fada, hada, dan fata dalam bahasa-bahasa Roman adalah kata Latin fatum.",
+          "quote": "The root is evidently, we think, the Latin fatum.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c28",
+          "source_id": "fairy-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Keightley writes that no theory is so plausible, or supported by such names, as the one deriving English fairy from Persian peri.",
+          "statement_id": "Keightley menulis bahwa tidak ada teori yang sepopuler atau sekuat dukungan nama-namanya seperti yang menurunkan kata Inggris fairy dari peri Persia.",
+          "quote": "no theory is so plausible, or is supported by such names, as that which deduces the English fairy from the Persian peri.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c29",
+          "source_id": "fairy-s4",
+          "host": "www.gutenberg.org",
+          "statement": "The word came to mean the individual inhabitant of Fairy-land, applied both to the full-sized fairy knights and ladies of romance and to the pygmy elves of woods and dells.",
+          "statement_id": "Kata fairy akhirnya berarti penghuni negeri peri secara individual, dan dipakai baik untuk ksatria serta putri fairy berukuran penuh dalam roman maupun elf kerdil yang menghuni hutan dan lembah.",
+          "quote": "the word came to signify the individual denizen of Fairy-land, and was equally applied to the full-sized fairy knights and ladies of romance, and to the pygmy elves that haunt the woods and dells.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c30",
+          "source_id": "fairy-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Keightley writes that such beings generally excel mankind in power and knowledge and, like humans, are subject to death, though after a longer span of existence.",
+          "statement_id": "Keightley menulis bahwa makhluk-makhluk semacam ini umumnya melebihi manusia dalam kekuatan dan pengetahuan, dan seperti manusia tunduk pada kematian, meski setelah umur yang lebih panjang.",
+          "quote": "They generally excel mankind in power and in knowledge, and like them are subject to the inevitable laws of death, though after a more prolonged period of existence.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c31",
+          "source_id": "fairy-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Keightley writes that after the appearance of the Faerie Queene all distinctions were confounded and the name and attributes of the fays of romance were transferred to the little beings.",
+          "statement_id": "Keightley menulis bahwa setelah terbitnya Faerie Queene, semua pembedaan menjadi kabur dan nama serta sifat fay roman dialihkan sepenuhnya kepada makhluk-makhluk kecil.",
+          "quote": "After the appearance of the Faerie Queene, all distinctions were confounded, the name and attributes of the real Fays or Fairies of romance were completely transferred to the little beings",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "fairy-c32",
+          "source_id": "fairy-s1",
+          "host": "en.wikisource.org",
+          "statement": "Lang writes that the herb rue is potent against the jān, as in British folk-lore.",
+          "statement_id": "Lang menulis bahwa tanaman rue ampuh melawan jān, seperti dalam cerita rakyat Britania.",
+          "quote": "The herb rue is potent against them, as in British folk-lore",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -350,18 +1006,19 @@
     },
     {
       "slug": "griffin",
-      "file": "batch-037-fix-1.md",
+      "file": "batch-037-fix-2.md",
+      "entry_sha256": "ee060e846c9a2bac1e67207e2733c3b16bd87ad2ca057eb3fb1cb6fcc9b428db",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 3,
+        "claims": 34,
+        "sources": 4,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 9 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "4 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -413,9 +1070,8 @@
           "statement_id": "Griffin menjadi motif hias yang disukai pada perunggu Yunani kuno.",
           "quote": "The griffin—a fantastic beast with the body of a lion and the head of an eagle—and the sphinx—with a feline body and a human head—were favorite motifs",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260614192055id_/https://www.metmuseum.org/essays/ancient-greek-bronze-vessels",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "griffin-c06",
@@ -425,9 +1081,8 @@
           "statement_id": "Pada kaki takhta yang dicatat The Met, griffin melambangkan kekuasaan kerajaan.",
           "quote": "The griffin on this throne leg exemplifies the use of powerful winged animals (real and imaginary) as symbols of royalty.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260420030018id_/https://www.metmuseum.org/art/collection/search/452270",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "griffin-c07",
@@ -437,9 +1092,8 @@
           "statement_id": "Motif griffin telah muncul dalam seni Mesir dan Timur Tengah sekitar 3000 SM.",
           "quote": "The mythical beast’s long history stretches back to about 3000 B.C., when it appeared in the art of Egypt and the Middle East",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260420030018id_/https://www.metmuseum.org/art/collection/search/452270",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "griffin-c08",
@@ -449,9 +1103,8 @@
           "statement_id": "Di Iran pra-Islam, griffin dipandang sebagai lambang kenaikan status.",
           "quote": "In pre-Islamic Iran the griffin—a combination of lion and eagle, two animals associated with the sun—was seen as a vehicle of ascension",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260420030018id_/https://www.metmuseum.org/art/collection/search/452270",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "griffin-c09",
@@ -462,26 +1115,271 @@
           "quote": "Grypas are beasts like lions, but with the beak and wings of an eagle.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "griffin-c10",
+          "source_id": "griffin-s1",
+          "host": "www.theoi.com",
+          "statement": "In Aeschylus's Prometheus Bound, Prometheus warns Io to beware of the \"sharp-beaked hounds of Zeus that do not bark\", the griffins.",
+          "statement_id": "Dalam Prometheus Bound karya Aeschylus, Prometheus memperingatkan Io agar waspada terhadap \"anjing-anjing Zeus berparuh tajam yang tidak menggonggong\", yaitu para griffin.",
+          "quote": "Beware of the sharp-beaked hounds of Zeus that do not bark, the Grypes (Griffins)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c11",
+          "source_id": "griffin-s1",
+          "host": "www.theoi.com",
+          "statement": "Herodotus writes that it is said one-eyed men called Arimaspoi steal the gold from griffins.",
+          "statement_id": "Herodotus menulis bahwa konon orang bermata satu bernama Arimaspoi mencuri emas dari para griffin.",
+          "quote": "it is said that one-eyed men called Arimaspoi (Arimaspians) steal it from Grypes (Griffins)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c12",
+          "source_id": "griffin-s1",
+          "host": "www.theoi.com",
+          "statement": "Herodotus relays Aristeas's poem: beyond the Issedones live the one-eyed Arimaspoi, beyond them the gold-guarding griffins, and beyond these the Hyperboreans.",
+          "statement_id": "Herodotus mengutip puisi Aristeas: di luar bangsa Issedones hidup Arimaspoi bermata satu, di luar mereka griffin penjaga emas, dan di luar itu bangsa Hyperborea.",
+          "quote": "beyond these (he said) live the one-eyed Arimaspoi (Arimaspians), beyond whom are the Grypes (Griffins) that guard gold, and beyond these again the Hyperboreoi (Hyperboreans)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c13",
+          "source_id": "griffin-s1",
+          "host": "www.theoi.com",
+          "statement": "The dictionary reproduced by Theoi describes the griffin as a fabulous bird-like animal dwelling in the Rhipaean mountains, between the Hyperboreans and the one-eyed Arimaspians, guarding the gold of the north.",
+          "statement_id": "Kamus yang dimuat Theoi menggambarkan griffin sebagai jenis hewan fantastis mirip burung yang tinggal di Pegunungan Rhipaia, di antara bangsa Hyperborea dan Arimaspian bermata satu, menjaga emas utara.",
+          "quote": "a fabulous, bird-like species of animals, dwelling in the Rhipaean mountains, between the Hyperboreans and the one-eyed Arimaspians, and guarding the gold of the north.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c14",
+          "source_id": "griffin-s1",
+          "host": "www.theoi.com",
+          "statement": "The dictionary suggests the origin of the belief in griffins must be sought in the East, where it seems to have been very ancient.",
+          "statement_id": "Kamus itu berpendapat bahwa asal kepercayaan pada griffin perlu dicari di Timur, tempat kepercayaan ini tampaknya sangat tua.",
+          "quote": "This monstrous conception suggests that the origin of the belief in griffins must be looked for in the East, where it seems to have been very ancient.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c15",
+          "source_id": "griffin-s1",
+          "host": "www.theoi.com",
+          "statement": "According to the dictionary, the mounted Arimaspians tried to steal the gold, and hence arose the hostility between the horse and the griffin.",
+          "statement_id": "Menurut kamus itu, Arimaspian berkuda mencoba mencuri emas, dan dari situ timbul permusuhan antara kuda dan griffin.",
+          "quote": "attempted to steal the gold, and hence arose the hostility between the horse and the griffin.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c16",
+          "source_id": "griffin-s1",
+          "host": "www.theoi.com",
+          "statement": "Herodotus writes that the Samians made a bronze vessel like an Argolic cauldron with griffins' heads projecting all around its rim.",
+          "statement_id": "Herodotus menulis bahwa orang Samos membuat bejana perunggu seperti kuali Argos dengan kepala griffin menonjol di sekeliling bibirnya.",
+          "quote": "the Samians took six talents, a tenth of their profit, and made a bronze vessel with it, like an Argolic cauldron, with grypes' (griffins') heads projecting from the rim all around",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c17",
+          "source_id": "griffin-s1",
+          "host": "www.theoi.com",
+          "statement": "Aelian writes that the Indian animal called the grupa (griffin) is a quadruped like a lion with enormously strong claws resembling a lion's.",
+          "statement_id": "Aelian menulis bahwa hewan India bernama grupa (griffin) adalah berkaki empat seperti singa dengan cakar yang sangat kuat menyerupai cakar singa.",
+          "quote": "I have heard that the Indian animal the Grupa (Gryphon, Griffin) is a quadraped like a lion; that it has claws of enormous strength and that they resemble those of a lion.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c18",
+          "source_id": "griffin-s1",
+          "host": "www.theoi.com",
+          "statement": "Aelian writes that griffins fight other beasts and overcome them without difficulty, but will not face the lion or the elephant.",
+          "statement_id": "Aelian menulis bahwa griffin bertarung dengan hewan lain dan mengalahkannya tanpa kesulitan, tetapi tidak mau menghadapi singa atau gajah.",
+          "quote": "They engage too with other beasts and overcome them without difficulty, but they will not face the Lion or the Elephant.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c19",
+          "source_id": "griffin-s1",
+          "host": "www.theoi.com",
+          "statement": "According to Ctesias, the griffins of India are four-footed birds as large as a wolf, with lion-like legs and claws, red breast feathers and black feathers on the rest of the body.",
+          "statement_id": "Menurut Ctesias, griffin India adalah burung berkaki empat sebesar serigala, dengan kaki dan cakar menyerupai singa, bulu dada merah, dan bulu tubuh lainnya hitam.",
+          "quote": "These are four-footed birds as large as a wolf, their legs and claws resembling those of a lion; their breast feathers are red, those of the rest of the body black.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c20",
+          "source_id": "griffin-s1",
+          "host": "www.theoi.com",
+          "statement": "Pausanias writes that he has heard griffins have spots like the leopard.",
+          "statement_id": "Pausanias menulis pernah mendengar bahwa griffin berbintik seperti macan tutul.",
+          "quote": "I have also heard that Gryphoi (Griffins) have spots like the leopard.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c21",
+          "source_id": "griffin-s1",
+          "host": "www.theoi.com",
+          "statement": "In Philostratus's Life of Apollonius of Tyana, griffins are venerated as sacred to Helios the Sun, and Indian artists yoke four of them abreast to draw images of Helios.",
+          "statement_id": "Dalam Life of Apollonius of Tyana, griffin dihormati sebagai hewan suci bagi Helios sang Matahari, dan seniman India menggambarkan empat ekor menarik citra Helios.",
+          "quote": "and are held in veneration as being sacred to Helios the Sun; and the Indian artists, when they represent Helios, yoke four of them abreast to draw the images",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c22",
+          "source_id": "griffin-s1",
+          "host": "www.theoi.com",
+          "statement": "According to Philostratus, griffins resemble lions in size and strength but have wings, and they get the better of elephants and drakones (dragon-serpents).",
+          "statement_id": "Menurut Philostratus, griffin menyerupai singa dalam ukuran dan kekuatan tetapi bersayap, dan mereka mengalahkan gajah serta drakones (ular naga).",
+          "quote": "in size and strength they resemble lions but having this advantage over them that they have wings, they will attack them, and they get the better of elephants and of drakones (dragon-serpents).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c23",
+          "source_id": "griffin-s1",
+          "host": "www.theoi.com",
+          "statement": "Philostratus writes that griffins have no great power of flying, no more than birds of short flight.",
+          "statement_id": "Philostratus menulis bahwa griffin tidak punya kemampuan terbang yang besar, tidak lebih dari burung yang terbang jarak pendek.",
+          "quote": "they have no great power of flying, not more than have birds of short flight",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c24",
+          "source_id": "griffin-s1",
+          "host": "www.theoi.com",
+          "statement": "Philostratus writes that only the tiger is beyond the griffins' powers of attack, because in swiftness it rivals the winds.",
+          "statement_id": "Philostratus menulis bahwa hanya harimau yang berada di luar kemampuan serangan griffin, karena kecepatannya menyaingi angin.",
+          "quote": "the tiger alone is beyond their powers of attack, because in swiftness it rivals the winds.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c25",
+          "source_id": "griffin-s1",
+          "host": "www.theoi.com",
+          "statement": "Pliny writes that authorities report the Arimaspi wage continual war with the griffins, a winged wild beast said to dig gold from mines, which the creatures guard and the Arimaspi try to take.",
+          "statement_id": "Pliny menulis bahwa para penulis melaporkan Arimaspi terus berperang dengan griffin, binatang buas bersayap yang menurut kabar menggali emas dari tambang yang dijaga griffin dan hendak direbut Arimaspi.",
+          "quote": "write that these people wage continual war with the Grypes (Griffins), a kind of wild beast with wings, as commonly reported, that digs gold out of mines, which the creatures guard and the Arimaspi try to take from them",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c26",
+          "source_id": "griffin-s4",
+          "host": "en.wikisource.org",
+          "statement": "The 1911 Britannica says the griffin is represented with four legs, wings and a beak, the fore part like an eagle and the hinder like a lion; some writers describe the tail as a serpent.",
+          "statement_id": "Britannica 1911 menyebut griffin digambarkan berkaki empat, bersayap, dan berparuh, bagian depan menyerupai elang dan belakang singa; sebagian penulis menyebut ekornya ular.",
+          "quote": "represented with four legs, wings and a beak,—the fore part resembling an eagle and the hinder a lion. In addition, some writers describe the tail as a serpent.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c27",
+          "source_id": "griffin-s4",
+          "host": "en.wikisource.org",
+          "statement": "The griffin was supposed to watch over gold mines and hidden treasures, to be the enemy of the horse, and was consecrated to the sun; ancient painters showed the sun's chariot drawn by griffins.",
+          "statement_id": "Griffin dianggap menjaga tambang emas dan harta tersembunyi, menjadi musuh kuda, dan dikhususkan bagi matahari; pelukis kuno menggambarkan kereta matahari ditarik griffin.",
+          "quote": "This animal, which was supposed to watch over gold mines and hidden treasures, and to be the enemy of the horse, was consecrated to the sun; and the ancient painters represented the chariot of the sun as drawn by griffins.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c28",
+          "source_id": "griffin-s4",
+          "host": "en.wikisource.org",
+          "statement": "The griffin was said to inhabit Asiatic Scythia, where gold and precious stones were abundant; when strangers approached to gather them the creatures leapt upon and tore them to pieces.",
+          "statement_id": "Griffin dikatakan menghuni Skithia di Asia, tempat emas dan batu mulia melimpah; ketika orang asing mendekat untuk mengumpulkannya, makhluk ini menerkam dan mencabik mereka.",
+          "quote": "The griffin was said to inhabit Asiatic Scythia, where gold and precious stones were abundant; and when strangers approached to gather these the creatures leapt upon them and tore them in pieces, thus chastising human avarice and greed.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c29",
+          "source_id": "griffin-s4",
+          "host": "en.wikisource.org",
+          "statement": "Sir John de Mandeville, in his travels, described a griffin as eight times larger than a lion.",
+          "statement_id": "Sir John de Mandeville dalam perjalanannya menggambarkan griffin delapan kali lebih besar daripada singa.",
+          "quote": "Sir John de Mandeville, in his travels, described a griffin as eight times larger than a lion.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c30",
+          "source_id": "griffin-s4",
+          "host": "en.wikisource.org",
+          "statement": "In architectural decoration the griffin is usually shown as a four-footed winged beast with the head of a horned leopard or tiger, or with the head and beak of an eagle.",
+          "statement_id": "Dalam hiasan arsitektur, griffin biasanya digambarkan sebagai hewan berkaki empat bersayap dengan kepala macan tutul atau harimau bertanduk, atau dengan kepala dan paruh elang.",
+          "quote": "in architectural decoration is usually represented as a four-footed beast with wings and the head of a leopard or tiger with horns, or with the head and beak of an eagle",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c31",
+          "source_id": "griffin-s4",
+          "host": "en.wikisource.org",
+          "statement": "The 1911 Britannica says the \"griffin\" of Scripture is probably the osprey, and that the name is now given to a species of vulture.",
+          "statement_id": "Britannica 1911 menyebut \"griffin\" dalam kitab suci mungkin adalah burung osprey, dan nama itu kini dipakai untuk sejenis burung hering.",
+          "quote": "The griffin of Scripture is probably the osprey, and the name is now given to a species of vulture.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c32",
+          "source_id": "griffin-s4",
+          "host": "en.wikisource.org",
+          "statement": "The 1911 Britannica states it is not known to what extent the griffin owes its origin to Persian sculpture.",
+          "statement_id": "Britannica 1911 menyatakan belum diketahui sejauh mana asal griffin berutang pada seni pahat Persia.",
+          "quote": "to what extent it owes its origin to Persian sculpture is not known",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c33",
+          "source_id": "griffin-s1",
+          "host": "www.theoi.com",
+          "statement": "The dictionary records that griffin figures were frequently used as ornaments in works of art; the earliest recorded instance is the bronze patera the Samians ordered about 640 BCE.",
+          "statement_id": "Kamus itu mencatat bahwa gambar griffin sering dipakai sebagai hiasan karya seni; contoh tertua yang tercatat adalah patera perunggu yang dipesan orang Samos sekitar 640 SM.",
+          "quote": "The figures of Griffins were frequently employed as ornaments in works of art ... the earliest instance of which we have any record is the bronze patera, which the Samians ordered to be made about B. C. 640.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "griffin-c34",
+          "source_id": "griffin-s4",
+          "host": "en.wikisource.org",
+          "statement": "The 1911 Britannica derives the words griffin, griffon or gryphon from French griffon, Latin gryphus and Greek γρύψ.",
+          "statement_id": "Britannica 1911 menurunkan kata griffin, griffon, atau gryphon dari bahasa Prancis griffon, Latin gryphus, dan Yunani γρύψ.",
+          "quote": "Griffin, griffon or gryphon (from Fr. griffon, Lat. gryphus, Gr. γρύψ)",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "yeti",
-      "file": "batch-037-fix-1.md",
+      "file": "batch-037-fix-2.md",
+      "entry_sha256": "411e9640e8c50ad605576152c0269bfa8fd1348361894d90530fe975b69b8968",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 11,
-        "sources": 3,
+        "claims": 37,
+        "sources": 5,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 11 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "yeti-c01",
@@ -591,6 +1489,266 @@
           "statement_id": "Pemerintah Nepal pernah mengeluarkan aturan bagi ekspedisi pencarian Yeti.",
           "quote": "This prompted the government of Nepal to issue regulations for Yeti-hunting expeditions",
           "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c12",
+          "source_id": "yeti-s4",
+          "host": "en.wikipedia.org",
+          "statement": "The yeti is a large, hairy, mythical humanoid creature said to inhabit the Himalayan mountain range in Asia.",
+          "statement_id": "Yeti adalah makhluk mirip manusia yang besar, berbulu, dan mitos, yang dikatakan menghuni pegunungan Himalaya di Asia.",
+          "quote": "is a large, hairy, mythical humanoid creature said to inhabit the Himalayan mountain range in Asia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c13",
+          "source_id": "yeti-s4",
+          "host": "en.wikipedia.org",
+          "statement": "The yeti is often described as a large bipedal human- or ape-like creature covered with brown, grey or white hair, and sometimes with large sharp teeth.",
+          "statement_id": "Yeti sering digambarkan sebagai makhluk besar berkaki dua mirip manusia atau kera, berbulu cokelat, abu-abu, atau putih, dan kadang bergigi besar dan tajam.",
+          "quote": "The Yeti is often described as being a large, bipedal human or ape-like creature that is covered with brown, grey, or white hair, and it is sometimes depicted as having large, sharp teeth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c14",
+          "source_id": "yeti-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Folklorists trace the origin of the yeti to a combination of factors, including Sherpa folklore and misidentified fauna such as bear or yak.",
+          "statement_id": "Menurut para folklorist, asal Yeti merupakan gabungan beberapa faktor, termasuk cerita rakyat Sherpa dan fauna yang salah dikenali seperti beruang atau yak.",
+          "quote": "Folklorists trace the origin of the Yeti to a combination of factors, including Sherpa folklore and misidentified fauna such as bear or yak.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c15",
+          "source_id": "yeti-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Tibetan lore describes three main varieties of yeti: the black-furred nyalmo, the largest and fiercest (about fifteen feet tall); the chuti (about eight feet tall) living at 8,000-10,000 ft; and the reddish-brown rang shim bombo, only 3-5 ft tall.",
+          "statement_id": "Cerita Tibet menyebut tiga jenis utama yeti: nyalmo yang berbulu hitam, terbesar dan paling ganas (sekitar lima belas kaki), chuti (sekitar delapan kaki) yang hidup pada ketinggian 8.000-10.000 kaki, dan rang shim bombo yang berbulu cokelat kemerahan dan hanya setinggi 3-5 kaki.",
+          "quote": "Tibetan lore describes three main varieties of yetis—the nyalmo, which has black fur and is the largest and fiercest, standing around fifteen feet tall; the chuti, which stands around eight feet tall and lives between 8,000 and 10,000 ft (2,400 and 3,000 m) above sea level; and the rang shim bombo, which has reddish-brown fur and is only between 3 and 5 ft (0.91 and 1.52 m) tall.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c16",
+          "source_id": "yeti-s4",
+          "host": "en.wikipedia.org",
+          "statement": "The name \"abominable snowman\" was coined in 1921, the year Lieutenant-Colonel Charles Howard-Bury led the British Mount Everest reconnaissance expedition.",
+          "statement_id": "Nama \"abominable snowman\" diciptakan pada 1921, tahun Letnan Kolonel Charles Howard-Bury memimpin ekspedisi pengintaian Gunung Everest Inggris.",
+          "quote": "The name abominable snowman was coined in 1921, the year Lieutenant-Colonel Charles Howard-Bury led the 1921 British Mount Everest reconnaissance expedition",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c17",
+          "source_id": "yeti-s4",
+          "host": "en.wikipedia.org",
+          "statement": "The term \"abominable snowman\" began when Henry Newman interviewed the expedition's porters on their return to Darjeeling and mistranslated the word \"metoh\" as \"filthy\".",
+          "statement_id": "Istilah \"abominable snowman\" bermula ketika Henry Newman mewawancarai para porter ekspedisi sepulang ke Darjeeling dan salah menerjemahkan kata \"metoh\" sebagai \"kotor\".",
+          "quote": "The use of \"abominable snowman\" began when Henry Newman, a longtime contributor to The Statesman in Calcutta, writing under the pen name \"Kim\", interviewed the porters of the \"Everest Reconnaissance Expedition\" on their return to Darjeeling. Newman mistranslated the word \"Metoh\" as \"filthy\"",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c18",
+          "source_id": "yeti-s4",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, \"metoh\" translates as \"man-bear\" and \"kang-mi\" as \"snowman\".",
+          "statement_id": "Menurut Wikipedia, \"metoh\" berarti \"manusia-beruang\" dan \"kang-mi\" berarti \"manusia salju\".",
+          "quote": "\"Metoh\" translates as \"man-bear\" and \"kang-mi\" translates as \"snowman\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c19",
+          "source_id": "yeti-s4",
+          "host": "en.wikipedia.org",
+          "statement": "According to H. Siiger, the yeti was part of the pre-Buddhist beliefs of several Himalayan peoples.",
+          "statement_id": "Menurut H. Siiger, yeti merupakan bagian dari kepercayaan pra-Buddhis beberapa bangsa Himalaya.",
+          "quote": "According to H. Siiger, the Yeti was a part of the pre-Buddhist beliefs of several Himalayan peoples.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c20",
+          "source_id": "yeti-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Followers of the Bön religion once believed the blood of the \"Mi rgod\" or \"wild man\" was used in certain spiritual ceremonies; the being was depicted as ape-like, carrying a large stone as a weapon and making a whistling swoosh.",
+          "statement_id": "Penganut agama Bön dahulu percaya darah \"Mi rgod\" atau \"manusia liar\" berguna dalam upacara spiritual tertentu; makhluk itu digambarkan mirip kera, membawa batu besar sebagai senjata, dan menimbulkan suara desiran seperti bersiul.",
+          "quote": "followers of the Bön religion once believed the blood of the \"Mi rgod\" or \"wild man\" had use in certain spiritual ceremonies. The being was depicted as an ape-like creature who carries a large stone as a weapon and makes a whistling swoosh sound.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c21",
+          "source_id": "yeti-s4",
+          "host": "en.wikipedia.org",
+          "statement": "The yeti was adopted into Tibetan Buddhism as a nonhuman animal human enough to sometimes follow Dharma; several stories feature yetis as helpers and disciples to religious figures.",
+          "statement_id": "Yeti diserap ke dalam Buddhisme Tibet sebagai hewan bukan manusia yang cukup mirip manusia untuk kadang dapat mengikuti Dharma; beberapa kisah menampilkan yeti menjadi pembantu dan murid tokoh agama.",
+          "quote": "Yeti was adopted into Tibetan Buddhism, where it is considered a nonhuman animal (tiragyoni) that is nonetheless human enough to sometimes be able to follow Dharma. Several stories feature yetis becoming helpers and disciples to religious figures.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c22",
+          "source_id": "yeti-s4",
+          "host": "en.wikipedia.org",
+          "statement": "In Tibet, images of yetis are paraded and occasionally worshipped as guardians against evil spirits.",
+          "statement_id": "Di Tibet, gambar yeti diarak dan kadang dipuja sebagai pelindung dari roh jahat.",
+          "quote": "In Tibet, images of Yetis are paraded and occasionally worshipped as guardians against evil spirits.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c23",
+          "source_id": "yeti-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Because yetis sometimes act as enforcers of Dharma, hearing or seeing one is often considered a bad omen for which the witness must accumulate merit.",
+          "statement_id": "Karena yeti kadang bertindak sebagai penegak Dharma, mendengar atau melihatnya sering dianggap pertanda buruk, sehingga saksinya harus mengumpulkan pahala.",
+          "quote": "because Yetis sometimes act as enforcers of Dharma, hearing or seeing one is often considered a bad omen, for which the witness must accumulate merit.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c24",
+          "source_id": "yeti-s4",
+          "host": "en.wikipedia.org",
+          "statement": "In 1832 the Journal of the Asiatic Society of Bengal published B. H. Hodgson's account of northern Nepal: his guides spotted a tall bipedal creature with long dark hair that seemed to flee, which Hodgson concluded was an orangutan.",
+          "statement_id": "Pada 1832, jurnal Asiatic Society of Bengal menerbitkan catatan B. H. Hodgson tentang Nepal utara: pemandunya melihat makhluk tinggi berkaki dua berbulu panjang gelap yang tampak melarikan diri, yang menurut Hodgson adalah orangutan.",
+          "quote": "In 1832, James Prinsep's Journal of the Asiatic Society of Bengal published trekker B. H. Hodgson's account of his experiences in northern Nepal. His local guides spotted a tall bipedal creature covered with long dark hair, which seemed to flee in fear. Hodgson concluded it was an orangutan.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c25",
+          "source_id": "yeti-s4",
+          "host": "en.wikipedia.org",
+          "statement": "In 1951, while attempting to scale Mount Everest, Eric Shipton photographed a number of large prints in the snow at about 6,000 m.",
+          "statement_id": "Pada 1951, saat mencoba mendaki Everest, Eric Shipton memotret sejumlah jejak besar di salju pada ketinggian sekitar 6.000 m.",
+          "quote": "While attempting to scale Mount Everest in 1951, Eric Shipton took photographs of a number of large prints in the snow, at about 6,000 m (20,000 ft) above sea level.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c26",
+          "source_id": "yeti-s4",
+          "host": "en.wikipedia.org",
+          "statement": "In 1953, Sir Edmund Hillary and Tenzing Norgay reported seeing large footprints while scaling Everest; Hillary later discounted yeti reports as unreliable.",
+          "statement_id": "Pada 1953, Sir Edmund Hillary dan Tenzing Norgay melaporkan melihat jejak besar saat mendaki Everest; Hillary kemudian menganggap laporan yeti tidak dapat diandalkan.",
+          "quote": "In 1953, Sir Edmund Hillary and Tenzing Norgay reported seeing large footprints while scaling Mount Everest. Hillary would later discount Yeti reports as unreliable.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c27",
+          "source_id": "yeti-s4",
+          "host": "en.wikipedia.org",
+          "statement": "In 1986, mountaineer Reinhold Messner claimed in his autobiography My Quest for the Yeti that the yeti is actually the endangered Himalayan brown bear.",
+          "statement_id": "Pada 1986, pendaki Reinhold Messner menyatakan dalam otobiografinya My Quest for the Yeti bahwa yeti sebenarnya adalah beruang cokelat Himalaya yang terancam punah.",
+          "quote": "In 1986, South Tyrolean mountaineer Reinhold Messner claimed in his autobiography My Quest for the Yeti that the Yeti is actually the endangered Himalayan brown bear",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c28",
+          "source_id": "yeti-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Misidentification of Himalayan wildlife has been proposed to explain some sightings, including the chu-teh (a lower-altitude langur monkey), the Tibetan blue bear, or the Himalayan brown bear (dzu-teh).",
+          "statement_id": "Kekeliruan mengenali satwa Himalaya diajukan sebagai penjelasan sebagian penampakan yeti, termasuk chu-teh (monyet langur dataran rendah), beruang biru Tibet, atau beruang cokelat Himalaya (dzu-teh).",
+          "quote": "The misidentification of Himalayan wildlife has been proposed as an explanation for some Yeti sightings, including the chu-teh, a langur monkey living at lower altitudes; the Tibetan blue bear; or the Himalayan brown bear or dzu-teh, also known as the Himalayan red bear.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c29",
+          "source_id": "yeti-s5",
+          "host": "www.encyclopedia.com",
+          "statement": "The yeti is the mysterious humanoid creature reported by Western sources as early as 1832 as living in the Himalayas, and it became well known following several expeditions in the 1950s.",
+          "statement_id": "Yeti adalah makhluk mirip manusia yang misterius, dilaporkan sumber Barat sejak 1832 hidup di pegunungan Himalaya, dan menjadi terkenal setelah beberapa ekspedisi pada 1950-an.",
+          "quote": "the Yeti is the mysterious humanoid creature reported by Western sources as early as 1832 as living in the Himalayan Mountains. It became well known following several expeditions to the area in the 1950s.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c30",
+          "source_id": "yeti-s5",
+          "host": "www.encyclopedia.com",
+          "statement": "In 1960 Sir Edmund Hillary, who conquered Everest, called further attention to the yeti through his attempts to debunk them.",
+          "statement_id": "Pada 1960, Sir Edmund Hillary, penakluk Everest, makin menarik perhatian pada yeti lewat upayanya membantah keberadaannya.",
+          "quote": "In 1960 Sir Edmund Hillary, who conquered Everest, called further attention to the Yeti in his attempts to debunk them.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c31",
+          "source_id": "yeti-s5",
+          "host": "www.encyclopedia.com",
+          "statement": "According to a TASS report of January 9, 1988, the Soviet Ministry of Culture established a group of \"cryptozoologists\" to locate the yeti.",
+          "statement_id": "Menurut laporan TASS tanggal 9 Januari 1988, Kementerian Kebudayaan Soviet membentuk kelompok \"kriptozoolog\" untuk mencari yeti.",
+          "quote": "The Soviet Ministry of Culture established a group of \"cryptozoologists\" to locate the Yeti, according to a report of January 9, 1988, by TASS, the Soviet press agency.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c32",
+          "source_id": "yeti-s5",
+          "host": "www.encyclopedia.com",
+          "statement": "The term is recorded in English from the 1930s and comes from Tibetan yeh-teh, \"little manlike animal\".",
+          "statement_id": "Istilah ini tercatat dalam bahasa Inggris sejak 1930-an dan berasal dari bahasa Tibet yeh-teh, \"hewan kecil mirip manusia\".",
+          "quote": "The term is recorded in English from the 1930s, and comes from Tibetan yeh-teh 'little manlike animal'.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c33",
+          "source_id": "yeti-s5",
+          "host": "www.encyclopedia.com",
+          "statement": "Yeti is the native Sherpa (Tibetan) name of the Abominable Snowman, a subhuman animal supposed to leave tracks in the snow of the Himalayas.",
+          "statement_id": "Yeti adalah nama asli Sherpa (Tibet) bagi Abominable Snowman, hewan di bawah manusia yang konon meninggalkan jejak di salju Himalaya.",
+          "quote": "native Sherpa (Tibetan) name of the Abominable Snowman, a subhuman animal supposed to leave tracks in the snow of the Himalayas.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c34",
+          "source_id": "yeti-s5",
+          "host": "www.encyclopedia.com",
+          "statement": "The Oxford dictionary describes the yeti as a large hairy creature resembling a human or bear, said to live in the highest part of the Himalayas.",
+          "statement_id": "Kamus Oxford menggambarkan yeti sebagai makhluk besar berbulu yang menyerupai manusia atau beruang, dikatakan hidup di bagian tertinggi Himalaya.",
+          "quote": "a large hairy creature resembling a human or bear, said to live in the highest part of the Himalayas; it is informally known as the abominable snowman",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c35",
+          "source_id": "yeti-s4",
+          "host": "en.wikipedia.org",
+          "statement": "\"Bun manchi\" is Nepali for \"jungle man\", used outside Sherpa communities where \"yeti\" is the common name.",
+          "statement_id": "\"Bun manchi\" adalah bahasa Nepal untuk \"manusia hutan\", dipakai di luar komunitas Sherpa tempat \"yeti\" adalah nama umum.",
+          "quote": "Bun manchi - Nepali for \"jungle man\" that is used outside Sherpa communities where Yeti is the common name.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c36",
+          "source_id": "yeti-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Local legend holds that \"anyone who sees one dies or is killed\".",
+          "statement_id": "Legenda setempat menyebut bahwa \"siapa pun yang melihatnya mati atau dibunuh\".",
+          "quote": "Local legend holds that \"anyone who sees one dies or is killed\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yeti-c37",
+          "source_id": "yeti-s4",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Pranavananda states that the words \"ti\", \"te\" and \"teh\" derive from the spoken word \"tre\" (spelled \"dred\"), Tibetan for bear.",
+          "statement_id": "Menurut Wikipedia, Pranavananda menyatakan bahwa kata \"ti\", \"te\", dan \"teh\" berasal dari kata lisan \"tre\" (ditulis \"dred\"), kata Tibet untuk beruang.",
+          "quote": "Pranavananda states that the words \"ti\", \"te\" and \"teh\" are derived from the spoken word 'tre' (spelled \"dred\"), Tibetan for bear",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
