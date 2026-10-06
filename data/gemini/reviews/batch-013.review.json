@@ -1,28 +1,24 @@
 {
   "batch_id": "batch-013",
-  "checked_at": "2026-09-29T12:40:57.628Z",
+  "checked_at": "2026-10-06T15:21:44.735Z",
   "files": [
-    "batch-013.md"
+    "batch-013.md",
+    "batch-013-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "suanggi",
-      "file": "batch-013.md",
+      "file": "batch-013-fix-1.md",
+      "entry_sha256": "20050cc0bbc5ee63fa726496b5744f63d04081e48a918c38b6b4b731d5490735",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 30,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 7 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "suanggi-c01",
@@ -68,20 +64,20 @@
           "id": "suanggi-c05",
           "source_id": "suanggi-s1",
           "host": "en.wikipedia.org",
-          "statement": "After the 1999–2000 conflict in Tobelo, Halmahera, the spirit appeared in February 2004 as a young woman and haunted Tobelo for about two months; identified with O Tokata, a local malevolent spirit, she enticed and then attacked young men.",
-          "statement_id": "Setelah konflik 1999–2000 di Tobelo, Halmahera, roh ini menampakkan diri pada Februari 2004 sebagai perempuan muda dan menghantui Tobelo sekitar dua bulan; ia disamakan dengan O Tokata, roh jahat setempat, dan memikat lalu menyerang para pemuda.",
+          "statement": "The spirit manifested itself in February 2004 as a young woman and haunted the Tobelo area for about two months; it was called an unconventional form of suanggi identified with O Tokata, a local malevolent spirit.",
+          "statement_id": "Roh itu menampakkan diri pada Februari 2004 sebagai perempuan muda dan menghantui kawasan Tobelo sekitar dua bulan; ia disebut bentuk tak lazim suanggi yang disamakan dengan O Tokata, roh jahat setempat.",
           "quote": "The spirit manifested itself in February 2004 in the form of a young woman, haunting the Tobelo area for about two months. It was an allegedly unconventional form of Suanggi that was identified with O Tokata, a local malevolent spirit.",
-          "context": "modern-popular-culture",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
           "id": "suanggi-c06",
           "source_id": "suanggi-s1",
           "host": "en.wikipedia.org",
-          "statement": "This suanggi was claimed to be the vengeful ghost of a girl seeking retribution against her attackers; her presence spread fear in Tobelo and elsewhere in North Maluku.",
-          "statement_id": "Suanggi ini diklaim sebagai arwah pendendam seorang gadis yang mencari balasan atas penyerangnya; kehadirannya menimbulkan ketakutan di Tobelo dan tempat lain di Maluku Utara.",
+          "statement": "This suanggi was claimed to be the vengeful ghost of a Muslim girl seeking retribution against her attackers.",
+          "statement_id": "Suanggi ini diklaim sebagai arwah pendendam seorang gadis Muslim yang mencari balasan terhadap para penyerangnya.",
           "quote": "It was claimed that this Suanggi was the vengeful ghost of a Muslim girl seeking retribution against her attackers.",
-          "context": "modern-popular-culture",
+          "context": "traditional-belief",
           "status": "exact"
         },
         {
@@ -91,7 +87,237 @@
           "statement": "Suanggi beliefs also exist in East Nusa Tenggara; in 2010-2011 two houses in Adonara, East Flores were destroyed by mobs because their occupants were thought to be suanggi.",
           "statement_id": "Kepercayaan suanggi juga ada di Nusa Tenggara Timur; pada 2010-2011 dua rumah di Adonara, Flores Timur, dirusak massa karena penghuninya dianggap suanggi.",
           "quote": "Suanggi beliefs exist in Maluku's neighboring province of East Nusa Tenggara. In 2010-2011, two houses were destroyed by mobs in Adonara, East Flores Regency, due to the occupants being believed to be suanggi.",
-          "context": "modern-popular-culture",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c08",
+          "source_id": "suanggi-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "Suanggi is called a very frightening legendary figure in Papua; according to the notes of W. R. van Hoëvell, it is said to originate from Maluku.",
+          "statement_id": "Suanggi disebut tokoh legenda yang sangat menakutkan di tanah Papua; menurut catatan W. R. van Hoëvell, ia disebut berasal dari Maluku.",
+          "quote": "Suanggi merupakan tokoh legenda yang sangat menakutkan di tanah Papua, dan menurut catatan menteri Hindia-Belanda W. R. van Hoëvell, disebut berasal dari Maluku.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c09",
+          "source_id": "suanggi-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "Suanggi is said to be greatly feared because it can make its victims suffer a strange illness that ends in death.",
+          "statement_id": "Konon suanggi sangat ditakuti karena dapat membuat korbannya menderita penyakit aneh yang berujung pada kematian.",
+          "quote": "Konon, sosok ini sangat ditakuti karena bisa menyebabkan orang-orang yang menjadi korbannya menderita penyakit yang aneh hingga berujung pada kematian.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c10",
+          "source_id": "suanggi-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "Suanggi is said to often eat human flesh and does not need to be present at the scene, since it can act from a distance.",
+          "statement_id": "Konon suanggi kerap memakan daging manusia, dan dalam aksinya ia tidak perlu hadir di tempat kejadian karena dapat bertindak dari jarak jauh.",
+          "quote": "Bahkan, konon kabarnya sosok Suanggi kerap memakan daging manusia, dan dalam aksinya Suanggi tidak perlu hadir di tempat kejadian, karena bisa dilakukan dari jarak jauh.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c11",
+          "source_id": "suanggi-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "When stalking a victim, the suanggi is said to fly using a leaf stalk and slip into that person's house.",
+          "statement_id": "Konon, saat mengincar korbannya suanggi terbang menggunakan pelepah daun dan menyelinap masuk ke rumah orang itu.",
+          "quote": "Konon, Suanggi saat mengincar korbannya, dia akan terbang menggunakan pelepah daun dan menyelinap masuk ke rumah orang itu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c12",
+          "source_id": "suanggi-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "The suanggi is said to be able to change into any animal, usually a gecko, so that it can easily enter its victim's home.",
+          "statement_id": "Suanggi dikatakan dapat berubah wujud menjadi binatang apa saja, biasanya cicak, sehingga mudah memasuki tempat tinggal korbannya.",
+          "quote": "Suanggi juga diketahui bisa berubah wujud menjadi binatang apa saja biasanya menjelma menjadi cicak, sehingga mudah memasuki tempat tinggal korbannya.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c13",
+          "source_id": "suanggi-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "Doti-doti is a kind of black magic or sorcery that the suanggi sends to a person it wants to kill.",
+          "statement_id": "Doti-doti adalah semacam ilmu hitam atau santet yang dikirim suanggi kepada orang yang ingin dibunuhnya.",
+          "quote": "Doti-doti semacam ilmu hitam atau santet yang dikirim Suanggi kepada orang yang ingin dibunuhnya.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c14",
+          "source_id": "suanggi-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "The suanggi is said to put a magical egg-shaped object into the victim's mouth; it is said to turn into a lizard and briefly revive the corpse before the victim dies again in the way the suanggi intends.",
+          "statement_id": "Suanggi disebut memasukkan benda gaib berbentuk telur ke mulut korban; telur itu konon berubah menjadi kadal dan menghidupkan mayat korban untuk sementara sebelum ia meninggal lagi sesuai kehendak suanggi.",
+          "quote": "Suanggi juga akan memasukkan benda gaib berbentuk telur ke dalam mulut korbannya. Telur yang masuk ke dalam tubuh korban, konon akan berubah menjadi seekor kadal dan menghidupkan kembali mayatnya untuk sementara, sebelum akhirnya meninggal kembali sesuai dengan cara yang diinginkan Suanggi.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c15",
+          "source_id": "suanggi-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "Suanggi generally do not reveal their identity when mixing with people, because they are in fact ordinary humans who can be killed; some communities therefore hunt suanggi in order to destroy them.",
+          "statement_id": "Suanggi umumnya tidak menunjukkan jati diri saat berbaur dengan masyarakat karena sebenarnya mereka manusia biasa yang bisa dibunuh; karena itu beberapa masyarakat kadang memburu suanggi untuk dimusnahkan.",
+          "quote": "Suanggi ketika berbaur dengan masyarakat, umumnya juga tidak menunjukkan jati diri mereka, karena mereka sebenarnya juga manusia biasa yang bisa dibunuh. Maka tidak jarang, perburuan Suanggi untuk dimusnahkan juga dilakukan oleh beberapa masyarakat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c16",
+          "source_id": "suanggi-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "According to one myth, a distinctive smell like the cuscus animal signals that a suanggi is nearby, and one should go indoors and take shelter.",
+          "statement_id": "Menurut salah satu mitos, bau khas seperti binatang kus-kus menandakan suanggi berada tidak jauh, sehingga orang sebaiknya masuk ke rumah dan berlindung.",
+          "quote": "ketika kamu mencium bau khas seperti binatang kus-kus di sekitarmu, sebaiknya kamu masuk ke rumah dan berlindung. Konon, bau kus-kus menandakan Suanggi berada tidak jauh darimu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c17",
+          "source_id": "suanggi-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "The suanggi is reported to bear tattoos on parts of the body, which usually show how many victims it has killed.",
+          "statement_id": "Suanggi dikabarkan bertato di beberapa bagian tubuh, dan tato itu biasanya menunjukkan jumlah korban yang telah dibunuhnya.",
+          "quote": "Kabarnya, Suanggi juga memiliki ciri khas berupa tato di beberapa bagian tubuhnya. Tato itu biasanya menunjukkan berapa banyak korban yang sudah dibunuhnya.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c18",
+          "source_id": "suanggi-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "For the indigenous peoples living in Papua, the suanggi is an ordinary human in daily life.",
+          "statement_id": "Bagi suku-suku asli yang tinggal di Papua, suanggi adalah manusia biasa dalam kehidupan sehari-harinya.",
+          "quote": "Bagi yang tinggal di Papua — suku-suku asli di sana, Suanggi adalah manusia biasa dalam kehidupannya sehari-hari.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c19",
+          "source_id": "suanggi-s2",
+          "host": "budaya-indonesia.org",
+          "statement": "In Maluku, the suanggi is also commonly called Swangi.",
+          "statement_id": "Di Maluku, suanggi juga biasa disebut Swangi.",
+          "quote": "Suanggi juga biasa disebut Swangi di Maluku.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c20",
+          "source_id": "suanggi-s3",
+          "host": "www.new-directions.sps.ed.ac.uk",
+          "statement": "Witches, called gua in the Buli language or suanggi in regional Malay, appear to be ordinary humans but sometimes, especially at night, take other forms and attack people to kill them and eat their livers.",
+          "statement_id": "Penyihir yang disebut gua dalam bahasa Buli atau suanggi dalam bahasa Melayu daerah tampak seperti manusia biasa, tetapi kadang, terutama pada malam hari, mengambil wujud lain dan menyerang orang untuk membunuh dan memakan hati mereka.",
+          "quote": "Witches (known as gua in the Buli language or as suanggi in regional Malay) appear to be ordinary humans but sometimes, especially at night, they take other forms and attack people in order to kill them and eat their livers.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c21",
+          "source_id": "suanggi-s3",
+          "host": "www.new-directions.sps.ed.ac.uk",
+          "statement": "By convention in Buli, a person who finds a live nautilus is a gua (witch).",
+          "statement_id": "Menurut kebiasaan di Buli, orang yang menemukan nautilus hidup dianggap seorang gua (penyihir).",
+          "quote": "Convention has it that if you find a live nautilus, you are a gua.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c22",
+          "source_id": "suanggi-s4",
+          "host": "www.insideindonesia.org",
+          "statement": "In Buli witchcraft manifests in the figure of the gua, believed to be a witch able to shapeshift and assault people.",
+          "statement_id": "Di Buli, ilmu sihir menjelma dalam sosok gua, yang diyakini sebagai penyihir yang dapat berubah wujud dan menyerang orang.",
+          "quote": "In Buli witchcraft manifests in the spectre of gua, believed to be a witch with the ability to shapeshift and assault people.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c23",
+          "source_id": "suanggi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The suanggi appeared as a beautiful woman who enticed young men, particularly teachers.",
+          "statement_id": "Suanggi dikabarkan tampil sebagai perempuan cantik yang memikat pemuda, terutama para guru.",
+          "quote": "Suanggi appeared as a beautiful woman that enticed young men, particularly teachers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c24",
+          "source_id": "suanggi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The spirit's presence created an atmosphere of fear in Tobelo and elsewhere in North Maluku; villagers, particularly children, were forbidden to go outside at night.",
+          "statement_id": "Kehadiran roh itu menimbulkan suasana ketakutan di Tobelo dan tempat lain di Maluku Utara; warga, terutama anak-anak, dilarang keluar rumah pada malam hari.",
+          "quote": "The presence of the spirit created an atmosphere of fear not only in Tobelo but at other places of North Maluku as well. Villagers, particularly the children, were forbidden to go outside their homes in the night.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c25",
+          "source_id": "suanggi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The young woman was said to be the daughter of a Tobelo village leader, raped and brutally murdered by a group of young men during the 1999–2000 riots in the town.",
+          "statement_id": "Gadis itu disebut putri seorang pemimpin desa di Tobelo yang diperkosa dan dibunuh secara kejam oleh sekelompok pemuda pada kerusuhan 1999–2000 di kota itu.",
+          "quote": "The young woman had been the daughter of a Tobelo village leader and she had been raped and brutally murdered by a group of young men during the 1999–2000 riots in the town.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c26",
+          "source_id": "suanggi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Later in 2004, during the first national election in Eastern Indonesia, a local Christian farmer heard a woman's loud wailing near his plantation and claimed it came from the bloodthirsty suanggi spirit.",
+          "statement_id": "Pada 2004, saat pemilihan umum pertama di Indonesia Timur, seorang petani Kristen setempat mendengar tangisan keras seorang perempuan di dekat kebunnya dan mengaku bahwa itu berasal dari roh suanggi yang haus darah.",
+          "quote": "Later in 2004, during the first national election in Eastern Indonesia, a local Christian farmer heard the loud wailing cries of a woman near his plantation. He claimed that they came from the bloodthirsty spirit Suanggi",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c27",
+          "source_id": "suanggi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Following the 1999–2000 sectarian conflict in Tobelo, a town and district on Halmahera island, a malevolent female spirit rumored to have appeared there was named suanggi.",
+          "statement_id": "Setelah konflik sektarian 1999–2000 di Tobelo, kota dan distrik di Pulau Halmahera, roh perempuan jahat yang dikabarkan muncul di kawasan itu dinamai suanggi.",
+          "quote": "Following the 1999–2000 sectarian conflict that took place in Tobelo, a town and a district in the island of Halmahera, a malevolent female spirit that was rumored to have appeared later in that area was named Suanggi.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c28",
+          "source_id": "suanggi-s3",
+          "host": "www.new-directions.sps.ed.ac.uk",
+          "statement": "According to the author, for the people of the coastal, predominantly Christian community of Buli in North Maluku, cannibal witches are both corporeally real and fundamentally unknowable.",
+          "statement_id": "Menurut pengarangnya, bagi warga komunitas pesisir Buli yang mayoritas Kristen di Maluku Utara, penyihir kanibal itu nyata secara jasmani sekaligus pada dasarnya tak dapat diketahui.",
+          "quote": "argues that cannibal witches for people in the coastal, and predominantly Christian, community of Buli in the Indonesian province of North Maluku are both corporeally real and fundamentally unknowable.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c29",
+          "source_id": "suanggi-s4",
+          "host": "www.insideindonesia.org",
+          "statement": "The book is the result of fieldwork conducted in the early 1990s and in 2012 in Buli, a predominantly Christian coastal village on the island of Halmahera.",
+          "statement_id": "Buku itu hasil kerja lapangan pada awal 1990-an dan 2012 di Buli, desa pesisir yang mayoritas Kristen di Pulau Halmahera.",
+          "quote": "is the result of fieldwork conducted in the early 1990s and 2012 in Buli, a predominantly Christian coastal village in the island of Halmahera.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "suanggi-c30",
+          "source_id": "suanggi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It was believed that the girl's spirit had taken a revengeful form motivated by trauma.",
+          "statement_id": "Diyakini bahwa roh gadis itu telah mengambil wujud pendendam yang didorong oleh trauma.",
+          "quote": "It was believed that the spirit of this girl had assumed a revengeful form motivated by trauma.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -99,19 +325,15 @@
     },
     {
       "slug": "apsonsi",
-      "file": "batch-013.md",
+      "file": "batch-013-fix-1.md",
+      "entry_sha256": "abd093919716019d58a9f03da451377f98eb38882b9506382944a800332c6e00",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 17,
+        "sources": 8,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 4 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Apsonsi.jpg)",
@@ -158,6 +380,136 @@
           "quote": "In Legend, Apsonsi lived in Himavanta, an invisible mythical forest set deep in the Himalaya Mountains. The Apsonsi is a half-woman, half-lion figure believed to be the protector from harm. Apsonsi figures stand guard at Wat Phra Kaew (The Emerald Buddha Temple), a historic site in Bangkok, Thailand.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "apsonsi-c05",
+          "source_id": "apsonsi-s2",
+          "host": "www.achp.gov",
+          "statement": "The statues depict \"Apsonsi\", a mythical half human-half lion creature said to protect and bring good luck.",
+          "statement_id": "Patung-patung itu menggambarkan \"Apsonsi\", makhluk mitos setengah manusia setengah singa yang dikatakan melindungi dan membawa keberuntungan.",
+          "quote": "The statues depict “Apsonsi” a mythical half human-half lion creature that is said to protect and bring good luck.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "apsonsi-c06",
+          "source_id": "apsonsi-s2",
+          "host": "www.achp.gov",
+          "statement": "The Thai Town Gateway Project installed two Thai angel statues at the intersection of Hollywood Boulevard and Western Avenue as a gateway to Thai Town, and another two at its eastern end.",
+          "statement_id": "Proyek Gerbang Thai Town memasang dua patung \"malaikat Thai\" di perempatan Hollywood Boulevard dan Western Avenue, sebagai gerbang Thai Town, serta dua lagi di ujung timurnya.",
+          "quote": "The Thai Town Gateway Project showed the Thai CDC working in partnership with the city of Los Angeles and dozens of private businesses to install two Thai angel statues at the intersection of Hollywood Boulevard and Western Avenue, a gateway to Thai Town, as well as another two at the eastern end of Thai Town.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "apsonsi-c07",
+          "source_id": "apsonsi-s3",
+          "host": "readtheplaque.com",
+          "statement": "The Apsonsi, or \"Thai angels\", are one of the many hybrid creatures in ancient Southeast Asian folklore; these mythical half-women, half-lion figures are protectors against harm in ancient Thai literature.",
+          "statement_id": "Apsonsi, atau \"malaikat Thai\", adalah salah satu makhluk campuran dalam cerita rakyat kuno Asia Tenggara; sosok mitos setengah perempuan setengah singa ini adalah pelindung dari marabahaya dalam sastra Thai kuno.",
+          "quote": "The Apsonsi, or Thai angels, are one of the many hybrid creatures depicted in ancient Southeast Asian folklore. These mythical half-women, half-lion figures are protectors against harm in ancient Thai literature.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "apsonsi-c08",
+          "source_id": "apsonsi-s3",
+          "host": "readtheplaque.com",
+          "statement": "The statues stand at the four corners of Thai Town as symbolic guardians of the people.",
+          "statement_id": "Patung-patung itu berdiri di empat sudut Thai Town sebagai penjaga simbolis masyarakat.",
+          "quote": "They stand at the four corners of Thai Town as symbolic guardians of the people.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "apsonsi-c09",
+          "source_id": "apsonsi-s3",
+          "host": "readtheplaque.com",
+          "statement": "The installation of this Apsonsi was a gift to the City of Los Angeles from the Royal Thai Government.",
+          "statement_id": "Pemasangan patung Apsonsi ini merupakan hadiah bagi Kota Los Angeles dari Pemerintah Kerajaan Thailand.",
+          "quote": "The installation of this Apsonsi was a gift to the City of Los Angeles from the Royal Thai Government.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "apsonsi-c10",
+          "source_id": "apsonsi-s4",
+          "host": "theclio.com",
+          "statement": "In 2013, Thai Town was given golden lampposts of Kinnara and Apsonsi, creatures from Hindu and Buddhist mythology, by the government of Thailand.",
+          "statement_id": "Pada 2013, Thai Town menerima hadiah tiang lampu emas bergambar Kinnara dan Apsonsi, makhluk dari mitologi Hindu dan Buddha, dari pemerintah Thailand.",
+          "quote": "In 2013, the Thai Town was gifted golden lampposts of Kinnara and Apsonsi, creatures from Hindu and Buddhist mythology by the government of Thailand!",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "apsonsi-c11",
+          "source_id": "apsonsi-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Himavanta is a legendary forest, also called Himmapan Mountain, said to be located in the Himalayas.",
+          "statement_id": "Himavanta adalah hutan legendaris, juga disebut Gunung Himmapan, yang dikatakan terletak di Himalaya.",
+          "quote": "Himavanta is a legendary forest, also called Himmapan (or Himmapun) Mountain, which is said to be located in the Himalayas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "apsonsi-c12",
+          "source_id": "apsonsi-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Himavanta is a vast, deep, sacred forest atop Himmapan Mountain, home to gods and the dwelling place of sorcerers, priests, hermits, clerics and bizarre mythical creatures.",
+          "statement_id": "Himavanta adalah hutan suci yang luas dan dalam di puncak Gunung Himmapan, tempat tinggal para dewa serta kediaman penyihir, pendeta, pertapa, rohaniwan, dan makhluk mitos yang ganjil.",
+          "quote": "Himavanta is a vast, deep, sacred forest atop Himmapan Mountain. ... The beautiful forest is home to gods and the dwelling place for sorcerers, priests, hermits, clerics, and bizarre mythical creatures.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "apsonsi-c13",
+          "source_id": "apsonsi-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In Buddhist belief, the existence of Himavanta and its mythical creatures is no threat to humans, since only virtuous and spiritual people can enter it.",
+          "statement_id": "Dalam kepercayaan Buddha, keberadaan Himavanta dan makhluk mitosnya bukan ancaman bagi manusia, karena hanya orang yang berbudi dan rohani yang dapat memasukinya.",
+          "quote": "The existence of Himavanta and its mythical creatures are no threat to humans, since only virtuous and spiritual people can enter, not just ordinary humans.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apsonsi-c14",
+          "source_id": "apsonsi-s6",
+          "host": "en.wikipedia.org",
+          "statement": "Apsaras are a class of celestial beings in Hindu and Buddhist culture, originally a type of female spirit associated with clouds and water, later playing the role of a \"nymph\" or \"fairy\".",
+          "statement_id": "Apsara adalah golongan makhluk langit dalam budaya Hindu dan Buddha; awalnya semacam roh perempuan yang berkaitan dengan awan dan air, lalu berperan sebagai \"nimfa\" atau \"peri\".",
+          "quote": "Apsaras ... are a class of celestial beings in Hindu and Buddhist culture. They were originally a type of female spirit associated with clouds and water, but, later came to play the role of a \"nymph\" or \"fairy\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "apsonsi-c15",
+          "source_id": "apsonsi-s6",
+          "host": "en.wikipedia.org",
+          "statement": "In Thai, apsara is known as อัปสร (RTGS: Apson).",
+          "statement_id": "Dalam bahasa Thai, apsara dikenal sebagai อัปสร (RTGS: Apson).",
+          "quote": "and In Thai: อัปสร (RTGS: Apson).",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "apsonsi-c16",
+          "source_id": "apsonsi-s7",
+          "host": "en.wikipedia.org",
+          "statement": "Manussiha is a Burmese half-man half-lion mythical creature believed to have been created by Buddhist missionary monks to protect a newborn royal baby from rakshasis (ogresses) from the sea; its statues usually guard the four corners of a pagoda.",
+          "statement_id": "Manussiha adalah makhluk mitos Burma setengah manusia setengah singa yang diyakini diciptakan para biksu misionaris Buddha untuk melindungi bayi kerajaan yang baru lahir dari rakshasi (raksasi) dari laut; patungnya biasanya menjaga empat sudut pagoda.",
+          "quote": "Manussiha ... is a Burmese half-man half-lion mythical creature believed to be created by Buddhist missionary monks to protect a new-born royal baby from being devoured by rakshasis (ogresses) from the sea. Its statues are usually found guarding the four corners of a pagoda.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "apsonsi-c17",
+          "source_id": "apsonsi-s8",
+          "host": "en.wikipedia.org",
+          "statement": "In Southeast Asian Buddhist mythology, kinnaris are depicted as half-bird, half-woman creatures, one of the many inhabitants of the mythical Himavanta, with the head, torso and arms of a woman and the wings, tail and feet of a swan.",
+          "statement_id": "Dalam mitologi Buddha Asia Tenggara, kinnari digambarkan sebagai makhluk setengah burung setengah perempuan, salah satu penghuni Himavanta yang mitos, berkepala, berbadan, dan berlengan perempuan dengan sayap, ekor, dan kaki angsa.",
+          "quote": "kinnaris, the female counterpart of kinnaras, are depicted as half-bird, half-woman creatures. One of the many creatures that inhabit the mythical Himavanta, kinnaris have the head, torso, and arms of a woman and the wings, tail and feet of a swan.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": [
@@ -191,7 +543,7 @@
             "kategori \"Apsonsi\"",
             "dipakai di en.wikipedia.org: Apsonsi"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-013/apsonsi-1.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-013/apsonsi-1.jpg"
         }
       ]
     },
@@ -212,23 +564,20 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "f12a3f71d9a352b25755234aef487f2b4f296e0a1760631a3f3078f81a3bdf1e"
     },
     {
       "slug": "bedawang",
-      "file": "batch-013.md",
+      "file": "batch-013-fix-1.md",
+      "entry_sha256": "519b5d85e77661085b1271fe522ca5e3e780efead2378dad86254536772a1f5b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 26,
+        "sources": 4,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 4 klaim (target 15), 2 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Bedawang Nala (I Ketut Gedé).jpg)",
@@ -275,6 +624,226 @@
           "quote": "Les tortues de mer sont chassées et données en offrande dans les cérémonies religieuses où leur tête symbolise Bedawang. Pour préserver les espèces de tortues marines, il a été décrété par les chefs religieux balinais qu'une image ou un gâteau de riz en forme de tortue pouvaient être utilisés à la place de l'animal.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "bedawang-c05",
+          "source_id": "bedawang-s3",
+          "host": "journal.ugm.ac.id",
+          "statement": "The bedawang nala ornament usually takes the form of a giant turtle coiled by one or two nagas as the base supporting a whole meru building.",
+          "statement_id": "Ornamen bedawang nala lazimnya berwujud kura-kura raksasa yang dibelit seekor atau dua ekor naga sebagai dasar penyangga bangunan meru secara keseluruhan.",
+          "quote": "Ornamen ini lazimnya berwujud seekor kura-kura raksasa yang dibelit seekor atau dua ekor naga sebagai dasar penyangga bangunan meru secara keseluruhan.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bedawang-c06",
+          "source_id": "bedawang-s3",
+          "host": "journal.ugm.ac.id",
+          "statement": "The ornament is generally shown as a giant turtle with fiery hair and a gaping mouth that is also fiery.",
+          "statement_id": "Ornamen ini umumnya digambarkan sebagai kura-kura raksasa berambut api dengan mulut menganga yang juga berapi.",
+          "quote": "Ornamen ini umumnya diwujudkan sebagai seekor kura-kura raksasa berambut api dengan mulut menganga yang juga berapi.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bedawang-c07",
+          "source_id": "bedawang-s3",
+          "host": "journal.ugm.ac.id",
+          "statement": "The two nagas coiling the turtle are named Naga Basuki and Naga Anantabhoga.",
+          "statement_id": "Dua naga yang membelit kura-kura itu masing-masing bernama Naga Basuki dan Naga Anantabhoga.",
+          "quote": "Dua naga yang membelit sang kura-kura masing-masing bernama Naga Basuki dan Naga Anantabhoga",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bedawang-c08",
+          "source_id": "bedawang-s3",
+          "host": "journal.ugm.ac.id",
+          "statement": "In Hindu mythology, Naga Basuki (Vasuki) symbolizes the flow of water on earth.",
+          "statement_id": "Dalam mitologi Hindu, Naga Basuki (Vasuki) merupakan simbol aliran air di bumi.",
+          "quote": "Naga Basuki (Vasuki) merupakan simbolisasi aliran air yang ada di bumi",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bedawang-c09",
+          "source_id": "bedawang-s3",
+          "host": "journal.ugm.ac.id",
+          "statement": "The words ananta bhoga literally mean inexhaustible food; Naga Anantabhoga symbolizes the earth as the eternal source of food for all living beings.",
+          "statement_id": "Kata ananta bhoga secara harfiah berarti makanan yang tak habis-habisnya; Naga Anantabhoga melambangkan tanah atau bumi sebagai sumber abadi makanan bagi semua makhluk hidup.",
+          "quote": "Kata ananta bhoga ini secara harfiah berarti makanan yang tak ada habis-habisnya. Dia merupakan simbolisasi tanah atau bumi yang menjadi sumber abadi segala makanan bagi semua makhluk hidup di bumi",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bedawang-c10",
+          "source_id": "bedawang-s3",
+          "host": "journal.ugm.ac.id",
+          "statement": "A bedawang nala ornament coiled by two nagas can be found at the base of an old meru at Pura Kehen, Bangli Regency, Bali.",
+          "statement_id": "Ornamen bedawang nala yang dibelit dua naga dapat ditemukan di dasar sebuah meru kuno di Pura Kehen, Kabupaten Bangli, Bali.",
+          "quote": "Ornamen bedawang nala yang dibelit dua ekor naga serupa ini dapat ditemukan di dasar sebuah meru kuno di Pura Kehen, Kabupaten Bangli, Bali.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bedawang-c11",
+          "source_id": "bedawang-s3",
+          "host": "journal.ugm.ac.id",
+          "statement": "A bedawang nala ornament coiled by one naga is found at the base of the meru building at Pura Taman Sari, Klungkung Regency, Bali.",
+          "statement_id": "Ornamen bedawang nala yang dibelit seekor naga terdapat di dasar bangunan meru di Pura Taman Sari, Kabupaten Klungkung, Bali.",
+          "quote": "Ornamen bedawang nala yang dibelit seekor naga semacam ini terdapat di dasar bangunan meru di Pura Taman Sari, Kabupaten Klungkung, Bali.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bedawang-c12",
+          "source_id": "bedawang-s3",
+          "host": "journal.ugm.ac.id",
+          "statement": "The term \"bedawang nala\" is closely related to the name Vadavamukha or Vadavanala in Hindu mythology in India.",
+          "statement_id": "Istilah \"bedawang nala\" berhubungan erat dengan nama Vadavamukha atau Vadavanala dalam mitologi Hindu di India.",
+          "quote": "Istilah “bedawang nala” memiliki hubungan yang kuat dengan nama Vadavamukha atau Vadavanala yang dikenal dalam mitologi Hindu di India.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "bedawang-c13",
+          "source_id": "bedawang-s3",
+          "host": "journal.ugm.ac.id",
+          "statement": "Vadavamukha or Vadavanala is the name for the head of a fiery mare found on the seabed.",
+          "statement_id": "Vadavamukha atau Vadavanala adalah sebutan bagi kepala kuda betina berapi yang terdapat di dasar laut.",
+          "quote": "Vadavamukha atau Vadavanala adalah sebutan untuk sebentuk kepala kuda betina berapi yang terdapat di dasar laut.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bedawang-c14",
+          "source_id": "bedawang-s3",
+          "host": "journal.ugm.ac.id",
+          "statement": "The word \"anala\" means fire or fiery.",
+          "statement_id": "Kata \"anala\" berarti api atau berapi.",
+          "quote": "Adapun kata “anala” berarti api atau berapi.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "bedawang-c15",
+          "source_id": "bedawang-s3",
+          "host": "journal.ugm.ac.id",
+          "statement": "The concept of the fiery mare's head on the seabed was adapted in Bali into the local bedawang nala concept, depicted as a giant fiery turtle on the seabed with a similar character.",
+          "statement_id": "Konsep kepala kuda betina berapi di dasar laut diadaptasi di Bali menjadi konsep bedawang nala yang digambarkan sebagai kura-kura berapi raksasa di dasar laut dengan karakter serupa.",
+          "quote": "diadaptasi menjadi konsepsi bedawang nala lokal Bali yang digambarkan berbentuk seekor kura-kura berapi raksasa di dasar laut yang memiliki karakter serupa",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bedawang-c16",
+          "source_id": "bedawang-s3",
+          "host": "journal.ugm.ac.id",
+          "statement": "According to Hooykaas (1964), the mare's head became a turtle because turtles were well known and naturally live in the waters of Bali.",
+          "statement_id": "Menurut Hooykaas (1964), bentuk kepala kuda betina diadaptasi menjadi kura-kura karena kura-kura atau penyu cukup dikenal dan secara alamiah berhabitat di perairan Pulau Bali.",
+          "quote": "Alasan adaptasi bentuk kepala kuda betina menjadi bentuk seekor kura-kura ini, menurut Hooykaas (1964: 108), adalah karena kura-kura ataupun penyu merupakan binatang yang cukup dikenal dan secara alamiah memang memiliki habitat asli di wilayah perairan Pulau Bali.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bedawang-c17",
+          "source_id": "bedawang-s3",
+          "host": "journal.ugm.ac.id",
+          "statement": "The bedawang nala, a giant fiery turtle at the base of the building, symbolizes the concept of hell.",
+          "statement_id": "Bedawang nala berupa kura-kura raksasa berapi di dasar bangunan merupakan simbol konsep neraka.",
+          "quote": "bedawang nala yang berwujud kura-kura raksasa berapi di dasar bangunan merupakan simbolisasi konsep neraka",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bedawang-c18",
+          "source_id": "bedawang-s3",
+          "host": "journal.ugm.ac.id",
+          "statement": "In Balinese folk mythology a giant turtle supports the island of Bali on its back, and when it moves an earthquake occurs on the island.",
+          "statement_id": "Dalam mitologi rakyat Bali, seekor kura-kura raksasa menyangga Pulau Bali di punggungnya, dan bila ia bergerak akan terjadi gempa bumi di Pulau Bali.",
+          "quote": "Dalam mitologi rakyat Bali, digambarkan bahwa seekor kura-kura raksasa menyangga Pulau Bali di atas punggungnya. ... akan terjadi gempa bumi di Pulau Bali yang disangganya",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bedawang-c19",
+          "source_id": "bedawang-s3",
+          "host": "journal.ugm.ac.id",
+          "statement": "The two cosmic nagas are charged with constantly watching and preventing any movement of the island-supporting turtle.",
+          "statement_id": "Kedua naga kosmik itu ditugaskan selalu mengawasi dan mencegah setiap gerakan kura-kura penyangga pulau.",
+          "quote": "Kedua naga kosmik ini ditugaskan selalu mengawasi dan mencegah setiap pergerakan sang kura-kura penyangga pulau.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bedawang-c20",
+          "source_id": "bedawang-s3",
+          "host": "journal.ugm.ac.id",
+          "statement": "In the real world, the fiery turtle Bedawang Nala is said to symbolize magma in the belly of the earth, whose volcanic activity can trigger earthquakes and tsunamis.",
+          "statement_id": "Di alam nyata, kura-kura berapi Bedawang Nala dinyatakan sebagai simbol magma di perut bumi yang aktivitas vulkaniknya dapat memicu gempa bumi dan tsunami.",
+          "quote": "Di alam nyata, kura-kura berapi Bedawang Nala dinyatakan sebagai simbol magma di perut bumi yang aktivitas vulkanisnya dapat memicu terjadinya gempa bumi dan tsunami.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bedawang-c21",
+          "source_id": "bedawang-s4",
+          "host": "sonobudoyo.jogjaprov.go.id",
+          "statement": "In Javanese and Balinese mythology a giant turtle is depicted supporting an island on its back; if the turtle moves, an earthquake occurs.",
+          "statement_id": "Dalam mitologi Jawa dan Bali, seekor kura-kura raksasa digambarkan menyangga sebuah pulau di punggungnya; bila kura-kura itu bergerak, terjadi gempa bumi.",
+          "quote": "In Javanese and Balinese mythology, it is depicted that a giant turtle supports an island on its back. If the giant turtle moves, an earthquake will occur.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bedawang-c22",
+          "source_id": "bedawang-s4",
+          "host": "sonobudoyo.jogjaprov.go.id",
+          "statement": "The Korawasrama contains the sentence \"Nusa yawa kasangga de badawang nala\", translated as \"Java Island is supported by Badawang Nala\".",
+          "statement_id": "Dalam Korawasrama terdapat kalimat \"Nusa yawa kasangga de badawang nala\" yang diterjemahkan sebagai \"Pulau Jawa ditopang oleh Badawang Nala\".",
+          "quote": "In Korawasrama there is a sentence 'Nusa yawa kasangga de badawang nala ... (Java Island is supported by Badawang Nala",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bedawang-c23",
+          "source_id": "bedawang-s4",
+          "host": "sonobudoyo.jogjaprov.go.id",
+          "statement": "In the puppet story, Bedawang Nala is a priest from the Gisik Samodra or Eka Pratala hermitage who lives in the Wailu river; he owns the Cupu Manik Astagina and Cupu Tirta Manik, which contain the water of life.",
+          "statement_id": "Dalam cerita wayang, Bedawang Nala adalah seorang pendeta dari pertapaan Gisik Samodra atau Eka Pratala yang tinggal di sungai Wailu; ia memiliki Cupu Manik Astagina dan Cupu Tirta Manik yang berisi air kehidupan.",
+          "quote": "In the puppet story, Bedawang Nala is a priest from the Gisik Samodra or Eka Pratala hermitage and lives in the Wailu river. He has the Cupu Manik Astagina and Cupu Tirta Manik which contain the water of life.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bedawang-c24",
+          "source_id": "bedawang-s4",
+          "host": "sonobudoyo.jogjaprov.go.id",
+          "statement": "Bedawang Nala has extraordinary supernatural powers and can make an island fall apart with a single blow.",
+          "statement_id": "Bedawang Nala memiliki kekuatan gaib yang luar biasa dan mampu membuat sebuah pulau hancur hanya dengan satu pukulan.",
+          "quote": "Bedawang Nala has extraordinary supernatural powers, he is able to make an island fall apart with just one blow.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bedawang-c25",
+          "source_id": "bedawang-s4",
+          "host": "sonobudoyo.jogjaprov.go.id",
+          "statement": "The term Bedawang Nala comes from the Sanskrit \"vadava\", \"vadaba\", \"badava\" or \"badaba\", meaning a stallion resembling a mare, also a female horse.",
+          "statement_id": "Istilah Bedawang Nala berasal dari bahasa Sanskerta \"vadava\", \"vadaba\", \"badava\" atau \"badaba\", yang berarti kuda jantan yang menyerupai kuda betina, juga berarti kuda betina.",
+          "quote": "The term Bedawang Nala comes from the Sanskrit language 'vadava,' vadaba ', 'badava' or 'badaba' which means a stallion that resembles a mare, then also means a female horse.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "bedawang-c26",
+          "source_id": "bedawang-s4",
+          "host": "sonobudoyo.jogjaprov.go.id",
+          "statement": "In general, Bedawang is represented in art and ornamentation in two forms, theriomorphic and therio-anthropomorphic.",
+          "statement_id": "Secara umum, penggambaran Bedawang dalam seni dan ornamen terwujud dalam dua bentuk, yaitu teriomorfik dan terio-antropomorfik.",
+          "quote": "In general, the representation of Bedawang in art and ornamentation is manifested in two forms, namely theriomorphic and therio-anthropomorphic.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": [
@@ -315,26 +884,21 @@
             "kategori \"Bedawang\"",
             "dipakai di ban.wikipedia.org: Bedawang Nala"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-013/bedawang-1.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-013/bedawang-1.jpg"
         }
       ]
     },
     {
       "slug": "bukit-timah-monkey-man",
-      "file": "batch-013.md",
+      "file": "batch-013-fix-1.md",
+      "entry_sha256": "73e39436a668e54e1359e94fc06127f59c96eda442d1dd14dd6ee9ac02b59449",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 18,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 4 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bukit-timah-monkey-man-c01",
@@ -373,6 +937,146 @@
           "statement": "In late 2020 a night hiker allegedly spotted it, an event widely covered by local media.",
           "statement_id": "Pada akhir 2020 seorang pendaki malam mengaku melihatnya, dan peristiwa itu diberitakan luas media setempat.",
           "quote": "In late 2020, the Bukit Timah monkey man was allegedly spotted by a night hiker, an event which was extensively covered in local media reports.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bukit-timah-monkey-man-c08",
+          "source_id": "bukit-timah-monkey-man-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Chinese-language paper Shin Min Daily News reported in 2008 that the Monkey Man would appear after dark in the Bukit Timah Nature Reserve.",
+          "statement_id": "Surat kabar berbahasa Tionghoa Shin Min Daily News melaporkan pada 2008 bahwa Manusia Monyet akan muncul setelah gelap di Cagar Alam Bukit Timah.",
+          "quote": "The Chinese-language paper Shin Min Daily News also reported on the BTM in 2008, stating that the Monkey Man would appear after dark in the Bukit Timah Nature Reserve.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bukit-timah-monkey-man-c09",
+          "source_id": "bukit-timah-monkey-man-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The paper described the creature as having a monkey's face but walking upright like a man; it sent a journalist to look for evidence, but the expedition proved futile.",
+          "statement_id": "Surat kabar itu menggambarkan makhluk tersebut berwajah monyet tetapi berjalan tegak seperti manusia; seorang wartawan dikirim mencari bukti, tetapi usaha itu sia-sia.",
+          "quote": "The paper described the creature as having the face of a monkey but walking upright like a man; it dispatched a journalist to comb for evidence, but the expedition proved futile.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bukit-timah-monkey-man-c11",
+          "source_id": "bukit-timah-monkey-man-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Documentation of the creature is sparse and scattered; it is largely considered a product of local folklore.",
+          "statement_id": "Dokumentasi tentang makhluk ini jarang dan tersebar; ia sebagian besar dianggap produk cerita rakyat setempat.",
+          "quote": "Documentation of the BTM is sparse and scattered; the creature is largely considered a product of local folklore.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bukit-timah-monkey-man-c12",
+          "source_id": "bukit-timah-monkey-man-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Records mainly come from Malay folklore, accounts from Japanese soldiers in World War II, and occasional unconfirmed reports from local residents.",
+          "statement_id": "Catatan tentangnya terutama berasal dari cerita rakyat Melayu, kisah tentara Jepang pada Perang Dunia II, dan sesekali laporan warga setempat yang belum terkonfirmasi.",
+          "quote": "Records mainly come from Malay folklore, accounts from Japanese soldiers in World War II, and occasional unconfirmed reports from local residents.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bukit-timah-monkey-man-c13",
+          "source_id": "bukit-timah-monkey-man-s2",
+          "host": "mothership.sg",
+          "statement": "Some night trekking enthusiasts in Singapore claimed to have caught a glimpse of the fabled Bukit Timah Monkey Man.",
+          "statement_id": "Sejumlah pendaki malam di Singapura mengaku sempat melihat sekilas Manusia Monyet Bukit Timah yang legendaris.",
+          "quote": "Some night trekking enthusiasts in Singapore are claiming that they have caught a glimpse of the fabled Bukit Timah Monkey Man (BTMM).",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bukit-timah-monkey-man-c14",
+          "source_id": "bukit-timah-monkey-man-s2",
+          "host": "mothership.sg",
+          "statement": "A post on the Night Raiders Facebook page on 16 December 2020 said an equipment specialist caught sight of the Monkey Man.",
+          "statement_id": "Sebuah unggahan di halaman Facebook Night Raiders pada 16 Desember 2020 menyebut seorang spesialis peralatan melihat Manusia Monyet itu.",
+          "quote": "A post on the Night Raiders Facebook page on Dec. 16, 2020 mentioned that an equipment specialist caught sight of the BTMM.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bukit-timah-monkey-man-c15",
+          "source_id": "bukit-timah-monkey-man-s2",
+          "host": "mothership.sg",
+          "statement": "At the end of the post it was acknowledged that the existence of the Monkey Man remains unverified.",
+          "statement_id": "Di akhir unggahan itu diakui bahwa keberadaan Manusia Monyet masih belum terverifikasi.",
+          "quote": "However, at the end of the post, it was acknowledged that the existence of BTMM remains unverified.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bukit-timah-monkey-man-c16",
+          "source_id": "bukit-timah-monkey-man-s2",
+          "host": "mothership.sg",
+          "statement": "As reported by Mothership, it is thought to be about 1 to 2 metres tall and to live in Bukit Timah Nature Reserve.",
+          "statement_id": "Menurut cerita urban yang dilaporkan Mothership, makhluk ini diperkirakan setinggi sekitar 1 sampai 2 meter dan tinggal di Cagar Alam Bukit Timah.",
+          "quote": "It is thought to be about 1m to 2m in height and lives in Bukit Timah Nature Reserve.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bukit-timah-monkey-man-c17",
+          "source_id": "bukit-timah-monkey-man-s2",
+          "host": "mothership.sg",
+          "statement": "One account, told by a taxi driver, described a collision between a taxi and the Monkey Man that left the creature injured and running off.",
+          "statement_id": "Satu kisah, yang dituturkan seorang sopir taksi, menceritakan tabrakan antara taksi dan Manusia Monyet yang membuat makhluk itu terluka dan lari.",
+          "quote": "One account, related by a taxi driver, recounted how a collision occurred between a taxi and the BTMM, resulting in the creature getting injured and running off.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bukit-timah-monkey-man-c18",
+          "source_id": "bukit-timah-monkey-man-s3",
+          "host": "coconuts.co",
+          "statement": "A video allegedly of the mythical Bukit Timah Monkey Man made its rounds again, two years after it first spread.",
+          "statement_id": "Sebuah video yang diklaim menampilkan Manusia Monyet Bukit Timah beredar lagi dua tahun setelah pertama kali menyebar.",
+          "quote": "A video allegedly of the mythical Bukit Timah Monkey Man has making its rounds again, two years after it first spread.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bukit-timah-monkey-man-c19",
+          "source_id": "bukit-timah-monkey-man-s3",
+          "host": "coconuts.co",
+          "statement": "Evidence of any primate-like creature other than the long-tailed macaques at Bukit Timah has never been discovered despite records of sightings since the 1800s.",
+          "statement_id": "Bukti keberadaan makhluk mirip primata selain monyet ekor panjang di Bukit Timah tidak pernah ditemukan, meskipun ada catatan penampakan sejak 1800-an.",
+          "quote": "Evidence of the existence of any other primate-like creatures other than those like the long-tailed macaques at Bukit Timah has never been discovered despite records of sightings since the 1800s.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bukit-timah-monkey-man-c20",
+          "source_id": "bukit-timah-monkey-man-s3",
+          "host": "coconuts.co",
+          "statement": "The Shin Min Daily News reportedly also sent a journalist to the site in 2008 but found nothing.",
+          "statement_id": "Shin Min Daily News dilaporkan juga mengirim wartawan ke lokasi pada 2008, tetapi tidak menemukan apa pun.",
+          "quote": "The Shin Min Daily News also reportedly sent a journalist to the site in 2008, but found nothing.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bukit-timah-monkey-man-c21",
+          "source_id": "bukit-timah-monkey-man-s4",
+          "host": "mustsharenews.com",
+          "statement": "A 48-year-old taxi driver allegedly ran into the Monkey Man while driving past the fire station on Upper Bukit Timah Road in the dead of night.",
+          "statement_id": "Seorang sopir taksi berusia 48 tahun dikabarkan menabrak Manusia Monyet saat melintas dekat pos pemadam kebakaran di Upper Bukit Timah Road pada tengah malam.",
+          "quote": "A 48-year-old taxi driver allegedly ran into the Monkey Man while driving past the fire station at Upper Bukit Timah road in the dead of the night.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bukit-timah-monkey-man-c22",
+          "source_id": "bukit-timah-monkey-man-s4",
+          "host": "mustsharenews.com",
+          "statement": "Monkey Man sightings have continued to pop up occasionally, even as recently as 2012, with a likely fake video making its rounds on the internet.",
+          "statement_id": "Penampakan Manusia Monyet terus muncul sesekali, bahkan hingga 2012, dengan sebuah video yang kemungkinan palsu beredar di internet.",
+          "quote": "Monkey Man sightings have continued to pop up occasionally even as recently as 2012 — with a video, likely fake, making its rounds on the internet.",
           "context": "modern-popular-culture",
           "status": "exact"
         }

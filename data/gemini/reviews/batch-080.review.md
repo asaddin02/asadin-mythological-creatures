@@ -1,6 +1,6 @@
 # Review batch-080
 
-Diperiksa 2026-10-02T01:13:32.042Z. Berkas: batch-080.md, batch-080-fix-1.md, batch-080-fix-2.md, batch-080-fix-3.md.
+Diperiksa 2026-10-06T14:25:46.261Z. Berkas: batch-080.md, batch-080-fix-1.md, batch-080-fix-2.md, batch-080-fix-3.md, batch-080-fix-4.md.
 
 ## ifrit — lulus-otomatis
 
@@ -249,10 +249,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## bahamut — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 17 (exact 16, loose 1), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -262,6 +259,17 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | bahamut-c04 | exact | en.wikipedia.org | Al-Qazwini’s cosmography uses the spelling Bahamut. | Bahamūt is the spelling given in al-Qazwini's (d. 1283) cosmography. |
 | bahamut-c05 | exact | en.wikipedia.org | Lane’s cosmographic summary places the gigantic serpent Falak below Bahamut. | Bahamut (Leviathan) is the colossus serpentine Falak. |
 | bahamut-c06 | exact | en.wikipedia.org | The primary Islamic source for Lane’s summary is unclear. | Lane's primary Islamic source for his summary is unclear |
+| bahamut-c07 | exact | en.wikipedia.org | Yakut also gives an account in which Iblis almost incited the whale Balhut into causing a quake, but God distracted it by sending gnats to its eyes. | Yakut also gives the account that Iblis almost incited the whale Balhūt into causing a quake, but God distracted it by sending gnats to its eyes. |
+| bahamut-c08 | loose | en.wikipedia.org | The name is thought to derive from the biblical Behemoth (Hebrew: בְּהֵמוֹת). | The name is thought to derive from the biblical Behemoth (Hebrew: בְּהֵמוֹת; cf. Job 40:15-24) |
+| bahamut-c09 | exact | en.wikipedia.org | According to Jorge Luis Borges's Book of Imaginary Beings (1957), Bahamut is "altered and magnified" from Behemoth and described as so immense that a human cannot bear its sight. | According to Jorge Luis Borges's work, the Book of Imaginary Beings (1957), Bahamut is "altered and magnified" from Behemoth and described as so immense that a human cannot bear its sight. |
+| bahamut-c10 | exact | en.wikipedia.org | In the Dungeons & Dragons tabletop role-playing game, Bahamut is the dragon god of justice, and is the first instance of the name being used for a dragon. | In the Dungeons & Dragons tabletop role-playing game, Bahamut is the dragon god of justice, and is the first instance of the name being used for a dragon. |
+| bahamut-c11 | exact | archive.org | In this cosmographic account, God created an angel of immense size and of the utmost strength and ordered him to go beneath the earth. | God created an angel of immense size and of the utmost strength, and ordered him to go beneath it |
+| bahamut-c12 | exact | archive.org | Since the rock had no support, God created a huge bull with four thousand eyes and the same number of ears, noses, mouths, tongues, and feet. | But there was no support for the rock : wherefore God created a huge bull, with four thousand eyes and the same number of ears, noses, mouths, tongues, and feet; |
+| bahamut-c13 | exact | archive.org | To support the bull, God created an enormous fish that no one could look upon because of its vast size and the flashing and greatness of its eyes. | created an enormous fish, that no one could look upon on account of its vast size, and the flashing of its eyes, and their greatness |
+| bahamut-c14 | exact | archive.org | The fish is named Bahamoot [Behemoth]; as its support God placed water, and under the water darkness, whose contents human knowledge cannot reach. | The name of this fish is Bahamoot [Behemoth]. He placed, as its support, water; and under the water, darkness: and the knowledge of mankind fails as to what is under the darkness |
+| bahamut-c15 | exact | archive.org | Many of the Arabs attribute earthquakes to the shaking of this bull. | Many of the Arabs attribute earthquakes to the shaking of this bull. |
+| bahamut-c16 | exact | www.altafsir.com | In the commentary explaining the letter Nun, Allah swears by the Nun, the whale that carries the earths on its back while in water; beneath it is the bull, under the bull the rock, and under the rock the dust. | Allah swears by the Nun, which is the whale that carries the earths on its back while in Water, and beneath which is the Bull and under the Bull is the Rock and under the Rock is the Dust and none knows what is under the Dust save Allah. |
+| bahamut-c17 | exact | www.altafsir.com | In that commentary the whale is named Liwash (or, it is said, Lutiaya), while the bull is named Bahamut, or according to some Talhut or Liyona. | The name of the whale is Liwash, and it is said its name is Lutiaya'; the name of the bull is Bahamut, and some say its name is Talhut or Liyona. |
 
 
 ## shahmaran — lulus-otomatis
@@ -302,10 +310,7 @@ Klaim 7 (exact 6, unreachable 1), sumber 2, gambar 0.
 
 ## shadow-person — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 24 (exact 24), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -315,14 +320,29 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | shadow-person-c04 | exact | en.wikipedia.org | Hollis describes shadow people as dark human silhouettes flickering in peripheral vision. | Hollis describes shadow people as dark silhouettes with human shapes and profiles that flicker in and out of peripheral vision |
 | shadow-person-c05 | exact | en.wikipedia.org | Believers and paranormal authors disagree over whether shadow people are evil, helpful, or neutral. | other believers and paranormal authors do not agree whether shadow people are either evil, helpful, or neutral |
 | shadow-person-c06 | exact | en.wikipedia.org | Hat Man is a variant named for the brimmed hat depicted on its head. | the "Hat Man", who shares the characteristics of general shadow people but is named for a fedora or other brimmed hat on his head. |
+| shadow-person-c07 | exact | skeptoid.com | In the reports described, the figure is most often a man who may wear a hat or a hood, and is often glimpsed only out of the corner of the eye as it flits across a wall or disappears through a doorway. | He's most often a man, and may be wearing a hat or a hood. A lot of times you'll only catch a glimpse of him out of the corner of your eye, as he flits across the wall or disappears through a doorway. |
+| shadow-person-c08 | exact | skeptoid.com | In other reports, shadow people appear as a full-bodied black apparition, jet black like a void in the darkness, featureless but for piercing empty eyes. | shadow people appear as a full-bodied black apparition, jet black like a void in the darkness itself, featureless but for their piercing empty eyes. |
+| shadow-person-c09 | exact | skeptoid.com | For hundreds of years the Chumash Indians and later residents of the Santa Lucia Mountains on California's central coast have told of the Dark Watchers, shadowy hatted, caped figures who appear on ridges at twilight and then fade away. | The foggy Santa Lucia Mountains run along the central coast of California, and for hundreds of years, the Chumash Indians and later residents have told of the Dark Watchers, shadowy hatted, caped figures who appear on ridges at twilight, only to fade away before your very eyes. |
+| shadow-person-c10 | exact | skeptoid.com | Skeptical explanations range from mistaking a real shadow of a person or object, through optical illusions and hallucinations caused by drugs or hypnagogic states, to simply making up the story. | These explanations run the gamut, all the way from mistaken identification of a real shadow from an actual person or object, to various causes of optical illusions or hallucinations like drugs or hypnogogic sleeping states, even simply lying and making up the story. |
+| shadow-person-c11 | exact | skeptoid.com | A hypnagogic hallucination is a vivid, lucid hallucination experienced while still falling asleep; a person is susceptible again on waking, when it is called hypnopompia. | A hypnogogic hallucination is a vivid, lucid hallucination you experience while you're still falling asleep. You're susceptible again eight hours later when you're waking up, only now it's called hypnopompia. |
+| shadow-person-c12 | exact | skeptoid.com | Paranormal enthusiasts offer further hypotheses; one proposes that shadow people are embodiments of real people who are elsewhere and engaged in astral projection. | Enthusiasts of the paranormal offer their own set of additional hypotheses about shadow people. One proposes that shadow people are the embodiments of actual people who are elsewhere but engaged in astral projection. |
+| shadow-person-c13 | exact | www.rollingstone.com | The Hat Man is described as the tall silhouette of a man in a brimmed hat, a presence that tends to appear when you are in bed at night, somewhere between sleep and consciousness. | It’s the tall silhouette of a man in a brimmed hat, a presence that tends to appear when you’re in bed at night, somewhere between sleep and consciousness. |
+| shadow-person-c14 | exact | www.rollingstone.com | Since the late 2000s, people have shared stories of a strange vision that sounds remarkably consistent from one account to the next. | Since the late 2000s, people have shared their stories of a strange vision that sounds remarkably consistent from one account to the next. |
+| shadow-person-c15 | exact | www.rollingstone.com | On 4chan and elsewhere, the Hat Man is often referenced as a hallucination brought on by abuse of diphenhydramine, the active ingredient in the over-the-counter allergy medication Benadryl. | on 4chan and elsewhere, the Hat Man is often referenced as a hallucination brought on by the abuse of diphenhydramine, or DHP, the active ingredient in the over-the-counter allergy medication Benadryl. |
+| shadow-person-c16 | exact | www.rollingstone.com | Some TikTok creators claim that the Hat Man is a real and potentially evil "shadow person". | some TikTok creators have gone in the other direction, claiming that he’s a real and potentially evil “shadow person.” |
+| shadow-person-c17 | exact | en.wikipedia.org | Various shadowy humanoids have long been a staple of folklore and ghost stories, such as the Islamic Jinn and the Choctaw Nalusa Falaya. | various shadowy humanoids have long been a staple of folklore and ghost stories, such as the Islamic Jinn and the Choctaw Nalusa Falaya. |
+| shadow-person-c18 | exact | en.wikipedia.org | A sleep paralysis sufferer may perceive a "shadowy or indistinct shape" approaching when lying awake paralyzed and growing increasingly alarmed. | A sleep paralysis sufferer may perceive a "shadowy or indistinct shape" approaching them when they lie awake paralyzed and become increasingly alarmed. |
+| shadow-person-c19 | exact | en.wikipedia.org | Hollis believes the figures to be negative aliens that can be repelled by various means, including invoking "the Name of Jesus". | She believes the figures to be negative aliens that can be repelled by various means, including invoking "the Name of Jesus". |
+| shadow-person-c20 | exact | en.wikipedia.org | Many methamphetamine addicts report the appearance of "shadow people" after prolonged periods of sleep deprivation. | Many methamphetamine addicts report the appearance of "shadow people" after prolonged periods of sleep deprivation. |
+| shadow-person-c21 | exact | en.wikipedia.org | An episode of the 1985 Twilight Zone series titled "The Shadow Man" dealt with a teenage boy who had a shadow person living under his bed. | An episode of the 1985 Twilight Zone series titled "The Shadow Man" dealt with a teenage boy who had a shadow person living under his bed. |
+| shadow-person-c22 | exact | en.wikipedia.org | Shadow people, described as "Shadow Men", feature prominently in the 2007 novel John Dies at the End. | Shadow people, described as "Shadow Men", feature prominently in the 2007 novel John Dies at the End. |
+| shadow-person-c23 | exact | en.wikipedia.org | In the 1998 video game LSD: Dream Emulator, a humanoid figure commonly known as the Gray Man may appear in some dreams and, if touched, undoes all dream progress and erases saved flashback data. | In the 1998 video game LSD: Dream Emulator, a humanoid figure commonly known as the Gray Man may appear in some dreams, who, if touched, undoes all dream progress and erases saved flashback data. |
+| shadow-person-c24 | exact | en.wikipedia.org | A shadow person, also known as a shadow figure or black mass, is a popular subject in paranormal and supernatural circles. | A shadow person (also known as a shadow figure or black mass) is a popular subject in circles of the paranormal and the supernatural |
 
 
 ## guayota — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 19 (exact 19), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -332,6 +352,19 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | guayota-c04 | exact | de.wikipedia.org | The Guanches appeal to their supreme god Achaman for help. | Die Guanchen baten daraufhin ihren obersten Gott, Achamán, um Hilfe. |
 | guayota-c05 | exact | de.wikipedia.org | Guayota is driven away and Magec returns to the sky. | Guayota wurde verjagt und Magec konnte zurück an den Himmel. |
 | guayota-c06 | exact | de.wikipedia.org | Achaman then seals Echeyde with a stopper described as a sugarloaf. | Achamán verschloss daraufhin den Echeyde mit einem Pfropf bzw. mit einem Zuckerhut. |
+| guayota-c07 | exact | archive.org | According to this text, the Guanches knew there was a hell and held that it was in the peak of Teyde. | Nevertheless, they knew that there was a hell, and they held that it was in the peak of Teyde. |
+| guayota-c08 | exact | archive.org | According to this text, the Guanches called that hell Echeyde and the devil Guayota. | They called it Echeyde ,8 and the devil Guayota |
+| guayota-c09 | exact | archive.org | A footnote in this text says that Echeyde or Teyde was translated as hell by the Spaniards. | Echeyde or Teyde was translated hell by the Spaniards. |
+| guayota-c10 | exact | archive.org | The text says the Guanches knew nothing of the immortality of souls, of future punishment, or of the glory in another life. | But they knew nothing of the immortality of souls, nor of future punishment, nor of the glory in another life. |
+| guayota-c11 | exact | en.wikipedia.org | In the Guanche mythology of Tenerife (the Canary Islands), Guayota was the principal malignant deity and Achamán's adversary. | Guayota, in Guanche mythology of Tenerife (the Canary Islands), was the principal malignant deity and Achamán's adversary. |
+| guayota-c12 | exact | en.wikipedia.org | According to Guanche legend, Guayota lived inside the Teide volcano, one of the gateways to the underworld. | According to Guanche legend, Guayota lived inside the Teide volcano, one of the gateways to the underworld. |
+| guayota-c13 | exact | en.wikipedia.org | He was said to be represented as a black dog and was accompanied by demons, also in the form of black dogs, known as tibicenas. | He was said to be represented as a black dog and was accompanied by demons, also in the form of black dogs, known as tibicenas. |
+| guayota-c14 | exact | en.wikipedia.org | According to legend, Guayota kidnapped Magec (the sun) and shut it up in Teide, plunging the world into darkness; humans prayed to Achamán, who saved Magec and instead locked Guayota up in Teide. | According to legend, Guayota kidnapped Magec (the sun) and shut it up in Teide, plunging the world into darkness. Humans prayed to Achamán who saved Magec and instead locked Guayota up in Teide. |
+| guayota-c15 | exact | en.wikipedia.org | Guayota shares features with other malignant deity-inhabitants of volcanoes, as in the case of the goddess Pele in Hawaiian mythology, who lived in the Kilauea volcano. | Guayota shares features similar to other malignant deity-inhabitants of volcanoes as in the case of the goddess Pele in Hawaiian mythology, who lived in the Kīlauea volcano |
+| guayota-c16 | exact | en.wikipedia.org | Guayota is the main antagonist in Night Broken by Patricia Briggs, the eighth novel in her Mercy Thompson series. | Guayota is featured as the main antagonist in Night Broken by Patricia Briggs, the eighth novel in her Mercy Thompson series. |
+| guayota-c17 | exact | en.wikipedia.org | In the indie video game Gaurodan, Guayota appears as the final boss. | In the indie video game Gaurodan, Guayota appears as the final boss. |
+| guayota-c18 | exact | de.wikipedia.org | Echeyde is the name for the dwelling of the demon Guayota. | Es ist der Name für die Wohnung des Dämons Guayota. |
+| guayota-c19 | exact | de.wikipedia.org | The name "el Teide" comes from the language of the Guanches, the island's original inhabitants, and was originally "Echeyde". | Der Name „el Teide“ kommt ursprünglich aus der Sprache der Guanchen, der Ureinwohner der Insel, und war ursprünglich „Echeyde“. |
 
 
 ## karkadann — lulus-otomatis
@@ -350,20 +383,35 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## udug — lulus-otomatis
 
-Klaim 6 (unreachable 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
-- `claims` 6 kutipan tidak bisa dicek otomatis: id.wikipedia.org (tidak bisa dibuka (fetch failed)).
+Klaim 25 (exact 24, loose 1), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| udug-c01 | unreachable (tidak bisa dibuka (fetch failed)) | id.wikipedia.org | Udug are an ambiguously defined class of demons in Mesopotamian mythology. | adalah golongan iblis yang ambigu dari mitologi Mesopotamia kuno |
-| udug-c02 | unreachable (tidak bisa dibuka (fetch failed)) | id.wikipedia.org | In Akkadian, udug later becomes known as utukku. | yang kelak dikenal dalam Akkadia sebagai utukku |
-| udug-c03 | unreachable (tidak bisa dibuka (fetch failed)) | id.wikipedia.org | Udug are described as born in the underworld Kur. | Mereka lahir di dunia bawah (Kur) |
-| udug-c04 | unreachable (tidak bisa dibuka (fetch failed)) | id.wikipedia.org | The term udug originally does not specify good or evil. | Kata ini pada awalnya tidak mengisyaratkan apakah iblis yang dimaksud itu baik atau jahat. |
-| udug-c05 | unreachable (tidak bisa dibuka (fetch failed)) | id.wikipedia.org | Exorcism texts invoke good udug against evil udug. | Teks-teks pengusiran setan kadang-kadang memanggil "udug yang baik" untuk melawan "udug jahat". |
-| udug-c06 | unreachable (tidak bisa dibuka (fetch failed)) | id.wikipedia.org | Udug can also serve as an umbrella term rather than one demon’s name. | Terkadang kata udug bahkan tidak merujuk pada iblis tertentu, melainkan berfungsi sebagai istilah payung |
+| udug-c01 | exact | id.wikipedia.org | Udug are an ambiguously defined class of demons in Mesopotamian mythology. | adalah golongan iblis yang ambigu dari mitologi Mesopotamia kuno |
+| udug-c02 | exact | id.wikipedia.org | In Akkadian, udug later becomes known as utukku. | yang kelak dikenal dalam Akkadia sebagai utukku |
+| udug-c03 | exact | id.wikipedia.org | Udug are described as born in the underworld Kur. | Mereka lahir di dunia bawah (Kur) |
+| udug-c04 | exact | id.wikipedia.org | The term udug originally does not specify good or evil. | Kata ini pada awalnya tidak mengisyaratkan apakah iblis yang dimaksud itu baik atau jahat. |
+| udug-c05 | exact | id.wikipedia.org | Exorcism texts invoke good udug against evil udug. | Teks-teks pengusiran setan kadang-kadang memanggil "udug yang baik" untuk melawan "udug jahat". |
+| udug-c06 | exact | id.wikipedia.org | Udug can also serve as an umbrella term rather than one demon’s name. | Terkadang kata udug bahkan tidak merujuk pada iblis tertentu, melainkan berfungsi sebagai istilah payung |
+| udug-c07 | exact | en.wikipedia.org | In one of the two Gudea cylinders, King Gudea of Lagash (ruled c. 2144–2124 BCE) asks a goddess to send a "good udug" to protect him and a lama to guide him. | In one of the two Gudea cylinders, King Gudea of Lagash (ruled c. 2144–2124 BCE) asks a goddess to send a "good udug" to protect him and a lama to guide him. |
+| udug-c08 | exact | en.wikipedia.org | Surviving ancient Mesopotamian exorcism instructions frequently invoke the "good udug" to provide protection or other aid while the exorcism is performed. | Surviving ancient Mesopotamian texts giving instructions for performing exorcisms frequently invoke the "good udug" to provide protection or other aid as the exorcism is being performed. |
+| udug-c09 | exact | en.wikipedia.org | The evil udug is often a vector for physical and mental illnesses. | The evil udug is often a vector for physical and mental illnesses. |
+| udug-c10 | exact | en.wikipedia.org | The udug-ḫul incantations emphasize the evil udug as the cause of sickness and focus primarily on driving it out to cure the illness. | The udug-ḫul incantations emphasize the role of the evil udug as the cause of sickness and focus primarily on attempting to drive out the evil udug to cure the illness. |
+| udug-c11 | exact | en.wikipedia.org | Konstantopoulos notes that "the udug is defined by what it is not: the demon is nameless and formless, even in its early appearances." | Konstantopoulos notes that "the udug is defined by what it is not: the demon is nameless and formless, even in its early appearances." |
+| udug-c12 | exact | en.wikipedia.org | A text from the Old Babylonian Period (c. 1830 – c. 1531 BCE) requests, "May the evil udug and the evil galla stand aside. May the good udug and good galla be present." | A text from the Old Babylonian Period (c. 1830 – c. 1531 BCE) requests, "May the evil udug and the evil galla stand aside. May the good udug and good galla be present." |
+| udug-c13 | exact | en.wikipedia.org | Descriptions of the udug ascribe to it features often given to other ancient Mesopotamian demons: a dark shadow, absence of light surrounding it, poison, and a deafening voice. | descriptions of it ascribe to it features often given to other ancient Mesopotamian demons: a dark shadow, absence of light surrounding it, poison, and a deafening voice. |
+| udug-c14 | exact | en.wikipedia.org | The canon of exorcism of the evil udug is known as udug-ḫul, whose Akkadian expansion (utukkū lemnūtu) is in sixteen tablets. | The canon of exorcism of the evil udug is known as udug-ḫul, the Akkadian expansion of which (known in Akkadian as utukkū lemnūtu) is in sixteen tablets. |
+| udug-c15 | exact | en.wikipedia.org | Because the udug is capable of both good and ill, Graham Cunningham argues that "the term daimon seems preferable" over "demon", the term normally used for it. | On account of the udug's capacity for both good and ill, Graham Cunningham argues that "the term daimon seems preferable" over the term "demon", which is the one normally used to describe it. |
+| udug-c16 | exact | en.wikipedia.org | F. A. M. Wiggerman has argued that images of Lama and the udug were frequently used to guard doorways. | F. A. M. Wiggerman has argued that images of Lama and the udug were frequently used to guard doorways. |
+| udug-c17 | loose | en.wikipedia.org | The udug (Sumerian: 𒌜) was later known in Akkadian as the utukku. | The udug (Sumerian: 𒌜), later known in Akkadian as the utukku |
+| udug-c18 | exact | en.wikipedia.org | One of the udug could be Hanbi. | One of the udug could be Hanbi. |
+| udug-c19 | exact | en.wikipedia.org | The tradition of Udug Hul incantations spans the entirety of ancient Mesopotamian history, among the earliest texts known written in Sumerian in the third millennium BCE and among the last Mesopotamian texts of late antiquity. | The tradition of Udug Hul incantations spans the entirety of ancient Mesopotamian history; they are among the earliest texts known written in Sumerian in the third millennium BCE, as well as among the last Mesopotamian texts of late antiquity |
+| udug-c20 | exact | archive.org | According to this study, the first evil spirit, utukku, was originally a spirit, spectre, or ghost. | The first evil spirit, utukku, was originally a spirit, spectre, or ghost |
+| udug-c21 | exact | archive.org | The study says the six chief classes of evil spirits are enumerated in a constantly recurring line of the incantations: Evil Spirit, evil Demon, evil Ghost, evil Devil, evil God, evil Fiend. | the six chief of these are enumerated in the constantly recurring line ... Evil Spirit, evil Demon, evil Ghost, evil Devil, evil God, evil Fiend |
+| udug-c22 | exact | archive.org | According to this study, in the Epic of Gilgamish the hero asks the god Nergal to restore his friend Ea-bani, and his prayer is answered: the god opens the earth and the utukku of Ea-bani rises up. | The story runs that the hero Gilgamish appeals to the god Nergal to restore his friend Ea-bani to him, and his prayer is answered, for the god opens the earth and the utukku of Ea-bani rises up |
+| udug-c23 | exact | archive.org | According to this study, the utukku was a ghost or spectre that lurked in the desert lying in wait for man. | it was a ghost or spectre that either lurked in the desert lying in wait for man |
+| udug-c24 | exact | archive.org | According to this study, the utukku might instead have its home in the mountains, sea, or graveyard. | in the mountains, sea, or graveyard |
+| udug-c25 | exact | archive.org | According to this study, evil would befall the person on whom it merely cast its eye. | evil would befall him on whom it merely cast its eye |
 
 
 ## asag — lulus-otomatis
@@ -423,10 +471,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## aisha-qandicha — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 34 (exact 33, loose 1), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -436,6 +481,34 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | aisha-qandicha-c04 | exact | en.wikipedia.org | Aisha Qandicha is associated with the Hamadsha and Zar societies. | Aisha Qandicha is associated with the Hamadsha and Zār societies |
 | aisha-qandicha-c05 | exact | en.wikipedia.org | The local beliefs discussed describe her as fearing steel knives and needles. | she is afraid of steel knives and needles |
 | aisha-qandicha-c06 | exact | en.wikipedia.org | Those beliefs name Hammu Qayyu as her husband or male associate. | has a husband (or male associate) known as Hammu Qayyu. |
+| aisha-qandicha-c07 | exact | archive.org | The text records that among the Arabic-speaking people of Northern Morocco there is a belief in this female spirit. | Among the Arabic-speaking people of Northern Morocco there is a belief in |
+| aisha-qandicha-c08 | exact | archive.org | Besides appearing as a grown woman, she has also been seen with the legs of a goat or an ass, or with a woman's legs and the body of a she-goat with long pendant breasts. | but she has also been seen with the legs of a goat or an ass, or with the legs of a woman and the body of a she-goat with long pendant breasts. |
+| aisha-qandicha-c09 | exact | archive.org | She is described as very libidinous and tries to seduce handsome young men. | She is very libidinous and tries to seduce handsome young men. |
+| aisha-qandicha-c10 | exact | archive.org | According to the account, the man who goes with her will be maddened by her. | and that he who does so will be maddened by her. |
+| aisha-qandicha-c11 | exact | archive.org | Her home, according to the text, is in a river or a spring or the sea. | She has her home, however, in a river or a spring or the sea. |
+| aisha-qandicha-c12 | exact | archive.org | According to the text, she seizes and kills persons who bathe there; every year three or four men fall victims to her in this way. | she seizes and kills persons who bathe there—indeed, every year three or four men fall victims to her in this way. |
+| aisha-qandicha-c13 | exact | archive.org | In one city she is said to appear in the shape of an ugly old woman with pendant breasts. | in the shape of an ugly old woman with pendant breasts. |
+| aisha-qandicha-c14 | exact | archive.org | Among the tribe named in the text, she has the vicious habit of approaching married men in the shapes of their wives and then taking their lives. | has the vicious habit of approaching married men in the shapes of their wives and then taking their lives. |
+| aisha-qandicha-c15 | exact | archive.org | According to the text, she is afraid of things of steel, even needles. | is afraid of things of steel, even needles |
+| aisha-qandicha-c16 | exact | archive.org | In that tribe, those who swim in the river on Midsummer day customarily first throw burning straw into it as an offering to her and her husband. | In the same tribe it is the custom for those who on Midsummer day take a swim in the river, first to throw into it burning straw with sčksů as an offering to ‘Aiša QandiSa and her husband |
+| aisha-qandicha-c17 | exact | archive.org | Her husband was described as a very tall individual who lives with her in the river. | The latter was described as a very tall individual, who lives with her in the river. |
+| aisha-qandicha-c18 | exact | archive.org | The text says another female spirit in the south seems on the whole to be a southerly variant of Aisha Qandicha. | Hárája seems on the whole to be a southerly variant of ‘Aiša Qandisa. |
+| aisha-qandicha-c19 | loose | archive.org | The author says he has not met with the belief in Aisha Qandicha farther south. | I have not met with the belief in ‘Aisa Qandisa farther south. |
+| aisha-qandicha-c20 | exact | archive.org | The author supposes that she is the old goddess of love degraded to a Moorish female spirit. | we have reason to suppose that ‘Aiša Qandîša is the old goddess of love degraded to a Moorish |
+| aisha-qandicha-c21 | exact | archive.org | The author connects her name with a word that was the name for a temple harlot in the Canaanitish cults. | was the name for a temple harlot in the Canaanitish cults. |
+| aisha-qandicha-c22 | exact | en.wikipedia.org | Westermarck's theory relied on an antiquated understanding of ancient Near Eastern deities. | Westermarck's theory relied on an antiquated understanding of ancient Near Eastern deities. |
+| aisha-qandicha-c23 | exact | en.wikipedia.org | A more recent proposal is that Kandicha derives from a real historical figure, a Moroccan "countess" (contessa) from el Jadida who helped resist the Portuguese by seducing soldiers who were then killed by Moroccan fighters lying in wait. | A more recent proposal is that Kandicha was derived from a real historical figure, namely a Moroccan "countess" (contessa) from el Jadida who helped resist the Portuguese by seducing soldiers, who were then killed by Moroccan fighters lying in wait. |
+| aisha-qandicha-c24 | exact | en.wikipedia.org | Although descriptions vary from region to region in Morocco, she is generally believed to wear a dark cloak with provocative clothing underneath and to use her beauty to seduce local men and then drive them mad or kill them. | Although descriptions of Aicha Kandicha vary from region to region in Morocco, she is generally believed to wear a dark cloak with provocative clothing underneath and to use her beauty to seduce local men and then drive them mad or kill them. |
+| aisha-qandicha-c25 | exact | en.wikipedia.org | She is said to be able to manipulate water by moving it or turning it to ice. | who can manipulate water by moving it or turning it to ice. |
+| aisha-qandicha-c26 | exact | en.wikipedia.org | She is one of a number of folkloric characters who are similar to jinn but have distinct personalities. | One of a number of folkloric characters who are similar to jinn but have distinct personalities |
+| aisha-qandicha-c27 | exact | en.wikipedia.org | In more southern regions of Morocco, including Doukkala, she is instead called "Kharaja." | In more southern regions of Morocco, including Doukkala, she is instead called "Kharaja." |
+| aisha-qandicha-c28 | exact | en.wikipedia.org | The Buffis believe her to wear black garments, have camel-like feet, cause pregnant women who see her to miscarry, and cause people she possesses to bray or bark like animals. | The Buffis believe her to wear black garments, have camel-like feet, cause pregnant women who see her to miscarry, and cause people she possesses to bray or bark like animals. |
+| aisha-qandicha-c29 | exact | en.wikipedia.org | In the traditions of the Buffi Sufi order, Aicha Kandicha is only one of several female jinn with the given name Aicha. | In the traditions of the Buffi Sufi order, Aicha Kandicha is only one of several female jinn with the given name Aicha |
+| aisha-qandicha-c30 | exact | en.wikipedia.org | Aicha Kandicha has been referenced in a number of Moroccan cultural works, including books, films, and songs, for example the Gnawa tune Lalla Aicha and the French horror movie Kandisha. | Aicha Kandicha has been referenced in a number of Moroccan cultural works, including books, films, and songs. One example is the Gnawa tune Lalla Aicha and the French horror movie Kandisha. |
+| aisha-qandicha-c31 | exact | en.wikipedia.org | Her name in Moroccan Arabic is written عائشة قنديشة. | Moroccan Arabic: عائشة قنديشة, romanized: ʿĀʾisha Qandīsha |
+| aisha-qandicha-c32 | exact | archive.org | The author records a story of a man in Tangier who once in the middle of the night met her in the street. | I was told of a man in Tangier who once in the middle of the night met her in the street |
+| aisha-qandicha-c33 | exact | archive.org | According to an old man in the story, every night at a certain hour she appears in the shape of a woman in the place where the man met her, trying to induce men to go with her. | every night at a certain hour appears in the shape of a woman in the place where he met her, trying to induce men to go with her; |
+| aisha-qandicha-c34 | exact | archive.org | According to the people of Tetuan, she resides in the river outside that town. | to the people of Tetuan, she resides in the river outside that town |
 
 
 ## al-folklore — lulus-otomatis

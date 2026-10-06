@@ -1,13 +1,10 @@
 # Review batch-068
 
-Diperiksa 2026-10-01T13:29:27.734Z. Berkas: batch-068.md, batch-068-fix-1.md.
+Diperiksa 2026-10-06T15:22:08.023Z. Berkas: batch-068.md, batch-068-fix-1.md, batch-068-fix-2.md.
 
 ## sky-fox-mythology — lulus-otomatis
 
-Klaim 6 (exact 5, loose 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 14, loose 1), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -15,16 +12,22 @@ Klaim 6 (exact 5, loose 1), sumber 1, gambar 0.
 | sky-fox-mythology-c02 | exact | en.wikipedia.org | The tale describes a thousand-year-old nine-tailed fox spirit becoming a golden celestial fox. | The Sky Fox (Chinese: 天狐; pinyin: tiān hú), or Celestial Fox is a type of divine beast in East Asian mythology. After reaching 1,000 years of age and gaining its ninth tail, a fox spirit turns a golden color, becoming a sky fox, the most powerful form of the fox spirit, and then ascends to the heavens. |
 | sky-fox-mythology-c03 | exact | en.wikipedia.org | This transformation is followed by the fox's ascent to heaven. | The Sky Fox (Chinese: 天狐; pinyin: tiān hú), or Celestial Fox is a type of divine beast in East Asian mythology. After reaching 1,000 years of age and gaining its ninth tail, a fox spirit turns a golden color, becoming a sky fox, the most powerful form of the fox spirit, and then ascends to the heavens. |
 | sky-fox-mythology-c04 | exact | en.wikipedia.org | The Taiping Guangji contains sky-fox accounts with male figures in those records. | The stories of the Sky Fox are first recorded in Taiping Guangji, which contains numerous accounts of these Sky Foxes. Notably, the Sky Foxes documented in this source are all male. In later records, however, female celestial foxes also appear. |
-| sky-fox-mythology-c05 | loose | en.wikipedia.org | The Jin-period Xuanzhongji also records age-related fox transformations. | The mythology of multi-tailed foxes originate from the beliefs of Ancient China. A collection of stories dating from the Jin dynasty known as Xuanzhongji (玄中记; 玄中記; Xuánzhōngjì) records: |
-| sky-fox-mythology-c06 | exact | en.wikipedia.org | The quoted Xuanzhongji links a thousand years of age with transformation into Sky Fox. | "When a fox reaches the age of fifty, it is able to transform into a woman. At a hundred years old, a beauty or a female shaman, who knows about outside affairs a thousand li away. It's kindness and charm make people confused and demented. At a thousand years, the fox connects with the Sky and is transformed into the Sky Fox." |
+| sky-fox-mythology-c05 | loose | en.wikipedia.org | The Jin-period Xuanzhongji also records age-related fox transformations. | A collection of stories dating from the Jin dynasty known as Xuanzhongji (玄中记; 玄中記; Xuánzhōngjì) records: |
+| sky-fox-mythology-c06 | exact | en.wikipedia.org | The quoted passage links a thousand years of age with transformation into Sky Fox. | "When a fox reaches the age of fifty, it is able to transform into a woman. At a hundred years old, a beauty or a female shaman, who knows about outside affairs a thousand li away. It's kindness and charm make people confused and demented. At a thousand years, the fox connects with the Sky and is transformed into the Sky Fox." |
+| sky-fox-mythology-c07 | exact | en.wikipedia.org | In its new celestial form, the fox is said to be able to see a thousand li ahead. | With its new celestial form, it is able to see a thousand li ahead |
+| sky-fox-mythology-c08 | exact | en.wikipedia.org | In the Taiping Guangji, sky foxes, though regarded as divine, often cause trouble in the human world and are subdued by Taoist priests. Because they are celestial emissaries they are spared execution and are typically beaten or exiled to foreign lands. | In Taiping Guangji, the Sky Foxes, despite being considered divine beings, often cause trouble in the human world and are ultimately subdued by Taoist priests. However, due to their status as celestial emissaries, they are spared from execution. Instead of being killed, the Sky Foxes are typically beaten or exiled to foreign lands as punishment. |
+| sky-fox-mythology-c09 | exact | en.wikipedia.org | The traits of nine tails and golden fur were assimilated into the depiction of the female fox spirit Daji, who is often portrayed with these features. | The characteristics of having nine tails and golden fur are assimilated into the depiction of the female fox spirit Daji (妲己), whose appearance is often portrayed with these features. |
+| sky-fox-mythology-c10 | exact | en.wikipedia.org | The Korean kumiho of the Joseon-era novel Jeon Woo-chi shares traits with the Sky Fox: nine tails, golden fur, the Cheonseo ("sky book"), and an attempt to escape to the heavens. | The Korean kumiho that appears in the Joseon-era novel Jeon Woo-chi also shares characteristics of the Sky Fox. Like the Sky Fox, the kumiho possesses nine tails and golden fur, carries the Sky Fox’s signature item known as the Cheonseo ("sky book"), and attempts to escape to the heavens. |
+| sky-fox-mythology-c11 | exact | en.wikipedia.org | In the Edo period of Japan, tenko were considered the highest rank of foxes. | In the Edo period of Japan, Tenko were considered to be of the highest rank of foxes |
+| sky-fox-mythology-c12 | exact | en.wikipedia.org | In Ojika, Nagasaki, the tenko is a kind of spirit possession, and those possessed by it are said to have a divination ability that is always correct. | In Ojika, Nagasaki, the tenko is a type of spirit possession, and it is said that those who are possessed by it have a divination ability that is always correct |
+| sky-fox-mythology-c13 | exact | zh.wikisource.org | This passage, credited to the Xuanzhongji (玄中記), says a fox can turn into a woman at fifty years, a beauty or shaman who knows affairs a thousand li away at a hundred, and at a thousand years connects with heaven and becomes a tianhu (sky fox). | 狐五十歲，能變化為婦人。百歲為美女，為神巫，或為丈夫與女人交接，能知千里外事，善盅魅，使人迷惑失智。千歲即與天通，為天狐。〈（出《玄中記》）〉 |
+| sky-fox-mythology-c14 | exact | zh.wikisource.org | This text, credited to the Youyang Zazu (酉陽雜俎), says Taoist arts have a separate practice (bie xing fa) for the celestial fox: it is nine-tailed and gold in color, serves in the palaces of the sun and moon, and with talismans and sacrificial days can penetrate yin and yang. | 道術中有天狐別行法，言天狐九尾，金色，役於日月宮，有符有醮日，可以洞達陰陽。〈（出《酉陽雜俎》）〉 |
+| sky-fox-mythology-c15 | exact | zh.wikisource.org | In the account credited to the Guangyi ji (廣異記), Gongyuan (公遠) says this is a tianhu that cannot be killed and should be exiled to the east; it is banished to Silla (新羅) by talisman, the fox flies off holding it, and the locals in Silla revere the god Liu Cheng (劉成). | 公遠上白云：「此是天狐，不可得殺。宜流之東裔耳！」書符流於新羅，狐持符飛去。今新羅有劉成神，土人敬事之。〈（出《廣異記》）〉 |
 
 
 ## cheukshin — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -34,14 +37,20 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | cheukshin-c04 | exact | ko.wikipedia.org | Certain rites were performed on lunar days six, sixteen, and twenty-six. | 여신은 숫자 6을 포함하는 3일 안에 나타난다고 믿었다. 한국인들은 우연히 그녀의 분노를 불러일으키지 않기 위해 이 3일 동안 측간을 피했다. 그래서 한국인은 음력 6일, 16일, 26일에 신발이나 아이가 측간 구덩이에 빠지면 그녀에게 제사를 지냈다. 돼지가 병에 걸려 죽었을 때, 여신의 분노에 대한 예언이 있을 때, 또는 측간이 지어졌을 때 제사도 그녀를 위해 행해졌다. |
 | cheukshin-c05 | exact | ko.wikipedia.org | Offerings included rice cakes and cooked rice. | 측신제 때 한국인들은 가능한 모든 재료를 떡 안에 넣었는데, 이 똥떡은 여신에게 바쳐졌다. 멥쌀밥도 여신에게 바쳐졌다. |
 | cheukshin-c06 | exact | ko.wikipedia.org | One belief describes coughing three times before entry to avoid an attack with her hair. | 누군가가 세 번 기침을 하지 않고 측간에 들어오면 측신은 긴 머리를 이용해 침입자를 공격한다고 믿었다. 측신의 머리카락이 침입자의 살갗에 닿자 침입자는 병들어 죽고 만다. 무당이라도 머리카락으로 사람을 공격하면 여신을 달래지 못한다. |
+| cheukshin-c07 | exact | encykorea.aks.ac.kr | Cheuksin is a household god (gasin) believed to be an evil god (aksin) presiding over the toilet; she is also called "dwitgan gwisin" (뒷간귀신, outhouse ghost) and "buchul gaksi" (부출각시). | 악신으로 화장실을 관장한다는 가신(家神). 뒷간귀신·부출각시(跗出閣氏). |
+| cheukshin-c08 | exact | encykorea.aks.ac.kr | Cheuksin is generally a long-haired female god with a fierce, easily angered temper who has been feared; illness or accidents in the toilet are believed to be her doing. | 대개 여성 신으로 머리가 길며, 성격이 포악하고 노여움을 잘 타서 두려운 존재로 여겨져 왔다. 변소에서 병을 얻거나 사고가 나는 것은 바로 이 신의 소행이라고 믿어지고 있다. |
+| cheukshin-c09 | exact | encykorea.aks.ac.kr | Cheuksin is also known by the names dwitgan gwisin (뒷간귀신), buchul gaksi (부출각시), byeonso gaksi (변소각시), chikdo buin (칙도부인), cheuksin gaksi (측신각시), chigwi (치귀), and jeongnang gwisin (정낭귀신). | 일명 ‘뒷간귀신’ · ‘부출각시(跗出閣氏)’ · ‘변소각시’ · ‘칙도부인’ · ‘측신각시’ · ‘치귀’ · ‘정낭귀신’ 등으로 불린다. |
+| cheukshin-c10 | exact | encykorea.aks.ac.kr | Her origin appears in the Munjeon Bonpuri (문전본풀이) of Jeju Island (제주도): the daughter of Noiljedaegwiil (노일제대귀일), concubine of Nam Seonbi (남선비), killed the first wife and tried to kill her seven sons, but her plot was exposed and she fled to the latrine, hanged herself, and became Cheukdo Buin (측도부인). | 제주도 『문전본풀이』에 그 유래가 나타나는데, 집안의 각처를 관장하고 있는 신들의 형성유래담인 이 신화에 의하면, 남(南)선비의 첩인 노일제대귀일의 딸은 본부인을 죽이고 그의 일곱 아들까지 죽이려다 흉계가 드러나 측간으로 도망가 목을 매어 죽어 측도부인이 되었다고 한다. |
+| cheukshin-c11 | exact | encykorea.aks.ac.kr | Because the first wife Jowang (조왕, 竈王) and the concubine Cheukdo Buin (측도부인) are said to be enemies, a custom arose of building the kitchen and latrine far apart and not carrying even a stone or stick from the latrine to the kitchen, or kitchen items to the latrine. | 본부인 조왕(竈王) ... 시앗인 측도부인은 원수간이라 하여 부엌과 측간은 멀리 짓고, 측간의 돌멩이 하나, 나무 하나라도 부엌으로 가져오지 않으며, 부엌의 물건 역시 측간에 가져가지 않는 관습이 생겼다고 한다. |
+| cheukshin-c12 | exact | encykorea.aks.ac.kr | Cheuksin gaksi is said to be always counting her long hair coiled beneath her feet; if someone enters the latrine suddenly she is startled and throws the hair over them, and the person falls ill; once she is angry even a shaman's ritual rarely appeases her and the person usually dies. | 측신각시는 늘 긴 머리카락을 발 밑에 감고 세고 있다가 사람이 갑자기 변소에 들어오면 깜짝 놀라서 세던 머리카락을 뒤집어 씌운다고 한다. 머리카락에 씌어진 사람은 병을 앓게 되는데, 이 측신각시는 놀라서 화가 났다 하면 무당이 굿을 하여도 잘 풀어지지 않아 대개는 죽는다고 한다. |
+| cheukshin-c13 | exact | encykorea.aks.ac.kr | Cheuksin is not always in the latrine but is said to appear only on days containing the number 6, the 6th, 16th, and 26th of each month, so it is considered good to be cautious and observe taboos on those days. | 그런데 측신은 늘 변소에 있는 것이 아니고 매월 6일 · 16일 · 26일과 같이 6자가 있는 날에만 나타난다고 하여, 이 날은 근신하고 금기하는 것이 좋다고 한다. |
+| cheukshin-c14 | exact | encykorea.aks.ac.kr | Coughing three times outside before entering the latrine is interpreted as a measure to avoid misfortune. | 변소 출입시에 밖에서 기침을 세 번하고 들어간다거나 ... 화를 면하기 위한 방책으로 해석된다. |
+| cheukshin-c15 | exact | encykorea.aks.ac.kr | In Gangwon Province (강원도), after a latrine is built, an auspicious day is chosen to light a lamp in the latrine and hold a rite asking for the household to be cared for without mishap. | 강원도에서는 변소를 지은 뒤에 아무 탈없이 집안을 편안하게 보살펴달라는 기원에서 길일을 택하여 변소에 불을 켜놓고 제(祭)를 지낸다. |
 
 
 ## dokkakgwi — lulus-otomatis
 
-Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (loose 2, exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -49,14 +58,18 @@ Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
 | dokkakgwi-c02 | exact | en.wikipedia.org | Dokkakgwi is one form of dokkaebi, which may arise from spirit-bearing inanimate objects. | Unlike ghosts (gwisin), which are believed to be the souls of the dead, dokkaebi are supernatural beings associated with inanimate objects that have acquired a spirit, including old brooms, inkstones, and household tools stained with human blood. The one-legged dokkakgwi is one form of the dokkaebi. |
 | dokkakgwi-c03 | loose | en.wikipedia.org | Chinese one-legged-being traditions are considered possible influences on later Korean traditions. | One-legged supernatural beings appear in early Chinese mythology and may have influenced later Korean traditions. The Chinese classic Classic of Mountains and Seas (Shanhaijing) describes a one-legged mountain spirit or beast called Kui (夔). In southern China, the Wutong Shen (五通神) was also known as the "One-legged Wutong" (独脚五通). |
 | dokkakgwi-c04 | exact | en.wikipedia.org | In developments after the Six Dynasties, the being was also associated with wealth and fortune. | After the Six dynasties period, the figure developed other characteristics. It came to be associated with wealth and good fortune, as well as with a lecherous monster that attacked women. One explanation attributes these changes to the southward migration of the Han people and its influence on the beliefs of ethnic minorities. |
+| dokkakgwi-c05 | exact | encykorea.aks.ac.kr | Dokkaebi are also called by names such as dokkakgwi (독각귀, 獨脚鬼); from records in several texts such as the Samguk Yusa (삼국유사), dokkaebi belief is presumed to have existed already in the Three Kingdoms period (삼국시대). | 도채비·독각귀(獨脚鬼)·독갑이［狐魅］·허주(虛主)·허체(虛體)·망량(魍魎)·영감(제주도) 등의 이름으로 불리기도 한다. ≪삼국유사≫ 등 여러 문헌에도 기록되어 있는 것을 볼 때 삼국시대도 이미 도깨비신앙이 존재하고 있었다고 추측된다. |
+| dokkakgwi-c06 | exact | encykorea.aks.ac.kr | Dokkaebi that have a form are told of as having disheveled hair, having only one leg and so hopping about, or being so tall they touch the sky with their heads above the clouds. | 형체가 있는 도깨비의 모습은 머리를 산발하고 다닌다든지, 다리가 하나밖에 없어서 껑충껑충 뛰어다닌다든지, 키가 커서 하늘까지 닿고 머리가 구름 위에 솟아 있다고 전해져 내려온다. |
+| dokkakgwi-c07 | exact | encykorea.aks.ac.kr | The single leg of the dokkaebi is said to be black as if lacquered; because the Baopuzi (포박자, 抱朴子) also records that dokkaebi have only one foot, the story of the one foot is judged to have been widespread in the East (동양) since ancient times. | 하나밖에 없는 다리는 옻칠한 것같이 검으며, 키가 너무 커서 옷을 못 해 입고 백지로 가릴 곳만 가리고 있다고도 한다. ≪포박자 抱朴子≫에도 도깨비는 발이 하나밖에 없다고 기록된 것을 볼 때 도깨비의 발이 하나라는 이야기는 고대부터 동양에 널리 퍼진 것임을 알 수 있다. |
+| dokkakgwi-c08 | exact | encykorea.aks.ac.kr | In a folktale, a young man returning from the market meets a dokkaebi that challenges him to wrestle; he wins repeatedly because the dokkaebi has only one leg and is easily thrown by hooking it. | 옛날 한 젊은이가 장에 갔다오는 길에 도깨비를 만났다. 도깨비는 젊은이에게 씨름을 하자고 청하였고 젊은이는 도깨비와 여러 번 씨름을 해서 이겼다. 도깨비는 계속해서 대들었지만 다리가 하나밖에 없었으므로 젊은이는 다리를 감아 쉽게 넘어뜨릴 수 있었다는 이야기이다. |
+| dokkakgwi-c09 | exact | encykorea.aks.ac.kr | Unlike ghosts that come from the souls of the dead, dokkaebi are said to arise from natural objects such as trees and stones and often appear in mountains and fields. | 사람이 죽은 다음 그 영혼이 변해서 되는 귀신과는 달리, 도깨비는 나무·돌 등의 자연물이 변해서 되고 산과 들에서 흔히 나타난다. |
+| dokkakgwi-c10 | exact | encykorea.aks.ac.kr | Dokkaebi are said to be ever-changing, able to become invisible, and, through their supernatural power, to show superhuman strength. | 도깨비는 변화무쌍하여 눈에 보이지 않는 투명체가 될 수도 있고, 신통력을 가지고 있어서 초인간적인 괴력을 나타내기도 한다. |
+| dokkakgwi-c11 | exact | encykorea.aks.ac.kr | The first of the most prominent characteristics of dokkaebi is that they greatly enjoy mischievous pranks. | 도깨비의 가장 두드러진 특징은 다음과 같다. 첫째 심술궂은 장난을 매우 즐긴다는 점이다. |
 
 
 ## feng-mythology — lulus-otomatis
 
-Klaim 4 (loose 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (loose 5, exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -64,30 +77,42 @@ Klaim 4 (loose 4), sumber 1, gambar 0.
 | feng-mythology-c02 | loose | en.wikipedia.org | Its flesh is believed to regrow as quickly as it is eaten. | In Chinese mythology and folklore, Feng (Chinese: 封; pinyin: Fēng; lit. 'mound', 'hump') is an edible monster that resembles a two-eyed lump of meat and magically grows back as fast as it is eaten. Early Chinese texts also referred to this legendary food with the names Shìròu (視肉; 'look like meat'), Ròuzhī (肉芝; 'meat excrescence'), and Tàisuì (太歲; "great year; Jupiter"). |
 | feng-mythology-c03 | loose | en.wikipedia.org | Shirou, Rouzhi, and Taisui are names used in early texts. | In Chinese mythology and folklore, Feng (Chinese: 封; pinyin: Fēng; lit. 'mound', 'hump') is an edible monster that resembles a two-eyed lump of meat and magically grows back as fast as it is eaten. Early Chinese texts also referred to this legendary food with the names Shìròu (視肉; 'look like meat'), Ròuzhī (肉芝; 'meat excrescence'), and Tàisuì (太歲; "great year; Jupiter"). |
 | feng-mythology-c04 | loose | en.wikipedia.org | The name shirou joins elements denoting sight and flesh. | Shìròu (視肉; "looks like meat") compounds shi (視; 'regard', 'look at/upon', 'inspect', 'watch', 'sight', 'vision') with rou (肉; 'meat', 'flesh', 'pulp', ''flesh' of melons/etc.'). The Kangxi Dictionary entry for shi (視) quotes Guo Pu's Shanhaijing commentary to use the otherwise unattested variant jùròu (聚肉, with 聚; 'gather', 'assemble', 'get together'). |
+| feng-mythology-c05 | exact | en.wikipedia.org | Kuo notes that the look-flesh creature is a mass of flesh like an ox liver with two eyes; even though eaten it is never consumed, because it grows again and is born again in its former form. | Kuo notes that the look-flesh creature "is a mass of flesh which looks like the liver of an ox; it has two eyes. Even though you eat it, it is never really consumed, because it grows again, and is born again in the same form as it was before." |
+| feng-mythology-c06 | exact | en.wikipedia.org | In Guo Pu's (276-324) commentary on the Shanhaijing, the shirou is described as a lump of meat shaped like an ox liver with two eyes, edible, with more to be found; such things are called Feng and are edible. | The Shanhaijing commentary of Guo Pu (276-324) provides invaluable information about the shirou and turou ... It is a lump of meat in the shape of an ox liver. There are two eyes in it. It can be eaten as food. More of them can be found. Such things are called Feng and are edible. |
+| feng-mythology-c07 | exact | en.wikipedia.org | The Classic of Mountains and Seas uses the name Shirou 14 times, and scholars generally date these sections to about the 1st century BCE to 1st century CE, making shirou the earliest recorded name for feng. | The Classic of Mountains and Seas has 14 usages of Shìròu ... Scholars generally date these textual sections from around the 1st century BCE to 1st century CE, making shirou the earliest recorded name for feng. |
+| feng-mythology-c08 | exact | en.wikipedia.org | This myth may constitute a utopian idea of a never-ending supply of meat, from the perspective of the inhabitants of poor rural areas. | This myth may constitute a utopian idea of a never-ending supply of meat, from the perspective of the inhabitants of poor rural areas. |
+| feng-mythology-c09 | exact | en.wikipedia.org | Feng is considered to be the earthly manifestation of the shen (spirit) of Jupiter. | Feng is considered to be the earthly manifestation of Jupiter's shen |
+| feng-mythology-c10 | exact | en.wikipedia.org | A quoted text says that if in the mountains one meets a little man seven or eight inches tall riding in a palanquin or on a horse, it is a "flesh excrescence", and by seizing and taking it one immediately becomes a genie. | If in the mountains you should come across a little man seven or eight inches tall riding in a palanquin or on a horse, it will be a flesh excrescence. By seizing and taking it you will immediately become a genie. |
+| feng-mythology-c11 | exact | en.wikipedia.org | In an anecdote, a found object is identified as Feng as recorded in the book Baize Tu, with the remark that eating such a thing increases one's physical strength. | This was actually Feng as recorded in the book Baize Tu. Eating such a thing will increase one's physical strength. |
+| feng-mythology-c12 | loose | en.wikipedia.org | Roulingzhi ("meaty Lingzhi mushroom") is a modern name popularized by Chinese news media reporting on purported discoveries of Feng throughout China. | Ròulíngzhī (肉靈芝; "meaty Lingzhi mushroom") is a modern name popularized by Chinese news media reporting on purported discoveries of Feng throughout China. |
+| feng-mythology-c13 | exact | zh.wikisource.org | This classical text says that on Mount Di (狄山), where Emperor Yao (帝堯) and Emperor Ku (帝嚳) are buried on its slopes, there are bears, striped tigers, leopards, and the 視肉 (shirou). | 狄山，帝堯葬于陽，帝嚳葬于陰。爰有熊、羆、文虎、蜼、豹、離朱、視肉。吁咽、文王皆葬其所。 |
 
 
 ## four-mountains — lulus-otomatis
 
-Klaim 5 (loose 2, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (loose 2, exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | four-mountains-c01 | loose | en.wikipedia.org | Four Mountains is a Chinese mythological figure or group with an identity varying by source. | Four Mountains or Four Peaks (traditional Chinese: 四嶽; simplified Chinese: 四岳; pinyin: Sìyuè) variously interpreted from Chinese mythology or the most ancient level of Chinese history as being a person or four persons or four gods, depending upon the specific source. |
 | four-mountains-c02 | loose | en.wikipedia.org | Sources interpret it as one person, four people, or four gods. | Four Mountains or Four Peaks (traditional Chinese: 四嶽; simplified Chinese: 四岳; pinyin: Sìyuè) variously interpreted from Chinese mythology or the most ancient level of Chinese history as being a person or four persons or four gods, depending upon the specific source. |
-| four-mountains-c03 | exact | en.wikipedia.org | Yang Lihui interprets it as four mountain gods, while Wu proposes a ministerial office. | Mythologist Yang Lihui sees Four Mountains as four gods of a set of four mountains, with Four Mountains referring to the actual mountains themselves. K. C. |
+| four-mountains-c03 | exact | en.wikipedia.org | Yang Lihui sees Four Mountains as four gods of a set of four mountains, with the term referring to the actual mountains themselves. | Mythologist Yang Lihui sees Four Mountains as four gods of a set of four mountains, with Four Mountains referring to the actual mountains themselves. |
 | four-mountains-c04 | exact | en.wikipedia.org | Its name uses words for four and a great mountain or highest peak. | The name "Four Mountains" in Chinese uses 四 (sì), the standard character/word for the number four, plus 嶽 (yuè), which refers to a great mountain, or the highest peak of a mountain — in contrast to the usual word for mountain, 山 (shān), which may also be used to refer to a mere foothill or other geological prominence. |
 | four-mountains-c05 | exact | en.wikipedia.org | Christie connects it with four directions in square-earth cosmology. | Anthony Christie relates the figure of Four Mountains to the Chinese cosmological idea of a square earth, with each of the peaks representing one of the four cardinal directions which the ruler would tour, and at which he would perform various imperial rituals, upon taking possession of his realm. |
+| four-mountains-c06 | exact | en.wikipedia.org | K. C. Wu sees Four Mountains as a ministerial position established by Yao to "oversee the mundane affairs of the empire", but points out that no real description of its functions exists and it is uncertain whether one or four persons held it. | K. C. Wu sees Four Mountains as being a ministerial position established by Yao to "oversee the mundane affairs of the empire", but points out that a real description of the functions of this position is lacking, nor is it certain whether there were one or four persons holding this ministerial position |
+| four-mountains-c07 | exact | en.wikipedia.org | In this reading, the evidence suggests there were four of them, charged with keeping informed about what was going on throughout Yao's domain and advising him upon request. | however, he goes on to say that the evidence suggests the existence of four of them, and that they were charged with keeping themselves knowledgeable about what was going on throughout Yao's domain and advising him upon request. |
+| four-mountains-c08 | exact | en.wikipedia.org | The importance of Four Mountains is seen in its key role in selecting Gun as the first put in charge of controlling the flood, and later in nominating Shun as Yao's co-emperor and successor. | The importance of Four Mountains can be seen in the key role of selecting Gun to be the first to be put in charge of controlling the flood, then, later, in nominating Shun to be Yao's co-emperor, and later successor. |
+| four-mountains-c09 | exact | en.wikipedia.org | The ambiguous Four Mountains feature prominently in the myth of the Great Flood and the related myths of Emperor Yao (in whose reign the flood began), Gun, Shun, and Yu the Great (who finally controlled the flood waters under Shun and later succeeded him as emperor). | The ambiguous Four Mountains feature prominently in the myth of the Great Flood, and the related myths of Emperor Yao (in whose reign the Great Flood began), Gun, Shun (Yao's successor of the Youyu-shi), and Yu the Great (who finally controlled the flood waters during the reign of Shun, and later succeeded him as emperor). |
+| four-mountains-c10 | exact | en.wikipedia.org | Anne Birrell says Four Peaks (an alternate term for Four Mountains) is a "synonym for the ruling nobility of the four quarters of the world in the archaic era; also four mountains". | Anne Birrell says that Four Peaks (alternate term for Four Mountains) is a "synonym for [the] ruling nobility of the four quarters of the world in the archaic era; also four mountains". |
+| four-mountains-c11 | exact | zh.wikisource.org | In this classical text the emperor addresses the Four Mountains (四岳), saying he has held his position for seventy years, that they are able to carry out his commands, and referring to his seat (朕位); the reply recorded for 岳 is that their virtue is lacking and would disgrace the imperial seat. | 帝曰：「咨！四岳！朕在位七十載，汝能庸命，巽朕位？」 ... 岳曰：「 否一作「鄙」德忝帝位。」 |
+| four-mountains-c12 | exact | zh.wikisource.org | After twenty-eight years 放勛 died and the people mourned as for a lost parent; on the first day of the first month Shun (舜) went to the temple of Wenzu (文祖), consulted the Four Mountains (四岳), and opened the four gates. | 二十有八載，放勛乃殂落，百姓如喪考妣，三載，四海遏密八音。 ... 月正元日，舜格于文祖。詢于四岳，辟四門，明四目 |
+| four-mountains-c13 | exact | zh.wikisource.org | Shun (舜) addresses the Four Mountains (四岳) and asks who is able to achieve great things, advance the emperor's work, and be installed in the post of 百揆; all (僉) answer that Bo Yu (伯禹) be made Sikong (司空), and the emperor tells Yu (禹) to regulate the waters and the land. | 舜曰：「咨！四岳！有能奮庸，熙帝之載，使宅百揆，亮采惠疇？」 ... 僉曰：「伯禹作司空。」 ... 帝曰：「俞，咨！禹，汝平水土，惟時懋哉！」 |
+| four-mountains-c14 | exact | zh.wikisource.org | This classical text says the ruler received the Four Mountains (四岳) and the regional chiefs (羣牧) in audience and distributed jade tokens to the lords (羣后); in the second month he toured eastward as far as Daizong (岱宗) and received the eastern lords (東后). | 既月乃日，覲四岳羣牧，班瑞于羣后。 ... 歲二月，東巡 守一作「狩」，至于岱宗，柴，望秩于山川，肆覲東后。 |
 
 
 ## huan-dou — lulus-otomatis
 
-Klaim 5 (exact 4, loose 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 13, loose 1), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -95,15 +120,21 @@ Klaim 5 (exact 4, loose 1), sumber 1, gambar 0.
 | huan-dou-c02 | exact | en.wikipedia.org | Tradition describes his exile as one of the Four Criminals under Shun. | Huandou or Huantou was a Miao ruler of the Sanmiao tribe in ancient Chinese tradition, known for his exile and branding as one of the Four Criminals during the reign of Emperor Shun of the Youyu clan. Later texts regard Huandou as a mythical creature or state. Little is known about Huandou beyond posthumous accounts, particularly in the Chinese classics and Confucian texts. |
 | huan-dou-c03 | exact | en.wikipedia.org | The names Huandou and Huantou have several written variants. | Huandou's name is recorded in several ways, all of which generally read the same: 歡/讙兜 Huandou, 讙/驩頭 Huantou, 鴅兜 Huandou, and 鴅吺 Huandou. |
 | huan-dou-c04 | loose | en.wikipedia.org | Zhang Shoujie equates him with Hundun, while the Lüshi Chunqiu uses it as a state's name. | Zhang Shoujie identifies Huandou as a being synonymous with Hundun, a mythical creature symbolising the primordial chaos. Lüshi Chunqiu identifies Huandou as the name of a state (驩兜之國) rather than a person, something echoed in the Classic of Mountains and Seas, which synthesises this with the person narrative. |
-| huan-dou-c05 | exact | en.wikipedia.org | The tale describes Huandou recommending Gonggong for flood control, with Yao rejecting him. | Huandou ruled during a time where the Miao people maintained shaky relations with the neighbouring Taotang and Youyu clans. At the same time, a great flood devastated the region, and Emperor Yao sought to find someone to bring them under control. |
+| huan-dou-c05 | exact | en.wikipedia.org | The tale describes Huandou recommending Gonggong for flood control, with Yao rejecting him. | Huandou recommended Gonggong, at the time the ruler of his clan, to which Yao rejected him, believing him to be a rebellious and flawed leader. |
+| huan-dou-c06 | exact | en.wikipedia.org | The invasion by Yu led Huandou to retreat to Mt. Chong. | The invasion by Yu led to Huandou retreating to Mt. Chong |
+| huan-dou-c07 | exact | en.wikipedia.org | In a second invasion by Yu the Great, Huandou was finally defeated, leading to the destruction of the Sanmiao. | During a second invasion from Yu the Great, Huandou would finally be defeated, leading to the destruction of the Sanmiao |
+| huan-dou-c08 | exact | en.wikipedia.org | The Classic of Mountains and Seas records Huandou as a descendant of Zhuanxu, progenitor of the Youyu clan and himself a descendant of the Yellow Emperor; another account in the same text calls him the grandson of Gun, Earl of Chong. | The Classic of Mountains and Seas records Huandou as a descendant of Zhuanxu, the progenitor of the Youyu clan and himself a descendant of the Yellow Emperor. Another account from the same text claims he is the grandson of Gun, Earl of Chong. |
+| huan-dou-c09 | exact | en.wikipedia.org | The text also mythologises Huandou, depicting him as a bird-beaked man with wings who eats fish from the sea. | It also mythologises Huandou, depicting him as a bird-beaked man with wings, eating fish from the sea. |
+| huan-dou-c10 | exact | en.wikipedia.org | Huandou, along with Chi You, is claimed by the modern Miao people as their progenitor. | Huandou, along with Chi You, is claimed by the modern Miao people as their progenitor. |
+| huan-dou-c11 | exact | en.wikipedia.org | Because Huandou is known from transmitted early Chinese texts, there is no contemporary evidence of his existence. | As Huandou is known from transmitted early Chinese texts, there is no contemporary evidence of Huandou's existence |
+| huan-dou-c12 | exact | zh.wikisource.org | In this classical text, Huandou (驩兜) speaks in favor of Gonggong (共工), and the emperor (帝) answers that he speaks smoothly but acts contrary and is respectful only in appearance. | 驩兜曰：「都！共工方鳩𠊩功。」 ... 帝曰：「吁！靜言庸違，象恭滔天。」 |
+| huan-dou-c13 | exact | zh.wikisource.org | This classical text says Gonggong (共工) was exiled to Youzhou (幽州), Huandou (驩兜) was banished to Mount Chong (崇山), the Sanmiao (三苗) were driven to Sanwei (三危), and Gun (鯀) was punished at Mount Yu (羽山); after these four punishments the whole realm submitted. | 流共工于幽 州一作「洲」，放驩兜于崇山，竄三苗于三危，殛鯀于羽山，四罪而天下咸服。 |
+| huan-dou-c14 | exact | zh.wikisource.org | This classical text says the people of the Huantou (讙頭) country have human faces, wings, and bird beaks, and are catching fish; one version places it east of Bifang (畢方) and another calls it the Huanzhu (讙朱) country. | 讙頭國在其南，其為人人面有翼，鳥喙，方捕魚。一曰在畢方東。或曰讙朱國。 |
 
 
 ## luduan — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -112,28 +143,33 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | luduan-c03 | exact | en.wikipedia.org | Luduan is credited with traveling 18,000 li in a day and speaking every language. | Luduan (甪端 pinyin: lùduān) is a legendary Chinese auspicious creature. It has the head of a lion, the horn of a rhino, the body of a dragon, the paws of a bear, the scales of a fish, and the tail of an ox, It can travel 18,000 li (9000 km or 5500 mi) in a single day and speaks all world languages. It appears during the reign of enlightened rulers. |
 | luduan-c04 | exact | en.wikipedia.org | Its appearance is associated with enlightened rulers. | Luduan (甪端 pinyin: lùduān) is a legendary Chinese auspicious creature. It has the head of a lion, the horn of a rhino, the body of a dragon, the paws of a bear, the scales of a fish, and the tail of an ox, It can travel 18,000 li (9000 km or 5500 mi) in a single day and speaks all world languages. It appears during the reign of enlightened rulers. |
 | luduan-c05 | exact | digitalarchive.npm.gov.tw | The National Palace Museum holds a Luduan-shaped bronze incense burner with gold and silver inlay. | Bronze incense burner in the shape of luduan with gold and silver inlay |
+| luduan-c06 | exact | en.wikipedia.org | A legend says a luduan once appeared to Genghis Khan and persuaded him to abandon his efforts to conquer India. | A legend says a luduan once appeared to Genghis Khan and convinced him to abandon his efforts to conquer India. |
+| luduan-c07 | exact | en.wikipedia.org | The Emperor's throne in the Hall of Supreme Harmony has two incense burners shaped like the luduan as an auspicious symbol. | The throne of the Emperor in the Hall of Supreme Harmony has two incense burners shaped like the luduan as an auspicious symbol. |
+| luduan-c08 | exact | zh.wikisource.org | A Chinese history text records a one-horned beast shaped like a deer with a horse's tail and a green color that spoke like a human and told the attendants: "Your lord should return early." | 有一角獸，形如鹿而馬尾，其色綠，作人言，謂侍衞者曰：「汝主宜早還。」 |
+| luduan-c09 | exact | zh.wikisource.org | When the emperor asked Chucai (楚材), he answered that it was an auspicious beast named 角端 (jiaoduan), able to speak the languages of the four directions, who loves life and hates killing, and that it was a sign sent from heaven to the emperor. | 帝以問楚材，對曰：「此瑞獸也，其名角端，能言四方語，好生惡殺，此天降符以告陛下。 |
+| luduan-c10 | exact | zh.wikisource.org | Chucai urges the emperor to follow heaven's will so as to preserve the people's lives, and the emperor withdrew his army that very day. | 陛下天之元子，天下之人皆陛下之子，願承天心，以全民命。」帝即日班師。 |
 
 
 ## mo-sin-a — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | mo-sin-a-c01 | exact | en.wikipedia.org | Mo-sin-a is a Taiwanese folkloric creature portrayed as short and hairy with a human-like form. | The Mo-sin-a (Chinese: 魔神仔; Pe̍h-ōe-jī: Mô͘-sîn-á) is a monstrous creature in Taiwanese folklore. They are typically depicted as human-like beings and their bodies are short and furry. |
 | mo-sin-a-c02 | exact | en.wikipedia.org | Accounts place it in mountain forests and link it with luring people into remote places. | The mo-sin-a are considered a type of demon who lives in mountain forests. They are said to lure people away to remote spots like mountain forests or caves. Japanese-era newspapers mention it several times, and the demon was featured in the horror movie series, The Tag-Along. |
 | mo-sin-a-c03 | exact | en.wikipedia.org | Japanese-period newspapers mention this creature several times. | The mo-sin-a are considered a type of demon who lives in mountain forests. They are said to lure people away to remote spots like mountain forests or caves. Japanese-era newspapers mention it several times, and the demon was featured in the horror movie series, The Tag-Along. |
+| mo-sin-a-c04 | exact | research.sinica.edu.tw | The 魔神仔 (mo-sin-a) is described as a mountain or water spirit-monster, small in size, able to transform (幻化) and play tricks on people; the "Little Girl in Red" (紅衣小女孩) and the "玉山黃色小飛俠" are said to be kinds of 魔神仔. | 「魔神仔」是山精水怪，矮矮小小的，會幻化、會作弄人，臺灣民間傳說中最知名的「紅衣小女孩」、登山客絕對不想遇到的「玉山黃色小飛俠」，都是魔神仔的一種。 |
+| mo-sin-a-c05 | exact | research.sinica.edu.tw | In the stories, people taken away by the 魔神仔 are found in trees or caves, and the 魔神仔 ask people for clothes; the researcher links the first to early humans' jungle life and the second to the advance of civilization and a sense of shame. | 例如，在樹上或是洞穴發現被魔神仔帶走的人，這可以連結到早期人類的叢林生活經驗；而魔神仔跟人要衣服穿，則是與人類文明的進展相關，是一種羞恥心的展現。 |
+| mo-sin-a-c06 | exact | research.sinica.edu.tw | When someone is "spirited away" (神隱) in the mountains, people call out the name of the person taken by the 魔神仔; the researcher likens this naming to humans passing from nameless to named. | 當有人在山區被神隱，要大聲呼喊被魔神仔帶走的人的名字，這種呼喚名字的方式，如同人類從無名到有名 |
+| mo-sin-a-c07 | exact | research.sinica.edu.tw | The 魔神仔 plays tricks on people in the wild, whereas ghost stories arise after someone has died in a place, so the two are distinguished. | 魔神仔是在野外捉弄人，而鬼是一個地方有人死掉以後，產生鬼故事。 |
+| mo-sin-a-c08 | exact | research.sinica.edu.tw | The screenwriter of the Taiwanese horror film 《紅衣小女孩》, 簡士耕, said he was inspired to write it after taking 林美容's class and reading 《魔神仔的人類學想像》. | 臺灣恐怖電影《紅衣小女孩》的編劇簡士耕曾表示，他是上了林美容的課、讀了《魔神仔的人類學想像》，才啟發他創作《紅衣小女孩》。 |
+| mo-sin-a-c09 | exact | research.sinica.edu.tw | 林美容 holds that Taiwanese society should treat 魔神仔 legends as cultural heritage and use these spirits as local material to help people know Taiwan's culture. | 林美容認為臺灣社會應該把魔神仔的傳說故事當作一種文化資產，可以把這些鬼怪當成鄉土素材來利用，讓大家認識臺灣的文化。 |
 
 
 ## panhu — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (exact 15), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -142,19 +178,30 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | panhu-c03 | exact | en.wikipedia.org | One version begins with a golden worm removed from a palace woman's ear. | The basic Panhu myth is about a dragon-dog who transformed into a man and married a princess. In the myth, there was an old woman in an ancient Chinese king's palace who had ear pain for many years. A royal physician plucked out a small, golden worm from her ear, and placed it inside of a gourd covered with a plate. |
 | panhu-c04 | exact | en.wikipedia.org | In some variants, the human transformation remains incomplete and the dog head persists. | There are also variant versions. In some variants, the dragon-dog became transformed into a human, except for his head. This is sometimes attributed to the princess worrying that he was starving inside the golden vessel he was placed inside of for seven days and seven nights to transform into a human, which resulted in the process being incomplete. |
 | panhu-c05 | exact | en.wikipedia.org | Panhu accounts have more historicized and more mythological versions. | In the study of historical Chinese culture, many of the stories that have been told regarding characters and events which have been written or told of the distant past have a double tradition: one which presents a more historicized version and one which presents a more mythological version. This is also true in many of the accounts related to Panhu. |
+| panhu-c06 | exact | en.wikipedia.org | The worm then became a dog, Panhu, who in some versions had five-colored fur; the king offered his daughter in marriage to anyone who would bring him the head of his enemy, and Panhu accomplished it. | The worm then turned into a dog, Panhu, who in some versions had five colored fur. The king offered to marry his daughter to anybody that would present him with the head of his enemy. This was accomplished by Panhu. |
+| panhu-c07 | exact | en.wikipedia.org | Accounts vary, but eventually Panhu and the princess had six sons and six daughters who became the famous 12 clans of Chinese mythology. | Accounts vary, but eventually Panhu and the princess had six sons and six daughters who became the famous 12 clans of Chinese mythology. |
+| panhu-c08 | exact | en.wikipedia.org | In modern times, Panhu has been worshiped by the She and Yao peoples as "King Pan". | In modern times, Panhu has been worshiped by the She people and Yao people as "King Pan". |
+| panhu-c09 | exact | en.wikipedia.org | This is the origin of Panhu's name, which literally means "plate gourd". | This is the origin of Panhu's name, which literally means "plate gourd". |
+| panhu-c10 | exact | en.wikipedia.org | The Panhu myth is an important origin myth for various ethnic groups. | The Panhu myth is an important origin myth for various ethnic groups. |
+| panhu-c11 | exact | zh.wikisource.org | In this classical text, Gaoxin (高辛氏) is troubled by raids from the Quanrong (犬戎) and offers gold, towns, and his youngest daughter to anyone who brings the head of General Wu (吳將軍) of the Quanrong. | 昔高辛氏有犬戎之寇，帝患其侵暴，而征伐不克。乃訪募天下，有能得犬戎之將吳將軍頭者，購黃金千鎰，邑萬家，又妻以少女。 |
+| panhu-c12 | exact | zh.wikisource.org | The emperor then had a dog with five-colored fur named Panhu (槃瓠); after the order was issued, Panhu carried a human head to the palace gate, and the ministers found it was General Wu's head. | 時帝有畜狗，其毛五采，名曰槃瓠。下令之後，槃瓠遂銜人頭造闕下，群臣怪而診之，乃吳將軍首也。 |
+| panhu-c13 | exact | zh.wikisource.org | Having no choice, the emperor gave his daughter to Panhu (槃瓠); Panhu carried her on his back into the Southern Mountain (南山) and stayed in a stone chamber in a perilous place no one reached. | 帝不得已，乃以女配槃瓠。槃瓠得女，負而走入南山，止石室中。所處險絶，人迹不至。 |
+| panhu-c14 | exact | zh.wikisource.org | After three years twelve children were born, six sons and six daughters; after Panhu (槃瓠) died they married one another, wove tree bark, dyed it with plant seeds, liked five-colored clothes, and cut garments with tail shapes. | 經三年，生子一十二人，六男六女。槃瓠死後，因自相夫妻。織績木皮，染以草實，好五色衣服。製裁皆有尾形。 |
+| panhu-c15 | exact | zh.wikisource.org | Their descendants later multiplied and were called the Manyi (蠻夷); the text calls them seemingly foolish outside but shrewd within, attached to their land and old ways, and says they are the Man of Changsha and Wuling (長沙武陵蠻). | 其後滋蔓，號曰蠻夷。外癡內黠，安土重舊。 ... 今長沙武陵蠻是也。 |
 
 
 ## panlong-mythology — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 5, loose 1), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | panlong-mythology-c01 | exact | en.wikipedia.org | Panlong is an aquatic Chinese mythological dragon resembling jiaolong and also serving as an artistic motif. | Panlong (simplified Chinese: 蟠龙; traditional Chinese: 蟠龍; pinyin: pánlóng; Wade–Giles: p'an-lung; lit. "coiled dragon") is an aquatic dragon resembling a jiaolong 蛟龍 "river dragon; crocodile" in Chinese mythology, an ancient motif in Chinese art, and a proper name. |
 | panlong-mythology-c02 | exact | en.wikipedia.org | The Huainanzi records Panlong as a bronze-decoration style. | Chinese classic texts began using panlong in the Han dynasty (206 BCE – 220 CE). The (2nd century BCE) Huainanzi first records panlong as a decorative style on Chinese bronzes. |
+| panlong-mythology-c03 | exact | en.wikipedia.org | The Fangyan (方言) dictionary of Yang Xiong defined panlong 蟠龍 as a "coiled dragon": dragons which do not yet ascend to heaven are called p'an-lung. | The materialist philosopher Yang Xiong (53 BCE – 18 CE) used both panlong and longpan. His Fangyan 方言 "Regional Speech" dictionary defined panlong 蟠龍 "coiled/curled dragon", "Dragons which do not yet ascend to heaven [cf. tianlong "heavenly dragon"] are called p'an-lung." |
+| panlong-mythology-c04 | loose | en.wikipedia.org | The Biji manzhi (碧雞漫志) by Wang Zhuo (王灼) describes using panlong dragons in sympathetic magic for rainfall: a mirror adorned on its back with a "coiled dragon" (盤龍) is said to have been worshipped, or used magically, to cause rain. | The (12th century CE) Song dynasty Biji manzhi 碧雞漫志 "Random Jottings from the Green Rooster Quarter" by Wang Zhuo 王灼 describes using panlong dragons in sympathetic magic for rainfall, "where a mirror, adorned on the backside with a "coiled dragon", p'an lung, 盤龍, is said to have been worshipped (rather used in a magical way) in order to cause rain." |
+| panlong-mythology-c05 | exact | en.wikipedia.org | The Shangshu dazhuan (尚書大傳) commentary to the Classic of History parallels panlong with jiaoyu (鮫魚) and says the "coiled dragon" was greatly trusted in its lair. | Shangshu dazhuan 尚書大傳 ... commentary to the Classic of History parallels panlong and jiaoyu 鮫魚 ... was greatly trusted in its lair |
+| panlong-mythology-c06 | exact | zh.wikisource.org | A classical text describing the decoration of great bells, tripods, and precious vessels lists the 蟠龍 (coiled dragon) motif linked in a series (連組) alongside the sleeping rhinoceros (寢兕) and the crouching tiger (伏虎). | 大鐘鼎，美重器，華蟲疏鏤，以相繆紾，寢兕伏虎，蟠龍連組，焜昱錯眩，照耀輝煌 |
 
 
 ## shangyang — lulus-otomatis

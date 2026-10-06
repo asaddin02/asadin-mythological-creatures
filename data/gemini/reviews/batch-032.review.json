@@ -1,29 +1,25 @@
 {
   "batch_id": "batch-032",
-  "checked_at": "2026-09-30T02:32:47.017Z",
+  "checked_at": "2026-10-06T13:40:44.283Z",
   "files": [
     "batch-032.md",
-    "batch-032-fix-1.md"
+    "batch-032-fix-1.md",
+    "batch-032-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "heracles",
-      "file": "batch-032.md",
+      "file": "batch-032-fix-2.md",
+      "entry_sha256": "81d8f42a6d7f3097bf5ce1f3c09b3ab179fc7712f5cb02ae58d9d100f8b5ac3b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 3,
+        "claims": 23,
+        "sources": 5,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 7 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "heracles-c01",
@@ -94,26 +90,181 @@
           "quote": "Heracles was worshipped throughout Greece in the classical age as a god.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "heracles-c08",
+          "source_id": "heracles-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hera drove Heracles insane so that he killed his wife and children.",
+          "statement_id": "Hera membuat Herakles gila sehingga ia membunuh istri dan anak-anaknya.",
+          "quote": "Hera once more interfered and drove Hercules insane so that he killed his wife and children.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "heracles-c09",
+          "source_id": "heracles-s1",
+          "host": "www.worldhistory.org",
+          "statement": "With the help of his nephew Iolaos, who used fire to stop the heads regrowing, Heracles killed the Hydra and dipped his arrows in its poisonous blood.",
+          "statement_id": "Dibantu keponakannya Iolaos yang memakai api agar kepala Hydra tidak tumbuh lagi, Herakles membunuh Hydra dan mencelupkan anak panahnya ke darah beracunnya.",
+          "quote": "Helped by his faithful companion and nephew Iolaos, who used fire to stop the heads re-growing, Hercules eventually killed the Hydra and dipped his arrows in its poisonous blood.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "heracles-c10",
+          "source_id": "heracles-s1",
+          "host": "www.worldhistory.org",
+          "statement": "On his journey in Hades, Heracles persuades the god Hades to let him take Kerberos provided he does so without weapons.",
+          "statement_id": "Dalam perjalanannya ke Hades, Herakles membujuk dewa Hades agar mengizinkannya membawa Kerberos asalkan tanpa senjata.",
+          "quote": "On his journey in Hades, the hero encounters many souls and persuades the god Hades to allow him to take Kerberos provided he does so without weapons.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "heracles-c11",
+          "source_id": "heracles-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Heracles shot down the eagle with one of his arrows and freed Prometheus.",
+          "statement_id": "Herakles menembak jatuh elang itu dengan anak panah dan membebaskan Prometheus.",
+          "quote": "Hercules shot down the eagle with one of his arrows and freed Prometheus",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "heracles-c12",
+          "source_id": "heracles-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Athena took Heracles from the flames to Mount Olympus, where he married the goddess Hebe, received eternal youth, and was allowed to live with the gods forever.",
+          "statement_id": "Athena membawa Herakles dari api ke Gunung Olympus, tempat ia menikahi dewi Hebe, diberi masa muda abadi, dan diizinkan tinggal bersama para dewa selamanya.",
+          "quote": "Immortality was assured, though, when Athena descended in her chariot and took Hercules from the flames to Mount Olympus where he married the goddess Hebe, was given the gift of eternal youth, and permitted to reside with the gods for all time.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "heracles-c13",
+          "source_id": "heracles-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Archaic and Classical Greek pottery, Heracles is often shown carrying a knotted club and a quiver of arrows and wearing a lion pelt, sometimes with a lion-head helmet.",
+          "statement_id": "Dalam seni tembikar Yunani Arkais dan Klasik, Herakles sering digambarkan membawa gada berbuku, wadah anak panah, dan mengenakan kulit singa, kadang dengan helm berkepala singa.",
+          "quote": "In ancient Greek Archaic and Classical pottery art Hercules is often depicted carrying a knotted club, a quiver full of arrows, and wearing a lion's pelt with sometimes also a lion's head helmet.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "heracles-c14",
+          "source_id": "heracles-s1",
+          "host": "www.worldhistory.org",
+          "statement": "On his journey to that island in the western ocean, he set markers in the Strait of Gades that became known as the Pillars of Hercules.",
+          "statement_id": "Dalam perjalanannya ke pulau di samudra barat itu, ia memasang penanda di Selat Gades yang kemudian dikenal sebagai Tiang-tiang Herkules.",
+          "quote": "It was on his journey to this island in the western ocean that he set markers in the Strait of Gades which thereafter became known as the Pillars of Hercules.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "heracles-c15",
+          "source_id": "heracles-s4",
+          "host": "www.theoi.com",
+          "statement": "According to Apollodorus, Heracles received a sword from Hermes, a bow and arrows from Apollo, a golden breastplate from Hephaestus, and a robe from Athena; he had cut his club himself at Nemea.",
+          "statement_id": "Menurut Apollodorus, Herakles menerima pedang dari Hermes, busur dan anak panah dari Apollo, baju zirah emas dari Hephaestus, dan jubah dari Athena; gadanya ia potong sendiri di Nemea.",
+          "quote": "Hercules received a sword from Hermes, a bow and arrows from Apollo ... a golden breastplate from Hephaestus, and a robe from Athena; for he had himself cut a club at Nemea.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "heracles-c16",
+          "source_id": "heracles-s2",
+          "host": "www.theoi.com",
+          "statement": "Antaeus, a Libyan giant who drew strength from the earth, challenged Heracles to a deadly wrestling match but was defeated when Heracles lifted him from the earth and crushed him.",
+          "statement_id": "Antaeus, raksasa Libya yang menarik kekuatan dari bumi, mengajak Herakles bergulat sampai mati, tetapi kalah ketika Herakles mengangkatnya dari tanah dan meremukkannya.",
+          "quote": "A Libyan giant who drew his strength directly from the earth. He challenged Heracles to a wrestling death match but was defeated when the hero lifted him from the earth and crushed him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "heracles-c17",
+          "source_id": "heracles-s2",
+          "host": "www.theoi.com",
+          "statement": "Heracles defeated Thanatos, the god of death, in a wrestling match when he came to fetch Alcestis to the Underworld.",
+          "statement_id": "Herakles mengalahkan Thanatos, dewa kematian, dalam adu gulat ketika Thanatos datang menjemput Alcestis ke dunia bawah.",
+          "quote": "The god of death. Heracles defeated him in a wrestling match when he came to fetch Alcestis to the Underworld.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "heracles-c18",
+          "source_id": "heracles-s5",
+          "host": "en.wikipedia.org",
+          "statement": "The Greek name Ἡρακλῆς literally means \"glory/fame of Hera\".",
+          "statement_id": "Nama Yunani Ἡρακλῆς secara harfiah berarti \"kemuliaan/ketenaran Hera\".",
+          "quote": "Ancient Greek: Ἡρακλῆς, lit. 'glory/fame of Hera'",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "heracles-c19",
+          "source_id": "heracles-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Heracles was thought to be both hero and god, possessing superhuman strength; no tomb was ever identified as his, and at some festivals sacrifice was offered to him first as a hero and then as a god.",
+          "statement_id": "Herakles dianggap sekaligus pahlawan dan dewa, memiliki kekuatan manusia super; tidak ada makam yang pernah dipastikan sebagai miliknya, dan pada sebagian festival kurban dipersembahkan kepadanya lebih dulu sebagai pahlawan lalu sebagai dewa.",
+          "quote": "He was thought to be both a hero and a god, possessing superhuman strength. No tomb was ever identified as his, and at some festivals sacrifice was offered to him first as a hero and then as a god.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "heracles-c20",
+          "source_id": "heracles-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Deianeira smeared a cloak with the blood of Nessos and sent it to Heracles; when he wore it, the cloak burned his skin terribly.",
+          "statement_id": "Deianeira melumuri jubah dengan darah Nessos dan mengirimkannya kepada Herakles; ketika dipakai, jubah itu membuat kulitnya terbakar hebat.",
+          "quote": "Deianeira decided to use the blood of Nessos, covered a cloak in it and gave it to a messenger to take to Hercules. The hero wore it but the impregnated cloak caused his skin to burn terribly.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "heracles-c21",
+          "source_id": "heracles-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The earliest complete depiction of Heracles's twelve labours in ancient sculpture is on the metopes of the Temple of Zeus at Olympia (completed 457 BCE).",
+          "statement_id": "Penggambaran lengkap tertua kedua belas tugas Herakles dalam seni pahat kuno ada pada metope Kuil Zeus di Olimpia (selesai 457 SM).",
+          "quote": "The earliest complete depiction of Hercules' twelve labours in ancient sculpture is from the metopes of the Temple of Zeus at Olympia (completed in 457 BCE).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "heracles-c22",
+          "source_id": "heracles-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Heracles was widely worshipped as a patron of young men and gymnasia.",
+          "statement_id": "Herakles dipuja luas sebagai pelindung kaum muda dan gimnasium.",
+          "quote": "He was widely worshipped as a patron of young men and gymnasia.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "heracles-c23",
+          "source_id": "heracles-s2",
+          "host": "www.theoi.com",
+          "statement": "Cerberus, the hound of Hades who guarded the entrance to the underworld; Heracles was sent to fetch him as one of his twelve labours and captured him with the approval of the goddess Persephone.",
+          "statement_id": "Kerberos, anjing Hades penjaga pintu masuk dunia bawah; Herakles diutus membawanya sebagai salah satu dari dua belas tugasnya dan menangkapnya dengan persetujuan dewi Persephone.",
+          "quote": "CERBERUS (Kerberos) The hound of Hades who guarded the entrance to the underworld. Heracles was sent to fetch the beast as one of his twelve labours, and captured it with the approval of the goddess Persephone.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "jinn",
-      "file": "batch-032-fix-1.md",
+      "file": "batch-032-fix-2.md",
+      "entry_sha256": "06e23b25299d92c6649e874e9a8cf2363b09a97a9f9ecccdf8e4b99d29277a5c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 5,
+        "claims": 34,
+        "sources": 14,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 7 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "jinn-c01",
@@ -179,31 +330,296 @@
           "id": "jinn-c07",
           "source_id": "jinn-s5",
           "host": "en.wikipedia.org",
-          "statement": "This account describes jinn as invisible and capable of shapeshifting.",
-          "statement_id": "Menurut uraian ini, jin dianggap tak kasatmata dan dapat berubah wujud.",
-          "quote": "While they are naturally invisible, jinn are supposed to be composed of thin and subtle bodies (أَجْسَام, ajsām) and are capable of shapeshifting, usually choosing to appear as snakes, but also as scorpions, lizards, or humans.",
+          "statement": "This account says jinn are naturally invisible, supposed to have thin and subtle bodies, and capable of shapeshifting, usually into snakes but also scorpions, lizards, or humans.",
+          "statement_id": "Menurut uraian ini, jin secara alami tak terlihat, dianggap bertubuh tipis dan halus, dan dapat berubah wujud, biasanya menjadi ular, tetapi juga kalajengking, kadal, atau manusia.",
+          "quote": "While they are naturally invisible, jinn are supposed to be composed of thin and subtle bodies ... and are capable of shapeshifting, usually choosing to appear as snakes, but also as scorpions, lizards, or humans.",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c08",
+          "source_id": "jinn-s6",
+          "host": "quran.com",
+          "statement": "The Quran says the jinn were created earlier from smokeless fire.",
+          "statement_id": "Al-Qur'an menyebut jin diciptakan lebih dahulu dari api tanpa asap.",
+          "quote": "As for the jinn, We created them earlier from smokeless fire.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c09",
+          "source_id": "jinn-s7",
+          "host": "quran.com",
+          "statement": "The Quran says that when the angels were told to prostrate before Adam, Iblis, who was one of the jinn, rebelled against the command of his Lord.",
+          "statement_id": "Al-Qur'an menyebut bahwa ketika para malaikat diperintahkan bersujud kepada Adam, Iblis, yang termasuk golongan jin, membangkang terhadap perintah Tuhannya.",
+          "quote": "And ˹remember˺ when We said to the angels, “Prostrate before Adam,” so they all did—but not Iblîs, who was one of the jinn, but he rebelled against the command of his Lord.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c10",
+          "source_id": "jinn-s8",
+          "host": "quran.com",
+          "statement": "When Solomon asked who could bring him the throne, a mighty jinn offered to bring it before the council rose.",
+          "statement_id": "Ketika Sulaiman bertanya siapa yang dapat membawakan singgasana, seorang jin yang perkasa menyanggupi membawanya sebelum majelis itu bubar.",
+          "quote": "Solomon asked, “O chiefs! Which of you can bring me her throne before they come to me in ˹full˺ submission?” ... One mighty jinn responded, “I can bring it to you before you rise from this council of yours.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c11",
+          "source_id": "jinn-s9",
+          "host": "quran.com",
+          "statement": "The Quran says some of the jinn were subjected to work under Solomon by his Lord's will.",
+          "statement_id": "Al-Qur'an menyebut sebagian jin ditundukkan untuk bekerja di bawah Sulaiman atas kehendak Tuhannya.",
+          "quote": "And to Solomon ˹We subjected˺ the wind: its morning stride was a month’s journey and so was its evening stride. And We caused a stream of molten copper to flow for him, and ˹We subjected˺ some of the jinn to work under him by his Lord’s Will.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c12",
+          "source_id": "jinn-s10",
+          "host": "quran.com",
+          "statement": "This verse says the jinn realized that, had they really known the unseen, they would not have remained in humiliating servitude.",
+          "statement_id": "Ayat ini menyebut jin baru menyadari bahwa seandainya mereka benar-benar mengetahui yang gaib, mereka tidak akan tetap dalam perbudakan yang hina.",
+          "quote": "So when he collapsed, the jinn realized that if they had ˹really˺ known the unseen, they would not have remained in ˹such˺ humiliating servitude.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c13",
+          "source_id": "jinn-s11",
+          "host": "quran.com",
+          "statement": "In Surah Al-Jinn, the jinn say they tried to reach heaven but found it filled with stern guards and shooting stars.",
+          "statement_id": "Dalam surah Al-Jinn, para jin mengatakan mereka mencoba mencapai langit tetapi mendapatinya dipenuhi penjaga yang keras dan bintang jatuh.",
+          "quote": "we tried to reach heaven ˹for news˺, only to find it filled with stern guards and shooting stars.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c14",
+          "source_id": "jinn-s12",
+          "host": "quran.com",
+          "statement": "In Surah Al-Jinn, the jinn say that among them are the righteous and those less so, and that they have been of different factions.",
+          "statement_id": "Dalam surah Al-Jinn, para jin mengatakan di antara mereka ada yang saleh dan ada yang kurang saleh, dengan golongan yang berbeda-beda.",
+          "quote": "Among us are those who are righteous and those who are less so. We have been of different factions.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c15",
+          "source_id": "jinn-s13",
+          "host": "quran.com",
+          "statement": "This verse says a group of jinn was sent to listen to the Quran and returned to their fellow jinn as warners.",
+          "statement_id": "Ayat ini menyebut sekelompok jin diutus untuk mendengarkan Al-Qur'an, lalu kembali kepada sesama jin sebagai pemberi peringatan.",
+          "quote": "when We sent a group of jinn your way to listen to the Quran. Then, upon hearing it, they said ˹to one another˺, “Listen quietly!” Then when it was over, they returned to their fellow jinn as warners.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c16",
+          "source_id": "jinn-s14",
+          "host": "quran.com",
+          "statement": "This verse records the address \"O assembly of jinn! You misled humans in great numbers.\"",
+          "statement_id": "Ayat ini menyebut sebuah seruan kepada \"kumpulan jin\" bahwa mereka menyesatkan banyak manusia.",
+          "quote": "O assembly of jinn! You misled humans in great numbers.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c17",
+          "source_id": "jinn-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Jinn is an Arabic collective noun from the Semitic root jnn, whose primary meaning is \"to hide\" or \"to adapt\".",
+          "statement_id": "Jinn adalah kata benda kolektif bahasa Arab dari akar Semit jnn, yang makna utamanya \"bersembunyi\" atau \"menyesuaikan diri\".",
+          "quote": "Jinn is an Arabic collective noun deriving from the Semitic root jnn ... whose primary meaning is 'to hide' or 'to adapt'.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c18",
+          "source_id": "jinn-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Jinn were already worshipped by many Arabs in pre-Islamic Arabia.",
+          "statement_id": "Jin sudah disembah oleh banyak orang Arab di Arabia pra-Islam.",
+          "quote": "Jinn were already worshipped by many Arabs in pre-Islamic Arabia.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c19",
+          "source_id": "jinn-s5",
+          "host": "en.wikipedia.org",
+          "statement": "A commonly held belief is that jinn cannot hurt someone who wears something with a name of God written on it.",
+          "statement_id": "Menurut kepercayaan yang umum, jin tidak dapat mencelakai orang yang membawa sesuatu bertuliskan nama Tuhan.",
+          "quote": "A commonly held belief is that jinn cannot hurt someone who wears something with a name of God written on it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c20",
+          "source_id": "jinn-s5",
+          "host": "en.wikipedia.org",
+          "statement": "When disturbed or harmed by humans, jinn usually retaliate in kind; the most drastic cases lead them to possess the assailant's body, requiring exorcism.",
+          "statement_id": "Jika diganggu atau dilukai manusia, jin biasanya membalas setimpal; interaksi terparah membuat mereka merasuki tubuh penyerangnya sehingga perlu pengusiran roh.",
+          "quote": "Upon being disturbed or harmed by humans, they usually retaliate in kind, with the most drastic interactions leading them to possess the assailant's body, thus requiring exorcism.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c21",
+          "source_id": "jinn-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Ifrits are described as among the most powerful types of jinn, strongly associated with fire and the underworld, with immense physical strength and great mastery of magic.",
+          "statement_id": "Ifrit disebut termasuk jenis jin paling kuat, terkait erat dengan api dan dunia bawah, berkekuatan fisik besar dan mahir sihir.",
+          "quote": "Ifrits are among the most powerful types of jinn, strongly associated with the element of fire and the underworld. Possessing immense physical strength and great mastery of magic, they are known for their ruthless, vengeful, and proud nature.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c22",
+          "source_id": "jinn-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Marids are often considered the most powerful type of jinn in Arab-Islamic mythology, traditionally associated with water, the sea, and vast oceans.",
+          "statement_id": "Marid sering dianggap jenis jin terkuat dalam mitologi Arab-Islam dan secara tradisional dikaitkan dengan air, laut, dan samudra luas.",
+          "quote": "Marids are often considered the most powerful type of jinn in all of Arab-Islamic mythology, traditionally associated with the element of water, the sea, and vast oceans.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c23",
+          "source_id": "jinn-s5",
+          "host": "en.wikipedia.org",
+          "statement": "The Shaitan, led by Iblis, are described as exclusively malevolent, unlike other jinn, who can choose between good and evil.",
+          "statement_id": "Syaitan, dipimpin Iblis, disebut jenis jin yang semata-mata jahat, berbeda dari jin lain yang dapat memilih antara baik dan jahat.",
+          "quote": "Led by Iblis (the equivalent of Satan), and unlike other jinn, who can choose between good and evil, the Shaitan are exclusively malevolent",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c24",
+          "source_id": "jinn-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Jinn are mentioned approximately 29 times in the Quran.",
+          "statement_id": "Jin disebut sekitar 29 kali dalam Al-Qur'an.",
+          "quote": "Jinn are mentioned approximately 29 times in the Quran",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c25",
+          "source_id": "jinn-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Since 2004, jinn have become a common trope in Middle Eastern horror movies.",
+          "statement_id": "Sejak 2004, jin menjadi tokoh yang lazim dalam film horor Timur Tengah.",
+          "quote": "since 2004 jinn have become a common trope in Middle Eastern horror movies.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c26",
+          "source_id": "jinn-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Some scholars hold that jinn originated as malevolent spirits of deserts and unclean places that often took animal forms; others that they were originally pagan nature deities who became marginalized.",
+          "statement_id": "Sebagian sarjana menyatakan jin berasal dari roh jahat penghuni gurun dan tempat tak bersih yang sering berwujud hewan; sebagian lain menyatakan mereka semula dewa alam kafir yang tersisih.",
+          "quote": "Some scholars of the Middle East hold that they originated as malevolent spirits residing in deserts and unclean places, who often took the forms of animals; others hold that they were originally pagan nature deities who gradually became marginalized as other deities took greater importance.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c27",
+          "source_id": "jinn-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In this account, jinn are generally weak and fragile beings whose potency derives mostly from people attributing powers to them.",
+          "statement_id": "Dalam uraian ini, jin umumnya makhluk lemah dan rapuh, yang kekuatannya sebagian besar berasal dari anggapan manusia.",
+          "quote": "Jinn are generally weak and fragile beings, whose potencies derive mostly from people attributing powers to them.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c28",
+          "source_id": "jinn-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In this account, the powers of jinn usually exceed those of humans, though a man could conceivably kill a jinni in single combat, and jinn are feared for attacking unseen.",
+          "statement_id": "Dalam uraian ini, kekuatan jin biasanya melebihi manusia, tetapi seorang manusia mungkin dapat membunuh jin dalam duel, dan jin ditakuti karena menyerang tanpa terlihat.",
+          "quote": "Although the powers of jinn usually exceed those of humans, it is conceivable a man could kill a jinni in single combat, but they are feared for attacking without being seen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c29",
+          "source_id": "jinn-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Jinn, also romanized as djinn or anglicized as genies, are supernatural beings in Islam, ancient Arabian religion and Arabic folklore and mythology.",
+          "statement_id": "Jinn juga ditulis djinn atau dianglikan menjadi genie, adalah makhluk gaib dalam Islam, agama Arabia kuno, serta cerita rakyat dan mitologi Arab.",
+          "quote": "also romanized as djinn or anglicized as genies, are supernatural beings in Islam, ancient Arabian religion and Arabic folklore and mythology.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c30",
+          "source_id": "jinn-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Belief in jinn is not included among the six articles of Islamic faith, as belief in angels is.",
+          "statement_id": "Kepercayaan kepada jin tidak termasuk dalam enam rukun iman, tidak seperti kepercayaan kepada malaikat.",
+          "quote": "Belief in jinn is not included among the six articles of Islamic faith, as belief in angels is.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c31",
+          "source_id": "jinn-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Julius Wellhausen observed that jinn were often thought to inhabit or haunt desolate, dark and dingy places in the desert.",
+          "statement_id": "Julius Wellhausen mengamati bahwa jin sering dianggap mendiami atau menghantui tempat sunyi, gelap, dan kumuh di gurun.",
+          "quote": "Julius Wellhausen observed that jinn were often thought to \"inhabit or haunt desolate, dark and dingy places in the desert\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c32",
+          "source_id": "jinn-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Jinn were therefore considered a third class of invisible beings, often neutral or morally ambiguous, not necessarily equated with devils.",
+          "statement_id": "Karena itu jin dipandang sebagai golongan ketiga makhluk tak terlihat, sering netral atau secara moral ambigu, dan tidak otomatis disamakan dengan setan.",
+          "quote": "Therefore, jinn were considered a third class of invisible beings, often neutral or morally ambiguous, not consequently equated with devils.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c33",
+          "source_id": "jinn-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Since modern times, jinn have often been portrayed in a more negative light.",
+          "statement_id": "Sejak zaman modern, jin sering digambarkan secara lebih negatif.",
+          "quote": "Since modern times, jinn have often been portrayed in a more negative light.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "jinn-c34",
+          "source_id": "jinn-s5",
+          "host": "en.wikipedia.org",
+          "statement": "The cave chamber Majlis al Jinn is believed to be a gathering place of the jinn in Omani lore.",
+          "statement_id": "Ruang gua Majlis al Jinn dipercaya sebagai tempat berkumpul jin dalam cerita rakyat Oman.",
+          "quote": "The cave chamber Majlis al Jinn, believed to be a gathering place of the jinn in Omani lore",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "prometheus",
-      "file": "batch-032-fix-1.md",
+      "file": "batch-032-fix-2.md",
+      "entry_sha256": "b471b8bbc2805af699c8c5fbe59f8e34e823ed8d60ccdc4eafb98540a6af7d18",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 2,
+        "claims": 35,
+        "sources": 7,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 7 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "prometheus-c01",
@@ -274,24 +690,305 @@
           "quote": "Fortunately for man's benefactor, but only after many years, the hero Hercules, when passing one day during his celebrated labours, killed the eagle with one of his arrows.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "prometheus-c08",
+          "source_id": "prometheus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Prometheus switched sides and supported the victorious Olympians when the Titans would not follow his advice to use trickery in the battle.",
+          "statement_id": "Prometheus berpindah pihak dan mendukung para dewa Olimpus yang menang ketika para Titan menolak nasihatnya untuk memakai tipu daya dalam pertempuran.",
+          "quote": "Prometheus did, however, switch sides and support the victorious Olympians when the Titans would not follow his advice to use trickery in the battle.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c09",
+          "source_id": "prometheus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to Hesiod's Theogony, Prometheus's father was Iapetus, his mother Clymene (or Themis in other versions), and his brothers were Epimetheus, Menoetius, and Atlas.",
+          "statement_id": "Menurut Theogony karya Hesiodos, ayah Prometheus adalah Iapetus, ibunya Clymene (atau Themis dalam versi lain), dan saudaranya adalah Epimetheus, Menoetius, dan Atlas.",
+          "quote": "According to Hesiod's Theogony, Prometheus' father was Iapetus, his mother was Clymene (or Themis in other versions) and his brothers were fellow Titans Epimetheus (Afterthought or Hindsight), Menoetius, and Atlas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c10",
+          "source_id": "prometheus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Feeling sorry for humanity's weak and naked state, Prometheus raided the workshop of Hephaistos and Athena on Mount Olympus, stole fire, hid it in a hollow fennel stalk, and gave it to humans.",
+          "statement_id": "Karena iba pada keadaan manusia yang lemah dan telanjang, Prometheus menyusup ke bengkel Hephaistos dan Athena di Gunung Olympus, mencuri api, menyembunyikannya dalam batang adas berongga, lalu memberikannya kepada manusia.",
+          "quote": "Feeling sorry for man's weak and naked state, Prometheus raided the workshop of Hephaistos and Athena on Mt. Olympus and stole fire, and by hiding it in a hollow fennel-stalk, he gave the valuable gift to man which would help him in life's struggle.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c11",
+          "source_id": "prometheus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In a slightly different version, humans already had fire; Zeus took it away in anger when Prometheus tried to trick him into eating bones and fat instead of the best meat.",
+          "statement_id": "Dalam versi yang sedikit berbeda, manusia sudah punya api; Zeus mengambilnya karena marah ketika Prometheus mencoba menipunya agar memakan tulang dan lemak, bukan daging terbaik.",
+          "quote": "In a slightly different version of the story, mankind already had fire, and when Prometheus tried to trick Zeus into eating bones and fat instead of the best meat during a meal at Mt. Olympus, Zeus, in anger, took away fire so that man would have to eat his meat raw.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c12",
+          "source_id": "prometheus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Prometheus was worshipped in Athens, particularly by potters, and an annual torch race was held in his honour.",
+          "statement_id": "Prometheus dipuja di Athena, terutama oleh para pembuat tembikar, dan setiap tahun diadakan lomba obor untuk menghormatinya.",
+          "quote": "Prometheus was worshipped in Athens, particularly by potters (who, of course, needed fire in their kilns) and there was an annual torch race held in the god's honour.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c13",
+          "source_id": "prometheus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Hesiod's Works & Days, Zeus punished humans for receiving fire by instructing Hephaistos to create the first woman, Pandora, from clay.",
+          "statement_id": "Menurut Works & Days karya Hesiodos, Zeus menghukum manusia karena menerima api dengan memerintahkan Hephaistos membuat perempuan pertama, Pandora, dari tanah liat.",
+          "quote": "In the Greek poet Hesiod's Works & Days we are told that Zeus punished man for receiving the fire by instructing Hephaistos to create the first woman, Pandora, from clay",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c14",
+          "source_id": "prometheus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Prometheus first appears in Greek art on a 7th-century BCE ivory from Sparta and on Greek pottery from about 600 BCE, usually being punished.",
+          "statement_id": "Prometheus pertama kali muncul dalam seni Yunani pada gading abad ke-7 SM dari Sparta dan pada tembikar Yunani sekitar 600 SM, biasanya sedang dihukum.",
+          "quote": "Prometheus first appears in Greek art in a 7th century BCE ivory from Sparta and on Greek pottery from c. 600 BCE, usually being punished.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c15",
+          "source_id": "prometheus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Titan also taught humans to use the gift, so metalworking began, and he came to be associated with science and culture.",
+          "statement_id": "Prometheus juga mengajari manusia memakai karunia itu sehingga keterampilan menempa logam dimulai, dan ia dikaitkan dengan ilmu pengetahuan dan budaya.",
+          "quote": "The Titan also taught man how to use their gift and so the skill of metalwork began; he also came to be associated with science and culture.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c16",
+          "source_id": "prometheus-s3",
+          "host": "www.theoi.com",
+          "statement": "Theoi calls Prometheus the Titan god of forethought and crafty counsel who was given the task of moulding mankind out of clay.",
+          "statement_id": "Theoi menyebut Prometheus sebagai dewa Titan pemikiran ke depan dan nasihat licik yang diberi tugas membentuk manusia dari tanah liat.",
+          "quote": "PROMETHEUS was the Titan god of forethought and crafty counsel who was given the task of moulding mankind out of clay.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c17",
+          "source_id": "prometheus-s3",
+          "host": "www.theoi.com",
+          "statement": "Prometheus was loosely identified in cult and myth with the fire-god Hephaistos and the giant Tityos.",
+          "statement_id": "Prometheus secara longgar disamakan dalam kultus dan mitos dengan dewa api Hephaistos dan raksasa Tityos.",
+          "quote": "Prometheus was loosely identified in cult and myth with the fire-god Hephaistos (Hephaestus) and the giant Tityos (Tityus).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c18",
+          "source_id": "prometheus-s3",
+          "host": "www.theoi.com",
+          "statement": "In the encyclopedia entry on Theoi describing Aeschylus, Prometheus is an immortal god, friend of humankind, giver of fire, inventor of the useful arts, an omniscient seer, and an heroic sufferer overcome by Zeus's power but unbending in mind.",
+          "statement_id": "Dalam uraian ensiklopedia di Theoi tentang Aeschylus, Prometheus adalah dewa abadi, sahabat umat manusia, pemberi api, penemu seni yang berguna, peramal serba tahu, dan penderita yang gagah, yang dikalahkan kekuatan Zeus tetapi tidak mau menekuk pikirannya.",
+          "quote": "Prometheus himself is an immortal god, the friend of the human race, the giver of fire, the inventor of the useful arts, an omniscient seer, an heroic sufferer, who is overcome by the superior power of Zeus, but will not bend his inflexible mind.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c19",
+          "source_id": "prometheus-s3",
+          "host": "www.theoi.com",
+          "statement": "Prometheus had cautioned his brother Epimetheus against accepting any gift from Zeus, but Epimetheus disregarded the advice and accepted Pandora.",
+          "statement_id": "Prometheus telah memperingatkan saudaranya Epimetheus agar tidak menerima hadiah dari Zeus, tetapi Epimetheus mengabaikannya dan menerima Pandora.",
+          "quote": "Prometheus had cautioned his brother Epimetheus against accepting any present from Zeus, but Epimetheus, disregarding the advice, accepted Pandora",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c20",
+          "source_id": "prometheus-s3",
+          "host": "www.theoi.com",
+          "statement": "Generations later the hero Herakles came along and released the old Titan from his torment.",
+          "statement_id": "Beberapa generasi kemudian, pahlawan Herakles datang dan membebaskan Titan tua itu dari siksaannya.",
+          "quote": "Generations later the great hero Herakles (Heracles) came along and released the old Titan from his torture.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c21",
+          "source_id": "prometheus-s2",
+          "host": "www.theoi.com",
+          "statement": "Apollodorus says Atlas, Prometheus, and Epimetheus were born to Iapetus and Asia.",
+          "statement_id": "Apollodorus menyebut Atlas, Prometheus, dan Epimetheus lahir dari Iapetus dan Asia.",
+          "quote": "to Iapetus and Asia was born Atlas, who has the sky on his shoulders, and Prometheus, and Epimetheus,",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c22",
+          "source_id": "prometheus-s2",
+          "host": "www.theoi.com",
+          "statement": "Prometheus, or as others say Hephaestus, struck the head of Zeus with an axe, and Athena leaped out fully armed.",
+          "statement_id": "Prometheus, atau menurut yang lain Hephaestus, membelah kepala Zeus dengan kapak, lalu Athena melompat keluar dengan perlengkapan perang lengkap.",
+          "quote": "Prometheus or, as others say, Hephaestus, smote the head of Zeus with an axe, and Athena, fully armed, leaped up from the top of his head at the river Triton.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c23",
+          "source_id": "prometheus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Apollodorus, Prometheus also gave humans fire, which, unknown to Zeus, he had hidden in a stalk of fennel.",
+          "statement_id": "Menurut Apollodorus, Prometheus juga memberi manusia api yang tanpa sepengetahuan Zeus disembunyikannya dalam batang adas.",
+          "quote": "and gave them also fire, which, unknown to Zeus, he had hidden in a stalk of fennel.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c24",
+          "source_id": "prometheus-s2",
+          "host": "www.theoi.com",
+          "statement": "When Zeus wished to destroy the men of the Bronze Age, Deucalion built a chest on the advice of Prometheus.",
+          "statement_id": "Ketika Zeus hendak membinasakan manusia Zaman Perunggu, Deucalion membuat peti atas nasihat Prometheus.",
+          "quote": "And when Zeus would destroy the men of the Bronze Age, Deucalion by the advice of Prometheus constructed a chest",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c25",
+          "source_id": "prometheus-s4",
+          "host": "www.theoi.com",
+          "statement": "Hesiod says Zeus bound Prometheus with cruel chains, drove a shaft through his middle, and set a long-winged eagle on him to eat his immortal liver.",
+          "statement_id": "Hesiodos menyebut Zeus mengikat Prometheus dengan rantai yang kejam, menusukkan tiang melalui tengah tubuhnya, dan mengirim elang bersayap panjang untuk memakan hatinya yang abadi.",
+          "quote": "And ready-witted Prometheus he bound with inextricable bonds, cruel chains, and drove a shaft through his middle, and set on him a long-winged eagle, which used to eat his immortal liver",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c26",
+          "source_id": "prometheus-s4",
+          "host": "www.theoi.com",
+          "statement": "When gods and mortals disputed at Mecone, Prometheus cut up a great ox and set out portions, trying to befool the mind of Zeus.",
+          "statement_id": "Ketika para dewa dan manusia berselisih di Mecone, Prometheus memotong seekor lembu besar dan membagi bagiannya untuk mengelabui pikiran Zeus.",
+          "quote": "For when the gods and mortal men had a dispute at Mecone, even then Prometheus was forward to cut up a great ox and set portions before them, trying to befool the mind of Zeus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c27",
+          "source_id": "prometheus-s5",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Aeschylus's Prometheus Bound, Power says Prometheus stole fire, the source of all arts, and gave it to mortal creatures.",
+          "statement_id": "Dalam Prometheus Bound karya Aeschylus, Kekuasaan berkata bahwa Prometheus mencuri api, sumber segala seni, dan memberikannya kepada makhluk fana.",
+          "quote": "For your own flower, flashing fire, source of all arts, he has purloined and bestowed upon mortal creatures.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c28",
+          "source_id": "prometheus-s5",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Prometheus Bound, Hephaestus addresses Prometheus as son of Themis and says he must rivet him with brazen bonds.",
+          "statement_id": "Dalam Prometheus Bound, Hephaestus menyapa Prometheus sebagai putra Themis dan berkata ia harus mengikatnya dengan belenggu perunggu.",
+          "quote": "Lofty-minded son of Themis who counsels straight, against my will, no less than yours, I must rivet you with brazen bonds",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c29",
+          "source_id": "prometheus-s6",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Prometheus Bound, Prometheus says humans were witless before and he gave them sense and reason.",
+          "statement_id": "Dalam Prometheus Bound, Prometheus berkata manusia dulu tak berakal dan ia memberi mereka pengertian serta nalar.",
+          "quote": "how they were witless before and I made them have sense and endowed them with reason.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c30",
+          "source_id": "prometheus-s6",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Prometheus Bound, Prometheus says he taught humans to discern the risings and settings of the stars.",
+          "statement_id": "Dalam Prometheus Bound, Prometheus berkata ia mengajari manusia membedakan terbit dan terbenamnya bintang-bintang.",
+          "quote": "until I taught them to discern the risings of the stars and their settings, which are difficult to distinguish.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c31",
+          "source_id": "prometheus-s6",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Prometheus Bound, Prometheus claims he invented the mariner's flaxen-winged car that roams the sea.",
+          "statement_id": "Dalam Prometheus Bound, Prometheus mengaku dialah yang menemukan kendaraan pelaut bersayap lenan yang mengarungi laut.",
+          "quote": "It was I and no one else who invented the mariner's flaxen-winged car that roams the sea.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c32",
+          "source_id": "prometheus-s7",
+          "host": "en.wikipedia.org",
+          "statement": "The etymology of the name Prometheus is debated; the usual view is that it means \"forethought\", as his brother Epimetheus's name denotes \"afterthought\".",
+          "statement_id": "Asal-usul nama Prometheus diperdebatkan; pandangan yang lazim menyatakan artinya \"pemikiran ke depan\", seperti nama saudaranya Epimetheus berarti \"pemikiran belakangan\".",
+          "quote": "The etymology of the theonym prometheus is debated. The usual view is that it signifies \"forethought\", as that of his brother Epimetheus denotes \"afterthought\"",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c33",
+          "source_id": "prometheus-s7",
+          "host": "en.wikipedia.org",
+          "statement": "Evidence of a cult to Prometheus himself is not widespread; he was a focus of religious activity mainly at Athens, where he was linked with Athena and Hephaestus, deities of creative skills and technology.",
+          "statement_id": "Bukti kultus Prometheus sendiri tidak meluas; ia menjadi pusat kegiatan keagamaan terutama di Athena, tempat ia dikaitkan dengan Athena dan Hephaestus, dewa-dewi keterampilan kreatif dan teknologi.",
+          "quote": "Evidence of a cult to Prometheus himself is not widespread. He was a focus of religious activity mainly at Athens, where he was linked with Athena and Hephaestus, the Greek deities of creative skills and technology.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c34",
+          "source_id": "prometheus-s7",
+          "host": "en.wikipedia.org",
+          "statement": "Mary Shelley, for instance, gave The Modern Prometheus as the alternate title of her novel Frankenstein (1818).",
+          "statement_id": "Mary Shelley, misalnya, memberi novelnya Frankenstein (1818) judul alternatif The Modern Prometheus.",
+          "quote": "Mary Shelley, for instance, gave The Modern Prometheus as the alternate title to her novel Frankenstein (1818).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "prometheus-c35",
+          "source_id": "prometheus-s7",
+          "host": "en.wikipedia.org",
+          "statement": "In the Western classical tradition, Prometheus became a figure representing human striving (particularly the quest for scientific knowledge) or \"playing God\" and the risk of overreaching or unintended consequences.",
+          "statement_id": "Dalam tradisi klasik Barat, Prometheus menjadi sosok yang mewakili usaha manusia (terutama pencarian pengetahuan ilmiah) atau \"bermain Tuhan\" serta risiko berlebihan dan akibat tak terduga.",
+          "quote": "In the Western classical tradition, Prometheus became a figure who represented human striving (particularly the quest for scientific knowledge) or “playing God” and the risk of overreaching or unintended consequences.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "sphinx",
-      "file": "batch-032.md",
+      "file": "batch-032-fix-2.md",
+      "entry_sha256": "97a7793ae83aa441aeb873972c6b77547fdbea6ba11038989eb0d0b70c6eaa78",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 3,
+        "claims": 38,
+        "sources": 5,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 8 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "4 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -313,9 +1010,8 @@
           "statement_id": "Motif sphinx berasal dari Mesir dan dikenal di Mediterania timur sejak Zaman Perunggu.",
           "quote": "The sphinx, a mythological creature with a lion's body and a human head, originated in Egypt and has been known throughout the eastern Mediterranean since the Bronze Age.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250927034930id_/https://www.metmuseum.org/exhibitions/listings/2018/dangerous-beauty/exhibition-gallery",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "sphinx-c03",
@@ -325,9 +1021,8 @@
           "statement_id": "Orang Yunani menggambarkannya sebagai singa betina bersayap dan berkepala perempuan.",
           "quote": "The Greeks represented the sphinx as a winged lioness with a woman's head.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250927034930id_/https://www.metmuseum.org/exhibitions/listings/2018/dangerous-beauty/exhibition-gallery",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "sphinx-c04",
@@ -347,9 +1042,8 @@
           "statement_id": "Arca sphinx ditempatkan di makam sebagai penjaga dari pengganggu orang mati.",
           "quote": "Statues of sphinxes flanked the entrance of tombs or crowned grave markers, guarding against and punishing those who would disturb the dead.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250927034930id_/https://www.metmuseum.org/exhibitions/listings/2018/dangerous-beauty/exhibition-gallery",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "sphinx-c06",
@@ -379,29 +1073,323 @@
           "statement_id": "Teka-teki Sphinx menanyakan makhluk bersuara satu yang berjalan dengan empat, dua, dan tiga kaki.",
           "quote": "The most famous sphinx plagued the city of Thebes, devouring anyone who gave the wrong answer to her riddle: what is that which has one voice and yet becomes four-footed, two-footed, and three-footed?",
           "context": "traditional-belief",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250927034930id_/https://www.metmuseum.org/exhibitions/listings/2018/dangerous-beauty/exhibition-gallery",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "sphinx-c09",
+          "source_id": "sphinx-s3",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, the gods sent the Sphinx to plague the town of Thebes as punishment for some ancient crime; she preyed on its youths and devoured all who failed to solve her riddle.",
+          "statement_id": "Menurut Theoi, para dewa mengirim Sphinx untuk menimpakan bencana pada kota Thebes sebagai hukuman atas kejahatan lama; ia memangsa para pemuda dan melahap semua yang gagal memecahkan teka-tekinya.",
+          "quote": "She was sent by the gods to plague the town of Thebes as punishment for some ancient crime, preying on its youths and devouring all who failed to solve her riddle.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c10",
+          "source_id": "sphinx-s3",
+          "host": "www.theoi.com",
+          "statement": "In archaic vase paintings, sphinxes often appear among a procession of animals and fabulous creatures such as lions and bird-bodied sirens.",
+          "statement_id": "Dalam lukisan vas arkais, sphinx sering muncul di tengah arak-arakan hewan dan makhluk ajaib seperti singa dan siren berbadan burung.",
+          "quote": "In archaic vase paintings they often appear amongst a procession of animals and fabulous creatures such as lions and bird-bodied sirens.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c11",
+          "source_id": "sphinx-s3",
+          "host": "www.theoi.com",
+          "statement": "In the quotation from Hesiod's Theogony on Theoi, Khimaira, in love with Orthos, mothered the deadly Sphinx, the bane of the Kadmeians (Thebans).",
+          "statement_id": "Menurut kutipan Theogony karya Hesiodos di Theoi, Khimaira, yang jatuh cinta pada Orthos, melahirkan Sphinx yang mematikan, bencana bagi bangsa Kadmos (Thebes).",
+          "quote": "But she [Khimaira (Chimera)] also, in love with Orthos (Orthus), mothered the deadly Sphinx, the bane of the Kadmeians (Cadmeans) [Thebans].",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c12",
+          "source_id": "sphinx-s4",
+          "host": "www.theoi.com",
+          "statement": "According to Apollodorus, Hera sent the Sphinx, whose mother was Echidna and father Typhon; she had a woman's face, a lion's breast, feet, and tail, and a bird's wings.",
+          "statement_id": "Menurut Apollodorus, Hera mengirim Sphinx, yang ibunya Echidna dan ayahnya Typhon; ia berwajah perempuan, berdada, berkaki, dan berekor singa, serta bersayap burung.",
+          "quote": "For Hera sent the Sphinx, ... whose mother was Echidna and her father Typhon; and she had the face of a woman, the breast and feet and tail of a lion, and the wings of a bird.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c13",
+          "source_id": "sphinx-s4",
+          "host": "www.theoi.com",
+          "statement": "Having learned a riddle from the Muses, the Sphinx sat on Mount Phicium and put it to the Thebans.",
+          "statement_id": "Setelah mempelajari teka-teki dari para Muse, Sphinx duduk di Gunung Phicium dan mengajukannya kepada orang Thebes.",
+          "quote": "And having learned a riddle from the Muses, she sat on Mount Phicium, and propounded it to the Thebans.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c14",
+          "source_id": "sphinx-s4",
+          "host": "www.theoi.com",
+          "statement": "The Thebans often met to discuss the answer, and when they could not find it the Sphinx snatched one of them and gobbled him up.",
+          "statement_id": "Orang Thebes sering berkumpul membahas jawabannya, dan bila tidak menemukannya, Sphinx menyambar salah satu dari mereka lalu melahapnya.",
+          "quote": "so they often met and discussed the answer, and when they could not find it the Sphinx used to snatch away one of them and gobble him up.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c15",
+          "source_id": "sphinx-s4",
+          "host": "www.theoi.com",
+          "statement": "Oedipus found the solution: the riddle referred to man, who as a babe goes on four limbs, as an adult on two feet, and as an old man gets a third support in a staff.",
+          "statement_id": "Oedipus menemukan jawabannya: teka-teki Sphinx merujuk pada manusia, yang saat bayi berkaki empat, saat dewasa berkaki dua, dan saat tua mendapat penopang ketiga berupa tongkat.",
+          "quote": "Oedipus found the solution, declaring that the riddle of the Sphinx referred to man; for as a babe he is four-footed, going on four limbs, as an adult he is two-footed, and as an old man he gets besides a third support in a staff.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c16",
+          "source_id": "sphinx-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to Hesiod's Theogony, the sphinx was born from the Chimaera, sister of the Nemean lion and half-sister of Kerberos.",
+          "statement_id": "Menurut Theogony karya Hesiodos, Sphinx lahir dari Chimaira, saudari Singa Nemea, dan saudari tiri Kerberos.",
+          "quote": "Hesiod tells us in his Theogony that the creature was born from the Chimaera (a fire-breathing monster with three heads and a body part lion, goat, snake and dragon) and was sister to the Nemean lion and half-sister of Kerberos (the three-headed dog that guarded Hades).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c17",
+          "source_id": "sphinx-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The sphinx brought drought and famine and would leave the Thebans alone only if they solved her riddle.",
+          "statement_id": "Sphinx menimbulkan kekeringan dan kelaparan dan hanya akan membiarkan orang Thebes jika mereka memecahkan teka-tekinya.",
+          "quote": "The sphinx created drought and famine and would only leave the Thebans alone if they solved her riddle.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c18",
+          "source_id": "sphinx-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Sphinxes were first created by the Egyptians and usually wore a nemes (head-dress) like those worn by pharaohs.",
+          "statement_id": "Sphinx pertama kali dibuat oleh bangsa Mesir dan biasanya mengenakan nemes (tutup kepala) seperti yang dipakai para firaun.",
+          "quote": "Sphinxes were first created by the Egyptians and usually wore a nemes (head-dress) as worn by Pharaohs.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c19",
+          "source_id": "sphinx-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the reign of Chephren, sphinxes became more widespread and were usually placed as guards outside or beside a mortuary temple, tomb, or funerary monument.",
+          "statement_id": "Pada masa pemerintahan Chephren, sphinx makin tersebar dan biasanya ditempatkan sebagai penjaga di luar atau di samping kuil pemakaman, makam, atau monumen pemakaman.",
+          "quote": "In the reign of Chephren, sphinxes became more widespread and they were usually placed as guards outside or beside a mortuary temple, tomb or funerary monument.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c20",
+          "source_id": "sphinx-s1",
+          "host": "www.worldhistory.org",
+          "statement": "There is a story that Thutmose IV, still a prince, fell asleep in the shadow of the Sphinx and dreamt that it promised he would become king if he cleared the sand around the statue's feet.",
+          "statement_id": "Ada kisah bahwa Thutmose IV, saat masih pangeran, tertidur di bayangan Sphinx dan bermimpi Sphinx berjanji ia akan menjadi raja jika membersihkan pasir di kaki patung itu.",
+          "quote": "There is a story that in the Eighteenth Dynasty, Pharaoh Thutmose IV, when he was a mere prince, went on a hunting expedition and fell asleep in the shadow of the Sphinx. Whilst asleep he dreamt that the Sphinx spoke to him and promised that he would become king if he cleared the sands that had accumulated around the feet of the statue.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c21",
+          "source_id": "sphinx-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Large sculpted sphinxes in the shape of winged bulls often stood in pairs outside palaces and guarded against evil forces.",
+          "statement_id": "Sphinx pahatan besar berbentuk banteng bersayap sering berdiri berpasangan di luar istana dan menjaga dari kekuatan jahat.",
+          "quote": "Large, sculpted sphinxes in the shape of winged bulls often stood in pairs outside palaces and guarded against evil forces.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c22",
+          "source_id": "sphinx-s1",
+          "host": "www.worldhistory.org",
+          "statement": "One of the most famous sphinxes was found at Delphi; it originally sat on a 10 m Ionic column and was dedicated to the oracle by the Naxians around 560 BCE.",
+          "statement_id": "Salah satu sphinx paling terkenal ditemukan di Delphi; semula bertengger di atas tiang Ionia setinggi 10 m dan dipersembahkan kepada oracle oleh orang Naxos sekitar 560 SM.",
+          "quote": "Indeed, one of the most famous sphinxes was discovered at Delphi; originally sat on a 10m high Ionic column, it had been dedicated to the oracle by the Naxians around 560 BCE.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c23",
+          "source_id": "sphinx-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Sphinxes were also present in the art of the Minoan and Mycenaean cultures from the early second millennium BC.",
+          "statement_id": "Sphinx juga hadir dalam seni budaya Minoa dan Mikenai sejak awal milenium kedua SM.",
+          "quote": "Sphinxes were also present in the art of the Minoan and Mycenaean cultures from the early second millennium BC.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c24",
+          "source_id": "sphinx-s5",
+          "host": "en.wikipedia.org",
+          "statement": "The word sphinx comes from the Greek Σφίγξ, associated by folk etymology with the verb σφίγγω (sphíngō), meaning \"to squeeze\" or \"to tighten up\".",
+          "statement_id": "Kata sphinx berasal dari bahasa Yunani Σφίγξ, yang menurut etimologi rakyat dikaitkan dengan kata kerja σφίγγω (sphíngō) yang berarti \"meremas\" atau \"mengencangkan\".",
+          "quote": "The word sphinx comes from the Greek Σφίγξ, associated by folk etymology with the verb σφίγγω (sphíngō), meaning \"to squeeze\", \"to tighten up\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c25",
+          "source_id": "sphinx-s5",
+          "host": "en.wikipedia.org",
+          "statement": "According to Hesiod, the Sphinx was a daughter of Orthrus and an unknown female (the Chimera, Echidna, or Ceto); according to Apollodorus and Lasus, a daughter of Echidna and Typhon.",
+          "statement_id": "Menurut Hesiodos, Sphinx putri Orthrus dan seorang perempuan yang tidak jelas (Chimera, Echidna, atau Ceto); menurut Apollodorus dan Lasus, putri Echidna dan Typhon.",
+          "quote": "According to Hesiod, the Sphinx was a daughter of Orthrus and an unknown she—either the Chimera, Echidna, or Ceto. According to Apollodorus and Lasus, she was a daughter of Echidna and Typhon.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c26",
+          "source_id": "sphinx-s5",
+          "host": "en.wikipedia.org",
+          "statement": "The sphinx was the emblem of the ancient city-state of Chios and appeared on seals and the obverse of coins from the 6th century BC until the 3rd century AD.",
+          "statement_id": "Sphinx adalah lambang negara-kota kuno Chios dan muncul pada segel serta sisi depan koin dari abad ke-6 SM hingga abad ke-3 M.",
+          "quote": "The sphinx was the emblem of the ancient city-state of Chios, and appeared on seals and the obverse side of coins from the 6th century BC until the 3rd century AD.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c27",
+          "source_id": "sphinx-s5",
+          "host": "en.wikipedia.org",
+          "statement": "The exact riddle asked by the Sphinx was not specified by early tellers of the myth and was standardized only late in Greek history.",
+          "statement_id": "Teka-teki yang tepat dari Sphinx tidak ditentukan oleh para penutur awal mitos dan baru dibakukan pada akhir sejarah Yunani.",
+          "quote": "The exact riddle asked by the Sphinx was not specified by early tellers of the myth, and was not standardized as the one given below until late in Greek history.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c28",
+          "source_id": "sphinx-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In late lore, Hera or Ares sent the Sphinx from her Aethiopian homeland to Thebes in Greece; the Greeks always remembered her foreign origin.",
+          "statement_id": "Menurut cerita akhir, Hera atau Ares mengirim Sphinx dari tanah airnya di Aethiopia ke Thebes di Yunani; orang Yunani selalu mengingat asal asingnya.",
+          "quote": "It was said in late lore that Hera or Ares sent the Sphinx from her Aethiopian homeland (the Greeks always remembered the foreign origin of the Sphinx) to Thebes in Greece",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c29",
+          "source_id": "sphinx-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Bested at last, the Sphinx threw herself from her high rock and died.",
+          "statement_id": "Setelah akhirnya dikalahkan, Sphinx melemparkan diri dari batu tinggi dan mati.",
+          "quote": "Bested at last, the Sphinx then threw herself from her high rock and died",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c30",
+          "source_id": "sphinx-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In South India the \"sphinx\" is known as puruṣamr̥ga (Sanskrit) or purushamirugam (Tamil), \"human-animal\", and is depicted in sculpture in temples and palaces with an apotropaic purpose.",
+          "statement_id": "Di India Selatan, \"sphinx\" dikenal sebagai puruṣamr̥ga (Sanskerta) atau purushamirugam (Tamil), \"manusia-hewan\", dan digambarkan dalam seni pahat di kuil dan istana dengan fungsi penolak bala.",
+          "quote": "In South India, the \"sphinx\" is known as puruṣamr̥ga (Sanskrit) or purushamirugam (Tamil), meaning \"human-animal\". It is found depicted in sculptural art in temples and palaces where it serves an apotropaic purpose",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c31",
+          "source_id": "sphinx-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In Burma (Myanmar), the sphinx-like statue with a human head and two lion hindquarters is known as Manussiha; it is placed on the corners of Buddhist stupas, and its legends say Buddhist monks created it to protect a newborn royal baby from ogresses.",
+          "statement_id": "Di Burma (Myanmar), patung mirip sphinx berkepala manusia dan berbadan belakang singa dikenal sebagai Manussiha; ditempatkan di sudut stupa Buddha, dan legendanya menyebut ia dibuat para biksu untuk melindungi bayi kerajaan dari raksasa betina.",
+          "quote": "In Burma (Myanmar), the sphinx-like statue, with a human head and two lion hindquarters, is known as Manussiha (manuthiha). It is depicted on the corners of Buddhist stupas, and its legends tell how it was created by Buddhist monks to protect a new-born royal baby from being devoured by ogresses.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c32",
+          "source_id": "sphinx-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Nora Nair, Norasingha, and Thep Norasingha are three names of the \"sphinx\" in Thailand; they are depicted walking upright, with the lower body of a lion or deer and the upper body of a human.",
+          "statement_id": "Nora Nair, Norasingha, dan Thep Norasingha adalah tiga nama \"sphinx\" di Thailand; digambarkan berjalan tegak, berbadan bawah singa atau rusa dan berbadan atas manusia.",
+          "quote": "Nora Nair, Norasingha and Thep Norasingha are three of the names under which the \"sphinx\" is known in Thailand. They are depicted as upright walking beings with the lower body of a lion or deer, and the upper body of a human.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c33",
+          "source_id": "sphinx-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Although the date of construction is uncertain, the consensus among Egyptologists is that the head of the Great Sphinx bears the likeness of the pharaoh Khafre, dating it to between 2600 and 2500 BC.",
+          "statement_id": "Meski waktu pembangunannya tidak pasti, konsensus para Egiptolog adalah bahwa kepala Sphinx Agung menyerupai firaun Khafre dan berasal dari antara 2600 dan 2500 SM.",
+          "quote": "While the date of its construction is not known for certain, the consensus among Egyptologists is that the head of the Great Sphinx bears the likeness of the pharaoh Khafre, dating it to between 2600 and 2500 BC.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c34",
+          "source_id": "sphinx-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The date of the first sphinx is unknown and the Great Sphinx of Giza has not been precisely dated; some scholars date it as far back as the reign of Cheops, ca 2500 BCE.",
+          "statement_id": "Waktu kemunculan sphinx pertama tidak diketahui dan Sphinx Agung Giza belum bisa ditentukan umurnya secara tepat; sebagian sarjana menempatkannya sejak masa Cheops, sekitar 2500 SM.",
+          "quote": "The exact date when the first sphinx appeared is not known and the most famous sphinx of all, the Great Sphinx of Giza, has not been precisely dated; some scholars date it as far back as the reign of Cheops, ca 2500 BCE.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c35",
+          "source_id": "sphinx-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In contrast to the Egyptians, the ancient Greeks saw the sphinx as a more troublesome creature.",
+          "statement_id": "Berbeda dari bangsa Mesir, bangsa Yunani kuno memandang sphinx sebagai makhluk yang lebih merepotkan.",
+          "quote": "In contrast to the Egyptians, the ancient Greeks saw the sphinx as a more troublesome creature.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c36",
+          "source_id": "sphinx-s1",
+          "host": "www.worldhistory.org",
+          "statement": "From the 6th century BCE the Greek sphinx appeared in stone sculpture, sometimes with raised hind quarters.",
+          "statement_id": "Sejak abad ke-6 SM, sphinx Yunani muncul dalam pahatan batu, kadang dengan bagian belakang tubuh terangkat.",
+          "quote": "From the 6th century BCE, the Greek sphinx appeared in stone sculpture, sometimes with raised hind quarters.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c37",
+          "source_id": "sphinx-s3",
+          "host": "www.theoi.com",
+          "statement": "In the Boeotian dialect the name was phix, whence the name of the Boeotian mountain Phikion oros.",
+          "statement_id": "Dalam dialek Boiotia, namanya adalah phix, dan dari situlah nama gunung Boiotia, Phikion oros.",
+          "quote": "In the Boeotian dialect the name was phix (Hes. Theog. 326), whence the name of the Boeotian mountain, Phikion oros.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "sphinx-c38",
+          "source_id": "sphinx-s5",
+          "host": "en.wikipedia.org",
+          "statement": "The historian Susan Wise Bauer suggests the word \"sphinx\" was instead a Greek corruption of the Egyptian name \"shesepankh\", meaning \"living image\".",
+          "statement_id": "Sejarawan Susan Wise Bauer mengusulkan bahwa kata \"sphinx\" justru merupakan perubahan Yunani dari nama Mesir \"shesepankh\" yang berarti \"citra hidup\".",
+          "quote": "However, the historian Susan Wise Bauer suggests that the word \"sphinx\" was instead a Greek corruption of the Egyptian name \"shesepankh\", which meant \"living image\"",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "cronus",
-      "file": "batch-032.md",
+      "file": "batch-032-fix-2.md",
+      "entry_sha256": "ed8f308e5bf6d8acdc394e7dc99a75e9e52851e9c8cec0143c4a1de51512b243",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 11,
-        "sources": 2,
+        "claims": 41,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 11 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cronus-c01",
@@ -511,6 +1499,306 @@
           "statement_id": "Cronus dihubungkan dengan dewa Romawi Saturnus.",
           "quote": "He is linked to the Roman god Saturn, the Egyptian god Geb, the Phoenician Ēl, and the Hittite/Hurrian god Kumarbi.",
           "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c12",
+          "source_id": "cronus-s3",
+          "host": "www.theoi.com",
+          "statement": "According to Hesiod, after the other Titans came Cronos the wily, youngest and most terrible of her children, and he hated his lusty sire.",
+          "statement_id": "Menurut Hesiodos, setelah para Titan lain lahir, lahirlah Cronos yang licik, anak bungsu dan paling mengerikan, dan ia membenci ayahnya yang penuh nafsu.",
+          "quote": "After them was born Cronos the wily, youngest and most terrible of her children, and he hated his lusty sire.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c13",
+          "source_id": "cronus-s3",
+          "host": "www.theoi.com",
+          "statement": "According to Hesiod, Cronos reached from his ambush, took the great jagged sickle in his right hand, swiftly lopped off his father's members, and cast them behind him.",
+          "statement_id": "Menurut Hesiodos, Cronos keluar dari persembunyiannya, mengambil sabit besar bergerigi dengan tangan kanan, dan dengan cepat memotong anggota tubuh ayahnya lalu membuangnya ke belakang.",
+          "quote": "Then the son from his ambush stretched forth his left hand and in his right took the great long sickle with jagged teeth, and swiftly lopped off his own father's members and cast them away to fall behind him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c14",
+          "source_id": "cronus-s3",
+          "host": "www.theoi.com",
+          "statement": "According to Hesiod, Cronos learned from Earth and starry Heaven that he was destined to be overcome by his own son, strong though he was.",
+          "statement_id": "Menurut Hesiodos, Cronos mengetahui dari Bumi dan Langit berbintang bahwa ia ditakdirkan dikalahkan oleh putranya sendiri, sekuat apa pun dirinya.",
+          "quote": "For he learned from Earth and starry Heaven that he was destined to be overcome by his own son, strong though he was",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c15",
+          "source_id": "cronus-s3",
+          "host": "www.theoi.com",
+          "statement": "According to Hesiod, Cronos was beguiled by the deep suggestions of Earth and brought up his offspring, vanquished by the arts and might of his son, vomiting up first the stone he had swallowed last.",
+          "statement_id": "Menurut Hesiodos, Cronos terperdaya oleh saran-saran licik Bumi, memuntahkan kembali anak-anaknya yang dikalahkan oleh siasat dan kekuatan putranya, dan lebih dulu memuntahkan batu yang ditelannya paling akhir.",
+          "quote": "great Cronos the wily was beguiled by the deep suggestions of Earth, and brought up again his offspring, vanquished by the arts and might of his own son, and he vomited up first the stone which he had swallowed last.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c16",
+          "source_id": "cronus-s3",
+          "host": "www.theoi.com",
+          "statement": "According to Hesiod, the Titan gods and those sprung from Cronos had long fought a stubborn war, the Titans from high Othyrs and the gods whom Rhea bore to Cronos from Olympus.",
+          "statement_id": "Menurut Hesiodos, para dewa Titan dan keturunan Cronos lama berperang sengit; para Titan dari Gunung Othyrs yang tinggi, para dewa yang dilahirkan Rhea dari Cronos dari Olympus.",
+          "quote": "For the Titan gods and as many as sprang from Cronos had long been fighting together in stubborn war with heart-grieving toil, the lordly Titans from high Othyrs, but the gods, givers of good, whom rich-haired Rhea bare in union with Cronos, from Olympus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c17",
+          "source_id": "cronus-s3",
+          "host": "www.theoi.com",
+          "statement": "According to Hesiod, Heaven called his sons Titans in reproach because they presumptuously did a fearful deed, and said vengeance would come afterwards.",
+          "statement_id": "Menurut Hesiodos, Langit menyebut putra-putranya \"Titan\" dengan nada celaan karena mereka bertindak lancang dengan perbuatan mengerikan, dan ia berkata pembalasan akan datang kemudian.",
+          "quote": "for he said that they strained and did presumptuously a fearful deed, and that vengeance for it would come afterwards.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c18",
+          "source_id": "cronus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Cronus hid holding the sickle; as Uranus tried to lie with Gaia, Cronus struck and sliced off his father's genitals.",
+          "statement_id": "Cronus bersembunyi sambil memegang sabit; ketika Uranus hendak bercinta dengan Gaia, Cronus menyerang dan memotong alat kelamin ayahnya.",
+          "quote": "Cronus hid, holding the sickle and ready to carry out his mother's plan. As a lustful Uranus attempted to make love to Gaia, Chronus struck, slicing off his father's genitals.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c19",
+          "source_id": "cronus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Cronus imprisoned his father deep in Tartarus together with the Cyclopes and Hecatonchires in caves.",
+          "statement_id": "Cronus memenjarakan ayahnya jauh di Tartarus bersama para Cyclops dan Hecatonchires dalam gua-gua.",
+          "quote": "Cronus imprisoned his father deep in Tartarus (the infernal region) along with the Cyclopes and Hecatonchires in caves.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c20",
+          "source_id": "cronus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Cronus would not let his children overthrow him without a fight, so began the Titanomachy, a ten-year battle between the Titans from Mount Othrys and the Olympian gods from Mount Olympus.",
+          "statement_id": "Cronus tidak mau digulingkan anak-anaknya tanpa perlawanan, sehingga dimulailah Titanomakhia, pertempuran sepuluh tahun antara para Titan dari Gunung Othrys dan para dewa Olimpus dari Gunung Olympus.",
+          "quote": "Cronus would not simply allow his children to overthrow him without a fight, and so began the Titanomachy, a ten-year-long battle between the Titans and the Olympian gods. The Titans fought from Mount Othrys, while the gods fought from Mount Olympus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c21",
+          "source_id": "cronus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "When Rhea interrupted Cronus with Philyra, he panicked, turned himself into a stallion, and fled; Philyra became pregnant and gave birth to the centaur Cheiron.",
+          "statement_id": "Ketika Cronus bersama Philyra dan didatangi Rhea, ia panik, mengubah dirinya menjadi kuda jantan, lalu kabur; Philyra hamil dan melahirkan centaur Cheiron.",
+          "quote": "One day, as Cronus lay with Philyra, he was interrupted by Rhea and, in a panic, turned himself into a stallion and fled. Philyra became pregnant and gave birth to the centaur Cheiron.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c22",
+          "source_id": "cronus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Although there is no etymological link between Cronus and Chronus, the Stoics believed the definition of a word was also the meaning of a myth.",
+          "statement_id": "Walau tidak ada kaitan etimologis antara Cronus dan Chronus (waktu), kaum Stoik percaya bahwa arti sebuah kata juga merupakan makna sebuah mitos.",
+          "quote": "Although there is no etymological link between Cronus and Chronus, the Stoics believed that the definition of a word was also the meaning of a myth.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c23",
+          "source_id": "cronus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Hill of Cronus lay above the sanctuary of Zeus in Olympia; it was sacred to Cronus, who received offerings there.",
+          "statement_id": "Bukit Cronus terletak di atas tempat suci Zeus di Olympia; bukit itu suci bagi Cronus, yang menerima persembahan di sana.",
+          "quote": "The Hill of Cronus was located above the sanctuary of Zeus in Olympia. It was sacred to Cronus, who received offerings there.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c24",
+          "source_id": "cronus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "A festival called the Kronia was believed to have been held in honour of Cronus; it was an agricultural festival in Athens, Samos, and Kolophon at year's end when slaves were temporarily freed.",
+          "statement_id": "Festival Kronia diyakini diadakan untuk menghormati Cronus; itu festival pertanian di Athena, Samos, dan Kolophon pada akhir tahun ketika budak dibebaskan sementara.",
+          "quote": "A festival called the Kronia was also believed to have been held in honour of Cronus. ... It was an agricultural festival held in Athens, Samos and Kolophon at the end of the year when slaves were temporarily freed.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c25",
+          "source_id": "cronus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Some heroes chose not to die and were instead transported to the Isles of the Blessed at the end of the world, which Cronus also ruled.",
+          "statement_id": "Sebagian pahlawan memilih tidak mati dan dipindahkan ke Kepulauan Orang Berbahagia di ujung dunia, yang juga diperintah Cronus.",
+          "quote": "Some heroes chose not to die but were instead transported to the Isles of the Blessed at the end of the world, which Cronus also ruled.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c26",
+          "source_id": "cronus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Zeus took the mixture to Cronus, and as soon as he began drinking it, Cronus threw up his children one by one.",
+          "statement_id": "Zeus membawa ramuan itu kepada Cronus, dan begitu Cronus meminumnya, ia memuntahkan anak-anaknya satu per satu.",
+          "quote": "Zeus took this mixture to Cronus, and as soon as he started drinking it, he threw up his children one by one.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c27",
+          "source_id": "cronus-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Cronus was usually depicted with a harpe, scythe, or sickle, the instrument he used to castrate and depose his father Uranus.",
+          "statement_id": "Cronus biasanya digambarkan membawa harpe, arit, atau sabit, alat yang ia pakai untuk mengebiri dan menggulingkan ayahnya, Uranus.",
+          "quote": "Cronus was usually depicted with a harpe, scythe, or sickle, which was the instrument he used to castrate and depose Uranus, his father.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c28",
+          "source_id": "cronus-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Cronus was likely originally a harvest god, which is why in many regions of Greece the month of the harvest was named Cronion after him.",
+          "statement_id": "Cronus kemungkinan semula dewa panen, sehingga di banyak daerah Yunani bulan panen dinamai Cronion menurut namanya.",
+          "quote": "Cronus was likely originally a harvest god, which is why in many regions of Greece the month of the harvest was named Cronion after him.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c29",
+          "source_id": "cronus-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Attempts to give the name Κρόνος a Greek etymology are reported to have failed; Janda (2010) offers an Indo-European etymology, \"the cutter\", from the root *(s)ker- \"to cut\".",
+          "statement_id": "Upaya memberi nama Κρόνος etimologi Yunani dilaporkan gagal; Janda (2010) mengajukan etimologi Indo-Eropa \"sang pemotong\" dari akar *(s)ker- \"memotong\".",
+          "quote": "observed that attempts to give the name Κρόνος a Greek etymology had failed. Recently, Janda (2010) offers a genuinely Indo-European etymology of \"the cutter\", from the root *(s)ker- \"to cut\"",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c30",
+          "source_id": "cronus-s4",
+          "host": "en.wikipedia.org",
+          "statement": "The Romans took a more positive and innocuous view of the deity by conflating their native deity Saturn with Cronus.",
+          "statement_id": "Bangsa Romawi memandang dewa ini secara lebih positif dan tidak berbahaya dengan memadukan dewa asli mereka, Saturnus, dengan Cronus.",
+          "quote": "the Romans took a more positive and innocuous view of the deity, by conflating their indigenous deity Saturn with Cronus.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c31",
+          "source_id": "cronus-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Plato presents an alternate genealogy in which Cronus, Phorcys, and Rhea were children of Oceanus and Tethys.",
+          "statement_id": "Plato menyajikan silsilah alternatif: Cronus, Phorcys, dan Rhea adalah anak Oceanus dan Tethys.",
+          "quote": "An alternate genealogy is presented by Plato, who wrote that Cronus, Phorcys, and Rhea were the children of Oceanus and Tethys.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c32",
+          "source_id": "cronus-s4",
+          "host": "en.wikipedia.org",
+          "statement": "In antiquity, Cronus was occasionally interpreted as Chronos, the personification of time.",
+          "statement_id": "Pada zaman kuno, Cronus kadang ditafsirkan sebagai Chronos, personifikasi waktu.",
+          "quote": "During antiquity, Cronus was occasionally interpreted as Chronos, the personification of time.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c33",
+          "source_id": "cronus-s2",
+          "host": "www.theoi.com",
+          "statement": "Theoi states that Kronos was essentially the same as Khronos (Chronos), the primordial god of time in the Orphic Theogonies.",
+          "statement_id": "Theoi menyatakan Kronos pada dasarnya sama dengan Khronos (Chronos), dewa waktu purba dalam Teogoni Orfik.",
+          "quote": "Kronos was essentially the same as Khronos (Chronos), the primordial god of time in the Orphic Theogonies.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c34",
+          "source_id": "cronus-s2",
+          "host": "www.theoi.com",
+          "statement": "At his mother's instigation, Cronus unmanned his father for having thrown the Cyclopes, also his children by Ge, into Tartarus.",
+          "statement_id": "Atas dorongan ibunya, Cronus mengebiri ayahnya karena ayahnya melemparkan para Cyclops, yang juga anak-anaknya dari Ge, ke Tartarus.",
+          "quote": "At the instigation of his mother, Cronus unmanned his father for having thrown the Cyclopes, who were likewise his children by Ge, into Tartarus.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c35",
+          "source_id": "cronus-s2",
+          "host": "www.theoi.com",
+          "statement": "Rhea managed to save the youngest, Zeus, by hiding him on the island of Crete, and fed Kronos a stone wrapped in swaddling clothes.",
+          "statement_id": "Rhea berhasil menyelamatkan si bungsu, Zeus, dengan menyembunyikannya di pulau Kreta, dan memberi Kronos batu terbungkus kain.",
+          "quote": "Rhea managed to save the youngest, Zeus, by hiding him away on the island of Krete (Crete), and fed Kronos a stone wrapped in swaddling clothes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c36",
+          "source_id": "cronus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "A temple to Cronus stood on the island of Gadir (modern Cádiz, Spain), founded by the Phoenicians; another temple in Athens, built by Peisistratos, was dedicated to Cronus and Rhea.",
+          "statement_id": "Sebuah kuil untuk Cronus berada di pulau Gadir (Cádiz modern, Spanyol), didirikan bangsa Fenisia; kuil lain di Athena, dibangun Peisistratos, didedikasikan untuk Cronus dan Rhea.",
+          "quote": "A temple dedicated to Cronus was located on the island of Gadir (modern-day Cádiz, Spain), founded by the Phoenicians. Another temple in Athens, built by Peisistratos, was dedicated to Cronus and Rhea.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c37",
+          "source_id": "cronus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Cronus's origin story is most famously told in Hesiod's Theogony (c. 700 BCE).",
+          "statement_id": "Kisah asal-usul Cronus paling terkenal dituturkan dalam Theogony karya Hesiodos (sekitar 700 SM).",
+          "quote": "Cronus' origin story is most famously told in Hesiod's (c. 700 BCE) Theogony.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c38",
+          "source_id": "cronus-s4",
+          "host": "en.wikipedia.org",
+          "statement": "In Athens, on the twelfth day of the Attic month of Hekatombaion, the festival Kronia was held in honour of Cronus to celebrate the harvest.",
+          "statement_id": "Di Athena, pada hari ke-12 bulan Hekatombaion menurut penanggalan Attika, festival Kronia diadakan untuk menghormati Cronus dan merayakan panen.",
+          "quote": "In Athens, on the twelfth day of the Attic month of Hekatombaion, a festival called Kronia was held in honour of Cronus to celebrate the harvest",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c39",
+          "source_id": "cronus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Other sources state the Kronia was a dark festival with human sacrifices made to Cronus.",
+          "statement_id": "Sumber lain menyatakan Kronia adalah festival kelam dengan persembahan manusia kepada Cronus.",
+          "quote": "Other sources state that the Kronia was a dark festival with human sacrifices being made to Cronus.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c40",
+          "source_id": "cronus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In other traditions Cronus was sent to Tartarus with his siblings; other myths say he was allowed to live out his days on the Isles of the Blessed.",
+          "statement_id": "Dalam tradisi lain, Cronus dikirim ke Tartarus bersama saudara-saudaranya; mitos lain menyatakan ia dibiarkan menjalani sisa hidupnya di Kepulauan Orang Berbahagia.",
+          "quote": "In other traditions, Cronus was sent to Tartarus with the rest of his siblings. Other myths state that he was allowed to live out the rest of his days on the Isles of the Blessed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cronus-c41",
+          "source_id": "cronus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In 2017, a star known as HD 240430 was nicknamed Kronus after it was observed eating the planets around it.",
+          "statement_id": "Pada 2017, bintang HD 240430 diberi julukan Kronus setelah teramati melahap planet-planet di sekelilingnya.",
+          "quote": "In 2017, a star known as HD 240430 was given the nickname Kronus after it was observed eating the planets surrounding it.",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],

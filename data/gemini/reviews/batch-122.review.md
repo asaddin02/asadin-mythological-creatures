@@ -1,6 +1,6 @@
 # Review batch-122
 
-Diperiksa 2026-10-03T06:19:07.118Z. Berkas: batch-122.md.
+Diperiksa 2026-10-06T14:51:11.617Z. Berkas: batch-122.md, batch-122-fix-1.md.
 
 ## tsovinar — lulus-otomatis
 
@@ -409,10 +409,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## blud — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (exact 16), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -420,6 +417,18 @@ Klaim 4 (exact 4), sumber 2, gambar 0.
 | blud-c02 | exact | uk.wikipedia.org | Blud is a figure of Slavic, including Ukrainian, mythology, a kind of unclean force that deceives travellers, makes them wander, leads them off the road and into danger. | Блуд — персонаж слов'янської міфології, зокрема й української, різновид нечистої сили, що вводить в оману подорожніх, змушує їх блукати, збиває зі шляху, заводить у небезпеку. |
 | blud-c03 | exact | uk.wikipedia.org | By legend the blud is an angel (servant of Satan) cast from heaven by God; the other angels became devils, forest and water spirits and other unclean beings on falling to earth, but the blud had not landed and hung in the air when God said "Amen". | За переказами, блуд — це скинутий Богом з неба янгол (слуга Сатани). Інші янголи стали чортами, лісовиками, водяниками та іншою нечистою силою, коли впали на землю. Блуд не встиг приземлитися та завис у повітрі після того, як Бог промовив «Амінь». |
 | blud-c04 | exact | uk.wikipedia.org | So the blud clings to any passer-by who touches it by chance, making them wander by clouding the mind, sending false visions or calling with a voice. | Відтак блуд чіпляється до кожного перехожого, який випадково доторкнеться до нього. Він змушує людину блукати, затьмарюючи розум, насилаючи оманливі видіння чи кличучи голосом. |
+| blud-c05 | exact | vue.gov.ua | In Slavic mythology the blud is an unclean spirit that knocks a person off the right road or path, deceives him and makes him wander or circle around the same place; hence it is also called «водило» (vodylo). | Блуд — у слов’янській міфології — нечистий дух, який збиває людину з правильної дороги, стежки, вводить в оману, змушує блукати чи кружляти навколо того самого місця (звідси — також назва «водило»). |
+| blud-c06 | exact | vue.gov.ua | The blud is a figure of lower demonology, a helper of the forest spirit alongside the polisun and the strakh. | Персонаж нижчої демонології, помічник лісовика поряд із полісуном і страхом. |
+| blud-c07 | exact | vue.gov.ua | It was believed that one could most often fall under the deceptive influence of the blud at night, in the «глухий час» (the dead hour). | Вірували, що потрапити під оманливий вплив блуду можна найчастіше вночі, у «глухий час». |
+| blud-c08 | exact | vue.gov.ua | A traveller who wandered deep into the forest thicket for mushrooms or berries was led by the blud to a place from which escape was impossible (a bog, ditch, mire or other trap) or made to circle aimlessly. | Подорожнього, котрий забрів углиб лісової хащі за грибами чи ягодами, блуд заводив у таке місце, звідки неможливо вибратися (болото, рів, багно, іншу пастку), або змушував безладно кружляти (селом, довкола скирти, пасовиська та ін.). |
+| blud-c09 | exact | vue.gov.ua | The charms of the blud dispersed at the third cockcrow, when the victim realised they were near the place where they had set out, or in the wild wilderness. | Чари блуду розсіювалися з третіми півнями, коли жертва розуміла, що перебуває неподалік того місця, звідки вирушила в дорогу, або ж у дикій глушині. |
+| blud-c10 | exact | vue.gov.ua | The blud most often led drunkards astray; it was believed a person would wander if they left home without a blessing or entered the forest without the traditional address to the forest-master. | Найчастіше зводив на манівці бражників, пияк. Вважали, що блукатиме людина, яка пішла з дому без благословення або зайшла в ліс без традиційного звернення до лісовика-господаря. |
+| blud-c11 | exact | vue.gov.ua | The unclean spirit was imagined as wholly invisible and amorphous, or in numerous forms: an attractive person of the opposite sex, a cat, dog, goat, owl, feeble bird, haystack, light and so on. | Уявляли нечисть геть невидимою, аморфною або у численних формах-втіленнях: привабливої особи протилежної статі, кішки, собаки, кози, сови, кволої пташки, копиці сіна, світла тощо. |
+| blud-c12 | exact | vue.gov.ua | Places where the blud most often clung to people were called «блудними» or «згиблими»: crossroads, pastures, forest glades, hayfields, a bent or wind-felled tree, or the place of someone's premature death. | Місця, де, за віруваннями, блуд найчастіше чіплявся до людей, називали «блудними» або «згиблими»: це могли бути роздоріжжя, вигони, лісові галявини, сіножаті, зігнуте чи повалене вітром дерево або ж місце чиєїсь передчасної смерті. |
+| blud-c13 | exact | vue.gov.ua | It was believed that a lost person, to free themselves from the blud's ruinous influence, had to turn all their clothing inside out, swap their footwear (left to right and vice versa) and do other illogical things. | Вірили, що заблукала людина, щоб позбавити себе від згубного впливу блуду, мусила перевдягти на собі весь одяг навиворіт і перевзутися (з лівої ноги на праву і навпаки), вчинити інші нелогічні дії. |
+| blud-c14 | exact | uk.wikipedia.org | It was thought that the blud has no power over firstborn children and fears prayer and the cross, as well as the hazel, because the Mother of God blessed that tree, and consecrated food. | Вважалося, що блуд не має влади над первістками та боїться молитви і хреста, а також ліщини, бо це дерево благословила Богородиця, й свяченої їжі. |
+| blud-c15 | exact | uk.wikipedia.org | The blud can change into a bird, woman, man, cat, dog, light and so on to attract attention. | Блуд має здатність перевтілюватися на птаха, жінку, чоловіка, кота, собаку, світло тощо аби привернути увагу. |
+| blud-c16 | exact | vue.gov.ua | It was believed that sorcerers and healers, as well as prayers and the calls of relatives, could bring back someone who had fallen under the blud's power; in Polissia there is a belief that a lost person finds the way home if the household call their name into the chimney. | Вважали, що повернути того, хто потрапив під владу блуду, могли чаклуни та знахарі, а також молитви та заклики рідних. Так, на Поліссі збереглося повір’я, що заблукала людина знайде дорогу додому, якщо домашні будуть закликати її ім’я в димохід. |
 
 
 ## kutkh — lulus-otomatis
@@ -444,10 +453,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## nocnitsa — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (exact 16), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -456,6 +462,17 @@ Klaim 5 (exact 5), sumber 3, gambar 0.
 | nocnitsa-c03 | exact | ru.wikipedia.org | In eastern Serbia nochnitsy were ugly old women in black; in Croatian belief long-haired women with clawed fingers; by scant Polish data like birds or bats. | В восточной Сербии ночницы (сербохорв. ноћнице) представлялись в виде уродливых баб в чёрном. По хорватским поверьям ночницы (хорв. noćničine) — длинноволосые женщины с когтями на пальцах рук. По единичным польским данным, они могли быть похожими на птиц или летучих мышей. |
 | nocnitsa-c04 | exact | pl.wikipedia.org | In Silesia the nocnica was a female demon who choked people in their sleep, especially infants, and brought disease. | Na Śląsku nocnicą nazywano demona płci żeńskiej, duszącego ludzi we śnie – zwłaszcza niemowlęta – i sprowadzającego choroby. |
 | nocnitsa-c05 | exact | pl.wikipedia.org | Nocnice are mentioned in, among others, Brother Rudolf's 13th-century Catalogue of Magic. | Wzmiankę o nocnicach znajdziemy m.in. w trzynastowiecznym Katalogu magii Brata Rudolfa |
+| nocnitsa-c06 | exact | mwmskansen.pl | Nocnice are described as flying female demons whose wings resembled the membranous wings of a bat. | Nocnice były to latające demony rodzaju żeńskiego, ich skrzydła przypominały błoniaste skrzydła nietoperza. |
+| nocnitsa-c07 | exact | mwmskansen.pl | These beings liked to harass children and brought bad, tormenting dreams to sleepers. | Istoty te upodobały sobie nękanie dzieci, sprowadzały na śpiących złe, dręczące sny. |
+| nocnitsa-c08 | exact | mwmskansen.pl | They appeared on nights when the sun set blood-red. | Pojawiały się w te noce, kiedy słońce zachodziło krwawo |
+| nocnitsa-c09 | exact | mwmskansen.pl | Magic formulas were spoken against the nocnice; when the sun set in a red glow, a mother called out to prevent their visit. | Przeciw nocnicom wymawiano formuły magiczne. Kiedy słońce zachodziło w krwawej zorzy, matka dla zapobieżenia wizycie nocnic, wołała: |
+| nocnitsa-c10 | exact | ru.wikipedia.org | By common Slavic belief amulets protect against the nochnitsa: sharp metal objects such as a needle, knife or axe, or a key, placed under the pillow or in the cradle. | Согласно общеславянским верованиям, от ночницы могут защитить обереги. Оберегом могут служить острые металлические предметы, такие как игла, нож, топор, или же ключ, положенные под подушку или в колыбель. |
+| nocnitsa-c11 | exact | ru.wikipedia.org | Heads of garlic and other plants thought to repel unclean forces give reliable protection against the nochnitsa. | Надёжную защиту от ночницы дают головки чеснока и другие растения, наделённые в народных представлениях свойством отпугивать нечистую силу. |
+| nocnitsa-c12 | exact | ru.wikipedia.org | According to an ethnographer's records, fire protected against the nochnitsy. | Согласно записям этнографа Богдановича А. Е. от ночниц оберегал огонь. |
+| nocnitsa-c13 | exact | ru.wikipedia.org | In western Belarus (Slonim district) it was believed that the načnica could take the form of a black hairy worm. | В западной Белоруссии (Слонимский повет) верили, что начніца могла принять вид чёрного мохнатого червяка. |
+| nocnitsa-c14 | exact | pl.wikipedia.org | The nocnica is a demonic figure of Slavic demonology, rooted in pre-Christian beliefs and described as a posthumous form of existence of the human soul. | Nocnica – postać demoniczna z zakresu demonologii słowiańskiej, wywodząca się z wierzeń przedchrześcijańskich, określana jako pośmiertna forma egzystencji ludzkiej duszy. |
+| nocnitsa-c15 | exact | pl.wikipedia.org | Bohdan Baranowski reported that nocnice were thought to mislead people and lead them into trackless country where they wandered long, making it hard to find the way. | Bohdan Baranowski podał ponadto, że przypisywano im zwodzenie ludzi, wyprowadzanie ich na bezdroża, na których musieli długo błądzić, uniemożliwiając lub utrudniając im odnalezienie drogi. |
+| nocnitsa-c16 | exact | pl.wikipedia.org | The folklorist Jan Broda described them as malicious female demons in white sheets and black dresses, appearing at night mainly in trackless places, leaving their hiding places at the sound of church bells and when summoned by whistling. | Folklorysta Jan Broda opisywał je jako złośliwe demony płci żeńskiej ubrane w białe płachty i czarne suknie, pojawiające się nocami, głównie na bezdrożach (zwłaszcza w okresie adwentu) i wychodzące ze swych kryjówek na dźwięk kościelnych dzwonów, a także po przywołaniu gwizdem. |
 
 
 ## psoglav — lulus-otomatis
@@ -477,10 +494,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## the-mistress-of-the-copper-mountain — lulus-otomatis
 
-Klaim 7 (exact 7), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 23 (exact 23), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -491,6 +505,22 @@ Klaim 7 (exact 7), sumber 1, gambar 0.
 | the-mistress-of-the-copper-mountain-c05 | exact | en.wikipedia.org | By legend whoever sees the Mistress falls under her spell; she is kind to good people and skilled craftsmen, helping them find jewels and gold, but if her conditions are not met the person loses all luck and skill and may even die. | According to legend, a person who sees the Mistress comes under her spell. She shows kindness to good people and skilled craftsmen, helping them to find jewels and gold, but if her conditions aren't met, the person loses all his luck and skill, and can even die. |
 | the-mistress-of-the-copper-mountain-c06 | exact | en.wikipedia.org | The Mistress became well known through Pavel Bazhov's collection of Ural folktales, The Malachite Box. | The Mistress of the Copper Mountain became a well known character from her appearance in Pavel Bazhov's collection of Ural Mountains folktales (also known as skaz) under the title The Malachite Box. |
 | the-mistress-of-the-copper-mountain-c07 | exact | en.wikipedia.org | The coat of arms of Polevskoy shows the Mistress of the Copper Mountain as a golden lizard. | The coat of arms of Polevskoy (from left to right): the Venus symbol (♀), which represents the chemical element copper and was the brand of the Polevskoy Copper Smelting Plant, the Mistress of the Copper Mountain depicted as the golden lizard |
+| the-mistress-of-the-copper-mountain-c08 | exact | en.wikipedia.org | According to the beliefs described, women did not go down into the mine because it was the Mistress's domain, and young men seeking her patronage did not marry. | e.g. women did not come down in the mine, because it was the Mistress's domain, and young men seeking her patronage did not marry. |
+| the-mistress-of-the-copper-mountain-c09 | exact | en.wikipedia.org | Children were taught not to shout and quarrel near the stones and to keep quiet in the mines, because by popular belief the Maid disliked loud noises. | Children were taught not to shout and quarrel next to the stones, and to keep quiet in the mines, because, according to popular belief, the Maid disliked loud noises. |
+| the-mistress-of-the-copper-mountain-c10 | exact | en.wikipedia.org | In many folktales the Mistress and Azovka ("the Azov Girl") are identical, and the same stories are told about each. | In many national folktales, the Mistress and Azovka (lit. "the Azov Girl") are identical with each other, and the same stories are told about each of them. |
+| the-mistress-of-the-copper-mountain-c11 | exact | en.wikipedia.org | She may also be called "The Mistress of the Mountain" and has many other names, among them The Mountain Mother. | The Mistress of the Copper Mountain may be called just "The Mistress of the Mountain", and also has many other names, such as The Mountain Mother |
+| the-mistress-of-the-copper-mountain-c12 | exact | en.wikipedia.org | There is a hypothesis that she represents the Roman goddess Venus, because local copper from the Polevskoy Copper Smelting Plant was branded with the Venus symbol. | There is also a hypothesis that she represents the Roman goddess Venus, as local copper from the Polevskoy Copper Smelting Plant was branded with the Venus symbol |
+| the-mistress-of-the-copper-mountain-c13 | exact | en.wikipedia.org | The Mistress appears in the third skaz of Pavel Bazhov's The Malachite Box, "The Mistress of the Copper Mountain", first published in issue 11 of Krasnaya Nov in 1936. | The Mistress of the Copper Mountain appears in the third Pavel Bazhov's skaz from The Malachite Box, "The Mistress of the Copper Mountain", first published in the 11th issue of Krasnaya Nov in 1936 |
+| the-mistress-of-the-copper-mountain-c14 | exact | en.wikipedia.org | The character Queen of the Copper Mountain appeared in Mercedes Lackey's 2007 novel Fortune's Fool. | The character Queen of the Copper Mountain appeared in Mercedes Lackey's 2007 novel Fortune's Fool. |
+| the-mistress-of-the-copper-mountain-c15 | exact | mybook.ru | In Bazhov's tale her dress is made of silk malachite, a stone that looks like silk and that one wants to stroke with the hand. | Из шелкового, слышь-ко, малахиту платье. Сорт такой бывает. Камень, а на глаз как шелк, хоть рукой погладить. |
+| the-mistress-of-the-copper-mountain-c16 | exact | mybook.ru | In the tale the young man sees countless lizards, all different: some green, some blue, some like clay or sand with golden specks. | Он обошел и видит – ящерок тут несчисленно. И все, слышь-ко, разные. Одни, например, зеленые, другие голубые, которые в синь впадают, а то как глина либо песок с золотыми крапинками. |
+| the-mistress-of-the-copper-mountain-c17 | exact | mybook.ru | In the tale she tells the young man he has nowhere to step and that trouble will follow if he crushes her servant. | Теперь тебе ступить некуда. Раздавишь мою слугу – беда будет. |
+| the-mistress-of-the-copper-mountain-c18 | exact | mybook.ru | In the tale she runs up the rock like a lizard: green paws replace her hands and feet, a tail sticks out, a black stripe runs along the back, and her head stays human. | Сама тоже на ноги вскочила, прихватилась рукой за камень, подскочила и тоже, как ящерка, побежала по камню-то. Вместо рук-ног – лапы у yее зеленые стали, хвост высунулся, по хребтине до половины черная полоска, а голова человечья. |
+| the-mistress-of-the-copper-mountain-c19 | exact | mybook.ru | In the tale she says that the person she needs is one who fears nobody. | Мне как раз такого и надо, который никого не боится. |
+| the-mistress-of-the-copper-mountain-c20 | exact | mybook.ru | In the tale she threatens to sink all the copper in Gumeshki so deep it cannot be mined if her "iron cap" is broken any further. | Ежели еще будешь эту мою железную шапку ломать, так я тебе всю медь в Гумешках туда спущу, что никак ее не добыть |
+| the-mistress-of-the-copper-mountain-c21 | exact | mybook.ru | In the tale she praises the young man for not being tempted by her riches and not trading his fiancée for the "stone maiden". | Не обзарился ты на мои богатства, не променял свою Настеньку на каменну девку. |
+| the-mistress-of-the-copper-mountain-c22 | exact | mybook.ru | In the tale Stepan succeeds in finding it because he knows the whole inside of the mountain and the Mistress herself helped him. | Нашел, конечно, Степан. Что ему, коли он все нутро горы вызнал и сама Хозяйка ему пособляла. |
+| the-mistress-of-the-copper-mountain-c23 | exact | mybook.ru | In the tale the Gumeshki mine began to decline and was finally flooded; people said the Mistress was angry because the pillars had been put up in a church. | Так с той поры Гумешки на убыль и пошли, а потом их и вовсе затопило. Говорили, что это Хозяйка огневалась за столбы – то, слышь-ко, что их в церкву поставили. |
 
 
 ## vourdalak — lulus-otomatis

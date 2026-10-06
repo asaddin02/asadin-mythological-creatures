@@ -1,6 +1,6 @@
 # Review batch-111
 
-Diperiksa 2026-10-03T01:27:37.397Z. Berkas: batch-111.md.
+Diperiksa 2026-10-06T15:34:51.295Z. Berkas: batch-111.md, batch-111-fix-1.md.
 
 ## hrimfaxi — lulus-otomatis
 
@@ -115,10 +115,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## skinfaxi — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 6, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -127,6 +124,13 @@ Klaim 5 (exact 5), sumber 3, gambar 0.
 | skinfaxi-c03 | exact | no.wikipedia.org | Skinfakse (Old Norse Skinfaxi, 'shining mane') is the horse Day rides across the sky daily; the Gylfaginning of the Younger Edda says: 'The horse Dag has is called Skinfakse, and light shines over all the air and earth from his mane.' | Skinfakse (Norrønt: Skinfaxi, skinnende man) er i norrøn mytologi den hesten Dag rir på over himmelen hver dag. Skinfakse nevnes i Gylvaginning i Den yngre Edda: Den hesten Dag har heiter Skinfakse og det lyser over all lufta og jorda frå fakset hans |
 | skinfaxi-c04 | exact | da.wikipedia.org | Oehlenschläger's poem Guldhornene mentions the sky horses: black Hrymfaxe sinks into the sea, Delling opens the gates of morning, and Skinfaxe trots forth. | Oehlenschlägers digt Guldhornene omtaler himmelhestene: "Hrymfaxe den sorte puster og dukker og i Havet sig begraver. Morgenens Porte Delling oplukker, og Skinfaxe traver |
 | skinfaxi-c05 | exact | da.wikipedia.org | The horse Hrymfaxe is harnessed to the chariot that carries the moon across the sky at night. | Hesten Hrymfaxe er forspændt vognen, der bærer månen over himlen om natten. |
+| skinfaxi-c06 | exact | en.wikisource.org | In this translated Edda poem, Skinfaxi is the steed who draws the glittering day for men; he seems the best of horses to heroes, and his mane burns brightly. | Skinfaxi is he, the steed who for men The glittering day doth draw; The best of horses to heroes he seems, And brightly his mane doth burn. |
+| skinfaxi-c07 | exact | en.wikisource.org | Hrimfaxi is the steed that brings night for the noble gods; each morning foam falls from his bit and becomes the dews in the dales. | Hrimfaxi name they the steed that anew Brings night for the noble gods; Each morning foam from his bit there falls, And thence come the dews in the dales. |
+| skinfaxi-c08 | exact | en.wikisource.org | All-father gave Night and Day, her son, two horses and two cars and set them in the heavens to drive in turn round the world, each for twelve hours. | Then took All-father, Night, and Day, her son, and gave them two horses and two cars, and set them up in the heavens that they might drive successively one after the other, each in twelve hours' time, round the world. |
+| skinfaxi-c09 | exact | en.wikisource.org | The horse Day uses is named Skinfaxi, from whose mane light is shed over the earth and the heavens. | The horse made use of by Day is named Skinfaxi, from whose mane is shed light over the earth and the heavens. |
+| skinfaxi-c10 | exact | en.wikisource.org | Night then married Delling of the Æsir race, and their son was Day (Dagr), a child light and beautiful like his father. | She then espoused Delling, of the Æsir race, and their son was Day, (Dagr) a child light and beauteous like his father. |
+| skinfaxi-c11 | exact | en.wikisource.org | The translator's note says Glath ("Joyous") is identified in the Skaldskaparmal with Skinfaxi, the horse of the day. | Glath ("Joyous"): identified in the Skaldskaparmal with Skinfaxi, the horse of the day; cf. Vafthruthnismol, 12. |
+| skinfaxi-c12 | exact | en.wikisource.org | The translator's notes gloss Skinfaxi as "Shining-Mane" and Hrimfaxi as "Frosty-Mane". | Skinfaxi: "Shining-Mane." ... Hrimfaxi: "Frosty-Mane." |
 
 
 ## slattenpatte — lulus-otomatis
@@ -191,10 +195,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## trow-folklore — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 18 (exact 18), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -203,14 +204,24 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | trow-folklore-c03 | exact | en.wikipedia.org | Insular Scots trow and drow are inherited from Norn, the Old Norse dialect of the Northern Isles; drow derives from an unrecorded Norn *drau, from Old Norse draugr, an old word for revenant, devil or troll. | Insular Scots trow and drow are inherited words from Norn, the Old Norse dialect spoken in the Northern Isles before being driven out by Scots. The form drow derives from an unrecorded Norn: *drau (or thereof), from Old Norse: draugr , an old word for revenant, devil, troll, and thereof. |
 | trow-folklore-c04 | exact | en.wikipedia.org | The form trow is thought to come from troll with a vocalised L, then merged with drow; in Scots the trow is defined as a mischievous 'sprite or fairy'. | The form trow is thought to stem from L-vocalization of troll ("troll"), and then intermixing with drow via linguistic and figurative convergence. ... The trow [trʌu] , in the Scots language, is defined as a "sprite or fairy" of mischievous nature |
 | trow-folklore-c05 | exact | fr.wikipedia.org | The trow or drow is a supernatural creature of the beliefs and folklore of Orkney and Shetland, north of Scotland, often compared with fairies and perhaps derived from selkies or the Norse troll. | Un trow ou drow est une créature surnaturelle issue des croyances et du folklore des îles Orcades et Shetland, au nord de l'Écosse. Les trows sont souvent comparées aux fées (faeries) et ils dérivent peut-être des selkies ou bien du troll nordique. |
+| trow-folklore-c06 | exact | en.wikipedia.org | It was considered taboo to speak about trows, and unlucky to catch sight of one, though auspicious to hear one speaking. | It was considered taboo to speak about trows. It was also considered unlucky to catch sight of a trow, though auspicious to hear one speaking. |
+| trow-folklore-c07 | exact | en.wikipedia.org | Trows are of two kinds, hill-trows (land trows) and sea-trows, said to be mortal enemies. | Trows consist of two kinds, the hill-trows (land trows) and sea-trows, and the two kinds are said to be mortal enemies. |
+| trow-folklore-c08 | exact | en.wikipedia.org | Hill-dwelling trows are said to be able to leave their dwellings ("knowes", knolls) only after sunset; if they miss the chance to return before sunrise they do not perish but must wait above ground. | Of the hill-dwelling types, it is said they can only appear out of their dwellings ("knowes"=knolls; "trowie knowes") after sunset, and if they miss the opportunity to return before sunrise, they do not perish but must await above ground |
+| trow-folklore-c09 | exact | en.wikipedia.org | The stone circle on Fetlar is called the Haltadans ('Limping Dance') because, according to legend, the stones are music-loving trows petrified after dancing so absorbedly to the trowie fiddler's tunes that they failed to hide before dawn. | The stone circle on Fetlar has been dubbed the Haltadans (meaning 'Limping Dance') since according to legend, they represent a group of petrified music-loving trows who were so engrossed by dancing to the trowie fiddler's tunes that they failed to hide before dawn's break. |
+| trow-folklore-c10 | exact | en.wikipedia.org | Tales tell of human fiddlers abducted by trows to their mounds; though released after what seems a brief stay, many years have passed outside and the victim turns to dust or chooses to die. | Tales are also told of human fiddlers being abducted by trows to their mounds, and although released after what seems a brief stay, many long years have elapsed in the outside world, and the victim turns to dust, or chooses to die. |
+| trow-folklore-c11 | exact | dsl.ac.uk | According to this dictionary, trows were called hill-, land- or sea-trows according to their supposed haunts or abode. | They were called hill-, land-, or sea-trows acc. to their supposed haunts or abode. |
+| trow-folklore-c12 | exact | dsl.ac.uk | A passage quoted in the dictionary describes sea-trows as great rolling creatures tumbling in the water which, if they come among fishermen's nets, break them and sometimes take them away. | Sea-Trowes, great rolling Creatures, tumbling in the Waters, which if they come among their nets, they break them, and sometimes takes them away with them. |
+| trow-folklore-c13 | exact | dsl.ac.uk | A passage quoted in the dictionary says that when a cow or sheep falls sick or dies, it is firmly believed the real animal was taken away and something of trowie breed put in its place. | When a cow or sheep happens to turn sick or die, it is firmly believed that the real animal has been taken away and something of a trowie breed substituted in its place. |
+| trow-folklore-c14 | exact | dsl.ac.uk | A passage quoted in the dictionary says newly confined women had to be watched lest they be carried off to act as wet-nurse to a trowling. | Females newly confined must be watched lest they be carried off to perform the office of wet-nurse to some trowling. |
+| trow-folklore-c15 | exact | dsl.ac.uk | A passage quoted in the dictionary says that in autumn, at Hallowmass, folk had seen the peerie folk, or trows, coming forth on their nightly travels. | In the autumn, at Hallowmass, folk had seen the ferry-kairds being parted, and the peerie folk, or trows, coming forth on their nightly travels. |
+| trow-folklore-c16 | exact | dsl.ac.uk | A passage quoted in the dictionary states that the trows do not differ from the fairies of the Lowlands, or the Sighean of the Highlanders. | The trows do not differ from the fairies of the Lowlands, or Sighean of the Highlanders. |
+| trow-folklore-c17 | exact | dsl.ac.uk | The dictionary defines "trowie knowe" as a knoll inhabited by trolls, a fairy hill. | (8) trowie knowe, a knoll inhabited by trolls, a fairy hill |
+| trow-folklore-c18 | exact | dsl.ac.uk | The dictionary's etymology note says the earliest recorded form, troll, in 1503, may be a scribal representation of trow. | The earliest form recorded, troll, in 1503, may be a scribal representation of trow. |
 
 
 ## b-yg — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 17 (exact 15, loose 2), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -219,6 +230,18 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | b-yg-c03 | exact | no.wikipedia.org | Bøyg, often called Bøygen ('the bent one'), is a supernatural being or troll in the form of a giant serpent in Norwegian folk belief; it can be invisible, tries to block and spoil people's ways, and is best known today from Henrik Ibsen's 1867 play Peer Gynt. | Bøyg, ofte omtalt i bestemt form Bøygen, det vil si «den som er bøyd», er et overnaturlig vesen eller troll som opptrer i form av en kjempeslange i norsk folketro. Skikkelsen, som også kan være usynlig, prøver å stille seg i veien og ødelegge for folk. I dag er figuren mest kjent fra Henrik Ibsens skuespill Peer Gynt fra 1867. |
 | b-yg-c04 | exact | no.wikipedia.org | Bøygen may be a troll or giant serpent known from legends and tales of Telemark and Gudbrandsdalen, including Asbjørnsen's stories of the great hunter Per Gynt; similar stories are known from Denmark and Sweden. | Bøygen kan være et troll eller en kjempeslange kjent fra sagn og eventyr fra Telemark og Gudbrandsdalen, blant annet fra Asbjørnsens historier om storskytteren Per Gynt. Liknende historier er også kjent fra Danmark og Sverige. |
 | b-yg-c05 | exact | no.wikipedia.org | Old Norse baugr meant 'ring' or 'curve' but could also be a kenning for 'serpent'; bøyg and Bøygen are used figuratively for a large, vague obstacle or problem. | Det norrøne ordet baugr betød «ring» eller «krumning», men kunne også brukes som en omskrivning for «orm». Ordene bøyg og Bøygen kan i overført betydning også brukes om en forhindring, gjerne stor og ubestemmelig, eller et problem. |
+| b-yg-c06 | exact | www.gutenberg.org | In the tale, someone in the dark suddenly ran against something that, when he put out his hand, felt cold, slippery and big. | All of a sudden he ran against something, and when he put his hand out he felt it was cold and slippery and big. |
+| b-yg-c07 | exact | www.gutenberg.org | Peer realised he was walking in a ring because the Boyg had curled itself round the sæter; the Boyg then shifted a little so that Peer got past. | he understood that he was walking in a ring, and that the Boyg had curled itself round the sæter. Thereupon it shifted a little, so that Peer got past. |
+| b-yg-c08 | exact | www.gutenberg.org | Asked what it was, the Boyg answered that it was the big Boyg from Etnedale, the Troll-Monster. Peer's three shots into its head did not harm it: the Boyg told him to fire another, but the next bullet would have rebounded against Peer himself. | “What are you?” asked Peer. “Oh, I am the big Boyg from Etnedale,” said the Troll-Monster. Peer did not lose a moment, but fired three shots right into its head. “Fire another,” said the Boyg. But Peer knew better; if he had fired another shot, the bullet would have rebounded against himself. |
+| b-yg-c09 | exact | www.gutenberg.org | Wherever Peer put out his hands or tried to get past, he felt the Boyg encircling him. | “Oh, it’s the great Boyg,” was the answer. Where-ever he put his hands out or tried to get past, he felt the Boyg encircling him. |
+| b-yg-c10 | loose | www.gutenberg.org | The translators' footnote says the root idea of the name seems to be bending and sinuousness, comparing Norwegian böie and German biegen, "to bend". | The root-idea seems to be that of bending, of sinuousness; compare Norwegian böie, German biegen, to bend. |
+| b-yg-c11 | loose | www.gutenberg.org | According to the translators, as far as they know the name occurs in no folk-tale other than that of Peer Gynt. | So far as we are aware, the name occurs in no other folk-tale save that of Peer Gynt. |
+| b-yg-c12 | exact | www.gutenberg.org | In the introduction to the translation of Ibsen's play, the Boyg is called that vague, shapeless, ubiquitous, inevitable, invulnerable Thing Peer meets in Act II, Scene 7; Ibsen found it in the folk-tale. | Much more difficult is the interpretation of the Boyg ... that vague, shapeless, ubiquitous, inevitable, invulnerable Thing which Peer encounters in the following scene (Act II. Sc. 7). Ibsen found it in the folk-tale, and was attracted, no doubt, by the sheer uncanniness and eerieness of the idea. |
+| b-yg-c13 | exact | www.gutenberg.org | In Ibsen's play Peer tells the Boyg to clear the way, but the voice answers "Go roundabout, Peer!" and Peer replies that he will go through. | Clear the way then, Boyg! THE VOICE. Go roundabout, Peer! PEER. No, through! |
+| b-yg-c14 | exact | www.gutenberg.org | In Ibsen's play Peer gropes around and describes the Boyg as "not dead, not living; all slimy; misty; not so much as a shape". | THE VOICE. The Boyg. PEER. ... Not dead, not living; all slimy; misty. Not so much as a shape! |
+| b-yg-c15 | exact | www.gutenberg.org | In Ibsen's play the Boyg refuses to strike or fight and says that the great Boyg conquers but does not fight. | The Boyg isn't mad. PEER. Strike! THE VOICE. The Boyg strikes not. PEER. Fight! You shall! THE VOICE. The great Boyg conquers, but does not fight. |
+| b-yg-c16 | exact | www.gutenberg.org | At the end of the scene in Ibsen's play the Boyg shrinks to nothing and gasps that Peer was too strong and there were women behind him. | THE BOYG. ... Shrinks up to nothing, and says in a gasp ... He was too strong. There were women behind him. |
+| b-yg-c17 | exact | www.gutenberg.org | The translators' note says the Peer Gynt story occurs in Asbjörnsen's "Reindeer-hunting in the Rondë Hills", published at Christiania in 1848, and is told by the peasant guides who accompany a shooting-party into the mountains. | The stories of Peer Gynt and Gudbrand Glesnë both occur in Asbjörnsen’s “Reindeer-hunting in the Rondë Hills” ... Christiania, 1848). They are told by the peasant guides or gillies who accompany a shooting-party into the mountains |
 
 
 ## drude — lulus-otomatis
@@ -268,16 +291,21 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## fjalar-q11969058 — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 10, loose 1), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | fjalar-q11969058-c01 | exact | pl.wikipedia.org | Fjalar is the name of several Norse mythological figures, meaning 'deceiver' or 'hider' (oszusta, ukrywającego); the most important is the dwarf (karzeł), brother of Galar, who with him killed Kvasir (Kvasera) and made the mead of poetry (miód poezji) from his blood. | Fjalar – imię kilku postaci w mitologii nordyckiej, oznaczające „oszusta” lub „ukrywającego”. ... Kolejną, najważniejszą z postaci o tym imieniu, był karzeł, brat Galara. Razem z bratem zabili Kvasera, a z jego krwi stworzyli miód poezji. |
 | fjalar-q11969058-c02 | exact | no.wikipedia.org | Fjalar (Old Norse Fjalarr, from fela, 'to hide'; 'the Hider') is a dwarf in Norse mythology who, per Snorri's Edda, with his brother Galar killed the wise Kvasir; from his blood they made the mead of poetry, later stolen by the giant Suttung. | Fjalar (gammelnorsk; Fjalarr av fela, «gjemme»; «Gjemmeren») på islansk; Fjalar «vitur» eller «fjölfròdur» som betyr klok. Fjalar er navn i norrøn mytologi på en dverg som ifølge Snorres Edda sammen med sin bror Galar drepte den vise Kvase. Av hans blod laget de skaldskapsmjøden. Skaldedrikken blir senere stjålet av jotnen Suttung. |
 | fjalar-q11969058-c03 | exact | pl.wikipedia.org | The Völuspá lists Fjalar in its catalogue of dwarfs; the Hávamál speaks of Fjalar the Wise, whose ale gets the narrator (probably Odin) drunk, perhaps referring to the mead of poetry, in which case this Fjalar would be the mead-making dwarf. | Fjalara wymienia Völuspá w swoim katalogu karłów. Poemat Hávamál mówi o Fjalarze Mądrym, którego piwem upija się narrator (prawdopodobnie Odyn). Może to być odniesienie do miodu poezji, i w takim wypadku ten Fjalar byłby tożsamy z karłem, wytwórcą miodu. |
+| fjalar-q11969058-c04 | exact | en.wikisource.org | In this translation of the Prose Edda, Kvasir was so wise that none could question him on anything he could not answer; when he came by invitation to the abode of the dwarves Fjalar and Galarr, they called him into private talk, killed him, and let his blood run into two vats and a kettle. | This man is called Kvasir, and he was so wise that none could question him concerning anything but that he knew the solution. He went up and down the earth to give instruction to men; and when he came upon invitation to the abode of certain dwarves, Fjalar and Galarr, they called him into privy converse with them, and killed him, letting his blood run into two vats and a kettle. |
+| fjalar-q11969058-c05 | exact | en.wikisource.org | The kettle is named Ódrerir and the vats Són and Bodn; they blended honey with the blood, producing a mead that makes whoever drinks it a skald or scholar. | The kettle is named Ódrerir, and the vats Són and Bodn; they blended honey with the blood, and the outcome was that mead by the virtue of which he who drinks becomes a skald or scholar. |
+| fjalar-q11969058-c06 | exact | en.wikisource.org | The dwarves reported to the Æsir that Kvasir had choked on his own shrewdness, since no one there was wise enough to question his wisdom. | The dwarves reported to the Æsir that Kvasir had choked on his own shrewdness, since there was none so wise there as to be able to question his wisdom. |
+| fjalar-q11969058-c07 | exact | en.wikisource.org | The dwarves then invited the giant Gillingr and his wife, took Gillingr rowing at sea, rowed into the breakers and capsized the boat; Gillingr could not swim and perished. | Then these dwarves invited the giant who is called Gillingr to visit them, and his wife with him. Next the dwarves invited Gillingr to row upon the sea with them; but when they had gone out from the land, the dwarves rowed into the breakers and capsized the boat. Gillingr was unable to swim, and he perished |
+| fjalar-q11969058-c08 | exact | en.wikisource.org | After the accident was reported to the dead man's wife, who wept aloud, Fjalar questioned her and then softly told his brother Galarr to go over the doorway and let a mill-stone fall on her head because her weeping wearied him; and Galarr did so. | They reported this accident to his wife, but she took it grievously and wept aloud. Then Fjalar asked her ... Then he spoke softly to Galarr his brother, bidding him go up over the doorway, when she should go out, and let a mill-stone fall on her head, saying that her weeping grew wearisome to him; and even so he did. |
+| fjalar-q11969058-c09 | exact | en.wikisource.org | When the giant Suttungr, Gillingr's son, learned of this, he carried the dwarves out to sea and set them on a reef covered at high tide; they begged for their lives and offered him the precious mead as the price of reconciliation for his father's death. | Now when the giant Suttungr, Gillingr's son, learned of this, he went over and took the dwarves and carried them out to sea, and set them on a reef which was covered at high tide. They besought Suttungr to grant them respite of their lives, and as the price of reconciliation offered him the precious mead in satisfaction of his father's death. |
+| fjalar-q11969058-c10 | loose | en.wikisource.org | In this translated poem, the speaker was dead-drunk when with Fjalar the wise, and drinking is best if one brings its wisdom home. | Drunk I was, I was dead-drunk, When with Fjalar wise I was;'Tis the best of drinking if back one brings His wisdom with him home. |
+| fjalar-q11969058-c11 | exact | en.wikisource.org | The translator's note says the Fjalar of that stanza is apparently another name for Suttung. | Fjalar: apparently another name for Suttung. This stanza, and probably 13, seem to have been inserted as illustrative. |
 
 
 ## gnome-king-kyrie — lulus-otomatis
@@ -296,10 +324,7 @@ Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
 
 ## gonger — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -308,14 +333,18 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | gonger-c03 | exact | de.wikipedia.org | When a sailor dies at sea he returns as a gonger to bring news of his death: at night he rises from the sea in the clothes he died in, visits his descendants' house, puts out the light, lies on a sleeper's blanket and leaves a trail of salt water. | Wenn ein Seemann auf dem Meer stirbt, kehrt er als Gonger zurück, um die Nachricht seines Todes zu überbringen. Dazu steigt er nachts in der Kleidung, die er zum Todeszeitpunkt getragen hat, aus dem Meer, und besucht das Haus seiner Nachkommen. Hier löscht er das Licht, legt sich auf die Decke eines Schlafenden und hinterlässt eine Spur aus Salzwasser. |
 | gonger-c04 | exact | da.wikipedia.org | On the North Frisian islands of Amrum and Sild (Sylt) gonger means a revenant (genganger); by folk belief gongers could be the innocently killed, suicides or blasphemers, and sailors who died at sea could return to haunt the island. | Gonger betegner på de nordfrisiske øer Amrum og Sild en genganger. Gongere kunne ifølge folketroen være uskyldigt dræbte, men også selvmordere eller gudsbespottere. Også sømænd, der døde på havet, kunne vende tilbage til øen og spøge. |
 | gonger-c05 | exact | de.wikipedia.org | Hugo Wolfgang Philipp used the belief in his 1930s play Der Gonger kommt; the TV film Gonger – Das Böse vergisst nie appeared in 2008, and the folk-rock band Versengold took it up in the song Die Gonger kommen. | Hugo Wolfgang Philipp verarbeitete in den 1930er Jahren den Glauben in seinem Theaterstück Der Gonger kommt. 2008 entstand der Fernsehfilm Gonger – Das Böse vergisst nie. Musikalisch verarbeitet wurde die Thematik von der Folk-Rock-Band Versengold in dem Lied Die Gonger kommen |
+| gonger-c06 | exact | projekt-gutenberg.org | In this folklore collection there are many Wiedergänger or Gongers: the innocently murdered, or those who moved boundary stones and ploughed away land, find no rest in the grave; blasphemers, those who cursed themselves, and suicides must also walk again. | Es gibt da überhaupt manche Wiedergänger oder Gongers; denn wer unschuldig ermordet ist, oder Grundsteine versetzt und Land abgepflügt hat, findet keine Ruhe im Grabe. Ebenso müssen auch die Gotteslästerer und wer sich selbst verflucht und die Selbstmörder wiedergehen. |
+| gonger-c07 | exact | projekt-gutenberg.org | One must not give such a Gonger one's hand; it burns, turns black and falls off. | Einem solchen Gonger darf man nicht die Hand reichen; sie verbrennt, wird schwarz und fällt ab. |
+| gonger-c08 | exact | projekt-gutenberg.org | In Keitum on Sylt a woman once died before her confinement; she appeared several times to the preacher's servant and had no rest in the grave until scissors, needle and thread were laid in it, as is usually done for women in North Frisia. | In Keitum auf Sylt starb einmal eine Frau vor ihrer Entbindung; da ist sie mehrere Male dem Knecht des Predigers erschienen und hat nicht eher Ruhe im Grabe gehabt, als bis man ihr Scheere, Nadel und Zwirn ins Grab gelegt. So tut man bei Frauen in Nordfriesland gewöhnlich. |
+| gonger-c09 | exact | projekt-gutenberg.org | When a relative has drowned at sea he afterwards reports it to his kin; whoever meets such a Gonger is not frightened but rather saddened. | Wenn einer von der Verwandtschaft auf der See ertrunken ist, meldet er es nachher den Anverwandten. Wem ein solcher Gonger begegnet, der erschrickt nicht, sondern wird vielmehr betrübt. |
+| gonger-c10 | exact | projekt-gutenberg.org | At dusk or at night he shows himself in the very clothes in which he drowned; he looks in at the front door leaning on it with his arms, walks about the house, soon vanishes and returns at the same time the next evening. | In der Abenddämmerung oder bei Nacht läßt er sich sehen in eben der Kleidung, worin er ertrunken ist. Er sieht dann zur Haustür herein und lehnt sich mit den Armen darauf, geht auch sonst im Hause herum, verschwindet aber bald und kommt am folgenden Abend um dieselbe Zeit wieder. |
+| gonger-c11 | exact | projekt-gutenberg.org | At night he opens the room door, usually in heavy pulled-up boots full of water, puts out the light with his hand and lies down on the sleeper's blanket; in the morning a little stream of salt water is found. | Nachts öffnet er, gewöhnlich in schweren aufgezogenen Stiefeln, die voll Wasser sind, die Stubentür, löscht mit der Hand das Licht aus und legt sich dem Schlafenden auf die Decke. Am Morgen findet man einen kleinen Strom salzigen Wassers |
+| gonger-c12 | exact | projekt-gutenberg.org | If the relatives are not yet persuaded by this sign, the Gonger keeps appearing until they believe it; the Gonger also gives other signs. | Lassen die Verwandten durch dieses Zeichen sich noch nicht überreden, so erscheint der Gonger so lange wieder, bis sie es glauben. Der Gonger gibt auch andre Zeichen. |
 
 
 ## gulon — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 8, loose 1), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -323,14 +352,16 @@ Klaim 4 (exact 4), sumber 2, gambar 0.
 | gulon-c02 | exact | en.wikipedia.org | The gulon is notorious as a symbol of gluttony for its strange eating: after a kill it gorges until swollen, squeezes between two trees to push the meat through its body, then returns and repeats. | The Gulon is notorious as a symbol of gluttony because of the strange eating habits it is supposed to have. It will make a kill and then gorge itself until it is swollen and unable to eat more, at which point it will find two trees and squeeze itself in between them, pushing the meat through its own body before returning to the kill and repeating the process. |
 | gulon-c03 | exact | sv.wikipedia.org | The jerff, modern spelling järv, is in Scandinavian legend a blend of animals resembling a dog with a cat's head and claws, a thick coat and a fox-like tail; in Germany it is Vielfraß and in English Gulon. | En Jerff eller med modern stavning Järv, är inom skandinavisk legend en blandning av olika djur men som ska likna en hund, med huvud och klor av en katt. Den ska även ha en tjock päls och en svans liknande den på en räv. I Tyskland är varelsen känd som Vielfraß och på engelska heter det Gulon. |
 | gulon-c04 | exact | sv.wikipedia.org | Legends of the jerff are an early mention of the järv (wolverine), then unknown in southern Sweden. | Legender om jerffen är ett tidigt omnämnande av den i södra Sverige då okända järven. |
+| gulon-c05 | exact | apps.lib.umn.edu | According to the Bell Library, the animal marked "gulo" in that map section is Latin for the glutton (Gulo gulo), a member of the marten or weasel family, a large animal living in the northern parts of Scandinavia. | In the lower right is an animal with the designation gulo, Latin for the glutton (Gulo gulo) which belongs to the marten or weasel family. This large animal lives in the northern parts of Scandinavia. |
+| gulon-c06 | loose | apps.lib.umn.edu | Olaus writes that in bulk it is like a large dog; its ears and face resemble a cat's, its feet have very sharp claws, it has a shaggy body with a long brownish coat and a fox's tail, shorter and draped with thick fur, so that excellent winter caps can be made from it. | Olaus says "In its bulk it is similar to a large dog. Its ears and face resemble a cat’s, and its feet have very sharp claws. It has a shaggy body with a long brownish coat, and a fox’s tail, though shorter and draped with thick fur, so that excellent winter caps can be made from it." |
+| gulon-c07 | exact | apps.lib.umn.edu | According to the passage quoted from Magnus, when the glutton finds a carcass it eats so furiously that its torso swells like a drum; it then finds a narrow space between trees and squeezes through to discharge its bowels forcibly, and returns to the carcass to stuff itself again. | When the glutton finds a carcass, it eats so quickly that "its furious meal makes its torso swell like a drum. Afterwards it finds a narrow space between trees and squeezes itself through, in order to discharge its bowels forcibly" (Magnus 1998, III:888). This completed, it returns to the carcass and stuffs itself once more. |
+| gulon-c08 | exact | apps.lib.umn.edu | The Bell Library notes its nearest relative in North America is the wolverine, and quotes the view that Olaus Magnus probably pictured them on his map from direct experience. | Its nearest relative in North America is the wolverine. "It was probably from direct experience that Olaus Magnus pictured them on his map" (George, 1969, 116). |
+| gulon-c09 | exact | en.wikipedia.org | The resource named for the gulon is Historia de gentibus septentrionalibus by Olaus Magnus (The History of the Northern People, 1555 AD). | Historia de gentibus septentrionalibus by Olaus Magnus. (The History of the Northern People, 1555 AD) |
 
 
 ## habrok — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -338,6 +369,9 @@ Klaim 4 (exact 4), sumber 2, gambar 0.
 | habrok-c02 | exact | en.wikipedia.org | The name is translated 'High Pants', perhaps referring to the bird's long legs. | The name is translated as "High Pants" which may refer to the bird's long legs. |
 | habrok-c03 | exact | es.wikipedia.org | The Grímnismál stanza: Yggdrasil best of trees, Skíðblaðnir of ships, Óðinn greatest of gods, Sleipnir best of steeds, Bifröst of bridges, Bragi of skalds, Hábrók of hawks (halcones), and Garm of hounds (sabuesos). | El mejor de los árboles \| Yggdrasil debe ser, Skíðblaðnir el mejor de los barcos; De todos los dioses \| es Óðinn el más grande, Y Sleipnir el mejor de los corceles; Bifröst de los puentes, \| Bragi de los escaldos, Hábrók de los halcones, \| y Garm de los sabuesos. |
 | habrok-c04 | exact | es.wikipedia.org | The name can also be translated 'long trousers' (pantalones largos), perhaps referring to the bird's long legs. | El nombre se puede traducir como «pantalones largos» que puede referirse a las patas alargadas del pájaro. |
+| habrok-c05 | exact | en.wikisource.org | In this translated poem, Hobrok is named as the best of hawks in a list with Yggdrasil as best of trees, Skithblathnir best of boats, Othin greatest of the gods, Sleipnir best of steeds, Bilrost of bridges, Bragi of skalds and Garm of hounds. | The best of trees must Yggdrasil be, Skithblathnir best of boats; Of all the gods is Othin the greatest, And Sleipnir the best of steeds; Bilrost of bridges, Bragi of skalds, Hobrok of hawks, and Garm of hounds. |
+| habrok-c06 | exact | en.wikisource.org | The translator's note states that nothing further is known of Hobrok. | Hobrok: nothing further is known of him. |
+| habrok-c07 | exact | en.wikisource.org | In this translation of the Gylfaginning, Hábrók is named as foremost among hawks in a stanza cited as the words of the Æsir themselves, together with Yggdrasill, Skídbladnir, Odin, Sleipnir, Bifröst, Bragi and Garmr. | Odin is of great might. Many examples are found in proof of this, as is here said in the words of the Æsir themselves: Ash Yggdrasill's trunk of trees is foremost, And Skídbladnir of ships; Odin of Æsir, of all steeds Sleipnir, Bifröst of bridges, and Bragi of skalds; Hábrók of hawks, and of hounds Garmr. |
 
 
 ## hjuki — lulus-otomatis

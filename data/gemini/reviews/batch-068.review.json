@@ -1,29 +1,25 @@
 {
   "batch_id": "batch-068",
-  "checked_at": "2026-10-01T13:29:27.734Z",
+  "checked_at": "2026-10-06T15:22:08.023Z",
   "files": [
     "batch-068.md",
-    "batch-068-fix-1.md"
+    "batch-068-fix-1.md",
+    "batch-068-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "sky-fox-mythology",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-2.md",
+      "entry_sha256": "3a2b34043d4ea6896f870d9d53ee71bffcf6998cb9a1fdb6da2b699022c7af9a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 15,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "sky-fox-mythology-c01",
@@ -71,7 +67,7 @@
           "host": "en.wikipedia.org",
           "statement": "The Jin-period Xuanzhongji also records age-related fox transformations.",
           "statement_id": "Xuanzhongji dari zaman Jin juga mencatat perubahan rubah menurut usia.",
-          "quote": "The mythology of multi-tailed foxes originate from the beliefs of Ancient China. A collection of stories dating from the Jin dynasty known as Xuanzhongji (玄中记; 玄中記; Xuánzhōngjì) records:",
+          "quote": "A collection of stories dating from the Jin dynasty known as Xuanzhongji (玄中记; 玄中記; Xuánzhōngjì) records:",
           "context": "historical-record",
           "status": "loose"
         },
@@ -79,10 +75,100 @@
           "id": "sky-fox-mythology-c06",
           "source_id": "sky-fox-mythology-s1",
           "host": "en.wikipedia.org",
-          "statement": "The quoted Xuanzhongji links a thousand years of age with transformation into Sky Fox.",
-          "statement_id": "Kutipan Xuanzhongji menghubungkan usia seribu tahun dengan perubahan menjadi Sky Fox.",
+          "statement": "The quoted passage links a thousand years of age with transformation into Sky Fox.",
+          "statement_id": "Kutipan itu menghubungkan usia seribu tahun dengan perubahan menjadi Sky Fox.",
           "quote": "\"When a fox reaches the age of fifty, it is able to transform into a woman. At a hundred years old, a beauty or a female shaman, who knows about outside affairs a thousand li away. It's kindness and charm make people confused and demented. At a thousand years, the fox connects with the Sky and is transformed into the Sky Fox.\"",
           "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sky-fox-mythology-c07",
+          "source_id": "sky-fox-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In its new celestial form, the fox is said to be able to see a thousand li ahead.",
+          "statement_id": "Dalam wujud langitnya yang baru, rubah itu dikatakan mampu melihat sejauh seribu li.",
+          "quote": "With its new celestial form, it is able to see a thousand li ahead",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sky-fox-mythology-c08",
+          "source_id": "sky-fox-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Taiping Guangji, sky foxes, though regarded as divine, often cause trouble in the human world and are subdued by Taoist priests. Because they are celestial emissaries they are spared execution and are typically beaten or exiled to foreign lands.",
+          "statement_id": "Dalam Taiping Guangji, rubah langit meski dianggap makhluk ilahi sering membuat masalah di dunia manusia dan akhirnya ditundukkan pendeta Tao. Karena berstatus utusan langit, mereka tidak dihukum mati; biasanya dipukuli atau diasingkan ke negeri asing.",
+          "quote": "In Taiping Guangji, the Sky Foxes, despite being considered divine beings, often cause trouble in the human world and are ultimately subdued by Taoist priests. However, due to their status as celestial emissaries, they are spared from execution. Instead of being killed, the Sky Foxes are typically beaten or exiled to foreign lands as punishment.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sky-fox-mythology-c09",
+          "source_id": "sky-fox-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The traits of nine tails and golden fur were assimilated into the depiction of the female fox spirit Daji, who is often portrayed with these features.",
+          "statement_id": "Ciri sembilan ekor dan bulu keemasan diserap ke dalam penggambaran roh rubah betina Daji, yang penampilannya sering digambarkan dengan ciri-ciri itu.",
+          "quote": "The characteristics of having nine tails and golden fur are assimilated into the depiction of the female fox spirit Daji (妲己), whose appearance is often portrayed with these features.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sky-fox-mythology-c10",
+          "source_id": "sky-fox-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Korean kumiho of the Joseon-era novel Jeon Woo-chi shares traits with the Sky Fox: nine tails, golden fur, the Cheonseo (\"sky book\"), and an attempt to escape to the heavens.",
+          "statement_id": "Kumiho Korea dalam novel Jeon Woo-chi dari zaman Joseon memiliki ciri yang sama dengan Rubah Langit: sembilan ekor, bulu keemasan, membawa Cheonseo (\"buku langit\"), dan berusaha melarikan diri ke langit.",
+          "quote": "The Korean kumiho that appears in the Joseon-era novel Jeon Woo-chi also shares characteristics of the Sky Fox. Like the Sky Fox, the kumiho possesses nine tails and golden fur, carries the Sky Fox’s signature item known as the Cheonseo (\"sky book\"), and attempts to escape to the heavens.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sky-fox-mythology-c11",
+          "source_id": "sky-fox-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Edo period of Japan, tenko were considered the highest rank of foxes.",
+          "statement_id": "Pada zaman Edo di Jepang, tenko dianggap berperingkat tertinggi di antara rubah.",
+          "quote": "In the Edo period of Japan, Tenko were considered to be of the highest rank of foxes",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sky-fox-mythology-c12",
+          "source_id": "sky-fox-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Ojika, Nagasaki, the tenko is a kind of spirit possession, and those possessed by it are said to have a divination ability that is always correct.",
+          "statement_id": "Di Ojika, Nagasaki, tenko adalah sejenis perasukan roh, dan orang yang dirasukinya dikatakan memiliki kemampuan ramalan yang selalu tepat.",
+          "quote": "In Ojika, Nagasaki, the tenko is a type of spirit possession, and it is said that those who are possessed by it have a divination ability that is always correct",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sky-fox-mythology-c13",
+          "source_id": "sky-fox-mythology-s2",
+          "host": "zh.wikisource.org",
+          "statement": "This passage, credited to the Xuanzhongji (玄中記), says a fox can turn into a woman at fifty years, a beauty or shaman who knows affairs a thousand li away at a hundred, and at a thousand years connects with heaven and becomes a tianhu (sky fox).",
+          "statement_id": "Kutipan yang dinisbatkan kepada Xuanzhongji (玄中記) ini menyebut rubah berumur lima puluh tahun dapat menjelma perempuan, seratus tahun menjadi perempuan cantik atau dukun yang tahu urusan sejauh seribu li, dan pada seribu tahun ia terhubung dengan langit dan menjadi tianhu (rubah langit).",
+          "quote": "狐五十歲，能變化為婦人。百歲為美女，為神巫，或為丈夫與女人交接，能知千里外事，善盅魅，使人迷惑失智。千歲即與天通，為天狐。〈（出《玄中記》）〉",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sky-fox-mythology-c14",
+          "source_id": "sky-fox-mythology-s3",
+          "host": "zh.wikisource.org",
+          "statement": "This text, credited to the Youyang Zazu (酉陽雜俎), says Taoist arts have a separate practice (bie xing fa) for the celestial fox: it is nine-tailed and gold in color, serves in the palaces of the sun and moon, and with talismans and sacrificial days can penetrate yin and yang.",
+          "statement_id": "Teks yang dinisbatkan kepada Youyang Zazu (酉陽雜俎) ini menyebut ada tata cara tersendiri (bie xing fa) bagi rubah langit dalam seni Tao: rubah langit bersembilan ekor dan berwarna emas, bertugas di istana matahari dan bulan, dan dengan jimat serta hari sesaji dapat menembus yin dan yang.",
+          "quote": "道術中有天狐別行法，言天狐九尾，金色，役於日月宮，有符有醮日，可以洞達陰陽。〈（出《酉陽雜俎》）〉",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sky-fox-mythology-c15",
+          "source_id": "sky-fox-mythology-s4",
+          "host": "zh.wikisource.org",
+          "statement": "In the account credited to the Guangyi ji (廣異記), Gongyuan (公遠) says this is a tianhu that cannot be killed and should be exiled to the east; it is banished to Silla (新羅) by talisman, the fox flies off holding it, and the locals in Silla revere the god Liu Cheng (劉成).",
+          "statement_id": "Dalam kisah yang dinisbatkan kepada Guangyi ji (廣異記), Gongyuan (公遠) berkata bahwa makhluk itu adalah tianhu yang tidak dapat dibunuh dan sebaiknya diasingkan ke timur; ia diasingkan ke Silla (新羅) dengan jimat, rubah itu terbang pergi memegang jimatnya, dan penduduk setempat di Silla menghormati dewa Liu Cheng (劉成).",
+          "quote": "公遠上白云：「此是天狐，不可得殺。宜流之東裔耳！」書符流於新羅，狐持符飛去。今新羅有劉成神，土人敬事之。〈（出《廣異記》）〉",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -90,20 +176,15 @@
     },
     {
       "slug": "cheukshin",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-2.md",
+      "entry_sha256": "a0eb75bb84d5269ee4820661479f7ba8163e95e64c9ba710889589d12132864a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cheukshin-c01",
@@ -164,26 +245,111 @@
           "quote": "누군가가 세 번 기침을 하지 않고 측간에 들어오면 측신은 긴 머리를 이용해 침입자를 공격한다고 믿었다. 측신의 머리카락이 침입자의 살갗에 닿자 침입자는 병들어 죽고 만다. 무당이라도 머리카락으로 사람을 공격하면 여신을 달래지 못한다.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "cheukshin-c07",
+          "source_id": "cheukshin-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "Cheuksin is a household god (gasin) believed to be an evil god (aksin) presiding over the toilet; she is also called \"dwitgan gwisin\" (뒷간귀신, outhouse ghost) and \"buchul gaksi\" (부출각시).",
+          "statement_id": "Cheuksin adalah gasin (dewa rumah tangga) yang dipercaya sebagai dewa jahat (aksin) penguasa jamban; ia juga disebut \"dwitgan gwisin\" (뒷간귀신, hantu jamban) dan \"buchul gaksi\" (부출각시).",
+          "quote": "악신으로 화장실을 관장한다는 가신(家神). 뒷간귀신·부출각시(跗出閣氏).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "cheukshin-c08",
+          "source_id": "cheukshin-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "Cheuksin is generally a long-haired female god with a fierce, easily angered temper who has been feared; illness or accidents in the toilet are believed to be her doing.",
+          "statement_id": "Cheuksin pada umumnya dewi berambut panjang yang berperangai kasar dan mudah murka sehingga ditakuti; penyakit atau kecelakaan di jamban dipercaya sebagai ulahnya.",
+          "quote": "대개 여성 신으로 머리가 길며, 성격이 포악하고 노여움을 잘 타서 두려운 존재로 여겨져 왔다. 변소에서 병을 얻거나 사고가 나는 것은 바로 이 신의 소행이라고 믿어지고 있다.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "cheukshin-c09",
+          "source_id": "cheukshin-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "Cheuksin is also known by the names dwitgan gwisin (뒷간귀신), buchul gaksi (부출각시), byeonso gaksi (변소각시), chikdo buin (칙도부인), cheuksin gaksi (측신각시), chigwi (치귀), and jeongnang gwisin (정낭귀신).",
+          "statement_id": "Cheuksin dikenal pula dengan nama dwitgan gwisin (뒷간귀신), buchul gaksi (부출각시), byeonso gaksi (변소각시), chikdo buin (칙도부인), cheuksin gaksi (측신각시), chigwi (치귀), dan jeongnang gwisin (정낭귀신).",
+          "quote": "일명 ‘뒷간귀신’ · ‘부출각시(跗出閣氏)’ · ‘변소각시’ · ‘칙도부인’ · ‘측신각시’ · ‘치귀’ · ‘정낭귀신’ 등으로 불린다.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "cheukshin-c10",
+          "source_id": "cheukshin-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "Her origin appears in the Munjeon Bonpuri (문전본풀이) of Jeju Island (제주도): the daughter of Noiljedaegwiil (노일제대귀일), concubine of Nam Seonbi (남선비), killed the first wife and tried to kill her seven sons, but her plot was exposed and she fled to the latrine, hanged herself, and became Cheukdo Buin (측도부인).",
+          "statement_id": "Asal-usulnya muncul dalam Munjeon Bonpuri (문전본풀이) dari Pulau Jeju (제주도): putri Noiljedaegwiil (노일제대귀일), selir Nam Seonbi (남선비), membunuh istri sah dan hendak membunuh tujuh putranya, tetapi rencananya terbongkar, lalu ia lari ke jamban dan gantung diri hingga menjadi Cheukdo Buin (측도부인).",
+          "quote": "제주도 『문전본풀이』에 그 유래가 나타나는데, 집안의 각처를 관장하고 있는 신들의 형성유래담인 이 신화에 의하면, 남(南)선비의 첩인 노일제대귀일의 딸은 본부인을 죽이고 그의 일곱 아들까지 죽이려다 흉계가 드러나 측간으로 도망가 목을 매어 죽어 측도부인이 되었다고 한다.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "cheukshin-c11",
+          "source_id": "cheukshin-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "Because the first wife Jowang (조왕, 竈王) and the concubine Cheukdo Buin (측도부인) are said to be enemies, a custom arose of building the kitchen and latrine far apart and not carrying even a stone or stick from the latrine to the kitchen, or kitchen items to the latrine.",
+          "statement_id": "Karena istri sah Jowang (조왕, 竈王) dan selir Cheukdo Buin (측도부인) disebut bermusuhan, muncul kebiasaan membangun dapur dan jamban berjauhan serta tidak membawa batu atau kayu dari jamban ke dapur, atau barang dapur ke jamban.",
+          "quote": "본부인 조왕(竈王) ... 시앗인 측도부인은 원수간이라 하여 부엌과 측간은 멀리 짓고, 측간의 돌멩이 하나, 나무 하나라도 부엌으로 가져오지 않으며, 부엌의 물건 역시 측간에 가져가지 않는 관습이 생겼다고 한다.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "cheukshin-c12",
+          "source_id": "cheukshin-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "Cheuksin gaksi is said to be always counting her long hair coiled beneath her feet; if someone enters the latrine suddenly she is startled and throws the hair over them, and the person falls ill; once she is angry even a shaman's ritual rarely appeases her and the person usually dies.",
+          "statement_id": "Cheuksin gaksi dikatakan selalu menghitung rambut panjangnya yang digulung di bawah kaki; bila seseorang mendadak masuk jamban, ia terkejut dan menyelubungkan rambutnya ke orang itu, yang lalu jatuh sakit, dan jika ia sudah marah, ritual dukun pun sulit meredakannya sehingga orang itu umumnya meninggal.",
+          "quote": "측신각시는 늘 긴 머리카락을 발 밑에 감고 세고 있다가 사람이 갑자기 변소에 들어오면 깜짝 놀라서 세던 머리카락을 뒤집어 씌운다고 한다. 머리카락에 씌어진 사람은 병을 앓게 되는데, 이 측신각시는 놀라서 화가 났다 하면 무당이 굿을 하여도 잘 풀어지지 않아 대개는 죽는다고 한다.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "cheukshin-c13",
+          "source_id": "cheukshin-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "Cheuksin is not always in the latrine but is said to appear only on days containing the number 6, the 6th, 16th, and 26th of each month, so it is considered good to be cautious and observe taboos on those days.",
+          "statement_id": "Cheuksin tidak selalu berada di jamban tetapi dikatakan hanya muncul pada hari bertanggal ada angka 6, yaitu tanggal 6, 16, dan 26 setiap bulan, sehingga pada hari-hari itu orang sebaiknya berhati-hati dan berpantang.",
+          "quote": "그런데 측신은 늘 변소에 있는 것이 아니고 매월 6일 · 16일 · 26일과 같이 6자가 있는 날에만 나타난다고 하여, 이 날은 근신하고 금기하는 것이 좋다고 한다.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "cheukshin-c14",
+          "source_id": "cheukshin-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "Coughing three times outside before entering the latrine is interpreted as a measure to avoid misfortune.",
+          "statement_id": "Batuk tiga kali di luar sebelum memasuki jamban ditafsirkan sebagai upaya menghindari malapetaka.",
+          "quote": "변소 출입시에 밖에서 기침을 세 번하고 들어간다거나 ... 화를 면하기 위한 방책으로 해석된다.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cheukshin-c15",
+          "source_id": "cheukshin-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "In Gangwon Province (강원도), after a latrine is built, an auspicious day is chosen to light a lamp in the latrine and hold a rite asking for the household to be cared for without mishap.",
+          "statement_id": "Di Provinsi Gangwon (강원도), setelah jamban selesai dibangun dipilih hari baik untuk menyalakan lampu di jamban dan mengadakan ritual agar rumah dijaga tanpa gangguan.",
+          "quote": "강원도에서는 변소를 지은 뒤에 아무 탈없이 집안을 편안하게 보살펴달라는 기원에서 길일을 택하여 변소에 불을 켜놓고 제(祭)를 지낸다.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "dokkakgwi",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-2.md",
+      "entry_sha256": "03485b221a5a889bc94b7a8d25a90838a9dc11d072f75e42aae50e7bd92dbb47",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "dokkakgwi-c01",
@@ -224,26 +390,91 @@
           "quote": "After the Six dynasties period, the figure developed other characteristics. It came to be associated with wealth and good fortune, as well as with a lecherous monster that attacked women. One explanation attributes these changes to the southward migration of the Han people and its influence on the beliefs of ethnic minorities.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "dokkakgwi-c05",
+          "source_id": "dokkakgwi-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "Dokkaebi are also called by names such as dokkakgwi (독각귀, 獨脚鬼); from records in several texts such as the Samguk Yusa (삼국유사), dokkaebi belief is presumed to have existed already in the Three Kingdoms period (삼국시대).",
+          "statement_id": "Dokkaebi juga disebut dengan nama-nama seperti dokkakgwi (독각귀, 獨脚鬼); dari catatan dalam sejumlah naskah seperti Samguk Yusa (삼국유사), kepercayaan dokkaebi diperkirakan sudah ada sejak zaman Tiga Kerajaan (삼국시대).",
+          "quote": "도채비·독각귀(獨脚鬼)·독갑이［狐魅］·허주(虛主)·허체(虛體)·망량(魍魎)·영감(제주도) 등의 이름으로 불리기도 한다. ≪삼국유사≫ 등 여러 문헌에도 기록되어 있는 것을 볼 때 삼국시대도 이미 도깨비신앙이 존재하고 있었다고 추측된다.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dokkakgwi-c06",
+          "source_id": "dokkakgwi-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "Dokkaebi that have a form are told of as having disheveled hair, having only one leg and so hopping about, or being so tall they touch the sky with their heads above the clouds.",
+          "statement_id": "Dokkaebi yang berwujud dikisahkan berambut kusut, berkaki satu sehingga berjalan dengan melompat-lompat, atau sangat tinggi hingga menyentuh langit dengan kepala menjulang di atas awan.",
+          "quote": "형체가 있는 도깨비의 모습은 머리를 산발하고 다닌다든지, 다리가 하나밖에 없어서 껑충껑충 뛰어다닌다든지, 키가 커서 하늘까지 닿고 머리가 구름 위에 솟아 있다고 전해져 내려온다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dokkakgwi-c07",
+          "source_id": "dokkakgwi-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "The single leg of the dokkaebi is said to be black as if lacquered; because the Baopuzi (포박자, 抱朴子) also records that dokkaebi have only one foot, the story of the one foot is judged to have been widespread in the East (동양) since ancient times.",
+          "statement_id": "Kaki tunggal dokkaebi dikatakan hitam seperti dilapisi pernis; karena Baopuzi (포박자, 抱朴子) juga mencatat bahwa dokkaebi hanya berkaki satu, cerita tentang kaki tunggal itu dinilai telah tersebar luas di Timur (동양) sejak zaman kuno.",
+          "quote": "하나밖에 없는 다리는 옻칠한 것같이 검으며, 키가 너무 커서 옷을 못 해 입고 백지로 가릴 곳만 가리고 있다고도 한다. ≪포박자 抱朴子≫에도 도깨비는 발이 하나밖에 없다고 기록된 것을 볼 때 도깨비의 발이 하나라는 이야기는 고대부터 동양에 널리 퍼진 것임을 알 수 있다.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dokkakgwi-c08",
+          "source_id": "dokkakgwi-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "In a folktale, a young man returning from the market meets a dokkaebi that challenges him to wrestle; he wins repeatedly because the dokkaebi has only one leg and is easily thrown by hooking it.",
+          "statement_id": "Menurut sebuah dongeng, seorang pemuda yang pulang dari pasar bertemu dokkaebi yang menantangnya bergulat; ia menang berkali-kali karena dokkaebi hanya berkaki satu sehingga mudah dijatuhkan dengan mengait kakinya.",
+          "quote": "옛날 한 젊은이가 장에 갔다오는 길에 도깨비를 만났다. 도깨비는 젊은이에게 씨름을 하자고 청하였고 젊은이는 도깨비와 여러 번 씨름을 해서 이겼다. 도깨비는 계속해서 대들었지만 다리가 하나밖에 없었으므로 젊은이는 다리를 감아 쉽게 넘어뜨릴 수 있었다는 이야기이다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dokkakgwi-c09",
+          "source_id": "dokkakgwi-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "Unlike ghosts that come from the souls of the dead, dokkaebi are said to arise from natural objects such as trees and stones and often appear in mountains and fields.",
+          "statement_id": "Berbeda dari hantu (gwisin) yang berasal dari roh orang mati, dokkaebi dikatakan terjadi dari benda alam seperti pohon dan batu dan sering muncul di gunung dan ladang.",
+          "quote": "사람이 죽은 다음 그 영혼이 변해서 되는 귀신과는 달리, 도깨비는 나무·돌 등의 자연물이 변해서 되고 산과 들에서 흔히 나타난다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dokkakgwi-c10",
+          "source_id": "dokkakgwi-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "Dokkaebi are said to be ever-changing, able to become invisible, and, through their supernatural power, to show superhuman strength.",
+          "statement_id": "Dokkaebi dikatakan serba berubah-ubah, dapat menjadi tak kasatmata, dan berkat daya gaibnya dapat menunjukkan kekuatan luar biasa melebihi manusia.",
+          "quote": "도깨비는 변화무쌍하여 눈에 보이지 않는 투명체가 될 수도 있고, 신통력을 가지고 있어서 초인간적인 괴력을 나타내기도 한다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dokkakgwi-c11",
+          "source_id": "dokkakgwi-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "The first of the most prominent characteristics of dokkaebi is that they greatly enjoy mischievous pranks.",
+          "statement_id": "Ciri dokkaebi yang paling menonjol, yang pertama, adalah kegemarannya pada keusilan yang nakal.",
+          "quote": "도깨비의 가장 두드러진 특징은 다음과 같다. 첫째 심술궂은 장난을 매우 즐긴다는 점이다.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "feng-mythology",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-2.md",
+      "entry_sha256": "6a4b4ef23fd96e5a221149c8804d140ee9d38795423f3a0d5bf8f202d3f784b5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "feng-mythology-c01",
@@ -284,26 +515,111 @@
           "quote": "Shìròu (視肉; \"looks like meat\") compounds shi (視; 'regard', 'look at/upon', 'inspect', 'watch', 'sight', 'vision') with rou (肉; 'meat', 'flesh', 'pulp', ''flesh' of melons/etc.'). The Kangxi Dictionary entry for shi (視) quotes Guo Pu's Shanhaijing commentary to use the otherwise unattested variant jùròu (聚肉, with 聚; 'gather', 'assemble', 'get together').",
           "context": "etymology",
           "status": "loose"
+        },
+        {
+          "id": "feng-mythology-c05",
+          "source_id": "feng-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Kuo notes that the look-flesh creature is a mass of flesh like an ox liver with two eyes; even though eaten it is never consumed, because it grows again and is born again in its former form.",
+          "statement_id": "Kuo mencatat bahwa makhluk \"pandang-daging\" itu berupa gumpalan daging seperti hati sapi dengan dua mata; meski dimakan ia tidak pernah habis karena tumbuh dan lahir kembali dalam bentuk semula.",
+          "quote": "Kuo notes that the look-flesh creature \"is a mass of flesh which looks like the liver of an ox; it has two eyes. Even though you eat it, it is never really consumed, because it grows again, and is born again in the same form as it was before.\"",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "feng-mythology-c06",
+          "source_id": "feng-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Guo Pu's (276-324) commentary on the Shanhaijing, the shirou is described as a lump of meat shaped like an ox liver with two eyes, edible, with more to be found; such things are called Feng and are edible.",
+          "statement_id": "Dalam komentar Guo Pu (276-324) atas Shanhaijing, shirou digambarkan sebagai gumpalan daging berbentuk hati sapi dengan dua mata, dapat dimakan, dan bisa ditemukan lebih banyak lagi; benda semacam itu disebut Feng dan dapat dimakan.",
+          "quote": "The Shanhaijing commentary of Guo Pu (276-324) provides invaluable information about the shirou and turou ... It is a lump of meat in the shape of an ox liver. There are two eyes in it. It can be eaten as food. More of them can be found. Such things are called Feng and are edible.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "feng-mythology-c07",
+          "source_id": "feng-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Classic of Mountains and Seas uses the name Shirou 14 times, and scholars generally date these sections to about the 1st century BCE to 1st century CE, making shirou the earliest recorded name for feng.",
+          "statement_id": "Classic of Mountains and Seas memakai nama Shirou sebanyak 14 kali, dan para sarjana umumnya menanggalkan bagian-bagian itu pada sekitar abad ke-1 SM hingga abad ke-1 M, sehingga shirou menjadi nama tertulis tertua bagi feng.",
+          "quote": "The Classic of Mountains and Seas has 14 usages of Shìròu ... Scholars generally date these textual sections from around the 1st century BCE to 1st century CE, making shirou the earliest recorded name for feng.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "feng-mythology-c08",
+          "source_id": "feng-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "This myth may constitute a utopian idea of a never-ending supply of meat, from the perspective of the inhabitants of poor rural areas.",
+          "statement_id": "Mitos ini dapat dibaca sebagai gagasan utopis tentang pasokan daging yang tak pernah habis, dari sudut pandang penduduk daerah pedesaan yang miskin.",
+          "quote": "This myth may constitute a utopian idea of a never-ending supply of meat, from the perspective of the inhabitants of poor rural areas.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "feng-mythology-c09",
+          "source_id": "feng-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Feng is considered to be the earthly manifestation of the shen (spirit) of Jupiter.",
+          "statement_id": "Feng dianggap sebagai perwujudan duniawi dari shen (roh) planet Jupiter.",
+          "quote": "Feng is considered to be the earthly manifestation of Jupiter's shen",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "feng-mythology-c10",
+          "source_id": "feng-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A quoted text says that if in the mountains one meets a little man seven or eight inches tall riding in a palanquin or on a horse, it is a \"flesh excrescence\", and by seizing and taking it one immediately becomes a genie.",
+          "statement_id": "Sebuah kutipan teks menyebut bahwa bila di pegunungan orang bertemu lelaki kecil setinggi tujuh atau delapan inci yang menunggang tandu atau kuda, itu adalah \"flesh excrescence\", dan dengan menangkap serta memakannya orang segera menjadi genie.",
+          "quote": "If in the mountains you should come across a little man seven or eight inches tall riding in a palanquin or on a horse, it will be a flesh excrescence. By seizing and taking it you will immediately become a genie.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "feng-mythology-c11",
+          "source_id": "feng-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In an anecdote, a found object is identified as Feng as recorded in the book Baize Tu, with the remark that eating such a thing increases one's physical strength.",
+          "statement_id": "Dalam sebuah anekdot, benda yang ditemukan diidentifikasi sebagai Feng seperti dicatat dalam buku Baize Tu, dengan keterangan bahwa memakan benda semacam itu menambah kekuatan fisik.",
+          "quote": "This was actually Feng as recorded in the book Baize Tu. Eating such a thing will increase one's physical strength.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "feng-mythology-c12",
+          "source_id": "feng-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Roulingzhi (\"meaty Lingzhi mushroom\") is a modern name popularized by Chinese news media reporting on purported discoveries of Feng throughout China.",
+          "statement_id": "Roulingzhi (\"jamur lingzhi berdaging\") adalah nama modern yang dipopulerkan media berita Tiongkok yang melaporkan dugaan penemuan Feng di berbagai tempat di Tiongkok.",
+          "quote": "Ròulíngzhī (肉靈芝; \"meaty Lingzhi mushroom\") is a modern name popularized by Chinese news media reporting on purported discoveries of Feng throughout China.",
+          "context": "modern-popular-culture",
+          "status": "loose"
+        },
+        {
+          "id": "feng-mythology-c13",
+          "source_id": "feng-mythology-s2",
+          "host": "zh.wikisource.org",
+          "statement": "This classical text says that on Mount Di (狄山), where Emperor Yao (帝堯) and Emperor Ku (帝嚳) are buried on its slopes, there are bears, striped tigers, leopards, and the 視肉 (shirou).",
+          "statement_id": "Teks klasik ini menyebut di Gunung Di (狄山), tempat Kaisar Yao (帝堯) dan Kaisar Ku (帝嚳) dimakamkan di lerengnya, terdapat beruang, harimau bercorak, macan tutul, dan 視肉 (shirou).",
+          "quote": "狄山，帝堯葬于陽，帝嚳葬于陰。爰有熊、羆、文虎、蜼、豹、離朱、視肉。吁咽、文王皆葬其所。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "four-mountains",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-2.md",
+      "entry_sha256": "bb7f237810d9958222df7bba8c34576eecdb7d6a0ce620fc73595698ff7fb908",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "four-mountains-c01",
@@ -329,9 +645,9 @@
           "id": "four-mountains-c03",
           "source_id": "four-mountains-s1",
           "host": "en.wikipedia.org",
-          "statement": "Yang Lihui interprets it as four mountain gods, while Wu proposes a ministerial office.",
-          "statement_id": "Yang Lihui menafsirkannya sebagai empat dewa gunung, sedangkan Wu mengusulkan jabatan menteri.",
-          "quote": "Mythologist Yang Lihui sees Four Mountains as four gods of a set of four mountains, with Four Mountains referring to the actual mountains themselves. K. C.",
+          "statement": "Yang Lihui sees Four Mountains as four gods of a set of four mountains, with the term referring to the actual mountains themselves.",
+          "statement_id": "Yang Lihui memandang Four Mountains sebagai empat dewa dari seperangkat empat gunung, dengan istilah itu merujuk pada gunung-gunung yang sebenarnya.",
+          "quote": "Mythologist Yang Lihui sees Four Mountains as four gods of a set of four mountains, with Four Mountains referring to the actual mountains themselves.",
           "context": "scholarly-interpretation",
           "status": "exact"
         },
@@ -354,26 +670,111 @@
           "quote": "Anthony Christie relates the figure of Four Mountains to the Chinese cosmological idea of a square earth, with each of the peaks representing one of the four cardinal directions which the ruler would tour, and at which he would perform various imperial rituals, upon taking possession of his realm.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "four-mountains-c06",
+          "source_id": "four-mountains-s1",
+          "host": "en.wikipedia.org",
+          "statement": "K. C. Wu sees Four Mountains as a ministerial position established by Yao to \"oversee the mundane affairs of the empire\", but points out that no real description of its functions exists and it is uncertain whether one or four persons held it.",
+          "statement_id": "K. C. Wu memandang Four Mountains sebagai jabatan menteri yang ditetapkan Yao untuk \"mengurus urusan duniawi kekaisaran\", tetapi menunjukkan bahwa uraian nyata tentang fungsi jabatan itu tidak ada dan tidak pasti apakah pemegangnya satu atau empat orang.",
+          "quote": "K. C. Wu sees Four Mountains as being a ministerial position established by Yao to \"oversee the mundane affairs of the empire\", but points out that a real description of the functions of this position is lacking, nor is it certain whether there were one or four persons holding this ministerial position",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "four-mountains-c07",
+          "source_id": "four-mountains-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In this reading, the evidence suggests there were four of them, charged with keeping informed about what was going on throughout Yao's domain and advising him upon request.",
+          "statement_id": "Menurut tafsiran ini, bukti menunjukkan adanya empat pemegang jabatan itu, yang bertugas mengetahui apa yang terjadi di seluruh wilayah Yao dan menasihatinya bila diminta.",
+          "quote": "however, he goes on to say that the evidence suggests the existence of four of them, and that they were charged with keeping themselves knowledgeable about what was going on throughout Yao's domain and advising him upon request.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "four-mountains-c08",
+          "source_id": "four-mountains-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The importance of Four Mountains is seen in its key role in selecting Gun as the first put in charge of controlling the flood, and later in nominating Shun as Yao's co-emperor and successor.",
+          "statement_id": "Pentingnya Four Mountains terlihat dari peran kuncinya dalam memilih Gun sebagai orang pertama yang ditugasi mengendalikan banjir, lalu mencalonkan Shun sebagai kaisar pendamping dan kemudian penerus Yao.",
+          "quote": "The importance of Four Mountains can be seen in the key role of selecting Gun to be the first to be put in charge of controlling the flood, then, later, in nominating Shun to be Yao's co-emperor, and later successor.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "four-mountains-c09",
+          "source_id": "four-mountains-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The ambiguous Four Mountains feature prominently in the myth of the Great Flood and the related myths of Emperor Yao (in whose reign the flood began), Gun, Shun, and Yu the Great (who finally controlled the flood waters under Shun and later succeeded him as emperor).",
+          "statement_id": "Four Mountains yang bermakna ganda itu menonjol dalam mitos Banjir Besar dan mitos terkait Kaisar Yao (pada masa pemerintahannya Banjir Besar bermula), Gun, Shun, dan Yu Agung (yang akhirnya mengendalikan air banjir pada masa Shun dan kemudian menggantikannya sebagai kaisar).",
+          "quote": "The ambiguous Four Mountains feature prominently in the myth of the Great Flood, and the related myths of Emperor Yao (in whose reign the Great Flood began), Gun, Shun (Yao's successor of the Youyu-shi), and Yu the Great (who finally controlled the flood waters during the reign of Shun, and later succeeded him as emperor).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "four-mountains-c10",
+          "source_id": "four-mountains-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Anne Birrell says Four Peaks (an alternate term for Four Mountains) is a \"synonym for the ruling nobility of the four quarters of the world in the archaic era; also four mountains\".",
+          "statement_id": "Anne Birrell menyebut Four Peaks (istilah lain untuk Four Mountains) sebagai \"sinonim bagi para bangsawan penguasa empat penjuru dunia pada zaman arkais; juga empat gunung\".",
+          "quote": "Anne Birrell says that Four Peaks (alternate term for Four Mountains) is a \"synonym for [the] ruling nobility of the four quarters of the world in the archaic era; also four mountains\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "four-mountains-c11",
+          "source_id": "four-mountains-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this classical text the emperor addresses the Four Mountains (四岳), saying he has held his position for seventy years, that they are able to carry out his commands, and referring to his seat (朕位); the reply recorded for 岳 is that their virtue is lacking and would disgrace the imperial seat.",
+          "statement_id": "Dalam teks klasik ini sang kaisar menyapa \"四岳\" (Empat Gunung), mengatakan bahwa ia telah menduduki kedudukannya tujuh puluh tahun, bahwa mereka mampu menjalankan titahnya, dan menyebut tahtanya (朕位); jawaban yang dicatat atas nama 岳 adalah bahwa kebajikan mereka kurang dan akan menodai tahta kaisar.",
+          "quote": "帝曰：「咨！四岳！朕在位七十載，汝能庸命，巽朕位？」 ... 岳曰：「 否一作「鄙」德忝帝位。」",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "four-mountains-c12",
+          "source_id": "four-mountains-s2",
+          "host": "zh.wikisource.org",
+          "statement": "After twenty-eight years 放勛 died and the people mourned as for a lost parent; on the first day of the first month Shun (舜) went to the temple of Wenzu (文祖), consulted the Four Mountains (四岳), and opened the four gates.",
+          "statement_id": "Setelah dua puluh delapan tahun, 放勛 wafat dan rakyat berduka seperti kehilangan orang tua; pada hari pertama bulan pertama, Shun (舜) pergi ke kuil Wenzu (文祖), berkonsultasi dengan 四岳 (Empat Gunung), dan membuka empat gerbang.",
+          "quote": "二十有八載，放勛乃殂落，百姓如喪考妣，三載，四海遏密八音。 ... 月正元日，舜格于文祖。詢于四岳，辟四門，明四目",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "four-mountains-c13",
+          "source_id": "four-mountains-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Shun (舜) addresses the Four Mountains (四岳) and asks who is able to achieve great things, advance the emperor's work, and be installed in the post of 百揆; all (僉) answer that Bo Yu (伯禹) be made Sikong (司空), and the emperor tells Yu (禹) to regulate the waters and the land.",
+          "statement_id": "Shun (舜) menyapa 四岳 (Empat Gunung) dan bertanya siapa yang mampu berprestasi, memajukan tugas kaisar, dan ditempatkan pada kedudukan 百揆; semua (僉) menjawab bahwa Bo Yu (伯禹) menjadi Sikong (司空), dan sang kaisar menyuruh Yu (禹) menata air dan tanah.",
+          "quote": "舜曰：「咨！四岳！有能奮庸，熙帝之載，使宅百揆，亮采惠疇？」 ... 僉曰：「伯禹作司空。」 ... 帝曰：「俞，咨！禹，汝平水土，惟時懋哉！」",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "four-mountains-c14",
+          "source_id": "four-mountains-s2",
+          "host": "zh.wikisource.org",
+          "statement": "This classical text says the ruler received the Four Mountains (四岳) and the regional chiefs (羣牧) in audience and distributed jade tokens to the lords (羣后); in the second month he toured eastward as far as Daizong (岱宗) and received the eastern lords (東后).",
+          "statement_id": "Teks klasik ini menyebut bahwa sang penguasa menerima 四岳 (Empat Gunung) dan para pemimpin daerah (羣牧) dalam pertemuan serta membagikan lambang batu giok kepada para penguasa (羣后); pada bulan kedua ia melakukan perjalanan ke timur sampai ke Daizong (岱宗) dan menerima penguasa timur (東后).",
+          "quote": "既月乃日，覲四岳羣牧，班瑞于羣后。 ... 歲二月，東巡 守一作「狩」，至于岱宗，柴，望秩于山川，肆覲東后。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "huan-dou",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-2.md",
+      "entry_sha256": "4a91f088744e7b205299521f0d9e6d9648f1a80b8d1bfe82e27a3335af9fe2a1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 14,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "huan-dou-c01",
@@ -421,7 +822,97 @@
           "host": "en.wikipedia.org",
           "statement": "The tale describes Huandou recommending Gonggong for flood control, with Yao rejecting him.",
           "statement_id": "Kisah menyebut Huandou mengusulkan Gonggong untuk menangani banjir, tetapi Yao menolaknya.",
-          "quote": "Huandou ruled during a time where the Miao people maintained shaky relations with the neighbouring Taotang and Youyu clans. At the same time, a great flood devastated the region, and Emperor Yao sought to find someone to bring them under control.",
+          "quote": "Huandou recommended Gonggong, at the time the ruler of his clan, to which Yao rejected him, believing him to be a rebellious and flawed leader.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huan-dou-c06",
+          "source_id": "huan-dou-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The invasion by Yu led Huandou to retreat to Mt. Chong.",
+          "statement_id": "Serbuan Yu membuat Huandou mundur ke Gunung Chong.",
+          "quote": "The invasion by Yu led to Huandou retreating to Mt. Chong",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huan-dou-c07",
+          "source_id": "huan-dou-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In a second invasion by Yu the Great, Huandou was finally defeated, leading to the destruction of the Sanmiao.",
+          "statement_id": "Pada serbuan kedua Yu Agung, Huandou akhirnya dikalahkan, yang berujung pada hancurnya Sanmiao.",
+          "quote": "During a second invasion from Yu the Great, Huandou would finally be defeated, leading to the destruction of the Sanmiao",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huan-dou-c08",
+          "source_id": "huan-dou-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Classic of Mountains and Seas records Huandou as a descendant of Zhuanxu, progenitor of the Youyu clan and himself a descendant of the Yellow Emperor; another account in the same text calls him the grandson of Gun, Earl of Chong.",
+          "statement_id": "Classic of Mountains and Seas mencatat Huandou sebagai keturunan Zhuanxu, leluhur klan Youyu yang sendiri keturunan Kaisar Kuning; catatan lain dari teks yang sama menyebutnya cucu Gun, Earl dari Chong.",
+          "quote": "The Classic of Mountains and Seas records Huandou as a descendant of Zhuanxu, the progenitor of the Youyu clan and himself a descendant of the Yellow Emperor. Another account from the same text claims he is the grandson of Gun, Earl of Chong.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huan-dou-c09",
+          "source_id": "huan-dou-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The text also mythologises Huandou, depicting him as a bird-beaked man with wings who eats fish from the sea.",
+          "statement_id": "Teks itu juga memitoskan Huandou dengan menggambarkannya sebagai lelaki berparuh burung dan bersayap yang memakan ikan dari laut.",
+          "quote": "It also mythologises Huandou, depicting him as a bird-beaked man with wings, eating fish from the sea.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huan-dou-c10",
+          "source_id": "huan-dou-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Huandou, along with Chi You, is claimed by the modern Miao people as their progenitor.",
+          "statement_id": "Huandou, bersama Chi You, diakui oleh orang Miao masa kini sebagai leluhur mereka.",
+          "quote": "Huandou, along with Chi You, is claimed by the modern Miao people as their progenitor.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "huan-dou-c11",
+          "source_id": "huan-dou-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Because Huandou is known from transmitted early Chinese texts, there is no contemporary evidence of his existence.",
+          "statement_id": "Karena Huandou dikenal dari teks Tiongkok awal yang diwariskan, tidak ada bukti sezaman tentang keberadaannya.",
+          "quote": "As Huandou is known from transmitted early Chinese texts, there is no contemporary evidence of Huandou's existence",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "huan-dou-c12",
+          "source_id": "huan-dou-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this classical text, Huandou (驩兜) speaks in favor of Gonggong (共工), and the emperor (帝) answers that he speaks smoothly but acts contrary and is respectful only in appearance.",
+          "statement_id": "Dalam teks klasik ini, Huandou (驩兜) berbicara untuk Gonggong (共工), dan sang kaisar (帝) menanggapinya dengan mengatakan bahwa Gonggong pandai bicara tetapi berbuat sebaliknya dan hanya tampak hormat.",
+          "quote": "驩兜曰：「都！共工方鳩𠊩功。」 ... 帝曰：「吁！靜言庸違，象恭滔天。」",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huan-dou-c13",
+          "source_id": "huan-dou-s2",
+          "host": "zh.wikisource.org",
+          "statement": "This classical text says Gonggong (共工) was exiled to Youzhou (幽州), Huandou (驩兜) was banished to Mount Chong (崇山), the Sanmiao (三苗) were driven to Sanwei (三危), and Gun (鯀) was punished at Mount Yu (羽山); after these four punishments the whole realm submitted.",
+          "statement_id": "Teks klasik ini menyebut Gonggong (共工) diasingkan ke Youzhou (幽州), Huandou (驩兜) dibuang ke Gunung Chong (崇山), Sanmiao (三苗) diusir ke Sanwei (三危), dan Gun (鯀) dihukum di Gunung Yu (羽山); setelah empat hukuman itu seluruh negeri tunduk.",
+          "quote": "流共工于幽 州一作「洲」，放驩兜于崇山，竄三苗于三危，殛鯀于羽山，四罪而天下咸服。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huan-dou-c14",
+          "source_id": "huan-dou-s3",
+          "host": "zh.wikisource.org",
+          "statement": "This classical text says the people of the Huantou (讙頭) country have human faces, wings, and bird beaks, and are catching fish; one version places it east of Bifang (畢方) and another calls it the Huanzhu (讙朱) country.",
+          "statement_id": "Teks klasik ini menyebut orang-orang negeri Huantou (讙頭) berwajah manusia, bersayap, berparuh burung, dan sedang menangkap ikan; satu versi menempatkannya di sebelah timur Bifang (畢方) dan versi lain menyebutnya negeri Huanzhu (讙朱).",
+          "quote": "讙頭國在其南，其為人人面有翼，鳥喙，方捕魚。一曰在畢方東。或曰讙朱國。",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -430,20 +921,15 @@
     },
     {
       "slug": "luduan",
-      "file": "batch-068-fix-1.md",
+      "file": "batch-068-fix-2.md",
+      "entry_sha256": "860ef061c7273a997f0d01daabb8666dcb521de5c8863086cc97c24288827fc0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "luduan-c01",
@@ -494,26 +980,71 @@
           "quote": "Bronze incense burner in the shape of luduan with gold and silver inlay",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "luduan-c06",
+          "source_id": "luduan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A legend says a luduan once appeared to Genghis Khan and persuaded him to abandon his efforts to conquer India.",
+          "statement_id": "Sebuah legenda menyebut luduan pernah menampakkan diri kepada Genghis Khan dan meyakinkannya untuk membatalkan upayanya menaklukkan India.",
+          "quote": "A legend says a luduan once appeared to Genghis Khan and convinced him to abandon his efforts to conquer India.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "luduan-c07",
+          "source_id": "luduan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Emperor's throne in the Hall of Supreme Harmony has two incense burners shaped like the luduan as an auspicious symbol.",
+          "statement_id": "Singgasana Kaisar di Aula Keharmonisan Tertinggi memiliki dua pedupaan berbentuk luduan sebagai lambang keberuntungan.",
+          "quote": "The throne of the Emperor in the Hall of Supreme Harmony has two incense burners shaped like the luduan as an auspicious symbol.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "luduan-c08",
+          "source_id": "luduan-s3",
+          "host": "zh.wikisource.org",
+          "statement": "A Chinese history text records a one-horned beast shaped like a deer with a horse's tail and a green color that spoke like a human and told the attendants: \"Your lord should return early.\"",
+          "statement_id": "Sebuah teks sejarah Tiongkok mencatat makhluk bertanduk satu berbentuk seperti rusa dengan ekor kuda dan berwarna hijau yang berbicara seperti manusia dan berkata kepada para pengawal: \"Tuanmu sebaiknya cepat kembali.\"",
+          "quote": "有一角獸，形如鹿而馬尾，其色綠，作人言，謂侍衞者曰：「汝主宜早還。」",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "luduan-c09",
+          "source_id": "luduan-s3",
+          "host": "zh.wikisource.org",
+          "statement": "When the emperor asked Chucai (楚材), he answered that it was an auspicious beast named 角端 (jiaoduan), able to speak the languages of the four directions, who loves life and hates killing, and that it was a sign sent from heaven to the emperor.",
+          "statement_id": "Ketika sang kaisar bertanya kepada Chucai (楚材), ia menjawab bahwa makhluk itu adalah binatang pertanda baik bernama 角端 (jiaoduan) yang mampu berbicara dalam bahasa empat penjuru, menyukai kehidupan dan membenci pembunuhan, dan merupakan tanda dari langit bagi sang kaisar.",
+          "quote": "帝以問楚材，對曰：「此瑞獸也，其名角端，能言四方語，好生惡殺，此天降符以告陛下。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "luduan-c10",
+          "source_id": "luduan-s3",
+          "host": "zh.wikisource.org",
+          "statement": "Chucai urges the emperor to follow heaven's will so as to preserve the people's lives, and the emperor withdrew his army that very day.",
+          "statement_id": "Chucai mendesak sang kaisar menaati kehendak langit demi menyelamatkan nyawa rakyat, dan sang kaisar menarik pasukannya pada hari itu juga.",
+          "quote": "陛下天之元子，天下之人皆陛下之子，願承天心，以全民命。」帝即日班師。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "mo-sin-a",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-2.md",
+      "entry_sha256": "0aaddae2ea615f5a33ec81e74ee9e0b9abc412d99679c4dadde7fdb31f081336",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mo-sin-a-c01",
@@ -544,26 +1075,81 @@
           "quote": "The mo-sin-a are considered a type of demon who lives in mountain forests. They are said to lure people away to remote spots like mountain forests or caves. Japanese-era newspapers mention it several times, and the demon was featured in the horror movie series, The Tag-Along.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "mo-sin-a-c04",
+          "source_id": "mo-sin-a-s2",
+          "host": "research.sinica.edu.tw",
+          "statement": "The 魔神仔 (mo-sin-a) is described as a mountain or water spirit-monster, small in size, able to transform (幻化) and play tricks on people; the \"Little Girl in Red\" (紅衣小女孩) and the \"玉山黃色小飛俠\" are said to be kinds of 魔神仔.",
+          "statement_id": "魔神仔 (Mo-sin-a) digambarkan sebagai siluman gunung dan air yang bertubuh kecil, dapat berubah rupa (幻化), dan suka mengusili orang; \"Gadis Kecil Berbaju Merah\" (紅衣小女孩) dan \"玉山黃色小飛俠\" disebut sebagai jenis-jenis 魔神仔.",
+          "quote": "「魔神仔」是山精水怪，矮矮小小的，會幻化、會作弄人，臺灣民間傳說中最知名的「紅衣小女孩」、登山客絕對不想遇到的「玉山黃色小飛俠」，都是魔神仔的一種。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mo-sin-a-c05",
+          "source_id": "mo-sin-a-s2",
+          "host": "research.sinica.edu.tw",
+          "statement": "In the stories, people taken away by the 魔神仔 are found in trees or caves, and the 魔神仔 ask people for clothes; the researcher links the first to early humans' jungle life and the second to the advance of civilization and a sense of shame.",
+          "statement_id": "Dalam kisah-kisahnya, orang yang dibawa pergi 魔神仔 ditemukan di pohon atau gua, dan 魔神仔 meminta pakaian dari orang; peneliti mengaitkan yang pertama dengan pengalaman hidup di hutan manusia awal dan yang kedua dengan kemajuan peradaban serta rasa malu.",
+          "quote": "例如，在樹上或是洞穴發現被魔神仔帶走的人，這可以連結到早期人類的叢林生活經驗；而魔神仔跟人要衣服穿，則是與人類文明的進展相關，是一種羞恥心的展現。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mo-sin-a-c06",
+          "source_id": "mo-sin-a-s2",
+          "host": "research.sinica.edu.tw",
+          "statement": "When someone is \"spirited away\" (神隱) in the mountains, people call out the name of the person taken by the 魔神仔; the researcher likens this naming to humans passing from nameless to named.",
+          "statement_id": "Bila seseorang \"disembunyikan dewa\" (神隱) di pegunungan, orang berteriak memanggil nama orang yang dibawa 魔神仔; cara memanggil nama ini disamakan peneliti dengan manusia yang beralih dari tanpa nama menjadi bernama.",
+          "quote": "當有人在山區被神隱，要大聲呼喊被魔神仔帶走的人的名字，這種呼喚名字的方式，如同人類從無名到有名",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mo-sin-a-c07",
+          "source_id": "mo-sin-a-s2",
+          "host": "research.sinica.edu.tw",
+          "statement": "The 魔神仔 plays tricks on people in the wild, whereas ghost stories arise after someone has died in a place, so the two are distinguished.",
+          "statement_id": "魔神仔 mengusili orang di alam liar, sedangkan cerita hantu muncul setelah seseorang meninggal di suatu tempat, sehingga keduanya dibedakan.",
+          "quote": "魔神仔是在野外捉弄人，而鬼是一個地方有人死掉以後，產生鬼故事。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mo-sin-a-c08",
+          "source_id": "mo-sin-a-s2",
+          "host": "research.sinica.edu.tw",
+          "statement": "The screenwriter of the Taiwanese horror film 《紅衣小女孩》, 簡士耕, said he was inspired to write it after taking 林美容's class and reading 《魔神仔的人類學想像》.",
+          "statement_id": "Penulis skenario film horor Taiwan 《紅衣小女孩》, 簡士耕, pernah menyatakan bahwa ia terinspirasi menulisnya setelah mengikuti kelas 林美容 dan membaca 《魔神仔的人類學想像》.",
+          "quote": "臺灣恐怖電影《紅衣小女孩》的編劇簡士耕曾表示，他是上了林美容的課、讀了《魔神仔的人類學想像》，才啟發他創作《紅衣小女孩》。",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "mo-sin-a-c09",
+          "source_id": "mo-sin-a-s2",
+          "host": "research.sinica.edu.tw",
+          "statement": "林美容 holds that Taiwanese society should treat 魔神仔 legends as cultural heritage and use these spirits as local material to help people know Taiwan's culture.",
+          "statement_id": "林美容 berpendapat bahwa masyarakat Taiwan semestinya memperlakukan kisah-kisah 魔神仔 sebagai warisan budaya dan memakainya sebagai bahan lokal agar orang mengenal budaya Taiwan.",
+          "quote": "林美容認為臺灣社會應該把魔神仔的傳說故事當作一種文化資產，可以把這些鬼怪當成鄉土素材來利用，讓大家認識臺灣的文化。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "panhu",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-2.md",
+      "entry_sha256": "1ee18900151925984fb5813a38fdd2a63900e719ff18e055504ffa31ea32e015",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "panhu-c01",
@@ -614,26 +1200,121 @@
           "quote": "In the study of historical Chinese culture, many of the stories that have been told regarding characters and events which have been written or told of the distant past have a double tradition: one which presents a more historicized version and one which presents a more mythological version. This is also true in many of the accounts related to Panhu.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "panhu-c06",
+          "source_id": "panhu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The worm then became a dog, Panhu, who in some versions had five-colored fur; the king offered his daughter in marriage to anyone who would bring him the head of his enemy, and Panhu accomplished it.",
+          "statement_id": "Cacing itu kemudian menjadi anjing bernama Panhu yang dalam sebagian versi berbulu lima warna; raja menawarkan putrinya kepada siapa pun yang membawa kepala musuhnya, dan hal itu dilakukan oleh Panhu.",
+          "quote": "The worm then turned into a dog, Panhu, who in some versions had five colored fur. The king offered to marry his daughter to anybody that would present him with the head of his enemy. This was accomplished by Panhu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "panhu-c07",
+          "source_id": "panhu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Accounts vary, but eventually Panhu and the princess had six sons and six daughters who became the famous 12 clans of Chinese mythology.",
+          "statement_id": "Catatan berbeda-beda, tetapi akhirnya Panhu dan sang putri memiliki enam putra dan enam putri yang menjadi 12 klan terkenal dalam mitologi Tiongkok.",
+          "quote": "Accounts vary, but eventually Panhu and the princess had six sons and six daughters who became the famous 12 clans of Chinese mythology.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "panhu-c08",
+          "source_id": "panhu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In modern times, Panhu has been worshiped by the She and Yao peoples as \"King Pan\".",
+          "statement_id": "Pada masa kini, Panhu dipuja oleh orang She dan orang Yao sebagai \"Raja Pan\".",
+          "quote": "In modern times, Panhu has been worshiped by the She people and Yao people as \"King Pan\".",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "panhu-c09",
+          "source_id": "panhu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "This is the origin of Panhu's name, which literally means \"plate gourd\".",
+          "statement_id": "Inilah asal nama Panhu, yang secara harfiah berarti \"labu piring\".",
+          "quote": "This is the origin of Panhu's name, which literally means \"plate gourd\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "panhu-c10",
+          "source_id": "panhu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Panhu myth is an important origin myth for various ethnic groups.",
+          "statement_id": "Mitos Panhu merupakan mitos asal-usul yang penting bagi berbagai kelompok etnis.",
+          "quote": "The Panhu myth is an important origin myth for various ethnic groups.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "panhu-c11",
+          "source_id": "panhu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this classical text, Gaoxin (高辛氏) is troubled by raids from the Quanrong (犬戎) and offers gold, towns, and his youngest daughter to anyone who brings the head of General Wu (吳將軍) of the Quanrong.",
+          "statement_id": "Dalam teks klasik ini, Gaoxin (高辛氏) kewalahan oleh serangan Quanrong (犬戎) dan menawarkan emas, kota, dan putri bungsunya kepada siapa pun yang membawa kepala Jenderal Wu (吳將軍) dari Quanrong.",
+          "quote": "昔高辛氏有犬戎之寇，帝患其侵暴，而征伐不克。乃訪募天下，有能得犬戎之將吳將軍頭者，購黃金千鎰，邑萬家，又妻以少女。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "panhu-c12",
+          "source_id": "panhu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The emperor then had a dog with five-colored fur named Panhu (槃瓠); after the order was issued, Panhu carried a human head to the palace gate, and the ministers found it was General Wu's head.",
+          "statement_id": "Pada saat itu sang kaisar memiliki seekor anjing berbulu lima warna bernama Panhu (槃瓠); setelah titah diumumkan, Panhu membawa sebuah kepala manusia ke istana, dan para menteri mendapati itu kepala Jenderal Wu.",
+          "quote": "時帝有畜狗，其毛五采，名曰槃瓠。下令之後，槃瓠遂銜人頭造闕下，群臣怪而診之，乃吳將軍首也。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "panhu-c13",
+          "source_id": "panhu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Having no choice, the emperor gave his daughter to Panhu (槃瓠); Panhu carried her on his back into the Southern Mountain (南山) and stayed in a stone chamber in a perilous place no one reached.",
+          "statement_id": "Karena terpaksa, sang kaisar menikahkan putrinya dengan Panhu (槃瓠); Panhu menggendong sang putri ke Gunung Selatan (南山) dan tinggal di sebuah ruang batu di tempat yang berbahaya dan tidak dijejaki orang.",
+          "quote": "帝不得已，乃以女配槃瓠。槃瓠得女，負而走入南山，止石室中。所處險絶，人迹不至。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "panhu-c14",
+          "source_id": "panhu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "After three years twelve children were born, six sons and six daughters; after Panhu (槃瓠) died they married one another, wove tree bark, dyed it with plant seeds, liked five-colored clothes, and cut garments with tail shapes.",
+          "statement_id": "Setelah tiga tahun lahir dua belas anak, enam putra dan enam putri; sesudah Panhu (槃瓠) meninggal mereka saling menjadi suami istri, menenun kulit kayu, mewarnainya dengan biji tumbuhan, menyukai pakaian lima warna, dan menjahit pakaian berbentuk ekor.",
+          "quote": "經三年，生子一十二人，六男六女。槃瓠死後，因自相夫妻。織績木皮，染以草實，好五色衣服。製裁皆有尾形。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "panhu-c15",
+          "source_id": "panhu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Their descendants later multiplied and were called the Manyi (蠻夷); the text calls them seemingly foolish outside but shrewd within, attached to their land and old ways, and says they are the Man of Changsha and Wuling (長沙武陵蠻).",
+          "statement_id": "Keturunan mereka kemudian berkembang dan disebut Manyi (蠻夷); teks itu menyebut mereka tampak bodoh di luar tetapi cerdik di dalam, setia pada tanah dan kebiasaan lama, dan menyatakan bahwa merekalah suku Man di Changsha dan Wuling (長沙武陵蠻).",
+          "quote": "其後滋蔓，號曰蠻夷。外癡內黠，安土重舊。 ... 今長沙武陵蠻是也。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "panlong-mythology",
-      "file": "batch-068-fix-1.md",
+      "file": "batch-068-fix-2.md",
+      "entry_sha256": "bd3ac3ec38cf724d0333d9ed5850c764620f1013f085e1f36b78fc55291f0218",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "panlong-mythology-c01",
@@ -652,6 +1333,46 @@
           "statement": "The Huainanzi records Panlong as a bronze-decoration style.",
           "statement_id": "Huainanzi mencatat Panlong sebagai gaya hiasan perunggu.",
           "quote": "Chinese classic texts began using panlong in the Han dynasty (206 BCE – 220 CE). The (2nd century BCE) Huainanzi first records panlong as a decorative style on Chinese bronzes.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "panlong-mythology-c03",
+          "source_id": "panlong-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Fangyan (方言) dictionary of Yang Xiong defined panlong 蟠龍 as a \"coiled dragon\": dragons which do not yet ascend to heaven are called p'an-lung.",
+          "statement_id": "Kamus Fangyan (方言) karya Yang Xiong mendefinisikan panlong 蟠龍 sebagai \"naga melingkar\": naga yang belum naik ke langit disebut p'an-lung.",
+          "quote": "The materialist philosopher Yang Xiong (53 BCE – 18 CE) used both panlong and longpan. His Fangyan 方言 \"Regional Speech\" dictionary defined panlong 蟠龍 \"coiled/curled dragon\", \"Dragons which do not yet ascend to heaven [cf. tianlong \"heavenly dragon\"] are called p'an-lung.\"",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "panlong-mythology-c04",
+          "source_id": "panlong-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Biji manzhi (碧雞漫志) by Wang Zhuo (王灼) describes using panlong dragons in sympathetic magic for rainfall: a mirror adorned on its back with a \"coiled dragon\" (盤龍) is said to have been worshipped, or used magically, to cause rain.",
+          "statement_id": "Biji manzhi (碧雞漫志) karya Wang Zhuo (王灼) menggambarkan pemakaian naga panlong dalam sihir simpatetik untuk hujan: cermin yang punggungnya dihiasi \"naga melingkar\" (盤龍) dikatakan dipuja, atau digunakan secara magis, untuk mendatangkan hujan.",
+          "quote": "The (12th century CE) Song dynasty Biji manzhi 碧雞漫志 \"Random Jottings from the Green Rooster Quarter\" by Wang Zhuo 王灼 describes using panlong dragons in sympathetic magic for rainfall, \"where a mirror, adorned on the backside with a \"coiled dragon\", p'an lung, 盤龍, is said to have been worshipped (rather used in a magical way) in order to cause rain.\"",
+          "context": "historical-record",
+          "status": "loose"
+        },
+        {
+          "id": "panlong-mythology-c05",
+          "source_id": "panlong-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Shangshu dazhuan (尚書大傳) commentary to the Classic of History parallels panlong with jiaoyu (鮫魚) and says the \"coiled dragon\" was greatly trusted in its lair.",
+          "statement_id": "Komentar Shangshu dazhuan (尚書大傳) atas Classic of History memadankan panlong dengan jiaoyu (鮫魚) dan menyebut \"naga melingkar\" itu sangat dipercaya di sarangnya.",
+          "quote": "Shangshu dazhuan 尚書大傳 ... commentary to the Classic of History parallels panlong and jiaoyu 鮫魚 ... was greatly trusted in its lair",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "panlong-mythology-c06",
+          "source_id": "panlong-mythology-s2",
+          "host": "zh.wikisource.org",
+          "statement": "A classical text describing the decoration of great bells, tripods, and precious vessels lists the 蟠龍 (coiled dragon) motif linked in a series (連組) alongside the sleeping rhinoceros (寢兕) and the crouching tiger (伏虎).",
+          "statement_id": "Sebuah teks klasik yang menyebut hiasan lonceng besar, kuali tripod, dan bejana berharga mencantumkan motif 蟠龍 (naga melingkar) yang berangkai (連組) di samping badak tidur (寢兕) dan harimau mendekam (伏虎).",
+          "quote": "大鐘鼎，美重器，華蟲疏鏤，以相繆紾，寢兕伏虎，蟠龍連組，焜昱錯眩，照耀輝煌",
           "context": "historical-record",
           "status": "exact"
         }
@@ -706,7 +1427,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f20ba0dc64aaf6f3ddd8e6884277908cfea216da836d1db8ff372d7e899e3572"
     },
     {
       "slug": "shunfeng-er",
@@ -776,7 +1498,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "dff79514f0a94e6121ad0a6bef569b2d378320f0b86325547042014d4613a8d6"
     },
     {
       "slug": "tam-kung",
@@ -850,7 +1573,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "29db1f9f0235ef2fc2e38f88328713f49e306d3e2de2811c53aecb2e295f54f2"
     },
     {
       "slug": "teng-mythology",
@@ -910,7 +1634,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2a8e5378721bdfc4924e456df480d3232ab1bb23cfbcb469e7c35161a0b98367"
     },
     {
       "slug": "tianma",
@@ -970,7 +1695,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9d241cd5b4b34a007ac43cc0e199bed0e0fc088b583c0edd15957846ad3f911b"
     },
     {
       "slug": "yuqiang",
@@ -1020,7 +1746,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "87b5db7dfd8724d6aebf2fbe1bf57cba25409d357e427dd6912729a8fb8c0f91"
     },
     {
       "slug": "ao-bing",
@@ -1090,7 +1817,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "caf72f9b207b9b36e2dc0f46d05fe780e956c4066769ca621b864437936b6dc5"
     },
     {
       "slug": "dijiang",
@@ -1140,7 +1868,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9085a673b87fe1e336a5ca9fc1f5e30cb15ed8d395627768e97c2ae4c854c9ae"
     },
     {
       "slug": "dilong",
@@ -1210,7 +1939,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e078a2b417016b36a1014fa661be480537181a7991c6e00be4320495bde0e787"
     },
     {
       "slug": "gazeka",
@@ -1260,7 +1990,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "35d9e5b735fbfd3f05adfbb3f2216d72407a7bc27167c37aaf7e81a997b58d35"
     },
     {
       "slug": "guhuoniao",
@@ -1330,7 +2061,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ae1995d1391c88d7d528449eceac20b01d5621da72fbfdfc81a47afcc65859f6"
     },
     {
       "slug": "shuixian-zunwang",
@@ -1349,7 +2081,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "c3be9b9e0c2050c63d8e5f05ff7ca77d51b8161966e94ab67218a15d94f5fc16"
     },
     {
       "slug": "hong-rainbow-dragon",
@@ -1409,7 +2142,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cb2da4bb139fab51804db720d096e074c9d65b69079b74e90732fad84a44b05e"
     },
     {
       "slug": "huodou",
@@ -1479,7 +2213,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "98a6285738fe2e4701970fc58a4a2834c7cf429e1f2e85471e5ded2cf5693547"
     },
     {
       "slug": "imugi",
@@ -1553,7 +2288,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "356d1cac2e0c834a50ad30e2afc92a43736c23bfb1c0d59e4ef8a52857745193"
     },
     {
       "slug": "inmyeonjo",
@@ -1623,7 +2359,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "19c340d2eebaccfc1c769592ce4f9bfe85dc081fe4c4e6aff2023fa580334cb3"
     },
     {
       "slug": "lo-ting",
@@ -1693,7 +2430,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d2f6615905b4384c0e931ae65d2c3d61a1f8fec8eb23b7987a73fb3141443c05"
     },
     {
       "slug": "nie-xiaoqian",
@@ -1763,7 +2501,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b134ec08715c4f4115d3e307cf27794c0dd986ce14cb0255d9841abe967cc3fc"
     },
     {
       "slug": "qiulong",
@@ -1823,7 +2562,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e68b1acb1e2e0613320015918aefd1db154b87948916500fd05e0e689d7ebb75"
     },
     {
       "slug": "tek-ko-kui",
@@ -1883,7 +2623,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7255f97af34a581e935b7c2d826b6d743aed5e9703aa4d908d07276b63adae71"
     },
     {
       "slug": "wd-q89656688",
@@ -1933,7 +2674,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c25bed22b03b1a31cf3ab8ee672748fd2fc09757b8f652e05ea1bcf61f2d242d"
     },
     {
       "slug": "snakes-in-chinese-mythology",
@@ -1952,7 +2694,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "02b7c37e6dd09df62a6d929382fb876e6ecd963c6864c379dc36c0adcd7190ec"
     },
     {
       "slug": "tin-hau-s-birthday",
@@ -1971,7 +2714,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "db57bbc747fa072785cbd0e2eec05584cf73bacdf6e7b65fd05cb91160d3369f"
     },
     {
       "slug": "wuzhiqi",
@@ -2041,7 +2785,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ebbe0f8a7b04046b1efff2b708e83176333db1b87da6147f19e93cd19bae383f"
     },
     {
       "slug": "ao-run",
@@ -2091,7 +2836,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3c1c66460a5ee81c64e0e59d1cc765453472c85a7e29e80a0dbc07a57c006b7a"
     },
     {
       "slug": "bifang",
@@ -2161,7 +2907,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e65763773083417b59646123df98d30d662bb142a7e038f70e518b648d21646e"
     },
     {
       "slug": "chang-monster",
@@ -2221,7 +2968,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "25a345a82e7d871bb3ff50e0cbeae9e354badeddc966ab298aa0a3e82b6f3bc0"
     },
     {
       "slug": "dilang",
@@ -2301,7 +3049,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "22feee6767444866eddbd45b3aa8542ec8d48c780251a2c7b47a89d67011de35"
     },
     {
       "slug": "feilong",
@@ -2361,7 +3110,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "025104c2b149fcd1cc373d26c76181729c6575867c2619f957ea678ebf23a2bf"
     },
     {
       "slug": "fuzhu-mythical-beast",
@@ -2421,7 +3171,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "37cd98b22377a93bd4710d46ea6a9bf4fdd4467670a14b96400dfb060edabf35"
     },
     {
       "slug": "gangcheori",
@@ -2481,7 +3232,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2e31f0fcd1d46d4ce97d8735105ea8c0e5682471da5f6e92339123da55de18b6"
     },
     {
       "slug": "heluo-fish",
@@ -2541,7 +3293,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7f5718d941db47d01aa66ba3866bfc1b56e86345eccf8b6cf54b7bb8a280b5d1"
     },
     {
       "slug": "kawas-mythology",
@@ -2616,7 +3369,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "fa25972fe07452f105373686b4a4c232f62aa3ea37ab15bfd1b1d7fd7d5b4651"
     },
     {
       "slug": "kun",
@@ -2676,7 +3430,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3e4d8c038f41fdb0464f916de3fa77b89ae8c013d19ccda92c3cc0c18f8034ac"
     }
   ]
 }

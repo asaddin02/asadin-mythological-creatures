@@ -1,6 +1,6 @@
 # Review batch-129
 
-Diperiksa 2026-10-02T10:07:05.519Z. Berkas: batch-129.md.
+Diperiksa 2026-10-06T15:21:45.073Z. Berkas: batch-129.md, batch-129-fix-1.md.
 
 ## graoully — lulus-otomatis
 
@@ -582,18 +582,18 @@ Klaim 9 (exact 9), sumber 3, gambar 0.
 
 ## squasc — lulus-otomatis
 
-Klaim 5 (loose 1, exact 4), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| squasc-c01 | loose | en.wikipedia.org | The squasc is a mythological being of eastern Lombardy folklore. | The squasc (pronounced [ˈskwaʃ]) is a mythological being of the Eastern Lombardy region folklore. |
+| squasc-c01 | exact | en.wikipedia.org | The squasc is a mythological being of eastern Lombardy folklore. | The squasc ... is a mythological being of the Eastern Lombardy region folklore. |
 | squasc-c02 | exact | it.wikipedia.org | According to the Italian article it is a small, hairy, tawny being like a tailless squirrel but with a human face. | Si dice sia un essere piccolo, peloso, fulvo, simile ad uno scoiattolo senza coda ma con volto antropomorfo. |
 | squasc-c03 | exact | it.wikipedia.org | Its role lies between an evil spirit like the uomo nero and a sprite: it is invoked to frighten children, but also loves playing rough jokes on anyone, especially girls. | La sua funzione si trova a metà tra quella di uno spirito cattivo (assimilabile all'uomo nero) e un folletto. Come il primo, infatti, è chiamato in causa per spaventare i bambini, mentre come il secondo ama fare scherzi anche pesanti ad ogni categoria di persone, con una certa predilezione per le fanciulle. |
 | squasc-c04 | exact | it.wikipedia.org | It is also known as Sanguanel, Sgranf, Farfarel and Ana Sosana. | È conosciuto anche con le varianti di Sanguanel, Sgranf, Farfarel, Ana Sosana. |
 | squasc-c05 | exact | lmo.wikipedia.org | The Lombard article also calls the squasc a small mythological being of eastern Lombard tradition, like a squirrel but with a human face. | El Squasc a l'è un vesser mitologich de la tradizzion de la Lombardia oriental, piscinin, compagn de 'n sghirat ma cont el vis de om. |
+| squasc-c06 | exact | www.laputa.it | Eastern Lombardy is the traditional home of the Squasc, a small, hairy, reddish being resembling a tailless squirrel with a human-like face; it is not entirely bad: half boogeyman because it scares children, half sprite whose pranks are aimed especially at girls. | Eastern Lombardy is instead the traditional home of Squasc, a small, hairy, reddish being that looks like a squirrel without tail, with anthropomorphic face. It is a creature less fearful of the previous because it’s not entirely bad: half boogeyman, because it scares the children, the other half is sprite, due to his pranks especially devoted to nice girls. |
+| squasc-c07 | exact | www.terraorobica.net | In the village of Clusone in the upper Val Seriana there is a very mischievous local folletto called Squass, whose favorite pastime is sitting astride cut logs and laughing heartily at drunken men. | Nel paese di Clusone in alta Val Seriana troviamo un Folletto locale molto pestifero. ... Squass, il cui passatempo preferito ... appostarsi a cavalcioni dei tronchi tagliati e ridere a crepapelle degli uomini ubriachi |
+| squasc-c08 | exact | www.terraorobica.net | Squass is described as an amusing character who often lands in tragicomic situations because he cannot resist sticking his head into every hole he sees. | Squass ... un simpatico personaggio che a causa della sua singolare abitudine si mette spesso in situazioni tragico comiche: non sa resistere e in ogni buco che vede ci deve ficcar la testa. |
 
 
 ## tante-arie — lulus-otomatis
@@ -720,10 +720,7 @@ Klaim 6 (exact 6), sumber 3, gambar 0.
 
 ## duberdicus — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -732,6 +729,13 @@ Klaim 5 (exact 5), sumber 3, gambar 0.
 | duberdicus-c03 | exact | pt.wikipedia.org | According to the Portuguese article, it has traditionally been read as a water deity, perhaps tied to rivers or springs. | Tradicionalmente, tem sido interpretado como uma divindade aquática, possivelmente associada a rios ou fontes. |
 | duberdicus-c04 | exact | pt.wikipedia.org | According to Alarcão, Duberdicus is rather a theonym tied to a particular fortification or defined territory. | Segundo o autor, Duberdicus seria antes um teónimo associado a uma fortificação específica ou a um espaço territorial definido. |
 | duberdicus-c05 | exact | el.wikipedia.org | The Greek article calls Duberdicus the god of springs and water in Lusitanian mythology. | Ο Ντουμπερντίκους (Πορτογαλικά:Duberdicus) ήταν ο θεός των πηγών και του νερού στη Λουζιτανική μυθολογία. |
+| duberdicus-c06 | exact | humanidadesdigitales.uc3m.es | An inscription from Ronfe reads "Celea / Clouti / deo D/urbed/ico ex v/oto p(osuit)", a votive offering to the god Durbedicus. | Celea / Clouti / deo D/urbed/ico ex v/oto p(osuit) |
+| duberdicus-c07 | exact | humanidadesdigitales.uc3m.es | According to the catalogue, the inscription is on an altar located in the tower of the church and is recorded as CIL II 5563. | Topographic context In the tower of the church. Support Altar CIL CIL II 5563 |
+| duberdicus-c08 | exact | www.csarmento.uminho.pt | Martins Sarmento discovered the granite altar dedicated to this deity in the tower of the church of Ronfe, Guimarães, in 1881. | Martins Sarmento descobriu a ara granítica dedicada a esta divindade na torre da igreja de Ronfe, Guimarães, em 1881. |
+| duberdicus-c09 | exact | www.csarmento.uminho.pt | The translation of the inscription names Celea, child of Cloutius, as making a vow to the god Durbedicus. | Celea, ilha de Cloutius, de boamente, por voto, ao mérito do deus Durbedicus. |
+| duberdicus-c10 | exact | www.csarmento.uminho.pt | Encarnação cites the view that the etymology explaining the name of the god Durbedicus proves he was a water deity. | A etimologia com que se pode explicar o nome do deus Durbedícus prova que era uma divindade das águas (...) |
+| duberdicus-c11 | exact | www.csarmento.uminho.pt | According to Encarnação, the attributions of this god are uncertain. | Em suma: são incertas as atribuições deste deus. |
+| duberdicus-c12 | exact | pt.wikipedia.org | The Portuguese Wikipedia article cites the entry "Durbedico" on page 894 of Inscriptionum Hispaniae Latinarum. | Inscriptionum Hispaniae Latinarum, p. 894 (entrada “Durbedico”) |
 
 
 ## follet — lulus-otomatis

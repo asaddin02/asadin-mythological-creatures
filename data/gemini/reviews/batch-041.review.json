@@ -1,31 +1,27 @@
 {
   "batch_id": "batch-041",
-  "checked_at": "2026-09-30T02:35:28.890Z",
+  "checked_at": "2026-10-06T14:11:59.489Z",
   "files": [
     "batch-041.md",
     "batch-041-fix-1.md",
     "batch-041-fix-2.md",
-    "batch-041-fix-3.md"
+    "batch-041-fix-3.md",
+    "batch-041-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "loki",
-      "file": "batch-041-fix-1.md",
+      "file": "batch-041-fix-4.md",
+      "entry_sha256": "102ab1f057b65ec72fd2438918fbb2abd14478486794f437361b82c80881e515",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 14,
-        "sources": 3,
+        "claims": 28,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 14 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "loki-c01",
@@ -141,9 +137,9 @@
           "id": "loki-c12",
           "source_id": "loki-s2",
           "host": "historiska.se",
-          "statement": "In the Freyja necklace story, Loki turns into a fly to enter her house.",
-          "statement_id": "Dalam cerita kalung Freyja, Loki berubah menjadi lalat untuk masuk ke rumahnya.",
-          "quote": "To get inside, Loki turned himself into a fly.",
+          "statement": "In the necklace story, Freyja's house was locked and Loki turned himself into a fly to get inside.",
+          "statement_id": "Dalam kisah kalung Freyja, rumah Freyja terkunci dan Loki berubah menjadi lalat untuk masuk.",
+          "quote": "But Freyja’s house was locked. To get inside, Loki turned himself into a fly.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -151,9 +147,9 @@
           "id": "loki-c13",
           "source_id": "loki-s2",
           "host": "historiska.se",
-          "statement": "Loki then turns into a flea and bites sleeping Freyja's cheek.",
-          "statement_id": "Loki lalu berubah menjadi pinjal dan menggigit pipi Freyja yang tidur.",
-          "quote": "He changed into a flea, bit her on the cheek, and waited until she turned in her sleep.",
+          "statement": "Loki changed into a flea, bit her cheek, waited until she turned in her sleep, then undid the clasp and took the necklace without waking her.",
+          "statement_id": "Loki berubah menjadi pinjal, menggigit pipinya, menunggu ia berbalik dalam tidurnya, lalu membuka kaitan dan membawa pergi kalung itu tanpa membangunkannya.",
+          "quote": "He changed into a flea, bit her on the cheek, and waited until she turned in her sleep. Then he undid the clasp, took the necklace, and left the house without waking her.",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -161,10 +157,150 @@
           "id": "loki-c14",
           "source_id": "loki-s3",
           "host": "historiska.se",
-          "statement": "To make Skadi laugh, Loki ties a rope between a goat's beard and his body.",
-          "statement_id": "Untuk membuat Skadi tertawa, Loki mengikat tali antara janggut kambing dan tubuhnya.",
-          "quote": "Loki then tied a rope to a goat’s beard and the other end to his testicles.",
+          "statement": "Skadi's condition was that the gods make her laugh; Loki then tied a rope to a goat's beard and the other end to his own body.",
+          "statement_id": "Skadi mensyaratkan para dewa membuatnya tertawa; Loki lalu mengikat seutas tali pada janggut kambing dan ujung lainnya pada tubuhnya.",
+          "quote": "Skadi herself set a further condition in order to forgo her revenge: the gods had to make her laugh. Loki then tied a rope to a goat’s beard and the other end to his testicles.",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "loki-c15",
+          "source_id": "loki-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In this translation of the Prose Edda, Loki is called the originator of deceit and the disgrace of all gods and men; his name is Loke, or Lopt.",
+          "statement_id": "Dalam terjemahan Edda Prosa ini, Loki disebut pencetus tipu daya dan aib bagi semua dewa dan manusia; namanya Loke atau Lopt.",
+          "quote": "He is the originator of deceit, and the disgrace of all gods and men. His name is Loke, or Lopt.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "loki-c16",
+          "source_id": "loki-s4",
+          "host": "www.gutenberg.org",
+          "statement": "The Prose Edda describes Loke as fair of face but evil in disposition and very fickle-minded.",
+          "statement_id": "Edda Prosa menggambarkan Loke berparas rupawan, tetapi berwatak jahat dan sangat labil.",
+          "quote": "Loke is fair and beautiful of face, but evil in disposition, and very fickle-minded.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "loki-c17",
+          "source_id": "loki-s4",
+          "host": "www.gutenberg.org",
+          "statement": "According to the Prose Edda, Loke has often brought the asas into great trouble and often helped them out again with his cunning contrivances.",
+          "statement_id": "Menurut Edda Prosa, Loke sering menjerumuskan para asa ke dalam kesulitan besar dan sering pula menolong mereka keluar lewat tipu dayanya.",
+          "quote": "He has often brought the asas into great trouble, and often helped them out again, with his cunning contrivances.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "loki-c18",
+          "source_id": "loki-s4",
+          "host": "www.gutenberg.org",
+          "statement": "The Prose Edda names Byleist and Helblinde as Loke's brothers.",
+          "statement_id": "Edda Prosa menyebut saudara-saudara Loke adalah Byleist dan Helblinde.",
+          "quote": "His brothers are Byleist and Helblinde.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "loki-c19",
+          "source_id": "loki-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In the story of the builder, a frightened Loke swears an oath that he will make the builder lose his wages.",
+          "statement_id": "Dalam kisah pembangun benteng, Loke yang ketakutan bersumpah akan membuat si pembangun kehilangan upahnya.",
+          "quote": "He in his fright then promised with an oath that he should so manage that the builder should lose his wages, let it cost him what it would.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "loki-c20",
+          "source_id": "loki-s4",
+          "host": "www.gutenberg.org",
+          "statement": "After racing with Svadilfare, Loke bore a gray foal with eight feet, the best horse among gods and men.",
+          "statement_id": "Setelah berlomba dengan Svadilfare, Loke melahirkan anak kuda abu-abu berkaki delapan, kuda terbaik di antara dewa dan manusia.",
+          "quote": "But Loke had run such a race with Svadilfare that he some time after bore a foal. It was gray, and had eight feet, and this is the best horse among gods and men.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "loki-c21",
+          "source_id": "loki-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Hoder shot Balder with the mistletoe under Loke's guidance; the dart pierced him and he fell dead.",
+          "statement_id": "Hoder menembak Balder dengan tangkai mistletoe di bawah arahan Loke; panah itu menembusnya dan ia jatuh tewas.",
+          "quote": "Hoder took the mistletoe and shot at Balder under the guidance of Loke. The dart pierced him and he fell dead to the ground.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "loki-c22",
+          "source_id": "loki-s4",
+          "host": "www.gutenberg.org",
+          "statement": "After Balder's death, Loke often took the likeness of a salmon by day and hid in Frananger Force.",
+          "statement_id": "Setelah kematian Balder, Loke sering di siang hari berwujud salmon dan bersembunyi di air terjun Frananger.",
+          "quote": "Oftentimes in the daytime he took on him the likeness of a salmon and concealed himself in Frananger Force.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "loki-c23",
+          "source_id": "loki-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Loke was finally taken without truce and brought to a cave.",
+          "statement_id": "Loke akhirnya ditangkap tanpa gencatan dan dibawa ke sebuah gua.",
+          "quote": "Now Loke was taken without truce and was brought to a cave.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "loki-c24",
+          "source_id": "loki-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In the Prose Edda, Loke twists so violently that the whole earth shakes, which is called earthquakes, and he lies bound there until Ragnarok.",
+          "statement_id": "Dalam Edda Prosa, Loke menggeliat sampai seluruh bumi bergetar, yang disebut gempa bumi, dan ia terikat di sana sampai Ragnarok.",
+          "quote": "Then he twists his body so violently that the whole earth shakes, and this you call earthquakes. There he will lie bound until Ragnarok.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "loki-c25",
+          "source_id": "loki-s4",
+          "host": "www.gutenberg.org",
+          "statement": "At Ragnarok, Loke comes to the battle plain with Hrym and all the frost-giants.",
+          "statement_id": "Pada Ragnarok, Loke datang ke dataran pertempuran bersama Hrym dan semua raksasa es.",
+          "quote": "To this place have also come Loke and Hrym, and with him all the frost-giants.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "loki-c26",
+          "source_id": "loki-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In the Prose Edda, Loke fights Heimdal and they kill each other.",
+          "statement_id": "Dalam Edda Prosa, Loke bertarung dengan Heimdal dan keduanya saling membunuh.",
+          "quote": "Loke fights with Heimdal, and they kill each other.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "loki-c27",
+          "source_id": "loki-s4",
+          "host": "www.gutenberg.org",
+          "statement": "At the agreed time, Loke coaxed Idun out of Asgard into a forest, saying he had found very nice apples.",
+          "statement_id": "Pada waktu yang dijanjikan, Loke membujuk Idun keluar dari Asgard ke hutan dengan alasan telah menemukan apel yang bagus.",
+          "quote": "But at the time agreed upon, Loke coaxed Idun out of Asgard into a forest, saying that he had found apples that she would think very nice",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "loki-c28",
+          "source_id": "loki-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Loke turned Idun into the likeness of a nut, held her in his claws and flew with all his might.",
+          "statement_id": "Loke mengubah Idun menjadi rupa kacang, mencengkeramnya dengan cakar, dan terbang secepat mungkin.",
+          "quote": "Loke turned her into the likeness of a nut, held her in his claws and flew with all his might.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -172,20 +308,15 @@
     },
     {
       "slug": "pluto-q152262",
-      "file": "batch-041.md",
+      "file": "batch-041-fix-4.md",
+      "entry_sha256": "37530e4e10922b57a507f952eb3b88533f62a934384192e016b1e530c42f7d0e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 13,
+        "claims": 25,
         "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 13 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "pluto-q152262-c01",
@@ -314,6 +445,126 @@
           "statement": "In Ovid's version, Proserpina spends six months with her mother and six with her husband.",
           "statement_id": "Dalam versi Ovid, Proserpina menghabiskan enam bulan bersama ibunya dan enam bulan bersama suaminya.",
           "quote": "for six months with her mother she abides, and six months with her husband.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "pluto-q152262-c14",
+          "source_id": "pluto-q152262-s2",
+          "host": "www.theoi.com",
+          "statement": "Theoi says Hades, Pluto's Greek counterpart, presided over funeral rites and defended the right of the dead to due burial.",
+          "statement_id": "Theoi menyebut Hades, padanan Pluto dalam mitologi Yunani, memimpin upacara pemakaman dan membela hak orang mati atas penguburan yang layak.",
+          "quote": "He presided over funeral rites and defended the right of the dead to due burial.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "pluto-q152262-c15",
+          "source_id": "pluto-q152262-s2",
+          "host": "www.theoi.com",
+          "statement": "Theoi says Hades was also the god of the hidden wealth of the earth.",
+          "statement_id": "Theoi menyebut Hades juga sebagai dewa kekayaan tersembunyi di dalam bumi.",
+          "quote": "Haides was also the god of the hidden wealth of the earth",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "pluto-q152262-c16",
+          "source_id": "pluto-q152262-s2",
+          "host": "www.theoi.com",
+          "statement": "When the three victorious brothers drew lots for the division of the cosmos, Hades received the third portion, the dark dismal realm of the underworld.",
+          "statement_id": "Ketika tiga bersaudara pemenang mengundi pembagian kosmos, Hades menerima bagian ketiga, yaitu dunia bawah yang gelap dan suram.",
+          "quote": "When the three victorious brothers then drew lots for the division of the cosmos, Haides received the third portion, the dark dismal realm of the underworld, as his domain.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "pluto-q152262-c17",
+          "source_id": "pluto-q152262-s2",
+          "host": "www.theoi.com",
+          "statement": "Hades was depicted as a dark-bearded, regal god.",
+          "statement_id": "Hades digambarkan sebagai dewa berjanggut gelap dan berwibawa seperti raja.",
+          "quote": "Haides was depicted as a dark-bearded, regal god.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "pluto-q152262-c18",
+          "source_id": "pluto-q152262-s2",
+          "host": "www.theoi.com",
+          "statement": "Hades's character is described as fierce and inexorable, so that of all the gods he was most hated by mortals.",
+          "statement_id": "Karakter Hades digambarkan garang dan tak kenal ampun, sehingga di antara semua dewa ia paling dibenci manusia.",
+          "quote": "His character is described as fierce and inexorable, whence of all the gods he was most hated by mortals.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pluto-q152262-c19",
+          "source_id": "pluto-q152262-s2",
+          "host": "www.theoi.com",
+          "statement": "Hades kept the gates of the lower world closed.",
+          "statement_id": "Hades menjaga gerbang dunia bawah tetap tertutup.",
+          "quote": "He kept the gates of the lower world closed",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pluto-q152262-c20",
+          "source_id": "pluto-q152262-s2",
+          "host": "www.theoi.com",
+          "statement": "Because she had tasted the pomegranate seed, she was forced to return to Hades for a portion of each year.",
+          "statement_id": "Karena telah mencicipi biji delima, ia terpaksa kembali kepada Hades selama sebagian tiap tahun.",
+          "quote": "However, since she had tasted of the pomegranate seed, she was forced to return to him for a portion of each year.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "pluto-q152262-c21",
+          "source_id": "pluto-q152262-s2",
+          "host": "www.theoi.com",
+          "statement": "Herakles requested Kerberos from Plouton, who told him to take the hound provided he subdued it without the weapons he had brought.",
+          "statement_id": "Herakles meminta Kerberos kepada Plouton, yang menyuruhnya membawa anjing itu jika ia sanggup menaklukkannya tanpa senjata yang ia bawa.",
+          "quote": "Herakles asked Plouton (Pluton) [Haides] for Kerberos (Cerberus), and was told to take the hound if he could overpower it without using any of the weapons he had brought with him.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "pluto-q152262-c22",
+          "source_id": "pluto-q152262-s3",
+          "host": "www.theoi.com",
+          "statement": "In Ovid's Metamorphoses, Cupid's arrow strikes Pluto in the breast.",
+          "statement_id": "Dalam Metamorphoses karya Ovid, anak panah Cupid mengenai dada Pluto.",
+          "quote": "The flying shaft struck Pluto in the breast.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "pluto-q152262-c23",
+          "source_id": "pluto-q152262-s3",
+          "host": "www.theoi.com",
+          "statement": "In the Metamorphoses, Proserpine is seen and carried off by Pluto in the haste of sudden love.",
+          "statement_id": "Dalam Metamorphoses, Proserpine dilihat dan dibawa pergi oleh Pluto dalam tergesa cinta yang mendadak.",
+          "quote": "and carried off by Pluto—such the haste of sudden love.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "pluto-q152262-c24",
+          "source_id": "pluto-q152262-s3",
+          "host": "www.theoi.com",
+          "statement": "In the Metamorphoses, the smitten earth makes way to Tartarus.",
+          "statement_id": "Dalam Metamorphoses, bumi yang terhantam membuka jalan menuju Tartarus.",
+          "quote": "The smitten earth made way to Tartarus;",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "pluto-q152262-c25",
+          "source_id": "pluto-q152262-s3",
+          "host": "www.theoi.com",
+          "statement": "In the Metamorphoses, Proserpine chews seven grains picked from the pallid rind.",
+          "statement_id": "Dalam Metamorphoses, Proserpine mengunyah tujuh butir yang dipetik dari kulit yang pucat.",
+          "quote": "and chewed seven grains, picked from the pallid rind;",
           "context": "religious-tradition",
           "status": "exact"
         }
@@ -492,7 +743,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "809f7734e0fba38bb2ce28d665c4cc050b24ba1a1a0a0f7f038ec0b26b7013f8"
     },
     {
       "slug": "lilith",
@@ -656,7 +908,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7927ea2cf8e2ae67c76527acc90bdaa70646d70e73c44808f2f6e5ad7f6fdd92"
     },
     {
       "slug": "ahura-mazda",
@@ -826,7 +1079,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "56bd03cd14f8912852cb9db9c9f04c557cc05ad5ba1f9ba3cb3266a31e00f768"
     }
   ]
 }

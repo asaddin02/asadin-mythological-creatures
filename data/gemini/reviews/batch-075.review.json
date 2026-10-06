@@ -1,11 +1,12 @@
 {
   "batch_id": "batch-075",
-  "checked_at": "2026-10-02T00:15:36.746Z",
+  "checked_at": "2026-10-06T15:24:10.195Z",
   "files": [
     "batch-075.md",
     "batch-075-fix-1.md",
     "batch-075-fix-2.md",
-    "batch-075-fix-3.md"
+    "batch-075-fix-3.md",
+    "batch-075-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -82,7 +83,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0395503e2e9aeeab841d1979413269e5cf3512a4df4b548b13b61984bf556471"
     },
     {
       "slug": "macchanu",
@@ -156,7 +158,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "40e1a756b833218e994a83540d2231aa3de8579ff564f0ce847fd1bfc26da2ea"
     },
     {
       "slug": "mahishi-demoness",
@@ -230,24 +233,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "47f96f65835917240a72f6e70bdeba43e5bb378caf48924231c380ec5f802e58"
     },
     {
       "slug": "meitei-dragons",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-4.md",
+      "entry_sha256": "cc67139ade2cd441a28815ef5de9da2a254d2a5cbf729776ef27447e4c5f7daa",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 16,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "meitei-dragons-c01",
@@ -263,8 +262,8 @@
           "id": "meitei-dragons-c02",
           "source_id": "meitei-dragons-s2",
           "host": "books.e-pao.net",
-          "statement": "Khelchandra Singh describes Pakhangba as the god king of Manipur in local belief.",
-          "statement_id": "Khelchandra Singh menggambarkan Pakhangba sebagai raja-dewa Manipur dalam kepercayaan setempat.",
+          "statement": "The source says historical records have given Pakhangba a credulous halo as the God-king of Manipur.",
+          "statement_id": "Sumber ini menyebut bahwa catatan sejarah memberi 'lingkar kemuliaan' yang dipercaya untuk memuliakan Pakhangba sebagai raja-dewa Manipur.",
           "quote": "historical records have rendered a credulous halo to glorify Pakhangba as a God-king of Manipur",
           "context": "historical-record",
           "status": "exact"
@@ -273,8 +272,8 @@
           "id": "meitei-dragons-c03",
           "source_id": "meitei-dragons-s2",
           "host": "books.e-pao.net",
-          "statement": "In that account he can move as a dragon at night.",
-          "statement_id": "Dalam penuturan itu, ia dapat bergerak sebagai naga pada malam hari.",
+          "statement": "Because of his divine power to move about at night as a dragon, he is also known as Sanahing Pakhangba.",
+          "statement_id": "Karena kekuatan ilahinya untuk bergerak pada malam hari sebagai naga, ia juga dikenal sebagai Sanahing Pakhangba.",
           "quote": "Because of his divine power to be able to move about at night as dragon he is also known as Sanahing Pakhangba.",
           "context": "historical-record",
           "status": "exact"
@@ -286,6 +285,126 @@
           "statement": "Manipur's kings use the dragon image as royal insignia.",
           "statement_id": "Raja-raja Manipur menggunakan citra naga sebagai lambang kerajaan.",
           "quote": "And all Rajas of Manipur have since used the dragon ... to represent the royal insignia.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "meitei-dragons-c05",
+          "source_id": "meitei-dragons-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Kangla Sha is a guardian dragon lion that safeguards the Kangla Palace and is usually depicted in pairs.",
+          "statement_id": "Kangla Sha adalah naga-singa penjaga yang melindungi Istana Kangla dan biasanya digambarkan berpasangan.",
+          "quote": "Kangla Sha is the Guardian dragon lion, safeguarding the Kangla Palace. Kangla Sha are usually depicted in pairs.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "meitei-dragons-c06",
+          "source_id": "meitei-dragons-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Pakhangba is the youngest son of the supreme mother earth goddess Leimarel Sidabi; his father Atingkok gave him the throne of the universe to protect and rule the world, and he could change himself into both a serpentine dragon and a human.",
+          "statement_id": "Pakhangba adalah putra bungsu Leimarel Sidabi, dewi ibu bumi tertinggi; ayahnya Atingkok memberinya takhta alam semesta untuk melindungi dan memerintah dunia, dan ia dapat mengubah dirinya menjadi naga berbentuk ular maupun manusia.",
+          "quote": "Pakhangba is the youngest son of Leimarel Sidabi, the supreme mother earth goddess. He was given the throne of the universe to protect and rule the world by Atingkok, his father. He could change himself into both a serpentine dragon and a human.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "meitei-dragons-c07",
+          "source_id": "meitei-dragons-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Nongshaba, the dragon lion, is a child of Atingkok, the Supreme Being; unlike his siblings he always remains in the form of the mythical beast rather than that of a God (human figure).",
+          "statement_id": "Nongshaba, sang naga-singa, adalah anak Atingkok, Sang Maha Tinggi; berbeda dari saudara-saudaranya, ia selalu tetap berwujud makhluk mitos, bukan wujud dewa (manusia).",
+          "quote": "Nongshaba, the dragon lion, is a child of Atingkok, the Supreme Being. Unlike his siblings, he always remains in the form of the mythical beast rather than that of a God (human figure).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "meitei-dragons-c08",
+          "source_id": "meitei-dragons-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Poubi Lai is the tyrant dragon serpent of the primitive Loktak Lake, a popular figure in Meitei folklore and mythology.",
+          "statement_id": "Poubi Lai adalah naga-ular tiran dari Danau Loktak purba dan tokoh populer dalam cerita rakyat dan mitologi Meitei.",
+          "quote": "Poubi Lai is the tyrant dragon serpent of the primitive Loktak Lake. This huge dragon is a popular figure in Meitei folklore and mythology.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "meitei-dragons-c09",
+          "source_id": "meitei-dragons-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Taoroinai is a mythical dragon serpent that lives in the cosmic ocean and is known for bringing the divine celestial egg (nonglum) down to earth.",
+          "statement_id": "Taoroinai adalah naga-ular mitos yang hidup di samudra kosmik dan dikenal karena menurunkan telur langit ilahi (nonglum) ke bumi.",
+          "quote": "Taoroinai (Old Manipuri: Taoloinai) is a mythical dragon serpent, who lives in the cosmic ocean. It is known for bringing down the divine celestial egg (nonglum) down to earth.",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "meitei-dragons-c10",
+          "source_id": "meitei-dragons-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Hiyang Hiren is a well-furnished race boat, often built in the shape of a dragon, and many legends say it possesses spiritual powers.",
+          "statement_id": "Hiyang Hiren adalah perahu pacu yang dihias lengkap, sering dibuat berbentuk naga, dan banyak legenda menyebutnya memiliki kekuatan spiritual.",
+          "quote": "The Hiyang Hiren (Old Manipuri: Hiyang Hilen) is a well furnished race boat. This is often built in the shape of a dragon. Many legends say that it possesses spiritual powers.",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "meitei-dragons-c11",
+          "source_id": "meitei-dragons-s3",
+          "host": "archive.org",
+          "statement": "According to this source, legends have grown up around Pakhangba declaring that he had the power of changing his shape into that of a snake.",
+          "statement_id": "Menurut sumber ini, di sekitar tokoh Pakhangba tumbuh legenda yang menyatakan ia memiliki kekuatan mengubah wujudnya menjadi ular.",
+          "quote": "Around the personage of Pakhangba legends have grown up which declare him to have had the power of changing his shape into that of a snake",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "meitei-dragons-c12",
+          "source_id": "meitei-dragons-s3",
+          "host": "archive.org",
+          "statement": "According to this source, Pakhangba, ancestor of the Ningthaja clan, is believed to still sometimes appear to men in the form of a snake.",
+          "statement_id": "Menurut sumber ini, Pakhangba, leluhur klan Ningthaja, dipercaya masih kadang menampakkan diri kepada manusia dalam wujud ular.",
+          "quote": "In the case of the ancestor of the Ningthaja clan, Pakhangba, we have the curious superstition that he still sometimes appears to men, but in the form of a snake",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "meitei-dragons-c13",
+          "source_id": "meitei-dragons-s3",
+          "host": "archive.org",
+          "statement": "In an older account quoted in this source, the snake sometimes appears of great size, taken as a sign of displeasure, while a diminutive form is a sign that it is in good humour.",
+          "statement_id": "Dalam kutipan catatan lama di sumber ini, ular itu kadang tampak sangat besar, yang dianggap tanda ia tidak senang; selama tetap kecil, itu tanda suasana hatinya baik.",
+          "quote": "This snake appears, they say, sometimes of great size, and when he does so it is indicative of his being displeased with something. But as long as he remains of diminutive form it is a sign that he is in good humour.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "meitei-dragons-c14",
+          "source_id": "meitei-dragons-s3",
+          "host": "archive.org",
+          "statement": "In an older account quoted in this source, the Raja's peculiar god is a species of snake called Pakung-ba from which the royal family claims descent; when it appears the priestess coaxes it onto a cushion and performs ceremonies to please it.",
+          "statement_id": "Dalam kutipan catatan lama di sumber ini, dewa khusus raja adalah sejenis ular bernama Pakung-ba yang diklaim sebagai leluhur keluarga kerajaan; saat muncul, ia dibujuk naik ke bantal oleh pendeta perempuan yang melakukan upacara untuk menyenangkannya.",
+          "quote": "The Raja’s peculiar god is a species of snake called Pakung-ba, from which the Royal family claims descent. When it appears it is coaxed on to a cushion by the priestess in attendance, who then performs certain ceremonies to please it.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "meitei-dragons-c15",
+          "source_id": "meitei-dragons-s3",
+          "host": "archive.org",
+          "statement": "According to this source, the place of execution was in front of the stone Dragons (the Nongsha), which stood before the Kangla or Coronation Hall, or under a tree on the bank of the Nambol river.",
+          "statement_id": "Menurut sumber ini, tempat eksekusi ialah di depan naga-naga batu (Nongsha) yang berdiri di depan Kangla atau Balai Penobatan, atau di bawah pohon di tepi sungai Nambol.",
+          "quote": "The place of execution was either in front of the stone Dragons (the Nongsha), which stood before the Kangla or Coronation Hall, or under a tree on the bank of the Nambol river.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "meitei-dragons-c16",
+          "source_id": "meitei-dragons-s2",
+          "host": "books.e-pao.net",
+          "statement": "According to this source, Kangla-Sha (twin-horned dragon) used to be a myth-associated icon of Manipur's kings, and its sculptured statues at the entrance of the royal palace were a place of pride for all royal ceremonies.",
+          "statement_id": "Menurut sumber ini, Kangla-Sha (naga bertanduk dua) dahulu menjadi lambang yang dikaitkan dengan mitos para raja Manipur; patung-patungnya di pintu masuk istana kerajaan menjadi tempat kehormatan bagi semua upacara kerajaan.",
+          "quote": "Yet another myth-associated icon of Manipur kings used to be Kangla-Sha (twin-horned dragon as shown in an actual photograph published in T.C.Hodson's The Meitheis (1908) (Photoplate:2-4) whose sculptured statues at the entrance of the royal Palace (UTTARA) used to be the place of pride (holiest of holy) for all royal ceremonies",
           "context": "historical-record",
           "status": "exact"
         }
@@ -364,24 +483,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d9884a585e331df6a977cbf2804ff884e425290267e2813c3dac56b61a4558ad"
     },
     {
       "slug": "poubi-lai",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-4.md",
+      "entry_sha256": "78d98e8c4db21721a73947b88951a5e75257e6dd3832ce8a490e1e718f52ec11",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "poubi-lai-c01",
@@ -432,34 +547,89 @@
           "quote": "Poubi Lai (Paobirai) is mentioned in the ancient Meitei manuscript called the \"Khongul Lirakpa\".",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "poubi-lai-c06",
+          "source_id": "poubi-lai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When it was a young man's turn, he sought help from Kabui Salang Maiba (or 'Kabui Tomba'), a shaman priest king of the Kabui tribe in the Salangthel hill range of Loktak Lake, who promised to save the kingdom from the gigantic evil creature.",
+          "statement_id": "Ketika giliran seorang pemuda tiba, ia meminta pertolongan Kabui Salang Maiba (atau 'Kabui Tomba'), seorang maiba (dukun-pendeta) sekaligus raja suku Kabui di pegunungan Salangthel di Danau Loktak, yang berjanji menyelamatkan kerajaan dari makhluk raksasa jahat itu.",
+          "quote": "When it was the turn of a young man, the lad sought help from Kabui Salang Maiba (or \"Kabui Tomba\"). The maiba was a shaman priest king of Kabui tribe in the Salangthel hill range of the Loktak lake. He promised to save the kingdom from the gigantic evil creature.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "poubi-lai-c07",
+          "source_id": "poubi-lai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The maiba transformed a Tou plant (an aquatic plant), or a Khok Waa bamboo plant in another version, into a powerful 'Long' (a 9-pointed javelin), and later slew Poubi Lai with that deadly weapon.",
+          "statement_id": "Sang maiba mengubah tanaman Tou (tanaman air), atau bambu Khok Waa dalam versi lain, menjadi 'Long' yang ampuh (lembing bermata sembilan), lalu membunuh Poubi Lai dengan senjata mematikan itu.",
+          "quote": "He transformed a Tou plant (an aquatic plant) (or a Khok Waa bamboo plant in another version) into a powerful \"Long\" (a 9 pointed javelin). Later, the maiba slayed Poubi Lai with the deadly weapon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "poubi-lai-c08",
+          "source_id": "poubi-lai-s2",
+          "host": "e-pao.net",
+          "statement": "In 2002 the wood-carver Karam Dineshwar Singh conceived and chiselled a 21-foot-long artwork which found expression from a dream he had of Poubi Lai one night.",
+          "statement_id": "Pada 2002, pemahat kayu Karam Dineshwar Singh mewujudkan karya sepanjang 21 kaki yang bermula dari mimpinya tentang Poubi Lai pada suatu malam.",
+          "quote": "Conceived and chiseled by (late) wood-carver Karam Dineshwar Singh, who was one of the successors of the royal family-associated Karigar craftspeople, the 21-foot-long artwork found expression in 2002 from a dream he had of Poubi Lai one night.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "poubi-lai-c09",
+          "source_id": "poubi-lai-s2",
+          "host": "e-pao.net",
+          "statement": "The sculpture was completed in six months and had its inaugural exhibition the same year at the Manipur State Museum in Imphal, according to museum sources.",
+          "statement_id": "Patung itu selesai dalam enam bulan dan pameran perdananya diadakan pada tahun yang sama di Museum Negara Bagian Manipur di Imphal, menurut sumber museum.",
+          "quote": "Completed in six months, the sculpture had its inaugural exhibition the same year at Manipur State Museum in Imphal, Museum sources said.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "poubi-lai-c10",
+          "source_id": "poubi-lai-s2",
+          "host": "e-pao.net",
+          "statement": "According to art historians, this sculpture was the first of its kind to draw a large audience to watch live presentations of Poubi Lai, previously heard of only in stories; the work has also travelled to France for an exhibition.",
+          "statement_id": "Menurut para sejarawan seni, patung ini yang pertama jenisnya yang menarik perhatian khalayak luas untuk menyaksikan penampilan langsung Poubi Lai yang sebelumnya hanya didengar dalam cerita; karya ini juga pernah dibawa ke Prancis untuk pameran.",
+          "quote": "Art historians note that this sculpture was the first of its kind to draw the attention of a large audience and watch the live presentations of Poubi Lai about which they have ever heard only in stories. The work has travelled to France for an exhibition.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "poubi-lai-c11",
+          "source_id": "poubi-lai-s2",
+          "host": "e-pao.net",
+          "statement": "On 21 July 2015 a single-object exhibition entitled 'Poubi Lai-The story of a giant python' was inaugurated at the National Museum in New Delhi.",
+          "statement_id": "Pada 21 Juli 2015, sebuah pameran satu objek berjudul 'Poubi Lai-The story of a giant python' diresmikan di Museum Nasional, New Delhi.",
+          "quote": "New Delhi, July 21 2015 : The Additional Secretary of Ministry of Culture, KK Mittal today inaugurated the single object exhibition entitled 'Poubi Lai-The story of a giant python' at the National Museum here.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "buru-legendary-creature",
-      "file": "batch-075-fix-1.md",
+      "file": "batch-075-fix-4.md",
+      "entry_sha256": "1282b8329d2496d8a121f7fc185f928de5ab50ec0a45b4c7b2c83054a892c56c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "buru-legendary-creature-c01",
           "source_id": "buru-legendary-creature-s1",
           "host": "en.wikipedia.org",
-          "statement": "Buru is a crocodilelike aquatic creature in the Apatani foundation myth of Arunachal Pradesh.",
-          "statement_id": "Buru adalah makhluk air mirip buaya dalam mitos asal-usul masyarakat Apatani di Arunachal Pradesh.",
-          "quote": "The buru or bura is an aquatic cryptic animal featured in a foundation myth of the Apatani people. Stories of the migration of the Apatani to their present location in the Ziro Valley of Arunachal Pradesh tell of a swamp occupying the valley, inhabited by fierce, crocodile-like creatures.",
+          "statement": "The buru or bura is an aquatic cryptic animal featured in a foundation myth of the Apatani people.",
+          "statement_id": "Buru atau bura adalah hewan kriptik akuatik yang muncul dalam mitos asal-usul masyarakat Apatani.",
+          "quote": "The buru or bura is an aquatic cryptic animal featured in a foundation myth of the Apatani people.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -467,9 +637,9 @@
           "id": "buru-legendary-creature-c02",
           "source_id": "buru-legendary-creature-s1",
           "host": "en.wikipedia.org",
-          "statement": "Migration stories place it in the Ziro Valley swamp before the land was drained for rice fields.",
-          "statement_id": "Kisah migrasi menempatkannya di rawa Lembah Ziro sebelum kawasan itu dikeringkan untuk sawah.",
-          "quote": "The buru or bura is an aquatic cryptic animal featured in a foundation myth of the Apatani people. Stories of the migration of the Apatani to their present location in the Ziro Valley of Arunachal Pradesh tell of a swamp occupying the valley, inhabited by fierce, crocodile-like creatures.",
+          "statement": "Stories of the Apatani migration to the Ziro Valley in Arunachal Pradesh tell of a swamp occupying the valley, inhabited by fierce, crocodile-like creatures.",
+          "statement_id": "Kisah migrasi masyarakat Apatani ke Lembah Ziro di Arunachal Pradesh menceritakan rawa yang menempati lembah itu dan dihuni makhluk-makhluk ganas mirip buaya.",
+          "quote": "Stories of the migration of the Apatani to their present location in the Ziro Valley of Arunachal Pradesh tell of a swamp occupying the valley, inhabited by fierce, crocodile-like creatures.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -492,26 +662,81 @@
           "quote": "The burus were ostensibly eliminated when the Apatani people drained the wetlands to facilitate rice cultivation. Most of the burus died because of the drainage, and many supposedly went underground into the springs.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "buru-legendary-creature-c05",
+          "source_id": "buru-legendary-creature-s2",
+          "host": "iris.unive.it",
+          "statement": "According to the abstract of this study, the buru is a mythical figure, a kind of animal-chimaera, that plays a key role in the myth of the origins of the Apatani.",
+          "statement_id": "Menurut abstrak kajian ini, buru adalah tokoh mitos berupa semacam hewan-kimera yang berperan kunci dalam mitos asal-usul masyarakat Apatani.",
+          "quote": "the study aims to explain the symbolisms and functions inherent in the mythical figure of the buru, a kind of animal-chimaera, which plays a key role in the myth of the origins of the Apatani.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "buru-legendary-creature-c06",
+          "source_id": "buru-legendary-creature-s2",
+          "host": "iris.unive.it",
+          "statement": "According to the abstract, the misinterpretation of the British expedition in the 1950s gave rise to beliefs that today (mostly in the West) aim to prove the real existence of the buru, extrapolating it from the folklore record.",
+          "statement_id": "Menurut abstrak kajian ini, salah tafsir atas ekspedisi Inggris pada 1950-an melahirkan sejumlah keyakinan yang di zaman sekarang (kebanyakan di Barat) berusaha membuktikan keberadaan nyata buru dengan mencabutnya dari catatan cerita rakyat.",
+          "quote": "The misinterpretation of the British expedition in the 1950s gave rise to a series of beliefs that in contemporary times (mostly in the West) have aimed to prove the real existence of the buru, extrapolating it from the folklore record.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "buru-legendary-creature-c07",
+          "source_id": "buru-legendary-creature-s2",
+          "host": "iris.unive.it",
+          "statement": "According to the abstract, for this reason the buru has today become a sort of post-modern legend, or better a classical figure of cryptozoology, understood as pseudoscience and a sub-cultural product.",
+          "statement_id": "Menurut abstrak kajian ini, karena itu buru kini menjadi semacam legenda pascamodern, atau lebih tepatnya tokoh klasik kriptozoologi yang dipahami sebagai pseudosains dan produk subkultur.",
+          "quote": "For this reason today the buru has become a sort of post-modern legend, or better a classical figure of cryptozoology, understood as pseudoscience and sub-cultural product.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "buru-legendary-creature-c08",
+          "source_id": "buru-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1947 Professor Christoph von Furer-Haimendorf was another westerner told about the buru; by then the animals had reportedly already become extinct in the valley.",
+          "statement_id": "Pada 1947, Profesor Christoph von Furer-Haimendorf menjadi orang Barat lain yang diberi tahu tentang buru; saat itu hewan tersebut dilaporkan sudah punah di lembah itu.",
+          "quote": "In 1947, Professor Christoph von Furer-Haimendorf was another westerner to be told about the buru. By that time, the animals had reportedly already become extinct in the valley.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "buru-legendary-creature-c09",
+          "source_id": "buru-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the stories, draining the swamp and destroying the creatures allowed the Apatani to cultivate fertile paddy fields and settle the valley.",
+          "statement_id": "Menurut kisah-kisah itu, pengeringan rawa dan pemusnahan makhluk-makhluk tersebut memungkinkan masyarakat Apatani menggarap sawah yang subur dan menetap di lembah.",
+          "quote": "Draining the swamp and destroying the creatures allowed them to cultivate fertile paddy fields and settle the valley.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "buru-legendary-creature-c10",
+          "source_id": "buru-legendary-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Apatani elders, the Apatani decided to settle in the valley because of its fertility and good climate, and would occasionally have confrontations with burus.",
+          "statement_id": "Menurut penuturan tetua Apatani, mereka memutuskan menetap di lembah karena kesuburan dan iklimnya yang baik, dan sesekali berhadapan dengan buru.",
+          "quote": "The Apatani people decided to settle in the valley because of its fertility and good climate. They would occasionally have confrontations with burus.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "hatsadiling",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-4.md",
+      "entry_sha256": "76c73fe9b7edc525dc7f12e8ebccf8b352146ea71efbee2711a0de036bd07aba",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hatsadiling-c01",
@@ -572,26 +797,91 @@
           "quote": "Buddhaghoṣa mentions it as an animal which possesses the strength of five elephants.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "hatsadiling-c07",
+          "source_id": "hatsadiling-s2",
+          "host": "so01.tci-thaijo.org",
+          "statement": "According to the paper's abstract, a characteristic of the Hatsadiling bird is its big shape and being as powerful as five elephants; it is said to have originated in the good land of the so-called moral people, the Uttarakuru Continent.",
+          "statement_id": "Menurut abstrak makalah ini, ciri burung Hatsadiling ialah tubuhnya yang besar dan kekuatannya yang setara lima gajah; ia dikatakan berasal dari tanah yang baik milik orang-orang bermoral, Benua Uttarakuru.",
+          "quote": "A characteristic of the Hatsadiling Bird is its big shape and being as powerful as five elephants. It is said to have originated in the good land of the so-called moral people, Uttarakuru Continent.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hatsadiling-c08",
+          "source_id": "hatsadiling-s2",
+          "host": "so01.tci-thaijo.org",
+          "statement": "According to the paper's abstract, the Buddhist texts and literature only mention the bird's big shape and five elephants' worth of power, and that it took people away because it thought they were victims, with no intention of harm.",
+          "statement_id": "Menurut abstrak makalah ini, teks dan sastra Buddhis hanya menyebut tubuh burung yang besar dan kekuatan setara lima gajah, serta bahwa burung itu membawa pergi orang karena mengira mereka mangsa, tanpa niat mencelakai.",
+          "quote": "The Buddhist texts and literature only mention the bird’s characteristic big shape and having five elephants worth of power, and that the bird took people away because it thought that people were victims, but it had no intention of harm.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hatsadiling-c09",
+          "source_id": "hatsadiling-s2",
+          "host": "so01.tci-thaijo.org",
+          "statement": "According to the paper's abstract, Hatsadiling appears in the Tipitaka and many Atthakathas (Commentaries), including Buddhist literature such as Tom-nan Mun Sasana (The Legend of Original Religion).",
+          "statement_id": "Menurut abstrak makalah ini, Hatsadiling muncul dalam Tipitaka dan banyak Atthakatha (komentar), termasuk karya sastra Buddhis seperti Tom-nan Mun Sasana (Legenda Agama Asal).",
+          "quote": "The results reveal that Hatsadiling appears in Tipitaka and many Atthakathas (Commentaries), including Buddhist literatures such as Tom-nan Mun Sasana (The Legend of Original Religion),",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hatsadiling-c10",
+          "source_id": "hatsadiling-s2",
+          "host": "so01.tci-thaijo.org",
+          "statement": "According to the paper's abstract, these concepts have influenced paintings and sculptures of the Hatsadiling Bird Castle at crematoriums.",
+          "statement_id": "Menurut abstrak makalah ini, gagasan-gagasan tersebut memengaruhi lukisan dan patung Istana Burung Hatsadiling di krematorium.",
+          "quote": "These concepts have influenced paintings and sculptures of Hatsadiling Bird Castle at crematoriums",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hatsadiling-c11",
+          "source_id": "hatsadiling-s2",
+          "host": "so01.tci-thaijo.org",
+          "statement": "According to the paper's abstract, an imagination of special shapes was added to the concept, including Pritsanā Tham to remember the goodness of the dead and to transmit them to be born in heaven.",
+          "statement_id": "Menurut abstrak makalah ini, ke dalam konsep itu ditambahkan imajinasi tentang bentuk-bentuk khusus, termasuk Pritsanā Tham untuk mengenang kebaikan dan mengantar orang mati agar lahir di surga.",
+          "quote": "Added to the concept was an imagination of special shapes, including Pritsanā Tham to remember the goodness and transmission of dead people to be born in heaven.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hatsadiling-c12",
+          "source_id": "hatsadiling-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Thai language the bird is also known by a number of terms, including nok hatsading (นกหัสดิน), nok hatsadi (นกหัสดี) and nok hat.",
+          "statement_id": "Dalam bahasa Thai, burung ini juga dikenal dengan sejumlah sebutan, di antaranya nok hatsading (นกหัสดิน), nok hatsadi (นกหัสดี), dan nok hat.",
+          "quote": "In the Thai language, the bird is also known by a number of terms, including nok hatstadiling (นกหัสดีลิงค์), nok hatsading (นกหัสดิน), nok hatsadi (นกหัสดี) and nok hat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hatsadiling-c13",
+          "source_id": "hatsadiling-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The hatsadiling (hathi linga) has also been used by the Marma people as a primary motif for funerary hearses.",
+          "statement_id": "Hatsadiling (hathi linga) juga dipakai oleh orang Marma sebagai motif utama kereta jenazah.",
+          "quote": "The hatsadiling (hathi linga) has also been used by the Marma people as a primary motif for funerary hearses.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "ichchhadhari-nag",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-4.md",
+      "entry_sha256": "bc284a350e95fcf47cdfe7e7a9d6121092f423cbe866227b3b52858a49eb0ab8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ichchhadhari-nag-c01",
@@ -599,7 +889,7 @@
           "host": "kn.wikipedia.org",
           "statement": "Ichchhadhari Nag are shapeshifting cobras of Indian folklore and mythology.",
           "statement_id": "Ichchhadhari Nag adalah ular kobra pengubah wujud dalam cerita rakyat dan mitologi India.",
-          "quote": "ಇಚ್ಛಧಾರಿ ನಾಗ್ (ಸ್ತ್ರೀಲಿಂಗ: ಇಚ್ಛಧಾರಿ ನಾಗಿನ್) ಭಾರತೀಯ ಜಾನಪದ ಮತ್ತು ಪೌರಾಣಿಕೆ ಕಥೆಗಳಲ್ಲಿ ಬರುವ  ಆಕಾರವನ್ನು ಬದಲಾಯಿಸುವ ನಾಗರಹಾವುಗಳಾಗಿವೆ. ಇವುಗಳು ಹಾವಿನಿಂದ ಮನುಷ್ಯರೂಪಕ್ಕೆ ಮತ್ತು ಮನುಷ್ಯರೂಪದಿಂದ ಪುನಃ ಹಾವಾಗುವ ಶಕ್ತಿ ಹೊಂದಿವೆ ಎಂಬ ಕಥೆಗಳಿವೆ. ಅವರು ಶಿವನ ಮಹಾನ್ ಭಕ್ತರಾಗಿದ್ದಾರೆ.",
+          "quote": "ಇಚ್ಛಧಾರಿ ನಾಗ್ (ಸ್ತ್ರೀಲಿಂಗ: ಇಚ್ಛಧಾರಿ ನಾಗಿನ್) ಭಾರತೀಯ ಜಾನಪದ ಮತ್ತು ಪೌರಾಣಿಕೆ ಕಥೆಗಳಲ್ಲಿ ಬರುವ ಆಕಾರವನ್ನು ಬದಲಾಯಿಸುವ ನಾಗರಹಾವುಗಳಾಗಿವೆ.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -607,9 +897,9 @@
           "id": "ichchhadhari-nag-c02",
           "source_id": "ichchhadhari-nag-s1",
           "host": "kn.wikipedia.org",
-          "statement": "In stories they can change between serpent and human form.",
-          "statement_id": "Dalam cerita, mereka dapat berubah antara bentuk ular dan manusia.",
-          "quote": "ಇಚ್ಛಧಾರಿ ನಾಗ್ (ಸ್ತ್ರೀಲಿಂಗ: ಇಚ್ಛಧಾರಿ ನಾಗಿನ್) ಭಾರತೀಯ ಜಾನಪದ ಮತ್ತು ಪೌರಾಣಿಕೆ ಕಥೆಗಳಲ್ಲಿ ಬರುವ  ಆಕಾರವನ್ನು ಬದಲಾಯಿಸುವ ನಾಗರಹಾವುಗಳಾಗಿವೆ. ಇವುಗಳು ಹಾವಿನಿಂದ ಮನುಷ್ಯರೂಪಕ್ಕೆ ಮತ್ತು ಮನುಷ್ಯರೂಪದಿಂದ ಪುನಃ ಹಾವಾಗುವ ಶಕ್ತಿ ಹೊಂದಿವೆ ಎಂಬ ಕಥೆಗಳಿವೆ. ಅವರು ಶಿವನ ಮಹಾನ್ ಭಕ್ತರಾಗಿದ್ದಾರೆ.",
+          "statement": "There are stories that they can change from a snake into human form and back into a snake; they are described as great devotees of Shiva.",
+          "statement_id": "Ada kisah bahwa mereka dapat berubah dari ular menjadi rupa manusia dan kembali menjadi ular; mereka disebut pemuja besar Shiva.",
+          "quote": "ಇವುಗಳು ಹಾವಿನಿಂದ ಮನುಷ್ಯರೂಪಕ್ಕೆ ಮತ್ತು ಮನುಷ್ಯರೂಪದಿಂದ ಪುನಃ ಹಾವಾಗುವ ಶಕ್ತಿ ಹೊಂದಿವೆ ಎಂಬ ಕಥೆಗಳಿವೆ. ಅವರು ಶಿವನ ಮಹಾನ್ ಭಕ್ತರಾಗಿದ್ದಾರೆ.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -619,7 +909,7 @@
           "host": "kn.wikipedia.org",
           "statement": "They are believed to gain human form after Shiva's blessing.",
           "statement_id": "Mereka dipercaya memperoleh wujud manusia setelah mendapat berkat Shiva.",
-          "quote": "ಕತೆಗಳಲ್ಲಿರುವಂತೆ ಸಾಮಾನ್ಯ ಗಂಡು ನಾಗರಹಾವು ಇಚ್ಚಾಧಾರಿ ನಾಗ (ಗಂಡು ಆಕಾರವನ್ನು ಬದಲಾಯಿಸುವ ನಾಗರಹಾವು) ಆಗುತ್ತದೆ ಮತ್ತು ಸಾಮಾನ್ಯ ಹೆಣ್ಣು ನಾಗರಹಾವು ೧೦೦ ವರ್ಷಗಳ ತಪಸ್ಸಿನ ನಂತರ ಇಚ್ಚಾಧಾರಿ ನಾಗಿನ್ (ಹೆಣ್ಣು ಆಕಾರವನ್ನು ಬದಲಾಯಿಸಿದ ನಾಗರಹಾವು ಆಗುತ್ತವೆ. ಶಿವನಿಂದ ಆಶೀರ್ವದಿಸಲ್ಪಟ್ಟ ನಂತರ ಅವರು ತಮ್ಮದೇ ಆದ ಮಾನವ ರೂಪವನ್ನು ಪಡೆಯುತ್ತಾರೆ. ಜೊತೆಗೆ ಇವು ಯಾವುದೇ ಜೀವಿಯ ಆಕಾರವನ್ನು ಹೊಂದುವ ಸಾಮರ್ಥ್ಯವನ್ನು ಪಡೆಯುತ್ತಾರೆ.",
+          "quote": "ಶಿವನಿಂದ ಆಶೀರ್ವದಿಸಲ್ಪಟ್ಟ ನಂತರ ಅವರು ತಮ್ಮದೇ ಆದ ಮಾನವ ರೂಪವನ್ನು ಪಡೆಯುತ್ತಾರೆ.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -627,9 +917,9 @@
           "id": "ichchhadhari-nag-c04",
           "source_id": "ichchhadhari-nag-s1",
           "host": "kn.wikipedia.org",
-          "statement": "Stories connect them with a Nagamani jewel guarded against thieves.",
-          "statement_id": "Cerita menghubungkan mereka dengan permata Nagamani yang dijaga dari pencuri.",
-          "quote": "ಇಚ್ಛಧಾರಿ ನಾಗಗಳು ಮತ್ತು ನಾಗಿಣಿಯರು ನಾಗಮಣಿ ಎಂಬ ಆಭರಣವನ್ನು ಹೊಂದಿರುತ್ತಾರೆ. ಇವು ಯಾವುದೇ ಅಮೂಲ್ಯವಾದ ಕಲ್ಲುಗಳಿಗಿಂತ ಹೆಚ್ಚು ಮೌಲ್ಯಯುತವಾಗಿದೆ. ಏಕೆಂದರೆ ಅದು ತನ್ನ ಮಾಲೀಕರನ್ನು ಮತ್ತೆ ಬದುಕಿಸುವ ಮತ್ತು ಅಪಾರವಾದ ಶಕ್ತಿಯನ್ನು ನೀಡುವ  ಶಕ್ತಿಯನ್ನು ಹೊಂದಿದೆ. ಈ ನಾಗಮಣಿಯನ್ನು ಕದಿಯಲು ಪ್ರಯತ್ನಿಸಿದಾಗ ಆ ಜನರು ಹಾವು ಕಡಿತದಿಂದ ಸಾಯುತ್ತಾರೆ ಎಂದು ದಂತಕಥೆಗಳು ಹೇಳುತ್ತವೆ.",
+          "statement": "Ichchhadhari nags and nagins have a jewel called the nagamani, said to be more valuable than any precious stone because it can bring its owner back to life and grant immense power.",
+          "statement_id": "Ichchhadhari nag dan nagin memiliki permata bernama nagamani, yang lebih berharga daripada batu mulia mana pun karena dapat menghidupkan kembali pemiliknya dan memberi kekuatan yang sangat besar.",
+          "quote": "ಇಚ್ಛಧಾರಿ ನಾಗಗಳು ಮತ್ತು ನಾಗಿಣಿಯರು ನಾಗಮಣಿ ಎಂಬ ಆಭರಣವನ್ನು ಹೊಂದಿರುತ್ತಾರೆ. ಇವು ಯಾವುದೇ ಅಮೂಲ್ಯವಾದ ಕಲ್ಲುಗಳಿಗಿಂತ ಹೆಚ್ಚು ಮೌಲ್ಯಯುತವಾಗಿದೆ. ಏಕೆಂದರೆ ಅದು ತನ್ನ ಮಾಲೀಕರನ್ನು ಮತ್ತೆ ಬದುಕಿಸುವ ಮತ್ತು ಅಪಾರವಾದ ಶಕ್ತಿಯನ್ನು ನೀಡುವ ಶಕ್ತಿಯನ್ನು ಹೊಂದಿದೆ.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -642,26 +932,131 @@
           "quote": "ಸಪೇರಾ (ಸ್ನೇಕ್ ಚಾರ್ಮರ್) ಅಥವಾ ಹಾವಾಡಿಗ ಬಳಸುವ ಗಾಳಿ ವಾದ್ಯವಾದ ಪುಂಗಿಯ ಶಬ್ದವನ್ನು ಕೇಳಿದಾಗ ನಾಗ್ಗಳು ಮತ್ತು ನಾಗಿನ್ನರು/ನಾಗಿಣಿಯರು ತಮ್ಮ ನಿಯಂತ್ರಣವನ್ನು ಕಳೆದುಕೊಳ್ಳುತ್ತಾರೆ ಮತ್ತು ತಮ್ಮ ನಿಜವಾದ ರೂಪವನ್ನು ತೋರಿಸುತ್ತಾರೆ ಎಂನ ನಂಬಿಕೆಯಿದೆ.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "ichchhadhari-nag-c06",
+          "source_id": "ichchhadhari-nag-s1",
+          "host": "kn.wikipedia.org",
+          "statement": "In the stories an ordinary male cobra becomes an ichchhadhari nag, and an ordinary female cobra becomes an ichchhadhari nagin after 100 years of penance.",
+          "statement_id": "Dalam cerita, kobra jantan biasa menjadi ichchhadhari nag, dan kobra betina biasa menjadi ichchhadhari nagin setelah 100 tahun bertapa.",
+          "quote": "ಸಾಮಾನ್ಯ ಗಂಡು ನಾಗರಹಾವು ಇಚ್ಚಾಧಾರಿ ನಾಗ (ಗಂಡು ಆಕಾರವನ್ನು ಬದಲಾಯಿಸುವ ನಾಗರಹಾವು) ಆಗುತ್ತದೆ ಮತ್ತು ಸಾಮಾನ್ಯ ಹೆಣ್ಣು ನಾಗರಹಾವು ೧೦೦ ವರ್ಷಗಳ ತಪಸ್ಸಿನ ನಂತರ ಇಚ್ಚಾಧಾರಿ ನಾಗಿನ್",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ichchhadhari-nag-c07",
+          "source_id": "ichchhadhari-nag-s1",
+          "host": "kn.wikipedia.org",
+          "statement": "In addition they gain the ability to take the form of any living creature.",
+          "statement_id": "Selain itu, mereka memperoleh kemampuan untuk mengambil bentuk makhluk hidup apa pun.",
+          "quote": "ಜೊತೆಗೆ ಇವು ಯಾವುದೇ ಜೀವಿಯ ಆಕಾರವನ್ನು ಹೊಂದುವ ಸಾಮರ್ಥ್ಯವನ್ನು ಪಡೆಯುತ್ತಾರೆ.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ichchhadhari-nag-c08",
+          "source_id": "ichchhadhari-nag-s1",
+          "host": "kn.wikipedia.org",
+          "statement": "They can live for more than a hundred years.",
+          "statement_id": "Mereka dapat hidup lebih dari seratus tahun.",
+          "quote": "ಇವುಗಳು ನೂರು ವರ್ಷಗಳಿಗಿಂತ ಹೆಚ್ಚು ಕಾಲವೂ ಬದುಕಬಹುದು.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ichchhadhari-nag-c09",
+          "source_id": "ichchhadhari-nag-s1",
+          "host": "kn.wikipedia.org",
+          "statement": "Legends say that people who try to steal the nagamani die of snakebite.",
+          "statement_id": "Legenda menyebut bahwa orang yang mencoba mencuri nagamani itu mati karena gigitan ular.",
+          "quote": "ಈ ನಾಗಮಣಿಯನ್ನು ಕದಿಯಲು ಪ್ರಯತ್ನಿಸಿದಾಗ ಆ ಜನರು ಹಾವು ಕಡಿತದಿಂದ ಸಾಯುತ್ತಾರೆ ಎಂದು ದಂತಕಥೆಗಳು ಹೇಳುತ್ತವೆ.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ichchhadhari-nag-c10",
+          "source_id": "ichchhadhari-nag-s1",
+          "host": "kn.wikipedia.org",
+          "statement": "There is a belief that when a nag or nagin is killed, the killer's image is imprinted in its eyes; legends say its mate or family recognises the killer from this image and takes revenge.",
+          "statement_id": "Ada kepercayaan bahwa saat seekor nag atau nagin dibunuh, gambar si pembunuh tercetak di matanya; legenda menyebut pasangan atau keluarganya mengenali pembunuh dari gambar itu dan membalas dendam.",
+          "quote": "ಒಬ್ಬ ನಾಗ ಅಥವಾ ನಾಗಿಣಿಯನ್ನು ಕೊಲ್ಲುವಾಗ ಆ ಕೊಲೆಗಾರನ ಚಿತ್ರಣವು ಅವರ ಕಣ್ಣುಗಳಲ್ಲಿ ಮುದ್ರಿಸಲ್ಪಡುತ್ತದೆ ಎಂಬ ನಂಬಿಕೆಯಿದೆ. ಆ ನಾಗ/ನಾಗಿಣಿಯ ಸಂಗಾತಿ ಅಥವಾ ಕುಟುಂಬವು ಈ ಚಿತ್ರದಿಂದ ಕೊಲೆಗಾರರನ್ನು ಗುರುತಿಸುತ್ತದೆ ಮತ್ತು ಸೇಡು ತೀರಿಸಿಕೊಳ್ಳುತ್ತದೆ ಎಂದು ದಂತಕತೆಗಳು ಹೇಳುತ್ತವೆ.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ichchhadhari-nag-c11",
+          "source_id": "ichchhadhari-nag-s1",
+          "host": "kn.wikipedia.org",
+          "statement": "The enemies of the ichchhadhari nag/nagin are the mongoose, the eagle and the peacock.",
+          "statement_id": "Musuh ichchhadhari nag/nagin adalah luwak, elang, dan merak.",
+          "quote": "ಇಚ್ಛಧಾರಿ ನಾಗ್/ನಾಗಿನಿಯ ಶತ್ರುಗಳು ಮುಂಗುಸಿ, ಹದ್ದು ಮತ್ತು ನವಿಲು.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ichchhadhari-nag-c12",
+          "source_id": "ichchhadhari-nag-s1",
+          "host": "kn.wikipedia.org",
+          "statement": "The world of nags and nagins is called Naglok, ruled by a Nagraj (king) or Nagrani (queen).",
+          "statement_id": "Dunia para nag dan nagin disebut Naglok, yang diperintah oleh Nagraj (raja) atau Nagrani (ratu).",
+          "quote": "ನಾಗಗಳು ಮತ್ತು ನಾಗಿನಗಳ ಲೋಕವನ್ನು ನಾಗ್ಲೋಕ್ ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ. ನಾಗ್ಲೋಕ್ ಅನ್ನು ನಾಗರಾಜ್ (ರಾಜ) ಅಥವಾ ನಾಗ್ರಾಣಿ (ರಾಣಿ) ಆಳುತ್ತಾರೆ.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ichchhadhari-nag-c13",
+          "source_id": "ichchhadhari-nag-s2",
+          "host": "www.ebsco.com",
+          "statement": "According to this encyclopedia article, nāgas (serpent beings of Hindu and Buddhist tradition) were thought to be powerful with both good and evil qualities, able to shape-shift into human form to walk through human cities undetected, and able to grant immortality to those they favored.",
+          "statement_id": "Menurut artikel ensiklopedia ini, nāga (ular mitos Hindu dan Buddha) dianggap kuat dengan sifat baik dan jahat, dapat berubah menjadi rupa manusia agar bisa berjalan di kota manusia tanpa dikenali, dan dianggap dapat memberi keabadian kepada mereka yang disukainya.",
+          "quote": "The nāga were thought to be powerful, having both good and evil qualities. These beings could shape-shift into human form so that they could walk through human cities undetected. They were thought to be able to grant immortality to those they favored.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ichchhadhari-nag-c14",
+          "source_id": "ichchhadhari-nag-s2",
+          "host": "www.ebsco.com",
+          "statement": "According to this encyclopedia article, if angered nāgas might use venom to kill the offender, or destroy enemies by squeezing them as a boa constrictor might.",
+          "statement_id": "Menurut artikel ensiklopedia ini, jika marah, nāga dapat memakai bisa untuk membunuh pelanggarnya atau meremukkan musuh seperti boa.",
+          "quote": "If angered, nāgas might use venom to kill the offender. Another way nāgas might destroy their enemies is by squeezing them, as a boa constrictor might.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ichchhadhari-nag-c15",
+          "source_id": "ichchhadhari-nag-s1",
+          "host": "kn.wikipedia.org",
+          "statement": "In 2007 Zee TV began a television series called Nagin.",
+          "statement_id": "Pada 2007, Zee TV memulai serial televisi bernama Nagin.",
+          "quote": "2007ರಲ್ಲಿ, ಝೀ ಟಿವಿ ನಾಗಿನ್ ಎಂಬ ದೂರದರ್ಶನ ಸರಣಿಯು ಪ್ರಾರಂಭಿಸಿತು.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "ichchhadhari-nag-c16",
+          "source_id": "ichchhadhari-nag-s1",
+          "host": "kn.wikipedia.org",
+          "statement": "The comic-book superhero character Nagraj (Cobra-King) is also based on these legends.",
+          "statement_id": "Tokoh superhero komik Nagraj (Cobra-King) juga didasarkan pada legenda-legenda ini.",
+          "quote": "ಕಾಮಿಕ್ ಪುಸ್ತಕ ಸೂಪರ್ ಹೀರೋ ಪಾತ್ರವಾದ ನಾಗರಾಜ್ (ಕೋಬ್ರಾ-ಕಿಂಗ್) ಸಹ ಈ ದಂತಕಥೆಗಳನ್ನು ಆಧರಿಸಿದೆ.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "kallana",
-      "file": "batch-075-fix-1.md",
+      "file": "batch-075-fix-4.md",
+      "entry_sha256": "e05089a68109b7b5dea2f1c20cf72a53c8b0fc264dfcf5f587ceffdd59480217",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kallana-c01",
@@ -702,26 +1097,71 @@
           "quote": "Some of the criticisms from experts is that all the sightings have been of solitary animals. This could be a sign of genetic aberration rather than a separate species.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "kallana-c07",
+          "source_id": "kallana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The tribals gave the creatures this name because they see the smaller elephant more often at higher altitudes where the terrain is rocky.",
+          "statement_id": "Suku itu memberi nama tersebut karena mereka lebih sering melihat gajah yang lebih kecil itu di dataran yang lebih tinggi tempat medannya berbatu.",
+          "quote": "The tribals gave the creatures this name because they see the smaller elephant more often in the higher altitudes where the terrain is rocky.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kallana-c10",
+          "source_id": "kallana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "On 17 March 2010 the same Mallan Kani guided the photographer Benny Ajantha to a kallana and he took pictures; this was reported in the Malayalam daily Malayala Manorama, but one would need to be captured and tested to see whether it is a separate species.",
+          "statement_id": "Pada 17 Maret 2010, Mallan Kani yang sama memandu fotografer Benny Ajantha ke seekor kallana dan ia memotretnya; hal itu dimuat di harian Malayala Manorama, tetapi seekor harus ditangkap dan diuji untuk memastikan apakah itu spesies terpisah.",
+          "quote": "On 17 March 2010, the same Mallan Kani guided the photographer Benny Ajantha to a kallana and he took pictures. This was reported in the Malayalam daily Malayala Manorama with a picture, but one needs to be captured and tested to see whether it is a separate species.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "kallana-c11",
+          "source_id": "kallana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 2013 a dwarf individual of Elephas maximus was observed in Udawalawe National Park in southern Sri Lanka and scientifically documented.",
+          "statement_id": "Pada 2013, seekor individu kerdil dari Elephas maximus teramati di Taman Nasional Udawalawe di Sri Lanka selatan dan terdokumentasi secara ilmiah.",
+          "quote": "In 2013, a dwarf individual belonging to Elephas maximus was observed in Udawalawe National Park in southern Sri Lanka and scientifically documented.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kallana-c12",
+          "source_id": "kallana-s2",
+          "host": "www.asesg.org",
+          "statement": "A scientific note reports what it calls the first record of a free-ranging adult wild Asian elephant (Elephas maximus) with disproportionate dwarfism.",
+          "statement_id": "Sebuah catatan ilmiah melaporkan apa yang disebutnya catatan pertama seekor gajah Asia (Elephas maximus) dewasa liar yang hidup bebas dengan dwarfisme tidak proporsional.",
+          "quote": "Here we report the first record of a free ranging adult wild animal - an Asian elephant (Elephas maximus), with disproportionate dwarfism",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kallana-c13",
+          "source_id": "kallana-s2",
+          "host": "www.asesg.org",
+          "statement": "The note describes a mature male just over five feet (1.5 m) tall with a normal-sized upper body but very short, stubby legs.",
+          "statement_id": "Catatan ilmiah itu menggambarkan seekor jantan dewasa setinggi sedikit lebih dari lima kaki (1,5 m) dengan tubuh bagian atas berukuran normal tetapi kaki yang sangat pendek dan gemuk.",
+          "quote": "one of the protagonists was a mature male of just over five feet (1.5 m) in height. It had a normal sized upper body ... but had very short, stubby legs.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "kao-bull",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-4.md",
+      "entry_sha256": "9352cc808373da2236c0a39a4d6a8b4ee3e1f8fdd6adb3e0cea7fcae0f351ca5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 18,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kao-bull-c01",
@@ -729,9 +1169,9 @@
           "host": "en.wikipedia.org",
           "statement": "Kao is a divine bull in Meitei mythology captured by Khuman Khamba.",
           "statement_id": "Kao adalah banteng ilahi dalam mitologi Meitei yang ditangkap Khuman Khamba.",
-          "quote": "Kao (Meitei pronunciation: /káo/) is a legendary divine bull captured by Khuman Khamba in Meitei mythology and folklore of ancient Moirang realm. It appears in the legend of Kao Phaba (Old Manipuri: Kau Phaapa), also known as Khambana Kao Phaba (Old Manipuri: Khampana Kao Phaapa) of the Khamba Thoibi epic.",
+          "quote": "Kao (Meitei pronunciation: /káo/) is a legendary divine bull captured by Khuman Khamba in Meitei mythology and folklore of ancient Moirang realm.",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "kao-bull-c02",
@@ -739,7 +1179,7 @@
           "host": "en.wikipedia.org",
           "statement": "The tale of its capture forms part of the Khamba Thoibi epic.",
           "statement_id": "Kisah penangkapannya merupakan bagian dari epos Khamba Thoibi.",
-          "quote": "Kao (Meitei pronunciation: /káo/) is a legendary divine bull captured by Khuman Khamba in Meitei mythology and folklore of ancient Moirang realm. It appears in the legend of Kao Phaba (Old Manipuri: Kau Phaapa), also known as Khambana Kao Phaba (Old Manipuri: Khampana Kao Phaapa) of the Khamba Thoibi epic.",
+          "quote": "It appears in the legend of Kao Phaba (Old Manipuri: Kau Phaapa), also known as Khambana Kao Phaba (Old Manipuri: Khampana Kao Phaapa) of the Khamba Thoibi epic.",
           "context": "traditional-belief",
           "status": "loose"
         },
@@ -747,9 +1187,9 @@
           "id": "kao-bull-c03",
           "source_id": "kao-bull-s1",
           "host": "en.wikipedia.org",
-          "statement": "Kongyamba feigns possession and demands the flesh of the bull threatening Khuman's people.",
-          "statement_id": "Kongyamba berpura-pura kerasukan dan meminta daging banteng yang mengancam masyarakat Khuman.",
-          "quote": "Saying he was \"sated with offerings of flesh and fish\", he demanded to be given the flesh of the bull that was terrorizing the people of Khuman.",
+          "statement": "Kongyamba tricked his servant Khamba into catching the bull by pretending before the king that he was possessed by a divine spirit and claiming the god Thangjing spoke through him; he demanded the flesh of the bull terrorizing the people of Khuman, saying he was 'sated with offerings of flesh and fish'.",
+          "statement_id": "Kongyamba menipu pelayannya, Khamba, agar menangkap banteng itu dengan berpura-pura di hadapan raja bahwa ia dirasuki roh ilahi dan mengaku dewa Thangjing berbicara melaluinya; ia menuntut daging banteng yang meneror rakyat Khuman karena 'bosan dengan persembahan daging dan ikan'.",
+          "quote": "Kongyamba then tricked his servant Khamba into catching the bull, by pretending, before the king, that he was possessed by a divine spirit, and claimed that the god Thangjing spoke through him. Saying he was \"sated with offerings of flesh and fish\", he demanded to be given the flesh of the bull that was terrorizing the people of Khuman.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -770,6 +1210,136 @@
           "statement": "After Khamba follows his sister's instructions, the bull becomes tame and is brought back.",
           "statement_id": "Setelah Khamba menjalankan petunjuk kakaknya, banteng menjadi jinak dan dibawa kembali.",
           "quote": "Khamba did everything as his sister had told him to do. Immediately, the wild bull became tame and gentle. Khamba brought the bull back.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kao-bull-c06",
+          "source_id": "kao-bull-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Kongyamba, a rich nobleman of the Angom clan, met women from the Khuman kingdom in Moirang, who told him that a dangerous bull had killed many people near the water so they could not fish.",
+          "statement_id": "Kongyamba, bangsawan kaya dari klan Angom, bertemu sekelompok perempuan dari kerajaan Khuman di Moirang; mereka mengatakan seekor banteng berbahaya telah membunuh banyak orang di dekat air sehingga mereka tidak dapat memancing.",
+          "quote": "Kongyamba, a rich nobleman of the Angom clan, met a group of women from the Khuman kingdom in a place called Moirang, and asked them why they were fishing there. They told him that a dangerous bull had killed many people near the water, so they could not fish.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kao-bull-c07",
+          "source_id": "kao-bull-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Khamba stood on firm ground and caught the bull, and the strong bull carried him away into the thick woods.",
+          "statement_id": "Khamba berdiri di tanah yang kokoh lalu menangkap banteng itu, dan banteng yang kuat itu membawanya pergi ke dalam hutan lebat.",
+          "quote": "Khamba answered that he was waiting for a good position. Then, he stood on firm ground and caught the bull. The strong bull carried him away into the thick woods.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kao-bull-c08",
+          "source_id": "kao-bull-s1",
+          "host": "en.wikipedia.org",
+          "statement": "On the way back Kongyamba came to Khamba before anyone saw them, pretended to help hold the bull and held the rope, then claimed that he had captured the bull.",
+          "statement_id": "Dalam perjalanan pulang, Kongyamba mendatangi Khamba sebelum ada yang melihat, berpura-pura membantu memegang banteng dan memegang tali, lalu mengaku dialah yang menangkap banteng itu.",
+          "quote": "On the way back, Kongyamba came to him before anyone saw them. Kongyamba pretended to help Khamba to hold the bull. Kongyamba held the rope. When everyone saw, Kongyamba claimed that he had captured the bull.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kao-bull-c09",
+          "source_id": "kao-bull-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Kongyamba was afraid of the bull and climbed up to the heights to save himself, while Khamba faced the bull bravely and captured it once again.",
+          "statement_id": "Kongyamba takut pada banteng dan memanjat tempat tinggi untuk menyelamatkan diri, sedangkan Khamba menghadapi banteng dengan berani dan menangkapnya sekali lagi.",
+          "quote": "But Kongyamba was afraid of the bull. He climbed up on the heights to save himself. Khamba faced the bull bravely. He once again captured the bull.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kao-bull-c10",
+          "source_id": "kao-bull-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The embassy proposed organizing the great sport of capturing the wild bull; the Khuman king agreed, and a grand colosseum was built for the event.",
+          "statement_id": "Utusan mengusulkan penyelenggaraan olahraga besar menangkap banteng liar; raja Khuman setuju, dan sebuah koloseum megah dibangun untuk acara itu.",
+          "quote": "The embassy proposed to organize the great sport of capturing the wild bull. The Khuman king agreed. A grand colosseum was built for the event.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kao-bull-c11",
+          "source_id": "kao-bull-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 2001 the painting Khambana Kao Phaba was kept in the permanent collection of the Indira Gandhi Rashtriya Manav Sangrahalaya (IGRMS) Museum in Bhopal, India.",
+          "statement_id": "Pada 2001, lukisan Khambana Kao Phaba disimpan dalam koleksi tetap Museum Indira Gandhi Rashtriya Manav Sangrahalaya (IGRMS) di Bhopal, India.",
+          "quote": "In 2001, Khambana Kao Phaba (painting) was kept in the permanent collection of the Indira Gandhi Rashtriya Manav Sangrahalaya (IGRMS) Museum, Bhopal, India.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "kao-bull-c12",
+          "source_id": "kao-bull-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 2011 the theatre show 'Kao, the sacred bull' was produced by the Laihui Ensemble, based on the story of the bull Kao.",
+          "statement_id": "Pada 2011, pertunjukan teater 'Kao, the sacred bull' diproduksi oleh Laihui Ensemble berdasarkan kisah banteng Kao.",
+          "quote": "In 2011, \"Kao, the sacred bull\" was produced by the Laihui Ensemble. This theatrical show was based on the story of the bull Kao.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "kao-bull-c13",
+          "source_id": "kao-bull-s2",
+          "host": "archive.org",
+          "statement": "In this summary of the epic, the Khumal women say that a great bull lurks among the reeds bordering the waters of Waithou and has already killed a man, so they dare not fish there.",
+          "statement_id": "Dalam ringkasan epos ini, para perempuan Khumal berkata bahwa seekor banteng besar mengintai di antara alang-alang di tepi perairan Waithou dan sudah membunuh seorang laki-laki, sehingga mereka tidak berani memancing di sana.",
+          "quote": "There is a great bull that lurks among the reeds that border the waters of Waithou, and already he has killed a man. So we dare not fish there.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kao-bull-c14",
+          "source_id": "kao-bull-s2",
+          "host": "archive.org",
+          "statement": "In this summary of the epic, Khamnu, ill at ease for Khamba, says that this great bull was once the Lord of Khamba's father's herd.",
+          "statement_id": "Dalam ringkasan epos ini, Khamnu, yang gelisah memikirkan Khamba, berkata bahwa banteng besar itu dahulu adalah pemimpin kawanan ternak ayah Khamba.",
+          "quote": "Then Khamnu, who had treasured many things in her heart, was ill at ease for Khamba, and said, “ This great bull was once the Lord of thy father’s herd.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kao-bull-c15",
+          "source_id": "kao-bull-s2",
+          "host": "archive.org",
+          "statement": "In this summary of the epic, Khamba stood on firm ground and caught the bull by the horns, they swayed together striving for mastery, and then Khamba rested on the bull's neck as it carried him into the jungle.",
+          "statement_id": "Dalam ringkasan epos ini, Khamba berdiri di tanah kokoh dan menangkap banteng pada tanduknya; mereka saling mendorong memperebutkan kekuasaan, lalu Khamba bertumpu di leher banteng yang membawanya ke dalam hutan.",
+          "quote": "Then he stood on firm ground and caught the bull by the horns, and they swayed together as they strove for the mastery. Then Khamba rested on the neck of the bull, who carried him into the jungle.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kao-bull-c16",
+          "source_id": "kao-bull-s2",
+          "host": "archive.org",
+          "statement": "In this summary of the epic, Khamba softly spoke his father's name into the bull's ear and showed it the silken rope; the bull remembered the name of its Master, knew the rope and tied it round its own neck.",
+          "statement_id": "Dalam ringkasan epos ini, Khamba membisikkan nama ayahnya ke telinga banteng dan menunjukkan tali suteranya; banteng teringat nama majikannya, mengenali tali itu, dan mengikatkannya sendiri di lehernya.",
+          "quote": "And Khamba spake his Father’s name softly into the ear of the bull, and showed him the silken rope. Then the bull remembered the name of his Master and knew the rope, and himself tied it round his own neck.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kao-bull-c17",
+          "source_id": "kao-bull-s2",
+          "host": "archive.org",
+          "statement": "In this summary of the epic, on the next day Khamba killed the bull in honour of the God Thangjing.",
+          "statement_id": "Dalam ringkasan epos ini, keesokan harinya Khamba membunuh banteng itu untuk menghormati dewa Thangjing.",
+          "quote": "but the Moirang King would not, and on the morrow Khamba killed the bull in honour of the God Thangjing.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kao-bull-c18",
+          "source_id": "kao-bull-s2",
+          "host": "archive.org",
+          "statement": "In this summary of the epic, Khamba fought the bull bravely; he suddenly caught it by the tail and then let go so that it fell on its knees.",
+          "statement_id": "Dalam ringkasan epos ini, Khamba melawan banteng dengan berani; ia tiba-tiba memegang ekornya lalu melepaskannya sehingga banteng jatuh berlutut.",
+          "quote": "Then Khamba fought the bull bravely ; he caught it by the tail suddenly, and then on a sudden let it go so that it fell on its knees.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -793,24 +1363,20 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "3198d238fb50fb70152f92c064d7591e362a59846676f9966f8bfcff4b7dff7d"
     },
     {
       "slug": "pinglak",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-4.md",
+      "entry_sha256": "b1180cd92b3c33cfc167c05cd94462b787ee80fd64367f91f5be87140c9d7b50",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "pinglak-c01",
@@ -856,9 +1422,89 @@
           "id": "pinglak-c05",
           "source_id": "pinglak-s1",
           "host": "en.wikipedia.org",
-          "statement": "Damanaka breaks up Pingalaka and Sanjivaka's friendship out of jealousy.",
-          "statement_id": "Damanaka merusak persahabatan Pingalaka dan Sanjivaka karena iri.",
+          "statement": "Its original Indian version is Mitra-bheda, The Separation of Friends; in the first story a friendship arises between the lion Piṅgalaka, the king of the forest, and the bull Sañjīvaka; Karataka ('Horribly Howling') and Damanaka ('Victor') are two jackals who are retainers to the lion king.",
+          "statement_id": "Versi India aslinya adalah Mitra-bheda, 'Perpisahan Para Sahabat'. Dalam kisah pertama, persahabatan tumbuh antara singa Piṅgalaka, raja hutan, dan banteng Sañjīvaka; Karataka ('Si Penguik Mengerikan') dan Damanaka ('Sang Pemenang') adalah dua jakal pengikut raja singa itu.",
           "quote": "Its original Indian version is Mitra-bheda, The Separation of Friends. In the first story, a friendship arises between the lion Piṅgalaka, the king of the forest, and Sañjīvaka, a bull. Karataka ('Horribly Howling') and Damanaka ('Victor') are two jackals that are retainers to the lion king.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pinglak-c06",
+          "source_id": "pinglak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Against Karataka's advice, Damanaka breaks up the friendship between the lion and the bull out of jealousy.",
+          "statement_id": "Melawan nasihat Karataka, Damanaka merusak persahabatan antara singa dan banteng karena iri.",
+          "quote": "Against Karataka's advice, Damanaka breaks up the friendship between the lion and the bull out of jealousy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pinglak-c07",
+          "source_id": "pinglak-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The lion indulged so deeply in the friendship that he left his entire kingship; when all the animals of the jungle felt insecure because of this, the jackals again managed to create differences between Pinglak and Sanjeewak.",
+          "statement_id": "Sang singa begitu tenggelam dalam persahabatan itu hingga meninggalkan seluruh kekuasaannya; ketika semua hewan hutan merasa tidak aman karenanya, para jakal kembali berhasil menimbulkan perselisihan antara Pinglak dan Sanjeewak.",
+          "quote": "The lion indulged so deeply in the friendship that he left his entire kingship. When all the animals in the jungle felt insecure due to this, then the jackals again managed to create differences between Pinglak and Sanjeewak.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pinglak-c08",
+          "source_id": "pinglak-s2",
+          "host": "en.wikisource.org",
+          "statement": "In this text, in a neighbouring wood there lived a lion named Pingalaka who had subdued the forest by his might; that king of beasts had two jackals for ministers, named Damanaka and Karataka.",
+          "statement_id": "Dalam teks ini, di hutan yang bertetangga hidup seekor singa bernama Pingalaka yang menundukkan hutan dengan kekuatannya; raja binatang itu memiliki dua jakal sebagai menteri, bernama Damanaka dan Karataka.",
+          "quote": "Now at that time there lived in a neighbouring wood a lion named Pingalaka, who had subdued the forest by his might; and that king of beasts had two jackals for ministers; the name of the one was Damanaka, and the name of the other was Karataka.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pinglak-c09",
+          "source_id": "pinglak-s2",
+          "host": "en.wikisource.org",
+          "statement": "In this text the lion, going to drink at the bank of the Yamuná, hears the roar of the bull Sanjívaka, quickly returns to the forest without drinking and stays in a state of fear, hiding his feelings from his followers.",
+          "statement_id": "Dalam teks ini, singa itu mendengar raungan banteng Sanjívaka di tepi Yamuná saat hendak minum, lalu cepat kembali ke hutan tanpa minum dan tetap ketakutan sambil menyembunyikan perasaannya dari para pengikutnya.",
+          "quote": "That lion, going one day to the bank of the Yamuná to drink water, heard close to him the roar of that bull Sanjívaka. ... There upon the lion quickly returned to the forest without drinking water, and continued in a state of fear, hiding his feelings from his followers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pinglak-c10",
+          "source_id": "pinglak-s2",
+          "host": "en.wikisource.org",
+          "statement": "In this text the bull consented and gradually gained such an influence over the lion that the lion turned his back on his other dependents and was entirely governed by the bull.",
+          "statement_id": "Dalam teks ini, banteng menyetujui, dan lambat laun memperoleh pengaruh sedemikian besar atas singa sehingga singa membelakangi pengikut lainnya dan sepenuhnya dikuasai banteng.",
+          "quote": "And the bull consented, and gradually gained such an influence over the lion, that he turned his back on his other dependents, and was entirely governed by the bull.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pinglak-c11",
+          "source_id": "pinglak-s2",
+          "host": "en.wikisource.org",
+          "statement": "In this text an annoyed Damanaka tells Karataka in secret that their master has been taken possession of by Sanjívaka and does not trouble his head about them, and that he will take steps to have the bull killed and to reclaim their master from his unbecoming infatuation.",
+          "statement_id": "Dalam teks ini, Damanaka yang kesal berkata diam-diam kepada Karataka bahwa tuan mereka telah dikuasai Sanjívaka dan tidak peduli pada mereka, dan ia akan mengambil langkah agar banteng itu dibunuh dan tuan mereka direbut kembali dari kegilaannya.",
+          "quote": "Then Damanaka, being annoyed, said to Karataka in secret: \" See ! our master has been taken possession of by Sanjívaka, and does not trouble his head about us. ... So I will now take steps to have him killed, and to reclaim our master from his unbecoming infatuation.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pinglak-c12",
+          "source_id": "pinglak-s2",
+          "host": "en.wikisource.org",
+          "statement": "In this text the lion sprang on the bull and struck him with his claws, the bull replied with his horns, and their fight went on.",
+          "statement_id": "Dalam teks ini, singa menerkam banteng dan mencakarnya, banteng membalas dengan tanduknya, dan pertarungan mereka berlanjut.",
+          "quote": "Then the lion sprang on the bull and struck him with his claws, the bull replied with his horns, and so their fight went on.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pinglak-c13",
+          "source_id": "pinglak-s2",
+          "host": "en.wikisource.org",
+          "statement": "In this text the lion killed the bull Sanjívaka; once he was slain, Damanaka recovered his position of minister without a rival and remained for a long time beside the king of beasts in perfect happiness.",
+          "statement_id": "Dalam teks ini, singa membunuh banteng Sanjívaka; setelah banteng itu tewas, Damanaka kembali menjadi menteri tanpa saingan dan lama mendampingi raja binatang dengan sangat bahagia.",
+          "quote": "lion killed the bull Sanjívaka. When he was slain, Damanaka recovered his position of minister without a rival, and remained for a long time about the person of the king of beasts in perfect happiness.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -937,7 +1583,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e80a9acb967f37f5525b22882fe715f5028809dcd7e59c154c698ca036bc8e16"
     },
     {
       "slug": "sanbo-kojin",
@@ -1011,7 +1658,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "236b55fda33735844383e5d7201b6c24f2277d1acd6fae776d4fa8e3c88eaf1a"
     },
     {
       "slug": "banjhakri-and-banjhakrini",
@@ -1081,7 +1729,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3dbe1b47e904e79a7bea44062c9ffd4ce157808fcdff302f30ff1b1c2d29def1"
     },
     {
       "slug": "chedipe",
@@ -1151,24 +1800,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "95f33d4e7d7912d9669d176b91ca91c53a37f118fded5de0154135b3ed0ace72"
     },
     {
       "slug": "rantas",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-4.md",
+      "entry_sha256": "2064f6c91e93b719748da2598592b7bf7055ec71a5c96b3c8b051dec6a84b341",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 17,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "rantas-c01",
@@ -1204,9 +1849,139 @@
           "id": "rantas-c04",
           "source_id": "rantas-s1",
           "host": "en.wikipedia.org",
-          "statement": "In tales she abducts men and takes them to her lair.",
-          "statement_id": "Dalam cerita, ia menculik laki-laki dan membawa mereka ke sarangnya.",
+          "statement": "Rantas is said to abduct men, keeping them prisoner and later marrying them due to sorrow over the loss of her lover.",
+          "statement_id": "Rantas dikatakan menculik laki-laki, menahan mereka sebagai tawanan, lalu menikahi mereka karena dukanya kehilangan kekasihnya.",
           "quote": "Rantas is said to abduct men, keeping them prisoner and later marrying them due to sorrow over the loss of her lover.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rantas-c05",
+          "source_id": "rantas-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Rantas is said to wander and wail on moonless nights, walking on feet that are turned backward.",
+          "statement_id": "Rantas dikatakan mengembara dan meratap pada malam tanpa bulan sambil berjalan dengan kaki yang menghadap ke belakang.",
+          "quote": "Rantas is said to abduct men, keeping them prisoner and later marrying them due to sorrow over the loss of her lover. She wanders and wails on moonless nights, walking on feet that are turned backward.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rantas-c06",
+          "source_id": "rantas-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Rantas is believed to venture out only on heavily snowy nights, seeking young men she becomes infatuated with, whom she then kidnaps and takes to her lair.",
+          "statement_id": "Rantas dipercaya keluar hanya pada malam bersalju lebat untuk mencari pemuda yang membuatnya terpikat, lalu menculik mereka dan membawanya ke sarangnya.",
+          "quote": "Rantas is believed to venture out only during heavily snowy nights, seeking young men she becomes infatuated with, whom she then kidnaps and takes to her lair.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rantas-c07",
+          "source_id": "rantas-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to legend, she lures unsuspecting travelers with her enchanting beauty, only to reveal her terrifying form once they are captivated.",
+          "statement_id": "Menurut legenda, ia memikat pelancong yang tidak curiga dengan kecantikannya yang memesona, lalu menunjukkan wujud menakutkannya setelah mereka terpikat.",
+          "quote": "According to legend, she lures unsuspecting travelers with her enchanting beauty, only to reveal her terrifying form once they are captivated.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rantas-c08",
+          "source_id": "rantas-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The story of Lav Lone and Rantas is popular in Kashmiri urban legend: Lav Lone is kidnapped by Rantas disguised as a beautiful woman in the Nallah Ferozpora, though some doubt the location; other sources argue it originated in the forests of Anantnag, and others give different locations.",
+          "statement_id": "Kisah Lav Lone dan Rantas populer dalam legenda urban Kashmir: Lav Lone diculik oleh Rantas yang menyamar sebagai perempuan cantik di Nallah Ferozpora, meski sebagian orang meragukan lokasinya; sumber lain berpendapat kisah itu berasal dari hutan Anantnag, dan yang lain menyebut lokasi berbeda.",
+          "quote": "A famous story of Lav Lone and Rantas is quite popular in Kashmir urban legend which usually revolves around a man named Lav Lone who was kidnapped by the creature Rantas disguised as a beautiful woman in the Nallah Ferozpora which some people doubt in the plot-location. Some sources however argue the story originated in the forests of Anantnag while others differ the location.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rantas-c09",
+          "source_id": "rantas-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In January 2021 a local news channel broadcast a clip with the audio of a female screaming that was rumoured to be a Rantas.",
+          "statement_id": "Pada Januari 2021, sebuah saluran berita lokal menyiarkan klip dengan suara perempuan menjerit yang dirumorkan sebagai suara Rantas.",
+          "quote": "In January 2021, a clip was broadcast by a local news channel which had the audio of a female screaming and was rumoured to be of a Rantas.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "rantas-c10",
+          "source_id": "rantas-s2",
+          "host": "www.inversejournal.com",
+          "statement": "According to this author, the Raantas is a mythical creature from Kashmiri folklore who is usually supposed to reside in heavily forested areas and frequently visits nearby villages during winters.",
+          "statement_id": "Menurut penulis ini, Raantas adalah makhluk mitos dari cerita rakyat Kashmir yang biasanya dianggap tinggal di kawasan hutan lebat dan sering mengunjungi desa terdekat pada musim dingin.",
+          "quote": "The Raantas is basically a mythical creature from Kashmiri folklore. She is usually supposed to reside in heavily forested areas and frequently visits nearby villages during winters.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rantas-c11",
+          "source_id": "rantas-s2",
+          "host": "www.inversejournal.com",
+          "statement": "In folklore she is considered a conniving seducer of men, a robber of children and a wild misogynist trying to murder and disfigure unassuming women she takes by surprise.",
+          "statement_id": "Dalam cerita rakyat, ia dianggap perayu laki-laki yang licik, perampas anak-anak, dan pembenci perempuan yang buas yang berusaha membunuh dan merusak wajah perempuan yang tidak curiga.",
+          "quote": "In folklore, she is considered a conniving seducer of men, a robber of children and a wild misogynist trying to murder and disfigure unassuming women that she takes by surprise.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rantas-c12",
+          "source_id": "rantas-s2",
+          "host": "www.inversejournal.com",
+          "statement": "According to this author, the Raantas is like a humanoid save certain features: her feet, marked by sharp claw-like fingers, are turned backwards like her hands, her body is heavily haired with hair down to her feet, and she is purely a nocturnal being.",
+          "statement_id": "Menurut penulis ini, Raantas mirip makhluk humanoid kecuali beberapa ciri: kakinya yang berjari seperti cakar tajam menghadap ke belakang seperti tangannya, tubuhnya sangat berbulu dengan rambut sampai ke kaki, dan ia murni makhluk malam.",
+          "quote": "an exact description of the Raantas, since they had been lucky enough to escape her sinister grip. This creature is like a humanoid, save certain features: her feet, marked by sharp claw-like fingers, are turned backwards like her hands; with a heavily haired body, her hair extends down to her feet. She is purely a nocturnal being.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rantas-c13",
+          "source_id": "rantas-s2",
+          "host": "www.inversejournal.com",
+          "statement": "The Raantas is believed to possess some magic, with the ability to disguise herself as any human being, which gives her the power to deceive anyone.",
+          "statement_id": "Raantas dipercaya memiliki sihir dan kemampuan menyamar sebagai manusia mana pun, yang memberinya daya untuk menipu siapa saja.",
+          "quote": "The Raantas is believed to possess some magic, with the ability to disguise herself as any human being, which gives her the power to deceive anyone.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rantas-c14",
+          "source_id": "rantas-s2",
+          "host": "www.inversejournal.com",
+          "statement": "Some say that a special hair, when recognised and taken out of her body, gives one control over her superhuman power.",
+          "statement_id": "Sebagian orang berkata bahwa sehelai rambut khusus, bila dikenali dan dicabut dari tubuhnya, memberi seseorang kendali atas kekuatan supermanusianya.",
+          "quote": "some even say that a special hair, when recognised and taken out of her body, gives one control over her superhuman power.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rantas-c15",
+          "source_id": "rantas-s2",
+          "host": "www.inversejournal.com",
+          "statement": "Another story is that of Mokhtah, a young Kashmiri lady, who burns the Raantas alive.",
+          "statement_id": "Kisah lain tentang Mokhtah, seorang perempuan muda Kashmir, yang membakar Raantas hidup-hidup.",
+          "quote": "Another story is that of Mokhtah, a young Kashmiri lady, who burns the Raantas alive.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rantas-c16",
+          "source_id": "rantas-s2",
+          "host": "www.inversejournal.com",
+          "statement": "In that tale, when the Raantas visits Mokhtah's house crying, Mokhtah drops a burning kangri over her from the first floor and the Raantas disappears forever.",
+          "statement_id": "Dalam kisah itu, ketika Raantas datang ke rumah Mokhtah sambil menangis, Mokhtah menjatuhkan kangri yang menyala dari lantai atas ke atasnya dan Raantas lenyap selamanya.",
+          "quote": "when the Raantas visits Mokhtah’s house crying, Mokhtah, from the first floor, drops a burning Kangri over her and the Raantas disappears forever.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "rantas-c17",
+          "source_id": "rantas-s2",
+          "host": "www.inversejournal.com",
+          "statement": "In the tale of Sataar, seven years later he coaxes the Raantas' small children into teaching him how the stone at the cave entry, where they live and he is held captive, can be moved so that he may go outside and hopefully escape.",
+          "statement_id": "Dalam kisah Sataar, tujuh tahun kemudian ia membujuk anak-anak kecil Raantas agar mengajarinya cara menggeser batu di mulut gua tempat mereka tinggal dan ia ditawan, supaya ia dapat keluar dan melarikan diri.",
+          "quote": "One day, seven years later, Sataar coaxes the Raantas’ small children to teach him how the stone at the entry of the cave, where they are living and he is held captive, can be moved for him to go outside and hopefully escape.",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -1285,7 +2060,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "797eff70f56a36140c038ac000387dac5c65b468f0eb875b89c053e138ffdddb"
     },
     {
       "slug": "ucchusma",
@@ -1359,24 +2135,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "15cb2df8527108bc56c247b459da683c03541997678df7f61ec171ecbbe780cc"
     },
     {
       "slug": "diting",
-      "file": "batch-075.md",
+      "file": "batch-075-fix-4.md",
+      "entry_sha256": "ee9ba4e81643096d300c298e816392acf8688f3deba84edd4994189391de310e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "diting-c01",
@@ -1384,7 +2156,7 @@
           "host": "en.wikipedia.org",
           "statement": "Diting is a divine creature and Ksitigarbha's steed in Chinese Buddhism.",
           "statement_id": "Diting adalah makhluk ilahi dan tunggangan Ksitigarbha dalam Buddhisme China.",
-          "quote": "is a divine mythical creature and the steed of bodhisattva Kṣitigarbha in Chinese Buddhism.",
+          "quote": "Diting (Chinese: 谛听; pinyin: Dìtīng; Vietnamese: Đế Thính) is a divine mythical creature and the steed of bodhisattva Kṣitigarbha in Chinese Buddhism.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -1412,8 +2184,8 @@
           "id": "diting-c04",
           "source_id": "diting-s1",
           "host": "en.wikipedia.org",
-          "statement": "The dog accompanying Kim Gyo-gak is believed to become Diting after Ksitigarbha's enlightenment.",
-          "statement_id": "Anjing yang menyertai Kim Gyo-gak dipercaya menjadi Diting setelah Ksitigarbha tercerahkan.",
+          "statement": "When Kṣitigarbha became enlightened, the dog became Diting, who guards hell.",
+          "statement_id": "Ketika Kṣitigarbha mencapai pencerahan, anjing itu menjadi Diting yang menjaga neraka.",
           "quote": "When Kṣitigarbha became enlightened, the dog became Diting who guards hell.",
           "context": "traditional-belief",
           "status": "exact"
@@ -1422,10 +2194,110 @@
           "id": "diting-c05",
           "source_id": "diting-s1",
           "host": "en.wikipedia.org",
-          "statement": "In Journey to the West Diting can distinguish the true Sun Wukong from the impostor.",
-          "statement_id": "Dalam Journey to the West, Diting dapat membedakan Sun Wukong asli dari tiruannya.",
+          "statement": "In Journey to the West, when Sun Wukong was arguing with the fake Sun Wukong, they went to Diyu to seek help, and Ksitigarbha referred the monkeys to his steed Diting because of its ability to differentiate all creatures in the world.",
+          "statement_id": "Dalam Journey to the West, ketika Sun Wukong berselisih dengan Sun Wukong palsu, keduanya pergi ke Diyu untuk mencari bantuan, dan Ksitigarbha merujuk para kera itu kepada tunggangannya, Diting, karena kemampuannya membedakan semua makhluk di dunia.",
+          "quote": "In Journey to the West, when Sun Wukong was arguing with the fake Sun Wukong, they went to Diyu to seek help. Ksitigarbha referred the monkeys to his steed Diting, given the latter's ability to differentiate all creatures in the world.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "diting-c06",
+          "source_id": "diting-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Diting was able to distinguish the true monkey, but knew the fake monkey would wreak havoc in his abode once exposed, so he asked Ksitigarbha to send the pair to Buddha instead.",
+          "statement_id": "Diting dapat membedakan kera yang asli, tetapi ia tahu kera palsu akan mengamuk di tempat tinggalnya jika terbongkar, sehingga ia meminta Ksitigarbha mengirim keduanya kepada Buddha.",
           "quote": "Diting was able to distinguish the true monkey, but he knew the fake monkey will wreak havoc in his abode once exposed, so he asked Ksitigarbha to send the duo to Buddha instead.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "diting-c07",
+          "source_id": "diting-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One interpretation holds that Diting's single horn could receive information across the universe and could also be used to attack and defend.",
+          "statement_id": "Satu tafsir menyebut tanduk tunggal Diting dapat menerima informasi di seluruh alam semesta dan juga dapat dipakai untuk menyerang dan bertahan.",
+          "quote": "Diting (Chinese: 谛听; pinyin: Dìtīng; Vietnamese: Đế Thính) ... One interpretation of its single horn was that it could receive information across the universe. It could also be used to attack and defend.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "diting-c08",
+          "source_id": "diting-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Its hound ears were likened to a universal radio, transmitting the ability to distinguish good from bad to all believers.",
+          "statement_id": "Telinganya yang mirip telinga anjing pemburu diibaratkan radio universal yang menyalurkan kemampuan membedakan baik dari buruk kepada semua penganut.",
+          "quote": "Diting (Chinese: 谛听; pinyin: Dìtīng; Vietnamese: Đế Thính) ... Its hound ears were like a universal radio, transmitting the ability to distinguish good from bad to all believers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "diting-c09",
+          "source_id": "diting-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In some tales, before leaving Heaven to begin a new life as a monk, Kṣitigarbha found that his mother from a past life would be reborn as a dog.",
+          "statement_id": "Dalam sebagian kisah, sebelum meninggalkan Surga untuk menjalani hidup baru sebagai biksu, Kṣitigarbha mendapati bahwa ibunya di kehidupan lampau akan terlahir kembali sebagai anjing.",
+          "quote": "In some tales, before Kṣitigarbha left Heaven to assume his new life as a monk, he found that his mother from his past life would be reborn as a dog.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "diting-c10",
+          "source_id": "diting-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The dog followed the dharma as well and often acted as Ksitigarbha's guard.",
+          "statement_id": "Anjing itu juga mengikuti dharma dan sering bertindak sebagai penjaga Ksitigarbha.",
+          "quote": "The dog followed the dharma as well and often acted as Ksitigarbha's guard.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "diting-c11",
+          "source_id": "diting-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this Chinese text Diting (諦聽) is the name of a beast that crouches beneath the scripture table of the Bodhisattva Dizang; when it lies on the ground it can in an instant discern good and evil and judge the wise and the foolish among many kinds of beings and immortals across the four great continents.",
+          "statement_id": "Dalam teks Tionghoa ini, Diting (諦聽) adalah nama seekor hewan yang bersujud di bawah meja kitab Bodhisattva Dizang; bila ia berbaring di tanah, dalam sekejap ia dapat menilai baik dan buruk serta mendengar-menilai yang bijak dan yang bodoh di antara berbagai makhluk dan para dewa abadi di empat benua besar.",
+          "quote": "原來那諦聽是地藏菩薩經案下伏的一個獸名。他若伏在地下，一霎時，將四大部洲山川社稷，洞天福地之間，蠃蟲、鱗蟲、毛蟲、羽蟲、昆蟲、天仙、地仙、神仙、人仙、鬼仙，可以照鑒善惡，察聽賢愚。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "diting-c12",
+          "source_id": "diting-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this text, at Dizang's command the beast lay prostrate in the courtyard and, after a moment, raised its head and said that the monster's name exists but cannot be spoken to its face and that it cannot help to capture it.",
+          "statement_id": "Dalam teks ini, atas perintah Dizang hewan itu bersujud di halaman istana lalu sejenak kemudian mengangkat kepala dan berkata bahwa nama siluman itu ada, tetapi tidak boleh dikatakan di hadapannya dan ia tidak dapat membantu menangkapnya.",
+          "quote": "那獸奉地藏鈞旨，就於森羅庭院之中，俯伏在地。須臾，擡起頭來，對地藏道：「怪名雖有，但不可當面說破，又不能助力擒他。」",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "diting-c13",
+          "source_id": "diting-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this text Diting explains that naming the demon to its face might make it erupt and disturb the palace and unsettle the underworld, and that it cannot help capture it because the demon's powers equal those of the Great Sage Sun (孫大聖) while the deities of the underworld have little power.",
+          "statement_id": "Dalam teks ini, Diting menjelaskan bahwa menyebut nama itu di hadapan siluman dapat membuatnya mengamuk dan mengusik istana serta membuat dunia bawah gelisah, dan bahwa ia tidak dapat membantu menangkapnya karena kesaktian siluman itu setara Sun Dasheng (Orang Suci Agung Sun) sedangkan dewa-dewa alam gelap tidak punya banyak kekuatan.",
+          "quote": "諦聽道：「當面說出，恐妖精惡發，搔擾寶殿，致令陰府不安。」又問：「何為不能助力擒拿？」諦聽道：「妖精神通，與孫大聖無二。幽冥之神，能有多少法力？故此不能擒拿。」",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "diting-c14",
+          "source_id": "diting-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this text Diting says the Buddha's law is boundless; Dizang at once understands and tells the two monkeys that to tell them apart they must go to the Leiyin Temple, to Sakyamuni Tathagata.",
+          "statement_id": "Dalam teks ini, Diting berkata bahwa hukum Buddha tak bertepi; Dizang segera memahami dan berkata kepada kedua kera bahwa untuk membedakan mereka harus pergi ke Kuil Leiyin, ke tempat Sakyamuni Tathagata.",
+          "quote": "諦聽言：「佛法無邊。」地藏早已省悟，即對行者道：「你兩個形容如一，神通無二，若要辨明，須到雷音寺釋迦如來那裡，方得明白。」",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "diting-c15",
+          "source_id": "diting-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Diting appears in the Chinese manhua and animated series Fabulous Beasts (有兽焉) as chief executive officer of the Underworld and the Underworld's Goods and Shipping, brother to the hellhound Qinghuo and father to the skeleton cat Kulou.",
+          "statement_id": "Diting muncul dalam manhua dan serial animasi Tiongkok Fabulous Beasts (有兽焉) sebagai direktur utama Dunia Bawah dan Perusahaan Barang dan Pengiriman Dunia Bawah, saudara anjing neraka Qinghuo dan ayah kucing kerangka Kulou.",
+          "quote": "Diting appears in the Chinese manhua and animated series Fabulous Beasts (有兽焉), as the chief executive officer of the Underworld and the Underworld's Goods and Shipping, brother to the clay-borne hellhound Qinghuo, and father to the skeleton cat Kulou.",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
@@ -1499,7 +2371,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d33575088b43042ebaf572df3aa3f62abac8b62c2fc9ec940aaf2eda89ef84d2"
     },
     {
       "slug": "enma",
@@ -1559,7 +2432,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6e010807ac911a431afa0e31c42170f2bb63ed9b7d43fe47842e89a7c40089f5"
     },
     {
       "slug": "haosi-namoinu",
@@ -1639,7 +2513,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "990228b0b2b81a44ed6889cfde8848725790efc42493946cbf7670a30d81e540"
     },
     {
       "slug": "hingchabi",
@@ -1689,7 +2564,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1cc8c4d7b62b81e8276783c74d322a72f9f6679063537ac705760b0b26f341ed"
     },
     {
       "slug": "hiyang-athouba",
@@ -1769,7 +2645,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8197f00fb17c4c0f3cf17a7dfb77ae0a304a5a6a4142eb28b1e74dde18686f8f"
     },
     {
       "slug": "jarita",
@@ -1839,7 +2716,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9d4411d093552ab4cc278649d17f0c101b378ebd2a01ddbba21258e52bc45d6f"
     },
     {
       "slug": "khoirentak-tiger",
@@ -1909,7 +2787,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4964498e98aa2214a3d85aa5fe1318b81235396e7e3c2f1e833c854c944363dc"
     },
     {
       "slug": "misshaku-kongo",
@@ -1979,7 +2858,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f4c66ff77727fd1c72e709e19b6b253336269b291fb75e071fadf5f32a2e0775"
     },
     {
       "slug": "nittaewo",
@@ -2059,7 +2939,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d43600bd033e355432116ae5d09813b219173a1722238e65fe0bc3653e77917f"
     },
     {
       "slug": "shinra-myojin",
@@ -2139,7 +3020,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e998371a0a3116533d7da11b52b363ad6dd6ae5cd2f12347daebee341eacae0c"
     },
     {
       "slug": "shomen-kongo",
@@ -2209,7 +3091,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1725e7c348ab06dc32c6d4bb4ddbfccb6cba64f4dfa38ea91f346c87e020fbbb"
     },
     {
       "slug": "suiten",
@@ -2279,7 +3162,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e9e8ce6be9708d40c691112cd66fd7397b9eb99de590d8a2957b852a6ede9c51"
     },
     {
       "slug": "vadavagni",
@@ -2359,7 +3243,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "59c51ee83b9f48dc0ce5563a41da1712ce5eab6019a88041b7fc3e91f7e9b792"
     },
     {
       "slug": "xiaotian-quan",
@@ -2429,7 +3314,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f333f1e515982cabf693bd41a184aa877dc3335b739226bd60d76e58f0b124ff"
     },
     {
       "slug": "almaz-mythical-beast",
@@ -2494,7 +3380,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "df65a1ecc76099e9360018face67353a270751a6e59ca450815514fb75bf8225"
     },
     {
       "slug": "atavaka",
@@ -2564,7 +3451,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "09c0bdcb3567d3b5536cfcf11a7cbcec7a03e002509fa88ee7bacec52d0f3b9e"
     },
     {
       "slug": "byangoma",
@@ -2634,7 +3522,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f3a60eb00a38112623b370a64eecc3c9ca58d1efeb1306644ea63797177a1a2c"
     },
     {
       "slug": "chakora-mythology",
@@ -2664,7 +3553,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cf834a3d0328dbf9ec76e9927142ee2ebfb77df1ff7653a98d1bb89154829ecf"
     },
     {
       "slug": "dharanendra",
@@ -2744,7 +3634,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a3cce57f857d360e1141816fa8110d57a6f09e7dfd729639a4ab72c366c60d0b"
     },
     {
       "slug": "goho-doji",
@@ -2794,7 +3685,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "616ccc56e5fd9933fee23202f759d6bf06c22f4f63f25884a988b8719da21780"
     },
     {
       "slug": "golden-haired-hou",
@@ -2874,7 +3766,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c757177a8d6c31ca61ad40ea98a79cb702008c4202ea656c717e0f78b78978fa"
     },
     {
       "slug": "kangla-sha",
@@ -2944,7 +3837,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "829b292e1346eff7e4f055f96d987e3ea49d1312d46b22904a0056a0a6cb8849"
     },
     {
       "slug": "khyah-legendary-creature",
@@ -3024,7 +3918,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "84a7b6892f738e6452720a64a59d35f614ddb3085b05166ed4b5b80c232a2944"
     },
     {
       "slug": "kichkandi",
@@ -3104,7 +3999,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2e9a7652c23e7d7bca4c1e45eb97392c1fc8d936a4ee6c114b855fadccdf5eca"
     }
   ]
 }

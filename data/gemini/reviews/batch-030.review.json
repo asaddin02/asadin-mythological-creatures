@@ -1,29 +1,25 @@
 {
   "batch_id": "batch-030",
-  "checked_at": "2026-09-30T02:32:02.462Z",
+  "checked_at": "2026-10-06T13:36:17.339Z",
   "files": [
     "batch-030.md",
-    "batch-030-fix-1.md"
+    "batch-030-fix-1.md",
+    "batch-030-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "odin",
-      "file": "batch-030-fix-1.md",
+      "file": "batch-030-fix-2.md",
+      "entry_sha256": "9f38c6652abaa770e42b1efcb92a2b03b6f7c397ef89e11ffa27bc09e05d457d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 3,
+        "claims": 39,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 7 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "odin-c01",
@@ -94,26 +90,341 @@
           "quote": "They fly around the world gathering news, and when they return, they sit on Odin's shoulder and whisper their tidings into his ear.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "odin-c08",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Odin is recognised by his hat and cloak, long beard, and only one eye.",
+          "statement_id": "Odin dikenali dari topi dan jubahnya, janggut panjang, dan hanya satu mata.",
+          "quote": "Odin can be recognised by his hat and cloak, long beard, and only one eye",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c09",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "His spear Gungnir is one of his main attributes.",
+          "statement_id": "Tombak Gungnir adalah salah satu atribut utama Odin.",
+          "quote": "His spear Gungnir is one of his main attributes",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c10",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Other attributes of Odin are the ring Draupnir, which drips eight new rings every nine nights, and the eight-legged horse Sleipnir.",
+          "statement_id": "Atribut Odin lainnya adalah cincin Draupnir, yang meneteskan delapan cincin baru setiap sembilan malam, dan kuda Sleipnir yang berkaki delapan.",
+          "quote": "Some other attributes are the ring Draupnir, which drips to form eight new rings every nine nights, and the horse Sleipnir, which is mentioned early on in Old Norse literature and is set apart by the somehow efficient total of eight legs.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c11",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Odin's immense knowledge is said to come from Mímir's head, or else from drinking from Mímir's well.",
+          "statement_id": "Pengetahuan Odin yang luas disebut berasal dari kepala Mímir, atau dari minum air sumur Mímir.",
+          "quote": "Odin's immense knowledge is courtesy of Mímir's head (or else due to drinking from Mímir's well).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c12",
+          "source_id": "odin-s4",
+          "host": "www.gutenberg.org",
+          "statement": "According to the Prose Edda, Alfather received a drink from Mimer's well only after leaving one of his eyes there as a pledge.",
+          "statement_id": "Menurut Edda Prosa, Alfather tidak mendapat minum dari sumur Mimer sebelum meninggalkan salah satu matanya sebagai jaminan.",
+          "quote": "The owner of the well hight Mimer. He is full of wisdom, for he drinks from the well with the Gjallar-horn. Alfather once came there and asked for a drink from the well, but he did not get it before he left one of his eyes as a pledge.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c13",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Odin hangs for nine nights from a branch of Yggdrasil, the World Tree, with a spear wound that brings him close to death, and only then are the runes revealed to him.",
+          "statement_id": "Odin menggantung sembilan malam di dahan Yggdrasil, pohon dunia, dengan luka tombak yang nyaris membunuhnya, dan baru setelah itu rune terungkap kepadanya.",
+          "quote": "nine nights of swinging from a branch of Yggdrasil, the World Tree, with a spear wound that put him close to death, and only then are the runes revealed to him.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c14",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Snorri explains that Odin's poetic skill comes from stealing the mead of the skalds (poets) after sleeping for three nights with the giantess Gunnlǫð, the mead's guardian.",
+          "statement_id": "Snorri menjelaskan bahwa kemahiran puisi Odin berasal dari pencurian mead para skald (penyair) setelah ia tidur tiga malam dengan raksasa perempuan Gunnlǫð, penjaga mead itu.",
+          "quote": "Snorri explains that Odin's superb poetic skills are due to him stealing the mead of the skalds (i.e. poets) by sleeping with the giantess Gunnlǫð, guardian of the mead, for three nights.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c15",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Borr and the giantess Bestla sired Odin and his brothers, usually named Vili and Vé.",
+          "statement_id": "Borr dan raksasa perempuan Bestla menjadi orang tua Odin dan saudara-saudaranya, yang biasanya bernama Vili dan Vé.",
+          "quote": "his son Borr and the giant-daughter Bestla sired Odin and his brothers (usually named Vili and Vé)",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c16",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Odin and his brothers slew the proto-giant Ymir and made the earth from his flesh, the sky from his skull, the mountains from his bones, and the sea from his blood.",
+          "statement_id": "Odin bersaudara membunuh raksasa purba Ymir dan memakai dagingnya untuk bumi, tengkoraknya untuk langit, tulangnya untuk gunung, dan darahnya untuk laut.",
+          "quote": "The brothers then slew the proto-giant Ymir and used his flesh to create the earth, his skull to form the sky, his bones for the mountains, and his blood to make the sea.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c17",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Odin's link with war extends to a link with the dead, shown in his role as leader of the Wild Hunt, an army of the dead who ride on the storms.",
+          "statement_id": "Hubungan Odin dengan perang berlanjut ke hubungannya dengan orang mati, antara lain sebagai pemimpin Perburuan Liar (Wild Hunt), pasukan orang mati yang menunggang badai.",
+          "quote": "Odin's connection with war flows naturally into a connection with the dead, which is further illustrated by Odin as the leader of the so-called Wild Hunt - a widespread and old Germanic cult centred around a myth of an army of the dead who ride on the storms.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c18",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Odin's Valkyries, supernatural warrior women, bring fighters slain in battle to Valhalla; these fighters, the Einherjar, become Odin's strike-force against the powers of the Underworld at Ragnarök.",
+          "statement_id": "Para Valkyrie, perempuan prajurit gaib, membawa jasad prajurit yang gugur ke Valhalla; mereka dikenal sebagai Einherjar dan menjadi pasukan Odin melawan kekuatan dunia bawah saat Ragnarök.",
+          "quote": "Odin has his Valkyries - supernatural warrior women - bringing the bodies of fighters slain in battle to his special warrior paradise Valhalla; these fighters are known as the Einherjar and become Odin's strike-force against the encroaching powers of the Underworld during the Ragnarök.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c19",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In southern and western Germanic sources, Odin decided whether battles or individual warriors would be victorious.",
+          "statement_id": "Dalam sumber Jermanik selatan dan barat, Odin yang menentukan kemenangan pertempuran atau prajurit tertentu.",
+          "quote": "In southern and western Germanic sources, it was Odin who decided whether battles or individual warriors would be victorious or end in slightly less fortunate ways.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c20",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Odin is described as falling into trances, leaving his body to travel in the spirit-form of an animal, and several times having visions of wisdom provoked by ordeals.",
+          "statement_id": "Odin digambarkan jatuh ke dalam trans, meninggalkan tubuhnya dan mengembara dalam wujud roh hewan, serta beberapa kali mendapat penglihatan kebijaksanaan lewat berbagai cobaan.",
+          "quote": "He [Odin] is described as falling into trances, as leaving his body behind and travelling abroad in the spirit-form of an animal, and several times as having visions of wisdom provoked by various kinds of ordeal.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c21",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In 1070 CE Adam of Bremen wrote that at the Old Uppsala temple a statue of Thor stood in the centre with Odin and Freyr at the sides, and that sacrifices were made to Odin in times of war.",
+          "statement_id": "Pada 1070 M, Adam dari Bremen menulis bahwa di kuil Uppsala kuno patung Thor berdiri di tengah, Odin dan Freyr di sisinya, dan persembahan untuk Odin dibuat pada masa perang.",
+          "quote": "in the great pagan temple of Old Uppsala in Sweden, too; in 1070 CE Adam of Bremen wrote of his visit to this place that a statue of Thor stood prominently in the centre of the hall, with Odin and Freyr to the side, and that sacrifices were made to Thor in case of famine, to Odin in times of war",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c22",
+          "source_id": "odin-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Several of Odin's names and titles stem from the reconstructed Proto-Germanic theonym Wōðanaz, meaning \"lord of frenzy\" or \"leader of the possessed\".",
+          "statement_id": "Beberapa nama dan gelar Odin berasal dari nama dewa Proto-Jermanik hasil rekonstruksi, Wōðanaz, yang berarti \"penguasa kegilaan\" atau \"pemimpin orang yang kerasukan\".",
+          "quote": "Several of these stem from the reconstructed Proto-Germanic theonym Wōðanaz, meaning \"lord of frenzy\" or \"leader of the possessed\"",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c23",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Odin also exists in Germanic mythology as Woden (Old English), Wodan (Old Franconian), and Wutan or Wuotan (Old High German).",
+          "statement_id": "Odin juga dikenal dalam mitologi Jermanik sebagai Woden (Inggris Kuno), Wodan (Franka Kuno), serta Wutan atau Wuotan (Jerman Kuno Tinggi).",
+          "quote": "He also exists in Germanic mythology as Woden (in Old English), Wodan (in Old Franconian), and Wutan or Wuotan (in Old High German).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c24",
+          "source_id": "odin-s4",
+          "host": "www.gutenberg.org",
+          "statement": "According to the Prose Edda, the highest god is called Alfather, and in old Asgard he had twelve names.",
+          "statement_id": "Menurut Edda Prosa, sang dewa tertinggi disebut Alfather, dan di Asgard lama ia memiliki dua belas nama.",
+          "quote": "Alfather he is called in our tongue, but in Asgard of old he had twelve names.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c25",
+          "source_id": "odin-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In the Prose Edda, Odin rides first, with golden helmet, resplendent byrnie, and his spear Gungner, and advances against the Fenris-wolf.",
+          "statement_id": "Dalam Edda Prosa, Odin maju paling depan dengan helm emas, baju zirah gemerlap, dan tombak Gungner melawan serigala Fenris.",
+          "quote": "Odin rides first; with his golden helmet, resplendent byrnie, and his spear Gungner, he advances against the Fenris-wolf.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c26",
+          "source_id": "odin-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Odin was adapted in Neil Gaiman's 2001 novel American Gods as Mr. Wednesday, a con artist revealed to be an incarnation of Odin.",
+          "statement_id": "Odin diadaptasi dalam novel American Gods karya Neil Gaiman (2001) sebagai Mr. Wednesday, penipu yang ternyata adalah inkarnasi Odin.",
+          "quote": "He was also adapted in Neil Gaiman's 2001 novel American Gods as Mr. Wednesday, a con artist revealed to be an incarnation of Odin.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c27",
+          "source_id": "odin-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Odin was adapted as a character by Marvel Comics, first appearing in the Journey into Mystery series in 1962.",
+          "statement_id": "Odin diadaptasi sebagai tokoh oleh Marvel Comics dan pertama muncul dalam seri Journey into Mystery pada 1962.",
+          "quote": "Odin was adapted as a character by Marvel Comics, first appearing in the Journey into Mystery series in 1962.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c28",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The nature of Odin's magic often leads him to be seen as a shaman, an aspect reinforced by his function as a god of healing.",
+          "statement_id": "Sihir Odin membuatnya sering dipandang sebagai syaman, dan pandangan ini diperkuat oleh fungsinya sebagai dewa penyembuhan.",
+          "quote": "The nature of Odin's magic moreover often causes him to be seen as a shaman, an aspect which is further bolstered by his function as a god of healing.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c29",
+          "source_id": "odin-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Wider sources depict Odin as son of Bestla and Borr, brother of Vili and Vé, and husband of the goddess Frigg, with whom he fathered Baldr; he also fathered Thor with the earth-goddess Jörð.",
+          "statement_id": "Sumber yang lebih luas menggambarkan Odin sebagai putra Bestla dan Borr, saudara Vili dan Vé, serta suami dewi Frigg, yang melahirkan Baldr; ia juga ayah Thor dari dewi bumi Jörð.",
+          "quote": "Wider sources depict Odin as the son of Bestla and Borr; brother to Vili and Vé; and husband to the goddess Frigg, with whom he fathered Baldr. Odin has many other sons, including Thor, whom he sired with the earth-goddess Jörð.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c30",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Odin's role as Allfather is more a literary theme from later sources, seemingly influenced by Christian names for God, than a reflection of his status in Viking Age societies.",
+          "statement_id": "Menurut World History Encyclopedia, peran Odin sebagai Allfather lebih merupakan tema sastra dari sumber yang lebih muda, tampaknya dipengaruhi sebutan Kristen untuk Tuhan, ketimbang cerminan kedudukannya di masyarakat Zaman Viking.",
+          "quote": "Odin's role of 'Allfather' or father of the gods is more of a literary theme from later sources - seemingly influenced by Christian names for God - than an actual reflection of his status in Viking Age societies.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c31",
+          "source_id": "odin-s4",
+          "host": "www.gutenberg.org",
+          "statement": "According to the Prose Edda, Odin is called Alfather because he is the father of all gods and men and of all things made by him and his might.",
+          "statement_id": "Menurut Edda Prosa, Odin disebut Alfather karena ia bapak semua dewa dan manusia serta segala yang dibuat olehnya.",
+          "quote": "And for this reason Odin is called Alfather, that he is the father of all gods and men, and of all things that were made by him and by his might.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c32",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Odin mainly used magic to catch glimpses of the future.",
+          "statement_id": "Odin terutama memakai sihir untuk melihat sekilas masa depan.",
+          "quote": "Odin used mainly magic to catch glimpses of the future.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c33",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the story of the mead of poetry, Odin is allowed three sips but drains the containers, shape-shifts into an eagle and flees.",
+          "statement_id": "Dalam kisah mead puisi, Odin diizinkan tiga tegukan tetapi menghabiskan seluruh wadahnya, lalu berubah wujud menjadi elang dan kabur.",
+          "quote": "Because of this cosying up to her, he is allowed three sips, but he simply chugs and drains the containers, shape-shifts into an eagle and legs it (well, wings it) out of there.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c34",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Odin resides in Asgard, the stronghold and home of the gods.",
+          "statement_id": "Odin tinggal di Asgard, benteng dan kediaman para dewa.",
+          "quote": "resides in Asgard (the stronghold and home of the gods)",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c35",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Bronze Age Swedish rock carvings show figures of a god holding a spear who might be linked to Odin, and by at least 500 CE he clearly appears on ornaments alongside birds and warriors.",
+          "statement_id": "Ukiran batu Swedia dari Zaman Perunggu menampilkan sosok dewa bertombak yang mungkin dikaitkan dengan Odin, dan paling lambat sekitar 500 M ia jelas muncul pada berbagai hiasan bersama burung dan prajurit.",
+          "quote": "Already in the Bronze Age do Swedish rock carvings depict figures of a god holding a spear, who with some imagination might be linked to Odin, and by at least 500 CE he clearly shows up on a range of ornaments alongside birds and warriors.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c36",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Odin's main group of worshippers mostly consisted of the elite, namely kings, chieftains and poets, but also included warriors.",
+          "statement_id": "Para pemuja utama Odin sebagian besar adalah kalangan elite, yaitu raja, kepala suku, dan penyair, serta juga prajurit.",
+          "quote": "Odin's main group of worshippers mostly consisted of the elite - kings, chieftains & poets - but also included warriors.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c37",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Skaldic poetry names Baldr, Thor and Vali as Odin's sons, whereas the 13th-century CE author Snorri Sturluson adds Heimdall, Týr, Bragi, Vidarr and Hodr.",
+          "statement_id": "Puisi skaldik menyebut Baldr, Thor, dan Vali sebagai putra Odin, sedangkan Snorri Sturluson pada abad ke-13 M menambahkan Heimdall, Týr, Bragi, Vidarr, dan Hodr.",
+          "quote": "Skaldic poetry (Viking Age, pre-Christian poetry mainly heard at courts by kings and their retinues), for instance, names Baldr, Thor, and Vali as Odin's sons, whereas later on the 13th-century CE Icelandic author Snorri Sturluson also adds Heimdall, Týr, Bragi, Vidarr, and Hodr to the list.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c38",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Vafþrúðnismál Odin starts a battle of wits with the giant Vafþrúðnir and beats him; in Grímnismál a disguised Odin is tortured and ends up revealing his mythical knowledge to King Geirroðr.",
+          "statement_id": "Dalam Vafþrúðnismál Odin memulai adu kecerdasan dengan raksasa Vafþrúðnir dan mengalahkannya; dalam Grímnismál Odin yang menyamar disiksa dan akhirnya membuka pengetahuannya kepada Raja Geirroðr.",
+          "quote": "in the Vafþrúðnismál Odin initiates a battle of wits with the giant Vafþrúðnir and beats him, while in the Grímnismál a disguised Odin is tortured and ends up revealing his extensive mythical knowledge to King Geirroðr.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "odin-c39",
+          "source_id": "odin-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The modern English weekday name Wednesday traces its origin to \"day of Woden\" (wōdnesdæg in Old English), still seen in the Dutch name woensdag.",
+          "statement_id": "Nama hari Wednesday dalam bahasa Inggris modern berasal dari \"hari Woden\" (wōdnesdæg dalam bahasa Inggris Kuno), dan masih terlihat pada nama Belanda woensdag.",
+          "quote": "The modern English weekday name Wednesday traces its origins to \"day of Woden\", wōdnesdæg in Old English, and is still seen in the Dutch name woensdag.",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "ra-q1252904",
-      "file": "batch-030-fix-1.md",
+      "file": "batch-030-fix-2.md",
+      "entry_sha256": "94c8e4577adee8a84d0e3955c6b6d94cdded53e5c3bef18869dcf2a8a8237968",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 2,
+        "claims": 49,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 8 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ra-q1252904-c01",
@@ -194,26 +505,431 @@
           "quote": "The word Ra also appears in everything from Hollywood films to video games.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c09",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Ra is one of the oldest deities in the Egyptian pantheon and was later merged with others: Ra-Horakhty (the morning sun), Amun (the noonday sun), and Atum (the evening sun).",
+          "statement_id": "Ra termasuk dewa tertua dalam jajaran dewa Mesir dan kemudian dilebur dengan dewa lain: Ra-Horakhty (matahari pagi), Amun (matahari siang), dan Atum (matahari petang).",
+          "quote": "Ra (also given as Re) is the sun god of ancient Egypt. He is one of the oldest deities in the Egyptian pantheon and was later merged with others such as Horus, becoming Ra-Horakhty (the morning sun), Amun (as noonday sun), and Atum (the evening sun) associated with primal life-giving energy.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c10",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Ra is first mentioned in the Pyramid Texts (c. 2400-2300 BCE), inscribed on sarcophagi and tomb walls at Saqqara.",
+          "statement_id": "Ra pertama kali disebut dalam Teks Piramida (sekitar 2400-2300 SM) yang terpahat pada sarkofagus dan dinding makam di Saqqara.",
+          "quote": "Ra is first mentioned in the Pyramid Texts (c. 2400-2300 BCE), the oldest religious works in the world, which were inscribed on the sarcophagi and walls of tombs at Saqqara.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c11",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Ra's cult center was the city of Iunu, better known by its Greek name Heliopolis, \"city of the sun god\".",
+          "statement_id": "Pusat pemujaan Ra berada di kota Iunu, yang lebih dikenal dengan nama Yunaninya, Heliopolis, \"kota dewa matahari\".",
+          "quote": "Worship of Ra was already well established at the time these texts - which are thought to derive from a much earlier oral tradition - were inscribed. His cult center was at the city of Iunu (better known as Heliopolis, the Greek name, which means \"city of the sun god\").",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c12",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Ra is almost always depicted as the falcon-headed Ra-Horakhty with the solar disc above his head, sometimes also as the scarab beetle below the solar disc.",
+          "statement_id": "Ra hampir selalu digambarkan sebagai Ra-Horakhty berkepala elang dengan cakram matahari di atas kepalanya, kadang juga sebagai kumbang scarab di bawah cakram matahari.",
+          "quote": "He is almost always depicted as the falcon-headed male Ra-Horakhty with the solar disc above his head although sometimes also shown as the scarab beetle below the solar disc (in this form he is known as Ra-Khepri.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c13",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the best-known version, at the beginning of time there was only swirling water until the primordial mound (the ben-ben) rose as the first dry land and Ra the Self-Created stood upon it.",
+          "statement_id": "Dalam versi yang paling dikenal, pada awal waktu hanya ada air bergolak, lalu gundukan purba (ben-ben) muncul sebagai daratan pertama dan Ra sang Pencipta-Diri berdiri di atasnya.",
+          "quote": "In the best-known version of the story, there was nothing but swirling waters at the beginning of time when the primordial mound (the ben-ben) rose as the first dry land and Ra the Self-Created stood upon it.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c14",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In that creation story Ra creates Hu (authority) and Sia (mind), then gives birth to Shu (god of air) and Tefnut (goddess of moisture), who left to establish the world.",
+          "statement_id": "Dalam kisah penciptaan itu Ra menciptakan Hu (otoritas) dan Sia (pikiran), lalu melahirkan Shu (dewa udara) dan Tefnut (dewi kelembapan), yang pergi untuk menata dunia.",
+          "quote": "Ra the Self-Created stood upon it. He cut his penis open and, from the drops of blood, created Hu (authority) and Sia (mind), and then became aware of his solitude and mated with his own shadow to give birth to Shu (god of air) and Tefnut (goddess of moisture) who left to establish the world.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c15",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the Book of the Heavenly Cow, a Ra tired of ruling humans asks the goddess Nut to carry him into the heavens, and Nut becomes a celestial cow and takes him skyward on her back.",
+          "statement_id": "Dalam Kitab Sapi Langit, Ra yang lelah memerintah manusia meminta dewi Nut membawanya ke langit, dan Nut menjelma sapi langit yang membawanya naik di punggungnya.",
+          "quote": "Ra is tired of ruling over humans, however, and asks the goddess Nut to carry him into the heavens. Nut turns herself into a celestial cow and takes Ra skyward on her back.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c16",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Ra summons the Eye of Ra, usually personified as a goddess, a powerful force that alternately does Ra's bidding or breaks free of his control to wreak havoc.",
+          "statement_id": "Ra memanggil Mata Ra, yang biasanya dipersonifikasikan sebagai dewi, kekuatan dahsyat yang bergantian menuruti perintah Ra atau lepas dari kendalinya dan mengamuk.",
+          "quote": "Ra summons The Eye of Ra, usually personified as a goddess, which is a powerful force that alternately does Ra's bidding or breaks free of his control to wreak havoc.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c17",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "At night the sun barge becomes the evening barge, the Ship of a Million Souls, which picks up the newly arrived and justified dead and brings them to the paradise of the Field of Reeds.",
+          "statement_id": "Pada malam hari bahtera matahari berubah menjadi bahtera malam, Kapal Sejuta Jiwa, yang menjemput orang mati yang telah dibenarkan menuju surga Field of Reeds.",
+          "quote": "The sun barge now transformed into the evening barge known as the Ship of a Million Souls which picked up the newly arrived and justified dead to bring them to the paradise of the Field of Reeds.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c18",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "At that time Ra merges with Osiris, the judge of the dead; Osiris is seen as the \"corpse\" and Ra as the \"soul\" of the single deity Ra-Osiris.",
+          "statement_id": "Pada saat itu Ra melebur dengan Osiris, hakim orang mati; Osiris dipandang sebagai \"jasad\" dan Ra sebagai \"jiwa\" dewa tunggal Ra-Osiris.",
+          "quote": "Ra at this time becomes merged with Osiris, the judge of the dead, and Osiris is seen as the \"corpse\" and Ra as the \"soul\" of the single deity Ra-Osiris.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c19",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The gods aboard, helped by the justified dead, fight the serpent off; Apophis attacks every night and every night he is defeated.",
+          "statement_id": "Para dewa di atas bahtera, dibantu orang mati yang dibenarkan, menangkis ular itu; Apophis menyerang setiap malam dan setiap malam ia dikalahkan.",
+          "quote": "The gods onboard fight the serpent off with the help of the justified dead while, on earth, the living encourage the defenders through ritual ceremonies, channeling positive energies to strengthen those on board. Every night Apophis attacks, and every night he is defeated.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c20",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In a passage by Wilkinson quoted in this source, the god was said to direct the three seasons of the Egyptian year, influencing the annual Nile inundation and the growing and harvest seasons.",
+          "statement_id": "Menurut kutipan Wilkinson dalam sumber ini, Ra dikatakan mengarahkan tiga musim dalam setahun Mesir, sehingga memengaruhi banjir tahunan Sungai Nil serta musim tanam dan panen.",
+          "quote": "A specific and important example of Ra's influence on the earth is seen in that the god was said to direct the three seasons of the Egyptian year - thus influencing the annual inundation of the Nile and the subsequent growing and harvest seasons.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c21",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "King Userkaf, founder of the 5th Dynasty of the Old Kingdom, elevated the Cult of Ra to almost a state religion.",
+          "statement_id": "Raja Userkaf, pendiri Dinasti ke-5 Kerajaan Lama, mengangkat pemujaan Ra hampir menjadi agama negara.",
+          "quote": "The founder of the 5th Dynasty of the Old Kingdom, the king Userkaf (r. late 26th century BCE), epitomized this ideal in elevating the Cult of Ra to the position of almost a state religion and encouraging his subjects to adhere to Ra's values.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c22",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to scholar Richard H. Wilkinson, Ra is \"arguably Egypt's most important deity\", because of his link to the life-giving sun and his influence on the development of later gods.",
+          "statement_id": "Menurut sarjana Richard H. Wilkinson, Ra \"boleh dikatakan dewa terpenting Mesir\", karena kaitannya dengan matahari pemberi kehidupan dan pengaruhnya pada perkembangan dewa-dewa kemudian.",
+          "quote": "According to scholar Richard H. Wilkinson, Ra is \"arguably Egypt's most important deity\" not only because of his association with the life-giving sun but also through his influence on the development of later gods",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c23",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Amun, who would become hugely popular, developed from Ra and shares much of his mythology.",
+          "statement_id": "Amun, yang kelak sangat populer, berkembang dari Ra dan berbagi banyak mitologinya.",
+          "quote": "Amun, who would become so popular that his cult was almost monotheistic in devotion and the most powerful in ancient Egypt, developed from Ra and shares much of his mythology.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c24",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "As the first god, Ra created heka (divine magic) and harnessed it, resulting in the birth of Heka, who then maintained and controlled it.",
+          "statement_id": "Sebagai dewa pertama, Ra menciptakan heka (sihir ilahi) dan memanfaatkannya, sehingga lahirlah Heka yang kemudian memelihara dan mengendalikannya.",
+          "quote": "Ra, as the first god, created heka and harnessed it, resulting in the birth of Heka who then maintained and controlled the divine magic afterwards.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c25",
+          "source_id": "ra-q1252904-s2",
+          "host": "arce.org",
+          "statement": "Reaching the Western horizon, Ra sails the Underworld for 12 hours of night, illuminating the dead, destroying the enemies of creation, and regenerating himself in union with Osiris.",
+          "statement_id": "Setelah mencapai cakrawala barat, Ra berlayar di Dunia Bawah selama 12 jam malam, menerangi orang mati, menghancurkan musuh ciptaan, dan memperbarui dirinya dalam persatuan dengan Osiris.",
+          "quote": "Reaching the Western horizon, Ra then left the earth in darkness for 12 hours of night while he sailed the Underworld, illuminating the dead, destroying the enemies of creation, and regenerating himself in a union with Osiris, the god of resurrection.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c26",
+          "source_id": "ra-q1252904-s2",
+          "host": "arce.org",
+          "statement": "Ra could also be represented as a scarab called kheper, \"the one who comes into being\".",
+          "statement_id": "Ra juga dapat digambarkan sebagai kumbang scarab bernama kheper, \"yang menjadi ada\".",
+          "quote": "But Ra had other forms. He also could be represented as a scarab called kheper (the one who comes into being)",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c27",
+          "source_id": "ra-q1252904-s2",
+          "host": "arce.org",
+          "statement": "While the aging Ra was fine-tuning his creations, humanity rebelled; he decided on extermination and asked his eye for help.",
+          "statement_id": "Ketika Ra yang menua menyempurnakan ciptaannya, umat manusia memberontak; ia memutuskan memusnahkan mereka dan meminta bantuan matanya.",
+          "quote": "While the aging Ra was fine-tuning his creations, humanity rebelled against him. The god decided on extermination, asking his tear-giving eye again for help.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c28",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "During the reign of Akhenaten (1353-1336 BCE), who closed down and outlawed every other cult, the cult of Ra was allowed to continue.",
+          "statement_id": "Pada masa Raja Akhenaten (1353-1336 SM), yang menutup dan melarang semua kultus lain, pemujaan Ra tetap dibiarkan berlanjut.",
+          "quote": "during the reign of the so-called heretic king Akhenaten (1353-1336 BCE), when he closed down and outlawed every other cult, he allowed the cult of Ra to remain and worship to continue.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c29",
+          "source_id": "ra-q1252904-s2",
+          "host": "arce.org",
+          "statement": "According to this source, humankind came into being from the tears of Ra's eyes.",
+          "statement_id": "Menurut sumber ini, umat manusia lahir dari air mata mata Ra.",
+          "quote": "And by the way, humankind happened out of the tears of his eyes.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c30",
+          "source_id": "ra-q1252904-s2",
+          "host": "arce.org",
+          "statement": "In the Old Kingdom (2800 BCE) the divinized king of Egypt was considered the son of the Sun God.",
+          "statement_id": "Pada Kerajaan Lama (2800 SM) raja Mesir yang diilahikan dianggap putra Dewa Matahari.",
+          "quote": "In the Old Kingdom (2800 BCE), when Egypt established its institutions and expressed its royal ideology, the divinized king of Egypt was considered the son of the Sun God.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c31",
+          "source_id": "ra-q1252904-s2",
+          "host": "arce.org",
+          "statement": "The cult of Ra declined only after yet more centuries and the Roman conquest.",
+          "statement_id": "Pemujaan Ra baru surut setelah berabad-abad lagi dan penaklukan Romawi.",
+          "quote": "It would take yet more centuries and Roman conquest before the cult of Ra declined.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c32",
+          "source_id": "ra-q1252904-s2",
+          "host": "arce.org",
+          "statement": "Most of Egypt's great gods synthesized with Ra, as Amon-Ra, Khnum-Ra, Sobek-Ra, and so forth.",
+          "statement_id": "Sebagian besar dewa besar Mesir menyatu dengan Ra, misalnya sebagai Amon-Ra, Khnum-Ra, dan Sobek-Ra.",
+          "quote": "most of Egypt's great gods synthesized with Ra as Amon-Ra, Khnum-Ra, Sobek-Ra, and so forth.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c33",
+          "source_id": "ra-q1252904-s3",
+          "host": "en.wikipedia.org",
+          "statement": "All forms of life were believed to have been created by Ra; in some accounts humans were created from Ra's tears and sweat, hence the Egyptians called themselves the \"Cattle of Ra\".",
+          "statement_id": "Semua bentuk kehidupan dipercaya diciptakan oleh Ra; dalam sebagian kisah manusia tercipta dari air mata dan keringat Ra, sehingga orang Mesir menyebut diri \"Ternak Ra\".",
+          "quote": "All forms of life were believed to have been created by Ra. In some accounts, humans were created from Ra's tears and sweat, hence the Egyptians called themselves the \"Cattle of Ra\".",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c34",
+          "source_id": "ra-q1252904-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Ra ruled in all parts of the created world: the sky, the Earth, and the Duat (underworld).",
+          "statement_id": "Ra berkuasa di seluruh bagian dunia ciptaan: langit, bumi, dan Duat (dunia bawah).",
+          "quote": "Ra ruled in all parts of the created world: the sky, the Earth, and the Duat (underworld).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c35",
+          "source_id": "ra-q1252904-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Ra was believed to have ruled as the second pharaoh of Ancient Egypt, succeeding Ptah, and was the god of the Sun, order, kings and the sky.",
+          "statement_id": "Ra dipercaya memerintah sebagai firaun kedua Mesir kuno, menggantikan Ptah, dan ia adalah dewa matahari, ketertiban, raja, dan langit.",
+          "quote": "He was believed to have ruled as the second pharaoh of Ancient Egypt, succeeding Ptah. He was the god of the Sun, order, kings and the sky.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c36",
+          "source_id": "ra-q1252904-s3",
+          "host": "en.wikipedia.org",
+          "statement": "According to Egyptian myth, when Ra became too old and weary to reign on Earth, he relinquished his rule and went to the skies.",
+          "statement_id": "Menurut mitos Mesir, ketika Ra terlalu tua dan lelah untuk memerintah di bumi, ia melepaskan takhta dan pergi ke langit.",
+          "quote": "According to Egyptian myth, when Ra became too old and weary to reign on Earth, he relinquished and went to the skies.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c37",
+          "source_id": "ra-q1252904-s3",
+          "host": "en.wikipedia.org",
+          "statement": "As the Sun god, Ra's duty was to carry the Sun across the sky on his solar barque to light the day.",
+          "statement_id": "Sebagai dewa matahari, tugas Ra membawa matahari melintasi langit dengan bahtera suryanya untuk menerangi hari.",
+          "quote": "As the Sun god, his duty was to carry the Sun across the sky on his solar barque to light the day.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c38",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Worship of Ra was already established by the Old Kingdom (c. 2613-2181 BCE) and continued for almost 2,000 years until he was eclipsed by Christianity.",
+          "statement_id": "Pemujaan Ra sudah mapan pada Kerajaan Lama Mesir (sekitar 2613-2181 SM) dan berlanjut hampir 2.000 tahun hingga ia dikalahkan Kekristenan.",
+          "quote": "Worship of Ra was already established by the time of the Old Kingdom of Egypt (c. 2613-2181 BCE) and continued for almost 2,000 years until, like the other Egyptian gods, he was eclipsed by Christianity.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c39",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Userkaf and his successors called themselves \"sons of Ra\" and were understood as literally being the god's children.",
+          "statement_id": "Userkaf dan penerusnya menyebut diri \"putra Ra\" dan dipahami benar-benar sebagai anak sang dewa.",
+          "quote": "Userkaf and his successors referred to themselves as \"sons of Ra\" and were understood as literally being the children of the god.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c40",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the Pyramid Texts, Ra gathers the soul of the king to himself and takes him to the paradise of the Field of Reeds in his golden barge.",
+          "statement_id": "Dalam Teks Piramida, Ra menghimpun jiwa raja dan membawanya ke surga Field of Reeds dengan bahtera emasnya.",
+          "quote": "In these, Ra gathers the soul of the king to himself and takes him to the paradise of the Field of Reeds in his golden barge.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c41",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the Book of the Heavenly Cow, Hathor as the Eye of Ra is released to destroy humanity and kills thousands before Ra repents and begs her to stop.",
+          "statement_id": "Dalam Kitab Sapi Langit, Hathor sebagai Mata Ra dilepaskan untuk menghancurkan manusia dan membunuh ribuan orang sebelum Ra menyesal dan memintanya berhenti.",
+          "quote": "Hathor is the Eye of Ra here and is released to destroy humanity. She kills thousands before Ra realizes what he has done and repents, begging her to stop.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c42",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Userkaf built the Nekhenre, the Sun Temple of Ra, near Abusir and established a tradition of venerating Ra.",
+          "statement_id": "Userkaf membangun Nekhenre, Kuil Matahari Ra, di dekat Abusir dan memulai tradisi memuliakan Ra.",
+          "quote": "Userkaf built the Nekhenre - the Sun Temple of Ra - near Abusir and established a tradition venerating Ra which continued throughout the dynasty.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c43",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Ma'at, one of Ra's daughters, embodied his presence at the judgment and was among his defenders aboard the barge.",
+          "statement_id": "Ma'at, salah satu putri Ra, mewujudkan kehadirannya pada penghakiman dan termasuk pembelanya di atas bahtera.",
+          "quote": "Ma'at, one of Ra's daughters, also embodied his presence at the judgment and was among his defenders on board the barge",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c44",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "At Heliopolis Ra was worshiped in the form of the Mnevis bull, the living embodiment of Ra.",
+          "statement_id": "Di Heliopolis Ra dipuja dalam rupa banteng Mnevis, perwujudan hidup Ra.",
+          "quote": "he was worshiped at Heliopolis in the form of the Mnevis bull, the living embodiment of Ra, comparable to the better-known Apis bull.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c45",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Ra was the Giver of Life in the form of the sun and became associated with the Breath of Life in his form of Amun.",
+          "statement_id": "Ra adalah Pemberi Kehidupan dalam rupa matahari, dan dikaitkan dengan Napas Kehidupan dalam rupa Amun.",
+          "quote": "Ra was the Giver of Life in the form of the sun who became associated with the Breath of Life in his form of Amun.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c46",
+          "source_id": "ra-q1252904-s3",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Ra has no parents in most accounts; alternative sources name Khnum and Neith, Hathor (in the cycle of rebirth), or Mehet-Weret.",
+          "statement_id": "Menurut Wikipedia, Ra pada sebagian besar kisah tidak punya orang tua; sumber lain menyebut Khnum dan Neith, Hathor (dalam siklus kelahiran kembali), atau Mehet-Weret.",
+          "quote": "Parents None (most accounts) Khnum and Neith (alternative sources) Hathor (In the cycle of rebirth) Mehet-Weret (some accounts)",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c47",
+          "source_id": "ra-q1252904-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, Atum was essentially Ra by another name.",
+          "statement_id": "Menurut World History Encyclopedia, Atum pada dasarnya adalah Ra dengan nama lain.",
+          "quote": "In the case of Atum, he was essentially Ra only by another name",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c48",
+          "source_id": "ra-q1252904-s3",
+          "host": "en.wikipedia.org",
+          "statement": "In Ancient Egyptian the name of Ra is written 𓂋𓐰𓂝𓇳, romanized as rꜥ.",
+          "statement_id": "Dalam bahasa Mesir Kuno, nama Ra ditulis 𓂋𓐰𓂝𓇳 dan dilatinkan sebagai rꜥ.",
+          "quote": "Ancient Egyptian: 𓂋𓐰𓂝𓇳, romanized: rꜥ",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "ra-q1252904-c49",
+          "source_id": "ra-q1252904-s2",
+          "host": "arce.org",
+          "statement": "According to this source, reflections of Ra are still heard in folklore, and his fiery eye is evoked in popular songs and local expressions.",
+          "statement_id": "Menurut sumber ini, gema Ra masih terdengar dalam cerita rakyat modern, dan mata berapinya disebut dalam lagu populer dan ungkapan setempat.",
+          "quote": "Reflections of Ra are still heard in folklore as his fiery eye is evoked in popular songs and local expressions.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "hestia",
-      "file": "batch-030-fix-1.md",
+      "file": "batch-030-fix-2.md",
+      "entry_sha256": "f086eda54e4c105c68b5aed828561127950b5cde752d0e60555080c93b08e76b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 2,
+        "claims": 51,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 7 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hestia-c01",
@@ -284,24 +1000,465 @@
           "quote": "Hestia was depicted in Athenian vase painting as a modestly veiled woman sometimes holding a flowered branch (perhaps a chaste-tree).",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "hestia-c08",
+          "source_id": "hestia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "As protector of the family and political community, offerings were regularly made to Hestia at the hearth in each private home and at the town or city's public hearth.",
+          "statement_id": "Sebagai pelindung keluarga dan komunitas politik, persembahan secara rutin dibuat bagi Hestia di perapian setiap rumah dan di perapian umum kota.",
+          "quote": "In her role as a protector of the family and political community, sacrifices and offerings were regularly made to Hestia at the hearth within each private home and at the town or city's public hearth.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c09",
+          "source_id": "hestia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hestia's parents were Cronus and Rhea; her younger siblings were Zeus, Hera, Demeter, Poseidon, and Hades. Cronus, fearing overthrow by his children, swallowed them all.",
+          "statement_id": "Orang tua Hestia adalah Cronus dan Rhea; adik-adiknya Zeus, Hera, Demeter, Poseidon, dan Hades. Cronus, yang takut ditumbangkan anaknya, menelan mereka semua.",
+          "quote": "In the Greek myths, Hestia's parents were Cronus and Rhea and so her younger siblings were Zeus, Hera, Demeter, Poseidon, and Hades. Cronus, paranoid that one of his own children would overthrow his rule, swallowed them all.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c10",
+          "source_id": "hestia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In some lists Hestia is one of the 12 Olympian gods, but more commonly her place is taken by Dionysos.",
+          "statement_id": "Dalam sebagian daftar Hestia termasuk 12 dewa Olimpus, tetapi lebih umum tempatnya diisi Dionysos.",
+          "quote": "In some lists, Hestia is one of the 12 Olympian gods but more commonly her place is taken by Dionysos.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c11",
+          "source_id": "hestia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In some myths Hestia voluntarily gives up her place on Mount Olympus, swapping with Dionysos because she prefers to withdraw from godly affairs and is sure of a warm welcome in any mortal city.",
+          "statement_id": "Dalam sebagian mitos Hestia melepaskan tempatnya di Gunung Olimpus dan bertukar dengan Dionysos karena lebih suka menjauh dari urusan para dewa dan yakin disambut hangat di kota manusia mana pun.",
+          "quote": "In some myths the goddess voluntarily relinquishes her place amongst the gods on Mount Olympus, swapping with Dionysos because she prefers to withdraw from godly affairs and is sure of a fond welcome in any mortal city she chooses.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c12",
+          "source_id": "hestia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "By tradition Hestia received sacrifices before the other gods, received the first and last libations of wine at any feast, and was usually mentioned first in prayers and oaths.",
+          "statement_id": "Menurut tradisi, Hestia menerima kurban lebih dulu daripada dewa lain, mendapat persembahan anggur pertama dan terakhir pada setiap pesta, dan biasanya disebut pertama dalam doa dan sumpah.",
+          "quote": "By tradition, Hestia received any sacrifices before the other gods, even at such places as Olympia where Zeus was honoured. Hestia also received the first and last libations of wine offering at any feast and was usually mentioned first in any prayers and oaths.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c13",
+          "source_id": "hestia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In mythology Zeus gave Hestia the honour of the first sacrifice when she swore she would always remain a virgin.",
+          "statement_id": "Dalam mitologi, kehormatan menerima kurban pertama diberikan Zeus ketika Hestia bersumpah akan selalu perawan.",
+          "quote": "In mythology, the honour of receiving the first sacrifice was given by Zeus when Hestia swore that she would always remain a virgin.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c14",
+          "source_id": "hestia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In a Greek house the hearth was usually a portable brazier but symbolised the heart and soul of the household and came to represent its centre.",
+          "statement_id": "Di rumah Yunani, perapian biasanya berupa tungku portabel, tetapi melambangkan jantung dan jiwa rumah tangga dan menjadi pusatnya.",
+          "quote": "Within a Greek house, the hearth was usually a portable brazier but it symbolised the heart and soul of the household and came to represent its centre.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c15",
+          "source_id": "hestia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hestia's personification as the hearth also linked her to hospitality, the protection of guests, and the inventor of good housebuilding.",
+          "statement_id": "Personifikasi Hestia sebagai perapian juga mengaitkannya dengan keramahtamahan, perlindungan tamu, dan penemu pembangunan rumah yang baik.",
+          "quote": "The goddesses personification as the hearth also linked her to ideas of hospitality, the protection of guests, and the inventor of good housebuilding.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c16",
+          "source_id": "hestia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Besides individual homes, Hestia was particularly associated with the prytaneion and bouleuterion, the symbolic centre of a town where local government business was carried out.",
+          "statement_id": "Selain rumah pribadi, Hestia terutama dikaitkan dengan prytaneion dan bouleuterion, pusat simbolis kota tempat urusan pemerintahan setempat dijalankan.",
+          "quote": "Besides individual homes, Hestia was particularly associated with the prytaneion and bouleuterion, the symbolic centre of a town or city where civic functions were held and the business of local government was carried out.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c17",
+          "source_id": "hestia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Public worship of Hestia was especially prevalent in Attica, with notable cults at Piraeus, Eleusis, Halimos, and Krokonidai.",
+          "statement_id": "Pemujaan umum Hestia terutama marak di Attica dengan kultus penting di Piraeus, Eleusis, Halimos, dan Krokonidai.",
+          "quote": "Public worship of Hestia was especially prevalent in Attica with notable cults at Piraeus, Eleusis, Halimos, and Krokonidai.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c18",
+          "source_id": "hestia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hestia was the only goddess who did not join the Olympians in their failed attack on Zeus.",
+          "statement_id": "Hestia adalah satu-satunya dewi yang tidak ikut para dewa Olimpus dalam serangan gagal mereka terhadap Zeus.",
+          "quote": "The Greek goddess was the only one to not join the Olympians in their failed attack on Zeus.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c19",
+          "source_id": "hestia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Greek art Hestia is usually presented as a young woman wearing a head covering and modest clothing.",
+          "statement_id": "Dalam seni Yunani, Hestia biasanya ditampilkan sebagai perempuan muda berpenutup kepala dan berpakaian sederhana.",
+          "quote": "Hestia is usually presented in Greek art as a young female wearing a head covering & modest clothing.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c20",
+          "source_id": "hestia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Because she has no particular mythology, Hestia appears rarely in Greek art and can be difficult to distinguish from other goddesses.",
+          "statement_id": "Karena tidak punya mitologi khusus, Hestia jarang muncul dalam seni Yunani dan sulit dibedakan dari dewi lain.",
+          "quote": "As Hestia has no particular mythology surrounding her, she does not appear very often in Greek art, and when she does, she can be difficult to distinguish from other goddesses",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c21",
+          "source_id": "hestia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the Roman period Hestia, now known as Vesta, continued to be worshipped, for example at Ephesus where the high priest was a woman.",
+          "statement_id": "Pada masa Romawi, Hestia, yang kini dikenal sebagai Vesta, terus dipuja, misalnya di Ephesus tempat imam besarnya perempuan.",
+          "quote": "In the Roman period, Hestia, now known as Vesta, continued to be worshipped, for example at Ephesus where the high priest was a female.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c22",
+          "source_id": "hestia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hestia appears on the Francois Vase (570-565 BCE) and, this time named, on the north frieze of the Siphnian Treasury at Delphi (c. 525 BCE), facing two giants in hoplite uniform with an unidentified goddess.",
+          "statement_id": "Hestia muncul pada Vas Francois (570-565 SM) dan, kali ini dengan nama, pada friz utara Perbendaharaan Siphnos di Delphi (sekitar 525 SM) menghadapi dua raksasa berbaju prajurit hoplit.",
+          "quote": "She appears on the celebrated Francois Vase (570-565 BCE) and, this time named, on the north frieze of the Siphinian Treasury at Delphi (c. 525 BCE) where she and an unidentified goddess face two giants in hoplite uniform.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c23",
+          "source_id": "hestia-s2",
+          "host": "www.theoi.com",
+          "statement": "As goddess of the family hearth, Hestia also presided over the baking of bread and the preparation of the family meal.",
+          "statement_id": "Sebagai dewi perapian keluarga, Hestia juga memimpin pembuatan roti dan penyiapan hidangan keluarga.",
+          "quote": "As the goddess of the family hearth she also presided over the cooking of bread and the preparation of the family meal.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c24",
+          "source_id": "hestia-s2",
+          "host": "www.theoi.com",
+          "statement": "In myth Hestia was the firstborn of Kronos and Rhea, swallowed by her father at birth; Zeus later forced the old Titan to disgorge Hestia and her siblings.",
+          "statement_id": "Dalam mitos Hestia adalah anak sulung Kronos dan Rhea yang ditelan ayahnya saat lahir; Zeus kemudian memaksa sang Titan memuntahkan Hestia dan saudara-saudaranya.",
+          "quote": "In myth Hestia was the first born child of Kronos (Cronus) and Rhea who was swallowed by her father at birth. Zeus later forced the old Titan to disgorge Hestia and her siblings.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c25",
+          "source_id": "hestia-s2",
+          "host": "www.theoi.com",
+          "statement": "Being the first swallowed and last disgorged, Hestia was named both the eldest and youngest of the six Kronides.",
+          "statement_id": "Karena yang pertama ditelan sekaligus yang terakhir dimuntahkan, Hestia disebut sebagai yang tertua sekaligus termuda dari enam Kronid.",
+          "quote": "As the first to be swallowed she was also the last to be disgorged, and so was named as both the eldest and youngest of the six Kronides.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c26",
+          "source_id": "hestia-s2",
+          "host": "www.theoi.com",
+          "statement": "When Apollon and Poseidon sought her hand, Hestia refused and asked Zeus to let her remain an eternal virgin; he agreed and she took her place at his royal hearth.",
+          "statement_id": "Ketika Apollon dan Poseidon melamarnya, Hestia menolak dan meminta Zeus membiarkannya tetap perawan; Zeus setuju dan ia mengambil tempat di perapian kerajaan Zeus.",
+          "quote": "When the gods Apollon and Poseidon sought for her hand in marriage, Hestia refused and asked Zeus to let her remain an eternal virgin. He agreed and she took her place at his royal hearth.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c27",
+          "source_id": "hestia-s2",
+          "host": "www.theoi.com",
+          "statement": "According to the Homeric Hymn to Aphrodite, Zeus gave her high honour instead of marriage: a place in the midst of the house, the richest portion, a share of honour in all temples, and the position of chief of the goddesses among mortals.",
+          "statement_id": "Menurut Himne Homerik untuk Aphrodite, Zeus memberinya kehormatan tinggi sebagai ganti pernikahan: tempat di tengah rumah, bagian terkaya, bagian kehormatan di semua kuil, dan kedudukan sebagai dewi utama di antara manusia.",
+          "quote": "So Zeus the Father gave her a high honour instead of marriage, and she has her place in the midst of the house and has the richest portion. In all the temples of the gods she has a share of honour, and among all mortal men she is chief of the goddesses.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c28",
+          "source_id": "hestia-s2",
+          "host": "www.theoi.com",
+          "statement": "According to the Homeric Hymn to Hestia, mortals hold no banquet without her, since sweet wine is poured in offering to Hestia first and last.",
+          "statement_id": "Menurut Himne Homerik untuk Hestia, manusia tidak mengadakan pesta tanpa Hestia, karena anggur manis dituangkan baginya lebih dulu dan terakhir.",
+          "quote": "For without you mortals hold no banquet,--where one does not duly pour sweet wine in offering to Hestia both first and last.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c29",
+          "source_id": "hestia-s2",
+          "host": "www.theoi.com",
+          "statement": "Hestia was regarded as presiding at all sacrifices and, as goddess of the sacred fire of the altar, had a share in the sacrifices in all the temples of the gods.",
+          "statement_id": "Hestia dipandang memimpin semua kurban dan, sebagai dewi api suci altar, mendapat bagian dalam kurban di semua kuil para dewa.",
+          "quote": "Hestia was looked upon as presiding at all sacrifices, and, as the goddess of the sacred fire of the altar, she had a share in the sacrifices in all the temples of the gods.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c30",
+          "source_id": "hestia-s2",
+          "host": "www.theoi.com",
+          "statement": "As the hearth was seen as the sacred centre of domestic life, Hestia was the goddess of domestic life and giver of all domestic happiness and blessings, believed to dwell in the inner part of every house.",
+          "statement_id": "Karena perapian dipandang pusat suci kehidupan rumah tangga, Hestia dianggap dewi kehidupan rumah tangga dan pemberi segala kebahagiaan dan berkat rumah tangga, serta dipercaya berdiam di bagian dalam setiap rumah.",
+          "quote": "As the hearth was looked upon as the sacred centre of domestic life, so Hestia was the goddess of domestic life and the giver of all domestic happiness and blessings, and as such she was believed to dwell in the inner part of every house",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c31",
+          "source_id": "hestia-s2",
+          "host": "www.theoi.com",
+          "statement": "In classical sculpture she was also veiled, with a kettle as her attribute.",
+          "statement_id": "Dalam patung klasik Hestia juga berkerudung, dengan ketel sebagai atributnya.",
+          "quote": "In classical sculpture she was also veiled, with a kettle as her attribute.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c32",
+          "source_id": "hestia-s2",
+          "host": "www.theoi.com",
+          "statement": "Solemn oaths were sworn by the goddess of the hearth, and the hearth itself was the sacred asylum where suppliants implored the protection of the household.",
+          "statement_id": "Sumpah khidmat diucapkan demi dewi perapian, dan perapian sendiri adalah suaka suci tempat pemohon meminta perlindungan penghuni rumah.",
+          "quote": "Solemn oaths were sworn by the goddess of the hearth, and the hearth itself was the sacred asylum where suppliants implored the protection of the inhabitants of the house.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c33",
+          "source_id": "hestia-s2",
+          "host": "www.theoi.com",
+          "statement": "Sacrifices to Hestia consisted of the first fruits, water, oil, wine, and cows one year old.",
+          "statement_id": "Kurban bagi Hestia berupa buah sulung, air, minyak, anggur, dan sapi berumur satu tahun.",
+          "quote": "Her sacrifices consisted of the primitiae of fruit, water, oil, wine, and cows of one year old.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c34",
+          "source_id": "hestia-s2",
+          "host": "www.theoi.com",
+          "statement": "If the fire of her hearth went out, it could not be relit with ordinary fire but only by fire made by friction or by burning glasses drawing fire from the sun.",
+          "statement_id": "Jika api perapiannya padam, api itu tidak boleh dinyalakan kembali dengan api biasa, melainkan dengan api hasil gesekan atau kaca pembakar yang menarik api dari matahari.",
+          "quote": "If ever the fire of her hearth became extinct, it was not allowed to be lighted again with ordinary fire, but either by fire produced by friction, or by burning glasses drawing fire from the sun.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c35",
+          "source_id": "hestia-s2",
+          "host": "www.theoi.com",
+          "statement": "Hestia often appears together with Hermes as protector of the works of man.",
+          "statement_id": "Hestia sering tampil bersama Hermes sebagai pelindung hasil karya manusia.",
+          "quote": "In this respect she appears often together with Hermes, who was likewise a deus penetralis, as protecting the works of man.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c36",
+          "source_id": "hestia-s2",
+          "host": "www.theoi.com",
+          "statement": "The link between Hestia and Apollo and Poseidon appears also in the temple at Delphi, where the three were worshipped together, and Hestia and Poseidon appeared together at Olympia.",
+          "statement_id": "Kaitan Hestia dengan Apollo dan Poseidon tampak pula di kuil Delphi, tempat ketiganya dipuja bersama, dan Hestia serta Poseidon juga muncul bersama di Olympia.",
+          "quote": "The connection between Hestia and Apollo and Poseidon, which is thus alluded to in the legend, appears also in the temple of Delphi, where the three divinities were worshipped in common, and Hestia and Poseidon appeared together also at Olympia.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c37",
+          "source_id": "hestia-s2",
+          "host": "www.theoi.com",
+          "statement": "There was a separate temple of Hestia at Hermione, but it contained no image of her, only an altar.",
+          "statement_id": "Ada kuil Hestia tersendiri di Hermione, tetapi tanpa arca, hanya altar.",
+          "quote": "There was, however, a separate temple of Hestia at Hermione, though it contained no image of her, but only an altar.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c38",
+          "source_id": "hestia-s2",
+          "host": "www.theoi.com",
+          "statement": "In Hesiod's Theogony (Greek epic of the 8th or 7th century BC according to Theoi), Rhea bore Kronos's children Hestia, Demeter, and Hera.",
+          "statement_id": "Dalam Theogony Hesiod (epos Yunani abad ke-8 atau ke-7 SM menurut Theoi), Rhea melahirkan anak-anak Kronos, yaitu Hestia, Demeter, dan Hera.",
+          "quote": "Hesiod, Theogony 453 ff (trans. Evelyn-White) (Greek epic C8th or C7th B.C.) : \"But Rhea was subject in love to Kronos (Cronus) and bare splendid children, Hestia, Demeter, and gold-shod Hera",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c39",
+          "source_id": "hestia-s2",
+          "host": "www.theoi.com",
+          "statement": "In Ovid's Fasti, Vesta (Hestia) takes a carefree nap during the gods' feast, and Priapus, prowling for nymphs and goddesses, spots her.",
+          "statement_id": "Dalam Fasti Ovidius, Vesta (Hestia) tertidur pulas saat pesta para dewa, dan Priapus yang berkeliaran mencari nimfa dan dewi melihatnya.",
+          "quote": "Vesta [Hestia] lies down and takes a quiet, carefree nap, just as she was, her head pillowed by turf. But the red saviour of gardens [Priapos] prowls for Nymphai and goddesses, and wanders back and forth. He spots Vesta.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c40",
+          "source_id": "hestia-s2",
+          "host": "www.theoi.com",
+          "statement": "In that story a donkey brays at the wrong moment; the goddess wakes frightened, the crowd rushes to her, and Priapus flees through hostile hands.",
+          "statement_id": "Dalam kisah itu keledai Silenus meringkik pada saat yang salah; sang dewi terbangun ketakutan, para hadirin berlari menolongnya, dan Priapus lari melewati tangan-tangan yang memusuhinya.",
+          "quote": "when it bellowed an untimely bray. The goddess stars up, frightened by the noise. The whole crowd fly to her; the god flees through hostile hands.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c41",
+          "source_id": "hestia-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Hestia's name means \"hearth, fireplace, altar\".",
+          "statement_id": "Nama Hestia berarti \"perapian, tungku, altar\".",
+          "quote": "Hestia's name means \"hearth, fireplace, altar\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c42",
+          "source_id": "hestia-s3",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the hymn's author was likely trying to reconcile two conflicting birth orders: in the Theogony Hestia is firstborn, while in the Iliad Hera states that she is the eldest.",
+          "statement_id": "Menurut Wikipedia, pengarang himne tampaknya mencoba mendamaikan dua urutan kelahiran yang bertentangan: dalam Theogony Hestia anak sulung, dalam Iliad Hera menyatakan dirinya yang tertua.",
+          "quote": "the anonymous author of the hymn was trying to reconcile the two conflicting birth orders given by Hesiod and Homer; while in the Theogony the firstborn is Hestia, in the Iliad Hera states that she is the eldest child.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c43",
+          "source_id": "hestia-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Zeus assigned Hestia the duty of feeding and maintaining the fires of the Olympian hearth with the fatty, combustible portions of animal sacrifices.",
+          "statement_id": "Zeus menugaskan Hestia memberi makan dan memelihara api perapian Olimpus dengan bagian lemak kurban hewan yang mudah terbakar.",
+          "quote": "Zeus assigned Hestia a duty to feed and maintain the fires of the Olympian hearth with the fatty, combustible portions of animal sacrifices to the gods.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c44",
+          "source_id": "hestia-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Whenever a new colony was founded, a flame from Hestia's public hearth in the mother city was carried to the new settlement.",
+          "statement_id": "Setiap kali koloni baru didirikan, nyala api dari perapian umum Hestia di kota induk dibawa ke permukiman baru.",
+          "quote": "Whenever a new colony was established, a flame from Hestia's public hearth in the mother city would be carried to the new settlement.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c45",
+          "source_id": "hestia-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Like Athena and Artemis, Hestia chose never to marry and remained an eternal virgin goddess, forever tending the hearth of Olympus.",
+          "statement_id": "Seperti Athena dan Artemis, Hestia memilih tidak pernah menikah dan tetap menjadi dewi perawan abadi yang selalu merawat perapian Olimpus.",
+          "quote": "Like Athena and Artemis, Hestia elected never to marry and remained an eternal virgin goddess instead, forever tending to the hearth of Olympus.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c46",
+          "source_id": "hestia-s3",
+          "host": "en.wikipedia.org",
+          "statement": "In Ancient Greek her name is written Ἑστία, literally 'hearth, fireplace, altar'.",
+          "statement_id": "Dalam bahasa Yunani Kuno namanya ditulis Ἑστία, secara harfiah \"perapian, tungku, altar\".",
+          "quote": "Ancient Greek: Ἑστία, lit. 'hearth, fireplace, altar'",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c47",
+          "source_id": "hestia-s2",
+          "host": "www.theoi.com",
+          "statement": "In the Homeric Hymn to Aphrodite her name is written Histia (Hestia).",
+          "statement_id": "Dalam Himne Homerik untuk Aphrodite namanya ditulis Histia (Hestia).",
+          "quote": "Nor yet does the pure maiden Histia (Hestia) love Aphrodite's works.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c48",
+          "source_id": "hestia-s2",
+          "host": "www.theoi.com",
+          "statement": "In a town's prytaneum Hestia had her special sanctuary under the name Prutanitis, with a statue and the sacred hearth.",
+          "statement_id": "Di prytaneum kota, Hestia memiliki tempat suci khusus dengan nama Prutanitis, lengkap dengan arca dan perapian suci.",
+          "quote": "where the goddess had her especial sanctuary (thalamos), under the name of Prutanitis, with a statue and the sacred hearth.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c49",
+          "source_id": "hestia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Priests and priestesses specifically dedicated to Hestia seem to have been particularly prevalent from the Hellenistic period.",
+          "statement_id": "Imam dan imam perempuan yang khusus mengabdi kepada Hestia tampaknya sangat lazim sejak masa Helenistik.",
+          "quote": "Priests and priestesses specifically dedicated to Hestia seem to have been particularly prevalent from the Hellenistic period.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c50",
+          "source_id": "hestia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Because Hestia was named first, a saying developed: 'to begin from Hestia.'",
+          "statement_id": "Karena Hestia disebut pertama, berkembang ungkapan \"mulai dari Hestia\".",
+          "quote": "For this reason, there developed a saying 'to begin from Hestia.'",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hestia-c51",
+          "source_id": "hestia-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hestia is sometimes shown pouring a libation, as on a c. 500 BCE red-figure kylix in Berlin where she is with Apollo and Hermes as they lead Hercules to Mount Olympus.",
+          "statement_id": "Hestia kadang digambarkan menuang persembahan, misalnya pada kylix figur merah sekitar 500 SM di Berlin bersama Apollo dan Hermes yang menuntun Hercules ke Gunung Olimpus.",
+          "quote": "sometimes she is pouring a libation, as in a c. 500 BCE red-figure kylix now in the Berlin Staatliche Museen which shows her in the company of Apollo and Hermes as they lead Hercules to Mount Olympus.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "isis",
-      "file": "batch-030-fix-1.md",
+      "file": "batch-030-fix-2.md",
+      "entry_sha256": "e67708eff643c0805187c51ba0020d936a120a6db9dcfd44c8c81b2538d15f18",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 3,
+        "claims": 54,
+        "sources": 5,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 8 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "6 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -323,9 +1480,8 @@
           "statement_id": "Nama Isis pertama kali tercatat dalam Teks Piramida dari dinasti kelima.",
           "quote": "Isis’ name is first attested in the fifth dynasty in the Pyramid texts.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250406193923id_/https://www.metmuseum.org/art/collection/search/570676",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "isis-c03",
@@ -335,9 +1491,8 @@
           "statement_id": "Isis adalah istri Osiris dan ibu Horus.",
           "quote": "She was the wife of Osiris and the mother of Horus, and thus was symbolically mother to the pharaoh.",
           "context": "religious-tradition",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250406193923id_/https://www.metmuseum.org/art/collection/search/570676",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "isis-c04",
@@ -347,9 +1502,8 @@
           "statement_id": "Menurut mitos, Isis menghidupkan kembali Osiris setelah dibunuh Seth.",
           "quote": "According to this myth Isis was able to revive Osiris after he had been killed by his brother Seth and she became pregnant with their son Horus.",
           "context": "religious-tradition",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260609112730id_/https://www.metmuseum.org/art/collection/search/545961",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "isis-c05",
@@ -359,9 +1513,8 @@
           "statement_id": "Isis membesarkan Horus dan melindunginya dari Seth.",
           "quote": "After Horus’ birth, Isis nurtured her child and protected him from Seth and other dangers.",
           "context": "religious-tradition",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260609112730id_/https://www.metmuseum.org/art/collection/search/545961",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "isis-c06",
@@ -371,9 +1524,8 @@
           "statement_id": "Sebuah patung kecil menunjukkan Isis menyusui putranya Horus.",
           "quote": "This statuette shows the goddess in her most beloved pose, nursing her son Horus (known also as the lactans pose).",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250406193923id_/https://www.metmuseum.org/art/collection/search/570676",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "isis-c07",
@@ -393,28 +1545,483 @@
           "statement_id": "Patung-patung Isis bersama Horus menonjolkan perannya sebagai pemberi kehidupan dan pelindung.",
           "quote": "The abundance of statuettes in this particular pose demonstrate some of the qualities for which Isis was most valued in the first millennium BC: her role as a life-giver and protector.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250406193923id_/https://www.metmuseum.org/art/collection/search/570676",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "isis-c09",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, her name comes from the Egyptian Eset (\"the seat\"), referring to her stability and also the throne of Egypt, as she was considered the mother of every pharaoh through the king's association with Horus, her son.",
+          "statement_id": "Menurut World History Encyclopedia, namanya berasal dari kata Mesir Eset (\"tempat duduk\"), yang merujuk pada kestabilannya dan juga takhta Mesir, karena ia dianggap ibu setiap firaun lewat kaitan raja dengan Horus, putranya.",
+          "quote": "Her name comes from the Egyptian Eset, (\"the seat\") which referred to her stability and also the throne of Egypt as she was considered the mother of every pharaoh through the king's association with Horus, Isis' son.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c10",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Isis's symbols are the scorpion (who kept her safe in hiding), the kite (a kind of falcon whose shape she assumed in bringing her husband back to life), the empty throne, and the sistrum.",
+          "statement_id": "Lambang Isis adalah kalajengking (yang menjaganya saat bersembunyi), kite (sejenis elang yang wujudnya ia ambil untuk menghidupkan suaminya), takhta kosong, dan sistrum.",
+          "quote": "Her symbols are the scorpion (who kept her safe when she was in hiding), the kite (a kind of falcon whose shape she assumed in bringing her husband back to life), the empty throne, and the sistrum.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c11",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Isis was also known as Weret-Kekau (\"the Great Magic\") for her power and Mut-Netjer, \"Mother of the Gods\", and had many names depending on the role she was fulfilling.",
+          "statement_id": "Isis juga dikenal sebagai Weret-Kekau (\"Sihir Agung\") karena kekuatannya dan Mut-Netjer, \"Ibu Para Dewa\", serta punya banyak nama menurut peran yang sedang dijalankannya.",
+          "quote": "She was also known as Weret-Kekau (\"the Great Magic\") for her power and Mut-Netjer, \"Mother of the Gods\" but was known by many names depending on which role she was fulfilling at the moment.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c12",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In time Isis became so popular that all gods were considered mere aspects of her and she was the only Egyptian deity worshiped by everyone in the country.",
+          "statement_id": "Lama-kelamaan Isis begitu populer sehingga semua dewa dianggap sekadar aspek Isis dan ia satu-satunya dewa Mesir yang dipuja semua orang di negeri itu.",
+          "quote": "In time, she became so popular that all gods were considered mere aspects of Isis and she was the only Egyptian deity worshiped by everyone in the country.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c13",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Like the Eleusinian Mysteries, the cult of Isis grew into a mystery religion promising the secrets of life and death to initiates, who were sworn to secrecy.",
+          "statement_id": "Seperti Misteri Eleusis, kultus Isis tumbuh menjadi agama misteri yang menjanjikan rahasia hidup dan mati kepada para peserta inisiasi, yang disumpah merahasiakannya.",
+          "quote": "Like the Eleusinian Mysteries, the Cult of Isis grew into a Mystery Religion promising the secrets of life and death to initiates, who were then sworn to secrecy.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c14",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Her temple on the island of Philae in Upper Egypt remained an active pilgrimage site for thousands of years until closed in the 6th century CE by the Christian emperor Justinian.",
+          "statement_id": "Kuil Isis di pulau Philae di Mesir Hulu tetap menjadi tempat ziarah selama ribuan tahun hingga ditutup pada abad ke-6 M oleh kaisar Kristen Justinian.",
+          "quote": "Her temple on the island of Philae in Upper Egypt would remain an active pilgrimage site for thousands of years until closed in the 6th century CE by the Christian emperor Justinian.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c15",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Isis eventually became associated with the sea and was protectress of sailors and merchants who wore talismans honoring her and invoked her aid in times of trouble.",
+          "statement_id": "Isis akhirnya dikaitkan dengan laut dan menjadi pelindung pelaut dan pedagang yang memakai jimat untuknya dan memohon bantuannya saat bahaya.",
+          "quote": "Eventually, she became associated with the sea and was a protectress of sailors and merchants who wore talismans honoring her and invoked her aid in times of trouble (attested to by archaeological evidence).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c16",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Unlike other Egyptian gods, Isis transcended national borders and was worshiped by Greeks and Romans, who believed in her as the supreme deity who created the world.",
+          "statement_id": "Berbeda dari dewa Mesir lainnya, Isis melampaui batas negara dan dipuja orang Yunani dan Romawi yang meyakininya sebagai dewa tertinggi pencipta dunia.",
+          "quote": "Unlike the other gods of Egypt, Isis transcended national borders and was worshiped by the Greeks and the Romans who believed in her as the supreme deity who created the world.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c17",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Set was jealous of his brother's power and prestige and plotted to get rid of him, having a beautiful coffin made to Osiris's exact height.",
+          "statement_id": "Set iri pada kekuasaan dan gengsi saudaranya dan merencanakan menyingkirkannya, dengan membuat peti mati indah seukuran tinggi Osiris.",
+          "quote": "Set was jealous of his brother's power and prestige, however, and so conceived a plan to get rid of him. He had a beautiful coffin made to Osiris' exact height",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c18",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Isis was distraught when her husband went missing and searched all through Egypt without success.",
+          "statement_id": "Isis sangat bersedih ketika suaminya hilang dan mencarinya ke seluruh Mesir tanpa hasil.",
+          "quote": "Isis was distraught when she found her husband was missing and went searching for him all through Egypt without success.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c19",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Isis cut Osiris from the tree and carried his body back to Egypt, hiding him from Set in the swampy region of the Nile Delta.",
+          "statement_id": "Isis mengeluarkan Osiris dari pohon dan membawa jasadnya kembali ke Mesir, menyembunyikannya dari Set di rawa-rawa Delta Nil.",
+          "quote": "After leaving the court, Isis cut Osiris from the tree and carried his body back to Egypt where she hid him from Set in the swampy region of the Nile Delta.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c20",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Isis was still able to revive Osiris and, in the form of a kite, flew around him and became pregnant with a son, Horus.",
+          "statement_id": "Isis berhasil menghidupkan kembali Osiris, mengambil wujud kite (sejenis elang), terbang mengelilinginya, dan mengandung putra, Horus.",
+          "quote": "Isis still was able to revive Osiris and, once he was alive, she assumed the form of a kite and flew around him, drew the seed from his body into her own, and became pregnant with a son, Horus",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c21",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Though alive again, Osiris was incomplete and could no longer rule the living; he withdrew into the afterlife where he became Lord and Judge of the Dead.",
+          "statement_id": "Meski hidup lagi, Osiris tidak lengkap dan tak bisa lagi memerintah dunia orang hidup; ia mundur ke alam baka dan menjadi Penguasa dan Hakim Orang Mati.",
+          "quote": "Even though Osiris now lived, he was incomplete and could no longer rule the land of the living. He withdrew into the afterlife where he became Lord and Judge of the Dead.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c22",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Fearing what Set might do, Isis hid Horus in the swamps of Egypt until he was grown; Horus then emerged as a mighty warrior and battled Set for control of the world.",
+          "statement_id": "Karena takut akan perbuatan Set, Isis menyembunyikan Horus di rawa-rawa Mesir sampai dewasa; Horus lalu muncul sebagai prajurit perkasa dan melawan Set demi menguasai dunia.",
+          "quote": "Isis, fearing what Set might do to her son, hid Horus among the swamps of Egypt until he was grown. At that point, Horus emerged as a mighty warrior and battled Set for control of the world.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c23",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the story of Isis and the Seven Scorpions, Isis called each scorpion by its secret name, dominating them, and recited spells of great magic; the poison left the child's body and he revived.",
+          "statement_id": "Dalam kisah Isis dan Tujuh Kalajengking, Isis memanggil tiap kalajengking dengan nama rahasianya sehingga menundukkan mereka, melafalkan mantra sihir agung, dan racun lenyap dari tubuh anak itu sehingga ia sadar kembali.",
+          "quote": "Isis took the child in her arms and called each of the scorpions by their secret name, thereby dominating them and neutralizing their power, and recited spells of great magic. The poison evaporated, leaving the child's body, and he revived.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c24",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "When Horus was an infant and Isis was hiding him in the swamp from Set, seven scorpions kept her company and formed a kind of bodyguard around her when she went out for food in the evenings.",
+          "statement_id": "Ketika Horus masih bayi dan Isis menyembunyikannya di rawa dari Set, tujuh kalajengking menemaninya dan membentuk semacam pengawal di sekelilingnya saat ia keluar mencari makan pada malam hari.",
+          "quote": "The story relates how, when Horus was an infant and Isis was hiding him in the swamp lands from Set, seven scorpions kept her company. She would sometimes go out in the evenings for food, and the scorpions would form a kind of bodyguard around her.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c25",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "When Alexander the Great conquered Egypt in 331 BCE his troops associated Isis with the Greek goddess Demeter.",
+          "statement_id": "Ketika Aleksander Agung menaklukkan Mesir pada 331 SM, pasukannya mengaitkan Isis dengan dewi Yunani Demeter.",
+          "quote": "When Alexander the Great (l. 356-323 BCE) conquered Egypt in 331 BCE his troops associated Isis with the popular Greek goddess Demeter.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c26",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Under Caligula (37-41 CE) the worship of Isis in Rome was firmly established by the emperor through the Isiac Festival in her honor.",
+          "statement_id": "Pada masa Caligula (37-41 M) pemujaan Isis di Roma dikukuhkan oleh kaisar lewat Festival Isiak.",
+          "quote": "under the reign of Caligula (r. 37-41 CE) the worship of Isis in Rome was firmly established by the emperor through the Isiac Festival in her honor.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c27",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "A temple of Isis has been found in Pompeii, and another at the Roman site of Londinium (modern London) in Great Britain.",
+          "statement_id": "Kuil Isis ditemukan di Pompeii dan di situs Romawi Londinium (London modern) di Britania Raya.",
+          "quote": "A temple of Isis has been found in Pompeii, and another in Great Britain at the Roman site of Londinium (modern London).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c28",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, her cult in Rome was the greatest rival of the young Christian religion, which drew on the image of Isis and the child-god Horus for the Madonna with the Christ child.",
+          "statement_id": "Menurut World History Encyclopedia, kultus Isis di Roma adalah saingan terbesar agama Kristen yang masih muda, yang meminjam citra Isis dan Horus kecil untuk penggambaran Madonna dengan bayi Kristus.",
+          "quote": "Her cult in Rome was the greatest rival to the young religion of Christianity, which drew upon the image of Isis and the child-god Horus for the depiction of the Madonna with the Christ child.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c29",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Philae continued as a vital site dedicated to Isis until the emperor Justinian closed it in 529 CE.",
+          "statement_id": "Philae tetap menjadi situs penting bagi Isis hingga kaisar Justinian menutupnya pada 529 M.",
+          "quote": "Philae continued as a vital site dedicated to Isis until the emperor Justinian closed it, along with other important centers of learning and worship in 529 CE.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c30",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Nephthys was never depicted as evil to Isis's good but was associated with death while Isis was associated with life, so the two sister-deities symbolized cosmic balance.",
+          "statement_id": "Nephthys tidak pernah digambarkan jahat bagi Isis yang baik, melainkan dikaitkan dengan kematian sedangkan Isis dengan kehidupan, sehingga kedua dewi bersaudari itu melambangkan keseimbangan kosmis.",
+          "quote": "Nephthys was never depicted as evil to Isis' good but was associated with death while Isis with life and so these two sister-deities symbolized cosmic balance.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c31",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Isis, her husband, and her son replaced the Theban Triad of Amon, Mut, and Khons, the most popular trinity of gods in Egypt.",
+          "statement_id": "Isis bersama suami dan putranya menggantikan Triad Thebes (Amon, Mut, dan Khons), trinitas dewa yang paling populer di Mesir.",
+          "quote": "She and her husband and son replaced the Theban Triad of Amon, Mut, and Khons, who had been the most popular trinity of gods in Egypt.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c32",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "As the goddess who brought the yearly Nile inundation that fertilized the land she was Sati, and as the goddess who created and preserved life she was Ankhet.",
+          "statement_id": "Sebagai dewi pembawa banjir tahunan Sungai Nil yang menyuburkan tanah ia disebut Sati, dan sebagai dewi yang menciptakan dan memelihara kehidupan ia disebut Ankhet.",
+          "quote": "As the goddess who brought the yearly inundation of the Nile which fertilized the land she was Sati, for example, and as the goddess who created and preserved life she was Ankhet, and so on.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c33",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Isis is regularly portrayed as a selfless, giving mother, wife, and protectress who puts others' interests and well-being ahead of her own.",
+          "statement_id": "Isis biasanya digambarkan sebagai ibu, istri, dan pelindung yang tanpa pamrih, murah hati, dan mengutamakan kepentingan orang lain.",
+          "quote": "She is regularly portrayed as the selfless, giving, mother, wife, and protectress, who places other's interests and well-being ahead of her own.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c34",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Nut gave birth to five children by Geb: Osiris, Isis, Set, Nephthys, and Horus (known as Horus the Elder).",
+          "statement_id": "Nut melahirkan lima anak dari Geb: Osiris, Isis, Set, Nephthys, dan Horus (Horus yang Tua).",
+          "quote": "Nut, however, was already pregnant by Geb and soon gave birth to five children: Osiris, Isis, Set, Nephthys, and Horus (known as Horus the Elder).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c35",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Osiris married Isis and, as the firstborn, ruled as Lord of the Earth with Isis as his queen and consort.",
+          "statement_id": "Osiris menikahi Isis dan, sebagai anak sulung, memerintah sebagai Penguasa Bumi dengan Isis sebagai ratu dan pendampingnya.",
+          "quote": "Osiris married Isis and, as the first born, assumed rule as Lord of the Earth, with Isis as his queen and consort.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c36",
+          "source_id": "isis-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In Adlington's translation of Apuleius, the goddess calls herself the natural mother of all things, mistress of all the elements, the initial progeny of worlds, chief of divine powers, and Queen of heaven.",
+          "statement_id": "Dalam terjemahan Adlington atas karya Apuleius, sang dewi menyebut dirinya ibu alami segala sesuatu, penguasa semua unsur, keturunan awal dunia, pemimpin kuasa ilahi, dan Ratu Langit.",
+          "quote": "I am she that is the naturall mother of all things, mistresse and governesse of all the Elements, the initiall progeny of worlds, chiefe of powers divine, Queene of heaven!",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c37",
+          "source_id": "isis-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In Apuleius's work the goddess declares that at her will the planets of the air, the wholesome winds of the seas, and the silences of hell are disposed.",
+          "statement_id": "Sang dewi dalam karya Apuleius menyatakan bahwa atas kehendaknya planet-planet langit, angin laut yang menyehatkan, dan kesunyian neraka diatur.",
+          "quote": "at my will the planets of the ayre, the wholesome winds of the Seas, and the silences of hell be diposed",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c38",
+          "source_id": "isis-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In Apuleius's work the goddess says she is worshipped under many names: the Phrygians call her mother of the Gods, the Athenians Minerva, the Cyprians Venus, and so on.",
+          "statement_id": "Dalam karya Apuleius sang dewi menyebut bahwa ia dipuja dengan banyak nama: bangsa Frigia menyebutnya ibu para dewa, orang Athena Minerva, orang Siprus Venus, dan seterusnya.",
+          "quote": "for the Phrygians call me the mother of the Gods: the Athenians, Minerva: the Cyprians, Venus: the Candians, Diana: the Sicilians Proserpina: the Eleusians, Ceres: some Juno, other Bellona, other Hecate",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c39",
+          "source_id": "isis-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In Apuleius's work the Egyptians, excellent in all ancient doctrine and worshipping her with their own ceremonies, call her Queen Isis.",
+          "statement_id": "Dalam karya Apuleius, orang Mesir, yang unggul dalam segala ajaran kuno dan memujanya dengan upacara mereka sendiri, menyebutnya Ratu Isis.",
+          "quote": "and the Aegyptians which are excellent in all kind of ancient doctrine, and by their proper ceremonies accustome to worship mee, doe call mee Queene Isis.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c40",
+          "source_id": "isis-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In the vision in Apuleius's work, the goddess holds a brass timbrel in her right hand and a golden cup in her left, from whose mouth a serpent, the asp, lifts its head.",
+          "statement_id": "Dalam penglihatan di karya Apuleius, sang dewi memegang rebana kuningan di tangan kanan dan cawan emas di tangan kiri, dengan ular aspis mengangkat kepala dari mulut cawan.",
+          "quote": "In her right hand shee had a timbrell of brasse, which gave a pleasant sound, in her left hand shee bare a cup of gold, out of the mouth whereof the serpent Aspis lifted up his head",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c41",
+          "source_id": "isis-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Isis was a major goddess in ancient Egyptian religion whose worship spread throughout the Greco-Roman world.",
+          "statement_id": "Isis adalah dewi utama dalam agama Mesir kuno yang pemujaannya menyebar ke seluruh dunia Yunani-Romawi.",
+          "quote": "Isis was a major goddess in ancient Egyptian religion whose worship spread throughout the Greco-Roman world.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c42",
+          "source_id": "isis-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Her reputed magical power was greater than that of all other gods, and she was said to govern the natural world and wield power over fate itself.",
+          "statement_id": "Kekuatan sihirnya konon lebih besar daripada semua dewa lain, dan ia dikatakan mengatur alam dan berkuasa atas takdir.",
+          "quote": "Her reputed magical power was greater than that of all other gods, and she was said to govern the natural world and wield power over fate itself.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c43",
+          "source_id": "isis-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In one spell Isis creates a snake that bites Ra and makes him ill with its venom, then offers to cure him if he tells her his true, secret name.",
+          "statement_id": "Dalam salah satu mantra, Isis menciptakan ular yang menggigit Ra dan membuatnya sakit dengan bisanya, lalu menawarkan menyembuhkannya jika Ra mau menyebut nama rahasianya yang sejati.",
+          "quote": "In one spell, Isis creates a snake that bites Ra, who is older and greater than she is, and makes him ill with its venom. She offers to cure Ra if he will tell her his true, secret name",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c44",
+          "source_id": "isis-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In later texts Isis uses her powers of transformation to fight and destroy Set and his followers.",
+          "statement_id": "Dalam teks-teks kemudian, Isis memakai kekuatan perubahan wujudnya untuk melawan dan menghancurkan Set dan para pengikutnya.",
+          "quote": "In later texts, she uses her powers of transformation to fight and destroy Set and his followers.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c45",
+          "source_id": "isis-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Isis was believed to help the dead enter the afterlife as she had helped Osiris, was considered the divine mother of the pharaoh, and her maternal aid was invoked in healing spells for ordinary people.",
+          "statement_id": "Isis dipercaya membantu orang mati memasuki alam baka seperti ia menolong Osiris, dianggap ibu ilahi firaun, dan bantuannya dipanggil dalam mantra penyembuhan bagi orang biasa.",
+          "quote": "She was believed to help the dead enter the afterlife as she had helped Osiris, and she was considered the divine mother of the pharaoh, who was likened to Horus. Her maternal aid was invoked in healing spells to benefit ordinary people.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c46",
+          "source_id": "isis-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Neither Isis nor her husband Osiris were mentioned by name before the Fifth Dynasty (c. 2494-2345 BCE).",
+          "statement_id": "Baik Isis maupun suaminya Osiris tidak disebut namanya sebelum Dinasti Kelima (sekitar 2494-2345 SM).",
+          "quote": "neither Isis nor her husband Osiris were mentioned by name before the Fifth Dynasty (c. 2494-2345 BCE).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c47",
+          "source_id": "isis-s5",
+          "host": "en.wikipedia.org",
+          "statement": "During the New Kingdom (c. 1550-1070 BCE) Isis took on traits that originally belonged to Hathor, the preeminent goddess of an earlier time.",
+          "statement_id": "Pada Kerajaan Baru (sekitar 1550-1070 SM), Isis mengambil sifat yang semula milik Hathor, dewi terkemuka masa sebelumnya.",
+          "quote": "During the New Kingdom (c. 1550 - c. 1070 BCE), Isis took on traits that originally belonged to Hathor, the preeminent goddess of earlier time.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c48",
+          "source_id": "isis-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Isis's Egyptian name was written 𓊨𓏏𓐰𓆇𓁐 (ꜣst).",
+          "statement_id": "Nama Mesir Isis ditulis 𓊨𓏏𓐰𓆇𓁐 (ꜣst).",
+          "quote": "Her Egyptian name was written as 𓊨𓏏𓐰𓆇𓁐 (ꜣst)",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c49",
+          "source_id": "isis-s5",
+          "host": "en.wikipedia.org",
+          "statement": "The Egyptologist Kurt Sethe suggested she was originally a personification of thrones.",
+          "statement_id": "Egiptolog Kurt Sethe mengusulkan bahwa Isis semula adalah personifikasi takhta.",
+          "quote": "Therefore, the Egyptologist Kurt Sethe suggested she was originally a personification of thrones.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c50",
+          "source_id": "isis-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Other scholars, such as Jürgen Osing and Klaus P. Kuhlmann, dispute this interpretation because of dissimilarities between Isis's name and the word for a throne, or a lack of evidence that the throne was ever deified.",
+          "statement_id": "Sarjana lain, seperti Jürgen Osing dan Klaus P. Kuhlmann, menolak tafsir itu karena perbedaan antara nama Isis dan kata untuk takhta, atau kurangnya bukti bahwa takhta pernah diilahikan.",
+          "quote": "Other scholars, such as Jürgen Osing and Klaus P. Kuhlmann, have disputed this interpretation, because of dissimilarities between Isis's name and the word for a throne or a lack of evidence that the throne was ever deified.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c51",
+          "source_id": "isis-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Isis continues to appear in Western culture, particularly in esotericism and modern paganism, often as a personification of nature or the feminine aspect of divinity.",
+          "statement_id": "Isis terus muncul dalam budaya Barat, khususnya dalam esoterisme dan paganisme modern, sering sebagai personifikasi alam atau sisi feminin keilahian.",
+          "quote": "Isis continues to appear in Western culture, particularly in esotericism and modern paganism, often as a personification of nature or the feminine aspect of divinity.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c52",
+          "source_id": "isis-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Isis's Greek devotees ascribed to her traits taken from Greek deities, such as the invention of marriage and the protection of ships at sea.",
+          "statement_id": "Para pemuja Yunani Isis mengaitkan dengannya sifat dari dewa Yunani, seperti penemuan pernikahan dan perlindungan kapal di laut.",
+          "quote": "Isis's Greek devotees ascribed to her traits taken from Greek deities, such as the invention of marriage and the protection of ships at sea.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c53",
+          "source_id": "isis-s5",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, her worship may have influenced Christian beliefs and practices such as the veneration of Mary, but the evidence for this influence is ambiguous and often controversial.",
+          "statement_id": "Menurut Wikipedia, pemujaan Isis mungkin memengaruhi kepercayaan dan praktik Kristen seperti penghormatan kepada Maria, tetapi bukti pengaruh itu tidak jelas dan sering diperdebatkan.",
+          "quote": "Her worship may have influenced Christian beliefs and practices such as the veneration of Mary, but the evidence for this influence is ambiguous and often controversial.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "isis-c54",
+          "source_id": "isis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Isis became the goddess of all the people of Egypt, male and female, royal and common alike.",
+          "statement_id": "Isis menjadi dewi seluruh rakyat Mesir, laki-laki dan perempuan, bangsawan dan rakyat biasa.",
+          "quote": "Isis became the goddess of all the people of Egypt, male and female, royal and common, alike.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "kali",
-      "file": "batch-030-fix-1.md",
+      "file": "batch-030-fix-2.md",
+      "entry_sha256": "cd080a819faa54687c60e3e09741577b3f381e9a1c3a78003f38b62bdf8a1295",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 3,
+        "claims": 59,
+        "sources": 5,
         "images": 0
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 9 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "claims",
@@ -515,6 +2122,506 @@
           "context": "historical-record",
           "status": "unreachable",
           "detail": "HTTP 429"
+        },
+        {
+          "id": "kali-c10",
+          "source_id": "kali-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Kali embodies shakti, feminine energy, creativity and fertility, and is an incarnation of Parvati, wife of the Hindu god Shiva.",
+          "statement_id": "Kali mewujudkan shakti, yaitu energi feminin, kreativitas, dan kesuburan, dan merupakan inkarnasi Parvati, istri dewa Hindu Shiva.",
+          "quote": "Kali embodies shakti - feminine energy, creativity and fertility - and is an incarnation of Parvati, wife of the great Hindu god Shiva.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c11",
+          "source_id": "kali-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In art Kali is most often shown as a fearsome fighting figure with a necklace of heads, a skirt of arms, a lolling tongue, and a knife dripping with blood.",
+          "statement_id": "Dalam seni, Kali paling sering digambarkan sebagai sosok petarung yang menakutkan dengan kalung kepala, rok lengan, lidah terjulur, dan pisau yang meneteskan darah.",
+          "quote": "Kali is most often represented in art as a fearful fighting figure with a necklace of heads, skirt of arms, lolling tongue, and brandishing a knife dripping with blood.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c12",
+          "source_id": "kali-s1",
+          "host": "www.worldhistory.org",
+          "statement": "As an embodiment of time Kali devours all things, is irresistibly attractive to mortals and gods, and can also represent, particularly in later traditions, the benevolence of a mother goddess.",
+          "statement_id": "Sebagai perwujudan waktu, Kali melahap segala sesuatu, memikat manusia dan dewa tak tertahankan, dan (terutama dalam tradisi kemudian) juga dapat melambangkan kebaikan dewi ibu.",
+          "quote": "As an embodiment of time Kali devours all things, she is irresistibly attractive to mortals and gods, and can also represent (particularly in later traditions) the benevolence of a mother goddess.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c13",
+          "source_id": "kali-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Kali is particularly worshipped in eastern and southern India, especially in Assam, Kerala, Kashmir, Bengal (with the yearly Kali Puja festival on the night of a new moon), and at the Kalighat Temple in Calcutta.",
+          "statement_id": "Kali terutama dipuja di India timur dan selatan, khususnya di Assam, Kerala, Kashmir, Bengal (dengan perayaan tahunan Kali Puja pada malam bulan baru), dan di Kuil Kalighat di kota Calcutta.",
+          "quote": "The goddess (devi) is particularly worshipped in eastern and southern India and specifically in Assam, Kerala, Kashmir, Bengal - where she is now worshipped in the yearly festival of Kali Puja held on the night of a new moon - and in the Kalighat Temple in the city of Calcutta.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c14",
+          "source_id": "kali-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Once born, the black goddess went wild and ate all the demons she came across, stringing their heads on a chain around her neck.",
+          "statement_id": "Setelah lahir, sang dewi hitam mengamuk dan memakan semua iblis yang ditemuinya, merangkai kepala mereka menjadi rantai di lehernya.",
+          "quote": "Once born, the black goddess went wild and ate all the demons she came across, stringing their heads on a chain which she wore around her neck.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c15",
+          "source_id": "kali-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Shiva stopped Kali's destructive rampage by lying down in her path, and when she realised who she was standing on, she finally calmed down.",
+          "statement_id": "Shiva menghentikan amukan Kali dengan berbaring di jalannya, dan ketika Kali menyadari siapa yang diinjaknya, ia akhirnya tenang.",
+          "quote": "Fortunately, the mighty Shiva stopped Kali's destructive rampage by lying down in her path, and when the goddess realised just who she was standing on, she finally calmed down.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c16",
+          "source_id": "kali-s1",
+          "host": "www.worldhistory.org",
+          "statement": "This story explains Kali's association with battlegrounds and areas where cremation is carried out.",
+          "statement_id": "Dari kisah ini dijelaskan kaitan Kali dengan medan pertempuran dan tempat kremasi.",
+          "quote": "From this story is explained Kali's association with battlegrounds and areas where cremation is carried out.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c17",
+          "source_id": "kali-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In another version Kali appeared when Parvati shed her dark skin, which became Kali, hence one of her names is Kaushika (the Sheath), while Parvati remains Gauri (the Fair One).",
+          "statement_id": "Dalam versi lain, Kali muncul ketika Parvati melepas kulit gelapnya yang lalu menjadi Kali, sehingga salah satu namanya Kaushika (Sarung), sedangkan Parvati tetap sebagai Gauri (Si Cantik).",
+          "quote": "In another version of the goddess' birth, Kali appeared when Parvati shed her dark skin which then became Kali, hence one of her names is Kaushika (the Sheath), whilst Parvati is left as Gauri (the Fair One).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c18",
+          "source_id": "kali-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In a third version Parvati became Kali by combining with the poison in Shiva's throat, then leapt out and swiftly despatched Daruka.",
+          "statement_id": "Dalam versi ketiga, Parvati berubah menjadi Kali dengan bersatu dengan racun di kerongkongan Shiva, lalu melompat keluar dan dengan cepat membunuh Daruka.",
+          "quote": "By combining with the poison still held in Shiva's throat, Parvati was transformed into Kali. Leaping from Shiva's throat in her new guise, Kali swiftly despatched Daruka and all was well with the world once more.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c19",
+          "source_id": "kali-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The gods combined all their shakti to produce one super being that could destroy Raktabija, and the result was Kali (in another version only Durga produces Kali).",
+          "statement_id": "Para dewa menggabungkan seluruh shakti mereka untuk menciptakan satu makhluk yang bisa menghancurkan Raktabija, dan hasilnya adalah Kali (dalam versi lain hanya Durga yang menciptakan Kali).",
+          "quote": "The gods decided to work together and combine all of their shakti or divine energy and produce one super being that could destroy Raktabija; the result was Kali (in another version only Durga produces Kali).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c20",
+          "source_id": "kali-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Given all the gods' divine weapons, Kali sought out Raktabija and his demons and swallowed them whole so that no more blood would be spilled.",
+          "statement_id": "Dengan semua senjata ilahi para dewa, Kali mencari Raktabija dan iblis-iblisnya dan menelan mereka bulat-bulat agar tidak ada lagi darah yang tumpah.",
+          "quote": "Given all the divine weapons of the gods, Kali swiftly sought out Raktabija and his demons and proceeded to swallow them all whole so as not to spill any more blood in the process.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c21",
+          "source_id": "kali-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In another story a band of thieves prepared to make a human sacrifice of a Brahmin monk to Kali, when suddenly the statue of Kali came to life.",
+          "statement_id": "Dalam kisah lain, sekawanan pencuri hendak mempersembahkan korban manusia, seorang biksu Brahmana, kepada Kali, tetapi patung Kali tiba-tiba hidup.",
+          "quote": "The thieves wanted to make a human sacrifice to Kali, and unwisely chose a Brahmin monk as a likely victim. Dragging him to the nearest temple, the thieves prepared to make the sacrifice in front of the statue of Kali when suddenly the statue came to life.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c22",
+          "source_id": "kali-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Outraged at the plan, the goddess took swift revenge and decapitated the whole gang, while the Brahmin escaped.",
+          "statement_id": "Murka atas rencana itu, sang dewi membalas dengan memenggal seluruh gerombolan itu, sementara sang Brahmana melarikan diri.",
+          "quote": "Outraged at the thieves' plan to kill a monk, the goddess took swift revenge and decapitated the whole gang, even tossing their heads about for fun, whilst naturally the Brahmin escaped",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c23",
+          "source_id": "kali-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In art Kali in her feminine form is most often shown with blue or black skin, naked, and wearing a Bengali-type clay crown, painted or gilded.",
+          "statement_id": "Dalam seni, Kali dalam wujud perempuannya paling sering digambarkan berkulit biru atau hitam, telanjang, dan bermahkota tanah liat ala Bengal yang dicat atau disepuh.",
+          "quote": "In art, Kali in her feminine form is most often portrayed with blue or black skin, naked, and wearing a Bengali type crown of clay which is painted or gilded.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c24",
+          "source_id": "kali-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Kali is shown with many arms, from four to eighteen, each usually holding an object such as a sword, dagger, trident, cup, drum, chakra, lotus bud, whip, noose, bell, or shield.",
+          "statement_id": "Kali digambarkan berlengan banyak, empat hingga delapan belas, dan tiap tangan biasanya memegang benda seperti pedang, belati, trisula, cawan, genderang, cakra, kuncup teratai, cambuk, jerat, lonceng, dan perisai.",
+          "quote": "She is, like many Hindu deities, a multiple-armed figure with the number of arms being four, eight, ten, twelve, or even eighteen. Each arm usually holds an object and these can include a sword, dagger, trident, cup, drum, chakra, lotus bud, whip, noose, bell, and shield.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c25",
+          "source_id": "kali-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Kali's most common pose in paintings is as slayer of demons, standing or dancing with one foot on a collapsed Shiva and holding a severed head.",
+          "statement_id": "Pose Kali yang paling umum dalam lukisan adalah sebagai pembunuh iblis, berdiri atau menari dengan satu kaki di atas Shiva yang roboh sambil memegang kepala terpenggal.",
+          "quote": "Kali's most common pose in paintings is in her most fearsome guise as the slayer of demons, where she stands or dances with one foot on a collapsed Shiva and holds a severed head.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c26",
+          "source_id": "kali-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "Traditionally Kali was portrayed in literature and iconography in her \"terrifying\" or \"fierce\" (ugra) aspect, but in Tamil Nadu and Kerala she has also been depicted in a \"pleasing\" (saumya) form as a benevolent mother goddess.",
+          "statement_id": "Secara tradisional Kali digambarkan dalam sastra dan ikonografi dengan sisi \"menakutkan\" atau \"garang\" (ugra), tetapi di Tamil Nadu dan Kerala ia juga digambarkan dalam wujud \"menyenangkan\" (saumya) sebagai dewi ibu yang baik hati.",
+          "quote": "Traditionally, Kali was portrayed in both literature and iconography in her \"terrifying\" or \"fierce\" (ugra) aspect, but in Tamil Nadu and Kerala she has also been depicted in a \"pleasing\" (saumya) form, as a benevolent mother goddess.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c27",
+          "source_id": "kali-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "According to Encyclopedia.com, Kali personifies the ambivalence of deity in the Hindu tradition, which shows in the unceasing cycle of life and death: creation, destruction, and regeneration.",
+          "statement_id": "Menurut Encyclopedia.com, Kali dengan demikian mempersonifikasikan ambivalensi dewa dalam tradisi Hindu, yang tampak dalam siklus tak berkesudahan kehidupan dan kematian: penciptaan, penghancuran, dan pembaruan.",
+          "quote": "She thus personifies the ambivalence of deity in the Hindu tradition, which manifests itself in the unceasing cycle of life and death-creation, destruction, and regeneration.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c28",
+          "source_id": "kali-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "According to Encyclopedia.com, Kali probably derives from a local village goddess (gramadevata) who was integrated into the Hindu pantheon through identification with an aspect of Parvati, consort of Shiva.",
+          "statement_id": "Menurut Encyclopedia.com, Kali kemungkinan berasal dari dewi desa setempat (gramadevata) yang masuk ke jajaran dewa Hindu lewat identifikasi dengan salah satu aspek Parvati, permaisuri Shiva.",
+          "quote": "Kali probably derives from a local village goddess (gramadevata), who became integrated into the Hindu pantheon through identification with an aspect of Parvati, the consort of Shiva.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c29",
+          "source_id": "kali-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "Kali is first mentioned as a distinct but peripheral and probably non-Aryan goddess in the Mahabharata.",
+          "statement_id": "Kali pertama kali disebut sebagai dewi yang khas, tetapi pinggiran dan kemungkinan non-Arya, dalam Mahabharata.",
+          "quote": "Kali is first mentioned as a distinct, but peripheral and probably non-Aryan, goddess in the Mahabharata.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c30",
+          "source_id": "kali-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "In the Devimahatmya (composed around the sixth century CE), Kali is said to have emanated from the brow of the goddess Durga during one of her battles with demonic forces.",
+          "statement_id": "Dalam bagian Devimahatmya (disusun sekitar abad ke-6 M), Kali dikatakan memancar dari dahi dewi Durga saat salah satu pertempurannya melawan pasukan iblis.",
+          "quote": "In the section of this text known as the Devimahatmya, composed around the sixth century ce, Kali is said to have emanated from the brow of the goddess Durga during one of her battles with demonic forces.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c31",
+          "source_id": "kali-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "In the Devimahatmya Kali is generated from Durga's anger as the goddess attacks the demons Chanda and Munda; afterwards Kali receives the compound name Chamunda.",
+          "statement_id": "Dalam Devimahatmya, Kali lahir dari amarah Durga saat sang dewi menyerang iblis Chanda dan Munda; setelah itu Kali menerima nama majemuk Chamunda.",
+          "quote": "In the Devimahatmya, Kali is generated from the anger of Durga, as the goddess attacks the demons Chanda and Munda. After this event, Kali receives the compound name Chamunda.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c32",
+          "source_id": "kali-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "Kali cut the demon in two with her sword, but each drop of blood that fell produced a new demon; so she consumed the duplicates, drank the drops before they touched the ground, and sucked the lifeblood from Raktabija.",
+          "statement_id": "Kali membelah iblis itu dengan pedang, tetapi dari tiap tetes darah yang jatuh muncul iblis baru; maka ia melahap iblis-iblis tiruan itu, meminum tetesan sebelum menyentuh tanah, dan menghisap darah kehidupan Raktabija.",
+          "quote": "Kali cut the demon in two with her sword, but from every drop of blood that fell to the ground there sprang a new demon. So she consumed the duplicated demons, drank the drops before they touch the ground, and sucked the lifeblood from Raktabija.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c33",
+          "source_id": "kali-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "According to Encyclopedia.com, in the Linga Purana account, after her victory Kali became so intoxicated by destruction that her rampage threatened the world until Shiva appeared as a crying baby in the corpse-strewn field and Kali calmed as she suckled the baby.",
+          "statement_id": "Menurut Encyclopedia.com, dalam kisah Linga Purana, setelah menang Kali begitu mabuk oleh kehancuran sehingga amukannya mengancam dunia, sampai Shiva menjelma bayi yang menangis di medan penuh mayat dan Kali tenang ketika menyusui bayi itu.",
+          "quote": "after her victory, Kali became so intoxicated by the destruction of battle that her rampage threatened to destroy the whole world until Shiva manifested himself as a baby, crying in the middle of the corpse-strewn field. Kali calmed down as she suckled the baby.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c34",
+          "source_id": "kali-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "Kali is also the feminine form of the word kala, time; as such she represents time, which is all-destroying and all-devouring.",
+          "statement_id": "Kali juga bentuk feminin kata kala (waktu); dengan demikian ia mewakili waktu, yang menghancurkan dan melahap segalanya.",
+          "quote": "Kali is also the feminine form of the word kala-time; as such, she is the representation of time, which is all-destroying and all-devouring.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c35",
+          "source_id": "kali-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "The name Kali is related to a term first used in the Mundaka Upanishad (1.2.4) for one of the seven flickering tongues of the sacrificial fire, Agni.",
+          "statement_id": "Nama Kali berkaitan dengan istilah yang pertama kali dipakai dalam Mundaka Upanishad (1.2.4) untuk salah satu dari tujuh lidah api kurban, Agni.",
+          "quote": "Indeed, the name Kali is related to a term first used in the Mundaka Upanishad (1.2.4) for one of the seven flickering tongues of the sacrificial fire, Agni.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c36",
+          "source_id": "kali-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "A Tantric hymn to Kali, the Karpuradistotra, describes her as the source of wealth and fertility but also of renunciation and death.",
+          "statement_id": "Sebuah himne Tantrik untuk Kali, Karpuradistotra, menggambarkannya sebagai sumber kekayaan dan kesuburan serta penolakan duniawi dan kematian.",
+          "quote": "A Tantric hymn to Kali, the Karpuradistotra, describes her as the source of not only wealth and fertility but also renunciation and death.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c37",
+          "source_id": "kali-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "Another text describes her sitting on a corpse in a cremation ground, surrounded by skulls, bones, and female jackals; the Tantric practitioner who fearlessly meditated on her in this guise was believed to ultimately achieve salvation.",
+          "statement_id": "Sebuah teks lain menggambarkannya duduk di atas mayat di tempat kremasi dikelilingi tengkorak, tulang, dan serigala betina; praktisi Tantrik yang bermeditasi tanpa takut kepadanya dalam wujud itu dipercaya akhirnya meraih keselamatan.",
+          "quote": "Another text describes her as sitting on a corpse in a cremation ground, surrounded by skulls, bones, and female jackals; it was believed that the Tantric practitioner (sadhaka) who fearlessly meditated on her in this guise would ultimately achieve salvation.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c38",
+          "source_id": "kali-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "Because Kali is beyond fear and ignorance, she can protect and enlighten those who invoke her; she is often shown with one hand in the fear-removing gesture (abhaya mudra) and another in the boon-granting gesture (varada mudra).",
+          "statement_id": "Karena Kali melampaui rasa takut dan ketidaktahuan, ia dapat melindungi dan mencerahkan yang memanggilnya; ia sering digambarkan dengan satu tangan membuat gestur penghapus rasa takut (abhaya mudra) dan tangan lain gestur pemberi anugerah (varada mudra).",
+          "quote": "Because Kali is beyond both fear and ignorance, she can protect and enlighten those who invoke her. Thus she is often depicted with one of her four or more hands in the fear-removing gesture (abhaya mudra), and with another hand in the boon-granting gesture of compassion (varada mudra)",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c39",
+          "source_id": "kali-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "As Bhadrakali (auspicious Kali), her head is encircled by a halo of flames and she wields the trident.",
+          "statement_id": "Dalam wujud Bhadrakali (Kali yang membawa keberuntungan), kepalanya dikelilingi lingkaran api dan ia memegang trisula.",
+          "quote": "In her representation as Bhadrakali (auspicious Kali), her head is encompassed by the halo of flames and she wields the trident",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c40",
+          "source_id": "kali-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "From the medieval period onwards Kali devotees in Bengal have worshipped the goddess as Kali Ma, the benevolent mother.",
+          "statement_id": "Sejak Abad Pertengahan, para pemuja Kali di Bengal memuja sang dewi sebagai Kali Ma, ibu yang baik hati.",
+          "quote": "From the medieval period onwards, Kali devotees in Bengal have worshipped the goddess as Kali Ma-Kali, the benevolent mother.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c41",
+          "source_id": "kali-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "Animal sacrifice exists alongside a less ritualistic form of worship introduced by the Bengali devotee Ramprasad Sen (1718-1775), who in his poetry approaches Kali as a child would a protective and nurturing mother.",
+          "statement_id": "Pengorbanan hewan ada berdampingan dengan bentuk pemujaan yang kurang ritualistik yang diperkenalkan pemuja Bengal Ramprasad Sen (1718-1775), yang dalam puisinya mendekati Kali seperti anak kepada ibu yang melindungi dan mengasuh.",
+          "quote": "Animal sacrifice is found alongside a less ritualistic form of worship introduced by the Bengali devotee Ramprasad Sen (1718-1775), who, in his poetry, approaches Kali as a child would its protective and nurturing mother.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c42",
+          "source_id": "kali-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "Although predominant in Bengal, Kali is worshipped throughout India; there is the famous Kamakhya temple in Assam, and temples in Orissa, Rajasthan, and the Vindhya mountains.",
+          "statement_id": "Walau dominan di Bengal, Kali dipuja di seluruh India; ada kuil Kamakhya yang terkenal di Assam, dan kuil-kuil di Orissa, Rajasthan, dan pegunungan Vindhya.",
+          "quote": "Although predominant in Bengal, Kali is worshipped throughout India. There is the famous Kamakhya temple in Assam, as well as temples in Orissa, Rajasthan, and the Vindhya mountains of south-central India.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c43",
+          "source_id": "kali-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "In the West non-Hindus were introduced to Kali as a villainous goddess in several twentieth-century films, including Gunga Din (1939), the Beatles' Help! (1965), and Indiana Jones and the Temple of Doom (1984).",
+          "statement_id": "Di Barat, orang non-Hindu dikenalkan pada Kali sebagai dewi jahat dalam beberapa film abad ke-20, termasuk Gunga Din (1939), Help! karya The Beatles (1965), dan Indiana Jones and the Temple of Doom (1984).",
+          "quote": "where non-Hindus were introduced to Kali as a villainous goddess in several twentieth-century films, including Gunga Din (1939; loosely based on Rudyard Kipling's poem), the Beatles' Help! (1965), and Indiana Jones and the Temple of Doom (1984).",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c44",
+          "source_id": "kali-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "According to Encyclopedia.com, for most modern worshippers Kali is not seen as being wrathful.",
+          "statement_id": "Menurut Encyclopedia.com, bagi sebagian besar pemuja masa kini Kali tidak dipandang sebagai murka.",
+          "quote": "for most modern worshippers Kali is not seen as being wrathful.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c45",
+          "source_id": "kali-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "The Bengali nationalist movement of the late nineteenth and early twentieth centuries used the mother goddess in the form of Kali as a symbol of India.",
+          "statement_id": "Gerakan nasionalis Bengal pada akhir abad ke-19 dan awal abad ke-20 memakai dewi ibu dalam wujud Kali sebagai simbol India.",
+          "quote": "The nationalist movement of the Bengalis in the late nineteenth and early twentieth centuries used the mother goddess in the form of Kali as a symbol of India.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c46",
+          "source_id": "kali-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "The goddess Pidari, most often associated with south India, is recognized as an aspect of Kali, as are several other goddesses from Tamil Nadu.",
+          "statement_id": "Dewi Pidari, yang paling sering dikaitkan dengan India selatan, dikenali sebagai salah satu aspek Kali, seperti beberapa dewi lain dari Tamil Nadu.",
+          "quote": "The goddess Pidari, who is most often associated with south India, is recognized as being an aspect of Kali, as are several other goddesses from Tamil Nadu.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c47",
+          "source_id": "kali-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Kali, also called Kalika, is a major goddess in Hinduism, primarily associated with time, death, and destruction.",
+          "statement_id": "Kali, juga disebut Kalika, adalah dewi utama dalam agama Hindu yang terutama dikaitkan dengan waktu, kematian, dan kehancuran.",
+          "quote": "also called Kalika, is a major goddess in Hinduism, primarily associated with time, death, and destruction.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c48",
+          "source_id": "kali-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Kali is also connected with transcendental knowledge and is the first of the ten Mahavidyas, goddesses who provide liberating knowledge.",
+          "statement_id": "Kali juga dikaitkan dengan pengetahuan transendental dan merupakan yang pertama dari sepuluh Mahavidya, dewi-dewi pemberi pengetahuan yang membebaskan.",
+          "quote": "Kali is also connected with transcendental knowledge and is the first of the ten Mahavidyas, goddesses who provide liberating knowledge.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c49",
+          "source_id": "kali-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Etymologically, Kali refers to one who governs time or is black.",
+          "statement_id": "Secara etimologis, Kali merujuk pada yang menguasai waktu atau yang hitam.",
+          "quote": "Etymologically, Kali refers to one who governs time or is black.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c50",
+          "source_id": "kali-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Kali is stated to protect and bestow liberation (moksha) on devotees who approach her as a child toward a mother.",
+          "statement_id": "Kali dinyatakan melindungi dan menganugerahkan pembebasan (moksha) kepada pemuja yang mendekatinya seperti anak kepada ibu.",
+          "quote": "Kali is stated to protect and bestow liberation (moksha) to devotees who approach her as a child towards a mother.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c51",
+          "source_id": "kali-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In modern times Kali has emerged as a significant symbol for women.",
+          "statement_id": "Di masa modern, Kali telah menjadi simbol penting bagi perempuan.",
+          "quote": "In modern times, Kali has emerged as a significant symbol for women.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c52",
+          "source_id": "kali-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Kaushiki responds with such anger that her face turns dark, and Kali appears out of her forehead.",
+          "statement_id": "Kaushiki menanggapi dengan kemarahan yang membuat wajahnya menjadi gelap, sehingga Kali muncul dari dahinya.",
+          "quote": "Kaushiki responds with such anger that it causes her face to turn dark, resulting in Kali appearing out of her forehead.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c53",
+          "source_id": "kali-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Kali's appearance is dark blue, gaunt with sunken eyes, wearing a tiger-skin sari and a garland of human heads; she immediately defeats the two asuras.",
+          "statement_id": "Penampilan Kali biru gelap, kurus dengan mata cekung, mengenakan sari kulit harimau dan kalung kepala manusia; ia langsung mengalahkan kedua asura itu.",
+          "quote": "Kali's appearance is dark blue, gaunt with sunken eyes, wearing a tiger skin sari and a garland of human heads. She immediately defeats the two asuras.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c54",
+          "source_id": "kali-s5",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Kali originated as a tantric and non-Vedic goddess, with roots most probably connected to the Pre-Aryan period.",
+          "statement_id": "Menurut Wikipedia, Kali berasal sebagai dewi tantrik dan non-Weda, dengan akar yang paling mungkin terkait masa pra-Arya.",
+          "quote": "Kali originated as a tantric and non-Vedic goddess. Her roots are most probably connected to the Pre-Aryan period.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c55",
+          "source_id": "kali-s5",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the word Kālī appears as early as the Atharva Veda, but its first use as a proper name is in the Kathaka Grhya Sutra (19.7).",
+          "statement_id": "Menurut Wikipedia, kata Kālī muncul sedini Atharva Veda, tetapi pemakaian pertamanya sebagai nama diri ada dalam Kathaka Grhya Sutra (19.7).",
+          "quote": "Although the word Kālī appears as early as the Atharva Veda, the first use of it as a proper name is in the Kathaka Grhya Sutra (19.7).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c56",
+          "source_id": "kali-s5",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, of the numerous Hindu goddesses, Kali is held to be the most famous.",
+          "statement_id": "Menurut Wikipedia, di antara banyak dewi Hindu, Kali dianggap yang paling terkenal.",
+          "quote": "Kali is held to be the most famous.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c57",
+          "source_id": "kali-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Kali is also called Kali Mata (\"the dark mother\").",
+          "statement_id": "Kali juga disebut Kali Mata (\"ibu yang gelap\").",
+          "quote": "She is called Kali Mata (\"the dark mother\")",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c58",
+          "source_id": "kali-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Kali is the preeminent deity in the Hindu tantric and Kalikula worship traditions.",
+          "statement_id": "Kali adalah dewa terkemuka dalam tradisi pemujaan tantrik Hindu dan Kalikula.",
+          "quote": "She is the preeminent deity in the Hindu tantric and the Kalikula worship traditions",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kali-c59",
+          "source_id": "kali-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In Sanskrit the name Kali is written काली (IAST: Kālī), and she is also called Kalika.",
+          "statement_id": "Dalam bahasa Sanskerta, nama Kali ditulis काली (IAST: Kālī), dan ia juga disebut Kalika.",
+          "quote": "Sanskrit: काली , IAST: Kālī), also called Kalika",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
       "images": []

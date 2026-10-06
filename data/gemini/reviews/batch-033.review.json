@@ -1,27 +1,29 @@
 {
   "batch_id": "batch-033",
-  "checked_at": "2026-09-30T02:33:00.908Z",
+  "checked_at": "2026-10-06T13:44:49.273Z",
   "files": [
     "batch-033.md",
-    "batch-033-fix-1.md"
+    "batch-033-fix-1.md",
+    "batch-033-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "horus",
-      "file": "batch-033-fix-1.md",
+      "file": "batch-033-fix-2.md",
+      "entry_sha256": "30a112b707ddeb7ec1581a115b24faa7039b100b11d333eab9453ae5e840113b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 2,
+        "claims": 36,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -93,9 +95,8 @@
           "statement_id": "Elang dianggap perwujudan Horus, dewa langit dan kerajaan.",
           "quote": "According to Egyptian belief, the falcon was an incarnation of the sky god Horus, who was also the god of kingship.",
           "context": "religious-tradition",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260617033342id_/https://www.metmuseum.org/art/collection/search/544887",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "horus-c08",
@@ -105,9 +106,8 @@
           "statement_id": "Firaun Nectanebo II menonjolkan kedekatannya dengan Horus sebagai dewa kerajaan.",
           "quote": "The pharaoh Nectanebo II often invoked a very close connection–even a merging–between himself and the falcon god of kingship, Horus.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260617033342id_/https://www.metmuseum.org/art/collection/search/544887",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "horus-c09",
@@ -118,29 +118,295 @@
           "quote": "The elder Horus, brother of Osiris, Isis, Set, and Nephthys, is known as Horus the Great in English or Harwer and Haroeris in Egyptian.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "horus-c10",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The symbols of Horus are the Eye of Horus and the falcon.",
+          "statement_id": "Lambang Horus adalah Mata Horus dan elang.",
+          "quote": "His symbols are the Eye of Horus (one of the most famous Egyptian symbols) and the falcon.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c11",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Horus the Younger was protector of Egypt's royalty, avenger of wrongs, defender of order, uniter of the two lands, and a war god invoked by Egyptian rulers before battle.",
+          "statement_id": "Horus Muda adalah pelindung kerajaan Mesir, pembalas kezaliman, pembela ketertiban, pemersatu dua negeri, dan dewa perang yang diseru para penguasa Mesir sebelum pertempuran.",
+          "quote": "He was the protector of the royalty of Egypt, avenger of wrongs, defender of order, uniter of the two lands and, based on his battles with Set, a god of war regularly invoked by Egyptian rulers before battle and praised afterwards.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c12",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the account of Horus the Elder, Osiris governed the earth with Isis while Horus was given charge of the sky and specifically the sun.",
+          "statement_id": "Dalam kisah tentang Horus Tua, Osiris memerintah bumi bersama Isis, sedangkan Horus diberi tanggung jawab atas langit, khususnya matahari.",
+          "quote": "His older brother Osiris was given the responsibility of governing the earth along with Isis while Horus was given charge of the sky and, specifically, the sun.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c13",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The elder Horus is one of Egypt's oldest gods, born of the union of Geb (earth) and Nut (sky) shortly after the creation of the world.",
+          "statement_id": "Horus Tua adalah salah satu dewa tertua Mesir, lahir dari persatuan Geb (bumi) dan Nut (langit) tak lama setelah penciptaan dunia.",
+          "quote": "The elder Horus is one of the oldest gods of Egypt, born of the union between Geb (earth) and Nut (sky) shortly after the creation of the world.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c14",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In another version Horus is the son of Hathor; in others she is his wife, and sometimes she is mother, wife, and daughter of Horus.",
+          "statement_id": "Dalam versi lain, Horus adalah putra Hathor; dalam versi lainnya Hathor adalah istrinya, dan kadang ia ibu, istri, sekaligus putri Horus.",
+          "quote": "In another version of the story, Horus is the son of Hathor while, in others, she is his wife and, sometimes, she is mother, wife, and daughter of Horus.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c15",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Horus is also depicted as a creator god and benevolent protector.",
+          "statement_id": "Horus juga digambarkan sebagai dewa pencipta dan pelindung yang baik hati.",
+          "quote": "Horus is also depicted as a creator god and benevolent protector.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c16",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Imagined as a falcon, Horus could fly far from Ra and return with vital information, and likewise quickly bring comfort to those in need.",
+          "statement_id": "Dibayangkan sebagai elang, Horus dapat terbang jauh dari Ra dan kembali membawa kabar penting, dan dengan cara yang sama cepat memberi penghiburan bagi yang membutuhkan.",
+          "quote": "Imagined as a falcon, he could fly far from Ra and return with vital information and, in the same way, could quickly bring comfort to those in need.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c17",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "From the Early Dynastic Period (c. 3150-c. 2613 BCE) onward Horus was linked with the king of Egypt, though later rulers associated themselves with Horus the Younger.",
+          "statement_id": "Sejak Periode Dinasti Awal (sekitar 3150-2613 SM), Horus dikaitkan dengan raja Mesir, meskipun penguasa kemudian mengaitkan diri dengan Horus Muda.",
+          "quote": "From the Early Dynastic Period (c. 3150-c.2613 BCE) onwards, Horus was linked with the king of Egypt (though later rulers associated themselves with Horus the Younger).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c18",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the Osiris myth, before Osiris departed, Isis transformed herself into a kite and flew around his body, becoming pregnant with Horus.",
+          "statement_id": "Menurut Mitos Osiris, sebelum Osiris pergi, Isis mengubah diri menjadi elang layang dan terbang mengitari tubuhnya hingga mengandung Horus.",
+          "quote": "Prior to his departure, though, Isis transformed herself into a kite (a falcon) and flew around his body, drawing his seed into her own and becoming pregnant with Horus.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c19",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The battles of Horus and Set exist in many versions; the best known is from a 20th Dynasty manuscript (1090-1077 BCE), The Contendings of Horus and Set, which presents the contest as a trial before the Ennead, a tribunal of nine gods.",
+          "statement_id": "Kisah pertarungan Horus dan Set punya banyak versi; yang paling dikenal berasal dari naskah Dinasti ke-20 (1090-1077 SM), The Contendings of Horus and Set, yang menggambarkan perseteruan itu sebagai pengadilan di hadapan Ennead, dewan sembilan dewa.",
+          "quote": "The story of the battles between Horus and Set have many different versions but the best known is from a manuscript dating to the 20th Dynasty (1090-1077 BCE), The Contendings of Horus and Set which describes their contest as a legal trial in front of the Ennead, a tribunal of nine powerful gods.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c20",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In these battles Horus loses an eye and Set is castrated or at least severely damaged, but Horus wins each time.",
+          "statement_id": "Dalam pertarungan itu Horus kehilangan sebelah mata dan Set dikebiri atau setidaknya terluka parah, tetapi Horus menang setiap kali.",
+          "quote": "In the course of these battles, Horus loses an eye and Set is castrated (or, at least, severely damaged) but Horus is victorious each time.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c21",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In another version the trial lasts 80 years until the gods turn to Neith, mediator of disputes, who rules in favor of Horus.",
+          "statement_id": "Dalam versi lain, sidang berlangsung 80 tahun hingga para dewa meminta putusan Neith, dewi penengah sengketa, yang memenangkan Horus.",
+          "quote": "In another version of the story, the trial lasts for 80 years until the frustrated gods turn to the wise goddess Neith, mediator of disputes, who rules in favor of Horus.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c22",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the first version Set is banished to the deserts beyond Egypt's borders while Horus takes his father's throne with his mother and aunt Nephthys as consorts.",
+          "statement_id": "Dalam versi pertama, Set diusir ke gurun di luar perbatasan Mesir, sementara Horus naik takhta ayahnya dengan ibunya dan bibinya, Nephthys, sebagai permaisuri.",
+          "quote": "Set is then banished to the desert lands beyond Egypt's borders while Horus assumes the throne of his father with his mother and aunt Nephthys as consorts.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c23",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Having conquered Set and restored order, Horus became known as Horu-Sema-Tawy, the Horus who unites the Two Lands.",
+          "statement_id": "Setelah menaklukkan Set dan memulihkan ketertiban, Horus dikenal sebagai Horu-Sema-Tawy, Horus Pemersatu Dua Negeri.",
+          "quote": "Having conquered Set and restored order, Horus became known as Horu-Sema-Tawy, The Horus, Uniter of the Two Lands.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c24",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "For this reason Egyptian kings from the First Dynastic Period onward aligned themselves with Horus and chose a \"Horus Name\" at their coronation.",
+          "statement_id": "Karena itu raja-raja Mesir sejak Periode Dinasti Pertama mengaitkan diri dengan Horus dan memilih \"Nama Horus\" saat penobatan.",
+          "quote": "It is for this reason that kings of Egypt, from the First Dynastic Period on, aligned themselves with Horus and chose a \"Horus Name\" to rule under at their coronation.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c25",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Horus was associated with the afterlife through his Four Sons, who protected the vital organs of the deceased.",
+          "statement_id": "Horus dikaitkan dengan akhirat melalui Empat Putranya yang melindungi organ vital orang yang meninggal.",
+          "quote": "Horus was associated with the afterlife through his Four Sons who protected the vital organs of the deceased.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c26",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Upper Egypt Horus was worshipped with Hathor and their son Harsomptus at Edfu and Kom Ombos.",
+          "statement_id": "Di Mesir Hulu, Horus disembah bersama Hathor dan putra mereka Harsomptus di Edfu dan Kom Ombo.",
+          "quote": "In Upper Egypt he was worshipped along with Hathor and their son Harsomptus at Edfu and Kom Ombos.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c27",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "By the Ptolemaic Dynasty (323-30 BCE) the elder Horus had been completely replaced by the younger.",
+          "statement_id": "Pada masa Dinasti Ptolemeus (323-30 SM), Horus Tua telah sepenuhnya digantikan oleh Horus Muda.",
+          "quote": "By the time of the Ptolemaic Dynasty (323-30 BCE), the last dynasty to rule Egypt, the elder Horus had been completely replaced by the younger.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c28",
+          "source_id": "horus-s3",
+          "host": "en.wikisource.org",
+          "statement": "Britannica 1911 calls Horus a solar divinity who appears very early in the Osiris cycle, a son of Isis and probably of Osiris, and opponent of Set.",
+          "statement_id": "Britannica 1911 menyebut Horus sebagai dewa surya yang sangat awal muncul dalam lingkaran dewa Osiris, putra Isis dan kemungkinan Osiris, serta lawan Set.",
+          "quote": "He was a solar divinity, but appears very early in the Osiris cycle of deities, a son of Isis and probably of Osiris, and opponent of Sēth.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c29",
+          "source_id": "horus-s3",
+          "host": "en.wikisource.org",
+          "statement": "Britannica 1911 says the name Hōr is connected with a root meaning \"upper\" and probably means \"the high-flyer\".",
+          "statement_id": "Britannica 1911 menyatakan nama Hōr berkaitan dengan akar kata yang berarti \"atas\" dan mungkin berarti \"si penerbang tinggi\".",
+          "quote": "is connected with a root signifying “upper,” and probably means “the high-flyer.”",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c30",
+          "source_id": "horus-s3",
+          "host": "en.wikisource.org",
+          "statement": "In the judgment scene Horus introduces the deceased to Osiris.",
+          "statement_id": "Dalam adegan penghakiman, Horus memperkenalkan orang yang meninggal kepada Osiris.",
+          "quote": "In the judgment scene Horus introduces the deceased to Osiris.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c31",
+          "source_id": "horus-s3",
+          "host": "en.wikisource.org",
+          "statement": "To the Greeks Horus was equivalent to Apollo.",
+          "statement_id": "Bagi orang Yunani, Horus setara dengan Apollo.",
+          "quote": "To the Greeks Horus was equivalent to Apollo",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c32",
+          "source_id": "horus-s3",
+          "host": "en.wikisource.org",
+          "statement": "One epithet of Horus is Harendotes, \"Hōr, avenger of his father (Osiris)\".",
+          "statement_id": "Salah satu julukan Horus adalah Harendotes, \"Hōr, pembalas ayahnya (Osiris)\".",
+          "quote": "Harendotes (Har-ent-yotf), i.e. “Hōr, avenger of his father (Osiris)”",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c33",
+          "source_id": "horus-s3",
+          "host": "en.wikisource.org",
+          "statement": "Har-behtet, \"Hōr of Beht\", is the winged solar disk, god of Edfu (Apollinopolis Magna).",
+          "statement_id": "Har-behtet, \"Hōr dari Beht\", adalah cakram surya bersayap, dewa Edfu (Apollinopolis Magna).",
+          "quote": "Har-behtet, i.e. Hōr of Beht, the winged solar disk, god of Edfu (Apollinopolis Magna)",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c34",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Isis gave birth to Horus alone in the Delta swamps after a difficult pregnancy and exceptionally long labor.",
+          "statement_id": "Isis melahirkan Horus seorang diri di rawa-rawa Delta setelah kehamilan yang sulit dan persalinan yang sangat lama.",
+          "quote": "Isis endured a difficult pregnancy with exceptionally long labor and gave birth to Horus alone in the swamps of the Delta.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c35",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Rulers of Egypt's Predynastic Period (c. 6000-3150 BCE) were known as \"Followers of Horus\", attesting to even earlier veneration.",
+          "statement_id": "Penguasa Periode Pradinasti Mesir (sekitar 6000-3150 SM) disebut \"Pengikut Horus\", yang menunjukkan pemujaan yang lebih awal lagi.",
+          "quote": "Rulers of the Predynastic Period in Egypt (c. 6000-3150 BCE) were known as \"Followers of Horus\" which attests to an even earlier point of veneration in Egypt's history.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "horus-c36",
+          "source_id": "horus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to Egyptologist Richard H. Wilkinson, Horus was one of the earliest Egyptian deities and his name is attested from the beginning of the Dynastic Period.",
+          "statement_id": "Menurut Egiptolog Richard H. Wilkinson, Horus adalah salah satu dewa Mesir paling awal dan namanya tercatat sejak awal Periode Dinasti.",
+          "quote": "Horus was one of the earliest of Egyptian deities. His name is attested from the beginning of the Dynastic Period",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "parvati",
-      "file": "batch-033-fix-1.md",
+      "file": "batch-033-fix-2.md",
+      "entry_sha256": "3bf3f1ecceb49dcdef67624731911b33662488a6795a4b832b9f4ffcb95abe38",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 10,
-        "sources": 3,
+        "claims": 40,
+        "sources": 5,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 10 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
           "where": "claims",
-          "message": "4 kutipan tidak bisa dicek otomatis: academic.oup.com (HTTP 403)."
+          "message": "8 kutipan tidak bisa dicek otomatis: academic.oup.com (HTTP 403); asia.si.edu (HTTP 403)."
         }
       ],
       "claims": [
@@ -196,9 +462,8 @@
           "statement_id": "Smithsonian menggambarkan Parvati atau Uma sebagai dewi gunung dan kekuatan feminin ilahi.",
           "quote": "Hindu Goddess of the Mountain, also known as Uma; she is often seen as the feminine half of the god Shiva, and the divine feminine power of the universe (shakti).",
           "context": "religious-tradition",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250708225441id_/https://asia.si.edu/whats-on/exhibitions/wisdom-of-the-goddess/",
-          "detail": "HTTP 403; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 403"
         },
         {
           "id": "parvati-c06",
@@ -208,9 +473,8 @@
           "statement_id": "Purana menceritakan Parvati ingin menikah dengan Siwa.",
           "quote": "The Puranas, literally the “old stories” of Hindu traditions, relate the narrative of the goddess Parvati, who aspired to marry the god Shiva.",
           "context": "religious-tradition",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250708225441id_/https://asia.si.edu/whats-on/exhibitions/wisdom-of-the-goddess/",
-          "detail": "HTTP 403; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 403"
         },
         {
           "id": "parvati-c07",
@@ -220,9 +484,8 @@
           "statement_id": "Parvati menjalani tapa berat untuk memperoleh kekuatan dan memikat Siwa yang sedang bertapa.",
           "quote": "Because Shiva could not easily be distracted from his yogic meditation, Parvati subjected herself to extreme acts of physical deprivation—such as meditating in cold water during the winter—to gain supernatural powers and win over the celibate god.",
           "context": "religious-tradition",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250708225441id_/https://asia.si.edu/whats-on/exhibitions/wisdom-of-the-goddess/",
-          "detail": "HTTP 403; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 403"
         },
         {
           "id": "parvati-c08",
@@ -252,32 +515,327 @@
           "statement_id": "Di India Selatan, Parvati juga dikenal sebagai Uma.",
           "quote": "In South India, where this sculpture was made, the Hindu goddess Parvati is known as Uma.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250708225441id_/https://asia.si.edu/whats-on/exhibitions/wisdom-of-the-goddess/",
-          "detail": "HTTP 403; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 403"
+        },
+        {
+          "id": "parvati-c11",
+          "source_id": "parvati-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In Kalidasa's poem, Parvati is described as born again, having been famed in an earlier life as Shiva's faithful wife.",
+          "statement_id": "Dalam puisi Kalidasa itu, Parvati dilukiskan lahir kembali; dalam kehidupan sebelumnya ia terkenal sebagai istri setia Siwa.",
+          "quote": "Born once again, for in an earlier life High fame was hers, as Śiva's faithful wife.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c12",
+          "source_id": "parvati-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In her earlier life her proud father dared to scorn the god, and she, defending the lord she loved, left her mortal body.",
+          "statement_id": "Dalam kehidupan sebelumnya, ayahnya yang congkak berani menghina sang dewa; sang istri yang membela suaminya pun meninggalkan tubuhnya.",
+          "quote": "But her proud sire had dared the God to scorn; Then was her tender soul with anguish torn, And jealous for the lord she loved so well, Her angered spirit left its mortal cell.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c13",
+          "source_id": "parvati-s4",
+          "host": "www.gutenberg.org",
+          "statement": "At first her only name was \"Child of the Mountain\"; when her anxious mother cried \"Forbear!\" at her stern penance, the warning became a new title.",
+          "statement_id": "Semula satu-satunya namanya adalah \"Anak Gunung\"; ketika ibunya, cemas melihat tapanya yang keras, berseru \"Forbear!\" (jangan!), seruan itu menjadi gelar barunya.",
+          "quote": "Child of the Mountain was her only name. ... when her mother, filled with anxious care At her stern penance, cried Forbear! Forbear! To a new title was the warning turned",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c14",
+          "source_id": "parvati-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In the poem, the flashes of Shiva's angry eye scorch the King of Love to ashes.",
+          "statement_id": "Dalam puisi itu, kilatan mata murka Siwa membakar sang Raja Cinta menjadi abu.",
+          "quote": "Alas! that angry eye's resistless flashes Have scorched the gentle King of Love to ashes!",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c15",
+          "source_id": "parvati-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In the poem, only penance can help her win the cold heart of the stern deity.",
+          "statement_id": "Dalam puisi itu, hanya tapa yang dapat membantu Parvati memenangkan hati dewa yang dingin dan keras itu.",
+          "quote": "Penance must aid her now—or how can she Win the cold heart of that stern deity?",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c16",
+          "source_id": "parvati-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Parvati would not spare her fair, frail body if sterner penance might prevail.",
+          "statement_id": "Parvati tidak mau menyayangi tubuhnya yang indah dan lemah jika tapa yang lebih keras mungkin berhasil.",
+          "quote": "She would not spare her form, so fair and frail, If sterner penance could perchance prevail.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c17",
+          "source_id": "parvati-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Shiva tells her that, won by her penance and holy vows, he bows before her as her willing slave.",
+          "statement_id": "Siwa berkata kepadanya bahwa, karena tapa dan sumpah sucinya, ia rela menjadi hamba yang tunduk di hadapannya.",
+          "quote": "Won by thy penance, and thy holy vows, Thy willing slave Śiva before thee bows.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c18",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Sati is reborn as Parvati, daughter of Himavat and Mainavati, and named Parvati, \"she from the mountains\", after her father.",
+          "statement_id": "Menurut Wikipedia, Sati terlahir kembali sebagai Parvati, putri Himavat dan Mainavati, dan dinamai Parvati, \"dia dari pegunungan\", menurut nama ayahnya.",
+          "quote": "Sati is then reborn as Parvati, the daughter of Himavat and Mainavati, and is named Parvati, or \"she from the mountains\", after her father Himavant who is also called king Parvat.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c19",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In the story Indra sends Kama, the god of desire and love, to awaken Shiva from meditation.",
+          "statement_id": "Dalam kisah itu, Indra mengutus Kama, dewa hasrat dan cinta, untuk membangunkan Siwa dari meditasinya.",
+          "quote": "Indra sends the god Kama – the Hindu god of desire, erotic love, attraction, and affection, to awake Shiva from meditation.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c20",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "After the marriage Parvati moves to Mount Kailash, Shiva's residence; to them are born Kartikeya (Skanda, Murugan), leader of celestial armies, and Ganesha, god of wisdom who removes obstacles.",
+          "statement_id": "Setelah menikah, Parvati pindah ke Gunung Kailash, kediaman Siwa; dari mereka lahir Kartikeya (Skanda, Murugan), pemimpin pasukan langit, dan Ganesha, dewa kebijaksanaan penghalau rintangan.",
+          "quote": "After the marriage, Parvati moves to Mount Kailash, the residence of Shiva. To them are born Kartikeya (also known as Skanda and Murugan) – the leader of celestial armies, and Ganesha – the god of wisdom that prevents problems and removes obstacles.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c21",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In one story Parvati shaped a boy from turmeric paste used to cleanse her body and gave it life, and thus Ganesha was born.",
+          "statement_id": "Dalam satu kisah, Parvati membentuk patung anak laki-laki dari pasta kunyit untuk membersihkan tubuh, lalu menghidupkannya; maka lahirlah Ganesha.",
+          "quote": "she created an image of a boy out of turmeric paste which she prepared to cleanse her body and infused life into it, and thus Ganesha was born.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c22",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In that story Shiva, infuriated, severed the boy's head with his trident.",
+          "statement_id": "Dalam kisah itu, Siwa murka dan memenggal kepala anak itu dengan trisulanya setelah dihalangi masuk.",
+          "quote": "Shiva was infuriated, lost his temper, and severed the boy's head with his trident.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c23",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "At Parvati's demand Shiva restored the boy by attaching an elephant's head, giving rise to the elephant-headed deity.",
+          "statement_id": "Atas tuntutan Parvati, Siwa menghidupkan kembali anak itu dengan memasang kepala gajah, sehingga lahir dewa berkepala gajah.",
+          "quote": "Shiva did so by attaching an elephant's head to Ganesha's body, thus giving rise to the elephant-headed deity.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c24",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Parvati, the gentle aspect of Devi Shakti, is usually represented as fair, beautiful, and benevolent.",
+          "statement_id": "Parvati, aspek lembut Dewi Shakti, biasanya digambarkan berkulit cerah, cantik, dan baik hati.",
+          "quote": "Parvati, the gentle aspect of Devi Shakti, is usually represented as fair, beautiful, and benevolent.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c25",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Parvati's hands may hold a trident, mirror, rosary, bell, dish, goad, sugarcane stalk, or flowers such as a lotus.",
+          "statement_id": "Tangan Parvati dapat memegang trisula, cermin, tasbih, lonceng, piring, tongkat penggiring gajah, batang tebu, atau bunga seperti teratai.",
+          "quote": "These hands may hold a trident, mirror, rosary, bell, dish, goad, sugarcane stalk, or flowers (such as a lotus).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c26",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In the Skanda Purana Parvati takes the form of a warrior-goddess and defeats a demon named Durg who takes the form of a buffalo; in this aspect she is known as Durga.",
+          "statement_id": "Dalam Skanda Purana, Parvati mengambil wujud dewi prajurit dan mengalahkan iblis bernama Durg yang berwujud kerbau; dalam aspek ini ia dikenal sebagai Durga.",
+          "quote": "In Skanda Purana, Parvati assumes the form of a warrior-goddess and defeats a demon called Durg who assumes the form of a buffalo. In this aspect, she is known by the name Durga.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c27",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In the Linga Purana, at Shiva's request, Parvati transforms into Kali to destroy the asura (demon) Daruk.",
+          "statement_id": "Dalam Linga Purana, atas permintaan Siwa, Parvati berubah menjadi Kali untuk membinasakan asura (iblis) Daruk.",
+          "quote": "In Linga Purana, Parvati undergoes a metamorphosis into Kali, at the request of Shiva, to destroy an asura (demon) Daruk.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c28",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "As Mahakali she identifies and destroys evil for protection, and as Annapurna she creates food and abundance for nourishment.",
+          "statement_id": "Sebagai Mahakali ia mengenali dan menumpas kejahatan demi perlindungan, dan sebagai Annapurna ia menciptakan pangan dan kelimpahan.",
+          "quote": "As Mahakali, she identifies and destroys evil for protection, and as Annapurna, she creates food and abundance for nourishment.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c29",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In the story of the ten Mahavidyas, Parvati's rage at Shiva's attempt to leave takes the form of ten terrifying goddesses who block his every exit.",
+          "statement_id": "Dalam kisah kelahiran sepuluh Mahavidya, kemarahan Parvati ketika Siwa hendak pergi menjelma sepuluh dewi menyeramkan yang menghalangi setiap jalan keluarnya.",
+          "quote": "Her rage at Shiva's attempt to walk out manifests in the form of ten terrifying goddesses who block Shiva's every exit.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c30",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Shaiva approaches tend to view Parvati as Shiva's submissive, obedient wife, whereas Shaktas stress her equality or even superiority to her consort.",
+          "statement_id": "Pendekatan Saiwa cenderung memandang Parvati sebagai istri Siwa yang patuh, sedangkan kaum Sakta menekankan kesetaraan atau bahkan keunggulannya atas pasangannya.",
+          "quote": "Shaiva's approaches tend to look upon Parvati as the Shiva's submissive and obedient wife. However, Shaktas focus on Parvati's equality or even superiority to her consort.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c31",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Three images are central to Parvati's ethos, iconography, and philosophy: Shiva-Shakti, Shiva as Ardhanarishvara (the Lord who is half-woman), and the linga and the yoni.",
+          "statement_id": "Tiga citra menjadi pusat etos, ikonografi, dan filsafat Parvati: Siwa-Sakti, Siwa sebagai Ardhanarishvara (Tuhan setengah perempuan), serta linga dan yoni.",
+          "quote": "Three images are central to the ethos, iconography, and philosophy of Parvati: the image of Shiva-Shakti, the image of Shiva as Ardhanarishvara (the Lord who is half-woman), and the image of the linga and the yoni.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c32",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Teej is a significant festival for Hindu women, particularly in the northern and western states of India, and Parvati is its primary deity.",
+          "statement_id": "Teej adalah festival penting bagi perempuan Hindu, terutama di negara bagian utara dan barat India; Parvati adalah dewa utama festival itu.",
+          "quote": "Teej is a significant festival for Hindu women, particularly in the northern and western states of India. Parvati is the primary deity of the festival",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c33",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In Bali, Parvati is spelled Parwati and is a principal goddess of Balinese Hinduism; she is more often called Uma and sometimes Giriputri (daughter of the mountains).",
+          "statement_id": "Di Bali, Parvati dieja Parwati dan merupakan dewi utama dalam Hindu Bali; ia lebih sering disebut Uma dan kadang Giriputri (putri gunung).",
+          "quote": "Parvati, locally spelled as Parwati, is a principal goddess in modern-day Hinduism of Bali. She is more often called Uma, and sometimes referred to as Giriputri (daughter of the mountains).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c34",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "As Dewi Danu she presides over waters, Lake Batur, and Gunung Batur, a major volcano in Bali.",
+          "statement_id": "Sebagai Dewi Danu, ia menguasai perairan, Danau Batur, dan Gunung Batur, gunung berapi besar di Bali.",
+          "quote": "As Dewi Danu, she presides over waters, lake Batur and Gunung Batur, a major volcano in Bali.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c35",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Sati-Parvati appears in the epic period (400 BCE-400 CE), when both the Ramayana and the Mahabharata present Parvati as Shiva's wife.",
+          "statement_id": "Sati-Parvati muncul pada masa epos (400 SM-400 M), ketika Ramayana dan Mahabharata menampilkan Parvati sebagai istri Siwa.",
+          "quote": "Sati-Parvati appears in the epic period (400 BCE–400 CE), as both the Ramayana and the Mahabharata present Parvati as Shiva's wife.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c36",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Parvata is one of the Sanskrit words for \"mountain\"; the name Parvati derives from her incarnation as daughter of king Himavan (also called Himavata, Parvata).",
+          "statement_id": "Parvata adalah salah satu kata Sanskerta untuk \"gunung\"; nama Parvati berasal dari kelahirannya sebagai putri Raja Himavan (juga disebut Himavata, Parvata).",
+          "quote": "Parvata (पर्वत ) is one of the Sanskrit words for \"mountain\"; \"Parvati\" derives her name from being incarnated as the daughter of king Himavan (also called Himavata, Parvata)",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c37",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Parvati (Sanskrit: पार्वती), also known as Uma and Gauri, is one of the principal goddesses in Hinduism.",
+          "statement_id": "Parvati (Sanskerta: पार्वती), juga dikenal sebagai Uma dan Gauri, adalah salah satu dewi utama dalam agama Hindu.",
+          "quote": "Parvati (Sanskrit: पार्वती , IAST: Pārvatī), also known as Uma (Sanskrit: उमा , IAST: Umā) and Gauri (Sanskrit: गौरी , IAST: Gaurī), is one of the principal goddesses in Hinduism",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c38",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Meenakshi is a regional form of Parvati in Madurai and is considered the queen of Madurai.",
+          "statement_id": "Meenakshi adalah wujud regional Parvati di Madurai dan dianggap ratu Madurai.",
+          "quote": "Meenakshi, regional form of Parvati in Madurai. She is considered the queen of Madurai.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c39",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Kalidasa's epic Kumarasambhavam (\"Birth of Kumara\") tells of the maiden Parvati, determined to marry Shiva and draw him out of his austere, aloof world.",
+          "statement_id": "Epos Kumarasambhavam karya Kalidasa menceritakan Parvati yang bertekad menikahi Siwa dan membawanya keluar dari dunia pertapaannya yang menyendiri.",
+          "quote": "Kalidasa's epic Kumarasambhavam (\"Birth of Kumara\") describes the story of the maiden Parvati who has made up her mind to marry Shiva and get him out of his recluse, intellectual, austere world of aloofness.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "parvati-c40",
+          "source_id": "parvati-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Only with Kalidasa's plays (5th-6th centuries) and the Puranas (4th through 13th centuries) do the stories of Sati-Parvati and Shiva gain fuller detail.",
+          "statement_id": "Baru pada drama Kalidasa (abad ke-5 sampai ke-6) dan Purana (abad ke-4 sampai ke-13) kisah Sati-Parvati dan Siwa memperoleh detail yang lebih lengkap.",
+          "quote": "However, it is not until the plays of Kalidasa (5th–6th centuries) and the Puranas (4th through the 13th centuries) that the stories of Sati-Parvati and Shiva acquire more comprehensive details.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "amun",
-      "file": "batch-033.md",
+      "file": "batch-033-fix-2.md",
+      "entry_sha256": "27413788f5114a1219d385489f48fea0cb66b0c8cf1ee7cd82690ea304e26f68",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 10,
-        "sources": 3,
+        "claims": 42,
+        "sources": 4,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 10 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
           "where": "claims",
-          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+          "message": "3 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -381,27 +939,347 @@
           "statement_id": "Tutankhamun memulihkan monumen Amun di Karnak yang rusak pada masa Akhenaten.",
           "quote": "The statue was certainly created for Karnak, Amun's great temple at Thebes, as part of Tutankhamun's restoration of the god's monuments that had been defaced or destroyed during the reign of Akhenaten.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260329040907id_/https://www.metmuseum.org/art/collection/search/544691",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "amun-c11",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Amun is one of ancient Egypt's most important gods, who rose to prominence at Thebes at the beginning of the New Kingdom (c. 1570-1069 BCE); his cult was the most powerful and popular in Egypt for centuries.",
+          "statement_id": "Amun adalah salah satu dewa terpenting Mesir kuno yang naik ke puncak kejayaan di Thebes pada awal Kerajaan Baru (sekitar 1570-1069 SM); kultusnya paling kuat dan populer di Mesir selama berabad-abad.",
+          "quote": "He is one of the most important gods of ancient Egypt who rose to prominence at Thebes at the beginning of the period of the New Kingdom (c. 1570-1069 BCE). His cult was the most powerful and popular in Egypt for centuries.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c12",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "At that early time Amun was associated with protecting the king but was largely a local fertility god paired with Amaunet within the Ogdoad, eight gods of the primordial elements of creation.",
+          "statement_id": "Pada masa awal itu Amun dikaitkan dengan perlindungan raja, tetapi terutama hanyalah dewa kesuburan lokal yang berpasangan dengan Amaunet dalam Ogdoad, delapan dewa unsur purba penciptaan.",
+          "quote": "Amun, at this time, was associated with protecting the king but, largely, was simply a local fertility god paired with his consort Amaunet as part of the Ogdoad, eight gods who represented the primordial elements of creation.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c13",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Among the Ogdoad, Amun was considered no more powerful than the others but represented the element of \"hiddenness\" or \"obscurity\".",
+          "statement_id": "Di antara anggota Ogdoad, Amun tidak dianggap lebih berkuasa daripada yang lain, tetapi mewakili unsur \"ketersembunyian\" atau \"ketidakjelasan\".",
+          "quote": "Amun was considered no more powerful or significant than the other gods who were part of the Ogdoad but represented the element of \"hiddenness\" or \"obscurity\"",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c14",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "When Ahmose I defeated the Hyksos he attributed his victory to Amun, linking him to the sun god Ra.",
+          "statement_id": "Ketika Ahmose I mengalahkan bangsa Hyksos, ia menyatakan kemenangannya berkat Amun, sehingga Amun dikaitkan dengan dewa matahari Ra.",
+          "quote": "When Ahmose I defeated the Hyksos he attributed his victory to Amun linking him to the well-known sun god Ra.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c15",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "After Amun's ascendancy in the New Kingdom he was hailed as \"The Self-created One\" and \"King of the Gods\", who had created all things including himself.",
+          "statement_id": "Setelah Amun naik daun pada masa Kerajaan Baru, ia dipuji sebagai \"Yang Menciptakan Diri\" dan \"Raja Para Dewa\" yang menciptakan segala sesuatu, termasuk dirinya sendiri.",
+          "quote": "Following Amun's ascendancy during the New Kingdom, he was hailed as \"The Self-created One\" and \"King of the Gods\" who had created all things, including himself.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c16",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "As Amun-Ra the god combines his invisible aspect (symbolized by the wind) with his visible aspect as the life-giving sun.",
+          "statement_id": "Sebagai Amun-Ra, sang dewa menggabungkan aspek tak kasatmata (dilambangkan angin) dan aspek kasatmata sebagai matahari pemberi kehidupan.",
+          "quote": "In his role as Amun-Ra, the god combines his invisible aspect (symbolized by the wind which one cannot see but is aware of) and his visible aspect as the life-giving sun.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c17",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Amun was also the Creator God who originally stood on the first dry ground at the beginning of time and created the world by mating with himself.",
+          "statement_id": "Amun juga adalah Dewa Pencipta yang semula berdiri di tanah kering pertama pada awal waktu dan menciptakan dunia dengan berpadu dengan dirinya sendiri.",
+          "quote": "He was also the Creator God who originally stood on the first dry ground at the beginning of time and created the world by mating with himself.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c18",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Once linked with Ra as Amun-Ra he took on Ra's solar aspects and was also a fertility god linked with Min, known as Amun-Min.",
+          "statement_id": "Setelah berpadu dengan Ra menjadi Amun-Ra, ia mengambil aspek Ra sebagai dewa surya dan juga menjadi dewa kesuburan yang dikaitkan dengan Min, dikenal sebagai Amun-Min.",
+          "quote": "Once he was linked with Ra to become Amun-Ra, he took on Ra's aspects as a solar god and, as one would expect from a creator, was also a fertility god linked with the fertility deity Min (a very ancient god) and known in this regard as Amun-Min.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c19",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Having absorbed the attributes of Thebes's war god Montu, Amun was regularly invoked in battle and so was also a war god.",
+          "statement_id": "Karena menyerap sifat-sifat dewa perang Montu dari Thebes, Amun sering diseru dalam pertempuran dan dengan demikian juga menjadi dewa perang.",
+          "quote": "As he had absorbed the attributes of the war god Montu of Thebes, he was regularly invoked in battle (as Ahmose I had done) and so was also a war god.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c20",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to Egyptologist Geraldine Pinch, Amun's presence was everywhere, unseen but felt like the wind, and his oracles communicated the divine will to humanity.",
+          "statement_id": "Menurut Egiptolog Geraldine Pinch, kehadiran Amun ada di mana-mana, tak terlihat tetapi terasa seperti angin, dan orakelnya menyampaikan kehendak ilahi kepada manusia.",
+          "quote": "His presence was everywhere, unseen but felt like the wind. His oracles communicated the divine will to humanity.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c21",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Amun was said to come swiftly to help Egyptian kings on the battlefield or to aid the poor and friendless.",
+          "statement_id": "Konon Amun datang dengan cepat menolong raja-raja Mesir di medan perang atau membantu orang miskin dan tak bersahabat.",
+          "quote": "Amun was said to come swiftly to help Egyptian kings on the battle field or to aid the poor and friendless.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c22",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In popular religion Amun was seen as an advocate of the common man, called \"the vizier of the humble\" and \"he who comes at the voice of the poor\", and as \"Amun of the Road\" a protector of travellers.",
+          "statement_id": "Dalam religi rakyat, Amun dipandang sebagai pembela rakyat jelata, disebut \"wazir kaum rendah\" dan \"dia yang datang pada suara orang miskin\", dan sebagai \"Amun di Jalan\" ia pelindung para pengelana.",
+          "quote": "The god was regarded as an advocate of the common man, being called \"the vizier of the humble\" and \"he who comes at the voice of the poor\" and as \"Amun of the Road\" he was also regarded as the protector of travellers.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c23",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to historian Marc van de Mieroop, after moving to Akhetaten Akhenaten began persecuting the other gods, especially Amun, whose name and images he had removed.",
+          "statement_id": "Menurut sejarawan Marc van de Mieroop, setelah pindah ke Akhetaten, Akhenaten mulai menindas dewa-dewa lain, terutama Amun, yang nama dan gambarnya ia hapus.",
+          "quote": "With the move to Akhetaten, Akhenaten no longer just ignored the other gods of Egypt, but started to persecute them, especially Amun, whose name and images he had removed",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c24",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Amun's popularity ushered in Egypt's first monotheistic movement under Akhenaten (1353-1336 BCE), who banned polytheistic worship and established Aten as the one true god.",
+          "statement_id": "Popularitas Amun justru mengantar gerakan keagamaan monoteistik pertama di Mesir di bawah Akhenaten (1353-1336 SM), yang melarang pemujaan banyak dewa dan menetapkan Aten sebagai satu-satunya dewa sejati.",
+          "quote": "The popularity of this god, in fact, ushered in the first monotheistic religious movement in Egypt under Akhenaten (1353-1336 BCE) who banned polytheistic worship and established the state religion of the one true god Aten.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c25",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Queen Hatshepsut (1479-1458 BCE) claimed Amun as her father, thereby legitimizing her reign.",
+          "statement_id": "Ratu Hatshepsut (1479-1458 SM) pernah menyatakan Amun sebagai ayahnya dan dengan demikian mengesahkan pemerintahannya.",
+          "quote": "Queen Hatshepsut (1479-1458 BCE) had once claimed Amun was her father and thereby legitimized her reign.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c26",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Alexander the Great did the same in 331 BCE at the Siwa Oasis, proclaiming himself a son of Zeus-Ammon, the Greek version of the god.",
+          "statement_id": "Aleksander Agung melakukan hal serupa pada 331 SM di Oasis Siwa, menyatakan dirinya putra dewa Zeus-Ammon, versi Yunani dari dewa itu.",
+          "quote": "Alexander the Great would do the same in 331 BCE at the Siwa Oasis, proclaiming himself a son of the god Zeus-Ammon, the Greek version of the god.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c27",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Greece Zeus-Ammon was depicted as the full-bearded Zeus with Amun's ram's horns, associated with power and virility through bull and ram imagery.",
+          "statement_id": "Di Yunani, Zeus-Ammon digambarkan sebagai Zeus berjanggut penuh dengan tanduk domba milik Amun, dikaitkan dengan kekuatan dan keperkasaan lewat citra banteng dan domba.",
+          "quote": "In Greece, Zeus-Ammon was depicted as the full-bearded Zeus with the ram's horns of Amun and associated with power and virility through imagery including the bull and the ram.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c28",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Ahmose I elevated the custom of consecrating royal women as \"divine wives of Amun\" who officiated at festivals and ceremonies.",
+          "statement_id": "Ahmose I mengangkat kebiasaan menahbiskan perempuan kerajaan sebagai \"istri ilahi Amun\" yang memimpin festival dan upacara.",
+          "quote": "A custom elevated by Ahmose I was the consecration of royal women as \"divine wives of Amun\" who would officiate at festivals and ceremonies.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c29",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The main Temple of Amun at Karnak is still the largest religious structure ever built and was connected to the Southern Sanctuary of the Luxor Temple.",
+          "statement_id": "Kuil utama Amun di Karnak masih merupakan bangunan keagamaan terbesar yang pernah dibangun dan terhubung dengan Tempat Suci Selatan Kuil Luxor.",
+          "quote": "The main Temple of Amun at Karnak is still the largest religious structure ever built and was connected to the Southern Sanctuary of the Luxor Temple.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c30",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Amun's Barque was known as Userhetamon, \"Mighty of Brow is Amun\", a gift to the city from Ahmose I after his victory over the Hyksos and accession.",
+          "statement_id": "Perahu Amun dikenal sebagai Userhetamon, \"Perkasa Dahinya Amun\", dan merupakan hadiah Ahmose I kepada kota itu setelah ia mengalahkan Hyksos dan naik takhta.",
+          "quote": "Amun's Barque was known to the Egyptians as Userhetamon, \"Mighty of Brow is Amun,\" and was a gift to the city from Ahmose I following his victory over the Hyksos and ascension to the throne.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c31",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Amun's cult took hold especially in Sudan, where, as in Egypt, his priests became powerful and wealthy enough to enforce their will on the kings of Meroe.",
+          "statement_id": "Kultus Amun mengakar terutama di wilayah Sudan, tempat para imamnya, seperti di Mesir, menjadi cukup kuat dan kaya untuk memaksakan kehendak pada raja-raja Meroe.",
+          "quote": "His cult took hold especially in the region of the Sudan where, as in Egypt, his priests became powerful and wealthy enough to enforce their will on the kings of Meroe.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c32",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "King Ergamenes of Meroe, no longer tolerating the priests of Amun's power, had them massacred c. 285 BCE.",
+          "statement_id": "Raja Ergamenes dari Meroe tak lagi tahan akan kekuasaan para imam Amun dan membantai mereka sekitar 285 SM.",
+          "quote": "King Ergamenes of Meroe could no longer tolerate the power of the priests of Amun in his country and had them massacred c. 285 BCE",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c33",
+          "source_id": "amun-s4",
+          "host": "en.wikisource.org",
+          "statement": "Britannica 1911 calls Ammon the Graecized name of an Egyptian deity, in the native language Amūn, connected by the priests with a root meaning \"conceal\".",
+          "statement_id": "Britannica 1911 menyebut Ammon sebagai nama Yunani bagi dewa Mesir yang dalam bahasa aslinya Amūn, oleh para imam dikaitkan dengan akar kata yang berarti \"menyembunyikan\".",
+          "quote": "AMMON, the Graecized name of an Egyptian deity, in the native language Amūn, connected by the priests with a root meaning “conceal.”",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c34",
+          "source_id": "amun-s4",
+          "host": "en.wikisource.org",
+          "statement": "To begin with Amun was merely the local deity of Thebes, then an unimportant town on the river's east bank.",
+          "statement_id": "Pada mulanya Amun hanyalah dewa lokal Thebes ketika kota itu masih kecil dan tidak penting di tepi timur sungai.",
+          "quote": "He was, to begin with, the local deity of Thebes, when it was an unimportant town on the east bank of the river",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c35",
+          "source_id": "amun-s4",
+          "host": "en.wikisource.org",
+          "statement": "Amun is figured in human form wearing a plain deep circlet from which rise two straight parallel plumes, perhaps representing a hawk's tail feathers.",
+          "statement_id": "Amun digambarkan berwujud manusia dengan lingkaran polos di kepala yang ditumbuhi dua bulu lurus sejajar, mungkin melambangkan bulu ekor elang.",
+          "quote": "Ammon is figured of human form, wearing on his head a plain deep circlet from which rise two straight parallel plumes, perhaps representing the tail feathers of a hawk.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c36",
+          "source_id": "amun-s4",
+          "host": "en.wikisource.org",
+          "statement": "Amun's most frequent and celebrated incarnation was the woolly sheep with curved horns.",
+          "statement_id": "Perwujudan Amun yang paling sering dan terkenal adalah domba berbulu wol dengan tanduk melengkung.",
+          "quote": "his most frequent and celebrated incarnation was the woolly sheep with curved (“Ammon”) horns",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c37",
+          "source_id": "amun-s4",
+          "host": "en.wikisource.org",
+          "statement": "In the 18th Dynasty the Egyptian goose is figured as sacred to Amun.",
+          "statement_id": "Pada Dinasti ke-18, angsa Mesir digambarkan sebagai hewan suci bagi Amun.",
+          "quote": "The Egyptian goose (chenalopex) is figured in the XVIIIth dynasty as sacred to Ammon",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c38",
+          "source_id": "amun-s4",
+          "host": "en.wikisource.org",
+          "statement": "Amun was entitled \"lord of the thrones of the two lands\" or, more proudly still, \"king of the gods\".",
+          "statement_id": "Amun bergelar \"penguasa takhta dua negeri\" atau, lebih megah lagi, \"raja para dewa\".",
+          "quote": "Ammon was entitled “lord of the thrones of the two lands,” or, more proudly still, “king of the gods.”",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c39",
+          "source_id": "amun-s4",
+          "host": "en.wikisource.org",
+          "statement": "As king of the gods Amun was identified by the Greeks with Zeus and his consort Mūt with Hera.",
+          "statement_id": "Sebagai raja para dewa, Amun disamakan orang Yunani dengan Zeus, dan pasangannya Mūt dengan Hera.",
+          "quote": "As king of the gods Ammon was identified by the Greeks with Zeus and his consort Mūt with Hera.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c40",
+          "source_id": "amun-s4",
+          "host": "en.wikisource.org",
+          "statement": "Amun's consort was sometimes called Amaune (feminine of Amūn) but more usually Mūt, \"mother\".",
+          "statement_id": "Pasangan Amun kadang disebut Amaune, bentuk feminin Amūn, tetapi lebih sering Mūt, \"ibu\".",
+          "quote": "His consort was sometimes called Amaune (feminine of Amūn), but more usually Mūt, “mother”",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c41",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The god was taken to Rome as Jupiter-Ammon, where he was venerated for the same reasons as elsewhere.",
+          "statement_id": "Dewa ini dibawa ke Roma sebagai Jupiter-Ammon dan dipuja karena alasan yang sama seperti di tempat lain.",
+          "quote": "The god was taken to Rome as Jupiter-Ammon where he was venerated for the same reasons as elsewhere.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amun-c42",
+          "source_id": "amun-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Although Amun took on many of Atum's attributes and more or less replaced him, the two remained distinct deities and Atum continued to be venerated.",
+          "statement_id": "Meskipun Amun mengambil banyak sifat Atum dan nyaris menggantikannya, keduanya tetap dewa yang berbeda dan Atum terus dipuja.",
+          "quote": "Although Amun took on many of Atum's attributes and more or less replaced him, the two remained distinct deities and Atum continued to be venerated.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "demon",
-      "file": "batch-033-fix-1.md",
+      "file": "batch-033-fix-2.md",
+      "entry_sha256": "1ba7909c34256d86530877a3db97d2583cf7a0594b30d85fd0d36e080cc64f0f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 4,
+        "claims": 46,
+        "sources": 5,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 8 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -453,9 +1331,8 @@
           "statement_id": "Menurut The Met, sumber kuno sering menggambarkan entitas semacam ini tanpa pembagian moral yang tegas.",
           "quote": "Although they are often classified as either evil or protective in modern scholarship, supernatural beings in ancient references seem to be presented as largely amoral.",
           "context": "scholarly-interpretation",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260217093845id_/https://www.metmuseum.org/exhibitions/listings/2014/assyria-to-iberia/blog/posts/pazuzu",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "demon-c06",
@@ -465,17 +1342,16 @@
           "statement_id": "Pazuzu dipakai sebagai pelindung dari Lamashtu, demon perempuan yang ditakuti ibu hamil dan bayi.",
           "quote": "Pazuzu, as a powerful demon, was frequently set up as a shield against another supernatural terror: Lamashtu, a female demon with broad and far-ranging destructive powers, especially feared by pregnant women and those with newborns, who were her favored (but not only) victims.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260217093845id_/https://www.metmuseum.org/exhibitions/listings/2014/assyria-to-iberia/blog/posts/pazuzu",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "demon-c07",
           "source_id": "demon-s4",
           "host": "www.encyclopedia.com",
-          "statement": "The related term later came to mean harmful spirits.",
-          "statement_id": "Dalam perkembangan makna, istilah yang berkerabat dengan daimon dipakai bagi roh yang menyakiti manusia.",
-          "quote": "was applied to evil spirits, spirits that tormented men or caused them harm.",
+          "statement": "Still later the Greek word δαιμόνιον (borrowed into Latin as daemonium) was applied to evil spirits that tormented men or caused them harm.",
+          "statement_id": "Kemudian kata Yunani δαιμόνιον (dipinjam ke bahasa Latin sebagai daemonium) dipakai bagi roh jahat yang menyiksa atau mencelakai manusia.",
+          "quote": "Still later, the word δαιμόνιον (borrowed into Latin as daemonium ) was applied to evil spirits, spirits that tormented men or caused them harm.",
           "context": "etymology",
           "status": "exact"
         },
@@ -488,25 +1364,401 @@
           "quote": "The term \"demon\" in the modern day always carries with it the connotation of evil, but this was not so in the ancient world.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "demon-c09",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Demons may or may not be considered devils, minions of the Devil; in many traditions demons are independent operators, each causing different kinds of evils such as destructive natural phenomena or specific diseases.",
+          "statement_id": "Demon mungkin atau mungkin tidak dianggap iblis (setan), yaitu bawahan Iblis; dalam banyak tradisi demon bekerja sendiri-sendiri, tiap demon menyebabkan jenis keburukan berbeda seperti bencana alam atau penyakit tertentu.",
+          "quote": "Demons may or may not be considered to be devils: minions of the Devil. In many traditions, demons are independent operators, with different demons causing different types of evils (destructive natural phenomena, specific diseases, etc.) in general",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c10",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In ancient Near Eastern and Abrahamic religions a demon is considered a harmful spiritual entity that may cause possession, calling for an exorcism.",
+          "statement_id": "Dalam agama-agama Timur Dekat kuno dan agama Abrahamik, demon dianggap entitas rohani yang merugikan dan dapat menyebabkan perasukan, sehingga memerlukan pengusiran setan.",
+          "quote": "In ancient Near Eastern religions and in the Abrahamic religions, including early Judaism and ancient-medieval Christian demonology, a demon is considered a harmful spiritual entity that may cause demonic possession, calling for an exorcism.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c11",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Demons are still feared largely because of their alleged power to possess living creatures.",
+          "statement_id": "Demon masih ditakuti terutama karena kuasa yang dikaitkan kepadanya untuk merasuki makhluk hidup. Britannica 1911 membatasi istilah demon pada roh yang dipercaya menjalin hubungan dengan manusia.",
+          "quote": "Demons are still feared largely due to their alleged power to possess living creatures.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c12",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The term first acquired negative connotations in the Septuagint translation of the Hebrew Bible into Greek, which drew on the mythology of ancient Semitic religions.",
+          "statement_id": "Istilah itu pertama kali bermakna negatif dalam terjemahan Septuaginta Alkitab Ibrani ke bahasa Yunani, yang bertumpu pada mitologi agama-agama Semit kuno.",
+          "quote": "The term had first acquired its negative connotations in the Septuagint translation of the Hebrew Bible into Greek, which drew on the mythology of ancient Semitic religions.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c13",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The English use of demon as a synonym for devils goes back at least as far as about 825.",
+          "statement_id": "Pemakaian kata demon dalam bahasa Inggris sebagai padanan iblis sudah ada sekurang-kurangnya sejak sekitar tahun 825.",
+          "quote": "The English use of demon as synonym for devils goes back at least as far as about 825.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c14",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Belief in demons probably goes back to the Paleolithic age, stemming from humanity's fear of the unknown, the strange and the horrific.",
+          "statement_id": "Kepercayaan akan demon kemungkinan berasal dari zaman Paleolitikum, bersumber dari rasa takut manusia akan hal yang tak dikenal, aneh, dan mengerikan.",
+          "quote": "Belief in demons probably goes back to the Paleolithic age, stemming from humanity's fear of the unknown, the strange and the horrific.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c15",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ancient Egyptian demons can be divided into two classes: \"guardians\" and \"wanderers\".",
+          "statement_id": "Demon Mesir kuno dapat dibagi menjadi dua kelas: \"penjaga\" dan \"pengembara\".",
+          "quote": "Ancient Egyptian demons can be divided into two classes: \"guardians\" and \"wanderers\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c16",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "\"Guardians\" are tied to a specific place and their function can be benevolent toward those with the secret knowledge to face them.",
+          "statement_id": "Para \"penjaga\" terikat pada tempat tertentu dan fungsinya bisa baik bagi mereka yang memiliki pengetahuan rahasia untuk menghadapinya.",
+          "quote": "\"Guardians\" are tied to a specific place; their demonic activity is topographically defined and their function can be benevolent towards those who have the secret knowledge to face them.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c17",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The \"wanderers\" are associated with possession, mental illness, death and plagues.",
+          "statement_id": "Para \"pengembara\" dikaitkan dengan perasukan, penyakit jiwa, kematian, dan wabah.",
+          "quote": "The \"wanderers\" are associated with possession, mental illness, death and plagues.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c18",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The demons of Mesopotamia were generally hostile spirits of lesser power than a deity.",
+          "statement_id": "Demon Mesopotamia umumnya adalah roh yang bermusuhan dengan kekuatan lebih rendah daripada dewa.",
+          "quote": "The demons of Mesopotamia were generally hostile spirits of lesser power than a deity.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c19",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "People could protect themselves from demons by wearing amulets, using magic, or seeking refuge with another demon or deity.",
+          "statement_id": "Orang dapat melindungi diri dari demon dengan memakai jimat, menggunakan sihir, atau berlindung pada demon atau dewa lain.",
+          "quote": "People could protect themselves from demons by wearing amulets, using magic, or seeking refuge amongst another demon or deity.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c20",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Babylonian Great Flood tale, since the gods promised never to flood humanity again, the demoness Lamaštu was installed instead, tasked with killing humans to prevent excessive multiplication.",
+          "statement_id": "Dalam kisah Banjir Besar Babilonia, karena para dewa berjanji tidak akan membanjiri manusia lagi, iblis perempuan Lamaštu ditugaskan membunuh manusia agar tidak terlalu banyak berkembang biak.",
+          "quote": "In the Babylonian tale of the Great Flood, since the gods promised to never flood humanity again, the demoness Lamaštu was installed instead and given the task of killing humans in order to avoid excessive multiplication.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c21",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One class of demons believed to dwell in the underworld were the galla, whose primary purpose appears to have been dragging unfortunate mortals back to Kur.",
+          "statement_id": "Satu kelas demon yang dipercaya tinggal di dunia bawah disebut galla; tugas utamanya tampaknya menyeret manusia malang kembali ke Kur.",
+          "quote": "One class of demons that were believed to reside in the underworld were known as galla; their primary purpose appears to have been to drag unfortunate mortals back to Kur.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c22",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Babylonian creation epic Enūma Eliš, both gods and demons are children of Tiamat, goddess of primordial chaos.",
+          "statement_id": "Menurut epos penciptaan Babilonia Enūma Eliš, dewa dan demon sama-sama anak Tiamat, dewi kekacauan purba.",
+          "quote": "According to the Babylonian creation epic Enūma Eliš, both gods and demons are the children of Tiamat, the goddess of primordial chaos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c23",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Younger Avesta demons (daēuua) cause diseases and death; ritual purification and recitation of sacred prayers can ward them off.",
+          "statement_id": "Dalam Avesta Muda, demon (daēuua) menyebabkan penyakit dan kematian; dengan penyucian ritual dan pembacaan doa suci, demon dapat ditangkal.",
+          "quote": "In the Younger Avesta, demons (daēuua) cause diseases and death. By abiding to ritual purification and recitation of sacred prayers, demons can be warded off and kept at bay.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c24",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In medieval Christianity demons and spirits were generally considered fallen angels.",
+          "statement_id": "Dalam Kekristenan abad pertengahan, demon dan roh umumnya dianggap malaikat yang jatuh.",
+          "quote": "In Medieval Christianity, demons and spirits were generally considered to be fallen angels.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c25",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Hebrew Bible mentions two classes of demonic spirits, the se'irim and the shedim.",
+          "statement_id": "Alkitab Ibrani menyebut dua kelas roh iblis, yaitu se'irim dan shedim.",
+          "quote": "The Hebrew Bible mentions two classes of demonic spirits, the se'irim and the shedim .",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c26",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Various diseases and ailments were ascribed to demons, particularly those affecting the brain and internal organs.",
+          "statement_id": "Berbagai penyakit dikaitkan dengan demon, terutama yang menyerang otak dan organ dalam.",
+          "quote": "Various diseases and ailments were ascribed to demons, particularly those affecting the brain and those of internal nature.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c27",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Demons are believed to be vanquished by sacred symbols, the content of which depends on the prevailing religion of the culture.",
+          "statement_id": "Demon dipercaya dapat dikalahkan oleh simbol suci, yang isinya bergantung pada agama dominan budaya setempat.",
+          "quote": "Demons are believed to be vanquished by sacred symbols. The content of the symbol depends on the prevailing religion of the culture.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c28",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Common features of these Middle Eastern demons are immortality and pernicious nature; they can turn invisible and can be enslaved when pierced by a silver needle.",
+          "statement_id": "Ciri umum demon Timur Tengah ini adalah keabadian dan sifat jahatnya; mereka dapat menjadi tak terlihat dan dapat diperbudak bila ditusuk jarum perak.",
+          "quote": "Common features of these Middle Eastern demons are their immortality and pernicious nature, they can turn invisible, and can be enslaved when pierced by a silver needle.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c29",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In some tales demons are given supernatural powers such as causing sickness, mental illness, or even turning humans to stone.",
+          "statement_id": "Dalam beberapa kisah, demon diberi kekuatan gaib seperti menyebabkan sakit, gangguan jiwa, atau bahkan mengubah manusia menjadi batu.",
+          "quote": "In some tales, supernatural powers are attributed to them, such as causing sickness, mental illnesses, or even turn humans to stone.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c30",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Islamic culture demons share many anthropomorphic attributes with the Arabian jinn and can enter sexual relationships with humans, but differ from jinn in being perceived as malign.",
+          "statement_id": "Dalam budaya Islam, demon memiliki banyak sifat mirip manusia seperti jin Arab dan dapat menjalin hubungan seksual dengan manusia, tetapi berbeda dari jin karena dipandang jahat.",
+          "quote": "share many anthropomorphic attributes with the Arabian jinn. Like the jinn from Islamic traditions, they can enter sexual relationships with humans and sire offspring. Nonetheless, demons differ from jinn as they are perceived as malign creatures.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c31",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A ceremonial magician usually consults a grimoire, which gives the names and abilities of demons and detailed instructions for conjuring and controlling them.",
+          "statement_id": "Pesulap upacara biasanya merujuk grimoire yang memuat nama dan kemampuan demon serta petunjuk rinci untuk memanggil dan mengendalikannya.",
+          "quote": "A ceremonial magician usually consults a grimoire, which gives the names and abilities of demons as well as detailed instructions for conjuring and controlling them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c32",
+          "source_id": "demon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In an Uighur Manichaean text fragment the demons quarrel over three magical items: a cap that makes people invisible, sandals that carry people anywhere, and a staff belonging to the sandals.",
+          "statement_id": "Dalam fragmen naskah Manikhaean Uighur, para demon bertengkar memperebutkan tiga benda ajaib: topi yang membuat orang tak terlihat, sandal yang membawa orang ke tempat mana pun, dan tongkat milik sandal itu.",
+          "quote": "The demons quarrel over three magical items: a cap which turns people invisible, sandals which can bring people to any place they wish, and staff which belongs to the sandals.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c33",
+          "source_id": "demon-s5",
+          "host": "en.wikisource.org",
+          "statement": "According to Britannica 1911, only spirits believed to enter into relations with the human race are classified as demons.",
+          "statement_id": "Menurut Britannica 1911, yang digolongkan demon hanyalah roh yang dipercaya menjalin hubungan dengan manusia.",
+          "quote": "Under the head of demons are classified only such spirits as are believed to enter into relations with the human race",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c34",
+          "source_id": "demon-s5",
+          "host": "en.wikisource.org",
+          "statement": "According to Britannica 1911, ascribing malevolence to the spirit world is by no means universal.",
+          "statement_id": "Menurut Britannica 1911, anggapan bahwa dunia roh itu jahat sama sekali tidak bersifat universal.",
+          "quote": "The ascription of malevolence to the world of spirits is by no means universal.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c35",
+          "source_id": "demon-s5",
+          "host": "en.wikisource.org",
+          "statement": "According to Britannica 1911, disease-causing spirits may be human or non-human and may enter the victim's body.",
+          "statement_id": "Menurut Britannica 1911, roh penyebab penyakit dapat berupa manusia atau bukan manusia, dan dapat memasuki tubuh korban.",
+          "quote": "The spirits which cause disease may be human or non-human and their influence is shown in more than one way; they may enter the body of the victim",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c36",
+          "source_id": "demon-s5",
+          "host": "en.wikisource.org",
+          "statement": "Britannica 1911 calls ancient Babylonian demonology especially complicated: petty annoyances such as a sudden fall, a headache, or a quarrel were set down to fiends.",
+          "statement_id": "Britannica 1911 menyebut demonologi Babilonia kuno sangat rumit: gangguan kecil seperti jatuh mendadak, sakit kepala, atau pertengkaran dianggap ulah makhluk-makhluk jahat.",
+          "quote": "Especially complicated was the ancient Babylonian demonology; all the petty annoyances of life—a sudden fall, a headache, a quarrel—were set down to the agency of fiends",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c37",
+          "source_id": "demon-s5",
+          "host": "en.wikisource.org",
+          "statement": "Britannica 1911 notes that, according to Hesiod, the men of the golden race became guardians or watchers over mortals after death.",
+          "statement_id": "Britannica 1911 menyebut bahwa menurut Hesiod, manusia ras emas menjadi pelindung atau pengawas manusia fana setelah mati.",
+          "quote": "according to Hesiod the men of the golden race became after death guardians or watchers over mortals.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c38",
+          "source_id": "demon-s5",
+          "host": "en.wikisource.org",
+          "statement": "Britannica 1911 names incubi and succubi as a class of nocturnal demons said to consort with human beings in their sleep.",
+          "statement_id": "Britannica 1911 menyebut incubi dan succubi sebagai kelas demon malam yang konon bersetubuh dengan manusia dalam tidurnya.",
+          "quote": "Another class of nocturnal demons are the incubi and succubi, who are said to consort with human beings in their sleep",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c39",
+          "source_id": "demon-s5",
+          "host": "en.wikisource.org",
+          "statement": "According to Britannica 1911, the gods of an older religion sometimes degenerate into the demons of the belief that supersedes it.",
+          "statement_id": "Menurut Britannica 1911, kadang dewa-dewa agama lama merosot menjadi demon dalam kepercayaan yang menggantikannya.",
+          "quote": "Sometimes the gods of an older religion degenerate into the demons of the belief which supersedes it.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c40",
+          "source_id": "demon-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "The Greek word δαίμων, from which English demon ultimately derives, originally meant a divine being normally regarded as good.",
+          "statement_id": "Kata Yunani δαίμων, asal kata demon dalam bahasa Inggris, mulanya berarti makhluk ilahi yang biasanya dianggap baik.",
+          "quote": "Originally, however, the Greek word δαίμων, from which the English word demon is ultimately derived, meant a divine being, normally regarded as good",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c41",
+          "source_id": "demon-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "Later this word and, more often, its neuter form δαιμόνιον were used of lesser spirits and demigods, especially guardian spirits or spirits that influenced men's characters.",
+          "statement_id": "Kemudian kata itu dan, lebih sering, bentuk netralnya δαιμόνιον dipakai bagi roh yang lebih rendah, setengah dewa, terutama roh pelindung manusia atau roh yang memengaruhi watak manusia.",
+          "quote": "Later this word and, more commonly, its neuter adjective δαιμόνιον, like the Latin word genius, were frequently used of lesser spirits, demigods, especially men's guardian spirits or spirits that influenced men's characters.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c42",
+          "source_id": "demon-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "In the late Old Testament books and rabbinical writings demons were regarded as causing physical harm and seducing people to moral evil, and so were considered God's enemies.",
+          "statement_id": "Pada akhir kitab-kitab Perjanjian Lama dan tulisan rabinik, demon dianggap bukan hanya mencelakai manusia secara jasmani tetapi juga menggoda mereka berbuat jahat, sehingga dipandang musuh Allah.",
+          "quote": "They were regarded not only as causing men physical harm, but also as seducing them to moral evil, and they were therefore considered God's enemies",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c43",
+          "source_id": "demon-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "According to Jewish speculation, demons were fallen angels whose fall consisted either in having sexual intercourse with women or in rebelling against God under Satan's leadership.",
+          "statement_id": "Menurut spekulasi Yahudi, demon adalah malaikat jatuh yang kejatuhannya berupa bersetubuh dengan perempuan atau memberontak melawan Allah di bawah pimpinan Setan.",
+          "quote": "According to Jewish speculation, the demons were fallen angels whose fall consisted either ... in having sexual intercourse with women ... in rebelling, under the leadership of Satan, against God.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c44",
+          "source_id": "demon-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "In folk art demons were commonly portrayed with bat wings, horns, a pointed tail, and birdlike claws.",
+          "statement_id": "Dalam seni rakyat, demon umumnya digambarkan dengan sayap kelelawar, tanduk, ekor runcing, dan cakar seperti burung.",
+          "quote": "In folk art, demons were commonly portrayed with bat wings, horns, a pointed tail, and birdlike claws.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c45",
+          "source_id": "demon-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "In the Middle Ages demons were portrayed in the most horrible forms artists could imagine, especially tormenting the damned in hell.",
+          "statement_id": "Pada Abad Pertengahan demon digambarkan dalam rupa paling mengerikan yang dapat dibayangkan seniman, terutama sebagai penyiksa orang terkutuk di neraka.",
+          "quote": "In the Middle Ages demons were portrayed in the most horrible and frightening forms the artists could imagine, especially as tormenting the damned in hell.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "demon-c46",
+          "source_id": "demon-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "Representations of demons in Christian Western art began only in the 12th century but have been very common since.",
+          "statement_id": "Penggambaran demon dalam seni Barat Kristen baru dimulai pada abad ke-12, tetapi sejak itu sangat umum.",
+          "quote": "Representations of demons in the art of the Christian West did not begin until the 12th century, but from then on they are very common.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "eros",
-      "file": "batch-033.md",
+      "file": "batch-033-fix-2.md",
+      "entry_sha256": "5362d5ec280c7a07ebde83a8c75c71909ecadfda3eb90f72e81f4d11d94f4352",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 10,
-        "sources": 3,
+        "claims": 50,
+        "sources": 4,
         "images": 0
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 10 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "claims",
@@ -614,6 +1866,406 @@
           "statement_id": "Cupid adalah padanan Romawi Eros.",
           "quote": "Eros is the Greek god of love and Cupid is his Roman equivalent.",
           "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c11",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Eros picks his targets without warning and strikes their hearts, causing confusion and overwhelming feelings.",
+          "statement_id": "Tanpa peringatan Eros memilih sasarannya dan menyerang hati mereka dengan keras, membawa kebingungan dan perasaan yang tak tertahankan.",
+          "quote": "Without warning Eros selects his targets and forcefully strikes at their hearts, bringing confusion and irrepressible feelings.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c12",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Greek art Eros is most often shown as a carefree, beautiful youth crowned with flowers, especially roses, which were closely associated with him.",
+          "statement_id": "Dalam seni Yunani Eros paling sering digambarkan sebagai pemuda tampan yang riang, bermahkota bunga, terutama mawar yang erat dikaitkan dengan sang dewa.",
+          "quote": "Eros is most often represented in Greek art as a carefree and beautiful youth, crowned with flowers, especially of roses which were closely associated with the god.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c13",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to Hesiod's Theogony, Eros was one of the primeval gods who, with Chaos and Gaia (Earth), was responsible for the Creation.",
+          "statement_id": "Menurut Hesiod dalam Theogony, Eros adalah salah satu dewa purba yang bersama Chaos dan Gaia (Bumi) bertanggung jawab atas penciptaan.",
+          "quote": "According to Hesiod in his Theogony, Eros was one of the primaeval gods who, along with Chaos and Gaia (Earth), was responsible for the Creation.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c14",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In other traditions such as the Orphic cosmogonies, Eros is born a hermaphrodite from an egg put by the Titan Chronos (Time) into the womb of Chaos.",
+          "statement_id": "Dalam tradisi lain seperti kosmogoni Orfik, Eros lahir sebagai hermafrodit dari telur yang diletakkan Titan Chronos (Waktu) ke dalam rahim Chaos.",
+          "quote": "In other traditions, such as the Orphic cosmogonies, Eros is born a hermaphrodite from an egg which was put by the Titan Chronos (who represents Time) into the womb of Chaos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c15",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The comic playwright Aristophanes (c. 460-c. 380 BCE) uses the same idea but has Eros hatch from a silver egg laid by Nyx (Night) and Aither (Wind).",
+          "statement_id": "Penulis komedi Yunani Aristophanes (sekitar 460-380 SM) memakai gagasan serupa tetapi membuat Eros menetas dari telur perak yang dikeluarkan Nyx (Malam) dan Aither (Angin).",
+          "quote": "The Greek comic playwright Aristophanes (c. 460 - c. 380 BCE) uses the same idea but has Eros hatch out from a silver egg laid by Nyx (Night) and Aither (Wind).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c16",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In some traditions Eros had a younger brother, Anteros, a much darker figure and an avenger of unrequited love.",
+          "statement_id": "Dalam beberapa tradisi, Eros punya adik bernama Anteros, sosok yang jauh lebih gelap dan pembalas cinta yang tak berbalas.",
+          "quote": "In some traditions, Eros also had a younger brother - Anteros - who was a much darker figure and an avenger of unrequited love.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c17",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Greek myth Eros was associated above all with fertility, desire and sexual love, and because such passions were hard to control he was considered something of a cunning trickster.",
+          "statement_id": "Dalam mitos Yunani, Eros terutama dikaitkan dengan kesuburan, hasrat, dan cinta seksual; karena gairah itu sulit dikendalikan, sang dewa dianggap semacam penipu yang licik.",
+          "quote": "In the Greek myths, Eros was associated above all with fertility, desire and sexual love, and because such passions could prove very difficult to control, the god was considered something of a cunning trickster.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c18",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Sometimes the god is playful and harmlessly mischievous, but at other times cruel with surprise attacks that bring only reckless passion and confusion.",
+          "statement_id": "Kadang sang dewa bermain-main dan jahil tanpa bahaya, tetapi di waktu lain ia kejam dengan serangan mendadak yang hanya membawa nafsu gegabah dan kebingungan.",
+          "quote": "Sometimes the god is playful and harmlessly mischievous but at other times he is cruel with his surprise attacks that bring only reckless passion and confusion",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c19",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to the source, Eros's lack of discipline and general unreliability may explain why he was never counted among the 12 Olympian gods.",
+          "statement_id": "Menurut penulis sumber ini, kurangnya disiplin dan ketidakandalan Eros mungkin menjelaskan mengapa ia tak pernah dianggap salah satu dari 12 dewa Olimpus.",
+          "quote": "The lack of discipline and general unreliability of Eros may explain why he was never considered one of the 12 Olympian Gods.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c20",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Eros was also considered the specific protector of homosexual love.",
+          "statement_id": "Eros juga dianggap pelindung khusus cinta sesama jenis.",
+          "quote": "Finally, Eros was considered the specific protector of homosexual love.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c21",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In one famous episode Apollo ridiculed Eros's skill as an archer, and Eros shot one of his arrows at the great god, making him fall in love with the nymph Daphne.",
+          "statement_id": "Salah satu kisah terkenal: Apollo mengejek kemampuan Eros memanah, lalu Eros menembakkan panah ke dewa besar itu sehingga ia jatuh cinta pada nimfa Daphne.",
+          "quote": "One of the most famous episodes involving this trick was when Apollo ridiculed the skills of Eros as an archer and the latter fired one of his arrows at the great god, making him fall in love with the nymph Daphne.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c22",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Another instance: Eros made Medea fall in love with the great hero Jason, who seized the Golden Fleece.",
+          "statement_id": "Contoh lain: Eros membuat Medea jatuh cinta pada pahlawan besar Jason, pengambil Bulu Domba Emas.",
+          "quote": "Another such instance of Eros using his love-carrying arrows was when he made Medea fall in love with the great hero Jason, he who grabbed the Golden Fleece.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c23",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Altars to Eros were placed at the Academy of Athens and at the gymnasium at Elis.",
+          "statement_id": "Altar bagi Eros didirikan di Akademi Athena dan di gimnasium Elis.",
+          "quote": "Altars to Eros were placed at both the Academy of Athens and the gymnasium at Elis",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c24",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In ancient Greek art from the 6th century BCE Eros is usually depicted as a winged adolescent who often carries a victory wreath.",
+          "statement_id": "Dalam seni Yunani kuno sejak abad ke-6 SM, Eros biasanya digambarkan sebagai remaja bersayap yang sering membawa karangan bunga kemenangan.",
+          "quote": "In ancient Greek art from the 6th century BCE, Eros is usually depicted as an adolescent with wings and he often carries a wreath of victory.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c25",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Eros is shown carrying a bow with any frequency only from the 4th century BCE, though the first literary reference is much earlier, in Euripides' Iphigenia in Aulis (c. 406 BCE).",
+          "statement_id": "Eros baru sering digambarkan membawa busur sejak abad ke-4 SM, meski rujukan sastra pertamanya jauh lebih awal, dalam Iphigenia in Aulis karya Euripides (sekitar 406 SM).",
+          "quote": "Surprisingly, he is only depicted carrying a bow with any great frequency from the 4th century BCE, although the first literary reference is much earlier and found in the tragedian Euripides' Iphigenia in Aulis (c. 406 BCE).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c26",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Figures of Eros can also appear in twos or threes, called Erotes, symbolizing the different forms love can take.",
+          "statement_id": "Sosok Eros juga dapat muncul berdua atau bertiga, disebut Erotes, yang melambangkan berbagai bentuk cinta.",
+          "quote": "Figures of Eros can also appear in twos or threes, when they are referred to as Erotes, symbolic of the different forms love can take.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c27",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Only in later Roman art is Eros, under his new name Cupid, commonly portrayed as a chubby, mischievous baby.",
+          "statement_id": "Baru dalam seni Romawi kemudian Eros, dengan nama barunya Cupid, lazim digambarkan sebagai bayi montok dan jahil.",
+          "quote": "It is only in later Roman art that Eros, under his new name Cupid, is commonly portrayed rather unflatteringly as a chubby and mischievous baby.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c28",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Plato's Symposium a speaker calls Love the most ancient of the gods, the most honoured, and the most powerful in helping men gain virtue and blessedness.",
+          "statement_id": "Dalam Symposium karya Plato, tokoh yang berbicara menyebut Cinta sebagai dewa tertua, paling dihormati, dan paling berkuasa dalam membantu manusia meraih keutamaan dan kebahagiaan.",
+          "quote": "Therefore I say Love is the most ancient of the gods, the most honoured, and the most powerful in helping men gain virtue and blessedness.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c29",
+          "source_id": "eros-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Eros is also present on the east frieze of the Parthenon, shown as a child next to Aphrodite.",
+          "statement_id": "Eros juga hadir pada friso timur Parthenon, digambarkan sebagai anak di samping Aphrodite.",
+          "quote": "he is present, too, on the east frieze of the Parthenon, shown as a child next to Aphrodite.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c30",
+          "source_id": "eros-s2",
+          "host": "www.theoi.com",
+          "statement": "Eros was the driving force behind the generation of new life in the cosmos; the Orphics named him Phanes, a primal being hatched from the world-egg.",
+          "statement_id": "Eros adalah daya pendorong lahirnya kehidupan baru di kosmos; kaum Orfik menamainya Phanes, makhluk purba yang menetas dari telur dunia.",
+          "quote": "He was the driving force behind the generation of new life in the cosmos. The Orphics named him Phanes, a primal being hatched from the world-egg.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c31",
+          "source_id": "eros-s2",
+          "host": "www.theoi.com",
+          "statement": "In Hesiod's Theogony Eros is fairest among the deathless gods, who unnerves the limbs and overcomes the mind and wise counsels of all gods and all men.",
+          "statement_id": "Dalam Theogony, Eros adalah yang tertampan di antara para dewa abadi, yang melemahkan anggota tubuh dan menaklukkan pikiran serta nasihat bijak semua dewa dan manusia.",
+          "quote": "and Eros (Love) [Procreation], fairest among the deathless gods, who unnerves the limbs and overcomes the mind and wise counsels of all gods and all men within them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c32",
+          "source_id": "eros-s2",
+          "host": "www.theoi.com",
+          "statement": "In Aristophanes' Birds black-winged Nyx lays an egg in the deeps of Erebos, and after long ages the graceful Eros springs from it with glittering golden wings.",
+          "statement_id": "Dalam Birds karya Aristophanes, Nyx bersayap hitam bertelur dalam kedalaman Erebos, dan setelah zaman-zaman panjang lahirlah Eros yang anggun dengan sayap emas berkilau.",
+          "quote": "Firstly, black-winged Nyx (Night) laid a germless egg in the bosom of the infinite deeps of Erebos (Darkness), and from this, after the revolution of long ages, sprang the graceful Eros [the primordial Eros] with his glittering golden wings",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c33",
+          "source_id": "eros-s2",
+          "host": "www.theoi.com",
+          "statement": "Theoi translates the name Eros as \"sexual desire\".",
+          "statement_id": "Theoi mengartikan nama Eros sebagai \"hasrat seksual\".",
+          "quote": "Translation Sexual Desire (eros)",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c34",
+          "source_id": "eros-s4",
+          "host": "www.theoi.com",
+          "statement": "It was he who lit the flame of love in the hearts of gods and men, armed with either a bow and arrows or a flaming torch.",
+          "statement_id": "Dialah yang menyalakan api cinta di hati para dewa dan manusia, bersenjatakan busur dan panah atau obor menyala.",
+          "quote": "It was he who lit the flame of love in the hearts of the gods and men, armed with either a bow and arrows or a flaming torch.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c35",
+          "source_id": "eros-s4",
+          "host": "www.theoi.com",
+          "statement": "Eros was often portrayed as the disobedient but fiercely loyal child of Aphrodite.",
+          "statement_id": "Eros sering digambarkan sebagai anak Aphrodite yang tidak penurut tetapi sangat setia.",
+          "quote": "Eros was often portrayed as the disobedient but fiercely loyal child of Aphrodite.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c36",
+          "source_id": "eros-s4",
+          "host": "www.theoi.com",
+          "statement": "In Ovid's Metamorphoses Eros has two opposing arrows: one rouses love with a piercing gold point, the other routs it with a blunt tip of lead.",
+          "statement_id": "Dalam Metamorphoses karya Ovid, Eros memiliki dua panah berlawanan: satu membangkitkan cinta dengan ujung emas runcing, satu lagi mengusirnya dengan ujung timbal yang tumpul.",
+          "quote": "one shaft that rouses love and one that routs it. The first gleams bright with piercing point of gold; the other, cull and blunt is tipped with lead.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c37",
+          "source_id": "eros-s4",
+          "host": "www.theoi.com",
+          "statement": "According to Pausanias, most men consider Eros the youngest of the gods and the son of Aphrodite.",
+          "statement_id": "Menurut Pausanias, kebanyakan orang menganggap Eros dewa termuda dan putra Aphrodite.",
+          "quote": "Most men consider Eros to be the youngest of the gods and the son of Aphrodite.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c38",
+          "source_id": "eros-s4",
+          "host": "www.theoi.com",
+          "statement": "According to a scholion, Alcaeus said Eros was the child of Iris and Zephyros, while Sappho made him the child of Aphrodite and Ouranos.",
+          "statement_id": "Menurut sebuah scholion, Alkaios menyebut Eros anak Iris dan Zephyros, sedangkan Sappho menjadikannya anak Aphrodite dan Ouranos.",
+          "quote": "Alkaios (Alcaeus) [Greek poet C6th B.C.] said Eros was the child of Iris (Rainbow) and Zephyros (West Wind); Sappho [Greek poet C6th B.C.] made him the child of Aphrodite and Ouranos (Uranus, Heaven).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c39",
+          "source_id": "eros-s4",
+          "host": "www.theoi.com",
+          "statement": "In the Symposium Eros is conceived (by Penia) and, being a lover of beauty and born on Aphrodite's birthday, becomes her follower and attendant.",
+          "statement_id": "Dalam Symposium, Eros dikandung (oleh Penia) dan, karena mencintai keindahan serta lahir pada hari ulang tahun Aphrodite, ia menjadi pengikut dan pelayannya.",
+          "quote": "conceived Eros (Love), who partly because he is naturally a lover of the beautiful, and because Aphrodite is herself beautiful, and also because he was born on her birthday, is her follower and attendant.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c40",
+          "source_id": "eros-s4",
+          "host": "www.theoi.com",
+          "statement": "According to the Dictionary of Greek and Roman Biography and Mythology, Eros tames lions and tigers, breaks Zeus's thunderbolts, deprives Heracles of his arms, and sports with sea monsters.",
+          "statement_id": "Menurut Dictionary of Greek and Roman Biography and Mythology, Eros menjinakkan singa dan harimau, mematahkan petir Zeus, merampas senjata Heracles, dan bermain dengan monster laut.",
+          "quote": "he tames lions and tigers, breaks the thunderbolts of Zeus, deprives Heracles of his arms, and carries on his sport with the monsters of the sea.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c41",
+          "source_id": "eros-s4",
+          "host": "www.theoi.com",
+          "statement": "Things sacred to Eros that often accompany him in art include the rose, wild beasts he tames, the hare, the cock, and the ram.",
+          "statement_id": "Hal-hal yang suci bagi Eros dan sering menyertainya dalam karya seni mencakup mawar, binatang buas yang ia jinakkan, kelinci, ayam jantan, dan domba jantan.",
+          "quote": "Among the things sacred to Eros, and which frequently appear with him in works of art, we may mention the rose, wild beasts which are tamed by him, the hare, the cock, and the ram.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c42",
+          "source_id": "eros-s4",
+          "host": "www.theoi.com",
+          "statement": "Eros was a favourite subject of ancient sculptors, and his image seems to have been perfected by Praxiteles, who conceived him as a full-grown youth of perfect beauty.",
+          "statement_id": "Eros adalah subjek favorit para pematung kuno, dan penggambarannya tampaknya disempurnakan oleh Praxiteles, yang membayangkannya sebagai pemuda dewasa berparas paling sempurna.",
+          "quote": "Eros was a favourite subject with the ancient statuaries, but his representation seems to have been brought to perfection by Praxiteles, who conceived him as a full-grown youth of the most perfect beauty.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c43",
+          "source_id": "eros-s4",
+          "host": "www.theoi.com",
+          "statement": "Homer does not mention Eros; Hesiod, the earliest author to mention him, describes him as the cosmogonic Eros.",
+          "statement_id": "Homer tidak menyebut Eros; Hesiod, penulis paling awal yang menyebutnya, menggambarkannya sebagai Eros kosmogonik.",
+          "quote": "Homer does not mention Eros, and Hesiod, the earliest author that mentions him, describes him as the cosmogonic Eros.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c44",
+          "source_id": "eros-s4",
+          "host": "www.theoi.com",
+          "statement": "In Hyginus's tale, when Typhon appeared at the Euphrates, Venus (Aphrodite) and her son Cupid (Eros) threw themselves into the river and changed into fishes, escaping danger.",
+          "statement_id": "Dalam kisah Hyginus, ketika Typhon muncul di tepi Efrat, Venus (Aphrodite) dan putranya Cupid (Eros) terjun ke sungai dan berubah wujud menjadi ikan sehingga selamat.",
+          "quote": "once Venus [Aphrodite] and her son Cupid [Eros] came in Syria to the river Euphrates. There Typhon [Typhoeus], of whom we have already spoken, suddenly appeared. Venus [Aphrodite] and her son threw themselves into the river and there changed their forms to fishes, and by so doing this escaped danger.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c45",
+          "source_id": "eros-s4",
+          "host": "www.theoi.com",
+          "statement": "In Ovid's Metamorphoses, as Eros kissed his mother, an arrow from his quiver unknowingly grazed Aphrodite's breast.",
+          "statement_id": "Dalam Metamorphoses karya Ovid, ketika Eros mencium ibunya, sebuah panah dari tabungnya tanpa sengaja menggores dada Aphrodite.",
+          "quote": "Once, when Venus' [Aphrodite's] son [Eros] was kissing her, his quiver dangling down, a jutting arrow, unbeknown, had grazed her breast.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c46",
+          "source_id": "eros-s4",
+          "host": "www.theoi.com",
+          "statement": "In Hesiod's Theogony Eros and comely Himeros (Desire) followed Aphrodite at her birth and as she went into the assembly of the gods.",
+          "statement_id": "Dalam Theogony, Eros dan Himeros (Hasrat) mengikuti Aphrodite sejak kelahirannya dan ketika ia memasuki majelis para dewa.",
+          "quote": "Eros (Love), and comely Himeros (Desire) followed her [Aphrodite] at her birth at the first and as she went into the assembly of the gods.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c47",
+          "source_id": "eros-s4",
+          "host": "www.theoi.com",
+          "statement": "In Nonnus's Dionysiaca, when Typhoeus besieged Olympos, bold Eros fled in panic, leaving his arrows behind.",
+          "statement_id": "Dalam Dionysiaca karya Nonnus, ketika Typhoeus mengepung Olimpus, Eros yang berani lari panik dengan meninggalkan panah-panahnya.",
+          "quote": "[When the monster Typhoeus besieged Olympos :] ... for bold Eros has flown in panic, leaving behind his generative arrows",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c48",
+          "source_id": "eros-s4",
+          "host": "www.theoi.com",
+          "statement": "In Apollonius's Argonautica, Athena says that, sprung from Zeus, she has never felt the arrows of the Boy (Eros).",
+          "statement_id": "Dalam Argonautica karya Apollonius, Athena menyatakan bahwa ia, yang lahir dari Zeus, tak pernah merasakan panah sang Anak (Eros).",
+          "quote": "Sprung as I am from Zeus, I have never felt the arrows of the Boy [i.e. Eros], and of love-charms I know nothing.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c49",
+          "source_id": "eros-s4",
+          "host": "www.theoi.com",
+          "statement": "Theoi lists Hedone as Eros's offspring by Psyche, citing Apuleius.",
+          "statement_id": "Theoi mencatat Hedone sebagai anak Eros dan Psyche menurut Apuleius.",
+          "quote": "OFFSPRING [1.1] HEDONE (by Psykhe) (Apuleius 6.24)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "eros-c50",
+          "source_id": "eros-s4",
+          "host": "www.theoi.com",
+          "statement": "The scene of Eros and Himeros accompanying Aphrodite was particularly popular in ancient art, the godlings fluttering about the goddess reclining in a conch-shell.",
+          "statement_id": "Adegan Eros dan Himeros mengiringi Aphrodite sangat populer dalam seni kuno; para dewa kecil itu beterbangan di sekitar sang dewi yang bersandar dalam cangkang kerang.",
+          "quote": "The scene was particular popular in ancient art where the godlings flutter about the goddess as she reclines inside a conch-shell.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],

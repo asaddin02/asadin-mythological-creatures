@@ -1,9 +1,10 @@
 {
   "batch_id": "batch-035",
-  "checked_at": "2026-09-30T02:33:47.510Z",
+  "checked_at": "2026-10-06T13:58:43.342Z",
   "files": [
     "batch-035.md",
-    "batch-035-fix-1.md"
+    "batch-035-fix-1.md",
+    "batch-035-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -124,24 +125,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6931df9a1866b668006131047758f8aa26f93153d8957c9ee6e24b681ebd1999"
     },
     {
       "slug": "centaur",
-      "file": "batch-035-fix-1.md",
+      "file": "batch-035-fix-2.md",
+      "entry_sha256": "daefb885f95885824b24ce7ad80c747d0bcb28c985dedaeb94724d48256bf267",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 2,
+        "claims": 33,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 8 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "centaur-c01",
@@ -222,26 +219,271 @@
           "quote": "A second famous centaur in mythology is Pholos, who hosted the Greek hero Hercules while he was engaged in hunting for the giant boar",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "centaur-c09",
+          "source_id": "centaur-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The father of the centaur race was Centaurus, offspring of Ixion, who lay with Hera or, more precisely, a cloud that a jealous Zeus made to resemble Hera.",
+          "statement_id": "Ayah ras centaur adalah Centaurus, keturunan Ixion yang bercinta dengan Hera, atau tepatnya awan yang dibuat Zeus yang cemburu agar menyerupai Hera.",
+          "quote": "The father of the centaur race was Centaurus, himself the offspring of Ixion who had made love to Hera, or more precisely, a cloud made by a jealous Zeus to resemble Hera.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c10",
+          "source_id": "centaur-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Thessaly had a tradition of hunting bulls on horseback, and the word centaur may originally have meant 'bull-killer'.",
+          "statement_id": "Di Thessaly ada tradisi berburu banteng dengan menunggang kuda, dan kata centaur mungkin semula berarti 'pembunuh banteng'.",
+          "quote": "there was a tradition in Thessaly of hunting bulls on horseback and the very word centaur may have originally meant 'bull-killer'",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c11",
+          "source_id": "centaur-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Nessos (or Nessus) is a third named centaur, who also foolishly picked a fight with Hercules.",
+          "statement_id": "Nessos (atau Nessus) adalah centaur bernama ketiga yang disebut sumber, yang juga gegabah berkelahi dengan Hercules.",
+          "quote": "A third centaur we know by name is Nessos (or Nessus), who also foolishly picked a fight with Hercules.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c12",
+          "source_id": "centaur-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Nessos offered to carry Deianeira across the river but molested her halfway across.",
+          "statement_id": "Nessos menawarkan diri membawa Deianeira menyeberangi sungai, tetapi di tengah sungai ia menganiaya gadis itu.",
+          "quote": "The hero and his new wife Deianeira, attempted to cross the river Evenus (or Euenos) on their way to Tiryns. Nessos offered to carry the girl across the water but halfway across molested his charge.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c13",
+          "source_id": "centaur-s1",
+          "host": "www.worldhistory.org",
+          "statement": "As he died, Nessos tricked Deianeira into keeping his blood in a jar as a love potion should Hercules' love ever wane.",
+          "statement_id": "Saat sekarat, Nessos menipu Deianeira dengan menyuruhnya menyimpan darahnya dalam bejana sebagai ramuan cinta jika cinta Hercules memudar.",
+          "quote": "In his dying breath, Nessos tricked Deianeira by telling her to collect some of his blood, now poisoned because of the arrow, keep it in a jar away from the sun and use it as a love potion if Hercules' love should ever wane.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c14",
+          "source_id": "centaur-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the mayhem Hercules accidentally killed Chiron with one of his poisoned arrows, which had been dipped in the blood of the Hydra.",
+          "statement_id": "Dalam kekacauan itu, Hercules secara tidak sengaja membunuh Chiron dengan salah satu panah beracunnya (dicelup darah Hydra).",
+          "quote": "Unfortunately, in the mayhem, Hercules accidentally killed Chiron with one of his poisoned arrows (dipped in the blood of the Hydra).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c15",
+          "source_id": "centaur-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The most celebrated centauromachy is on the west pediment of the Temple of Zeus at Olympia (c. 460 BCE).",
+          "statement_id": "Contoh centauromachy yang paling terkenal berasal dari pedimen barat Kuil Zeus di Olympia (sekitar 460 SM).",
+          "quote": "The most celebrated example is without doubt from the west pediment of the Temple of Zeus at Olympia (c. 460 BCE).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c16",
+          "source_id": "centaur-s1",
+          "host": "www.worldhistory.org",
+          "statement": "On that pediment the centaurs represent the struggle between barbarism and civilization and may specifically be a metaphor for Greece's victory over Persia in the early 5th century BCE.",
+          "statement_id": "Pada pedimen itu centaur melambangkan pergulatan antara kebiadaban dan peradaban, dan mungkin secara khusus menjadi metafora kemenangan Yunani atas Persia pada awal abad ke-5 SM.",
+          "quote": "The most celebrated example is without doubt from the west pediment of the Temple of Zeus at Olympia (c. 460 BCE). ... The centaurs here represent the struggle between barbarism and civilization and may specifically be a metaphor for Greece's victory over Persia in the early 5th century BCE.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c17",
+          "source_id": "centaur-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hercules fighting Nessos first appears on a 7th-century black-figure amphora and on close to a hundred surviving vases.",
+          "statement_id": "Adegan Hercules melawan Nessos pertama kali muncul pada amfora figur hitam abad ke-7 dan tampil pada hampir seratus vas yang masih ada.",
+          "quote": "Hercules fighting Nessos first appears on a 7th century black-figure amphora and appears on close to a hundred surviving vases.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c18",
+          "source_id": "centaur-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Despite the centaurs' bestial and lustful reputation, some were portrayed not unfavourably in Greek myths, at least when not under the effects of wine.",
+          "statement_id": "Walau centaur bereputasi buas dan birahi, sebagian dari mereka tidak digambarkan buruk dalam mitos Yunani, setidaknya selama tidak berada di bawah pengaruh anggur.",
+          "quote": "Despite the bestial and lustful reputation of centaurs, some of them were not unfavourably portrayed in Greek myths, at least when they were not under the effects of wine.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c19",
+          "source_id": "centaur-s3",
+          "host": "www.theoi.com",
+          "statement": "Centaurs inhabited the mountains and forests of Thessalian Magnesia. They were a primitive race who lived in caves, hunted wild animals for food, and armed themselves with rocks and tree branches.",
+          "statement_id": "Centaur mendiami gunung dan hutan di Magnesia, Thessaly. Mereka ras primitif yang tinggal di gua, memburu hewan liar untuk makanan, dan bersenjatakan batu serta dahan pohon.",
+          "quote": "inhabited the mountains and forests of Thessalian Magnesia. They were a primitive race who made their homes in caves, hunted wild animals for food and armed themselves with rocks and tree branches.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c20",
+          "source_id": "centaur-s3",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, the Kentauroi were spawned by the cloud-nymph Nephele after she was violated by the Lapith king Ixion.",
+          "statement_id": "Menurut Theoi, para Kentauroi dilahirkan oleh nimfa awan Nephele setelah ia dinodai raja Lapith, Ixion.",
+          "quote": "The Kentauroi were spawned by the cloud-nymphe Nephele after she was violated by the impious Lapith king Ixion.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c21",
+          "source_id": "centaur-s3",
+          "host": "www.theoi.com",
+          "statement": "Theoi's list also records an alternative tradition naming Kentauros and the Magnesian mares as the parents of the centaurs, citing Pindar and Philostratus.",
+          "statement_id": "Daftar Theoi juga mencatat tradisi lain yang menjadikan Kentauros dan kuda-kuda betina Magnesia sebagai orang tua para centaur, dengan rujukan Pindar dan Philostratus.",
+          "quote": "PARENTS [1.1] IXION & NEPHELE ... [2.1] KENTAUROS & THE MAGNESIAN MARES (Pindar Pythian Ode 2, Philostratus the Elder 2.3)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c22",
+          "source_id": "centaur-s3",
+          "host": "www.theoi.com",
+          "statement": "The Kentauros was depicted as a hybrid with a man's upper body, from head to waist, and a horse's body and legs, with an ordinary man's face or sometimes the snub nose and pointed ears of a Satyros.",
+          "statement_id": "Kentauros digambarkan sebagai makhluk campuran dengan tubuh atas manusia dari kepala sampai pinggang dan tubuh serta kaki kuda; wajahnya seperti manusia biasa atau kadang berhidung pesek dan bertelinga runcing seperti Satyros.",
+          "quote": "The Kentauros was depicted as a hybrid creature with the upper body of a man--from the head down to the waist--with the body and legs of a horse. It had the facial features of a normal man or, sometimes, the snub nose and pointed ears of a Satyros (Satyr).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c23",
+          "source_id": "centaur-s3",
+          "host": "www.theoi.com",
+          "statement": "Female centaurs, Kentaurides (Centaurides), were also known but occur only in late classical art and literature.",
+          "statement_id": "Centaur betina (Kentaurides) juga dikenal, tetapi hanya muncul dalam seni dan sastra klasik akhir.",
+          "quote": "Female Kentauroi, Kentaurides (Centaurides), were also known but only occur in late classical art and literature.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c24",
+          "source_id": "centaur-s3",
+          "host": "www.theoi.com",
+          "statement": "Another tribe of bull-horned Kentauroi was native to the island of Kypros (Cyprus).",
+          "statement_id": "Suku centaur bertanduk banteng lainnya berasal dari pulau Kypros (Siprus).",
+          "quote": "Another tribe of bull-horned Kentauroi were native to the island of Kypros (Cyprus).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c25",
+          "source_id": "centaur-s3",
+          "host": "www.theoi.com",
+          "statement": "Another tribe of Kentauroi dwelt in the western Peloponnese, where they came into conflict with the hero Herakles.",
+          "statement_id": "Suku centaur lain tinggal di Peloponnesos bagian barat dan berselisih dengan pahlawan Herakles.",
+          "quote": "Another tribe of Kentauroi (Centaurs) dwelt in the western Peloponnese where they came into conflict with the hero Herakles.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c26",
+          "source_id": "centaur-s3",
+          "host": "www.theoi.com",
+          "statement": "The Kentauroi were invited to the wedding of their half-brother Peirithoos but got drunk at the feast and tried to carry off the bride and other female guests.",
+          "statement_id": "Para Kentauroi diundang ke pernikahan saudara tiri mereka, Peirithoos, tetapi mabuk dalam pesta dan mencoba membawa lari pengantin perempuan serta tamu perempuan lain.",
+          "quote": "The Kentauroi were invited to attend the wedding of their half-brother Peirithoos (Pirithous) but became drunk at the festivities and attempted to carry off the bride and other female guests.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c27",
+          "source_id": "centaur-s3",
+          "host": "www.theoi.com",
+          "statement": "Nephele left her double-formed brood on Mount Pelion, where they were nursed by the daughters of the immortal centaur Kheiron (Chiron).",
+          "statement_id": "Nephele menaruh keturunannya yang berwujud ganda di Gunung Pelion, tempat mereka disusui putri-putri centaur abadi Kheiron (Chiron).",
+          "quote": "She deposited her double-formed brood on Mount Pelion where they were nursed by the daughters of the immortal kentauros Kheiron (Chiron).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c28",
+          "source_id": "centaur-s3",
+          "host": "www.theoi.com",
+          "statement": "According to the earliest accounts, the Kentauroi, that is the 'bull-killers', were a race of men who inhabited the mountains and forests of Thessaly.",
+          "statement_id": "Menurut catatan paling awal, kentauroi, yakni 'pembunuh banteng', adalah ras manusia yang mendiami gunung dan hutan Thessaly.",
+          "quote": "CENTAURI (Kentauroi), that is, the bullkillers, are according to the earliest accounts a race of men who inhabited the mountains and forests of Thessaly.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c29",
+          "source_id": "centaur-s3",
+          "host": "www.theoi.com",
+          "statement": "Later writers describe them as monsters (hippocentaurs) whose bodies were partly human and partly horse.",
+          "statement_id": "Penulis-penulis yang lebih belakangan menggambarkan mereka sebagai monster (hippocentaur) yang tubuhnya sebagian manusia dan sebagian kuda.",
+          "quote": "in later writers, they are described as monsters (hippocentaurs), whose bodies were partly human and partly those of horses.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c30",
+          "source_id": "centaur-s4",
+          "host": "en.wikipedia.org",
+          "statement": "The Greek word kentauros is of obscure origin.",
+          "statement_id": "Kata Yunani kentauros berasal-usul tidak jelas.",
+          "quote": "The Greek word kentauros is of obscure origin.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c31",
+          "source_id": "centaur-s4",
+          "host": "en.wikipedia.org",
+          "statement": "The most common theory holds that the idea of centaurs arose from the first reaction of a non-riding culture, such as the Minoan Aegean world, to mounted nomads.",
+          "statement_id": "Teori yang paling umum menyatakan gagasan centaur berasal dari reaksi pertama budaya yang tidak berkuda, seperti dunia Minoa di Aegea, terhadap para nomad penunggang kuda.",
+          "quote": "The most common theory holds that the idea of centaurs came from the first reaction of a non-riding culture, as in the Minoan Aegean world, to nomads who were mounted on horses.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c32",
+          "source_id": "centaur-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Another version makes them the children of Centaurus, a deformed man who mated with the Magnesian mares.",
+          "statement_id": "Menurut versi lain, mereka anak Centaurus, seorang lelaki cacat yang kawin dengan kuda-kuda betina Magnesia.",
+          "quote": "Another version, however, makes them children of Centaurus, a deformed man who mated with the Magnesian mares.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "centaur-c33",
+          "source_id": "centaur-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Writers treat centaurs as liminal beings: both embodiments of untamed nature, as in their battle with the Lapiths, and teachers like Chiron.",
+          "statement_id": "Banyak penulis memandang centaur sebagai makhluk liminal: perwujudan alam liar, seperti dalam pertempuran melawan Lapith, sekaligus guru seperti Chiron.",
+          "quote": "The centaur's half-human, half-horse composition has led many writers to treat them as liminal beings, caught between the two natures they embody in contrasting myths; they are both the embodiment of untamed nature, as in their battle with the Lapiths (their kin), and conversely, teachers like Chiron.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "pegasus",
-      "file": "batch-035-fix-1.md",
+      "file": "batch-035-fix-2.md",
+      "entry_sha256": "de8969cfe5e4b94fc1eb1bba0ca944e8485559f146e609765a9039fd03d4d6d0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 2,
+        "claims": 35,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 8 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "pegasus-c01",
@@ -322,26 +564,291 @@
           "quote": "Pegasus appeared on Greek pottery, the earliest being Corinthian wares from the 7th century BCE. Pegasus was also a popular design on coins, in particular from Corinth from the 6th century BCE.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "pegasus-c09",
+          "source_id": "pegasus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "At the same time and in the same way, Chrysaor (spelled Chryasor in the source) was also born.",
+          "statement_id": "Pada saat yang sama dan dengan cara yang sama, Chrysaor (ditulis Chryasor dalam sumber) juga lahir.",
+          "quote": "At the same time and in the same way, Chryasor was also born.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c10",
+          "source_id": "pegasus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Poseidon gave Pegasus to his son Bellerophon, who put Pegasus to good use in his famous battle with the Chimaera.",
+          "statement_id": "Poseidon memberikan Pegasus kepada putranya, Bellerophon, yang memanfaatkannya dalam pertempuran terkenal melawan Chimaera.",
+          "quote": "Poseidon gave Pegasus to his son Bellerophon who put Pegasus to good use in his famous battle with the Chimaera.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c11",
+          "source_id": "pegasus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In some accounts Bellerophon found the horse at the fountain of Pirene near Corinth, and Hesiod suggests this explains the name Pegasus, derived from pēgē ('water').",
+          "statement_id": "Dalam sebagian kisah Bellerophon menemukan kuda itu di mata air Pirene dekat Corinth, dan Hesiod menyiratkan hal ini menjelaskan nama Pegasus, yang diturunkan dari pēgē ('air').",
+          "quote": "To aid him in this task, Bellerophon was fortunate to have at his disposal Pegasus. In some accounts he found the horse at the fountain of Pirene near Corinth, and Hesiod suggests this fact explains the name Pegasus, derived from 'water'- pēgē.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c12",
+          "source_id": "pegasus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Pegasus flew on and, on reaching Mt. Olympus, was given to Eos, who was responsible for bringing Dawn across the sky each day.",
+          "statement_id": "Pegasus terus terbang dan setibanya di Gunung Olympus ia diserahkan kepada Eos, yang bertugas membawa fajar melintasi langit setiap hari.",
+          "quote": "Meanwhile, Pegasus kept on going and on reaching Mt. Olympus, he was given to Eos who was responsible for bringing Dawn across the sky each day.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c13",
+          "source_id": "pegasus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "A famous sculptural representation comes from the pediment of the Temple of Artemis on Corcyra (c. 580 BCE).",
+          "statement_id": "Salah satu penggambaran terkenal dalam seni pahat berasal dari pedimen Kuil Artemis di Corcyra (sekitar 580 SM).",
+          "quote": "A famous representation in sculpture is from the pediment of the Temple of Artemis on Corcyra (c. 580 BCE).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c14",
+          "source_id": "pegasus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Bellerophon and Pegasus myth was also popular in Roman art, especially engraved semi-precious stone cameos and floor mosaics, where the horse became symbolic of immortality.",
+          "statement_id": "Mitos Bellerophon dan Pegasus juga populer dalam seni Romawi, terutama kamei batu semimulia dan mozaik lantai, tempat kuda itu menjadi lambang keabadian.",
+          "quote": "The Bellerophon and Pegasus myth was also a popular subject in Roman art - especially engraved semi-precious stone cameos and floor mosaics - where the horse became symbolic of immortality.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c15",
+          "source_id": "pegasus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Theoi, Pegasos' name means either 'of the spring' or 'sprung forth'; the first alludes to the steed's link with various springs, the second to its birth from the Gorgon's neck.",
+          "statement_id": "Menurut Theoi, nama Pegasos berarti 'dari mata air' atau 'memancar keluar'; yang pertama merujuk pada kaitan kuda itu dengan berbagai mata air, yang kedua pada kelahirannya dari leher Gorgon.",
+          "quote": "Pegasos' name means either \"of the spring\" from the Greek word ... \"sprung forth\" from the word ... The first alludes to the steed's connection with various springs, and the latter to its birth from the Gorgon's neck.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c16",
+          "source_id": "pegasus-s2",
+          "host": "www.theoi.com",
+          "statement": "Later the hero tried to fly to heaven, but Zeus made the horse buck and throw him back to earth; Pegasos flew on to Olympos and became Zeus's thunderbolt-bearer.",
+          "statement_id": "Bellerophon kemudian mencoba terbang ke surga, tetapi Zeus membuat kuda itu meronta sehingga sang pahlawan terlempar ke bumi; Pegasos terbang ke Olympos dan menjadi pembawa petir Zeus.",
+          "quote": "Later the hero attempted to fly to heaven but Zeus caused the horse to buck throwing him back down to earth in disgrace. Pegasos winged his way on to Olympos where he became the thunderbolt-bearer of Zeus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c17",
+          "source_id": "pegasus-s2",
+          "host": "www.theoi.com",
+          "statement": "The rising of the Pegasus constellation marks the arrival of spring and, in Greece, of seasonal thunderstorms.",
+          "statement_id": "Terbitnya rasi bintang Pegasus menandai datangnya musim semi dan, di Yunani, badai petir musiman.",
+          "quote": "Pegasos was commemorated amongst the stars as the constellation of the same name. Its rising marks the arrival of spring and, in Greece, of seasonal thunderstorms.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c18",
+          "source_id": "pegasus-s2",
+          "host": "www.theoi.com",
+          "statement": "On the view that seems the most ancient, Pegasus was the thundering horse of Zeus, whereas later writers describe him as the horse of Eos.",
+          "statement_id": "Menurut pandangan yang tampaknya paling kuno, Pegasus adalah kuda petir milik Zeus, sedangkan penulis yang lebih belakangan menyebutnya kuda Eos.",
+          "quote": "According to this view, which is apparently the most ancient, Pegasus was the thundering horse of Zeus; but later writers describe him as the horse of Eos",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c19",
+          "source_id": "pegasus-s2",
+          "host": "www.theoi.com",
+          "statement": "In one account Athena appeared to Bellerophon in a dream, told him to sacrifice to Poseidon, and gave him a golden bridle.",
+          "statement_id": "Menurut salah satu kisah, Athena menampakkan diri kepada Bellerophon dalam mimpi, memerintahkannya berkurban kepada Poseidon, dan memberinya kekang emas.",
+          "quote": "The latter advised him to spend a night in the temple of Athena, and, as Bellerophon was sleeping, the goddess appeared to him in a dream, commanding him to sacrifice to Poseidon, and gave him a golden bridle.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c20",
+          "source_id": "pegasus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to some accounts, Athena herself tamed and bridled Pegasus and handed him over to Bellerophon.",
+          "statement_id": "Menurut sebagian kisah, Athena sendiri yang menjinakkan dan memasang kekang pada Pegasus lalu menyerahkannya kepada Bellerophon.",
+          "quote": "According to some Athena herself tamed and bridled Pegasus, and surrendered him to Bellerophon",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c21",
+          "source_id": "pegasus-s2",
+          "host": "www.theoi.com",
+          "statement": "After conquering the Chimaera, he tried to rise to heaven on his winged horse but fell to earth, whether from fear or giddiness or because Pegasus, enraged by a gad-fly Zeus had sent, threw him.",
+          "statement_id": "Setelah menaklukkan Chimaera, ia berusaha naik ke surga dengan kuda bersayapnya tetapi jatuh ke bumi, entah karena takut atau pusing, entah karena dilempar Pegasus yang dibuat murka oleh seekor lalat pengganggu kiriman Zeus.",
+          "quote": "After he had conquered the Chimaera ... he endeavoured to rise up to heaven with his winged horse, but fell down upon the earth, either from fear or from giddiness, or being thrown off by Pegasus, who was rendered furious by a gad-fly which Zeus had sent.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c22",
+          "source_id": "pegasus-s2",
+          "host": "www.theoi.com",
+          "statement": "Pegasus was also later regarded as the horse of the Muses; in this role he is more celebrated in modern times than in antiquity, since for the ancients his only link to the Muses was that his hoof called forth the Hippocrene well.",
+          "statement_id": "Pegasus belakangan juga dianggap kuda para Muse; dalam peran ini ia lebih terkenal di zaman modern daripada di masa kuno, sebab bagi orang kuno hubungannya dengan para Muse hanya lewat hentakan kukunya yang memunculkan mata air Hippocrene.",
+          "quote": "Pegasus lastly was also regarded as the horse of the Muses, and in this capacity he is more celebrated in modern times than he ever was in antiquity ; for with the ancients he had no connection with the Muses, except that by his hoof he called forth the inspiring well Hippocrene.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c23",
+          "source_id": "pegasus-s2",
+          "host": "www.theoi.com",
+          "statement": "Hesiod, Theogony: when Perseus cut off Medusa's head, Khrysaor and the horse Pegasos sprang from her blood; Pegasos was named after the springs (pegai) of Okeanos where he was born.",
+          "statement_id": "Hesiod, Theogony: setelah Perseus memenggal kepala Medusa, Khrysaor dan kuda Pegasos melompat dari darahnya; Pegasos dinamai dari mata air (pegai) Okeanos tempat ia lahir.",
+          "quote": "But when Perseus had cut off the head of Medousa (Medusa) there sprang from her blood stout-hearted Khrysaor (Chrysaor) and the horse Pegasos so named from the springs (pegai) of Okeanos (Oceanus), where he was born.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c24",
+          "source_id": "pegasus-s2",
+          "host": "www.theoi.com",
+          "statement": "Theoi classes Hesiod's Theogony, which contains the account of Pegasos's birth, as Greek epic of the 8th or 7th century BCE.",
+          "statement_id": "Theoi menggolongkan Theogony karya Hesiod, yang memuat kisah kelahiran Pegasos, sebagai epos Yunani abad ke-8 atau ke-7 SM.",
+          "quote": "Hesiod, Theogony 280 ff (trans. Evelyn-White) (Greek epic C8th or C7th B.C.)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c25",
+          "source_id": "pegasus-s2",
+          "host": "www.theoi.com",
+          "statement": "Theoi lists Poseidon and Medousa as Pegasos's parents according to Hesiod, Apollodorus, Hyginus, and Ovid.",
+          "statement_id": "Theoi mencatat Poseidon dan Medousa sebagai orang tua Pegasos menurut Hesiod, Apollodorus, Hyginus, dan Ovid.",
+          "quote": "[1.1] POSEIDON & MEDOUSA (Hesiod Theogony 278, Apollodorus 2.32 & 2.42, Hyginus Fabulae 151 & Astronomica 2.18, Ovid Metamorphoses 4.781 & 6.119)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c26",
+          "source_id": "pegasus-s2",
+          "host": "www.theoi.com",
+          "statement": "Theoi also records a tradition (Pindar, Nonnus) naming only Medousa as Pegasos's parent.",
+          "statement_id": "Theoi juga mencatat tradisi (Pindar, Nonnus) yang hanya menyebut Medousa sebagai orang tua Pegasos.",
+          "quote": "[1.2] MEDOUSA (Pindar Olympian Ode, Nonnus Dionysiaca 24.270)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c27",
+          "source_id": "pegasus-s2",
+          "host": "www.theoi.com",
+          "statement": "Hesiod (Catalogues of Women): Bellerophon's father Poseidon gave him Pegasos, who bore him swiftly on his wings and flew unwearying everywhere over the earth.",
+          "statement_id": "Hesiod (Catalogues of Women): ayah Bellerophon, Poseidon, memberinya Pegasos yang membawanya secepat kilat dengan sayapnya dan terbang tak kenal lelah ke mana-mana di bumi.",
+          "quote": "his father [Poseidon] gave him Pegasos who would bear him most swiftly on his wings, and flew unwearying everywhere over the earth",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c28",
+          "source_id": "pegasus-s2",
+          "host": "www.theoi.com",
+          "statement": "Hesiod, Theogony: Khimaira (Chimera) was killed by Pegasos and gallant Bellerophon.",
+          "statement_id": "Hesiod, Theogony: Khimaira dibunuh oleh Pegasos dan Bellerophon yang gagah berani.",
+          "quote": "But Khimaira (Chimera) was killed by Pegasos and gallant Bellerophon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c29",
+          "source_id": "pegasus-s2",
+          "host": "www.theoi.com",
+          "statement": "Pindar: Bellerophon long strove to yoke Pegasos, the snake-haired Gorgo's offspring, until Pallas (Athena) brought him the bridle and golden headband.",
+          "statement_id": "Pindar: Bellerophon lama berusaha mengekang Pegasos, anak Gorgo berambut ular, sampai Pallas (Athena) membawakan kekang dan ikat kepala emas.",
+          "quote": "seeking to yoke the snake-haired Gorgo's offspring, Pegasos. Till Pallas [Athena], goddess maid, brought him the bridle and golden headband",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c30",
+          "source_id": "pegasus-s2",
+          "host": "www.theoi.com",
+          "statement": "Antoninus Liberalis: Mount Helikon, beguiled by the pleasure of the Muses' song, swelled skyward until Pegasos, by Poseidon's will, checked it by striking the summit with his hoof.",
+          "statement_id": "Antoninus Liberalis: Gunung Helikon, terpikat kenikmatan nyanyian para Muse, membengkak ke langit sampai Pegasos, atas kehendak Poseidon, menghentikannya dengan menghentak puncaknya.",
+          "quote": "When the Mousai (Muses) sang, heaven, the stars, the sea and rivers stood still, while Mount Helikon (Helicon), beguiled by the pleasure of it all, swelled skyward till, by the will of Poseidon, Pegasos checked it by striking the summit with his hoof.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c31",
+          "source_id": "pegasus-s2",
+          "host": "www.theoi.com",
+          "statement": "Pausanias: Hippokrene was made, they say, by Pegasos, the horse of Bellerophon, striking the ground with his hoof.",
+          "statement_id": "Pausanias: Hippokrene, kata orang, dibuat oleh Pegasos, kuda Bellerophon, yang menghentak tanah dengan kukunya.",
+          "quote": "It was made, they say, by [Pegasos] the horse of Bellerophon striking the ground with this hoof.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c32",
+          "source_id": "pegasus-s3",
+          "host": "en.wikipedia.org",
+          "statement": "One proposed etymology of the name is Luwian pihassas 'lightning' and Pihassassi, a local Luwian-Hittite name in southern Cilicia for a weather deity associated with thunder and lightning.",
+          "statement_id": "Salah satu etimologi yang diusulkan untuk nama itu adalah kata Luwian pihassas ('kilat') dan Pihassassi, nama Luwian-Het setempat di Kilikia selatan untuk dewa cuaca yang dikaitkan dengan guntur dan kilat.",
+          "quote": "A proposed etymology of the name is Luwian pihassas 'lightning', and Pihassassi, a local Luwian-Hittite name in southern Cilicia of a weather deity associated with thunder and lightning.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c33",
+          "source_id": "pegasus-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The Luwian interpretation was first suggested in 1952 and remains widely accepted, but Robin Lane Fox (2009) has criticized it as implausible.",
+          "statement_id": "Tafsiran Luwian itu pertama kali diajukan pada 1952 dan masih diterima luas, tetapi Robin Lane Fox (2009) mengkritiknya sebagai tidak masuk akal.",
+          "quote": "That interpretation was first suggested in 1952 and remains widely accepted ... but Robin Lane Fox (2009) has criticized it as implausible.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c34",
+          "source_id": "pegasus-s3",
+          "host": "en.wikipedia.org",
+          "statement": "During World War II the silhouette of Bellerophon mounted on the winged Pegasus was adopted in 1941 by the United Kingdom's newly raised parachute troops as their upper-sleeve insignia.",
+          "statement_id": "Selama Perang Dunia II, siluet Bellerophon yang menunggang Pegasus bersayap diadopsi pasukan penerjun payung Inggris yang baru dibentuk pada 1941 sebagai lambang lengan atas.",
+          "quote": "During World War II, the silhouetted image of Bellerophon the warrior, mounted on the winged Pegasus, was adopted by the United Kingdom's newly raised parachute troops in 1941 as their upper sleeve insignia.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "pegasus-c35",
+          "source_id": "pegasus-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Pegasus has been a symbol of Tuscany since Benvenuto Cellini included it on a coin of 1537 honoring Cardinal Pietro Bembo.",
+          "statement_id": "Pegasus menjadi simbol Toskana sejak Benvenuto Cellini memasukkannya pada koin tahun 1537 untuk menghormati Kardinal Pietro Bembo.",
+          "quote": "The Pegasus has been a symbol of Tuscany ever since Benvenuto Cellini incorporated it in a coin made in 1537 to honor Cardinal Pietro Bembo.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "saturn",
-      "file": "batch-035.md",
+      "file": "batch-035-fix-2.md",
+      "entry_sha256": "ff1a48f7b861809604551d263f171312dd3b4831edb73e8c15cb9b7e0164a70b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 2,
+        "claims": 49,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "saturn-c01",
@@ -432,26 +939,421 @@
           "quote": "Slaves gave orders to the masters, and masters waited on slaves.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "saturn-c10",
+          "source_id": "saturn-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Some authors believe Saturn existed in Roman mythology long before the 'invasion' of Greek religion and link him to the Etruscan god Satre, but this is entirely speculative.",
+          "statement_id": "Sebagian penulis meyakini Saturnus sudah ada dalam mitologi Romawi jauh sebelum 'invasi' agama Yunani dan mengaitkannya dengan dewa Etruria Satre, tetapi hal itu sepenuhnya spekulatif.",
+          "quote": "Some authors believe Saturn existed in Roman mythology long before the “invasion” of Greek religion and associate him with the Etruscan god Satre; however, whether this is true or not is entirely speculative.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c11",
+          "source_id": "saturn-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Cronus, the Greek figure associated with Saturn, was the son of Uranus and Gaea; after Zeus and his brothers defeated the Titans, Cronus was expelled from Mt. Olympus.",
+          "statement_id": "Cronus, tokoh Yunani yang dipadankan dengan Saturnus, adalah putra Uranus dan Gaea; setelah Zeus dan saudara-saudaranya mengalahkan para Titan, Cronus diusir dari Gunung Olympus.",
+          "quote": "became more closely associated with the Greek god Cronus, the lord of the universe and the god who devoured his own children. He was son of Uranus (sky) and Gaea (earth). After Zeus and his brothers (Poseidon and Hades) became victorious over the Titans, Cronus was expelled from the home of the Greek gods, Mt. Olympus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c12",
+          "source_id": "saturn-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Saturn's arrival was welcomed by the Roman god Janus, the two-faced god of beginnings and ends; he quickly established himself and even founded the nearby city of Saturnia.",
+          "statement_id": "Kedatangan Saturnus disambut dewa Romawi Janus, dewa berwajah dua, dewa awal dan akhir; Saturnus segera mapan di sana dan bahkan mendirikan kota Saturnia di dekatnya.",
+          "quote": "His arrival was welcomed by the Roman god Janus, the two-faced deity, the god of the beginnings and ends. Saturn quickly established himself there, even founding the nearby city of Saturnia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c13",
+          "source_id": "saturn-s1",
+          "host": "www.worldhistory.org",
+          "statement": "He also helped the locals rid themselves of their 'barbaric' customs and adopt a more civic and moral lifestyle.",
+          "statement_id": "Ia juga membantu penduduk setempat meninggalkan adat 'barbar' mereka dan menjalani hidup yang lebih beradab dan bermoral.",
+          "quote": "He also helped the locals to rid themselves of their “barbaric” customs and instead adopted a more civic and moral lifestyle.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c14",
+          "source_id": "saturn-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The temple fell into disrepair and was rebuilt during the reign of Emperor Augustus.",
+          "statement_id": "Kuil Saturnus yang rusak kemudian dibangun kembali pada masa pemerintahan Kaisar Augustus.",
+          "quote": "housed the Roman treasury as well as the records and decrees of the Roman Senate. Falling into disrepair, it would be rebuilt during the reign of Emperor Augustus.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c15",
+          "source_id": "saturn-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Saturnalia was celebrated in December from the 17th to the 23rd and was connected to the winter grain sowing.",
+          "statement_id": "Saturnalia dirayakan pada Desember dari tanggal 17 sampai 23 dan dikaitkan dengan penaburan biji-bijian musim dingin.",
+          "quote": "His festival, the Saturnalia, was celebrated in December from the 17th to the 23rd and was connected to the winter grain sowing.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c16",
+          "source_id": "saturn-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Saturnalia immediately preceded the festival of Ops, Saturn's partner or consort and the goddess of the harvest, who became associated with the Greek goddess Rhea.",
+          "statement_id": "Saturnalia langsung mendahului perayaan Ops, pasangan Saturnus dan dewi panen, yang dikaitkan dengan dewi Yunani Rhea.",
+          "quote": "His festival, the Saturnalia, was celebrated in December from the 17th to the 23rd ... As part of the calendar of Numa, the second king of Rome, the festival immediately preceded the festival of Ops, Saturn's partner or consort and the goddess of the harvest - she became associated with the Greek goddess Rhea.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c17",
+          "source_id": "saturn-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The festival was presided over by a mock king, the King of Misrule or Saturnalicius princeps.",
+          "statement_id": "Perayaan dipimpin oleh raja tiruan, 'Raja Kekacauan' atau Saturnalicius princeps.",
+          "quote": "Presiding over the festival was a mock king, the King of Misrule, or Saturnalicius princeps.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c18",
+          "source_id": "saturn-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The festival survived into the Christian era, taking on a new identity and the name Brumalia.",
+          "statement_id": "Perayaan itu bertahan hingga era Kristen dan memperoleh identitas serta nama baru, Brumalia.",
+          "quote": "The festival would endure into the Christian era when it would assume a new identity and name - Brumalia.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c19",
+          "source_id": "saturn-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Saturn was also linked to another ancient Italian deity, Lua.",
+          "statement_id": "Saturnus juga dikaitkan dengan dewa Italia kuno lain, Lua.",
+          "quote": "Saturn was also linked to another ancient Italian deity, Lua.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c20",
+          "source_id": "saturn-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Saturn is remembered through Saturday and through the sixth planet from the sun, which bears his name.",
+          "statement_id": "Saturnus dikenang lewat hari Sabtu (Saturday) dan lewat planet keenam dari Matahari yang menyandang namanya.",
+          "quote": "We remember Saturn in two ways, for one he ends our busy work week - Saturday. And, as we look to the sky, on occasion, we can see the sixth planet from the sun - Saturn.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c21",
+          "source_id": "saturn-s1",
+          "host": "www.worldhistory.org",
+          "statement": "His temple, built around 498 BCE, stood at the foot of Capitoline Hill and housed the Roman treasury and the records and decrees of the Senate.",
+          "statement_id": "Kuilnya, dibangun sekitar 498 SM, berada di kaki Bukit Capitoline dan menyimpan kas negara serta catatan dan keputusan Senat.",
+          "quote": "His temple, built around 498 BCE, was located at the foot of Capitoline Hill and housed the Roman treasury as well as the records and decrees of the Roman Senate.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c22",
+          "source_id": "saturn-s2",
+          "host": "penelope.uchicago.edu",
+          "statement": "Saturn was identified with Kronos and received sacrifice according to Greek ritual, with the head uncovered.",
+          "statement_id": "Saturnus diidentifikasi dengan Kronos dan dipersembahi kurban menurut ritus Yunani, dengan kepala tidak ditutup.",
+          "quote": "Saturn, himself, was identified with Kronos, and sacrificed to according to Greek ritual, with the head uncovered.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c23",
+          "source_id": "saturn-s2",
+          "host": "penelope.uchicago.edu",
+          "statement": "The Temple of Saturn, the oldest temple recorded by the pontiffs, was dedicated on the Saturnalia, and the woolen bonds on the feet of its ivory cult statue were loosened that day to symbolize the god's liberation.",
+          "statement_id": "Kuil Saturnus, kuil tertua yang dicatat para pontifeks, didedikasikan pada hari Saturnalia, dan ikatan wol pada kaki arca gadingnya dilonggarkan pada hari itu sebagai lambang pembebasan sang dewa.",
+          "quote": "The Temple of Saturn, the oldest temple recorded by the pontiffs, had been dedicated on the Saturnalia, and the woolen bonds which fettered the feet of the ivory cult statue within were loosened on that day to symbolize the liberation of the god.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c24",
+          "source_id": "saturn-s2",
+          "host": "penelope.uchicago.edu",
+          "statement": "After the sacrifice at the temple there was a public banquet and a lectisternium (an image of the god placed as if in attendance), which Livy says was introduced in 217 BC.",
+          "statement_id": "Setelah kurban di kuil ada perjamuan umum dan lectisternium (citra sang dewa diletakkan seolah menghadiri jamuan), yang menurut Livy diperkenalkan pada 217 SM.",
+          "quote": "After sacrifice at the temple, there was a public banquet, as well as a lectisternium (in which an image of the god was placed as if in attendance), which Livy says was introduced in 217 BC.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c25",
+          "source_id": "saturn-s2",
+          "host": "penelope.uchicago.edu",
+          "statement": "The original day was given over to the Opalia, honoring Ops, who personified abundance and the fruits of the earth and was Saturn's consort.",
+          "statement_id": "Hari asli perayaan itu diperuntukkan bagi Opalia, yang menghormati Ops, personifikasi kelimpahan dan hasil bumi serta pasangan Saturnus.",
+          "quote": "The original day was given over to the Opalia, honoring Ops, who personified abundance and the fruits of the earth, and was the consort of Saturn.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c26",
+          "source_id": "saturn-s2",
+          "host": "penelope.uchicago.edu",
+          "statement": "Augustus limited the holiday to three days so that the civil courts would not have to be closed longer than necessary.",
+          "statement_id": "Augustus membatasi perayaan itu menjadi tiga hari agar pengadilan sipil tidak ditutup lebih lama dari yang perlu.",
+          "quote": "Augustus limited the holiday to three days, so the civil courts would not have to be closed any longer than necessary",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c27",
+          "source_id": "saturn-s2",
+          "host": "penelope.uchicago.edu",
+          "statement": "The Saturnalia was the most popular holiday of the Roman year.",
+          "statement_id": "Saturnalia adalah hari libur paling populer dalam tahun Romawi.",
+          "quote": "The Saturnalia was the most popular holiday of the Roman year.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c28",
+          "source_id": "saturn-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Saturn was described as a god of time, generation, dissolution, abundance, wealth, agriculture, periodic renewal and liberation.",
+          "statement_id": "Saturnus digambarkan sebagai dewa waktu, generasi, peluruhan, kelimpahan, kekayaan, pertanian, pembaruan berkala, dan pembebasan.",
+          "quote": "He was described as a god of time, generation, dissolution, abundance, wealth, agriculture, periodic renewal and liberation.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c29",
+          "source_id": "saturn-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Saturn's consort was his sister Ops, with whom he fathered Jupiter, Neptune, Pluto, Juno, Ceres and Vesta.",
+          "statement_id": "Pasangan Saturnus adalah saudarinya, Ops, dan dari Ops ia menjadi ayah Jupiter, Neptune, Pluto, Juno, Ceres, dan Vesta.",
+          "quote": "Saturn's consort was his sister Ops, with whom he fathered Jupiter, Neptune, Pluto, Juno, Ceres and Vesta.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c30",
+          "source_id": "saturn-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The Temple of Saturn in the Roman Forum housed the state treasury and archives (aerarium) of the Roman Republic and early Roman Empire.",
+          "statement_id": "Kuil Saturnus di Forum Romawi menyimpan kas negara dan arsip (aerarium) Republik Romawi dan Kekaisaran Romawi awal.",
+          "quote": "The Temple of Saturn in the Roman Forum housed the state treasury and archives (aerarium) of the Roman Republic and the early Roman Empire.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c31",
+          "source_id": "saturn-s3",
+          "host": "en.wikipedia.org",
+          "statement": "According to Varro, Saturn's name derives from satus, meaning 'sowing'.",
+          "statement_id": "Menurut Varro, nama Saturnus diturunkan dari satus, 'penaburan'.",
+          "quote": "According to Varro, Saturn's name was derived from satus, meaning  \"sowing\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c32",
+          "source_id": "saturn-s3",
+          "host": "en.wikipedia.org",
+          "statement": "A perhaps more probable etymology links the name with the Etruscan god Satre and place names such as Satria, an ancient town of Latium, and Saturae palus, a marsh in Latium.",
+          "statement_id": "Etimologi yang mungkin lebih masuk akal menghubungkan nama itu dengan dewa Etruria Satre dan nama tempat seperti Satria, kota kuno di Latium, dan Saturae palus, rawa di Latium.",
+          "quote": "Perhaps a more probable etymology connects the name with the Etruscan god Satre and placenames such as Satria, an ancient town of Latium, and Saturae palus, a marsh also in Latium.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c33",
+          "source_id": "saturn-s3",
+          "host": "en.wikipedia.org",
+          "statement": "One interpretation holds that Saturn got his name because he was 'sated' with years.",
+          "statement_id": "Menurut satu tafsiran, Saturnus mendapat namanya karena ia 'kenyang' oleh tahun-tahun.",
+          "quote": "Saturn for his part got his name because he was \"sated\" with years",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c34",
+          "source_id": "saturn-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Saturn himself was represented as veiled (involutus), for example in a wall painting from Pompeii showing him holding a sickle and covered with a white veil.",
+          "statement_id": "Saturnus sendiri digambarkan berkerudung (involutus), misalnya pada lukisan dinding dari Pompeii yang menunjukkannya memegang sabit dan berselubung kerudung putih.",
+          "quote": "Saturn himself, however, was represented as veiled (involutus), as for example in a wall painting from Pompeii that shows him holding a sickle and covered with a white veil.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c35",
+          "source_id": "saturn-s3",
+          "host": "en.wikipedia.org",
+          "statement": "In Roman and Etruscan reckoning Saturn is a wielder of lightning; no other agricultural god is one.",
+          "statement_id": "Dalam perhitungan Romawi dan Etruria, Saturnus adalah pemegang petir; tidak ada dewa pertanian lain yang demikian.",
+          "quote": "In Roman and Etruscan reckoning Saturn is a wielder of lightning; no other agricultural god (in the sense of specialized human activity) is one.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c36",
+          "source_id": "saturn-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The identification with Ba'al Hammon later gave rise to the African Saturn, a cult that enjoyed great popularity until the 4th century.",
+          "statement_id": "Identifikasi dengan Ba'al Hammon kemudian melahirkan 'Saturnus Afrika', sebuah kultus yang sangat populer sampai abad ke-4.",
+          "quote": "The identification with Ba'al Hammon later gave rise to the African Saturn, a cult that enjoyed great popularity until the 4th century.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c37",
+          "source_id": "saturn-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The figure of Saturn, kept bound in wool during the year, was released from its bindings for the festival.",
+          "statement_id": "Arca Saturnus, yang sepanjang tahun kakinya diikat wol, dilepaskan dari ikatannya selama perayaan.",
+          "quote": "The figure of Saturn, kept during the year with its legs bound in wool, was released from its bindings for the period of the festival.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c38",
+          "source_id": "saturn-s3",
+          "host": "en.wikipedia.org",
+          "statement": "There was also a tradition that Saturn was an immigrant god received by Janus after he was usurped by his son Jupiter and expelled from Greece.",
+          "statement_id": "Ada pula tradisi bahwa Saturnus adalah dewa pendatang yang diterima Janus setelah ia digulingkan putranya, Jupiter, dan diusir dari Yunani.",
+          "quote": "At the same time, there was a tradition that Saturn had been an immigrant god, received by Janus after he was usurped by his son Jupiter and expelled from Greece.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c39",
+          "source_id": "saturn-s3",
+          "host": "en.wikipedia.org",
+          "statement": "In the myth Saturn was the original, autochthonous ruler of the Capitolium, hence called the Mons Saturnius in older times, where the town of Saturnia once stood.",
+          "statement_id": "Dalam mitos itu Saturnus adalah penguasa asli dan pribumi Capitolium, yang karenanya dahulu disebut Mons Saturnius dan pernah menjadi tempat berdirinya kota Saturnia.",
+          "quote": "In the myth Saturn was the original and autochthonous ruler of the Capitolium, which had thus been called the Mons Saturnius in older times and on which once stood the town of Saturnia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c40",
+          "source_id": "saturn-s3",
+          "host": "en.wikipedia.org",
+          "statement": "But Saturn also had a less benevolent aspect, as indicated by the blood shed in his honor during gladiatorial munera.",
+          "statement_id": "Namun Saturnus juga punya sisi yang kurang bajik, seperti ditunjukkan oleh darah yang tertumpah untuk menghormatinya dalam munera gladiator.",
+          "quote": "But Saturn also had a less benevolent aspect, as indicated by the blood shed in his honor during gladiatorial munera.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c41",
+          "source_id": "saturn-s3",
+          "host": "en.wikipedia.org",
+          "statement": "H. S. Versnel reads contradictions in the god, being a foreigner yet holding one of Rome's oldest sanctuaries and being a god of liberation kept in fetters for most of the year, as signs of his capacity to blur social distinctions.",
+          "statement_id": "Menurut H. S. Versnel, ketidakkonsistenan seperti menjadi pendatang tetapi memiliki salah satu tempat suci tertua Roma, atau menjadi dewa pembebasan yang dibelenggu sepanjang tahun, menunjukkan kemampuan Saturnus mengaburkan pembedaan sosial.",
+          "quote": "In the view of H. S. Versnel, inconsistencies such as being a foreigner with one of Rome's oldest sanctuaries, or a god of liberation who is kept in fetters most of the year, indicate Saturn's capacity for confounding social distinctions.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c42",
+          "source_id": "saturn-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The position of Saturn's festival in the Roman calendar led to his association with concepts of time, especially the transition of the New Year.",
+          "statement_id": "Posisi perayaan Saturnus dalam kalender Romawi mengaitkannya dengan konsep waktu, terutama peralihan Tahun Baru.",
+          "quote": "The position of Saturn's festival in the Roman calendar led to his association with concepts of time, especially the temporal transition of the New Year.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c43",
+          "source_id": "saturn-s3",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the temple was consecrated in 497 BC, while the area Saturni was built by king Tullus Hostilius, as confirmed by E. Gjerstad's archaeological studies.",
+          "statement_id": "Menurut Wikipedia, kuil itu ditahbiskan pada 497 SM, sedangkan area Saturni dibangun oleh raja Tullus Hostilius, sebagaimana dipastikan studi arkeologi E. Gjerstad.",
+          "quote": "The temple was consecrated in 497 BC but the area Saturni was built by king Tullus Hostilius as confirmed by archaeological studies conducted by E. Gjerstad.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c44",
+          "source_id": "saturn-s3",
+          "host": "en.wikipedia.org",
+          "statement": "As early as Andronicus (3rd century BC), Jupiter was called the son of Saturn.",
+          "statement_id": "Sejak masa Andronicus (abad ke-3 SM), Jupiter sudah disebut putra Saturnus.",
+          "quote": "As early as Andronicus (3rd century BC), Jupiter was called the son of Saturn.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c45",
+          "source_id": "saturn-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Some features of the god are certainly later and arrived after 217 BCE, the year in which the Greek customs of the Kronia were introduced into the Saturnalia.",
+          "statement_id": "Sebagian ciri dewa itu jelas lebih belakangan dan datang setelah 217 SM, tahun ketika adat Kronia dari Yunani dimasukkan ke dalam Saturnalia.",
+          "quote": "others are certainly later and arrived after 217 BCE, the year in which the Greek customs of the Kronia were introduced into the Saturnalia.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c46",
+          "source_id": "saturn-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In Virgil's Aeneid (Dryden's translation), Saturn came, having fled the power of Jove, robbed of his realms and banished from above.",
+          "statement_id": "Dalam Aeneid Virgil (terjemahan Dryden), Saturnus datang setelah melarikan diri dari kuasa Jove, dirampas kerajaannya dan dibuang dari atas.",
+          "quote": "Then Saturn came, who fled the pow’r of Jove, Robb’d of his realms, and banish’d from above.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c47",
+          "source_id": "saturn-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Saturn brought the men dispersed on the hills into towns, ordained laws, taught civil customs, and called the land where he lay safe from his son Latium.",
+          "statement_id": "Saturnus menghimpun orang-orang yang tersebar di bukit ke dalam kota, menetapkan hukum, mengajarkan adat sipil, dan menamai tanah tempatnya bersembunyi dari putranya Latium.",
+          "quote": "The men, dispers’d on hills, to towns he brought, And laws ordain’d, and civil customs taught, And Latium call’d the land where safe he lay From his unduteous son, and his usurping sway.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c48",
+          "source_id": "saturn-s4",
+          "host": "www.gutenberg.org",
+          "statement": "With his mild empire came peace and plenty, and hence the golden times derived their name.",
+          "statement_id": "Dengan pemerintahannya yang lembut datanglah damai dan kelimpahan, dan dari sanalah zaman keemasan mendapat namanya.",
+          "quote": "With his mild empire, peace and plenty came; And hence the golden times deriv’d their name.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "saturn-c49",
+          "source_id": "saturn-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In Virgil's description, godlike ancestors are placed in ranks; among them old Saturn with his crooked scythe on high, Italus, and ancient Janus with his double face.",
+          "statement_id": "Dalam penggambaran Virgil, para leluhur yang menyerupai dewa ditempatkan berbaris; di antara mereka Saturnus tua dengan sabit bengkoknya di tempat tinggi, Italus, dan Janus tua berwajah ganda.",
+          "quote": "Plac’d in their ranks, their godlike grandsires stood; Old Saturn, with his crooked scythe, on high; And Italus, that led the colony; And ancient Janus, with his double face,",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "werewolf",
-      "file": "batch-035.md",
+      "file": "batch-035-fix-2.md",
+      "entry_sha256": "df4fc32729aa36a7d13be13f143c6350a68386587611c8479dbe9c1d7fa90509",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 3,
+        "claims": 55,
+        "sources": 5,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 9 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "werewolf-c01",
@@ -540,6 +1442,466 @@
           "statement": "The full moon as a trigger for transformation is a feature of twentieth-century werewolf lore.",
           "statement_id": "Bulan purnama sebagai pemicu perubahan menjadi ciri kisah werewolf abad ke-20.",
           "quote": "One feature of twentieth-century werewolf lore which also relates to anxieties about women – the full moon as a stimulant for transformation",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c10",
+          "source_id": "werewolf-s1",
+          "host": "library.csun.edu",
+          "statement": "According to this source, werewolves appear as wolves both to themselves and to others, in shape and in behavior.",
+          "statement_id": "Menurut sumber ini, werewolf tampak sebagai serigala bagi dirinya sendiri maupun orang lain, baik dalam wujud maupun perilaku.",
+          "quote": "The change is most often temporary, but can sometimes be permanent. They appear to themselves and to others as wolves, in both shape and behavior.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c11",
+          "source_id": "werewolf-s1",
+          "host": "library.csun.edu",
+          "statement": "According to this source, unlike werewolves, lycanthropes lose their sanity entirely after transformation.",
+          "statement_id": "Menurut sumber ini, berbeda dengan werewolf, lycanthrope kehilangan akal sehat sepenuhnya setelah berubah wujud.",
+          "quote": "Unlike werewolves, lycanthropes lose their sanity entirely after transformation",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c12",
+          "source_id": "werewolf-s1",
+          "host": "library.csun.edu",
+          "statement": "Some scholars believe the man-to-wolf transformation in the Epic of Gilgamesh (ca. 2100 BCE) is the first mention of lycanthropy in the west; there the goddess Ishtar transforms a lovelorn shepherd into a wolf.",
+          "statement_id": "Sebagian ahli meyakini perubahan manusia menjadi serigala dalam Epos Gilgamesh (sekitar 2100 SM) adalah penyebutan lycanthropy tertua di Barat; di sana dewi Ishtar mengubah seorang gembala yang patah hati menjadi serigala.",
+          "quote": "Some scholars believe the transformation from man into wolf in the Epic of Gilgamesh (ca. 2100 BCE) is the first mention of lycanthropy in the west. In this story, the goddess Ishtar transforms a lovelorn shepherd into a wolf.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c13",
+          "source_id": "werewolf-s1",
+          "host": "library.csun.edu",
+          "statement": "Ovid's Metamorphoses (ca. 8 CE) tells of King Lycaon of Arcadia's attempt to deceive Jupiter through transformation into a wolf, and his punishment; this story gives us the word lycanthrope.",
+          "statement_id": "Metamorphoses karya Ovid (sekitar 8 M) mengisahkan Raja Lycaon dari Arcadia yang mencoba menipu Jupiter lewat perubahan menjadi serigala dan dihukum; kisah inilah yang memberi kita kata lycanthrope.",
+          "quote": "Ovid’s Metamorphoses (ca. 8 CE) tells of King Lycaon of Arcadia's attempt to deceive Jupiter via transformation into a wolf, and his subsequent punishment. It is this story that gives us the word lycanthrope.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c14",
+          "source_id": "werewolf-s1",
+          "host": "library.csun.edu",
+          "statement": "In the Satyricon story Niceros heard that a wolf had killed all the sheep and been speared through the neck; the next day he found his friend in bed with a doctor tending a neck wound.",
+          "statement_id": "Dalam kisah Satyricon, Niceros mendengar bahwa seekor serigala baru saja membunuh semua domba dan ditombak di leher; keesokan harinya ia menemukan temannya di tempat tidur, lehernya sedang dirawat dokter.",
+          "quote": "In The Satyricon of Patronius, Niceros tells a tale of travelling the road with a brave friend who was a soldier. ... Upon arrival at his destination, Niceros was told that a wolf had recently killed all the sheep, and been speared through the neck. At home the next day, Niceros found his friend in bed, with a doctor tending a neck wound.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c15",
+          "source_id": "werewolf-s1",
+          "host": "library.csun.edu",
+          "statement": "In the Völsunga Saga Sinfjötli is saved by an unnamed herb, after which the two heroes abandon the wolf skins; in this translation they burn the skins so that others will not come to harm.",
+          "statement_id": "Dalam Völsunga Saga, Sinfjötli diselamatkan oleh sejenis ramuan, lalu kedua pahlawan meninggalkan kulit serigala; dalam terjemahan ini mereka membakar kulit itu agar orang lain tidak celaka.",
+          "quote": "The Völsunga Saga, a medieval Norse saga, also has a story of lycanthropy. ... Sinfjötli is saved by an unnamed herb, after which the two heros abandon the wolf skins. In this translation they burn the skins so that others will not come to harm.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c16",
+          "source_id": "werewolf-s1",
+          "host": "library.csun.edu",
+          "statement": "Robert Eisler claims the basis of werewolf legends worldwide lies in the evolution of hunting while wearing animal skins, techniques developed in the last ice age.",
+          "statement_id": "Robert Eisler berpendapat bahwa dasar legenda werewolf di seluruh dunia terletak pada evolusi berburu dengan mengenakan kulit hewan, teknik yang berkembang pada zaman es terakhir.",
+          "quote": "Robert Eisler, in Man Into Wolf ... He claims the basis of werewolf legends throughout the world lie in the evolution of hunting while wearing animal skins, techniques developed during the last ice age.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c17",
+          "source_id": "werewolf-s1",
+          "host": "library.csun.edu",
+          "statement": "A chapter of Baring-Gould's book highlights stories of transformation, not necessarily into wolves, from India, Armenia, North America, and other places around the world.",
+          "statement_id": "Salah satu bab buku Baring-Gould menyoroti kisah perubahan wujud, tidak selalu menjadi serigala, dari India, Armenia, Amerika Utara, dan tempat lain di dunia.",
+          "quote": "The Reverend Sabine Baring-Gould first published The Book of Werewolves, being an account of a terrible superstition in 1865. One chapter is titled \"Folk-Lore Relating to Were-Wolves,\" and highlights stories featuring transformation, though not necessarily into wolves, from India, Armenia, North America, and other places around the world.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c18",
+          "source_id": "werewolf-s2",
+          "host": "researchportal.helsinki.fi",
+          "statement": "In Finnish narratives, cunning folk can voluntarily turn themselves into wolves or other animals to temporarily possess the animal's useful abilities; these stories link to shamanistic traditions of northern areas.",
+          "statement_id": "Dalam kisah Finlandia, orang bijak (cunning folk) dapat mengubah diri secara sukarela menjadi serigala atau hewan lain untuk sementara memiliki kemampuan berguna hewan itu; kisah ini terkait tradisi syamanistik wilayah utara.",
+          "quote": "Finnish belief narratives about humans turning into wolves involve both voluntary and involuntary transformations. ... In the narratives, cunning folk can transform themselves voluntarily into wolves or other animals to possess temporarily the animal's useful abilities. These stories link to shamanistic traditions of northern areas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c19",
+          "source_id": "werewolf-s2",
+          "host": "researchportal.helsinki.fi",
+          "statement": "In Finnish narratives, a witch or a beggar who is not invited to a wedding turns the whole party into wolves.",
+          "statement_id": "Dalam kisah Finlandia, penyihir atau pengemis yang tidak diundang ke pesta pernikahan mengubah seluruh rombongan menjadi serigala.",
+          "quote": "Finnish belief narratives about humans turning into wolves involve both voluntary and involuntary transformations. ... A witch or a beggar who is not invited to a wedding turns the whole party into wolves.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c20",
+          "source_id": "werewolf-s2",
+          "host": "researchportal.helsinki.fi",
+          "statement": "In Finnish narratives, a thief back in human shape is usually left with a stub of a tail, a stigma for his former deeds.",
+          "statement_id": "Dalam kisah Finlandia, pencuri yang kembali ke wujud manusia biasanya tersisa buntut pendek sebagai stigma atas perbuatannya.",
+          "quote": "Finnish belief narratives about humans turning into wolves involve both voluntary and involuntary transformations. ... Back in his human shape, the thief is usually left with a stub of a tail - a stigma referring to his former deeds.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c21",
+          "source_id": "werewolf-s2",
+          "host": "researchportal.helsinki.fi",
+          "statement": "The Finnish researchers interpret the wolf shape as a symbol of morally grounded social otherness.",
+          "statement_id": "Para peneliti Finlandia menafsirkan wujud serigala sebagai simbol keliyanan sosial yang berlandaskan moral.",
+          "quote": "Finnish belief narratives about humans turning into wolves involve both voluntary and involuntary transformations. ... We interpret the wolf shape as a symbol of morally grounded social otherness.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c22",
+          "source_id": "werewolf-s3",
+          "host": "www.birmingham.ac.uk",
+          "statement": "Lycanthropy, the transformation from human to wolf, takes its name from Lycaon.",
+          "statement_id": "Lycanthropy, perubahan dari manusia menjadi serigala, mengambil namanya dari Lycaon.",
+          "quote": "Lycanthropy – the transformation from human to wolf – takes its name from Lycaon.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c23",
+          "source_id": "werewolf-s3",
+          "host": "www.birmingham.ac.uk",
+          "statement": "In many tales after Lycaon, becoming a werewolf is associated specifically with eating human flesh.",
+          "statement_id": "Dalam banyak kisah sesudah Lycaon, menjadi werewolf dikaitkan secara khusus dengan memakan daging manusia.",
+          "quote": "in many subsequent tales, becoming a werewolf is associated specifically with the consumption of human flesh.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c24",
+          "source_id": "werewolf-s3",
+          "host": "www.birmingham.ac.uk",
+          "statement": "Some werewolf tales feature benign werewolves, far from the evil wolves of children's fairy stories.",
+          "statement_id": "Sebagian kisah werewolf menampilkan werewolf yang jinak, jauh dari serigala jahat dalam dongeng anak-anak.",
+          "quote": "some werewolf tales feature benign werewolves, far from the evil pig-, child-, or granny-eating wolves of children’s fairy stories.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c25",
+          "source_id": "werewolf-s3",
+          "host": "www.birmingham.ac.uk",
+          "statement": "Female werewolves in these stories are typically depicted as sirens luring strapping young heroes to their doom.",
+          "statement_id": "Werewolf perempuan dalam kisah abad ke-19 dan awal abad ke-20 umumnya digambarkan sebagai siren yang memikat pahlawan muda menuju kehancuran.",
+          "quote": "Female werewolf stories, in particular, emerge across the nineteenth and early twentieth centuries ... female werewolves are typically depicted as sirens luring strapping young heroes to their doom.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c26",
+          "source_id": "werewolf-s3",
+          "host": "www.birmingham.ac.uk",
+          "statement": "According to the author, werewolves are not the undead but living people trapped between human and animal states.",
+          "statement_id": "Menurut penulis artikel, werewolf bukan mayat hidup, melainkan manusia hidup yang terjebak di antara keadaan manusia dan hewan.",
+          "quote": "They are not the undead, but fellow living people trapped between human and animal states.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c27",
+          "source_id": "werewolf-s3",
+          "host": "www.birmingham.ac.uk",
+          "statement": "The full moon also evokes 'lunacy', temporary mental illness believed in the Middle Ages (and to an extent beyond) to be related to the phases of the moon.",
+          "statement_id": "Bulan purnama juga mengingatkan pada 'kegilaan' (lunacy), penyakit jiwa sementara yang pada Abad Pertengahan dan sesudahnya diyakini terkait fase bulan.",
+          "quote": "the full moon as a stimulant for transformation ... It also evokes ‘lunacy’, temporary mental illness believed, in the Middle Ages (and to an extent, beyond), to have been related to the phases of the moon.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c28",
+          "source_id": "werewolf-s3",
+          "host": "www.birmingham.ac.uk",
+          "statement": "According to the author, werewolves, like many monsters that can take our form, hold a mirror up to us, showing our fears and desires.",
+          "statement_id": "Menurut penulis, werewolf, seperti banyak monster yang dapat menyerupai manusia, menjadi cermin yang menunjukkan ketakutan dan keinginan kita.",
+          "quote": "Werewolves – like many monsters, especially those that can take our form – hold a mirror up to us, showing us our fears and desires",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c29",
+          "source_id": "werewolf-s3",
+          "host": "www.birmingham.ac.uk",
+          "statement": "According to the author, werewolves and vampires are connected in their supernatural abilities and appetite for human flesh.",
+          "statement_id": "Menurut penulis, werewolf dan vampir terhubung dalam kemampuan supernatural dan nafsu akan daging manusia.",
+          "quote": "In popular culture, werewolves have been somewhat overshadowed by their cousin, the sexier (and sparklier) vampire. Certainly, the two are connected in their supernatural abilities and appetite for human flesh.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c30",
+          "source_id": "werewolf-s3",
+          "host": "www.birmingham.ac.uk",
+          "statement": "Lycaon, a king of Arcadia, tested Zeus's omniscience by serving him the roasted flesh of his son Nyctimus.",
+          "statement_id": "Lycaon, raja Arcadia, menguji kemahatahuan Zeus dengan menyajikan daging panggang putranya, Nyctimus.",
+          "quote": "Lycaon, a king of Arcadia who sought to test the omniscience of the god Zeus. To do so, he served Zeus the roasted flesh of his son, Nyctimus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c31",
+          "source_id": "werewolf-s1",
+          "host": "library.csun.edu",
+          "statement": "The Reverend Sabine Baring-Gould first published The Book of Werewolves, being an account of a terrible superstition, in 1865.",
+          "statement_id": "Pendeta Sabine Baring-Gould pertama kali menerbitkan The Book of Werewolves, being an account of a terrible superstition pada 1865.",
+          "quote": "The Reverend Sabine Baring-Gould first published The Book of Werewolves, being an account of a terrible superstition in 1865.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c32",
+          "source_id": "werewolf-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Baring-Gould defines lycanthropy as the change into a wolf, whether by magical means to gratify a taste for human flesh or by the judgment of the gods as punishment for a great offence.",
+          "statement_id": "Baring-Gould mendefinisikan lycanthropy sebagai perubahan wujud menjadi serigala, entah lewat cara sihir agar dapat memuaskan selera akan daging manusia, entah lewat hukuman dewa atas pelanggaran besar.",
+          "quote": "What is Lycanthropy? The change of manor woman into the form of a wolf, either through magical means, so as to enable him or her to gratify the taste for human flesh, or through judgment of the gods in punishment for some great offence.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c33",
+          "source_id": "werewolf-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Baring-Gould quotes Herodotus: the Neuri seem to be sorcerers; each Neurian changes himself once a year into a wolf, remains in that form for several days, then resumes his former shape.",
+          "statement_id": "Baring-Gould mengutip Herodotus: orang Neuri tampaknya penyihir; setiap orang Neuri berubah menjadi serigala sekali setahun, bertahan dalam wujud itu beberapa hari, lalu kembali ke wujud semula.",
+          "quote": "And Herodotus:—“It seems that the Neuri are sorcerers, if one is to believe the Scythians and the Greeks established in Scythia; for each Neurian changes himself, once in the year, into the form of a wolf, and he continues in that form for several days, after which he resumes his former shape.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c34",
+          "source_id": "werewolf-s4",
+          "host": "www.gutenberg.org",
+          "statement": "According to Marcellus Sidetes, as cited by Baring-Gould, men are attacked by this madness chiefly at the beginning of the year and are most furious in February, retiring at night to lone cemeteries and living like dogs and wolves.",
+          "statement_id": "Menurut Marcellus Sidetes, seperti dikutip Baring-Gould, orang diserang kegilaan ini terutama pada awal tahun dan paling ganas pada Februari, bermalam di pemakaman terpencil dan hidup seperti anjing dan serigala.",
+          "quote": "According to Marcellus Sidetes ... men are attacked with this madness chiefly in the beginning of the year, and become most furious in February; retiring for the night to lone cemeteries, and living precisely in the manner of dogs and wolves.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c35",
+          "source_id": "werewolf-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In the account recorded by Baring-Gould, the transformation lasts twelve days, after which the wolf-skin vanishes and the human form reappears.",
+          "statement_id": "Dalam kisah yang dicatat Baring-Gould, perubahan itu berlangsung dua belas hari, setelah itu kulit serigala lenyap dan wujud manusia muncul kembali.",
+          "quote": "The transformation lasts during twelve days, at the expiration of which period the wolf-skin vanishes, and the human form reappears.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c36",
+          "source_id": "werewolf-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In that account they fall upon herds of cattle and flocks of sheep but have no power to slay men.",
+          "statement_id": "Dalam kisah itu mereka menyerang kawanan ternak dan domba, tetapi tidak mampu membunuh manusia.",
+          "quote": "They fall upon herds of cattle and flocks of sheep, but they have no power to slay men.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c37",
+          "source_id": "werewolf-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In the Serbian tradition recorded by Baring-Gould, if anyone obtains the vlkoslak's skin and burns it, the creature is thenceforth disenchanted.",
+          "statement_id": "Dalam tradisi Serbia yang dicatat Baring-Gould, jika seseorang berhasil mendapatkan kulit vlkoslak dan membakarnya, makhluk itu sejak itu terbebas dari sihirnya.",
+          "quote": "The Serbs connect the vampire and the were-wolf together ... If any one succeeds in obtaining the skin and burning it, the vlkoslak is thenceforth disenchanted.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c38",
+          "source_id": "werewolf-s4",
+          "host": "www.gutenberg.org",
+          "statement": "According to the tradition Baring-Gould records, the power to become a werewolf is obtained by drinking water that settles in a wolf's footprint in clay.",
+          "statement_id": "Menurut tradisi yang dicatat Baring-Gould, kemampuan menjadi werewolf diperoleh dengan meminum air yang menggenang pada jejak serigala di tanah liat.",
+          "quote": "The power to become a were-wolf is obtained by drinking the water which settles in a foot-print left in clay by a wolf.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c39",
+          "source_id": "werewolf-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In an Armenian story cited by Baring-Gould, a man found a wolf-skin in a cave and cast it into a fire; a woman appeared, howled and tried to rescue it, and when the hide was consumed she vanished in the smoke.",
+          "statement_id": "Dalam kisah Armenia yang dikutip Baring-Gould, seorang lelaki menemukan kulit serigala di gua dan melemparnya ke api; seorang perempuan muncul dan melolong mencoba menyelamatkannya, dan setelah kulit itu habis terbakar perempuan itu lenyap dalam asap.",
+          "quote": "That the same belief in lycanthropy exists in Armenia is evident from the following story told by Haxthausen ... he found a cave, in which lay a wolf-skin. This he cast into a fire, and immediately a woman appeared, who howled and tried to rescue the skin from the flames. The man, however, resisted, and, as soon as the hide was consumed, the woman had vanished in the smoke.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c40",
+          "source_id": "werewolf-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Among the White Russians, a man who has incurred the devil's wrath is punished by being turned into a wolf and sent among his relations, who recognize and feed him.",
+          "statement_id": "Di antara orang Rusia Putih, seorang lelaki yang telah membangkitkan murka setan dihukum dengan diubah menjadi serigala dan dikirim kepada kerabatnya, yang mengenalinya dan memberinya makan.",
+          "quote": "Among the White Russians ... a man who has incurred the wrath of the devil, and the evil one punishes him by transforming him into a wolf and sending him among his relations, who recognize him and feed him well.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c41",
+          "source_id": "werewolf-s4",
+          "host": "www.gutenberg.org",
+          "statement": "The werewolf described in this passage is most amiably disposed: he does no mischief and shows affection for his kindred by licking their hands.",
+          "statement_id": "Werewolf dalam kutipan itu digambarkan sangat ramah: ia tidak berbuat jahat dan menunjukkan kasih pada kerabatnya dengan menjilati tangan mereka.",
+          "quote": "He is a most amiably disposed were-wolf, for he does no mischief, and testifies his affection for his kindred by licking their hands.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c42",
+          "source_id": "werewolf-s4",
+          "host": "www.gutenberg.org",
+          "statement": "The Poles have werewolves that rage twice a year, at Christmas and at midsummer.",
+          "statement_id": "Orang Polandia memiliki werewolf yang mengamuk dua kali setahun, pada Natal dan pertengahan musim panas.",
+          "quote": "The Poles have their were-wolves, which rage twice in the year—at Christmas and at midsummer.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c43",
+          "source_id": "werewolf-s5",
+          "host": "en.wikipedia.org",
+          "statement": "In folklore a werewolf (from Old English werwulf 'man-wolf'), or occasionally lycanthrope (from Ancient Greek λυκάνθρωπος 'wolf-human'), is an individual who can shapeshift into a wolf or a wolf-humanlike hybrid, voluntarily or involuntarily due to a curse or other affliction.",
+          "statement_id": "Dalam cerita rakyat, werewolf (dari bahasa Inggris Kuno werwulf, 'manusia-serigala'), atau kadang lycanthrope (dari bahasa Yunani Kuno λυκάνθρωπος, 'manusia-serigala'), adalah individu yang dapat berubah wujud menjadi serigala atau makhluk hibrida serigala-manusia, secara sukarela atau tidak karena kutukan atau penderitaan lain.",
+          "quote": "In folklore, a werewolf (from Old English werwulf 'man-wolf'), or occasionally lycanthrope (from Ancient Greek λυκάνθρωπος 'wolf-human'), is an individual who can shapeshift into a wolf or therianthropic hybrid wolf–humanlike creature, either voluntarily or involuntarily due to a curse or other affliction.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c44",
+          "source_id": "werewolf-s5",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, early sources for belief in this ability or affliction, called lycanthropy, are Petronius (27–66) and Gervase of Tilbury (1150–1228).",
+          "statement_id": "Sumber awal kepercayaan pada kemampuan atau penderitaan ini, yang disebut lycanthropy, menurut Wikipedia adalah Petronius (27–66) dan Gervase of Tilbury (1150–1228).",
+          "quote": "Early sources for belief in this ability or affliction, called lycanthropy, are Petronius (27–66) and Gervase of Tilbury (1150–1228).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c45",
+          "source_id": "werewolf-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Belief in werewolves developed in parallel with belief in witches during the late Middle Ages and the early modern period.",
+          "statement_id": "Kepercayaan pada werewolf berkembang sejajar dengan kepercayaan pada penyihir pada akhir Abad Pertengahan dan awal zaman modern.",
+          "quote": "Belief in werewolves developed in parallel with the belief in witches during the late Middle Ages and the early modern period.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c46",
+          "source_id": "werewolf-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Trials of supposed werewolves emerged in what is now Switzerland, especially the Valais and Vaud, in the early 15th century, spread across Europe in the 16th, peaked in the 17th and subsided by the 18th century.",
+          "statement_id": "Pengadilan terhadap orang yang dituduh werewolf muncul di wilayah yang kini menjadi Swiss, terutama Valais dan Vaud, pada awal abad ke-15, menyebar ke seluruh Eropa pada abad ke-16, memuncak pada abad ke-17, dan mereda pada abad ke-18.",
+          "quote": "Like the witchcraft trials as a whole, the trial of supposed werewolves emerged in what is now Switzerland, especially the Valais and Vaud, in the early 15th century and spread throughout Europe in the 16th, peaking in the 17th and subsiding by the 18th century.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c47",
+          "source_id": "werewolf-s5",
+          "host": "en.wikipedia.org",
+          "statement": "The case of Peter Stumpp (1589) led to a significant peak of interest in and persecution of supposed werewolves, primarily in French- and German-speaking Europe.",
+          "statement_id": "Kasus Peter Stumpp (1589) memicu puncak minat dan penganiayaan terhadap orang yang dituduh werewolf, terutama di Eropa berbahasa Prancis dan Jerman.",
+          "quote": "The case of Peter Stumpp (1589) led to a significant peak in both interest in and persecution of supposed werewolves, primarily in French-speaking and German-speaking Europe.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c48",
+          "source_id": "werewolf-s5",
+          "host": "en.wikipedia.org",
+          "statement": "The 16th-century Swedish writer Olaus Magnus says Livonian werewolves were initiated by draining a cup of specially prepared beer and repeating a set formula.",
+          "statement_id": "Penulis Swedia abad ke-16 Olaus Magnus menyebut werewolf Livonia diinisiasi dengan menghabiskan secangkir bir yang disiapkan khusus dan mengulang rumus tertentu.",
+          "quote": "The 16th-century Swedish writer Olaus Magnus says that the Livonian werewolves were initiated by draining a cup of specially prepared beer and repeating a set formula.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c49",
+          "source_id": "werewolf-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia records the Old French expression leus warous ~ lous garous (modern loup-garou), which literally means 'wolf-werewolf'.",
+          "statement_id": "Wikipedia mencatat ungkapan Prancis Kuno leus warous ~ lous garous (modern loup-garou), yang secara harfiah berarti 'serigala-werewolf'.",
+          "quote": "perhaps under the influence of the Old French expression leus warous ~ lous garous (modern loup-garou), which literally means 'wolf-werewolf'.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c50",
+          "source_id": "werewolf-s5",
+          "host": "en.wikipedia.org",
+          "statement": "The Proto-Slavic noun *vьlko-dlakь, meaning 'wolf-haired', can be reconstructed from Serbian, Slovenian, and Czech forms, including Czech vlkodlak.",
+          "statement_id": "Kata benda Proto-Slavia *vьlko-dlakь, yang berarti 'berambut serigala', direkonstruksi dari bentuk Serbia, Slovenia, dan Ceko, termasuk vlkodlak dalam bahasa Ceko.",
+          "quote": "The Proto-Slavic noun *vьlko-dlakь, meaning \"wolf-haired\" (cf. *dlaka, \"animal hair\", \"fur\"), can be reconstructed from Serbian vukòdlak, Slovenian vołkodlȃk, and Czech vlkodlak",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c51",
+          "source_id": "werewolf-s5",
+          "host": "en.wikipedia.org",
+          "statement": "An alternative reconstruction, *wazi-wulfaz ('wolf-clothed'), would bring the Germanic compound closer to the Slavic meaning.",
+          "statement_id": "Rekonstruksi alternatif *wazi-wulfaz ('berpakaian serigala') akan mendekatkan kata majemuk Germanik itu pada makna Slavia.",
+          "quote": "An alternative reconstruction, *wazi-wulfaz ('wolf-clothed'), would bring the Germanic compound closer to the Slavic meaning",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c52",
+          "source_id": "werewolf-s5",
+          "host": "en.wikipedia.org",
+          "statement": "Most modern fiction describes werewolves as vulnerable to silver weapons and highly resistant to other injuries; this feature appears in 19th-century German literature and tales, including those collected in folklore compilations.",
+          "statement_id": "Sebagian besar fiksi modern menggambarkan werewolf rentan terhadap senjata perak dan sangat tahan terhadap cedera lain; ciri ini muncul dalam sastra dan kisah Jerman abad ke-19, termasuk yang terhimpun dalam kumpulan cerita rakyat.",
+          "quote": "Most modern fiction describes werewolves as vulnerable to silver weapons and highly resistant to other injuries. This feature appears in 19th-century German literature and tales, such as those collected in folklore compilations.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c53",
+          "source_id": "werewolf-s5",
+          "host": "en.wikipedia.org",
+          "statement": "The full moon as the cause of transformation only became part of the depiction of werewolves on a widespread basis in the twentieth century.",
+          "statement_id": "Bulan purnama sebagai penyebab perubahan wujud baru menjadi bagian penggambaran werewolf secara luas pada abad ke-20.",
+          "quote": "the full moon being the cause of the transformation only became part of the depiction of werewolves on a widespread basis in the twentieth century.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c54",
+          "source_id": "werewolf-s5",
+          "host": "en.wikipedia.org",
+          "statement": "The first movie to feature the transformative effect of the full moon was Frankenstein Meets the Wolf Man in 1943.",
+          "statement_id": "Film pertama yang menampilkan efek perubahan wujud akibat bulan purnama adalah Frankenstein Meets the Wolf Man pada 1943.",
+          "quote": "The first movie to feature the transformative effect of the full moon was Frankenstein Meets the Wolf Man in 1943.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "werewolf-c55",
+          "source_id": "werewolf-s5",
+          "host": "en.wikipedia.org",
+          "statement": "The first feature film to use an anthropomorphic werewolf was Werewolf of London in 1935.",
+          "statement_id": "Film panjang pertama yang memakai werewolf antropomorfik adalah Werewolf of London pada 1935.",
+          "quote": "The first feature film to use an anthropomorphic werewolf was Werewolf of London in 1935.",
           "context": "modern-popular-culture",
           "status": "exact"
         }

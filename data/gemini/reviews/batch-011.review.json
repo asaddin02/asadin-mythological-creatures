@@ -1,26 +1,28 @@
 {
   "batch_id": "batch-011",
-  "checked_at": "2026-09-29T12:34:11.997Z",
+  "checked_at": "2026-10-06T15:11:58.957Z",
   "files": [
-    "batch-011.md"
+    "batch-011.md",
+    "batch-011-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "singa-mythology",
-      "file": "batch-011.md",
+      "file": "batch-011-fix-1.md",
+      "entry_sha256": "a8ec6dee26fd674372b41a8f1e2028c26e81f3d831d1f93c6e1bf004b1d8b18b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 16,
+        "sources": 6,
         "images": 1
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: www.roots.gov.sg (halaman hampir tanpa teks (mungkin dirender JavaScript))."
         },
         {
           "level": "manual",
@@ -33,8 +35,8 @@
           "id": "singa-mythology-c01",
           "source_id": "singa-mythology-s1",
           "host": "en.wikipedia.org",
-          "statement": "The singa is an apotropaic figure of Batak mythology, North Sumatra, Indonesia, representing benevolent protective power; described as part human, part water buffalo and part crocodile or lizard, with an elongated face, bulging eyes, defined nose and long spiral beard; other figures sometimes stand on its head.",
-          "statement_id": "Singa adalah sosok penolak bala dari mitologi Batak di Sumatra Utara, Indonesia, yang melambangkan kekuatan pelindung yang baik; ia digambarkan campuran manusia, kerbau, dan buaya atau kadal, berwajah panjang dengan mata besar melotot, hidung tegas, dan janggut panjang berpilin; sosok lain kadang di atas kepalanya.",
+          "statement": "The singa is an apotropaic figure of Batak mythology, North Sumatra, Indonesia, representing benevolent protective power; described as part human, part water buffalo and part crocodile or lizard, with an elongated face, bulging eyes, a defined nose and a long spiral beard.",
+          "statement_id": "Singa adalah sosok penolak bala dari mitologi Batak di Sumatra Utara, Indonesia, yang melambangkan kekuatan pelindung yang baik; ia digambarkan sebagai campuran manusia, kerbau air, dan buaya atau kadal, berwajah panjang dengan mata besar melotot, hidung tegas, dan janggut panjang berpilin.",
           "quote": "Singa is an apotropaic figure from the mythology of the Batak people of North Sumatra, Indonesia. The singa represents a benevolent and protective power. The singa is described as \"part human, part water buffalo, and part crocodile or lizard\". It is variedly represented, but always has an elongated face, with big bulging eyes, a well-defined nose, and long spiraling beard.",
           "context": "traditional-belief",
           "status": "exact"
@@ -63,8 +65,8 @@
           "id": "singa-mythology-c04",
           "source_id": "singa-mythology-s1",
           "host": "en.wikipedia.org",
-          "statement": "The singa's apotropaic use may stem from the Batak Hindu-Buddhist period of the ninth century, linked to the kirtimukha, whose Batak version is the singhamugam.",
-          "statement_id": "Penggunaan singa sebagai penolak bala mungkin berasal dari masa Hindu-Buddha di tanah Batak pada abad kesembilan, terkait hiasan kirtimukha yang versi Bataknya disebut singhamugam.",
+          "statement": "The singa's apotropaic use may stem from the Hindu-Buddhist period of the Batak in the ninth century.",
+          "statement_id": "Penggunaan singa sebagai penolak bala mungkin berasal dari masa Hindu-Buddha di tanah Batak pada abad kesembilan.",
           "quote": "The apotropaic use of a singa may stem from the Hindu-Buddhism period of Batak during the ninth century",
           "context": "scholarly-interpretation",
           "status": "exact"
@@ -77,6 +79,118 @@
           "statement_id": "Salah satu ciri utama arsitektur Hindu-Buddha di Jawa dan Bali adalah hiasan kirtimukha di atas lengkung dan pintu.",
           "quote": "One of the major features of Hindu-Buddhist architecture in Java and Bali is the ubiquitous kirtimukha over arches and doorways.",
           "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "singa-mythology-c06",
+          "source_id": "singa-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The singa is often shown as a head alone, sometimes full body; other figures such as protective deities or ancestral figures may be shown standing or sitting on its head.",
+          "statement_id": "Singa sering digambarkan hanya kepalanya, tetapi kadang juga seluruh badan; sosok lain, seperti dewa pelindung atau sosok leluhur, dapat digambarkan berdiri atau duduk di atas kepalanya.",
+          "quote": "It is often represented only with its head, but sometimes it may also be represented full body. Other figures - such as other protective deity or ancestral figures - may also be represented standing or sitting on top of the head of the singa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "singa-mythology-c07",
+          "source_id": "singa-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is not fully understood why the name singa is attributed to this figure.",
+          "statement_id": "Belum sepenuhnya dipahami mengapa nama singa dikaitkan dengan sosok ini.",
+          "quote": "It is not fully understood why the name singa is attributed to this figure.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "singa-mythology-c08",
+          "source_id": "singa-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "During the Aparajita style period at the beginning of the ninth century, the Batak version of the kirtimukha, called singhamugam, appeared in full relief.",
+          "statement_id": "Pada masa gaya Aparajita di awal abad kesembilan, versi Batak dari kirtimukha, yang disebut singhamugam, muncul dalam relief penuh.",
+          "quote": "It was during the period of the Aparajita style at the beginning of the ninth century, that these Batak version of kirtimukha - called singhamugam - appeared in full relief.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "singa-mythology-c09",
+          "source_id": "singa-mythology-s5",
+          "host": "en.wikipedia.org",
+          "statement": "The gorga ulu singa (\"singa's gorga\") represents the spiritual being singa of Batak mythology and is placed on top of the front gable of a Batak house.",
+          "statement_id": "Gorga ulu singa (\"gorga singa\") menggambarkan makhluk rohani singa dari mitologi Batak dan dipasang di puncak gable depan rumah Batak.",
+          "quote": "Gorga ulu singa (\"singa's gorga\") represents the spiritual being singa of Batak mythology is placed on top of the front gable of a Batak house.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "singa-mythology-c10",
+          "source_id": "singa-mythology-s6",
+          "host": "en.wikipedia.org",
+          "statement": "A pupuk (magical substance) container, an attribute of the datu (medicine man), is often carved with a singa. The wooden stopper of the naga morsarang potion container is always shaped as a singa, a naga-like underground figure; further figures, such as the lizard Boraspati ni Tano or one or several human figures, are sometimes carved mounting the singa.",
+          "statement_id": "Sumbat kayu pada wadah ramuan naga morsarang selalu berbentuk sosok singa, sosok bawah tanah mirip naga; sosok lain, misalnya kadal Boraspati ni Tano atau satu atau beberapa sosok manusia, kadang diukir menunggangi singa.",
+          "quote": "This wooden stopper is always shaped into a figure of the singa, a Naga-like underground figures. Many additional figures are sometimes carved as mounting the singa e.g. the lizard Boraspati ni Tano, a human figure, or several human figures.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "singa-mythology-c11",
+          "source_id": "singa-mythology-s6",
+          "host": "en.wikipedia.org",
+          "statement": "The perminaken, the Karo counterpart of the vessel, likewise uses a wooden stopper carved with a singa, a person, or a person riding the singa.",
+          "statement_id": "Pada perminaken, wadah serupa versi Karo, sumbat kayunya juga diukir dengan sosok singa, seseorang, atau seseorang yang menunggangi singa.",
+          "quote": "The Karo version of the vessel known as perminaken/parminaken or guri-guri. ... The perminaken similarly use a wooden stopper with carvings of a figure of the singa, a person, or a person riding the singa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "singa-mythology-c12",
+          "source_id": "singa-mythology-s2",
+          "host": "www.roots.gov.sg",
+          "statement": "Among the larger carved wooden Batak sculptures are decorative, mask-like figures known colloquially as singa, customarily attached to the ends of the main support beams of the ancestral house.",
+          "statement_id": "Di antara pahatan kayu Batak yang lebih besar terdapat sosok hias menyerupai topeng yang secara sehari-hari disebut singa, lazimnya dipasang pada ujung balok penopang utama rumah leluhur.",
+          "quote": "Among the larger wooden Batak sculptures carved are decorative, mask-like figures known coloquially as singa, which are customarily attached to the ends of the main support beams of the ancestral house.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "halaman hampir tanpa teks (mungkin dirender JavaScript)"
+        },
+        {
+          "id": "singa-mythology-c13",
+          "source_id": "singa-mythology-s2",
+          "host": "www.roots.gov.sg",
+          "statement": "These carvings are meant to represent the naga padoha, an enormous primeval dragon subdued by the goddess Si Boru Deak Parujar; the earth is said to rest on the naga padoha's back, just as the Batak house symbolically rests on the backs of these figures.",
+          "statement_id": "Pahatan ini dimaksudkan melambangkan naga padoha, naga purba raksasa yang ditaklukkan oleh dewi Si Boru Deak Parujar; bumi dikatakan bertumpu pada punggung naga padoha, sebagaimana rumah Batak secara simbolis bertumpu pada punggung sosok-sosok ini.",
+          "quote": "These carvings are meant to represent the naga padoha, an enormous primeval dragon subdued by the goddess Si Boru Deak Parujar. The earth is said to rest upon the back of the naga padoha, just as the Batak house symbolically rests on the backs of these figures.",
+          "context": "historical-record",
+          "status": "unreachable",
+          "detail": "halaman hampir tanpa teks (mungkin dirender JavaScript)"
+        },
+        {
+          "id": "singa-mythology-c14",
+          "source_id": "singa-mythology-s3",
+          "host": "sealionplus.iseas.edu.sg",
+          "statement": "The singa/naga head is a significant feature of Toba-Batak houses; it is carved in relief at the end of a vertical design.",
+          "statement_id": "Kepala singa/naga adalah ciri penting rumah Batak Toba; ia diukir timbul pada ujung sebuah rancangan vertikal.",
+          "quote": "The singa/naga head is a significant feature of Toba-Batak houses. It is carved in relief at the end of a vertical design.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "singa-mythology-c15",
+          "source_id": "singa-mythology-s4",
+          "host": "sealionplus.iseas.edu.sg",
+          "statement": "Naga/singa heads are carved on the front gable, together with curvilinear designs in ochre, black and white.",
+          "statement_id": "Kepala naga/singa diukir pada gable depan, bersama rancangan lengkung berwarna oker, hitam, dan putih.",
+          "quote": "Naga/singa heads are carved on the front gable as well as curvilinear designs in ochre, black and white.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "singa-mythology-c16",
+          "source_id": "singa-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A pupuk (magical substance) container, an attribute of a datu (Batak medicine man), is often carved with an image of the singa, sometimes with other figures mounting it.",
+          "statement_id": "Wadah pupuk (zat magis), atribut seorang datu (dukun Batak), sering diukir dengan gambar singa, kadang dengan sosok lain yang menungganginya.",
+          "quote": "A pupuk (magical substance) container, attribute of a datu (Batak medicine man), is often carved with an image of the singa, sometimes with other figures mounting on it.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -112,25 +226,21 @@
           "auto_evidence": [
             "dipakai di en.wikipedia.org: Singa (mythology)"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-011/singa-mythology-1.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-011/singa-mythology-1.jpg"
         }
       ]
     },
     {
       "slug": "warak-ngendog",
-      "file": "batch-011.md",
+      "file": "batch-011-fix-1.md",
+      "entry_sha256": "d769c5c3169069acd2094bcaa5427310c01979b62a43112a578c3b3ca6db029f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 2,
+        "claims": 27,
+        "sources": 3,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 8 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Warak ngendog, in the collection of the Great Mosque of Central Java, 2014-06-19.jpg)",
@@ -144,7 +254,7 @@
           "host": "en.wikipedia.org",
           "statement": "The warak ngendog is a mythical creature like a rhinoceros carrying eggs, celebrated at the Dugderan Festival before Ramadan, believed to represent Semarang's Javanese, Chinese and Arab communities; its head is dragon-like (Chinese), its body combines the buraq (Arab) and a goat (Javanese).",
           "statement_id": "Warak ngendog adalah makhluk mitos mirip badak dengan telur di punggungnya, dirayakan dalam Festival Dugderan menjelang Ramadan, dan diyakini mewakili tiga etnis di Semarang: Jawa, Tionghoa, dan Arab; kepalanya seperti naga (Tionghoa), tubuhnya perpaduan buraq (Arab) dan kambing (Jawa).",
-          "quote": "is a mythical creature resembling a rhinoceros carrying eggs on its back. This creature, celebrated during the Dugderan Festival held annually on September 23 a few days before the holiday of Ramadan, is believed to represent three different ethnic groups in Semarang: Javanese, Chinese and Arabian. Its head is like a dragon (Chinese), its body is the combination of buraq",
+          "quote": "is a mythical creature resembling a rhinoceros carrying eggs on its back. ... celebrated during the Dugderan Festival held annually on September 23 a few days before the holiday of Ramadan, is believed to represent three different ethnic groups in Semarang: Javanese, Chinese and Arabian. Its head is like a dragon (Chinese), its body is the combination of buraq ... ; Arab) and goat (Javanese)",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -162,8 +272,8 @@
           "id": "warak-ngendog-c03",
           "source_id": "warak-ngendog-s1",
           "host": "en.wikipedia.org",
-          "statement": "The Dugderan highlight is the street parade carrying the warak ngendog (warak ngendhog) through Semarang; its market is held at Johar Market every Sya'ban.",
-          "statement_id": "Puncak Dugderan adalah pawai jalanan ketika warak ngendog (warak ngendhog) diarak keliling Semarang; pasar rakyatnya digelar di Pasar Johar setiap bulan Syakban.",
+          "statement": "The highlight of Dugderan is the street festival where the warak ngendog is paraded through the city area of Semarang.",
+          "statement_id": "Puncak Dugderan adalah pawai jalanan ketika warak ngendog diarak di kawasan kota Semarang.",
           "quote": "The highlight of Dugderan itself is the street festival where Warak Ngendog is paraded along the Semarang city area.",
           "context": "traditional-belief",
           "status": "exact"
@@ -172,8 +282,8 @@
           "id": "warak-ngendog-c04",
           "source_id": "warak-ngendog-s2",
           "host": "www.detik.com",
-          "statement": "Warak is adapted from the Arabic for holy and ngendog is Javanese for laying eggs; philosophically, warak ngendog is a call to keep oneself pure in Ramadan.",
-          "statement_id": "Kata warak diadaptasi dari bahasa Arab yang berarti suci, dan ngendog kata Jawa yang berarti bertelur; secara filosofis warak ngendog adalah ajakan menjaga kesucian diri di bulan Ramadan.",
+          "statement": "According to a book cited by detikJateng, warak is adapted from the Arabic for holy and ngendog is a Javanese word meaning laying eggs; philosophically the warak ngendog is a call to keep oneself pure in Ramadan.",
+          "statement_id": "Menurut buku yang dirujuk detikJateng, kata warak diadaptasi dari bahasa Arab yang berarti suci dan ngendog adalah kata Jawa yang bermakna bertelur; secara filosofis warak ngendog adalah ajakan menjaga kesucian diri pada bulan Ramadan.",
           "quote": "kata 'warak' diadaptasi dari bahasa Arab yang berarti suci, sedangkan 'ngendog' adalah kata Jawa dengan makna bertelur. Bila digabung, secara filosofis, warak ngendog adalah ajakan untuk menjaga kesucian diri pada bulan Ramadhan.",
           "context": "etymology",
           "status": "exact"
@@ -192,8 +302,8 @@
           "id": "warak-ngendog-c06",
           "source_id": "warak-ngendog-s2",
           "host": "www.detik.com",
-          "statement": "The warak ngendog is covered in upside-down feathers in bright red, yellow and white; its egg lies between the hind legs.",
-          "statement_id": "Warak ngendog diselimuti bulu yang menempel terbalik dengan warna mencolok, merah, kuning, hingga putih terang; telurnya terletak di antara kedua kaki belakang.",
+          "statement": "The warak ngendog is covered in feathers attached upside down, in eye-catching colours from red and yellow to bright white.",
+          "statement_id": "Warak ngendog tampak diselimuti bulu-bulu yang menempel terbalik, dengan warna mencolok dari merah, kuning, hingga putih terang.",
           "quote": "warak ngendog juga tampak diselimuti bulu-bulu yang menempel secara terbalik. Bulu-bulu ini punya beragam warna yang mencolok mata, mulai dari merah, kuning, hingga putih terang.",
           "context": "traditional-belief",
           "status": "exact"
@@ -216,6 +326,196 @@
           "statement_id": "Konon Dugderan sudah ada pada 1881-1889, saat Semarang diperintah Bupati Raden Mas Tumenggung Arya Purbaningrat.",
           "quote": "konon, Dugderan telah ada pada tahun-tahun 1881-1889. Kala itu, Semarang tengah diperintah oleh Kanjeng Bupati Raden Mas Tumenggung Arya Purbaningrat.",
           "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c09",
+          "source_id": "warak-ngendog-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Dugderan celebration itself is a public market held at the Johar Market every Sya'ban month of the Islamic calendar.",
+          "statement_id": "Perayaan Dugderan sendiri adalah pasar rakyat yang digelar di Pasar Johar setiap bulan Syakban dalam kalender Islam.",
+          "quote": "The Dugderan celebration itself is a public market that is held at the Johar Market every Sya'ban month in the Islamic calendar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c10",
+          "source_id": "warak-ngendog-s1",
+          "host": "en.wikipedia.org",
+          "statement": "At the festival's climax a carnival is held with red-and-white troops, a drumband, the warak ngendhog (an alternative spelling), residents in traditional dress, cannons and other arts from Semarang.",
+          "statement_id": "Pada puncak perayaan ada karnaval yang diikuti pasukan merah putih, drumband, warak ngendhog, warga berpakaian adat, meriam, dan berbagai kesenian lain dari Semarang; ejaan lain nama ini adalah warak ngendhog.",
+          "quote": "There will be a carnival which will be attended by red and white troops, drumband, warak ngendhog, residents who wear traditional clothes, cannons, and various other arts from Semarang.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c11",
+          "source_id": "warak-ngendog-s3",
+          "host": "journal.unnes.ac.id",
+          "statement": "The Warak Ngendog is a local cultural creation that became the mascot of the Dugderan ritual tradition of the people of Semarang.",
+          "statement_id": "Warak Ngendog adalah kreativitas budaya lokal yang menjadi maskot dalam tradisi ritual Dugderan masyarakat Kota Semarang.",
+          "quote": "Warak Ngendog merupakan kreativitas budaya lokal yang menjadi maskot dalam tradisi ritual Dugderan masyarakat Kota Semarang.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c12",
+          "source_id": "warak-ngendog-s3",
+          "host": "journal.unnes.ac.id",
+          "statement": "According to this study, in its original form the warak ngendog was not meant as a symbol of Chinese, Javanese and Arab acculturation but was an imagined animal of senior ulama, a toy to instil Islamic values in children.",
+          "statement_id": "Menurut kajian ini, pada bentuk awalnya warak ngendog tidak dimaksudkan sebagai simbol akulturasi budaya Cina, Jawa, dan Arab, melainkan binatang rekaan ulama sepuh sebagai sarana menanamkan nilai keislaman kepada anak-anak lewat mainan.",
+          "quote": "Warak Ngendog bukanlah dimaksudkan sebagai simbol akulturasi budaya Cina, Jawa, dan Arab. Ia hanyalah sebuah binatang rekaan ... ulama sepuh yang ditujukan sebagai sarana penanaman nilai-nilai keIslaman kepada anak-anak dalam bentuk mainan.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c13",
+          "source_id": "warak-ngendog-s3",
+          "host": "journal.unnes.ac.id",
+          "statement": "The warak ngendog toy is a four-legged animal made of a wooden frame wrapped in glossy, colourful paper feathers.",
+          "statement_id": "Mainan warak ngendog berbentuk hewan berkaki empat, dibuat dari kerangka kayu yang dibungkus bulu-bulu kertas mengilap warna-warni.",
+          "quote": "Struktur mainan Warak Ngendog berbentuk hewan berkaki empat dibuat dengan struktur kayu yang dibungkus dengan bulu-bulu kertas mengkilap bewarna-warni.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c14",
+          "source_id": "warak-ngendog-s3",
+          "host": "journal.unnes.ac.id",
+          "statement": "According to this study, to please children more, an egg was placed at the front, between the toy's two legs.",
+          "statement_id": "Menurut kajian ini, agar anak-anak makin senang, sebuah telur diletakkan di bagian depan di antara kedua kaki mainan itu.",
+          "quote": "Agar anak menjadi semakin senang maka pada bagian depan di antara kedua kakinya ditempatkan sebuah telur.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c15",
+          "source_id": "warak-ngendog-s3",
+          "host": "journal.unnes.ac.id",
+          "statement": "The warak ngendog is an imagined four-legged, tailed animal with a goat-like body, a long camel-like neck, a dragon head and a body covered in colourful curly feathers like those of the pitik walik.",
+          "statement_id": "Bentuk warak ngendog adalah binatang rekaan berkaki empat dan berekor, berbadan seperti kambing, berleher panjang seperti unta, berkepala naga, dan seluruh tubuhnya berbulu keriting warna-warni seperti bulu pitik walik.",
+          "quote": "bentuk Warak Ngendog merepresentasikan binatang rekaan sebagai hewan berkaki empat, berekor, berbadan seperti kambing, berleher panjang seperti unta, berkepala naga dan seluruh tubuhnya berbulu keriting seperti bulu pitik walik berwarna-warni.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c16",
+          "source_id": "warak-ngendog-s3",
+          "host": "journal.unnes.ac.id",
+          "statement": "The wider community reads the warak ngendog as a symbol of cultural acculturation because its form represents three ethnic groups of Semarang: Javanese (goat body), Arab (camel neck) and Chinese (dragon head).",
+          "statement_id": "Masyarakat luas memaknai warak ngendog sebagai simbol akulturasi budaya karena perupaannya mewakili tiga etnis warga Semarang: Jawa (badan kambing), Arab (leher unta), dan Cina (kepala naga).",
+          "quote": "oleh masyarakat luas dimaknai sebagai simbol akulturasi budaya atas dasar pertimbangan karena keseluruhan perupaannya merepresentasikan simbol budaya tiga etnis warga masyarakat Kota Semarang, yaitu etnis Jawa (melalui perupaan badan kambing), etnis Arab (melalui perupaan leher unta), dan etnis Cina (melalui perupaan kepala naga).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c17",
+          "source_id": "warak-ngendog-s3",
+          "host": "journal.unnes.ac.id",
+          "statement": "According to an informant of this study, the word warak comes from the Arabic waro'a, wariq meaning to avoid what God has forbidden.",
+          "statement_id": "Menurut seorang informan penelitian ini, kata warak berasal dari bahasa Arab waro'a, wariq yang berarti menghindari yang dilarang oleh Allah.",
+          "quote": "kata warak berasal dari bahasa Arab waro’a, wariq yang berarti menghindari yang dilarang oleh Allah Swt.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c18",
+          "source_id": "warak-ngendog-s3",
+          "host": "journal.unnes.ac.id",
+          "statement": "According to the study's informants, the red-feathered neck and head symbolize negative human traits, which must be removed through fasting, symbolized by the curly feathers like those of the pitik walik.",
+          "statement_id": "Menurut informan penelitian ini, leher hingga kepala yang berbulu merah melambangkan watak buruk manusia, yang harus dihilangkan lewat puasa, dilambangkan oleh bulu keriting seperti bulu pitik walik.",
+          "quote": "Bentuk leher hingga kepala yang dibalut dengan bulu berwarna merah menyimbolkan watak jelek, negatif, atau angkara murka manusia. Sifat-sifat negatif manusia harus dihilangkan melalui laku puasa melalui simbolisasi bulu keriting seperti bulu pitik walik.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c19",
+          "source_id": "warak-ngendog-s3",
+          "host": "journal.unnes.ac.id",
+          "statement": "According to the study's informants, the egg is a symbol of purity, like a foetus in the womb that is still free of all sin.",
+          "statement_id": "Menurut informan penelitian ini, telur adalah simbol kesucian, seperti janin dalam kandungan yang masih suci dari segala dosa.",
+          "quote": "Telur adalah simbol kesucian layaknya janin yang ada dalam kandungan yang masih suci dari segala dosa.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c20",
+          "source_id": "warak-ngendog-s3",
+          "host": "journal.unnes.ac.id",
+          "statement": "According to this study, the word ngendog, meaning egg, carries the meaning of victory.",
+          "statement_id": "Menurut kajian ini, kata ngendog, yang berarti telur, bermakna kemenangan.",
+          "quote": "Kata “Ngendog” dalam Bahasa Indonesia yang berarti telur memiliki makna kemenangan.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c21",
+          "source_id": "warak-ngendog-s3",
+          "host": "journal.unnes.ac.id",
+          "statement": "There is no definite written source on when the Dugderan ritual began, but it is presumed to have started in 1881.",
+          "statement_id": "Tidak ada sumber tertulis yang pasti tentang kapan ritual Dugderan dimulai, tetapi diduga sejak 1881.",
+          "quote": "Tidak ada sumber sejarah yang pasti secara tertulis kapan dimulainya ritual Dugderan namun diduga telah dimulai sejak 1881.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c22",
+          "source_id": "warak-ngendog-s3",
+          "host": "journal.unnes.ac.id",
+          "statement": "The warak ngendog toy later became the main mascot of the Dugderan parade, no longer a toy but a giant statue.",
+          "statement_id": "Mainan warak ngendog kemudian menjadi maskot utama pawai atau kirab Dugderan, dan wujudnya tidak lagi sebuah mainan melainkan patung raksasa.",
+          "quote": "Mainan Warak Ngendog inilah yang kemudian menjadi maskot utama dalam sebuah pawai atau kirab Dugderan. Wujudnya tidak lagi sebuah mainan tetapi telah menjadi patung raksasa",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c23",
+          "source_id": "warak-ngendog-s3",
+          "host": "journal.unnes.ac.id",
+          "statement": "As a toy, the warak ngendog is increasingly displaced by modern toys because children are more drawn to modern toys of greater variety.",
+          "statement_id": "Sebagai mainan, warak ngendog makin tergusur mainan modern karena anak-anak lebih tertarik pada mainan modern yang bentuk dan jenisnya lebih beragam.",
+          "quote": "Warak Ngendog semakin tergusur oleh mainan modern karena memang anak-anak lebih tertarik mainan modern yang lebih bervariatif bentuk dan jenisnya.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c24",
+          "source_id": "warak-ngendog-s3",
+          "host": "journal.unnes.ac.id",
+          "statement": "The traditional (pakem) form of the warak ngendog is described as an imaginary animal with a gaping, fanged mouth, a red neck and head, and a straight-lined body.",
+          "statement_id": "Bentuk tradisional (pakem) warak ngendog digambarkan sebagai hewan imajiner bermulut menganga dan bertaring, berleher dan berkepala merah, dengan tubuh bergaris lurus.",
+          "quote": "Hewan berbentuk imajiner, mulut menganga dan bertaring, leher dan kepala bewarna merah, dan struktur bentuk tubuh bergaris lurus.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c25",
+          "source_id": "warak-ngendog-s3",
+          "host": "journal.unnes.ac.id",
+          "statement": "Modern warak ngendog forms still keep the pakem or symbolic structure but sometimes pursue visual beauty so strongly that symbolic values are gradually neglected.",
+          "statement_id": "Bentuk warak ngendog modern masih memiliki pakem atau unsur simbolik, tetapi kadang sangat mengejar keindahan visual sehingga lambat laun nilai simbolik mulai terabaikan.",
+          "quote": "bentuk Warak Ngendog modern terlihat secara struktur dan bentuk visualnya masih memiliki pakem atau simbolik namun terkadang sangat mengejar keindahan bentuk visualnya sehingga secara perlahan-lahan ada nilai-nilai simbolik yang mulai terabaikan.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c26",
+          "source_id": "warak-ngendog-s3",
+          "host": "journal.unnes.ac.id",
+          "statement": "From around the 1930s to the present, warak ngendog forms can be grouped simply into three: following the pakem (traditional), modern, and contemporary.",
+          "statement_id": "Dari sekitar 1930-an hingga kini, bentuk warak ngendog dapat dikelompokkan secara sederhana menjadi tiga: mengacu pakem (tradisional), modern, dan kontemporer.",
+          "quote": "Berdasarkan rentang waktu dari sekitar 1930-an sampai sekarang, secara sederhana bentuk Warak Ngendog dapat dikelompokkan menjadi tiga bagian, yaitu struktur yang mengacu pada pakem (tradisional), modern, dan kontemporer.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "warak-ngendog-c27",
+          "source_id": "warak-ngendog-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia says the creature is described as part giraffe, part lion, part Chinese dragon, part horse and part bird, and is made into popular toys for children during the festival.",
+          "statement_id": "Wikipedia menyebut makhluk ini digambarkan sebagian jerapah, sebagian singa, sebagian naga Tionghoa, sebagian kuda, dan sebagian burung, dan dijadikan mainan populer anak-anak saat festival.",
+          "quote": "The creature is described to be part giraffe, part lion, part Chinese dragon, part horse, and part bird and is made into popular toys for children to play with during the festival.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -255,24 +555,25 @@
             "kategori \"Warak ngendog\"",
             "dipakai di en.wikipedia.org: Warak ngendog"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-011/warak-ngendog-1.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-011/warak-ngendog-1.jpg"
         }
       ]
     },
     {
       "slug": "anggitay",
-      "file": "batch-011.md",
+      "file": "batch-011-fix-1.md",
+      "entry_sha256": "1780f54ff3ebe74bd23a4bcb13236ad3da4d4f56ae54454cb09dd615b5220f24",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target rich: 3 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target rich: 10 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -282,7 +583,7 @@
           "host": "en.wikipedia.org",
           "statement": "The anggitay has a woman's upper body and a horse's lower body and legs from the waist down, the Philippine counterpart of the female centaur.",
           "statement_id": "Anggitay adalah makhluk bertubuh atas perempuan dan bertubuh bawah serta berkaki kuda dari pinggang ke bawah, padanan Filipina bagi centaur perempuan.",
-          "quote": "The Anggitay is a creature with the upper body of a female human and the lower body and legs of a horse from waist down. They were the Philippine counterpart to the centauride, the female centaurs.",
+          "quote": "The Anggitay is a creature with the upper body of a female human and the lower body and legs of a horse from the waist down. They were the Philippine counterpart to the centauride, the female centaurs.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -298,12 +599,82 @@
         },
         {
           "id": "anggitay-c03",
-          "source_id": "anggitay-s1",
-          "host": "en.wikipedia.org",
-          "statement": "The anggitay is sometimes shown with a single unicorn-like horn, is drawn to gems and jewellery, and its homeland is believed to be Santo Tomas, Batangas.",
-          "statement_id": "Anggitay kadang digambarkan bertanduk satu di dahi seperti unicorn, tertarik pada batu permata dan perhiasan, dan kampung halamannya diyakini di Santo Tomas, Batangas.",
-          "quote": "They are sometimes depicted as having a single horn in the middle of their forehead, just like a unicorn. They were usually said to be attracted to precious gemstones, and jewelry. Their homeland is believed to be in Santo Tomas, Batangas.",
-          "context": "traditional-belief",
+          "source_id": "anggitay-s2",
+          "host": "www.aswangproject.com",
+          "statement": "In the Aswang Project compendium, the anggitay was reported from Santo Tomas, Batangas, by the late Aproniano G. Castillo, a lawyer and the father of Maximo Ramos's daughter-in-law Exaltacion C. Ramos, a psychologist.",
+          "statement_id": "Dalam kompendium Aswang Project, anggitay dilaporkan dari Santo Tomas, Batangas, oleh almarhum Aproniano G. Castillo, seorang pengacara yang ayah menantu perempuan Maximo Ramos, Exaltacion C. Ramos, seorang psikolog.",
+          "quote": "The anggitay was reported from Santo Tomas, Batangas, by the late Aproniano G. Castillo, a lawyer and the father of Maximo Ramos’ daughter-in-law, Exaltacion C. Ramos, a psychologist.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "anggitay-c04",
+          "source_id": "anggitay-s2",
+          "host": "www.aswangproject.com",
+          "statement": "According to that report, the anggitay has a peculiar anatomy: seen from the front it is a beautiful maiden from head to foot, seen from behind a haggard mare.",
+          "statement_id": "Menurut laporan itu, anggitay beranatomi aneh: dilihat dari depan ia gadis cantik dari kepala sampai kaki, dilihat dari belakang ia kuda betina yang kurus kering.",
+          "quote": "It has a peculiar anatomy. Seen from in front, it is a beautiful maiden from head to foot, and it is a haggard mare seen from behind.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "anggitay-c05",
+          "source_id": "anggitay-s2",
+          "host": "www.aswangproject.com",
+          "statement": "According to that report, the anggitay sits in a tree in a wood and quietly watches wayfarers go by.",
+          "statement_id": "Menurut laporan itu, anggitay duduk di pohon di dalam hutan dan diam-diam mengamati para pejalan yang lewat.",
+          "quote": "It sits in a tree in a wood and quietly watches wayfarers go by.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "anggitay-c06",
+          "source_id": "anggitay-s3",
+          "host": "blog.alamatbookseries.com",
+          "statement": "In the Alamat Book Series, the anggitay is a nilalang-lubong, an earthbound creature like duwendes, kapres and tikbalangs.",
+          "statement_id": "Dalam Alamat Book Series, anggitay adalah nilalang-lubong, makhluk bumi seperti duwende, kapre, dan tikbalang.",
+          "quote": "In the Alamat Book Series, the anggitay is a nilalang-lubong or earthbound creature similar to duwendes, kapres, and tikbalangs.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "anggitay-c07",
+          "source_id": "anggitay-s3",
+          "host": "blog.alamatbookseries.com",
+          "statement": "In the Alamat Book Series, the anggitay was made by the Poon deities alongside the tikbalang and is the female counterpart and mate of the half-man, half-horse creature.",
+          "statement_id": "Dalam Alamat Book Series, anggitay dibuat oleh dewa-dewa Poon bersama tikbalang dan menjadi pasangan perempuan sekaligus pasangan hidup makhluk setengah manusia setengah kuda itu.",
+          "quote": "Made by the Poon deities alongside the tikbalang, the anggitay is the female counterpart and mate of the fabled half-man, half-horse creature",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "anggitay-c08",
+          "source_id": "anggitay-s3",
+          "host": "blog.alamatbookseries.com",
+          "statement": "In the Alamat Book Series, the anggitays, loyal to Kaluwalhatian, served as the most feared archers in its grand army.",
+          "statement_id": "Dalam Alamat Book Series, para anggitay yang tetap setia pada Kaluwalhatian menjadi pemanah paling ditakuti dalam pasukan besar Kaluwalhatian.",
+          "quote": "the anggitays, still loyal to Kaluwalhatian, served as the most feared archers in Kaluwalhatian's grand army.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "anggitay-c09",
+          "source_id": "anggitay-s3",
+          "host": "blog.alamatbookseries.com",
+          "statement": "In the Alamat Book Series, distinguished anggitays are called the Marilag and are recognizable by a majestic white horn at the center of the forehead.",
+          "statement_id": "Dalam Alamat Book Series, anggitay terhormat disebut Marilag dan mudah dikenali dari tanduk putih megah di tengah dahi.",
+          "quote": "These distinguished anggitays are called the Marilag. They are easily recognizable by their majestic white horn at the center of their forehead.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "anggitay-c10",
+          "source_id": "anggitay-s3",
+          "host": "blog.alamatbookseries.com",
+          "statement": "In the Alamat Book Series, the kawan leader Sarangay helped Lam-ang in his battle with the deranged tikbalang Sildado.",
+          "statement_id": "Dalam Alamat Book Series, pemimpin kawan Sarangay, seorang anggitay, membantu Lam-ang melawan tikbalang yang kalap, Sildado.",
+          "quote": "the kawan leader Sarangay, who aided Lam-ang in his battle with the deranged tikbalang, Sildado",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
@@ -311,25 +682,15 @@
     },
     {
       "slug": "bajang",
-      "file": "batch-011.md",
+      "file": "batch-011-fix-1.md",
+      "entry_sha256": "a50504c742dbf28227ff22417f653bc0ce76dc05b5bbcfc8351d855b7fb95cf3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 2,
+        "claims": 33,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 8 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
-          "where": "claims",
-          "message": "4 kutipan tidak bisa dicek otomatis: www.mirrorservice.org (tidak bisa dibuka (timeout))."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bajang-c01",
@@ -355,8 +716,8 @@
           "id": "bajang-c03",
           "source_id": "bajang-s1",
           "host": "ms.wikipedia.org",
-          "statement": "The bajang is kept in a bamboo tube stoppered with special leaves and locked with a charm, fed eggs and milk, turns on its master if neglected, and must be inherited, or its owner finds it hard to die.",
-          "statement_id": "Bajang disimpan pemiliknya dalam tabung bambu yang disumbat daun khusus dan dikunci dengan jimat, diberi makan telur dan susu, menyerang tuannya bila tak dirawat, dan harus diwariskan; bila tidak, pemiliknya sulit mati.",
+          "statement": "According to Wikipedia, the bajang is controlled by its owner and kept in a bamboo tube stoppered with a special leaf and locked with a charm.",
+          "statement_id": "Menurut Wikipedia bahasa Melayu, bajang dikawal pemiliknya dan disimpan dalam tabung buluh yang disumbat daun khusus dan dikunci dengan tangkal.",
           "quote": "Bajang akan dikawal oleh pemiliknya dan akan disimpan di dalam tabung buluh. Sejenis daun khusus akan digunakan sebagai penyumbat tabungan tersebut dan dikunci dengan tangkal.",
           "context": "traditional-belief",
           "status": "exact"
@@ -364,46 +725,42 @@
         {
           "id": "bajang-c04",
           "source_id": "bajang-s2",
-          "host": "www.mirrorservice.org",
+          "host": "www.gutenberg.org",
           "statement": "Walter William Skeat in Malay Magic (1900) lists four birth-spirits; one is the bajang, usually a pole-cat that disturbs the household by mewing like a great cat.",
           "statement_id": "Walter William Skeat dalam Malay Magic (1900) mencatat empat roh kelahiran; salah satunya bajang, yang biasanya berwujud musang dan mengganggu rumah tangga dengan mengeong seperti kucing besar.",
           "quote": "These are four in number: the Bajang, which generally takes the form of a pole-cat (musang) and disturbs the household by mewing like a great cat; the Langsuir, which takes the form of an owl with long claws",
           "context": "traditional-belief",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (timeout)"
+          "status": "exact"
         },
         {
           "id": "bajang-c05",
           "source_id": "bajang-s2",
-          "host": "www.mirrorservice.org",
+          "host": "www.gutenberg.org",
           "statement": "A Malay magician told Skeat the bajang could take the form of a house-cricket and be kept by a man, as the pelesit is kept by a woman; the bajang is sometimes confused with the pelesit.",
           "statement_id": "Seorang dukun Melayu memberi tahu Skeat bahwa bajang dapat berwujud jangkrik rumah dan dipelihara laki-laki, seperti pelesit dipelihara perempuan; bajang kadang dikacaukan dengan pelesit.",
           "quote": "Thus a Malay magician once told me that the Bajang took the form of a house-cricket, and that when thus embodied it may be kept by a man, as the Pĕlĕsit may be kept by a woman.",
           "context": "traditional-belief",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (timeout)"
+          "status": "exact"
         },
         {
           "id": "bajang-c06",
           "source_id": "bajang-s2",
-          "host": "www.mirrorservice.org",
+          "host": "www.gutenberg.org",
           "statement": "The bajang is thought very dangerous to children, who are sometimes given a black-silk armlet, the bajang bracelet, for protection.",
           "statement_id": "Bajang dianggap sangat berbahaya bagi anak-anak, yang kadang diberi gelang benang sutra hitam, gelang bajang, untuk melindungi mereka.",
           "quote": "I need hardly say that it is considered very dangerous to children, who are sometimes provided with a sort of armlet of black silk threads, called a “bajang bracelet” (g’lang bajang), which, it is supposed, will protect them against it.",
           "context": "traditional-belief",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (timeout)"
+          "status": "exact"
         },
         {
           "id": "bajang-c07",
           "source_id": "bajang-s2",
-          "host": "www.mirrorservice.org",
+          "host": "www.gutenberg.org",
           "statement": "Across the Malay Peninsula the bajang is male and the langsuir female; Malays generally believe the bajang is a malignant spirit haunting people, its presence foretelling disaster.",
           "statement_id": "Di seluruh Semenanjung Malaya bajang dianggap laki-laki dan langsuir perempuan; orang Melayu umumnya percaya bajang roh jahat yang menghantui manusia dan kehadirannya pertanda malapetaka.",
           "quote": "In all parts of the Peninsula the Bajang is said to be of the male gender, while the Langsuir is supposed to be a female. It is usually believed by Malays that the Bajang is merely a malignant spirit which haunts mankind, and whose presence foretells disaster.",
           "context": "traditional-belief",
-          "status": "unreachable",
-          "detail": "tidak bisa dibuka (timeout)"
+          "status": "exact"
         },
         {
           "id": "bajang-c08",
@@ -414,33 +771,278 @@
           "quote": "Bajang boleh dihindari dengan menggunakan tangkal atau azimat.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "bajang-c09",
+          "source_id": "bajang-s1",
+          "host": "ms.wikipedia.org",
+          "statement": "According to Wikipedia, the kept bajang is fed eggs and milk; if not looked after and fed, the hungry bajang attacks its master.",
+          "statement_id": "Menurut Wikipedia bahasa Melayu, bajang yang dipelihara diberi makan telur dan susu; bila tidak dijaga dan diberi makan, bajang yang kelaparan akan menyerang tuannya.",
+          "quote": "Bajang yang dipelihara itu akan diberi makan telur dan juga susu. Sekiranya tidak dijaga dengan baik dan diberi makan, Bajang yang kelaparan itu akan menyerang tuannya.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c10",
+          "source_id": "bajang-s1",
+          "host": "ms.wikipedia.org",
+          "statement": "According to Wikipedia, the bajang rampages if not properly looked after, and its master finds it hard to die if no one will take it over.",
+          "statement_id": "Menurut Wikipedia bahasa Melayu, bajang mengamuk bila tidak dijaga baik, dan tuannya sukar mati bila tidak ada orang yang mau menerimanya.",
+          "quote": "Bajang akan mengamuk sekiranya tidak dijaga dengan baik. Tuannya sukar untuk mati sekiranya tidak ada orang hendak menerimanya.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c11",
+          "source_id": "bajang-s1",
+          "host": "ms.wikipedia.org",
+          "statement": "According to Wikipedia, there is no way to kill a bajang, but if its master is identified he is usually killed or driven out of the village.",
+          "statement_id": "Menurut Wikipedia bahasa Melayu, tidak ada cara membunuh bajang, tetapi bila tuannya diketahui biasanya ia dibunuh atau diusir dari kampung.",
+          "quote": "Tidak ada cara membunuh bajang tetapi biasanya sekiranya tuannya diketahui, dia akan dibunuh atau diusir dari kampung tersebut.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c12",
+          "source_id": "bajang-s3",
+          "host": "prpm.dbp.gov.my",
+          "statement": "The Kamus Dewan, fourth edition, defines bajang (Jawi spelling باجڠ) as a long-nailed ghost that likes to disturb pregnant women or children.",
+          "statement_id": "Kamus Dewan Edisi Keempat mendefinisikan bajang (ejaan Jawi باجڠ) sebagai hantu berkuku panjang yang suka mengganggu perempuan yang sedang mengandung atau kanak-kanak.",
+          "quote": "باجڠ Definisi : 1. hantu yg berkuku panjang dan suka mengganggu perempuan yg sedang mengandung atau kanak-kanak;",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c13",
+          "source_id": "bajang-s3",
+          "host": "prpm.dbp.gov.my",
+          "statement": "The Kamus Pelajar, second edition, defines bajang as a long-nailed ghost said to like disturbing pregnant women or children.",
+          "statement_id": "Kamus Pelajar Edisi Kedua mendefinisikan bajang sebagai hantu berkuku panjang yang kononnya suka mengganggu wanita hamil atau kanak-kanak.",
+          "quote": "1 hantu berkuku panjang yg kononnya suka mengganggu wanita hamil atau kanak-kanak.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c14",
+          "source_id": "bajang-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The author mentions the mutterings of the bajang, a familiar spirit, as it sat on the roof-tree.",
+          "statement_id": "Penulis menyebut gumaman bajang, roh peliharaan, yang duduk di bubungan atap.",
+          "quote": "the mutterings of the bajang (a familiar spirit) as he sat on the roof-tree",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c15",
+          "source_id": "bajang-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In an account quoted by Skeat, the victim falls ill with unusual symptoms: convulsions, unconsciousness or delirium, possibly for days together or with intervals between attacks.",
+          "statement_id": "Dalam catatan yang dikutip Skeat, korban dikatakan jatuh sakit dengan gejala tak lazim: kejang, pingsan, atau mengigau, kadang berhari-hari atau dengan jeda di antara serangan.",
+          "quote": "Some one in the village falls ill of a complaint the symptoms of which are unusual; there may be convulsions, unconsciousness, or delirium, possibly for some days together or with intervals between the attacks.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c16",
+          "source_id": "bajang-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In that account, relatives call a native doctor and an impression arises that the patient is the victim of a bajang; the impression quickly becomes certainty and any trifle may point to the owner of the evil spirit.",
+          "statement_id": "Dalam catatan itu, keluarga memanggil dukun setempat, lalu timbul kesan bahwa pasien menjadi korban bajang; kesan itu cepat menjadi keyakinan dan hal sepele pun dapat dianggap menunjuk pemilik roh jahat itu.",
+          "quote": "The relatives will call in a native doctor, and at her (she is usually an ancient female) suggestion, or without it, an impression will arise that the patient is the victim of a bâjang. Such an impression quickly develops into certainty, and any trifle will suggest the owner of the evil spirit.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c17",
+          "source_id": "bajang-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to that account, a pawang places the suspected sorcerer in one room and scrapes an iron vessel with a razor in another; the culprit's hair is said to fall off as if the razor had been used on his head.",
+          "statement_id": "Menurut catatan itu, seorang pawang menaruh tersangka di satu ruangan dan mengikis bejana besi dengan pisau cukur di ruangan lain; rambut pelaku dikatakan rontok seolah-olah pisau dipakai pada kepalanya.",
+          "quote": "he will place the sorcerer in one room, and, while he in another scrapes an iron vessel with a razor, the culprit’s hair will fall off as though the razor had been applied to his head instead of to the vessel",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c18",
+          "source_id": "bajang-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to that account, before British influence arrived the practice was to kill the wizard or witch whose guilt was established to Malay satisfaction, and such executions were carried out not many years earlier.",
+          "statement_id": "Menurut catatan itu, sebelum pengaruh Inggris datang, penyihir yang kesalahannya terbukti menurut kepuasan orang Melayu biasanya dibunuh, dan hukuman mati itu masih dilakukan belum lama berselang.",
+          "quote": "Before the advent of British influence it was the practice to kill the wizard or witch whose guilt had been established to Malay satisfaction, and such executions were carried out not many years ago.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c19",
+          "source_id": "bajang-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The account tells of a case in Perak less than ten years earlier: the people of an up-river village accused a man of keeping a bajang and put him, his family and his effects on a raft and sent them down the river.",
+          "statement_id": "Catatan itu menceritakan kasus di Perak kurang dari sepuluh tahun sebelumnya: penduduk sebuah kampung hulu sungai menuduh seorang lelaki memelihara bajang, lalu menaikkannya bersama keluarga dan hartanya ke rakit dan menghanyutkannya ke hilir sungai.",
+          "quote": "I remember a case in Perak less than ten years ago, when the people of an up-river village accused a man of keeping a bâjang ... Before anything could be done they put him, his family, and effects on a raft and started them down the river.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c20",
+          "source_id": "bajang-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to that account, the hereditary bajang is the unsought heritage of a dissolute ancestry, while the acquired bajang is usually obtained from the newly buried body of a stillborn child, thought to house a familiar spirit until lured out by someone standing over the grave at dead of night.",
+          "statement_id": "Menurut catatan itu, bajang warisan datang sebagai pusaka tak dikehendaki dari leluhur yang bejat, sedangkan bajang yang diperoleh biasanya diambil dari jasad bayi lahir mati yang baru dikubur, yang dianggap tempat tinggal roh peliharaan sampai dibujuk keluar oleh orang yang berdiri di atas kubur pada tengah malam.",
+          "quote": "The hereditary bâjang comes like other evils, the unsought heritage of a dissolute ancestry, but the acquired bâjang is usually obtained from the newly-buried body of a stillborn child, which is supposed to be the abiding-place of a familiar spirit until lured therefrom by the solicitations of some one who, at dead of night, stands over the grave",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c21",
+          "source_id": "bajang-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The account's author says he was assured that the bajang, in the shape of a lizard, has been seen to issue from the nose of the person being drowned.",
+          "statement_id": "Penulis catatan itu mengaku diyakinkan bahwa bajang, berbentuk kadal, pernah terlihat keluar dari hidung orang yang ditenggelamkan.",
+          "quote": "I have also been assured that the bâjang, in the shape of a lizard, has been seen to issue from the drowning person’s nose.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c22",
+          "source_id": "bajang-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Perak and some other parts of the Peninsula the bajang is regarded as one of the demons that, the Malays hold, can be enslaved by man and become his familiar spirit; such familiars are believed to be handed down in certain families as heirlooms.",
+          "statement_id": "Di Perak dan beberapa tempat lain di Semenanjung, bajang dipandang sebagai salah satu iblis yang menurut orang Melayu dapat diperbudak manusia dan menjadi roh peliharaannya; roh semacam itu dipercaya diwariskan dalam keluarga tertentu sebagai pusaka.",
+          "quote": "In Perak and some other parts of the Peninsula, however, the Bajang is regarded as one of the several kinds of demons which, the Malays hold, can be enslaved by man and become his familiar spirit. Such familiars, it is believed, are handed down in certain families as heirlooms.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c23",
+          "source_id": "bajang-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The familiar is fed eggs and milk; when its master wishes to use it he sends it forth to possess and prey upon the vitals of a victim chosen out of malice.",
+          "statement_id": "Roh peliharaan itu diberi makan telur dan susu; bila tuannya hendak memakainya, ia dikirim untuk merasuki dan memangsa isi tubuh korban yang dipilih tuannya karena dendam.",
+          "quote": "The familiar is fed with eggs and milk. When its master wishes to make use of it he sends it forth to possess and prey upon the vitals of any one whom his malice may select as a victim.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c24",
+          "source_id": "bajang-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The victim is at once seized by a deadly, unaccountable ailment that can only be cured by magic; if the bajang is neglected and not fed regularly, its owner is said often to fall victim to his own familiar.",
+          "statement_id": "Korban langsung diserang penyakit mematikan yang tak terjelaskan dan hanya dapat disembuhkan dengan kekuatan gaib; bila bajang diabaikan dan tidak diberi makan teratur, pemiliknya konon sering menjadi korban roh peliharaannya sendiri.",
+          "quote": "The individual thus persecuted is at once seized by a deadly and unaccountable ailment, which can only be cured by magic agencies. If the Bajang is neglected by its owner, and if the latter omits to feed it regularly, it is said that he often falls a victim to his own familiar.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c25",
+          "source_id": "bajang-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Skeat reproduces a drawing that appears to show the outline of a bajang, \"scripturally\" modified to serve as a counter-charm against the bajang itself.",
+          "statement_id": "Skeat memuat gambar yang tampaknya menggambarkan garis besar bajang, diubah secara \"skriptural\" untuk menjadi penangkal terhadap bajang itu sendiri.",
+          "quote": "which appears to represent the outline of a Bajang, “scripturally” modified to serve as a counter-charm against the Bajang itself.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c26",
+          "source_id": "bajang-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The outlines of that counter-charm figure are made up of varying combinations of the names \"Allah\", \"Muhammad\", \"Ali\" and others in Arabic script.",
+          "statement_id": "Garis gambar penangkal itu tersusun dari berbagai gabungan nama \"Allah\", \"Muhammad\", \"Ali\", dan lain-lain dalam aksara Arab.",
+          "quote": "The outlines of the figure are made up from varying combinations of the names “Allah,” “Muhammad,” “ʿAli,” etc., in the Arabic character.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c27",
+          "source_id": "bajang-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to a quotation in Skeat's footnote, the langsuior, the female familiar, differs hardly at all from the bajang except in being a little more baneful.",
+          "statement_id": "Menurut kutipan dalam catatan kaki Skeat, langsuior, roh peliharaan perempuan, nyaris tak berbeda dari bajang kecuali sedikit lebih jahat.",
+          "quote": "Langsuior, the female familiar, differs hardly at all from the bâjang, except that she is a little more baneful, and when under the control of a man he sometimes becomes the victim of her attractions, and she will even bear him elfin children.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c28",
+          "source_id": "bajang-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The source is Malay Magic, an introduction to the folklore and popular religion of the Malay Peninsula by Walter William Skeat of the civil service of the Federated Malay States.",
+          "statement_id": "Sumbernya adalah Malay Magic, pengantar folklor dan agama rakyat Semenanjung Melayu karya Walter William Skeat dari dinas sipil Federated Malay States.",
+          "quote": "MALAY MAGIC BEING AN INTRODUCTION TO THE FOLKLORE AND POPULAR RELIGION OF THE MALAY PENINSULA BY WALTER WILLIAM SKEAT OF THE CIVIL SERVICE OF THE FEDERATED MALAY STATES",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c29",
+          "source_id": "bajang-s4",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, the bajang is a familiar spirit acquired by a man reciting the proper incantations over the newly buried body of a stillborn child; it takes the form of a civet or musang and may cause convulsions, unconsciousness or delirium.",
+          "statement_id": "Menurut Wikipedia bahasa Inggris, bajang adalah roh peliharaan yang diperoleh seorang lelaki dengan mantra yang tepat di atas jasad bayi lahir mati yang baru dikubur; ia berwujud luwak atau musang dan dapat menyebabkan kejang, pingsan, atau mengigau.",
+          "quote": "A kind of familiar spirit acquired by a male who says the proper incantations over the newly buried body of a stillborn child. It takes the form of a civet or musang and may cause convulsions, unconsciousness or delirium.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c30",
+          "source_id": "bajang-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Like other spirits of its type, a bajang may turn on its master if neglected; it can be made to attack anyone its master chooses but is considered particularly dangerous to infants and young children.",
+          "statement_id": "Seperti roh sejenisnya, bajang dapat berbalik menyerang tuannya bila diabaikan; ia dapat disuruh menyerang siapa pun yang dipilih tuannya, tetapi dianggap sangat berbahaya bagi bayi dan anak kecil.",
+          "quote": "As with other spirits of this type, a bajang may turn on its master if it is neglected. Although a bajang can be made to attack any whom its master chooses, it is considered particularly dangerous to infants and young children.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c31",
+          "source_id": "bajang-s4",
+          "host": "en.wikipedia.org",
+          "statement": "In former times some children were given black-silk \"bajang bracelets\" (gelang bajang) for protection, and sharp metal objects such as scissors were placed near babies for the same purpose.",
+          "statement_id": "Pada masa lalu, sebagian anak diberi \"gelang bajang\" dari sutra hitam sebagai pelindung, dan benda logam tajam seperti gunting diletakkan di dekat bayi untuk tujuan yang sama.",
+          "quote": "In former times, some children would be given \"bajang bracelets\" (gelang bajang) made of black silk to protect them against it, and sharp metal objects such as scissors would be placed near babies for the same purpose.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c32",
+          "source_id": "bajang-s4",
+          "host": "en.wikipedia.org",
+          "statement": "Even the striations of pregnancy are somewhat jokingly said to be the scars left by a bajang's attack.",
+          "statement_id": "Garis-garis regangan akibat kehamilan bahkan setengah bercanda disebut bekas luka serangan bajang.",
+          "quote": "Even the striations of pregnancy are somewhat jokingly said to be the scars left by a bajang's attack.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bajang-c33",
+          "source_id": "bajang-s4",
+          "host": "en.wikipedia.org",
+          "statement": "The pelesit is in many ways comparable to the bajang, but a bajang's owner is always male whereas a pelesit may only be kept by a female.",
+          "statement_id": "Pelesit dalam banyak hal sebanding dengan bajang, tetapi pemilik bajang selalu laki-laki, sedangkan pelesit hanya boleh dipelihara perempuan.",
+          "quote": "The pelesit is in many ways comparable to the bajang, but whereas the bajang's owner is always male, the pelesit may only be kept by a female.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "jenglot",
-      "file": "batch-011.md",
+      "file": "batch-011-fix-1.md",
+      "entry_sha256": "e418b66c5dcfaa3ee23526ca75cf01a8c67312f03fbaa6255abe3a5f2ceaec0c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 26,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "jenglot-c01",
           "source_id": "jenglot-s1",
           "host": "en.wikipedia.org",
-          "statement": "The jenglot is a small being of Indonesian culture and mythology, a deformed humanlike doll up to 12 cm long with long hair and nails; imbued with black magic it protects its master, avenges enemies or brings luck, and can sell for millions of rupiah.",
-          "statement_id": "Jenglot adalah makhluk kecil dalam budaya dan mitologi Indonesia berupa boneka mirip manusia cacat sepanjang hingga 12 cm, berambut dan berkuku panjang; bila diisi ilmu hitam dipercaya melindungi pemilik, membalas musuh, atau membawa untung, dan dapat dijual jutaan rupiah.",
+          "statement": "The jenglot is a small creature of Indonesian culture and mythology, a deformed humanoid doll up to 12 cm long; the doll itself does nothing, but when imbued with black magic it is said to protect its master, take revenge on an enemy or work as a good-luck charm.",
+          "statement_id": "Jenglot adalah makhluk kecil dalam budaya dan mitologi Indonesia berupa boneka mirip manusia cacat sepanjang hingga 12 cm; boneka itu sendiri tidak berbuat apa-apa, tetapi bila diisi ilmu hitam dikatakan melindungi pemiliknya, membalas dendam kepada musuh, atau menjadi jimat keberuntungan.",
           "quote": "is a small creature of Indonesian culture and mythology. It has the appearance of a deformed humanoid doll and whose size is up to 12 centimetres (4.7 in) in length. ... The doll itself does nothing, but when imbued with black magic, is said to provide protection to its master, takes revenge on an enemy or works as a good luck charm.",
           "context": "traditional-belief",
           "status": "exact"
@@ -459,8 +1061,8 @@
           "id": "jenglot-c03",
           "source_id": "jenglot-s1",
           "host": "en.wikipedia.org",
-          "statement": "Jenglots were shown at the 'Pameran Misteri, Jin, Hantu dan Keranda' at the Sultan Alam Shah Museum, Shah Alam; several exhibitions were also held in Indonesia.",
-          "statement_id": "Jenglot pernah dipamerkan dalam Pameran Misteri, Jin, Hantu dan Keranda di Museum Sultan Alam Shah, Shah Alam; di Indonesia juga ada beberapa pameran jenglot.",
+          "statement": "Jenglots have also been shown at the \"Pameran Misteri, Jin, Hantu dan Keranda\" at the Sultan Alam Shah Museum, Shah Alam.",
+          "statement_id": "Jenglot pernah dipamerkan dalam \"Pameran Misteri, Jin, Hantu dan Keranda\" di Museum Sultan Alam Shah, Shah Alam.",
           "quote": "They have also been shown at \"Pameran Misteri, Jin, Hantu dan Keranda\" at Sultan Alam Shah Museum, Shah Alam.",
           "context": "modern-popular-culture",
           "status": "exact"
@@ -479,9 +1081,219 @@
           "id": "jenglot-c05",
           "source_id": "jenglot-s1",
           "host": "en.wikipedia.org",
-          "statement": "In 2008 scientists in Malaysia examined hair and DNA from four jenglots from Irian Jaya; all samples seemed human, likely one person, and some hairs appeared implanted upside down.",
-          "statement_id": "Pada 2008 ilmuwan di Malaysia memeriksa rambut dan DNA empat jenglot dari Irian Jaya; semua sampel tampaknya dari manusia, kemungkinan satu orang yang sama, dan sebagian rambut tampak ditanam terbalik.",
+          "statement": "In 2008 scientists in Malaysia examined hair and DNA from four jenglots brought from Irian Jaya to Kuala Lumpur by a \"businessman\" to be exhibited in a local museum; all samples appeared human and DNA analysis showed they likely came from the same person.",
+          "statement_id": "Pada 2008 ilmuwan di Malaysia memeriksa rambut dan DNA empat jenglot yang dibawa dari Irian Jaya ke Kuala Lumpur oleh seorang \"pengusaha\" untuk dipamerkan di museum setempat; semua sampel tampaknya berasal dari manusia dan analisis DNA menunjukkan kemungkinan berasal dari orang yang sama.",
           "quote": "In 2008, scientists in Malaysia examined hairs and DNA from four jengelots brought from Irian Jaya, Indonesia to Kuala Lumpur, Malaysia by a 'businessman' to be exhibited in a local museum. Each of the samples appeared to be from humans and DNA analysis showed it was likely from the same person.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c06",
+          "source_id": "jenglot-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, jenglots have long hair that grows sparse and stiff through the legs, and long nails.",
+          "statement_id": "Menurut Wikipedia bahasa Inggris, jenglot berambut panjang yang tumbuh jarang dan kaku sampai ke kaki, dan berkuku panjang.",
+          "quote": "They have long hair which grows sparse and stiff through the legs, and long nails.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c07",
+          "source_id": "jenglot-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A jenglot can fetch thousands of ringgit or millions of rupiah when sold.",
+          "statement_id": "Jenglot dapat dijual seharga ribuan ringgit atau jutaan rupiah.",
+          "quote": "It can fetch thousands of ringgit or millions of rupiah when sold.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c08",
+          "source_id": "jenglot-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Most specimens are said to be found on Java and Sumatra and are private collections of supernatural researchers and fans; people who have caught a jenglot usually exhibit it around Indonesia to earn money.",
+          "statement_id": "Sebagian besar spesimen disebut ditemukan di Jawa dan Sumatra dan menjadi koleksi pribadi peneliti dan penggemar hal gaib; orang yang menangkap jenglot biasanya memamerkannya keliling Indonesia untuk mencari uang.",
+          "quote": "Most being found on the islands of Java and Sumatra, and are held as private collections of supernatural researchers and fans. People who have caught the jenglot usually bring their creature all over Indonesia to exhibit them in order to gain some money.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c09",
+          "source_id": "jenglot-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Others maintain that jenglots are no more than man-made toys with no supernatural power.",
+          "statement_id": "Sebagian orang tetap berpendapat bahwa jenglot hanyalah mainan buatan manusia tanpa kekuatan gaib.",
+          "quote": "Others still maintain that they are no more than \"man-made toys [with] no supernatural power.\"",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c10",
+          "source_id": "jenglot-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Not all specimens were examined, and the jenglot is an actively believed myth that many natives believe to be real.",
+          "statement_id": "Tidak semua spesimen diperiksa, dan jenglot adalah mitos yang masih aktif dipercaya; banyak penduduk asli menganggapnya nyata.",
+          "quote": "not all specimens were examined, and the jenglot is an actively believed myth that many natives believe to be real.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c11",
+          "source_id": "jenglot-s2",
+          "host": "pmc.ncbi.nlm.nih.gov",
+          "statement": "This journal paper describes the jenglot as an unidentified animal species claimed to be a rare living species, found in the deep jungle of Irian Jaya, brought to Kuala Lumpur by a businessman and exhibited in a local museum.",
+          "statement_id": "Makalah jurnal ini menyebut jenglot sebagai spesies hewan tak dikenal yang diklaim langka dan hidup, ditemukan di hutan dalam Irian Jaya, dibawa ke Kuala Lumpur oleh seorang pengusaha, dan dipamerkan di sebuah museum setempat.",
+          "quote": "An unidentified animal species named the Jenglot and claimed to be a rare living animal species was recently found in the deep jungle of Irian Jaya, Indonesia; brought to Kuala Lumpur, Malaysia by a businessman; and exhibited in a local museum.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c12",
+          "source_id": "jenglot-s2",
+          "host": "pmc.ncbi.nlm.nih.gov",
+          "statement": "Because the muscle appeared very dry and DNA recovery was extremely difficult, the researchers used the animals' hair for further analysis.",
+          "statement_id": "Karena otot tampak sangat kering dan DNA sangat sulit diperoleh, para peneliti memakai rambut hewan itu untuk analisis lanjutan.",
+          "quote": "Because the muscle appeared very dry and recovery of DNA was extremely difficult, we therefore used the animals’ hair for further analysis.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c13",
+          "source_id": "jenglot-s2",
+          "host": "pmc.ncbi.nlm.nih.gov",
+          "statement": "The hair samples were taken from jenglots 32 cm tall, 16.8 cm tall and the largest, 61.3 cm tall.",
+          "statement_id": "Sampel rambut diambil dari jenglot setinggi 32 cm, 16,8 cm, dan yang terbesar 61,3 cm.",
+          "quote": "Samples A and B were taken from a medium-size Jenglot carcass, which was 32 cm tall. Sample C was collected from a 16.8-cm tall Jenglot while sample D was collected from the biggest Jenglot, which was 61.3 cm tall.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c14",
+          "source_id": "jenglot-s2",
+          "host": "pmc.ncbi.nlm.nih.gov",
+          "statement": "A few hairs from samples B and C had an intact dried root at the other end, indicating the hairs were implanted upside down on the jenglots' heads.",
+          "statement_id": "Beberapa helai rambut dari sampel B dan C masih memiliki akar kering utuh di ujung lain, yang menunjukkan rambut itu ditanam terbalik di kepala jenglot.",
+          "quote": "A few hairs from samples B and C also had an intact dried root at the other end of the cut tip, which indicated that the hairs were implanted upside down on the Jenglots’ heads",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c15",
+          "source_id": "jenglot-s2",
+          "host": "pmc.ncbi.nlm.nih.gov",
+          "statement": "Black dye granules were clearly visible under the microscope on nail-varnish imprints of the hair, indicating that the hairs in sample D were dyed.",
+          "statement_id": "Butiran pewarna hitam terlihat jelas di bawah mikroskop pada cetakan rambut sampel D, yang menandakan rambut itu diwarnai.",
+          "quote": "Black dye granules were clearly visible under microscopic examination of the clear nail varnish imprints of the hair, indicating dyeing of the hairs in sample D",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c16",
+          "source_id": "jenglot-s2",
+          "host": "pmc.ncbi.nlm.nih.gov",
+          "statement": "Mitochondrial DNA sequencing showed a human-specific haplotype consistent across all the samples.",
+          "statement_id": "Pengurutan DNA mitokondria menunjukkan haplotipe khas manusia yang konsisten pada semua sampel.",
+          "quote": "a human-specific mtDNA haplotype that was consistent across all the samples",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c17",
+          "source_id": "jenglot-s2",
+          "host": "pmc.ncbi.nlm.nih.gov",
+          "statement": "The researchers concluded that it is unlikely that the jenglot hair samples originated from an animal species.",
+          "statement_id": "Para peneliti menyimpulkan bahwa rambut jenglot yang diperiksa kecil kemungkinan berasal dari spesies hewan.",
+          "quote": "Based on these findings, it was concluded that it is unlikely that the samples of Jenglot hair originated from an animal species.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c18",
+          "source_id": "jenglot-s3",
+          "host": "news.detik.com",
+          "statement": "According to detikNews, a jenglot was reported found at a sacred grave in Burikan Village, Kudus, on 27 February 2021.",
+          "statement_id": "Menurut detikNews, sebuah jenglot dilaporkan ditemukan di makam keramat di Desa Burikan, Kudus, pada 27 Februari 2021.",
+          "quote": "Sebuah jenglot ditemukan di makam keramat di Desa Burikan Kecamatan Kota, Kudus. ... Iya kemarin Sabtu tanggal 27 Februari 2021 ditemukan jenglot di makam punden Mbah Buyut Akasah Desa Burikan.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c19",
+          "source_id": "jenglot-s3",
+          "host": "news.detik.com",
+          "statement": "The caretaker of the grave described the jenglot found as 15 to 20 centimetres, with hair down to the knee and two long downward fangs.",
+          "statement_id": "Juru kunci makam itu menyebut jenglot yang ditemukan berukuran 15 sampai 20 sentimeter, berambut panjang sampai selutut, dan bertaring dua yang panjang ke bawah.",
+          "quote": "Ukurannya 15 sentimeter sampai 20 sentimeter. Bentuknya seperti rambutnya panjang sampai satu dengkul. Ada siung panjang ke bawah dua.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c20",
+          "source_id": "jenglot-s4",
+          "host": "id.wikipedia.org",
+          "statement": "According to Wikipedia, medically the jenglot is defined as not a living creature after a forensic team at Cipto Mangunkusumo Hospital, Jakarta examined it; X-ray photos found no bone.",
+          "statement_id": "Menurut Wikipedia bahasa Indonesia, secara medis jenglot didefinisikan bukan makhluk hidup setelah diteliti tim forensik Rumah Sakit Cipto Mangunkusumo, Jakarta; foto sinar Rontgen tidak menemukan unsur tulang.",
+          "quote": "Secara medis, jenglot didefinisikan sebagai bukan makhluk hidup setelah diteliti oleh tim forensik Rumah Sakit Cipto Mangunkusumo, Jakarta. Melalui foto sinar Rontgen, tidak ditemukan unsur tulang",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c21",
+          "source_id": "jenglot-s4",
+          "host": "id.wikipedia.org",
+          "statement": "According to Wikipedia, jenglots have been reported in several parts of the archipelago, such as Java, Kalimantan and Bali.",
+          "statement_id": "Menurut Wikipedia bahasa Indonesia, jenglot dilaporkan ditemukan di beberapa wilayah Nusantara, misalnya Jawa, Kalimantan, dan Bali.",
+          "quote": "Jenglot ditemukan di beberapa wilayah di nusantara, misalnya Jawa, Kalimantan, dan Bali.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c22",
+          "source_id": "jenglot-s4",
+          "host": "id.wikipedia.org",
+          "statement": "According to Wikipedia, some people believe the jenglot has mystical power and does not always consume human blood.",
+          "statement_id": "Menurut Wikipedia bahasa Indonesia, sebagian masyarakat percaya jenglot memiliki kekuatan mistis dan tidak selalu memakan darah manusia.",
+          "quote": "Jenglot dipercaya oleh sebagian masyarakat memiliki kekuatan mistis dan tidak selalu memakan darah manusia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c23",
+          "source_id": "jenglot-s4",
+          "host": "id.wikipedia.org",
+          "statement": "The Indonesian film Jenglot Pantai Selatan was directed by Rizal Mantovani and released in February 2011.",
+          "statement_id": "Film Indonesia Jenglot Pantai Selatan disutradarai Rizal Mantovani dan dirilis pada Februari 2011.",
+          "quote": "Film Indonesia berjudul Jenglot Pantai Selatan disutradarai oleh Rizal Mantovani, dirilis pada Februari 2011.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c24",
+          "source_id": "jenglot-s4",
+          "host": "id.wikipedia.org",
+          "statement": "According to Wikipedia, the jenglot is a humanlike doll of varying small size (about 10-20 cm), with dark, rough, mummy-like skin, a skull-like face with protruding fangs, and long hair and nails.",
+          "statement_id": "Menurut Wikipedia bahasa Indonesia, jenglot adalah boneka mirip manusia berukuran kecil bervariasi (sekitar 10-20 cm), berkulit gelap bertekstur kasar seperti mumi, berwajah seperti tengkorak dan bertaring mencuat, serta berambut dan berkuku panjang.",
+          "quote": "Jenglot adalah boneka berwujud mirip manusia yang memiliki ukuran kecil bervariasi (sekitar 10–20 cm), berkulit gelap dengan tekstur kasar (seperti mumi), berwajah seperti tengkorak dan bertaring mencuat serta memiliki rambut dan kuku yang panjang.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c25",
+          "source_id": "jenglot-s4",
+          "host": "id.wikipedia.org",
+          "statement": "According to Wikipedia, some people believe the jenglot is the incarnation of a human, or a siluman that takes shape through an object into something frightening to certain people.",
+          "statement_id": "Menurut Wikipedia bahasa Indonesia, sebagian orang percaya jenglot adalah jelmaan manusia, atau siluman yang mewujud lewat benda menjadi sesuatu yang menyeramkan bagi kalangan tertentu.",
+          "quote": "Beberapa orang memercayai bahwa Jenglot merupakan jelmaan manusia, atau siluman yang mewujudkan dengan benda membentuk sesuatu yang menyeramkan bagi kalangan tertentu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jenglot-c26",
+          "source_id": "jenglot-s4",
+          "host": "id.wikipedia.org",
+          "statement": "According to Wikipedia, there is also a conclusion that the jenglot is made by mummifying several species, for example a monkey head joined to a horse tail as hair.",
+          "statement_id": "Menurut Wikipedia bahasa Indonesia, ada pula kesimpulan bahwa jenglot dibuat lewat mumifikasi beberapa spesies, misalnya kepala monyet yang disambung dengan ekor kuda sebagai rambutnya.",
+          "quote": "Ada juga kesimpulan yang mengatakan jenglot itu dibuat dengan proses mumifikasi dari beberapa spesies, seperti kepala monyet yang disambung dengan ekor kuda sebagai rambutnya",
           "context": "scholarly-interpretation",
           "status": "exact"
         }

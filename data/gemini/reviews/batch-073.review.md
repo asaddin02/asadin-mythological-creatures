@@ -1,6 +1,6 @@
 # Review batch-073
 
-Diperiksa 2026-10-01T18:20:44.999Z. Berkas: batch-073.md, batch-073-fix-1.md, batch-073-fix-2.md, batch-073-fix-3.md.
+Diperiksa 2026-10-06T14:12:00.558Z. Berkas: batch-073.md, batch-073-fix-1.md, batch-073-fix-2.md, batch-073-fix-3.md, batch-073-fix-4.md.
 
 ## manasa — lulus-otomatis
 
@@ -188,10 +188,7 @@ Klaim 6 (exact 5, loose 1), sumber 2, gambar 0.
 
 ## chamunda — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 23 (loose 1, exact 22), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -201,6 +198,23 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | chamunda-c04 | exact | en.wikipedia.org | She is often depicted living in cremation grounds or near sacred fig trees. | The goddess is often portrayed as residing in cremation grounds or near holy fig trees. The goddess is worshipped by ritual animal sacrifices along with offerings of wine. The practice of animal sacrifices has become less common with Vaishnavite influences. |
 | chamunda-c05 | exact | en.wikipedia.org | Later depictions show her as a skeletal old woman with sunken eyes. | In early representations of Chamunda, she is given a ferocious visage, but with a feminine figure and elegant features. However, in later representations she is generally depicted as a skeletal old women wearing an elephant or tiger hide. She is shown to have sunken eyes, dishevelled hair. |
 | chamunda-c06 | exact | en.wikipedia.org | She is depicted standing or sitting on a corpse or a vanquished demon. | She is standing or sitting upon a 'shava' or corpse or sitting on a 'preta' or vanquished demon. |
+| chamunda-c07 | exact | www.wisdomlib.org | In Pargiter's translation of the Devi-Mahatmya, when Ambika is wrathful at her foes, Kali of the terrible countenance suddenly issues from her forehead. | Thereat Ambikā uttered her wrath aloud against those foes, and her countenance then grew dark as ink in her wrath. Out from the surface of her forehead, which was rugged with frowns, issued suddenly Kālī of the terrible countenance |
+| chamunda-c08 | exact | www.wisdomlib.org | Kali is described as decorated with a garland of skulls, clad in a tiger's skin, appalling in her emaciated flesh, exceedingly wide of mouth with her tongue lolling out, and having deep-sunk reddish eyes. | decorated with a garland of skulls, clad in a tiger’s skin, very appalling because of her emaciated flesh, exceedingly wide of mouth, lolling out her tongue terribly, having deep-sunk reddish eyes |
+| chamunda-c09 | exact | www.wisdomlib.org | Kali fell impetuously upon the great Asuras, dealing slaughter among the host, and devoured that army of the gods' foes. | She fell upon the great Asuras impetuously, dealing slaughter among the host, and devoured that army of the gods’ foes there. |
+| chamunda-c10 | exact | www.wisdomlib.org | The goddess, mounting her great lion, rushed at Caṇḍa, seized him by the hair and struck off his head with her sword. | And the goddess, mounting upon her great lion, rushed at Caṇḍa, and seizing him by his hair struck off his head with her sword. |
+| chamunda-c11 | exact | www.wisdomlib.org | Muṇḍa also rushed at her when he saw Caṇḍa laid low, and she felled him to the ground, stricken with her scimitar in her fury. | And Muṇḍa also rushed at her when he saw Caṇḍa laid low; him also she felled to the ground, stricken with her scymitar in her fury. |
+| chamunda-c12 | exact | www.wisdomlib.org | Caṇḍikā declares that because Kali seized and brought Caṇḍa and Muṇḍa she shall be famed in the world by the name Cāmuṇḍā. | Because thou hast seized both Caṇḍa and Muṇḍa and brought them, thou, O goddess, shalt therefore be famed in the world by the name Cāmuṇḍā! |
+| chamunda-c13 | exact | en.wikipedia.org | According to the Devi Mahatmya, Chamunda emerged from between the eyebrows of the goddess Kaushiki, created from the 'sheath' of Durga, and was assigned to eliminate the demons Chanda and Munda, servants of the demon kings Shumbha-Nisumbha. | Chamunda emerged from middle of eyebrows of goddess Kaushiki, a goddess created from the "sheath" of Durga and was assigned the task of eliminating the demons Chanda and Munda, servants of demon kings Shumbha-Nisumbha. |
+| chamunda-c14 | exact | en.wikipedia.org | According to another legend, Chamunda appeared from the frown of the benign goddess Parvati to kill the demons Chanda and Munda. | According to another legend, Chamunda appeared from the frown of the benign goddess Parvati to kill demons Chanda and Munda. |
+| chamunda-c15 | exact | en.wikipedia.org | In the text Kali is given the epithet Chamunda, so the Devi Mahatmya identifies Chamunda with Kali. | Kali is given the epithet Chamunda in the text. Thus, the Devi Mahatmya identifies Chamunda with Kali. |
+| chamunda-c16 | exact | en.wikipedia.org | The Varaha Purana text mentions Chamunda and Kali as two separate goddesses, unlike the Devi Mahatmya. | The Varaha Purana text mentions two separate goddesses Chamunda and Kali, unlike Devi Mahatmya. |
+| chamunda-c17 | exact | en.wikipedia.org | According to the Matsya Purana, Chamunda with the other matrikas was created by Shiva to help him kill the demon Andhakasura. | She with other matrikas was created by Shiva to help him kill the demon Andhakasura |
+| chamunda-c18 | exact | en.wikipedia.org | The quality of drinking blood is a characteristic of all the Matrikas, and of Chamunda in particular. | This quality of drinking blood is a characteristic of all Matrikas, and Chamunda in particular. |
+| chamunda-c19 | exact | en.wikipedia.org | The Matrikas are fearsome mother goddesses, abductors and eaters of children, emblematic of childhood pestilence, fever, starvation and disease. | The Matrikas are fearsome mother goddesses, abductors and eaters of children; that is, they were emblematic of childhood pestilence, fever, starvation, and disease. |
+| chamunda-c20 | exact | en.wikipedia.org | Chamunda is the only Matrika who is a Shakti of the great Goddess Devi rather than a male god, and the only one who enjoys independent worship of her own. | Chamunda is the only Matrika who is a Shakti of the great Goddess Devi rather than a male god. She is also the only Matrika who enjoys independent worship of her own |
+| chamunda-c21 | exact | en.wikipedia.org | Ramakrishna Gopal Bhandarkar claims Chamunda was originally a tribal goddess worshipped by the tribals of the Vindhya mountain range in central India. | Ramakrishna Gopal Bhandarkar claims that Chamunda was originally a tribal goddess, worshipped by the tribals of the Vindhya mountains range in central India. |
+| chamunda-c22 | exact | en.wikipedia.org | These characteristics, in contrast to typical depictions of Hindu goddesses with beautiful faces, symbolise the inevitability of old age, death, decay and destruction. | These characteristics, a contrast to the typical depictions of Hindu goddesses with beautiful faces, symbolise the inevitability of old age, death, decay and destruction. |
+| chamunda-c23 | exact | en.wikipedia.org | Besides the usual meaning as slayer of the demons Chanda and Munda, the Devi Purana explains that Chanda means terrible while Munda stands for Brahma's head or lord or husband. | Apart from the usual meaning of Chamunda as the slayer of demons Chanda and Munda, the Devi Purana gives a different explanation: Chanda means terrible while Munda stands for Brahma's head or lord or husband. |
 
 
 ## kinnara — lulus-otomatis

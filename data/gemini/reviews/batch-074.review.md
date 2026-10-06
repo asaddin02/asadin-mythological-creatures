@@ -1,6 +1,6 @@
 # Review batch-074
 
-Diperiksa 2026-10-01T18:43:01.866Z. Berkas: batch-074.md, batch-074-fix-1.md, batch-074-fix-2.md.
+Diperiksa 2026-10-06T14:41:35.956Z. Berkas: batch-074.md, batch-074-fix-1.md, batch-074-fix-2.md, batch-074-fix-3.md.
 
 ## hamsa-bird — lulus-otomatis
 
@@ -127,10 +127,7 @@ Klaim 7 (exact 5, unreachable 2), sumber 2, gambar 0.
 
 ## lawdasura — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (loose 1, exact 11), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -140,6 +137,12 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | lawdasura-c04 | exact | en.wikipedia.org | Madhu passes down his trident to Lavana. | Madhu handed everything over to his son including his trident |
 | lawdasura-c05 | exact | en.wikipedia.org | Rama warns Shatrughna to fight him while he is without the invincible trident. | Rama warned his brother to find a way to fight with Lavana without his holding the invincible trident. |
 | lawdasura-c06 | exact | en.wikipedia.org | During the fight Lavana uproots trees and throws them at Shatrughna. | Lavana uprooted many trees and threw them on Shatrughna, and a great battle ensued. |
+| lawdasura-c07 | exact | prekshaa.in | According to this retelling, the rakshasa Madhu received a boon from Shiva in the form of an invincible spear (shula) that could reduce enemies to ashes. | In the past, a rākṣasa named Madhu received a boon from Śiva, because of which he got an invincible śūla – spear. The spear was endowed with the ability to reduce enemies to ashes. |
+| lawdasura-c08 | exact | prekshaa.in | Madhu passed away after giving the spear to his ruthless son Lavana. Lavanasura is described as tormenting the worlds with his vile nature and the special power of the spear. | Madhu passed away bestowing the spear to his ruthless son Lavaṇa. Now, this Lavaṇāsura torments the worlds with his vile nature and the special power of the spear. |
+| lawdasura-c09 | exact | prekshaa.in | Rama gave Shatrughna a powerful arrow created by Vishnu and sent him with a large army to vanquish Lavanasura. | Rāma gifted Śatrughna a powerful arrow created by Viṣṇu and sent him with a large army to vanquish Lavaṇāsura. |
+| lawdasura-c10 | exact | prekshaa.in | Shatrughna arrived at a sage's hermitage on the banks of the River Yamuna and slew Lavanasura with the arrow Rama had given him. | The next morning, Śatrughna took leave of Sage Vālmīki and arrived at the āśrama of Sage Cyavana on the banks of River Yamunā. He slew Lavaṇāsura using the arrow Rāma had gifted him. |
+| lawdasura-c11 | exact | www.wisdomlib.org | It is stated that Mandhata once fought Lavanasura but had to accept defeat before the god-given spear that Lavanasura possessed. | Māndhātā had to fight once against Lavaṇāsura but had to accept defeat before the god-given spear which Lavaṇāsura possessed. (Uttara Rāmāyaṇa). |
+| lawdasura-c12 | exact | www.wisdomlib.org | In this source it is Rama, at the request of the munis of the Yamuna plain, who killed Lavanasura, son of Madhu, in the great city called Durga in the middle of the Madhu forest. | It was during this period that Rāma, as desired by the munis in the Yamunā plain, killed Lavaṇāsura, son of Madhu in the great city called Durga in the centre of the Madhu forest. |
 
 
 ## pakhangba — lulus-otomatis
@@ -340,10 +343,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## lai-khutshangbi — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -353,6 +353,14 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | lai-khutshangbi-c04 | exact | en.wikipedia.org | She lives in a forest near a village, stealing and eating livestock and babies. | There was a man and woman with a little child named Shasi (or "Shachi" or "Leirik" or "Naocha" in other versions) living in an isolated house in a hamlet. Nearby was the forest where Lai Khutsangbi lived. She usually stole and ate livestock and human babies from the village. She took advantage of people's loneliness, sowing terror in the people in the village. |
 | lai-khutshangbi-c05 | exact | en.wikipedia.org | She fears Shasipa, father of the child she wants to eat. | But Shasi's father, Shasipa was so brave that the Lai Khutsangbi was afraid of him. |
 | lai-khutshangbi-c06 | exact | en.wikipedia.org | Shasipa cuts off both her arms; falling blood is believed to become red patches on plants. | The blood flew out of her cut arm and fell onto many plants growing on her way to the forest. It is said that the red patches seen on some plants is her blood. ... Then, he chopped off that arm too. |
+| lai-khutshangbi-c07 | exact | e-pao.net | According to this essay, she has no name (she is known so because of her unusually long hands), no lineage, and lives alone in the forest. | She does not have a name, she is known so because of her unusually long hands, she does not have a lineage, and she lives alone in the forest. |
+| lai-khutshangbi-c08 | exact | e-pao.net | The essay says she is never portrayed as a magical, immortal soul but as an extra-human, demon-like, evil witch, a mortal woman with immense faculty (long hands) and evil prowess. | Notwithstanding her extraordinary character, she is never portrayed as a magical, immortal soul; she is portrayed as an extra-human, demon-like, evil witch; she is a mortal woman with immense faculty (long hands) and evil prowess. |
+| lai-khutshangbi-c09 | exact | e-pao.net | She kidnaps young children and kills animals and has an inordinate appetite for human flesh, from which the village women and children have to be protected. | She kidnaps young children and kills animals, and she has an inordinate appetite for human flesh, from which the village women and children have to be protected. |
+| lai-khutshangbi-c10 | exact | e-pao.net | She uses her long hands as weapons to kill her prey. | She uses her long hands as weapons to kill her prey. |
+| lai-khutshangbi-c11 | exact | e-pao.net | The essay states she is not inherently weak, but without her hands she is reduced to tears and helplessness; once her hands are cut off she flees in fear. | Lai Khutsangbi is not inherently weak, but in absence of her hands she is reduced to tears and helplessness. Once her hands are cut off she flees in fear. |
+| lai-khutshangbi-c12 | exact | e-pao.net | She lives in a remote area where untamed wilderness meets human dwelling, a heavily forested, sparsely populated village community. | Lai Khutsangbi lives in a remote geographical area where the wilderness of the untamed nature meets the human dwelling, a heavily forested, sparsely populated village community. |
+| lai-khutshangbi-c13 | exact | e-pao.net | According to the essay, the story of Lai Khutsangbi is told to young audiences as a cautionary tale to stay in the safety of the home. | The story of Lai Khutsangbi is tendered for the young audience as a cautionary tale to stay in the safety of the home. |
+| lai-khutshangbi-c14 | exact | e-pao.net | According to the essay, in the everyday parlance of the Manipuris Lai Khutsangbi is used as a metaphor for an unpleasant and unacceptable show of female agency. | In the everyday parlance of the Manipuris, Lai Khutsangbi is used as a metaphor for unpleasant and unacceptable show of female agency |
 
 
 ## pancika — lulus-otomatis
@@ -371,10 +379,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## bramrachokh — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -384,6 +389,7 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | bramrachokh-c04 | exact | en.wikipedia.org | On his forehead is a brightly shining eye. | and on his forehead a strong, shining eye. |
 | bramrachokh-c05 | exact | en.wikipedia.org | His light is said to lead travelers to a ditch, cave, or death. | It is said that if a traveller encounters Bramrachokh's light in a remote location, it will lead them to a ditch or a cave, or to their death. |
 | bramrachokh-c06 | exact | en.wikipedia.org | Village children sometimes attribute distant flickering lights to him. | Village children who see lights burning and extinguishing in the distance sometimes attribute this to Bramrachokh. |
+| bramrachokh-c07 | exact | dsal.uchicago.edu | The Kashmiri dictionary gives the word ब्रमराचोख् (bramarācōkh) and defines it as a kind of demon or ghost that dwells in waste places and misleads travellers by pretending to be a light, a will-o'-the-wisp. | ब्रमराचोख् । भूतविशेषः m. (sg. dat. bramarācōkas ब्रमराचोकस् ), a certain kind of demon or ghost, who dwells in waste places and misleads travellers by pretending to be a light, a will-o'-the-wisp. |
 
 
 ## devil-bird — lulus-otomatis
@@ -486,10 +492,7 @@ Klaim 7 (exact 6, unreachable 1), sumber 2, gambar 0.
 
 ## ahiravana — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -499,14 +502,16 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | ahiravana-c04 | exact | en.wikipedia.org | Hanuman saves them by beheading Ahiravana and destroying his army. | However, Hanuman saved their lives by decapitating ahiravana, and destroying his army. |
 | ahiravana-c05 | exact | en.wikipedia.org | In the Mahiravana account he enters the camp disguised as Vibhishana. | One night, Mahiravana, using his maya, took Vibhishana's form and entered Rama's camp. |
 | ahiravana-c06 | exact | en.wikipedia.org | That account describes a sleeping spell cast over the vanara army before the abduction. | He cast the nidra mantra (sleeping spell) on the vanara army, kidnapped Rama and Lakshmana, |
+| ahiravana-c07 | exact | www.wisdomlib.org | In the Shiva Purana, the figure whose story is told in that chapter slew the demon Mahiravana and, after guarding them well, brought Rama and Lakshmana from his place to their own. | He slew the demon Mahīrāvaṇa and brought Rāma and Lakṣmaṇa from his place to their own after guarding them well. |
+| ahiravana-c08 | exact | www.wisdomlib.org | A study of a temple in Assam mentions the story of Mahiravana, the maternal uncle of Ravana, bringing Ram and Laxman to Paataal for sacrifice. | Here, the story of bringing Ram and Laxman to the Paataal by Mahiravana—the maternal uncle of Ravana for sacrifice. |
+| ahiravana-c09 | exact | www.wisdomlib.org | According to that study, Mahiravana prepared Ram and Laxmana to be sacrificed before the goddess Kaali in Paataal. | Mahiravana prepared both Ram-Laxmana to sacrifice before the goddess Kaali in Paataal. |
+| ahiravana-c10 | exact | www.wisdomlib.org | At that time Hanuman appeared in the disguise of a fly, rested upon Ram's hands, violated the rituals of Bali, and rescued them. | During that time Hanuman appeared there in disguise of a fly and rested upon the hands of Ram and violated the rituals of Bali and rescued them from that. |
+| ahiravana-c11 | exact | en.wikipedia.org | Mahiravana is the king of Patala (the netherworld) and a trusted friend or brother of Ravana. | Mahiravana is the king of the Patala (netherworld) and a trusted friend/brother of Ravana. |
 
 
 ## dawon — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -516,6 +521,11 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | dawon-c04 | exact | en.wikipedia.org | The article identifies Durga's lion with Vishnu in a Kalika Purana account. | According to some Hindu spiritual texts like Kalika purana, Somnandi or Mother Durga's lion is believed to be Vishnu himself. |
 | dawon-c05 | exact | en.wikipedia.org | Ghatokbahini in Bengali art is depicted as a half lion half tiger hybrid. | in the form of Ghatokbahini ... in the form of a half-lion, half-tiger hybrid, like a liger. |
 | dawon-c06 | exact | en.wikipedia.org | The article links Dawon to a sacred Tibetan tiger later called Gdon. | It is a sacred tiger in Tibetan lore, and was later known as 'Gdon. |
+| dawon-c07 | exact | devimahatmyam.aurobharati.in | In the Devimahatmyam, Himavan gave the Goddess the lion as her vehicle, along with various gems. | Himavān gave her the lion as the vehicle and various gems. |
+| dawon-c08 | exact | devimahatmyam.aurobharati.in | The lion, the mount of Devi, shook its mane in fury and roamed amidst the armies of the Asuras like fire in the forests. | And the lion also, the mount of Devi, shook its mane in fury and roamed amidst the armies of the Asuras like fire in the forests. |
+| dawon-c09 | exact | devimahatmyam.aurobharati.in | The lion, shaking its mane and roaring terribly, prowled about as if searching for the life-breaths in the bodies of the enemies of the immortals. | That lion also, shaking its mane and making a terrible roar prowled about, searching as it were the life - breaths in the bodies of the enemies of the immortals. |
+| dawon-c10 | exact | devimahatmyam.aurobharati.in | The lion leaped upwards, seated itself between the temples of the elephant, and engaged in a hand-to-hand fight with that enemy of the gods. | Then, the lion leaped upwards, seated itself between the temples of the elephant and engaged itself in a hand to hand fight with that enemy of the gods. |
+| dawon-c11 | exact | devimahatmyam.aurobharati.in | After laying low the hosts of Pramathas, the Asura leaped to slay the lion of the great Goddess; seeing this, the Mother became angry. | After laying low the hosts of Pramathas, that Asura leaped to slay the lion of the great Goddess. Seeing this, the Mother became angry. |
 
 
 ## denglong-mythology — lulus-otomatis
@@ -535,10 +545,7 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## gajasimha — lulus-otomatis
 
-Klaim 6 (exact 4, loose 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 8, loose 2), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -548,6 +555,10 @@ Klaim 6 (exact 4, loose 2), sumber 1, gambar 0.
 | gajasimha-c04 | exact | en.wikipedia.org | Its figure is a motif in Indian and Sinhalese art and a symbol in Southeast Asia. | It is found as a motif in Indian and Sinhalese art, and is used as a heraldic symbol in some Southeast Asian countries, especially Cambodia and Thailand. |
 | gajasimha-c05 | exact | en.wikipedia.org | In Siam it symbolizes the kalahom, one of the king's two chief chancellors. | In Siam (pre-modern Thailand), the gajasimha served as the symbol of the kalahom, one of the king's two chief chancellors. |
 | gajasimha-c06 | exact | en.wikipedia.org | It is a supporter in Siam's coat of arms used in 1873–1910. | It appears as a supporter in the coat of arms of Siam, in use from 1873 to 1910, |
+| gajasimha-c07 | exact | www.wisdomlib.org | A study of temple architecture describes giant figures of Gaja-Simha: a lion trampling an elephant, or the mythical animal Gaja-Vidala with the body of a lion and the face of an elephant, trampling the "Apasmarapurusa" or demon. | occupied by the giant figures of Gaja-Simha, Simha trampling over Elephant or mythical animal Gaja-Vidala having the body of Lion and the face of an elephant trampling over 'Apasmarapurusa' or demon. |
+| gajasimha-c08 | exact | www.wisdomlib.org | A study of temples says the gaja-simhas, or lions on crouching elephants, are installed on both sides of the main doorway of the natamandapa and act as the dvarapalas (door guardians) of the temple. | The gaja-simhas or lions on croachant elephants are installed on the both sides of the main doorway of the natamandapa. They are acting as the dvarapalas of the temple. |
+| gajasimha-c09 | exact | www.wisdomlib.org | A thesis on a temple site describes the popular Gaja Simha or Gaja Kranta motif, in which a lion is placed over a seated or subdued elephant. | a bold execution of the popular Gaja Simha or Gaja Kranta motif. In this representation a lion is being placed over a seated or subduing elephant. |
+| gajasimha-c10 | exact | philamuseum.org | The museum's collection page records a throne leg titled "Throne Leg with an Elephant-Headed Lion (Gajasimha Vyala)", dated to about the mid-13th century. | c. Mid- 13th century Throne Leg with an Elephant-Headed Lion (Gajasimha Vyala) |
 
 
 ## guhyaka — lulus-otomatis
@@ -597,10 +608,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## jatasura — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -610,6 +618,11 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | jatasura-c04 | exact | en.wikipedia.org | Sahadeva escapes and seeks Bhima's help. | Sahadeva managed to escape from his grasp, and rushed to seek the aid of Bhima. |
 | jatasura-c05 | exact | en.wikipedia.org | Yudhishthira confuses him with moral accusations. | Yudhishthira confused their captor by showering him with moral accusations, observing Jatasura's lack of intelligence. |
 | jatasura-c06 | exact | en.wikipedia.org | He fights Bhima with huge trees, rocks, and hands before being defeated. | The Pandava and the rakshasa fought with gigantic trees, large rocks, along with their arms. ... In the end, Bhima was able to inflict a death blow on his opponent's neck. |
+| jatasura-c07 | exact | www.wisdomlib.org | In this abridged Mahabharata, the rakshasa disguised himself as a brahmana and secretly stayed with the Pandavas, claiming to be a high-class brahmana; his real desire was to steal their bows, quivers and other possessions. | That Rakshasa, who had been disguised as a brahmana, had secretly remained in the company of the Pandavas, alleging that he was a high class brahmana. His real desire was to steal the bows, quivers and other possessions of the Pandavas. |
+| jatasura-c08 | exact | www.wisdomlib.org | The name of this wicked demon was Jatasura. | The name of this wicked demon was Jatasura. |
+| jatasura-c09 | exact | www.wisdomlib.org | Sahadeva broke free of the demon's grip and forcefully took the sword named Kausika from his grasp. | However, Sahadeva broke away from the demon's grip and forcefully took the sword named Kausika from his grasp. |
+| jatasura-c10 | exact | www.wisdomlib.org | In the fight the two combatants repeatedly uprooted trees and struck each other, shouting, then picked up rocks and flung them at each other. | Repeatedly uprooting trees, they hit each other, shouting and roaring like two masses of clouds. ... those two warriors picked up rocks and flung them at each other. |
+| jatasura-c11 | exact | www.wisdomlib.org | Bhima repeatedly struck the rakshasa's neck and severed his head from his body. | Striking the Rakshasa's neck repeatedly, Bhima severed his head from his body. |
 
 
 ## lakhey — lulus-otomatis
@@ -628,10 +641,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## taoroinai — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -641,14 +651,12 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | taoroinai-c04 | exact | en.wikipedia.org | The Leithak Leikharol and Krathok Lamlen recount a Tupu disguise to bring Atiya's cloud egg, later becoming Pakhangba. | According to the Leithak Leikharol and the Krathok Lamlen, Taoroinai went to the heavens disguises as Tupu (officer in charge) and brought down the divine cloud egg (nonglum) of Atiya. He gave the egg to a polyandrous person. Later, the egg became Pakhangba. |
 | taoroinai-c05 | exact | en.wikipedia.org | The Leimaren Naoyom recounts him giving an embryonic egg to Leimarel Sidabi, who later bears Pakhangba. | According to the Leimaren Naoyom, Taoroinai gave an embryonic egg to Leimarel Sidabi, a solar goddess (or a celestial goddess). Later, goddess Leimaren (alias Yaibirok) gave birth to Pakhangba. |
 | taoroinai-c06 | exact | en.wikipedia.org | The Anoirol recounts him teaching his daughter Toibi Tanka Nubi to dance. | According to the Anoirol, Lady Toibi Tanka Nubi (Tankha Chanu) danced with her father, Taoroinai. She learned how to dance from Taoroinai step by step and movement by movement. |
+| taoroinai-c07 | exact | www.ijciras.com | A journal article on nature worship says Panthoibi, the consort of Nongpok Ningthou, is the daughter of Taoroinai and Lainamung Namungba, and describes her as a great goddess of mankind. | Nongpok Ningthou and his divine consort Panthoibi are taken to be indispensable. The Meiteis generally worship them as NongpokPanthoibi. She is the daughter of Taoroinai and Lainamung Namungba, is described as a great goddess of mankind |
 
 
 ## tarkshya — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -658,6 +666,10 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | tarkshya-c04 | exact | en.wikipedia.org | The Bhagavata Purana also associates the name with Garuda's father. | or Garuda's father (Bhagavata Purana 6.6.2, 21) |
 | tarkshya-c05 | exact | en.wikipedia.org | The Mahabharata counts him among Kashyapa's offspring. | counted among the offspring of Kashyapa in Mahabharata 1.2548, 4830 and 12468. |
 | tarkshya-c06 | exact | en.wikipedia.org | The epithet arishta nemi is explained as with intact wheel rims. | with the epithet áriṣṭa-nemi "with intact wheel-rims" |
+| tarkshya-c07 | exact | www.wisdomlib.org | In this translated Rigveda hymn, Tarkshya is invoked for welfare and described as mighty, commissioned by the gods, victorious, the outstripper of chariots, of irresistible car, the overthrower of hosts, and swift. | Let us invoke here for our welfare that Tārkṣya, who is mighty, the commissioned of the gods, thevictorious, the outstripper of chariots, of irresistible car, the overthrower of hosts, the swift. |
+| tarkshya-c08 | exact | www.wisdomlib.org | The commentary accompanying the hymn equates Tarkshya with suparna, the son of Trksa, commissioned by the gods to bring the Soma from heaven. | Tārk.sya: i.e.,suparṇa, the son of Tṛkṣa, commissioned by the gods to bring the Soma from heaven |
+| tarkshya-c09 | exact | www.wisdomlib.org | In another Rigveda verse, Tarkshya, with unblemished weapons, is asked to guard the welfare of those invoking him. | may Tārkṣya, with unblemished weapons, guard our welfare. |
+| tarkshya-c10 | exact | www.wisdomlib.org | The commentary on this verse says Tarkshya, son of Trksa, is Garuda, and explains Aristanemi as he who has unharmed or irresistible weapons (nemi being the circumference of a wheel). | Tārkṣya, son of Tṛkṣa is Garuḍa. He is Ariṣṭanemi, he who has unharmed or irresistible (aṛṣṭa) weapons (nemi, circumerference of a wheel). |
 
 
 ## twelve-heavenly-generals — lulus-otomatis

@@ -1,6 +1,6 @@
 # Review batch-137
 
-Diperiksa 2026-10-02T04:03:35.831Z. Berkas: batch-137.md.
+Diperiksa 2026-10-06T14:51:11.213Z. Berkas: batch-137.md, batch-137-fix-1.md.
 
 ## mongolian-death-worm — lulus-otomatis
 
@@ -195,10 +195,7 @@ Klaim 9 (exact 9), sumber 2, gambar 0.
 
 ## tepegoz — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -207,6 +204,12 @@ Klaim 5 (exact 5), sumber 3, gambar 0.
 | tepegoz-c03 | exact | en.wikipedia.org | In the story an Oghuz herdsman sees a nymph who later gives birth, and finds the monstrous infant, a lump of flesh. | Years later a herdsman of the Oghuz saw a nymph who gave birth days later. The herdsman finds the monstrous infant, a fleshly thing. |
 | tepegoz-c04 | exact | de.wikipedia.org | Another source glosses tepe as forehead, so Tepegöz means "eye on the forehead". | In den Turksprachen bedeutet tepe/təpə „Stirn“ und goz/göz bedeutet „Auge“, also Tepegöz „Auge auf der Stirn“ |
 | tepegoz-c05 | exact | ru.wikipedia.org | The core of its story: Tepegöz drives a man into his cave to eat him, but the man blinds his single eye with a sharp point and escapes wrapped in a sheepskin. | одноглазый великан (дэв) в тюркской мифологии, рассказ о котором сводится к тому, что Тепегёз загоняет человека в пещеру, своё логово, собираясь съесть, но человек ослепляет его, вонзив в его единственный глаз остриё, и выбирается из пещеры, накинув на себя овечью шкуру. |
+| tepegoz-c06 | exact | en.wikipedia.org | In the story nobody can kill him: the sword cannot cut him, the arrow cannot kill him, and his skin is very hard. | Nobody is able to kill him. The sword can not cut him. The arrow can not kill him. Tepegoz's skin is very hard. |
+| tepegoz-c07 | exact | en.wikipedia.org | Basat killed Tepegöz by striking his eye, then cut off his head with a magical sword. | He killed horrible Tepegoz by striking his eye. Then he cut off Tepegoz's head with a magical sword |
+| tepegoz-c08 | exact | en.wikipedia.org | When the one-eyed boy grows up he bites off a neighbour child's nose and ear, and his father drives him away from the village. | When the one eyed boy grows up he bites off a neighborhood child's nose and ear. His father scorns him, driving him away from the village. |
+| tepegoz-c09 | exact | www.encyclopedia.com | Because Tepegöz starts attacking and eating many people, Dede Korkut strikes a deal to give him two men and 500 sheep daily. | Because Tepegöz, the Cyclops, starts attacking and eating many people, Dede Korkut strikes a deal to provide Tepegöz with two men and 500 sheep daily. |
+| tepegoz-c10 | exact | www.encyclopedia.com | Basat blinds Tepegöz with a spit, tricks him, and finally beheads him. | Basat blinds Tepegöz with a spit and tricks him, finally beheading him. |
+| tepegoz-c11 | exact | www.encyclopedia.com | Scholars are intrigued by how closely the story of Tepegöz relates to that of Odysseus and the Cyclops in Homer; some argue the Homeric story found its way into the Turkic version, others that Homer took it from an earlier tradition circulating in Asia Minor. | Scholars have been especially intrigued by the close relation of the story of Tepegöz to the story of Odysseus and the Cyclops in Homer ... Some scholars argue that the Homeric story somehow found its way into the Turkic version; others argue that Homer took the story from an earlier tradition circulating in Asia Minor. |
 
 
 ## triple-headed-eagle — lulus-otomatis
@@ -497,10 +500,7 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## qarakorshaq — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -509,6 +509,9 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | qarakorshaq-c03 | exact | en.wikipedia.org | Analysis of its traits suggests it may come from folk memory of real animals long extinct in parts of Anatolia. | Analysis of Qarakorshaq's attributes has led to the conclusion that it may actually derive from a folk memory of certain real animals, which have long since become regionally extinct in certain parts of Anatolia and are now known only in legend. |
 | qarakorshaq-c04 | exact | tr.wikipedia.org | In Turkish it is called Karakorşak, an animal-like mythical creature of Turkic mythology. | Karakorşak (Eski Türkçe: 𐰚𐰀𐰺𐰀𐰚𐰗𐰺𐱁𐰀𐰚), Türk mitolojisinde yer alan hayvan benzeri mitolojik bir yaratıktır. |
 | qarakorshaq-c05 | exact | tr.wikipedia.org | It has a clumsy or lumbering gait. | Sakar veya hantal bir yürüyüşü vardır. |
+| qarakorshaq-c06 | exact | dergipark.org.tr | According to this article, Kara korşak is a jinn that the Turkmen of Erbil believe takes the guise of a donkey, dog, pig or goat. | Kara korşak: Erbil’de Türkmenlerin eşek, köpek, domuz, keçi kılığına girdiğine inandıkları bir cindir. |
+| qarakorshaq-c07 | exact | dergipark.org.tr | It is said to knock on doors at night and trick the householder with a familiar voice and appearance, calling him out and abducting him. | Gece kapıları çalıp, ev sahibinin tanıdığı bir ses ve kılıkla onu kandırarak çağırıp kaçırırmış. |
+| qarakorshaq-c08 | exact | dergipark.org.tr | It is believed that to be protected from this jinn one must undo the buttons of one's trousers. | Bu cinden korunmak için pantolonun düğmelerini açmak gerektiğine inanılır |
 
 
 ## uylak — lulus-otomatis
@@ -571,10 +574,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## al-ana — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -583,6 +583,14 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | al-ana-c03 | exact | en.wikipedia.org | Al Ana was said to steal newborn babies and replace them with her own children, changelings. | Al Ana was said to kidnap human babies just after they were born and replace them with her own children, known as foundlings or changelings. |
 | al-ana-c04 | exact | en.wikipedia.org | A changeling could be recognised by its odd appearance, disproportionate and often disabled body, and its wickedness. | A changeling could be recognized by its uncommon appearance – disproportionate body, often with some kind of disability – as well as its wickedness. |
 | al-ana-c05 | exact | az.wikipedia.org | In birth rites, though uttering its name is often taboo, many rituals concern the figure of Hal. | Doğum mərasimləri keçirilərkən, adının hallandırılması çox zaman tabu sayılsa da, istər-istəməz ən çox Hal obrazı ilə bağlı ayinlər icra edilir. |
+| al-ana-c06 | exact | en.wikipedia.org | The changeling is described as having a huge abdomen, an unusually small or large head, a hump, thin arms and legs, a hairy body and long claws, and as cutting its first teeth prematurely. | It had a huge abdomen, unusually small or large head, a hump, thin arms and legs, a hairy body and long claws; it also prematurely cut its first teeth. |
+| al-ana-c07 | exact | en.wikipedia.org | To protect a child from being kidnapped by Al Ana, a mother had to tie a red ribbon around its hand, put a red hat on its head and shield its face from the moonlight. | To protect a child against being kidnapped by Al Ana, a mother had to tie a red ribbon around its hand ... put a red hat on its head and shield its face from the light of the moon. |
+| al-ana-c08 | exact | en.wikipedia.org | Those thought most at risk of becoming such demons after death were midwives, old maids, unmarried mothers, pregnant women who die before childbirth, and abandoned children born out of wedlock. | Most at risk of becoming one of these demons after death were thought to be midwives, old maids, unmarried mothers, pregnant women who die before childbirth, as well as abandoned children born out of wedlock. |
+| al-ana-c09 | exact | en.wikipedia.org | According to this article, the word Al (or Hal) means red color, fire or evil in Old Turkic, while Ana carries the meaning of mother. | means in old Turkic, red color, fire or evil. And Ana contains the meaning of mother. |
+| al-ana-c10 | exact | dergipark.org.tr | In this article, Albastı, which is also called Al, alkarısı and alanası among other names, is one of the extraordinary beings found in almost the whole Turkic world. | gibi adlarla anılan, hemen hemen bütün Türk dünyasında görülen olağanüstü varlıklardan biridir |
+| al-ana-c11 | exact | dergipark.org.tr | The article lists the names Al, alkarısı, alanası, alkızı, albasması, alarvadı, alacama, albıs and almış for the being called Albastı. | Albastı: “Al, alkarısı, alanası, alkızı, albasması, alarvadı, alacama, albıs, almış” gibi adlarla anılan |
+| al-ana-c12 | exact | dergipark.org.tr | Because Alkarısı fears the color red, the head of a woman in childbed is covered with a red kerchief and a red ribbon is attached to her collar. | Alkarısı kırmızı renkten korktuğundan lohusanın başına al tülbent örtülüp, yakasına kırmızı kurdela takılır. |
+| al-ana-c13 | exact | dergipark.org.tr | Albastı is believed to be most hostile to women in childbed and to babies, tearing out the liver (lungs) of the woman and throwing it into water or eating it. | Albastı’nın en çok lohusalara ve bebeklere düşman olduğuna, lohusanın ciğerini sökerek suya attığına veya yediğine |
 
 
 ## aranq — lulus-otomatis

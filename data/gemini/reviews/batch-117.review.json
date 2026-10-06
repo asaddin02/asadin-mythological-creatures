@@ -1,8 +1,9 @@
 {
   "batch_id": "batch-117",
-  "checked_at": "2026-10-03T01:30:41.081Z",
+  "checked_at": "2026-10-06T15:02:48.862Z",
   "files": [
-    "batch-117.md"
+    "batch-117.md",
+    "batch-117-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -91,7 +92,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bde3890a8e796980fd9551744868ea8422e38fa11afb244219d621d8e3f9648f"
     },
     {
       "slug": "gelert",
@@ -175,7 +177,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5aae9ae322c8e9c70867f5a145ac7c6b87a1e9fb2f8db663e2b5ce7678ad5ef3"
     },
     {
       "slug": "gogmagog",
@@ -268,7 +271,8 @@
           "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8793db966a6b93a45c0b98a1fe7432edaca169cc32b2e284191ae8bf3a6ee0a0"
     },
     {
       "slug": "knocker-folklore",
@@ -362,7 +366,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5dcea89eb52d6899769edfe190605fbb8932d1254c915166cd5eb261aa9cdf5d"
     },
     {
       "slug": "lambton-worm",
@@ -466,7 +471,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3bac9e9f322379f54ffd3ca53a78ed75b7ff64dfd5dbfbb4f7e045f12d5d257f"
     },
     {
       "slug": "les-lavandieres",
@@ -550,7 +556,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8b682adcede3cc5df503fb083bf1a69c2db3b5612dfce4981ef068abab2a7c25"
     },
     {
       "slug": "nechtan",
@@ -644,7 +651,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a24e9b80cd1bc0234c657edaf9564bddbcc4a6346831c017eb4c87212da82819"
     },
     {
       "slug": "shishiga",
@@ -728,7 +736,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "32bbe9d763b622b97560c05886090fa08ec33a8f799146705777bff62cf7b3c2"
     },
     {
       "slug": "ukobach",
@@ -802,7 +811,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7e1ae2ac6f4e4648e545e65f9f78b7dd090340242df860de283024edd0dfae4b"
     },
     {
       "slug": "bean-nighe",
@@ -876,7 +886,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ccf630a29e1ba8a6bec75f4cceb42e3ea60815bac88c8658ce590a4ed32509ba"
     },
     {
       "slug": "beast-of-dean",
@@ -950,7 +961,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4fd3174a656f56698b6ad84b09bd4043fdf50f54d3383e4e2a0047e3c6bd4664"
     },
     {
       "slug": "cwn-annwn",
@@ -1034,7 +1046,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "18bc9727d63f3894551b35561abfe0fb940c7ec8a8ed83f67983b1244278fefb"
     },
     {
       "slug": "donn-cuailnge",
@@ -1118,7 +1131,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "fbb05ef706282ba0970a760ae34e45854cd69089f6be671ec97635d4d6af5032"
     },
     {
       "slug": "glashtyn",
@@ -1192,7 +1206,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e2b46a2936bf75675cf7f666738f85156857d1e2a59027aa9883051847c4b8bf"
     },
     {
       "slug": "oillipheist",
@@ -1286,7 +1301,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "46d69a35db1b1a86a275370080beb4e14c5d63da6fff0494c2455a0f12f082f6"
     },
     {
       "slug": "sea-mither",
@@ -1380,24 +1396,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "82a936835c8157df118bb4314a14352ae699d54d1d17f84e909df284f5882556"
     },
     {
       "slug": "telo",
-      "file": "batch-117.md",
+      "file": "batch-117-fix-1.md",
+      "entry_sha256": "43254277ba01c959e5e067aae175843c55130452567187b4b7215e248c1be0be",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "telo-c01",
@@ -1447,6 +1459,76 @@
           "statement_id": "Pasangan (Parèdre) Stanna; zaman Kelt dan Galia (celte et gauloise).",
           "quote": "Période d'origine Antiquité celte et gauloise Parèdre Stanna",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "telo-c06",
+          "source_id": "telo-s3",
+          "host": "brewminate.com",
+          "statement": "According to the chapter, the inscription from Périgueux naming Telo and Stanna is of great interest because it mentions a temple dedicated to Telo and Stanna.",
+          "statement_id": "Menurut bab itu, prasasti dari Périgueux yang menyebut Telo dan Stanna penting karena menyebut adanya sebuah kuil yang dipersembahkan bagi Telo dan Stanna.",
+          "quote": "This inscription is of great interest, for it mentions the existence of a temple dedicated to Telo and Stanna.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "telo-c07",
+          "source_id": "telo-s3",
+          "host": "brewminate.com",
+          "statement": "According to the chapter, the god Telo is also known from another inscription discovered in Périgueux.",
+          "statement_id": "Menurut bab itu, dewa Telo juga dikenal dari prasasti lain yang ditemukan di Périgueux.",
+          "quote": "The god Telo is known from another inscription discovered in Périgueux.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "telo-c08",
+          "source_id": "telo-s3",
+          "host": "brewminate.com",
+          "statement": "According to the chapter, Telo's name survives today in the name of a village about 3 km from Périgueux, called Le Toulon, named after a nearby spring gushing from an abyss.",
+          "statement_id": "Menurut bab itu, nama Telo kini bertahan pada nama sebuah desa sekitar 3 km dari Périgueux bernama Le Toulon, yang diambil dari mata air di dekatnya yang memancar dari sebuah jurang.",
+          "quote": "Telo’s name nowadays survives in the name of a village situated 3 kms from Périgueux, called Le Toulon, which takes its name from a nearby spring gushing forth from an abyss.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "telo-c09",
+          "source_id": "telo-s3",
+          "host": "brewminate.com",
+          "statement": "According to the chapter, Telo must originally have been a deity presiding over water.",
+          "statement_id": "Menurut bab itu, Telo pada mulanya pasti dewa yang menguasai air.",
+          "quote": "Telo must have been originally a deity presiding over water.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "telo-c10",
+          "source_id": "telo-s3",
+          "host": "brewminate.com",
+          "statement": "The chapter cites Paul Aebischer that rivers and places named Toulon or Touron derive from the same root as the god's name.",
+          "statement_id": "Bab itu mengutip Paul Aebischer bahwa sungai dan tempat bernama Toulon atau Touron berasal dari akar yang sama dengan nama sang dewa.",
+          "quote": "According to Paul Aebischer, rivers and places named Toulon or Touron are derived from the same root as the name of the god.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "telo-c11",
+          "source_id": "telo-s3",
+          "host": "brewminate.com",
+          "statement": "According to the chapter, the archaeological context and the possible functions of Telo and Stanna in Périgueux remain undeterminable.",
+          "statement_id": "Menurut bab itu, konteks arkeologis dan kemungkinan fungsi Telo dan Stanna di Périgueux tidak dapat ditentukan.",
+          "quote": "The archaeological context and the possible functions of Telo and Stanna in Périgueux remain thus undeterminable.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "telo-c12",
+          "source_id": "telo-s3",
+          "host": "brewminate.com",
+          "statement": "The chapter is by Dr. Noémie Beck, Professor of Irish Studies at Concordia University.",
+          "statement_id": "Bab ini ditulis oleh Dr. Noémie Beck, Professor of Irish Studies di Concordia University.",
+          "quote": "By Dr. Noémie Beck / 12.04.2009 Professor of Irish Studies Concordia University",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -1532,7 +1614,8 @@
           "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "66e287ddcdead0a4cc9a2d3e7725a728f01a91139075c1a23b69a65a8f7c3b45"
     },
     {
       "slug": "cath-palug",
@@ -1616,7 +1699,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2285c55183ada12cfd2aa57ab79b4a13aaa2b8d5364b63201aeadfcf5365e043"
     },
     {
       "slug": "ceffyl-dwr",
@@ -1690,7 +1774,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "198ecc58505913cb22b04b5eb27799cc3c2702e2775100f56de6b3b186912c84"
     },
     {
       "slug": "fuath",
@@ -1784,7 +1869,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7bc314ae84afe6d6d92307ad38801aa90e86070c7e49b434bccc7e56d7978887"
     },
     {
       "slug": "henwen",
@@ -1888,7 +1974,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7066675383d13bc23b5030decea609a5fde8d2e7dda4db4702f501fcd43b641f"
     },
     {
       "slug": "latis",
@@ -1982,7 +2069,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9c57639ee66f97e8192178f5e232fb805af03fbd33cad2527bd79fb7d5076a60"
     },
     {
       "slug": "peg-powler",
@@ -2056,7 +2144,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0f6a091a8b3b155e2a4b6f7a421786b430261f71a40b84055389e807913db9ef"
     },
     {
       "slug": "souconna",
@@ -2140,7 +2229,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9064e1851fa74b255f0f3719497539d92fae9a08119b5d058c645223696c4f03"
     },
     {
       "slug": "water-bull",
@@ -2214,7 +2304,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9f74511462acfea1d4e4b28b3130a01b832199cc24e4bc498d15a839ba049576"
     },
     {
       "slug": "abcan",
@@ -2288,7 +2379,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c0db3b2e409ada09bb4fb9065bf948aa12c512bc7b7a4763e29c18e5485a4793"
     },
     {
       "slug": "adar-llwch-gwin",
@@ -2382,7 +2474,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "658ddb51ba215d38e0f32a6e015ef8f05f2dbcea1c1a5e6c9171a97e2551d1c9"
     },
     {
       "slug": "beithir",
@@ -2466,7 +2559,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8b1267e86652bed86279463630252a6e8d2d1da34efce08545dcf5b5af32763c"
     },
     {
       "slug": "birog",
@@ -2550,7 +2644,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "efedbca1841e198c9d87e24b5b379dcef799f9a7b840e51a3e07dd2c549eed1d"
     },
     {
       "slug": "cormoran",
@@ -2660,7 +2755,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "642f8d0a3433dd3ee3d7b2ba8d67807ba97cc63e7da1bc34affcfd25318a016f"
     },
     {
       "slug": "dahut",
@@ -2754,7 +2850,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0535a6eda57186774358b3dc9e104133f18573d5001a2a66ff79c438853e604e"
     },
     {
       "slug": "gancanagh",
@@ -2858,7 +2955,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "976cbe3dab701c56cc4dc5e9a9e3fa80a6aa8792d302314deed34102d7b44e3b"
     },
     {
       "slug": "jan-gant-i-tan",
@@ -2932,7 +3030,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d850519a7c4cb85a0c0e3f4b16bf7618db4074518175433326f521b8bfacec9b"
     },
     {
       "slug": "llamhigyn-y-dwr",
@@ -3006,7 +3105,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "490e6809c63866efc09aeb0e6db165ec9b3f88a58b1941fe41207b42a6408ef5"
     },
     {
       "slug": "melion",
@@ -3090,7 +3190,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "772fb83ca26f7253ae3027db927ccc9a66bd73a9eb537c965682a4365b1cbef5"
     },
     {
       "slug": "sluagh",
@@ -3164,7 +3265,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c21bb9ef408de8534e872bb39f8b8c0eaee2487134263938959bfb87ddeceafc"
     },
     {
       "slug": "sooterkin",
@@ -3248,7 +3350,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9d96eba6dd4fd2801124c52cb5f8f89b1d6f2e0aa399a7a1e611b7ddf8572eea"
     },
     {
       "slug": "tangie",
@@ -3322,24 +3425,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "139dd2add72e6830d4843bbfe46e9b6dbc00d2c8856f44ac8e102432ae4039fe"
     },
     {
       "slug": "adsullata",
-      "file": "batch-117.md",
+      "file": "batch-117-fix-1.md",
+      "entry_sha256": "8c1f6da1cb9ffdc169e726b221713a17e8021684f4f3179fc51f471f1ec826d0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 3,
+        "claims": 8,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "adsullata-c01",
@@ -3388,6 +3487,36 @@
           "statement": "Per the tr article, known from one inscription at Saudörfel, Austria (Avusturya).",
           "statement_id": "Menurut artikel tr, dikenal dari satu prasasti di Saudörfel, Austria (Avusturya).",
           "quote": "Avusturya, Saudörfel'de bulunan tek bir yazıttan bilinenlere dayalı bir ilahtır.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "adsullata-c06",
+          "source_id": "adsullata-s4",
+          "host": "en.wikisource.org",
+          "statement": "An article in The Celtic Review says that in Noricum the worship of Adsalluta was closely associated with that of Savus, the river Save.",
+          "statement_id": "Sebuah artikel dalam The Celtic Review menyebut bahwa di Noricum pemujaan Adsalluta berkaitan erat dengan pemujaan Savus, sungai Save.",
+          "quote": "In Noricum we find the worship of Adsalluta closely associated with that of Savus, the river Save.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "adsullata-c07",
+          "source_id": "adsullata-s4",
+          "host": "en.wikisource.org",
+          "statement": "The article says that at Saudörfel her name occurs on five inscriptions, two of which associate it with Savus.",
+          "statement_id": "Artikel itu menyebut bahwa di Saudörfel namanya muncul pada lima prasasti, dua di antaranya dikaitkan dengan Savus.",
+          "quote": "At Saudörfel her name occurs on five inscriptions, on two of which it is associated with that of Savus.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "adsullata-c08",
+          "source_id": "adsullata-s4",
+          "host": "en.wikisource.org",
+          "statement": "The article adds that at Hrastnigg her name also occurs on an inscription reading Adsal(l)ute Aug(uste).",
+          "statement_id": "Artikel itu menambahkan bahwa di Hrastnigg namanya juga muncul pada sebuah prasasti yang berbunyi Adsal(l)ute Aug(uste).",
+          "quote": "At Hrastnigg, too, her name occurs on an inscription which reads Adsal(l)ute Aug(uste).",
           "context": "historical-record",
           "status": "exact"
         }
@@ -3466,24 +3595,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "28a1e57ec23570967a531de022996d3340aa044ee4cd94dde74aeeb224604e68"
     },
     {
       "slug": "bauchan",
-      "file": "batch-117.md",
+      "file": "batch-117-fix-1.md",
+      "entry_sha256": "3768e96722d031d8e4a37bce1fa51be4b3f253b35cc4b35f9d96c2fb103b29a6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 19,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bauchan-c01",
@@ -3533,6 +3658,146 @@
           "statement_id": "Bauchan suka berkelahi tetapi membantu pekerjaan pertanian.",
           "quote": "While the bauchan was belligerent and combative, he often provided assistance in various farm-related tasks.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bauchan-c06",
+          "source_id": "bauchan-s3",
+          "host": "archive.org",
+          "statement": "The compiler's note in the collection says that the supernatural being called Bauchan is probably Bocan, a little buck, a hobgoblin, a ghost.",
+          "statement_id": "Catatan penyusun kumpulan itu menyatakan bahwa makhluk gaib yang disebut Bauchan itu mungkin Bocan, yakni seekor jantan kecil, hantu rumah (hobgoblin), atau hantu.",
+          "quote": "as Bauchan, is probably Bocan, a little buck, a hobgoblin, a ghost",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bauchan-c07",
+          "source_id": "bauchan-s3",
+          "host": "archive.org",
+          "statement": "According to the compiler's note, in the next tale the same being appears fully tamed: still supernatural and possessed of extraordinary strength, but attached to a family, and a regular brownie.",
+          "statement_id": "Menurut catatan penyusun kumpulan itu, dalam kisah berikutnya makhluk itu tampil sepenuhnya jinak: tetap gaib dan berkekuatan luar biasa, tetapi melekat pada sebuah keluarga, dan seorang brownie yang sesungguhnya.",
+          "quote": "the same being appears fully tamed ; still supernatural, still possessed of extraordinary strength, but attached to a family, and a regular brownie.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bauchan-c08",
+          "source_id": "bauchan-s3",
+          "host": "archive.org",
+          "statement": "In the tale recorded in the collection, a farmer near Loch Traig in Lochaber held a small farm and there were rumours that he had dealings with a mysterious personage called a bauchan, with no authentic account of how they first met.",
+          "statement_id": "Dalam kisah yang dicatat dalam kumpulan itu, di sekitar Loch Traig di Lochaber seorang petani memiliki pertanian kecil dan beredar desas-desus bahwa ia bergaul dengan sosok misterius bernama bauchan, tanpa catatan otentik tentang perkenalan pertama mereka.",
+          "quote": "In the neighbourhood of Loch Traig, in Lochaber, ... held a little farm. There were rumours of his having intercourse with a mysterious personage called a bauchan, but of his first acquaintance with him there are no authentic accounts.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bauchan-c09",
+          "source_id": "bauchan-s3",
+          "host": "archive.org",
+          "statement": "According to the tale, on some occasions the farmer was supernaturally aided by the bauchan, while at others, having somehow roused its displeasure, he was opposed.",
+          "statement_id": "Menurut kisah itu, pada beberapa kesempatan sang petani dibantu secara gaib oleh bauchan itu, sedangkan pada kesempatan lain, karena entah bagaimana membangkitkan kemarahannya, ia dihalangi.",
+          "quote": "that on some occasions he was supernaturally aided by this bauchan, while at others, having in some way excited his displeasure",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bauchan-c10",
+          "source_id": "bauchan-s3",
+          "host": "archive.org",
+          "statement": "In the tale, on several occasions the two came to fighting hand to hand.",
+          "statement_id": "Dalam kisah itu, beberapa kali mereka sampai berkelahi tangan kosong.",
+          "quote": "on several occasions they came the length of fighting hand to hand",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bauchan-c11",
+          "source_id": "bauchan-s3",
+          "host": "archive.org",
+          "statement": "In the tale, when the farmer wished for the tree he had felled, the house shook and the door rattled, and there was the wished-for tree with the Bauchan grinning at him.",
+          "statement_id": "Dalam kisah itu, ketika sang petani menyatakan keinginannya akan pohon yang ia tebang, rumah berguncang dan pintu bergetar, dan di sana tergeletak pohon yang diinginkan, dengan Bauchan menyeringai kepadanya.",
+          "quote": "Hardly had he spoken when the house was shaken and the door rattled ... and there was the wished-for tree, with the Bauchan grinning at him",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bauchan-c12",
+          "source_id": "bauchan-s3",
+          "host": "archive.org",
+          "statement": "In the tale, Callum found his forgotten hogshead, hides and all, transported five miles across very rugged, rocky country.",
+          "statement_id": "Dalam kisah itu, Callum menemukan tong besarnya yang tertinggal, lengkap dengan kulit di dalamnya, telah dipindahkan sejauh lima mil melalui daerah berbatu yang sangat terjal.",
+          "quote": "what did Callum see but his own identical hogshead, hides and all. It had been transported the distance of five miles of most rugged, rocky district.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bauchan-c13",
+          "source_id": "bauchan-s3",
+          "host": "archive.org",
+          "statement": "In the tale, when the farmer stepped ashore in New York, who should meet him but the Bauchan in the shape of a goat.",
+          "statement_id": "Dalam kisah itu, ketika sang petani menjejak daratan di New York, yang menemuinya adalah Bauchan dalam wujud kambing.",
+          "quote": "who should meet him in the shape of a goat but the Bauchan",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bauchan-c14",
+          "source_id": "bauchan-s3",
+          "host": "archive.org",
+          "statement": "The tale closes with rumour that Callum benefited from the Bauchan's help in clearing the lands of his new settlement.",
+          "statement_id": "Kisah itu menutup dengan kabar bahwa Callum diuntungkan oleh bantuan Bauchan dalam membuka tanah permukiman barunya.",
+          "quote": "rumour says that Callum was the better of the Bauchan's help in clearing the lands of his new settlement",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bauchan-c15",
+          "source_id": "bauchan-s3",
+          "host": "archive.org",
+          "statement": "In another tale in the collection, Coluinn gun Cheann (\"the Headless Trunk\") is a very celebrated Bauchkan who favoured the family of the Macdonals of Morar from time immemorial.",
+          "statement_id": "Dalam kisah lain dalam kumpulan itu, Coluinn gun Cheann (\"Batang Tanpa Kepala\") adalah Bauchkan yang sangat termasyhur, yang sejak zaman purba berpihak pada keluarga Macdonal dari Morar.",
+          "quote": "Coluinn gun Cheann was a very celebrated Bauchkan, who favoured the family of the Macdonals of Morar, for ages immemorial",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bauchan-c16",
+          "source_id": "bauchan-s3",
+          "host": "archive.org",
+          "statement": "According to the tale, Coluinn gun Cheann waged war especially with all the strong men he could meet with.",
+          "statement_id": "Menurut kisah itu, Coluinn gun Cheann berperang terutama melawan orang-orang kuat yang ia temui.",
+          "quote": "and waged war, especially with all the strong men he could meet with",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bauchan-c17",
+          "source_id": "bauchan-s3",
+          "host": "archive.org",
+          "statement": "According to the tale, he was seldom, if ever, seen by women and did no harm either to them or to children.",
+          "statement_id": "Menurut kisah itu, ia jarang atau tidak pernah terlihat oleh perempuan dan tidak mencelakai mereka maupun anak-anak.",
+          "quote": "He was seldom, if ever, seen by women, and did no harm either to them or to children.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bauchan-c18",
+          "source_id": "bauchan-s3",
+          "host": "archive.org",
+          "statement": "According to the tale, before sunrise the Coluinn had to be off, as he never could be seen in daylight.",
+          "statement_id": "Menurut kisah itu, sebelum matahari terbit Coluinn harus pergi karena ia tidak pernah dapat terlihat di siang hari.",
+          "quote": "Before sunrise it was necessary for the Coluinn to be off, as he never could be seen in daylight.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bauchan-c19",
+          "source_id": "bauchan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The character \"Buckeye\" is a bauchan in the fantasy novel The Haunted Wizard (1999) by Christopher Stasheff.",
+          "statement_id": "Tokoh \"Buckeye\" adalah seorang bauchan dalam novel fantasi The Haunted Wizard (1999) karya Christopher Stasheff.",
+          "quote": "The character \"Buckeye\" is a bauchan in the fantasy novel The Haunted Wizard (1999) by Christopher Stasheff.",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
@@ -3620,7 +3885,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7a722c34fa516fcd195e790418c0e64a306aadcee994aed8e0c5c23b6a3e77c1"
     },
     {
       "slug": "bleiddwn",
@@ -3694,7 +3960,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e195fa56711b435f0c642d75ddf538c5689d89f55c04eb68135dcc679022f625"
     },
     {
       "slug": "bloody-bones",
@@ -3788,7 +4055,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "34fdc8788351ceaa0a2ae1e7e836cc4f41938a7455e32daf490cd201b4e43d12"
     },
     {
       "slug": "bluecap",
@@ -3862,7 +4130,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5748604f8a1b36df45c2d9f66072eeed09a205520c5126b2066cde5eb8b9ac35"
     },
     {
       "slug": "buarainech",
@@ -3936,7 +4205,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a3528c158df8499d931c2b50d13034b77acba0bec229d0f10a9ff6b1a204fc6a"
     },
     {
       "slug": "cavall",
@@ -4030,7 +4300,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ed2bed0579ba4b96e3edf9debb62bf4a5e47187b09ccc8a7de7ea9fcf1d862f0"
     },
     {
       "slug": "ceasg",
@@ -4104,7 +4375,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "83845900ac6b6e0574fa410bfb0aea85fb4a47d1d42857913c3e38b67ef0a91f"
     }
   ]
 }

@@ -1,28 +1,25 @@
 {
   "batch_id": "batch-040",
-  "checked_at": "2026-09-30T02:35:00.461Z",
+  "checked_at": "2026-10-06T14:16:21.635Z",
   "files": [
     "batch-040.md",
-    "batch-040-fix-1.md"
+    "batch-040-fix-1.md",
+    "batch-040-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "agni",
-      "file": "batch-040-fix-1.md",
+      "file": "batch-040-fix-2.md",
+      "entry_sha256": "9b26ebf15b7c1f9fea2ee6b964ae973c72b98309301b33d014acc1677a7de7c9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 14,
-        "sources": 3,
+        "claims": 33,
+        "sources": 4,
         "images": 0
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 14 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "claims",
@@ -134,8 +131,8 @@
           "id": "agni-c11",
           "source_id": "agni-s2",
           "host": "www.metmuseum.org",
-          "statement": "The museum places Agni among deities praised in the Vedic hymns.",
-          "statement_id": "Museum menempatkan Agni di antara dewa yang dipuji himne Weda.",
+          "statement": "A museum essay names Agni as the god of fire and says the religion known today as Hinduism has its roots in these ancient texts.",
+          "statement_id": "Sebuah esai museum menyebut Agni sebagai dewa api dan menyatakan bahwa agama yang kini dikenal sebagai Hinduisme berakar pada teks-teks kuno.",
           "quote": "and Agni, the god of fire. The religion known today as Hinduism has its roots in these ancient texts.",
           "context": "scholarly-interpretation",
           "status": "unreachable",
@@ -144,38 +141,222 @@
         {
           "id": "agni-c12",
           "source_id": "agni-s3",
-          "host": "sacred-texts.com",
+          "host": "en.wikisource.org",
           "statement": "The first Rig Veda hymn praises Agni as priest and minister of sacrifice.",
           "statement_id": "Himne pertama Rig Weda memuji Agni sebagai imam dan pelayan kurban.",
-          "quote": "1 I Laud Agni, the chosen Priest, God, minister of sacrifice,",
+          "quote": "THE HYMNS OF THE RIGVEDA. BOOK THE FIRST. HYMN I. Agni. I laud Agni, the chosen Priest, God, minister of sacrifice,",
           "context": "religious-tradition",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250326044150id_/https://sacred-texts.com/hin/rigveda/rv01001.htm",
-          "detail": "HTTP 403; dicek lewat arsip Wayback"
+          "status": "exact"
         },
         {
           "id": "agni-c13",
           "source_id": "agni-s3",
-          "host": "sacred-texts.com",
+          "host": "en.wikisource.org",
           "statement": "The hymn calls Agni worthy of praise by living people and ancient seers.",
           "statement_id": "Himne itu menyebut Agni layak dipuji oleh orang hidup dan para resi terdahulu.",
-          "quote": "2 Worthy is Agni to be praised by living as by ancient seers.",
+          "quote": "Worthy is Agni to be praised by living as by ancient seers",
           "context": "religious-tradition",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250326044150id_/https://sacred-texts.com/hin/rigveda/rv01001.htm",
-          "detail": "HTTP 403; dicek lewat arsip Wayback"
+          "status": "exact"
         },
         {
           "id": "agni-c14",
           "source_id": "agni-s3",
-          "host": "sacred-texts.com",
+          "host": "en.wikisource.org",
           "statement": "The hymn calls Agni ruler of sacrifices and guardian of eternal law.",
           "statement_id": "Himne itu menyebut Agni penguasa kurban dan penjaga hukum abadi.",
-          "quote": "8 Ruler of sacrifices, guard of Law eternal, radiant One,",
+          "quote": "Ruler of sacrifices, guard of Law eternal, radiant One,",
           "context": "religious-tradition",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250326044150id_/https://sacred-texts.com/hin/rigveda/rv01001.htm",
-          "detail": "HTTP 403; dicek lewat arsip Wayback"
+          "status": "exact"
+        },
+        {
+          "id": "agni-c15",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In some myths Karttikeya (Skanda), the Hindu god of war, is Agni's son, the result of Agni's conquest of the Pleiades, the wives of the Seven Sages.",
+          "statement_id": "Dalam sebagian mitos, Karttikeya (Skanda), dewa perang Hindu, adalah putra Agni, hasil penaklukan Agni atas Pleiades, para istri Tujuh Resi.",
+          "quote": "In some myths, Karttikeya (Skanda), the Hindu god of war, is Agni's son and the result of Agni's conquest of the Pleiades, the wives of the Seven Sages.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c16",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Agni is the son of the Celestial Waters, an element closely connected with fire, which is thought to be carried down to earth within rain.",
+          "statement_id": "Agni adalah putra Air Surgawi, unsur yang berkaitan erat dengan api yang dianggap dibawa turun ke bumi dalam hujan.",
+          "quote": "Agni is the son of the Celestial Waters, and that element is closely connected with fire which is thought to be carried down to earth within rain.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c17",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Agni is also responsible for lightning, which is born from the god's union with the cloud goddess.",
+          "statement_id": "Agni juga bertanggung jawab atas petir, yang lahir dari persatuan sang dewa dengan dewi awan.",
+          "quote": "Agni is also responsible for lightning which is born from the god's union with the cloud goddess.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c18",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Agni is also associated with the funeral pyre; in this role he leads the dead to their final judgement by Yama, ruler of the Underworld.",
+          "statement_id": "Agni juga dikaitkan dengan api pembakaran jenazah; dalam peran ini ia menuntun orang mati ke penghakiman akhir oleh Yama, penguasa Dunia Bawah.",
+          "quote": "Another fire Agni is associated with is the funeral pyre; in this role, he leads the dead to their final judgement by Yama, ruler of the Underworld.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c19",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to various myths, Agni was at first afraid to take on this duty because his three brothers had already been killed performing it; he hid in the subterranean waters, but fish revealed his hiding place to the gods, so Agni cursed them to become the easy prey of men.",
+          "statement_id": "Menurut berbagai mitos, Agni mula-mula takut mengemban tugas itu karena tiga saudaranya sudah terbunuh saat menjalankannya; ia bersembunyi di perairan bawah tanah, tetapi ikan membocorkan tempatnya kepada para dewa, sehingga Agni mengutuk ikan menjadi mangsa mudah manusia.",
+          "quote": "According to various myths, Agni was at first afraid to take on this duty as his three brothers had been killed already whilst performing the task. Consequently, Agni hid in the subterranean waters but, unfortunately, fish revealed his hiding place to the gods. As a result, Agni cursed them so that fish would become the easy prey of men.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c20",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In this version Agni's final hiding place was inside a sami tree, which is therefore considered the sacred abode of fire in Hindu rituals, and its sticks are used to make fires.",
+          "statement_id": "Dalam versi ini, tempat persembunyian terakhir Agni adalah di dalam pohon sami, sehingga pohon itu dianggap tempat suci api dalam ritual Hindu dan rantingnya dipakai untuk membuat api.",
+          "quote": "The final hiding place of Agni in this version was inside a sami tree and so it is considered the sacred abode of fire in Hindu rituals and its sticks are used to make fires.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c21",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Agni negotiated compensation in the form of a share of the sacrifice he carried to the gods, and he was given the boon of ever-lasting life.",
+          "statement_id": "Agni menegosiasikan kompensasi berupa bagian tetap dari kurban yang ia bawa kepada para dewa, dan ia dianugerahi hidup abadi.",
+          "quote": "Agni did negotiate by way of compensation to always receive a share of the sacrifice he carried to the gods and he was given the boon of ever-lasting life.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c22",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the Brhaddevata we are told that at one point Agni is dismembered and distributed among earthly things.",
+          "statement_id": "Dalam Brhaddevata diceritakan bahwa pada suatu ketika Agni dipotong-potong dan dibagikan kepada benda-benda duniawi.",
+          "quote": "In the Brhaddevata we are told that at one point Agni is dismembered and distributed among earthly things.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c23",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Over time Agni's importance as a god diminishes, which the Mahabharata explains as due to his overindulgence in consuming one too many offerings.",
+          "statement_id": "Seiring waktu pentingnya Agni sebagai dewa berkurang, yang dalam Mahabharata dijelaskan sebagai akibat kelewat banyak menyantap persembahan.",
+          "quote": "Over time Agni's importance as a god diminishes, a fact explained in the Mahabharata as due to his overindulgence in consuming one too many offerings.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c24",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In a Rigveda hymn Agni has two wickedly sharp iron tusks and devours his victims without mercy, but when called upon by the gods he destroys the raksasa with his flaming spears.",
+          "statement_id": "Dalam sebuah himne Rigweda, Agni memiliki dua taring besi yang sangat tajam dan melahap korbannya tanpa belas kasihan, tetapi ketika dipanggil para dewa ia membinasakan para raksasa dengan tombak apinya.",
+          "quote": "Agni, according to one Rigveda hymn attributed to the sage Vasistha, also has a darker side. Similar in nature to the 'flesh-eater' demons, the raksasa, he has two wickedly sharp iron tusks and he devours his victims without mercy. However, when called upon by the gods, Agni destroys the raksasa with his flaming spears.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c25",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In sacred texts such as the Mahabharata Agni is also called the \"Oblation-devourer\" and the \"Purifier\".",
+          "statement_id": "Dalam kitab suci seperti Mahabharata, Agni juga disebut \"Pelahap Persembahan\" dan \"Pemurni\".",
+          "quote": "He is also referred to in sacred texts such as the Mahabharata as the 'Oblation-devourer' and the 'Purifier'.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c26",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Hindu art Agni typically carries a fan used to build up fires, a sacrificial ladle, an axe, and a flaming torch or javelin.",
+          "statement_id": "Dalam seni Hindu Agni biasanya membawa kipas untuk membesarkan api, sendok kurban, kapak, serta obor menyala atau lembing.",
+          "quote": "Typically he carries a fan (which he uses to build up fires), a sacrificial ladle, an axe, and a flaming torch or javelin.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c27",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the Visnu Purana Agni is described as the eldest son of Brahma, and Svaha is his wife.",
+          "statement_id": "Dalam Visnu Purana, Agni digambarkan sebagai putra sulung Brahma, dan Svaha adalah istrinya.",
+          "quote": "In the Visnu Purana he is described as the eldest son of Brahma and Svaha is his wife.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c28",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In later Hindu art Agni is also represented as one of the Dikpalas, the eight guardians of the directions of space.",
+          "statement_id": "Dalam seni Hindu yang lebih kemudian, Agni juga digambarkan sebagai salah satu Dikpala, delapan penjaga arah ruang.",
+          "quote": "In later Hindu art, Agni is also represented as one of the Dikpalas who were the eight guardians of the directions of space.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c29",
+          "source_id": "agni-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Agni is still considered today to be omnipresent though not directly worshipped.",
+          "statement_id": "Hingga kini Agni masih dianggap hadir di mana-mana, meski tidak dipuja secara langsung.",
+          "quote": "He is still considered today omnipresent though not directly worshipped.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c30",
+          "source_id": "agni-s4",
+          "host": "en.wikisource.org",
+          "statement": "A hymn calls Agni the messenger and herald, master of all wealth, well skilled in sacrifice.",
+          "statement_id": "Sebuah himne menyebut Agni sebagai utusan dan pewarta, tuan segala kekayaan, yang terampil dalam kurban.",
+          "quote": "WE choose Agni the messenger, the herald, master of all wealth, Well skilled in this our sacrifice.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c31",
+          "source_id": "agni-s4",
+          "host": "en.wikisource.org",
+          "statement": "Agni is asked to bring the Gods to the sacrifice and is called the herald, meet for praise.",
+          "statement_id": "Agni diminta membawa para dewa ke tempat kurban dan disebut pewarta yang layak dipuji.",
+          "quote": "Bring the Gods hither, Agni, born for him who strews the sacred grass: Thou art our herald, meet for praise.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c32",
+          "source_id": "agni-s4",
+          "host": "en.wikisource.org",
+          "statement": "Agni is invoked as Lord of the House and Oblation-bearer, much beloved.",
+          "statement_id": "Agni diseru sebagai Penguasa Rumah dan Pembawa Persembahan yang sangat dicintai.",
+          "quote": "With callings ever they invoke Agni, Agni, Lord of the House, Oblation-bearer, much beloved.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "agni-c33",
+          "source_id": "agni-s4",
+          "host": "en.wikisource.org",
+          "statement": "Agni is asked to burn up the enemies whom fiends protect.",
+          "statement_id": "Agni diminta membakar habis musuh-musuh para pemuja yang dilindungi oleh para iblis.",
+          "quote": "O Agni, radiant One, to whom the holy oil is poured, burn up Our enemies whom fiends protect.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
@@ -355,23 +536,20 @@
           "detail": "HTTP 429"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3c7b870634c1acd5bd55ed294bee77295b58013a4f9031323c415797623a3ea7"
     },
     {
       "slug": "helios",
-      "file": "batch-040-fix-1.md",
+      "file": "batch-040-fix-2.md",
+      "entry_sha256": "b3c08fd200b4d59d2bcd282e386b209429e0cf22d1858109d67b05d4f6aacc6f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 14,
+        "claims": 39,
         "sources": 3,
         "images": 0
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 14 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "claims",
@@ -520,25 +698,271 @@
           "context": "religious-tradition",
           "status": "unreachable",
           "detail": "HTTP 429"
+        },
+        {
+          "id": "helios-c15",
+          "source_id": "helios-s2",
+          "host": "www.theoi.com",
+          "statement": "Helios dwelt in a golden palace in the River Okeanos (Oceanus) at the far ends of the earth, from which he emerged each dawn.",
+          "statement_id": "Helios tinggal di istana emas di Sungai Okeanos di ujung bumi, tempat ia muncul setiap fajar.",
+          "quote": "He dwelt in a golden palace in the River Okeanos (Oceanus) at the far ends of the earth from which he emerged each dawn",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c16",
+          "source_id": "helios-s2",
+          "host": "www.theoi.com",
+          "statement": "On reaching the land of the Hesperides in the far West, Helios descended into a golden cup that bore him through the northern streams of Okeanos back to his rising place in the East.",
+          "statement_id": "Sesampainya di negeri Hesperides di barat jauh, Helios turun ke dalam cawan emas yang membawanya melalui aliran utara Okeanos kembali ke tempat terbitnya di timur.",
+          "quote": "When he reached the the land of the Hesperides in the far West he descended into a golden cup which bore him through the northern streams of Okeanos back to his rising place in the East.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c17",
+          "source_id": "helios-s2",
+          "host": "www.theoi.com",
+          "statement": "His son Phaethon once tried to drive the chariot of the sun but lost control and set the earth ablaze; Zeus struck the boy down with a thunderbolt.",
+          "statement_id": "Putranya, Phaethon, pernah mencoba mengendarai kereta matahari, tetapi kehilangan kendali dan membakar bumi; Zeus menjatuhkan anak itu dengan petir.",
+          "quote": "Once his son Phaethon tried to drive the chariot of the sun, but he lost control and set the earth ablaze. Zeus struck the boy down with a thunderbolt.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c18",
+          "source_id": "helios-s2",
+          "host": "www.theoi.com",
+          "statement": "Helios was depicted as a handsome, usually beardless man in purple robes, crowned with the shining aureole of the sun.",
+          "statement_id": "Helios digambarkan sebagai pria tampan, biasanya tak berjanggut, berjubah ungu dan bermahkota lingkar cahaya matahari.",
+          "quote": "Helios was depicted as a handsome, usually beardless, man clothed in purple robes and crowned with the shining aureole of the sun.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c19",
+          "source_id": "helios-s2",
+          "host": "www.theoi.com",
+          "statement": "Helios was identified with several other gods of fire and light such as Hephaistos (Hephaestus) and Phoibos Apollon (Phoebus Apollo).",
+          "statement_id": "Helios diidentifikasi dengan beberapa dewa api dan cahaya lain seperti Hephaistos dan Phoibos Apollon.",
+          "quote": "Helios was identified with several other gods of fire and light such as Hephaistos (Hephaestus) and light-bringing Phoibos Apollon (Phoebus Apollo).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c20",
+          "source_id": "helios-s2",
+          "host": "www.theoi.com",
+          "statement": "Even in the Homeric poems Helios is described as the god who sees and hears everything, yet he is unaware that the companions of Odysseus robbed his oxen until informed by Lampetia.",
+          "statement_id": "Bahkan dalam puisi Homerik Helios digambarkan sebagai dewa yang melihat dan mendengar segalanya, tetapi ia tidak tahu bahwa kawan-kawan Odysseus mencuri sapinya sampai diberi tahu oleh Lampetia.",
+          "quote": "Helios is described even in the Homeric poems as the god who sees and hears every thing, but, notwithstanding this, he is unaware of the fact that the companions of Odysseus robbed his oxen, until he was informed of it by Lampetia.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c21",
+          "source_id": "helios-s2",
+          "host": "www.theoi.com",
+          "statement": "Owing to his omniscience, Helios was able to betray to Hephaestus the faithlessness of Aphrodite and to reveal to Demeter the carrying off of her daughter.",
+          "statement_id": "Karena kemahatahuannya, Helios dapat membongkar kepada Hephaestus ketidaksetiaan Aphrodite dan memberi tahu Demeter tentang penculikan putrinya.",
+          "quote": "But, owing to his omniscience, he was able to betray to Hephaestus the faithlessness of Aphrodite, and to reveal to Demeter the carrying off of her daughter.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c22",
+          "source_id": "helios-s2",
+          "host": "www.theoi.com",
+          "statement": "The island of Thrinacia (Sicily) was sacred to Helios, where he had flocks of oxen and sheep of 350 head each that never increased or decreased, tended by his daughters Phaetusa and Lampetia.",
+          "statement_id": "Pulau Thrinacia (Sisilia) keramat bagi Helios; di sana ia memiliki kawanan sapi dan domba masing-masing 350 ekor yang tidak pernah bertambah atau berkurang, dirawat putri-putrinya Phaetusa dan Lampetia.",
+          "quote": "The island of Thrinacia (Sicily) was sacred to Helios, and he there had flocks of oxen and sheep, each consisting of 350 heads, which never increased or decreased, and were attended to by his daughters Phaetusa and Lampetia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c23",
+          "source_id": "helios-s2",
+          "host": "www.theoi.com",
+          "statement": "The sacrifices offered to Helios consisted of white rams, boars, bulls, goats, lambs, especially white horses, and honey.",
+          "statement_id": "Persembahan kepada Helios berupa domba jantan putih, babi hutan, banteng, kambing, anak domba, terutama kuda putih, dan madu.",
+          "quote": "The sacrifices offered to Helios consisted of white rams, boars, bulls, goats, lambs, especially white horses, and honey.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c24",
+          "source_id": "helios-s2",
+          "host": "www.theoi.com",
+          "statement": "Among the animals sacred to him, the cock is especially mentioned.",
+          "statement_id": "Di antara hewan yang keramat baginya, ayam jantan disebut secara khusus.",
+          "quote": "Among the animals sacred to him, the cock is especially mentioned.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c25",
+          "source_id": "helios-s2",
+          "host": "www.theoi.com",
+          "statement": "Later poets make him sail in a golden boat round one-half of the earth to arrive at the point in the east from which he must rise again; this golden boat is the work of Hephaestus.",
+          "statement_id": "Penyair kemudian membuatnya berlayar dengan perahu emas mengelilingi separuh bumi hingga tiba di titik timur tempat ia terbit lagi; perahu emas itu buatan Hephaestus.",
+          "quote": "later poets make him sail in a golden boat round one-half of the earth, and thus arrive in the east at the point from which he has to rise again. This golden boat is the work of Hephaestus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c26",
+          "source_id": "helios-s2",
+          "host": "www.theoi.com",
+          "statement": "In Homeric Hymn 31, Helios's parents are Hyperion and Euryphaessa.",
+          "statement_id": "Menurut Homeric Hymn 31, orang tua Helios adalah Hyperion dan Euryphaessa.",
+          "quote": "[1.2] HYPERION & EURYPHAESSA (Homeric Hymn 31)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c27",
+          "source_id": "helios-s2",
+          "host": "www.theoi.com",
+          "statement": "In Hyginus (Preface), Helios's parents are Hyperion and Aethra.",
+          "statement_id": "Menurut Hyginus (Pref), orang tua Helios adalah Hyperion dan Aethra.",
+          "quote": "[1.3] HYPERION & AETHRA (Hyginus Pref)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c28",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Helios was famously the subject of the Colossus of Rhodes, the giant bronze statue considered one of the Seven Wonders of the Ancient World.",
+          "statement_id": "Helios terkenal sebagai subjek Colossus of Rhodes, patung perunggu raksasa yang dianggap salah satu Tujuh Keajaiban Dunia Kuno.",
+          "quote": "Helios was famously the subject of the Colossus of Rhodes, the giant bronze statue considered one of the Seven Wonders of the Ancient World.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c29",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hesiod tells in the Theogony that Helios had with Perseis, daughter of Ocean, two children, Circe and King Aietes, who ruled at Kolchis; Apollodorus later adds Pasiphae.",
+          "statement_id": "Hesiodos dalam Theogony menyebut bahwa Helios dengan Perseis, putri Ocean, memiliki dua anak, Circe dan raja Aietes yang memerintah di Kolchis; Apollodorus kemudian menambahkan Pasiphae.",
+          "quote": "Hesiod informs us in his Theogony that with Perseis, daughter of Ocean, he had two children, Circe and king Aietes, who ruled at Kolchis. Later, Apollodorus adds Pasiphae too.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c30",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The sacred cattle of Helios on Thrinacia were once stolen by the giant Alkyoneus, avenged by Hercules; later some of his flock were attacked and eaten by Odysseus' hungry comrades.",
+          "statement_id": "Sapi keramat Helios di Thrinacia pernah dicuri raksasa Alkyoneus dan dibalas oleh Hercules; kemudian sebagian kawanannya diserang dan dimakan kawan-kawan Odysseus yang kelaparan.",
+          "quote": "The famous sacred cattle of Helios, which he kept on Thrinacia (perhaps Sicily or Malta), were stolen once by the giant Alkyoneus, an outrageous act which was avenged by Hercules. Helios again had some of his flock attacked, and this time eaten too, by the hungry comrades of Odysseus",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c31",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Fed up with the burning sun, Hercules threatened to shoot an arrow at Helios; instead of punishing him, the god rewarded his daring with a golden bowl that Hercules used to sail the seas in greater comfort.",
+          "statement_id": "Hercules yang jengkel pada terik matahari mengancam akan menembak Helios dengan panah; Helios tidak menghukumnya, melainkan menghadiahinya mangkuk emas yang ia pakai untuk berlayar lebih nyaman.",
+          "quote": "Fed up with the burning sun on his outward voyage, Hercules threatened to fire one of his arrows at Helios. The god, rather than punish Hercules for his petulance, rewarded his daring by gifting him a golden bowl which he used to sail the seas in greater comfort.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c32",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Sun god shines on the amorous couple Aphrodite and Ares, revealing to Hephaistos his wife's illicit affair in the trap he had set.",
+          "statement_id": "Dewa Matahari menyinari pasangan Aphrodite dan Ares dan mengungkapkan kepada Hephaistos perselingkuhan istrinya dalam jebakan yang ia pasang.",
+          "quote": "The Sun god shines on the amorous couple Aphrodite and Ares revealing to Hephaistos the illicit shenanigans of his wife in the trap he had set.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c33",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In its founding mythology the island's name derives from the nymph Rhodos, who bore seven sons to Helios, the patron of the island.",
+          "statement_id": "Dalam mitologi pendiriannya, nama pulau Rhodes berasal dari nimfa Rhodos yang melahirkan tujuh putra bagi Helios, pelindung pulau itu.",
+          "quote": "In its founding mythology, the name of the island derives from the nymph Rhodos who bore seven sons to Helios, the patron of the island.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c34",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Each year a chariot and four horses (quadriga) were thrown into the sea as an offering to the god.",
+          "statement_id": "Setiap tahun sebuah kereta dengan empat kuda (quadriga) dilemparkan ke laut sebagai persembahan bagi sang dewa.",
+          "quote": "each year a chariot and four horses (quadriga) were thrown into the sea as an offering to the god.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c35",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The god was not the subject of a wide-spread cult, but according to Plato many people, including Socrates, would greet the Sun and offer prayers each day.",
+          "statement_id": "Sang dewa bukan objek pemujaan yang meluas, tetapi menurut Plato banyak orang, termasuk Socrates, menyambut Matahari dan berdoa setiap hari.",
+          "quote": "The god was not the subject of a wide-spread cult, but Plato informs us in his Symposium and other works that many people, including Socrates, would greet the Sun and offer prayers each day.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c36",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The god Apollo was linked with the Sun from the 5th century BCE, and the association grew ever stronger from the Hellenistic period.",
+          "statement_id": "Dewa Apollo dikaitkan dengan Matahari sejak abad ke-5 SM, dan kaitan itu makin kuat sejak periode Helenistik.",
+          "quote": "The god Apollo was linked with the Sun from the 5th century BCE, and the association became ever stronger from the Hellenistic period",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c37",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Helios appears in all forms of Greek and Roman art, usually depicted as a youth wearing a crown of sun rays.",
+          "statement_id": "Helios muncul dalam semua bentuk seni Yunani dan Romawi, biasanya sebagai pemuda bermahkota sinar matahari.",
+          "quote": "Helios appears in all forms of Greek and Roman art, where he is usually depicted as a youth wearing a crown of sun rays.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c38",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Rome's Circus Maximus had a temple dedicated to Sol and Luna (the Moon) from the 3rd century BCE.",
+          "statement_id": "Circus Maximus di Roma memiliki kuil untuk Sol dan Luna (Bulan) sejak abad ke-3 SM.",
+          "quote": "Rome's Circus Maximus, for example, had a temple dedicated to Sol and Luna (the Moon) from the 3rd century BCE.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "helios-c39",
+          "source_id": "helios-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Colossus was built between 304 and 280 BCE and toppled by an earthquake in either 228 or 226 BCE.",
+          "statement_id": "Colossus dibangun antara 304 dan 280 SM dan roboh oleh gempa pada 228 atau 226 SM.",
+          "quote": "Built between 304 and 280 BCE, it was toppled by an earthquake in either 228 or 226 BCE.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "oceanus",
-      "file": "batch-040-fix-1.md",
+      "file": "batch-040-fix-2.md",
+      "entry_sha256": "fe090a200031a9de2139dbc66274b28f0d11f4efa558219511c81461069c9525",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 13,
+        "claims": 39,
         "sources": 3,
         "images": 0
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 13 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "claims",
@@ -676,24 +1100,285 @@
           "context": "religious-tradition",
           "status": "unreachable",
           "detail": "HTTP 429"
+        },
+        {
+          "id": "oceanus-c14",
+          "source_id": "oceanus-s2",
+          "host": "www.theoi.com",
+          "statement": "Okeanos was the font of all the earth's fresh water (rivers, wells, springs, and rain-clouds) and the god who regulated the heavenly bodies that rose from and set into his waters.",
+          "statement_id": "Okeanos adalah sumber seluruh air tawar bumi (sungai, sumur, mata air, dan awan hujan) dan dewa yang mengatur benda-benda langit yang terbit dari dan terbenam ke perairannya.",
+          "quote": "font of all of the earth's fresh-water - rivers, wells, springs and rain-clouds. He was also the god who regulated the heavenly bodies which rose from and set into his waters.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c15",
+          "source_id": "oceanus-s2",
+          "host": "www.theoi.com",
+          "statement": "Unlike his Titan brothers, Okeanos did not take part in the castration of their father Ouranos nor join the war against Zeus and the Olympian gods.",
+          "statement_id": "Berbeda dari saudara-saudara Titannya, Okeanos tidak ikut mengebiri ayah mereka, Ouranos, dan tidak bergabung dalam perang melawan Zeus dan para dewa Olimpus.",
+          "quote": "Unlike his Titan-brothers Okeanos did not participate in the castration of their father Ouranos nor join the war against Zeus and the Olympian gods.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c16",
+          "source_id": "oceanus-s2",
+          "host": "www.theoi.com",
+          "statement": "Okeanos was probably identical to Ophion, an elder Titan in the Orphic myths who ruled heaven briefly before being wrestled and cast into the Ocean stream by Kronos.",
+          "statement_id": "Okeanos mungkin identik dengan Ophion, Titan yang lebih tua dalam mitos Orfik yang sebentar memerintah langit sebelum dikalahkan dan dilempar ke aliran Ocean oleh Kronos.",
+          "quote": "Okeanos was probably identical to Ophion, an elder Titan in the Orphic myths who ruled heaven briefly before being wrestled and cast into the Ocean stream by Kronos (Cronus).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c17",
+          "source_id": "oceanus-s2",
+          "host": "www.theoi.com",
+          "statement": "His usual attributes were a fish and serpent.",
+          "statement_id": "Atribut yang lazim bagi Okeanos adalah ikan dan ular.",
+          "quote": "His usual attributes were a fish and serpent.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c18",
+          "source_id": "oceanus-s2",
+          "host": "www.theoi.com",
+          "statement": "In the Hellenistic era Okeanos was reimagined as the god of the increasingly accessible Atlantic and Indian Oceans, and the old cosmological idea of an earth-encircling fresh-water stream was discarded.",
+          "statement_id": "Pada era Helenistik, Okeanos dibayangkan ulang sebagai dewa Samudra Atlantik dan Hindia yang makin mudah dijangkau, dan gagasan kosmologis lama tentang aliran air tawar yang mengelilingi bumi ditinggalkan.",
+          "quote": "In the Hellenistic era, Okeanos was reimagined as the god of the then increasingly accessible Atlantic and Indian Oceans, and the old cosmological idea of a great, earth-encircling, fresh-water stream was discarded.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c19",
+          "source_id": "oceanus-s2",
+          "host": "www.theoi.com",
+          "statement": "In mosaic art he is usually depicted as a sea-god or the sea itself personified, with crab-claw horns and, as attributes, a serpent, oar, and school of fish.",
+          "statement_id": "Dalam seni mozaik ia biasanya digambarkan sebagai dewa laut atau laut yang dipersonifikasikan, bertanduk capit kepiting, dengan atribut ular, dayung, dan kawanan ikan.",
+          "quote": "In mosaic art he is therefore usually depicted as a sea-god or the sea itself personified, with crab-claw horns, and for attributes, a serpent, oar and school of fish.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c20",
+          "source_id": "oceanus-s2",
+          "host": "www.theoi.com",
+          "statement": "Okeanos' wife Tethys \"the Nurse\" was probably envisioned distributing his nourishing waters across the earth through subterranean aquifers.",
+          "statement_id": "Istri Okeanos, Tethys \"Sang Pengasuh\", mungkin dibayangkan membagikan air penghidupannya ke seluruh bumi melalui akuifer bawah tanah.",
+          "quote": "Okeanos' wife Tethys \"the Nurse\" was probably envisioned distributing his nourishing waters across the earth through subterranean acquifers.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c21",
+          "source_id": "oceanus-s2",
+          "host": "www.theoi.com",
+          "statement": "In the Homeric poems he appears as a mighty god who yields to none save Zeus.",
+          "statement_id": "Dalam puisi Homerik, Okeanos tampil sebagai dewa perkasa yang tidak tunduk kepada siapa pun kecuali Zeus.",
+          "quote": "In the Homeric poems he appears as a mighty god, who yields to none save Zeus.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c22",
+          "source_id": "oceanus-s2",
+          "host": "www.theoi.com",
+          "statement": "Homer does not mention his parentage but calls Tethys his wife, by whom he had three daughters, Thetis, Eurynome, and Perse.",
+          "statement_id": "Homer tidak menyebut orang tuanya, tetapi menyebut Tethys istrinya dan mereka memiliki tiga putri: Thetis, Eurynome, dan Perse.",
+          "quote": "Homer does not mention his parentage, but calls Tethys his wife, by whom he had three daughters, Thetis, Eurynome and Perse.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c23",
+          "source_id": "oceanus-s2",
+          "host": "www.theoi.com",
+          "statement": "In Hyginus (Preface), Oceanus's parents are Aither (or Ouranos) and Gaia.",
+          "statement_id": "Menurut Hyginus (Preface), orang tua Oceanus adalah Aither (atau Ouranos) dan Gaia.",
+          "quote": "[1.2] AITHER (or OURANOS) & GAIA (Hyginus Preface)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c24",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Oceanus was said to dwell on the western shores of the earth and never left his home, not even to attend the assemblies of the gods.",
+          "statement_id": "Oceanus dikatakan tinggal di tepi barat bumi dan tidak pernah meninggalkan rumahnya, bahkan untuk menghadiri sidang para dewa.",
+          "quote": "He was said to dwell on the western shores of the earth and never left his home, not even to attend the assemblies of the gods.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c25",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The river Oceanus was thought to encircle the earth and was said to be the source of all living gods and creatures; in early mythology, however, Oceanus was often viewed as an element rather than a god.",
+          "statement_id": "Sungai Oceanus dianggap mengelilingi bumi dan dikatakan sumber semua dewa dan makhluk hidup; namun dalam mitologi awal Oceanus sering dipandang sebagai unsur, bukan dewa.",
+          "quote": "which was thought to encircle the earth and was said to be the source of all living gods and creatures. However, in early mythology, Oceanus was often viewed as an element rather than a god.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c26",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Because he did not fight, Oceanus did not share the dreadful fate of imprisonment in Tartarus; as a reward he was allowed to rule over Oceanus in undisturbed peace.",
+          "statement_id": "Karena tidak ikut bertempur, Oceanus tidak mengalami nasib buruk dipenjara di Tartarus; sebagai ganjaran ia dibiarkan memerintah Oceanus dengan damai.",
+          "quote": "so he did not share their dreadful fate of being imprisoned in Tartarus (the deepest part of the underworld). As a reward, Oceanus was allowed to rule over Oceanus in undisturbed peace.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c27",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "To stop Hercules from reaching his grandson, Oceanus caused great waves to overcome the golden vessel Hercules clung to; Hercules drew his bow and frightened Oceanus into calming the waters so he could reach Erytheia safely.",
+          "statement_id": "Untuk menghentikan Hercules mencapai cucunya, Oceanus menimbulkan ombak besar yang menimpa kapal emas tempat Hercules berpegangan; Hercules menarik busurnya dan menakuti Oceanus hingga menenangkan air sehingga ia tiba dengan selamat di Erytheia.",
+          "quote": "In an attempt to stop Hercules from reaching his grandson, Oceanus caused great waves to overcome the golden vessel that Hercules clung to. Hercules drew his bow and frightened Oceanus into calming the waters so he could reach Erytheia safely.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c28",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Prometheus Bound, Prometheus, Titan god of fire and brother and son-in-law to Oceanus, lies chained to a rock as Zeus's punishment after giving fire to humankind.",
+          "statement_id": "Dalam Prometheus Bound, Prometheus, Titan api dan saudara sekaligus menantu Oceanus, terbelenggu pada batu sebagai hukuman Zeus setelah memberi api kepada manusia.",
+          "quote": "In Prometheus Bound, Prometheus, the Titan god of fire and brother and son-in-law to Oceanus, lies chained to a rock as punishment from Zeus after Prometheus gave fire to humankind",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c29",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Oceanus travels to where Prometheus lies in chains and sympathises with his plight, saying that even beyond their blood relation there is nobody he is more fond of.",
+          "statement_id": "Oceanus mendatangi Prometheus yang terbelenggu dan bersimpati pada nasibnya, mengatakan bahwa di luar hubungan darah pun tak ada yang lebih ia sayangi.",
+          "quote": "Oceanus travels to where Prometheus lies in chains and sympathised with his plight, telling him that even beyond their blood relation, there is nobody he is more fond of.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c30",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The chorus is sung by Oceanus' many children, who welcome their father as he enters on a giant bird, most likely a griffin.",
+          "statement_id": "Paduan suara dinyanyikan banyak anak Oceanus yang menyambut ayah mereka, yang masuk ke panggung dengan menunggang burung raksasa, kemungkinan griffin.",
+          "quote": "The chorus is sung by Oceanus' many children who step onto the stage to welcome their father, who enters on a giant bird, most likely a griffin.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c31",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Oceanus and Tethys purged Glaucus of all his mortal characteristics and performed a ritual cleansing.",
+          "statement_id": "Oceanus dan Tethys membersihkan Glaucus dari seluruh sifat fananya dan melakukan ritual penyucian.",
+          "quote": "Glaucus was a fisherman who was transformed into a sea god. ... with Oceanus and Tethys purging him of all his mortal characteristics and performing a ritual cleansing.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c32",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "As described in the Iliad, Oceanus is featured on Achilles' shield, made by Hephaestus; the Oceanus river is shown on the shield's edges, surrounding all the other images.",
+          "statement_id": "Seperti dalam Iliad, Oceanus tampil pada perisai Achilles buatan Hephaestus; sungai Oceanus ditunjukkan di tepi perisai, mengelilingi semua gambar lainnya.",
+          "quote": "As described in the Iliad, Oceanus is featured on Achilles' shield, which Hephaestus, the god of metallurgy, made. The Oceanus river was shown on the shield's edges, surrounding all the other images depicted on the shield.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c33",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In art he holds a sceptre to represent his power and rides a sea creature alone or beside his wife Tethys.",
+          "statement_id": "Dalam seni Yunani ia memegang tongkat kerajaan sebagai lambang kekuasaan dan menunggang makhluk laut, sendiri atau di samping istrinya, Tethys.",
+          "quote": "He holds a sceptre to represent his power and rides on a sea creature alone or by the side of his wife, Tethys.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c34",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Oceanus is featured in The Orphic Hymns and has an Orphic Hymn dedicated to him, in which he is called the creator of mortal men and gods.",
+          "statement_id": "Oceanus tampil dalam Himne-himne Orfik dan memiliki satu himne khusus; dalam himne itu ia disebut pencipta manusia fana dan para dewa.",
+          "quote": "He is, however, featured in The Orphic Hymns and has an Orphic Hymn dedicated to him. In the hymn, he is mentioned as being the creator of mortal men and gods.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c35",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Oceanus was given the ultimate honour of having the largest body of saltwater that encircles the earth named after him.",
+          "statement_id": "Oceanus mendapat kehormatan tertinggi: badan air asin terbesar yang mengelilingi bumi dinamai dengan namanya.",
+          "quote": "Oceanus was given the ultimate honour of having the largest body of saltwater that encircles the earth named after him",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c36",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "On the far side of Oceanus lay strange, mysterious places like the Garden of the Hesperides and the island of Erytheia.",
+          "statement_id": "Di seberang Oceanus terletak tempat-tempat aneh dan misterius seperti Taman Hesperides dan pulau Erytheia.",
+          "quote": "On the far side of Oceanus lay strange, mysterious places like the Garden of the Hesperides and the island of Erytheia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c37",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Their best-known children were the River Styx, Inachos the king of Argos, and the Oceanids Eurynome, Electra, Metis, and Theia.",
+          "statement_id": "Anak-anak mereka yang paling terkenal adalah Sungai Styx, Inachos raja Argos, dan para Oceanid Eurynome, Electra, Metis, dan Theia.",
+          "quote": "Their most well-known children were the River Styx (the barrier between earth and the underworld), Inachos, the king of Argos, and the Oceanids Eurynome, Electra, Metis (Zeus' first notable wife), and Theia.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c38",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "His siblings include Cronus, Hyperion, Mnemosyne, Rhea, Tethys, and Themis.",
+          "statement_id": "Saudara-saudaranya antara lain Cronus, Hyperion, Mnemosyne, Rhea, Tethys, dan Themis.",
+          "quote": "His siblings include Cronus, Hyperion, Mnemosyne, Rhea, Tethys, and Themis.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "oceanus-c39",
+          "source_id": "oceanus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Helios, the sun god, lived in the east, near the banks of Oceanus.",
+          "statement_id": "Helios, dewa matahari, tinggal di timur dekat tepi Oceanus.",
+          "quote": "Helios, the sun god, lived in the east, near the banks of Oceanus.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "selene",
-      "file": "batch-040-fix-1.md",
+      "file": "batch-040-fix-2.md",
+      "entry_sha256": "7a43fa16db1741368cd8ecc3cf9cef56e685cf08770b03543beec47055c8b814",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 14,
+        "claims": 50,
         "sources": 3,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 14 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -825,9 +1510,8 @@
           "statement_id": "Sarkofagus Romawi menampilkan Selene turun dari kereta untuk menemui Endymion yang berbaring.",
           "quote": "In the center, Selene, the moon goddess, alights from her chariot to visit her beloved, the shepherd Endymion, who reclines at the right.",
           "context": "scholarly-interpretation",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260310153539id_/https://www.metmuseum.org/art/collection/search/254590",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "selene-c14",
@@ -837,9 +1521,368 @@
           "statement_id": "Kisah Endymion dipahat pada bagian depan sarkofagus.",
           "quote": "The story of Endymion is shown in strongly undercut relief on the front of the sarcophagus.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260310153539id_/https://www.metmuseum.org/art/collection/search/254590",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "selene-c15",
+          "source_id": "selene-s2",
+          "host": "www.theoi.com",
+          "statement": "Selene was depicted as a woman riding sidesaddle on a horse or driving a chariot drawn by a pair of winged steeds.",
+          "statement_id": "Selene digambarkan sebagai perempuan yang menunggang kuda menyamping atau mengendarai kereta yang ditarik sepasang kuda bersayap.",
+          "quote": "She was depicted as a woman riding sidesaddle on a horse or driving a chariot drawn by a pair of winged steeds.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c16",
+          "source_id": "selene-s2",
+          "host": "www.theoi.com",
+          "statement": "Endymion was granted eternal youth and immortality by Zeus and placed in eternal slumber in a cave near the peak of Lydian Mount Latmos; his heavenly bride consorted with him there at night.",
+          "statement_id": "Endymion diberi kemudaan abadi dan keabadian oleh Zeus serta ditempatkan dalam tidur abadi di sebuah gua dekat puncak Gunung Latmos di Lydia; mempelai surgawinya menemuinya di sana pada malam hari.",
+          "quote": "Selene's great love was the shepherd prince Endymion. The beautiful boy was granted eternal youth and immortality by Zeus and placed in a state of eternal slumber in a cave near the peak of Lydian Mount Latmos (Latmus). His heavenly bride consorted with him there in the night.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c17",
+          "source_id": "selene-s2",
+          "host": "www.theoi.com",
+          "statement": "Other Greek moon goddesses included Pasiphae, the Leukippides, Eileithyia, Hekate, Artemis, Bendis, and Hera (who sometimes doubled for Selene in the Endymion myth).",
+          "statement_id": "Dewi bulan Yunani lainnya mencakup Pasiphae, Leukippides, Eileithyia, Hekate, Artemis, Bendis, dan Hera (yang kadang menggantikan Selene dalam mitos Endymion).",
+          "quote": "Other Greek moon goddesses included Pasiphae, the Leukippides (Leucippes), Eileithyia, Hekate (Hecate), Artemis, Bendis, and Hera (who sometimes doubled for Selene in the Endymion myth).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c18",
+          "source_id": "selene-s2",
+          "host": "www.theoi.com",
+          "statement": "In Homeric Hymn 31 to Helios, Selene's parents are Hyperion and Euryphaessa.",
+          "statement_id": "Menurut Homeric Hymn 31 to Helios, orang tua Selene adalah Hyperion dan Euryphaessa.",
+          "quote": "[1.2] HYPERION & EURYPHAESSA (Homeric Hymn 31 to Helios)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c19",
+          "source_id": "selene-s2",
+          "host": "www.theoi.com",
+          "statement": "In Homeric Hymn 4 to Hermes 100, Pallas is listed as Selene's parent.",
+          "statement_id": "Dalam Homeric Hymn 4 to Hermes 100, Pallas dicantumkan sebagai orang tua Selene.",
+          "quote": "[2.1] PALLAS (Homeric Hymn 4 to Hermes 100",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c20",
+          "source_id": "selene-s2",
+          "host": "www.theoi.com",
+          "statement": "She is also called Phoebe, as the sister of Phoebus, the god of the sun.",
+          "statement_id": "Selene juga disebut Phoebe, sebagai saudari Phoebus, dewa matahari.",
+          "quote": "She is also called Phoebe, as the sister of Phoebus, the god of the sun.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c21",
+          "source_id": "selene-s2",
+          "host": "www.theoi.com",
+          "statement": "By Endymion, whom she loved and sent to sleep in order to kiss him, Selene became the mother of fifty daughters.",
+          "statement_id": "Dari Endymion, yang ia cintai dan ia tidurkan agar dapat menciumnya, Selene menjadi ibu lima puluh putri.",
+          "quote": "By Endymion, whom she loved, and whom she sent to sleep in order to kiss him, she became the mother of fifty daughters",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c22",
+          "source_id": "selene-s2",
+          "host": "www.theoi.com",
+          "statement": "By Zeus, Selene became the mother of Pandeia, Ersa, and Nemea.",
+          "statement_id": "Dari Zeus, Selene menjadi ibu Pandeia, Ersa, dan Nemea.",
+          "quote": "by Zeus she became the mother of Pandeia, Ersa, and Nemea",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c23",
+          "source_id": "selene-s2",
+          "host": "www.theoi.com",
+          "statement": "Selene is described as a very beautiful goddess with long wings and a golden diadem.",
+          "statement_id": "Selene digambarkan sebagai dewi yang sangat cantik, bersayap panjang, dan bermahkota emas.",
+          "quote": "Selene is described as a very beautiful goddess, with long wings and a golden diadem",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c24",
+          "source_id": "selene-s2",
+          "host": "www.theoi.com",
+          "statement": "Aeschylus calls her the eye of night.",
+          "statement_id": "Aeschylus menyebutnya mata malam.",
+          "quote": "Aeschylus (Sept. 390) calls her the eye of night.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c25",
+          "source_id": "selene-s2",
+          "host": "www.theoi.com",
+          "statement": "Like her brother Helios, she rode across the heavens in a chariot drawn by two white horses, cows, or mules.",
+          "statement_id": "Seperti saudaranya Helios, ia melintasi langit dengan kereta yang ditarik dua ekor kuda putih, sapi, atau begal.",
+          "quote": "She rode, like her brother Helios, across the heavens in a chariot drawn by two white horses, cows, or mules",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c26",
+          "source_id": "selene-s2",
+          "host": "www.theoi.com",
+          "statement": "In later times Selene was identified with Artemis, and the worship of the two became amalgamated.",
+          "statement_id": "Pada masa kemudian Selene diidentikkan dengan Artemis, dan pemujaan keduanya melebur.",
+          "quote": "In later times Selene was identified with Artemis, and the worship of the two became amalgamated",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c27",
+          "source_id": "selene-s2",
+          "host": "www.theoi.com",
+          "statement": "In works of art the two divinities are usually distinguished: Selene's face is fuller and rounder, her figure less tall, and she is always clothed in a long robe.",
+          "statement_id": "Dalam karya seni keduanya biasanya dibedakan: wajah Selene lebih penuh dan bulat, tubuhnya kurang tinggi, dan selalu berjubah panjang.",
+          "quote": "In works of art, however, the two divinities are usually distinguished; the face of Selene being more full and round, her figure less tall, and always clothed in a long robe",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c28",
+          "source_id": "selene-s2",
+          "host": "www.theoi.com",
+          "statement": "At Elis there was a statue of Selene with two horns.",
+          "statement_id": "Di Elis ada patung Selene dengan dua tanduk.",
+          "quote": "at Elis there was a statue of her with two horns",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c29",
+          "source_id": "selene-s2",
+          "host": "www.theoi.com",
+          "statement": "At Rome Luna had a temple on the Aventine.",
+          "statement_id": "Di Roma, Luna memiliki kuil di bukit Aventine.",
+          "quote": "At Rome Luna had a temple on the Aventine.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c30",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Selene, meaning \"the moon\", was depicted as a beautiful woman with long wings and a gold crown.",
+          "statement_id": "Selene, yang berarti \"bulan\", digambarkan sebagai perempuan cantik bersayap panjang dan bermahkota emas.",
+          "quote": "Selene, meaning \"the moon\", was depicted as a beautiful woman with long wings and a gold crown.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c31",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Selene is commonly associated with the fellow Greek goddesses Artemis and Hecate.",
+          "statement_id": "Selene biasanya dikaitkan dengan sesama dewi Yunani, Artemis dan Hecate.",
+          "quote": "She is commonly associated with the fellow Greek goddesses Artemis and Hecate.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c32",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Selene has two daughters with Zeus: Pandia, whom the Athenians honoured every full moon, and Ersa (Herse), the personification of the dew.",
+          "statement_id": "Selene memiliki dua putri dengan Zeus: Pandia, yang dihormati orang Athena setiap bulan purnama, dan Ersa (Herse), personifikasi embun.",
+          "quote": "Selene has two daughters with Zeus; Pandia (who the Athenians honoured every full moon) and Ersa (Herse), the personification of the dew.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c33",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the Homeric Hymn to Selene she is described as a kindly and beautiful winged goddess crowned with gold who drives her chariot across the night sky as a sign to humans.",
+          "statement_id": "Dalam Homeric Hymn to Selene, ia digambarkan sebagai dewi bersayap yang ramah dan cantik, bermahkota emas, yang mengendarai keretanya melintasi langit malam sebagai tanda bagi manusia.",
+          "quote": "In the Homeric Hymn to Selene, Selene is described as a kindly and beautiful winged goddess who is crowned with gold and drives her chariot across the night sky as a sign to humans.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c34",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The moon's phases set the schedule of religious festivals through the year and symbolised the cycles of birth and death, and the ancient Greeks measured time in lunar months.",
+          "statement_id": "Fase-fase bulan menentukan jadwal festival keagamaan sepanjang tahun dan melambangkan siklus kelahiran dan kematian, dan orang Yunani kuno mengukur waktu dalam bulan lunar.",
+          "quote": "The moon's phases created the schedule of religious festivals celebrated throughout the year and symbolised the cycles of birth and death, with the ancient Greeks measuring out time in lunar months.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c35",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "During the Classical Period it was a popular belief that witches could bring the moon down from the sky, linking Selene to witchcraft.",
+          "statement_id": "Pada Periode Klasik ada kepercayaan populer bahwa penyihir dapat menurunkan bulan dari langit, yang mengaitkan Selene dengan sihir.",
+          "quote": "Another popular belief during the Classical Period was that witches could bring the moon down from the sky, linking Selene to witchcraft",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c36",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The only time Selene stopped pulling the moon across the night sky was at the orders of Hera and Zeus during the Giants' Revolt (Gigantomachy) against the Olympians.",
+          "statement_id": "Satu-satunya saat Selene berhenti menarik bulan melintasi langit malam adalah atas perintah Hera dan Zeus pada Pemberontakan Para Raksasa (Gigantomakhia) melawan para dewa Olimpus.",
+          "quote": "The only time Selene stopped pulling the moon across the night sky was at the orders of Hera and Zeus during the Giants' Revolt (Gigantomachy) against the Olympians.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c37",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to Nonnus, the monstrous serpent Typhon attacked Selene during his revolt against the heavens; Selene remained undaunted, struggled with Typhon, locking horns with him and scarring the orb of her bull's horn.",
+          "statement_id": "Menurut Nonnus, ular raksasa Typhon menyerang Selene dalam pemberontakannya terhadap langit; Selene tetap tak gentar, bergulat dengan Typhon, mengadu tanduk, dan melukai bola tanduk banteng miliknya.",
+          "quote": "According to the Greek epic poet Nonnus (5th century CE) in his Dionysiaca, the monstrous serpent Typhon attacked Selene during his revolt against the heavens. He launched bulls at her, but she remained undaunted even after he charged at her. Selene struggled with Typhon, locking horns with him and scarring the orb of her bull's horn.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c38",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Selene spotted the shepherd Endymion sleeping on a hill near Mount Latmos; overcome by his beauty, she waited for the new moon, when her chariot would not be seen, and flew down to lie with him as he slept.",
+          "statement_id": "Selene melihat gembala Endymion tidur di bukit dekat Gunung Latmos; terpikat oleh keindahannya, ia menunggu bulan baru agar keretanya tak terlihat lalu turun untuk berbaring bersamanya saat ia tidur.",
+          "quote": "Selene spotted the shepherd Endymion sleeping on a hill near Mount Latmos. Overcome by his beauty, she waited for the new moon when her chariot would not be seen and flew down to lie with him as he slept.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c39",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Others say that it was Selene's punishment from Zeus for being absent from the skies.",
+          "statement_id": "Sebagian lain mengatakan tidur itu adalah hukuman Zeus bagi Selene karena absen dari langit.",
+          "quote": "while some say that it was Selene's punishment from Zeus for being absent from the skies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c40",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Not realising his true identity, Selene climbed onto Pan's back and permitted him to do whatever he wanted to her.",
+          "statement_id": "Tanpa menyadari jati dirinya, Selene naik ke punggung Pan dan membiarkannya berbuat sesukanya.",
+          "quote": "The mischievous god Pan disguised himself by covering his short, coarse black goat hair with soft, clean white fleece. Not realising his true identity, Selene climbed onto his back and permitted him to do whatever he wanted to her.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c41",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Ampelos foolishly claimed to be better at riding a wild bull than Selene at riding her horned moon; Selene sent a gadfly that stung the wild bull Ampelos was riding.",
+          "statement_id": "Ampelos dengan bodoh mengatakan ia lebih pandai menunggang banteng liar daripada Selene menunggang bulan bertanduknya; Selene mengirim pikat lalat yang menyengat banteng yang ditunggangi Ampelos.",
+          "quote": "One day, he foolishly stated that he was better at riding a wild bull than Selene was at riding her horned moon. Selene chose his punishment carefully. She sent down a gadfly that stung the wild bull Ampelos was riding.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c42",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Zeus instructed Hypnos to make all humans so tired they would not notice that Helios did not rise and that Selene moved extra slowly across the night sky, dragging out the night.",
+          "statement_id": "Zeus menyuruh Hypnos membuat semua manusia begitu lelah hingga tak sadar Helios tidak terbit dan Selene bergerak sangat lambat di langit malam sehingga malam diperpanjang.",
+          "quote": "Zeus had fallen in love with the human Alcmene. To be able to visit her, he needed a long night to ensure that he went unseen. He instructed Hypnos (Sleep) to make all humans so tired that they would not notice that Helios (Sun) did not rise and that Selene moved extra slowly across the night sky, dragging out the night.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c43",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Selene is also credited with creating the ferocious Nemean Lion, whom Heracles faced in his first labour.",
+          "statement_id": "Selene juga disebut sebagai pencipta Singa Nemea yang ganas, yang dihadapi Heracles pada tugas pertamanya.",
+          "quote": "Selene is also credited with creating the ferocious Nemean Lion, whom Heracles faced in his first labour.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c44",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Some traditions say Selene bore the lion with a shudder and dropped it to earth near Nemea by a two-mouthed cave, where she made it prey upon her own people as punishment for an unfulfilled sacrifice.",
+          "statement_id": "Sebagian tradisi menyebut Selene melahirkan singa itu dengan gemetar dan menjatuhkannya ke bumi dekat Nemea di gua bermulut dua, tempat ia membuatnya memangsa rakyatnya sendiri sebagai hukuman atas kurban yang tak dipenuhi.",
+          "quote": "Some traditions state that Selene bore the lion with a shudder and dropped it to earth near Nemea by a two-mouthed cave, where she made the creature prey upon her own people as punishment for an unfulfilled sacrifice.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c45",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Other sources say that in answer to Hera's wishes Selene created the lion from sea foam, which was then bound and carried to the Nemean mountains by Iris.",
+          "statement_id": "Sumber lain mengatakan bahwa atas keinginan Hera, Selene menciptakan singa itu dari buih laut yang lalu diikat dan dibawa ke pegunungan Nemea oleh Iris.",
+          "quote": "Other sources say that in answer to Hera's wishes, Selene created the lion from sea foam which was then bound and carried to the Nemean mountains by Iris",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c46",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Pausanias mentions a stone image of a horned Selene in the agora of Elis in southern Greece.",
+          "statement_id": "Pausanias menyebut patung batu Selene bertanduk di agora Elis di Yunani selatan.",
+          "quote": "In his Description of Greece, the Greek geographer Pausanias (c. 115 to c. 180 CE) talks about a stone image of a horned Selene in Elis' agora (open-air marketplace) in southern Greece.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c47",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Moon-shaped cakes were made in honour of Selene.",
+          "statement_id": "Kue berbentuk bulan dibuat untuk menghormati Selene.",
+          "quote": "Moon-shaped cakes were made in honour of Selene.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c48",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The poet Pindar stated that men in love prayed to the sun (Helios), while women in love prayed to the moon (Selene).",
+          "statement_id": "Penyair Pindar menyatakan bahwa pria yang jatuh cinta berdoa kepada matahari (Helios), sedangkan wanita yang jatuh cinta berdoa kepada bulan (Selene).",
+          "quote": "Greek poet Pindar (c. 518 to c. 448 BCE) stated that men in love prayed to the sun (Helios), while women in love prayed to the moon (Selene).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c49",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The work shows Helios' chariot rising on the eastern horizon while on the other side Selene and her horses sink in the west, symbolising their connection with the passing of time.",
+          "statement_id": "Karya itu menunjukkan kereta Helios naik di ufuk timur sementara di sisi lain Selene dan kuda-kudanya tenggelam di barat, melambangkan kaitan mereka dengan berlalunya waktu.",
+          "quote": "It shows Helios' chariot rising up on the eastern horizon (the sun rising), while on the other side, Selene and her horses are shown sinking over the west, symbolising their connection with the passing of time.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "selene-c50",
+          "source_id": "selene-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The chemical element selenium was named after Selene in 1818 by a Swedish chemist.",
+          "statement_id": "Unsur kimia selenium dinamai dari Selene pada 1818 oleh seorang ahli kimia Swedia.",
+          "quote": "In chemistry, the chemical element selenium was named after Selene in 1818 by the Swedish chemist",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []

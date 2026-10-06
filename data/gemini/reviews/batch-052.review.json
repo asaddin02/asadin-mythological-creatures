@@ -1,11 +1,13 @@
 {
   "batch_id": "batch-052",
-  "checked_at": "2026-10-06T06:19:30.641Z",
+  "checked_at": "2026-10-06T14:50:37.431Z",
   "files": [
     "batch-052.md",
     "batch-052-fix-1.md",
     "batch-052-fix-2.md",
-    "batch-052-fix-3.md"
+    "batch-052-fix-3.md",
+    "batch-052-fix-4.md",
+    "batch-052-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -412,27 +414,22 @@
     },
     {
       "slug": "sabnak",
-      "file": "batch-052.md",
+      "file": "batch-052-fix-4.md",
+      "entry_sha256": "b6d0a7025dcf46216867a4f155100adb6fb2b12fe56e0accac7210059736be80",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "sabnak-c01",
           "source_id": "sabnak-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Sabnock is a demon in European demonology.",
-          "statement_id": "Sabnock adalah salah satu iblis dalam demonologi Eropa.",
+          "statement": "Sabnock is one of the demons in demonology.",
+          "statement_id": "Sabnock adalah salah satu iblis dalam demonologi.",
           "quote": "サブナック（Sabnac、Sabnachまたは、Sabnack）は悪魔学における悪魔の一人。",
           "context": "traditional-belief",
           "status": "exact"
@@ -466,27 +463,61 @@
           "quote": "He builds high towers, castles and cities, furnishing them with weapons, ammunition, etc., gives good familiars",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "sabnak-c05",
+          "source_id": "sabnak-s3",
+          "host": "en.wikisource.org",
+          "statement": "In the Goetia text the forty-third spirit is called Sabnock or Savnok, a mighty marquis who appears as an armed soldier with a lion's head riding a pale-coloured horse.",
+          "statement_id": "Dalam teks Goetia, roh ke-43 disebut Sabnock atau Savnok, seorang markis yang perkasa, tampil sebagai prajurit bersenjata berkepala singa yang menunggang kuda berwarna pucat.",
+          "quote": "The Forty-third Spirit, as King Solomon commanded them into the Vessel of Brass, is called Sabnock, or Savnok. He is a Marquis, Mighty, Great and Strong, appearing in the Form of an Armed Soldier with a Lion's Head, riding on a pale-coloured horse.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sabnak-c06",
+          "source_id": "sabnak-s3",
+          "host": "en.wikisource.org",
+          "statement": "His office is to build high towers, castles and cities and furnish them with armour; he can also afflict people for many days with wounds and sores that are rotten and full of worms.",
+          "statement_id": "Tugasnya membangun menara, kastel, dan kota yang tinggi serta melengkapinya dengan persenjataan; ia juga dapat menyiksa manusia selama berhari-hari dengan luka dan borok yang busuk dan penuh belatung.",
+          "quote": "His office is to build high Towers, Castles and Cities, and to furnish them with Armour, etc. Also he can afflict Men for many days with Wounds and with Sores rotten and full of Worms.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sabnak-c07",
+          "source_id": "sabnak-s3",
+          "host": "en.wikisource.org",
+          "statement": "At the request of the Exorcist he gives good familiars, and he commands 50 legions of spirits.",
+          "statement_id": "Atas permintaan sang pemanggil (exorcist), ia memberikan familiar yang baik, dan ia memimpin 50 legiun roh.",
+          "quote": "He giveth Good Familiars at the request of the Exorcist. He commandeth 50 Legions of Spirits",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sabnak-c08",
+          "source_id": "sabnak-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia lists other spellings of Sabnock (Sab Nac, Sabnac, Sabnach, Sabnack, Sabnacke, Salmac, Savnock) and calls him a mighty Great Marquis of Hell commanding 50 legions of demons.",
+          "statement_id": "Wikipedia mencatat ejaan lain Sabnock: Sab Nac, Sabnac, Sabnach, Sabnack, Sabnacke, Salmac, dan Savnock; ia disebut Markis Agung Neraka yang memimpin 50 legiun iblis.",
+          "quote": "Sabnock (also Sab Nac, Sabnac, Sabnach, Sabnack, Sabnacke, Salmac, and Savnock) is a mighty Great Marquis of Hell, having 50 legions of demons under his command.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9afb7c3c4c646f4a8f744657fc96392a7944308fd8239962e973cdac1b9c8226"
+      "images": []
     },
     {
       "slug": "shiryo",
-      "file": "batch-052.md",
+      "file": "batch-052-fix-4.md",
+      "entry_sha256": "80d463de9d56c8c51ffebc75feed4b48860d95d8789b64b7a0581b80c8e91c18",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "shiryo-c01",
@@ -527,27 +558,91 @@
           "quote": "In the Tōno Monogatari, there was a story in which a man died, and afterward, his shiryō appeared before his daughter and tried to take her away.",
           "context": "traditional-belief",
           "status": "loose"
+        },
+        {
+          "id": "shiryo-c05",
+          "source_id": "shiryo-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, the word shiryō is almost exclusively used for unpleasant, malevolent spirits, unlike yūrei, which can at times be beautifully mysterious.",
+          "statement_id": "Menurut Yokai.com, istilah shiryō hampir selalu dipakai untuk roh yang tidak menyenangkan dan jahat, berbeda dengan yūrei yang kadang indah dan misterius.",
+          "quote": "while yūrei can be creepy sometimes and beautifully mysterious at other times, shiryō is almost exclusively used to refer to unpleasant, malevolent spirits.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shiryo-c06",
+          "source_id": "shiryo-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com says shiryō act like ikiryō, appearing to relatives or close friends of the deceased; ikiryō usually appear just before death, while a shiryō appears just after.",
+          "statement_id": "Yokai.com: shiryō bertindak mirip ikiryō dan menampakkan diri kepada kerabat atau sahabat dekat orang yang meninggal; ikiryō biasanya muncul sesaat sebelum kematian, sedangkan shiryō sesaat sesudahnya.",
+          "quote": "Shiryō act in similar ways to ikiryō, appearing to relatives or close friends of the deceased. While ikiryō usually appear in the moments just before death, a shiryō appears in the moments just after death.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shiryo-c07",
+          "source_id": "shiryo-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, shiryō do not always appear to say goodbye; sometimes they come to take loved ones away with them into the world of the dead.",
+          "statement_id": "Menurut Yokai.com, shiryō tidak selalu datang untuk berpamitan; kadang mereka datang untuk membawa orang yang dikasihi ke dunia orang mati.",
+          "quote": "shiryō do not always appear in order to say goodbye; sometimes they come to take their loved ones away with them into the world of the dead.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shiryo-c08",
+          "source_id": "shiryo-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com states that belief in shiryō goes back to before recorded history and has long been a staple of Japanese folk superstition.",
+          "statement_id": "Yokai.com menyatakan kepercayaan pada shiryō sudah ada sebelum zaman tercatat dan lama menjadi bagian takhayul rakyat Jepang.",
+          "quote": "Belief in shiryō goes back to before recorded history, and has long been a staple of Japanese folk superstition.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shiryo-c09",
+          "source_id": "shiryo-s2",
+          "host": "yokai.com",
+          "statement": "In a story as told by Yokai.com, after her father died his shiryō appeared before his daughter and tried to take her into the world of the dead; she narrowly escaped and fled to ask for help.",
+          "statement_id": "Dalam sebuah kisah menurut Yokai.com, setelah ayahnya meninggal, shiryō sang ayah mendatangi putrinya dan berusaha membawanya ke dunia orang mati; sang gadis nyaris lolos dan lari meminta pertolongan.",
+          "quote": "After her father died, his shiryō appeared before the young girl and tried to take her with him into the world of the dead. The girl narrowly escaped and fled from the house to ask for help.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shiryo-c10",
+          "source_id": "shiryo-s2",
+          "host": "yokai.com",
+          "statement": "In that story the ghost stopped appearing only after a whole month of sleepless, terrifying nights.",
+          "statement_id": "Dalam kisah itu, hantu sang ayah baru berhenti muncul setelah sebulan penuh malam tanpa tidur yang menakutkan.",
+          "quote": "Only after a whole month of sleepless, terrifying nights did the ghost stop appearing, and finally the girl was left in peace.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shiryo-c11",
+          "source_id": "shiryo-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com gives 死霊 (しりょう) with the translation \"dead ghost\" and the alternate name shirei.",
+          "statement_id": "Yokai.com menulis 死霊 (しりょう) dengan terjemahan \"hantu mati\" dan nama lain shirei.",
+          "quote": "Shiryō 死霊 しりょう Translation: dead ghost Alternate names: shirei",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "813f160d7e49bbd69355a81340594bbcb278d72755f2274a04ab4302858ce36f"
+      "images": []
     },
     {
       "slug": "shuten-doji",
-      "file": "batch-052.md",
+      "file": "batch-052-fix-4.md",
+      "entry_sha256": "8ddb9de33b5280dae73414331f0d840438bd1965d390b2e680b42be20c9189a0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "shuten-doji-c01",
@@ -588,10 +683,109 @@
           "quote": "The oldest surviving text of the legend is recorded in the 14th century Ōeyama Ekotoba (大江山絵詞 \"Tale of Mount Ōe in Pictures and Words\"), a picture scroll held by the Itsuō Art Museum.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "shuten-doji-c05",
+          "source_id": "shuten-doji-s2",
+          "host": "kotobank.jp",
+          "statement": "The Digital Daijisen dictionary describes Shuten-dōji as a legendary leader of the oni said to live on Ōeyama in Tanba, who plundered women and treasure in the capital and was said to have been destroyed by Minamoto no Raikō leading his Four Guardian Kings under imperial command.",
+          "statement_id": "デジタル大辞泉は、酒呑童子を丹波の大江山に住んだという伝説上の鬼の頭目とし、都で婦女や財宝を奪ったため、勅命により源頼光が四天王を率いて退治したと記す。",
+          "quote": "丹波の大江山に住んでいたという伝説上の鬼の頭目。都に出ては婦女・財宝を奪ったので、勅命により、源頼光が四天王を率いて退治したという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shuten-doji-c06",
+          "source_id": "shuten-doji-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Heibonsha World Encyclopedia, in the Ōeyama Ekotoba the name Shuten-dōji comes from his being someone who deeply loves sake.",
+          "statement_id": "世界大百科事典によれば、『大江山絵詞』では酒呑童子の名は「酒を深く愛する者」であることに由来する。",
+          "quote": "酒呑童子の名称は,《大江山絵詞》では〈酒を深く愛する者〉ゆえの名となっている",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "shuten-doji-c07",
+          "source_id": "shuten-doji-s2",
+          "host": "kotobank.jp",
+          "statement": "The Heibonsha World Encyclopedia says Ōeyama was apparently originally Oi-no-saka near the capital, but is the Ōeyama of Senjōgatake in Tanba and Tango in the Ōeyama Ekotoba and Mount Ibuki in Ōmi in the Shuten-dōji Emaki.",
+          "statement_id": "世界大百科事典は、大江山はもともと都の近くの老ノ坂だったらしいが、『大江山絵詞』では丹波・丹後の千丈ヶ嶽の大江山、『酒伝童子絵巻』では近江の伊吹山になっていると述べる。",
+          "quote": "大江山は元来は都のあたりにほど近い老ノ坂であったらしいが,《大江山絵詞》では丹波・丹後の千丈ヶ嶽の大江山,《酒伝童子絵巻》では近江伊吹山となっている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "shuten-doji-c08",
+          "source_id": "shuten-doji-s2",
+          "host": "kotobank.jp",
+          "statement": "The Heibonsha encyclopedia author says the idea of an oni deity holed up on Ōeyama should be analysed against the background of Oi-no-saka being a boundary between the capital and the outside world, the stage of the Shikyō-sai rite that kept plague deities out, and a haunt of bandits.",
+          "statement_id": "世界大百科事典の筆者は、大江山に鬼神がこもるという観念を、老ノ坂が都と外界を隔てる境界であったこと、疫神を防ぐ四境祭の舞台であったこと、盗賊の出没する場所であったことなどを背景に分析すべきだとする。",
+          "quote": "大江山に鬼神がこもるとする観念は,老ノ坂が都(山城国)と外界を隔てる境界の性格をもった場所であったこと,疫神の侵入をさえぎり都の安寧と清浄を確保する四境祭の舞台であったこと,多くの盗賊・強盗が出没し,そのすみかとなったこと,などを背景として分析されるべきであろう。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "shuten-doji-c09",
+          "source_id": "shuten-doji-s2",
+          "host": "kotobank.jp",
+          "statement": "In the Otogi-zōshi Shuten-dōji, Raikō strikes the sleeping Shuten-dōji, who has become an oni about two jō tall, with the three gods appearing to lend their strength; the severed head flies up into the sky and aims at Raikō, who is protected by his star helmet (星甲).",
+          "statement_id": "御伽草子の『酒呑童子』では、頼光は二丈ほどの鬼となって伏す酒呑童子に斬りかかり、三神も現れて力を貸す。斬られた首は天に舞い上がって頼光を狙うが、頼光は星甲に守られる。",
+          "quote": "御伽草子。江戸時代に〈御伽文庫〉として刊行された渋川版の一つ。 ... 頼光は2丈ばかりの鬼となって臥している酒呑童子に切りかかり,3神も現じて力を貸す。切られた童子の首は天に舞いあがり頼光をねらうが,頼光は星甲に守られる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shuten-doji-c10",
+          "source_id": "shuten-doji-s2",
+          "host": "kotobank.jp",
+          "statement": "In the Otogi-zōshi plot, Raikō's party is hosted by three old men in whom the gods of three shrines have appeared and is given the Jinben kidoku sake and a hoshi kabuto helmet.",
+          "statement_id": "御伽草子の筋では、頼光一行は三社の神が姿を現した三人の翁にもてなされ、神便鬼毒酒と星甲を授けられる。",
+          "quote": "御伽草子。江戸時代に〈御伽文庫〉として刊行された渋川版の一つ。 ... 三社の神の現じた3人の翁からもてなされ,神便鬼毒(じんべんきどく)酒と星甲(ほしかぶと)とを授けられ",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shuten-doji-c11",
+          "source_id": "shuten-doji-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the oldest version Raikō offers Shuten-dōji the sake given to him by one of the deities, which renders him incapacitated.",
+          "statement_id": "Dalam versi tertua, Raikō menawarkan sake pemberian salah satu dewa kepada Shuten-dōji, yang membuatnya tak berdaya.",
+          "quote": "Raikō then offered Shuten-dōji the sake given to him by one of the deities, which rendered him incapacitated.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shuten-doji-c12",
+          "source_id": "shuten-doji-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the oldest version, many people were reported missing in the capital city of Kyoto, most of the victims being young women.",
+          "statement_id": "Dalam versi tertua, banyak orang dilaporkan hilang di ibu kota Kyoto, kebanyakan korbannya perempuan muda.",
+          "quote": "a large number of missing people were being reported in the capital city of Kyoto, most of the victims being young women.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shuten-doji-c13",
+          "source_id": "shuten-doji-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Ōeyama Ekotoba version, Shuten-dōji returned to his true form when he slept: 50 feet tall, with a red body and a five-horned head with fifteen eyes.",
+          "statement_id": "Menurut versi Ōeyama Ekotoba, Shuten-dōji kembali ke wujud aslinya saat tidur: setinggi 50 kaki, bertubuh merah, berkepala bertanduk lima, dan bermata lima belas.",
+          "quote": "According to the Ōeyama Ekotoba version, Shuten-dōji returned to his true form when he slept. He was 50 feet in height, had a red body and a five-horned head, with fifteen eyes",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shuten-doji-c14",
+          "source_id": "shuten-doji-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia summarises the oldest text version (Ōeyama Ekotoba or Ōeyama Emaki) as a story set in the reign of Emperor Ichijō (r. 986-1011).",
+          "statement_id": "Wikipedia meringkas versi teks tertua (Ōeyama Ekotoba atau Ōeyama Emaki) sebagai kisah pada masa pemerintahan Kaisar Ichijō (986–1011).",
+          "quote": "The oldest text (Ōeyama Ekotoba or Ōeyama Emaki) version the legend can be summarized as follows: During the reign of Emperor Ichijō (r. 986-1011)",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "dc75b20858002f4394338b4f2a3d394d3b767305fb71115596091481378a1a21"
+      "images": []
     },
     {
       "slug": "wanyudo",
@@ -780,20 +974,15 @@
     },
     {
       "slug": "yamabiko-folklore",
-      "file": "batch-052.md",
+      "file": "batch-052-fix-4.md",
+      "entry_sha256": "4128ba4a2846133dfde9dac1a4715142d8358eff6364e4199fca9f11b3a533fb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "yamabiko-folklore-c01",
@@ -834,10 +1023,89 @@
           "quote": "Often they are heard, but never seen.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "yamabiko-folklore-c05",
+          "source_id": "yamabiko-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The yamabiko is a small creature that resembles a cross between a dog and a monkey.",
+          "statement_id": "Yamabiko adalah makhluk kecil yang menyerupai persilangan antara anjing dan monyet.",
+          "quote": "The yamabiko is a small creature that resembles a cross between a dog and a monkey.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yamabiko-folklore-c06",
+          "source_id": "yamabiko-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The term \"yamabiko\" is also used for the phenomenon of a delayed echo in mountains and valleys, thought to be the spirit answering.",
+          "statement_id": "Istilah yamabiko juga dipakai untuk gema tertunda di gunung dan lembah, yang dianggap sebagai jawaban sang roh.",
+          "quote": "The term \"yamabiko\" is also used to describe the phenomenon of a delayed echo in mountains and valleys, and is thought to be the spirit answering.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yamabiko-folklore-c07",
+          "source_id": "yamabiko-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "This anomaly is sometimes called \"kodama\" when it is thought to be the answering voice of a tree spirit.",
+          "statement_id": "Gejala gema ini kadang disebut \"kodama\" bila dianggap sebagai suara jawaban roh pohon.",
+          "quote": "This anomaly is also sometimes called \"kodama\", when it is thought to be the answering voice of a tree spirit",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yamabiko-folklore-c08",
+          "source_id": "yamabiko-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Tottori, Tottori Prefecture, a yobuko (\"calling child\") or yobukodori (\"small calling bird\") living in the mountain is thought to give out the yamabiko's voice.",
+          "statement_id": "Di Tottori, Prefektur Tottori, yobuko (\"anak pemanggil\") atau yobukodori (\"burung pemanggil kecil\") yang hidup di gunung dianggap yang mengeluarkan suara yamabiko.",
+          "quote": "In Tottori, Tottori Prefecture, a yobuko (呼子 ; \"calling child\") or a yobukodori (呼子鳥 ; \"small calling bird\") that lives in the mountain is thought to give out the yamabiko's voice.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yamabiko-folklore-c09",
+          "source_id": "yamabiko-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes a small rock mountain in Kitaazumi District, Nagano Prefecture called the \"yamabiko rock\" that returns people's words, and concludes that yamabiko as yōkai are not uniform in origin or in what kind of yōkai they are.",
+          "statement_id": "Wikipedia mencatat sebuah gunung batu kecil di Distrik Kitaazumi, Prefektur Nagano, bernama \"batu yamabiko\" yang mengembalikan kata-kata orang, dan menyimpulkan bahwa yamabiko sebagai yōkai tidak seragam asal-usul maupun jenisnya.",
+          "quote": "there is also a small rock mountain in Kitaazumi District, Nagano Prefecture called the \"yamabiko rock\" (山彦岩 ) that return people's words, among other appearances of the word \"yamabiko\", and thus it can be seen that the yamabiko as yōkai are not uniform in either origin or what kind of yōkai they are.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yamabiko-folklore-c10",
+          "source_id": "yamabiko-folklore-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, yamabiko are known almost exclusively by their voices and are skilled at mimicking any sound, including natural sounds, human language, and trains and cars.",
+          "statement_id": "Menurut Yokai.com, yamabiko hampir hanya dikenal lewat suaranya dan pandai menirukan bunyi apa pun, termasuk suara alam, bahasa manusia, serta kereta dan mobil.",
+          "quote": "Yamabiko are known almost exclusively by their voices. They are skilled at mimicking any sound, including natural sounds, human language, and trains and cars.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yamabiko-folklore-c11",
+          "source_id": "yamabiko-folklore-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, yamabiko live deep in the mountains and make their homes in camphor trees.",
+          "statement_id": "Menurut Yokai.com, yamabiko hidup jauh di dalam pegunungan dan bersarang di pohon kamper.",
+          "quote": "They live deep in the mountains and make their homes in camphor trees",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yamabiko-folklore-c12",
+          "source_id": "yamabiko-folklore-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, the creature's form was only decided in the Edo period, when yōkai researchers such as Sawaki Sūshi and Toriyama Sekien began making illustrated yokai bestiaries.",
+          "statement_id": "Menurut Yokai.com, bentuk makhluk ini baru ditetapkan pada zaman Edo, ketika peneliti yōkai seperti Sawaki Sūshi dan Toriyama Sekien membuat bestiari bergambar.",
+          "quote": "It wasn't until the Edo period-when determined yōkai researchers like Sawaki Sūshi and Toriyama Sekien began making illustrated yokai bestiaries-that this creature's form was decided.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "bb0a8632608e46a63cd4664212d553ce600e11a41380f27dfadee2fdfa84d016"
+      "images": []
     },
     {
       "slug": "amatsu-mikaboshi",
@@ -3151,20 +3419,15 @@
     },
     {
       "slug": "saleos",
-      "file": "batch-052.md",
+      "file": "batch-052-fix-4.md",
+      "entry_sha256": "e565e10b350bf514c4e7f041b5f497e67644ace454a1975f92f1f0320c59f4a0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "saleos-c01",
@@ -3205,32 +3468,61 @@
           "quote": "公爵の宝冠をかぶり、ワニに乗った雄々しい兵士の姿で現れるが、その立ち振る舞いは穏和である。 ... 男女間に愛情を芽生えさせることができる。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "saleos-c05",
+          "source_id": "saleos-s2",
+          "host": "en.wikisource.org",
+          "statement": "In the Goetia text the nineteenth spirit is Sallos (or Saleos), a great and mighty duke who appears as a gallant soldier riding a crocodile, wearing a ducal crown, and comes peaceably.",
+          "statement_id": "Dalam teks Goetia, roh ke-19 adalah Sallos (atau Saleos), seorang adipati agung dan perkasa yang tampil sebagai prajurit gagah berkuda buaya, bermahkota adipati, dan datang dengan damai.",
+          "quote": "The Nineteenth Spirit is Sallos (or Saleos). He is a Great and Mighty Duke, and appeareth in the form of a gallant Soldier riding on a Crocodile, with a Ducal Crown on his head, but peaceably.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "saleos-c06",
+          "source_id": "saleos-s2",
+          "host": "en.wikisource.org",
+          "statement": "He causes the love of women for men and of men for women, and governs 30 legions of spirits.",
+          "statement_id": "Ia menimbulkan cinta wanita kepada pria dan pria kepada wanita, dan memimpin 30 legiun roh.",
+          "quote": "He causeth the Love of Women to Men, and of Men to Women; and governeth 30 Legions of Spirits.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "saleos-c07",
+          "source_id": "saleos-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia calls Saleos (also Sallos, Zaleos) a mighty Great Duke of Hell ruling 30 legions of demons, and a Great Earl according to Johann Weyer.",
+          "statement_id": "Wikipedia menyebut Saleos (juga Sallos, Zaleos) sebagai Adipati Agung Neraka yang perkasa dan memimpin 30 legiun iblis; menurut Johann Weyer ia seorang Earl Agung.",
+          "quote": "Saleos (also Sallos, Zaleos) is a mighty Great Duke (a Great Earl according to Johann Weyer) of Hell, ruling 30 legions of demons",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "saleos-c08",
+          "source_id": "saleos-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia describes Saleos as being of a pacifist nature, causing men to love women and women to love men.",
+          "statement_id": "Wikipedia menggambarkan Saleos berwatak pasifis, dan ia membuat pria mencintai wanita dan wanita mencintai pria.",
+          "quote": "He is of a pacifist nature, and causes men to love women and women to love men.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "56164c373207f46c5db952c66b565086a57eb308244ce7219511658c1346ccad"
+      "images": []
     },
     {
       "slug": "shikome",
-      "file": "batch-052.md",
+      "file": "batch-052-fix-4.md",
+      "entry_sha256": "db513a7972489a115d761ae2b4de9dc3b35b538f4b43828c73934f84e905fbdb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 16,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (shikome-c04)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "shikome-c01",
@@ -3266,37 +3558,146 @@
           "id": "shikome-c04",
           "source_id": "shikome-s1",
           "host": "en.wikipedia.org",
-          "statement": "He throws down his headwear, which turns into fruit and slows her.",
-          "statement_id": "Izanagi menjatuhkan penutup kepalanya, yang berubah menjadi buah dan memperlambatnya.",
+          "statement": "Izanagi first cast down his black headdress, which turned into a kind of grapes and slowed the hag's advance as she devoured them.",
+          "statement_id": "Izanagi pertama-tama menjatuhkan penutup kepala hitamnya, yang berubah menjadi sejenis anggur dan memperlambat laju sang nenek sihir yang melahapnya.",
           "quote": "Izanagi first cast down his black headdress, which turned into a kind of grapes and slowed the hag's advance as she devoured them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shikome-c05",
+          "source_id": "shikome-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, shikome is a broad term for kijo, or female oni, who look like ugly human women and often have beast-like features such as claws, paws, pointed ears or patches of furry hair.",
+          "statement_id": "Menurut Yokai.com, shikome adalah istilah luas untuk kijo, yakni oni perempuan yang berwujud perempuan manusia yang buruk rupa, dan sering berciri binatang seperti cakar, telapak, telinga runcing, atau bercak bulu.",
+          "quote": "Shikome is a broad term describing kijo, or female oni, who look like ugly human women. In addition to being ugly, they often have beast-like features such as claws, paws, pointed ears, or patches of furry hair.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shikome-c06",
+          "source_id": "shikome-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, shikome are attendants of the land of the dead and quite dangerous; they are very fast, able to leap one thousand ri (about four thousand kilometres) in a single bound.",
+          "statement_id": "Menurut Yokai.com, shikome adalah pelayan negeri orang mati, cukup berbahaya, dan sangat cepat: mampu melompat seribu ri (sekitar empat ribu kilometer) dalam satu lompatan.",
+          "quote": "Shikome are attendants of the land of the dead, and are quite dangerous. They are fast, able to leap one thousand ri (approximately four thousand kilometers) in a single bound.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shikome-c07",
+          "source_id": "shikome-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, shikome are also ravenous and can devour food at an incredible speed.",
+          "statement_id": "Menurut Yokai.com, shikome juga sangat rakus dan dapat melahap makanan dengan kecepatan luar biasa.",
+          "quote": "They are also ravenous, and can devour food at an incredible speed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shikome-c08",
+          "source_id": "shikome-s2",
+          "host": "yokai.com",
+          "statement": "In the story as told by Yokai.com, Izanami ordered her servants, the yomotsu shikome, to catch Izanagi; as they closed in, Izanagi threw down his woven headdress, which turned into a vine of grapes.",
+          "statement_id": "Dalam kisah menurut Yokai.com, Izanami memerintahkan para pelayannya, yomotsu shikome, menangkap Izanagi; ketika mereka mendekat, Izanagi melempar penutup kepala anyaman yang berubah menjadi rambatan anggur.",
+          "quote": "Izanami ordered her servants, the yomotsu shikome, to catch Izanagi. The shikome were incredibly fast. As they closed in, Izanagi threw his woven headdress to the floor. It transformed into a vine of grapes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shikome-c09",
+          "source_id": "shikome-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, Izanagi broke the teeth off his comb and scattered them; they turned into bamboo shoots, which the shikome also devoured, buying him a little more time.",
+          "statement_id": "Menurut Yokai.com, Izanagi mematahkan gigi sisirnya dan menebarkannya; gigi itu menjadi rebung, yang juga dilahap para shikome sehingga ia mendapat sedikit waktu lagi.",
+          "quote": "Izanagi broke the teeth off of his comb and scattered them. They turned into bamboo shoots. The shikome devoured these too, buying him just a little more time.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shikome-c10",
+          "source_id": "shikome-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, Izanagi finally escaped to the surface and rolled a large boulder over the entrance to Yomi, trapping the shikome and his furious wife in the underworld forever.",
+          "statement_id": "Menurut Yokai.com, Izanagi akhirnya lolos ke permukaan dan menggulingkan batu besar menutup pintu masuk Yomi, memerangkap para shikome dan istrinya yang murka di dunia bawah selamanya.",
+          "quote": "At last, he was able to escape to the surface. He rolled a large boulder over the entrance to Yomi, trapping the shikome and his furious wife in the underworld forever.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shikome-c11",
+          "source_id": "shikome-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com gives 醜女 (しこめ) with the translation \"ugly woman\", the alternate name yomotsu shikome, and Yomi, the Shintō underworld, as habitat.",
+          "statement_id": "Yokai.com menulis 醜女 (しこめ) dengan terjemahan \"perempuan buruk rupa\", nama lain yomotsu shikome, dan habitat Yomi, dunia bawah Shinto.",
+          "quote": "Shikome 醜女 しこめ Translation: ugly woman Alternate names: yomotsu shikome (\"ugly woman from hell\") Habitat: Yomi (the Shintō underworld)",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "shikome-c12",
+          "source_id": "shikome-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, early shikome illustrations served as the basis for many yōkai satirizing unattractive women, such as ao nyōbo, taka onna and kerakera onna.",
+          "statement_id": "Menurut Yokai.com, ilustrasi shikome awal menjadi dasar bagi banyak yōkai yang menyindir perempuan tidak menarik, seperti ao nyōbo, taka onna, dan kerakera onna.",
+          "quote": "Early shikome illustrations have served as the basis for a great number of yōkai which satirize unattractive women, such as ao nyōbo, taka onna, and kerakera onna.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shikome-c13",
+          "source_id": "shikome-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia records the alternative name Yomotsu-hisame and says the name may have been a collective term for eight hags, not just one.",
+          "statement_id": "Wikipedia mencatat nama lain Yomotsu-hisame, dan menyebut nama ini mungkin istilah kolektif untuk delapan nenek sihir, bukan satu.",
+          "quote": "Also recorded by the name Yomotsu-hisame (泉津日狭女 ), the name may have been a term referring collectively to eight hags, not just one.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "shikome-c14",
+          "source_id": "shikome-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Nihon Shoki, it was either eight demon-hags (female oni) or a woman or women named Yomotsu-hisame who hunted after Izanagi.",
+          "statement_id": "Menurut Nihon Shoki, yang memburu Izanagi adalah delapan nenek iblis (oni perempuan) atau perempuan bernama Yomotsu-hisame.",
+          "quote": "But either eight demon-hags (female oni) or a woman/women named Yomotsu-hisame hunted after Izanagi according to the Nihon Shoki",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shikome-c15",
+          "source_id": "shikome-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Izanagi brandished his sword Totsuka-no-Tsurugi but the pursuers kept on, until he climbed the \"flat slope\" at the entrance to the Underworld and flung three peaches, whereupon the pursuers retreated.",
+          "statement_id": "Menurut Wikipedia, Izanagi mengayunkan pedang Totsuka-no-Tsurugi tetapi pengejar tetap mengejar, hingga ia mendaki \"lereng datar\" di pintu masuk Dunia Bawah dan melempar tiga buah persik, sehingga para pengejar mundur.",
+          "quote": "Izanagi brandished his Totsuka-no-Tsurugi (十拳剣 ) but still they pursued, until he climbed atop the \"flat slope\" or \"Even Pass\" at the entrance to the Underworld, and flung three peaches, whereby the pursuers retreated.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shikome-c16",
+          "source_id": "shikome-s3",
+          "host": "kotobank.jp",
+          "statement": "The Digital Daijisen defines 黄泉醜女 (yomotsu-shikome) as a female oni in the land of Yomi.",
+          "statement_id": "Digital Daijisen mendefinisikan 黄泉醜女 (yomotsu-shikome) sebagai oni perempuan yang berada di negeri Yomi.",
+          "quote": "よも-つ-しこめ【黄=泉▽醜女】 黄泉 よみ の国にいる鬼女。 「すなはち-を遣はして追はしめき」〈記・上〉",
           "context": "traditional-belief",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "29109fcdf65081474b68f7de0024eda43a1258a9c0ce9b9f676e2fed856869f4"
+      "images": []
     },
     {
       "slug": "sitri",
-      "file": "batch-052.md",
+      "file": "batch-052-fix-4.md",
+      "entry_sha256": "a91c6c68e358eca18cfcbfc40884c86b5b37f8e6fff3d9fded0a1a1e590920b3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (sitri-c04)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "sitri-c01",
@@ -3332,32 +3733,56 @@
           "id": "sitri-c04",
           "source_id": "sitri-s2",
           "host": "en.wikipedia.org",
-          "statement": "Another form is described as a beautiful human figure.",
-          "statement_id": "Wujud lainnya dikatakan berupa manusia yang sangat rupawan.",
+          "statement": "At the conjurer's request he changes into a very beautiful man.",
+          "statement_id": "Atas permintaan sang pemanggil, ia berubah menjadi pria yang sangat rupawan.",
           "quote": "under the conjurer's request he changes into a very beautiful man.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sitri-c05",
+          "source_id": "sitri-s3",
+          "host": "en.wikisource.org",
+          "statement": "In the Goetia text the twelfth spirit is Sitri, a great prince who first appears with a leopard's head and a gryphon's wings, then at the command of the Master of the Exorcism takes human shape, a very beautiful one.",
+          "statement_id": "Dalam teks Goetia, roh ke-12 adalah Sitri, seorang pangeran agung yang mula-mula tampil berkepala macan tutul dan bersayap griffin, lalu atas perintah sang pemanggil mengambil wujud manusia yang sangat rupawan.",
+          "quote": "The Twelfth Spirit is Sitri. He is a Great Prince and appeareth at first with a Leopard's head and the Wings of a Gryphon, but after the command of the Master of the Exorcism he putteth on Human shape, and that very beautiful.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sitri-c06",
+          "source_id": "sitri-s3",
+          "host": "en.wikisource.org",
+          "statement": "He inflames men with love for women and women with love for men, and also makes them show themselves naked if desired; he governs 60 legions of spirits.",
+          "statement_id": "Ia membangkitkan cinta pria kepada wanita dan wanita kepada pria, dan juga membuat mereka menampakkan diri tanpa busana bila dikehendaki; ia memimpin 60 legiun roh.",
+          "quote": "He enflameth men with Women's love, and Women with Men's love; and causeth them also to show themselves naked if it be desired. He governeth 60 Legions of Spirits.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sitri-c07",
+          "source_id": "sitri-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia lists other spellings of Sitri (Bitru, Sytry, Sytri) and calls him a Great Prince of Hell reigning over 60 legions of demons.",
+          "statement_id": "Wikipedia mencatat ejaan lain Sitri: Bitru, Sytry, dan Sytri; ia disebut Pangeran Agung Neraka yang memerintah 60 legiun iblis.",
+          "quote": "Sitri (also Bitru, Sytry, Sytri) is a Great Prince of Hell, and reigns over 60 legions of demons.",
           "context": "traditional-belief",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9f9d7c648a428f32b8bedc73874bb5675e2cd2b553d80769ad05a7402e51a21d"
+      "images": []
     },
     {
       "slug": "sumiyoshi-sanjin",
-      "file": "batch-052.md",
+      "file": "batch-052-fix-4.md",
+      "entry_sha256": "0ec00e8bb8eabbcefa165cd46a95551792b94485f8a4b80977c4cc69eccd3616",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 16,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "sumiyoshi-sanjin-c01",
@@ -3398,27 +3823,141 @@
           "quote": "According to Japanese mythology recorded in works like the Kojiki and Nihon Shoki, the Sumiyoshi sanjin were born together with the three Watatsumi deities (綿津見三神) when Izanagi performed a misogi after returning from Yomi.",
           "context": "religious-tradition",
           "status": "loose"
+        },
+        {
+          "id": "sumiyoshi-sanjin-c05",
+          "source_id": "sumiyoshi-sanjin-s2",
+          "host": "www.sumiyoshitaisha.net",
+          "statement": "According to Sumiyoshi Taisha, the shrine's deities are the three kami Sokotsutsu no O, Nakatsutsu no O and Uwatsutsu no O, who emerged from the sea when Izanagi performed misogi-harai, together with Empress Jingū, who is enshrined there.",
+          "statement_id": "Menurut Sumiyoshi Taisha, dewa yang dipuja di sana adalah tiga kami Sokotsutsu no O, Nakatsutsu no O, dan Uwatsutsu no O yang muncul dari laut ketika Izanagi melakukan misogi harai, serta Permaisuri Jingū yang dipuja di kuil itu.",
+          "quote": "住吉大社の祭神は、伊弉諾尊が禊祓を行われた際に海中より出現された底筒男命・中筒男命・表筒男命の三神、そして当社鎮斎の神功皇后を祭神とします。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sumiyoshi-sanjin-c06",
+          "source_id": "sumiyoshi-sanjin-s2",
+          "host": "www.sumiyoshitaisha.net",
+          "statement": "Sumiyoshi Taisha states that the deities are revered as guardians of voyages, as exemplified by the missions to Sui and Tang China; in the dynastic era they were also worshipped as gods of waka poetry and literature and as gods who appear in person, and are honoured as ancestral deities of purification, industry, trade and diplomacy.",
+          "statement_id": "Sumiyoshi Taisha menyatakan para dewa ini dipuja sebagai pelindung pelayaran, sebagaimana tampak pada utusan ke Sui dan Tang; pada masa kekaisaran juga dipuja sebagai dewa puisi waka dan sastra, serta dewa yang menampakkan diri secara nyata, dan dihormati sebagai dewa leluhur penyucian, industri, perdagangan, dan diplomasi.",
+          "quote": "遣隋使・遣唐使に代表される航海の守護神として崇敬をあつめ、また、王朝時代には和歌・文学の神として、あるいは現実に姿を現される神としての信仰もあり、禊祓・産業・貿易・外交の祖神と仰がれています。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sumiyoshi-sanjin-c07",
+          "source_id": "sumiyoshi-sanjin-s2",
+          "host": "www.sumiyoshitaisha.net",
+          "statement": "According to the tradition from the Nihon Shoki and Kojiki as explained by the shrine, when Izanagi went into the sea to purify himself by misogi, Sokotsutsu no O, Nakatsutsu no O and Uwatsutsu no O, the great kami of Sumiyoshi, were born.",
+          "statement_id": "Menurut tradisi yang dicatat dalam Nihon Shoki dan Kojiki sebagaimana dijelaskan kuil, ketika Izanagi masuk ke laut untuk misogi membersihkan kenajisan, lahirlah Sokotsutsu no O, Nakatsutsu no O, dan Uwatsutsu no O, yaitu Sumiyoshi Ōkami.",
+          "quote": "「日本書紀」や「古事記」の神代の巻での言い伝え ... そのケガレを清めるために海に入って禊祓いしたとき、住吉大神である底筒男命 (そこつつのおのみこと) 、中筒男命 (なかつつのおのみこと) 、表筒男命 (うわつつのおのみこと) が生まれました。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sumiyoshi-sanjin-c08",
+          "source_id": "sumiyoshi-sanjin-s2",
+          "host": "www.sumiyoshitaisha.net",
+          "statement": "According to the shrine, Empress Jingū subdued powerful Silla with the protection of Sumiyoshi Ōkami and returned safely; on the triumphal return, by the deity's oracle, the deity was enshrined at the present site of Sumiyoshi.",
+          "statement_id": "Menurut kuil, Permaisuri Jingū menaklukkan Silla yang kuat dengan perlindungan Sumiyoshi Ōkami dan pulang dengan selamat; dalam perjalanan pulang itu, atas wahyu sang dewa, beliau memuliakan dewa tersebut di tempat Sumiyoshi yang sekarang.",
+          "quote": "神功皇后は、住吉大神の加護を得て強大な新羅を平定せられ無事帰還を果たされます。この凱旋の途中、住吉大神の神託によって現在の住吉の地に鎮斎されました。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sumiyoshi-sanjin-c09",
+          "source_id": "sumiyoshi-sanjin-s2",
+          "host": "www.sumiyoshitaisha.net",
+          "statement": "Sumiyoshi Taisha describes itself as the head shrine of some 2,300 Sumiyoshi shrines across the country.",
+          "statement_id": "Sumiyoshi Taisha menyebut dirinya kuil induk dari sekitar 2.300 lebih kuil Sumiyoshi di seluruh Jepang.",
+          "quote": "という社格がつけられ、人々に親しまれてきました。昭和21年までは官幣大社であり、全国約2300社余の住吉神社の総本社でもあります。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sumiyoshi-sanjin-c10",
+          "source_id": "sumiyoshi-sanjin-s3",
+          "host": "www.sumiyoshitaisha.net",
+          "statement": "According to Sumiyoshi Taisha, because Sumiyoshi Ōkami emerged from the sea during Izanagi's misogi-harai, the deity presides over harai (purification), the most important rite in Shinto.",
+          "statement_id": "Menurut Sumiyoshi Taisha, karena Sumiyoshi Ōkami muncul dari laut saat misogi-harai Izanagi, beliau adalah dewa yang menguasai \"harai\" (penyucian), hal terpenting dalam Shinto.",
+          "quote": "住吉大神は伊邪那岐命の禊祓 (みそぎはらえ) の際に海中より出現されたので、神道でもっとも大事な「祓(はらえ)」を司る神です。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sumiyoshi-sanjin-c11",
+          "source_id": "sumiyoshi-sanjin-s3",
+          "host": "www.sumiyoshitaisha.net",
+          "statement": "Because the deity emerged from the sea, Sumiyoshi Ōkami is worshipped as a sea god and has long been revered as a powerfully efficacious deity among seafarers and fishermen.",
+          "statement_id": "Karena muncul dari laut, Sumiyoshi Ōkami dipercaya sebagai dewa laut dan sejak lama dihormati sebagai dewa yang manjur oleh para pelaut dan nelayan.",
+          "quote": "住吉大神は海中より出現されたため、海の神としての信仰があり、古くから航海関係者や漁民の間で、霊験あらたかな神として崇敬されてきました。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sumiyoshi-sanjin-c12",
+          "source_id": "sumiyoshi-sanjin-s3",
+          "host": "www.sumiyoshitaisha.net",
+          "statement": "In the Nara period, whenever a mission to Tang China was dispatched, prayers for safety at sea were always offered.",
+          "statement_id": "Pada zaman Nara, setiap kali utusan ke Tang diberangkatkan, selalu dipanjatkan doa untuk keselamatan di laut.",
+          "quote": "奈良時代、遣唐使の派遣の際には、必ず海上の無事を祈りました。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sumiyoshi-sanjin-c13",
+          "source_id": "sumiyoshi-sanjin-s3",
+          "host": "www.sumiyoshitaisha.net",
+          "statement": "According to a legend that Sumiyoshi Ōkami taught how to make a rice seedbed without laying down grass, the deity has long been deeply revered as a god of farming.",
+          "statement_id": "Menurut legenda, Sumiyoshi Ōkami mengajarkan cara membuat persemaian padi tanpa menghamparkan rumput, sehingga sejak lama sangat dihormati sebagai dewa pertanian.",
+          "quote": "住吉大神が草を敷かずに苗代をつくる方法を教えたという伝説により、古くから「農耕の神」として篤い崇敬を受けてきました。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sumiyoshi-sanjin-c14",
+          "source_id": "sumiyoshi-sanjin-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes a theory that the Sumiyoshi sanjin are the deification of the three main stars of Orion, a constellation used for navigation in antiquity.",
+          "statement_id": "Wikipedia mencatat teori bahwa Sumiyoshi sanjin adalah pendewaan tiga bintang utama rasi Orion, yang pada zaman kuno dipakai untuk navigasi.",
+          "quote": "there is a theory that suggests the Sumiyoshi sanjin are the deification of the three main stars in Orion. In antiquity, the constellation Orion was used for navigation; perhaps for this reason, it was deified.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sumiyoshi-sanjin-c15",
+          "source_id": "sumiyoshi-sanjin-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They are sometimes referred to as the Sumiyoshi daijin (住吉大神).",
+          "statement_id": "Mereka kadang disebut Sumiyoshi daijin (住吉大神).",
+          "quote": "They are sometimes referred to as the Sumiyoshi daijin (住吉大神 ).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sumiyoshi-sanjin-c16",
+          "source_id": "sumiyoshi-sanjin-s2",
+          "host": "www.sumiyoshitaisha.net",
+          "statement": "Sumiyoshi Taisha records the enshrinement (chinza) in the 11th year of Empress Jingū's regency (211 CE).",
+          "statement_id": "Sumiyoshi Taisha mencatat pemuliaan (chinza) dewa-dewa itu pada tahun ke-11 masa pemerintahan Permaisuri Jingū sebagai wali takhta (sesshō), tahun 211 M.",
+          "quote": "鎮座 神功皇后摂政11年(西暦211年) 社格 ・延喜式名神大社",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "aef3885f4fa955fbac8864edfc3cd6bf915c68affb83709de5e1fcd486bb21f8"
+      "images": []
     },
     {
       "slug": "takaonna",
-      "file": "batch-052.md",
+      "file": "batch-052-fix-4.md",
+      "entry_sha256": "17d916fe8c61b0e613b087b32414a300519ff0c0432bba08034afdadb1ba3c98",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "takaonna-c01",
@@ -3459,10 +3998,119 @@
           "quote": "Some believe that this yōkai was an original invention designed to parody the Yoshiwara Yūkaku of the Edo period.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "takaonna-c05",
+          "source_id": "takaonna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia records the folklorist Morihiko Fujisawa's explanation that in a story from Wakayama Prefecture called Takanyōbō (\"Tall Woman\"), a Takaonna would frighten people on the second floors of girō (brothels).",
+          "statement_id": "Wikipedia mencatat penjelasan folkloris Morihiko Fujisawa bahwa dalam sebuah cerita dari Prefektur Wakayama bernama Takanyōbō (\"Perempuan Tinggi\"), Takaonna menakuti orang di lantai dua rumah bordil (girō).",
+          "quote": "by the folklorist Morihiko Fujisawa explains that in a story from the Wakayama Prefecture called Takanyōbō (高女房, \"Tall Woman\"), a Takaonna would frighten people on the second floors of girō (brothels).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "takaonna-c06",
+          "source_id": "takaonna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the kaidan \"Takaonna\" by the novelist Norio Yamada, she is a homely woman who could never be with a man in life; transformed into a yōkai by her own desire, she wanders the earth, elongating her body to peek into the second floor of brothels.",
+          "statement_id": "Dalam kaidan \"Takaonna\" karya novelis Norio Yamada, ia digambarkan sebagai perempuan sederhana yang semasa hidup tak pernah bisa bersama seorang pria; berubah menjadi yōkai karena hasratnya, ia berkeliaran dan memanjangkan tubuh untuk mengintip lantai dua rumah bordil.",
+          "quote": "by the novelist Norio Yamada, the kaidan (mysterious tale) titled \"Takaonna\" depicts the Takaonna as a homely woman who could never be with a man when she was alive. Transformed into a yōkai from her own desire, she wanders the earth, elongating her body to peek into the second floor of brothels",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "takaonna-c07",
+          "source_id": "takaonna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The yōkai researcher Kenji Murakami notes that Fujisawa's explanation is only one interpretation of Sekien's painting and that Yamada's kaidan is a completely different tale sharing the name Takaonna.",
+          "statement_id": "Peneliti yōkai Kenji Murakami mencatat bahwa penjelasan Fujisawa hanyalah satu tafsir atas lukisan Sekien, dan kaidan Yamada adalah kisah yang sama sekali berbeda yang kebetulan bernama sama.",
+          "quote": "yōkai researcher Kenji Murakami notes that Fujisawa's explanation is nothing more than one interpretation of Sekien's painting and that Yamada's kaidan is a completely different tale that shares the name of Takaonna.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "takaonna-c08",
+          "source_id": "takaonna-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, taka onna appear most of the time as ordinary, homely women, but have the power to elongate their bodies to several meters in height.",
+          "statement_id": "Menurut Yokai.com, taka onna sebagian besar waktu tampak seperti perempuan biasa yang sederhana, tetapi mereka mampu memanjangkan tubuh hingga setinggi beberapa meter.",
+          "quote": "Taka onna appear as ordinary, homely human women most of the time. But they have the power to elongate their bodies and grow to several meters in height.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "takaonna-c09",
+          "source_id": "takaonna-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, taka onna are often seen peering into second-story windows of brothels and homes where romantic liaisons take place; their activities are generally limited to peeping.",
+          "statement_id": "Menurut Yokai.com, taka onna sering terlihat mengintip jendela lantai dua rumah bordil dan rumah tempat pertemuan asmara berlangsung; kegiatan mereka umumnya terbatas pada mengintip.",
+          "quote": "Taka onna are frequently spotted peering into the second-story windows of brothels and homes where romantic liaisons are taking place. Their activities are generally limited to peeping into windows.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "takaonna-c10",
+          "source_id": "takaonna-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, taka onna rarely attack humans physically but enjoy scaring and harassing the men and women who frequent the pleasure districts.",
+          "statement_id": "Menurut Yokai.com, taka onna jarang menyerang manusia secara fisik, tetapi senang menakut-nakuti dan mengganggu pria dan wanita yang sering mendatangi kawasan hiburan.",
+          "quote": "Though they rarely attack humans physically, taka onna do enjoy scaring and harassing both men and women who frequent the pleasure districts",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "takaonna-c11",
+          "source_id": "takaonna-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, taka onna were originally ordinary women too unattractive to marry or to find work in the red light districts they haunt.",
+          "statement_id": "Menurut Yokai.com, taka onna semula adalah perempuan biasa yang terlalu tidak menarik untuk menikah atau untuk mendapat pekerjaan di kawasan lampu merah yang mereka hantui.",
+          "quote": "Taka onna were originally ordinary women who were too unattractive to marry (or to find work in the red light districts which they haunt).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "takaonna-c12",
+          "source_id": "takaonna-s2",
+          "host": "yokai.com",
+          "statement": "In one account on Yokai.com, a woodcutter pretending to sleep saw his wife jump into a well, then elongate her body and climb back out.",
+          "statement_id": "Dalam satu kisah menurut Yokai.com, seorang penebang kayu yang berpura-pura tidur melihat istrinya melompat ke dalam sumur, lalu memanjangkan tubuhnya dan memanjat keluar.",
+          "quote": "One night while pretending to sleep in bed, he witnessed his wife jump into a well. She then elongated her body and climbed back out.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "takaonna-c13",
+          "source_id": "takaonna-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com gives 高女 (たかおんな) with the translation \"tall woman\", the alternate name takajo, and red light districts as habitat.",
+          "statement_id": "Yokai.com menulis 高女 (たかおんな) dengan terjemahan \"perempuan tinggi\", nama lain takajo, dan habitat kawasan lampu merah.",
+          "quote": "Taka onna 高女 たかおんな Translation: tall woman Alternate names: takajo Habitat: red light districts",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "takaonna-c14",
+          "source_id": "takaonna-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com states that sightings of these yōkai peaked during the Edo period and continued up to the post-war period.",
+          "statement_id": "Yokai.com menyatakan penampakan yōkai ini memuncak pada zaman Edo dan berlanjut hingga masa pascaperang.",
+          "quote": "Sightings of these yōkai peaked during the Edo period and continued up to the post-war period",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "takaonna-c15",
+          "source_id": "takaonna-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia records a Takaonna statue based on Mizuki Shigeru's design, displayed alongside 9 other yōkai statues since 2009.",
+          "statement_id": "Wikipedia mencatat patung Takaonna berdasarkan desain Mizuki Shigeru yang dipajang bersama 9 patung yōkai lain sejak 2009.",
+          "quote": "This Takaonna statue was based on Mizuki Shigeru's design and has been displayed alongside 9 other yōkai statues since 2009.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "5b46c077def435c0c51bc0a50061f865f7ea3e727d27dc35533d7c44522f2b70"
+      "images": []
     },
     {
       "slug": "tofu-kozo",
@@ -3691,20 +4339,15 @@
     },
     {
       "slug": "tsurube-otoshi",
-      "file": "batch-052.md",
+      "file": "batch-052-fix-4.md",
+      "entry_sha256": "4ab0489ec3a1ebca88a3c015c131ec499a40555006c42f6693549cc79b64620d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tsurube-otoshi-c01",
@@ -3745,27 +4388,111 @@
           "quote": "In the Tsuchida section of the village of Ōi, it is also said that tsurube-oroshi would devour humans.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "tsurube-otoshi-c05",
+          "source_id": "tsurube-otoshi-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, tsurube otoshi are gigantic disembodied heads of a human, a tengu or an oni, sometimes appearing wreathed in flames like large fireballs with facial features.",
+          "statement_id": "Menurut Yokai.com, tsurube otoshi adalah kepala raksasa tanpa tubuh milik manusia, tengu, atau oni, dan kadang tampak diselubungi api seperti bola api besar berwajah.",
+          "quote": "Tsurube otoshi are a gigantic disembodied heads of either a human, a tengu, or an oni. Sometimes they appear wreathed in flames like large fireballs with facial features.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tsurube-otoshi-c06",
+          "source_id": "tsurube-otoshi-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, tsurube otoshi lurk in the treetops late at night, waiting for unsuspecting creatures to pass underneath, and drop to the ground like a stone when they need to feed.",
+          "statement_id": "Menurut Yokai.com, tsurube otoshi mengintai di pucuk pohon larut malam, menunggu makhluk yang tak curiga lewat di bawahnya, lalu jatuh cepat ke tanah seperti batu saat perlu makan.",
+          "quote": "Tsurube otoshi lurk in the treetops late at night and wait for unsuspecting creatures to pass underneath. When they need to feed, they drop quickly to the ground like a stone.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tsurube-otoshi-c07",
+          "source_id": "tsurube-otoshi-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com states that this is the reason for its name, which means \"falling well bucket\".",
+          "statement_id": "Yokai.com menyatakan bahwa itulah asal namanya, yang berarti \"ember sumur yang jatuh\".",
+          "quote": "This is the reason for its name, which means \"falling well bucket.\"",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "tsurube-otoshi-c08",
+          "source_id": "tsurube-otoshi-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, they also drop large rocks or even well buckets on their victims from up high, laughing at the damage they inflict.",
+          "statement_id": "Menurut Yokai.com, mereka juga menjatuhkan batu besar atau bahkan ember sumur dari ketinggian ke korbannya sambil menertawakan kerusakan yang ditimbulkan.",
+          "quote": "They also drop large rocks or even well buckets (they have a sense of humor) on their victims from up high, laughing at the damage they inflict.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tsurube-otoshi-c09",
+          "source_id": "tsurube-otoshi-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, tsurube otoshi in the Kansai region are most often solitary gargantuan heads, while in the Tohoku region they usually come in larger groups of slightly smaller heads.",
+          "statement_id": "Menurut Yokai.com, tsurube otoshi di wilayah Kansai paling sering berupa kepala raksasa tunggal, sedangkan di wilayah Tohoku biasanya berupa kelompok kepala yang sedikit lebih kecil.",
+          "quote": "Tsurube otoshi encountered in the Kansai region are most often solitary, gargantuan heads. In the Tohoku region, tsurube otoshi are usually encountered in larger groups of slightly smaller heads.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tsurube-otoshi-c10",
+          "source_id": "tsurube-otoshi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In an oral legend from the Hōki section of Sogabe village (now Kameoka), Kyoto Prefecture, recorded by Wikipedia, a tsurube-oroshi suddenly drops from a kaya tree with a sniggering laugh, saying \"has your night work ended, how 'bout let's drop a bucket, gii-gii\", and then rises above the tree again.",
+          "statement_id": "Dalam tuturan lisan dari bagian Hōki, desa Sogabe (kini Kameoka), Prefektur Kyoto, yang dicatat Wikipedia, sebuah tsurube-oroshi tiba-tiba jatuh dari pohon kaya sambil terkekeh dan berkata \"sudah selesai kerja malammu? mau kujatuhkan ember? gii-gii\", lalu naik lagi ke atas pohon.",
+          "quote": "in the Hōki section of the village of Sogabe in Kyoto Prefecture (now Kameoka), a tsurube-oroshi would suddenly drop down from a kaya tree and make a sniggering laugh saying \"has your night work ended, how 'bout let's drop a bucket, gii-gii\" (\"yagyō sunda ka, tsurube oroso ka, gii-gii\") and then rise up above the tree again.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tsurube-otoshi-c11",
+          "source_id": "tsurube-otoshi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In an account recorded by Wikipedia, someone who reaches for something shining at the base of an old tree, thinking it a koban coin, is dragged into a bucket, lifted above the tree, menaced and then devoured by the tsurube-otoshi living there.",
+          "statement_id": "Dalam kisah zaman Genroku yang dicatat Wikipedia, orang yang mengulurkan tangan ke sesuatu yang berkilau di pangkal pohon tua karena mengira itu koin koban akan diseret ke dalam ember, diangkat ke atas pohon, lalu diteror dan dimakan oleh tsurube-otoshi yang tinggal di sana.",
+          "quote": "In a Genroku period yōkai tale told about in the Kuroe part of Kainan, Wakayama Prefecture, it is said that a certain old tree would have something shining at its base ... they would get dragged into a bucket and lifted up to above the tree where they would be menaced and then devoured by the tsurube-otoshi living there",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tsurube-otoshi-c12",
+          "source_id": "tsurube-otoshi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Edo-period kaidan collection Kokon Hyakumonogatari Hyōban, recorded by Wikipedia, they are depicted under the name \"tsurube-oroshi\" as a yōkai that is the spirit of a large tree turned into flames that rain down.",
+          "statement_id": "Dalam kumpulan kaidan zaman Edo, Kokon Hyakumonogatari Hyōban, yang dicatat Wikipedia, ia digambarkan dengan nama \"tsurube-oroshi\" sebagai yōkai berupa roh pohon besar yang berubah menjadi api yang menghujan.",
+          "quote": "In the Edo Period collection of kaidan (mysterious tales), the Kokon Hyakumonogatari Hyōban, they are depicted under the name of \"tsurube-oroshi\" (釣瓶おろし ) as a yōkai that is a spirit of a large tree that has turned into flames that rain down.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tsurube-otoshi-c13",
+          "source_id": "tsurube-otoshi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes a theory that originally both the tsurube-otoshi and the tsurubebi were similarly atmospheric ghost lights dangling from trees like buckets.",
+          "statement_id": "Wikipedia mencatat teori bahwa pada mulanya tsurube-otoshi dan tsurubebi sama-sama berupa cahaya hantu atmosferik yang menggantung di pohon seperti ember.",
+          "quote": "there is also the theory that originally both the tsurube-otoshi and the tsurubebi were similarly atmospheric ghost lights that dangle from trees like buckets.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2742b3d99dc7550d9d464fad735ef15d9f052025b83a276e4ada82f9642d248e"
+      "images": []
     },
     {
       "slug": "white-hare-of-inaba",
-      "file": "batch-052.md",
+      "file": "batch-052-fix-5.md",
+      "entry_sha256": "12ac54a7cf239a335b559c5539082d944ba69e6a4475fc0feb8eb2fd73926edc",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 17,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "white-hare-of-inaba-c01",
@@ -3806,27 +4533,151 @@
           "quote": "One version of the tale of the White Hare of Inaba is found in the Kojiki, the oldest extant chronicle in Japan, which dates from early in the 8th century (711-712).",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "white-hare-of-inaba-c05",
+          "source_id": "white-hare-of-inaba-s2",
+          "host": "kotobank.jp",
+          "statement": "The Digital Daijisen describes the White Hare of Inaba as the hare of Izumo myth who tricked the wanizame (sharks) to cross their backs from Oki Island to Inaba province, but was stripped bare by the last wanizame.",
+          "statement_id": "Digital Daijisen menyebut kelinci Inaba sebagai kelinci dalam mitos Izumo yang menipu para wanizame (hiu) untuk menyeberang dari Pulau Oki ke negeri Inaba, tetapi dilucuti kulitnya oleh wanizame terakhir.",
+          "quote": "いなば-の-しろうさぎ【因幡の白兎】 出雲神話に出てくる兎。 淤岐島 おきのしま から因幡国へ行くため、 鰐鮫 わにざめ を欺いてその背を渡ったが、最後の鰐鮫に丸裸にされ、",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-hare-of-inaba-c06",
+          "source_id": "white-hare-of-inaba-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Digital Daijisen, the hare believed the Yasogami's advice as it was, bathed in seawater and wept in pain, and was saved by Ōkuninushi.",
+          "statement_id": "Menurut Digital Daijisen, kelinci itu percaya begitu saja pada ajaran para Yasogami lalu mandi air laut dan menangis kesakitan, hingga diselamatkan Ōkuninushi.",
+          "quote": "さらに 八十神 やそかみ の教えをそのまま信じて潮を浴び、痛くて泣いていたところを、 大国主命 おおくにぬしのみこと に救われる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-hare-of-inaba-c07",
+          "source_id": "white-hare-of-inaba-s2",
+          "host": "kotobank.jp",
+          "statement": "Nipponica says the hare-and-shark tale in the Kojiki is an animal story of a cunning animal deceiving a dull one, related to tales existing on Java and in Indonesia.",
+          "statement_id": "Nipponica menyebut kisah kelinci dan hiu dalam Kojiki sebagai kisah binatang cerdik yang menipu binatang dungu, yang berkaitan dengan kisah-kisah di Pulau Jawa dan Indonesia.",
+          "quote": "この『古事記』にみえる兎と鮫の話は、狡猾(こうかつ)な動物が魯鈍(ろどん)な動物をだます動物譚(たん)として、ジャワ島やインドネシアに存在している説話などとも関係がある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "white-hare-of-inaba-c08",
+          "source_id": "white-hare-of-inaba-s2",
+          "host": "kotobank.jp",
+          "statement": "Nipponica stresses that in the Kojiki the story is recast as one in which the cunning hare fails, and the rescued hare plays the role of a hare deity predicting the success of the lowest-ranking Ōnamuchi.",
+          "statement_id": "Nipponica menekankan bahwa dalam Kojiki kisah ini diubah menjadi kisah kegagalan kelinci licik, dan kelinci yang ditolong berperan sebagai dewa kelinci yang meramalkan keberhasilan Ōnamuchi yang paling rendah kedudukannya.",
+          "quote": "しかし『古事記』では狡猾な兎が失敗する話につくりかえられており、助けられた兎が、いちばん卑しい大汝神の成功を予言する兎神としての役割を演じている点に注意する必要がある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "white-hare-of-inaba-c09",
+          "source_id": "white-hare-of-inaba-s2",
+          "host": "kotobank.jp",
+          "statement": "According to Heibonsha, the hare predicted that Ōnamuchi, not the Yasogami, would marry Yakami-hime of Inaba, and the prediction came true; this hare is said to have gained worship as a hare deity (usagi-kami).",
+          "statement_id": "Menurut Heibonsha, kelinci itu meramalkan bahwa Ōnamuchi, bukan para Yasogami, akan menikahi Yakami-hime dari Inaba, dan ramalan itu terbukti; kelinci ini konon dipuja sebagai dewa kelinci (usagi-kami).",
+          "quote": "そこで兎は八十神ではなくオオナムチが因幡の八上比売(やかみひめ)と結婚すると予言し,的中する。この兎は〈兎神(うさぎかみ)〉として信仰を得たという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-hare-of-inaba-c10",
+          "source_id": "white-hare-of-inaba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Kojiki version as given by Wikipedia, a hare tricks wanizame (sharks) into serving as a land bridge from the Island of Oki to Cape Keta; he challenges the sharks to compare whose clan is larger and has them lie in a row across the sea.",
+          "statement_id": "Dalam versi Kojiki menurut Wikipedia, seekor kelinci menipu wanizame (hiu) agar dijadikan jembatan dari Pulau Oki ke Tanjung Keta; ia menantang para hiu membandingkan klan mana yang lebih besar dan menyuruh mereka berbaris melintasi laut.",
+          "quote": "In the Kojiki version of the myth, a hare tricks some wanizame into being used as a land bridge in order to travel from the Island of Oki to Cape Keta. ... The hare challenges the sharks to see whose clan is larger-that of the sharks, or that of the hares. The hare had the sharks lie in a row across the sea.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-hare-of-inaba-c11",
+          "source_id": "white-hare-of-inaba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, near the end the hare exclaims that he has deceived the sharks to use them as a bridge, and the last shark attacks him, ripping his fur from him.",
+          "statement_id": "Menurut Wikipedia, menjelang ujung barisan kelinci berseru bahwa ia telah menipu para hiu untuk dijadikan jembatan, dan hiu terakhir menyerangnya serta merobek bulunya.",
+          "quote": "Nearing the end, the hare exclaims that he has deceived the sharks in order to use them as a bridge. The last shark attacks the hare, ripping his fur from him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-hare-of-inaba-c12",
+          "source_id": "white-hare-of-inaba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Ōnamuchi told the hare to bathe in fresh water at a river mouth and roll in cattail pollen; the hare's body was restored and after recovery it revealed its true form as a god.",
+          "statement_id": "Menurut Wikipedia, Ōnamuchi menyuruh kelinci mandi air tawar di muara sungai lalu berguling di serbuk sari rumput kattail; tubuh kelinci pulih dan setelah sembuh ia menyingkapkan wujud aslinya sebagai dewa.",
+          "quote": "Ōnamuchi, unlike his quarreling elder brothers, told the hare to bathe in fresh water from the mouth of a river, and then roll in the pollen of cattails. The body of the hare was restored to its original state, and after its recovery, revealed its true form as a god.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-hare-of-inaba-c13",
+          "source_id": "white-hare-of-inaba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes that Japanese scholars have traditionally interpreted the struggle between the kind Ōnamuchi and his wrathful eighty brothers as a symbolic representation of civilization and barbarism in the emergent Japanese state.",
+          "statement_id": "Wikipedia mencatat bahwa para sarjana Jepang secara tradisional menafsirkan pertentangan antara Ōnamuchi yang baik hati dan delapan puluh saudaranya yang murka sebagai lambang peradaban dan barbarisme dalam negara Jepang yang baru muncul.",
+          "quote": "Japanese scholars have traditionally interpreted the struggle between the kind Ōnamuchi and his wrathful eighty brothers as a symbolic representation of civilization and barbarism in the emergent Japanese state.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "white-hare-of-inaba-c14",
+          "source_id": "white-hare-of-inaba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, when the Japanese goddess Amaterasu and her entourage traveled around the boundary of Yakami in Inaba looking for a place for a temporary palace, a white hare appeared, bit Amaterasu's clothes and took her to a suitable place for a temporary palace.",
+          "statement_id": "Menurut Wikipedia, ketika dewi Jepang Amaterasu dan rombongannya berkeliling di perbatasan Yakami di Inaba mencari tempat istana sementara, seekor kelinci putih muncul, menggigit pakaian Amaterasu, dan membawanya ke tempat yang cocok untuk istana sementara.",
+          "quote": "Long ago, when Japanese goddess Amaterasu and her entourage traveled around at the boundary of Yakami in Inaba, they were looking for a place for their temporary palace, suddenly a white hare appeared. the white hare bit Amaterasu's clothes and took her to an appropriate place for a temporary palace",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-hare-of-inaba-c17",
+          "source_id": "white-hare-of-inaba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In that account according to Wikipedia, Amaterasu reached a mountaintop plain now called Ise ga naru, and the white hare disappeared there.",
+          "statement_id": "Dalam kisah itu menurut Wikipedia, Amaterasu tiba di dataran puncak gunung yang kini disebut Ise ga naru, dan kelinci putih menghilang di sana.",
+          "quote": "Amaterasu reached a mountain top plain, which is now called Ise ga naru. Then, the white hare disappeared at Ise ga naru.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-hare-of-inaba-c15",
+          "source_id": "white-hare-of-inaba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes the place of this legend is in Yazu town and Tottori city, Tottori Prefecture, where Hakuto Jinja shrine reveres the white hare.",
+          "statement_id": "Wikipedia mencatat tempat legenda ini berada di kota Yazu dan kota Tottori, Prefektur Tottori, tempat kuil Hakuto Jinja memuliakan kelinci putih.",
+          "quote": "The place of this legend is in Yazu town and Tottori city, in Tottori Prefecture (ancient Inaba and Houki), where the shrine Hakuto Jinja reveres the white hare.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "white-hare-of-inaba-c16",
+          "source_id": "white-hare-of-inaba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes the hare in the legend is Lepus brachyurus, the Japanese hare, possibly the Oki Islands subspecies Lepus brachyurus okiensis.",
+          "statement_id": "Wikipedia mencatat bahwa kelinci dalam legenda ini adalah Lepus brachyurus (kelinci Jepang), mungkin subspesies Pulau Oki, Lepus brachyurus okiensis.",
+          "quote": "The hare referred to in the legend is the Lepus brachyurus, or Japanese hare, possibly the subspecies found on the Oki Islands known as the Lepus brachyurus okiensis.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "83df9f5aaed9a0a383cd59aa4f608897b2f117c571cc29aaead756c8eebc01f9"
+      "images": []
     },
     {
       "slug": "yako",
-      "file": "batch-052.md",
+      "file": "batch-052-fix-5.md",
+      "entry_sha256": "1583594302b9f4e099112b8b603fc84e208b185154a36b0b2bd17619f28c1134",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "yako-c01",
@@ -3867,27 +4718,121 @@
           "quote": "The appearance of a yako is almost completely consistent among all legends; they are black or white, are slightly larger than a mouse, and smaller than a cat.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "yako-c05",
+          "source_id": "yako-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, nogitsune, also frequently called yako, are a type of kitsune; the term refers to low-ranking wild kitsune that have no divine soul and are not messengers of the gods.",
+          "statement_id": "Menurut Yokai.com, nogitsune, yang sering juga disebut yako, adalah jenis kitsune; istilah ini merujuk pada kitsune liar berpangkat rendah yang tidak memiliki jiwa ilahi dan bukan utusan dewa.",
+          "quote": "Nogitsune, also frequently called yako, are a type of kitsune-magical foxes found in East Asian folklore. Specifically the term refers to low ranking, wild kitsune that do not have a divine soul or serve as messengers of the gods.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yako-c06",
+          "source_id": "yako-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, nogitsune are particularly known for transforming into humans, and in folktales where humans are tormented, tricked or possessed by kitsune, the culprit is almost always a nogitsune.",
+          "statement_id": "Menurut Yokai.com, nogitsune terutama dikenal karena menjelma manusia, dan dalam dongeng tentang manusia yang disiksa, ditipu, atau dirasuki kitsune, pelakunya hampir selalu nogitsune.",
+          "quote": "They are particularly known for transforming into humans. In folktales where humans are tormented, tricked, or possessed by kitsune, the culprit is almost always a nogitsune.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yako-c07",
+          "source_id": "yako-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, nogitsune dislike bright light and hide from the sun by day, fear bladed objects such as swords and knives, and are frightened of dogs.",
+          "statement_id": "Menurut Yokai.com, nogitsune tidak suka cahaya terang dan bersembunyi dari matahari di siang hari, takut pada benda tajam seperti pedang dan pisau, dan takut pada anjing.",
+          "quote": "They dislike bright light, and hide from the sun during the daytime. They are also afraid of bladed objects, and will avoid swords and knives. They are frightened of dogs as well.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yako-c08",
+          "source_id": "yako-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, to change shape a nogitsune needs a magical focus, usually a bone from a cow or horse; kitsunetsuki, possession by a fox spirit, is also commonly performed by nogitsune.",
+          "statement_id": "Menurut Yokai.com, untuk berubah wujud nogitsune memerlukan benda sihir, biasanya tulang sapi atau kuda; kitsunetsuki (perasukan oleh roh rubah) juga sering dilakukan nogitsune.",
+          "quote": "In order to change its shape, a nogitsune requires a magical focus of some kind; usually a bone from a cow or a horse. Kitsunetsuki-possession by a fox spirit-is also commonly performed by nogitsune.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yako-c09",
+          "source_id": "yako-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, nogitsune sneak into human-inhabited areas at night to steal favourite foods: wax candles, lamp oil, lacquer, alcohol and fried tofu.",
+          "statement_id": "Menurut Yokai.com, nogitsune menyelinap ke permukiman manusia pada malam hari untuk mencuri makanan kesukaan mereka: lilin, minyak lampu, pernis, alkohol, dan tahu goreng.",
+          "quote": "they like to sneak into human-inhabited areas at night to steal some of their favorite foods: wax candles, lamp oil, lacquer, alcohol, and fried tofu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yako-c10",
+          "source_id": "yako-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, yako is simply another reading of the kanji of its name, while the name yakan (野干) is more archaic and originates from a different animal.",
+          "statement_id": "Menurut Yokai.com, yako hanyalah cara baca lain kanji nama nogitsune, sedangkan nama yakan (野干) lebih arkais dan berasal dari hewan yang berbeda.",
+          "quote": "The most common one-yako-is simply another reading of the kanji in its name. The name yakan (野干) is more archaic, and has its origins in a different animal.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "yako-c11",
+          "source_id": "yako-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com gives 野狐 (のぎつね) with the translation \"wild fox\" and the alternate names yako and yakan.",
+          "statement_id": "Yokai.com menulis 野狐 (のぎつね) dengan terjemahan \"rubah liar\" dan nama lain yako dan yakan.",
+          "quote": "Nogitsune 野狐 のぎつね Translation: wild fox Alternate names: yako, yakan",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "yako-c12",
+          "source_id": "yako-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes that the original yako is said to be invisible to the eye, and that in Hirado, Nagasaki Prefecture, they normally bring along a great crowd that walks with them.",
+          "statement_id": "Wikipedia mencatat bahwa yako asli dikatakan tak terlihat mata, dan di Hirado, Prefektur Nagasaki, mereka biasanya membawa serombongan besar yang berjalan bersama mereka.",
+          "quote": "The original yako is said to be invisible to the eye. In Hirado, Nagasaki Prefecture, they normally bring along a great crowd that walks with them",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yako-c13",
+          "source_id": "yako-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes that in Southern Kyūshū family lines would get possessed by a yako, their progeny would be possessed, and if they could no longer support it, it would possess their cattle and horses.",
+          "statement_id": "Wikipedia mencatat bahwa di Kyūshū selatan garis keluarga dapat dirasuki yako, keturunannya ikut dirasuki, dan bila tak sanggup lagi memeliharanya, yako merasuki ternak dan kuda mereka.",
+          "quote": "In Southern Kyūshū, family lines would get possessed by a yako, and family lines that raised yako (possessed by a yako) would have their progeny possessed, and if they were no longer able to support it, it would possess its cattle and horses.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yako-c14",
+          "source_id": "yako-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes that on Iki Island they are also called yako and resemble weasels; when one conceals itself under a person's armpits, that person is said to become possessed by a yako.",
+          "statement_id": "Wikipedia mencatat bahwa di Pulau Iki mereka juga disebut yako dan menyerupai musang; bila salah satunya bersembunyi di ketiak seseorang, orang itu dikatakan dirasuki yako.",
+          "quote": "On Iki Island, they are also called yako, and since they resemble weasels, it is said that when one of them conceals themselves under a person's armpits, that person would become possessed by a yako.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "27f6dd90097822d8552c14d79419785f35f2179b04e6ee0dd5e40d885997aa9e"
+      "images": []
     },
     {
       "slug": "zagan",
-      "file": "batch-052.md",
+      "file": "batch-052-fix-5.md",
+      "entry_sha256": "dd5bb93371cad10cbe9f52bf33a4ee27107b5f7a959a31e89071ca587e37d4d9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "zagan-c01",
@@ -3913,9 +4858,9 @@
           "id": "zagan-c03",
           "source_id": "zagan-s2",
           "host": "en.wikipedia.org",
-          "statement": "He first appears as a winged bull before taking human form.",
-          "statement_id": "Ia mula-mula tampil sebagai banteng bersayap sebelum berubah menjadi manusia.",
-          "quote": "Zagan is depicted as a griffin-winged bull that turns into a man after a while.",
+          "statement": "Wikipedia says Zelba, one of Zagan's alternative names, is depicted as a griffin-winged bull that turns into a man after a while.",
+          "statement_id": "Wikipedia menyebut Zelba, salah satu nama lain Zagan, digambarkan sebagai banteng bersayap griffin yang setelah beberapa lama berubah menjadi manusia.",
+          "quote": "Zelba is depicted as a griffin-winged bull that turns into a man after a while.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -3928,27 +4873,71 @@
           "quote": "『ゴエティア』によると、ワインを水に、血をワインに、また水をワインに変質させることができる。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "zagan-c05",
+          "source_id": "zagan-s3",
+          "host": "en.wikisource.org",
+          "statement": "In the Goetia text the sixty-first spirit is Zagan, a great king and president who appears at first as a bull with gryphon's wings but after a while takes human shape.",
+          "statement_id": "Dalam teks Goetia, roh ke-61 adalah Zagan, raja agung sekaligus presiden, yang mula-mula tampil sebagai banteng bersayap griffin lalu setelah beberapa lama mengambil wujud manusia.",
+          "quote": "The Sixty-first Spirit is Zagan. He is a Great King and President, appearing at first in the Form of a Bull with Gryphon's Wings; but after a while he putteth on Human Shape.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zagan-c06",
+          "source_id": "zagan-s3",
+          "host": "en.wikisource.org",
+          "statement": "According to the Goetia text he makes men witty and can turn wine into water, blood into wine, and water into wine.",
+          "statement_id": "Menurut teks Goetia, ia membuat orang cerdik, dan dapat mengubah anggur menjadi air, darah menjadi anggur, serta air menjadi anggur.",
+          "quote": "He maketh Men Witty. He can turn Wine into Water, and Blood into Wine, also Water into Wine.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zagan-c07",
+          "source_id": "zagan-s3",
+          "host": "en.wikisource.org",
+          "statement": "According to the Goetia text he can turn all metals into coin of the dominion that metal is of, can even make fools wise, and governs 33 legions of spirits.",
+          "statement_id": "Menurut teks Goetia, ia dapat mengubah semua logam menjadi koin wilayah asal logam itu, bahkan membuat orang bodoh menjadi bijak, dan memimpin 33 legiun roh.",
+          "quote": "He can turn all Metals into Coin of the Dominion that Metal is of. He can even make Fools wise. He governeth 33 Legions of Spirits",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zagan-c08",
+          "source_id": "zagan-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia lists other spellings of Zagan (Zagam, Zelbam, Zelba, Zelban, Zelbal, Zelbini) and calls him a Great King and President of Hell commanding 33 legions of demons.",
+          "statement_id": "Wikipedia mencatat ejaan lain Zagan (Zagam, Zelbam, Zelba, Zelban, Zelbal, Zelbini) dan menyebutnya Raja Agung dan Presiden Neraka yang memimpin 33 legiun iblis.",
+          "quote": "Zagan (also Zagam, Zelbam, Zelba, Zelban, Zelbal, Zelbini) is a Great King and President of Hell, commanding 33 legions of demons.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zagan-c09",
+          "source_id": "zagan-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes that according to the Pseudomonarchia Daemonum he can also turn blood into oil, oil into blood, and a fool into a wise man.",
+          "statement_id": "Wikipedia mencatat bahwa menurut Pseudomonarchia Daemonum ia juga dapat mengubah darah menjadi minyak, minyak menjadi darah, dan orang bodoh menjadi bijak.",
+          "quote": "(According to the Pseudomonarchia Daemonum, he can also turn blood into oil, oil into blood, and a fool into a wise man)",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f3292224929512603a74ba8050e87cf5291687af444d6245c37b6be697d2844b"
+      "images": []
     },
     {
       "slug": "zepar",
-      "file": "batch-052.md",
+      "file": "batch-052-fix-5.md",
+      "entry_sha256": "56d47cb602f69f7e72cce19dc46596a2e02f3653d8e4feb75e5892b2397435f8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "zepar-c01",
@@ -3989,10 +4978,39 @@
           "quote": "His office is to cause women to love men, and bring them together in love.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "zepar-c05",
+          "source_id": "zepar-s3",
+          "host": "en.wikisource.org",
+          "statement": "In the Goetia text the sixteenth spirit is Zepar, a great duke who appears in red apparel and armour like a soldier; his office is to cause women to love men and bring them together in love.",
+          "statement_id": "Dalam teks Goetia, roh ke-16 adalah Zepar, adipati agung yang tampil berpakaian dan berbaju zirah merah seperti prajurit; tugasnya membuat wanita mencintai pria dan menyatukan mereka dalam cinta.",
+          "quote": "The Sixteenth Spirit is Zepar. He is a Great Duke, and appeareth in Red Apparel and Armour, like a Soldier. His office is to cause Women to love Men, and to bring them together in love.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zepar-c06",
+          "source_id": "zepar-s3",
+          "host": "en.wikisource.org",
+          "statement": "According to the Goetia text he also makes them barren, governs 26 legions of inferior spirits, and obeys his seal when he sees it.",
+          "statement_id": "Menurut teks Goetia, ia juga membuat mereka mandul, memimpin 26 legiun roh bawahan, dan menaati meterainya bila melihatnya.",
+          "quote": "He also maketh them barren. He governeth 26 Legions of Inferior Spirits, and his Seal is this, which he obeyeth when he seeth it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zepar-c07",
+          "source_id": "zepar-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia calls Zepar a Great Duke of Hell commanding 26 legions of inferior spirits, whose office is to make women love men and bring them together in love, and who makes women barren.",
+          "statement_id": "Wikipedia menyebut Zepar sebagai Adipati Agung Neraka yang memimpin 26 legiun roh bawahan, bertugas membuat wanita mencintai pria dan menyatukan mereka dalam cinta, serta membuat wanita mandul.",
+          "quote": "Zepar is a Great Duke of Hell, commanding 26 legions of inferior spirits. His office is to cause women to love men, and bring them together in love. He makes women barren.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "58ce4c07b541c0af949ac561421b821dc5dce2f16e8e274126bc229ae58214d7"
+      "images": []
     },
     {
       "slug": "akugyo",
@@ -6216,20 +7234,15 @@
     },
     {
       "slug": "okuri-inu",
-      "file": "batch-052.md",
+      "file": "batch-052-fix-5.md",
+      "entry_sha256": "506ccd28428c2582d6b866ae8bdff0f4c3b1496dd205b0270f43d13c4becfc21",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "okuri-inu-c01",
@@ -6270,27 +7283,121 @@
           "quote": "If by chance the person falls over they will be immediately eaten up, but if they pretend to be having a short rest they will not be attacked.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "okuri-inu-c05",
+          "source_id": "okuri-inu-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, the okuri inu follows lone travelers late at night, stalking them at a safe distance and following footstep for footstep as long as they keep walking; if the traveler trips or stumbles it pounces and rips them to shreds.",
+          "statement_id": "Menurut Yokai.com, okuri inu mengikuti pelancong yang sendirian larut malam di jalan, menjaga jarak aman, mengikuti langkah demi langkah selama mereka terus berjalan; bila pelancong tersandung, ia menerkam dan mencabik-cabiknya.",
+          "quote": "The okuri inu follows lone travelers late on the road at night. It stalks them, keeping a safe distance, but following footstep for footstep, as long as they keep walking. If the traveler should trip or stumble, the okuri inu will pounce on them and rip them to shreds.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "okuri-inu-c06",
+          "source_id": "okuri-inu-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com calls the okuri inu somewhat of a blessing and a curse: it pounces with supernatural speed if one falls, but so ferocious that while it follows someone no other dangerous yokai or wild animals come close.",
+          "statement_id": "Yokai.com menyebut okuri inu sebagai berkah sekaligus kutukan: ia menerkam dengan kecepatan supernatural bila orang jatuh, tetapi karena sangat garang, selama ia mengikuti seseorang tidak ada yōkai atau binatang buas berbahaya lain yang mendekat.",
+          "quote": "The okuri inu is somewhat of a blessing and a curse. On the one hand, if one should trip and fall, it will pounce with supernatural speed and gobble him or her up. On the other hand, they are so ferocious that while they are following someone, no other dangerous yokai or wild animals will come close.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "okuri-inu-c07",
+          "source_id": "okuri-inu-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, the okuri inu has a special relationship with another yokai, the yosuzume, whose nocturnal song is often a warning that an okuri inu is following you.",
+          "statement_id": "Menurut Yokai.com, okuri inu punya hubungan khusus dengan yōkai lain, yosuzume; nyanyian malam burung ini sering menjadi peringatan bahwa okuri inu sedang mengikuti.",
+          "quote": "The okuri inu has a special relationship with another yokai, the yosuzume. This eerie bird's nocturnal song is often a warning that an okuri inu is following you.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "okuri-inu-c08",
+          "source_id": "okuri-inu-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, a person who stumbles can survive by faking it as deliberate, so that the okuri inu is tricked into thinking they were just taking a short rest and does not pursue.",
+          "statement_id": "Menurut Yokai.com, bila seseorang tersandung, ia bisa selamat dengan berpura-pura itu disengaja sehingga okuri inu mengira ia hanya beristirahat sebentar dan tidak mengejar.",
+          "quote": "if you fake it so it looks like you did it on purpose, the okuri inu will be tricked into thinking you were just taking a short rest, and it won't pursue.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "okuri-inu-c09",
+          "source_id": "okuri-inu-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, after making it out of the mountains safely one should turn around and call out \"Thanks for seeing me off!\", after which that okuri inu will never follow again.",
+          "statement_id": "Menurut Yokai.com, setelah keluar dari pegunungan dengan selamat, orang sebaiknya berbalik dan berseru \"Terima kasih sudah mengantar!\", dan okuri inu itu tidak akan mengikutinya lagi.",
+          "quote": "If you should make it out of the mountains safely, you should turn around and call out, \"Thanks for seeing me off!\" Afterwards, that okuri inu will never follow you again.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "okuri-inu-c10",
+          "source_id": "okuri-inu-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com gives 送り犬 (おくりいぬ) with the translation \"sending-off dog\", the alternate name okuri ōkami (\"sending-off wolf\"), and dark mountain passes and forested roads as habitat.",
+          "statement_id": "Yokai.com menulis 送り犬 (おくりいぬ) dengan terjemahan \"anjing pengantar\", nama lain okuri ōkami (\"serigala pengantar\"), dan habitat jalur gunung gelap serta jalan berhutan.",
+          "quote": "Okuri inu 送り犬 おくりいぬ Translation: sending-off dog Alternate names: okuri ōkami (sending-off wolf) Habitat: dark mountain passes, forested roads",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "okuri-inu-c11",
+          "source_id": "okuri-inu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In an account recorded by Wikipedia, a woman who gave birth on a mountain path was surrounded by many okuri-inu, which instead of attacking protected the mother and child from the wolves lurking in the mountain.",
+          "statement_id": "Dalam sebuah catatan yang dimuat Wikipedia, seorang perempuan yang melahirkan di jalan gunung dikelilingi banyak okuri-inu; alih-alih menyerang, mereka melindungi ibu dan anak itu dari serigala yang berkeliaran di gunung.",
+          "quote": "Night fell, and many okuri-inu gathered around. Terrified, the woman said \"If you're going to eat us then eat us!\", but rather than attacking, they actually protected the mother and child from the wolves that lurked in the mountain.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "okuri-inu-c12",
+          "source_id": "okuri-inu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia records the yōkai investigator Kenji Murakami's hypothesis that the okuri-ōkami is actually the Japanese wolf and that tales of strange goings on or protection are merely convenient interpretations of the wolf's nature and traits.",
+          "statement_id": "Wikipedia mencatat hipotesis peneliti yōkai Kenji Murakami bahwa okuri-ōkami sebenarnya adalah serigala Jepang, dan kisah keganjilan atau perlindungan hanyalah tafsir yang memudahkan atas sifat serigala itu.",
+          "quote": "Yōkai investigator Kenji Murakami, too, has hypothesised that the okuri-ōkami is actually the Japanese wolf, and that tales of strange goings on or protecting people are merely convenient interpretations of the Japanese wolf's nature and traits.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "okuri-inu-c14",
+          "source_id": "okuri-inu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes that from the Kantō region to the Kinki region, and in Kōchi, there are legends of okuri-ōkami (\"sending-off wolf\").",
+          "statement_id": "Wikipedia mencatat bahwa dari wilayah Kantō hingga Kinki, juga di Kōchi, ada legenda okuri-ōkami (\"serigala pengantar\").",
+          "quote": "From the Kantō region to the Kinki region, along with Kōchi Prefecture, there are legends of okuri-ōkami (送り狼 ; literally, 'sending-off wolf').",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "okuri-inu-c13",
+          "source_id": "okuri-inu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes that in Koumi, yama-inu are classified as either okuri-inu or mukae-inu (\"welcoming dog\"), with okuri-inu said to protect people and mukae-inu attacking them.",
+          "statement_id": "Wikipedia mencatat bahwa di Koumi, yama-inu digolongkan sebagai okuri-inu atau mukae-inu (\"anjing penyambut\"); okuri-inu disebut melindungi orang, sedangkan mukae-inu menyerang.",
+          "quote": "in Koumi, yama-inu (see above) are classified either as okuri-inu or mukae-inu (迎え犬 ; literally, 'welcoming dog'), with okuri-inu being said to protect people like the case from Shioda, and mukae-inu attacking people.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8c149f577cff2feb5517f3bf6f9adb1a59eb86ab0f161960ef9aac2ff1a95bba"
+      "images": []
     },
     {
       "slug": "omononushi",
-      "file": "batch-052.md",
+      "file": "batch-052-fix-5.md",
+      "entry_sha256": "b9dcb997d7650c36317f5d5b36475ca09f7ab9db8d6b8e697cecf5bb306436aa",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "omononushi-c01",
@@ -6331,27 +7438,111 @@
           "quote": "The deity of Kotohira Shrine (Kotohira-gū) in Kotohira, Kagawa Prefecture, popularly known as Konpira Daigongen (金毘羅大権現), is also currently identified with Ōmononushi.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "omononushi-c05",
+          "source_id": "omononushi-s2",
+          "host": "kotobank.jp",
+          "statement": "According to Heibonsha, \"mono\" means a spirit or demonic thing and \"nushi\" means chief; per the Mount Miwa legend in the Kiki chronicles this deity had a snake body and lived in a rock cave; under Emperor Sujin his curse caused a plague, and when his descendant Ōtataneko was made to worship him, the realm became stable.",
+          "statement_id": "Menurut Heibonsha, \"mono\" berarti makhluk gaib dan \"nushi\" berarti pemimpin; menurut legenda Gunung Miwa dalam Kiki, dewa ini berwujud ular dan tinggal di gua batu; pada masa Kaisar Sujin kutukannya menimbulkan wabah, dan ketika keturunannya Ōtataneko memujanya, negeri menjadi tenteram.",
+          "quote": "モノは魔物をいい,ヌシは頭領の意。記紀の伝える三輪山伝説によると,この神は蛇体であり岩窟に住んでいた。また崇神天皇の代にこの神のたたりで疫病がはやり人民が飢え苦しんだので,その子孫の大田田根子に祭らせたところ,天下は安定したともいう。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "omononushi-c06",
+          "source_id": "omononushi-s2",
+          "host": "kotobank.jp",
+          "statement": "Heibonsha calls Ōmononushi one of the most strongly indigenous earthly deities (kunitsukami) of the Yamato region; he stands out as an emanation of Ōkuninushi who helped build the land and, after the transfer of the land, led the earthly deities to guard the court.",
+          "statement_id": "Heibonsha menyebut Ōmononushi sebagai salah satu kunitsukami paling berakar di wilayah Yamato; ia menonjol sebagai penjelmaan Ōkuninushi yang membantu pembangunan negeri dan, setelah penyerahan negeri, memimpin para kunitsukami melindungi istana.",
+          "quote": "魔物の頭目として大和地方でもっとも土着性の強い国津神(くにつかみ)の一つだが,このオオモノヌシが記紀神話の伝承の中でとくに目だつのは,大国主神(おおくにぬしのかみ)の分身として国作りに協力し,国譲りの後はもろもろの国津神を率いて宮廷を守護したとされている点である。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "omononushi-c07",
+          "source_id": "omononushi-s2",
+          "host": "kotobank.jp",
+          "statement": "Nipponica calls him the ancestral deity of the Miwa clan, with rich myths of sacred marriage with Seyadatarahime and Yamato-Totohimomosohime; he is also a snake god, a thunder god and a god of farming.",
+          "statement_id": "Nipponica menyebutnya dewa leluhur klan Miwa, dengan banyak mitos pernikahan sakral dengan Seyadatara-hime dan Yamatototohimomoso-hime; ia juga dewa ular, dewa petir, dan dewa pertanian.",
+          "quote": "しかし、実際は三輪(みわ)氏の祖神である。この神には勢夜陀多良比売(せやだたらひめ)や倭迹迹日百襲姫命(やまとととひももそひめのみこと)との聖婚を語る神話が豊かに伝承されている(古事記、日本書紀)。蛇神、雷神でもあり、農耕神でもある。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "omononushi-c08",
+          "source_id": "omononushi-s2",
+          "host": "kotobank.jp",
+          "statement": "According to the Yamakawa Nihonshi Shōjiten, he appeared as a curse-bringing deity in the time of Emperor Sujin and also manifests as a red-painted arrow, a snake and thunder.",
+          "statement_id": "Menurut Yamakawa Nihonshi Shōjiten, ia muncul sebagai dewa pengutuk pada masa Kaisar Sujin dan juga menampakkan diri sebagai panah bercat merah, ular, dan petir.",
+          "quote": "崇神(すじん)天皇のとき祟り神として現れ,また丹塗矢・蛇・雷などとして顕現してもいる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "omononushi-c09",
+          "source_id": "omononushi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes that the name Ōmononushi is translated either as \"Great Thing Master\" (literal rendering of the characters) or \"Great Spirit Master\" (mono taken as spirit or supernatural entity).",
+          "statement_id": "Wikipedia mencatat bahwa nama Ōmononushi diterjemahkan sebagai \"Penguasa Benda Agung\" (terjemahan harfiah aksara) atau \"Penguasa Roh Agung\" (mono dimaknai roh atau makhluk gaib).",
+          "quote": "The name 'Ōmononushi' ... is translated either as 'Great Thing Master' (after a literal translation of the characters used in his name) or 'Great Spirit Master' (with mono being taken as meaning 'spirit' or 'supernatural entity').",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "omononushi-c10",
+          "source_id": "omononushi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia lists Ōmononushi as a god of nation-building, agriculture, business, medicine, brewing and seafaring.",
+          "statement_id": "Wikipedia memerinci Ōmononushi sebagai dewa pembangunan negara, pertanian, bisnis, pengobatan, pembuatan minuman keras, dan pelayaran.",
+          "quote": "Ōmononushi-no-Kami Mitama of Ōkuninushi; god of nation-building, agriculture, business, medicine, brewing, and seafaring",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "omononushi-c11",
+          "source_id": "omononushi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, another god \"illuminating the sea\" appeared before Ōkuninushi and promised to help if worshipped; Ōkuninushi enshrined him on Mount Mimoro (Mount Miwa) in Yamato.",
+          "statement_id": "Menurut Wikipedia, dewa lain yang \"menerangi laut\" muncul di hadapan Ōkuninushi dan berjanji membantu bila dipuja; Ōkuninushi memuliakannya di Gunung Mimoro (Gunung Miwa) di Yamato.",
+          "quote": "another god \"illuminating the sea\" appears before Ōkuninushi, promising to aid him in his task if he (Ōkuninushi) will worship him. Ōkuninushi, in accordance with the god's wish, then enshrined him in Mount Mimoro (Mount Miwa) in the land of Yamato.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "omononushi-c12",
+          "source_id": "omononushi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, in a revelation Ōmononushi claimed responsibility for the pestilence and announced it would not stop until he was offered due worship by a man named Ōtataneko.",
+          "statement_id": "Menurut Wikipedia, melalui wahyu Ōmononushi mengaku bertanggung jawab atas wabah dan menyatakan wabah takkan berhenti sebelum ia dipuja sebagaimana mestinya oleh seorang bernama Ōtataneko.",
+          "quote": "In it, Ōmononushi claimed responsibility for the pestilence and announced that it would not stop until he was offered due worship by a man named Ōtataneko",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "omononushi-c13",
+          "source_id": "omononushi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Wikipedia, Seyadatarahime bore a daughter after being impregnated by Ōmononushi, who took the form of a red arrow.",
+          "statement_id": "Menurut Wikipedia, Seyadatarahime melahirkan seorang putri setelah dihamili Ōmononushi, yang mengambil wujud panah merah.",
+          "quote": "Seyadatarahime (勢夜陀多良比売) who bore a daughter after she was impregnated by Ōmononushi, who took the form of a red arrow",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2330c49045dd72c210481734f831626e07a2bb2af50fbf14749ab553588a02ff"
+      "images": []
     },
     {
       "slug": "ouni",
-      "file": "batch-052.md",
+      "file": "batch-052-fix-5.md",
+      "entry_sha256": "e783770b7078e8676e63b543cc8a6f657c98022e6c18f46d54f98de0e9ea32f9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ouni-c01",
@@ -6392,27 +7583,101 @@
           "quote": "There are no folk legends or records that are clearly about the ouni (or the \"wauwau\" based on Sekien's), so it is presently not clear what kind of yōkai they were intending to depict, but starting in the Heisei period, inferring from how there are many tales that seem highly related to the previous \"o\" and the yamauba, there have started to be many illustrated references, books, and oth",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "ouni-c05",
+          "source_id": "ouni-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, ouni looks like an ugly old woman with an angry face and a body covered in long black hair; she is a kind of yamauba, or mountain hag, who lives deep in the mountains and only occasionally appears before humans.",
+          "statement_id": "Menurut Yokai.com, ouni tampak seperti perempuan tua buruk rupa berwajah marah dengan tubuh tertutup rambut hitam panjang; ia sejenis yamauba (nenek gunung) yang tinggal jauh di pegunungan dan hanya sesekali menampakkan diri kepada manusia.",
+          "quote": "Ouni looks like an ugly old woman with an angry face and a body covered in long, black hair. She is a kind of yamauba, or mountain hag. She lives deep in the mountains, away from civilization, and only occasionally appears before humans.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ouni-c06",
+          "source_id": "ouni-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, unlike most yamauba, ouni are friendly toward humans who treat them kindly, and occasionally visit rural houses or mountain huts late at night.",
+          "statement_id": "Menurut Yokai.com, tidak seperti kebanyakan yamauba, ouni bersahabat dengan manusia yang memperlakukannya dengan baik, dan sesekali mengunjungi rumah desa atau pondok gunung larut malam.",
+          "quote": "Unlike most yamauba, ouni are friendly towards humans who treat them kindly. They occasionally visit rural houses or mountain huts late at night.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ouni-c07",
+          "source_id": "ouni-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, if the household is kind and invites her in, during the night she spins an enormous amount of thread for the family and then vanishes without a trace.",
+          "statement_id": "Menurut Yokai.com, bila penghuni rumah ramah dan mengundangnya masuk, pada malam hari ia memintal benang dalam jumlah sangat banyak bagi keluarga itu lalu lenyap tanpa jejak.",
+          "quote": "If they are kind and invite her in, during the night she spins an enormous amount of thread for the family and then vanishes without a trace.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ouni-c08",
+          "source_id": "ouni-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, ouni's name comes from the Japanese word for ramie, a fibrous plant used to make thread, and peat, the rotten muck of swamps from rotting plant matter.",
+          "statement_id": "Menurut Yokai.com, nama ouni berasal dari kata Jepang untuk rami (ramie), tanaman berserat untuk benang, dan gambut, lumpur busuk rawa dari bahan tanaman yang membusuk.",
+          "quote": "Ouni's name comes from the Japanese word for ramie, a fibrous plant that is used to make thread, and peat, the rotten muck found in swamps that comes from rotting plant matter.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "ouni-c09",
+          "source_id": "ouni-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com gives 苧うに (おうに) with the translation \"ramie peat\", the alternative name wauwau, and deep in the mountains as habitat.",
+          "statement_id": "Yokai.com menulis 苧うに (おうに) dengan terjemahan \"gambut rami\", nama lain wauwau, dan habitat jauh di pegunungan.",
+          "quote": "Ouni 苧うに おうに Translation: ramie peat (named for her resemblance to these plants) ALTERNATIVE NAMES: wauwau Habitat: deep in the mountains",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "ouni-c10",
+          "source_id": "ouni-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes that the \"o\" (苧) in \"ouni\" refers to the ramie plant or to bundles of string made from ramie, hemp and the like, so it is said Sekien named it \"ouni\" because it evokes a yōkai with head and body hair made of layers of this \"o\".",
+          "statement_id": "Wikipedia mencatat bahwa \"o\" (苧) dalam \"ouni\" menunjuk rami atau gulungan benang dari rami dan semacamnya, sehingga dikatakan Sekien menamainya \"ouni\" karena membayangkan yōkai berambut kepala dan tubuh dari lapisan \"o\".",
+          "quote": "The \"o\" (苧) in \"ouni\" refers to the ramie plant or to bundles of string made from ramie, hemp, among others, so it is said that Sekien gave it the name \"ouni\" because it conjures up the image of a yōkai with head and body hair made of layers of this \"o\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "ouni-c11",
+          "source_id": "ouni-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia notes that in the Hyakkai Zukan (1737, Sawaki Suushi), an Edo-period yōkai emaki, it is called \"wauwau\", and Edo-period yōkai emaki usually present it under that name.",
+          "statement_id": "Wikipedia mencatat bahwa dalam Hyakkai Zukan (1737, Sawaki Suushi), gulungan yōkai zaman Edo, ia bernama \"wauwau\", dan gulungan yōkai zaman Edo biasanya menampilkannya dengan nama itu.",
+          "quote": "In the Hyakkai Zukan (1737, Sawaki Suushi), a yōkai emaki from the Edo period, it is given by the name \"wauwau\", and Edo period yōkai emaki would usually present it under that name.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "ouni-c12",
+          "source_id": "ouni-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia records a tale from Kotaki, Echigo Province, in which a yamauba appeared and helped spin, biting the hemp to draw out strings and spinning bundles of string at a speed unbelievable for humans.",
+          "statement_id": "Wikipedia mencatat tuturan dari Kotaki, Provinsi Echigo, tempat seorang yamauba muncul, ikut membantu memintal, menggigit rami dan menarik benang, lalu memintal gulungan benang dengan kecepatan tak masuk akal bagi manusia.",
+          "quote": "the following example is from Kotaki, Nishikubiki, Echigo Province (now Itoigawa, Niigata Prefecture). ... a yamauba appeared and said \"I'll also spin some\" and started to help along. The yamauba bit the hemp and drew out strings and then spun bundles of string at a speed unbelievable for humans.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2260341c994beea0e55f283504c53b110a60b1adc661b456624d6c868ca6e56b"
+      "images": []
     },
     {
       "slug": "sazae-oni",
-      "file": "batch-052.md",
+      "file": "batch-052-fix-5.md",
+      "entry_sha256": "3625b0bda00de39d852412df3aff1d0514c6b1546f5d0ff8d183969ac3c3f42a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "sazae-oni-c01",
@@ -6453,27 +7718,91 @@
           "quote": "Other legends of these creatures depict them wandering into coastal or seaside inns whilst in human guise, whereupon they devour the innkeeper in the night and then escape before morning.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "sazae-oni-c05",
+          "source_id": "sazae-oni-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, sazae oni are monstrous turban snails that haunt the seas and appear on moonlit nights, dancing on the water's surface like exotic dancers or dragons.",
+          "statement_id": "Menurut Yokai.com, sazae oni adalah siput turbo monster yang menghantui laut dan muncul pada malam berbulan, menari di permukaan air seperti penari eksotis atau naga.",
+          "quote": "Sazae oni are monstrous turban snails which haunt the seas. They appear on moonlit nights, dancing on the water's surface like exotic dancers or dragons.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sazae-oni-c06",
+          "source_id": "sazae-oni-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, sazae oni are powerful shape-changers, often taking the form of beautiful women to lure seamen into trouble; at sea they pose as drowning victims and, once brought aboard, turn on their rescuers.",
+          "statement_id": "Menurut Yokai.com, sazae oni adalah pengubah wujud yang kuat, sering menjelma perempuan cantik untuk menjerumuskan pelaut; di laut mereka berpura-pura menjadi korban tenggelam dan, setelah dibawa naik kapal, menyerang para penolongnya.",
+          "quote": "They are powerful shape-changers, often taking the form of beautiful women in order to lure seamen into trouble. At sea, they pretend to be drowning victims and cry out to be rescued, only to turn on their would-be saviors once brought aboard.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sazae-oni-c07",
+          "source_id": "sazae-oni-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, on land sazae oni often travel disguised as lone wandering women who stop at inns and eat the innkeepers during the night.",
+          "statement_id": "Menurut Yokai.com, di darat sazae oni sering mengembara menyamar sebagai perempuan sendirian yang singgah di penginapan lalu memakan pemilik penginapan pada malam hari.",
+          "quote": "When encountered on land, sazae oni often travel disguised as lone, wandering women who stop at inns and eat the innkeepers during the night.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sazae-oni-c08",
+          "source_id": "sazae-oni-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, a turban snail that reaches 30 years old was thought to turn into a yokai with all kinds of magical powers; another way is when a lustful young woman is thrown into the sea.",
+          "statement_id": "Menurut Yokai.com, siput turbo yang mencapai usia 30 tahun dipercaya menjadi yōkai dengan segala macam kekuatan sihir; cara lain, perempuan muda yang bernafsu dilemparkan ke laut.",
+          "quote": "It was thought that when a turban snail reaches 30 years old, it would turn into a yokai with all kinds of magical powers. Another way that sazae oni come to be is when a lustful young woman is thrown into the sea.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sazae-oni-c09",
+          "source_id": "sazae-oni-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, on the Kii peninsula a legend tells of a band of pirates who spotted a drowning woman one night and rescued her; the woman was actually a shape-changed sazae oni.",
+          "statement_id": "Menurut Yokai.com, di Semenanjung Kii ada legenda tentang sekelompok bajak laut yang melihat seorang perempuan tenggelam pada suatu malam dan menyelamatkannya; perempuan itu ternyata sazae oni yang berubah wujud.",
+          "quote": "On the Kii penninsula, legend tells of a band of pirates who spotted a woman drowning in the water one night. They rescued her ... the woman was actually a shape-changed sazae oni",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sazae-oni-c10",
+          "source_id": "sazae-oni-s2",
+          "host": "yokai.com",
+          "statement": "In that legend, according to Yokai.com, the sazae oni demanded treasure as ransom and the desperate pirates handed over all their ill-gotten gold to it.",
+          "statement_id": "Dalam legenda itu, menurut Yokai.com, sazae oni menuntut harta sebagai tebusan dan para bajak laut menyerahkan seluruh emas hasil jarahan mereka kepadanya.",
+          "quote": "At the end of the night she had all of their testicles, and demanded treasure for their return. The desperate pirates traded away all of their ill-gotten gold to the sazae oni",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sazae-oni-c11",
+          "source_id": "sazae-oni-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com gives 栄螺鬼 (さざえおに) with the translation \"turban snail demon\" and oceans, seas and coastal areas as habitat.",
+          "statement_id": "Yokai.com menulis 栄螺鬼 (さざえおに) dengan terjemahan \"iblis siput turbo\" dan habitat samudra, laut, dan wilayah pesisir.",
+          "quote": "Sazae oni 栄螺鬼 さざえおに Translation: turban snail demon Habitat: oceans, seas, and coastal areas",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "5593b2eca05a54fceb2eb7ad763b31489262eb06612c21c0c82a2c179a0590bc"
+      "images": []
     },
     {
       "slug": "seere",
-      "file": "batch-052.md",
+      "file": "batch-052-fix-5.md",
+      "entry_sha256": "fc29942a17723947eb69619b01e9850e0a071029b65381db01adafdf0072d8fa",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "seere-c01",
@@ -6514,10 +7843,59 @@
           "quote": "移動したり、ものを運んだりする能力を持っており、瞬きする間に世界中のどこにでも運べるという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "seere-c05",
+          "source_id": "seere-s3",
+          "host": "en.wikisource.org",
+          "statement": "In the Goetia text the seventieth spirit is Seere (also Sear or Seir), a mighty prince under Amaymon, King of the East, who appears as a beautiful man riding a winged horse.",
+          "statement_id": "Dalam teks Goetia, roh ke-70 adalah Seere (juga Sear atau Seir), pangeran perkasa di bawah Amaymon, Raja Timur, yang tampil sebagai pria rupawan menunggang kuda bersayap.",
+          "quote": "The Seventieth Spirit is Seere, Sear, or Seir. He is a Mighty Prince, and Powerful, under AMAYMON, King of the East. He appeareth in the Form of a Beautiful Man, riding upon a Winged Horse.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seere-c06",
+          "source_id": "seere-s3",
+          "host": "en.wikisource.org",
+          "statement": "According to the Goetia text his office is to go and come, bring many things to pass suddenly, and carry or recarry anything; he can cross the entire Earth in the blink of an eye.",
+          "statement_id": "Menurut teks Goetia, tugasnya pergi dan datang, mewujudkan banyak hal dengan tiba-tiba, serta membawa atau membawa kembali apa pun; ia dapat melintasi seluruh bumi dalam sekejap mata.",
+          "quote": "His Office is to go and come; and to bring abundance of things to pass on a sudden, and to carry or recarry anything whither thou wouldest have it to go, or whence thou wouldest have it from. He can pass over the whole Earth in the twinkling of an Eye.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seere-c07",
+          "source_id": "seere-s3",
+          "host": "en.wikisource.org",
+          "statement": "According to the Goetia text he gives a true account of all sorts of theft and hidden treasure, is of an indifferent good nature, is willing to do anything the Exorcist desires, and governs 26 legions of spirits.",
+          "statement_id": "Menurut teks Goetia, ia memberi laporan benar tentang segala pencurian dan harta tersembunyi, berwatak cenderung baik, bersedia melakukan apa pun yang diinginkan sang pemanggil (exorcist), dan memimpin 26 legiun roh.",
+          "quote": "He giveth a True relation of all sorts of Theft, and of Treasure hid, and of many other things. He is of an indifferent Good Nature, and is willing to do anything which the Exorcist desireth. He governeth 26 Legions of Spirits.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seere-c08",
+          "source_id": "seere-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia says he can go to any place on earth in a matter of seconds to accomplish the will of the conjurer, bring abundance, help find hidden treasures or in robbery, and is not a demon of evil but of good nature, mostly indifferent to evilness.",
+          "statement_id": "Wikipedia menyebut ia dapat pergi ke tempat mana pun di bumi dalam hitungan detik demi kehendak sang pemanggil, membawa kelimpahan, membantu menemukan harta tersembunyi atau dalam pencurian, dan bukan iblis jahat melainkan berwatak baik serta acuh pada kejahatan.",
+          "quote": "He can go to any place on earth in a matter of seconds to accomplish the will of the conjurer, bring abundance, help in finding hidden treasures or in robbery, and is not a demon of evil but good nature, being mostly indifferent to evilness.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "seere-c09",
+          "source_id": "seere-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia records the spelling Seir (also Seire, Seere, Sear) and calls him a Prince of Hell with 26 legions of demons under his command.",
+          "statement_id": "Wikipedia mencatat ejaan Seir (juga Seire, Seere, Sear) dan menyebutnya Pangeran Neraka yang memimpin 26 legiun iblis.",
+          "quote": "Seir (also Seire, Seere, Sear) is a Prince of Hell, having 26 legions of demons under his command.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "82d5080f99bf0ff247e42ea88c57ed9e0daf647c9bfd62896a260e1196756b9e"
+      "images": []
     }
   ]
 }

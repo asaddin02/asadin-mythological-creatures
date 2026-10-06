@@ -1,27 +1,29 @@
 {
   "batch_id": "batch-034",
-  "checked_at": "2026-09-30T02:33:27.897Z",
+  "checked_at": "2026-10-06T13:53:48.038Z",
   "files": [
     "batch-034.md",
-    "batch-034-fix-1.md"
+    "batch-034-fix-1.md",
+    "batch-034-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "neptune",
-      "file": "batch-034.md",
+      "file": "batch-034-fix-2.md",
+      "entry_sha256": "0be05892f43809be4c47734f851f59175d418a932fb4b5d7b52ff0d8203d7b3d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 2,
+        "claims": 28,
+        "sources": 5,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "1 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -83,9 +85,8 @@
           "statement_id": "Arca perunggu Romawi di The Met menampilkan Neptune bersandar pada trisula.",
           "quote": "The god originally leaned on a trident, held in his left hand; his eyes and nipples were probably inlaid with silver and copper.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250620142252id_/https://www.metmuseum.org/art/collection/search/248474",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "neptune-c07",
@@ -113,7 +114,197 @@
           "host": "www.worldhistory.org",
           "statement": "In the Aeneid, Neptune calms the sea to aid Aeneas and his men.",
           "statement_id": "Dalam Aeneid, Neptune menenangkan laut untuk membantu Aeneas dan pengikutnya.",
-          "quote": "Neptune is angered by the storm, which he knows has been sent by his cunning sister Juno, and calms the waters to help Aeneas and his men.",
+          "quote": "Neptune in the Aeneid ... Neptune is angered by the storm, which he knows has been sent by his cunning sister Juno, and calms the waters to help Aeneas and his men.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c10",
+          "source_id": "neptune-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Neptune lives in a golden palace at the bottom of the sea, where he holds court over sea gods and goddesses, sea nymphs, and sea creatures.",
+          "statement_id": "Neptune tinggal di istana emas di dasar laut dan memimpin dewa dan dewi laut, nimfa laut, serta makhluk laut.",
+          "quote": "He lives in a golden palace at the bottom of the sea, where he holds court over sea gods and goddesses, sea nymphs and sea creatures.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c11",
+          "source_id": "neptune-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Neptune, Pluto and Jupiter drew lots for their realms: Neptune received the sea, Pluto the underworld, and Jupiter the sky and heavens.",
+          "statement_id": "Neptune, Pluto, dan Jupiter mengundi wilayah kekuasaan; Neptune mendapat laut, Pluto dunia bawah, dan Jupiter langit.",
+          "quote": "Neptune drew lots for the sea, Pluto for the underworld, and Jupiter for the sky and heavens.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c12",
+          "source_id": "neptune-s1",
+          "host": "www.worldhistory.org",
+          "statement": "On one occasion Neptune conspired with Juno and Minerva to overthrow Jupiter and put him in chains; Jupiter punished him and banished him to the sea.",
+          "statement_id": "Neptune pernah bersekongkol dengan Juno dan Minerva untuk menggulingkan Jupiter dan merantainya; Jupiter menghukumnya dan mengasingkannya ke laut.",
+          "quote": "on one occasion, he conspired with Juno (the Roman equivalent of Hera) and Minerva (the Roman counterpart of Athena) to overthrow him and put him in chains. For this disobedience, Jupiter punished him and banished him to the sea.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c13",
+          "source_id": "neptune-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Neptune is described as riding a dolphin or giant sea shell beside his wife, pulled by whales and seahorses and always accompanied by sea gods and goddesses, many sea nymphs and their son Triton.",
+          "statement_id": "Neptune dikisahkan menunggang lumba-lumba atau kerang raksasa bersama istrinya, ditarik paus dan kuda laut, dan selalu dikawal dewa-dewi laut, banyak nimfa laut, serta putra mereka Triton.",
+          "quote": "He rode on a dolphin or a giant sea shell alongside his wife. They were pulled by whales and seahorses and were always accompanied by sea gods, goddesses, a large crowd of sea nymphs and Triton, their son.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c14",
+          "source_id": "neptune-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to Ovid, Neptune always had a sullen expression, while Virgil wrote that he had a mild demeanour.",
+          "statement_id": "Menurut Ovidius, Neptune selalu berwajah muram, sedangkan Virgil menulis bahwa ia berperangai lembut.",
+          "quote": "According to Ovid (43 BCE to 17 CE), Neptune always had a sullen expression, while Virgil (70-19 BCE) wrote that he had a mild demeanour",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c15",
+          "source_id": "neptune-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In his contest with Minerva, Neptune struck his trident on the ground and created the first horse, while Minerva made an olive tree rise from the earth.",
+          "statement_id": "Dalam perlombaan dengan Minerva, Neptune menghantamkan trisulanya ke tanah dan menciptakan kuda pertama, sedangkan Minerva menumbuhkan pohon zaitun.",
+          "quote": "Neptune struck his trident upon the ground and created a splendid horse to spring into existence, the first of its kind, while Minerva commanded a beautiful olive tree to rise from the earth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c16",
+          "source_id": "neptune-s1",
+          "host": "www.worldhistory.org",
+          "statement": "After King Laomedon refused to pay, Neptune sent a flood to overwhelm Troy while Phoebus sent a plague.",
+          "statement_id": "Setelah Raja Laomedon menolak membayar upah, Neptune mengirim banjir untuk menenggelamkan Troya, sementara Phoebus mengirim wabah.",
+          "quote": "King Laomedon refused to give them anything, which shocked and angered the gods. So they left Troy, swearing to bring ruin upon the city, and so they did; Phoebus sent a deadly plague, and Neptune sent a flood to overwhelm the city.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c17",
+          "source_id": "neptune-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Neptune sent Minos a magnificent bull and then punished him by making the bull too hard to handle.",
+          "statement_id": "Neptune mengirim banteng yang sangat indah kepada Minos, lalu menghukumnya dengan membuat banteng itu sulit dikendalikan.",
+          "quote": "Neptune answered his prayer by sending him the most magnificent bull ever seen. ... Neptune punished Minos by making the bull too hard to handle.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c18",
+          "source_id": "neptune-s3",
+          "host": "en.wikipedia.org",
+          "statement": "In the Greek-inspired tradition, Neptune is a brother of Jupiter and Pluto, who together preside over heaven, the earthly world (including the underworld) and the seas.",
+          "statement_id": "Dalam tradisi yang dipengaruhi Yunani, Neptune bersaudara dengan Jupiter dan Pluto, yang bersama-sama memimpin langit, dunia bumi (termasuk dunia bawah), dan laut.",
+          "quote": "In the Greek-inspired tradition, he is a brother of Jupiter and Pluto, with whom he presides over the realms of heaven, the earthly world (including the underworld), and the seas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c19",
+          "source_id": "neptune-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Like Poseidon, Neptune was also worshipped by the Romans as a god of horses, Neptunus equestris, and a patron of horse-racing.",
+          "statement_id": "Seperti Poseidon, Neptune juga disembah orang Romawi sebagai dewa kuda, Neptunus equestris, sekaligus pelindung balap kuda.",
+          "quote": "Like Poseidon, he was also worshipped by the Romans as a god of horses, Neptunus equestris, who was also a patron of horse-racing.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c20",
+          "source_id": "neptune-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Neptune had only one temple in Rome, the Temple of Neptune, near the Circus Flaminius in the southern Campus Martius, dating back to at least 206 BC.",
+          "statement_id": "Neptune hanya memiliki satu kuil di Roma, Temple of Neptune, dekat Circus Flaminius di bagian selatan Campus Martius, yang berasal dari sedikitnya 206 SM.",
+          "quote": "Neptune had only one temple in Rome, the Temple of Neptune. It stood near the Circus Flaminius, the Roman racetrack in the southern part of the Campus Martius, and dates back to at least 206 BC.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c21",
+          "source_id": "neptune-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Neptune is one of only four Roman gods considered appropriate recipients of a bull sacrifice; the other three were Apollo, Mars and Jupiter.",
+          "statement_id": "Neptune adalah satu dari hanya empat dewa Romawi yang pantas diberi kurban banteng; tiga lainnya adalah Apollo, Mars, dan Jupiter.",
+          "quote": "Neptune is one of only four Roman gods to whom it was considered appropriate to sacrifice a bull. The other three were Apollo, Mars, and Jupiter",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c22",
+          "source_id": "neptune-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The lectisternium of 399 BC indicated that Poseidon, Artemis and Heracles had been introduced and worshipped in Rome as Neptune, Diana and Hercules.",
+          "statement_id": "Lectisternium tahun 399 SM menunjukkan bahwa Poseidon, Artemis, dan Herakles telah diperkenalkan dan disembah di Roma sebagai Neptune, Diana, dan Hercules.",
+          "quote": "The lectisternium of 399 BC indicated that the Greek figures of Poseidon, Artemis, and Heracles had been introduced and worshipped in Rome as Neptune, Diana, and Hercules.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c23",
+          "source_id": "neptune-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Neptune was likely associated with freshwater springs before the sea; his festival Neptunalia fell on 23 July, at the height of summer when water was scarcest.",
+          "statement_id": "Neptune kemungkinan dikaitkan dengan mata air tawar sebelum dikaitkan dengan laut; Neptunalia jatuh pada 23 Juli, saat puncak musim panas ketika air paling langka.",
+          "quote": "He was likely associated with freshwater springs before the sea; his festival, Neptunalia, took place on July 23, during the peak of summer when water was scarcest.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c24",
+          "source_id": "neptune-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The etymology of the Latin name Neptunus is unclear and disputed.",
+          "statement_id": "Asal-usul nama Latin Neptunus tidak jelas dan diperdebatkan.",
+          "quote": "The etymology of the Latin Neptunus is unclear and disputed.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c25",
+          "source_id": "neptune-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The ancient grammarian Varro derived the name from nuptus (\"covering\"), alluding to nuptiae (\"the marriage of Heaven and Earth\").",
+          "statement_id": "Tata bahasa kuno Varro menurunkan nama itu dari nuptus (\"penutup\"), dengan merujuk pada nuptiae (\"pernikahan Langit dan Bumi\").",
+          "quote": "The ancient grammarian Varro derived the name from nuptus (\"covering\", opertio), alluding to nuptiae (\"the marriage of Heaven and Earth\").",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c26",
+          "source_id": "neptune-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The Etruscan name of Neptune is Nethuns.",
+          "statement_id": "Nama Neptune dalam bahasa Etruria adalah Nethuns.",
+          "quote": "The Etruscan name of Neptune is Nethuns.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c27",
+          "source_id": "neptune-s4",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In this epic passage, Neptune knows of the tempest that has disturbed his ocean and raises his sovereign brow above the sea in indignation.",
+          "statement_id": "Dalam bagian epik ini, Neptune mengetahui badai yang mengganggu samudranya dan mengangkat \"dahi berdaulatnya\" di atas laut dengan raut murka.",
+          "quote": "Meanwhile how all his smitten ocean moaned, and how the tempest's turbulent assault had vexed the stillness of his deepest cave, great Neptune knew; and with indignant mien uplifted o'er the sea his sovereign brow.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "neptune-c28",
+          "source_id": "neptune-s5",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In this passage, the great god helps free the ships from the reef with his trident and then calms the whole sea, with Cymothoe and Triton also at work.",
+          "statement_id": "Dalam bagian ini, dewa agung itu membantu membebaskan kapal dari karang dengan trisulanya, lalu menenangkan seluruh laut; Cymothoe dan Triton juga bekerja.",
+          "quote": "Cymothoe then and Triton, with huge toil, thrust down the vessels from the sharp-edged reef; while, with the trident, the great god's own hand assists the task; then, from the sand-strewn shore out-ebbing far, he calms the whole wide sea",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -122,18 +313,19 @@
     },
     {
       "slug": "phoenix",
-      "file": "batch-034-fix-1.md",
+      "file": "batch-034-fix-2.md",
+      "entry_sha256": "8d454370fd59f9ab41409b5d1c5ec5a58d261a9a04dba4fa4f2cc8a0f0ccb2b7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 2,
+        "claims": 37,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -173,7 +365,7 @@
           "host": "www.theoi.com",
           "statement": "Herodotus said he had never seen a phoenix, only pictures of it.",
           "statement_id": "Herodotus menulis bahwa ia tidak pernah melihat phoenix dan hanya mengenalnya dari gambar.",
-          "quote": "I myself have never seen it, only pictures of it; for the bird seldom comes into Aigyptos (Egypt) : once in five hundred years, as the people of Heliopolis say.",
+          "quote": "Herodotus, Histories 2. 73 (trans. Godley) ... I myself have never seen it, only pictures of it; for the bird seldom comes into Aigyptos (Egypt) : once in five hundred years, as the people of Heliopolis say.",
           "context": "historical-record",
           "status": "exact"
         },
@@ -183,7 +375,7 @@
           "host": "www.theoi.com",
           "statement": "In Herodotus's account, the phoenix carries its parent's body from Arabia to a sun temple wrapped in myrrh.",
           "statement_id": "Dalam kisah Herodotus, phoenix membawa jasad induknya dari Arabia ke kuil matahari dalam balutan mur.",
-          "quote": "Flying from Arabia to the temple of the Helios (the Sun), they say, he conveys his father encased in myrrh and buries him at the temple of Helios [i.e. in the temple of the Egyptian god Ra].",
+          "quote": "Herodotus, Histories 2. 73 (trans. Godley) ... Flying from Arabia to the temple of the Helios (the Sun), they say, he conveys his father encased in myrrh and buries him at the temple of Helios [i.e. in the temple of the Egyptian god Ra].",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -193,7 +385,7 @@
           "host": "www.theoi.com",
           "statement": "Ovid says a young phoenix is reborn from its parent's body.",
           "statement_id": "Ovid mengisahkan phoenix kecil lahir kembali dari jasad induknya.",
-          "quote": "Then from his father's body is reborn a little Phoenix, so they say, to live the same long years.",
+          "quote": "Ovid, Metamorphoses 15. 385 ff (trans. Melville) ... Then from his father's body is reborn a little Phoenix, so they say, to live the same long years.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -201,8 +393,8 @@
           "id": "phoenix-c07",
           "source_id": "phoenix-s1",
           "host": "www.theoi.com",
-          "statement": "The self-burning phoenix is a version that became more popular later.",
-          "statement_id": "Kisah phoenix yang membakar diri merupakan versi yang lebih populer pada masa kemudian.",
+          "statement": "According to a story that has gained more currency in modern times, the phoenix, on reaching a very old age (some say 500 and others 1461 years), committed itself to the flames.",
+          "statement_id": "Menurut kisah yang lebih populer di zaman modern, phoenix yang mencapai usia sangat tua (ada yang menyebut 500 tahun, ada yang 1461 tahun) menyerahkan dirinya ke api.",
           "quote": "According to a story which has gained more currency in modern times, Phoenix, when he arrived at a very old age (some say 500 and others 1461 years), committed himself to the flames.",
           "context": "scholarly-interpretation",
           "status": "exact"
@@ -215,9 +407,8 @@
           "statement_id": "Fenghuang Tiongkok sering diterjemahkan 'phoenix', tetapi menurut The Met merupakan makhluk mitos yang berbeda.",
           "quote": "Though usually translated as “phoenix” in English, the fenghuang bird is a distinct mythical species with a different set of associations.",
           "context": "scholarly-interpretation",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260329041107id_/https://www.metmuseum.org/art/collection/search/42122",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "phoenix-c09",
@@ -227,29 +418,303 @@
           "statement_id": "Fenghuang dikisahkan muncul pada masa damai dan makmur, berbeda dari kisah kelahiran ulang phoenix.",
           "quote": "The fenghuang, most noble of all feathered species, is said to appear only in times of peace and prosperity, so the creature is depicted frequently in works commissioned by imperial courts.",
           "context": "traditional-belief",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260329041107id_/https://www.metmuseum.org/art/collection/search/42122",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "phoenix-c10",
+          "source_id": "phoenix-s1",
+          "host": "www.theoi.com",
+          "statement": "According to Herodotus, if the picture is accurate, the phoenix has partly golden and partly red plumage and is most like an eagle in shape and size.",
+          "statement_id": "Menurut Herodotus, jika gambarnya benar, bulu phoenix sebagian keemasan dan sebagian merah, dan bentuk serta ukurannya paling mirip elang.",
+          "quote": "Herodotus, Histories 2. 73 (trans. Godley) ... If the picture truly shows his size and appearance, his plumage is partly golden and partly red. He is most like an eagle in shape and size.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c11",
+          "source_id": "phoenix-s1",
+          "host": "www.theoi.com",
+          "statement": "According to Ovid, one bird alone renews and re-begets itself, the Phoenix of Assyria, which feeds on balsam oil and the tears of frankincense.",
+          "statement_id": "Menurut Ovidius, hanya satu burung yang memperbarui dan melahirkan dirinya sendiri, yaitu phoenix dari Asyur, yang makan minyak balsam dan air mata kemenyan.",
+          "quote": "Ovid, Metamorphoses 15. 385 ff (trans. Melville) ... But one alone, a bird, renews and re-begets itself--the Phoenix of Assyria, which feeds not upon seeds or verdure but the oils of balsam and the tears of frankincense.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c12",
+          "source_id": "phoenix-s1",
+          "host": "www.theoi.com",
+          "statement": "In Ovid's account the phoenix builds a nest high on a palm, lines it with cassia, spikenard, myrrh and cinnamon, and ends its life there.",
+          "statement_id": "Dalam uraian Ovidius, phoenix membangun sarang di puncak pohon palem, melapisinya dengan kasia, narwastu, mur, dan serpihan kayu manis, lalu mengakhiri hidupnya di sana.",
+          "quote": "Ovid, Metamorphoses 15. 385 ff (trans. Melville) ... builds a nest high on a lofty swaying palm; and lines the nest with cassia and spikenard and golden myrrh and shreds of cinnamon",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c13",
+          "source_id": "phoenix-s1",
+          "host": "www.theoi.com",
+          "statement": "In Ovid's account the young phoenix carries the nest across the sky to the Sun's city (Heliopolis in Egypt) and lays it before the doors of the Sun's temple.",
+          "statement_id": "Dalam uraian Ovidius, phoenix muda membawa sarang itu melintasi langit ke kota Matahari (Heliopolis di Mesir) dan meletakkannya di depan pintu kuil Matahari.",
+          "quote": "Ovid, Metamorphoses 15. 385 ff (trans. Melville) ... carries it across the sky to reach the Sun's great city [i.e. Heliopolis in Egypt], and before the doors of the Sun's holy temple lays it down.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c14",
+          "source_id": "phoenix-s1",
+          "host": "www.theoi.com",
+          "statement": "In Philostratus the sage Iarchas says the phoenix gives out rays of sunlight, shines with gold, resembles an eagle, and sits on a spice nest it makes at the springs of the Nile.",
+          "statement_id": "Dalam Philostratus, tokoh Iarkhas menyebut phoenix memancarkan sinar matahari, bercahaya keemasan, mirip elang, dan bertengger di sarang dari rempah di mata air Sungai Nil.",
+          "quote": "Philostratus, Life of Apollonius of Tyana 3. 49 (trans. Conybeare) ... he [the Indian sage Iarkhas (Iarchas) C1st A.D.] said ... it is unique in that it gives out rays of sunlight and shines with gold, in size and appearance like an eagle; and it sits upon the nest; which is made by it at the springs of the Nile out of spices.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c15",
+          "source_id": "phoenix-s1",
+          "host": "www.theoi.com",
+          "statement": "In the Indian version reported by Philostratus, the phoenix being consumed in its nest sings funeral strains for itself.",
+          "statement_id": "Menurut kisah India dalam Philostratus, phoenix yang terbakar di sarangnya menyanyikan lagu duka bagi dirinya sendiri.",
+          "quote": "Philostratus, Life of Apollonius of Tyana 3. 49 (trans. Conybeare) ... The story of the Aigyptoi (Egyptians) about it, that it comes to Aigyptos, is testified to by the Indians also, but the latter add this touch to the story, that the Phoinix which is being consumed in its nest sings funeral strains for itself.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c16",
+          "source_id": "phoenix-s1",
+          "host": "www.theoi.com",
+          "statement": "According to Claudian, the phoenix needs no food or drink; the sun's beam is its food and the sea's spray its drink.",
+          "statement_id": "Menurut Claudianus, phoenix tidak butuh makanan atau minuman; sinar matahari adalah makanannya dan percikan laut minumannya.",
+          "quote": "Claudian, The Phoenix ... It needs no food to satisfy hunger nor any drink to quench thirst; the sun's clear beam is its food, the sea's rare spray its drink",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c17",
+          "source_id": "phoenix-s1",
+          "host": "www.theoi.com",
+          "statement": "According to Claudian, this bird was never conceived and springs from no mortal seed; it is both its own father and son.",
+          "statement_id": "Menurut Claudianus, burung ini tidak pernah dikandung dan tidak berasal dari benih fana; ia sekaligus ayah dan putranya sendiri.",
+          "quote": "Claudian, The Phoenix ... Never was this bird conceived nor springs it from any mortal seed, itself is alike its own father and son",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c18",
+          "source_id": "phoenix-s1",
+          "host": "www.theoi.com",
+          "statement": "According to Aelian, the phoenix can reckon five hundred years without arithmetic, being a pupil of all-wise nature.",
+          "statement_id": "Menurut Aelianus, phoenix mampu menghitung lima ratus tahun tanpa ilmu hitung karena ia murid alam yang mahabijak.",
+          "quote": "Aelian, On Animals 6. 58 (trans. Scholfield) ... The Phoinix (Phoenix) knows how to reckon five hundred years without the aid of arithmetic, for it is a pupil of all-wise nature",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c19",
+          "source_id": "phoenix-s1",
+          "host": "www.theoi.com",
+          "statement": "In one account the phoenix builds a nest in Arabia and gives it the power of generation, so that a new phoenix rises from it after the bird's death.",
+          "statement_id": "Dalam satu uraian, phoenix membangun sarang di Arabia dan memberinya daya melahirkan, sehingga setelah ia mati phoenix baru bangkit dari sarang itu.",
+          "quote": "he built a nest for himself in Arabia, to which he imparted the power of generation, so that after his death a new phoenix rose out of it.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c20",
+          "source_id": "phoenix-s1",
+          "host": "www.theoi.com",
+          "statement": "Another version says only one phoenix lived at a time, and when it died a worm crept from its body and was developed into a new phoenix by the sun's heat.",
+          "statement_id": "Versi lain menyebut hanya satu phoenix hidup pada satu waktu, dan saat ia mati seekor cacing keluar dari tubuhnya lalu menjadi phoenix baru oleh panas matahari.",
+          "quote": "Others, again, state that only one Phoenix lived at a time, and that when he died a worm crept forth from his body, and was developed into a new Phoenix by the heat of the sun.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c21",
+          "source_id": "phoenix-s1",
+          "host": "www.theoi.com",
+          "statement": "Another version says the phoenix built a pyre of spices, settled on it and died, then rose again from the decomposing body.",
+          "statement_id": "Versi lain menyebut phoenix membangun timbunan rempah, duduk di atasnya, lalu mati; dari tubuhnya yang membusuk ia bangkit kembali.",
+          "quote": "he built for himself a funeral pile, consisting of spices, settled upon it, and died. Out of the decomposing body he then rose again",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c22",
+          "source_id": "phoenix-s1",
+          "host": "www.theoi.com",
+          "statement": "Similar stories of marvellous birds occur in the East, such as the bird Simorg in Persia and the bird Semendar in India.",
+          "statement_id": "Kisah serupa tentang burung ajaib juga ada di Timur, misalnya burung Simorg di Persia dan burung Semendar di India.",
+          "quote": "Similar stories of marvellous birds occur in many parts of the East, as in Persia, the legend of the bird Simorg, and in India of the bird Semendar.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c23",
+          "source_id": "phoenix-s1",
+          "host": "www.theoi.com",
+          "statement": "The new phoenix encases its parent in an egg of myrrh and conveys it to the great Egyptian temple of the Sun-God at Heliopolis.",
+          "statement_id": "Phoenix baru membungkus induknya dalam telur mur dan membawanya ke kuil besar dewa Matahari di Heliopolis, Mesir.",
+          "quote": "It then encased its parent in an egg of myrrh and conveyed it to the great Egyptian temple of the Sun-God in Heliopolis.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c24",
+          "source_id": "phoenix-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The phoenix is a legendary immortal bird that cyclically regenerates or is otherwise born again; it originates in Greek mythology and has analogues in many cultures.",
+          "statement_id": "Phoenix adalah burung legendaris yang abadi dan secara berulang memperbarui diri atau lahir kembali; berasal dari mitologi Yunani dan memiliki padanan di banyak budaya.",
+          "quote": "The phoenix is a legendary immortal bird that cyclically regenerates or is otherwise born again. Originating in Greek mythology, it has analogues in many cultures, such as Egyptian and Persian mythology.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c25",
+          "source_id": "phoenix-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The phoenix is associated with the Sun and obtains new life by rising from the ashes of its predecessor.",
+          "statement_id": "Phoenix dikaitkan dengan Matahari dan memperoleh hidup baru dengan bangkit dari abu pendahulunya.",
+          "quote": "Associated with the Sun, a phoenix obtains new life by rising from the ashes of its predecessor.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c26",
+          "source_id": "phoenix-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The Latin word comes from Greek φοῖνιξ (phoinix), first attested in Mycenaean Greek as po-ni-ke, which probably meant \"griffin\" though it might have meant \"palm tree\".",
+          "statement_id": "Kata Latin phoenix berasal dari kata Yunani φοῖνιξ (phoinix), yang pertama kali tercatat dalam bahasa Yunani Mikene sebagai po-ni-ke, kemungkinan berarti \"griffin\" atau mungkin \"pohon palem\".",
+          "quote": "The Latin word comes from Greek φοῖνιξ (phoinix). The Greek word is first attested in the Mycenaean Greek po-ni-ke, which probably meant \"griffin\", though it might have meant \"palm tree\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c27",
+          "source_id": "phoenix-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The Greek word is probably a borrowing from a West Semitic word for madder, a red dye made from Rubia tinctorum.",
+          "statement_id": "Kata Yunani itu kemungkinan pinjaman dari kata Semit Barat untuk madder, pewarna merah dari Rubia tinctorum.",
+          "quote": "That word is probably a borrowing from a West Semitic word for madder, a red dye made from Rubia tinctorum.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c28",
+          "source_id": "phoenix-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The earliest clear mention of the phoenix in ancient Greek literature occurs in a fragment of the Precepts of Chiron, attributed to the 8th-century BC poet Hesiod.",
+          "statement_id": "Penyebutan phoenix yang paling awal dan jelas dalam sastra Yunani kuno ada pada fragmen Precepts of Chiron yang dikaitkan dengan penyair Hesiodos dari abad ke-8 SM.",
+          "quote": "the earliest clear mention of the phoenix in ancient Greek literature occurs in a fragment of the Precepts of Chiron, attributed to 8th-century BC Greek poet Hesiod.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c29",
+          "source_id": "phoenix-s3",
+          "host": "en.wikipedia.org",
+          "statement": "In that fragment the phoenix outlives nine ravens, but the Nymphs, daughters of Zeus, outlive ten phoenixes.",
+          "statement_id": "Dalam fragmen itu, phoenix hidup lebih lama daripada sembilan gagak, tetapi para Nimfa putri Zeus hidup lebih lama daripada sepuluh phoenix.",
+          "quote": "while the phoenix outlives nine ravens, but we, the rich-haired Nymphs daughters of Zeus the aegis-holder, outlive ten phoenixes.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c30",
+          "source_id": "phoenix-s3",
+          "host": "en.wikipedia.org",
+          "statement": "In the 19th century it was found that Egyptians at Heliopolis had venerated the Bennu, a solar bird similar in some respects to the Greek phoenix, though the Egyptian sources are often problematic and open to varied interpretations.",
+          "statement_id": "Pada abad ke-19 ditemukan bahwa orang Mesir di Heliopolis memuliakan Bennu, burung matahari yang mirip phoenix Yunani dalam beberapa hal, tetapi sumber Mesirnya sering bermasalah dan dapat ditafsirkan beragam.",
+          "quote": "the discovery that Egyptians in Heliopolis had venerated the Bennu, a solar bird similar in some respects to the Greek phoenix. However, the Egyptian sources regarding the bennu are often problematic and open to a variety of interpretations.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c31",
+          "source_id": "phoenix-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The phoenix is often shown with a halo in ancient and medieval literature and medieval art, emphasising its connection with the Sun.",
+          "statement_id": "Phoenix sering digambarkan dengan lingkaran cahaya dalam sastra kuno dan abad pertengahan serta seni abad pertengahan, menekankan kaitannya dengan Matahari.",
+          "quote": "The phoenix is often depicted in ancient and medieval literature and medieval art endowed with a halo, emphasising the bird's connection with the Sun.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c32",
+          "source_id": "phoenix-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The phoenix was generally believed to be colourful and vibrant, but sources give no clear consensus about its exact colouration.",
+          "statement_id": "Phoenix umumnya dipercaya berwarna-warni, tetapi sumber-sumber tidak sepakat soal warna persisnya.",
+          "quote": "Although the phoenix was generally believed to be colourful and vibrant, sources provide no clear consensus about its exact colouration.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c33",
+          "source_id": "phoenix-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Pliny states that a purported phoenix seen in Egypt in 47 AD was brought to the capital and exhibited in the Comitium.",
+          "statement_id": "Plinius menyatakan seekor phoenix yang diklaim terlihat di Mesir pada 47 M dibawa ke ibu kota dan dipamerkan di Comitium.",
+          "quote": "Pliny states that a purported phoenix seen in Egypt in 47 AD was brought to the capital and exhibited in the Comitium",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c34",
+          "source_id": "phoenix-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Pliny added that nobody would doubt that this phoenix was a fabrication.",
+          "statement_id": "Plinius menambahkan bahwa tak seorang pun akan meragukan bahwa phoenix itu rekayasa.",
+          "quote": "Pliny states that a purported phoenix seen in Egypt in 47 AD ... though he added that \"nobody would doubt that this phoenix was a fabrication\".",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c35",
+          "source_id": "phoenix-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Tacitus recorded that the phoenix appeared in 34 AD.",
+          "statement_id": "Tacitus mencatat bahwa phoenix muncul pada 34 M.",
+          "quote": "A second recording of the phoenix was made by Tacitus, who said that the phoenix had appeared instead in 34 AD",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c36",
+          "source_id": "phoenix-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Scholars note analogues of the phoenix in many cultures, including the Hindu garuda and bherunda, the Slavic firebird and Raróg, and the Persian simorgh.",
+          "statement_id": "Para sarjana mencatat padanan phoenix di banyak budaya, antara lain garuda dan bherunda Hindu, burung api dan Raróg Slavia, serta simorgh Persia.",
+          "quote": "These analogues include the Hindu garuda (गरुड) and bherunda (भेरुण्ड), the Slavic firebird (жар-птица) and Raróg, the Persian simorgh (سیمرغ)",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "phoenix-c37",
+          "source_id": "phoenix-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The Harry Potter series features a phoenix named Fawkes, Professor Dumbledore's loyal pet, and a secret society called the Order of the Phoenix.",
+          "statement_id": "Seri Harry Potter menampilkan phoenix bernama Fawkes, hewan peliharaan setia Profesor Dumbledore, serta perkumpulan rahasia bernama Order of the Phoenix.",
+          "quote": "The Harry Potter series features a phoenix named Fawkes, described as Professor Dumbledore's loyal pet, and also a secret society called the Order of the Phoenix",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "uranus",
-      "file": "batch-034-fix-1.md",
+      "file": "batch-034-fix-2.md",
+      "entry_sha256": "404993ee1c16ebddb0a4669fca4bf5b5227e11c19cc6d7b6f9d9247301a60beb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 10,
-        "sources": 2,
+        "claims": 47,
+        "sources": 7,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 10 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "uranus-c01",
@@ -350,29 +815,395 @@
           "quote": "His Roman counterpart is Caelus.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "uranus-c11",
+          "source_id": "uranus-s2",
+          "host": "www.theoi.com",
+          "statement": "The Greeks imagined the sky as a solid brass dome decorated with stars, its edges resting on the outermost limits of the flat earth; Ouranos was the literal sky, as his consort Gaia was the earth.",
+          "statement_id": "Orang Yunani membayangkan langit sebagai kubah perunggu padat bertabur bintang yang tepinya bertumpu pada batas terjauh bumi yang datar; Ouranos adalah langit itu sendiri, sebagaimana pasangannya Gaia adalah bumi.",
+          "quote": "The Greeks imagined the sky as a solid dome of brass, decorated with stars, whose edges descended to rest upon the outermost limits of the flat earth. Ouranos was the literal sky, just as his consort Gaia (Gaea) was the earth.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c12",
+          "source_id": "uranus-s2",
+          "host": "www.theoi.com",
+          "statement": "Ouranos and Gaia had twelve sons and six daughters; he locked the eldest, the giant Cyclopes and Hecatoncheires, away inside the belly of Earth.",
+          "statement_id": "Ouranos dan Gaia memiliki dua belas putra dan enam putri; ia mengurung anak tertua, para Kyklopes dan Hekatonkheires yang raksasa, di dalam perut Bumi.",
+          "quote": "Ouranos and Gaia had twelve sons and six daughters. He locked the eldest of these--the giant Kyklopes (Cyclopes) and Hekatonkheires (Hecatoncheires)--away inside the belly of Earth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c13",
+          "source_id": "uranus-s2",
+          "host": "www.theoi.com",
+          "statement": "In this account four of the children took positions at the corners of the world to seize their father while Kronos, in the centre, castrated Ouranos with an adamantine sickle.",
+          "statement_id": "Menurut uraian ini, empat dari anak-anak itu berjaga di sudut dunia untuk menangkap ayah mereka, sementara Kronos di tengah mengebiri Ouranos dengan sabit adamantin.",
+          "quote": "Four of these positioned themselves at the corners of the world, ready to grasp their father as he descended to lie with Earth, while the fifth, Kronos (Cronus), took his place in the centre and there castrated Ouranos with an adamantine sickle.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c14",
+          "source_id": "uranus-s2",
+          "host": "www.theoi.com",
+          "statement": "Ouranos prophesied the fall of the Titans and their punishment for their crimes, a prophecy fulfilled when Zeus deposed the five brothers and cast them into the pit of Tartaros.",
+          "statement_id": "Ouranos menubuatkan kejatuhan para Titan dan hukuman atas kejahatan mereka; Zeus menggenapi nubuat itu dengan menggulingkan lima bersaudara dan melemparkan mereka ke jurang Tartaros.",
+          "quote": "Ouranos prophesied the fall of the Titanes and the punishments they would suffer for their crimes--a prophecy brought to fruition by Zeus who deposed the five brothers and cast them into the pit of Tartaros.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c15",
+          "source_id": "uranus-s2",
+          "host": "www.theoi.com",
+          "statement": "Ouranos does not appear in early Greek art, but Egyptian depictions of the sky-goddess Nut show how he was imagined: a gigantic, star-spangled man with long limbs, resting on all fours.",
+          "statement_id": "Ouranos tidak muncul dalam seni Yunani awal, tetapi penggambaran Mesir tentang dewi langit Nut menunjukkan bagaimana ia dibayangkan: pria raksasa bertabur bintang berlengan dan berkaki panjang yang bertumpu pada keempat anggota badan.",
+          "quote": "Ouranos does not appear in early Greek art but Egyptian depictions of their sky-goddess Nut demonstrate how he was imagined--as a gigantic, star-spangled man with long arms and legs, resting on all fours",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c16",
+          "source_id": "uranus-s2",
+          "host": "www.theoi.com",
+          "statement": "In the Roman era he was often depicted as Aion, god of eternal time, as a man holding the zodiac-wheel and standing above the reclining Gaia.",
+          "statement_id": "Pada masa Romawi ia sering digambarkan sebagai Aion, dewa waktu abadi, berwujud pria yang memegang roda zodiak dan berdiri di atas Gaia yang berbaring.",
+          "quote": "In the Roman era he was often depicted as Aion, god of eternal time, in the form of a man holding the zodiac-wheel, standing above the reclining Gaia (Earth).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c17",
+          "source_id": "uranus-s2",
+          "host": "www.theoi.com",
+          "statement": "According to the writer of the War of the Titans, Ouranos was the son of Aither.",
+          "statement_id": "Menurut penulis War of the Titans, Ouranos adalah putra Aither.",
+          "quote": "According to the writer of the War of the Titans Ouranos (Uranus) was the son of Aither (Aether).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c18",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Orphism, Phanes gave birth to Nyx (Night), and then Nyx bore Gaia and Uranus with Phanes.",
+          "statement_id": "Dalam Orfisme, Phanes melahirkan Nyx (Malam), lalu Nyx melahirkan Gaia dan Uranus bersama Phanes.",
+          "quote": "In Orphism, the world began with Chronos (Time). ... Phanes gave birth to Nyx (Night), then Nyx bore Gaia and Uranus with Phanes.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c19",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Although there is barely any surviving evidence of worship of Uranus, one Orphic hymn is dedicated to him.",
+          "statement_id": "Meski nyaris tidak ada bukti ibadah kepada Uranus yang bertahan, ia memiliki satu himne Orfik yang dipersembahkan untuknya.",
+          "quote": "Although there is barely any surviving evidence of worship to Uranus, he does have an Orphic hymn dedicated to him.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c20",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Uranus, along with Gaia and Styx, was often the witness to the oaths of the gods.",
+          "statement_id": "Uranus bersama Gaia dan Styx sering menjadi saksi sumpah para dewa.",
+          "quote": "Uranus, along with Gaia and Styx, was often the witness to the oaths of the gods.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c21",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to the Theogony, Tartarus, Earth and the heavens are equally far apart; an anvil falling from Uranus would take nine days and nights to reach Gaia.",
+          "statement_id": "Menurut Theogony, jarak antara Tartarus, Bumi (Gaia), dan langit (Uranus) sama; sebuah landasan yang jatuh dari Uranus butuh sembilan hari sembilan malam untuk mencapai Gaia.",
+          "quote": "According to the Theogony, there is an equal distance between Tartarus (the infernal regions), Earth (Gaia), and the heavens (Uranus). Therefore, an anvil falling from Uranus would take nine days and nights to reach Gaia",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c22",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Uranus lost power to Cronus but warned him that he too would be overthrown by his son.",
+          "statement_id": "Uranus kehilangan kekuasaan kepada Cronus tetapi memperingatkannya bahwa ia pun akan digulingkan oleh putranya.",
+          "quote": "Uranus lost power to Cronus but warned him that he, too, would face being overthrown by his son.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c23",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "A desperate Rhea asked Uranus and Gaia for help, and they helped her flee to Crete, where Zeus was born.",
+          "statement_id": "Rhea yang putus asa meminta bantuan Uranus dan Gaia, dan mereka membantunya melarikan diri ke Kreta, tempat Zeus lahir.",
+          "quote": "A desperate Rhea approached Uranus and Gaia for help, and they helped her run away to Crete, where Zeus was born.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c24",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Uranus and Gaia told Zeus that Metis would have a strong, wise daughter and a son who would overthrow his father to become king of gods and men.",
+          "statement_id": "Uranus dan Gaia memberi tahu Zeus bahwa Metis akan melahirkan seorang putri yang kuat dan bijak serta seorang putra yang akan menggulingkan ayahnya menjadi raja para dewa dan manusia.",
+          "quote": "After Zeus married his first wife, Metis, Uranus and Gaia informed him that Metis would have a daughter who was strong and wise like her father and a son who would overthrow his father to become king of the gods and men.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c25",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to World History Encyclopedia, the myth closely follows the Uranus-Cronus-Zeus succession myth in Hesiod's Theogony, and Anu, king of Heaven, can clearly be identified as Uranus.",
+          "statement_id": "Menurut World History Encyclopedia, mitos itu sangat mirip dengan mitos suksesi Uranus-Cronus-Zeus dalam Theogony Hesiod, dan Anu, raja Langit, dapat jelas dikenali sebagai Uranus.",
+          "quote": "The myth closely follows the Uranus-Cronus-Zeus succession myth found in Hesiod's Theogony. Anu, the king of Heaven, can clearly be identified as Uranus.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c26",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Tablets found in excavations at the village of Boĝazköy recount the Hittite story of the storm god Teššub's rise to power and the attempts to overthrow him.",
+          "statement_id": "Tablet yang ditemukan dalam penggalian di desa Boĝazköy menceritakan kisah Het tentang kebangkitan dewa badai Teššub dan upaya menggulingkannya.",
+          "quote": "During the 20th-century excavations in the village of Boĝazköy (Turkey), a set of tablets were discovered that recounted the Hittite story of the storm god Teššub's rise to power and the attempts to overthrow him.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c27",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "What is considered a Phoenician version of the succession myth is recorded by Herennius Philo (Philo of Byblos, 1st or 2nd century CE).",
+          "statement_id": "Versi mitos suksesi yang dianggap versi Fenisia dicatat oleh Herennius Philo (Philo dari Byblos, abad ke-1 atau ke-2 M).",
+          "quote": "What is considered a Phoenician version of the succession myth is recorded by Herennius Philo (aka Philo of Byblos, l. 1st or 2nd century CE).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c28",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In this succession version, Epigeios, later named Uranus, replaced his father as king and married his sister Ge (Gaia).",
+          "statement_id": "Dalam versi suksesi ini, Epigeios, yang kemudian dinamai Uranus, menggantikan ayahnya sebagai raja dan menikahi saudarinya, Ge (Gaia).",
+          "quote": "Together they have a son named Epigeios, who would later be named Uranus, and a daughter called Ge (Gaia). After his father's death, Epigeios (Uranus) replaced him as king and married his sister, Ge.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c29",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In that version, Cronus emasculated Uranus in the 32nd year of his reign.",
+          "statement_id": "Dalam versi itu, pada tahun ke-32 pemerintahannya Cronus mengebiri Uranus.",
+          "quote": "During the 32nd year of his reign, Cronus emasculated Uranus.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c30",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The astronomer Johann Elert Bode suggested that the planet be called Uranus in honour of the primordial deity.",
+          "statement_id": "Astronom Johann Elert Bode mengusulkan agar planet itu dinamai Uranus untuk menghormati dewa purba tersebut.",
+          "quote": "it was fellow astronomer Johann Elert Bode (1747-1826) who suggested that it be called Uranus in honour of the primordial deity",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c31",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The planet Uranus was discovered in 1781 by the British-German astronomer William Herschel.",
+          "statement_id": "Planet Uranus ditemukan pada 1781 oleh astronom Inggris-Jerman William Herschel.",
+          "quote": "Uranus is the seventh planet from the Sun and the third largest of the planets. It was discovered in 1781 by the British-German astronomer William Herschel (1738-1822)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c32",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In his Theogony, Hesiod (700 BCE) writes that Gaia bore Uranus (Heaven) along with Pontus (the Sea) and Ourea (the Mountains).",
+          "statement_id": "Dalam Theogony-nya, Hesiod (700 SM) menulis bahwa Gaia melahirkan Uranus (Langit) bersama Pontus (Laut) dan Ourea (Pegunungan).",
+          "quote": "In his Theogony, Hesiod (700 BCE) writes that Gaia, the personification of Earth, gave birth to Uranus (Heaven), along with Pontus (the Sea) and Ourea (the Mountains).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c33",
+          "source_id": "uranus-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Orphism was a religious movement that rose to prominence during the 6th century BCE.",
+          "statement_id": "Orfisme adalah gerakan keagamaan yang menonjol pada abad ke-6 SM.",
+          "quote": "Orphism was a religious movement that rose to prominence during the 6th century BCE.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c34",
+          "source_id": "uranus-s4",
+          "host": "www.perseus.tufts.edu",
+          "statement": "According to Hesiod, Earth first bore starry Heaven, equal to herself, to cover her on every side and be an ever-sure abiding place for the blessed gods.",
+          "statement_id": "Menurut Hesiod, Bumi pertama-tama melahirkan Langit berbintang, setara dengannya, untuk menutupinya di semua sisi dan menjadi tempat tinggal yang selalu aman bagi para dewa yang diberkati.",
+          "quote": "And Earth first bore starry Heaven, equal to herself, to cover her on every side, and to be an ever-sure abiding-place for the blessed gods.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c35",
+          "source_id": "uranus-s4",
+          "host": "www.perseus.tufts.edu",
+          "statement": "Hesiod writes that Earth afterwards lay with Heaven and bore Oceanus, Coeus, Crius, Hyperion, Iapetus, Theia, Rhea, Themis, Mnemosyne, Phoebe and Tethys.",
+          "statement_id": "Hesiod menulis bahwa Gaia kemudian berbaring bersama Langit dan melahirkan Oceanus, Coeus, Crius, Hyperion, Iapetus, Theia, Rhea, Themis, Mnemosyne, Phoebe, dan Tethys.",
+          "quote": "But afterwards she lay with Heaven and bore deep-swirling Oceanus, Coeus and Crius and Hyperion and Iapetus, [135] Theia and Rhea, Themis and Mnemosyne and gold-crowned Phoebe and lovely Tethys.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c36",
+          "source_id": "uranus-s5",
+          "host": "www.perseus.tufts.edu",
+          "statement": "According to Hesiod, the most terrible children of Earth and Heaven were hated by their father from the first; as each was born he hid it in a secret place of Earth and would not let it come up into the light, and Heaven rejoiced in his evil doing.",
+          "statement_id": "Menurut Hesiod, anak-anak terdahsyat Bumi dan Langit dibenci ayah mereka sejak awal; setiap kali seorang lahir ia menyembunyikannya di tempat rahasia di Bumi dan melarangnya naik ke terang, dan Langit bersukacita atas perbuatan jahatnya.",
+          "quote": "For of all the children that were born of Earth and Heaven, [155] these were the most terrible, and they were hated by their own father from the first. And he used to hide them all away in a secret place of Earth so soon as each was born, and would not suffer them to come up into the light: and Heaven rejoiced in his evil doing.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c37",
+          "source_id": "uranus-s5",
+          "host": "www.perseus.tufts.edu",
+          "statement": "According to Hesiod, Earth made the element of grey flint into a great sickle and told her plan to her sons.",
+          "statement_id": "Menurut Hesiod, Bumi membentuk sabit besar dari unsur batu api kelabu dan menyampaikan rencananya kepada putra-putranya.",
+          "quote": "Forthwith she made the element of grey flint and shaped a great sickle, and told her plan to her dear sons.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c38",
+          "source_id": "uranus-s6",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Hesiod, Heaven came bringing night and longing for love and spread himself upon Earth; his son from his ambush lopped off his father's members with the long jagged sickle and cast them behind him.",
+          "statement_id": "Dalam Hesiod, Langit datang membawa malam dan merindukan cinta lalu merebahkan diri di atas Bumi; putranya dari penyergapan memotong anggota tubuh ayahnya dengan sabit panjang bergerigi dan melemparkannya ke belakang.",
+          "quote": "And Heaven came, bringing on night and longing for love, and he lay about Earth spreading himself full upon her. ... Then the son from his ambush stretched forth his left hand and in his right took the great long sickle [180] with jagged teeth, and swiftly lopped off his own father's members and cast them away to fall behind him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c39",
+          "source_id": "uranus-s6",
+          "host": "www.perseus.tufts.edu",
+          "statement": "According to Hesiod, Earth received all the bloody drops and as the seasons turned bore the strong Erinyes, the Giants in gleaming armour with long spears, and the Nymphs called Meliae.",
+          "statement_id": "Menurut Hesiod, Bumi menerima semua tetes darah itu dan seiring musim ia melahirkan Erinyes yang kuat, para Raksasa berbaju zirah gemerlap bertombak panjang, dan Nimfa yang disebut Meliae.",
+          "quote": "for all the bloody drops that gushed forth Earth received, and as the seasons moved round [185] she bore the strong Erinyes and the great Giants with gleaming armour, holding long spears in their hands and the Nymphs whom they call Meliae",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c40",
+          "source_id": "uranus-s7",
+          "host": "www.perseus.tufts.edu",
+          "statement": "According to Hesiod, great Heaven called his sons Titans (Strainers) in reproach, saying they strained and did presumptuously a fearful deed, and that vengeance for it would come afterwards.",
+          "statement_id": "Menurut Hesiod, Langit yang agung menjuluki putra-putranya \"Titan\" (Para Penegang) sebagai celaan, karena mereka berbuat lancang suatu perbuatan mengerikan, dan ia berkata bahwa pembalasan akan datang kemudian.",
+          "quote": "But these sons whom he begot himself great Heaven used to call Titans (Strainers) in reproach, for he said that they strained and did presumptuously [210] a fearful deed, and that vengeance for it would come afterwards.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c41",
+          "source_id": "uranus-s3",
+          "host": "en.wikipedia.org",
+          "statement": "No cult addressed directly to Uranus survived into classical times, and Uranus is not among the usual themes of Greek painted pottery.",
+          "statement_id": "Tidak ada kultus yang ditujukan langsung kepada Uranus yang bertahan hingga masa klasik, dan Uranus tidak termasuk tema lazim keramik lukis Yunani.",
+          "quote": "However, no cult addressed directly to Uranus survived into classical times, and Uranus does not appear among the usual themes of Greek painted pottery.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c42",
+          "source_id": "uranus-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Uranus is the personification of the sky and one of the Greek primordial deities; according to Hesiod he was the son and husband of Gaia, with whom he fathered the first generation of Titans.",
+          "statement_id": "Uranus adalah personifikasi langit dan salah satu dewa purba Yunani; menurut Hesiod ia putra sekaligus suami Gaia, yang bersamanya menurunkan generasi pertama Titan.",
+          "quote": "is the personification of the sky and one of the Greek primordial deities. According to Hesiod, Uranus was the son and husband of Gaia (Earth), with whom he fathered the first generation of Titans.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c43",
+          "source_id": "uranus-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Most linguists trace the etymology of the name Οὐρανός to a Proto-Greek form *Worsanós.",
+          "statement_id": "Kebanyakan ahli bahasa menelusuri etimologi nama Οὐρανός ke bentuk Proto-Yunani *Worsanós.",
+          "quote": "Most linguists trace the etymology of the name Οὐρανός to a Proto-Greek form *Worsanós",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c44",
+          "source_id": "uranus-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The basic Indo-European root makes Ouranos the \"rain-maker\" or the \"lord of rain\".",
+          "statement_id": "Akar kata Indo-Eropa dasarnya menjadikan Ouranos \"pembuat hujan\" atau \"penguasa hujan\".",
+          "quote": "making Ouranos the \"rain-maker\", or the \"lord of rain\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c45",
+          "source_id": "uranus-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Georges Dumézil (1934) identified Uranus with the Vedic deity Váruṇa, but the etymological equation is now considered untenable.",
+          "statement_id": "Georges Dumézil (1934) mengidentifikasi Uranus dengan dewa Weda Váruṇa, tetapi persamaan etimologis itu kini dianggap tidak dapat dipertahankan.",
+          "quote": "Of some importance in the comparative study of Indo-European mythology is the contested identification by Georges Dumézil (1934) of Uranus with the Vedic deity Váruṇa (Mitanni Aruna), god of the sky and waters, but the etymological equation is now considered untenable.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c46",
+          "source_id": "uranus-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Uranus is identified on the Gigantomachy frieze of the Pergamon Altar, bearded and winged, fighting the Giants with a sword.",
+          "statement_id": "Uranus diidentifikasi pada relief Gigantomachy di Altar Pergamon, berjenggot dan bersayap, melawan para Raksasa dengan pedang.",
+          "quote": "He is, however, identified on the Gigantomachy frieze on the Pergamon Altar, bearded and winged, fighting against the Giants with a sword",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "uranus-c47",
+          "source_id": "uranus-s3",
+          "host": "en.wikipedia.org",
+          "statement": "After his castration, Uranus recedes into the background.",
+          "statement_id": "Setelah dikebiri, peran Uranus surut ke latar belakang.",
+          "quote": "After his castration, Uranus recedes into the background.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "hanuman",
-      "file": "batch-034-fix-1.md",
+      "file": "batch-034-fix-2.md",
+      "entry_sha256": "ad550dfc30222e6272cbec2e2e03ed0a8c76b74c7916eaf9ed0a4a417b17c1df",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 10,
-        "sources": 3,
+        "claims": 41,
+        "sources": 4,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 10 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
           "where": "claims",
-          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
+          "message": "3 kutipan tidak bisa dicek otomatis: asia.si.edu (HTTP 403); www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -394,9 +1225,8 @@
           "statement_id": "Hanuman adalah dewa bertubuh kera, pendamping Rama, dan teladan bakti.",
           "quote": "a deity with the body of a monkey; a companion of the deity Rama and an exemplar of self-discipline and devotion.",
           "context": "religious-tradition",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20250329112751id_/https://asia.si.edu/glossary/hanuman/",
-          "detail": "HTTP 403; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 403"
         },
         {
           "id": "hanuman-c03",
@@ -479,25 +1309,331 @@
           "context": "religious-tradition",
           "status": "unreachable",
           "detail": "HTTP 429"
+        },
+        {
+          "id": "hanuman-c11",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "While inside the demon fort searching for Sita, Hanuman sets the whole place on fire and warns Ravana of an impending attack unless Sita is returned unharmed.",
+          "statement_id": "Saat berada di benteng para iblis untuk mencari Sita, Hanuman membakar seluruh tempat itu dan memperingatkan Rahwana tentang serangan yang akan datang kecuali Sita dikembalikan dengan selamat.",
+          "quote": "While within the demon fort on his quest for Sita, he sets the entire place on fire and warns Ravana about an impending attack unless Sita is returned unharmed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c12",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the Rama-Ravana battle Hanuman kills several demon generals and also brings Rama's brother back to life.",
+          "statement_id": "Dalam pertempuran Rama-Rahwana, Hanuman membunuh beberapa jenderal iblis dan juga menghidupkan kembali saudara Rama.",
+          "quote": "During the Rama-Ravana battle, Hanuman not only kills several demon generals but also brings Rama's brother back to life.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c13",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The battle rages in Lanka while the Himalayas are far to the north and the herbs are needed before dawn; Hanuman leaps into the air, flies north at lightning speed and alights atop the Himalayas.",
+          "statement_id": "Pertempuran berkecamuk di Lanka sementara Himalaya jauh di utara, dan ramuan dibutuhkan sebelum fajar; Hanuman melompat ke udara, terbang ke utara secepat kilat, dan mendarat di puncak Himalaya.",
+          "quote": "The catch? The battle is raging on in Lanka, across the southernmost tip of the country, while the Himalayas are far up north, and the herbs are needed within the next few hours, before the new day dawns. Hanuman leaps up into the air, flies northwards at lightning speed, and alights atop the Himalayas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c14",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The group of monkeys helped Rama build a bridge across the sea and cross with a monkey army that stormed the demon stronghold and freed Sita.",
+          "statement_id": "Kelompok kera itu membantu Rama membangun jembatan menyeberangi laut dan menyeberang bersama pasukan kera yang berhasil menyerbu benteng iblis dan membebaskan Sita.",
+          "quote": "This monkey group was instrumental in giving Rama key information about Sita. They helped him build a bridge across the seas, and cross over with a monkey army that successfully stormed the demon stronghold and freed Sita.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c15",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "From his father, the Wind God, Hanuman inherits his might and speed.",
+          "statement_id": "Dari ayahnya, Dewa Angin, Hanuman mewarisi kekuatan dan kecepatannya.",
+          "quote": "From his father, the Wind God, he inherits his might and speed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c16",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the epic Hanuman is described as having an extremely pleasant face, perfect diction, elegant speech and faultless manners, and as knowing the three Vedas.",
+          "statement_id": "Dalam wiracarita itu Hanuman digambarkan berwajah sangat menyenangkan, berdiksi sempurna, bertutur santun, dan bersopan santun tanpa cela, serta menguasai tiga Weda.",
+          "quote": "Hanuman is described in the epic as one of extremely pleasant visage, perfect diction, elegant speech, and faultless manners. He is also described as being knowledgeable in the three Vedas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c17",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the Mahabharata, Bhima cannot move even a whisker of an old monkey's tail; the monkey turns out to be Hanuman, the mightiest being on earth.",
+          "statement_id": "Dalam Mahabharata, Bhima tak mampu menggeser sehelai pun ekor seekor kera tua yang ternyata adalah Hanuman, makhluk terkuat di bumi.",
+          "quote": "One of the princes in the Mahabharat is also a son of the Wind God and it is to him that Hanuman makes his only appearance in this epic. This prince, named Bhima, was as mighty as the wind ... he could not move even a whisker of the tail. It transpired that the monkey was none other than Hanuman, the mightiest being on earth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c18",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "As a mark of affection to Bhima, Hanuman agreed to reside on the flag of the chariot of Bhima's younger brother Arjuna.",
+          "statement_id": "Sebagai tanda kasih kepada Bhima, Hanuman setuju tinggal di bendera kereta Arjuna, adik Bhima.",
+          "quote": "As a mark of affection to Bhima, Hanuman agreed to reside on the flag of Bhima's younger brother Arjuna's chariot.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c19",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hanuman is the child of the Wind God and the princess Anjana; he is called by his mother's name, Anjaneya, as often as by his father's.",
+          "statement_id": "Hanuman adalah anak Dewa Angin dan putri Anjana; ia disebut dengan nama ibunya, Anjaneya, sesering nama ayahnya.",
+          "quote": "Hanuman is the child of the Wind God and the princess Anjana. He is referred to by his metronymic, Anjaneya, as often as his patronymic",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c20",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to the Puranas, the couple prayed to Shiva for a son, and Hanuman was born from an aspect of Shiva through the agency of the Wind God.",
+          "statement_id": "Menurut Purana, pasangan itu berdoa kepada Shiva memohon seorang putra, dan Hanuman lahir dari aspek Shiva melalui perantaraan Dewa Angin.",
+          "quote": "The various Puranas say that Anjana was married to the monkey chief Kesari. The couple prayed to Shiva for a son, and Hanuman was born to them from an aspect of Shiva, through the agency of the Wind God.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c21",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hanuman has two patronyms: Vayu-putra (Wind's son) and Kesari-nandan (Kesari's son).",
+          "statement_id": "Hanuman memiliki dua nama keturunan: Vayu-putra (putra Angin) dan Kesari-nandan (putra Kesari).",
+          "quote": "Thus, Hanuman has two patronyms: Vayu-putra (Wind's son) as well as Kesari-nandan (Kesari's son).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c22",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hanuman mistook the sun for a ripe fruit and leapt into the air to grab it.",
+          "statement_id": "Hanuman mengira matahari adalah buah matang dan melompat ke udara untuk menyambarnya.",
+          "quote": "Hanuman mistook the sun itself to be a ripe fruit and leapt up in the air to grab it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c23",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to this story the thunderbolt hit its target, the monkey child's chin was disfigured, and he came to be known as Hanuman (hanu = chin; man = having), \"he of the [broken] chin\".",
+          "statement_id": "Menurut kisah ini petir mengenai sasarannya, dagu anak kera itu cacat, dan ia dikenal sebagai Hanuman (hanu = dagu; man = memiliki), yakni \"yang berdagu [patah]\".",
+          "quote": "the infallible thunderbolt hit its target, the monkey child got his chin disfigured, and came to be known as Hanuman (hanu = chin; man = of, with, bearing, having; hanu+man=he of [broken] chin).",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c24",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In this story Hanuman tells the king of the gods that he is unslayable, being born of Shiva.",
+          "statement_id": "Dalam kisah ini, Hanuman berseru kepada raja para dewa bahwa ia tak dapat dibunuh karena lahir dari Shiva.",
+          "quote": "Do you not know, King, that I am unslayable? I am born of Shiva, how can your thunderbolt do anything to me?",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c25",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Puranas also say Surya, the Sun God, taught Hanuman the Vedas and all other branches of learning, which he learnt by trotting alongside the Sun's chariot.",
+          "statement_id": "Purana juga menyebut Surya, dewa Matahari, mengajarkan Weda dan segala cabang ilmu kepada Hanuman, yang belajar sambil berlari di samping kereta Matahari.",
+          "quote": "The Puranas also tell us that Hanuman was taught the Vedas and all other branches of learning by Sun God himself, Surya. He learnt his lessons by trotting alongside the Sun's chariot as it moved across the sky.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c26",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the 16th century CE the poet Tulsidas retold the Ramayana in Awadhi and composed several hymns, including the Hanuman Chalisa, still recited by thousands today.",
+          "statement_id": "Pada abad ke-16 M, penyair Tulsidas menceritakan ulang Ramayana dalam bahasa Awadhi dan menggubah beberapa himne, termasuk Hanuman Chalisa yang masih dilantunkan ribuan orang.",
+          "quote": "During the 16th CE, a poet called Tulsidas retold the Ramayana in the vernacular Awadhi language (rather than the academic Sanskrit) and also composed several hymns to the gods. One such hymn, the Hanuman Chalisa, continues to be recited today by thousands of people.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c27",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The canticle of about 40 verses celebrates the qualities Hanuman came to signify over the centuries: strength, devotion, celibacy and righteousness.",
+          "statement_id": "Kidung sekitar 40 bait itu memuliakan sifat-sifat yang dilambangkan Hanuman selama berabad-abad: kekuatan, bakti, selibat, dan kebenaran.",
+          "quote": "This canticle of about 40 verses celebrates all of the qualities that Hanuman came to signify over the centuries: strength, devotion, celibacy, and righteousness.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c28",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the translated extract of the Hanuman Chalisa, demons and ghosts do not come near when they hear the mighty one's name, and diseases die and sorrows disappear for one who constantly chants Hanuman's name.",
+          "statement_id": "Dalam terjemahan petikan Hanuman Chalisa, setan dan hantu tidak mendekat bila mendengar nama sang perkasa, penyakit lenyap dan duka sirna bagi yang terus melafalkan nama Hanuman.",
+          "quote": "In an extract from the Hanuman Chalisa ... Demons and ghosts do not come near If they hear the mighty one's name Diseases die, sorrows disappear If one constantly chants Hanuman's name",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c29",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "A small shrine to Hanuman is almost de rigueur in police stations and wrestling clubs across India, especially the north; outside India he is known in Hindu-influenced countries such as Indonesia, Thailand and Malaysia.",
+          "statement_id": "Kuil kecil Hanuman hampir selalu ada di kantor polisi dan klub gulat di India, terutama di utara; di luar India ia dikenal di negara yang dipengaruhi budaya Hindu seperti Indonesia, Thailand, dan Malaysia.",
+          "quote": "It is almost de rigueur to find a small shrine to him in police stations and wrestling clubs across the country, especially in the north. Outside of India, Hanuman is known in countries which were influenced by the Hindu culture such as Indonesia, Thailand, and Malaysia.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c30",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hanuman is most often depicted with his favourite weapon, the mace, and often flying across the sky with one hand holding up the mountain of herbs and the other a mace.",
+          "statement_id": "Hanuman paling sering digambarkan dengan senjata kesayangannya, gada, dan juga sering digambarkan terbang di langit dengan satu tangan mengangkat gunung ramuan dan tangan lain memegang gada.",
+          "quote": "He is most often depicted with his favourite weapon, the mace. He is also often depicted as flying across the skies, one hand holding aloft the mountain of herbs and the other a mace.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c31",
+          "source_id": "hanuman-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Hanuman is a recurring figure in the Ramayana panels and motifs that adorn temples built over the centuries in India.",
+          "statement_id": "Hanuman adalah tokoh yang berulang pada panel dan motif Ramayana yang menghiasi candi-candi di India.",
+          "quote": "Hanuman is a recurring figure in the panels and motifs of the Ramayana that adorn the temples that were built over the centuries in India.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c32",
+          "source_id": "hanuman-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In Griffith's translation the Wind God promises that the child he gives will be strong, brave and wise, with untiring might and limbs that spring as his sire's do.",
+          "statement_id": "Dalam terjemahan Griffith, Dewa Angin berjanji bahwa anak yang diberikannya akan kuat, berani, dan bijak, bertenaga tak kenal lelah, dengan anggota tubuh yang melompat seperti ayahnya.",
+          "quote": "So strong and brave and wise shall be The glorious child I give to thee. Might shall be his that naught can tire, And limbs to spring as springs his sire.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c33",
+          "source_id": "hanuman-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In Griffith's Ramayana the child leapt three hundred leagues above the ground after what seemed fruit.",
+          "statement_id": "Dalam Ramayana versi Griffith, si anak melompat tiga ratus league di atas tanah untuk meraih apa yang disangkanya buah.",
+          "quote": "Up leapt the child, a wondrous bound, Three hundred leagues above the ground",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c34",
+          "source_id": "hanuman-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Brahmá bestowed the boon that in the brunt of battle none should slay the Wind-God's son with steel.",
+          "statement_id": "Brahmá menganugerahkan anugerah bahwa dalam pertempuran tak seorang pun boleh membunuh putra Dewa Angin dengan baja.",
+          "quote": "And Brahmá's self the boon bestowed That in the brunt of battle none Should slay with steel the Wind-God's son.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c35",
+          "source_id": "hanuman-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Indra swore that the bolt he hurls from heaven should never injure him.",
+          "statement_id": "Indra bersumpah bahwa petir yang dilemparkannya dari langit tak akan pernah melukai Hanuman.",
+          "quote": "Lord Indra, sovereign of the skies, Bent on thee all his thousand eyes, And swore that ne'er the bolt which he Hurls from the heaven should injure thee.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c36",
+          "source_id": "hanuman-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In Griffith's Ramayana Indra's bolt struck the child, who fell on a rock and had his cheek shattered.",
+          "statement_id": "Dalam Ramayana versi Griffith, petir Indra menghantam si anak sehingga ia jatuh ke batu dan pipinya remuk.",
+          "quote": "Then from the hand of Indra came A red bolt winged with wrath and flame. The child fell smitten on a rock, His cheek was shattered by the shock",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c37",
+          "source_id": "hanuman-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In his speech Hanumán claims he can circle Meru a thousand times with airy leaps and stir the sea with his arms until its waters flee their bed.",
+          "statement_id": "Dalam pidatonya, Hanumán mengaku dapat mengelilingi puncak Meru seribu kali dengan lompatan di udara dan mengaduk laut dengan lengannya hingga airnya meninggalkan dasarnya.",
+          "quote": "A thousand times with airy leap Can circle loftiest Meru's steep: With my fierce arms can stir the sea Till from their bed the waters flee",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c38",
+          "source_id": "hanuman-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Hanumán declares he can spring through the air far swifter than the feathered King.",
+          "statement_id": "Hanumán menyatakan dapat melesat di udara jauh lebih cepat daripada Raja Burung.",
+          "quote": "I through the fields of air can spring Far swifter than the feathered King",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c39",
+          "source_id": "hanuman-s4",
+          "host": "www.gutenberg.org",
+          "statement": "In Griffith's Ramayana Hanumán musters his might and springs from the mountain height, uprooted trees following him.",
+          "statement_id": "Dalam Ramayana versi Griffith, Hanumán mengerahkan tenaganya dan melompat dari puncak gunung, pepohonan tercabut mengikutinya.",
+          "quote": "He ceased; and mustering his might Sprang downward from the mountain height, While, shattered by each mighty limb, The trees unrooted followed him.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c40",
+          "source_id": "hanuman-s4",
+          "host": "www.gutenberg.org",
+          "statement": "The shadow of Hanumán's vast form on the ocean flew like a ship before the gale, and the sea beneath his course raged and swelled.",
+          "statement_id": "Bayangan tubuh raksasa Hanumán di atas samudra meluncur seperti kapal diterpa angin, dan laut di bawah jalurnya bergolak serta menggelembung.",
+          "quote": "The shadow on the ocean cast By his vast form, as on he passed, Flew like a ship before the gale When the strong breeze has filled the sail, And where his course the Vánar held The sea beneath him raged and swelled.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hanuman-c41",
+          "source_id": "hanuman-s4",
+          "host": "www.gutenberg.org",
+          "statement": "Hanumán, his soul stirred to vigorous effort, stood before their joyous eyes dilated in gigantic size.",
+          "statement_id": "Hanumán, jiwanya terdorong untuk berupaya keras, berdiri di depan mata mereka yang bersukacita dengan tubuh membesar hingga ukuran raksasa.",
+          "quote": "and stood before their joyous eyes Dilated in gigantic size.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "mars",
-      "file": "batch-034-fix-1.md",
+      "file": "batch-034-fix-2.md",
+      "entry_sha256": "e885a08b71838582cc98477d35c15ea9b7e03cf0863a84675a42d78812b63995",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 10,
-        "sources": 2,
+        "claims": 52,
+        "sources": 4,
         "images": 0
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 10 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "claims",
@@ -604,6 +1740,426 @@
           "statement": "Mars festivals in March and October marked military campaign preparations and closure.",
           "statement_id": "Festival Mars berlangsung pada Maret dan Oktober, terkait awal dan akhir musim kampanye militer.",
           "quote": "Important festivals and ceremonies, usually connected to the preparation and closure of military campaigns, were held in honour of the god in March and October",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c11",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Mars is the god of war and also an agricultural guardian, a combination characteristic of early Rome; he is the son of Jupiter and Juno and was pre-eminent among the Roman army's military gods.",
+          "statement_id": "Mars adalah dewa perang sekaligus pelindung pertanian, perpaduan yang khas Roma awal; ia putra Jupiter dan Juno dan terkemuka di antara dewa-dewa militer tentara Romawi.",
+          "quote": "is the god of war and also an agricultural guardian, a combination characteristic of early Rome. He is the son of Jupiter and Juno, and was pre-eminent among the Roman army's military gods.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c12",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Unlike Ares, who was seen mainly as a destructive and destabilizing force, Mars represented military power as a way to secure peace and was a father (pater) of the Roman people.",
+          "statement_id": "Berbeda dengan Ares yang dipandang terutama sebagai kekuatan perusak dan pengacau, Mars melambangkan kekuatan militer sebagai cara mengamankan perdamaian dan menjadi bapak (pater) bangsa Romawi.",
+          "quote": "Unlike Ares, who was viewed primarily as a destructive and destabilizing force, Mars represented military power as a way to secure peace, and was a father (pater) of the Roman people.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c13",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Mars's altar in the Campus Martius, the area of Rome named after him, was supposed to have been dedicated by Numa, the peace-loving semi-legendary second king of Rome.",
+          "statement_id": "Altar Mars di Campus Martius, kawasan Roma yang dinamai menurut namanya, konon didedikasikan oleh Numa, raja kedua Roma yang cinta damai dan setengah legendaris.",
+          "quote": "Mars's altar in the Campus Martius, the area of Rome that took its name from him, was supposed to have been dedicated by Numa, the peace-loving semi-legendary second king of Rome",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c14",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Augustus shifted the focus of Mars's cult inside the pomerium (Rome's ritual boundary) and built a temple to Mars Ultor as a key religious feature of his new forum.",
+          "statement_id": "Augustus memindahkan pusat kultus Mars ke dalam pomerium (batas ritual Roma) dan membangun kuil bagi Mars Ultor sebagai ciri keagamaan utama forum barunya.",
+          "quote": "Augustus shifted the focus of Mars's cult to within the pomerium (Rome's ritual boundary), and built a temple to Mars Ultor as a key religious feature of his new forum.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c15",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Mars's association with the wolf is familiar from what may be the most famous Roman myth: a she-wolf (lupa) suckled his infant sons when they were exposed on the order of King Amulius.",
+          "statement_id": "Kaitan Mars dengan serigala dikenal dari kisah paling terkenal mitos Romawi: seekor serigala betina (lupa) menyusui putra-putranya yang masih bayi ketika mereka dibuang atas perintah Raja Amulius.",
+          "quote": "Mars's association with the wolf is familiar from what may be the most famous of Roman myths, the story of how a she-wolf (lupa) suckled his infant sons when they were exposed by order of King Amulius",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c16",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The wild animals most sacred to Mars were the woodpecker and the wolf, said in Roman natural lore always to inhabit the same foothills and woodlands.",
+          "statement_id": "Hewan liar yang paling suci bagi Mars adalah burung pelatuk dan serigala, yang menurut pengetahuan alam Romawi selalu menghuni kaki bukit dan hutan yang sama.",
+          "quote": "The wild animals most sacred to Mars were the woodpecker and the wolf, which in the natural lore of the Romans were said always to inhabit the same foothills and woodlands.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c17",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Because the beak of the picus Martius held the god's power to ward off harm, it was carried as a magic charm to prevent bee stings and leech bites.",
+          "statement_id": "Karena paruh picus Martius mengandung kekuatan sang dewa untuk menangkal bahaya, paruh itu dibawa sebagai jimat untuk mencegah sengatan lebah dan gigitan lintah.",
+          "quote": "As the beak of the picus Martius contained the god's power to ward off harm, it was carried as a magic charm to prevent bee stings and leech bites.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c18",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "In the territory of the Aequi, Mars had an oracle of great antiquity where prophecies were supposed to be spoken by a woodpecker perched on a wooden column.",
+          "statement_id": "Di wilayah bangsa Aequi, Mars memiliki orakel yang sangat kuno, tempat ramalan konon diucapkan oleh burung pelatuk yang bertengger di tiang kayu.",
+          "quote": "In the territory of the Aequi, another Italic people, Mars had an oracle of great antiquity where the prophecies were supposed to be spoken by a woodpecker perched on a wooden column.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c19",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "At the Battle of Sentinum in 295 BCE, the appearance of the wolf of Mars (Martius lupus) was a sign that Roman victory was to come.",
+          "statement_id": "Pada Pertempuran Sentinum tahun 295 SM, munculnya serigala Mars (Martius lupus) menjadi tanda bahwa kemenangan Romawi akan datang.",
+          "quote": "At the Battle of Sentinum in 295 BCE, the appearance of the wolf of Mars (Martius lupus) was a sign that Roman victory was to come.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c20",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "In Roman Gaul the goose was associated with the Celtic forms of Mars, and archaeologists have found geese buried alongside warriors in graves.",
+          "statement_id": "Di Gaul Romawi, angsa dikaitkan dengan bentuk-bentuk Mars versi Kelt, dan arkeolog menemukan angsa dikubur bersama prajurit di makam.",
+          "quote": "In Roman Gaul, the goose was associated with the Celtic forms of Mars, and archaeologists have found geese buried alongside warriors in graves.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c21",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The two most distinctive animal sacrifices to Mars were the suovetaurilia, a triple offering of pig, ram and bull, and the October Horse, the only horse sacrifice known in ancient Rome.",
+          "statement_id": "Dua kurban hewan yang paling khas bagi Mars adalah suovetaurilia, persembahan tiga hewan (babi, domba jantan, banteng), dan Kuda Oktober, satu-satunya kurban kuda yang diketahui di Roma kuno.",
+          "quote": "The two most distinctive animal sacrifices made to Mars were the suovetaurilia, a triple offering of a pig (sus), ram (ovis) and bull (taurus), and the October Horse, the only horse sacrifice known to have been carried out in ancient Rome",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c22",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Cato the Elder invokes Mars Silvanus for a ritual to be carried out in silva, in the woods.",
+          "statement_id": "Cato yang Tua memanggil Mars Silvanus untuk sebuah ritual yang dilaksanakan di silva, yaitu di hutan.",
+          "quote": "Cato the Elder invokes Mars Silvanus for a ritual to be carried out in silva",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c23",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "As an agricultural guardian, Mars directs his energies toward creating conditions for crops to grow, which may include warding off hostile forces of nature.",
+          "statement_id": "Sebagai pelindung pertanian, Mars mengarahkan tenaganya untuk menciptakan kondisi agar tanaman tumbuh, yang mungkin mencakup menangkal kekuatan alam yang bermusuhan.",
+          "quote": "As an agricultural guardian, Mars directs his energies toward creating conditions that allow crops to grow, which may include warding off hostile forces of nature.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c24",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Mars is invoked by the Arval Brotherhood specifically to protect and defend the suppliants from ill.",
+          "statement_id": "Mars dipanggil oleh Persaudaraan Arval khusus untuk melindungi dan membela para pemohon dari malapetaka.",
+          "quote": "the god Mars is invoked by the Arval Brotherhood specifically to protect and defend the suppliants from ill.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c25",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Mars may have originated as a god of the wild who dwelt beyond the boundaries set by humans.",
+          "statement_id": "Mars mungkin berasal sebagai dewa alam liar yang bermukim di luar batas yang dibuat manusia.",
+          "quote": "Mars may have originated as a god of the wild, who dwelt beyond the boundaries set by humans.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c26",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Virility as a kind of life force (vis) or virtue (virtus) is an essential characteristic of Mars.",
+          "statement_id": "Kejantanan sebagai semacam daya hidup (vis) atau keutamaan (virtus) merupakan ciri hakiki Mars.",
+          "quote": "Virility as a kind of life force (vis ) or virtue (virtus ) is an essential characteristic of Mars.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c27",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "By the 3rd century CE, Mars was primarily worshipped by Roman military legions.",
+          "statement_id": "Pada abad ke-3 M, Mars terutama disembah oleh legiun militer Romawi.",
+          "quote": "By the 3rd-century CE, Mars was primarily worshipped by Roman military legions.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c28",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "According to Servius, in wartime a spear was shaken in the Regia and Mars was called upon to watch over the Roman people with a set formula.",
+          "statement_id": "Menurut Servius, pada masa perang sebuah tombak diguncang di Regia dan Mars dipanggil untuk menjaga rakyat Romawi dengan ucapan tertentu.",
+          "quote": "According to the 4th-century author Servius the Grammarian, during wartime, a spear was shaken in the Regia and Mars was called upon to watch over the Roman people with the words",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c29",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Like Ares, son of Zeus and Hera, Mars is usually considered the son of Jupiter and Juno; in Ovid's version he was the son of Juno alone.",
+          "statement_id": "Seperti Ares yang putra Zeus dan Hera, Mars biasanya dianggap putra Jupiter dan Juno; dalam versi Ovidius, ia putra Juno seorang diri.",
+          "quote": "Like Ares who was the son of Zeus and Hera, Mars is usually considered to be the son of Jupiter and Juno. In Ovid's version of Mars's origin, he was the son of Juno alone.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c30",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "In Ovid's version Flora obtained a magic flower, tested it on a heifer that became fecund at once, and touched Juno's belly with it, impregnating her.",
+          "statement_id": "Dalam versi Ovidius, Flora memperoleh bunga ajaib, mengujinya pada anak sapi betina yang langsung subur, lalu menyentuh perut Juno dengan bunga itu dan membuatnya hamil.",
+          "quote": "Flora obtained a magic flower (Latin flos, plural flores, a masculine word) and tested it on a heifer who became fecund at once. Flora ritually plucked a flower, using her thumb, touched Juno's belly, and impregnated her. ... Ovid tells this story in the Fasti, his long-form poetic work on the Roman calendar.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c31",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Ovid is the only source for the story.",
+          "statement_id": "Ovidius adalah satu-satunya sumber untuk kisah itu.",
+          "quote": "Ovid is the only source for the story.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c32",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The consort of Mars was Nerio or Neriene, meaning \"Valor\".",
+          "statement_id": "Pasangan Mars adalah Nerio atau Neriene, yang berarti \"Keberanian\".",
+          "quote": "The consort of Mars was Nerio or Neriene, meaning \"Valor\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c33",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "In the early 3rd century BCE, the comic playwright Plautus refers to Mars greeting Nerio, his wife.",
+          "statement_id": "Pada awal abad ke-3 SM, penulis komedi Plautus menyinggung Mars menyapa Nerio, istrinya.",
+          "quote": "In the early 3rd century BCE, the comic playwright Plautus has a reference to Mars greeting Nerio, his wife.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c34",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Although not originally part of the Roman tradition, in 217 BCE Venus and Mars were presented as a complementary pair in the lectisternium.",
+          "statement_id": "Meski semula bukan bagian tradisi Romawi, pada 217 SM Venus dan Mars ditampilkan sebagai pasangan yang saling melengkapi dalam lectisternium.",
+          "quote": "Although not originally part of the Roman tradition, in 217 BCE Venus and Mars were presented as a complementary pair in the lectisternium",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c35",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The oldest recorded Latin form, Mamart-, is likely of foreign origin; it has been explained as deriving from Maris, an Etruscan child-god, though this is not universally agreed.",
+          "statement_id": "Bentuk Latin tertua yang tercatat, Mamart-, mungkin berasal dari luar; ada penjelasan yang menurunkannya dari Maris, nama dewa anak Etruria, meski tidak disepakati semua orang.",
+          "quote": "The oldest recorded Latin form, Mamart-, is likely of foreign origin. It has been explained as deriving from Maris, the name of an Etruscan child-god, though this is not universally agreed upon.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c36",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The older etymology equating Mars with the Vedic Maruts is now rejected in more modern Indo-Europeanist scholarship.",
+          "statement_id": "Etimologi yang menyamakan Mars dengan Marut Weda kini ditolak dalam kajian Indo-Eropa yang lebih modern.",
+          "quote": "In older literature, the god Mars was equated with the Vedic storm deities known as the Maruts ... However, this etymology is now rejected in more modern Indo-Europeanist scholarship.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c37",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "In older literature, Mars was equated with the Vedic storm deities known as the Maruts.",
+          "statement_id": "Dalam literatur lama, Mars disamakan dengan dewa-dewa badai Weda yang disebut Marut.",
+          "quote": "In older literature, the god Mars was equated with the Vedic storm deities known as the Maruts",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c38",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Latin adjectives from the name of Mars mean \"of Mars\" or \"warlike\", from which the English term \"martial\" derives.",
+          "statement_id": "Kata sifat Latin turunan nama Mars berarti \"milik Mars\" atau \"suka perang\", yang melahirkan kata Inggris \"martial\".",
+          "quote": "Latin adjectives from the name of Mars are ... meaning \"of Mars\" or \"warlike\" from which derive the English term \"martial\"",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c39",
+          "source_id": "mars-s3",
+          "host": "en.wikipedia.org",
+          "statement": "In the mythological origin of Rome outlined by the 1st-century BCE poet Virgil, Mars was cast as the ancestor of Romulus and Venus as the ancestor of Aeneas.",
+          "statement_id": "Dalam asal-usul mitologis Roma yang diuraikan penyair Virgil abad ke-1 SM, Mars adalah leluhur Romulus dan Venus leluhur Aeneas.",
+          "quote": "Within the mythological origin of Rome outlined by the 1st-century BCE poet Virgil, Mars was cast as the ancestor of Romulus and Venus as the ancestor of Aeneas",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c40",
+          "source_id": "mars-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Mars is considered more level-headed than the impulsive and disruptive Ares, and more virtuous to the martially minded Romans.",
+          "statement_id": "Mars dianggap lebih tenang daripada Ares Yunani yang impulsif dan pengacau, dan lebih berbudi luhur bagi orang Romawi yang berorientasi militer.",
+          "quote": "Mars is considered more level-headed than the impulsive and disruptive Ares. Mars is also a more virtuous figure to the more martial-oriented Romans.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c41",
+          "source_id": "mars-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the story their mother, the Vestal Virgin Rhea Silvia, was raped by Mars while she slept, and in a dream she dropped a hairpin that sprang up as two twin trees.",
+          "statement_id": "Menurut kisahnya, ibu mereka, Perawan Vesta Rhea Silvia, diperkosa Mars saat tidur, dan dalam mimpinya ia melihat jepit rambut yang dijatuhkannya menumbuhkan dua pohon kembar.",
+          "quote": "According to the story, their mother, the Vestal Virgin Rhea Silvia, was raped by Mars while she slept, and in her dreams she had a vision where she dropped a hairpin to the ground, and from which there sprang two twin trees.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c42",
+          "source_id": "mars-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Anna Perenna fancied the war god for herself and double-crossed Mars by disguising herself as Minerva, veiled, tricking him into marrying her.",
+          "statement_id": "Anna Perenna menyukai sang dewa perang untuk dirinya sendiri, lalu menipu Mars dengan menyamar sebagai Minerva dan berkerudung sehingga Mars menikahinya.",
+          "quote": "However, Anna Perenna quite fancied the handsome war god for herself, and so she double-crossed Mars by disguising herself as Minerva and, wearing a veil, she tricked the god into marrying her.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c43",
+          "source_id": "mars-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Another uniquely Roman myth is Mars's marriage to Anna Perenna; the story, retold in Ovid's Fasti, begins with Mars falling in love with Minerva.",
+          "statement_id": "Mitos khas Romawi lainnya adalah pernikahan Mars dengan Anna Perenna; kisah yang diceritakan ulang dalam Fasti karya Ovidius ini bermula ketika Mars jatuh cinta kepada Minerva.",
+          "quote": "Another myth concerning the god of war, this one uniquely Roman, was his marriage to Anna Perenna. The story is re-told in Ovid's Fasti and begins with Mars falling in love with no less a figure than Minerva",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c44",
+          "source_id": "mars-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Mars again took centre stage at the Equus October on 15 October, when a great horse race was held in the Campus Martius of Rome.",
+          "statement_id": "Mars kembali menjadi pusat perhatian pada Equus October, 15 Oktober, ketika perlombaan kuda besar diadakan di Campus Martius, Roma.",
+          "quote": "Mars again took centre stage during the Equus October, held on the 15th of that month. This was when a great horse race was held in the Campus Martius of Rome.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c45",
+          "source_id": "mars-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Finally the Armilustrium festival on 19 October, held on the Aventine, involved the purification of weapons before they were stored away for the winter.",
+          "statement_id": "Terakhir ada festival Armilustrium pada 19 Oktober di Aventine, berupa penyucian senjata sebelum disimpan selama musim dingin.",
+          "quote": "Finally, there was the Armilustrium festival on the 19th of October, held on the Aventine and which involved the purification of weapons before they were stored away for the winter.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c46",
+          "source_id": "mars-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Tubilustrium involved rites to cleanse and favour trumpets, while the Equirria ensured all would be well with the horses on campaign.",
+          "statement_id": "Tubilustrium berupa rangkaian ritus membersihkan dan memberkati terompet, sedangkan Equirria memastikan kuda-kuda baik-baik saja saat berkampanye.",
+          "quote": "The Tubilustrium involved a series of rites to cleanse and favour trumpets, whilst the Equirria was to ensure all would be well with the horses when on campaign.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c47",
+          "source_id": "mars-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Another important ritual was performed by the commander of the departing army, who shook the god's sacred spears kept in the Regia.",
+          "statement_id": "Ritus penting lain dilakukan panglima pasukan yang hendak berangkat dengan mengguncang tombak suci sang dewa yang disimpan di Regia.",
+          "quote": "Another important ritual was performed by the commander of the army about to depart who shook the sacred spears of the god which were kept in the Regia.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c48",
+          "source_id": "mars-s1",
+          "host": "www.worldhistory.org",
+          "statement": "On 1, 9 and 23 March the priests called the Salii sang hymns and dressed in bronze-age armour including the ancient figure-of-eight ancilia shields.",
+          "statement_id": "Pada 1, 9, dan 23 Maret, para imam Salii menyanyikan himne dan mengenakan baju zirah zaman perunggu termasuk perisai ancilia berbentuk angka delapan.",
+          "quote": "On the 1st, 9th and 23rd of March, the priests of this sacred trio, the Salii, sang hymns and dressed themselves in bronze-age armour which included the ancient ancilia figure-of-eight shields.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c49",
+          "source_id": "mars-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Mars was also involved in ceremonies for the ancient triad of gods that included himself, Jupiter and Quirinus.",
+          "statement_id": "Mars juga terlibat dalam upacara untuk triad dewa kuno yang terdiri dari dirinya, Jupiter, dan Quirinus.",
+          "quote": "he was also involved with ceremonies relating to the ancient triad of gods which included himself, Jupiter, and Quirinus.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c50",
+          "source_id": "mars-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The ceremonies were carried out by Mars' specially dedicated priests, the flamen Martialis.",
+          "statement_id": "Upacara itu dilaksanakan oleh imam khusus Mars, flamen Martialis.",
+          "quote": "were held in honour of the god in March and October and carried out by Mars' specially dedicated priests, the flamen Martialis.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c51",
+          "source_id": "mars-s4",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Livy the Vestal was forcibly violated and gave birth to twins; she named Mars as their father, either because she believed it or because the fault might seem less heinous if a deity were the cause.",
+          "statement_id": "Dalam Livy, Perawan Vesta itu dinodai dengan paksa dan melahirkan anak kembar; ia menyebut Mars sebagai ayah mereka, entah karena sungguh percaya atau agar kesalahannya tampak lebih ringan jika seorang dewa penyebabnya.",
+          "quote": "The Vestal was forcibly violated and gave birth to twins. She named Mars as their father, either because she really believed it, or because the fault might appear less heinous if a deity were the cause of it.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mars-c52",
+          "source_id": "mars-s4",
+          "host": "www.perseus.tufts.edu",
+          "statement": "In Livy a thirsty she-wolf from the surrounding hills, drawn by the children's crying, came and suckled them and was so gentle that the king's flock-master found her licking the boys.",
+          "statement_id": "Dalam Livy, seekor serigala betina yang haus dari bukit sekitar datang karena tangisan anak-anak itu, menyusui mereka, dan begitu lembut hingga gembala raja mendapatinya menjilati anak-anak itu.",
+          "quote": "a thirsty she-wolf from the surrounding hills, attracted by the crying of the children, came to them, gave them her teats to suck and was so gentle towards them that the king's flock-master found her licking the boys with her tongue.",
           "context": "historical-record",
           "status": "exact"
         }

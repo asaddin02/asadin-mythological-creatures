@@ -1,8 +1,9 @@
 {
   "batch_id": "batch-111",
-  "checked_at": "2026-10-03T01:27:37.397Z",
+  "checked_at": "2026-10-06T15:34:51.295Z",
   "files": [
-    "batch-111.md"
+    "batch-111.md",
+    "batch-111-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -79,7 +80,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8cbce3e0ca736c28b010982ffcf09df040c62e3eebbb5281ad079b7ee6e552ec"
     },
     {
       "slug": "k-ajk",
@@ -153,7 +155,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7707d32dbf5fd4148c1a2b4e0db030c7caa55ada8b4a2e830ce37f54a489970b"
     },
     {
       "slug": "kr-lle-b-lle",
@@ -172,7 +175,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "ecdd30232d09c9575ad0c9492fcfed82f19dcf7939c5437df97dcbd80077ef66"
     },
     {
       "slug": "lutzelfrau",
@@ -256,7 +260,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "23553c123b9617427e0fe9abed62fca28d08bf806c2f6501551c899a458c2724"
     },
     {
       "slug": "night-raven",
@@ -340,7 +345,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "31c3cabf5bb75266ee3dd9bf3c92ded5e59f5cf2cb4474510840566e86737254"
     },
     {
       "slug": "nis-puk",
@@ -414,7 +420,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c872777bca6667c6bc75e5b4fa5f21f3e462fe263b9c82aedc309e461e369589"
     },
     {
       "slug": "ra",
@@ -488,7 +495,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7fd76ae2c45969feef60ca7fa99725a06ee57e779337cc48bd90b7962983ee46"
     },
     {
       "slug": "roggenmuhme",
@@ -562,24 +570,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6bbdc0a4a1649f8267ff2b0dac365715b98b0c729e0a7fec4c00a31023cb70bb"
     },
     {
       "slug": "skinfaxi",
-      "file": "batch-111.md",
+      "file": "batch-111-fix-1.md",
+      "entry_sha256": "7f0cc6bbeb15df5f7be796a96fe0decc5804b39969bb0171ec91ac874b1d882b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 3,
+        "claims": 12,
+        "sources": 6,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "skinfaxi-c01",
@@ -629,6 +633,76 @@
           "statement_id": "Kuda Hrymfaxe ditambatkan pada kereta yang membawa bulan melintasi langit di malam hari.",
           "quote": "Hesten Hrymfaxe er forspændt vognen, der bærer månen over himlen om natten.",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "skinfaxi-c06",
+          "source_id": "skinfaxi-s4",
+          "host": "en.wikisource.org",
+          "statement": "In this translated Edda poem, Skinfaxi is the steed who draws the glittering day for men; he seems the best of horses to heroes, and his mane burns brightly.",
+          "statement_id": "Dalam terjemahan puisi Edda ini, Skinfaxi adalah kuda yang menarik siang yang berkilau bagi manusia; bagi para pahlawan ia tampak sebagai kuda terbaik, dan suainya menyala terang.",
+          "quote": "Skinfaxi is he, the steed who for men The glittering day doth draw; The best of horses to heroes he seems, And brightly his mane doth burn.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "skinfaxi-c07",
+          "source_id": "skinfaxi-s4",
+          "host": "en.wikisource.org",
+          "statement": "Hrimfaxi is the steed that brings night for the noble gods; each morning foam falls from his bit and becomes the dews in the dales.",
+          "statement_id": "Hrimfaxi adalah kuda yang membawa malam bagi para dewa mulia; tiap pagi buih jatuh dari kekangnya dan menjadi embun di lembah.",
+          "quote": "Hrimfaxi name they the steed that anew Brings night for the noble gods; Each morning foam from his bit there falls, And thence come the dews in the dales.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "skinfaxi-c08",
+          "source_id": "skinfaxi-s5",
+          "host": "en.wikisource.org",
+          "statement": "All-father gave Night and Day, her son, two horses and two cars and set them in the heavens to drive in turn round the world, each for twelve hours.",
+          "statement_id": "All-father memberi Malam dan Siang, putranya, dua kuda dan dua kereta, lalu menempatkan mereka di langit agar bergantian berkeliling dunia, masing-masing dua belas jam.",
+          "quote": "Then took All-father, Night, and Day, her son, and gave them two horses and two cars, and set them up in the heavens that they might drive successively one after the other, each in twelve hours' time, round the world.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "skinfaxi-c09",
+          "source_id": "skinfaxi-s5",
+          "host": "en.wikisource.org",
+          "statement": "The horse Day uses is named Skinfaxi, from whose mane light is shed over the earth and the heavens.",
+          "statement_id": "Kuda yang dipakai Siang bernama Skinfaxi; dari suainya cahaya memancar ke bumi dan langit.",
+          "quote": "The horse made use of by Day is named Skinfaxi, from whose mane is shed light over the earth and the heavens.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "skinfaxi-c10",
+          "source_id": "skinfaxi-s5",
+          "host": "en.wikisource.org",
+          "statement": "Night then married Delling of the Æsir race, and their son was Day (Dagr), a child light and beautiful like his father.",
+          "statement_id": "Malam kemudian menikah dengan Delling dari bangsa Æsir, dan putra mereka adalah Siang (Dagr), anak yang terang dan elok seperti ayahnya.",
+          "quote": "She then espoused Delling, of the Æsir race, and their son was Day, (Dagr) a child light and beauteous like his father.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "skinfaxi-c11",
+          "source_id": "skinfaxi-s6",
+          "host": "en.wikisource.org",
+          "statement": "The translator's note says Glath (\"Joyous\") is identified in the Skaldskaparmal with Skinfaxi, the horse of the day.",
+          "statement_id": "Catatan penerjemah menyebut Glath (\"Gembira\") dalam Skaldskaparmal diidentifikasi dengan Skinfaxi, kuda sang siang.",
+          "quote": "Glath (\"Joyous\"): identified in the Skaldskaparmal with Skinfaxi, the horse of the day; cf. Vafthruthnismol, 12.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "skinfaxi-c12",
+          "source_id": "skinfaxi-s4",
+          "host": "en.wikisource.org",
+          "statement": "The translator's notes gloss Skinfaxi as \"Shining-Mane\" and Hrimfaxi as \"Frosty-Mane\".",
+          "statement_id": "Catatan penerjemah mengartikan Skinfaxi sebagai \"Surai Bersinar\" dan Hrimfaxi sebagai \"Surai Berembun beku\".",
+          "quote": "Skinfaxi: \"Shining-Mane.\" ... Hrimfaxi: \"Frosty-Mane.\"",
+          "context": "etymology",
           "status": "exact"
         }
       ],
@@ -716,7 +790,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c189fca61bc646049aa33c85ba740e4bcb7abc2ae8324038aad7e0fb622a8131"
     },
     {
       "slug": "tanngnjost",
@@ -800,7 +875,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b47876b2342529c0a4461a212eaf3645f1a23456930990403e5f94003e871348"
     },
     {
       "slug": "tanngrisnir",
@@ -894,7 +970,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "90977e64f2e041e1b2d438d46098bbdf6452dbe7343fe5738ea2a113a828a9ba"
     },
     {
       "slug": "the-dragon-beowulf",
@@ -968,24 +1045,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2c3fc04f53fb6895c9d6bd4fb1f4be8daba7fc78449f581950919035e5f04ef5"
     },
     {
       "slug": "trow-folklore",
-      "file": "batch-111.md",
+      "file": "batch-111-fix-1.md",
+      "entry_sha256": "e7e85a61203b37876458059903cc7dda70eb9d4aab0beffe0f6a996f7f4bb4c3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 18,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "trow-folklore-c01",
@@ -1036,26 +1109,151 @@
           "quote": "Un trow ou drow est une créature surnaturelle issue des croyances et du folklore des îles Orcades et Shetland, au nord de l'Écosse. Les trows sont souvent comparées aux fées (faeries) et ils dérivent peut-être des selkies ou bien du troll nordique.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "trow-folklore-c06",
+          "source_id": "trow-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It was considered taboo to speak about trows, and unlucky to catch sight of one, though auspicious to hear one speaking.",
+          "statement_id": "Berbicara tentang trow dianggap tabu, dan melihat trow dianggap membawa sial, tetapi mendengar trow berbicara dianggap pertanda baik.",
+          "quote": "It was considered taboo to speak about trows. It was also considered unlucky to catch sight of a trow, though auspicious to hear one speaking.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "trow-folklore-c07",
+          "source_id": "trow-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Trows are of two kinds, hill-trows (land trows) and sea-trows, said to be mortal enemies.",
+          "statement_id": "Trow terdiri atas dua jenis, trow bukit (trow darat) dan trow laut, dan keduanya konon musuh bebuyutan.",
+          "quote": "Trows consist of two kinds, the hill-trows (land trows) and sea-trows, and the two kinds are said to be mortal enemies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "trow-folklore-c08",
+          "source_id": "trow-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Hill-dwelling trows are said to be able to leave their dwellings (\"knowes\", knolls) only after sunset; if they miss the chance to return before sunrise they do not perish but must wait above ground.",
+          "statement_id": "Trow bukit dikatakan hanya dapat keluar dari tempat tinggal mereka (\"knowe\", bukit kecil) setelah matahari terbenam; bila terlambat kembali sebelum matahari terbit, mereka tidak mati tetapi harus menunggu di atas tanah.",
+          "quote": "Of the hill-dwelling types, it is said they can only appear out of their dwellings (\"knowes\"=knolls; \"trowie knowes\") after sunset, and if they miss the opportunity to return before sunrise, they do not perish but must await above ground",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "trow-folklore-c09",
+          "source_id": "trow-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The stone circle on Fetlar is called the Haltadans ('Limping Dance') because, according to legend, the stones are music-loving trows petrified after dancing so absorbedly to the trowie fiddler's tunes that they failed to hide before dawn.",
+          "statement_id": "Lingkaran batu di Fetlar dijuluki Haltadans ('Tarian Pincang') karena menurut legenda batu-batu itu adalah sekelompok trow pencinta musik yang membatu setelah terlalu asyik menari mengikuti nada pemain biola trow sehingga gagal bersembunyi sebelum fajar.",
+          "quote": "The stone circle on Fetlar has been dubbed the Haltadans (meaning 'Limping Dance') since according to legend, they represent a group of petrified music-loving trows who were so engrossed by dancing to the trowie fiddler's tunes that they failed to hide before dawn's break.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "trow-folklore-c10",
+          "source_id": "trow-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Tales tell of human fiddlers abducted by trows to their mounds; though released after what seems a brief stay, many years have passed outside and the victim turns to dust or chooses to die.",
+          "statement_id": "Ada pula kisah pemain biola manusia yang diculik trow ke gundukan mereka; meski dilepas setelah tampaknya sebentar, bertahun-tahun telah berlalu di dunia luar dan korban menjadi debu atau memilih mati.",
+          "quote": "Tales are also told of human fiddlers being abducted by trows to their mounds, and although released after what seems a brief stay, many long years have elapsed in the outside world, and the victim turns to dust, or chooses to die.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "trow-folklore-c11",
+          "source_id": "trow-folklore-s3",
+          "host": "dsl.ac.uk",
+          "statement": "According to this dictionary, trows were called hill-, land- or sea-trows according to their supposed haunts or abode.",
+          "statement_id": "Menurut kamus ini, trow disebut trow bukit, darat, atau laut sesuai dengan tempat yang dianggap sebagai tempat tinggal atau sarangnya.",
+          "quote": "They were called hill-, land-, or sea-trows acc. to their supposed haunts or abode.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "trow-folklore-c12",
+          "source_id": "trow-folklore-s3",
+          "host": "dsl.ac.uk",
+          "statement": "A passage quoted in the dictionary describes sea-trows as great rolling creatures tumbling in the water which, if they come among fishermen's nets, break them and sometimes take them away.",
+          "statement_id": "Sebuah kutipan dalam kamus menggambarkan trow laut sebagai makhluk besar yang berguling-guling di air; bila masuk ke jaring nelayan, mereka merobeknya dan kadang membawanya pergi.",
+          "quote": "Sea-Trowes, great rolling Creatures, tumbling in the Waters, which if they come among their nets, they break them, and sometimes takes them away with them.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "trow-folklore-c13",
+          "source_id": "trow-folklore-s3",
+          "host": "dsl.ac.uk",
+          "statement": "A passage quoted in the dictionary says that when a cow or sheep falls sick or dies, it is firmly believed the real animal was taken away and something of trowie breed put in its place.",
+          "statement_id": "Sebuah kutipan dalam kamus menyebut bahwa bila sapi atau domba jatuh sakit atau mati, orang sangat percaya hewan aslinya telah dibawa pergi dan digantikan sesuatu dari jenis trow.",
+          "quote": "When a cow or sheep happens to turn sick or die, it is firmly believed that the real animal has been taken away and something of a trowie breed substituted in its place.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "trow-folklore-c14",
+          "source_id": "trow-folklore-s3",
+          "host": "dsl.ac.uk",
+          "statement": "A passage quoted in the dictionary says newly confined women had to be watched lest they be carried off to act as wet-nurse to a trowling.",
+          "statement_id": "Sebuah kutipan dalam kamus menyebut perempuan yang baru melahirkan harus dijaga agar tidak dibawa pergi untuk menjadi pengasuh susu bagi seorang trowling.",
+          "quote": "Females newly confined must be watched lest they be carried off to perform the office of wet-nurse to some trowling.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "trow-folklore-c15",
+          "source_id": "trow-folklore-s3",
+          "host": "dsl.ac.uk",
+          "statement": "A passage quoted in the dictionary says that in autumn, at Hallowmass, folk had seen the peerie folk, or trows, coming forth on their nightly travels.",
+          "statement_id": "Sebuah kutipan dalam kamus menyebut orang pernah melihat \"peerie folk\", atau trow, keluar dalam perjalanan malam mereka pada musim gugur, di Hallowmass.",
+          "quote": "In the autumn, at Hallowmass, folk had seen the ferry-kairds being parted, and the peerie folk, or trows, coming forth on their nightly travels.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "trow-folklore-c16",
+          "source_id": "trow-folklore-s3",
+          "host": "dsl.ac.uk",
+          "statement": "A passage quoted in the dictionary states that the trows do not differ from the fairies of the Lowlands, or the Sighean of the Highlanders.",
+          "statement_id": "Sebuah kutipan dalam kamus menyatakan bahwa trow tidak berbeda dari peri dataran rendah, atau Sighean orang Highlands.",
+          "quote": "The trows do not differ from the fairies of the Lowlands, or Sighean of the Highlanders.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "trow-folklore-c17",
+          "source_id": "trow-folklore-s3",
+          "host": "dsl.ac.uk",
+          "statement": "The dictionary defines \"trowie knowe\" as a knoll inhabited by trolls, a fairy hill.",
+          "statement_id": "Menurut kamus, \"trowie knowe\" adalah bukit kecil yang dihuni troll, bukit peri.",
+          "quote": "(8) trowie knowe, a knoll inhabited by trolls, a fairy hill",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "trow-folklore-c18",
+          "source_id": "trow-folklore-s3",
+          "host": "dsl.ac.uk",
+          "statement": "The dictionary's etymology note says the earliest recorded form, troll, in 1503, may be a scribal representation of trow.",
+          "statement_id": "Menurut catatan etimologi kamus, bentuk tercatat paling awal, troll, pada 1503, mungkin penulisan juru tulis untuk trow.",
+          "quote": "The earliest form recorded, troll, in 1503, may be a scribal representation of trow.",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "b-yg",
-      "file": "batch-111.md",
+      "file": "batch-111-fix-1.md",
+      "entry_sha256": "efff66e9d0b00289b561be12142e83532db37fb0480c209e7259ba2f5ce130ed",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 17,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "b-yg-c01",
@@ -1105,6 +1303,126 @@
           "statement_id": "Kata Nordik Kuno baugr berarti \"cincin\" atau \"lengkungan\" dan bisa juga dipakai sebagai kiasan untuk \"ular\"; kata bøyg dan Bøygen secara kiasan dipakai untuk hambatan yang besar dan tak jelas, atau masalah.",
           "quote": "Det norrøne ordet baugr betød «ring» eller «krumning», men kunne også brukes som en omskrivning for «orm». Ordene bøyg og Bøygen kan i overført betydning også brukes om en forhindring, gjerne stor og ubestemmelig, eller et problem.",
           "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "b-yg-c06",
+          "source_id": "b-yg-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the tale, someone in the dark suddenly ran against something that, when he put out his hand, felt cold, slippery and big.",
+          "statement_id": "Dalam dongeng itu, seseorang di kegelapan tiba-tiba menabrak sesuatu yang, saat disentuh dengan tangan, terasa dingin, licin, dan besar.",
+          "quote": "All of a sudden he ran against something, and when he put his hand out he felt it was cold and slippery and big.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "b-yg-c07",
+          "source_id": "b-yg-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Peer realised he was walking in a ring because the Boyg had curled itself round the sæter; the Boyg then shifted a little so that Peer got past.",
+          "statement_id": "Peer sadar bahwa ia berjalan berputar karena Boyg telah melingkarkan dirinya mengelilingi sæter; Boyg kemudian bergeser sedikit sehingga Peer dapat lewat.",
+          "quote": "he understood that he was walking in a ring, and that the Boyg had curled itself round the sæter. Thereupon it shifted a little, so that Peer got past.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "b-yg-c08",
+          "source_id": "b-yg-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Asked what it was, the Boyg answered that it was the big Boyg from Etnedale, the Troll-Monster. Peer's three shots into its head did not harm it: the Boyg told him to fire another, but the next bullet would have rebounded against Peer himself.",
+          "statement_id": "Ketika ditanya siapa dirinya, Boyg menjawab bahwa ia Boyg besar dari Etnedale, sang Troll-Monster. Tiga tembakan Peer ke kepalanya tidak melukainya: Boyg menyuruhnya menembak lagi, tetapi peluru berikutnya akan memantul mengenai Peer sendiri.",
+          "quote": "“What are you?” asked Peer. “Oh, I am the big Boyg from Etnedale,” said the Troll-Monster. Peer did not lose a moment, but fired three shots right into its head. “Fire another,” said the Boyg. But Peer knew better; if he had fired another shot, the bullet would have rebounded against himself.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "b-yg-c09",
+          "source_id": "b-yg-s3",
+          "host": "www.gutenberg.org",
+          "statement": "Wherever Peer put out his hands or tried to get past, he felt the Boyg encircling him.",
+          "statement_id": "Ke mana pun Peer mengulurkan tangan atau mencoba lewat, ia merasakan Boyg melingkarinya.",
+          "quote": "“Oh, it’s the great Boyg,” was the answer. Where-ever he put his hands out or tried to get past, he felt the Boyg encircling him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "b-yg-c10",
+          "source_id": "b-yg-s3",
+          "host": "www.gutenberg.org",
+          "statement": "The translators' footnote says the root idea of the name seems to be bending and sinuousness, comparing Norwegian böie and German biegen, \"to bend\".",
+          "statement_id": "Catatan penerjemah menyebut gagasan dasar nama itu tampaknya membungkuk dan berkelok-kelok, dibandingkan dengan kata Norwegia böie dan kata Jerman biegen, \"membengkokkan\".",
+          "quote": "The root-idea seems to be that of bending, of sinuousness; compare Norwegian böie, German biegen, to bend.",
+          "context": "etymology",
+          "status": "loose"
+        },
+        {
+          "id": "b-yg-c11",
+          "source_id": "b-yg-s3",
+          "host": "www.gutenberg.org",
+          "statement": "According to the translators, as far as they know the name occurs in no folk-tale other than that of Peer Gynt.",
+          "statement_id": "Menurut penerjemah, sejauh mereka ketahui nama itu tidak muncul dalam dongeng rakyat lain selain dongeng Peer Gynt.",
+          "quote": "So far as we are aware, the name occurs in no other folk-tale save that of Peer Gynt.",
+          "context": "scholarly-interpretation",
+          "status": "loose"
+        },
+        {
+          "id": "b-yg-c12",
+          "source_id": "b-yg-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the introduction to the translation of Ibsen's play, the Boyg is called that vague, shapeless, ubiquitous, inevitable, invulnerable Thing Peer meets in Act II, Scene 7; Ibsen found it in the folk-tale.",
+          "statement_id": "Dalam pengantar terjemahan drama Ibsen, Boyg disebut sebagai Sesuatu yang samar, tak berbentuk, ada di mana-mana, tak terhindarkan, dan kebal yang ditemui Peer di Babak II Adegan 7; Ibsen menemukannya dalam dongeng rakyat.",
+          "quote": "Much more difficult is the interpretation of the Boyg ... that vague, shapeless, ubiquitous, inevitable, invulnerable Thing which Peer encounters in the following scene (Act II. Sc. 7). Ibsen found it in the folk-tale, and was attracted, no doubt, by the sheer uncanniness and eerieness of the idea.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "b-yg-c13",
+          "source_id": "b-yg-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In Ibsen's play Peer tells the Boyg to clear the way, but the voice answers \"Go roundabout, Peer!\" and Peer replies that he will go through.",
+          "statement_id": "Dalam drama Ibsen, Peer menyuruh Boyg minggir, tetapi suara itu menjawab \"Pergilah memutar, Peer!\" dan Peer menjawab bahwa ia akan menembus langsung.",
+          "quote": "Clear the way then, Boyg! THE VOICE. Go roundabout, Peer! PEER. No, through!",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "b-yg-c14",
+          "source_id": "b-yg-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In Ibsen's play Peer gropes around and describes the Boyg as \"not dead, not living; all slimy; misty; not so much as a shape\".",
+          "statement_id": "Dalam drama Ibsen, Peer meraba-raba dan menggambarkan Boyg sebagai \"tidak mati, tidak hidup; berlendir; berkabut; bahkan tanpa bentuk\".",
+          "quote": "THE VOICE. The Boyg. PEER. ... Not dead, not living; all slimy; misty. Not so much as a shape!",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "b-yg-c15",
+          "source_id": "b-yg-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In Ibsen's play the Boyg refuses to strike or fight and says that the great Boyg conquers but does not fight.",
+          "statement_id": "Dalam drama Ibsen, Boyg menolak memukul atau bertarung dan berkata bahwa Boyg besar menang tanpa bertarung.",
+          "quote": "The Boyg isn't mad. PEER. Strike! THE VOICE. The Boyg strikes not. PEER. Fight! You shall! THE VOICE. The great Boyg conquers, but does not fight.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "b-yg-c16",
+          "source_id": "b-yg-s3",
+          "host": "www.gutenberg.org",
+          "statement": "At the end of the scene in Ibsen's play the Boyg shrinks to nothing and gasps that Peer was too strong and there were women behind him.",
+          "statement_id": "Di akhir adegan dalam drama Ibsen, Boyg menyusut menjadi tiada dan berkata terengah bahwa Peer terlalu kuat dan ada perempuan di belakangnya.",
+          "quote": "THE BOYG. ... Shrinks up to nothing, and says in a gasp ... He was too strong. There were women behind him.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "b-yg-c17",
+          "source_id": "b-yg-s3",
+          "host": "www.gutenberg.org",
+          "statement": "The translators' note says the Peer Gynt story occurs in Asbjörnsen's \"Reindeer-hunting in the Rondë Hills\", published at Christiania in 1848, and is told by the peasant guides who accompany a shooting-party into the mountains.",
+          "statement_id": "Catatan penerjemah menyebut kisah Peer Gynt terdapat dalam \"Reindeer-hunting in the Rondë Hills\" karya Asbjörnsen, terbit di Christiania tahun 1848, dan dituturkan oleh pemandu petani yang menemani rombongan berburu ke pegunungan.",
+          "quote": "The stories of Peer Gynt and Gudbrand Glesnë both occur in Asbjörnsen’s “Reindeer-hunting in the Rondë Hills” ... Christiania, 1848). They are told by the peasant guides or gillies who accompany a shooting-party into the mountains",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -1202,7 +1520,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "feee8394129c09e2d0de0155d39baf91d3d7646703543a7d286c738bbdeba627"
     },
     {
       "slug": "ekke-nekkepenn",
@@ -1276,7 +1595,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b54f12d9dafa99ef5031cecefcf58310ce49a5e6bfda1eeb00e1d1305fee1338"
     },
     {
       "slug": "erlking",
@@ -1360,24 +1680,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f5ba8c08a4afe162c4308f7c3ec1cc5147957a4507e4089ff107df2767cafaac"
     },
     {
       "slug": "fjalar-q11969058",
-      "file": "batch-111.md",
+      "file": "batch-111-fix-1.md",
+      "entry_sha256": "70a46e5baa1f670d64a0ff6280a4e23d6dd2779a5cc180baa53e959552153eef",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 2,
+        "claims": 11,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "fjalar-q11969058-c01",
@@ -1407,6 +1723,86 @@
           "statement_id": "Völuspá mencantumkan Fjalar dalam daftar kurcacinya; Hávamál menyebut Fjalar yang Bijak, yang birnya membuat sang penutur (mungkin Odin) mabuk, yang mungkin merujuk madu puisi, sehingga Fjalar itu bisa jadi sama dengan kurcaci pembuat madu.",
           "quote": "Fjalara wymienia Völuspá w swoim katalogu karłów. Poemat Hávamál mówi o Fjalarze Mądrym, którego piwem upija się narrator (prawdopodobnie Odyn). Może to być odniesienie do miodu poezji, i w takim wypadku ten Fjalar byłby tożsamy z karłem, wytwórcą miodu.",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "fjalar-q11969058-c04",
+          "source_id": "fjalar-q11969058-s3",
+          "host": "en.wikisource.org",
+          "statement": "In this translation of the Prose Edda, Kvasir was so wise that none could question him on anything he could not answer; when he came by invitation to the abode of the dwarves Fjalar and Galarr, they called him into private talk, killed him, and let his blood run into two vats and a kettle.",
+          "statement_id": "Dalam terjemahan Prose Edda ini, Kvasir sangat bijak sehingga tak ada yang bisa menanyainya hal yang jawabannya tak ia ketahui; ketika ia datang atas undangan ke tempat kurcaci Fjalar dan Galarr, mereka memanggilnya untuk berbicara empat mata, membunuhnya, dan membiarkan darahnya mengalir ke dua bejana besar dan sebuah kuali.",
+          "quote": "This man is called Kvasir, and he was so wise that none could question him concerning anything but that he knew the solution. He went up and down the earth to give instruction to men; and when he came upon invitation to the abode of certain dwarves, Fjalar and Galarr, they called him into privy converse with them, and killed him, letting his blood run into two vats and a kettle.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "fjalar-q11969058-c05",
+          "source_id": "fjalar-q11969058-s3",
+          "host": "en.wikisource.org",
+          "statement": "The kettle is named Ódrerir and the vats Són and Bodn; they blended honey with the blood, producing a mead that makes whoever drinks it a skald or scholar.",
+          "statement_id": "Kuali itu bernama Ódrerir dan bejananya Són dan Bodn; mereka mencampur madu dengan darah itu sehingga jadilah madu yang membuat peminumnya menjadi skald atau cendekiawan.",
+          "quote": "The kettle is named Ódrerir, and the vats Són and Bodn; they blended honey with the blood, and the outcome was that mead by the virtue of which he who drinks becomes a skald or scholar.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "fjalar-q11969058-c06",
+          "source_id": "fjalar-q11969058-s3",
+          "host": "en.wikisource.org",
+          "statement": "The dwarves reported to the Æsir that Kvasir had choked on his own shrewdness, since no one there was wise enough to question his wisdom.",
+          "statement_id": "Para kurcaci melaporkan kepada bangsa Æsir bahwa Kvasir tersedak oleh kecerdikannya sendiri, sebab tak ada yang cukup bijak untuk menanyai hikmatnya.",
+          "quote": "The dwarves reported to the Æsir that Kvasir had choked on his own shrewdness, since there was none so wise there as to be able to question his wisdom.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "fjalar-q11969058-c07",
+          "source_id": "fjalar-q11969058-s3",
+          "host": "en.wikisource.org",
+          "statement": "The dwarves then invited the giant Gillingr and his wife, took Gillingr rowing at sea, rowed into the breakers and capsized the boat; Gillingr could not swim and perished.",
+          "statement_id": "Para kurcaci itu kemudian mengundang raksasa Gillingr dan istrinya, mengajak Gillingr berperahu di laut, lalu mendayung ke arah ombak pecah dan membalikkan perahu; Gillingr tak bisa berenang dan tewas.",
+          "quote": "Then these dwarves invited the giant who is called Gillingr to visit them, and his wife with him. Next the dwarves invited Gillingr to row upon the sea with them; but when they had gone out from the land, the dwarves rowed into the breakers and capsized the boat. Gillingr was unable to swim, and he perished",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "fjalar-q11969058-c08",
+          "source_id": "fjalar-q11969058-s3",
+          "host": "en.wikisource.org",
+          "statement": "After the accident was reported to the dead man's wife, who wept aloud, Fjalar questioned her and then softly told his brother Galarr to go over the doorway and let a mill-stone fall on her head because her weeping wearied him; and Galarr did so.",
+          "statement_id": "Setelah kecelakaan itu dilaporkan kepada istri korban, yang menangis keras, Fjalar menanyainya lalu berbisik kepada saudaranya Galarr agar naik ke atas pintu dan menjatuhkan batu kilangan ke kepala perempuan itu karena tangisnya melelahkan, dan Galarr melakukannya.",
+          "quote": "They reported this accident to his wife, but she took it grievously and wept aloud. Then Fjalar asked her ... Then he spoke softly to Galarr his brother, bidding him go up over the doorway, when she should go out, and let a mill-stone fall on her head, saying that her weeping grew wearisome to him; and even so he did.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "fjalar-q11969058-c09",
+          "source_id": "fjalar-q11969058-s3",
+          "host": "en.wikisource.org",
+          "statement": "When the giant Suttungr, Gillingr's son, learned of this, he carried the dwarves out to sea and set them on a reef covered at high tide; they begged for their lives and offered him the precious mead as the price of reconciliation for his father's death.",
+          "statement_id": "Ketika raksasa Suttungr, putra Gillingr, mengetahui hal itu, ia membawa para kurcaci ke laut dan menempatkan mereka di karang yang tertutup air pasang; mereka memohon agar nyawa mereka diampuni dan sebagai tebusan menawarkan madu berharga itu atas kematian ayahnya.",
+          "quote": "Now when the giant Suttungr, Gillingr's son, learned of this, he went over and took the dwarves and carried them out to sea, and set them on a reef which was covered at high tide. They besought Suttungr to grant them respite of their lives, and as the price of reconciliation offered him the precious mead in satisfaction of his father's death.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "fjalar-q11969058-c10",
+          "source_id": "fjalar-q11969058-s4",
+          "host": "en.wikisource.org",
+          "statement": "In this translated poem, the speaker was dead-drunk when with Fjalar the wise, and drinking is best if one brings its wisdom home.",
+          "statement_id": "Dalam terjemahan puisi ini, penuturnya mabuk berat ketika bersama Fjalar yang bijak, dan minum paling baik bila orang membawa pulang hikmatnya.",
+          "quote": "Drunk I was, I was dead-drunk, When with Fjalar wise I was;'Tis the best of drinking if back one brings His wisdom with him home.",
+          "context": "religious-tradition",
+          "status": "loose"
+        },
+        {
+          "id": "fjalar-q11969058-c11",
+          "source_id": "fjalar-q11969058-s4",
+          "host": "en.wikisource.org",
+          "statement": "The translator's note says the Fjalar of that stanza is apparently another name for Suttung.",
+          "statement_id": "Catatan penerjemah menyebut Fjalar dalam bait itu tampaknya nama lain untuk Suttung.",
+          "quote": "Fjalar: apparently another name for Suttung. This stanza, and probably 13, seem to have been inserted as illustrative.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -1484,24 +1880,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "91b7d34999aac92948a7edf84606b39aeb7a01786fda825b36e139b49ad8860c"
     },
     {
       "slug": "gonger",
-      "file": "batch-111.md",
+      "file": "batch-111-fix-1.md",
+      "entry_sha256": "dbfb4d6430efc266628c192139651ae0f36ce6970e1d0ce981fe81b296ceeab5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gonger-c01",
@@ -1552,26 +1944,91 @@
           "quote": "Hugo Wolfgang Philipp verarbeitete in den 1930er Jahren den Glauben in seinem Theaterstück Der Gonger kommt. 2008 entstand der Fernsehfilm Gonger – Das Böse vergisst nie. Musikalisch verarbeitet wurde die Thematik von der Folk-Rock-Band Versengold in dem Lied Die Gonger kommen",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "gonger-c06",
+          "source_id": "gonger-s3",
+          "host": "projekt-gutenberg.org",
+          "statement": "In this folklore collection there are many Wiedergänger or Gongers: the innocently murdered, or those who moved boundary stones and ploughed away land, find no rest in the grave; blasphemers, those who cursed themselves, and suicides must also walk again.",
+          "statement_id": "Dalam kumpulan cerita rakyat ini, ada banyak Wiedergänger atau Gongers: orang yang dibunuh tanpa salah, atau yang memindahkan batu batas dan membajak tanah orang, tidak menemukan ketenangan di kubur; penghujat, orang yang mengutuk diri sendiri, dan pelaku bunuh diri juga harus berjalan kembali.",
+          "quote": "Es gibt da überhaupt manche Wiedergänger oder Gongers; denn wer unschuldig ermordet ist, oder Grundsteine versetzt und Land abgepflügt hat, findet keine Ruhe im Grabe. Ebenso müssen auch die Gotteslästerer und wer sich selbst verflucht und die Selbstmörder wiedergehen.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gonger-c07",
+          "source_id": "gonger-s3",
+          "host": "projekt-gutenberg.org",
+          "statement": "One must not give such a Gonger one's hand; it burns, turns black and falls off.",
+          "statement_id": "Seorang Gonger seperti itu tidak boleh diberi tangan; tangan itu terbakar, menjadi hitam, dan terlepas.",
+          "quote": "Einem solchen Gonger darf man nicht die Hand reichen; sie verbrennt, wird schwarz und fällt ab.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gonger-c08",
+          "source_id": "gonger-s3",
+          "host": "projekt-gutenberg.org",
+          "statement": "In Keitum on Sylt a woman once died before her confinement; she appeared several times to the preacher's servant and had no rest in the grave until scissors, needle and thread were laid in it, as is usually done for women in North Frisia.",
+          "statement_id": "Di Keitum, Sylt, seorang perempuan meninggal sebelum melahirkan; ia beberapa kali menampakkan diri kepada pelayan pendeta dan baru tenang di kubur setelah gunting, jarum, dan benang dimasukkan ke kuburnya; hal itu lazim dilakukan pada perempuan di Frisia Utara.",
+          "quote": "In Keitum auf Sylt starb einmal eine Frau vor ihrer Entbindung; da ist sie mehrere Male dem Knecht des Predigers erschienen und hat nicht eher Ruhe im Grabe gehabt, als bis man ihr Scheere, Nadel und Zwirn ins Grab gelegt. So tut man bei Frauen in Nordfriesland gewöhnlich.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gonger-c09",
+          "source_id": "gonger-s3",
+          "host": "projekt-gutenberg.org",
+          "statement": "When a relative has drowned at sea he afterwards reports it to his kin; whoever meets such a Gonger is not frightened but rather saddened.",
+          "statement_id": "Bila seorang kerabat tenggelam di laut, ia kemudian memberi kabar kepada sanak keluarganya; orang yang bertemu Gonger seperti itu tidak takut, melainkan bersedih.",
+          "quote": "Wenn einer von der Verwandtschaft auf der See ertrunken ist, meldet er es nachher den Anverwandten. Wem ein solcher Gonger begegnet, der erschrickt nicht, sondern wird vielmehr betrübt.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gonger-c10",
+          "source_id": "gonger-s3",
+          "host": "projekt-gutenberg.org",
+          "statement": "At dusk or at night he shows himself in the very clothes in which he drowned; he looks in at the front door leaning on it with his arms, walks about the house, soon vanishes and returns at the same time the next evening.",
+          "statement_id": "Pada senja atau malam ia menampakkan diri dengan pakaian yang ia kenakan saat tenggelam; ia menengok ke dalam dari pintu rumah dan bersandar dengan lengan di sana, berjalan di dalam rumah, lalu segera menghilang dan datang lagi pada waktu yang sama keesokan malamnya.",
+          "quote": "In der Abenddämmerung oder bei Nacht läßt er sich sehen in eben der Kleidung, worin er ertrunken ist. Er sieht dann zur Haustür herein und lehnt sich mit den Armen darauf, geht auch sonst im Hause herum, verschwindet aber bald und kommt am folgenden Abend um dieselbe Zeit wieder.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gonger-c11",
+          "source_id": "gonger-s3",
+          "host": "projekt-gutenberg.org",
+          "statement": "At night he opens the room door, usually in heavy pulled-up boots full of water, puts out the light with his hand and lies down on the sleeper's blanket; in the morning a little stream of salt water is found.",
+          "statement_id": "Pada malam hari ia membuka pintu kamar, biasanya dengan sepatu bot berat penuh air, memadamkan lampu dengan tangan, dan berbaring di atas selimut orang yang tidur; paginya orang menemukan aliran kecil air asin.",
+          "quote": "Nachts öffnet er, gewöhnlich in schweren aufgezogenen Stiefeln, die voll Wasser sind, die Stubentür, löscht mit der Hand das Licht aus und legt sich dem Schlafenden auf die Decke. Am Morgen findet man einen kleinen Strom salzigen Wassers",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gonger-c12",
+          "source_id": "gonger-s3",
+          "host": "projekt-gutenberg.org",
+          "statement": "If the relatives are not yet persuaded by this sign, the Gonger keeps appearing until they believe it; the Gonger also gives other signs.",
+          "statement_id": "Bila para kerabat belum yakin oleh tanda itu, Gonger muncul lagi sampai mereka percaya; Gonger juga memberi tanda-tanda lain.",
+          "quote": "Lassen die Verwandten durch dieses Zeichen sich noch nicht überreden, so erscheint der Gonger so lange wieder, bis sie es glauben. Der Gonger gibt auch andre Zeichen.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "gulon",
-      "file": "batch-111.md",
+      "file": "batch-111-fix-1.md",
+      "entry_sha256": "eaa02636662a8111394582f6f3d243fdf753081d612c0f203872ecb72c443198",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gulon-c01",
@@ -1612,26 +2069,71 @@
           "quote": "Legender om jerffen är ett tidigt omnämnande av den i södra Sverige då okända järven.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "gulon-c05",
+          "source_id": "gulon-s3",
+          "host": "apps.lib.umn.edu",
+          "statement": "According to the Bell Library, the animal marked \"gulo\" in that map section is Latin for the glutton (Gulo gulo), a member of the marten or weasel family, a large animal living in the northern parts of Scandinavia.",
+          "statement_id": "Menurut Perpustakaan Bell, hewan bertanda \"gulo\" di bagian peta itu adalah bahasa Latin untuk glutton (Gulo gulo), anggota keluarga marten atau musang, hewan besar yang hidup di bagian utara Skandinavia.",
+          "quote": "In the lower right is an animal with the designation gulo, Latin for the glutton (Gulo gulo) which belongs to the marten or weasel family. This large animal lives in the northern parts of Scandinavia.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gulon-c06",
+          "source_id": "gulon-s3",
+          "host": "apps.lib.umn.edu",
+          "statement": "Olaus writes that in bulk it is like a large dog; its ears and face resemble a cat's, its feet have very sharp claws, it has a shaggy body with a long brownish coat and a fox's tail, shorter and draped with thick fur, so that excellent winter caps can be made from it.",
+          "statement_id": "Olaus menulis bahwa dalam ukuran ia mirip anjing besar; telinga dan wajahnya mirip kucing, kakinya bercakar sangat tajam, tubuhnya berbulu lebat cokelat panjang, dan ekornya seperti ekor rubah yang lebih pendek dan berbulu tebal sehingga bisa dibuat topi musim dingin yang bagus.",
+          "quote": "Olaus says \"In its bulk it is similar to a large dog. Its ears and face resemble a cat’s, and its feet have very sharp claws. It has a shaggy body with a long brownish coat, and a fox’s tail, though shorter and draped with thick fur, so that excellent winter caps can be made from it.\"",
+          "context": "historical-record",
+          "status": "loose"
+        },
+        {
+          "id": "gulon-c07",
+          "source_id": "gulon-s3",
+          "host": "apps.lib.umn.edu",
+          "statement": "According to the passage quoted from Magnus, when the glutton finds a carcass it eats so furiously that its torso swells like a drum; it then finds a narrow space between trees and squeezes through to discharge its bowels forcibly, and returns to the carcass to stuff itself again.",
+          "statement_id": "Menurut kutipan dari Magnus, ketika glutton menemukan bangkai ia makan dengan sangat rakus sehingga badannya membengkak seperti genderang; lalu ia mencari celah sempit di antara pepohonan dan menyelinap melaluinya untuk mengeluarkan isi perutnya dengan paksa, kemudian kembali ke bangkai dan makan lagi.",
+          "quote": "When the glutton finds a carcass, it eats so quickly that \"its furious meal makes its torso swell like a drum. Afterwards it finds a narrow space between trees and squeezes itself through, in order to discharge its bowels forcibly\" (Magnus 1998, III:888). This completed, it returns to the carcass and stuffs itself once more.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gulon-c08",
+          "source_id": "gulon-s3",
+          "host": "apps.lib.umn.edu",
+          "statement": "The Bell Library notes its nearest relative in North America is the wolverine, and quotes the view that Olaus Magnus probably pictured them on his map from direct experience.",
+          "statement_id": "Perpustakaan Bell menyebut kerabat terdekatnya di Amerika Utara adalah wolverine, dan mengutip pendapat bahwa Olaus Magnus kemungkinan menggambarkannya pada petanya berdasarkan pengalaman langsung.",
+          "quote": "Its nearest relative in North America is the wolverine. \"It was probably from direct experience that Olaus Magnus pictured them on his map\" (George, 1969, 116).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gulon-c09",
+          "source_id": "gulon-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The resource named for the gulon is Historia de gentibus septentrionalibus by Olaus Magnus (The History of the Northern People, 1555 AD).",
+          "statement_id": "Sumber yang disebut untuk gulon adalah Historia de gentibus septentrionalibus karya Olaus Magnus (Sejarah Bangsa-Bangsa Utara, 1555 M).",
+          "quote": "Historia de gentibus septentrionalibus by Olaus Magnus. (The History of the Northern People, 1555 AD)",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "habrok",
-      "file": "batch-111.md",
+      "file": "batch-111-fix-1.md",
+      "entry_sha256": "b17bbae117e8af1eb4eda80e077395a55ceddae149e9bb2b774b74a018e15dde",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 7,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "habrok-c01",
@@ -1671,6 +2173,36 @@
           "statement_id": "Namanya juga dapat diterjemahkan \"celana panjang\", yang mungkin merujuk kaki burung itu yang panjang.",
           "quote": "El nombre se puede traducir como «pantalones largos» que puede referirse a las patas alargadas del pájaro.",
           "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "habrok-c05",
+          "source_id": "habrok-s3",
+          "host": "en.wikisource.org",
+          "statement": "In this translated poem, Hobrok is named as the best of hawks in a list with Yggdrasil as best of trees, Skithblathnir best of boats, Othin greatest of the gods, Sleipnir best of steeds, Bilrost of bridges, Bragi of skalds and Garm of hounds.",
+          "statement_id": "Dalam terjemahan puisi ini, Hobrok disebut sebagai yang terbaik di antara elang alap dalam daftar yang terdiri dari pohon terbaik Yggdrasil, kapal terbaik Skithblathnir, dewa terbesar Othin, kuda terbaik Sleipnir, jembatan Bilrost, skald Bragi, dan anjing Garm.",
+          "quote": "The best of trees must Yggdrasil be, Skithblathnir best of boats; Of all the gods is Othin the greatest, And Sleipnir the best of steeds; Bilrost of bridges, Bragi of skalds, Hobrok of hawks, and Garm of hounds.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "habrok-c06",
+          "source_id": "habrok-s3",
+          "host": "en.wikisource.org",
+          "statement": "The translator's note states that nothing further is known of Hobrok.",
+          "statement_id": "Catatan penerjemah menyatakan tidak ada hal lain yang diketahui tentang Hobrok.",
+          "quote": "Hobrok: nothing further is known of him.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "habrok-c07",
+          "source_id": "habrok-s4",
+          "host": "en.wikisource.org",
+          "statement": "In this translation of the Gylfaginning, Hábrók is named as foremost among hawks in a stanza cited as the words of the Æsir themselves, together with Yggdrasill, Skídbladnir, Odin, Sleipnir, Bifröst, Bragi and Garmr.",
+          "statement_id": "Dalam terjemahan Gylfaginning ini, Hábrók disebut sebagai yang terbaik di antara elang alap dalam bait yang dikutip sebagai kata-kata para Æsir sendiri, bersama Yggdrasill, Skídbladnir, Odin, Sleipnir, Bifröst, Bragi, dan Garmr.",
+          "quote": "Odin is of great might. Many examples are found in proof of this, as is here said in the words of the Æsir themselves: Ash Yggdrasill's trunk of trees is foremost, And Skídbladnir of ships; Odin of Æsir, of all steeds Sleipnir, Bifröst of bridges, and Bragi of skalds; Hábrók of hawks, and of hounds Garmr.",
+          "context": "religious-tradition",
           "status": "exact"
         }
       ],
@@ -1748,7 +2280,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "989aabe1a8871b4f3ebb280a12d29752e65603edb3b3d6f9821ef466fc73d108"
     },
     {
       "slug": "hodekin",
@@ -1842,7 +2375,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "11125590e2f1fc01bf065072964f2a45344da33dcf17adf9cbd12037dcbf282e"
     },
     {
       "slug": "lyngbakr",
@@ -1916,7 +2450,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f48477a67e0fe560e6a297e82fd9beebaed6d75206d525a26f2a58ef6b97d7fd"
     },
     {
       "slug": "miming",
@@ -2000,7 +2535,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e54ff4db2495316f6da2994574503a04d3132619c5fd73ed13f7614967e2fb5b"
     },
     {
       "slug": "tilberi",
@@ -2094,7 +2630,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f7c243706fc80dbfabd8c73902bb26584e7854aff5f337f7af2f8366d1d16ae2"
     },
     {
       "slug": "ulu-toyon",
@@ -2178,7 +2715,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "312b065cf364ebe26309350963df127f13a2eff4b1e1c0bc074ea8274b497165"
     },
     {
       "slug": "alraune",
@@ -2282,7 +2820,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "89e8ce5043c79769c308dbfd65db2eeb8335f465f994b0f62ffeaa5ff924c7e2"
     },
     {
       "slug": "bysen",
@@ -2386,7 +2925,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5a11621cf592b6dbbf96ee7ddaff7b20123b1fbb2563006bf7477a061d42c0f9"
     },
     {
       "slug": "di-sma-undar-jordi",
@@ -2480,7 +3020,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7f8d9fb79b712faeaa3a9da2359a7659011d308bd576e487cc5acb031c4a47cf"
     },
     {
       "slug": "drak-mythology",
@@ -2614,7 +3155,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0bac3afa8331e60095b980fd04037a66c9fc5813231fcbbfd0691c8477ce6232"
     },
     {
       "slug": "duneyrr",
@@ -2728,7 +3270,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "554eefa51ec6e6290a1a2d050d8c7979a030addb770bdc7bc52ec332d9d6ebd9"
     },
     {
       "slug": "dura-ror",
@@ -2842,7 +3385,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "dc7bb36f955ddef44a38bd785519fa53f7309a5b200c33b99c8833d60ca4f7fe"
     },
     {
       "slug": "ellert",
@@ -2976,7 +3520,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1d4b2b4626ca7d8daccce193a9f3c8279019026fdcda6fe745eced9c26b8b4f6"
     },
     {
       "slug": "endill",
@@ -3070,7 +3615,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c0aaf60860609dcd6a2c4bb8334bb545b6160f3fe5bf733aa6ccf3fc32b97ecc"
     },
     {
       "slug": "erdhenne",
@@ -3144,7 +3690,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a9010f0cb1c32ad8ab8d8658f62d09576b1f12a6766eeb1e49a1f4241827238a"
     },
     {
       "slug": "fasolt",
@@ -3238,7 +3785,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b05d7fe75c7d0147c0ef6c00a71eb80f97eb288f90d98b25cb218fdb0601efdc"
     },
     {
       "slug": "feldgeister",
@@ -3352,7 +3900,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a6c2670584c9949cbd28c76ab7363bb3705a6d2fc94dc46fa79dd81bdccd75b9"
     },
     {
       "slug": "gravso",
@@ -3456,7 +4005,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e471c786e150425bc1b8ab03553c41b484ba6ab16bd64a4e47cac6510c3877b0"
     },
     {
       "slug": "hobangoas",
@@ -3570,7 +4120,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a2f0c192d1758e1e134e4af985dec0ceb571b5dcd948ff5cc2a7e6ec9c6325f3"
     },
     {
       "slug": "klagmuhme",
@@ -3674,7 +4225,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8d07c3ad023d10d577aeb79c52596536ed140fa08cedec6ea744c8ea51d81289"
     },
     {
       "slug": "klushund",
@@ -3778,7 +4330,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8d109c46b8b5007bd3ebc69a7727cec2a1276ea6ef6d83f897f4cda75795a7d4"
     },
     {
       "slug": "knights-of-alleberg",
@@ -3882,7 +4435,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "02a10c84e39fff04abf805733d80b22ad940c158f5573747efd06caae040769c"
     },
     {
       "slug": "knochenfund-von-seweckenberge",
@@ -3996,7 +4550,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9220ad8e676865b5e7b5ea3b5b6bc67b2dae97544f040236bc79e9bd54f7106e"
     }
   ]
 }

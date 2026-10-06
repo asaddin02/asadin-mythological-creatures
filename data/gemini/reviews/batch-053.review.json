@@ -1,11 +1,13 @@
 {
   "batch_id": "batch-053",
-  "checked_at": "2026-10-01T03:03:46.512Z",
+  "checked_at": "2026-10-06T15:33:04.368Z",
   "files": [
     "batch-053.md",
     "batch-053-fix-1.md",
     "batch-053-fix-2.md",
-    "batch-053-fix-3.md"
+    "batch-053-fix-3.md",
+    "batch-053-fix-4.md",
+    "batch-053-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -88,7 +90,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d5850effde2fe808a7c56630d4cb1ce6b0914fdb38e20911f9dcb2b512a810c8"
     },
     {
       "slug": "tesso",
@@ -162,7 +165,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f89fc3b0e437b27bc4f222886d19cde333f135b6536de0b48f79148224f7cb6a"
     },
     {
       "slug": "ungaikyo",
@@ -236,7 +240,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a04f177ab158bb138a43f44a3f4f90b298561634dc7f5031bd73a377aeebb9df"
     },
     {
       "slug": "yamawaro",
@@ -321,24 +326,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "59ce6683cf37171c0017b4cd4694c82a11480c777b72161a14bdd21773a0da57"
     },
     {
       "slug": "akurojin-no-hi",
-      "file": "batch-053-fix-3.md",
+      "file": "batch-053-fix-4.md",
+      "entry_sha256": "c20f14ecf4cc0d32d93d8bc1e16afe1d9318ed4c2e0bd0690d636bfab8d6844a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "akurojin-no-hi-c01",
@@ -369,31 +370,91 @@
           "quote": "It often appears on rainy nights.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "akurojin-no-hi-c04",
+          "source_id": "akurojin-no-hi-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "The fire is said to appear in Ise Province, or more precisely at 猪草が淵 in Mayumi Village, Tamaru domain (now Watarai District, Mie Prefecture).",
+          "statement_id": "Api ini dikatakan muncul di Provinsi Ise, atau lebih tepatnya di 猪草が淵 di Desa Mayumi, wilayah Tamaru (kini Distrik Watarai, Prefektur Mie).",
+          "quote": "伊勢国、あるいは伊勢のうち田丸領間弓村（現三重県度会郡玉城町）の猪草が淵に現れたとされる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akurojin-no-hi-c05",
+          "source_id": "akurojin-no-hi-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "The fire appeared around that place, especially often on rainy nights, moving back and forth as if someone were carrying a lit lantern.",
+          "statement_id": "Api ini muncul di sekitar tempat itu, terutama pada malam hujan, dan berlalu-lalang seolah-olah seseorang membawa lentera menyala.",
+          "quote": "このあたりに出没したのが悪路神の火である。雨の降る夜に特に多く現れ、誰かが提灯を灯しているかのように往来する。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akurojin-no-hi-c06",
+          "source_id": "akurojin-no-hi-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Anyone who meets the fire is advised to drop quickly to the ground, wait for it to pass, and then flee.",
+          "statement_id": "Orang yang bertemu api ini dianjurkan segera merebahkan diri ke tanah dan menunggu api itu lewat, lalu melarikan diri.",
+          "quote": "この火に出会った者は、素早く地に伏して通り過ぎるのを待ち、逃げ出せばよい。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akurojin-no-hi-c07",
+          "source_id": "akurojin-no-hi-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "One who does not do so and carelessly comes near is said to be struck by a serious illness.",
+          "statement_id": "Orang yang tidak berbuat demikian dan mendekat dengan lengah dikatakan terserang penyakit berat.",
+          "quote": "このようにせず、うっかり近づけば病に侵され、大変な患いになるという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akurojin-no-hi-c08",
+          "source_id": "akurojin-no-hi-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Akurojin-no-hi is recorded as a Japanese strange fire (怪火) in 『諸州採薬記抄録』 and in the essay 『閑窓瑣談』 by 佐々木貞高 (為永春水).",
+          "statement_id": "Akurojin-no-hi tercatat sebagai api gaib (怪火) Jepang dalam 『諸州採薬記抄録』 dan esai 『閑窓瑣談』 karya 佐々木貞高 (為永春水).",
+          "quote": "悪路神の火（あくろじんのひ）は『諸州採薬記抄録』や佐々木貞高（為永春水）の随筆『閑窓瑣談』に記されている日本の怪火。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "akurojin-no-hi-c09",
+          "source_id": "akurojin-no-hi-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "猪草が淵 is described as a difficult spot on a river about 18 meters wide, crossed by a log bridge, with deep water and many mountain leeches around.",
+          "statement_id": "猪草が淵 digambarkan sebagai tempat sulit di sungai selebar sekitar 18 meter dengan jembatan gelondong; dasarnya dalam dan di sekitarnya banyak pacet gunung.",
+          "quote": "猪草が淵は幅十間（約18メートル）ばかりの川に、水際まで十間を越える高さに丸木橋を渡す。水底は深く、さらに周囲には山蛭が多く住む大変な難所であった。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "akurojin-no-hi-c10",
+          "source_id": "akurojin-no-hi-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "The summary of the account in that article is taken from 『閑窓瑣談』, published in 1841.",
+          "statement_id": "Ringkasan kisah dalam artikel itu diambil dari 『閑窓瑣談』 yang terbit pada tahun 1841.",
+          "quote": "以下、天保12年（1841年）刊行の『閑窓瑣談』より概略を記す。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "amatsuhikone",
-      "file": "batch-053-fix-1.md",
+      "file": "batch-053-fix-4.md",
+      "entry_sha256": "5b36221518c12179be3b1e4bf231e4c0a015dfa3130abacba0a57d83384bf723",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (amatsuhikone-c02)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "amatsuhikone-c01",
@@ -409,9 +470,9 @@
           "id": "amatsuhikone-c02",
           "source_id": "amatsuhikone-s2",
           "host": "www.kokugakuin.ac.jp",
-          "statement": "The ritual describes chewing and spitting out material before his birth.",
-          "statement_id": "Ritual itu menggambarkan bahan yang dikunyah lalu diludahkan sebelum kelahirannya.",
-          "quote": "He chewed it up and spat the bits out in a misty spray from which a deity named Amatsuhikone no mikoto 天津日子根命 came into existence (13).",
+          "statement": "In this Kojiki translation Susanoo asks Amaterasu for jeweled cords; for the one adorning her right wrist, he chews it and spits it out as a misty spray, and Amatsuhikone comes into existence from it.",
+          "statement_id": "Dalam terjemahan Kojiki itu, Susanoo meminta untaian permata dari Amaterasu; untuk untaian di pergelangan kanan Amaterasu, ia mengunyahnya dan menyemburkannya sebagai kabut, dan dari situ Amatsuhikone lahir.",
+          "quote": "Susanoo asked Amaterasu for the long cord strung with myriad large curved jewels ... Then he asked for the jeweled [cord] adorning her right wrist (12), and [she] handed it over [to him]. He chewed it up and spat the bits out in a misty spray from which a deity named Amatsuhikone no mikoto 天津日子根命 came into existence (13).",
           "context": "religious-tradition",
           "status": "exact"
         },
@@ -434,26 +495,111 @@
           "quote": "Note: [This deity is] the ancestor of the Oshiko-chi 凡川内 no kuni no miyatsuko lineage, Nukatabe no yue no muraji 額田",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "amatsuhikone-c05",
+          "source_id": "amatsuhikone-s2",
+          "host": "www.kokugakuin.ac.jp",
+          "statement": "Since the name includes the masculine suffix hiko, it may be interpreted to mean \"heavenly male deity\", although Nishimiya Kazutami takes hiko to mean \"sun deity\" instead.",
+          "statement_id": "Karena nama itu memuat akhiran maskulin hiko, nama itu dapat ditafsirkan sebagai \"dewa laki-laki surgawi\", sedangkan Nishimiya Kazutami mengartikan hiko sebagai \"dewa matahari\".",
+          "quote": "Since the name includes the masculine suffix hiko, it may be interpreted to mean “heavenly male deity,” although Nishimiya Kazutami takes hiko to mean instead “sun deity.”",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "amatsuhikone-c06",
+          "source_id": "amatsuhikone-s2",
+          "host": "www.kokugakuin.ac.jp",
+          "statement": "The Nihon shoki transcribes this name as 天津彦根命.",
+          "statement_id": "Nihon shoki menuliskan nama ini sebagai 天津彦根命.",
+          "quote": "The Nihon shoki transcribes this name as 天津彦根命.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "amatsuhikone-c07",
+          "source_id": "amatsuhikone-s2",
+          "host": "www.kokugakuin.ac.jp",
+          "statement": "This deity's name forms a pair with the next one, Ikutsuhikone no mikoto.",
+          "statement_id": "Nama dewa ini membentuk pasangan dengan nama berikutnya, Ikutsuhikone no mikoto.",
+          "quote": "This deity name forms a pair with the next, Ikutsuhikone no mikoto",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amatsuhikone-c08",
+          "source_id": "amatsuhikone-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "His name is written 天津日子根命 in the Kojiki, 天津彦根命 in the Nihon shoki and 天都比古禰命 in other texts; he is one of five male deities born from Amaterasu's jewels at the oath of Amaterasu and Susanoo, and is regarded as ancestor of many clans.",
+          "statement_id": "Namanya ditulis 天津日子根命 dalam Kojiki, 天津彦根命 dalam Nihon shoki, dan 天都比古禰命 dalam naskah lain; ia salah satu dari lima dewa laki-laki yang lahir dari permata Amaterasu saat sumpah Amaterasu dan Susanoo, dan dianggap leluhur banyak klan.",
+          "quote": "『古事記』では天津日子根命、『日本書紀』では天津彦根命、他文献では天都比古禰命とも表記される。 アマテラスとスサノオの誓約の際に天照大神の玉から生まれた男神5柱のうちの1柱で、多くの氏族の祖とされる。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amatsuhikone-c09",
+          "source_id": "amatsuhikone-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "He is listed third in that order; the Nihon shoki says these deities were born from Amaterasu's jewels and so are Amaterasu's children.",
+          "statement_id": "Ia disebut sebagai dewa ketiga dalam urutan itu; Nihon shoki menyatakan para dewa itu lahir dari permata Amaterasu sehingga menjadi anak Amaterasu.",
+          "quote": "3番目に挙げる。『日本書紀』では、これらの神々はアマテラスの玉から生まれたので、アマテラスの子になるとする。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amatsuhikone-c10",
+          "source_id": "amatsuhikone-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Among Amatsuhikone's children is the iron-smelting deity 天目一箇神 (also 明立天御影命 and 天津麻羅命).",
+          "statement_id": "Anak Amatsuhikone antara lain dewa peleburan besi 天目一箇神 (juga 明立天御影命 dan 天津麻羅命).",
+          "quote": "アマツヒコネの子には、製鉄神の天目一箇神（明立天御影命、天津麻羅命）がいる。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amatsuhikone-c11",
+          "source_id": "amatsuhikone-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "According to the article, in the name Amatsuhikone \"ne\" (根) is a suffix and \"Amatsuhiko\" is taken to mean \"child of the heavenly sun\".",
+          "statement_id": "Menurut artikel itu, dalam nama Amatsuhikone, \"ne\" (根) adalah akhiran dan \"Amatsuhiko\" dianggap berarti \"anak matahari langit\".",
+          "quote": "「アマツヒコネ」の名称について、「ネ（根）」は接尾辞であり、「アマツヒコ」は「天の太陽の子」の意味とされる。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "amatsuhikone-c12",
+          "source_id": "amatsuhikone-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "The Kojiki names Amatsuhikone as ancestor of many lineages, among them 川内国造, 額田部湯坐連, 茨木国造, 山代国造 and 高市県主.",
+          "statement_id": "Kojiki menyebut Amatsuhikone leluhur banyak garis keturunan, antara lain 川内国造, 額田部湯坐連, 茨木国造, 山代国造 dan 高市県主.",
+          "quote": "アマツヒコネについて、『古事記』では川内国造・額田部湯坐連・茨木国造・倭田中直・山代国造・馬来田国造・道尻岐閇国造・周芳国造・倭淹知造・高市県主・蒲生稲寸・三枝部造ら諸氏族の祖とする。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "amatsuhikone-c13",
+          "source_id": "amatsuhikone-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Today Amatsuhikone is enshrined as a deity at shrines including 多度大社, 桑名宗社 and 額田神社, all in Kuwana City, Mie Prefecture.",
+          "statement_id": "Kini Amatsuhikone dipuja sebagai dewa utama antara lain di 多度大社, 桑名宗社 dan 額田神社, semuanya di Kota Kuwana, Prefektur Mie.",
+          "quote": "現在、アマツヒコネは次の神社などで祭神に祀られている。 多度大社（三重県桑名市） 桑名宗社（三重県桑名市） 額田神社（三重県桑名市）",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "amoronagu",
-      "file": "batch-053.md",
+      "file": "batch-053-fix-4.md",
+      "entry_sha256": "942b2d72b0e50385bfb372bf7629dd8cb99bde224d42732d6af8bdb950dafafc",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "amoronagu-c01",
@@ -494,33 +640,108 @@
           "quote": "If the man drinks the water, he dies and she takes his soul back to heaven with her.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "amoronagu-c05",
+          "source_id": "amoronagu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In one story, a man saw her bathing and stole her gown from a tree, saying he would return it only if she married him.",
+          "statement_id": "Dalam satu kisah, seorang laki-laki melihatnya mandi dan mencuri jubahnya dari pohon, lalu berkata baru akan mengembalikannya jika ia mau menikah dengannya.",
+          "quote": "A man saw her bathing and stole her gown from where it was hung on a tree, telling her he would only give it back if she married him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amoronagu-c06",
+          "source_id": "amoronagu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One day she heard her eldest child sing of where their father had hidden her gown, in the family storehouse; she retrieved it, ascended to heaven, and left a note saying her husband could join her.",
+          "statement_id": "Suatu hari ia mendengar anak sulungnya menyanyikan lagu tentang tempat sang ayah menyembunyikan jubahnya, yaitu di lumbung keluarga; ia mengambilnya, naik kembali ke langit, dan meninggalkan catatan agar suaminya menyusul.",
+          "quote": "One day, Amorōnagu heard her eldest child singing a song to the youngest about where their father had hidden her gown, saying that it was in the family storehouse. She retrieved her gown and ascended back to heaven, leaving a note for her husband saying that he could join her.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amoronagu-c07",
+          "source_id": "amoronagu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In that story a flood burst from the cut the husband made, swept him away, and formed the Milky Way; from then on the two could meet only once a year, on June 7th.",
+          "statement_id": "Dalam kisah itu, banjir menyembur dari potongan yang dibuat sang suami, menyapunya pergi, dan membentuk Bima Sakti; sejak itu keduanya hanya bisa bertemu setahun sekali pada 7 Juni.",
+          "quote": "A flood spewed forth from the cut he made, sweeping him away and forming the Milky Way. From that point, Amorōnagu and her husband could only meet once a year on June 7th.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amoronagu-c08",
+          "source_id": "amoronagu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The man can survive if he holds the ladle in a certain way, supporting the handle with his palm facing up.",
+          "statement_id": "Laki-laki itu bisa selamat bila memegang gayung dengan cara tertentu, yaitu menopang gagangnya dengan telapak tangan menghadap ke atas.",
+          "quote": "It is possible for the man to survive if he holds the ladle in a certain way, supporting the handle with the palm facing up.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amoronagu-c09",
+          "source_id": "amoronagu-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Besides tales like the feather-robe legend told of celestial maidens in general, there are tales of her descending from heaven to earth in search of men; in those she appears carrying a white wrapping cloth on her back, and a light drizzle falls however fine the weather.",
+          "statement_id": "Selain kisah mirip legenda jubah bulu seperti tennyo pada umumnya, ada kisah ia turun dari langit ke bumi mencari laki-laki; menurut kisah itu ia muncul memanggul kain pembungkus putih, dan gerimis turun meski cuaca cerah.",
+          "quote": "一般の天女のように羽衣伝説と同様の説話が語られている一方、男性を求めて天から地上に降りて来るという話もある。それによれば、白い風呂敷を背負って現れ、その際にはどんな好天の日でも小雨が降るという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amoronagu-c10",
+          "source_id": "amoronagu-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "On finding a man on earth, she smiles and seductively tempts him; a man who gives in to the temptation loses his life.",
+          "statement_id": "Saat menemukan laki-laki di bumi, ia tersenyum dan menggodanya dengan memikat; laki-laki yang menyerah pada godaan itu kehilangan nyawanya.",
+          "quote": "地上で男性を見つけると、にやにやと笑って妖艶に誘惑する。男性がこの誘惑に負けると、命を奪われてしまう。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amoronagu-c11",
+          "source_id": "amoronagu-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "If a man is tempted, he is said to be saved by glaring back until the 天降女子 gives up; when drinking the ladle water, he is also said to be spared by holding the ladle with his palm up, supporting the handle.",
+          "statement_id": "Bila laki-laki digoda, ia dikatakan selamat jika balas menatap tajam sampai sang 天降女子 menyerah; saat minum air gayung, ia juga disebut selamat bila memegang sendok dengan telapak tangan menghadap ke atas dan menopang gagangnya.",
+          "quote": "男性が誘惑された場合は、逆に睨みつけてやると天降女子の方が根負けして命が助かるという。また柄杓の水を飲む際は、杓子を持つ掌を上に向け、柄を支えるようにして飲むと命を奪われずに済むともいう。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amoronagu-c12",
+          "source_id": "amoronagu-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "天降女子 (あもれおなぐ) is a celestial maiden of Amami Ōshima, Kagoshima Prefecture, also written 天降女, 阿母礼女, 天下り女 and 天の女, and called アモロオナグ, アマオナグ or 羽衣美女.",
+          "statement_id": "天降女子 (あもれおなぐ) adalah tennyo dari Pulau Amami Ōshima, Prefektur Kagoshima, yang juga ditulis 天降女, 阿母礼女, 天下り女, 天の女 dan disebut アモロオナグ, アマオナグ atau 羽衣美女.",
+          "quote": "天降女子（あもれおなぐ）は、日本の鹿児島県奄美大島に伝わる天女。天降女、阿母礼女、天下り女、天の女とも表記され、アモロオナグ、アマオナグ、羽衣美女（はごろもまんじょ）とも呼ばれる。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "ashi-magari",
-      "file": "batch-053-fix-3.md",
+      "file": "batch-053-fix-4.md",
+      "entry_sha256": "b51a455c28a9e5dfc9ef3d078048129c888200e9b08f104b918202277a3f120e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ashi-magari-c01",
           "source_id": "ashi-magari-s1",
           "host": "en.wikipedia.org",
-          "statement": "Ashi-magari is a ghostly phenomenon in Kagawa folklore.",
-          "statement_id": "Ashi-magari adalah fenomena gaib dalam cerita rakyat Kagawa.",
+          "statement": "Ashi-magari is a ghostly phenomenon in the folklore of Kagawa Prefecture in Shikoku, Japan.",
+          "statement_id": "Ashi-magari adalah fenomena gaib dalam cerita rakyat Prefektur Kagawa di Shikoku, Jepang.",
           "quote": "Ashi-magari (足まがり, leg turner) is a ghostly phenomenon from the folklore of Kagawa Prefecture in Shikoku, Japan.",
           "context": "traditional-belief",
           "status": "loose"
@@ -544,33 +765,108 @@
           "quote": "It is a soft thing, like a kitten or a wad of cotton, which is felt wrapping itself around a person's legs at night, impeding their ability to walk.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "ashi-magari-c04",
+          "source_id": "ashi-magari-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Ashi-magari is a yokai in Japanese tradition handed down in places such as Takamatsu City in Kagawa Prefecture and the former Ishida Village (now Sanuki City); a strong view holds it to be a fox or tanuki, but its form can never be seen.",
+          "statement_id": "Ashi-magari adalah yokai di Jepang yang diwariskan di antara lain Kota Takamatsu, Prefektur Kagawa, dan bekas Desa Ishida (kini Kota Sanuki); ada pendapat kuat bahwa ia sejenis rubah atau tanuki, tetapi wujudnya tidak pernah bisa dilihat.",
+          "quote": "足まがり（あしまがり）とは、四国地方の香川県高松市や大川郡石田村（現・さぬき市）などに伝承される妖怪で、狐狸のたぐいという説が強いが、その姿は決して見ることはできない。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ashi-magari-c05",
+          "source_id": "ashi-magari-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "According to the article, \"magari\" means \"to cling\" in the local dialect; because it clings to the legs and trips passersby, it came to be called ashi-magari.",
+          "statement_id": "Menurut artikel itu, \"magari\" berarti \"melilit\" dalam dialek setempat; karena melilit kaki dan membuat pejalan terjatuh, makhluk ini disebut ashi-magari.",
+          "quote": "「まがり」とは方言で「まとわりつく」の意。足にまとわりつき、通行人を転ばせることから足まがりと呼ばれるようになった。",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "ashi-magari-c06",
+          "source_id": "ashi-magari-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Because it clings to the legs and trips passersby it came to be called ashi-magari; it is said that as a person walks along a road, something like cotton suddenly wraps around them and hinders their walking.",
+          "statement_id": "Karena melilit kaki dan membuat pejalan terjatuh, makhluk ini disebut ashi-magari; dikatakan, saat orang berjalan di jalan, tiba-tiba sesuatu seperti kapas melilitnya dan menghalangi langkahnya.",
+          "quote": "足にまとわりつき、通行人を転ばせることから足まがりと呼ばれるようになった。 人が道を歩いていると、いきなり綿のようなものを絡み付けてきて歩く邪魔をするといわれる。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ashi-magari-c07",
+          "source_id": "ashi-magari-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "It is also said to have appeared near a station on the Shido line; one tale says a person who shook their leg found the thing turn into a pine root and was injured.",
+          "statement_id": "Dikatakan ia juga muncul di dekat sebuah stasiun jalur Shido; ada kisah bahwa orang yang mengibaskan kakinya mendapati benda itu berubah menjadi akar pohon pinus dan ia terluka.",
+          "quote": "高松琴平電気鉄道志度線潟元駅付近にも出たといわれ、これに遭った人が足を振ると、松の木の根に変わってしまい、怪我をしたという話も残っている。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ashi-magari-c08",
+          "source_id": "ashi-magari-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "In Ayauta, Marugame City, a thread-like thing winds around people's legs; in the former Kotonami (now Mannō) a ball-like thing rolls up and grows larger each time it is kicked until people can no longer walk.",
+          "statement_id": "Di Ayauta, Kota Marugame, sesuatu berbentuk benang melilit kaki orang; di bekas Kotonami (kini Kota Mannō) sesuatu berbentuk bola menggelinding dan makin besar setiap ditendang hingga orang tidak bisa berjalan.",
+          "quote": "香川県丸亀市綾歌町では糸状のものを人の足に絡みつける。仲多度郡琴南町（現・まんのう町）では鞠状のものが転がって来て、蹴飛ばすたびに大きくなり、しまいには蹴ることのできないほどの大きさになって歩けなくなってしまう。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ashi-magari-c09",
+          "source_id": "ashi-magari-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "In Tadotsu there is a similar tale of a cotton-like lump that moves when picked up and rises into the sky; it is blamed on a tanuki and called 「ウチワタダノキ（打綿狸）」.",
+          "statement_id": "Di Tadotsu ada kisah serupa tentang gumpalan seperti kapas yang bergerak saat dipungut lalu naik ke langit; dianggap ulah tanuki dan disebut 「ウチワタダノキ（打綿狸）」.",
+          "quote": "仲多度郡多度津町では綿のようなものが落ちており、拾うと動き出し、空へと上がっていったという話があり、やはりタヌキの仕業として「ウチワタダノキ（打綿狸）」と呼ばれている。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ashi-magari-c10",
+          "source_id": "ashi-magari-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Ashi-magari appeared in the anime version of 『ゲゲゲの鬼太郎』; later, reruns of the fifth episode of 1971 that featured it were withheld nationwide.",
+          "statement_id": "Ashi-magari muncul dalam anime 『ゲゲゲの鬼太郎』; siaran ulang episode kelima tahun 1971 yang menampilkannya kemudian ditiadakan secara nasional.",
+          "quote": "『ゲゲゲの鬼太郎』のアニメ版に登場したが、後年になって、当妖怪が登場した1971年のアニメ第5話の再放送は全国的に自粛（欠番）扱いされた。",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "ashi-magari-c11",
+          "source_id": "ashi-magari-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "The reason was not announced; yokai researchers 京極夏彦 and 多田克己 speculate it was self-censorship because the name 「足曲がり」 was unsuitable for broadcast.",
+          "statement_id": "Alasannya tidak diumumkan; peneliti yokai 京極夏彦 dan 多田克己 menduga itu swa-sensor karena nama 「足曲がり」 dianggap kurang pantas untuk siaran.",
+          "quote": "理由は公表されていないが、妖怪研究家・京極夏彦や多田克己は、「足曲がり」の名が放送上で好ましくないことによる自主規制と推測している。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "atago-gongen",
-      "file": "batch-053.md",
+      "file": "batch-053-fix-4.md",
+      "entry_sha256": "4e631707625e0d3f0e779acfd3eba7f4d3f2479a91c0d264d744bdbc0c92360b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 16,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "atago-gongen-c01",
           "source_id": "atago-gongen-s1",
           "host": "en.wikipedia.org",
-          "statement": "Atago Gongen is a kami and tengu associated with Mount Atago.",
-          "statement_id": "Atago Gongen adalah kami dan tengu yang dikaitkan dengan Gunung Atago.",
+          "statement": "Atago Gongen is a Japanese kami and tengu associated with Mount Atago.",
+          "statement_id": "Atago Gongen adalah kami dan tengu Jepang yang dikaitkan dengan Gunung Atago.",
           "quote": "Atago Gongen (愛宕権現) also known as Tarōbō (太郎坊), Atago Daigongen (愛宕大権現), Shōgun Jizō (勝軍地蔵) of Mount Atago is a Japanese kami and tengu believed to be the local avatar (Gongen) of Buddhist bodhisattva Jizō and Shinto goddess Izanami.",
           "context": "religious-tradition",
           "status": "loose"
@@ -579,8 +875,8 @@
           "id": "atago-gongen-c02",
           "source_id": "atago-gongen-s1",
           "host": "en.wikipedia.org",
-          "statement": "His identity combines Buddhist and Shinto divine figures.",
-          "statement_id": "Identitasnya memadukan tokoh ilahi Buddha dan Shinto.",
+          "statement": "His identity combines a Buddhist figure (Jizō) and a Shinto one (Izanami).",
+          "statement_id": "Identitasnya memadukan sosok Buddha (Jizō) dan Shinto (Izanami).",
           "quote": "Atago Gongen (愛宕権現) also known as Tarōbō (太郎坊), Atago Daigongen (愛宕大権現), Shōgun Jizō (勝軍地蔵) of Mount Atago is a Japanese kami and tengu believed to be the local avatar (Gongen) of Buddhist bodhisattva Jizō and Shinto goddess Izanami.",
           "context": "religious-tradition",
           "status": "loose"
@@ -624,31 +920,121 @@
           "quote": "When Tarōbō surrendered to them, he became protector of the mountain.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "atago-gongen-c07",
+          "source_id": "atago-gongen-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The kami of Atago has been worshipped as a protector against fire disasters; the mountain lies northwest of Kyōto, the direction thunder and lightning clouds often come from, which may explain the development of its character as a \"fire kami\" (hi no kami).",
+          "statement_id": "Kami Atago dipuja sebagai pelindung dari bencana api; gunung itu terletak di barat laut Kyōto, arah datangnya awan petir, yang mungkin menjelaskan perkembangan sifatnya sebagai \"kami api\" (hi no kami).",
+          "quote": "The kami of Atago has been worshipped as a protector against fire disasters. The mountain is located northwest of Kyōto from which direction thunder and lightning clouds often appear, which may explain the development of the kami's character as a \"fire kami\" (hi no kami).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "atago-gongen-c08",
+          "source_id": "atago-gongen-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "There is a belief that a tengu (a bird-like mythical creature) named Atago Tarōbō lived on the mountain, and the area flourished as a sacred shugendō site.",
+          "statement_id": "Ada kepercayaan bahwa seekor tengu (makhluk mitos mirip burung) bernama Atago Tarōbō tinggal di gunung itu, dan kawasan itu berkembang sebagai tempat suci shugendō.",
+          "quote": "There is a belief that a tengu (a bird-like mythical creature) named Atago Tarōbō lived on the mountain, and the area flourished as a sacred shugendō site.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atago-gongen-c09",
+          "source_id": "atago-gongen-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Because Shōgun Jizō (the battle-victory Jizō Buddha) was worshipped as the Buddhist avatar (honji butsu) of Atago, the Atago kami was popular with the warrior class in the medieval period as a \"military kami\" (gunshin).",
+          "statement_id": "Karena Shōgun Jizō (Jizō pembawa kemenangan perang) dipuja sebagai avatar Buddhis Atago, kami Atago populer di kalangan kelas prajurit pada abad pertengahan sebagai \"kami militer\" (gunshin).",
+          "quote": "Moreover, because Shōgun Jizō (the battle-victory Jizo Buddha) was worshipped as the Buddhist avatar (honji butsu) of Atago, the Atago kami was popular with the warrior class as a \"military kami\" (gunshin) in the medieval period.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "atago-gongen-c10",
+          "source_id": "atago-gongen-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "People in various regions founded Atago-kō confraternities; members customarily received a shikimi branch and a kami amulet (shinsatsu) bearing the words \"hinoyōjin\", a formula for protection from fire.",
+          "statement_id": "Orang di berbagai daerah mendirikan perkumpulan Atago-kō; anggotanya lazim menerima ranting shikimi dan jimat kami (shinsatsu) bertuliskan \"hinoyōjin\", rumus pelindung dari api.",
+          "quote": "People in various regions established Atago-kō confraternities and members customarily received a shikimi branch and a \"kami amulet\" (shinsatsu) with the words \"hinoyōjin\" (a formula to protect one from fire) written on it.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "atago-gongen-c11",
+          "source_id": "atago-gongen-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "There was also a belief that visiting Atago Shrine on the first day of the eighth month (\"sennichi mōde\") earned merit equal to visiting every day for a thousand days.",
+          "statement_id": "Ada pula kepercayaan bahwa berziarah ke Kuil Atago pada hari pertama bulan kedelapan (\"sennichi mōde\") menghasilkan pahala setara berziarah setiap hari selama seribu hari.",
+          "quote": "There was also the belief that visiting Atago Shrine on the first day of the eighth month, a visit known as \"sennichi mōde\" (\"prayer of 1000 days merit\"), generated the virtue equivalent of visiting the shrine every day for one thousand days.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "atago-gongen-c12",
+          "source_id": "atago-gongen-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "During the Heian period Atago was counted among the \"seven high mountains\" (shichi kōsan) of the Kinki region.",
+          "statement_id": "Pada zaman Heian, Atago termasuk \"tujuh gunung tinggi\" (shichi kōsan) di wilayah Kinki.",
+          "quote": "During the Heian Period Atago was counted among the \"seven high mountains\" (shichi kōsan) of the Kinki region.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "atago-gongen-c13",
+          "source_id": "atago-gongen-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "The Great Fire of Angen in 1177 was also called 太郎焼亡, \"Tarō\" deriving from the tengu Atago Tarōbō; at the time there was a folk belief that tengu caused great fires.",
+          "statement_id": "Kebakaran besar Angen tahun 1177 juga disebut 太郎焼亡, dengan \"Tarō\" berasal dari tengu Atago Tarōbō; saat itu ada kepercayaan rakyat bahwa tengu menyebabkan kebakaran besar.",
+          "quote": "1177年（安元3年）に起きた安元の大火は太郎焼亡とも呼ばれたが「太郎」は愛宕太郎坊天狗に由来する。当時は天狗が大火を引き起こすとの俗信があった。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atago-gongen-c14",
+          "source_id": "atago-gongen-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Atago Gongen is a syncretic Shinto-Buddhist divine title fusing mountain worship at Atago with shugendō, with Izanami as the manifested deity and Jizō Bodhisattva as the original Buddhist form.",
+          "statement_id": "Atago Gongen adalah gelar ilahi sinkretis Shinto-Buddha yang memadukan pemujaan gunung Atago dengan shugendō, dengan Izanami sebagai dewa penjelmaan dan Bodhisattva Jizō sebagai wujud Buddha asalnya.",
+          "quote": "愛宕権現（あたごごんげん）は愛宕山の山岳信仰と修験道が融合した神仏習合の神号であり、イザナミを垂迹神として地蔵菩薩を本地仏とする。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "atago-gongen-c15",
+          "source_id": "atago-gongen-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "He is depicted in the form of Shōgun Jizō, his original Buddhist form: Jizō Bodhisattva in armor riding a horse.",
+          "statement_id": "Ia digambarkan dalam rupa Shōgun Jizō (wujud Buddha asalnya), yaitu Bodhisattva Jizō berbaju zirah menunggang kuda.",
+          "quote": "本地仏である勝軍地蔵（将軍地蔵）の姿で描かれ、甲冑姿の地蔵菩薩が馬に乗る。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "atago-gongen-c16",
+          "source_id": "atago-gongen-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "The shugendō-based Atago Gongen was abolished through the 1868 separation of Shinto and Buddhism and the suppression of Buddhism.",
+          "statement_id": "Atago Gongen yang berdasar shugendō dihapus oleh pemisahan Shinto dan Buddha serta penghancuran Buddhisme pada tahun 1868.",
+          "quote": "慶応4年（1868年）の神仏分離令による廃仏毀釈によって、修験道に基づく愛宕権現は廃された。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "danzaburou-danuki",
-      "file": "batch-053.md",
+      "file": "batch-053-fix-4.md",
+      "entry_sha256": "6f348f47eb3766a3449e3b5a26bbf1d7c8346952ea6f8832dd7610ac69d2a3fb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (danzaburou-danuki-c02)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "danzaburou-danuki-c01",
@@ -664,8 +1050,8 @@
           "id": "danzaburou-danuki-c02",
           "source_id": "danzaburou-danuki-s1",
           "host": "en.wikipedia.org",
-          "statement": "A local alternate name uses the word mujina.",
-          "statement_id": "Nama setempat lainnya memakai kata mujina.",
+          "statement": "In Sado, tanuki were called mujina (狢), so he was also called Danzaburou-mujina (団三郎狢).",
+          "statement_id": "Di Sado, tanuki disebut mujina (狢), sehingga ia juga disebut Danzaburou-mujina (団三郎狢).",
           "quote": "In Sado, tanuki were called \"mujina (狢)\", thus he was also referred to as Danzaburou-mujina (団三郎狢).",
           "context": "traditional-belief",
           "status": "exact"
@@ -688,6 +1074,106 @@
           "statement_id": "Kisah-kisah menyebut ia menciptakan ilusi dan penghalang di jalan.",
           "quote": "He would create wall-like structures to block people's paths at night, fooled people with mirages and sold leaves from trees by making them look as if they were made of gold.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "danzaburou-danuki-c05",
+          "source_id": "danzaburou-danuki-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "In nishiki-e prints his name is also written 同三狸; together with 芝右衛門狸 of Awaji Island and 太三郎狸 of Kagawa Prefecture he is counted among Japan's three famous tanuki.",
+          "statement_id": "Dalam lukisan cetak berwarna (nishiki-e) namanya juga ditulis 同三狸; bersama 芝右衛門狸 dari Pulau Awaji dan 太三郎狸 dari Prefektur Kagawa, ia dihitung sebagai salah satu dari tiga tanuki termasyhur Jepang.",
+          "quote": "錦絵では同三狸とも表記される。淡路島の芝右衛門狸、香川県の太三郎狸と並び、日本三名狸に数えられている。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "danzaburou-danuki-c06",
+          "source_id": "danzaburou-danuki-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "He cast a mirage over his hole-dwelling to make it look like a splendid house and lure people in; when ill, he took human form and saw human doctors.",
+          "statement_id": "Ia menebar fatamorgana pada lubang tempat tinggalnya agar tampak seperti rumah megah untuk memikat orang masuk; saat sakit, ia menyamar sebagai manusia dan berobat ke dokter manusia.",
+          "quote": "自分の住処である穴倉に蜃気楼をかけ、豪華な屋敷に見せかけて人を招き入れたりもした。病気になったときには人に化けて人間の医者にかかっていた。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "danzaburou-danuki-c07",
+          "source_id": "danzaburou-danuki-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "He was not only mischievous; he lent money to people in trouble, money said to be earned by taking human form and working at a gold mine, or by stealing.",
+          "statement_id": "Ia tidak hanya berbuat nakal; ia meminjamkan uang kepada orang yang kesulitan, yang dikatakan diperolehnya dengan menyamar sebagai manusia bekerja di tambang emas atau dengan mencuri.",
+          "quote": "悪さをするばかりでなく、困った人には金を貸していた。その金は人に化けて金山で働いたり、盗んだりして稼いでいたという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "danzaburou-danuki-c08",
+          "source_id": "danzaburou-danuki-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "His dwelling is said to be in 下戸村, Aikawa; if someone left a stamped promissory note with the amount, return date and their name, the note vanished the next day and money lay in its place. Later he was enshrined in Aikawa as 二つ岩大明神 and is deeply revered by the people.",
+          "statement_id": "Tempat tinggalnya disebut berada di Desa 下戸村, Aikawa; jika orang meninggalkan surat utang bercap berisi jumlah, tanggal pengembalian, dan namanya, keesokan harinya surat itu hilang dan uang tergeletak di tempatnya. Kemudian ia dipuja di Aikawa sebagai 二つ岩大明神 dan dihormati warga.",
+          "quote": "また、団三郎の住処は相川町下戸村にあり、借用書に金額、返却日、自分の名を記して判を押して置いておけば、翌日にはその借用書は消え、代りに金が置いてあったという。 後に団三郎は相川町に二つ岩大明神として祀られ、人々に厚く信仰されている。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "danzaburou-danuki-c09",
+          "source_id": "danzaburou-danuki-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "There are legends explaining the absence of foxes (kitsune) on Sado by saying that Danzaburō drove the foxes off the island.",
+          "statement_id": "Ada legenda yang menjelaskan tidak adanya rubah di Sado karena Danzaburō mengusir rubah dari pulau itu.",
+          "quote": "佐渡にキツネがいない理由として、団三郎が佐渡からキツネを追い払ったためといった伝説があり、ここに2つほど記す。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "danzaburou-danuki-c10",
+          "source_id": "danzaburou-danuki-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "In one legend Danzaburō boards a boat for Sado and, in mid-sea, takes off his straw sandals and throws them into the water; ever since, foxes have not thought of crossing to Sado.",
+          "statement_id": "Dalam satu legenda, Danzaburō menaiki kapal ke Sado dan di tengah laut melepas sandal jerami (草履) lalu melemparnya ke laut; sejak itu rubah tak lagi berpikir menyeberang ke Sado.",
+          "quote": "やがて団三郎は佐渡へ渡る舟に乗り、海の真っ只中で草履を脱いで海に放り込んだ。以来、キツネは佐渡に渡ろうとは考えないようになった。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "danzaburou-danuki-c11",
+          "source_id": "danzaburou-danuki-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "There is also a legend that his tricks on people went on for a long time, but he stopped deceiving people after losing a battle of wits with a human.",
+          "statement_id": "Ada pula legenda bahwa tipuannya terhadap manusia berlangsung banyak kali, tetapi ia berhenti menipu setelah kalah adu akal dengan seorang manusia.",
+          "quote": "団三郎の人化かしは数多く続いたが、人間との知恵比べに負けたため、人を化かすことをやめたという伝説もある。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "danzaburou-danuki-c12",
+          "source_id": "danzaburou-danuki-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "One theory holds that Danzaburō was the name of a human merchant from Echigo Province who in 1657 sold young tanuki for breeding, later began raising tanuki on Sado and was respected by the islanders, so the tanuki itself came to be worshipped like a tutelary deity.",
+          "statement_id": "Ada teori bahwa Danzaburō adalah nama seorang pedagang manusia dari Provinsi Echigo yang pada tahun 1657 menjual anak tanuki untuk pembiakan, kemudian memulai peternakan tanuki di Sado dan dihormati penduduk pulau, sehingga tanukinya pun dipuja seperti dewa pelindung.",
+          "quote": "団三郎とは越後国の人間の商人の名であり、明暦3年（1657年）に佐渡金山で用いる鞴の押皮をとるために繁殖用の子ダヌキを売っており、後に佐渡で養狸を始めた団三郎が島民から敬われ、タヌキ自体も氏神のように祀られたとの説がある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "danzaburou-danuki-c13",
+          "source_id": "danzaburou-danuki-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Danzaburou appears as a boss character in the 2013 video game Muramasa Rebirth.",
+          "statement_id": "Danzaburou muncul sebagai karakter bos dalam gim video Muramasa Rebirth tahun 2013.",
+          "quote": "Danzaburou appears as a boss character in the 2013 video game Muramasa Rebirth.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "danzaburou-danuki-c14",
+          "source_id": "danzaburou-danuki-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mamizou Futatsuiwa, the extra-stage boss of Touhou 13: Ten Desires, is based on Danzaburou-danuki.",
+          "statement_id": "Mamizou Futatsuiwa, bos tahap tambahan Touhou 13: Ten Desires, didasarkan pada Danzaburou-danuki.",
+          "quote": "Mamizou Futatsuiwa, the extra stage boss of Touhou 13: Ten Desires is based on Danzaburou-danuki.",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
@@ -765,24 +1251,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2cca7355f14823ae5cf06f7351003c7147d46a244be5f1c25aa2af4cc2a62d88"
     },
     {
       "slug": "hiruko",
-      "file": "batch-053-fix-2.md",
+      "file": "batch-053-fix-4.md",
+      "entry_sha256": "d3ae1e2265a3af28e7919dc7bf0d72dbdefc09d44a82f3b319bd1405fc0296a7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 17,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hiruko-c01",
@@ -823,26 +1305,151 @@
           "quote": "It is however believed that Ebisu first arose as a god among fishermen and that his origin as Hiruko was a much later conception; after the worship of him had spread to merchants and farmers.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "hiruko-c05",
+          "source_id": "hiruko-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Hiruko (\"leech-child\") is a deformed infant born to Izanagi and Izanami because Izanami made the mistake of speaking to Izanagi first during their courtship.",
+          "statement_id": "Hiruko (\"anak lintah\") adalah bayi cacat yang lahir dari Izanagi dan Izanami karena kesalahan Izanami yang berbicara lebih dulu kepada Izanagi saat peminangan.",
+          "quote": "\"Leach-child,\" a deformed infant born to Izanagi and Izanami as a result of Izanami's mistake in speaking first to Izanagi during their courtship.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hiruko-c06",
+          "source_id": "hiruko-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The child was placed in a reed boat and set adrift.",
+          "statement_id": "Anak itu diletakkan dalam perahu gelagah dan dihanyutkan.",
+          "quote": "The child was placed in a reed boat and set adrift.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hiruko-c07",
+          "source_id": "hiruko-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The meaning of the child's name is debated; hiruko means \"leech\", and the name may suggest a child with arms and legs but without bones.",
+          "statement_id": "Arti nama anak itu diperdebatkan; hiruko berarti \"lintah\", dan nama itu mungkin mengisyaratkan anak yang punya lengan dan kaki tetapi tanpa tulang.",
+          "quote": "The meaning of the child's name is debated, although hiruko means \"leach,\" and the name may suggest a child with arms and legs but without bones.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "hiruko-c08",
+          "source_id": "hiruko-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The main text of the Nihongi states that the child could not walk even at three years of age, so he was placed in the \"rock-camphor boat of heaven\" and set adrift to the mercy of the winds.",
+          "statement_id": "Teks utama Nihongi menyatakan anak itu tidak dapat berjalan bahkan setelah berusia tiga tahun, sehingga ia diletakkan dalam \"perahu kamper batu surgawi\" dan dihanyutkan mengikuti angin.",
+          "quote": "The main text of Nihongi states that the child could not walk even after reaching three years of age, with the result that he was placed in the \"rock-camphor boat of heaven\" (see Torinoiwakusafune) and set adrift to the mercy of the winds.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hiruko-c09",
+          "source_id": "hiruko-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "In later times Hiruko was identified with the deity Ebisu, a maritime tutelary and one of the \"seven gods of good fortune\" (shichi fukujin).",
+          "statement_id": "Pada masa kemudian, Hiruko disamakan dengan dewa Ebisu, pelindung maritim dan salah satu dari \"tujuh dewa keberuntungan\" (shichi fukujin).",
+          "quote": "In later times, Hiruko was identified with the deity Ebisu, a maritime tutelary and one of the \"seven gods of good fortune\" (shichi fukujin).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hiruko-c10",
+          "source_id": "hiruko-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Hiruko, also written 水蛭子, 蛭子神, 蛭子命 or 蛭児, is a deity appearing in Japanese mythology.",
+          "statement_id": "Hiruko, juga ditulis 水蛭子, 蛭子神, 蛭子命 atau 蛭児, adalah dewa yang muncul dalam mitologi Jepang.",
+          "quote": "ヒルコ（水蛭子、蛭子神、蛭子命）は、日本神話に登場する神。蛭児とも。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hiruko-c11",
+          "source_id": "hiruko-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "In 『古事記』 (Kojiki) he is the first deity born between Izanagi and Izanami (伊邪那岐命・伊邪那美命) at the birthing of the lands. Because the goddess Izanami spoke first to the god Izanagi when making a child, the child was born deformed, put in a reed boat and sent away from Onogoro Island; together with the next-born アハシマ, he is not counted among the two gods' children.",
+          "statement_id": "Dalam 『古事記』 (Kojiki), ia dewa pertama yang lahir dari Izanagi dan Izanami (伊邪那岐命・伊邪那美命) saat penciptaan negeri. Karena dewi Izanami lebih dulu menyapa dewa Izanagi saat membuat anak, anak itu lahir cacat, dimasukkan ke perahu buluh, dan dihanyutkan dari Pulau Onogoro; bersama アハシマ yang lahir berikutnya, ia tidak dihitung sebagai anak kedua dewa itu.",
+          "quote": "『古事記』において国産みの際、イザナキ（伊邪那岐命）とイザナミ（伊邪那美命）との間に生まれた最初の神。しかし、子作りの際に女神であるイザナミから先に男神のイザナキに声をかけた事が原因で不具の子に生まれたため、葦船に入れられオノゴロ島から流されてしまう。次に生まれたアハシマと共に、二神の子の数には入れないと記されている。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hiruko-c12",
+          "source_id": "hiruko-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "In 『日本書紀』 he is written 「蛭児」; its main text places his birth after Amaterasu and Tsukuyomi and before Susanoo, and because his legs would not stand at age three, he was set adrift in a camphor-wood boat (天磐櫲樟船).",
+          "statement_id": "Dalam 『日本書紀』 ia ditulis 「蛭児」; teks utamanya menempatkan kelahirannya setelah Amaterasu dan Tsukuyomi dan sebelum Susanoo, dan karena kakinya tak bisa berdiri pada usia tiga tahun, ia dihanyutkan dengan perahu kamper (天磐櫲樟船).",
+          "quote": "『日本書紀』では「蛭児」と表記される。 ... 本文では三貴子（みはしらのうずのみこ）のうちアマテラスとツクヨミの後、スサノオの前に生まれ、三歳になっても脚が立たなかったため、天磐櫲樟船（アメノイワクスフネ。堅固なクスノキで作った船）に乗せて流した、とする。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hiruko-c13",
+          "source_id": "hiruko-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Later interpretation suspected, from the writing 水蛭子, that his limbs were malformed like a leech's; some medical scholars suggest he was a formless fetus known as a hydatidiform mole (胞状奇胎).",
+          "statement_id": "Tafsir kemudian menduga, karena ditulis 水蛭子, bahwa anggota tubuhnya berbentuk aneh seperti lintah; ada pula ahli medis yang menduga ia janin tak berbentuk yang disebut mola hidatidosa (胞状奇胎).",
+          "quote": "後世の解釈では、水蛭子とあることから水蛭のように手足が異形であったのではないかという推測を生んだ。あるいは、胞状奇胎と呼ばれる形を成さない胎児のことではないかとする医学者もある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hiruko-c14",
+          "source_id": "hiruko-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Legends of where the cast-off Hiruko washed ashore remain across Japan; 『源平盛衰記』 records that he drifted to Settsu Province, became a god ruling the sea, and appeared at Nishinomiya as 夷三郎殿 (西宮大明神).",
+          "statement_id": "Legenda tentang tempat terdamparnya Hiruko yang dihanyutkan tersebar di berbagai wilayah Jepang; 『源平盛衰記』 mencatat ia terdampar di Provinsi Settsu, menjadi dewa penguasa laut, dan muncul di Nishinomiya sebagai 夷三郎殿 (西宮大明神).",
+          "quote": "流された蛭子神が流れ着いたという伝説は日本各地に残っている。『源平盛衰記』では、摂津国に流れ着いて海を領する神となって夷三郎殿として西宮に現れた（西宮大明神）、と記している。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hiruko-c15",
+          "source_id": "hiruko-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "The idea of identifying Hiruko with Ebisu (恵比寿・戎) arose from the Muromachi period and is not an ancient tradition, but it spread widely through commentaries on the 古今集 and performing arts; there are place names and surnames written 蛭子 and read \"えびす\".",
+          "statement_id": "Gagasan menyamakan Hiruko dengan Ebisu (恵比寿・戎) muncul sejak zaman Muromachi dan bukan tradisi kuno, tetapi menyebar luas lewat tafsir 古今集 dan seni pertunjukan; ada nama tempat dan nama keluarga yang menulis 蛭子 dibaca \"えびす\".",
+          "quote": "ヒルコとえびす（恵比寿・戎）を同一視する説は室町時代からおこった新しい説であり、それ以前に遡るような古伝承ではないが、古今集注解や芸能などを通じ広く浸透しており、蛭子と書いて「えびす」と読む地名ならびに名字も存在する。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hiruko-c16",
+          "source_id": "hiruko-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "Today many shrines enshrine Hiruko, including 和田神社 (Kobe) and 西宮神社 (Nishinomiya, Hyōgo), although many Ebisu shrines identify Ebisu with Kotoshironushi.",
+          "statement_id": "Kini banyak kuil memuja Hiruko sebagai dewa utama, antara lain 和田神社 (Kobe) dan 西宮神社 (Nishinomiya, Hyogo), meski banyak kuil Ebisu menyamakan Ebisu dengan Kotoshironushi.",
+          "quote": "現在、ヒルコ（蛭子神、蛭子命）を祭神とする神社は多く、和田神社（神戸市）、西宮神社（兵庫県西宮市）などで祀られているが、恵比寿を祭神とする神社には恵比寿＝事代主とするところも多い。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "hiruko-c17",
+          "source_id": "hiruko-s3",
+          "host": "ja.wikipedia.org",
+          "statement": "There is also an interpretation based on the exiled-noble tale pattern holding that Hiruko is 日る子 (\"child of the sun\") and a noble \"child of the sun\" who was cast away for that reason; in it Ebisu is the one who guarded and served him.",
+          "statement_id": "Ada pula tafsir bercorak kisah bangsawan terbuang yang menyatakan Hiruko adalah 日る子 (\"anak matahari\") dan \"putra matahari\" yang mulia sehingga dihanyutkan; dalam tafsir ini Ebisu adalah pelayan yang menjaga sang putra matahari.",
+          "quote": "また、ヒルコは日る子（太陽の子）であり、尊い「日の御子」であるがゆえに流された、とする貴種流離譚に基づく解釈もあり、こちらでは日の御子を守り仕えたのがエビスであるとする。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "ibaraki-doji",
-      "file": "batch-053.md",
+      "file": "batch-053-fix-4.md",
+      "entry_sha256": "5433f0850557daefb4325de94069058921fe7789c692ffabb1671767d2941441",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 18,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ibaraki-doji-c01",
@@ -883,33 +1490,168 @@
           "quote": "Ibaraki-dōji had teeth since birth, and was feared for being a giant.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "ibaraki-doji-c05",
+          "source_id": "ibaraki-doji-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, the name is a nickname meaning \"thorn tree child\".",
+          "statement_id": "Menurut Yokai.com, nama itu adalah julukan yang berarti \"anak pohon berduri\".",
+          "quote": "Translation: a nickname meaning “thorn tree child”",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "ibaraki-doji-c06",
+          "source_id": "ibaraki-doji-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the English article, the \"Ibaraki\" in his name may refer to Ibaraki, Osaka; \"dōji\" means \"child\", but here it denotes a demon offspring.",
+          "statement_id": "Menurut artikel bahasa Inggris, \"Ibaraki\" dalam namanya mungkin merujuk pada Ibaraki di Osaka; \"dōji\" berarti \"anak\", tetapi di sini bermakna keturunan iblis.",
+          "quote": "The \"Ibaraki\" in his name may refer to Ibaraki, Osaka; \"dōji\" means \"child\", but in this context is a demon offspring.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ibaraki-doji-c07",
+          "source_id": "ibaraki-doji-s2",
+          "host": "yokai.com",
+          "statement": "Most stories and illustrations depict Ibaraki-dōji as a kijo (a female oni), but other stories refer to Shuten-dōji's deputy as male.",
+          "statement_id": "Kebanyakan kisah dan ilustrasi menggambarkan Ibaraki-dōji sebagai kijo (oni perempuan), tetapi ada kisah lain yang menyebut wakil Shuten-dōji itu laki-laki.",
+          "quote": "Most stories and illustrations depict Ibaraki dōji as a kijo, or a female oni; yet there are other stories which refer to Shuten dōji’s deputy as a male.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ibaraki-doji-c08",
+          "source_id": "ibaraki-doji-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Their gender is ambiguous: in some stories a kijo (female oni), in others male; the female version is theorized to be Shuten-dōji's lover, son, or his son's lover.",
+          "statement_id": "Jenis kelaminnya tidak jelas: dalam beberapa kisah ia kijo (oni perempuan), dalam kisah lain laki-laki; versi perempuan diduga kekasih Shuten-dōji, anaknya, atau kekasih anaknya.",
+          "quote": "Their gender is ambiguous, in some stories Ibaraki is a kijo (female oni), and in others a male. The female version is theorized to be Shuten-dōji’s lover, son, or his son's lover.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ibaraki-doji-c09",
+          "source_id": "ibaraki-doji-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Shuten-dōji gang ran amok in the capital, among other things kidnapping families' girls, but was destroyed by Minamoto no Yorimitsu and his four vassals, the Four Guardian Kings; Ibaraki-dōji managed to escape.",
+          "statement_id": "Kelompok Shuten-dōji mengamuk di ibu kota, antara lain menculik gadis-gadis dari berbagai keluarga, tetapi dihancurkan oleh Minamoto no Yorimitsu dan empat pengikutnya, Empat Raja Penjaga; Ibaraki-dōji berhasil lolos.",
+          "quote": "The gang ran amok in the capital, kidnapping families’ girls among other things, but they were destroyed by Minamoto no Yorimitsu and his four vassals, the Four Guardian Kings. However, Ibaraki-dōji was able to escape.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ibaraki-doji-c10",
+          "source_id": "ibaraki-doji-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In one version, a beautiful, worried-looking girl is put on a horse by Watanabe no Tsuna, suddenly turns into an oni, grasps Tsuna's hair, flies up and carries him toward Mount Atago; Tsuna cuts off the oni's arm and escapes.",
+          "statement_id": "Dalam satu versi, seorang gadis cantik yang tampak cemas dinaikkan ke kuda oleh Watanabe no Tsuna, lalu tiba-tiba berubah menjadi oni, mencengkeram rambut Tsuna, terbang, dan membawanya ke Gunung Atago; Tsuna menebas lengan oni itu dan lolos.",
+          "quote": "A young beautiful girl was on the road, worried, so Watanabe no Tsuna made her ride on a horse, but the girl suddenly transformed into an oni, and grasped Tsuna’s hair, flew in the air, and took him to Mount Atago. Tsuna, not panicked at all, cut off the oni's arm, averting disaster.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ibaraki-doji-c11",
+          "source_id": "ibaraki-doji-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Several days later Ibaraki-dōji tried to break into Tsuna's estate but could not enter because of the power of a Humane King Sutra and a talisman.",
+          "statement_id": "Beberapa hari kemudian Ibaraki-dōji berusaha menyusup ke kediaman Tsuna, tetapi tak bisa masuk karena kekuatan Sutra Raja Penyayang dan sebuah jimat.",
+          "quote": "Several days after that, Ibaraki-dōji tried to invade Tsuna's estate using the remaining arm, but due to the power of a Humane King Sutra and a talisman, Ibaraki-dōji was not able to enter.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ibaraki-doji-c12",
+          "source_id": "ibaraki-doji-s2",
+          "host": "yokai.com",
+          "statement": "According to Yokai.com, at the Rashōmon gate Tsuna severed the arm of an enormous demon who was Ibaraki-dōji, come to avenge Shuten-dōji's death; she fled leaving her arm behind and Rashōmon was no longer haunted.",
+          "statement_id": "Menurut Yokai.com, di gerbang Rashōmon Tsuna menebas lengan iblis raksasa yang ternyata Ibaraki-dōji, yang datang membalas kematian Shuten-dōji; ia kabur meninggalkan lengannya dan Rashōmon tak lagi angker.",
+          "quote": "Tsuna wasted no time, and swung his great katana around, severing the arm of an enormous demon: it was Ibaraki dōji, coming to avenge the murder of Shuten dōji. The injured demon ran away, leaving her arm behind, and Rashōmon was no longer haunted.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ibaraki-doji-c13",
+          "source_id": "ibaraki-doji-s2",
+          "host": "yokai.com",
+          "statement": "Ibaraki-dōji later returned to Rashōmon looking for her arm; she disguised herself as Watanabe no Tsuna's wet nurse, managed to steal back the severed arm, and fled.",
+          "statement_id": "Ibaraki-dōji kemudian kembali ke Rashōmon mencari lengannya; ia menyamar sebagai ibu susu Watanabe no Tsuna, berhasil mencuri kembali lengan yang terpotong itu, lalu kabur.",
+          "quote": "Ibaraki dōji later returned to Rashōmon, looking for her arm. She disguised herself as Watanabe no Tsuna’s wetnurse, and was able to steal back her severed arm and flee.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ibaraki-doji-c14",
+          "source_id": "ibaraki-doji-s2",
+          "host": "yokai.com",
+          "statement": "Yokai.com describes Ibaraki-dōji as a wholly terrible and fearsome monster, bent on wreaking as much havoc in the human world as possible.",
+          "statement_id": "Yokai.com menggambarkan Ibaraki-dōji sebagai monster yang sepenuhnya mengerikan, bertekad membuat kekacauan sebanyak mungkin di dunia manusia.",
+          "quote": "What is known is that Ibaraki dōji was a wholly terrible and fearsome monster, bent of wreaking as much havoc in the human world as possible.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ibaraki-doji-c15",
+          "source_id": "ibaraki-doji-s1",
+          "host": "en.wikipedia.org",
+          "statement": "As for his birthplace, theories name Settsu Province (including Mio in Ibaraki, Osaka, and Tomatsu in Amagasaki, Hyōgo) or Echigo Province (Niigata).",
+          "statement_id": "Tentang tempat lahirnya, ada teori yang menyebut Provinsi Settsu (antara lain Mio di Ibaraki, Osaka, dan Tomatsu di Amagasaki, Hyōgo) atau Provinsi Echigo (Niigata).",
+          "quote": "As for the birthplace, there are theories that it may be Settsu Province (Mio, Ibaraki, Osaka, and Tomatsu, Amagasaki, Hyōgo) or Echigo Province (Niigata, formerly Tochio, now a settlement in Karuizawa, Nagano).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ibaraki-doji-c16",
+          "source_id": "ibaraki-doji-s2",
+          "host": "yokai.com",
+          "statement": "After that her whereabouts were never known again, though for many years villagers in one town or another occasionally claimed to have seen Ibaraki-dōji coming or going, always connected with some mischief.",
+          "statement_id": "Setelah itu keberadaannya tak pernah diketahui lagi, tetapi selama bertahun-tahun penduduk di berbagai kota sesekali mengaku melihat Ibaraki-dōji datang atau pergi, selalu bersama semacam kenakalan.",
+          "quote": "After that, her whereabouts were never known again, though for many years after, occasionally in some town or another, villagers would claim that they had seen Ibaraki dōji coming or going, always in connection with some kind of mischief.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ibaraki-doji-c17",
+          "source_id": "ibaraki-doji-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ibaraki-dōji appears in Type-Moon's Fate franchise as a Berserker or Lancer class Servant in the mobile game Fate/Grand Order.",
+          "statement_id": "Ibaraki-dōji muncul dalam waralaba Fate milik Type-Moon sebagai Servant kelas Berserker atau Lancer dalam gim seluler Fate/Grand Order.",
+          "quote": "Ibaraki-dōji appears in Type-Moon's Fate franchise as a Berserker (original form) or Lancer (Summer event) class Servant in their mobile game Fate/Grand Order.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "ibaraki-doji-c18",
+          "source_id": "ibaraki-doji-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The 2018 mobile game Onmyoji by Netease features a character resembling Ibaraki-dōji as a fearsome Oni, playable as a summoned character.",
+          "statement_id": "Gim seluler Onmyoji (2018) dari Netease menampilkan karakter yang menyerupai Ibaraki-dōji sebagai Oni menakutkan yang bisa dimainkan.",
+          "quote": "The 2018 mobile game Onmyoji by Netease features a character resembling Ibaraki Dōuji as a fearsome Oni, available as a playable SSR summoned character.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "inugami-gyobu",
-      "file": "batch-053.md",
+      "file": "batch-053-fix-4.md",
+      "entry_sha256": "c063c353229d53dd31ee62ae9857af7c938a2d33aaac1e2312e2b10c3424b86e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "inugami-gyobu-c01",
           "source_id": "inugami-gyobu-s1",
           "host": "en.wikipedia.org",
-          "statement": "Inugami Gyōbu is a supernatural tanuki in Matsuyama legends.",
-          "statement_id": "Inugami Gyōbu adalah tanuki gaib dalam legenda Matsuyama.",
+          "statement": "Inugami Gyōbu is a supernatural tanuki in the legends of Matsuyama, Iyo Province (now Ehime Prefecture).",
+          "statement_id": "Inugami Gyōbu adalah tanuki gaib dalam legenda Matsuyama, Provinsi Iyo (kini Prefektur Ehime).",
           "quote": "Inugami Gyōbu (隠神刑部) or Gyōbu-danuki (刑部狸) is a bake-danuki (a monster tanuki) told about in legends passed down in Matsuyama, Iyo Province (now Ehime Prefecture).",
           "context": "traditional-belief",
           "status": "exact"
@@ -918,8 +1660,8 @@
           "id": "inugami-gyobu-c02",
           "source_id": "inugami-gyobu-s1",
           "host": "en.wikipedia.org",
-          "statement": "He appears in a tale about a disturbance and hundreds of tanuki.",
-          "statement_id": "Ia muncul dalam kisah tentang kekacauan dan ratusan tanuki.",
+          "statement": "He appears in a tale about the Matsuyama disturbance and 808 tanuki.",
+          "statement_id": "Ia muncul dalam kisah tentang kerusuhan Matsuyama dan 808 tanuki.",
           "quote": "He appears in the \"Tale of the Matsuyama Disturbance and the Eight Hundred and Eight Tanuki\" (松山騒動八百八狸物語, Matsuyama Sōdō Happyakuya-danuki Monogatari), which is considered one of the big three tanuki tales along with the Shojoji no Tanuki-bayashi and Bunbuku Chagama.",
           "context": "traditional-belief",
           "status": "exact"
@@ -943,33 +1685,108 @@
           "quote": "He lived in an old cave in Kumayama, and was a bake-danuki that continued to protect the Matsuyama Castle, and from his household of 808 tanuki, was also called \"Eight Hundred and Eight Tanuki (八百八狸, Happyakuya-danuki).\" He was said to have the greatest divine power in Shikoku.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "inugami-gyobu-c05",
+          "source_id": "inugami-gyobu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The \"Gyōbu\" (刑部, literally \"penal affairs\") part of his name was a title granted by an ancestor of the lords of Matsuyama Castle; he was trusted by the castle's vassals and had a deep connection with the local people.",
+          "statement_id": "Bagian \"Gyōbu\" (刑部, secara harfiah \"urusan hukuman\") dalam namanya adalah gelar dari leluhur para penguasa Kastel Matsuyama; ia dipercaya para pengikut kastel dan punya ikatan erat dengan penduduk setempat.",
+          "quote": "The part of his name \"Gyōbu\"(刑部: lit. penal affairs) was a title awarded by an ancestor of the lords of the Matsuyama Castle, and he received faith from the vassals in the castle, and had a deep connection with the local people.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "inugami-gyobu-c06",
+          "source_id": "inugami-gyobu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the era of 松山隠岐守 the O-Ie Sōdō (daimyo-house dispute) occurred; Inugami Gyōbu was used by the rebel side and commanded his follower tanuki to cause strange occurrences in support of the insurrection.",
+          "statement_id": "Pada masa 松山隠岐守 terjadi O-Ie Sōdō (perselisihan keluarga penguasa); Inugami Gyōbu dimanfaatkan pihak pemberontak dan memerintahkan tanuki pengikutnya menimbulkan kejadian aneh untuk mendukung pemberontakan.",
+          "quote": "In the era of Matsuyama Oki no Kami (松山隠岐守), the O-Ie Sōdō occurred, and Inugami Gyōbu was used by the rebel side, and he gave commands to his follower tanuki to cause strange occurrences to support the insurrection.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "inugami-gyobu-c07",
+          "source_id": "inugami-gyobu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "However, in the ghost story Inōmono no Roku the warrior Inō Budayū (稲生武太夫) punished Inugami Gyōbu with a divine rod received from Usa Hachiman Dai-bosatsu, and as a result Inugami Gyōbu and his 808 followers were sealed in Kumayama.",
+          "statement_id": "Namun dalam kisah hantu Inōmono no Roku, samurai Inō Budayū (稲生武太夫) menghukum Inugami Gyōbu dengan tongkat ilahi dari Usa Hachiman Dai-bosatsu, sehingga Inugami Gyōbu dan 808 anggota keluarganya disegel di Kumayama.",
+          "quote": "However, in the ghost story Inōmono no Roku, the feudal warrior Inō Budayū (稲生武太夫) punished Inugami Gyōbu with a divine rod that he received from Usa Hachiman Dai-bosatsu, and as a result, Inugami Gyōbu and the 808 of his household was sealed in Kumayama.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "inugami-gyobu-c08",
+          "source_id": "inugami-gyobu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The cave remains today in Kutaninagumi (久谷中組), Matsuyama city, and is known as Yamaguchi Reishin (山口霊神).",
+          "statement_id": "Gua itu masih ada hingga kini di Kutaninagumi (久谷中組), Kota Matsuyama, dan dikenal sebagai Yamaguchi Reishin (山口霊神).",
+          "quote": "The cave remains even today in Kutaninagumi (久谷中組), Matsuyama city, and is known as Yamaguchi Reishin (山口霊神).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "inugami-gyobu-c09",
+          "source_id": "inugami-gyobu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In one variant, Budayū did not use a divine rod but a wooden mallet he received from the head yōkai, Sanmoto Gorōzaemon (山本五郎左衛門).",
+          "statement_id": "Dalam satu versi, Budayū tidak memakai tongkat ilahi melainkan palu kayu yang diterimanya dari pemimpin yokai, Sanmoto Gorōzaemon (山本五郎左衛門).",
+          "quote": "Budayū did not use a divine rod, but rather a wooden mallet that he received from the head yōkai, Sanmoto Gorōzaemon (山本五郎左衛門).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "inugami-gyobu-c10",
+          "source_id": "inugami-gyobu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Opposite to the tale of his defeat by Budayū, other stories have Inugami Gyōbu on the righteous side, unable to make a dent in the rebels, so that he called on Budayū for help.",
+          "statement_id": "Berlawanan dengan kisah ia dikalahkan Budayū, ada pula kisah Inugami Gyōbu berada di pihak yang benar tetapi tak mampu menandingi pihak pemberontak sehingga ia meminta bantuan Budayū.",
+          "quote": "Just the opposite of Inugami Gyōbu being defeated by Budayuu, there are also stories where Inugami Gyōbu stood with the righteous side, but since he was not able to make a dent to the forces of the rebel side, he called Budayuu for help.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "inugami-gyobu-c11",
+          "source_id": "inugami-gyobu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Shikoku has many folk tales about tanuki; the tanuki of Matsuyama are said to go back to the age of Emperor Tenji, and as tanuki bore tanuki there came to be 808 of them; their leader was Inugami Gyōbu.",
+          "statement_id": "Di Shikoku banyak cerita rakyat tentang tanuki; tanuki Matsuyama punya sejarah yang dikatakan berawal sejak zaman Kaisar Tenji, dan karena tanuki melahirkan tanuki jumlahnya mencapai 808; pemimpinnya adalah Inugami Gyōbu.",
+          "quote": "In Shikoku, there are many folk tales and legends about tanuki, but the tanuki of Matsuyama in particular has a history of them that goes back to the beginning of history in the ages of Emperor Tenji, and as a result of tanuki giving birth to tanuki, there were 808 of them. Its leader was Inugami Gyōbu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "inugami-gyobu-c12",
+          "source_id": "inugami-gyobu-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "According to the Japanese article, 『松山騒動八百八狸物語』 began as a daimyo-house dispute from the Great Kyōhō Famine written down in 1805 as 『伊予名草』, then reworked in the late Edo period by the storyteller 田辺南龍 into a ghost story with tanuki and yokai elements that spread as kōdan.",
+          "statement_id": "Menurut artikel bahasa Jepang, 『松山騒動八百八狸物語』 bermula dari perselisihan keluarga penguasa pada masa kelaparan besar Kyōhō yang ditulis pada tahun 1805 sebagai 『伊予名草』, lalu pada akhir zaman Edo diolah oleh pendongeng 田辺南龍 menjadi kisah hantu bernuansa tanuki dan yokai yang menyebar sebagai kōdan.",
+          "quote": "『松山騒動八百八狸物語』とは、享保の大飢饉に際して起こったお家騒動が1805年（文化2年）に実録物語『伊予名草』と題して書き下ろされ、さらに江戸末期、講釈師の田辺南龍により狸や妖怪の要素を加えた怪談話に仕立て上げられ、これが講談として広まったものである。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "jiaotu",
-      "file": "batch-053-fix-2.md",
+      "file": "batch-053-fix-4.md",
+      "entry_sha256": "9e07e5d7f44143ea337e7cd766410aa423ce390243ed23a0f7b7a01a34821d95",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "jiaotu-c01",
           "source_id": "jiaotu-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Jiaotu is one of the nine sons of the dragon.",
-          "statement_id": "Jiaotu adalah salah satu dari sembilan putra naga.",
+          "statement": "Jiaotu is one of the nine sons of the dragon (竜生九子).",
+          "statement_id": "Jiaotu adalah salah satu dari sembilan putra naga (竜生九子).",
           "quote": "椒図（椒圖、しょうず）は、竜生九子の一つ。姿は蛙にも、タニシやサザエのような巻貝やカラス貝にも似ている。",
           "context": "traditional-belief",
           "status": "exact"
@@ -978,8 +1795,8 @@
           "id": "jiaotu-c02",
           "source_id": "jiaotu-s1",
           "host": "ja.wikipedia.org",
-          "statement": "Its forms are compared with frogs and shellfish.",
-          "statement_id": "Wujudnya disamakan dengan katak dan hewan bercangkang.",
+          "statement": "The Japanese-language source compares its forms with frogs and shelled creatures.",
+          "statement_id": "Sumber berbahasa Jepang membandingkan wujudnya dengan katak dan hewan bercangkang.",
           "quote": "椒図（椒圖、しょうず）は、竜生九子の一つ。姿は蛙にも、タニシやサザエのような巻貝やカラス貝にも似ている。",
           "context": "traditional-belief",
           "status": "exact"
@@ -1003,6 +1820,56 @@
           "quote": "閉じることを好み、他所者が巣穴に入ることを嫌う。故に、門扉の握り輪を咥えているという。",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "jiaotu-c05",
+          "source_id": "jiaotu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the 椒圖 entry of the 升菴集, the nine sons of the dragon do not become dragons and each has its own liking; 椒圖 is shaped like a snail (螺螄), likes to close things, and so is set above doors.",
+          "statement_id": "Dalam entri 椒圖 di 升菴集, sembilan putra naga disebut tidak menjadi naga dan masing-masing punya kegemaran sendiri; 椒圖 berbentuk seperti siput 螺螄, gemar menutup, sehingga ditempatkan di atas pintu.",
+          "quote": "柴門 晉書儒林傳賛清貞守道抗志柴門詩人多用柴門字原出於此〈漢書漢中之俗蓬户柴門食必兼肉〉 椒圖 龍生九子不成龍各有所好屭贔鴟吻之類也椒圖其形似螺螄性好閉故立於門上",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jiaotu-c06",
+          "source_id": "jiaotu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The entry's author says the name 椒圖 has a source (citing 菽園雜記), then cites 尸子 on imitating shellfish in closing doors and 後漢書禮儀志 on putting shells on doors, so that the snail form of 椒圖 is deemed credible.",
+          "statement_id": "Penulis entri itu mengatakan nama 椒圖 ada asalnya (merujuk 菽園雜記), lalu mengutip 尸子 tentang meniru kerang untuk menutup pintu dan 後漢書禮儀志 tentang memasang kerang pada pintu, sehingga bentuk siput 椒圖 dianggap dapat dipercaya.",
+          "quote": "柴門 晉書儒林傳賛清貞守道抗志柴門詩人多用柴門字原出於此〈漢書漢中之俗蓬户柴門食必兼肉〉 椒圖 龍生九子不成龍各有所好屭贔鴟吻之類也椒圖其形似螺螄性好閉故立於門上詞曲門迎駟馬車户列八椒圖人皆不能曉今觀椒圖之名亦有出也見菽園雜記又按尸子云法螺蚌而閉户後漢書禮儀志殷以水德王故以螺著門户則椒圖之似螺形信矣",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "jiaotu-c07",
+          "source_id": "jiaotu-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The nine sons of the dragon is a traditional name for a set of mythological creatures whose imagery is used in certain types of decoration.",
+          "statement_id": "Sembilan putra naga adalah nama tradisional untuk sekumpulan makhluk mitos yang citranya dipakai pada jenis dekorasi tertentu.",
+          "quote": "The nine sons of the dragon is a traditional name for a set of mythological creatures whose imagery is used in certain types of decorations.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "jiaotu-c08",
+          "source_id": "jiaotu-s3",
+          "host": "en.wikipedia.org",
+          "statement": "The oldest known attestation of the list of the dragon's children is in Lu Rong's 菽園雜記 (1436–1494), but he noted that the list merely enumerates synonyms of various antiques, not children of a dragon.",
+          "statement_id": "Catatan tertua yang diketahui tentang daftar anak naga ada dalam 菽園雜記 karya Lu Rong (1436–1494), tetapi ia mencatat bahwa daftar itu hanya memuat sinonim benda-benda kuno, bukan anak naga.",
+          "quote": "The oldest known attestation of the children of the dragon list is found in the Miscellaneous records from the bean garden (菽園雜記) by Lu Rong (1436–1494); however, he noted that the list enumerates mere synonyms of various antiques, not children of a dragon.",
+          "context": "scholarly-interpretation",
+          "status": "loose"
+        },
+        {
+          "id": "jiaotu-c09",
+          "source_id": "jiaotu-s3",
+          "host": "en.wikipedia.org",
+          "statement": "Yang Shen's (楊慎, 1488–1559) list includes nine creatures and is the most widely found version.",
+          "statement_id": "Daftar Yang Shen (楊慎, 1488–1559) memuat sembilan makhluk dan merupakan versi yang paling banyak ditemukan.",
+          "quote": "Yang Shen's (楊慎, 1488–1559) list, which also includes 9 creatures — this version is the most widely found one",
+          "context": "scholarly-interpretation",
+          "status": "loose"
         }
       ],
       "images": []
@@ -1089,31 +1956,27 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "39072e95284bcea3bfe4986059e818ba67323c8dae0cbb743ee2ac69f421b58c"
     },
     {
       "slug": "kuebiko",
-      "file": "batch-053.md",
+      "file": "batch-053-fix-5.md",
+      "entry_sha256": "4687ec69d7cc199cfb5cb02ee6915909fdafbe7a9b0a8e33c4e5e5eeb8ff52bc",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kuebiko-c01",
           "source_id": "kuebiko-s1",
           "host": "en.wikipedia.org",
-          "statement": "Kuebiko is a Shinto kami associated with knowledge and agriculture.",
-          "statement_id": "Kuebiko adalah kami Shinto yang berkaitan dengan pengetahuan dan pertanian.",
+          "statement": "Kuebiko is the Shinto kami of folk wisdom, knowledge and agriculture, represented in Japanese mythology as a scarecrow.",
+          "statement_id": "Kuebiko adalah kami Shinto kebijaksanaan rakyat, pengetahuan, dan pertanian, yang dalam mitologi Jepang digambarkan sebagai orang-orangan sawah.",
           "quote": "Kuebiko (久延毘古) is the Shinto kami (\"god; deity\") of folk wisdom, knowledge and agriculture, and is represented in Japanese mythology as a scarecrow who cannot walk but has comprehensive awareness.",
           "context": "religious-tradition",
           "status": "loose"
@@ -1167,38 +2030,68 @@
           "quote": "The meaning could be translated as something like \"shabby young man\".",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "kuebiko-c07",
+          "source_id": "kuebiko-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Kuebiko is a kami incapable of walking but possessing broad knowledge of things in the world.",
+          "statement_id": "Kuebiko adalah kami yang tidak dapat berjalan tetapi berpengetahuan luas tentang segala hal di dunia.",
+          "quote": "A kami incapable of walking but possessing broad knowledge of things in the world.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kuebiko-c08",
+          "source_id": "kuebiko-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "According to the Kojiki, a kami arrived from across the ocean at Cape Miho in Izumo, where Ōkuninushi was residing; since no one knew who he was, Ōkuninushi took a toad's advice and asked Kuebiko, who correctly answered that the kami was Sukunahikona, offspring of Kamimusuhi.",
+          "statement_id": "Menurut Kojiki, seorang kami tiba dari seberang laut di Tanjung Miho, Izumo, tempat Ōkuninushi tinggal; karena tak seorang pun mengenalnya, Ōkuninushi menuruti saran seekor katak dan bertanya kepada Kuebiko, yang menjawab dengan benar bahwa kami itu Sukunahikona, anak Kamimusuhi.",
+          "quote": "According to Kojiki, a kami arrived from across the ocean at Cape Miho in Izumo, where the kami Ōkuninushi was residing. Since no one knew the identity of the kami, Ōkuninushi accepted the advice of a toad and asked Kuebiko, whereupon the latter answered correctly that the kami arriving was Sukunahikona, offspring of Kamimusuhi.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kuebiko-c09",
+          "source_id": "kuebiko-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "With Sukunahikona's identity established by Kuebiko, Ōkuninushi had a partner to help in making and developing the land.",
+          "statement_id": "Setelah Kuebiko memastikan identitas Sukunahikona, Ōkuninushi memperoleh mitra untuk membantu membuat dan mengembangkan negeri.",
+          "quote": "With the identity of Sukunahikona thus established by Kuebiko, Ōkuninushi had a partner to help in making and developing the land.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kuebiko-c10",
+          "source_id": "kuebiko-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The name Yamada no Sohodo is interpreted as \"someone left soaking wet from standing guard over mountain rice fields\", a euphemism for a \"scarecrow\"; kue means \"disable\" and indicates someone physically handicapped but endowed with wisdom.",
+          "statement_id": "Nama Yamada no Sohodo ditafsirkan sebagai \"orang yang basah kuyup karena berjaga di sawah gunung\", ungkapan halus untuk \"orang-orangan sawah\"; kue berarti \"cacat\" dan menunjuk orang yang cacat fisik tetapi berkebijaksanaan.",
+          "quote": "The name Yamada no Sohodo is interpreted to mean \"someone left soaking wet from standing guard over mountain rice fields,\" a euphemistic reference to a \"scarecrow.\" Kue means \"disable,\" and indicates someone physically handicapped but endowed with wisdom.",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "kukunochi",
-      "file": "batch-053-fix-3.md",
+      "file": "batch-053-fix-5.md",
+      "entry_sha256": "ad1132c8f68e6b3d609d7e592a217b9d7bafc689e10b55735ee9e876522992b4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "claims (kukunochi-c05)",
-          "message": "Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain)."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kukunochi-c01",
           "source_id": "kukunochi-s1",
           "host": "en.wikipedia.org",
-          "statement": "Kukunochi is a kami associated with trees.",
-          "statement_id": "Kukunochi adalah kami yang dikaitkan dengan pepohonan.",
+          "statement": "Kukunochi is the kami of trees in Japanese mythology, also called Ki-no-kami or Kuku-no-shi.",
+          "statement_id": "Kukunochi adalah kami pepohonan dalam mitologi Jepang, juga disebut Ki-no-kami atau Kuku-no-shi.",
           "quote": "Kukunochi (久久能智神 – Tree Trunk Elder) is the kami of trees, the kami is also called Ki-no-kami, or Kuku-no-shi.",
           "context": "religious-tradition",
           "status": "exact"
@@ -1237,10 +2130,80 @@
           "id": "kukunochi-c05",
           "source_id": "kukunochi-s2",
           "host": "kojiki.kokugakuin.ac.jp",
-          "statement": "The creation narrative names Kukunochi among the deities born to the divine pair.",
-          "statement_id": "Kisah penciptaan menyebut Kukunochi di antara dewa yang dilahirkan pasangan ilahi.",
+          "statement": "The divine pair gave birth to the deity of the trees named Kukunochi no kami.",
+          "statement_id": "Izanagi dan Izanami melahirkan dewa pepohonan bernama Kukunochi no kami.",
           "quote": "Then they gave birth to the deity of the trees, whose name is Kukunochi no kami 久々能智神 (17).",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kukunochi-c06",
+          "source_id": "kukunochi-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Kukunochi is the kami of trees, called \"spirit of trees\" (kodama) in the Engishiki.",
+          "statement_id": "Kukunochi adalah kami pepohonan, disebut \"roh pohon\" (kodama) dalam Engishiki.",
+          "quote": "The kami of trees, called \"spirit of trees\" (kodama) in Engishiki.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kukunochi-c07",
+          "source_id": "kukunochi-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "According to the Kojiki, Kukunochi was born after Izanagi and Izanami finished giving birth to the land; the Nihongi likewise says he was born after they had given birth to the various other kami of sea, rivers, and mountains.",
+          "statement_id": "Menurut Kojiki, Kukunochi lahir setelah Izanagi dan Izanami selesai melahirkan negeri; Nihongi juga menyatakan ia lahir setelah keduanya melahirkan berbagai kami lain, yaitu kami laut, sungai, dan gunung.",
+          "quote": "According to Kojiki, Kukunochi was born after Izanagi and Izanami finished giving birth to the land (see kuniumi). Nihongi likewise states that Kukunochi was born after Izanagi and Izanami had given birth to the various other kami (kamiumi) of sea, rivers, and mountains.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kukunochi-c08",
+          "source_id": "kukunochi-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "In his Kojikiden, Motoori Norinaga interpreted kuku as \"stalk\" and chi as a male honorific.",
+          "statement_id": "Dalam Kojikiden, Motoori Norinaga menafsirkan kuku sebagai \"batang\" dan chi sebagai sebutan kehormatan laki-laki.",
+          "quote": "In his Kojikiden, Motoori Norinaga interpreted kuku to mean \"stalk,\" and chi as a male honorific.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kukunochi-c09",
+          "source_id": "kukunochi-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Together with Toyoukehime this kami is called one of the yafunegami (\"kami of houses\") and is still worshiped today at roof-raising ceremonies and blessings of new houses.",
+          "statement_id": "Bersama Toyoukehime, kami ini disebut salah satu yafunegami (\"kami rumah\") dan hingga kini dipuja pada upacara pemasangan atap dan pemberkatan rumah baru.",
+          "quote": "Together with Toyoukehime, this kami is referred to as one of the yafunegami (\"kami of houses\"), and continues to be worshiped today on the occasion of roof raising ceremonies and the blessing of new houses.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "kukunochi-c10",
+          "source_id": "kukunochi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is possible that Kukunochi was originally a tama (spirit) dwelling in trees.",
+          "statement_id": "Mungkin Kukunochi pada mulanya adalah tama (roh) yang bersemayam di pohon.",
+          "quote": "It is possible Kukunochi was originally a tama that dwelled in trees.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kukunochi-c11",
+          "source_id": "kukunochi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Many versions state he was born from Izanami and Izanagi, while others state he is the son of Shinatsuhiko.",
+          "statement_id": "Banyak versi menyatakan ia lahir dari Izanami dan Izanagi, sedangkan versi lain menyatakan ia putra Shinatsuhiko.",
+          "quote": "Many versions state he was born from Izanami and Izanagi, while others state he is the son of Shinatsuhiko.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kukunochi-c12",
+          "source_id": "kukunochi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He is the brother of Ōyamatsumi, Shimatsuhiko, and Watatsumi.",
+          "statement_id": "Ia adalah saudara Ōyamatsumi, Shimatsuhiko, dan Watatsumi.",
+          "quote": "He is the brother of Ōyamatsumi, Shimatsuhiko, and Watatsumi.",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -1328,24 +2291,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "fe52dab3f31f537d38875725495f2df5c6c3a103dd4d31523ce6f85c1b5d586e"
     },
     {
       "slug": "menreiki",
-      "file": "batch-053.md",
+      "file": "batch-053-fix-5.md",
+      "entry_sha256": "7e91919a8cafca5bd4a72f26bb5d3bd3ce8f113abd82081370c318d2239c1880",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "menreiki-c01",
@@ -1386,26 +2345,71 @@
           "quote": "It is mentioned in folklore that during the time of Prince Shotoku, the prince created various Gigaku masks which were used by Hata no Kawakatsu, and that the Menreiki is based on those masks.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "menreiki-c05",
+          "source_id": "menreiki-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Menreiki (めんれいき) is a mask yokai recorded in the yokai picture collection 『百器徒然袋』 by Toriyama Sekien (鳥山石燕).",
+          "statement_id": "Menreiki (めんれいき) adalah yokai berwujud topeng yang tercatat dalam kumpulan lukisan yokai 『百器徒然袋』 karya Toriyama Sekien (鳥山石燕).",
+          "quote": "面霊気（めんれいき）は、鳥山石燕による妖怪画集『百器徒然袋』にある日本の妖怪の一つで、面の妖怪。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "menreiki-c06",
+          "source_id": "menreiki-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Sekien's explanatory text says that in the time of 聖徳太子, 秦の川勝 made many masks, and the lifelike masks may be 川勝's work.",
+          "statement_id": "Teks penjelasan 石燕 menyebut bahwa pada masa 聖徳太子, 秦の川勝 membuat banyak topeng, dan topeng yang tampak seolah hidup itu mungkin hasil karya 川勝.",
+          "quote": "石燕による解説文には「聖徳太子の時、秦の川勝あまたの仮面を製せしよし。かく生けるがごとくなるは、川勝のたくめる仮面にやあらんと、夢心におもひぬ。」とある。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "menreiki-c07",
+          "source_id": "menreiki-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "泰河勝 (はたのかわかつ) was a figure of the Asuka period said by legend to be founder of 申楽, the performing art that became the root of Noh and Kyōgen; 石燕 says the masks made by 秦河勝 may be the 面霊気.",
+          "statement_id": "泰河勝 (はたのかわかつ) adalah tokoh zaman Asuka yang menurut legenda adalah pendiri 申楽, seni pertunjukan cikal bakal Noh dan Kyōgen; 石燕 menyatakan topeng karya 秦河勝 itulah mungkin 面霊気.",
+          "quote": "泰河勝（はたのかわかつ）は飛鳥時代の人物で、能・狂言の原型となった芸能・「申楽」の始祖であるという伝説を持つ。そのような、面を使う芸能とゆかりのある秦河勝の作った面がこの「面霊気」であろうかと石燕は述べている。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "menreiki-c08",
+          "source_id": "menreiki-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "There is a legend that 聖徳太子 had 秦河勝 make 66 masks for 66 pieces of 神楽 honoring the gods, which became the origin of 申楽 (猿楽); 石燕 is thought to have written the explanation of 面霊気, his invented mask yokai of Noh and Kyōgen, from this legend.",
+          "statement_id": "Ada legenda bahwa 聖徳太子 menyuruh 秦河勝 membuat 66 topeng untuk 66 nomor 神楽 yang memuliakan para dewa, dan itu menjadi asal 申楽 (猿楽); 石燕 dianggap menulis penjelasan 面霊気, yokai topeng Noh dan Kyōgen ciptaannya, berdasarkan legenda ini.",
+          "quote": "神々をまつる六十六番の神楽に使うため、聖徳太子が秦河勝に六十六の面を作らせたことが、後の申楽（猿楽）の元祖となったという伝説があり、この伝説を素材として、石燕は能・狂言の面の妖怪として創作した面霊気の解説文を執筆したと考えられている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "menreiki-c09",
+          "source_id": "menreiki-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Explanations from the Shōwa and Heisei periods describe it as an aged mask transformed, moving at night, a tsukumogami (付喪神, a yokai from a changed object) from a fine mask grown old and inhabited by a soul, asking its owner to treat it with care.",
+          "statement_id": "Penjelasan sejak era Shōwa dan Heisei menyebutnya topeng tua yang menjelma, bergerak pada malam hari, tsukumogami (付喪神, yokai dari benda yang berubah) dari topeng berkualitas tinggi yang telah tua dan dihuni jiwa, dan meminta pemiliknya merawatnya dengan baik.",
+          "quote": "古くなった面の化けたもので夜になると動き出す、優れた作品の面が古くなって魂を宿した付喪神（器物が変化した妖怪）であり、持ち主に対して大切に扱ってくれるよう頼むなどの解説がある。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "mizuchi",
-      "file": "batch-053.md",
+      "file": "batch-053-fix-5.md",
+      "entry_sha256": "5326a719e4ce8ef0e3aa56bbaef43bdd90bb8f02ce2d04870b2870c2d53ba498",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mizuchi-c01",
@@ -1446,33 +2450,118 @@
           "quote": "In olden times pronounced mi-tsu-chi, the word can be broken down to mi \"water\" + tsu a particle meaning \"of\" + chi \"spirit\".",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "mizuchi-c05",
+          "source_id": "mizuchi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The ancient chronicle Nihongi contains references to mizuchi: in central Kibi Province, at a fork of the Kawashima River (川嶋河, old name of the Takahashi River in Okayama Prefecture), a great water serpent or dragon (大虬) dwelt and spewed venom that poisoned and killed many passersby.",
+          "statement_id": "Kronik kuno Nihongi memuat rujukan tentang mizuchi: di Provinsi Kibi bagian tengah, di percabangan Sungai Kawashima (川嶋河, nama lama Sungai Takahashi di Prefektur Okayama), seekor ular atau naga air besar (大虬) bermukim dan menyemburkan racun yang membunuh banyak orang yang lewat.",
+          "quote": "The ancient chronicle Nihongi contains references to mizuchi. ... in central Kibi Province, at a fork on Kawashima River (川嶋河, old name of Takahashi River in Okayama Prefecture), a great water serpent or dragon (大虬) dwelt and would breathe or spew out its venom, poisoning and killing many passersby.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mizuchi-c06",
+          "source_id": "mizuchi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The man approached the river pool, cast three floating calabashes and challenged the beast to sink them, threatening to kill it if it failed; the beast turned into a deer, failed to sink them, and was slain.",
+          "statement_id": "Sang pria mendekati kolam sungai, melempar tiga labu yang mengapung, dan menantang makhluk itu menenggelamkannya dengan ancaman akan membunuhnya jika gagal; makhluk itu berubah menjadi rusa dan gagal menenggelamkannya, lalu dibunuh.",
+          "quote": "He approached the pool of the river, cast three calabashes which floated to the surface of the water and challenged the beast to make these gourds sink, threatening to slay it should it fail. The beast transformed into a deer and tried unsuccessfully to sink them, whereby the man slew the monster.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mizuchi-c07",
+          "source_id": "mizuchi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Kunio Yanagita emphasized that although a character like 虬 may suggest a snake-like being, the mizuchi signifies a \"water spirit\".",
+          "statement_id": "Kunio Yanagita menekankan bahwa meski aksara seperti 虬 mungkin mengesankan makhluk mirip ular, mizuchi menandakan \"roh air\".",
+          "quote": "Kunio Yanagita also emphasized that while the use of character like 虬 may suggest a snake-like being, it should be stressed that the mizuchi signifies a \"water spirit\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mizuchi-c08",
+          "source_id": "mizuchi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Minakata also conjectured that in some regions the mizuchi eventually came to be regarded as creatures of the kappa kind.",
+          "statement_id": "Minakata juga menduga bahwa di sebagian daerah mizuchi akhirnya dianggap makhluk sejenis kappa.",
+          "quote": "Minakata also conjectured that in some parts of the country, mizuchi eventually came to be regarded as creatures of the kappa kind.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mizuchi-c09",
+          "source_id": "mizuchi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "This mizuchi was exterminated by a man named Agatamori (県守), ancestor of the Kasa-no-omi (笠臣) clan.",
+          "statement_id": "Mizuchi itu dibunuh oleh seorang pria bernama Agatamori (県守), leluhur klan Kasa-no-omi (笠臣).",
+          "quote": "This mizuchi was exterminated by a man named Agatamori (県守), ancestor of the Kasa-no-omi (笠臣) clan.",
+          "context": "historical-record",
+          "status": "loose"
+        },
+        {
+          "id": "mizuchi-c10",
+          "source_id": "mizuchi-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "According to the Japanese article, 蛟 (みずち; old reading 「みつち」) is a kind of dragon, legendary serpent or water deity regarded as connected with water in Japanese myth and legend.",
+          "statement_id": "Menurut artikel bahasa Jepang, 蛟 (みずち; bacaan lama 「みつち」) adalah jenis naga, ular legendaris, atau dewa air yang dianggap berkaitan dengan air dalam mitos dan legenda Jepang.",
+          "quote": "蛟（みずち；古訓は「みつち」）は、日本の神話・伝説で水と関係があるとみなされる竜類か伝説上の蛇類または水神。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mizuchi-c11",
+          "source_id": "mizuchi-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "南方熊楠 wrote that in Japan too the various snakes living by the water and feared by people seem to have been called ミヅチ in the sense of \"master of the water\".",
+          "statement_id": "南方熊楠 menulis bahwa di Jepang pun berbagai ular yang tinggal di tepi air dan ditakuti orang tampaknya disebut ミヅチ dengan arti \"penguasa air\".",
+          "quote": "南方熊楠は、『十二支考・蛇』の冒頭で、「わが邦でも水辺に住んで人に怖れらるる諸蛇を水の主というほどの意〔こころ〕でミヅチと呼んだらしい」としている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mizuchi-c12",
+          "source_id": "mizuchi-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "『和名抄』 has entries for 「虬龍」, 「螭龍」 and 「蛟」; of these 「蛟」 is given the Japanese name 「美豆知」 and noted as corresponding to 「大虬」 in the 日本書紀.",
+          "statement_id": "『和名抄』 memuat entri 「虬龍」, 「螭龍」, dan 「蛟」; di antaranya 「蛟」 diberi nama Jepang 「美豆知」 dan dicatat setara dengan 「大虬」 dalam 日本書紀.",
+          "quote": "『和名抄』は、「虬龍」、「螭龍」、「蛟」のいずれの項もあるが、このうち「蛟（こう）」を和名の「美豆知」とし、日本書紀の「大虬（みづち）」に相当すると注釈されている。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mizuchi-c13",
+          "source_id": "mizuchi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the anime film Spirited Away, the character Haku looks like a Mizuchi and is a river spirit.",
+          "statement_id": "Dalam anime Spirited Away, tokoh Haku tampak seperti Mizuchi dan merupakan roh sungai.",
+          "quote": "Spirited Away (anime, movie) – the character Haku looks like a Mizuchi and he is a river spirit.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "mizuhanome",
-      "file": "batch-053-fix-3.md",
+      "file": "batch-053-fix-5.md",
+      "entry_sha256": "39c7a6529ccbbce60c13201dac14d53ff2781667c3fbb5ff0be0a755bc79424c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mizuhanome-c01",
           "source_id": "mizuhanome-s1",
           "host": "en.wikipedia.org",
-          "statement": "Mizuhanome is a water deity in Japanese mythology.",
-          "statement_id": "Mizuhanome adalah dewa air dalam mitologi Jepang.",
+          "statement": "Mizuhanome is a divinity of water in Japanese mythology.",
+          "statement_id": "Mizuhanome adalah dewi air dalam mitologi Jepang.",
           "quote": "Mizuhanome (彌都波能売神 or みつはのめのかみ) is a divinity of water in Japanese mythology.",
           "context": "religious-tradition",
           "status": "exact"
@@ -1516,26 +2605,81 @@
           "quote": "Then, from her urine a deity named Mitsuhanome no kami 弥 都 波 能 売 神 (5) came into existence.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "mizuhanome-c06",
+          "source_id": "mizuhanome-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Mizuhanome (Mitsuhanome) is a kami of water; when Izanami fell ill upon giving birth to the fire kami Kagutsuchi, Mitsuhanome was produced from her urine.",
+          "statement_id": "Mizuhanome (Mitsuhanome) adalah kami air; ketika Izanami melahirkan kami api Kagutsuchi dan jatuh sakit, Mitsuhanome muncul dari air seninya.",
+          "quote": "A kami of water. Upon giving birth to the fire kami Kagutsuchi, Izanami fell ill and the kami Mitsuhanome was produced from her urine.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mizuhanome-c07",
+          "source_id": "mizuhanome-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "According to the Nihongi, Mitsuhanome was produced just before Izanami died.",
+          "statement_id": "Menurut Nihongi, Mitsuhanome muncul tepat sebelum Izanami meninggal.",
+          "quote": "According to Nihongi, Mitsuhanome was produced just before Izanami died",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mizuhanome-c08",
+          "source_id": "mizuhanome-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Jinmu gave the name Itsu no Mitsuhanome (\"sacred-water-female\") to the water offered in the ritual by the officiating priestess Itsuhime.",
+          "statement_id": "Jinmu memberi nama Itsu no Mitsuhanome (\"perempuan air suci\") pada air yang dipersembahkan dalam ritual oleh pendeta perempuan Itsuhime.",
+          "quote": "Jinmu gave the name Itsu no Mitsuhanome (sacred-water-female) to the water offered as part of the ritual by the officiating priestess Itsuhime.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mizuhanome-c09",
+          "source_id": "mizuhanome-s3",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Itsu means \"sacred\" or \"holy\", mitsu (or mizu) means \"water\", and me is the feminine suffix.",
+          "statement_id": "Itsu berarti \"suci\", mitsu (atau mizu) berarti \"air\", dan me adalah akhiran feminin.",
+          "quote": "Itsu means \"sacred\" or \"holy,\" mitsu (or mizu) means \"water,\" and me is the feminine suffix.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mizuhanome-c10",
+          "source_id": "mizuhanome-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Her name is also explained as \"water snake woman\" or \"water dragon woman\".",
+          "statement_id": "Namanya juga dijelaskan sebagai \"perempuan ular air\" atau \"perempuan naga air\".",
+          "quote": "Her name is explained as water snake woman or water dragon woman.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mizuhanome-c11",
+          "source_id": "mizuhanome-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to director Makoto Shinkai, the name of the character Mitsuha Miyamizu in the film Your Name is said to come from the goddess.",
+          "statement_id": "Menurut sutradara Makoto Shinkai, nama tokoh Mitsuha Miyamizu dalam film Your Name konon berasal dari dewi ini.",
+          "quote": "According to director Makoto Shinkai the name for the character Mitsuha Miyamizu from the movie Your Name is said to come from the goddess.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "moryo",
-      "file": "batch-053.md",
+      "file": "batch-053-fix-5.md",
+      "entry_sha256": "fc64dc2d794b760da5398753687071b1e6fa4fc1adf45bf3da64ea398f4a61c7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "moryo-c01",
@@ -1576,6 +2720,76 @@
           "quote": "In its true nature, the mōryō is fearful of tigers and oak, and is given the name 弗述.",
           "context": "traditional-belief",
           "status": "loose"
+        },
+        {
+          "id": "moryo-c05",
+          "source_id": "moryo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They go underground and eat the brains of the dead, but it is said they die when an oak is pressed against their necks.",
+          "statement_id": "Mereka masuk ke bawah tanah dan memakan otak orang mati, tetapi dikatakan mereka mati bila kayu ek ditekan ke leher mereka.",
+          "quote": "They go underground and eat the brains of the dead, but it is said that when an oak is pressed against their necks, they die.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moryo-c06",
+          "source_id": "moryo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Japan mōryō are sometimes regarded as the same as the kasha, the yōkai that steal corpses, and there are examples of kasha-like stories told under the name mōryō.",
+          "statement_id": "Di Jepang, mōryō kadang dianggap sama dengan kasha, yokai pencuri jasad orang mati, dan ada contoh cerita mirip kasha yang disebut dengan nama mōryō.",
+          "quote": "in Japan mōryō are sometimes seen to be the same as the yōkai that would steal corpses of the dead, the kasha, and there can be seen examples where stories similar to that of the kasha are stated under the name mōryō.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "moryo-c07",
+          "source_id": "moryo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the essay \"Mimibukuro\" by Negishi Shizumori, from the Edo period, an official named Shibata had a loyal retainer who one evening said \"I'm not a human but a mōryō\" and resigned.",
+          "statement_id": "Dalam esai \"Mimibukuro\" karya Negishi Shizumori pada zaman Edo, seorang pejabat bernama Shibata punya pengikut setia yang suatu malam berkata \"aku bukan manusia melainkan mōryō\" lalu mengundurkan diri.",
+          "quote": "In the essay \"Mimibukuro\" by Negishi Shizumori in the Edo period, a government official named Shibata had a loyal retainer, but on one evening, said \"I'm not a human but a mōryō\" and resigned.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "moryo-c08",
+          "source_id": "moryo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The next day the retainer vanished, and at a funeral in the village he named dark clouds suddenly covered the place; when they cleared, the corpse is said to have vanished from the coffin.",
+          "statement_id": "Keesokan harinya pengikut itu lenyap, dan pada pemakaman di desa yang disebutkannya awan hitam tiba-tiba menutupi tempat itu; ketika awan menghilang, jasad dalam peti dikatakan telah lenyap.",
+          "quote": "The next day, the retainer disappeared, and at a funeral in the village that he mentioned, some dark clouds suddenly covered over, and when the clouds disappeared, it is said that the corpse disappeared from the coffin.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "moryo-c09",
+          "source_id": "moryo-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "In Japan it is read 「みずは」, meaning a water deity, and the word is also written with various characters such as 「水波」, 「美豆波」 and 「弥都波」.",
+          "statement_id": "Di Jepang, kata itu dibaca 「みずは」 yang berarti dewa air, dan juga ditulis dengan berbagai aksara seperti 「水波」, 「美豆波」, dan 「弥都波」.",
+          "quote": "日本では水神を意味する「みずは」と訓じ、この語は他に「水波」「美豆波」「弥都波」などさまざまな漢字で表記される。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "moryo-c10",
+          "source_id": "moryo-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "According to the 『淮南子』, 罔象 arises from water, and according to the 『史記』 Confucius held that water prodigies are dragons or 罔象.",
+          "statement_id": "Menurut 『淮南子』, 罔象 muncul dari air, dan menurut 『史記』 Konfusius menyatakan siluman air adalah naga atau 罔象.",
+          "quote": "『淮南子』によると、罔象は水から生じる。また、『史記』によると、孔子は水の怪は龍や罔象であるとした。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "moryo-c11",
+          "source_id": "moryo-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "From this 魍魎 came to be regarded as a general term for water prodigies, a sense that pairs with 魑魅, prodigies of mountains and rivers (together 魑魅魍魎).",
+          "statement_id": "Dari situ 魍魎 pun dianggap sebutan umum siluman air, dan maknanya berpasangan dengan 魑魅, siluman gunung dan sungai (bersama-sama 魑魅魍魎).",
+          "quote": "これらから、魍魎も水の怪の総称とみなされるようになった。この意味は、山川の怪を意味する魑魅と対を成すようになった（あわせて魑魅魍魎）。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
@@ -1652,7 +2866,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "83ed01ed487ac39a025582d270f86a55d9bae50de610fd701d8f6cda7cf91381"
     },
     {
       "slug": "onikuma",
@@ -1732,31 +2947,27 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ec35177d72b626984372826273c88af472050a41f0bab4dc5d402554ae68cde1"
     },
     {
       "slug": "takuhadachijihime",
-      "file": "batch-053.md",
+      "file": "batch-053-fix-5.md",
+      "entry_sha256": "9ebd025fb0572e4c72ff9baced1b015c1171f0bb8e4c7d99872ae779ab33e260",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "takuhadachijihime-c01",
           "source_id": "takuhadachijihime-s1",
           "host": "en.wikipedia.org",
-          "statement": "Takuhadachijihime is a kami associated with textiles.",
-          "statement_id": "Takuhadachijihime adalah kami yang berkaitan dengan tekstil.",
+          "statement": "Takuhadachijihime is a kami in Japanese mythology said to be the goddess of textiles.",
+          "statement_id": "Takuhadachijihime adalah kami dalam mitologi Jepang yang dikatakan sebagai dewi tekstil.",
           "quote": "Takuhadachijihime (栲幡千千姫命) is a deity (kami) in Japanese mythology said to be the goddess of textiles.",
           "context": "religious-tradition",
           "status": "loose"
@@ -1790,26 +3001,91 @@
           "quote": "In the Kojiki, she is also referred to by the name Yorozuhatahime (万幡豊秋津師比売命).",
           "context": "religious-tradition",
           "status": "loose"
+        },
+        {
+          "id": "takuhadachijihime-c05",
+          "source_id": "takuhadachijihime-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "Other names include Ame yorozu Takuhatachihatahime, Takuhatachijihime yorozuhatahime no mikoto and Honotohatahimekochijihime no mikoto (Nihongi).",
+          "statement_id": "Nama-nama lainnya antara lain Ame yorozu Takuhatachihatahime, Takuhatachijihime yorozuhatahime no mikoto, dan Honotohatahimekochijihime no mikoto (Nihongi).",
+          "quote": "Ame yorozu Takuhatachihatahime, Takuhatachijihime yorozuhatahime no mikoto, Honotohatahimekochijihime no mikoto (Nihongi).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "takuhadachijihime-c06",
+          "source_id": "takuhadachijihime-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "She is the daughter of Takamimusuhi and, according to an \"alternate writing\" transmitted by the Nihongi, the younger sister of Omoikane.",
+          "statement_id": "Ia putri Takamimusuhi dan, menurut \"tulisan alternatif\" yang disampaikan Nihongi, adik perempuan Omoikane.",
+          "quote": "The daughter of Takamimusuhi, and according to an \"alternate writing\" transmitted by Nihongi, the younger sister of Omoikane.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "takuhadachijihime-c07",
+          "source_id": "takuhadachijihime-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "She wed Amenooshihomimi no mikoto, who had been ordered to descend to the Central Land of Reed Plains; while waiting for the pacification of the Central Land she gave birth to Ninigi, who later descended in Oshihomimi's place.",
+          "statement_id": "Ia menikah dengan Amenooshihomimi no mikoto, yang diperintahkan turun ke Negeri Tengah Dataran Alang-alang; selagi menunggu penaklukan Negeri Tengah, ia melahirkan Ninigi, yang kemudian turun menggantikan Oshihomimi.",
+          "quote": "She wed Amenooshihomimi no mikoto, who had been ordered to descend to the Central Land of Reed Plains, but while waiting for the pacification of the Central Land, she gave birth to Ninigi, and he later descended in Oshihomimi's place.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "takuhadachijihime-c08",
+          "source_id": "takuhadachijihime-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The Kojiki and an \"alternate writing\" in the Nihongi also relate the birth of Hoakari no mikoto, Ninigi's elder brother and ancestor of the Owari no Muraji clan.",
+          "statement_id": "Kojiki dan satu \"tulisan alternatif\" dalam Nihongi juga menceritakan kelahiran Hoakari no mikoto, kakak Ninigi dan leluhur klan Owari no Muraji.",
+          "quote": "Kojiki and an \"alternate writing\" in Nihongi also relate the birth of Hoakari no mikoto, elder brother of Ninigi and ancestor of the clan Owari no Muraji.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "takuhadachijihime-c09",
+          "source_id": "takuhadachijihime-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "The versions differ on the title of Ninigi's mother but agree in including elements of weaving, cloth and bountiful harvests, and in depicting Toyoakitsushihime as a link between Amaterasu, Takamimusuhi and the imperial line.",
+          "statement_id": "Berbagai versi berbeda soal gelar ibu Ninigi, tetapi sepakat memuat unsur tenun, kain, dan panen melimpah, serta menggambarkan Toyoakitsushihime sebagai penghubung antara Amaterasu, Takamimusuhi, dan garis kekaisaran.",
+          "quote": "The various versions are also inconsistent regarding the title of Ninigi's mother, but they agree in including elements relating to weaving, cloth, and bountiful harvests, and in their depictions of Toyoakitsushihime as a link between the two kami Amaterasu and Takamimusuhi, and the imperial line.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "takuhadachijihime-c10",
+          "source_id": "takuhadachijihime-s2",
+          "host": "d-museum.kokugakuin.ac.jp",
+          "statement": "An alternate version says she was consort to Amenooshihone no mikoto, while another tradition says Tamayorihime, child of Yorozuhatahime, became his consort and bore Amenokihohookise no mikoto (Ninigi).",
+          "statement_id": "Satu versi lain menyatakan ia permaisuri Amenooshihone no mikoto, sedangkan tradisi lain menyatakan Tamayorihime, anak Yorozuhatahime, menjadi permaisuri Amenooshihone no mikoto dan melahirkan Amenokihohookise no mikoto (Ninigi).",
+          "quote": "An alternate version of the episode says she was the consort to Amenooshihone no mikoto, while yet another tradition states that Tamayorihime, child of Yorozuhatahime, became consort to Amenooshihone no mikoto and gave birth to Amenokihohookise no mikoto (Ninigi).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "takuhadachijihime-c11",
+          "source_id": "takuhadachijihime-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She is enshrined at Shiozawa Shrine in Fukushima Prefecture, Tsubaki Grand Shrine in Mie Prefecture, and Izuenashi Shrine in Osaka Prefecture.",
+          "statement_id": "Ia dipuja di Kuil Shiozawa di Prefektur Fukushima, Kuil Besar Tsubaki di Prefektur Mie, dan Kuil Izuenashi di Prefektur Osaka.",
+          "quote": "She is enshrined at Shiozawa Shrine in Fukushima Prefecture, Tsubaki Grand Shrine in Mie Prefecture, and Izuenashi Shrine in Osaka Prefecture.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "tarantasio",
-      "file": "batch-053.md",
+      "file": "batch-053-fix-5.md",
+      "entry_sha256": "83ee064160b44a22c871b7b5df642418c3af2f27702d0c9663b7379b87391d1f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tarantasio-c01",
@@ -1849,6 +3125,106 @@
           "statement_id": "Legenda setempat menghubungkan kematian naga itu dengan mengeringnya danau.",
           "quote": "Sono sorte poi numerose leggende riguardo al drago, tutte accomunate dalla concomitanza tra l'uccisione di Tarànto e il prosciugamento del lago.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tarantasio-c05",
+          "source_id": "tarantasio-s1",
+          "host": "it.wikipedia.org",
+          "statement": "According to popular legends, Lake Gerundo was inhabited by a dragon called Tarànto, more commonly known as Tarantasio, which fed above all on children.",
+          "statement_id": "Menurut legenda rakyat, Danau Gerundo konon dihuni seekor naga bernama Tarànto, yang lebih umum dikenal sebagai Tarantasio dan terutama memakan anak-anak.",
+          "quote": "Secondo le leggende popolari, il lago Gerundo sarebbe stato abitato da un dragone chiamato Tarànto, più comunemente conosciuto come Tarantasio, il quale si sarebbe nutrito soprattutto di bambini.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tarantasio-c06",
+          "source_id": "tarantasio-s1",
+          "host": "it.wikipedia.org",
+          "statement": "A popular tradition tells that the dragon was born from the putrefying flesh of the commander Ezzelino III da Romano, who died in those very lands.",
+          "statement_id": "Sebuah tradisi rakyat menceritakan bahwa naga itu lahir dari daging busuk panglima Ezzelino III da Romano, yang meninggal di wilayah itu.",
+          "quote": "Una tradizione popolare racconta che il drago sarebbe nato dalle carni putrefatte del condottiero Ezzelino III da Romano, morto proprio in quelle terre.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tarantasio-c07",
+          "source_id": "tarantasio-s1",
+          "host": "it.wikipedia.org",
+          "statement": "Some popular sources attribute the draining and reclamation of the lake to Saint Christopher, who is said to have defeated the dragon, or to Frederick Barbarossa.",
+          "statement_id": "Sebagian sumber rakyat mengaitkan pengeringan dan reklamasi danau itu dengan Santo Kristoforus, yang konon mengalahkan naga itu, atau dengan Federico Barbarossa.",
+          "quote": "Alcune fonti popolari attribuiscono il prosciugamento e la bonifica del lago a san Cristoforo, che avrebbe sconfitto il drago, o a Federico Barbarossa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tarantasio-c08",
+          "source_id": "tarantasio-s1",
+          "host": "it.wikipedia.org",
+          "statement": "The most evocative version has the dragon killed by the progenitor of the Visconti, who then adopted the defeated creature, the biscione with a child in its mouth, as an emblem.",
+          "statement_id": "Versi yang paling memikat menyebut naga itu dibunuh oleh leluhur keluarga Visconti, yang kemudian memakai makhluk yang dikalahkan itu, yaitu ular besar dengan anak di mulutnya, sebagai lambang.",
+          "quote": "La più suggestiva riguarda l'uccisione del drago da parte del capostipite dei Visconti, il quale avrebbe poi adottato come simbolo la creatura sconfitta, ovvero il biscione con il bambino in bocca.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tarantasio-c09",
+          "source_id": "tarantasio-s1",
+          "host": "it.wikipedia.org",
+          "statement": "In fact the legend of the dragon is already spoken of in 1100 by the monk Sabbio in his memoirs on the city of Lodi.",
+          "statement_id": "Sebenarnya, legenda naga itu sudah dibicarakan pada tahun 1100 oleh biarawan Sabbio dalam memoarnya tentang kota Lodi.",
+          "quote": "In realtà, della leggenda del drago parla già nel 1100 il monaco Sabbio nelle sue memorie sulla città di Lodi",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tarantasio-c10",
+          "source_id": "tarantasio-s1",
+          "host": "it.wikipedia.org",
+          "statement": "An explicit reference to the legend of the dragon Tarantasio is found in a fresco in the cloister of the church of San Marco in Milan, datable to the 13th-14th century, showing the mythological animal against the lake.",
+          "statement_id": "Rujukan eksplisit pada legenda naga Tarantasio ada dalam sebuah fresko di serambi gereja San Marco di Milan, berasal dari abad ke-13 sampai ke-14, yang menggambarkan hewan mitos itu di latar danau.",
+          "quote": "Un riferimento esplicito alla leggenda del drago Tarantasio si trova in un affresco del chiostro della chiesa milanese di San Marco, databile al XIII-XIV secolo, dove l'animale mitologico viene raffigurato sullo sfondo del lago.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tarantasio-c11",
+          "source_id": "tarantasio-s1",
+          "host": "it.wikipedia.org",
+          "statement": "A hamlet of Cassano d'Adda is named Taranta in reference to the legend.",
+          "statement_id": "Sebuah kelurahan di Cassano d'Adda dinamai Taranta merujuk pada legenda itu.",
+          "quote": "Una frazione di Cassano d'Adda è denominata Taranta in riferimento alla leggenda.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tarantasio-c12",
+          "source_id": "tarantasio-s1",
+          "host": "it.wikipedia.org",
+          "statement": "Some ribs of the dragon are still preserved, among others at the church of San Bassiano in Pizzighettone, Cremona; one of the ribs was studied by the naturalist Enrico Caffi in the 19th century, who identified it as belonging to a mammoth.",
+          "statement_id": "Konon beberapa tulang rusuk naga masih disimpan, antara lain di gereja San Bassiano di Pizzighettone, Cremona; salah satu rusuk itu diteliti naturalis Enrico Caffi pada abad ke-19, yang mengidentifikasinya sebagai milik mamut.",
+          "quote": "Altre costole del drago sono oggi conservate ancora invece presso la chiesa di San Bassiano a Pizzighettone, Cremona (170 cm) ... Quest'ultima costola fu studiata in particolare dal naturalista Enrico Caffi nel XIX secolo che la identificò come appartenente ad un mammuth.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tarantasio-c13",
+          "source_id": "tarantasio-s1",
+          "host": "it.wikipedia.org",
+          "statement": "The killing of a tarantasio dragon (which in the story denotes a species rather than a single individual) is the opening episode of the fantasy novel Donna di spade by Giuseppe Pederiali, published in 1991.",
+          "statement_id": "Pembunuhan seekor naga tarantasio (yang dalam kisahnya menunjuk satu spesies, bukan satu individu) menjadi episode awal novel fantasi Donna di spade karya Giuseppe Pederiali, terbit tahun 1991.",
+          "quote": "L'uccisione di un drago tarantasio (che nell'economia del racconto indica una specie piuttosto che un singolo individuo) rappresenta l'episodio iniziale del romanzo fantasy Donna di spade di Giuseppe Pederiali, pubblicato nel 1991.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "tarantasio-c14",
+          "source_id": "tarantasio-s2",
+          "host": "www.mentelocale.it",
+          "statement": "According to Mentelocale, the Eni logo designed in 1952, a six-legged fire-breathing dog, was inspired by the dragon legend.",
+          "statement_id": "Menurut Mentelocale, logo Eni yang dirancang pada tahun 1952, seekor anjing penyembur api berkaki enam, terinspirasi legenda naga itu.",
+          "quote": "Luigi Broggini si ispir ... alla leggenda del drago per disegnare nel 1952 il celeberrimo logo dell’Eni: un cane sputafuoco a sei zampe.",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
@@ -1926,7 +3302,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0cde5453224541da0a79ee7d72a3c69cba52292ee532b101425eb1d59a2b6825"
     },
     {
       "slug": "waira",
@@ -2000,7 +3377,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "20187e5e2661a93b4c65af646efb9a3adcea9343cb0abbee1a8cdbeb7d79a7bc"
     },
     {
       "slug": "yamajijii",
@@ -2080,24 +3458,20 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "02594a6aa985ace006011957c30ea8edf02882a175f74ce533aac261b256f952"
     },
     {
       "slug": "zennyo-ryuo",
-      "file": "batch-053.md",
+      "file": "batch-053-fix-5.md",
+      "entry_sha256": "647f41261e34c598245c534f22cb2d464a3861539c405c33ef7f8fc4f2004180",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 15,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "zennyo-ryuo-c01",
@@ -2113,8 +3487,8 @@
           "id": "zennyo-ryuo-c02",
           "source_id": "zennyo-ryuo-s1",
           "host": "en.wikipedia.org",
-          "statement": "A Buddhist tradition links the dragon with Kūkai’s rainmaking rite in 824.",
-          "statement_id": "Tradisi Buddha menghubungkan naga ini dengan ritual pemanggilan hujan oleh Kūkai pada 824.",
+          "statement": "According to Japanese Buddhist tradition, Kūkai made the dragon appear in 824 at the Kyoto Imperial Palace in a famous rainmaking contest.",
+          "statement_id": "Menurut tradisi Buddha Jepang, Kūkai memunculkan naga ini pada tahun 824 di Istana Kekaisaran Kyoto dalam lomba doa hujan yang terkenal.",
           "quote": "According to Japanese Buddhist tradition, the priest Kūkai made Zennyo Ryūō appear in 824 AD during a famous rainmaking contest at the Kyoto Imperial Palace.",
           "context": "religious-tradition",
           "status": "exact"
@@ -2123,8 +3497,8 @@
           "id": "zennyo-ryuo-c03",
           "source_id": "zennyo-ryuo-s1",
           "host": "en.wikipedia.org",
-          "statement": "The name includes an expression meaning dragon king.",
-          "statement_id": "Namanya memuat ungkapan yang berarti raja naga.",
+          "statement": "The name contains 龍王, meaning dragon king; 善 means good.",
+          "statement_id": "Namanya memuat 龍王, ungkapan yang berarti raja naga; 善 berarti baik.",
           "quote": "The dragon name Zennyo Ryūō is written in Japanese as 善 zen \"good, goodness; virtuous\", 女 nyo \"woman; female\" or 如 nyo \"like; as if; be like; thus\" (differentiated with the \"mouth radical\" 口), and 龍王 ryūō or 竜王 \"dragon king\".",
           "context": "etymology",
           "status": "exact"
@@ -2138,16 +3512,127 @@
           "quote": "Zennyo is a common theme in Japanese art, usually depicted as a small dragon but sometimes as a human, either male or female, with a dragon's tail.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "zennyo-ryuo-c05",
+          "source_id": "zennyo-ryuo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Zennyo's best-known appearance was at the 824 Buddhist rainmaking competition at the Shinsen'en (神泉苑, \"Divine Spring Garden\") in Kyoto, where the priest Kūkai (Kōbō-Daishi), founder of Shingon Buddhism, and his rival Shubin (守敏) held a rain-sutra recitation contest.",
+          "statement_id": "Kemunculan Zennyo yang paling terkenal terjadi pada lomba doa hujan Buddhis tahun 824 di Shinsen'en (神泉苑, \"Taman Mata Air Ilahi\") di Kyoto, ketika pendeta Kūkai (Kōbō-Daishi), pendiri Buddhisme Shingon, dan saingannya Shubin (守敏) mengadakan lomba pembacaan sutra hujan.",
+          "quote": "The best-known appearance of Zennyo was during an 824 CE Buddhist rainmaking competition at the Shinsen'en or Shinzen'en 神泉苑 \"Divine Spring Garden\" in Kyoto. The scholar priest Kūkai or Kōbō-Daishi (774–835 CE), founder of Shingon \"True Word\" Buddhism, and his rival priest Shubin 守敏 held a rain-sutra recitation contest.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "zennyo-ryuo-c06",
+          "source_id": "zennyo-ryuo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Zennyo is worshipped at the Shinto shrine Zennyo Ryūō-sha (善女竜王社) on an island in the Shinsen'en, reached by crossing the Hōsei-bashi (法成橋) bridge.",
+          "statement_id": "Zennyo dipuja di kuil Shinto Zennyo Ryūō-sha (善女竜王社) pada sebuah pulau di Shinsen'en, yang dicapai dengan menyeberangi Jembatan Hōsei-bashi (法成橋).",
+          "quote": "Zennyo is worshipped at the Zennyo Ryūō-sha 善女竜王社 Shinto shrine on an island in the Shinsen'en, reached by crossing the Hōsei-bashi 法成橋 \"Dharma Completion Bridge\".",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "zennyo-ryuo-c07",
+          "source_id": "zennyo-ryuo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The 835 御遺告 (Goyuigō), which records Kūkai's last words, first describes Zennyo as a golden snake eight sun (about 24 cm) long riding on the head of a dragon nine shaku (about 2.7 m) long.",
+          "statement_id": "御遺告 tahun 835, yang mencatat kata-kata terakhir Kūkai, pertama kali menggambarkan Zennyo sebagai ular emas sepanjang delapan sun (sekitar 24 cm) yang menunggangi kepala naga sepanjang sembilan shaku (sekitar 2,7 m).",
+          "quote": "The 835 CE Goyuigō 御遺告, which records Kūkai's last words, first describes Zennyo (Fowler 1997:154) as, \"a golden snake measuring eight sun 寸 (approx. 24 cm) riding on the head of a dragon measuring nine shaku 尺 (approx. 2.7 m).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "zennyo-ryuo-c08",
+          "source_id": "zennyo-ryuo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some versions of this Kūkai story have Zennyo coming from Mount Murō and others from Lake Anavatapta, at the center of the world in Buddhist cosmology.",
+          "statement_id": "Sebagian versi kisah Kūkai ini menyebut Zennyo datang dari Gunung Murō, sedangkan yang lain dari Danau Anavatapta yang berada di pusat dunia dalam kosmologi Buddhis.",
+          "quote": "Some versions of this Kūkai story record Zennyo coming from Mount Murō and others from Lake Anavatapta, which is at the center of the world in Buddhist cosmology.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zennyo-ryuo-c09",
+          "source_id": "zennyo-ryuo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Zennyo or Zentatsu (善達) supposedly lived in the Ryūketsu (龍穴, \"dragon cave\") on Mount Murō (室生山) in Nara Prefecture, an ancient site of dragon worship and rainmaking ceremonies in Japan.",
+          "statement_id": "Zennyo atau Zentatsu (善達) konon tinggal di Ryūketsu (龍穴, \"gua naga\") di Gunung Murō (室生山) di Prefektur Nara, tempat kuno pemujaan naga dan upacara pemanggil hujan di Jepang.",
+          "quote": "Zennyo or Zentatsu 善達 supposedly lived in the Ryūketsu 龍穴 \"Dragon Hole/Cave\" on Murōyama 室生山 \"Mount Murō\" in Nara Prefecture, which was an ancient locale of Japanese dragon worship and rainmaking ceremonies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zennyo-ryuo-c10",
+          "source_id": "zennyo-ryuo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Kokan Shiren's Genkō Shakusho (c. 1322) has a story of the priest Keien (慶圓, 1143-1223) meeting a beautiful woman who was in fact a shapeshifting Zennyo.",
+          "statement_id": "Genkō Shakusho karya Kokan Shiren (sekitar 1322) memuat kisah pendeta Keien (慶圓, 1143-1223) yang bertemu seorang perempuan cantik yang sebenarnya Zennyo yang mengubah wujud.",
+          "quote": "Kokan Shiren's c. 1322 CE Genkō Shakusho \"the Genkō era History of Buddhism\" has a story about the priest Keien 慶圓 (1143–1223 CE) encountering a beautiful woman who was actually a shapeshifting Zennyo.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "zennyo-ryuo-c11",
+          "source_id": "zennyo-ryuo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In that story the woman answers \"I am the Dragon Zennyo\", and the little finger she stretches out proves to be a claw more than ten shaku long that spreads a five-coloured light.",
+          "statement_id": "Dalam kisah itu perempuan tersebut menjawab \"Aku adalah Naga Zennyo\", dan jari kelingkingnya yang terulur ternyata sebuah cakar lebih dari sepuluh shaku panjangnya yang memancarkan cahaya lima warna.",
+          "quote": "she answered: \"I am the Dragon Zennyo\". ... It proved to be a claw, more than ten shaku long, which spread a five-coloured light.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zennyo-ryuo-c12",
+          "source_id": "zennyo-ryuo-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Zennyo Ryūō (善女龍王) is one of the dragon kings who are objects of rain-praying, and is also written 「善如龍王」.",
+          "statement_id": "Zennyo Ryūō (善女龍王) adalah salah satu raja naga yang menjadi sasaran doa meminta hujan, dan juga ditulis 「善如龍王」.",
+          "quote": "善女龍王（ぜんにょりゅうおう）は雨乞いの対象である竜王のうちの一尊。「善如龍王」とも表記される。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "zennyo-ryuo-c13",
+          "source_id": "zennyo-ryuo-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "On investigation, the dragon gods of the whole land had been shut in a pitcher by 守敏, who envied 空海's fame; only Zennyo Ryūō had escaped 守敏's hand, so he was summoned from the pond 無熱池 in India and is said to have sent heavy rain over the whole country.",
+          "statement_id": "Setelah diselidiki, dewa naga seluruh negeri ternyata dikurung dalam guci oleh 守敏 yang iri pada nama baik 空海; hanya Zennyo Ryūō yang lolos dari tangan 守敏, sehingga ia dipanggil dari kolam 無熱池 di India dan konon menurunkan hujan lebat ke seluruh negeri.",
+          "quote": "調べると空海の名声を妬む守敏により国中の龍神が瓶に閉じ込められていた。しかしただ1体、善女龍王だけは守敏の手から逃れていたので天竺の無熱池（むねっち）から呼び寄せて国中に大雨を降らせたという。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zennyo-ryuo-c14",
+          "source_id": "zennyo-ryuo-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "The Zennyo Ryūō who came at 弘法 (空海)'s rain-praying is said to belong to the family of 阿那婆達多龍王, one of the Eight Dragon Kings, and to have been brought from the pond 阿耨達池 by 阿那婆達多.",
+          "statement_id": "Zennyo Ryūō yang datang pada doa hujan 弘法 (空海) disebut keluarga 阿那婆達多龍王, salah satu dari Delapan Raja Naga, dan dikatakan dibawa dari kolam 阿耨達池 oleh 阿那婆達多.",
+          "quote": "この弘法（空海）の雨乞いの際にやってきた善女龍王は、八大竜王のひとり阿那婆達多龍王の一族で、阿耨達池（あのくだっち）より阿那婆達多によって連れてこられたとされる。",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "zennyo-ryuo-c15",
+          "source_id": "zennyo-ryuo-s2",
+          "host": "ja.wikipedia.org",
+          "statement": "Although it says 「善女」, its image is sometimes shown as a male deity, so it is not necessarily a goddess.",
+          "statement_id": "Meski disebut 「善女」, rupanya kadang digambarkan sebagai dewa laki-laki, jadi belum tentu seorang dewi.",
+          "quote": "「善女」とあるが、像容は男神像で表現されることもあり女神であるとは限らない。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "ainu-kaisei",
-      "file": "batch-053.md",
+      "file": "batch-053-fix-5.md",
+      "entry_sha256": "a2e236be6a066bc2aae1ce7eff59ec3273e3fdb0007d6704cfde7b3ebe673254",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
+        "claims": 6,
         "sources": 1,
         "images": 0
       },
@@ -2155,7 +3640,7 @@
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -2197,6 +3682,26 @@
           "statement_id": "Ia konon menekan dada atau leher orang yang tidur.",
           "quote": "ぼろぼろのアットシ（シナノキやオヒョウニレの樹皮の繊維で織った、アイヌの民族衣装）を身に纏い、空家や古い家などに現れる。人が眠っていると、胸や首を押し付けて苦しめるという。",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ainu-kaisei-c05",
+          "source_id": "ainu-kaisei-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The folktale researcher 佐々木喜善 states in his book that there may be a connection with 座敷童子 (zashiki-warashi).",
+          "statement_id": "Peneliti cerita rakyat 佐々木喜善 dalam bukunya menyatakan bahwa mungkin ada kaitan dengan 座敷童子 (zashiki-warashi).",
+          "quote": "民話研究家・佐々木喜善は著書において、座敷童子との関連性があるのではないかと述べている。",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "ainu-kaisei-c06",
+          "source_id": "ainu-kaisei-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "The name element 「カイセイ」 means 「死骸」 (corpse) in the Ainu language.",
+          "statement_id": "Bagian nama 「カイセイ」 berarti 「死骸」 (jasad) dalam bahasa Ainu.",
+          "quote": "民話研究家・佐々木喜善は著書において、座敷童子との関連性があるのではないかと述べている。 なお、名称の「カイセイ」はアイヌ語で「死骸」を意味する。",
+          "context": "etymology",
           "status": "exact"
         }
       ],
@@ -2275,7 +3780,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "944e224538f818f0004d505c8ec04290933037bb9d8fc4f1780d5a6bc3366879"
     },
     {
       "slug": "amemasu",
@@ -2349,7 +3855,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b1f55b3fd4f22c2242a9ffe7dfc0d93050b196b57a71a5bb7e70fe0e2ca84fdf"
     },
     {
       "slug": "chochinbi",
@@ -2423,7 +3930,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "914405965810d701207a424ce917ccd0ab3e65153909c3ea2082a41fc9753814"
     },
     {
       "slug": "fengli",
@@ -2503,7 +4011,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d8b51a4dd5bd1133c1bfc57f2a1ce6599584a19f4bdd4cc13d93200ef29d4821"
     },
     {
       "slug": "furu-utsubo",
@@ -2583,7 +4092,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4d774fdda66ca4101f047f4fc199b9f03114721075b20408059b23c0f5c4c57b"
     },
     {
       "slug": "futodama",
@@ -2653,7 +4163,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "72d5642fd4d3078e799dd0f5295c5034777da73a59297332706933ab82c202b8"
     },
     {
       "slug": "haniyasuhiko-and-haniyasuhime",
@@ -2723,7 +4234,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "49c1a2c6a0b530ee412b76e0f4a17a41f4017979eeb20482c819c583ff8ea7f0"
     },
     {
       "slug": "hashihime",
@@ -2808,7 +4320,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "321cb26f53ec57b9b0ad153e0311b5081251a7a93aed35f009ed83f7aaedf4cd"
     },
     {
       "slug": "hasshaku-sama",
@@ -2868,7 +4381,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6f228d2ab5ba81bbc2027448208d0696069927ee9d1d429cc9acb525d89b10a7"
     },
     {
       "slug": "himegami",
@@ -2942,7 +4456,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6d48873dc072cc59697c79a8b94b8310c93fab1ab0618db52b7be27d9bc24cdb"
     },
     {
       "slug": "hyosube",
@@ -3002,7 +4517,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "11afe971790ff0a85c7909b679cb8b148607d48f4d686bc2d63c45e06414d95c"
     },
     {
       "slug": "ishikoridome",
@@ -3072,7 +4588,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c5cc07599d6f1a3f63134da0219ae8b12eb126c7dc53461ce6b849dad9f6c5bb"
     },
     {
       "slug": "kasuga-gongen",
@@ -3146,7 +4663,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e6e3b03475b9f43887938d34bbbcfa6e5fe6fc34615fb680f60cc7718ffca676"
     },
     {
       "slug": "kikurihime",
@@ -3206,7 +4724,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "65515c467f8f97b9b978b93085090a43745d1033a8570acd4e30723df9995e26"
     },
     {
       "slug": "kosode-no-te",
@@ -3286,7 +4805,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "644ad4112a121fd3cb7e94b3d8c5ad0176fb6c42b90a706eb2bdfee562160af1"
     },
     {
       "slug": "koto-furunushi",
@@ -3360,7 +4880,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "488030b21efaaaa997dc7b53c04fbd5208811d196fcdc191bd9757e3a36e5474"
     },
     {
       "slug": "kubikajiri",
@@ -3434,7 +4955,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "73a9d2721cad1b41b7138b5faea0b24178004be5ab971288b674284585b8ca54"
     }
   ]
 }

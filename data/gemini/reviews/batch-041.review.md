@@ -1,13 +1,10 @@
 # Review batch-041
 
-Diperiksa 2026-09-30T02:35:28.890Z. Berkas: batch-041.md, batch-041-fix-1.md, batch-041-fix-2.md, batch-041-fix-3.md.
+Diperiksa 2026-10-06T14:11:59.489Z. Berkas: batch-041.md, batch-041-fix-1.md, batch-041-fix-2.md, batch-041-fix-3.md, batch-041-fix-4.md.
 
 ## loki — lulus-otomatis
 
-Klaim 14 (exact 14), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target rich: 14 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 28 (exact 28), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -22,17 +19,28 @@ Klaim 14 (exact 14), sumber 3, gambar 0.
 | loki-c09 | exact | www.worldhistory.org | Fenrir, the Midgard Serpent, and Hel are named as children of Loki and Angrboda. | the wolf Fenrir, the Midgard Serpent who coils around the world, and Hel, goddess of the Underworld |
 | loki-c10 | exact | www.worldhistory.org | Loki changes into a mare and gives birth to eight-legged Sleipnir. | Loki shape-shifts into a mare and gives birth to the eight-legged horse Sleipnir |
 | loki-c11 | exact | www.worldhistory.org | When Loki is punished with dripping venom, Sigyn catches much of it in a bowl. | his wife Sigyn catches the worst of it in a bowl. |
-| loki-c12 | exact | historiska.se | In the Freyja necklace story, Loki turns into a fly to enter her house. | To get inside, Loki turned himself into a fly. |
-| loki-c13 | exact | historiska.se | Loki then turns into a flea and bites sleeping Freyja's cheek. | He changed into a flea, bit her on the cheek, and waited until she turned in her sleep. |
-| loki-c14 | exact | historiska.se | To make Skadi laugh, Loki ties a rope between a goat's beard and his body. | Loki then tied a rope to a goat’s beard and the other end to his testicles. |
+| loki-c12 | exact | historiska.se | In the necklace story, Freyja's house was locked and Loki turned himself into a fly to get inside. | But Freyja’s house was locked. To get inside, Loki turned himself into a fly. |
+| loki-c13 | exact | historiska.se | Loki changed into a flea, bit her cheek, waited until she turned in her sleep, then undid the clasp and took the necklace without waking her. | He changed into a flea, bit her on the cheek, and waited until she turned in her sleep. Then he undid the clasp, took the necklace, and left the house without waking her. |
+| loki-c14 | exact | historiska.se | Skadi's condition was that the gods make her laugh; Loki then tied a rope to a goat's beard and the other end to his own body. | Skadi herself set a further condition in order to forgo her revenge: the gods had to make her laugh. Loki then tied a rope to a goat’s beard and the other end to his testicles. |
+| loki-c15 | exact | www.gutenberg.org | In this translation of the Prose Edda, Loki is called the originator of deceit and the disgrace of all gods and men; his name is Loke, or Lopt. | He is the originator of deceit, and the disgrace of all gods and men. His name is Loke, or Lopt. |
+| loki-c16 | exact | www.gutenberg.org | The Prose Edda describes Loke as fair of face but evil in disposition and very fickle-minded. | Loke is fair and beautiful of face, but evil in disposition, and very fickle-minded. |
+| loki-c17 | exact | www.gutenberg.org | According to the Prose Edda, Loke has often brought the asas into great trouble and often helped them out again with his cunning contrivances. | He has often brought the asas into great trouble, and often helped them out again, with his cunning contrivances. |
+| loki-c18 | exact | www.gutenberg.org | The Prose Edda names Byleist and Helblinde as Loke's brothers. | His brothers are Byleist and Helblinde. |
+| loki-c19 | exact | www.gutenberg.org | In the story of the builder, a frightened Loke swears an oath that he will make the builder lose his wages. | He in his fright then promised with an oath that he should so manage that the builder should lose his wages, let it cost him what it would. |
+| loki-c20 | exact | www.gutenberg.org | After racing with Svadilfare, Loke bore a gray foal with eight feet, the best horse among gods and men. | But Loke had run such a race with Svadilfare that he some time after bore a foal. It was gray, and had eight feet, and this is the best horse among gods and men. |
+| loki-c21 | exact | www.gutenberg.org | Hoder shot Balder with the mistletoe under Loke's guidance; the dart pierced him and he fell dead. | Hoder took the mistletoe and shot at Balder under the guidance of Loke. The dart pierced him and he fell dead to the ground. |
+| loki-c22 | exact | www.gutenberg.org | After Balder's death, Loke often took the likeness of a salmon by day and hid in Frananger Force. | Oftentimes in the daytime he took on him the likeness of a salmon and concealed himself in Frananger Force. |
+| loki-c23 | exact | www.gutenberg.org | Loke was finally taken without truce and brought to a cave. | Now Loke was taken without truce and was brought to a cave. |
+| loki-c24 | exact | www.gutenberg.org | In the Prose Edda, Loke twists so violently that the whole earth shakes, which is called earthquakes, and he lies bound there until Ragnarok. | Then he twists his body so violently that the whole earth shakes, and this you call earthquakes. There he will lie bound until Ragnarok. |
+| loki-c25 | exact | www.gutenberg.org | At Ragnarok, Loke comes to the battle plain with Hrym and all the frost-giants. | To this place have also come Loke and Hrym, and with him all the frost-giants. |
+| loki-c26 | exact | www.gutenberg.org | In the Prose Edda, Loke fights Heimdal and they kill each other. | Loke fights with Heimdal, and they kill each other. |
+| loki-c27 | exact | www.gutenberg.org | At the agreed time, Loke coaxed Idun out of Asgard into a forest, saying he had found very nice apples. | But at the time agreed upon, Loke coaxed Idun out of Asgard into a forest, saying that he had found apples that she would think very nice |
+| loki-c28 | exact | www.gutenberg.org | Loke turned Idun into the likeness of a nut, held her in his claws and flew with all his might. | Loke turned her into the likeness of a nut, held her in his claws and flew with all his might. |
 
 
 ## pluto-q152262 — lulus-otomatis
 
-Klaim 13 (exact 13), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target rich: 13 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 25 (exact 25), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -49,6 +57,18 @@ Klaim 13 (exact 13), sumber 3, gambar 0.
 | pluto-q152262-c11 | exact | www.theoi.com | Theoi connects Pluto's name with Plouton, meaning lord of riches. | The Romans named him Dis, or Pluto, the Latin form of his Greek title Plouton, "the Lord of Riches." |
 | pluto-q152262-c12 | exact | www.theoi.com | In Ovid's Metamorphoses, Proserpina reigns in two kingdoms. | Now Proserpina, as a Deity, of equal merit, in two kingdoms reigns: |
 | pluto-q152262-c13 | exact | www.theoi.com | In Ovid's version, Proserpina spends six months with her mother and six with her husband. | for six months with her mother she abides, and six months with her husband. |
+| pluto-q152262-c14 | exact | www.theoi.com | Theoi says Hades, Pluto's Greek counterpart, presided over funeral rites and defended the right of the dead to due burial. | He presided over funeral rites and defended the right of the dead to due burial. |
+| pluto-q152262-c15 | exact | www.theoi.com | Theoi says Hades was also the god of the hidden wealth of the earth. | Haides was also the god of the hidden wealth of the earth |
+| pluto-q152262-c16 | exact | www.theoi.com | When the three victorious brothers drew lots for the division of the cosmos, Hades received the third portion, the dark dismal realm of the underworld. | When the three victorious brothers then drew lots for the division of the cosmos, Haides received the third portion, the dark dismal realm of the underworld, as his domain. |
+| pluto-q152262-c17 | exact | www.theoi.com | Hades was depicted as a dark-bearded, regal god. | Haides was depicted as a dark-bearded, regal god. |
+| pluto-q152262-c18 | exact | www.theoi.com | Hades's character is described as fierce and inexorable, so that of all the gods he was most hated by mortals. | His character is described as fierce and inexorable, whence of all the gods he was most hated by mortals. |
+| pluto-q152262-c19 | exact | www.theoi.com | Hades kept the gates of the lower world closed. | He kept the gates of the lower world closed |
+| pluto-q152262-c20 | exact | www.theoi.com | Because she had tasted the pomegranate seed, she was forced to return to Hades for a portion of each year. | However, since she had tasted of the pomegranate seed, she was forced to return to him for a portion of each year. |
+| pluto-q152262-c21 | exact | www.theoi.com | Herakles requested Kerberos from Plouton, who told him to take the hound provided he subdued it without the weapons he had brought. | Herakles asked Plouton (Pluton) [Haides] for Kerberos (Cerberus), and was told to take the hound if he could overpower it without using any of the weapons he had brought with him. |
+| pluto-q152262-c22 | exact | www.theoi.com | In Ovid's Metamorphoses, Cupid's arrow strikes Pluto in the breast. | The flying shaft struck Pluto in the breast. |
+| pluto-q152262-c23 | exact | www.theoi.com | In the Metamorphoses, Proserpine is seen and carried off by Pluto in the haste of sudden love. | and carried off by Pluto—such the haste of sudden love. |
+| pluto-q152262-c24 | exact | www.theoi.com | In the Metamorphoses, the smitten earth makes way to Tartarus. | The smitten earth made way to Tartarus; |
+| pluto-q152262-c25 | exact | www.theoi.com | In the Metamorphoses, Proserpine chews seven grains picked from the pallid rind. | and chewed seven grains, picked from the pallid rind; |
 
 
 ## set-deity — lulus-otomatis

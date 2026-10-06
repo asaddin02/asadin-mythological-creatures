@@ -1,11 +1,12 @@
 {
   "batch_id": "batch-073",
-  "checked_at": "2026-10-01T18:20:44.999Z",
+  "checked_at": "2026-10-06T14:12:00.558Z",
   "files": [
     "batch-073.md",
     "batch-073-fix-1.md",
     "batch-073-fix-2.md",
-    "batch-073-fix-3.md"
+    "batch-073-fix-3.md",
+    "batch-073-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -82,7 +83,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a318278a55fbd09524c9cd8d2c3117dd6bc4b8aef94560939dde7094a039c560"
     },
     {
       "slug": "narayana",
@@ -158,7 +160,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e86a703642caf8707e6d44cda0400f5d1e58b31e619b77dd6f773d3ef6f117e1"
     },
     {
       "slug": "nataraja",
@@ -232,7 +235,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "956204f6c2b257103af7c1e9ecb76e57a43374f68354ce827661887ff1a17b04"
     },
     {
       "slug": "tridevi",
@@ -308,7 +312,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "125ec26b6016e611378e90ccf71b66c5335a2991a4c3e2dbe0e73e8b85e7f150"
     },
     {
       "slug": "mahishasura",
@@ -392,7 +397,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "68cd02a120473a15f1962d4f55233f85a6ea57800dbdea263ddced88a54c1913"
     },
     {
       "slug": "mohini",
@@ -468,7 +474,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "abdc5d3dbc4d0e21b0d1a6c8b50379774ab56e7e5ca9f977139b46d467e9f6fa"
     },
     {
       "slug": "vajrapani",
@@ -542,7 +549,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "80419de2cc3219d03ede6b2f28f35756bba6fc87a7c4ee607e3b4ed2858c790c"
     },
     {
       "slug": "indrani",
@@ -618,7 +626,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d98c3cf427eb6fcc1d13a93b67f88c45f9ecc59c5dbf91f9e8a2c55773447289"
     },
     {
       "slug": "matrikas",
@@ -702,7 +711,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "59e183ad20338d1601c9a7e7f09656ff88b383b06bd9145f177941d1ae173655"
     },
     {
       "slug": "prajapati",
@@ -778,7 +788,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9841512304d309eb19f2bb0fcc3cd1ddf8e156d83a0c26c24fcd6b0cca59eaed"
     },
     {
       "slug": "ushas",
@@ -854,7 +865,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5e747dc2955163541bab948e4bed0b48fbb61b683251ec5809d7ded0e3667f0f"
     },
     {
       "slug": "jatayu",
@@ -930,7 +942,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "72216525aa0ac6801d4b82e0893634a84e718eeba53b87b754d7c7af72f1f948"
     },
     {
       "slug": "vasuki",
@@ -1006,24 +1019,20 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7418a87b73d17c9e151bcd741da1001469b8781c09724ddca0f480353ada8884"
     },
     {
       "slug": "chamunda",
-      "file": "batch-073.md",
+      "file": "batch-073-fix-4.md",
+      "entry_sha256": "199a69575e111b45cb8a669c1fd0238fc821b5a9acb25bcac8a0554c35268eb8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 23,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "chamunda-c01",
@@ -1083,6 +1092,176 @@
           "statement_id": "Ia digambarkan berdiri atau duduk di atas jasad atau demon yang dikalahkan.",
           "quote": "She is standing or sitting upon a 'shava' or corpse or sitting on a 'preta' or vanquished demon.",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "chamunda-c07",
+          "source_id": "chamunda-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "In Pargiter's translation of the Devi-Mahatmya, when Ambika is wrathful at her foes, Kali of the terrible countenance suddenly issues from her forehead.",
+          "statement_id": "Dalam Devi-Mahatmya terjemahan Pargiter, ketika Ambika murka kepada para musuh, Kali yang berwajah mengerikan tiba-tiba keluar dari dahinya.",
+          "quote": "Thereat Ambikā uttered her wrath aloud against those foes, and her countenance then grew dark as ink in her wrath. Out from the surface of her forehead, which was rugged with frowns, issued suddenly Kālī of the terrible countenance",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "chamunda-c08",
+          "source_id": "chamunda-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "Kali is described as decorated with a garland of skulls, clad in a tiger's skin, appalling in her emaciated flesh, exceedingly wide of mouth with her tongue lolling out, and having deep-sunk reddish eyes.",
+          "statement_id": "Kali digambarkan berhias kalung tengkorak, berbalut kulit harimau, bertubuh kurus mengerikan, bermulut sangat lebar dengan lidah terjulur, dan bermata merah cekung.",
+          "quote": "decorated with a garland of skulls, clad in a tiger’s skin, very appalling because of her emaciated flesh, exceedingly wide of mouth, lolling out her tongue terribly, having deep-sunk reddish eyes",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "chamunda-c09",
+          "source_id": "chamunda-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "Kali fell impetuously upon the great Asuras, dealing slaughter among the host, and devoured that army of the gods' foes.",
+          "statement_id": "Kali menyerbu para Asura besar dengan ganas, membantai pasukan itu, dan melahap pasukan musuh para dewa di sana.",
+          "quote": "She fell upon the great Asuras impetuously, dealing slaughter among the host, and devoured that army of the gods’ foes there.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "chamunda-c10",
+          "source_id": "chamunda-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "The goddess, mounting her great lion, rushed at Caṇḍa, seized him by the hair and struck off his head with her sword.",
+          "statement_id": "Sang dewi menunggangi singa besarnya, menyerbu Caṇḍa, menjambak rambutnya, dan memenggal kepalanya dengan pedang.",
+          "quote": "And the goddess, mounting upon her great lion, rushed at Caṇḍa, and seizing him by his hair struck off his head with her sword.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "chamunda-c11",
+          "source_id": "chamunda-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "Muṇḍa also rushed at her when he saw Caṇḍa laid low, and she felled him to the ground, stricken with her scimitar in her fury.",
+          "statement_id": "Muṇḍa juga menyerbunya ketika melihat Caṇḍa tumbang, dan ia pun dirobohkan oleh pedang lengkungnya dalam amarah.",
+          "quote": "And Muṇḍa also rushed at her when he saw Caṇḍa laid low; him also she felled to the ground, stricken with her scymitar in her fury.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "chamunda-c12",
+          "source_id": "chamunda-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "Caṇḍikā declares that because Kali seized and brought Caṇḍa and Muṇḍa she shall be famed in the world by the name Cāmuṇḍā.",
+          "statement_id": "Caṇḍikā menyatakan bahwa karena Kali menangkap dan membawa Caṇḍa dan Muṇḍa, ia akan termasyhur di dunia dengan nama Cāmuṇḍā.",
+          "quote": "Because thou hast seized both Caṇḍa and Muṇḍa and brought them, thou, O goddess, shalt therefore be famed in the world by the name Cāmuṇḍā!",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "chamunda-c13",
+          "source_id": "chamunda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Devi Mahatmya, Chamunda emerged from between the eyebrows of the goddess Kaushiki, created from the 'sheath' of Durga, and was assigned to eliminate the demons Chanda and Munda, servants of the demon kings Shumbha-Nisumbha.",
+          "statement_id": "Menurut Devi Mahatmya, Chamunda muncul dari tengah alis dewi Kaushiki, yang tercipta dari \"sarung\" Durga, dan diberi tugas membinasakan demon Chanda dan Munda, pelayan raja demon Shumbha-Nisumbha.",
+          "quote": "Chamunda emerged from middle of eyebrows of goddess Kaushiki, a goddess created from the \"sheath\" of Durga and was assigned the task of eliminating the demons Chanda and Munda, servants of demon kings Shumbha-Nisumbha.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "chamunda-c14",
+          "source_id": "chamunda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to another legend, Chamunda appeared from the frown of the benign goddess Parvati to kill the demons Chanda and Munda.",
+          "statement_id": "Menurut legenda lain, Chamunda muncul dari kerutan dahi dewi Parvati yang lembut untuk membunuh demon Chanda dan Munda.",
+          "quote": "According to another legend, Chamunda appeared from the frown of the benign goddess Parvati to kill demons Chanda and Munda.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "chamunda-c15",
+          "source_id": "chamunda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the text Kali is given the epithet Chamunda, so the Devi Mahatmya identifies Chamunda with Kali.",
+          "statement_id": "Dalam teks itu Kali diberi gelar Chamunda, sehingga Devi Mahatmya menyamakan Chamunda dengan Kali.",
+          "quote": "Kali is given the epithet Chamunda in the text. Thus, the Devi Mahatmya identifies Chamunda with Kali.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "chamunda-c16",
+          "source_id": "chamunda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Varaha Purana text mentions Chamunda and Kali as two separate goddesses, unlike the Devi Mahatmya.",
+          "statement_id": "Teks Varaha Purana menyebut Chamunda dan Kali sebagai dua dewi yang terpisah, berbeda dari Devi Mahatmya.",
+          "quote": "The Varaha Purana text mentions two separate goddesses Chamunda and Kali, unlike Devi Mahatmya.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "chamunda-c17",
+          "source_id": "chamunda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Matsya Purana, Chamunda with the other matrikas was created by Shiva to help him kill the demon Andhakasura.",
+          "statement_id": "Menurut Matsya Purana, Chamunda bersama para matrika lain diciptakan Shiva untuk membantunya membunuh demon Andhakasura.",
+          "quote": "She with other matrikas was created by Shiva to help him kill the demon Andhakasura",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "chamunda-c18",
+          "source_id": "chamunda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The quality of drinking blood is a characteristic of all the Matrikas, and of Chamunda in particular.",
+          "statement_id": "Sifat meminum darah merupakan ciri semua Matrika, terutama Chamunda.",
+          "quote": "This quality of drinking blood is a characteristic of all Matrikas, and Chamunda in particular.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "chamunda-c19",
+          "source_id": "chamunda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Matrikas are fearsome mother goddesses, abductors and eaters of children, emblematic of childhood pestilence, fever, starvation and disease.",
+          "statement_id": "Para Matrika adalah dewi ibu yang menakutkan, penculik dan pemakan anak, yaitu lambang wabah, demam, kelaparan, dan penyakit pada masa kanak-kanak.",
+          "quote": "The Matrikas are fearsome mother goddesses, abductors and eaters of children; that is, they were emblematic of childhood pestilence, fever, starvation, and disease.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "chamunda-c20",
+          "source_id": "chamunda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Chamunda is the only Matrika who is a Shakti of the great Goddess Devi rather than a male god, and the only one who enjoys independent worship of her own.",
+          "statement_id": "Chamunda satu-satunya Matrika yang merupakan Shakti Dewi agung, bukan dewa lelaki, dan juga satu-satunya yang menikmati pemujaan mandiri.",
+          "quote": "Chamunda is the only Matrika who is a Shakti of the great Goddess Devi rather than a male god. She is also the only Matrika who enjoys independent worship of her own",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "chamunda-c21",
+          "source_id": "chamunda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ramakrishna Gopal Bhandarkar claims Chamunda was originally a tribal goddess worshipped by the tribals of the Vindhya mountain range in central India.",
+          "statement_id": "Ramakrishna Gopal Bhandarkar berpendapat Chamunda semula adalah dewi suku yang dipuja suku-suku di pegunungan Vindhya di India tengah.",
+          "quote": "Ramakrishna Gopal Bhandarkar claims that Chamunda was originally a tribal goddess, worshipped by the tribals of the Vindhya mountains range in central India.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "chamunda-c22",
+          "source_id": "chamunda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "These characteristics, in contrast to typical depictions of Hindu goddesses with beautiful faces, symbolise the inevitability of old age, death, decay and destruction.",
+          "statement_id": "Ciri-ciri ini, yang kontras dengan penggambaran dewi Hindu pada umumnya yang berwajah cantik, melambangkan tak terelakkannya usia tua, kematian, pembusukan, dan kehancuran.",
+          "quote": "These characteristics, a contrast to the typical depictions of Hindu goddesses with beautiful faces, symbolise the inevitability of old age, death, decay and destruction.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "chamunda-c23",
+          "source_id": "chamunda-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Besides the usual meaning as slayer of the demons Chanda and Munda, the Devi Purana explains that Chanda means terrible while Munda stands for Brahma's head or lord or husband.",
+          "statement_id": "Selain makna lazim sebagai pembunuh demon Chanda dan Munda, Devi Purana memberi penjelasan lain: Chanda berarti mengerikan, sedangkan Munda berarti kepala, tuan, atau suami Brahma.",
+          "quote": "Apart from the usual meaning of Chamunda as the slayer of demons Chanda and Munda, the Devi Purana gives a different explanation: Chanda means terrible while Munda stands for Brahma's head or lord or husband.",
+          "context": "etymology",
           "status": "exact"
         }
       ],
@@ -1162,7 +1341,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4758a324be270ef76e60224b3123548548e386607fe34db9a52c258d47a8ceb2"
     },
     {
       "slug": "mariamman",
@@ -1236,7 +1416,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1ea3e1b5c7444e72a92dd8158b9d7ee84d2f5ead7aa725e2eb33f6b925e0c1a2"
     },
     {
       "slug": "tripura-sundari",
@@ -1310,7 +1491,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2b49391c99ed9bc2547c516b0f020b0fc5aa362283afd0aa170e7a01eff0ccd3"
     },
     {
       "slug": "preta",
@@ -1384,7 +1566,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "59b3f12524ccb958320c98eef769cc653dba21037939530c56b087aedb5d6dad"
     },
     {
       "slug": "vritra",
@@ -1460,7 +1643,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e23de775cab0bf22b03544765e17e19333070e662b49837834d237aaaf9530db"
     },
     {
       "slug": "yamuna",
@@ -1536,7 +1720,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e597fc5849cd33025d445ea6f6a9d83267ab526ce4c59311df5ac3af3a5ffe1a"
     },
     {
       "slug": "kamadhenu",
@@ -1627,7 +1812,8 @@
           "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e4ebf6d186aac2df2250ccd604b4a96dea1d50194002f70f5b303511b1833a0f"
     },
     {
       "slug": "kumbhakarna",
@@ -1703,7 +1889,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d03f4d8804d9da4df73a1b5bd131e0a492e8fb75b7ea63f5447c4c5833ff3969"
     },
     {
       "slug": "vahana",
@@ -1779,7 +1966,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8f9911bd06c0871756bb25ba568b8aca59f535666aa4f6d427d952297b1d183a"
     },
     {
       "slug": "indrajit",
@@ -1855,7 +2043,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c0594502a7924fd7c09d82b7fb95910efdca0e7b036fcdb0e1ef3b916f3a38b2"
     },
     {
       "slug": "putana",
@@ -1929,7 +2118,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c3aeec2d6df5ca5551c72b6044a78ae4c47ade95533be05014f002cb7bf1fbe1"
     },
     {
       "slug": "vibhisana",
@@ -2005,7 +2195,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5fd68b7a5128fe57fc3c72bf9b45e0c2ef33793a9595bdd92fd08334ff6d7e26"
     },
     {
       "slug": "maruts",
@@ -2081,7 +2272,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "81741df00ab7e6141f455ca454f3e525346b66a45601b3e91564836694d4a871"
     },
     {
       "slug": "ulupi",
@@ -2157,7 +2349,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "43e4c78f17b5aae0c6b024cf804727335354e1f33d37e06ac061005b63668f30"
     },
     {
       "slug": "iravan",
@@ -2233,7 +2426,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1e2624a1cb9a1eaafac12024eae05bede020f59de89ecf79ba01dd7c4847d9e6"
     },
     {
       "slug": "mucilinda",
@@ -2307,7 +2501,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b901b26dbcb819c9af3f7130d115bbb00f963dc86e663c9fd802c6681846098d"
     },
     {
       "slug": "taksaka",
@@ -2388,7 +2583,8 @@
           "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "55ec01f0a98ee7b67a4e329e162211c53cb66df4a72ea7aa163d53862824e656"
     },
     {
       "slug": "uchchaihshravas",
@@ -2469,7 +2665,8 @@
           "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5779cbcdaa976fad41fb21f66bb5b1d41cc2cee4ea5fc27052e839a8cffa2f43"
     },
     {
       "slug": "gana",
@@ -2543,7 +2740,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7fa41eee55caff53d9aa73f2df014e0884d37c49311bf3d5d0b9bb2ca68f60bf"
     },
     {
       "slug": "trijata",
@@ -2624,7 +2822,8 @@
           "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d5bdceced093a4f61711987d7aee7c5f30009830bea10755deecb398d44606e1"
     },
     {
       "slug": "vetala",
@@ -2700,7 +2899,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "18fe2fe8b1b72797f94988e051578806c755f2fb43262af9a0daac9568aac1e7"
     },
     {
       "slug": "sharabha",
@@ -2774,7 +2974,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3834a2ca0b6c7ecbf18cf18a48038dea076d2cc5d29e2a002cfdd4b14ba8ae79"
     },
     {
       "slug": "tataka",
@@ -2855,7 +3056,8 @@
           "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "397a167547246217ae457308677c01819d45dd2f250b9c19628e03433e3ea078"
     },
     {
       "slug": "danava-hinduism",
@@ -2931,7 +3133,8 @@
           "detail": "tidak bisa dibuka (fetch failed); dicek lewat arsip Wayback"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "02862d2e574052ffe108361502ef0976d5bcaa4640ec38a02352e819dc69d79f"
     },
     {
       "slug": "apasmara",
@@ -3005,7 +3208,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8ba54a4689699431962214bf44559de61f90d879832b8ca42da83ac670a65359"
     },
     {
       "slug": "vidyadhara",
@@ -3086,7 +3290,8 @@
           "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5a37ed3e8ff8a7d0dbc2dc4df72fe069b856480a9b8cefa26edf4d81a7d9508a"
     },
     {
       "slug": "yali-mythology",
@@ -3160,7 +3365,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f69218ac2cdbfc955d3cd92eb5d55c78428803a2d5102c178fe9f7221be49ef0"
     },
     {
       "slug": "kirtimukha",
@@ -3234,7 +3440,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5418f193b83db9c1719ce43e3b762139e5bca71fba381704343e9672fdf4304c"
     },
     {
       "slug": "gandabherunda",
@@ -3308,7 +3515,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5a0c7efec2ccf8792869d9cfc39f9dc9e14fd63632b13972c8de6b22e4cebb19"
     },
     {
       "slug": "hungry-ghost",
@@ -3382,7 +3590,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "39a7b6d69d6465e99089359744cb59909267af638a9b1bd0dc93b4d3015e3bc5"
     },
     {
       "slug": "kaliya",
@@ -3456,7 +3665,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "be30fc5205e1573c1f6bf6b8a2e6570ac48958099730ae3972df47327f7c6a39"
     }
   ]
 }

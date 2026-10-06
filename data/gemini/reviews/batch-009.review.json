@@ -1,28 +1,24 @@
 {
   "batch_id": "batch-009",
-  "checked_at": "2026-09-29T12:25:18.166Z",
+  "checked_at": "2026-10-06T14:53:13.141Z",
   "files": [
-    "batch-009.md"
+    "batch-009.md",
+    "batch-009-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "amomongo",
-      "file": "batch-009.md",
+      "file": "batch-009-fix-1.md",
+      "entry_sha256": "fcd2a3176a46ccea3bb96713b842b486487750051953efed53cd8c16d6caf4e3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 2,
+        "claims": 20,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 7 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "amomongo-c01",
@@ -30,7 +26,7 @@
           "host": "en.wikipedia.org",
           "statement": "In Philippine folklore, the amomongo is a cryptid described as a hairy, man-sized ape with long nails; its name probably comes from Hiligaynon amó, 'ape' or 'monkey'.",
           "statement_id": "Dalam cerita rakyat Filipina, amomongo adalah kriptid berupa kera berbulu seukuran manusia dengan kuku panjang; namanya kemungkinan dari kata Hiligaynon amó, 'kera' atau 'monyet'.",
-          "quote": "In Philippine folklore, the Amomongo is a cryptid described as a hairy, man-sized ape with long nails. The name is probably derived from the Hiligaynon word amó, which translates \"ape\" or \"monkey\".",
+          "quote": "In Philippine folklore, the Amomongo is a cryptid described as a hairy, man-sized ape with long nails. The name is probably derived from the Hiligaynon word amó, which translates to \"ape\" or \"monkey\".",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -70,7 +66,7 @@
           "host": "en.wikipedia.org",
           "statement": "Some compare it to Bigfoot or Yeti, but scientists consider it legend mixed with mistaken identity; locals see it as a wild animal, not an intelligent being like a witch or aswang.",
           "statement_id": "Sebagian membandingkannya dengan Bigfoot atau Yeti, tetapi kalangan ilmiah menganggapnya legenda bercampur salah kenal; masyarakat setempat memandangnya binatang liar, bukan makhluk cerdas seperti penyihir atau aswang.",
-          "quote": "Some compare the creature to other ape-like cryptids around the world, such as Bigfoot or Yeti, though the scientific community holds that it is just a legend mixed with mistaken identity. The native community holds that it is a wild animal, not an intelligent being like a witch or aswang.",
+          "quote": "Some compare the creature to other ape-like cryptids around the world, such as Bigfoot or the Yeti; however, the scientific community holds that it is just a legend mixed with mistaken identity. The native community claims that it is a wild animal, not an intelligent being like a witch or aswang.",
           "context": "scholarly-interpretation",
           "status": "exact"
         },
@@ -93,24 +89,155 @@
           "quote": "Then the ape laughed aloud, and on the next day he told all his neighbors that the firefly carried a light at night because he was a coward.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "amomongo-c08",
+          "source_id": "amomongo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The amomongo is featured in a local folktale called \"Amomongo and Iput-Iput\", or \"The Ape and the Firefly\".",
+          "statement_id": "Amomongo muncul dalam dongeng lokal berjudul \"Amomongo dan Iput-Iput\", atau \"Kera dan Kunang-kunang\".",
+          "quote": "Amomongo is featured in a local folktale called \"Amomongo and Iput-Iput,\" or \"The Ape and the Firefly\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amomongo-c09",
+          "source_id": "amomongo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name amomongo has also been translated as \"gorilla\", though that is not an animal native to the region.",
+          "statement_id": "Nama amomongo juga pernah diterjemahkan menjadi \"gorila\", padahal gorila bukan hewan asli kawasan itu.",
+          "quote": "The name Amomongo has also been translated to \"gorilla\", though this is not an animal native to the region.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amomongo-c10",
+          "source_id": "amomongo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "On 9 June 2008 the amomongo supposedly attacked Elias Galvez and Salvador Aguilar of the La Castellana settlement and disemboweled numerous goats and chickens in the area to eat the entrails.",
+          "statement_id": "Pada 9 Juni 2008, amomongo konon menyerang Elias Galvez dan Salvador Aguilar dari permukiman La Castellana dan membelah perut banyak kambing dan ayam di sekitar sana untuk memakan isi perutnya.",
+          "quote": "On 9 June 2008, Amomongo supposedly attacked Elias Galvez and Salvador Aguilar of the La Castellana settlement and disemboweled numerous goats and chickens in the area for the purposes of eating the entrails.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "amomongo-c11",
+          "source_id": "amomongo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The attacks lasted until the next day, 10 June; medical records show Galvez and Aguilar sustained numerous scratches on their faces, backs and abdomens.",
+          "statement_id": "Serangan berlangsung sampai keesokan harinya, 10 Juni; catatan medis menunjukkan Galvez dan Aguilar mengalami banyak goresan di wajah, punggung, dan perut.",
+          "quote": "Attacks lasted until the next day on 10 June. Medical records reveal that Galvez and Aguilar sustained numerous scratches on their faces, backs, and abdomens.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "amomongo-c12",
+          "source_id": "amomongo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Residents described it as a hairy white ape with long, sharp nails, standing 5 feet 4 inches tall.",
+          "statement_id": "Warga menggambarkannya sebagai kera putih berbulu dengan kuku panjang yang tajam, setinggi 5 kaki 4 inci.",
+          "quote": "Residents described it as a \"hairy white ape with long, sharp nails and stands 5 feet 4 inches",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "amomongo-c13",
+          "source_id": "amomongo-s2",
+          "host": "www.aswangproject.com",
+          "statement": "In Barangay Sag-ang, La Castellana, Negros Occidental, the term amomongo was used for a man-sized creature that attacked two residents and disemboweled goats and chickens in the area.",
+          "statement_id": "Di Barangay Sag-ang, La Castellana, Negros Occidental, istilah amomongo dipakai untuk makhluk seukuran manusia yang menyerang dua warga dan membelah perut kambing dan ayam di sekitar sana.",
+          "quote": "In Brgy. Sag-ang, La Castellana, Negros Occidental, the term amomongo was used to describe a man-sized creature that attacked two residents and disemboweled goats and chickens in the area.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "amomongo-c14",
+          "source_id": "amomongo-s2",
+          "host": "www.aswangproject.com",
+          "statement": "Sag-ang Barangay Captain Rudy Torres confirmed reports of the existence of such a creature, which residents call amomongo (gorilla).",
+          "statement_id": "Kapten Barangay Sag-ang, Rudy Torres, membenarkan laporan tentang keberadaan makhluk itu, yang oleh warga disebut amomongo (gorila).",
+          "quote": "Sag-ang Brgy. Capt. Rudy Torres has confirmed reports of the existence of such creature, called amomongo (gorilla) by residents.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "amomongo-c15",
+          "source_id": "amomongo-s2",
+          "host": "www.aswangproject.com",
+          "statement": "Barangay Sag-ang in La Castellana lies at the foot of Mt. Kanlaon.",
+          "statement_id": "Barangay Sag-ang di La Castellana terletak di kaki Gunung Kanlaon.",
+          "quote": "Brgy. Sag-ang in La Castellana is located at the foot of Mt. Kanlaon",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "amomongo-c16",
+          "source_id": "amomongo-s3",
+          "host": "www.gutenberg.org",
+          "statement": "One evening the firefly passed the ape's house; the ape asked why he carried a light, and the firefly replied that he was afraid of the mosquitoes.",
+          "statement_id": "Suatu malam kunang-kunang melewati rumah kera; kera bertanya mengapa ia membawa lampu, dan kunang-kunang menjawab bahwa ia takut pada nyamuk.",
+          "quote": "One evening the firefly was on his way to the house of a friend, and as he passed the ape's house, the latter asked him: \"Mr. Fire-fly, why do you carry a light?\" The firefly replied: \"Because I am afraid of the mosquitoes.\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amomongo-c17",
+          "source_id": "amomongo-s3",
+          "host": "www.gutenberg.org",
+          "statement": "The very angry firefly challenged the ape to fight on the plaza the next Sunday evening to prove which of them was braver.",
+          "statement_id": "Kunang-kunang yang sangat marah menantang kera bertarung di alun-alun pada Minggu malam berikutnya untuk membuktikan siapa yang lebih berani.",
+          "quote": "The firefly was very angry and said: \"Why did you spread the report that I was a coward? If you wish to prove which of us is the braver, I will fight you on the plaza next Sunday evening.\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amomongo-c18",
+          "source_id": "amomongo-s3",
+          "host": "www.gutenberg.org",
+          "statement": "The ape replied that he would bring his whole company, about a thousand apes each as big as himself.",
+          "statement_id": "Kera menjawab bahwa ia akan membawa seluruh pasukannya, sekitar seribu kera sebesar dirinya.",
+          "quote": "The ape replied: \"You had better bring some one to help you, as I shall bring my whole company, about a thousand apes, each as big as myself.\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amomongo-c19",
+          "source_id": "amomongo-s3",
+          "host": "www.gutenberg.org",
+          "statement": "The next ape in line struck at the firefly but instead hit the captain on the nose so hard that it killed him.",
+          "statement_id": "Kera berikutnya dalam barisan mengayun pada kunang-kunang tetapi malah memukul pemimpinnya di hidung hingga tewas.",
+          "quote": "The ape next in line struck at the firefly, but succeeded only in striking the captain such a terrible blow on the nose as to kill him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amomongo-c20",
+          "source_id": "amomongo-s3",
+          "host": "www.gutenberg.org",
+          "statement": "At the tale's end only one ape is left; he throws down his club and begs for mercy, the firefly lets him live, and since then the apes have been in mortal terror of fireflies.",
+          "statement_id": "Dalam akhir dongeng, tinggal satu kera yang hidup; ia membuang pentungannya dan memohon ampun, kunang-kunang membiarkannya hidup, dan sejak itu kera-kera sangat takut pada kunang-kunang.",
+          "quote": "until there was but one ape left. He threw down his club and begged the firefly to spare him. The firefly graciously allowed him to live, but since that time the apes have been in mortal terror of the fireflies.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "babi-ngepet",
-      "file": "batch-009.md",
+      "file": "batch-009-fix-1.md",
+      "entry_sha256": "abbff25b5092ebf5918a16e006e4b834673f839001b3f2c3cde505dd2160a044",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 11,
-        "sources": 2,
+        "claims": 16,
+        "sources": 4,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 11 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "3 kutipan tidak bisa dicek otomatis: www.tempo.co (HTTP 403)."
         }
       ],
       "claims": [
@@ -118,11 +245,11 @@
           "id": "babi-ngepet-c01",
           "source_id": "babi-ngepet-s1",
           "host": "en.wikipedia.org",
-          "statement": "The babi ngepet is a boar demon of Indonesian mythology known in Java and Bali.",
-          "statement_id": "Babi ngepet adalah siluman babi dalam mitologi Indonesia yang dikenal di Jawa dan Bali.",
-          "quote": "Babi ngepet (Indonesian pronunciation: [ˌbabi ˈŋɛpɛt̪̚]) is boar demon in Indonesian mythology. Babi ngepet are commonly known in Java and Bali.",
+          "statement": "The babi ngepet is a boar demon in Indonesian mythology, commonly known in Java and Bali.",
+          "statement_id": "Babi ngepet adalah siluman babi dalam mitologi Indonesia dan umum dikenal di Jawa dan Bali.",
+          "quote": "is boar demon in Indonesian mythology. Babi ngepet are commonly known in Java and Bali.",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "babi-ngepet-c02",
@@ -138,9 +265,9 @@
           "id": "babi-ngepet-c03",
           "source_id": "babi-ngepet-s1",
           "host": "en.wikipedia.org",
-          "statement": "Some myths tell of a man in black robes who transforms and roams the village rubbing against walls, doors, cupboards and furniture, and villagers' valuables vanish.",
-          "statement_id": "Sebagian mitos menceritakan laki-laki berjubah hitam yang menjelma makhluk itu, lalu berkeliling desa menggosokkan badannya ke dinding, pintu, lemari, dan perabot, dan harta warga lenyap.",
-          "quote": "Some myths tell of a man enveloped in black robes who miraculously transforms into a creature. After the transformation, the demon boar roams the village, scratching its body against walls, doors, cupboards, and furniture.",
+          "statement": "Some myths tell of a man in black robes who transforms into a creature; the demon boar roams the village rubbing its body against walls, doors, cupboards and furniture, and villagers' belongings such as money, gold and jewelry magically disappear, carried off by the babi ngepet.",
+          "statement_id": "Sebagian mitos menceritakan laki-laki berjubah hitam yang menjelma makhluk itu, lalu babi siluman berkeliling desa menggosokkan badannya ke dinding, pintu, lemari, dan perabot; barang milik warga seperti uang, emas, dan perhiasan lenyap secara gaib dan dibawa pergi oleh babi ngepet.",
+          "quote": "Some myths tell of a man enveloped in black robes who miraculously transforms into a creature. After the transformation, the demon boar roams the village, scratching its body against walls, doors, cupboards, and furniture. Magically, the belongings of the villagers, such as money, gold, and jewelry, disappear and are carried away by the Babi Ngepet.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -168,11 +295,12 @@
           "id": "babi-ngepet-c06",
           "source_id": "babi-ngepet-s2",
           "host": "www.tempo.co",
-          "statement": "According to Suwardi Endraswara (Dunia Hantu Orang Jawa), the ritual uses a black cloth thought to have the magic power to turn a person into a boar demon.",
-          "statement_id": "Menurut Suwardi Endraswara (Dunia Hantu Orang Jawa), ritualnya memakai selembar kain hitam yang dianggap berkekuatan gaib untuk mengubah orang menjadi siluman babi.",
+          "statement": "The ritual uses a sheet of black cloth thought to have the magic power to turn a person into a boar demon.",
+          "statement_id": "Ritual ini dilakukan dengan selembar kain hitam yang dianggap memiliki kekuatan gaib untuk mengubah seseorang menjadi siluman babi.",
           "quote": "Ritual ini dilakukan dengan menggunakan selembar kain hitam yang dianggap memiliki kekuatan gaib untuk mengubah seseorang menjadi siluman babi.",
           "context": "traditional-belief",
-          "status": "exact"
+          "status": "unreachable",
+          "detail": "HTTP 403"
         },
         {
           "id": "babi-ngepet-c07",
@@ -182,7 +310,8 @@
           "statement_id": "Babi ngepet juga dikaitkan dengan Gunung Kawi di Jawa Timur.",
           "quote": "Babi ngepet juga dikaitkan dengan Gunung Kawi di Jawa Timur",
           "context": "traditional-belief",
-          "status": "exact"
+          "status": "unreachable",
+          "detail": "HTTP 403"
         },
         {
           "id": "babi-ngepet-c08",
@@ -200,7 +329,7 @@
           "host": "en.wikipedia.org",
           "statement": "The link between boars and wealth magic probably stems from Javanese pre-Islamic and pre-Hindu-Buddhist beliefs tying the boar to prosperity, as in celengan (piggy bank, from celeng, boar).",
           "statement_id": "Kaitan babi dengan ilmu kekayaan mungkin berasal dari kepercayaan Jawa pra-Islam dan pra-Hindu-Buddha yang menghubungkan babi dengan kemakmuran, seperti kata celengan (dari celeng, babi hutan).",
-          "quote": "The association of the boar with magic concerning fortune probably originated from Javanese pre-Islamic and pre-Hindu-Buddhist beliefs that associate the boar with domestic richness, fortune and prosperity, similar to its connections with Celengan, which means piggy bank in Javanese.",
+          "quote": "The association of the boar with magic concerning fortune probably originated from Javanese pre-Islamic and pre-Hindu-Buddhist beliefs that associate the boar with domestic richness, fortune and prosperity, similar to its connections with Celengan, which means piggy bank in Javanese. The word Celengan is derived from word Celeng which means boar.",
           "context": "scholarly-interpretation",
           "status": "exact"
         },
@@ -212,7 +341,8 @@
           "statement_id": "Salah satu film yang mengangkat kisah ini adalah Siloeman Babi Perang Siloeman Monjet karya The Teng Cun (1935).",
           "quote": "Salah satu film yang mengangkat kisah makhluk mistis ini adalah Siloeman Babi Perang Siloeman Monjet yang disutradarai oleh The Teng Cun pada tahun 1935.",
           "context": "modern-popular-culture",
-          "status": "exact"
+          "status": "unreachable",
+          "detail": "HTTP 403"
         },
         {
           "id": "babi-ngepet-c11",
@@ -223,41 +353,81 @@
           "quote": "The human-animal transformation is similar to shapeshifting or the werewolf concept in the West.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "babi-ngepet-c12",
+          "source_id": "babi-ngepet-s3",
+          "host": "news.detik.com",
+          "statement": "Residents of Bedahan, Sawangan, Depok City, West Java, were shaken by a babi ngepet rumour after a pig suspected of being a babi ngepet was caught and killed.",
+          "statement_id": "Warga Bedahan, Sawangan, Kota Depok, Jawa Barat, dihebohkan isu babi ngepet setelah seekor babi yang disangka babi ngepet ditangkap dan dibunuh.",
+          "quote": "Warga Bedahan, Sawangan, Kota Depok, Jawa Barat (Jabar), dihebohkan oleh isu babi ngepet. Kehebohan ini muncul setelah seekor babi yang disangka babi ngepet ditangkap dan dibunuh.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "babi-ngepet-c13",
+          "source_id": "babi-ngepet-s3",
+          "host": "news.detik.com",
+          "statement": "Taufiq was contacted about the find of an animal suspected to be a babi ngepet at Bedahan, Sawangan, on Tuesday 27 April 2021.",
+          "statement_id": "Taufiq dihubungi mengenai temuan babi yang diduga babi ngepet di Bedahan, Sawangan, pada Selasa, 27 April 2021.",
+          "quote": "ujar Taufiq saat dihubungi, Selasa (27/4/2021).",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "babi-ngepet-c14",
+          "source_id": "babi-ngepet-s4",
+          "host": "news.okezone.com",
+          "statement": "The babi ngepet hoax in Depok, West Java, drew public attention, and the case was ultimately found to be a lie devised by Adam Ibrahim.",
+          "statement_id": "Hoaks babi ngepet di Depok, Jawa Barat, menyita perhatian masyarakat, dan kasus itu akhirnya diketahui sebagai kebohongan yang dirancang Adam Ibrahim.",
+          "quote": "Terakhir, hoaks babi ngepet di Depok, Jawa Barat menyita perhatian masyarakat. Walau pada akhirnya, kasus babi ngepet ini diketahui adalah sebuah kebohongan yang dirancang olah Adam Ibrahim.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "babi-ngepet-c15",
+          "source_id": "babi-ngepet-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The person who practises babi ngepet black magic needs assistance from another person.",
+          "statement_id": "Orang yang menjalankan ilmu hitam babi ngepet membutuhkan bantuan orang lain.",
+          "quote": "The person that practices Babi Ngepet black magic needs assistance from another person.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "babi-ngepet-c16",
+          "source_id": "babi-ngepet-s1",
+          "host": "en.wikipedia.org",
+          "statement": "If the mission succeeds, by the time the babi ngepet returns home safely and changes back into human form, the black robes will be filled with the stolen money and jewelry.",
+          "statement_id": "Bila misinya berhasil, saat babi ngepet pulang dengan selamat dan kembali menjadi manusia, jubah hitamnya akan penuh berisi uang dan perhiasan curian.",
+          "quote": "If the mission is successful, by the time the Babi Ngepet safely returns home and transforms back into human form, the black robes will be filled with the stolen money and jewelry.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "orang-bunian",
-      "file": "batch-009.md",
+      "file": "batch-009-fix-1.md",
+      "entry_sha256": "8aeeff1542cc0ddf05d5b86afebd22e20d50868d9f8ecca941390b9ebf191cb1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 2,
+        "claims": 19,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[0].en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"as beautiful dressed in ancient southeast asian style and nearly identical to…\"). Tulis ulang dengan kata-kata sendiri."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "orang-bunian-c01",
           "source_id": "orang-bunian-s1",
           "host": "en.wikipedia.org",
-          "statement": "Orang bunian are supernatural beings of the folklore of Malaysia, Singapore, Brunei and Indonesia, invisible to most humans except those with spiritual sight; often translated 'elves', the term literally means 'hidden people' or 'whistling people'.",
-          "statement_id": "Orang bunian adalah makhluk gaib dalam cerita rakyat Melayu di Malaysia, Singapura, Brunei, dan Indonesia yang tak terlihat oleh kebanyakan manusia kecuali yang berpenglihatan batin; istilahnya sering diterjemahkan 'peri', tetapi harfiahnya 'orang tersembunyi' atau 'orang bersiul'.",
-          "quote": "Bunian people or Orang bunian (Indonesian pronunciation: [o.raŋ bu.ni.an]) are supernatural beings said to be invisible to most humans, except those with \"spiritual sight\". While the term is often translated as \"elves\", it literally translates to \"hidden people\" or \"whistling people\".",
+          "statement": "In Malaysian, Singaporean, Bruneian and Indonesian folklore, orang bunian are supernatural beings said to be invisible to most humans, except those with \"spiritual sight\".",
+          "statement_id": "Dalam cerita rakyat Malaysia, Singapura, Brunei, dan Indonesia, orang bunian adalah makhluk gaib yang konon tak terlihat oleh kebanyakan manusia, kecuali yang memiliki \"penglihatan batin\".",
+          "quote": "In Malaysian, Singaporean, Bruneian and Indonesian folklore, Bunian people or Orang bunian ... are supernatural beings said to be invisible to most humans, except those with \"spiritual sight\".",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "orang-bunian-c02",
@@ -320,16 +490,6 @@
           "status": "exact"
         },
         {
-          "id": "orang-bunian-c08",
-          "source_id": "orang-bunian-s2",
-          "host": "thesun.my",
-          "statement": "Even non-believers often come to see the forest not as empty space but as somewhere deserving humility.",
-          "statement_id": "Menurut The Sun, bahkan orang yang tak lagi percaya sering memandang hutan bukan sebagai ruang kosong melainkan tempat yang layak dihormati dengan rendah hati.",
-          "quote": "Even people who no longer believe often describe the forest differently after spending enough time in it. Not as empty space, but as somewhere deserving a little humility.",
-          "context": "scholarly-interpretation",
-          "status": "exact"
-        },
-        {
           "id": "orang-bunian-c09",
           "source_id": "orang-bunian-s1",
           "host": "en.wikipedia.org",
@@ -338,36 +498,141 @@
           "quote": "These narratives have been compared to Urashima Taro and Rip Van Winkle.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "orang-bunian-c10",
+          "source_id": "orang-bunian-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The term is often translated as \"elves\", but literally translates to \"hidden people\" or \"whistling people\".",
+          "statement_id": "Istilah ini sering diterjemahkan sebagai \"peri\" (elves), tetapi secara harfiah berarti \"orang tersembunyi\" atau \"orang bersiul\".",
+          "quote": "While the term is often translated as \"elves\", it literally translates to \"hidden people\" or \"whistling people\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "orang-bunian-c11",
+          "source_id": "orang-bunian-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some mythological accounts describe them as lacking a philtrum.",
+          "statement_id": "Sebagian kisah mitologis menggambarkan mereka tidak memiliki philtrum (lekukan di atas bibir).",
+          "quote": "Some mythological accounts describe the lack of a philtrum.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "orang-bunian-c12",
+          "source_id": "orang-bunian-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Modern depictions of orang bunian deviate from traditional folklore by adding elf-like features, pointed ears, fantasy-influenced attire, or modern Minangkabau long coats.",
+          "statement_id": "Penggambaran modern orang bunian menyimpang dari cerita rakyat tradisional dengan menambahkan ciri seperti peri, telinga runcing, busana bernuansa fantasi, atau mantel panjang Minangkabau modern.",
+          "quote": "Modern depictions of Orang bunian deviate from the traditional folklore by including elf-like features, pointed ears, high fantasy-influenced attire, or modern Minangkabau long-coat clothing.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "orang-bunian-c13",
+          "source_id": "orang-bunian-s3",
+          "host": "www.gutenberg.org",
+          "statement": "In the classic text, the \"Orang Bunyian\" are described as a class of Malay spirits about whom very little seems known; they appear to be a race of good fairies so simple-minded that they can be very easily cheated.",
+          "statement_id": "Dalam teks klasik, \"Orang Bunyian\" disebut sebagai golongan roh Melayu yang sedikit sekali diketahui; mereka tampak sebagai bangsa peri baik yang begitu polos sehingga mudah ditipu.",
+          "quote": "the \"Orang Bunyian,\" a class of Malay spirits about whom very little seems known. The latter appear to be a race of good fairies, who are so simple-minded that they can be very easily cheated.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "orang-bunian-c14",
+          "source_id": "orang-bunian-s3",
+          "host": "www.gutenberg.org",
+          "statement": "It is said that whenever they occasionally come into a hamlet to buy anything, they always pay without bargaining whatever price is asked, however exorbitant.",
+          "statement_id": "Dikatakan bahwa bila sesekali masuk ke dusun untuk membeli sesuatu, mereka selalu membayar tanpa menawar berapa pun harga yang diminta, setinggi apa pun.",
+          "quote": "Thus it is always said of them, that whenever they come into a hamlet, as they may occasionally do, to buy anything, they always pay without bargaining whatever price is asked, however exorbitant it may be.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "orang-bunian-c15",
+          "source_id": "orang-bunian-s3",
+          "host": "www.gutenberg.org",
+          "statement": "The author was told of their existence at Kapar village (near Klang in Selangor) and at Jugra, where it was said they might formerly be heard paddling their boats on the river when no boat was visible.",
+          "statement_id": "Penulis diberi tahu tentang keberadaan mereka di desa Kapar (dekat Klang di Selangor) dan di Jugra, tempat konon dahulu terdengar mereka mendayung perahu di sungai ketika tak ada perahu yang tampak.",
+          "quote": "I have been told of their existence at Kapar village (near Klang in Selangor), at Jugra, where it was said they might formerly be heard paddling their boats upon the river when no boat was visible, and elsewhere.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "orang-bunian-c16",
+          "source_id": "orang-bunian-s2",
+          "host": "thesun.my",
+          "statement": "They are described as strikingly beautiful, often dressed in ancient Southeast Asian style, as though from a version of the region untouched by time.",
+          "statement_id": "Mereka digambarkan sangat rupawan dan sering berbusana gaya Asia Tenggara kuno, seolah berasal dari versi kawasan itu yang tak tersentuh waktu.",
+          "quote": "They are described as strikingly beautiful, often dressed in the style of ancient Southeast Asia, as though they belong to a version of the region untouched by time.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "orang-bunian-c17",
+          "source_id": "orang-bunian-s2",
+          "host": "thesun.my",
+          "statement": "In folklore, their world mirrors ours: families, communities, marketplaces, even royalty.",
+          "statement_id": "Dalam cerita rakyat, dunia mereka mencerminkan dunia kita: keluarga, komunitas, pasar, bahkan bangsawan.",
+          "quote": "In folklore, their world mirrors ours – families, communities, marketplaces, even royalty.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "orang-bunian-c18",
+          "source_id": "orang-bunian-s2",
+          "host": "thesun.my",
+          "statement": "A bomoh reportedly claimed help from Bunian beings during rituals, describing figures that appeared regal, elegant and distinctly human-like; in the account, the Bunian came from Gunung Ledang and lived in a hidden city more advanced than ours.",
+          "statement_id": "Seorang bomoh dikabarkan mengaku dibantu makhluk bunian dalam ritual, menggambarkan sosok yang tampak agung, anggun, dan sangat mirip manusia; menurut penuturan itu, bunian berasal dari Gunung Ledang dan tinggal di kota tersembunyi yang lebih maju daripada kota kita.",
+          "quote": "A bomoh reportedly claimed assistance from Bunian beings during rituals, describing figures that appeared regal, elegant and distinctly human-like. “They said the Bunian came from Gunung Ledang and lived in a hidden city more advanced than ours.”",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "orang-bunian-c19",
+          "source_id": "orang-bunian-s2",
+          "host": "thesun.my",
+          "statement": "Among the most common Bunian stories are those about sudden disorientation in places that should be familiar.",
+          "statement_id": "Di antara kisah bunian yang paling umum adalah kisah tentang disorientasi mendadak di tempat yang seharusnya dikenal.",
+          "quote": "Among the most common Bunian stories are those involving sudden disorientation in places that should be familiar.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "orang-bunian-c20",
+          "source_id": "orang-bunian-s2",
+          "host": "thesun.my",
+          "statement": "In one account a hiker saw a lovely bamboo-lined path, but moments after turning back the path was gone, with no trace and no obvious explanation.",
+          "statement_id": "Dalam salah satu kisah, seorang pendaki melihat jalan setapak berpagar bambu yang indah, tetapi beberapa saat setelah berbalik, jalan itu lenyap tanpa jejak dan tanpa penjelasan.",
+          "quote": "Then, after turning back only moments later, the bamboo path was gone. Gone. No trace. No wrong turn. No obvious explanation.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "phi-tai-hong",
-      "file": "batch-009.md",
+      "file": "batch-009-fix-1.md",
+      "entry_sha256": "c426b2c5274d0aa48e6758af7d7f3db853ac427eaf3fd0d981748167f600f88d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 1,
+        "claims": 26,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 8 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "phi-tai-hong-c01",
           "source_id": "phi-tai-hong-s1",
           "host": "en.wikipedia.org",
-          "statement": "Phi Tai Hong (ผีตายโหง) is a Thai folklore ghost, the vengeful, restless spirit of a person who suddenly died a violent or cruel death.",
-          "statement_id": "Phi Tai Hong (ผีตายโหง) adalah hantu cerita rakyat Thailand, arwah pendendam dan gelisah orang yang mendadak mengalami kematian kejam.",
-          "quote": "Phi Tai Hong (Thai: ผีตายโหง) is a ghost of Thai folklore. It is the vengeful and restless spirit of a person who suddenly suffered a violent or cruel death.",
+          "statement": "Phi Tai Hong is a ghost of Thai folklore: the vengeful, restless spirit of a person who suddenly suffered a violent or cruel death.",
+          "statement_id": "Phi Tai Hong adalah hantu dalam cerita rakyat Thailand: arwah pendendam dan gelisah dari orang yang mendadak mengalami kematian kejam atau penuh kekerasan.",
+          "quote": "is a ghost of Thai folklore. It is the vengeful and restless spirit of a person who suddenly suffered a violent or cruel death.",
           "context": "traditional-belief",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "phi-tai-hong-c02",
@@ -438,25 +703,201 @@
           "quote": "Phi Tai Hong is a ghost that has been featured in many movies of different types, such as 2003 Thai comedy-horror film Buppah Rahtree and the 2010 film Tai Hong.",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "phi-tai-hong-c09",
+          "source_id": "phi-tai-hong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The ghost's name in Thai script is ผีตายโหง.",
+          "statement_id": "Nama ghost ini dalam aksara Thai adalah ผีตายโหง.",
+          "quote": "Phi Tai Hong (Thai: ผีตายโหง ... is a ghost of Thai folklore.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phi-tai-hong-c10",
+          "source_id": "phi-tai-hong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Thai oral tradition, Phi Tai Hong are especially dangerous and aggressive because, owing to their sudden death, they could not fulfil their dreams and desires while alive.",
+          "statement_id": "Menurut tradisi lisan Thai, Phi Tai Hong sangat berbahaya dan agresif karena, akibat kematian mendadak, mereka tak sempat memenuhi impian dan keinginannya semasa hidup.",
+          "quote": "According to Thai oral tradition Phi Tai Hong are especially dangerous and aggressive because, due to their sudden death, they were unable to fulfill their dreams and desires while alive.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phi-tai-hong-c11",
+          "source_id": "phi-tai-hong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Exorcisms can be very complicated, involving arcane ceremonies; stories about this kind of spirit and the exorcism ceremonies needed to be free of them are popular in Thai publications.",
+          "statement_id": "Pengusiran bisa sangat rumit dan melibatkan upacara yang sukar dipahami; kisah tentang hantu jenis ini dan upacara pengusirannya populer dalam terbitan Thai.",
+          "quote": "Exorcisms can be very complicated, involving arcane ceremonies. Stories about this kind of spirit and the exorcism ceremonies that are needed to be free from them are popular in Thai publications.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phi-tai-hong-c12",
+          "source_id": "phi-tai-hong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Phi Tai Hong usually originates in a man or woman who died suddenly, often without proper funerary rituals being observed.",
+          "statement_id": "Phi Tai Hong biasanya berasal dari seorang laki-laki atau perempuan yang meninggal mendadak, sering tanpa upacara pemakaman yang semestinya.",
+          "quote": "Phi Tai Hong usually has its origin in a man or a woman who died suddenly, often without the observance of proper funerary rituals.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phi-tai-hong-c13",
+          "source_id": "phi-tai-hong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Written records going back as far as the Ayutthaya period detail the power and fear associated with this type of spirit.",
+          "statement_id": "Catatan tertulis yang berasal sejauh periode Ayutthaya memerinci kekuatan dan ketakutan yang berkaitan dengan jenis arwah ini.",
+          "quote": "Written records going far back as to the Ayutthaya period detail the power and fear associated with this particular type of spirit.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phi-tai-hong-c14",
+          "source_id": "phi-tai-hong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Phi Tai Hong is also a recurring theme in Thai television soap operas (lakhon) such as The Sixth Sense.",
+          "statement_id": "Phi Tai Hong juga menjadi tema yang berulang dalam sinetron televisi Thai (lakhon) seperti The Sixth Sense.",
+          "quote": "Phi Tai Hong is also a recurring theme in Thai television soap operas (lakhon) such as The Sixth Sense",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "phi-tai-hong-c15",
+          "source_id": "phi-tai-hong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In its Tai Thang Klom variant this ghost appears in the 2010 film Tai Thang Klom (\"The Snow White\").",
+          "statement_id": "Dalam varian Tai Thang Klom, hantu ini tampil dalam film Tai Thang Klom (\"The Snow White\") tahun 2010.",
+          "quote": "In its Tai Thang Klom variant this ghost is featured in the 2010 film Tai Thang Klom (\"The Snow White\").",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "phi-tai-hong-c16",
+          "source_id": "phi-tai-hong-s2",
+          "host": "thesiamsociety.org",
+          "statement": "A person who dies a violent death will become a phi tai hong, and a woman who dies with her child during childbirth will become a phi tai thang klom.",
+          "statement_id": "Orang yang mati secara kejam akan menjadi phi tai hong, dan perempuan yang meninggal bersama anaknya saat melahirkan akan menjadi phi tai thang klom.",
+          "quote": "A person who dies a violent death will become a phi tai hong, and a woman who dies with her child during childbirth will become a phi tai thang klom.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "phi-tai-hong-c17",
+          "source_id": "phi-tai-hong-s3",
+          "host": "www.thailandnow.in.th",
+          "statement": "They are the spirits of people who met a \"sudden death\" or death by unnatural causes, such as an accident, drowning, being shot, murdered, burnt in a fire, and also suicide.",
+          "statement_id": "Mereka adalah arwah orang yang mengalami \"kematian mendadak\" atau kematian tidak wajar, seperti kecelakaan, tenggelam, tertembak, dibunuh, terbakar, dan juga bunuh diri.",
+          "quote": "They are the spirits of people who have met a “sudden death” or death by unnatural causes; such as, an accident, drowning, being shot, murdered, burnt in a fire, and also suicide.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phi-tai-hong-c18",
+          "source_id": "phi-tai-hong-s3",
+          "host": "www.thailandnow.in.th",
+          "statement": "Their dispositions vary from aggressive (because their last moment was marked by violence and terror) to vengeful (because they were murdered) and bitter (because they died before their time), so there is no knowing what they will do.",
+          "statement_id": "Sifat mereka beragam, dari agresif (karena saat terakhir hidupnya diwarnai kekerasan dan teror), pendendam (karena dibunuh), sampai getir (karena meninggal sebelum waktunya), sehingga tak bisa ditebak apa yang akan mereka lakukan.",
+          "quote": "Their dispositions vary from aggressive (because their last moment in life is marked by violence and terror) to vengeful (because they were murdered) and bitter (because they died before their time), so there’s no knowing what they’ll do when you encounter them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phi-tai-hong-c19",
+          "source_id": "phi-tai-hong-s3",
+          "host": "www.thailandnow.in.th",
+          "statement": "Phi tai hong are mostly the spirits of those killed in road accidents, and small, simple shrines are usually set up where accidents often claim lives to appease the unhappy spirits.",
+          "statement_id": "Phi tai hong kebanyakan adalah arwah korban kecelakaan di jalan, dan kuil kecil sederhana biasanya didirikan di lokasi yang sering menelan korban untuk menenangkan arwah yang tidak bahagia.",
+          "quote": "Phi tai hong are mostly the spirits of those killed in road accidents and small, simple shrines are usually set up at locations where accidents often claim lives to appease the unhappy spirits.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phi-tai-hong-c20",
+          "source_id": "phi-tai-hong-s3",
+          "host": "www.thailandnow.in.th",
+          "statement": "Travellers believe these phi tai hong, who likely died instantly and unknowingly in gruesome accidents, are usually resentful of their fate; they refuse to move on and like to linger at the accident scene, causing deadly mishaps to road travellers to inflict the same pain on them.",
+          "statement_id": "Para pelancong percaya phi tai hong, yang kemungkinan meninggal seketika tanpa sadar dalam kecelakaan mengerikan, biasanya menyesali nasibnya; mereka enggan pergi dan suka berdiam di lokasi kecelakaan, menimbulkan celaka mematikan bagi pengguna jalan agar mereka merasakan sakit yang sama.",
+          "quote": "Travelers believe that these phi tai hong, who likely died instantly and unknowingly in gruesome accidents, are usually resentful at their destiny. They refuse to move on and like to hang out at the accident scene causing deadly mishaps to road travelers to inflict the same pain on them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phi-tai-hong-c21",
+          "source_id": "phi-tai-hong-s3",
+          "host": "www.thailandnow.in.th",
+          "statement": "When Thais see a small makeshift shrine at the roadside, they honk, mainly as an act of respect to the spirits.",
+          "statement_id": "Ketika orang Thai melihat kuil kecil darurat di tepi jalan, mereka membunyikan klakson, terutama sebagai tanda hormat kepada arwah.",
+          "quote": "So, what do Thais do when they see a small, makeshift shrine on side of the road? They honk, mainly as an act of respect to the spirits.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phi-tai-hong-c22",
+          "source_id": "phi-tai-hong-s3",
+          "host": "www.thailandnow.in.th",
+          "statement": "The phi tai thang klom is a subcategory of phi tai hong: a woman who died during childbirth with the baby still inside her.",
+          "statement_id": "Phi tai thang klom adalah subkategori phi tai hong, yaitu perempuan yang meninggal saat melahirkan dengan bayi masih di dalam kandungannya.",
+          "quote": "Phi tai thang klom is a subcategory of phi tai hong and is a woman who died during childbirth with the baby still inside her.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phi-tai-hong-c23",
+          "source_id": "phi-tai-hong-s3",
+          "host": "www.thailandnow.in.th",
+          "statement": "A phi tai thang klom often appears with a baby in her arms, humming a chilling lullaby; these apparitions are usually not harmful, though those who see them are said to lose control of their bladders or see their hair turn white overnight with fright.",
+          "statement_id": "Phi tai thang klom sering menampakkan diri dengan bayi di pelukannya sambil menyenandungkan nina bobo yang menyeramkan; penampakan ini biasanya tidak berbahaya, tetapi orang yang melihatnya dikabarkan tak bisa menahan kencing atau rambutnya memutih semalam karena ketakutan.",
+          "quote": "Even though the baby had not been delivered when she passed away, a phi tai thang klom often makes an appearance with a baby in her arms and humming a chilling lullaby. These ghostly apparitions are usually not harmful, though they are known to make those who see them lose control of their bladders, or see their hair turn white overnight with fright.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phi-tai-hong-c24",
+          "source_id": "phi-tai-hong-s3",
+          "host": "www.thailandnow.in.th",
+          "statement": "One phi tai thang klom entered the hall of ghostly fame and became an urban legend: Mae Nak from Phra Khanong district, who lived during the reign of King Rama IV.",
+          "statement_id": "Salah satu phi tai thang klom masuk ke jajaran hantu terkenal dan menjadi legenda urban: Mae Nak dari distrik Phra Khanong, yang hidup pada masa pemerintahan Raja Rama IV.",
+          "quote": "One phi tai thang klom made it into the hall of ghostly fame and became an urban legend. Mae Nak from Phra Khanong district lived during the reign of King Rama IV the Great.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phi-tai-hong-c25",
+          "source_id": "phi-tai-hong-s3",
+          "host": "www.thailandnow.in.th",
+          "statement": "Mae Nak died in childbirth, but her devotion to her husband was so strong that she manifested in human flesh and kept living with him after he returned home as a war hero.",
+          "statement_id": "Mae Nak meninggal saat melahirkan, tetapi kesetiaannya pada suaminya begitu kuat sehingga ia menjelma berdaging manusia dan terus hidup bersamanya setelah sang suami pulang sebagai pahlawan perang.",
+          "quote": "Mae Nak from Phra Khanong district lived during the reign of King Rama IV the Great. She shared a simple life with her husband, Mak, a farmer until he was suddenly drafted, leaving her alone while heavily pregnant. She died in childbirth, but the devotion to her husband was so strong she manifested herself with human flesh and continued to live with him after he returned home as a war hero.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "phi-tai-hong-c26",
+          "source_id": "phi-tai-hong-s3",
+          "host": "www.thailandnow.in.th",
+          "statement": "The film series \"Ho Taeo Tak\" (Oh My Ghost) features Pancake, a phi tai hong who later becomes a dorm's clumsy resident spirit.",
+          "statement_id": "Seri film \"Ho Taeo Tak\" (Oh My Ghost) menampilkan Pancake, phi tai hong yang kemudian menjadi hantu penghuni asrama yang ceroboh.",
+          "quote": "Follow Pancake, a phi tai hong that later becomes a dorm’s clumsy resident spirit in the film series, “Ho Taeo Tak” (Oh My Ghost).",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "sarimanok",
-      "file": "batch-009.md",
+      "file": "batch-009-fix-1.md",
+      "entry_sha256": "1e191d5853c8073324d83f4c64846dbf0c5fee1c1c55a5d209c2ded99437ca0d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 21,
+        "sources": 3,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 7 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Mindanao Bangsamoro Islamic Art - 24556180573.jpg)",
@@ -533,6 +974,146 @@
           "quote": "According to the later Islamic legend, Muhammad found a rooster in the first of the seven heavens. The bird was so large its crest touched the second heaven.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "sarimanok-c08",
+          "source_id": "sarimanok-s2",
+          "host": "www.bowers.org",
+          "statement": "On a danganan, the ivory knob is shaped as a stylized bird, the mythical sarimanok, the symbol of Maranao royalty, its people and the high lake region they are associated with.",
+          "statement_id": "Pada sebuah danganan, kenop gadingnya berbentuk burung bergaya, yaitu sarimanok mitos, lambang kebangsawanan Maranao, rakyatnya, dan wilayah danau tinggi yang berkaitan dengan mereka.",
+          "quote": "The ivory knob is shaped as a stylized bird, the mythical sarimanok – the symbol of Maranao royalty, its people and of the high lake region they are associated with.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sarimanok-c09",
+          "source_id": "sarimanok-s2",
+          "host": "www.bowers.org",
+          "statement": "A danganan (ceremonial sword handle) once belonged to a Maranao royal; the danganan was a symbol of authority and power, functioned like a scepter and was part of the \"sultans'\" regalia.",
+          "statement_id": "Sebuah danganan (gagang pedang upacara) pernah dimiliki seorang bangsawan Maranao; danganan adalah lambang wewenang dan kekuasaan, berfungsi seperti tongkat kebesaran, dan menjadi bagian regalia para \"sultan\".",
+          "quote": "This exquisite and rare example of a danganan (ceremonial sword handle) once belonged to a Maranao royal. ... The danganan, a symbol of authority and power, functioned like a scepter and was part of the “sultans’” regalia.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sarimanok-c10",
+          "source_id": "sarimanok-s3",
+          "host": "my.christchurchcitylibraries.com",
+          "statement": "The word Sarimanok comes from \"sari\", a garment of different colours, and \"manok\", meaning rooster.",
+          "statement_id": "Kata Sarimanok berasal dari \"sari\", pakaian beraneka warna, dan \"manok\", yang berarti ayam jantan.",
+          "quote": "The word Sarimanok comes from “Sari” which means a garment of different colours, and “manok”, which means rooster.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "sarimanok-c11",
+          "source_id": "sarimanok-s3",
+          "host": "my.christchurchcitylibraries.com",
+          "statement": "The sarimanok is an important part of the Maranao cultural heritage, is invoked in many rituals and showcases their artistic genius.",
+          "statement_id": "Sarimanok adalah bagian penting warisan budaya orang Maranao, disebut dalam banyak ritual, dan memperlihatkan kepiawaian seni mereka.",
+          "quote": "Sarimanok is an important part of the Maranao people’s cultural heritage, it is invoked in many rituals and it showcases their unique artistic geniuses.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sarimanok-c12",
+          "source_id": "sarimanok-s3",
+          "host": "my.christchurchcitylibraries.com",
+          "statement": "The origin of the sarimanok is not known, but it features widely in numerous legends.",
+          "statement_id": "Asal-usul sarimanok tidak diketahui, tetapi ia banyak muncul dalam berbagai legenda.",
+          "quote": "The origin of the sarimanok is not known, but it is widely featured in numerous legends.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sarimanok-c13",
+          "source_id": "sarimanok-s3",
+          "host": "my.christchurchcitylibraries.com",
+          "statement": "In one legend, Rajah Indarpatra married a water nymph and they had two sons, one seen and one unseen; the seen one became the ancestor of today's Maranao and the unseen one is the spirit honoured in rituals and rites.",
+          "statement_id": "Dalam salah satu legenda, Rajah Indarpatra menikahi seorang nimfa air dan mereka punya dua putra, satu terlihat dan satu tak terlihat; yang terlihat menjadi leluhur orang Maranao masa kini, sedangkan yang tak terlihat adalah roh yang dihormati dalam ritual.",
+          "quote": "When Rajah Indarpatra married a water nymph, they had two sons: one who can be seen and the other, unseen. Seen became the ancestors of the modern-day Maranao people and Unseen is the spirit that they pay tribute to during rituals and rites.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sarimanok-c14",
+          "source_id": "sarimanok-s3",
+          "host": "my.christchurchcitylibraries.com",
+          "statement": "The two brothers pledged to protect each other from bad spirits and chose the Sarimanok as their totem bird; with the help of its twin, Inikadowa, it became the link between the seen and unseen worlds.",
+          "statement_id": "Kedua saudara itu berjanji saling melindungi dari roh jahat dan memilih Sarimanok sebagai burung totem mereka; dengan bantuan kembarannya, Inikadowa, ia menjadi penghubung dunia yang terlihat dan tak terlihat.",
+          "quote": "These two brothers made a pact that they will always protect each other from bad spirits and they chose the Sarimanok to be their totem bird and through the help of its twin, Inikadowa, it became the link between the seen and the unseen worlds.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sarimanok-c15",
+          "source_id": "sarimanok-s3",
+          "host": "my.christchurchcitylibraries.com",
+          "statement": "The fish on the sarimanok's beak symbolises the food that the Maranao offer to the spirit world.",
+          "statement_id": "Ikan di paruh Sarimanok melambangkan makanan yang dipersembahkan orang Maranao kepada dunia roh.",
+          "quote": "The fish on the beak of the Sarimanok symbolises the food that the Maranao people offer to the spirit world.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sarimanok-c16",
+          "source_id": "sarimanok-s3",
+          "host": "my.christchurchcitylibraries.com",
+          "statement": "The Maranao believe the sarimanok brings good fortune and, if the spirits are pleased, a bountiful harvest.",
+          "statement_id": "Orang Maranao percaya Sarimanok membawa keberuntungan, dan bila roh senang, panen mereka akan melimpah.",
+          "quote": "The Maranaos believe that the Sarimanok will bring them good fortune and if the spirits are pleased, they will have a bountiful harvest.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sarimanok-c17",
+          "source_id": "sarimanok-s3",
+          "host": "my.christchurchcitylibraries.com",
+          "statement": "The sarimanok is highly revered by the Maranao and has become an integral part of their culture, widely present in artistic and architectural designs, rituals, dance and festivals.",
+          "statement_id": "Sarimanok sangat dihormati orang Maranao dan menjadi bagian tak terpisahkan dari budaya mereka, tampil luas dalam desain seni dan arsitektur, ritual, tarian, dan perayaan.",
+          "quote": "the Sarimanok is highly revered by the Maranaos and has become an integral part of their culture and widely present in their artistic and architectural designs, rituals, dance and festivals.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sarimanok-c18",
+          "source_id": "sarimanok-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In that later Islamic legend its crow roused every living creature except man, and the Day of Resurrection would come once the celestial rooster ceased to crow.",
+          "statement_id": "Dalam legenda Islam yang lebih kemudian itu, kokoknya membangunkan semua makhluk hidup kecuali manusia, dan Hari Kiamat tiba bila ayam jantan langit itu berhenti berkokok.",
+          "quote": "Its crow roused every living creature except man. The Day of Resurrection would come once this celestial rooster ceased to crow.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "sarimanok-c19",
+          "source_id": "sarimanok-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Today this is not entirely true: the sarimanok may be placed on top of the umbrella of a Sultan or dignitary, and Mindanao State University has adopted it for graduation exercises in a non-traditional use.",
+          "statement_id": "Kini tradisi itu tidak sepenuhnya berlaku: sarimanok dapat ditaruh di puncak payung seorang Sultan atau tokoh terhormat, dan Mindanao State University memakainya untuk upacara wisuda dengan cara nontradisional.",
+          "quote": "At present, this is not totally true; sarimanok may be placed on the top of the umbrella of a Sultan or dignitary, and also, the Mindanao State University has adopted it for the graduation exercises following a non-traditional use.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sarimanok-c20",
+          "source_id": "sarimanok-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Philippine float in the 1998 Tournament of Roses Parade featured a giant 55-foot Sarimanok that also won the \"Most Beautiful Float from Outside the USA\" honors.",
+          "statement_id": "Kendaraan hias Filipina di Tournament of Roses Parade 1998 menampilkan Sarimanok raksasa setinggi 55 kaki yang juga meraih penghargaan \"Most Beautiful Float from Outside the USA\".",
+          "quote": "The Philippine float entry for the 1998 Tournament of Roses Parade featured a giant 55-foot Sarimanok which also won the \"Most Beautiful Float from Outside the USA” honors.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sarimanok-c21",
+          "source_id": "sarimanok-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The sarimanok was also the logo of Spirit of Manila Airlines, a short-lived airline that lasted only from 2011 to 2012.",
+          "statement_id": "Sarimanok juga menjadi logo Spirit of Manila Airlines, maskapai berumur pendek yang hanya beroperasi dari 2011 hingga 2012.",
+          "quote": "The Sarimanok was also the logo of Spirit of Manila Airlines, a short-lived airline which only lasted from 2011 to 2012.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": [
@@ -570,7 +1151,7 @@
             "kategori \"Sarimanok\"",
             "dipakai di bcl.wikipedia.org: Sarimanok"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-009/sarimanok-1.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-009/sarimanok-1.jpg"
         }
       ]
     }

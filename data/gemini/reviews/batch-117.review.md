@@ -1,6 +1,6 @@
 # Review batch-117
 
-Diperiksa 2026-10-03T01:30:41.081Z. Berkas: batch-117.md.
+Diperiksa 2026-10-06T15:02:48.862Z. Berkas: batch-117.md, batch-117-fix-1.md.
 
 ## far-darrig — lulus-otomatis
 
@@ -249,10 +249,7 @@ Klaim 8 (exact 8), sumber 2, gambar 0.
 
 ## telo — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -261,6 +258,13 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | telo-c03 | exact | fr.wikipedia.org | Télo is a Celtic god (dieu celtique), eponymous spirit of Toulon, deity of the sacred spring (source sacrée). | Télo est un dieu celtique, l'esprit éponyme de Toulon dans le Var. Il était la divinité de la source sacrée autour duquel l'ancienne colonie fut créée. |
 | telo-c04 | exact | fr.wikipedia.org | On three dedications Télo is invoked with the goddess Stanna: Deo Telo et deae Stannae. | Sur trois d'entre elles, Télo est invoqué avec une autre divinité, la déesse Stanna: Deo Telo et deae Stannae |
 | telo-c05 | exact | fr.wikipedia.org | Consort (Parèdre) Stanna; Celtic and Gaulish (celte et gauloise) antiquity. | Période d'origine Antiquité celte et gauloise Parèdre Stanna |
+| telo-c06 | exact | brewminate.com | According to the chapter, the inscription from Périgueux naming Telo and Stanna is of great interest because it mentions a temple dedicated to Telo and Stanna. | This inscription is of great interest, for it mentions the existence of a temple dedicated to Telo and Stanna. |
+| telo-c07 | exact | brewminate.com | According to the chapter, the god Telo is also known from another inscription discovered in Périgueux. | The god Telo is known from another inscription discovered in Périgueux. |
+| telo-c08 | exact | brewminate.com | According to the chapter, Telo's name survives today in the name of a village about 3 km from Périgueux, called Le Toulon, named after a nearby spring gushing from an abyss. | Telo’s name nowadays survives in the name of a village situated 3 kms from Périgueux, called Le Toulon, which takes its name from a nearby spring gushing forth from an abyss. |
+| telo-c09 | exact | brewminate.com | According to the chapter, Telo must originally have been a deity presiding over water. | Telo must have been originally a deity presiding over water. |
+| telo-c10 | exact | brewminate.com | The chapter cites Paul Aebischer that rivers and places named Toulon or Touron derive from the same root as the god's name. | According to Paul Aebischer, rivers and places named Toulon or Touron are derived from the same root as the name of the god. |
+| telo-c11 | exact | brewminate.com | According to the chapter, the archaeological context and the possible functions of Telo and Stanna in Périgueux remain undeterminable. | The archaeological context and the possible functions of Telo and Stanna in Périgueux remain thus undeterminable. |
+| telo-c12 | exact | brewminate.com | The chapter is by Dr. Noémie Beck, Professor of Irish Studies at Concordia University. | By Dr. Noémie Beck / 12.04.2009 Professor of Irish Studies Concordia University |
 
 
 ## white-dragon — lulus-otomatis
@@ -599,10 +603,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## adsullata — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 3, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -611,6 +612,9 @@ Klaim 5 (exact 5), sumber 3, gambar 0.
 | adsullata-c03 | exact | sr.wikipedia.org | Per the sr article, Адсулата (Adsullata) was a river goddess (речна богиња) of Celtic (келтској) myth, most likely of the Sava (Саве). | Адсулата (лат. Adsullata) је била речна богиња у келтској митологији. Највероватније је била богиња Саве. |
 | adsullata-c04 | exact | sr.wikipedia.org | The name is from Proto-Celtic (пра-келтске) Ad-sūg-lat-ā, she who draws water. | Име ове богиње је изведено од пра-келтске речи Ad-sūg-lat-ā, што буквално значи она која црпи воду. |
 | adsullata-c05 | exact | tr.wikipedia.org | Per the tr article, known from one inscription at Saudörfel, Austria (Avusturya). | Avusturya, Saudörfel'de bulunan tek bir yazıttan bilinenlere dayalı bir ilahtır. |
+| adsullata-c06 | exact | en.wikisource.org | An article in The Celtic Review says that in Noricum the worship of Adsalluta was closely associated with that of Savus, the river Save. | In Noricum we find the worship of Adsalluta closely associated with that of Savus, the river Save. |
+| adsullata-c07 | exact | en.wikisource.org | The article says that at Saudörfel her name occurs on five inscriptions, two of which associate it with Savus. | At Saudörfel her name occurs on five inscriptions, on two of which it is associated with that of Savus. |
+| adsullata-c08 | exact | en.wikisource.org | The article adds that at Hrastnigg her name also occurs on an inscription reading Adsal(l)ute Aug(uste). | At Hrastnigg, too, her name occurs on an inscription which reads Adsal(l)ute Aug(uste). |
 
 
 ## arkan-sonney — lulus-otomatis
@@ -629,10 +633,7 @@ Klaim 6 (exact 6), sumber 3, gambar 0.
 
 ## bauchan — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 19 (exact 19), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -641,6 +642,20 @@ Klaim 5 (exact 5), sumber 2, gambar 0.
 | bauchan-c03 | exact | en.wikipedia.org | It followed Callum to New York City and helped clear his land; it can become a goat. | When Callum emigrated to New York City the bauchan went with him and helped him clear his new plot of land. In this tale the bauchan is a shapeshifter and is able to transform into a goat. |
 | bauchan-c04 | exact | es.wikipedia.org | Per the es article the bauchan (bòcan, bogan, buckawn) is a Celtic (celta) creature, a type of brownie, male or female, hairy, mischievous, solitary. | Un bauchan (también bòcan [Ir.], bogan o buckawn) es una criatura de la mitología celta, un tipo de brownie. Podían ser tanto masculino como femenino. Se caracterizarían por tener mucho pelo, ser traviesos y solitarios. |
 | bauchan-c05 | exact | en.wikipedia.org | The bauchan was belligerent yet helped with farm tasks. | While the bauchan was belligerent and combative, he often provided assistance in various farm-related tasks. |
+| bauchan-c06 | exact | archive.org | The compiler's note in the collection says that the supernatural being called Bauchan is probably Bocan, a little buck, a hobgoblin, a ghost. | as Bauchan, is probably Bocan, a little buck, a hobgoblin, a ghost |
+| bauchan-c07 | exact | archive.org | According to the compiler's note, in the next tale the same being appears fully tamed: still supernatural and possessed of extraordinary strength, but attached to a family, and a regular brownie. | the same being appears fully tamed ; still supernatural, still possessed of extraordinary strength, but attached to a family, and a regular brownie. |
+| bauchan-c08 | exact | archive.org | In the tale recorded in the collection, a farmer near Loch Traig in Lochaber held a small farm and there were rumours that he had dealings with a mysterious personage called a bauchan, with no authentic account of how they first met. | In the neighbourhood of Loch Traig, in Lochaber, ... held a little farm. There were rumours of his having intercourse with a mysterious personage called a bauchan, but of his first acquaintance with him there are no authentic accounts. |
+| bauchan-c09 | exact | archive.org | According to the tale, on some occasions the farmer was supernaturally aided by the bauchan, while at others, having somehow roused its displeasure, he was opposed. | that on some occasions he was supernaturally aided by this bauchan, while at others, having in some way excited his displeasure |
+| bauchan-c10 | exact | archive.org | In the tale, on several occasions the two came to fighting hand to hand. | on several occasions they came the length of fighting hand to hand |
+| bauchan-c11 | exact | archive.org | In the tale, when the farmer wished for the tree he had felled, the house shook and the door rattled, and there was the wished-for tree with the Bauchan grinning at him. | Hardly had he spoken when the house was shaken and the door rattled ... and there was the wished-for tree, with the Bauchan grinning at him |
+| bauchan-c12 | exact | archive.org | In the tale, Callum found his forgotten hogshead, hides and all, transported five miles across very rugged, rocky country. | what did Callum see but his own identical hogshead, hides and all. It had been transported the distance of five miles of most rugged, rocky district. |
+| bauchan-c13 | exact | archive.org | In the tale, when the farmer stepped ashore in New York, who should meet him but the Bauchan in the shape of a goat. | who should meet him in the shape of a goat but the Bauchan |
+| bauchan-c14 | exact | archive.org | The tale closes with rumour that Callum benefited from the Bauchan's help in clearing the lands of his new settlement. | rumour says that Callum was the better of the Bauchan's help in clearing the lands of his new settlement |
+| bauchan-c15 | exact | archive.org | In another tale in the collection, Coluinn gun Cheann ("the Headless Trunk") is a very celebrated Bauchkan who favoured the family of the Macdonals of Morar from time immemorial. | Coluinn gun Cheann was a very celebrated Bauchkan, who favoured the family of the Macdonals of Morar, for ages immemorial |
+| bauchan-c16 | exact | archive.org | According to the tale, Coluinn gun Cheann waged war especially with all the strong men he could meet with. | and waged war, especially with all the strong men he could meet with |
+| bauchan-c17 | exact | archive.org | According to the tale, he was seldom, if ever, seen by women and did no harm either to them or to children. | He was seldom, if ever, seen by women, and did no harm either to them or to children. |
+| bauchan-c18 | exact | archive.org | According to the tale, before sunrise the Coluinn had to be off, as he never could be seen in daylight. | Before sunrise it was necessary for the Coluinn to be off, as he never could be seen in daylight. |
+| bauchan-c19 | exact | en.wikipedia.org | The character "Buckeye" is a bauchan in the fantasy novel The Haunted Wizard (1999) by Christopher Stasheff. | The character "Buckeye" is a bauchan in the fantasy novel The Haunted Wizard (1999) by Christopher Stasheff. |
 
 
 ## black-lady-of-bradley-woods — lulus-otomatis

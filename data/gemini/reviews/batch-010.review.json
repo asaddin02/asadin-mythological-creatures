@@ -1,28 +1,24 @@
 {
   "batch_id": "batch-010",
-  "checked_at": "2026-09-29T12:29:48.355Z",
+  "checked_at": "2026-10-06T15:08:49.431Z",
   "files": [
-    "batch-010.md"
+    "batch-010.md",
+    "batch-010-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "bakunawa",
-      "file": "batch-010.md",
+      "file": "batch-010-fix-1.md",
+      "entry_sha256": "36f330828975f16cac6a9b56d1a51dec764310a0d76d180c7739fd1cdd4f09fe",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 9,
-        "sources": 2,
+        "claims": 35,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 9 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bakunawa-c01",
@@ -113,26 +109,281 @@
           "quote": "It was believed to inhabit either the sky or the underworld.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "bakunawa-c10",
+          "source_id": "bakunawa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Figures of the bakunawa's head decorate the hilts of many ancient Filipino swords; these swords from Panay are said to give the hangaway or mandirigma (sacred warriors) the fearful presence and power of the bakunawa.",
+          "statement_id": "Kepala bakunawa menghiasi gagang banyak pedang Filipina kuno; pedang asal Panay ini dikatakan memberi para hangaway atau mandirigma (prajurit suci) kehadiran dan kekuatan bakunawa yang menakutkan.",
+          "quote": "Figures of the Bakunawa's head decorate the hilts of many ancient Filipino swords. These swords that originate in Panay are said to bestow upon the hangaway or mandirigma (sacred warriors) the fearful presence and power of the Bakunawa",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c11",
+          "source_id": "bakunawa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The bakunawa is said to have a sister in the form of a sea turtle, which reportedly went to an island in the Philippines to lay its eggs.",
+          "statement_id": "Bakunawa dikatakan memiliki saudari berwujud penyu laut yang konon bertelur di sebuah pulau di Filipina.",
+          "quote": "The Bakunawa is said to have a sister in the form of a sea turtle. This turtle would reportedly travel to an island in the Philippines to lay its eggs.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c12",
+          "source_id": "bakunawa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Fearing the loss of their land, the locals killed the turtle; on learning of its sister's death, the bakunawa emerged from the sea and consumed the moon.",
+          "statement_id": "Penduduk setempat, karena takut kehilangan tanah mereka, membunuh penyu itu. Mengetahui saudarinya mati, bakunawa muncul dari laut dan menelan bulan.",
+          "quote": "Fearing the eventual loss of their land, the locals killed the turtle. Upon learning of its sister’s death, the Bakunawa emerged from the sea and consumed the moon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c13",
+          "source_id": "bakunawa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Another version tells of the bakunawa falling in love with a woman of a local tribe; when the tribal leader found out, he ordered their dwelling burned.",
+          "statement_id": "Versi lain menceritakan bakunawa jatuh cinta pada seorang perempuan dari suku setempat; ketika pemimpin suku mengetahuinya, ia memerintahkan agar tempat tinggal mereka dibakar.",
+          "quote": "Another version tells of the Bakunawa falling in love with a human woman from a local tribe. When the tribal leader discovered their relationship, he ordered their dwelling to be destroyed by fire.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c14",
+          "source_id": "bakunawa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Enraged by the loss, the bakunawa tried to devour all seven moons in vengeance; as it was about to eat the last one, the deity intervened and punished it by banishing it from the sea.",
+          "statement_id": "Murka atas kehilangan itu, bakunawa berusaha menelan ketujuh bulan sebagai balas dendam; ketika hendak menelan bulan terakhir, sang dewa turun tangan dan menghukumnya dengan mengusirnya dari laut.",
+          "quote": "Enraged by the loss, the Bakunawa attempted to devour all seven moons as an act of vengeance. When it was about to consume the final moon, the deity intervened, punishing the creature by banishing it from the sea.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c15",
+          "source_id": "bakunawa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some oral traditions describe the bakunawa as a moving landmass with communities living on its back, distinguishing a flying bakunawa and a terrestrial, land-based bakunawa.",
+          "statement_id": "Sebagian tradisi lisan menggambarkan bakunawa sebagai daratan bergerak yang punggungnya dihuni masyarakat; ada dua varian, yaitu bakunawa terbang dan bakunawa darat.",
+          "quote": "Some oral traditions describe the Bakunawa as a mobile landmass with communities living on its back. Within these beliefs, two variants of the creature are distinguished: the flying Bakunawa and the terrestrial, or land-based, Bakunawa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c16",
+          "source_id": "bakunawa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In one version, Bathala created seven moons, each lighting one night of the week; the bakunawa, driven by envy, swallowed six, leaving one, and Bathala is said to have planted bamboo on the last moon.",
+          "statement_id": "Dalam salah satu versi, Bathala menciptakan tujuh bulan, tiap bulan menerangi satu malam dalam sepekan. Bakunawa, didorong rasa iri, menelan enam bulan dan hanya satu tersisa; Bathala lalu dikatakan menanam bambu di bulan terakhir itu.",
+          "quote": "Bathala is said to have created seven moons, each intended to illuminate one night of the week. ... the Bakunawa, driven by envy, consumed six of the moons, leaving only one remaining. In response, Bathala is said to have planted bamboo on the last moon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c17",
+          "source_id": "bakunawa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The story of the Bakunawa and the Seven Moons was first documented in Mga Sugilanong Karaan (1913) by Buyser.",
+          "statement_id": "Kisah Bakunawa dan Tujuh Bulan pertama kali didokumentasikan dalam Mga Sugilanong Karaan (1913) oleh Buyser.",
+          "quote": "The story of the Bakunawa and the Seven Moons was first documented in Mga Sugilanong Karaan (1913) by Buyser.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c18",
+          "source_id": "bakunawa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Kapampangan mythology, Láwû is depicted as a bird-like dragon or serpent that causes both solar and lunar eclipses.",
+          "statement_id": "Dalam mitologi Kapampangan, Láwû digambarkan sebagai naga atau ular mirip burung yang menyebabkan gerhana matahari maupun bulan.",
+          "quote": "In Kapampangan mythology, Láwû is depicted as a bird-like dragon or serpent that causes both solar and lunar eclipses",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c19",
+          "source_id": "bakunawa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Related creatures named in the article: the Hiligaynon Olimaw is a winged serpent and the Bagobo Minokawa is a dragon-like giant bird.",
+          "statement_id": "Makhluk terkait lain dalam artikel itu: Olimaw dari Hiligaynon adalah ular bersayap, dan Minokawa dari Bagobo adalah burung raksasa mirip naga.",
+          "quote": "while the Hiligaynon Olimaw is a winged serpent; the Bagobo Minokawa is a dragon-like giant bird;",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c20",
+          "source_id": "bakunawa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A historical account quoted in the article says that during a lunar eclipse people went into the street or open fields with bells and other items and struck them hard to protect the moon, which they said was being eaten or swallowed by the dragon, tiger, or crocodile.",
+          "statement_id": "Sebuah catatan sejarah yang dikutip artikel itu menyebut bahwa saat gerhana bulan orang-orang pergi ke jalan atau ladang membawa lonceng dan benda lain, memukulnya keras-keras untuk melindungi bulan yang menurut mereka dimakan atau ditelan naga, harimau, atau buaya.",
+          "quote": "When the moon is eclipsed, the Indians of various districts generally go out into the street or into the open fields, with bells, panastanes, etc. They strike them with great force and violence in order that they might thereby protect the moon which they say is being eaten or swallowed by the dragon, tiger, or crocodile.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c21",
+          "source_id": "bakunawa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In some accounts, musical instruments were played to make soothing sounds meant to lull the creature to sleep, giving brave villagers a chance to drive it away.",
+          "statement_id": "Dalam sebagian catatan, alat musik dimainkan untuk menghasilkan bunyi menenangkan agar makhluk itu tertidur sehingga penduduk pemberani sempat mengusirnya.",
+          "quote": "In some accounts, musical instruments were used to produce soothing sounds meant to lull the creature into sleep, allowing brave villagers an opportunity to drive it away.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c22",
+          "source_id": "bakunawa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The bakunawa is traditionally described not only as a moon eater but also as a fearsome being known to consume humans.",
+          "statement_id": "Bakunawa secara tradisional digambarkan bukan hanya sebagai pemakan bulan, tetapi juga sebagai makhluk menakutkan yang dikenal memakan manusia.",
+          "quote": "The Bakunawa is traditionally described not only as a “moon eater” but also as a fearsome being known to consume humans.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c23",
+          "source_id": "bakunawa-s2",
+          "host": "www.aswangproject.com",
+          "statement": "The Aswang Project article argues the bakunawa is best treated as a Visayan eclipse-eating being rather than a universal Philippine dragon.",
+          "statement_id": "Artikel Aswang Project berpendapat bakunawa paling tepat diperlakukan sebagai makhluk pemakan gerhana dalam tradisi Visaya, bukan naga universal Filipina.",
+          "quote": "Bakunawa is best treated as a Visayan eclipse-eating being rather than a universal Philippine dragon.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c24",
+          "source_id": "bakunawa-s2",
+          "host": "www.aswangproject.com",
+          "statement": "Philippine sources describe eclipse-eaters in different ways and the names should stay tied to their regions; the bakunawa is not a substitute for every Philippine explanation of an eclipse.",
+          "statement_id": "Sumber-sumber Filipina menggambarkan pemakan gerhana dengan cara berbeda-beda, dan nama-namanya sebaiknya tetap dikaitkan dengan daerahnya; bakunawa bukan pengganti setiap penjelasan gerhana di Filipina.",
+          "quote": "Philippine sources describe eclipse-eaters in different ways, and the names should remain attached to their regions. Bakunawa is not a substitute for every Philippine explanation of an eclipse.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c25",
+          "source_id": "bakunawa-s2",
+          "host": "www.aswangproject.com",
+          "statement": "According to the Aswang Project, Maximo D. Ramos ties the bakunawa to West Visayan tradition and describes the noise made during an eclipse as an attempt to frighten the being into releasing the sun or moon.",
+          "statement_id": "Menurut Aswang Project, Maximo D. Ramos mengaitkan bakunawa dengan tradisi Visaya Barat dan menggambarkan bunyi-bunyian saat gerhana sebagai upaya menakuti makhluk itu agar melepaskan matahari atau bulan.",
+          "quote": "Maximo D. Ramos identifies it with West Visayan tradition in The Creatures of Midnight and describes the noise made during an eclipse as an attempt to frighten the being into releasing the sun or moon.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c26",
+          "source_id": "bakunawa-s2",
+          "host": "www.aswangproject.com",
+          "statement": "In the Diccionario de la lengua Bisaya Hiligueina y Haraya, the entry for Bacunaua (page 38) says they understood it to be a serpent swallowing the moon during eclipses.",
+          "statement_id": "Dalam Diccionario de la lengua Bisaya Hiligueina y Haraya, entri Bacunaua (halaman 38) menyatakan bahwa mereka mengira bakunawa adalah ular yang menelan bulan saat gerhana.",
+          "quote": "In his “Diccionario de la lengua Bisaya Hiligueina y Haraya“ (Dictionary of the Bisayan Language Hiligaynon and Haraya) he states on Page 38: Bacunaua “Entendieron que era sierpe que se iba tragando la luna la sumbra de la tiera que la cubre en los eclipses”",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c27",
+          "source_id": "bakunawa-s2",
+          "host": "www.aswangproject.com",
+          "statement": "One hypothesis in the Aswang Project article: the seven moons in the bakunawa story stood for the seven months of planting and harvesting in a twelve-month lunar calendar.",
+          "statement_id": "Salah satu hipotesis dalam artikel Aswang Project: tujuh bulan dalam kisah bakunawa melambangkan tujuh bulan untuk menanam dan memanen dalam kalender lunar dua belas bulan.",
+          "quote": "One hypothesis for the 7 moons in the story of Bakunawa is that they represented the 7 months for planting and harvesting in their 12 month lunar calendar.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c28",
+          "source_id": "bakunawa-s2",
+          "host": "www.aswangproject.com",
+          "statement": "According to the Aswang Project article, it is unknown whether the serpent on these weapons (the kampilan) represents a crocodile, a snake, the bakunawa, or another mythical nāga.",
+          "statement_id": "Menurut artikel Aswang Project, belum diketahui apakah ular pada senjata kampilan itu melambangkan buaya, ular, bakunawa, atau naga mitos lain.",
+          "quote": "whether the serpent on these weapons represents a crocodile, snake, Bakunawa, or other mythical Nāga",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c29",
+          "source_id": "bakunawa-s2",
+          "host": "www.aswangproject.com",
+          "statement": "According to the Aswang Project, the historical evidence for a single ancient goddess battling the bakunawa is much weaker than its popularity suggests.",
+          "statement_id": "Menurut Aswang Project, bukti sejarah tentang satu dewi kuno yang melawan bakunawa jauh lebih lemah daripada popularitasnya.",
+          "quote": "The historical evidence for a single ancient goddess battling Bakunawa is much weaker than its popularity suggests.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c30",
+          "source_id": "bakunawa-s2",
+          "host": "www.aswangproject.com",
+          "statement": "A caption on the Aswang Project article says Fernando Buyser was the first to document the story of Bakunawa and the 7 Moons (\"Ang Bakunawa\", c. 1917).",
+          "statement_id": "Keterangan di artikel Aswang Project menyebut Fernando Buyser sebagai yang pertama mendokumentasikan kisah Bakunawa dan 7 Bulan (“Ang Bakunawa”, sekitar 1917).",
+          "quote": "Fernando Buyser was the first to document the story of Bakunawa and the 7 Moons (“Ang Bakunawa” c. 1917)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c31",
+          "source_id": "bakunawa-s3",
+          "host": "www.gmanetwork.com",
+          "statement": "GMA News reports that in Amaya the legend of the bakunawa is told to the young Bagani, with a night sky that once had seven moons.",
+          "statement_id": "GMA News melaporkan bahwa dalam Amaya, legenda bakunawa dituturkan kepada Bagani muda, dengan langit malam yang dahulu memiliki tujuh bulan.",
+          "quote": "In Amaya, the legend of the bakunawa is told to the young Bagani. The night sky used to have seven moons, until the bakunawa",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c32",
+          "source_id": "bakunawa-s3",
+          "host": "www.gmanetwork.com",
+          "statement": "GMA News says that in the world of the series Amaya the eclipse is attributed to the bakunawa, a gigantic sea serpent.",
+          "statement_id": "GMA News menyebut bahwa dalam dunia serial Amaya, gerhana disebabkan bakunawa, ular laut raksasa.",
+          "quote": "for the pre-Hispanic Visayan people of the epicserye Amaya, it was a bakunawa, a gigantic sea serpent.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c33",
+          "source_id": "bakunawa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the 2015 GMA Network anthology drama Alamat, the bakunawa is voiced by Tonipet Gaba in an episode.",
+          "statement_id": "Dalam drama antologi Alamat dari GMA Network (2015), bakunawa disuarakan oleh Tonipet Gaba pada satu episode.",
+          "quote": "In the 2015 GMA Network anthology drama Alamat, Bakunawa is voiced by Tonipet Gaba in the episode",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c34",
+          "source_id": "bakunawa-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A children's game called Bulan Bulan, Buwan Buwan, or Bakunawa is played in the Philippines.",
+          "statement_id": "Di Filipina dimainkan permainan anak bernama Bulan Bulan, Buwan Buwan, atau Bakunawa.",
+          "quote": "A children's game called Bulan Bulan, Buwan Buwan, or Bakunawa is played in the Philippines.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bakunawa-c35",
+          "source_id": "bakunawa-s4",
+          "host": "tribune.net.ph",
+          "statement": "Daily Tribune reports that the Philippine Mythical Creatures II stamp collection features designs of the Manananggal, Santelmo, Bakunawa and Sarimanok by artist Ryman Albuladora.",
+          "statement_id": "Daily Tribune melaporkan bahwa koleksi prangko Philippine Mythical Creatures II menampilkan rancangan Manananggal, Santelmo, Bakunawa, dan Sarimanok oleh seniman Ryman Albuladora.",
+          "quote": "This year’s showcase features the Philippine Mythical Creatures II Stamp Collection, highlighting designs of the Manananggal, Santelmo, Bakunawa and Sarimanok conceptualized and illustrated by artist Ryman Albuladora.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "siam-devadhiraj",
-      "file": "batch-010.md",
+      "file": "batch-010-fix-1.md",
+      "entry_sha256": "35c5488eb1f2396e821a3852911582602a6e7d39466a789c35ed70417fbd1251",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 19,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 3 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "siam-devadhiraj-c01",
@@ -140,9 +391,9 @@
           "host": "en.wikipedia.org",
           "statement": "Phra Siam Devadhiraj (พระสยามเทวาธิราช) is a guardian deity personifying supernatural protection over Thailand; the deva (sometimes 'god' or 'angel') is represented by an idol in the Phaisan Thaksin Throne Hall of the Grand Palace.",
           "statement_id": "Phra Siam Devadhiraj (พระสยามเทวาธิราช) adalah dewa pelindung yang mempersonifikasikan perlindungan gaib atas Thailand; dewa ini (deva, kata asal Sanskerta yang kadang diterjemahkan 'dewa' atau 'malaikat') diwujudkan dalam arca di Balairung Phaisan Thaksin, Istana Agung.",
-          "quote": "Phra Siam Devadhiraj (Thai: พระสยามเทวาธิราช, RTGS: Phra Sayam Thewathirat) is a guardian deity personifying supernatural protection over the country of Thailand. The deity (deva, a sanskrit origin word, sometimes translated as \"god\" or \"angel\") is represented by an idol enshrined in the Phaisan Thaksin Throne Hall of the Grand Palace.",
+          "quote": "Phra Siam Devadhiraj (Thai: พระสยามเทวาธิราช , RTGS: Phra Sayam Thewathirat) is a guardian deity personifying supernatural protection over the country of Thailand. The deity (deva, a sanskrit origin word, sometimes translated as \"god\" or \"angel\") is represented by an idol enshrined in the Phaisan Thaksin Throne Hall of the Grand Palace.",
           "context": "religious-tradition",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "siam-devadhiraj-c02",
@@ -163,24 +414,185 @@
           "quote": "The deity is worshipped in an annual private royal ceremony on the first waxing moon of the fifth Thai lunar month, which marks the traditional New Year in the Thai lunar calendar.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "siam-devadhiraj-c04",
+          "source_id": "siam-devadhiraj-s2",
+          "host": "th.wikipedia.org",
+          "statement": "According to Thai Wikipedia, Phra Siam Devadhiraj is a deity image cast in gold, 8 inches high and 2 inches wide, standing and dressed as a tutelary deity (thepharak), the right hand holding a sword and the left hand raised in front of the chest.",
+          "statement_id": "Menurut Wikipedia bahasa Thai, Phra Siam Devadhiraj adalah arca dewa cor emas setinggi 8 inci dan lebar 2 inci, berdiri berbusana seperti dewa penjaga (thepharak), tangan kanan memegang pedang dan tangan kiri terangkat di depan dada.",
+          "quote": "พระสยามเทวาธิราช เป็นเทวรูป หล่อด้วยทองคำสูง 8 นิ้ว กว้าง 2 นิ้ว ลักษณะยืนทรงเครื่องอย่างเทพารักษ์ พระหัตถ์ขวาทรงพระแสงขรรค์ พระหัตถ์ซ้ายยกขึ้นจีบนิ้วเสมอพระอุระ",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "siam-devadhiraj-c05",
+          "source_id": "siam-devadhiraj-s2",
+          "host": "th.wikipedia.org",
+          "statement": "The image is enshrined in a sandalwood glass house shaped like a vimana, with a Chinese inscription on the back wall that Thai Wikipedia translates as \"the palace of Phra Siam Devadhiraj\".",
+          "statement_id": "Arca itu ditakhtakan dalam rumah kaca dari kayu cendana berbentuk wimana, dengan prasasti berbahasa Tionghoa di dinding belakang yang menurut Wikipedia Thai berarti \"Istana Phra Siam Devadhiraj\".",
+          "quote": "เทวรูปพระสยามเทวาธิราชประดิษฐานอยู่ในเรือนแก้วทำด้วยไม้จันทน์ ลักษณะแบบวิมานรูปเก๋ง มีคำจารึกเป็นภาษาจีนที่ผนังเบื้องหลัง แปลว่า \"พระวิมานแห่งพระสยามเทวาธิราช\"",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "siam-devadhiraj-c06",
+          "source_id": "siam-devadhiraj-s2",
+          "host": "th.wikipedia.org",
+          "statement": "In front of the image stands the image of the goddess of music and singing (Phra Surasawadi, also called Phra Phrahmi); the east porch of the vimana holds images of Shiva (Phra Isuan) and Uma, and the west porch an image of Vishnu (Phra Narai) riding Garuda.",
+          "statement_id": "Di depan arca Phra Siam Devadhiraj ditempatkan arca dewi musik dan nyanyian (Phra Surasawadi, juga disebut Phra Phrahmi); di serambi timur wimana ditempatkan arca Shiva (Phra Isuan) dan Uma, dan di serambi barat arca Wisnu (Phra Narai) menunggang Garuda.",
+          "quote": "ด้านหน้าของเทวรูปพระสยามเทวาธิราชตั้งเทวรูปพระสุรัสวดี หรือพระพราหมี เทพเจ้าแห่งการดนตรีและขับร้อง มุขตะวันออกของพระวิมาน ตั้งเทวรูปพระอิศวรและพระอุมา มุขตะวันตกของพระวิมาน ตั้งเทวรูปพระนารายณ์ทรงครุฑ",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "siam-devadhiraj-c07",
+          "source_id": "siam-devadhiraj-s3",
+          "host": "seaarts.sac.or.th",
+          "statement": "According to the Sirindhorn Anthropology Centre, King Mongkut ordered the making of Phra Siam Devadhiraj because he reasoned that Siam had come through various crises thanks to a great deity protecting the country.",
+          "statement_id": "Menurut Pusat Antropologi Sirindhorn, Raja Mongkut memerintahkan pembuatan Phra Siam Devadhiraj karena beliau berpendapat bahwa Siam selamat dari berbagai krisis berkat adanya dewa agung yang melindungi negeri.",
+          "quote": "พระบาทสมเด็จพระจอมเกล้าเจ้าอยู่หัวโปรดเกล้าฯ ให้สร้างพระสยามเทวาธิราช ด้วยมีพระราชดำริว่าสายามรอดพ้นวิกฤตการณ์ต่างๆมาได้เพราะมีเทวดาผู้เป็นใหญ่คุ้มครองรักษาบ้านเมือง",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "siam-devadhiraj-c08",
+          "source_id": "siam-devadhiraj-s3",
+          "host": "seaarts.sac.or.th",
+          "statement": "According to the centre, by King Mongkut's royal favour, Prince Pradit Worakan, then serving in the Krom Chang Sip Mu, assembled the master craftsmen and began casting the image of Phra Siam Devadhiraj.",
+          "statement_id": "Menurut pusat itu, atas titah Raja Mongkut, Pangeran Pradit Worakan, yang saat itu bertugas di Departemen Sipuhmu (Krom Chang Sip Mu), mengumpulkan para pengrajin utama dan mulai mengecor rupa Phra Siam Devadhiraj.",
+          "quote": "พระบาทสมเด็จพระจอมเกล้าเจ้าอยู่หัวทรงพระกรุณาโปรดเกล้าฯ พระองค์เจ้าประดิษฐวรการซึ่งขณะนั้นรับราชการอยู่ในกรมช่างสิบหมู่ ประชุมช่างเอกและลงมือหล่อรูปพระสยามเทวาธิราชขึ้น",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "siam-devadhiraj-c09",
+          "source_id": "siam-devadhiraj-s3",
+          "host": "seaarts.sac.or.th",
+          "statement": "According to the centre, the image is cast in gold and measures 20 centimetres (8 inches).",
+          "statement_id": "Menurut pusat itu, arca dicor dari emas dengan ukuran 20 sentimeter (8 inci).",
+          "quote": "หล่อด้วยทองคำ ประวัติการอนุรักษ์ - ขนาด 20 เซนติเมตร (8 นิ้ว)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "siam-devadhiraj-c10",
+          "source_id": "siam-devadhiraj-s3",
+          "host": "seaarts.sac.or.th",
+          "statement": "According to the centre, the image is enshrined in a sandalwood house in the Chinese pavilion style with a Chinese inscription translated as \"the abode of Phra Siam Devadhiraj\".",
+          "statement_id": "Menurut pusat itu, arca ditakhtakan dalam rumah kaca kayu cendana bergaya paviliun Tionghoa dengan prasasti berbahasa Tionghoa yang diterjemahkan sebagai \"tempat bersemayam Phra Siam Devadhiraj\".",
+          "quote": "ประดิษฐานอยู่ภายในพระวิมานไม้จันทน์แบบเก๋งจีน มีคำจารึกภาษาจีน แปลได้ว่า “สถิตแห่งพระสยามเทวาธิราช”",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "siam-devadhiraj-c11",
+          "source_id": "siam-devadhiraj-s3",
+          "host": "seaarts.sac.or.th",
+          "statement": "According to the centre, the image was originally enshrined in the Phra Thinang Song Tham in the Phra Maha Monthian group; later, in the reign of King Chulalongkorn, it was moved to the Phra Thinang Phaisan Thaksin and remains there today.",
+          "statement_id": "Menurut pusat itu, arca semula ditakhtakan di Phra Thinang Song Tham dalam kelompok Phra Maha Monthian; kemudian pada masa Raja Chulalongkorn dipindahkan ke Phra Thinang Phaisan Thaksin dan tetap di sana hingga kini.",
+          "quote": "เดิมพระสยามเทวาธิราชนี้ประดิษฐานอยู่ภายในพระที่นั่งทรงธรรมในหมู่พระมหามณเฑียร ต่อมาในสมัยพระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัวได้อัญเชิญไปประดิษฐานยังพระที่นั่งไพศาลทักษิณและยังคงประดิษฐานอยู่ ณ ที่นี้จนถึงปัจจุบัน",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "siam-devadhiraj-c12",
+          "source_id": "siam-devadhiraj-s3",
+          "host": "seaarts.sac.or.th",
+          "statement": "According to the centre, the exact time the image was established is not settled: Prince Damrong Rajanubhab supposed it was made in B.E. 2396, while Mom Chao Pilailekha Diskul supposed around B.E. 2401–2403.",
+          "statement_id": "Menurut pusat itu, waktu pasti pendirian arca belum disimpulkan: Pangeran Damrong Rajanubhab menduga dibuat pada B.E. 2396, sedangkan Mom Chao Phailailekha Disakul menduga sekitar B.E. 2401–2403.",
+          "quote": "เวลาที่แน่ชัดของการสถาปนาพระสยามเทวาธิราชในปัจจุบันยังไม่เป็นที่สรุป สมเด็จฯ กรมพระยาดำรงราชานุภาพสันนิษฐานว่าสร้างขึ้นเมื่อพ.ศ. 2396 ในขณะที่หม่อมเจ้าหญิงพิไลยเลขา ดิศกุล สันนิษฐานว่าสร้างขึ้นในราว พ.ศ. 2401 – 2403",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "siam-devadhiraj-c13",
+          "source_id": "siam-devadhiraj-s3",
+          "host": "seaarts.sac.or.th",
+          "statement": "According to the centre, the image was probably made before B.E. 2404, the first year the name Phra Siam Devadhiraj appears in a royal handwritten letter.",
+          "statement_id": "Menurut pusat itu, arca kemungkinan dibuat sebelum B.E. 2404, tahun pertama nama Phra Siam Devadhiraj muncul dalam sebuah surat tulisan tangan raja.",
+          "quote": "พระสยามเทวาธิราชน่าจะสร้างขึ้นก่อน พ.ศ. 2404 เพราะเป็นปีแรกที่ปรากฏชื่อพระสยามเทวาธิราชในพระราชหัตถเลขาฉบับหนึ่ง",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "siam-devadhiraj-c14",
+          "source_id": "siam-devadhiraj-s3",
+          "host": "seaarts.sac.or.th",
+          "statement": "According to the centre, although King Mongkut had accepted Western ideas, he still believed in deities, as seen in the making of this image in his reign.",
+          "statement_id": "Menurut pusat itu, meski Raja Mongkut telah menerima gagasan Barat, beliau masih mempercayai dewa, seperti tampak dari pembuatan arca ini pada masa pemerintahannya.",
+          "quote": "แม้พระบาทสมเด็จพระจอมเกล้าเจ้าอยู่หัวจะทรงรับแนวความคิดแบบตะวันตกแล้ว แต่ขณะเดียวกันก็ยังทรงมีความเชื่อในเรื่องเทวดาอยู่ ดังจะเห็นจากการสร้างรูปพระสยามเทวาธิราชนี้ขึ้นในรัชกาลของพระองค์",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "siam-devadhiraj-c15",
+          "source_id": "siam-devadhiraj-s3",
+          "host": "seaarts.sac.or.th",
+          "statement": "According to the centre, in the fourth reign it was ordered that celebrations be held and an altar table with offerings be set up for Phra Siam Devadhiraj regularly.",
+          "statement_id": "Menurut pusat itu, pada masa Rama IV dititahkan agar diadakan perayaan dan meja persembahan sesaji bagi Phra Siam Devadhiraj secara rutin.",
+          "quote": "รัชกาลที่ 4 โปรดเกล้าฯ ให้มีการสมโภชและตั้งโต๊ะหมู่บูชาถวายเครื่องสังเวยพระสยามเทวาธิราชเป็นประจำ",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "siam-devadhiraj-c16",
+          "source_id": "siam-devadhiraj-s3",
+          "host": "seaarts.sac.or.th",
+          "statement": "According to the centre, with the right hand holding a khan sword and the left hand pinched before the chest, the image is regarded as an important deity image for the country and the court in the Rattanakosin period.",
+          "statement_id": "Menurut pusat itu, dengan tangan kanan memegang pedang khan dan tangan kiri dijumput di depan dada, arca ini disebut sebagai arca dewa yang penting bagi negeri dan istana pada masa Rattanakosin.",
+          "quote": "พระหัตถ์ขวาทรงถือพระขรรค์ พระหัตถ์ซ้ายจีบพระหัตถ์ นับเป็นเทวรูปที่สำคัญของบ้านเมืองและราชสำนักในสมัยรัตนโกสินทร์",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "siam-devadhiraj-c17",
+          "source_id": "siam-devadhiraj-s3",
+          "host": "seaarts.sac.or.th",
+          "statement": "The centre lists related works: a phra pai enshrined at the Phra Thinang Amphon Sathan, and a royal statue in the same style as Phra Siam Devadhiraj but with a face resembling King Mongkut.",
+          "statement_id": "Pusat itu mencatat karya terkait: sebuah phra pai yang ditakhtakan di Phra Thinang Amphon Sathan, dan patung raja bergaya sama dengan Phra Siam Devadhiraj tetapi berwajah mirip Raja Mongkut.",
+          "quote": "งานศิลปะที่เกี่ยวข้อง พระป้าย ประดิษฐาน ณ พระที่นั่งอัมพรสถาน พระบรมรูปที่มีรูปแบบเดียวกันกับพระสยามเทวาธิราชแต่มีพระพักตร์คล้ายกับพระบาทสมเด็จพระจอมเกล้าเจ้าอยู่หัว",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "siam-devadhiraj-c18",
+          "source_id": "siam-devadhiraj-s4",
+          "host": "so02.tci-thaijo.org",
+          "statement": "According to this ThaiJO journal article, Thais believe that Thailand has Phra Siam Devadhiraj as a deity who protects against various calamities so that the country has not been ruined since ancient times.",
+          "statement_id": "Menurut artikel jurnal ThaiJO ini, orang Thai percaya bahwa Thailand memiliki Phra Siam Devadhiraj sebagai dewa pelindung dari berbagai marabahaya sehingga negeri tidak hancur sejak dahulu.",
+          "quote": "โดยคนไทยเชื่อกันว่าประเทศไทยมีพระสยามเทวาธิราชเป็ น เทพทีใ่ ห้ความคุม้ ครองป้องกันเภทภัยต่างๆ ไม่ให้ประเทศต้อง ประสบความพินาศย่อยยับมาแต่โบราณ",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "siam-devadhiraj-c19",
+          "source_id": "siam-devadhiraj-s4",
+          "host": "so02.tci-thaijo.org",
+          "statement": "The article argues that Phra Siam Devadhiraj was only made into an image in King Mongkut's reign, as a tool for building a \"culture of belief\".",
+          "statement_id": "Artikel itu berpendapat bahwa Phra Siam Devadhiraj baru dibuat wujudnya pada masa Raja Mongkut sebagai alat untuk membangun \"budaya keyakinan\".",
+          "quote": "แต่พระสยามเทวาธิ ราชเพิ่ ง จะสร้ า งเป็ นองค์ ข้ึ น มาในสมั ย พระบาทสมเด็ จ พระจอมเกล้าเจ้าอยูห่ วั เป็ นเครือ่ งมือในการสร้าง “วัฒนธรรม ความเชือ่ ”",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "siyokoy",
-      "file": "batch-010.md",
+      "file": "batch-010-fix-1.md",
+      "entry_sha256": "a165299f9fee81108ab3f0453ac6383549069936f2c5c8b5fec5a15ab3bbf5d7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 15,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
           "where": "tier",
-          "message": "Di bawah target rich: 4 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "message": "Di bawah target rich: 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
         }
       ],
       "claims": [
@@ -223,33 +635,138 @@
           "quote": "they drown fishermen and consume them for food.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "siyokoy-c06",
+          "source_id": "siyokoy-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wikipedia records an entry \"Siukuy\" (Siyokoy), from Mandarin shuǐguǐ meaning \"water ghost\", as the anito of the rivers; the Spanish bracketed phrase calls it the god of the rivers of the ancient Tagalogs.",
+          "statement_id": "Wikipedia mencatat entri \"Siukuy\" (Siyokoy), dari bahasa Mandarin shuǐguǐ yang berarti \"hantu air\", sebagai anito sungai; kalimat Spanyol dalam kurung menyebutnya dewa sungai orang Tagalog kuno.",
+          "quote": "Siukuy (Siyokoy = from Chinese Mandarin \"shuǐguǐ\" which means \"water ghost\") the anito of the rivers [Era el dios de los ríos de los tágalos antiguos].",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "siyokoy-c07",
+          "source_id": "siyokoy-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some descriptions also give the siyokoy long green tentacles and gill slits.",
+          "statement_id": "Beberapa deskripsi juga memberi siyokoy tentakel hijau panjang dan celah insang.",
+          "quote": "some description also give them long, green tentacles and gill slits",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "siyokoy-c08",
+          "source_id": "siyokoy-s2",
+          "host": "en.wikipedia.org",
+          "statement": "By physical features, the kataw, together with the sireyna and sireyno, were the Bantay Tubig creatures that resemble humans, while the siyokoy are those that resemble water creatures.",
+          "statement_id": "Berdasarkan ciri fisik, kataw bersama sireyna dan sireyno adalah makhluk Bantay Tubig yang menyerupai manusia, sedangkan siyokoy menyerupai makhluk air.",
+          "quote": "Based on physical features, Kataws, along the Sireyna and Sireyno, were the Bantay Tubig-creatures that bear likeness to human while Siyokoy are those that resemble water-creatures.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "siyokoy-c09",
+          "source_id": "siyokoy-s2",
+          "host": "en.wikipedia.org",
+          "statement": "In Visayan belief, the katau was held to rank higher than other water and sea creatures such as the sirena, sireno and siyokoy.",
+          "statement_id": "Dalam tradisi Visaya, katau dipercaya berkedudukan lebih tinggi daripada makhluk air dan laut lain seperti sirena, sireno, dan siyokoy.",
+          "quote": "In Visayan, Katau was believed to have higher rankings than other water and sea creatures as those of Sirena, Sireno and Siyokoy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "siyokoy-c10",
+          "source_id": "siyokoy-s3",
+          "host": "aswangproject.com",
+          "statement": "According to The Aswang Project, some Tagalogs call the merman siukoy; his skin is sunburned and hairy and his head hair is copper-colored, wavy and relatively short.",
+          "statement_id": "Menurut The Aswang Project, sebagian orang Tagalog menyebut manusia ikan jantan siukoy; kulitnya terbakar matahari dan berbulu, rambut kepalanya berwarna tembaga, bergelombang, dan relatif pendek.",
+          "quote": "Visayans call the mermaid ugkoy and some Tagalogs call the merman siukoy. A siukoy’s skin is sunburned and hairy and his head hair copper-colored and wavy but relatively short.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "siyokoy-c11",
+          "source_id": "siyokoy-s3",
+          "host": "aswangproject.com",
+          "statement": "According to The Aswang Project, mermen are good-looking young men from head to waist and fish below that.",
+          "statement_id": "Menurut The Aswang Project, manusia ikan jantan berupa pemuda tampan dari kepala sampai pinggang dan berupa ikan di bawahnya.",
+          "quote": "Mermen are good-looking young men from head to waist and fish below that.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "siyokoy-c12",
+          "source_id": "siyokoy-s3",
+          "host": "aswangproject.com",
+          "statement": "According to The Aswang Project, unlike in Europe, Philippine mermaids and mermen abound in rivers, lakes and waterfall basins as well as bays, gulfs and seas.",
+          "statement_id": "Menurut The Aswang Project, berbeda dengan Eropa, putri duyung dan manusia ikan jantan di Filipina banyak ditemukan di sungai, danau, dan cekungan air terjun, juga di teluk dan laut.",
+          "quote": "Unlike in Europe where merfolk inhabit salt water almost exclusively, Philippine mermaids and mermen abound in rivers, lakes, and the basins of waterfalls as well as bays, gulfs, and seas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "siyokoy-c13",
+          "source_id": "siyokoy-s3",
+          "host": "aswangproject.com",
+          "statement": "The Aswang Project states that, as in European folklore, Philippine folklore has fewer mermen than mermaids.",
+          "statement_id": "The Aswang Project menyatakan bahwa dalam cerita rakyat Filipina, seperti di Eropa, manusia ikan jantan lebih sedikit daripada putri duyung.",
+          "quote": "As in European folklore, there are fewer mermen than mermaids in Philippine folklore.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "siyokoy-c14",
+          "source_id": "siyokoy-s3",
+          "host": "aswangproject.com",
+          "statement": "The Aswang Project lists siukoy and ugkoy as local names for merfolk in Tagalog and Visayan, alongside others such as the Zambales mambubuno.",
+          "statement_id": "The Aswang Project mencantumkan siukoy dan ugkoy sebagai nama lokal makhluk air dalam bahasa Tagalog dan Visaya, di samping nama lain seperti mambubuno dari Zambales.",
+          "quote": "mambubuno—Zambales siukoy—Tagalog, Visayan ugkoy—Tagalog, Visayan",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "siyokoy-c15",
+          "source_id": "siyokoy-s3",
+          "host": "aswangproject.com",
+          "statement": "According to The Aswang Project, mermaids have long hair, a light complexion and sweet voices, while mermen have short curly hair and sunburnt skin.",
+          "statement_id": "Menurut The Aswang Project, putri duyung berambut panjang, berkulit cerah, dan bersuara merdu, sedangkan manusia ikan jantan berambut pendek keriting dan berkulit terbakar matahari.",
+          "quote": "Mermaids have long hair, a light complexion, and sweet voices, and mermen have short, curly hair and sunburnt skin.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "siyokoy-c16",
+          "source_id": "siyokoy-s3",
+          "host": "aswangproject.com",
+          "statement": "According to The Aswang Project, both mermaids and mermen look like attractive youths above the waist, while their lower bodies are those of scaly fish.",
+          "statement_id": "Menurut The Aswang Project, baik putri duyung maupun manusia ikan jantan tampak seperti remaja menarik di atas pinggang, tetapi tubuh bagian bawahnya berupa ikan bersisik.",
+          "quote": "Both look like attractive youths above the waist, but their lower bodies are those of scaly fish.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "engkanto",
-      "file": "batch-010.md",
+      "file": "batch-010-fix-1.md",
+      "entry_sha256": "0cbb3d8ebaffab3453cc852c0dd52fa68ff71fa630c44af90a8eea0637afc27d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 2,
+        "claims": 35,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 8 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "engkanto-c01",
           "source_id": "engkanto-s1",
           "host": "en.wikipedia.org",
-          "statement": "Engkanto (from Spanish encanto, 'enchantment') are environmental spirits able to appear in human form, often linked with ancestral spirits and spirits of the dead called anito in the Philippines.",
-          "statement_id": "Engkanto (dari bahasa Spanyol encanto, 'pesona') adalah roh lingkungan yang dapat menampakkan diri dalam wujud manusia, sering dikaitkan dengan arwah leluhur dan roh orang mati yang disebut anito di Filipina.",
+          "statement": "Engkanto are mythical environmental spirits said to be able to appear in human form; they are often associated with the spirits of ancestors and of the dead called anito in the Philippines.",
+          "statement_id": "Engkanto adalah roh lingkungan mitos yang konon dapat tampil dalam wujud manusia; mereka sering dikaitkan dengan arwah leluhur dan arwah orang mati yang disebut anito di Filipina.",
           "quote": "are mythical environmental spirits that are said to have the ability to appear in human form. They are often associated with the spirits of ancestors and spirits of the dead called anito in the Philippines.",
           "context": "traditional-belief",
           "status": "exact"
@@ -268,8 +785,8 @@
           "id": "engkanto-c03",
           "source_id": "engkanto-s1",
           "host": "en.wikipedia.org",
-          "statement": "Engkanto resemble humans: they age, have male and female sexes, can fall ill and even die; some are beautiful with blue eyes, fair skin and golden hair.",
-          "statement_id": "Engkanto mirip manusia: mereka menua, berjenis kelamin laki-laki dan perempuan, dapat sakit, bahkan mati; sebagian rupawan bermata biru, berkulit terang, dan berambut keemasan.",
+          "statement": "Engkanto resemble humans in that they age, appear to have male and female sexes, can fall ill and even die.",
+          "statement_id": "Engkanto punya banyak kemiripan dengan manusia: mereka menua, tampaknya berjenis kelamin laki-laki dan perempuan, dapat sakit, dan bahkan mati.",
           "quote": "Engkanto have many similarities to humans in that they age, appear to have male and female sexes, can experience from illness and even die.",
           "context": "traditional-belief",
           "status": "exact"
@@ -288,8 +805,8 @@
           "id": "engkanto-c05",
           "source_id": "engkanto-s1",
           "host": "en.wikipedia.org",
-          "statement": "Those the engkanto disfavour become depressed, mad or vanish for days or months, possibly through possession; they cause fevers and skin disease; anting-anting or agimat amulets ward them off, and favoured people gain power and riches.",
-          "statement_id": "Orang yang tidak disukai engkanto menjadi murung, gila, atau menghilang berhari-hari hingga berbulan-bulan, mungkin karena dirasuki; engkanto juga dapat menyebabkan demam dan penyakit kulit; jimat anting-anting atau agimat menangkalnya, dan orang yang mereka sukai memperoleh kekuatan dan kekayaan.",
+          "statement": "Those the engkanto do not favour become depressed, go mad or disappear for days or months, possibly as a result of possession; they are also said to be able to cause fevers and skin diseases such as boils.",
+          "statement_id": "Orang yang tidak disukai engkanto menjadi murung, gila, atau menghilang berhari-hari hingga berbulan-bulan, mungkin karena dirasuki; mereka juga dikatakan dapat menyebabkan demam dan penyakit kulit seperti bisul.",
           "quote": "Those who the engkanto do not favor would become depressed, suffer from madness, or even disappear for days or months, possibly as a result of possession. They are also said to be capable of causing fevers and skin diseases such as boils.",
           "context": "traditional-belief",
           "status": "exact"
@@ -308,8 +825,8 @@
           "id": "engkanto-c07",
           "source_id": "engkanto-s2",
           "host": "www.aswangproject.com",
-          "statement": "According to Jordan Clark, the evolution of folklore creatures almost always begins with belief in these spirits.",
-          "statement_id": "Menurut Jordan Clark, evolusi makhluk folklor hampir selalu berawal dari kepercayaan pada roh-roh ini.",
+          "statement": "According to the Aswang Project article, the evolution of folkloric creatures almost always begins with belief in these spirits.",
+          "statement_id": "Menurut artikel Aswang Project, evolusi makhluk folklor hampir selalu berawal dari kepercayaan pada roh-roh ini.",
           "quote": "The evolution of folkloric creatures almost always begins with the belief in these spirits.",
           "context": "scholarly-interpretation",
           "status": "exact"
@@ -323,26 +840,291 @@
           "quote": "The engkanto of Philippine mythology are highly similar to elves of European folklore.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "engkanto-c09",
+          "source_id": "engkanto-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some engkanto appear beautiful with blue eyes, fair complexion and golden hair, but may also have unusual features such as high-bridged noses and absent philtrums.",
+          "statement_id": "Sebagian engkanto tampak cantik dengan mata biru, kulit cerah, dan rambut keemasan, tetapi dapat pula memiliki ciri tak biasa seperti hidung mancung dan tanpa lekuk di atas bibir.",
+          "quote": "Some appear to be beautiful having blue eyes, fair complexion and golden hair, but may also have unusual features such as high-bridged noses and absent philtrums.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c10",
+          "source_id": "engkanto-s1",
+          "host": "en.wikipedia.org",
+          "statement": "These spirits sometimes lead travelers astray in the forest and even kidnap them; this is said to be avoidable by carrying an \"anting-anting\" or \"agimat\", a magical charm or amulet that wards away evil spirits and prevents them from harming the wielder.",
+          "statement_id": "Roh-roh ini kadang menyesatkan pejalan di hutan, bahkan menculik mereka; hal itu dikatakan dapat dihindari dengan membawa \"anting-anting\" atau \"agimat\", jimat atau benda bertuah yang menangkal roh jahat dan mencegahnya mencelakai pemakainya.",
+          "quote": "These spirits also sometimes lead travelers astray in the forest, even kidnap them. This, however, is said to be avoidable by bringing an \"anting-anting\" or \"agimat\" a piece of magical charm or amulet that wards away evil spirits and prevents them from harming the wielder.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c11",
+          "source_id": "engkanto-s1",
+          "host": "en.wikipedia.org",
+          "statement": "If they do favour someone, however, they are generous and can bring that person power and riches; shamans often try to commune with engkanto on holy days to obtain better healing powers from them.",
+          "statement_id": "Namun, jika menyukai seseorang, mereka murah hati dan mampu membawa kekuasaan dan kekayaan kepada orang itu; dukun sering berusaha berhubungan dengan engkanto pada hari-hari suci untuk memperoleh kemampuan menyembuhkan yang lebih baik.",
+          "quote": "However, if they do favor someone, they are generous and capable of bringing power and riches to that person. Shamans often try to commune with engkanto on holy days to obtain better healing powers from them",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c12",
+          "source_id": "engkanto-s1",
+          "host": "en.wikipedia.org",
+          "statement": "An engkanto may choose to stay by a human's side, as in stories where the characters are usually in a trance or suffer a deep loss of energy; engkanto may be good or bad.",
+          "statement_id": "Seorang engkanto dapat memilih tinggal di sisi manusia, seperti dalam kisah-kisah tempat tokohnya biasanya berada dalam keadaan seperti trans atau kehilangan tenaga yang dalam; engkanto dapat berwatak baik atau buruk.",
+          "quote": "An engkanto may choose to stay by a human's side as told by stories where characters are usually in either a sense of trance or a deep loss of energy. Engkanto may be good or bad.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c13",
+          "source_id": "engkanto-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Other variants show sexual dimorphism, such as the Bagobo spirits divided into the female tahamaling and the male mahomanay; the female is alleged to have a red complexion while males have a fair complexion.",
+          "statement_id": "Varian lain menunjukkan dimorfisme seksual, misalnya roh Bagobo yang dibedakan menjadi tahamaling (perempuan) dan mahomanay (laki-laki); roh perempuan konon berkulit kemerahan, sedangkan yang laki-laki berkulit cerah.",
+          "quote": "Other variants exhibit sexual dimorphism such as Bagobo spirits which are separated into the female tahamaling and the male mahomanay. The female spirit is alleged to have a red complexion while males have a fair complexion.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c14",
+          "source_id": "engkanto-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Engkanto have been portrayed in Philippine pop culture and media, especially films and television, for example the Shake, Rattle & Roll film series (1994 to 2011), Spirit Warriors: The Shortcut (2003), Luna Mystika (2008–2009), T2 (2009) and Ang Panday (2017).",
+          "statement_id": "Engkanto telah ditampilkan dalam budaya populer dan media Filipina, terutama film dan televisi, misalnya seri film Shake, Rattle & Roll (1994 hingga 2011), Spirit Warriors: The Shortcut (2003), Luna Mystika (2008–2009), T2 (2009), dan Ang Panday (2017).",
+          "quote": "Engkanto have been portrayed in Philippine pop culture and media, particularly in films and television shows: The Shake, Rattle & Roll film series: V (1994), 9 (2007), X (2008), 12 (2010), and 13 (2011) Spirit Warriors: The Shortcut (2003) Luna Mystika (2008–2009) T2 (2009) Ang Panday (2017)",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c15",
+          "source_id": "engkanto-s4",
+          "host": "aswangproject.com",
+          "statement": "According to the essay, \"encantado\", from which engkanto seems to be derived, is the preterite perfect of the Spanish verb encantar and means \"bewitched\", \"spell-bound\" or \"enchanted\".",
+          "statement_id": "Menurut esai itu, \"encantado\", yang tampaknya menjadi asal kata engkanto, adalah bentuk lampau kata kerja Spanyol encantar dan berarti \"tersihir\", \"terpesona\", atau \"terpikat\".",
+          "quote": "Encantado from which engkanto seems to be derived is the preterite perfect of the Spanish verb encantar, and it means “bewitched,” “spell-bound,” or “enchanted.”",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c16",
+          "source_id": "engkanto-s4",
+          "host": "aswangproject.com",
+          "statement": "The essay records local names for the engkanto: tumao (Povedano MS, 1578), tiaw (Cagayan de Oro, Gingoog City, Misamis Oriental, 1966), meno (Iligan City, 1967), panulay (Siquijor, 1967) and tagbanua (Talakag, Bukidnon, 1967).",
+          "statement_id": "Esai itu mencatat nama-nama lokal untuk engkanto: tumao (naskah Povedano, 1578), tiaw (Cagayan de Oro, Gingoog City, Misamis Oriental, 1966), meno (Iligan City, 1967), panulay (Siquijor, 1967), dan tagbanua (Talakag, Bukidnon, 1967).",
+          "quote": "tumao, (Povedano MS, 1578), tiaw (Cagayan de Oro, Gingoog City, Misamis Oriental, 1966), meno (Iligan City, 1967), panulay (Siquijor, 1967), tagbanua (Talakag, Bukidnon, 1967)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c17",
+          "source_id": "engkanto-s4",
+          "host": "aswangproject.com",
+          "statement": "According to the essay, engkanto are sometimes associated with the souls of dead ancestors and are therefore objects of dread.",
+          "statement_id": "Menurut esai itu, engkanto kadang dikaitkan dengan arwah leluhur yang telah meninggal sehingga menjadi objek rasa takut.",
+          "quote": "Engkantos are sometimes associated with souls of dead ancestors, and are therefore objects of dread.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c18",
+          "source_id": "engkanto-s4",
+          "host": "aswangproject.com",
+          "statement": "According to the essay, engkanto instil fear through spectacular feats to punish whoever disregards their affections, such as stone-throwing and wrapping clothes around a post closed at both ends.",
+          "statement_id": "Menurut esai itu, engkanto menebar rasa takut lewat aksi mengejutkan untuk menghukum orang yang mengabaikan kasih sayang mereka, seperti melempar batu dan melilitkan pakaian pada tiang yang tertutup di kedua ujungnya.",
+          "quote": "They inject fear by the spectacular feats they do in order to punish whoever disregards their affections: stonethrowing, wrapping clothes around a post closed on both ends",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c19",
+          "source_id": "engkanto-s4",
+          "host": "aswangproject.com",
+          "statement": "The essay interprets the sacred aspect shown in experiences of the engkanto as \"demonic\", containing the possibility of both good and evil, holy and profane.",
+          "statement_id": "Esai itu menafsirkan sisi sakral yang tampak dalam pengalaman dengan engkanto sebagai \"demonik\", yaitu memuat kemungkinan baik maupun jahat, suci maupun profan.",
+          "quote": "The aspect of the sacred which experience of the engkantos manifests seems to be demonic. It is compounded of the possibility for both good and evil; holy and profane.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c20",
+          "source_id": "engkanto-s4",
+          "host": "aswangproject.com",
+          "statement": "According to the essay, shortly after the coming of Christianity (Alzina, 1668), the call to the office of bailana or daetan (priestess) among the Bisayans began precisely with the madness, or tiaw, that the candidate underwent.",
+          "statement_id": "Menurut esai itu, tak lama setelah kedatangan agama Kristen (Alzina, 1668), panggilan menjadi bailana atau daetan (pendeta perempuan) di kalangan orang Bisaya bermula tepat dari kegilaan, atau tiaw, yang dialami sang calon.",
+          "quote": "shortly after the coming of Christianity (Alzina, 1668), the call to the office of bailana or daetan (priestess) among the Bisayans began precisely with this madness, or tiaw which the candidate underwent.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c21",
+          "source_id": "engkanto-s4",
+          "host": "aswangproject.com",
+          "statement": "The essay writes that not every reported engkanto case is authentic; there are fake \"victims\" who aim to catch the public's attention.",
+          "statement_id": "Esai itu menulis bahwa tidak setiap kasus engkanto yang dilaporkan itu asli; ada \"korban\" palsu yang ingin menarik perhatian publik.",
+          "quote": "Not every case of reported engkanto phenomenon is authentic. There are fake “victims” of engkanto who aim at catching the attention of the public.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c22",
+          "source_id": "engkanto-s4",
+          "host": "aswangproject.com",
+          "statement": "The essay notes that engkanto were always seen as handsome people, in fact said to look like Spaniards.",
+          "statement_id": "Esai itu mencatat bahwa engkanto selalu dipandang sebagai orang yang rupawan, bahkan dikatakan mirip orang Spanyol.",
+          "quote": "For the engkantos were always seen as handsome people, in fact they were said to look like Spaniards.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c23",
+          "source_id": "engkanto-s4",
+          "host": "aswangproject.com",
+          "statement": "In the essay's hypothesis, the disappearance of the soul (ecstasy) or the actual physical disappearance of the victim is part of an initiation scenario through which a select few are prepared for a new role in the community.",
+          "statement_id": "Menurut hipotesis esai itu, menghilangnya jiwa (ekstase) atau hilangnya fisik korban merupakan bagian dari skenario inisiasi yang dijalani segelintir orang terpilih untuk menyiapkan peran baru mereka dalam masyarakat.",
+          "quote": "the disappearance of the soul (ecstacy) or the actual physical disappearance of the victim, are all part and parcel of the scenario of initiation to which these select few are introduced in order to prepare them for the new role they are to play in the community.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c24",
+          "source_id": "engkanto-s3",
+          "host": "pssc.org.ph",
+          "statement": "According to the essay, rural peoples of the Philippines believe in superhuman beings called engkantos and in their influence on human lives; the belief is found in Luzon and is quite common in the Visayas and Mindanao.",
+          "statement_id": "Menurut esai itu, masyarakat pedesaan Filipina percaya akan keberadaan makhluk adimanusia bernama engkanto dan pengaruhnya atas kehidupan manusia; kepercayaan ini ditemukan di Luzon dan cukup umum di Visayas dan Mindanao.",
+          "quote": "Rural peoples of the Philippines believe in the existence of superhuman beings called engkantos as well as in the influence they exercise on human lives. The belief is found in Luzon, and also is quite common in the Visayas and in Mindanao.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c25",
+          "source_id": "engkanto-s3",
+          "host": "pssc.org.ph",
+          "statement": "The essay notes that this belief seems to have lasted at least four centuries, with allusions by Povedano (16th century) and Alzina (17th).",
+          "statement_id": "Esai itu mencatat bahwa kepercayaan ini tampaknya bertahan setidaknya empat abad, dengan rujukan dari Povedano (abad ke-16) dan Alzina (abad ke-17).",
+          "quote": "this belief seems to have perdured for at least four centuries: Povedano (16th century), Alzina (17th)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c26",
+          "source_id": "engkanto-s3",
+          "host": "pssc.org.ph",
+          "statement": "According to the essay, engkanto are described as fair-complexioned, golden-haired and blue-eyed with clean-cut, perfectly chiselled faces, exemplifying the best of the Spaniards (in the past) and the Americans (in the present).",
+          "statement_id": "Menurut esai itu, engkanto digambarkan berkulit cerah, berambut keemasan, bermata biru, dengan wajah bersih dan sempurna, mewakili yang terbaik dari orang Spanyol (dahulu) dan orang Amerika (kini).",
+          "quote": "They are of fair complexion, golden haired, blue eyed; they have clean-cut features and perfectly chiselled faces. They exemplify the best of the Spaniards (in the past) and of the Americans (in the present).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c27",
+          "source_id": "engkanto-s3",
+          "host": "pssc.org.ph",
+          "statement": "According to the essay, the engkanto's food is of the very best quality but contains no salt.",
+          "statement_id": "Menurut esai itu, makanan engkanto berkualitas terbaik tetapi tidak mengandung garam.",
+          "quote": "Their food is of the very best quality, but contains no salt.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c28",
+          "source_id": "engkanto-s3",
+          "host": "pssc.org.ph",
+          "statement": "According to the essay, though beautiful and fair-skinned, engkantos are said to be romantically attracted to a brown-skinned girl or boy.",
+          "statement_id": "Menurut esai itu, meski cantik dan berkulit cerah, engkanto konon tertarik secara romantis pada gadis atau pemuda berkulit cokelat.",
+          "quote": "Though beautiful and fairskinned, engkantos are said to be romantically attracted to a brown-skinned girl, or boy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c29",
+          "source_id": "engkanto-s3",
+          "host": "pssc.org.ph",
+          "statement": "According to the essay, engkanto are whimsical and unpredictable: they play jokes on people by making them go astray in the forest at night, or take the likeness of mortal friends and relatives to dupe the objects of their desire.",
+          "statement_id": "Menurut esai itu, engkanto berubah-ubah dan tak terduga: mereka mengerjai orang dengan menyesatkannya di hutan pada malam hari, atau menjelma menyerupai teman dan kerabat manusia untuk memperdaya orang yang mereka inginkan.",
+          "quote": "They are whimsical and unpredictable; they play jokes on people; making them go astray in the forest at night, or transform themselves into the likenesses of mortal friends and relatives in order to dupe the objects of their desire.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c30",
+          "source_id": "engkanto-s3",
+          "host": "pssc.org.ph",
+          "statement": "According to the essay, people keep silent when approaching the places reputed to be their habitats: large rocks, large trees, secret caves, or springs and fountains.",
+          "statement_id": "Menurut esai itu, orang berdiam diri ketika mendekati tempat yang dipercaya sebagai kediaman engkanto: batu besar, pohon besar, gua rahasia, atau mata air dan pancuran.",
+          "quote": "People observe silence when they approach their reputed habitats: large rocks, large trees, secret caves or springs and fountains.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c31",
+          "source_id": "engkanto-s3",
+          "host": "pssc.org.ph",
+          "statement": "According to the essay, engkanto are known to be able to inflict diseases such as fevers, boils and other skin diseases as a result of their curse.",
+          "statement_id": "Menurut esai itu, engkanto diketahui dapat menimbulkan penyakit seperti demam, bisul, dan penyakit kulit lain akibat kutukan mereka.",
+          "quote": "inflict diseases: fevers, boils and other skin diseases as result of their curse",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c32",
+          "source_id": "engkanto-s3",
+          "host": "pssc.org.ph",
+          "statement": "According to the essay, someone may unknowingly brush against the invisible engkanto and be suddenly slapped in the face or have his skull cracked by a blow.",
+          "statement_id": "Menurut esai itu, seseorang bisa tanpa sadar bersentuhan dengan engkanto yang tak terlihat, lalu tiba-tiba ditampar wajahnya atau dipukul hingga tengkoraknya retak.",
+          "quote": "Without knowing it someone may brush against the invisible engkanto, and suddenly he is slapped in the face or his skull is cracked by a blow.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c33",
+          "source_id": "engkanto-s3",
+          "host": "pssc.org.ph",
+          "statement": "According to the essay, shamans and mananambals go far into lonely caves on Holy Thursday or Good Friday to commune with the engkantos and gain power for healing diseases and battling evil spirits.",
+          "statement_id": "Menurut esai itu, dukun dan mananambal pergi jauh ke gua-gua terpencil pada Kamis Putih atau Jumat Agung untuk berhubungan dengan engkanto dan memperoleh kekuatan menyembuhkan penyakit serta melawan roh jahat.",
+          "quote": "Shamans and mananambals go out of their way into far and lonely caves on Holy Thursday or Good Friday in order to commune with the engkantos and to acquire power for healing diseases and battling evil spirits.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c34",
+          "source_id": "engkanto-s4",
+          "host": "aswangproject.com",
+          "statement": "An essay titled Engkanto Belief: An Essay in Interpretation, by Francisco R. Demetrio, S.J., is republished on The Aswang Project site.",
+          "statement_id": "Esai berjudul Engkanto Belief: An Essay in Interpretation, karya Francisco R. Demetrio, S.J., diterbitkan ulang di situs The Aswang Project.",
+          "quote": "ENGKANTO BELIEF: An Essay In Interpretation by Francisco R. Demetrio, S.J.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "engkanto-c35",
+          "source_id": "engkanto-s3",
+          "host": "pssc.org.ph",
+          "statement": "The essay The Engkanto Belief: An Essay in Interpretation by Francisco Demetrio appears in the PSSC archive of the Philippine Sociological Review.",
+          "statement_id": "Esai The Engkanto Belief: An Essay in Interpretation karya Francisco Demetrio dimuat dalam arsip Philippine Sociological Review milik PSSC.",
+          "quote": "The Engkanto Belief: An Essay in Interpretation FRANCISCO DEMETRIO,",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "manaul",
-      "file": "batch-010.md",
+      "file": "batch-010-fix-1.md",
+      "entry_sha256": "71091c1ea31fa2d14d44f2d40604661e3187eaae3cb746b1b12a36ec5e8d4137",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 3,
+        "claims": 25,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 7 klaim (target 15), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "manaul-c01",
@@ -378,8 +1160,8 @@
           "id": "manaul-c04",
           "source_id": "manaul-s1",
           "host": "en.wikipedia.org",
-          "statement": "In Tagalog folklore, Bathala sent a tigmamanukan omen bird named Manaul to peck the bamboo; it split open, releasing the first man, Malakas, and the first woman, Maganda; Manaul then flew right to left as a good omen; other sources say Amihan in bird form pecked it.",
-          "statement_id": "Dalam cerita rakyat Tagalog, Bathala mengutus burung pertanda tigmamanukan bernama Manaul untuk mematuk bambu; bambu terbelah dan keluarlah laki-laki pertama, Malakas, dan perempuan pertama, Maganda; Manaul lalu terbang dari kanan ke kiri sebagai pertanda baik; sumber lain menyebut Amihan dalam wujud burung yang mematuknya.",
+          "statement": "In Tagalog folklore, Bathala sent a tigmamanukan omen bird he named Manaul to peck the bamboo; it split open and released the first man, Malakas, and the first woman, Maganda.",
+          "statement_id": "Dalam cerita rakyat Tagalog, Bathala mengirim burung pertanda tigmamanukan yang ia beri nama Manaul untuk mematuk bambu; bambu itu terbelah dan melepaskan laki-laki pertama, Malakas, dan perempuan pertama, Maganda.",
           "quote": "In Tagalog folklore, it is said that Bathala sent a tigmamanukan omen bird he named \"Manaul\" to peck on the bamboo. Manaul flew from one side to the other before settling on the bamboo. When Manaul pecked on the bamboo, it opened in half and released the first man, Malakas, and the first woman, Maganda.",
           "context": "traditional-belief",
           "status": "exact"
@@ -398,8 +1180,8 @@
           "id": "manaul-c06",
           "source_id": "manaul-s3",
           "host": "www.aswangproject.com",
-          "statement": "According to Jordan Clark, the Pavón manuscripts' trail leads to the 20th-century forger José E. Marco; the Manaul story is worth reading as folklore history, but the manuscript cannot authenticate it as ancient Visayan.",
-          "statement_id": "Menurut Jordan Clark, jejak dokumen naskah Pavón mengarah ke pemalsu barang antik abad ke-20 José E. Marco; kisah Manaul layak dibaca sebagai bagian sejarah folklor Filipina, tetapi naskah itu tidak dapat membuktikannya sebagai kisah Visayas kuno.",
+          "statement": "According to the Aswang Project article, the documentary trail of the Pavón manuscripts leads to the twentieth-century forger José E. Marco; the Manaul story is worth reading as part of the history of Philippine folklore, but the manuscript cannot authenticate it as an ancient Visayan account.",
+          "statement_id": "Menurut artikel The Aswang Project, jejak dokumen naskah Pavón mengarah ke pemalsu abad ke-20 José E. Marco; kisah Manaul layak dibaca sebagai bagian sejarah folklor Filipina, tetapi naskah itu tidak dapat mengesahkannya sebagai kisah Visaya kuno.",
           "quote": "Its documentary trail leads instead to the twentieth-century antiquarian and forger José E. Marco. Manaul’s story remains worth reading as part of the history of Philippine folklore, but the manuscript cannot authenticate it as an ancient Visayan account.",
           "context": "scholarly-interpretation",
           "status": "exact"
@@ -408,9 +1190,189 @@
           "id": "manaul-c07",
           "source_id": "manaul-s3",
           "host": "www.aswangproject.com",
-          "statement": "The fullest named Manaul account comes through the so-called Pavón manuscripts.",
-          "statement_id": "Kisah Manaul yang paling lengkap berasal dari apa yang disebut naskah Pavón.",
+          "statement": "According to the Aswang Project article, the fullest named Manaul account comes through the so-called Pavón manuscripts.",
+          "statement_id": "Menurut artikel The Aswang Project, kisah bernama Manaul yang paling lengkap datang lewat apa yang disebut naskah Pavón.",
           "quote": "The fullest named account comes through the so-called Pavón manuscripts.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "manaul-c08",
+          "source_id": "manaul-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Manaul afterward flew from right to left again, signalling a labay, or good omen, to proceed.",
+          "statement_id": "Manaul kemudian terbang lagi dari kanan ke kiri sebagai labay, atau pertanda baik, agar kegiatan dilanjutkan.",
+          "quote": "Manaul afterward flew from right to left again, signaling a labay, or a good omen, to proceed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "manaul-c09",
+          "source_id": "manaul-s2",
+          "host": "en.wikipedia.org",
+          "statement": "In 2005 the National Historical Commission of the Philippines officially recognised Kalantiaw and the Code of Kalantiaw as a 20th-century fraudulent work by José Marco with no historical basis.",
+          "statement_id": "Pada 2005, Komisi Sejarah Nasional Filipina secara resmi mengakui Kalantiaw dan Kode Kalantiaw sebagai karya palsu abad ke-20 oleh José Marco tanpa dasar sejarah.",
+          "quote": "In 2005, the National Historical Commission of the Philippines officially recognized Kalantiaw and the Code of Kalantiaw to be a 20th-century fraudulent work by José Marco with no historical basis.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "manaul-c10",
+          "source_id": "manaul-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Scott eventually demonstrated that the code was a forgery committed by Marco.",
+          "statement_id": "Scott akhirnya menunjukkan bahwa kode itu adalah pemalsuan yang dilakukan Marco.",
+          "quote": "Scott eventually demonstrated that the code was a forgery committed by Marco.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "manaul-c11",
+          "source_id": "manaul-s4",
+          "host": "chanrobles.com",
+          "statement": "In the text of the Code of Kalantiaw published by ChanRobles (a document now regarded as fraudulent), Article IX says those who sing while travelling at night, kill the Manaul, tear the headmen's documents, tell malicious lies or mock the dead shall be beaten for two days.",
+          "statement_id": "Dalam teks Kode Kalantiaw yang dimuat ChanRobles (dokumen yang kini dianggap palsu), Pasal IX menyatakan mereka yang menyanyi saat bepergian malam, membunuh Manaul, merobek dokumen para kepala suku, berdusta, atau menghina orang mati akan dipukuli selama dua hari.",
+          "quote": "ARTICLE IX All these shall be beaten for two days: who sing while traveling by night; kill the Manaul; tear the documents belonging to the headmen; are malicious liars; or who mock the dead.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "manaul-c12",
+          "source_id": "manaul-s4",
+          "host": "chanrobles.com",
+          "statement": "Article XV of the same text also prescribes beating for those who wound or kill the young of the Manaul, or the white monkey.",
+          "statement_id": "Pasal XV dalam teks itu juga menetapkan hukuman pukulan bagi mereka yang melukai atau membunuh anak Manaul, atau monyet putih.",
+          "quote": "ARTICLE XV Concerning beliefs and superstitions; these shall be beaten: who eat the diseased flesh of beasts which they hold in respect, or the herb which they consider good, who wound or kill the young of the Manaul, or the white monkey.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "manaul-c13",
+          "source_id": "manaul-s4",
+          "host": "chanrobles.com",
+          "statement": "The ChanRobles note says that in 1968 historian William Henry Scott called the code a \"hoax\" in his book Prehispanic Source Materials for the Study of Philippine History.",
+          "statement_id": "Catatan ChanRobles menyebut bahwa pada 1968 sejarawan William Henry Scott menyebut kode ini \"tipuan\" dalam bukunya Prehispanic Source Materials for the Study of Philippine History.",
+          "quote": "In 1968, however, historian William Henry Scott called this a \"hoax\" in his book \"Prehispanic Source Materials for the Study of Philippine History\".",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "manaul-c14",
+          "source_id": "manaul-s3",
+          "host": "www.aswangproject.com",
+          "statement": "According to the Aswang Project article, William Henry Scott demonstrated that the Marco–Pavón collection did not have the nineteenth-century provenance claimed for it.",
+          "statement_id": "Menurut artikel The Aswang Project, William Henry Scott menunjukkan bahwa koleksi Marco–Pavón tidak memiliki asal-usul abad ke-19 seperti yang diklaim.",
+          "quote": "Historian William Henry Scott, whose work subjected alleged precolonial Philippine documents to close source criticism, demonstrated that the Marco–Pavón collection did not possess the nineteenth-century provenance claimed for it.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "manaul-c15",
+          "source_id": "manaul-s3",
+          "host": "www.aswangproject.com",
+          "statement": "Francisco R. Demetrio, a Filipino Jesuit folklorist, reproduced and discussed the story in his 1968 study \"Creation Myths among the Early Filipinos\", citing Pavón Manuscript Transcript 5-C as his source.",
+          "statement_id": "Francisco R. Demetrio, folklorawan Jesuit Filipina, mereproduksi dan membahas kisah ini dalam studinya tahun 1968 \"Creation Myths among the Early Filipinos\", dengan sumber Pavón Manuscript Transcript 5-C.",
+          "quote": "Francisco R. Demetrio, a Filipino Jesuit folklorist, reproduced and discussed the story in his 1968 study “Creation Myths among the Early Filipinos.” Demetrio identified his source as Pavón Manuscript Transcript 5-C.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "manaul-c16",
+          "source_id": "manaul-s3",
+          "host": "www.aswangproject.com",
+          "statement": "In that story, in the beginning there was only an immense sea; a violent struggle broke out between King Manaul and King Tubluck Laui, Manaul was imprisoned but broke his chains and escaped into the open air seeking revenge.",
+          "statement_id": "Dalam kisah itu, pada mulanya hanya ada laut yang luas; pertempuran pecah antara Raja Manaul dan Raja Tubluck Laui, Manaul dipenjara, tetapi ia memutus rantainya dan lolos ke udara untuk membalas dendam.",
+          "quote": "In the beginning there was only an immense sea. A violent struggle broke out between King Manaul and King Tubluck Laui. Manaul was imprisoned, but he broke his chains and escaped into the open air, seeking revenge.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "manaul-c17",
+          "source_id": "manaul-s3",
+          "host": "www.aswangproject.com",
+          "statement": "In that version, Manaul flew until exhausted but there was nowhere for him to land.",
+          "statement_id": "Dalam versi itu, Manaul terbang sampai kelelahan tetapi tidak ada tempat untuk mendarat.",
+          "quote": "He flew until exhausted, yet there was nowhere for him to land.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "manaul-c18",
+          "source_id": "manaul-s3",
+          "host": "www.aswangproject.com",
+          "statement": "In that version, Manaul asked for light and fireflies came to attend him, then asked for counsellors and birds gathered at his side; Manaul then devoured chicks and some of the birds.",
+          "statement_id": "Dalam versi itu, Manaul meminta cahaya dan kunang-kunang datang melayaninya, lalu meminta penasihat dan burung-burung berkumpul di sisinya; kemudian Manaul memakan anak burung dan sebagian burung.",
+          "quote": "Manaul asked for light, and fireflies came to attend him. He asked for counsellors, and birds gathered at his side. Manaul then devoured chicks and some of the birds.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "manaul-c19",
+          "source_id": "manaul-s3",
+          "host": "www.aswangproject.com",
+          "statement": "In that version, Manaul punished the owls by compelling them to stay awake at night and giving them large eyes with which to see.",
+          "statement_id": "Dalam versi itu, Manaul menghukum burung hantu dengan memaksa mereka terjaga di malam hari dan memberi mereka mata besar untuk melihat.",
+          "quote": "He punished the owls by compelling them to remain awake at night and giving them large eyes with which to see.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "manaul-c20",
+          "source_id": "manaul-s3",
+          "host": "www.aswangproject.com",
+          "statement": "In that version, Captan hurled immense rocks from the sky to crush Manaul; Manaul escaped but the rocks remained, giving him the resting place he had lacked, and became the islands.",
+          "statement_id": "Dalam versi itu, Captan melemparkan batu-batu raksasa dari langit untuk menimpa Manaul; Manaul lolos, tetapi batu-batu itu tetap ada, menjadi tempat berhenti yang ia butuhkan dan menjadi pulau-pulau.",
+          "quote": "Captan hurled immense rocks from the sky in an attempt to crush Manaul. Manaul escaped, but the rocks remained. They provided the resting place he had lacked and became the islands.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "manaul-c21",
+          "source_id": "manaul-s3",
+          "host": "www.aswangproject.com",
+          "statement": "In the related narrative in that article, the lizard escapes but the bird's peck opens the stalk; Sicalac and Sicauay, the first man and woman, emerge and thank the bird.",
+          "statement_id": "Dalam narasi terkait di artikel itu, kadal lolos tetapi patukan sang burung membuka batang bambu; Sicalac dan Sicauay, laki-laki dan perempuan pertama, keluar dan berterima kasih kepada burung itu.",
+          "quote": "The lizard escapes, but the bird’s peck opens the stalk. Sicalac and Sicauay, the first man and woman, emerge and thank the bird.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "manaul-c22",
+          "source_id": "manaul-s3",
+          "host": "www.aswangproject.com",
+          "statement": "Miguel de Loarca's authenticated 1582 account names Sicalac and Sicavay as the first couple to emerge from a reed and has them consult the earthquake, but does not name Manaul.",
+          "statement_id": "Catatan Miguel de Loarca tahun 1582 yang terautentikasi menyebut Sicalac dan Sicavay sebagai pasangan pertama yang keluar dari buluh dan berkonsultasi dengan gempa bumi, tetapi tidak menyebut Manaul.",
+          "quote": "Miguel de Loarca’s authenticated 1582 account, for example, names Sicalac and Sicavay as the first couple to emerge from a reed and also has them consult the earthquake. But Loarca does not name Manaul.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "manaul-c23",
+          "source_id": "manaul-s3",
+          "host": "www.aswangproject.com",
+          "statement": "According to the Aswang Project article, the Pavón narrative cannot serve as independent evidence of a precolonial cult, pantheon or universally held Visayan belief about Manaul.",
+          "statement_id": "Menurut artikel The Aswang Project, narasi Pavón tidak dapat menjadi bukti independen adanya kultus, panteon, atau kepercayaan Visaya yang dianut luas tentang Manaul pada masa pra-kolonial.",
+          "quote": "The Pavón narrative cannot serve as independent evidence of a precolonial cult, pantheon or universally held Visayan belief about Manaul.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "manaul-c24",
+          "source_id": "manaul-s3",
+          "host": "www.aswangproject.com",
+          "statement": "According to the Aswang Project article, modern illustrations depict Manaul as an eagle, kite or another powerful bird, but the surviving narrative does not securely identify its species.",
+          "statement_id": "Menurut artikel The Aswang Project, ilustrasi modern menggambarkan Manaul sebagai elang, layang-layang, atau burung perkasa lain, tetapi narasi yang bertahan tidak memastikan identifikasi spesiesnya.",
+          "quote": "Modern illustrations variously depict an eagle, kite or another powerful bird, but the surviving narrative does not securely make that zoological identification.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "manaul-c25",
+          "source_id": "manaul-s3",
+          "host": "www.aswangproject.com",
+          "statement": "According to the Aswang Project article, modern retellings and art often combine these episodes, assign Manaul a fixed species, or call him an established Visayan creator deity without explaining the source problem.",
+          "statement_id": "Menurut artikel The Aswang Project, penceritaan ulang dan seni modern sering menggabungkan episode-episode ini, memberi Manaul spesies tetap, atau menyebutnya dewa pencipta Visaya yang mapan tanpa menjelaskan masalah sumbernya.",
+          "quote": "frequently combine these episodes, assign Manaul a fixed species, or call him an established Visayan creator deity without explaining the source problem.",
           "context": "scholarly-interpretation",
           "status": "exact"
         }

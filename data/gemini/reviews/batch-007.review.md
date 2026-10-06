@@ -1,6 +1,6 @@
 # Review batch-007
 
-Diperiksa 2026-09-29T12:14:41.348Z. Berkas: batch-007.md.
+Diperiksa 2026-10-06T14:34:44.765Z. Berkas: batch-007.md, batch-007-fix-1.md.
 
 ## chinthe — skip
 
@@ -15,10 +15,9 @@ Klaim 0 (), sumber 0, gambar 0.
 
 ## suvannamaccha — lulus-otomatis
 
-Klaim 10 (exact 10), sumber 2, gambar 1.
+Klaim 21 (exact 21), sumber 4, gambar 1.
 
 **manual**
-- `tier` Di bawah target rich: 10 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai.
 - `images[0] (File:Mermaid-Nonthaburi44.JPG)` Keterkaitan otomatis: deskripsi berkas, kategori "Suvannamaccha", dipakai di en.wikipedia.org: Suvannamaccha. Cek visual tetap diperlukan.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
@@ -33,13 +32,24 @@ Klaim 10 (exact 10), sumber 2, gambar 1.
 | suvannamaccha-c08 | exact | garlandmag.com | She bears Hanuman's son Macchanu, with a vanara torso and a fish's lower body, absent from Valmiki's Ramayana, where Hanuman's son is Makaradhwaja, born from his sweat. | She also gives birth to Hanuman’s son, Macchanu, a character missing from Valmiki’s Ramayana. With a vanara’s torso and the lower body of a fish, Macchanu opposes Hanumanu later during a battle with Ravana’s army. Interestingly, in Valmiki’s Ramayana, Hanuman has a son named Makaradhwaja, born out of his sweat |
 | suvannamaccha-c09 | exact | garlandmag.com | The legend is also performed as Robam Sovann Maccha, a traditional Cambodian dance. | The widely popular Southeast Asian legend is also performed as Robam Sovann Maccha, a traditional Cambodian dance. |
 | suvannamaccha-c10 | exact | garlandmag.com | Her story is prominent in the Reamker, Cambodia's epic, and the Ramakien, Thailand's national epic. | particularly prominent in Reamker, Cambodia’s epic poem and Ramakien, Thailand’s national epic. |
+| suvannamaccha-c11 | exact | garlandmag.com | Hanuman launches repeated attacks on her but she evades him every time, and in the course of this battle he falls in love with her. | He launches repeated attacks on her but she manages to evade him every time, and over the course of this battle, Hanuman falls in love with her. |
+| suvannamaccha-c12 | exact | garlandmag.com | Several murals, Thai silk paintings, illustrations, sepia paper art, sculptures and even paper and cloth charms depict Ravana's mermaid daughter in amorous embraces with Hanuman. | Several murals, Thai silk paintings, illustrations, sepia paper art, sculptures and even paper and cloth charms depict the mermaid daughter of Ravana ... entangled in amorous embraces with Hanuman. |
+| suvannamaccha-c13 | exact | garlandmag.com | According to the article, Robam Sovann Maccha is dated to the seventh century, was performed as a temple ritual during the Angkor period, and is a famous piece in the repertoire of the Royal Ballet of Cambodia today. | is also performed as Robam Sovann Maccha ... Dated to the seventh century, it was performed as a temple ritual during the Angkor period and is a famous piece in the repertoire of the Royal Ballet of Cambodia today. |
+| suvannamaccha-c14 | exact | garlandmag.com | Hanuman, the valiant monkey god in Hinduism, and his vanara army set out on the monumental task of building a bridge to Lanka to help Rama rescue his wife Sita from Ravana's clutches. | Hanuman, the valiant monkey god in Hinduism, and his vanara army of anthropomorphic monkeys embark on the monumental task of building a bridge to Lanka to help Rama rescue his wife, Sita, from the clutches of Ravana. |
+| suvannamaccha-c15 | exact | garlandmag.com | Hanuman abandons his forceful approach and showers her with tenderness instead of attacks until she returns his love, and they spend a blissful period underwater. | He abandons his forceful approach and showers her with tenderness instead of attacks until she, too, returns his love, and they spend a blissful period underwater. |
+| suvannamaccha-c16 | exact | garlandmag.com | Macchanu, with a vanara's torso and a fish's lower body, later opposes Hanuman during a battle with Ravana's army. | With a vanara’s torso and the lower body of a fish, Macchanu opposes Hanumanu later during a battle with Ravana’s army. |
+| suvannamaccha-c17 | exact | seasite.niu.edu | According to this slide's caption, Hanuman was trying to arrest Nang Suwan Matcha, a 'murmaid', to ask for information on one of the duties assigned by Pra Rama, and he eventually had her as one of his many mistresses. | In this slide, he was trying to arrest Nang Suwan Matcha, a murmaid, to ask for information while he was on one of the duties assigned by Pra Rama. He eventually had her as one of his many mistresses. |
+| suvannamaccha-c18 | exact | seasite.niu.edu | The slide quotes a Thai verse from the Ramakien play (รามเกียรติ์), attributed to the king named พระบาทสมเด็จพระพุทธยอดฟ้าจุฬาโลกมหาราช, about the chase that ends in the capture of the mermaid (มัจฉานารี). | บัดนั้น วายุบุตรวุฒิไกรใจกล้า คว้าไขว่ไล่ชิดติดมา ก็จับได้มัจฉานารี (จากบทละครเรื่องรามเกียรติ์ พระราชนิพนธ์ในพระบาทสมเด็จพระพุทธยอดฟ้าจุฬาโลกมหาราช) |
+| suvannamaccha-c19 | exact | www.gardensbythebay.com.sg | According to the Gardens by the Bay annex, the duo dance Sovann Machha (Golden Mermaid Dance) depicts an episode from the story Reamker or Ramayana in which Hanuman, the White Monkey, was ordered by Rama to build a bridge across the sea to Lanka Island. | This duo dance depicts an episode from the story "Reamker” or “Ramayana". In this episode, Hanuman, the White Monkey, was ordered by Rama to construct a bridge across the sea to reach Lanka Island |
+| suvannamaccha-c20 | exact | www.gardensbythebay.com.sg | As the stones laid for the bridge mysteriously disappear, Hanuman investigates the cause and in that mission meets and falls in love with Sovann Machha, the Golden Mermaid. | As the stones laid for the bridge mysteriously disappear, Hanuman investigates the cause and during this mission, he encounters and falls in love with Sovann Machha, the Golden Mermaid. |
+| suvannamaccha-c21 | exact | www.gardensbythebay.com.sg | The annex says seven dancers from Cambodia's Classical Dance Group will perform four traditional dances including Sovann Machha (Golden Mermaid Dance), the first three being forms of the Royal Ballet of Cambodia. | seven dancers from Cambodia’s Classical Dance Group will perform four traditional dances – Blessing Dance, Sovann Machha (Golden Mermaid Dance), Tepthida Boung Suong Dance, and Neary Kampuchea Dance – the first three being forms of Royal Ballet of Cambodia. |
 
 - Gambar File:Mermaid-Nonthaburi44.JPG: lisensi Commons "CC BY-SA 3.0" (OPEN_LICENSE); pembuat Xufanc; tanggal 1899-11-30
   - deskripsi: Suvannamaccha luck bringing charm in a riverside shop in Nonthaburi, Thailand
   - kategori: CC-BY-SA-3.0; Charms of Thailand; Self-published work; Suvannamaccha; Taken with Nikon S2
   - dipakai di: as.wikipedia.org: সুভন্নমচ্ছ; en.wikipedia.org: Suvannamaccha; es.wikipedia.org: Suvannamaccha; fr.wikipedia.org: Suvannamaccha; kn.wikipedia.org: ಸುವಣ್ಣಮಚ್ಚ; pa.wikipedia.org: ਸੁਵੰਨਾਮਾਚਾ; ta.wikipedia.org: சுவர்ணமச்சை; tr.wikipedia.org: Suvannamaccha; vi.wikipedia.org: Suvannamaccha; zh.wikipedia.org: 素攀玛差
   - bukti dari Gemini: Deskripsi berkas di Commons: "Suvannamaccha luck bringing charm in a riverside shop in Nonthaburi, Thailand"; kategori Suvannamaccha; dipakai di artikel Wikipedia en Suvannamaccha.
-  - thumbnail: /home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-007/suvannamaccha-1.jpg
+  - thumbnail: /home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-007/suvannamaccha-1.jpg
 
 ## tikbalang — lulus-otomatis
 
@@ -75,10 +85,9 @@ Klaim 15 (exact 15), sumber 3, gambar 1.
 
 ## duende — lulus-otomatis
 
-Klaim 11 (exact 11), sumber 1, gambar 1.
+Klaim 20 (exact 20), sumber 4, gambar 1.
 
 **manual**
-- `tier` Di bawah target rich: 11 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai.
 - `images[0] (File:Goya - Caprichos (49).jpg)` Keterkaitan otomatis: dipakai di en.wikipedia.org: Duende. Cek visual tetap diperlukan.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
@@ -94,20 +103,28 @@ Klaim 11 (exact 11), sumber 1, gambar 1.
 | duende-c09 | exact | en.wikipedia.org | Per a Chamorro-English dictionary, the duende is a goblin or mischievous dwarf-like spirit that hides or takes small children; some see it as helpful or shy, others as mischievous and eating naughty children. | is a goblin, elf, ghost, or spook in the form of a dwarf, a mischievous spirit which hides or takes small children. Some believe the Duende to be helpful or shy creatures, while others believe them to be mischievous and eat misbehaving children. |
 | duende-c10 | exact | en.wikipedia.org | In Andean Peru, early colonial accounts recorded forest spirits that Spanish chroniclers equated with duendes or succubi. | In the Andean region of Peru, early colonial accounts recorded local beliefs in forest spirits that Spanish chroniclers equated with duendes or succubi. |
 | duende-c11 | exact | en.wikipedia.org | The Chamorro of the Mariana Islands tell of the taotaomo'na, duendes and other spirits. | The Chamorro people of the Marianas Islands tell tales of the taotaomo'na, duendes and other spirits. |
+| duende-c12 | exact | allenartcollection.oberlin.edu | In the 1600s, duendes (hobgoblins) were thought to be spirits that fell with Lucifer from heaven; instead of going to hell they lived in the world, frightening and tricking people and amassing untold treasures hidden in underground lairs. | In the 1600s, duendes (hobgoblins) were thought to be spirits that fell with Lucifer from heaven. Instead of going to hell, they lived in the world, where they frightened and tricked people and amassed untold treasures that they hid in underground lairs. |
+| duende-c13 | exact | allenartcollection.oberlin.edu | By the late 1700s, Spanish intellectuals ridiculed popular belief in duendes, and the term was often used to refer to religious figures in satirical publications. | By the late 1700s, Spanish intellectuals ridiculed the populace’s belief in duendes. The term was often used to refer to religious figures in satirical publications. |
+| duende-c14 | exact | www.merriam-webster.com | The word duende refers to a spirit in Spanish, Portuguese and Filipino folklore and literally means 'ghost' or 'goblin' in Spanish; it is believed to derive from the phrase dueño de casa, 'owner of a house'. | The word duende refers to a spirit in Spanish, Portuguese, and Filipino folklore and literally means "ghost" or "goblin" in Spanish. It is believed to derive from the phrase dueño de casa, which means "owner of a house." |
+| duende-c15 | exact | www.merriam-webster.com | The term is traditionally also used in flamenco music and other art forms for the mystical or powerful force a performer gives off to draw in the audience. | The term is traditionally used in flamenco music or other art forms to refer to the mystical or powerful force given off by a performer to draw in the audience. |
+| duende-c16 | exact | aswangproject.com | Philippine duwendes are commonly described as an old man ('nuno') the height of a small child dwelling beneath the earth. | Commonly described as an old man or ‘nuno’ with the height of a small child dwelling beneath the earth |
+| duende-c17 | exact | aswangproject.com | Duwendes are known mainly for the magical ability to make anyone who hurt or offended them suffer unusual diseases, from skin rashes and inflammations to fevers that medical treatment cannot cure. | Duwendes are known mainly for they magical ability to make someone who hurt or offended them to suffer with unusual diseases ranging from skin rashes, inflammations and fevers that can’t be cured by any medical interventions. |
+| duende-c18 | exact | aswangproject.com | In rural areas there are stories that if you manage to befriend a duwende you can expect a successful life. | In rural areas there are stories that state if you manage to befriend a Duwende, you can expect to have a successful life. |
+| duende-c19 | exact | aswangproject.com | There are also the evil and dreaded Itim na Duwende, or Black Dwarves, notorious for harming people. | there are also the evil and dreaded Itim na Duwende or Black Dwarves that notoriously inflict harm towards people. |
+| duende-c20 | exact | aswangproject.com | According to this article, the Spanish were quick to apply their own blanket term to these beings, 'duende', a contraction of duen de casa, from dueño de casa ('owner of the house'). | the Spanish were quick to apply their own blanket term to these beings, “duende” – contraction of duen de casa, from dueño de casa ‘owner of the house’. |
 
 - Gambar File:Goya - Caprichos (49).jpg: lisensi Commons "Public domain" (PUBLIC_DOMAIN); pembuat Francisco Goya; tanggal 1799
   - deskripsi: Los Caprichos is a set of 80 aquatint prints created by Francisco Goya for release in 1799.
   - kategori: CC-PD-Mark; Capricho № 49: Duendecitos; Goblins; Los Caprichos, GASL; PD-Art (PD-old-auto-expired); PD-old-100-expired
   - dipakai di: bcl.wikipedia.org: Duwende; be.wikipedia.org: Гобліны; bg.wikipedia.org: Гоблин; bn.wikipedia.org: গবলিন; bn.wikipedia.org: ধূসর; da.wikipedia.org: Goblin; en.wikipedia.org: Duende; fa.wikipedia.org: گابلین; fr.wikipedia.org: Chevaux légendaires du Pas-de-Calais; hy.wikipedia.org: Գոբլիններ; it.wikipedia.org: Duende (spirito); ja.wikipedia.org: ゴブリン; ka.wikipedia.org: გობლინები; ko.wikipedia.org: 고블린; ml.wikipedia.org: ഗോബ്ലിൻ
   - bukti dari Gemini: Kategori Commons "Capricho № 49: Duendecitos" (duende kecil); gambar utama artikel Wikipedia en Duende.
-  - thumbnail: /home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-007/duende-1.jpg
+  - thumbnail: /home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-007/duende-1.jpg
 
 ## mae-nak-phra-khanong — lulus-otomatis
 
-Klaim 16 (loose 2, exact 14), sumber 2, gambar 1.
+Klaim 19 (loose 2, exact 17), sumber 5, gambar 1.
 
 **manual**
-- `tier` Di bawah target rich: 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai.
 - `images[0] (File:Shrinetomaenak.jpg)` Keterkaitan otomatis: deskripsi berkas, kategori "Shrine of Mae Nak at Wat Mahabut", dipakai di ca.wikipedia.org: Ghost of Mae Nak. Cek visual tetap diperlukan.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
@@ -128,10 +145,13 @@ Klaim 16 (loose 2, exact 14), sumber 2, gambar 1.
 | mae-nak-phra-khanong-c14 | exact | en.wikipedia.org | In Thai folklore ghosts fear sticky Blumea leaves, so Mak hid behind a Blumea balsamifera bush. | According to Thai folklore, ghosts are afraid of sticky Blumea leaves so Mak hid behind a Blumea balsamifera |
 | mae-nak-phra-khanong-c15 | exact | en.wikipedia.org | Mae Nak Phra Khanong is a 1959 Thai film directed by Rangsi Thatsanaphayak. | Mae Nak Phra Khanong, a 1959 Thai film directed by Rangsi Thatsanaphayak |
 | mae-nak-phra-khanong-c16 | exact | en.wikipedia.org | In other versions, the monk Somdet Phra Phutthachan (To Phrommarangsi) defeats Nak by confining her spirit in her forehead bone, bound to his waistband. | In alternative versions, a venerable monk named Somdet Phra Phutthachan (To Phrommarangsi) defeats Nak by confining her spirit in the bone of her forehead and binds it to his waistband. |
+| mae-nak-phra-khanong-c17 | exact | www.nationthailand.com | The Nation calls Mae Nak, also known as Mae Nak Phra Khanong, a well-known Thai female ghost popularised in many TV series, plays and films, especially Nang Nak, a 1999 Thai supernatural horror film starring the actress Intira "Sai" Jaroenpura as Nak. | Mae Nak, also known as Mae Nak Phra Khanong, is a well-known Thai female ghost, popularised in many TV series, plays and films, especially Nang Nak, a 1999 Thai supernatural horror film starring Thai actress Intira "Sai" Jaroenpura as Nak. |
+| mae-nak-phra-khanong-c18 | exact | www.thaipbs.or.th | Thai PBS NOW says such tales are often made into films and dramas, naming the tale of 'แม่นากพระโขนง' in particular. | จึงมักถูกนำมาสร้างเป็นผลงานหนังและละคร โดยเฉพาะเรื่อง “แม่นากพระโขนง” |
+| mae-nak-phra-khanong-c19 | exact | so02.tci-thaijo.org | In this journal's book review, ผีนางนาคพระโขนง is listed among the Thai ghosts covered in the second part of the reviewed book. | ผีปอบ ผีกองกอย นางตานี ผีนางกวัก ผีปกกะโหล้ง ผีกระสือ ผีแม่ย่านาง ผีนางนาคพระโขนง ผีปู่สมิง |
 
 - Gambar File:Shrinetomaenak.jpg: lisensi Commons "Public domain" (PUBLIC_DOMAIN); pembuat Ananda; tanggal 2000-08
   - deskripsi: Shrine to "Mae Nak or แม่นาก / Nang Nak or นางนาก",who is a legendary women of bankokian folklore.
   - kategori: PD-self; Self-published work; Shrine of Mae Nak at Wat Mahabut
   - dipakai di: bn.wikibooks.org: সাংস্কৃতিক নৃবিজ্ঞান/আচার ও ধর্ম; ca.wikipedia.org: Ghost of Mae Nak; ceb.wikipedia.org: Khet Suan Luang; da.wikipedia.org: Åndehus; de.wikipedia.org: Suan Luang; de.wikipedia.org: Der Geist von Mae Nak; en.wikipedia.org: Nang Nak; en.wikipedia.org: Mae Nak Phra Khanong; en.wikipedia.org: Suan Luang district; en.wikipedia.org: Ghost of Mae Nak; en.wikibooks.org: Cultural Anthropology/Ritual and Religion; en.wikibooks.org: Cultural Anthropology/Print version; fr.wikipedia.org: Suan Luang; fr.wikipedia.org: Mae Nak Phra Khanong; hi.wikipedia.org: माई नाक फ्रा खानोंग
   - bukti dari Gemini: Deskripsi berkas di Commons: "Shrine to 'Mae Nak ... / Nang Nak'"; kategori Shrine of Mae Nak at Wat Mahabut; dipakai di artikel Wikipedia en Mae Nak Phra Khanong.
-  - thumbnail: /home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-007/mae-nak-phra-khanong-1.jpg
+  - thumbnail: /home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-007/mae-nak-phra-khanong-1.jpg

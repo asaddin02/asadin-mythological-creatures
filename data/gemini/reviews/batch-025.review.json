@@ -1,27 +1,24 @@
 {
   "batch_id": "batch-025",
-  "checked_at": "2026-09-29T13:18:19.097Z",
+  "checked_at": "2026-10-06T13:13:51.535Z",
   "files": [
-    "batch-025.md"
+    "batch-025.md",
+    "batch-025-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "apollo-q37340",
-      "file": "batch-025.md",
+      "file": "batch-025-fix-1.md",
+      "entry_sha256": "c227a216a56a77e156a3ed6e365a05ebe0a1345e5a4d1f8284e2fa56c012a158",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
+        "claims": 38,
         "sources": 3,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 7 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Italy-3104 - Apollo (5378415112).jpg)",
@@ -63,8 +60,8 @@
           "id": "apollo-q37340-c04",
           "source_id": "apollo-q37340-s1",
           "host": "en.wikipedia.org",
-          "statement": "As god of mousike Apollo presides over all music, song, dance and poetry, invented string music and accompanies the Muses; he also protects the young.",
-          "statement_id": "Sebagai dewa mousike, Apollo membawahi segala musik, lagu, tari, dan puisi, dan ia penemu musik dawai serta pendamping para Muse; ia juga pelindung anak-anak.",
+          "statement": "As god of mousike Apollo presides over all music, song, dance and poetry; he is the inventor of string music and a frequent companion of the Muses.",
+          "statement_id": "Sebagai dewa mousike, Apollo membawahi segala musik, lagu, tari, dan puisi; ia penemu musik dawai dan sering menjadi pendamping para Muse.",
           "quote": "As the god of mousike, Apollo presides over all music, songs, dance, and poetry. He is the inventor of string-music and the frequent companion of the Muses",
           "context": "religious-tradition",
           "status": "exact"
@@ -73,8 +70,8 @@
           "id": "apollo-q37340-c05",
           "source_id": "apollo-q37340-s2",
           "host": "www.theoi.com",
-          "statement": "According to theoi.com, Apollon (Apollo, Ἀπόλλων) was the Olympian god of prophecy and oracles, music, poetry, archery, healing, plague and the protection of the young, shown as a handsome beardless youth with long hair.",
-          "statement_id": "Menurut theoi.com, Apollon (Apollo, Ἀπόλλων) adalah dewa Olimpus nubuat dan orakel, musik, puisi, panahan, penyembuhan, wabah, dan perlindungan anak muda, digambarkan sebagai pemuda tampan tanpa janggut berambut panjang.",
+          "statement": "According to theoi.com, Apollon (Apollo) was the Olympian god of prophecy and oracles, music, song and poetry, archery, healing, plague and disease, and the protection of the young, depicted as a handsome, beardless youth with long hair.",
+          "statement_id": "Menurut theoi.com, Apollon (Apollo) adalah dewa Olimpus nubuat dan orakel, musik, lagu dan puisi, panahan, penyembuhan, wabah dan penyakit, serta perlindungan anak muda; ia digambarkan sebagai pemuda tampan tanpa janggut berambut panjang.",
           "quote": "APOLLON (Apollo) was the Olympian god of prophecy and oracles, music, song and poetry, archery, healing, plague and disease, and the protection of the young. He was depicted as a handsome, beardless youth with long hair",
           "context": "religious-tradition",
           "status": "exact"
@@ -83,8 +80,8 @@
           "id": "apollo-q37340-c06",
           "source_id": "apollo-q37340-s3",
           "host": "www.worldhistory.org",
-          "statement": "According to the World History Encyclopedia, Apollo was perhaps the most loved god, worshipped at Delphi and Delos, and born on the island of Delos.",
-          "statement_id": "Menurut World History Encyclopedia, Apollo mungkin dewa yang paling dicintai, dipuja di Delphi dan Delos, dan lahir di Pulau Delos.",
+          "statement": "According to the World History Encyclopedia, Apollo was perhaps the most loved of the gods, worshipped at Delphi and Delos, among the most famous of Greek religious sanctuaries.",
+          "statement_id": "Menurut World History Encyclopedia, Apollo mungkin dewa yang paling dicintai, dan dipuja di Delphi dan Delos, dua tempat suci agama Yunani yang paling terkenal.",
           "quote": "Apollo was perhaps the most loved of all the gods. He was worshipped at Delphi and Delos, amongst the most famous of all Greek religious sanctuaries.",
           "context": "religious-tradition",
           "status": "exact"
@@ -93,10 +90,320 @@
           "id": "apollo-q37340-c07",
           "source_id": "apollo-q37340-s2",
           "host": "www.theoi.com",
-          "statement": "One of Apollo's famous myths is the slaying of the serpent Python, guardian of the oracle at Delphi.",
-          "statement_id": "Salah satu kisah terkenal Apollo adalah membunuh ular Python yang menjaga tempat orakel Delphi.",
+          "statement": "According to theoi.com, one of the most famous myths of Apollo is the slaying of the serpent Python, which guarded the oracular shrine of Delphi.",
+          "statement_id": "Salah satu mitos paling terkenal Apollo menurut theoi.com adalah pembunuhan ular Python yang menjaga tempat suci orakel di Delphi.",
           "quote": "The slaying of the serpent Python which guarded the oracular shrine of Delphoi (Delphi).",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c08",
+          "source_id": "apollo-q37340-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Apollo, son of Zeus and Leto and twin brother of Artemis, was born on the island of Delos.",
+          "statement_id": "Menurut World History Encyclopedia, Apollo, putra Zeus dan Leto serta saudara kembar Artemis, lahir di Pulau Delos.",
+          "quote": "Son of Zeus and Leto, and the twin brother of Artemis, Apollo was born on the island of Delos",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c09",
+          "source_id": "apollo-q37340-s3",
+          "host": "www.worldhistory.org",
+          "statement": "At his first taste of ambrosia Apollo was said to have changed at once from babe to man; he was then given his bow, made by Hephaestus, master craftsman of Mount Olympus.",
+          "statement_id": "Pada kecapan pertama ambrosia, Apollo konon langsung berubah dari bayi menjadi pria dewasa; ia lalu diberi busur buatan Hephaestus, pengrajin ulung Gunung Olimpus.",
+          "quote": "At his first taste of ambrosia, he was said to have immediately transformed from babe to man. Apollo was then given his bow, made by the master craftsman of Mount Olympus, Hephaestus.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c10",
+          "source_id": "apollo-q37340-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Apollo acquired his lyre from his half-brother Hermes, the messenger god, who as a baby had stolen Apollo's sacred cattle and reversed their hooves to make the tracks hard to follow.",
+          "statement_id": "Apollo memperoleh liranya dari saudara tirinya, Hermes sang dewa pembawa pesan, yang semasa bayi mencuri kawanan sapi suci Apollo dan membalik tapak kuku sapi-sapi itu agar jejaknya sulit diikuti.",
+          "quote": "Apollo acquired his lyre from his mischievous half-brother Hermes, the messenger god. While still a baby, Hermes had stolen Apollo's sacred herd of cattle, cleverly reversing their hooves to make it difficult to follow their tracks.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c11",
+          "source_id": "apollo-q37340-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Hermes was allowed to keep his ill-gotten gains, but only after giving Apollo the lyre he had invented using a tortoiseshell.",
+          "statement_id": "Hermes boleh menyimpan hasil curiannya, tetapi hanya setelah menyerahkan kepada Apollo lira yang ia ciptakan dari cangkang kura-kura.",
+          "quote": "Hermes was permitted to keep his ill-gotten gains but only after he gave Apollo his lyre which he had invented using a tortoiseshell.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c12",
+          "source_id": "apollo-q37340-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Among Apollo's most famous children are Orpheus, who inherited his father's musical skills on the lyre or kithara, and Asclepius, to whom he gave his knowledge of healing and medicine.",
+          "statement_id": "Di antara anak-anak Apollo yang paling terkenal adalah Orpheus, yang mewarisi keahlian musik ayahnya pada lira atau kithara, dan Asclepius, yang diberinya pengetahuan tentang penyembuhan dan pengobatan.",
+          "quote": "perhaps the most famous are Orpheus (who inherited his father's musical skills and became a virtuoso with the lyre or kithara), Asclepius (to whom he gave his knowledge of healing and medicine)",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c13",
+          "source_id": "apollo-q37340-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Apollo is a significant protagonist in Homer's account of the Trojan War in the Iliad; on the Trojan side, he repeatedly saved the lives of the Trojan heroes Hector, Aeneas and Glaukos by divine intervention.",
+          "statement_id": "Apollo adalah tokoh penting dalam kisah Perang Troya karya Homer, Iliad; ia berpihak kepada bangsa Troya dan beberapa kali menyelamatkan nyawa para pahlawan Troya Hector, Aeneas, dan Glaukos dengan campur tangan ilahinya.",
+          "quote": "Apollo is a significant protagonist in Homer's account of the Trojan War in the Iliad. On the side of the Trojans, he gives particular assistance to the Trojan heroes Hector, Aeneas, and Glaukos, saving their lives on more than one occasion with his divine intervention.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c14",
+          "source_id": "apollo-q37340-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Apollo brought plague to the Achaeans, led the entire Trojan army in an attack that destroyed the defensive walls of the Greek camps, and guided Paris' arrow to the heel of Achilles, killing the seemingly invincible Greek hero.",
+          "statement_id": "Apollo membawa wabah kepada bangsa Achaea, memimpin seluruh pasukan Troya menghancurkan tembok pertahanan kamp Yunani, dan menuntun panah Paris ke tumit Achilles sehingga pahlawan Yunani yang tampak kebal itu tewas.",
+          "quote": "He brought plague to the Achaeans, led the entire Trojan army (holding Zeus' fearsome aegis) in an attack which destroyed the defensive walls of the Greek camps, and was also responsible for guiding Paris' arrow to the heel of Achilles, killing the seemingly invincible Greek hero.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c15",
+          "source_id": "apollo-q37340-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Apollo and Zeus had a serious falling out when Zeus killed Asclepius for using his medicinal skills to bring a mortal back to life; in revenge Apollo killed the Cyclopes, the one-eyed giants who made Zeus' thunderbolts.",
+          "statement_id": "Apollo dan Zeus sempat bertikai hebat ketika Zeus membunuh Asclepius karena menghidupkan kembali seorang manusia fana dengan keahlian pengobatannya; sebagai balasan Apollo membunuh para Kiklops, raksasa bermata satu pembuat petir Zeus.",
+          "quote": "The pair did have a serious falling out when Zeus killed Asclepius after he had used his marvellous medicinal skills to bring a mortal back to life. In revenge, Apollo then killed the Cyclopes, the one-eyed giants who made Zeus' thunderbolts.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c16",
+          "source_id": "apollo-q37340-s3",
+          "host": "www.worldhistory.org",
+          "statement": "As punishment, Apollo had to spend a year in the humble service of Admetus of Therae, tending the king's sheep.",
+          "statement_id": "Sebagai hukuman, Apollo harus mengabdi selama setahun kepada Admetus dari Therae dengan menggembalakan domba raja itu.",
+          "quote": "As punishment, Apollo was obliged to spend a year in the humble service of Admetus of Therae, tending the king's sheep.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c17",
+          "source_id": "apollo-q37340-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Apollo's darker side as bringer of plague and divine retribution is seen most famously when, with his sister Artemis, he slew Niobe's six (or in some accounts seven) sons as punishment for her boast that she was more fertile than Leto.",
+          "statement_id": "Sisi gelap Apollo sebagai pembawa wabah dan pembalasan ilahi tampak paling terkenal ketika ia bersama saudarinya Artemis menewaskan enam (atau dalam sebagian riwayat tujuh) putra Niobe sebagai hukuman atas kesombongannya bahwa ia lebih subur daripada Leto.",
+          "quote": "Apollo's darker side as the bringer of plague and divine retribution is seen most famously when he is, with his sister Artemis, the remorseless slayer of Niobe's six (or in some accounts seven) sons as punishment for her boasting that her childbearing capacity was greater than Leto's.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c18",
+          "source_id": "apollo-q37340-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Another victim of Apollo's wrath was the satyr Marsyas, who unwisely claimed to be more musically gifted than the god; the two competed and the Muses ruled that Apollo was the better musician.",
+          "statement_id": "Korban lain amarah Apollo adalah satir Marsyas yang dengan gegabah mengaku lebih berbakat dalam musik daripada sang dewa; keduanya bertanding dan para Muse memutuskan Apollo musisi yang lebih baik.",
+          "quote": "Another hapless victim of Apollo's wrath was the satyr Marsyas who unwisely claimed he was musically more gifted than the god. The pair had a competition and the Muses ruled that Apollo was indeed the better musician.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c19",
+          "source_id": "apollo-q37340-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Apollo then had Marsyas flayed alive for his presumption and nailed his skin to a pine tree.",
+          "statement_id": "Apollo kemudian menguliti Marsyas hidup-hidup karena kelancangannya dan memaku kulitnya pada sebatang pohon pinus.",
+          "quote": "Apollo then had the mortal flayed alive for his presumption and nailed his skin to a pine tree.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c20",
+          "source_id": "apollo-q37340-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to legend, Apollo, wishing to reveal his father Zeus's intentions to humanity, created the oracle on the site where he had killed the serpent (or dragon) Python; the Pythian games were begun there to commemorate the death of this divine creature.",
+          "statement_id": "Menurut legenda, Apollo yang hendak menyingkapkan kehendak ayahnya, Zeus, kepada manusia mendirikan orakel di tempat ia membunuh ular (atau naga) Python; Pythian Games dimulai di tempat itu untuk memperingati kematian makhluk ilahi tersebut.",
+          "quote": "According to legend, Apollo, wishing to reveal to humanity the intentions of his father Zeus, created the oracle on the site where he had killed the serpent (or dragon) Python. The Panhellenic Pythian games were begun at the site in order to commemorate the death of this divine creature.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c21",
+          "source_id": "apollo-q37340-s3",
+          "host": "www.worldhistory.org",
+          "statement": "The oracle of Delphi was already well visited in the 8th century BCE, despite being hard to reach and open only in summer.",
+          "statement_id": "Orakel Delphi sudah ramai dikunjungi pada abad ke-8 SM, meskipun sulit dijangkau dan hanya buka pada musim panas.",
+          "quote": "The oracle of Delphi was already well-visited in the 8th century BCE - despite being difficult to get to and open only in summer",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c22",
+          "source_id": "apollo-q37340-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Objects associated with Apollo include a silver bow, symbolic of his prowess as an archer, and a kithara (or lyre) made from a tortoise shell, symbolic of his musical ability and his leadership of the chorus of the nine Muses.",
+          "statement_id": "Benda yang dikaitkan dengan Apollo antara lain busur perak, lambang kehebatannya memanah, dan kithara (lira) dari cangkang kura-kura, lambang kemampuan musiknya dan kepemimpinannya atas paduan suara sembilan Muse.",
+          "quote": "a silver bow - symbolic of his prowess as an archer. a kithara (or lyre) - made from the shell of a tortoise, this was symbolic of Apollo's ability in music and his leadership of the chorus of the nine Muses.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c23",
+          "source_id": "apollo-q37340-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Apollo oversaw the initiation rites of young males (ephebes) as they entered the full civic community and became warriors.",
+          "statement_id": "Apollo mengawasi upacara inisiasi para pemuda (efebe) saat mereka memasuki masyarakat warga sepenuhnya dan menjadi prajurit.",
+          "quote": "Apollo oversaw the initiation rites performed by young males (ephebes) as they entered the full civic community and became warriors.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c24",
+          "source_id": "apollo-q37340-s3",
+          "host": "www.worldhistory.org",
+          "statement": "The god is often associated with the sun (as Phoebus Apollo) and the sun god Helios, but modern scholars mostly agree the link between Apollo and Helios goes back no further than the 5th century BCE.",
+          "statement_id": "Sang dewa sering dikaitkan dengan matahari (sebagai Phoebus Apollo) dan dewa matahari Helios, tetapi para ahli modern umumnya sepakat bahwa kaitan Apollo dengan Helios tidak lebih tua daripada abad ke-5 SM.",
+          "quote": "The god is frequently associated with the sun (as Phoebus Apollo) and the sun god Helios, but modern scholars mostly agree that the link between Apollo and Helios does not go further back than the 5th century BCE.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c25",
+          "source_id": "apollo-q37340-s2",
+          "host": "www.theoi.com",
+          "statement": "According to the Dictionary of Greek and Roman Biography and Mythology on theoi.com, the view almost universal among later poets, mythographers and philosophers was that Apollo was identical with Helios, the Sun.",
+          "statement_id": "Menurut Dictionary of Greek and Roman Biography and Mythology di theoi.com, pandangan yang hampir universal di kalangan penyair, penulis mitologi, dan filsuf kemudian adalah bahwa Apollo identik dengan Helios, sang Matahari.",
+          "quote": "the view which was almost universal among the later poets, mythographers, and philesophers, and according to which Apollo was identical with Helios, or the Sun",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c26",
+          "source_id": "apollo-q37340-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Apollodorus, the oracle had earlier belonged to Themis and the dragon Python guarded the mysterious chasm; after slaying the monster, Apollo took possession of the oracle.",
+          "statement_id": "Menurut Apollodorus, orakel itu sebelumnya dimiliki Themis dan naga Python menjaga celah misteriusnya; setelah membunuh monster itu, Apollo mengambil alih orakel tersebut.",
+          "quote": "According to Apollodorus, the oracle had previously been in the possession of Themis, and the dragon Python guarded the mysterious chasm, and Apollo, after having slain the monster, took possession of the oracle.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c27",
+          "source_id": "apollo-q37340-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Hyginus, Python himself possessed the oracle.",
+          "statement_id": "Menurut Hyginus, Python sendirilah yang memiliki orakel itu.",
+          "quote": "According to Hyginus, Python himself possessed the oracle",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c28",
+          "source_id": "apollo-q37340-s2",
+          "host": "www.theoi.com",
+          "statement": "All sudden deaths, whether regarded as punishment or reward, were believed to result from Apollo's arrows, and with the same arrows he sent the plague into the Greek camp.",
+          "statement_id": "Semua kematian mendadak, baik dianggap hukuman maupun ganjaran, dipercaya akibat panah Apollo, dan dengan panah yang sama ia mengirim wabah ke kemah orang Yunani.",
+          "quote": "All sudden deaths of men, whether they were regarded as a punishment or a reward, were believed to be the effect of the arrows of Apollo; and with the same arrows he sent the plague into the camp of the Greeks.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c29",
+          "source_id": "apollo-q37340-s2",
+          "host": "www.theoi.com",
+          "statement": "According to the Dictionary of Greek and Roman Biography and Mythology, Apollo and his worship, festivals and oracles had more influence upon the Greeks than any other god.",
+          "statement_id": "Menurut Dictionary of Greek and Roman Biography and Mythology, Apollo beserta pemujaan, festival, dan orakelnya lebih besar pengaruhnya atas orang Yunani daripada dewa lain mana pun.",
+          "quote": "Apollo and his worship, his festivals and oracles, had more influence upon the Greeks than any other god",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c30",
+          "source_id": "apollo-q37340-s2",
+          "host": "www.theoi.com",
+          "statement": "The worship of Apollo at Rome is first heard of in the year 430 BC, when a temple was raised to him to avert a plague.",
+          "statement_id": "Pemujaan Apollo di Roma pertama kali terdengar pada tahun 430 SM, ketika sebuah kuil didirikan untuk menolak wabah.",
+          "quote": "But the first time that we hear of the worship of Apollo at Rome is in the year B. C. 430, when, for the purpose of averting a plague, a temple was raised to him",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c31",
+          "source_id": "apollo-q37340-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The etymology of the name Apollo (Ἀπόλλων) is unclear; the Greeks most often associated it with the verb apollymi, \"to destroy\".",
+          "statement_id": "Asal kata nama Apollo (Ἀπόλλων) tidak jelas; orang Yunani paling sering mengaitkan nama itu dengan kata kerja apollymi, \"menghancurkan\".",
+          "quote": "The etymology of the name is unclear. The spelling Ἀπόλλων ... Thus, the Greeks most often associated Apollo's name with the Greek verb ἀπόλλυμι (apollymi), \"to destroy\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c32",
+          "source_id": "apollo-q37340-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Greek tradition he helped Cretan or Arcadian colonists found the city of Troy, but this may reflect cultural influence in the reverse direction, since Hittite cuneiform texts mention an Asia Minor god called Appaliunas or Apalunas in connection with the city of Wilusa.",
+          "statement_id": "Menurut tradisi Yunani, Apollo membantu para pemukim Kreta atau Arkadia mendirikan kota Troya; namun kisah ini mungkin mencerminkan pengaruh budaya dari arah sebaliknya, karena teks paku Het menyebut dewa Asia Kecil bernama Appaliunas atau Apalunas yang berkaitan dengan kota Wilusa.",
+          "quote": "According to Greek tradition, he helped Cretan or Arcadian colonists found the city of Troy. However, this story may reflect a cultural influence which had the reverse direction: Hittite cuneiform texts mention an Asia Minor god called Appaliunas or Apalunas in connection with the city of Wilusa",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c33",
+          "source_id": "apollo-q37340-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Apollo's most common attributes were the bow and arrow; others included the kithara, the plectrum and the sword, and another common emblem was the sacrificial tripod, representing his prophetic powers.",
+          "statement_id": "Atribut Apollo yang paling umum adalah busur dan anak panah; atribut lainnya mencakup kithara, plektrum, dan pedang, dan lambang umum lain adalah trivet persembahan yang melambangkan kekuatan nubuatnya.",
+          "quote": "Apollo's most common attributes were the bow and arrow. Other attributes of his included the kithara (an advanced version of the common lyre), the plectrum and the sword. Another common emblem was the sacrificial tripod, representing his prophetic powers.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c34",
+          "source_id": "apollo-q37340-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In literary contexts Apollo represents harmony, order and reason, contrasted with Dionysus, god of wine, who represents ecstasy and disorder.",
+          "statement_id": "Dalam konteks sastra, Apollo melambangkan keselarasan, keteraturan, dan nalar, yang dikontraskan dengan Dionysus, dewa anggur, yang melambangkan kegairahan dan kekacauan.",
+          "quote": "In literary contexts, Apollo represents harmony, order, and reason—characteristics contrasted with those of Dionysus, god of wine, who represents ecstasy and disorder.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c35",
+          "source_id": "apollo-q37340-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The god's instruction of the Muses formed the subject of Igor Stravinsky's Apollon musagète (1927–1928).",
+          "statement_id": "Pengajaran sang dewa kepada para Muse menjadi pokok karya Igor Stravinsky, Apollon musagète (1927–1928).",
+          "quote": "the god's instruction of the Muses formed the subject of Igor Stravinsky's Apollon musagète (1927–1928)",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c36",
+          "source_id": "apollo-q37340-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The 1960s and 1970s NASA program for orbiting and landing astronauts on the Moon was named after Apollo by NASA manager Abe Silverstein.",
+          "statement_id": "Program NASA tahun 1960-an dan 1970-an untuk mengorbitkan dan mendaratkan astronaut di Bulan dinamai menurut Apollo oleh manajer NASA Abe Silverstein.",
+          "quote": "In spaceflight, the 1960s and 1970s NASA program for orbiting and landing astronauts on the Moon was named after Apollo, by NASA manager Abe Silverstein",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c37",
+          "source_id": "apollo-q37340-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Apollo appears often in all media of ancient Greek art, most often as a beautiful beardless youth, and is easily identified by a kithara or lyre, a bronze tripod (signifying his oracle at Delphi), a deer, and a bow and quiver.",
+          "statement_id": "Apollo sering muncul dalam semua media seni Yunani kuno, paling sering sebagai pemuda rupawan tanpa janggut, dan mudah dikenali dari kithara atau lira, trivet perunggu (penanda orakelnya di Delphi), rusa, serta busur dan tempat anak panah.",
+          "quote": "Apollo appears frequently in all media of ancient Greek art, most often as a beautiful, beardless youth. He is easily identified with either a kithara or a lyre, a bronze tripod (signifying his oracle at Delphi), a deer (which he often fights over with Hercules), and a bow and quiver.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "apollo-q37340-c38",
+          "source_id": "apollo-q37340-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Apollo was a much-loved god, most likely because of his association with many positive aspects of the human condition such as music, poetry, purification, healing and medicine.",
+          "statement_id": "Apollo adalah dewa yang sangat dicintai, kemungkinan besar karena kaitannya dengan banyak segi positif kehidupan manusia seperti musik, puisi, penyucian, penyembuhan, dan pengobatan.",
+          "quote": "Apollo was a much-loved god, and this was most likely due to his association with many positive aspects of the human condition such as music, poetry, purification, healing, and medicine.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -145,25 +452,21 @@
             "kategori \"Apollo Belvedere before restoration in 2020–2024 (Vatican Museums)\"",
             "dipakai di en.wikipedia.org: Apollo"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-025/apollo-q37340-1.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-025/apollo-q37340-1.jpg"
         }
       ]
     },
     {
       "slug": "athena",
-      "file": "batch-025.md",
+      "file": "batch-025-fix-1.md",
+      "entry_sha256": "6f19ab346df12b6c72280055e1ac7b8af6556eb74db66473e79bf9d883cec9af",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
+        "claims": 40,
         "sources": 3,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 7 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Mattei Athena Louvre Ma530 n2.jpg)",
@@ -195,8 +498,8 @@
           "id": "athena-c03",
           "source_id": "athena-s1",
           "host": "en.wikipedia.org",
-          "statement": "The Parthenon on the Athenian Acropolis is dedicated to her; her main Athenian festival was the Panathenaia.",
-          "statement_id": "Parthenon di Akropolis Athena dipersembahkan kepadanya; festival utamanya di Athena adalah Panathenaia.",
+          "statement": "The Parthenon on the Athenian Acropolis is dedicated to her, along with numerous other temples and monuments.",
+          "statement_id": "Parthenon di Akropolis Athena dipersembahkan kepada Athena, bersama banyak kuil dan monumen lainnya.",
           "quote": "The Parthenon on the Athenian Acropolis is dedicated to her, along with numerous other temples and monuments.",
           "context": "religious-tradition",
           "status": "exact"
@@ -205,8 +508,8 @@
           "id": "athena-c04",
           "source_id": "athena-s1",
           "host": "en.wikipedia.org",
-          "statement": "In Greek myth Athena was born from Zeus's forehead after he swallowed the pregnant Metis; in Athens's founding myth she beat Poseidon by creating the first olive tree; she was called Athena Parthenos.",
-          "statement_id": "Dalam mitologi Yunani Athena lahir dari dahi Zeus setelah Zeus menelan Metis yang sedang mengandungnya; dalam mitos pendirian Athena, ia mengalahkan Poseidon dengan menciptakan pohon zaitun pertama; ia bergelar Athena Parthenos.",
+          "statement": "In Greek mythology Athena was born from the forehead of her father Zeus; in Hesiod's Theogony this happened after Zeus swallowed Metis while she was pregnant with Athena. In the founding myth of Athens, Athena bested Poseidon in a contest over patronage of the city by creating the first olive tree.",
+          "statement_id": "Dalam mitologi Yunani, Athena lahir dari dahi ayahnya, Zeus; menurut Theogony karya Hesiod, hal itu terjadi setelah Zeus menelan Metis yang sedang mengandungnya. Dalam mitos pendirian Athena, ia mengalahkan Poseidon dalam perebutan perlindungan kota dengan menciptakan pohon zaitun pertama.",
           "quote": "In Greek mythology, Athena was born from the forehead of her father Zeus; in Hesiod's Theogony, this occurred after Zeus swallowed his consort Metis while she was pregnant with Athena. In the founding myth of Athens, Athena bested Poseidon in a competition over patronage of the city by creating the first olive tree.",
           "context": "religious-tradition",
           "status": "exact"
@@ -215,8 +518,8 @@
           "id": "athena-c05",
           "source_id": "athena-s2",
           "host": "www.theoi.com",
-          "statement": "According to theoi.com, Athena was the Olympian goddess of wisdom and counsel, war, town defence, heroic endeavour and crafts, shown with shield and spear and wearing the aegis bearing the Gorgon Medusa's face.",
-          "statement_id": "Menurut theoi.com, Athena dewi Olimpus kebijaksanaan dan nasihat yang baik, perang, pertahanan kota, usaha kepahlawanan, dan kerajinan, digambarkan membawa perisai dan tombak serta mengenakan aigis berhias wajah Gorgon Medusa.",
+          "statement": "According to theoi.com, Athena was the Olympian goddess of wisdom and good counsel, war, the defence of towns, heroic endeavour, weaving, pottery and various other crafts, depicted as a stately woman armed with shield and spear, in a long robe and crested helm, and wearing the aigis.",
+          "statement_id": "Menurut theoi.com, Athena adalah dewi Olimpus kebijaksanaan dan nasihat yang baik, perang, pertahanan kota, usaha kepahlawanan, menenun, tembikar, dan berbagai kerajinan lain; ia digambarkan sebagai perempuan agung bersenjata perisai dan tombak, berjubah panjang, berhelm berjambul, dan beraigis.",
           "quote": "was the Olympian goddess of wisdom and good counsel, war, the defence of towns, heroic endeavour, weaving, pottery and various other crafts. She was depicted as a stately woman armed with a shield and spear, and wearing a long robe, crested helm, and the famed aigis",
           "context": "religious-tradition",
           "status": "exact"
@@ -225,8 +528,8 @@
           "id": "athena-c06",
           "source_id": "athena-s2",
           "host": "www.theoi.com",
-          "statement": "Athena helped Perseus slay the Gorgon, the Argonauts seek the Golden Fleece, and Heracles in his twelve labours.",
-          "statement_id": "Athena membantu Perseus membunuh Gorgon, para Argonaut mencari Bulu Domba Emas, dan Herakles dalam dua belas tugasnya.",
+          "statement": "According to theoi.com, among Athena's famous myths is her assisting of Perseus in his quest to slay the Gorgon and of the Argonauts in their quest for the Golden Fleece.",
+          "statement_id": "Menurut theoi.com, salah satu mitos terkenal Athena adalah bantuannya kepada Perseus dalam usahanya membunuh Gorgon dan kepada para Argonaut dalam pencarian Bulu Domba Emas.",
           "quote": "The assisting of Perseus in his quest to slay the Gorgon and the Argonauts in their quest for the Golden Fleece.",
           "context": "religious-tradition",
           "status": "exact"
@@ -239,6 +542,336 @@
           "statement_id": "Menurut World History Encyclopedia, Athena putri kesayangan Zeus dan mungkin dewa Olimpus yang paling bijak, paling berani, dan paling cerdik.",
           "quote": "She was the favourite daughter of Zeus and was, perhaps, the wisest, most courageous, and certainly the most resourceful of the Olympian gods.",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c08",
+          "source_id": "athena-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Attic Greek her name is Ἀθηνᾶ (Athēnâ) or Ἀθηναία (Athēnaía).",
+          "statement_id": "Dalam bahasa Yunani Attika namanya Ἀθηνᾶ (Athēnâ) atau Ἀθηναία (Athēnaía).",
+          "quote": "Attic Greek: Ἀθηνᾶ , Athēnâ , or Ἀθηναία , Athēnaía",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c09",
+          "source_id": "athena-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She was known as Polias and Poliouchos (both from polis, \"city-state\"), and her temples were usually located atop the fortified acropolis in the centre of the city.",
+          "statement_id": "Athena dikenal sebagai Polias dan Poliouchos (keduanya dari polis, \"negara-kota\"), dan kuil-kuilnya biasanya terletak di atas akropolis berbenteng di pusat kota.",
+          "quote": "She was known as Polias and Poliouchos (both derived from polis, meaning \"city-state\"), and her temples were usually located atop the fortified acropolis in the central part of the city.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c10",
+          "source_id": "athena-s1",
+          "host": "en.wikipedia.org",
+          "statement": "As patron of craft and weaving Athena was known as Ergane; she was also a warrior goddess, believed to lead soldiers into battle as Athena Promachos.",
+          "statement_id": "Sebagai pelindung kerajinan dan tenun, Athena dikenal sebagai Ergane; ia juga dewi pejuang yang dipercaya memimpin prajurit ke medan perang sebagai Athena Promachos.",
+          "quote": "As the patron of craft and weaving, Athena was known as Ergane. She was also a warrior goddess, and was believed to lead soldiers into battle as Athena Promachos.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c11",
+          "source_id": "athena-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Her main festival in Athens was the Panathenaia, celebrated in the month of Hekatombaion in midsummer and the most important festival of the Athenian calendar.",
+          "statement_id": "Festival utamanya di Athena adalah Panathenaia, yang dirayakan pada bulan Hekatombaion di tengah musim panas dan merupakan festival terpenting dalam kalender Athena.",
+          "quote": "Her main festival in Athens was the Panathenaia, which was celebrated during the month of Hekatombaion in midsummer and was the most important festival on the Athenian calendar.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c12",
+          "source_id": "athena-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In ancient times scholars argued whether Athena was named after Athens or Athens after Athena; now scholars generally agree that the goddess takes her name from the city.",
+          "statement_id": "Pada zaman kuno para ahli berdebat apakah Athena dinamai menurut kota Athena atau sebaliknya; kini para ahli umumnya sepakat bahwa sang dewi mengambil namanya dari kota itu.",
+          "quote": "In ancient times, scholars argued whether Athena was named after Athens or Athens after Athena. Now scholars generally agree that the goddess takes her name from the city",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c13",
+          "source_id": "athena-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name of the city in ancient Greek is Ἀθῆναι (Athȇnai), a plural toponym designating the place where, according to myth, she presided over the Athenai, a sisterhood devoted to her worship.",
+          "statement_id": "Nama kota itu dalam bahasa Yunani kuno adalah Ἀθῆναι (Athȇnai), toponim bentuk jamak, yang menunjuk tempat yang menurut mitos dipimpin Athena atas Athenai, persaudarian pemujanya.",
+          "quote": "The name of the city in ancient Greek is Ἀθῆναι (Athȇnai ), a plural toponym, designating the place where—according to myth—she presided over the Athenai, a sisterhood devoted to her worship.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c14",
+          "source_id": "athena-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In her aspect as a warrior maiden Athena was known as Parthenos (Παρθένος, \"virgin\"), because like the goddesses Artemis and Hestia she was believed to remain a virgin forever.",
+          "statement_id": "Dalam wujudnya sebagai gadis pejuang, Athena dikenal sebagai Parthenos (Παρθένος, \"perawan\"), karena seperti dewi Artemis dan Hestia ia dipercaya tetap perawan selamanya.",
+          "quote": "In her aspect as a warrior maiden, Athena was known as Parthenos (Παρθένος \"virgin\"), because, like her fellow goddesses Artemis and Hestia, she was believed to remain perpetually a virgin.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c15",
+          "source_id": "athena-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the later writings of the Roman poet Ovid, Athena was said to have competed against the mortal Arachne in weaving and then turned her into the first spider, and to have transformed Medusa into the Gorgon after witnessing the young woman being raped by Poseidon in the goddess's temple.",
+          "statement_id": "Dalam tulisan penyair Romawi Ovidius yang lebih kemudian, Athena disebut bertanding menenun melawan Arachne yang fana lalu mengubahnya menjadi laba-laba pertama, dan mengubah Medusa menjadi Gorgon setelah menyaksikan perempuan muda itu diperkosa Poseidon di kuil sang dewi.",
+          "quote": "In the later writings of the Roman poet Ovid, Athena was said to have competed against the mortal Arachne in a weaving competition, afterward transforming Arachne into the first spider, and to have transformed Medusa into the Gorgon after witnessing the young woman being raped by Poseidon in the goddess's temple.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c16",
+          "source_id": "athena-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Athena lent Perseus her polished bronze shield so he could view Medusa's reflection without being petrified; Hermes lent Perseus his harpe to behead Medusa.",
+          "statement_id": "Athena meminjamkan Perseus perisai perunggu mengilapnya agar ia dapat melihat bayangan Medusa tanpa menjadi batu; Hermes meminjamkan harpe untuk memenggal Medusa.",
+          "quote": "Athena lent Perseus her polished bronze shield to view Medusa's reflection without becoming petrified himself. Hermes lent Perseus his harpe to behead Medusa with.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c17",
+          "source_id": "athena-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In other traditions Athena's father is sometimes listed as Pallas, Brontes or Itonos, and Poseidon is also sometimes listed as her father, by the nymph Tritonis.",
+          "statement_id": "Dalam tradisi lain, ayah Athena kadang disebut Pallas, Brontes, atau Itonos, dan Poseidon juga kadang disebut sebagai ayahnya, dari nimfa Tritonis.",
+          "quote": "In other traditions, Athena's father is sometimes listed as Pallas, Brontes, or Itonos. Poseidon is also sometimes listed as her father, by the nymph Tritonis.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c18",
+          "source_id": "athena-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A full-scale replica of the Parthenon has stood for over a century in Nashville, Tennessee; in 1990 the curators added a gilded forty-two-foot replica of Phidias's Athena Parthenos, made of concrete and fiberglass.",
+          "statement_id": "Replika Parthenon berukuran penuh telah berdiri lebih dari seabad di Nashville, Tennessee; pada 1990 para kurator menambahkan replika Athena Parthenos karya Phidias setinggi empat puluh dua kaki yang disepuh emas, terbuat dari beton dan serat kaca.",
+          "quote": "For over a century, a full-scale replica of the Parthenon has stood in Nashville, Tennessee. In 1990, the curators added a gilded forty-two-foot (12.5 m) tall replica of Phidias's Athena Parthenos, built from concrete and fiberglass.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c19",
+          "source_id": "athena-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Athena contested with Poseidon for dominion of Athens, producing the first olive tree while he produced the first horse.",
+          "statement_id": "Menurut theoi.com, Athena bersaing dengan Poseidon memperebutkan kekuasaan atas Athena; ia menghasilkan pohon zaitun pertama dan Poseidon kuda pertama.",
+          "quote": "Her contest with Poseidon for dominion of Athens in which she produced the first olive tree and he the first horse.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c20",
+          "source_id": "athena-s2",
+          "host": "www.theoi.com",
+          "statement": "In the War of the Giants, according to theoi.com, she buried Enceladus beneath Mount Etna and made her aigis from the skin of Pallas.",
+          "statement_id": "Dalam Perang Para Raksasa, menurut theoi.com, Athena mengubur Enceladus di bawah Gunung Etna dan membuat aigisnya dari kulit Pallas.",
+          "quote": "The War of the Giants in which she buried Enkelados (Enceladus) beneath Mount Etna and made her aigis from the skin of Pallas.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c21",
+          "source_id": "athena-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Athena held a weaving contest with Arachne, who was transformed by the goddess into a spider.",
+          "statement_id": "Menurut theoi.com, Athena bertanding menenun dengan Arachne, yang diubah sang dewi menjadi laba-laba.",
+          "quote": "The weaving contest with Arakhne (Arachne) who was transformed by the goddess into a spider",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c22",
+          "source_id": "athena-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Athena blinded Teiresias for seeing her naked while bathing.",
+          "statement_id": "Menurut theoi.com, Athena membutakan Teiresias karena melihatnya telanjang saat mandi.",
+          "quote": "The blinding of Teiresias (Tiresias) for seeing her naked while bathing.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c23",
+          "source_id": "athena-s2",
+          "host": "www.theoi.com",
+          "statement": "In the Judgement of Paris, according to theoi.com, she competed with Hera and Aphrodite for the prize of the golden apple.",
+          "statement_id": "Dalam Penghakiman Paris, menurut theoi.com, Athena bersaing dengan Hera dan Aphrodite memperebutkan hadiah apel emas.",
+          "quote": "The Judgement of Paris in which she competed with Hera and Aphrodite for the prize of the golden apple.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c24",
+          "source_id": "athena-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Athena assisted Heracles with his twelve labours.",
+          "statement_id": "Menurut theoi.com, Athena membantu Herakles dalam kedua belas pekerjaannya.",
+          "quote": "The assisting of Herakles (Heracles) with his twelve labours.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c25",
+          "source_id": "athena-s2",
+          "host": "www.theoi.com",
+          "statement": "In the Trojan War, according to theoi.com, she sided with the Greeks but attacked their ships with a storm when they failed to punish Oilean Aias (Ajax) for violating her Trojan shrine.",
+          "statement_id": "Dalam Perang Troya, menurut theoi.com, Athena berpihak kepada bangsa Yunani, tetapi menyerang kapal-kapal mereka dengan badai ketika mereka tidak menghukum Aias dari Lokris yang melanggar kuilnya di Troya.",
+          "quote": "The Trojan War where she sided with the Greeks in battle, but attacked their ships with a storm when they failed to punish Oilean Aias (Ajax) for violating her Trojan shrine.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c26",
+          "source_id": "athena-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Athena's aigis is a snake-trimmed cape adorned with the monstrous visage of the Gorgon Medousa (Medusa).",
+          "statement_id": "Menurut theoi.com, aigis Athena adalah jubah berhias ular yang dihiasi wajah mengerikan Gorgon Medousa (Medusa).",
+          "quote": "the famed aigis--a snake-trimmed cape adorned with the monstrous visage of the Gorgon Medousa (Medusa)",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c27",
+          "source_id": "athena-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Hesiod, as set out in the Dictionary of Greek and Roman Biography and Mythology on theoi.com, Metis, Zeus's first wife, was Athena's mother, but when she was pregnant Zeus, on the advice of Gaea and Uranus, swallowed Metis and afterwards gave birth to Athena himself, who sprang from his head.",
+          "statement_id": "Menurut Hesiod, seperti diuraikan Dictionary of Greek and Roman Biography and Mythology di theoi.com, Metis istri pertama Zeus adalah ibu Athena, tetapi ketika Metis mengandungnya, Zeus atas nasihat Gaea dan Uranus menelan Metis, lalu sendiri melahirkan Athena yang melompat keluar dari kepalanya.",
+          "quote": "Metis, the first wife of Zeus, was the mother of Athena, but when Metis was pregnant with her, Zeus, on the advice of Gaea and Uranus, swallowed Metis up, and afterwards gave birth himself to Athena, who sprang from his head.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c28",
+          "source_id": "athena-s2",
+          "host": "www.theoi.com",
+          "statement": "According to the Dictionary of Greek and Roman Biography and Mythology on theoi.com, Homer calls her a daughter of Zeus without any allusion to her mother or to the manner in which she came into existence.",
+          "statement_id": "Menurut Dictionary of Greek and Roman Biography and Mythology di theoi.com, Homer menyebut Athena putri Zeus tanpa menyinggung ibunya atau cara ia diadakan.",
+          "quote": "calls her a daughter of Zeus, without any allusion to her mother or to the manner in which she was called into existence",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c29",
+          "source_id": "athena-s2",
+          "host": "www.theoi.com",
+          "statement": "According to the Dictionary of Greek and Roman Biography and Mythology on theoi.com, a second set of traditions regard her as the daughter of Pallas, the winged giant, whom she afterwards killed for attempting to violate her chastity, using his skin as her aegis.",
+          "statement_id": "Menurut Dictionary of Greek and Roman Biography and Mythology di theoi.com, satu kelompok tradisi menyebut Athena putri Pallas, raksasa bersayap, yang kemudian ia bunuh karena mencoba melanggar kesuciannya dan kulitnya ia pakai sebagai aigis.",
+          "quote": "a second set regard her as the daughter of Pallas, the winged giant, whom she afterwards killed on account of his attempting to violate her chastity, whose skin she used as her aegis",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c30",
+          "source_id": "athena-s2",
+          "host": "www.theoi.com",
+          "statement": "According to the Dictionary of Greek and Roman Biography and Mythology on theoi.com, a third tradition takes us to Libya and calls Athena a daughter of Poseidon and Tritonis.",
+          "statement_id": "Menurut Dictionary of Greek and Roman Biography and Mythology di theoi.com, tradisi ketiga membawa kita ke Libya dan menyebut Athena putri Poseidon dan Tritonis.",
+          "quote": "A third tradition carries us to Libya, and calls Athena a daughter of Poseidon and Tritonis.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c31",
+          "source_id": "athena-s2",
+          "host": "www.theoi.com",
+          "statement": "According to the Dictionary of Greek and Roman Biography and Mythology on theoi.com, her power and wisdom appear in her being the protectress and preserver of the state and of social institutions.",
+          "statement_id": "Menurut Dictionary of Greek and Roman Biography and Mythology di theoi.com, kekuatan dan kebijaksanaan Athena tampak pada perannya sebagai pelindung dan penjaga negara serta lembaga-lembaga sosial.",
+          "quote": "her power and wisdom appear in her being the protectress and preserver of the state and of social institutions.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c32",
+          "source_id": "athena-s2",
+          "host": "www.theoi.com",
+          "statement": "According to the Dictionary of Greek and Roman Biography and Mythology on theoi.com, Athena was a goddess in whom power and wisdom were harmoniously blended.",
+          "statement_id": "Menurut Dictionary of Greek and Roman Biography and Mythology di theoi.com, Athena adalah dewi yang di dalam dirinya kekuatan dan kebijaksanaan berpadu selaras.",
+          "quote": "a goddess in whom power and wisdom were harmoniously blended",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c33",
+          "source_id": "athena-s2",
+          "host": "www.theoi.com",
+          "statement": "As protectress of agriculture Athena is represented as the inventor of the plough and rake: she created the olive tree, the greatest blessing of Attica, and taught people to yoke oxen to the plough.",
+          "statement_id": "Sebagai pelindung pertanian, Athena digambarkan sebagai penemu bajak dan garu: ia menciptakan pohon zaitun, berkah terbesar Attika, dan mengajari orang memasang lembu pada bajak.",
+          "quote": "As the protectress of agriculture, Athena is represented as the inventor of the plough and rake: she created the olive tree, the greatest blessing of Attica, taught the people to yoke oxen to the plough",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c34",
+          "source_id": "athena-s2",
+          "host": "www.theoi.com",
+          "statement": "She was believed to have instituted the ancient court of the Areiopagus.",
+          "statement_id": "Athena dipercaya telah mendirikan pengadilan kuno Areiopagus.",
+          "quote": "She was believed to have instituted the ancient court of the Areiopagus",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c35",
+          "source_id": "athena-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Athena is a major protagonist in Homer's account of the Trojan War in the Iliad, where she supports the Achaeans and their heroes, especially Achilles, Menelaos (saved from Pandaros's arrow) and Diomedes, whose spear is once diverted to wound Ares himself.",
+          "statement_id": "Athena adalah tokoh utama dalam kisah Perang Troya karya Homer, Iliad, tempat ia mendukung bangsa Achaea dan para pahlawannya, terutama Achilles, Menelaos yang diselamatkan dari panah Pandaros, dan Diomedes yang tombaknya sekali dibelokkan hingga melukai Ares sendiri.",
+          "quote": "Athena was a major protagonist in Homer's account of the Trojan War in the Iliad where she supports the Achaeans and their heroes, especially Achilles, to whom she gives encouragement and wise counsel, Menelaos, who is saved from the arrow of Pandaros, and Diomedes, whose spear, in one notable episode, is diverted to injure Ares himself.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c36",
+          "source_id": "athena-s3",
+          "host": "www.worldhistory.org",
+          "statement": "She also protected Odysseus and is credited with giving him the idea of the Wooden Horse.",
+          "statement_id": "Athena juga melindungi Odysseus dan dianggap memberinya gagasan Kuda Kayu.",
+          "quote": "She also gave protection to Odysseus and is credited with giving him the idea of the Wooden Horse.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c37",
+          "source_id": "athena-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Objects associated with the goddess include an owl, symbol of wisdom, and the olive tree; in art she is often shown with armour, a golden helmet, a shield and a spear.",
+          "statement_id": "Benda yang dikaitkan dengan Athena mencakup burung hantu, lambang kebijaksanaan, dan pohon zaitun; dalam seni ia sering digambarkan berzirah, berhelm emas, berperisai, dan memegang tombak.",
+          "quote": "Objects associated with the goddess include an owl - symbol of wisdom - and the olive tree. She is often depicted in art with armour, a golden helmet, a shield, and holding a spear.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c38",
+          "source_id": "athena-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Her armour is the aegis, made in some accounts from the skin of a Giant, hung with golden tassels and featuring the head of the Gorgon given to her by Perseus.",
+          "statement_id": "Zirah Athena adalah aigis yang menurut sebagian riwayat dibuat dari kulit seorang Raksasa, berumbai emas, dan bergambar kepala Gorgon yang diberikan Perseus kepadanya.",
+          "quote": "Her armour is the aegis made, in some accounts, from the skin of a Giant, hung with tassels of gold, and featuring the head of the Gorgon given to her by Perseus.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c39",
+          "source_id": "athena-s3",
+          "host": "www.worldhistory.org",
+          "statement": "The most famous representation of Athena in the ancient world was undoubtedly the monumental gold and ivory statue by Pheidias that stood in the Parthenon of Athens and was over 12 m high.",
+          "statement_id": "Penggambaran Athena yang paling terkenal di dunia kuno tak diragukan lagi adalah arca raksasa dari emas dan gading karya Pheidias yang berada di Parthenon di Athena dan tingginya lebih dari 12 m.",
+          "quote": "The most famous representation of Athena in the ancient world was undoubtedly the monumental gold and ivory statue of the goddess by Pheidias which resided in the Parthenon of Athens and was over 12 m high.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "athena-c40",
+          "source_id": "athena-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Both Homer and Hesiod refer to Athena as \"bright-eyed\" and \"Tritogeneia\".",
+          "statement_id": "Baik Homer maupun Hesiod menyebut Athena \"bermata cerah\" dan \"Tritogeneia\".",
+          "quote": "Both Homer and Hesiod refer to Athena as 'bright-eyed' and 'Tritogeneia'.",
+          "context": "historical-record",
           "status": "exact"
         }
       ],
@@ -284,29 +917,25 @@
             "kategori \"Athéna Mattéi (Louvre, Ma 530)\"",
             "dipakai di bcl.wikipedia.org: Athena"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-025/athena-1.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-025/athena-1.jpg"
         }
       ]
     },
     {
       "slug": "brahma-q11389",
-      "file": "batch-025.md",
+      "file": "batch-025-fix-1.md",
+      "entry_sha256": "50e01dcea10bce5be452f57c273e8ec236240b18e39ee3852618f25d4895a186",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 2,
+        "claims": 48,
+        "sources": 3,
         "images": 1
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 6 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
           "where": "images[0] (File:Brahma, dal soffitto del tempio di huchchappaiyya gudi, aihole (balgakot), karnataka, VII secolo (cropped).jpg)",
-          "message": "Keterkaitan otomatis: nama berkas, kategori \"Brahma\", dipakai di en.wikipedia.org: Brahma. Cek visual tetap diperlukan."
+          "message": "Keterkaitan otomatis: nama berkas, kategori \"Brahma\", dipakai di ne.wikipedia.org: ब्रह्मा. Cek visual tetap diperlukan."
         }
       ],
       "claims": [
@@ -324,8 +953,8 @@
           "id": "brahma-q11389-c02",
           "source_id": "brahma-q11389-s1",
           "host": "en.wikipedia.org",
-          "statement": "Brahma is often identified with the Vedic Prajapati; prominent with his own sect in post-Vedic times, by the 7th century he had lost significance, overshadowed by Vishnu, Shiva and Mahadevi.",
-          "statement_id": "Brahma sering disamakan dengan dewa Weda Prajapati; pada masa pasca-Weda ia dewa terkemuka dengan sekte sendiri, tetapi menjelang abad ke-7 kehilangan pengaruhnya dan dibayangi Wisnu, Siwa, dan Mahadewi.",
+          "statement": "Brahma is often identified with the Vedic god Prajapati; in the post-Vedic period he was a prominent deity and his sect existed, but by the 7th century he had lost his significance.",
+          "statement_id": "Brahma sering disamakan dengan dewa Weda Prajapati; pada masa pasca-Weda ia dewa terkemuka dan sektenya ada, tetapi menjelang abad ke-7 ia kehilangan kepentingannya.",
           "quote": "Brahma is frequently identified with the Vedic god Prajapati. During the post-Vedic period, Brahma was a prominent deity and his sect existed; however, by the 7th century, he had lost his significance.",
           "context": "scholarly-interpretation",
           "status": "exact"
@@ -344,8 +973,8 @@
           "id": "brahma-q11389-c04",
           "source_id": "brahma-q11389-s1",
           "host": "en.wikipedia.org",
-          "statement": "In contemporary Hinduism Brahma is rarely worshipped as a main deity, with few temples in India, the most famous the Brahma Temple at Pushkar, Rajasthan.",
-          "statement_id": "Dalam agama Hindu masa kini Brahma jarang dipuja sebagai dewa utama, dan hanya sedikit kuil untuknya di India, yang paling terkenal Kuil Brahma di Pushkar, Rajasthan.",
+          "statement": "Few temples dedicated to him exist in India, the most famous being the Brahma Temple at Pushkar in Rajasthan.",
+          "statement_id": "Hanya sedikit kuil yang dipersembahkan kepadanya di India, yang paling terkenal adalah Kuil Brahma di Pushkar, Rajasthan.",
           "quote": "Few temples dedicated to him exist in India, the most famous being the Brahma Temple, Pushkar in Rajasthan.",
           "context": "religious-tradition",
           "status": "exact"
@@ -368,6 +997,426 @@
           "statement_id": "Menurut World History Encyclopedia, Brahma muncul dari telur emas kosmis lalu menciptakan baik dan buruk, terang dan gelap, serta empat golongan: dewa, raksasa, leluhur, dan manusia.",
           "quote": "In the beginning, Brahma sprang from the cosmic golden egg and he then created good & evil and light & dark from his own person. He also created the four types: gods, demons, ancestors, and men (the first being Manu).",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c07",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He was also overshadowed by other major deities such as Vishnu, Shiva and Mahadevi and demoted to the role of a secondary creator, created by the major deities.",
+          "statement_id": "Ia juga dibayangi dewa-dewa utama lain seperti Wisnu, Siwa, dan Mahadewi dan diturunkan menjadi pencipta sekunder yang diciptakan oleh dewa-dewa utama.",
+          "quote": "He was also overshadowed by other major deities like Vishnu, Shiva, and Mahadevi and demoted to the role of a secondary creator, who was created by the major deities.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c08",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Historians believe that the major reasons for Brahma's downfall were the rise of Shaivism and Vaishnavism, their replacement of him with Mahadevi in the Smarta tradition, and frequent attacks by Buddhists, Jains and Hindus who worship Shiva and Vishnu.",
+          "statement_id": "Para sejarawan berpendapat bahwa alasan utama kemerosotan Brahma adalah bangkitnya Saiwa dan Waisnawa, penggantian dirinya oleh Mahadewi dalam tradisi Smarta, dan serangan terus-menerus dari umat Buddha, Jain, dan penganut Hindu pemuja Siwa dan Wisnu.",
+          "quote": "Historians believe that some of the major reasons for Brahma's downfall were the rise of Shaivism and Vaishnavism, their replacement of him with Mahadevi in the Smarta tradition, and the frequent attacks by Buddhists, Jains, Hindus who worship Shiva and Vishnu.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c09",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One of the earliest mentions of Brahma together with Vishnu and Shiva is in the fifth Prapathaka (lesson) of the Maitrayaniya Upanishad, probably composed around the late 1st millennium BCE.",
+          "statement_id": "Salah satu penyebutan paling awal Brahma bersama Wisnu dan Siwa terdapat pada Prapathaka kelima Upanishad Maitrayaniya, yang kemungkinan disusun sekitar akhir milenium pertama SM.",
+          "quote": "One of the earliest mentions of Brahma with Vishnu and Shiva is in the fifth Prapathaka (lesson) of the Maitrayaniya Upanishad, probably composed around the late 1st millennium BCE.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c10",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "While the Maitrayaniya Upanishad maps Brahma to one of the elements of the guna theory, the text does not depict him as one of the trifunctional elements of the Trimurti idea found in later Puranic literature.",
+          "statement_id": "Meskipun Upanishad Maitrayaniya memetakan Brahma pada salah satu unsur teori guna, teks itu tidak menggambarkannya sebagai salah satu unsur trifungsi gagasan Trimurti yang terdapat dalam sastra Purana yang lebih kemudian.",
+          "quote": "While the Maitrayaniya Upanishad maps Brahma with one of the elements of the guṇas theory of Hinduism, the text does not depict him as one of the trifunctional elements of the Hindu Trimurti idea found in later Puranic literature.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c11",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Early texts such as the Brahmanda Purana say there was nothing but an eternal ocean, from which a golden egg called Hiranyagarbha emerged; the egg broke open and Brahma, who had created himself within it, came into existence (gaining the name Svayambhu), and then created the universe, the earth and other things.",
+          "statement_id": "Teks awal seperti Brahmanda Purana menyebut bahwa semula hanya ada samudra abadi; dari situ muncul telur emas bernama Hiranyagarbha. Telur itu pecah dan Brahma, yang telah menciptakan dirinya di dalamnya, lahir (dengan nama Svayambhu); lalu ia menciptakan alam semesta, bumi, dan hal-hal lain.",
+          "quote": "Early texts like the Brahmanda Purana describe that there was nothing but an eternal ocean. From this, a golden egg called Hiranyagarbha, emerged. The egg broke open and Brahma, who had created himself within it, came into existence (gaining the name Svayambhu). Then, he created the universe, the earth, and other things.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c12",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Vishnu-focused Puranas describe Brahma as born from a lotus emerging from the navel of Vishnu, and Shiva as born from a fire emerging from Vishnu's forehead.",
+          "statement_id": "Purana yang berpusat pada Wisnu menyebut bahwa Brahma lahir dari teratai yang muncul dari pusar Wisnu, dan Siwa lahir dari api yang muncul dari dahi Wisnu.",
+          "quote": "Vishnu-focused Puranas describe that Brahma was born from a lotus emerging from the navel of the god Vishnu and Shiva was born from a fire emerging from the forehead of the god Vishnu.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c13",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In contrast, Shiva-focused Puranas describe Brahma and Vishnu as born from the right and left sides of Shiva's waist.",
+          "statement_id": "Sebaliknya, Purana yang berpusat pada Siwa menyebut Brahma dan Wisnu lahir dari sisi kanan dan kiri pinggang Siwa.",
+          "quote": "In contrast, the Shiva-focused Puranas describe Brahma and Vishnu to be born from Shiva's right and left sides of his waist",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c14",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Yet other texts describe the Tridevi as having created Brahma, Vishnu and Shiva, and state that Brahma is a secondary creator of the world working on their behalf.",
+          "statement_id": "Sumber lain menyebut bahwa Tridewi menciptakan Brahma, Wisnu, dan Siwa, dan teks-teks itu menyatakan Brahma pencipta sekunder dunia yang bekerja atas nama mereka.",
+          "quote": "Yet others describe that the Tridevi created Brahma, Vishnu, Shiva, and these texts then state that Brahma is a secondary creator of the world working respectively on their behalf.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c15",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Brahma creates all the forms in the universe but not the primordial universe itself; in most Puranic texts his creative activity depends on the presence and power of a higher god or goddess.",
+          "statement_id": "Brahma menciptakan segala bentuk di alam semesta, tetapi bukan alam semesta primordial itu sendiri; dalam kebanyakan teks Purana, kegiatan penciptaannya bergantung pada kehadiran dan kekuatan dewa atau dewi yang lebih tinggi.",
+          "quote": "Brahma creates all the forms in the universe, but not the primordial universe itself. Thus in most Puranic texts, Brahma's creative activity depends on the presence and power of a higher god or higher goddess.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c16",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In post-Vedic Puranic literature Brahma creates but neither preserves nor destroys anything.",
+          "statement_id": "Dalam sastra Purana pasca-Weda, Brahma menciptakan tetapi tidak memelihara maupun menghancurkan apa pun.",
+          "quote": "In the post-Vedic Puranic literature, Brahma creates but neither preserves nor destroys anything.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c17",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Puranas describe Brahma as the god creating time.",
+          "statement_id": "Purana menggambarkan Brahma sebagai dewa yang menciptakan waktu.",
+          "quote": "The Puranas describe Brahma as the god creating time.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c18",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Despite being believed to be the creator, Brahma is considered mortal according to scriptures. The Age of Brahma spans vast epochs in Hindu cosmology, and a kalpa is a day of Brahma.",
+          "statement_id": "Meskipun diyakini sebagai pencipta, Brahma dianggap fana menurut kitab suci. Usia Brahma menurut kosmologi Hindu mencakup kurun waktu yang sangat panjang, dan satu kalpa adalah satu hari Brahma.",
+          "quote": "Brahma, despite being believed to be the creator, is considered mortal according to scriptures. The Age of Brahma, according to Hindu cosmology, spans vast epochs of time. A kalpa is a day of Brahmā",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c19",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Brahma is traditionally depicted with four faces and four arms; each face points to a cardinal direction, and his hands hold no weapons but symbols of knowledge and creation.",
+          "statement_id": "Brahma secara tradisional digambarkan berwajah empat dan berlengan empat; setiap wajahnya menghadap satu arah mata angin, dan tangannya tidak memegang senjata melainkan lambang pengetahuan dan penciptaan.",
+          "quote": "Brahma is traditionally depicted with four faces and four arms. Each face of his points to a cardinal direction. His hands hold no weapons, rather symbols of knowledge and creation.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c20",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Chapter 51 of the Manasara, an ancient Sanskrit design manual for making murtis and temples, states that a Brahma statue should be gold in colour.",
+          "statement_id": "Bab 51 Manasara, buku panduan desain kuno berbahasa Sanskerta untuk membuat murti dan kuil, menyatakan bahwa arca Brahma hendaknya berwarna emas.",
+          "quote": "Chapter 51 of the Manasara, an ancient design manual in Sanskrit for making murtis and temples, states that a Brahma statue should be gold in color.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c21",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Brahma's wife is the goddess Sarasvati, the embodiment of his power, the instrument of creation and the energy that drives his actions.",
+          "statement_id": "Istri Brahma adalah dewi Sarasvati, perwujudan kekuatannya, sarana penciptaan, dan tenaga yang menggerakkan tindakannya.",
+          "quote": "Brahma's wife is the goddess Sarasvati. She is the embodiment of his power, the instrument of creation and the energy that drives his actions.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c22",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Legends tell that Savitri, Brahma's wife, pronounced a curse restricting his worship to Pushkara.",
+          "statement_id": "Legenda menyebut bahwa Savitri, istri Brahma, mengucapkan kutukan yang membatasi pemujaan Brahma hanya di Pushkara.",
+          "quote": "Legends tell that Savitri, Brahma's wife, pronounced a curse restricting his worship to Pushkara.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c23",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the account drawn from the Shiva Purana, Shiva then took his true form and cut off one of Brahma's five heads for his dishonesty, proclaiming that Brahma would no longer receive an active following and would have a low status of popularity.",
+          "statement_id": "Menurut kisah dari Siwa Purana, Siwa lalu menampakkan wujud aslinya dan memenggal satu dari lima kepala Brahma karena ketidakjujurannya, serta menyatakan bahwa Brahma tidak akan lagi memiliki pengikut aktif dan akan berkedudukan rendah dalam kepopuleran.",
+          "quote": "Shiva then took his true form and cut off one of Brahma's five heads for his dishonesty, proclaiming that he would no longer receive an active following to his worship and would get a low status of popularity.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c24",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In that account Vishnu assumed the form of a boar, Varaha, and journeyed towards the earth, while Brahma assumed the form of a swan, Hamsa, and journeyed towards the sky.",
+          "statement_id": "Dalam kisah itu Wisnu menjelma babi hutan Waraha menuju bumi, sedangkan Brahma menjelma angsa Hamsa menuju langit.",
+          "quote": "Vishnu assumed the form of a boar as Varaha and journeyed towards the earth and Brahma assumed the form of a swan as Hamsa and journeyed towards the sky.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c25",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A statue of Brahma stands at the Erawan Shrine in Bangkok, Thailand, and is still revered today; the golden dome of the Government House of Thailand houses a statue of Phra Phrom, the Thai representation of Brahma.",
+          "statement_id": "Sebuah arca Brahma terdapat di Kuil Erawan di Bangkok, Thailand, dan masih dihormati hingga kini; kubah emas Gedung Pemerintah Thailand memuat arca Phra Phrom, wujud Brahma dalam budaya Thai.",
+          "quote": "A statue of Brahma is present at the Erawan Shrine in Bangkok, Thailand and continues to be revered in modern times. The golden dome of the Government House of Thailand houses a statue of Phra Phrom (Thai representation of Brahma).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c26",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "One of the three largest temples in the 9th-century CE Prambanan complex in Yogyakarta, central Java (Indonesia), is dedicated to Brahma, the other two to Shiva (the largest) and Vishnu.",
+          "statement_id": "Salah satu dari tiga candi terbesar di kompleks Candi Prambanan abad ke-9 M di Yogyakarta, Jawa Tengah (Indonesia), dipersembahkan kepada Brahma; dua lainnya untuk Siwa (yang terbesar) dan Wisnu.",
+          "quote": "One of the three largest temples in the 9th-century CE Prambanan temples complex in Yogyakarta, central Java (Indonesia) is dedicated to Brahma, the other two to Shiva (largest of three) and Vishnu respectively.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c27",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A shrine of Brahma can be found in Cambodia's Angkor Wat.",
+          "statement_id": "Sebuah kuil Brahma terdapat di Angkor Wat, Kamboja.",
+          "quote": "A shrine of Brahma can be found in Cambodia's Angkor Wat.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c28",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name of the country Burma is derived from Brahma; in medieval texts it is referred to as Brahma-desa.",
+          "statement_id": "Nama negara Burma diturunkan dari Brahma; dalam teks abad pertengahan negeri itu disebut Brahma-desa.",
+          "quote": "The name of the country Burma is derived from Brahma. In medieval texts, it is referred to as Brahma-desa.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c29",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the scriptures, Brahma created his children from his mind, and so they are called Manasaputra.",
+          "statement_id": "Menurut kitab suci, Brahma menciptakan anak-anaknya dari pikirannya sehingga mereka disebut Manasaputra.",
+          "quote": "According to the scriptures, Brahma created his children from his mind and thus, they are referred to as Manasaputra.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c30",
+          "source_id": "brahma-q11389-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Brahma is the Hindu creator god, also known as the Grandfather and as a later equivalent of Prajapati, the primeval first god; in early Hindu sources such as the Mahabharata he is supreme in the triad of great Hindu gods that includes Shiva and Vishnu.",
+          "statement_id": "Menurut World History Encyclopedia, Brahma adalah dewa pencipta Hindu, juga dikenal sebagai Kakek dan sebagai padanan kemudian Prajapati, dewa pertama yang purba; dalam sumber Hindu awal seperti Mahabharata ia tertinggi dalam triad dewa besar Hindu bersama Siwa dan Wisnu.",
+          "quote": "Brahma is the Hindu creator god. He is also known as the Grandfather and as a later equivalent of Prajapati, the primeval first god. In early Hindu sources such as the Mahabharata, Brahma is supreme in the triad of great Hindu gods which includes Shiva and Vishnu.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c31",
+          "source_id": "brahma-q11389-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, in later Puranas Brahma is no longer worshipped and other gods are assigned his myths, even though he always keeps his status as the creator god.",
+          "statement_id": "Dalam Purana yang lebih kemudian, menurut World History Encyclopedia, Brahma tidak lagi dipuja dan mitos-mitosnya diberikan kepada dewa lain, meskipun ia selalu tetap berstatus dewa pencipta.",
+          "quote": "In later Puranas (Hindu epics) Brahma is no longer worshipped and other gods are assigned his myths, even if he always maintains his status as the creator god.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c32",
+          "source_id": "brahma-q11389-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Brahma's epithet is ekahamsa, \"the One Swan\", and his vahanam (vehicle) is a peacock, swan or goose.",
+          "statement_id": "Menurut World History Encyclopedia, julukan Brahma adalah ekahamsa, \"Angsa Tunggal\", dan wahananya adalah merak, angsa, atau angsa liar.",
+          "quote": "Brahma's epithet is ekahamsa, the One Swan. His vahanam ('vehicle') is a peacock, swan or goose.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c33",
+          "source_id": "brahma-q11389-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, in creating, the demons were born from Brahma's thigh and he abandoned his body, which became Night; after creating the good gods he abandoned his body again, which became Day, so demons gain the ascendancy at night and the gods, forces of goodness, rule the day.",
+          "statement_id": "Menurut World History Encyclopedia, dalam proses mencipta para iblis lahir dari paha Brahma sehingga ia meninggalkan tubuhnya yang lalu menjadi Malam; setelah menciptakan dewa-dewa yang baik ia meninggalkan tubuhnya lagi, yang lalu menjadi Siang, sehingga iblis unggul pada malam hari dan para dewa, kekuatan kebaikan, berkuasa pada siang hari.",
+          "quote": "In the process of creating, perhaps in a moment of distraction, the demons were born from Brahma's thigh and so he abandoned his own body which then became Night. After Brahma created good gods he abandoned his body once again, which then became Day, hence demons gain the ascendancy at night and gods, the forces of goodness, rule the day.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c34",
+          "source_id": "brahma-q11389-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Brahma then appointed Shiva to rule over humanity, although in later myths Brahma becomes a servant of Shiva.",
+          "statement_id": "Menurut World History Encyclopedia, Brahma kemudian menunjuk Siwa untuk memerintah umat manusia, meskipun dalam mitos yang lebih kemudian Brahma menjadi pelayan Siwa.",
+          "quote": "Brahma then appointed Shiva to rule over humanity although in later myths Brahma becomes a servant of Shiva.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c35",
+          "source_id": "brahma-q11389-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Brahma had several wives, the most important being his daughter Sarasvati, who after the Creation bore Brahma the four Vedas (holy books of Hinduism) and all branches of knowledge.",
+          "statement_id": "Menurut World History Encyclopedia, Brahma memiliki beberapa istri, yang terpenting putrinya Sarasvati, yang setelah Penciptaan melahirkan bagi Brahma keempat Weda (kitab suci Hindu) dan semua cabang pengetahuan.",
+          "quote": "Brahma had several wives, the most important being his daughter Sarasvati who, after the Creation, bore Brahma the four Vedas (holy books of Hinduism), all branches of knowledge",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c36",
+          "source_id": "brahma-q11389-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, besides Daksa Brahma had other notable sons including the Seven Sages (Daksa being one) and the four famous Prajapatis: Kardama, Pancasikha, Vodhu and Narada, the latter the messenger between gods and men.",
+          "statement_id": "Menurut World History Encyclopedia, selain Daksa, Brahma memiliki putra terkemuka lain, termasuk Tujuh Resi (salah satunya Daksa) dan empat Prajapati termasyhur: Kardama, Pancasikha, Vodhu, dan Narada, yang terakhir adalah pembawa pesan antara dewa dan manusia.",
+          "quote": "Besides Daksa, Brahma had other notable sons including the Seven Sages (of whom Daksa was one), and the four famous Prajapatis (deities): Kardama, Pancasikha, Vodhu, and Narada, the latter being the messenger between gods and men.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c37",
+          "source_id": "brahma-q11389-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, in another myth Brahma's first female is also Death, the evil force that brings balance to the universe and ensures it does not become over-crowded.",
+          "statement_id": "Menurut World History Encyclopedia, dalam mitos lain perempuan pertama ciptaan Brahma adalah juga Kematian, kekuatan jahat yang membawa keseimbangan bagi alam semesta dan mencegahnya penuh sesak.",
+          "quote": "In another myth Brahma's first female is also Death, the evil force that brings balance to the universe and which ensures there is no over-crowding of it.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c38",
+          "source_id": "brahma-q11389-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Brahma originally had five heads, but when he lusted after his daughter Sandhya an outraged Shiva cut off the head that had ogled the goddess (or burned it with his central eye).",
+          "statement_id": "Menurut World History Encyclopedia, semula Brahma berkepala lima, tetapi ketika ia menginginkan putrinya Sandhya, Siwa yang murka memenggal kepala yang menatap sang dewi (atau membakarnya dengan mata tengahnya).",
+          "quote": "Originally Brahma had five heads but when he lusted after his daughter Sandhya an outraged Shiva cut off the head which had ogled the goddess (or burned it with his central eye).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c39",
+          "source_id": "brahma-q11389-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Brahma is often shown in red with four heads, symbolic of his creation of the four Vedas, and so is often called Caturanana or Caturmukha, \"four-faced\", and Astakarna, \"eight-eared\".",
+          "statement_id": "Menurut World History Encyclopedia, Brahma sering digambarkan berwarna merah dengan empat kepala, lambang penciptaan empat Weda; karena itu ia sering disebut Caturanana atau Caturmukha, \"berwajah empat\", dan Astakarna, \"bertelinga delapan\".",
+          "quote": "Brahma is often represented in red with four heads, symbolic of his creation of the four Vedas. Thus he is often called Caturanana/Caturmukha or 'four-faced' and Astakarna or 'eight-eared'.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c40",
+          "source_id": "brahma-q11389-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, in Cambodian art Brahma, known as Prah Prohm, is again shown with four heads and often riding the sacred goose, the hamsa.",
+          "statement_id": "Menurut World History Encyclopedia, dalam seni Kamboja Brahma, yang dikenal sebagai Prah Prohm, kembali digambarkan berkepala empat dan sering menunggang angsa suci hamsa.",
+          "quote": "In Cambodian art, Brahma - known as Prah Prohm - is again represented with four heads and often riding a sacred goose, the hamsa",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c41",
+          "source_id": "brahma-q11389-s2",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, in Tibet Brahma is known as Tshangs-pa or White Brahma (Tshangs-pa dkar-po) and often rides a horse and carries a white bull and a sword.",
+          "statement_id": "Menurut World History Encyclopedia, di Tibet Brahma dikenal sebagai Tshangs-pa atau Brahma Putih (Tshangs-pa dkar-po), sering menunggang kuda dan membawa banteng putih dan pedang.",
+          "quote": "In Tibet, where Brahma is known as Tshangs-pa or White Brahma (Tshangs-pa dkar-po), he often rides a horse and carries a white bull and a sword.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c42",
+          "source_id": "brahma-q11389-s3",
+          "host": "en.wikisource.org",
+          "statement": "According to the Laws of Manu (Bühler's translation), the Self-existent, desiring to produce beings from his own body, first created the waters with a thought and placed his seed in them; the seed became a golden egg as bright as the sun, and in it he himself was born as Brahman, the progenitor of the whole world.",
+          "statement_id": "Menurut Hukum Manu (terjemahan Bühler), sang Svayambhu, ingin menghasilkan makhluk dari tubuhnya, pertama-tama dengan pikiran menciptakan air dan menaruh benihnya di dalamnya; benih itu menjadi telur emas secemerlang matahari, dan di dalamnya ia sendiri lahir sebagai Brahman, leluhur seluruh dunia.",
+          "quote": "He, desiring to produce beings of many kinds from his own body, first with a thought created the waters, and placed his seed in them. ... That (seed) became a golden egg, in brilliancy equal to the sun; in that (egg) he himself was born as Brahman, the progenitor of the whole world.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c43",
+          "source_id": "brahma-q11389-s3",
+          "host": "en.wikisource.org",
+          "statement": "According to the Laws of Manu, the divine one stayed in the egg for a whole year, then by his thought alone divided it into two halves, and out of the halves formed heaven and earth, the middle sphere between them, the eight points of the horizon and the eternal abode of the waters.",
+          "statement_id": "Menurut Hukum Manu, sang ilahi tinggal di dalam telur itu selama setahun penuh, lalu dengan pikirannya sendiri membelahnya menjadi dua bagian, dan dari kedua belahan itu ia membentuk langit dan bumi, ruang tengah di antaranya, delapan penjuru, dan tempat abadi air.",
+          "quote": "The divine one resided in that egg during a whole year, then he himself by his thought (alone) divided it into two halves; ... And out of those two halves he formed heaven and earth, between them the middle sphere, the eight points of the horizon, and the eternal abode of the waters.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c44",
+          "source_id": "brahma-q11389-s3",
+          "host": "en.wikisource.org",
+          "statement": "According to the Laws of Manu, one thousand ages of the gods make one day of Brahman, and his night has the same length.",
+          "statement_id": "Menurut Hukum Manu, seribu zaman para dewa berjumlah satu hari Brahman, dan malamnya sama panjang.",
+          "quote": "But know that the sum of one thousand ages of the gods (makes) one day of Brahman, and that his night has the same length.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c45",
+          "source_id": "brahma-q11389-s3",
+          "host": "en.wikisource.org",
+          "statement": "According to the Laws of Manu, at the end of that day and night he who was asleep awakes and, after awaking, creates mind, which is both real and unreal.",
+          "statement_id": "Menurut Hukum Manu, pada akhir siang dan malam itu ia yang tertidur terbangun dan setelah bangun menciptakan pikiran, yang sekaligus nyata dan tidak nyata.",
+          "quote": "At the end of that day and night he who was asleep, awakes and, after awaking, creates mind, which is both real and unreal.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c46",
+          "source_id": "brahma-q11389-s3",
+          "host": "en.wikisource.org",
+          "statement": "According to the Laws of Manu, the Manvantaras, the creations and destructions of the world, are numberless; sporting, as it were, Brahman repeats this again and again.",
+          "statement_id": "Menurut Hukum Manu, manvantara, penciptaan dan penghancuran dunia, tak terhitung jumlahnya; seolah bermain-main, Brahman mengulangi hal ini berulang kali.",
+          "quote": "The Manvantaras, the creations and destructions (of the world, are) numberless; sporting, as it were, Brahman repeats this again and again.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c47",
+          "source_id": "brahma-q11389-s3",
+          "host": "en.wikisource.org",
+          "statement": "According to the Laws of Manu, this universe existed in the shape of Darkness, unperceived, without distinctive marks, unattainable by reasoning, unknowable, wholly immersed as if in deep sleep.",
+          "statement_id": "Menurut Hukum Manu, alam semesta ini semula berwujud Kegelapan, tak terindra, tanpa ciri pembeda, tak terjangkau nalar, tak terpahami, seakan terbenam sepenuhnya dalam tidur lelap.",
+          "quote": "This (universe) existed in the shape of Darkness, unperceived, destitute of distinctive marks, unattainable by reasoning, unknowable, wholly immersed, as it were, in deep sleep.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "brahma-q11389-c48",
+          "source_id": "brahma-q11389-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In contemporary Hinduism Brahma does not enjoy popular worship and has substantially less importance than the other two members of the Trimurti.",
+          "statement_id": "Dalam agama Hindu masa kini, Brahma tidak menikmati pemujaan populer dan jauh lebih kecil kepentingannya daripada dua anggota Trimurti lainnya.",
+          "quote": "In contemporary Hinduism, Brahma does not enjoy popular worship and has substantially less importance than the other two members of the Trimurti.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -395,7 +1444,6 @@
             "Self-published work"
           ],
           "used_on": [
-            "en.wikipedia.org: Brahma",
             "ne.wikipedia.org: ब्रह्मा",
             "sd.wikipedia.org: برھما",
             "zh.wikipedia.org: 梵天"
@@ -403,27 +1451,23 @@
           "auto_evidence": [
             "nama berkas",
             "kategori \"Brahma\"",
-            "dipakai di en.wikipedia.org: Brahma"
+            "dipakai di ne.wikipedia.org: ब्रह्मा"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-025/brahma-q11389-1.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-025/brahma-q11389-1.jpg"
         }
       ]
     },
     {
       "slug": "aphrodite",
-      "file": "batch-025.md",
+      "file": "batch-025-fix-1.md",
+      "entry_sha256": "c6a900df0b001dc0551af5abc4d5aa248e95e241d4572fcea6b5a62c39512087",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
+        "claims": 51,
         "sources": 3,
         "images": 1
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 6 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Cnidus Aphrodite Altemps Inv8619.jpg)",
@@ -445,8 +1489,8 @@
           "id": "aphrodite-c02",
           "source_id": "aphrodite-s1",
           "host": "en.wikipedia.org",
-          "statement": "She was called Cytherea and Cypris because both Cythera and Cyprus claimed her birth; her origins are debated, with proposed Near Eastern, Cypriot and Proto-Indo-European dawn-goddess influences.",
-          "statement_id": "Ia disebut Cytherea dan Cypris karena Kythera dan Siprus sama-sama mengaku tempat kelahirannya; asal-usulnya diperdebatkan, dengan dugaan pengaruh dewi cinta Timur Dekat, dewi asli Siprus, dan dewi fajar Proto-Indo-Eropa.",
+          "statement": "She was known as Cytherea (Lady of Cythera) and Cypris (Lady of Cyprus) because both places claimed to be the site of her birth; the origins of Aphrodite have been the subject of scholarly debate.",
+          "statement_id": "Ia dikenal sebagai Cytherea (Nyonya Kythera) dan Cypris (Nyonya Siprus) karena kedua tempat itu sama-sama mengaku sebagai tempat kelahirannya; asal-usul Aphrodite menjadi bahan perdebatan para ahli.",
           "quote": "Thus she was known as Cytherea (Lady of Cythera) and Cypris (Lady of Cyprus), because both places claimed to be the site of her birth. The origins of Aphrodite have been the subject of scholarly debate.",
           "context": "scholarly-interpretation",
           "status": "exact"
@@ -455,18 +1499,18 @@
           "id": "aphrodite-c03",
           "source_id": "aphrodite-s1",
           "host": "en.wikipedia.org",
-          "statement": "In the Iliad she is daughter of Zeus and Dione; in Hesiod's Theogony she is born from the foam (aphrós) of Uranus's severed genitals; in the Odyssey she is married to Hephaestus and has an affair with Ares.",
-          "statement_id": "Dalam Iliad ia putri Zeus dan Dione; dalam Theogony karya Hesiod ia lahir dari buih (aphrós) dari kelamin Uranus yang dipotong Kronos; dalam Odyssey ia istri Hephaestus dan berselingkuh dengan Ares.",
-          "quote": "In Homer's Iliad, she is the daughter of Zeus and Dione. In Hesiod's Theogony she is born from the foam (ἀφρός, aphrós) produced by Uranus's genitals, which his son Cronus had severed and thrown into the sea. In the Odyssey, Aphrodite was married to Hephaestus",
+          "statement": "In Homer's Iliad she is the daughter of Zeus and Dione; in Hesiod's Theogony she is born from the foam produced by Uranus's genitals, which his son Cronus had severed and thrown into the sea; in the Odyssey Aphrodite was married to Hephaestus.",
+          "statement_id": "Dalam Iliad karya Homer ia putri Zeus dan Dione; dalam Theogony karya Hesiod ia lahir dari buih yang dihasilkan kelamin Uranus yang dipotong dan dilemparkan ke laut oleh putranya, Kronos; dalam Odyssey Aphrodite menikah dengan Hephaestus.",
+          "quote": "In Homer's Iliad, she is the daughter of Zeus and Dione. In Hesiod's Theogony she is born from the foam ... produced by Uranus's genitals, which his son Cronus had severed and thrown into the sea. In the Odyssey, Aphrodite was married to Hephaestus",
           "context": "religious-tradition",
-          "status": "loose"
+          "status": "exact"
         },
         {
           "id": "aphrodite-c04",
           "source_id": "aphrodite-s1",
           "host": "en.wikipedia.org",
-          "statement": "With Athena and Hera, she was one of three goddesses whose feud led to the Trojan War.",
-          "statement_id": "Bersama Athena dan Hera, ia salah satu dari tiga dewi yang perselisihannya berujung Perang Troya.",
+          "statement": "Along with Athena and Hera, she was one of the three goddesses whose feud resulted in the Trojan War.",
+          "statement_id": "Bersama Athena dan Hera, ia salah satu dari tiga dewi yang perselisihannya berujung pada Perang Troya.",
           "quote": "Along with Athena and Hera, she was one of the three goddesses whose feud resulted in the Trojan War",
           "context": "religious-tradition",
           "status": "exact"
@@ -475,8 +1519,8 @@
           "id": "aphrodite-c05",
           "source_id": "aphrodite-s2",
           "host": "www.theoi.com",
-          "statement": "According to theoi.com, Aphrodite was the Olympian goddess of love, beauty, pleasure and procreation, often with the winged godling Eros, her attributes the dove, apple, scallop shell and mirror.",
-          "statement_id": "Menurut theoi.com, Afrodit dewi Olimpus cinta, kecantikan, kesenangan, dan keturunan, sering ditemani dewa kecil bersayap Eros, dengan atribut merpati, apel, kerang, dan cermin.",
+          "statement": "According to theoi.com, Aphrodite was the Olympian goddess of love, beauty, pleasure and procreation, depicted as a beautiful woman often accompanied by the winged godling Eros (Love); her attributes included a dove, apple, scallop shell and mirror.",
+          "statement_id": "Menurut theoi.com, Aphrodite adalah dewi Olimpus cinta, kecantikan, kesenangan, dan keturunan, digambarkan sebagai perempuan cantik yang sering ditemani dewa kecil bersayap Eros (Cinta); atributnya meliputi merpati, apel, kerang, dan cermin.",
           "quote": "APHRODITE was the Olympian goddess of love, beauty, pleasure and procreation. She was depicted as a beautiful woman often accompanied by the winged godling Eros (Love). Her attributes included a dove, apple, scallop shell and mirror.",
           "context": "religious-tradition",
           "status": "exact"
@@ -485,9 +1529,459 @@
           "id": "aphrodite-c06",
           "source_id": "aphrodite-s3",
           "host": "www.worldhistory.org",
-          "statement": "According to the World History Encyclopedia, Aphrodite also played a role in the commerce, warfare and politics of Greek cities and was honoured as protector of seafarers; her Roman equivalent was Venus.",
-          "statement_id": "Menurut World History Encyclopedia, Afrodit juga berperan dalam perdagangan, peperangan, dan politik kota-kota Yunani serta dihormati sebagai pelindung pelaut; padanannya di Roma (Romawi) adalah Venus.",
+          "statement": "According to the World History Encyclopedia, Aphrodite was worshipped by men, women and city-state officials, played a role in the commerce, warfare and politics of ancient Greek cities, and was honoured as a protector of those who travelled by sea.",
+          "statement_id": "Menurut World History Encyclopedia, Aphrodite dipuja oleh pria, wanita, dan pejabat negara-kota, juga berperan dalam perdagangan, peperangan, dan politik kota-kota Yunani kuno, serta dihormati sebagai pelindung mereka yang bepergian lewat laut.",
           "quote": "Worshipped by men, women, and city-state officials, Aphrodite also played a role in the commerce, warfare, and politics of ancient Greek cities. In addition, Aphrodite was honoured as a protector of those who travelled by sea",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c07",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Her name in Greek script is Ἀφροδίτη (Aphrodítē).",
+          "statement_id": "Namanya dalam aksara Yunani adalah Ἀφροδίτη (Aphrodítē).",
+          "quote": "Ἀφροδίτη, romanized: Aphrodítē",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c08",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Hesiod derives the name Aphrodite from aphrós (ἀφρός) \"sea-foam\", interpreting it as \"risen from the foam\", but most modern scholars regard this as a spurious folk etymology.",
+          "statement_id": "Hesiod menurunkan nama Aphrodite dari aphrós (ἀφρός) \"buih laut\", dan mengartikannya \"bangkit dari buih\", tetapi sebagian besar ahli modern menganggapnya etimologi rakyat yang keliru.",
+          "quote": "Hesiod derives the name Aphrodite from aphrós (ἀφρός ) 'sea-foam', interpreting the name as \"risen from the foam\", but most modern scholars regard this as a spurious folk etymology.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c09",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Aphrodite's name is generally accepted as probably of Semitic origin, owing to the believed Near Eastern origins of her worship, but its exact derivation cannot be determined with confidence.",
+          "statement_id": "Nama Aphrodite umumnya diterima kemungkinan berasal dari bahasa Semit karena diyakini pemujaannya berasal dari Timur Dekat, tetapi asal pastinya tidak dapat dipastikan dengan yakin.",
+          "quote": "Aphrodite's name is generally accepted to likely be of Semitic origin, due to the believed Near Eastern origins of Aphrodite's worship, but its exact derivation cannot be determined with confidence.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c10",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Proposed influences on her origins have included Near Eastern love goddesses, an indigenous Cypriot goddess, and a Proto-Indo-European dawn goddess.",
+          "statement_id": "Pengaruh yang diusulkan atas asal-usulnya mencakup dewi cinta Timur Dekat, dewi asli Siprus, dan dewi fajar Proto-Indo-Eropa.",
+          "quote": "Proposed influences on her origins have included Near Eastern love goddesses, an indigenous Cypriot goddess, and a Proto-Indo-European dawn goddess.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c11",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some scholars believe the cult of Aphrodite in Greece was influenced by the cult of Astarte in Phoenicia, which was in turn influenced by the cult of the Mesopotamian goddess known as \"Ishtar\" to the East Semitic peoples and \"Inanna\" to the Sumerians.",
+          "statement_id": "Sebagian ahli yakin bahwa pemujaan Aphrodite di Yunani dipengaruhi pemujaan Astarte di Fenisia, yang pada gilirannya dipengaruhi pemujaan dewi Mesopotamia yang dikenal sebagai \"Ishtar\" oleh bangsa Semit Timur dan \"Inanna\" oleh bangsa Sumer.",
+          "quote": "Some scholars believe that the cult of Aphrodite in Greece was influenced by the cult of Astarte in Phoenicia, which, in turn, was influenced by the cult of the Mesopotamian goddess known as \"Ishtar\" to the East Semitic peoples and as \"Inanna\" to the Sumerians.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c12",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Most modern scholars now reject the idea of a purely Indo-European Aphrodite, but it is possible that Aphrodite, who may have originated as a Semitic deity, was influenced by the Indo-European dawn goddess.",
+          "statement_id": "Sebagian besar ahli modern kini menolak gagasan Aphrodite yang murni Indo-Eropa, tetapi mungkin Aphrodite, yang barangkali berasal dari dewa Semit, dipengaruhi dewi fajar Indo-Eropa.",
+          "quote": "Most modern scholars have now rejected the notion of a purely Indo-European Aphrodite, but it is possible that Aphrodite, who may have originated as an Semitic deity, was influenced by the Indo-European dawn goddess.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c13",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Like Inanna-Ishtar, Aphrodite was a warrior goddess; the second-century AD Greek geographer Pausanias records that in Sparta Aphrodite was worshipped as Aphrodite Areia, meaning \"warlike\".",
+          "statement_id": "Seperti Inanna-Ishtar, Aphrodite adalah dewi pejuang; geografer Yunani abad ke-2 M, Pausanias, mencatat bahwa di Sparta Aphrodite dipuja sebagai Aphrodite Areia, yang berarti \"bersifat perang\".",
+          "quote": "Like Inanna-Ishtar, Aphrodite was a warrior goddess; the second-century AD Greek geographer Pausanias records that, in Sparta, Aphrodite was worshipped as Aphrodite Areia, which means \"warlike\".",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c14",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Aphrodite's most common cultic epithet was Ourania, \"heavenly\", which almost never occurs in literary texts and so had a purely cultic significance; another common name was Pandemos (\"For All the Folk\").",
+          "statement_id": "Julukan kultus Aphrodite yang paling umum adalah Ourania, \"surgawi\", yang hampir tidak pernah muncul dalam teks sastra sehingga bermakna murni kultus; nama umum lainnya adalah Pandemos (\"Bagi Seluruh Rakyat\").",
+          "quote": "Aphrodite's most common cultic epithet was Ourania, meaning \"heavenly\", but this epithet almost never occurs in literary texts, indicating a purely cultic significance. Another common name for Aphrodite was Pandemos (\"For All the Folk\").",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c15",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Paphian (Παφία) was one of her epithets, after Paphos in Cyprus where she had emerged from the sea at her birth.",
+          "statement_id": "Paphian (Παφία) adalah salah satu julukannya, menurut Paphos di Siprus tempat ia muncul dari laut saat lahir.",
+          "quote": "Paphian (Παφία), was one of her epithets, after the Paphos in Cyprus where she had emerged from the sea at her birth.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c16",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Athens the Aphrodisia was celebrated on the fourth day of the month of Hekatombaion in honour of Aphrodite's role in the unification of Attica.",
+          "statement_id": "Di Athena, Aphrodisia dirayakan pada hari keempat bulan Hekatombaion untuk menghormati peran Aphrodite dalam penyatuan Attika.",
+          "quote": "In Athens, the Aphrodisia was celebrated on the fourth day of the month of Hekatombaion in honor of Aphrodite's role in the unification of Attica.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c17",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The ancient Romans identified Aphrodite with their goddess Venus, who was originally a goddess of agricultural fertility, vegetation and springtime.",
+          "statement_id": "Bangsa Romawi kuno menyamakan Aphrodite dengan dewi mereka Venus, yang semula dewi kesuburan pertanian, tumbuh-tumbuhan, dan musim semi.",
+          "quote": "The ancient Romans identified Aphrodite with their goddess Venus, who was originally a goddess of agricultural fertility, vegetation, and springtime.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c18",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Roman historian Livy, Aphrodite and Venus were officially identified in the third century BC when the cult of Venus Erycina was introduced to Rome from the Greek sanctuary of Aphrodite on Mount Eryx in Sicily.",
+          "statement_id": "Menurut sejarawan Romawi Livius, Aphrodite dan Venus secara resmi disamakan pada abad ke-3 SM ketika pemujaan Venus Erycina dibawa ke Roma dari tempat suci Aphrodite Yunani di Gunung Eryx di Sisilia.",
+          "quote": "According to the Roman historian Livy, Aphrodite and Venus were officially identified in the third century BC when the cult of Venus Erycina was introduced to Rome from the Greek sanctuary of Aphrodite on Mount Eryx in Sicily.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c19",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Because Aphrodite was the mother of the Trojan hero Aeneas in Greek mythology and Roman tradition claimed Aeneas as founder of Rome, Venus came to be venerated as Venus Genetrix, mother of the entire Roman nation.",
+          "statement_id": "Karena Aphrodite adalah ibu pahlawan Troya Aeneas dalam mitologi Yunani dan tradisi Romawi menyebut Aeneas pendiri Roma, Venus dipuja sebagai Venus Genetrix, ibu seluruh bangsa Romawi.",
+          "quote": "Because Aphrodite was the mother of the Trojan hero Aeneas in Greek mythology and the Roman tradition claimed Aeneas as the founder of Rome, Venus became venerated as Venus Genetrix, the mother of the entire Roman nation.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c20",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Iliad Aphrodite is the apparently unmarried consort of Ares, god of war, and the wife of Hephaestus is a different goddess named Charis; in Hesiod's Theogony Aphrodite is unmarried and the wife of Hephaestus is Aglaea, the youngest of the three Charites.",
+          "statement_id": "Dalam Iliad, Aphrodite adalah pasangan Ares sang dewa perang yang tampaknya belum menikah, dan istri Hephaestus adalah dewi lain bernama Charis; dalam Theogony karya Hesiod, Aphrodite tidak menikah dan istri Hephaestus adalah Aglaea, yang bungsu dari tiga Charites.",
+          "quote": "In the Iliad, Aphrodite is the apparently unmarried consort of Ares, the god of war, and the wife of Hephaestus is a different goddess named Charis. In Hesiod's Theogony, Aphrodite is unmarried and the wife of Hephaestus is Aglaea, the youngest of the three Charites.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c21",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Odyssey, the blind singer Demodocus describes Aphrodite as the wife of Hephaestus and tells how she committed adultery with Ares during the Trojan War.",
+          "statement_id": "Dalam Odyssey, penyanyi buta Demodokos menggambarkan Aphrodite sebagai istri Hephaestus dan menceritakan bagaimana ia berzina dengan Ares semasa Perang Troya.",
+          "quote": "In the Odyssey, the blind singer Demodocus describes Aphrodite as the wife of Hephaestus and tells how she committed adultery with Ares during the Trojan War.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c22",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In later sources it was generally Ares who was regarded as the goddess's husband or official consort, as on the François Vase, a sixth-century BC krater, and in the poetry of Pindar and Aeschylus.",
+          "statement_id": "Dalam sumber-sumber kemudian, Ares umumnya dianggap suami atau pasangan resmi sang dewi, misalnya pada Vas François, sebuah krater abad ke-6 SM, dan dalam puisi Pindaros dan Aiskhylos.",
+          "quote": "In later sources, it was generally Ares who was regarded as the husband or official consort of the goddess, such as on the François Vase, a sixth-century BC krater, and in the poetry of Pindar and Aeschylus.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c23",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Aphrodite is almost always accompanied by Eros, the personification of love; Eros is often seen as Aphrodite's son.",
+          "statement_id": "Aphrodite hampir selalu ditemani Eros, personifikasi cinta; Eros sering dipandang sebagai putra Aphrodite.",
+          "quote": "Aphrodite is almost always accompanied by Eros, the personification of love. ... Eros is often seen as Aphrodite's son.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c24",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The First Homeric Hymn to Aphrodite (Hymn 5), probably composed in the mid-seventh century BC, describes how Zeus, annoyed with Aphrodite for making deities fall in love with mortals, made her fall in love with Anchises, a handsome mortal shepherd living in the foothills beneath Mount Ida near the city of Troy.",
+          "statement_id": "Himne Homerik Pertama untuk Aphrodite (Himne 5), yang kemungkinan digubah sekitar pertengahan abad ke-7 SM, menceritakan bagaimana Zeus kesal karena Aphrodite membuat para dewa jatuh cinta pada manusia fana, sehingga ia membuat Aphrodite jatuh cinta pada Anchises, gembala fana yang tampan yang tinggal di kaki Gunung Ida dekat kota Troya.",
+          "quote": "The First Homeric Hymn to Aphrodite (Hymn 5), which was probably composed sometime in the mid-seventh century BC, describes how Zeus once became annoyed with Aphrodite for causing deities to fall in love with mortals, so he caused her to fall in love with Anchises, a handsome mortal shepherd who lived in the foothills beneath Mount Ida near the city of Troy.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c25",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Aphrodite's most prominent avian symbol was the dove, originally a symbol of her Near Eastern precursor Inanna-Ishtar.",
+          "statement_id": "Lambang burung Aphrodite yang paling menonjol adalah merpati, yang semula lambang pendahulunya dari Timur Dekat, Inanna-Ishtar.",
+          "quote": "Aphrodite's most prominent avian symbol was the dove, originally a symbol of her Near Eastern precursor Inanna-Ishtar.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c26",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Around 364/361 BC the Athenian sculptor Praxiteles carved the marble statue Aphrodite of Knidos, which Pliny the Elder later praised as the greatest sculpture ever made.",
+          "statement_id": "Sekitar 364/361 SM, pemahat Athena Praxiteles memahat arca marmer Aphrodite dari Knidos, yang kemudian dipuji Plinius Tua sebagai patung terbesar yang pernah dibuat.",
+          "quote": "In c. 364/361 BC, the Athenian sculptor Praxiteles carved the marble statue Aphrodite of Knidos, which Pliny the Elder later praised as the greatest sculpture ever made.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c27",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In cinema, the symbolism of the goddess of love has been central to William A. Seiter's 1948 film One Touch of Venus starring Ava Gardner and to Woody Allen's 1995 film Mighty Aphrodite.",
+          "statement_id": "Dalam sinema, simbolisme dewi cinta menjadi pusat film One Touch of Venus (1948) karya William A. Seiter yang dibintangi Ava Gardner, dan film Mighty Aphrodite (1995) karya Woody Allen.",
+          "quote": "In cinema, the symbolism of the goddess of love has been central to William A. Seiter's 1948 film One Touch of Venus starring Ava Gardner, and to Woody Allen's 1995 film Mighty Aphrodite.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c28",
+          "source_id": "aphrodite-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1938 Gleb Botkin, a Russian immigrant to the United States, founded the Church of Aphrodite, a neopagan religion that worships a mother goddess identified by its practitioners as Aphrodite.",
+          "statement_id": "Pada 1938, Gleb Botkin, imigran Rusia di Amerika Serikat, mendirikan Church of Aphrodite, agama neopagan yang memuja dewi ibu yang oleh para penganutnya diidentifikasi sebagai Aphrodite.",
+          "quote": "In 1938, Gleb Botkin, a Russian immigrant to the United States, founded the Church of Aphrodite, a neopagan religion that worships a mother goddess, identified by its practitioners as Aphrodite.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c29",
+          "source_id": "aphrodite-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Hippolytos was destroyed by the goddess for scorning her worship.",
+          "statement_id": "Menurut theoi.com, Hippolytos dihancurkan sang dewi karena meremehkan pemujaannya.",
+          "quote": "The death of Hippolytos, who was destroyed by the goddess for scorning her worship.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c30",
+          "source_id": "aphrodite-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Pygmalion's statue was brought to life by Aphrodite in answer to his prayers.",
+          "statement_id": "Menurut theoi.com, arca Pygmalion dihidupkan oleh Aphrodite sebagai jawaban atas doanya.",
+          "quote": "The statue of Pygmalion which was brought to life by Aphrodite in answer to his prayers.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c31",
+          "source_id": "aphrodite-s2",
+          "host": "www.theoi.com",
+          "statement": "According to theoi.com, Aphrodite persecuted Psykhe (Psyche), the maiden loved by her son Eros.",
+          "statement_id": "Menurut theoi.com, Aphrodite menganiaya Psykhe (Psyche), gadis yang dicintai putranya, Eros.",
+          "quote": "The persecution of Psykhe (Psyche), the maiden loved by the goddess' son Eros.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c32",
+          "source_id": "aphrodite-s2",
+          "host": "www.theoi.com",
+          "statement": "According to the Dictionary of Greek and Roman Biography and Mythology on theoi.com, later traditions call her a daughter of Kronos and Euonyme, or of Uranus and Hemera.",
+          "statement_id": "Menurut Dictionary of Greek and Roman Biography and Mythology di theoi.com, tradisi yang lebih kemudian menyebutnya putri Kronos dan Euonyme, atau Uranus dan Hemera.",
+          "quote": "Later traditions call her a daughter of Kronos and Euonyme, or of Uranus and Hemera.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c33",
+          "source_id": "aphrodite-s2",
+          "host": "www.theoi.com",
+          "statement": "According to the Dictionary of Greek and Roman Biography and Mythology on theoi.com, apart from the Homeric hymn on Aphrodite there is no trace of the foam legend in Homer, who makes Aphrodite the daughter of Zeus and Dione.",
+          "statement_id": "Menurut Dictionary of Greek and Roman Biography and Mythology di theoi.com, selain pada Himne Homerik untuk Aphrodite tidak ada jejak legenda buih ini dalam Homer, yang menyebut Aphrodite putri Zeus dan Dione.",
+          "quote": "With the exception of the Homeric hymn on Aphrodite there is no trace of this legend in Homer, and according to him Aphrodite is the daughter of Zeus and Dione.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c34",
+          "source_id": "aphrodite-s2",
+          "host": "www.theoi.com",
+          "statement": "According to Hesiod and the Homeric hymn on Aphrodite, the goddess after rising from the foam first approached the island of Cythera and from there went to Cyprus.",
+          "statement_id": "Menurut Hesiod dan Himne Homerik untuk Aphrodite, setelah bangkit dari buih sang dewi pertama-tama mendekati Pulau Kythera, lalu pergi ke Siprus.",
+          "quote": "According to Hesiod and the Homeric hymn on Aphrodite, the goddess after rising from the foam first approached the island of Cythera, and thence went to Cyprus",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c35",
+          "source_id": "aphrodite-s2",
+          "host": "www.theoi.com",
+          "statement": "According to cosmogonic views of Aphrodite's nature, she was the personification of the generative powers of nature and the mother of all living beings.",
+          "statement_id": "Menurut pandangan kosmogonik tentang hakikat Aphrodite, ia adalah personifikasi daya penghasil alam dan ibu semua makhluk hidup.",
+          "quote": "According to the cosmogonic views of the nature of Aphrodite, she was the personification of the generative powers of nature, and the mother of all living beings.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c36",
+          "source_id": "aphrodite-s2",
+          "host": "www.theoi.com",
+          "statement": "In the contest of Typhon with the gods, Aphrodite metamorphosed herself into a fish.",
+          "statement_id": "Dalam pertarungan Typhon dengan para dewa, Aphrodite mengubah dirinya menjadi ikan.",
+          "quote": "in the contest of Typhon with the gods, Aphrodite metamorphosed herself into a fish",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c37",
+          "source_id": "aphrodite-s2",
+          "host": "www.theoi.com",
+          "statement": "According to the popular belief of the Greeks, she was the goddess of love who excited this passion in the hearts of gods and men and by this power ruled over all living creation.",
+          "statement_id": "Menurut kepercayaan populer orang Yunani, Aphrodite adalah dewi cinta yang membangkitkan gairah itu di hati para dewa dan manusia, dan dengan kekuatan ini ia berkuasa atas seluruh makhluk hidup.",
+          "quote": "she was the goddess of love, who excited this passion in the hearts of gods and men, and by this power ruled over all the living creation.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c38",
+          "source_id": "aphrodite-s2",
+          "host": "www.theoi.com",
+          "statement": "Ancient mythology furnishes numerous instances in which Aphrodite punished those who neglected her worship or despised her power, and others in which she favoured and protected those who did homage to her and recognized her sway.",
+          "statement_id": "Mitologi kuno memuat banyak contoh Aphrodite menghukum mereka yang mengabaikan pemujaannya atau meremehkan kekuasaannya, juga contoh ia menyukai dan melindungi mereka yang memuliakannya dan mengakui kekuasaannya.",
+          "quote": "Ancient mythology furnishes numerous instances in which Aphrodite punished those who neglected her worship or despised her power, as well as others in which she favoured and protected those who did homage to her and recognized her sway.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c39",
+          "source_id": "aphrodite-s2",
+          "host": "www.theoi.com",
+          "statement": "She also had the power of granting beauty and invincible charms to others.",
+          "statement_id": "Aphrodite juga memiliki kuasa untuk menganugerahkan kecantikan dan pesona yang tak tertahankan kepada orang lain.",
+          "quote": "she had further the power of granting beauty and invincible charms to others.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c40",
+          "source_id": "aphrodite-s2",
+          "host": "www.theoi.com",
+          "statement": "In the Trojan War, when she tried to rescue her darling Aeneas from the fight, Aphrodite was pursued by Diomedes, who wounded her in her hand.",
+          "statement_id": "Dalam Perang Troya, ketika ia berusaha menyelamatkan Aeneas kesayangannya dari pertempuran, Aphrodite dikejar Diomedes yang melukai tangannya.",
+          "quote": "when she endeavoured to rescue her darling Aeneas from the fight, she was pursued by Diomedes, who wounded her in her hand.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c41",
+          "source_id": "aphrodite-s2",
+          "host": "www.theoi.com",
+          "statement": "By Ares she became the mother of Phobos, Deimos and Harmonia, and, according to later traditions, of Eros and Anteros also.",
+          "statement_id": "Dari Ares, Aphrodite menjadi ibu Phobos, Deimos, Harmonia, dan menurut tradisi yang lebih kemudian juga Eros dan Anteros.",
+          "quote": "By Ares she became the mother of Phobos, Deimos, Harmonia, and, according to later traditions, of Eros and Anteros also.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c42",
+          "source_id": "aphrodite-s2",
+          "host": "www.theoi.com",
+          "statement": "Aphrodite conceived an invincible passion for Anchises, by whom she became the mother of Aeneas and Lyrus.",
+          "statement_id": "Aphrodite dilanda hasrat tak tertahankan pada Anchises, yang darinya ia menjadi ibu Aeneas dan Lyrus.",
+          "quote": "Aphrodite conceived an invincible passion for Anchises, by whom she became the mother of Aeneas and Lyrus.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c43",
+          "source_id": "aphrodite-s3",
+          "host": "www.worldhistory.org",
+          "statement": "At the wedding of Peleus and Thetis, Eris (goddess of strife) offered a golden apple for the most beautiful goddess; Hera, Athena and Aphrodite vied for the honour and Zeus appointed the Trojan prince Paris as judge.",
+          "statement_id": "Pada pernikahan Peleus dan Thetis, Eris (dewi perselisihan) menawarkan apel emas bagi dewi tercantik; Hera, Athena, dan Aphrodite berebut kehormatan itu dan Zeus menunjuk pangeran Troya, Paris, sebagai hakim.",
+          "quote": "At the wedding of Peleus and Thetis, Eris (goddess of strife) offered a golden apple for the most beautiful goddess. Hera, Athena, and Aphrodite vied for the honour, and Zeus appointed the Trojan prince Paris as judge.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c44",
+          "source_id": "aphrodite-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Aphrodite offered the most beautiful woman in the world; Paris chose Aphrodite and the victorious goddess gave him fair Helen of Sparta.",
+          "statement_id": "Aphrodite menawarkan perempuan tercantik di dunia; Paris memilih Aphrodite sehingga sang dewi pemenang memberinya Helena dari Sparta yang jelita.",
+          "quote": "Aphrodite offered the most beautiful woman in the world. Paris chose Aphrodite and so the victorious goddess gave him fair Helen of Sparta.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c45",
+          "source_id": "aphrodite-s3",
+          "host": "www.worldhistory.org",
+          "statement": "In notable episodes Aphrodite protects her son Aeneas from Diomedes and saves the hapless Paris from the wrath of Menelaos.",
+          "statement_id": "Dalam episode-episode penting, Aphrodite melindungi putranya Aeneas dari Diomedes dan menyelamatkan Paris yang malang dari murka Menelaos.",
+          "quote": "In notable episodes, Aphrodite protects her son Aeneas from Diomedes and saves the hapless Paris from the wrath of Menelaos.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c46",
+          "source_id": "aphrodite-s3",
+          "host": "www.worldhistory.org",
+          "statement": "One of the goddess's most famous flings was with the beautiful Adonis; Aphrodite kept the youth in a chest guarded by Persephone, who fell in love with him too and would not give him back, so Zeus intervened and ruled that Adonis spend four months of the year with each lady.",
+          "statement_id": "Salah satu hubungan Aphrodite yang paling terkenal adalah dengan Adonis yang rupawan; Aphrodite menyimpan pemuda itu di dalam peti yang dijaga Persephone, tetapi Persephone pun jatuh cinta dan tak mau mengembalikannya, sehingga Zeus turun tangan dan memutuskan Adonis tinggal empat bulan setahun bersama masing-masing dewi.",
+          "quote": "One of the goddess' most famous flings was with the beautiful Adonis. Aphrodite kept the youth safely in a chest guarded by Persephone, but the latter fell in love with him too and would not give him back to the goddess of love. Zeus was obliged to intervene, and he ruled that Adonis should spend four months of the year with each lady",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c47",
+          "source_id": "aphrodite-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Aphrodite was distraught at her loss, and her grief was commemorated in a cult whose annual highlight was a women-only festival, the Adonia.",
+          "statement_id": "Aphrodite sangat berduka atas kehilangan Adonis, dan dukanya diperingati dalam sebuah kultus yang puncak tahunannya adalah festival khusus perempuan, Adonia.",
+          "quote": "Aphrodite was distraught at her loss, and her grief was commemorated in a cult, the annual highlight of which was a women-only festival, the Adonia.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c48",
+          "source_id": "aphrodite-s3",
+          "host": "www.worldhistory.org",
+          "statement": "In Archaic and Classical art she is usually clothed and wears an elaborately embroidered band or girdle across her chest which held her magic powers of love, desire and seductive allurement.",
+          "statement_id": "Dalam seni Arkaik dan Klasik ia biasanya berpakaian dan mengenakan pita atau ikat pinggang bersulam rumit melintang di dadanya, yang menyimpan kekuatan ajaibnya akan cinta, hasrat, dan daya pikat.",
+          "quote": "She is usually clothed in Archaic and Classical art and wears an elaborately embroidered band or girdle across her chest which held her magic powers of love, desire, and seductive allurement.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c49",
+          "source_id": "aphrodite-s3",
+          "host": "www.worldhistory.org",
+          "statement": "The goddess is often identified by one or more of the following: a mirror, an apple, a myrtle wreath, a sacred bird or dove, a sceptre and a flower.",
+          "statement_id": "Sang dewi sering dikenali dari satu atau lebih benda berikut: cermin, apel, karangan myrtus, burung suci atau merpati, tongkat kerajaan, dan bunga.",
+          "quote": "The goddess is often identified with one or more of the following: a mirror, an apple, a myrtle wreath, a sacred bird or dove, a sceptre, and a flower.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c50",
+          "source_id": "aphrodite-s3",
+          "host": "www.worldhistory.org",
+          "statement": "Hesiod describes the goddess as \"quick-glancing\", \"foam-born\", \"smile-loving\", and most often as \"golden Aphrodite\".",
+          "statement_id": "Hesiod menggambarkan sang dewi sebagai \"bermata cepat\", \"lahir dari buih\", \"pencinta senyum\", dan paling sering sebagai \"Aphrodite yang keemasan\".",
+          "quote": "Hesiod describes the goddess as 'quick-glancing', 'foam-born', 'smile-loving', and most often as 'golden Aphrodite'.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "aphrodite-c51",
+          "source_id": "aphrodite-s3",
+          "host": "www.worldhistory.org",
+          "statement": "According to the World History Encyclopedia, Aphrodite was married to the lame god Hephaistos, master of fire and crafts.",
+          "statement_id": "Menurut World History Encyclopedia, Aphrodite menikah dengan dewa pincang Hephaistos, penguasa api dan kerajinan.",
+          "quote": "Aphrodite was married to the lame god Hephaistos, master of fire and crafts.",
           "context": "religious-tradition",
           "status": "exact"
         }
@@ -537,7 +2031,7 @@
             "kategori \"Aphrodite of Cnidus -Inv. 8619 (Rome, Palazzo Altemps)\"",
             "dipakai di bcl.wikipedia.org: Aphrodite"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-025/aphrodite-1.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-025/aphrodite-1.jpg"
         }
       ]
     },
@@ -558,7 +2052,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "f00e33ce5bc5b55e963c23ed7ecb5e850d921d448ec7037c5c65f106d86492d7"
     }
   ]
 }

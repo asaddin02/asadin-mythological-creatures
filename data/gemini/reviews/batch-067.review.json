@@ -1,30 +1,28 @@
 {
   "batch_id": "batch-067",
-  "checked_at": "2026-10-01T13:23:52.481Z",
+  "checked_at": "2026-10-06T15:35:37.846Z",
   "files": [
     "batch-067.md",
     "batch-067-fix-1.md",
-    "batch-067-fix-2.md"
+    "batch-067-fix-2.md",
+    "batch-067-fix-3.md",
+    "batch-067-fix-4.md",
+    "batch-067-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "jiaolong",
-      "file": "batch-067-fix-2.md",
+      "file": "batch-067-fix-3.md",
+      "entry_sha256": "3b3cded5fe132d0a488e95a8f9b2f9219edf4f6a7dff8d90212a3ee66916886a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 14,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "jiaolong-c01",
@@ -85,26 +83,101 @@
           "quote": "The Japanese equivalent term is kōryō or kōryū (蛟竜). The Vietnamese equivalent is giao long, considered synonymous to Vietnamese Thuồng luồng.",
           "context": "etymology",
           "status": "loose"
+        },
+        {
+          "id": "jiaolong-c07",
+          "source_id": "jiaolong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Shuowen Jiezi dictionary glosses the jiao as a type of dragon, and the Piya dictionary adds that the jiao hatch from eggs.",
+          "statement_id": "Kamus Shuowen Jiezi mengartikan jiao sebagai sejenis naga, dan kamus Piya menambahkan bahwa jiao bertelur.",
+          "quote": "The Shuowen Jiezi dictionary (121 CE) glosses the jiao as \"a type of dragon (long), as does the Piya dictionary (11th c.), which adds that the jiao are oviparous (hatch from eggs).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jiaolong-c08",
+          "source_id": "jiaolong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Several texts allude to the jiao as lord of aquatic beings, and the jiaolong is called the \"god of the water animals\".",
+          "statement_id": "Sejumlah teks menyiratkan bahwa jiao adalah penguasa makhluk air, dan jiaolong disebut \"dewa hewan-hewan air\".",
+          "quote": "Several texts allude to the jiao being the lord of aquatic beings. The jiaolong is called the \"god of the water animals\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jiaolong-c09",
+          "source_id": "jiaolong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the source, people in the southern state of Wu called it fahong (\"swell into a flood\") because they believed flooding resulted when jiao hatched.",
+          "statement_id": "Menurut sumber ini, orang di negara bagian selatan Wu menyebutnya fahong (\"membengkak menjadi banjir\") karena mereka percaya banjir terjadi ketika jiao menetas.",
+          "quote": "people in the southern state of Wu called it fahong 發洪 \"swell into a flood\" because they believed flooding resulted when jiao hatched.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jiaolong-c10",
+          "source_id": "jiaolong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Guo Pu's commentary, the jiao has a small head and narrow neck with a white goiter, is oviparous, and large ones could swallow a person whole.",
+          "statement_id": "Menurut komentar Guo Pu, jiao berkepala kecil dan berleher ramping dengan gondok putih, bertelur, dan yang besar dapat menelan seseorang bulat-bulat.",
+          "quote": "Guo adds that the jiao possesses a \"small head and a narrow neck with a white goiter \" and that it is oviparous, and \"large ones were more than ten arm spans in width and could swallow a person whole\".",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jiaolong-c11",
+          "source_id": "jiaolong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Dragon Boat Festival legend, the naked rice cakes offered in the river were eaten by the jiaolong dragons, and the cakes had to be wrapped in chinaberry leaves and tied with colored strings, two things the dragons abhor.",
+          "statement_id": "Dalam legenda Festival Perahu Naga, kue beras telanjang yang dipersembahkan di sungai dimakan naga jiaolong; kue itu perlu dibungkus daun chinaberry dan diikat benang berwarna, dua hal yang dibenci naga.",
+          "quote": "the naked rice cakes being offered for him in the river are all being eaten by the dragons (jiaolong), and the cakes need to be wrapped in chinaberry (Melia; Chinese: 楝; pinyin: liàn) leaves and tied with color strings, which are two things the dragons abhor.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "jiaolong-c12",
+          "source_id": "jiaolong-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this classical dictionary text, 蛟 is a kind of dragon; when a pond holds 3,600 fish, a jiao comes to lead them and can take them flying away; if a fish trap is set in the water, the jiao leaves.",
+          "statement_id": "Dalam teks kamus klasik ini, 蛟 adalah sejenis naga; bila kolam berisi tiga ribu enam ratus ikan, sang jiao datang sebagai pemimpin dan dapat membawa ikan-ikan itu terbang; jika bubu ikan dipasang di air, sang jiao pergi.",
+          "quote": "蛟：龍之屬也。池魚滿三千六百，蛟來爲之長，能率魚飛。置笱水中，卽蛟去。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jiaolong-c13",
+          "source_id": "jiaolong-s3",
+          "host": "zh.wikisource.org",
+          "statement": "According to a passage from Pei Yuan quoted in Li Shizhen's Bencao Gangmu, the jiao is over a zhang long, snake-like but four-legged, with a small head and thin neck bearing white tassels, a sienna chest, blue-green spots on its back, and fleshy rings on its tail.",
+          "statement_id": "Menurut kutipan dari Pei Yuan dalam Bencao Gangmu karya Li Shizhen, jiao panjangnya satu zhang lebih, mirip ular tetapi berkaki empat, berkepala kecil dan berleher ramping dengan \"rumbai putih\" di leher, dada cokelat kemerahan, punggung berbintik biru-hijau, dan ekor bercincin daging.",
+          "quote": "裴淵《廣州記》云︰蛟長丈餘，似蛇而四足，形廣如楯, 小頭細頸，頸有白嬰。胸前赭色, 背上靑斑, 脇邊若錦, 尾有肉環, 大者數圍",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jiaolong-c14",
+          "source_id": "jiaolong-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Bencao Gangmu cites Ren Fang: the jiao belongs to the dragons and is so named because its eyebrows grow crossed; the scaled kind is jiaolong, the winged kind yinglong, the horned kind qiulong, and the hornless kind chilong.",
+          "statement_id": "Bencao Gangmu mengutip Ren Fang: jiao termasuk golongan naga, alisnya tumbuh bersilang sehingga disebut jiao; yang bersisik disebut jiaolong, yang bersayap yinglong, yang bertanduk qiulong, dan yang tanpa tanduk chilong.",
+          "quote": "按任昉《述異記》云, 蛟乃龍屬, 其眉交生, 故謂之蛟, 有鱗曰蛟龍, 有翼曰應龍, 有角曰虯龍, 無角曰螭龍也。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "nuba",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-3.md",
+      "entry_sha256": "6c9ebe8fe92000883119fed92fb731b0c123ec92a0e0f0957ffd4d687a1a72ba",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nuba-c01",
@@ -165,26 +238,91 @@
           "quote": "Up through the middle of the twentieth century, ceremonies to produce rain were held in many regions of China. The basic idea of these ceremonies, which could last several hours, was to drive Ba out of the region. Once Ba was chased away, then the drought was thought to depart along with her and rain would then be sure to soon commence.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "nuba-c07",
+          "source_id": "nuba-s2",
+          "host": "zh.wikisource.org",
+          "statement": "This text mentions a person in dark-blue clothes named Ba, daughter of the Yellow Emperor; Chiyou attacked the Yellow Emperor, Yinglong held back water, Chiyou summoned the Wind Earl and Rain Master who unleashed a great storm, then the Yellow Emperor sent down the heavenly woman named Ba, the rain stopped, and Chiyou was killed.",
+          "statement_id": "Teks ini menyebut seorang berpakaian hijau-kebiruan bernama Ba, putri Kaisar Kuning; Chiyou menyerang Kaisar Kuning, Yinglong menahan air, Chiyou memanggil Dewa Angin dan Dewa Hujan yang melepas badai besar, lalu Kaisar Kuning menurunkan sang putri langit bernama Ba, hujan berhenti, dan Chiyou terbunuh.",
+          "quote": "有人衣青衣，名曰黄帝女魃。蚩尤作兵伐黄帝，黄帝乃令應龍攻之冀州之野。應龍畜水。蚩尤請風伯雨師，縱大風雨。黄帝乃下天女曰魃，雨止，遂殺蚩尤。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nuba-c08",
+          "source_id": "nuba-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The text says Ba could not go back up and no rain fell where she dwelt; Shu Jun told the emperor, Ba was afterwards placed north of the Red River, and Shu Jun became the ancestor of the fields (tianzu).",
+          "statement_id": "Teks ini menyebut Ba tidak dapat naik kembali dan tempat tinggalnya tidak turun hujan; Shu Jun melaporkannya kepada kaisar, Ba kemudian ditempatkan di utara Sungai Merah, dan Shu Jun menjadi leluhur ladang (tianzu).",
+          "quote": "魃不得復上，所居不雨。叔均言之帝，後置之赤水之北。叔均乃為田祖。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nuba-c09",
+          "source_id": "nuba-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The text adds that whoever wishes to drive her away commands \"Deity, go north!\" and first clears the waterways and opens drains and ditches.",
+          "statement_id": "Teks ini menambahkan bahwa orang yang ingin mengusirnya memerintahkan \"Dewa, pergilah ke utara!\" dan lebih dulu membersihkan saluran air serta membuka parit dan selokan.",
+          "quote": "魃時亡之，所欲逐之者，令曰：「神北行！」先除水道，决通溝瀆。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nuba-c10",
+          "source_id": "nuba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "After descending from Heaven to aid Huangdi at Zhuolu, Ba did not return to heaven but wandered to the northern parts of the earth; wherever she appeared there was a drought.",
+          "statement_id": "Setelah turun dari langit membantu Huangdi di Zhuolu, Ba tidak kembali ke langit melainkan mengembara ke bagian utara bumi; di mana pun ia muncul terjadi kekeringan.",
+          "quote": "After having descended from Heaven to aid Huangdi at Zhuolu, instead of returning to heaven, Ba wandered to the northern parts of the earth. Wherever Ba appeared, there would be a drought.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "nuba-c11",
+          "source_id": "nuba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Book of the Later Han, Yinglong was connected as a companion to Nüba in the myth, and they fought simultaneously against Chiyou's forces.",
+          "statement_id": "Dalam Kitab Han Akhir, Yinglong dihubungkan sebagai pendamping Nüba dalam mitos itu, dan keduanya bertempur bersamaan melawan pasukan Chiyou.",
+          "quote": "In the Book of the Later Han, Yinglong was connected as a companion to Nüba in the myth. They fought simultaneously against Chiyou's forces.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nuba-c12",
+          "source_id": "nuba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Shenyijing she is described as about two to three chis tall but otherwise looking like a person, who walked naked as fast as the wind.",
+          "statement_id": "Dalam Shenyijing, Ba digambarkan setinggi sekitar dua sampai tiga chi, selebihnya tampak seperti manusia, dan berjalan telanjang secepat angin.",
+          "quote": "In the Shenyijing of the Han dynasty or Six Dynasties times, she is described as being about two to three chis in height, but otherwise looking like a person, who walked naked as fast as the wind.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nuba-c13",
+          "source_id": "nuba-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She is described as one of the first goddesses attested in Chinese literature, appearing in the early poetry collection Shijing and in the later Shanhaijing.",
+          "statement_id": "Ia disebut salah satu dewi paling awal yang tercatat dalam sastra Tiongkok, muncul dalam kumpulan puisi Shijing dan kemudian dalam Shanhaijing.",
+          "quote": "She is one of the first goddesses attested to in Chinese literature, appearing in the early collection of poetry, the Shijing, as well as in the later Shanhaijing.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "ao-guang",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-3.md",
+      "entry_sha256": "71b5d0331e4a601b16b23c5c2b1c6b3bcb77ae17b46b8520082a7a011675ac14",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ao-guang-c01",
@@ -235,26 +373,91 @@
           "quote": "In the Complete Tale of Avalokiteśvara and the Southern Seas, his third son was accidentally captured by the fisherman and he pleads Avalokiteśvara(Guanyin) for help. Avalokiteśvara saves the third dragon prince and also takes Ao Guang's daughter, Longnü (Naga Kanya) as his disciple.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "ao-guang-c06",
+          "source_id": "ao-guang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Fengshen Yanyi, after many years Ao Guang had brought chaos to the world by creating droughts, storms, and other disasters.",
+          "statement_id": "Menurut Fengshen Yanyi, setelah bertahun-tahun Ao Guang membawa kekacauan ke dunia dengan menciptakan kekeringan, badai, dan bencana lain.",
+          "quote": "According to Fengshen Yanyi, after the passage of many years, Ao Guang had brought chaos to the world by creating droughts, storms, and other disasters.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ao-guang-c07",
+          "source_id": "ao-guang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Fengshen Yanyi, Nezha washed himself at a stream near the East Sea until Ao Guang's palace shook; after Li Gen and Ao Guang's third son Ao Bing were killed by Nezha, Ao Guang went to speak to Nezha's father, Li Jing.",
+          "statement_id": "Dalam Fengshen Yanyi, Nezha mandi di sebuah aliran dekat Laut Timur hingga istana Ao Guang berguncang; setelah Li Gen dan putra ketiga Ao Guang, Ao Bing, dibunuh Nezha, Ao Guang pergi menemui ayah Nezha, Li Jing.",
+          "quote": "One day, Nezha cleansed himself at a neighboring stream of the East Sea, causing Ao Guang's palace to shake at an annoying level. After Ao Guang's favorite investigator Li Gen and third son Ao Bing were both killed by Nezha, Ao Guang set out to talk to Nezha's father, Li Jing.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ao-guang-c08",
+          "source_id": "ao-guang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Fengshen Yanyi, Ao Guang was forced to turn himself into a small snake and go with Nezha back to the Old Pond Pass.",
+          "statement_id": "Dalam Fengshen Yanyi, Ao Guang terpaksa mengubah dirinya menjadi ular kecil dan ikut Nezha kembali ke Old Pond Pass.",
+          "quote": "Ao Guang was forced to turn himself into a small snake and come with Nezha back to the Old Pond Pass to forget about the incident completely.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ao-guang-c09",
+          "source_id": "ao-guang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Journey to the West, the monkey king Sun Wukong obtained his Ruyi Jingu Bang, a magically expanding iron rod, from Ao Guang.",
+          "statement_id": "Dalam Journey to the West, raja kera Sun Wukong memperoleh tongkat besi Ruyi Jingu Bang yang dapat memanjang secara ajaib dari Ao Guang.",
+          "quote": "In Journey to the West, the monkey king Sun Wukong obtained his Ruyi Jingu Bang, a magically expanding, gold-ringed iron rod weapon, from Ao Guang.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ao-guang-c10",
+          "source_id": "ao-guang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Journey to the West, Ao Guang provides torrential rain to try to stop Red Boy's fire, but the fire cannot be stopped by ordinary water.",
+          "statement_id": "Dalam Journey to the West, Ao Guang menurunkan hujan deras untuk menghentikan api Red Boy, tetapi api itu tidak dapat dipadamkan air biasa.",
+          "quote": "Ao Guang provides torrential rain in an attempt to stop Red Boy's fire, but the fire cannot be stopped by ordinary water.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ao-guang-c11",
+          "source_id": "ao-guang-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this chapter's text, an attendant reports that Sun Wukong of the mountain 花果山 has arrived; the Dragon King of the East Sea Ao Guang hurriedly rises and, with his dragon sons, dragon grandsons, shrimp soldiers and crab generals, comes out of the palace to greet him, saying \"Please come in\".",
+          "statement_id": "Dalam teks bab ini, seorang penjaga melapor bahwa Sun Wukong dari gunung 花果山 telah datang; Raja Naga Laut Timur Ao Guang bergegas bangkit dan, bersama putra naga, cucu naga, prajurit udang, dan jenderal kepiting, keluar dari istana menyambutnya dengan \"Silakan masuk\".",
+          "quote": "外面有個花果山天生聖人孫悟空，口稱是大王緊鄰，將到宮也。」東海龍王敖廣即忙起身，與龍子、龍孫、蝦兵、蟹將出宮迎道：「上仙請進，請進。」",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ao-guang-c12",
+          "source_id": "ao-guang-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In his memorial to the Jade Emperor, Ao Guang states that he bowed down and presented the magic iron staff, the golden cap with phoenix wings, the chain-mail armor and the cloud-treading boots, and saw the guest out with courtesy.",
+          "statement_id": "Dalam memorialnya kepada Kaisar Giok, Ao Guang menyatakan bahwa ia bersujud dan mempersembahkan tongkat besi ajaib, topi emas bersayap burung phoenix, baju zirah rantai, dan sepatu penjejak awan, lalu mengantar sang tamu keluar dengan hormat.",
+          "quote": "通明殿外有東海龍王敖廣進表，聽天尊宣詔。」玉皇傳旨：「著宣來。」 ... 臣敖廣舒身下拜，獻神珍之鐵棒，鳳翅之金冠，與那鎖子甲、步雲履，以禮送出。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "batutut",
-      "file": "batch-067-fix-1.md",
+      "file": "batch-067-fix-3.md",
+      "entry_sha256": "b114d15e85e175f739d8501efd4dd10d9b89a56d261b109e05bce793a04d14f7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "batutut-c01",
@@ -285,33 +488,108 @@
           "quote": "Zum Schlafen sucht er angeblich Grotten oder Felsspalten auf.\nLegenden einheimischer Völker berichten, dass der Kryptid gezielt Feuerstellen aufsuche, aber auch selbst in der Lage sei ein Feuer zu entzünden.\nEr soll nicht nur schnell laufen können, sondern auch behände auf Bäumen klettern.\nNguoi Rungs sollen Menschen gegenüber aggressiv sein, diese anfallen, sogar töten und auch verzehre",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "batutut-c04",
+          "source_id": "batutut-s2",
+          "host": "www.wearethemighty.com",
+          "statement": "U.S. troops in Kontum Province, Vietnam, reported seeing a strange creature that was not quite human and not quite ape, which locals call Nguoi Rung, \"the people of the Forest\".",
+          "statement_id": "Prajurit AS di Provinsi Kontum, Vietnam, melaporkan melihat makhluk aneh yang tidak sepenuhnya manusia dan tidak sepenuhnya kera, yang oleh penduduk setempat disebut Nguoi Rung, \"orang hutan\".",
+          "quote": "In the Kontum Province of Vietnam, near the borders with Laos and Cambodia, there were a surprisingly large number of bizarre reports from U.S. troops on patrols. They claimed to have seen a strange, not-quite-human but not-quite-ape creature that the locals call Nguoi Rung, or “the people of the Forest.”",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "batutut-c05",
+          "source_id": "batutut-s2",
+          "host": "www.wearethemighty.com",
+          "statement": "Toward the end of the war, Viet Cong and NVA soldiers reported so many sightings of the reddish-brown, hair-covered Nguoi Rung that the North Vietnamese communist party secretariat ordered scientists to investigate.",
+          "statement_id": "Menjelang akhir perang, prajurit Viet Cong dan NVA melaporkan begitu banyak penampakan Nguoi Rung berambut cokelat kemerahan sehingga sekretariat partai komunis Vietnam Utara memerintahkan para ilmuwan menyelidikinya.",
+          "quote": "Toward the end of the war, Viet Cong and NVA soldiers reported so many sightings of the reddish-brown hair-covered Nguoi Rung that the North Vietnamese communist party secretariat ordered scientists to investigate.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "batutut-c06",
+          "source_id": "batutut-s2",
+          "host": "www.wearethemighty.com",
+          "statement": "Dr. Vo Quy, an ornithologist and environmental researcher from Hanoi, found what he believed to be a Nguoi Rung footprint on the forest floor and cast it; the cast was wider than a human foot and too big for any known ape.",
+          "statement_id": "Dr. Vo Quy, ornitolog dan peneliti lingkungan dari Hanoi, menemukan apa yang ia yakini sebagai jejak kaki Nguoi Rung di lantai hutan dan mencetaknya; cetakan itu lebih lebar dari kaki manusia dan terlalu besar untuk kera yang dikenal.",
+          "quote": "Dr. Vo Quy, a respected ornithologist and environmental researcher from Hanoi, discovered what he believed to be a Nguoi Rung footprint on the forest floor and made a cast of it. The cast was wider than a human foot and too big for any known ape.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "batutut-c07",
+          "source_id": "batutut-s2",
+          "host": "www.wearethemighty.com",
+          "statement": "The Nguoi Rung is an oft-told tale in Southeast Asia, but despite endless sightings and folklore attached to it there is no concrete evidence that it exists.",
+          "statement_id": "Nguoi Rung adalah kisah yang sering diceritakan di Asia Tenggara, tetapi meskipun ada penampakan dan cerita rakyat yang tak terhitung, tidak ada bukti nyata bahwa makhluk ini ada.",
+          "quote": "the Nguoi Rung is an oft-told tale in the area of Southeast Asia, but despite the endless sightings and folklore attached to the semi-mythical creature, there’s no concrete evidence it exists.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "batutut-c08",
+          "source_id": "batutut-s2",
+          "host": "www.wearethemighty.com",
+          "statement": "A U.S. soldier, Gary Linderer, reported a creature with deep-set eyes and a prominent brow, about five feet tall with long muscular arms, that walked upright with broad shoulders and a heavy torso.",
+          "statement_id": "Seorang prajurit AS bernama Gary Linderer melaporkan makhluk bermata cekung dan beralis menonjol, setinggi sekitar lima kaki dengan lengan panjang berotot, yang berjalan tegak dengan bahu lebar dan torso berat.",
+          "quote": "Gary Linderer was on a six-man long-range reconnaissance patrol with the 101st Airborne Division when he deployed to South Vietnam. While struggling through some underbrush one day, he ran into “deep-set eyes on a prominent brow… five feet tall, with long muscular arms.” The creature “walked upright with broad shoulders and a heavy torso.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "batutut-c09",
+          "source_id": "batutut-s1",
+          "host": "de.wikipedia.org",
+          "statement": "According to the accounts, Nguoi Rungs are aggressive toward people: they attack, even kill and eat them.",
+          "statement_id": "Menurut cerita, Nguoi Rung agresif terhadap manusia: menyerang, bahkan membunuh dan memakannya.",
+          "quote": "Nguoi Rungs sollen Menschen gegenüber aggressiv sein, diese anfallen, sogar töten und auch verzehren.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "batutut-c10",
+          "source_id": "batutut-s1",
+          "host": "de.wikipedia.org",
+          "statement": "Because they are said to master fire, some cryptozoologists speculate that the Nguoi Rung might be surviving Homo erectus.",
+          "statement_id": "Karena konon menguasai api, sebagian ahli kriptozoologi berspekulasi bahwa Nguoi Rung mungkin Homo erectus yang bertahan hidup.",
+          "quote": "Da sie angeblich den Umgang mit Feuer beherrschen, spekulieren einige Kryptozoologen, dass es sich bei den Nguoi Rungs um überlebende Homo erectus handeln könnte.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "batutut-c11",
+          "source_id": "batutut-s1",
+          "host": "de.wikipedia.org",
+          "statement": "Heuvelmans published an article describing the \"Minnesota Iceman\" as a new species, Homo pongoides, and assumed it was a Nguoi Rung; the Minnesota Iceman was later identified as a forgery, a rubber doll.",
+          "statement_id": "Heuvelmans menerbitkan artikel yang menggambarkan \"Minnesota Iceman\" sebagai spesies baru Homo pongoides dan menduganya seekor Nguoi Rung; kemudian Minnesota Iceman diidentifikasi sebagai pemalsuan, sebuah boneka karet.",
+          "quote": "gab Heuvelmans einen medienwirksamen Artikel heraus, der es als neue Art der Gattung Homo, Homo pongoides, beschrieb. Er nahm an, es handele sich um einen Nguoi Rung ... Später wurde der „Minnesota-Iceman“ als Fälschung identifiziert; Es handelte sich um eine Gummipuppe.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "lake-tianchi-monster",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-3.md",
+      "entry_sha256": "398efa978c8c4ad298136281b899fa79a6789143064f3f5b0073a5ea01b9d6aa",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 14,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "lake-tianchi-monster-c01",
           "source_id": "lake-tianchi-monster-s1",
           "host": "en.wikipedia.org",
-          "statement": "Lake Tianchi Monster names a cryptid reportedly inhabiting the lake on Mount Baekdu.",
-          "statement_id": "Lake Tianchi Monster adalah nama kriptid yang dilaporkan menghuni danau di Gunung Baekdu.",
+          "statement": "Lake Tianchi Monster is the name given to a cryptid said to live in Heaven Lake (Cheonji in Korean) at the peak of Baekdu Mountain, within the Baekdu-daegan and Changbai mountain ranges encompassing Jilin Province of China and Ryanggang Province of North Korea.",
+          "statement_id": "Lake Tianchi Monster adalah nama untuk kriptid yang konon hidup di Danau Heaven (Cheonji dalam bahasa Korea) di puncak Gunung Baekdu, dalam pegunungan Baekdu-daegan dan Changbai yang mencakup Provinsi Jilin di Tiongkok dan Provinsi Ryanggang di Korea Utara.",
           "quote": "Lake Tianchi Monster is the name given to what is said to be a cryptid that lives in Heaven Lake (known as Cheonji in Korean) located in the peak of Baekdu Mountain within the Baekdu-daegan and Changbai mountain ranges encompassing Jilin Province of China and Ryanggang Province of North Korea.",
           "context": "traditional-belief",
           "status": "exact"
@@ -355,26 +633,111 @@
           "quote": "In 2007, Zhuo Yongsheng, a Chinese TV reporter said he had shot a 20-minute video of six unidentified creatures in the volcanic lake on 6 September. He later sent still photos to Xinhua's Jilin provincial bureau. According to a news report one of these showed the six \"Nessies\" swimming in parallel in three pairs.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "lake-tianchi-monster-c06",
+          "source_id": "lake-tianchi-monster-s2",
+          "host": "www.practicalfishkeeping.co.uk",
+          "statement": "On the morning of July 11, several local government cadres saw a school of mysterious creatures swimming through the lake in the Changbai mountains, in Jilin province, according to the Beijing Youth Daily.",
+          "statement_id": "Pada pagi 11 Juli, beberapa kader pemerintah daerah melihat sekawanan makhluk misterius berenang di danau di Pegunungan Changbai, Provinsi Jilin, menurut Beijing Youth Daily.",
+          "quote": "On the morning of July 11, several local government cadres caught sight of a school of mysterious creatures swimming through the lake in the Changbai mountains, in north-eastern Jilin province, the Beijing Youth Daily said on Tuesday.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lake-tianchi-monster-c07",
+          "source_id": "lake-tianchi-monster-s2",
+          "host": "www.practicalfishkeeping.co.uk",
+          "statement": "A provincial forestry official was quoted as saying the monsters appeared five times within about 50 minutes, at times one, at times several, as many as about 20 the last time.",
+          "statement_id": "Seorang pejabat kehutanan provinsi dikutip mengatakan makhluk-makhluk itu muncul lima kali dalam sekitar 50 menit, kadang satu, kadang beberapa, hingga sekitar 20 pada kali terakhir.",
+          "quote": "\"Within about 50 minutes, the monsters appeared five times,\" it quoted one of the officials, provincial forestry bureau vice-director Zhang Lufeng, as saying. \"At times there was one, at times there were several. The last time, there was as many as about 20.\"",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lake-tianchi-monster-c08",
+          "source_id": "lake-tianchi-monster-s2",
+          "host": "www.practicalfishkeeping.co.uk",
+          "statement": "He said the creatures, two to three kilometres in the distance, appeared only as white or black spots, but from the ripples in the water he and others determined the spots were living beings.",
+          "statement_id": "Ia mengatakan makhluk-makhluk itu, pada jarak dua sampai tiga kilometer, hanya tampak sebagai bintik putih atau hitam, tetapi dari riak air ia dan yang lain menyimpulkan bahwa bintik itu makhluk hidup.",
+          "quote": "He said the creatures, two to three kilometres (1.25-2 miles) in the distance, appeared only as white or black spots. But from the ripples in the water, he and others determined the spots were \"living beings.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lake-tianchi-monster-c09",
+          "source_id": "lake-tianchi-monster-s2",
+          "host": "www.practicalfishkeeping.co.uk",
+          "statement": "Another sighting compared the monster's head to a human head but with big round eyes and a protruding mouth, a neck 1.2 to 1.5 metres long, a white ring separating neck and torso, and smooth grey skin.",
+          "statement_id": "Laporan lain membandingkan kepala makhluk itu dengan kepala manusia, tetapi bermata bulat besar dan berbibir menonjol, berleher 1,2 sampai 1,5 meter, bercincin putih di antara leher dan badan, dan berkulit abu-abu mulus.",
+          "quote": "Another sighting compared the head of the monster to that of a human, except with big round eyes, a protruding mouth and a neck 1.2 to 1.5 metres long. It also had a white ring separating its neck and torso and smooth, grey skin.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lake-tianchi-monster-c10",
+          "source_id": "lake-tianchi-monster-s2",
+          "host": "www.practicalfishkeeping.co.uk",
+          "statement": "Hundreds of sightseers reported a black monster with a horse-like head; a local tourism official was quoted as saying it was spotted about 10 metres from the bank, jumping out of the water from time to time like a seal.",
+          "statement_id": "Ratusan wisatawan melaporkan melihat monster hitam berkepala mirip kuda; seorang pejabat pariwisata setempat dikutip mengatakan makhluk itu terlihat sekitar 10 meter dari tepi dan sesekali melompat keluar dari air seperti anjing laut.",
+          "quote": "Hundreds of sightseers visiting the area have also reported spotting a black monster with a horse-like head. A Chinese paper quoted local tourism official Meng Fanying as saying that the creature was spotted just 10 metres from the bank, jumping out of the water from time to time like a seal.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lake-tianchi-monster-c11",
+          "source_id": "lake-tianchi-monster-s2",
+          "host": "www.practicalfishkeeping.co.uk",
+          "statement": "Scientists dismiss the reports, saying volcanic eruptions as recently as 300 years ago would make life hazardous for any animal living in the 373-metre deep lake.",
+          "statement_id": "Para ilmuwan menepis laporan itu dengan alasan letusan gunung berapi pada 300 tahun terakhir akan membuat kehidupan berbahaya bagi hewan apa pun di danau sedalam 373 meter itu.",
+          "quote": "Scientists dismiss the reports, saying volcanic eruptions as recently as 300 years ago would make life hazardous for any animal making the 373-metre deep lake its home.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lake-tianchi-monster-c12",
+          "source_id": "lake-tianchi-monster-s3",
+          "host": "mg.co.za",
+          "statement": "Local journalist Zhuo Yongsheng shot footage of six \"seal-like\" creatures in Tianchi Lake; as quoted by Xinhua, they could swim as fast as yachts, at times all disappeared in the water, and their fins or wings were longer than their bodies.",
+          "statement_id": "Wartawan setempat Zhuo Yongsheng merekam enam makhluk \"mirip anjing laut\" di Danau Tianchi; menurut kutipan dari Xinhua, mereka dapat berenang secepat kapal pesiar, sesekali menghilang di air, dan sirip atau sayapnya lebih panjang dari tubuh mereka.",
+          "quote": "Local journalist Zhuo Yongsheng shot footage of six “seal-like” creatures in the north-eastern Tianchi Lake, which local legend has long said is home to Loch Ness-style monsters. “They could swim as fast as yachts and at times they would all disappear in the water,” the Xinhua news agency quoted Zhuo as saying. “Their fins, or maybe wings, were longer than their bodies.”",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lake-tianchi-monster-c13",
+          "source_id": "lake-tianchi-monster-s3",
+          "host": "mg.co.za",
+          "statement": "Scientists dismissed the reports, saying the lake was too cold for life, and that volcanic eruptions would also make life extremely hazardous for any animal making its home there.",
+          "statement_id": "Para ilmuwan menepis laporan itu dengan alasan danau terlalu dingin untuk kehidupan, dan letusan gunung berapi juga membuat kehidupan sangat berbahaya bagi hewan yang tinggal di sana.",
+          "quote": "However, scientists dismissed the reports, saying the lake was too cold for life. Volcanic eruptions would also make life extremely hazardous for any animal making its home there, they said.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "lake-tianchi-monster-c14",
+          "source_id": "lake-tianchi-monster-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Beijing Youth Daily, an estimated 20 monsters were reported; however scientists are skeptical that any large creature could survive in the lake given its recent volcanic history, and skeptics say it is all imagination or just a floating volcanic rock.",
+          "statement_id": "Menurut Beijing Youth Daily, diperkirakan 20 monster dilaporkan; namun para ilmuwan ragu ada makhluk besar yang dapat bertahan di danau itu mengingat sejarah vulkanisnya yang baru, dan kaum skeptis menyebutnya hanya imajinasi atau batu vulkanik terapung.",
+          "quote": "According to Beijing Youth Daily, an estimated 20 monsters were reported; however, \"scientists are skeptical that any large creature would be able to survive in the lake given its recent history of volcanic activity\", and skeptics say \"it's all in the imagination, or just a floating volcanic rock\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "mogwai-chinese-culture",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-3.md",
+      "entry_sha256": "f6ddd843a0603bfe2a3d334a4f46ea52f6585efd28e58aac6ac0fd683de44b22",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mogwai-chinese-culture-c01",
@@ -415,26 +778,91 @@
           "quote": "Examples of Chinese demons include the yaksha (夜叉) and the raksasha (罗刹), amongst others. Both the yaksha and raksasha are derived from Indian folklore, and in the Chinese version, are violent and ferocious beings with sadistic tendencies.",
           "context": "traditional-belief",
           "status": "loose"
+        },
+        {
+          "id": "mogwai-chinese-culture-c05",
+          "source_id": "mogwai-chinese-culture-s2",
+          "host": "en.wiktionary.org",
+          "statement": "According to Wiktionary, 魔 is a clipping of 魔羅, from Sanskrit māra (\"killing; death; destroyer; demon\").",
+          "statement_id": "Menurut Wiktionary, 魔 adalah pemendekan dari 魔羅, yang berasal dari kata Sanskerta māra (\"membunuh; kematian; perusak; iblis\").",
+          "quote": "Clipping of 魔羅 (MC ma la), from Sanskrit मार (māra, “killing; death; destroyer; demon”).",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mogwai-chinese-culture-c06",
+          "source_id": "mogwai-chinese-culture-s2",
+          "host": "en.wiktionary.org",
+          "statement": "Wiktionary definitions of 魔 include (in Buddhism) mara, devil, demon, evil spirit, fiend, and a harmful or evil thing or person.",
+          "statement_id": "Definisi 魔 dalam Wiktionary meliputi (dalam Buddhisme) mara, iblis, roh jahat, makhluk jahat, serta hal atau orang yang berbahaya atau jahat.",
+          "quote": "(Buddhism) mara (demon) devil; demon; evil spirit fiend; harmful or evil thing or person",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mogwai-chinese-culture-c07",
+          "source_id": "mogwai-chinese-culture-s3",
+          "host": "en.wiktionary.org",
+          "statement": "Wiktionary defines 魔鬼 (literally or figuratively) as devil, demon, fiend, or an embodiment of evil.",
+          "statement_id": "Wiktionary mengartikan 魔鬼 (secara harfiah atau kiasan) sebagai iblis, setan, makhluk jahat, atau perwujudan kejahatan.",
+          "quote": "魔鬼 (literally or figuratively) devil; demon; fiend; an embodiment of evil",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mogwai-chinese-culture-c08",
+          "source_id": "mogwai-chinese-culture-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mogui (demons) can be distinguished from yaoguai (goblins, sprites), folkloric supernatural beings associated with abnormal phenomena that are more akin to the unseelie fae of European folklore.",
+          "statement_id": "Mogui (iblis) dapat dibedakan dari yaoguai (goblin, peri-jin), yaitu makhluk gaib cerita rakyat yang berkaitan dengan fenomena tak lazim dan lebih mirip peri unseelie dalam cerita rakyat Eropa.",
+          "quote": "Mogui 魔鬼 (demons) can be distinguished from yaoguai 妖怪 (goblins, sprites), which refer to folkloric supernatural beings associated with abnormal phenomena (妖怪: 怪异 - 反常的事物与现象 ), and who are more akin in their nature and quality to the unseelie fae of European folklore.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mogwai-chinese-culture-c09",
+          "source_id": "mogwai-chinese-culture-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The raksasha are described as bloodthirsty malevolent demons with ugly appearances, derived from Indian legend and entering China through Buddhism, evil man-eaters of large stature capable of swift and terrifying flight.",
+          "statement_id": "Rakshasa digambarkan sebagai iblis jahat haus darah berpenampilan buruk dari legenda India yang masuk ke Tiongkok lewat Buddhisme, pemakan manusia bertubuh besar yang mampu terbang cepat dan menakutkan.",
+          "quote": "Raksasha guardians in a temple Bloodthirsty malevolent demons with ugly appearances derived from Indian legend and entering China through the influence of Buddhism. They are described as evil man-eaters of large appearance and stature, and capable of swift and terrifying flight.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mogwai-chinese-culture-c10",
+          "source_id": "mogwai-chinese-culture-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Air-traversing yaksha (空行夜叉) are described as flying through the night with a pair of wings and radiating a strange glowing darkness; they are said to have red, blue or yellow complexions and animal heads and take pleasure in afflicting human beings.",
+          "statement_id": "Yaksha penjelajah udara (空行夜叉) digambarkan terbang di malam hari dengan sepasang sayap dan memancarkan kegelapan berpendar yang aneh; mereka bermuka merah, biru, atau kuning berkepala hewan dan senang menyengsarakan manusia.",
+          "quote": "Air-traversing yaksha (空行夜叉 ) are described as flying through the night with a pair of wings and radiating a strange glowing darkness. They are variously said to have red, blue or yellow complexions and animal heads. They take pleasure in afflicting human beings.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mogwai-chinese-culture-c11",
+          "source_id": "mogwai-chinese-culture-s4",
+          "host": "www.gutenberg.org",
+          "statement": "A translator's footnote in this book says the Chinese term translated \"Cannibals\" is an imitation by two Chinese characters of the Sanskrit yakcha, certain demons who feed upon human flesh.",
+          "statement_id": "Catatan kaki penerjemah dalam buku ini menyebut istilah Tionghoa yang diterjemahkan \"Kanibal\" sebagai tiruan dua aksara Tionghoa atas kata Sanskerta yakcha, yaitu iblis tertentu yang memakan daging manusia.",
+          "quote": "The Chinese term--here translated “Cannibals”--is a meaningless imitation by two Chinese characters of the Sanscrit _yakcha_, or certain demons who feed upon human flesh.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "nine-sons-of-the-dragon",
-      "file": "batch-067-fix-2.md",
+      "file": "batch-067-fix-3.md",
+      "entry_sha256": "b8ab8612278340e2fd065d9c22c26731eedf9e9bc0701287bb8f26da7627a76b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
+        "claims": 12,
         "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nine-sons-of-the-dragon-c01",
@@ -485,26 +913,91 @@
           "quote": "白色牛舌形墨，色略黃，整器表面滿覆龍紋，對照墨面所模印的「九子」篆款，可知龍紋是表現龍九子之圖象。",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "nine-sons-of-the-dragon-c06",
+          "source_id": "nine-sons-of-the-dragon-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In the list given by 『升庵外集』 (Yang Shen) and 『天禄識余』, 贔屓 looks like a turtle, likes to bear heavy loads, and is the turtle-shaped base under a stone pillar.",
+          "statement_id": "Menurut daftar dalam 『升庵外集』 (Yang Shen) dan 『天禄識余』, 贔屓 berbentuk mirip kura-kura, suka memikul beban berat, dan menjadi alas berbentuk kura-kura di bawah tiang batu.",
+          "quote": "『升庵外集』（楊慎, 1488–1559）や『天禄識余』（高士奇, 1645-1704）は次の9種とする。 贔屓（ひいき） 形は亀に似て、重きを背負うことを好む。石の柱の下の亀の形の台座である。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nine-sons-of-the-dragon-c07",
+          "source_id": "nine-sons-of-the-dragon-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In the list of 『懐麓堂集』 (Li Dongyang), 囚牛 loves music and its image survives on the head of today's 胡琴.",
+          "statement_id": "Dalam daftar 『懐麓堂集』 (Li Dongyang), 囚牛 menyukai musik dan wujudnya masih tersisa pada kepala 胡琴 masa kini.",
+          "quote": "『懐麓堂集』（李東陽, 1447-1516）は次の9種とする。 囚牛（しゅうぎゅう） 音楽を好み、今の胡琴の頭にその像を遺す。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nine-sons-of-the-dragon-c08",
+          "source_id": "nine-sons-of-the-dragon-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In Yang Shen's list, 狴犴 looks like a tiger and, being strong, is placed at the gate of a prison.",
+          "statement_id": "Dalam daftar Yang Shen, 狴犴 berbentuk mirip harimau dan, karena kuat, ditempatkan di gerbang penjara.",
+          "quote": "『升庵外集』（楊慎, 1488–1559）や『天禄識余』（高士奇, 1645-1704）は次の9種とする。 ... 狴犴（へいかん） 形は虎に似て、力が強いので牢の門に置かれる。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nine-sons-of-the-dragon-c09",
+          "source_id": "nine-sons-of-the-dragon-s1",
+          "host": "ja.wikipedia.org",
+          "statement": "In Li Dongyang's list, 蚩吻 likes to swallow and its image survives as the beast head on the main roof ridge today.",
+          "statement_id": "Dalam daftar Li Dongyang, 蚩吻 suka menelan dan wujudnya masih tersisa pada kepala binatang di bubungan atap utama masa kini.",
+          "quote": "『懐麓堂集』（李東陽, 1447-1516）は次の9種とする。 ... 蚩吻（しふん） 呑むことを好み、今の殿脊（屋根の大棟）の獣頭にその像を遺す。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nine-sons-of-the-dragon-c10",
+          "source_id": "nine-sons-of-the-dragon-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Yang Shen's list includes nine creatures and is the most widely found version.",
+          "statement_id": "Daftar Yang Shen memuat sembilan makhluk dan menjadi versi yang paling banyak ditemukan.",
+          "quote": "Yang Shen's (楊慎 , 1488–1559) list, which also includes 9 creatures — this version is the most widely found one",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nine-sons-of-the-dragon-c11",
+          "source_id": "nine-sons-of-the-dragon-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Some of these creatures are based on earlier mythological beasts such as pulao or bixi, but most have no other mythological background and are merely used as names for decorative structures.",
+          "statement_id": "Sebagian makhluk ini didasarkan pada binatang mitologi yang lebih awal seperti pulao atau bixi, tetapi sebagian besar tidak punya latar mitologi lain dan hanya dipakai sebagai nama struktur dekoratif.",
+          "quote": "Some of these creatures are based on earlier mythological beasts, such as pulao or bixi, but most of them have no other mythological background and are merely used as names for decorative structures.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nine-sons-of-the-dragon-c12",
+          "source_id": "nine-sons-of-the-dragon-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Other creatures with dragon features are not listed among the \"nine sons of the dragon\", including Kirin, Longma, Pixiu, and Denglong.",
+          "statement_id": "Ada makhluk lain berciri naga yang tidak termasuk \"sembilan anak naga\", antara lain Kirin, Longma, Pixiu, dan Denglong.",
+          "quote": "There are other creatures that have features of the dragon, but are not listed among the \"nine sons of the dragon\", including Kirin, Longma, Pixiu, and Denglong",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "bulgasari-creature",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-3.md",
+      "entry_sha256": "affe4f07d7886bec547d9b0de8f21d4dc2d8e2299e476fbbb1e9bb38182e1732",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 16,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bulgasari-creature-c01",
@@ -555,26 +1048,131 @@
           "quote": "According to legend, the Bulgasari is a bloodthirsty beast that grows in size as it eats metal. Myth states that it was created by a Buddhist monk who was fleeing persecution because Buddhism was illegal in Goryeo-era Korea. He created a small figure out of rice grains, which he fed needles, and it began to grow.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "bulgasari-creature-c06",
+          "source_id": "bulgasari-creature-s3",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "The Encyclopedia of Korean Culture explains that 불가살이 means, as its Chinese characters indicate, a being that cannot be killed no matter how one tries.",
+          "statement_id": "Ensiklopedia Budaya Korea menjelaskan bahwa 불가살이 berarti sosok yang tidak dapat dibunuh betapa pun orang berusaha membunuhnya.",
+          "quote": "‘불가살(不可殺)이’는 한자의 의미처럼, 아무리 죽이려고 해도 죽일 수 없는 존재를 의미한다.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "bulgasari-creature-c07",
+          "source_id": "bulgasari-creature-s3",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "Because it cannot be killed by any means yet can be killed by fire, it is also called 화가살 (火可殺); this rests on Five Phases thought, according to which fire opposes metal and overcomes it.",
+          "statement_id": "Karena tidak dapat dibunuh dengan cara apa pun tetapi dapat dibunuh dengan api, makhluk ini juga disebut 화가살 (火可殺); hal ini didasarkan pada pemikiran Lima Unsur, yang menyatakan api berlawanan dengan logam dan mengalahkannya.",
+          "quote": "어떻게 해도 죽일 수 없지만 불로는 죽일 수 있다고 해서 ‘화가살(火可殺)’이라고도 한다. 이는 오행(五行) 사상에 근거한 것으로, 오행에 따르면 불은 쇠와 상극이며 쇠를 이긴다.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "bulgasari-creature-c08",
+          "source_id": "bulgasari-creature-s3",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "The Korean bulgasari and the Chinese 맥 (貘) share the feature of eating metal but are understood to have developed separately.",
+          "statement_id": "Bulgasari di Korea dan 맥 (貘) di Tiongkok sama-sama memakan logam, tetapi dipahami berkembang secara terpisah.",
+          "quote": "우리나라에 전해지는 ‘불가살이’와 중국의 ‘맥’은 쇠를 먹는다는 공통점이 있지만, 별개로 발전한 것으로 파악된다.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "bulgasari-creature-c09",
+          "source_id": "bulgasari-creature-s3",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "Because it could not be killed by any means it was called 불가살; salt, incantations, switches and fire were used to remove it, and in the end it is burned away.",
+          "statement_id": "Karena tidak dapat dibunuh dengan cara apa pun, makhluk ini disebut 불가살; untuk melenyapkannya dikerahkan garam, mantra, cambuk, dan api, dan akhirnya ia dibakar hingga lenyap.",
+          "quote": "어떠한 방법으로도 죽일 수 없어서 ‘불가살’이라고 불렸다. ... 소금과 주문, 회초리와 불 등이 동원되는데, 결국 ‘불가살이’는 불에 태워져 없어진다는 내용이다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bulgasari-creature-c10",
+          "source_id": "bulgasari-creature-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "In this tale a monk hiding in a wall cupboard makes a strange beast out of grains of rice; the beast eats any metal it finds and its body grows ever larger.",
+          "statement_id": "Dalam kisah ini, seorang biksu yang bersembunyi di lemari dinding membuat binatang aneh dari butir nasi; binatang itu memakan logam apa saja sehingga tubuhnya terus membesar.",
+          "quote": "중은 벽장에 숨어 밥을 먹으며 밥풀로 괴상한 짐승을 만들었다. ... 쇠붙이를 닥치는 대로 먹어치워서 몸집이 점점 거대해졌고",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bulgasari-creature-c11",
+          "source_id": "bulgasari-creature-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "When the bows and swords the state used to kill the creature proved useless, they tried to burn it away; but it did not die and roamed about with its body turned into a ball of fire, so that places everywhere became seas of flame.",
+          "statement_id": "Ketika busur dan pedang yang dipakai negara untuk membunuh makhluk itu tidak berguna, mereka mencoba membakarnya; tetapi ia tidak mati dan berkeliling dengan tubuh yang menjadi bola api sehingga banyak tempat menjadi lautan api.",
+          "quote": "나라에서 괴물을 죽이려고 활과 칼을 써봐도 소용이 없자 불을 질러 없애려고 했다. 그러나 괴물은 죽지 않고 불덩이가 된 몸으로 돌아다녀 곳곳이 불바다가 되었다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bulgasari-creature-c12",
+          "source_id": "bulgasari-creature-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "According to the 『대동운부군옥』, the bulgasari is an imaginary beast shaped like a bear that wards off nightmares and evil energy; in folk custom it is regarded as preventing disaster and fire and is drawn on folding screens or chimneys.",
+          "statement_id": "Menurut 『대동운부군옥』, bulgasari adalah binatang khayalan yang berwujud seperti beruang dan menangkal mimpi buruk serta energi jahat; dalam adat rakyat ia dianggap pencegah bencana dan kebakaran sehingga digambar pada paravan atau cerobong.",
+          "quote": "『대동운부군옥(大東韻府群玉)』에 따르면 불가사리는 상상의 짐승으로 곰같이 생겼으며 악몽과 요사한 기운을 물리친다고 했다고 했다. 불가사리는 설화에서는 환상 속 괴물로 형상화 되지만, 민속에서는 재앙과 화재를 예방해 주는 존재로 여겨 병풍이나 굴뚝에 그려넣기도 한다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bulgasari-creature-c13",
+          "source_id": "bulgasari-creature-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "Versions of the tale differ on how it vanishes: a monk sticks a talisman on it, a monk swings a staff so that it spews out all the metal it ate and disappears, its tail is set on fire and burned black, and so on.",
+          "statement_id": "Versi-versi kisah berbeda tentang cara ia lenyap: biksu menempelkan jimat, biksu mengayunkan tongkat sehingga ia memuntahkan semua logam yang dimakannya dan menghilang, ekornya dibakar hingga hangus, dan seterusnya.",
+          "quote": "소멸되는 방법은 중이 부적을 불가사리에 붙이는 경우, 중이 지팡이를 휘두르자 그 동안 먹었던 쇠붙이를 모두 쏟아내고 사라지는 경우 ... 불가사리 꼬리에 불을 붙여 까맣게 태우는 경우, 무당의 참언(讖言)으로 고려가 멸망하면서 극성을 부르던 불가사리도 자동 소멸되는 경우 등이 있다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bulgasari-creature-c14",
+          "source_id": "bulgasari-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to legend, it can defeat nightmares and evil spirits, protect against incubi, and prevent plagues and natural disasters; as a result it was sculpted as a sentry on walls, chimneys, railings and pillars.",
+          "statement_id": "Menurut legenda, ia dapat mengalahkan mimpi buruk dan roh jahat, melindungi dari inkubus, serta mencegah wabah dan bencana alam, sehingga dipahat sebagai penjaga pada dinding, cerobong, pagar, dan tiang.",
+          "quote": "According to legend, it can defeat nightmares and evil spirits, protect against incubi, and prevent plagues and natural disasters. As a result, it was sculpted as a sentry on walls, chimneys, railings, and pillars.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "bulgasari-creature-c15",
+          "source_id": "bulgasari-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The legend of the Bulgasari originated in the late 14th century.",
+          "statement_id": "Legenda Bulgasari berasal dari akhir abad ke-14.",
+          "quote": "The legend of the Bulgasari originated in the late 14th century.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bulgasari-creature-c16",
+          "source_id": "bulgasari-creature-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Myths differ on the fate of the Bulgasari: some say it still lives to this day, while others say it was defeated by monks.",
+          "statement_id": "Mitos berbeda tentang nasib Bulgasari: sebagian menyebut ia masih hidup hingga kini, sebagian lain menyebut ia dikalahkan para biksu.",
+          "quote": "Myths differ on the fate of the Bulgasari; some say that it still lives to this day, while others say that it was defeated by monks.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "chi-mythology",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-3.md",
+      "entry_sha256": "51ca29fa7e2f7a9b1cc625ca1a8b9494bf9bc8cba72dddef667c1e867e386341",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "chi-mythology-c01",
@@ -625,33 +1223,88 @@
           "quote": "The Shuowen Jiezi (121 CE), which was the first Chinese dictionary of characters, gives 离, 螭; chī, and 魑 definitions.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "chi-mythology-c06",
+          "source_id": "chi-mythology-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this classical dictionary text, 螭 is described as like a dragon and yellow, called dìlóu (地螻) in the north; some also say a hornless dragon is called chi. The next entry defines 虯 as a horned dragon offspring.",
+          "statement_id": "Dalam teks kamus klasik ini, 螭 digambarkan seperti naga dan berwarna kuning, disebut dìlóu (地螻) di utara; ada pula yang mengatakan naga tanpa tanduk disebut chi. Entri berikutnya mengartikan 虯 sebagai anak naga yang bertanduk.",
+          "quote": "螭：若龍而黃，北方謂之地螻。从虫离聲。或云無角曰螭。 虯：龍子有角者。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "chi-mythology-c07",
+          "source_id": "chi-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wei Zhao's commentary on the Hanshu describes the chi demon as \"resembling a tiger with scales\".",
+          "statement_id": "Komentar Wei Zhao atas Hanshu menggambarkan iblis chi sebagai \"menyerupai harimau bersisik\".",
+          "quote": "a possible explanation might be found in the Hanshu (揚雄傳 ) commentary of Wei Zhao, which describes the chī ( 螭) demon as \"resembling a tiger with scales\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "chi-mythology-c08",
+          "source_id": "chi-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Many later dictionaries define a contrast between qiu (horned dragon) and chi (hornless dragon).",
+          "statement_id": "Banyak kamus kemudian membedakan qiu (naga bertanduk) dari chi (naga tanpa tanduk).",
+          "quote": "Many later dictionaries—for instance, the Guangya (c. 230 CE), Longkan Shoujian (997 CE), and Piya (c. 1080 CE)—define a contrast between qiu ( 虯; \"horned dragon\") and chi ( 螭; \"hornless dragon\").",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "chi-mythology-c09",
+          "source_id": "chi-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Du Yu's commentary glosses chimei as \"born in the strange qi of mountains and forests, harmful to humans\".",
+          "statement_id": "Komentar Du Yu menjelaskan chimei sebagai makhluk yang \"lahir dari qi aneh gunung dan hutan, berbahaya bagi manusia\".",
+          "quote": "Du Yu's commentary glosses chīmèi as \"born in the strange qi of mountains and forests, harmful to humans\".",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "chi-mythology-c10",
+          "source_id": "chi-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The chimei-wangliang context records how Yu the Great, legendary founder of the Xia dynasty, cast nine instructional bronze ding to acquaint people with all the dangerous creatures in China's Nine Provinces.",
+          "statement_id": "Konteks chimei-wangliang mencatat bagaimana Yu Agung, pendiri legendaris Dinasti Xia, menuang sembilan ding perunggu untuk memperkenalkan kepada orang semua makhluk berbahaya di Sembilan Provinsi Tiongkok.",
+          "quote": "The chīmèi-wǎngliǎng ( 螭魅罔兩) context records how Yu the Great, legendary founder of the Xia dynasty, cast nine instructional bronze ding \"tripod cauldrons\" to acquaint people with all the dangerous creatures in China's Nine Provinces.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "chi-mythology-c11",
+          "source_id": "chi-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wang Chong's Lunheng considers the chimei a dragon hybrid, on the grounds that they are said to be dragon-like beings.",
+          "statement_id": "Lunheng karya Wang Chong menganggap chimei sebagai makhluk campuran naga, dengan alasan mereka dikatakan menyerupai naga.",
+          "quote": "Wang Chong's Lùnhéng ( 論衡) (late 1st century CE) considers the chīmèi as a dragon hybrid, \"Those who give their opinion on the ch'i, state that they are dragon-like beings;",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "chiwen",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-3.md",
+      "entry_sha256": "b4ae230dd65963977736f1aa53ba631c5561637c680f7e540688cc464beeeec1",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "chiwen-c01",
           "source_id": "chiwen-s1",
           "host": "en.wikipedia.org",
-          "statement": "Chiwen is a Chinese dragon with fish features and the name of a roof ornament motif.",
-          "statement_id": "Chiwen adalah naga Tiongkok dengan ciri ikan dan nama motif hiasan atap.",
+          "statement": "Chiwen is a roof ornamental motif in traditional Chinese architecture and art.",
+          "statement_id": "Chiwen adalah motif hiasan atap dalam arsitektur dan seni tradisional Tiongkok.",
           "quote": "Chiwen (Chinese: 蚩吻; pinyin: chīwěn; Wade–Giles: ch'ih-wen; lit. 'hornless-dragon mouth') is a roof ornamental motif in traditional Chinese architecture and art.",
           "context": "traditional-belief",
           "status": "exact"
@@ -660,9 +1313,9 @@
           "id": "chiwen-c02",
           "source_id": "chiwen-s1",
           "host": "en.wikipedia.org",
-          "statement": "Chiwen is counted among the nine dragon offspring.",
-          "statement_id": "Chiwen termasuk dalam kelompok sembilan anak naga.",
-          "quote": "Chiwen (Chinese: 蚩吻; pinyin: chīwěn; Wade–Giles: ch'ih-wen; lit. 'hornless-dragon mouth') is a roof ornamental motif in traditional Chinese architecture and art.",
+          "statement": "Chiwen is also the name of a Chinese dragon that mixes features of a fish, and in Chinese mythology is one of the nine sons of the dragon, which are also used as imperial roof decorations.",
+          "statement_id": "Chiwen juga nama seekor naga Tiongkok yang memadukan ciri-ciri ikan, dan dalam mitologi Tiongkok merupakan salah satu dari sembilan anak naga yang juga dipakai sebagai hiasan atap kekaisaran.",
+          "quote": "Chiwen is also the name of a Chinese dragon that mixes features of a fish, and in Chinese mythology is one of the nine sons of the dragon, which are also used as imperial roof decorations.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -695,26 +1348,111 @@
           "quote": "The origin of the roof decoration of chiwen can be traced to the roof decoration alternatively named as chiwei (鸱尾), the earliest visual examples found in the Han dynasty on many ceramic architectural models, que-towers, and tomb murals and stone-reliefs.",
           "context": "historical-record",
           "status": "loose"
+        },
+        {
+          "id": "chiwen-c06",
+          "source_id": "chiwen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Ming Dynasty Wuzazu, the ch'i-wen, which like swallowing, are placed on both ends of the ridgepoles of roofs (to swallow all evil influences).",
+          "statement_id": "Menurut Wuzazu dari zaman Ming, chiwen yang suka menelan diletakkan di kedua ujung bubungan atap (untuk menelan semua pengaruh jahat).",
+          "quote": "According to the Ming Dynasty Wuzazu ( 五雜俎) \"The ch'i-wen, which like swallowing, are placed on both ends of the ridgepoles of roofs (to swallow all evil influences).\"",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "chiwen-c07",
+          "source_id": "chiwen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The chiwen is the fish-like, hornless dragon with a very truncated body and large wide mouth usually found along roof ridges; its presence on roofs is also said to guard against fires.",
+          "statement_id": "Chiwen adalah naga tanpa tanduk mirip ikan dengan tubuh sangat pendek dan mulut lebar yang biasanya ada di sepanjang bubungan atap; kehadirannya di atap juga dikatakan menjaga dari kebakaran.",
+          "quote": "This is the fish-like, hornless dragon with a very truncated body and large, wide mouth usually found along roof ridges (as if swallowing the roof beams). His presence on roofs is also said to guard against fires.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chiwen-c08",
+          "source_id": "chiwen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A paragraph in the Tang dynasty book Su Shi Yan Yi by Su E says a mythical sea creature called the chi wen was put on the roofs of buildings during the Han dynasty to protect the structures from fire hazards.",
+          "statement_id": "Sebuah paragraf dalam buku Su Shi Yan Yi karya Su E dari zaman Tang menyebut makhluk laut mitos yang dipasang pada atap bangunan pada zaman Han untuk melindungi bangunan dari bahaya kebakaran.",
+          "quote": "A paragraph in the Tang dynasty book Su Shi Yan Yi ( 蘇氏演義) by Su E ( 蘇鶚) says that a mythical sea creature called the chi wen [sic] was put on the roofs of buildings during the Han dynasty to protect the structures from fire hazards.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "chiwen-c09",
+          "source_id": "chiwen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Fengshui theory, a chiwen or chiwei supposedly protects not only against fires but also against floods and typhoons.",
+          "statement_id": "Dalam teori fengshui, chiwen atau chiwei dipercaya melindungi bukan hanya dari kebakaran, tetapi juga dari banjir dan topan.",
+          "quote": "In Fengshui theory, a chiwen or chiwei supposedly protects against not only fires, but also floods and typhoons.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chiwen-c10",
+          "source_id": "chiwen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The chiwen is listed second or third among the Long sheng jiuzi (\"dragon gives birth to nine young\"), traditional mythological creatures that have become feng shui architectural decorations; each of the nine dragons has a protective function.",
+          "statement_id": "Chiwen terdaftar di urutan kedua atau ketiga di antara Long sheng jiuzi (\"naga melahirkan sembilan anak\"), makhluk mitos tradisional yang menjadi hiasan arsitektur fengshui Tiongkok; masing-masing dari sembilan naga itu berfungsi melindungi.",
+          "quote": "The chiwen is listed second or third among the Lóng shēng jiǔzǐ ( 龍生九子; 'dragon gives birth to nine young'), \"Nine Dragons\" ( 九龍; jiǔlóng), which are traditional mythological creatures that have become traditional Chinese feng shui architectural decorations. Each one of the nine dragons has a protective function.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "chiwen-c11",
+          "source_id": "chiwen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Over the course of the mid-Tang dynasty the fish-like chiwen became another prevailing ornamental motif alongside the chiwei; in the Song dynasty chiwen fully replaced the chiwei and adopted a more dragon-like appearance while retaining some bird-like features such as wings or a bird's head.",
+          "statement_id": "Pada pertengahan Dinasti Tang, chiwen yang mirip ikan menjadi motif hias yang menonjol di samping chiwei; pada Dinasti Song chiwen sepenuhnya menggantikan chiwei dan berpenampilan lebih mirip naga sambil mempertahankan sebagian ciri burung seperti sayap atau kepala burung.",
+          "quote": "Over the course of the mid-Tang dynasty, the fish-like chiwen became another prevailing ornamental motif alongside the chiwei. In the Song dynasty, chiwen fully replaced the chiwei and adopted a more dragon-like appearance while also retaining some of their predecessor's bird-like features such as wings or bird's head.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "chiwen-c12",
+          "source_id": "chiwen-s2",
+          "host": "art.nelson-atkins.org",
+          "statement": "The museum's gallery label states that dragons controlled storms and water and were thought to protect buildings from lightning and other natural calamities.",
+          "statement_id": "Label galeri museum menyatakan bahwa naga mengendalikan badai dan air serta dianggap melindungi bangunan dari petir dan bencana alam lainnya.",
+          "quote": "Dragons controlled storms and water and were thought to protect buildings from lightning and other natural calamities.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "chiwen-c13",
+          "source_id": "chiwen-s2",
+          "host": "art.nelson-atkins.org",
+          "statement": "According to the museum label, this tile originally decorated one end of the roof ridge of a temple, and the large dragon, facing inwards, appears to be swallowing the roof ridge.",
+          "statement_id": "Menurut label museum, ubin ini semula menghiasi salah satu ujung bubungan atap sebuah kuil, dan naga besar yang menghadap ke dalam tampak seperti menelan bubungan atap.",
+          "quote": "This tile originally decorated one end of the roof ridge of a temple. Facing inwards, the large dragon appears to be swallowing the roof ridge.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "chiwen-c14",
+          "source_id": "chiwen-s2",
+          "host": "art.nelson-atkins.org",
+          "statement": "The museum's description of the tile states that the larger dragon bites the roof ridge with wide-open jaws and its winding tail turns upward.",
+          "statement_id": "Uraian museum tentang ubin itu menyatakan bahwa naga yang lebih besar menggigit bubungan atap dengan rahang terbuka lebar dan ekornya yang berliku mengarah ke atas.",
+          "quote": "The larger dragon is biting the roof ridge with wide-open jaws and its winding tail turns upward.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "dragon-turtle",
-      "file": "batch-067-fix-1.md",
+      "file": "batch-067-fix-4.md",
+      "entry_sha256": "53f6efa735aa1a98f256e005202b9cdb96168edadab56f0e61393012f1ac41fb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "dragon-turtle-c01",
@@ -745,26 +1483,61 @@
           "quote": "When Fuxi wanted to create more divine patterns, He discovered a \"square diagram\" on the back of a dragon turtle.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "dragon-turtle-c04",
+          "source_id": "dragon-turtle-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Decorative carvings or statuettes of the creature are traditionally placed facing the window.",
+          "statement_id": "Ukiran atau patung kecil makhluk ini secara tradisional diletakkan menghadap jendela.",
+          "quote": "Decorative carvings or statuettes of the creature are traditionally placed facing the window.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-turtle-c05",
+          "source_id": "dragon-turtle-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Dragon turtles have been present in the tabletop roleplaying game Dungeons & Dragons from its inception to its current 5th edition.",
+          "statement_id": "Kura-kura naga hadir dalam gim peran meja Dungeons & Dragons sejak awal hingga edisi kelima saat ini.",
+          "quote": "Dragon turtles have been present in the tabletop roleplaying game Dungeons & Dragons from its inception to its current 5th edition.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-turtle-c06",
+          "source_id": "dragon-turtle-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A dragon turtle appears in the 1983 Dungeons & Dragons cartoon episode \"The Garden of Zinn\", its poisonous bite setting up the events of the episode.",
+          "statement_id": "Seekor kura-kura naga muncul dalam episode kartun Dungeons & Dragons tahun 1983, \"The Garden of Zinn\", dan gigitannya yang beracun memicu peristiwa dalam episode itu.",
+          "quote": "A dragon turtle appears in the 1983 Dungeons & Dragons cartoon episode, \"The Garden of Zinn\", its poisonous bite setting up the events of the episode.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-turtle-c07",
+          "source_id": "dragon-turtle-s2",
+          "host": "www.syfy.com",
+          "statement": "According to this news article, dragon turtles are getting different age and challenge-rating varieties in the new Dungeons & Dragons book, with the \"standard\" dragon turtle equivalent to an \"ancient dragon\".",
+          "statement_id": "Menurut berita ini, kura-kura naga mendapat varian usia dan tingkat tantangan yang berbeda dalam buku Dungeons & Dragons baru, dengan kura-kura naga \"standar\" setara \"naga purba\".",
+          "quote": "Dragon turtles are getting different age and challenge rating varieties (the “standard” dragon turtle is the equivalent of an “ancient dragon”) and the book’s introducing an even more fearsome variety of dragon.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "feilian",
-      "file": "batch-067-fix-1.md",
+      "file": "batch-067-fix-4.md",
+      "entry_sha256": "e57462fd38598702b3979b6ac592bfd703057c7e88254e30cfc51e361ae67d80",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "feilian-c01",
@@ -825,26 +1598,81 @@
           "quote": "Emperor Wu of Han ... believed this sufficiently to order the construction of several buildings dedicated to Feilian worship in pursuit of this gift of eternal life.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "feilian-c07",
+          "source_id": "feilian-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this poem text the poet has Wangshu go ahead as outrider and Feilian follow behind running in attendance; the luan-huang birds give warning in front, and the Thunder Master says things are not yet ready.",
+          "statement_id": "Dalam teks puisi ini, penyair menyuruh Wangshu pergi lebih dahulu sebagai pelopor dan Feilian mengikuti di belakang berlari mengiringi; burung luanhuang memberi peringatan di depan, dan Dewa Guntur berkata semuanya belum siap.",
+          "quote": "前望舒使先驅兮，後飛廉使奔屬。 鸞皇為余先戒兮，雷師告余以未具。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "feilian-c08",
+          "source_id": "feilian-s3",
+          "host": "zh.wikisource.org",
+          "statement": "According to this historical text, the Shiji, Gongsun Qing advised that immortals like to dwell in multi-storied buildings; the emperor then ordered the 蜚廉桂觀 (Feilian-Guiguan) built at Chang'an and the Yiyanshou Guan at Ganquan.",
+          "statement_id": "Menurut teks sejarah Shiji ini, Gongsun Qing menasihati bahwa dewa abadi suka tinggal di bangunan bertingkat; maka sang kaisar memerintahkan dibangunnya \"Feilian Guiguan\" (蜚廉桂觀) di Chang'an dan \"Yiyanshou Guan\" di Ganquan.",
+          "quote": "公孫卿曰：「僊人可見，而上往常遽，以故不見。今陛下可為觀，如緱氏城，置脯棗，神人宜可致。且僊人好樓居。」於是上令長安則作蜚廉桂觀，甘泉則作益延壽觀",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "feilian-c09",
+          "source_id": "feilian-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Huainanzi, Feilian is mentioned as a creature one can ride astride into the world of spirits where nothing perishes.",
+          "statement_id": "Dalam Huainanzi, Feilian disebut sebagai makhluk yang dapat ditunggangi ke dunia roh tempat tidak ada yang binasa.",
+          "quote": "In the Huainanzi, Feilian is mentioned as a creature one can ride astride into the world of spirits where nothing perishes.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "feilian-c10",
+          "source_id": "feilian-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Eastern Han commentator Ying Shao defined Feilian as a sacred beast able to control the winds; the Jin commentator Jin Zhuo described it with a deer's body and a bird's head, horns, a snake's tail, and markings like a leopard's spots.",
+          "statement_id": "Komentator Han Timur Ying Shao mendefinisikan Feilian sebagai binatang suci yang mampu mengendalikan angin; komentator Jin Zhuo menyebutnya bertubuh rusa dengan kepala burung, bertanduk, berekor ular, dan bercorak seperti bintik macan tutul.",
+          "quote": "Eastern Han commentator Ying Shao defined Feilian as a sacred beast, able to control the winds. Jin dynasty commentator Jin Zhuo provided a more detailed description, saying Feilian had a deer's body with a bird's head, horns, and a snake's tail, with markings like a leopard's spots.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "feilian-c11",
+          "source_id": "feilian-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Modern English-language sources state Feilian is a winged dragon with the head of a deer and the tail of a snake; Hawkes states it is commonly depicted as a winged deer.",
+          "statement_id": "Sumber-sumber bahasa Inggris modern menyebut Feilian sebagai naga bersayap berkepala rusa dan berekor ular; Hawkes menyatakan ia umumnya digambarkan sebagai rusa bersayap.",
+          "quote": "Modern English language sources state Feilian is a winged dragon with the head of a deer and the tail of a snake. Hawkes states Feilian is commonly depicted as a winged deer,",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "feilian-c12",
+          "source_id": "feilian-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In histories of the Zhou conquest of Shang, the Duke of Zhou pursued the Shang king Di Xin's minister Feilian to the seacoast and killed him there.",
+          "statement_id": "Dalam kisah penaklukan Zhou atas Shang, Adipati Zhou mengejar menteri Raja Di Xin dari Shang bernama Feilian ke pantai dan membunuhnya di sana.",
+          "quote": "the Duke of Zhou pursued Shang king Di Xin's minister Feilian to the seacoast and killed him there.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "qiongqi",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-4.md",
+      "entry_sha256": "206e8055e3ef6c7f8e555bf687fbf18de5f7ac1f7559cd22837ceb3379bf76e0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "qiongqi-c01",
@@ -885,26 +1713,81 @@
           "quote": "Qiongqi is given two conflicting descriptions in the Classic of Mountains and Seas.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "qiongqi-c05",
+          "source_id": "qiongqi-s2",
+          "host": "zh.wikisource.org",
+          "statement": "This text says that on Mount Gui there lives a beast shaped like an ox with hedgehog-like bristles, named Qiongqi, whose cry is like a barking dog, and that it \"eats people\".",
+          "statement_id": "Teks ini menyebut di Gunung Gui ada seekor binatang berbentuk seperti sapi berbulu seperti landak, bernama Qiongqi, bersuara seperti anjing menggonggong, dan \"memakan orang\".",
+          "quote": "曰邽〈音圭〉山。其上有獸焉，其狀如牛，猬毛，名曰窮奇，音如獆狗，是食人",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "qiongqi-c06",
+          "source_id": "qiongqi-s3",
+          "host": "zh.wikisource.org",
+          "statement": "This text says Qiongqi is shaped like a winged tiger, eats people starting from the head, the people it eats have disheveled hair, and it lives north of Taoquan; another version says it starts from the feet.",
+          "statement_id": "Teks ini menyebut Qiongqi berbentuk seperti harimau bersayap, memakan orang mulai dari kepala dan mangsanya berambut terurai, tinggal di sebelah utara Taoquan; versi lain menyebut ia mulai dari kaki.",
+          "quote": "窮奇狀如虎，有翼，食人從首始，所食被髮，在蜪犬北。一曰從足。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "qiongqi-c07",
+          "source_id": "qiongqi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Book of Gods and Strange Things embellishes the second description, adding that Qiongqi understands human speech; if it hears people fighting it eats the one in the right, if it hears one who is loyal and trustworthy it eats their nose, and if it hears someone wicked it kills a beast to feed them.",
+          "statement_id": "Book of Gods and Strange Things memperluas gambaran kedua dengan menambahkan bahwa Qiongqi memahami bahasa manusia; bila mendengar orang bertengkar ia memakan pihak yang benar, bila mendengar orang setia dan dapat dipercaya ia memakan hidungnya, dan bila mendengar orang jahat ia membunuh binatang untuk diberikan kepadanya.",
+          "quote": "The second account is embellished in the Book of Gods and Strange Things, which, in addition to the above description, also claims that Qiongqi understands human speech. ... If it hears people fighting, it will eat the one in the right, and if it hears one who is loyal and trustworthy, it will eat their nose. If it hears someone wicked, it will kill a beast to feed them.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "qiongqi-c08",
+          "source_id": "qiongqi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Zuo Zhuan speaks to similar effect but goes further, stating that the Qiongqi elevated lies, spread false accusations, and would stay quiet before slandering people.",
+          "statement_id": "Zuo Zhuan menyatakan hal serupa tetapi lebih jauh: Qiongqi menjunjung dusta, menyebarkan tuduhan palsu, dan diam sebelum memfitnah orang.",
+          "quote": "The Zuo Zhuan speaks to similar effect, but goes further, stating that the Qiongqi elevated lies, spread false accusations, and would stay quiet before slandering people.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "qiongqi-c09",
+          "source_id": "qiongqi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the biographies it is also written that Qiongqi resides in a place called Yunmeng in the State of Chu.",
+          "statement_id": "Dalam biografi-biografi itu juga ditulis bahwa Qiongqi tinggal di tempat bernama Yunmeng di Negara Chu.",
+          "quote": "In the biographies, he also writes that it resides in a place called Yunmeng (雲夢 ) in the State of Chu.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "qiongqi-c10",
+          "source_id": "qiongqi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Qiongqi is featured in the Shin Megami Tensei franchise, particularly the Devil Children games, as a recruitable demon, using the description from the Classic of the Northern Seas' Inner Realm in the Classic of Mountains and Seas.",
+          "statement_id": "Qiongqi tampil dalam waralaba Shin Megami Tensei, terutama gim Devil Children, sebagai iblis yang dapat direkrut, dengan memakai penggambaran dari Hainei beijing dalam Classic of Mountains and Seas.",
+          "quote": "Qiongqi is featured in the Shin Megami Tensei franchise, particularly the Devil Children games, as a recruitable demon, using the description from the Classic of the Northern Seas' Inner Realm (海內北經 ) of the Classic of Mountains and Seas.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "shenlong",
-      "file": "batch-067-fix-2.md",
+      "file": "batch-067-fix-4.md",
+      "entry_sha256": "1d5ae17d2ded762576cbaf7966a557099ba098f5acb74c52d5e73d51957f33cf",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 7,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "shenlong-c01",
@@ -925,26 +1808,71 @@
           "quote": "is the spirit dragon from Chinese mythology who is the dragon god of the tempest and also a master of rain.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "shenlong-c03",
+          "source_id": "shenlong-s2",
+          "host": "zh.wikisource.org",
+          "statement": "This classical text, the Guanzi, states that the dragon (龍) is born in water and roams wearing five colors, hence it is \"shen\" (divine); it can shrink to a silkworm, grow so large it hides beneath heaven, rise above the clouds or descend into deep springs, and its changes are not bound to day or time.",
+          "statement_id": "Teks klasik Guanzi ini menyatakan naga (龍) lahir di air dan mengembara dengan lima warna sehingga disebut \"shen\" (ilahi); ia dapat mengecil menjadi seperti ulat sutra, membesar hingga bersembunyi di bawah langit, naik melampaui awan, atau turun ke mata air dalam, dan perubahannya tak terikat hari maupun waktu.",
+          "quote": "龍生於水，被五色而游，故神。欲小則化如蠶蠋，欲大則藏於天下，欲上則凌於雲氣，欲下則入於深泉。變化無日，上下無時，謂之神。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shenlong-c04",
+          "source_id": "shenlong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The spiritual dragon is azure-scaled and governs the storms, clouds and rain on which all agricultural life depends.",
+          "statement_id": "Naga roh ini bersisik biru langit dan menguasai badai, awan, dan hujan yang menjadi sandaran seluruh kehidupan pertanian.",
+          "quote": "The spiritual dragon is azure-scaled and governs the storms, clouds, and rain on which all agricultural life depends.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shenlong-c05",
+          "source_id": "shenlong-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the classical dictionary text Shuowen Jiezi, the dragon (龍) is the chief of scaly creatures; it can be hidden or bright, small or huge, short or long, rising to heaven at the spring equinox and diving into the deep at the autumn equinox.",
+          "statement_id": "Dalam teks kamus klasik Shuowen Jiezi, naga (龍) adalah yang tertua di antara makhluk bersisik; ia dapat tersembunyi atau terang, kecil atau besar, pendek atau panjang, naik ke langit pada ekuinoks musim semi dan menyelam ke samudra pada ekuinoks musim gugur.",
+          "quote": "龍（ ）：鱗蟲之長。能幽，能明，能細，能巨，能短，能長；春分而登天，秋分而潛淵。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shenlong-c06",
+          "source_id": "shenlong-s4",
+          "host": "zh.wikisource.org",
+          "statement": "Li Shizhen's Bencao Gangmu says the dragon has a \"Boshan\", also called \"chimu\", on its head, without which it cannot ascend to heaven, and that its breath forms clouds and it can change into water or fire.",
+          "statement_id": "Bencao Gangmu karya Li Shizhen menyebut naga memiliki \"Boshan\" atau \"chimu\" di kepalanya, yang tanpanya naga tidak dapat naik ke langit, dan bahwa napasnya membentuk awan serta dapat mengubah diri menjadi air atau api.",
+          "quote": "頭上有博山，又名尺木，龍無尺木不能升天。呵氣成雲，既能變水，又能變火。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shenlong-c07",
+          "source_id": "shenlong-s4",
+          "host": "zh.wikisource.org",
+          "statement": "According to the Bencao Gangmu, the dragon's nature is rough and fierce; it loves fine jade and kongqing and is fond of swallow meat, and fears iron, wangcao grass, centipedes, chinaberry leaves and five-colored silk.",
+          "statement_id": "Menurut Bencao Gangmu, naga bersifat kasar dan garang, menyukai batu giok indah dan kongqing serta daging burung layang-layang, dan takut pada besi, rumput wangcao, kelabang, daun chinaberry, dan benang lima warna.",
+          "quote": "龍性粗猛，而愛美玉、空青，喜嗜燕肉，畏鐵及菵草、蜈蚣、楝葉、五色絲。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "shojo",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-5.md",
+      "entry_sha256": "e00ab698d462d0d7a9ffc5bf48ce5e2a0215f5158ed83ee27d9a9caa5bff31f8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "shojo-c01",
@@ -995,26 +1923,81 @@
           "quote": "The shōjō has been represented as a sea spirit with a red face and hair and a fondness for alcohol as part of Japanese folktale tradition.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "shojo-c06",
+          "source_id": "shojo-s2",
+          "host": "zh.wikisource.org",
+          "statement": "This classical text, the Shanhaijing, mentions a beast shaped like a yu (a monkey-like animal) with white ears that goes bent over but runs like a person, named 狌狌 (shengsheng), and eating it makes one good at running.",
+          "statement_id": "Teks klasik Shanhaijing ini menyebut seekor binatang berbentuk seperti yu (sejenis monyet) berkuping putih, berjalan merunduk tetapi berlari seperti manusia, bernama 狌狌 (shengsheng), dan yang memakannya menjadi pandai berlari.",
+          "quote": "有獸焉，其狀如禺〈禺似獼猴而大赤目，長者不了此物名禺。作牛字圖，亦做牛形或作猴，皆失之也。禺字音遇，〉而白耳，伏行人走，其名曰狌狌〈狌狌，禺獸。狀如猿，伏行交足亦此類也。見《京房易》〉，食之善走。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shojo-c07",
+          "source_id": "shojo-s3",
+          "host": "zh.wikisource.org",
+          "statement": "This classical text, the Shanhaijing, puts the forest 氾林, three hundred li square, east of the 狌狌; the 狌狌 know the names of people, are beasts like pigs but with human faces, and are located west of Shun's burial place.",
+          "statement_id": "Teks klasik Shanhaijing ini menyebut hutan 氾林 seluas tiga ratus li di sebelah timur 狌狌; 狌狌 mengetahui nama manusia, berwujud binatang seperti babi tetapi berwajah manusia, di sebelah barat makam Shun.",
+          "quote": "氾林方三百里，在狌狌東。 狌狌知人名，其為獸如豕而人面，在舜葬西。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shojo-c08",
+          "source_id": "shojo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The article's passage on the Bencao Gangmu says these creatures are lured by leaving straw sandals and liquor by the roadside; they examine the goods and go away at first, but return to try on the sandals and drink the wine, at which point they can be captured.",
+          "statement_id": "Bagian artikel tentang Bencao Gangmu menyebut bahwa makhluk ini dipikat dengan meninggalkan sandal jerami dan arak di tepi jalan; mereka mula-mula memeriksa lalu pergi, tetapi kembali mencoba sandal dan meminum arak, saat itulah mereka dapat ditangkap.",
+          "quote": "The Bencao Gangmu describes it as resembling a dog or rhesus macaque ... It cites Ruan Qian ... They would leave straw sandals and liquor by the roadside to lure them; the creatures examine these goods but go away at first, but they return to try on the sandals and drink the wine, at which point they can be captured.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shojo-c09",
+          "source_id": "shojo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Noh play Shōjō, the shōjō disguised as a human buys sake in large quantity yet his face never flushes; he then appears in his true form, drinks, dances ecstatically and rewards the seller by making his sake vat perpetually refill itself.",
+          "statement_id": "Dalam lakon Noh Shōjō, tokoh shōjō yang menyamar sebagai manusia membeli sake dalam jumlah besar tetapi wajahnya tidak memerah; ia kemudian tampil dalam wujud aslinya, minum, menari riang, dan sebagai imbalan membuat tong sake sang penjual terisi kembali terus-menerus.",
+          "quote": "The Kyōgen-influenced Noh play shōjō is set in Ancient China ... The protagonist (shite) shōjō disguised as a human buys from him in large quantity, but his face never becomes flushed despite the heavy drinking. ... The shōjō appears in its true form, drinks the sake, getting drunk and dancing ecstatically, then rewarding the sake seller by making his sake vat perpetually refill itself.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shojo-c10",
+          "source_id": "shojo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Shōjō doll was a hariko (papier-mâché) like the daruma, considered a lucky item (engimono) placed on the hearth, and was supposed to contract the pox in place of the family.",
+          "statement_id": "Boneka Shōjō berupa hariko (kertas mâché) seperti daruma dan dianggap benda pembawa keberuntungan (engimono) yang diletakkan di tungku, dan dianggap menanggung cacar sebagai pengganti keluarga.",
+          "quote": "The Shōjō doll was a hariko (papier-mâché) like the daruma ... It was considered a lucky item (engimono), placed on the hearth (kamado), and was supposed to contract the pox in place of the family.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "shojo-c11",
+          "source_id": "shojo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The shōjō has sometimes been misconceived as purely native Japanese folklore and superstition, particularly by commentators of the netsuke craft art, since it is a popular subject for these carvings.",
+          "statement_id": "Shōjō kadang disalahpahami sebagai cerita rakyat asli Jepang murni, terutama oleh pengulas seni netsuke, karena shōjō adalah subjek populer pada ukiran itu.",
+          "quote": "It has sometimes been misconceived as purely native Japanese folklore and superstition, particularly by commentators of the netsuke craft art, since the shōjō is a popular subject for these carvings.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "tiangou",
-      "file": "batch-067-fix-1.md",
+      "file": "batch-067-fix-4.md",
+      "entry_sha256": "90dbaaaef0710a0152c8ddf871d00e027aec86ce708e9fda5fd8f241f6c55fe8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tiangou-c01",
@@ -1075,26 +2058,71 @@
           "quote": "Zhang Xian (Chinese: 張仙; pinyin: Zhāng Xiān) is the enemy of the tiangou. It is said that he protects his children from the dog god with his bow and arrows. He is often depicted aiming at the sky, waiting for the beast to appear.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "tiangou-c07",
+          "source_id": "tiangou-s2",
+          "host": "zh.wikisource.org",
+          "statement": "This classical text, the Shanhaijing, says that on Mount Yin there is a beast shaped like a 狸 (a wildcat-like small animal) with a white head, named Tiangou (\"heavenly dog\"), whose cry sounds like \"liuliu\", and which can be used to ward off calamity.",
+          "statement_id": "Teks klasik Shanhaijing ini menyebut di Gunung Yin ada binatang berbentuk seperti 狸 (binatang kecil mirip kucing liar) berkepala putih, bernama Tiangou (\"anjing langit\"), bersuara seperti \"liuliu\", dan dapat dipakai untuk menangkal bencana.",
+          "quote": "曰陰山。濁浴之水出焉，而南流注于蕃澤，其中多文貝〈餘泉蚳之𩔖也，見爾雅。〉。有獸焉，其狀如狸〈或作豹。〉而白首，名曰天狗，其音如榴榴〈或作猫猫。〉，可以禦凶。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tiangou-c08",
+          "source_id": "tiangou-s3",
+          "host": "zh.wikisource.org",
+          "statement": "This historical text, the Shiji, describes the 天狗 as a heavenly sign shaped like a great shooting star, with sound, whose lower part settles on the ground resembling a dog; where it falls it looks like blazing fire reaching heaven, and it portends armies broken and generals killed for a thousand li.",
+          "statement_id": "Teks sejarah Shiji ini menyebut 天狗 sebagai tanda langit berbentuk seperti bintang jatuh besar, bersuara, yang bagian bawahnya jatuh ke bumi menyerupai anjing; tempat jatuhnya tampak seperti api yang menjulang, dan ia mengisyaratkan pasukan hancur serta jenderal terbunuh sejauh seribu li.",
+          "quote": "天狗，狀如大奔星，〈【集解】孟康曰：「星有尾，旁有短彗，下有如狗形者，亦太白之精。」〉有聲，其下止地，類狗。所墮及，望之如火光炎炎〈【索隱】艷音也。〉衝天。其下圜如數頃田處，上兌者則有黃色，千里破軍殺將。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tiangou-c09",
+          "source_id": "tiangou-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Zhang Xian is the god of birth and the protector of male children; many sought him to give them male offspring and to protect their living sons.",
+          "statement_id": "Zhang Xian adalah dewa kelahiran dan pelindung anak laki-laki; banyak orang memintanya memberi keturunan laki-laki dan melindungi putra-putra mereka yang hidup.",
+          "quote": "Zhang Xian (Chinese: 張仙; pinyin: Zhāng Xiān) is the enemy of the tiangou. ... He is the god of birth and the protector of male children. Many sought for him to give them male offspring and to protect their living sons.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiangou-c10",
+          "source_id": "tiangou-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the legend, a black dog Hou Yi was rearing went into Chang'e's room and licked the remains of the immortality pill, chased after her getting bigger and bigger, and ate the Moon along with Chang'e.",
+          "statement_id": "Dalam legenda, seekor anjing hitam milik Hou Yi menjilat sisa pil keabadian di kamar Chang'e, mengejarnya sambil terus membesar, lalu memakan Bulan bersama Chang'e.",
+          "quote": "Seeing this, a black dog that Hou Yi was rearing went inside her room and licked the remains of the pill. He then chased after Chang'e, getting bigger and bigger. Chang'e, terrified, hid on the Moon. The black dog then ate the Moon, along with Chang'e.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tiangou-c11",
+          "source_id": "tiangou-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the tale, Tiangou spat the Moon and Chang'e back out, and Chang'e continued living on the Moon.",
+          "statement_id": "Menurut kisah itu, Tiangou memuntahkan kembali Bulan dan Chang'e, dan Chang'e terus hidup di Bulan.",
+          "quote": "Tiangou spat the Moon and Chang'e back out, and Chang'e continued living on the Moon.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "xingtian",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-4.md",
+      "entry_sha256": "6ad67e539550a03b37103c2a8e06c6442767710a9d93995e0116d7e1cd42084f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "xingtian-c01",
@@ -1155,26 +2183,71 @@
           "quote": "In Luo Mi's Lushi from the Southern Song period, Xingtian is described as a minister of the Yan Emperor, who composed music for farmers for plowing and harvesting.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "xingtian-c07",
+          "source_id": "xingtian-s2",
+          "host": "zh.wikisource.org",
+          "statement": "This classical text says Xingtian (written 刑天, with a variant 形天) contended with the Di for divinity; the Di cut off his head and buried it on Mount Changyang, and he then used his nipples as eyes and his navel as a mouth, wielding shield and axe in dance.",
+          "statement_id": "Teks klasik ini menyebut Xingtian (tertulis 刑天, dengan varian 形天) berebut keilahian dengan sang Di; Di memenggal kepalanya dan menguburnya di Gunung Changyang, lalu ia menjadikan puting sebagai mata dan pusar sebagai mulut, memegang perisai dan kapak untuk menari.",
+          "quote": "刑一作「形」天與帝 爭神一作「至此爭神」，帝斷其首，葬之常羊之山，乃以乳為目，以臍為口，操干戚以舞。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "xingtian-c08",
+          "source_id": "xingtian-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In this poem the poet writes that Jingwei holds twigs in her bill to fill the deep-blue sea, and Xingtian dances with shield and axe, his fierce will ever present; after blending with things no anxieties remain, and after transforming no regrets.",
+          "statement_id": "Dalam puisi ini, penyair menulis bahwa Jingwei menggigit ranting kecil untuk mengisi laut biru, dan Xingtian menari dengan perisai dan kapak, tekad garangnya selalu ada; setelah berbaur dengan segala hal tak ada lagi kecemasan, dan setelah berubah tak ada lagi penyesalan.",
+          "quote": "精衛銜微木，將以填滄海； 刑天舞干戚，猛志故常在。 同物既無慮，化去不復悔。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "xingtian-c09",
+          "source_id": "xingtian-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The scholar Guo Pu celebrated Xingtian's defiant spirit in an encomium, mentioning the similarity between Xingtian and the corpse of Geng of the Xia since both were characters who regenerated and continued their resistance.",
+          "statement_id": "Sarjana Guo Pu memuji semangat pembangkangan Xingtian dalam sebuah pujian, dan menyebut kemiripan Xingtian dengan jasad Geng dari Xia karena keduanya tokoh yang pulih kembali dan terus melawan.",
+          "quote": "The scholar Guo Pu celebrated Xingtian's defiant spirit in an encomium. ... He mentions the similarity between Xingtian and the corpse of Geng of the Xia, since they were both characters who regenerated and continued their resistance.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "xingtian-c10",
+          "source_id": "xingtian-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Huainanzi, Xingtian is called the corpse of Xingcan (形殘之尸).",
+          "statement_id": "Dalam Huainanzi, Xingtian disebut jasad Xingcan (形殘之尸).",
+          "quote": "In the Huainanzi, Xingtian is called the corpse of Xingcan",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "xingtian-c11",
+          "source_id": "xingtian-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Xingtian symbolizes the indomitable spirit which maintains the will to resist no matter what tribulations one may undergo or what troubles one may encounter.",
+          "statement_id": "Xingtian melambangkan semangat tak terkalahkan yang mempertahankan tekad melawan apa pun cobaan atau masalah yang dihadapi seseorang.",
+          "quote": "Xingtian symbolizes the indomitable spirit which maintains the will to resist no matter what tribulations one may undergo or what troubles one may encounter.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "bashe",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-4.md",
+      "entry_sha256": "8ad1511efba3b66dc157e592c0b686d9a9bb6201234364328c81d9ea80ab53e5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "bashe-c01",
@@ -1215,26 +2288,61 @@
           "quote": "The earliest references to the legendary bashe 巴蛇 are in the Chuci and Shanhaijing, two Chinese classic texts containing Warring States period (475 BCE – 221 BCE) materials compiled during the Han dynasty (206 BCE – 220 CE).",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "bashe-c05",
+          "source_id": "bashe-s2",
+          "host": "zh.wikisource.org",
+          "statement": "This classical text says the 巴蛇 eats elephants and disgorges the bones after three years; a gentleman who takes it has no illness of heart or belly; the snake is green-blue, yellow, red or black, with another account of a black snake with a green-blue head, located west of the rhinoceros.",
+          "statement_id": "Teks klasik ini menyebut 巴蛇 memakan gajah dan mengeluarkan tulangnya setelah tiga tahun; \"junzi\" yang meminumnya tak terkena penyakit jantung dan perut; ular itu berwarna hijau-biru, kuning, merah, atau hitam, dan ada yang menyebut ular hitam berkepala hijau-biru, di sebelah barat badak.",
+          "quote": "巴蛇食象，三歲而出其骨，君子服之，無心腹之疾。其為蛇青黃赤黑。一曰黑蛇青首，在犀牛西。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bashe-c06",
+          "source_id": "bashe-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Guo Pu's commentary on the Shanhaijing compares the ba snake with the southern ran 蚺 (python), which after eating a large animal can wind around a tree trunk and expel the bones from between its scales, and notes they could grow up to 100 xun in length.",
+          "statement_id": "Komentar Guo Pu atas Shanhaijing membandingkan ular ba dengan ran 蚺 (piton) selatan, yang setelah memakan hewan besar dapat melilit batang pohon dan mengeluarkan tulangnya dari sela sisiknya, dan mencatat panjangnya dapat mencapai 100 xun.",
+          "quote": "The Shanhaijing commentary by Guo Pu (276–324 CE) compares the ba snake with the southern ran 蚺 \"python\", which after eating a large animal can wind around a tree trunk and expel the bones from between its scales and notes they could grow up to a length of 100 xun",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bashe-c07",
+          "source_id": "bashe-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In literary usage, bashe is found in the four-character idiom bashetunxiang (巴蛇吞象, \"ba-snake gulping down an elephant\"), meaning inordinately greedy and extremely insatiable.",
+          "statement_id": "Dalam penggunaan sastra, bashe ditemukan dalam peribahasa empat aksara bashetunxiang (巴蛇吞象, \"ular ba menelan gajah\") yang berarti sangat serakah dan tak pernah puas.",
+          "quote": "In literary usage, bashe is found in the four-character idiom bashetunxiang 巴蛇吞象 (lit. \"ba-snake gulping down an elephant\") meaning \"inordinately greedy; extremely insatiable\".",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "bashe-c08",
+          "source_id": "bashe-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The folklore scholar Wolfram Eberhard links bashe with the legendary archer Houyi, who descended from heaven to destroy evildoers; one of Houyi's victims was a monstrous serpent in Lake Dongting.",
+          "statement_id": "Pakar cerita rakyat Wolfram Eberhard mengaitkan bashe dengan pemanah legendaris Houyi yang turun dari langit untuk menumpas pelaku kejahatan; salah satu korban Houyi adalah ular raksasa di Danau Dongting.",
+          "quote": "The Chinese folklore scholar Wolfram Eberhard links bashe with the legendary archer Houyi 后翌 who descended from heaven to destroy evildoers. One of Houyi's victims was a monstrous serpent in Lake Dongting,",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "kui-chinese-mythology",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-5.md",
+      "entry_sha256": "9dd78e993e7604f942c876e4ea05600eb527e37214c55a56d2e53567963c1819",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kui-chinese-mythology-c01",
@@ -1275,26 +2383,91 @@
           "quote": "Translating kuí (夔) as \"walrus\" exemplifies a ghost word. The Unihan Database lists the definition as \"one-legged monster; walrus\". However, Chinese kui does not mean \"walrus\" (海象; hǎixiàng; 'sea elephant'), and this ghost first appeared in early Chinese-English dictionaries by Robert Henry Mathews and Herbert Giles.",
           "context": "scholarly-interpretation",
           "status": "loose"
+        },
+        {
+          "id": "kui-chinese-mythology-c05",
+          "source_id": "kui-chinese-mythology-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The text says that on the mountain called Liubo (流波山) in the East Sea there is a beast named Kui, shaped like an ox, with a blue-green body, no horns, and one foot.",
+          "statement_id": "Teks ini menyebut bahwa di gunung bernama Liubo (流波山) di tengah Laut Timur ada seekor binatang bernama Kui, berbentuk seperti lembu, bertubuh biru kehijauan, tanpa tanduk, dan berkaki satu.",
+          "quote": "東海中有流波山，入海七千里。其上有獸，狀如牛，蒼身而無角，一足，出入水則必風雨，其光如日月，其聲如雷，其名曰夔。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kui-chinese-mythology-c06",
+          "source_id": "kui-chinese-mythology-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The text states that whenever the beast goes into or out of the water there is wind and rain, its glare is like the sun and moon, and its voice is like thunder.",
+          "statement_id": "Teks ini menyatakan bahwa setiap kali binatang itu keluar masuk air pasti ada angin dan hujan, sinarnya seperti matahari dan bulan, dan suaranya seperti guntur.",
+          "quote": "其上有獸，狀如牛，蒼身而無角，一足，出入水則必風雨，其光如日月，其聲如雷，其名曰夔。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kui-chinese-mythology-c07",
+          "source_id": "kui-chinese-mythology-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The text states that the Yellow Emperor obtained it, made its hide into a drum and struck it with a bone of the thunder beast; the sound was heard for five hundred li and awed all under heaven.",
+          "statement_id": "Teks ini menyatakan bahwa Kaisar Kuning (Huangdi) memperolehnya, membuat kulitnya menjadi gendang dan memukulnya dengan tulang binatang guntur; bunyinya terdengar sejauh lima ratus li dan membuat gentar seisi dunia.",
+          "quote": "其名曰夔。黃帝得之，以其皮為鼓，橛以雷獸之骨，聲聞五百里，以威天下。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kui-chinese-mythology-c08",
+          "source_id": "kui-chinese-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "An ancient commentary quoted in the article says some hold that the khwei have one leg, and that they have a human face, an ape-like body, and can speak.",
+          "statement_id": "Sebuah komentar kuno yang dikutip artikel ini menyebut sebagian orang mengatakan khwei berkaki satu, dan bahwa mereka berwajah manusia, bertubuh seperti kera, dan dapat berbicara.",
+          "quote": "Some say that the khwei have one leg. ... They exist in Fu-yang (about the present Hang-cheu), have a human countenance and an ape-like body, and can speak.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kui-chinese-mythology-c09",
+          "source_id": "kui-chinese-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A text quoted in the article describes another mountain power shaped like a drum, red, and one-footed, named Hui, which the article notes as a variant name of Kui.",
+          "statement_id": "Sebuah teks yang dikutip artikel ini menyebut satu lagi kekuatan gunung berbentuk gendang, berwarna merah, dan berkaki satu, bernama Hui, yang dalam artikel dicatat sebagai nama lain Kui.",
+          "quote": "There is another mountain power, this one in the shape of a drum, colored red, and also with only one foot. Its name is Hui.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kui-chinese-mythology-c10",
+          "source_id": "kui-chinese-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The article explains that Confucianist revisionism reads the phrase not as \"Kui [had] one foot\" but as \"one person like Kui was enough\".",
+          "statement_id": "Artikel ini menjelaskan bahwa revisionisme Konfusianis membaca ungkapan itu bukan sebagai \"Kui [berkaki] satu\" melainkan \"satu orang seperti Kui sudah cukup\".",
+          "quote": "as \"Kui [had] one foot\", Confucianist revisionism construes it as \"Kui, one [person like him] was enough.\"",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kui-chinese-mythology-c11",
+          "source_id": "kui-chinese-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A passage quoted in the article states that apparitions between trees and rocks are called khwei and wang-liang, while those in the water are called lung, or dragons.",
+          "statement_id": "Sebuah kutipan dalam artikel ini menyatakan bahwa penampakan di antara pohon dan batu disebut khwei dan wang-liang, sedangkan yang di dalam air disebut lung (naga).",
+          "quote": "apparitions between trees and rocks are called khwei and wang-liang, while those in the water are lung or dragons",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "longma",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-5.md",
+      "entry_sha256": "e5cdc125402f62075b84550247c875085723c8faa4affd494179157624ca1164",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "longma-c01",
@@ -1335,26 +2508,101 @@
           "quote": "Longma interconnects traditional Chinese beliefs about dragons and horses. An early example comes from the Zhouli (周禮; 'Rites of Zhou'), which differentiates names for horses of different heights, measured in the chi (尺; 'Chinese foot') (historically around 23–33 centimeters, see Chinese units of measurement).",
           "context": "historical-record",
           "status": "loose"
+        },
+        {
+          "id": "longma-c05",
+          "source_id": "longma-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Zhouli text says horses of eight chi and above are called long (龍, dragon), seven chi and above lai (騋), and six chi and above ma (馬, horse).",
+          "statement_id": "Teks Zhouli menyebut kuda setinggi delapan chi ke atas disebut long (龍, naga), tujuh chi ke atas disebut lai (騋), dan enam chi ke atas disebut ma (馬, kuda).",
+          "quote": "廋人：掌十有二閑之政教，以阜馬、佚特、教駣、攻駒，及祭馬祖、祭閑之先牧，及執駒、散馬耳、圉馬。正校人員選。馬八尺以上為龍，七尺以上為騋，六尺以上為馬。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "longma-c06",
+          "source_id": "longma-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Liji text says that when governance is in harmony, among other portents \"the river brings forth the horse chart\" (河出馬圖) and the tortoise and dragon (龜龍) are in the palace ponds.",
+          "statement_id": "Teks Liji menyebut bahwa ketika tata kelola selaras, antara lain \"河出馬圖\" (sungai mengeluarkan bagan kuda) terjadi, dan kura-kura serta naga (龜龍) berada di kolam istana.",
+          "quote": "故天降膏露，地出醴泉，山出器車，河出馬圖 ... 皆在郊棷，龜龍在宫沼",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "longma-c07",
+          "source_id": "longma-s1",
+          "host": "en.wikipedia.org",
+          "statement": "An ancient commentary quoted in the article states that its shape is a horse's body with dragon scales, its height is eight ch'ih five ts'un, and a true dragon horse has wings at its sides and walks on water without sinking.",
+          "statement_id": "Komentar kuno yang dikutip artikel ini menyatakan bahwa bentuknya bertubuh kuda tetapi bersisik naga, tingginya delapan chi lima cun, dan longma sejati bersayap di sisinya serta berjalan di atas air tanpa tenggelam.",
+          "quote": "As a being its shape consists of a horse's body, yet it has dragon scales. Therefore it is called 'dragon horse'. Its height is eight ch'ih five ts'un. A true dragon horse has wings at its sides and walks upon the water without sinking.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "longma-c08",
+          "source_id": "longma-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The same commentary states that if a holy man is on the throne, the dragon horse comes out of the midst of the river carrying a map on its back.",
+          "statement_id": "Komentar yang sama menyatakan bahwa jika seorang suci berada di atas takhta, longma keluar dari tengah sungai sambil membawa peta di punggungnya.",
+          "quote": "If a holy man is on the throne it comes out of the midst of the Ming river, carrying a map on its back.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "longma-c09",
+          "source_id": "longma-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, the Hetu is traditionally linked with prehistoric Chinese rulers: a longma revealed the Hetu to Fu Xi or Shun.",
+          "statement_id": "Menurut artikel ini, Hetu secara tradisional dikaitkan dengan penguasa Tiongkok prasejarah: seekor longma menyingkapkan Hetu kepada Fu Xi atau Shun.",
+          "quote": "They are traditionally linked with prehistoric Chinese rulers, a longma revealed the Hetu to Fu Xi or Shun",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "longma-c10",
+          "source_id": "longma-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The 10th-century Taiping Imperial Reader is said to state that a longma that appeared in 741 was considered a good omen for Emperor Xuanzong of Tang; it was spotted blue and red, covered with scales, had a dragon-like mane, neighed like a flute, and could cover three hundred miles.",
+          "statement_id": "Taiping Imperial Reader (abad ke-10) disebut menyatakan bahwa seekor longma yang muncul pada 741 dianggap pertanda baik bagi Kaisar Xuanzong dari Tang; ia berbintik biru dan merah, bersisik, surainya mirip naga, ringkikannya seperti suara seruling, dan mampu menempuh tiga ratus mil.",
+          "quote": "The 10th-century Taiping Imperial Reader says a longma that appeared in 741 was considered as a good omen for Emperor Xuanzong of Tang. ... It was spotted blue and red, and covered with scales. Its mane resembled that of a dragon, and its neighing was like the tone of a flute. It could cover three hundred miles.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "longma-c11",
+          "source_id": "longma-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the account quoted in the article, the longma's mother was a common horse that became pregnant by drinking water from the river in which it was bathed.",
+          "statement_id": "Dalam catatan yang dikutip artikel ini, induk longma itu adalah kuda biasa yang hamil setelah meminum air sungai tempatnya dimandikan.",
+          "quote": "Its mother was a common horse which had become pregnant by drinking water from a river in which it was bathed.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "longma-c12",
+          "source_id": "longma-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A passage quoted in the article records a story that dragons, changing form, couple with mares and the offspring is a wild horse (dragon-horse) difficult to tame and fierce in nature.",
+          "statement_id": "Kutipan dalam artikel ini mencatat cerita bahwa naga yang berganti wujud kawin dengan kuda betina dan keturunannya adalah kuda liar (kuda-naga) yang sulit dijinakkan dan bersifat garang.",
+          "quote": "The dragons, changing their form, couple with mares. The offspring is a wild species of horse (dragon-horse) difficult to tame and of a fierce nature.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "luanniao",
-      "file": "batch-067-fix-1.md",
+      "file": "batch-067-fix-4.md",
+      "entry_sha256": "8d6dc902a8a1cf207e1dbfa87a8f538b24b8bdcc015fd5dfe8e90e85ded1a250",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "luanniao-c01",
@@ -1405,26 +2653,51 @@
           "quote": "The Japanese Wakan Sansai Zue of the Edo period further states that due to the viscosity of the luan's blood, it could be used as an adhesive for attaching strings to musical instruments.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "luanniao-c06",
+          "source_id": "luanniao-s3",
+          "host": "zh.wikisource.org",
+          "statement": "This classical text says that on Mount Nüchuang there is a bird shaped like a zhai (a long-tailed bird) with five-colored markings, named Luanniao, and when it is seen the world is at peace.",
+          "statement_id": "Teks klasik ini menyebut di Gunung Nüchuang ada burung berbentuk seperti zhai (sejenis burung berekor panjang) dengan corak lima warna, bernama Luanniao, dan bila terlihat maka dunia damai tenteram.",
+          "quote": "曰女牀之山，其陽多赤銅，其陰多石涅〈即楚石也，楚人名為涅石，秦名為羽涅也，本草經亦名曰石涅也。〉，其獸多虎豹犀兕。有鳥焉，其狀如翟而五采文〈翟似雉而大長尾，或作𪇱。𪇱，鵰屬也。〉，名曰鸞鳥，見則天下安寧",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "luanniao-c07",
+          "source_id": "luanniao-s2",
+          "host": "en.wikipedia.org",
+          "statement": "Like the fenghuang, a sighting of the luan indicates an omen of peace; an early legend says the luan was presented as tribute by northwestern tribes to King Cheng of Zhou as a symbol of submission to his virtue.",
+          "statement_id": "Seperti fenghuang, penampakan luan menandakan pertanda damai; sebuah legenda awal menyebut luan dipersembahkan suku-suku barat laut kepada Raja Cheng dari Zhou sebagai lambang ketundukan pada kebajikannya.",
+          "quote": "Like the fenghuang, a sighting of the luan indicates an omen of peace. An early legend thought to be from the Warring States period states that the luan was presented as a tribute by northwestern tribes to King Cheng of Zhou as a symbol of submission to his virtue.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "luanniao-c08",
+          "source_id": "luanniao-s2",
+          "host": "en.wikipedia.org",
+          "statement": "In the Classic of Mountains and Seas, the luan is described as one of the three five-coloured birds, along with the huang and feng birds; the luan would sing while the feng would dance to accompany it.",
+          "statement_id": "Dalam Classic of Mountains and Seas, luan digambarkan sebagai salah satu dari tiga burung lima warna bersama burung huang dan feng; luan bernyanyi sementara feng menari mengiringinya.",
+          "quote": "In the Classic of Mountains and Seas, the luan is described as being one of the three five-coloured birds, along with huang and feng bird. The luan would sing while the feng would dance to accompany it.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "qianliyan",
-      "file": "batch-067-fix-1.md",
+      "file": "batch-067-fix-5.md",
+      "entry_sha256": "7808e389e814bd65a1142b16425c3c25ae0a95d7e3231248250e2331b5474281",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 13,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "qianliyan-c01",
@@ -1475,26 +2748,101 @@
           "quote": "Qianliyan next appeared as a lieutenant of the Emperor of Flowering Brightness ... in Yu Xiangdou's Journey to the South and as a character in Xu Zhonglin's Creation of the Gods.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "qianliyan-c06",
+          "source_id": "qianliyan-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the novel's text, the Jade Emperor commands Qianliyan (千里眼) and Shunfeng'er (順風耳) to open the South Heavenly Gate and look; the two generals go out and see clearly and hear distinctly.",
+          "statement_id": "Dalam teks novel ini, Kaisar Giok memerintahkan Qianliyan (千里眼) dan Shunfeng'er (順風耳) membuka Gerbang Langit Selatan untuk mengamati; kedua jenderal itu keluar dan \"melihat dengan jelas, mendengar dengan terang\".",
+          "quote": "即命千里眼、順風耳開南天門觀看。二將果奉旨出門外，看的真，聽的明。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "qianliyan-c07",
+          "source_id": "qianliyan-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the novel's text, Qianliyan and Shunfeng'er step out from the ranks of the celestial court and report that the monkey is a stone monkey born three hundred years earlier.",
+          "statement_id": "Dalam teks novel ini, Qianliyan dan Shunfeng'er tampil dari barisan para pejabat langit dan melaporkan bahwa monyet itu adalah monyet batu yang lahir tiga ratus tahun sebelumnya.",
+          "quote": "班中閃出千里眼、順風耳道：「這猴乃三百年前天產石猴。當時不以為然，不知這幾年在何方修煉成仙，降龍伏虎，強銷死籍也。」",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "qianliyan-c08",
+          "source_id": "qianliyan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Qianliyan's sharp vision is employed to protect sailors at night and during fog and other bad weather; in some accounts he can see everything in the world.",
+          "statement_id": "Penglihatan tajam Qianliyan dipakai untuk melindungi pelaut pada malam hari serta saat kabut dan cuaca buruk; dalam beberapa kisah ia dapat melihat segala sesuatu di dunia.",
+          "quote": "Qianliyan's sharp vision is employed to help protect sailors at night and during fog and other inclement weather. In some accounts, he is capable of seeing everything in the world.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "qianliyan-c09",
+          "source_id": "qianliyan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Qianliyan is most often portrayed as a demon defeated and tamed or befriended by the sea goddess Mazu.",
+          "statement_id": "Qianliyan paling sering digambarkan sebagai iblis yang dikalahkan dan dijinakkan atau dijadikan sahabat oleh dewi laut Mazu.",
+          "quote": "Qianliyan is most often portrayed as a demon defeated and tamed or befriended by the sea goddess Mazu.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "qianliyan-c10",
+          "source_id": "qianliyan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "By one account, he and Shunfeng'er appeared off Meizhou Island during a storm and were defeated by Mazu's magical silk scarf, which blew clouds of sand into their eyes and ears.",
+          "statement_id": "Menurut satu kisah, ia dan Shunfeng'er muncul di lepas Pulau Meizhou saat badai dan dikalahkan oleh selendang sutra ajaib Mazu yang meniupkan awan pasir ke mata dan telinga mereka.",
+          "quote": "By one account, he and Shunfeng'er appeared off Meizhou Island during a storm and were defeated by Mazu's magical silk scarf, which blew clouds of sand into their eyes and ears.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "qianliyan-c11",
+          "source_id": "qianliyan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In one account, the pair were originally warriors or guards of Di Xin, and their powers fail when they are covered in the blood of a black dog.",
+          "statement_id": "Menurut satu kisah, keduanya semula prajurit atau pengawal Di Xin; kekuatan mereka lenyap ketika mereka dilumuri darah anjing hitam.",
+          "quote": "In still another account, the pair were originally warriors or guards of Di Xin. ... Their powers fail them when he covers them in the blood of a black dog",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "qianliyan-c12",
+          "source_id": "qianliyan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In art, Qianliyan typically appears as a green-skinned demon shielding his eyes from the sun's glare.",
+          "statement_id": "Dalam seni, Qianliyan biasanya tampil sebagai iblis berkulit hijau yang menaungi matanya dari silau matahari.",
+          "quote": "Qianliyan typically appears as a green-skinned demon shielding his eyes from the sun's glare.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "qianliyan-c13",
+          "source_id": "qianliyan-s1",
+          "host": "en.wikipedia.org",
+          "statement": "During the annual pilgrimage from Dajia to Beigang, Mazu's idol is accompanied by figures of Qianliyan and Shunfeng'er about three metres tall, played by masked men on stilts.",
+          "statement_id": "Dalam ziarah tahunan dari Dajia ke Beigang, patung Mazu diiringi figur Qianliyan dan Shunfeng'er setinggi sekitar tiga meter yang diperankan pria bertopeng di atas egrang.",
+          "quote": "During the 8-day, 250-kilometer (155 mi) annual pilgrimages from Dajia to Beigang, Mazu's idol is accompanied by 10-foot (3 m) figures of Qianliyan and Shunfeng'er played by masked men on stilts.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "taowu",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-5.md",
+      "entry_sha256": "80da1d9ec44fc88c1e5d318464e4d849f07b73b700a01594cac1e40af703eb80",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 10,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "taowu-c01",
@@ -1545,26 +2893,71 @@
           "quote": "Guoyu and Shuo Yuan record Taowu as residing at Mt. Pi (丕山) during the Shang dynasty.",
           "context": "historical-record",
           "status": "loose"
+        },
+        {
+          "id": "taowu-c06",
+          "source_id": "taowu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Shiji text says the house of Zhuanxu (顓頊氏) had an untalented son who could not be taught and did not understand speech, whom the world called Taowu (檮杌).",
+          "statement_id": "Teks Shiji menyebut bahwa keluarga Zhuanxu (顓頊氏) memiliki seorang putra yang tidak berbakat, tidak dapat dididik, dan tidak mengerti ucapan, yang oleh dunia disebut Taowu (檮杌).",
+          "quote": "少暤氏有不才子，毀信惡忠，崇飾惡言，天下謂之窮奇。顓頊氏有不才子，不可教訓，不知話言，天下謂之檮杌。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "taowu-c07",
+          "source_id": "taowu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Shiji text says Taowu belongs to the \"three clans\" that long troubled the world, and that Shun later banished the \"four villain clans\" (四凶族) to the four frontiers to ward off goblins (螭魅).",
+          "statement_id": "Teks Shiji menyebut bahwa Taowu termasuk dalam \"tiga kaum\" yang lama menjadi kekhawatiran dunia, dan bahwa Shun kemudian mengasingkan \"empat kaum jahat\" (四凶族) ke empat penjuru perbatasan untuk menangkal siluman (螭魅).",
+          "quote": "顓頊氏有不才子，不可教訓，不知話言，天下謂之檮杌。此三族世憂之。 ... 天下惡之，比之三凶。舜賓於四門，乃流四凶族，遷于四裔，以御螭魅",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "taowu-c08",
+          "source_id": "taowu-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Shenyijing text describes a beast in the western wilds that looks like a tiger but with dog fur, a human face, tiger feet, a pig's mouth and tusks and a tail one zhang eight chi long, which throws the wilds into disorder; it is named Taowu, also called Aohen and Nanxun.",
+          "statement_id": "Teks Shenyijing menggambarkan binatang di wilayah liar barat yang mirip harimau tetapi berbulu anjing, berwajah manusia, berkaki harimau, bermulut dan bertaring babi, berekor satu zhang delapan chi, dan mengacau wilayah itu; namanya Taowu, juga disebut Aohen dan Nanxun.",
+          "quote": "西方荒中有獸焉，其狀如虎而犬毛，長二尺，人面虎足，猪口牙，尾長一丈八尺，攪乱荒中，名梼杌，一名傲狠，一名難訓。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "taowu-c09",
+          "source_id": "taowu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, the trouble he caused continued through Emperor Yao's reign until Emperor Shun received him with the other Four Perils, banishing them to the outer reaches of the kingdom and expelling evil spirits.",
+          "statement_id": "Menurut artikel ini, kekacauan yang ditimbulkannya berlanjut sepanjang masa Kaisar Yao hingga Kaisar Shun menerimanya bersama Empat Bahaya lain, mengasingkan mereka ke pelosok kerajaan, dan mengusir roh jahat.",
+          "quote": "The trouble he caused would continue throughout the reign of Emperor Yao of the Taotang clan, until Emperor Shun of the Youyu clan would receive him along with the other Four Perils, banishing them to the outer reaches of the kingdom and expelling evil spirits.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "taowu-c10",
+          "source_id": "taowu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, the Book of Gods and Strange Things records Taowu as a monster with a human face, tiger feet, a pig's mouth and teeth and an 18-foot tail.",
+          "statement_id": "Menurut artikel ini, Book of Gods and Strange Things mencatat Taowu sebagai monster berwajah manusia, berkaki harimau, bermulut dan bergigi babi, dan berekor 18 kaki.",
+          "quote": "The Book of Gods and Strange Things records Taowu as a monster with a human face, a tiger's feet, a pig's mouth and teeth, and a tail 18 feet long.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "yaoguai",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-5.md",
+      "entry_sha256": "1d1e356272a0ade214c293eadf67d863399844d798bd4b3e0d7be6f4a4cba3ab",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "yaoguai-c01",
@@ -1605,26 +2998,101 @@
           "quote": "While yaoguai are not evil in the sense Western demons are, they are usually weird and dangerous, tending to exert a baleful influence on mankind.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "yaoguai-c05",
+          "source_id": "yaoguai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, yaoguai often dwell in remote areas or on the fringes of civilization where they produce all manner of unexplainable phenomena and mischief, and they often have predatory or malevolent tendencies.",
+          "statement_id": "Menurut artikel ini, yaoguai sering tinggal di daerah terpencil atau di tepi peradaban, tempat mereka menimbulkan berbagai gejala yang tak terjelaskan dan kekacauan; mereka sering memiliki kecenderungan memangsa atau berniat jahat.",
+          "quote": "They often dwell in remote areas or on the fringes of civilization where they produce all manner of unexplainable phenomena and mischief. They often have predatory or malevolent tendencies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yaoguai-c06",
+          "source_id": "yaoguai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Possession of supernatural power defines the yaoguai and distinguishes them from other monsters; typical powers ascribed to them include shapeshifting, creating illusions, mind control, clairvoyance, possession of human beings, and control over natural forces.",
+          "statement_id": "Kepemilikan kekuatan gaib mendefinisikan yaoguai dan membedakannya dari monster lain; kekuatan yang lazim dikaitkan dengannya meliputi perubahan wujud, penciptaan ilusi, kendali pikiran, kewaskitaan, perasukan manusia, dan kendali atas kekuatan alam.",
+          "quote": "Possession of supernatural power defines the yaoguai, distinguishing them from other monsters. Descriptions of the abilities of these beings vary considerably. Typical powers ascribed to them include shapeshifting, the manufacture of illusions, mind control, clairvoyance, the possession of human beings, and the control over natural forces.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yaoguai-c07",
+          "source_id": "yaoguai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The article gives examples: Baigujing, a \"white skeleton essence\", is described as an adept shapeshifter taking on the forms of several people to deceive her opponents, while Bai Suzhen, a white snake fairy, unleashes a supernatural flood against a temple.",
+          "statement_id": "Artikel ini memberi contoh: Baigujing, \"esensi kerangka putih\", digambarkan piawai berubah wujud menjadi banyak orang untuk menipu lawannya, sedangkan Bai Suzhen, peri ular putih, melepaskan banjir gaib terhadap sebuah kuil.",
+          "quote": "Baigujing, a white skeleton essence, is described as an adept shapeshifter, taking on the forms of multiple people in an attempt to deceive her opponents. Others are capable of control over elemental forces, as when Bai Suzhen, a white snake fairy unleashes a supernatural flood against a temple.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yaoguai-c08",
+          "source_id": "yaoguai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, the classic text Zuo Zhuan states that when people abandon constancy, this causes the yao to emerge.",
+          "statement_id": "Menurut artikel ini, teks klasik Zuo Zhuan menyatakan bahwa ketika orang meninggalkan kebajikan yang tetap, hal itu membuat yao bermunculan.",
+          "quote": "According to the classic text Zuo Zhuan, \"when people abandon constancy then this causes the yao to emerge\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yaoguai-c09",
+          "source_id": "yaoguai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, in more superstitious times confusion, strange and unexplainable disease, eerie sights and sounds, and unexplained murders and missing persons were attributed to yaoguai.",
+          "statement_id": "Menurut artikel ini, pada masa yang lebih percaya takhayul, kebingungan, penyakit aneh yang tak terjelaskan, pemandangan seram, bunyi aneh, serta pembunuhan dan orang hilang yang tak terjelaskan dianggap ulah yaoguai.",
+          "quote": "In more superstitious times, confusion and bewilderment, strange and unexplainable disease, eerie sights and strange sounds, and cases of unexplained murders and missing persons were attributed to them",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yaoguai-c10",
+          "source_id": "yaoguai-s2",
+          "host": "en.wiktionary.org",
+          "statement": "According to Wiktionary, the Chinese concept 妖怪 (yāoguài) does not map directly to any specific English term and is often translated as \"monster\" or \"demon\".",
+          "statement_id": "Menurut Wiktionary, konsep 妖怪 (yāoguài) tidak memiliki padanan langsung dalam satu istilah Inggris dan sering diterjemahkan sebagai \"monster\" atau \"iblis\".",
+          "quote": "The Chinese concept of 妖怪 (yāoguài) does not map directly to any specific English term and it's often translated as “monster” or “demon”.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "yaoguai-c11",
+          "source_id": "yaoguai-s2",
+          "host": "en.wiktionary.org",
+          "statement": "Wiktionary defines 妖怪 (usually in Chinese mythology) as a supernatural being, monster, demon, strange apparition or spirit.",
+          "statement_id": "Wiktionary mendefinisikan 妖怪 (biasanya dalam mitologi Tiongkok) sebagai makhluk gaib, monster, iblis, penampakan aneh, atau roh.",
+          "quote": "妖怪 (usually in Chinese mythology) supernatural being; monster; demon; strange apparition; spirit;",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "yaoguai-c12",
+          "source_id": "yaoguai-s2",
+          "host": "en.wiktionary.org",
+          "statement": "Wiktionary cites a sentence from the Book of Han (Ban Gu, volume 89, 111 CE): after a long time there were frequent apparitions (妖怪) in the palace; the king asked Sui about it, and Sui believed great sorrow would follow.",
+          "statement_id": "Wiktionary mengutip contoh kalimat dari Book of Han (Ban Gu, volume 89, 111 M): setelah beberapa waktu, di istana sering terdapat penampakan aneh (妖怪); sang raja menanyakannya kepada Sui, yang mengira akan ada kesedihan besar.",
+          "quote": "111 CE, Ban Gu, Book of Han (volume 89) 久之，宮中數有妖怪，王以問遂，遂以為有大憂，宮室將空。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "yu-shi",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-5.md",
+      "entry_sha256": "fa605230b93846edae22a357b53652b691c0cf7f40c6e748bbd52bd4609055d2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 10,
+        "sources": 5,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "yu-shi-c01",
@@ -1675,26 +3143,71 @@
           "quote": "Yu Shi (together with Feng Bo) is said to have aided Chiyou in his struggle against the Yellow Emperor during the Battle of Zhuolu, but was defeated by the intervention of the drought goddess Ba.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "yu-shi-c06",
+          "source_id": "yu-shi-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Shanhaijing text mentions the country of Yushiqie (雨師妾), whose people are dark-skinned, hold a snake in each hand, and have a green snake at the left ear and a red snake at the right ear.",
+          "statement_id": "Teks Shanhaijing menyebut negeri Yushiqie (雨師妾), yang penduduknya berkulit gelap, memegang seekor ular di tiap tangan, dengan ular hijau di telinga kiri dan ular merah di telinga kanan.",
+          "quote": "雨師妾國一作「雨師妾」在其北，其為人黑，兩手各操一蛇，左耳有青蛇，右耳有赤蛇。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yu-shi-c07",
+          "source_id": "yu-shi-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Zhouli text says burning offerings (槱燎) are used to worship Sizhong, Siming, Fengshi (Master of Wind) and Yushi (雨師, Master of Rain).",
+          "statement_id": "Teks Zhouli menyebut bahwa pembakaran persembahan (槱燎) dipakai untuk memuja Sizhong, Siming, Fengshi (Guru Angin), dan Yushi (雨師, Guru Hujan).",
+          "quote": "以禋祀祀昊天上帝，以實柴祀日月星辰，以槱燎祀司中、司命、風師、雨師。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "yu-shi-c08",
+          "source_id": "yu-shi-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The Shanhaijing text says Chiyou attacked the Yellow Emperor, Yinglong held back water, and Chiyou then summoned Fengbo and Yushi (風伯雨師), who unleashed a great wind and rain.",
+          "statement_id": "Teks Shanhaijing menyebut bahwa Chiyou menyerang Kaisar Kuning, Yinglong menahan air, lalu Chiyou memanggil Fengbo dan Yushi (風伯雨師) yang melepaskan angin dan hujan besar.",
+          "quote": "蚩尤作兵伐黄帝，黄帝乃令應龍攻之冀州之野。應龍畜水。蚩尤請風伯雨師，縱大風雨。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yu-shi-c09",
+          "source_id": "yu-shi-s5",
+          "host": "zh.wikisource.org",
+          "statement": "The Yuanyou poem in the Chuci places Yushi (雨師) at the left as an attendant and Leigong (雷公) at the right as a guard.",
+          "statement_id": "Puisi Yuanyou dalam Chuci menyebut Yushi (雨師) di sisi kiri sebagai pengiring dan Leigong (雷公) di sisi kanan sebagai pengawal.",
+          "quote": "後文昌使掌行兮，選署衆神以並轂。路曼曼其脩遠兮，徐弭節而高厲。左雨師使徑侍兮，右雷公以爲衛。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yu-shi-c10",
+          "source_id": "yu-shi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, Yu Shi is worshiped by Han Chinese, Maonan people and others in modern southwest China as an important rain god, with ritual prayer ceremonies to entreat for rain.",
+          "statement_id": "Menurut artikel ini, Yu Shi dipuja oleh orang Han, suku Maonan, dan lainnya di Tiongkok barat daya masa kini sebagai dewa hujan penting, dengan upacara doa untuk memohon hujan.",
+          "quote": "Yu Shi is worshiped by Han Chinese, Maonan people, and other people in modern southwest China as an important rain god with ritual prayer ceremonies performed to entreat for rain.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "zhulong-mythology",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-5.md",
+      "entry_sha256": "011b6b87d7eb95ac63d5dae51898ad920fab3a1117541f5a4635eab1964c2fd2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "zhulong-mythology-c01",
@@ -1755,26 +3268,61 @@
           "quote": "The Classic of Mountains and Seas (c. 3rd century BCE - 1st century CE) records parallel myths about Zhuyin and Zhulong.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "zhulong-mythology-c07",
+          "source_id": "zhulong-mythology-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Shanhaijing text names the god of Mount Zhong (鍾山) as Zhuyin (燭陰): when he looks it is day, when he closes his eyes it is night, his blowing makes winter and his exhaling makes summer; he does not drink, eat or breathe (rest), his breath becomes wind, and his body is a thousand li long.",
+          "statement_id": "Teks Shanhaijing menyebut dewa Gunung Zhong (鍾山) bernama Zhuyin (燭陰): ketika ia melihat jadilah siang, ketika memejam jadilah malam, tiupannya menjadi musim dingin dan embusannya musim panas; ia tidak minum, makan, atau bernapas (beristirahat), napasnya menjadi angin, dan panjang tubuhnya seribu li.",
+          "quote": "鍾山之神名曰燭陰，視為晝，瞑為夜，吹為冬，呼為夏，不飲，不食，不息，息為風，身長千里。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zhulong-mythology-c08",
+          "source_id": "zhulong-mythology-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The same text describes the god of Mount Zhong named Zhuyin (燭陰) as having a human face and a snake body, red in colour, and dwelling at the foot of Mount Zhong.",
+          "statement_id": "Teks yang sama menggambarkan dewa Gunung Zhong bernama Zhuyin (燭陰) itu berwajah manusia, bertubuh ular, berwarna merah, dan tinggal di kaki Gunung Zhong.",
+          "quote": "鍾山之神名曰燭陰 ... 其為物，人面，蛇身，赤色，居鍾山下。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zhulong-mythology-c09",
+          "source_id": "zhulong-mythology-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Shanhaijing text for the northern wilds describes a red god with a human face and snake body and straight eyes; when he shuts his eyes it is dark and when he looks it is light; he does not eat, sleep or breathe (rest), and he summons wind and rain; he is Zhu Jiuyin (燭九陰), called Zhulong (燭龍).",
+          "statement_id": "Teks Shanhaijing bagian padang liar utara menyebut dewa berwajah manusia dan bertubuh ular yang merah, bermata lurus; ketika ia memejam dunia gelap, ketika ia melihat dunia terang; ia tidak makan, tidur, atau bernapas (beristirahat), dan mendatangkan angin dan hujan; dialah Zhu Jiuyin (燭九陰), yang disebut Zhulong (燭龍).",
+          "quote": "有神，人面蛇身而赤，直目正乘，其暝乃晦，其視乃明，不食不寢不息，風雨是謁。是燭九陰，是謂燭龍。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "zhulong-mythology-c10",
+          "source_id": "zhulong-mythology-s4",
+          "host": "zh.wikisource.org",
+          "statement": "The Huainanzi text says Zhulong (燭龍) is north of Yanmen, hidden by Mount Weiyu so that it does not see the sun; its god has a human face and a dragon body and no feet.",
+          "statement_id": "Teks Huainanzi menyebut Zhulong (燭龍) berada di utara Yanmen, terlindung oleh Gunung Weiyu sehingga tidak terlihat matahari; dewanya berwajah manusia, bertubuh naga, dan tanpa kaki.",
+          "quote": "少室、太室在冀州。燭龍在雁門北，蔽於委羽之山，不見日，其神人面龍身而無足。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "zouyu",
-      "file": "batch-067-fix-1.md",
+      "file": "batch-067-fix-4.md",
+      "entry_sha256": "9793886c0d288f234e08660c2e5fc640f176bb93831c94df25d4bb5a40ce48a5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "zouyu-c01",
@@ -1835,26 +3383,51 @@
           "quote": "Puzzled about the real zoological identity of the zouyu said to be captured during the Yongle era, Duyvendak exclaimed, \"Can it possibly have been a Pandah?\" Following him, some modern authors consider zouyu to refer to the giant panda.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "zouyu-c07",
+          "source_id": "zouyu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "This classical text, the Shanhaijing, says the land of Linshi has a rare beast as large as a tiger, with all five colors, a tail longer than its body, named 騶吾 (zouwu), and that riding it one can cover a thousand li in a day.",
+          "statement_id": "Teks klasik Shanhaijing ini menyebut negeri Linshi memiliki binatang langka sebesar harimau, berbulu lengkap lima warna, berekor lebih panjang dari tubuhnya, bernama 騶吾, dan bila ditunggangi dapat menempuh seribu li sehari.",
+          "quote": "林氏國有珍獸，大若虎，五采畢具，尾長于身，名曰騶吾，乘之日行千里。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "zouyu-c08",
+          "source_id": "zouyu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The zouyu sightings were mentioned by contemporaneous authors as good omens, along with the Yellow River running clear and the delivery of a qilin by a Bengal delegation that arrived in China aboard Zheng He's fleet.",
+          "statement_id": "Penampakan zouyu disebut para penulis sezaman sebagai pertanda baik, bersama sungai Kuning yang jernih dan penyerahan seekor qilin oleh utusan Benggala yang tiba di Tiongkok dengan armada Zheng He.",
+          "quote": "The zouyu sightings were mentioned by contemporaneous authors as good omens, along with the Yellow River running clear and the delivery of a qilin (i.e., an African giraffe) by a Bengal delegation that arrived to China aboard Zheng He's fleet.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "zouyu-c09",
+          "source_id": "zouyu-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Riordan & Shi (2016) propose that zouyu and other words for some enigmatic pantherine predators in ancient Chinese texts possibly denoted snow leopards.",
+          "statement_id": "Riordan & Shi (2016) mengusulkan bahwa zouyu dan kata-kata lain untuk predator mirip macan tutul yang misterius dalam teks Tiongkok kuno mungkin menyebut macan tutul salju.",
+          "quote": "Riordan & Shi (2016) propose that zouyu (\"驺瑜 [sic]\") and other words for some enigmatic pantherine predators in ancient Chinese texts possibly denoted snow leopards.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "egg-ghost",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-5.md",
+      "entry_sha256": "12a856c77a1c3a22b9bebbe97243a74238daf7b1feceef5e4b776198c21401e3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "egg-ghost-c01",
@@ -1895,26 +3468,51 @@
           "quote": "Some scholars interpret that egg ghosts are a kind of mujagui (Korean: 무자귀, hanja: 無子鬼) (literally, a \"childless ghost\"), which have no descendants or relatives to hold an ancestor memorial service for them.",
           "context": "scholarly-interpretation",
           "status": "loose"
+        },
+        {
+          "id": "egg-ghost-c05",
+          "source_id": "egg-ghost-s2",
+          "host": "krdict.korean.go.kr",
+          "statement": "The Basic Korean Dictionary defines 달걀귀신 (egg ghost) as an egg-like ghost with no eyes, nose, and mouth.",
+          "statement_id": "Kamus Dasar Bahasa Korea mendefinisikan 달걀귀신 (hantu telur) sebagai hantu berbentuk telur yang tidak memiliki mata, hidung, dan mulut.",
+          "quote": "달걀귀신 ... Noun egg ghost 눈, 코, 입이 없는 달걀 모양의 귀신. An egg-like ghost with no eyes, nose, and mouth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "egg-ghost-c06",
+          "source_id": "egg-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, its origin and personality are not significant, and rumor has it that some egg ghosts' personalities do not stay incorruptible as time goes by.",
+          "statement_id": "Menurut artikel ini, asal-usul dan kepribadiannya tidak dianggap penting, dan konon sebagian kepribadian hantu telur tidak tetap murni seiring waktu.",
+          "quote": "Its origin and personality are not significant. Rumor has it that some of egg ghosts' personalities are not incorruptible as time goes by.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "egg-ghost-c07",
+          "source_id": "egg-ghost-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, there is a rumor that egg ghosts change into an egg, hide themselves, and come out when they want.",
+          "statement_id": "Menurut artikel ini, ada kabar bahwa hantu telur berubah menjadi telur, menyembunyikan diri, dan keluar sesuka mereka.",
+          "quote": "Or that egg ghosts change to an egg, hide themselves, and come out when they want.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "fuzanglong",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-5.md",
+      "entry_sha256": "34c148575fbac5c28bbbb5a08d134a343caf778e3f054befe1443d8168a638f4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "fuzanglong-c01",
@@ -1955,26 +3553,51 @@
           "quote": "The Fuzanglong possesses a magic pearl which is its most treasured possession.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "fuzanglong-c05",
+          "source_id": "fuzanglong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, several tiles and light reliefs depict Fuzanglong dragons serving as mounts to Immortals.",
+          "statement_id": "Menurut artikel ini, beberapa ubin dan relief ringan menggambarkan naga Fuzanglong sebagai tunggangan para Dewa Abadi (Immortals).",
+          "quote": "Several tiles and light reliefs depict Fuzanglong dragons serving as mounts to Immortals.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "fuzanglong-c06",
+          "source_id": "fuzanglong-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Fanyi Mingyi Ji text quotes a commentary saying dragons are of four kinds: guardians of heavenly palaces, bringers of clouds and rain who benefit people, earth dragons who open rivers and channels, and fuzang (伏藏) dragons who guard the treasures of the wheel-turning king (cakravartin) and of people of great fortune.",
+          "statement_id": "Teks Fanyi Mingyi Ji mengutip sebuah komentar yang menyebut naga ada empat jenis: penjaga istana langit, pembawa awan dan hujan yang bermanfaat bagi manusia, naga bumi yang membuka sungai dan saluran, dan naga fuzang (伏藏) yang menjaga harta raja pemutar roda (cakravartin) dan orang-orang yang sangat beruntung.",
+          "quote": "别行䟽云龍有四種一守天宫殿持令不落人間屋上作龍像之爾二興雲致雨〉 〈益人間者三地龍決江開瀆四伏藏守轉輪王大福人藏也龍有四生俱舎云𡖉生金翅鳥能食四生龍〉 〈罵意經云",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "fuzanglong-c07",
+          "source_id": "fuzanglong-s3",
+          "host": "zh.wikisource.org",
+          "statement": "This Buddhist dictionary defines 伏藏 (fuzang) as a treasure buried in the earth (in a figurative sense).",
+          "statement_id": "Kamus Buddhis ini mendefinisikan 伏藏 (fuzang) sebagai harta karun yang terpendam di dalam tanah (dalam arti perumpamaan).",
+          "quote": "【伏藏】 （譬喻）埋伏於土中之寶藏也。貧女家中有伏藏，貧女不知之，智者教之發掘",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "giant-anaconda",
-      "file": "batch-067.md",
+      "file": "batch-067-fix-5.md",
+      "entry_sha256": "e26352d518092fd62d47f012361d4f9f39f00158b38cf7e886324c6acb286d94",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "giant-anaconda-c01",
@@ -2004,6 +3627,46 @@
           "statement_id": "Penjelasan yang diajukan meliputi anaconda yang tumbuh sangat besar atau ular purba yang masih bertahan.",
           "quote": "巨森蚺很有可能是發育過長的森蚺，但也有人認為很有可能是史前時代殘留的巨型蛇類。 參見",
           "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "giant-anaconda-c04",
+          "source_id": "giant-anaconda-s3",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, the longest and heaviest verified specimen, encountered by Jesús Antonio Rivas who had examined more than 900 anacondas, was a female 5.21 m long weighing 97.5 kg.",
+          "statement_id": "Menurut artikel ini, spesimen terpanjang dan terberat yang terverifikasi, yang ditemui Jesús Antonio Rivas yang telah memeriksa lebih dari 900 anaconda, adalah seekor betina sepanjang 5,21 m dengan berat 97,5 kg.",
+          "quote": "The longest and heaviest verified specimen encountered by Jesús Antonio Rivas, who had examined more than 900 anacondas, was a female 5.21 m (17 ft 1 in) long and weighing 97.5 kg (214 lb 15 oz).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "giant-anaconda-c05",
+          "source_id": "giant-anaconda-s2",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, during an expedition in 1907 Percy Fawcett claimed to have seen and shot a 62-foot (19 m) giant anaconda, a claim for which scientists ridiculed him.",
+          "statement_id": "Menurut artikel ini, pada 1907 dalam sebuah ekspedisi, Percy Fawcett mengaku melihat dan menembak anaconda raksasa sepanjang 62 kaki (19 m), klaim yang membuatnya ditertawakan para ilmuwan.",
+          "quote": "While on the expedition, in 1907, he claimed to have seen and shot a 62-foot (19 m) long giant anaconda, a claim for which he was ridiculed by scientists.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "giant-anaconda-c06",
+          "source_id": "giant-anaconda-s3",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, reports of anacondas 11-12 m (35-40 ft) or longer exist, but such claims must be regarded with caution because no specimens of such lengths have been deposited in a museum and hard evidence is lacking.",
+          "statement_id": "Menurut artikel ini, ada laporan anaconda sepanjang 11-12 m (35-40 kaki) atau lebih, tetapi klaim itu harus disikapi dengan hati-hati karena belum pernah ada spesimen sepanjang itu disimpan di museum dan bukti kuat tidak ada.",
+          "quote": "Reports of anacondas 11–12 m (35–40 ft) or even longer also exist, but such claims must be regarded with caution, as no specimens of such lengths have ever been deposited in a museum and hard evidence is lacking.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "giant-anaconda-c07",
+          "source_id": "giant-anaconda-s4",
+          "host": "content.time.com",
+          "statement": "A TIME list describes the giant anaconda as the most lethal terror reputed to lurk in the Amazon rain forest: a lightning-quick snake more than 30 ft (9 m) long, capable of capsizing and crushing wooden boats.",
+          "statement_id": "Sebuah daftar di majalah TIME menyebut anaconda raksasa sebagai teror paling mematikan yang konon mengintai di hutan hujan Amazon: ular secepat kilat sepanjang lebih dari 30 kaki (9 m) yang mampu menggulingkan dan meremukkan perahu kayu.",
+          "quote": "the most lethal terror reputed to be lurking in these parts is the giant anaconda, a lightning-quick snake more than 30 ft. (9 m) long, capable of capsizing and crushing wooden boats floating down the Amazon.",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
@@ -2088,7 +3751,8 @@
           "detail": "tidak bisa dibuka (fetch failed)"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4fb28cd80dfebeaef77db1f021ea9781adc17e758d91ddf57dbdd4aaf233ae01"
     },
     {
       "slug": "pulao-dragon",
@@ -2158,7 +3822,8 @@
           "status": "loose"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cafcca09a5e342c397d550dd899bb6ed1af2fac6beef75a2f4f8cfb5637ef0e5"
     },
     {
       "slug": "shen-clam-monster",
@@ -2228,7 +3893,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "645b678752775d14f4bd2b03411ae02d9c08696d6ceb7f616da02e8f6284fed1"
     },
     {
       "slug": "suanni",
@@ -2298,7 +3964,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8af36e46a7cbc06fbf66cff766657600e7e0489ab450fb2cf6ecca7b48d9c78f"
     },
     {
       "slug": "tianlong",
@@ -2368,7 +4035,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "65a0d870a41fa66d16fac3fc536042732a10d38bc5b0d0d85263a52401ca17e3"
     },
     {
       "slug": "zigu",
@@ -2438,7 +4106,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "93b0e31cf81ff820c019f555e2d8c618099cb6444853a620fc16c004b0b078d5"
     },
     {
       "slug": "bulgae",
@@ -2498,7 +4167,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8ea1cc1e3969101c7f862ba9c1f80719286ed9dacb7048fd9565218f4935858b"
     },
     {
       "slug": "fangfeng",
@@ -2548,7 +4218,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "b2ddc736123966b2321455ca2fe1d1abb43137f136a55af5a2dc0cb06d8216d5"
     },
     {
       "slug": "huoshu",
@@ -2628,7 +4299,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1b06d8b4205f065ef173890b02e5e0e80dc70f188a47bd341090043050e71955"
     },
     {
       "slug": "korean-virgin-ghost",
@@ -2698,7 +4370,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c8ad66c5a62cdc13bcdc0e3b905c3190ce833f63bf55b5884bd593fa216a4df2"
     },
     {
       "slug": "nine-headed-bird",
@@ -2768,7 +4441,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2c2de8828b1561f53fdd1b393fb7696a3637bf34b9dd22df173446902a550f79"
     },
     {
       "slug": "sansei-folklore",
@@ -2838,7 +4512,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f8350cc952f6314b0f9f2a683acf2d6688dca6edad1bb05f2ef90714d49b51ad"
     },
     {
       "slug": "shuihu",
@@ -2922,7 +4597,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8f6ddf649f5a97ec4db1edbddb35fc194fd68953ba470f72dd1c62f54bfcc867"
     },
     {
       "slug": "xirang",
@@ -2941,7 +4617,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "bb9fc84ab31514381146f92a5148f3e7f0e863e49977adee9bf3454af1df5cdf"
     }
   ]
 }

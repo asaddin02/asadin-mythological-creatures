@@ -1,6 +1,6 @@
 # Review batch-079
 
-Diperiksa 2026-10-02T00:59:02.832Z. Berkas: batch-079.md, batch-079-fix-1.md, batch-079-fix-2.md.
+Diperiksa 2026-10-06T14:12:00.183Z. Berkas: batch-079.md, batch-079-fix-1.md, batch-079-fix-2.md, batch-079-fix-3.md.
 
 ## anu — lulus-otomatis
 
@@ -397,10 +397,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## hubal — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 18 (loose 1, exact 17), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -410,6 +407,18 @@ Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
 | hubal-c04 | exact | id.wikipedia.org | The Quraysh control access to Hubal’s statue. | Akses menuju arca Hubal dikendalikan Bani Quraisy. |
 | hubal-c05 | exact | id.wikipedia.org | Ibn al-Kalbi describes Hubal’s statue as a human figure made of red agate. | arca Hubal dikatakan menyerupai manusia dan terbuat dari batu akik merah |
 | hubal-c06 | exact | id.wikipedia.org | In that account, the statue’s broken right hand is replaced with gold. | tangan kanannya sudah patah dan diganti dengan tangan dari emas. |
+| hubal-c07 | exact | en.wikisource.org | The 1911 Britannica notes that Hobal was set up within the Temple over the pit containing the sacred treasures, and that his chief function was connected with the sacred lot to which the Meccans resorted in all matters of difficulty. | Hobal was set up within the Temple over the pit that contained the sacred treasures. His chief function was connected with the sacred lot to which the Meccans were accustomed to betake themselves in all matters of difficulty. |
+| hubal-c08 | exact | en.wikisource.org | In the account the 1911 Britannica describes, the Kaaba was perverted to idol worship from the time when ʽAmr ibn Lohai introduced the statue of Hobal from Syria. | perverted to idol worship from the time when ʽAmr ibn Lohai introduced the statue of Hobal from Syria |
+| hubal-c09 | exact | en.wikipedia.org | Hisham Ibn Al-Kalbi's Book of Idols describes the image as human-shaped, with the broken right hand replaced by a golden one. | Hisham Ibn Al-Kalbi's Book of Idols describes the image as shaped like a human, with the right hand broken off and replaced with a golden hand. |
+| hubal-c10 | exact | en.wikipedia.org | Hubal's icon was a human figure believed to control divination, performed by tossing arrows before the statue. | The god's icon was a human figure believed to control acts of divination, which was performed by tossing arrows before the statue. |
+| hubal-c11 | exact | en.wikipedia.org | The name Hubal may ultimately derive from the name Baal of the Canaanite pantheon; in particular from Aramaic hu bel, 'he is Baal'. | The name Hubal may be ultimately derivative of the name Baal from the Canaanite pantheon. In particular, the name could derive from the Aramaic hu bel, meaning "he is Baal". |
+| hubal-c12 | exact | en.wikipedia.org | According to Ibn Al-Kalbi the image was first set up by Khuzayma ibn Mudrika, but another tradition recorded by Ibn Ishaq says Amr ibn Luhayy, a leader of the Khuza'a tribe, put an image of Hubal in the Kaaba. | According to Ibn Al-Kalbi, the image was first set up by Khuzayma ibn Mudrika, but another tradition, recorded by Ibn Ishaq, holds that Amr ibn Luhayy, a leader of the Khuza'a tribe, put an image of Hubal into the Kaaba |
+| hubal-c13 | exact | en.wikipedia.org | A tale recorded by Ibn Al-Kalbi has Muhammad's grandfather Abdul Mutallib vow to sacrifice one of his ten children and consult the arrows of Hubal to choose which. | A tale recorded by Ibn Al-Kalbi has Muhammad's grandfather Abdul Mutallib vowing to sacrifice one of his ten children. He consulted the arrows of Hubal to find out which child he should choose. |
+| hubal-c14 | exact | en.wikipedia.org | When Muhammad conquered Mecca in 630 he broke the statue of Hubal, with the other 360 images at the Kaaba, and dedicated the structure to Allah. | When Muhammad conquered Mecca in 630, he broke the statue of Hubal, along with the other 360 images at the Kaaba, and dedicated the structure to Allah. |
+| hubal-c15 | exact | en.wikipedia.org | Mircea Eliade and Charles J. Adams assert he was a god of rain and a warrior god who emerged toward the end of the pre-Islamic era as an intertribal warrior god worshipped by the Quraysh and the allied tribes of the Kinana and Tihama. | Mircea Eliade and Charles J. Adams assert that he was "a god of rain and a warrior god. Towards the end of the pre-Islamic era he emerged as an intertribal warrior god worshipped by the Quraysh and the allied tribes of the Kinana and Tihama." |
+| hubal-c16 | exact | en.wikipedia.org | In the early twentieth century Hugo Winckler speculated that Hubal was a lunar deity, a view repeated by other scholars. | Hugo Winckler in the early twentieth century speculated that Hubal was a lunar deity, a view that was repeated by other scholars. |
+| hubal-c17 | exact | en.wikipedia.org | More recent scholars have rejected the lunar-deity view, partly because it is speculation. | More recent scholars have rejected this view, partly because it is speculation |
+| hubal-c18 | exact | en.wikipedia.org | The paucity of evidence about Hubal makes it difficult to characterise his role or identity in pagan Arabian mythologies. | The paucity of evidence concerning Hubal makes it difficult to characterise his role or identity in pagan Arabian mythologies. |
 
 
 ## nabu — lulus-otomatis

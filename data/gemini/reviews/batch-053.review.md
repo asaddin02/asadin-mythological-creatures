@@ -1,6 +1,6 @@
 # Review batch-053
 
-Diperiksa 2026-10-01T03:03:46.512Z. Berkas: batch-053.md, batch-053-fix-1.md, batch-053-fix-2.md, batch-053-fix-3.md.
+Diperiksa 2026-10-06T15:33:04.368Z. Berkas: batch-053.md, batch-053-fix-1.md, batch-053-fix-2.md, batch-053-fix-3.md, batch-053-fix-4.md, batch-053-fix-5.md.
 
 ## shiranui-optical-phenomenon — lulus-otomatis
 
@@ -67,42 +67,46 @@ Klaim 6 (loose 1, exact 5), sumber 2, gambar 0.
 
 ## akurojin-no-hi — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | akurojin-no-hi-c01 | exact | en.wikipedia.org | Akurojin-no-hi is a ghostly fire in Japanese folklore. | Akurojin-no-hi (悪路神の火, "fire of the god of the bad road") is a ghostly flame from the folklore of Mie Prefecture, Japan. |
 | akurojin-no-hi-c02 | exact | en.wikipedia.org | The account associates it with Mie Prefecture. | Akurojin-no-hi (悪路神の火, "fire of the god of the bad road") is a ghostly flame from the folklore of Mie Prefecture, Japan. |
 | akurojin-no-hi-c03 | exact | en.wikipedia.org | Stories place its appearances on rainy nights. | It often appears on rainy nights. |
+| akurojin-no-hi-c04 | exact | ja.wikipedia.org | The fire is said to appear in Ise Province, or more precisely at 猪草が淵 in Mayumi Village, Tamaru domain (now Watarai District, Mie Prefecture). | 伊勢国、あるいは伊勢のうち田丸領間弓村（現三重県度会郡玉城町）の猪草が淵に現れたとされる。 |
+| akurojin-no-hi-c05 | exact | ja.wikipedia.org | The fire appeared around that place, especially often on rainy nights, moving back and forth as if someone were carrying a lit lantern. | このあたりに出没したのが悪路神の火である。雨の降る夜に特に多く現れ、誰かが提灯を灯しているかのように往来する。 |
+| akurojin-no-hi-c06 | exact | ja.wikipedia.org | Anyone who meets the fire is advised to drop quickly to the ground, wait for it to pass, and then flee. | この火に出会った者は、素早く地に伏して通り過ぎるのを待ち、逃げ出せばよい。 |
+| akurojin-no-hi-c07 | exact | ja.wikipedia.org | One who does not do so and carelessly comes near is said to be struck by a serious illness. | このようにせず、うっかり近づけば病に侵され、大変な患いになるという。 |
+| akurojin-no-hi-c08 | exact | ja.wikipedia.org | Akurojin-no-hi is recorded as a Japanese strange fire (怪火) in 『諸州採薬記抄録』 and in the essay 『閑窓瑣談』 by 佐々木貞高 (為永春水). | 悪路神の火（あくろじんのひ）は『諸州採薬記抄録』や佐々木貞高（為永春水）の随筆『閑窓瑣談』に記されている日本の怪火。 |
+| akurojin-no-hi-c09 | exact | ja.wikipedia.org | 猪草が淵 is described as a difficult spot on a river about 18 meters wide, crossed by a log bridge, with deep water and many mountain leeches around. | 猪草が淵は幅十間（約18メートル）ばかりの川に、水際まで十間を越える高さに丸木橋を渡す。水底は深く、さらに周囲には山蛭が多く住む大変な難所であった。 |
+| akurojin-no-hi-c10 | exact | ja.wikipedia.org | The summary of the account in that article is taken from 『閑窓瑣談』, published in 1841. | 以下、天保12年（1841年）刊行の『閑窓瑣談』より概略を記す。 |
 
 
 ## amatsuhikone — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**warn**
-- `claims (amatsuhikone-c02)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | amatsuhikone-c01 | exact | www.kokugakuin.ac.jp | Amatsuhikone is a deity born from a misty spray in Japanese myth. | He chewed it up and spat the bits out in a misty spray from which a deity named Amatsuhikone no mikoto 天津日子根命 came into existence (13). |
-| amatsuhikone-c02 | exact | www.kokugakuin.ac.jp | The ritual describes chewing and spitting out material before his birth. | He chewed it up and spat the bits out in a misty spray from which a deity named Amatsuhikone no mikoto 天津日子根命 came into existence (13). |
+| amatsuhikone-c02 | exact | www.kokugakuin.ac.jp | In this Kojiki translation Susanoo asks Amaterasu for jeweled cords; for the one adorning her right wrist, he chews it and spits it out as a misty spray, and Amatsuhikone comes into existence from it. | Susanoo asked Amaterasu for the long cord strung with myriad large curved jewels ... Then he asked for the jeweled [cord] adorning her right wrist (12), and [she] handed it over [to him]. He chewed it up and spat the bits out in a misty spray from which a deity named Amatsuhikone no mikoto 天津日子根命 came into existence (13). |
 | amatsuhikone-c03 | exact | www.kokugakuin.ac.jp | The text places his birth after Amenohohi. | The deity born next [after Amenohohi no mikoto] was Amatsuhikone no mikoto. |
 | amatsuhikone-c04 | exact | www.kokugakuin.ac.jp | He is named as an ancestor of the Oshiko-chi lineage. | Note: [This deity is] the ancestor of the Oshiko-chi 凡川内 no kuni no miyatsuko lineage, Nukatabe no yue no muraji 額田 |
+| amatsuhikone-c05 | exact | www.kokugakuin.ac.jp | Since the name includes the masculine suffix hiko, it may be interpreted to mean "heavenly male deity", although Nishimiya Kazutami takes hiko to mean "sun deity" instead. | Since the name includes the masculine suffix hiko, it may be interpreted to mean “heavenly male deity,” although Nishimiya Kazutami takes hiko to mean instead “sun deity.” |
+| amatsuhikone-c06 | exact | www.kokugakuin.ac.jp | The Nihon shoki transcribes this name as 天津彦根命. | The Nihon shoki transcribes this name as 天津彦根命. |
+| amatsuhikone-c07 | exact | www.kokugakuin.ac.jp | This deity's name forms a pair with the next one, Ikutsuhikone no mikoto. | This deity name forms a pair with the next, Ikutsuhikone no mikoto |
+| amatsuhikone-c08 | exact | ja.wikipedia.org | His name is written 天津日子根命 in the Kojiki, 天津彦根命 in the Nihon shoki and 天都比古禰命 in other texts; he is one of five male deities born from Amaterasu's jewels at the oath of Amaterasu and Susanoo, and is regarded as ancestor of many clans. | 『古事記』では天津日子根命、『日本書紀』では天津彦根命、他文献では天都比古禰命とも表記される。 アマテラスとスサノオの誓約の際に天照大神の玉から生まれた男神5柱のうちの1柱で、多くの氏族の祖とされる。 |
+| amatsuhikone-c09 | exact | ja.wikipedia.org | He is listed third in that order; the Nihon shoki says these deities were born from Amaterasu's jewels and so are Amaterasu's children. | 3番目に挙げる。『日本書紀』では、これらの神々はアマテラスの玉から生まれたので、アマテラスの子になるとする。 |
+| amatsuhikone-c10 | exact | ja.wikipedia.org | Among Amatsuhikone's children is the iron-smelting deity 天目一箇神 (also 明立天御影命 and 天津麻羅命). | アマツヒコネの子には、製鉄神の天目一箇神（明立天御影命、天津麻羅命）がいる。 |
+| amatsuhikone-c11 | exact | ja.wikipedia.org | According to the article, in the name Amatsuhikone "ne" (根) is a suffix and "Amatsuhiko" is taken to mean "child of the heavenly sun". | 「アマツヒコネ」の名称について、「ネ（根）」は接尾辞であり、「アマツヒコ」は「天の太陽の子」の意味とされる。 |
+| amatsuhikone-c12 | exact | ja.wikipedia.org | The Kojiki names Amatsuhikone as ancestor of many lineages, among them 川内国造, 額田部湯坐連, 茨木国造, 山代国造 and 高市県主. | アマツヒコネについて、『古事記』では川内国造・額田部湯坐連・茨木国造・倭田中直・山代国造・馬来田国造・道尻岐閇国造・周芳国造・倭淹知造・高市県主・蒲生稲寸・三枝部造ら諸氏族の祖とする。 |
+| amatsuhikone-c13 | exact | ja.wikipedia.org | Today Amatsuhikone is enshrined as a deity at shrines including 多度大社, 桑名宗社 and 額田神社, all in Kuwana City, Mie Prefecture. | 現在、アマツヒコネは次の神社などで祭神に祀られている。 多度大社（三重県桑名市） 桑名宗社（三重県桑名市） 額田神社（三重県桑名市） |
 
 
 ## amoronagu — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -110,55 +114,79 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | amoronagu-c02 | exact | en.wikipedia.org | She is associated with bathing in springs and rivers. | She is known for bathing in springs and rivers. |
 | amoronagu-c03 | exact | en.wikipedia.org | Some stories have her marry a human and later return to heaven. | Amorōnagu also has stories of her descending to earth, marrying a human man, and then returning to heaven. |
 | amoronagu-c04 | exact | en.wikipedia.org | Another account says drinking her water brings death and carries the drinker’s soul to heaven. | If the man drinks the water, he dies and she takes his soul back to heaven with her. |
+| amoronagu-c05 | exact | en.wikipedia.org | In one story, a man saw her bathing and stole her gown from a tree, saying he would return it only if she married him. | A man saw her bathing and stole her gown from where it was hung on a tree, telling her he would only give it back if she married him. |
+| amoronagu-c06 | exact | en.wikipedia.org | One day she heard her eldest child sing of where their father had hidden her gown, in the family storehouse; she retrieved it, ascended to heaven, and left a note saying her husband could join her. | One day, Amorōnagu heard her eldest child singing a song to the youngest about where their father had hidden her gown, saying that it was in the family storehouse. She retrieved her gown and ascended back to heaven, leaving a note for her husband saying that he could join her. |
+| amoronagu-c07 | exact | en.wikipedia.org | In that story a flood burst from the cut the husband made, swept him away, and formed the Milky Way; from then on the two could meet only once a year, on June 7th. | A flood spewed forth from the cut he made, sweeping him away and forming the Milky Way. From that point, Amorōnagu and her husband could only meet once a year on June 7th. |
+| amoronagu-c08 | exact | en.wikipedia.org | The man can survive if he holds the ladle in a certain way, supporting the handle with his palm facing up. | It is possible for the man to survive if he holds the ladle in a certain way, supporting the handle with the palm facing up. |
+| amoronagu-c09 | exact | ja.wikipedia.org | Besides tales like the feather-robe legend told of celestial maidens in general, there are tales of her descending from heaven to earth in search of men; in those she appears carrying a white wrapping cloth on her back, and a light drizzle falls however fine the weather. | 一般の天女のように羽衣伝説と同様の説話が語られている一方、男性を求めて天から地上に降りて来るという話もある。それによれば、白い風呂敷を背負って現れ、その際にはどんな好天の日でも小雨が降るという。 |
+| amoronagu-c10 | exact | ja.wikipedia.org | On finding a man on earth, she smiles and seductively tempts him; a man who gives in to the temptation loses his life. | 地上で男性を見つけると、にやにやと笑って妖艶に誘惑する。男性がこの誘惑に負けると、命を奪われてしまう。 |
+| amoronagu-c11 | exact | ja.wikipedia.org | If a man is tempted, he is said to be saved by glaring back until the 天降女子 gives up; when drinking the ladle water, he is also said to be spared by holding the ladle with his palm up, supporting the handle. | 男性が誘惑された場合は、逆に睨みつけてやると天降女子の方が根負けして命が助かるという。また柄杓の水を飲む際は、杓子を持つ掌を上に向け、柄を支えるようにして飲むと命を奪われずに済むともいう。 |
+| amoronagu-c12 | exact | ja.wikipedia.org | 天降女子 (あもれおなぐ) is a celestial maiden of Amami Ōshima, Kagoshima Prefecture, also written 天降女, 阿母礼女, 天下り女 and 天の女, and called アモロオナグ, アマオナグ or 羽衣美女. | 天降女子（あもれおなぐ）は、日本の鹿児島県奄美大島に伝わる天女。天降女、阿母礼女、天下り女、天の女とも表記され、アモロオナグ、アマオナグ、羽衣美女（はごろもまんじょ）とも呼ばれる。 |
 
 
 ## ashi-magari — lulus-otomatis
 
-Klaim 3 (loose 1, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (loose 1, exact 10), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| ashi-magari-c01 | loose | en.wikipedia.org | Ashi-magari is a ghostly phenomenon in Kagawa folklore. | Ashi-magari (足まがり, leg turner) is a ghostly phenomenon from the folklore of Kagawa Prefecture in Shikoku, Japan. |
+| ashi-magari-c01 | loose | en.wikipedia.org | Ashi-magari is a ghostly phenomenon in the folklore of Kagawa Prefecture in Shikoku, Japan. | Ashi-magari (足まがり, leg turner) is a ghostly phenomenon from the folklore of Kagawa Prefecture in Shikoku, Japan. |
 | ashi-magari-c02 | exact | en.wikipedia.org | It is described as soft like a small cat or a bundle of cotton. | It is a soft thing, like a kitten or a wad of cotton, which is felt wrapping itself around a person's legs at night, impeding their ability to walk. |
 | ashi-magari-c03 | exact | en.wikipedia.org | People feel it wrapping around their legs. | It is a soft thing, like a kitten or a wad of cotton, which is felt wrapping itself around a person's legs at night, impeding their ability to walk. |
+| ashi-magari-c04 | exact | ja.wikipedia.org | Ashi-magari is a yokai in Japanese tradition handed down in places such as Takamatsu City in Kagawa Prefecture and the former Ishida Village (now Sanuki City); a strong view holds it to be a fox or tanuki, but its form can never be seen. | 足まがり（あしまがり）とは、四国地方の香川県高松市や大川郡石田村（現・さぬき市）などに伝承される妖怪で、狐狸のたぐいという説が強いが、その姿は決して見ることはできない。 |
+| ashi-magari-c05 | exact | ja.wikipedia.org | According to the article, "magari" means "to cling" in the local dialect; because it clings to the legs and trips passersby, it came to be called ashi-magari. | 「まがり」とは方言で「まとわりつく」の意。足にまとわりつき、通行人を転ばせることから足まがりと呼ばれるようになった。 |
+| ashi-magari-c06 | exact | ja.wikipedia.org | Because it clings to the legs and trips passersby it came to be called ashi-magari; it is said that as a person walks along a road, something like cotton suddenly wraps around them and hinders their walking. | 足にまとわりつき、通行人を転ばせることから足まがりと呼ばれるようになった。 人が道を歩いていると、いきなり綿のようなものを絡み付けてきて歩く邪魔をするといわれる。 |
+| ashi-magari-c07 | exact | ja.wikipedia.org | It is also said to have appeared near a station on the Shido line; one tale says a person who shook their leg found the thing turn into a pine root and was injured. | 高松琴平電気鉄道志度線潟元駅付近にも出たといわれ、これに遭った人が足を振ると、松の木の根に変わってしまい、怪我をしたという話も残っている。 |
+| ashi-magari-c08 | exact | ja.wikipedia.org | In Ayauta, Marugame City, a thread-like thing winds around people's legs; in the former Kotonami (now Mannō) a ball-like thing rolls up and grows larger each time it is kicked until people can no longer walk. | 香川県丸亀市綾歌町では糸状のものを人の足に絡みつける。仲多度郡琴南町（現・まんのう町）では鞠状のものが転がって来て、蹴飛ばすたびに大きくなり、しまいには蹴ることのできないほどの大きさになって歩けなくなってしまう。 |
+| ashi-magari-c09 | exact | ja.wikipedia.org | In Tadotsu there is a similar tale of a cotton-like lump that moves when picked up and rises into the sky; it is blamed on a tanuki and called 「ウチワタダノキ（打綿狸）」. | 仲多度郡多度津町では綿のようなものが落ちており、拾うと動き出し、空へと上がっていったという話があり、やはりタヌキの仕業として「ウチワタダノキ（打綿狸）」と呼ばれている。 |
+| ashi-magari-c10 | exact | ja.wikipedia.org | Ashi-magari appeared in the anime version of 『ゲゲゲの鬼太郎』; later, reruns of the fifth episode of 1971 that featured it were withheld nationwide. | 『ゲゲゲの鬼太郎』のアニメ版に登場したが、後年になって、当妖怪が登場した1971年のアニメ第5話の再放送は全国的に自粛（欠番）扱いされた。 |
+| ashi-magari-c11 | exact | ja.wikipedia.org | The reason was not announced; yokai researchers 京極夏彦 and 多田克己 speculate it was self-censorship because the name 「足曲がり」 was unsuitable for broadcast. | 理由は公表されていないが、妖怪研究家・京極夏彦や多田克己は、「足曲がり」の名が放送上で好ましくないことによる自主規制と推測している。 |
 
 
 ## atago-gongen — lulus-otomatis
 
-Klaim 6 (loose 2, exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 16 (loose 2, exact 14), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| atago-gongen-c01 | loose | en.wikipedia.org | Atago Gongen is a kami and tengu associated with Mount Atago. | Atago Gongen (愛宕権現) also known as Tarōbō (太郎坊), Atago Daigongen (愛宕大権現), Shōgun Jizō (勝軍地蔵) of Mount Atago is a Japanese kami and tengu believed to be the local avatar (Gongen) of Buddhist bodhisattva Jizō and Shinto goddess Izanami. |
-| atago-gongen-c02 | loose | en.wikipedia.org | His identity combines Buddhist and Shinto divine figures. | Atago Gongen (愛宕権現) also known as Tarōbō (太郎坊), Atago Daigongen (愛宕大権現), Shōgun Jizō (勝軍地蔵) of Mount Atago is a Japanese kami and tengu believed to be the local avatar (Gongen) of Buddhist bodhisattva Jizō and Shinto goddess Izanami. |
+| atago-gongen-c01 | loose | en.wikipedia.org | Atago Gongen is a Japanese kami and tengu associated with Mount Atago. | Atago Gongen (愛宕権現) also known as Tarōbō (太郎坊), Atago Daigongen (愛宕大権現), Shōgun Jizō (勝軍地蔵) of Mount Atago is a Japanese kami and tengu believed to be the local avatar (Gongen) of Buddhist bodhisattva Jizō and Shinto goddess Izanami. |
+| atago-gongen-c02 | loose | en.wikipedia.org | His identity combines a Buddhist figure (Jizō) and a Shinto one (Izanami). | Atago Gongen (愛宕権現) also known as Tarōbō (太郎坊), Atago Daigongen (愛宕大権現), Shōgun Jizō (勝軍地蔵) of Mount Atago is a Japanese kami and tengu believed to be the local avatar (Gongen) of Buddhist bodhisattva Jizō and Shinto goddess Izanami. |
 | atago-gongen-c03 | exact | en.wikipedia.org | He is pictured riding a white horse with a staff and jewel. | He is mounted on a white horse and carries a ringed staff and desire-cancelling jewel. |
 | atago-gongen-c04 | exact | en.wikipedia.org | His worship developed through Shugendō on Mount Atago in Kyoto. | The cult originated in Shugendō practices on Mount Atago in Kyoto, and Atago Gongen is worshiped as a protector against fire and a god of war and victory by Samurai. |
 | atago-gongen-c05 | exact | en.wikipedia.org | He is venerated for protection against fire and for victory in war. | The cult originated in Shugendō practices on Mount Atago in Kyoto, and Atago Gongen is worshiped as a protector against fire and a god of war and victory by Samurai. |
 | atago-gongen-c06 | exact | en.wikipedia.org | One legend makes Tarōbō the protector of the mountain after his surrender. | When Tarōbō surrendered to them, he became protector of the mountain. |
+| atago-gongen-c07 | exact | d-museum.kokugakuin.ac.jp | The kami of Atago has been worshipped as a protector against fire disasters; the mountain lies northwest of Kyōto, the direction thunder and lightning clouds often come from, which may explain the development of its character as a "fire kami" (hi no kami). | The kami of Atago has been worshipped as a protector against fire disasters. The mountain is located northwest of Kyōto from which direction thunder and lightning clouds often appear, which may explain the development of the kami's character as a "fire kami" (hi no kami). |
+| atago-gongen-c08 | exact | d-museum.kokugakuin.ac.jp | There is a belief that a tengu (a bird-like mythical creature) named Atago Tarōbō lived on the mountain, and the area flourished as a sacred shugendō site. | There is a belief that a tengu (a bird-like mythical creature) named Atago Tarōbō lived on the mountain, and the area flourished as a sacred shugendō site. |
+| atago-gongen-c09 | exact | d-museum.kokugakuin.ac.jp | Because Shōgun Jizō (the battle-victory Jizō Buddha) was worshipped as the Buddhist avatar (honji butsu) of Atago, the Atago kami was popular with the warrior class in the medieval period as a "military kami" (gunshin). | Moreover, because Shōgun Jizō (the battle-victory Jizo Buddha) was worshipped as the Buddhist avatar (honji butsu) of Atago, the Atago kami was popular with the warrior class as a "military kami" (gunshin) in the medieval period. |
+| atago-gongen-c10 | exact | d-museum.kokugakuin.ac.jp | People in various regions founded Atago-kō confraternities; members customarily received a shikimi branch and a kami amulet (shinsatsu) bearing the words "hinoyōjin", a formula for protection from fire. | People in various regions established Atago-kō confraternities and members customarily received a shikimi branch and a "kami amulet" (shinsatsu) with the words "hinoyōjin" (a formula to protect one from fire) written on it. |
+| atago-gongen-c11 | exact | d-museum.kokugakuin.ac.jp | There was also a belief that visiting Atago Shrine on the first day of the eighth month ("sennichi mōde") earned merit equal to visiting every day for a thousand days. | There was also the belief that visiting Atago Shrine on the first day of the eighth month, a visit known as "sennichi mōde" ("prayer of 1000 days merit"), generated the virtue equivalent of visiting the shrine every day for one thousand days. |
+| atago-gongen-c12 | exact | d-museum.kokugakuin.ac.jp | During the Heian period Atago was counted among the "seven high mountains" (shichi kōsan) of the Kinki region. | During the Heian Period Atago was counted among the "seven high mountains" (shichi kōsan) of the Kinki region. |
+| atago-gongen-c13 | exact | ja.wikipedia.org | The Great Fire of Angen in 1177 was also called 太郎焼亡, "Tarō" deriving from the tengu Atago Tarōbō; at the time there was a folk belief that tengu caused great fires. | 1177年（安元3年）に起きた安元の大火は太郎焼亡とも呼ばれたが「太郎」は愛宕太郎坊天狗に由来する。当時は天狗が大火を引き起こすとの俗信があった。 |
+| atago-gongen-c14 | exact | ja.wikipedia.org | Atago Gongen is a syncretic Shinto-Buddhist divine title fusing mountain worship at Atago with shugendō, with Izanami as the manifested deity and Jizō Bodhisattva as the original Buddhist form. | 愛宕権現（あたごごんげん）は愛宕山の山岳信仰と修験道が融合した神仏習合の神号であり、イザナミを垂迹神として地蔵菩薩を本地仏とする。 |
+| atago-gongen-c15 | exact | ja.wikipedia.org | He is depicted in the form of Shōgun Jizō, his original Buddhist form: Jizō Bodhisattva in armor riding a horse. | 本地仏である勝軍地蔵（将軍地蔵）の姿で描かれ、甲冑姿の地蔵菩薩が馬に乗る。 |
+| atago-gongen-c16 | exact | ja.wikipedia.org | The shugendō-based Atago Gongen was abolished through the 1868 separation of Shinto and Buddhism and the suppression of Buddhism. | 慶応4年（1868年）の神仏分離令による廃仏毀釈によって、修験道に基づく愛宕権現は廃された。 |
 
 
 ## danzaburou-danuki — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**warn**
-- `claims (danzaburou-danuki-c02)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (loose 1, exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | danzaburou-danuki-c01 | loose | en.wikipedia.org | Danzaburou-danuki is a supernatural tanuki in Sado Island stories. | Danzaburou-danuki (団三郎狸, Danzaburō-danuki) is a bake-danuki passed down in stories on Sado Island, particularly in Aikawa and Niigata. |
-| danzaburou-danuki-c02 | exact | en.wikipedia.org | A local alternate name uses the word mujina. | In Sado, tanuki were called "mujina (狢)", thus he was also referred to as Danzaburou-mujina (団三郎狢). |
+| danzaburou-danuki-c02 | exact | en.wikipedia.org | In Sado, tanuki were called mujina (狢), so he was also called Danzaburou-mujina (団三郎狢). | In Sado, tanuki were called "mujina (狢)", thus he was also referred to as Danzaburou-mujina (団三郎狢). |
 | danzaburou-danuki-c03 | exact | en.wikipedia.org | He is portrayed as the leader of Sado’s tanuki. | The supreme commander of the tanuki on Sado Island, most tales of Danzaburou focus on his trickery of humans. |
 | danzaburou-danuki-c04 | exact | en.wikipedia.org | Stories credit him with illusions and obstructions along paths. | He would create wall-like structures to block people's paths at night, fooled people with mirages and sold leaves from trees by making them look as if they were made of gold. |
+| danzaburou-danuki-c05 | exact | ja.wikipedia.org | In nishiki-e prints his name is also written 同三狸; together with 芝右衛門狸 of Awaji Island and 太三郎狸 of Kagawa Prefecture he is counted among Japan's three famous tanuki. | 錦絵では同三狸とも表記される。淡路島の芝右衛門狸、香川県の太三郎狸と並び、日本三名狸に数えられている。 |
+| danzaburou-danuki-c06 | exact | ja.wikipedia.org | He cast a mirage over his hole-dwelling to make it look like a splendid house and lure people in; when ill, he took human form and saw human doctors. | 自分の住処である穴倉に蜃気楼をかけ、豪華な屋敷に見せかけて人を招き入れたりもした。病気になったときには人に化けて人間の医者にかかっていた。 |
+| danzaburou-danuki-c07 | exact | ja.wikipedia.org | He was not only mischievous; he lent money to people in trouble, money said to be earned by taking human form and working at a gold mine, or by stealing. | 悪さをするばかりでなく、困った人には金を貸していた。その金は人に化けて金山で働いたり、盗んだりして稼いでいたという。 |
+| danzaburou-danuki-c08 | exact | ja.wikipedia.org | His dwelling is said to be in 下戸村, Aikawa; if someone left a stamped promissory note with the amount, return date and their name, the note vanished the next day and money lay in its place. Later he was enshrined in Aikawa as 二つ岩大明神 and is deeply revered by the people. | また、団三郎の住処は相川町下戸村にあり、借用書に金額、返却日、自分の名を記して判を押して置いておけば、翌日にはその借用書は消え、代りに金が置いてあったという。 後に団三郎は相川町に二つ岩大明神として祀られ、人々に厚く信仰されている。 |
+| danzaburou-danuki-c09 | exact | ja.wikipedia.org | There are legends explaining the absence of foxes (kitsune) on Sado by saying that Danzaburō drove the foxes off the island. | 佐渡にキツネがいない理由として、団三郎が佐渡からキツネを追い払ったためといった伝説があり、ここに2つほど記す。 |
+| danzaburou-danuki-c10 | exact | ja.wikipedia.org | In one legend Danzaburō boards a boat for Sado and, in mid-sea, takes off his straw sandals and throws them into the water; ever since, foxes have not thought of crossing to Sado. | やがて団三郎は佐渡へ渡る舟に乗り、海の真っ只中で草履を脱いで海に放り込んだ。以来、キツネは佐渡に渡ろうとは考えないようになった。 |
+| danzaburou-danuki-c11 | exact | ja.wikipedia.org | There is also a legend that his tricks on people went on for a long time, but he stopped deceiving people after losing a battle of wits with a human. | 団三郎の人化かしは数多く続いたが、人間との知恵比べに負けたため、人を化かすことをやめたという伝説もある。 |
+| danzaburou-danuki-c12 | exact | ja.wikipedia.org | One theory holds that Danzaburō was the name of a human merchant from Echigo Province who in 1657 sold young tanuki for breeding, later began raising tanuki on Sado and was respected by the islanders, so the tanuki itself came to be worshipped like a tutelary deity. | 団三郎とは越後国の人間の商人の名であり、明暦3年（1657年）に佐渡金山で用いる鞴の押皮をとるために繁殖用の子ダヌキを売っており、後に佐渡で養狸を始めた団三郎が島民から敬われ、タヌキ自体も氏神のように祀られたとの説がある。 |
+| danzaburou-danuki-c13 | exact | en.wikipedia.org | Danzaburou appears as a boss character in the 2013 video game Muramasa Rebirth. | Danzaburou appears as a boss character in the 2013 video game Muramasa Rebirth. |
+| danzaburou-danuki-c14 | exact | en.wikipedia.org | Mamizou Futatsuiwa, the extra-stage boss of Touhou 13: Ten Desires, is based on Danzaburou-danuki. | Mamizou Futatsuiwa, the extra stage boss of Touhou 13: Ten Desires is based on Danzaburou-danuki. |
 
 
 ## gagoze — lulus-otomatis
@@ -177,10 +205,7 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## hiruko — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 17 (exact 17), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -188,14 +213,24 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | hiruko-c02 | exact | en.wikipedia.org | Stories describe him as born without bones or without limbs. | born without bones (or, in some stories, without arms and legs) |
 | hiruko-c03 | exact | en.wikipedia.org | The story says he was sent to sea in a reed boat. | Hiruko struggled to survive but, as he could not stand, he was cast into the sea in a boat of reeds before his third birthday. |
 | hiruko-c04 | exact | en.wikipedia.org | The identification of Ebisu with Hiruko is described as a later development. | It is however believed that Ebisu first arose as a god among fishermen and that his origin as Hiruko was a much later conception; after the worship of him had spread to merchants and farmers. |
+| hiruko-c05 | exact | d-museum.kokugakuin.ac.jp | Hiruko ("leech-child") is a deformed infant born to Izanagi and Izanami because Izanami made the mistake of speaking to Izanagi first during their courtship. | "Leach-child," a deformed infant born to Izanagi and Izanami as a result of Izanami's mistake in speaking first to Izanagi during their courtship. |
+| hiruko-c06 | exact | d-museum.kokugakuin.ac.jp | The child was placed in a reed boat and set adrift. | The child was placed in a reed boat and set adrift. |
+| hiruko-c07 | exact | d-museum.kokugakuin.ac.jp | The meaning of the child's name is debated; hiruko means "leech", and the name may suggest a child with arms and legs but without bones. | The meaning of the child's name is debated, although hiruko means "leach," and the name may suggest a child with arms and legs but without bones. |
+| hiruko-c08 | exact | d-museum.kokugakuin.ac.jp | The main text of the Nihongi states that the child could not walk even at three years of age, so he was placed in the "rock-camphor boat of heaven" and set adrift to the mercy of the winds. | The main text of Nihongi states that the child could not walk even after reaching three years of age, with the result that he was placed in the "rock-camphor boat of heaven" (see Torinoiwakusafune) and set adrift to the mercy of the winds. |
+| hiruko-c09 | exact | d-museum.kokugakuin.ac.jp | In later times Hiruko was identified with the deity Ebisu, a maritime tutelary and one of the "seven gods of good fortune" (shichi fukujin). | In later times, Hiruko was identified with the deity Ebisu, a maritime tutelary and one of the "seven gods of good fortune" (shichi fukujin). |
+| hiruko-c10 | exact | ja.wikipedia.org | Hiruko, also written 水蛭子, 蛭子神, 蛭子命 or 蛭児, is a deity appearing in Japanese mythology. | ヒルコ（水蛭子、蛭子神、蛭子命）は、日本神話に登場する神。蛭児とも。 |
+| hiruko-c11 | exact | ja.wikipedia.org | In 『古事記』 (Kojiki) he is the first deity born between Izanagi and Izanami (伊邪那岐命・伊邪那美命) at the birthing of the lands. Because the goddess Izanami spoke first to the god Izanagi when making a child, the child was born deformed, put in a reed boat and sent away from Onogoro Island; together with the next-born アハシマ, he is not counted among the two gods' children. | 『古事記』において国産みの際、イザナキ（伊邪那岐命）とイザナミ（伊邪那美命）との間に生まれた最初の神。しかし、子作りの際に女神であるイザナミから先に男神のイザナキに声をかけた事が原因で不具の子に生まれたため、葦船に入れられオノゴロ島から流されてしまう。次に生まれたアハシマと共に、二神の子の数には入れないと記されている。 |
+| hiruko-c12 | exact | ja.wikipedia.org | In 『日本書紀』 he is written 「蛭児」; its main text places his birth after Amaterasu and Tsukuyomi and before Susanoo, and because his legs would not stand at age three, he was set adrift in a camphor-wood boat (天磐櫲樟船). | 『日本書紀』では「蛭児」と表記される。 ... 本文では三貴子（みはしらのうずのみこ）のうちアマテラスとツクヨミの後、スサノオの前に生まれ、三歳になっても脚が立たなかったため、天磐櫲樟船（アメノイワクスフネ。堅固なクスノキで作った船）に乗せて流した、とする。 |
+| hiruko-c13 | exact | ja.wikipedia.org | Later interpretation suspected, from the writing 水蛭子, that his limbs were malformed like a leech's; some medical scholars suggest he was a formless fetus known as a hydatidiform mole (胞状奇胎). | 後世の解釈では、水蛭子とあることから水蛭のように手足が異形であったのではないかという推測を生んだ。あるいは、胞状奇胎と呼ばれる形を成さない胎児のことではないかとする医学者もある。 |
+| hiruko-c14 | exact | ja.wikipedia.org | Legends of where the cast-off Hiruko washed ashore remain across Japan; 『源平盛衰記』 records that he drifted to Settsu Province, became a god ruling the sea, and appeared at Nishinomiya as 夷三郎殿 (西宮大明神). | 流された蛭子神が流れ着いたという伝説は日本各地に残っている。『源平盛衰記』では、摂津国に流れ着いて海を領する神となって夷三郎殿として西宮に現れた（西宮大明神）、と記している。 |
+| hiruko-c15 | exact | ja.wikipedia.org | The idea of identifying Hiruko with Ebisu (恵比寿・戎) arose from the Muromachi period and is not an ancient tradition, but it spread widely through commentaries on the 古今集 and performing arts; there are place names and surnames written 蛭子 and read "えびす". | ヒルコとえびす（恵比寿・戎）を同一視する説は室町時代からおこった新しい説であり、それ以前に遡るような古伝承ではないが、古今集注解や芸能などを通じ広く浸透しており、蛭子と書いて「えびす」と読む地名ならびに名字も存在する。 |
+| hiruko-c16 | exact | ja.wikipedia.org | Today many shrines enshrine Hiruko, including 和田神社 (Kobe) and 西宮神社 (Nishinomiya, Hyōgo), although many Ebisu shrines identify Ebisu with Kotoshironushi. | 現在、ヒルコ（蛭子神、蛭子命）を祭神とする神社は多く、和田神社（神戸市）、西宮神社（兵庫県西宮市）などで祀られているが、恵比寿を祭神とする神社には恵比寿＝事代主とするところも多い。 |
+| hiruko-c17 | exact | ja.wikipedia.org | There is also an interpretation based on the exiled-noble tale pattern holding that Hiruko is 日る子 ("child of the sun") and a noble "child of the sun" who was cast away for that reason; in it Ebisu is the one who guarded and served him. | また、ヒルコは日る子（太陽の子）であり、尊い「日の御子」であるがゆえに流された、とする貴種流離譚に基づく解釈もあり、こちらでは日の御子を守り仕えたのがエビスであるとする。 |
 
 
 ## ibaraki-doji — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 18 (exact 18), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -203,36 +238,57 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ibaraki-doji-c02 | exact | en.wikipedia.org | Stories place the oni on Mount Ōe and in Kyoto. | In the tales, Ibaraki-dōji is based on Mount Ōe, and once went on a rampage in Kyoto. |
 | ibaraki-doji-c03 | exact | en.wikipedia.org | Ibaraki-dōji is portrayed as a leading servant of Shuten-dōji. | Ibaraki-dōji was the most important servant of Shuten-dōji. |
 | ibaraki-doji-c04 | exact | en.wikipedia.org | One account describes a fearsome giant born with teeth. | Ibaraki-dōji had teeth since birth, and was feared for being a giant. |
+| ibaraki-doji-c05 | exact | yokai.com | According to Yokai.com, the name is a nickname meaning "thorn tree child". | Translation: a nickname meaning “thorn tree child” |
+| ibaraki-doji-c06 | exact | en.wikipedia.org | According to the English article, the "Ibaraki" in his name may refer to Ibaraki, Osaka; "dōji" means "child", but here it denotes a demon offspring. | The "Ibaraki" in his name may refer to Ibaraki, Osaka; "dōji" means "child", but in this context is a demon offspring. |
+| ibaraki-doji-c07 | exact | yokai.com | Most stories and illustrations depict Ibaraki-dōji as a kijo (a female oni), but other stories refer to Shuten-dōji's deputy as male. | Most stories and illustrations depict Ibaraki dōji as a kijo, or a female oni; yet there are other stories which refer to Shuten dōji’s deputy as a male. |
+| ibaraki-doji-c08 | exact | en.wikipedia.org | Their gender is ambiguous: in some stories a kijo (female oni), in others male; the female version is theorized to be Shuten-dōji's lover, son, or his son's lover. | Their gender is ambiguous, in some stories Ibaraki is a kijo (female oni), and in others a male. The female version is theorized to be Shuten-dōji’s lover, son, or his son's lover. |
+| ibaraki-doji-c09 | exact | en.wikipedia.org | The Shuten-dōji gang ran amok in the capital, among other things kidnapping families' girls, but was destroyed by Minamoto no Yorimitsu and his four vassals, the Four Guardian Kings; Ibaraki-dōji managed to escape. | The gang ran amok in the capital, kidnapping families’ girls among other things, but they were destroyed by Minamoto no Yorimitsu and his four vassals, the Four Guardian Kings. However, Ibaraki-dōji was able to escape. |
+| ibaraki-doji-c10 | exact | en.wikipedia.org | In one version, a beautiful, worried-looking girl is put on a horse by Watanabe no Tsuna, suddenly turns into an oni, grasps Tsuna's hair, flies up and carries him toward Mount Atago; Tsuna cuts off the oni's arm and escapes. | A young beautiful girl was on the road, worried, so Watanabe no Tsuna made her ride on a horse, but the girl suddenly transformed into an oni, and grasped Tsuna’s hair, flew in the air, and took him to Mount Atago. Tsuna, not panicked at all, cut off the oni's arm, averting disaster. |
+| ibaraki-doji-c11 | exact | en.wikipedia.org | Several days later Ibaraki-dōji tried to break into Tsuna's estate but could not enter because of the power of a Humane King Sutra and a talisman. | Several days after that, Ibaraki-dōji tried to invade Tsuna's estate using the remaining arm, but due to the power of a Humane King Sutra and a talisman, Ibaraki-dōji was not able to enter. |
+| ibaraki-doji-c12 | exact | yokai.com | According to Yokai.com, at the Rashōmon gate Tsuna severed the arm of an enormous demon who was Ibaraki-dōji, come to avenge Shuten-dōji's death; she fled leaving her arm behind and Rashōmon was no longer haunted. | Tsuna wasted no time, and swung his great katana around, severing the arm of an enormous demon: it was Ibaraki dōji, coming to avenge the murder of Shuten dōji. The injured demon ran away, leaving her arm behind, and Rashōmon was no longer haunted. |
+| ibaraki-doji-c13 | exact | yokai.com | Ibaraki-dōji later returned to Rashōmon looking for her arm; she disguised herself as Watanabe no Tsuna's wet nurse, managed to steal back the severed arm, and fled. | Ibaraki dōji later returned to Rashōmon, looking for her arm. She disguised herself as Watanabe no Tsuna’s wetnurse, and was able to steal back her severed arm and flee. |
+| ibaraki-doji-c14 | exact | yokai.com | Yokai.com describes Ibaraki-dōji as a wholly terrible and fearsome monster, bent on wreaking as much havoc in the human world as possible. | What is known is that Ibaraki dōji was a wholly terrible and fearsome monster, bent of wreaking as much havoc in the human world as possible. |
+| ibaraki-doji-c15 | exact | en.wikipedia.org | As for his birthplace, theories name Settsu Province (including Mio in Ibaraki, Osaka, and Tomatsu in Amagasaki, Hyōgo) or Echigo Province (Niigata). | As for the birthplace, there are theories that it may be Settsu Province (Mio, Ibaraki, Osaka, and Tomatsu, Amagasaki, Hyōgo) or Echigo Province (Niigata, formerly Tochio, now a settlement in Karuizawa, Nagano). |
+| ibaraki-doji-c16 | exact | yokai.com | After that her whereabouts were never known again, though for many years villagers in one town or another occasionally claimed to have seen Ibaraki-dōji coming or going, always connected with some mischief. | After that, her whereabouts were never known again, though for many years after, occasionally in some town or another, villagers would claim that they had seen Ibaraki dōji coming or going, always in connection with some kind of mischief. |
+| ibaraki-doji-c17 | exact | en.wikipedia.org | Ibaraki-dōji appears in Type-Moon's Fate franchise as a Berserker or Lancer class Servant in the mobile game Fate/Grand Order. | Ibaraki-dōji appears in Type-Moon's Fate franchise as a Berserker (original form) or Lancer (Summer event) class Servant in their mobile game Fate/Grand Order. |
+| ibaraki-doji-c18 | exact | en.wikipedia.org | The 2018 mobile game Onmyoji by Netease features a character resembling Ibaraki-dōji as a fearsome Oni, playable as a summoned character. | The 2018 mobile game Onmyoji by Netease features a character resembling Ibaraki Dōuji as a fearsome Oni, available as a playable SSR summoned character. |
 
 
 ## inugami-gyobu — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| inugami-gyobu-c01 | exact | en.wikipedia.org | Inugami Gyōbu is a supernatural tanuki in Matsuyama legends. | Inugami Gyōbu (隠神刑部) or Gyōbu-danuki (刑部狸) is a bake-danuki (a monster tanuki) told about in legends passed down in Matsuyama, Iyo Province (now Ehime Prefecture). |
-| inugami-gyobu-c02 | exact | en.wikipedia.org | He appears in a tale about a disturbance and hundreds of tanuki. | He appears in the "Tale of the Matsuyama Disturbance and the Eight Hundred and Eight Tanuki" (松山騒動八百八狸物語, Matsuyama Sōdō Happyakuya-danuki Monogatari), which is considered one of the big three tanuki tales along with the Shojoji no Tanuki-bayashi and Bunbuku Chagama. |
+| inugami-gyobu-c01 | exact | en.wikipedia.org | Inugami Gyōbu is a supernatural tanuki in the legends of Matsuyama, Iyo Province (now Ehime Prefecture). | Inugami Gyōbu (隠神刑部) or Gyōbu-danuki (刑部狸) is a bake-danuki (a monster tanuki) told about in legends passed down in Matsuyama, Iyo Province (now Ehime Prefecture). |
+| inugami-gyobu-c02 | exact | en.wikipedia.org | He appears in a tale about the Matsuyama disturbance and 808 tanuki. | He appears in the "Tale of the Matsuyama Disturbance and the Eight Hundred and Eight Tanuki" (松山騒動八百八狸物語, Matsuyama Sōdō Happyakuya-danuki Monogatari), which is considered one of the big three tanuki tales along with the Shojoji no Tanuki-bayashi and Bunbuku Chagama. |
 | inugami-gyobu-c03 | exact | en.wikipedia.org | The tale has variants associated with different kōdan storytellers. | For this reason, there are several variations depending on which particular kōdan storyteller told it, but the story mainly went as follows. |
 | inugami-gyobu-c04 | exact | en.wikipedia.org | He is said to inhabit an old cave and protect Matsuyama Castle. | He lived in an old cave in Kumayama, and was a bake-danuki that continued to protect the Matsuyama Castle, and from his household of 808 tanuki, was also called "Eight Hundred and Eight Tanuki (八百八狸, Happyakuya-danuki)." He was said to have the greatest divine power in Shikoku. |
+| inugami-gyobu-c05 | exact | en.wikipedia.org | The "Gyōbu" (刑部, literally "penal affairs") part of his name was a title granted by an ancestor of the lords of Matsuyama Castle; he was trusted by the castle's vassals and had a deep connection with the local people. | The part of his name "Gyōbu"(刑部: lit. penal affairs) was a title awarded by an ancestor of the lords of the Matsuyama Castle, and he received faith from the vassals in the castle, and had a deep connection with the local people. |
+| inugami-gyobu-c06 | exact | en.wikipedia.org | In the era of 松山隠岐守 the O-Ie Sōdō (daimyo-house dispute) occurred; Inugami Gyōbu was used by the rebel side and commanded his follower tanuki to cause strange occurrences in support of the insurrection. | In the era of Matsuyama Oki no Kami (松山隠岐守), the O-Ie Sōdō occurred, and Inugami Gyōbu was used by the rebel side, and he gave commands to his follower tanuki to cause strange occurrences to support the insurrection. |
+| inugami-gyobu-c07 | exact | en.wikipedia.org | However, in the ghost story Inōmono no Roku the warrior Inō Budayū (稲生武太夫) punished Inugami Gyōbu with a divine rod received from Usa Hachiman Dai-bosatsu, and as a result Inugami Gyōbu and his 808 followers were sealed in Kumayama. | However, in the ghost story Inōmono no Roku, the feudal warrior Inō Budayū (稲生武太夫) punished Inugami Gyōbu with a divine rod that he received from Usa Hachiman Dai-bosatsu, and as a result, Inugami Gyōbu and the 808 of his household was sealed in Kumayama. |
+| inugami-gyobu-c08 | exact | en.wikipedia.org | The cave remains today in Kutaninagumi (久谷中組), Matsuyama city, and is known as Yamaguchi Reishin (山口霊神). | The cave remains even today in Kutaninagumi (久谷中組), Matsuyama city, and is known as Yamaguchi Reishin (山口霊神). |
+| inugami-gyobu-c09 | exact | en.wikipedia.org | In one variant, Budayū did not use a divine rod but a wooden mallet he received from the head yōkai, Sanmoto Gorōzaemon (山本五郎左衛門). | Budayū did not use a divine rod, but rather a wooden mallet that he received from the head yōkai, Sanmoto Gorōzaemon (山本五郎左衛門). |
+| inugami-gyobu-c10 | exact | en.wikipedia.org | Opposite to the tale of his defeat by Budayū, other stories have Inugami Gyōbu on the righteous side, unable to make a dent in the rebels, so that he called on Budayū for help. | Just the opposite of Inugami Gyōbu being defeated by Budayuu, there are also stories where Inugami Gyōbu stood with the righteous side, but since he was not able to make a dent to the forces of the rebel side, he called Budayuu for help. |
+| inugami-gyobu-c11 | exact | en.wikipedia.org | Shikoku has many folk tales about tanuki; the tanuki of Matsuyama are said to go back to the age of Emperor Tenji, and as tanuki bore tanuki there came to be 808 of them; their leader was Inugami Gyōbu. | In Shikoku, there are many folk tales and legends about tanuki, but the tanuki of Matsuyama in particular has a history of them that goes back to the beginning of history in the ages of Emperor Tenji, and as a result of tanuki giving birth to tanuki, there were 808 of them. Its leader was Inugami Gyōbu. |
+| inugami-gyobu-c12 | exact | ja.wikipedia.org | According to the Japanese article, 『松山騒動八百八狸物語』 began as a daimyo-house dispute from the Great Kyōhō Famine written down in 1805 as 『伊予名草』, then reworked in the late Edo period by the storyteller 田辺南龍 into a ghost story with tanuki and yokai elements that spread as kōdan. | 『松山騒動八百八狸物語』とは、享保の大飢饉に際して起こったお家騒動が1805年（文化2年）に実録物語『伊予名草』と題して書き下ろされ、さらに江戸末期、講釈師の田辺南龍により狸や妖怪の要素を加えた怪談話に仕立て上げられ、これが講談として広まったものである。 |
 
 
 ## jiaotu — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 7, loose 2), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| jiaotu-c01 | exact | ja.wikipedia.org | Jiaotu is one of the nine sons of the dragon. | 椒図（椒圖、しょうず）は、竜生九子の一つ。姿は蛙にも、タニシやサザエのような巻貝やカラス貝にも似ている。 |
-| jiaotu-c02 | exact | ja.wikipedia.org | Its forms are compared with frogs and shellfish. | 椒図（椒圖、しょうず）は、竜生九子の一つ。姿は蛙にも、タニシやサザエのような巻貝やカラス貝にも似ている。 |
+| jiaotu-c01 | exact | ja.wikipedia.org | Jiaotu is one of the nine sons of the dragon (竜生九子). | 椒図（椒圖、しょうず）は、竜生九子の一つ。姿は蛙にも、タニシやサザエのような巻貝やカラス貝にも似ている。 |
+| jiaotu-c02 | exact | ja.wikipedia.org | The Japanese-language source compares its forms with frogs and shelled creatures. | 椒図（椒圖、しょうず）は、竜生九子の一つ。姿は蛙にも、タニシやサザエのような巻貝やカラス貝にも似ている。 |
 | jiaotu-c03 | exact | ja.wikipedia.org | It is said to favor closed places and resist strangers entering its home. | 閉じることを好み、他所者が巣穴に入ることを嫌う。故に、門扉の握り輪を咥えているという。 |
 | jiaotu-c04 | exact | ja.wikipedia.org | Its image is associated with a ring held on a door. | 閉じることを好み、他所者が巣穴に入ることを嫌う。故に、門扉の握り輪を咥えているという。 |
+| jiaotu-c05 | exact | zh.wikisource.org | In the 椒圖 entry of the 升菴集, the nine sons of the dragon do not become dragons and each has its own liking; 椒圖 is shaped like a snail (螺螄), likes to close things, and so is set above doors. | 柴門 晉書儒林傳賛清貞守道抗志柴門詩人多用柴門字原出於此〈漢書漢中之俗蓬户柴門食必兼肉〉 椒圖 龍生九子不成龍各有所好屭贔鴟吻之類也椒圖其形似螺螄性好閉故立於門上 |
+| jiaotu-c06 | exact | zh.wikisource.org | The entry's author says the name 椒圖 has a source (citing 菽園雜記), then cites 尸子 on imitating shellfish in closing doors and 後漢書禮儀志 on putting shells on doors, so that the snail form of 椒圖 is deemed credible. | 柴門 晉書儒林傳賛清貞守道抗志柴門詩人多用柴門字原出於此〈漢書漢中之俗蓬户柴門食必兼肉〉 椒圖 龍生九子不成龍各有所好屭贔鴟吻之類也椒圖其形似螺螄性好閉故立於門上詞曲門迎駟馬車户列八椒圖人皆不能曉今觀椒圖之名亦有出也見菽園雜記又按尸子云法螺蚌而閉户後漢書禮儀志殷以水德王故以螺著門户則椒圖之似螺形信矣 |
+| jiaotu-c07 | exact | en.wikipedia.org | The nine sons of the dragon is a traditional name for a set of mythological creatures whose imagery is used in certain types of decoration. | The nine sons of the dragon is a traditional name for a set of mythological creatures whose imagery is used in certain types of decorations. |
+| jiaotu-c08 | loose | en.wikipedia.org | The oldest known attestation of the list of the dragon's children is in Lu Rong's 菽園雜記 (1436–1494), but he noted that the list merely enumerates synonyms of various antiques, not children of a dragon. | The oldest known attestation of the children of the dragon list is found in the Miscellaneous records from the bean garden (菽園雜記) by Lu Rong (1436–1494); however, he noted that the list enumerates mere synonyms of various antiques, not children of a dragon. |
+| jiaotu-c09 | loose | en.wikipedia.org | Yang Shen's (楊慎, 1488–1559) list includes nine creatures and is the most widely found version. | Yang Shen's (楊慎, 1488–1559) list, which also includes 9 creatures — this version is the most widely found one |
 
 
 ## kayanohime — lulus-otomatis
@@ -252,38 +308,40 @@ Klaim 7 (loose 1, exact 6), sumber 2, gambar 0.
 
 ## kuebiko — lulus-otomatis
 
-Klaim 6 (loose 5, exact 1), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (loose 5, exact 5), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| kuebiko-c01 | loose | en.wikipedia.org | Kuebiko is a Shinto kami associated with knowledge and agriculture. | Kuebiko (久延毘古) is the Shinto kami ("god; deity") of folk wisdom, knowledge and agriculture, and is represented in Japanese mythology as a scarecrow who cannot walk but has comprehensive awareness. |
+| kuebiko-c01 | loose | en.wikipedia.org | Kuebiko is the Shinto kami of folk wisdom, knowledge and agriculture, represented in Japanese mythology as a scarecrow. | Kuebiko (久延毘古) is the Shinto kami ("god; deity") of folk wisdom, knowledge and agriculture, and is represented in Japanese mythology as a scarecrow who cannot walk but has comprehensive awareness. |
 | kuebiko-c02 | loose | en.wikipedia.org | The myth portrays this kami as a scarecrow unable to walk. | Kuebiko (久延毘古) is the Shinto kami ("god; deity") of folk wisdom, knowledge and agriculture, and is represented in Japanese mythology as a scarecrow who cannot walk but has comprehensive awareness. |
 | kuebiko-c03 | loose | en.wikipedia.org | Despite being immobile, Kuebiko is described as widely knowledgeable. | Kuebiko (久延毘古) is the Shinto kami ("god; deity") of folk wisdom, knowledge and agriculture, and is represented in Japanese mythology as a scarecrow who cannot walk but has comprehensive awareness. |
 | kuebiko-c04 | loose | en.wikipedia.org | The Kojiki also uses the name Yamada no sohodo. | There is also an alternate name of Yamada no sohodo (山田之曾富騰), mentioned in the Kojiki. |
 | kuebiko-c05 | loose | en.wikipedia.org | One part of the name is linked with an old verb for becoming shabby. | Kuebiko comes from kueru (崩える), an archaic verb meaning "to break down; to become shabby and disordered", plus hiko (彦), an old epithet for "boy, young man", in turn from hi ko (日子), literally "sun child". |
 | kuebiko-c06 | exact | en.wikipedia.org | A proposed reading of the name evokes a shabby young man. | The meaning could be translated as something like "shabby young man". |
+| kuebiko-c07 | exact | d-museum.kokugakuin.ac.jp | Kuebiko is a kami incapable of walking but possessing broad knowledge of things in the world. | A kami incapable of walking but possessing broad knowledge of things in the world. |
+| kuebiko-c08 | exact | d-museum.kokugakuin.ac.jp | According to the Kojiki, a kami arrived from across the ocean at Cape Miho in Izumo, where Ōkuninushi was residing; since no one knew who he was, Ōkuninushi took a toad's advice and asked Kuebiko, who correctly answered that the kami was Sukunahikona, offspring of Kamimusuhi. | According to Kojiki, a kami arrived from across the ocean at Cape Miho in Izumo, where the kami Ōkuninushi was residing. Since no one knew the identity of the kami, Ōkuninushi accepted the advice of a toad and asked Kuebiko, whereupon the latter answered correctly that the kami arriving was Sukunahikona, offspring of Kamimusuhi. |
+| kuebiko-c09 | exact | d-museum.kokugakuin.ac.jp | With Sukunahikona's identity established by Kuebiko, Ōkuninushi had a partner to help in making and developing the land. | With the identity of Sukunahikona thus established by Kuebiko, Ōkuninushi had a partner to help in making and developing the land. |
+| kuebiko-c10 | exact | d-museum.kokugakuin.ac.jp | The name Yamada no Sohodo is interpreted as "someone left soaking wet from standing guard over mountain rice fields", a euphemism for a "scarecrow"; kue means "disable" and indicates someone physically handicapped but endowed with wisdom. | The name Yamada no Sohodo is interpreted to mean "someone left soaking wet from standing guard over mountain rice fields," a euphemistic reference to a "scarecrow." Kue means "disable," and indicates someone physically handicapped but endowed with wisdom. |
 
 
 ## kukunochi — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**warn**
-- `claims (kukunochi-c05)` Pernyataan hampir tidak berbagi kata dengan kutipannya sendiri. Pastikan kutipan ini benar-benar mendukung pernyataan ini (bukan kutipan milik klaim lain).
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| kukunochi-c01 | exact | en.wikipedia.org | Kukunochi is a kami associated with trees. | Kukunochi (久久能智神 – Tree Trunk Elder) is the kami of trees, the kami is also called Ki-no-kami, or Kuku-no-shi. |
+| kukunochi-c01 | exact | en.wikipedia.org | Kukunochi is the kami of trees in Japanese mythology, also called Ki-no-kami or Kuku-no-shi. | Kukunochi (久久能智神 – Tree Trunk Elder) is the kami of trees, the kami is also called Ki-no-kami, or Kuku-no-shi. |
 | kukunochi-c02 | exact | en.wikipedia.org | Ki-no-kami is another name used for this deity. | Kukunochi (久久能智神 – Tree Trunk Elder) is the kami of trees, the kami is also called Ki-no-kami, or Kuku-no-shi. |
 | kukunochi-c03 | exact | en.wikipedia.org | Kukunochi and Toyoukehime are grouped as yafunegami. | Along with Toyoukehime this kami is considered a yafunegami. |
 | kukunochi-c04 | exact | en.wikipedia.org | Worship is associated with roof raising and blessings of new houses. | He is worshipped today on the occasion of roof raising ceremonies and the blessing of new houses. |
-| kukunochi-c05 | exact | kojiki.kokugakuin.ac.jp | The creation narrative names Kukunochi among the deities born to the divine pair. | Then they gave birth to the deity of the trees, whose name is Kukunochi no kami 久々能智神 (17). |
+| kukunochi-c05 | exact | kojiki.kokugakuin.ac.jp | The divine pair gave birth to the deity of the trees named Kukunochi no kami. | Then they gave birth to the deity of the trees, whose name is Kukunochi no kami 久々能智神 (17). |
+| kukunochi-c06 | exact | d-museum.kokugakuin.ac.jp | Kukunochi is the kami of trees, called "spirit of trees" (kodama) in the Engishiki. | The kami of trees, called "spirit of trees" (kodama) in Engishiki. |
+| kukunochi-c07 | exact | d-museum.kokugakuin.ac.jp | According to the Kojiki, Kukunochi was born after Izanagi and Izanami finished giving birth to the land; the Nihongi likewise says he was born after they had given birth to the various other kami of sea, rivers, and mountains. | According to Kojiki, Kukunochi was born after Izanagi and Izanami finished giving birth to the land (see kuniumi). Nihongi likewise states that Kukunochi was born after Izanagi and Izanami had given birth to the various other kami (kamiumi) of sea, rivers, and mountains. |
+| kukunochi-c08 | exact | d-museum.kokugakuin.ac.jp | In his Kojikiden, Motoori Norinaga interpreted kuku as "stalk" and chi as a male honorific. | In his Kojikiden, Motoori Norinaga interpreted kuku to mean "stalk," and chi as a male honorific. |
+| kukunochi-c09 | exact | d-museum.kokugakuin.ac.jp | Together with Toyoukehime this kami is called one of the yafunegami ("kami of houses") and is still worshiped today at roof-raising ceremonies and blessings of new houses. | Together with Toyoukehime, this kami is referred to as one of the yafunegami ("kami of houses"), and continues to be worshiped today on the occasion of roof raising ceremonies and the blessing of new houses. |
+| kukunochi-c10 | exact | en.wikipedia.org | It is possible that Kukunochi was originally a tama (spirit) dwelling in trees. | It is possible Kukunochi was originally a tama that dwelled in trees. |
+| kukunochi-c11 | exact | en.wikipedia.org | Many versions state he was born from Izanami and Izanagi, while others state he is the son of Shinatsuhiko. | Many versions state he was born from Izanami and Izanagi, while others state he is the son of Shinatsuhiko. |
+| kukunochi-c12 | exact | en.wikipedia.org | He is the brother of Ōyamatsumi, Shimatsuhiko, and Watatsumi. | He is the brother of Ōyamatsumi, Shimatsuhiko, and Watatsumi. |
 
 
 ## kuraokami — lulus-otomatis
@@ -303,10 +361,7 @@ Klaim 7 (loose 2, exact 5), sumber 2, gambar 0.
 
 ## menreiki — lulus-otomatis
 
-Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (loose 2, exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -314,14 +369,16 @@ Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
 | menreiki-c02 | loose | en.wikipedia.org | Its form is made from gigaku masks. | Menreiki (面霊気) is a type of monster in Japanese folklore, composed of Gigaku masks. |
 | menreiki-c03 | exact | en.wikipedia.org | It appears in the 1781 Gazu Hyakki Tsurezure Bukuro. | It is listed within the 1781 compendium of Japanese supernatural entities, entitled Gazu Hyakki Tsurezure Bukuro. |
 | menreiki-c04 | exact | en.wikipedia.org | One origin account links its masks with Prince Shotoku and Hata no Kawakatsu. | It is mentioned in folklore that during the time of Prince Shotoku, the prince created various Gigaku masks which were used by Hata no Kawakatsu, and that the Menreiki is based on those masks. |
+| menreiki-c05 | exact | ja.wikipedia.org | Menreiki (めんれいき) is a mask yokai recorded in the yokai picture collection 『百器徒然袋』 by Toriyama Sekien (鳥山石燕). | 面霊気（めんれいき）は、鳥山石燕による妖怪画集『百器徒然袋』にある日本の妖怪の一つで、面の妖怪。 |
+| menreiki-c06 | exact | ja.wikipedia.org | Sekien's explanatory text says that in the time of 聖徳太子, 秦の川勝 made many masks, and the lifelike masks may be 川勝's work. | 石燕による解説文には「聖徳太子の時、秦の川勝あまたの仮面を製せしよし。かく生けるがごとくなるは、川勝のたくめる仮面にやあらんと、夢心におもひぬ。」とある。 |
+| menreiki-c07 | exact | ja.wikipedia.org | 泰河勝 (はたのかわかつ) was a figure of the Asuka period said by legend to be founder of 申楽, the performing art that became the root of Noh and Kyōgen; 石燕 says the masks made by 秦河勝 may be the 面霊気. | 泰河勝（はたのかわかつ）は飛鳥時代の人物で、能・狂言の原型となった芸能・「申楽」の始祖であるという伝説を持つ。そのような、面を使う芸能とゆかりのある秦河勝の作った面がこの「面霊気」であろうかと石燕は述べている。 |
+| menreiki-c08 | exact | ja.wikipedia.org | There is a legend that 聖徳太子 had 秦河勝 make 66 masks for 66 pieces of 神楽 honoring the gods, which became the origin of 申楽 (猿楽); 石燕 is thought to have written the explanation of 面霊気, his invented mask yokai of Noh and Kyōgen, from this legend. | 神々をまつる六十六番の神楽に使うため、聖徳太子が秦河勝に六十六の面を作らせたことが、後の申楽（猿楽）の元祖となったという伝説があり、この伝説を素材として、石燕は能・狂言の面の妖怪として創作した面霊気の解説文を執筆したと考えられている。 |
+| menreiki-c09 | exact | ja.wikipedia.org | Explanations from the Shōwa and Heisei periods describe it as an aged mask transformed, moving at night, a tsukumogami (付喪神, a yokai from a changed object) from a fine mask grown old and inhabited by a soul, asking its owner to treat it with care. | 古くなった面の化けたもので夜になると動き出す、優れた作品の面が古くなって魂を宿した付喪神（器物が変化した妖怪）であり、持ち主に対して大切に扱ってくれるよう頼むなどの解説がある。 |
 
 
 ## mizuchi — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (loose 2, exact 11), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -329,30 +386,39 @@ Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
 | mizuchi-c02 | exact | en.wikipedia.org | Some commentators interpret it as a water deity. | Some commentators perceived it to have been a water deity. |
 | mizuchi-c03 | exact | en.wikipedia.org | The name appears in the Nihon Shoki and a Man’yōshū poem. | It is described in the Nihon Shoki and one Man'yōshū poem. |
 | mizuchi-c04 | exact | en.wikipedia.org | One analysis divides its old pronunciation into elements for water, possession and spirit. | In olden times pronounced mi-tsu-chi, the word can be broken down to mi "water" + tsu a particle meaning "of" + chi "spirit". |
+| mizuchi-c05 | exact | en.wikipedia.org | The ancient chronicle Nihongi contains references to mizuchi: in central Kibi Province, at a fork of the Kawashima River (川嶋河, old name of the Takahashi River in Okayama Prefecture), a great water serpent or dragon (大虬) dwelt and spewed venom that poisoned and killed many passersby. | The ancient chronicle Nihongi contains references to mizuchi. ... in central Kibi Province, at a fork on Kawashima River (川嶋河, old name of Takahashi River in Okayama Prefecture), a great water serpent or dragon (大虬) dwelt and would breathe or spew out its venom, poisoning and killing many passersby. |
+| mizuchi-c06 | exact | en.wikipedia.org | The man approached the river pool, cast three floating calabashes and challenged the beast to sink them, threatening to kill it if it failed; the beast turned into a deer, failed to sink them, and was slain. | He approached the pool of the river, cast three calabashes which floated to the surface of the water and challenged the beast to make these gourds sink, threatening to slay it should it fail. The beast transformed into a deer and tried unsuccessfully to sink them, whereby the man slew the monster. |
+| mizuchi-c07 | exact | en.wikipedia.org | Kunio Yanagita emphasized that although a character like 虬 may suggest a snake-like being, the mizuchi signifies a "water spirit". | Kunio Yanagita also emphasized that while the use of character like 虬 may suggest a snake-like being, it should be stressed that the mizuchi signifies a "water spirit". |
+| mizuchi-c08 | exact | en.wikipedia.org | Minakata also conjectured that in some regions the mizuchi eventually came to be regarded as creatures of the kappa kind. | Minakata also conjectured that in some parts of the country, mizuchi eventually came to be regarded as creatures of the kappa kind. |
+| mizuchi-c09 | loose | en.wikipedia.org | This mizuchi was exterminated by a man named Agatamori (県守), ancestor of the Kasa-no-omi (笠臣) clan. | This mizuchi was exterminated by a man named Agatamori (県守), ancestor of the Kasa-no-omi (笠臣) clan. |
+| mizuchi-c10 | exact | ja.wikipedia.org | According to the Japanese article, 蛟 (みずち; old reading 「みつち」) is a kind of dragon, legendary serpent or water deity regarded as connected with water in Japanese myth and legend. | 蛟（みずち；古訓は「みつち」）は、日本の神話・伝説で水と関係があるとみなされる竜類か伝説上の蛇類または水神。 |
+| mizuchi-c11 | exact | ja.wikipedia.org | 南方熊楠 wrote that in Japan too the various snakes living by the water and feared by people seem to have been called ミヅチ in the sense of "master of the water". | 南方熊楠は、『十二支考・蛇』の冒頭で、「わが邦でも水辺に住んで人に怖れらるる諸蛇を水の主というほどの意〔こころ〕でミヅチと呼んだらしい」としている。 |
+| mizuchi-c12 | exact | ja.wikipedia.org | 『和名抄』 has entries for 「虬龍」, 「螭龍」 and 「蛟」; of these 「蛟」 is given the Japanese name 「美豆知」 and noted as corresponding to 「大虬」 in the 日本書紀. | 『和名抄』は、「虬龍」、「螭龍」、「蛟」のいずれの項もあるが、このうち「蛟（こう）」を和名の「美豆知」とし、日本書紀の「大虬（みづち）」に相当すると注釈されている。 |
+| mizuchi-c13 | exact | en.wikipedia.org | In the anime film Spirited Away, the character Haku looks like a Mizuchi and is a river spirit. | Spirited Away (anime, movie) – the character Haku looks like a Mizuchi and he is a river spirit. |
 
 
 ## mizuhanome — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| mizuhanome-c01 | exact | en.wikipedia.org | Mizuhanome is a water deity in Japanese mythology. | Mizuhanome (彌都波能売神 or みつはのめのかみ) is a divinity of water in Japanese mythology. |
+| mizuhanome-c01 | exact | en.wikipedia.org | Mizuhanome is a divinity of water in Japanese mythology. | Mizuhanome (彌都波能売神 or みつはのめのかみ) is a divinity of water in Japanese mythology. |
 | mizuhanome-c02 | exact | en.wikipedia.org | One myth traces her birth to Izanami’s urine. | She was born from the urine of Izanami. |
 | mizuhanome-c03 | exact | en.wikipedia.org | Atago Shrine is associated with her worship. | She is enshrined at Atago Shrine. |
 | mizuhanome-c04 | exact | en.wikipedia.org | Other shrines dedicated to her include Ashiya and Niukawakami. | Ashiya Shrine and Niukawakami Shrine are also dedicated to her. |
 | mizuhanome-c05 | exact | kojiki.kokugakuin.ac.jp | The academic translation writes the deity’s name as Mitsuhanome. | Then, from her urine a deity named Mitsuhanome no kami 弥 都 波 能 売 神 (5) came into existence. |
+| mizuhanome-c06 | exact | d-museum.kokugakuin.ac.jp | Mizuhanome (Mitsuhanome) is a kami of water; when Izanami fell ill upon giving birth to the fire kami Kagutsuchi, Mitsuhanome was produced from her urine. | A kami of water. Upon giving birth to the fire kami Kagutsuchi, Izanami fell ill and the kami Mitsuhanome was produced from her urine. |
+| mizuhanome-c07 | exact | d-museum.kokugakuin.ac.jp | According to the Nihongi, Mitsuhanome was produced just before Izanami died. | According to Nihongi, Mitsuhanome was produced just before Izanami died |
+| mizuhanome-c08 | exact | d-museum.kokugakuin.ac.jp | Jinmu gave the name Itsu no Mitsuhanome ("sacred-water-female") to the water offered in the ritual by the officiating priestess Itsuhime. | Jinmu gave the name Itsu no Mitsuhanome (sacred-water-female) to the water offered as part of the ritual by the officiating priestess Itsuhime. |
+| mizuhanome-c09 | exact | d-museum.kokugakuin.ac.jp | Itsu means "sacred" or "holy", mitsu (or mizu) means "water", and me is the feminine suffix. | Itsu means "sacred" or "holy," mitsu (or mizu) means "water," and me is the feminine suffix. |
+| mizuhanome-c10 | exact | en.wikipedia.org | Her name is also explained as "water snake woman" or "water dragon woman". | Her name is explained as water snake woman or water dragon woman. |
+| mizuhanome-c11 | exact | en.wikipedia.org | According to director Makoto Shinkai, the name of the character Mitsuha Miyamizu in the film Your Name is said to come from the goddess. | According to director Makoto Shinkai the name for the character Mitsuha Miyamizu from the movie Your Name is said to come from the goddess. |
 
 
 ## moryo — lulus-otomatis
 
-Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (loose 2, exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -360,6 +426,13 @@ Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
 | moryo-c02 | exact | en.wikipedia.org | The concept is traced to nature spirits in China. | Originally, they were a kind of spirit from nature in China. |
 | moryo-c03 | exact | en.wikipedia.org | The Huainanzi describes a childlike form with dark red coloring. | In the Huainanzi, there is the statement that "mōryō have a shape like that of a three-year-old little child, are dark red in color, have red eyes, long ears, and beautiful hair." In the Compendium of Materia Medica, there is the statement "mōryō like to eat the innards of the dead. |
 | moryo-c04 | loose | en.wikipedia.org | One account associates its fears with tigers and oak. | In its true nature, the mōryō is fearful of tigers and oak, and is given the name 弗述. |
+| moryo-c05 | exact | en.wikipedia.org | They go underground and eat the brains of the dead, but it is said they die when an oak is pressed against their necks. | They go underground and eat the brains of the dead, but it is said that when an oak is pressed against their necks, they die. |
+| moryo-c06 | exact | en.wikipedia.org | In Japan mōryō are sometimes regarded as the same as the kasha, the yōkai that steal corpses, and there are examples of kasha-like stories told under the name mōryō. | in Japan mōryō are sometimes seen to be the same as the yōkai that would steal corpses of the dead, the kasha, and there can be seen examples where stories similar to that of the kasha are stated under the name mōryō. |
+| moryo-c07 | exact | en.wikipedia.org | In the essay "Mimibukuro" by Negishi Shizumori, from the Edo period, an official named Shibata had a loyal retainer who one evening said "I'm not a human but a mōryō" and resigned. | In the essay "Mimibukuro" by Negishi Shizumori in the Edo period, a government official named Shibata had a loyal retainer, but on one evening, said "I'm not a human but a mōryō" and resigned. |
+| moryo-c08 | exact | en.wikipedia.org | The next day the retainer vanished, and at a funeral in the village he named dark clouds suddenly covered the place; when they cleared, the corpse is said to have vanished from the coffin. | The next day, the retainer disappeared, and at a funeral in the village that he mentioned, some dark clouds suddenly covered over, and when the clouds disappeared, it is said that the corpse disappeared from the coffin. |
+| moryo-c09 | exact | ja.wikipedia.org | In Japan it is read 「みずは」, meaning a water deity, and the word is also written with various characters such as 「水波」, 「美豆波」 and 「弥都波」. | 日本では水神を意味する「みずは」と訓じ、この語は他に「水波」「美豆波」「弥都波」などさまざまな漢字で表記される。 |
+| moryo-c10 | exact | ja.wikipedia.org | According to the 『淮南子』, 罔象 arises from water, and according to the 『史記』 Confucius held that water prodigies are dragons or 罔象. | 『淮南子』によると、罔象は水から生じる。また、『史記』によると、孔子は水の怪は龍や罔象であるとした。 |
+| moryo-c11 | exact | ja.wikipedia.org | From this 魍魎 came to be regarded as a general term for water prodigies, a sense that pairs with 魑魅, prodigies of mountains and rivers (together 魑魅魍魎). | これらから、魍魎も水の怪の総称とみなされるようになった。この意味は、山川の怪を意味する魑魅と対を成すようになった（あわせて魑魅魍魎）。 |
 
 
 ## noderabo — lulus-otomatis
@@ -395,25 +468,26 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## takuhadachijihime — lulus-otomatis
 
-Klaim 4 (loose 2, exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (loose 2, exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| takuhadachijihime-c01 | loose | en.wikipedia.org | Takuhadachijihime is a kami associated with textiles. | Takuhadachijihime (栲幡千千姫命) is a deity (kami) in Japanese mythology said to be the goddess of textiles. |
+| takuhadachijihime-c01 | loose | en.wikipedia.org | Takuhadachijihime is a kami in Japanese mythology said to be the goddess of textiles. | Takuhadachijihime (栲幡千千姫命) is a deity (kami) in Japanese mythology said to be the goddess of textiles. |
 | takuhadachijihime-c02 | exact | en.wikipedia.org | The Kojiki identifies her as a daughter of Takamimusubi. | According to the Kojiki, she is the daughter of Takamimusubi and was married to Oshihomimi, Amaterasu's eldest son, and also gave birth to Ninigi. |
 | takuhadachijihime-c03 | exact | en.wikipedia.org | The same account makes her the spouse of Oshihomimi and mother of Ninigi. | According to the Kojiki, she is the daughter of Takamimusubi and was married to Oshihomimi, Amaterasu's eldest son, and also gave birth to Ninigi. |
 | takuhadachijihime-c04 | loose | en.wikipedia.org | Yorozuhatahime is another name used in the Kojiki. | In the Kojiki, she is also referred to by the name Yorozuhatahime (万幡豊秋津師比売命). |
+| takuhadachijihime-c05 | exact | d-museum.kokugakuin.ac.jp | Other names include Ame yorozu Takuhatachihatahime, Takuhatachijihime yorozuhatahime no mikoto and Honotohatahimekochijihime no mikoto (Nihongi). | Ame yorozu Takuhatachihatahime, Takuhatachijihime yorozuhatahime no mikoto, Honotohatahimekochijihime no mikoto (Nihongi). |
+| takuhadachijihime-c06 | exact | d-museum.kokugakuin.ac.jp | She is the daughter of Takamimusuhi and, according to an "alternate writing" transmitted by the Nihongi, the younger sister of Omoikane. | The daughter of Takamimusuhi, and according to an "alternate writing" transmitted by Nihongi, the younger sister of Omoikane. |
+| takuhadachijihime-c07 | exact | d-museum.kokugakuin.ac.jp | She wed Amenooshihomimi no mikoto, who had been ordered to descend to the Central Land of Reed Plains; while waiting for the pacification of the Central Land she gave birth to Ninigi, who later descended in Oshihomimi's place. | She wed Amenooshihomimi no mikoto, who had been ordered to descend to the Central Land of Reed Plains, but while waiting for the pacification of the Central Land, she gave birth to Ninigi, and he later descended in Oshihomimi's place. |
+| takuhadachijihime-c08 | exact | d-museum.kokugakuin.ac.jp | The Kojiki and an "alternate writing" in the Nihongi also relate the birth of Hoakari no mikoto, Ninigi's elder brother and ancestor of the Owari no Muraji clan. | Kojiki and an "alternate writing" in Nihongi also relate the birth of Hoakari no mikoto, elder brother of Ninigi and ancestor of the clan Owari no Muraji. |
+| takuhadachijihime-c09 | exact | d-museum.kokugakuin.ac.jp | The versions differ on the title of Ninigi's mother but agree in including elements of weaving, cloth and bountiful harvests, and in depicting Toyoakitsushihime as a link between Amaterasu, Takamimusuhi and the imperial line. | The various versions are also inconsistent regarding the title of Ninigi's mother, but they agree in including elements relating to weaving, cloth, and bountiful harvests, and in their depictions of Toyoakitsushihime as a link between the two kami Amaterasu and Takamimusuhi, and the imperial line. |
+| takuhadachijihime-c10 | exact | d-museum.kokugakuin.ac.jp | An alternate version says she was consort to Amenooshihone no mikoto, while another tradition says Tamayorihime, child of Yorozuhatahime, became his consort and bore Amenokihohookise no mikoto (Ninigi). | An alternate version of the episode says she was the consort to Amenooshihone no mikoto, while yet another tradition states that Tamayorihime, child of Yorozuhatahime, became consort to Amenooshihone no mikoto and gave birth to Amenokihohookise no mikoto (Ninigi). |
+| takuhadachijihime-c11 | exact | en.wikipedia.org | She is enshrined at Shiozawa Shrine in Fukushima Prefecture, Tsubaki Grand Shrine in Mie Prefecture, and Izuenashi Shrine in Osaka Prefecture. | She is enshrined at Shiozawa Shrine in Fukushima Prefecture, Tsubaki Grand Shrine in Mie Prefecture, and Izuenashi Shrine in Osaka Prefecture. |
 
 
 ## tarantasio — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 14 (exact 14), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -421,6 +495,16 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | tarantasio-c02 | exact | it.wikipedia.org | Stories describe it as destroying boats and threatening children. | Si riteneva che questo animale mitologico divorasse i bambini, distruggesse le imbarcazioni e ammorbasse l'aria con il suo fiato pestilenziale, causando una strana malattia denominata febbre gialla. |
 | tarantasio-c03 | exact | it.wikipedia.org | Its foul breath is said to contaminate the surrounding air. | Si riteneva che questo animale mitologico divorasse i bambini, distruggesse le imbarcazioni e ammorbasse l'aria con il suo fiato pestilenziale, causando una strana malattia denominata febbre gialla. |
 | tarantasio-c04 | exact | it.wikipedia.org | Local legends connect the dragon’s death with the lake drying up. | Sono sorte poi numerose leggende riguardo al drago, tutte accomunate dalla concomitanza tra l'uccisione di Tarànto e il prosciugamento del lago. |
+| tarantasio-c05 | exact | it.wikipedia.org | According to popular legends, Lake Gerundo was inhabited by a dragon called Tarànto, more commonly known as Tarantasio, which fed above all on children. | Secondo le leggende popolari, il lago Gerundo sarebbe stato abitato da un dragone chiamato Tarànto, più comunemente conosciuto come Tarantasio, il quale si sarebbe nutrito soprattutto di bambini. |
+| tarantasio-c06 | exact | it.wikipedia.org | A popular tradition tells that the dragon was born from the putrefying flesh of the commander Ezzelino III da Romano, who died in those very lands. | Una tradizione popolare racconta che il drago sarebbe nato dalle carni putrefatte del condottiero Ezzelino III da Romano, morto proprio in quelle terre. |
+| tarantasio-c07 | exact | it.wikipedia.org | Some popular sources attribute the draining and reclamation of the lake to Saint Christopher, who is said to have defeated the dragon, or to Frederick Barbarossa. | Alcune fonti popolari attribuiscono il prosciugamento e la bonifica del lago a san Cristoforo, che avrebbe sconfitto il drago, o a Federico Barbarossa. |
+| tarantasio-c08 | exact | it.wikipedia.org | The most evocative version has the dragon killed by the progenitor of the Visconti, who then adopted the defeated creature, the biscione with a child in its mouth, as an emblem. | La più suggestiva riguarda l'uccisione del drago da parte del capostipite dei Visconti, il quale avrebbe poi adottato come simbolo la creatura sconfitta, ovvero il biscione con il bambino in bocca. |
+| tarantasio-c09 | exact | it.wikipedia.org | In fact the legend of the dragon is already spoken of in 1100 by the monk Sabbio in his memoirs on the city of Lodi. | In realtà, della leggenda del drago parla già nel 1100 il monaco Sabbio nelle sue memorie sulla città di Lodi |
+| tarantasio-c10 | exact | it.wikipedia.org | An explicit reference to the legend of the dragon Tarantasio is found in a fresco in the cloister of the church of San Marco in Milan, datable to the 13th-14th century, showing the mythological animal against the lake. | Un riferimento esplicito alla leggenda del drago Tarantasio si trova in un affresco del chiostro della chiesa milanese di San Marco, databile al XIII-XIV secolo, dove l'animale mitologico viene raffigurato sullo sfondo del lago. |
+| tarantasio-c11 | exact | it.wikipedia.org | A hamlet of Cassano d'Adda is named Taranta in reference to the legend. | Una frazione di Cassano d'Adda è denominata Taranta in riferimento alla leggenda. |
+| tarantasio-c12 | exact | it.wikipedia.org | Some ribs of the dragon are still preserved, among others at the church of San Bassiano in Pizzighettone, Cremona; one of the ribs was studied by the naturalist Enrico Caffi in the 19th century, who identified it as belonging to a mammoth. | Altre costole del drago sono oggi conservate ancora invece presso la chiesa di San Bassiano a Pizzighettone, Cremona (170 cm) ... Quest'ultima costola fu studiata in particolare dal naturalista Enrico Caffi nel XIX secolo che la identificò come appartenente ad un mammuth. |
+| tarantasio-c13 | exact | it.wikipedia.org | The killing of a tarantasio dragon (which in the story denotes a species rather than a single individual) is the opening episode of the fantasy novel Donna di spade by Giuseppe Pederiali, published in 1991. | L'uccisione di un drago tarantasio (che nell'economia del racconto indica una specie piuttosto che un singolo individuo) rappresenta l'episodio iniziale del romanzo fantasy Donna di spade di Giuseppe Pederiali, pubblicato nel 1991. |
+| tarantasio-c14 | exact | www.mentelocale.it | According to Mentelocale, the Eni logo designed in 1952, a six-legged fire-breathing dog, was inspired by the dragon legend. | Luigi Broggini si ispir ... alla leggenda del drago per disegnare nel 1952 il celeberrimo logo dell’Eni: un cane sputafuoco a sei zampe. |
 
 
 ## tenome — lulus-otomatis
@@ -470,25 +554,33 @@ Klaim 6 (exact 4, loose 2), sumber 2, gambar 0.
 
 ## zennyo-ryuo — lulus-otomatis
 
-Klaim 4 (loose 1, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 15 (loose 2, exact 13), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | zennyo-ryuo-c01 | loose | en.wikipedia.org | Zennyo Ryūō is a rain-associated dragon deity in Japanese mythology. | Zennyo Ryūō (善如龍王 or 善女龍王; lit. "goodness-like dragon-king" or "goodness woman dragon-king", respectively) is a rain-god dragon in Japanese mythology. |
-| zennyo-ryuo-c02 | exact | en.wikipedia.org | A Buddhist tradition links the dragon with Kūkai’s rainmaking rite in 824. | According to Japanese Buddhist tradition, the priest Kūkai made Zennyo Ryūō appear in 824 AD during a famous rainmaking contest at the Kyoto Imperial Palace. |
-| zennyo-ryuo-c03 | exact | en.wikipedia.org | The name includes an expression meaning dragon king. | The dragon name Zennyo Ryūō is written in Japanese as 善 zen "good, goodness; virtuous", 女 nyo "woman; female" or 如 nyo "like; as if; be like; thus" (differentiated with the "mouth radical" 口), and 龍王 ryūō or 竜王 "dragon king". |
+| zennyo-ryuo-c02 | exact | en.wikipedia.org | According to Japanese Buddhist tradition, Kūkai made the dragon appear in 824 at the Kyoto Imperial Palace in a famous rainmaking contest. | According to Japanese Buddhist tradition, the priest Kūkai made Zennyo Ryūō appear in 824 AD during a famous rainmaking contest at the Kyoto Imperial Palace. |
+| zennyo-ryuo-c03 | exact | en.wikipedia.org | The name contains 龍王, meaning dragon king; 善 means good. | The dragon name Zennyo Ryūō is written in Japanese as 善 zen "good, goodness; virtuous", 女 nyo "woman; female" or 如 nyo "like; as if; be like; thus" (differentiated with the "mouth radical" 口), and 龍王 ryūō or 竜王 "dragon king". |
 | zennyo-ryuo-c04 | exact | en.wikipedia.org | Art represents the deity as a small dragon or as a human with a dragon’s tail. | Zennyo is a common theme in Japanese art, usually depicted as a small dragon but sometimes as a human, either male or female, with a dragon's tail. |
+| zennyo-ryuo-c05 | exact | en.wikipedia.org | Zennyo's best-known appearance was at the 824 Buddhist rainmaking competition at the Shinsen'en (神泉苑, "Divine Spring Garden") in Kyoto, where the priest Kūkai (Kōbō-Daishi), founder of Shingon Buddhism, and his rival Shubin (守敏) held a rain-sutra recitation contest. | The best-known appearance of Zennyo was during an 824 CE Buddhist rainmaking competition at the Shinsen'en or Shinzen'en 神泉苑 "Divine Spring Garden" in Kyoto. The scholar priest Kūkai or Kōbō-Daishi (774–835 CE), founder of Shingon "True Word" Buddhism, and his rival priest Shubin 守敏 held a rain-sutra recitation contest. |
+| zennyo-ryuo-c06 | exact | en.wikipedia.org | Zennyo is worshipped at the Shinto shrine Zennyo Ryūō-sha (善女竜王社) on an island in the Shinsen'en, reached by crossing the Hōsei-bashi (法成橋) bridge. | Zennyo is worshipped at the Zennyo Ryūō-sha 善女竜王社 Shinto shrine on an island in the Shinsen'en, reached by crossing the Hōsei-bashi 法成橋 "Dharma Completion Bridge". |
+| zennyo-ryuo-c07 | exact | en.wikipedia.org | The 835 御遺告 (Goyuigō), which records Kūkai's last words, first describes Zennyo as a golden snake eight sun (about 24 cm) long riding on the head of a dragon nine shaku (about 2.7 m) long. | The 835 CE Goyuigō 御遺告, which records Kūkai's last words, first describes Zennyo (Fowler 1997:154) as, "a golden snake measuring eight sun 寸 (approx. 24 cm) riding on the head of a dragon measuring nine shaku 尺 (approx. 2.7 m). |
+| zennyo-ryuo-c08 | exact | en.wikipedia.org | Some versions of this Kūkai story have Zennyo coming from Mount Murō and others from Lake Anavatapta, at the center of the world in Buddhist cosmology. | Some versions of this Kūkai story record Zennyo coming from Mount Murō and others from Lake Anavatapta, which is at the center of the world in Buddhist cosmology. |
+| zennyo-ryuo-c09 | exact | en.wikipedia.org | Zennyo or Zentatsu (善達) supposedly lived in the Ryūketsu (龍穴, "dragon cave") on Mount Murō (室生山) in Nara Prefecture, an ancient site of dragon worship and rainmaking ceremonies in Japan. | Zennyo or Zentatsu 善達 supposedly lived in the Ryūketsu 龍穴 "Dragon Hole/Cave" on Murōyama 室生山 "Mount Murō" in Nara Prefecture, which was an ancient locale of Japanese dragon worship and rainmaking ceremonies. |
+| zennyo-ryuo-c10 | exact | en.wikipedia.org | Kokan Shiren's Genkō Shakusho (c. 1322) has a story of the priest Keien (慶圓, 1143-1223) meeting a beautiful woman who was in fact a shapeshifting Zennyo. | Kokan Shiren's c. 1322 CE Genkō Shakusho "the Genkō era History of Buddhism" has a story about the priest Keien 慶圓 (1143–1223 CE) encountering a beautiful woman who was actually a shapeshifting Zennyo. |
+| zennyo-ryuo-c11 | exact | en.wikipedia.org | In that story the woman answers "I am the Dragon Zennyo", and the little finger she stretches out proves to be a claw more than ten shaku long that spreads a five-coloured light. | she answered: "I am the Dragon Zennyo". ... It proved to be a claw, more than ten shaku long, which spread a five-coloured light. |
+| zennyo-ryuo-c12 | exact | ja.wikipedia.org | Zennyo Ryūō (善女龍王) is one of the dragon kings who are objects of rain-praying, and is also written 「善如龍王」. | 善女龍王（ぜんにょりゅうおう）は雨乞いの対象である竜王のうちの一尊。「善如龍王」とも表記される。 |
+| zennyo-ryuo-c13 | exact | ja.wikipedia.org | On investigation, the dragon gods of the whole land had been shut in a pitcher by 守敏, who envied 空海's fame; only Zennyo Ryūō had escaped 守敏's hand, so he was summoned from the pond 無熱池 in India and is said to have sent heavy rain over the whole country. | 調べると空海の名声を妬む守敏により国中の龍神が瓶に閉じ込められていた。しかしただ1体、善女龍王だけは守敏の手から逃れていたので天竺の無熱池（むねっち）から呼び寄せて国中に大雨を降らせたという。 |
+| zennyo-ryuo-c14 | loose | ja.wikipedia.org | The Zennyo Ryūō who came at 弘法 (空海)'s rain-praying is said to belong to the family of 阿那婆達多龍王, one of the Eight Dragon Kings, and to have been brought from the pond 阿耨達池 by 阿那婆達多. | この弘法（空海）の雨乞いの際にやってきた善女龍王は、八大竜王のひとり阿那婆達多龍王の一族で、阿耨達池（あのくだっち）より阿那婆達多によって連れてこられたとされる。 |
+| zennyo-ryuo-c15 | exact | ja.wikipedia.org | Although it says 「善女」, its image is sometimes shown as a male deity, so it is not necessarily a goddess. | 「善女」とあるが、像容は男神像で表現されることもあり女神であるとは限らない。 |
 
 
 ## ainu-kaisei — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 6 (exact 6), sumber 1, gambar 0.
 
 **manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -496,6 +588,8 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | ainu-kaisei-c02 | exact | ja.wikipedia.org | It is described as wearing a worn attush garment. | ぼろぼろのアットシ（シナノキやオヒョウニレの樹皮の繊維で織った、アイヌの民族衣装）を身に纏い、空家や古い家などに現れる。 |
 | ainu-kaisei-c03 | exact | ja.wikipedia.org | Stories place it in old or empty houses. | ぼろぼろのアットシ（シナノキやオヒョウニレの樹皮の繊維で織った、アイヌの民族衣装）を身に纏い、空家や古い家などに現れる。 |
 | ainu-kaisei-c04 | exact | ja.wikipedia.org | It is said to press on a sleeper’s chest or neck. | ぼろぼろのアットシ（シナノキやオヒョウニレの樹皮の繊維で織った、アイヌの民族衣装）を身に纏い、空家や古い家などに現れる。人が眠っていると、胸や首を押し付けて苦しめるという。 |
+| ainu-kaisei-c05 | exact | ja.wikipedia.org | The folktale researcher 佐々木喜善 states in his book that there may be a connection with 座敷童子 (zashiki-warashi). | 民話研究家・佐々木喜善は著書において、座敷童子との関連性があるのではないかと述べている。 |
+| ainu-kaisei-c06 | exact | ja.wikipedia.org | The name element 「カイセイ」 means 「死骸」 (corpse) in the Ainu language. | 民話研究家・佐々木喜善は著書において、座敷童子との関連性があるのではないかと述べている。 なお、名称の「カイセイ」はアイヌ語で「死骸」を意味する。 |
 
 
 ## amatsumara — lulus-otomatis
