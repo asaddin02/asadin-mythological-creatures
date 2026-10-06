@@ -1,6 +1,6 @@
 # Review batch-072
 
-Diperiksa 2026-10-01T17:54:25.534Z. Berkas: batch-072.md, batch-072-fix-1.md, batch-072-fix-2.md.
+Diperiksa 2026-10-06T14:25:45.978Z. Berkas: batch-072.md, batch-072-fix-1.md, batch-072-fix-2.md, batch-072-fix-3.md.
 
 ## sita — lulus-otomatis
 
@@ -649,10 +649,7 @@ Klaim 6 (loose 2, exact 4), sumber 2, gambar 0.
 
 ## shukra — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 23 (exact 22, loose 1), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -662,6 +659,23 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | shukra-c04 | exact | en.wikipedia.org | Later Sanskrit texts identify Ushanas, Kavya, Shukra, and Bhargava as names of the same figure. | While the Vedic texts primarily refer to the figure as Ushanas Kavya, later Sanskrit literature introduces Shukra and Bhargava (lit. 'descendant of Bhrigu') serving as common epithets for the sage named Ushanas. As a result, the names Ushanas, Kavya, Shukra and Bhargava came to be treated as referring to the same individual in the later tradition. |
 | shukra-c05 | exact | en.wikipedia.org | In later texts he is called Bhrigu's son or grandson and Kavyamata's son. | Ushanas is mentioned as the son (or grandson in some texts) of the sage Bhrigu, one of the seven revered sages originating from the creator god Brahma. His mother is called Kavyamata (lit. 'mother of Kavya'). |
 | shukra-c06 | exact | en.wikipedia.org | Later Puranas establish his role as priest and preceptor of the asuras. | By the time of the later Puranas, however, his role as the priest and preceptor of the asuras is firmly concretised. |
+| shukra-c07 | exact | en.wikipedia.org | He becomes associated with Venus and is most famous for possessing the Mrtasanjivani, a magical skill that can bring the dead back to life. | He becomes associated with Venus and is most famous for possessing the Mṛtasañjīvanī—a magical skill that can bring the dead back to life. |
+| shukra-c08 | exact | en.wikipedia.org | In earlier texts he is portrayed as teacher of both the devas and the asuras, and in later texts he is established solely as the purohita of the asuras. | He is first portrayed as the teacher of both the devas (gods) and the asuras (antigods) in earlier texts, before becoming established solely as the purohita of the asuras in later texts. |
+| shukra-c09 | exact | en.wikipedia.org | The Mahabharata mentions that Ushanas divided himself into two halves, one the source of knowledge for the devas and the other for the asuras. | The Mahabharata mentions that Ushanas divided himself into two halves: one became the source of knowledge for the devas (gods), and the other for the asuras (demons). |
+| shukra-c10 | exact | en.wikipedia.org | In the Puranas, Shukra is blessed by Shiva with Sanjeevini Vidhya after performing tapas; it is knowledge of raising the dead back to life, which he used from time to time to restore life to the asuras. | Shukra, in the Puranas, is blessed by Shiva with Sanjeevini Vidhya after performing tapas to propitiate Shiva. Sanjeevini Vidhya is the knowledge of raising the dead back to life, which he used from time to time to restore life to the asuras. |
+| shukra-c11 | exact | en.wikipedia.org | When Shukra, the asuras' guru, realised Vamana's true identity, he tried to stop the flow of water from the kamandalu by blocking the spout; Vamana pierced the spout with a stick and blinded Shukra. | When Shukra, the asuras' guru, had realised Vamana's true identity, he tried to prevent the flow of water from the kamandalu by blocking the spout, Vamana pierced the spout with a stick, blinded Shukra. |
+| shukra-c12 | exact | en.wikipedia.org | In the early medieval period (5th to 12th century CE), with the rise of anthropomorphic depictions of the Navagrahas, the planet Venus was personified as a youthful man with a white complexion, riding a white horse and holding a kamandalu (water pot). | During the early medieval period (5th–12th century CE), with the rise of anthropomorphic depictions of the Navagrahas of Hindu astrology, the planet Venus was personified with a distinctive iconography: he is shown as youthful man with a white complexion, riding a white horse, and holding a kamandalu (water pot). |
+| shukra-c13 | exact | en.wikipedia.org | This iconographic form may or may not be identified with the sage Shukracharya. | This iconographic form may or may not be identified with the sage Shukracharya. |
+| shukra-c14 | exact | en.wikipedia.org | Some hymns credit Ushanas with providing or fashioning Indra's vajra (thunderbolt), though Tvashta is also referred to as its fashioner. | Other hymns credit Ushanas with providing or fashioning Indra's vajra (thunderbolt), the weapon that later becomes Indra's defining attribute; though Tvashta is also referred to as Vajra's fashioner. |
+| shukra-c15 | exact | en.wikipedia.org | Ushanas is regarded as a renowned yogi endowed with extraordinary magical powers (siddhi); according to the Shanti Parva of the Mahabharata, he used them to enter Kubera, lord of the yakshas, depriving him of his wealth and freedom. | Ushanas is regarded as scion of his clan, noted as a renowned yogi endowed with extraordinary magical powers (siddhi). According to the Shanti Parva of the Mahabharata, he used these powers to enter Kubera, lord of the yakshas and ruler of Alaka, depriving him of both his wealth and freedom. |
+| shukra-c16 | exact | en.wikipedia.org | Shiva bent the trident with his hand, giving rise to his bow, Pinaka, then swallowed Ushanas. | Shiva bent the trident with his hand, giving rise to his bow, Pinaka, then swallowed Ushanas. |
+| shukra-c17 | exact | en.wikipedia.org | In that account Ushanas came to be known as Shukra, a name signifying both "bright" and "semen". | Ushanas came to be known as Shukra, a name signifying both "bright" and "semen." |
+| shukra-c18 | exact | en.wikipedia.org | In the post-Vedic period, particularly in the epics (c. 400 BCE to 400 CE) and the Puranic texts (c. 300 CE to 1200 CE), Kavya Ushanas evolves into the seer-sage Ushanas, better known by the epithet Shukracharya. | In the post-Vedic period, particularly in the epics (c. 400 BCE – 400 CE) and the Puranic texts (c. 300 CE – 1200 CE), Kavya Ushanas evolves into the figure of seer-sage Ushanas, better known by the epithet Shukracharya. |
+| shukra-c19 | exact | en.wikipedia.org | In the Rigveda (c. 1500 BCE), Kavya Ushanas appears as a wise poet-priest associated with the gods, especially their king Indra, whom he helped defeat his enemies. | In the Rigveda (c. 1500 BCE), however, Kavya Ushanas appears as a wise poet-priest associated with the gods, especially their king Indra, whom he helped defeat his enemies. |
+| shukra-c20 | exact | en.wikisource.org | Sukra (Venus) is described as a Brahmana born of Bhrigu and a native of Bhojakata. | Sukra (Venus), likewise, is a Brahmana born of Bhrigu and a native of Bhojakata. |
+| shukra-c21 | exact | en.wikisource.org | He is said to be seated in a golden chariot drawn by eight horses or in a silver chariot yoked to ten horses. | he is seated in a golden chariot drawn by eight horses or in a silver chariot yoked to ten horses. |
+| shukra-c22 | exact | en.wikisource.org | According to other authorities he has four arms in which are seen the staff, rosary, water-pot and the varada. | According to other authorities he has four arms in which are seen the staff, rosary, water-pot and the varada. |
+| shukra-c23 | loose | en.wikipedia.org | The name Shukra (Sanskrit: शुक्र) literally means 'clear' or 'bright'. | Sanskrit: शुक्र, lit. 'clear' or 'bright', IAST: Śukra |
 
 
 ## kumari — lulus-otomatis
@@ -723,19 +737,27 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## makara — lulus-otomatis
 
-Klaim 6 (loose 1, exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 17 (exact 17), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
-| makara-c01 | loose | en.wikipedia.org | Makara is a legendary sea creature in Hindu mythology. | Makara (Sanskrit: मकर, romanized: Makara) is a legendary sea-creature in Hindu mythology. In Hindu astrology, Makara is equivalent to the Zodiac sign Capricorn. |
+| makara-c01 | exact | en.wikipedia.org | Makara is a legendary sea creature in Hindu mythology; in Hindu astrology, Makara is equivalent to the Zodiac sign Capricorn. | is a legendary sea-creature in Hindu mythology. In Hindu astrology, Makara is equivalent to the Zodiac sign Capricorn. |
 | makara-c02 | exact | en.wikipedia.org | It serves as the mount of Ganga, Narmada, and Varuna. | Makara appears as the vahana (vehicle) of the river goddess Ganga, Narmada, and of the god of the ocean, Varuna. |
 | makara-c03 | exact | en.wikipedia.org | Makaras are regarded as guardians of gateways and thresholds of temples and throne rooms. | Makara are considered guardians of gateways and thresholds, protecting throne rooms as well as entryways to temples; |
 | makara-c04 | exact | en.wikipedia.org | The Sanskrit word makara means sea animal or crocodile. | Makara is a Sanskrit word which means "sea-animal, crocodile". |
 | makara-c05 | exact | en.wikipedia.org | Its common form combines a terrestrial animal's front with an aquatic animal's rear. | It is generally depicted as half terrestrial animal in the frontal part (stag, deer, or elephant) and half aquatic animal in the hind part (usually of a fish, a dolphin, or a snake, though sometimes a peacock or even a floral tail is depicted). |
 | makara-c06 | exact | en.wikipedia.org | In Sinhalese artwork a makara combines parts of several animals such as elephant trunk and crocodile jaws. | In Sinhalese ancient artwork Makara is made up of body parts of six or seven animals such as the trunk of the elephant, jaws of the crocodile, ears of the mouse or ape, extruding teeth of wild swine, the tail plume of the peacock and feet of the lion. |
+| makara-c07 | exact | en.wikipedia.org | Makara is also the insignia of the love god Kamadeva, who is also known as Makaradhvaja, "one whose flag depicts a makara". | Makara is also the insignia of the love god Kamadeva, who has no dedicated temples and is also known as Makaradhvaja, "one whose flag depicts a makara". |
+| makara-c08 | exact | en.wikipedia.org | Makara is the most commonly recurring creature in Hindu and Buddhist temple iconography, and also frequently appears as a gargoyle or as a spout attached to a natural spring. | it is the most commonly recurring creature in Hindu and Buddhist temple iconography, and also frequently appears as a gargoyle or as a spout attached to a natural spring. |
+| makara-c09 | exact | en.wikipedia.org | In Vedic times Varuna (the Vedic water god) became the god of the seas and rode on makara, which was called "the water monster vehicle". | During Vedic times when Indra was the god of heaven, Varuna (the Vedic water god) became the God of the seas and rode on makara, which was called "the water monster vehicle". |
+| makara-c10 | exact | en.wikipedia.org | Makara-shaped earrings called Makarakundalas are sometimes worn by Hindu deities, for example Shiva, Vishnu, Surya, and Chandi. | Makara-shaped earrings called Makarakundalas are sometimes worn by Hindu deities, for example Shiva, Vishnu, Surya, and Chandi. |
+| makara-c11 | exact | imp-art.org | Makara is a mythical sea creature believed to be the mount of the deities Ganga, Narmada and Varuna. | it is a mythical sea creature that is believed to be the mount of the deities Ganga, Narmada and Varuna. |
+| makara-c12 | exact | imp-art.org | Makara is often depicted with a terrestrial front half (elephant, antelope etc.) and an aquatic back half (fish, crocodile etc.). | It is often depicted with a terrestrial (elephant, antelope etc.) front half and an aquatic (fish, crocodile etc.) back half. |
+| makara-c13 | exact | www.worldhistory.org | The caption describes a sandstone lintel from a temple at Beshnagar (c. 500 CE) on which the goddess Ganga, the Hindu personification of the River Ganges, stands on a makara (a mix of crocodile and elephant) which symbolises the life-giving nature of water. | Ganga, the Hindu personification of the River Ganges. A sandstone lintel from a temple at Beshnagar, c. 500 CE. The goddess stands on a makara (a mix of crocodile and elephant) which symbolises the life-giving nature of water. |
+| makara-c14 | exact | en.wikipedia.org | From the 2nd century BCE, the makara appears to have been the symbol of Pradyumna, son of Vasudeva Krishna. | From the 2nd century BCE, the Makara appears to have been the symbol of Pradyumna, son of Vāsudeva Krishna. |
+| makara-c15 | exact | en.wikipedia.org | The leading Hindu temple architect and builder Ganapati Sthapati describes the makara as a mythical animal with the body of a fish, trunk of an elephant, feet of a lion, eyes of a monkey, ears of a pig, and the tail of a peacock. | The leading Hindu temple architect and builder Ganapati Sthapati describes Makara as a mythical animal with the body of a fish, trunk of an elephant, feet of a lion, eyes of a monkey, ears of a pig, and the tail of a peacock. |
+| makara-c16 | exact | en.wikipedia.org | Several German scientists argued that makara is based on the dugong instead, based on a reading of the Jain text Suryaprajnapti; the South Asian river dolphin may also have contributed to the image of the makara. | Several German scientists argued that makara is based on the dugong instead, based on reading of Jain text of Sūryaprajñapti. The South Asian river dolphin may also have contributed to the image of the makara. |
+| makara-c17 | exact | en.wikipedia.org | Though the makara may take many different forms in Hindu culture, in the modern world its form is always related to the marsh crocodile or water monitor. | Though Makara may take many different forms throughout Hindu culture, in the modern world, its form is always related to the marsh crocodile or water monitor. |
 
 
 ## bharat-mata — skip
