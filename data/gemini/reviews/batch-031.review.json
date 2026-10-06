@@ -1,27 +1,29 @@
 {
   "batch_id": "batch-031",
-  "checked_at": "2026-09-30T02:32:20.071Z",
+  "checked_at": "2026-10-06T13:35:54.057Z",
   "files": [
     "batch-031.md",
-    "batch-031-fix-1.md"
+    "batch-031-fix-1.md",
+    "batch-031-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "lakshmi",
-      "file": "batch-031-fix-1.md",
+      "file": "batch-031-fix-2.md",
+      "entry_sha256": "4483f21362f9a2b76eead0ec52771e70381165c026aa6d55f9085b1f57b0f5f0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 2,
+        "claims": 25,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 7 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "2 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -69,8 +71,8 @@
           "id": "lakshmi-c05",
           "source_id": "lakshmi-s1",
           "host": "www.worldhistory.org",
-          "statement": "Lakshmi is particularly worshipped during the annual Diwali festival.",
-          "statement_id": "Lakshmi terutama dipuja dalam perayaan tahunan Diwali.",
+          "statement": "Lakshmi has no temples built in her name but is particularly worshipped during the annual Diwali festival, the Festival of Lights.",
+          "statement_id": "Lakshmi tidak memiliki kuil yang dibangun atas namanya, tetapi terutama dipuja dalam perayaan tahunan Diwali (Festival Cahaya).",
           "quote": "The goddess has no temples built in her name but she is particularly worshipped in one of Hinduism's most evocative celebrations, the annual Diwali or 'Festival of Lights', held every October-November.",
           "context": "religious-tradition",
           "status": "exact"
@@ -83,9 +85,8 @@
           "statement_id": "Kamalamika adalah bentuk tantra Lakshmi.",
           "quote": "The beautiful and benign goddess Kamalamika, the “[red] lotus lady,” is a tantric form of Lakshmi, Hinduism’s embodiment of all that is auspicious and abundant.",
           "context": "religious-tradition",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260613183053id_/https://www.metmuseum.org/art/collection/search/849494",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "lakshmi-c07",
@@ -95,32 +96,207 @@
           "statement_id": "Sebagai Gaja-Lakshmi, ia kerap digambarkan dimandikan gajah surgawi.",
           "quote": "As the goddess of wealth and prosperity, Lakshmi is most often depicted being lustrated by heavenly elephants where she is known as Gaja-Lakshmi.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260613183053id_/https://www.metmuseum.org/art/collection/search/849494",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "lakshmi-c08",
+          "source_id": "lakshmi-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Lakshmi may also be called Lokamata, 'mother of the world', and Lola, meaning fickle, referring to her seemingly haphazard dispensation of good fortune.",
+          "statement_id": "Lakshmi juga disebut Lokamata ('ibu dunia') dan Lola ('berubah-ubah'), merujuk pada caranya membagikan keberuntungan yang tampak tak menentu.",
+          "quote": "Lakshmi may also be called Lokamata, 'mother of the world' and Lola, meaning fickle, in reference to her seemingly haphazard dispensation of good fortune.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "lakshmi-c09",
+          "source_id": "lakshmi-s1",
+          "host": "www.worldhistory.org",
+          "statement": "After the intervention of Brahma and Vishnu, Lakshmi miraculously appeared from the sea of clarified butter, clothed in white and radiating youth and beauty.",
+          "statement_id": "Setelah campur tangan Brahma dan Vishnu, Lakshmi muncul secara ajaib dari lautan mentega murni itu, berbalut putih dan memancarkan kemudaan serta kecantikan.",
+          "quote": "Following the intervention of Brahma and Vishnu, Lakshmi miraculously appeared from this sea of clarified butter clothed all in white and radiating youth and beauty.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "lakshmi-c10",
+          "source_id": "lakshmi-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Because of this birth, the goddess is sometimes called Ksirabdhitanaya, 'daughter of the sea of milk'.",
+          "statement_id": "Karena kelahiran itu, sang dewi kadang disebut Ksirabdhitanaya, 'putri lautan susu'.",
+          "quote": "For this reason, the goddess is sometimes called Ksirabdhitanaya, 'daughter of the sea of milk'.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "lakshmi-c11",
+          "source_id": "lakshmi-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Lakshmi immediately placed herself under Vishnu's protection and is said to dwell on his chest, which gave rise to one of the god's other names, Shrinivas, 'the dwelling place of Sri'.",
+          "statement_id": "Lakshmi segera menyerahkan diri pada perlindungan Vishnu, sehingga dikatakan bersemayam di dada Vishnu; hal ini melahirkan salah satu nama lain sang dewa, Shrinivas, 'tempat tinggal Sri'.",
+          "quote": "Lakshmi immediately gave herself to Vishnu's protection and for this reason, she is said to dwell on Vishnu's chest giving rise to one of the god's alternative names, Shrinivas meaning 'the dwelling place of Sri'.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "lakshmi-c12",
+          "source_id": "lakshmi-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Sri (Shri) means prosperity and is another of Lakshmi's many names.",
+          "statement_id": "Sri (Shri) berarti kemakmuran dan merupakan salah satu dari banyak nama Lakshmi.",
+          "quote": "Sri (Shri) means prosperity and is another of Lakshmi's many names.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "lakshmi-c13",
+          "source_id": "lakshmi-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to the Harivamsa, Lakshmi is the mother of Kama, the god of love; the source compares this with the Greek goddess Aphrodite and her son Eros.",
+          "statement_id": "Menurut Harivamsa, Lakshmi adalah ibu Kama, dewa cinta; sumbernya membandingkannya dengan dewi Yunani Aphrodite dan putranya Eros.",
+          "quote": "According to the Harivamsa Lakshmi is the mother of Kama, the god of love and so provides an interesting parallel to the Greek goddess Aphrodite and her son Eros, the former also born from a foaming sea.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "lakshmi-c14",
+          "source_id": "lakshmi-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In one myth, Lakshmi grew fed up with her husband and went to live with the royal family of King Akasha Raja in southern India, calling herself Padmavati; a distraught Vishnu, in the guise of Shrinivas, eventually found her.",
+          "statement_id": "Dalam satu mitos, Lakshmi jengkel pada suaminya lalu tinggal bersama keluarga kerajaan Raja Akasha Raja di India selatan dan menyebut dirinya Padmavati; Vishnu yang cemas, dalam rupa Shrinivas, akhirnya menemukannya.",
+          "quote": "In one myth Lakshmi got a little fed up with her husband and went to live with the royal family of King Akasha Raja in southern India. There, now calling herself Padmavati, she was eventually found by a distraught Vishnu, himself in the guise of Shrinivas.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "lakshmi-c15",
+          "source_id": "lakshmi-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Brahma and Shiva conspired for the two to meet; they fell in love and married again in a lavish ceremony that is still commemorated today in the town of Tirupati in southern India.",
+          "statement_id": "Brahma dan Shiva bersekongkol agar keduanya bertemu; mereka jatuh cinta dan menikah lagi dalam upacara megah yang hingga kini diperingati di kota Tirupati, India selatan.",
+          "quote": "Brahma and Shiva had actually conspired for the two to meet and they, of course, fell in love and married in a lavish ceremony (again) which is still commemorated today in the town of Tirupati in southern India.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "lakshmi-c16",
+          "source_id": "lakshmi-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In art, Lakshmi is often shown standing or seated on a large lotus, holding a water pot and a single lotus flower; with her other two hands she typically makes a gesture of blessing and showers coins on her loyal followers.",
+          "statement_id": "Dalam seni, Lakshmi sering digambarkan berdiri atau duduk di atas bunga teratai besar sambil memegang kendi air dan setangkai teratai; dengan dua tangan lainnya ia biasanya memberi isyarat restu dan menghujani pengikut setianya dengan koin.",
+          "quote": "In art, Lakshmi is often represented either standing or seated on a large lotus flower and holding a water pot and single lotus flower in her hands, always either blue or pink. With her other two hands she typically gives a sign of blessing and showers coins on her loyal followers.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lakshmi-c17",
+          "source_id": "lakshmi-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Cambodian art Lakshmi is typically a single standing statue wearing a tiara and holding a lotus bud; in Cham art she is always seated and, besides the lotus bud, can also hold a conch shell.",
+          "statement_id": "Dalam seni Kamboja, Lakshmi lazimnya berupa arca tunggal yang berdiri, bermahkota kecil, dan memegang kuncup teratai; dalam seni Cham ia selalu duduk dan selain kuncup teratai dapat memegang kerang.",
+          "quote": "In Cambodian art, Lakshmi is more typically portrayed as a single-figure statue, standing, wearing a tiara and holding a lotus bud. In Cham art the goddess is always seated and besides the lotus bud can also hold a conch shell.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lakshmi-c18",
+          "source_id": "lakshmi-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Javanese art Lakshmi holds a grain of rice, because there she is regarded as the goddess of this important food.",
+          "statement_id": "Dalam seni Jawa, Lakshmi memegang butir padi karena di sana ia dipandang sebagai dewi pangan penting itu.",
+          "quote": "Finally, in Javanese art Lakshmi holds a grain of rice as there she is regarded as the goddess of this important food.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lakshmi-c19",
+          "source_id": "lakshmi-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In this guise as the Lotus Goddess, she is a member of the Buddhist pantheon too.",
+          "statement_id": "Dalam wujud Dewi Teratai ini, ia juga termasuk dalam jajaran dewa-dewi Buddha.",
+          "quote": "In this guise, she is a member of the Buddhist pantheon too.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "lakshmi-c20",
+          "source_id": "lakshmi-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Lakshmi regularly appears beside her husband Vishnu in temple decorative sculpture, for example massaging his feet with lotus flowers or riding his gigantic man-bird vehicle Garuda.",
+          "statement_id": "Lakshmi kerap tampil di samping suaminya, Vishnu, pada pahatan hias candi, misalnya memijat kaki Vishnu dengan bunga teratai atau menunggang Garuda, kendaraan manusia-burung raksasa milik Vishnu.",
+          "quote": "Lakshmi regularly appears alongside her husband Vishnu in temple decorative sculpture, for example, massaging his feet with lotus flowers or riding his gigantic man-bird vehicle Garuda.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "lakshmi-c21",
+          "source_id": "lakshmi-s3",
+          "host": "gutenberg.org",
+          "statement": "In the Vishnu Purana, the exalted Sri arises from the water, endowed with excellent grace, seated on a blown lotus and carrying a lotus in her hand.",
+          "statement_id": "Dalam Vishnu Purana, dari air muncul Sri yang agung, berparas anggun, duduk di atas teratai mekar dan membawa setangkai teratai di tangannya.",
+          "quote": "then from the water arose the exalted Sri, endowed with excellent grace,—seated on a blown lotus, and carrying also a lotus in her hand.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "lakshmi-c22",
+          "source_id": "lakshmi-s3",
+          "host": "gutenberg.org",
+          "statement": "In the Vishnu Purana, an elephant of one of the cardinal points takes water from golden vessels and bathes the goddess, the mighty Mistress of all the worlds.",
+          "statement_id": "Dalam Vishnu Purana, seekor gajah penjuru mata angin mengambil air dari bejana emas dan memandikan sang dewi, Nyonya agung seluruh dunia.",
+          "quote": "And an elephant of one of the cardinal points, taking water out of the golden vessels, bathed that goddess—the mighty Mistress of all the worlds.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "lakshmi-c23",
+          "source_id": "lakshmi-s3",
+          "host": "gutenberg.org",
+          "statement": "In the Vishnu Purana, Sri was formerly born to Bhrigu and Khyati, and she came out of the Ocean again when it was churned by the celestials.",
+          "statement_id": "Dalam Vishnu Purana, Sri dahulu dilahirkan oleh Bhrigu dan Khyati, lalu ia muncul lagi dari lautan ketika diaduk oleh para dewa.",
+          "quote": "In the days of yore, Sri was begot of Bhrigu on Khyati. And she again came out of the Ocean when it was churned by the celestials.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "lakshmi-c24",
+          "source_id": "lakshmi-s3",
+          "host": "gutenberg.org",
+          "statement": "In the Vishnu Purana, when Hari took the form of a dwarf she was born as a lotus; when he descended as Parasurama she appeared as the Earth; at the incarnation of Rama she became Sita, and when he was born as Krishna she became Rukhmini.",
+          "statement_id": "Dalam Vishnu Purana, ketika Hari menjelma sebagai kurcaci, Sri lahir sebagai teratai; ketika Parasurama turun ke bumi, ia tampil sebagai Bumi; pada penjelmaan Rama ia menjadi Sita, dan ketika Krishna lahir ia menjadi Rukhmini.",
+          "quote": "When Hari assumed the form of a dwarf, she took birth as a lotus, and when He descended on earth as Parasurāma, she appeared as the Earth. At time of the incarnation of Rāma, she became Sitā, and when He was born as Krishna, she became Rukhmini.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "lakshmi-c25",
+          "source_id": "lakshmi-s3",
+          "host": "gutenberg.org",
+          "statement": "In the Vishnu Purana, this eulogy of Lakshmi, the source of all wealth, came from the mouth of the lord of the celestials; poverty can never beset those on earth who chant this hymn every day.",
+          "statement_id": "Dalam Vishnu Purana, pujian untuk Lakshmi, sumber segala kekayaan, diucapkan oleh penguasa para dewa; kemiskinan tidak akan menimpa orang di bumi yang melantunkan himne ini setiap hari.",
+          "quote": "This eulogy of Lakshmi, the source of all wealth, came out of the mouth of the lord of celestials. Poverty can never infest those persons on earth, who chant this hymn every day",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "saraswati",
-      "file": "batch-031.md",
+      "file": "batch-031-fix-2.md",
+      "entry_sha256": "a948b5997a5dc25bf2d3c41ce51e2155216494732562e2489d4d40dde611c30f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 2,
+        "claims": 29,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 8 klaim (target 15), 2 sumber (target 3). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "manual",
           "where": "claims",
-          "message": "3 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429; arsip Wayback tidak memuat kutipan)."
+          "message": "3 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -148,8 +324,8 @@
           "id": "saraswati-c03",
           "source_id": "saraswati-s1",
           "host": "www.worldhistory.org",
-          "statement": "Saraswati first appears in the Rigveda.",
-          "statement_id": "Saraswati pertama kali muncul dalam Rigveda.",
+          "statement": "Saraswati first appears in the Rigveda; in later religious texts she is identified as the inventor of Sanskrit and gives Ganesha the gifts of pen and ink.",
+          "statement_id": "Saraswati pertama kali muncul dalam Rigveda; dalam teks keagamaan yang lebih belakangan ia disebut penemu bahasa Sanskerta dan memberi Ganesha karunia pena dan tinta.",
           "quote": "Saraswati first appears in the Rigveda and, in later religious texts, she is identified as the inventor of Sanskrit and, appropriately, gives Ganesha the gifts of pen and inks.",
           "context": "historical-record",
           "status": "exact"
@@ -183,8 +359,7 @@
           "quote": "Her attributes—the vina (a symbol of music and the arts), palm-sized manuscript (a symbol of learning), and rosary (a symbol of religious rites)—denote her role as a goddess of knowledge.",
           "context": "scholarly-interpretation",
           "status": "unreachable",
-          "detail": "HTTP 429; arsip Wayback tidak memuat kutipan",
-          "archive_url": "https://web.archive.org/web/20250223024928id_/https://www.metmuseum.org/art/collection/search/78265"
+          "detail": "HTTP 429"
         },
         {
           "id": "saraswati-c07",
@@ -195,8 +370,7 @@
           "quote": "Saraswati is conventionally accompanied by a swan, but a peacock stands beside her here, enchanted by the divine music she creates.",
           "context": "historical-record",
           "status": "unreachable",
-          "detail": "HTTP 429; arsip Wayback tidak memuat kutipan",
-          "archive_url": "https://web.archive.org/web/20250223024928id_/https://www.metmuseum.org/art/collection/search/78265"
+          "detail": "HTTP 429"
         },
         {
           "id": "saraswati-c08",
@@ -207,26 +381,236 @@
           "quote": "Originally associated with an ancient lost river that bore her name, Saraswati increasingly came to be celebrated as the goddess of all waters and their life-giving and purifying powers.",
           "context": "scholarly-interpretation",
           "status": "unreachable",
-          "detail": "HTTP 429; arsip Wayback tidak memuat kutipan",
-          "archive_url": "https://web.archive.org/web/20250223024928id_/https://www.metmuseum.org/art/collection/search/78265"
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "saraswati-c09",
+          "source_id": "saraswati-s1",
+          "host": "www.worldhistory.org",
+          "statement": "She is also known as Bharati (eloquence), Shatarupa (existence), Vedamata ('mother of the Vedas'), Brahmi, Sarada, Vagisvari, and Putkari.",
+          "statement_id": "Ia juga dikenal sebagai Bharati (kefasihan), Shatarupa (keberadaan), Vedamata ('ibu para Veda'), Brahmi, Sarada, Vagisvari, dan Putkari.",
+          "quote": "She is also known as Bharati (eloquence), Shatarupa (existence), Vedamata ('mother of the Vedas'), Brahmi, Sarada, Vagisvari, and Putkari.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "saraswati-c10",
+          "source_id": "saraswati-s1",
+          "host": "www.worldhistory.org",
+          "statement": "She is also a patron of the arts and sciences and the wife of Brahma, although the Bengal Vaisnavas considered her first the wife of Vishnu.",
+          "statement_id": "Ia juga pelindung seni dan ilmu pengetahuan serta istri Brahma, meskipun kaum Waisnawa Bengal menganggapnya lebih dulu sebagai istri Vishnu.",
+          "quote": "She is also a patron of the arts and sciences, and the wife of Brahma, even if the Bengal Vaisnavas considered her first the wife of Vishnu.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "saraswati-c11",
+          "source_id": "saraswati-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Saraswati's name means 'elegant', 'flowing', and 'watery', which indicates her status as one of the early Aryan boundary rivers.",
+          "statement_id": "Nama Saraswati berarti 'anggun', 'mengalir', dan 'berair', dan ini menunjukkan statusnya sebagai salah satu sungai batas Arya awal.",
+          "quote": "Saraswati's name means 'elegant', 'flowing', and 'watery' and this is indicative of her status as one of the early Aryan boundary rivers.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "saraswati-c12",
+          "source_id": "saraswati-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Saraswati River (modern name Sarsuti), like the Ganges, flows from the Himalaya and is considered a sacred source of purification, fertility, and good fortune for those who bathe in it; the sacred river then developed into a personified deity.",
+          "statement_id": "Sungai Saraswati (nama modern: Sarsuti), seperti Sungai Gangga, mengalir dari Himalaya dan dianggap sumber suci penyucian, kesuburan, dan keberuntungan bagi mereka yang mandi di airnya; sungai suci itu kemudian berkembang menjadi dewi yang dipersonifikasikan.",
+          "quote": "The Saraswati River (modern name: Sarsuti), just like the Ganges River, flows from the Himalaya and is considered a sacred source of purification, fertility, and good fortune for those who bathe in her waters. The sacred river, again like the Ganges, then developed into a personified deity.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "saraswati-c13",
+          "source_id": "saraswati-s1",
+          "host": "www.worldhistory.org",
+          "statement": "During the festival worshippers wear yellow, which is associated with wisdom and prosperity; statues of the goddess are draped in yellow silk, and believers pray for blessings on their pens, books, and musical instruments.",
+          "statement_id": "Selama perayaan, para pemuja mengenakan pakaian kuning yang dikaitkan dengan kebijaksanaan dan kemakmuran; arca sang dewi dibalut sutra kuning, dan umat memohon berkah bagi pena, buku, dan alat musik mereka.",
+          "quote": "During the festival, worshippers wear yellow, which is associated with wisdom and prosperity. Statues of the goddess are also draped in yellow silk, and believers pray for blessings on their pens, books, and musical instruments.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "saraswati-c14",
+          "source_id": "saraswati-s1",
+          "host": "www.worldhistory.org",
+          "statement": "During the festival children are taught to write for the first time, Brahmin priests are given fine food, and ancestors are venerated.",
+          "statement_id": "Pada perayaan itu anak-anak diajari menulis untuk pertama kalinya, para pendeta Brahmana diberi hidangan istimewa, dan leluhur dihormati.",
+          "quote": "Children are taught to write for the first time during the festival, Brahmin priests are given fine food, and ancestors are venerated.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "saraswati-c15",
+          "source_id": "saraswati-s1",
+          "host": "www.worldhistory.org",
+          "statement": "As the patron of music she is frequently prayed to by musicians before concerts, and as a goddess of intellectual pursuits by students before examinations.",
+          "statement_id": "Sebagai pelindung musik, ia sering didoakan para musisi sebelum konser, dan sebagai dewi kegiatan intelektual, oleh pelajar sebelum ujian.",
+          "quote": "As the patron of music, she is frequently prayed to by musicians before concerts and, as a goddess of intellectual pursuits, by students before examinations.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "saraswati-c16",
+          "source_id": "saraswati-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Saraswati is also worshipped along with other major goddesses in the pan-Indian celebration of Navaratri.",
+          "statement_id": "Saraswati juga dipuja bersama dewi-dewi utama lain dalam perayaan Navaratri yang dirayakan di seluruh India.",
+          "quote": "Saraswati is also worshipped along with other major goddesses in the pan-Indian celebration of Navaratri.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "saraswati-c17",
+          "source_id": "saraswati-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Hindu mythology Saraswati is the wife of the great god Brahma, but according to some traditions she was first the wife of Vishnu.",
+          "statement_id": "Dalam mitologi Hindu, Saraswati adalah istri dewa agung Brahma, tetapi menurut sebagian tradisi ia mula-mula istri Vishnu.",
+          "quote": "In Hindu mythology, Saraswati is the wife of the great god Brahma. However, according to some traditions, she was first the wife of Vishnu.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "saraswati-c18",
+          "source_id": "saraswati-s1",
+          "host": "www.worldhistory.org",
+          "statement": "One day, while waiting for his wife to begin an important ceremony and unable to start the ritual on time, Brahma asked the gods' advice; they created a new wife for him, Gayatri, so that the ceremony could proceed at the proper time.",
+          "statement_id": "Suatu hari, ketika menunggu istrinya untuk memulai upacara penting sehingga tak dapat memulai ritual tepat waktu, Brahma meminta nasihat para dewa; mereka menciptakan istri baru baginya, Gayatri, agar upacara berjalan pada waktunya.",
+          "quote": "One day, when, awaiting his wife to begin an important religious ceremony and so unable to start the ritual punctually, Brahma asked the gods' advice. They responded by creating a new wife for him, Gayatri, so that the ceremony could go ahead at the precise time.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "saraswati-c19",
+          "source_id": "saraswati-s1",
+          "host": "www.worldhistory.org",
+          "statement": "When Saraswati finally arrived and saw her husband with another woman she was displeased and cursed Brahma never to be worshipped by humanity (although he is worshipped today in parts of South-east Asia).",
+          "statement_id": "Ketika Saraswati akhirnya tiba dan melihat suaminya bersama perempuan lain, ia tidak senang dan mengutuk Brahma agar tidak pernah dipuja manusia (meski kini ia dipuja di sebagian Asia Tenggara).",
+          "quote": "However, when Saraswati eventually turned up she was not best pleased to see her husband with another woman and so cursed Brahma never to be worshipped by humanity (even if he is worshipped today in parts of South-east Asia).",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "saraswati-c20",
+          "source_id": "saraswati-s1",
+          "host": "www.worldhistory.org",
+          "statement": "More specifically, Saraswati's son is the rishi (sage) Sarasvata, who, nourished by his mother's bountiful waters, withstood the Great Drought of Hindu mythology and survived as the definitive repository of the Vedas.",
+          "statement_id": "Secara khusus, putra Saraswati adalah resi Sarasvata, yang dihidupi air melimpah ibunya, mampu bertahan menghadapi Kekeringan Besar dalam mitologi Hindu dan selamat sebagai penyimpan utama kitab suci Veda.",
+          "quote": "More specifically, Saraswati's son is the rishi (sage) Sarasvata. He, nourished by the bountiful waters of his mother, was able to withstand the Great Drought of Hindu mythology and so survive as the definitive repository of the Vedas sacred texts.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "saraswati-c21",
+          "source_id": "saraswati-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In Hindu art Saraswati is usually shown as a graceful youth with white skin, most often in a white sari (symbolizing purity) with a blue border.",
+          "statement_id": "Dalam seni Hindu, Saraswati biasanya digambarkan sebagai remaja anggun berkulit putih, paling sering berkain sari putih (lambang kesucian) bertepi biru.",
+          "quote": "In Hindu art, Saraswati is usually depicted as a graceful youth with white skin. She most often wears a white sari (which symbolises purity) which has a blue border.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saraswati-c22",
+          "source_id": "saraswati-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Like many Hindu deities, Saraswati is often shown with four arms, each holding a symbolic object; in the left hands she can carry a palm-leaf manuscript and a ritual water vessel, and in the upper right hand she holds a white lotus.",
+          "statement_id": "Seperti banyak dewa Hindu, Saraswati sering digambarkan berlengan empat, masing-masing memegang benda lambang; di tangan kiri ia dapat membawa manuskrip daun lontar dan bejana air ritual, dan di tangan kanan atas ia memegang teratai putih.",
+          "quote": "As with many Hindu deities, Saraswati is often depicted with four arms, each holding a symbolic object. In the left hands she can carry a palm-leaf manuscript and ritual water vessel. In the upper right hand she holds a white lotus flower",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saraswati-c23",
+          "source_id": "saraswati-s1",
+          "host": "www.worldhistory.org",
+          "statement": "She may also be shown riding her vehicle (vahana), either a swan or a goose.",
+          "statement_id": "Ia juga dapat ditampilkan menunggang kendaraannya (wahana), yaitu angsa atau soang.",
+          "quote": "Alternatively, she may be shown riding her vehicle (vahana), either a swan or goose.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "saraswati-c24",
+          "source_id": "saraswati-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Sarasvati is also worshipped as the goddess of learning in Jainism and by some Buddhist sects.",
+          "statement_id": "Sarasvati juga dipuja sebagai dewi ilmu dalam Jainisme dan oleh beberapa sekte Buddha.",
+          "quote": "Sarasvati is also worshipped as the goddess of learning in Jainism and by some Buddhist sects.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "saraswati-c25",
+          "source_id": "saraswati-s3",
+          "host": "en.wikisource.org",
+          "statement": "In a Rigveda hymn (Griffith's translation), Sarasvati with her might bursts the ridges of the hills with her strong waves, like one who digs for lotus stems.",
+          "statement_id": "Dalam himne Rigveda (terjemahan Griffith), Sarasvati dengan kekuatannya menjebol punggung bukit dengan ombaknya yang deras, seperti orang yang menggali batang teratai.",
+          "quote": "She with her might, like one who digs for lotus-stems, hath burst with her strong waves the ridges of the hills.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "saraswati-c26",
+          "source_id": "saraswati-s3",
+          "host": "en.wikisource.org",
+          "statement": "The same Rigveda hymn praises Sarasvati for discovering rivers for the tribes of men and, rich in wealth, making poison flow away from them.",
+          "statement_id": "Dalam himne Rigveda yang sama, Sarasvati dipuji karena menemukan sungai-sungai bagi suku-suku manusia dan, kaya akan harta, mengalirkan racun menjauh dari mereka.",
+          "quote": "Thou hast discovered rivers for the tribes of men, and, rich in wealth! made poison flow away from them.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "saraswati-c27",
+          "source_id": "saraswati-s3",
+          "host": "en.wikisource.org",
+          "statement": "In the hymn, Sarasvati is said to cast down those who scorned the Gods, the brood of every Brsaya skilled in magic arts.",
+          "statement_id": "Dalam himne itu, Sarasvati dikatakan menjatuhkan mereka yang menghina para dewa, yaitu keturunan setiap Brsaya yang mahir ilmu sihir.",
+          "quote": "Thou castest down, Sarasvati, those who scorned the Gods, the brood of every Brsaya skilled in magic arts.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "saraswati-c28",
+          "source_id": "saraswati-s3",
+          "host": "en.wikisource.org",
+          "statement": "In the hymn, Sarasvati is called seven-sistered, sprung from a threefold source, and the prosperer of the Five Tribes.",
+          "statement_id": "Dalam himne itu, Sarasvati disebut bersaudara tujuh, berasal dari tiga sumber, dan pemakmur Lima Suku.",
+          "quote": "Seven-sistered, sprung from threefold source, the Five Tribes' prosperer, she must be",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "saraswati-c29",
+          "source_id": "saraswati-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Although one of the most important Hindu gods, Brahma is rarely actively worshipped; in mythology this is explained as the result of a curse from Saraswati.",
+          "statement_id": "Meski salah satu dewa Hindu terpenting, Brahma jarang dipuja secara aktif; dalam mitologi hal ini dijelaskan sebagai akibat kutukan Saraswati.",
+          "quote": "Although one of the most important Hindu gods, Brahma is rarely actively worshipped. In mythology, this is explained as a result of a curse from Saraswati.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "osiris",
-      "file": "batch-031.md",
+      "file": "batch-031-fix-2.md",
+      "entry_sha256": "ed0aa711bff5c5869ab6bdf3e9d2010b94f3ee788027c0778f13547e68959aba",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 3,
+        "claims": 47,
+        "sources": 4,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 8 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "5 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -268,9 +652,8 @@
           "statement_id": "Sebagai raja awal mitis Mesir, Osiris memerintah bersama Isis sebelum dibunuh Seth.",
           "quote": "A mythical early king of Egypt, this god ruled with his sister-wife, Isis, until he was murdered by their jealous brother, Seth.",
           "context": "religious-tradition",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20251116151512id_/https://www.metmuseum.org/exhibitions/listings/2018/nedjemankh-gilded-coffin/exhibition-gallery",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "osiris-c05",
@@ -280,9 +663,8 @@
           "statement_id": "Dalam bentuk mumi, Osiris turun ke dunia bawah.",
           "quote": "In the form of a mummy, he descended to the underworld, which was imagined to be entered from the west, the land of the setting sun.",
           "context": "religious-tradition",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20251116151512id_/https://www.metmuseum.org/exhibitions/listings/2018/nedjemankh-gilded-coffin/exhibition-gallery",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "osiris-c06",
@@ -292,9 +674,8 @@
           "statement_id": "Di alam baka, Osiris bergabung dengan Re setiap malam.",
           "quote": "There, he lived on forever as lord of the afterlife, merging with the sun god Re each night to enable the sun's rebirth and his own eternal survival.",
           "context": "religious-tradition",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20251116151512id_/https://www.metmuseum.org/exhibitions/listings/2018/nedjemankh-gilded-coffin/exhibition-gallery",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "osiris-c07",
@@ -304,9 +685,8 @@
           "statement_id": "Sebuah arca menggambarkan Osiris terbungkus kain kafan dengan hanya kepala dan tangan terlihat.",
           "quote": "Osiris, ruler of the Netherworld, is shown here in his traditional form, wrapped in an enveloping shroud from which only his head and hands emerge.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20220218213242id_/https://www.metmuseum.org/art/collection/search/329771",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "osiris-c08",
@@ -316,27 +696,417 @@
           "statement_id": "Tangannya memegang tongkat penggembala dan cambuk, lambang kerajaan.",
           "quote": "These hold the crook and flail, symbols of kingship.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20220218213242id_/https://www.metmuseum.org/art/collection/search/329771",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
+        },
+        {
+          "id": "osiris-c09",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Osiris was originally a fertility god, possibly from Syria (a contested claim), who became so popular that he absorbed the functions of earlier gods such as Andjeti and Khentiamenti, two fertility and agriculture gods worshipped at Abydos.",
+          "statement_id": "Osiris semula adalah dewa kesuburan, mungkin berasal dari Suriah (klaim ini diperdebatkan), yang begitu populer hingga menyerap fungsi dewa-dewa terdahulu seperti Andjeti dan Khentiamenti, dua dewa kesuburan dan pertanian yang dipuja di Abydos.",
+          "quote": "Osiris was originally a fertility god, possibly from Syria (though this claim is contested) who became so popular he absorbed the function of earlier gods such as Andjeti and Khentiamenti, two gods of fertility and agriculture worshipped at Abydos.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c10",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "He is associated with the djed symbol and is often depicted with black or green skin symbolizing the fertile mud of the Nile and regeneration.",
+          "statement_id": "Ia dikaitkan dengan lambang djed dan sering digambarkan berkulit hitam atau hijau yang melambangkan lumpur subur Sungai Nil dan pembaruan.",
+          "quote": "He is associated with the djed symbol and is often depicted with black or green skin symbolizing the fertile mud of the Nile and regeneration.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c11",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "He is also frequently shown as a mummy or in partially mummified form in his role as Judge of the Dead.",
+          "statement_id": "Ia juga sering ditampilkan sebagai mumi atau dalam bentuk setengah termumifikasi dalam perannya sebagai Hakim Orang Mati.",
+          "quote": "He is also frequently shown as a mummy or in partially mummified form in his role as Judge of the Dead.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c12",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Images of Osiris as a living god show him as a handsome man in royal dress, wearing the crown of Upper Egypt as a plumed headdress called the atef and carrying the crook and flail, symbols of kingship.",
+          "statement_id": "Gambar Osiris sebagai dewa hidup menampilkannya sebagai pria tampan berpakaian kerajaan, bermahkota Mesir Hulu berupa hiasan kepala berbulu yang disebut atef, dan membawa tongkat gembala serta cambuk, lambang kekuasaan raja.",
+          "quote": "Images of Osiris as a living god depict him as a handsome man in royal dress wearing the crown of Upper Egypt as a plumed headdress known as the atef and carrying the crook and flail, symbols of kingship.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c13",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "He is associated with the mythical Bennu bird (inspiration for the Greek Phoenix), which rises to life from the ashes.",
+          "statement_id": "Ia dikaitkan dengan burung mitos Bennu (inspirasi bagi Feniks Yunani) yang bangkit hidup dari abu.",
+          "quote": "He is associated with the mythical Bennu bird (inspiration for the Greek Phoenix) who rises to life from the ashes.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c14",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Osiris was known by many names, chiefly Wennefer, \"The Beautiful One\", and, in his role as Judge of the Dead, Khentiamenti, \"The Foremost of the Westerners\".",
+          "statement_id": "Osiris dikenal dengan banyak nama, terutama Wennefer, \"Sang Indah\", dan, dalam perannya sebagai Hakim Orang Mati, Khentiamenti, \"Yang Terdepan di antara Orang Barat\".",
+          "quote": "Osiris was known by many names but chiefly as Wennefer, \"The Beautiful One\" and, in his role as Judge of the Dead, Khentiamenti, \"The Foremost of the Westerners\".",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c15",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "It has been claimed that Osiris was originally a deified Predynastic king, a primitive vegetation spirit, a jackal god of an early royal necropolis, or a mother goddess; even the etymology of his name is uncertain, though it may simply mean 'The Mighty One'.",
+          "statement_id": "Ada yang mengklaim Osiris semula adalah raja Pradinasti yang didewakan, roh tetumbuhan primitif, dewa jakal sebuah nekropolis kerajaan awal, atau dewi ibu; bahkan etimologi namanya tidak pasti, meski mungkin sekadar berarti 'Sang Perkasa'.",
+          "quote": "It has been claimed that Osiris was originally a deified Predynastic king, a primitive vegetation spirit, a jackal god of an early royal necropolis, or a mother goddess. Even the etymology of his name is uncertain, though it may simply mean 'The Mighty One'.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c16",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Although he is usually seen as a just, generous, and giving god of life and abundance, there are also depictions of him as \"a terrifying figure who dispatches demon-messengers to drag the living into the gloomy realm of the dead\".",
+          "statement_id": "Meski biasanya dipandang sebagai dewa kehidupan dan kelimpahan yang adil, dermawan, dan pemurah, ada pula penggambaran dirinya sebagai \"sosok menakutkan yang mengutus utusan-iblis untuk menyeret orang hidup ke alam orang mati yang suram\".",
+          "quote": "Although he is usually seen as a just, generous, and giving god of life and abundance there are also depictions of him as \"a terrifying figure who dispatches demon-messengers to drag the living into the gloomy realm of the dead\"",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c17",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "His worship spanned thousands of years, from shortly before the Early Dynastic Period (c. 3150-2613 BCE) to the Ptolemaic Dynasty (323-30 BCE), the last dynasty to rule Egypt before the coming of Rome.",
+          "statement_id": "Pemujaannya berlangsung ribuan tahun, dari sesaat sebelum Periode Dinasti Awal (sekitar 3150–2613 SM) hingga Dinasti Ptolemeus (323–30 SM), dinasti terakhir yang memerintah Mesir sebelum kedatangan Romawi.",
+          "quote": "His worship spanned thousands of years from shortly before the Early Dynastic Period (c. 3150-2613 BCE) to the Ptolemaic Dynasty (323-30 BCE), the last dynasty to rule Egypt before the coming of Rome.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c18",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "As the firstborn, Osiris assumed rule as Lord of the Earth, with Isis as his queen and consort. Finding the people of Egypt uncivilized and lawless, he gave them laws, culture, religious instruction, and agriculture.",
+          "statement_id": "Sebagai putra sulung, Osiris memegang kekuasaan sebagai Penguasa Bumi dengan Isis sebagai ratu dan permaisurinya. Ia mendapati rakyat Mesir tak beradab dan tanpa hukum, lalu memberi mereka hukum, budaya, ajaran agama, dan pertanian.",
+          "quote": "Osiris, as the first born, assumed rule as Lord of the Earth, with Isis as his queen and consort. He found the people of Egypt uncivilized and lawless and so gave them laws, culture, religious instruction, and agriculture.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c19",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Their relationship worsened after Nephthys, Set's wife, disguised herself as Isis and seduced Osiris, becoming pregnant with the god Anubis.",
+          "statement_id": "Hubungan keduanya memburuk setelah Nephthys, istri Set, menyamar sebagai Isis dan memikat Osiris sehingga hamil dengan dewa Anubis.",
+          "quote": "Their relationship deteriorated further after Nephthys, Set's wife, disguised herself as Isis and seduced Osiris, becoming pregnant with the god Anubis.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c20",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Set had a beautiful coffin made to Osiris' exact height and then threw a grand party where he presented the box and told the guests that whoever fit in it most perfectly could have it as a gift.",
+          "statement_id": "Set membuat peti mati indah seukuran tinggi Osiris, lalu mengadakan pesta besar tempat ia memamerkan peti itu dan berkata bahwa tamu yang paling pas muat di dalamnya boleh memilikinya sebagai hadiah.",
+          "quote": "Set had a beautiful coffin made to Osiris' exact height and then threw a grand party where he presented this box and told the guests that whichever of them fit in it most perfectly could have it as a gift.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c21",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "When Osiris lay down in the coffin, Set slammed the lid on, fastened it shut, and threw it into the Nile, where it was carried away downriver.",
+          "statement_id": "Ketika Osiris berbaring di dalam peti, Set membanting tutupnya, menguncinya, dan melemparkannya ke Sungai Nil, tempat peti itu hanyut ke hilir.",
+          "quote": "When Osiris lay down in the coffin, Set slammed the lid on, fastened it shut, and threw it into the Nile, where it was carried away down river.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c22",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Osiris' body traveled out to sea and his coffin eventually became lodged in a great tamarisk tree growing near Byblos in Phoenicia.",
+          "statement_id": "Jasad Osiris hanyut ke laut dan peti matinya akhirnya tersangkut pada pohon tamariska besar yang tumbuh dekat Byblos di Fenisia.",
+          "quote": "Osiris' body traveled out to sea and eventually his coffin became lodged in a great tamarisk tree growing near Byblos in Phoenicia.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c23",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Set managed to get Nephthys to tell him where it was, and when he found it he hacked it into pieces and scattered them across the land and into the Nile.",
+          "statement_id": "Set berhasil membuat Nephthys memberi tahu letaknya, dan setelah menemukannya ia mencincang jasad itu lalu menebarkannya ke seluruh negeri dan ke Sungai Nil.",
+          "quote": "He managed to get Nephthys to tell him where it was, and when he found it, he hacked it into pieces and scattered it across the land and into the Nile.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c24",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Isis was able to revive Osiris; she took the form of a kite, flew around him, drew the seed from his body into her own, and became pregnant with a son, Horus. Though alive again, Osiris was incomplete and could no longer rule the land of the living; he withdrew into the afterlife, where he became Lord and Judge of the Dead.",
+          "statement_id": "Isis mampu menghidupkan Osiris kembali; ia berubah menjadi layang-layang (kite), mengitarinya, menarik benih dari tubuhnya, dan mengandung putra bernama Horus. Meski hidup lagi, Osiris tidak utuh dan tak dapat lagi memerintah negeri orang hidup; ia mundur ke alam baka dan menjadi Penguasa dan Hakim Orang Mati.",
+          "quote": "Isis was able to revive Osiris and, once he was alive, she assumed the form of a kite and flew around him, drew the seed from his body into her own, and became pregnant with a son, Horus. Even though Osiris now lived, he was incomplete and could no longer rule the land of the living. He withdrew into the afterlife where he became Lord and Judge of the Dead.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c25",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Horus emerged as a mighty warrior and battled Set for control of the world. In some versions Set is killed, but in most he is defeated and driven from the land.",
+          "statement_id": "Horus tampil sebagai prajurit perkasa dan bertempur melawan Set untuk menguasai dunia. Dalam sebagian versi Set dibunuh, tetapi dalam kebanyakan versi ia dikalahkan dan diusir dari negeri itu.",
+          "quote": "Horus emerged as a mighty warrior and battled Set for control of the world. In some versions of the story, Set is killed but, in most, he is defeated and driven from the land.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c26",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The city of Abydos was his cult center, and its necropolis became the most sought-after burial ground because people wanted to be buried as close to the god as possible.",
+          "statement_id": "Kota Abydos adalah pusat pemujaannya, dan nekropolis di sana menjadi pemakaman paling diincar karena orang ingin dimakamkan sedekat mungkin dengan sang dewa.",
+          "quote": "The city of Abydos was his cult center and the necropolis there became the most sought-after burial ground as people wanted to be buried as close to the god as they could get.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c27",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Osiris' rebirth was associated with the Nile River, which was considered a symbol of his life-giving power.",
+          "statement_id": "Kelahiran kembali Osiris dikaitkan dengan Sungai Nil, yang dianggap lambang kekuatannya memberi kehidupan.",
+          "quote": "Osiris' rebirth was associated with the Nile River, which was considered a symbol of his life-giving power.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c28",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Nile represented Osiris' capacity to renew the earth and to restore life to the nation.",
+          "statement_id": "Sungai Nil melambangkan kemampuan Osiris memperbarui bumi dan memulihkan kehidupan bagi bangsa itu.",
+          "quote": "The Nile represented Osiris' capacity to renew the earth and to restore life to the nation.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c29",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The festival of the Fall of the Nile commemorated his death, while the Djed Pillar Festival celebrated Osiris' resurrection.",
+          "statement_id": "Festival Surutnya Nil memperingati kematiannya, sedangkan Festival Pilar Djed merayakan kebangkitan Osiris.",
+          "quote": "The festival of the Fall of the Nile commemorated his death while the Djed Pillar Festival celebrated Osiris' resurrection.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c30",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The grains that later grew symbolized Osiris rising from the dead and also the promise of eternal life for the one who tended the garden.",
+          "statement_id": "Biji-bijian yang kemudian tumbuh melambangkan Osiris bangkit dari kematian sekaligus janji hidup abadi bagi orang yang merawat kebun itu.",
+          "quote": "The grains which would later grow symbolized Osiris rising from the dead and also the promise of eternal life for the one who tended the garden.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c31",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Although no one knows what rituals were involved in the mystery cult of Isis, they may have developed from Osiris' earlier mysteries celebrated at Abydos beginning in the Twelfth Dynasty (1991-1802 BCE).",
+          "statement_id": "Meski tak ada yang tahu ritual apa saja dalam kultus misteri Isis, ritual itu mungkin berkembang dari misteri Osiris yang lebih awal, dirayakan di Abydos sejak Dinasti Kedua Belas (1991–1802 SM).",
+          "quote": "Although no one knows what rituals were involved in the mystery cult of Isis, they may have developed from Osiris' earlier mysteries celebrated at Abydos beginning in the Twelfth Dynasty (1991-1802 BCE).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c32",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Osiris' identification with eternal life, with life from death, gave rise to his mystery cult, which would travel beyond Egypt as the Cult of Isis.",
+          "statement_id": "Identifikasi Osiris dengan hidup abadi, dengan kehidupan dari kematian, melahirkan kultus misterinya yang kemudian menyebar melampaui Mesir sebagai Kultus Isis.",
+          "quote": "Osiris' identification with eternal life, with life from death, gave rise to his mystery cult which would travel beyond the boundaries of Egypt as the Cult of Isis.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c33",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Osiris was considered the first king of Egypt, who established the cultural values all later kings were sworn to uphold.",
+          "statement_id": "Osiris dianggap raja pertama Mesir yang menetapkan nilai-nilai budaya yang wajib dijunjung semua raja sesudahnya.",
+          "quote": "Osiris was considered the first king of Egypt who established the cultural values all later kings were sworn to uphold.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c34",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The kings of Egypt identified with Horus during life and with Osiris in death.",
+          "statement_id": "Raja-raja Mesir mengidentifikasi diri dengan Horus semasa hidup dan dengan Osiris setelah mati.",
+          "quote": "The kings of Egypt identified with Horus during life (they each had a personal name and a 'Horus Name' they took at the beginning of their reign) and with Osiris in death.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c35",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The famous flail and shepherd's staff, synonymous with Egyptian pharaohs, were first Osiris' symbols: the flail represented the fertility of his land and the crook symbolized the authority of his rule.",
+          "statement_id": "Cambuk dan tongkat gembala yang terkenal, identik dengan firaun Mesir, mula-mula adalah lambang Osiris: cambuk mewakili kesuburan negerinya dan tongkat gembala melambangkan wibawa kekuasaannya.",
+          "quote": "the famous flail and shepherd's staff, synonymous with Egyptian pharaohs, were first Osiris' symbols as the flail represented the fertility of his land while the crook symbolized the authority of his rule.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c36",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Osiris was credited with establishing both kingship and the natural order and law of life, so that through participation in one's community and observance of rituals one was following Osiris' guidelines.",
+          "statement_id": "Osiris dianggap menegakkan baik kerajaan maupun tatanan alam dan hukum kehidupan, sehingga dengan berperan dalam komunitas dan menjalankan ritual, orang mengikuti pedoman Osiris.",
+          "quote": "Osiris was credited with establishing both the kingship and the natural order and law of life and so, through one's participation in one's community and observance of rituals, one was following Osiris' guidelines.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c37",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Osiris was the all-merciful, the forgiving, and the just judge of the dead, who oversaw one's life on earth and in the afterlife.",
+          "statement_id": "Osiris adalah hakim orang mati yang maha pengasih, pemaaf, dan adil, yang mengawasi kehidupan seseorang di bumi dan di alam baka.",
+          "quote": "Osiris was the all-merciful, the forgiving, and the just judge of the dead who oversaw one's life on earth and in the afterlife.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c38",
+          "source_id": "osiris-s4",
+          "host": "gutenberg.org",
+          "statement": "In Plutarch, on the first of the added days (the Epagomenae) Osiris was born, and a voice came into the world with him, saying that the Lord of all things was now born.",
+          "statement_id": "Dalam Plutarch, pada hari pertama dari hari-hari tambahan (Epagomenae), Osiris lahir, dan sebuah suara datang ke dunia bersamanya, berkata bahwa Penguasa segala sesuatu kini telah lahir.",
+          "quote": "Upon the first of these, as they say, Osiris was born, and a voice came into the world with him, saying, The Lord of all things is now born.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c39",
+          "source_id": "osiris-s4",
+          "host": "gutenberg.org",
+          "statement": "In Plutarch, Osiris and Arueris are said to have been begotten by the Sun, Isis by Hermes, and Typhon and Nephthys by Saturn.",
+          "statement_id": "Dalam Plutarch, dikatakan Osiris dan Arueris dilahirkan oleh Matahari, Isis oleh Hermes, serta Typhon dan Nephthys oleh Saturnus.",
+          "quote": "Of these they say Osiris and Arueris were begot by the Sun, Isis by Hermes, and Typhon and Nephthys by Saturn.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c40",
+          "source_id": "osiris-s4",
+          "host": "gutenberg.org",
+          "statement": "In Plutarch, Osiris as king of Egypt drew the people off from a beggarly and bestial way of living by showing them the use of grain, making them laws, and teaching them to honor the Gods.",
+          "statement_id": "Dalam Plutarch, Osiris ketika menjadi raja Mesir menarik rakyat dari cara hidup melarat dan kebinatangan dengan menunjukkan kegunaan biji-bijian, membuat hukum, dan mengajar mereka menghormati para dewa.",
+          "quote": "And they say that Osiris, when he was king of Egypt, drew them off from a beggarly and bestial way of living, by showing them the use of grain, and by making them laws, and teaching them to honor the Gods",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c41",
+          "source_id": "osiris-s4",
+          "host": "gutenberg.org",
+          "statement": "In Plutarch, Typhon, the antagonist of the story, formed a plot with seventy-two men as accomplices, abetted by a certain Queen of Ethiopia named Aso.",
+          "statement_id": "Dalam Plutarch, Typhon, saudara Osiris dalam kisah itu, menyusun persekongkolan dengan tujuh puluh dua orang sekutu dan dibantu seorang ratu Etiopia bernama Aso.",
+          "quote": "he formed a plot against him, taking seventy-two men for accomplices of his conspiracy, and being also abetted by a certain Queen of Ethiopia, whose name they say was Aso.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c42",
+          "source_id": "osiris-s4",
+          "host": "gutenberg.org",
+          "statement": "In Plutarch, Typhon, hunting by moonlight, chanced upon the chest, recognized the body, tore it into fourteen parts, and threw them all about.",
+          "statement_id": "Dalam Plutarch, Typhon yang berburu di bawah cahaya bulan kebetulan menemukan peti itu, mengenali jasad itu, lalu mencabiknya menjadi empat belas bagian dan melemparkannya ke segala arah.",
+          "quote": "Typhon, as he was hunting by moonshine, by chance lighted upon it, and knowing the body again, tore it into fourteen parts, and threw them all about.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c43",
+          "source_id": "osiris-s4",
+          "host": "gutenberg.org",
+          "statement": "In Plutarch, the report that there are many sepulchres of Osiris in Egypt is explained by the story that Isis held a separate funeral for each member of the body as she found them.",
+          "statement_id": "Dalam Plutarch, laporan bahwa ada banyak makam Osiris di Mesir dijelaskan oleh kisah bahwa Isis mengadakan pemakaman tersendiri bagi tiap anggota tubuh yang ia temukan.",
+          "quote": "there are many sepulchres of Osiris in Egypt, because she made a particular funeral for each member as she found them.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c44",
+          "source_id": "osiris-s4",
+          "host": "gutenberg.org",
+          "statement": "In Plutarch, Osiris comes out of the underworld to assist his son Horus and first trains him in the discipline of war.",
+          "statement_id": "Dalam Plutarch, Osiris keluar dari dunia bawah untuk membantu putranya, Horus, dan mula-mula melatihnya dalam disiplin perang.",
+          "quote": "Osiris coming out of hell to assist his son Horus, first labored and trained him up in the discipline of war",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c45",
+          "source_id": "osiris-s4",
+          "host": "gutenberg.org",
+          "statement": "Plutarch concludes it is better to make Osiris the same as Bacchus, and Serapis again the same as Osiris.",
+          "statement_id": "Plutarch menyimpulkan lebih baik menyamakan Osiris dengan Bacchus, dan Serapis kembali dengan Osiris.",
+          "quote": "It is therefore better to make Osiris to be the same with Bacchus, and Serapis again with Osiris",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c46",
+          "source_id": "osiris-s4",
+          "host": "gutenberg.org",
+          "statement": "According to Plutarch, they call the Nile the efflux of Osiris, just as they hold the earth to be the body of Isis.",
+          "statement_id": "Menurut Plutarch, mereka menyebut Sungai Nil sebagai pancaran Osiris, sebagaimana bumi dianggap tubuh Isis.",
+          "quote": "And as they term the Nile the efflux of Osiris, so they hold and esteem the earth for the body of Isis",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "osiris-c47",
+          "source_id": "osiris-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The myth embodied some of the most important values of Egyptian culture: harmony, order, eternal life, and gratitude.",
+          "statement_id": "Mitos itu mewujudkan sebagian nilai terpenting budaya Mesir: keselarasan, ketertiban, hidup abadi, dan rasa syukur.",
+          "quote": "The myth embodied some of the most important values of Egyptian culture: harmony, order, eternal life, and gratitude.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "anubis",
-      "file": "batch-031-fix-1.md",
+      "file": "batch-031-fix-2.md",
+      "entry_sha256": "675399522a14e06e3b93ea14325380d6fa0c7eb9517b916f96d42e027049dc81",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 3,
+        "claims": 40,
+        "sources": 4,
         "images": 0
       },
       "issues": [
         {
           "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 8 klaim (target 15). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "where": "claims",
+          "message": "3 kutipan tidak bisa dicek otomatis: www.metmuseum.org (HTTP 429)."
         }
       ],
       "claims": [
@@ -388,9 +1158,8 @@
           "statement_id": "Dalam adegan pengadilan, Anubis berkepala jakal menimbang hati.",
           "quote": "At the culmination of this ceremony, the heart, seen as the center of intelligence and emotion, was weighed against a squatting figure of the goddess Ma’at by the jackal-headed god of embalming, Anubis.",
           "context": "religious-tradition",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260617221344id_/https://www.metmuseum.org/art/collection/search/557657",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "anubis-c06",
@@ -400,9 +1169,8 @@
           "statement_id": "Seniman menggambarkan Anubis berkepala jakal, dan sebuah arca menampilkannya sebagai jakal sepenuhnya.",
           "quote": "Artists represented the Egyptian god of mummification, named Anubis, with a jackal’s head. This statue shows Anubis completely in animal form, as a jackal.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260210212559id_/https://www.metmuseum.org/art/collection/search/544075",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "anubis-c07",
@@ -412,9 +1180,8 @@
           "statement_id": "Para imam pembalsem kadang mengenakan topeng berbentuk kepala Anubis.",
           "quote": "The priests who embalmed bodies sometimes wore masks shaped like the head of Anubis.",
           "context": "historical-record",
-          "status": "exact",
-          "archive_url": "https://web.archive.org/web/20260210212559id_/https://www.metmuseum.org/art/collection/search/544075",
-          "detail": "HTTP 429; dicek lewat arsip Wayback"
+          "status": "unreachable",
+          "detail": "HTTP 429"
         },
         {
           "id": "anubis-c08",
@@ -424,6 +1191,326 @@
           "statement_id": "Anubis dimohon untuk melindungi orang mati dan digambarkan dalam penimbangan hati.",
           "quote": "He is the earliest Egyptian deity depicted on tomb walls and invoked for protection of the dead and is usually shown tending to the corpse of the king, presiding over mummification rituals and funerals, or standing with Osiris, Thoth, or other gods at the Weighing of the Heart of the Soul in the Hall of Truth in the afterlife.",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c09",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "He is one of the oldest gods of Egypt, most likely developed from the earlier jackal god Wepwawet, with whom he is often confused.",
+          "statement_id": "Ia salah satu dewa tertua Mesir, kemungkinan besar berkembang dari dewa jakal yang lebih awal, Wepwawet, yang sering tertukar dengannya.",
+          "quote": "He is one of the oldest gods of Egypt, most likely developed from the earlier jackal god Wepwawet with whom he is often confused.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c10",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Anubis' image is seen on royal tombs from the First Dynasty of Egypt (c. 3150-2890 BCE), but he certainly already had a cult following before then, in order to be invoked on the tomb walls for protection.",
+          "statement_id": "Gambar Anubis terlihat pada makam kerajaan sejak Dinasti Pertama Mesir (sekitar 3150–2890 SM), tetapi dipastikan ia sudah memiliki pengikut kultus sebelumnya sehingga diseru di dinding makam untuk perlindungan.",
+          "quote": "Anubis' image is seen on royal tombs from the First Dynasty of Egypt (c. 3150-2890 BCE) but it is certain he had already developed a cult following prior to this period in order to be invoked on the tomb's walls for protection.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c11",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "He is thought to have developed in response to wild dogs and jackals digging up newly buried corpses at some point in the Predynastic Period in Egypt (c. 6000-3150 BCE), since the Egyptians believed a powerful canine god was the best protection against wild canines.",
+          "statement_id": "Ia diperkirakan muncul sebagai tanggapan atas anjing liar dan jakal yang menggali jenazah yang baru dikubur pada suatu waktu dalam Periode Pradinasti Mesir (sekitar 6000–3150 SM), karena orang Mesir yakin dewa kanid yang kuat adalah perlindungan terbaik terhadap kanid liar.",
+          "quote": "He is thought to have developed in response to wild dogs and jackals digging up newly buried corpses at some point in the Predynastic Period in Egypt (c. 6000-3150 BCE) as the Egyptians believed a powerful canine god was the best protection against wild canines.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c12",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The color black was chosen for its symbolism, not because Egyptian dogs or jackals were black; black symbolized the decay of the body as well as the fertile soil of the Nile River Valley, which represented regeneration and life.",
+          "statement_id": "Warna hitam dipilih karena maknanya, bukan karena anjing atau jakal Mesir berwarna hitam; hitam melambangkan pembusukan tubuh sekaligus tanah subur Lembah Sungai Nil yang mewakili pembaruan dan kehidupan.",
+          "quote": "The color black was chosen for its symbolism, not because Egyptian dogs or jackals were black. Black symbolized the decay of the body as well as the fertile soil of the Nile River Valley which represented regeneration and life.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c13",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The powerful black canine was the protector of the dead, who made sure they received their due rites in burial and stood by them in the afterlife to assist their resurrection.",
+          "statement_id": "Kanid hitam yang perkasa itu adalah pelindung orang mati yang memastikan mereka menerima hak penguburan dan mendampingi mereka dalam kehidupan setelah mati untuk membantu kebangkitan mereka.",
+          "quote": "The powerful black canine, then, was the protector of the dead who made sure they received their due rights in burial and stood by them in the life after death to assist their resurrection.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c14",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "He was known as \"First of the Westerners\" before the rise of Osiris in the Middle Kingdom (2040-1782 BCE), which meant he was king of the dead.",
+          "statement_id": "Ia dikenal sebagai \"Yang Pertama di antara Orang Barat\" sebelum bangkitnya Osiris pada Kerajaan Tengah (2040–1782 SM), yang berarti ia adalah raja orang mati.",
+          "quote": "He was known as \"First of the Westerners\" prior to the rise of Osiris in the Middle Kingdom (2040-1782 BCE) which meant he was king of the dead",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c15",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "A popular image of Anubis is the standing or kneeling man with the jackal's head holding the golden scales on which the heart of the soul was weighed against the white feather of truth.",
+          "statement_id": "Gambaran Anubis yang populer adalah pria berkepala jakal yang berdiri atau berlutut memegang timbangan emas tempat hati sang jiwa ditimbang terhadap bulu putih kebenaran.",
+          "quote": "A popular image of Anubis is the standing or kneeling man with the jackal's head holding the golden scales on which the heart of the soul was weighed against the white feather of truth.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c16",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "His daughter is Qebhet (also known as Kabechet), who brings cool water to the souls of the dead in the Hall of Truth and comforts the newly deceased.",
+          "statement_id": "Putrinya adalah Qebhet (juga dikenal sebagai Kabechet) yang membawa air sejuk bagi jiwa orang mati di Balai Kebenaran dan menghibur mereka yang baru meninggal.",
+          "quote": "His daughter is Qebhet (also known as Kabechet) who brings cool water to the souls of the dead in the Hall of Truth and comforts the newly deceased.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c17",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "He had many epithets besides \"First of the Westerners\", including \"Lord of the Sacred Land\" (referring to the area of the desert where necropoleis were located).",
+          "statement_id": "Ia memiliki banyak gelar selain \"Yang Pertama di antara Orang Barat\", antara lain \"Penguasa Tanah Suci\" (merujuk wilayah gurun tempat nekropolis berada).",
+          "quote": "He had many epithets besides \"First of the Westerners\" and was also known as \"Lord of the Sacred Land\" (referencing the area of the desert where necropoleis were located)",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c18",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Other epithets include \"Master of Secrets\" (since he knew what waited beyond death) and \"He Who is in the Place of Embalming\" (indicating his role in the mummification process).",
+          "statement_id": "Gelar lainnya mencakup \"Penguasa Rahasia\" (karena ia tahu apa yang menanti setelah kematian) dan \"Dia yang Berada di Tempat Pembalseman\" (menunjukkan perannya dalam proses mumifikasi).",
+          "quote": "\"Master of Secrets\" (since he knew what waited beyond death), \"He Who is in the Place of Embalming\" (indicating his role in the mummification process)",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c19",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "As his various epithets make clear, Anubis was central to every aspect of an individual's death experience as protector, and even stood with the soul after death as a just judge and guide.",
+          "statement_id": "Seperti terlihat dari berbagai gelarnya, Anubis berperan sentral dalam setiap aspek pengalaman kematian seseorang sebagai pelindung, dan bahkan mendampingi jiwa setelah mati sebagai hakim yang adil dan pemandu.",
+          "quote": "As his various epithets make clear, Anubis was central to every aspect of an individual's death experience in the role of protector and even stood with the soul after death as a just judge and guide.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c20",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to Geraldine Pinch, quoted by the source, Anubis helped to judge the dead, and he and his army of messengers were charged with punishing those who violated tombs or offended the gods.",
+          "statement_id": "Menurut Geraldine Pinch yang dikutip sumber ini, Anubis membantu menghakimi orang mati, dan ia bersama pasukan utusannya ditugasi menghukum orang yang melanggar makam atau menyinggung para dewa.",
+          "quote": "Anubis helped to judge the dead and he and his army of messengers were charged with punishing those who violated tombs or offended the gods",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c21",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "A story recorded in the first millennium BCE tells how the wicked god Set disguised himself as a leopard to approach the body of Osiris, was seized by Anubis, and was branded all over with a hot iron; according to Egyptian myth, this is how the leopard got its spots.",
+          "statement_id": "Sebuah kisah yang tercatat pada milenium pertama SM menceritakan bahwa dewa jahat Set menyamar sebagai macan tutul untuk mendekati jasad Osiris, lalu ditangkap Anubis dan dicap di sekujur tubuh dengan besi panas; menurut mitos Mesir, begitulah macan tutul mendapat bintik-bintiknya.",
+          "quote": "A story recorded in the first millenium BCE tells how the wicked god Set disguised himself as a leopard to approach the body of Osiris. He was seized by Anubis and branded all over with a hot iron. This, according to Egyptian myth, is how the leopard got its spots.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c22",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Anubis then flayed Set and wore his bloody skin as a warning to evildoers; by this era Anubis was said to command an army of demon messengers who inflicted suffering and death.",
+          "statement_id": "Anubis kemudian menguliti Set dan mengenakan kulitnya yang berdarah sebagai peringatan bagi para pelaku kejahatan; pada masa itu Anubis dikatakan memimpin pasukan utusan-iblis yang menimpakan penderitaan dan kematian.",
+          "quote": "Anubis then flayed Set and wore his bloody skin as a warning to evildoers. By this era, Anubis was said to command an army of demon messengers who inflicted suffering and death.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c23",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "In the Early Dynastic Period (c. 3150-2613 BCE) and Old Kingdom (c. 2613-2181 BCE) Anubis was the sole Lord of the Dead and righteous judge of the soul, but as the Osiris myth grew more popular, Osiris took on more and more of Anubis' attributes.",
+          "statement_id": "Pada Periode Dinasti Awal (sekitar 3150–2613 SM) dan Kerajaan Lama (sekitar 2613–2181 SM), Anubis adalah satu-satunya Penguasa Orang Mati dan hakim jiwa yang adil, tetapi seiring mitos Osiris makin populer, Osiris mengambil semakin banyak atribut Anubis.",
+          "quote": "In the Early Dynastic Period (c. 3150-2613 BCE) and Old Kingdom (c. 2613-2181 BCE) Anubis was the sole Lord of the Dead and righteous judge of the soul, but as the Osiris myth became more popular, the latter god took on more and more of Anubis' attributes.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c24",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Anubis nevertheless remained very popular and so was assimilated into the Osiris myth by discarding his earlier parentage and history and making him the son of Osiris and Nephthys, born of their affair.",
+          "statement_id": "Anubis tetap sangat populer sehingga ia diserap ke dalam mitos Osiris dengan membuang silsilah dan riwayat awalnya dan menjadikannya putra Osiris dan Nephthys yang lahir dari hubungan gelap mereka.",
+          "quote": "Anubis remained a very popular god, however, and so was assimilated into the Osiris myth by discarding his earlier parentage and history and making him the son of Osiris and Nephthys born of their affair.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c25",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "After his assimilation into the Osiris myth, Anubis was regularly seen as Osiris' protector and \"right-hand man\", who guarded the god's body after death, oversaw the mummification, and assisted Osiris in judging the souls of the dead.",
+          "statement_id": "Setelah diserap ke dalam mitos Osiris, Anubis lazim dipandang sebagai pelindung dan \"tangan kanan\" Osiris yang menjaga jasad sang dewa setelah mati, mengawasi mumifikasi, dan membantu Osiris menghakimi jiwa orang mati.",
+          "quote": "After his assimilation into the Osiris myth, Anubis was regularly seen as Osiris' protector and \"right-hand man\" who guarded the god's body after death, oversaw the mummification, and assisted Osiris in the judgment of the souls of the dead.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c26",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Anubis was regularly called upon (as attested by amulets, tomb paintings, and written works) for protection and vengeance, especially as a powerful ally in enforcing curses placed on others or defending oneself from such curses.",
+          "statement_id": "Anubis lazim diseru (dibuktikan dari jimat, lukisan makam, dan karya tulis) untuk perlindungan dan pembalasan, terutama sebagai sekutu kuat dalam menegakkan kutukan atas orang lain atau membela diri dari kutukan semacam itu.",
+          "quote": "Anubis was regularly called upon (as attested to from amulets, tomb paintings, and in written works) for protection and vengeance; especially as a powerful ally in enforcing curses placed on others or defending one's self from such curses.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c27",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "As the protector of the dead, Anubis is described as having invented mummification and so the preservation of the human body.",
+          "statement_id": "Sebagai pelindung orang mati, Anubis disebut penemu mumifikasi dan dengan demikian pengawetan tubuh manusia.",
+          "quote": "As the protector of the dead, who invented mummification and so the preservation of the human body",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c28",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Osiris slept with Nephthys and she became pregnant with Anubis but abandoned him shortly after his birth for fear that Set would discover the affair.",
+          "statement_id": "Osiris tidur dengan Nephthys dan ia hamil dengan Anubis, tetapi meninggalkannya tak lama setelah lahir karena takut hubungan itu diketahui Set.",
+          "quote": "Osiris slept with Nephthys and she became pregnant with Anubis but abandoned him shortly after his birth in fear that the affair would be discovered by Set.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c29",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Isis found out about the affair, went searching for the infant, and, when she found him, adopted him as her own.",
+          "statement_id": "Isis mengetahui hubungan itu, mencari sang bayi, dan setelah menemukannya mengangkatnya sebagai anaknya sendiri.",
+          "quote": "Isis found out about the affair and went searching for the infant and, when she found him, adopted him as her own.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c30",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The priests of Anubis were male and often wore wooden masks of the god in performing rituals. His cult center was in Upper Egypt at Cynopolis (\"the city of the dog\"), but there were shrines to him throughout the land and he was universally venerated in every part of the country.",
+          "statement_id": "Para pendeta Anubis adalah laki-laki dan sering mengenakan topeng sang dewa dari kayu saat melakukan ritual. Pusat kultusnya berada di Mesir Hulu di Cynopolis (\"kota anjing\"), tetapi ada kuil-kuil baginya di seluruh negeri dan ia dihormati di segala penjuru.",
+          "quote": "The priests of Anubis were male and often wore masks of the god made of wood in performing rituals. The god's cult center was in Upper Egypt at Cynopolis (\"the city of the dog\"), but there were shrines to him throughout the land and he was universally venerated in every part of the country.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c31",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Because he was said to have prepared the mummy of Osiris, Anubis became the patron god of embalmers, and in the Memphite necropolis an area associated with the embalmers seems to have become a focal point of the cult of Anubis in the Late Period and Ptolemaic times.",
+          "statement_id": "Karena dikatakan menyiapkan mumi Osiris, Anubis menjadi dewa pelindung para pembalsem, dan di nekropolis Memphis sebuah kawasan yang berkaitan dengan para pembalsem tampaknya menjadi pusat kultus Anubis pada Periode Akhir dan masa Ptolemeus.",
+          "quote": "Because he was said to have prepared the mummy of Osiris, Anubis became the patron god of embalmers and in the Memphite necropolis an area associated with the embalmers seems to have become something of a focal point for the cult of Anubis in the Late Period and Ptolemaic times",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c32",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "The Greeks associated him with their god Hermes, who guided the dead to the afterlife.",
+          "statement_id": "Orang Yunani mengaitkannya dengan dewa mereka, Hermes, yang memandu orang mati ke alam baka.",
+          "quote": "The Greeks associated him with their god Hermes who guided the dead to the afterlife",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c33",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to Salima Ikram, quoted in the source, Anubis became associated with Charon in the Graeco-Roman period and with St. Christopher in the early Christian period.",
+          "statement_id": "Menurut kutipan Salima Ikram dalam sumber ini, Anubis dikaitkan dengan Charon pada periode Yunani-Romawi dan dengan Santo Christopher pada masa Kristen awal.",
+          "quote": "became associated with Charon in the Graeco-Roman period and St. Christopher in the early Christian period",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c34",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "According to Salima Ikram, it is probable that Anubis is represented as a super-canid combining the most salient attributes of several types of canids, rather than being just a jackal or a dog.",
+          "statement_id": "Menurut kutipan Salima Ikram, kemungkinan Anubis digambarkan sebagai \"super-kanid\" yang menggabungkan ciri paling menonjol dari beberapa jenis kanid, bukan sekadar jakal atau anjing.",
+          "quote": "It is probable that Anubis is represented as a super-canid, combining the most salient attributes of serveral types of canids, rather than being just a jackal or a dog.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c35",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "This \"super-canid\" offered people the assurance that their body would be respected at death, that their soul would be protected in the afterlife, and that they would receive fair judgment for their life's work.",
+          "statement_id": "\"Super-kanid\" ini memberi orang jaminan bahwa tubuh mereka akan dihormati saat mati, jiwa mereka dilindungi di alam baka, dan mereka akan menerima penghakiman yang adil atas jerih payah hidupnya.",
+          "quote": "This \"super-canid\" offered people the assurance that their body would be respected at death, that their soul would be protected in the afterlife, and that they would receive fair judgment for their life's work.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c36",
+          "source_id": "anubis-s1",
+          "host": "www.worldhistory.org",
+          "statement": "Although Anubis is very well represented in artwork throughout Egyptian history, he does not play a major role in many myths.",
+          "statement_id": "Meski Anubis sangat banyak muncul dalam karya seni sepanjang sejarah Mesir, ia tidak berperan besar dalam banyak mitos.",
+          "quote": "Although Anubis is very well represented in artwork throughout Egyptian history he does not play a major role in many myths.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c37",
+          "source_id": "anubis-s4",
+          "host": "gutenberg.org",
+          "statement": "In Plutarch, the child afterwards became Isis's guard and follower, named Anubis, and is reported to guard the Gods as dogs do men.",
+          "statement_id": "Dalam Plutarch, anak itu kemudian menjadi pengawal dan pengikut Isis, dinamai Anubis, dan dikabarkan menjaga para dewa seperti anjing menjaga manusia.",
+          "quote": "he afterwards became her guardsman and follower, being named Anubis, and reported to guard the Gods as dogs do men.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c38",
+          "source_id": "anubis-s4",
+          "host": "gutenberg.org",
+          "statement": "In Plutarch, it is said that Isis had a lawful son called Horus and Nephthys a bastard called Anubis.",
+          "statement_id": "Dalam Plutarch, dikatakan bahwa Isis memiliki putra sah bernama Horus dan Nephthys memiliki anak haram bernama Anubis.",
+          "quote": "Which made them say that Isis had a lawful son called Horus, and Nephthys a bastard called Anubis.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c39",
+          "source_id": "anubis-s4",
+          "host": "gutenberg.org",
+          "statement": "In Plutarch's interpretation, that which touches upon both and is called the horizon (or bounding circle) is called Anubis and resembles the dog in shape, because the dog uses his sight by night as well as by day.",
+          "statement_id": "Dalam tafsir Plutarch, apa yang menyentuh keduanya dan disebut cakrawala (atau lingkaran pembatas) dinamai Anubis dan berbentuk seperti anjing, karena anjing menggunakan penglihatannya pada malam maupun siang.",
+          "quote": "that which touches upon both these, and is called the horizon (or bounding circle) and is common to them both, is called Anubis, and resembles in shape the dog, because the dog makes use of his sight by night as well as by day.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "anubis-c40",
+          "source_id": "anubis-s4",
+          "host": "gutenberg.org",
+          "statement": "Plutarch judges that Anubis has a power among the Egyptians much like that of Hecate among the Greeks, being as much terrestrial as Olympic.",
+          "statement_id": "Plutarch menilai kekuasaan Anubis di antara orang Mesir mirip dengan kekuasaan Hecate di antara orang Yunani, karena ia bersifat bumi sekaligus Olimpia.",
+          "quote": "Anubis seems to me to have a power among the Egyptians much like to that of Hecate among the Grecians, he being as well terrestrial as Olympic.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -446,7 +1533,8 @@
         }
       ],
       "claims": [],
-      "images": []
+      "images": [],
+      "entry_sha256": "e34dd838331f03d2b7158917ac4112f95c8e838e576991b0a5bce182da94bcf0"
     }
   ]
 }
