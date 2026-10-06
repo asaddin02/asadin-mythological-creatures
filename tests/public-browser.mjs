@@ -4,6 +4,11 @@ import { spawn } from 'node:child_process';
 import { readFile, mkdir } from 'node:fs/promises';
 import { chromium } from 'playwright';
 
+// Face regions in the approved source artwork, normalized to its dimensions.
+const heroFaces = {
+  garuda: [.46, .03, .68, .27], kitsune: [.53, .08, .74, .29],
+  jormungandr: [.55, .09, .81, .42], barong: [.35, .20, .67, .60],
+};
 const root = new URL('../', import.meta.url);
 const remote = process.env.PUBLIC_SITE_URL;
 const port = process.env.UI_TEST_PORT || '8103';
@@ -58,10 +63,25 @@ try {
       await page.locator(`[data-hero="${slug}"]`).click();
       await page.waitForFunction(slug => document.querySelector('.gateway')?.dataset.legend === slug, slug);
       await decoded('.royal-slide.is-active .hero-art');
-      assert(await page.locator('.royal-slide.is-active .hero-art').evaluate(img => {
-        const css = getComputedStyle(img), box = img.getBoundingClientRect(), stage = img.closest('.royal-visual').getBoundingClientRect();
-        return css.objectFit === 'contain' && css.transform === 'none' && box.top >= stage.top && box.bottom <= stage.bottom && box.left >= stage.left && box.right <= stage.right;
-      }), 'The full hero illustration stays inside its frame without zoom cropping');
+      assert(await page.locator('.royal-slide.is-active .hero-art').evaluate((img, face) => {
+        const css = getComputedStyle(img), box = img.getBoundingClientRect();
+        const stage = img.closest('.gateway').getBoundingClientRect();
+        const scale = Math.max(box.width / img.naturalWidth, box.height / img.naturalHeight);
+        const x = box.left + (box.width - img.naturalWidth * scale) * parseFloat(css.objectPosition) / 100;
+        const rect = {
+          left: x + face[0] * img.naturalWidth * scale,
+          top: box.top + face[1] * img.naturalHeight * scale,
+          right: x + face[2] * img.naturalWidth * scale,
+          bottom: box.top + face[3] * img.naturalHeight * scale,
+        };
+        const unobstructed = ['.royal-feature', '.royal-hero-copy'].every(selector => {
+          const other = document.querySelector(selector).getBoundingClientRect();
+          return rect.right <= other.left || rect.left >= other.right || rect.bottom <= other.top || rect.top >= other.bottom;
+        });
+        return css.filter === 'none' && css.objectFit === 'cover' && css.objectPosition.endsWith('0%') &&
+          box.top > stage.top && rect.left >= box.left - 1 && rect.right <= box.right + 1 &&
+          rect.top >= box.top && rect.bottom <= box.bottom && unobstructed;
+      }, heroFaces[slug]), `${slug}: sharp banner artwork keeps the face visible and clear of the copy and legend card`);
     }
     if (screenshots) await page.locator('.gateway').screenshot({ path: `${screenshots}/home-${width}.png` });
     await page.locator('.featured-grid').scrollIntoViewIfNeeded();

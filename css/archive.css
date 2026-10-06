@@ -550,49 +550,87 @@ body { background:radial-gradient(ellipse at 75% 0,#70471f18,transparent 45%),ra
  .royal-hero-copy h1 { font-size:37px; }.royal-hero-copy > p { font-size:11px; }.royal-hero-actions .btn { padding:12px 11px;font-size:9px;gap:8px; }.royal-discover-note { font-size:14px; }.royal-feature { max-width:100%;padding:17px;width:270px;margin-top:150px; }.royal-feature .gateway-art-name { font-size:36px; }.royal-gateway .hero-select { font-size:9px; }.royal-gateway .hero-selection { gap:10px; }.royal-stat strong { font-size:30px; }.royal-stat span { font-size:5px; }.section-title,.archive-browser .section-title,.comparison-view .section-title { font-size:37px; }.detail-view .detail-canonical-name { font-size:27px; }
 }
 
-/* A full-width scene with complete artwork and a clear space above every head. */
-.royal-gateway.gateway { height:auto;min-height:770px;max-height:none; }
-.royal-gateway .royal-hero-body { max-width:none;min-height:620px;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);grid-template-rows:1fr auto;gap:24px 60px;padding-block:42px 24px; }
-.royal-hero-copy { grid-column:1;grid-row:1;align-self:center; }
-.royal-visual { position:absolute;inset:0;z-index:-1;isolation:isolate;overflow:hidden;pointer-events:none; }
-.royal-visual .royal-background { inset:28px 0 110px;z-index:0; }
+/* A sharp cinematic banner: readable copy and a legend card beside the artwork. */
+.royal-gateway.gateway { height:auto;min-height:850px;max-height:none;background:#1b130b; }
+.royal-gateway .royal-hero-body { min-height:690px;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px 60px;align-content:center;padding-block:52px 38px; }
+.royal-hero-copy { grid-column:1;grid-row:1;padding:0;max-width:560px; }
+.royal-hero-copy h1 { font-size:clamp(48px,4.4vw,68px);margin:26px 0 23px; }
+.royal-hero-copy > p { max-width:390px; }
+.royal-discover-note { margin-top:24px; }
+.royal-background { background:#1b130b; }
 .royal-slide { transition:opacity 1.8s ease-in-out; }
-.royal-slide::before { content:'';position:absolute;inset:-28px;background-image:var(--scene-art);background-size:cover;background-position:center;filter:blur(24px);opacity:.35; }
-.royal-visual .royal-slide > .hero-art { inset:0 0 0 auto;width:auto;max-width:100%;height:100%;object-fit:contain;object-position:right top;animation:none;transform:none;mask-image:linear-gradient(90deg,transparent,#000 16%),linear-gradient(180deg,transparent,#000 20px,#000 85%,transparent);mask-composite:intersect; }
-.royal-visual .royal-vignette { z-index:1;background:linear-gradient(90deg,#1b130b 0%,#1b130bea 26%,#1b130b75 47%,transparent 70%),linear-gradient(0deg,#1b130b 0%,transparent 30%); }
-.royal-visual .royal-scene-link { inset:28px 0 160px 51%;z-index:2;pointer-events:auto; }
-.royal-gateway .royal-feature { grid-column:1 / -1;grid-row:2;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0 40px;width:100%;max-width:none;margin:0;padding:18px 24px;background:linear-gradient(100deg,#24180cd9,#1a120ba6); }
-.royal-feature-overline { grid-column:1;grid-row:1;padding-bottom:10px;margin-bottom:10px;max-width:340px; }
-.royal-feature .gateway-art { grid-column:1;grid-row:2; }
-.royal-feature .gateway-art-name { max-width:340px;font-size:34px;margin:5px 0; }
-.royal-feature .scale-badges { grid-column:2;grid-row:1 / span 2;align-self:center;margin:0; }
-.royal-feature .scale-badge { min-height:72px; }
-/* Keep the complete framing used throughout the archive. */
+.royal-gateway .royal-slide > .hero-art { inset:24px 0 auto auto;width:min(78%,1200px);height:calc(100% - 24px);object-fit:cover;object-position:var(--hero-focus,60%) top;animation:none;transform:none;filter:none;mask-image:linear-gradient(90deg,transparent,#000 20%); }
+.royal-slide[data-scene="garuda"] { --hero-focus:70%; }
+.royal-slide[data-scene="kitsune"] { --hero-focus:55%; }
+.royal-slide[data-scene="jormungandr"] { --hero-focus:60%; }
+.royal-slide[data-scene="barong"] { --hero-focus:50%; }
+.royal-vignette { background:linear-gradient(90deg,#1b130bf5 0%,#1b130bdb 25%,#1b130b6b 46%,transparent 68%),linear-gradient(0deg,#1b130b 0%,#1b130ba8 15%,transparent 38%); }
+.royal-scene-link { inset:24px 0 170px 52%; }
+.royal-gateway .royal-feature { grid-column:1;grid-row:2;justify-self:start;align-self:start;width:430px;max-width:100%;margin:0;padding:18px 22px;background:#21170ee8;border-color:#b9985c50;border-radius:4px;box-shadow:0 12px 32px #100a0633; }
+.royal-feature-overline { padding-bottom:10px;margin-bottom:12px;font-size:8px; }
+.royal-feature .gateway-art-name { font-size:35px;margin:7px 0; }
+.royal-feature-subtitle { font-size:16px; }
+.royal-feature .scale-badges { margin-top:16px;padding-top:14px;border-top:1px solid #b5925426;gap:14px; }
+.royal-feature .scale-badge { min-height:48px;gap:5px;padding-left:9px; }
+.royal-feature .badge-symbol { display:none; }
+.royal-feature .badge-copy > small { font-size:6px; }
+.royal-feature .scale-badge strong { font-size:9px; }
+.royal-feature .badge-meter { margin-top:7px; }
+.royal-hero-bottom { padding-block:20px 12px;min-height:112px;grid-template-columns:180px minmax(0,1fr) 116px;gap:24px; }
+.royal-gateway .hero-selection { gap:12px; }
+.royal-gateway .hero-select { padding:13px 14px;min-height:72px;border:1px solid #b9985c26;border-radius:3px;background:#21170e7a;transition:border-color .2s,background .2s; }
+.royal-gateway .hero-select[aria-pressed="true"] { border-color:#d4b4777a;background:#b18a3c13; }
+.royal-gateway .hero-select:hover { border-color:#d4b47780;background:#b18a3c16; }
+.royal-gateway .hero-select-number { font-size:17px; }
+.hero-select-line { left:14px;right:14px;bottom:0; }
+.royal-slide-controls button { width:36px;min-height:44px; }
+.royal-slide-controls #hero-play { background:#c29d5010; }
+/* Complete framing elsewhere in the archive remains independent of the banner. */
 .creature-card .card-media img,.creature-card:hover .card-media img { object-fit:contain;object-position:center;transform:none; }
 .card-media { background:#19120b; }
 .dossier-art .detail-primary-img { object-fit:contain;object-position:center;transform:none; }
 .nusantara-art > img { object-fit:contain;object-position:center;transform:none; }
 @media(min-width:1600px) {
- .royal-gateway .royal-hero-body { min-height:710px; }
+ .royal-gateway .royal-hero-body { min-height:750px; }
 }
 @media(max-width:1050px) and (min-width:761px) {
- .royal-gateway .royal-hero-body { grid-template-columns:minmax(0,1fr) minmax(0,.8fr);gap:24px; }
- .royal-hero-copy h1 { font-size:44px; }
+ .royal-gateway .royal-hero-body { gap:24px 30px; }
+ .royal-hero-copy h1 { font-size:46px; }
+ .royal-gateway .royal-slide > .hero-art { height:760px; }
+ .royal-slide[data-scene="barong"] { --hero-focus:0%; }
+ .royal-hero-bottom { grid-template-columns:minmax(0,1fr) 116px; }
+ .royal-gateway .hero-select { padding-inline:10px; }
+ .hero-select-copy small { display:none; }
 }
 @media(max-width:760px) {
  .royal-gateway.gateway { min-height:0; }
- .royal-gateway .royal-hero-body { display:flex;gap:0;min-height:0;padding-block:32px 22px; }
- .royal-hero-copy { max-width:none;width:100%;padding:0; }
- .royal-visual { position:relative;inset:auto;z-index:0;align-self:center;flex-shrink:0;width:100vw;height:clamp(320px,100vw,620px);margin-top:20px; }
- .royal-visual .royal-background { inset:16px 0 0; }
- .royal-visual .royal-slide > .hero-art { width:100%;object-position:center top;mask-image:none; }
- .royal-visual .royal-vignette { background:linear-gradient(180deg,#1b130b 0%,transparent 12%,transparent 82%,#1b130b 100%); }
- .royal-visual .royal-scene-link { inset:16px 0 0; }
- .royal-gateway .royal-feature { display:block;align-self:stretch;padding:18px 20px; }
- .royal-feature-overline,.royal-feature .gateway-art-name { max-width:none; }
- .royal-feature .scale-badges { margin-top:18px; }
+ .royal-gateway .royal-hero-body { min-height:0;display:flex;gap:0;padding-block:32px 24px; }
+ .royal-hero-copy { max-width:100%; }
+ .royal-hero-copy h1 { font-size:clamp(36px,8.5vw,56px);line-height:1.12;margin:22px 0 19px; }
+ .royal-hero-copy > p { font-size:12px;max-width:410px;line-height:1.8; }
+ .royal-hero-actions { margin-top:22px; }
+ .royal-discover-note { margin-top:20px;font-size:16px; }
+ .royal-gateway .royal-slide > .hero-art { inset:350px 0 auto;width:100%;height:clamp(440px,90vw,670px);object-position:var(--hero-focus,60%) top;mask-image:linear-gradient(180deg,transparent,#000 20px,#000 82%,transparent); }
+ .royal-vignette { background:linear-gradient(180deg,#1b130b 0%,#1b130b 300px,transparent 390px,transparent 750px,#1b130b 100%); }
+ .royal-scene-link { inset:360px 0 auto;height:300px; }
+ .royal-gateway .royal-feature { width:100%;max-width:520px;align-self:center;margin-top:clamp(330px,65vw,500px);padding:18px 20px; }
+ .royal-feature .gateway-art-name { font-size:36px; }
+ .royal-feature .scale-badges { gap:12px; }
+ .royal-hero-bottom { grid-template-columns:minmax(0,1fr) auto;gap:16px;padding-top:18px; }
+ .royal-gateway .hero-selection { grid-column:1 / -1;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px; }
+ .royal-gateway .hero-select { display:flex;align-items:center;gap:10px;font-size:12px;padding:12px;min-height:54px; }
+ .royal-gateway .hero-select-number { display:inline;margin:0;font-size:15px; }
+ .royal-slide-controls { grid-column:2;width:124px; }
+ .royal-hero-fineprint { padding-top:6px; }
  .dossier-art .detail-art-stage { aspect-ratio:1;min-height:0;height:auto; }
 }
-@media(prefers-reduced-motion:reduce) {
- .royal-slide { transition:none; }
+@media(min-width:481px) and (max-width:760px) {
+ .royal-gateway .royal-slide > .hero-art { top:390px; }
+ .royal-scene-link { top:400px;height:380px; }
 }
+@media(max-width:350px) {
+ .royal-hero-copy h1 { font-size:34px; }
+ .royal-hero-actions .btn { padding-inline:11px; }
+ .royal-discover-note { font-size:14px; }
+}
+@media(prefers-reduced-motion:reduce) { .royal-slide { transition:none; } }
