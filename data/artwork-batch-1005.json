@@ -1,0 +1,2454 @@
+{
+  "target": 5,
+  "tool": "Gemini image generation (Antigravity)",
+  "scope": "5 illustrations made by Gemini in Antigravity before that work was stopped on 2026-10-06; each passed a second visual review by Claude.",
+  "selected_at": "2026-10-06T04:44:16.807Z",
+  "baseline_counts": {
+    "lengkap-bergambar": 904,
+    "lengkap-informasi": 598,
+    "lengkap-tidak-valid": 55,
+    "tidak-lengkap": 1968,
+    "belum-ada-entri": 1317,
+    "bukan-makhluk": 127
+  },
+  "status": "complete",
+  "complete": 5,
+  "presence_policy": true,
+  "require_root_visual_review": true,
+  "items": [
+    {
+      "index": 1,
+      "slug": "nightmare",
+      "canonical_name": "Luupainaja",
+      "worker": "gemini",
+      "status": "complete",
+      "requires_catalogue_record": true,
+      "review_path": "data/gemini/reviews/batch-126.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-126",
+        "slug": "nightmare",
+        "task": "new",
+        "tier": "core",
+        "researched_at": "2026-10-02",
+        "identity": {
+          "canonical_name": "Luupainaja",
+          "native_name": null,
+          "display_name": {
+            "id": "Luupainaja",
+            "en": "Luupainaja (nightmare spirit)"
+          },
+          "wikidata_qid": "Q61391769",
+          "claim_ids": [
+            "nightmare-c01"
+          ]
+        },
+        "alternate_names": [
+          {
+            "name": "painaja",
+            "language": "et",
+            "name_type": "alias",
+            "claim_ids": [
+              "nightmare-c02"
+            ]
+          },
+          {
+            "name": "painak",
+            "language": "et",
+            "name_type": "alias",
+            "claim_ids": [
+              "nightmare-c02"
+            ]
+          },
+          {
+            "name": "luupaanija",
+            "language": "et",
+            "name_type": "alias",
+            "claim_ids": [
+              "nightmare-c02"
+            ]
+          },
+          {
+            "name": "tallaja",
+            "language": "et",
+            "name_type": "alias",
+            "claim_ids": [
+              "nightmare-c02"
+            ]
+          }
+        ],
+        "jenis": {
+          "value": "roh",
+          "claim_ids": [
+            "nightmare-c01"
+          ]
+        },
+        "classification": {
+          "value": "spirit",
+          "claim_ids": [
+            "nightmare-c01"
+          ]
+        },
+        "culture": {
+          "value": "tradition-estonian",
+          "suggested_new": null,
+          "claim_ids": [
+            "nightmare-c01"
+          ]
+        },
+        "region": {
+          "value": "europe",
+          "claim_ids": [
+            "nightmare-c01"
+          ]
+        },
+        "countries": {
+          "value": [
+            "Estonia"
+          ],
+          "claim_ids": [
+            "nightmare-c01"
+          ]
+        },
+        "era": null,
+        "habitats": [
+          {
+            "value": "dwelling",
+            "claim_ids": [
+              "nightmare-c03",
+              "nightmare-c08"
+            ]
+          }
+        ],
+        "disposition": {
+          "value": "malevolent",
+          "claim_ids": [
+            "nightmare-c03",
+            "nightmare-c04"
+          ]
+        },
+        "traits": [
+          {
+            "value": "nocturnal",
+            "claim_ids": [
+              "nightmare-c03"
+            ]
+          },
+          {
+            "value": "shapeshifter",
+            "claim_ids": [
+              "nightmare-c05",
+              "nightmare-c12"
+            ]
+          }
+        ],
+        "short_description": {
+          "id": "Luupainaja adalah roh dalam mitologi Estonia yang menindih orang dan hewan yang sedang tidur pada malam hari, dan bisa diusir dengan menggerakkan ibu jari kaki atau menyalakan api.",
+          "en": "The luupainaja is a spirit of Estonian mythology that presses on sleeping people and animals at night and can be driven off by moving the big toe or lighting a fire.",
+          "claim_ids": [
+            "nightmare-c01",
+            "nightmare-c03",
+            "nightmare-c06",
+            "nightmare-c07"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Dalam mitologi Estonia, luupainaja, yang juga disebut painaja, painak, atau tallaja, adalah roh yang menindih orang yang sedang tidur. Ia datang pada malam hari dan menekan tubuh korban sehingga korban tidak bisa bergerak. Orang tua dahulu percaya tindihan yang lama bisa membawa kematian, dan luupainaja juga menindih hewan pekerja untuk melemahkan tenaganya.",
+            "en": "In Estonian mythology the luupainaja, also called painaja, painak or tallaja, is a spirit that presses down on sleepers. It comes at night and weighs on the victim's body so that they cannot move. The old folk believed prolonged pressing could kill, and the luupainaja also pressed on working animals to sap their strength.",
+            "claim_ids": [
+              "nightmare-c01",
+              "nightmare-c02",
+              "nightmare-c03",
+              "nightmare-c04"
+            ]
+          },
+          {
+            "id": "Dalam kebanyakan cerita ia tampak sebagai perempuan muda, tetapi juga sebagai perempuan atau lelaki tua, atau sebagai kucing hitam, kuda, dan anjing. Untuk melepaskan diri, orang menggerakkan ibu jari kaki atau menyalakan api, karena luupainaja takut cahaya.",
+            "en": "In most tales it appears as a young woman, but also as an old woman or old man, or as a black cat, horse or dog. To get free, people moved their big toe or lit a fire, since the luupainaja fears light.",
+            "claim_ids": [
+              "nightmare-c05",
+              "nightmare-c06",
+              "nightmare-c07"
+            ]
+          },
+          {
+            "id": "M. J. Eisen mencatat bahwa luupainaja memilih korban dan menindihnya setiap malam seperti batu di dada. Menurut kisah yang dikenal luas, bila lubang masuknya ditutup dan api dinyalakan, ia tampak sebagai gadis muda yang kemudian dinikahi korbannya, sampai suaminya mencabut sumbat lubang itu dan sang istri lenyap. Eisen menyimpulkan bahwa luupainaja sebenarnya penyihir, manusia yang jiwanya meninggalkan tubuh dan mengambil berbagai wujud.",
+            "en": "M. J. Eisen recorded that the luupainaja chooses a victim and presses on them nightly like a stone on the chest. In a widely known tale, when its entry hole is stopped and a light is struck it appears as a young girl whom the victim marries, until the husband pulls the plug from the hole and the wife vanishes. Eisen concluded that the luupainaja is really a witch, a human whose soul leaves the body and takes various forms.",
+            "claim_ids": [
+              "nightmare-c08",
+              "nightmare-c09",
+              "nightmare-c10",
+              "nightmare-c11",
+              "nightmare-c12"
+            ]
+          }
+        ],
+        "cultural_context": null,
+        "etymology": null,
+        "story_mode": {
+          "who": {
+            "id": "Luupainaja adalah roh penindih orang tidur.",
+            "en": "The luupainaja is a spirit that presses on sleepers.",
+            "claim_ids": [
+              "nightmare-c01"
+            ]
+          },
+          "origin": {
+            "id": "Ia berasal dari mitologi Estonia.",
+            "en": "It comes from Estonian mythology.",
+            "claim_ids": [
+              "nightmare-c01"
+            ]
+          },
+          "role": {
+            "id": "Ia menindih manusia dan hewan pada malam hari.",
+            "en": "It presses on people and animals at night.",
+            "claim_ids": [
+              "nightmare-c03",
+              "nightmare-c04"
+            ]
+          },
+          "famous_for": {
+            "id": "Ia dikenal bisa diusir dengan menggerakkan ibu jari kaki.",
+            "en": "It is known to flee when the big toe is moved.",
+            "claim_ids": [
+              "nightmare-c06"
+            ]
+          }
+        },
+        "did_you_know": {
+          "id": "Menggerakkan ibu jari kaki konon cukup untuk mengusir luupainaja.",
+          "en": "Moving the big toe was said to be enough to drive off a luupainaja.",
+          "claim_ids": [
+            "nightmare-c06"
+          ]
+        },
+        "abilities": [],
+        "weaknesses": [
+          {
+            "name": {
+              "id": "Ibu jari kaki",
+              "en": "The big toe"
+            },
+            "description": {
+              "id": "Menggerakkan ibu jari kaki membuat tallaja lari.",
+              "en": "Moving the big toe makes the tallaja flee."
+            },
+            "claim_ids": [
+              "nightmare-c06"
+            ]
+          },
+          {
+            "name": {
+              "id": "Cahaya",
+              "en": "Light"
+            },
+            "description": {
+              "id": "Luupainaja takut cahaya, sehingga menyalakan api bisa mengusirnya.",
+              "en": "The luupainaja fears light, so lighting a fire drives it off."
+            },
+            "claim_ids": [
+              "nightmare-c07"
+            ]
+          }
+        ],
+        "variants": [],
+        "stories": [
+          {
+            "title": {
+              "id": "Istri luupainaja",
+              "en": "The luupainaja wife"
+            },
+            "role": {
+              "id": "Istri yang lenyap",
+              "en": "The vanishing wife"
+            },
+            "summary": {
+              "id": "Luupainaja yang tertangkap menjadi gadis muda dan dinikahi korbannya; bertahun-tahun kemudian sang suami mencabut sumbat lubang masuknya dan istrinya lenyap.",
+              "en": "A captured luupainaja becomes a young girl and marries her victim; years later the husband pulls the plug from her entry hole and she vanishes."
+            },
+            "claim_ids": [
+              "nightmare-c09",
+              "nightmare-c10"
+            ]
+          }
+        ],
+        "places": [],
+        "timeline": [],
+        "relations": [],
+        "modern_depictions": [],
+        "tradition_vs_modern": null,
+        "learning_questions": [
+          {
+            "id": "Bagaimana kepercayaan tentang luupainaja menjelaskan pengalaman sulit bergerak saat terbangun?",
+            "en": "How might beliefs about the luupainaja explain the experience of being unable to move on waking?"
+          }
+        ],
+        "images": [],
+        "sources": [
+          {
+            "id": "nightmare-s1",
+            "url": "https://et.wikipedia.org/wiki/Luupainaja",
+            "title": "Luupainaja",
+            "author": null,
+            "publisher": "Wikipedia (et)",
+            "published": null,
+            "language": "et",
+            "type": "wikipedia",
+            "accessed": "2026-10-02"
+          },
+          {
+            "id": "nightmare-s2",
+            "url": "https://et.wikisource.org/wiki/Eesti_m%C3%BCtoloogia/Luupainaja",
+            "title": "Eesti mütoloogia/Luupainaja",
+            "author": "Matthias Johann Eisen",
+            "publisher": "Vikitekstid (Wikisource)",
+            "published": null,
+            "language": "et",
+            "type": "folklore-collection",
+            "accessed": "2026-10-02"
+          }
+        ],
+        "claims": [
+          {
+            "id": "nightmare-c01",
+            "source_id": "nightmare-s1",
+            "quote": "Luupainaja on eesti mütoloogias magajaid painav vaim.",
+            "locator": "sissejuhatus",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Dalam mitologi Estonia, luupainaja adalah roh yang menindih orang yang sedang tidur.",
+              "en": "In Estonian mythology the luupainaja is a spirit that presses down on sleepers."
+            }
+          },
+          {
+            "id": "nightmare-c02",
+            "source_id": "nightmare-s1",
+            "quote": "Luupainaja teiste nimetuste hulka kuuluvad painaja, painak, panijas, paanjas, painakane, luupaanija, luupaine, luupatak, tallaja.",
+            "locator": "sissejuhatus",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Nama lain luupainaja antara lain painaja, painak, panijas, paanjas, painakane, luupaanija, luupaine, luupatak, dan tallaja.",
+              "en": "Other names of the luupainaja include painaja, painak, panijas, paanjas, painakane, luupaanija, luupaine, luupatak and tallaja."
+            }
+          },
+          {
+            "id": "nightmare-c03",
+            "source_id": "nightmare-s1",
+            "quote": "Nimelt käivad tallajad öösiti oma ohvrit painamas. Nad rõhuvad oma ohvri keha, nii et too liigutada ei saa.",
+            "locator": "sissejuhatus",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Tallaja datang pada malam hari menindih korbannya, menekan tubuh korban sehingga ia tidak bisa bergerak.",
+              "en": "The tallajad come at night to press on their victim, weighing down the body so the victim cannot move."
+            }
+          },
+          {
+            "id": "nightmare-c04",
+            "source_id": "nightmare-s1",
+            "quote": "Vanarahvas arvas, et pikaaegne painamine võib surma tuua. Tallajad ei käi ainult inimesi piinamas, vaid üritavad ka tööloomade jõudu oma rõhumisega nõrgendada.",
+            "locator": "sissejuhatus",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Orang tua dahulu percaya bahwa tindihan yang berlangsung lama bisa membawa kematian; tallaja tidak hanya menyiksa manusia tetapi juga berusaha melemahkan tenaga hewan pekerja dengan tindihannya.",
+              "en": "The old folk believed prolonged pressing could bring death; the tallajad torment not only people but also try to weaken working animals by pressing on them."
+            }
+          },
+          {
+            "id": "nightmare-c05",
+            "source_id": "nightmare-s1",
+            "quote": "Enamikus juttudes on öeldud, et tallajad ilmutavad end noore naisena, kuid ei pelga ära ka vana naise ja vana mehena ilmumist. Samuti on loomadega – luupainajaid kirjeldatakse nii mustade kassidena, hobustena, koertena jne.",
+            "locator": "sissejuhatus",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Dalam kebanyakan cerita, tallaja menampakkan diri sebagai perempuan muda, tetapi juga sebagai perempuan tua atau lelaki tua; luupainaja juga digambarkan sebagai kucing hitam, kuda, anjing, dan sebagainya.",
+              "en": "In most tales the tallajad appear as a young woman, though also as an old woman or old man; luupainajad are also described as black cats, horses, dogs and so on."
+            }
+          },
+          {
+            "id": "nightmare-c06",
+            "source_id": "nightmare-s1",
+            "quote": "Lihtsaim neist on suure varba liigutamine. Nimelt arvati, et kui tunned luupainajat end rõhuvat, tuleb suurt varvast liigutada ning siis tallaja põgeneb.",
+            "locator": "sissejuhatus",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Cara paling mudah untuk melepaskan diri adalah menggerakkan ibu jari kaki: orang percaya bila merasa ditindih luupainaja, ibu jari kaki harus digerakkan, maka tallaja akan lari.",
+              "en": "The simplest way to get free is to move the big toe: it was believed that if you feel the luupainaja pressing on you, you must move your big toe and the tallaja will flee."
+            }
+          },
+          {
+            "id": "nightmare-c07",
+            "source_id": "nightmare-s1",
+            "quote": "Teiseks levinud võimaluseks oli tule põlema panemine, valgust pidavat luupainajad kartma.",
+            "locator": "sissejuhatus",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Cara umum lainnya adalah menyalakan api, karena luupainaja konon takut cahaya.",
+              "en": "Another common way was to light a fire, as the luupainajad were said to fear light."
+            }
+          },
+          {
+            "id": "nightmare-c08",
+            "source_id": "nightmare-s2",
+            "quote": "Luupainaja valib enesele mingisuguse isiku ohvriks ja hakkab seda kas igal ööl ehk mõne öö takka painamas käima, nagu kivi rinnul ehk kehal lasudes",
+            "locator": "Eesti mütoloogia",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Menurut M. J. Eisen, luupainaja memilih seseorang sebagai korban dan datang menindihnya setiap malam atau selang beberapa malam, seperti batu yang menimpa dada atau tubuh.",
+              "en": "According to M. J. Eisen, the luupainaja chooses a person as its victim and comes to press on them every night or every few nights, lying like a stone on the chest or body."
+            }
+          },
+          {
+            "id": "nightmare-c09",
+            "source_id": "nightmare-s2",
+            "quote": "Laialt tuntakse lugu, mille järele sissetuleku-augu sulgumise ja tulesüütamise peale luupainaja ilmub noorena tütarlapsena, kelle painatav hiljemini enesele kosib.",
+            "locator": "Eesti mütoloogia",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Dikenal luas kisah bahwa bila lubang masuknya ditutup dan api dinyalakan, luupainaja menampakkan diri sebagai gadis muda, yang kemudian dilamar oleh orang yang ditindihnya.",
+              "en": "A widely known tale says that when its entry hole is closed and a light is struck, the luupainaja appears as a young girl, whom the person she pressed later marries."
+            }
+          },
+          {
+            "id": "nightmare-c10",
+            "source_id": "nightmare-s2",
+            "quote": "Mõlemad elavad õnnelikult, kuni abielumees 7 ehk 14 aastat pärast pulmi luupainaja sissetuleku-augu eest pulga võtab, ja kohe kaob naine nagu õhk toast.",
+            "locator": "Eesti mütoloogia",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Keduanya hidup bahagia sampai sang suami, 7 atau 14 tahun setelah pernikahan, mencabut sumbat dari lubang masuk luupainaja, dan seketika sang istri lenyap dari ruangan seperti udara.",
+              "en": "Both live happily until the husband, 7 or 14 years after the wedding, pulls the plug from the luupainaja's entry hole, and at once the wife vanishes from the room like air."
+            }
+          },
+          {
+            "id": "nightmare-c11",
+            "source_id": "nightmare-s2",
+            "quote": "Nagu eelmistest seletustest selgub, on luupainaja inimene, kuid mitte tavaline inimene, vaid niisugune, kes enesele iseäraliku tarkusega vaimude omaduse pärinud, teise sõnaga nõid.",
+            "locator": "Eesti mütoloogia",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Eisen menyimpulkan bahwa luupainaja adalah manusia, tetapi bukan manusia biasa, melainkan orang yang dengan pengetahuan khusus memperoleh sifat roh, dengan kata lain seorang penyihir.",
+              "en": "Eisen concludes that the luupainaja is a human, but not an ordinary one: someone who by special knowledge has acquired the qualities of spirits, in other words a witch."
+            }
+          },
+          {
+            "id": "nightmare-c12",
+            "source_id": "nightmare-s2",
+            "quote": "Tõepoolest ei muuda luupainaja inimlik keha ennast sugugi, vaid hing lahkub kehast, enesele lahkudes üht ehk teist kuju võttes.",
+            "locator": "Eesti mütoloogia",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Tubuh manusia luupainaja sebenarnya tidak berubah; jiwanya yang meninggalkan tubuh dan mengambil satu atau lain wujud.",
+              "en": "The luupainaja's human body does not really change; rather the soul leaves the body, taking one form or another as it goes."
+            }
+          }
+        ],
+        "conflicts": [
+          {
+            "topic": {
+              "id": "Hakikat luupainaja",
+              "en": "Nature of the luupainaja"
+            },
+            "positions": [
+              {
+                "summary": {
+                  "id": "Roh yang menindih orang tidur.",
+                  "en": "A spirit that presses on sleepers."
+                },
+                "claim_ids": [
+                  "nightmare-c01"
+                ]
+              },
+              {
+                "summary": {
+                  "id": "Penyihir manusia yang jiwanya meninggalkan tubuh (Eisen).",
+                  "en": "A human witch whose soul leaves the body (Eisen)."
+                },
+                "claim_ids": [
+                  "nightmare-c11",
+                  "nightmare-c12"
+                ]
+              }
+            ]
+          }
+        ],
+        "gaps": [
+          {
+            "field": "images",
+            "searched": "Gambar Commons belum dicari pada putaran ini; dijadwalkan pada pemeriksaan gambar terpisah."
+          }
+        ]
+      },
+      "selection_visual_claim_ids": [
+        "nightmare-c03",
+        "nightmare-c05",
+        "nightmare-c07",
+        "nightmare-c08",
+        "nightmare-c09",
+        "nightmare-c12"
+      ],
+      "url": "/assets/art/nightmare-verified.webp",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1005/originals/nightmare.png",
+      "prompt": "Use case: stylized-concept. Asset: square premium painterly naturalistic illustration for Mythics folklore encyclopedia. Subject: Luupainaja, nightmare pressing spirit of Estonian folklore. Depict ONE supernatural spirit in the form of a pale, unearthly young woman kneeling heavily upon the chest of a sleeping person in a rustic historical wooden bed. The spirit wears a simple modest pale historical linen shift, long dark hair draping down, with an intense, uncanny, hollow unblinking gaze fixed forward. Heavy suffocating pressing posture conveys immense supernatural weight like stone. Rustic 19th-century Estonian log farmhouse interior, deep shadows, cold pale moonlight entering through a small window. Fully modest attire, respectful historical framing, no nudity, no gore. No wings, no horns, no generic glowing aura, neon outline, energy ribbons or luminous colored mist. Beautifully resolved anatomy, cinematic painterly craft, no text, labels, logo, border, or watermark.",
+      "depicted_variant": "Pale young woman spirit kneeling heavily upon a sleeper like a stone in an Estonian farmhouse chamber",
+      "visual_requirements": [
+        "One female spirit kneeling upon a sleeping human in bed, weighing them down like stone",
+        "Pale, uncanny unearthly facial expression and hollow staring gaze",
+        "Fully modest historical linen night shift, no nudity",
+        "Rustic wooden bedroom interior with moonlight from window",
+        "No horns, wings, generic neon glow, or colored mist"
+      ],
+      "basis_claim_ids": [
+        "nightmare-c01",
+        "nightmare-c03",
+        "nightmare-c05",
+        "nightmare-c08"
+      ],
+      "aura": "Chilling sleep paralysis dread created through the heavy suffocating kneeling posture, pale unearthly gaze, deep cabin shadows, and cold natural moonlight.",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "gemini",
+        "notes": "Verified native PNG. Depicts one pale female spirit kneeling on a sleeping man's back in a wooden bed inside a log cabin. Uncanny staring expression and heavy crouching pose capture the documented stone-like pressing spirit. Modest historical linen nightwear, no nudity or gore. Natural moonlight through window without generic glowing outlines or neon mist; clean painterly craft free of text or watermarks."
+      },
+      "width": 1024,
+      "height": 1024,
+      "sha256": "dc58f27a4c1e46d02e612dee1e46a233ddb6a81222c6de9210cb04f27a9be628"
+    },
+    {
+      "index": 2,
+      "slug": "nihang-mythology",
+      "canonical_name": "Nihang",
+      "worker": "gemini",
+      "status": "complete",
+      "requires_catalogue_record": false,
+      "review_path": "data/gemini/reviews/batch-139.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-139",
+        "slug": "nihang-mythology",
+        "task": "enrich",
+        "tier": "core",
+        "researched_at": "2026-10-05",
+        "identity": {
+          "canonical_name": "Nihang",
+          "native_name": null,
+          "display_name": {
+            "id": "Nihang",
+            "en": "Nihang"
+          },
+          "wikidata_qid": "Q139023218",
+          "claim_ids": [
+            "nihang-mythology-c01",
+            "nihang-mythology-c02"
+          ]
+        },
+        "alternate_names": [],
+        "jenis": {
+          "value": "naga/ular mitos",
+          "claim_ids": [
+            "nihang-mythology-c01",
+            "nihang-mythology-c02"
+          ]
+        },
+        "classification": {
+          "value": "dragon",
+          "claim_ids": [
+            "nihang-mythology-c01",
+            "nihang-mythology-c02"
+          ]
+        },
+        "culture": {
+          "value": "tradition-pakistani",
+          "suggested_new": null,
+          "claim_ids": [
+            "nihang-mythology-c01",
+            "nihang-mythology-c02"
+          ]
+        },
+        "region": {
+          "value": "south-asia",
+          "claim_ids": [
+            "nihang-mythology-c01"
+          ]
+        },
+        "countries": {
+          "value": [
+            "Pakistan"
+          ],
+          "claim_ids": [
+            "nihang-mythology-c01"
+          ]
+        },
+        "era": null,
+        "habitats": [
+          {
+            "value": "water",
+            "claim_ids": [
+              "nihang-mythology-c01",
+              "nihang-mythology-c02",
+              "nihang-mythology-c07"
+            ]
+          }
+        ],
+        "disposition": {
+          "value": "malevolent",
+          "claim_ids": [
+            "nihang-mythology-c05",
+            "nihang-mythology-c04"
+          ]
+        },
+        "traits": [
+          {
+            "value": "water-associated",
+            "claim_ids": [
+              "nihang-mythology-c02",
+              "nihang-mythology-c07"
+            ]
+          },
+          {
+            "value": "aquatic",
+            "claim_ids": [
+              "nihang-mythology-c01"
+            ]
+          }
+        ],
+        "short_description": {
+          "id": "Nihang adalah naga air bersurai emas dalam mitologi Chitrali di Pakistan barat laut. Kisah terkenalnya menceritakan naga danau di Mastuj yang dibunuh seorang pemberani dengan pedang beracun bergagang ganda.",
+          "en": "The Nihang is a golden-maned water dragon of Chitrali mythology in northwestern Pakistan. Its best-known tale tells of a lake dragon at Mastuj slain by a brave man with a poisoned, double-hilted sword.",
+          "claim_ids": [
+            "nihang-mythology-c01",
+            "nihang-mythology-c03",
+            "nihang-mythology-c04",
+            "nihang-mythology-c09",
+            "nihang-mythology-c10"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Nihang adalah naga air dalam mitologi Chitrali di Pakistan barat laut. Namanya diturunkan dari kata Persia nahang, yang berarti buaya tetapi juga dipakai untuk aneka makhluk laut. Makhluk ini dibayangkan sebagai ular bersayap yang sangat besar, bersisik, dan bersurai emas.",
+            "en": "The Nihang is a water dragon of Chitrali mythology in northwestern Pakistan. Its name comes from the Persian word nahang, meaning crocodile but also applied to assorted sea creatures. It is imagined as a very large, scaly winged serpent with a golden mane.",
+            "claim_ids": [
+              "nihang-mythology-c01",
+              "nihang-mythology-c02",
+              "nihang-mythology-c03"
+            ]
+          },
+          {
+            "id": "Menurut artikel kedua, ciri tubuhnya mengingatkan pada naga Asia Timur: surai tebal seperti bulu, hidup di air, dan badan panjang ramping menyerupai ular. Bedanya, Nihang dipandang sebagai makhluk jahat yang menebar teror di sekitarnya. Penulis yang sama menilai kepercayaan pada makhluk penghuni danau sudah tua di pegunungan Hindu Kush.",
+            "en": "According to the second source, its body recalls East Asian dragons: a thick fur-like mane, a watery home and a long slender snake-like body. Unlike them, however, the Nihang is seen as a malevolent creature spreading terror around it. The same author considers belief in lake-dwelling beings to be old in the Hindu Kush mountains.",
+            "claim_ids": [
+              "nihang-mythology-c05",
+              "nihang-mythology-c06"
+            ]
+          },
+          {
+            "id": "Kisah paling terkenal terjadi di Mastuj. Dahulu sungai di sana membentuk danau besar di bawah kota, tempat seekor naga raksasa memangsa ikan, hewan, dan akhirnya manusia. Naga itu kebal senjata dan panah tidak dapat menjangkaunya dari jauh.",
+            "en": "The best-known tale is set in Mastuj. Long ago the river there formed a large lake below the town, where a giant dragon preyed on fish, animals and eventually people. It could not be harmed by weapons, and arrows could not reach it from afar.",
+            "claim_ids": [
+              "nihang-mythology-c07",
+              "nihang-mythology-c08",
+              "nihang-mythology-c04"
+            ]
+          },
+          {
+            "id": "Seorang pemberani lalu memesan pedang panjang bergagang di kedua ujung dan melumuri matanya dengan racun. Saat naga menyedotnya ke dalam mulut, bilah itu membelah rahangnya dan racun menyelesaikan sisanya. Ia membawa pulang seikat rambut emas dari surai naga ke istana. Danau itu kini lenyap, tetapi tempatnya masih bernama Nahangu Chhat, yang dalam bahasa Khowar berarti Danau Naga.",
+            "en": "A brave man then had a long sword made with a hilt at each end and poisoned its edge. When the dragon drew him into its mouth, the blade split its jaws and the poison did the rest. He carried a golden lock of the dragon's mane back to the palace. The lake has since vanished, yet the spot is still named Nahangu Chhat, meaning The Dragon's Lake in Khowar.",
+            "claim_ids": [
+              "nihang-mythology-c09",
+              "nihang-mythology-c10",
+              "nihang-mythology-c11",
+              "nihang-mythology-c12",
+              "nihang-mythology-c13"
+            ]
+          }
+        ],
+        "cultural_context": null,
+        "etymology": {
+          "original_form": "nahang",
+          "language": "Persia (Persian)",
+          "literal_meaning": {
+            "id": "buaya; juga dipakai untuk berbagai makhluk laut",
+            "en": "crocodile; also used for various sea creatures"
+          },
+          "claim_ids": [
+            "nihang-mythology-c02"
+          ]
+        },
+        "story_mode": {
+          "who": {
+            "id": "Nihang adalah naga air bersurai emas dalam mitologi Chitrali.",
+            "en": "The Nihang is a golden-maned water dragon of Chitrali mythology.",
+            "claim_ids": [
+              "nihang-mythology-c01",
+              "nihang-mythology-c03"
+            ]
+          },
+          "origin": {
+            "id": "Ia berasal dari tradisi Chitrali di Pakistan barat laut.",
+            "en": "It comes from the Chitrali tradition of northwestern Pakistan.",
+            "claim_ids": [
+              "nihang-mythology-c01"
+            ]
+          },
+          "role": {
+            "id": "Dalam kisah, ia meneror penduduk di sekitar danau tempat tinggalnya.",
+            "en": "In the tales it terrorizes the people living around its lake.",
+            "claim_ids": [
+              "nihang-mythology-c04",
+              "nihang-mythology-c05"
+            ]
+          },
+          "famous_for": {
+            "id": "Ia terkenal karena naga danau Mastuj yang dibunuh dengan pedang beracun bergagang ganda.",
+            "en": "It is famous for the Mastuj lake dragon slain with a poisoned double-hilted sword.",
+            "claim_ids": [
+              "nihang-mythology-c07",
+              "nihang-mythology-c09",
+              "nihang-mythology-c10"
+            ]
+          }
+        },
+        "did_you_know": {
+          "id": "Danau tempat naga Mastuj tinggal sudah hilang, tetapi lokasinya masih dinamai Nahangu Chhat, Danau Naga.",
+          "en": "The lake of the Mastuj dragon is gone, but the site is still named Nahangu Chhat, The Dragon's Lake.",
+          "claim_ids": [
+            "nihang-mythology-c12",
+            "nihang-mythology-c13"
+          ]
+        },
+        "abilities": [],
+        "weaknesses": [
+          {
+            "name": {
+              "id": "Pedang beracun bergagang ganda",
+              "en": "Poisoned double-hilted sword"
+            },
+            "description": {
+              "id": "Naga Mastuj kebal senjata biasa, tetapi tewas ketika pedang beracun bergagang di kedua ujung membelah rahangnya.",
+              "en": "The Mastuj dragon resisted ordinary weapons but died when a poisoned sword hilted at both ends split its jaws."
+            },
+            "claim_ids": [
+              "nihang-mythology-c08",
+              "nihang-mythology-c09",
+              "nihang-mythology-c10"
+            ]
+          }
+        ],
+        "variants": [],
+        "stories": [
+          {
+            "title": {
+              "id": "Naga Danau Mastuj",
+              "en": "The Dragon Lake of Mastuj"
+            },
+            "role": {
+              "id": "Naga pemangsa yang menghuni danau di bawah kota.",
+              "en": "The predatory dragon living in the lake below the town."
+            },
+            "summary": {
+              "id": "Naga di danau Mastuj memangsa ikan, hewan, lalu manusia. Seorang pemberani memesan pedang bergagang ganda, meracuni bilahnya, dan membunuh naga itu saat disedot ke mulutnya; ia membawa seikat rambut emas surainya ke istana.",
+              "en": "The dragon of the Mastuj lake preyed on fish, animals and then people. A brave man had a double-hilted sword made, poisoned its blade and killed the dragon as it sucked him into its mouth; he brought a golden lock of its mane to the palace."
+            },
+            "claim_ids": [
+              "nihang-mythology-c07",
+              "nihang-mythology-c09",
+              "nihang-mythology-c10",
+              "nihang-mythology-c11"
+            ]
+          }
+        ],
+        "places": [
+          {
+            "name": {
+              "id": "Nahangu Chhat (Mastuj)",
+              "en": "Nahangu Chhat (Mastuj)"
+            },
+            "type": "lake",
+            "description": {
+              "id": "Bekas danau di bawah kota Mastuj tempat naga itu tinggal; danaunya sudah tidak ada, tetapi namanya bertahan.",
+              "en": "Former lake below the town of Mastuj where the dragon lived; the lake is gone but the name survives."
+            },
+            "claim_ids": [
+              "nihang-mythology-c07",
+              "nihang-mythology-c12",
+              "nihang-mythology-c13"
+            ]
+          }
+        ],
+        "timeline": [],
+        "relations": [],
+        "modern_depictions": [],
+        "tradition_vs_modern": null,
+        "learning_questions": [
+          {
+            "id": "Mengapa nama sebuah tempat bisa menyimpan ingatan tentang makhluk mitos walaupun danaunya sudah hilang?",
+            "en": "Why might a place name keep the memory of a mythical creature even after the lake itself has disappeared?"
+          }
+        ],
+        "images": [],
+        "sources": [
+          {
+            "id": "nihang-mythology-s1",
+            "url": "https://en.wikipedia.org/wiki/Nihang_(mythology)",
+            "title": "Nihang (mythology)",
+            "author": null,
+            "publisher": "Wikipedia (en)",
+            "published": null,
+            "language": "en",
+            "type": "wikipedia",
+            "accessed": "2026-10-05"
+          },
+          {
+            "id": "nihang-mythology-s2",
+            "url": "https://www.worldhistory.org/Chitrali_Mythology/",
+            "title": "Chitrali Mythology",
+            "author": "Muhammad Huzaifa Nizam",
+            "publisher": "World History Encyclopedia",
+            "published": "2020-12-18",
+            "language": "en",
+            "type": "encyclopedia",
+            "accessed": "2026-10-05"
+          },
+          {
+            "id": "nihang-mythology-s3",
+            "url": "http://mahraka.com/dragon.html",
+            "title": "Dragon Lake Saga - A Chitrali Myth",
+            "author": "Faheem Ahmad Khan",
+            "publisher": "Mahraka.com (website on the culture, history and languages of Chitral)",
+            "published": null,
+            "language": "en",
+            "type": "folklore-collection",
+            "accessed": "2026-10-05"
+          }
+        ],
+        "claims": [
+          {
+            "id": "nihang-mythology-c01",
+            "source_id": "nihang-mythology-s1",
+            "quote": "Nihang are mythical water dragons from the Chitrali mythology in northwestern Pakistan.",
+            "locator": "Lead",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Nihang adalah naga air mitos (mythical water dragons) dalam mitologi Chitrali di Pakistan barat laut.",
+              "en": "Nihang are mythical water dragons from the Chitrali mythology in northwestern Pakistan."
+            }
+          },
+          {
+            "id": "nihang-mythology-c02",
+            "source_id": "nihang-mythology-s2",
+            "quote": "Other creatures of fame in Chitrali Mythology are the lake-dwelling dragons, known as Nihang, the name being derived from the Persian word nahang for crocodiles but classically used for various sea creatures.",
+            "locator": "Nihang (Aquatic Dragon)",
+            "context": "etymology",
+            "statement": {
+              "id": "Naga penghuni danau (lake-dwelling dragons) dalam mitologi Chitrali disebut Nihang; namanya berasal dari kata Persia nahang untuk buaya, yang secara klasik juga dipakai untuk berbagai makhluk laut.",
+              "en": "The lake-dwelling dragons of Chitrali mythology are called Nihang; the name derives from the Persian word nahang for crocodiles, classically also used for various sea creatures."
+            }
+          },
+          {
+            "id": "nihang-mythology-c03",
+            "source_id": "nihang-mythology-s2",
+            "quote": "Perhaps a better term for these creatures would be winged serpents, also found in many parts of mainland Pakistan. These gigantic scaly creatures were known for their golden manes,",
+            "locator": "Nihang (Aquatic Dragon)",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Penulis menilai makhluk ini lebih tepat disebut ular bersayap (winged serpents); mereka raksasa bersisik yang dikenal karena surai emasnya (golden manes).",
+              "en": "The author suggests these creatures are better called winged serpents; they were gigantic scaly creatures known for their golden manes."
+            }
+          },
+          {
+            "id": "nihang-mythology-c04",
+            "source_id": "nihang-mythology-s2",
+            "quote": "one of them inhabited a lake in Chitral where it terrorized the local populace, but its reign of terror ended when one day an ancient warrior stood up against it using a double-hilted sword.",
+            "locator": "Nihang (Aquatic Dragon)",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Salah satunya menghuni sebuah danau di Chitral dan meneror penduduk, sampai seorang pendekar kuno melawannya dengan pedang bergagang ganda (double-hilted sword).",
+              "en": "One of them inhabited a lake in Chitral and terrorized the populace until an ancient warrior stood up against it with a double-hilted sword."
+            }
+          },
+          {
+            "id": "nihang-mythology-c05",
+            "source_id": "nihang-mythology-s2",
+            "quote": "the physical description of the dragon appears to be completely East Asian with the thick furlike mane, aquatic habitat, and a long slender serpent-like body, however, unlike the Eastern dragons, the Chitrali dragon appears to be a malevolent creature bent on keeping a reign of terror upon its vicinity.",
+            "locator": "Nihang (Aquatic Dragon)",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Wujud naga Chitrali tampak sepenuhnya Asia Timur (East Asian): surai tebal seperti bulu, habitat air, dan tubuh panjang ramping seperti ular; namun tidak seperti naga Timur, ia makhluk jahat (malevolent) yang meneror sekitarnya.",
+              "en": "The Chitrali dragon looks wholly East Asian, with a thick fur-like mane, aquatic habitat and long slender serpent-like body, but unlike Eastern dragons it is a malevolent creature that terrorizes its vicinity."
+            }
+          },
+          {
+            "id": "nihang-mythology-c06",
+            "source_id": "nihang-mythology-s2",
+            "quote": "Lake dwelling creatures seem to be an ancient belief of the Hindu Kush mountains.",
+            "locator": "Nihang (Aquatic Dragon)",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Makhluk penghuni danau tampaknya merupakan kepercayaan kuno di pegunungan Hindu Kush (Hindu Kush mountains).",
+              "en": "Lake-dwelling creatures seem to be an ancient belief of the Hindu Kush mountains."
+            }
+          },
+          {
+            "id": "nihang-mythology-c07",
+            "source_id": "nihang-mythology-s3",
+            "quote": "The river which flows by Mastuj, once formed a large lake just below the town. It is said that an enormous dragon lived in the lake. He preyed upon all living things, ranging from fish to animals. With the passage of time, he began to attack humans.",
+            "locator": "Dragon Lake Saga",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Sungai yang mengalir di dekat Mastuj dulu membentuk danau besar di bawah kota; konon seekor naga raksasa (enormous dragon) tinggal di sana, memangsa segala makhluk hidup dari ikan hingga hewan, lalu mulai menyerang manusia.",
+              "en": "The river by Mastuj once formed a large lake below the town; an enormous dragon is said to have lived there, preying on all living things from fish to animals, and later began to attack humans."
+            }
+          },
+          {
+            "id": "nihang-mythology-c08",
+            "source_id": "nihang-mythology-s3",
+            "quote": "The huge reptile was invulnerable to weapons. Arrows didn’t reach him from a long distance, while going near it was difficult and risky.",
+            "locator": "Dragon Lake Saga",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Reptil raksasa itu kebal senjata (invulnerable to weapons); anak panah tidak mencapainya dari jauh, sedangkan mendekatinya sulit dan berbahaya.",
+              "en": "The huge reptile was invulnerable to weapons; arrows did not reach it from afar, and approaching it was difficult and risky."
+            }
+          },
+          {
+            "id": "nihang-mythology-c09",
+            "source_id": "nihang-mythology-s3",
+            "quote": "Afterwards he ordered a blacksmith to make a long and sharp sword, with a hilt on both ends.",
+            "locator": "Dragon Lake Saga",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Sang pemberani memesan kepada pandai besi (blacksmith) sebilah pedang panjang dan tajam dengan gagang di kedua ujungnya.",
+              "en": "The brave man had a blacksmith make a long sharp sword with a hilt on both ends."
+            }
+          },
+          {
+            "id": "nihang-mythology-c10",
+            "source_id": "nihang-mythology-s3",
+            "quote": "As soon as he pulled the man towards its mouth, the razor sharp blade of the sword began slicing his jaws apart. Soon he went down to its belly, poison swiftly completed the rest of the job.",
+            "locator": "Dragon Lake Saga",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ketika naga menyedot sang pria ke mulutnya, bilah pedang yang sangat tajam membelah rahangnya (jaws), dan racun (poison) menuntaskan sisanya.",
+              "en": "When the dragon pulled the man towards its mouth, the razor-sharp blade sliced its jaws apart, and poison finished the job."
+            }
+          },
+          {
+            "id": "nihang-mythology-c11",
+            "source_id": "nihang-mythology-s3",
+            "quote": "The brave man cut one of the golden locks from the dragon’s mane and galloped his horse towards the royal court.",
+            "locator": "Dragon Lake Saga",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Sang pemberani memotong seikat rambut emas (golden locks) dari surai naga lalu memacu kudanya ke istana raja.",
+              "en": "The brave man cut one of the golden locks from the dragon's mane and rode to the royal court."
+            }
+          },
+          {
+            "id": "nihang-mythology-c12",
+            "source_id": "nihang-mythology-s3",
+            "quote": "The Lake no more exists today but the place is still called Nahangu Chhat (The Dragon’s Lake).",
+            "locator": "Dragon Lake Saga",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Danau itu kini sudah tidak ada, tetapi tempatnya masih disebut Nahangu Chhat (The Dragon's Lake, Danau Naga).",
+              "en": "The lake no longer exists, but the place is still called Nahangu Chhat (The Dragon's Lake)."
+            }
+          },
+          {
+            "id": "nihang-mythology-c13",
+            "source_id": "nihang-mythology-s1",
+            "quote": "Though the lake is gone, the place is still called Nahangu Chhat, which means \"The Dragon’s Lake\" in the Khowar language.",
+            "locator": "Nihang of Matuj",
+            "context": "etymology",
+            "statement": {
+              "id": "Nama tempat Nahangu Chhat berarti Danau Naga (The Dragon's Lake) dalam bahasa Khowar.",
+              "en": "The place name Nahangu Chhat means The Dragon's Lake in the Khowar language."
+            }
+          }
+        ],
+        "conflicts": [],
+        "gaps": [
+          {
+            "field": "images",
+            "searched": "Gambar di artikel pertama adalah relief bata naga bersayap yang tidak dibuat sebagai gambaran Nihang; tidak ada berkas Commons yang jelas menggambarkan Nihang, jadi images dikosongkan."
+          },
+          {
+            "field": "era",
+            "searched": "Sumber tidak memberi periode pasti untuk kepercayaan atau kisah Nihang; dikosongkan."
+          },
+          {
+            "field": "sources",
+            "searched": "Rujukan lain yang dikutip artikel pertama (buku cetak tentang naga) tidak dapat dibaca daring; dipakai ensiklopedia World History Encyclopedia dan situs budaya Chitral mahraka.com."
+          }
+        ]
+      },
+      "selection_visual_claim_ids": [
+        "nihang-mythology-c05",
+        "nihang-mythology-c07",
+        "nihang-mythology-c10",
+        "nihang-mythology-c11",
+        "nihang-mythology-c12",
+        "nihang-mythology-c13"
+      ],
+      "url": "/assets/art/nihang-mythology-verified.webp",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1005/originals/nihang-mythology.png",
+      "prompt": "Use case: stylized-concept. Asset: square premium painterly naturalistic illustration for Mythics folklore encyclopedia. Subject: Nihang, malevolent golden-maned water dragon of Chitrali folklore in northwestern Pakistan. Depict ONE colossal aquatic serpent dragon rising from the cold deep waters of a high-altitude mountain lake in the Hindu Kush. The dragon has a long, slender, dark-scaled serpentine body, formidable reptilian head and jaws, and a thick, flowing fur-like mane of distinct golden hair running down its head and neck. Threatening predatory gaze and dangerous presence, disturbing the clear dark glacial lake surface with ripples and spray. Rugged rocky Hindu Kush mountain peaks in the background under cold overcast mountain light. No people, no severed limbs, no generic glowing aura, neon outline, energy ribbons or luminous colored mist. Beautifully resolved anatomy, cinematic painterly craft, no text, labels, logo, border, or watermark.",
+      "depicted_variant": "Golden-maned aquatic serpent dragon rising from an alpine mountain lake in the Hindu Kush",
+      "visual_requirements": [
+        "One colossal aquatic serpent dragon with scaled serpentine body",
+        "Prominent flowing golden fur-like mane running along head and neck",
+        "Formidable predatory reptilian head and jaws",
+        "Alpine mountain lake setting with snow-dusted peaks",
+        "No people, weapons, gore, or generic glowing neon envelope"
+      ],
+      "basis_claim_ids": [
+        "nihang-mythology-c01",
+        "nihang-mythology-c03",
+        "nihang-mythology-c05",
+        "nihang-mythology-c07"
+      ],
+      "aura": "Formidable predatory presence conveyed through towering serpent posture rising from cold glacial waters, wild golden mane, and rugged alpine mountain setting.",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "gemini",
+        "notes": "Verified native PNG. Depicts one colossal serpentine water dragon rising from a mountain lake. Clearly features dark plated scales and a thick golden mane along its neck and head. Glacial mountain backdrop and natural water splashes. Exactly one head and one continuous serpentine body; no wings, fire, or magical neon mist; clean painterly craft free of text or watermarks."
+      },
+      "width": 1024,
+      "height": 1024,
+      "sha256": "8f6cfff4cceb0a728442549196fc381b61ab55abd69efbfc37d1b2a4dd1cb307"
+    },
+    {
+      "index": 3,
+      "slug": "pferdegreif",
+      "canonical_name": "Hippogryph",
+      "worker": "gemini",
+      "status": "complete",
+      "requires_catalogue_record": true,
+      "review_path": "data/gemini/reviews/batch-114.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-114",
+        "slug": "pferdegreif",
+        "task": "new",
+        "tier": "core",
+        "researched_at": "2026-10-02",
+        "identity": {
+          "canonical_name": "Hippogryph",
+          "native_name": null,
+          "display_name": {
+            "id": "Hipogrif",
+            "en": "Hippogriff"
+          },
+          "wikidata_qid": "Q111841005",
+          "claim_ids": [
+            "pferdegreif-c01"
+          ]
+        },
+        "alternate_names": [
+          {
+            "name": "Pferdegreif",
+            "language": "de",
+            "name_type": "translation",
+            "claim_ids": [
+              "pferdegreif-c09"
+            ]
+          },
+          {
+            "name": "ippogrifo",
+            "language": "it",
+            "name_type": "native-script",
+            "claim_ids": [
+              "pferdegreif-c01",
+              "pferdegreif-c05"
+            ]
+          },
+          {
+            "name": "Hippogreif",
+            "language": "de",
+            "name_type": "alias",
+            "claim_ids": [
+              "pferdegreif-c08"
+            ]
+          },
+          {
+            "name": "Griffith horse",
+            "language": "en",
+            "name_type": "alias",
+            "claim_ids": [
+              "pferdegreif-c12"
+            ]
+          }
+        ],
+        "jenis": {
+          "value": "makhluk campuran",
+          "claim_ids": [
+            "pferdegreif-c01"
+          ]
+        },
+        "classification": {
+          "value": "hybrid",
+          "claim_ids": [
+            "pferdegreif-c01",
+            "pferdegreif-c05"
+          ]
+        },
+        "culture": {
+          "value": "tradition-italian",
+          "suggested_new": null,
+          "claim_ids": [
+            "pferdegreif-c02",
+            "pferdegreif-c06"
+          ]
+        },
+        "region": {
+          "value": "europe",
+          "claim_ids": [
+            "pferdegreif-c02"
+          ]
+        },
+        "countries": null,
+        "era": null,
+        "habitats": [
+          {
+            "value": "sky",
+            "claim_ids": [
+              "pferdegreif-c06"
+            ]
+          },
+          {
+            "value": "mountain",
+            "claim_ids": [
+              "pferdegreif-c10"
+            ]
+          }
+        ],
+        "disposition": null,
+        "traits": [
+          {
+            "value": "flight",
+            "claim_ids": [
+              "pferdegreif-c03",
+              "pferdegreif-c06"
+            ]
+          }
+        ],
+        "short_description": {
+          "id": "Hippogryph (Pferdegreif dalam heraldik) adalah makhluk dongeng campuran, separuh griffin dan separuh kuda, yang muncul dalam epos kesatria Italia.",
+          "en": "The hippogryph (Pferdegreif in heraldry) is a fabulous hybrid, half griffin and half horse, that appears in Italian chivalric epics.",
+          "claim_ids": [
+            "pferdegreif-c01",
+            "pferdegreif-c09"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Hippogryph (dari bahasa Italia ippogrifo, gabungan hippos, \"kuda\", dan kata Italia grifo, \"griffin\") adalah makhluk dongeng campuran yang separuh griffin dan separuh kuda. Menurut artikel de, istilah ini adalah ciptaan Matteo Maria Boiardo, yang menampilkan makhluk yang luar biasa cepat ini pada 1486 dalam L'Orlando Innamorato; pada 1532 Ariost mengambilnya ke dalam epos lanjutan Der rasende Roland. Artikel en justru menyebut makhluk ini ciptaan Ludovico Ariosto dalam Orlando Furioso pada awal abad ke-16, dengan bagian depan elang dan bagian belakang kuda.",
+            "en": "The hippogryph (from Italian ippogrifo, combining hippos, \"horse\", and Italian grifo, \"griffin\") is a fabulous hybrid that is half griffin and half horse. According to the de article, the term was invented by Matteo Maria Boiardo, who featured this astonishingly fast creature in 1486 in L'Orlando Innamorato; in 1532 Ariost took it into his sequel epic Der rasende Roland. The en article instead credits Ludovico Ariosto's Orlando Furioso, early in the 16th century, picturing an eagle in front and a horse behind.",
+            "claim_ids": [
+              "pferdegreif-c01",
+              "pferdegreif-c02",
+              "pferdegreif-c05"
+            ]
+          },
+          {
+            "id": "Gagasan makhluk ini berasal dari ungkapan terpelajar bahwa persilangan griffin dan kuda adalah hal yang mustahil; Boiardo kemungkinan terilhami Eclogae karya Vergil, yang memakai perkawinan semacam itu sebagai kiasan pernikahan yang absurd. Dalam syair Ariosto, hippogryph lahir dari kuda betina dan griffin, sangat cepat, dan dapat terbang mengelilingi dunia hingga ke Bulan. Roger (Ruggiero) menyelamatkan putri Angelica dari monster laut dengan menungganginya, dan Astolfo terbang ke Bulan untuk mencari akal Roland yang hilang.",
+            "en": "The idea comes from a learned saying that crossing a griffin with a horse is impossible; Boiardo was probably inspired by Vergil's Eclogae, which use such a pairing as a metaphor for an absurd marriage. In Ariosto's poem the hippogryph is born of a mare and a griffin, is extremely fast, and can fly around the world and to the Moon. Roger (Ruggiero) rescues princess Angelica from a sea monster riding it, and Astolfo flies to the Moon to find Roland's lost wits.",
+            "claim_ids": [
+              "pferdegreif-c03",
+              "pferdegreif-c04",
+              "pferdegreif-c06"
+            ]
+          },
+          {
+            "id": "Dalam kisah-kisah kemudian, misalnya Oberon karya Christoph Martin Wieland, hippogryph sering menjadi sinonim Pegasus. Ia juga muncul dalam fantasi modern seperti Dungeons & Dragons dan seri Harry Potter, dengan hippogreif Seidenschnabel yang berperan penting dalam buku ketiga. Dalam heraldik, motif ini dikenal sebagai Pferdegreif.",
+            "en": "In later tales, such as Christoph Martin Wieland's Oberon, the hippogryph often stands for Pegasus. It also appears in modern fantasy such as Dungeons & Dragons and the Harry Potter series, where the hippogreif Seidenschnabel plays a key role in the third book. In heraldry the motif is known as the Pferdegreif.",
+            "claim_ids": [
+              "pferdegreif-c07",
+              "pferdegreif-c08",
+              "pferdegreif-c09"
+            ]
+          }
+        ],
+        "cultural_context": null,
+        "etymology": null,
+        "story_mode": {
+          "who": {
+            "id": "Separuh griffin, separuh kuda.",
+            "en": "Half griffin, half horse.",
+            "claim_ids": [
+              "pferdegreif-c01"
+            ]
+          },
+          "origin": {
+            "id": "Berasal dari epos Italia tentang Roland.",
+            "en": "Comes from Italian Roland epics.",
+            "claim_ids": [
+              "pferdegreif-c02",
+              "pferdegreif-c05"
+            ]
+          },
+          "role": {
+            "id": "Sangat cepat dan dapat terbang ke Bulan.",
+            "en": "Extremely fast and able to fly to the Moon.",
+            "claim_ids": [
+              "pferdegreif-c06"
+            ]
+          },
+          "famous_for": {
+            "id": "Dalam heraldik disebut Pferdegreif.",
+            "en": "Called Pferdegreif in heraldry.",
+            "claim_ids": [
+              "pferdegreif-c09"
+            ]
+          }
+        },
+        "did_you_know": {
+          "id": "Gagasan hippogryph lahir dari pepatah lama bahwa griffin dan kuda mustahil dikawinkan.",
+          "en": "The hippogryph grew out of an old saying that a griffin and a horse could never be crossed.",
+          "claim_ids": [
+            "pferdegreif-c03"
+          ]
+        },
+        "abilities": [
+          {
+            "ability_id": "flight",
+            "name": {
+              "id": "Terbang",
+              "en": "Flight"
+            },
+            "description": {
+              "id": "Dapat terbang mengelilingi dunia hingga ke Bulan.",
+              "en": "Can fly around the world and to the Moon."
+            },
+            "claim_ids": [
+              "pferdegreif-c06"
+            ]
+          }
+        ],
+        "weaknesses": [],
+        "variants": [],
+        "stories": [],
+        "places": [],
+        "timeline": [],
+        "relations": [
+          {
+            "target_name": "Griffin",
+            "relation_type": "parent",
+            "note": {
+              "id": "Hippogryph lahir dari griffin dan kuda betina.",
+              "en": "The hippogryph is born of a griffin and a mare."
+            },
+            "claim_ids": [
+              "pferdegreif-c06",
+              "pferdegreif-c10"
+            ]
+          },
+          {
+            "target_name": "Pegasus",
+            "relation_type": "associated",
+            "note": {
+              "id": "Dalam kisah kemudian sering menjadi sinonim Pegasus.",
+              "en": "Often a synonym for Pegasus in later tales."
+            },
+            "claim_ids": [
+              "pferdegreif-c07"
+            ]
+          }
+        ],
+        "modern_depictions": [
+          {
+            "title": "Harry Potter",
+            "year": null,
+            "medium": "literature",
+            "description": {
+              "id": "Hippogriff Seidenschnabel berperan penting dalam buku ketiga.",
+              "en": "The hippogriff Seidenschnabel plays a key role in the third book."
+            },
+            "claim_ids": [
+              "pferdegreif-c08"
+            ]
+          },
+          {
+            "title": "Dungeons & Dragons",
+            "year": null,
+            "medium": "other",
+            "description": {
+              "id": "Hippogryph muncul dalam permainan peran ini.",
+              "en": "The hippogryph appears in this role-playing game."
+            },
+            "claim_ids": [
+              "pferdegreif-c11"
+            ]
+          }
+        ],
+        "tradition_vs_modern": null,
+        "learning_questions": [],
+        "images": [],
+        "sources": [
+          {
+            "id": "pferdegreif-s1",
+            "url": "https://de.wikipedia.org/wiki/Pferdegreif",
+            "title": "Pferdegreif",
+            "author": null,
+            "publisher": "Wikipedia (de)",
+            "published": null,
+            "language": "de",
+            "type": "wikipedia",
+            "accessed": "2026-10-02"
+          },
+          {
+            "id": "pferdegreif-s2",
+            "url": "https://en.wikipedia.org/wiki/Hippogriff",
+            "title": "Hippogriff",
+            "author": null,
+            "publisher": "Wikipedia (en)",
+            "published": null,
+            "language": "en",
+            "type": "wikipedia",
+            "accessed": "2026-10-02"
+          }
+        ],
+        "claims": [
+          {
+            "id": "pferdegreif-c01",
+            "source_id": "pferdegreif-s1",
+            "quote": "Der Hippogryph (re-gräzisierte Form des italienischen ippogrifo, Zusammensetzung aus altgriechisch ἵππος hippos „Pferd“ und italienisch grifo „Greif“, dies aus lateinisch gryphus, dies wiederum aus altgriechisch γρύψ gryps) ist ein Fabelwesen im Sinne eines Mischwesens, das zur Hälfte Greif und zur anderen Hälfte Pferd ist.",
+            "locator": null,
+            "context": "etymology",
+            "statement": {
+              "id": "Hippogryph, dari ippogrifo (hippos, kuda/Pferd, dan grifo, griffin/Greif), adalah makhluk dongeng campuran (Mischwesen), separuh griffin dan separuh kuda.",
+              "en": "The hippogryph, from ippogrifo (hippos, horse/Pferd, and grifo, griffin/Greif), is a fabulous hybrid (Mischwesen), half griffin and half horse."
+            }
+          },
+          {
+            "id": "pferdegreif-c02",
+            "source_id": "pferdegreif-s1",
+            "quote": "Der aus dem Griechischen gebildete Begriff ist eine Erfindung von Matteo Maria Boiardo, der das unglaublich schnell rasende Fabelwesen 1486 in seinem Roman „Der verliebte Roland“ (L’Orlando Innamorato) auftreten ließ. 1532 übernahm Ariost den „Ross-Greif“ in sein Fortsetzungs-Epos „Der rasende Roland“.",
+            "locator": null,
+            "context": "historical-record",
+            "statement": {
+              "id": "Istilah ini ciptaan (Erfindung) Matteo Maria Boiardo dalam L'Orlando Innamorato (1486); pada 1532 Ariost mengambil \"Ross-Greif\" dalam Der rasende Roland.",
+              "en": "The term is an invention (Erfindung) of Matteo Maria Boiardo in L'Orlando Innamorato (1486); in 1532 Ariost took the \"Ross-Greif\" into Der rasende Roland."
+            }
+          },
+          {
+            "id": "pferdegreif-c03",
+            "source_id": "pferdegreif-s1",
+            "quote": "Die Idee zu dem Mischwesen basiert auf einer gelehrten Redewendung, wonach eine Kreuzung zwischen einem Greif und einem Pferd ein Ding der Unmöglichkeit sei. Vermutlich wurde Boiardo von einer Stelle in den Eclogae des Vergil inspiriert",
+            "locator": null,
+            "context": "etymology",
+            "statement": {
+              "id": "Gagasan (Idee) makhluk ini berasal dari ungkapan (Redewendung) bahwa persilangan griffin (Greif) dan kuda (Pferd) mustahil; Boiardo mungkin terilhami Eclogae karya Vergil.",
+              "en": "The idea (Idee) rests on a saying (Redewendung) that crossing a griffin (Greif) and a horse (Pferd) is impossible; Boiardo was probably inspired by Vergil's Eclogae."
+            }
+          },
+          {
+            "id": "pferdegreif-c04",
+            "source_id": "pferdegreif-s1",
+            "quote": "Roger (Ruggiero) rettet mit seiner Hilfe die schöne Prinzessin Angelica vor einem Meeresungeheuer, und der englische Prinz Astolfo fliegt auf dem Hippogryphen sogar zum Mond, um dort Rolands verlorenen Verstand wiederzufinden.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Roger (Ruggiero) menyelamatkan putri (Prinzessin) Angelica dari monster laut (Meeresungeheuer), dan Astolfo terbang ke Bulan (Mond) untuk mencari akal Roland.",
+              "en": "Roger (Ruggiero) rescues princess (Prinzessin) Angelica from a sea monster (Meeresungeheuer), and Astolfo flies to the Moon (Mond) to find Roland's wits."
+            }
+          },
+          {
+            "id": "pferdegreif-c05",
+            "source_id": "pferdegreif-s2",
+            "quote": "The hippogriff (Italian: ippogrifo ) or hippogryph is a legendary creature with the front half of an eagle and the hind half of a horse.",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Hippogriff (Italia: ippogrifo, Italian) adalah makhluk legenda berbagian depan elang dan belakang kuda.",
+              "en": "The hippogriff (Italian: ippogrifo) is a legendary creature with an eagle's front half and a horse's hind half."
+            }
+          },
+          {
+            "id": "pferdegreif-c06",
+            "source_id": "pferdegreif-s2",
+            "quote": "It was invented at the beginning of the 16th century by Ludovico Ariosto in his Orlando Furioso. Within the poem, the hippogriff is a steed born of a mare and a griffin—something considered impossible. It is extremely fast and is presented as being able to fly around the world and to the Moon.",
+            "locator": null,
+            "context": "historical-record",
+            "statement": {
+              "id": "Makhluk ini diciptakan Ludovico Ariosto dalam Orlando Furioso pada awal abad ke-16; lahir dari kuda betina dan griffin, sangat cepat, terbang mengelilingi dunia dan ke Bulan (Moon).",
+              "en": "It was invented by Ludovico Ariosto in Orlando Furioso early in the 16th century; born of a mare and a griffin, extremely fast, able to fly around the world and to the Moon."
+            }
+          },
+          {
+            "id": "pferdegreif-c07",
+            "source_id": "pferdegreif-s1",
+            "quote": "In späteren Erzählungen, z. B. bei dem deutschen Dichter Christoph Martin Wieland (Oberon), taucht der Hippogryph oft als Synonym für Pegasus auf.",
+            "locator": null,
+            "context": "modern-popular-culture",
+            "statement": {
+              "id": "Dalam kisah kemudian, misalnya Oberon karya Christoph Martin Wieland, hippogryph sering menjadi sinonim (Synonym) Pegasus.",
+              "en": "In later tales, e.g. Christoph Martin Wieland's Oberon, the hippogryph is often a synonym (Synonym) for Pegasus."
+            }
+          },
+          {
+            "id": "pferdegreif-c08",
+            "source_id": "pferdegreif-s1",
+            "quote": "In der deutschen Übersetzung der Harry-Potter-Romane von Joanne K. Rowling wird die Form „Hippogreif“ verwendet, die aber den in anderen Sprachen üblichen Bezeichnungen näher kommt. Im Englischen werden sowohl hippogriff (so bei Rowling) als auch hippogryph verwendet. Der Hippogreif Seidenschnabel spielt eine Schlüsselrolle im dritten Band",
+            "locator": null,
+            "context": "modern-popular-culture",
+            "statement": {
+              "id": "Terjemahan Jerman (deutschen) novel Harry Potter karya Joanne K. Rowling memakai bentuk Hippogreif; Seidenschnabel adalah hippogreif dalam buku ketiga.",
+              "en": "The German (deutschen) translation of Joanne K. Rowling's Harry Potter novels uses the form Hippogreif; Seidenschnabel is a hippogreif in the third book."
+            }
+          },
+          {
+            "id": "pferdegreif-c09",
+            "source_id": "pferdegreif-s1",
+            "quote": "In der Heraldik ist das Motiv unter der Bezeichnung Pferdegreif bekannt.",
+            "locator": null,
+            "context": "historical-record",
+            "statement": {
+              "id": "Dalam heraldik (Heraldik) motif ini dikenal sebagai Pferdegreif.",
+              "en": "In heraldry (Heraldik) the motif is known as the Pferdegreif."
+            }
+          },
+          {
+            "id": "pferdegreif-c10",
+            "source_id": "pferdegreif-s2",
+            "quote": "For him a filly to griffin bore; Hight hippogryph. In wings and beak and crest, Formed like his sire, as in the feet before; But like the mare, his dam, in all the rest. Such on Riphaean hills, though rarely found,",
+            "locator": null,
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Syair Orlando furioso: anak kuda betina dari griffin, bernama hippogryph, bersayap dan berparuh seperti ayahnya, selebihnya seperti induknya; jarang ditemukan di pegunungan Riphaean (Riphaean hills).",
+              "en": "Orlando furioso verse: a filly bore him to a griffin, hight hippogryph, with wings and beak like his sire, the rest like the mare; rarely found on the Riphaean hills."
+            }
+          },
+          {
+            "id": "pferdegreif-c11",
+            "source_id": "pferdegreif-s1",
+            "quote": "Gelegentlich taucht der Hippogryph in der modernen Fantasy auf, so unter anderem in Eric Rücker Eddisons Der Wurm Ouroboros (1922) und im Rollenspiel Dungeons & Dragons.",
+            "locator": null,
+            "context": "modern-popular-culture",
+            "statement": {
+              "id": "Hippogryph kadang muncul dalam fantasi modern (modernen Fantasy), antara lain dalam Der Wurm Ouroboros karya Eric Rücker Eddison (1922) dan permainan peran Dungeons & Dragons.",
+              "en": "The hippogryph sometimes appears in modern fantasy (modernen Fantasy), including Eric Rücker Eddison's Der Wurm Ouroboros (1922) and the role-playing game Dungeons & Dragons."
+            }
+          },
+          {
+            "id": "pferdegreif-c12",
+            "source_id": "pferdegreif-s2",
+            "quote": "The word hippogriff was adopted into English shortly before 1615; prior to this, John Harington's 1591 translation of Orlando furioso called the creature a \"Griffith horse.\"",
+            "locator": null,
+            "context": "etymology",
+            "statement": {
+              "id": "Kata hippogriff masuk ke bahasa Inggris (English) menjelang 1615; terjemahan John Harington (1591) menyebutnya \"Griffith horse\".",
+              "en": "The word hippogriff entered English shortly before 1615; John Harington's 1591 translation called it a \"Griffith horse\"."
+            }
+          }
+        ],
+        "conflicts": [],
+        "gaps": [
+          {
+            "field": "identity",
+            "searched": "Artikel de Pferdegreif dialihkan ke artikel Hippogryph; Pferdegreif adalah nama heraldiknya. Kedua sumber berbeda pendapat tentang pencipta makhluk ini (Boiardo 1486 menurut de, Ariosto menurut en); keduanya dicatat."
+          },
+          {
+            "field": "images",
+            "searched": "Tidak ada gambar dengan lisensi yang diperiksa."
+          },
+          {
+            "field": "sources",
+            "searched": "Dibaca artikel Wikipedia bahasa Jerman dan Inggris; belum ada sumber di luar Wikipedia yang dikutip untuk entri ini."
+          },
+          {
+            "field": "images",
+            "searched": "Gambar Commons belum dicari pada putaran ini; dijadwalkan pada pemeriksaan gambar terpisah."
+          }
+        ]
+      },
+      "selection_visual_claim_ids": [
+        "pferdegreif-c01",
+        "pferdegreif-c03",
+        "pferdegreif-c05",
+        "pferdegreif-c10",
+        "pferdegreif-c12"
+      ],
+      "url": "/assets/art/pferdegreif-verified.webp",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1005/originals/pferdegreif.png",
+      "prompt": "Use case: stylized-concept. Asset: square premium painterly naturalistic illustration for Mythics folklore encyclopedia. Subject: Hippogryph (Pferdegreif), fabulous hybrid beast of Italian chivalric epic tradition. Depict ONE magnificent hippogryph standing alert on a high rocky windswept mountain ledge in the Riphaean peaks. The creature's front half is an eagle: majestic raptor head with piercing golden eyes, sharp hooked raptor beak, densely feathered neck and chest, two formidable outstretched feathered eagle wings, and powerful raptor forelegs ending in sharp talons. The rear half is a horse: sleek muscular equine hindquarters, powerful hind legs with black hooves, and a flowing horse tail. Seamless painterly anatomical blend between fine plumage and horse coat. Alert, wild, noble gaze. Crisp alpine mountain daylight, dramatic clouds, rocky peaks in background. No rider, no harness, no saddles, no generic glowing aura, neon outline, energy ribbons or luminous colored mist. Beautifully resolved anatomy, cinematic painterly craft, no text, labels, logo, border, or watermark.",
+      "depicted_variant": "Winged hybrid with eagle forebody and wings, and horse hindquarters standing upon an alpine mountain ledge",
+      "visual_requirements": [
+        "Front half of an eagle: raptor head, hooked beak, feathered breast, two large feathered wings, and taloned forelegs",
+        "Rear half of a horse: muscular equine hindquarters, hind legs with hooves, and horse tail",
+        "Seamless anatomical transition between plumage and equine hide",
+        "Riphaean mountain alpine ledge environment with open sky",
+        "No rider, harness, gear, or glowing neon envelope"
+      ],
+      "basis_claim_ids": [
+        "pferdegreif-c01",
+        "pferdegreif-c05",
+        "pferdegreif-c10"
+      ],
+      "aura": "Noble, wild, soaring chivalric aura conveyed through sharp raptor vigilance, outstretched wings, proud stance, and crisp high-altitude alpine daylight.",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "gemini",
+        "notes": "Verified native PNG. Depicts one hybrid hippogryph standing on an alpine precipice. Front half is distinctly raptor-like with eagle head, hooked beak, feathered chest, outstretched wings, and two yellow taloned forelegs. Rear half is equine with muscular hindquarters, two hooved legs, and horse tail. Exactly two wings, two forelegs, two hind legs, one head. Crisp alpine lighting without generic glow or neon mist; clean painterly craft free of text or watermarks."
+      },
+      "width": 1024,
+      "height": 1024,
+      "sha256": "57e17d6b5adfd469dd4b8697067d23f29be5f8a8b7f6dda61f323d4a33d77945"
+    },
+    {
+      "index": 4,
+      "slug": "the-black-dog-of-newgate",
+      "canonical_name": "The Black Dog of Newgate",
+      "worker": "gemini",
+      "status": "complete",
+      "requires_catalogue_record": false,
+      "review_path": "data/gemini/reviews/batch-120.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-120",
+        "slug": "the-black-dog-of-newgate",
+        "task": "enrich",
+        "tier": "core",
+        "researched_at": "2026-10-04",
+        "identity": {
+          "canonical_name": "The Black Dog of Newgate",
+          "native_name": null,
+          "display_name": {
+            "id": "The Black Dog of Newgate",
+            "en": "The Black Dog of Newgate"
+          },
+          "wikidata_qid": "Q23831239",
+          "claim_ids": [
+            "the-black-dog-of-newgate-c01",
+            "the-black-dog-of-newgate-c02"
+          ]
+        },
+        "alternate_names": [],
+        "jenis": {
+          "value": "hantu",
+          "claim_ids": [
+            "the-black-dog-of-newgate-c01",
+            "the-black-dog-of-newgate-c02"
+          ]
+        },
+        "classification": {
+          "value": "spirit",
+          "claim_ids": [
+            "the-black-dog-of-newgate-c01",
+            "the-black-dog-of-newgate-c02"
+          ]
+        },
+        "culture": {
+          "value": "tradition-english",
+          "suggested_new": null,
+          "claim_ids": [
+            "the-black-dog-of-newgate-c01",
+            "the-black-dog-of-newgate-c02"
+          ]
+        },
+        "region": {
+          "value": "europe",
+          "claim_ids": [
+            "the-black-dog-of-newgate-c01"
+          ]
+        },
+        "countries": {
+          "value": [
+            "England"
+          ],
+          "claim_ids": [
+            "the-black-dog-of-newgate-c01",
+            "the-black-dog-of-newgate-c04"
+          ]
+        },
+        "era": {
+          "text": {
+            "id": "Catatan tertua tertanggal 1596; kisahnya berlatar masa pemerintahan Raja Henry III",
+            "en": "Earliest account dated 1596; the story is set in the reign of King Henry III"
+          },
+          "claim_ids": [
+            "the-black-dog-of-newgate-c03",
+            "the-black-dog-of-newgate-c04"
+          ]
+        },
+        "habitats": [],
+        "disposition": {
+          "value": "malevolent",
+          "claim_ids": [
+            "the-black-dog-of-newgate-c02",
+            "the-black-dog-of-newgate-c06"
+          ]
+        },
+        "traits": [],
+        "short_description": {
+          "id": "Black Dog of Newgate adalah legenda hantu anjing hitam raksasa yang menghantui bekas Penjara Newgate, London, dan dikaitkan dengan kisah penyihir yang dibunuh narapidana saat kelaparan.",
+          "en": "The Black Dog of Newgate is a legend of a monstrous black dog haunting the former Newgate Prison in London, tied to the story of a sorcerer killed by inmates during a famine.",
+          "claim_ids": [
+            "the-black-dog-of-newgate-c01",
+            "the-black-dog-of-newgate-c04",
+            "the-black-dog-of-newgate-c05"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Black Dog of Newgate adalah legenda tentang hantu di bekas Penjara Newgate, London, yang terletak di sebelah Old Bailey. Kisah ini contoh kategori Black Dog Inggris, yaitu anjing pemburu hantu pertanda buruk atau berniat jahat. Catatan tertuanya berasal dari 1596 dan dikreditkan kepada narapidana bernama Luke Hutton.",
+            "en": "The Black Dog of Newgate is a legend about a haunting at the former Newgate Prison in London, which stood beside the Old Bailey. It is an example of the English Black Dog type, a spectral hound of ill omen or malicious intent. The earliest recorded account dates from 1596 and is credited to an inmate named Luke Hutton.",
+            "claim_ids": [
+              "the-black-dog-of-newgate-c01",
+              "the-black-dog-of-newgate-c02",
+              "the-black-dog-of-newgate-c03"
+            ]
+          },
+          {
+            "id": "Dalam ceritanya, saat kelaparan pada masa Raja Henry III dari Inggris, seorang cendekiawan yang dikenal sebagai penyihir dipenjara di Newgate. Para narapidana, yang sudah beralih ke kanibalisme, memakannya. Tak lama kemudian mereka konon melihat anjing hitam raksasa yang dianggap arwah sang penyihir; ia membunuh dan memakan para pelaku satu per satu sampai penyintas terakhir kabur dari penjara.",
+            "en": "The tale is set during a famine under England's King Henry III, when a scholar reputed to be a sorcerer was locked up in Newgate. The prisoners, who had already turned to cannibalism, ate him. Soon afterwards they reportedly saw a monstrous black dog taken to be the sorcerer's spirit; it killed and ate those responsible one by one until the last survivors broke out of the prison.",
+            "claim_ids": [
+              "the-black-dog-of-newgate-c04",
+              "the-black-dog-of-newgate-c05",
+              "the-black-dog-of-newgate-c06",
+              "the-black-dog-of-newgate-c11"
+            ]
+          },
+          {
+            "id": "Menjelang akhir narasi, orang asing tak bernama itu mengaku kisah anjing roh tidak benar dan satu-satunya Black Dog yang ia dengar adalah batu hitam besar di ruang bawah tanah. Kisah ini dimaksudkan sebagai cerita moral melawan hidup nista para narapidana.",
+            "en": "Towards the end of the narrative the unnamed stranger says the spirit-dog tale is untrue and the only Black Dog he has heard of is a great black stone in the dungeon. The story was meant as a morality tale against the base living of the inmates.",
+            "claim_ids": [
+              "the-black-dog-of-newgate-c07",
+              "the-black-dog-of-newgate-c08"
+            ]
+          },
+          {
+            "id": "Ada spekulasi bahwa hantu ini berkaitan dengan Amen Court di dekatnya. Menurut sumber kedua, hantunya muncul sebagai bentuk hitam tak berbentuk yang menyelinap di sepanjang dinding dan mengeluarkan bau menjijikkan, disertai bunyi langkah diseret.",
+            "en": "There is speculation that the haunting is linked with nearby Amen Court. The second source reports a ghost in the form of a formless black shape that creeps along walls, gives off a foul smell, and is accompanied by the sound of dragging footsteps.",
+            "claim_ids": [
+              "the-black-dog-of-newgate-c09",
+              "the-black-dog-of-newgate-c12",
+              "the-black-dog-of-newgate-c13"
+            ]
+          }
+        ],
+        "cultural_context": null,
+        "etymology": null,
+        "story_mode": {
+          "who": {
+            "id": "Black Dog of Newgate adalah hantu anjing hitam raksasa.",
+            "en": "The Black Dog of Newgate is the ghost of a monstrous black dog.",
+            "claim_ids": [
+              "the-black-dog-of-newgate-c01",
+              "the-black-dog-of-newgate-c05"
+            ]
+          },
+          "origin": {
+            "id": "Ia dikaitkan dengan bekas Penjara Newgate di London.",
+            "en": "It is associated with the former Newgate Prison in London.",
+            "claim_ids": [
+              "the-black-dog-of-newgate-c01"
+            ]
+          },
+          "role": {
+            "id": "Dalam cerita, ia membunuh para narapidana yang membunuh sang penyihir.",
+            "en": "In the tale it kills the inmates who killed the sorcerer.",
+            "claim_ids": [
+              "the-black-dog-of-newgate-c05",
+              "the-black-dog-of-newgate-c06"
+            ]
+          },
+          "famous_for": {
+            "id": "Ia dikenal sebagai contoh anjing hitam Inggris yang menghantui penjara.",
+            "en": "It is known as an example of the English black dog haunting a prison.",
+            "claim_ids": [
+              "the-black-dog-of-newgate-c02"
+            ]
+          }
+        },
+        "did_you_know": null,
+        "abilities": [],
+        "weaknesses": [],
+        "variants": [],
+        "stories": [
+          {
+            "title": {
+              "id": "Sang penyihir dan anjing hitam",
+              "en": "The sorcerer and the black dog"
+            },
+            "role": {
+              "id": "Hantu pembalas dendam",
+              "en": "The avenging spectre"
+            },
+            "summary": {
+              "id": "Seorang cendekiawan yang dianggap penyihir dipenjara di Newgate saat kelaparan dan dimakan para narapidana; anjing hitam muncul dan membunuh para pelaku satu per satu.",
+              "en": "A scholar reputed to be a sorcerer is jailed in Newgate during a famine and eaten by inmates; a black dog appears and kills those responsible one by one."
+            },
+            "claim_ids": [
+              "the-black-dog-of-newgate-c04",
+              "the-black-dog-of-newgate-c05",
+              "the-black-dog-of-newgate-c06"
+            ]
+          }
+        ],
+        "places": [
+          {
+            "name": {
+              "id": "Penjara Newgate, London",
+              "en": "Newgate Prison, London"
+            },
+            "type": "other",
+            "description": {
+              "id": "Bekas penjara di sebelah Old Bailey tempat legenda ini berlatar.",
+              "en": "The former prison beside the Old Bailey where the legend is set."
+            },
+            "claim_ids": [
+              "the-black-dog-of-newgate-c01"
+            ]
+          },
+          {
+            "name": {
+              "id": "Amen Court",
+              "en": "Amen Court"
+            },
+            "type": "other",
+            "description": {
+              "id": "Halaman di dekatnya yang dikatakan dihantui bentuk hitam yang dikaitkan dengan anjing itu.",
+              "en": "A nearby court said to be haunted by a black form linked with the dog."
+            },
+            "claim_ids": [
+              "the-black-dog-of-newgate-c09",
+              "the-black-dog-of-newgate-c12"
+            ]
+          }
+        ],
+        "timeline": [
+          {
+            "period": "1596",
+            "title": {
+              "id": "Catatan tertua",
+              "en": "Earliest recorded account"
+            },
+            "description": {
+              "id": "Catatan tertua legenda dikreditkan kepada narapidana Luke Hutton.",
+              "en": "The earliest recorded account is credited to the inmate Luke Hutton."
+            },
+            "earliest_attestation": true,
+            "claim_ids": [
+              "the-black-dog-of-newgate-c03"
+            ]
+          }
+        ],
+        "relations": [],
+        "modern_depictions": [],
+        "tradition_vs_modern": null,
+        "learning_questions": [
+          {
+            "id": "Mengapa kisah hantu di penjara sering memuat pesan moral tentang kejahatan dan hukuman?",
+            "en": "Why do prison ghost stories so often carry a moral about crime and punishment?"
+          }
+        ],
+        "images": [],
+        "sources": [
+          {
+            "id": "the-black-dog-of-newgate-s1",
+            "url": "https://en.wikipedia.org/wiki/The_Black_Dog_of_Newgate",
+            "title": "The Black Dog of Newgate",
+            "author": null,
+            "publisher": "Wikipedia",
+            "published": null,
+            "language": "en",
+            "type": "wikipedia",
+            "accessed": "2026-10-04"
+          },
+          {
+            "id": "the-black-dog-of-newgate-s2",
+            "url": "https://blackcablondon.net/tag/black-dog-of-newgate/",
+            "title": "Cabbie's Curios: A Ghostly Canine… (View from the Mirror)",
+            "author": "Robert Lordan",
+            "publisher": "View from the Mirror (blackcablondon.net)",
+            "published": "2012-06-01",
+            "language": "en",
+            "type": "other",
+            "accessed": "2026-10-04"
+          }
+        ],
+        "claims": [
+          {
+            "id": "the-black-dog-of-newgate-c01",
+            "source_id": "the-black-dog-of-newgate-s1",
+            "quote": "The Black Dog of Newgate is a legend concerning the haunting of the former Newgate Prison of London, which was located next to the Old Bailey",
+            "locator": "Intro",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Black Dog of Newgate adalah legenda tentang hantu di bekas Penjara Newgate, London, yang terletak di sebelah Old Bailey.",
+              "en": "The Black Dog of Newgate is a legend concerning the haunting of the former Newgate Prison of London, which stood next to the Old Bailey."
+            }
+          },
+          {
+            "id": "the-black-dog-of-newgate-c02",
+            "source_id": "the-black-dog-of-newgate-s1",
+            "quote": "is an example of the English Black Dog category of supernatural manifestations, featuring a spectral hound of ill-omen or malicious intent",
+            "locator": "Intro",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Kisah ini contoh kategori Black Dog Inggris, yang menampilkan anjing pemburu hantu pertanda buruk atau berniat jahat.",
+              "en": "The account is an example of the English Black Dog category of supernatural manifestations, featuring a spectral hound of ill omen or malicious intent."
+            }
+          },
+          {
+            "id": "the-black-dog-of-newgate-c03",
+            "source_id": "the-black-dog-of-newgate-s1",
+            "quote": "the earliest recorded account of the legend dates from 1596, and is credited to a prison inmate called Luke Hutton.",
+            "locator": "History",
+            "context": "historical-record",
+            "statement": {
+              "id": "Catatan tertua legenda ini berasal dari 1596 dan dikreditkan kepada narapidana bernama Luke Hutton.",
+              "en": "The earliest recorded account of the legend dates from 1596 and is credited to a prison inmate called Luke Hutton."
+            }
+          },
+          {
+            "id": "the-black-dog-of-newgate-c04",
+            "source_id": "the-black-dog-of-newgate-s1",
+            "quote": "during a famine in the reign of King Henry III of England, a scholar was incarcerated in Newgate Prison who had the reputation of being a sorcerer",
+            "locator": "History",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Dalam cerita, saat kelaparan pada masa Raja Henry III dari Inggris, seorang cendekiawan yang dikenal sebagai penyihir dipenjara di Newgate.",
+              "en": "In the story, during a famine in the reign of King Henry III of England, a scholar with the reputation of being a sorcerer was incarcerated in Newgate Prison."
+            }
+          },
+          {
+            "id": "the-black-dog-of-newgate-c05",
+            "source_id": "the-black-dog-of-newgate-s1",
+            "quote": "Shortly after this crime was committed, the inmates guilty of his death reportedly began seeing the spectre of a monstrous black dog walking up and down the Prison",
+            "locator": "History",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Tak lama setelah kejahatan itu, para narapidana yang bersalah konon mulai melihat sosok hantu anjing hitam raksasa berjalan hilir mudik di penjara.",
+              "en": "Shortly after the crime, the inmates guilty of his death reportedly began seeing the spectre of a monstrous black dog walking up and down the prison."
+            }
+          },
+          {
+            "id": "the-black-dog-of-newgate-c06",
+            "source_id": "the-black-dog-of-newgate-s1",
+            "quote": "This being reportedly killed and consumed those responsible one by one, until the last survivors, driven mad by fear, broke out of the gaol and escaped.",
+            "locator": "History",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Makhluk itu konon membunuh dan memakan para pelaku satu per satu, sampai penyintas terakhir, gila karena takut, kabur dari penjara.",
+              "en": "This being reportedly killed and consumed those responsible one by one, until the last survivors, driven mad by fear, broke out of the gaol and escaped."
+            }
+          },
+          {
+            "id": "the-black-dog-of-newgate-c07",
+            "source_id": "the-black-dog-of-newgate-s1",
+            "quote": "Towards the end of the narrative the unnamed stranger claims that the tale of the spiritual dog is untrue, and that the only Black Dog he has heard any account of is a great blacke Stone standing in the dungeon called",
+            "locator": "History",
+            "context": "historical-record",
+            "statement": {
+              "id": "Menjelang akhir narasi, orang asing tak bernama itu mengaku kisah anjing roh tidak benar, dan satu-satunya Black Dog yang ia dengar adalah batu hitam besar (great blacke Stone) di ruang bawah tanah.",
+              "en": "Towards the end of the narrative the unnamed stranger claims the tale of the spiritual dog is untrue and that the only Black Dog he has heard of is a great blacke Stone standing in the dungeon."
+            }
+          },
+          {
+            "id": "the-black-dog-of-newgate-c08",
+            "source_id": "the-black-dog-of-newgate-s1",
+            "quote": "Intended as a morality tale preaching against the low behaviour and base living of the inmates of the prison",
+            "locator": "History",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Kisah ini dimaksudkan sebagai cerita moral yang menentang perilaku rendah dan hidup nista para narapidana.",
+              "en": "The story was intended as a morality tale preaching against the low behaviour and base living of the prison's inmates."
+            }
+          },
+          {
+            "id": "the-black-dog-of-newgate-c09",
+            "source_id": "the-black-dog-of-newgate-s1",
+            "quote": "There is some speculation as to whether this haunting of the Black Dog of Newgate is also connected to nearby Amen Court",
+            "locator": "History",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Ada spekulasi apakah hantu Black Dog of Newgate juga berkaitan dengan Amen Court di dekatnya.",
+              "en": "There is some speculation whether this haunting is also connected to nearby Amen Court."
+            }
+          },
+          {
+            "id": "the-black-dog-of-newgate-c10",
+            "source_id": "the-black-dog-of-newgate-s2",
+            "quote": "This sinister legend is said to have originated in 1596 when a chap was thrown into Newgate for dabbling in sorcery.",
+            "locator": "Cabbie's Curios",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Legenda ini dikatakan bermula pada 1596 ketika seorang lelaki dijebloskan ke Newgate karena bermain sihir.",
+              "en": "This sinister legend is said to have originated in 1596 when a man was thrown into Newgate for dabbling in sorcery."
+            }
+          },
+          {
+            "id": "the-black-dog-of-newgate-c11",
+            "source_id": "the-black-dog-of-newgate-s2",
+            "quote": "Starving to death, some prisoners within Newgate had turned to cannibalism",
+            "locator": "Cabbie's Curios",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Karena kelaparan, sebagian narapidana di Newgate beralih ke kanibalisme.",
+              "en": "Starving to death, some prisoners within Newgate had turned to cannibalism."
+            }
+          },
+          {
+            "id": "the-black-dog-of-newgate-c12",
+            "source_id": "the-black-dog-of-newgate-s2",
+            "quote": "It is said that Amen Court is haunted by the dog, with numerous accounts reporting that its ghost appears as a shapeless, black form, slithering along walls and giving off a hideous odour.",
+            "locator": "Cabbie's Curios",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Amen Court dikatakan dihantui anjing itu; banyak laporan menyebut hantunya berupa bentuk hitam tak berbentuk yang menyelinap di dinding dan mengeluarkan bau menjijikkan.",
+              "en": "Amen Court is said to be haunted by the dog, with many accounts describing a shapeless black form slithering along walls and giving off a hideous odour."
+            }
+          },
+          {
+            "id": "the-black-dog-of-newgate-c13",
+            "source_id": "the-black-dog-of-newgate-s2",
+            "quote": "Whenever this apparition appears, witnesses often state that the visitation is accompanied by the sound of dragging footsteps.",
+            "locator": "Cabbie's Curios",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Saksi sering menyatakan kemunculan itu disertai bunyi langkah diseret.",
+              "en": "Witnesses often state that the apparition is accompanied by the sound of dragging footsteps."
+            }
+          }
+        ],
+        "conflicts": [
+          {
+            "topic": {
+              "id": "Kapan legenda bermula",
+              "en": "When the legend arose"
+            },
+            "positions": [
+              {
+                "summary": {
+                  "id": "Artikel pertama menempatkan latar kisah pada masa Raja Henry III dan catatan tertuanya pada 1596.",
+                  "en": "The first article sets the story in the reign of King Henry III and dates the earliest account to 1596."
+                },
+                "claim_ids": [
+                  "the-black-dog-of-newgate-c03",
+                  "the-black-dog-of-newgate-c04"
+                ]
+              },
+              {
+                "summary": {
+                  "id": "Sumber kedua mengatakan legenda ini bermula pada 1596.",
+                  "en": "The second source says the legend originated in 1596."
+                },
+                "claim_ids": [
+                  "the-black-dog-of-newgate-c10"
+                ]
+              }
+            ]
+          },
+          {
+            "topic": {
+              "id": "Apakah ada anjing sungguhan",
+              "en": "Whether there was a real dog"
+            },
+            "positions": [
+              {
+                "summary": {
+                  "id": "Dalam cerita, anjing roh itu membunuh para narapidana.",
+                  "en": "In the story the spirit-dog kills the inmates."
+                },
+                "claim_ids": [
+                  "the-black-dog-of-newgate-c05",
+                  "the-black-dog-of-newgate-c06"
+                ]
+              },
+              {
+                "summary": {
+                  "id": "Orang asing di akhir narasi mengaku satu-satunya Black Dog yang ia dengar adalah batu hitam di ruang bawah tanah.",
+                  "en": "The stranger at the end says the only Black Dog he has heard of is a black stone in the dungeon."
+                },
+                "claim_ids": [
+                  "the-black-dog-of-newgate-c07"
+                ]
+              }
+            ]
+          }
+        ],
+        "gaps": [
+          {
+            "field": "images",
+            "searched": "Ilustrasi sampul pamflet di Wikipedia belum diperiksa lisensi dan bukti Commons-nya; images dikosongkan."
+          },
+          {
+            "field": "sources",
+            "searched": "Teks pamflet Luke Hutton tidak dapat dibuka; yang dipakai hanya ringkasan Wikipedia dan satu artikel blog bernama penulis."
+          },
+          {
+            "field": "etymology",
+            "searched": "Tidak ada kutipan yang menjelaskan nama."
+          }
+        ]
+      },
+      "selection_visual_claim_ids": [
+        "the-black-dog-of-newgate-c01",
+        "the-black-dog-of-newgate-c02",
+        "the-black-dog-of-newgate-c05",
+        "the-black-dog-of-newgate-c07",
+        "the-black-dog-of-newgate-c12"
+      ],
+      "url": "/assets/art/the-black-dog-of-newgate-verified.webp",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1005/originals/the-black-dog-of-newgate.png",
+      "prompt": "Use case: stylized-concept. Asset: square premium painterly naturalistic illustration for Mythics folklore encyclopedia. Subject: The Black Dog of Newgate, spectral monstrous hound of London prison legend. Depict ONE formidable, monstrous black hound stalking down a gloomy, vaulted stone corridor of medieval Newgate Prison. The creature has a muscular, heavy mastiff-like anatomy with dense, jet-black shaggy coat, bared fangs in a low menacing growl, and a chilling, baleful, malevolent stare. Damp flagstone floor with puddles, heavy iron-barred cell gates and rusted wall chains fading into dark shadows behind it. Oppressive, haunted atmosphere, illuminated only by cold faint light from a high barred grate and the faint natural glow of a distant lantern, casting long ominous shadows. No human victims, no blood or gore, no generic glowing aura, neon outline, energy ribbons or luminous colored mist. Beautifully resolved canine anatomy, cinematic painterly craft, no text, labels, logo, border, or watermark.",
+      "depicted_variant": "Monstrous black spectral mastiff hound stalking down a vaulted stone corridor of Newgate Prison",
+      "visual_requirements": [
+        "One formidable monstrous black hound with muscular mastiff anatomy and jet-black coat",
+        "Menacing snarling expression and malevolent baleful stare",
+        "Vaulted stone corridor of medieval Newgate Prison with iron gates and chains",
+        "Atmospheric dim lighting from barred skylight and distant lantern",
+        "No human victims, gore, generic neon glow, or colored mist"
+      ],
+      "basis_claim_ids": [
+        "the-black-dog-of-newgate-c01",
+        "the-black-dog-of-newgate-c02",
+        "the-black-dog-of-newgate-c05"
+      ],
+      "aura": "Malevolent prison haunting dread conveyed through muscular predatory stalking stance, bared fangs, damp stone shadows, and grim historical gaol architecture.",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "gemini",
+        "notes": "Verified native PNG. Depicts one large black mastiff-like hound stalking forward down a stone dungeon corridor with iron cell bars and chains. Snarling muzzle with bared teeth and intense eyes. Naturalistic lantern and grate lighting without generic glow or neon mist. Clean painterly craft free of text or watermarks."
+      },
+      "width": 1024,
+      "height": 1024,
+      "sha256": "b70232996e336c3ddc28b14e811dc6a16b8ba94bac08cd4678b421e0ad9c7eaf"
+    },
+    {
+      "index": 5,
+      "slug": "carsamba-kar-s",
+      "canonical_name": "Çarşamba karısı",
+      "worker": "gemini",
+      "status": "complete",
+      "requires_catalogue_record": true,
+      "review_path": "data/gemini/reviews/batch-138.review.json",
+      "research": {
+        "schema": "mythics-entry/1",
+        "batch_id": "batch-138",
+        "slug": "carsamba-kar-s",
+        "task": "new",
+        "tier": "core",
+        "researched_at": "2026-10-05",
+        "identity": {
+          "canonical_name": "Çarşamba karısı",
+          "native_name": null,
+          "display_name": {
+            "id": "Çarşamba karısı",
+            "en": "Çarşamba karısı"
+          },
+          "wikidata_qid": "Q6092121",
+          "claim_ids": [
+            "carsamba-kar-s-c01",
+            "carsamba-kar-s-c06"
+          ]
+        },
+        "alternate_names": [
+          {
+            "name": "Çarşamba Avradı",
+            "language": "tr",
+            "name_type": "alias",
+            "claim_ids": [
+              "carsamba-kar-s-c02"
+            ]
+          }
+        ],
+        "jenis": {
+          "value": "hantu",
+          "claim_ids": [
+            "carsamba-kar-s-c01",
+            "carsamba-kar-s-c06"
+          ]
+        },
+        "classification": {
+          "value": "spirit",
+          "claim_ids": [
+            "carsamba-kar-s-c01",
+            "carsamba-kar-s-c06"
+          ]
+        },
+        "culture": {
+          "value": "tradition-turkic",
+          "suggested_new": null,
+          "claim_ids": [
+            "carsamba-kar-s-c01",
+            "carsamba-kar-s-c07"
+          ]
+        },
+        "region": {
+          "value": "middle-east",
+          "claim_ids": [
+            "carsamba-kar-s-c01",
+            "carsamba-kar-s-c07"
+          ]
+        },
+        "countries": {
+          "value": [
+            "Azerbaijan"
+          ],
+          "claim_ids": [
+            "carsamba-kar-s-c01"
+          ]
+        },
+        "era": null,
+        "habitats": [
+          {
+            "value": "dwelling",
+            "claim_ids": [
+              "carsamba-kar-s-c02",
+              "carsamba-kar-s-c07"
+            ]
+          }
+        ],
+        "disposition": {
+          "value": "malevolent",
+          "claim_ids": [
+            "carsamba-kar-s-c01",
+            "carsamba-kar-s-c07"
+          ]
+        },
+        "traits": [],
+        "short_description": {
+          "id": "Çarşamba Karısı adalah sosok perempuan menakutkan dalam kepercayaan rakyat di Azerbaijan dan Anadolu, yang marah dan membawa celaka ke rumah tempat orang bekerja pada malam Rabu atau membiarkan pekerjaan tak selesai.",
+          "en": "Çarşamba Karısı is a frightening female figure of folk belief in Azerbaijan and Anadolu who grows angry and brings harm to houses where people work on Wednesday night or leave work unfinished.",
+          "claim_ids": [
+            "carsamba-kar-s-c01",
+            "carsamba-kar-s-c02",
+            "carsamba-kar-s-c07"
+          ]
+        },
+        "long_description": [
+          {
+            "id": "Di Azerbaijan dan sebagian daerah Anadolu, Çarşamba Karısı (juga Çarşamba Avradı) dibayangkan sebagai perempuan buruk rupa, berpakaian jelek, dan menakutkan. Ia marah bila ada pekerjaan dilakukan pada malam Rabu, lalu mendatangkan keburukan pada rumah tersebut.",
+            "en": "In Azerbaijan and parts of Anadolu, Çarşamba Karısı (also Çarşamba Avradı) is imagined as an ugly, poorly dressed and frightening woman. She becomes angry when work is done on Wednesday night and then brings misfortune upon that household.",
+            "claim_ids": [
+              "carsamba-kar-s-c01",
+              "carsamba-kar-s-c02"
+            ]
+          },
+          {
+            "id": "Pada hari Rabu ia disebut masuk ke rumah-rumah yang masih menyimpan pekerjaan belum rampung dan membuat semuanya kacau, serta mencelakai penghuninya. Ia tidak gentar kepada siapa pun dan membawa pergi anak-anak secara terang-terangan di hadapan semua orang, bukan sembunyi-sembunyi.",
+            "en": "On Wednesdays she is said to enter houses where work is left unfinished, throw everything into confusion and harm the occupants. She fears nobody and takes children away openly in front of everyone rather than in secret.",
+            "claim_ids": [
+              "carsamba-kar-s-c02",
+              "carsamba-kar-s-c03",
+              "carsamba-kar-s-c07"
+            ]
+          },
+          {
+            "id": "Kedua sumber mengaitkannya dengan Alkarısı, dan artikel pertama memandangnya lebih sebagai unsur memorat sejenis hantu, jin, peri, atau momok ketimbang makhluk mitologis. Dalam bahasa sehari-hari, ungkapan Çarşamba Karısı juga dipakai secara kiasan untuk perempuan yang rambut dan pakaiannya acak-acakan.",
+            "en": "Both sources link her with Alkarısı, and the first article regards her more as a memorate element akin to ghosts, jinn, fairies or bogeys than as a mythological creature. In everyday speech, the expression Çarşamba Karısı is also used figuratively for a woman whose hair and clothes are in disarray.",
+            "claim_ids": [
+              "carsamba-kar-s-c01",
+              "carsamba-kar-s-c04",
+              "carsamba-kar-s-c05",
+              "carsamba-kar-s-c06"
+            ]
+          }
+        ],
+        "cultural_context": null,
+        "etymology": null,
+        "story_mode": {
+          "who": {
+            "id": "Çarşamba Karısı adalah sosok perempuan menakutkan dalam kepercayaan rakyat.",
+            "en": "Çarşamba Karısı is a frightening female figure of folk belief.",
+            "claim_ids": [
+              "carsamba-kar-s-c01",
+              "carsamba-kar-s-c07"
+            ]
+          },
+          "origin": {
+            "id": "Ia dikenal di Azerbaijan dan sebagian daerah Anadolu.",
+            "en": "She is known in Azerbaijan and parts of Anadolu.",
+            "claim_ids": [
+              "carsamba-kar-s-c01"
+            ]
+          },
+          "role": {
+            "id": "Ia menghukum rumah tangga yang bekerja pada malam Rabu atau meninggalkan pekerjaan tak selesai.",
+            "en": "She punishes households that work on Wednesday night or leave work unfinished.",
+            "claim_ids": [
+              "carsamba-kar-s-c01",
+              "carsamba-kar-s-c02",
+              "carsamba-kar-s-c07"
+            ]
+          },
+          "famous_for": {
+            "id": "Ia dikenal membawa pergi anak-anak secara terang-terangan di depan semua orang.",
+            "en": "She is known for taking children away openly in front of everyone.",
+            "claim_ids": [
+              "carsamba-kar-s-c03"
+            ]
+          }
+        },
+        "did_you_know": {
+          "id": "Secara kiasan, nama Çarşamba Karısı juga dipakai untuk perempuan yang rambut dan pakaiannya berantakan.",
+          "en": "Figuratively, the name Çarşamba Karısı is also used for a woman with messy hair and clothes.",
+          "claim_ids": [
+            "carsamba-kar-s-c04",
+            "carsamba-kar-s-c05"
+          ]
+        },
+        "abilities": [],
+        "weaknesses": [],
+        "variants": [],
+        "stories": [],
+        "places": [],
+        "timeline": [],
+        "relations": [
+          {
+            "target_name": "Alkarısı",
+            "relation_type": "associated",
+            "note": {
+              "id": "Sumber kedua menyebut Çarşamba Karısı dalam entri Alkarısı sebagai makhluk serupa; artikel pertama menyatakan ia kadang disamakan dengan Alkarısı.",
+              "en": "The second source mentions Çarşamba Karısı in its entry on Alkarısı as a similar being; the first article states that she sometimes corresponds to Alkarısı."
+            },
+            "claim_ids": [
+              "carsamba-kar-s-c01",
+              "carsamba-kar-s-c05"
+            ]
+          }
+        ],
+        "modern_depictions": [],
+        "tradition_vs_modern": null,
+        "learning_questions": [
+          {
+            "id": "Mengapa sebuah kepercayaan bisa melarang orang bekerja pada malam hari tertentu?",
+            "en": "Why might a belief forbid people from working on a particular night?"
+          }
+        ],
+        "images": [],
+        "sources": [
+          {
+            "id": "carsamba-kar-s-s1",
+            "url": "https://tr.wikipedia.org/wiki/Çarşamba_karısı",
+            "title": "Çarşamba karısı",
+            "author": null,
+            "publisher": "Wikipedia",
+            "published": null,
+            "language": "tr",
+            "type": "wikipedia",
+            "accessed": "2026-10-05"
+          },
+          {
+            "id": "carsamba-kar-s-s2",
+            "url": "https://archive.org/stream/Turk-Soylence-Sozlugu/TurkSoylenceSozlugu_djvu.txt",
+            "title": "Türk Söylence Sözlüğü",
+            "author": "Deniz Karakurt",
+            "publisher": "Internet Archive (digital edition by the author)",
+            "published": "2011",
+            "language": "tr",
+            "type": "encyclopedia",
+            "accessed": "2026-10-05"
+          }
+        ],
+        "claims": [
+          {
+            "id": "carsamba-kar-s-c01",
+            "source_id": "carsamba-kar-s-s2",
+            "quote": "Azerbaycan'da ve Anadolu'nun kimi yörelerinde Çarşamba gecesi iş yapılırsa öfkelenen ve o eve kötülük getiren çirkin, kötü giysili, ürkütücü bir kadın olduğu söylenen",
+            "locator": "Madde ALKARISI",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Di Azerbaijan dan sebagian daerah Anadolu, Çarşamba Karısı disebut sebagai perempuan buruk rupa, berpakaian jelek, dan menakutkan yang marah dan membawa celaka ke rumah bila ada yang bekerja pada malam Rabu (Çarşamba gecesi).",
+              "en": "In Azerbaijan (Azerbaycan) and some parts of Anadolu, Çarşamba Karısı is said to be an ugly, badly dressed, frightening woman (ürkütücü bir kadın) who grows angry and brings harm to the house (eve kötülük getiren) if work is done on Wednesday night (Çarşamba gecesi)."
+            }
+          },
+          {
+            "id": "carsamba-kar-s-c02",
+            "source_id": "carsamba-kar-s-s2",
+            "quote": "(Çarşamba Avradı) olarak anılır. Çarşamba günleri bitirilmemiş işler bulunan evlere girerek ortalığı karıştırdığı anlatılır.",
+            "locator": "Madde ALKARISI",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ia juga disebut Çarşamba Avradı; konon pada hari Rabu ia masuk ke rumah-rumah yang memiliki pekerjaan belum selesai dan mengacaukan segalanya.",
+              "en": "It is also called Çarşamba Avradı; it is said to enter houses with unfinished work (bitirilmemiş işler bulunan evlere) on Wednesdays and throw everything into disorder (ortalığı karıştırdığı)."
+            }
+          },
+          {
+            "id": "carsamba-kar-s-c03",
+            "source_id": "carsamba-kar-s-s2",
+            "quote": "Kimseden korkmaz ve çocukları gizlice değil, herkesin gözü önünde alıp kaçırır.",
+            "locator": "Madde ALKARISI",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Ia tidak takut kepada siapa pun dan membawa lari anak-anak bukan diam-diam, melainkan di depan mata semua orang.",
+              "en": "It fears no one (kimseden korkmaz) and carries off children (çocukları alıp kaçırır) not secretly but before everyone's eyes (herkesin gözü önünde)."
+            }
+          },
+          {
+            "id": "carsamba-kar-s-c04",
+            "source_id": "carsamba-kar-s-s2",
+            "quote": "Türkçe'de mecâzen saçı başı karmakarışık, paspal, özensiz kadın anlamına da gelir.",
+            "locator": "Madde ALKARISI",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Secara kiasan, dalam bahasa Turki ungkapan ini juga berarti perempuan yang rambutnya kusut dan berpenampilan acak-acakan.",
+              "en": "Figuratively (mecâzen), in Turkish (Türkçe'de) the expression also means a woman with tangled hair and an untidy, careless appearance (özensiz kadın)."
+            }
+          },
+          {
+            "id": "carsamba-kar-s-c05",
+            "source_id": "carsamba-kar-s-s1",
+            "quote": "Çarşamba Karısı, Türkçede saçı başı karmakarışık, üstü başı özensiz kadın anlamında kullanılır. Zaman zaman Alkarısı'na tekabül eder.",
+            "locator": "Giriş",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Çarşamba Karısı dipakai untuk menyebut perempuan berambut kusut dan berpakaian acak-acakan; kadang-kadang ia disamakan dengan Alkarısı.",
+              "en": "Çarşamba Karısı is used (kullanılır) for a woman with tangled hair and careless clothing (özensiz kadın); at times it corresponds to Alkarısı (Alkarısı'na tekabül eder)."
+            }
+          },
+          {
+            "id": "carsamba-kar-s-c06",
+            "source_id": "carsamba-kar-s-s1",
+            "quote": "Mitolojik bir yaratıktan ziyade hortlak, hayalet, -genel anlamda- cin, peri, öcü, dunganga türünde bir memorat unsurudur.",
+            "locator": "Giriş",
+            "context": "scholarly-interpretation",
+            "statement": {
+              "id": "Menurut artikel pertama, Çarşamba Karısı lebih merupakan unsur memorat sejenis hantu, arwah, jin, peri, atau momok daripada makhluk mitologis.",
+              "en": "According to the first article, Çarşamba Karısı is less a mythological creature (mitolojik bir yaratıktan ziyade) than a memorate element (memorat unsuru) of the type of revenant, ghost (hortlak, hayalet), jinn, fairy or bogey (cin, peri, öcü)."
+            }
+          },
+          {
+            "id": "carsamba-kar-s-c07",
+            "source_id": "carsamba-kar-s-s1",
+            "quote": "Yine Anadolu inançlarında haftanın belirli bir günü, yarım kalan işlerin olduğu evlere gelerek işleri karıştıran, insanlara kötülük yapan dişi varlık olarak tanımlanır.",
+            "locator": "Giriş",
+            "context": "traditional-belief",
+            "statement": {
+              "id": "Dalam kepercayaan Anadolu ia digambarkan sebagai makhluk betina yang pada hari tertentu dalam sepekan datang ke rumah dengan pekerjaan yang belum selesai, mengacaukan pekerjaan itu, dan mencelakai orang.",
+              "en": "In Anadolu beliefs (Anadolu inançlarında) it is described as a female being (dişi varlık) that on a certain day of the week comes to houses with unfinished work (yarım kalan işlerin olduğu evlere), muddles the work and harms people (insanlara kötülük yapan)."
+            }
+          }
+        ],
+        "conflicts": [],
+        "gaps": [
+          {
+            "field": "countries",
+            "searched": "Kutipan menyebut Azerbaijan dan Anadolu; Anadolu adalah wilayah, bukan negara, sehingga hanya Azerbaijan dicantumkan."
+          },
+          {
+            "field": "etymology",
+            "searched": "Tidak ditemukan kutipan yang membahas asal-usul nama Çarşamba Karısı."
+          },
+          {
+            "field": "sources",
+            "searched": "Artikel tr tidak memiliki rujukan (bertanda kaynak içermemektedir); semua bagian teks yang memakainya juga didukung sumber kedua."
+          },
+          {
+            "field": "images",
+            "searched": "Tidak ditemukan berkas Commons yang menggambarkan Çarşamba Karısı."
+          }
+        ]
+      },
+      "selection_visual_claim_ids": [
+        "carsamba-kar-s-c03",
+        "carsamba-kar-s-c04",
+        "carsamba-kar-s-c05",
+        "carsamba-kar-s-c07"
+      ],
+      "url": "/assets/art/carsamba-kar-s-verified.webp",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1005/originals/carsamba-kar-s.png",
+      "prompt": "Use case: stylized-concept. Asset: square premium painterly naturalistic illustration for Mythics folklore encyclopedia. Subject: Çarşamba Karısı, terrifying night hag of Turkish and Azerbaijani folklore. Depict ONE supernatural disheveled hag standing inside the dim interior of a traditional rustic Anatolian stone-and-timber village kitchen at night. She has a haggard, weathered face, wild unkempt tangled grey hair cascading wildly around her shoulders, and a chilling, menacing, furious glare. Dressed in fully modest but untidy, ragged traditional Anatolian rustic clothes: layered patched skirts and a faded coarse shawl. She stands menacingly beside an abandoned spinning wheel with tangled yarn spindles and untidy domestic utensils left unfinished on the wooden table. Atmospheric nocturnal lighting from a single smoking brass oil lamp on the wall, casting deep unsettling shadows across the clay hearth and rough stone walls. Fully clothed, modest framing, no gore, no generic glowing aura, neon outline, energy ribbons or luminous colored mist. Beautifully resolved anatomy, cinematic painterly craft, no text, labels, logo, border, or watermark.",
+      "depicted_variant": "Tangled-haired frightening hag haunting a village kitchen beside an unfinished spinning wheel at night",
+      "visual_requirements": [
+        "One frightening, haggard female figure with weathered features and intense menacing gaze",
+        "Wild, untidy tangled grey hair cascading around shoulders",
+        "Fully modest, ragged patched traditional garments and fraying shawl",
+        "Rustic cottage kitchen setting with unfinished spinning wheel and tangled thread",
+        "Natural night illumination from a wall oil lamp and hearth; no glowing neon aura"
+      ],
+      "basis_claim_ids": [
+        "carsamba-kar-s-c01",
+        "carsamba-kar-s-c02",
+        "carsamba-kar-s-c04",
+        "carsamba-kar-s-c05"
+      ],
+      "aura": "Threatening folklore dread built through intense scowling gaze, tangled wild hair, ragged attire, and nocturnal shadows in a silent rustic domestic interior.",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "gemini",
+        "notes": "Verified native PNG. Depicts one haggard, disheveled older woman with wild tangled grey hair and piercing angry eyes standing beside a wooden spinning wheel with tangled yarn in a rustic stone kitchen. Attire is modest, layered, and ragged with patches. Natural lamp and fireplace lighting without generic glowing outlines or neon mist; clean painterly craft free of text or watermarks."
+      },
+      "width": 1024,
+      "height": 1024,
+      "sha256": "313a279f30283ddd95d4835f8633fe8d3c79dfce5da926ee9442386dc78f8595"
+    }
+  ],
+  "replacements": [],
+  "baseline_artwork_count": 1000,
+  "selection_criteria": [
+    "computeFillStatus must be lengkap-informasi: complete, valid research without an approved image.",
+    "No active editorial artwork and no permanent artwork exclusion.",
+    "The accepted research entry is embedded unchanged; the image may only depict what its claims document.",
+    "Creatures an earlier batch left out keep that reason as catatan_sebelumnya; the generator may decline them with status tidak-digambar."
+  ],
+  "user_policy": {
+    "instruction_date": "2026-10-06",
+    "only_complete_information": true,
+    "fidelity": "Do not invent. Every bodily feature, attribute and the scene must follow the documented claims of this research entry.",
+    "presence": "The being must not read as an ordinary human or an ordinary animal. Use its documented distinguishing traits, plus pose, expression, gaze, scale, setting from its stories and natural lighting, so the feel of the tradition comes through. Add no undocumented anatomy.",
+    "aura": "Character presence through pose, expression, framing, scale, atmosphere and natural lighting. No generic glowing envelope, neon outline, energy ribbons or luminous coloured mist. Magical effects only when documented, and restrained. Frightening beings get an appropriate horror atmosphere; benevolent beings stay appropriate to their tradition.",
+    "style": "Same house style as the existing 1,000 illustrations: square premium painterly naturalistic illustration, no text, labels, logo, border or watermark."
+  },
+  "selection_audit": {
+    "reduced_from": "data/artwork-batch-1598.json (598 items, removed)",
+    "note": "Gemini made 14 images, declined 1 (leontophone), then stopped producing images. The owner ended the Gemini work; Claude reviewed all 14 against their research claims.",
+    "reviewed": 14,
+    "passed": [
+      "carsamba-kar-s",
+      "nightmare",
+      "nihang-mythology",
+      "pferdegreif",
+      "the-black-dog-of-newgate"
+    ],
+    "rejected": [
+      {
+        "slug": "erawan",
+        "reason": "Research c02 says each head has seven tusks; the image shows two per head."
+      },
+      {
+        "slug": "h-rt-k",
+        "reason": "The defining trait (feet pointing backwards, c01/c08) is not shown: the clawed feet point forward."
+      },
+      {
+        "slug": "dyrnwch",
+        "reason": "No giant scale: reads as an ordinary man seated by a cauldron in a human-sized hall."
+      },
+      {
+        "slug": "gogfran-gawr",
+        "reason": "No giant scale: an ordinary-looking man sitting on a wall; the distant tower does not establish size."
+      },
+      {
+        "slug": "langben-rese",
+        "reason": "No giant scale and invented hide clothing; reads as an ordinary man with a staff."
+      },
+      {
+        "slug": "barak",
+        "reason": "Reads as an ordinary long-haired hound with no sacred presence, in a watercolour style unlike the house style."
+      },
+      {
+        "slug": "beast-of-bodmin",
+        "reason": "Reads as an ordinary black panther in a daytime nature scene; none of the sighting mystery the story carries."
+      },
+      {
+        "slug": "beast-of-exmoor",
+        "reason": "Reads as an ordinary black panther in a daytime nature scene; none of the sighting mystery the story carries."
+      },
+      {
+        "slug": "unuqay",
+        "reason": "Reads as an ordinary goat; the defining monstrous trait (legs lengthening, c04) is barely visible."
+      }
+    ],
+    "declined": [
+      {
+        "slug": "leontophone",
+        "reason": "Research c07: no source gives a definite description of its appearance."
+      }
+    ],
+    "omitted": []
+  }
+}

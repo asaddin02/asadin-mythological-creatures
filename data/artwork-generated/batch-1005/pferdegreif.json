@@ -1,0 +1,44 @@
+{
+  "slug": "pferdegreif",
+  "worker": "gemini",
+  "status": "reviewed",
+  "tool": "Gemini image generation (Antigravity)",
+  "model": "Imagen 3",
+  "prompt": "Use case: stylized-concept. Asset: square premium painterly naturalistic illustration for Mythics folklore encyclopedia. Subject: Hippogryph (Pferdegreif), fabulous hybrid beast of Italian chivalric epic tradition. Depict ONE magnificent hippogryph standing alert on a high rocky windswept mountain ledge in the Riphaean peaks. The creature's front half is an eagle: majestic raptor head with piercing golden eyes, sharp hooked raptor beak, densely feathered neck and chest, two formidable outstretched feathered eagle wings, and powerful raptor forelegs ending in sharp talons. The rear half is a horse: sleek muscular equine hindquarters, powerful hind legs with black hooves, and a flowing horse tail. Seamless painterly anatomical blend between fine plumage and horse coat. Alert, wild, noble gaze. Crisp alpine mountain daylight, dramatic clouds, rocky peaks in background. No rider, no harness, no saddles, no generic glowing aura, neon outline, energy ribbons or luminous colored mist. Beautifully resolved anatomy, cinematic painterly craft, no text, labels, logo, border, or watermark.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1005/originals/pferdegreif.png",
+  "review_path": "data/gemini/reviews/batch-114.review.json",
+  "depicted_variant": "Winged hybrid with eagle forebody and wings, and horse hindquarters standing upon an alpine mountain ledge",
+  "basis_claim_ids": [
+    "pferdegreif-c01",
+    "pferdegreif-c05",
+    "pferdegreif-c10"
+  ],
+  "visual_requirements": [
+    "Front half of an eagle: raptor head, hooked beak, feathered breast, two large feathered wings, and taloned forelegs",
+    "Rear half of a horse: muscular equine hindquarters, hind legs with hooves, and horse tail",
+    "Seamless anatomical transition between plumage and equine hide",
+    "Riphaean mountain alpine ledge environment with open sky",
+    "No rider, harness, gear, or glowing neon envelope"
+  ],
+  "aura": "Noble, wild, soaring chivalric aura conveyed through sharp raptor vigilance, outstretched wings, proud stance, and crisp high-altitude alpine daylight.",
+  "artistic_choices": [
+    "Golden eagle feather palette paired with chestnut horse coat for naturalistic realism.",
+    "Riphaean mountain crag setting reflecting Ariosto's geographical provenance in Orlando Furioso."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "gemini",
+    "notes": "Verified native PNG. Depicts one hybrid hippogryph standing on an alpine precipice. Front half is distinctly raptor-like with eagle head, hooked beak, feathered chest, outstretched wings, and two yellow taloned forelegs. Rear half is equine with muscular hindquarters, two hooved legs, and horse tail. Exactly two wings, two forelegs, two hind legs, one head. Crisp alpine lighting without generic glow or neon mist; clean painterly craft free of text or watermarks."
+  },
+  "native_sha256": "a58855a5b87da89488f62b5cd276d97de5c8757e0dd8c132d425169b94bdeea9",
+  "attempts": 1,
+  "generated_at": "2026-10-06T12:04:22+07:00",
+  "reviewed_at": "2026-10-06T13:49:08.489605+07:00",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T13:49:08.489605+07:00",
+    "native_sha256": "a58855a5b87da89488f62b5cd276d97de5c8757e0dd8c132d425169b94bdeea9",
+    "notes": "Viewed the native PNG. One hybrid: eagle head, hooked beak, feathered breast, two large wings and taloned forelegs in front; equine hindquarters, hooved hind legs and horse tail behind, as in the claims (eagle front half, horse hind half; wings and beak like the griffin sire). Stands on a rocky mountain ledge (Riphaean hills). No rider, harness, glow or text."
+  }
+}

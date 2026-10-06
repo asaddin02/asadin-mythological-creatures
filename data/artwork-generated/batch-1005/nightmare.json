@@ -1,0 +1,45 @@
+{
+  "slug": "nightmare",
+  "worker": "gemini",
+  "status": "reviewed",
+  "tool": "Gemini image generation (Antigravity)",
+  "model": "Imagen 3",
+  "prompt": "Use case: stylized-concept. Asset: square premium painterly naturalistic illustration for Mythics folklore encyclopedia. Subject: Luupainaja, nightmare pressing spirit of Estonian folklore. Depict ONE supernatural spirit in the form of a pale, unearthly young woman kneeling heavily upon the chest of a sleeping person in a rustic historical wooden bed. The spirit wears a simple modest pale historical linen shift, long dark hair draping down, with an intense, uncanny, hollow unblinking gaze fixed forward. Heavy suffocating pressing posture conveys immense supernatural weight like stone. Rustic 19th-century Estonian log farmhouse interior, deep shadows, cold pale moonlight entering through a small window. Fully modest attire, respectful historical framing, no nudity, no gore. No wings, no horns, no generic glowing aura, neon outline, energy ribbons or luminous colored mist. Beautifully resolved anatomy, cinematic painterly craft, no text, labels, logo, border, or watermark.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1005/originals/nightmare.png",
+  "review_path": "data/gemini/reviews/batch-126.review.json",
+  "depicted_variant": "Pale young woman spirit kneeling heavily upon a sleeper like a stone in an Estonian farmhouse chamber",
+  "basis_claim_ids": [
+    "nightmare-c01",
+    "nightmare-c03",
+    "nightmare-c05",
+    "nightmare-c08"
+  ],
+  "visual_requirements": [
+    "One female spirit kneeling upon a sleeping human in bed, weighing them down like stone",
+    "Pale, uncanny unearthly facial expression and hollow staring gaze",
+    "Fully modest historical linen night shift, no nudity",
+    "Rustic wooden bedroom interior with moonlight from window",
+    "No horns, wings, generic neon glow, or colored mist"
+  ],
+  "aura": "Chilling sleep paralysis dread created through the heavy suffocating kneeling posture, pale unearthly gaze, deep cabin shadows, and cold natural moonlight.",
+  "artistic_choices": [
+    "Traditional Estonian log cabin interior with wooden spinning wheel and rustic shelf staging the folk setting.",
+    "Modest loose linen attire and nonsexual framing adhering to cultural sensitivity policy."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "gemini",
+    "notes": "Verified native PNG. Depicts one pale female spirit kneeling on a sleeping man's back in a wooden bed inside a log cabin. Uncanny staring expression and heavy crouching pose capture the documented stone-like pressing spirit. Modest historical linen nightwear, no nudity or gore. Natural moonlight through window without generic glowing outlines or neon mist; clean painterly craft free of text or watermarks."
+  },
+  "native_sha256": "91359d3fecc07b88eb7e14ecef42f35174be56b405f48f24325bd1201a92b780",
+  "attempts": 1,
+  "generated_at": "2026-10-06T11:59:49+07:00",
+  "reviewed_at": "2026-10-06T13:49:08.489605+07:00",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T13:49:08.489605+07:00",
+    "native_sha256": "91359d3fecc07b88eb7e14ecef42f35174be56b405f48f24325bd1201a92b780",
+    "notes": "Viewed the native PNG. A pale young woman spirit with long hair, hollow staring eyes and a plain linen shift kneels on a sleeping man's body in a log farmhouse bedroom, pressing him down, matching the luupainaja/tallajad claims (young-woman form, pressing on sleepers at night). Uncanny stillness and moonlit night give a supernatural, oppressive presence rather than an ordinary woman. No horns, wings, neon glow or text."
+  }
+}

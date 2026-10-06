@@ -2,7 +2,7 @@
 
 Kamu agen utama. Kamu bekerja di repositori ini lewat Claude Code di cloud, jadi satu-satunya jalan agar pekerjaanmu tidak hilang adalah **commit dan push ke GitHub**. Penelitiannya dikerjakan oleh beberapa subagent sekaligus. Tugasmu membagi pekerjaan, memeriksa hasilnya, dan menyimpannya.
 
-Pembagian kerja seluruh tim ada di `docs/BAGI-TUGAS-2026-10-06.md`. Gemini membuat ilustrasi di PC lokal. Claude Code lokal memeriksa semua hasil di akhir. Kamu tidak menyentuh ilustrasi.
+Pembagian kerja seluruh tim ada di `docs/BAGI-TUGAS-2026-10-06.md`. Claude Code lokal memeriksa semua hasil di akhir. Kamu tidak menyentuh ilustrasi.
 
 ## Persiapan (sekali per sesi)
 

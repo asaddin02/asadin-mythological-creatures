@@ -1,0 +1,45 @@
+{
+  "slug": "carsamba-kar-s",
+  "worker": "gemini",
+  "status": "reviewed",
+  "tool": "Gemini image generation (Antigravity)",
+  "model": "Imagen 3",
+  "prompt": "Use case: stylized-concept. Asset: square premium painterly naturalistic illustration for Mythics folklore encyclopedia. Subject: Çarşamba Karısı, terrifying night hag of Turkish and Azerbaijani folklore. Depict ONE supernatural disheveled hag standing inside the dim interior of a traditional rustic Anatolian stone-and-timber village kitchen at night. She has a haggard, weathered face, wild unkempt tangled grey hair cascading wildly around her shoulders, and a chilling, menacing, furious glare. Dressed in fully modest but untidy, ragged traditional Anatolian rustic clothes: layered patched skirts and a faded coarse shawl. She stands menacingly beside an abandoned spinning wheel with tangled yarn spindles and untidy domestic utensils left unfinished on the wooden table. Atmospheric nocturnal lighting from a single smoking brass oil lamp on the wall, casting deep unsettling shadows across the clay hearth and rough stone walls. Fully clothed, modest framing, no gore, no generic glowing aura, neon outline, energy ribbons or luminous colored mist. Beautifully resolved anatomy, cinematic painterly craft, no text, labels, logo, border, or watermark.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1005/originals/carsamba-kar-s.png",
+  "review_path": "data/gemini/reviews/batch-138.review.json",
+  "depicted_variant": "Tangled-haired frightening hag haunting a village kitchen beside an unfinished spinning wheel at night",
+  "basis_claim_ids": [
+    "carsamba-kar-s-c01",
+    "carsamba-kar-s-c02",
+    "carsamba-kar-s-c04",
+    "carsamba-kar-s-c05"
+  ],
+  "visual_requirements": [
+    "One frightening, haggard female figure with weathered features and intense menacing gaze",
+    "Wild, untidy tangled grey hair cascading around shoulders",
+    "Fully modest, ragged patched traditional garments and fraying shawl",
+    "Rustic cottage kitchen setting with unfinished spinning wheel and tangled thread",
+    "Natural night illumination from a wall oil lamp and hearth; no glowing neon aura"
+  ],
+  "aura": "Threatening folklore dread built through intense scowling gaze, tangled wild hair, ragged attire, and nocturnal shadows in a silent rustic domestic interior.",
+  "artistic_choices": [
+    "Traditional Anatolian stone walls and spinning wheel faithfully reflect the documented folk tradition of punishing unfinished Wednesday spinning work.",
+    "Warm lantern light and deep corner shadows establish authentic domestic folk horror without fantasy glow."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "gemini",
+    "notes": "Verified native PNG. Depicts one haggard, disheveled older woman with wild tangled grey hair and piercing angry eyes standing beside a wooden spinning wheel with tangled yarn in a rustic stone kitchen. Attire is modest, layered, and ragged with patches. Natural lamp and fireplace lighting without generic glowing outlines or neon mist; clean painterly craft free of text or watermarks."
+  },
+  "native_sha256": "de8c6048be42bd399e9edb81c45e51a5f17aec5dc6ca4b67ddfda63e25e947f3",
+  "attempts": 1,
+  "generated_at": "2026-10-06T12:12:08+07:00",
+  "reviewed_at": "2026-10-06T13:49:08.489605+07:00",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T13:49:08.489605+07:00",
+    "native_sha256": "de8c6048be42bd399e9edb81c45e51a5f17aec5dc6ca4b67ddfda63e25e947f3",
+    "notes": "Viewed the native PNG. An ugly, badly dressed old woman with wild tangled grey hair, ragged patched clothes and an angry glare stands at night beside a spinning wheel with tangled, unfinished thread in a cottage kitchen, matching the claims (frightening, badly dressed woman with tangled hair who comes to houses with unfinished work on Wednesdays). The human form is the documented one; the menacing night visit gives the presence. No horns, fangs, glow or text."
+  }
+}

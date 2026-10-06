@@ -1,0 +1,45 @@
+{
+  "slug": "nihang-mythology",
+  "worker": "gemini",
+  "status": "reviewed",
+  "tool": "Gemini image generation (Antigravity)",
+  "model": "Imagen 3",
+  "prompt": "Use case: stylized-concept. Asset: square premium painterly naturalistic illustration for Mythics folklore encyclopedia. Subject: Nihang, malevolent golden-maned water dragon of Chitrali folklore in northwestern Pakistan. Depict ONE colossal aquatic serpent dragon rising from the cold deep waters of a high-altitude mountain lake in the Hindu Kush. The dragon has a long, slender, dark-scaled serpentine body, formidable reptilian head and jaws, and a thick, flowing fur-like mane of distinct golden hair running down its head and neck. Threatening predatory gaze and dangerous presence, disturbing the clear dark glacial lake surface with ripples and spray. Rugged rocky Hindu Kush mountain peaks in the background under cold overcast mountain light. No people, no severed limbs, no generic glowing aura, neon outline, energy ribbons or luminous colored mist. Beautifully resolved anatomy, cinematic painterly craft, no text, labels, logo, border, or watermark.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1005/originals/nihang-mythology.png",
+  "review_path": "data/gemini/reviews/batch-139.review.json",
+  "depicted_variant": "Golden-maned aquatic serpent dragon rising from an alpine mountain lake in the Hindu Kush",
+  "basis_claim_ids": [
+    "nihang-mythology-c01",
+    "nihang-mythology-c03",
+    "nihang-mythology-c05",
+    "nihang-mythology-c07"
+  ],
+  "visual_requirements": [
+    "One colossal aquatic serpent dragon with scaled serpentine body",
+    "Prominent flowing golden fur-like mane running along head and neck",
+    "Formidable predatory reptilian head and jaws",
+    "Alpine mountain lake setting with snow-dusted peaks",
+    "No people, weapons, gore, or generic glowing neon envelope"
+  ],
+  "aura": "Formidable predatory presence conveyed through towering serpent posture rising from cold glacial waters, wild golden mane, and rugged alpine mountain setting.",
+  "artistic_choices": [
+    "Glacial mountain lake and Hindu Kush peaks represent the documented ancient Mastuj lake setting.",
+    "Dark charcoal scales contrast with golden mane to highlight documented distinguishing feature."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "gemini",
+    "notes": "Verified native PNG. Depicts one colossal serpentine water dragon rising from a mountain lake. Clearly features dark plated scales and a thick golden mane along its neck and head. Glacial mountain backdrop and natural water splashes. Exactly one head and one continuous serpentine body; no wings, fire, or magical neon mist; clean painterly craft free of text or watermarks."
+  },
+  "native_sha256": "86068c0e74cb89d715c9efe1552cf60edb83148456d0714c64c60ee50537217b",
+  "attempts": 1,
+  "generated_at": "2026-10-06T12:00:39+07:00",
+  "reviewed_at": "2026-10-06T13:49:08.489605+07:00",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T13:49:08.489605+07:00",
+    "native_sha256": "86068c0e74cb89d715c9efe1552cf60edb83148456d0714c64c60ee50537217b",
+    "notes": "Viewed the native PNG. A huge long slender scaly serpent-dragon rises from a cold mountain lake with a thick golden fur-like mane and a menacing reptilian head, matching the claims (gigantic scaly creatures with golden manes, aquatic, long serpent-like body, malevolent lake dragon). Snow peaks and churning water give scale and threat. No people, gore, glow or text."
+  }
+}

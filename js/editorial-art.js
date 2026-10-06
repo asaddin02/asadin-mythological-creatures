@@ -999,5 +999,10 @@ export const EDITORIAL_ART = Object.freeze({
   "szelatya": "/assets/art/szelatya-verified.webp",
   "plafalgas": "/assets/art/plafalgas-verified.webp",
   "the-dagda": "/assets/art/the-dagda-verified.webp",
-  "thetis-lake-monster": "/assets/art/thetis-lake-monster-verified.webp"
+  "thetis-lake-monster": "/assets/art/thetis-lake-monster-verified.webp",
+  "nightmare": "/assets/art/nightmare-verified.webp",
+  "nihang-mythology": "/assets/art/nihang-mythology-verified.webp",
+  "pferdegreif": "/assets/art/pferdegreif-verified.webp",
+  "the-black-dog-of-newgate": "/assets/art/the-black-dog-of-newgate-verified.webp",
+  "carsamba-kar-s": "/assets/art/carsamba-kar-s-verified.webp"
 });

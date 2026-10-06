@@ -1,0 +1,44 @@
+{
+  "slug": "the-black-dog-of-newgate",
+  "worker": "gemini",
+  "status": "reviewed",
+  "tool": "Gemini image generation (Antigravity)",
+  "model": "Imagen 3",
+  "prompt": "Use case: stylized-concept. Asset: square premium painterly naturalistic illustration for Mythics folklore encyclopedia. Subject: The Black Dog of Newgate, spectral monstrous hound of London prison legend. Depict ONE formidable, monstrous black hound stalking down a gloomy, vaulted stone corridor of medieval Newgate Prison. The creature has a muscular, heavy mastiff-like anatomy with dense, jet-black shaggy coat, bared fangs in a low menacing growl, and a chilling, baleful, malevolent stare. Damp flagstone floor with puddles, heavy iron-barred cell gates and rusted wall chains fading into dark shadows behind it. Oppressive, haunted atmosphere, illuminated only by cold faint light from a high barred grate and the faint natural glow of a distant lantern, casting long ominous shadows. No human victims, no blood or gore, no generic glowing aura, neon outline, energy ribbons or luminous colored mist. Beautifully resolved canine anatomy, cinematic painterly craft, no text, labels, logo, border, or watermark.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1005/originals/the-black-dog-of-newgate.png",
+  "review_path": "data/gemini/reviews/batch-120.review.json",
+  "depicted_variant": "Monstrous black spectral mastiff hound stalking down a vaulted stone corridor of Newgate Prison",
+  "basis_claim_ids": [
+    "the-black-dog-of-newgate-c01",
+    "the-black-dog-of-newgate-c02",
+    "the-black-dog-of-newgate-c05"
+  ],
+  "visual_requirements": [
+    "One formidable monstrous black hound with muscular mastiff anatomy and jet-black coat",
+    "Menacing snarling expression and malevolent baleful stare",
+    "Vaulted stone corridor of medieval Newgate Prison with iron gates and chains",
+    "Atmospheric dim lighting from barred skylight and distant lantern",
+    "No human victims, gore, generic neon glow, or colored mist"
+  ],
+  "aura": "Malevolent prison haunting dread conveyed through muscular predatory stalking stance, bared fangs, damp stone shadows, and grim historical gaol architecture.",
+  "artistic_choices": [
+    "Medieval stone vaulting, iron-barred gates, and rusted wall shackles evoke the documented Newgate gaol setting.",
+    "Wet stone floor reflections and lantern shadow play create natural atmospheric tension without magical luminescence."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "gemini",
+    "notes": "Verified native PNG. Depicts one large black mastiff-like hound stalking forward down a stone dungeon corridor with iron cell bars and chains. Snarling muzzle with bared teeth and intense eyes. Naturalistic lantern and grate lighting without generic glow or neon mist. Clean painterly craft free of text or watermarks."
+  },
+  "native_sha256": "c2b404107820350be28cb26c16ac21dea026237c9c513758d0917f7aa4ca4c77",
+  "attempts": 1,
+  "generated_at": "2026-10-06T12:06:43+07:00",
+  "reviewed_at": "2026-10-06T13:49:08.489605+07:00",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T13:49:08.489605+07:00",
+    "native_sha256": "c2b404107820350be28cb26c16ac21dea026237c9c513758d0917f7aa4ca4c77",
+    "notes": "Viewed the native PNG. A monstrous black hound with bared teeth and a baleful stare stalks a vaulted stone prison corridor with barred cells, chains and a lantern, matching the claims (spectre of a monstrous black dog walking up and down Newgate Prison, malicious intent). The setting from the legend and the menacing approach carry the haunting. No victims, gore, neon or text."
+  }
+}
