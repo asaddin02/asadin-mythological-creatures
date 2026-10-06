@@ -1,6 +1,6 @@
 # Review batch-067
 
-Diperiksa 2026-10-06T14:57:07.145Z. Berkas: batch-067.md, batch-067-fix-1.md, batch-067-fix-2.md, batch-067-fix-3.md, batch-067-fix-4.md.
+Diperiksa 2026-10-06T15:35:37.846Z. Berkas: batch-067.md, batch-067-fix-1.md, batch-067-fix-2.md, batch-067-fix-3.md, batch-067-fix-4.md, batch-067-fix-5.md.
 
 ## jiaolong — lulus-otomatis
 
@@ -291,8 +291,8 @@ Klaim 11 (loose 1, exact 10), sumber 3, gambar 0.
 | shojo-c05 | exact | en.wikipedia.org | Japanese tale portrayals give it a red face and hair and a fondness for alcohol. | The shōjō has been represented as a sea spirit with a red face and hair and a fondness for alcohol as part of Japanese folktale tradition. |
 | shojo-c06 | exact | zh.wikisource.org | This classical text, the Shanhaijing, mentions a beast shaped like a yu (a monkey-like animal) with white ears that goes bent over but runs like a person, named 狌狌 (shengsheng), and eating it makes one good at running. | 有獸焉，其狀如禺〈禺似獼猴而大赤目，長者不了此物名禺。作牛字圖，亦做牛形或作猴，皆失之也。禺字音遇，〉而白耳，伏行人走，其名曰狌狌〈狌狌，禺獸。狀如猿，伏行交足亦此類也。見《京房易》〉，食之善走。 |
 | shojo-c07 | exact | zh.wikisource.org | This classical text, the Shanhaijing, puts the forest 氾林, three hundred li square, east of the 狌狌; the 狌狌 know the names of people, are beasts like pigs but with human faces, and are located west of Shun's burial place. | 氾林方三百里，在狌狌東。 狌狌知人名，其為獸如豕而人面，在舜葬西。 |
-| shojo-c08 | exact | en.wikipedia.org | In the passage on the Bencao Gangmu, citing Ruan Qian, the method Vietnamese locals in the Fengxi area used to capture the xingxing is described: they would leave straw sandals and liquor by the roadside to lure them; they examine the goods and go away at first, but return to try on the sandals and drink the wine, at which point they can be captured. | It cites Ruan Qian (阮汧 ) from the Tang dynasty period regarding the method the Vietnamese locals in Fengxi (封溪 ) county used to capture the xingxing. ... They would leave straw sandals and liquor by the roadside to lure them; the creatures examine these goods but go away at first, but they return to try on the sandals and drink the wine, at which point they can be captured. |
-| shojo-c09 | exact | en.wikipedia.org | In the Noh play Shōjō, the shōjō disguised as a human buys sake in large quantity yet his face never flushes; he then appears in his true form, drinks, dances ecstatically and rewards the seller by making his sake vat perpetually refill itself. | The protagonist (shite) shōjō disguised as a human buys from him in large quantity, but his face never becomes flushed despite the heavy drinking. ... The shōjō appears in its true form, drinks the sake, getting drunk and dancing ecstatically, then rewarding the sake seller by making his sake vat perpetually refill itself. |
+| shojo-c08 | exact | en.wikipedia.org | The article's passage on the Bencao Gangmu says these creatures are lured by leaving straw sandals and liquor by the roadside; they examine the goods and go away at first, but return to try on the sandals and drink the wine, at which point they can be captured. | The Bencao Gangmu describes it as resembling a dog or rhesus macaque ... It cites Ruan Qian ... They would leave straw sandals and liquor by the roadside to lure them; the creatures examine these goods but go away at first, but they return to try on the sandals and drink the wine, at which point they can be captured. |
+| shojo-c09 | exact | en.wikipedia.org | In the Noh play Shōjō, the shōjō disguised as a human buys sake in large quantity yet his face never flushes; he then appears in his true form, drinks, dances ecstatically and rewards the seller by making his sake vat perpetually refill itself. | The Kyōgen-influenced Noh play shōjō is set in Ancient China ... The protagonist (shite) shōjō disguised as a human buys from him in large quantity, but his face never becomes flushed despite the heavy drinking. ... The shōjō appears in its true form, drinks the sake, getting drunk and dancing ecstatically, then rewarding the sake seller by making his sake vat perpetually refill itself. |
 | shojo-c10 | exact | en.wikipedia.org | The Shōjō doll was a hariko (papier-mâché) like the daruma, considered a lucky item (engimono) placed on the hearth, and was supposed to contract the pox in place of the family. | The Shōjō doll was a hariko (papier-mâché) like the daruma ... It was considered a lucky item (engimono), placed on the hearth (kamado), and was supposed to contract the pox in place of the family. |
 | shojo-c11 | exact | en.wikipedia.org | The shōjō has sometimes been misconceived as purely native Japanese folklore and superstition, particularly by commentators of the netsuke craft art, since it is a popular subject for these carvings. | It has sometimes been misconceived as purely native Japanese folklore and superstition, particularly by commentators of the netsuke craft art, since the shōjō is a popular subject for these carvings. |
 
@@ -353,10 +353,7 @@ Klaim 8 (exact 8), sumber 2, gambar 0.
 
 ## kui-chinese-mythology — lulus-otomatis
 
-Klaim 4 (exact 2, loose 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 9, loose 2), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -364,14 +361,18 @@ Klaim 4 (exact 2, loose 2), sumber 1, gambar 0.
 | kui-chinese-mythology-c02 | exact | en.wikipedia.org | The same name also denotes a legendary musician credited with music and dance. | Kui (Chinese: 夔; pinyin: kuí; Wade–Giles: k'uei) is a polysemous figure in ancient Chinese mythology. Classic texts use this name for the legendary musician Kui who invented music and dancing; for the one-legged mountain demon or rain-god Kui variously said to resemble a Chinese dragon, a drum, or a monkey with a human face; and for the Kuiniu wild yak or buffalo. |
 | kui-chinese-mythology-c03 | loose | en.wikipedia.org | Kuilong and kuiwen motifs appear on Zhou bronzes. | While Kui (夔) originally named a mythic being, Modern Standard Chinese uses it in several other expressions. The reduplication kuíkuí (夔夔) means "awe-struck; fearful; grave" (see the Shujing below). The compounds kuílóng (夔龍) (with "dragon") and kuíwén (夔紋) (with "pattern; design") name common motifs on Zhou dynasty Chinese bronzes. |
 | kui-chinese-mythology-c04 | loose | en.wikipedia.org | Translating Kui as walrus is explained as a dictionary error rather than its Chinese meaning. | Translating kuí (夔) as "walrus" exemplifies a ghost word. The Unihan Database lists the definition as "one-legged monster; walrus". However, Chinese kui does not mean "walrus" (海象; hǎixiàng; 'sea elephant'), and this ghost first appeared in early Chinese-English dictionaries by Robert Henry Mathews and Herbert Giles. |
+| kui-chinese-mythology-c05 | exact | zh.wikisource.org | The text says that on the mountain called Liubo (流波山) in the East Sea there is a beast named Kui, shaped like an ox, with a blue-green body, no horns, and one foot. | 東海中有流波山，入海七千里。其上有獸，狀如牛，蒼身而無角，一足，出入水則必風雨，其光如日月，其聲如雷，其名曰夔。 |
+| kui-chinese-mythology-c06 | exact | zh.wikisource.org | The text states that whenever the beast goes into or out of the water there is wind and rain, its glare is like the sun and moon, and its voice is like thunder. | 其上有獸，狀如牛，蒼身而無角，一足，出入水則必風雨，其光如日月，其聲如雷，其名曰夔。 |
+| kui-chinese-mythology-c07 | exact | zh.wikisource.org | The text states that the Yellow Emperor obtained it, made its hide into a drum and struck it with a bone of the thunder beast; the sound was heard for five hundred li and awed all under heaven. | 其名曰夔。黃帝得之，以其皮為鼓，橛以雷獸之骨，聲聞五百里，以威天下。 |
+| kui-chinese-mythology-c08 | exact | en.wikipedia.org | An ancient commentary quoted in the article says some hold that the khwei have one leg, and that they have a human face, an ape-like body, and can speak. | Some say that the khwei have one leg. ... They exist in Fu-yang (about the present Hang-cheu), have a human countenance and an ape-like body, and can speak. |
+| kui-chinese-mythology-c09 | exact | en.wikipedia.org | A text quoted in the article describes another mountain power shaped like a drum, red, and one-footed, named Hui, which the article notes as a variant name of Kui. | There is another mountain power, this one in the shape of a drum, colored red, and also with only one foot. Its name is Hui. |
+| kui-chinese-mythology-c10 | exact | en.wikipedia.org | The article explains that Confucianist revisionism reads the phrase not as "Kui [had] one foot" but as "one person like Kui was enough". | as "Kui [had] one foot", Confucianist revisionism construes it as "Kui, one [person like him] was enough." |
+| kui-chinese-mythology-c11 | exact | en.wikipedia.org | A passage quoted in the article states that apparitions between trees and rocks are called khwei and wang-liang, while those in the water are called lung, or dragons. | apparitions between trees and rocks are called khwei and wang-liang, while those in the water are lung or dragons |
 
 
 ## longma — lulus-otomatis
 
-Klaim 4 (exact 2, loose 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 10, loose 2), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -379,6 +380,14 @@ Klaim 4 (exact 2, loose 2), sumber 1, gambar 0.
 | longma-c02 | exact | en.wikipedia.org | Its appearance is regarded as an omen of a sage ruler. | The longma is a fabled winged horse with dragon scales in Chinese mythology. Seeing a longma was an omen of a legendary sage-ruler, particularly one of the Three Sovereigns and Five Emperors. |
 | longma-c03 | loose | en.wikipedia.org | Its name joins long for dragon with ma for horse. | The Chinese word longma combines long (龍; "dragon") and ma (馬). Compare hema (河馬; 'river horse'; "hippopotamus") and haima (海馬; 'sea horse'; "seahorse"). In addition to naming the mythic creature, longma (龍馬; "dragon horse") can refer to an eminent person, such as in the four-character idiom 龍馬精神; longma jingshen; "vigorous spirit in old age". |
 | longma-c04 | loose | en.wikipedia.org | The Zhouli connects dragon and horse naming through categories of horse height. | Longma interconnects traditional Chinese beliefs about dragons and horses. An early example comes from the Zhouli (周禮; 'Rites of Zhou'), which differentiates names for horses of different heights, measured in the chi (尺; 'Chinese foot') (historically around 23–33 centimeters, see Chinese units of measurement). |
+| longma-c05 | exact | zh.wikisource.org | The Zhouli text says horses of eight chi and above are called long (龍, dragon), seven chi and above lai (騋), and six chi and above ma (馬, horse). | 廋人：掌十有二閑之政教，以阜馬、佚特、教駣、攻駒，及祭馬祖、祭閑之先牧，及執駒、散馬耳、圉馬。正校人員選。馬八尺以上為龍，七尺以上為騋，六尺以上為馬。 |
+| longma-c06 | exact | zh.wikisource.org | The Liji text says that when governance is in harmony, among other portents "the river brings forth the horse chart" (河出馬圖) and the tortoise and dragon (龜龍) are in the palace ponds. | 故天降膏露，地出醴泉，山出器車，河出馬圖 ... 皆在郊棷，龜龍在宫沼 |
+| longma-c07 | exact | en.wikipedia.org | An ancient commentary quoted in the article states that its shape is a horse's body with dragon scales, its height is eight ch'ih five ts'un, and a true dragon horse has wings at its sides and walks on water without sinking. | As a being its shape consists of a horse's body, yet it has dragon scales. Therefore it is called 'dragon horse'. Its height is eight ch'ih five ts'un. A true dragon horse has wings at its sides and walks upon the water without sinking. |
+| longma-c08 | exact | en.wikipedia.org | The same commentary states that if a holy man is on the throne, the dragon horse comes out of the midst of the river carrying a map on its back. | If a holy man is on the throne it comes out of the midst of the Ming river, carrying a map on its back. |
+| longma-c09 | exact | en.wikipedia.org | According to the article, the Hetu is traditionally linked with prehistoric Chinese rulers: a longma revealed the Hetu to Fu Xi or Shun. | They are traditionally linked with prehistoric Chinese rulers, a longma revealed the Hetu to Fu Xi or Shun |
+| longma-c10 | exact | en.wikipedia.org | The 10th-century Taiping Imperial Reader is said to state that a longma that appeared in 741 was considered a good omen for Emperor Xuanzong of Tang; it was spotted blue and red, covered with scales, had a dragon-like mane, neighed like a flute, and could cover three hundred miles. | The 10th-century Taiping Imperial Reader says a longma that appeared in 741 was considered as a good omen for Emperor Xuanzong of Tang. ... It was spotted blue and red, and covered with scales. Its mane resembled that of a dragon, and its neighing was like the tone of a flute. It could cover three hundred miles. |
+| longma-c11 | exact | en.wikipedia.org | In the account quoted in the article, the longma's mother was a common horse that became pregnant by drinking water from the river in which it was bathed. | Its mother was a common horse which had become pregnant by drinking water from a river in which it was bathed. |
+| longma-c12 | exact | en.wikipedia.org | A passage quoted in the article records a story that dragons, changing form, couple with mares and the offspring is a wild horse (dragon-horse) difficult to tame and fierce in nature. | The dragons, changing their form, couple with mares. The offspring is a wild species of horse (dragon-horse) difficult to tame and of a fierce nature. |
 
 
 ## luanniao — lulus-otomatis
@@ -399,10 +408,7 @@ Klaim 8 (exact 8), sumber 3, gambar 0.
 
 ## qianliyan — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 13 (exact 13), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -411,14 +417,19 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | qianliyan-c03 | exact | en.wikipedia.org | During the Ming period, he was also known as Li Lou. | Under the Ming, Qianliyan was also known as Li Lou. |
 | qianliyan-c04 | exact | en.wikipedia.org | Journey to the West portrays him as the personified eyes of the Jade Emperor and one of his lieutenants. | Qianliyan is first attested in the early-16th century novel Journey to the West, where he appears as the personified form of the Taoist Jade Emperor's eyes and one of his lieutenants. |
 | qianliyan-c05 | exact | en.wikipedia.org | Journey to the South portrays him as a lieutenant of the Emperor of Flowering Brightness. | Qianliyan next appeared as a lieutenant of the Emperor of Flowering Brightness ... in Yu Xiangdou's Journey to the South and as a character in Xu Zhonglin's Creation of the Gods. |
+| qianliyan-c06 | exact | zh.wikisource.org | In the novel's text, the Jade Emperor commands Qianliyan (千里眼) and Shunfeng'er (順風耳) to open the South Heavenly Gate and look; the two generals go out and see clearly and hear distinctly. | 即命千里眼、順風耳開南天門觀看。二將果奉旨出門外，看的真，聽的明。 |
+| qianliyan-c07 | exact | zh.wikisource.org | In the novel's text, Qianliyan and Shunfeng'er step out from the ranks of the celestial court and report that the monkey is a stone monkey born three hundred years earlier. | 班中閃出千里眼、順風耳道：「這猴乃三百年前天產石猴。當時不以為然，不知這幾年在何方修煉成仙，降龍伏虎，強銷死籍也。」 |
+| qianliyan-c08 | exact | en.wikipedia.org | Qianliyan's sharp vision is employed to protect sailors at night and during fog and other bad weather; in some accounts he can see everything in the world. | Qianliyan's sharp vision is employed to help protect sailors at night and during fog and other inclement weather. In some accounts, he is capable of seeing everything in the world. |
+| qianliyan-c09 | exact | en.wikipedia.org | Qianliyan is most often portrayed as a demon defeated and tamed or befriended by the sea goddess Mazu. | Qianliyan is most often portrayed as a demon defeated and tamed or befriended by the sea goddess Mazu. |
+| qianliyan-c10 | exact | en.wikipedia.org | By one account, he and Shunfeng'er appeared off Meizhou Island during a storm and were defeated by Mazu's magical silk scarf, which blew clouds of sand into their eyes and ears. | By one account, he and Shunfeng'er appeared off Meizhou Island during a storm and were defeated by Mazu's magical silk scarf, which blew clouds of sand into their eyes and ears. |
+| qianliyan-c11 | exact | en.wikipedia.org | In one account, the pair were originally warriors or guards of Di Xin, and their powers fail when they are covered in the blood of a black dog. | In still another account, the pair were originally warriors or guards of Di Xin. ... Their powers fail them when he covers them in the blood of a black dog |
+| qianliyan-c12 | exact | en.wikipedia.org | In art, Qianliyan typically appears as a green-skinned demon shielding his eyes from the sun's glare. | Qianliyan typically appears as a green-skinned demon shielding his eyes from the sun's glare. |
+| qianliyan-c13 | exact | en.wikipedia.org | During the annual pilgrimage from Dajia to Beigang, Mazu's idol is accompanied by figures of Qianliyan and Shunfeng'er about three metres tall, played by masked men on stilts. | During the 8-day, 250-kilometer (155 mi) annual pilgrimages from Dajia to Beigang, Mazu's idol is accompanied by 10-foot (3 m) figures of Qianliyan and Shunfeng'er played by masked men on stilts. |
 
 
 ## taowu — lulus-otomatis
 
-Klaim 5 (exact 3, loose 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 8, loose 2), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -427,14 +438,16 @@ Klaim 5 (exact 3, loose 2), sumber 1, gambar 0.
 | taowu-c03 | exact | en.wikipedia.org | Its meaning expanded from a particular beast to mythical beings and stubborn people. | Semantically, the name originally referred to some sort of beast. However, its meaning extended over time to refer to mythical creatures in general, a now-lost text referring to the history of Chu, and violent, stubborn people. |
 | taowu-c04 | exact | en.wikipedia.org | Sima Qian portrays it as a rebellious and destructive son of Zhuanxu. | Sima Qian records Taowu as a label given to a rebellious, destructive son of Zhuanxu, the progenitor of the Youyu clan. He was devoid of ability, stubborn, ignorant to instruction, and could not be appeased. |
 | taowu-c05 | loose | en.wikipedia.org | The Guoyu and Shuo Yuan locate Taowu on Mount Pi during the Shang period. | Guoyu and Shuo Yuan record Taowu as residing at Mt. Pi (丕山) during the Shang dynasty. |
+| taowu-c06 | exact | zh.wikisource.org | The Shiji text says the house of Zhuanxu (顓頊氏) had an untalented son who could not be taught and did not understand speech, whom the world called Taowu (檮杌). | 少暤氏有不才子，毀信惡忠，崇飾惡言，天下謂之窮奇。顓頊氏有不才子，不可教訓，不知話言，天下謂之檮杌。 |
+| taowu-c07 | exact | zh.wikisource.org | The Shiji text says Taowu belongs to the "three clans" that long troubled the world, and that Shun later banished the "four villain clans" (四凶族) to the four frontiers to ward off goblins (螭魅). | 顓頊氏有不才子，不可教訓，不知話言，天下謂之檮杌。此三族世憂之。 ... 天下惡之，比之三凶。舜賓於四門，乃流四凶族，遷于四裔，以御螭魅 |
+| taowu-c08 | exact | zh.wikisource.org | The Shenyijing text describes a beast in the western wilds that looks like a tiger but with dog fur, a human face, tiger feet, a pig's mouth and tusks and a tail one zhang eight chi long, which throws the wilds into disorder; it is named Taowu, also called Aohen and Nanxun. | 西方荒中有獸焉，其狀如虎而犬毛，長二尺，人面虎足，猪口牙，尾長一丈八尺，攪乱荒中，名梼杌，一名傲狠，一名難訓。 |
+| taowu-c09 | exact | en.wikipedia.org | According to the article, the trouble he caused continued through Emperor Yao's reign until Emperor Shun received him with the other Four Perils, banishing them to the outer reaches of the kingdom and expelling evil spirits. | The trouble he caused would continue throughout the reign of Emperor Yao of the Taotang clan, until Emperor Shun of the Youyu clan would receive him along with the other Four Perils, banishing them to the outer reaches of the kingdom and expelling evil spirits. |
+| taowu-c10 | exact | en.wikipedia.org | According to the article, the Book of Gods and Strange Things records Taowu as a monster with a human face, tiger feet, a pig's mouth and teeth and an 18-foot tail. | The Book of Gods and Strange Things records Taowu as a monster with a human face, a tiger's feet, a pig's mouth and teeth, and a tail 18 feet long. |
 
 
 ## yaoguai — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -442,14 +455,19 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | yaoguai-c02 | exact | en.wikipedia.org | The category is associated with transformation and enchantment. | Yaoguai (Chinese: 妖怪; pinyin: yāoguài) represent a broad and diverse class of ambiguous creatures in Chinese folklore and mythology defined by the possession of supernatural powers and by having attributes that partake of the quality of the weird, the strange or the unnatural. They are especially associated with transformation and enchantment. |
 | yaoguai-c03 | exact | en.wikipedia.org | Abilities vary by being and may include illusions, hypnosis, or causing disease. | Yaoguai vary considerably from one another in appearance and powers, and depending on the particular individual or type, as being capable of shapeshifting, creating illusions, hypnosis, controlling minds, causing disease, clairvoyance, and draining the life force of mortals. |
 | yaoguai-c04 | exact | en.wikipedia.org | Tales generally regard yaoguai as dangerous and capable of harmful influence on people. | While yaoguai are not evil in the sense Western demons are, they are usually weird and dangerous, tending to exert a baleful influence on mankind. |
+| yaoguai-c05 | exact | en.wikipedia.org | According to the article, yaoguai often dwell in remote areas or on the fringes of civilization where they produce all manner of unexplainable phenomena and mischief, and they often have predatory or malevolent tendencies. | They often dwell in remote areas or on the fringes of civilization where they produce all manner of unexplainable phenomena and mischief. They often have predatory or malevolent tendencies. |
+| yaoguai-c06 | exact | en.wikipedia.org | Possession of supernatural power defines the yaoguai and distinguishes them from other monsters; typical powers ascribed to them include shapeshifting, creating illusions, mind control, clairvoyance, possession of human beings, and control over natural forces. | Possession of supernatural power defines the yaoguai, distinguishing them from other monsters. Descriptions of the abilities of these beings vary considerably. Typical powers ascribed to them include shapeshifting, the manufacture of illusions, mind control, clairvoyance, the possession of human beings, and the control over natural forces. |
+| yaoguai-c07 | exact | en.wikipedia.org | The article gives examples: Baigujing, a "white skeleton essence", is described as an adept shapeshifter taking on the forms of several people to deceive her opponents, while Bai Suzhen, a white snake fairy, unleashes a supernatural flood against a temple. | Baigujing, a white skeleton essence, is described as an adept shapeshifter, taking on the forms of multiple people in an attempt to deceive her opponents. Others are capable of control over elemental forces, as when Bai Suzhen, a white snake fairy unleashes a supernatural flood against a temple. |
+| yaoguai-c08 | exact | en.wikipedia.org | According to the article, the classic text Zuo Zhuan states that when people abandon constancy, this causes the yao to emerge. | According to the classic text Zuo Zhuan, "when people abandon constancy then this causes the yao to emerge" |
+| yaoguai-c09 | exact | en.wikipedia.org | According to the article, in more superstitious times confusion, strange and unexplainable disease, eerie sights and sounds, and unexplained murders and missing persons were attributed to yaoguai. | In more superstitious times, confusion and bewilderment, strange and unexplainable disease, eerie sights and strange sounds, and cases of unexplained murders and missing persons were attributed to them |
+| yaoguai-c10 | exact | en.wiktionary.org | According to Wiktionary, the Chinese concept 妖怪 (yāoguài) does not map directly to any specific English term and is often translated as "monster" or "demon". | The Chinese concept of 妖怪 (yāoguài) does not map directly to any specific English term and it's often translated as “monster” or “demon”. |
+| yaoguai-c11 | exact | en.wiktionary.org | Wiktionary defines 妖怪 (usually in Chinese mythology) as a supernatural being, monster, demon, strange apparition or spirit. | 妖怪 (usually in Chinese mythology) supernatural being; monster; demon; strange apparition; spirit; |
+| yaoguai-c12 | exact | en.wiktionary.org | Wiktionary cites a sentence from the Book of Han (Ban Gu, volume 89, 111 CE): after a long time there were frequent apparitions (妖怪) in the palace; the king asked Sui about it, and Sui believed great sorrow would follow. | 111 CE, Ban Gu, Book of Han (volume 89) 久之，宮中數有妖怪，王以問遂，遂以為有大憂，宮室將空。 |
 
 
 ## yu-shi — lulus-otomatis
 
-Klaim 5 (loose 2, exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (loose 2, exact 8), sumber 5, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -458,14 +476,16 @@ Klaim 5 (loose 2, exact 3), sumber 1, gambar 0.
 | yu-shi-c03 | loose | en.wikipedia.org | One version says Chisongzi ends a drought by sprinkling water from a bowl. | According to certain versions, a certain Chisongzi (Chinese: 赤松子; pinyin: Chì-Sōng-Zǐ; Wade–Giles: Ch'ih-sung-tzu; lit. 'Master Red Pine') during the reign of Shennong ended a severe drought by sprinkling water from an earthen bowl and was rewarded by being made the Lord of Rain with a dwelling on the mythical Kunlun Mountain. |
 | yu-shi-c04 | exact | en.wikipedia.org | Another portrayal gives him the form of a silkworm chrysalis. | In another form, Chi Songzi is depicted as a chrysalis of a silkworm who has a concubine whose face is black, holds a snake in each hand, and has a red snake coming out of one ear and a green snake coming out of the other. |
 | yu-shi-c05 | exact | en.wikipedia.org | Yu Shi assists Chiyou at Zhuolu before defeat by the drought goddess Ba. | Yu Shi (together with Feng Bo) is said to have aided Chiyou in his struggle against the Yellow Emperor during the Battle of Zhuolu, but was defeated by the intervention of the drought goddess Ba. |
+| yu-shi-c06 | exact | zh.wikisource.org | The Shanhaijing text mentions the country of Yushiqie (雨師妾), whose people are dark-skinned, hold a snake in each hand, and have a green snake at the left ear and a red snake at the right ear. | 雨師妾國一作「雨師妾」在其北，其為人黑，兩手各操一蛇，左耳有青蛇，右耳有赤蛇。 |
+| yu-shi-c07 | exact | zh.wikisource.org | The Zhouli text says burning offerings (槱燎) are used to worship Sizhong, Siming, Fengshi (Master of Wind) and Yushi (雨師, Master of Rain). | 以禋祀祀昊天上帝，以實柴祀日月星辰，以槱燎祀司中、司命、風師、雨師。 |
+| yu-shi-c08 | exact | zh.wikisource.org | The Shanhaijing text says Chiyou attacked the Yellow Emperor, Yinglong held back water, and Chiyou then summoned Fengbo and Yushi (風伯雨師), who unleashed a great wind and rain. | 蚩尤作兵伐黄帝，黄帝乃令應龍攻之冀州之野。應龍畜水。蚩尤請風伯雨師，縱大風雨。 |
+| yu-shi-c09 | exact | zh.wikisource.org | The Yuanyou poem in the Chuci places Yushi (雨師) at the left as an attendant and Leigong (雷公) at the right as a guard. | 後文昌使掌行兮，選署衆神以並轂。路曼曼其脩遠兮，徐弭節而高厲。左雨師使徑侍兮，右雷公以爲衛。 |
+| yu-shi-c10 | exact | en.wikipedia.org | According to the article, Yu Shi is worshiped by Han Chinese, Maonan people and others in modern southwest China as an important rain god, with ritual prayer ceremonies to entreat for rain. | Yu Shi is worshiped by Han Chinese, Maonan people, and other people in modern southwest China as an important rain god with ritual prayer ceremonies performed to entreat for rain. |
 
 
 ## zhulong-mythology — lulus-otomatis
 
-Klaim 6 (exact 6), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 10 (exact 10), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -475,6 +495,10 @@ Klaim 6 (exact 6), sumber 1, gambar 0.
 | zhulong-mythology-c04 | exact | en.wikipedia.org | The Chu Ci contains name variants Chuolong and Zhuolong. | In the Chu Ci, Zhulong is also rendered as Chuolong, which can variously mean "Distant" or "Quarrelsome Dragon", and as Zhuolong, variously "Outstanding" or "Departed Dragon". According to present reconstructions, these variant characters 逴 (now chuò) and 趠 (now zhuó) sounded closer to the pronunciation of 燭 in old Chinese, although not homophonous. |
 | zhulong-mythology-c05 | exact | en.wikipedia.org | The names Zhuyin and Zhulong occur in Han-period classical texts. | The names "Zhuyin" and "Zhulong" appear in classic Chinese texts from the Han (3rd century BCE – 3rd century CE) that record the myths of the Zhou (12th–3rd century BCE). |
 | zhulong-mythology-c06 | exact | en.wikipedia.org | The Shanhaijing gives parallel accounts of Zhuyin and Zhulong. | The Classic of Mountains and Seas (c. 3rd century BCE - 1st century CE) records parallel myths about Zhuyin and Zhulong. |
+| zhulong-mythology-c07 | exact | zh.wikisource.org | The Shanhaijing text names the god of Mount Zhong (鍾山) as Zhuyin (燭陰): when he looks it is day, when he closes his eyes it is night, his blowing makes winter and his exhaling makes summer; he does not drink, eat or breathe (rest), his breath becomes wind, and his body is a thousand li long. | 鍾山之神名曰燭陰，視為晝，瞑為夜，吹為冬，呼為夏，不飲，不食，不息，息為風，身長千里。 |
+| zhulong-mythology-c08 | exact | zh.wikisource.org | The same text describes the god of Mount Zhong named Zhuyin (燭陰) as having a human face and a snake body, red in colour, and dwelling at the foot of Mount Zhong. | 鍾山之神名曰燭陰 ... 其為物，人面，蛇身，赤色，居鍾山下。 |
+| zhulong-mythology-c09 | exact | zh.wikisource.org | The Shanhaijing text for the northern wilds describes a red god with a human face and snake body and straight eyes; when he shuts his eyes it is dark and when he looks it is light; he does not eat, sleep or breathe (rest), and he summons wind and rain; he is Zhu Jiuyin (燭九陰), called Zhulong (燭龍). | 有神，人面蛇身而赤，直目正乘，其暝乃晦，其視乃明，不食不寢不息，風雨是謁。是燭九陰，是謂燭龍。 |
+| zhulong-mythology-c10 | exact | zh.wikisource.org | The Huainanzi text says Zhulong (燭龍) is north of Yanmen, hidden by Mount Weiyu so that it does not see the sun; its god has a human face and a dragon body and no feet. | 少室、太室在冀州。燭龍在雁門北，蔽於委羽之山，不見日，其神人面龍身而無足。 |
 
 
 ## zouyu — lulus-otomatis
@@ -496,10 +520,7 @@ Klaim 9 (loose 1, exact 8), sumber 2, gambar 0.
 
 ## egg-ghost — lulus-otomatis
 
-Klaim 4 (loose 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (loose 4, exact 3), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -507,14 +528,14 @@ Klaim 4 (loose 4), sumber 1, gambar 0.
 | egg-ghost-c02 | loose | en.wikipedia.org | Its portrayal lacks arms, legs, head, eyes, nose, and mouth. | Egg ghost refers to dalgyal gwisin (Korean: 달걀귀신), a type of Korean ghost. Its name comes from its resemblance to an egg. It does not have arms, legs, nor a head, not even eyes, nose, or mouth. Legend says that when a person sees an egg ghost, they will die. Its origin and personality are not significant. |
 | egg-ghost-c03 | loose | en.wikipedia.org | The legend says that a person who sees it will die. | Egg ghost refers to dalgyal gwisin (Korean: 달걀귀신), a type of Korean ghost. Its name comes from its resemblance to an egg. It does not have arms, legs, nor a head, not even eyes, nose, or mouth. Legend says that when a person sees an egg ghost, they will die. Its origin and personality are not significant. |
 | egg-ghost-c04 | loose | en.wikipedia.org | Some scholars connect it with childless ghosts lacking descendants to perform ancestor rites. | Some scholars interpret that egg ghosts are a kind of mujagui (Korean: 무자귀, hanja: 無子鬼) (literally, a "childless ghost"), which have no descendants or relatives to hold an ancestor memorial service for them. |
+| egg-ghost-c05 | exact | krdict.korean.go.kr | The Basic Korean Dictionary defines 달걀귀신 (egg ghost) as an egg-like ghost with no eyes, nose, and mouth. | 달걀귀신 ... Noun egg ghost 눈, 코, 입이 없는 달걀 모양의 귀신. An egg-like ghost with no eyes, nose, and mouth. |
+| egg-ghost-c06 | exact | en.wikipedia.org | According to the article, its origin and personality are not significant, and rumor has it that some egg ghosts' personalities do not stay incorruptible as time goes by. | Its origin and personality are not significant. Rumor has it that some of egg ghosts' personalities are not incorruptible as time goes by. |
+| egg-ghost-c07 | exact | en.wikipedia.org | According to the article, there is a rumor that egg ghosts change into an egg, hide themselves, and come out when they want. | Or that egg ghosts change to an egg, hide themselves, and come out when they want. |
 
 
 ## fuzanglong — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -522,20 +543,24 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | fuzanglong-c02 | exact | en.wikipedia.org | The guarded treasures may be natural or human-made. | In Chinese mythology, the Fuzanglong (simplified Chinese: 伏藏龙; traditional Chinese: 伏藏龍; pinyin: Fúzánglóng; Wade–Giles: Fu-ts'ang-Lung) is the Chinese dragon of hidden treasures and an underworld dragon which guards buried treasure, both natural and man-made. Volcanoes are said to form when these dragons burst out of the ground to report to heaven. |
 | fuzanglong-c03 | exact | en.wikipedia.org | One tale explains volcanoes as dragons breaking through the ground to report to heaven. | In Chinese mythology, the Fuzanglong (simplified Chinese: 伏藏龙; traditional Chinese: 伏藏龍; pinyin: Fúzánglóng; Wade–Giles: Fu-ts'ang-Lung) is the Chinese dragon of hidden treasures and an underworld dragon which guards buried treasure, both natural and man-made. Volcanoes are said to form when these dragons burst out of the ground to report to heaven. |
 | fuzanglong-c04 | exact | en.wikipedia.org | A magical pearl is described as its most treasured possession. | The Fuzanglong possesses a magic pearl which is its most treasured possession. |
+| fuzanglong-c05 | exact | en.wikipedia.org | According to the article, several tiles and light reliefs depict Fuzanglong dragons serving as mounts to Immortals. | Several tiles and light reliefs depict Fuzanglong dragons serving as mounts to Immortals. |
+| fuzanglong-c06 | exact | zh.wikisource.org | The Fanyi Mingyi Ji text quotes a commentary saying dragons are of four kinds: guardians of heavenly palaces, bringers of clouds and rain who benefit people, earth dragons who open rivers and channels, and fuzang (伏藏) dragons who guard the treasures of the wheel-turning king (cakravartin) and of people of great fortune. | 别行䟽云龍有四種一守天宫殿持令不落人間屋上作龍像之爾二興雲致雨〉 〈益人間者三地龍決江開瀆四伏藏守轉輪王大福人藏也龍有四生俱舎云𡖉生金翅鳥能食四生龍〉 〈罵意經云 |
+| fuzanglong-c07 | exact | zh.wikisource.org | This Buddhist dictionary defines 伏藏 (fuzang) as a treasure buried in the earth (in a figurative sense). | 【伏藏】 （譬喻）埋伏於土中之寶藏也。貧女家中有伏藏，貧女不知之，智者教之發掘 |
 
 
 ## giant-anaconda — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | giant-anaconda-c01 | exact | zh.wikipedia.org | Giant anaconda is a great serpent in Amazon forest tales, said to exceed ordinary anacondas. | 巨森蚺（英文：Giant anaconda）是傳說出現於亞馬遜雨林，比一般的森蚺還要巨大的蛇類。傳說最长可达十米，是当今世界上最大的蛇。 |
 | giant-anaconda-c02 | exact | zh.wikipedia.org | The account mentions a length up to ten meters as a legendary report. | 巨森蚺（英文：Giant anaconda）是傳說出現於亞馬遜雨林，比一般的森蚺還要巨大的蛇類。傳說最长可达十米，是当今世界上最大的蛇。 |
 | giant-anaconda-c03 | exact | zh.wikipedia.org | Proposed explanations include unusually large anacondas or surviving prehistoric serpents. | 巨森蚺很有可能是發育過長的森蚺，但也有人認為很有可能是史前時代殘留的巨型蛇類。 參見 |
+| giant-anaconda-c04 | exact | en.wikipedia.org | According to the article, the longest and heaviest verified specimen, encountered by Jesús Antonio Rivas who had examined more than 900 anacondas, was a female 5.21 m long weighing 97.5 kg. | The longest and heaviest verified specimen encountered by Jesús Antonio Rivas, who had examined more than 900 anacondas, was a female 5.21 m (17 ft 1 in) long and weighing 97.5 kg (214 lb 15 oz). |
+| giant-anaconda-c05 | exact | en.wikipedia.org | According to the article, during an expedition in 1907 Percy Fawcett claimed to have seen and shot a 62-foot (19 m) giant anaconda, a claim for which scientists ridiculed him. | While on the expedition, in 1907, he claimed to have seen and shot a 62-foot (19 m) long giant anaconda, a claim for which he was ridiculed by scientists. |
+| giant-anaconda-c06 | exact | en.wikipedia.org | According to the article, reports of anacondas 11-12 m (35-40 ft) or longer exist, but such claims must be regarded with caution because no specimens of such lengths have been deposited in a museum and hard evidence is lacking. | Reports of anacondas 11–12 m (35–40 ft) or even longer also exist, but such claims must be regarded with caution, as no specimens of such lengths have ever been deposited in a museum and hard evidence is lacking. |
+| giant-anaconda-c07 | exact | content.time.com | A TIME list describes the giant anaconda as the most lethal terror reputed to lurk in the Amazon rain forest: a lightning-quick snake more than 30 ft (9 m) long, capable of capsizing and crushing wooden boats. | the most lethal terror reputed to be lurking in these parts is the giant anaconda, a lightning-quick snake more than 30 ft. (9 m) long, capable of capsizing and crushing wooden boats floating down the Amazon. |
 
 
 ## luo-shen — lulus-otomatis
