@@ -1,6 +1,6 @@
 # Review batch-151
 
-Diperiksa 2026-10-06T19:12:09.295Z. Berkas: batch-151.md, batch-151-fix-1.md, batch-151-fix-2.md, batch-151-fix-3.md.
+Diperiksa 2026-10-06T19:30:00.844Z. Berkas: batch-151.md, batch-151-fix-1.md, batch-151-fix-2.md, batch-151-fix-3.md, batch-151-fix-4.md.
 
 ## maero — lulus-otomatis
 
@@ -166,10 +166,10 @@ Klaim 7 (exact 7), sumber 2, gambar 0.
 
 ## akurra — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[2]` Tidak muncul di kutipan mana pun: Parks. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -178,14 +178,14 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | akurra-c03 | exact | en.wikipedia.org | Akurra is associated with the power of the shaman, and nobody else may go near him with impunity. | Akurra is associated with the power of the shaman, and nobody else may go near him with impunity. |
 | akurra-c04 | exact | en.wikipedia.org | Akurra is also connected with water and rain. | Akurra is also connected with water and rain. |
 | akurra-c05 | exact | en.wikipedia.org | During severe drought shamans visited Akurra's cave and heated his kidney fat over coals to bring rain. | According to one Adnyamathanha story, at times of severe drought the shamans would travel to the cave in which Akurra lived, draw the entire snake out and take his kidney fat, which they heated over a fire, allowing the melted fat to fall over the heated coals. |
+| akurra-c06 | exact | www.parks.sa.gov.au | According to the Yura Muda, powerful Creation serpents known as Akurra created many features of the Flinders Ranges landscape. | According to the Yura Muda, powerful Creation serpents known as Akurra created many features of the Flinders Ranges landscape. |
+| akurra-c07 | exact | www.parks.sa.gov.au | The bodies of two Akurra form the walls of Ikara-Wilpena Pound. | The bodies of two Akurra form the walls of Ikara-Wilpena Pound. |
+| akurra-c08 | exact | www.parks.sa.gov.au | Akurra Adnya (Arkaroo Rock) is a significant Adnyamathanha painting site that depicts aspects of the Yura Muda (stories). | Akurra Adnya (Arkaroo Rock) is a significant Adnyamathanha painting site that depicts aspects of the Yura Muda (stories) |
 
 
 ## canterbury-panther — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -193,14 +193,19 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | canterbury-panther-c02 | exact | en.wikipedia.org | Sightings of the animal go back to before the 1970s. | Sightings of the animal go back to before the 1970s. |
 | canterbury-panther-c03 | exact | en.wikipedia.org | The Canterbury Panther made headlines in July 1977 when Frances Clark alleged seeing a tiger outside her home. | The Canterbury Panther first made headlines in July 1977, when Kaiapoi resident Frances Clark alleged that she had seen a tiger outside her home. |
 | canterbury-panther-c04 | exact | en.wikipedia.org | The most common explanation attributes sightings to mistaken identity of large feral black cats. | The most common explanation for sightings of the Canterbury Panther are attributed to the mistaken identity of unusually large, feral cats with black fur. |
+| canterbury-panther-c05 | exact | thespinoff.co.nz | Clark was initially discredited until sizeable paw prints and large droppings were found on a nearby beach in the following days; a military grade search was launched across land and sky, but no giant cat was found. | Clark was initially discredited, until sizeable paw prints and large droppings were found on a nearby beach in the days following. A military grade search was launched across land and sky, but no giant cat was found. |
+| canterbury-panther-c06 | exact | thespinoff.co.nz | Things remained relatively quiet until the late 90s, when a woman spotted a black cat "the size of a Labrador" in 1996 and a sighting of a black panther was reported in Mackenzie Country in 1999. | Things remained relatively quiet until the late 90s, when a woman spotted a black cat "the size of a Labrador" in 1996, and another sighting of a black panther was reported in Mackenzie Country in 1999. |
+| canterbury-panther-c07 | exact | thespinoff.co.nz | The panther became the perfect addition to Timpson's family adventure film Bookworm. | That sense of wonder is why the panther became the perfect addition to Timpson's family adventure film Bookworm |
+| canterbury-panther-c08 | exact | articles.skeptics.nz | According to the NZ Skeptics author, despite decades of sightings no one has provided verifiable proof: no carcasses, no clear photographs or videos, and very little physical trace evidence, like paw prints, that could be definitively linked to a panther. | Despite decades of sightings, no one has ever provided verifiable proof-no carcasses, no clear photographs or videos, and very little in the way of physical trace evidence, like paw prints that could be definitively linked to a panther. |
+| canterbury-panther-c09 | exact | articles.skeptics.nz | Skeptical analysis of the sightings suggests that the mysterious panther may be nothing more than a combination of mis-identifications, myth-making and the power of suggestion. | Skeptical analysis of these sightings suggests that the mysterious panther may be nothing more than a combination of mis-identifications, myth-making, and the power of suggestion. |
 
 
 ## faumea — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[0]` Tidak muncul di kutipan mana pun: Prancis. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -208,14 +213,18 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | faumea-c02 | exact | en.wikipedia.org | The sea god Tangaroa encounters her when he sails to her island. | The sea god Tangaroa encounters her when he sails to her island. |
 | faumea-c03 | exact | en.wikipedia.org | Faumea bears Tangaroa two sons: Tu-Nui-Ka-Rere and Turi-A-Faumea. | Faumea bears Tangaroa two sons: Tu-Nui-Ka-Rere (also called Rata-Nui) and Turi-A-Faumea. |
 | faumea-c04 | exact | en.wikipedia.org | Turi-A-Faumea's wife Hina-Arau-Riki is kidnapped by the octopus-demon Rogo-Tumu-Here. | Later, Turi-A-Faumea's wife Hina-Arau-Riki is kidnapped by the octopus-demon Rogo-Tumu-Here. |
+| faumea-c05 | exact | archive.org | In Beckwith's account, Tagaroa sails to the land of Faumea; Faumea is a woman who has eels in her body which kill men, but she teaches Tagaroa how to entice them outside. | Tagaroa sails to the land of Faumea. Faumea is a woman who has eels in her vagina which kill men, but she teaches Tagaroa how to entice them outside. |
+| faumea-c06 | exact | archive.org | Faumea withdraws the wind into the sweat of her armpit and Tagaroa utters a chant for its release; Tagaroa bids Faumea catch the girdle of Tu-nui-ka-rere, who slips away into the sky and is lost to her. | Faumea withdraws the wind into the sweat of her armpit and Tagaroa utters a chant for its release. He bids Faumea catch the girdle of Tu-nui-ka-rere, who slips away into the sky and is lost to her. |
+| faumea-c07 | exact | archive.org | In Beckwith's discussion of Haumea, Haumea in Tahiti is the ogress Nona, ancestress of the Tafa'i group, and Faumea in Vahitahi of the Tuamotus is an eel-woman. | In Tahiti, Haumea is the ogress Nona, ancestress of the Tafa'i group. ... In Vahitahi of the Tuamotus, Faumea is an eel-woman |
+| faumea-c08 | exact | archive.org | According to Beckwith, Stimson tells the story from Anaa in the Tuamotus of Gana, Huri-te-papa and the princess Faumea, in which Gana is the suitor of Faumea in Tahiti-nui but Huri-te-papa wins her by his dancing. | Stimson tells the story from Anaa in the Tuamotus of Gana, Huri-te-papa, and the princess Faumea, where Gana is the suitor of Faumea in Tahiti-nui, but Huri-te-papa wins her by his dancing. |
 
 
 ## hakawai-mythology — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
+Klaim 13 (exact 13), sumber 3, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[0]` Tidak muncul di kutipan mana pun: Utara. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -224,14 +233,24 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | hakawai-mythology-c03 | exact | en.wikipedia.org | Hearing the Hakawai was considered a bad omen traditionally presaging war. | Hearing the Hakawai was considered to be a bad omen, traditionally presaging war. |
 | hakawai-mythology-c04 | exact | en.wikipedia.org | It was considered a gigantic bird of prey described by a Ngāti Apa chief. | It was considered to be a gigantic bird of prey and was described (as the Hōkioi) by a Ngāti Apa chief, to the Governor of New Zealand Sir George Grey |
 | hakawai-mythology-c05 | exact | en.wikipedia.org | The sound of Hakawai had two components: a vocal call hakwai followed by a high-speed non-vocal roar. | There the sound ascribed to the Hakawai was described as having two main components, the first part being vocal, a call rendered as hakwai, hakwai, hakwai, followed by a non-vocal roar as of an object travelling through the air at high speed. |
+| hakawai-mythology-c06 | exact | www.birdsnz.org.nz | The hakawai was one of the 11 tapu (sacred) birds of Rakamaomao (the wind) and was said to have been a descendant of Tangaroa (god of the ocean) and Rehua (the star Antares, guardian of the uppermost heaven). | The hakawai was one of the 11 tapu (sacred) birds of Rakamaomao (the wind) and was said to have been a descendant of Tangaroa (god of the ocean) and Rehua (the star Antares, guardian of the uppermost heaven) |
+| hakawai-mythology-c07 | exact | www.birdsnz.org.nz | In Maori legends and proverbs, the hakawai was a mythical bird dwelling afar in celestial space and only descending to earth at night. | In Maori legends and proverbs, the hakawai was a mythical bird dwelling afar in celestial space and only descending to earth at night. |
+| hakawai-mythology-c08 | exact | www.birdsnz.org.nz | A proverb quoted in the source likens a bird to the Hakawai, which makes itself invisible. | (that bird is like the Hakawai, it makes itself invisible) |
+| hakawai-mythology-c09 | exact | www.birdsnz.org.nz | The most widely quoted legend about hokioi refers to a competition between hokioi and kahu (the hawk) to see who could fly the highest; the story explains why hokioi descends only at night and why he calls out his name. | The most widely quoted legend about hokioi refers to a competition between hokioi and kahu (the hawk) to see who could fly the highest. This story explains why hokioi descends only at night and why he calls out his name. |
+| hakawai-mythology-c10 | exact | www.birdsnz.org.nz | The call of the hakawai was heard on calm moonlit nights and came from a great height. | The call was heard on calm moonlit nights and came from a great height. |
+| hakawai-mythology-c11 | exact | www.birdsnz.org.nz | Miskelly's data support the hypothesis that the hakawai was a snipe. | These data support the hakawai = snipe hypothesis. |
+| hakawai-mythology-c12 | exact | archive.org | Tregear's dictionary lists hokioi as the name of an extinct or mythical bird; the Natives say it was a huge bird of prey, large as the moa, with many-coloured feathers and a bunch of red feathers on its head. | HOKIOI {hokioi), the name of an extinct or mythical bird ... The Natives say that it was (like the Arabian Roc) a huge bird of prey, large as the moa (Dinornis) ; also that it had many-coloured feathers, and a bunch of red feathers on its head. |
+| hakawai-mythology-c13 | exact | archive.org | According to Tregear, Sir W. Buller considers the Hokioi to be identical with the Great Frigate Bird (Fregata aquila). | Sir W. Buller considers the Hokioi to be iden- tical with the Great Frigate Bird (Fregata aquila). |
 
 
 ## hoop-snake — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 1, gambar 0.
+Klaim 8 (exact 8), sumber 3, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `short_description` Tidak muncul di kutipan mana pun: Amerika, Serikat, Kanada. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `long_description[0]` Tidak muncul di kutipan mana pun: Amerika, Serikat, Kanada, Yunani. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `story_mode.origin` Tidak muncul di kutipan mana pun: Amerika, Serikat, Kanada. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -239,14 +258,18 @@ Klaim 4 (exact 4), sumber 1, gambar 0.
 | hoop-snake-c02 | exact | en.wikipedia.org | A hoop snake grasps its tail in its jaws and rolls after prey like a wheel. | According to folklore, the distinguishing feature of a hoop snake is that it can grasp its tail in its jaws, like the ouroboros of Greek mythology, and roll after its prey like a wheel. |
 | hoop-snake-c03 | exact | en.wikipedia.org | The snake straightens out at the last second, skewering its victim with a venomous tail. | In one version of the myth, the snake straightens out at the last second, skewering its victim with its venomous tail. |
 | hoop-snake-c04 | exact | en.wikipedia.org | An Australian rendition describes a circular snake with elongated spines along the inner lining. | An Australian rendition of the myth describes a circular-shaped snake roughly the size of a steering wheel with a set of elongated spines evenly spaced along the inner lining of its circular-shaped body. |
+| hoop-snake-c05 | exact | www.straightdope.com | The "hoop snake" tale, as quoted from a herpetology book, is usually applied to the mud snake (Farancia abacura) and the rainbow snake (Farancia erytrogramma); supposedly the snake takes its tail into its mouth, forms a hoop and rolls after the nearest human, then tries to "sting" with its tail; if it jabs a tree instead, the plant immediately wilts and dies. | The 'hoop snake' tale is usually applied to the mud snake [Farancia abacura] and to the rainbow snake [Farancia erytrogramma]. Supposedly, the snake takes its tail into its mouth, forms a hoop, and rolls after the nearest human. It then tries to 'sting' the person with its tail. Should the snake jab a tree instead, the poor plant immediately wilts and dies. |
+| hoop-snake-c06 | exact | www.straightdope.com | According to the column, a hoop/mud snake cannot sting with its tail, but it has a hard spine there that can draw blood when thrashed vigorously. | While a hoop/mud snake cannot sting with its tail, it does have a hard spine back there that can draw blood when thrashed vigorously. |
+| hoop-snake-c07 | exact | wgpfoundation.org | A historical marker inscription states that for generations local legend tells of an enormous snake that grasped its tail in its mouth and rolled down this hill toward its victims. | FOR GENERATIONS, LOCAL LEGEND TELLS OF AN ENORMOUS SNAKE THAT GRASPED ITS TAIL IN ITS MOUTH AND ROLLED DOWN THIS HILL TOWARD ITS VICTIMS. |
+| hoop-snake-c08 | exact | wgpfoundation.org | According to the marker description, the hoop snake rolls toward its victims and at the final moment straightens out its body and lashes out with its spiked tail. | The hoop snake rolls toward its victims, and at the final moment straightens out its body and lashes out with its spiked tail. |
 
 
 ## ipilja-ipilja — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[2]` Tidak muncul di kutipan mana pun: Mythica. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -255,14 +278,13 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | ipilja-ipilja-c03 | exact | en.wikipedia.org | The gecko is about a hundred feet long, highly colored, with long hair and whiskers. | The geckos are all "highly colored," with the ipilja-ipilja being about a hundred feet long and adorned with long hair and whiskers. |
 | ipilja-ipilja-c04 | exact | en.wikipedia.org | At the start of the monsoon season, he eats grass, drinks swamp water, and spews it into the sky. | At the beginning of the monsoon season, the ipilja-ipilja eats the grasses on the edge of the swamp and drinks a large quantity of the swamp water. He then spews the mixture into the sky. |
 | ipilja-ipilja-c05 | exact | en.wikipedia.org | The water becomes clouds bound by grass, and his roar becomes thunder. | The water turns into clouds, and the grass binds the clouds together. The ipilja-ipilja, pleased with his efforts, lets out a roar that becomes thunder. |
+| ipilja-ipilja-c06 | exact | pantheon.org | On Groote Eylandt, northeastern Australia, the ipilja-ipilja is the colorful gecko who replaces the Rainbow Serpent. | On Groote Eylandt, northeastern Australia, the colorful gecko who replaces the Rainbow Serpent. |
+| ipilja-ipilja-c07 | exact | pantheon.org | Ipilja-ipilja creates storms, thunder and the monsoon rains. | Ipilja-ipilja creates storms, thunder, and the monsoon rains. |
 
 
 ## kaupe — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -271,14 +293,15 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | kaupe-c03 | exact | en.wikipedia.org | Kaupe appears as an enormous man with a canine head and sharp claws. | According to mythology, Kaupe appears as an enormous man with a canine head and sharp claws. |
 | kaupe-c04 | exact | en.wikipedia.org | Though from Nuuanu Valley, he is often encountered under Kipapa Bridge. | Though he is said to originally be from Nuuanu Valley, he is more often encountered under Kipapa Bridge. |
 | kaupe-c05 | exact | en.wikipedia.org | Kaupe is considered a calling ghost because he mimics the sound of wounded or dying people to lure victims. | Kaupe is often considered a "calling ghost" because he calls to his victims rather than searching them out or coming across them by coincidence. His technique is to mimic the sound of numerous wounded or dying people. |
+| kaupe-c06 | exact | archive.org | Among dog-men represented as overthrowing the chief of a district and terrorizing the country, the most famous is the cannibal dog-man Kaupe, who overthrew the government of Ka-hanai-a-ke-akua and ruled the land from Nu'uanu to the sea. | Among dog-men represented as overthrowing the chief of a district and terrorizing the country, the most famous is the cannibal dog-man Kaupe who overthrew the government of Ka-hanai-a-ke-akua (Reared by the gods) and ruled the land from Nu'uanu to the sea. |
+| kaupe-c07 | exact | archive.org | Kaupe lives at Lihue on Oahu; he never attacks a high chief but eats some of the people both of Oahu and Maui, then crosses over to Hawaii and brings back a chief's son to sacrifice in the heiau at Lihue. | Kaupe lives at Lihue on Oahu. He never attacks a high chief but eats some of the people both of Oahu and Maui. At last he crosses over to Hawaii and brings back a chief's son to sacrifice in the heiau at Lihue. |
+| kaupe-c08 | exact | archive.org | The prayer unfastens the boy's fetters, and father and son flee and hide under a rock at Moanalua while Kaupe goes on to look for them on Hawaii; the father learns the prayer for killing an enemy and overcomes Kaupe on Hawaii. | The prayer unfastens the boy's fetters and father and son flee and hide under a rock at Moanalua while Kaupe goes on to look for them on Hawaii. The father learns the prayer for killing an enemy, and overcomes Kaupe on Hawaii. |
+| kaupe-c09 | exact | archive.org | As a ghost god resting in the clouds stretched over the mountaintops of the Koolau range on Oahu, Kaupe's spirit body is today confused with legends of a dog-like creature called Poki, spotted or brindled in color and very long in body, who guards a certain section outside Honolulu. | As a ghost god resting in the clouds stretched over the mountaintops of the Koolau range on Oahu, Kaupe's spirit body is today confused with legends of a dog-like creature called Poki, spotted or brindled in color and very long in body, who guards a certain section outside Honolulu |
 
 
 ## kurangaituku — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 11 (exact 11), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -287,6 +310,12 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | kurangaituku-c03 | exact | en.wikipedia.org | Hatupatu destroyed her pet lizards and birds and stole her treasured korowai feather cloaks. | One day while Kurangaituku is out hunting, Hatupatu uses her taiaha (traditional weapon) to destroy her pet lizards and birds and steals her treasured korowai (feather cloaks). |
 | kurangaituku-c04 | exact | en.wikipedia.org | At Whakarewarewa, Kurangaituku went through boiling mud pools and was burned to death. | When Hatupatu reaches Whakarewarewa, he is able to dodge around the boiling mud pools; Kurangaituku goes through them and is burned to death. |
 | kurangaituku-c05 | exact | en.wikipedia.org | Kurangaituku is also sometimes known as Hine-ingoingo. | Kurangaituku is also sometimes known as Hine-ingoingo. |
+| kurangaituku-c06 | exact | archive.org | Tregear's dictionary lists Kurangaituku as an Ogress who had wings on her arms, could spear birds with her lips and lived on raw food. | KURANGAITUKU (myth.), an Ogress who had wings on her arms, could spear birds with her lips, and lived on raw food. |
+| kurangaituku-c07 | exact | archive.org | She found the youth Hatupatu and took him to her home; he disliked the uncooked food and induced the fairy to go farther and farther away each day hunting while he stayed at home cooking for himself. | She found the youth, Hatupatu, and took him to her home. He disliked the uncooked food, and induced the fairy to go farther and farther away each day hunting, while he stayed at home, cooking for himself |
+| kurangaituku-c08 | exact | archive.org | A bird went and told Kurangaituku, who flew after her truant. | A bird went and told Kurangaituku, who flew after her truant |
+| kurangaituku-c09 | exact | archive.org | In Grey's collection, she made only three strides before she reached her cave, and when she looked about she could see nothing in it. | She only made three strides before she had reached her cave, and when she looked about, she could see nothing in it |
+| kurangaituku-c10 | exact | archive.org | Hatupatu repeats his charm "O rock open for me, open"; the rock opened and he hid himself in it, and the woman looked and could not find him. | and she almost caught Hatupatu ; and he thought, I'm done for now. ... O rock open for me, open.' Then the rock opened, and he hid himself in it, and the woman looked and could not find him |
+| kurangaituku-c11 | exact | archive.org | A pet bird that escaped flew away to fetch back the woman they all belonged to, whose name was Kurangaituku. | it flew away to fetch back the woman they all belonged to. Her name was Kuran- gaituku. |
 
 
 ## minka-bird — lulus-otomatis
@@ -305,10 +334,13 @@ Klaim 3 (exact 3), sumber 1, gambar 0.
 
 ## muldjewangk — lulus-otomatis
 
-Klaim 5 (exact 5), sumber 1, gambar 0.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
-**manual**
-- `tier` Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+**warn**
+- `long_description[1]` Tidak muncul di kutipan mana pun: Aborigin, South, Australian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `long_description[3]` Tidak muncul di kutipan mana pun: Eropa. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `stories[1].summary` Tidak muncul di kutipan mana pun: Eropa. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks.
+- `long_description[3].en` Ada rangkaian 12 kata yang sama persis dengan sumber ("large clumps of floating seaweed are said to hide muldjewangks and are…"). Tulis ulang dengan kata-kata sendiri.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -317,6 +349,10 @@ Klaim 5 (exact 5), sumber 1, gambar 0.
 | muldjewangk-c03 | exact | en.wikipedia.org | A legend tells of a Muldjewangk attacking a steamboat with two great hands grasping the hull. | One legend tells of a Muldjewangk who attacked a steamboat owned by European settlers. The captain saw two great hands grasping the hull of the boat so he grabbed his gun. |
 | muldjewangk-c04 | exact | en.wikipedia.org | The captain broke out in weeping red blisters over his body and took six months to die. | Soon after, the captain broke out in weeping red blisters over his body, and took six months to die. |
 | muldjewangk-c05 | exact | en.wikipedia.org | Large clumps of floating seaweed are said to hide Muldjewangks and are to be avoided. | Large clumps of floating seaweed are said to hide Muldjewangks and are to be avoided. |
+| muldjewangk-c06 | exact | cdn.environment.sa.gov.au | According to Warki/Ramindjeri Elders, the Lakalinyeri (language groups or clans) grouped together as the Ngarrindjeri people share a story of a water spirit known as the Mulyawonk; Australians may also know this mythical being as a "bunyip". | Warki/ Ramindjeri Elders Nita McAdam and Collin Koolmatrie ... the Lakalinyeri (language groups or clans) that are grouped together as the Ngarrindjeri people share a story of a water spirit known as the Mulyawonk. Australians may also know this mythical being as a "bunyip". |
+| muldjewangk-c07 | exact | cdn.environment.sa.gov.au | The story is about a Ngarrindjeri Ko:ni (man) who was greedy catching more fish than he needed; the Elders were so angry that as a punishment they turned him into the Mulyawonk, a half fish, half man creature, and banished him to the deep water forever. | about a Ngarrindjeri Ko:ni (man) who was greedy catching more fish than he needed. ... The Elders were so angry with this man that as a punishment they turned him into the Mulyawonk - a half fish, half man creature and banished him to the deep water forever. |
+| muldjewangk-c08 | exact | cdn.environment.sa.gov.au | At a later time a child swimming in the water disappeared and the terrified father searched for his child; diving deep he found the Mulyawonk lair and the child, who was rescued and brought safely back to the shore. | However, at a later time a child swimming in the water disappeared and the terrified Father frantically searched for his child. Diving deep under the water he found the Mulyawonk lair and the child, who was rescued and brought safely back to the shore. |
+| muldjewangk-c09 | exact | cdn.environment.sa.gov.au | Ngarrindjeri children are told never to swim alone or to take more fish than they can eat from the rivers and swamps; the story teaches children water safety and respect for the fishes of the rivers, lakes and swamps. | Ngarrindjeri children are told never to swim alone or to take more fish than they can eat from the rivers and swamps. This story teaches children water safety and respect for the fishes of the rivers, lakes and swamps. |
 
 
 ## nanaue — lulus-otomatis

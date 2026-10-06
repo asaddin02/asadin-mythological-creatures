@@ -1,11 +1,12 @@
 {
   "batch_id": "batch-151",
-  "checked_at": "2026-10-06T19:12:09.295Z",
+  "checked_at": "2026-10-06T19:30:00.844Z",
   "files": [
     "batch-151.md",
     "batch-151-fix-1.md",
     "batch-151-fix-2.md",
-    "batch-151-fix-3.md"
+    "batch-151-fix-3.md",
+    "batch-151-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -958,18 +959,19 @@
     },
     {
       "slug": "akurra",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-4.md",
+      "entry_sha256": "0603bd1ce70ebe33958d8381ad534879cd8f2f1d4be1c79bc68c120244ab8b7a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[2]",
+          "message": "Tidak muncul di kutipan mana pun: Parks. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -1022,27 +1024,51 @@
           "quote": "According to one Adnyamathanha story, at times of severe drought the shamans would travel to the cave in which Akurra lived, draw the entire snake out and take his kidney fat, which they heated over a fire, allowing the melted fat to fall over the heated coals.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "akurra-c06",
+          "source_id": "akurra-s2",
+          "host": "www.parks.sa.gov.au",
+          "statement": "According to the Yura Muda, powerful Creation serpents known as Akurra created many features of the Flinders Ranges landscape.",
+          "statement_id": "Menurut Yura Muda, ular pencipta yang perkasa bernama Akurra menciptakan banyak ciri lanskap Flinders Ranges.",
+          "quote": "According to the Yura Muda, powerful Creation serpents known as Akurra created many features of the Flinders Ranges landscape.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akurra-c07",
+          "source_id": "akurra-s2",
+          "host": "www.parks.sa.gov.au",
+          "statement": "The bodies of two Akurra form the walls of Ikara-Wilpena Pound.",
+          "statement_id": "Tubuh dua Akurra membentuk dinding Ikara-Wilpena Pound.",
+          "quote": "The bodies of two Akurra form the walls of Ikara-Wilpena Pound.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "akurra-c08",
+          "source_id": "akurra-s2",
+          "host": "www.parks.sa.gov.au",
+          "statement": "Akurra Adnya (Arkaroo Rock) is a significant Adnyamathanha painting site that depicts aspects of the Yura Muda (stories).",
+          "statement_id": "Akurra Adnya (Arkaroo Rock) adalah situs lukisan Adnyamathanha yang penting dan menggambarkan aspek-aspek Yura Muda (kisah).",
+          "quote": "Akurra Adnya (Arkaroo Rock) is a significant Adnyamathanha painting site that depicts aspects of the Yura Muda (stories)",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e0f2903ae8ae16c6d6391a9ac16459359dd63c8943b22cac29650101ea66e095"
+      "images": []
     },
     {
       "slug": "canterbury-panther",
-      "file": "batch-151-fix-1.md",
+      "file": "batch-151-fix-4.md",
+      "entry_sha256": "005b67cec8f724ced05ba5a9e5217499f94dfb75f408398cdbacc36c6838360c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "canterbury-panther-c01",
@@ -1083,25 +1109,75 @@
           "quote": "The most common explanation for sightings of the Canterbury Panther are attributed to the mistaken identity of unusually large, feral cats with black fur.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "canterbury-panther-c05",
+          "source_id": "canterbury-panther-s2",
+          "host": "thespinoff.co.nz",
+          "statement": "Clark was initially discredited until sizeable paw prints and large droppings were found on a nearby beach in the following days; a military grade search was launched across land and sky, but no giant cat was found.",
+          "statement_id": "Clark mula-mula tidak dipercaya, sampai jejak kaki besar dan kotoran besar ditemukan di pantai terdekat beberapa hari kemudian; pencarian berkelas militer dilancarkan lewat darat dan udara, tetapi tidak ada kucing raksasa yang ditemukan.",
+          "quote": "Clark was initially discredited, until sizeable paw prints and large droppings were found on a nearby beach in the days following. A military grade search was launched across land and sky, but no giant cat was found.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "canterbury-panther-c06",
+          "source_id": "canterbury-panther-s2",
+          "host": "thespinoff.co.nz",
+          "statement": "Things remained relatively quiet until the late 90s, when a woman spotted a black cat \"the size of a Labrador\" in 1996 and a sighting of a black panther was reported in Mackenzie Country in 1999.",
+          "statement_id": "Keadaan relatif tenang sampai akhir 1990-an, ketika seorang perempuan melihat kucing hitam \"sebesar Labrador\" pada 1996 dan penampakan panther hitam dilaporkan di Mackenzie Country pada 1999.",
+          "quote": "Things remained relatively quiet until the late 90s, when a woman spotted a black cat \"the size of a Labrador\" in 1996, and another sighting of a black panther was reported in Mackenzie Country in 1999.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "canterbury-panther-c07",
+          "source_id": "canterbury-panther-s2",
+          "host": "thespinoff.co.nz",
+          "statement": "The panther became the perfect addition to Timpson's family adventure film Bookworm.",
+          "statement_id": "Sang panther menjadi tambahan yang sempurna bagi film petualangan keluarga Timpson, Bookworm.",
+          "quote": "That sense of wonder is why the panther became the perfect addition to Timpson's family adventure film Bookworm",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "canterbury-panther-c08",
+          "source_id": "canterbury-panther-s3",
+          "host": "articles.skeptics.nz",
+          "statement": "According to the NZ Skeptics author, despite decades of sightings no one has provided verifiable proof: no carcasses, no clear photographs or videos, and very little physical trace evidence, like paw prints, that could be definitively linked to a panther.",
+          "statement_id": "Menurut penulis NZ Skeptics, meski bertahun-tahun ada penampakan, belum ada yang memberikan bukti yang dapat diverifikasi: tanpa bangkai, foto atau video yang jelas, dan hampir tanpa jejak fisik yang dapat dikaitkan dengan seekor panther.",
+          "quote": "Despite decades of sightings, no one has ever provided verifiable proof-no carcasses, no clear photographs or videos, and very little in the way of physical trace evidence, like paw prints that could be definitively linked to a panther.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "canterbury-panther-c09",
+          "source_id": "canterbury-panther-s3",
+          "host": "articles.skeptics.nz",
+          "statement": "Skeptical analysis of the sightings suggests that the mysterious panther may be nothing more than a combination of mis-identifications, myth-making and the power of suggestion.",
+          "statement_id": "Analisis skeptis atas penampakan itu menyimpulkan bahwa panther misterius mungkin hanya gabungan salah identifikasi, pembuatan mitos, dan kekuatan sugesti.",
+          "quote": "Skeptical analysis of these sightings suggests that the mysterious panther may be nothing more than a combination of mis-identifications, myth-making, and the power of suggestion.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f3d5edcf99445fcd550f3446bdd64f0652e7efc3651c0b501bad8ea69a8995bb"
+      "images": []
     },
     {
       "slug": "faumea",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-4.md",
+      "entry_sha256": "dae80c88d9b93c5c86e0fc8d146f7731717836107119f01581b9c1c47475a835",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Prancis. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -1144,25 +1220,65 @@
           "quote": "Later, Turi-A-Faumea's wife Hina-Arau-Riki is kidnapped by the octopus-demon Rogo-Tumu-Here.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "faumea-c05",
+          "source_id": "faumea-s2",
+          "host": "archive.org",
+          "statement": "In Beckwith's account, Tagaroa sails to the land of Faumea; Faumea is a woman who has eels in her body which kill men, but she teaches Tagaroa how to entice them outside.",
+          "statement_id": "Dalam catatan Beckwith, Tagaroa berlayar ke negeri Faumea; Faumea adalah perempuan yang memiliki belut di dalam tubuhnya yang membunuh laki-laki, tetapi ia mengajari Tagaroa cara memancing belut itu keluar.",
+          "quote": "Tagaroa sails to the land of Faumea. Faumea is a woman who has eels in her vagina which kill men, but she teaches Tagaroa how to entice them outside.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "faumea-c06",
+          "source_id": "faumea-s2",
+          "host": "archive.org",
+          "statement": "Faumea withdraws the wind into the sweat of her armpit and Tagaroa utters a chant for its release; Tagaroa bids Faumea catch the girdle of Tu-nui-ka-rere, who slips away into the sky and is lost to her.",
+          "statement_id": "Faumea menarik angin ke dalam keringat ketiaknya dan Tagaroa melantunkan mantra untuk melepaskannya; Tagaroa meminta Faumea menangkap ikat pinggang Tu-nui-ka-rere, yang menyelinap ke langit dan hilang darinya.",
+          "quote": "Faumea withdraws the wind into the sweat of her armpit and Tagaroa utters a chant for its release. He bids Faumea catch the girdle of Tu-nui-ka-rere, who slips away into the sky and is lost to her.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "faumea-c07",
+          "source_id": "faumea-s2",
+          "host": "archive.org",
+          "statement": "In Beckwith's discussion of Haumea, Haumea in Tahiti is the ogress Nona, ancestress of the Tafa'i group, and Faumea in Vahitahi of the Tuamotus is an eel-woman.",
+          "statement_id": "Dalam pembahasan Beckwith tentang Haumea, Haumea di Tahiti adalah raksasa perempuan Nona, leluhur kelompok Tafa'i, dan Faumea di Vahitahi, Tuamotu, adalah perempuan-belut.",
+          "quote": "In Tahiti, Haumea is the ogress Nona, ancestress of the Tafa'i group. ... In Vahitahi of the Tuamotus, Faumea is an eel-woman",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "faumea-c08",
+          "source_id": "faumea-s2",
+          "host": "archive.org",
+          "statement": "According to Beckwith, Stimson tells the story from Anaa in the Tuamotus of Gana, Huri-te-papa and the princess Faumea, in which Gana is the suitor of Faumea in Tahiti-nui but Huri-te-papa wins her by his dancing.",
+          "statement_id": "Menurut Beckwith, Stimson menuturkan kisah dari Anaa di Tuamotu tentang Gana, Huri-te-papa, dan putri Faumea: Gana melamar Faumea di Tahiti-nui, tetapi Huri-te-papa memenangkannya lewat tariannya.",
+          "quote": "Stimson tells the story from Anaa in the Tuamotus of Gana, Huri-te-papa, and the princess Faumea, where Gana is the suitor of Faumea in Tahiti-nui, but Huri-te-papa wins her by his dancing.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "a8461cd549424b8a3f3493d85cde49128b46894640e64f612a73be5895842a1c"
+      "images": []
     },
     {
       "slug": "hakawai-mythology",
-      "file": "batch-151-fix-1.md",
+      "file": "batch-151-fix-4.md",
+      "entry_sha256": "5f8b2c7b424497a98545be7558cfe132e30e60c7239f7c28895b9f83a692be20",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 13,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Utara. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -1215,25 +1331,115 @@
           "quote": "There the sound ascribed to the Hakawai was described as having two main components, the first part being vocal, a call rendered as hakwai, hakwai, hakwai, followed by a non-vocal roar as of an object travelling through the air at high speed.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "hakawai-mythology-c06",
+          "source_id": "hakawai-mythology-s2",
+          "host": "www.birdsnz.org.nz",
+          "statement": "The hakawai was one of the 11 tapu (sacred) birds of Rakamaomao (the wind) and was said to have been a descendant of Tangaroa (god of the ocean) and Rehua (the star Antares, guardian of the uppermost heaven).",
+          "statement_id": "Hakawai adalah salah satu dari 11 burung tapu (sakral) Rakamaomao (angin) dan dikatakan keturunan Tangaroa (dewa laut) dan Rehua (bintang Antares, penjaga langit tertinggi).",
+          "quote": "The hakawai was one of the 11 tapu (sacred) birds of Rakamaomao (the wind) and was said to have been a descendant of Tangaroa (god of the ocean) and Rehua (the star Antares, guardian of the uppermost heaven)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hakawai-mythology-c07",
+          "source_id": "hakawai-mythology-s2",
+          "host": "www.birdsnz.org.nz",
+          "statement": "In Maori legends and proverbs, the hakawai was a mythical bird dwelling afar in celestial space and only descending to earth at night.",
+          "statement_id": "Dalam legenda dan peribahasa Māori, hakawai adalah burung mitos yang berdiam jauh di angkasa dan hanya turun ke bumi pada malam hari.",
+          "quote": "In Maori legends and proverbs, the hakawai was a mythical bird dwelling afar in celestial space and only descending to earth at night.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hakawai-mythology-c08",
+          "source_id": "hakawai-mythology-s2",
+          "host": "www.birdsnz.org.nz",
+          "statement": "A proverb quoted in the source likens a bird to the Hakawai, which makes itself invisible.",
+          "statement_id": "Sebuah peribahasa yang dikutip menyamakan sebuah burung dengan Hakawai, yang membuat dirinya tak terlihat.",
+          "quote": "(that bird is like the Hakawai, it makes itself invisible)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hakawai-mythology-c09",
+          "source_id": "hakawai-mythology-s2",
+          "host": "www.birdsnz.org.nz",
+          "statement": "The most widely quoted legend about hokioi refers to a competition between hokioi and kahu (the hawk) to see who could fly the highest; the story explains why hokioi descends only at night and why he calls out his name.",
+          "statement_id": "Legenda hokioi yang paling banyak dikutip berkisah tentang perlombaan antara hokioi dan kahu (elang) untuk melihat siapa yang dapat terbang paling tinggi; kisah ini menjelaskan mengapa hokioi hanya turun pada malam hari dan mengucapkan namanya.",
+          "quote": "The most widely quoted legend about hokioi refers to a competition between hokioi and kahu (the hawk) to see who could fly the highest. This story explains why hokioi descends only at night and why he calls out his name.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hakawai-mythology-c10",
+          "source_id": "hakawai-mythology-s2",
+          "host": "www.birdsnz.org.nz",
+          "statement": "The call of the hakawai was heard on calm moonlit nights and came from a great height.",
+          "statement_id": "Panggilan hakawai terdengar pada malam berbulan yang tenang dan datang dari ketinggian.",
+          "quote": "The call was heard on calm moonlit nights and came from a great height.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hakawai-mythology-c11",
+          "source_id": "hakawai-mythology-s2",
+          "host": "www.birdsnz.org.nz",
+          "statement": "Miskelly's data support the hypothesis that the hakawai was a snipe.",
+          "statement_id": "Data penelitian Miskelly mendukung hipotesis bahwa hakawai adalah burung snipe.",
+          "quote": "These data support the hakawai = snipe hypothesis.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hakawai-mythology-c12",
+          "source_id": "hakawai-mythology-s3",
+          "host": "archive.org",
+          "statement": "Tregear's dictionary lists hokioi as the name of an extinct or mythical bird; the Natives say it was a huge bird of prey, large as the moa, with many-coloured feathers and a bunch of red feathers on its head.",
+          "statement_id": "Kamus Tregear mencatat hokioi sebagai nama burung punah atau mitos; menurut penutur Māori ia burung pemangsa raksasa sebesar moa, berbulu warna-warni dengan seikat bulu merah di kepalanya.",
+          "quote": "HOKIOI {hokioi), the name of an extinct or mythical bird ... The Natives say that it was (like the Arabian Roc) a huge bird of prey, large as the moa (Dinornis) ; also that it had many-coloured feathers, and a bunch of red feathers on its head.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hakawai-mythology-c13",
+          "source_id": "hakawai-mythology-s3",
+          "host": "archive.org",
+          "statement": "According to Tregear, Sir W. Buller considers the Hokioi to be identical with the Great Frigate Bird (Fregata aquila).",
+          "statement_id": "Menurut Tregear, Sir W. Buller menganggap Hokioi identik dengan Great Frigate Bird (Fregata aquila).",
+          "quote": "Sir W. Buller considers the Hokioi to be iden- tical with the Great Frigate Bird (Fregata aquila).",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "733e57793185a63b146942bc539373c9e635c4e3c7024a3473cb4540ac64337e"
+      "images": []
     },
     {
       "slug": "hoop-snake",
-      "file": "batch-151-fix-1.md",
+      "file": "batch-151-fix-4.md",
+      "entry_sha256": "a3fea5580bb63fd079dc499fdd91efefca0ee592603a67922a748f31365a9eca",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "short_description",
+          "message": "Tidak muncul di kutipan mana pun: Amerika, Serikat, Kanada. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Amerika, Serikat, Kanada, Yunani. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.origin",
+          "message": "Tidak muncul di kutipan mana pun: Amerika, Serikat, Kanada. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -1276,25 +1482,65 @@
           "quote": "An Australian rendition of the myth describes a circular-shaped snake roughly the size of a steering wheel with a set of elongated spines evenly spaced along the inner lining of its circular-shaped body.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "hoop-snake-c05",
+          "source_id": "hoop-snake-s2",
+          "host": "www.straightdope.com",
+          "statement": "The \"hoop snake\" tale, as quoted from a herpetology book, is usually applied to the mud snake (Farancia abacura) and the rainbow snake (Farancia erytrogramma); supposedly the snake takes its tail into its mouth, forms a hoop and rolls after the nearest human, then tries to \"sting\" with its tail; if it jabs a tree instead, the plant immediately wilts and dies.",
+          "statement_id": "Dikutip dari buku herpetologi, kisah \"hoop snake\" biasanya dikenakan pada mud snake (Farancia abacura) dan rainbow snake (Farancia erytrogramma); konon ular itu memasukkan ekornya ke mulut, membentuk lingkaran, dan berguling mengejar manusia terdekat, lalu mencoba \"menyengat\" dengan ekornya; jika menusuk pohon, tanaman itu langsung layu dan mati.",
+          "quote": "The 'hoop snake' tale is usually applied to the mud snake [Farancia abacura] and to the rainbow snake [Farancia erytrogramma]. Supposedly, the snake takes its tail into its mouth, forms a hoop, and rolls after the nearest human. It then tries to 'sting' the person with its tail. Should the snake jab a tree instead, the poor plant immediately wilts and dies.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hoop-snake-c06",
+          "source_id": "hoop-snake-s2",
+          "host": "www.straightdope.com",
+          "statement": "According to the column, a hoop/mud snake cannot sting with its tail, but it has a hard spine there that can draw blood when thrashed vigorously.",
+          "statement_id": "Menurut kolom itu, hoop snake atau mud snake tidak dapat menyengat dengan ekornya, tetapi memiliki duri keras di sana yang dapat melukai hingga berdarah bila dikibaskan dengan kuat.",
+          "quote": "While a hoop/mud snake cannot sting with its tail, it does have a hard spine back there that can draw blood when thrashed vigorously.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "hoop-snake-c07",
+          "source_id": "hoop-snake-s3",
+          "host": "wgpfoundation.org",
+          "statement": "A historical marker inscription states that for generations local legend tells of an enormous snake that grasped its tail in its mouth and rolled down this hill toward its victims.",
+          "statement_id": "Prasasti penanda sejarah menyatakan bahwa selama beberapa generasi legenda setempat bercerita tentang ular raksasa yang menggigit ekornya dan berguling menuruni bukit ini ke arah korbannya.",
+          "quote": "FOR GENERATIONS, LOCAL LEGEND TELLS OF AN ENORMOUS SNAKE THAT GRASPED ITS TAIL IN ITS MOUTH AND ROLLED DOWN THIS HILL TOWARD ITS VICTIMS.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "hoop-snake-c08",
+          "source_id": "hoop-snake-s3",
+          "host": "wgpfoundation.org",
+          "statement": "According to the marker description, the hoop snake rolls toward its victims and at the final moment straightens out its body and lashes out with its spiked tail.",
+          "statement_id": "Menurut uraian penanda itu, hoop snake berguling ke arah korbannya dan pada saat terakhir meluruskan tubuhnya lalu menyerang dengan ekornya yang berduri.",
+          "quote": "The hoop snake rolls toward its victims, and at the final moment straightens out its body and lashes out with its spiked tail.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "5ce32876682d9cc4bebcd3a59d5b9d0fd3da0dc4f661babc3a1155f7b3d7f285"
+      "images": []
     },
     {
       "slug": "ipilja-ipilja",
-      "file": "batch-151.md",
+      "file": "batch-151-fix-4.md",
+      "entry_sha256": "a9f327f72ee82a7442ec630b09f176f2e54e53bcebe0e5ac03b6f2310fee7e90",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[2]",
+          "message": "Tidak muncul di kutipan mana pun: Mythica. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -1347,27 +1593,41 @@
           "quote": "The water turns into clouds, and the grass binds the clouds together. The ipilja-ipilja, pleased with his efforts, lets out a roar that becomes thunder.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "ipilja-ipilja-c06",
+          "source_id": "ipilja-ipilja-s2",
+          "host": "pantheon.org",
+          "statement": "On Groote Eylandt, northeastern Australia, the ipilja-ipilja is the colorful gecko who replaces the Rainbow Serpent.",
+          "statement_id": "Di Groote Eylandt, Australia timur laut, ipilja-ipilja adalah tokek berwarna-warni yang menggantikan Rainbow Serpent.",
+          "quote": "On Groote Eylandt, northeastern Australia, the colorful gecko who replaces the Rainbow Serpent.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ipilja-ipilja-c07",
+          "source_id": "ipilja-ipilja-s2",
+          "host": "pantheon.org",
+          "statement": "Ipilja-ipilja creates storms, thunder and the monsoon rains.",
+          "statement_id": "Ipilja-ipilja menciptakan badai, guntur, dan hujan monsun.",
+          "quote": "Ipilja-ipilja creates storms, thunder, and the monsoon rains.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ca743a8c0d97b37382f14cc97aebcbdd5ed9d7bc251b2d243ff30187a9d18694"
+      "images": []
     },
     {
       "slug": "kaupe",
-      "file": "batch-151-fix-1.md",
+      "file": "batch-151-fix-4.md",
+      "entry_sha256": "70f0bb4e4a707cc11c4d6d7ae6857838900f0f1f694968e8b400daafe0059371",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kaupe-c01",
@@ -1418,27 +1678,61 @@
           "quote": "Kaupe is often considered a \"calling ghost\" because he calls to his victims rather than searching them out or coming across them by coincidence. His technique is to mimic the sound of numerous wounded or dying people.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "kaupe-c06",
+          "source_id": "kaupe-s2",
+          "host": "archive.org",
+          "statement": "Among dog-men represented as overthrowing the chief of a district and terrorizing the country, the most famous is the cannibal dog-man Kaupe, who overthrew the government of Ka-hanai-a-ke-akua and ruled the land from Nu'uanu to the sea.",
+          "statement_id": "Di antara manusia-anjing yang digambarkan menggulingkan kepala suatu distrik dan meneror negeri, yang paling terkenal ialah manusia-anjing kanibal Kaupe, yang menggulingkan pemerintahan Ka-hanai-a-ke-akua dan memerintah negeri dari Nu'uanu sampai ke laut.",
+          "quote": "Among dog-men represented as overthrowing the chief of a district and terrorizing the country, the most famous is the cannibal dog-man Kaupe who overthrew the government of Ka-hanai-a-ke-akua (Reared by the gods) and ruled the land from Nu'uanu to the sea.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kaupe-c07",
+          "source_id": "kaupe-s2",
+          "host": "archive.org",
+          "statement": "Kaupe lives at Lihue on Oahu; he never attacks a high chief but eats some of the people both of Oahu and Maui, then crosses over to Hawaii and brings back a chief's son to sacrifice in the heiau at Lihue.",
+          "statement_id": "Kaupe tinggal di Lihue di Oahu; ia tidak pernah menyerang kepala suku tinggi tetapi memakan sebagian penduduk Oahu dan Maui, lalu menyeberang ke Hawaii dan membawa pulang putra seorang kepala suku untuk dikorbankan di heiau di Lihue.",
+          "quote": "Kaupe lives at Lihue on Oahu. He never attacks a high chief but eats some of the people both of Oahu and Maui. At last he crosses over to Hawaii and brings back a chief's son to sacrifice in the heiau at Lihue.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kaupe-c08",
+          "source_id": "kaupe-s2",
+          "host": "archive.org",
+          "statement": "The prayer unfastens the boy's fetters, and father and son flee and hide under a rock at Moanalua while Kaupe goes on to look for them on Hawaii; the father learns the prayer for killing an enemy and overcomes Kaupe on Hawaii.",
+          "statement_id": "Doa itu membuka belenggu sang anak, ayah dan anak melarikan diri dan bersembunyi di bawah batu di Moanalua sementara Kaupe mencari mereka di Hawaii; sang ayah mempelajari doa untuk membunuh musuh dan mengalahkan Kaupe di Hawaii.",
+          "quote": "The prayer unfastens the boy's fetters and father and son flee and hide under a rock at Moanalua while Kaupe goes on to look for them on Hawaii. The father learns the prayer for killing an enemy, and overcomes Kaupe on Hawaii.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kaupe-c09",
+          "source_id": "kaupe-s2",
+          "host": "archive.org",
+          "statement": "As a ghost god resting in the clouds stretched over the mountaintops of the Koolau range on Oahu, Kaupe's spirit body is today confused with legends of a dog-like creature called Poki, spotted or brindled in color and very long in body, who guards a certain section outside Honolulu.",
+          "statement_id": "Sebagai dewa hantu yang beristirahat di awan di atas puncak-puncak pegunungan Koolau di Oahu, tubuh roh Kaupe kini dikacaukan dengan legenda makhluk mirip anjing bernama Poki, berbintik atau belang dan sangat panjang tubuhnya, yang menjaga suatu bagian di luar Honolulu.",
+          "quote": "As a ghost god resting in the clouds stretched over the mountaintops of the Koolau range on Oahu, Kaupe's spirit body is today confused with legends of a dog-like creature called Poki, spotted or brindled in color and very long in body, who guards a certain section outside Honolulu",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "52cc398cf917ec877defe7c06e0dac66fd89f42ea143e80a96330058679de21b"
+      "images": []
     },
     {
       "slug": "kurangaituku",
-      "file": "batch-151-fix-1.md",
+      "file": "batch-151-fix-4.md",
+      "entry_sha256": "eedc96044d1eac72ed3e8c3cf1778615dd207cebf040221f78920e58361f53e3",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kurangaituku-c01",
@@ -1489,10 +1783,69 @@
           "quote": "Kurangaituku is also sometimes known as Hine-ingoingo.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "kurangaituku-c06",
+          "source_id": "kurangaituku-s2",
+          "host": "archive.org",
+          "statement": "Tregear's dictionary lists Kurangaituku as an Ogress who had wings on her arms, could spear birds with her lips and lived on raw food.",
+          "statement_id": "Kamus Tregear mencatat Kurangaituku sebagai ogress yang bersayap pada lengannya, dapat menombak burung dengan bibirnya, dan hidup dari makanan mentah.",
+          "quote": "KURANGAITUKU (myth.), an Ogress who had wings on her arms, could spear birds with her lips, and lived on raw food.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kurangaituku-c07",
+          "source_id": "kurangaituku-s2",
+          "host": "archive.org",
+          "statement": "She found the youth Hatupatu and took him to her home; he disliked the uncooked food and induced the fairy to go farther and farther away each day hunting while he stayed at home cooking for himself.",
+          "statement_id": "Ia menemukan pemuda Hatupatu dan membawanya ke rumahnya; Hatupatu tidak suka makanan mentah dan membujuk sang peri pergi makin jauh setiap hari untuk berburu sementara ia tinggal di rumah memasak untuk dirinya sendiri.",
+          "quote": "She found the youth, Hatupatu, and took him to her home. He disliked the uncooked food, and induced the fairy to go farther and farther away each day hunting, while he stayed at home, cooking for himself",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kurangaituku-c08",
+          "source_id": "kurangaituku-s2",
+          "host": "archive.org",
+          "statement": "A bird went and told Kurangaituku, who flew after her truant.",
+          "statement_id": "Seekor burung pergi memberi tahu Kurangaituku, yang lalu terbang mengejar si pelarian.",
+          "quote": "A bird went and told Kurangaituku, who flew after her truant",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kurangaituku-c09",
+          "source_id": "kurangaituku-s3",
+          "host": "archive.org",
+          "statement": "In Grey's collection, she made only three strides before she reached her cave, and when she looked about she could see nothing in it.",
+          "statement_id": "Dalam kumpulan Grey, ia hanya butuh tiga langkah untuk sampai ke guanya, dan ketika memandang sekeliling ia tidak melihat apa pun di dalamnya.",
+          "quote": "She only made three strides before she had reached her cave, and when she looked about, she could see nothing in it",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kurangaituku-c10",
+          "source_id": "kurangaituku-s3",
+          "host": "archive.org",
+          "statement": "Hatupatu repeats his charm \"O rock open for me, open\"; the rock opened and he hid himself in it, and the woman looked and could not find him.",
+          "statement_id": "Hatupatu mengucapkan mantra \"O rock open for me, open\"; batu itu terbuka dan ia bersembunyi di dalamnya, dan sang perempuan melihat tetapi tidak dapat menemukannya.",
+          "quote": "and she almost caught Hatupatu ; and he thought, I'm done for now. ... O rock open for me, open.' Then the rock opened, and he hid himself in it, and the woman looked and could not find him",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kurangaituku-c11",
+          "source_id": "kurangaituku-s3",
+          "host": "archive.org",
+          "statement": "A pet bird that escaped flew away to fetch back the woman they all belonged to, whose name was Kurangaituku.",
+          "statement_id": "Seekor burung peliharaan yang lolos terbang untuk menjemput perempuan pemiliknya, yang bernama Kurangaituku.",
+          "quote": "it flew away to fetch back the woman they all belonged to. Her name was Kuran- gaituku.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9e2624d077d5c902617c6346e2dca9c075302d322773306378fef92441917308"
+      "images": []
     },
     {
       "slug": "minka-bird",
@@ -1547,18 +1900,34 @@
     },
     {
       "slug": "muldjewangk",
-      "file": "batch-151-fix-1.md",
+      "file": "batch-151-fix-4.md",
+      "entry_sha256": "72d0595df1675db6ae5148c5cb87526e8f563c337086e17cb916e163ce6ee169",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[1]",
+          "message": "Tidak muncul di kutipan mana pun: Aborigin, South, Australian. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[3]",
+          "message": "Tidak muncul di kutipan mana pun: Eropa. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "stories[1].summary",
+          "message": "Tidak muncul di kutipan mana pun: Eropa. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "long_description[3].en",
+          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"large clumps of floating seaweed are said to hide muldjewangks and are…\"). Tulis ulang dengan kata-kata sendiri."
         }
       ],
       "claims": [
@@ -1611,10 +1980,49 @@
           "quote": "Large clumps of floating seaweed  are said to hide Muldjewangks and are to be avoided.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "muldjewangk-c06",
+          "source_id": "muldjewangk-s2",
+          "host": "cdn.environment.sa.gov.au",
+          "statement": "According to Warki/Ramindjeri Elders, the Lakalinyeri (language groups or clans) grouped together as the Ngarrindjeri people share a story of a water spirit known as the Mulyawonk; Australians may also know this mythical being as a \"bunyip\".",
+          "statement_id": "Menurut tetua Warki/Ramindjeri, Lakalinyeri (kelompok bahasa atau klan) yang dikelompokkan sebagai bangsa Ngarrindjeri berbagi kisah tentang roh air bernama Mulyawonk; orang Australia juga mungkin mengenal makhluk mitos ini sebagai \"bunyip\".",
+          "quote": "Warki/ Ramindjeri Elders Nita McAdam and Collin Koolmatrie ... the Lakalinyeri (language groups or clans) that are grouped together as the Ngarrindjeri people share a story of a water spirit known as the Mulyawonk. Australians may also know this mythical being as a \"bunyip\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "muldjewangk-c07",
+          "source_id": "muldjewangk-s2",
+          "host": "cdn.environment.sa.gov.au",
+          "statement": "The story is about a Ngarrindjeri Ko:ni (man) who was greedy catching more fish than he needed; the Elders were so angry that as a punishment they turned him into the Mulyawonk, a half fish, half man creature, and banished him to the deep water forever.",
+          "statement_id": "Kisah itu tentang seorang laki-laki Ngarrindjeri (Ko:ni) yang serakah menangkap ikan lebih dari yang ia perlukan; para tetua sangat marah dan sebagai hukuman mengubahnya menjadi Mulyawonk, makhluk setengah ikan setengah manusia, dan mengasingkannya ke air dalam selamanya.",
+          "quote": "about a Ngarrindjeri Ko:ni (man) who was greedy catching more fish than he needed. ... The Elders were so angry with this man that as a punishment they turned him into the Mulyawonk - a half fish, half man creature and banished him to the deep water forever.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "muldjewangk-c08",
+          "source_id": "muldjewangk-s2",
+          "host": "cdn.environment.sa.gov.au",
+          "statement": "At a later time a child swimming in the water disappeared and the terrified father searched for his child; diving deep he found the Mulyawonk lair and the child, who was rescued and brought safely back to the shore.",
+          "statement_id": "Kemudian seorang anak yang berenang menghilang dan sang ayah yang ketakutan mencarinya; dengan menyelam dalam ia menemukan sarang Mulyawonk dan anak itu, yang diselamatkan dan dibawa kembali ke tepi dengan selamat.",
+          "quote": "However, at a later time a child swimming in the water disappeared and the terrified Father frantically searched for his child. Diving deep under the water he found the Mulyawonk lair and the child, who was rescued and brought safely back to the shore.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "muldjewangk-c09",
+          "source_id": "muldjewangk-s2",
+          "host": "cdn.environment.sa.gov.au",
+          "statement": "Ngarrindjeri children are told never to swim alone or to take more fish than they can eat from the rivers and swamps; the story teaches children water safety and respect for the fishes of the rivers, lakes and swamps.",
+          "statement_id": "Anak-anak Ngarrindjeri diberi tahu agar tidak berenang sendirian atau mengambil ikan lebih dari yang bisa mereka makan dari sungai dan rawa; kisah ini mengajarkan keselamatan di air dan rasa hormat terhadap ikan di sungai, danau, dan rawa.",
+          "quote": "Ngarrindjeri children are told never to swim alone or to take more fish than they can eat from the rivers and swamps. This story teaches children water safety and respect for the fishes of the rivers, lakes and swamps.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "807a1e85a32f593ca2f0741826499a5b20ae85b3ca7346287f50586e1b250d8f"
+      "images": []
     },
     {
       "slug": "nanaue",
