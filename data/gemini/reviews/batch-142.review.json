@@ -1,13 +1,14 @@
 {
   "batch_id": "batch-142",
-  "checked_at": "2026-10-06T19:14:47.412Z",
+  "checked_at": "2026-10-06T19:43:39.183Z",
   "files": [
     "batch-142.md",
     "batch-142-fix-1.md",
     "batch-142-fix-2.md",
     "batch-142-fix-3.md",
     "batch-142-fix-4.md",
-    "batch-142-fix-5.md"
+    "batch-142-fix-5.md",
+    "batch-142-fix-6.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -7780,20 +7781,15 @@
     },
     {
       "slug": "champ-folklore",
-      "file": "batch-142.md",
+      "file": "batch-142-fix-6.md",
+      "entry_sha256": "a1e6d2b93bc721d93cbdfda7e8dfe3833a9a85da008c9072642c7b0b9b400439",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 19,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "champ-folklore-c01",
@@ -7829,32 +7825,176 @@
           "id": "champ-folklore-c04",
           "source_id": "champ-folklore-s1",
           "host": "en.wikipedia.org",
-          "statement": "Sandra Mansi with investigators Joe Nickell and Benjamin Radford Full Mansi Photograph In 1977, Sandra Mansi took a photograph while on vacation with her family that appears to show an animal with a long neck emerging from the lake.",
-          "statement_id": "Pada 1977 Sandra Mansi mengambil foto yang tampak memperlihatkan hewan berleher panjang muncul dari danau.",
-          "quote": "Sandra Mansi with investigators Joe Nickell and Benjamin Radford Full Mansi Photograph In 1977, Sandra Mansi took a photograph while on vacation with her family that appears to show an animal with a long neck emerging from the lake.",
+          "statement": "In 1977, Sandra Mansi took a photograph while on vacation with her family that appears to show an animal with a long neck emerging from the lake.",
+          "statement_id": "Pada 1977, Sandra Mansi mengambil foto saat berlibur bersama keluarganya yang tampak memperlihatkan hewan berleher panjang muncul dari danau.",
+          "quote": "In 1977, Sandra Mansi took a photograph while on vacation with her family that appears to show an animal with a long neck emerging from the lake.",
           "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "champ-folklore-c05",
+          "source_id": "champ-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In American folklore, Champ or Champy is the name of a lake monster said to live in Lake Champlain, a 125-mile (201 km)-long body of fresh water shared by New York and Vermont, with a portion extending into Quebec, Canada.",
+          "statement_id": "Dalam cerita rakyat Amerika, Champ atau Champy adalah nama monster danau yang dikatakan hidup di Danau Champlain, perairan tawar sepanjang 125 mil (201 km) yang dibagi antara New York dan Vermont, dengan sebagian membentang ke Quebec, Kanada.",
+          "quote": "In American folklore, Champ or Champy is the name of a lake monster said to live in Lake Champlain, a 125-mile (201 km)-long body of fresh water shared by New York and Vermont, with a portion extending into Quebec, Canada.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "champ-folklore-c06",
+          "source_id": "champ-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Over the years, there have been over 300 reported sightings of Champ.",
+          "statement_id": "Selama bertahun-tahun, telah ada lebih dari 300 laporan penampakan Champ.",
+          "quote": "Over the years, there have been over 300 reported sightings of Champ.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "champ-folklore-c07",
+          "source_id": "champ-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "An 1819 report in the Plattsburgh Republican, entitled 'Cape Ann Serpent on Lake Champlain', reports a 'Capt. Crum' sighting an enormous serpentine monster, which Crum estimated to be about 187 ft (57 m) long and about 200 yd (180 m) away.",
+          "statement_id": "Laporan tahun 1819 di Plattsburgh Republican berjudul 'Cape Ann Serpent on Lake Champlain' menyebut 'Crum' melihat monster ular raksasa; Crum memperkirakan panjangnya sekitar 187 kaki (57 m) dan jaraknya sekitar 200 yard (180 m).",
+          "quote": "An 1819 report in the Plattsburgh Republican, entitled \"Cape Ann Serpent on Lake Champlain\", reports a \"Capt. Crum\" sighting an enormous serpentine monster. Crum estimated the monster to have been about 187 ft (57 m) long and approximately 200 yd (180 m) away from him.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "champ-folklore-c08",
+          "source_id": "champ-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1883, Sheriff Nathan H. Mooney claimed that he had seen a water serpent about '20 rods' (the equivalent of 110 yd (100 m)) from where he was on the shore.",
+          "statement_id": "Pada 1883, Sheriff Nathan H. Mooney mengaku melihat ular air sekitar '20 rod' (setara 110 yard atau 100 m) dari tempatnya berdiri di tepi danau.",
+          "quote": "In 1883, Sheriff Nathan H. Mooney claimed that he had seen a water serpent about \"20 rods\" (the equivalent of 110 yd (100 m) in length) from where he was on the shore.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "champ-folklore-c09",
+          "source_id": "champ-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The legend of Champ captured the interest of P. T. Barnum, and in 1873 and 1887 the famous showman offered rewards for anyone who could bring him the monster.",
+          "statement_id": "Legenda Champ menarik minat P. T. Barnum, dan pada 1873 serta 1887 sang pemain sirkus terkenal menawarkan hadiah bagi siapa pun yang dapat membawakan monster itu kepadanya.",
+          "quote": "The legend of Champ captured the interest of P. T. Barnum, and in 1873 and 1887, the famous showman offered rewards for anyone who could bring him the monster.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "champ-folklore-c10",
+          "source_id": "champ-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The earliest source for the claim is the summer 1970 issue of the magazine Vermont Life, which quoted Champlain as having documented a '20 ft (6.1 m) serpent thick as a barrel, and a head like a horse'; there is no evidence that Champlain ever said this, although he did document large fish.",
+          "statement_id": "Sumber paling awal klaim itu adalah majalah Vermont Life edisi musim panas 1970, yang mengutip Champlain telah mencatat 'ular 20 kaki (6,1 m) setebal tong dengan kepala seperti kuda', tetapi tidak ada bukti bahwa Champlain pernah mengatakannya, meski ia memang mencatat ikan-ikan besar.",
+          "quote": "The earliest source for this claim is the summer 1970 issue of the magazine Vermont Life. The magazine quoted Champlain as having documented a \"20 ft (6.1 m) serpent thick as a barrel, and a head like a horse.\" There is no evidence that Champlain ever said this, although he did document large fish",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "champ-folklore-c11",
+          "source_id": "champ-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The entire bay of the lake where the photograph reportedly was taken is no deeper than 14 feet (4.3 m); according to Joe Nickell, it is unlikely that a giant creature could swim, let alone hide, in such shallow water.",
+          "statement_id": "Seluruh teluk danau tempat foto itu konon diambil tidak lebih dalam dari 14 kaki (4,3 m); menurut Joe Nickell, sulit bagi makhluk raksasa untuk berenang, apalagi bersembunyi, di perairan sedangkal itu.",
+          "quote": "The entire bay of the lake where the photograph reportedly was taken is no deeper than 14 feet (4.3 m). According to Joe Nickell, it is unlikely that a giant creature could swim, let alone hide, in such shallow water.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "champ-folklore-c12",
+          "source_id": "champ-folklore-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Champ legend has become a revenue-generating attraction; for example, the village of Port Henry, New York, has erected a giant model of Champ and holds 'Champ Day' on the first Saturday of every August.",
+          "statement_id": "Legenda Champ telah menjadi daya tarik penghasil pendapatan; misalnya desa Port Henry, New York, mendirikan model Champ raksasa dan menggelar 'Champ Day' pada Sabtu pertama setiap Agustus.",
+          "quote": "The Champ legend has become a revenue-generating attraction. For example, the village of Port Henry, New York, has erected a giant model of Champ and holds \"Champ Day\" on the first Saturday of every August.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "champ-folklore-c13",
+          "source_id": "champ-folklore-s2",
+          "host": "www.ebsco.com",
+          "statement": "Champ is also known as Champy and Tatoskok; it is a water creature that allegedly lives in Lake Champlain, a 490-square-mile lake between the U.S. states of New York and Vermont.",
+          "statement_id": "Champ juga dikenal sebagai Champy dan Tatoskok; ia makhluk air yang konon hidup di Danau Champlain, danau seluas 490 mil persegi di antara negara bagian AS New York dan Vermont.",
+          "quote": "Champ is also known as Champy and Tatoskok; it is a water creature that allegedly lives in Lake Champlain, a 490-square-mile lake located between the U.S. states of New York and Vermont.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "champ-folklore-c14",
+          "source_id": "champ-folklore-s2",
+          "host": "www.ebsco.com",
+          "statement": "As of 2015 there have been over 300 alleged sightings of Champ; it is described as an approximately 20-foot-long sea serpent with the head of a horse, and cryptozoologists report that Champ may be of the same lineage as the famous Loch Ness Monster of Scotland.",
+          "statement_id": "Hingga 2015 ada lebih dari 300 dugaan penampakan Champ; ia digambarkan sebagai ular laut sepanjang sekitar 20 kaki berkepala kuda, dan para kriptozoolog menyebut Champ mungkin segaris keturunan dengan Monster Loch Ness yang terkenal di Skotlandia.",
+          "quote": "As of 2015, there have been over 300 alleged sightings of Champ: it is described as an approximately 20-foot-long sea serpent with the head of a horse. Cryptozoologists report that Champ may be of the same lineage as the famous Loch Ness Monster of Scotland.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "champ-folklore-c15",
+          "source_id": "champ-folklore-s2",
+          "host": "www.ebsco.com",
+          "statement": "Cryptozoologists, examining the journals that de Champlain wrote, concluded that he was describing a fish, the garfish, which is native to the region.",
+          "statement_id": "Para kriptozoolog yang memeriksa jurnal de Champlain menyimpulkan bahwa ia menggambarkan ikan, yaitu ikan gar yang asli wilayah itu.",
+          "quote": "Cryptozoologists, examining the journals that de Champlain wrote, concluded that he was describing a fish, the garfish, which is native to the region.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "champ-folklore-c16",
+          "source_id": "champ-folklore-s2",
+          "host": "www.ebsco.com",
+          "statement": "The Mansis reported seeing a creature with a small head, long neck, and humped back about eight feet out of the water, and the whole time Champ was above water was reportedly no more than seven minutes.",
+          "statement_id": "Keluarga Mansi melaporkan melihat makhluk berkepala kecil, berleher panjang, dan berpunuk sekitar delapan kaki di atas air; seluruh waktu Champ berada di atas air dilaporkan tidak lebih dari tujuh menit.",
+          "quote": "The Mansis reported seeing a creature with a small head, long neck, and a humped back approximately eight feet out of the water. The entire amount of time that Champ was above water was reportedly no more than seven minutes.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "champ-folklore-c17",
+          "source_id": "champ-folklore-s2",
+          "host": "www.ebsco.com",
+          "statement": "In 1977 the Mansi photograph surfaced, which appeared to be documented proof of Champ's existence; in the early 1980s both Vermont and New York passed laws protecting the habitat and life of Champ.",
+          "statement_id": "Pada 1977 foto Mansi muncul dan tampak sebagai bukti terdokumentasi keberadaan Champ; pada awal 1980-an Vermont dan New York sama-sama mengesahkan undang-undang yang melindungi habitat dan kehidupan Champ.",
+          "quote": "In 1977, the Mansi photograph surfaced, which appeared to be documented proof of Champ’s existence. In the early 1980s both Vermont and New York passed laws protecting the habitat and life of Champ.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "champ-folklore-c18",
+          "source_id": "champ-folklore-s2",
+          "host": "www.ebsco.com",
+          "statement": "The theories that attempt to disprove Champ's existence rely on the facts that the lake is not large enough for a creature of Champ's size to hide and survive, and that there is no physical proof of Champ's existence.",
+          "statement_id": "Teori yang membantah keberadaan Champ bertumpu pada fakta bahwa danau tidak cukup besar bagi makhluk seukuran Champ untuk bersembunyi dan bertahan hidup, dan bahwa tidak ada bukti fisik keberadaan Champ.",
+          "quote": "The theories that attempt to disprove Champ’s existence rely on the facts that the lake is not large enough for a creature of Champ’s size to hide and survive; ... and that there is no physical proof of Champ’s existence.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "champ-folklore-c19",
+          "source_id": "champ-folklore-s2",
+          "host": "www.ebsco.com",
+          "statement": "Several explanations are posited for the photographs, video, and testimony for Champ; the three major categories are hoaxes, confusion with inanimate objects, and misidentification of other animals.",
+          "statement_id": "Ada beberapa penjelasan yang diajukan untuk foto, video, dan kesaksian tentang Champ; tiga kategori utamanya adalah tipuan, salah kenal dengan benda mati, dan salah identifikasi hewan lain.",
+          "quote": "There are several possible explanations that are posited to explain the nature of the photographs, video, and testimony for Champ. The three major categories of explanations are hoaxes, confusion with inanimate objects, and misidentification of other animals.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "01d404468b5cc95218ae96d7e186df3d1075be47b47cdc48c7c3e14ca2d12dcb"
+      "images": []
     },
     {
       "slug": "nagual",
-      "file": "batch-142-fix-1.md",
+      "file": "batch-142-fix-6.md",
+      "entry_sha256": "23272540b845fa0d6fb23e4be7d3e232845fe6a135d84010a2e67a77e86fbd51",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 20,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nagual-c01",
@@ -7895,27 +8035,181 @@
           "quote": "Mesoamerican belief in tonalism, wherein every person has an animal counterpart to which their life force is linked, is drawn upon by nagualism.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "nagual-c05",
+          "source_id": "nagual-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Mesoamerican folk religion, a nagual or nahual (both from the Nahuatl word nāhualli) is a human being who has the power to shapeshift into their tonal animal counterpart.",
+          "statement_id": "Dalam agama rakyat Mesoamerika, nagual atau nahual (keduanya dari kata Nahuatl nāhualli) adalah manusia yang memiliki kekuatan berubah wujud menjadi pasangan hewan tonal-nya.",
+          "quote": "In Mesoamerican folk religion, a nagual or nahual (both from the Nahuatl word nāhualli ... is a human being who has the power to shapeshift into their tonal animal counterpart.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nagual-c06",
+          "source_id": "nagual-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The word nagual derives from the Nahuatl word nāhualli, an indigenous religious practitioner identified by the Spanish as a 'magician'.",
+          "statement_id": "Kata nagual berasal dari kata Nahuatl nāhualli, seorang praktisi agama pribumi yang oleh orang Spanyol diidentifikasi sebagai 'penyihir'.",
+          "quote": "The word nagual derives from the Nahuatl word nāhualli ... an indigenous religious practitioner, identified by the Spanish as a 'magician'.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "nagual-c07",
+          "source_id": "nagual-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In modern rural Mexico, nagual is sometimes synonymous with brujo ('wizard'): one who can shapeshift into an animal at night (normally a dog, owl, bat, wolf or turkey), drink blood from human victims, steal property, cause disease, and the like.",
+          "statement_id": "Di Meksiko pedesaan modern, nagual kadang sinonim dengan brujo ('penyihir'): orang yang dapat berubah wujud menjadi hewan pada malam hari (biasanya anjing, burung hantu, kelelawar, serigala, atau kalkun), meminum darah korban manusia, mencuri harta, menimbulkan penyakit, dan sejenisnya.",
+          "quote": "In modern rural Mexico, nagual is sometimes synonymous with brujo (\"wizard\"); one who is able to shapeshift into an animal at night (normally into a dog, owl, bat, wolf or turkey), drink blood from human victims, steal property, cause disease, and the like.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nagual-c08",
+          "source_id": "nagual-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In some indigenous communities the nagual is integrated into the religious hierarchy; the community knows who is a nagual, tolerating, fearing and respecting them, and nagualli are hired to remove curses cast by other nagualli.",
+          "statement_id": "Di sebagian komunitas adat, nagual diintegrasikan ke dalam hierarki keagamaan; komunitas tahu siapa nagual, menoleransi, menakuti, dan menghormatinya, dan nagualli dibayar untuk mencabut kutukan yang dilontarkan nagualli lain.",
+          "quote": "In some indigenous communities the nagual is integrated into the religious hierarchy. The community knows who is a nagual, tolerating, fearing and respecting them. Nagualli are hired to remove curses cast by other nagualli.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nagual-c09",
+          "source_id": "nagual-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Aztec mythology the god Tezcatlipoca was the protector of nagualism, because his tonal was the jaguar and he governed the distribution of wealth.",
+          "statement_id": "Dalam mitologi Aztec, dewa Tezcatlipoca adalah pelindung nagualisme, karena tonal-nya adalah jaguar dan ia mengatur pembagian kekayaan.",
+          "quote": "In Aztec mythology the god Tezcatlipoca was the protector of nagualism, because his tonal was the jaguar and he governed the distribution of wealth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nagual-c10",
+          "source_id": "nagual-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The nagual trait is acquired at birth, along with other characteristics associated with a person's birth day.",
+          "statement_id": "Sifat nagual diperoleh sejak lahir, bersama ciri lain yang terkait dengan hari kelahiran seseorang.",
+          "quote": "The nagual trait is acquired at birth, along with other characteristics associated with a person's birth day.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nagual-c11",
+          "source_id": "nagual-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Kaplan concludes that in Oaxaca the belief in naguals as evil shape-shifting witches is common among both indigenous and Mestizo populations, while the belief in animal spirit companions is exclusively indigenous.",
+          "statement_id": "Kaplan menyimpulkan bahwa di Oaxaca kepercayaan pada nagual sebagai penyihir jahat pengubah wujud lazim di kalangan penduduk adat dan mestizo, sedangkan kepercayaan pada pendamping roh hewan menurutnya eksklusif milik masyarakat adat.",
+          "quote": "Kaplan concludes that, in Oaxaca, the belief in naguals as evil, shape shifting witches is common in both indigenous and Mestizo populations. According to Kaplan, the belief in animal spirit companions is exclusively indigenous.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nagual-c12",
+          "source_id": "nagual-s1",
+          "host": "en.wikipedia.org",
+          "statement": "For some groups such as the Mixes, Chinantecos, Triquis, or Tacuates, those who can control their nahual or alterego are protectors of the people, natural resources and culture of the community, highly revered but also feared.",
+          "statement_id": "Bagi sebagian kelompok seperti Mixe, Chinanteco, Triqui, atau Tacuate, mereka yang dapat mengendalikan nahual atau alter ego-nya adalah pelindung masyarakat, sumber daya alam, dan budaya komunitas, sangat dihormati tetapi juga ditakuti.",
+          "quote": "This is certain for some groups and communities, but for others, such as the Mixes, Chinantecos, Triquis, or Tacuates, those who can control their nahual or alterego are protectors of the people, natural resources and culture of the community, highly revered, but also feared.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nagual-c13",
+          "source_id": "nagual-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The practice of Nagualism was often accompanied by use of hallucinogens, including peyote, ololiuqui, and psylocibin mushrooms known as teonanácatl.",
+          "statement_id": "Praktik nagualisme sering disertai pemakaian halusinogen, termasuk peyote, ololiuqui, dan jamur psilosibin yang dikenal sebagai teonanácatl.",
+          "quote": "The practice of Nagualism was often accompanied by use of hallucinogens, including peyote, ololiuqui, and psylocibin mushrooms known as teonanácatl.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nagual-c14",
+          "source_id": "nagual-s2",
+          "host": "gutenberg.org",
+          "statement": "The early missionaries to New Spain often speak of the naualli (plural nanahualtin), masters of mystic knowledge, dealers in the black art, wizards or sorcerers; they were not always evil-minded, though they seem to have been generally feared.",
+          "statement_id": "Para misionaris awal di Spanyol Baru sering menyebut naualli (jamak nanahualtin), ahli pengetahuan mistik, pelaku ilmu hitam, penyihir; mereka tidak selalu berniat jahat, meski tampaknya umumnya ditakuti.",
+          "quote": "The early missionaries to New Spain often speak of the naualli (plural, nanahualtin), masters of mystic knowledge, dealers in the black art, wizards or sorcerers. They were not always evil-minded persons, though they seem to have been generally feared.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nagual-c15",
+          "source_id": "nagual-s2",
+          "host": "gutenberg.org",
+          "statement": "In a quotation from Sahagún, the naualli, or magician, is he who frightens men and sucks the blood of children during the night; he is well skilled in this trade, knows all the arts of sorcery (nauallotl), and employs them with cunning and ability.",
+          "statement_id": "Dalam kutipan dari Sahagún, naualli atau penyihir adalah orang yang menakuti manusia dan mengisap darah anak-anak pada malam hari; ia mahir dalam kerja ini, menguasai semua seni sihir (nauallotl), dan memakainya dengan cerdik dan cakap.",
+          "quote": "The earliest source of information about them is Father Sahagun, who, in his invaluable History, has the following paragraph: ... “The naualli, or magician, is he who frightens men and sucks the blood of children during the night. He is well skilled in the practice of this trade, he knows all the arts of sorcery (nauallotl) and employs them with cunning and ability;",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nagual-c16",
+          "source_id": "nagual-s2",
+          "host": "gutenberg.org",
+          "statement": "Those who have recourse to such arts for evil intents injure the bodies of their victims, cause them to lose their reason and smother them; these are wicked men and necromancers.",
+          "statement_id": "Mereka yang memakai seni semacam itu untuk maksud jahat mencederai tubuh korban, membuat mereka kehilangan akal, dan mencekik mereka; mereka adalah orang jahat dan pemanggil arwah.",
+          "quote": "Those who have recourse to such arts for evil intents injure the bodies of their victims, cause them to lose their reason and smother them. These are wicked men and necromancers.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nagual-c17",
+          "source_id": "nagual-s2",
+          "host": "gutenberg.org",
+          "statement": "According to the quoted instruction, the nanahualtin conjure the clouds when there is danger of hail so the crops are not injured, and can make a stick look like a serpent, a mat like a centipede, and a piece of stone like a scorpion.",
+          "statement_id": "Menurut kutipan itu, para nanahualtin menghalau awan ketika ada bahaya hujan es agar tanaman tidak rusak, dan dapat membuat tongkat tampak seperti ular, tikar seperti lipan, dan batu seperti kalajengking.",
+          "quote": "nanahualtin, who conjure the clouds when there is danger of hail, so that the crops may not be injured. They can also make a stick look like a serpent, a mat like a centipede, a piece of stone like a scorpion, and similar deceptions.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nagual-c18",
+          "source_id": "nagual-s2",
+          "host": "gutenberg.org",
+          "statement": "Others of the nanahualtin, according to the quotation, transform themselves in appearance into a tiger, a dog or a weasel, and others take the form of an owl, a cock, or a weasel.",
+          "statement_id": "Nanahualtin lain, menurut kutipan itu, mengubah diri secara kasatmata menjadi harimau, anjing, atau musang; yang lain mengambil rupa burung hantu, ayam jantan, atau musang.",
+          "quote": "Others of these nanahualtin will transform themselves to all appearances (segun la aparencia), into a tiger, a dog or a weasel. Others again will take the form of an owl, a cock, or a weasel;",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nagual-c19",
+          "source_id": "nagual-s2",
+          "host": "gutenberg.org",
+          "statement": "The belief in a personal guardian spirit was one of the fundamental doctrines of Nagualism; by consulting the calendar the appropriate nagual was discovered and assigned, a prominent feature of the native cult that has never been abandoned.",
+          "statement_id": "Kepercayaan pada roh pelindung pribadi adalah salah satu doktrin dasar nagualisme; dengan berkonsultasi pada kalender, nagual yang sesuai ditemukan dan ditetapkan, dan ini merupakan ciri menonjol dalam kultus pribumi yang tak pernah ditinggalkan.",
+          "quote": "The belief in a personal guardian spirit was one of the fundamental doctrines of Nagualism ... By consulting it the appropriate nagual was discovered and assigned, and this was certainly a prominent feature in the native cult and has never been abandoned.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nagual-c20",
+          "source_id": "nagual-s2",
+          "host": "gutenberg.org",
+          "statement": "In the Nahuatl language there are a number of derivatives from the same root, na, among them the word Nahuatl itself, all of them containing the idea 'to know' or 'knowledge'.",
+          "statement_id": "Dalam bahasa Nahuatl terdapat sejumlah turunan dari akar yang sama, na, termasuk kata Nahuatl itu sendiri, yang semuanya mengandung gagasan 'mengetahui' atau 'pengetahuan'.",
+          "quote": "We do find, however, in the Nahuatl language ... a number of derivatives from the same root, na, among them this very word, Nahuatl, all of them containing the idea “to know,” or “knowledge.”",
+          "context": "etymology",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "32daab8ef04f0d953bdac503da64f669173b428667c8b3a72d969f74db360c65"
+      "images": []
     },
     {
       "slug": "sewer-alligator",
-      "file": "batch-142-fix-1.md",
+      "file": "batch-142-fix-6.md",
+      "entry_sha256": "08eabba7f7b85681822c09c45bf0850a59673eec93bbbecd41c0fd1eb7998482",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 19,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "sewer-alligator-c01",
@@ -7924,7 +8218,7 @@
           "statement": "Some cities in which sewer alligators have supposedly been found are New York City and Paris.",
           "statement_id": "Beberapa kota yang konon ditemukan aligator gorong-gorong adalah New York City dan Paris.",
           "quote": "Some cities in which sewer alligators have supposedly been found are New York City and Paris.",
-          "context": "traditional-belief",
+          "context": "modern-popular-culture",
           "status": "exact"
         },
         {
@@ -7934,17 +8228,17 @@
           "statement": "Accounts of fully grown sewer alligators are unproven, but small alligators are sometimes rescued from sewers.",
           "statement_id": "Kisah aligator dewasa di gorong-gorong belum terbukti tetapi buaya kecil terkadang diselamatkan.",
           "quote": "Accounts of fully grown sewer alligators are unproven, but small alligators are sometimes rescued from sewers.",
-          "context": "scholarly-interpretation",
+          "context": "modern-popular-culture",
           "status": "exact"
         },
         {
           "id": "sewer-alligator-c03",
           "source_id": "sewer-alligator-s1",
           "host": "en.wikipedia.org",
-          "statement": "It suggests that alligators navigate the city's sewers, preying on rats and other refuse, and posing a threat to sewer workers, who are said to carry firearms for protection.",
-          "statement_id": "Legenda menyebut aligator berenang di gorong-gorong memangsa tikus dan mengancam pekerja saluran air.",
-          "quote": "It suggests that alligators navigate the city's sewers, preying on rats and other refuse, and posing a threat to sewer workers, who are said to carry firearms for protection.",
-          "context": "traditional-belief",
+          "statement": "The legend of alligators inhabiting the sewer system of New York City is a widely circulated urban myth; it suggests that alligators navigate the city's sewers, preying on rats and other refuse, and posing a threat to sewer workers, who are said to carry firearms for protection.",
+          "statement_id": "Legenda tentang aligator yang menghuni sistem saluran air New York City adalah mitos urban yang tersebar luas; ia menyatakan bahwa aligator menyusuri saluran kota, memangsa tikus dan sampah lain, serta mengancam pekerja saluran yang konon membawa senjata api untuk perlindungan.",
+          "quote": "The legend of alligators inhabiting the sewer system of New York City is a widely circulated urban myth. It suggests that alligators navigate the city's sewers, preying on rats and other refuse, and posing a threat to sewer workers, who are said to carry firearms for protection.",
+          "context": "modern-popular-culture",
           "status": "exact"
         },
         {
@@ -7954,37 +8248,181 @@
           "statement": "Following reports of sewer alligators in the 1930s, the story built up over the decades and became more of a contemporary legend.",
           "statement_id": "Setelah laporan tahun 1930-an kisah ini berkembang menjadi legenda kontemporer.",
           "quote": "Following reports of sewer alligators in the 1930s, the story built up over the decades and became more of a contemporary legend.",
-          "context": "historical-record",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sewer-alligator-c05",
+          "source_id": "sewer-alligator-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The sewer alligator is an urban legend about alligators that are said to live in sewers outside alligators' native range.",
+          "statement_id": "Aligator saluran air adalah legenda urban tentang aligator yang dikatakan hidup di saluran air di luar wilayah asli aligator.",
+          "quote": "The sewer alligator is an urban legend about alligators that are said to live in sewers outside alligators' native range.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sewer-alligator-c06",
+          "source_id": "sewer-alligator-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Stories date back to the late 1920s and early 1930s.",
+          "statement_id": "Kisah-kisahnya berasal dari akhir 1920-an dan awal 1930-an.",
+          "quote": "Stories date back to the late 1920s and early 1930s.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sewer-alligator-c07",
+          "source_id": "sewer-alligator-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Escaped or abandoned alligators may survive for a short time in New York's sewers but cannot live there long-term because the sewers are too cold and contain harmful bacteria from human waste; sewer workers say there is no hidden population of alligators living underground.",
+          "statement_id": "Aligator yang kabur atau dibuang mungkin bertahan sebentar di saluran air New York, tetapi tidak dapat hidup lama di sana karena saluran terlalu dingin dan mengandung bakteri berbahaya dari limbah manusia; pekerja saluran mengatakan tidak ada populasi tersembunyi aligator di bawah tanah.",
+          "quote": "Escaped or abandoned alligators may survive for a short time in New York's sewers. However, they cannot live there long-term because the sewers are too cold and contain harmful bacteria from human waste. Sewer workers say there is no hidden population of alligators living underground.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sewer-alligator-c08",
+          "source_id": "sewer-alligator-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the lore, these alligators are often described as large and vicious, with some attributing a lack of pigmentation to their purported status as 'albinos'.",
+          "statement_id": "Menurut kisahnya, aligator ini sering digambarkan besar dan buas, dengan sebagian orang mengaitkan kurangnya pigmen dengan status mereka yang konon 'albino'.",
+          "quote": "According to the lore, these alligators are often described as large and vicious, with some attributing a lack of pigmentation to their purported status as \"albinos.\"",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sewer-alligator-c09",
+          "source_id": "sewer-alligator-s1",
+          "host": "en.wikipedia.org",
+          "statement": "As late as the middle of the 20th century, souvenir shops in Florida sold live baby alligators as novelty souvenirs; tourists from New York City bought them and tried to raise them as pets, and when the alligator grew too large, the family flushed it down the toilet.",
+          "statement_id": "Hingga pertengahan abad ke-20, toko suvenir di Florida menjual bayi aligator hidup sebagai oleh-oleh; turis dari New York City membelinya dan mencoba memeliharanya, dan ketika aligator terlalu besar, keluarga itu membuangnya ke toilet.",
+          "quote": "As late as the middle of the 20th century, souvenir shops in Florida sold live baby alligators (in small fish tanks) as novelty souvenirs. Tourists from New York City would buy a baby alligator and try to raise it as a pet. When the alligator grew too large for comfort, the family would proceed to flush the reptile down the toilet.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sewer-alligator-c10",
+          "source_id": "sewer-alligator-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some people even spoke of mutant alligators living in the sewers that were exposed to many types of toxic chemical waste, altering them, making them deformed and sometimes larger and strangely coloured.",
+          "statement_id": "Sebagian orang bahkan menyebut aligator mutan yang hidup di saluran air dan terpapar berbagai limbah kimia beracun yang mengubah mereka sehingga cacat, kadang lebih besar, dan berwarna aneh.",
+          "quote": "Some people even spoke of mutant alligators living in the sewers which have been exposed to many different types of toxic chemical waste which altered them, making them deformed and sometimes even larger and with strange colouring.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sewer-alligator-c11",
+          "source_id": "sewer-alligator-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A gigantic mutant alligator based on these myths appears in the 1980 film Alligator.",
+          "statement_id": "Aligator mutan raksasa yang didasarkan pada mitos ini muncul dalam film Alligator (1980).",
+          "quote": "A gigantic mutant alligator based on these myths appears in the 1980 film Alligator.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sewer-alligator-c12",
+          "source_id": "sewer-alligator-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The New York Times reports that the city rescues several alligators each year.",
+          "statement_id": "The New York Times melaporkan bahwa kota itu menyelamatkan beberapa aligator setiap tahun.",
+          "quote": "The New York Times reports that the city rescues several alligators each year.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sewer-alligator-c13",
+          "source_id": "sewer-alligator-s2",
+          "host": "www.straightdope.com",
+          "statement": "On February 10, 1935, the New York Times carried an astonishing report that several teenagers had dragged a live eight-foot alligator out of a sewer in Harlem the previous evening.",
+          "statement_id": "Pada 10 Februari 1935, New York Times memuat laporan mengejutkan bahwa beberapa remaja menyeret aligator hidup sepanjang delapan kaki keluar dari saluran air di Harlem malam sebelumnya.",
+          "quote": "On February 10, 1935, the New York Times carried an astonishing report that several teenagers had dragged a live eight-foot alligator out of a sewer in Harlem the previous evening.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sewer-alligator-c14",
+          "source_id": "sewer-alligator-s2",
+          "host": "www.straightdope.com",
+          "statement": "The locals at the time speculated that the animal had fallen from a boat passing through the nearby Harlem River and had swum 150 yards up a storm conduit.",
+          "statement_id": "Warga setempat saat itu menduga hewan itu jatuh dari perahu yang lewat di Sungai Harlem di dekatnya dan berenang 150 yard menyusuri saluran air hujan.",
+          "quote": "The locals at the time speculated that the animal had fallen from a boat passing through the nearby Harlem River and had swum 150 yards up a storm conduit.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sewer-alligator-c15",
+          "source_id": "sewer-alligator-s2",
+          "host": "www.straightdope.com",
+          "statement": "According to The World Beneath the City (1959), a book by Robert Daley about New York's underground utilities, a former sewer superintendent named Teddy May said he had seen alligators with his own eyes during an inspection tour around 1935.",
+          "statement_id": "Menurut The World Beneath the City (1959), buku Robert Daley tentang utilitas bawah tanah New York, mantan pengawas saluran bernama Teddy May mengaku melihat sendiri aligator saat inspeksi sekitar 1935.",
+          "quote": "According to The World Beneath the City (1959), a book by Robert Daley about New York’s underground utilities, a former sewer superintendent named Teddy May said he had seen alligators with his own eyes during an inspection tour around 1935.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sewer-alligator-c16",
+          "source_id": "sewer-alligator-s2",
+          "host": "www.straightdope.com",
+          "statement": "May had heard repeated reports of subterranean gators from sewer workers and was startled to find his men weren't kidding; the animals averaged about two feet in length and apparently hung out in some of the smaller branch pipes where the water flowed relatively slowly.",
+          "statement_id": "May telah berulang kali mendengar laporan tentang aligator bawah tanah dari para pekerja dan terkejut mendapati mereka tidak bercanda; hewan itu rata-rata sepanjang sekitar dua kaki dan tampaknya berkumpul di pipa cabang kecil tempat air mengalir relatif lambat.",
+          "quote": "May had heard repeated reports of subterranean gators from sewer workers, and was startled to find that his men weren’t kidding. The animals averaged about two feet in length, and apparently hung out in some of the smaller branch pipes where the water flowed relatively slowly.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sewer-alligator-c17",
+          "source_id": "sewer-alligator-s2",
+          "host": "www.straightdope.com",
+          "statement": "The pitiless May was no animal lover and ordered the gators exterminated; sewer workers used poison and a few zealots even tried rifles and pistols, and in a few months they were all gone.",
+          "statement_id": "May tidak berbelas kasihan dan memerintahkan aligator dimusnahkan; para pekerja memakai racun dan beberapa orang bersemangat bahkan mencoba senapan dan pistol, dan dalam beberapa bulan semuanya lenyap.",
+          "quote": "But the pitiless May was no animal lover either, and he ordered the gators exterminated. Sewer workers used poison and a few zealots even tried rifles and pistols. In a few months they were all gone.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sewer-alligator-c18",
+          "source_id": "sewer-alligator-s2",
+          "host": "www.straightdope.com",
+          "statement": "Though nobody knew for sure how the alligators got there, the most plausible theory was that they had been dumped into the sewers by parents who had bought them for their children and later grew tired of them.",
+          "statement_id": "Meski tak ada yang yakin bagaimana aligator itu sampai di sana, teori paling masuk akal adalah bahwa mereka dibuang ke saluran oleh orang tua yang semula membelinya untuk anak-anak lalu bosan.",
+          "quote": "Though nobody knew for sure how the alligators got there, the most plausible theory was that they had been dumped into the sewers by parents who had originally bought them for their children and later grew tired of them.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "sewer-alligator-c19",
+          "source_id": "sewer-alligator-s2",
+          "host": "www.straightdope.com",
+          "statement": "The more rococo versions of the legend claim that the animals are blind and white: blind because it is too dark to see, and white because they get no sunlight.",
+          "statement_id": "Versi legenda yang lebih berlebihan menyatakan bahwa hewan itu buta dan putih: buta karena terlalu gelap untuk melihat dan putih karena tak terkena sinar matahari.",
+          "quote": "The more rococo versions of the legend claim that the animals are blind and white — blind because it’s too dark to see, and white because they don’t get any sunlight.",
+          "context": "modern-popular-culture",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "1f5cb743d27faecc43637cf978a37054f13db58bcc1ef2f9b6f754eaac69d77f"
+      "images": []
     },
     {
       "slug": "cihuateteo",
-      "file": "batch-142.md",
+      "file": "batch-142-fix-6.md",
+      "entry_sha256": "ff9cd5026c760408f92bd0cdbe538d32ad3cf368c75e8fb610fe9e62167cccba",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cihuateteo-c01",
           "source_id": "cihuateteo-s1",
           "host": "en.wikipedia.org",
-          "statement": "In Aztec mythology, the Cihuateteo (/siːˌwɑːtɪˈteɪoʊ/; Classical Nahuatl: Cihuātēteoh , in singular Cihuātēotl ) or 'Divine Women', were the spirits of women who died in childbirth.",
-          "statement_id": "Dalam mitologi Aztec Cihuateteo adalah roh wanita yang meninggal saat melahirkan.",
-          "quote": "In Aztec mythology, the Cihuateteo (/siːˌwɑːtɪˈteɪoʊ/; Classical Nahuatl: Cihuātēteoh , in singular Cihuātēotl ) or \"Divine Women\", were the spirits of women who died in childbirth.",
+          "statement": "In Aztec mythology, the Cihuateteo, or 'Divine Women', were the spirits of women who died in childbirth.",
+          "statement_id": "Dalam mitologi Aztec, Cihuateteo atau 'Perempuan Ilahi' adalah roh perempuan yang meninggal saat melahirkan.",
+          "quote": "In Aztec mythology, the Cihuateteo ... or \"Divine Women\", were the spirits of women who died in childbirth.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -8017,27 +8455,141 @@
           "quote": "Roadside shrines were often erected to appease them, as they were believed to steal children, cause madness and seizures, and induce men to adultery.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "cihuateteo-c05",
+          "source_id": "cihuateteo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to tradition, a woman in labor was said to capture the spirit of her newborn child much as a warrior captures his opponent in battle; these spirits are also associated with the west, where the sun sets each day.",
+          "statement_id": "Menurut tradisi, perempuan yang sedang bersalin dikatakan menangkap roh bayinya seperti prajurit menangkap lawan dalam pertempuran; roh-roh ini juga dikaitkan dengan barat, tempat matahari terbenam setiap hari.",
+          "quote": "According to tradition, a woman in labor was said to capture the spirit of her newborn child similar to the way a warrior captures his opponent in battle. These spirits are also associated with the west, the place where the sun sets each day.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cihuateteo-c06",
+          "source_id": "cihuateteo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Cihuateteo resided in a region in the west known as Cihuatlampa, the 'place of women'; each day they guided the sun into the west from noon until sunset, and are occasionally suggested to have even borne it through the underworld until it rose again.",
+          "statement_id": "Cihuateteo tinggal di wilayah barat bernama Cihuatlampa, 'tempat para perempuan'; setiap hari mereka menuntun matahari ke barat dari tengah hari hingga terbenam, dan kadang disebut bahkan membawanya melewati dunia bawah sampai terbit lagi.",
+          "quote": "The Cihuateteo resided in a region in the west known as Cihuatlampa, the “place of women.” Each day, they guided the sun into the west from noon until sunset, and are occasionally suggested to have even borne it through the underworld until it rose again.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cihuateteo-c07",
+          "source_id": "cihuateteo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Cihuateteo were aided by the spirits of male warriors, and this practice of guiding the sun was seen as exclusive to these two groups of the deceased, an honor not bestowed on any other individuals.",
+          "statement_id": "Cihuateteo dibantu oleh roh prajurit pria, dan tugas menuntun matahari ini dipandang eksklusif bagi kedua kelompok orang mati itu, sebuah kehormatan yang tidak diberikan kepada siapa pun yang lain.",
+          "quote": "The Cihuateteo resided in a region in the west known as Cihuatlampa ... They were aided by the spirits of male warriors, and this practice of guiding the sun was seen as exclusive to these two groups of the deceased—it was an honor that was not bestowed on any other individuals.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cihuateteo-c08",
+          "source_id": "cihuateteo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "On five specific days in the Aztec calendar, the cihuateteo descended to the earth: 1 Deer, 1 Rain, 1 Monkey, 1 House, and 1 Eagle.",
+          "statement_id": "Pada lima hari tertentu dalam kalender Aztec, cihuateteo turun ke bumi: 1 Rusa, 1 Hujan, 1 Monyet, 1 Rumah, dan 1 Elang.",
+          "quote": "On five specific days in the Aztec calendar, the cihuateteo descended to the earth: 1 Deer, 1 Rain, 1 Monkey, 1 House, and 1 Eagle.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cihuateteo-c09",
+          "source_id": "cihuateteo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the case of the woman's death, special funerary practices were carried out, as the body of a woman who had died in childbirth was believed to possess special powers and magic after the soul departed.",
+          "statement_id": "Bila perempuan itu meninggal, dilakukan praktik pemakaman khusus karena jasad perempuan yang meninggal saat melahirkan diyakini memiliki kekuatan dan sihir khusus setelah jiwanya pergi.",
+          "quote": "In the case of the death of the woman, special funerary practices were carried out, as the body of a woman who had died in childbirth was believed to possess special powers and magic following the departure of the soul from the body.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cihuateteo-c10",
+          "source_id": "cihuateteo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "This was deemed necessary to protect the woman's remains from male warriors; parts of the body believed to be especially potent relics for warriors were the left middle finger and the hair.",
+          "statement_id": "Hal ini dianggap perlu untuk melindungi jasad perempuan itu dari prajurit pria; bagian tubuh yang diyakini sangat ampuh sebagai relikui bagi prajurit adalah jari tengah kiri dan rambut.",
+          "quote": "This was deemed necessary due to the need to protect the woman's human remains from male warriors. Parts of the body believed to be especially potent relics for warriors were the left middle finger and the hair.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cihuateteo-c11",
+          "source_id": "cihuateteo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Cihuateteo can be characterized as 'fearsome figures with clenched, claw-like fists, macabre, bared teeth and gums and aggressive poses'.",
+          "statement_id": "Cihuateteo dicirikan sebagai 'sosok menakutkan dengan kepalan mirip cakar, gigi dan gusi menyeringai yang seram, dan sikap agresif'.",
+          "quote": "Cihuateteo can be characterized as “fearsome figures with clenched, claw-like fists, macabre, bared teeth and gums and aggressive poses.”",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cihuateteo-c12",
+          "source_id": "cihuateteo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Cihuateteo are also often depicted with swirling, unkempt orange hair and skirts fastened with snake belts.",
+          "statement_id": "Cihuateteo juga sering digambarkan berambut jingga acak-acakan yang berputar dan berok yang diikat sabuk ular.",
+          "quote": "Oftentimes, cihuateteo are also depicted with swirling, unkempt orange hair and skirts fastened with snake belts.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cihuateteo-c13",
+          "source_id": "cihuateteo-s2",
+          "host": "gutenberg.org",
+          "statement": "Spence names such beings as the Ciuapipiltin ('Honoured Women'), the spirits of women who had died in childbed, a death highly venerated by the Mexicans, who regarded the woman who perished thus as the equal of a warrior who met his fate in battle.",
+          "statement_id": "Spence menyebut makhluk seperti Ciuapipiltin ('Perempuan Terhormat'), roh perempuan yang meninggal saat bersalin, kematian yang sangat dihormati orang Meksiko, yang menganggap perempuan yang gugur demikian setara dengan prajurit yang gugur di medan perang.",
+          "quote": "such beings as the Ciuapipiltin (Honoured Women), the spirits of those women who had died in childbed, a death highly venerated by the Mexicans, who regarded the woman who perished thus as the equal of a warrior who met his fate in battle.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cihuateteo-c14",
+          "source_id": "cihuateteo-s2",
+          "host": "gutenberg.org",
+          "statement": "According to this source these spirits were actively malevolent; they were supposed to afflict infants with various diseases, and Mexican parents took every precaution not to let their children out of doors on the days when their influence was believed to be strong.",
+          "statement_id": "Menurut sumber ini, roh-roh itu secara aktif jahat; mereka dianggap menimpakan berbagai penyakit pada bayi, dan orang tua Meksiko berhati-hati agar anak mereka tidak keluar rumah pada hari-hari ketika pengaruh roh itu dipercaya kuat.",
+          "quote": "Strangely enough, these spirits were actively malevolent ... It was supposed that they afflicted infants with various diseases, and Mexican parents took every precaution not to permit their offspring out of doors on the days when their influence was believed to be strong.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cihuateteo-c15",
+          "source_id": "cihuateteo-s2",
+          "host": "gutenberg.org",
+          "statement": "These spirits were said to haunt the crossroads and even to enter the bodies of weakly people to work their evil will; the insane were supposed to be under their especial visitation, and temples were raised at the crossroads to placate them, with loaves of bread shaped like butterflies dedicated to them.",
+          "statement_id": "Roh-roh itu dikatakan menghantui persimpangan jalan dan bahkan memasuki tubuh orang lemah demi menjalankan kehendak jahatnya; orang gila dianggap berada di bawah kunjungan khusus mereka, dan kuil dibangun di persimpangan untuk menenangkan mereka dengan roti berbentuk kupu-kupu yang dipersembahkan.",
+          "quote": "Strangely enough, these spirits were actively malevolent ... They were said to haunt the cross-roads, and even to enter the bodies of weakly people, the better to work their evil will. The insane were supposed to be under their especial visitation. Temples were raised at the cross-roads in order to placate them, and loaves of bread, shaped like butterflies, were dedicated to them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cihuateteo-c16",
+          "source_id": "cihuateteo-s2",
+          "host": "gutenberg.org",
+          "statement": "The Ciuapipiltin were represented as having faces of a dead white and as blanching their arms and hands with a white powder known as tisatl.",
+          "statement_id": "Ciuapipiltin digambarkan berwajah putih pucat seperti mayat dan memutihkan lengan serta tangan dengan bubuk putih bernama tisatl.",
+          "quote": "such beings as the Ciuapipiltin (Honoured Women) ... They were represented as having faces of a dead white, and as blanching their arms and hands with a white powder known as tisatl.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "de64de6d2372840b30f250599c05b6b458f27feff5870784229d4f7ee7fa7dcf"
+      "images": []
     },
     {
       "slug": "cipactli",
-      "file": "batch-142-fix-1.md",
+      "file": "batch-142-fix-6.md",
+      "entry_sha256": "a2b7814eb798fc372bda0fd6122233d64af19c3f4604b5dd89708aa8f8177d66",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "cipactli-c01",
@@ -8053,9 +8605,9 @@
           "id": "cipactli-c02",
           "source_id": "cipactli-s1",
           "host": "en.wikipedia.org",
-          "statement": "Always hungry, every joint on its body was adorned with an extra mouth.",
-          "statement_id": "Selalu lapar, setiap sendi pada tubuhnya dihiasi mulut tambahan.",
-          "quote": "Always hungry, every joint on its body was adorned with an extra mouth.",
+          "statement": "In Aztec mythology, Cipactli was a primeval sea monster, part crocodilian, part fish, and part toad or frog; always hungry, every joint on its body was adorned with an extra mouth.",
+          "statement_id": "Dalam mitologi Aztec, Cipactli adalah monster laut purba, sebagian buaya, sebagian ikan, dan sebagian kodok; selalu lapar, setiap sendi tubuhnya dihiasi mulut tambahan.",
+          "quote": "In Aztec mythology, Cipactli was a primeval sea monster, part crocodilian, part fish, and part toad or frog. Always hungry, every joint on its body was adorned with an extra mouth.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -8063,9 +8615,9 @@
           "id": "cipactli-c03",
           "source_id": "cipactli-s1",
           "host": "en.wikipedia.org",
-          "statement": "The deity Tezcatlipoca sacrificed a foot when he used it as bait to draw the monster nearer.",
-          "statement_id": "Dewa Tezcatlipoca mengorbankan kakinya saat menggunakannya sebagai umpan.",
-          "quote": "The deity Tezcatlipoca sacrificed a foot when he used it as bait to draw the monster nearer.",
+          "statement": "The deity Tezcatlipoca sacrificed a foot when he used it as bait to draw the monster nearer; he and Quetzalcoatl created the earth from its body.",
+          "statement_id": "Dewa Tezcatlipoca mengorbankan sebuah kakinya sebagai umpan untuk menarik monster itu mendekat; ia dan Quetzalcoatl menciptakan bumi dari tubuhnya.",
+          "quote": "The deity Tezcatlipoca sacrificed a foot when he used it as bait to draw the monster nearer. He and Quetzalcoatl created the earth from its body.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -8073,30 +8625,150 @@
           "id": "cipactli-c04",
           "source_id": "cipactli-s1",
           "host": "en.wikipedia.org",
-          "statement": "He and Quetzalcoatl created the earth from its body.",
-          "statement_id": "Ia dan Quetzalcoatl menciptakan bumi dari tubuh monster tersebut.",
-          "quote": "He and Quetzalcoatl created the earth from its body.",
+          "statement": "In other versions, Cipactli is called Tlaltecuhtli, a deity referred to as the 'earth monster'.",
+          "statement_id": "Dalam versi lain, Cipactli disebut Tlaltecuhtli, dewa yang dijuluki 'monster bumi'.",
+          "quote": "In other versions, Cipactli is called Tlaltecuhtli, a deity referred to as the \"earth monster\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cipactli-c05",
+          "source_id": "cipactli-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Cipactli was the first day of the Aztec divinatory count of 13 x 20 days (the tonalpohualli), and Cipactonal 'Sign of Cipactli' was considered to have been the first diviner.",
+          "statement_id": "Cipactli adalah hari pertama dalam hitungan ramalan Aztec 13 x 20 hari (tonalpohualli), dan Cipactonal 'Tanda Cipactli' dianggap sebagai peramal pertama.",
+          "quote": "Cipactli ... was the first day of the Aztec divinatory count of 13 X 20 days (the tonalpohualli) and Cipactonal \"Sign of Cipactli\" was considered to have been the first diviner.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cipactli-c06",
+          "source_id": "cipactli-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Aztec cosmology the crocodile symbolized the earth floating in the primeval waters; according to one Aztec tradition, Teocipactli 'Divine Crocodile' was the name of a survivor of the flood who rescued himself in a canoe and again repopulated the earth.",
+          "statement_id": "Dalam kosmologi Aztec, buaya melambangkan bumi yang mengapung di perairan purba; menurut satu tradisi Aztec, Teocipactli 'Buaya Ilahi' adalah nama penyintas banjir yang menyelamatkan diri dengan kano dan kembali mengisi bumi dengan manusia.",
+          "quote": "In Aztec cosmology, the crocodile symbolized the earth floating in the primeval waters. According to one Aztec tradition, Teocipactli \"Divine Crocodile\" was the name of a survivor of the flood who rescued himself in a canoe and again repopulated the earth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cipactli-c07",
+          "source_id": "cipactli-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Karl A. Taube has noted that among the Formative-period Olmec and the pre-Hispanic Maya, crocodilians were identified with rain-bringing wind, probably because of the widespread belief that wind and rain clouds are 'breathed' out of cave openings in the earth.",
+          "statement_id": "Karl A. Taube mencatat bahwa di kalangan Olmec masa Formatif dan bangsa Maya pra-Hispanik, buaya diidentifikasi dengan angin pembawa hujan, mungkin karena kepercayaan luas bahwa angin dan awan hujan 'dihembuskan' dari mulut gua di bumi.",
+          "quote": "Karl A. Taube has noted that among the Formative-period Olmec and the pre-Hispanic Maya peoples, crocodilians were identified with rain-bringing wind, probably because of the widespread belief that wind and rain clouds are \"breathed\" out of cave openings in the earth.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cipactli-c08",
+          "source_id": "cipactli-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Mayan Popol Vuh, the name of the earthquake demon, Zipacna, apparently derives from Cipactli.",
+          "statement_id": "Dalam Popol Vuh Maya, nama iblis gempa, Zipacna, tampaknya berasal dari Cipactli.",
+          "quote": "In the Mayan Popol Vuh, the name of the earthquake demon, Zipacna, apparently derives from Cipactli.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "cipactli-c09",
+          "source_id": "cipactli-s2",
+          "host": "www.worldhistory.org",
+          "statement": "In the Aztec creation myth, Quetzalcoatl and Tezcatlipoca, taking the form of gigantic snakes, descended from the heavens and found Tlaltecuhtli sitting astride the ocean; in some versions this creature is known as Cipactl or 'spiny one'.",
+          "statement_id": "Dalam mitos penciptaan Aztec, Quetzalcoatl dan Tezcatlipoca dalam wujud ular raksasa turun dari langit dan menemukan Tlaltecuhtli duduk mengangkangi samudra; dalam beberapa versi makhluk ini disebut Cipactl atau 'si berduri'.",
+          "quote": "In the creation mythology of the Aztecs and other Mesoamerican cultures of the Late Postclassic period (13th-16th century CE), the gods Quetzalcoatl and Tezcatlipoca, taking the form of gigantic snakes, descended from the heavens one day and found Tlaltecuhtli sitting astride the ocean. In some versions, this creature is known as Cipactl or 'spiny one.'",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cipactli-c10",
+          "source_id": "cipactli-s2",
+          "host": "www.worldhistory.org",
+          "statement": "The hideous monster, with large fangs, crocodile skin, and gnashing mouths at her elbows and knees, called menacingly for flesh to feast on.",
+          "statement_id": "Monster mengerikan itu, bertaring besar, berkulit buaya, dan bermulut mengatup di siku serta lututnya, menyeru dengan mengancam meminta daging untuk disantap.",
+          "quote": "The hideous monster, with large fangs, crocodile skin, and gnashing mouths at her elbows and knees, called menacingly for flesh to feast on.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cipactli-c11",
+          "source_id": "cipactli-s2",
+          "host": "www.worldhistory.org",
+          "statement": "The two gods realised that the 5th and final cosmos could not possibly prosper with such a fiendish creature roaming the world, so they took it upon themselves to destroy her; in a mighty tussle Tezcatlipoca lost his left foot.",
+          "statement_id": "Kedua dewa menyadari bahwa kosmos kelima dan terakhir tidak mungkin makmur dengan makhluk sekeji itu berkeliaran, sehingga mereka memutuskan menghancurkannya; dalam pergumulan hebat Tezcatlipoca kehilangan kaki kirinya.",
+          "quote": "The two gods realised that the 5th and final cosmos could not possibly prosper with such a fiendish creature roaming the world and so they took it upon themselves to destroy her. A mighty tussle ensued in which Tezcatlipoca lost his left foot.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cipactli-c12",
+          "source_id": "cipactli-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Finally one god took the right hand and left foot while the other took the left hand and right foot, and with a mighty heave they ripped Tlaltecuhtli in two; from the upper half came the sky and the lower half became the earth.",
+          "statement_id": "Akhirnya satu dewa memegang tangan kanan dan kaki kiri sementara yang lain memegang tangan kiri dan kaki kanan, dan dengan tarikan kuat mereka merobek Tlaltecuhtli menjadi dua; dari bagian atas muncul langit dan bagian bawah menjadi bumi.",
+          "quote": "Finally, one god took the right hand and left foot while the other took the left hand and the right foot, and with a mighty heave, they managed to rip Tlaltecuhtli in two. From the upper half came the sky and the other lower half became the earth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cipactli-c13",
+          "source_id": "cipactli-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Thus her skin became grasses and small flowers, her hair the trees, flowers, and herbs, her eyes springs and wells, her nose the smaller mountains and valleys, her shoulders the larger mountains, and her mouth the caves and rivers.",
+          "statement_id": "Maka kulitnya menjadi rumput dan bunga kecil, rambutnya pepohonan, bunga, dan tanaman obat, matanya mata air dan sumur, hidungnya gunung kecil dan lembah, bahunya gunung besar, dan mulutnya gua dan sungai.",
+          "quote": "Thus, her skin became grasses and small flowers; her hair became the trees, flowers, and herbs; her eyes became springs and wells; her nose became the smaller mountains and valleys; her shoulders the larger mountains; and her mouth became the caves and rivers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cipactli-c14",
+          "source_id": "cipactli-s2",
+          "host": "www.worldhistory.org",
+          "statement": "The goddess gained a reputation for an insatiable appetite for the hearts of sacrificial victims; this appetite had to be satisfied or she would cease her nourishment of the earth and crops would fail.",
+          "statement_id": "Sang dewi bahkan dikenal memiliki nafsu makan tak pernah puas akan jantung korban kurban; nafsu itu harus dipenuhi atau ia akan berhenti menyuburkan bumi dan panen akan gagal.",
+          "quote": "Indeed, the goddess gained a reputation for having an insatiable appetite for the hearts of sacrificial victims. This appetite had to be satisfied or the goddess would cease her nourishment of the earth and crops would fail.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cipactli-c15",
+          "source_id": "cipactli-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Another aspect of the goddess was that Tlaltecuhtli was thought to swallow the sun every evening and regurgitate it the next morning at dawn.",
+          "statement_id": "Aspek lain sang dewi adalah bahwa Tlaltecuhtli dianggap menelan matahari setiap malam dan memuntahkannya kembali pada fajar keesokan harinya.",
+          "quote": "Another aspect of the goddess was that Tlaltecuhtli was thought to swallow the sun every evening and regurgitate it the next morning at dawn.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "cipactli-c16",
+          "source_id": "cipactli-s2",
+          "host": "www.worldhistory.org",
+          "statement": "Tlaltecuhtli, 'Earth Lord/Lady', was a Mesoamerican earth goddess associated with fertility; envisioned as a terrible toad monster, her dismembered body gave rise to the world in the Aztec creation myth of the 5th and final cosmos.",
+          "statement_id": "Tlaltecuhtli, 'Penguasa/Nyonya Bumi', adalah dewi bumi Mesoamerika yang dikaitkan dengan kesuburan; digambarkan sebagai monster kodok yang mengerikan, tubuhnya yang dipotong melahirkan dunia dalam mitos penciptaan kosmos kelima dan terakhir Aztec.",
+          "quote": "Tlaltecuhtli, 'Earth Lord/Lady,' was a Mesoamerican earth goddess associated with fertility. Envisioned as a terrible toad monster, her dismembered body gave rise to the world in the Aztec creation myth of the 5th and final cosmos.",
           "context": "traditional-belief",
           "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "acdc6a54963bb355e2cffc017f667bf38b6cbd84be4c3b6c67d6a251accd7c3b"
+      "images": []
     },
     {
       "slug": "mapinguari",
-      "file": "batch-142-fix-1.md",
+      "file": "batch-142-fix-6.md",
+      "entry_sha256": "b02eb0be569a6f605c1538d9feccf8804fe2557e7d3c1c4f0780a6a443d72073",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 23,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Amerika, Utara. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -8139,27 +8811,211 @@
           "quote": "The other recurring feature of the Mapinguari is a large, single eye in either the abdomen or the forehead, like a Cyclops.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "mapinguari-c05",
+          "source_id": "mapinguari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Mapinguari or Mapinguary is a cryptid from Brazilian folklore.",
+          "statement_id": "Mapinguari atau Mapinguary adalah kriptid dari cerita rakyat Brasil.",
+          "quote": "The Mapinguari or Mapinguary is a cryptid from Brazilian folklore.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mapinguari-c06",
+          "source_id": "mapinguari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Câmara Cascudo identified the name Mapinguari as deriving from the Tupi-Guarani mbaé-pi-guari (Guarani: mba'e 'that, the thing' + pĭ 'foot' + guarî 'crooked, twisted'), meaning 'the thing that has a clubbed, twisted, or backwards-turned foot'.",
+          "statement_id": "Câmara Cascudo mengidentifikasi nama Mapinguari berasal dari Tupi-Guarani mbaé-pi-guari (Guarani: mba'e 'itu, benda' + pĭ 'kaki' + guarî 'bengkok, terpuntir'), yang berarti 'benda yang berkaki membulat, terpuntir, atau menghadap ke belakang'.",
+          "quote": "Câmara Cascudo identified the name Mapinguari as deriving from the Tupi-Guarani mbaé-pi-guari (Guarani: mba'e \"that, the thing\" + pĭ \"foot\" + guarî \"crooked, twisted\") meaning \"the thing that has a clubbed, twisted, or backwards-turned foot\".",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "mapinguari-c07",
+          "source_id": "mapinguari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Mapinguari is known to the Karitiana people of Brazil as Kida harara ('laughing beast'), Kida so'emo ('beast with black face') or Owoj/Owojo (lit. 'maternal grandfather' or 'mother's brother's son').",
+          "statement_id": "Bagi suku Karitiana di Brasil, Mapinguari dikenal sebagai Kida harara ('binatang tertawa'), Kida so'emo ('binatang berwajah hitam'), atau Owoj/Owojo (harfiah 'kakek dari pihak ibu' atau 'anak saudara laki-laki ibu').",
+          "quote": "The Mapinguari is known to the Karitiana people of Brazil as Kida harara (Karitiâna: \"laughing beast\"), Kida so'emo (\"beast with black face\") or Owoj/Owojo (lit. \"maternal grandfather\" or \"mother's brother's son\").",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mapinguari-c08",
+          "source_id": "mapinguari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Descriptions of the alleged creature portray a giant monkey with a simian face; it is purportedly hairy like a spider monkey, with long red, brown, or black hair claimed to be dense enough to make it effectively bulletproof save the area near the navel, alleged to be the only place vulnerable to gunshots.",
+          "statement_id": "Deskripsi makhluk yang diduga itu menggambarkan monyet raksasa berwajah mirip kera; ia konon berbulu seperti monyet laba-laba dengan rambut panjang merah, cokelat, atau hitam yang diklaim cukup rapat hingga kebal peluru, kecuali area dekat pusar yang diduga satu-satunya tempat rentan terhadap tembakan.",
+          "quote": "Descriptions of the alleged creature portray a giant monkey with a likewise simian face ... It is purportedly hairy like a spider monkey, possessing long red, brown, or black hair, which is claimed to be dense enough to render the animal effectively bulletproof save only the area near the navel, which is further alleged to be the only place vulnerable to gunshots.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mapinguari-c09",
+          "source_id": "mapinguari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Mapinguari is a man-eater that eats its victims head-first, chewing the head slowly as though it were chewing tobacco.",
+          "statement_id": "Mapinguari adalah pemakan manusia yang memakan korbannya dari kepala; ia mengunyah kepala korban perlahan seperti mengunyah tembakau.",
+          "quote": "The Mapinguari is a man-eater that eats its victims head-first. It chews its victim's head slowly, as though it were chewing tobacco.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mapinguari-c10",
+          "source_id": "mapinguari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Mapinguari is variously said to be nocturnal, crepuscular, or diurnal and to lie in wait in the dim light of the deep forest before lunging to attack; it announces itself with loud screaming, frightening humans into flight.",
+          "statement_id": "Mapinguari dikatakan aktif pada malam, senja, atau siang, dan menunggu dalam cahaya redup hutan dalam sebelum menerkam; ia menandai kehadirannya dengan jeritan keras yang membuat manusia lari ketakutan.",
+          "quote": "The Mapinguari is a man-eater that eats its victims head-first. ... It is variously said to be nocturnal, crepuscular, or diurnal, and to lay in wait in the dim light of the deep forest before lunging to attack. It announces itself with loud screaming, frightening humans into flight",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mapinguari-c11",
+          "source_id": "mapinguari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Acre, it was said that Indigenous people who attain an advanced age transform into Mapinguari.",
+          "statement_id": "Di Acre dikatakan bahwa orang Pribumi yang mencapai usia lanjut berubah menjadi Mapinguari.",
+          "quote": "In Acre, it was said that Indigenous people who attain an advanced age transform into Mapinguari.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mapinguari-c12",
+          "source_id": "mapinguari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mapinguari dung is claimed to resemble the droppings of a horse.",
+          "statement_id": "Kotoran Mapinguari diklaim menyerupai kotoran kuda.",
+          "quote": "Mapinguari dung is claimed to resemble the droppings of a horse.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mapinguari-c13",
+          "source_id": "mapinguari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A rubber tapper (seringueiro) quoted in 1928 claimed he had gone hunting while his workmate stayed in their shared hut on the Sunday; returning, he found his companion being devoured by the Mapinguari, which had jaguar-like claws and a mouth 'as large as a lapel' reaching from the face to the stomach.",
+          "statement_id": "Seorang penyadap karet (seringueiro) yang dikutip pada 1928 mengaku pergi berburu sementara rekannya tinggal di pondok pada hari Minggu; saat kembali ia mendapati temannya sedang dimakan Mapinguari yang bercakar seperti jaguar dan bermulut 'sebesar kerah jas' dari wajah sampai perut.",
+          "quote": "A rubber tapper (seringueiro) quoted in 1928 claimed that he had gone hunting in the woods while his workmate remained in their shared hut for the Sunday. When the rubber tapper returned to their dwellings, he found his companion being devoured by the Mapinguari, which had jaguar-like claws and a mouth \"as large as a lapel\", reaching from the face to the stomach.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mapinguari-c14",
+          "source_id": "mapinguari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Mapinguari was believed to haunt the forests of Pará, Amazonas, and Acre into the 20th century.",
+          "statement_id": "Mapinguari dipercaya menghantui hutan-hutan Pará, Amazonas, dan Acre hingga abad ke-20.",
+          "quote": "The Mapinguari was believed to haunt the forests of Pará, Amazonas, and Acre into the 20th century.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mapinguari-c15",
+          "source_id": "mapinguari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Although a legend rooted in the folklore of the Indigenous peoples of Brazil, the Mapinguari shares several similarities with the Afro-Brazilian Quibungo.",
+          "statement_id": "Meski legenda yang berakar pada cerita rakyat masyarakat adat Brasil, Mapinguari memiliki beberapa kemiripan dengan Quibungo dari tradisi Afro-Brasil.",
+          "quote": "Although a legend rooted in the folklore of the Indigenous peoples of Brazil, the Mapinguari shares several similarities with the Afro-Brazilian Quibungo.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mapinguari-c16",
+          "source_id": "mapinguari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Bernard Heuvelmans (1958) speculated that the Mapinguari was an unknown primate, akin to Bigfoot.",
+          "statement_id": "Bernard Heuvelmans (1958) menduga Mapinguari adalah primata tak dikenal, mirip Bigfoot.",
+          "quote": "Bernard Heuvelmans (1958) speculated that the Mapinguari was an unknown primate, akin to Bigfoot.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mapinguari-c17",
+          "source_id": "mapinguari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In a 1993 paper, David C. Oren suggested that the Mapinguari might be based on recent sightings of an extinct ground sloth.",
+          "statement_id": "Dalam makalah 1993, David C. Oren mengusulkan bahwa Mapinguari mungkin didasarkan pada penampakan terbaru sloth tanah yang sudah punah.",
+          "quote": "In a 1993 paper, David C. Oren suggested that the Mapinguari might be based on recent sightings of an extinct ground sloth.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mapinguari-c18",
+          "source_id": "mapinguari-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Geobiologist Paul S. Martin (2005) argued against any credible possibility of ground sloth survival, pointing out that no ground sloth remains had been found in Holocene fossil records.",
+          "statement_id": "Geobiolog Paul S. Martin (2005) menolak kemungkinan kredibel sloth tanah bertahan hidup, dengan menunjukkan bahwa tak ada sisa sloth tanah ditemukan dalam catatan fosil Holosen.",
+          "quote": "Geobiologist Paul S. Martin (2005) argued against any credible possibility of ground sloth survival, pointing out that no ground sloth remains had been found in Holocene fossil records.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mapinguari-c19",
+          "source_id": "mapinguari-s2",
+          "host": "skeptoid.com",
+          "statement": "The mapinguari has traditionally been one of many characters said to be spirits that protect the forest and its animals from hunters, woodcutters, and disrespectful people who come in loudly, make camps and leave messes, or build fires.",
+          "statement_id": "Mapinguari secara tradisional adalah salah satu dari banyak tokoh yang dikatakan roh pelindung hutan dan hewannya dari pemburu, penebang kayu, dan orang tak hormat yang datang dengan berisik, mendirikan kemah lalu meninggalkan sampah, atau menyalakan api.",
+          "quote": "The mapinguari has traditionally been one of many characters said to be spirits that protect the forest and its animals from hunters, woodcutters, and any disrespectful people who come in and are loud, who make camps and leave messes, or build fires.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mapinguari-c20",
+          "source_id": "mapinguari-s2",
+          "host": "skeptoid.com",
+          "statement": "The mapinguari is said to be quite remarkable in appearance: the size of a large human, with a frightening single large eye on the front of its head, an enormous mouth in the middle of its belly, feet turned backwards to make it difficult to track, and long, shaggy, reddish fur.",
+          "statement_id": "Mapinguari dikatakan berpenampilan sangat mencolok: sebesar manusia besar, bermata tunggal besar yang menakutkan di depan kepala, bermulut raksasa di tengah perut, berkaki terbalik agar sulit dilacak, dan berbulu merah panjang yang lebat.",
+          "quote": "The mapinguari is said to be quite remarkable in its appearance. ... It's the size of a large human, with a frightening single large eye on the front of its head, its mouth enormous and located way down in the middle of its belly, its feet turned backwards to make it difficult to track, and covered in long, shaggy, reddish fur.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mapinguari-c21",
+          "source_id": "mapinguari-s2",
+          "host": "skeptoid.com",
+          "statement": "The mapinguari roars terribly and gives off a stench so bad it can drive to madness those unlucky enough to inhale it, even so powerful as to render them mute for the rest of their lives.",
+          "statement_id": "Mapinguari mengaum dahsyat dan mengeluarkan bau busuk yang begitu hebat sehingga dapat membuat gila orang yang malang menghirupnya, bahkan membuat mereka bisu seumur hidup.",
+          "quote": "The mapinguari is said to be quite remarkable in its appearance. ... It roars terribly, and gives off a stench so bad it can drive to madness those unlucky enough to inhale it, even so powerful as to render them mute for the rest of their lives.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mapinguari-c22",
+          "source_id": "mapinguari-s2",
+          "host": "skeptoid.com",
+          "statement": "In folklore the mapinguari has traditionally been a normal human, a shaman who discovered the key to immortality, which angered the gods, who punished him by turning him into a hideous creature with a single eye, one huge mouth in the middle of his abdomen, backwards feet, and reddish fur.",
+          "statement_id": "Dalam cerita rakyat, mapinguari secara tradisional adalah manusia biasa, seorang dukun yang menemukan kunci keabadian sehingga membuat para dewa murka dan menghukumnya menjadi makhluk mengerikan bermata tunggal, bermulut raksasa di tengah perut, berkaki terbalik, dan berbulu kemerahan.",
+          "quote": "The mapinguari in folklore has always traditionally been a normal human, a shaman who discovered the key to immortality, which angered the gods who punished him by turning him into a hideous creature with only a single eye, one huge mouth down in the middle of his abdomen, his feet turned backwards, and covered in reddish fur.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mapinguari-c23",
+          "source_id": "mapinguari-s2",
+          "host": "skeptoid.com",
+          "statement": "Dunning argues that no evidence exists to indicate that the mapinguari is anything but a purely folkloric creature, except for the anecdotes Oren has collected.",
+          "statement_id": "Dunning menilai tidak ada bukti bahwa mapinguari adalah apa pun selain makhluk murni cerita rakyat, kecuali anekdot yang dikumpulkan Oren.",
+          "quote": "No evidence exists to indicate that the mapinguari is anything but a purely folkloric creature, except for the anecdotes Oren has collected.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6d1a147c3d310d3f672034fc973aeb8ba12cacd5fc940826b97598c6b3b72fc5"
+      "images": []
     },
     {
       "slug": "skunk-ape",
-      "file": "batch-142-fix-1.md",
+      "file": "batch-142-fix-6.md",
+      "entry_sha256": "a6a5316f73c19e81f241cf3d715ad2a730691b4ed8fcfe2c6b4ba1108396ae5c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 25,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "skunk-ape-c01",
@@ -8200,25 +9056,270 @@
           "quote": "The majority of mainstream scientists have historically discounted the existence of the skunk ape, considering it to be the result of a combination of folklore, misidentification, and hoax, rather than a living animal.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "skunk-ape-c05",
+          "source_id": "skunk-ape-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The skunk ape is a large, hairy mythical humanoid creature said to inhabit forests and swamps in the southeastern United States, most notably in Florida.",
+          "statement_id": "Skunk ape adalah makhluk mirip manusia mitos yang besar dan berbulu, dikatakan menghuni hutan dan rawa di Amerika Serikat bagian tenggara, terutama Florida.",
+          "quote": "The skunk ape is a large, hairy mythical humanoid creature said to inhabit forests and swamps in the southeastern United States, most notably in Florida.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "skunk-ape-c06",
+          "source_id": "skunk-ape-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The skunk ape is commonly described as a bipedal human or ape-like creature, approximately 1.5–2.1 m (5–7 feet) tall, and covered in mottled reddish-brown hair.",
+          "statement_id": "Skunk ape umumnya digambarkan sebagai makhluk berkaki dua mirip manusia atau kera, setinggi sekitar 1,5–2,1 m (5–7 kaki), dan berbulu cokelat kemerahan berbintik.",
+          "quote": "The skunk ape is commonly described as a bipedal human or ape-like creature, approximately 1.5–2.1 m (5–7 feet) tall, and covered in mottled reddish-brown hair.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "skunk-ape-c07",
+          "source_id": "skunk-ape-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The skunk ape is often reported to be smaller than traditional descriptions of Bigfoot from the northern United States and Canada, and is named for its foul odor, often described as similar to that of a skunk.",
+          "statement_id": "Skunk ape sering dilaporkan lebih kecil daripada deskripsi tradisional Bigfoot dari Amerika Serikat utara dan Kanada, dan dinamai menurut baunya yang busuk, sering digambarkan mirip bau sigung.",
+          "quote": "The skunk ape is often reported to be smaller in stature compared to traditional descriptions of Bigfoot from the northern United States and Canada. It is named for its foul odor, often described as being similar to that of a skunk.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "skunk-ape-c08",
+          "source_id": "skunk-ape-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1818, local newspapers reported a story from what is now Apalachicola, Florida, of a 'man-sized monkey' raiding food stores and stalking fishermen along the shore.",
+          "statement_id": "Pada 1818, surat kabar lokal melaporkan kisah dari daerah yang kini Apalachicola, Florida, tentang 'monyet sebesar manusia' yang menjarah persediaan makanan dan menguntit nelayan di tepi pantai.",
+          "quote": "In 1818, local newspapers reported a story from what is now Apalachicola, Florida, that spoke of a \"man-sized monkey\" raiding food stores and stalking fishermen along the shore.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "skunk-ape-c09",
+          "source_id": "skunk-ape-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1942, a man in Suwanee County reported a similar creature rushing out from the brush line while he drove down an isolated road; it was alleged to have grabbed onto his vehicle and beat on the running board and door for half a mile before departing.",
+          "statement_id": "Pada 1942, seorang pria di Suwanee County melaporkan makhluk serupa menerjang keluar dari semak saat ia mengemudi di jalan sepi; makhluk itu konon mencengkeram kendaraannya dan memukul papan injak serta pintu sejauh setengah mil sebelum pergi.",
+          "quote": "In 1942, a man in Suwanee County reported a similar creature rushing out from the brush line while he was driving down an isolated road. It was alleged to have grabbed onto his vehicle and beat on the running board and door for half a mile before departing.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "skunk-ape-c10",
+          "source_id": "skunk-ape-s1",
+          "host": "en.wikipedia.org",
+          "statement": "From 1971 to 1975, a rash of sightings occurred in Broward County and surrounding areas; multiple eyewitnesses reported nocturnal encounters with a 5 to 7 foot (1.5–2.1 meter) ape-like creature with dark red to black fur.",
+          "statement_id": "Dari 1971 sampai 1975 terjadi rentetan penampakan di Broward County dan sekitarnya; banyak saksi melaporkan pertemuan malam hari dengan makhluk mirip kera setinggi 5–7 kaki (1,5–2,1 m) berbulu merah tua sampai hitam.",
+          "quote": "From 1971 to 1975, a rash of sightings occurred in Broward County and surrounding areas. Multiple eyewitnesses reported nocturnal encounters with a 5 to 7 foot (1.5–2.1 meter) ape-like creature with dark red to black fur.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "skunk-ape-c11",
+          "source_id": "skunk-ape-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Reports alleged that the skunk ape had invaded homes, stalked people, and killed several of a farmer's livestock including a horse and a bull; posses were formed to locate the alleged creature, but no body or evidence was found.",
+          "statement_id": "Laporan menuduh skunk ape menyerbu rumah, menguntit orang, dan membunuh beberapa ternak seorang petani termasuk kuda dan banteng; pasukan pencari dibentuk untuk menemukan makhluk itu, tetapi tak ditemukan jasad atau bukti.",
+          "quote": "Reports alleged that the skunk ape had invaded homes, stalked people, and killed several of a farmer's livestock including a horse and a bull. ... Posses were formed in an effort to locate the alleged creature, but no body or evidence was found.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "skunk-ape-c12",
+          "source_id": "skunk-ape-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In 1977, a bill that failed to pass was proposed to the Florida state legislature to make it illegal to 'take, possess, harm or molest anthropoids or humanoid animals'.",
+          "statement_id": "Pada 1977 diusulkan rancangan undang-undang ke legislatif Florida, yang gagal disahkan, untuk melarang 'mengambil, memiliki, mencederai, atau mengganggu antropoid atau hewan mirip manusia'.",
+          "quote": "In 1977, a failed-to-pass bill was proposed to the Florida state legislature to make it illegal to \"take, possess, harm or molest anthropoids or humanoid animals\".",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "skunk-ape-c13",
+          "source_id": "skunk-ape-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Skeptical investigator Joe Nickell has written that some reports may be sightings of the Florida black bear, possibly some suffering from mange, and that other sightings are likely hoaxes or misidentification of wildlife; the United States National Park Service considers the skunk ape to be a hoax.",
+          "statement_id": "Penyelidik skeptis Joe Nickell menulis bahwa sebagian laporan mungkin penampakan beruang hitam Florida, mungkin yang menderita kudis, dan bahwa penampakan lain kemungkinan tipuan atau salah identifikasi satwa; Dinas Taman Nasional AS menganggap skunk ape sebuah tipuan.",
+          "quote": "Skeptical investigator Joe Nickell has written that some of the reports may represent sightings of the Florida black bear, possibly some suffering from mange, and it is likely that other sightings are hoaxes or general misidentification of wildlife. The United States National Park Service considers the skunk ape to be a hoax.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "skunk-ape-c14",
+          "source_id": "skunk-ape-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Cryptozoologists have made unsubstantiated claims that Seminole and Miccosukee culture includes stories of a foul-smelling, physically powerful, and secretive creature called Esti Capcaki, roughly translated 'Furry Tall Man' or 'Hairy Giant'.",
+          "statement_id": "Para kriptozoolog membuat klaim tak berdasar bahwa budaya Seminole dan Miccosukee memuat kisah makhluk berbau busuk, bertenaga fisik, dan tertutup bernama Esti Capcaki, yang kira-kira berarti 'Pria Tinggi Berbulu' atau 'Raksasa Berbulu'.",
+          "quote": "Cryptozoologists have made unsubstantiated claims that Seminole and Miccosukee culture includes stories of a foul-smelling, physically powerful, and secretive creature called Esti Capcaki, a name which roughly translates to \"Furry Tall Man\" or \"Hairy Giant\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "skunk-ape-c15",
+          "source_id": "skunk-ape-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the small community of Bardin, in Putnam County, Florida, beginning in the 1940s, there were a number of alleged sightings of a creature that came to be known as the Bardin Booger.",
+          "statement_id": "Di komunitas kecil Bardin, Putnam County, Florida, sejak 1940-an terdapat sejumlah dugaan penampakan makhluk yang kemudian dikenal sebagai Bardin Booger.",
+          "quote": "In the small community of Bardin, in Putnam County, Florida, beginning in the 1940s, there were a number of alleged sightings of a creature that came to be known as the Bardin Booger.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "skunk-ape-c16",
+          "source_id": "skunk-ape-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The skunk ape has been widely adopted across Florida as an unofficial mascot for wilderness and rural culture, appearing in roadside businesses and attractions, television commercials, and on signs.",
+          "statement_id": "Skunk ape telah diadopsi luas di seluruh Florida sebagai maskot tidak resmi budaya alam liar dan pedesaan, tampil di usaha dan atraksi tepi jalan, iklan televisi, dan papan penanda.",
+          "quote": "The skunk ape has been widely adopted across Florida as an unofficial mascot for wilderness and rural culture, including appearing in roadside businesses and attractions, television commercials, and on signs.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "skunk-ape-c17",
+          "source_id": "skunk-ape-s2",
+          "host": "www.ebsco.com",
+          "statement": "Within cryptozoology, the skunk ape is a mythical creature rumored to inhabit the forests and swamplands of Florida; alleged sightings have been reported throughout the state, most concentrated in the Everglades region in southern Florida.",
+          "statement_id": "Dalam kriptozoologi, skunk ape adalah makhluk mitos yang konon menghuni hutan dan rawa Florida; dugaan penampakannya dilaporkan di seluruh negara bagian, terbanyak di wilayah Everglades di Florida selatan.",
+          "quote": "Within cryptozoology, the skunk ape is a mythical creature rumored to inhabit the forests and swamplands of Florida. Alleged sightings of the skunk ape have been reported throughout the state, with most concentrated in the Everglades region in southern Florida.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "skunk-ape-c18",
+          "source_id": "skunk-ape-s2",
+          "host": "www.ebsco.com",
+          "statement": "The skunk ape is often considered a subtype of Bigfoot.",
+          "statement_id": "Skunk ape sering dianggap sebagai subtipe Bigfoot.",
+          "quote": "The skunk ape is often considered a subtype of Bigfoot.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "skunk-ape-c19",
+          "source_id": "skunk-ape-s2",
+          "host": "www.ebsco.com",
+          "statement": "Although best known as the skunk ape, this cryptid has many other nicknames, including 'Stink Ape', 'Shaawanoki', 'Swamp Monkey', 'Swamp Man', 'Swamp Monster', and 'the Bardin Booger'.",
+          "statement_id": "Meski paling dikenal sebagai skunk ape, kriptid ini punya banyak julukan lain, termasuk 'Stink Ape', 'Shaawanoki', 'Swamp Monkey', 'Swamp Man', 'Swamp Monster', dan 'the Bardin Booger'.",
+          "quote": "Although the creature is best known as the skunk ape, a variety of other nicknames for this cryptid exist, including \"Stink Ape,\" \"Shaawanoki,\" \"Swamp Monkey,\" \"Swamp Man,\" \"Swamp Monster,\" and \"the Bardin Booger.\"",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "skunk-ape-c20",
+          "source_id": "skunk-ape-s2",
+          "host": "www.ebsco.com",
+          "statement": "Persons who claim to have seen the creature describe its appearance in a relatively consistent manner: a bipedal figure resembling an orangutan or gorilla, covered with shaggy hair or fur ranging in color from brown to reddish to gray or black.",
+          "statement_id": "Orang yang mengaku melihat makhluk misterius ini menggambarkan wujudnya secara cukup konsisten: sosok berkaki dua yang mirip orangutan atau gorila, tertutup rambut atau bulu lebat berwarna cokelat, kemerahan, abu-abu, atau hitam.",
+          "quote": "Persons who claim to have seen the mysterious creature describe its physical appearance in a relatively consistent manner: a bipedal (upright-walking on two legs) figure that resembles an orangutan or gorilla, covered with shaggy hair or fur that ranges in color from brown to reddish to gray or black.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "skunk-ape-c21",
+          "source_id": "skunk-ape-s2",
+          "host": "www.ebsco.com",
+          "statement": "A universal feature among all descriptions of the skunk ape among alleged witnesses is a very strong, foul odor accompanying the beast, described as resembling rotting food or garbage, decaying meat, rotten eggs, or methane.",
+          "statement_id": "Ciri universal dalam semua deskripsi saksi adalah bau yang sangat kuat dan busuk yang menyertai makhluk itu, digambarkan seperti makanan atau sampah busuk, daging membusuk, telur busuk, atau metana.",
+          "quote": "A universal feature among all descriptions of the skunk ape among alleged witnesses is the presence of a very strong, foul odor that accompanies the beast. Witnesses describe this stench as resembling that of rotting food or garbage, decaying meat, rotten eggs, or methane.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "skunk-ape-c22",
+          "source_id": "skunk-ape-s2",
+          "host": "www.ebsco.com",
+          "statement": "Cryptozoology enthusiasts have claimed that the Mikasuki term 'Shaawanoki' refers to a legendary apelike creature, but other reports suggest this is mistaken and the word instead refers to turtles or other established aquatic animals.",
+          "statement_id": "Para peminat kriptozoologi mengklaim bahwa istilah 'Shaawanoki' dalam bahasa Mikasuki merujuk pada makhluk mirip kera; namun laporan lain menyebut tafsiran itu keliru dan kata itu justru merujuk pada kura-kura atau hewan air lain yang dikenal.",
+          "quote": "Cryptozoology enthusiasts have claimed that the term \"Shaawanoki\" of the Mikasuki language, refers to a legendary apelike creature. However, other reports suggest that this interpretation is mistaken, and the word instead refers to turtles or other established aquatic animals.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "skunk-ape-c23",
+          "source_id": "skunk-ape-s2",
+          "host": "www.ebsco.com",
+          "statement": "Many skeptics argue that alleged sightings of the creature are most likely of black bears instead; the black bear is found in Florida, has dark hair covering its entire body, and can walk on its hind legs.",
+          "statement_id": "Banyak skeptis berpendapat bahwa dugaan penampakan makhluk itu paling mungkin adalah beruang hitam, yang ada di Florida, berambut gelap menutupi seluruh tubuh, dan mampu berjalan dengan kaki belakang.",
+          "quote": "Many skeptics argue that alleged sightings of the creature are most likely of black bears instead. The black bear is found in Florida, has dark hair that covers its entire body, and is capable of walking on its hind legs.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "skunk-ape-c24",
+          "source_id": "skunk-ape-s2",
+          "host": "www.ebsco.com",
+          "statement": "No nonhuman primate is known to be native to the United States or Canada, and no definitive evidence of a skunk ape, either physical or genetic, has ever been found.",
+          "statement_id": "Tidak ada primata bukan manusia yang diketahui asli Amerika Serikat atau Kanada, dan tak pernah ditemukan bukti pasti skunk ape, baik fisik maupun genetik.",
+          "quote": "No nonhuman primate is known to be native to the United States or Canada, and no definitive evidence of a skunk ape (either physical or genetic) has ever been found",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "skunk-ape-c25",
+          "source_id": "skunk-ape-s2",
+          "host": "www.ebsco.com",
+          "statement": "In October 1977, Florida state representative Hugh Paul Nuckolls, a Republican from Fort Myers, introduced House Bill 1664 (nicknamed the 'Skunk Ape Act' by the press) in the Florida State Legislature.",
+          "statement_id": "Pada Oktober 1977, anggota DPR negara bagian Florida Hugh Paul Nuckolls, seorang Republikan dari Fort Myers, mengajukan RUU DPR 1664 (dijuluki 'Skunk Ape Act' oleh pers) di legislatif Florida.",
+          "quote": "In October 1977, Florida state representative Hugh Paul Nuckolls, a Republican from Fort Myers, introduced House Bill 1664 (nicknamed the \"Skunk Ape Act\" by the press) in the Florida State Legislature.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9ca95adb6f7dcab099de0ae216b4f71185d2c007d90d08a18496ce5e639eacda"
+      "images": []
     },
     {
       "slug": "amarok",
-      "file": "batch-142.md",
+      "file": "batch-142-fix-6.md",
+      "entry_sha256": "bfa22dd102329530be400e3ba45d6a81c3ce5a66ecd318efeccb1cdddf629afc",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[1]",
+          "message": "Tidak muncul di kutipan mana pun: 19, Greenland, Arktik. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.origin",
+          "message": "Tidak muncul di kutipan mana pun: 19, Greenland. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "did_you_know",
+          "message": "Tidak muncul di kutipan mana pun: Greenland, Arktik. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "variants[0].name",
+          "message": "Tidak muncul di kutipan mana pun: Amarok Greenland. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "variants[0].tradition",
+          "message": "Tidak muncul di kutipan mana pun: Greenland. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "variants[1].name",
+          "message": "Tidak muncul di kutipan mana pun: Amarok sebagai serigala biasa. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "variants[1].tradition",
+          "message": "Tidak muncul di kutipan mana pun: Arktik. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "conflicts[0].positions[0].summary",
+          "message": "Tidak muncul di kutipan mana pun: Greenland. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -8226,9 +9327,9 @@
           "id": "amarok-c01",
           "source_id": "amarok-s1",
           "host": "en.wikipedia.org",
-          "statement": "Unlike wolves who hunt in packs, amaroks hunt alone.",
-          "statement_id": "Tidak seperti serigala yang berburu dalam kawanan, amarok berburu sendirian.",
-          "quote": "Unlike wolves who hunt in packs, amaroks hunt alone.",
+          "statement": "An Amarok, or Amaroq, is a gigantic wolf in Inuit religion, said to stalk and devour any person foolish enough to hunt alone at night; unlike wolves who hunt in packs, amaroks hunt alone.",
+          "statement_id": "Amarok atau Amaroq adalah serigala raksasa dalam agama Inuit yang dikatakan menguntit dan melahap siapa pun yang cukup bodoh berburu sendirian pada malam hari; tidak seperti serigala yang berburu dalam kawanan, amarok berburu sendiri.",
+          "quote": "An Amarok, or Amaroq, is a gigantic wolf in Inuit religion, said to stalk and devour any person foolish enough to hunt alone at night. Unlike wolves who hunt in packs, amaroks hunt alone.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -8246,9 +9347,9 @@
           "id": "amarok-c03",
           "source_id": "amarok-s1",
           "host": "en.wikipedia.org",
-          "statement": "When he calls out to the lord of strength, an Amarok appears and wrestles him to the ground with its tail.",
-          "statement_id": "Saat anak lelaki memanggil penguasa kekuatan, seekor Amarok muncul dan bergulat dengannya.",
-          "quote": "When he calls out to the lord of strength, an Amarok appears and wrestles him to the ground with its tail.",
+          "statement": "In one tale, a persecuted and physically stunted boy seeks to increase his strength; when he calls out to the lord of strength, an Amarok appears and wrestles him to the ground with its tail.",
+          "statement_id": "Dalam satu kisah, seorang anak yang dianiaya dan bertubuh kerdil ingin menambah kekuatannya; ketika ia memanggil penguasa kekuatan, seekor Amarok muncul dan menjatuhkannya dengan ekornya.",
+          "quote": "In one tale, a persecuted and physically stunted boy seeks to increase his strength. When he calls out to the lord of strength, an Amarok appears and wrestles him to the ground with its tail.",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -8261,36 +9362,80 @@
           "quote": "The Inuit culture, the word \"amarok\" means \"wolf\" or \"wolf spirit.\" It incorporates the wolf and the wolf's spiritual essence in Inuit animism.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "amarok-c05",
+          "source_id": "amarok-s1",
+          "host": "en.wikipedia.org",
+          "statement": "This causes a number of small bones to fall from the boy's body; the Amarok tells him the bones had prevented his growth and tells him to return daily to develop his strength, and after several days of wrestling the boy is strong enough to overcome three large bears, gaining the esteem of his village.",
+          "statement_id": "Hal itu membuat sejumlah tulang kecil jatuh dari tubuh anak itu; Amarok mengatakan tulang itu menghambat pertumbuhannya dan menyuruhnya kembali setiap hari untuk melatih kekuatan, dan setelah beberapa hari bergulat, anak itu cukup kuat mengalahkan tiga beruang besar sehingga dihormati desanya.",
+          "quote": "This causes a number of small bones to fall from the boy's body. The Amarok tells the boy that the bones had prevented his growth; he instructs the boy to return daily in order to develop his strength. After several days of wrestling with the amarok, the boy is strong enough to overcome three large bears, thus gaining him the esteem of his village.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amarok-c06",
+          "source_id": "amarok-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In another story, a man mourning the death of a relative hears reports that an Amarok is nearby; he and a relative search for it, find her pups instead, and the mourner kills them all.",
+          "statement_id": "Dalam kisah lain, seorang pria yang berduka atas kematian kerabat mendengar kabar bahwa seekor Amarok ada di dekat situ; ia dan seorang kerabat mencarinya, menemukan anak-anaknya, dan sang peratap membunuh semuanya.",
+          "quote": "In another story, a man mourning the death of a relative hears reports that an Amarok is nearby. He and a relative go in search of the Amarok. They find instead her pups, and the mourner kills them all.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amarok-c09",
+          "source_id": "amarok-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Amarok targets human hunters or wolf packs who are either alone or careless enough to come out at night.",
+          "statement_id": "Amarok menyasar pemburu manusia atau kawanan serigala yang sendirian atau cukup ceroboh keluar pada malam hari.",
+          "quote": "Amarok targets human hunters or wolf packs who are either alone or careless enough to come out at night.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "amarok-c10",
+          "source_id": "amarok-s2",
+          "host": "www.ebsco.com",
+          "statement": "The idea of the Waheela likely first arose as an Inuit legend; a legendary Inuit creature called the Amarok appears to be closely related to the Waheela, which according to Inuit tradition is an evil spirit imbued with supernatural powers.",
+          "statement_id": "Gagasan Waheela kemungkinan pertama kali muncul sebagai legenda Inuit; makhluk legendaris Inuit bernama Amarok tampak berkaitan erat dengan Waheela, yang menurut tradisi Inuit adalah roh jahat yang diberi kekuatan gaib.",
+          "quote": "The idea of the Waheela likely first arose as an Inuit legend. In particular, a legendary Inuit creature called the Amarok appears to be closely related to the Waheela. According to Inuit tradition, the Waheela is an evil spirit imbued with supernatural powers.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "amarok-c11",
+          "source_id": "amarok-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In his book Tales and Traditions of the Eskimo, Rink recounts several folk legends that feature the Amarok.",
+          "statement_id": "Dalam bukunya Tales and Traditions of the Eskimo, Rink menceritakan beberapa legenda rakyat yang menampilkan Amarok.",
+          "quote": "In his book Tales and Traditions of the Eskimo, Rink recounts several folk legends that feature the Amarok.",
+          "context": "traditional-belief",
+          "status": "loose"
         }
       ],
-      "images": [],
-      "entry_sha256": "a11064d4520b7d3494514e70a2c99ada0a1127b9679cf476b099bbc657820c7e"
+      "images": []
     },
     {
       "slug": "headless-horseman",
-      "file": "batch-142-fix-1.md",
+      "file": "batch-142-fix-6.md",
+      "entry_sha256": "e56126a46b48fb4f0381c19d4c3eb29e244f262b1436b6821a11fed87fb4cf90",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 24,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "headless-horseman-c01",
           "source_id": "headless-horseman-s1",
           "host": "en.wikipedia.org",
-          "statement": "Cover page to Mayne Reid's version of the legend that was published in 1865 The Headless Horseman is an archetype of mythical figure that has appeared in folklore around Europe since the Middle Ages.",
-          "statement_id": "Headless Horseman adalah arketipe figur mitologis yang muncul dalam cerita rakyat sejak Abad Pertengahan.",
-          "quote": "Cover page to Mayne Reid's version of the legend that was published in 1865 The Headless Horseman is an archetype of mythical figure that has appeared in folklore around Europe since the Middle Ages.",
-          "context": "traditional-belief",
+          "statement": "The Headless Horseman is an archetype of mythical figure that has appeared in folklore around Europe since the Middle Ages.",
+          "statement_id": "Penunggang Kuda Tanpa Kepala adalah arketipe tokoh mitos yang muncul dalam cerita rakyat di seluruh Eropa sejak Abad Pertengahan.",
+          "quote": "The Headless Horseman is an archetype of mythical figure that has appeared in folklore around Europe since the Middle Ages.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         },
         {
@@ -8322,25 +9467,245 @@
           "quote": "Some versions of the story claim the dullahan is the spirit of Crom Dubh, a Celtic god worshipped in Ireland until the arrival of Christian missionaries in the 6th century.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "headless-horseman-c05",
+          "source_id": "headless-horseman-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Depending on the legend, the Horseman is either carrying his head or is missing his head altogether, and may be searching for it.",
+          "statement_id": "Bergantung pada legendanya, sang Penunggang entah membawa kepalanya atau sama sekali kehilangan kepala dan mungkin sedang mencarinya.",
+          "quote": "Depending on the legend, the Horseman is either carrying his head, or is missing his head altogether, and may be searching for it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-horseman-c06",
+          "source_id": "headless-horseman-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The dullahan or dulachán ('dark man') is a headless, demonic fairy, usually riding a horse and carrying his head under his arm.",
+          "statement_id": "Dullahan atau dulachán ('pria gelap') adalah peri iblis tanpa kepala yang biasanya menunggang kuda dan membawa kepalanya di bawah lengan.",
+          "quote": "In Irish folklore ... The dullahan or dulachán (\"dark man\") is a headless, demonic fairy, usually riding a horse and carrying his head under his arm.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-horseman-c07",
+          "source_id": "headless-horseman-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The dullahan wields a whip made from a human corpse's spine; when the dullahan stops riding, a death occurs, and when he calls out a name, the named person immediately dies.",
+          "statement_id": "Dullahan menggunakan cambuk dari tulang punggung mayat manusia; ketika dullahan berhenti berkuda, terjadi kematian, dan ketika ia menyerukan sebuah nama, orang yang disebut langsung mati.",
+          "quote": "The dullahan or dulachán (\"dark man\") is a headless, demonic fairy ... He wields a whip made from a human corpse's spine. When the dullahan stops riding, a death occurs. The dullahan calls out a name, at which point the named person immediately dies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-horseman-c08",
+          "source_id": "headless-horseman-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In another version he is the headless driver of a black carriage, the Cóiste Bodhar; a similar figure, the gan ceann ('without a head'), can be frightened away by wearing a gold object or putting one in his path.",
+          "statement_id": "Dalam versi lain, ia adalah kusir tanpa kepala dari kereta hitam, Cóiste Bodhar; sosok serupa, gan ceann ('tanpa kepala'), dapat ditakuti pergi dengan mengenakan benda emas atau meletakkannya di jalurnya.",
+          "quote": "In another version, he is the headless driver of a black carriage, the Cóiste Bodhar. A similar figure, the gan ceann (\"without a head\"), can be frightened away by wearing a gold object or putting one in his path.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-horseman-c09",
+          "source_id": "headless-horseman-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The most prominent Scottish tale of the headless horseman concerns a man named Ewen decapitated in a clan battle at Glen Cainnir on the Isle of Mull.",
+          "statement_id": "Kisah penunggang kuda tanpa kepala Skotlandia yang paling menonjol menyangkut seorang pria bernama Ewen yang dipenggal dalam pertempuran klan di Glen Cainnir, Pulau Mull.",
+          "quote": "The most prominent Scottish tale of the headless horseman concerns a man named Ewen decapitated in a clan battle at Glen Cainnir on the Isle of Mull.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-horseman-c10",
+          "source_id": "headless-horseman-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Among the Highland Scottish diaspora in Cape Breton, Nova Scotia, seeing the image or hearing the sound of a horse or headless rider is traditionally regarded as an omen of an imminent death within the family.",
+          "statement_id": "Di kalangan diaspora Highland Skotlandia di Cape Breton, Nova Scotia, melihat bayangan atau mendengar suara kuda atau penunggang tanpa kepala secara tradisional dianggap pertanda kematian dalam keluarga yang segera terjadi.",
+          "quote": "Among the Highland Scottish diaspora in Cape Breton, Nova Scotia, seeing the image or hearing the sound of a horse or headless rider is traditionally regarded as an omen of an imminent death within the family.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-horseman-c11",
+          "source_id": "headless-horseman-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Germany, headless-horseman stories come mostly from the Rhineland; the headless horsemen killed their victims simply by touching them and were revenants who had to wander the earth until they had atoned for their sins.",
+          "statement_id": "Di Jerman, kisah penunggang kuda tanpa kepala kebanyakan berasal dari Rhineland; penunggang itu membunuh korban hanya dengan menyentuh mereka, dan mereka adalah arwah yang harus mengembara di bumi sampai menebus dosa.",
+          "quote": "In Germany, headless-horseman stories come mostly from the Rhineland. Rather than using decapitation, the headless horsemen killed their victims simply by touching them. They were revenants who had to wander the earth until they had atoned for their sins",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-horseman-c12",
+          "source_id": "headless-horseman-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Another version of the legend spoke of Der Kopflose Reiter (the headless horseman), who would warn the living of impending danger and chase down and punish the wicked.",
+          "statement_id": "Versi lain legenda itu menyebut Der Kopflose Reiter (penunggang kuda tanpa kepala), yang memperingatkan orang hidup akan bahaya yang mengancam serta mengejar dan menghukum orang jahat.",
+          "quote": "Another version of the legend spoke of Der Kopflose Reiter (the headless horseman), who would warn the living of impending danger and chase down and punish the wicked.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-horseman-c13",
+          "source_id": "headless-horseman-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In southern Texas, stories of a figure known as 'El Muerto' have circulated since the mid-1800s; El Muerto is said to dangle his head from his saddle, and his horse is variably said to produce lightning from its hooves as they strike the ground.",
+          "statement_id": "Di Texas selatan, kisah tentang sosok bernama 'El Muerto' beredar sejak pertengahan 1800-an; ia dikatakan menggantungkan kepalanya di pelana, dan kudanya dikatakan memercikkan petir dari kukunya ketika menghentak tanah.",
+          "quote": "In southern Texas, stories of a figure known as \"El Muerto\" have circulated since the mid-1800s. El Muerto is said to dangle his head from his saddle, and his horse is variably said to produce lightning from its hooves as they strike the ground.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-horseman-c14",
+          "source_id": "headless-horseman-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Washington Irving's short story The Legend of Sleepy Hollow features a character known as the Headless Horseman, which may have been inspired, at least in part, by the rumored discovery of a headless corpse in the area after the Revolutionary War Battle of White Plains.",
+          "statement_id": "Cerita pendek Washington Irving The Legend of Sleepy Hollow menampilkan tokoh bernama Penunggang Kuda Tanpa Kepala; tokoh itu mungkin terinspirasi, setidaknya sebagian, oleh kabar penemuan mayat tanpa kepala di daerah itu setelah Pertempuran White Plains dalam Perang Revolusi.",
+          "quote": "Washington Irving's short story The Legend of Sleepy Hollow features a character known as the Headless Horseman. It may have been inspired, at least in part, by the rumored discovery of a headless corpse in the area after the Revolutionary War Battle of White Plains",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "headless-horseman-c15",
+          "source_id": "headless-horseman-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Irving was probably familiar with the European folklore in which the figure of a headless rider has appeared since the Middle Ages; in any case, since its publication in 1820, Irving's Headless Horseman has become an integral part of American folklore.",
+          "statement_id": "Namun Irving mungkin akrab dengan cerita rakyat Eropa tempat sosok penunggang tanpa kepala muncul sejak Abad Pertengahan; bagaimanapun, sejak terbit pada 1820, Penunggang Kuda Tanpa Kepala karya Irving menjadi bagian integral cerita rakyat Amerika.",
+          "quote": "Then again, Irving was probably familiar with the European folklore in which the figure of a headless rider has appeared since the Middle Ages. In any case, since its publication in 1820, Irving's Headless Horseman has become an integral part of American folklore.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "headless-horseman-c16",
+          "source_id": "headless-horseman-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Headless Horseman appears in 'The Legend of Sleepy Hollow' segment of the 1949 film The Adventures of Ichabod and Mr. Toad.",
+          "statement_id": "Penunggang Kuda Tanpa Kepala muncul dalam segmen 'The Legend of Sleepy Hollow' pada film The Adventures of Ichabod and Mr. Toad (1949).",
+          "quote": "The Headless Horseman appears in \"The Legend of Sleepy Hollow\" segment of the 1949 film The Adventures of Ichabod and Mr. Toad.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "headless-horseman-c17",
+          "source_id": "headless-horseman-s1",
+          "host": "en.wikipedia.org",
+          "statement": "While the original story implies that the Horseman was merely Brom Bones in disguise, the film depicts him as an actual ghost.",
+          "statement_id": "Sementara cerita aslinya menyiratkan bahwa sang Penunggang hanyalah Brom Bones yang menyamar, film itu menggambarkannya sebagai hantu sungguhan.",
+          "quote": "While the original story implies that the Horseman was merely Brom Bones in disguise, the film depicts him as an actual ghost.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "headless-horseman-c18",
+          "source_id": "headless-horseman-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the 1999 Tim Burton film Sleepy Hollow, the Headless Horseman is the ghost of a murderous Hessian mercenary summoned by Katrina Van Tassel's stepmother Lady Van Tassel to eliminate her enemies.",
+          "statement_id": "Dalam film Sleepy Hollow karya Tim Burton (1999), Penunggang Kuda Tanpa Kepala adalah hantu tentara bayaran Hessian pembunuh yang dipanggil Lady Van Tassel, ibu tiri Katrina Van Tassel, untuk melenyapkan musuh-musuhnya.",
+          "quote": "In the 1999 Tim Burton film Sleepy Hollow, the Headless Horseman is the ghost of a murderous Hessian mercenary (performed by Ray Park in Headless Horseman form and portrayed by Christopher Walken in his true form) summoned by Katrina Van Tassel's stepmother Lady Van Tassel to eliminate her enemies",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "headless-horseman-c19",
+          "source_id": "headless-horseman-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The dominant spirit that haunts this enchanted region, seemingly commander-in-chief of all the powers of the air, is the apparition of a figure on horseback without a head, said by some to be the ghost of a Hessian trooper whose head had been carried away by a cannon-ball in some nameless battle during the Revolutionary War.",
+          "statement_id": "Roh dominan yang menghantui wilayah terpesona itu, tampaknya panglima semua kekuatan udara, adalah penampakan sosok berkuda tanpa kepala, yang oleh sebagian orang dikatakan hantu seorang prajurit Hessian yang kepalanya terbawa bola meriam dalam pertempuran tanpa nama selama Perang Revolusi.",
+          "quote": "The dominant spirit, however, that haunts this enchanted region, and seems to be commander-in-chief of all the powers of the air, is the apparition of a figure on horseback, without a head. It is said by some to be the ghost of a Hessian trooper, whose head had been carried away by a cannon-ball, in some nameless battle during the Revolutionary War",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-horseman-c20",
+          "source_id": "headless-horseman-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to local historians, the trooper's body was buried in the churchyard and the ghost rides forth to the scene of battle in nightly quest of his head; the rushing speed with which he passes along the Hollow like a midnight blast is owing to his being belated and in a hurry to get back to the churchyard before daybreak.",
+          "statement_id": "Menurut para penutur setempat, jasad prajurit itu dikubur di pemakaman gereja, dan hantunya berkuda ke medan pertempuran setiap malam mencari kepalanya; kecepatan menderunya di Hollow, seperti embusan angin tengah malam, karena ia terlambat dan terburu-buru kembali ke pemakaman sebelum fajar.",
+          "quote": "allege that the body of the trooper having been buried in the churchyard, the ghost rides forth to the scene of battle in nightly quest of his head, and that the rushing speed with which he sometimes passes along the Hollow, like a midnight blast, is owing to his being belated, and in a hurry to get back to the churchyard before daybreak.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-horseman-c21",
+          "source_id": "headless-horseman-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The spectre is known at all the country firesides by the name of the Headless Horseman of Sleepy Hollow.",
+          "statement_id": "Hantu itu dikenal di semua perapian pedesaan dengan nama Penunggang Kuda Tanpa Kepala dari Sleepy Hollow.",
+          "quote": "the spectre is known at all the country firesides, by the name of the Headless Horseman of Sleepy Hollow.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-horseman-c22",
+          "source_id": "headless-horseman-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The Headless Horseman had been heard several times of late patrolling the country and, it was said, tethered his horse nightly among the graves in the churchyard.",
+          "statement_id": "Penunggang Kuda Tanpa Kepala beberapa kali terdengar berpatroli di pedesaan dan konon menambatkan kudanya setiap malam di antara makam di pemakaman gereja.",
+          "quote": "the Headless Horseman, who had been heard several times of late, patrolling the country; and, it was said, tethered his horse nightly among the graves in the churchyard.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-horseman-c23",
+          "source_id": "headless-horseman-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The tale was told of old Brouwer, a heretical disbeliever in ghosts, who met the Horseman returning from his foray into Sleepy Hollow and was obliged to get up behind him; the Horseman suddenly turned into a skeleton, threw Brouwer into the brook, and sprang away over the tree-tops with a clap of thunder.",
+          "statement_id": "Dikisahkan tentang Brouwer tua, penentang hantu, yang bertemu Penunggang sepulang dari serangannya ke Sleepy Hollow dan terpaksa naik di belakangnya; sang Penunggang tiba-tiba berubah menjadi kerangka, melempar Brouwer ke sungai, dan melesat di atas pucuk pohon dengan gelegar petir.",
+          "quote": "The tale was told of old Brouwer, a most heretical disbeliever in ghosts, how he met the Horseman returning from his foray into Sleepy Hollow, and was obliged to get up behind him; ... when the Horseman suddenly turned into a skeleton, threw old Brouwer into the brook, and sprang away over the tree-tops with a clap of thunder.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "headless-horseman-c24",
+          "source_id": "headless-horseman-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Brom Bones, who made light of the Galloping Hessian as an arrant jockey, affirmed that returning one night from the village of Sing Sing he was overtaken by this midnight trooper; just as they came to the church bridge, the Hessian bolted and vanished in a flash of fire.",
+          "statement_id": "Brom Bones, yang menganggap enteng sang Hessian Berderap sebagai joki ulung, menegaskan bahwa sepulang dari desa Sing Sing ia disusul prajurit tengah malam itu; tepat saat mereka tiba di jembatan gereja, sang Hessian kabur dan lenyap dalam kilatan api.",
+          "quote": "Brom Bones, who made light of the Galloping Hessian as an arrant jockey. He affirmed that on returning one night from the neighboring village of Sing Sing, he had been overtaken by this midnight trooper; ... but just as they came to the church bridge, the Hessian bolted, and vanished in a flash of fire.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "12d5e7e7157751a586687b7d18118eed04a5e1f394a07c0dcc7c6675d94ba67c"
+      "images": []
     },
     {
       "slug": "mama-qucha",
-      "file": "batch-142.md",
+      "file": "batch-142-fix-6.md",
+      "entry_sha256": "2c431a951eb22f3e7a296dee2aec91c30f399f41ee42fa5ff2f5b615187bdd79",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "long_description[0]",
+          "message": "Tidak muncul di kutipan mana pun: Unsur. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "story_mode.role",
+          "message": "Tidak muncul di kutipan mana pun: Unsur. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "relations[3].note",
+          "message": "Tidak muncul di kutipan mana pun: Unsur. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "relations[4].note",
+          "message": "Tidak muncul di kutipan mana pun: Unsur. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
+        },
+        {
+          "level": "warn",
+          "where": "relations[5].note",
+          "message": "Tidak muncul di kutipan mana pun: Unsur. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -8383,10 +9748,69 @@
           "quote": "Along with Mama Quilla (the Moon) and Pachamama, she constituted the Incan lunar trinity.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "mama-qucha-c05",
+          "source_id": "mama-qucha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In some regions of the empire people believed she was the goddess of all bodies of water, including lakes, rivers, and even human-made water sources; Mama Qucha was more important to people living beside the coastal regions because of their nearness and dependence upon the sea.",
+          "statement_id": "Di beberapa wilayah kekaisaran, orang percaya ia adalah dewi semua perairan, termasuk danau, sungai, dan bahkan sumber air buatan manusia; Mama Qucha lebih penting bagi orang yang tinggal di wilayah pesisir karena dekat dan bergantung pada laut.",
+          "quote": "In some regions of empire people believed she was the goddess of all bodies of water, including lakes, rivers, and even human-made water sources. Mama Qucha was more important to people living beside the coastal regions due to nearness and dependence upon the sea.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mama-qucha-c06",
+          "source_id": "mama-qucha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Wife of the supreme god Wiraqucha and mother of Inti and Mama Quilla, Mama Qucha was also the deity that represented all that was feminine and gave balance to the known world; she was often identified with the very rainwater that falls to fertilize the earth.",
+          "statement_id": "Istri dewa tertinggi Wiraqucha dan ibu Inti serta Mama Quilla, Mama Qucha juga dewa yang mewakili segala yang feminin dan memberi keseimbangan bagi dunia yang dikenal; ia sering diidentifikasi dengan air hujan yang jatuh menyuburkan bumi.",
+          "quote": "Wife of the supreme god Wiraqucha and mother of Inti and Mama Quilla, Mama Qucha was also the deity that represented all that was feminine and, in the same way, gave balance to the known world. She was often identified with the very rainwater that falls to fertilize the earth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mama-qucha-c07",
+          "source_id": "mama-qucha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Another important point is that Mama Qucha inhabited the 'world above', that is, the Hanan Pacha.",
+          "statement_id": "Hal penting lain adalah bahwa Mama Qucha berdiam di 'dunia atas', yaitu Hanan Pacha.",
+          "quote": "Another important point is that Mama Qucha inhabited the \"world above\", that is, the Hanan Pacha.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mama-qucha-c08",
+          "source_id": "mama-qucha-s1",
+          "host": "en.wikipedia.org",
+          "statement": "An ancient Inca legend tells that Mama Qucha was the daughter of the Sun and the Moon, also sister of 'Inca' (the Son of the Sun), and physically she was described as a pale and beautiful young woman.",
+          "statement_id": "Sebuah legenda Inca kuno menyebut Mama Qucha putri Matahari dan Bulan, juga saudari 'Inca' (Putra Matahari), dan secara fisik digambarkan sebagai perempuan muda yang pucat dan cantik.",
+          "quote": "An ancient Inca legend tells that Mama Qucha was the daughter of the Sun and the Moon. She was also sister of \"Inca\" (the Son of the Sun) and physically she was described as a pale and beautiful young woman",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mama-qucha-c09",
+          "source_id": "mama-qucha-s2",
+          "host": "gutenberg.org",
+          "statement": "The ancient Peruvians worshipped the sea as well as the earth; the folk inland regarded it as a menacing deity, whereas the people of the coast reverenced it as a god of benevolence, calling it Mama-cocha, or Mother-sea, because it yielded them subsistence in the form of fish.",
+          "statement_id": "Orang Peru kuno memuja laut maupun bumi; penduduk pedalaman memandangnya sebagai dewa yang mengancam, sedangkan penduduk pesisir menghormatinya sebagai dewa yang murah hati, menyebutnya Mama-cocha atau Ibu-laut karena memberi mereka makanan berupa ikan.",
+          "quote": "The ancient Peruvians worshipped the sea as well as the earth, the folk inland regarding it as a menacing deity, whilst the people of the coast reverenced it as a god of benevolence, calling it Mama-cocha, or Mother-sea, as it yielded them subsistence in the form of fish, on which they chiefly lived.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mama-qucha-c10",
+          "source_id": "mama-qucha-s2",
+          "host": "gutenberg.org",
+          "statement": "The coastal people who called the sea Mama-cocha, or Mother-sea, also worshipped the whale, fairly common on that coast, because of its enormous size, and various districts adored the species of fish most abundant there.",
+          "statement_id": "Penduduk pesisir yang menyebut laut Mama-cocha atau Ibu-laut juga memuja paus, yang cukup umum di pantai itu, karena ukurannya yang sangat besar, dan berbagai daerah memuja spesies ikan yang paling melimpah di sana.",
+          "quote": "the people of the coast reverenced it as a god of benevolence, calling it Mama-cocha, or Mother-sea ... They worshipped the whale, fairly common on that coast, because of its enormous size, and various districts regarded with adoration the species of fish most abundant there.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d21ade0b3fcb552ee6f802339c83d36b51df8c6aba8daba30fc5aab301530422"
+      "images": []
     },
     {
       "slug": "cadborosaurus",
