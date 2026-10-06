@@ -1,0 +1,70 @@
+{
+  "revision": "nama-besar",
+  "slug": "lilith",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generated_at": "2026-10-06T07:45:54.622Z",
+  "prompt": "Square premium painterly mythological illustration of Lilith, Ben Sira variant, fully clothed mature FEMALE DEMON appearing as one humanlike woman, NO WINGS, no horns, no animal legs or hybrid anatomy, no exposed body. One head, two arms and two legs. Her documented power is flight lilith-c08: show her floating high above a rugged night wilderness, dark regal gown billowing strongly, hair blown by cold night wind, imposing commanding pose and terrifying resolute gaze, source spirit of darkness lilith-c14. Extremely low-angle dramatic monumental frame, cliffs tiny beneath, cool moonlight and subtle warm horizon light only, rich painterly naturalistic fabric and expressive face. No flames or invented magical rays. No human victims, babies, nudity or gore. Original art independent of games movies anime comics. No text symbols lettering watermark logos or border.",
+  "depicted_variant": "Medieval Ben Sira female Lilith flying after speaking the divine name.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Documented flight and darkness; no invented wings, horns or fire.",
+  "review_path": "data/gemini/reviews/batch-041.review.json",
+  "basis_claim_ids": [
+    "lilith-c13",
+    "lilith-c02",
+    "lilith-c08",
+    "lilith-c14"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Female demon in fully humanlike woman rendering, without unsupported hybrid features.",
+      "claim_ids": [
+        "lilith-c13",
+        "lilith-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Wingless flight above ground in the Ben Sira story.",
+      "claim_ids": [
+        "lilith-c08"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Night darkness associated with Lilith.",
+      "claim_ids": [
+        "lilith-c14"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Full modest flowing dark dress and rocky wilderness are editorial staging.",
+    "Flight shown as elevation with wind in fabric; no added wings or glowing magic."
+  ],
+  "old_url": "/assets/art/lilith-regeneration-139.webp",
+  "old_webp_sha256": "19fd06271f9597f70258cb388b05c746af61eb92a19c31d9923f2964d1a5169b",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/lilith.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": null,
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/lilith.png",
+  "native_sha256": "408aaa339b25da9a5c8ec903993ec60a657d45911de4d0602a3fcae15f3c9392",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-17180f44-5daf-4273-8bc1-4ab8bb9f5e3e.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Native inspected: one wingless fully clothed humanlike woman suspended over mountainous night wilderness, two arms with coherent hands, no animal hybrid anatomy or horns, no text, symbols or watermark. Wind-blown dress and elevation visibly express claim-grounded flight.",
+    "native_sha256": "408aaa339b25da9a5c8ec903993ec60a657d45911de4d0602a3fcae15f3c9392",
+    "reviewed_at": "2026-10-06T07:45:54.623Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "408aaa339b25da9a5c8ec903993ec60a657d45911de4d0602a3fcae15f3c9392",
+    "notes": "Dark-haired female spirit in black robes flying through a night sky over mountains, matching the medieval account of her flight."
+  },
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00"
+}

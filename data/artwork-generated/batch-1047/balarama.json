@@ -1,0 +1,41 @@
+{
+  "slug": "balarama",
+  "prompt": "Use case: stylized-concept. Square premium Mythics painterly illustration, monumental low viewpoint, tiny environmental scale references, cinematic light, rich brush texture, no text, logo, watermark, border, gore, nudity or film/game/anime imitation. BALARAMA, respectfully depicted as mighty Hindu deity Krishna's elder brother (balarama-c01), FULLY clothed in traditional draped garments covering chest and legs, exactly ONE head and TWO arms, both hands holding ONE immense wooden plough (balarama-c04) with simple clear anatomy. Stands above tiny distant cultivated fields with furrows and golden crops, immense low-angle presence and strong silhouette. Farming power illustrated by earth freshly turned under the plough, sunlight and dust, no levitating earth, no fire, no lightning. No serpent bodies or extra heads, no weapon invented beyond plough. Original dignified sacred portrait.\nRevision instruction: Edit only clothing: cover entire exposed chest and abdomen including both nipples with opaque white traditional tunic underneath blue drapery. Keep all body proportions, two arms gripping one plough, face, backdrop and composition unchanged. FULLY clothed torso, no exposed chest; no new limbs or text.",
+  "depicted_variant": "Fully clothed mighty deity holding documented plough.",
+  "basis_claim_ids": [
+    "balarama-c01",
+    "balarama-c04"
+  ],
+  "visual_requirements": [
+    "Single Hindu deity, modest two-arm editorial rendering (balarama-c01)",
+    "One plough and cultivated land (balarama-c04)",
+    "No invented serpent anatomy or emitted effects"
+  ],
+  "aura": "Natural golden farming landscape and plough strength (balarama-c04).",
+  "artistic_choices": [
+    "Research supplies plough/farming rather than emitted power; grandeur through scale and lighting. Exact garments/body are modest editorial choices.",
+    "Rejected first attempt retained in rejected/balarama-attempt-1.png for uncovered chest; corrected using built-in image editing."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native edited output viewed: entire chest now opaque white tunic, two arms gripping one plough, covered legs, cultivated land, no invented effects.",
+    "reviewer": "codex",
+    "native_sha256": "bf734a0a8d49a6b5fdacb793b72a08e2187769d2e349772fad858be31fef6b73"
+  },
+  "generated_file": "/home/asadin/.codex/generated_images/01a11024-55c8-7c93-8727-a166e5328535/exec-2771da63-d479-4d31-8be4-56e6e828e17e.png",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/balarama.png",
+  "native_sha256": "bf734a0a8d49a6b5fdacb793b72a08e2187769d2e349772fad858be31fef6b73",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "needs-correction",
+  "review_path": "data/gemini/reviews/batch-072.review.json",
+  "reviewed_at": "2026-10-06T07:54:33.167668+00:00",
+  "root_visual_review": {
+    "verdict": "reject",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "bf734a0a8d49a6b5fdacb793b72a08e2187769d2e349772fad858be31fef6b73",
+    "notes": "Ordinary man ploughing a field."
+  },
+  "correction_notes": "Ordinary man ploughing a field."
+}

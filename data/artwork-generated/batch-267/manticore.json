@@ -1,31 +1,115 @@
 {
   "slug": "manticore",
   "worker": "worker-3",
-  "prompt": "One square polished detailed painterly Persian/ancient bestiary encyclopedia illustration of a MANTICORE using Ctesias's source-backed WINGLESS form. One lion-bodied quadruped with tawny feline fur, muscular four lion legs and paws, a bearded HUMANLIKE FACE with HUMAN EARS and pale blue eyes set at front of its mane, mouth open to reveal THREE DISTINCT PARALLEL ROWS of closely packed sharp teeth; face sinister monstrous hybrid, not ordinary human portrait. A long segmented SCORPIONLIKE TAIL curves high behind the lion back and terminates in a single long venom sting. Whole lion body, all four paws and entire raised stinging tail in frame with margins, rocky lonely Persian landscape under threatening dusk. Predatory cunning man-eater presence, tense ready-to-pounce posture, realistic fur and chitin. No wings, extra heads, horns, snake tail, human torso/arms, armor, people, blood, victims, text, border or watermark.",
-  "original_file": "/home/asadin/.codex/generated_images/01a10610-63b9-72e0-b40c-ea8572d6e4c9/exec-42c4e4c7-42e5-41b2-8249-546069f81c95.png",
+  "prompt": "Creature identity: manticore. Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. One horrific Persian MANTICORE with muscular LION BODY, a HUMAN FACE with HUMAN EARS, LIGHT BLUE EYES, exactly THREE visibly parallel ROWS OF TEETH in an open monstrous mouth, and one SCORPION-LIKE TAIL tipped with LONG STING. Four feline legs, one human-faced head, no wings or horns. Whole creature readable low-angle in lonely rocky desert mountains, tail rises menacingly, tiny distant ruins show scale. Natural red sunset and kicked-up dust, no supernatural flame/energy/poison emission invented. No blood, victims or gore. Plain uninscribed walls, clothing and objects: no hieroglyphs, cuneiform, letters or pictographic writing. No solar-disk crown, horns or additional attributes unless explicitly specified above.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/manticore.png",
   "workspace_original": "data/artwork-generated/batch-267/reviewed-images/manticore.png",
   "review_path": "data/gemini/reviews/batch-079.review.json",
   "visual_requirements": [
-    "Lion body with human face and human ears",
-    "Three rows of sharp teeth",
-    "Blue eyes",
-    "Scorpionlike long stinging tail",
-    "Dangerous man-eater aura"
+    {
+      "kind": "anatomy",
+      "description": "One horrific Persian MANTICORE with muscular LION BODY, a HUMAN FACE with HUMAN EARS, LIGHT BLUE EYES, exactly THREE visibly parallel ROWS OF TEETH in an open monstrous mouth, and one SCORPION-LIKE TAIL tipped with LONG STING. Four feline legs, one human-faced head, no wings or horns. Whole creature readable low-angle in lonely rocky desert mountains, tail rises menacingly, tiny distant ruins show scale. Natural red sunset and kicked-up dust, no supernatural flame/energy/poison emission invented. No blood, victims or gore.",
+      "claim_ids": [
+        "manticore-c01",
+        "manticore-c04",
+        "manticore-c05",
+        "manticore-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Menacing raised stinger and dusty atmosphere; basis: source-backed dangerous anatomy, no elemental power claims",
+      "claim_ids": [
+        "manticore-c01",
+        "manticore-c04",
+        "manticore-c05",
+        "manticore-c07"
+      ]
+    }
   ],
-  "depicted_variant": "Ctesias-derived wingless Persian manticore",
+  "depicted_variant": "One horrific Persian MANTICORE with muscular LION BODY, a HUMAN FACE with HUMAN EARS, LIGHT BLUE EYES, exactly THREE visibly parallel ROWS OF TEETH in an open monstrous mouth, and one SCORPION-LIKE TAIL tipped with LONG STING. Four feline legs, one human-faced head, no wings or horns. Whole creature readable low-angle in lonely rocky desert mountains, tail rises menacingly, tiny distant ruins show scale. Natural red sunset and kicked-up dust, no supernatural flame/energy/poison emission invented. No blood, victims or gore.",
   "basis_claim_ids": [
     "manticore-c01",
-    "manticore-c03",
     "manticore-c04",
     "manticore-c05",
     "manticore-c07"
   ],
-  "aura": "Terrifying cunning man-eating chimera",
+  "aura": "Menacing raised stinger and dusty atmosphere",
   "visual_review": {
     "verdict": "pass",
-    "notes": "Observed four-legged tawny lion body bearing a humanlike bearded face, human ears and pale blue eyes; open mouth has dense multiple parallel rows of sharp teeth including an additional inner row. Long segmented scorpion tail rises to a single venom sting, no wings. Aggressive crouch and hostile gaze give terrifying predatory chimera aura."
+    "reviewer": "codex",
+    "notes": "Viewed native PNG: human face with human ears/light blue eyes, three visible tooth rows, one lion body with exactly four paws, a scorpion-like tail and long pointed sting. No wings/horns or invented poison beam; rocks/dust/red sunset are artistic setting. Terrifying non-gory presentation, no text.",
+    "native_sha256": "244d12a859aeea252aea88ec626b7b09bf0c4932d9e03aa5988cd0b8ce09ae0d",
+    "reviewed_at": "2026-10-06T08:13:32.470Z"
   },
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
-  "reviewed_at": "2026-10-04T09:07:20.514752+00:00"
+  "reviewed_at": "2026-10-04T09:07:20.514752+00:00",
+  "presentation_revision_history": [
+    {
+      "slug": "manticore",
+      "worker": "worker-3",
+      "prompt": "One square polished detailed painterly Persian/ancient bestiary encyclopedia illustration of a MANTICORE using Ctesias's source-backed WINGLESS form. One lion-bodied quadruped with tawny feline fur, muscular four lion legs and paws, a bearded HUMANLIKE FACE with HUMAN EARS and pale blue eyes set at front of its mane, mouth open to reveal THREE DISTINCT PARALLEL ROWS of closely packed sharp teeth; face sinister monstrous hybrid, not ordinary human portrait. A long segmented SCORPIONLIKE TAIL curves high behind the lion back and terminates in a single long venom sting. Whole lion body, all four paws and entire raised stinging tail in frame with margins, rocky lonely Persian landscape under threatening dusk. Predatory cunning man-eater presence, tense ready-to-pounce posture, realistic fur and chitin. No wings, extra heads, horns, snake tail, human torso/arms, armor, people, blood, victims, text, border or watermark.",
+      "original_file": "/home/asadin/.codex/generated_images/01a10610-63b9-72e0-b40c-ea8572d6e4c9/exec-42c4e4c7-42e5-41b2-8249-546069f81c95.png",
+      "workspace_original": "data/artwork-generated/batch-267/reviewed-images/manticore.png",
+      "review_path": "data/gemini/reviews/batch-079.review.json",
+      "visual_requirements": [
+        "Lion body with human face and human ears",
+        "Three rows of sharp teeth",
+        "Blue eyes",
+        "Scorpionlike long stinging tail",
+        "Dangerous man-eater aura"
+      ],
+      "depicted_variant": "Ctesias-derived wingless Persian manticore",
+      "basis_claim_ids": [
+        "manticore-c01",
+        "manticore-c03",
+        "manticore-c04",
+        "manticore-c05",
+        "manticore-c07"
+      ],
+      "aura": "Terrifying cunning man-eating chimera",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed four-legged tawny lion body bearing a humanlike bearded face, human ears and pale blue eyes; open mouth has dense multiple parallel rows of sharp teeth including an additional inner row. Long segmented scorpion tail rises to a single venom sting, no wings. Aggressive crouch and hostile gaze give terrifying predatory chimera aura."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "reviewed_at": "2026-10-04T09:07:20.514752+00:00"
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "244d12a859aeea252aea88ec626b7b09bf0c4932d9e03aa5988cd0b8ce09ae0d",
+    "notes": "Lion body with a human face, light eyes, rows of teeth in a roaring mouth and a scorpion tail with long sting; no wings or horns."
+  },
+  "native_sha256": "244d12a859aeea252aea88ec626b7b09bf0c4932d9e03aa5988cd0b8ce09ae0d",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/manticore.json",
+    "native_sha256": "244d12a859aeea252aea88ec626b7b09bf0c4932d9e03aa5988cd0b8ce09ae0d",
+    "old_url": "/assets/art/manticore-verified-v2.webp",
+    "old_original_file": "/home/asadin/.codex/generated_images/01a10610-63b9-72e0-b40c-ea8572d6e4c9/exec-42c4e4c7-42e5-41b2-8249-546069f81c95.png",
+    "old_webp_sha256": "911b2aa9e074f8b7ea58b3713cbb978fa847560e51ee7739d3939e09fdf12892",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "manticore-c01",
+      "manticore-c04",
+      "manticore-c05",
+      "manticore-c07"
+    ]
+  },
+  "url": "/assets/art/manticore-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "244a692f26a8635a883b2ccca17f3c02bdbe382169f155f0e9bde03aea6e8f79",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-b6046ad7-dd78-4d39-9402-969248c81fb7.png",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Low-angle framing, painterly materials and environmental color are artistic rendering.",
+    "Effects are limited to the cited domains, deeds, attributes or iconography; natural light and scale supply presence where no elemental ability is documented."
+  ]
 }

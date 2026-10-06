@@ -3,36 +3,114 @@
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "slug": "kamadeva",
-  "prompt": "Create one square premium painterly naturalistic Hindu mythology artwork no text. KAMADEVA is explicitly a HANDSOME YOUNG MAN decorated with ORNAMENTS AND FLOWERS, armed with SUGARCANE BOW and FLOWER ARROWS. Show one young ADULT human man with single head, ordinary two arms/two legs, full opaque tasteful silk tunic and dhoti, gold ornaments and flower garland. Holding a curved green segmented sugarcane bow clearly recognizable as jointed sugarcane stalk; other hand holds a nonthreatening arrow whose tip is a small natural flower bouquet, and a few flower arrows in quiver. Calm poised gentle confidence, no aiming at person. Quiet flowering Indian garden, warm natural morning light, refined hand-painted detail. No wings, borrowed third eye, extra arms, supernatural skin colour, halo or glowing aura, neon or luminous mist. Flowers and ornaments source-backed; exact cloth/palette/face editorial.",
-  "generated_file": "/home/asadin/.codex/generated_images/01a10bb6-3cac-7261-911d-bbee01b4baaf/exec-5eafcb9f-c891-4f4c-a9a9-098eab9479a2.png",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/kamadeva.png",
-  "depicted_variant": "Handsome young man with ornaments, flowers, sugarcane bow and flower arrows",
+  "prompt": "Edit this Kamadeva image keeping the ordinary youthful human male body, SUGARCANE BOW, flower-tipped arrows, garden and majestic dawn. Remove the unsupported peacock feather and jeweled crown from his head, replacing them with a simple small flower wreath. Add a modest opaque cloth tunic/shawl covering the currently exposed chest and abdomen, keeping natural two-arm two-leg anatomy. No extra weapons, body features, solar halo, elemental power, text or lettering. Retain respectful Hindu god of love and beauty, not Krishna/Cupid or any modern character design.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-0ba0ce36-8e5d-4712-87b6-3785821bab5f.png",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/kamadeva.png",
+  "depicted_variant": "One majestic youthful human male Hindu god of love, respectfully depicted in fully modest rich flowing robes, holding a clearly SUGARCANE BOW and arrows tipped with FLOWERS rather than metal. Two arms and two legs, ordinary human face, no added wings. Monumental low-angle composition above tiny flowering garden groves, natural warm dawn haze. Flower-tipped arrows and sugarcane segments remain readable; no heart symbols, lettering, nudity, seductive pose or modern Cupid design. No fire or lightning: this is Kamadeva before the Shiva incineration episode.",
   "basis_claim_ids": [
+    "kamadeva-c01",
     "kamadeva-c02"
   ],
   "visual_requirements": [
-    "Young adult human man",
-    "Sugarcane bow",
-    "Flower arrows",
-    "Flowers and ornaments"
+    {
+      "kind": "anatomy",
+      "description": "One majestic youthful human male Hindu god of love, respectfully depicted in fully modest rich flowing robes, holding a clearly SUGARCANE BOW and arrows tipped with FLOWERS rather than metal. Two arms and two legs, ordinary human face, no added wings. Monumental low-angle composition above tiny flowering garden groves, natural warm dawn haze. Flower-tipped arrows and sugarcane segments remain readable; no heart symbols, lettering, nudity, seductive pose or modern Cupid design. No fire or lightning: this is Kamadeva before the Shiva incineration episode.",
+      "claim_ids": [
+        "kamadeva-c01",
+        "kamadeva-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Flower arrows and radiant natural garden dawn; basis: documented love/beauty domain and iconography",
+      "claim_ids": [
+        "kamadeva-c01",
+        "kamadeva-c02"
+      ]
+    }
   ],
-  "aura": "Presence through expression, posture, framing and natural scene light.",
+  "aura": "Flower arrows and radiant natural garden dawn",
   "visual_review": {
     "verdict": "pass",
-    "reviewer": "recover_session",
-    "notes": "Inspected native: one adult young human male, two arms/legs, garlands/jewelry, clearly segmented sugarcane bow and several flower-tipped arrows. No extra arms, third eye or luminous aura. Lower body clothed; decorative garden peacock is incidental staging, not a claimed mount."
+    "reviewer": "codex",
+    "notes": "Viewed corrected PNG: ordinary young man with two arms/two legs, visible segmented sugarcane bow and flower-tipped arrows; no wings. Removed unsupported Krishna-like peacock feather/crown and covered chest with opaque tunic. Flower wreath/clothes/garden are artistic ornament; strong natural dawn, no invented elemental effects/text.",
+    "native_sha256": "c19708a503b8a45265bb2bd764a399bd32c1b50bf5a17937d4cbba0f73580205",
+    "reviewed_at": "2026-10-06T07:59:24.512Z"
   },
   "reviewed_at": "2026-10-05T14:51:57.661193+00:00",
   "artistic_choices": [
     "Silk dhoti, cloth colors, gold ornaments style, garden courtyard and incidental garden bird are editorial staging"
   ],
   "review_path": "data/gemini/reviews/batch-072.review.json",
-  "native_sha256": "04c986bdfe1fa242a937e03558df381c9bd6be46d4128c9192ce70967b2270ca",
+  "native_sha256": "c19708a503b8a45265bb2bd764a399bd32c1b50bf5a17937d4cbba0f73580205",
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "root",
-    "reviewed_at": "2026-10-05",
-    "native_sha256": "04c986bdfe1fa242a937e03558df381c9bd6be46d4128c9192ce70967b2270ca",
-    "notes": "Viewed native: one young adult human man with two arms/two legs, flower garlands and ornaments, segmented sugarcane bow and flower arrows. No borrowed limbs/third eye or generic aura. Garden peacock is recorded as incidental staging, not a claimed mount."
-  }
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "c19708a503b8a45265bb2bd764a399bd32c1b50bf5a17937d4cbba0f73580205",
+    "notes": "Youthful love god in rich robes with a sugarcane bow and flower-tipped arrows above a blooming landscape at sunset."
+  },
+  "presentation_revision_history": [
+    {
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "slug": "kamadeva",
+      "prompt": "Create one square premium painterly naturalistic Hindu mythology artwork no text. KAMADEVA is explicitly a HANDSOME YOUNG MAN decorated with ORNAMENTS AND FLOWERS, armed with SUGARCANE BOW and FLOWER ARROWS. Show one young ADULT human man with single head, ordinary two arms/two legs, full opaque tasteful silk tunic and dhoti, gold ornaments and flower garland. Holding a curved green segmented sugarcane bow clearly recognizable as jointed sugarcane stalk; other hand holds a nonthreatening arrow whose tip is a small natural flower bouquet, and a few flower arrows in quiver. Calm poised gentle confidence, no aiming at person. Quiet flowering Indian garden, warm natural morning light, refined hand-painted detail. No wings, borrowed third eye, extra arms, supernatural skin colour, halo or glowing aura, neon or luminous mist. Flowers and ornaments source-backed; exact cloth/palette/face editorial.",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10bb6-3cac-7261-911d-bbee01b4baaf/exec-5eafcb9f-c891-4f4c-a9a9-098eab9479a2.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/kamadeva.png",
+      "depicted_variant": "Handsome young man with ornaments, flowers, sugarcane bow and flower arrows",
+      "basis_claim_ids": [
+        "kamadeva-c02"
+      ],
+      "visual_requirements": [
+        "Young adult human man",
+        "Sugarcane bow",
+        "Flower arrows",
+        "Flowers and ornaments"
+      ],
+      "aura": "Presence through expression, posture, framing and natural scene light.",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "recover_session",
+        "notes": "Inspected native: one adult young human male, two arms/legs, garlands/jewelry, clearly segmented sugarcane bow and several flower-tipped arrows. No extra arms, third eye or luminous aura. Lower body clothed; decorative garden peacock is incidental staging, not a claimed mount."
+      },
+      "reviewed_at": "2026-10-05T14:51:57.661193+00:00",
+      "artistic_choices": [
+        "Silk dhoti, cloth colors, gold ornaments style, garden courtyard and incidental garden bird are editorial staging"
+      ],
+      "review_path": "data/gemini/reviews/batch-072.review.json",
+      "native_sha256": "04c986bdfe1fa242a937e03558df381c9bd6be46d4128c9192ce70967b2270ca",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "reviewed_at": "2026-10-05",
+        "native_sha256": "04c986bdfe1fa242a937e03558df381c9bd6be46d4128c9192ce70967b2270ca",
+        "notes": "Viewed native: one young adult human man with two arms/two legs, flower garlands and ornaments, segmented sugarcane bow and flower arrows. No borrowed limbs/third eye or generic aura. Garden peacock is recorded as incidental staging, not a claimed mount."
+      }
+    }
+  ],
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/kamadeva.json",
+    "native_sha256": "c19708a503b8a45265bb2bd764a399bd32c1b50bf5a17937d4cbba0f73580205",
+    "old_url": "/assets/art/kamadeva-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/kamadeva.png",
+    "old_webp_sha256": "8d35033ee07a1c6e81c158c7a085dde75409fd9a7aa56d1d7b41061f8b53f6d0",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "kamadeva-c01",
+      "kamadeva-c02"
+    ]
+  },
+  "url": "/assets/art/kamadeva-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "d3df9a7ecb270396243554ec4942b8aaeeb0170942fb99414814bdf2b38c2ad7",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Low-angle framing, painterly materials and environmental color are artistic rendering.",
+    "Effects are limited to the cited domains, deeds, attributes or iconography; natural light and scale supply presence where no elemental ability is documented."
+  ]
 }

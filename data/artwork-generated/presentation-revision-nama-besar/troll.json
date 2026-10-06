@@ -1,0 +1,72 @@
+{
+  "revision": "nama-besar",
+  "slug": "troll",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generated_at": "2026-10-06T08:05:30.765Z",
+  "prompt": "Square premium original painterly Scandinavian TROLL illustration. One enormous grotesque yet HUMANLIKE GIANT c01,c03,c14 with one head two arms two legs normal ears, NO horns tails tusks extra heads or modern borrowed design. Fully dressed in rough long dark woolen tunic and trousers, massive stooped physique. At mountain CAVE mouth c04, dawn SUNLIGHT begins turning him to STONE c05: one broad hand and side of cheek show gradual textured GREY ROCK transformation while rest remains living intact, no wounds or broken limbs. He shields his face from sunrise with one arm, wary terrifying monumental silhouette, low camera dwarfed by vast cave, tiny boulders and pines for scale, dramatic amber sunlight against deep blue cave shadows, rich painterly rock/fabric/skin texture. No magic emitted by troll, no lightning/fire, no gore text symbols writing watermark logo border nudity or game/film/anime/comic designs.",
+  "depicted_variant": "Giant humanlike mountain troll encountering petrifying dawn.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Sunlight petrification c05 shown as intact skin transitioning to stone.",
+  "review_path": "data/gemini/reviews/batch-047.review.json",
+  "basis_claim_ids": [
+    "troll-c01",
+    "troll-c03",
+    "troll-c14",
+    "troll-c05",
+    "troll-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Giant humanlike Nordic troll with ordinary human limb count.",
+      "claim_ids": [
+        "troll-c01",
+        "troll-c03",
+        "troll-c14"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Sunlight turns troll to stone.",
+      "claim_ids": [
+        "troll-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mountain cave habitat.",
+      "claim_ids": [
+        "troll-c04"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Coarse face and full rough garments editorial variant interpretation; no horns or tails.",
+    "Stone transition is non-gory source-attested petrification, no shattered body."
+  ],
+  "old_url": "/assets/art/troll-verified.webp",
+  "old_webp_sha256": "89ec0b940804181cdbb3c483d7a344d1f00c1108d69a9158d45118d9246d67c6",
+  "old_original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-398e0a52-ae40-44c5-9d7a-374afc6683d6.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": null,
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/troll.png",
+  "native_sha256": "f74500e7704ebcef37fcfbd50133ef92fdce08c8598b1176b6f06f1de4352101",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-17ba3cc1-3aac-4d29-a984-898977bf0beb.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Native inspected: one humanlike grotesque giant with two arms/legs, shielding face at cave; cheek and hands transition intact to grey stone in sunlight. Fully clothed, no horns/tails/extra heads, wounds, text or watermark. Source-attested petrification readable.",
+    "native_sha256": "f74500e7704ebcef37fcfbd50133ef92fdce08c8598b1176b6f06f1de4352101",
+    "reviewed_at": "2026-10-06T08:05:30.765Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "f74500e7704ebcef37fcfbd50133ef92fdce08c8598b1176b6f06f1de4352101",
+    "notes": "Giant mountain troll shielding its eyes from the dawn while its skin starts turning to stone, as in the petrification belief."
+  },
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00"
+}

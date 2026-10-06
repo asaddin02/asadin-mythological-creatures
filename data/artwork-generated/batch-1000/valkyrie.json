@@ -3,25 +3,39 @@
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "slug": "valkyrie",
-  "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Norse mythology illustration of ONE VALKYRIE choosing the documented fully ARMOURED human WARRIOR WOMAN on HORSEBACK holding a SPEAR. Adult normal human female face, two arms/hands and two legs, full modest metal armour with unhorned plain helmet, mounted on one ordinary coherent horse with four legs/hooves and one tail. No wings on either woman or horse: no swan-maiden variant mixing. Spear upright, calm commanding martial expression. Full rider/horse in frame on windy northern moor after battle, no corpses or gore. Dramatic natural dawn sky, rich iron/leather/fur textures, protective grave presence through posture and natural lighting. Armour style and horse coat are editorial period-inspired choices. No glowing aura, neon outline, magic ribbons, luminous coloured mist, flaming ring, Odin, ravens or other characters, horns, antlers, lettering, border, collage or watermark.\nFinal selected edit instruction: Precise-object-edit. Edit input image only by REMOVING the entire unrequested standing woman at LEFT, her white dress, arm, cape and hair. Reconstruct left moor landscape, sky and ground naturally where she was. Preserve exactly ONE armoured mounted warrior woman/Valkyrie on the existing single horse, her spear, helmet, armour, hands, horse anatomy, composition and sunrise. Remove nothing from mounted Valkyrie. No other characters added. Ordinary natural light, no glow or watermark.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/valkyrie.png",
-  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-52442c3b-9e01-46b9-a437-251be42be2d0.png",
-  "depicted_variant": "Armoured human warrior woman on horseback with spear",
+  "prompt": "Square premium original painterly Norse VALKYRIE illustration. One imposing divine warrior WOMAN in FULL ARMOUR, holding ONE long SPEAR and riding ONE majestic normal anatomically correct HORSE valkyrie-c02,c06. Documented power: riding THROUGH AIR c01; horse and rider entirely airborne above vast landscape and dramatic ordinary clouds. Horse exactly four legs one head and no wings, woman exactly one head two arms two legs, no wings horn helmet or extra limbs. Monumental low camera from below airborne horse, dignified resolute fierce protector bearing, powerful wind-blown fully modest cloak, brilliant natural sunlight breaking grey clouds, rich steel metal and fur textures painterly detail. No wolf/boar/swan variation or Brynhild fire story mixed. No invented lightning/fire attacks, magic spear glow, text inscriptions numbers watermark logo border nudity gore or film/game/anime/comic designs.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/valkyrie.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-1a973f5b-6923-4ea1-aee7-fab13a168143.png",
+  "depicted_variant": "Armored divine warrior maiden with spear riding one horse through air.",
   "basis_claim_ids": [
-    "valkyrie-c01",
     "valkyrie-c02",
-    "valkyrie-c06"
+    "valkyrie-c06",
+    "valkyrie-c01"
   ],
   "visual_requirements": [
-    "One mounted armoured adult woman holding spear",
-    "One ordinary horse with four legs",
-    "No swan variant, horns or additional character"
+    {
+      "kind": "anatomy",
+      "description": "One fully armored warrior woman with spear on one horse.",
+      "claim_ids": [
+        "valkyrie-c02",
+        "valkyrie-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Riding through air in Odin's service.",
+      "claim_ids": [
+        "valkyrie-c01"
+      ]
+    }
   ],
-  "aura": "Grave martial authority through poised posture and natural sunrise",
+  "aura": "Documented airborne ride, imposing divine martial authority.",
   "visual_review": {
     "verdict": "pass",
-    "reviewer": "worker-1",
-    "notes": "Inspected corrected native: one fully armoured normal woman with spear on one coherent horse, plain unhorned helmet; extra initial standing woman removed. Horse legs and human hands natural, no magical envelope."
+    "reviewer": "codex",
+    "notes": "Native inspected: one armored maiden carrying spear riding one ordinary wingless horse through air, horse four anatomically coherent legs, woman two arms/legs with no added wings or horned helmet. Monumental natural cloud light. No weapon emission text/watermark or gore.",
+    "native_sha256": "a1e78549babc6a314b1706be4aadd6b13b1656e082f0d9aec576b8c3d63e3ccd",
+    "reviewed_at": "2026-10-06T07:59:29.386Z"
   },
   "reviewed_at": "2026-10-05T13:06:04.178Z",
   "artistic_choices": [
@@ -36,12 +50,85 @@
     }
   ],
   "review_path": "data/gemini/reviews/batch-045.review.json",
-  "native_sha256": "4eb73c8e2afc0491345cb37d1ada332efc380ec658f8ca1533a100d5b54f835c",
+  "native_sha256": "a1e78549babc6a314b1706be4aadd6b13b1656e082f0d9aec576b8c3d63e3ccd",
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "root",
-    "reviewed_at": "2026-10-05",
-    "native_sha256": "4eb73c8e2afc0491345cb37d1ada332efc380ec658f8ca1533a100d5b54f835c",
-    "notes": "Inspected final native mounted adult warrior woman in full armor with spear, one ordinary horse; no stray additional woman, horns or wings. Fits c02/c06."
-  }
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "a1e78549babc6a314b1706be4aadd6b13b1656e082f0d9aec576b8c3d63e3ccd",
+    "notes": "Armoured maiden with spear riding a white horse through the sky above mountains and fjords."
+  },
+  "presentation_revision_history": [
+    {
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "slug": "valkyrie",
+      "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Norse mythology illustration of ONE VALKYRIE choosing the documented fully ARMOURED human WARRIOR WOMAN on HORSEBACK holding a SPEAR. Adult normal human female face, two arms/hands and two legs, full modest metal armour with unhorned plain helmet, mounted on one ordinary coherent horse with four legs/hooves and one tail. No wings on either woman or horse: no swan-maiden variant mixing. Spear upright, calm commanding martial expression. Full rider/horse in frame on windy northern moor after battle, no corpses or gore. Dramatic natural dawn sky, rich iron/leather/fur textures, protective grave presence through posture and natural lighting. Armour style and horse coat are editorial period-inspired choices. No glowing aura, neon outline, magic ribbons, luminous coloured mist, flaming ring, Odin, ravens or other characters, horns, antlers, lettering, border, collage or watermark.\nFinal selected edit instruction: Precise-object-edit. Edit input image only by REMOVING the entire unrequested standing woman at LEFT, her white dress, arm, cape and hair. Reconstruct left moor landscape, sky and ground naturally where she was. Preserve exactly ONE armoured mounted warrior woman/Valkyrie on the existing single horse, her spear, helmet, armour, hands, horse anatomy, composition and sunrise. Remove nothing from mounted Valkyrie. No other characters added. Ordinary natural light, no glow or watermark.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/valkyrie.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-52442c3b-9e01-46b9-a437-251be42be2d0.png",
+      "depicted_variant": "Armoured human warrior woman on horseback with spear",
+      "basis_claim_ids": [
+        "valkyrie-c01",
+        "valkyrie-c02",
+        "valkyrie-c06"
+      ],
+      "visual_requirements": [
+        "One mounted armoured adult woman holding spear",
+        "One ordinary horse with four legs",
+        "No swan variant, horns or additional character"
+      ],
+      "aura": "Grave martial authority through poised posture and natural sunrise",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-1",
+        "notes": "Inspected corrected native: one fully armoured normal woman with spear on one coherent horse, plain unhorned helmet; extra initial standing woman removed. Horse legs and human hands natural, no magical envelope."
+      },
+      "reviewed_at": "2026-10-05T13:06:04.178Z",
+      "artistic_choices": [
+        "Armour construction, horse coat and sunrise moor are editorial period staging."
+      ],
+      "attempt_history": [
+        {
+          "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-19a2eed3-16cc-4b4e-bad4-ae0e56605a67.png",
+          "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Norse mythology illustration of ONE VALKYRIE choosing the documented fully ARMOURED human WARRIOR WOMAN on HORSEBACK holding a SPEAR. Adult normal human female face, two arms/hands and two legs, full modest metal armour with unhorned plain helmet, mounted on one ordinary coherent horse with four legs/hooves and one tail. No wings on either woman or horse: no swan-maiden variant mixing. Spear upright, calm commanding martial expression. Full rider/horse in frame on windy northern moor after battle, no corpses or gore. Dramatic natural dawn sky, rich iron/leather/fur textures, protective grave presence through posture and natural lighting. Armour style and horse coat are editorial period-inspired choices. No glowing aura, neon outline, magic ribbons, luminous coloured mist, flaming ring, Odin, ravens or other characters, horns, antlers, lettering, border, collage or watermark.",
+          "verdict": "reject",
+          "reason": "Unrequested second standing woman; selected native edit removes her."
+        }
+      ],
+      "review_path": "data/gemini/reviews/batch-045.review.json",
+      "native_sha256": "4eb73c8e2afc0491345cb37d1ada332efc380ec658f8ca1533a100d5b54f835c",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "reviewed_at": "2026-10-05",
+        "native_sha256": "4eb73c8e2afc0491345cb37d1ada332efc380ec658f8ca1533a100d5b54f835c",
+        "notes": "Inspected final native mounted adult warrior woman in full armor with spear, one ordinary horse; no stray additional woman, horns or wings. Fits c02/c06."
+      }
+    }
+  ],
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/valkyrie.json",
+    "native_sha256": "a1e78549babc6a314b1706be4aadd6b13b1656e082f0d9aec576b8c3d63e3ccd",
+    "old_url": "/assets/art/valkyrie-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/valkyrie.png",
+    "old_webp_sha256": "323b653c50dbd6b9601b615b7fb82fabcc2394c5fc3b6b3f5df09b5c8f3b90b7",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "valkyrie-c02",
+      "valkyrie-c06",
+      "valkyrie-c01"
+    ]
+  },
+  "url": "/assets/art/valkyrie-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "094d5efb5e69685ad3ca4df15519d2639f1ec92427d40f219142ab84a4cfc4fa",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Horse has ordinary equine anatomy, no wings added; no swan/boar/wolf variant blended.",
+    "Armour material, cloud scenery and remote landscape are editorial composition; no weapon emission."
+  ]
 }

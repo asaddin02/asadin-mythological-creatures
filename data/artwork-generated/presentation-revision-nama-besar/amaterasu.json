@@ -1,0 +1,70 @@
+{
+  "revision": "nama-besar",
+  "slug": "amaterasu",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generated_at": "2026-10-06T07:45:54.781Z",
+  "prompt": "Create an original square premium painterly mythology encyclopedia illustration of Amaterasu, revered Shinto SUN GODDESS, beautiful serene fully clothed humanlike adult woman in layered elegant white ceremonial robes, one head two arms two legs no wings or horns. Emerging from a monumental dark rock cave, she RESTORES DAYLIGHT from her sun domain (amaterasu-c01,c18), a breathtaking flood of warm SOLAR RADIANCE illuminating the entire sky and landscape, luminous golden beams expanding into real landscape sunlight, visibly immense divine power yet respectful benevolence. Low-angle composition dominated by goddess, silhouetted rock cave and tiny far landscape, sacred sakaki tree to side with plain round mirror, small curved magatama jewel beads and white cloth attached (c07), no writing. Rich painterly cinematic high contrast dark cave against spectacular golden light, detailed fabric, strong elegant silhouette. No weapons, lightning or invented powers, no film game anime comic design, no text labels watermark logo border, no nudity or gore.",
+  "depicted_variant": "Shinto sun goddess emerging from the rock cave and restoring heaven's light.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Strong restored sunlight radiance from Amaterasu's emergence, c01,c18.",
+  "review_path": "data/gemini/reviews/batch-042.review.json",
+  "basis_claim_ids": [
+    "amaterasu-c01",
+    "amaterasu-c18",
+    "amaterasu-c05",
+    "amaterasu-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Chief sun goddess, respectfully rendered as fully clothed woman without invented anatomy.",
+      "claim_ids": [
+        "amaterasu-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Brilliant solar radiance restores heaven when she emerges from cave.",
+      "claim_ids": [
+        "amaterasu-c18"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Cave mouth with sakaki tree bearing mirror, fine white cloth and magatama.",
+      "claim_ids": [
+        "amaterasu-c05",
+        "amaterasu-c07"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Layered white ceremonial garments and serene humanlike rendering are editorial respectful choices; detailed garments not source-specific.",
+    "Only solar domain/emergence radiance, no lightning, weapons or extra anatomy."
+  ],
+  "old_url": "/assets/art/amaterasu-regeneration-139-mythic-presence.webp",
+  "old_webp_sha256": "62bb34ecf804d0b7df10700cd8ab601299590135df7f57c8e7dd3a532ff6a51d",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/amaterasu-mythic-presence.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": "def1531151a2e5482ccf89dadb062f443cc32e6dccb8c830011458eafff3e100",
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/amaterasu.png",
+  "native_sha256": "1b0614f3337cafd6bcc2c8494990376243726f85e3e80141608f4ccc849ed22d",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-6c8166f9-bace-4bb4-8c1b-a2c77a31accd.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Native inspected: serene fully clothed woman at dark cave mouth, immense golden solar light over heaven, sakaki branches with mirror, curved beads and white cloth. Two human arms, no wings or weapons, no text watermark or gore. Robes and sun-shaped metal hair jewelry are editorial costume design.",
+    "native_sha256": "1b0614f3337cafd6bcc2c8494990376243726f85e3e80141608f4ccc849ed22d",
+    "reviewed_at": "2026-10-06T07:45:54.781Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "1b0614f3337cafd6bcc2c8494990376243726f85e3e80141608f4ccc849ed22d",
+    "notes": "Radiant sun goddess stepping from the rock cave with mirror, white cloth and magatama; brilliant solar light restores the sky, matching the cave-emergence claims."
+  },
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00"
+}

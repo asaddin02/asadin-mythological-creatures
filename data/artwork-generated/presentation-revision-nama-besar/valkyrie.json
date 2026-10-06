@@ -1,0 +1,62 @@
+{
+  "revision": "nama-besar",
+  "slug": "valkyrie",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generated_at": "2026-10-06T07:59:29.386Z",
+  "prompt": "Square premium original painterly Norse VALKYRIE illustration. One imposing divine warrior WOMAN in FULL ARMOUR, holding ONE long SPEAR and riding ONE majestic normal anatomically correct HORSE valkyrie-c02,c06. Documented power: riding THROUGH AIR c01; horse and rider entirely airborne above vast landscape and dramatic ordinary clouds. Horse exactly four legs one head and no wings, woman exactly one head two arms two legs, no wings horn helmet or extra limbs. Monumental low camera from below airborne horse, dignified resolute fierce protector bearing, powerful wind-blown fully modest cloak, brilliant natural sunlight breaking grey clouds, rich steel metal and fur textures painterly detail. No wolf/boar/swan variation or Brynhild fire story mixed. No invented lightning/fire attacks, magic spear glow, text inscriptions numbers watermark logo border nudity gore or film/game/anime/comic designs.",
+  "depicted_variant": "Armored divine warrior maiden with spear riding one horse through air.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Documented airborne ride, imposing divine martial authority.",
+  "review_path": "data/gemini/reviews/batch-045.review.json",
+  "basis_claim_ids": [
+    "valkyrie-c02",
+    "valkyrie-c06",
+    "valkyrie-c01"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One fully armored warrior woman with spear on one horse.",
+      "claim_ids": [
+        "valkyrie-c02",
+        "valkyrie-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Riding through air in Odin's service.",
+      "claim_ids": [
+        "valkyrie-c01"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Horse has ordinary equine anatomy, no wings added; no swan/boar/wolf variant blended.",
+    "Armour material, cloud scenery and remote landscape are editorial composition; no weapon emission."
+  ],
+  "old_url": "/assets/art/valkyrie-verified.webp",
+  "old_webp_sha256": "323b653c50dbd6b9601b615b7fb82fabcc2394c5fc3b6b3f5df09b5c8f3b90b7",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/valkyrie.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": "4eb73c8e2afc0491345cb37d1ada332efc380ec658f8ca1533a100d5b54f835c",
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/valkyrie.png",
+  "native_sha256": "a1e78549babc6a314b1706be4aadd6b13b1656e082f0d9aec576b8c3d63e3ccd",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-1a973f5b-6923-4ea1-aee7-fab13a168143.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Native inspected: one armored maiden carrying spear riding one ordinary wingless horse through air, horse four anatomically coherent legs, woman two arms/legs with no added wings or horned helmet. Monumental natural cloud light. No weapon emission text/watermark or gore.",
+    "native_sha256": "a1e78549babc6a314b1706be4aadd6b13b1656e082f0d9aec576b8c3d63e3ccd",
+    "reviewed_at": "2026-10-06T07:59:29.386Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "a1e78549babc6a314b1706be4aadd6b13b1656e082f0d9aec576b8c3d63e3ccd",
+    "notes": "Armoured maiden with spear riding a white horse through the sky above mountains and fjords."
+  },
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00"
+}

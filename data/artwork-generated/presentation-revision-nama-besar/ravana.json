@@ -1,0 +1,62 @@
+{
+  "revision": "nama-besar",
+  "slug": "ravana",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generated_at": "2026-10-06T08:12:21.935Z",
+  "prompt": "Square premium original painterly Hindu epic RAVANA king of Lanka. EXACTLY TEN HUMAN HEADS on ONE fully clothed regal imposing body ravana-c01,c09. Ten distinct faces fully visible in simple unambiguous arrangement: FIVE HEADS upper row, FIVE HEADS lower row, all attached to same coherent king figure, ten heads total. TWO arms only because accepted research does not specify twenty arms, TWO legs, full modest long ornate royal garments, NO exposed body horns wings tails extra heads or arms. One hand holds a single plain royal SWORD, documented gift weapons c12, other hand at side. Great king terrifying proud formidable, no caricature of living religion. Low-angle monumental silhouette on immense Lanka stone terrace above tiny distant coastal architecture; cinematic rich natural crimson-gold dawn and deep shadow, painterly naturalistic exquisite detail. No magical fire breath lightning weapon beams or unsupported extra powers, no text labels numeric symbols writing watermark logos border gore nudity or modern film/game/anime/comic designs.",
+  "depicted_variant": "Ten-headed Ravana king of Lanka, source-limited two-arm body with royal weapon.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Overwhelming ten-headed sovereign presence; no invented fire or lightning powers.",
+  "review_path": "data/gemini/reviews/batch-072.review.json",
+  "basis_claim_ids": [
+    "ravana-c01",
+    "ravana-c09",
+    "ravana-c12"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly ten heads in chosen Dashanana king variant.",
+      "claim_ids": [
+        "ravana-c01",
+        "ravana-c09"
+      ]
+    },
+    {
+      "kind": "anatomy",
+      "description": "Royal weapon as gift of Brahma.",
+      "claim_ids": [
+        "ravana-c12"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Research gives ten heads but not twenty arms; ordinary two-arm fully clothed rendering avoids unsupported arm count.",
+    "Royal robes, ten simple crowns, stone terrace, sword shape and dawn are editorial staging, no fire attack or multiple variants blended."
+  ],
+  "old_url": "/assets/art/ravana-presence.webp",
+  "old_webp_sha256": "181bfdc870c01e5982f388c2639aa82ffa167dbc1ecdfc8f2706f08254f35d6d",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/ravana-presence-v2.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": null,
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/ravana.png",
+  "native_sha256": "70667b840dfaacabe6db66fa4512d85d962a136bb916117a5ee2b6b7568a9509",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-d3e51c3f-b871-4a9e-b601-7b8f1b466ed0.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Native inspected: exactly ten distinct human heads arranged five above/five below on one imposing clothed royal body, two arms/legs and single sword. Clear count, no invented twenty-arm anatomy, fire attack or wings. Rich monumental regal sunrise, no text watermark gore or nudity.",
+    "native_sha256": "70667b840dfaacabe6db66fa4512d85d962a136bb916117a5ee2b6b7568a9509",
+    "reviewed_at": "2026-10-06T08:12:21.935Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "70667b840dfaacabe6db66fa4512d85d962a136bb916117a5ee2b6b7568a9509",
+    "notes": "Ten heads counted on one two-armed king with sword before golden Lanka at sunset."
+  },
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00"
+}

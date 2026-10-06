@@ -1,0 +1,71 @@
+{
+  "revision": "nama-besar",
+  "slug": "rusalka",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generated_at": "2026-10-06T08:03:51.742Z",
+  "prompt": "Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. One dangerous Slavic river spirit woman with VERY LONG loose green-black hair and human LEGS not fish tail, standing ankle-deep at a dark river. Completely modest opaque flowing dress, ordinary two arms and two legs. Small comb in hand produces a visible cascade of WATER wetting her long hair (documented magical comb variant); river currents swell about her feet, no claimed tidal powers. The hair sweeps toward empty river shallows as threatening entanglement, no victim. Low camera, towering reeds and birch silhouette, cold moonlit reflections, terrifying quiet gaze. Plain uninscribed walls, clothing and objects: no hieroglyphs, cuneiform, letters or pictographic writing. No solar-disk crown, horns or additional attributes unless explicitly specified above.",
+  "depicted_variant": "One dangerous Slavic river spirit woman with VERY LONG loose green-black hair and human LEGS not fish tail, standing ankle-deep at a dark river. Completely modest opaque flowing dress, ordinary two arms and two legs. Small comb in hand produces a visible cascade of WATER wetting her long hair (documented magical comb variant); river currents swell about her feet, no claimed tidal powers. The hair sweeps toward empty river shallows as threatening entanglement, no victim. Low camera, towering reeds and birch silhouette, cold moonlit reflections, terrifying quiet gaze.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Water flowing from comb to wet long hair",
+  "review_path": "data/gemini/reviews/batch-121.review.json",
+  "basis_claim_ids": [
+    "rusalka-c01",
+    "rusalka-c07",
+    "rusalka-c12",
+    "rusalka-c15",
+    "rusalka-c16"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One dangerous Slavic river spirit woman with VERY LONG loose green-black hair and human LEGS not fish tail, standing ankle-deep at a dark river. Completely modest opaque flowing dress, ordinary two arms and two legs. Small comb in hand produces a visible cascade of WATER wetting her long hair (documented magical comb variant); river currents swell about her feet, no claimed tidal powers. The hair sweeps toward empty river shallows as threatening entanglement, no victim. Low camera, towering reeds and birch silhouette, cold moonlit reflections, terrifying quiet gaze.",
+      "claim_ids": [
+        "rusalka-c01",
+        "rusalka-c07",
+        "rusalka-c12",
+        "rusalka-c15",
+        "rusalka-c16"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Water flowing from comb to wet long hair; basis: documented comb can produce water; hair can entangle victims",
+      "claim_ids": [
+        "rusalka-c01",
+        "rusalka-c07",
+        "rusalka-c12",
+        "rusalka-c15",
+        "rusalka-c16"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Low-angle framing, painterly materials and environmental color are artistic rendering.",
+    "Effects are limited to the cited domains, deeds, attributes or iconography; natural light and scale supply presence where no elemental ability is documented."
+  ],
+  "old_url": "/assets/art/rusalka-verified.webp",
+  "old_webp_sha256": "b30fea9087481e88fcc023e9cae57af9af4b41c6b126a657c8fd7c1fe2f7090a",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/rusalka.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": null,
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/rusalka.png",
+  "native_sha256": "7a9314521788d1f1c407db9df910221610cd3ba278e00fe8135f79b257ce9a68",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-b3c54757-dabf-40a5-bd51-9efa97f4e62b.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Viewed native PNG: two-armed fully clothed female with long loose green-black hair, human feet at river, visible comb and water droplets/cascade wetting hair. No fish tail or emitted laser; documented water-comb and hair entanglement variant chosen, modest cloth artistic. No text/gore.",
+    "native_sha256": "7a9314521788d1f1c407db9df910221610cd3ba278e00fe8135f79b257ce9a68",
+    "reviewed_at": "2026-10-06T08:03:51.742Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "7a9314521788d1f1c407db9df910221610cd3ba278e00fe8135f79b257ce9a68",
+    "notes": "River spirit woman with extremely long dark green-black hair trailing into a moonlit river, combing it; eerie night presence."
+  },
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00"
+}

@@ -1,0 +1,62 @@
+{
+  "revision": "nama-besar",
+  "slug": "sobek",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generated_at": "2026-10-06T08:05:30.627Z",
+  "prompt": "Square original premium painterly Egyptian mythology illustration of SOBEK, one male human body with ONE anatomically realistic CROCODILE HEAD c01, long distinct crocodilian snout toothed mouth and reptile eyes. Fully clothed dignified ancient linen robes with gold accessories, two human arms and two legs, NO tail horns wings extra heads or weapons. Water god linked to Nile floods and fertility c09,c12: commanding benevolent protective stance amid massively surging NILE FLOOD WATERS, powerful brown-silver current and foam around stone foreground, lush wetland banks and tiny distant Egyptian buildings. Low monumental camera, enormous silhouette, dark water against golden bright sunlight, regal fierce protective expression. Water visibly powerful domain staging, no fire lightning beams or weapon glow. Rich detailed naturalistic painterly texture, no readable text hieroglyphs watermark logo border gore nudity or movie/game/anime/comic designs.",
+  "depicted_variant": "Crocodile-headed Sobek with documented Nile water and fertility domain.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Surging Nile flood waters, c09,c12, visibly powerful water domain.",
+  "review_path": "data/gemini/reviews/batch-046.review.json",
+  "basis_claim_ids": [
+    "sobek-c01",
+    "sobek-c09",
+    "sobek-c12"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One crocodile-headed man Sobek.",
+      "claim_ids": [
+        "sobek-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Nile flood and fertile wetlands domain.",
+      "claim_ids": [
+        "sobek-c09",
+        "sobek-c12"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Full linen garments and gold decorative accessories editorial; no source-absent weapons or horned crown.",
+    "Flood is domain visualization, not unsupported fire/lightning."
+  ],
+  "old_url": "/assets/art/sobek-mythic-presence.webp",
+  "old_webp_sha256": "6c11e80dca12bb14801930d5ee41b6b89e388eaeede9ce896c195ec0f7f46e80",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/sobek-mythic-presence.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": "c222b79eac590b9c7fc22e2a94e7e17053d57cb5ecbb89abac10341d62e810c1",
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/sobek.png",
+  "native_sha256": "d2b5bf977ce72b8b2a079712a8ee9a36bf7eab9efc1e18a65cbbd895d2d56e32",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-18bbe30d-fb0d-4cc3-a06f-450a47293439.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Native inspected: one realistic crocodile head on fully clothed man body, two coherent arms and legs, monumental surging fertile Nile floods under natural golden sun. No added horns/wings/tail/weapons, text, watermark or gore; water domain visually explicit.",
+    "native_sha256": "d2b5bf977ce72b8b2a079712a8ee9a36bf7eab9efc1e18a65cbbd895d2d56e32",
+    "reviewed_at": "2026-10-06T08:05:30.628Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "d2b5bf977ce72b8b2a079712a8ee9a36bf7eab9efc1e18a65cbbd895d2d56e32",
+    "notes": "Crocodile-headed god standing in the surging Nile flood near palm groves, matching the water and fertility domain."
+  },
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00"
+}

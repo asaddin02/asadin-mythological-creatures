@@ -3,39 +3,50 @@
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "slug": "khonsu",
-  "prompt": "Square premium painterly mythology encyclopedia artwork of KHONSU, the Egyptian moon god, selecting the explicitly documented FALCON-HEADED HUMAN MALE deity form. One full-body regal falcon-headed man with entirely HUMAN torso, two human arms and hands, two human legs and feet, wearing opaque modest linen garments and a simple collar. Critical documented identifying headdress: a physical silver-colored MOON DISK atop a physical CRESCENT MOON shape, mounted above the falcon head, clearly distinguishable as disk seated in crescent. This is a metal ritual crown, NOT a glowing halo, neither sun rays nor solar uraeus. Stands composed at immense Karnak-style sandstone temple gateway at night; face and posture indicate protective authority. Crescent night moon visible distantly in sky echoes his identity, naturally cool moonlight and warm small oil lamps only. Full head/crown/hands/feet in frame, no bird wings on human body, no hawk torso or claws, no mumiform childhood sidelock mixed into this selected variant, no snake or cosmic egg borrowed from other variants, no beams,glowing eyes,neon,aura,ribbons,coloredmist,text,watermark,border. High detail realistic oil painting, immediate visual identity as moon deity, not an ordinary falcon.",
-  "generated_file": "/home/asadin/.codex/generated_images/01a10c88-5881-7d63-b307-87e88927511b/exec-ebd66024-9a39-4b34-815f-6db2f87fa7f4.png",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/khonsu-mythic-presence.png",
-  "depicted_variant": "Falcon-headed human moon deity with physical lunar disk and crescent crown",
+  "prompt": "Square premium original painterly Egyptian KHONSU MOON GOD khonsu-c01 in his explicit FALCON-HEADED form c05, ONE natural falcon bird head on one fully clothed adult human body, exactly two human arms two legs. On head one beautiful LUNAR DISK nested above one CRESCENT, clearly readable moon iconography, no horns crown spikes staff wings or extra heads. Majestic respectful still commanding pose above immense temple stone terrace, hands gently relaxed empty. Full fine pale linen robes, subtle golden ornamental metal. Spectacular vast silver MOON illuminating night sky and reflecting across tiny distant Egyptian river/temple horizon, brilliant lunar radiance from documented domain but no attack beams. Extremely low angle monumental silhouette, midnight blue/silver/warm gold contrast and rich painterly naturalistic fabric/feathers. Do not blend mummified child sidelock variant or cosmic serpent egg. No text hieroglyphs logos watermark border gore nudity or game/movie/anime/comic design.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-7e597f73-6024-421b-b253-5c3974e46085.png",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/khonsu.png",
+  "depicted_variant": "Falcon-headed Khonsu with lunar disk and crescent, distinct from mummy-child variant.",
   "basis_claim_ids": [
-    "khonsu-c01",
-    "khonsu-c04",
-    "khonsu-c05"
+    "khonsu-c05",
+    "khonsu-c01"
   ],
   "visual_requirements": [
-    "Falcon head on human male body",
-    "Physical moon disk and crescent above head",
-    "Human hands and feet, no wings"
+    {
+      "kind": "anatomy",
+      "description": "One falcon-headed deity wearing lunar disk and crescent.",
+      "claim_ids": [
+        "khonsu-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Magnificent moonlight from lunar domain.",
+      "claim_ids": [
+        "khonsu-c01"
+      ]
+    }
   ],
-  "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
+  "aura": "Powerful silver lunar light of moon domain, c01.",
   "visual_review": {
     "verdict": "pass",
-    "reviewer": "assess_changes",
-    "notes": "Viewed native: falcon-headed human man with lunar disk seated in crescent crown, two human hands and feet, no wings; natural moonlight and oil lamps, no glow aura.",
-    "native_sha256": "9e6ad2d44eb8715aed0f9436379cf379bc7f0f006b7351588006741385da4a18"
+    "reviewer": "codex",
+    "notes": "Native inspected: one falcon head on clothed human body, two arms/legs, explicit lunar disk resting above crescent. Magnificent silver moon/river reflection, no mummy-child blend, extra wings, weapons, text watermark or gore; no emitted attack.",
+    "native_sha256": "814b76943b1360ee2ef020f521f1ab6d768f4a9b3dbd7e22d0e449d5f2adb191",
+    "reviewed_at": "2026-10-06T08:28:37.765Z"
   },
   "reviewed_at": "2026-10-05T14:39:46.580Z",
   "artistic_choices": [
     "Shrine layout and late-afternoon light are editorial staging"
   ],
   "review_path": "data/gemini/reviews/batch-077.review.json",
-  "native_sha256": "9e6ad2d44eb8715aed0f9436379cf379bc7f0f006b7351588006741385da4a18",
+  "native_sha256": "814b76943b1360ee2ef020f521f1ab6d768f4a9b3dbd7e22d0e449d5f2adb191",
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "root",
-    "notes": "Inspected native: falcon head on clothed human body, two hands and human feet; visible physical lunar disk and crescent headpiece. Temple and natural lighting are editorial; no wings or neon aura.",
-    "native_sha256": "9e6ad2d44eb8715aed0f9436379cf379bc7f0f006b7351588006741385da4a18",
-    "reviewed_at": "2026-10-05T15:37:43.580895+00:00"
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "814b76943b1360ee2ef020f521f1ab6d768f4a9b3dbd7e22d0e449d5f2adb191",
+    "notes": "Falcon-headed god with lunar disk and crescent before a giant moon over a night temple and river; matches the lunar falcon form."
   },
   "presentation_revision_history": [
     {
@@ -75,29 +86,132 @@
         "native_sha256": "bd3e9f7780ae2a52e2865041c1d065609dce260ac98fedb496b99563a288f964",
         "notes": "Viewed native: one golden hawk with two wings, two taloned feet and tail leaving a shrine; no human or mummy mixing, no emitted glow."
       }
+    },
+    {
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "slug": "khonsu",
+      "prompt": "Square premium painterly mythology encyclopedia artwork of KHONSU, the Egyptian moon god, selecting the explicitly documented FALCON-HEADED HUMAN MALE deity form. One full-body regal falcon-headed man with entirely HUMAN torso, two human arms and hands, two human legs and feet, wearing opaque modest linen garments and a simple collar. Critical documented identifying headdress: a physical silver-colored MOON DISK atop a physical CRESCENT MOON shape, mounted above the falcon head, clearly distinguishable as disk seated in crescent. This is a metal ritual crown, NOT a glowing halo, neither sun rays nor solar uraeus. Stands composed at immense Karnak-style sandstone temple gateway at night; face and posture indicate protective authority. Crescent night moon visible distantly in sky echoes his identity, naturally cool moonlight and warm small oil lamps only. Full head/crown/hands/feet in frame, no bird wings on human body, no hawk torso or claws, no mumiform childhood sidelock mixed into this selected variant, no snake or cosmic egg borrowed from other variants, no beams,glowing eyes,neon,aura,ribbons,coloredmist,text,watermark,border. High detail realistic oil painting, immediate visual identity as moon deity, not an ordinary falcon.",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10c88-5881-7d63-b307-87e88927511b/exec-ebd66024-9a39-4b34-815f-6db2f87fa7f4.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/khonsu-mythic-presence.png",
+      "depicted_variant": "Falcon-headed human moon deity with physical lunar disk and crescent crown",
+      "basis_claim_ids": [
+        "khonsu-c01",
+        "khonsu-c04",
+        "khonsu-c05"
+      ],
+      "visual_requirements": [
+        "Falcon head on human male body",
+        "Physical moon disk and crescent above head",
+        "Human hands and feet, no wings"
+      ],
+      "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "assess_changes",
+        "notes": "Viewed native: falcon-headed human man with lunar disk seated in crescent crown, two human hands and feet, no wings; natural moonlight and oil lamps, no glow aura.",
+        "native_sha256": "9e6ad2d44eb8715aed0f9436379cf379bc7f0f006b7351588006741385da4a18"
+      },
+      "reviewed_at": "2026-10-05T14:39:46.580Z",
+      "artistic_choices": [
+        "Shrine layout and late-afternoon light are editorial staging"
+      ],
+      "review_path": "data/gemini/reviews/batch-077.review.json",
+      "native_sha256": "9e6ad2d44eb8715aed0f9436379cf379bc7f0f006b7351588006741385da4a18",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "notes": "Inspected native: falcon head on clothed human body, two hands and human feet; visible physical lunar disk and crescent headpiece. Temple and natural lighting are editorial; no wings or neon aura.",
+        "native_sha256": "9e6ad2d44eb8715aed0f9436379cf379bc7f0f006b7351588006741385da4a18",
+        "reviewed_at": "2026-10-05T15:37:43.580895+00:00"
+      },
+      "presentation_revision_history": [
+        {
+          "worker": "worker-1",
+          "tool": "OpenAI built-in image_gen",
+          "status": "reviewed",
+          "slug": "khonsu",
+          "prompt": "Square premium painterly naturalistic Egyptian mythology illustration of Khonsu. Select the explicitly documented GOLDEN HAWK form seen in the prince's dream of the deity leaving his shrine. ONE entire natural hawk with golden-coloured feathers, one bird head, two wings, two taloned feet and tail. Hawk lifts into flight just outside stone shrine opening, wings spread, feet tucked slightly but both readable. Physical golden feather coloration not metallic statue and no glow; no human torso,falcon-headed man,mummy or snake variant mixing. Majestic protective presence through poised alert gaze and strong flight posture, natural late-afternoon sunlight on stone and feather detail. Editorial shrine layout, rich painterly naturalistic oil artwork. No moon-disk headdress in this full-bird variant, no aura,neon,magic ribbons,luminous mist,text,border.",
+          "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-288a7bb2-9cab-47e8-9520-1ed1dd70f5c0.png",
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/khonsu.png",
+          "depicted_variant": "Golden hawk leaving shrine in the prince's dream",
+          "basis_claim_ids": [
+            "khonsu-c15"
+          ],
+          "visual_requirements": [
+            "One complete hawk",
+            "Golden feathers",
+            "Two wings and two taloned feet",
+            "No human/mummy variant mixing"
+          ],
+          "aura": "Presence through expression, posture, framing and natural scene light.",
+          "visual_review": {
+            "verdict": "pass",
+            "reviewer": "worker-1",
+            "notes": "One golden-coloured living hawk flies outside a shrine with two wings, two taloned feet and tail. Upper left wingtip meets frame edge, anatomy otherwise clear; natural sunlit feathers without emitted glow."
+          },
+          "reviewed_at": "2026-10-05T14:39:46.580Z",
+          "artistic_choices": [
+            "Shrine layout and late-afternoon light are editorial staging"
+          ],
+          "review_path": "data/gemini/reviews/batch-077.review.json",
+          "native_sha256": "bd3e9f7780ae2a52e2865041c1d065609dce260ac98fedb496b99563a288f964",
+          "root_visual_review": {
+            "verdict": "pass",
+            "reviewer": "root",
+            "reviewed_at": "2026-10-05",
+            "native_sha256": "bd3e9f7780ae2a52e2865041c1d065609dce260ac98fedb496b99563a288f964",
+            "notes": "Viewed native: one golden hawk with two wings, two taloned feet and tail leaving a shrine; no human or mummy mixing, no emitted glow."
+          }
+        }
+      ],
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/khonsu.json",
+        "native_sha256": "9e6ad2d44eb8715aed0f9436379cf379bc7f0f006b7351588006741385da4a18",
+        "old_url": "/assets/art/khonsu-verified.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/khonsu.png",
+        "old_webp_sha256": "a52e344611b000df115f8d7894ffa1216053faebecf6ac71aa840aaef669e9ad",
+        "old_native_sha256": "bd3e9f7780ae2a52e2865041c1d065609dce260ac98fedb496b99563a288f964",
+        "rationale": "Previous golden hawk image read as an ordinary bird; accepted source explicitly supports falcon-headed male moon deity form with disk and crescent.",
+        "basis_claim_ids": [
+          "khonsu-c01",
+          "khonsu-c04",
+          "khonsu-c05"
+        ]
+      },
+      "url": "/assets/art/khonsu-mythic-presence.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b887789b2247774677520ec005d1e3ca08b969abd33a0958a9ffb480969a5b87",
+      "revision_generator": "assess_changes",
+      "artistic_changes": [
+        "Linen clothes, collar, crescent-topped staff, temple setting and oil lamps are editorial staging"
+      ]
     }
   ],
   "presentation_revision": {
-    "ledger": "data/artwork-presentation-revision-1000.json",
-    "receipt_path": "data/artwork-generated/presentation-revision-1000/khonsu.json",
-    "native_sha256": "9e6ad2d44eb8715aed0f9436379cf379bc7f0f006b7351588006741385da4a18",
-    "old_url": "/assets/art/khonsu-verified.webp",
-    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/khonsu.png",
-    "old_webp_sha256": "a52e344611b000df115f8d7894ffa1216053faebecf6ac71aa840aaef669e9ad",
-    "old_native_sha256": "bd3e9f7780ae2a52e2865041c1d065609dce260ac98fedb496b99563a288f964",
-    "rationale": "Previous golden hawk image read as an ordinary bird; accepted source explicitly supports falcon-headed male moon deity form with disk and crescent.",
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/khonsu.json",
+    "native_sha256": "814b76943b1360ee2ef020f521f1ab6d768f4a9b3dbd7e22d0e449d5f2adb191",
+    "old_url": "/assets/art/khonsu-mythic-presence.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/khonsu-mythic-presence.png",
+    "old_webp_sha256": "b887789b2247774677520ec005d1e3ca08b969abd33a0958a9ffb480969a5b87",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
     "basis_claim_ids": [
-      "khonsu-c01",
-      "khonsu-c04",
-      "khonsu-c05"
+      "khonsu-c05",
+      "khonsu-c01"
     ]
   },
-  "url": "/assets/art/khonsu-mythic-presence.webp",
+  "url": "/assets/art/khonsu-presentation-revision-nama-besar.webp",
   "width": 1254,
   "height": 1254,
-  "sha256": "b887789b2247774677520ec005d1e3ca08b969abd33a0958a9ffb480969a5b87",
-  "revision_generator": "assess_changes",
+  "sha256": "115eb1ca3b17a0800891d882e4fe1ef597c8cba50dc4ee619fbaa6a83c3ca241",
+  "revision_generator": "codex",
   "artistic_changes": [
-    "Linen clothes, collar, crescent-topped staff, temple setting and oil lamps are editorial staging"
+    "Fully clothed adult human-body rendering and fine linen design editorial falcon-headed iconography.",
+    "No mummy-child sidelock or serpent/cosmic-egg variant blended; no new weapons or glowing spells."
   ]
 }

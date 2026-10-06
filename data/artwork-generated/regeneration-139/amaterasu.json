@@ -1,21 +1,41 @@
 {
   "slug": "amaterasu",
   "worker": "regen-3",
-  "prompt": "Create one square premium painterly mythological catalogue illustration. ADULT HUMAN FEMALE SUN GODDESS AMATERASU emerges from a dark rock CAVE into newly bright daylight. Beside entrance a SAKAKI TREE is decorated with curved MAGATAMA JEWELS, fine WHITE CLOTH and a round polished MIRROR AT ITS CENTRE. Her human face and two hands clear, exactly2 human arms and2legs in opaque layered white-red ancient Japanese robes; a male deity's hand gently leads hers out of cave (Tajikarao source). No snake form/scales, no bird, no giant extra solar halo. Source her emergence restores daylight: restrained environmental sunrise rays and bright sky beyond cave, not emitted magic ribbons. Full woman focal. Detailed naturalistic painting with source-backed identity, coherent anatomy and readable scene. No text/logos/border, no generic glow, luminous mist, floating ribbons or particles. Supernatural details only explicitly stated above.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/amaterasu-mythic-presence.png",
+  "prompt": "Create an original square premium painterly mythology encyclopedia illustration of Amaterasu, revered Shinto SUN GODDESS, beautiful serene fully clothed humanlike adult woman in layered elegant white ceremonial robes, one head two arms two legs no wings or horns. Emerging from a monumental dark rock cave, she RESTORES DAYLIGHT from her sun domain (amaterasu-c01,c18), a breathtaking flood of warm SOLAR RADIANCE illuminating the entire sky and landscape, luminous golden beams expanding into real landscape sunlight, visibly immense divine power yet respectful benevolence. Low-angle composition dominated by goddess, silhouetted rock cave and tiny far landscape, sacred sakaki tree to side with plain round mirror, small curved magatama jewel beads and white cloth attached (c07), no writing. Rich painterly cinematic high contrast dark cave against spectacular golden light, detailed fabric, strong elegant silhouette. No weapons, lightning or invented powers, no film game anime comic design, no text labels watermark logo border, no nudity or gore.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/amaterasu.png",
   "review_path": "data/gemini/reviews/batch-042.review.json",
-  "depicted_variant": "Human Amaterasu emerging beside sakaki tree and sacred mirror",
+  "depicted_variant": "Shinto sun goddess emerging from the rock cave and restoring heaven's light.",
   "visual_requirements": [
-    "Human Amaterasu emerging beside sakaki tree and sacred mirror",
-    "Coherent anatomy and documented mythic scene"
+    {
+      "kind": "anatomy",
+      "description": "Chief sun goddess, respectfully rendered as fully clothed woman without invented anatomy.",
+      "claim_ids": [
+        "amaterasu-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Brilliant solar radiance restores heaven when she emerges from cave.",
+      "claim_ids": [
+        "amaterasu-c18"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Cave mouth with sakaki tree bearing mirror, fine white cloth and magatama.",
+      "claim_ids": [
+        "amaterasu-c05",
+        "amaterasu-c07"
+      ]
+    }
   ],
   "basis_claim_ids": [
     "amaterasu-c01",
-    "amaterasu-c07",
-    "amaterasu-c17",
-    "amaterasu-c18"
+    "amaterasu-c18",
+    "amaterasu-c05",
+    "amaterasu-c07"
   ],
-  "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
+  "aura": "Strong restored sunlight radiance from Amaterasu's emergence, c01,c18.",
   "additional_sources": [
     {
       "url": "https://asianethnology.org/article/148216-origin-and-growth-of-the-worship-of-amaterasu/attachment/312127.pdf",
@@ -24,8 +44,28 @@
     }
   ],
   "nonhuman_features": [
-    "Human Amaterasu emerging beside sakaki tree and sacred mirror",
-    "Coherent anatomy and documented mythic scene"
+    {
+      "kind": "anatomy",
+      "description": "Chief sun goddess, respectfully rendered as fully clothed woman without invented anatomy.",
+      "claim_ids": [
+        "amaterasu-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Brilliant solar radiance restores heaven when she emerges from cave.",
+      "claim_ids": [
+        "amaterasu-c18"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Cave mouth with sakaki tree bearing mirror, fine white cloth and magatama.",
+      "claim_ids": [
+        "amaterasu-c05",
+        "amaterasu-c07"
+      ]
+    }
   ],
   "accuracy_mode": "source-supported",
   "historical_basis": [
@@ -41,6 +81,17 @@
       }
     },
     {
+      "id": "amaterasu-c05",
+      "source_id": "amaterasu-s1",
+      "quote": "she blocked herself in a cave following an argument with Susanoo",
+      "locator": "Amaterasu & the Cave",
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Amaterasu terkait dengan she blocked herself in a cave following an argument with Susanoo",
+        "en": "she blocked herself in a cave following an argument with Susanoo"
+      }
+    },
+    {
       "id": "amaterasu-c07",
       "source_id": "amaterasu-s1",
       "quote": "The gods also placed a large sakaki tree (Cleyera japonica) near the cave entrance and decorated it with sparkling jewels (magatama), fine white clothes and a mirror at its centre.",
@@ -49,17 +100,6 @@
       "statement": {
         "id": "Amaterasu terkait dengan The gods also placed a large sakaki tree (Cleyera japonica) near the cave entrance and decorated it with sparkling jewels (magatama), fine white clothes and a mirror at its centre.",
         "en": "The gods also placed a large sakaki tree (Cleyera japonica) near the cave entrance and decorated it with sparkling jewels (magatama), fine white clothes and a mirror at its centre."
-      }
-    },
-    {
-      "id": "amaterasu-c17",
-      "source_id": "amaterasu-s3",
-      "quote": "the strong god Tajikarao stepped from his hiding place, took her by the hand, and pulled her into the open.",
-      "locator": "The Cave of Heaven",
-      "context": "religious-tradition",
-      "statement": {
-        "id": "Amaterasu terkait dengan the strong god Tajikarao stepped from his hiding place, took her by the hand, and pulled her into the open.",
-        "en": "the strong god Tajikarao stepped from his hiding place, took her by the hand, and pulled her into the open."
       }
     },
     {
@@ -80,18 +120,20 @@
   "invented_anatomy": [],
   "visual_review": {
     "verdict": "pass",
-    "reviewer": "recover_session",
-    "notes": "Human goddess led from cave beside decorated sakaki, mirror, magatama and white cloth; daylight restored."
+    "reviewer": "codex",
+    "notes": "Native inspected: serene fully clothed woman at dark cave mouth, immense golden solar light over heaven, sakaki branches with mirror, curved beads and white cloth. Two human arms, no wings or weapons, no text watermark or gore. Robes and sun-shaped metal hair jewelry are editorial costume design.",
+    "native_sha256": "1b0614f3337cafd6bcc2c8494990376243726f85e3e80141608f4ccc849ed22d",
+    "reviewed_at": "2026-10-06T07:45:54.781Z"
   },
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "reviewed_at": "2026-10-04T17:02:20.797Z",
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "root",
-    "native_sha256": "def1531151a2e5482ccf89dadb062f443cc32e6dccb8c830011458eafff3e100",
-    "notes": "Inspected native: human sun goddess emerges from a cave guided by a male deity’s hand, beside a tree adorned with mirror, white cloth and magatama. The source-supported cave-return episode is central; headdress is a physical ornament, not emitted aura.",
-    "reviewed_at": "2026-10-05T18:20:40.444761+00:00"
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "1b0614f3337cafd6bcc2c8494990376243726f85e3e80141608f4ccc849ed22d",
+    "notes": "Radiant sun goddess stepping from the rock cave with mirror, white cloth and magatama; brilliant solar light restores the sky, matching the cave-emergence claims."
   },
   "presentation_revision_history": [
     {
@@ -140,27 +182,193 @@
         "notes": "Independently viewed: single coherent limbless serpent with complete tapered tail beside shrine in sunlight. Receipt accurately distinguishes scholarly snake-deity interpretation and unresolved diary appearance; not universal Amaterasu form.",
         "reviewed_at": "2026-10-04T17:56:02.716358+00:00"
       }
+    },
+    {
+      "slug": "amaterasu",
+      "worker": "regen-3",
+      "prompt": "Create one square premium painterly mythological catalogue illustration. ADULT HUMAN FEMALE SUN GODDESS AMATERASU emerges from a dark rock CAVE into newly bright daylight. Beside entrance a SAKAKI TREE is decorated with curved MAGATAMA JEWELS, fine WHITE CLOTH and a round polished MIRROR AT ITS CENTRE. Her human face and two hands clear, exactly2 human arms and2legs in opaque layered white-red ancient Japanese robes; a male deity's hand gently leads hers out of cave (Tajikarao source). No snake form/scales, no bird, no giant extra solar halo. Source her emergence restores daylight: restrained environmental sunrise rays and bright sky beyond cave, not emitted magic ribbons. Full woman focal. Detailed naturalistic painting with source-backed identity, coherent anatomy and readable scene. No text/logos/border, no generic glow, luminous mist, floating ribbons or particles. Supernatural details only explicitly stated above.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/amaterasu-mythic-presence.png",
+      "review_path": "data/gemini/reviews/batch-042.review.json",
+      "depicted_variant": "Human Amaterasu emerging beside sakaki tree and sacred mirror",
+      "visual_requirements": [
+        "Human Amaterasu emerging beside sakaki tree and sacred mirror",
+        "Coherent anatomy and documented mythic scene"
+      ],
+      "basis_claim_ids": [
+        "amaterasu-c01",
+        "amaterasu-c07",
+        "amaterasu-c17",
+        "amaterasu-c18"
+      ],
+      "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
+      "additional_sources": [
+        {
+          "url": "https://asianethnology.org/article/148216-origin-and-growth-of-the-worship-of-amaterasu/attachment/312127.pdf",
+          "title": "Matsumae Takeshi (1978), Origin and Growth of the Worship of Amaterasu, Asian Folklore Studies37.1, p.5 and note23",
+          "evidence": "Original journal PDF opened and read. Matsumae discusses Tsūkai Sankeiki, Zoku Gunsho-ruijū70, whose Ise story mentions snake/lizard-like scales but says only the priestess knew the form. The scholar separately states Amaterasu was regarded as a snake deity or sun deity. The image selects this scholarly snake-deity interpretation without claiming the diary definitively names a snake species."
+        }
+      ],
+      "nonhuman_features": [
+        "Human Amaterasu emerging beside sakaki tree and sacred mirror",
+        "Coherent anatomy and documented mythic scene"
+      ],
+      "accuracy_mode": "source-supported",
+      "historical_basis": [
+        {
+          "id": "amaterasu-c01",
+          "source_id": "amaterasu-s1",
+          "quote": "Amaterasu Omikami ('the Great Divinity Illuminating Heaven') is the sun goddess and most important deity of the Shinto religion.",
+          "locator": "Introduction",
+          "context": "religious-tradition",
+          "statement": {
+            "id": "Amaterasu terkait dengan Amaterasu Omikami ('the Great Divinity Illuminating Heaven') is the sun goddess and most important deity of the Shinto religion.",
+            "en": "Amaterasu Omikami ('the Great Divinity Illuminating Heaven') is the sun goddess and most important deity of the Shinto religion."
+          }
+        },
+        {
+          "id": "amaterasu-c07",
+          "source_id": "amaterasu-s1",
+          "quote": "The gods also placed a large sakaki tree (Cleyera japonica) near the cave entrance and decorated it with sparkling jewels (magatama), fine white clothes and a mirror at its centre.",
+          "locator": "Amaterasu & the Cave",
+          "context": "religious-tradition",
+          "statement": {
+            "id": "Amaterasu terkait dengan The gods also placed a large sakaki tree (Cleyera japonica) near the cave entrance and decorated it with sparkling jewels (magatama), fine white clothes and a mirror at its centre.",
+            "en": "The gods also placed a large sakaki tree (Cleyera japonica) near the cave entrance and decorated it with sparkling jewels (magatama), fine white clothes and a mirror at its centre."
+          }
+        },
+        {
+          "id": "amaterasu-c17",
+          "source_id": "amaterasu-s3",
+          "quote": "the strong god Tajikarao stepped from his hiding place, took her by the hand, and pulled her into the open.",
+          "locator": "The Cave of Heaven",
+          "context": "religious-tradition",
+          "statement": {
+            "id": "Amaterasu terkait dengan the strong god Tajikarao stepped from his hiding place, took her by the hand, and pulled her into the open.",
+            "en": "the strong god Tajikarao stepped from his hiding place, took her by the hand, and pulled her into the open."
+          }
+        },
+        {
+          "id": "amaterasu-c18",
+          "source_id": "amaterasu-s3",
+          "quote": "With Amaterasu’s emergence from the cave, heaven was bright again from her light.",
+          "locator": "The Cave of Heaven",
+          "context": "religious-tradition",
+          "statement": {
+            "id": "Amaterasu terkait dengan With Amaterasu’s emergence from the cave, heaven was bright again from her light.",
+            "en": "With Amaterasu’s emergence from the cave, heaven was bright again from her light."
+          }
+        }
+      ],
+      "artistic_changes": [
+        "Gold/cream colouring, snake species/scale pattern, exact size and pose, cedar grove, sunrise and distant shrine architecture are artistic choices. Source does not specify these details; no claim that this replaces common human Amaterasu iconography."
+      ],
+      "invented_anatomy": [],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "recover_session",
+        "notes": "Human goddess led from cave beside decorated sakaki, mirror, magatama and white cloth; daylight restored."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "reviewed_at": "2026-10-04T17:02:20.797Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "native_sha256": "def1531151a2e5482ccf89dadb062f443cc32e6dccb8c830011458eafff3e100",
+        "notes": "Inspected native: human sun goddess emerges from a cave guided by a male deity’s hand, beside a tree adorned with mirror, white cloth and magatama. The source-supported cave-return episode is central; headdress is a physical ornament, not emitted aura.",
+        "reviewed_at": "2026-10-05T18:20:40.444761+00:00"
+      },
+      "presentation_revision_history": [
+        {
+          "slug": "amaterasu",
+          "worker": "regen-3",
+          "prompt": "Use case: illustration-story. Square mature painterly mythology encyclopedia artwork of AMATERASU selecting the historically discussed ISE SNAKE-DEITY INTERPRETATION, not her usual human goddess depiction. Matsumae Takeshi, Origin and Growth of the Worship of Amaterasu (Asian Folklore Studies37.1, 1978 p5) discusses Ise traditions quoted from the medieval monk Tsūkai's Sankeiki and notes Amaterasu was regarded as a snake deity or a sun deity. Render ONE wholly natural serpent with ONE snake head, two normal serpent eyes, closed mouth, ONE continuous limbless scaled body resting in a clearly readable broad open S curve on mossy stones, ONE slender tapering tail, all comfortably inside frame. Soft bronze-gold and warm cream scale colouring chosen artistically, realistic scale texture, intelligent calm watchfulness. No hood, rattles, horn, mane, dragon limbs, wings, additional heads, human face/body or hybrid features. Sunrise rays in a tranquil ancient Japanese cedar grove near the Isuzu river, quiet distant wooden shrine roof soft in forest-green haze, radiant solar gold light around the serpent conveying sacred solar presence without bodily flame. This is an atmospheric rendering of the snake-deity scholarly interpretation: source does not identify species, colour or exact size. Do not depict sexual/bedroom story or priestess. No wolf, fox, human, mirror used as creature body, crown, clothing, talismans, weapons, copied shrine artifacts, text, border, signature or watermark. Full single snake head-to-tail coherent silhouette and reverent solar guardian mood.",
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/amaterasu.png",
+          "review_path": "data/gemini/reviews/batch-042.review.json",
+          "depicted_variant": "Ise snake-deity interpretation discussed by Matsumae Takeshi; not universal goddess form",
+          "visual_requirements": [
+            "One fully serpentine head-to-tail body with no limbs or hybrid parts",
+            "Reverent solar presence and Ise-related river/cedar setting",
+            "Source uncertainty and selected historical interpretation explicitly recorded"
+          ],
+          "basis_claim_ids": [
+            "amaterasu-c01",
+            "amaterasu-c10",
+            "amaterasu-c11"
+          ],
+          "aura": "Reverent radiant solar guardian",
+          "additional_sources": [
+            {
+              "url": "https://asianethnology.org/article/148216-origin-and-growth-of-the-worship-of-amaterasu/attachment/312127.pdf",
+              "title": "Matsumae Takeshi (1978), Origin and Growth of the Worship of Amaterasu, Asian Folklore Studies37.1, p.5 and note23",
+              "evidence": "Original journal PDF opened and read. Matsumae discusses Tsūkai Sankeiki, Zoku Gunsho-ruijū70, whose Ise story mentions snake/lizard-like scales but says only the priestess knew the form. The scholar separately states Amaterasu was regarded as a snake deity or sun deity. The image selects this scholarly snake-deity interpretation without claiming the diary definitively names a snake species."
+            }
+          ],
+          "nonhuman_features": [
+            "Entire limbless scaled serpent with single snake head and tapering tail"
+          ],
+          "accuracy_mode": "source-supported",
+          "historical_basis": "Uses an Ise-related historical snake-deity interpretation documented in primary scholarly research, not a mirror symbol, game wolf or dragon-fox hybrid. The medieval diary's unknown exact form remains an acknowledged limitation.",
+          "artistic_changes": [
+            "Gold/cream colouring, snake species/scale pattern, exact size and pose, cedar grove, sunrise and distant shrine architecture are artistic choices. Source does not specify these details; no claim that this replaces common human Amaterasu iconography."
+          ],
+          "invented_anatomy": [],
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Individually inspected via view_image: one snake head, coherent continuous scaled body in broad S curve and one complete tapering tail. One eye visible in side view; normal serpentine head, no hood, horns, limbs, wings, extra heads, human parts, wardrobe, exposed sexual scene, visible text or signature. Entire head/body/tail fit frame. Solar lighting supplies aura without added bodily fire."
+          },
+          "tool": "OpenAI built-in image_gen",
+          "status": "reviewed",
+          "reviewed_at": "2026-10-04T17:02:20.797Z",
+          "root_visual_review": {
+            "verdict": "pass",
+            "notes": "Independently viewed: single coherent limbless serpent with complete tapered tail beside shrine in sunlight. Receipt accurately distinguishes scholarly snake-deity interpretation and unresolved diary appearance; not universal Amaterasu form.",
+            "reviewed_at": "2026-10-04T17:56:02.716358+00:00"
+          }
+        }
+      ],
+      "native_sha256": "def1531151a2e5482ccf89dadb062f443cc32e6dccb8c830011458eafff3e100",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/amaterasu.json",
+        "native_sha256": "def1531151a2e5482ccf89dadb062f443cc32e6dccb8c830011458eafff3e100",
+        "old_url": "/assets/art/amaterasu-regeneration-139.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/amaterasu.png",
+        "old_webp_sha256": "491514485878e4b3975413ec0ecf15e2ae7f51a8e6e84551d34568eabef4a517",
+        "old_native_sha256": "6becbe602c73ffc09087a7f0c471173d1f48ce36e622081031c38ab050569238",
+        "rationale": "Replaces ordinary animal presentation with Human Amaterasu emerging beside sakaki tree and sacred mirror",
+        "basis_claim_ids": [
+          "amaterasu-c01",
+          "amaterasu-c07",
+          "amaterasu-c17",
+          "amaterasu-c18"
+        ]
+      },
+      "url": "/assets/art/amaterasu-regeneration-139-mythic-presence.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "62bb34ecf804d0b7df10700cd8ab601299590135df7f57c8e7dd3a532ff6a51d"
     }
   ],
-  "native_sha256": "def1531151a2e5482ccf89dadb062f443cc32e6dccb8c830011458eafff3e100",
+  "native_sha256": "1b0614f3337cafd6bcc2c8494990376243726f85e3e80141608f4ccc849ed22d",
   "presentation_revision": {
-    "ledger": "data/artwork-presentation-revision-1000.json",
-    "receipt_path": "data/artwork-generated/presentation-revision-1000/amaterasu.json",
-    "native_sha256": "def1531151a2e5482ccf89dadb062f443cc32e6dccb8c830011458eafff3e100",
-    "old_url": "/assets/art/amaterasu-regeneration-139.webp",
-    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/amaterasu.png",
-    "old_webp_sha256": "491514485878e4b3975413ec0ecf15e2ae7f51a8e6e84551d34568eabef4a517",
-    "old_native_sha256": "6becbe602c73ffc09087a7f0c471173d1f48ce36e622081031c38ab050569238",
-    "rationale": "Replaces ordinary animal presentation with Human Amaterasu emerging beside sakaki tree and sacred mirror",
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/amaterasu.json",
+    "native_sha256": "1b0614f3337cafd6bcc2c8494990376243726f85e3e80141608f4ccc849ed22d",
+    "old_url": "/assets/art/amaterasu-regeneration-139-mythic-presence.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/amaterasu-mythic-presence.png",
+    "old_webp_sha256": "62bb34ecf804d0b7df10700cd8ab601299590135df7f57c8e7dd3a532ff6a51d",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
     "basis_claim_ids": [
       "amaterasu-c01",
-      "amaterasu-c07",
-      "amaterasu-c17",
-      "amaterasu-c18"
+      "amaterasu-c18",
+      "amaterasu-c05",
+      "amaterasu-c07"
     ]
   },
-  "url": "/assets/art/amaterasu-regeneration-139-mythic-presence.webp",
+  "url": "/assets/art/amaterasu-presentation-revision-nama-besar.webp",
   "width": 1254,
   "height": 1254,
-  "sha256": "62bb34ecf804d0b7df10700cd8ab601299590135df7f57c8e7dd3a532ff6a51d"
+  "sha256": "db176d5c35318f55a2eaf619e6a9653caef5953ee5bf28b70618d0bbddeec23f"
 }

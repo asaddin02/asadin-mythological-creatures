@@ -1,37 +1,51 @@
 {
   "slug": "will-o-the-wisp",
   "worker": "worker-0",
-  "prompt": "Use case: stylized-concept. ONE square haunting detailed painterly naturalistic mythology illustration of WILL-O'-THE-WISP as an UNEMBODIED ATMOSPHERIC GHOST LIGHT. ONE hovering blue-gold flickering flame-like orb above black marsh water beside a misleading winding path at night. Light has NO face, limbs or solid creature body; soft dancing trails fade into darkness. Entire light comfortably framed, wet reeds and dangerous deep bog establish documented setting. Bright emitted spectral wisps illuminate nearby water while surrounding marsh remains dreadful, mischievous misleading-spirit aura as artistic rendering. No lantern object, humanoid fairy, wings, skull, victim, text, watermark, border or collage.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/will-o-the-wisp.png",
-  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-42d33461-fc6a-4f12-bc7b-2b5b9be79d0d.png",
-  "depicted_variant": "Unembodied ghost light above marsh, no anthropomorphic fairy form",
+  "prompt": "Square premium original painterly folklore WILL-O-THE-WISP. ONE atmospheric FIERY GHOST LIGHT over a dangerous dark marsh c01,c13, visible hovering flame-like pale blue-gold luminous wisp, dancing/flowing c03, no physical humanoid body face eyes limbs wings horns skull or animal. Light itself is documented form and effect, not a generic aura added around a body. Very close ultra-low camera at reeds and black water makes enormous apparent foreground flame silhouette contrasted against tiny distant twisting unsafe path disappearing into marsh c09, source misleading direction through enticing placement. Beautiful menacing ghostly ethereal flame with brilliant core and reflections on wet reeds/water, dark midnight clouds and deep cinematic shadows, premium textured painterly naturalism. Single light, not a fantasy army; no death victims gore nudity text lettering labels logos watermark borders or modern game/movie/anime/comic designs.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/will-o-the-wisp.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-5ae97986-d702-4d31-93f4-7570263b2f59.png",
+  "depicted_variant": "Single fiery atmospheric ghost light over dangerous night marsh, without invented humanoid anatomy.",
   "basis_claim_ids": [
     "will-o-the-wisp-c01",
-    "will-o-the-wisp-c02",
+    "will-o-the-wisp-c13",
     "will-o-the-wisp-c03",
-    "will-o-the-wisp-c08",
-    "will-o-the-wisp-c09",
-    "will-o-the-wisp-c13"
+    "will-o-the-wisp-c09"
   ],
-  "aura": "Misleading isolated flame presence over an ominous marsh path.",
+  "aura": "Intense fiery ghost light directly source-attested c01,c13.",
   "visual_requirements": [
-    "Single floating ghost light flame over marsh",
-    "No solid body or face",
-    "Natural marsh landscape and restrained light reflection"
+    {
+      "kind": "anatomy",
+      "description": "Atmospheric ghost light rather than invented corporeal humanoid.",
+      "claim_ids": [
+        "will-o-the-wisp-c01",
+        "will-o-the-wisp-c13"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Dancing/flowing light over marsh, enticing an unsafe direction.",
+      "claim_ids": [
+        "will-o-the-wisp-c03",
+        "will-o-the-wisp-c09"
+      ]
+    }
   ],
   "visual_review": {
     "verdict": "pass",
-    "notes": "Original contact sheet inspected: one unembodied blue-gold ghost flame over marsh, no anthropomorphic body or face, local reflection and dark path; brightness belongs to documented fiery light manifestation.",
-    "reviewer": "aura-resume-2"
+    "reviewer": "codex",
+    "notes": "Native inspected: single blue-gold hovering fiery light over marsh and unsafe path; no face, eyes or limbs invented. Strong close foreground scale, luminous reflection and darkness faithfully express documented light form; no text watermark or gore.",
+    "native_sha256": "3cda9a73d31412fcade9dd724bbe9c93140feae58b558dcc425948db4e42a117",
+    "reviewed_at": "2026-10-06T08:36:17.152Z"
   },
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-152.review.json",
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "root",
-    "reviewed_at": "2026-10-05",
-    "notes": "Inspected original: single bodiless dancing/flaming ghost-light over marsh; intrinsic light is the documented entity c01/c13. No human/animal anatomy or unrelated whole-scene envelope."
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "3cda9a73d31412fcade9dd724bbe9c93140feae58b558dcc425948db4e42a117",
+    "notes": "Single ghostly light flame drifting over a night marsh path, no humanoid body."
   },
   "aura_policy_history": [
     {
@@ -68,5 +82,105 @@
     "review_path": "data/artwork-generated/aura-revision-797/reviews/will-o-the-wisp.json",
     "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/will-o-the-wisp.json"
   },
-  "reviewed_at": "2026-10-05"
+  "reviewed_at": "2026-10-05",
+  "presentation_revision_history": [
+    {
+      "slug": "will-o-the-wisp",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square haunting detailed painterly naturalistic mythology illustration of WILL-O'-THE-WISP as an UNEMBODIED ATMOSPHERIC GHOST LIGHT. ONE hovering blue-gold flickering flame-like orb above black marsh water beside a misleading winding path at night. Light has NO face, limbs or solid creature body; soft dancing trails fade into darkness. Entire light comfortably framed, wet reeds and dangerous deep bog establish documented setting. Bright emitted spectral wisps illuminate nearby water while surrounding marsh remains dreadful, mischievous misleading-spirit aura as artistic rendering. No lantern object, humanoid fairy, wings, skull, victim, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/will-o-the-wisp.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-42d33461-fc6a-4f12-bc7b-2b5b9be79d0d.png",
+      "depicted_variant": "Unembodied ghost light above marsh, no anthropomorphic fairy form",
+      "basis_claim_ids": [
+        "will-o-the-wisp-c01",
+        "will-o-the-wisp-c02",
+        "will-o-the-wisp-c03",
+        "will-o-the-wisp-c08",
+        "will-o-the-wisp-c09",
+        "will-o-the-wisp-c13"
+      ],
+      "aura": "Misleading isolated flame presence over an ominous marsh path.",
+      "visual_requirements": [
+        "Single floating ghost light flame over marsh",
+        "No solid body or face",
+        "Natural marsh landscape and restrained light reflection"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Original contact sheet inspected: one unembodied blue-gold ghost flame over marsh, no anthropomorphic body or face, local reflection and dark path; brightness belongs to documented fiery light manifestation.",
+        "reviewer": "aura-resume-2"
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-152.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "reviewed_at": "2026-10-05",
+        "notes": "Inspected original: single bodiless dancing/flaming ghost-light over marsh; intrinsic light is the documented entity c01/c13. No human/animal anatomy or unrelated whole-scene envelope."
+      },
+      "aura_policy_history": [
+        {
+          "aura": "misleading marsh ghost-light dread",
+          "visual_requirements": [
+            "single floating ghost-light flame over marsh",
+            "no solid body or face",
+            "glowing misleading path atmosphere"
+          ],
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Actually inspected image: single floating blue-gold flame-like ghost light over black marsh water and misleading path; no body, face, limbs or lantern. Emitted wisps light water and reeds, dangerous marsh atmosphere. Source ghost-light form/context preserved, colors/trails artistic."
+          },
+          "root_visual_review": {
+            "verdict": "pass",
+            "notes": "Root inspected contact sheet: Single floating marsh flame, no face/body, luminous emitted ghostlight inspected.",
+            "reviewed_at": "2026-10-05"
+          }
+        }
+      ],
+      "aura_revision": {
+        "decision": "keep",
+        "reviewer": "aura-resume-2",
+        "rationale": "Unembodied luminous flame is the attested apparition itself, not added magic wrapping a creature.",
+        "allowed_magic": "Floating ghost-light flame, will-o-the-wisp-c01/c13",
+        "source_basis_claim_ids": [
+          "will-o-the-wisp-c01",
+          "will-o-the-wisp-c02",
+          "will-o-the-wisp-c03",
+          "will-o-the-wisp-c08",
+          "will-o-the-wisp-c09",
+          "will-o-the-wisp-c13"
+        ],
+        "review_path": "data/artwork-generated/aura-revision-797/reviews/will-o-the-wisp.json",
+        "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/will-o-the-wisp.json"
+      },
+      "reviewed_at": "2026-10-05"
+    }
+  ],
+  "native_sha256": "3cda9a73d31412fcade9dd724bbe9c93140feae58b558dcc425948db4e42a117",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/will-o-the-wisp.json",
+    "native_sha256": "3cda9a73d31412fcade9dd724bbe9c93140feae58b558dcc425948db4e42a117",
+    "old_url": "/assets/art/will-o-the-wisp-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/will-o-the-wisp.png",
+    "old_webp_sha256": "90253dee46fea995cc30f00467fc51bd444c37fcd022337736be45f0db314679",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "will-o-the-wisp-c01",
+      "will-o-the-wisp-c13",
+      "will-o-the-wisp-c03",
+      "will-o-the-wisp-c09"
+    ]
+  },
+  "url": "/assets/art/will-o-the-wisp-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "87a357ea59556b8fa52163f7de81cad785fb30c7bba17412dd4088a85b24b225",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Pale blue-gold light palette editorial; no face/eyes/limbs or dragon flame invented.",
+    "Close foreground perspective makes light imposing without claiming physical mountain-size."
+  ]
 }

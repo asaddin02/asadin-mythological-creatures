@@ -1,0 +1,65 @@
+{
+  "status": "awaiting-independent-review",
+  "generated": 149,
+  "new_images": 92,
+  "replacement_images": 57,
+  "required_legacy_checks_passed": false,
+  "checks": [
+    {
+      "command": "node scripts/audit-artwork-nama-besar.mjs --require-generated",
+      "exit_code": 0,
+      "report": "data/artwork-nama-besar-generation-audit.json"
+    },
+    {
+      "command": "node scripts/audit-artwork-presentation.mjs --revision nama-besar --require-generated",
+      "exit_code": 0,
+      "report": "data/artwork-presentation-revision-nama-besar-audit.json"
+    },
+    {
+      "command": "node tests/artwork-presentation-contracts.mjs",
+      "chunk_id": "c3c137",
+      "wall_time_seconds": 0.032469167,
+      "exit_code": 0,
+      "original_token_count": 37,
+      "output": "PASS: default and named revisions; grounded effects; preserved hashes; relocation; independent-review boundary; stale and forged receipts rejected\n"
+    },
+    {
+      "command": "node scripts/audit-artwork-presentation.mjs --require-complete",
+      "exit_code": 1,
+      "output": "node:internal/modules/run_main:107\n    triggerUncaughtException(\n    ^\n\nAssertionError [ERR_ASSERTION]: Revision preserves image count\n\n1005 !== 1000\n\n    at assertBaseline (file:///home/asadin/Projects/asadin-mythological-creatures/scripts/artwork-presentation-lib.mjs:109:10)\n    at file:///home/asadin/Projects/asadin-mythological-creatures/scripts/audit-artwork-presentation.mjs:12:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\n    at async node:internal/modules/esm/loader:643:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {\n  generatedMessage: false,\n  code: 'ERR_ASSERTION',\n  actual: 1005,\n  expected: 1000,\n  operator: 'strictEqual',\n  diff: 'simple'\n}\n\nNode.js v24.18.0\n",
+      "preexisting": true,
+      "reason": "Historical baseline is 1000 artworks, whereas the active manifest already contains 1005. Exact-baseline assertion remains strict."
+    },
+    {
+      "command": "node tests/artwork-presentation.mjs",
+      "exit_code": 1,
+      "output": "node:fs:561\n  return binding.open(\n                 ^\n\nError: ENOENT: no such file or directory, open '/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/heqet.png'\n    at Object.openSync (node:fs:561:18)\n    at readFileSync (node:fs:445:35)\n    at hash (file:///home/asadin/Projects/asadin-mythological-creatures/scripts/artwork-presentation-lib.mjs:33:57)\n    at validateRevision (file:///home/asadin/Projects/asadin-mythological-creatures/scripts/artwork-presentation-lib.mjs:73:44)\n    at file:///home/asadin/Projects/asadin-mythological-creatures/tests/artwork-presentation.mjs:7:14\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\n    at async node:internal/modules/esm/loader:643:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {\n  errno: -2,\n  code: 'ENOENT',\n  syscall: 'open',\n  path: '/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/heqet.png'\n}\n\nNode.js v24.18.0\n",
+      "preexisting": true,
+      "reason": "Historical batch-1000/originals/heqet.png is absent. The source original and historical generated-session location are also unavailable; an authoritative hash-matching original is required."
+    }
+  ],
+  "protected_tracked_paths_unchanged": true,
+  "git_diff_check": "pass",
+  "gallery_browser": {
+    "cards": 149,
+    "local_links": 654,
+    "search": "pass",
+    "replacement_filter": "pass",
+    "new_filter": "pass",
+    "mobile_overflow": false,
+    "script_errors": []
+  },
+  "historical_assets": {
+    "preserved_webp_images": 1005,
+    "preserved_available_native_pngs": 81,
+    "already_missing_native_pngs": 924
+  },
+  "second_reviews_performed": 0,
+  "integration_performed": false,
+  "commit_performed": false,
+  "push_performed": false,
+  "next_reviewer": "Claude Code lokal",
+  "receipt_list": "data/artwork-nama-besar-generation-audit.json",
+  "gallery": "docs/artwork-nama-besar-review.html",
+  "checked_at": "2026-10-06T09:14:34.332Z"
+}

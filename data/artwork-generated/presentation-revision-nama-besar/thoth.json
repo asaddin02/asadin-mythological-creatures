@@ -1,0 +1,70 @@
+{
+  "revision": "nama-besar",
+  "slug": "thoth",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generated_at": "2026-10-06T07:49:35.014Z",
+  "prompt": "Square premium painterly Mythics illustration, original art. THOTH as documented IBIS-HEADED Egyptian deity c04: one realistic sacred ibis bird head with long curved beak upon one fully clothed male human body, two human arms and two legs, richly textured full linen garments. Stern serene wisdom and commanding grand silhouette, elegant single reed pen in one hand, completely BLANK unrolled papyrus in other as scribal presiding role c07,c10. Lunar domain c01: colossal brilliant MOON above temple landscape, powerful cool silver moonlight flooding ibis face and robe; no glowing letters. Low-angle monumental cinematic composition, tiny Egyptian architecture distant below and dark immense sky, warm natural brazier lighting as ordinary scene light reflecting gold accessories, dark blue/silver palette. NO baboon mixed into ibis form, no added wings horns heads or extra limbs. No magic rays or new powers, no writing hieroglyphs text watermark logos border, fully clothed no gore. Avoid film game anime comics designs.",
+  "depicted_variant": "Egyptian ibis-headed Thoth presiding over lunar wisdom and writing.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Magnificent moonlight for documented lunar domain; cosmic composition without invented attack.",
+  "review_path": "data/gemini/reviews/batch-043.review.json",
+  "basis_claim_ids": [
+    "thoth-c04",
+    "thoth-c01",
+    "thoth-c07",
+    "thoth-c10"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One ibis-headed Egyptian deity.",
+      "claim_ids": [
+        "thoth-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Strong lunar atmosphere and moonlight from moon domain.",
+      "claim_ids": [
+        "thoth-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Presiding over writing with blank papyrus.",
+      "claim_ids": [
+        "thoth-c07",
+        "thoth-c10"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Full linen robes, papyrus and reed pen materialize scribal role; no actual written text.",
+    "Moon in sky and moonlight are domain staging, not a beam weapon or magical alphabet."
+  ],
+  "old_url": "/assets/art/thoth-mythic-presence.webp",
+  "old_webp_sha256": "fb395b198c1ccac099957229d274e7729b4009584ff320a0b9a5623dd6413ad8",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/thoth-mythic-presence.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": "737a4c1e3601ac2842bc54906a04228be1718506df24a907d07a7bcc06742b3d",
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/thoth.png",
+  "native_sha256": "2117cb758f6220f72466d0bb20a7fe3f879a04975edc573237fe7695d00ca3b9",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-060f7e47-ad0c-4c39-a49d-0840ad66ed0f.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Native inspected: single long-curved-beak ibis head on clothed human body, two human arms/legs with pen and blank papyrus, monumental luminous moon and Egyptian night setting. No writing, baboon blending, extra wings or magical attack. Moonlight grounded in lunar domain.",
+    "native_sha256": "2117cb758f6220f72466d0bb20a7fe3f879a04975edc573237fe7695d00ca3b9",
+    "reviewed_at": "2026-10-06T07:49:35.014Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "2117cb758f6220f72466d0bb20a7fe3f879a04975edc573237fe7695d00ca3b9",
+    "notes": "Ibis-headed god with scroll and pen before a full moon over a temple city, matching lunar wisdom and writing."
+  },
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00"
+}

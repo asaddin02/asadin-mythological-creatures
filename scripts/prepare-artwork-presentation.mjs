@@ -3,7 +3,15 @@ import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { mkdirSync } from 'node:fs';
 import { resolve } from 'node:path';
-import { root, directory, ledgerPath, read, save, existing, hash, assertBaseline } from './artwork-presentation-lib.mjs';
+import { root, read, save, existing, hash, assertBaseline, revisionArgs } from './artwork-presentation-lib.mjs';
+import { prepareNamedRevision } from './artwork-presentation-prepare-lib.mjs';
+const options = revisionArgs({ worker: { type: 'string', default: 'codex' }, slugs: { type: 'string' },
+  limit: { type: 'string' }, policy: { type: 'string', default: 'nama-besar' } });
+const { directory, ledgerPath } = options;
+if (options.revision !== '1000') {
+  await prepareNamedRevision(options);
+  process.exit(0);
+}
 if (existing(ledgerPath) && !existing('tmp/presentation-revision-1000/inventory.json')) {
   const ledger = read(ledgerPath);
   assertBaseline(ledger, read('assets/art/verified-manifest.json'));

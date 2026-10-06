@@ -1,40 +1,130 @@
 {
   "slug": "enki",
-  "depicted_variant": "Documented Enki iconography: bearded man, horned cap, long robes and flowing shoulder streams.",
+  "depicted_variant": "Bearded Mesopotamian god in long robes and horned cap, ram-headed staff, commanding two immense streams of freshwater FLOWING FROM HIS SHOULDERS into a vast canal landscape beneath Eridu. The water actually emerges from each shoulder, overflowing in luminous sunlit arcs, small distant city structures show scale. Benevolent wise expression, ordinary human body under robes; cap horns not horns growing on skull.",
   "basis_claim_ids": [
     "enki-c01",
     "enki-c02",
     "enki-c03",
-    "enki-c06"
+    "enki-c06",
+    "enki-c15"
   ],
   "visual_requirements": [
-    "Bearded human man in long robe and horned cap",
-    "Horns belong to cap rather than body",
-    "Clear restrained water streams from shoulders"
+    {
+      "kind": "anatomy",
+      "description": "Bearded Mesopotamian god in long robes and horned cap, ram-headed staff, commanding two immense streams of freshwater FLOWING FROM HIS SHOULDERS into a vast canal landscape beneath Eridu. The water actually emerges from each shoulder, overflowing in luminous sunlit arcs, small distant city structures show scale. Benevolent wise expression, ordinary human body under robes; cap horns not horns growing on skull.",
+      "claim_ids": [
+        "enki-c01",
+        "enki-c02",
+        "enki-c03",
+        "enki-c06",
+        "enki-c15"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Freshwater streams from both shoulders; basis: source iconography and freshwater domain",
+      "claim_ids": [
+        "enki-c01",
+        "enki-c02",
+        "enki-c03",
+        "enki-c06",
+        "enki-c15"
+      ]
+    }
   ],
-  "aura": "Calm authoritative gaze, dignified pose, natural daylight and source-supported nonluminous water.",
+  "aura": "Freshwater streams from both shoulders",
   "artistic_choices": [
     "Robe cloth, horned-cap design, beard styling and mudbrick courtyard are editorial staging."
   ],
-  "prompt": "Square premium painterly naturalistic mythology encyclopedia illustration of ENKI, Sumerian freshwater god. Depict the explicit documented iconography: one bearded adult HUMAN MAN in long opaque robes wearing a HORNED CAP; the horns are ornaments of the cap, not skull horns. Dignified quiet standing pose in an ancient mudbrick courtyard by an ordinary water basin, natural warm daylight. Two modest CLEAR WATER STREAMS issue from his shoulders and fall naturally into the basin, the single source-supported supernatural motif. Water looks like real transparent falling water, no colored glow or energy ribbons. Full human anatomy, one head, two arms and hands, long dark beard, ordinary human scale. Presence via thoughtful steady gaze, composed pose, beautiful robe folds, soft natural light, tactile mudbrick and water textures. No additional animals or hybrid anatomy, lightning, luminous mist, generic aura, text or watermark.",
-  "generated_file": "/home/asadin/.codex/generated_images/01a10bb6-3cac-7261-911d-bbee01b4baaf/exec-0be24bc6-a881-4a07-8e6b-33ae3dc33236.png",
+  "prompt": "Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. Bearded Mesopotamian god in long robes and horned cap, ram-headed staff, commanding two immense streams of freshwater FLOWING FROM HIS SHOULDERS into a vast canal landscape beneath Eridu. The water actually emerges from each shoulder, overflowing in luminous sunlit arcs, small distant city structures show scale. Benevolent wise expression, ordinary human body under robes; cap horns not horns growing on skull.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-6e054c1f-e70d-441a-8cce-f453124684cf.png",
   "visual_review": {
     "verdict": "pass",
-    "reviewer": "worker-2",
-    "notes": "Inspected native: bearded human man in long robes and cap-mounted horn ornaments. Two clear nonluminous water streams visibly originate at shoulders and fall into a basin. Ordinary human anatomy, calm gaze, natural courtyard daylight; no extra effects."
+    "reviewer": "codex",
+    "notes": "Viewed native PNG: bearded horned-cap god with two arms, robes and ram-headed staff, both streams visibly originate from shoulders. Tiny Eridu city and channels emphasize scale. Water effect grounded in enki-c03, no text, watermark, gore or additional anatomy.",
+    "native_sha256": "12348bb780ef1a21dd317525c18c1df1f0dd9afabc992193d3c0de56dbf1ca58",
+    "reviewed_at": "2026-10-06T07:48:19.461Z"
   },
   "status": "reviewed",
   "worker": "worker-2",
   "tool": "OpenAI built-in image_gen",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/enki.png",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/enki.png",
   "review_path": "data/gemini/reviews/batch-079.review.json",
-  "native_sha256": "b962224837303f3a4d11603dcd8753bd1a2295ebf2958e25826cc6a6b8ec88c1",
+  "native_sha256": "12348bb780ef1a21dd317525c18c1df1f0dd9afabc992193d3c0de56dbf1ca58",
   "reviewed_at": "2026-10-05T13:03:39.691477+00:00",
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "root",
-    "reviewed_at": "2026-10-05",
-    "native_sha256": "b962224837303f3a4d11603dcd8753bd1a2295ebf2958e25826cc6a6b8ec88c1",
-    "notes": "Inspected bearded man in long robe wearing horned cap (horns on cap, not body); two restrained water streams emerge from shoulders into pool. Daylit city staging, no glowing magic. Fits c02/c03."
-  }
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "12348bb780ef1a21dd317525c18c1df1f0dd9afabc992193d3c0de56dbf1ca58",
+    "notes": "Colossal bearded god in horned cap with ram staff; two great streams of fresh water pour from his shoulders into the canals of Eridu far below."
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "enki",
+      "depicted_variant": "Documented Enki iconography: bearded man, horned cap, long robes and flowing shoulder streams.",
+      "basis_claim_ids": [
+        "enki-c01",
+        "enki-c02",
+        "enki-c03",
+        "enki-c06"
+      ],
+      "visual_requirements": [
+        "Bearded human man in long robe and horned cap",
+        "Horns belong to cap rather than body",
+        "Clear restrained water streams from shoulders"
+      ],
+      "aura": "Calm authoritative gaze, dignified pose, natural daylight and source-supported nonluminous water.",
+      "artistic_choices": [
+        "Robe cloth, horned-cap design, beard styling and mudbrick courtyard are editorial staging."
+      ],
+      "prompt": "Square premium painterly naturalistic mythology encyclopedia illustration of ENKI, Sumerian freshwater god. Depict the explicit documented iconography: one bearded adult HUMAN MAN in long opaque robes wearing a HORNED CAP; the horns are ornaments of the cap, not skull horns. Dignified quiet standing pose in an ancient mudbrick courtyard by an ordinary water basin, natural warm daylight. Two modest CLEAR WATER STREAMS issue from his shoulders and fall naturally into the basin, the single source-supported supernatural motif. Water looks like real transparent falling water, no colored glow or energy ribbons. Full human anatomy, one head, two arms and hands, long dark beard, ordinary human scale. Presence via thoughtful steady gaze, composed pose, beautiful robe folds, soft natural light, tactile mudbrick and water textures. No additional animals or hybrid anatomy, lightning, luminous mist, generic aura, text or watermark.",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10bb6-3cac-7261-911d-bbee01b4baaf/exec-0be24bc6-a881-4a07-8e6b-33ae3dc33236.png",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-2",
+        "notes": "Inspected native: bearded human man in long robes and cap-mounted horn ornaments. Two clear nonluminous water streams visibly originate at shoulders and fall into a basin. Ordinary human anatomy, calm gaze, natural courtyard daylight; no extra effects."
+      },
+      "status": "reviewed",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/enki.png",
+      "review_path": "data/gemini/reviews/batch-079.review.json",
+      "native_sha256": "b962224837303f3a4d11603dcd8753bd1a2295ebf2958e25826cc6a6b8ec88c1",
+      "reviewed_at": "2026-10-05T13:03:39.691477+00:00",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "reviewed_at": "2026-10-05",
+        "native_sha256": "b962224837303f3a4d11603dcd8753bd1a2295ebf2958e25826cc6a6b8ec88c1",
+        "notes": "Inspected bearded man in long robe wearing horned cap (horns on cap, not body); two restrained water streams emerge from shoulders into pool. Daylit city staging, no glowing magic. Fits c02/c03."
+      }
+    }
+  ],
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/enki.json",
+    "native_sha256": "12348bb780ef1a21dd317525c18c1df1f0dd9afabc992193d3c0de56dbf1ca58",
+    "old_url": "/assets/art/enki-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/enki.png",
+    "old_webp_sha256": "b68935812f3c0db4ce7c87507ee414a625b1c11718a62b3a2c11b982a048cba8",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "enki-c01",
+      "enki-c02",
+      "enki-c03",
+      "enki-c06",
+      "enki-c15"
+    ]
+  },
+  "url": "/assets/art/enki-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "1646496cf343056b320b906a4730540c70c26d779b054d9f9c1974eb2f5b3732",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Low-angle framing, painterly materials and environmental color are artistic rendering.",
+    "Effects are limited to the cited domains, deeds, attributes or iconography; natural light and scale supply presence where no elemental ability is documented."
+  ]
 }

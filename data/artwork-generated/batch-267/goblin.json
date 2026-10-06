@@ -4,26 +4,110 @@
   "generated_by": "root",
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
-  "prompt": "Create a single polished painterly mythological field-guide illustration, square, rich tactile detail, full main figure within generous margin, cinematic light, no text or border. Follow the source anatomy and aura exactly. ONE small grotesque green FURRY GOBLIN about thirty centimetres high beside ordinary size coins in an underground rocky cave. Source-defined small humanlike body covered with sparse shaggy GREEN FUR, POINTED EARS, ugly mischievous face, two arms and TWO LEGS, five-fingered grabbing hands, hunched posture gazing greedily at a tiny pile of gold. Menacing sly greedy aura, earthy cave candlelight, realistic creature illustration, not cute plush toy. No wings, horns, tail, extra limbs, giant size, armour or royal crown. Full body readable.",
-  "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-b9ea1b0a-c26d-47e7-9b00-07ddfc0e12a7.png",
+  "prompt": "Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. One frightening SMALL European goblin: furry grotesque humanoid with greenish face and pointed ears, ordinary two arms two legs, hunching in a dark underground cave over stolen gold. At about30cm relative to enormous roots and mouse-sized treasure fragments; low ground-level camera gives imposing presence without claiming giant actual size. Flickering ordinary underground brazier fire casts dramatic heat/reflections on fur, no fire emitted from body or unsupported weapons. Mischievous malevolent fierce expression, primitive patched modest clothing. No film/game designs, no gore, no extra horns or wings. Plain uninscribed walls, clothing and objects: no hieroglyphs, cuneiform, letters or pictographic writing. No solar-disk crown, horns or additional attributes unless explicitly specified above.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/goblin.png",
   "review_path": "data/gemini/reviews/batch-115.review.json",
   "visual_requirements": [
-    "Small grotesque humanoid",
-    "Green furry body and pointed ears",
-    "Two arms two legs normal count",
-    "Underground coins context, greedy mischievous menace"
+    {
+      "kind": "anatomy",
+      "description": "One frightening SMALL European goblin: furry grotesque humanoid with greenish face and pointed ears, ordinary two arms two legs, hunching in a dark underground cave over stolen gold. At about30cm relative to enormous roots and mouse-sized treasure fragments; low ground-level camera gives imposing presence without claiming giant actual size. Flickering ordinary underground brazier fire casts dramatic heat/reflections on fur, no fire emitted from body or unsupported weapons. Mischievous malevolent fierce expression, primitive patched modest clothing. No film/game designs, no gore, no extra horns or wings.",
+      "claim_ids": [
+        "goblin-c01",
+        "goblin-c02",
+        "goblin-c09",
+        "goblin-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Environmental cave fire and glowing gold reflections; basis: documented fire association and underground/treasure setting",
+      "claim_ids": [
+        "goblin-c01",
+        "goblin-c02",
+        "goblin-c09",
+        "goblin-c10"
+      ]
+    }
   ],
-  "depicted_variant": "Small green furry pointed-eared goblin",
+  "depicted_variant": "One frightening SMALL European goblin: furry grotesque humanoid with greenish face and pointed ears, ordinary two arms two legs, hunching in a dark underground cave over stolen gold. At about30cm relative to enormous roots and mouse-sized treasure fragments; low ground-level camera gives imposing presence without claiming giant actual size. Flickering ordinary underground brazier fire casts dramatic heat/reflections on fur, no fire emitted from body or unsupported weapons. Mischievous malevolent fierce expression, primitive patched modest clothing. No film/game designs, no gore, no extra horns or wings.",
   "basis_claim_ids": [
     "goblin-c01",
     "goblin-c02",
     "goblin-c09",
     "goblin-c10"
   ],
-  "aura": "Greedy, mischievous and menacing",
+  "aura": "Environmental cave fire and glowing gold reflections",
   "visual_review": {
     "verdict": "pass",
-    "notes": "Grotesque small green hairy humanoid with pointed ears, two arms, two legs and greedy expression holding coin in cave; menacing mischievous aura rather than cute creature."
+    "reviewer": "codex",
+    "notes": "Viewed native PNG: small furry greenish pointed-ear humanoid with two grasping hands and crouched clothed legs, hoarding gold in root/cave setting. Mouse establishes small scale; flame is ordinary brazier fire, not bodily emission. Grotesque threat, no horns, wings, text or gore.",
+    "native_sha256": "bc569c03f4d3498cdef2e797b29c49e65e3f20e0431ff701dd368a3604444540",
+    "reviewed_at": "2026-10-06T08:03:51.262Z"
   },
-  "reviewed_at": "2026-10-04T03:19:00.577Z"
+  "reviewed_at": "2026-10-04T03:19:00.577Z",
+  "presentation_revision_history": [
+    {
+      "slug": "goblin",
+      "worker": "worker-2",
+      "generated_by": "root",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "prompt": "Create a single polished painterly mythological field-guide illustration, square, rich tactile detail, full main figure within generous margin, cinematic light, no text or border. Follow the source anatomy and aura exactly. ONE small grotesque green FURRY GOBLIN about thirty centimetres high beside ordinary size coins in an underground rocky cave. Source-defined small humanlike body covered with sparse shaggy GREEN FUR, POINTED EARS, ugly mischievous face, two arms and TWO LEGS, five-fingered grabbing hands, hunched posture gazing greedily at a tiny pile of gold. Menacing sly greedy aura, earthy cave candlelight, realistic creature illustration, not cute plush toy. No wings, horns, tail, extra limbs, giant size, armour or royal crown. Full body readable.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-b9ea1b0a-c26d-47e7-9b00-07ddfc0e12a7.png",
+      "review_path": "data/gemini/reviews/batch-115.review.json",
+      "visual_requirements": [
+        "Small grotesque humanoid",
+        "Green furry body and pointed ears",
+        "Two arms two legs normal count",
+        "Underground coins context, greedy mischievous menace"
+      ],
+      "depicted_variant": "Small green furry pointed-eared goblin",
+      "basis_claim_ids": [
+        "goblin-c01",
+        "goblin-c02",
+        "goblin-c09",
+        "goblin-c10"
+      ],
+      "aura": "Greedy, mischievous and menacing",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Grotesque small green hairy humanoid with pointed ears, two arms, two legs and greedy expression holding coin in cave; menacing mischievous aura rather than cute creature."
+      },
+      "reviewed_at": "2026-10-04T03:19:00.577Z"
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "bc569c03f4d3498cdef2e797b29c49e65e3f20e0431ff701dd368a3604444540",
+    "notes": "Small grotesque furry green-faced goblin with pointed ears hunched over stolen gold in an underground cave; low camera makes it menacing."
+  },
+  "native_sha256": "bc569c03f4d3498cdef2e797b29c49e65e3f20e0431ff701dd368a3604444540",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/goblin.json",
+    "native_sha256": "bc569c03f4d3498cdef2e797b29c49e65e3f20e0431ff701dd368a3604444540",
+    "old_url": "/assets/art/goblin-verified.webp",
+    "old_original_file": "/home/asadin/.codex/generated_images/01a1026f-59e6-7153-81f2-597e08cba9d3/exec-b9ea1b0a-c26d-47e7-9b00-07ddfc0e12a7.png",
+    "old_webp_sha256": "dd31b9bd0ee632e2abc9d1b45ed3eef1e9c887cc785acc4b89858a83310329b4",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "goblin-c01",
+      "goblin-c02",
+      "goblin-c09",
+      "goblin-c10"
+    ]
+  },
+  "url": "/assets/art/goblin-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "cf469b94deab8d02281df91507df5bdf0c031720b72a10555ac4e60261794919",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-821a99cf-aaf1-472c-a622-0c8888480567.png",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Low-angle framing, painterly materials and environmental color are artistic rendering.",
+    "Effects are limited to the cited domains, deeds, attributes or iconography; natural light and scale supply presence where no elemental ability is documented."
+  ]
 }

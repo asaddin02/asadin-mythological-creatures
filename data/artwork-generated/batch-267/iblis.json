@@ -1,21 +1,29 @@
 {
   "slug": "iblis",
   "worker": "worker-3",
-  "prompt": "ONE square detailed painterly naturalistic encyclopedia illustration of Iblis, the Islamic tempter, selecting ONLY the dog manifestation explicitly reported of al-Ghazali in Encyclopaedia Iranica. ONE ordinary dog-shaped jinn manifestation in a deserted dry rocky landscape at night, coherent canine anatomy: one dog head with TWO eyes, two ears, FOUR legs and ONE tail. Dark natural fur is scene styling, not claimed as canonical coat. Stand alert staring toward viewer with cold calculating temptation and proud hostile intelligence; oppressive shadow, faint low firelight alluding to his creation from fire. His aura is sinister, deceitful, envious and dangerous, not a benevolent divine dog. This is a documented shape assumed by Iblis, not a claim of his fixed original appearance. Full single dog comfortable in square, painterly naturalistic detail. Avoid human-faced dog, horns, wings, extra heads or eyes, red cartoon devil skin, pitchfork, European fallen-angel anatomy, named Qur'anic figures, gore, text, calligraphy, watermark, border, collage.",
-  "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-bf3e52fd-e7b7-47f7-afff-a3ec0a6a08ac.png",
+  "prompt": "Square premium original painterly mythology illustration, respectful Islamic textual folklore source interpretation. IBLIS in explicitly documented DOG FORM in al-Ghazali account iblis-c14, ONE fierce imposing natural canine with one head exactly FOUR ordinary legs, tail, normal canine ears, dark fur. No humanoid body goat head horns extra eyes wings fantasy dragon anatomy or mix with pig/frog form. His claimed FIRE ORIGIN iblis-c04 visualized symbolically as immense ordinary flame glow BEHIND intact dark dog silhouette in a rugged stony landscape, flame not a weapon from mouth and no flaming body replacing anatomy. Extremely low close camera, powerful severe menacing gaze and braced stance, tiny far crags comparison, cinematic fiery orange backlight and black shadows, detailed painterly fur and clear canine silhouette. No religious writing symbols caricature mockery, no human victim gore nudity text labels watermark border logo or film/game/anime/comic designs.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/iblis.png",
   "review_path": "data/gemini/reviews/batch-079.review.json",
   "visual_requirements": [
-    "documented dog manifestation, coherent ordinary canine anatomy",
-    "two eyes, two ears, four legs and one tail",
-    "sinister proud calculating tempter aura"
+    {
+      "kind": "anatomy",
+      "description": "One ordinary dog-form chosen from al-Ghazali's shapeshifting forms.",
+      "claim_ids": [
+        "iblis-c14"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Fire imagery grounded in claimed fire origin.",
+      "claim_ids": [
+        "iblis-c04"
+      ]
+    }
   ],
-  "depicted_variant": "Al-Ghazali dog manifestation reported by Hamid Algar",
+  "depicted_variant": "Al-Ghazali's documented dog-form Iblis, fire origin shown as symbolic backlight.",
   "basis_claim_ids": [
-    "iblis-c04",
-    "iblis-c08",
-    "iblis-c09",
-    "iblis-c10",
-    "iblis-c14"
+    "iblis-c14",
+    "iblis-c04"
   ],
   "additional_sources": [
     {
@@ -24,11 +32,82 @@
       "basis": "Al-Ghazali reports Iblis assuming dog, pig and frog forms; chosen dog manifestation and Sufi egoism/envy/temptation."
     }
   ],
-  "aura": "hostile calculating demonic tempter",
+  "aura": "Documented fire origin c04 visualized as fire behind intact dog-form, not a claimed fire attack.",
   "visual_review": {
     "verdict": "pass",
-    "notes": "One dark domestic shepherd-like dog form with two eyes, two pointed ears, four paws and one tail in barren rocky night landscape. Hard cold stare, lowered intimidating face and firelit deep shadows convey sinister proud temptation. No generic devil horns, wings or invented human face; receipt explicitly records a manifestation, not fixed original anatomy."
+    "reviewer": "codex",
+    "notes": "Native inspected: single natural dog with one head/four legs/tail, no hybrid horns/wings/body changes. Massive flames behind depict claimed fire origin symbolically; fire is not breathed or wielded. Menacing low-angle canine gaze, no text watermark gore or religious caricature.",
+    "native_sha256": "e2a77e919a6fb26b9555466263b98f9a6fe0297b19d9ae0048392f26261ad2f6",
+    "reviewed_at": "2026-10-06T08:12:21.792Z"
   },
   "tool": "OpenAI built-in image_gen",
-  "status": "reviewed"
+  "status": "reviewed",
+  "presentation_revision_history": [
+    {
+      "slug": "iblis",
+      "worker": "worker-3",
+      "prompt": "ONE square detailed painterly naturalistic encyclopedia illustration of Iblis, the Islamic tempter, selecting ONLY the dog manifestation explicitly reported of al-Ghazali in Encyclopaedia Iranica. ONE ordinary dog-shaped jinn manifestation in a deserted dry rocky landscape at night, coherent canine anatomy: one dog head with TWO eyes, two ears, FOUR legs and ONE tail. Dark natural fur is scene styling, not claimed as canonical coat. Stand alert staring toward viewer with cold calculating temptation and proud hostile intelligence; oppressive shadow, faint low firelight alluding to his creation from fire. His aura is sinister, deceitful, envious and dangerous, not a benevolent divine dog. This is a documented shape assumed by Iblis, not a claim of his fixed original appearance. Full single dog comfortable in square, painterly naturalistic detail. Avoid human-faced dog, horns, wings, extra heads or eyes, red cartoon devil skin, pitchfork, European fallen-angel anatomy, named Qur'anic figures, gore, text, calligraphy, watermark, border, collage.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-bf3e52fd-e7b7-47f7-afff-a3ec0a6a08ac.png",
+      "review_path": "data/gemini/reviews/batch-079.review.json",
+      "visual_requirements": [
+        "documented dog manifestation, coherent ordinary canine anatomy",
+        "two eyes, two ears, four legs and one tail",
+        "sinister proud calculating tempter aura"
+      ],
+      "depicted_variant": "Al-Ghazali dog manifestation reported by Hamid Algar",
+      "basis_claim_ids": [
+        "iblis-c04",
+        "iblis-c08",
+        "iblis-c09",
+        "iblis-c10",
+        "iblis-c14"
+      ],
+      "additional_sources": [
+        {
+          "url": "https://www.iranicaonline.org/articles/eblis/",
+          "title": "Encyclopaedia Iranica — Eblis",
+          "basis": "Al-Ghazali reports Iblis assuming dog, pig and frog forms; chosen dog manifestation and Sufi egoism/envy/temptation."
+        }
+      ],
+      "aura": "hostile calculating demonic tempter",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "One dark domestic shepherd-like dog form with two eyes, two pointed ears, four paws and one tail in barren rocky night landscape. Hard cold stare, lowered intimidating face and firelit deep shadows convey sinister proud temptation. No generic devil horns, wings or invented human face; receipt explicitly records a manifestation, not fixed original anatomy."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed"
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "e2a77e919a6fb26b9555466263b98f9a6fe0297b19d9ae0048392f26261ad2f6",
+    "notes": "Black dog form of Iblis with burning eyes before a wall of fire, matching the documented dog form and fire origin; menacing presence."
+  },
+  "native_sha256": "e2a77e919a6fb26b9555466263b98f9a6fe0297b19d9ae0048392f26261ad2f6",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/iblis.json",
+    "native_sha256": "e2a77e919a6fb26b9555466263b98f9a6fe0297b19d9ae0048392f26261ad2f6",
+    "old_url": "/assets/art/iblis-verified.webp",
+    "old_original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-bf3e52fd-e7b7-47f7-afff-a3ec0a6a08ac.png",
+    "old_webp_sha256": "beba5b07aacf46d943b491120565a2e6a1bba8d122ba55006296b78397ffaa6e",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "iblis-c14",
+      "iblis-c04"
+    ]
+  },
+  "url": "/assets/art/iblis-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "2fa0fc3847f23f55aa9fcb92fecdbceb11ef0baadaaddd0af73dc324b8fb6d84",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-e3c1e721-fad0-48a3-aa30-2179bdd5f188.png",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Animal color, crag landscape and external flames are editorial symbolic portrayal of origin; source does not specify heat attack.",
+    "No humanoid demon anatomy, horns, wings or mixed animal forms; religious tradition treated respectfully."
+  ]
 }

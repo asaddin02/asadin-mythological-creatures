@@ -1,0 +1,72 @@
+{
+  "revision": "nama-besar",
+  "slug": "apis",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generated_at": "2026-10-06T08:57:52.641Z",
+  "prompt": "Square premium original respectful painterly Egyptian APIS SACRED BULL c01. ONE mighty anatomically correct black bull with FOUR legs ONE head TWO natural horns ONE tail, clear WHITE TRIANGLE on forehead c10, one golden SUN DISK BETWEEN horns c09. Full animal form, no human torso wings extra horns heads or limbs. Benevolent awe-inspiring guardian strength c08, grand low-angle fullbody at huge Memphis stone templethreshold, tiny distant templecourt. Documented healing BREATH c14 gently visualized as a small luminous warm natural-looking EXHALATION leaving nostrils into cool air, NOT fire breath or attack beam, no neon energy envelope. Divine power through immense strength and the gentle curing breath belief, spectacular cinematic golden natural sunlight contrasting dark bull/fine wet muzzle and textured hair, premium realistic painterly materials. No suffering humans, gore, nudity, text hieroglyphs symbols labels watermark logo border or movie/game/anime/comic design.\nNo-writing edit: Edit the Apis bull artwork. Remove EVERY hieroglyph, inscription, letter, symbol and carved pictogram from all background pillars, columns and walls; make them plain naturally textured sandstone with architectural grooves only. Preserve one black sacred bull, four legs, two horns, white forehead triangle, solar disk between horns, slight natural exhalation from nostrils, imposing low-angle cinematic golden composition, full square premium painterly style. No new anatomy, no text watermark labels or symbols anywhere.",
+  "depicted_variant": "Sacred Apis bull with forehead triangle and solar disk; source-attested healing breath symbolized by visible exhalation.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Documented curing breath c14 portrayed as gentle visible exhalation, monumental strength.",
+  "review_path": "data/gemini/reviews/batch-077.review.json",
+  "basis_claim_ids": [
+    "apis-c01",
+    "apis-c09",
+    "apis-c10",
+    "apis-c14"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One sacred bull with solar disk between horns and white forehead triangle.",
+      "claim_ids": [
+        "apis-c01",
+        "apis-c09",
+        "apis-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Breath believed to cure disease.",
+      "claim_ids": [
+        "apis-c14"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Bull color, full natural sunlight, templethreshold and visible gentle breath are editorial rendering.",
+    "No destructive solar attack or fire breath; external light and exhalation visualize healing belief without asserting beam mechanics."
+  ],
+  "old_url": "/assets/art/apis-verified.webp",
+  "old_webp_sha256": "543153461997766b15ccd3d69c6d703d457696d0b8b5d2dc545b89f751ab8e84",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/apis.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": "b347e5dc6acd2bd9034c066576b7ee7e584ac5ea8797fc977d7da4358c0a833d",
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/apis.png",
+  "native_sha256": "bb375902f6db6eb8bda64a8d770685f22bee4a26941131c0f29861eb0a9a70c7",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-be04dfc6-98b0-48fa-a1ae-538c85b44471.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Revised native inspected: one sacred black bull with four natural legs, two horns framing sun disk, white forehead triangle, gentle visible nostril exhalation. All pillar inscriptions removed; plain sandstone preserves natural material texture. Strong grand natural sunlight, no wings/hybrid body, fire attack, text/watermark or gore. First inscription-like background attempt retained.",
+    "native_sha256": "bb375902f6db6eb8bda64a8d770685f22bee4a26941131c0f29861eb0a9a70c7",
+    "reviewed_at": "2026-10-06T08:57:52.641Z"
+  },
+  "rejected_attempts": [
+    {
+      "path": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-ab0fe041-5aed-4ad7-8d21-91c4ce498359.png",
+      "reason": "Background columns include inscription-like carvings; explicit no-writing policy requires clean stone.",
+      "original_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/apis-1.png",
+      "native_sha256": "e9795a3eb43fd995672863f8373bdbd978ca700a6e00eb668b5393db87060ad6"
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "bb375902f6db6eb8bda64a8d770685f22bee4a26941131c0f29861eb0a9a70c7",
+    "notes": "Black sacred bull with golden solar disk between the horns, a visible white forehead triangle and a visible breath plume for the healing breath; temple setting."
+  },
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00"
+}

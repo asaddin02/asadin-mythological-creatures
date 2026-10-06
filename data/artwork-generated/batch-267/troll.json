@@ -1,30 +1,117 @@
 {
   "slug": "troll",
   "worker": "worker-3",
-  "prompt": "Use case: historical-scene. ONE square detailed painterly naturalistic encyclopedia illustration of a Nordic Troll. Choose the documented grotesque gigantic humanlike mountain-dweller variant, not a game monster. One colossal hunched humanoid emerges from a shadowed cave in an untouched Norwegian mountain forest at twilight. Two humanlike arms, two legs, oversized rough weathered face and heavy brow, broad ugly nose, coarse unkempt hair and beard, primitive worn dark cloth modestly covering body. It appears ancient, brutal, dangerous and dim-witted, blending visually with dark rocky mossy landscape through earthy skin texture; living flesh, not literally a stone statue. Cave mouth and small fir trees establish giant scale. Harsh sideways moonlight catches its suspicious predatory stare; frightening folklore menace with northern landscape atmosphere. Central complete humanoid comfortably inside frame. Invariants: grotesque giant humanlike being, remote Nordic mountain cave, dangerous aura. Avoid horns, wings, tusks, extra heads or limbs, tail, fantasy armor, weapon, modern objects, comedic cartoon, gore, nudity, text, watermark, border, collage.",
-  "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-398e0a52-ae40-44c5-9d7a-374afc6683d6.png",
+  "prompt": "Square premium original painterly Scandinavian TROLL illustration. One enormous grotesque yet HUMANLIKE GIANT c01,c03,c14 with one head two arms two legs normal ears, NO horns tails tusks extra heads or modern borrowed design. Fully dressed in rough long dark woolen tunic and trousers, massive stooped physique. At mountain CAVE mouth c04, dawn SUNLIGHT begins turning him to STONE c05: one broad hand and side of cheek show gradual textured GREY ROCK transformation while rest remains living intact, no wounds or broken limbs. He shields his face from sunrise with one arm, wary terrifying monumental silhouette, low camera dwarfed by vast cave, tiny boulders and pines for scale, dramatic amber sunlight against deep blue cave shadows, rich painterly rock/fabric/skin texture. No magic emitted by troll, no lightning/fire, no gore text symbols writing watermark logo border nudity or game/film/anime/comic designs.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/troll.png",
   "review_path": "data/gemini/reviews/batch-047.review.json",
   "visual_requirements": [
-    "Grotesque gigantic humanlike form",
-    "Two arms and two legs",
-    "Remote Nordic mountain cave",
-    "Dangerous menacing aura",
-    "No generic fantasy horns or armor"
+    {
+      "kind": "anatomy",
+      "description": "Giant humanlike Nordic troll with ordinary human limb count.",
+      "claim_ids": [
+        "troll-c01",
+        "troll-c03",
+        "troll-c14"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Sunlight turns troll to stone.",
+      "claim_ids": [
+        "troll-c05"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mountain cave habitat.",
+      "claim_ids": [
+        "troll-c04"
+      ]
+    }
   ],
-  "depicted_variant": "Grotesque giant mountain-dwelling Nordic troll; not all trolls share this form",
+  "depicted_variant": "Giant humanlike mountain troll encountering petrifying dawn.",
   "basis_claim_ids": [
     "troll-c01",
-    "troll-c02",
     "troll-c03",
-    "troll-c04",
-    "troll-c07",
-    "troll-c14"
+    "troll-c14",
+    "troll-c05",
+    "troll-c04"
   ],
-  "aura": "Dangerous, ancient, frightening northern folklore menace",
+  "aura": "Sunlight petrification c05 shown as intact skin transitioning to stone.",
   "visual_review": {
     "verdict": "pass",
-    "notes": "Observed one massive hunched rough-skinned humanlike male, oversized ugly nose and brow, matted hair and beard, two thick arms and two legs, cloth garment. Small fir trees and mountain cave establish giant scale. Stern suspicious face and moonlit isolated landscape convey danger. No horns, wings, weapon, tail, armor, gore, writing or watermark."
+    "reviewer": "codex",
+    "notes": "Native inspected: one humanlike grotesque giant with two arms/legs, shielding face at cave; cheek and hands transition intact to grey stone in sunlight. Fully clothed, no horns/tails/extra heads, wounds, text or watermark. Source-attested petrification readable.",
+    "native_sha256": "f74500e7704ebcef37fcfbd50133ef92fdce08c8598b1176b6f06f1de4352101",
+    "reviewed_at": "2026-10-06T08:05:30.765Z"
   },
   "tool": "OpenAI built-in image_gen",
-  "status": "reviewed"
+  "status": "reviewed",
+  "presentation_revision_history": [
+    {
+      "slug": "troll",
+      "worker": "worker-3",
+      "prompt": "Use case: historical-scene. ONE square detailed painterly naturalistic encyclopedia illustration of a Nordic Troll. Choose the documented grotesque gigantic humanlike mountain-dweller variant, not a game monster. One colossal hunched humanoid emerges from a shadowed cave in an untouched Norwegian mountain forest at twilight. Two humanlike arms, two legs, oversized rough weathered face and heavy brow, broad ugly nose, coarse unkempt hair and beard, primitive worn dark cloth modestly covering body. It appears ancient, brutal, dangerous and dim-witted, blending visually with dark rocky mossy landscape through earthy skin texture; living flesh, not literally a stone statue. Cave mouth and small fir trees establish giant scale. Harsh sideways moonlight catches its suspicious predatory stare; frightening folklore menace with northern landscape atmosphere. Central complete humanoid comfortably inside frame. Invariants: grotesque giant humanlike being, remote Nordic mountain cave, dangerous aura. Avoid horns, wings, tusks, extra heads or limbs, tail, fantasy armor, weapon, modern objects, comedic cartoon, gore, nudity, text, watermark, border, collage.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-398e0a52-ae40-44c5-9d7a-374afc6683d6.png",
+      "review_path": "data/gemini/reviews/batch-047.review.json",
+      "visual_requirements": [
+        "Grotesque gigantic humanlike form",
+        "Two arms and two legs",
+        "Remote Nordic mountain cave",
+        "Dangerous menacing aura",
+        "No generic fantasy horns or armor"
+      ],
+      "depicted_variant": "Grotesque giant mountain-dwelling Nordic troll; not all trolls share this form",
+      "basis_claim_ids": [
+        "troll-c01",
+        "troll-c02",
+        "troll-c03",
+        "troll-c04",
+        "troll-c07",
+        "troll-c14"
+      ],
+      "aura": "Dangerous, ancient, frightening northern folklore menace",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed one massive hunched rough-skinned humanlike male, oversized ugly nose and brow, matted hair and beard, two thick arms and two legs, cloth garment. Small fir trees and mountain cave establish giant scale. Stern suspicious face and moonlit isolated landscape convey danger. No horns, wings, weapon, tail, armor, gore, writing or watermark."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed"
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "f74500e7704ebcef37fcfbd50133ef92fdce08c8598b1176b6f06f1de4352101",
+    "notes": "Giant mountain troll shielding its eyes from the dawn while its skin starts turning to stone, as in the petrification belief."
+  },
+  "native_sha256": "f74500e7704ebcef37fcfbd50133ef92fdce08c8598b1176b6f06f1de4352101",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/troll.json",
+    "native_sha256": "f74500e7704ebcef37fcfbd50133ef92fdce08c8598b1176b6f06f1de4352101",
+    "old_url": "/assets/art/troll-verified.webp",
+    "old_original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-398e0a52-ae40-44c5-9d7a-374afc6683d6.png",
+    "old_webp_sha256": "89ec0b940804181cdbb3c483d7a344d1f00c1108d69a9158d45118d9246d67c6",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "troll-c01",
+      "troll-c03",
+      "troll-c14",
+      "troll-c05",
+      "troll-c04"
+    ]
+  },
+  "url": "/assets/art/troll-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "d8afbb155f486e844703203aa96eb95cd451245c3d29901087614adf17b064b8",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-17ba3cc1-3aac-4d29-a984-898977bf0beb.png",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Coarse face and full rough garments editorial variant interpretation; no horns or tails.",
+    "Stone transition is non-gory source-attested petrification, no shattered body."
+  ]
 }

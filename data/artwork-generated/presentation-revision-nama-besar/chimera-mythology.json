@@ -1,0 +1,64 @@
+{
+  "revision": "nama-besar",
+  "slug": "chimera-mythology",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generated_at": "2026-10-06T07:53:16.753Z",
+  "prompt": "Square premium original painterly Greek Chimera myth illustration. EXACTLY THREE distinct heads: fierce LION head at front, GOAT head rising from upper back, SERPENT head at the end of the long snake tail. ONE coherent massive feline quadruped body, exactly four lion legs, no wings, no extra heads. Source three-headed lion-goat-serpent hybrid chimera-mythology-c02,c03,c11. Lion front head breathes an enormous searing fire plume c01, visibly powerful fire lights fur scales and rocky hillside. A terrifying monumental monster ravaging Lycian hills, low close camera, huge silhouette with all THREE heads spatially readable and separated, tiny distant hill landscape for scale, fire and dark twilight contrast, rich painterly naturalism. Do not turn goat head into horns on lion; serpent head only at tail tip, three heads total. No second monster, no gore, text lettering watermark logos borders or film/game/anime/comic design.",
+  "depicted_variant": "Three-headed lion/goat/serpent Chimera with documented fiery breath.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Huge breath of fire from documented fire-breathing hybrid.",
+  "review_path": "data/gemini/reviews/batch-043.review.json",
+  "basis_claim_ids": [
+    "chimera-mythology-c02",
+    "chimera-mythology-c03",
+    "chimera-mythology-c11",
+    "chimera-mythology-c01"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Exactly three heads: lion front, goat rising from back, serpent head at tail end; one hybrid lion/goat/serpent body.",
+      "claim_ids": [
+        "chimera-mythology-c02",
+        "chimera-mythology-c03",
+        "chimera-mythology-c11"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Forceful fire-breathing flame.",
+      "claim_ids": [
+        "chimera-mythology-c01"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Arrangement follows traditional lion-goat-serpent interpretation; fur, horn curve, landscape and fire hues editorial.",
+    "One intact monster, no severed parts, no victims or gore."
+  ],
+  "old_url": "/assets/art/chimera-mythology-verified.webp",
+  "old_webp_sha256": "43031767d06f22b38d187206a579b9b87efed334f7ebd155d41555bb736ea79c",
+  "old_original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-37a4703b-52e6-4fe4-91d1-1bba0c779d9b.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": null,
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/chimera-mythology.png",
+  "native_sha256": "02a53f86fba9cf5ca16e2200538abfbfccce7818b18a18b84492b3af1dad0047",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-f8e43189-803d-42fd-9b78-7d599fc090d8.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Native inspected: exactly three separated lion/goat/snake heads, goat head from back, snake head at tail end; four feline legs and one coherent body. Strong fiery breath exits lion mouth. No added wings, extra heads, text/watermark or gore.",
+    "native_sha256": "02a53f86fba9cf5ca16e2200538abfbfccce7818b18a18b84492b3af1dad0047",
+    "reviewed_at": "2026-10-06T07:53:16.753Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "02a53f86fba9cf5ca16e2200538abfbfccce7818b18a18b84492b3af1dad0047",
+    "notes": "Lion body breathing a strong jet of fire, a goat head rising from the back and a serpent-headed tail: exactly three heads as documented."
+  },
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00"
+}

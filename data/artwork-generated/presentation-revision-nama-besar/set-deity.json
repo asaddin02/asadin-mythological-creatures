@@ -1,0 +1,70 @@
+{
+  "revision": "nama-besar",
+  "slug": "set-deity",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "needs-correction",
+  "generated_at": "2026-10-06T08:57:52.795Z",
+  "prompt": "Square premium original painterly ancient Egyptian SET STORM GOD illustration, ANICONIC source-faithful interpretation. Accepted research documents Set as god of STORMS CHAOS set-deity-c01 and LORD OF DESERT c03,c12; its Set animal is not definitively identified c15 and exact bodily form is not described. Therefore DO NOT invent any human or animal body, hybrid head, face in clouds, ears snout horns wings limbs, deity statue or animal species. Show his magnificent terrible divine presence through ONE COLOSSAL WALL of roiling black THUNDERSTORM clouds and sandstorm towering over immense Egyptian desert, vivid physically storm-associated natural LIGHTNING inside the dark cloud-wall, sand and wind visibly sweeping vast dunes and sandstone cliffs. Camera extremely low among desertrocks, tiny plain sandstone Egyptian temple shapes far below storm give enormous scale; dramatic cinematic gold windblown sand against black-blue clouds and white lightning, rich premium naturalistic painterly detail, powerful threatening domain manifestation dominates full square. No anthropomorphic cloud face or eyes, no weapons, no solar fire or added unrelated power, no writing hieroglyphs text symbols labels watermark border logo gore nudity or film/game/anime/comic design.",
+  "depicted_variant": "Aniconic Set expressed through monumental desert storm; unidentified animal anatomy is not reconstructed.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Massive desert storm and natural lightning from documented storm/desert domains.",
+  "review_path": "data/gemini/reviews/batch-041.review.json",
+  "basis_claim_ids": [
+    "set-deity-c15",
+    "set-deity-c01",
+    "set-deity-c03",
+    "set-deity-c12"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Do not invent the anatomy or identifiable species of the unidentified Set animal.",
+      "claim_ids": [
+        "set-deity-c15"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Storm and chaos domain: huge thunderstorm and sandstorm.",
+      "claim_ids": [
+        "set-deity-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Desert lord context.",
+      "claim_ids": [
+        "set-deity-c03",
+        "set-deity-c12"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Accepted research names the Set animal but does not describe its anatomical features. Aniconic desert-storm rendering avoids adding undocumented snout, ears or anthropomorphic hybrid anatomy.",
+    "Deity presence is represented by colossal storm scale and atmosphere, not a literal cloud face/body or fabricated attack weapon. Small Egyptian stone architecture is editorial context."
+  ],
+  "old_url": "/assets/art/set-deity-verified.webp",
+  "old_webp_sha256": "bd17da36d8d3adf74da8d308162d7f33db9f527b42c15049a765c635d737350c",
+  "old_original_file": "/home/asadin/.codex/generated_images/01a1027b-edc4-7382-86ca-b0e984343606/exec-699fad61-a16e-4b6c-9a5c-1b19e52f51a6.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": null,
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/set-deity.png",
+  "native_sha256": "ab6a10892144c9c5d5e8211dfbcb79fcdf98263def1addf5fa551cc1e25f373f",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-c5253483-eef2-4946-8200-0c0e0d484636.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Native inspected: colossal dark thunderstorm/sandstorm and natural branching lightning dominate desert; small plain Egyptian stone architecture provides scale. No invented animal/human/cloud-face anatomy or identifiable Set-animal reconstruction, text watermark or gore. Aniconic domain rendering explicitly chosen because accepted research lacks anatomical features.",
+    "native_sha256": "ab6a10892144c9c5d5e8211dfbcb79fcdf98263def1addf5fa551cc1e25f373f",
+    "reviewed_at": "2026-10-06T08:57:52.795Z"
+  },
+  "root_visual_review": {
+    "verdict": "reject",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "ab6a10892144c9c5d5e8211dfbcb79fcdf98263def1addf5fa551cc1e25f373f",
+    "notes": "Only a desert storm; the god himself is absent."
+  },
+  "correction_notes": "Only a desert storm; the god himself is absent."
+}

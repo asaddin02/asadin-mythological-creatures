@@ -1,21 +1,35 @@
 {
   "slug": "apsara",
   "worker": "regen-3",
-  "prompt": "Create one square premium painterly mythological catalogue illustration. An ADULT HUMAN FEMALE CELESTIAL DANCER APSARA performs graceful classical dance at INDRA'S COURT, beside an ADULT HUMAN MALE GANDHARVA seated playing a string instrument. Her fullbody central with coherent two arms and two legs, opaque richly woven sari-like costume and delicate jewelry, no fish anatomy/fins/tail, no additional arms. Dignified carved palace court stage as editorial celestial interpretation, daylight architecture, refined pose, physical silk and jewelry. Documented dancing when Gandharvas play gives identity. Detailed naturalistic painting with source-backed identity, coherent anatomy and readable scene. No text/logos/border, no generic glow, luminous mist, floating ribbons or particles. Supernatural details only explicitly stated above.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/apsara-mythic-presence.png",
+  "prompt": "Use case: historical-scene. Create ONE square premium painterly mythology encyclopedia illustration for Apsara, a celestial female dancer of Hindu and Buddhist traditions, respectfully depicted without copying modern films/games. Subject: one majestic celestial woman with anatomically ordinary human body, elegant ceremonial dance pose, completely modest layered flowing robes, flower garlands and ornaments. Monumental composition viewed from below on a vast cloud-water terrace evoking Indra's celestial court; no other distinct characters. Her dance and airborne robe motion dominate the frame, ethereal atmospheric light and cloud-water mist, luminous natural sunrise illuminating her; no magical emitted beam or invented wings. Sources permit celestial identity, dancing at Indra's court, and garlands/clothing: do not invent elemental powers. Rich texture, imposing presence, high contrast beautiful dignified benevolent expression, clean readable silhouette. Low-angle cinematic lighting and small distant architectural columns establish enormous presence while ordinary anatomy stays coherent: one head, two arms, two legs. Square canvas, detailed premium painterly naturalistic house style. No nudity, gore, text, symbols resembling letters, caption, watermark, border, logo. Do not depict erotic temptation. Effects limited to environmental cloud mist and radiant natural dawn, not supernatural power.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/apsara.png",
   "review_path": "data/gemini/reviews/batch-072.review.json",
-  "depicted_variant": "Celestial female Apsara dancing beside Gandharva musician",
+  "depicted_variant": "Celestial female dancer at Indra’s court, garlanded and modestly clothed in a cloud-water palace.",
   "visual_requirements": [
-    "Celestial female Apsara dancing beside Gandharva musician",
-    "Coherent anatomy and documented mythic scene"
+    {
+      "kind": "anatomy",
+      "description": "Celestial female dancer at Indra court",
+      "claim_ids": [
+        "apsara-c01",
+        "apsara-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Garlands, clothes and cloud-water associations",
+      "claim_ids": [
+        "apsara-c08",
+        "apsara-c11"
+      ]
+    }
   ],
   "basis_claim_ids": [
     "apsara-c01",
     "apsara-c02",
-    "apsara-c03",
-    "apsara-c14"
+    "apsara-c08",
+    "apsara-c11"
   ],
-  "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
+  "aura": "Monumental dance, cloud-water mist and radiant natural dawn; no emitted magical beam.",
   "additional_sources": [
     {
       "url": "https://en.wikisource.org/wiki/Page:The_Mahabharata_of_Krishna-Dwaipayana_Vyasa_(1884).djvu/209",
@@ -24,8 +38,22 @@
     }
   ],
   "nonhuman_features": [
-    "Celestial female Apsara dancing beside Gandharva musician",
-    "Coherent anatomy and documented mythic scene"
+    {
+      "kind": "anatomy",
+      "description": "Celestial female dancer at Indra court",
+      "claim_ids": [
+        "apsara-c01",
+        "apsara-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Garlands, clothes and cloud-water associations",
+      "claim_ids": [
+        "apsara-c08",
+        "apsara-c11"
+      ]
+    }
   ],
   "accuracy_mode": "source-supported",
   "historical_basis": [
@@ -52,25 +80,25 @@
       }
     },
     {
-      "id": "apsara-c03",
+      "id": "apsara-c08",
       "source_id": "apsara-s1",
-      "quote": "The apsaras are described as being beautiful, youthful and elegant, and are said to be able to change their shape at will; making anyone fall for their beauty. There are two types of apsaras—laukika (worldly) and daivika (divine). They are said to excel at dancing, and are often considered the wives of the gandharvas, the court musicians of Indra.",
-      "locator": "Article text, paragraph 2",
-      "context": "traditional-belief",
+      "quote": "The Monier-Williams et al. (1899) gives the etymology as अप् + √सृ, \"going in the waters or between the waters of the clouds\".",
+      "locator": "Article text, paragraph 4",
+      "context": "etymology",
       "statement": {
-        "id": "Gandharva berhubungan dengan mereka sebagai musisi dan pasangan.",
-        "en": "Gandharvas are associated with them as musicians and partners."
+        "id": "Etimologi Monier-Williams menghubungkan namanya dengan bergerak di air atau di antara air awan.",
+        "en": "Monier Williams's etymology connects the name with moving in water or among cloud waters."
       }
     },
     {
-      "id": "apsara-c14",
-      "source_id": "apsara-s2",
-      "quote": "When they play on their divine instruments the fairy-like\r\nApsaras, who are all females, dance merrily.",
-      "locator": "Article text, paragraph 471",
+      "id": "apsara-c11",
+      "source_id": "apsara-s1",
+      "quote": "The Kaushitaki Upanishad mentions apsaras as a class of divinities associated with ointments, garlands, vestments, and powdered aromatics.",
+      "locator": "Article text, paragraph 8",
       "context": "historical-record",
       "statement": {
-        "id": "Mackenzie menuturkan apsara menari ketika Gandharva memainkan alat musik ilahi.",
-        "en": "Mackenzie recounts apsaras dancing when Gandharvas play divine instruments."
+        "id": "Kaushitaki Upanishad mengaitkan apsara dengan minyak wangi, rangkaian bunga, pakaian, dan wewangian bubuk.",
+        "en": "The Kaushitaki Upanishad associates apsaras with ointments, garlands, clothes, and powdered aromatics."
       }
     }
   ],
@@ -80,18 +108,20 @@
   "invented_anatomy": [],
   "visual_review": {
     "verdict": "pass",
-    "reviewer": "recover_session",
-    "notes": "Human female dancer with Gandharva musician at court; coherent hands and feet."
+    "reviewer": "codex",
+    "notes": "Viewed generated native PNG: one female dancer with coherent head, two arms, two feet, clothed torso/skirt, garlands and flowing cloth. Strong monumental cloud-palace composition, no wings, invented elemental powers, text or watermark.",
+    "native_sha256": "cb4c374968f6a559b637cb00edae6814571f345cbf8abfe7fcd7b256ee97ff0b",
+    "reviewed_at": "2026-10-06T07:48:19.320Z"
   },
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "reviewed_at": "2026-10-04T14:14:15.593Z",
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "root",
-    "native_sha256": "47dc7e9f8e7c5c3459cbee643eaa10ef1e0fda48c645290a4324e86c355b5007",
-    "notes": "Inspected native: clothed celestial female dancer performs before a seated Indra and Gandharva musician in an ornate court. Supported dancing and musical court relationship replace a fish portrait; costume and architecture are editorial.",
-    "reviewed_at": "2026-10-05T18:20:40.424711+00:00"
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "cb4c374968f6a559b637cb00edae6814571f345cbf8abfe7fcd7b256ee97ff0b",
+    "notes": "Celestial dancer in garlands and modest dress dancing in a cloud-and-waterfall palace; the heavenly court setting gives an otherworldly presence."
   },
   "presentation_revision_history": [
     {
@@ -142,27 +172,195 @@
         "notes": "Viewed source-labelled contact image: complete fish head/body/fins/tail without human torso or limbs. Serene river composition fits Adrika fish transformation of the apsara category; this is explicitly one named epic example.",
         "reviewed_at": "2026-10-04T21:37:18.730086+07:00"
       }
+    },
+    {
+      "slug": "apsara",
+      "worker": "regen-3",
+      "prompt": "Create one square premium painterly mythological catalogue illustration. An ADULT HUMAN FEMALE CELESTIAL DANCER APSARA performs graceful classical dance at INDRA'S COURT, beside an ADULT HUMAN MALE GANDHARVA seated playing a string instrument. Her fullbody central with coherent two arms and two legs, opaque richly woven sari-like costume and delicate jewelry, no fish anatomy/fins/tail, no additional arms. Dignified carved palace court stage as editorial celestial interpretation, daylight architecture, refined pose, physical silk and jewelry. Documented dancing when Gandharvas play gives identity. Detailed naturalistic painting with source-backed identity, coherent anatomy and readable scene. No text/logos/border, no generic glow, luminous mist, floating ribbons or particles. Supernatural details only explicitly stated above.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/apsara-mythic-presence.png",
+      "review_path": "data/gemini/reviews/batch-072.review.json",
+      "depicted_variant": "Celestial female Apsara dancing beside Gandharva musician",
+      "visual_requirements": [
+        "Celestial female Apsara dancing beside Gandharva musician",
+        "Coherent anatomy and documented mythic scene"
+      ],
+      "basis_claim_ids": [
+        "apsara-c01",
+        "apsara-c02",
+        "apsara-c03",
+        "apsara-c14"
+      ],
+      "aura": "Presence through source-backed form and physical scene; no generic glow, ribbons or magical mist.",
+      "additional_sources": [
+        {
+          "url": "https://en.wikisource.org/wiki/Page:The_Mahabharata_of_Krishna-Dwaipayana_Vyasa_(1884).djvu/209",
+          "title": "Mahabharata, Ganguli translation, Adi Parva p175 (1884)",
+          "evidence": "Direct primary epic translation explicitly names Adrika as a high-ranking Apsara transformed into a fish."
+        }
+      ],
+      "nonhuman_features": [
+        "Celestial female Apsara dancing beside Gandharva musician",
+        "Coherent anatomy and documented mythic scene"
+      ],
+      "accuracy_mode": "source-supported",
+      "historical_basis": [
+        {
+          "id": "apsara-c01",
+          "source_id": "apsara-s1",
+          "quote": "Apsaras (Sanskrit: अप्सरस्, IAST: Apsaras, Khmer: អប្សរា, Pali: अच्छरा, romanized: Accharā, Thai: อัปสร) are a class of celestial beings in Hindu and Buddhist culture. They were originally a type of female spirit associated with clouds and water, but, later came to play the role of a \"nymph\" or \"fairy\".",
+          "locator": "Article text, paragraph 1",
+          "context": "traditional-belief",
+          "statement": {
+            "id": "Apsara adalah kelompok makhluk perempuan surgawi dalam tradisi Hindu dan Buddha.",
+            "en": "Apsaras are a class of celestial female beings in Hindu and Buddhist traditions."
+          }
+        },
+        {
+          "id": "apsara-c02",
+          "source_id": "apsara-s1",
+          "quote": "The apsaras are described as being beautiful, youthful and elegant, and are said to be able to change their shape at will; making anyone fall for their beauty. There are two types of apsaras—laukika (worldly) and daivika (divine). They are said to excel at dancing, and are often considered the wives of the gandharvas, the court musicians of Indra.",
+          "locator": "Article text, paragraph 2",
+          "context": "traditional-belief",
+          "statement": {
+            "id": "Mereka dikenal sebagai penari istana Indra.",
+            "en": "They are known as dancers at Indra's court."
+          }
+        },
+        {
+          "id": "apsara-c03",
+          "source_id": "apsara-s1",
+          "quote": "The apsaras are described as being beautiful, youthful and elegant, and are said to be able to change their shape at will; making anyone fall for their beauty. There are two types of apsaras—laukika (worldly) and daivika (divine). They are said to excel at dancing, and are often considered the wives of the gandharvas, the court musicians of Indra.",
+          "locator": "Article text, paragraph 2",
+          "context": "traditional-belief",
+          "statement": {
+            "id": "Gandharva berhubungan dengan mereka sebagai musisi dan pasangan.",
+            "en": "Gandharvas are associated with them as musicians and partners."
+          }
+        },
+        {
+          "id": "apsara-c14",
+          "source_id": "apsara-s2",
+          "quote": "When they play on their divine instruments the fairy-like\r\nApsaras, who are all females, dance merrily.",
+          "locator": "Article text, paragraph 471",
+          "context": "historical-record",
+          "statement": {
+            "id": "Mackenzie menuturkan apsara menari ketika Gandharva memainkan alat musik ilahi.",
+            "en": "Mackenzie recounts apsaras dancing when Gandharvas play divine instruments."
+          }
+        }
+      ],
+      "artistic_changes": [
+        "Fish species, warm olive/gold scales, lighting and pose are unspecified aesthetic choices; no anthropomorphic hybrid anatomy added."
+      ],
+      "invented_anatomy": [],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "recover_session",
+        "notes": "Human female dancer with Gandharva musician at court; coherent hands and feet."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "reviewed_at": "2026-10-04T14:14:15.593Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "native_sha256": "47dc7e9f8e7c5c3459cbee643eaa10ef1e0fda48c645290a4324e86c355b5007",
+        "notes": "Inspected native: clothed celestial female dancer performs before a seated Indra and Gandharva musician in an ornate court. Supported dancing and musical court relationship replace a fish portrait; costume and architecture are editorial.",
+        "reviewed_at": "2026-10-05T18:20:40.424711+00:00"
+      },
+      "presentation_revision_history": [
+        {
+          "slug": "apsara",
+          "worker": "regen-3",
+          "prompt": "Square premium painterly mythological encyclopedia illustration of APSARA ADRIKA in her source-documented complete FISH transformation in the Yamuna River, as told in Mahabharata Adi Parva. ONE magnificent fully aquatic river fish moves slowly through clear deep forest-green water beside submerged walnut-brown roots. Entire body is fish: ONE fish head with real fish face and gill cover, streamlined continuous scale-covered body, TWO pectoral fins attached near the gills, one dorsal fin and ONE broad forked caudal tail. No human face, breasts, torso, arms, legs or mermaid hybrid. Apsara Adrika is herself the transformed fish, not a companion animal beside a woman. Warm olive-bronze and antique-gold reflective scales catch fine shafts of sunlight through river water, small suspended particles, quiet Yamuna bank plants in distance. Full fish nose, every fin and tail tip fit comfortably in square frame. Celestial composure and sorrowful enchanted grace without sinister demon features; refined textured brushwork, rich walnut/gold/forest palette, mature mythical naturalism. No crown, ornaments, clothing, supernatural extra fins, horns, wings, human babies, violence, text, border or watermark. Species unspecified in the source: render a generic elegant river fish without claiming a particular species.",
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/apsara.png",
+          "review_path": "data/gemini/reviews/batch-072.review.json",
+          "depicted_variant": "Adrika, a high-ranking apsara transformed into a fish in the Mahabharata",
+          "visual_requirements": [
+            "One entirely fish-bodied apsara in the Yamuna",
+            "One fish head, continuous fish body, paired pectoral fins, one caudal tail",
+            "River water and serene luminous but sorrowful transformation aura",
+            "No human upper torso or mermaid anatomy"
+          ],
+          "basis_claim_ids": [
+            "apsara-c01",
+            "apsara-c04",
+            "apsara-c06"
+          ],
+          "aura": "Serene luminous celestial grace within a sorrowful enchanted river transformation",
+          "additional_sources": [
+            {
+              "url": "https://en.wikisource.org/wiki/Page:The_Mahabharata_of_Krishna-Dwaipayana_Vyasa_(1884).djvu/209",
+              "title": "Mahabharata, Ganguli translation, Adi Parva p175 (1884)",
+              "evidence": "Direct primary epic translation explicitly names Adrika as a high-ranking Apsara transformed into a fish."
+            }
+          ],
+          "nonhuman_features": [
+            "Complete fish-body transformation rather than humanlike dancer",
+            "Aquatic fins and caudal tail with no arms/legs"
+          ],
+          "accuracy_mode": "source-supported",
+          "historical_basis": "Mahabharata Adi Parva identifies high-ranking apsara Adrika living in Yamuna waters, transformed into a fish by a Brahmana's curse; later freed. Existing apsara c04 documents shapeshifting, with this specific form supplied by primary text.",
+          "artistic_changes": [
+            "Fish species, warm olive/gold scales, lighting and pose are unspecified aesthetic choices; no anthropomorphic hybrid anatomy added."
+          ],
+          "invented_anatomy": [],
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Individually inspected with view_image. One fully aquatic fish with one fish head, visible gill cover, continuous scaled body, natural dorsal/ventral fins and one forked caudal tail. Near pectoral fin is clearly visible; opposite paired fin is naturally occluded by side view, no extra limbs or human torso. Nose and entire tail fit frame. Golden olive scales, clear forest-green water and quiet sun shafts retain composed celestial river aura. Image selects the primary epic's complete fish transformation of apsara Adrika, not a mermaid or a fish companion."
+          },
+          "tool": "OpenAI built-in image_gen",
+          "status": "reviewed",
+          "reviewed_at": "2026-10-04T14:14:15.593Z",
+          "root_visual_review": {
+            "verdict": "pass",
+            "notes": "Viewed source-labelled contact image: complete fish head/body/fins/tail without human torso or limbs. Serene river composition fits Adrika fish transformation of the apsara category; this is explicitly one named epic example.",
+            "reviewed_at": "2026-10-04T21:37:18.730086+07:00"
+          }
+        }
+      ],
+      "native_sha256": "47dc7e9f8e7c5c3459cbee643eaa10ef1e0fda48c645290a4324e86c355b5007",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/apsara.json",
+        "native_sha256": "47dc7e9f8e7c5c3459cbee643eaa10ef1e0fda48c645290a4324e86c355b5007",
+        "old_url": "/assets/art/apsara-regeneration-139.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/apsara.png",
+        "old_webp_sha256": "0558699cf1885578db4b689ed4873062673f4096f5d3ecfe85da0ab929e36e8c",
+        "old_native_sha256": "a7e69af70f672f2209e86adb887a711f34e5027b9a67961d6645e6114207251e",
+        "rationale": "Replaces ordinary animal presentation with Celestial female Apsara dancing beside Gandharva musician",
+        "basis_claim_ids": [
+          "apsara-c01",
+          "apsara-c02",
+          "apsara-c03",
+          "apsara-c14"
+        ]
+      },
+      "url": "/assets/art/apsara-regeneration-139-mythic-presence.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e7d1a94e2828cc1a4ff78d8d96bf035c29fcbac6d192d2b3715910ab4c044a5a"
     }
   ],
-  "native_sha256": "47dc7e9f8e7c5c3459cbee643eaa10ef1e0fda48c645290a4324e86c355b5007",
+  "native_sha256": "cb4c374968f6a559b637cb00edae6814571f345cbf8abfe7fcd7b256ee97ff0b",
   "presentation_revision": {
-    "ledger": "data/artwork-presentation-revision-1000.json",
-    "receipt_path": "data/artwork-generated/presentation-revision-1000/apsara.json",
-    "native_sha256": "47dc7e9f8e7c5c3459cbee643eaa10ef1e0fda48c645290a4324e86c355b5007",
-    "old_url": "/assets/art/apsara-regeneration-139.webp",
-    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/apsara.png",
-    "old_webp_sha256": "0558699cf1885578db4b689ed4873062673f4096f5d3ecfe85da0ab929e36e8c",
-    "old_native_sha256": "a7e69af70f672f2209e86adb887a711f34e5027b9a67961d6645e6114207251e",
-    "rationale": "Replaces ordinary animal presentation with Celestial female Apsara dancing beside Gandharva musician",
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/apsara.json",
+    "native_sha256": "cb4c374968f6a559b637cb00edae6814571f345cbf8abfe7fcd7b256ee97ff0b",
+    "old_url": "/assets/art/apsara-regeneration-139-mythic-presence.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/apsara-mythic-presence.png",
+    "old_webp_sha256": "e7d1a94e2828cc1a4ff78d8d96bf035c29fcbac6d192d2b3715910ab4c044a5a",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
     "basis_claim_ids": [
       "apsara-c01",
       "apsara-c02",
-      "apsara-c03",
-      "apsara-c14"
+      "apsara-c08",
+      "apsara-c11"
     ]
   },
-  "url": "/assets/art/apsara-regeneration-139-mythic-presence.webp",
+  "url": "/assets/art/apsara-presentation-revision-nama-besar.webp",
   "width": 1254,
   "height": 1254,
-  "sha256": "e7d1a94e2828cc1a4ff78d8d96bf035c29fcbac6d192d2b3715910ab4c044a5a"
+  "sha256": "34936ad020ccabd9f72318b384f776ced7d7f116dca8b3cea8a2280f2ed1f45b"
 }

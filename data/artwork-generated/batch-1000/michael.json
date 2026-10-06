@@ -1,23 +1,37 @@
 {
   "slug": "michael",
-  "prompt": "Square premium naturalistic painterly Christian historical-art illustration of Michael the archangel in the documented angelic WARRIOR depiction. A noble fully HUMAN-LOOKING warrior with helmet, sword and shield, standing in calm victory on rocky ground above a subdued coiled serpent-dragon. ONE man, ONE serpent opponent. Ordinary human face, arms and legs, beautiful resolute compassionate expression; no wings are specified in the source claim so depict wingless humanlike appearance, no horns or extra anatomy. Steel/bronze toned helmet and practical antique-inspired armor, one plain shield without inscription, one sword held lowered, no second lance, no scales-of-souls object mixed into this variant. Low three-quarter full body framing, natural dramatic sunlight breaks through an ordinary cloud sky, sculptural dignified pose. Snake beneath is non-gory with one head and one limbless coiled body; do not add a fantasy horned dragon. Divine character presence comes from bearing and natural lighting, not emitted effects. No halo, neon, magical aura, energy ribbons, luminous colored mist, gore, labels, text, logos or watermark. Clothing/armor materials and rocky scenery are editorial rendering of the source-attested helmet/sword/shield warrior depiction; not a blend of Jewish or Islamic roles.",
-  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-4f93-7b20-a96b-1e3d1dab8685/exec-396e9971-2104-4a3f-b1bd-0efbaf9baba9.png",
-  "depicted_variant": "Christian art's fully armed angelic warrior Michael with helmet, sword and shield above the serpent-dragon; wingless humanlike rendering limited to source-listed attributes.",
+  "prompt": "Use case: stylized-concept. Asset: square premium painterly mythology encyclopedia illustration, 1024 square. Subject: Michael the archangel, depicted respectfully in the documented Christian warrior iconography: a majestic fully armed angel wearing a helmet, gripping a sword in one hand and a shield in the other, standing victoriously over a subdued enormous dragon (michael-c12); battle in heaven and dragon cast down (michael-c25,c26). Monumental low-angle composition, angel dominates full frame with a strong silhouette, finely textured metal and layered garments, dark dragon curled below and small distant mountain silhouettes as scale references. Make him awe-inspiring, resolute, benevolent, visibly powerful. His grandeur is shown through colossal composition and intense natural shafts of sunlight breaking storm-clouds, not an invented magical weapon or fire power. Exactly one head, two arms, two legs; traditional paired angel wings as artistic iconography, no extra wings or limbs. Cinematic high contrast golden sunlight, painterly detailed naturalism in Mythics house style. Fully clothed, no gore, no nudity, no text, labels, writing, logos, border or watermark. Original art, no film/game/anime/comic designs. Helmet, sword, shield and dragon must be readable, hands anatomically clean.\nRevision: Edit this Michael artwork for strict source fidelity. REMOVE BOTH FEATHERED WINGS ENTIRELY. Michael must be a fully humanlike wingless warrior with exactly one head two arms and two legs, helmet sword and shield, as the source-listed depiction michael-c12; wings are not attested in this research. Also simplify the creature below into ONE large coiled limbless SERPENT with one head, no horns, no clawed arms or dragon wings, following the old serpent michael-c26. Keep the spectacular low-angle monumental composition, dignified armored resolute protector, beautiful painterly style, gold sunlight through natural clouds, fully clothed, no gore. No magical weapon glow, no new symbols, no text or watermark. Preserve helmet sword shield and grand dramatic visual power. Square image.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-329b33e1-23e3-47d6-82e9-74668f4a173e.png",
+  "depicted_variant": "Source-listed Christian helmeted humanlike warrior above the old serpent, wingless faithful rendering.",
   "basis_claim_ids": [
     "michael-c12",
     "michael-c25",
     "michael-c26"
   ],
   "visual_requirements": [
-    "Humanlike helmeted warrior with sword and shield",
-    "Standing over one serpent-dragon without gore",
-    "No added wings or emitted magical aura; no blended religious roles"
+    {
+      "kind": "anatomy",
+      "description": "One humanlike fully armed warrior with helmet, sword and shield standing over a dragon.",
+      "claim_ids": [
+        "michael-c12"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Dragon rendered as the one-headed coiled old serpent defeated in heaven.",
+      "claim_ids": [
+        "michael-c25",
+        "michael-c26"
+      ]
+    }
   ],
-  "aura": "Dignified protective authority from resolute expression, victorious stance and dramatic natural sunlight.",
+  "aura": "Monumental victorious guardian bearing, golden natural sunlight and enormous serpent scale; no undocumented emitted power.",
   "visual_review": {
     "verdict": "pass",
-    "reviewer": "worker-0",
-    "notes": "Viewed native PNG: one humanlike helmeted armored warrior holds one sword and one shield, standing over one coiled one-headed serpent. No wings, horns, halo or emitted magical envelope. Sunlight through clouds is natural. Armor ornament, cape and landscape are editorial material styling; no inscription or soul-weighing object mixed in."
+    "reviewer": "codex",
+    "notes": "Inspected selected native: wingless helmeted warrior, exactly two human arms and legs, one sword and one shield, one enormous limbless coiled serpent with one head. No invented wings or horns, text, watermark or gore. Strong monumental sunlight composition.",
+    "native_sha256": "67578abe0809a527492da3425b7720125baf7d5eb57c97933676fb98f85b7c8c",
+    "reviewed_at": "2026-10-06T07:40:44.228Z"
   },
   "artistic_choices": [
     "Antique-inspired bronze armor and red cloak are editorial styling of documented fully armed warrior.",
@@ -27,14 +41,80 @@
   "status": "reviewed",
   "tool": "OpenAI built-in image_gen",
   "review_path": "data/gemini/reviews/batch-028.review.json",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/michael.png",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/michael.png",
   "reviewed_at": "2026-10-05T12:53:10.038794+00:00",
-  "native_sha256": "b563506bdcefd2a02743091d80aae594fe81859e680cd3ee80254f919c53274a",
+  "native_sha256": "67578abe0809a527492da3425b7720125baf7d5eb57c97933676fb98f85b7c8c",
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "root",
-    "native_sha256": "b563506bdcefd2a02743091d80aae594fe81859e680cd3ee80254f919c53274a",
-    "reviewed_at": "2026-10-05",
-    "notes": "Independently inspected: humanlike helmeted armored warrior holding sword and shield, foot over coherent subdued serpent-dragon, no gore. No wings added beyond source support; natural storm light and resolute posture convey presence without emitted aura. Selected documented Christian military iconography; armor details editorial."
-  }
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "67578abe0809a527492da3425b7720125baf7d5eb57c97933676fb98f85b7c8c",
+    "notes": "Armoured warrior archangel with sword and shield standing on the old serpent amid divine rays, wingless as the research specifies."
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "michael",
+      "prompt": "Square premium naturalistic painterly Christian historical-art illustration of Michael the archangel in the documented angelic WARRIOR depiction. A noble fully HUMAN-LOOKING warrior with helmet, sword and shield, standing in calm victory on rocky ground above a subdued coiled serpent-dragon. ONE man, ONE serpent opponent. Ordinary human face, arms and legs, beautiful resolute compassionate expression; no wings are specified in the source claim so depict wingless humanlike appearance, no horns or extra anatomy. Steel/bronze toned helmet and practical antique-inspired armor, one plain shield without inscription, one sword held lowered, no second lance, no scales-of-souls object mixed into this variant. Low three-quarter full body framing, natural dramatic sunlight breaks through an ordinary cloud sky, sculptural dignified pose. Snake beneath is non-gory with one head and one limbless coiled body; do not add a fantasy horned dragon. Divine character presence comes from bearing and natural lighting, not emitted effects. No halo, neon, magical aura, energy ribbons, luminous colored mist, gore, labels, text, logos or watermark. Clothing/armor materials and rocky scenery are editorial rendering of the source-attested helmet/sword/shield warrior depiction; not a blend of Jewish or Islamic roles.",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-4f93-7b20-a96b-1e3d1dab8685/exec-396e9971-2104-4a3f-b1bd-0efbaf9baba9.png",
+      "depicted_variant": "Christian art's fully armed angelic warrior Michael with helmet, sword and shield above the serpent-dragon; wingless humanlike rendering limited to source-listed attributes.",
+      "basis_claim_ids": [
+        "michael-c12",
+        "michael-c25",
+        "michael-c26"
+      ],
+      "visual_requirements": [
+        "Humanlike helmeted warrior with sword and shield",
+        "Standing over one serpent-dragon without gore",
+        "No added wings or emitted magical aura; no blended religious roles"
+      ],
+      "aura": "Dignified protective authority from resolute expression, victorious stance and dramatic natural sunlight.",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-0",
+        "notes": "Viewed native PNG: one humanlike helmeted armored warrior holds one sword and one shield, standing over one coiled one-headed serpent. No wings, horns, halo or emitted magical envelope. Sunlight through clouds is natural. Armor ornament, cape and landscape are editorial material styling; no inscription or soul-weighing object mixed in."
+      },
+      "artistic_choices": [
+        "Antique-inspired bronze armor and red cloak are editorial styling of documented fully armed warrior.",
+        "No physical wings inferred solely from archangel identity; Christian depiction distinguished from other religious roles."
+      ],
+      "worker": "worker-0",
+      "status": "reviewed",
+      "tool": "OpenAI built-in image_gen",
+      "review_path": "data/gemini/reviews/batch-028.review.json",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/michael.png",
+      "reviewed_at": "2026-10-05T12:53:10.038794+00:00",
+      "native_sha256": "b563506bdcefd2a02743091d80aae594fe81859e680cd3ee80254f919c53274a",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "native_sha256": "b563506bdcefd2a02743091d80aae594fe81859e680cd3ee80254f919c53274a",
+        "reviewed_at": "2026-10-05",
+        "notes": "Independently inspected: humanlike helmeted armored warrior holding sword and shield, foot over coherent subdued serpent-dragon, no gore. No wings added beyond source support; natural storm light and resolute posture convey presence without emitted aura. Selected documented Christian military iconography; armor details editorial."
+      }
+    }
+  ],
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/michael.json",
+    "native_sha256": "67578abe0809a527492da3425b7720125baf7d5eb57c97933676fb98f85b7c8c",
+    "old_url": "/assets/art/michael-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/michael.png",
+    "old_webp_sha256": "d46ec8e9bc0da257bafd1ab12acb75196a764680b8fd7f5b33bc6c9cbadad4be",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "michael-c12",
+      "michael-c25",
+      "michael-c26"
+    ]
+  },
+  "url": "/assets/art/michael-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "7dfb55a6b05613214d748be42039a9aa841d9370c976eed7f65882c29681a83a",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Wingless source-limited depiction; armor design, cape, mountains and sunlight are editorial composition.",
+    "Research documents battle and protective authority but no emitted light/fire power; grandeur uses pose and natural light."
+  ]
 }

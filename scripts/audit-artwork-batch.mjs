@@ -84,11 +84,13 @@ for (const item of completed) {
 // Decode both originals and deployed WebP files; compare dimensions recorded in the manifest.
 const decoded = JSON.parse(execFileSync('python3', ['-c', `import json,sys\nfrom PIL import Image\nitems=json.load(sys.stdin)\nfor i in items:\n for key in ('file','original'):\n  with Image.open(i[key]) as im:\n   im.load()\n   assert im.size == (i['width'],i['height']), i['slug']\n   assert min(im.size) >= 512, i['slug']\nprint(json.dumps({'decoded':len(items),'files':len(items)*2}))`], { input: JSON.stringify(images), encoding: 'utf8' }));
 if (batch.baseline_artwork_count !== undefined) {
-  assert.equal(Object.keys(manifest.artworks).length, batch.baseline_artwork_count + completed.length, 'Each completed item adds exactly one new illustration');
+  // Later batches add more artwork, so the count can only grow; it must never fall below this batch's total.
+  assert(Object.keys(manifest.artworks).length >= batch.baseline_artwork_count + completed.length, 'Each completed item adds one new illustration and none is lost');
 }
 const receiptDir = resolve(root, `data/artwork-generated/batch-${batchNumber}`);
 let deletedRejected = 0;
-for (const name of readdirSync(receiptDir, { recursive: true }).filter(n => /reject.*\.json$/.test(n))) {
+// Batches with keep_rejected_attempts keep their rejected attempts as history (big-name policy, 6 October 2026).
+for (const name of batch.keep_rejected_attempts ? [] : readdirSync(receiptDir, { recursive: true }).filter(n => /reject.*\.json$/.test(n))) {
   const reject = read(resolve(receiptDir, name));
   const items = Array.isArray(reject) ? reject : reject.items || reject.rejections || reject.rejected || reject.rejected_variants || [reject];
   for (const rejection of items) {

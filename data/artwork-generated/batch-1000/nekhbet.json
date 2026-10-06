@@ -1,43 +1,130 @@
 {
   "slug": "nekhbet",
-  "depicted_variant": "Vulture hovering with spread wings and shen protection symbol.",
+  "depicted_variant": "One enormous benevolent VULTURE goddess hovering with wings spread in regal protection over distant Upper Egypt landscape. A clear simple closed shen ring with short tangent bar held below talons, a symbolic object NOT lettering. Avian head, two wings, two taloned legs, broad real vulture feather silhouette. Monumental low-angle flight, natural sunrise behind storm-cleared clouds illuminates feathers; no halo, energy beams, invented hybrid anatomy or additional gods. Protection conveyed by wing canopy and shen iconography.",
   "basis_claim_ids": [
+    "nekhbet-c01",
     "nekhbet-c04",
     "nekhbet-c05"
   ],
   "visual_requirements": [
-    "One natural vulture, two spread wings",
-    "Shen loop symbol held beneath bird",
-    "Egyptian natural-scale setting"
+    {
+      "kind": "anatomy",
+      "description": "One enormous benevolent VULTURE goddess hovering with wings spread in regal protection over distant Upper Egypt landscape. A clear simple closed shen ring with short tangent bar held below talons, a symbolic object NOT lettering. Avian head, two wings, two taloned legs, broad real vulture feather silhouette. Monumental low-angle flight, natural sunrise behind storm-cleared clouds illuminates feathers; no halo, energy beams, invented hybrid anatomy or additional gods. Protection conveyed by wing canopy and shen iconography.",
+      "claim_ids": [
+        "nekhbet-c01",
+        "nekhbet-c04",
+        "nekhbet-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Protective wing canopy and shen ring; basis: eternal protection iconography",
+      "claim_ids": [
+        "nekhbet-c01",
+        "nekhbet-c04",
+        "nekhbet-c05"
+      ]
+    }
   ],
-  "aura": "Protective broad wing silhouette, poised alert gaze and natural sunlight.",
+  "aura": "Protective wing canopy and shen ring",
   "artistic_choices": "Desert limestone landscape, feather palette and metal symbol material are editorial staging.",
-  "prompt": "One beautiful painterly realistic mythology illustration, vertical 2:3, NO text. Nekhbet in documented Egyptian goddess VULTURE form, not human hybrid. One natural vulture hovers with BOTH full wings spread, head turned slightly toward viewer, ordinary bird legs and claws. Beneath its feet it holds one simple small shen symbol: circular protective loop of plain gold-coloured material resting above a short horizontal baseline. Do not put lettering on it. Vast pale limestone desert landscape far below in natural warm morning sunlight. Bird correctly proportioned, no giant invented scale. Protective majestic presence through expansive wings and clear composition. No magical aura, halo, glowing outlines, energy smoke, or extra heads. Do not add goddess human body, crown or borrowed attributes. Editorial background.",
-  "generated_file": "/home/asadin/.codex/generated_images/01a10bb1-8e46-7c61-8c86-34349121a53c/exec-5e9d6917-571b-4a9e-bd4c-0f6ba11bab02.png",
+  "prompt": "Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. One enormous benevolent VULTURE goddess hovering with wings spread in regal protection over distant Upper Egypt landscape. A clear simple closed shen ring with short tangent bar held below talons, a symbolic object NOT lettering. Avian head, two wings, two taloned legs, broad real vulture feather silhouette. Monumental low-angle flight, natural sunrise behind storm-cleared clouds illuminates feathers; no halo, energy beams, invented hybrid anatomy or additional gods. Protection conveyed by wing canopy and shen iconography. Plain uninscribed walls, clothing and objects: no hieroglyphs, cuneiform, letters or pictographic writing. No solar-disk crown, horns or additional attributes unless explicitly specified above.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-6f4fd901-f00f-4d57-ad94-b2a020a85036.png",
   "visual_review": {
     "verdict": "pass",
-    "reviewer": "root",
-    "notes": "Native inspected: single anatomically plausible vulture hovering with both wings spread and shen circular loop above short baseline held in claws. Natural sunlit Egyptian river/desert setting, no human hybrid or magic effects."
+    "reviewer": "codex",
+    "notes": "Viewed native PNG: single vulture with two spreading wings and two talons, shen ring/bar held beneath; vulture head not human hybrid. Protection iconography and natural sunrise over Upper Egypt, no text/watermark or added body features.",
+    "native_sha256": "b50bb1001a33166ea6e671d2426c127233a33b1dd9534dda0af5070bca466ba4",
+    "reviewed_at": "2026-10-06T08:03:51.083Z"
   },
   "worker": "root",
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-077.review.json",
   "reviewed_at": "2026-10-05",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/nekhbet.png",
-  "native_sha256": "505cc54296828b5be35395d0122bc75e5f4b183689b18d769a6199467e9576c3",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/nekhbet.png",
+  "native_sha256": "b50bb1001a33166ea6e671d2426c127233a33b1dd9534dda0af5070bca466ba4",
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "worker-1",
-    "notes": "Independent native/source c04/c05 inspection: natural vulture with two spread wings, normal bird claws holding shen ring with horizontal baseline. Wing tips slightly beyond frame but complete wing structure visible; protective pose and warm natural daylight, no human hybrid or magical envelope.",
-    "native_sha256": "505cc54296828b5be35395d0122bc75e5f4b183689b18d769a6199467e9576c3",
-    "reviewed_at": "2026-10-05T13:08:38.329636+00:00"
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "b50bb1001a33166ea6e671d2426c127233a33b1dd9534dda0af5070bca466ba4",
+    "notes": "Huge vulture goddess with spread wings holding a shen ring over the Nile valley, protective and regal."
   },
   "independent_visual_review": {
     "verdict": "pass",
-    "reviewer": "worker-1",
-    "notes": "Independent native/source c04/c05 inspection: natural vulture with two spread wings, normal bird claws holding shen ring with horizontal baseline. Wing tips slightly beyond frame but complete wing structure visible; protective pose and warm natural daylight, no human hybrid or magical envelope.",
-    "native_sha256": "505cc54296828b5be35395d0122bc75e5f4b183689b18d769a6199467e9576c3",
-    "reviewed_at": "2026-10-05T13:08:38.329636+00:00"
-  }
+    "reviewer": "codex",
+    "notes": "Viewed native PNG: single vulture with two spreading wings and two talons, shen ring/bar held beneath; vulture head not human hybrid. Protection iconography and natural sunrise over Upper Egypt, no text/watermark or added body features.",
+    "native_sha256": "b50bb1001a33166ea6e671d2426c127233a33b1dd9534dda0af5070bca466ba4",
+    "reviewed_at": "2026-10-06T08:03:51.083Z"
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "nekhbet",
+      "depicted_variant": "Vulture hovering with spread wings and shen protection symbol.",
+      "basis_claim_ids": [
+        "nekhbet-c04",
+        "nekhbet-c05"
+      ],
+      "visual_requirements": [
+        "One natural vulture, two spread wings",
+        "Shen loop symbol held beneath bird",
+        "Egyptian natural-scale setting"
+      ],
+      "aura": "Protective broad wing silhouette, poised alert gaze and natural sunlight.",
+      "artistic_choices": "Desert limestone landscape, feather palette and metal symbol material are editorial staging.",
+      "prompt": "One beautiful painterly realistic mythology illustration, vertical 2:3, NO text. Nekhbet in documented Egyptian goddess VULTURE form, not human hybrid. One natural vulture hovers with BOTH full wings spread, head turned slightly toward viewer, ordinary bird legs and claws. Beneath its feet it holds one simple small shen symbol: circular protective loop of plain gold-coloured material resting above a short horizontal baseline. Do not put lettering on it. Vast pale limestone desert landscape far below in natural warm morning sunlight. Bird correctly proportioned, no giant invented scale. Protective majestic presence through expansive wings and clear composition. No magical aura, halo, glowing outlines, energy smoke, or extra heads. Do not add goddess human body, crown or borrowed attributes. Editorial background.",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10bb1-8e46-7c61-8c86-34349121a53c/exec-5e9d6917-571b-4a9e-bd4c-0f6ba11bab02.png",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "notes": "Native inspected: single anatomically plausible vulture hovering with both wings spread and shen circular loop above short baseline held in claws. Natural sunlit Egyptian river/desert setting, no human hybrid or magic effects."
+      },
+      "worker": "root",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-077.review.json",
+      "reviewed_at": "2026-10-05",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/nekhbet.png",
+      "native_sha256": "505cc54296828b5be35395d0122bc75e5f4b183689b18d769a6199467e9576c3",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-1",
+        "notes": "Independent native/source c04/c05 inspection: natural vulture with two spread wings, normal bird claws holding shen ring with horizontal baseline. Wing tips slightly beyond frame but complete wing structure visible; protective pose and warm natural daylight, no human hybrid or magical envelope.",
+        "native_sha256": "505cc54296828b5be35395d0122bc75e5f4b183689b18d769a6199467e9576c3",
+        "reviewed_at": "2026-10-05T13:08:38.329636+00:00"
+      },
+      "independent_visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-1",
+        "notes": "Independent native/source c04/c05 inspection: natural vulture with two spread wings, normal bird claws holding shen ring with horizontal baseline. Wing tips slightly beyond frame but complete wing structure visible; protective pose and warm natural daylight, no human hybrid or magical envelope.",
+        "native_sha256": "505cc54296828b5be35395d0122bc75e5f4b183689b18d769a6199467e9576c3",
+        "reviewed_at": "2026-10-05T13:08:38.329636+00:00"
+      }
+    }
+  ],
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/nekhbet.json",
+    "native_sha256": "b50bb1001a33166ea6e671d2426c127233a33b1dd9534dda0af5070bca466ba4",
+    "old_url": "/assets/art/nekhbet-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/nekhbet.png",
+    "old_webp_sha256": "a28ba6da6bfdc6d3ead79089d3391a1b403a1709ee7e21bec3b35cc574ac54be",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "nekhbet-c01",
+      "nekhbet-c04",
+      "nekhbet-c05"
+    ]
+  },
+  "url": "/assets/art/nekhbet-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "0f587a614d22b8236d580e60b3d5a0ffc25e2898524d2c8b096dfad39fd5c98d",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Low-angle framing, painterly materials and environmental color are artistic rendering.",
+    "Effects are limited to the cited domains, deeds, attributes or iconography; natural light and scale supply presence where no elemental ability is documented."
+  ]
 }

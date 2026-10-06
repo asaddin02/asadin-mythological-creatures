@@ -1,0 +1,40 @@
+{
+  "slug": "ganga",
+  "prompt": "Use case: stylized-concept. Square premium painterly Mythics art of Ganga, respectfully depicted as sacred Ganges river goddess of purification (ganga-c01), seated upon one majestic divine crocodile-like makara (ganga-c02). ONE HEAD AND EXACTLY TWO ARMS: both hands together clasped quietly in her lap, two hands total, no other hands or arms, no held objects. Her entire torso and legs covered in elegant flowing sari. Single crocodile-like mount with one long snout, scaled back and four crocodilian legs, no ornaments shaped like extra limbs. Vast powerful turquoise Ganges cascades through distant mountains and flows around her, monumental low viewpoint with tiny riverbank temples for scale. Calm benevolent dignified face, natural golden cinematic light through river spray. Painterly rich detail, original traditional respectful design. No floating lotus, weapons, fire, lightning, halos, additional people, nudity, cleavage, text, watermark, border or movie/game/anime designs. Keep simple clear anatomy, two hands only clasped on lap.",
+  "depicted_variant": "Respectful river goddess riding a crocodile-like makara.",
+  "basis_claim_ids": [
+    "ganga-c01",
+    "ganga-c02"
+  ],
+  "visual_requirements": [
+    "One covered goddess, two arms (ganga-c01; unspecified limb count rendered conservatively)",
+    "One crocodile-like makara mount (ganga-c02)",
+    "Powerful sacred river cascade and purification domain (ganga-c01)"
+  ],
+  "aura": "Immense river flow and sunlit purification water (ganga-c01).",
+  "artistic_choices": [
+    "Covered sari, modest two-arm pose and temple scale references are artistic staging, not asserted exclusive iconography.",
+    "Rejected first attempt retained at rejected/ganga-attempt-1.png: third hand/arm on lap."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Viewed native second attempt: one fully sari-covered goddess, two arms and clasped hands, one coherent crocodile mount, immense river and waterfalls, no invented emitted effects or text.",
+    "reviewer": "codex",
+    "native_sha256": "ac439c922105c136fca06efced879399d62a5d47c8609027274606c0adcda12f"
+  },
+  "generated_file": "/home/asadin/.codex/generated_images/01a11024-55c8-7c93-8727-a166e5328535/exec-1b827483-9ff7-45d5-9d87-933f9eeb2a3d.png",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/ganga.png",
+  "native_sha256": "ac439c922105c136fca06efced879399d62a5d47c8609027274606c0adcda12f",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-072.review.json",
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "ac439c922105c136fca06efced879399d62a5d47c8609027274606c0adcda12f",
+    "notes": "River goddess seated on a crocodile-like makara riding the rushing Ganges below Himalayan temples."
+  }
+}

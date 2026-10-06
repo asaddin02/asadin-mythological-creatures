@@ -3,40 +3,128 @@
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "slug": "eos",
-  "prompt": "Use case: scientific-educational. One square premium painterly naturalistic editorial mythology illustration for the Greek goddess Eos. Choose the source-supported winged goddess variant, not the horse-drawn chariot variant. One dignified adult woman in a modest opaque classical draped robe with exactly two large feathered wings emerging from her upper back, one human head and exactly two human arms and two legs. She rises above the horizon of Okeanos at dawn with her hands lifted, dawn sunlight turning her fingertips rosy. No literal pink paint or magical hand beams: rosy-fingered is expressed through warm sunrise illumination. Serene herald of the new day, gently spread wings, sky and ocean opening behind her, dawn dispersing ordinary sea mist. Full figure within frame, rich realistic oil painting texture and graceful strong silhouette. Wing design, facial features, robe cut and colour are editorial choices, not source assertions. Natural rose and gold sunlight, no neon aura, glowing envelope, energy ribbons, magical mist, halos, horned anatomy, chariot, horses, text, watermark or border.",
-  "generated_file": "/home/asadin/.codex/generated_images/01a10c87-fb56-7d23-b539-5632fd33c070/exec-a865d636-6219-4362-99d3-9f92abe27320.png",
-  "depicted_variant": "Winged dawn goddess rising above Okeanos",
+  "prompt": "Square premium painterly original Greek mythology illustration of EOS, the rosy-fingered goddess of DAWN eos-c01. One serene commanding adult woman fully clothed in flowing rose-gold Grecian robes, one head two arms two legs and exactly TWO magnificent feathered wings, her own-wing depicted variant c07, NO chariot horses. She rises majestically above Oceanus waters c05, extraordinary brilliant ROSY DAWN LIGHT from her domain sweeps sky and visibly disperses dark night mists c06. Huge monumental low-angle silhouette, immense luminous pale-pink and warm-gold sunrise contrasted with deep blue vanishing night, tiny sea cliffs below, beautifully detailed feathers fabric anatomy. Hands gently extended toward widening dawn, no weapon rays or lightning. Benevolent ageless authority, fully modest clothing, rich premium painterly naturalism. No invented horns extra wings or limbs, no labels text logos watermark borders, gore nudity or game film anime comic designs.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-c280b14e-160e-4354-819e-b36eecc55c47.png",
+  "depicted_variant": "Winged Greek dawn goddess Eos rising from Oceanus and dispersing night with light.",
   "basis_claim_ids": [
-    "eos-c01",
-    "eos-c02",
-    "eos-c05",
-    "eos-c06",
     "eos-c07",
-    "eos-c08"
+    "eos-c01",
+    "eos-c06",
+    "eos-c05"
   ],
   "visual_requirements": [
-    "One adult woman with two feathered wings",
-    "Modest opaque classical robe",
-    "Ocean dawn with naturally rosy-lit hands; no chariot variant"
+    {
+      "kind": "anatomy",
+      "description": "One winged goddess Eos, choosing her own-wing form rather than chariot variant.",
+      "claim_ids": [
+        "eos-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Rosy dawn light dispersing the night mists.",
+      "claim_ids": [
+        "eos-c01",
+        "eos-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Rising from Oceanus at beginning of day.",
+      "claim_ids": [
+        "eos-c05"
+      ]
+    }
   ],
-  "aura": "Serene divine presence through raised hands, floating posture and natural rose-gold sunrise.",
+  "aura": "Documented rosy dawn light dispersing night mist, c01,c05,c06.",
   "visual_review": {
     "verdict": "pass",
-    "reviewer": "inspect_workspace",
-    "notes": "Viewed native: one adult woman in an opaque draped robe has two broad feathered wings and two raised hands. Dawn sun over ocean casts rosy light on fingers; two feet visible, no chariot, magical beams, halo or neon envelope."
+    "reviewer": "codex",
+    "notes": "Native inspected: single fully clothed winged goddess with exactly two feather wings and two arms, rising above sea; immense rosy dawn with night mist dispersing. No chariot variant mixing, extra anatomy, attack rays, text, watermark or gore.",
+    "native_sha256": "2f9ad4900b569efa3e132af996ede83ff628df5859ea50bac400d54763fa20ce",
+    "reviewed_at": "2026-10-06T07:53:18.200Z"
   },
   "artistic_choices": [
     "Facial features, golden hair, robe cut and feather colour are editorial choices."
   ],
   "reviewed_at": "2026-10-05T14:54:13.866Z",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/eos.png",
-  "native_sha256": "090630e98dfdc90ec8f12b8550d17cd575e0cff651dce17524d7458c07025e59",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/eos.png",
+  "native_sha256": "2f9ad4900b569efa3e132af996ede83ff628df5859ea50bac400d54763fa20ce",
   "review_path": "data/gemini/reviews/batch-044.review.json",
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "root",
-    "reviewed_at": "2026-10-05",
-    "native_sha256": "090630e98dfdc90ec8f12b8550d17cd575e0cff651dce17524d7458c07025e59",
-    "notes": "Viewed native: one adult human woman in opaque draped robe with two feathered wings, two raised hands and two feet over dawn sea; rosy light on hands, c01/c05/c07 winged variant. No chariot blending or generic luminous aura."
-  }
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "2f9ad4900b569efa3e132af996ede83ff628df5859ea50bac400d54763fa20ce",
+    "notes": "Winged dawn goddess rising from the sea with rosy light dispersing the night; wings and dawn effect follow the documented form."
+  },
+  "presentation_revision_history": [
+    {
+      "worker": "worker-0",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "slug": "eos",
+      "prompt": "Use case: scientific-educational. One square premium painterly naturalistic editorial mythology illustration for the Greek goddess Eos. Choose the source-supported winged goddess variant, not the horse-drawn chariot variant. One dignified adult woman in a modest opaque classical draped robe with exactly two large feathered wings emerging from her upper back, one human head and exactly two human arms and two legs. She rises above the horizon of Okeanos at dawn with her hands lifted, dawn sunlight turning her fingertips rosy. No literal pink paint or magical hand beams: rosy-fingered is expressed through warm sunrise illumination. Serene herald of the new day, gently spread wings, sky and ocean opening behind her, dawn dispersing ordinary sea mist. Full figure within frame, rich realistic oil painting texture and graceful strong silhouette. Wing design, facial features, robe cut and colour are editorial choices, not source assertions. Natural rose and gold sunlight, no neon aura, glowing envelope, energy ribbons, magical mist, halos, horned anatomy, chariot, horses, text, watermark or border.",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10c87-fb56-7d23-b539-5632fd33c070/exec-a865d636-6219-4362-99d3-9f92abe27320.png",
+      "depicted_variant": "Winged dawn goddess rising above Okeanos",
+      "basis_claim_ids": [
+        "eos-c01",
+        "eos-c02",
+        "eos-c05",
+        "eos-c06",
+        "eos-c07",
+        "eos-c08"
+      ],
+      "visual_requirements": [
+        "One adult woman with two feathered wings",
+        "Modest opaque classical robe",
+        "Ocean dawn with naturally rosy-lit hands; no chariot variant"
+      ],
+      "aura": "Serene divine presence through raised hands, floating posture and natural rose-gold sunrise.",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "inspect_workspace",
+        "notes": "Viewed native: one adult woman in an opaque draped robe has two broad feathered wings and two raised hands. Dawn sun over ocean casts rosy light on fingers; two feet visible, no chariot, magical beams, halo or neon envelope."
+      },
+      "artistic_choices": [
+        "Facial features, golden hair, robe cut and feather colour are editorial choices."
+      ],
+      "reviewed_at": "2026-10-05T14:54:13.866Z",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/eos.png",
+      "native_sha256": "090630e98dfdc90ec8f12b8550d17cd575e0cff651dce17524d7458c07025e59",
+      "review_path": "data/gemini/reviews/batch-044.review.json",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "reviewed_at": "2026-10-05",
+        "native_sha256": "090630e98dfdc90ec8f12b8550d17cd575e0cff651dce17524d7458c07025e59",
+        "notes": "Viewed native: one adult human woman in opaque draped robe with two feathered wings, two raised hands and two feet over dawn sea; rosy light on hands, c01/c05/c07 winged variant. No chariot blending or generic luminous aura."
+      }
+    }
+  ],
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/eos.json",
+    "native_sha256": "2f9ad4900b569efa3e132af996ede83ff628df5859ea50bac400d54763fa20ce",
+    "old_url": "/assets/art/eos-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/eos.png",
+    "old_webp_sha256": "bfd619e92e0cbffc84384a77d1a811f554ffe33b00f18f84b0cca587e5a05e6a",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "eos-c07",
+      "eos-c01",
+      "eos-c06",
+      "eos-c05"
+    ]
+  },
+  "url": "/assets/art/eos-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "6cce154210134fb3f12acf540b9a341c48673b3a237578ac8f2e37f9432f8f79",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Full Grecian draped garments and rose-gold feather details are editorial rendering.",
+    "No chariot, horses or later-story tears combined with selected winged emergence."
+  ]
 }

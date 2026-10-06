@@ -1,0 +1,53 @@
+{
+  "slug": "maat",
+  "prompt": "MAAT, Egyptian truth/order goddess: ONE fully clothed young adult HUMAN woman, NORMAL HUMAN ANATOMY, NO WINGS ANYWHERE. Exactly one head, two HUMAN ARMS with hands, two legs, no feathers attached to body. A SINGLE ostrich FEATHER worn upright in plain headband is chosen explicit feather variant maat-c09, not winged variant. Fully opaque white linen gown. Two hands hold a great balanced judgment scale, one pan carries a loose feather, other a sealed vessel representing soul, no gore (maat-c06/c07). Towering night-sky temple terrace, immense orderly stars overhead (maat-c02), tiny Nile buildings below, golden natural temple light and sapphire heavens, benevolent majestic guardian. LOW CAMERA, monumental scale, original square premium painterly artwork. NO wings, birds, extra body parts, text, glyphs, watermark, logo, border, nudity or gore.",
+  "depicted_variant": "Wingless young Maat with ostrich feather and judgment scale.",
+  "basis_claim_ids": [
+    "maat-c01",
+    "maat-c02",
+    "maat-c06",
+    "maat-c07",
+    "maat-c09"
+  ],
+  "visual_requirements": [
+    "Young human woman wearing ostrich feather, wingless selected alternative — maat-c09.",
+    "Feather for judgment in Duat — maat-c06/c07.",
+    "Ordered stars — maat-c02."
+  ],
+  "aura": "Ordered vast star field and balanced judgment imagery grounded in cosmic order.",
+  "artistic_choices": [
+    "Cloth, colors, apparent scale, architecture and natural cinematic light are editorial choices.",
+    "Only selected documented variant is represented; no blending of alternate anatomy."
+  ],
+  "visual_review": {
+    "notes": "Viewed replacement native: young wingless human woman, one head and two normal arms, single ostrich-feather head ornament, judgment scale with feather and sealed vessel. Deep ordered star sky and temple lights. Wing anatomy error removed; rejected first PNG preserved. Pictorial temple relief ornament, no readable caption or watermark.",
+    "reviewer": "codex",
+    "verdict": "pass",
+    "native_sha256": "c16f8f900e83bf95b48db1689df3b05d83d9edb298bee75f2d9b95070f9c6958",
+    "reviewed_at": "2026-10-06T08:11:49.586971+00:00"
+  },
+  "rejected_attempts": [
+    {
+      "original_file": "data/artwork-generated/batch-1055/rejected/maat-attempt-01.png",
+      "receipt_file": "data/artwork-generated/batch-1055/rejected/maat-attempt-01.json",
+      "native_sha256": "17c7c8aaf684cd5b21f7069247d23cf75f3233c889bce7caf1f1272b3668291b",
+      "reason": "Separate shoulder wings did not match c09 exact arm-wing anatomy. Selected wingless feather variant instead."
+    }
+  ],
+  "generated_file": "/home/asadin/.codex/generated_images/01a11024-371c-7680-935d-9da18174a957/exec-f4875c52-0359-424c-b139-f0d450629b1b.png",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1055/originals/maat.png",
+  "native_sha256": "c16f8f900e83bf95b48db1689df3b05d83d9edb298bee75f2d9b95070f9c6958",
+  "status": "needs-correction",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "review_path": "data/gemini/reviews/batch-077.review.json",
+  "reviewed_at": "2026-10-06T08:11:49.586971+00:00",
+  "root_visual_review": {
+    "verdict": "reject",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "c16f8f900e83bf95b48db1689df3b05d83d9edb298bee75f2d9b95070f9c6958",
+    "notes": "Ordinary woman with scales at human scale."
+  },
+  "correction_notes": "Ordinary woman with scales at human scale."
+}

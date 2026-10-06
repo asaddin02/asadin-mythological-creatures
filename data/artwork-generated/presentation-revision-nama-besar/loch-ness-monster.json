@@ -1,0 +1,60 @@
+{
+  "revision": "nama-besar",
+  "slug": "loch-ness-monster",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generated_at": "2026-10-06T07:53:16.924Z",
+  "prompt": "Square premium original painterly illustration of Scottish folklore NESSIE, not documentary proof. ONE huge reported LONG-NECKED creature with ONE head, a long graceful neck and TWO rounded back HUMPS breaking Loch Ness water c01,c02. Body stays submerged; DO NOT add visible flippers horns wings legs or extra necks beyond research. Low camera at water level makes the enormous single dark wet neck loom against distant tiny Scottish steep banks and pale sky. Powerful natural emergence displaces water into spectacular splashes and broad waves, a physical movement effect not magical flood ability. Mysterious dignified threatening presence, dark pebbled damp skin as artistic interpretation, no plesiosaur certainty. High contrast natural late-day light under heavy weather cloud, premium painterly rich detail, strong clear silhouette. No magical aura fire lightning attacks, no boats or victims, gore nudity writing text logos border or watermark, no movie game anime comic designs.",
+  "depicted_variant": "Reported long-necked Nessie with humps on Loch Ness, folklore illustration.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Immense mysterious scale and imposing emergence with physically displaced water; no claimed magic.",
+  "review_path": "data/gemini/reviews/batch-043.review.json",
+  "basis_claim_ids": [
+    "loch-ness-monster-c02",
+    "loch-ness-monster-c01"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Large long-necked creature with visible humps.",
+      "claim_ids": [
+        "loch-ness-monster-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Loch Ness Scottish freshwater scene.",
+      "claim_ids": [
+        "loch-ness-monster-c01"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Skin texture and head detail are editorial interpretation of reports; existence not established.",
+    "Water splash physically displaced by emergence, not a flood power. No extra limbs visible beyond source description."
+  ],
+  "old_url": "/assets/art/loch-ness-monster-verified.webp",
+  "old_webp_sha256": "a8a93260db8d833bfeff3622f3f3a239fc7838a969cd616ad8e87246fc93526f",
+  "old_original_file": "/home/asadin/.codex/generated_images/01a1027b-a981-7740-919f-fedd3124720e/exec-ecf2192d-1639-4234-8f7e-1c1742e66f89.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": null,
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/loch-ness-monster.png",
+  "native_sha256": "b661e6b8433156beb022880595c6b9831784745fe612e71457d02249e1b00e8e",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-03c787f7-7fcb-457e-a1ac-2f0bc639b763.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Native inspected: one head on long neck, two rounded back humps in Scottish lake, body submerged with no invented visible limbs or horns. Water splash is physical emergence. Imposing low-angle scale and natural storm light, no magical effects or text/watermark.",
+    "native_sha256": "b661e6b8433156beb022880595c6b9831784745fe612e71457d02249e1b00e8e",
+    "reviewed_at": "2026-10-06T07:53:16.924Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "b661e6b8433156beb022880595c6b9831784745fe612e71457d02249e1b00e8e",
+    "notes": "Long-necked creature with humps rising from a dark loch under a stormy sky, as in the reported sightings."
+  },
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00"
+}

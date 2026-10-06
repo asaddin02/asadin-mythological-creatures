@@ -1,0 +1,40 @@
+{
+  "slug": "nabu",
+  "prompt": "Use case: stylized-concept. Square premium Mythics painterly art, monumental low viewpoint, tiny environmental scale references, cinematic rich lighting/brush texture. Original religious dignity, no text, watermark, frame, gore, nudity or film/game/anime imitation. NABU, Babylonian patron of literacy, scribes and wisdom (nabu-c01). One majestic fully clothed male deity in high-neck opaque ancient Babylonian robe covering entire chest, one head TWO arms, holding ONE writing stylus while standing beside ONE Mushhushshu dragon (nabu-c06). Conservatively render named dragon as an unwinged long-necked scaled quadruped with ONE head and FOUR feet and single tail, no emitted fire or extra heads. Massive stepped Babylonian temple in distant Borsippa (nabu-c04), unreadable blank clay tablets on plinths. Natural gold dawn, scholarship and authority through immense scale, no floating glyphs or spell ribbons.",
+  "depicted_variant": "Robed stylus-bearing Nabu beside Mushhushshu.",
+  "basis_claim_ids": [
+    "nabu-c01",
+    "nabu-c04",
+    "nabu-c06"
+  ],
+  "visual_requirements": [
+    "One covered deity holding stylus (nabu-c06)",
+    "One Mushhushshu companion, no invented emitted fire (nabu-c06)",
+    "Borsippa scholarly temple (nabu-c01,c04)"
+  ],
+  "aura": "Natural golden temple light, no emitted effect.",
+  "artistic_choices": [
+    "Detailed named dragon anatomy is conservative editorial rendering of Mushhushshu, whose precise anatomy research does not specify; stylus and companion are explicit."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native inspected: fully robed two-arm deity with stylus, one unwinged long-necked dragon beside him, temple and tablets, no emitted powers or watermark.",
+    "reviewer": "codex",
+    "native_sha256": "bd576459cc985ed8c1538e8474f1c103d0b8af2bae5cc09d1a7c89cf8b2b2497"
+  },
+  "generated_file": "/home/asadin/.codex/generated_images/01a11024-55c8-7c93-8727-a166e5328535/exec-44a13ea4-1871-48f2-87b2-462336cd9583.png",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/nabu.png",
+  "native_sha256": "bd576459cc985ed8c1538e8474f1c103d0b8af2bae5cc09d1a7c89cf8b2b2497",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-079.review.json",
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "bd576459cc985ed8c1538e8474f1c103d0b8af2bae5cc09d1a7c89cf8b2b2497",
+    "notes": "Robed scribe god with stylus standing beside the mushhushshu dragon before a Babylonian ziggurat."
+  }
+}

@@ -3,35 +3,111 @@
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "slug": "marduk",
-  "prompt": "Create square premium painterly naturalistic mythology portrait of Marduk of Babylon, selecting the documented HUMAN form in royal robes carrying a spade. Frame waist up, single adult human man in rich dignified royal robes, one hand resting on a plainly recognizable ceremonial spade shaft whose blade is visible beside his shoulder. Entirely human face and body. Calm commanding expression and natural sunlit temple masonry convey divine regal presence. Woven robe pattern, dark beard, ordinary circlet and sandstone courtyard are editorial art choices, not new anatomy. Focus the portrait on human face, robes and spade; do not depict a companion animal or battle. Polished oil painting, fine textile texture, warm natural light, profound composed authority. No luminous eyes, halo, generic glow, neon energy, coloured mist, wings, horns, text or frame.",
-  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-f9c572e2-6beb-46dc-9dc2-fef1313cb8d6.png",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/marduk.png",
-  "depicted_variant": "Human in royal robes, portrait with ceremonial spade",
+  "prompt": "Square premium original painterly Mesopotamian mythology illustration of MARDUK as mighty Babylonian divine king c13. ONE humanlike fully clothed regal mature man, one head two arms two legs, layered Babylonian-inspired long robes, no animal head wings or invented limbs. He holds ONE clearly recognizable SPADE, flat broad metal spade blade on shaft, alongside ONE huge COILED SERPENT DRAGON c02, long limbless serpent body one head, no added wings horns or fantasy limbs. Monumental low-angle scale, standing atop stone terrace above tiny Babylon city. His documented creation of heavens c07 visualized respectfully SYMBOLICALLY as a spectacular immense starry firmament unfolding above deep primordial waters, rich celestial sky and natural dawn light, no literal torn body gore. King majestic awe-inspiring severe protective authority, painterly high detail warm metal and deep lapis blue cosmic contrast. No extra weapons fire/lightning magic spade beam, text cuneiform numbers watermark logo border nudity gore or modern game/film/anime/comic design.\nSource-fidelity edit: Edit this Marduk artwork for strict source fidelity. Remove ALL long projecting horns, spikes, antlers, pointed mane projections and beard from the serpent-dragon's head. Keep it as a single smooth-scaled one-headed serpent with long coiled body, no added limbs or wings. Preserve Marduk's clothed regal figure, one spade, monumental Babylon terrace and cosmic-creation sky. No text or watermark, no new anatomy, premium square painterly composition.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-1a08609b-9df6-4197-b4aa-1a7fbc2afe3e.png",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/marduk.png",
+  "depicted_variant": "Babylonian divine king with source-attested spade and serpent dragon, cosmic creation firmament.",
   "basis_claim_ids": [
-    "marduk-c02"
+    "marduk-c02",
+    "marduk-c07"
   ],
   "visual_requirements": [
-    "Human form",
-    "Royal robes",
-    "Visible spade"
+    {
+      "kind": "anatomy",
+      "description": "Marduk with a serpent dragon and spade.",
+      "claim_ids": [
+        "marduk-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Monumental cosmic firmament expresses formation of heavens.",
+      "claim_ids": [
+        "marduk-c07"
+      ]
+    }
   ],
-  "aura": "Presence through expression, posture, framing and natural lighting.",
+  "aura": "Cosmic heavens formation from Enuma Elish c07, no invented weapon attack.",
   "visual_review": {
     "verdict": "pass",
-    "reviewer": "worker-1",
-    "notes": "One human man in rich robes holds a visible spade beside his face. Framing focuses on this documented human iconography; no companion anatomy invented. Natural daylight and composed regal gaze."
+    "reviewer": "codex",
+    "notes": "Revised native inspected: regal clothed man with spade beside one smooth-headed limbless coiled serpent-dragon, projecting unsupported horns removed. Huge cosmic firmament symbolizes documented creation; no literal dismemberment, magic weapon attack, text watermark or gore. First spiked-head attempt preserved.",
+    "native_sha256": "4c5aacedf30d2d3793a52a64352dd486d76d621ed359aad5062b079e5d79293d",
+    "reviewed_at": "2026-10-06T08:28:37.308Z"
   },
   "reviewed_at": "2026-10-05T13:50:47.605Z",
   "artistic_choices": [
     "Beard, circlet, woven robe motifs and sandstone courtyard are editorial staging; portrait omits the other iconographic attribute"
   ],
   "review_path": "data/gemini/reviews/batch-047.review.json",
-  "native_sha256": "e0491d2c03866e52c27134a576184979d250a95d8c4901caac532aef2015650c",
+  "native_sha256": "4c5aacedf30d2d3793a52a64352dd486d76d621ed359aad5062b079e5d79293d",
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "root",
-    "reviewed_at": "2026-10-05",
-    "native_sha256": "e0491d2c03866e52c27134a576184979d250a95d8c4901caac532aef2015650c",
-    "notes": "Inspected human man in royal robe holding clear spade. Full c02 quote explicitly describes human royal-robed form even though shortened statement omits it. Portrait omits companion; no invented deity anatomy."
-  }
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "4c5aacedf30d2d3793a52a64352dd486d76d621ed359aad5062b079e5d79293d",
+    "notes": "Babylonian divine king with spade standing before a coiling serpent-dragon and a cosmic sky over Babylon."
+  },
+  "presentation_revision_history": [
+    {
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "slug": "marduk",
+      "prompt": "Create square premium painterly naturalistic mythology portrait of Marduk of Babylon, selecting the documented HUMAN form in royal robes carrying a spade. Frame waist up, single adult human man in rich dignified royal robes, one hand resting on a plainly recognizable ceremonial spade shaft whose blade is visible beside his shoulder. Entirely human face and body. Calm commanding expression and natural sunlit temple masonry convey divine regal presence. Woven robe pattern, dark beard, ordinary circlet and sandstone courtyard are editorial art choices, not new anatomy. Focus the portrait on human face, robes and spade; do not depict a companion animal or battle. Polished oil painting, fine textile texture, warm natural light, profound composed authority. No luminous eyes, halo, generic glow, neon energy, coloured mist, wings, horns, text or frame.",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-f9c572e2-6beb-46dc-9dc2-fef1313cb8d6.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/marduk.png",
+      "depicted_variant": "Human in royal robes, portrait with ceremonial spade",
+      "basis_claim_ids": [
+        "marduk-c02"
+      ],
+      "visual_requirements": [
+        "Human form",
+        "Royal robes",
+        "Visible spade"
+      ],
+      "aura": "Presence through expression, posture, framing and natural lighting.",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-1",
+        "notes": "One human man in rich robes holds a visible spade beside his face. Framing focuses on this documented human iconography; no companion anatomy invented. Natural daylight and composed regal gaze."
+      },
+      "reviewed_at": "2026-10-05T13:50:47.605Z",
+      "artistic_choices": [
+        "Beard, circlet, woven robe motifs and sandstone courtyard are editorial staging; portrait omits the other iconographic attribute"
+      ],
+      "review_path": "data/gemini/reviews/batch-047.review.json",
+      "native_sha256": "e0491d2c03866e52c27134a576184979d250a95d8c4901caac532aef2015650c",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "reviewed_at": "2026-10-05",
+        "native_sha256": "e0491d2c03866e52c27134a576184979d250a95d8c4901caac532aef2015650c",
+        "notes": "Inspected human man in royal robe holding clear spade. Full c02 quote explicitly describes human royal-robed form even though shortened statement omits it. Portrait omits companion; no invented deity anatomy."
+      }
+    }
+  ],
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/marduk.json",
+    "native_sha256": "4c5aacedf30d2d3793a52a64352dd486d76d621ed359aad5062b079e5d79293d",
+    "old_url": "/assets/art/marduk-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/marduk.png",
+    "old_webp_sha256": "0ec625e582ca5d7519ae2b999accfda34e5b8a6c0019ebbeb2e52ca5125ff56b",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "marduk-c02",
+      "marduk-c07"
+    ]
+  },
+  "url": "/assets/art/marduk-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "85b469214266df6aa867d81ef87386f328d9ce35c9a9fb026d7efcbcfc958df2",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Humanlike fully clothed regal rendering, cloth crown and metal spade design editorial; source lacks exact bodily form.",
+    "Cosmic sky is symbolic visual staging of creation, no literal dismemberment of Tiamat or unsupported flame/lightning powers."
+  ]
 }

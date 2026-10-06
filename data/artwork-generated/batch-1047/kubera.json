@@ -1,0 +1,42 @@
+{
+  "slug": "kubera",
+  "prompt": "Use case: stylized-concept. Square premium Mythics painterly art, monumental low viewpoint, tiny environmental scale references, cinematic rich lighting and brush texture. Original respectful religious depiction, no text, watermark, frame, gore, nudity or film/game/anime imitation. KUBERA Hindu wealth god and king of yakshas, world protector of north (kubera-c01,c02). One plump fully clothed majestic male deity, one head exactly TWO arms (kubera-c03). A small money pot brimming coins held in one hand, a stout club in the other, abundant jewels on opaque traditional garments (kubera-c03). Stands before tiny Himalayan mountain palace and treasure architecture (kubera-c04,c06). Wealth power visually through treasure and glinting sunlight, no floating gold or spell effects, no extra limbs, wings or invented creatures. Dignified benevolent expression.\nRevision: Edit clothing ONLY: entirely cover Kubera's exposed chest and belly with opaque green high-neck tunic under jewelry and outer robes. Do not alter his plump body, one head two arms, pot in one hand, club in other, jewels or Himalayan palace scene. No visible nipples or abdomen, no added limbs or text.",
+  "depicted_variant": "Plump jeweled wealth deity with money pot and club.",
+  "basis_claim_ids": [
+    "kubera-c01",
+    "kubera-c02",
+    "kubera-c03",
+    "kubera-c04",
+    "kubera-c06"
+  ],
+  "visual_requirements": [
+    "Plump jeweled body fully dressed, one money pot and one club (kubera-c03)",
+    "Himalayan residence and treasures (kubera-c04,c06)"
+  ],
+  "aura": "Glinting treasure and natural sunlight, wealth domain.",
+  "artistic_choices": [
+    "Body fullness, jewels/pot/club are documented; exact two-arm costume and palace shape editorial. No emitted power documented.",
+    "Rejected uncovered-torso first attempt retained at rejected/kubera-attempt-1.png; edited to opaque tunic."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native edited output inspected: plump torso now opaque green tunic, two arms carrying money pot and club, jewels and Himalayan palace; no exposed torso or text.",
+    "reviewer": "codex",
+    "native_sha256": "53c01392067a71906c0f769d01646e16f4c1e99f3c1dbef48efbccdf106b1198"
+  },
+  "generated_file": "/home/asadin/.codex/generated_images/01a11024-55c8-7c93-8727-a166e5328535/exec-dc646793-d615-4209-9d8a-9a0e0ea2b22f.png",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/kubera.png",
+  "native_sha256": "53c01392067a71906c0f769d01646e16f4c1e99f3c1dbef48efbccdf106b1198",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "review_path": "data/gemini/reviews/batch-072.review.json",
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "53c01392067a71906c0f769d01646e16f4c1e99f3c1dbef48efbccdf106b1198",
+    "notes": "Colossal jewelled wealth god with money pot and club above golden palaces."
+  }
+}

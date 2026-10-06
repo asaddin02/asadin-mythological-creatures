@@ -1,0 +1,64 @@
+{
+  "revision": "nama-besar",
+  "slug": "bastet",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generated_at": "2026-10-06T07:45:54.924Z",
+  "prompt": "Square original premium painterly naturalistic Egyptian mythology illustration of Bastet in the documented CAT-HEADED WOMAN form c08,c16, ONE realistic domestic cat head on one fully clothed female human body, two human arms hands and two legs, elegant full-length linen ceremonial gown, holding one recognizable metal SISTRUM rattle with crossbars and small jingles. Regal benevolent protective goddess standing at huge ancient Egyptian household stone threshold, small kittens at her feet c07; home protector c02. Monumental extremely low camera angle, magnificent strong feline silhouette, alert protective amber eyes, no lion head, no human face, no wings, horns, extra heads or weapons. Strong cinematic natural sunrise light reflecting gold metal and textured linen, rich dark temple doorway behind and bright Egyptian daylight, small architecture/palm horizon for scale. No magical energy shield or fire because not documented; power through imposing regal bearing. No writing hieroglyphs text watermark logo border, no gore nudity or game/film/anime references.",
+  "depicted_variant": "Cat-headed woman Bastet holding sistrum, protective domestic goddess.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Regal monumental protective presence; golden natural light, no invented spells.",
+  "review_path": "data/gemini/reviews/batch-042.review.json",
+  "basis_claim_ids": [
+    "bastet-c08",
+    "bastet-c16",
+    "bastet-c02",
+    "bastet-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One cat-headed woman holding a sistrum.",
+      "claim_ids": [
+        "bastet-c08",
+        "bastet-c16"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Domestic protective context with kittens at her feet.",
+      "claim_ids": [
+        "bastet-c02",
+        "bastet-c07"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Modest linen garments and stone threshold are editorial material staging.",
+    "Research documents protection but no visible emission; grandeur through pose scale and sunlight."
+  ],
+  "old_url": "/assets/art/bastet-verified.webp",
+  "old_webp_sha256": "5dbbd3bcaa38901ae1de63cb604965e1ce1e2d8570d508722cde0084f16f6ead",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/bastet.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": "95ff2936fd18107e51e2019b13a307f869db886b5a1c95dfde7a0c58c08e2caa",
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/bastet.png",
+  "native_sha256": "7f94c47abb6ad9e712592e49272a254bd2ffe47eb58085375d7024369d4f48bc",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-218c2803-fba5-434d-92d7-7f8b894f4517.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Native inspected: one domestic-cat head on clothed female human body, two human arms/legs, recognizable single metal sistrum and kittens below. No lion/human head substitution, extra limbs, weapons or emitted magic; cinematic sunlight and threshold create protective grandeur.",
+    "native_sha256": "7f94c47abb6ad9e712592e49272a254bd2ffe47eb58085375d7024369d4f48bc",
+    "reviewed_at": "2026-10-06T07:45:54.924Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "7f94c47abb6ad9e712592e49272a254bd2ffe47eb58085375d7024369d4f48bc",
+    "notes": "Cat-headed goddess in white linen holding a sistrum at a temple threshold with kittens at her feet, matching the protective domestic goddess claims."
+  },
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00"
+}

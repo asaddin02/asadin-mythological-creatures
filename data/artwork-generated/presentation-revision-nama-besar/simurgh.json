@@ -1,0 +1,68 @@
+{
+  "revision": "nama-besar",
+  "slug": "simurgh",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generated_at": "2026-10-06T07:59:24.267Z",
+  "prompt": "Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. One gigantic dignified Persian mythical BIRD perched above a great tree growing in the sea, soaring wings opening like an immense protective canopy. Coherent ordinary bird anatomy: one avian head, one beak, two wings, two taloned legs, rich feathered tail. Feather palette and species-like styling are artistic, do not invent dog head, lion paws or extra heads. Tiny sea/tree scale emphasizes immense guardian presence. Wind and natural sunrise light ripple plumage; no fire or invented magical beams. Three loose ordinary feathers near branch suggest documented summoning feathers.",
+  "depicted_variant": "One gigantic dignified Persian mythical BIRD perched above a great tree growing in the sea, soaring wings opening like an immense protective canopy. Coherent ordinary bird anatomy: one avian head, one beak, two wings, two taloned legs, rich feathered tail. Feather palette and species-like styling are artistic, do not invent dog head, lion paws or extra heads. Tiny sea/tree scale emphasizes immense guardian presence. Wind and natural sunrise light ripple plumage; no fire or invented magical beams. Three loose ordinary feathers near branch suggest documented summoning feathers.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Protective wing canopy and three feathers",
+  "review_path": "data/gemini/reviews/batch-079.review.json",
+  "basis_claim_ids": [
+    "simurgh-c01",
+    "simurgh-c03",
+    "simurgh-c04",
+    "simurgh-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One gigantic dignified Persian mythical BIRD perched above a great tree growing in the sea, soaring wings opening like an immense protective canopy. Coherent ordinary bird anatomy: one avian head, one beak, two wings, two taloned legs, rich feathered tail. Feather palette and species-like styling are artistic, do not invent dog head, lion paws or extra heads. Tiny sea/tree scale emphasizes immense guardian presence. Wind and natural sunrise light ripple plumage; no fire or invented magical beams. Three loose ordinary feathers near branch suggest documented summoning feathers.",
+      "claim_ids": [
+        "simurgh-c01",
+        "simurgh-c03",
+        "simurgh-c04",
+        "simurgh-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Protective wing canopy and three feathers; basis: guardian role and feathers used to summon help",
+      "claim_ids": [
+        "simurgh-c01",
+        "simurgh-c03",
+        "simurgh-c04",
+        "simurgh-c07"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Low-angle framing, painterly materials and environmental color are artistic rendering.",
+    "Effects are limited to the cited domains, deeds, attributes or iconography; natural light and scale supply presence where no elemental ability is documented."
+  ],
+  "old_url": "/assets/art/simurgh-verified.webp",
+  "old_webp_sha256": "cd07cbabf28fc5f9ec6187c35adae3936acf98024492c5ee8f15fa45845cc209",
+  "old_original_file": "/home/asadin/.codex/generated_images/01a1027b-a981-7740-919f-fedd3124720e/exec-12e081e9-4079-417f-a180-54e6cd65889b.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": null,
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/simurgh.png",
+  "native_sha256": "1056134b71e94ae9c1cf7d57d39a66b0ebad2ad072ae4beba92d1fa0246af005",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-4b6396a8-95bb-4cc6-ba6c-bd1616959f24.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Viewed PNG: one avian head and beak, two enormous feathered wings, two taloned feet, feathered tail, sea-tree and exactly three floating loose feathers. Strong protective presence, sunrise light rather than invented magic. Feather palette artistic; no dog head/lion paws/text.",
+    "native_sha256": "1056134b71e94ae9c1cf7d57d39a66b0ebad2ad072ae4beba92d1fa0246af005",
+    "reviewed_at": "2026-10-06T07:59:24.268Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "1056134b71e94ae9c1cf7d57d39a66b0ebad2ad072ae4beba92d1fa0246af005",
+    "notes": "Gigantic bird with spread wings perched over a great tree rising from the sea."
+  },
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00"
+}

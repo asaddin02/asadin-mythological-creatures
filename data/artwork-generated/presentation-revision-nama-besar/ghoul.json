@@ -1,0 +1,71 @@
+{
+  "revision": "nama-besar",
+  "slug": "ghoul",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generated_at": "2026-10-06T08:03:51.594Z",
+  "prompt": "Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. One terrifying monstrous HUMANOID in ragged fully covering robes at the mouth of an Arabian cave after dark, looming in low-angle perspective above tiny ruined deserted buildings. Humanlike coherent head, two arms and two legs; cadaverously thin imposing shadowed face and grasping hands, no invented antlers/wings/animal feet. Cold moonlight and dusty darkness create horror, no supernatural energy or unsupported fire. No victims, bones of eaten people, gore, blood or nudity. Desolate architecture/sand artistic, night cave habitat and traveler threat documented. Plain uninscribed walls, clothing and objects: no hieroglyphs, cuneiform, letters or pictographic writing. No solar-disk crown, horns or additional attributes unless explicitly specified above.",
+  "depicted_variant": "One terrifying monstrous HUMANOID in ragged fully covering robes at the mouth of an Arabian cave after dark, looming in low-angle perspective above tiny ruined deserted buildings. Humanlike coherent head, two arms and two legs; cadaverously thin imposing shadowed face and grasping hands, no invented antlers/wings/animal feet. Cold moonlight and dusty darkness create horror, no supernatural energy or unsupported fire. No victims, bones of eaten people, gore, blood or nudity. Desolate architecture/sand artistic, night cave habitat and traveler threat documented.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Moonlit night-cave dread",
+  "review_path": "data/gemini/reviews/batch-079.review.json",
+  "basis_claim_ids": [
+    "ghoul-c01",
+    "ghoul-c02",
+    "ghoul-c03",
+    "ghoul-c04",
+    "ghoul-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One terrifying monstrous HUMANOID in ragged fully covering robes at the mouth of an Arabian cave after dark, looming in low-angle perspective above tiny ruined deserted buildings. Humanlike coherent head, two arms and two legs; cadaverously thin imposing shadowed face and grasping hands, no invented antlers/wings/animal feet. Cold moonlight and dusty darkness create horror, no supernatural energy or unsupported fire. No victims, bones of eaten people, gore, blood or nudity. Desolate architecture/sand artistic, night cave habitat and traveler threat documented.",
+      "claim_ids": [
+        "ghoul-c01",
+        "ghoul-c02",
+        "ghoul-c03",
+        "ghoul-c04",
+        "ghoul-c05"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Moonlit night-cave dread; basis: documented nighttime cave habitat; no elemental powers known",
+      "claim_ids": [
+        "ghoul-c01",
+        "ghoul-c02",
+        "ghoul-c03",
+        "ghoul-c04",
+        "ghoul-c05"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Low-angle framing, painterly materials and environmental color are artistic rendering.",
+    "Effects are limited to the cited domains, deeds, attributes or iconography; natural light and scale supply presence where no elemental ability is documented."
+  ],
+  "old_url": "/assets/art/ghoul-verified.webp",
+  "old_webp_sha256": "5a530b971577345fe0b904a5412aaec3e1405e6d0cbbb2a538aae02dbe519098",
+  "old_original_file": "/home/asadin/.codex/generated_images/01a1027c-3cfe-7961-a602-27630bb894c7/exec-618a6298-627d-42b8-ad4d-c431961bbc1d.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": null,
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/ghoul.png",
+  "native_sha256": "8b2ae64a663466d5f602b64391f4fec38f7ce8f83c9bc905f0649a113c62a60b",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-7c6e8fb7-83eb-4907-b5ce-ade6bf0d1286.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Viewed native PNG: one humanoid face and two arms with coherent hands under ragged fully covering robes, imposing night cave and deserted Arabian architecture. Fear through moonlight/shadow, no invented elemental attack, horns, wings, victims or gore/text.",
+    "native_sha256": "8b2ae64a663466d5f602b64391f4fec38f7ce8f83c9bc905f0649a113c62a60b",
+    "reviewed_at": "2026-10-06T08:03:51.594Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "8b2ae64a663466d5f602b64391f4fec38f7ce8f83c9bc905f0649a113c62a60b",
+    "notes": "Cadaverous robed figure with grasping clawed hands looming at a desert cave mouth over ruins under moonlight; horror atmosphere without invented anatomy."
+  },
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00"
+}

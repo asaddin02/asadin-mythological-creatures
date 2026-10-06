@@ -1,27 +1,103 @@
 {
   "slug": "lernaean-hydra",
   "worker": "worker-2",
-  "prompt": "Use case: historical-scene. Create ONE square 1024x1024 detailed painterly naturalistic encyclopedia illustration of the LERNAEAN HYDRA in the nine-headed variant documented by Apollodorus, Library 2.5.2. A huge truly SERPENTINE water monster in a dark Greek marsh, one massive limbless coiled snake body and EXACTLY NINE independently visible snake heads, each on its own long sinuous neck attached to the same body. Make nine heads immediately countable and not overlapping: a central upright snake head, four fanning clearly on its left and four on its right. Eight mortal heads and the central immortal head; all are snake heads, no invented crowns. One continuous heavy coiled tail. Venomous open jaws and glistening dark wet scales; reed beds, black still water and mist behind. Ancient monstrous menace and poisonous horror, oppressive dawn light with restrained natural color. Entire silhouette comfortably inside frame, detailed naturalistic snake anatomy and exquisite oil brush texture. No legs, arms, wings, horns, dragon heads, dinosaur body, extra head, tenth head, missing head, flame breath, bright fantasy magic, humans, corpses, labels, text, watermark or border. Nine heads exactly.\nCritical correction: prior composition had only SEVEN heads and must be rejected. This new image MUST contain NINE visible heads, no exceptions. Arrange the nine heads at separately spaced positions across the upper frame, like nine upright snake necks in a gently curved row: count 1,2,3,4 left of center, head 5 at center, heads 6,7,8,9 right of center. Every one has its own face and neck, clearly separated by empty background. Keep the body lower in the frame so there is generous room for all nine faces. Head count is the highest-priority invariant.",
-  "original_file": "/home/asadin/.codex/generated_images/01a1027b-edc4-7382-86ca-b0e984343606/exec-827ff9a2-f41b-4a0d-83c5-46cf09c65788.png",
+  "prompt": "Square premium original painterly Greek LERNAEAN HYDRA in the documented NINE-HEADED variant c01,c04. EXACTLY NINE complete recognizable SERPENT HEADS on nine separated long necks arising from ONE immense coherent limbless water-serpent body. No legs wings horns crowns or extra heads. Arrange nine heads with unambiguous count: FIVE heads across upper arc and FOUR across lower arc, spatially separated faces, central immortal head not given invented crown. Each head only one mouth two eyes; all nine heads fully inside frame. Venom c02 glistens in fangs and drips thick amber drops, no poisonous gas and NO FIRE BREATH. Huge serpentine coils erupting from Lerna SWAMP, splashing dark water physically, reeds small below, low camera monumental threat, natural stormy dramatic light reflecting venom and dark scales. Rich detailed premium painterly naturalism, no gore or severed parts, no human victims, no labels numbers text watermark border logo or film/game/anime/comic design.\nSource-fidelity edit: Edit this nine-headed Hydra for anatomy fidelity: REMOVE ALL HORNS, antler-like projections and long pointed cranial spikes from EVERY one of the NINE serpent heads. Heads must have smooth serpentine profiles with only ordinary small scales, no long spikes. Keep exactly FIVE heads upper row and FOUR lower row, NINE heads total, all head/neck positions intact. Keep one enormous limbless coiled water-serpent body, visible venom drops, swamp, cinematic sunlight, monumental threat and premium painterly square composition. No wings legs extra heads, no gore text or watermark. Do not alter count or add eyes.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/lernaean-hydra.png",
   "review_path": "data/gemini/reviews/batch-044.review.json",
   "visual_requirements": [
-    "Exactly nine snake heads, individually countable",
-    "One huge limbless coiled serpent body",
-    "Venomous threatening monster in Greek marsh"
+    {
+      "kind": "anatomy",
+      "description": "Exactly nine serpent heads and huge limbless water-serpent body; middle head immortal in chosen variant.",
+      "claim_ids": [
+        "lernaean-hydra-c01",
+        "lernaean-hydra-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Poisonous venom dripping from fangs.",
+      "claim_ids": [
+        "lernaean-hydra-c02"
+      ]
+    }
   ],
-  "depicted_variant": "Apollodorus nine-headed serpent, eight mortal and central immortal",
+  "depicted_variant": "Nine-headed Lernaean water serpent with poisonous venom, intact non-gory depiction.",
   "basis_claim_ids": [
     "lernaean-hydra-c01",
-    "lernaean-hydra-c02",
-    "lernaean-hydra-c03",
-    "lernaean-hydra-c04"
+    "lernaean-hydra-c04",
+    "lernaean-hydra-c02"
   ],
-  "aura": "Oppressive venomous marsh horror",
+  "aura": "Gigantic nine-headed menace and visible venom droplets.",
   "visual_review": {
     "verdict": "pass",
-    "notes": "Counted nine separate open snake heads: four left of central head, central head, four right. Each has its own long neck joining the mass of one scaled coiled serpent; no legs or wings. Large exposed venomous fangs, bleak misty marsh, wet black scales and menacing raised mouths convey dangerous horror. Earlier seven-headed file was deleted before regeneration."
+    "reviewer": "codex",
+    "notes": "Inspected revised native: exactly five upper and four lower snake heads = nine, no projecting horns, nine separated necks on one coherent limbless body. Thick venom droplets from mouths, Lerna swamp, no fire breath, wings, limbs, gore, text or watermark. Rejected horned first attempt preserved.",
+    "native_sha256": "dbbda58ceed2f7d0acb957594bff0ac386fb227afec854ba477127c187e779ec",
+    "reviewed_at": "2026-10-06T08:00:22.693Z"
   },
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
-  "rejected_attempts": 1
+  "rejected_attempts": 1,
+  "presentation_revision_history": [
+    {
+      "slug": "lernaean-hydra",
+      "worker": "worker-2",
+      "prompt": "Use case: historical-scene. Create ONE square 1024x1024 detailed painterly naturalistic encyclopedia illustration of the LERNAEAN HYDRA in the nine-headed variant documented by Apollodorus, Library 2.5.2. A huge truly SERPENTINE water monster in a dark Greek marsh, one massive limbless coiled snake body and EXACTLY NINE independently visible snake heads, each on its own long sinuous neck attached to the same body. Make nine heads immediately countable and not overlapping: a central upright snake head, four fanning clearly on its left and four on its right. Eight mortal heads and the central immortal head; all are snake heads, no invented crowns. One continuous heavy coiled tail. Venomous open jaws and glistening dark wet scales; reed beds, black still water and mist behind. Ancient monstrous menace and poisonous horror, oppressive dawn light with restrained natural color. Entire silhouette comfortably inside frame, detailed naturalistic snake anatomy and exquisite oil brush texture. No legs, arms, wings, horns, dragon heads, dinosaur body, extra head, tenth head, missing head, flame breath, bright fantasy magic, humans, corpses, labels, text, watermark or border. Nine heads exactly.\nCritical correction: prior composition had only SEVEN heads and must be rejected. This new image MUST contain NINE visible heads, no exceptions. Arrange the nine heads at separately spaced positions across the upper frame, like nine upright snake necks in a gently curved row: count 1,2,3,4 left of center, head 5 at center, heads 6,7,8,9 right of center. Every one has its own face and neck, clearly separated by empty background. Keep the body lower in the frame so there is generous room for all nine faces. Head count is the highest-priority invariant.",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027b-edc4-7382-86ca-b0e984343606/exec-827ff9a2-f41b-4a0d-83c5-46cf09c65788.png",
+      "review_path": "data/gemini/reviews/batch-044.review.json",
+      "visual_requirements": [
+        "Exactly nine snake heads, individually countable",
+        "One huge limbless coiled serpent body",
+        "Venomous threatening monster in Greek marsh"
+      ],
+      "depicted_variant": "Apollodorus nine-headed serpent, eight mortal and central immortal",
+      "basis_claim_ids": [
+        "lernaean-hydra-c01",
+        "lernaean-hydra-c02",
+        "lernaean-hydra-c03",
+        "lernaean-hydra-c04"
+      ],
+      "aura": "Oppressive venomous marsh horror",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Counted nine separate open snake heads: four left of central head, central head, four right. Each has its own long neck joining the mass of one scaled coiled serpent; no legs or wings. Large exposed venomous fangs, bleak misty marsh, wet black scales and menacing raised mouths convey dangerous horror. Earlier seven-headed file was deleted before regeneration."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "rejected_attempts": 1
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "dbbda58ceed2f7d0acb957594bff0ac386fb227afec854ba477127c187e779ec",
+    "notes": "Nine serpent heads counted on one body, venom dripping from every mouth, rising from a swamp; no gore."
+  },
+  "native_sha256": "dbbda58ceed2f7d0acb957594bff0ac386fb227afec854ba477127c187e779ec",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/lernaean-hydra.json",
+    "native_sha256": "dbbda58ceed2f7d0acb957594bff0ac386fb227afec854ba477127c187e779ec",
+    "old_url": "/assets/art/lernaean-hydra-verified.webp",
+    "old_original_file": "/home/asadin/.codex/generated_images/01a1027b-edc4-7382-86ca-b0e984343606/exec-827ff9a2-f41b-4a0d-83c5-46cf09c65788.png",
+    "old_webp_sha256": "ae61b634504a6180e46b380debe5e8c9fdd054ce9412b43669b4308ae4603ec5",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "lernaean-hydra-c01",
+      "lernaean-hydra-c04",
+      "lernaean-hydra-c02"
+    ]
+  },
+  "url": "/assets/art/lernaean-hydra-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "ab403d8c661780daad4e986a6cfa736cb0a1ac29459560f9a2f369d421aceb31",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-40e2edf0-bcc1-4e38-9943-671165836aeb.png",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Venom dark amber sheen and head arrangement are editorial readability; no cut heads or regeneration wounds.",
+    "Lerna swamp and water motion reflect source setting and physical movement, no fire breath."
+  ]
 }

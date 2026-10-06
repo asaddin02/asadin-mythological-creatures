@@ -1,0 +1,71 @@
+{
+  "revision": "nama-besar",
+  "slug": "leprechaun",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generated_at": "2026-10-06T07:59:24.638Z",
+  "prompt": "Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. One diminutive bearded Irish solitary fairy shoemaker in a historical RED coat and modest trousers, commanding fierce cunning expression. Low camera almost at grass level makes his small real body imposing; enormous ordinary grass stems and tiny shoe on cobbler bench establish that he is very small, not giant. A treasure-crock of gold lies nearby at the end of a vivid natural rainbow after rain. Anatomically ordinary two arms two legs, no horns or wings, red clothing rather than green modern mascot. No magically floating gold, energy beam or branded logo.",
+  "depicted_variant": "One diminutive bearded Irish solitary fairy shoemaker in a historical RED coat and modest trousers, commanding fierce cunning expression. Low camera almost at grass level makes his small real body imposing; enormous ordinary grass stems and tiny shoe on cobbler bench establish that he is very small, not giant. A treasure-crock of gold lies nearby at the end of a vivid natural rainbow after rain. Anatomically ordinary two arms two legs, no horns or wings, red clothing rather than green modern mascot. No magically floating gold, energy beam or branded logo.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Strong rainbow and gold treasure",
+  "review_path": "data/gemini/reviews/batch-115.review.json",
+  "basis_claim_ids": [
+    "leprechaun-c01",
+    "leprechaun-c04",
+    "leprechaun-c07",
+    "leprechaun-c08",
+    "leprechaun-c10"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One diminutive bearded Irish solitary fairy shoemaker in a historical RED coat and modest trousers, commanding fierce cunning expression. Low camera almost at grass level makes his small real body imposing; enormous ordinary grass stems and tiny shoe on cobbler bench establish that he is very small, not giant. A treasure-crock of gold lies nearby at the end of a vivid natural rainbow after rain. Anatomically ordinary two arms two legs, no horns or wings, red clothing rather than green modern mascot. No magically floating gold, energy beam or branded logo.",
+      "claim_ids": [
+        "leprechaun-c01",
+        "leprechaun-c04",
+        "leprechaun-c07",
+        "leprechaun-c08",
+        "leprechaun-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Strong rainbow and gold treasure; basis: documented rainbow-end pot of gold",
+      "claim_ids": [
+        "leprechaun-c01",
+        "leprechaun-c04",
+        "leprechaun-c07",
+        "leprechaun-c08",
+        "leprechaun-c10"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Low-angle framing, painterly materials and environmental color are artistic rendering.",
+    "Effects are limited to the cited domains, deeds, attributes or iconography; natural light and scale supply presence where no elemental ability is documented."
+  ],
+  "old_url": "/assets/art/leprechaun-regeneration-139.webp",
+  "old_webp_sha256": "ac4d4004696483f5941d26989aa7fdcaf860a3c0efd906457cbff7f096a20ac5",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/leprechaun.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": null,
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/leprechaun.png",
+  "native_sha256": "22695096cbc8c6ec405ccdcfe987b299d138e245b3839e0202be10c55859121e",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-ab19af4d-d09a-428d-ad52-476e39b15d6e.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Viewed PNG: small bearded shoemaker in red coat, two arms working with hammer/shoe, coherent clothed legs; oversized grass confirms tiny scale despite imposing low view. Visible gold pot at natural rainbow end; no floating gold, wings, text or watermark.",
+    "native_sha256": "22695096cbc8c6ec405ccdcfe987b299d138e245b3839e0202be10c55859121e",
+    "reviewed_at": "2026-10-06T07:59:24.639Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "22695096cbc8c6ec405ccdcfe987b299d138e245b3839e0202be10c55859121e",
+    "notes": "Tiny bearded cobbler in red coat hammering a shoe among giant grass blades, with rainbow and pot of gold; scale shows he is very small."
+  },
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00"
+}

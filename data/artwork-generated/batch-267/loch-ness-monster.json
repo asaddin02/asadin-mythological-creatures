@@ -1,26 +1,98 @@
 {
   "slug": "loch-ness-monster",
-  "prompt": "One square detailed painterly naturalistic folklore encyclopedia illustration of the Loch Ness Monster, Nessie. Depict the reported long-necked humped silhouette rather than making a biological claim: in misty dark blue Scottish Loch Ness waters, a very large aquatic creature shows a long slender curved neck ending in a small modest reptilian head and two smooth broad back humps emerging in a connected line from the water behind it. Most of its body remains submerged, so no legs or flippers are shown. Head, neck, and both back humps clearly readable and comfortably framed with margin. Rocky green Highland slopes and low fog, quiet overcast evening, ripples around the creature. Aura mysterious, elusive and awe-inspiring, not evil or cute; natural wildlife illustration atmosphere, no glowing eyes or fantasy effects. Rough muted gray skin, no horns, wings, spines, tentacles, teeth display, fire or weapons. This is a painterly interpretation of folklore sightings, not a fake evidence photograph. No text or watermark, one creature only.",
+  "prompt": "Square premium original painterly illustration of Scottish folklore NESSIE, not documentary proof. ONE huge reported LONG-NECKED creature with ONE head, a long graceful neck and TWO rounded back HUMPS breaking Loch Ness water c01,c02. Body stays submerged; DO NOT add visible flippers horns wings legs or extra necks beyond research. Low camera at water level makes the enormous single dark wet neck loom against distant tiny Scottish steep banks and pale sky. Powerful natural emergence displaces water into spectacular splashes and broad waves, a physical movement effect not magical flood ability. Mysterious dignified threatening presence, dark pebbled damp skin as artistic interpretation, no plesiosaur certainty. High contrast natural late-day light under heavy weather cloud, premium painterly rich detail, strong clear silhouette. No magical aura fire lightning attacks, no boats or victims, gore nudity writing text logos border or watermark, no movie game anime comic designs.",
   "visual_requirements": [
-    "Large long neck ending in small head",
-    "One or more back humps protrude above water",
-    "Loch Ness Highland lake setting",
-    "Mysterious elusive natural aura"
+    {
+      "kind": "anatomy",
+      "description": "Large long-necked creature with visible humps.",
+      "claim_ids": [
+        "loch-ness-monster-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Loch Ness Scottish freshwater scene.",
+      "claim_ids": [
+        "loch-ness-monster-c01"
+      ]
+    }
   ],
-  "depicted_variant": "Reported long-necked humped surface form, submerged anatomy unspecified",
+  "depicted_variant": "Reported long-necked Nessie with humps on Loch Ness, folklore illustration.",
   "basis_claim_ids": [
-    "loch-ness-monster-c01",
     "loch-ness-monster-c02",
-    "loch-ness-monster-c03"
+    "loch-ness-monster-c01"
   ],
-  "aura": "elusive mysterious aquatic awe",
+  "aura": "Immense mysterious scale and imposing emergence with physically displaced water; no claimed magic.",
   "worker": "worker-1",
-  "original_file": "/home/asadin/.codex/generated_images/01a1027b-a981-7740-919f-fedd3124720e/exec-ecf2192d-1639-4234-8f7e-1c1742e66f89.png",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/loch-ness-monster.png",
   "review_path": "data/gemini/reviews/batch-043.review.json",
   "visual_review": {
     "verdict": "pass",
-    "notes": "Observed very long slender curved neck with small head, two separated rounded humps aligned at water surface, rest submerged. Misty Highland lake and subdued natural gray skin support elusive aquatic mystery without invented horns or aggressive fantasy traits."
+    "reviewer": "codex",
+    "notes": "Native inspected: one head on long neck, two rounded back humps in Scottish lake, body submerged with no invented visible limbs or horns. Water splash is physical emergence. Imposing low-angle scale and natural storm light, no magical effects or text/watermark.",
+    "native_sha256": "b661e6b8433156beb022880595c6b9831784745fe612e71457d02249e1b00e8e",
+    "reviewed_at": "2026-10-06T07:53:16.924Z"
   },
   "tool": "OpenAI built-in image_gen",
-  "status": "reviewed"
+  "status": "reviewed",
+  "presentation_revision_history": [
+    {
+      "slug": "loch-ness-monster",
+      "prompt": "One square detailed painterly naturalistic folklore encyclopedia illustration of the Loch Ness Monster, Nessie. Depict the reported long-necked humped silhouette rather than making a biological claim: in misty dark blue Scottish Loch Ness waters, a very large aquatic creature shows a long slender curved neck ending in a small modest reptilian head and two smooth broad back humps emerging in a connected line from the water behind it. Most of its body remains submerged, so no legs or flippers are shown. Head, neck, and both back humps clearly readable and comfortably framed with margin. Rocky green Highland slopes and low fog, quiet overcast evening, ripples around the creature. Aura mysterious, elusive and awe-inspiring, not evil or cute; natural wildlife illustration atmosphere, no glowing eyes or fantasy effects. Rough muted gray skin, no horns, wings, spines, tentacles, teeth display, fire or weapons. This is a painterly interpretation of folklore sightings, not a fake evidence photograph. No text or watermark, one creature only.",
+      "visual_requirements": [
+        "Large long neck ending in small head",
+        "One or more back humps protrude above water",
+        "Loch Ness Highland lake setting",
+        "Mysterious elusive natural aura"
+      ],
+      "depicted_variant": "Reported long-necked humped surface form, submerged anatomy unspecified",
+      "basis_claim_ids": [
+        "loch-ness-monster-c01",
+        "loch-ness-monster-c02",
+        "loch-ness-monster-c03"
+      ],
+      "aura": "elusive mysterious aquatic awe",
+      "worker": "worker-1",
+      "original_file": "/home/asadin/.codex/generated_images/01a1027b-a981-7740-919f-fedd3124720e/exec-ecf2192d-1639-4234-8f7e-1c1742e66f89.png",
+      "review_path": "data/gemini/reviews/batch-043.review.json",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Observed very long slender curved neck with small head, two separated rounded humps aligned at water surface, rest submerged. Misty Highland lake and subdued natural gray skin support elusive aquatic mystery without invented horns or aggressive fantasy traits."
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed"
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "b661e6b8433156beb022880595c6b9831784745fe612e71457d02249e1b00e8e",
+    "notes": "Long-necked creature with humps rising from a dark loch under a stormy sky, as in the reported sightings."
+  },
+  "native_sha256": "b661e6b8433156beb022880595c6b9831784745fe612e71457d02249e1b00e8e",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/loch-ness-monster.json",
+    "native_sha256": "b661e6b8433156beb022880595c6b9831784745fe612e71457d02249e1b00e8e",
+    "old_url": "/assets/art/loch-ness-monster-verified.webp",
+    "old_original_file": "/home/asadin/.codex/generated_images/01a1027b-a981-7740-919f-fedd3124720e/exec-ecf2192d-1639-4234-8f7e-1c1742e66f89.png",
+    "old_webp_sha256": "a8a93260db8d833bfeff3622f3f3a239fc7838a969cd616ad8e87246fc93526f",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "loch-ness-monster-c02",
+      "loch-ness-monster-c01"
+    ]
+  },
+  "url": "/assets/art/loch-ness-monster-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "32acc648dc54adab0964a733b2008ac8c7097c5ca71c712a590e79d1afe95c23",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-03c787f7-7fcb-457e-a1ac-2f0bc639b763.png",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Skin texture and head detail are editorial interpretation of reports; existence not established.",
+    "Water splash physically displaced by emergence, not a flood power. No extra limbs visible beyond source description."
+  ]
 }

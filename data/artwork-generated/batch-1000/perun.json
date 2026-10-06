@@ -1,38 +1,128 @@
 {
   "slug": "perun",
-  "depicted_variant": "Source bearded middle-aged man borne on a flying millstone; no blended silver-headed idol form.",
+  "depicted_variant": "One formidable bearded middle-aged Slavic thunder god, silver-toned head/hair and golden moustache, holding an ancient AXE amid an oak-covered mountain storm. Mighty forked lightning strikes the landscape around him; he towers above small oaks by perspective, ordinary two arms and two legs, no armor copied from comics. Ancient practical robe/cloak rendering; fierce just expression. Lightning is visible and intense but body anatomy stays clear.",
   "basis_claim_ids": [
     "perun-c01",
+    "perun-c02",
+    "perun-c06",
+    "perun-c12",
     "perun-c29"
   ],
   "visual_requirements": [
-    "Middle-aged bearded human man",
-    "Flying stone millstone",
-    "No metallic idol anatomy or borrowed thunder-deity attributes"
+    {
+      "kind": "anatomy",
+      "description": "One formidable bearded middle-aged Slavic thunder god, silver-toned head/hair and golden moustache, holding an ancient AXE amid an oak-covered mountain storm. Mighty forked lightning strikes the landscape around him; he towers above small oaks by perspective, ordinary two arms and two legs, no armor copied from comics. Ancient practical robe/cloak rendering; fierce just expression. Lightning is visible and intense but body anatomy stays clear.",
+      "claim_ids": [
+        "perun-c01",
+        "perun-c02",
+        "perun-c06",
+        "perun-c12",
+        "perun-c29"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Forked lightning and thunderstorm; basis: sky, thunder, lightning, storms and oak domain",
+      "claim_ids": [
+        "perun-c01",
+        "perun-c02",
+        "perun-c06",
+        "perun-c12",
+        "perun-c29"
+      ]
+    }
   ],
-  "aura": "Steady severe gaze, windblown robe, elevated millstone and natural storm-cloud light.",
+  "aura": "Forked lightning and thunderstorm",
   "artistic_choices": [
     "Modest woven robe, beard colour, seated pose and high oak-covered hill scene are editorial staging; hovering millstone is source-backed."
   ],
-  "prompt": "Square premium painterly naturalistic mythology art of PERUN, select the specifically documented form of a BEARDED MIDDLE-AGED HUMAN MAN flying on a MILLSTONE. One ordinary human man with stern thoughtful gaze, dark-grey beard, two arms and two legs in long modest opaque earth-toned woven robe. He sits firmly on a large horizontal circular rough STONE MILLSTONE with clear central hole; the millstone is suspended in open air just above an oak-covered hill. The supported supernatural element is this flying stone, portray it physically weighty, without luminous lift effects. Natural windy storm daylight, muted sky, robe and beard moved by wind, powerful composed presence through framing and expression. No skull horns, silver skin or golden moustache from the distinct idol depiction, no extra limbs, Thor hammer, generic neon lightning aura, energy ribbons, glowing mist, text or watermark.",
-  "generated_file": "/home/asadin/.codex/generated_images/01a10bb6-3cac-7261-911d-bbee01b4baaf/exec-93119226-f862-4a73-862e-b1289ae186fb.png",
+  "prompt": "Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. One formidable bearded middle-aged Slavic thunder god, silver-toned head/hair and golden moustache, holding an ancient AXE amid an oak-covered mountain storm. Mighty forked lightning strikes the landscape around him; he towers above small oaks by perspective, ordinary two arms and two legs, no armor copied from comics. Ancient practical robe/cloak rendering; fierce just expression. Lightning is visible and intense but body anatomy stays clear.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-95701994-af45-4901-b02b-733db4b61a3d.png",
   "visual_review": {
     "verdict": "pass",
-    "reviewer": "worker-2",
-    "notes": "Actual native inspection: middle-aged bearded human man clothed in robes sits on clearly hovering circular rough millstone with central hole visible underneath. Natural storm clouds and windblown cloth, ordinary human anatomy; no idol metallic head or luminous effects."
+    "reviewer": "codex",
+    "notes": "Viewed selected PNG: one bearded middle-aged man with grey hair/golden moustache, two arms holding one axe, coherent two legs; oak/mountain backdrop and vigorous forked lightning. Costume pattern editorial, no lettering/watermark/gore.",
+    "native_sha256": "c591a99d1c113f54742c146646f7498d6445f43b48f681ce351f31efc4a088c9",
+    "reviewed_at": "2026-10-06T07:59:23.753Z"
   },
   "status": "reviewed",
   "worker": "worker-2",
   "tool": "OpenAI built-in image_gen",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/perun.png",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/perun.png",
   "review_path": "data/gemini/reviews/batch-121.review.json",
-  "native_sha256": "cc50e75c49b5f0fb3142b1666de019d01a96ff37e56eb23fb6940b52a2873639",
+  "native_sha256": "c591a99d1c113f54742c146646f7498d6445f43b48f681ce351f31efc4a088c9",
   "reviewed_at": "2026-10-05T13:13:05.739840+00:00",
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "root",
-    "reviewed_at": "2026-10-05",
-    "native_sha256": "cc50e75c49b5f0fb3142b1666de019d01a96ff37e56eb23fb6940b52a2873639",
-    "notes": "Inspected mature bearded human man riding one airborne stone millstone, no metallic idol body or additional thunder tools. Selected c29 flying millstone form."
-  }
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "c591a99d1c113f54742c146646f7498d6445f43b48f681ce351f31efc4a088c9",
+    "notes": "Bearded thunder god with axe on an oak mountain while forked lightning strikes around him."
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "perun",
+      "depicted_variant": "Source bearded middle-aged man borne on a flying millstone; no blended silver-headed idol form.",
+      "basis_claim_ids": [
+        "perun-c01",
+        "perun-c29"
+      ],
+      "visual_requirements": [
+        "Middle-aged bearded human man",
+        "Flying stone millstone",
+        "No metallic idol anatomy or borrowed thunder-deity attributes"
+      ],
+      "aura": "Steady severe gaze, windblown robe, elevated millstone and natural storm-cloud light.",
+      "artistic_choices": [
+        "Modest woven robe, beard colour, seated pose and high oak-covered hill scene are editorial staging; hovering millstone is source-backed."
+      ],
+      "prompt": "Square premium painterly naturalistic mythology art of PERUN, select the specifically documented form of a BEARDED MIDDLE-AGED HUMAN MAN flying on a MILLSTONE. One ordinary human man with stern thoughtful gaze, dark-grey beard, two arms and two legs in long modest opaque earth-toned woven robe. He sits firmly on a large horizontal circular rough STONE MILLSTONE with clear central hole; the millstone is suspended in open air just above an oak-covered hill. The supported supernatural element is this flying stone, portray it physically weighty, without luminous lift effects. Natural windy storm daylight, muted sky, robe and beard moved by wind, powerful composed presence through framing and expression. No skull horns, silver skin or golden moustache from the distinct idol depiction, no extra limbs, Thor hammer, generic neon lightning aura, energy ribbons, glowing mist, text or watermark.",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10bb6-3cac-7261-911d-bbee01b4baaf/exec-93119226-f862-4a73-862e-b1289ae186fb.png",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-2",
+        "notes": "Actual native inspection: middle-aged bearded human man clothed in robes sits on clearly hovering circular rough millstone with central hole visible underneath. Natural storm clouds and windblown cloth, ordinary human anatomy; no idol metallic head or luminous effects."
+      },
+      "status": "reviewed",
+      "worker": "worker-2",
+      "tool": "OpenAI built-in image_gen",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/perun.png",
+      "review_path": "data/gemini/reviews/batch-121.review.json",
+      "native_sha256": "cc50e75c49b5f0fb3142b1666de019d01a96ff37e56eb23fb6940b52a2873639",
+      "reviewed_at": "2026-10-05T13:13:05.739840+00:00",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "reviewed_at": "2026-10-05",
+        "native_sha256": "cc50e75c49b5f0fb3142b1666de019d01a96ff37e56eb23fb6940b52a2873639",
+        "notes": "Inspected mature bearded human man riding one airborne stone millstone, no metallic idol body or additional thunder tools. Selected c29 flying millstone form."
+      }
+    }
+  ],
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/perun.json",
+    "native_sha256": "c591a99d1c113f54742c146646f7498d6445f43b48f681ce351f31efc4a088c9",
+    "old_url": "/assets/art/perun-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/perun.png",
+    "old_webp_sha256": "f9e1b7a40538a82eafa434349a89ffaa52620bff56e74e07336188eae28ce529",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "perun-c01",
+      "perun-c02",
+      "perun-c06",
+      "perun-c12",
+      "perun-c29"
+    ]
+  },
+  "url": "/assets/art/perun-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "4ab2b8ef2007e91b81026952b29a9e7bc08fd423f0f7adb8b4bf1ae2504a5b54",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Low-angle framing, painterly materials and environmental color are artistic rendering.",
+    "Effects are limited to the cited domains, deeds, attributes or iconography; natural light and scale supply presence where no elemental ability is documented."
+  ]
 }

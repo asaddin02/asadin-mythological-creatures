@@ -1,0 +1,70 @@
+{
+  "revision": "nama-besar",
+  "slug": "eos",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generated_at": "2026-10-06T07:53:18.200Z",
+  "prompt": "Square premium painterly original Greek mythology illustration of EOS, the rosy-fingered goddess of DAWN eos-c01. One serene commanding adult woman fully clothed in flowing rose-gold Grecian robes, one head two arms two legs and exactly TWO magnificent feathered wings, her own-wing depicted variant c07, NO chariot horses. She rises majestically above Oceanus waters c05, extraordinary brilliant ROSY DAWN LIGHT from her domain sweeps sky and visibly disperses dark night mists c06. Huge monumental low-angle silhouette, immense luminous pale-pink and warm-gold sunrise contrasted with deep blue vanishing night, tiny sea cliffs below, beautifully detailed feathers fabric anatomy. Hands gently extended toward widening dawn, no weapon rays or lightning. Benevolent ageless authority, fully modest clothing, rich premium painterly naturalism. No invented horns extra wings or limbs, no labels text logos watermark borders, gore nudity or game film anime comic designs.",
+  "depicted_variant": "Winged Greek dawn goddess Eos rising from Oceanus and dispersing night with light.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Documented rosy dawn light dispersing night mist, c01,c05,c06.",
+  "review_path": "data/gemini/reviews/batch-044.review.json",
+  "basis_claim_ids": [
+    "eos-c07",
+    "eos-c01",
+    "eos-c06",
+    "eos-c05"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One winged goddess Eos, choosing her own-wing form rather than chariot variant.",
+      "claim_ids": [
+        "eos-c07"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Rosy dawn light dispersing the night mists.",
+      "claim_ids": [
+        "eos-c01",
+        "eos-c06"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Rising from Oceanus at beginning of day.",
+      "claim_ids": [
+        "eos-c05"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Full Grecian draped garments and rose-gold feather details are editorial rendering.",
+    "No chariot, horses or later-story tears combined with selected winged emergence."
+  ],
+  "old_url": "/assets/art/eos-verified.webp",
+  "old_webp_sha256": "bfd619e92e0cbffc84384a77d1a811f554ffe33b00f18f84b0cca587e5a05e6a",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/eos.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": "090630e98dfdc90ec8f12b8550d17cd575e0cff651dce17524d7458c07025e59",
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/eos.png",
+  "native_sha256": "2f9ad4900b569efa3e132af996ede83ff628df5859ea50bac400d54763fa20ce",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-c280b14e-160e-4354-819e-b36eecc55c47.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Native inspected: single fully clothed winged goddess with exactly two feather wings and two arms, rising above sea; immense rosy dawn with night mist dispersing. No chariot variant mixing, extra anatomy, attack rays, text, watermark or gore.",
+    "native_sha256": "2f9ad4900b569efa3e132af996ede83ff628df5859ea50bac400d54763fa20ce",
+    "reviewed_at": "2026-10-06T07:53:18.200Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "2f9ad4900b569efa3e132af996ede83ff628df5859ea50bac400d54763fa20ce",
+    "notes": "Winged dawn goddess rising from the sea with rosy light dispersing the night; wings and dawn effect follow the documented form."
+  },
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00"
+}

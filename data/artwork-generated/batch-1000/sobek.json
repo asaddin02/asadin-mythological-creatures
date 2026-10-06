@@ -1,45 +1,61 @@
 {
   "slug": "sobek",
-  "prompt": "Sobek in explicitly recorded MAN WITH CROCODILE HEAD variant: imposing Ancient Egyptian protective deity with one long crocodile head on upright human torso, exactly two human arms, two human legs and human feet. Wearing plain linen kilt and editorial gold collar, full figure beside the Nile and a temple flood basin. Reptile snout and jaws unmistakable; NO whole crocodile quadruped, no tail, no additional animal heads or borrowed horns. Dignified divine presence through human-crocodile anatomy and temple setting; no aura. Separate revised illustration for a scholarly mythology catalogue. Detailed naturalistic painterly mythic scene, coherent anatomy, portrait or square composition. Identity must be visible through the cited documented variant/episode; no invented creature anatomy beyond the specified variant. No lettering, watermark, generic neon/aura/energy ribbons/magic smoke or glowing eyes. Clothing, colours and minor environmental staging are editorial choices.",
-  "generated_file": "/home/asadin/.codex/generated_images/01a10c87-fb56-7d23-b539-5632fd33c070/exec-ecb66d7e-8d5c-4ba0-ba61-25d93edcea06.png",
-  "depicted_variant": "Sobek in explicitly recorded MAN WITH CROCODILE HEAD variant: imposing Ancient Egyptian protective deity with one long crocodile head on upright human torso, exactly two human arms, two human legs and human feet. Wearing plain linen kilt and editorial gold collar, full figure beside the Nile and a temple flood basin. Reptile snout and jaws unmistakable; NO whole crocodile quadruped, no tail, no additional animal heads or borrowed horns. Dignified divine presence through human-crocodile anatomy and temple setting; no aura.",
+  "prompt": "Square original premium painterly Egyptian mythology illustration of SOBEK, one male human body with ONE anatomically realistic CROCODILE HEAD c01, long distinct crocodilian snout toothed mouth and reptile eyes. Fully clothed dignified ancient linen robes with gold accessories, two human arms and two legs, NO tail horns wings extra heads or weapons. Water god linked to Nile floods and fertility c09,c12: commanding benevolent protective stance amid massively surging NILE FLOOD WATERS, powerful brown-silver current and foam around stone foreground, lush wetland banks and tiny distant Egyptian buildings. Low monumental camera, enormous silhouette, dark water against golden bright sunlight, regal fierce protective expression. Water visibly powerful domain staging, no fire lightning beams or weapon glow. Rich detailed naturalistic painterly texture, no readable text hieroglyphs watermark logo border gore nudity or movie/game/anime/comic designs.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-18bbe30d-fb0d-4cc3-a06f-450a47293439.png",
+  "depicted_variant": "Crocodile-headed Sobek with documented Nile water and fertility domain.",
   "basis_claim_ids": [
     "sobek-c01",
     "sobek-c09",
     "sobek-c12"
   ],
   "visual_requirements": [
-    "Documented variant or episode clearly visible",
-    "Coherent required anatomy",
-    "No generic aura"
+    {
+      "kind": "anatomy",
+      "description": "One crocodile-headed man Sobek.",
+      "claim_ids": [
+        "sobek-c01"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Nile flood and fertile wetlands domain.",
+      "claim_ids": [
+        "sobek-c09",
+        "sobek-c12"
+      ]
+    }
   ],
-  "aura": "None; environmental sunlight/moonlight/fire only.",
+  "aura": "Surging Nile flood waters, c09,c12, visibly powerful water domain.",
   "artistic_choices": [
     "Exact Nile-crocodile surface detail, bank arrangement and afternoon lighting are editorial naturalistic interpretation; rear tail approaches the left frame edge."
   ],
   "visual_review": {
     "verdict": "pass",
-    "reviewer": "inspect_workspace",
-    "notes": "Crocodile-headed man with two human arms/legs/feet at Nile temple. Ankh, staff and striped headcloth are artistic props, not separate source claims."
+    "reviewer": "codex",
+    "notes": "Native inspected: one realistic crocodile head on fully clothed man body, two coherent arms and legs, monumental surging fertile Nile floods under natural golden sun. No added horns/wings/tail/weapons, text, watermark or gore; water domain visually explicit.",
+    "native_sha256": "d2b5bf977ce72b8b2a079712a8ee9a36bf7eab9efc1e18a65cbbd895d2d56e32",
+    "reviewed_at": "2026-10-06T08:05:30.628Z"
   },
   "worker": "root",
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-046.review.json",
   "reviewed_at": "2026-10-05",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/sobek-mythic-presence.png",
-  "native_sha256": "c222b79eac590b9c7fc22e2a94e7e17053d57cb5ecbb89abac10341d62e810c1",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/sobek.png",
+  "native_sha256": "d2b5bf977ce72b8b2a079712a8ee9a36bf7eab9efc1e18a65cbbd895d2d56e32",
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "root",
-    "native_sha256": "c222b79eac590b9c7fc22e2a94e7e17053d57cb5ecbb89abac10341d62e810c1",
-    "notes": "Inspected native: unmistakable crocodile head on upright human male torso, two human hands and feet, temple/Nile setting. Protective divine hybrid follows source; staff, ankh and headcloth are editorial ornaments, no tail or extra animal limbs.",
-    "reviewed_at": "2026-10-05T18:12:41.646678+00:00"
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "d2b5bf977ce72b8b2a079712a8ee9a36bf7eab9efc1e18a65cbbd895d2d56e32",
+    "notes": "Crocodile-headed god standing in the surging Nile flood near palm groves, matching the water and fertility domain."
   },
   "independent_visual_review": {
     "verdict": "pass",
-    "reviewer": "inspect_workspace",
-    "notes": "Crocodile-headed man with two human arms/legs/feet at Nile temple. Ankh, staff and striped headcloth are artistic props, not separate source claims."
+    "reviewer": "codex",
+    "notes": "Native inspected: one realistic crocodile head on fully clothed man body, two coherent arms and legs, monumental surging fertile Nile floods under natural golden sun. No added horns/wings/tail/weapons, text, watermark or gore; water domain visually explicit.",
+    "native_sha256": "d2b5bf977ce72b8b2a079712a8ee9a36bf7eab9efc1e18a65cbbd895d2d56e32",
+    "reviewed_at": "2026-10-06T08:05:30.628Z"
   },
   "presentation_revision_history": [
     {
@@ -87,30 +103,146 @@
         "native_sha256": "1cff0a1aed503009a7e0da9fa9d8db8b7ccfeab7dcf6d18f2f54c71e3fe15ab1",
         "reviewed_at": "2026-10-05T11:19:25.906583+00:00"
       }
+    },
+    {
+      "slug": "sobek",
+      "prompt": "Sobek in explicitly recorded MAN WITH CROCODILE HEAD variant: imposing Ancient Egyptian protective deity with one long crocodile head on upright human torso, exactly two human arms, two human legs and human feet. Wearing plain linen kilt and editorial gold collar, full figure beside the Nile and a temple flood basin. Reptile snout and jaws unmistakable; NO whole crocodile quadruped, no tail, no additional animal heads or borrowed horns. Dignified divine presence through human-crocodile anatomy and temple setting; no aura. Separate revised illustration for a scholarly mythology catalogue. Detailed naturalistic painterly mythic scene, coherent anatomy, portrait or square composition. Identity must be visible through the cited documented variant/episode; no invented creature anatomy beyond the specified variant. No lettering, watermark, generic neon/aura/energy ribbons/magic smoke or glowing eyes. Clothing, colours and minor environmental staging are editorial choices.",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10c87-fb56-7d23-b539-5632fd33c070/exec-ecb66d7e-8d5c-4ba0-ba61-25d93edcea06.png",
+      "depicted_variant": "Sobek in explicitly recorded MAN WITH CROCODILE HEAD variant: imposing Ancient Egyptian protective deity with one long crocodile head on upright human torso, exactly two human arms, two human legs and human feet. Wearing plain linen kilt and editorial gold collar, full figure beside the Nile and a temple flood basin. Reptile snout and jaws unmistakable; NO whole crocodile quadruped, no tail, no additional animal heads or borrowed horns. Dignified divine presence through human-crocodile anatomy and temple setting; no aura.",
+      "basis_claim_ids": [
+        "sobek-c01",
+        "sobek-c09",
+        "sobek-c12"
+      ],
+      "visual_requirements": [
+        "Documented variant or episode clearly visible",
+        "Coherent required anatomy",
+        "No generic aura"
+      ],
+      "aura": "None; environmental sunlight/moonlight/fire only.",
+      "artistic_choices": [
+        "Exact Nile-crocodile surface detail, bank arrangement and afternoon lighting are editorial naturalistic interpretation; rear tail approaches the left frame edge."
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "inspect_workspace",
+        "notes": "Crocodile-headed man with two human arms/legs/feet at Nile temple. Ankh, staff and striped headcloth are artistic props, not separate source claims."
+      },
+      "worker": "root",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-046.review.json",
+      "reviewed_at": "2026-10-05",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/sobek-mythic-presence.png",
+      "native_sha256": "c222b79eac590b9c7fc22e2a94e7e17053d57cb5ecbb89abac10341d62e810c1",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "native_sha256": "c222b79eac590b9c7fc22e2a94e7e17053d57cb5ecbb89abac10341d62e810c1",
+        "notes": "Inspected native: unmistakable crocodile head on upright human male torso, two human hands and feet, temple/Nile setting. Protective divine hybrid follows source; staff, ankh and headcloth are editorial ornaments, no tail or extra animal limbs.",
+        "reviewed_at": "2026-10-05T18:12:41.646678+00:00"
+      },
+      "independent_visual_review": {
+        "verdict": "pass",
+        "reviewer": "inspect_workspace",
+        "notes": "Crocodile-headed man with two human arms/legs/feet at Nile temple. Ankh, staff and striped headcloth are artistic props, not separate source claims."
+      },
+      "presentation_revision_history": [
+        {
+          "slug": "sobek",
+          "prompt": "Use case: stylized-concept. Square premium painterly naturalistic mythology encyclopedia illustration of SOBEK in his documented complete CROCODILE FORM. One anatomically coherent Nile crocodile resting alert on a muddy marsh bank beside calm Nile water and papyrus, long crocodilian snout, armoured scale plates, four short reptile legs, long tapered tail. Ordinary crocodile scale relative to reeds, full animal visible. Powerful protective and slightly ominous presence through low perspective, alert eyes and angled afternoon natural sunlight; earthy olive and warm stone palette, tactile wet scales. Natural river-bank layout is editorial staging. Select actual animal form, not crocodile-headed human; no human limbs, invented huge size, crowns, jewelry, wings, glowing aura, neon outlines, energy ribbons or luminous colored mist. No prey, other characters, blood, text, labels or watermark.",
+          "generated_file": "/home/asadin/.codex/generated_images/01a10bb1-8e46-7c61-8c86-34349121a53c/exec-ab970b32-34b8-4468-ab62-d727025dda71.png",
+          "depicted_variant": "Complete crocodile form of Sobek in Nile marsh habitat.",
+          "basis_claim_ids": [
+            "sobek-c01",
+            "sobek-c03",
+            "sobek-c10"
+          ],
+          "visual_requirements": [
+            "One coherent crocodile with long snout, scale plates, short reptilian limbs and tapering tail",
+            "Ordinary crocodile scale beside papyrus and Nile water",
+            "Protective alert presence without hybrid human body or added magic"
+          ],
+          "aura": "Low-angle alert eyes, imposing armoured skin and natural warm marsh light.",
+          "artistic_choices": [
+            "Exact Nile-crocodile surface detail, bank arrangement and afternoon lighting are editorial naturalistic interpretation; rear tail approaches the left frame edge."
+          ],
+          "visual_review": {
+            "verdict": "pass",
+            "reviewer": "root",
+            "notes": "Inspected native: one coherent crocodile on a muddy reed bank with elongated snout, armoured scales, short legs and rear tail toward frame edge, ordinary reed-relative scale. Warm natural light; no human limbs, ornaments or magical aura."
+          },
+          "worker": "root",
+          "tool": "OpenAI built-in image_gen",
+          "status": "reviewed",
+          "review_path": "data/gemini/reviews/batch-046.review.json",
+          "reviewed_at": "2026-10-05",
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/sobek.png",
+          "native_sha256": "1cff0a1aed503009a7e0da9fa9d8db8b7ccfeab7dcf6d18f2f54c71e3fe15ab1",
+          "root_visual_review": {
+            "verdict": "pass",
+            "reviewer": "worker-2",
+            "notes": "Independent actual native PNG inspection: one natural crocodile with coherent reptilian head/snout, armored back, short limbs and tail leading toward left frame edge. Ordinary reed-relative scale and warm natural river light. No human hybrid, ornaments or generic magical aura; consistent with crocodile form c01/c10 and marsh setting.",
+            "native_sha256": "1cff0a1aed503009a7e0da9fa9d8db8b7ccfeab7dcf6d18f2f54c71e3fe15ab1",
+            "reviewed_at": "2026-10-05T11:19:25.906583+00:00"
+          },
+          "independent_visual_review": {
+            "verdict": "pass",
+            "reviewer": "worker-2",
+            "notes": "Independent actual native PNG inspection: one natural crocodile with coherent reptilian head/snout, armored back, short limbs and tail leading toward left frame edge. Ordinary reed-relative scale and warm natural river light. No human hybrid, ornaments or generic magical aura; consistent with crocodile form c01/c10 and marsh setting.",
+            "native_sha256": "1cff0a1aed503009a7e0da9fa9d8db8b7ccfeab7dcf6d18f2f54c71e3fe15ab1",
+            "reviewed_at": "2026-10-05T11:19:25.906583+00:00"
+          }
+        }
+      ],
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/sobek.json",
+        "native_sha256": "c222b79eac590b9c7fc22e2a94e7e17053d57cb5ecbb89abac10341d62e810c1",
+        "old_url": "/assets/art/sobek-verified.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/sobek.png",
+        "old_webp_sha256": "44da7407b9a3ad2b4eed910c22eca4d0aa8419a159dca396f97479d1bf2faf64",
+        "old_native_sha256": "1cff0a1aed503009a7e0da9fa9d8db8b7ccfeab7dcf6d18f2f54c71e3fe15ab1",
+        "rationale": "Replaces passive ordinary animal presentation with the stronger explicitly documented variant/episode recorded in assigned research.",
+        "basis_claim_ids": [
+          "sobek-c01",
+          "sobek-c09",
+          "sobek-c12"
+        ]
+      },
+      "url": "/assets/art/sobek-mythic-presence.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6c11e80dca12bb14801930d5ee41b6b89e388eaeede9ce896c195ec0f7f46e80",
+      "revision_generator": "inspect_workspace",
+      "artistic_changes": [
+        "Clothing, coat colours, human age/appearance, material ornament and environmental arrangement are editorial staging.",
+        "Ankh, staff, striped headcloth and jewelry are editorial divine props."
+      ]
     }
   ],
   "presentation_revision": {
-    "ledger": "data/artwork-presentation-revision-1000.json",
-    "receipt_path": "data/artwork-generated/presentation-revision-1000/sobek.json",
-    "native_sha256": "c222b79eac590b9c7fc22e2a94e7e17053d57cb5ecbb89abac10341d62e810c1",
-    "old_url": "/assets/art/sobek-verified.webp",
-    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/sobek.png",
-    "old_webp_sha256": "44da7407b9a3ad2b4eed910c22eca4d0aa8419a159dca396f97479d1bf2faf64",
-    "old_native_sha256": "1cff0a1aed503009a7e0da9fa9d8db8b7ccfeab7dcf6d18f2f54c71e3fe15ab1",
-    "rationale": "Replaces passive ordinary animal presentation with the stronger explicitly documented variant/episode recorded in assigned research.",
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/sobek.json",
+    "native_sha256": "d2b5bf977ce72b8b2a079712a8ee9a36bf7eab9efc1e18a65cbbd895d2d56e32",
+    "old_url": "/assets/art/sobek-mythic-presence.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/sobek-mythic-presence.png",
+    "old_webp_sha256": "6c11e80dca12bb14801930d5ee41b6b89e388eaeede9ce896c195ec0f7f46e80",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
     "basis_claim_ids": [
       "sobek-c01",
       "sobek-c09",
       "sobek-c12"
     ]
   },
-  "url": "/assets/art/sobek-mythic-presence.webp",
+  "url": "/assets/art/sobek-presentation-revision-nama-besar.webp",
   "width": 1254,
   "height": 1254,
-  "sha256": "6c11e80dca12bb14801930d5ee41b6b89e388eaeede9ce896c195ec0f7f46e80",
-  "revision_generator": "inspect_workspace",
+  "sha256": "07b964ad103b1160f617f5bd7cf4a10b83fa17cd97f6f3943e40bb519d4d4997",
+  "revision_generator": "codex",
   "artistic_changes": [
-    "Clothing, coat colours, human age/appearance, material ornament and environmental arrangement are editorial staging.",
-    "Ankh, staff, striped headcloth and jewelry are editorial divine props."
+    "Full linen garments and gold decorative accessories editorial; no source-absent weapons or horned crown.",
+    "Flood is domain visualization, not unsupported fire/lightning."
   ]
 }

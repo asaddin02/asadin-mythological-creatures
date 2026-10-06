@@ -3,22 +3,40 @@
   "worker": "regen-1",
   "status": "reviewed",
   "tool": "OpenAI built-in image_gen",
-  "prompt": "ONE VAMANA in the historically documented FOUR-ARM form of LACMA circa400 relief M.81.240. Calm wise adult divine face, compact short-statured proportions, short curly dark hair with a small religious student topknot, UNCROWNED. EXACTLY FOUR bodily arms, TWO each side, all four hands distinctly visible and separated. His upper RIGHT hand holds a plain ceremonial MACE; lower RIGHT hand charity gesture palm open downward. Upper LEFT hand holds a small gold CHAKRA discus; lower LEFT holds a white CONCH SHELL. Exactly TWO legs, ONE head. Opaque modest walnut and antique gold draped waistcloth to below knees, sacred thread across torso, restrained religious ornament. Whole four-arm figure standing frontal on a low stone temple platform in forest-green grove, head to feet and all hands fully within SQUARE frame ample margins. Detailed painterly textures, warm gold sacred light, humble wise divine presence with quiet cosmic authority. Do not generate ordinary two-arm human, child portrait, generic monster, horns, fangs, wings, extra head, extra arms, duplicate hands, umbrella hiding hands, other people, text, signature, watermark or border.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/reviewed-images/vamana.png",
+  "prompt": "Edit this Vamana Trivikrama image to make the TWO-ARM anatomy completely clear. Keep the cosmic giant stride, exactly TWO LEGS (one foot on earth, one raised to heaven), youthful Brahmin face, umbrella and kamandalu vessel, modest clothes, low angle and epic world/sky scale. The umbrella should be held by ONE LEFT-SIDE arm with its own clear shoulder on image left. Move the kamandalu vessel and the OTHER ARM to IMAGE RIGHT beside the torso; this arm must visibly attach to the opposite shoulder, never both arms emerging on the same side. Exactly one hand holds umbrella and exactly one hand holds water vessel; no third arm/hand or extra limbs. Also add opaque drape across currently bare chest so fully modest clothing. No crowns/halos/text/extra divine attributes. Preserve all other composition.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/vamana.png",
   "workspace_original": "data/artwork-generated/regeneration-139/reviewed-images/vamana.png",
   "review_path": "data/gemini/reviews/batch-115.review.json",
-  "depicted_variant": "Four-armed Vamana iconographic form documented by LACMA M.81.240",
+  "depicted_variant": "One respectful monumental depiction of Vamana in the TRIVIKRAMA growth episode: a modestly clothed youthful human Brahmin grows to COSMIC SCALE, one foot spanning earth and next stride reaching heaven. Ordinary human body, two arms and two legs, no additional limbs. One hand holds a plain umbrella, the other a kamandalu water vessel; fully clothed modest sacred robes. Small world landscape below and immense cloud/star dome establish the documented three-world strides. Majestic benevolent light, no text, no aggression or distorted body. Do not blend with blue four-armed Vishnu or infant nudity.",
   "visual_requirements": [
-    "Exactly four arms, two each side",
-    "Two legs, one head with short curly topknotted hair",
-    "Upper hands carry mace and discus; lower hands charity gesture and conch"
+    {
+      "kind": "anatomy",
+      "description": "One respectful monumental depiction of Vamana in the TRIVIKRAMA growth episode: a modestly clothed youthful human Brahmin grows to COSMIC SCALE, one foot spanning earth and next stride reaching heaven. Ordinary human body, two arms and two legs, no additional limbs. One hand holds a plain umbrella, the other a kamandalu water vessel; fully clothed modest sacred robes. Small world landscape below and immense cloud/star dome establish the documented three-world strides. Majestic benevolent light, no text, no aggression or distorted body. Do not blend with blue four-armed Vishnu or infant nudity.",
+      "claim_ids": [
+        "vamana-c01",
+        "vamana-c05",
+        "vamana-c07",
+        "vamana-c08",
+        "vamana-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Cosmic-scale expansion and heaven/earth-spanning stride; basis: documented growth and three strides reclaiming worlds",
+      "claim_ids": [
+        "vamana-c01",
+        "vamana-c05",
+        "vamana-c07",
+        "vamana-c08",
+        "vamana-c10"
+      ]
+    }
   ],
   "basis_claim_ids": [
     "vamana-c01",
-    "vamana-c02",
-    "vamana-c03",
     "vamana-c05",
     "vamana-c07",
+    "vamana-c08",
     "vamana-c10"
   ],
   "additional_sources": [
@@ -28,24 +46,179 @@
       "purpose": "Primary museum artwork and curatorial description verify four-arm Vamana iconographic form and attributes."
     }
   ],
-  "aura": "Humble wise divine presence with calm cosmic authority",
+  "aura": "Cosmic-scale expansion and heaven/earth-spanning stride",
   "visual_review": {
     "verdict": "pass",
-    "notes": "Individually inspected: exactly two arms each side/four hands total, mace in upper anatomical right, charity gesture lower right, discus upper left, conch lower left. One curly topknotted uncrowned head and two legs. Entire figure visible; four-arm anatomy makes nonhuman divine form independent of compact stature. Quiet wise sacred aura."
+    "reviewer": "codex",
+    "notes": "Viewed corrected PNG: exactly two arms from opposite shoulders, umbrella held image-left and kamandalu held image-right; exactly two legs with one foot earthward and other toward heaven. Opaque chest cloth added. Cosmic scale visibly follows growth/stride claims; galaxies and palace architecture are symbolic editorial setting, no extra limbs or text.",
+    "native_sha256": "f51edfea78a6703ba01445cc400c02ffbf998db8b9fed3abca161ebc4b883119",
+    "reviewed_at": "2026-10-06T08:03:51.442Z"
   },
   "nonhuman_features": [
-    "Exactly four arms, two each side",
-    "Two legs, one head with short curly topknotted hair",
-    "Upper hands carry mace and discus; lower hands charity gesture and conch"
+    {
+      "kind": "anatomy",
+      "description": "One respectful monumental depiction of Vamana in the TRIVIKRAMA growth episode: a modestly clothed youthful human Brahmin grows to COSMIC SCALE, one foot spanning earth and next stride reaching heaven. Ordinary human body, two arms and two legs, no additional limbs. One hand holds a plain umbrella, the other a kamandalu water vessel; fully clothed modest sacred robes. Small world landscape below and immense cloud/star dome establish the documented three-world strides. Majestic benevolent light, no text, no aggression or distorted body. Do not blend with blue four-armed Vishnu or infant nudity.",
+      "claim_ids": [
+        "vamana-c01",
+        "vamana-c05",
+        "vamana-c07",
+        "vamana-c08",
+        "vamana-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Cosmic-scale expansion and heaven/earth-spanning stride; basis: documented growth and three strides reclaiming worlds",
+      "claim_ids": [
+        "vamana-c01",
+        "vamana-c05",
+        "vamana-c07",
+        "vamana-c08",
+        "vamana-c10"
+      ]
+    }
   ],
   "accuracy_mode": "source-supported",
   "invented_anatomy": [],
-  "historical_basis": "LACMA's circa-400 Vamana relief and curatorial description explicitly document four arms, uncrowned short curly hair/topknot, mace, discus, charity gesture and conch. Short stature follows reviewed naming while limb anomaly is independent of size.",
+  "historical_basis": [
+    {
+      "id": "vamana-c01",
+      "source_id": "vamana-s1",
+      "quote": "is an avatar of the Hindu deity Vishnu. He is the fifth avatar of Vishnu and the first Dashavatara in the Treta Yuga, after Narasimha. First mentioned in the Vedas, Vamana is most commonly associated in the Hindu epics and Puranas with the story of taking back the three worlds (collectively referred to as the Trailokya) from the daitya-king Mahabali by taking three steps",
+      "locator": null,
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Vamana adalah awatara kelima dewa Hindu Vishnu (Wisnu), Dashavatara pertama di Treta Yuga sesudah Narasimha, yang dalam Weda (Vedas) dan Purana merebut tiga dunia (Trailokya) dari Mahabali dengan tiga langkah (three steps).",
+        "en": "Vamana is the fifth avatar of the Hindu deity Vishnu, the first Dashavatara of the Treta Yuga after Narasimha, who in the Vedas and Puranas takes back the three worlds (Trailokya) from Mahabali with three steps."
+      }
+    },
+    {
+      "id": "vamana-c05",
+      "source_id": "vamana-s2",
+      "quote": "Wamana dilukiskan sebagai brahmana dengan raga anak kecil yang membawa kamandalu dan payung. Wamana kadang-kadang dikenal juga dengan sebutan Upendra",
+      "locator": null,
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Wamana dilukiskan sebagai brahmana berraga anak kecil membawa kamandalu dan payung, juga disebut Upendra.",
+        "en": "Wamana is shown as a brahmin (brahmana) in a child's body with a kamandalu and umbrella (payung), also called Upendra."
+      }
+    },
+    {
+      "id": "vamana-c07",
+      "source_id": "vamana-s2",
+      "quote": "brahmana kecil itu meminta tanah seluas tiga jengkal yang diukur dengan langkah kakinya. Raja Bali pun takabur dan melupakan nasihat Sukracarya, dan menyuruh brahmana kecil itu melangkah. Pada waktu itu juga, brahmana tersebut membesar dan terus membesar. Dengan ukurannya yang sangat besar, ia mampu melangkah di surga dan bumi sekaligus.",
+      "locator": null,
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Brahmana kecil meminta tanah tiga langkah; Raja Bali mengabulkan, lalu brahmana itu membesar hingga melangkah di surga dan bumi sekaligus.",
+        "en": "The little brahmin asked for land of three strides; King Bali (Raja Bali) granted it, and the brahmin grew until he strode over heaven (surga) and earth (bumi) at once."
+      }
+    },
+    {
+      "id": "vamana-c08",
+      "source_id": "vamana-s2",
+      "quote": "Pada langkah yang pertama, ia menginjak swarga. Pada langkah yang kedua, ia menginjak bumi. Pada langkah yang ketiga, karena tidak ada lahan untuknya berpijak, maka Bali menyerahkan kepalanya.",
+      "locator": null,
+      "context": "religious-tradition",
+      "statement": {
+        "id": "Langkah pertama menginjak swarga, kedua bumi, dan untuk langkah ketiga Bali menyerahkan kepalanya.",
+        "en": "His first step trod swarga, the second the earth (bumi), and for the third Bali offered his head (kepalanya)."
+      }
+    },
+    {
+      "id": "vamana-c10",
+      "source_id": "vamana-s1",
+      "quote": "'Trivikrama' त्रिविक्रम 'three steps' or 'three strides' (tri 'three' + vikrama 'step' or 'stride'). This epithet refers to the three steps or strides of Vishnu in the Rigveda.",
+      "locator": null,
+      "context": "etymology",
+      "statement": {
+        "id": "Julukan Trivikrama berarti tiga langkah (three steps), merujuk tiga langkah Wisnu (Vishnu) dalam Rigveda.",
+        "en": "The epithet Trivikrama means three steps, referring to Vishnu's three strides in the Rigveda."
+      }
+    }
+  ],
   "artistic_changes": "Walnut-gold opaque waistcloth and forest temple setting are aesthetic presentation; no extra anatomical traits.",
   "reviewed_at": "2026-10-04T15:31:16.387Z",
   "root_visual_review": {
     "verdict": "pass",
-    "notes": "Individually viewed original. Four separate arms/hands: mace and charity gesture anatomical right, discus and conch left. One curly topknotted head and two feet. Sacred calm figure matches specified four-arm museum variant.",
-    "reviewed_at": "2026-10-04T16:18:48.411171+00:00"
-  }
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "f51edfea78a6703ba01445cc400c02ffbf998db8b9fed3abca161ebc4b883119",
+    "notes": "Brahmin with umbrella and water pot growing to cosmic scale, one stride covering the earth and the next reaching heaven."
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "vamana",
+      "worker": "regen-1",
+      "status": "reviewed",
+      "tool": "OpenAI built-in image_gen",
+      "prompt": "ONE VAMANA in the historically documented FOUR-ARM form of LACMA circa400 relief M.81.240. Calm wise adult divine face, compact short-statured proportions, short curly dark hair with a small religious student topknot, UNCROWNED. EXACTLY FOUR bodily arms, TWO each side, all four hands distinctly visible and separated. His upper RIGHT hand holds a plain ceremonial MACE; lower RIGHT hand charity gesture palm open downward. Upper LEFT hand holds a small gold CHAKRA discus; lower LEFT holds a white CONCH SHELL. Exactly TWO legs, ONE head. Opaque modest walnut and antique gold draped waistcloth to below knees, sacred thread across torso, restrained religious ornament. Whole four-arm figure standing frontal on a low stone temple platform in forest-green grove, head to feet and all hands fully within SQUARE frame ample margins. Detailed painterly textures, warm gold sacred light, humble wise divine presence with quiet cosmic authority. Do not generate ordinary two-arm human, child portrait, generic monster, horns, fangs, wings, extra head, extra arms, duplicate hands, umbrella hiding hands, other people, text, signature, watermark or border.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/reviewed-images/vamana.png",
+      "workspace_original": "data/artwork-generated/regeneration-139/reviewed-images/vamana.png",
+      "review_path": "data/gemini/reviews/batch-115.review.json",
+      "depicted_variant": "Four-armed Vamana iconographic form documented by LACMA M.81.240",
+      "visual_requirements": [
+        "Exactly four arms, two each side",
+        "Two legs, one head with short curly topknotted hair",
+        "Upper hands carry mace and discus; lower hands charity gesture and conch"
+      ],
+      "basis_claim_ids": [
+        "vamana-c01",
+        "vamana-c02",
+        "vamana-c03",
+        "vamana-c05",
+        "vamana-c07",
+        "vamana-c10"
+      ],
+      "additional_sources": [
+        {
+          "url": "https://collections.lacma.org/object/44179",
+          "title": "LACMA: Vamana, the Dwarf Avatar of Vishnu, circa 400, M.81.240",
+          "purpose": "Primary museum artwork and curatorial description verify four-arm Vamana iconographic form and attributes."
+        }
+      ],
+      "aura": "Humble wise divine presence with calm cosmic authority",
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Individually inspected: exactly two arms each side/four hands total, mace in upper anatomical right, charity gesture lower right, discus upper left, conch lower left. One curly topknotted uncrowned head and two legs. Entire figure visible; four-arm anatomy makes nonhuman divine form independent of compact stature. Quiet wise sacred aura."
+      },
+      "nonhuman_features": [
+        "Exactly four arms, two each side",
+        "Two legs, one head with short curly topknotted hair",
+        "Upper hands carry mace and discus; lower hands charity gesture and conch"
+      ],
+      "accuracy_mode": "source-supported",
+      "invented_anatomy": [],
+      "historical_basis": "LACMA's circa-400 Vamana relief and curatorial description explicitly document four arms, uncrowned short curly hair/topknot, mace, discus, charity gesture and conch. Short stature follows reviewed naming while limb anomaly is independent of size.",
+      "artistic_changes": "Walnut-gold opaque waistcloth and forest temple setting are aesthetic presentation; no extra anatomical traits.",
+      "reviewed_at": "2026-10-04T15:31:16.387Z",
+      "root_visual_review": {
+        "verdict": "pass",
+        "notes": "Individually viewed original. Four separate arms/hands: mace and charity gesture anatomical right, discus and conch left. One curly topknotted head and two feet. Sacred calm figure matches specified four-arm museum variant.",
+        "reviewed_at": "2026-10-04T16:18:48.411171+00:00"
+      }
+    }
+  ],
+  "native_sha256": "f51edfea78a6703ba01445cc400c02ffbf998db8b9fed3abca161ebc4b883119",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/vamana.json",
+    "native_sha256": "f51edfea78a6703ba01445cc400c02ffbf998db8b9fed3abca161ebc4b883119",
+    "old_url": "/assets/art/vamana-regeneration-139.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/reviewed-images/vamana.png",
+    "old_webp_sha256": "1f07fed21f519cf4b4cd11fa5c9bf18b5a21d966d283f9f33c40b8d614babd96",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "vamana-c01",
+      "vamana-c05",
+      "vamana-c07",
+      "vamana-c08",
+      "vamana-c10"
+    ]
+  },
+  "url": "/assets/art/vamana-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "dd25fca3acdf03afaf1a66f3d250e8e120f4bde84c7a59bde8b240478b0b9e79"
 }

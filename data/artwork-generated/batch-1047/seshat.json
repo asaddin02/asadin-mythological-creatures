@@ -1,0 +1,43 @@
+{
+  "slug": "seshat",
+  "prompt": "Use case: stylized-concept. Square premium Mythics painterly illustration, monumental low viewpoint, tiny environmental scale references, cinematic natural lighting, rich brush texture, strong silhouette, no text, logo, watermark, border, gore, nudity or film/game/anime imitation. SESHAT, majestic Egyptian goddess of writing, books and measurements (seshat-c01,c02), one respectfully clothed woman with one head two arms, long modest linen dress, seven-pointed emblem clearly above her head (seshat-c05). She performs stretching-the-cord foundation measurement ritual (seshat-c03), both hands gripping ONE measuring cord across enormous temple foundation stones. No legible writing. Tall columns and distant tiny temple structures show monumental scale. Natural warm shafts of sunrise, serene commanding scholarly authority. No invented emitted magic, no floating glyphs, no solar disk or unsupported weapons.\nRevision instruction: Edit only headdress emblem: EXACTLY SEVEN gold narrow rays/leaves, one straight vertical ray at12o'clock and THREE rays on left THREE on right, total7. No bottom vertical ray; do not make8-point star. Keep everything else unchanged, one clothed Egyptian woman two arms holding measuring cord temple scene, no text.",
+  "depicted_variant": "Seven-pointed-emblem goddess performing cord measurement.",
+  "basis_claim_ids": [
+    "seshat-c01",
+    "seshat-c02",
+    "seshat-c03",
+    "seshat-c05"
+  ],
+  "visual_requirements": [
+    "One modestly clothed woman with seven-pointed emblem (seshat-c05)",
+    "Cord measurement ritual (seshat-c03)",
+    "Writing/books/measurement environment, no readable glyphs (seshat-c01,c02)"
+  ],
+  "aura": "Natural cinematic temple light; no emitted power effects.",
+  "artistic_choices": [
+    "Research documents knowledge and measurement rather than emitted power. Majesty uses perspective, architecture and natural light; exact dress is conservative editorial rendering.",
+    "Rejected first attempt retained in rejected/seshat-attempt-1.png for eight-point emblem; corrected using built-in image editing."
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "notes": "Native edited output viewed: seven narrow gold rays above head (one central, three each side), modest two-arm woman measuring with cord; original eight-point attempt retained.",
+    "reviewer": "codex",
+    "native_sha256": "438683da191926ef7a6122ce756a0e60a7d0b6d2aa8913f55b22717a73b8908c"
+  },
+  "generated_file": "/home/asadin/.codex/generated_images/01a11024-55c8-7c93-8727-a166e5328535/exec-638da0fe-131b-402d-b859-3bd01e9109c7.png",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/batch-1047/originals/seshat.png",
+  "native_sha256": "438683da191926ef7a6122ce756a0e60a7d0b6d2aa8913f55b22717a73b8908c",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "needs-correction",
+  "review_path": "data/gemini/reviews/batch-077.review.json",
+  "reviewed_at": "2026-10-06T07:54:33.017336+00:00",
+  "root_visual_review": {
+    "verdict": "reject",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "438683da191926ef7a6122ce756a0e60a7d0b6d2aa8913f55b22717a73b8908c",
+    "notes": "Ordinary woman measuring with a cord."
+  },
+  "correction_notes": "Ordinary woman measuring with a cord."
+}

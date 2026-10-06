@@ -349,23 +349,98 @@
     },
     {
       "slug": "nandi-hinduism",
-      "prompt": "Use case: stylized-concept. Square folklore encyclopedia illustration, detailed painterly naturalistic fantasy, entire identifying anatomy within frame with margin. Add a little horror: dramatic chiaroscuro, thin fog, deep shadows, uncanny atmosphere; benevolent beings stay numinous rather than evil. Features remain readable. One subject. No text, frame, watermark, gore, or invented extra anatomy. Subject: Nandi, Shiva's sacred bull guardian, respectful numinous representation of a seated stone bull image facing a Shiva temple shrine. Complete reclining bull with horns and folded legs, graceful ceremonial collar, old carved stone texture. Temple lamps illuminating powerful tranquil face through thin incense mist. Sacred awe, never evil or grotesque.",
+      "prompt": "Creature identity: nandi-hinduism. Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. One majestic dignified BULL Nandi, seated facing the main shrine at a respectfully rendered Hindu temple overlooking the mountainous Kailash landscape. Coherent natural bull anatomy, one head two natural horns, four folded bovine legs, ordinary tail; plain modest ornamental garland and cloth are artistic reverent styling. Low-angle close foreground makes seated bull immense, tiny temple columns/ distant mountain terrain establish divine guardian presence. Beautiful compassionate expression and radiant natural sunrise, no magic beam, fire or anthropomorphic face. No modern character imitation. Plain uninscribed walls, clothing and objects: no hieroglyphs, cuneiform, letters or pictographic writing. No solar-disk crown, horns or additional attributes unless explicitly specified above.",
       "basis_claims": [
         "nandi-hinduism-c01",
         "nandi-hinduism-c03"
       ],
-      "depicted_variant": "Seated sacred bull temple image",
-      "original_file": "/home/asadin/.codex/generated_images/01a10068-738d-7512-b638-058fc6f60304/exec-598347f3-40ea-4fe0-872a-0e4d3de40b16.png",
+      "depicted_variant": "One majestic dignified BULL Nandi, seated facing the main shrine at a respectfully rendered Hindu temple overlooking the mountainous Kailash landscape. Coherent natural bull anatomy, one head two natural horns, four folded bovine legs, ordinary tail; plain modest ornamental garland and cloth are artistic reverent styling. Low-angle close foreground makes seated bull immense, tiny temple columns/ distant mountain terrain establish divine guardian presence. Beautiful compassionate expression and radiant natural sunrise, no magic beam, fire or anthropomorphic face. No modern character imitation.",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/nandi-hinduism.png",
       "visual_review": {
         "verdict": "pass",
-        "notes": "Seated carved stone bull with folded limbs facing shrine, sacred numinous lamp lighting; no evil attributes."
+        "reviewer": "codex",
+        "notes": "Viewed native PNG: dignified natural bull seated with folded bovine legs, paired horns, normal tail, facing the main shrine; coherent mountain/Kailash and temple scene. Garland/cloth are modest respectful artistic ornament. Sunrise supplies majesty; no hybrid human face, invented beams or text.",
+        "native_sha256": "fb1c0f4def5274704f4bafd627ef335566c9574c5d8da2747a9481ffa4b45138",
+        "reviewed_at": "2026-10-06T08:18:04.232Z"
       },
       "status": "complete",
       "canonical_name": "Nandi (Hinduism)",
       "review_path": "data/gemini/reviews/batch-072.review.json",
-      "url": "/assets/art/nandi-hinduism-verified.webp",
+      "url": "/assets/art/nandi-hinduism-presentation-revision-nama-besar.webp",
       "width": 1254,
-      "height": 1254
+      "height": 1254,
+      "presentation_revision_history": [
+        {
+          "slug": "nandi-hinduism",
+          "prompt": "Use case: stylized-concept. Square folklore encyclopedia illustration, detailed painterly naturalistic fantasy, entire identifying anatomy within frame with margin. Add a little horror: dramatic chiaroscuro, thin fog, deep shadows, uncanny atmosphere; benevolent beings stay numinous rather than evil. Features remain readable. One subject. No text, frame, watermark, gore, or invented extra anatomy. Subject: Nandi, Shiva's sacred bull guardian, respectful numinous representation of a seated stone bull image facing a Shiva temple shrine. Complete reclining bull with horns and folded legs, graceful ceremonial collar, old carved stone texture. Temple lamps illuminating powerful tranquil face through thin incense mist. Sacred awe, never evil or grotesque.",
+          "basis_claims": [
+            "nandi-hinduism-c01",
+            "nandi-hinduism-c03"
+          ],
+          "depicted_variant": "Seated sacred bull temple image",
+          "original_file": "/home/asadin/.codex/generated_images/01a10068-738d-7512-b638-058fc6f60304/exec-598347f3-40ea-4fe0-872a-0e4d3de40b16.png",
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Seated carved stone bull with folded limbs facing shrine, sacred numinous lamp lighting; no evil attributes."
+          },
+          "status": "complete",
+          "canonical_name": "Nandi (Hinduism)",
+          "review_path": "data/gemini/reviews/batch-072.review.json",
+          "url": "/assets/art/nandi-hinduism-verified.webp",
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One majestic dignified BULL Nandi, seated facing the main shrine at a respectfully rendered Hindu temple overlooking the mountainous Kailash landscape. Coherent natural bull anatomy, one head two natural horns, four folded bovine legs, ordinary tail; plain modest ornamental garland and cloth are artistic reverent styling. Low-angle close foreground makes seated bull immense, tiny temple columns/ distant mountain terrain establish divine guardian presence. Beautiful compassionate expression and radiant natural sunrise, no magic beam, fire or anthropomorphic face. No modern character imitation.",
+          "claim_ids": [
+            "nandi-hinduism-c01",
+            "nandi-hinduism-c03",
+            "nandi-hinduism-c06"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Majestic natural sunrise at Kailash shrine; basis: documented bull mount, guardian and seated temple iconography",
+          "claim_ids": [
+            "nandi-hinduism-c01",
+            "nandi-hinduism-c03",
+            "nandi-hinduism-c06"
+          ]
+        }
+      ],
+      "aura": "Majestic natural sunrise at Kailash shrine",
+      "basis_claim_ids": [
+        "nandi-hinduism-c01",
+        "nandi-hinduism-c03",
+        "nandi-hinduism-c06"
+      ],
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+        "native_sha256": "fb1c0f4def5274704f4bafd627ef335566c9574c5d8da2747a9481ffa4b45138",
+        "notes": "Majestic white bull seated facing a Himalayan temple shrine with Kailash behind, respectful and serene."
+      },
+      "native_sha256": "fb1c0f4def5274704f4bafd627ef335566c9574c5d8da2747a9481ffa4b45138",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/nandi-hinduism.json",
+        "native_sha256": "fb1c0f4def5274704f4bafd627ef335566c9574c5d8da2747a9481ffa4b45138",
+        "old_url": "/assets/art/nandi-hinduism-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a10068-738d-7512-b638-058fc6f60304/exec-598347f3-40ea-4fe0-872a-0e4d3de40b16.png",
+        "old_webp_sha256": "47b195674e1f8831ccc7db1f36c6ff0d57c8aa23234a3332eab417e3a036777a",
+        "old_native_sha256": "a4216932353c82e3b631f93fefeb7167000e1fbf9286e5b9760a0b08246394e3",
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "nandi-hinduism-c01",
+          "nandi-hinduism-c03",
+          "nandi-hinduism-c06"
+        ]
+      },
+      "sha256": "6eb8a3b3c141ae3fce641b86a73acdf9e5afcd4bd670bee124d858058243d53c"
     },
     {
       "slug": "noppera-bo",
@@ -1535,12 +1610,15 @@
     {
       "slug": "lamassu",
       "exact_prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: A majestic Mesopotamian lamassu: bearded human head wearing Assyrian tiered cap, powerful bull body with four natural legs, and two layered feathered bird wings, standing beside an Assyrian stone palace gateway. Full three-quarter anatomy.",
-      "depicted_variant": "Human-headed winged bull form",
-      "original_file": "/home/asadin/.codex/generated_images/01a10068-c5d0-7a40-849c-11e4d3ae6097/exec-c4478ae1-3d0e-4dda-8e12-0ce3e80f2d29.png",
+      "depicted_variant": "One immense Assyrian protective LAMASSU in living four-legged BULL variant: dignified bearded HUMAN HEAD, muscular BULL BODY and TWO broad BIRD WINGS. FOUR legs, no extra sculptural fifth leg in this living variant. Palace gateway behind is tiny to emphasize monumental guardian presence, nonletter decorative masonry. Stern protective calm, natural golden dawn and rolling dust at hooves, majestic not malevolent. No elemental attack or invented aura. Coherent human head transitions into massive bull shoulders, wings fully readable. Do not mix lion body with bull legs.",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/lamassu.png",
       "status": "complete",
       "visual_review": {
         "verdict": "pass",
-        "notes": "Human bearded head and cap on bull body with feathered wing, four hooves visible; Assyrian protective sculpture in ominous palace light."
+        "reviewer": "codex",
+        "notes": "Viewed native PNG: human bearded head on bull body, two bird wings and exactly four bovine hooved legs, strong palace-gateway guardian at low angle. Living four-leg variant chosen, not historical five-leg sculpture illusion. Cap/palace ornament and natural dawn editorial, no text or emitted elemental power.",
+        "native_sha256": "035001c20c90505d750fa82ac64dae041021d3963ea6440d5f126729690db2e4",
+        "reviewed_at": "2026-10-06T08:18:04.089Z"
       },
       "canonical_name": "Lamassu",
       "review_path": "data/gemini/reviews/batch-079.review.json",
@@ -1578,8 +1656,117 @@
       ],
       "width": 1254,
       "height": 1254,
-      "url": "/assets/art/lamassu-verified.webp",
-      "prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: A majestic Mesopotamian lamassu: bearded human head wearing Assyrian tiered cap, powerful bull body with four natural legs, and two layered feathered bird wings, standing beside an Assyrian stone palace gateway. Full three-quarter anatomy."
+      "url": "/assets/art/lamassu-presentation-revision-nama-besar.webp",
+      "prompt": "Creature identity: lamassu. Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. One immense Assyrian protective LAMASSU in living four-legged BULL variant: dignified bearded HUMAN HEAD, muscular BULL BODY and TWO broad BIRD WINGS. FOUR legs, no extra sculptural fifth leg in this living variant. Palace gateway behind is tiny to emphasize monumental guardian presence, nonletter decorative masonry. Stern protective calm, natural golden dawn and rolling dust at hooves, majestic not malevolent. No elemental attack or invented aura. Coherent human head transitions into massive bull shoulders, wings fully readable. Do not mix lion body with bull legs. Plain uninscribed walls, clothing and objects: no hieroglyphs, cuneiform, letters or pictographic writing. No solar-disk crown, horns or additional attributes unless explicitly specified above.",
+      "presentation_revision_history": [
+        {
+          "slug": "lamassu",
+          "exact_prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: A majestic Mesopotamian lamassu: bearded human head wearing Assyrian tiered cap, powerful bull body with four natural legs, and two layered feathered bird wings, standing beside an Assyrian stone palace gateway. Full three-quarter anatomy.",
+          "depicted_variant": "Human-headed winged bull form",
+          "original_file": "/home/asadin/.codex/generated_images/01a10068-c5d0-7a40-849c-11e4d3ae6097/exec-c4478ae1-3d0e-4dda-8e12-0ce3e80f2d29.png",
+          "status": "complete",
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Human bearded head and cap on bull body with feathered wing, four hooves visible; Assyrian protective sculpture in ominous palace light."
+          },
+          "canonical_name": "Lamassu",
+          "review_path": "data/gemini/reviews/batch-079.review.json",
+          "basis_claims": [
+            {
+              "id": "lamassu-c01",
+              "source_id": "lamassu-s1",
+              "host": "en.wikipedia.org",
+              "statement": "Lamassu is a Mesopotamian protective deity.",
+              "statement_id": "Lamassu adalah sosok ilahi pelindung Mesopotamia.",
+              "quote": "is a Mesopotamian protective deity.",
+              "context": "traditional-belief",
+              "status": "exact"
+            },
+            {
+              "id": "lamassu-c03",
+              "source_id": "lamassu-s1",
+              "host": "en.wikipedia.org",
+              "statement": "Its hybrid form combines a human head, a bull or lion body, and bird wings.",
+              "statement_id": "Bentuk hibridanya menggabungkan kepala manusia, tubuh banteng atau singa, dan sayap burung.",
+              "quote": "having a human head, the body of a bull or a lion, and bird wings",
+              "context": "traditional-belief",
+              "status": "exact"
+            },
+            {
+              "id": "lamassu-c04",
+              "source_id": "lamassu-s1",
+              "host": "en.wikipedia.org",
+              "statement": "Pairs of lamassu sculptures stand at Assyrian palace entrances.",
+              "statement_id": "Patung berpasangan lamassu ditempatkan pada pintu masuk istana Asyur.",
+              "quote": "Assyrian sculpture typically placed prominent pairs of lamassu at entrances in palaces",
+              "context": "traditional-belief",
+              "status": "exact"
+            }
+          ],
+          "width": 1254,
+          "height": 1254,
+          "url": "/assets/art/lamassu-verified.webp",
+          "prompt": "Use case: illustration-story. Asset type: square educational mythology catalog illustration. Detailed painterly folklore art, natural textures, atmospheric landscape but clearly readable identifying anatomy, square composition with whole subject inside frame. No labels, letters, frame, watermark, logos or gratuitous gore.  Mood: a little folklore horror: dramatic chiaroscuro, deep shadows and thin fog, restrained atmospheric dread. Sacred or benevolent beings feel numinous and uncanny rather than evil. Keep all identifying anatomy legible; do not invent monstrous features.  Subject: A majestic Mesopotamian lamassu: bearded human head wearing Assyrian tiered cap, powerful bull body with four natural legs, and two layered feathered bird wings, standing beside an Assyrian stone palace gateway. Full three-quarter anatomy."
+        }
+      ],
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One immense Assyrian protective LAMASSU in living four-legged BULL variant: dignified bearded HUMAN HEAD, muscular BULL BODY and TWO broad BIRD WINGS. FOUR legs, no extra sculptural fifth leg in this living variant. Palace gateway behind is tiny to emphasize monumental guardian presence, nonletter decorative masonry. Stern protective calm, natural golden dawn and rolling dust at hooves, majestic not malevolent. No elemental attack or invented aura. Coherent human head transitions into massive bull shoulders, wings fully readable. Do not mix lion body with bull legs.",
+          "claim_ids": [
+            "lamassu-c01",
+            "lamassu-c03",
+            "lamassu-c04",
+            "lamassu-c05",
+            "lamassu-c06"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Protective monumental palace-gateway presence; basis: documented guardian hybrid frightens chaotic forces",
+          "claim_ids": [
+            "lamassu-c01",
+            "lamassu-c03",
+            "lamassu-c04",
+            "lamassu-c05",
+            "lamassu-c06"
+          ]
+        }
+      ],
+      "aura": "Protective monumental palace-gateway presence",
+      "basis_claim_ids": [
+        "lamassu-c01",
+        "lamassu-c03",
+        "lamassu-c04",
+        "lamassu-c05",
+        "lamassu-c06"
+      ],
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+        "native_sha256": "035001c20c90505d750fa82ac64dae041021d3963ea6440d5f126729690db2e4",
+        "notes": "Immense winged bull with bearded human head and four legs before a palace gate, monumental guardian presence."
+      },
+      "native_sha256": "035001c20c90505d750fa82ac64dae041021d3963ea6440d5f126729690db2e4",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/lamassu.json",
+        "native_sha256": "035001c20c90505d750fa82ac64dae041021d3963ea6440d5f126729690db2e4",
+        "old_url": "/assets/art/lamassu-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a10068-c5d0-7a40-849c-11e4d3ae6097/exec-c4478ae1-3d0e-4dda-8e12-0ce3e80f2d29.png",
+        "old_webp_sha256": "db1f046434c9e2105c5b84cc0394ed564ed07fdabe89d38c69f94fd935e6ec0c",
+        "old_native_sha256": "67cef386800a7c4ceedb9d904f1dcfd3f2ebe6ed74cd763807611255387fa54f",
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "lamassu-c01",
+          "lamassu-c03",
+          "lamassu-c04",
+          "lamassu-c05",
+          "lamassu-c06"
+        ]
+      },
+      "sha256": "1eaff2f080643de9fd246327ef2beaccbe9bef7bc6ea259b3972432ccc04f925"
     },
     {
       "slug": "lightning-bird",
@@ -2311,19 +2498,21 @@
     {
       "slug": "beast-of-gevaudan",
       "exact_prompt": "Use case: illustration-story. Asset: square mythology encyclopedia illustration. Subject: Beast of Gévaudan, rendered as the documented wolf-like tawny-russet beast: calf-sized four-legged canine predator, reddish tawny coat with dark stripes, a clear dark stripe down its spine and an unusually long tail ending in a dark tuft. Fearsome teeth visible without blood. Full side-three-quarter view crossing a moorland field beneath the Margeride Mountains. Not a certainty about historical species; portray the legendary witness description. No horns, no wings. Style: richly detailed painterly folklore illustration, atmospheric natural light and tactile textures, readable silhouette. Square composition, subject dominant and uncropped. No labels, text, border, watermark, gore. Create one illustration.",
-      "depicted_variant": "Beast of Gevaudan, tawny russet dark-striped calf-sized beast with long tufted tail, bounds over a low stone wall toward terrified royal hunters. Clearly huge compared with men and horses farther back, emphasize high monstrous leap and historical hunt. Four coherent canid-like legs, one head and long tail, no invented horns or wings. French countryside, editorial eighteenth-century hunter garments, natural storm light, no gore or glow.",
+      "depicted_variant": "One enormous calf/cow-sized wolf-like uncertain cryptid, TAWNY-RUSSET fur with dark stripes and a dark dorsal stripe, tail longer than a wolf ending in a distinct tuft. Powerful jaws with fearsome teeth and claws, coherent quadruped four legs and one head, springing across rough eighteenth-century French field with tiny rural buildings beneath distant mountains. Dreadful low camera; natural storm light and kicked-up dust show motion. Do not add supernatural wings, horns, emitted effects or gore; identity remains a witness description, not conclusively hyena/werewolf.",
       "basis_claim_ids": [
+        "beast-of-gevaudan-c01",
         "beast-of-gevaudan-c02",
         "beast-of-gevaudan-c03",
-        "beast-of-gevaudan-c05"
+        "beast-of-gevaudan-c04"
       ],
-      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/beast-of-gevaudan.png",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/beast-of-gevaudan.png",
       "status": "complete",
       "visual_review": {
         "verdict": "pass",
-        "reviewer": "assess_changes",
-        "notes": "Native individually viewed: Tawny russet dark-striped beast with long tufted tail bounds over wall at royal hunters, four legs and clawed paws; calf/cow scale reads in human comparison.",
-        "native_sha256": "863522de6baa54bd7507391e3f1f116ab585d1e696232faa1bae19cac66d8d26"
+        "reviewer": "codex",
+        "notes": "Viewed native PNG: single coherent quadruped with four legs, tawny-russet dark-striped coat/dorsal stripe, long tuft-ended tail, fearful teeth/claws, bounding motion over French field. Species-like facial rendering is artistic witness-description synthesis, not a definitive identification. No wings, supernatural emission, text or gore.",
+        "native_sha256": "219a8f2c46f1e6ca118dd75be55bb520b492dcdeed88963fd9df285f7ba64278",
+        "reviewed_at": "2026-10-06T08:03:52.803Z"
       },
       "canonical_name": "Beast of Gévaudan",
       "review_path": "data/gemini/reviews/batch-128.review.json",
@@ -2369,10 +2558,10 @@
           "status": "exact"
         }
       ],
-      "width": 1024,
-      "height": 1536,
-      "url": "/assets/art/beast-of-gevaudan-mythic-presence.webp",
-      "prompt": "Use case: illustration-story. Asset: mythological creature education catalogue. Create one painterly realistic portrait 2:3, coherent rich brushwork and dramatic readable storytelling. No text or watermark. Beast of Gevaudan, tawny russet dark-striped calf-sized beast with long tufted tail, bounds over a low stone wall toward terrified royal hunters. Clearly huge compared with men and horses farther back, emphasize high monstrous leap and historical hunt. Four coherent canid-like legs, one head and long tail, no invented horns or wings. French countryside, editorial eighteenth-century hunter garments, natural storm light, no gore or glow. No arbitrary glowing effects, colored mist, glyphs or ribbons.",
+      "width": 1254,
+      "height": 1254,
+      "url": "/assets/art/beast-of-gevaudan-presentation-revision-nama-besar.webp",
+      "prompt": "Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. One enormous calf/cow-sized wolf-like uncertain cryptid, TAWNY-RUSSET fur with dark stripes and a dark dorsal stripe, tail longer than a wolf ending in a distinct tuft. Powerful jaws with fearsome teeth and claws, coherent quadruped four legs and one head, springing across rough eighteenth-century French field with tiny rural buildings beneath distant mountains. Dreadful low camera; natural storm light and kicked-up dust show motion. Do not add supernatural wings, horns, emitted effects or gore; identity remains a witness description, not conclusively hyena/werewolf. Plain uninscribed walls, clothing and objects: no hieroglyphs, cuneiform, letters or pictographic writing. No solar-disk crown, horns or additional attributes unless explicitly specified above.",
       "presentation_revision_history": [
         {
           "slug": "beast-of-gevaudan",
@@ -2438,38 +2627,219 @@
           "height": 1254,
           "url": "/assets/art/beast-of-gevaudan-verified.webp",
           "prompt": "Use case: illustration-story. Asset: square mythology encyclopedia illustration. Subject: Beast of Gévaudan, rendered as the documented wolf-like tawny-russet beast: calf-sized four-legged canine predator, reddish tawny coat with dark stripes, a clear dark stripe down its spine and an unusually long tail ending in a dark tuft. Fearsome teeth visible without blood. Full side-three-quarter view crossing a moorland field beneath the Margeride Mountains. Not a certainty about historical species; portray the legendary witness description. No horns, no wings. Style: richly detailed painterly folklore illustration, atmospheric natural light and tactile textures, readable silhouette. Square composition, subject dominant and uncropped. No labels, text, border, watermark, gore. Create one illustration."
+        },
+        {
+          "slug": "beast-of-gevaudan",
+          "exact_prompt": "Use case: illustration-story. Asset: square mythology encyclopedia illustration. Subject: Beast of Gévaudan, rendered as the documented wolf-like tawny-russet beast: calf-sized four-legged canine predator, reddish tawny coat with dark stripes, a clear dark stripe down its spine and an unusually long tail ending in a dark tuft. Fearsome teeth visible without blood. Full side-three-quarter view crossing a moorland field beneath the Margeride Mountains. Not a certainty about historical species; portray the legendary witness description. No horns, no wings. Style: richly detailed painterly folklore illustration, atmospheric natural light and tactile textures, readable silhouette. Square composition, subject dominant and uncropped. No labels, text, border, watermark, gore. Create one illustration.",
+          "depicted_variant": "Beast of Gevaudan, tawny russet dark-striped calf-sized beast with long tufted tail, bounds over a low stone wall toward terrified royal hunters. Clearly huge compared with men and horses farther back, emphasize high monstrous leap and historical hunt. Four coherent canid-like legs, one head and long tail, no invented horns or wings. French countryside, editorial eighteenth-century hunter garments, natural storm light, no gore or glow.",
+          "basis_claim_ids": [
+            "beast-of-gevaudan-c02",
+            "beast-of-gevaudan-c03",
+            "beast-of-gevaudan-c05"
+          ],
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/beast-of-gevaudan.png",
+          "status": "complete",
+          "visual_review": {
+            "verdict": "pass",
+            "reviewer": "assess_changes",
+            "notes": "Native individually viewed: Tawny russet dark-striped beast with long tufted tail bounds over wall at royal hunters, four legs and clawed paws; calf/cow scale reads in human comparison.",
+            "native_sha256": "863522de6baa54bd7507391e3f1f116ab585d1e696232faa1bae19cac66d8d26"
+          },
+          "canonical_name": "Beast of Gévaudan",
+          "review_path": "data/gemini/reviews/batch-128.review.json",
+          "basis_claims": [
+            {
+              "id": "beast-of-gevaudan-c01",
+              "source_id": "beast-of-gevaudan-s1",
+              "host": "en.wikipedia.org",
+              "statement": "The Beast of Gévaudan (La Bête du Gévaudan) is the historic name for one or more man-eating cryptids that terrorised the former province of Gévaudan in the Margeride Mountains of south-central France between 30 June 1764 and 19 June 1767.",
+              "statement_id": "Binatang Gévaudan (La Bête du Gévaudan) adalah nama historis untuk satu atau lebih kriptid pemangsa manusia yang meneror bekas provinsi Gévaudan di Pegunungan Margeride, Prancis selatan-tengah, antara 30 Juni 1764 dan 19 Juni 1767.",
+              "quote": "The Beast of Gévaudan ... is the historic name associated with a man-eating cryptid or cryptids that terrorized the former province of Gévaudan ... in the Margeride Mountains of south-central France between 30 June 1764 and 19 June 1767.",
+              "context": "historical-record",
+              "status": "exact"
+            },
+            {
+              "id": "beast-of-gevaudan-c02",
+              "source_id": "beast-of-gevaudan-s1",
+              "host": "en.wikipedia.org",
+              "statement": "Contemporary witnesses said the attacks were by one or more tawny-russet beasts with dark stripes and a dark stripe down the back, with a tail 'longer than a wolf's' ending in a tuft.",
+              "statement_id": "Menurut saksi mata masa itu, serangan dilakukan satu atau lebih binatang berwarna cokelat kemerahan dengan belang gelap dan garis gelap di punggung, berekor lebih panjang daripada serigala dengan jumbai di ujungnya.",
+              "quote": "were said to have been committed by one or more beasts of a tawny/russet colour with dark streaks/stripes and a dark stripe down its back, a tail \"longer than a wolf's\" ending in a tuft according to contemporary eyewitnesses.",
+              "context": "historical-record",
+              "status": "exact"
+            },
+            {
+              "id": "beast-of-gevaudan-c03",
+              "source_id": "beast-of-gevaudan-s1",
+              "host": "en.wikipedia.org",
+              "statement": "It attacked with fearsome teeth and claws, looked the size of a calf or cow, and seemed to fly or bound across fields at its victims.",
+              "statement_id": "Ia menyerang dengan gigi dan cakar yang mengerikan, tampak sebesar anak sapi atau sapi, dan seolah terbang atau melompat melintasi ladang ke arah korbannya.",
+              "quote": "It was said to attack with formidable teeth and claws, and appeared to be the size of a calf or cow and seemed to fly or bound across fields towards its victims.",
+              "context": "historical-record",
+              "status": "exact"
+            },
+            {
+              "id": "beast-of-gevaudan-c04",
+              "source_id": "beast-of-gevaudan-s1",
+              "host": "en.wikipedia.org",
+              "statement": "These descriptions could fit a striped hyena, a large wolf, a large dog or a wolfdog, but its identity is still debated and unsolved.",
+              "statement_id": "Gambaran itu dapat cocok dengan dubuk belang, serigala besar, anjing besar, atau anjing-serigala, tetapi identitasnya masih diperdebatkan sampai kini.",
+              "quote": "These descriptions from the period could identify the beast as a striped hyena, a large wolf, a large dog, or a wolfdog, though its identity is still the subject of debate and remains unsolved to this day.",
+              "context": "scholarly-interpretation",
+              "status": "exact"
+            }
+          ],
+          "width": 1024,
+          "height": 1536,
+          "url": "/assets/art/beast-of-gevaudan-mythic-presence.webp",
+          "prompt": "Use case: illustration-story. Asset: mythological creature education catalogue. Create one painterly realistic portrait 2:3, coherent rich brushwork and dramatic readable storytelling. No text or watermark. Beast of Gevaudan, tawny russet dark-striped calf-sized beast with long tufted tail, bounds over a low stone wall toward terrified royal hunters. Clearly huge compared with men and horses farther back, emphasize high monstrous leap and historical hunt. Four coherent canid-like legs, one head and long tail, no invented horns or wings. French countryside, editorial eighteenth-century hunter garments, natural storm light, no gore or glow. No arbitrary glowing effects, colored mist, glyphs or ribbons.",
+          "presentation_revision_history": [
+            {
+              "slug": "beast-of-gevaudan",
+              "exact_prompt": "Use case: illustration-story. Asset: square mythology encyclopedia illustration. Subject: Beast of Gévaudan, rendered as the documented wolf-like tawny-russet beast: calf-sized four-legged canine predator, reddish tawny coat with dark stripes, a clear dark stripe down its spine and an unusually long tail ending in a dark tuft. Fearsome teeth visible without blood. Full side-three-quarter view crossing a moorland field beneath the Margeride Mountains. Not a certainty about historical species; portray the legendary witness description. No horns, no wings. Style: richly detailed painterly folklore illustration, atmospheric natural light and tactile textures, readable silhouette. Square composition, subject dominant and uncropped. No labels, text, border, watermark, gore. Create one illustration.",
+              "depicted_variant": "Tawny-russet wolf-like witness-description variant",
+              "basis_claim_ids": [
+                "beast-of-gevaudan-c01",
+                "beast-of-gevaudan-c02",
+                "beast-of-gevaudan-c03",
+                "beast-of-gevaudan-c04"
+              ],
+              "original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-b0413ea5-a6d4-403a-9290-13a0c9db55ad.png",
+              "status": "complete",
+              "visual_review": {
+                "verdict": "pass",
+                "notes": "Russet canine beast has dark stripes, dark dorsal band and long tufted tail. Four feet and bared teeth visible; threatening alert pose."
+              },
+              "canonical_name": "Beast of Gévaudan",
+              "review_path": "data/gemini/reviews/batch-128.review.json",
+              "basis_claims": [
+                {
+                  "id": "beast-of-gevaudan-c01",
+                  "source_id": "beast-of-gevaudan-s1",
+                  "host": "en.wikipedia.org",
+                  "statement": "The Beast of Gévaudan (La Bête du Gévaudan) is the historic name for one or more man-eating cryptids that terrorised the former province of Gévaudan in the Margeride Mountains of south-central France between 30 June 1764 and 19 June 1767.",
+                  "statement_id": "Binatang Gévaudan (La Bête du Gévaudan) adalah nama historis untuk satu atau lebih kriptid pemangsa manusia yang meneror bekas provinsi Gévaudan di Pegunungan Margeride, Prancis selatan-tengah, antara 30 Juni 1764 dan 19 Juni 1767.",
+                  "quote": "The Beast of Gévaudan ... is the historic name associated with a man-eating cryptid or cryptids that terrorized the former province of Gévaudan ... in the Margeride Mountains of south-central France between 30 June 1764 and 19 June 1767.",
+                  "context": "historical-record",
+                  "status": "exact"
+                },
+                {
+                  "id": "beast-of-gevaudan-c02",
+                  "source_id": "beast-of-gevaudan-s1",
+                  "host": "en.wikipedia.org",
+                  "statement": "Contemporary witnesses said the attacks were by one or more tawny-russet beasts with dark stripes and a dark stripe down the back, with a tail 'longer than a wolf's' ending in a tuft.",
+                  "statement_id": "Menurut saksi mata masa itu, serangan dilakukan satu atau lebih binatang berwarna cokelat kemerahan dengan belang gelap dan garis gelap di punggung, berekor lebih panjang daripada serigala dengan jumbai di ujungnya.",
+                  "quote": "were said to have been committed by one or more beasts of a tawny/russet colour with dark streaks/stripes and a dark stripe down its back, a tail \"longer than a wolf's\" ending in a tuft according to contemporary eyewitnesses.",
+                  "context": "historical-record",
+                  "status": "exact"
+                },
+                {
+                  "id": "beast-of-gevaudan-c03",
+                  "source_id": "beast-of-gevaudan-s1",
+                  "host": "en.wikipedia.org",
+                  "statement": "It attacked with fearsome teeth and claws, looked the size of a calf or cow, and seemed to fly or bound across fields at its victims.",
+                  "statement_id": "Ia menyerang dengan gigi dan cakar yang mengerikan, tampak sebesar anak sapi atau sapi, dan seolah terbang atau melompat melintasi ladang ke arah korbannya.",
+                  "quote": "It was said to attack with formidable teeth and claws, and appeared to be the size of a calf or cow and seemed to fly or bound across fields towards its victims.",
+                  "context": "historical-record",
+                  "status": "exact"
+                },
+                {
+                  "id": "beast-of-gevaudan-c04",
+                  "source_id": "beast-of-gevaudan-s1",
+                  "host": "en.wikipedia.org",
+                  "statement": "These descriptions could fit a striped hyena, a large wolf, a large dog or a wolfdog, but its identity is still debated and unsolved.",
+                  "statement_id": "Gambaran itu dapat cocok dengan dubuk belang, serigala besar, anjing besar, atau anjing-serigala, tetapi identitasnya masih diperdebatkan sampai kini.",
+                  "quote": "These descriptions from the period could identify the beast as a striped hyena, a large wolf, a large dog, or a wolfdog, though its identity is still the subject of debate and remains unsolved to this day.",
+                  "context": "scholarly-interpretation",
+                  "status": "exact"
+                }
+              ],
+              "width": 1254,
+              "height": 1254,
+              "url": "/assets/art/beast-of-gevaudan-verified.webp",
+              "prompt": "Use case: illustration-story. Asset: square mythology encyclopedia illustration. Subject: Beast of Gévaudan, rendered as the documented wolf-like tawny-russet beast: calf-sized four-legged canine predator, reddish tawny coat with dark stripes, a clear dark stripe down its spine and an unusually long tail ending in a dark tuft. Fearsome teeth visible without blood. Full side-three-quarter view crossing a moorland field beneath the Margeride Mountains. Not a certainty about historical species; portray the legendary witness description. No horns, no wings. Style: richly detailed painterly folklore illustration, atmospheric natural light and tactile textures, readable silhouette. Square composition, subject dominant and uncropped. No labels, text, border, watermark, gore. Create one illustration."
+            }
+          ],
+          "visual_requirements": [
+            "Documented form or event",
+            "Coherent anatomy",
+            "No arbitrary aura"
+          ],
+          "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
+          "root_visual_review": {
+            "verdict": "pass",
+            "reviewer": "root",
+            "notes": "Russet striped calf-size beast with long tufted tail leaps toward historical hunters; coherent four limbs and sourced hunt context.",
+            "native_sha256": "863522de6baa54bd7507391e3f1f116ab585d1e696232faa1bae19cac66d8d26",
+            "reviewed_at": "2026-10-05T18:36:56.596222+00:00"
+          },
+          "native_sha256": "863522de6baa54bd7507391e3f1f116ab585d1e696232faa1bae19cac66d8d26",
+          "presentation_revision": {
+            "ledger": "data/artwork-presentation-revision-1000.json",
+            "receipt_path": "data/artwork-generated/presentation-revision-1000/beast-of-gevaudan.json",
+            "native_sha256": "863522de6baa54bd7507391e3f1f116ab585d1e696232faa1bae19cac66d8d26",
+            "old_url": "/assets/art/beast-of-gevaudan-verified.webp",
+            "old_original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-b0413ea5-a6d4-403a-9290-13a0c9db55ad.png",
+            "old_webp_sha256": "72955ddef4bb3401b6fd30b2f2617b21a2020528bf68ea51152aba5aaa58c362",
+            "old_native_sha256": null,
+            "rationale": "Replace weak animal depiction with source-backed mythic form/event.",
+            "basis_claim_ids": [
+              "beast-of-gevaudan-c02",
+              "beast-of-gevaudan-c03",
+              "beast-of-gevaudan-c05"
+            ]
+          },
+          "sha256": "d3d6ae25af3fb8d6974a3b3308e7afb0ba3304c958a479d35d641ba3176b4c21"
         }
       ],
       "visual_requirements": [
-        "Documented form or event",
-        "Coherent anatomy",
-        "No arbitrary aura"
+        {
+          "kind": "anatomy",
+          "description": "One enormous calf/cow-sized wolf-like uncertain cryptid, TAWNY-RUSSET fur with dark stripes and a dark dorsal stripe, tail longer than a wolf ending in a distinct tuft. Powerful jaws with fearsome teeth and claws, coherent quadruped four legs and one head, springing across rough eighteenth-century French field with tiny rural buildings beneath distant mountains. Dreadful low camera; natural storm light and kicked-up dust show motion. Do not add supernatural wings, horns, emitted effects or gore; identity remains a witness description, not conclusively hyena/werewolf.",
+          "claim_ids": [
+            "beast-of-gevaudan-c01",
+            "beast-of-gevaudan-c02",
+            "beast-of-gevaudan-c03",
+            "beast-of-gevaudan-c04"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Dust and storm lighting around bounding beast; basis: documented fearsome size and bounding attacks; no elemental powers",
+          "claim_ids": [
+            "beast-of-gevaudan-c01",
+            "beast-of-gevaudan-c02",
+            "beast-of-gevaudan-c03",
+            "beast-of-gevaudan-c04"
+          ]
+        }
       ],
-      "aura": "Presence through source-supported iconography, narrative action, posture, scale and natural scene light; no generic magical glow.",
+      "aura": "Dust and storm lighting around bounding beast",
       "root_visual_review": {
         "verdict": "pass",
-        "reviewer": "root",
-        "notes": "Russet striped calf-size beast with long tufted tail leaps toward historical hunters; coherent four limbs and sourced hunt context.",
-        "native_sha256": "863522de6baa54bd7507391e3f1f116ab585d1e696232faa1bae19cac66d8d26",
-        "reviewed_at": "2026-10-05T18:36:56.596222+00:00"
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+        "native_sha256": "219a8f2c46f1e6ca118dd75be55bb520b492dcdeed88963fd9df285f7ba64278",
+        "notes": "Huge russet wolf-like beast with dark stripes and a tufted tail charging across an 18th-century French field; tiny farm buildings give its size; fearsome jaws."
       },
-      "native_sha256": "863522de6baa54bd7507391e3f1f116ab585d1e696232faa1bae19cac66d8d26",
+      "native_sha256": "219a8f2c46f1e6ca118dd75be55bb520b492dcdeed88963fd9df285f7ba64278",
       "presentation_revision": {
-        "ledger": "data/artwork-presentation-revision-1000.json",
-        "receipt_path": "data/artwork-generated/presentation-revision-1000/beast-of-gevaudan.json",
-        "native_sha256": "863522de6baa54bd7507391e3f1f116ab585d1e696232faa1bae19cac66d8d26",
-        "old_url": "/assets/art/beast-of-gevaudan-verified.webp",
-        "old_original_file": "/home/asadin/.codex/generated_images/01a10069-126f-74f1-b888-090f662ee9bc/exec-b0413ea5-a6d4-403a-9290-13a0c9db55ad.png",
-        "old_webp_sha256": "72955ddef4bb3401b6fd30b2f2617b21a2020528bf68ea51152aba5aaa58c362",
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/beast-of-gevaudan.json",
+        "native_sha256": "219a8f2c46f1e6ca118dd75be55bb520b492dcdeed88963fd9df285f7ba64278",
+        "old_url": "/assets/art/beast-of-gevaudan-mythic-presence.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/beast-of-gevaudan.png",
+        "old_webp_sha256": "d3d6ae25af3fb8d6974a3b3308e7afb0ba3304c958a479d35d641ba3176b4c21",
         "old_native_sha256": null,
-        "rationale": "Replace weak animal depiction with source-backed mythic form/event.",
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
         "basis_claim_ids": [
+          "beast-of-gevaudan-c01",
           "beast-of-gevaudan-c02",
           "beast-of-gevaudan-c03",
-          "beast-of-gevaudan-c05"
+          "beast-of-gevaudan-c04"
         ]
       },
-      "sha256": "d3d6ae25af3fb8d6974a3b3308e7afb0ba3304c958a479d35d641ba3176b4c21"
+      "sha256": "1b35a9ec7344b72b2157c3df8dc063213cbf8fbd70d770b5c3d7542fd3b3a036"
     },
     {
       "slug": "cu-sith",

@@ -4603,39 +4603,58 @@
         "rusalka-c15",
         "rusalka-c16"
       ],
-      "url": "/assets/art/rusalka-verified.webp",
-      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/rusalka.png",
-      "prompt": "Use case: stylized-concept. ONE square detailed painterly naturalistic mythology encyclopedia illustration of RUSALKA, choosing the documented Slavic drowned-woman spirit with LEGS rather than a fish tail. One adult female apparition emerges knee-deep at a dark riverbank below willow and birch branches. Extremely long loose GREEN hair streams across the water like entangling strands, pallid eerily luminous skin, sorrowful predatory stare. Keep source-faithful human anatomy, subtly uncanny glassy eyes and translucent edges instead of inventing monster parts. Modest pale draped fabric and hair cover chest and pelvis. Both legs readable through water; full figure with margins. Truly frightening still-water night atmosphere, green spectral mist and cold ripple aura as artistic interpretation. No victim, nudity, gore, fish tail, horns, claws, wings, extra limbs, crown, text, watermark, border or collage.",
-      "depicted_variant": "Legged drowned-woman water spirit with loose green hair, excluding fish-tail variant",
+      "url": "/assets/art/rusalka-presentation-revision-nama-besar.webp",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/rusalka.png",
+      "prompt": "Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. One dangerous Slavic river spirit woman with VERY LONG loose green-black hair and human LEGS not fish tail, standing ankle-deep at a dark river. Completely modest opaque flowing dress, ordinary two arms and two legs. Small comb in hand produces a visible cascade of WATER wetting her long hair (documented magical comb variant); river currents swell about her feet, no claimed tidal powers. The hair sweeps toward empty river shallows as threatening entanglement, no victim. Low camera, towering reeds and birch silhouette, cold moonlit reflections, terrifying quiet gaze. Plain uninscribed walls, clothing and objects: no hieroglyphs, cuneiform, letters or pictographic writing. No solar-disk crown, horns or additional attributes unless explicitly specified above.",
+      "depicted_variant": "One dangerous Slavic river spirit woman with VERY LONG loose green-black hair and human LEGS not fish tail, standing ankle-deep at a dark river. Completely modest opaque flowing dress, ordinary two arms and two legs. Small comb in hand produces a visible cascade of WATER wetting her long hair (documented magical comb variant); river currents swell about her feet, no claimed tidal powers. The hair sweeps toward empty river shallows as threatening entanglement, no victim. Low camera, towering reeds and birch silhouette, cold moonlit reflections, terrifying quiet gaze.",
       "visual_requirements": [
-        "adult woman water spirit with two legs, not fish tail",
-        "long loose green hair",
-        "Preserve source anatomy, counts, scale and modest framing.",
-        "Character presence through pose, composition, natural lighting; no generic emitted aura."
+        {
+          "kind": "anatomy",
+          "description": "One dangerous Slavic river spirit woman with VERY LONG loose green-black hair and human LEGS not fish tail, standing ankle-deep at a dark river. Completely modest opaque flowing dress, ordinary two arms and two legs. Small comb in hand produces a visible cascade of WATER wetting her long hair (documented magical comb variant); river currents swell about her feet, no claimed tidal powers. The hair sweeps toward empty river shallows as threatening entanglement, no victim. Low camera, towering reeds and birch silhouette, cold moonlit reflections, terrifying quiet gaze.",
+          "claim_ids": [
+            "rusalka-c01",
+            "rusalka-c07",
+            "rusalka-c12",
+            "rusalka-c15",
+            "rusalka-c16"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Water flowing from comb to wet long hair; basis: documented comb can produce water; hair can entangle victims",
+          "claim_ids": [
+            "rusalka-c01",
+            "rusalka-c07",
+            "rusalka-c12",
+            "rusalka-c15",
+            "rusalka-c16"
+          ]
+        }
       ],
       "basis_claim_ids": [
         "rusalka-c01",
-        "rusalka-c05",
-        "rusalka-c06",
         "rusalka-c07",
-        "rusalka-c10",
         "rusalka-c12",
+        "rusalka-c15",
         "rusalka-c16"
       ],
-      "aura": "Dangerous water revenant presence through stare, long loose hair, still water and moonlit willow shadow.",
+      "aura": "Water flowing from comb to wet long hair",
       "visual_review": {
         "verdict": "pass",
-        "notes": "Actually inspected full original. Observed pale maiden with green loose hair, natural lake fog and moonlight only; no emitted magical fog/ribbons/particles.",
-        "reviewer": "worker-0"
+        "reviewer": "codex",
+        "notes": "Viewed native PNG: two-armed fully clothed female with long loose green-black hair, human feet at river, visible comb and water droplets/cascade wetting hair. No fish tail or emitted laser; documented water-comb and hair entanglement variant chosen, modest cloth artistic. No text/gore.",
+        "native_sha256": "7a9314521788d1f1c407db9df910221610cd3ba278e00fe8135f79b257ce9a68",
+        "reviewed_at": "2026-10-06T08:03:51.742Z"
       },
       "width": 1254,
       "height": 1254,
-      "sha256": "b30fea9087481e88fcc023e9cae57af9af4b41c6b126a657c8fd7c1fe2f7090a",
+      "sha256": "6a4b3036896cb9d7eb50f083cd011af87e8706a28bf48cc65014738f2a7e835b",
       "root_visual_review": {
         "verdict": "pass",
-        "reviewer": "root",
-        "reviewed_at": "2026-10-05",
-        "notes": "Inspected original contact image: long loose green hair, female humanoid with legs, cloth covering, lake and hanging willow. Only natural water mist and moonlight; no emitted aura or ribbons. Pale expression and solitary framing supply menace."
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+        "native_sha256": "7a9314521788d1f1c407db9df910221610cd3ba278e00fe8135f79b257ce9a68",
+        "notes": "River spirit woman with extremely long dark green-black hair trailing into a moonlit river, combing it; eerie night presence."
       },
       "aura_revision": {
         "decision": "keep",
@@ -4653,6 +4672,654 @@
         ],
         "review_path": "data/artwork-generated/aura-revision-797/reviews/rusalka.json",
         "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/rusalka.json"
+      },
+      "presentation_revision_history": [
+        {
+          "index": 8,
+          "slug": "rusalka",
+          "canonical_name": "Rusalka",
+          "worker": "worker-0",
+          "status": "complete",
+          "review_path": "data/gemini/reviews/batch-121.review.json",
+          "research": {
+            "schema": "mythics-entry/1",
+            "batch_id": "batch-121",
+            "slug": "rusalka",
+            "task": "enrich",
+            "tier": "core",
+            "researched_at": "2026-10-03",
+            "identity": {
+              "canonical_name": "Rusalka",
+              "native_name": {
+                "text": "русалка",
+                "script": "Cyrillic",
+                "claim_ids": [
+                  "rusalka-c01"
+                ]
+              },
+              "display_name": {
+                "id": "Rusalka",
+                "en": "Rusalka"
+              },
+              "wikidata_qid": "Q336237",
+              "claim_ids": [
+                "rusalka-c01"
+              ]
+            },
+            "alternate_names": [
+              {
+                "name": "mavka",
+                "language": "uk",
+                "name_type": "regional",
+                "claim_ids": [
+                  "rusalka-c02"
+                ]
+              },
+              {
+                "name": "vodyanitsa",
+                "language": "ru",
+                "name_type": "regional",
+                "claim_ids": [
+                  "rusalka-c02"
+                ]
+              }
+            ],
+            "jenis": {
+              "value": "roh",
+              "claim_ids": [
+                "rusalka-c01"
+              ]
+            },
+            "classification": {
+              "value": "spirit",
+              "claim_ids": [
+                "rusalka-c01"
+              ]
+            },
+            "culture": {
+              "value": "slavic-folklore",
+              "suggested_new": null,
+              "claim_ids": [
+                "rusalka-c01"
+              ]
+            },
+            "region": {
+              "value": "europe",
+              "claim_ids": [
+                "rusalka-c01"
+              ]
+            },
+            "countries": null,
+            "era": null,
+            "habitats": [
+              {
+                "value": "water",
+                "claim_ids": [
+                  "rusalka-c01",
+                  "rusalka-c06",
+                  "rusalka-c14"
+                ]
+              },
+              {
+                "value": "forest",
+                "claim_ids": [
+                  "rusalka-c09"
+                ]
+              }
+            ],
+            "disposition": {
+              "value": "ambivalent",
+              "claim_ids": [
+                "rusalka-c01",
+                "rusalka-c04",
+                "rusalka-c06"
+              ]
+            },
+            "traits": [
+              {
+                "value": "water-associated",
+                "claim_ids": [
+                  "rusalka-c01",
+                  "rusalka-c09"
+                ]
+              },
+              {
+                "value": "undead",
+                "claim_ids": [
+                  "rusalka-c05",
+                  "rusalka-c06"
+                ]
+              }
+            ],
+            "short_description": {
+              "id": "Rusalka adalah makhluk perempuan dalam cerita rakyat Slavia yang erat dengan air dan sering memusuhi manusia, biasanya arwah perempuan muda yang mati tenggelam.",
+              "en": "The rusalka is a female being of Slavic folklore, closely tied to water and often hostile to people, usually the spirit of a young woman who drowned.",
+              "claim_ids": [
+                "rusalka-c01",
+                "rusalka-c06"
+              ]
+            },
+            "long_description": [
+              {
+                "id": "Dalam cerita rakyat Slavia, rusalka adalah sosok perempuan yang sering berbuat jahat kepada manusia dan biasanya dikaitkan dengan air. Padanannya di Eropa lain antara lain Melusine dari Prancis dan Nixie dari dunia Jermanik. Di Rusia utara ia punya banyak sebutan seperti vodyanitsa, sedangkan di Ukraina ia disebut mavka.",
+                "en": "In Slavic folklore the rusalka is a female figure, frequently harmful to people and usually associated with water. Her counterparts elsewhere in Europe include the French Melusine and the Germanic Nixie. In northern Russia she had many names, such as vodyanitsa, while in Ukraine she was called a mavka.",
+                "claim_ids": [
+                  "rusalka-c01",
+                  "rusalka-c02"
+                ]
+              },
+              {
+                "id": "Menurut kebanyakan cerita, arwah perempuan muda yang mati di atau dekat sungai atau danau kembali menghantui perairan itu. Ia tidak selalu jahat dan dapat beristirahat dengan tenang bila kematiannya dibalas, tetapi tujuan utamanya memikat pemuda dengan rupa atau suaranya, lalu menjerat kaki mereka dengan rambut panjangnya dan menenggelamkan mereka. Dalam sebagian cerita, korban dibunuh dengan digelitik sampai mati atau dipaksa ikut tarian yang liar. Rambutnya selalu terurai dan bisa pirang, hitam, kehijauan, atau hijau sama sekali.",
+                "en": "In most stories the soul of a young woman who died in or near a river or lake returns to haunt those waters. She is not always malevolent and may rest in peace once her death is avenged, but her chief aim is to lure young men with her looks or voice, bind their feet with her long hair and drag them under. In some tales victims were tickled to death or forced to join a frenzied dance. Her hair is always loose and may be fair, black, greenish or entirely green.",
+                "claim_ids": [
+                  "rusalka-c06",
+                  "rusalka-c07",
+                  "rusalka-c08",
+                  "rusalka-c16"
+                ]
+              },
+              {
+                "id": "Gambaran rusalka berbeda menurut daerah. Di Ukraina ia lebih sering dikaitkan dengan air, di Belarus dengan hutan dan ladang; biasanya ia digambarkan sebagai gadis cantik tanpa busana, tetapi di beberapa tempat sebagai makhluk buruk rupa dan berbulu. Rusalka dipercaya paling berbahaya pada Pekan Rusalka di awal Juni, ketika mereka keluar dari air untuk berayun di dahan pohon birch dan willow pada malam hari, sehingga berenang saat itu dilarang keras.",
+                "en": "Images of the rusalka varied by region. In Ukraine she was more often tied to water, in Belarus to forest and field; she was usually a beautiful naked maiden, but in some areas a hideous, hairy creature. Rusalki were thought most dangerous during Rusalka Week in early June, when they left the water to swing on birch and willow branches at night, so swimming then was strictly forbidden.",
+                "claim_ids": [
+                  "rusalka-c09",
+                  "rusalka-c10",
+                  "rusalka-c11"
+                ]
+              },
+              {
+                "id": "Namanya berasal dari rusalija, yang masuk ke bahasa Slavia lewat bahasa Yunani Bizantium dari kata Latin Rosālia, nama untuk Pentakosta dan hari-hari di sekitarnya. Menurut Vladimir Propp, bangsa Slavia pagan semula mengaitkan rusalka dengan kesuburan: mereka keluar dari air pada musim semi untuk membawa kelembapan ke ladang dan tidak dianggap jahat sebelum abad ke-19. Dalam versi abad ke-19, rusalka menjadi makhluk mati yang gelisah dan berbahaya.",
+                "en": "Her name comes from rusalija, which reached the Slavic languages through Byzantine Greek from the Latin Rosālia, a name for Pentecost and the days around it. According to Vladimir Propp, pagan Slavs first linked rusalki with fertility: they rose from the water in spring to bring moisture to the fields and were not thought evil before the 19th century. In 19th-century versions the rusalka became a restless, dangerous dead being.",
+                "claim_ids": [
+                  "rusalka-c03",
+                  "rusalka-c04",
+                  "rusalka-c05"
+                ]
+              }
+            ],
+            "cultural_context": null,
+            "etymology": {
+              "original_form": "Rosālia",
+              "language": "Latin",
+              "literal_meaning": {
+                "id": "nama untuk Pentakosta dan hari-hari di sekitarnya",
+                "en": "a name for Pentecost and the adjacent days"
+              },
+              "claim_ids": [
+                "rusalka-c03"
+              ]
+            },
+            "story_mode": {
+              "who": {
+                "id": "Rusalka adalah roh perempuan Slavia yang terkait dengan air.",
+                "en": "The rusalka is a Slavic female spirit tied to water.",
+                "claim_ids": [
+                  "rusalka-c01"
+                ]
+              },
+              "origin": {
+                "id": "Menurut kebanyakan cerita, ia arwah perempuan muda yang mati di sungai atau danau.",
+                "en": "In most stories she is the soul of a young woman who died in a river or lake.",
+                "claim_ids": [
+                  "rusalka-c06"
+                ]
+              },
+              "role": {
+                "id": "Ia memikat pemuda ke dalam air lalu menenggelamkan mereka.",
+                "en": "She lures young men into the water and drowns them.",
+                "claim_ids": [
+                  "rusalka-c07"
+                ]
+              },
+              "famous_for": {
+                "id": "Ia paling ditakuti saat Pekan Rusalka di awal Juni.",
+                "en": "She was most feared during Rusalka Week in early June.",
+                "claim_ids": [
+                  "rusalka-c10"
+                ]
+              }
+            },
+            "did_you_know": {
+              "id": "Selama Pekan Rusalka, orang dilarang keras berenang agar tidak diseret ke dasar sungai.",
+              "en": "During Rusalka Week swimming was strictly forbidden, lest one be dragged to the river bed.",
+              "claim_ids": [
+                "rusalka-c11"
+              ]
+            },
+            "abilities": [],
+            "weaknesses": [
+              {
+                "name": {
+                  "id": "Rambut kering",
+                  "en": "Dry hair"
+                },
+                "description": {
+                  "id": "Ia tidak bisa lama di luar air; jika rambutnya kering, ia akan mati.",
+                  "en": "She cannot stay long out of water; if her hair dries she dies."
+                },
+                "claim_ids": [
+                  "rusalka-c15"
+                ]
+              }
+            ],
+            "variants": [],
+            "stories": [],
+            "places": [],
+            "timeline": [],
+            "relations": [
+              {
+                "target_name": "Melusine",
+                "relation_type": "counterpart",
+                "note": {
+                  "id": "Padanan rusalka dari Prancis.",
+                  "en": "A French counterpart of the rusalka."
+                },
+                "claim_ids": [
+                  "rusalka-c01"
+                ]
+              },
+              {
+                "target_name": "Nixie",
+                "relation_type": "counterpart",
+                "note": {
+                  "id": "Padanan rusalka dari dunia Jermanik.",
+                  "en": "A Germanic counterpart of the rusalka."
+                },
+                "claim_ids": [
+                  "rusalka-c01"
+                ]
+              },
+              {
+                "target_name": "vila",
+                "relation_type": "associated",
+                "note": {
+                  "id": "Dulu gambarannya lebih mirip roh alam seperti vila.",
+                  "en": "In the past her image was closer to a nature spirit like the vila."
+                },
+                "claim_ids": [
+                  "rusalka-c12"
+                ]
+              }
+            ],
+            "modern_depictions": [
+              {
+                "title": "Rusalka",
+                "year": 1901,
+                "medium": "music",
+                "description": {
+                  "id": "Opera karya Antonín Dvořák.",
+                  "en": "An opera by Antonín Dvořák."
+                },
+                "claim_ids": [
+                  "rusalka-c13"
+                ]
+              }
+            ],
+            "tradition_vs_modern": {
+              "traditional": {
+                "id": "Dulu gambarannya lebih rumit, mirip roh alam yang ditemukan di dekat air, ladang, hutan, dan gunung.",
+                "en": "In the past her image was more complex, closer to a nature spirit found by water, in fields, forests and mountains."
+              },
+              "modern": {
+                "id": "Kini ia lebih sering digambarkan seperti putri duyung, tetapi berkaki, bukan berekor ikan.",
+                "en": "Today she is mostly pictured like a mermaid, but with legs rather than a fish tail."
+              },
+              "claim_ids": [
+                "rusalka-c12"
+              ]
+            },
+            "learning_questions": [
+              {
+                "id": "Mengapa gambaran rusalka berubah dari roh kesuburan menjadi arwah yang berbahaya?",
+                "en": "Why did the image of the rusalka change from a fertility spirit to a dangerous ghost?"
+              }
+            ],
+            "images": [],
+            "sources": [
+              {
+                "id": "rusalka-s1",
+                "url": "https://en.wikipedia.org/wiki/Rusalka",
+                "title": "Rusalka",
+                "author": null,
+                "publisher": "Wikipedia (en)",
+                "published": null,
+                "language": "en",
+                "type": "wikipedia",
+                "accessed": "2026-10-03"
+              },
+              {
+                "id": "rusalka-s2",
+                "url": "https://id.wikipedia.org/wiki/Rusalka",
+                "title": "Rusalka",
+                "author": null,
+                "publisher": "Wikipedia (id)",
+                "published": null,
+                "language": "id",
+                "type": "wikipedia",
+                "accessed": "2026-10-03"
+              }
+            ],
+            "claims": [
+              {
+                "id": "rusalka-c01",
+                "source_id": "rusalka-s1",
+                "quote": "In Slavic folklore, the rusalka (plural: rusalki; Cyrillic: русалка, Russian pronunciation ... is a female entity, often malicious toward mankind and frequently associated with water. It has counterparts in other parts of Europe, such as the French Melusine and the Germanic Nixie.",
+                "locator": "lead",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Dalam cerita rakyat Slavia, rusalka (русалка) adalah sosok perempuan yang sering memusuhi manusia dan sering dikaitkan dengan air; padanannya di Eropa lain antara lain Melusine dari Prancis dan Nixie dari dunia Jermanik.",
+                  "en": "In Slavic folklore the rusalka (русалка) is a female entity, often malicious toward people and frequently associated with water; counterparts elsewhere in Europe include the French Melusine and the Germanic Nixie."
+                }
+              },
+              {
+                "id": "rusalka-c02",
+                "source_id": "rusalka-s1",
+                "quote": "In northern Russia, the rusalka was also known by various names such as the vodyanitsa ... In Ukraine, the rusalka was called a mavka.",
+                "locator": "lead",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Di Rusia utara rusalka juga dikenal dengan berbagai nama seperti vodyanitsa; di Ukraina ia disebut mavka.",
+                  "en": "In northern Russia the rusalka was also known by names such as vodyanitsa; in Ukraine she was called a mavka."
+                }
+              },
+              {
+                "id": "rusalka-c03",
+                "source_id": "rusalka-s1",
+                "quote": "The term \"Rusalka\" derives from \"rusalija\" ... which entered Slavic languages, via Byzantine Greek \"rousália\" ... from the Latin \"Rosālia\" as a name for Pentecost and the days adjacent to it.",
+                "locator": "Etymology",
+                "context": "etymology",
+                "statement": {
+                  "id": "Istilah \"rusalka\" berasal dari \"rusalija\", yang masuk ke bahasa Slavia melalui bahasa Yunani Bizantium \"rousália\" dari kata Latin \"Rosālia\", nama untuk Pentakosta dan hari-hari di sekitarnya.",
+                  "en": "The term \"rusalka\" derives from \"rusalija\", which entered Slavic via Byzantine Greek \"rousália\" from the Latin \"Rosālia\", a name for Pentecost and the adjacent days."
+                }
+              },
+              {
+                "id": "rusalka-c04",
+                "source_id": "rusalka-s1",
+                "quote": "According to Vladimir Propp, the original \"rusalka\" was an appellation used by pagan Slavic peoples, who linked them with fertility and did not consider rusalki evil before the 19th century. They came out of the water in the spring to transfer life-giving moisture to the fields",
+                "locator": "Origin and appearance",
+                "context": "scholarly-interpretation",
+                "statement": {
+                  "id": "Menurut Vladimir Propp, bangsa Slavia pagan mengaitkan rusalka dengan kesuburan dan tidak menganggapnya jahat sebelum abad ke-19; rusalka keluar dari air pada musim semi untuk membawa kelembapan pemberi kehidupan ke ladang.",
+                  "en": "According to Vladimir Propp, pagan Slavs linked rusalki with fertility and did not consider them evil before the 19th century; they came out of the water in spring to bring life-giving moisture to the fields."
+                }
+              },
+              {
+                "id": "rusalka-c05",
+                "source_id": "rusalka-s1",
+                "quote": "In 19th-century versions, a rusalka is an unquiet, dangerous being who is no longer alive, associated with the unclean spirit.",
+                "locator": "Origin and appearance",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Dalam versi abad ke-19, rusalka adalah makhluk yang sudah mati, gelisah, dan berbahaya, yang dikaitkan dengan roh najis.",
+                  "en": "In 19th-century versions the rusalka is a restless, dangerous being no longer alive, associated with the unclean spirit."
+                }
+              },
+              {
+                "id": "rusalka-c06",
+                "source_id": "rusalka-s1",
+                "quote": "It is accounted by most stories that the soul of a young woman who had died in or near a river or a lake would come back to haunt that waterway. This undead rusalka is not invariably malevolent, and would be allowed to die in peace if her death is avenged.",
+                "locator": "Origin and appearance",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Menurut kebanyakan cerita, arwah perempuan muda yang mati di atau dekat sungai atau danau kembali menghantui perairan itu; rusalka mayat hidup ini tidak selalu jahat dan dapat mati dengan tenang bila kematiannya dibalas.",
+                  "en": "Most stories say the soul of a young woman who died in or near a river or lake returns to haunt it; this undead rusalka is not always malevolent and may die in peace if her death is avenged."
+                }
+              },
+              {
+                "id": "rusalka-c07",
+                "source_id": "rusalka-s1",
+                "quote": "Her main purpose is, however, to lure young men, seduced by either her looks or her voice, into the depths of said waterways where she would entangle their feet with her long hair and submerge them.",
+                "locator": "Origin and appearance",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Tujuan utamanya adalah memikat pemuda dengan rupa atau suaranya ke kedalaman perairan, lalu menjerat kaki mereka dengan rambut panjangnya dan menenggelamkan mereka.",
+                  "en": "Her main purpose is to lure young men with her looks or voice into the depths, entangle their feet in her long hair and drown them."
+                }
+              },
+              {
+                "id": "rusalka-c08",
+                "source_id": "rusalka-s1",
+                "quote": "They killed their victims by tickling them to death or forcing them to participate in a frenzied dance.",
+                "locator": "Region-specific",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Mereka membunuh korban dengan menggelitikinya sampai mati atau memaksanya ikut serta dalam tarian yang liar.",
+                  "en": "They killed their victims by tickling them to death or forcing them into a frenzied dance."
+                }
+              },
+              {
+                "id": "rusalka-c09",
+                "source_id": "rusalka-s1",
+                "quote": "In stories from Ukraine, they were often linked with water. In Belarus they were linked with the forest and field. They were usually pictured as beautiful naked maidens, but in some areas they were imagined as hideous and hairy.",
+                "locator": "Region-specific",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Dalam cerita dari Ukraina rusalka sering dikaitkan dengan air, di Belarus dengan hutan dan ladang; biasanya mereka digambarkan sebagai gadis cantik tanpa busana, tetapi di beberapa daerah sebagai makhluk buruk rupa dan berbulu.",
+                  "en": "In Ukrainian stories rusalki were often linked with water, in Belarus with forest and field; usually pictured as beautiful naked maidens, in some areas they were hideous and hairy."
+                }
+              },
+              {
+                "id": "rusalka-c10",
+                "source_id": "rusalka-s1",
+                "quote": "The rusalki were believed to be at their most dangerous during the 'Rusalka week' ... in early June. At this time, they were supposed to have left their watery depths in order to swing on branches of birch and willow trees by night.",
+                "locator": "Rusalka week",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Rusalka dipercaya paling berbahaya pada Pekan Rusalka di awal Juni, ketika mereka keluar dari air untuk berayun di dahan pohon birch dan willow pada malam hari.",
+                  "en": "Rusalki were believed most dangerous during Rusalka Week in early June, when they left the water to swing on birch and willow branches at night."
+                }
+              },
+              {
+                "id": "rusalka-c11",
+                "source_id": "rusalka-s1",
+                "quote": "Swimming during this week was strictly forbidden, lest mermaids drag a swimmer down to the river bed.",
+                "locator": "Rusalka week",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Selama pekan itu berenang dilarang keras, agar perenang tidak diseret ke dasar sungai.",
+                  "en": "Swimming that week was strictly forbidden, lest a swimmer be dragged to the river bed."
+                }
+              },
+              {
+                "id": "rusalka-c12",
+                "source_id": "rusalka-s1",
+                "quote": "the currently dominant presents her as something like a mermaid, though she is pictured as having legs rather than a fish tail ... In the past, her image was more complex and she more closely resembled a nature spirit, found not only near water but in fields, forests, and mountains, rather like the vila",
+                "locator": "Modern depictions of rusalki",
+                "context": "scholarly-interpretation",
+                "statement": {
+                  "id": "Menurut seorang ahli folklor, gambaran yang kini dominan menyerupai putri duyung tetapi berkaki, bukan berekor ikan; dulu gambarannya lebih rumit dan lebih mirip roh alam yang ditemukan di dekat air, ladang, hutan, dan gunung.",
+                  "en": "According to a folklorist, the dominant image today is mermaid-like but with legs rather than a fish tail; formerly she was more complex, closer to a nature spirit found by water, in fields, forests and mountains."
+                }
+              },
+              {
+                "id": "rusalka-c13",
+                "source_id": "rusalka-s1",
+                "quote": "1901 – Rusalka, an opera by Antonín Dvořák.",
+                "locator": "List of notable works featuring rusalki",
+                "context": "modern-popular-culture",
+                "statement": {
+                  "id": "Pada 1901 Antonín Dvořák menggubah opera Rusalka.",
+                  "en": "In 1901 Antonín Dvořák composed the opera Rusalka."
+                }
+              },
+              {
+                "id": "rusalka-c14",
+                "source_id": "rusalka-s2",
+                "quote": "Menurut sebagian besar tradisi, rusalka merupakan perempuan ikan, yang tinggal di dasar sungai. Rusalka berasal dari para perempuan yang meninggal di sungai.",
+                "locator": "lead",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Menurut sebagian besar tradisi, rusalka adalah perempuan ikan yang tinggal di dasar sungai dan berasal dari perempuan yang meninggal di sungai.",
+                  "en": "In most traditions the rusalka is a fish-woman living on the river bed, arising from women who died in the river."
+                }
+              },
+              {
+                "id": "rusalka-c15",
+                "source_id": "rusalka-s2",
+                "quote": "Rusalka tidak bisa tinggal lama di atas permukaan, tetapi sisir mereka bisa mengeluarkan air untuk membasahi rambut mereka, jika rambutnya kering maka rusalka akan mati.",
+                "locator": "lead",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Rusalka tidak bisa lama di atas permukaan air, tetapi sisirnya dapat mengeluarkan air untuk membasahi rambutnya; jika rambutnya kering, rusalka akan mati.",
+                  "en": "The rusalka cannot stay long above water, but her comb can produce water to wet her hair; if her hair dries, she dies."
+                }
+              },
+              {
+                "id": "rusalka-c16",
+                "source_id": "rusalka-s1",
+                "quote": "In most beliefs rusalki always have loose hair ... The hair of the rusalka can be fair, black, greenish or completely green.",
+                "locator": "Origin and appearance",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Dalam kebanyakan kepercayaan rambut rusalka selalu terurai, dan warnanya bisa pirang, hitam, kehijauan, atau hijau sepenuhnya.",
+                  "en": "In most beliefs rusalki always have loose hair, which can be fair, black, greenish or completely green."
+                }
+              }
+            ],
+            "conflicts": [
+              {
+                "topic": {
+                  "id": "Sifat asli rusalka",
+                  "en": "The rusalka's original nature"
+                },
+                "positions": [
+                  {
+                    "summary": {
+                      "id": "Satu pandangan: semula roh kesuburan yang tidak dianggap jahat sebelum abad ke-19.",
+                      "en": "One view: originally a fertility spirit, not considered evil before the 19th century."
+                    },
+                    "claim_ids": [
+                      "rusalka-c04"
+                    ]
+                  },
+                  {
+                    "summary": {
+                      "id": "Versi abad ke-19: makhluk mati yang gelisah dan berbahaya.",
+                      "en": "19th-century versions: a restless, dangerous dead being."
+                    },
+                    "claim_ids": [
+                      "rusalka-c05"
+                    ]
+                  }
+                ]
+              },
+              {
+                "topic": {
+                  "id": "Wujud tubuh",
+                  "en": "Bodily form"
+                },
+                "positions": [
+                  {
+                    "summary": {
+                      "id": "Satu sumber: perempuan ikan yang tinggal di dasar sungai.",
+                      "en": "One source: a fish-woman living on the river bed."
+                    },
+                    "claim_ids": [
+                      "rusalka-c14"
+                    ]
+                  },
+                  {
+                    "summary": {
+                      "id": "Sumber lain: gambaran kini mirip putri duyung, tetapi berkaki, bukan berekor ikan.",
+                      "en": "Another source: today pictured like a mermaid but with legs, not a fish tail."
+                    },
+                    "claim_ids": [
+                      "rusalka-c12"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "gaps": [
+              {
+                "field": "images",
+                "searched": "Tidak ada gambar Commons yang dibuktikan dalam sesi ini."
+              },
+              {
+                "field": "sources",
+                "searched": "Hanya sumber Wikipedia; Internet Encyclopedia of Ukraine tidak punya halaman rusalka di URL yang dicoba."
+              }
+            ]
+          },
+          "selection_visual_claim_ids": [
+            "rusalka-c07",
+            "rusalka-c09",
+            "rusalka-c12",
+            "rusalka-c14",
+            "rusalka-c15",
+            "rusalka-c16"
+          ],
+          "url": "/assets/art/rusalka-verified.webp",
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/rusalka.png",
+          "prompt": "Use case: stylized-concept. ONE square detailed painterly naturalistic mythology encyclopedia illustration of RUSALKA, choosing the documented Slavic drowned-woman spirit with LEGS rather than a fish tail. One adult female apparition emerges knee-deep at a dark riverbank below willow and birch branches. Extremely long loose GREEN hair streams across the water like entangling strands, pallid eerily luminous skin, sorrowful predatory stare. Keep source-faithful human anatomy, subtly uncanny glassy eyes and translucent edges instead of inventing monster parts. Modest pale draped fabric and hair cover chest and pelvis. Both legs readable through water; full figure with margins. Truly frightening still-water night atmosphere, green spectral mist and cold ripple aura as artistic interpretation. No victim, nudity, gore, fish tail, horns, claws, wings, extra limbs, crown, text, watermark, border or collage.",
+          "depicted_variant": "Legged drowned-woman water spirit with loose green hair, excluding fish-tail variant",
+          "visual_requirements": [
+            "adult woman water spirit with two legs, not fish tail",
+            "long loose green hair",
+            "Preserve source anatomy, counts, scale and modest framing.",
+            "Character presence through pose, composition, natural lighting; no generic emitted aura."
+          ],
+          "basis_claim_ids": [
+            "rusalka-c01",
+            "rusalka-c05",
+            "rusalka-c06",
+            "rusalka-c07",
+            "rusalka-c10",
+            "rusalka-c12",
+            "rusalka-c16"
+          ],
+          "aura": "Dangerous water revenant presence through stare, long loose hair, still water and moonlit willow shadow.",
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Actually inspected full original. Observed pale maiden with green loose hair, natural lake fog and moonlight only; no emitted magical fog/ribbons/particles.",
+            "reviewer": "worker-0"
+          },
+          "width": 1254,
+          "height": 1254,
+          "sha256": "b30fea9087481e88fcc023e9cae57af9af4b41c6b126a657c8fd7c1fe2f7090a",
+          "root_visual_review": {
+            "verdict": "pass",
+            "reviewer": "root",
+            "reviewed_at": "2026-10-05",
+            "notes": "Inspected original contact image: long loose green hair, female humanoid with legs, cloth covering, lake and hanging willow. Only natural water mist and moonlight; no emitted aura or ribbons. Pale expression and solitary framing supply menace."
+          },
+          "aura_revision": {
+            "decision": "keep",
+            "reviewer": "worker-0",
+            "rationale": "Observed pale maiden with green loose hair, natural lake fog and moonlight only; no emitted magical fog/ribbons/particles.",
+            "allowed_magic": "none",
+            "source_basis_claim_ids": [
+              "rusalka-c01",
+              "rusalka-c05",
+              "rusalka-c06",
+              "rusalka-c07",
+              "rusalka-c10",
+              "rusalka-c12",
+              "rusalka-c16"
+            ],
+            "review_path": "data/artwork-generated/aura-revision-797/reviews/rusalka.json",
+            "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/rusalka.json"
+          }
+        }
+      ],
+      "native_sha256": "7a9314521788d1f1c407db9df910221610cd3ba278e00fe8135f79b257ce9a68",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/rusalka.json",
+        "native_sha256": "7a9314521788d1f1c407db9df910221610cd3ba278e00fe8135f79b257ce9a68",
+        "old_url": "/assets/art/rusalka-verified.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/rusalka.png",
+        "old_webp_sha256": "b30fea9087481e88fcc023e9cae57af9af4b41c6b126a657c8fd7c1fe2f7090a",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "rusalka-c01",
+          "rusalka-c07",
+          "rusalka-c12",
+          "rusalka-c15",
+          "rusalka-c16"
+        ]
       }
     },
     {
@@ -13816,33 +14483,49 @@
         "ravana-c09",
         "ravana-c13"
       ],
-      "url": "/assets/art/ravana-presence.webp",
-      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/ravana-presence-v2.png",
-      "prompt": "Use case: precise-object-edit. Edit this Ravana artwork only to remove unsupported crimson energy ribbons, glowing body envelope and magical light motes. Preserve EXACTLY ten human heads: nine in the lower horizontal row plus one above, their faces, crowns, positions, one shared royal torso, body scale, pose, jewelry, red drape and coverage, Lanka palace, sunset and actual torch flames. No addition or deletion of heads or limbs. Majesty and intimidating presence come from ten stern gazes, imposing framing, regal costume and ordinary warm sunset/torchlight. Restore natural skin and architecture where light trails vanish; no alternate magical effects, text or watermark.",
-      "depicted_variant": "Documented ten-headed Ravana rakshasa king; regal costume and palace/aura artistic, arms framed out to avoid unsupported limb-count claim.",
+      "url": "/assets/art/ravana-presentation-revision-nama-besar.webp",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/ravana.png",
+      "prompt": "Square premium original painterly Hindu epic RAVANA king of Lanka. EXACTLY TEN HUMAN HEADS on ONE fully clothed regal imposing body ravana-c01,c09. Ten distinct faces fully visible in simple unambiguous arrangement: FIVE HEADS upper row, FIVE HEADS lower row, all attached to same coherent king figure, ten heads total. TWO arms only because accepted research does not specify twenty arms, TWO legs, full modest long ornate royal garments, NO exposed body horns wings tails extra heads or arms. One hand holds a single plain royal SWORD, documented gift weapons c12, other hand at side. Great king terrifying proud formidable, no caricature of living religion. Low-angle monumental silhouette on immense Lanka stone terrace above tiny distant coastal architecture; cinematic rich natural crimson-gold dawn and deep shadow, painterly naturalistic exquisite detail. No magical fire breath lightning weapon beams or unsupported extra powers, no text labels numeric symbols writing watermark logos border gore nudity or modern film/game/anime/comic designs.",
+      "depicted_variant": "Ten-headed Ravana king of Lanka, source-limited two-arm body with royal weapon.",
       "visual_requirements": [
-        "Exactly ten human heads: nine below, one above",
-        "One shared royal torso and same Lanka setting",
-        "No red energy ribbons or emitted aura"
+        {
+          "kind": "anatomy",
+          "description": "Exactly ten heads in chosen Dashanana king variant.",
+          "claim_ids": [
+            "ravana-c01",
+            "ravana-c09"
+          ]
+        },
+        {
+          "kind": "anatomy",
+          "description": "Royal weapon as gift of Brahma.",
+          "claim_ids": [
+            "ravana-c12"
+          ]
+        }
       ],
       "basis_claim_ids": [
         "ravana-c01",
-        "ravana-c09"
+        "ravana-c09",
+        "ravana-c12"
       ],
-      "aura": "Ten stern faces, imposing royal framing, gold regalia and ordinary sunset/torchlight.",
+      "aura": "Overwhelming ten-headed sovereign presence; no invented fire or lightning powers.",
       "visual_review": {
         "verdict": "pass",
-        "notes": "Native edited output individually inspected. Counted ten crowned heads, original torso/pose retained, red light ribbons gone; actual torch flames retained.",
-        "reviewer": "aura-resume-1"
+        "reviewer": "codex",
+        "notes": "Native inspected: exactly ten distinct human heads arranged five above/five below on one imposing clothed royal body, two arms/legs and single sword. Clear count, no invented twenty-arm anatomy, fire attack or wings. Rich monumental regal sunrise, no text watermark gore or nudity.",
+        "native_sha256": "70667b840dfaacabe6db66fa4512d85d962a136bb916117a5ee2b6b7568a9509",
+        "reviewed_at": "2026-10-06T08:12:21.935Z"
       },
       "width": 1254,
       "height": 1254,
-      "sha256": "181bfdc870c01e5982f388c2639aa82ffa167dbc1ecdfc8f2706f08254f35d6d",
+      "sha256": "c7d85fe78968f9e41a58a84efb8a062a0a39596a2f0bfe971e5e9247569c30fc",
       "root_visual_review": {
         "verdict": "pass",
-        "reviewer": "root",
-        "reviewed_at": "2026-10-05",
-        "notes": "Inspected edit: ten distinct crowned heads (nine in row, one above), same royal face, jewelry and red cloth in Lanka palace. Natural sunset and torches, no emitted fire-ring or generic magical wrap."
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+        "native_sha256": "70667b840dfaacabe6db66fa4512d85d962a136bb916117a5ee2b6b7568a9509",
+        "notes": "Ten heads counted on one two-armed king with sword before golden Lanka at sunset."
       },
       "aura_revision": {
         "decision": "revise",
@@ -13855,6 +14538,465 @@
         ],
         "review_path": "data/artwork-generated/aura-revision-797/reviews/ravana.json",
         "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/ravana.json"
+      },
+      "presentation_revision_history": [
+        {
+          "index": 24,
+          "slug": "ravana",
+          "canonical_name": "Ravana",
+          "worker": "worker-1",
+          "status": "complete",
+          "review_path": "data/gemini/reviews/batch-072.review.json",
+          "research": {
+            "schema": "mythics-entry/1",
+            "batch_id": "batch-072",
+            "slug": "ravana",
+            "task": "enrich",
+            "tier": "rich",
+            "researched_at": "2026-10-02",
+            "identity": {
+              "canonical_name": "Ravana",
+              "native_name": null,
+              "display_name": {
+                "id": "Ravana",
+                "en": "Ravana"
+              },
+              "wikidata_qid": "Q235102",
+              "claim_ids": [
+                "ravana-c01"
+              ]
+            },
+            "alternate_names": [],
+            "jenis": {
+              "value": "iblis/setan",
+              "claim_ids": [
+                "ravana-c01"
+              ]
+            },
+            "classification": {
+              "value": "demon",
+              "claim_ids": [
+                "ravana-c01"
+              ]
+            },
+            "culture": {
+              "value": "tradition-hindu",
+              "suggested_new": null,
+              "claim_ids": [
+                "ravana-c01"
+              ]
+            },
+            "region": {
+              "value": "south-asia",
+              "claim_ids": [
+                "ravana-c01"
+              ]
+            },
+            "countries": null,
+            "era": null,
+            "habitats": [],
+            "disposition": null,
+            "traits": [
+              {
+                "value": "shapeshifter",
+                "claim_ids": [
+                  "ravana-c12"
+                ]
+              }
+            ],
+            "short_description": {
+              "id": "Ravana adalah raja rakshasa Lanka yang lazim digambarkan berkepala sepuluh.",
+              "en": "Ravana is the rakshasa king of Lanka traditionally depicted with ten heads.",
+              "claim_ids": [
+                "ravana-c01"
+              ]
+            },
+            "long_description": [
+              {
+                "id": "Ravana adalah raja rakshasa Lanka yang lazim digambarkan berkepala sepuluh. Ia disebut putra Vishrava dan Kaikasi.",
+                "en": "Ravana is the rakshasa king of Lanka traditionally depicted with ten heads. He is described as the son of Vishrava and Kaikasi.",
+                "claim_ids": [
+                  "ravana-c01",
+                  "ravana-c02"
+                ]
+              },
+              {
+                "id": "Ia menculik Sita dan menahannya di Ashoka Vatika. Rama melawannya dengan dukungan Sugriva dan pasukan vanara lalu membunuhnya. Kekalahannya diperingati dengan pembakaran patung Ravana pada Dussehra. Ravana dipandang sebagai pemuja Shiva. Ia juga hadir dalam Lankavatara Sutra, Jataka Buddha, dan Ramayana Jain. Nama Ravana diterangkan berarti mengaum. Gelar Dashanana berarti yang berkepala sepuluh. Nama lainnya mencakup Lankapati dan Lankeshwara. Brahma memberinya anugerah kebal terhadap ciptaannya kecuali manusia dalam cerita. Anugerah Brahma juga mencakup senjata, kereta, dan kemampuan berganti wujud. Mandodari, putri Maya, disebut sebagai ratu utamanya. Mackenzie menggambarkan Rama sebagai pembunuh Ravana yang menindas manusia dalam Ramayana. Adegan koleksi Museum Carlos menggambarkan Ravana membawa Sita dari pertapaannya di hutan.",
+                "en": "He abducts Sita and holds her in Ashoka Vatika. Rama fights him with Sugriva and the vanara army's support and kills him. His defeat is commemorated by burning Ravana effigies at Dussehra. Ravana is regarded as a devotee of Shiva. He also appears in the Lankavatara Sutra, Buddhist Jatakas, and Jain Ramayanas. The name Ravana is explained as meaning roaring. The epithet Dashanana means the one with ten heads. His other names include Lankapati and Lankeshwara. Brahma grants him immunity against his creations except humans in the story. Brahma's gifts also include weapons, a chariot, and shapeshifting. Mandodari, Maya's daughter, is described as his chief queen. Mackenzie describes Rama as the slayer of Ravana who oppresses humans in the Ramayana. The Carlos Museum collection scene depicts Ravana carrying Sita from her forest hermitage.",
+                "claim_ids": [
+                  "ravana-c03",
+                  "ravana-c04",
+                  "ravana-c05",
+                  "ravana-c06",
+                  "ravana-c07",
+                  "ravana-c08",
+                  "ravana-c09",
+                  "ravana-c10",
+                  "ravana-c11",
+                  "ravana-c12",
+                  "ravana-c13",
+                  "ravana-c14",
+                  "ravana-c15"
+                ]
+              }
+            ],
+            "cultural_context": {
+              "id": "Kekalahannya diperingati pada Dussehra.",
+              "en": "His defeat is commemorated at Dussehra.",
+              "claim_ids": [
+                "ravana-c05"
+              ]
+            },
+            "etymology": {
+              "original_form": "Ravana",
+              "language": "sa",
+              "literal_meaning": {
+                "id": "mengaum",
+                "en": "roaring"
+              },
+              "claim_ids": [
+                "ravana-c08"
+              ]
+            },
+            "story_mode": null,
+            "did_you_know": null,
+            "abilities": [
+              {
+                "ability_id": null,
+                "name": {
+                  "id": "Berganti wujud",
+                  "en": "Shapeshifting"
+                },
+                "description": {
+                  "id": "Berganti wujud",
+                  "en": "Shapeshifting"
+                },
+                "claim_ids": [
+                  "ravana-c12"
+                ]
+              }
+            ],
+            "weaknesses": [],
+            "variants": [],
+            "stories": [],
+            "places": [],
+            "timeline": [],
+            "relations": [
+              {
+                "target_name": "Vishrava",
+                "relation_type": "parent",
+                "note": {
+                  "id": "Ayah Ravana.",
+                  "en": "Ravana's father."
+                },
+                "claim_ids": [
+                  "ravana-c02"
+                ]
+              },
+              {
+                "target_name": "Mandodari",
+                "relation_type": "spouse",
+                "note": {
+                  "id": "Ratu utama Ravana.",
+                  "en": "Ravana's chief queen."
+                },
+                "claim_ids": [
+                  "ravana-c13"
+                ]
+              },
+              {
+                "target_name": "Rama",
+                "relation_type": "enemy",
+                "note": {
+                  "id": "Rama melawan dan membunuh Ravana.",
+                  "en": "Rama fights and kills Ravana."
+                },
+                "claim_ids": [
+                  "ravana-c04"
+                ]
+              }
+            ],
+            "modern_depictions": [],
+            "tradition_vs_modern": null,
+            "learning_questions": [],
+            "images": [],
+            "sources": [
+              {
+                "id": "ravana-s1",
+                "url": "https://en.wikipedia.org/wiki/Ravana",
+                "title": "Ravana",
+                "author": null,
+                "publisher": "Wikipedia",
+                "published": null,
+                "language": "en",
+                "type": "wikipedia",
+                "accessed": "2026-10-02"
+              },
+              {
+                "id": "ravana-s2",
+                "url": "https://www.gutenberg.org/cache/epub/47228/pg47228-images.html",
+                "title": "The Project Gutenberg eBook of Indian Myth and Legend, by Donald A. Mackenzie.",
+                "author": "Donald A. Mackenzie",
+                "publisher": "The Gresham Publishing Company; Project Gutenberg",
+                "published": null,
+                "language": "en",
+                "type": "folklore-collection",
+                "accessed": "2026-10-02"
+              },
+              {
+                "id": "ravana-s3",
+                "url": "https://digitalprojects.carlos.emory.edu/exhibits/show/ramayana/item/9003",
+                "title": "The Kidnapping of Sita, Admonishment of Lakshmana · Michael C. Carlos Museum Collections Online",
+                "author": null,
+                "publisher": "Michael C. Carlos Museum, Emory University",
+                "published": null,
+                "language": "en",
+                "type": "museum-or-archive",
+                "accessed": "2026-10-02"
+              }
+            ],
+            "claims": [
+              {
+                "id": "ravana-c01",
+                "source_id": "ravana-s1",
+                "quote": "He is traditionally depicted as a ten-headed rakshasa (demon) king of Lanka.",
+                "locator": "Article text, paragraph 1",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Ravana adalah raja rakshasa Lanka yang lazim digambarkan berkepala sepuluh.",
+                  "en": "Ravana is the rakshasa king of Lanka traditionally depicted with ten heads."
+                }
+              },
+              {
+                "id": "ravana-c02",
+                "source_id": "ravana-s1",
+                "quote": "Ravana (Sanskrit: रावण, romanized: Rāvaṇa, lit. 'roaring') is the principal antagonist of the ancient Hindu epic Ramayana and its several other versions. He is traditionally depicted as a ten-headed rakshasa (demon) king of Lanka. In the Ramayana, Ravana is described as the eldest son of sage Vishrava and Kaikasi.",
+                "locator": "Article text, paragraph 1",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Ia disebut putra Vishrava dan Kaikasi.",
+                  "en": "He is described as the son of Vishrava and Kaikasi."
+                }
+              },
+              {
+                "id": "ravana-c03",
+                "source_id": "ravana-s1",
+                "quote": "He abducted Rama's wife, Sita, and took her to his kingdom of Lanka, where he held her in the Ashoka Vatika.",
+                "locator": "Article text, paragraph 1",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Ia menculik Sita dan menahannya di Ashoka Vatika.",
+                  "en": "He abducts Sita and holds her in Ashoka Vatika."
+                }
+              },
+              {
+                "id": "ravana-c04",
+                "source_id": "ravana-s1",
+                "quote": "Rama, with the support of vanara King Sugriva and his army of vanaras, launched a rescue operation for Sita against Ravana in Lanka. Ravana was subsequently slain, and Rama rescued his beloved wife Sita.",
+                "locator": "Article text, paragraph 1",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Rama melawannya dengan dukungan Sugriva dan pasukan vanara lalu membunuhnya.",
+                  "en": "Rama fights him with Sugriva and the vanara army's support and kills him."
+                }
+              },
+              {
+                "id": "ravana-c05",
+                "source_id": "ravana-s1",
+                "quote": "His epic defeat is celebrated yearly by burning a large effigy, depicting the ten-headed Ravana, during the Hindu festival of Dussehra.",
+                "locator": "Article text, paragraph 1",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Kekalahannya diperingati dengan pembakaran patung Ravana pada Dussehra.",
+                  "en": "His defeat is commemorated by burning Ravana effigies at Dussehra."
+                }
+              },
+              {
+                "id": "ravana-c06",
+                "source_id": "ravana-s1",
+                "quote": "Ravana was well-versed in the six shastras and the four Vedas, including the Shiva Tandava Stotra. Ravana is also considered to be an ardent devotee of Shiva. Images of Ravana are often seen associated with Shiva at temples. He also appears in the Buddhist Mahayana text Laṅkāvatāra Sūtra, in Buddhist Jatakas, as well as in Jain Ramayanas.",
+                "locator": "Article text, paragraph 2",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Ravana dipandang sebagai pemuja Shiva.",
+                  "en": "Ravana is regarded as a devotee of Shiva."
+                }
+              },
+              {
+                "id": "ravana-c07",
+                "source_id": "ravana-s1",
+                "quote": "Ravana was well-versed in the six shastras and the four Vedas, including the Shiva Tandava Stotra. Ravana is also considered to be an ardent devotee of Shiva. Images of Ravana are often seen associated with Shiva at temples. He also appears in the Buddhist Mahayana text Laṅkāvatāra Sūtra, in Buddhist Jatakas, as well as in Jain Ramayanas.",
+                "locator": "Article text, paragraph 2",
+                "context": "historical-record",
+                "statement": {
+                  "id": "Ia juga hadir dalam Lankavatara Sutra, Jataka Buddha, dan Ramayana Jain.",
+                  "en": "He also appears in the Lankavatara Sutra, Buddhist Jatakas, and Jain Ramayanas."
+                }
+              },
+              {
+                "id": "ravana-c08",
+                "source_id": "ravana-s1",
+                "quote": "The word Rāvaṇa (Sanskrit: रावण) means \"Roaring\" (active), the opposite of Vaiśravaṇa which means to \"hear distinctly\" (passive). Both Ravana and Vaiśravaṇa, who is commonly known as Kubera, are considered to be patronymics derived from \"sons of Vishrava\".",
+                "locator": "Article text, paragraph 3",
+                "context": "etymology",
+                "statement": {
+                  "id": "Nama Ravana diterangkan berarti mengaum.",
+                  "en": "The name Ravana is explained as meaning roaring."
+                }
+              },
+              {
+                "id": "ravana-c09",
+                "source_id": "ravana-s1",
+                "quote": "Dashānana was a title later taken on by Ravana, and it means \"the one with ten (dasha) Heads (anana)\". Further, roravana is Sanskrit for \"loud roaring.\" In Abhinava Gupta's Krama Shaiva scripture, yāsām rāvanam is used as an expression to mean people who are truly aware of the materialism of their environment.",
+                "locator": "Article text, paragraph 4",
+                "context": "etymology",
+                "statement": {
+                  "id": "Gelar Dashanana berarti yang berkepala sepuluh.",
+                  "en": "The epithet Dashanana means the one with ten heads."
+                }
+              },
+              {
+                "id": "ravana-c10",
+                "source_id": "ravana-s1",
+                "quote": "Ravana is also known by several other names including Dasis Ravana, Dasis Sakvithi Maha Ravana, Dashaanan, Ravula, Lankapati, Lankeshwara, Ravanasura and Ravanaeshwara.",
+                "locator": "Article text, paragraph 5",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Nama lainnya mencakup Lankapati dan Lankeshwara.",
+                  "en": "His other names include Lankapati and Lankeshwara."
+                }
+              },
+              {
+                "id": "ravana-c11",
+                "source_id": "ravana-s1",
+                "quote": "Ravana and his two brothers, Kumbhakarna and Vibhishana, performed penance on Mount Gokarna for 10,000 years and won boons from Brahma. Ravana was blessed with a boon that would make him invincible to all the creations of Brahma, except for humans. He also received weapons, a chariot, as well as the ability to shapeshift from Brahma.",
+                "locator": "Article text, paragraph 10",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Brahma memberinya anugerah kebal terhadap ciptaannya kecuali manusia dalam cerita.",
+                  "en": "Brahma grants him immunity against his creations except humans in the story."
+                }
+              },
+              {
+                "id": "ravana-c12",
+                "source_id": "ravana-s1",
+                "quote": "He also received weapons, a chariot, as well as the ability to shapeshift from Brahma.",
+                "locator": "Article text, paragraph 10",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Anugerah Brahma juga mencakup senjata, kereta, dan kemampuan berganti wujud.",
+                  "en": "Brahma's gifts also include weapons, a chariot, and shapeshifting."
+                }
+              },
+              {
+                "id": "ravana-c13",
+                "source_id": "ravana-s1",
+                "quote": "According to Sundara Kanda of Valmiki Ramayana, Ravana had over a thousand wives, with Mandodari, the daughter of the celestial architect Maya, being his chief queen. His sons were Meghanada, Atikaya, Akshayakumara, Narantaka, Devantaka and Trishira.",
+                "locator": "Article text, paragraph 14",
+                "context": "historical-record",
+                "statement": {
+                  "id": "Mandodari, putri Maya, disebut sebagai ratu utamanya.",
+                  "en": "Mandodari, Maya's daughter, is described as his chief queen."
+                }
+              },
+              {
+                "id": "ravana-c14",
+                "source_id": "ravana-s2",
+                "quote": "Rama Chandra is the hero of the Ramáyana epic,\r\nwhich is summarized in our closing chapters; he is the\r\nhuman ideal of devotion, righteousness, and manliness,\r\nthe slayer of the demon Ravana, who oppressed and\r\npersecuted mankind.",
+                "locator": "Article text, paragraph 731",
+                "context": "historical-record",
+                "statement": {
+                  "id": "Mackenzie menggambarkan Rama sebagai pembunuh Ravana yang menindas manusia dalam Ramayana.",
+                  "en": "Mackenzie describes Rama as the slayer of Ravana who oppresses humans in the Ramayana."
+                }
+              },
+              {
+                "id": "ravana-c15",
+                "source_id": "ravana-s3",
+                "quote": "Ravana carries Sita away from her opulent hermitage in the highly stylized forest",
+                "locator": "Article text, paragraph 1",
+                "context": "historical-record",
+                "statement": {
+                  "id": "Adegan koleksi Museum Carlos menggambarkan Ravana membawa Sita dari pertapaannya di hutan.",
+                  "en": "The Carlos Museum collection scene depicts Ravana carrying Sita from her forest hermitage."
+                }
+              }
+            ],
+            "conflicts": [],
+            "gaps": [
+              {
+                "field": "images",
+                "searched": "Ilustrasi dalam artikel tidak dipakai tanpa pemeriksaan berkas Commons, kecocokan subjek, dan lisensinya; belum ada gambar yang terverifikasi untuk entri ini."
+              },
+              {
+                "field": "optional_sections",
+                "searched": "Bacaan yang dikutip belum cukup untuk memastikan bagian opsional yang dibiarkan null atau []; bagian tersebut tidak diisi melalui dugaan."
+              }
+            ]
+          },
+          "selection_visual_claim_ids": [
+            "ravana-c01",
+            "ravana-c02",
+            "ravana-c09",
+            "ravana-c13"
+          ],
+          "url": "/assets/art/ravana-presence.webp",
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/ravana-presence-v2.png",
+          "prompt": "Use case: precise-object-edit. Edit this Ravana artwork only to remove unsupported crimson energy ribbons, glowing body envelope and magical light motes. Preserve EXACTLY ten human heads: nine in the lower horizontal row plus one above, their faces, crowns, positions, one shared royal torso, body scale, pose, jewelry, red drape and coverage, Lanka palace, sunset and actual torch flames. No addition or deletion of heads or limbs. Majesty and intimidating presence come from ten stern gazes, imposing framing, regal costume and ordinary warm sunset/torchlight. Restore natural skin and architecture where light trails vanish; no alternate magical effects, text or watermark.",
+          "depicted_variant": "Documented ten-headed Ravana rakshasa king; regal costume and palace/aura artistic, arms framed out to avoid unsupported limb-count claim.",
+          "visual_requirements": [
+            "Exactly ten human heads: nine below, one above",
+            "One shared royal torso and same Lanka setting",
+            "No red energy ribbons or emitted aura"
+          ],
+          "basis_claim_ids": [
+            "ravana-c01",
+            "ravana-c09"
+          ],
+          "aura": "Ten stern faces, imposing royal framing, gold regalia and ordinary sunset/torchlight.",
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Native edited output individually inspected. Counted ten crowned heads, original torso/pose retained, red light ribbons gone; actual torch flames retained.",
+            "reviewer": "aura-resume-1"
+          },
+          "width": 1254,
+          "height": 1254,
+          "sha256": "181bfdc870c01e5982f388c2639aa82ffa167dbc1ecdfc8f2706f08254f35d6d",
+          "root_visual_review": {
+            "verdict": "pass",
+            "reviewer": "root",
+            "reviewed_at": "2026-10-05",
+            "notes": "Inspected edit: ten distinct crowned heads (nine in row, one above), same royal face, jewelry and red cloth in Lanka palace. Natural sunset and torches, no emitted fire-ring or generic magical wrap."
+          },
+          "aura_revision": {
+            "decision": "revise",
+            "reviewer": "aura-resume-1",
+            "rationale": "Red energy wraps and motes are unsupported by ten-headed king source claims.",
+            "allowed_magic": "none",
+            "source_basis_claim_ids": [
+              "ravana-c01",
+              "ravana-c09"
+            ],
+            "review_path": "data/artwork-generated/aura-revision-797/reviews/ravana.json",
+            "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/ravana.json"
+          }
+        }
+      ],
+      "native_sha256": "70667b840dfaacabe6db66fa4512d85d962a136bb916117a5ee2b6b7568a9509",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/ravana.json",
+        "native_sha256": "70667b840dfaacabe6db66fa4512d85d962a136bb916117a5ee2b6b7568a9509",
+        "old_url": "/assets/art/ravana-presence.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/ravana-presence-v2.png",
+        "old_webp_sha256": "181bfdc870c01e5982f388c2639aa82ffa167dbc1ecdfc8f2706f08254f35d6d",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "ravana-c01",
+          "ravana-c09",
+          "ravana-c12"
+        ]
       }
     },
     {
@@ -50403,37 +51545,51 @@
         "will-o-the-wisp-c10",
         "will-o-the-wisp-c13"
       ],
-      "url": "/assets/art/will-o-the-wisp-verified.webp",
-      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/will-o-the-wisp.png",
-      "prompt": "Use case: stylized-concept. ONE square haunting detailed painterly naturalistic mythology illustration of WILL-O'-THE-WISP as an UNEMBODIED ATMOSPHERIC GHOST LIGHT. ONE hovering blue-gold flickering flame-like orb above black marsh water beside a misleading winding path at night. Light has NO face, limbs or solid creature body; soft dancing trails fade into darkness. Entire light comfortably framed, wet reeds and dangerous deep bog establish documented setting. Bright emitted spectral wisps illuminate nearby water while surrounding marsh remains dreadful, mischievous misleading-spirit aura as artistic rendering. No lantern object, humanoid fairy, wings, skull, victim, text, watermark, border or collage.",
-      "depicted_variant": "Unembodied ghost light above marsh, no anthropomorphic fairy form",
+      "url": "/assets/art/will-o-the-wisp-presentation-revision-nama-besar.webp",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/will-o-the-wisp.png",
+      "prompt": "Square premium original painterly folklore WILL-O-THE-WISP. ONE atmospheric FIERY GHOST LIGHT over a dangerous dark marsh c01,c13, visible hovering flame-like pale blue-gold luminous wisp, dancing/flowing c03, no physical humanoid body face eyes limbs wings horns skull or animal. Light itself is documented form and effect, not a generic aura added around a body. Very close ultra-low camera at reeds and black water makes enormous apparent foreground flame silhouette contrasted against tiny distant twisting unsafe path disappearing into marsh c09, source misleading direction through enticing placement. Beautiful menacing ghostly ethereal flame with brilliant core and reflections on wet reeds/water, dark midnight clouds and deep cinematic shadows, premium textured painterly naturalism. Single light, not a fantasy army; no death victims gore nudity text lettering labels logos watermark borders or modern game/movie/anime/comic designs.",
+      "depicted_variant": "Single fiery atmospheric ghost light over dangerous night marsh, without invented humanoid anatomy.",
       "visual_requirements": [
-        "Single floating ghost light flame over marsh",
-        "No solid body or face",
-        "Natural marsh landscape and restrained light reflection"
+        {
+          "kind": "anatomy",
+          "description": "Atmospheric ghost light rather than invented corporeal humanoid.",
+          "claim_ids": [
+            "will-o-the-wisp-c01",
+            "will-o-the-wisp-c13"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Dancing/flowing light over marsh, enticing an unsafe direction.",
+          "claim_ids": [
+            "will-o-the-wisp-c03",
+            "will-o-the-wisp-c09"
+          ]
+        }
       ],
       "basis_claim_ids": [
         "will-o-the-wisp-c01",
-        "will-o-the-wisp-c02",
+        "will-o-the-wisp-c13",
         "will-o-the-wisp-c03",
-        "will-o-the-wisp-c08",
-        "will-o-the-wisp-c09",
-        "will-o-the-wisp-c13"
+        "will-o-the-wisp-c09"
       ],
-      "aura": "Misleading isolated flame presence over an ominous marsh path.",
+      "aura": "Intense fiery ghost light directly source-attested c01,c13.",
       "visual_review": {
         "verdict": "pass",
-        "notes": "Original contact sheet inspected: one unembodied blue-gold ghost flame over marsh, no anthropomorphic body or face, local reflection and dark path; brightness belongs to documented fiery light manifestation.",
-        "reviewer": "aura-resume-2"
+        "reviewer": "codex",
+        "notes": "Native inspected: single blue-gold hovering fiery light over marsh and unsafe path; no face, eyes or limbs invented. Strong close foreground scale, luminous reflection and darkness faithfully express documented light form; no text watermark or gore.",
+        "native_sha256": "3cda9a73d31412fcade9dd724bbe9c93140feae58b558dcc425948db4e42a117",
+        "reviewed_at": "2026-10-06T08:36:17.152Z"
       },
       "width": 1254,
       "height": 1254,
-      "sha256": "90253dee46fea995cc30f00467fc51bd444c37fcd022337736be45f0db314679",
+      "sha256": "87a357ea59556b8fa52163f7de81cad785fb30c7bba17412dd4088a85b24b225",
       "root_visual_review": {
         "verdict": "pass",
-        "reviewer": "root",
-        "reviewed_at": "2026-10-05",
-        "notes": "Inspected original: single bodiless dancing/flaming ghost-light over marsh; intrinsic light is the documented entity c01/c13. No human/animal anatomy or unrelated whole-scene envelope."
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+        "native_sha256": "3cda9a73d31412fcade9dd724bbe9c93140feae58b558dcc425948db4e42a117",
+        "notes": "Single ghostly light flame drifting over a night marsh path, no humanoid body."
       },
       "aura_revision": {
         "decision": "keep",
@@ -50450,6 +51606,526 @@
         ],
         "review_path": "data/artwork-generated/aura-revision-797/reviews/will-o-the-wisp.json",
         "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/will-o-the-wisp.json"
+      },
+      "presentation_revision_history": [
+        {
+          "index": 101,
+          "slug": "will-o-the-wisp",
+          "canonical_name": "Will-o'-the-wisp",
+          "worker": "worker-0",
+          "status": "complete",
+          "review_path": "data/gemini/reviews/batch-152.review.json",
+          "research": {
+            "schema": "mythics-entry/1",
+            "batch_id": "batch-152",
+            "slug": "will-o-the-wisp",
+            "task": "enrich",
+            "tier": "rich",
+            "researched_at": "2026-09-30",
+            "identity": {
+              "canonical_name": "Will-o'-the-wisp",
+              "native_name": null,
+              "display_name": {
+                "id": "Will-o'-the-wisp",
+                "en": "Will-o'-the-wisp"
+              },
+              "wikidata_qid": "Q160569",
+              "claim_ids": [
+                "will-o-the-wisp-c01",
+                "will-o-the-wisp-c13"
+              ]
+            },
+            "alternate_names": [
+              {
+                "name": "Jack-o'-lantern",
+                "language": "en",
+                "name_type": "alias",
+                "claim_ids": [
+                  "will-o-the-wisp-c05",
+                  "will-o-the-wisp-c15"
+                ]
+              },
+              {
+                "name": "ignis fatuus",
+                "language": "la",
+                "name_type": "alias",
+                "claim_ids": [
+                  "will-o-the-wisp-c01",
+                  "will-o-the-wisp-c06"
+                ]
+              },
+              {
+                "name": "feu follet",
+                "language": "fr",
+                "name_type": "regional",
+                "claim_ids": [
+                  "will-o-the-wisp-c06"
+                ]
+              },
+              {
+                "name": "Irrlicht",
+                "language": "de",
+                "name_type": "regional",
+                "claim_ids": [
+                  "will-o-the-wisp-c06"
+                ]
+              },
+              {
+                "name": "hinkypunk",
+                "language": "en",
+                "name_type": "regional",
+                "claim_ids": [
+                  "will-o-the-wisp-c07"
+                ]
+              },
+              {
+                "name": "Ellylldan",
+                "language": "cy",
+                "name_type": "regional",
+                "claim_ids": [
+                  "will-o-the-wisp-c16"
+                ]
+              }
+            ],
+            "jenis": {
+              "value": "hantu",
+              "claim_ids": [
+                "will-o-the-wisp-c01",
+                "will-o-the-wisp-c08"
+              ]
+            },
+            "classification": {
+              "value": "spirit",
+              "claim_ids": [
+                "will-o-the-wisp-c02",
+                "will-o-the-wisp-c08",
+                "will-o-the-wisp-c13"
+              ]
+            },
+            "culture": {
+              "value": "cross-cultural",
+              "suggested_new": null,
+              "claim_ids": [
+                "will-o-the-wisp-c06"
+              ]
+            },
+            "region": {
+              "value": "transregional",
+              "claim_ids": [
+                "will-o-the-wisp-c06"
+              ]
+            },
+            "countries": null,
+            "era": null,
+            "habitats": [
+              {
+                "value": "water",
+                "claim_ids": [
+                  "will-o-the-wisp-c01",
+                  "will-o-the-wisp-c09"
+                ]
+              }
+            ],
+            "disposition": {
+              "value": "trickster",
+              "claim_ids": [
+                "will-o-the-wisp-c08",
+                "will-o-the-wisp-c13"
+              ]
+            },
+            "traits": [
+              {
+                "value": "nocturnal",
+                "claim_ids": [
+                  "will-o-the-wisp-c01",
+                  "will-o-the-wisp-c13"
+                ]
+              },
+              {
+                "value": "trickster",
+                "claim_ids": [
+                  "will-o-the-wisp-c08",
+                  "will-o-the-wisp-c13"
+                ]
+              }
+            ],
+            "short_description": {
+              "id": "Will-o'-the-wisp adalah fenomena cahaya hantu di malam hari yang dalam cerita rakyat dikaitkan dengan arwah atau peri penyesat musafir di rawa-rawa.",
+              "en": "The will-o'-the-wisp is an atmospheric ghost light in folklore attributed to spirits or fairies that mislead travelers in marshes.",
+              "claim_ids": [
+                "will-o-the-wisp-c01",
+                "will-o-the-wisp-c02",
+                "will-o-the-wisp-c08"
+              ]
+            },
+            "long_description": [
+              {
+                "id": "Will-o'-the-wisp, yang juga dikenal sebagai ignis fatuus, adalah penampakan cahaya hantu di malam hari, terutama di atas rawa atau lahan basah. Cerita rakyat sering mengaitkannya dengan hantu, peri, atau roh alam yang menampakkan atau menyembunyikan arah jalan. Sosok ini digambarkan menari atau melayang hingga kemudian memudar saat didekati.",
+                "en": "The will-o'-the-wisp, also called ignis fatuus, is an atmospheric ghost light seen at night, particularly over bogs or marshes. Folklore associates it with ghosts, fairies, or elemental spirits that reveal or conceal paths. It is depicted as dancing or flowing until fading when approached.",
+                "claim_ids": [
+                  "will-o-the-wisp-c01",
+                  "will-o-the-wisp-c02",
+                  "will-o-the-wisp-c03"
+                ]
+              },
+              {
+                "id": "Secara etimologi, istilah ini merujuk pada lentera jerami yang dibawa oleh sosok bernama Will, serupa dengan sebutan jack-o'-lantern. Cerita rakyat mencatat nama-nama padanan seperti feu follet, Irrlicht, sebutan hinkypunk, serta Ellylldan.",
+                "en": "Etymologically, the term stems from a straw torch associated with Will, akin to jack-o'-lantern. Folklore records corresponding names such as feu follet, Irrlicht, hinkypunk, and Ellylldan.",
+                "claim_ids": [
+                  "will-o-the-wisp-c04",
+                  "will-o-the-wisp-c05",
+                  "will-o-the-wisp-c06",
+                  "will-o-the-wisp-c07",
+                  "will-o-the-wisp-c14",
+                  "will-o-the-wisp-c16"
+                ]
+              },
+              {
+                "id": "Dalam tradisi Skotlandia, fenomena ini sering digambarkan sebagai roh jahil atau hantu yang memikat musafir ke tempat berbahaya hingga menemui ajal, meski beberapa kisah mengaitkannya dengan petunjuk menuju harta terpendam. Beberapa keyakinan menyebut roh-roh ini adalah jiwa yang tidak diterima di Surga maupun Neraka sehingga terpaksa mengembara selamanya.",
+                "en": "In Scottish traditions, these lights are often depicted as mischievous spirits or ghosts luring travelers off safe paths to their doom, though rare tales associate them with guiding to vast treasure. Some believe they represent souls rejected by both Heaven and Hell, doomed to wander.",
+                "claim_ids": [
+                  "will-o-the-wisp-c08",
+                  "will-o-the-wisp-c09",
+                  "will-o-the-wisp-c10",
+                  "will-o-the-wisp-c11",
+                  "will-o-the-wisp-c12",
+                  "will-o-the-wisp-c13"
+                ]
+              }
+            ],
+            "cultural_context": null,
+            "etymology": {
+              "original_form": "wisp",
+              "language": "en",
+              "literal_meaning": {
+                "id": "ikatan jerami yang dipakai sebagai obor",
+                "en": "a twist of straw used as a torch"
+              },
+              "claim_ids": [
+                "will-o-the-wisp-c04",
+                "will-o-the-wisp-c14"
+              ]
+            },
+            "story_mode": null,
+            "did_you_know": null,
+            "abilities": [],
+            "weaknesses": [],
+            "variants": [],
+            "stories": [],
+            "places": [],
+            "timeline": [],
+            "relations": [],
+            "modern_depictions": [],
+            "tradition_vs_modern": null,
+            "learning_questions": [
+              {
+                "id": "Mengapa cahaya rawa di berbagai belahan dunia hampir selalu dihubungkan dengan makhluk gaib penyesat jalan?",
+                "en": "Why are marsh lights across different world cultures almost consistently linked to deceptive supernatural beings?"
+              }
+            ],
+            "images": [],
+            "sources": [
+              {
+                "id": "will-o-the-wisp-s1",
+                "url": "https://en.wikipedia.org/wiki/Will-o'-the-wisp",
+                "title": "Will-o'-the-wisp",
+                "author": null,
+                "publisher": "Wikipedia",
+                "published": null,
+                "language": "en",
+                "type": "wikipedia",
+                "accessed": "2026-09-30"
+              },
+              {
+                "id": "will-o-the-wisp-s2",
+                "url": "https://folklorescotland.com/will-o-the-wisp/",
+                "title": "Will-o’-the-wisp",
+                "author": "Liana Paraschaki",
+                "publisher": "Folklore Scotland",
+                "published": "2022-12-11",
+                "language": "en",
+                "type": "other",
+                "accessed": "2026-09-30"
+              },
+              {
+                "id": "will-o-the-wisp-s3",
+                "url": "https://sites.pitt.edu/~dash/willowisp.html",
+                "title": "Will-o'-the-Wisps",
+                "author": "D. L. Ashliman",
+                "publisher": "University of Pittsburgh",
+                "published": "2021",
+                "language": "en",
+                "type": "academic-book",
+                "accessed": "2026-09-30"
+              }
+            ],
+            "claims": [
+              {
+                "id": "will-o-the-wisp-c01",
+                "source_id": "will-o-the-wisp-s1",
+                "quote": "In folklore, a will-o'-the-wisp, or will-o'-wisp (Latin: ignis fatuus, \"foolish flame\"), is an atmospheric ghost light seen by travellers at night, especially over bogs, swamps, or marshes.",
+                "locator": "Lead section",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Will-o'-the-wisp atau ignis fatuus adalah cahaya hantu atmosfer yang dilihat musafir di malam hari di atas rawa atau lahan basah.",
+                  "en": "A will-o'-the-wisp or ignis fatuus is an atmospheric ghost light seen by travellers at night, especially over bogs, swamps, or marshes."
+                }
+              },
+              {
+                "id": "will-o-the-wisp-c02",
+                "source_id": "will-o-the-wisp-s1",
+                "quote": "In folklore, will-o'-the-wisps are typically attributed as ghosts, fairies or elemental spirits meant to reveal (or conceal) a path or direction.",
+                "locator": "Lead section",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Will-o'-the-wisp biasanya dianggap sebagai hantu, peri, atau roh alam penunjuk atau penyembunyi jalan.",
+                  "en": "Will-o'-the-wisps are typically attributed as ghosts, fairies or elemental spirits meant to reveal or conceal a path or direction."
+                }
+              },
+              {
+                "id": "will-o-the-wisp-c03",
+                "source_id": "will-o-the-wisp-s1",
+                "quote": "These wisps are portrayed as dancing or flowing in a static form, until noticed or followed, in which case they visually fade or disappear.",
+                "locator": "Lead section",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Cahaya ini digambarkan menari atau melayang statis hingga memudar atau lenyap saat diikuti.",
+                  "en": "These wisps are portrayed as dancing or flowing in a static form, until noticed or followed, in which case they visually fade or disappear."
+                }
+              },
+              {
+                "id": "will-o-the-wisp-c04",
+                "source_id": "will-o-the-wisp-s1",
+                "quote": "The term will-o'-the-wisp comes from wisp, a bundle of sticks or paper sometimes used as a torch and the name 'Will', thus meaning 'Will of the torch'.",
+                "locator": "Nomenclature - Etymology",
+                "context": "etymology",
+                "statement": {
+                  "id": "Istilah will-o'-the-wisp berasal dari kata wisp yang berarti ikatan kayu atau kertas untuk obor, dan nama Will.",
+                  "en": "The term will-o'-the-wisp comes from wisp, a bundle of sticks or paper used as a torch, and the name Will."
+                }
+              },
+              {
+                "id": "will-o-the-wisp-c05",
+                "source_id": "will-o-the-wisp-s1",
+                "quote": "The term jack-o'-lantern ('Jack of the lantern') originally referred to a will-o'-the-wisp.",
+                "locator": "Nomenclature - Etymology",
+                "context": "etymology",
+                "statement": {
+                  "id": "Istilah jack-o'-lantern awalnya merujuk pada will-o'-the-wisp.",
+                  "en": "The term jack-o'-lantern originally referred to a will-o'-the-wisp."
+                }
+              },
+              {
+                "id": "will-o-the-wisp-c06",
+                "source_id": "will-o-the-wisp-s1",
+                "quote": "Equivalents of the will-o'-the-wisps appear in European folklore by various names, e.g., ignis fatuus in Latin, feu follet in French, Irrlicht or Irrwisch in Germany, dwaallicht in The Netherlands and fuoco fatuo in Italy.",
+                "locator": "Nomenclature - Etymology",
+                "context": "scholarly-interpretation",
+                "statement": {
+                  "id": "Padanan will-o'-the-wisp muncul dalam cerita rakyat Eropa dengan berbagai nama, seperti ignis fatuus, feu follet, Irrlicht, dwaallicht, dan fuoco fatuo.",
+                  "en": "Equivalents of will-o'-the-wisps appear in European folklore under names such as ignis fatuus, feu follet, Irrlicht, dwaallicht, and fuoco fatuo."
+                }
+              },
+              {
+                "id": "will-o-the-wisp-c07",
+                "source_id": "will-o-the-wisp-s1",
+                "quote": "The phenomenon is known in the United Kingdom by a variety of names, including jack-o'-lantern, friar's lantern, and hinkypunk, and is said to mislead and/or guide travellers by resembling a flickering lamp or lantern.",
+                "locator": "Nomenclature - Etymology",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Di Britania Raya fenomena ini dikenal dengan berbagai nama termasuk jack-o'-lantern, friar's lantern, dan hinkypunk.",
+                  "en": "The phenomenon is known in the United Kingdom by various names including jack-o'-lantern, friar's lantern, and hinkypunk."
+                }
+              },
+              {
+                "id": "will-o-the-wisp-c08",
+                "source_id": "will-o-the-wisp-s2",
+                "quote": "In Scottish folklore, will-o’-the-wisps are variously depicted either as mischievous spirits (typically fairies), or even the ghosts of the dead, eager to lead travellers off their path and into their death.",
+                "locator": "Introductory paragraph",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Dalam cerita rakyat Skotlandia, will-o'-the-wisp digambarkan sebagai roh jahil atau hantu orang mati yang memikat pengelana keluar dari jalur menuju kematian.",
+                  "en": "In Scottish folklore, will-o'-the-wisps are depicted as mischievous spirits or ghosts of the dead eager to lead travellers off path and to death."
+                }
+              },
+              {
+                "id": "will-o-the-wisp-c09",
+                "source_id": "will-o-the-wisp-s2",
+                "quote": "The lights typically appear close to a bog, marsh, or swamp, places where straying off the beaten path can become dangerous – or even deadly.",
+                "locator": "Paragraph 2",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Cahaya tersebut biasanya muncul dekat rawa atau paya di mana tersesat dari jalan setapak bisa berbahaya atau mematikan.",
+                  "en": "The lights typically appear close to a bog, marsh, or swamp where straying off path can become dangerous or deadly."
+                }
+              },
+              {
+                "id": "will-o-the-wisp-c10",
+                "source_id": "will-o-the-wisp-s2",
+                "quote": "Few myths, however, show the will-o’-the-wisps leading those brave enough to follow the light in the middle of the dark night to a vast treasure, and riches beyond comprehension.",
+                "locator": "Paragraph 3",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Beberapa mitos menggambarkan will-o'-the-wisp memandu orang yang berani mengikuti cahaya menuju harta karun besar.",
+                  "en": "Few myths show the will-o'-the-wisps leading those brave enough to follow the light in the dark night to vast treasure."
+                }
+              },
+              {
+                "id": "will-o-the-wisp-c11",
+                "source_id": "will-o-the-wisp-s2",
+                "quote": "Some believe that the spirits behind the will-o’-the-wisps were souls who could enter neither Heaven nor Hell, and were thus forced to wander the earth forever.",
+                "locator": "Paragraph 4",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Sebagian percaya roh will-o'-the-wisp adalah jiwa yang tidak dapat masuk Surga maupun Neraka dan terpaksa mengembara selamanya.",
+                  "en": "Some believe the spirits behind will-o'-the-wisps were souls unable to enter Heaven or Hell, forced to wander the earth forever."
+                }
+              },
+              {
+                "id": "will-o-the-wisp-c12",
+                "source_id": "will-o-the-wisp-s2",
+                "quote": "Uniquely, in Sweden, the will-o’-the-wisp is a manifestation of an unbaptised soul, who tries to lead travellers into bodies of water, in hopes of being baptised.",
+                "locator": "Paragraph 4",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Di Swedia will-o'-the-wisp dipandang sebagai perwujudan jiwa yang belum dibaptis yang menuntun musafir ke perairan demi dibaptis.",
+                  "en": "In Sweden, the will-o'-the-wisp is a manifestation of an unbaptised soul trying to lead travellers into water in hopes of baptism."
+                }
+              },
+              {
+                "id": "will-o-the-wisp-c13",
+                "source_id": "will-o-the-wisp-s3",
+                "quote": "Will-o'-the-Wisp is the most common English designation for a family of fairy-beings characterized by their fiery appearance and their tendency to lead nighttime wayfarers astray.",
+                "locator": "Introduction",
+                "context": "scholarly-interpretation",
+                "statement": {
+                  "id": "Will-o'-the-Wisp adalah sebutan bahasa Inggris paling umum bagi keluarga makhluk peri berpenampilan api yang suka menyesatkan pejalan malam.",
+                  "en": "Will-o'-the-Wisp is the most common English designation for fairy-beings characterized by fiery appearance and misleading wayfarers."
+                }
+              },
+              {
+                "id": "will-o-the-wisp-c14",
+                "source_id": "will-o-the-wisp-s3",
+                "quote": "The term wisp refers to a twist of straw, used as a torch.",
+                "locator": "Introduction",
+                "context": "etymology",
+                "statement": {
+                  "id": "Istilah wisp merujuk pada pilinan jerami yang digunakan sebagai obor.",
+                  "en": "The term wisp refers to a twist of straw, used as a torch."
+                }
+              },
+              {
+                "id": "will-o-the-wisp-c15",
+                "source_id": "will-o-the-wisp-s3",
+                "quote": "Other names for these apparitions include Hobby-Lantern, Jack-o'-Lantern, Jenny-Burnt-Tale, Kitty-Candlestick, Peg-a-Lantern, and many more.",
+                "locator": "Introduction",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Nama lain untuk penampakan ini mencakup Hobby-Lantern, Jack-o'-Lantern, Jenny-Burnt-Tale, Kitty-Candlestick, dan Peg-a-Lantern.",
+                  "en": "Other names for these apparitions include Hobby-Lantern, Jack-o'-Lantern, Jenny-Burnt-Tale, Kitty-Candlestick, and Peg-a-Lantern."
+                }
+              },
+              {
+                "id": "will-o-the-wisp-c16",
+                "source_id": "will-o-the-wisp-s3",
+                "quote": "The Ellylldan is a species of elf exactly corresponding to the English will-o'-wisp.",
+                "locator": "The Ellylldan (Wales)",
+                "context": "traditional-belief",
+                "statement": {
+                  "id": "Ellylldan adalah jenis peri Wales yang berpadanan persis dengan will-o'-wisp Inggris.",
+                  "en": "The Ellylldan is a species of elf exactly corresponding to the English will-o'-wisp."
+                }
+              }
+            ],
+            "conflicts": [],
+            "gaps": [
+              {
+                "field": "images",
+                "searched": "Tidak menyertakan gambar untuk menghindari ketidakpastian lisensi atau identifikasi visual."
+              },
+              {
+                "field": "cultural_context",
+                "searched": "Tidak ada sumber eksplisit yang menganalisis konteks kultural secara terpisah tanpa spekulasi."
+              },
+              {
+                "field": "story_mode",
+                "searched": "Tidak ada kisah naratif tunggal yang mewakili semua tradisi will-o'-the-wisp."
+              }
+            ]
+          },
+          "selection_visual_claim_ids": [
+            "will-o-the-wisp-c01",
+            "will-o-the-wisp-c03",
+            "will-o-the-wisp-c08",
+            "will-o-the-wisp-c10",
+            "will-o-the-wisp-c13"
+          ],
+          "url": "/assets/art/will-o-the-wisp-verified.webp",
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/will-o-the-wisp.png",
+          "prompt": "Use case: stylized-concept. ONE square haunting detailed painterly naturalistic mythology illustration of WILL-O'-THE-WISP as an UNEMBODIED ATMOSPHERIC GHOST LIGHT. ONE hovering blue-gold flickering flame-like orb above black marsh water beside a misleading winding path at night. Light has NO face, limbs or solid creature body; soft dancing trails fade into darkness. Entire light comfortably framed, wet reeds and dangerous deep bog establish documented setting. Bright emitted spectral wisps illuminate nearby water while surrounding marsh remains dreadful, mischievous misleading-spirit aura as artistic rendering. No lantern object, humanoid fairy, wings, skull, victim, text, watermark, border or collage.",
+          "depicted_variant": "Unembodied ghost light above marsh, no anthropomorphic fairy form",
+          "visual_requirements": [
+            "Single floating ghost light flame over marsh",
+            "No solid body or face",
+            "Natural marsh landscape and restrained light reflection"
+          ],
+          "basis_claim_ids": [
+            "will-o-the-wisp-c01",
+            "will-o-the-wisp-c02",
+            "will-o-the-wisp-c03",
+            "will-o-the-wisp-c08",
+            "will-o-the-wisp-c09",
+            "will-o-the-wisp-c13"
+          ],
+          "aura": "Misleading isolated flame presence over an ominous marsh path.",
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Original contact sheet inspected: one unembodied blue-gold ghost flame over marsh, no anthropomorphic body or face, local reflection and dark path; brightness belongs to documented fiery light manifestation.",
+            "reviewer": "aura-resume-2"
+          },
+          "width": 1254,
+          "height": 1254,
+          "sha256": "90253dee46fea995cc30f00467fc51bd444c37fcd022337736be45f0db314679",
+          "root_visual_review": {
+            "verdict": "pass",
+            "reviewer": "root",
+            "reviewed_at": "2026-10-05",
+            "notes": "Inspected original: single bodiless dancing/flaming ghost-light over marsh; intrinsic light is the documented entity c01/c13. No human/animal anatomy or unrelated whole-scene envelope."
+          },
+          "aura_revision": {
+            "decision": "keep",
+            "reviewer": "aura-resume-2",
+            "rationale": "Unembodied luminous flame is the attested apparition itself, not added magic wrapping a creature.",
+            "allowed_magic": "Floating ghost-light flame, will-o-the-wisp-c01/c13",
+            "source_basis_claim_ids": [
+              "will-o-the-wisp-c01",
+              "will-o-the-wisp-c02",
+              "will-o-the-wisp-c03",
+              "will-o-the-wisp-c08",
+              "will-o-the-wisp-c09",
+              "will-o-the-wisp-c13"
+            ],
+            "review_path": "data/artwork-generated/aura-revision-797/reviews/will-o-the-wisp.json",
+            "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/will-o-the-wisp.json"
+          }
+        }
+      ],
+      "native_sha256": "3cda9a73d31412fcade9dd724bbe9c93140feae58b558dcc425948db4e42a117",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/will-o-the-wisp.json",
+        "native_sha256": "3cda9a73d31412fcade9dd724bbe9c93140feae58b558dcc425948db4e42a117",
+        "old_url": "/assets/art/will-o-the-wisp-verified.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/will-o-the-wisp.png",
+        "old_webp_sha256": "90253dee46fea995cc30f00467fc51bd444c37fcd022337736be45f0db314679",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "will-o-the-wisp-c01",
+          "will-o-the-wisp-c13",
+          "will-o-the-wisp-c03",
+          "will-o-the-wisp-c09"
+        ]
       }
     },
     {

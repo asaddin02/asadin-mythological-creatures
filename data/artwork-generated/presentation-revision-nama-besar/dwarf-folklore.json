@@ -1,0 +1,69 @@
+{
+  "revision": "nama-besar",
+  "slug": "dwarf-folklore",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "needs-correction",
+  "generated_at": "2026-10-06T08:36:17.297Z",
+  "prompt": "Square premium original painterly German DWARF folklore illustration. ONE SHORT HUMAN-SHAPED supernatural man c01,c08, one head two arms two legs, normal round HUMAN ears, fully clothed sturdy dark woolen tunic trousers boots and plain cloak, ordinary natural beard as editorial facial rendering. He wears a TARNKAPPE cap c07 and visibly TURNS INVISIBLE: lower torso, one leg and part of one hand gradually become transparent so rock/lichen BEHIND can be seen through them, all anatomy remains coherent, no severed parts. Standing at towering mountain rock doorway/cave sourcec01, low camera emphasizes powerful cunning commanding expression and dramatic mysterious silhouette, tiny coarse moss rocks provide scale but short height not colossal fact. Natural gold shaft of sunlight through dark cave, rich premium painterly texture, fading invisibility clear. No horns wings pointed ears magic lightning/fire beams, no Tolkien/Disney/game/movie/anime/comic styling, no writing text logos watermark border gore nudity.",
+  "depicted_variant": "Later German short human-shaped dwarf wearing Tarnkappe and turning invisible.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Documented Tarnkappe invisibility c07, body partially fading rather than new magic beams.",
+  "review_path": "data/gemini/reviews/batch-115.review.json",
+  "basis_claim_ids": [
+    "dwarf-folklore-c01",
+    "dwarf-folklore-c08",
+    "dwarf-folklore-c07"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Short supernatural human-shaped dwarf in later folklore variant.",
+      "claim_ids": [
+        "dwarf-folklore-c01",
+        "dwarf-folklore-c08"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Tarnkappe makes dwarf invisible.",
+      "claim_ids": [
+        "dwarf-folklore-c07"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Mountain/stone dwelling.",
+      "claim_ids": [
+        "dwarf-folklore-c01"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Full rough garments, ordinary round ears, beard and cap fabric editorial; no modern franchise design.",
+    "Transparency/fading visualizes invisibility, no magic fire or lightning added. Mountain threshold used without Eddic treasure-crafting scene blend."
+  ],
+  "old_url": "/assets/art/dwarf-folklore-regeneration-139-mythic-presence.webp",
+  "old_webp_sha256": "834847d60ee7eaa5e3d28cc3c9e679b85d17bf06e402336a77bcbed853209120",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/dwarf-folklore-mythic-presence.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": "23eba95fdfc34aa38b4323807cc3b33d0f3188145a932140fe02a1ef5f29f34d",
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/dwarf-folklore.png",
+  "native_sha256": "5f032a6b57d85bb86375d3c0c250cb40035635012c18ac63d0b2b543063f4567",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-5800cba8-8e58-4bc6-b1be-beec085fe846.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Native inspected: one clothed short humanlike figure in Tarnkappe with coherent two arms/legs; left hand and lower body fade partially to reveal rock/lichen behind, no dismemberment. Mountain cave, normal human ears and natural light; no extra anatomy, text watermark or attack beams.",
+    "native_sha256": "5f032a6b57d85bb86375d3c0c250cb40035635012c18ac63d0b2b543063f4567",
+    "reviewed_at": "2026-10-06T08:36:17.297Z"
+  },
+  "root_visual_review": {
+    "verdict": "reject",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "5f032a6b57d85bb86375d3c0c250cb40035635012c18ac63d0b2b543063f4567",
+    "notes": "Reads as an ordinary bearded man at a cave; the documented invisibility of the Tarnkappe is not shown."
+  },
+  "correction_notes": "Reads as an ordinary bearded man at a cave; the documented invisibility of the Tarnkappe is not shown."
+}

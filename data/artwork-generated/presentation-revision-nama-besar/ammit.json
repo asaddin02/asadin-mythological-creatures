@@ -1,0 +1,74 @@
+{
+  "revision": "nama-besar",
+  "slug": "ammit",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generated_at": "2026-10-06T07:59:23.935Z",
+  "prompt": "Edit this existing Ammit illustration. KEEP the exact crocodile head, lion forequarters, hippo hindquarters, four-leg anatomy, powerful pose, dramatic torch lighting and painterly quality. CHANGE all temple surfaces to plain worn stone with NO writing, hieroglyphs, pictograms, text or carved symbols. Remove the Anubis statues in the background and use plain empty stone alcoves instead. No invented body changes or new powers. Square output.",
+  "depicted_variant": "One monstrous Egyptian judgment beast with CROCODILE HEAD, LION FOREQUARTERS and HIPPOPOTAMUS HINDQUARTERS, a single coherent quadruped at the dim threshold of the judgment hall. Powerful crocodile jaws and scaled head; tawny lion front limbs, heavy grey hippo rear body, four legs total. Colossal low-angle creature dominates small pillars, threatening jaws without gore, no humans, no literal hearts or detached organs. No flames or invented magical aura. Torchlight and dusty air heighten dread.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "No supernatural emitted effect",
+  "review_path": "data/gemini/reviews/batch-077.review.json",
+  "basis_claim_ids": [
+    "ammit-c01",
+    "ammit-c02",
+    "ammit-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One monstrous Egyptian judgment beast with CROCODILE HEAD, LION FOREQUARTERS and HIPPOPOTAMUS HINDQUARTERS, a single coherent quadruped at the dim threshold of the judgment hall. Powerful crocodile jaws and scaled head; tawny lion front limbs, heavy grey hippo rear body, four legs total. Colossal low-angle creature dominates small pillars, threatening jaws without gore, no humans, no literal hearts or detached organs. No flames or invented magical aura. Torchlight and dusty air heighten dread.",
+      "claim_ids": [
+        "ammit-c01",
+        "ammit-c02",
+        "ammit-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "No supernatural emitted effect; basis: judgment and devouring role represented through threatening presence",
+      "claim_ids": [
+        "ammit-c01",
+        "ammit-c02",
+        "ammit-c06"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Low-angle framing, painterly materials and environmental color are artistic rendering.",
+    "Effects are limited to the cited domains, deeds, attributes or iconography; natural light and scale supply presence where no elemental ability is documented."
+  ],
+  "old_url": "/assets/art/ammit-verified.webp",
+  "old_webp_sha256": "b20d4d8cd848f3d8a70a57aba5b264ae42ec7fc554dde6ad667f00c23b96ded4",
+  "old_original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-9addf5c8-8229-40c9-90bc-bdcd1a29db4b.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": null,
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/ammit.png",
+  "native_sha256": "984f887a4033bdb9903522940c6c421135367100900611364d42c059a4b43c83",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-69097d01-9fab-4e22-b9d6-07cfe9d3743b.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Viewed corrected PNG: crocodile head, lion forequarters with two paws, thick hippo rear quarters with two hindlegs. Threatening judgment hall and natural torches; no supernatural fire emitted from creature. Unsupported hieroglyphs and other deity statues removed; no gore/text/watermark.",
+    "native_sha256": "984f887a4033bdb9903522940c6c421135367100900611364d42c059a4b43c83",
+    "reviewed_at": "2026-10-06T07:59:23.935Z"
+  },
+  "rejected_attempts": [
+    {
+      "path": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-a4e16398-c90e-4986-bd9d-e99ecacbcfac.png",
+      "prompt": "Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. One monstrous Egyptian judgment beast with CROCODILE HEAD, LION FOREQUARTERS and HIPPOPOTAMUS HINDQUARTERS, a single coherent quadruped at the dim threshold of the judgment hall. Powerful crocodile jaws and scaled head; tawny lion front limbs, heavy grey hippo rear body, four legs total. Colossal low-angle creature dominates small pillars, threatening jaws without gore, no humans, no literal hearts or detached organs. No flames or invented magical aura. Torchlight and dusty air heighten dread.",
+      "reason": "Unsupported attributes, text-like inscriptions or cultural styling; corrected through a targeted image edit.",
+      "original_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/ammit-1.png",
+      "native_sha256": "071201f20540e630e622be7ae5e5dc4bce7d9a2e6edce9a6eb4a08ba3cb6c864"
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "984f887a4033bdb9903522940c6c421135367100900611364d42c059a4b43c83",
+    "notes": "One coherent beast with crocodile head, lion forequarters and hippopotamus hindquarters in a torchlit judgment hall; four legs, menacing jaws, no gore."
+  },
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00"
+}

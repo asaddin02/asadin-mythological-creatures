@@ -1,40 +1,59 @@
 {
   "slug": "rusalka",
   "worker": "worker-0",
-  "prompt": "Use case: stylized-concept. ONE square detailed painterly naturalistic mythology encyclopedia illustration of RUSALKA, choosing the documented Slavic drowned-woman spirit with LEGS rather than a fish tail. One adult female apparition emerges knee-deep at a dark riverbank below willow and birch branches. Extremely long loose GREEN hair streams across the water like entangling strands, pallid eerily luminous skin, sorrowful predatory stare. Keep source-faithful human anatomy, subtly uncanny glassy eyes and translucent edges instead of inventing monster parts. Modest pale draped fabric and hair cover chest and pelvis. Both legs readable through water; full figure with margins. Truly frightening still-water night atmosphere, green spectral mist and cold ripple aura as artistic interpretation. No victim, nudity, gore, fish tail, horns, claws, wings, extra limbs, crown, text, watermark, border or collage.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/rusalka.png",
-  "depicted_variant": "Legged drowned-woman water spirit with loose green hair, excluding fish-tail variant",
+  "prompt": "Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. One dangerous Slavic river spirit woman with VERY LONG loose green-black hair and human LEGS not fish tail, standing ankle-deep at a dark river. Completely modest opaque flowing dress, ordinary two arms and two legs. Small comb in hand produces a visible cascade of WATER wetting her long hair (documented magical comb variant); river currents swell about her feet, no claimed tidal powers. The hair sweeps toward empty river shallows as threatening entanglement, no victim. Low camera, towering reeds and birch silhouette, cold moonlit reflections, terrifying quiet gaze. Plain uninscribed walls, clothing and objects: no hieroglyphs, cuneiform, letters or pictographic writing. No solar-disk crown, horns or additional attributes unless explicitly specified above.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/rusalka.png",
+  "depicted_variant": "One dangerous Slavic river spirit woman with VERY LONG loose green-black hair and human LEGS not fish tail, standing ankle-deep at a dark river. Completely modest opaque flowing dress, ordinary two arms and two legs. Small comb in hand produces a visible cascade of WATER wetting her long hair (documented magical comb variant); river currents swell about her feet, no claimed tidal powers. The hair sweeps toward empty river shallows as threatening entanglement, no victim. Low camera, towering reeds and birch silhouette, cold moonlit reflections, terrifying quiet gaze.",
   "basis_claim_ids": [
     "rusalka-c01",
-    "rusalka-c05",
-    "rusalka-c06",
     "rusalka-c07",
-    "rusalka-c10",
     "rusalka-c12",
+    "rusalka-c15",
     "rusalka-c16"
   ],
-  "aura": "Dangerous water revenant presence through stare, long loose hair, still water and moonlit willow shadow.",
+  "aura": "Water flowing from comb to wet long hair",
   "visual_requirements": [
-    "adult woman water spirit with two legs, not fish tail",
-    "long loose green hair",
-    "Preserve source anatomy, counts, scale and modest framing.",
-    "Character presence through pose, composition, natural lighting; no generic emitted aura."
+    {
+      "kind": "anatomy",
+      "description": "One dangerous Slavic river spirit woman with VERY LONG loose green-black hair and human LEGS not fish tail, standing ankle-deep at a dark river. Completely modest opaque flowing dress, ordinary two arms and two legs. Small comb in hand produces a visible cascade of WATER wetting her long hair (documented magical comb variant); river currents swell about her feet, no claimed tidal powers. The hair sweeps toward empty river shallows as threatening entanglement, no victim. Low camera, towering reeds and birch silhouette, cold moonlit reflections, terrifying quiet gaze.",
+      "claim_ids": [
+        "rusalka-c01",
+        "rusalka-c07",
+        "rusalka-c12",
+        "rusalka-c15",
+        "rusalka-c16"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Water flowing from comb to wet long hair; basis: documented comb can produce water; hair can entangle victims",
+      "claim_ids": [
+        "rusalka-c01",
+        "rusalka-c07",
+        "rusalka-c12",
+        "rusalka-c15",
+        "rusalka-c16"
+      ]
+    }
   ],
   "visual_review": {
     "verdict": "pass",
-    "notes": "Actually inspected full original. Observed pale maiden with green loose hair, natural lake fog and moonlight only; no emitted magical fog/ribbons/particles.",
-    "reviewer": "worker-0"
+    "reviewer": "codex",
+    "notes": "Viewed native PNG: two-armed fully clothed female with long loose green-black hair, human feet at river, visible comb and water droplets/cascade wetting hair. No fish tail or emitted laser; documented water-comb and hair entanglement variant chosen, modest cloth artistic. No text/gore.",
+    "native_sha256": "7a9314521788d1f1c407db9df910221610cd3ba278e00fe8135f79b257ce9a68",
+    "reviewed_at": "2026-10-06T08:03:51.742Z"
   },
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-121.review.json",
   "workspace_original_file": "data/artwork-generated/batch-797/originals/rusalka.png",
-  "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-676fae7e-043a-4123-a3f8-1d567498603e.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-b3c54757-dabf-40a5-bd51-9efa97f4e62b.png",
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "root",
-    "reviewed_at": "2026-10-05",
-    "notes": "Inspected original contact image: long loose green hair, female humanoid with legs, cloth covering, lake and hanging willow. Only natural water mist and moonlight; no emitted aura or ribbons. Pale expression and solitary framing supply menace."
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "7a9314521788d1f1c407db9df910221610cd3ba278e00fe8135f79b257ce9a68",
+    "notes": "River spirit woman with extremely long dark green-black hair trailing into a moonlit river, combing it; eerie night presence."
   },
   "aura_policy_history": [
     {
@@ -72,5 +91,110 @@
     "review_path": "data/artwork-generated/aura-revision-797/reviews/rusalka.json",
     "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/rusalka.json"
   },
-  "reviewed_at": "2026-10-05"
+  "reviewed_at": "2026-10-05",
+  "presentation_revision_history": [
+    {
+      "slug": "rusalka",
+      "worker": "worker-0",
+      "prompt": "Use case: stylized-concept. ONE square detailed painterly naturalistic mythology encyclopedia illustration of RUSALKA, choosing the documented Slavic drowned-woman spirit with LEGS rather than a fish tail. One adult female apparition emerges knee-deep at a dark riverbank below willow and birch branches. Extremely long loose GREEN hair streams across the water like entangling strands, pallid eerily luminous skin, sorrowful predatory stare. Keep source-faithful human anatomy, subtly uncanny glassy eyes and translucent edges instead of inventing monster parts. Modest pale draped fabric and hair cover chest and pelvis. Both legs readable through water; full figure with margins. Truly frightening still-water night atmosphere, green spectral mist and cold ripple aura as artistic interpretation. No victim, nudity, gore, fish tail, horns, claws, wings, extra limbs, crown, text, watermark, border or collage.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/rusalka.png",
+      "depicted_variant": "Legged drowned-woman water spirit with loose green hair, excluding fish-tail variant",
+      "basis_claim_ids": [
+        "rusalka-c01",
+        "rusalka-c05",
+        "rusalka-c06",
+        "rusalka-c07",
+        "rusalka-c10",
+        "rusalka-c12",
+        "rusalka-c16"
+      ],
+      "aura": "Dangerous water revenant presence through stare, long loose hair, still water and moonlit willow shadow.",
+      "visual_requirements": [
+        "adult woman water spirit with two legs, not fish tail",
+        "long loose green hair",
+        "Preserve source anatomy, counts, scale and modest framing.",
+        "Character presence through pose, composition, natural lighting; no generic emitted aura."
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "notes": "Actually inspected full original. Observed pale maiden with green loose hair, natural lake fog and moonlight only; no emitted magical fog/ribbons/particles.",
+        "reviewer": "worker-0"
+      },
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-121.review.json",
+      "workspace_original_file": "data/artwork-generated/batch-797/originals/rusalka.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a109e0-0193-7a52-8328-0a548a301734/exec-676fae7e-043a-4123-a3f8-1d567498603e.png",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "reviewed_at": "2026-10-05",
+        "notes": "Inspected original contact image: long loose green hair, female humanoid with legs, cloth covering, lake and hanging willow. Only natural water mist and moonlight; no emitted aura or ribbons. Pale expression and solitary framing supply menace."
+      },
+      "aura_policy_history": [
+        {
+          "aura": "dangerous drowned apparition and entangling water mist",
+          "visual_requirements": [
+            "adult woman water spirit with two legs, not fish tail",
+            "long loose green hair",
+            "uncanny spectral appearance, frightening waterside aura"
+          ],
+          "visual_review": {
+            "verdict": "pass",
+            "notes": "Actually inspected image: pallid adult female river apparition, very long loose green hair trailing across water, uncanny glassy gaze and cold mist aura. Human legged form rather than fish tail; lower legs obscured by water. Modest drape covers torso and pelvis. Water setting/green hair/source spirit identity supported; spectral lighting and drape artistic."
+          },
+          "root_visual_review": {
+            "verdict": "pass",
+            "notes": "Root inspected contact sheet: adult pallid female water apparition, long green hair and human thigh entering water, no fish tail; eerie moonlit water aura. Lower legs are submerged.",
+            "reviewed_at": "2026-10-05"
+          }
+        }
+      ],
+      "aura_revision": {
+        "decision": "keep",
+        "reviewer": "worker-0",
+        "rationale": "Observed pale maiden with green loose hair, natural lake fog and moonlight only; no emitted magical fog/ribbons/particles.",
+        "allowed_magic": "none",
+        "source_basis_claim_ids": [
+          "rusalka-c01",
+          "rusalka-c05",
+          "rusalka-c06",
+          "rusalka-c07",
+          "rusalka-c10",
+          "rusalka-c12",
+          "rusalka-c16"
+        ],
+        "review_path": "data/artwork-generated/aura-revision-797/reviews/rusalka.json",
+        "root_review_path": "data/artwork-generated/aura-revision-797/root-reviews/rusalka.json"
+      },
+      "reviewed_at": "2026-10-05"
+    }
+  ],
+  "native_sha256": "7a9314521788d1f1c407db9df910221610cd3ba278e00fe8135f79b257ce9a68",
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/rusalka.json",
+    "native_sha256": "7a9314521788d1f1c407db9df910221610cd3ba278e00fe8135f79b257ce9a68",
+    "old_url": "/assets/art/rusalka-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-797/originals/rusalka.png",
+    "old_webp_sha256": "b30fea9087481e88fcc023e9cae57af9af4b41c6b126a657c8fd7c1fe2f7090a",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "rusalka-c01",
+      "rusalka-c07",
+      "rusalka-c12",
+      "rusalka-c15",
+      "rusalka-c16"
+    ]
+  },
+  "url": "/assets/art/rusalka-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "6a4b3036896cb9d7eb50f083cd011af87e8706a28bf48cc65014738f2a7e835b",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Low-angle framing, painterly materials and environmental color are artistic rendering.",
+    "Effects are limited to the cited domains, deeds, attributes or iconography; natural light and scale supply presence where no elemental ability is documented."
+  ]
 }

@@ -3,39 +3,121 @@
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "slug": "apis",
-  "prompt": "Square premium painterly naturalistic Egyptian mythology artwork of Apis in documented SACRED BULL form. One living natural bull, exactly one bull head,two horns,four hoof legs and tail, unmistakable WHITE TRIANGULAR FOREHEAD MARKING. Choose iconographic variant with solid SUN DISK placed BETWEEN HORNS, a physical golden ceremonial disk rather than emitted magic. No human face or body. Dark black-brown coat is editorial choice for contrast, modest floral garland and small jewellery follow documented holiday adornment. Bull stands calmly with strong regal stance in a Memphis temple courtyard, naturally lit early morning, warm sandstone and shadow. Fine oil brushwork, believable muscular anatomy and coat. Divine presence from composed pose and natural light. No aura,neon,glowing eyes,energy ribbons,luminous coloured mist,text,border.",
-  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-d604ade7-812e-4b19-96a9-ff6311e66bd8.png",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/apis.png",
-  "depicted_variant": "Sacred bull with white forehead triangle and solar disk",
+  "prompt": "Square premium original respectful painterly Egyptian APIS SACRED BULL c01. ONE mighty anatomically correct black bull with FOUR legs ONE head TWO natural horns ONE tail, clear WHITE TRIANGLE on forehead c10, one golden SUN DISK BETWEEN horns c09. Full animal form, no human torso wings extra horns heads or limbs. Benevolent awe-inspiring guardian strength c08, grand low-angle fullbody at huge Memphis stone templethreshold, tiny distant templecourt. Documented healing BREATH c14 gently visualized as a small luminous warm natural-looking EXHALATION leaving nostrils into cool air, NOT fire breath or attack beam, no neon energy envelope. Divine power through immense strength and the gentle curing breath belief, spectacular cinematic golden natural sunlight contrasting dark bull/fine wet muzzle and textured hair, premium realistic painterly materials. No suffering humans, gore, nudity, text hieroglyphs symbols labels watermark logo border or movie/game/anime/comic design.\nNo-writing edit: Edit the Apis bull artwork. Remove EVERY hieroglyph, inscription, letter, symbol and carved pictogram from all background pillars, columns and walls; make them plain naturally textured sandstone with architectural grooves only. Preserve one black sacred bull, four legs, two horns, white forehead triangle, solar disk between horns, slight natural exhalation from nostrils, imposing low-angle cinematic golden composition, full square premium painterly style. No new anatomy, no text watermark labels or symbols anywhere.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-be04dfc6-98b0-48fa-a1ae-538c85b44471.png",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/apis.png",
+  "depicted_variant": "Sacred Apis bull with forehead triangle and solar disk; source-attested healing breath symbolized by visible exhalation.",
   "basis_claim_ids": [
     "apis-c01",
     "apis-c09",
     "apis-c10",
-    "apis-c15"
+    "apis-c14"
   ],
   "visual_requirements": [
-    "Natural bull",
-    "White triangular forehead marking",
-    "Physical solar disk between horns",
-    "Four hoof legs"
+    {
+      "kind": "anatomy",
+      "description": "One sacred bull with solar disk between horns and white forehead triangle.",
+      "claim_ids": [
+        "apis-c01",
+        "apis-c09",
+        "apis-c10"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Breath believed to cure disease.",
+      "claim_ids": [
+        "apis-c14"
+      ]
+    }
   ],
-  "aura": "Presence through pose, expression and natural light.",
+  "aura": "Documented curing breath c14 portrayed as gentle visible exhalation, monumental strength.",
   "visual_review": {
     "verdict": "pass",
-    "reviewer": "worker-1",
-    "notes": "One natural living bull has four hoof legs, tail, two horns and a white triangular forehead marking. Solid golden sun disk stands between horns with floral garland/jewellery. Natural daylight, no emitted magic."
+    "reviewer": "codex",
+    "notes": "Revised native inspected: one sacred black bull with four natural legs, two horns framing sun disk, white forehead triangle, gentle visible nostril exhalation. All pillar inscriptions removed; plain sandstone preserves natural material texture. Strong grand natural sunlight, no wings/hybrid body, fire attack, text/watermark or gore. First inscription-like background attempt retained.",
+    "native_sha256": "bb375902f6db6eb8bda64a8d770685f22bee4a26941131c0f29861eb0a9a70c7",
+    "reviewed_at": "2026-10-06T08:57:52.641Z"
   },
   "reviewed_at": "2026-10-05T14:05:25.788Z",
   "artistic_choices": [
     "Dark coat, disk material and Memphis courtyard are editorial staging"
   ],
   "review_path": "data/gemini/reviews/batch-077.review.json",
-  "native_sha256": "b347e5dc6acd2bd9034c066576b7ee7e584ac5ea8797fc977d7da4358c0a833d",
+  "native_sha256": "bb375902f6db6eb8bda64a8d770685f22bee4a26941131c0f29861eb0a9a70c7",
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "root",
-    "reviewed_at": "2026-10-05",
-    "native_sha256": "b347e5dc6acd2bd9034c066576b7ee7e584ac5ea8797fc977d7da4358c0a833d",
-    "notes": "Inspected natural bull with white triangular forehead marking, physical solar disk between horns and holiday flowers/jewelry; four hooflegs, no neon aura. c01/c09/c10/c15."
-  }
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "bb375902f6db6eb8bda64a8d770685f22bee4a26941131c0f29861eb0a9a70c7",
+    "notes": "Black sacred bull with golden solar disk between the horns, a visible white forehead triangle and a visible breath plume for the healing breath; temple setting."
+  },
+  "presentation_revision_history": [
+    {
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "slug": "apis",
+      "prompt": "Square premium painterly naturalistic Egyptian mythology artwork of Apis in documented SACRED BULL form. One living natural bull, exactly one bull head,two horns,four hoof legs and tail, unmistakable WHITE TRIANGULAR FOREHEAD MARKING. Choose iconographic variant with solid SUN DISK placed BETWEEN HORNS, a physical golden ceremonial disk rather than emitted magic. No human face or body. Dark black-brown coat is editorial choice for contrast, modest floral garland and small jewellery follow documented holiday adornment. Bull stands calmly with strong regal stance in a Memphis temple courtyard, naturally lit early morning, warm sandstone and shadow. Fine oil brushwork, believable muscular anatomy and coat. Divine presence from composed pose and natural light. No aura,neon,glowing eyes,energy ribbons,luminous coloured mist,text,border.",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-d604ade7-812e-4b19-96a9-ff6311e66bd8.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/apis.png",
+      "depicted_variant": "Sacred bull with white forehead triangle and solar disk",
+      "basis_claim_ids": [
+        "apis-c01",
+        "apis-c09",
+        "apis-c10",
+        "apis-c15"
+      ],
+      "visual_requirements": [
+        "Natural bull",
+        "White triangular forehead marking",
+        "Physical solar disk between horns",
+        "Four hoof legs"
+      ],
+      "aura": "Presence through pose, expression and natural light.",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-1",
+        "notes": "One natural living bull has four hoof legs, tail, two horns and a white triangular forehead marking. Solid golden sun disk stands between horns with floral garland/jewellery. Natural daylight, no emitted magic."
+      },
+      "reviewed_at": "2026-10-05T14:05:25.788Z",
+      "artistic_choices": [
+        "Dark coat, disk material and Memphis courtyard are editorial staging"
+      ],
+      "review_path": "data/gemini/reviews/batch-077.review.json",
+      "native_sha256": "b347e5dc6acd2bd9034c066576b7ee7e584ac5ea8797fc977d7da4358c0a833d",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "reviewed_at": "2026-10-05",
+        "native_sha256": "b347e5dc6acd2bd9034c066576b7ee7e584ac5ea8797fc977d7da4358c0a833d",
+        "notes": "Inspected natural bull with white triangular forehead marking, physical solar disk between horns and holiday flowers/jewelry; four hooflegs, no neon aura. c01/c09/c10/c15."
+      }
+    }
+  ],
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/apis.json",
+    "native_sha256": "bb375902f6db6eb8bda64a8d770685f22bee4a26941131c0f29861eb0a9a70c7",
+    "old_url": "/assets/art/apis-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/apis.png",
+    "old_webp_sha256": "543153461997766b15ccd3d69c6d703d457696d0b8b5d2dc545b89f751ab8e84",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "apis-c01",
+      "apis-c09",
+      "apis-c10",
+      "apis-c14"
+    ]
+  },
+  "url": "/assets/art/apis-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "8c2a2ec215aec8cf101b9438ff25001db24faed4ebf7ff509ec3ff3c8d139d23",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Bull color, full natural sunlight, templethreshold and visible gentle breath are editorial rendering.",
+    "No destructive solar attack or fire breath; external light and exhalation visualize healing belief without asserting beam mechanics."
+  ]
 }

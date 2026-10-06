@@ -1,0 +1,68 @@
+{
+  "revision": "nama-besar",
+  "slug": "beast-of-gevaudan",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generated_at": "2026-10-06T08:03:52.803Z",
+  "prompt": "Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. One enormous calf/cow-sized wolf-like uncertain cryptid, TAWNY-RUSSET fur with dark stripes and a dark dorsal stripe, tail longer than a wolf ending in a distinct tuft. Powerful jaws with fearsome teeth and claws, coherent quadruped four legs and one head, springing across rough eighteenth-century French field with tiny rural buildings beneath distant mountains. Dreadful low camera; natural storm light and kicked-up dust show motion. Do not add supernatural wings, horns, emitted effects or gore; identity remains a witness description, not conclusively hyena/werewolf. Plain uninscribed walls, clothing and objects: no hieroglyphs, cuneiform, letters or pictographic writing. No solar-disk crown, horns or additional attributes unless explicitly specified above.",
+  "depicted_variant": "One enormous calf/cow-sized wolf-like uncertain cryptid, TAWNY-RUSSET fur with dark stripes and a dark dorsal stripe, tail longer than a wolf ending in a distinct tuft. Powerful jaws with fearsome teeth and claws, coherent quadruped four legs and one head, springing across rough eighteenth-century French field with tiny rural buildings beneath distant mountains. Dreadful low camera; natural storm light and kicked-up dust show motion. Do not add supernatural wings, horns, emitted effects or gore; identity remains a witness description, not conclusively hyena/werewolf.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Dust and storm lighting around bounding beast",
+  "review_path": "data/gemini/reviews/batch-128.review.json",
+  "basis_claim_ids": [
+    "beast-of-gevaudan-c01",
+    "beast-of-gevaudan-c02",
+    "beast-of-gevaudan-c03",
+    "beast-of-gevaudan-c04"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One enormous calf/cow-sized wolf-like uncertain cryptid, TAWNY-RUSSET fur with dark stripes and a dark dorsal stripe, tail longer than a wolf ending in a distinct tuft. Powerful jaws with fearsome teeth and claws, coherent quadruped four legs and one head, springing across rough eighteenth-century French field with tiny rural buildings beneath distant mountains. Dreadful low camera; natural storm light and kicked-up dust show motion. Do not add supernatural wings, horns, emitted effects or gore; identity remains a witness description, not conclusively hyena/werewolf.",
+      "claim_ids": [
+        "beast-of-gevaudan-c01",
+        "beast-of-gevaudan-c02",
+        "beast-of-gevaudan-c03",
+        "beast-of-gevaudan-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Dust and storm lighting around bounding beast; basis: documented fearsome size and bounding attacks; no elemental powers",
+      "claim_ids": [
+        "beast-of-gevaudan-c01",
+        "beast-of-gevaudan-c02",
+        "beast-of-gevaudan-c03",
+        "beast-of-gevaudan-c04"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Low-angle framing, painterly materials and environmental color are artistic rendering.",
+    "Effects are limited to the cited domains, deeds, attributes or iconography; natural light and scale supply presence where no elemental ability is documented."
+  ],
+  "old_url": "/assets/art/beast-of-gevaudan-mythic-presence.webp",
+  "old_webp_sha256": "d3d6ae25af3fb8d6974a3b3308e7afb0ba3304c958a479d35d641ba3176b4c21",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/presentation-revision-1000/originals/beast-of-gevaudan.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": "863522de6baa54bd7507391e3f1f116ab585d1e696232faa1bae19cac66d8d26",
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/beast-of-gevaudan.png",
+  "native_sha256": "219a8f2c46f1e6ca118dd75be55bb520b492dcdeed88963fd9df285f7ba64278",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-0bfa4d34-c2a2-4643-8413-54c860fa29e3.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Viewed native PNG: single coherent quadruped with four legs, tawny-russet dark-striped coat/dorsal stripe, long tuft-ended tail, fearful teeth/claws, bounding motion over French field. Species-like facial rendering is artistic witness-description synthesis, not a definitive identification. No wings, supernatural emission, text or gore.",
+    "native_sha256": "219a8f2c46f1e6ca118dd75be55bb520b492dcdeed88963fd9df285f7ba64278",
+    "reviewed_at": "2026-10-06T08:03:52.803Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "219a8f2c46f1e6ca118dd75be55bb520b492dcdeed88963fd9df285f7ba64278",
+    "notes": "Huge russet wolf-like beast with dark stripes and a tufted tail charging across an 18th-century French field; tiny farm buildings give its size; fearsome jaws."
+  },
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00"
+}

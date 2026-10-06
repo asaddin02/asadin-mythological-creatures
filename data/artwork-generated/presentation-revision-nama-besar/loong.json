@@ -1,0 +1,72 @@
+{
+  "revision": "nama-besar",
+  "slug": "loong",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generated_at": "2026-10-06T08:28:37.468Z",
+  "prompt": "Square premium original painterly Chinese LOONG mythology illustration. ONE enormous SERPENTINE DRAGON with exactly FOUR legs loong-c01, exactly ONE crocodilian head with two natural DEER ANTLERS loong-c06, long scaled S-curved body, one tail, NO WINGS. Make all FOUR distinct clawed legs visible and spatially separated: two forelegs near shoulder, two hindlegs further down body, no fifth paw or duplicate limb. Rain distributor domain c08: spectacular immense torrential RAIN clouds and rainwater pouring across tiny river landscape below, majestic dragon dances through rainy sky pursuing ONE FLAMING PEARL c07, bright small gold pearl with flame. Powerful wise imperial bearing, not evil, monumental low angle, clear strong serpentine silhouette, cinematic gold pearl/blue-grey weather contrast, painterly rich realistic scales fur antlers. Do not add lightning attack or fire breath; flame only documented pearl. No text symbols logos watermark border nudity gore or film/game/anime/comic design.\nSource-fidelity edit: Edit this Chinese Loong to match the source anatomy. REMOVE all long white HAIR, MANE, moustache and BEARD along its face, neck and body, because not documented in selected claims. Keep exactly FOUR legs/paws, ONE reptilian crocodile head, the two DEER ANTLERS and ordinary scale texture, one long serpentine body and tail, no wings. Make the head unmistakably long flat CROCODILIAN snout with reptile jaws. Keep the flaming pearl, heavy rain, low-angle monumental airborne composition and beautiful painterly square style. No extra limbs/heads, no text or watermark.",
+  "depicted_variant": "Chinese four-legged serpentine dragon with deer antlers and crocodilian head, rain and flaming pearl.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Documented distribution of rain, powerful storm-rain scene and flaming pearl.",
+  "review_path": "data/gemini/reviews/batch-066.review.json",
+  "basis_claim_ids": [
+    "loong-c01",
+    "loong-c06",
+    "loong-c07",
+    "loong-c08"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Serpentine dragon with exactly four legs, deer antlers and crocodilian head.",
+      "claim_ids": [
+        "loong-c01",
+        "loong-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Rain domain and pursuit of flaming pearl.",
+      "claim_ids": [
+        "loong-c07",
+        "loong-c08"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Scale color and S-curve flight composition editorial; antlers and head form from explicit Doré variant.",
+    "No wings, thunderbolt weapon, or extra paws. Weather visualization follows rain domain."
+  ],
+  "old_url": "/assets/art/loong-verified.webp",
+  "old_webp_sha256": "4ac88ecf44f534aac8d962c4a1cab3ae3c3d467371966cd8e1095fe28028d07b",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/loong.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": "88202c679048a96e6930b7bcee26554c5d4fc95dc16aec4019942d24e658a696",
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/loong.png",
+  "native_sha256": "0c7bf5891dacecf43531176fdec1d6459ef4108aa4a7ff9bfb0524d950d4dbd5",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-58986a92-82b8-4635-a7d0-5ad5c407e8f9.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Revised native inspected: exactly four separated clawed legs, long serpentine body, one unmistakably crocodilian head and deer antlers. Long unsupported mane/beard removed; natural scales remain. Flaming pearl and heavy rainfall match claims. No wings or extra limbs/heads, text/watermark or gore; rejected hairy attempt preserved.",
+    "native_sha256": "0c7bf5891dacecf43531176fdec1d6459ef4108aa4a7ff9bfb0524d950d4dbd5",
+    "reviewed_at": "2026-10-06T08:28:37.468Z"
+  },
+  "rejected_attempts": [
+    {
+      "path": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-94e72b7d-dcaa-49ad-9c5c-b65ae9f76903.png",
+      "reason": "Added long mane and beard not in selected documented anatomy.",
+      "original_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/loong-1.png",
+      "native_sha256": "f1e575223c8a463ad86f0f7a9df1315a7125198afbd13b00ce243cae498eb878"
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "0c7bf5891dacecf43531176fdec1d6459ef4108aa4a7ff9bfb0524d950d4dbd5",
+    "notes": "Serpentine four-legged dragon with deer antlers and crocodilian head flying through rain clouds toward a flaming pearl."
+  },
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00"
+}

@@ -1,0 +1,78 @@
+{
+  "revision": "nama-besar",
+  "slug": "yaksha",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "needs-correction",
+  "generated_at": "2026-10-06T07:59:24.387Z",
+  "prompt": "Edit this nature guardian illustration to depict the HINDU/BUDDHIST/JAIN YAKSHA hidden-treasure guardian tradition respectfully. Keep ordinary one-headed two-armed two-legged humanoid anatomy, forest roots, freshwater stream, hidden treasure, low-angle and dawn. Change the European medieval-looking coat/boots into fully modest simple ANCIENT SOUTH ASIAN flowing robes and sandals; use a robust South Asian human facial rendering. Remove the staff completely; hands relaxed/guardian gesture without held weapon. No crown, horns, wings, elemental magic, inscriptions or letters. Natural sunlight over treasure, no self-emitted glow. Clothing and humanlike rendering are artistic choices, not a claim of sourced historical portrait.",
+  "depicted_variant": "One imposing humanoid nature spirit guarding a treasure recess in an ancient tree-root forest beside freshwater. Choose benevolent hidden-treasure guardian variant: ordinary human masculine anatomy with fully clothed robust body, quiet authoritative expression, no invented horns, wings or fangs. Massive roots and distant smaller trees frame him, antique plain ornaments and modest robes are artistic styling. Rays of real morning sun illuminate water and treasure; no elemental attacks or floating magic coins.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Forest sunlight over water and hidden treasure",
+  "review_path": "data/gemini/reviews/batch-072.review.json",
+  "basis_claim_ids": [
+    "yaksha-c01",
+    "yaksha-c03",
+    "yaksha-c04",
+    "yaksha-c06"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One imposing humanoid nature spirit guarding a treasure recess in an ancient tree-root forest beside freshwater. Choose benevolent hidden-treasure guardian variant: ordinary human masculine anatomy with fully clothed robust body, quiet authoritative expression, no invented horns, wings or fangs. Massive roots and distant smaller trees frame him, antique plain ornaments and modest robes are artistic styling. Rays of real morning sun illuminate water and treasure; no elemental attacks or floating magic coins.",
+      "claim_ids": [
+        "yaksha-c01",
+        "yaksha-c03",
+        "yaksha-c04",
+        "yaksha-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Forest sunlight over water and hidden treasure; basis: nature and treasure guardian domain, no specific elemental ability",
+      "claim_ids": [
+        "yaksha-c01",
+        "yaksha-c03",
+        "yaksha-c04",
+        "yaksha-c06"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Low-angle framing, painterly materials and environmental color are artistic rendering.",
+    "Effects are limited to the cited domains, deeds, attributes or iconography; natural light and scale supply presence where no elemental ability is documented.",
+    "Humanlike anatomical rendering is an artistic representation of an unspecified nature-spirit form; research documents domains and roles rather than a detailed bodily appearance."
+  ],
+  "old_url": "/assets/art/yaksha-regeneration-139.webp",
+  "old_webp_sha256": "ed78f5e9c572752772c4615d69097159064a2d7ab7f088652a4ee828a7e42adf",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/yaksha.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": null,
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/yaksha.png",
+  "native_sha256": "4fa05e0f73ed12dd1caa2a37e7e4837a9605bd254fa9e2ab3908e84a1a2bfa90",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-d16f2ff0-0355-4888-8265-fbe28def7e63.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Viewed corrected PNG: robust humanlike nature guardian in modest South Asian robes/sandals, two hands and two feet, hidden treasure among tree roots beside water. Removed European costume and unsupported staff. Human portrait details and clothing are artistic representative rendering, not sourced historical anatomy; no additional body features or emitted powers.",
+    "native_sha256": "4fa05e0f73ed12dd1caa2a37e7e4837a9605bd254fa9e2ab3908e84a1a2bfa90",
+    "reviewed_at": "2026-10-06T07:59:24.388Z"
+  },
+  "rejected_attempts": [
+    {
+      "path": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-02fec13b-0ecb-4128-b1ba-e9804faef18a.png",
+      "prompt": "Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. One imposing humanoid nature spirit guarding a treasure recess in an ancient tree-root forest beside freshwater. Choose benevolent hidden-treasure guardian variant: ordinary human masculine anatomy with fully clothed robust body, quiet authoritative expression, no invented horns, wings or fangs. Massive roots and distant smaller trees frame him, antique plain ornaments and modest robes are artistic styling. Rays of real morning sun illuminate water and treasure; no elemental attacks or floating magic coins.",
+      "reason": "Unsupported attributes, text-like inscriptions or cultural styling; corrected through a targeted image edit.",
+      "original_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/yaksha-1.png",
+      "native_sha256": "22d41aea7fbd6772ca87544ff8770a2a115aaea0e99c1c68a18c8c08a3b20394"
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "reject",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "4fa05e0f73ed12dd1caa2a37e7e4837a9605bd254fa9e2ab3908e84a1a2bfa90",
+    "notes": "Reads as an ordinary man sitting on tree roots."
+  },
+  "correction_notes": "Reads as an ordinary man sitting on tree roots."
+}

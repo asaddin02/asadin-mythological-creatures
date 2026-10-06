@@ -1,0 +1,64 @@
+{
+  "revision": "nama-besar",
+  "slug": "apsara",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generated_at": "2026-10-06T07:48:19.319Z",
+  "prompt": "Use case: historical-scene. Create ONE square premium painterly mythology encyclopedia illustration for Apsara, a celestial female dancer of Hindu and Buddhist traditions, respectfully depicted without copying modern films/games. Subject: one majestic celestial woman with anatomically ordinary human body, elegant ceremonial dance pose, completely modest layered flowing robes, flower garlands and ornaments. Monumental composition viewed from below on a vast cloud-water terrace evoking Indra's celestial court; no other distinct characters. Her dance and airborne robe motion dominate the frame, ethereal atmospheric light and cloud-water mist, luminous natural sunrise illuminating her; no magical emitted beam or invented wings. Sources permit celestial identity, dancing at Indra's court, and garlands/clothing: do not invent elemental powers. Rich texture, imposing presence, high contrast beautiful dignified benevolent expression, clean readable silhouette. Low-angle cinematic lighting and small distant architectural columns establish enormous presence while ordinary anatomy stays coherent: one head, two arms, two legs. Square canvas, detailed premium painterly naturalistic house style. No nudity, gore, text, symbols resembling letters, caption, watermark, border, logo. Do not depict erotic temptation. Effects limited to environmental cloud mist and radiant natural dawn, not supernatural power.",
+  "depicted_variant": "Celestial female dancer at Indra’s court, garlanded and modestly clothed in a cloud-water palace.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Monumental dance, cloud-water mist and radiant natural dawn; no emitted magical beam.",
+  "review_path": "data/gemini/reviews/batch-072.review.json",
+  "basis_claim_ids": [
+    "apsara-c01",
+    "apsara-c02",
+    "apsara-c08",
+    "apsara-c11"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "Celestial female dancer at Indra court",
+      "claim_ids": [
+        "apsara-c01",
+        "apsara-c02"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Garlands, clothes and cloud-water associations",
+      "claim_ids": [
+        "apsara-c08",
+        "apsara-c11"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Low-angle camera, palace architecture, fabric ornament and natural sunrise are artistic interpretation.",
+    "Shapeshifting is documented but not depicted; no elemental ability is claimed."
+  ],
+  "old_url": "/assets/art/apsara-regeneration-139-mythic-presence.webp",
+  "old_webp_sha256": "e7d1a94e2828cc1a4ff78d8d96bf035c29fcbac6d192d2b3715910ab4c044a5a",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/regeneration-139/originals/apsara-mythic-presence.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": "47dc7e9f8e7c5c3459cbee643eaa10ef1e0fda48c645290a4324e86c355b5007",
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/apsara.png",
+  "native_sha256": "cb4c374968f6a559b637cb00edae6814571f345cbf8abfe7fcd7b256ee97ff0b",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-2154e538-b1f2-4c6a-ac49-77994c7d12b7.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Viewed generated native PNG: one female dancer with coherent head, two arms, two feet, clothed torso/skirt, garlands and flowing cloth. Strong monumental cloud-palace composition, no wings, invented elemental powers, text or watermark.",
+    "native_sha256": "cb4c374968f6a559b637cb00edae6814571f345cbf8abfe7fcd7b256ee97ff0b",
+    "reviewed_at": "2026-10-06T07:48:19.320Z"
+  },
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "cb4c374968f6a559b637cb00edae6814571f345cbf8abfe7fcd7b256ee97ff0b",
+    "notes": "Celestial dancer in garlands and modest dress dancing in a cloud-and-waterfall palace; the heavenly court setting gives an otherworldly presence."
+  },
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00"
+}

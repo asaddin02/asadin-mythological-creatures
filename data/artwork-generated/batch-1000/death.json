@@ -3,36 +3,122 @@
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "slug": "death",
-  "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic mythology illustration of DEATH, selecting the documented modern Grim Reaper personification ONLY. A single human SKELETON wearing a plain dark hooded ROBE stands on a quiet misty old stone path and holds one SCYTHE with a curved agricultural blade and long wooden handle. Skull clearly visible beneath hood, empty eye sockets without glowing lights, bony hands grip shaft naturally. Two arms and two legs beneath robe; full figure and scythe blade inside frame. Skeletal ribs partly visible within open robe, tasteful depiction without gore or corpses. Death is calm and solemn, neither vicious nor comic. Strong natural moonlight and deep shadows reveal bone texture and worn linen; ordinary nonluminous mist lies far behind along stone path. Convey uncanny inevitable presence through still posture, centered imposing framing and cold natural light. No wings, horse, crown, hourglass, magical aura, neon outline, eye glow, luminous coloured fog, energy ribbon, souls as floating lights, lettering, border, collage, watermark or modern setting. Treat this as a contemporary artistic rendering of the documented Grim Reaper variant, not a universal traditional appearance of death.",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/death.png",
-  "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-2d44be7c-4ad5-41f2-aa35-29c6c0bc1ed3.png",
-  "depicted_variant": "Modern Grim Reaper personification: berobed skeleton with scythe",
+  "prompt": "Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. One colossal Grim Reaper: skeletal human figure inside fully covering weathered dark robes, one scythe raised diagonally, standing at a silent threshold in bleak moonlit landscape. Show clearly a skull face and coherent skeletal hands, two arms and two legs under robes. Gentle distant translucent silhouettes of departed souls walk toward the threshold, interpreted as the psychopomp role rather than invented attack or energy beams. No victims or violence. Frame skeletal figure imposing and terrifying through scale and moonlit fog.",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/death.png",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-3110572b-ffcf-4b57-bb3f-55dd72901db7.png",
+  "depicted_variant": "One colossal Grim Reaper: skeletal human figure inside fully covering weathered dark robes, one scythe raised diagonally, standing at a silent threshold in bleak moonlit landscape. Show clearly a skull face and coherent skeletal hands, two arms and two legs under robes. Gentle distant translucent silhouettes of departed souls walk toward the threshold, interpreted as the psychopomp role rather than invented attack or energy beams. No victims or violence. Frame skeletal figure imposing and terrifying through scale and moonlit fog.",
   "basis_claim_ids": [
-    "death-c01",
-    "death-c02"
+    "death-c02",
+    "death-c03",
+    "death-c15",
+    "death-c17"
   ],
   "visual_requirements": [
-    "Single human skeleton in hooded dark robe",
-    "One agricultural scythe held naturally",
-    "Empty eye sockets and natural moonlight; no magic glow"
+    {
+      "kind": "anatomy",
+      "description": "One colossal Grim Reaper: skeletal human figure inside fully covering weathered dark robes, one scythe raised diagonally, standing at a silent threshold in bleak moonlit landscape. Show clearly a skull face and coherent skeletal hands, two arms and two legs under robes. Gentle distant translucent silhouettes of departed souls walk toward the threshold, interpreted as the psychopomp role rather than invented attack or energy beams. No victims or violence. Frame skeletal figure imposing and terrifying through scale and moonlit fog.",
+      "claim_ids": [
+        "death-c02",
+        "death-c03",
+        "death-c15",
+        "death-c17"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Departed soul silhouettes approaching afterlife threshold; basis: psychopomp role, with soul appearance an artistic visualization",
+      "claim_ids": [
+        "death-c02",
+        "death-c03",
+        "death-c15",
+        "death-c17"
+      ]
+    }
   ],
-  "aura": "Solemn inevitable presence through still pose and cold moonlit path",
+  "aura": "Departed soul silhouettes approaching afterlife threshold",
   "visual_review": {
     "verdict": "pass",
-    "reviewer": "worker-1",
-    "notes": "Inspected native: hooded berobed human skeleton with skull, ribs, bony hands and two feet visible; single scythe fully in frame. Natural moonlight on old stone path and ordinary background fog; no glowing sockets or emitted aura."
+    "reviewer": "codex",
+    "notes": "Viewed native PNG: one robed skeleton with scythe and coherent two skeletal hands, distant translucent souls entering threshold, strong terrifying low-angle presence. Soul translucency/threshold architecture are artistic psychopomp visualization, not a claimed attack. No text, watermark or gore.",
+    "native_sha256": "b8df62fd9d0624a02291f1bf5b869f8438ccf24531dc4b9041a1cfb0f542b9df",
+    "reviewed_at": "2026-10-06T07:48:19.591Z"
   },
   "reviewed_at": "2026-10-05T11:11:39.439Z",
   "artistic_choices": [
     "Dark robe colour, old stone path, ruined skyline and moonlight are editorial staging of the explicitly modern Grim Reaper depiction."
   ],
   "review_path": "data/gemini/reviews/batch-152.review.json",
-  "native_sha256": "49c9a8e45857464cef618d2d245ef80966ef27fe536f15b0d5f92bcfffed1254",
+  "native_sha256": "b8df62fd9d0624a02291f1bf5b869f8438ccf24531dc4b9041a1cfb0f542b9df",
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "root",
-    "reviewed_at": "2026-10-05",
-    "native_sha256": "49c9a8e45857464cef618d2d245ef80966ef27fe536f15b0d5f92bcfffed1254",
-    "notes": "Independent inspection: single human skeleton wearing dark hooded robe, scythe held by skeletal hands, empty eye sockets. Natural moonlit setting, no glowing eyes or magic; explicitly modern Grim Reaper representation rather than all-cultural fixed form."
-  }
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "b8df62fd9d0624a02291f1bf5b869f8438ccf24531dc4b9041a1cfb0f542b9df",
+    "notes": "Colossal robed skeletal reaper with skull face and raised scythe at a moonlit threshold while translucent souls walk past, matching the psychopomp role."
+  },
+  "presentation_revision_history": [
+    {
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "slug": "death",
+      "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic mythology illustration of DEATH, selecting the documented modern Grim Reaper personification ONLY. A single human SKELETON wearing a plain dark hooded ROBE stands on a quiet misty old stone path and holds one SCYTHE with a curved agricultural blade and long wooden handle. Skull clearly visible beneath hood, empty eye sockets without glowing lights, bony hands grip shaft naturally. Two arms and two legs beneath robe; full figure and scythe blade inside frame. Skeletal ribs partly visible within open robe, tasteful depiction without gore or corpses. Death is calm and solemn, neither vicious nor comic. Strong natural moonlight and deep shadows reveal bone texture and worn linen; ordinary nonluminous mist lies far behind along stone path. Convey uncanny inevitable presence through still posture, centered imposing framing and cold natural light. No wings, horse, crown, hourglass, magical aura, neon outline, eye glow, luminous coloured fog, energy ribbon, souls as floating lights, lettering, border, collage, watermark or modern setting. Treat this as a contemporary artistic rendering of the documented Grim Reaper variant, not a universal traditional appearance of death.",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/death.png",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-2d44be7c-4ad5-41f2-aa35-29c6c0bc1ed3.png",
+      "depicted_variant": "Modern Grim Reaper personification: berobed skeleton with scythe",
+      "basis_claim_ids": [
+        "death-c01",
+        "death-c02"
+      ],
+      "visual_requirements": [
+        "Single human skeleton in hooded dark robe",
+        "One agricultural scythe held naturally",
+        "Empty eye sockets and natural moonlight; no magic glow"
+      ],
+      "aura": "Solemn inevitable presence through still pose and cold moonlit path",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-1",
+        "notes": "Inspected native: hooded berobed human skeleton with skull, ribs, bony hands and two feet visible; single scythe fully in frame. Natural moonlight on old stone path and ordinary background fog; no glowing sockets or emitted aura."
+      },
+      "reviewed_at": "2026-10-05T11:11:39.439Z",
+      "artistic_choices": [
+        "Dark robe colour, old stone path, ruined skyline and moonlight are editorial staging of the explicitly modern Grim Reaper depiction."
+      ],
+      "review_path": "data/gemini/reviews/batch-152.review.json",
+      "native_sha256": "49c9a8e45857464cef618d2d245ef80966ef27fe536f15b0d5f92bcfffed1254",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "reviewed_at": "2026-10-05",
+        "native_sha256": "49c9a8e45857464cef618d2d245ef80966ef27fe536f15b0d5f92bcfffed1254",
+        "notes": "Independent inspection: single human skeleton wearing dark hooded robe, scythe held by skeletal hands, empty eye sockets. Natural moonlit setting, no glowing eyes or magic; explicitly modern Grim Reaper representation rather than all-cultural fixed form."
+      }
+    }
+  ],
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/death.json",
+    "native_sha256": "b8df62fd9d0624a02291f1bf5b869f8438ccf24531dc4b9041a1cfb0f542b9df",
+    "old_url": "/assets/art/death-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/death.png",
+    "old_webp_sha256": "6a1e8cc2a3eea484b500ec9c313b0dd992d4b5a61df12c67091d2c32ccb1391d",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "death-c02",
+      "death-c03",
+      "death-c15",
+      "death-c17"
+    ]
+  },
+  "url": "/assets/art/death-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "1fdd0610fe5d1a027ca13fe26436cb0774cc79feb88e0e9d25ad405c15233239",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Low-angle framing, painterly materials and environmental color are artistic rendering.",
+    "Effects are limited to the cited domains, deeds, attributes or iconography; natural light and scale supply presence where no elemental ability is documented."
+  ]
 }

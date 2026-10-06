@@ -1,44 +1,131 @@
 {
   "slug": "sokar",
-  "depicted_variant": "Documented mummified hawk form, devotional intact representation.",
+  "depicted_variant": "One monumental Egyptian Sokar in MUMMIFIED HAWK form: a single falcon head and compact hawk body wrapped in linen funerary bindings emerging from a dark necropolis mound at the underworld entrance. Beak and feathered head remain clear, no invented human arms or horns, wings concealed naturally under wrapping. Vast ancient doorway and tiny mortuary architecture, intense natural shaft of sunset on gilded cloth-edge styling, shadowy mist for underworld atmosphere. Do not blend Ptah/Osiris anatomy or alternate serpent-standing variant. No magical flame or halo.",
   "basis_claim_ids": [
     "sokar-c01",
     "sokar-c03",
     "sokar-c06"
   ],
   "visual_requirements": [
-    "One intact mummified hawk representation",
-    "Natural hawk head with linen wrapped avian body",
-    "No human hybrid or borrowed attributes"
+    {
+      "kind": "anatomy",
+      "description": "One monumental Egyptian Sokar in MUMMIFIED HAWK form: a single falcon head and compact hawk body wrapped in linen funerary bindings emerging from a dark necropolis mound at the underworld entrance. Beak and feathered head remain clear, no invented human arms or horns, wings concealed naturally under wrapping. Vast ancient doorway and tiny mortuary architecture, intense natural shaft of sunset on gilded cloth-edge styling, shadowy mist for underworld atmosphere. Do not blend Ptah/Osiris anatomy or alternate serpent-standing variant. No magical flame or halo.",
+      "claim_ids": [
+        "sokar-c01",
+        "sokar-c03",
+        "sokar-c06"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Underworld entrance shadows and monumental funerary presence; basis: documented necropolis god/guardian; no elemental power specified",
+      "claim_ids": [
+        "sokar-c01",
+        "sokar-c03",
+        "sokar-c06"
+      ]
+    }
   ],
-  "aura": "Still solemn watchful hawk gaze and naturally lit limestone alcove.",
+  "aura": "Underworld entrance shadows and monumental funerary presence",
   "artistic_choices": "Linen arrangement, stone alcove and natural sunset illumination are editorial.",
-  "prompt": "One respectful painterly realistic Egyptian mythology illustration, portrait2:3, NO text. Sokar as documented MUMMIFIED HAWK form. A single intact ceremonial hawk representation with natural unmistakable hawk head, hooked beak and bird eye, the avian body carefully wrapped in tidy linen, two folded bird wings suggested under the wrappings; not a human mummy, not hawk-headed man. Resting upright on plain limestone pedestal in quiet alcove, natural evening sunlight through doorway. Solemn dignity through watchful gaze and silhouette. Non-gory devotional iconographic representation, no injury, no exposed remains, no snake/wing composites or crowns invented. No magical aura, luminous mist, neon outline or floating symbols. Editorial scene and bandage arrangement.",
-  "generated_file": "/home/asadin/.codex/generated_images/01a10bb1-8e46-7c61-8c86-34349121a53c/exec-7b930708-0674-414c-8b4e-341c9e48b303.png",
+  "prompt": "Edit the existing Sokar mummified hawk illustration. KEEP exactly the bird's falcon head/beak, linen-wrapped HAWK body with wings enclosed, taloned feet at mound, solemn sunset and monumental necropolis entrance. Remove ALL letter-like and hieroglyph-like markings from the gold collar, linen bindings, walls, gateways, columns and stones: completely plain uninscribed surfaces, simple geometric fabric weave only. Remove statues of other human/deity figures in background and replace with plain empty stone alcoves. Do not add human arms, human torso, horns, sun disks, magical flame, jewelry icons or new attributes. Square premium painterly artwork, no caption/logo/watermark.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-39bc1063-d701-4506-9d34-b0fdc5f9fe3b.png",
   "visual_review": {
     "verdict": "pass",
-    "reviewer": "root",
-    "notes": "Native inspected: one ceremonial wrapped hawk representation with natural raptor head/hooked beak, feathered folded wing and intact linen-covered avian body. No human hands/face, no injury; c03 mummified hawk variant."
+    "reviewer": "codex",
+    "notes": "Viewed corrected PNG: one falcon head/beak over linen-wrapped bird body with talons at mound, wings enclosed under binding. Removed inscriptions and background deity statues; plain collar/stone and necropolis threshold in sunset/mist. No human arms, horns, solar disk, emitted power, text or watermark.",
+    "native_sha256": "dcc6683b85c066064c3e4be18ca05ea9e4ad034eb265431e6adaeab40779c66b",
+    "reviewed_at": "2026-10-06T08:18:04.770Z"
   },
   "worker": "root",
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "review_path": "data/gemini/reviews/batch-077.review.json",
   "reviewed_at": "2026-10-05",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/sokar.png",
-  "native_sha256": "f87e7df4c02504936fc062e0c6194ba4ef0a55512a6e11ccc5edcf4c4d493e5e",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/sokar.png",
+  "native_sha256": "dcc6683b85c066064c3e4be18ca05ea9e4ad034eb265431e6adaeab40779c66b",
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "worker-0",
-    "notes": "Independently viewed native PNG: hooked-beak raptor head above an intact linen-wrapped avian body, feathered folded wing visible beneath bands, resting on stone pedestal. Matches c03 mummified hawk variant; no human hands, injury, borrowed crown or luminous effects.",
-    "native_sha256": "f87e7df4c02504936fc062e0c6194ba4ef0a55512a6e11ccc5edcf4c4d493e5e",
-    "reviewed_at": "2026-10-05T13:12:24.533855+00:00"
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "dcc6683b85c066064c3e4be18ca05ea9e4ad034eb265431e6adaeab40779c66b",
+    "notes": "Mummified falcon wrapped in linen before a necropolis gate, as in the documented mummified hawk form."
   },
   "independent_visual_review": {
     "verdict": "pass",
-    "reviewer": "worker-0",
-    "notes": "Independently viewed native PNG: hooked-beak raptor head above an intact linen-wrapped avian body, feathered folded wing visible beneath bands, resting on stone pedestal. Matches c03 mummified hawk variant; no human hands, injury, borrowed crown or luminous effects.",
-    "native_sha256": "f87e7df4c02504936fc062e0c6194ba4ef0a55512a6e11ccc5edcf4c4d493e5e",
-    "reviewed_at": "2026-10-05T13:12:24.533855+00:00"
-  }
+    "reviewer": "codex",
+    "notes": "Viewed corrected PNG: one falcon head/beak over linen-wrapped bird body with talons at mound, wings enclosed under binding. Removed inscriptions and background deity statues; plain collar/stone and necropolis threshold in sunset/mist. No human arms, horns, solar disk, emitted power, text or watermark.",
+    "native_sha256": "dcc6683b85c066064c3e4be18ca05ea9e4ad034eb265431e6adaeab40779c66b",
+    "reviewed_at": "2026-10-06T08:18:04.770Z"
+  },
+  "presentation_revision_history": [
+    {
+      "slug": "sokar",
+      "depicted_variant": "Documented mummified hawk form, devotional intact representation.",
+      "basis_claim_ids": [
+        "sokar-c01",
+        "sokar-c03",
+        "sokar-c06"
+      ],
+      "visual_requirements": [
+        "One intact mummified hawk representation",
+        "Natural hawk head with linen wrapped avian body",
+        "No human hybrid or borrowed attributes"
+      ],
+      "aura": "Still solemn watchful hawk gaze and naturally lit limestone alcove.",
+      "artistic_choices": "Linen arrangement, stone alcove and natural sunset illumination are editorial.",
+      "prompt": "One respectful painterly realistic Egyptian mythology illustration, portrait2:3, NO text. Sokar as documented MUMMIFIED HAWK form. A single intact ceremonial hawk representation with natural unmistakable hawk head, hooked beak and bird eye, the avian body carefully wrapped in tidy linen, two folded bird wings suggested under the wrappings; not a human mummy, not hawk-headed man. Resting upright on plain limestone pedestal in quiet alcove, natural evening sunlight through doorway. Solemn dignity through watchful gaze and silhouette. Non-gory devotional iconographic representation, no injury, no exposed remains, no snake/wing composites or crowns invented. No magical aura, luminous mist, neon outline or floating symbols. Editorial scene and bandage arrangement.",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10bb1-8e46-7c61-8c86-34349121a53c/exec-7b930708-0674-414c-8b4e-341c9e48b303.png",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "notes": "Native inspected: one ceremonial wrapped hawk representation with natural raptor head/hooked beak, feathered folded wing and intact linen-covered avian body. No human hands/face, no injury; c03 mummified hawk variant."
+      },
+      "worker": "root",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "review_path": "data/gemini/reviews/batch-077.review.json",
+      "reviewed_at": "2026-10-05",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/sokar.png",
+      "native_sha256": "f87e7df4c02504936fc062e0c6194ba4ef0a55512a6e11ccc5edcf4c4d493e5e",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-0",
+        "notes": "Independently viewed native PNG: hooked-beak raptor head above an intact linen-wrapped avian body, feathered folded wing visible beneath bands, resting on stone pedestal. Matches c03 mummified hawk variant; no human hands, injury, borrowed crown or luminous effects.",
+        "native_sha256": "f87e7df4c02504936fc062e0c6194ba4ef0a55512a6e11ccc5edcf4c4d493e5e",
+        "reviewed_at": "2026-10-05T13:12:24.533855+00:00"
+      },
+      "independent_visual_review": {
+        "verdict": "pass",
+        "reviewer": "worker-0",
+        "notes": "Independently viewed native PNG: hooked-beak raptor head above an intact linen-wrapped avian body, feathered folded wing visible beneath bands, resting on stone pedestal. Matches c03 mummified hawk variant; no human hands, injury, borrowed crown or luminous effects.",
+        "native_sha256": "f87e7df4c02504936fc062e0c6194ba4ef0a55512a6e11ccc5edcf4c4d493e5e",
+        "reviewed_at": "2026-10-05T13:12:24.533855+00:00"
+      }
+    }
+  ],
+  "presentation_revision": {
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/sokar.json",
+    "native_sha256": "dcc6683b85c066064c3e4be18ca05ea9e4ad034eb265431e6adaeab40779c66b",
+    "old_url": "/assets/art/sokar-verified.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/sokar.png",
+    "old_webp_sha256": "78d8b2b7387f66d28583dd4e0c422b324befc1b9ebe55d68c9d05964fe54e17a",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+    "basis_claim_ids": [
+      "sokar-c01",
+      "sokar-c03",
+      "sokar-c06"
+    ]
+  },
+  "url": "/assets/art/sokar-presentation-revision-nama-besar.webp",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "9bd60e3106560d7c303ee4e136e657f7c6b7770e893611ae3ba19876584fbfe0",
+  "revision_generator": "codex",
+  "artistic_changes": [
+    "Low-angle framing, painterly materials and environmental color are artistic rendering.",
+    "Effects are limited to the cited domains, deeds, attributes or iconography; natural light and scale supply presence where no elemental ability is documented."
+  ]
 }

@@ -3,7 +3,8 @@ import assert from 'node:assert/strict';
 import { copyFileSync, readdirSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { resolve } from 'node:path';
-import { root, directory, ledgerPath, read, save, hash, validateRevision, assertBaseline, existing } from './artwork-presentation-lib.mjs';
+import { root, read, save, hash, validateRevision, assertBaseline, existing, revisionArgs, assetPath } from './artwork-presentation-lib.mjs';
+const { revision: revisionName, directory, ledgerPath } = revisionArgs();
 
 const ledger = read(ledgerPath);
 assertBaseline(ledger, read('assets/art/verified-manifest.json'));
@@ -15,22 +16,25 @@ for (const item of ledger.items) {
   if (!existing(receiptPath)) continue;
   const receipt = read(receiptPath);
   if (receipt.status !== 'reviewed' || receipt.root_visual_review?.verdict !== 'pass') continue;
-  const selectedHash = validateRevision(receipt, item);
+  const selectedHash = validateRevision(receipt, item, { revision: revisionName });
   const manifestBefore = read('assets/art/verified-manifest.json');
   const active = manifestBefore.artworks[item.slug];
   // Retain original batch directory contracts used by existing audits.
-  const oldFolder = resolve(root, item.old_artwork.original_file, '..');
+  const oldFolder = item.old_artwork.original_file ? resolve(assetPath(item.old_artwork.original_file), '..') : '';
   const generatedRoot = resolve(root, 'data/artwork-generated') + '/';
-  const selected = oldFolder.startsWith(generatedRoot)
+  const selected = revisionName === '1000' && oldFolder.startsWith(generatedRoot)
     ? resolve(oldFolder, `${item.slug}-mythic-presence.png`) : resolve(root, receipt.original_file);
+  const suffix = revisionName === '1000'
+    ? (item.old_artwork.batch === 'regeneration-139' ? 'regeneration-139-mythic-presence' : 'mythic-presence')
+    : `presentation-revision-${revisionName}`;
   // Registration may have succeeded immediately before an interrupted metadata write.
   const resuming = (active.presentation_revision?.ledger === ledgerPath
     && active.presentation_revision.native_sha256 === selectedHash)
     || (active.original_file === selected && active.prompt === receipt.prompt
-      && active.url.includes('-mythic-presence') && existing(selected) && hash(selected) === selectedHash);
+      && active.url.includes(`-${suffix}`) && existing(selected) && hash(selected) === selectedHash);
   assert(resuming || active.url === item.old_artwork.url, `Active image changed independently: ${item.slug}`);
   if (existing(selected)) assert.equal(hash(selected), selectedHash, 'Never overwrite a native variant');
-  else copyFileSync(resolve(root, receipt.original_file), selected);
+  else copyFileSync(assetPath(receipt.original_file), selected);
   const revision = { ledger: ledgerPath, receipt_path: receiptPath, native_sha256: selectedHash,
     old_url: item.old_artwork.url, old_original_file: item.old_artwork.original_file,
     old_webp_sha256: item.old_webp_sha256, old_native_sha256: item.old_native_sha256,
@@ -45,7 +49,6 @@ for (const item of ledger.items) {
     presentation_revision: revision,
   };
   save('assets/art/verified-prompts.json', prompts);
-  const suffix = item.old_artwork.batch === 'regeneration-139' ? 'regeneration-139-mythic-presence' : 'mythic-presence';
   if (!resuming) execFileSync('python3', ['scripts/register-artwork.py', item.slug, selected, '--reviewed',
     '--asset-suffix', suffix, '--skip-historical-batches', '--review-notes', receipt.visual_review.notes],
   { cwd: root, stdio: 'pipe' });

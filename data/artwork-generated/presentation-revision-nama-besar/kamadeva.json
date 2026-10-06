@@ -1,0 +1,71 @@
+{
+  "revision": "nama-besar",
+  "slug": "kamadeva",
+  "worker": "codex",
+  "tool": "OpenAI built-in image_gen",
+  "status": "reviewed",
+  "generated_at": "2026-10-06T07:59:24.512Z",
+  "prompt": "Edit this Kamadeva image keeping the ordinary youthful human male body, SUGARCANE BOW, flower-tipped arrows, garden and majestic dawn. Remove the unsupported peacock feather and jeweled crown from his head, replacing them with a simple small flower wreath. Add a modest opaque cloth tunic/shawl covering the currently exposed chest and abdomen, keeping natural two-arm two-leg anatomy. No extra weapons, body features, solar halo, elemental power, text or lettering. Retain respectful Hindu god of love and beauty, not Krishna/Cupid or any modern character design.",
+  "depicted_variant": "One majestic youthful human male Hindu god of love, respectfully depicted in fully modest rich flowing robes, holding a clearly SUGARCANE BOW and arrows tipped with FLOWERS rather than metal. Two arms and two legs, ordinary human face, no added wings. Monumental low-angle composition above tiny flowering garden groves, natural warm dawn haze. Flower-tipped arrows and sugarcane segments remain readable; no heart symbols, lettering, nudity, seductive pose or modern Cupid design. No fire or lightning: this is Kamadeva before the Shiva incineration episode.",
+  "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+  "aura": "Flower arrows and radiant natural garden dawn",
+  "review_path": "data/gemini/reviews/batch-072.review.json",
+  "basis_claim_ids": [
+    "kamadeva-c01",
+    "kamadeva-c02"
+  ],
+  "visual_requirements": [
+    {
+      "kind": "anatomy",
+      "description": "One majestic youthful human male Hindu god of love, respectfully depicted in fully modest rich flowing robes, holding a clearly SUGARCANE BOW and arrows tipped with FLOWERS rather than metal. Two arms and two legs, ordinary human face, no added wings. Monumental low-angle composition above tiny flowering garden groves, natural warm dawn haze. Flower-tipped arrows and sugarcane segments remain readable; no heart symbols, lettering, nudity, seductive pose or modern Cupid design. No fire or lightning: this is Kamadeva before the Shiva incineration episode.",
+      "claim_ids": [
+        "kamadeva-c01",
+        "kamadeva-c02"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Flower arrows and radiant natural garden dawn; basis: documented love/beauty domain and iconography",
+      "claim_ids": [
+        "kamadeva-c01",
+        "kamadeva-c02"
+      ]
+    }
+  ],
+  "artistic_choices": [
+    "Low-angle framing, painterly materials and environmental color are artistic rendering.",
+    "Effects are limited to the cited domains, deeds, attributes or iconography; natural light and scale supply presence where no elemental ability is documented."
+  ],
+  "old_url": "/assets/art/kamadeva-verified.webp",
+  "old_webp_sha256": "8d35033ee07a1c6e81c158c7a085dde75409fd9a7aa56d1d7b41061f8b53f6d0",
+  "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/kamadeva.png",
+  "old_native_sha256": null,
+  "historical_native_sha256": "04c986bdfe1fa242a937e03558df381c9bd6be46d4128c9192ce70967b2270ca",
+  "original_file": "data/artwork-generated/presentation-revision-nama-besar/originals/kamadeva.png",
+  "native_sha256": "c19708a503b8a45265bb2bd764a399bd32c1b50bf5a17937d4cbba0f73580205",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-0ba0ce36-8e5d-4712-87b6-3785821bab5f.png",
+  "visual_review": {
+    "verdict": "pass",
+    "reviewer": "codex",
+    "notes": "Viewed corrected PNG: ordinary young man with two arms/two legs, visible segmented sugarcane bow and flower-tipped arrows; no wings. Removed unsupported Krishna-like peacock feather/crown and covered chest with opaque tunic. Flower wreath/clothes/garden are artistic ornament; strong natural dawn, no invented elemental effects/text.",
+    "native_sha256": "c19708a503b8a45265bb2bd764a399bd32c1b50bf5a17937d4cbba0f73580205",
+    "reviewed_at": "2026-10-06T07:59:24.512Z"
+  },
+  "rejected_attempts": [
+    {
+      "path": "/home/asadin/.codex/generated_images/01a11023-b3b8-7a91-9464-5e31ad67220c/exec-e1f21fc0-8f50-4d7c-844a-21f8fb9baddd.png",
+      "prompt": "Use case: historical-scene. Asset: ONE square premium painterly naturalistic mythology encyclopedia illustration in Mythics house style. Keep fidelity to the SPECIFIED sourced variant. Dramatic monumental low-angle composition, strong silhouette, rich detail and cinematic contrast. Respect living religions. No text, letters, watermark, caption, logos or borders, no gore or nudity. Never copy film/game/anime/comic designs. One majestic youthful human male Hindu god of love, respectfully depicted in fully modest rich flowing robes, holding a clearly SUGARCANE BOW and arrows tipped with FLOWERS rather than metal. Two arms and two legs, ordinary human face, no added wings. Monumental low-angle composition above tiny flowering garden groves, natural warm dawn haze. Flower-tipped arrows and sugarcane segments remain readable; no heart symbols, lettering, nudity, seductive pose or modern Cupid design. No fire or lightning: this is Kamadeva before the Shiva incineration episode.",
+      "reason": "Unsupported attributes, text-like inscriptions or cultural styling; corrected through a targeted image edit.",
+      "original_file": "data/artwork-generated/presentation-revision-nama-besar/rejected/kamadeva-1.png",
+      "native_sha256": "146d30c31fb3218c9cd292e099e0d9c1b92528f5e24ebf40d9b0a748f3dba7db"
+    }
+  ],
+  "root_visual_review": {
+    "verdict": "pass",
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "c19708a503b8a45265bb2bd764a399bd32c1b50bf5a17937d4cbba0f73580205",
+    "notes": "Youthful love god in rich robes with a sugarcane bow and flower-tipped arrows above a blooming landscape at sunset."
+  },
+  "reviewed_at": "2026-10-06T16:37:27.676685+07:00"
+}

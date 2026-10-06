@@ -3,41 +3,60 @@
   "tool": "OpenAI built-in image_gen",
   "status": "reviewed",
   "slug": "thoth",
-  "prompt": "Use case: scientific-educational. Create ONE square premium painterly Egyptian mythology illustration for THOTH. Select the accepted research's explicit IBIS-HEADED deity form, not the plain seated baboon animal form. One dignified adult male human body with one black-and-white sacred-ibis bird head and a long clearly curved dark ibis beak, exactly two human arms and two legs, modest opaque linen kilt and restrained Egyptian collar. He acts as divine scribe in a solemn ancient Egyptian judgment hall: holding a small blank papyrus writing sheet in one human hand and a reed pen in the other, taking an attentive record beside an ordinary balanced weighing scale in the background. The accepted research supports ibis-headed Thoth, scribal activities and judgment weighing scene; blank paper, precise clothing, pen and scales arrangement are editorial visual staging, not claims of an exact depicted artifact. Close three-quarter full-figure composition, unmistakable animal-headed deity silhouette, quiet wise authority through alert posture, warm natural torch/doorway lighting and rich tactile oil-paint textures. No baboon traits, wings, extra arms, literal floating hieroglyph text, neon aura, glowing envelope, energy ribbons, luminous mist, magical beams, watermark or border.",
-  "generated_file": "/home/asadin/.codex/generated_images/01a10c87-fb56-7d23-b539-5632fd33c070/exec-1f5d7784-4217-493d-9c25-71edcd4bee25.png",
-  "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/thoth-mythic-presence.png",
-  "depicted_variant": "Ibis-headed divine scribe in the judgment weighing hall",
+  "prompt": "Square premium painterly Mythics illustration, original art. THOTH as documented IBIS-HEADED Egyptian deity c04: one realistic sacred ibis bird head with long curved beak upon one fully clothed male human body, two human arms and two legs, richly textured full linen garments. Stern serene wisdom and commanding grand silhouette, elegant single reed pen in one hand, completely BLANK unrolled papyrus in other as scribal presiding role c07,c10. Lunar domain c01: colossal brilliant MOON above temple landscape, powerful cool silver moonlight flooding ibis face and robe; no glowing letters. Low-angle monumental cinematic composition, tiny Egyptian architecture distant below and dark immense sky, warm natural brazier lighting as ordinary scene light reflecting gold accessories, dark blue/silver palette. NO baboon mixed into ibis form, no added wings horns heads or extra limbs. No magic rays or new powers, no writing hieroglyphs text watermark logos border, fully clothed no gore. Avoid film game anime comics designs.",
+  "generated_file": "/home/asadin/.codex/generated_images/01a11022-a25f-75f1-b970-b3e8a8435ae7/exec-060f7e47-ad0c-4c39-a49d-0840ad66ed0f.png",
+  "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/thoth.png",
+  "depicted_variant": "Egyptian ibis-headed Thoth presiding over lunar wisdom and writing.",
   "basis_claim_ids": [
-    "thoth-c01",
     "thoth-c04",
-    "thoth-c06",
+    "thoth-c01",
     "thoth-c07",
-    "thoth-c08",
     "thoth-c10"
   ],
   "visual_requirements": [
-    "One ibis-headed male human body with long curved beak",
-    "Two human arms/hands and two human legs",
-    "Writing with reed pen and papyrus beside a weighing scale"
+    {
+      "kind": "anatomy",
+      "description": "One ibis-headed Egyptian deity.",
+      "claim_ids": [
+        "thoth-c04"
+      ]
+    },
+    {
+      "kind": "effect",
+      "description": "Strong lunar atmosphere and moonlight from moon domain.",
+      "claim_ids": [
+        "thoth-c01"
+      ]
+    },
+    {
+      "kind": "setting",
+      "description": "Presiding over writing with blank papyrus.",
+      "claim_ids": [
+        "thoth-c07",
+        "thoth-c10"
+      ]
+    }
   ],
-  "aura": "Wise authority through attentive writing posture, hybrid deity silhouette and warm physical light.",
+  "aura": "Magnificent moonlight for documented lunar domain; cosmic composition without invented attack.",
   "visual_review": {
     "verdict": "pass",
-    "reviewer": "inspect_workspace",
-    "notes": "Viewed native: ibis-headed male deity with curved black beak, human torso and two hands writes on papyrus beside balance scales. Modest linen, normal human legs; temple lighting only, no generic aura or additional limbs."
+    "reviewer": "codex",
+    "notes": "Native inspected: single long-curved-beak ibis head on clothed human body, two human arms/legs with pen and blank papyrus, monumental luminous moon and Egyptian night setting. No writing, baboon blending, extra wings or magical attack. Moonlight grounded in lunar domain.",
+    "native_sha256": "2117cb758f6220f72466d0bb20a7fe3f879a04975edc573237fe7695d00ca3b9",
+    "reviewed_at": "2026-10-06T07:49:35.014Z"
   },
   "reviewed_at": "2026-10-05T13:45:03.072Z",
   "artistic_choices": [
     "Stone plinth and temple courtyard are editorial staging"
   ],
   "review_path": "data/gemini/reviews/batch-043.review.json",
-  "native_sha256": "737a4c1e3601ac2842bc54906a04228be1718506df24a907d07a7bcc06742b3d",
+  "native_sha256": "2117cb758f6220f72466d0bb20a7fe3f879a04975edc573237fe7695d00ca3b9",
   "root_visual_review": {
     "verdict": "pass",
-    "reviewer": "root",
-    "notes": "Inspected native: long curved ibis beak, human male body and hands writing on papyrus; balance scale, feather and judgment figure establish the sourced divine-scribe episode. No extra anatomy or magical glow.",
-    "native_sha256": "737a4c1e3601ac2842bc54906a04228be1718506df24a907d07a7bcc06742b3d",
-    "reviewed_at": "2026-10-05T15:37:43.576224+00:00"
+    "reviewer": "claude",
+    "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+    "native_sha256": "2117cb758f6220f72466d0bb20a7fe3f879a04975edc573237fe7695d00ca3b9",
+    "notes": "Ibis-headed god with scroll and pen before a full moon over a temple city, matching lunar wisdom and writing."
   },
   "presentation_revision_history": [
     {
@@ -76,32 +95,138 @@
         "native_sha256": "b123441d2e6a996b534136e89047508f69b1c0d573c8929d75606c6037d51e77",
         "notes": "Inspected one natural seated baboon, no ibis-human anatomy mixed. Fits c04/c06 seated baboon form."
       }
+    },
+    {
+      "worker": "worker-1",
+      "tool": "OpenAI built-in image_gen",
+      "status": "reviewed",
+      "slug": "thoth",
+      "prompt": "Use case: scientific-educational. Create ONE square premium painterly Egyptian mythology illustration for THOTH. Select the accepted research's explicit IBIS-HEADED deity form, not the plain seated baboon animal form. One dignified adult male human body with one black-and-white sacred-ibis bird head and a long clearly curved dark ibis beak, exactly two human arms and two legs, modest opaque linen kilt and restrained Egyptian collar. He acts as divine scribe in a solemn ancient Egyptian judgment hall: holding a small blank papyrus writing sheet in one human hand and a reed pen in the other, taking an attentive record beside an ordinary balanced weighing scale in the background. The accepted research supports ibis-headed Thoth, scribal activities and judgment weighing scene; blank paper, precise clothing, pen and scales arrangement are editorial visual staging, not claims of an exact depicted artifact. Close three-quarter full-figure composition, unmistakable animal-headed deity silhouette, quiet wise authority through alert posture, warm natural torch/doorway lighting and rich tactile oil-paint textures. No baboon traits, wings, extra arms, literal floating hieroglyph text, neon aura, glowing envelope, energy ribbons, luminous mist, magical beams, watermark or border.",
+      "generated_file": "/home/asadin/.codex/generated_images/01a10c87-fb56-7d23-b539-5632fd33c070/exec-1f5d7784-4217-493d-9c25-71edcd4bee25.png",
+      "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/thoth-mythic-presence.png",
+      "depicted_variant": "Ibis-headed divine scribe in the judgment weighing hall",
+      "basis_claim_ids": [
+        "thoth-c01",
+        "thoth-c04",
+        "thoth-c06",
+        "thoth-c07",
+        "thoth-c08",
+        "thoth-c10"
+      ],
+      "visual_requirements": [
+        "One ibis-headed male human body with long curved beak",
+        "Two human arms/hands and two human legs",
+        "Writing with reed pen and papyrus beside a weighing scale"
+      ],
+      "aura": "Wise authority through attentive writing posture, hybrid deity silhouette and warm physical light.",
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "inspect_workspace",
+        "notes": "Viewed native: ibis-headed male deity with curved black beak, human torso and two hands writes on papyrus beside balance scales. Modest linen, normal human legs; temple lighting only, no generic aura or additional limbs."
+      },
+      "reviewed_at": "2026-10-05T13:45:03.072Z",
+      "artistic_choices": [
+        "Stone plinth and temple courtyard are editorial staging"
+      ],
+      "review_path": "data/gemini/reviews/batch-043.review.json",
+      "native_sha256": "737a4c1e3601ac2842bc54906a04228be1718506df24a907d07a7bcc06742b3d",
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "root",
+        "notes": "Inspected native: long curved ibis beak, human male body and hands writing on papyrus; balance scale, feather and judgment figure establish the sourced divine-scribe episode. No extra anatomy or magical glow.",
+        "native_sha256": "737a4c1e3601ac2842bc54906a04228be1718506df24a907d07a7bcc06742b3d",
+        "reviewed_at": "2026-10-05T15:37:43.576224+00:00"
+      },
+      "presentation_revision_history": [
+        {
+          "worker": "worker-1",
+          "tool": "OpenAI built-in image_gen",
+          "status": "reviewed",
+          "slug": "thoth",
+          "prompt": "Use case: stylized-concept. ONE square premium painterly naturalistic Egyptian mythology illustration of THOTH choosing documented SEATED BABOON form only, no ibis-headed human mixing. One natural baboon sits upright calmly on a plain stone plinth in a quiet Egyptian courtyard, ordinary baboon body/head, two arms with primate hands, two legs, one tail, no human clothing or crown. Full seated body and hands visible. Intelligent solemn watchful expression and dignified posture under natural morning light evoke wisdom patron, beautifully rendered fur and stone. Brown-grey fur and courtyard staging are editorial colours/scene; no claim to a specific historic sculpture. No ibis beak, human face, wings, lunar disc, glowing scroll, glowing aura, neon outline, luminous mist, energy ribbons, scribe companion, text, border, collage or watermark.",
+          "generated_file": "/home/asadin/.codex/generated_images/01a10bb5-700d-7353-9f9c-d44ae9781db4/exec-fd8e6262-021c-4916-9632-8e3bf64a9f80.png",
+          "original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/thoth.png",
+          "depicted_variant": "Seated natural baboon",
+          "basis_claim_ids": [
+            "thoth-c04",
+            "thoth-c06"
+          ],
+          "visual_requirements": [
+            "Seated baboon",
+            "No ibis-human anatomy"
+          ],
+          "aura": "Presence expressed through pose, gaze and natural scene lighting.",
+          "visual_review": {
+            "verdict": "pass",
+            "reviewer": "worker-1",
+            "notes": "Natural seated baboon has two primate hands, feet and tail on a stone plinth. Solemn gaze, courtyard light and no mixed ibis features."
+          },
+          "reviewed_at": "2026-10-05T13:45:03.072Z",
+          "artistic_choices": [
+            "Stone plinth and temple courtyard are editorial staging"
+          ],
+          "review_path": "data/gemini/reviews/batch-043.review.json",
+          "native_sha256": "b123441d2e6a996b534136e89047508f69b1c0d573c8929d75606c6037d51e77",
+          "root_visual_review": {
+            "verdict": "pass",
+            "reviewer": "root",
+            "reviewed_at": "2026-10-05",
+            "native_sha256": "b123441d2e6a996b534136e89047508f69b1c0d573c8929d75606c6037d51e77",
+            "notes": "Inspected one natural seated baboon, no ibis-human anatomy mixed. Fits c04/c06 seated baboon form."
+          }
+        }
+      ],
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-1000.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-1000/thoth.json",
+        "native_sha256": "737a4c1e3601ac2842bc54906a04228be1718506df24a907d07a7bcc06742b3d",
+        "old_url": "/assets/art/thoth-verified.webp",
+        "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/thoth.png",
+        "old_webp_sha256": "1d96c9b2390d473635a31ddabeb40e906b9bdf40024718665d971e6b86f10a70",
+        "old_native_sha256": "b123441d2e6a996b534136e89047508f69b1c0d573c8929d75606c6037d51e77",
+        "rationale": "Earlier image showed a plain baboon. Sources explicitly attest ibis-headed form and divine scribal role in judgment weighing scenes; this makes mythology visible without arbitrary powers.",
+        "basis_claim_ids": [
+          "thoth-c01",
+          "thoth-c04",
+          "thoth-c06",
+          "thoth-c07",
+          "thoth-c08",
+          "thoth-c10"
+        ]
+      },
+      "url": "/assets/art/thoth-mythic-presence.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fb395b198c1ccac099957229d274e7729b4009584ff320a0b9a5623dd6413ad8",
+      "revision_generator": "inspect_workspace",
+      "artistic_changes": [
+        "Exact clothes, jewellery, reed pen, papyrus, hall decorations, supporting human figure and sculptural judgment-hall motifs are editorial staging."
+      ]
     }
   ],
   "presentation_revision": {
-    "ledger": "data/artwork-presentation-revision-1000.json",
-    "receipt_path": "data/artwork-generated/presentation-revision-1000/thoth.json",
-    "native_sha256": "737a4c1e3601ac2842bc54906a04228be1718506df24a907d07a7bcc06742b3d",
-    "old_url": "/assets/art/thoth-verified.webp",
-    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/thoth.png",
-    "old_webp_sha256": "1d96c9b2390d473635a31ddabeb40e906b9bdf40024718665d971e6b86f10a70",
-    "old_native_sha256": "b123441d2e6a996b534136e89047508f69b1c0d573c8929d75606c6037d51e77",
-    "rationale": "Earlier image showed a plain baboon. Sources explicitly attest ibis-headed form and divine scribal role in judgment weighing scenes; this makes mythology visible without arbitrary powers.",
+    "ledger": "data/artwork-presentation-revision-nama-besar.json",
+    "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/thoth.json",
+    "native_sha256": "2117cb758f6220f72466d0bb20a7fe3f879a04975edc573237fe7695d00ca3b9",
+    "old_url": "/assets/art/thoth-mythic-presence.webp",
+    "old_original_file": "/home/asadin/Portfolio/asadin-edu/asadin-mythological-creatures/data/artwork-generated/batch-1000/originals/thoth-mythic-presence.png",
+    "old_webp_sha256": "fb395b198c1ccac099957229d274e7729b4009584ff320a0b9a5623dd6413ad8",
+    "old_native_sha256": null,
+    "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
     "basis_claim_ids": [
-      "thoth-c01",
       "thoth-c04",
-      "thoth-c06",
+      "thoth-c01",
       "thoth-c07",
-      "thoth-c08",
       "thoth-c10"
     ]
   },
-  "url": "/assets/art/thoth-mythic-presence.webp",
+  "url": "/assets/art/thoth-presentation-revision-nama-besar.webp",
   "width": 1254,
   "height": 1254,
-  "sha256": "fb395b198c1ccac099957229d274e7729b4009584ff320a0b9a5623dd6413ad8",
-  "revision_generator": "inspect_workspace",
+  "sha256": "599993a6e61780ad2ee41be861edde66630bee92729ddbd15316746cec346388",
+  "revision_generator": "codex",
   "artistic_changes": [
-    "Exact clothes, jewellery, reed pen, papyrus, hall decorations, supporting human figure and sculptural judgment-hall motifs are editorial staging."
+    "Full linen robes, papyrus and reed pen materialize scribal role; no actual written text.",
+    "Moon in sky and moonlight are domain staging, not a beam weapon or magical alphabet."
   ]
 }

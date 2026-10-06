@@ -169,12 +169,83 @@
     {
       "slug": "ammit",
       "canonical_name": "Ammit",
-      "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Ammit (slug ammit). Precise depicted variant and identifying anatomy: Ammit in Egyptian iconography: ONE crocodile head, lion shoulders and front legs, hippopotamus hindquarters and hind legs, all joined to one four-legged body. Standing in an Egyptian judgment-hall atmosphere. No human torso, no three separate heads, no wings. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
-      "visual_requirements": "Ammit in Egyptian iconography: ONE crocodile head, lion shoulders and front legs, hippopotamus hindquarters and hind legs, all joined to one four-legged body. Standing in an Egyptian judgment-hall atmosphere. No human torso, no three separate heads, no wings.",
+      "prompt": "Edit this existing Ammit illustration. KEEP the exact crocodile head, lion forequarters, hippo hindquarters, four-leg anatomy, powerful pose, dramatic torch lighting and painterly quality. CHANGE all temple surfaces to plain worn stone with NO writing, hieroglyphs, pictograms, text or carved symbols. Remove the Anubis statues in the background and use plain empty stone alcoves instead. No invented body changes or new powers. Square output.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One monstrous Egyptian judgment beast with CROCODILE HEAD, LION FOREQUARTERS and HIPPOPOTAMUS HINDQUARTERS, a single coherent quadruped at the dim threshold of the judgment hall. Powerful crocodile jaws and scaled head; tawny lion front limbs, heavy grey hippo rear body, four legs total. Colossal low-angle creature dominates small pillars, threatening jaws without gore, no humans, no literal hearts or detached organs. No flames or invented magical aura. Torchlight and dusty air heighten dread.",
+          "claim_ids": [
+            "ammit-c01",
+            "ammit-c02",
+            "ammit-c06"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "No supernatural emitted effect; basis: judgment and devouring role represented through threatening presence",
+          "claim_ids": [
+            "ammit-c01",
+            "ammit-c02",
+            "ammit-c06"
+          ]
+        }
+      ],
       "review_path": "data/gemini/reviews/batch-077.review.json",
       "status": "complete",
-      "url": "/assets/art/ammit-verified.webp",
-      "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-9addf5c8-8229-40c9-90bc-bdcd1a29db4b.png"
+      "url": "/assets/art/ammit-presentation-revision-nama-besar.webp",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/ammit.png",
+      "presentation_revision_history": [
+        {
+          "slug": "ammit",
+          "canonical_name": "Ammit",
+          "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Ammit (slug ammit). Precise depicted variant and identifying anatomy: Ammit in Egyptian iconography: ONE crocodile head, lion shoulders and front legs, hippopotamus hindquarters and hind legs, all joined to one four-legged body. Standing in an Egyptian judgment-hall atmosphere. No human torso, no three separate heads, no wings. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
+          "visual_requirements": "Ammit in Egyptian iconography: ONE crocodile head, lion shoulders and front legs, hippopotamus hindquarters and hind legs, all joined to one four-legged body. Standing in an Egyptian judgment-hall atmosphere. No human torso, no three separate heads, no wings.",
+          "review_path": "data/gemini/reviews/batch-077.review.json",
+          "status": "complete",
+          "url": "/assets/art/ammit-verified.webp",
+          "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-9addf5c8-8229-40c9-90bc-bdcd1a29db4b.png"
+        }
+      ],
+      "depicted_variant": "One monstrous Egyptian judgment beast with CROCODILE HEAD, LION FOREQUARTERS and HIPPOPOTAMUS HINDQUARTERS, a single coherent quadruped at the dim threshold of the judgment hall. Powerful crocodile jaws and scaled head; tawny lion front limbs, heavy grey hippo rear body, four legs total. Colossal low-angle creature dominates small pillars, threatening jaws without gore, no humans, no literal hearts or detached organs. No flames or invented magical aura. Torchlight and dusty air heighten dread.",
+      "aura": "No supernatural emitted effect",
+      "basis_claim_ids": [
+        "ammit-c01",
+        "ammit-c02",
+        "ammit-c06"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "codex",
+        "notes": "Viewed corrected PNG: crocodile head, lion forequarters with two paws, thick hippo rear quarters with two hindlegs. Threatening judgment hall and natural torches; no supernatural fire emitted from creature. Unsupported hieroglyphs and other deity statues removed; no gore/text/watermark.",
+        "native_sha256": "984f887a4033bdb9903522940c6c421135367100900611364d42c059a4b43c83",
+        "reviewed_at": "2026-10-06T07:59:23.935Z"
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+        "native_sha256": "984f887a4033bdb9903522940c6c421135367100900611364d42c059a4b43c83",
+        "notes": "One coherent beast with crocodile head, lion forequarters and hippopotamus hindquarters in a torchlit judgment hall; four legs, menacing jaws, no gore."
+      },
+      "native_sha256": "984f887a4033bdb9903522940c6c421135367100900611364d42c059a4b43c83",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/ammit.json",
+        "native_sha256": "984f887a4033bdb9903522940c6c421135367100900611364d42c059a4b43c83",
+        "old_url": "/assets/art/ammit-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-9addf5c8-8229-40c9-90bc-bdcd1a29db4b.png",
+        "old_webp_sha256": "b20d4d8cd848f3d8a70a57aba5b264ae42ec7fc554dde6ad667f00c23b96ded4",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "ammit-c01",
+          "ammit-c02",
+          "ammit-c06"
+        ]
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c434df8769f10fa4dc0538f3f95b3f91d19d2cd2b9780228538449e42dcff992"
     },
     {
       "slug": "amphiptere",
@@ -249,12 +320,86 @@
     {
       "slug": "apophis",
       "canonical_name": "Apophis",
-      "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Apophis (slug apophis). Precise depicted variant and identifying anatomy: Apophis/Apep, one immense Egyptian chaos serpent with a continuous scaled snake body, one snake head and no limbs, coiling in a dark desert river landscape. No wings, no cobra crown, no additional heads or European dragon features. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
-      "visual_requirements": "Apophis/Apep, one immense Egyptian chaos serpent with a continuous scaled snake body, one snake head and no limbs, coiling in a dark desert river landscape. No wings, no cobra crown, no additional heads or European dragon features.",
+      "prompt": "Square premium original painterly ancient Egyptian APOPHIS APEP chaos deity c01,c03: ONE terrifying colossal SERPENT with ONE natural snake head TWO eyes, one enormous limbless coiled body, no horns wings legs crown or multiple heads. Its documented MAGICAL GAZE overwhelms Ra c08: extremely intense luminous amber eyes staring directly toward viewer, oppressive focused gaze, eye light subtly catching scales and natural night mist; NO laser beams, no stone victims, no petrification since not his power. Vast dark coils dominate rocky desert mountain before dawn c07, tiny distant cliffs make scale immense, ultra-low camera close serpentface, impending primordial chaos through huge silhouette and crushing dark-space composition. Cold faint horizon dawn against deep ink/bronze scales and amber eyes, naturalistic rich painterly detail. No fiery darts which belong to opponent Ra, no fire breath gore humanvictims writing text logos watermark border or film/game/anime/comic designs.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "One great serpent Apophis without added limbs or horns.",
+          "claim_ids": [
+            "apophis-c01"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Overwhelming magical gaze.",
+          "claim_ids": [
+            "apophis-c08"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Before-dawn desert mountain scene.",
+          "claim_ids": [
+            "apophis-c07"
+          ]
+        }
+      ],
       "review_path": "data/gemini/reviews/batch-077.review.json",
       "status": "complete",
-      "url": "/assets/art/apophis-verified.webp",
-      "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-c15352ce-c407-47f0-81c4-6314f1f83727.png"
+      "url": "/assets/art/apophis-presentation-revision-nama-besar.webp",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/apophis.png",
+      "presentation_revision_history": [
+        {
+          "slug": "apophis",
+          "canonical_name": "Apophis",
+          "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Apophis (slug apophis). Precise depicted variant and identifying anatomy: Apophis/Apep, one immense Egyptian chaos serpent with a continuous scaled snake body, one snake head and no limbs, coiling in a dark desert river landscape. No wings, no cobra crown, no additional heads or European dragon features. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
+          "visual_requirements": "Apophis/Apep, one immense Egyptian chaos serpent with a continuous scaled snake body, one snake head and no limbs, coiling in a dark desert river landscape. No wings, no cobra crown, no additional heads or European dragon features.",
+          "review_path": "data/gemini/reviews/batch-077.review.json",
+          "status": "complete",
+          "url": "/assets/art/apophis-verified.webp",
+          "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-c15352ce-c407-47f0-81c4-6314f1f83727.png"
+        }
+      ],
+      "depicted_variant": "Great serpent chaos deity Apophis with overwhelming magical gaze.",
+      "aura": "Magical oppressive gaze c08, giant night serpent scale.",
+      "basis_claim_ids": [
+        "apophis-c01",
+        "apophis-c08",
+        "apophis-c07"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "codex",
+        "notes": "Native inspected: one huge limbless coiled snake, one head with two intensely amber eyes and focused gaze; no horns or other anatomy. Dark before-dawn mountain setting, no invented fire breath, petrification victims, laser beams, text watermark or gore.",
+        "native_sha256": "7d6d327e03802a704868051edc18d00c2bbbe855b6a740d3cda724b5df310b4b",
+        "reviewed_at": "2026-10-06T08:28:37.610Z"
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+        "native_sha256": "7d6d327e03802a704868051edc18d00c2bbbe855b6a740d3cda724b5df310b4b",
+        "notes": "Colossal black serpent coiled over a pre-dawn mountain landscape with burning golden eyes conveying the overwhelming gaze; no limbs or horns."
+      },
+      "native_sha256": "7d6d327e03802a704868051edc18d00c2bbbe855b6a740d3cda724b5df310b4b",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/apophis.json",
+        "native_sha256": "7d6d327e03802a704868051edc18d00c2bbbe855b6a740d3cda724b5df310b4b",
+        "old_url": "/assets/art/apophis-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-c15352ce-c407-47f0-81c4-6314f1f83727.png",
+        "old_webp_sha256": "b2f1979b9c0a259a32c0817101d3b786a9a17680370c1b7eaf8ddfba1c03f751",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "apophis-c01",
+          "apophis-c08",
+          "apophis-c07"
+        ]
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0042d7e7e7ca3d64594f5c20cd9f506e7f0001184fd59f61d6ae08d1b1fbc5bb"
     },
     {
       "slug": "asena",
@@ -535,12 +680,80 @@
     {
       "slug": "bigfoot",
       "canonical_name": "Bigfoot",
-      "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Bigfoot (slug bigfoot). Precise depicted variant and identifying anatomy: Bigfoot: one very tall broad ape-like biped, entirely covered in dark-brown hair with a recognizably apelike face, two arms and two feet, walking upright in Pacific Northwest conifer woods. Natural coarse fur, no horns, no claws added, no clothing. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
-      "visual_requirements": "Bigfoot: one very tall broad ape-like biped, entirely covered in dark-brown hair with a recognizably apelike face, two arms and two feet, walking upright in Pacific Northwest conifer woods. Natural coarse fur, no horns, no claws added, no clothing.",
+      "prompt": "Square premium painterly original Bigfoot folklore illustration, not evidence of existence. One imposing EIGHT-FOOT-TALL HAIR-COVERED APELIKE BIPED with ONE head TWO arms TWO legs and enormous bare feet making oversized footprints bigfoot-c03, in rugged Pacific Northwest conifer forest c01. Creature rises tall beside normal trees, close ultra-low-angle camera makes strong huge foreground silhouette but actual anatomical scale is eight feet not mountain giant. Dense dark brown hair, intelligent elusive wary eyes, calm nonaggressive restrained posture c04, not snarling killer. One arm gently moving aside ordinary branch, large feet planted in damp earthy tracks. Cinematic late natural sunlight and deep shadow in immense old forest, rich realistic painterly hair texture. No wings horns extra anatomy, no magic fire glow or invented powers, no human victim, text logo watermark border nudity gore or film/game/anime/comic design.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Hair-covered apelike biped up to eight feet tall with large footprints.",
+          "claim_ids": [
+            "bigfoot-c03"
+          ]
+        },
+        {
+          "kind": "setting",
+          "description": "Wild North American forest, shy and nonaggressive manner.",
+          "claim_ids": [
+            "bigfoot-c01",
+            "bigfoot-c04"
+          ]
+        }
+      ],
       "review_path": "data/gemini/reviews/batch-046.review.json",
       "status": "complete",
-      "url": "/assets/art/bigfoot-verified.webp",
-      "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-7a57a9b4-f8cc-4e95-9fbd-2bef564de8a6.png"
+      "url": "/assets/art/bigfoot-presentation-revision-nama-besar.webp",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/bigfoot.png",
+      "presentation_revision_history": [
+        {
+          "slug": "bigfoot",
+          "canonical_name": "Bigfoot",
+          "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Bigfoot (slug bigfoot). Precise depicted variant and identifying anatomy: Bigfoot: one very tall broad ape-like biped, entirely covered in dark-brown hair with a recognizably apelike face, two arms and two feet, walking upright in Pacific Northwest conifer woods. Natural coarse fur, no horns, no claws added, no clothing. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
+          "visual_requirements": "Bigfoot: one very tall broad ape-like biped, entirely covered in dark-brown hair with a recognizably apelike face, two arms and two feet, walking upright in Pacific Northwest conifer woods. Natural coarse fur, no horns, no claws added, no clothing.",
+          "review_path": "data/gemini/reviews/batch-046.review.json",
+          "status": "complete",
+          "url": "/assets/art/bigfoot-verified.webp",
+          "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-7a57a9b4-f8cc-4e95-9fbd-2bef564de8a6.png"
+        }
+      ],
+      "depicted_variant": "Reported tall hairy apelike biped of Pacific Northwest forests, shy nonaggressive folklore portrayal.",
+      "aura": "Large looming silhouette and immense footprints, no undocumented supernatural effects.",
+      "basis_claim_ids": [
+        "bigfoot-c03",
+        "bigfoot-c01",
+        "bigfoot-c04"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "codex",
+        "notes": "Native inspected: one hairy apelike biped with exactly two arms/legs and one head, large bare feet with muddy footprint, coherent hair-covered body. Wary nonaggressive gaze, forest scale around eight feet and cinematic low angle. No invented horns/wings/powers, text or watermark.",
+        "native_sha256": "812804c4b566567bd314078eff5bbc6fc07523c1f45769d64ea0ec9fb0be15f1",
+        "reviewed_at": "2026-10-06T07:59:29.996Z"
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+        "native_sha256": "812804c4b566567bd314078eff5bbc6fc07523c1f45769d64ea0ec9fb0be15f1",
+        "notes": "Hair-covered apelike biped about eight feet tall in a Pacific Northwest forest with large footprints in the mud; shy, non-aggressive posture."
+      },
+      "native_sha256": "812804c4b566567bd314078eff5bbc6fc07523c1f45769d64ea0ec9fb0be15f1",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/bigfoot.json",
+        "native_sha256": "812804c4b566567bd314078eff5bbc6fc07523c1f45769d64ea0ec9fb0be15f1",
+        "old_url": "/assets/art/bigfoot-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-7a57a9b4-f8cc-4e95-9fbd-2bef564de8a6.png",
+        "old_webp_sha256": "aaa0794d4820b411b2ee8b986e9377203240a05486479b7cb433ca9172f226e9",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "bigfoot-c03",
+          "bigfoot-c01",
+          "bigfoot-c04"
+        ]
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "71d89b4d41d800f8b37749dee7d6f2d90916ed5a3594675dbc63f02b4a639a2d"
     },
     {
       "slug": "bixi",
@@ -903,12 +1116,83 @@
     {
       "slug": "chimera-mythology",
       "canonical_name": "Chimera (mythology)",
-      "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Chimera (mythology) (slug chimera-mythology). Precise depicted variant and identifying anatomy: The Greek Chimera: ONE lion body with FOUR lion legs and exactly THREE different heads: a LION head at the front, a GOAT head rising from its upper back, and a SNAKE head at the END OF ITS SERPENT TAIL. Greek rocky landscape. No extra separate body, no bat wings. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
-      "visual_requirements": "The Greek Chimera: ONE lion body with FOUR lion legs and exactly THREE different heads: a LION head at the front, a GOAT head rising from its upper back, and a SNAKE head at the END OF ITS SERPENT TAIL. Greek rocky landscape. No extra separate body, no bat wings.",
+      "prompt": "Square premium original painterly Greek Chimera myth illustration. EXACTLY THREE distinct heads: fierce LION head at front, GOAT head rising from upper back, SERPENT head at the end of the long snake tail. ONE coherent massive feline quadruped body, exactly four lion legs, no wings, no extra heads. Source three-headed lion-goat-serpent hybrid chimera-mythology-c02,c03,c11. Lion front head breathes an enormous searing fire plume c01, visibly powerful fire lights fur scales and rocky hillside. A terrifying monumental monster ravaging Lycian hills, low close camera, huge silhouette with all THREE heads spatially readable and separated, tiny distant hill landscape for scale, fire and dark twilight contrast, rich painterly naturalism. Do not turn goat head into horns on lion; serpent head only at tail tip, three heads total. No second monster, no gore, text lettering watermark logos borders or film/game/anime/comic design.",
+      "visual_requirements": [
+        {
+          "kind": "anatomy",
+          "description": "Exactly three heads: lion front, goat rising from back, serpent head at tail end; one hybrid lion/goat/serpent body.",
+          "claim_ids": [
+            "chimera-mythology-c02",
+            "chimera-mythology-c03",
+            "chimera-mythology-c11"
+          ]
+        },
+        {
+          "kind": "effect",
+          "description": "Forceful fire-breathing flame.",
+          "claim_ids": [
+            "chimera-mythology-c01"
+          ]
+        }
+      ],
       "review_path": "data/gemini/reviews/batch-043.review.json",
       "status": "complete",
-      "url": "/assets/art/chimera-mythology-verified.webp",
-      "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-37a4703b-52e6-4fe4-91d1-1bba0c779d9b.png"
+      "url": "/assets/art/chimera-mythology-presentation-revision-nama-besar.webp",
+      "original_file": "/home/asadin/Projects/asadin-mythological-creatures/data/artwork-generated/presentation-revision-nama-besar/originals/chimera-mythology.png",
+      "presentation_revision_history": [
+        {
+          "slug": "chimera-mythology",
+          "canonical_name": "Chimera (mythology)",
+          "prompt": "Use case: scientific-educational. Asset type: ONE individual editorial mythology encyclopedia illustration for Mythics. Creature entry: Chimera (mythology) (slug chimera-mythology). Precise depicted variant and identifying anatomy: The Greek Chimera: ONE lion body with FOUR lion legs and exactly THREE different heads: a LION head at the front, a GOAT head rising from its upper back, and a SNAKE head at the END OF ITS SERPENT TAIL. Greek rocky landscape. No extra separate body, no bat wings. Style: detailed painterly illustrated folklore book, believable materials and readable anatomy, restrained copper and forest-green atmosphere while preserving the specified body colors. Composition: square canvas, central subject, essential distinguishing anatomy fully visible and unobscured, comfortably inside all image edges. Accuracy constraints: follow ONLY this specified variant; do not merge anatomical variants or add features of other creatures. No text, letters, captions, decorative border, logo or watermark. No gore, sexualized pose, or nudity. Clothing where specified is a modest artistic treatment. Contemporary AI artistic interpretation, not a documentary photograph.",
+          "visual_requirements": "The Greek Chimera: ONE lion body with FOUR lion legs and exactly THREE different heads: a LION head at the front, a GOAT head rising from its upper back, and a SNAKE head at the END OF ITS SERPENT TAIL. Greek rocky landscape. No extra separate body, no bat wings.",
+          "review_path": "data/gemini/reviews/batch-043.review.json",
+          "status": "complete",
+          "url": "/assets/art/chimera-mythology-verified.webp",
+          "original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-37a4703b-52e6-4fe4-91d1-1bba0c779d9b.png"
+        }
+      ],
+      "depicted_variant": "Three-headed lion/goat/serpent Chimera with documented fiery breath.",
+      "aura": "Huge breath of fire from documented fire-breathing hybrid.",
+      "basis_claim_ids": [
+        "chimera-mythology-c02",
+        "chimera-mythology-c03",
+        "chimera-mythology-c11",
+        "chimera-mythology-c01"
+      ],
+      "visual_review": {
+        "verdict": "pass",
+        "reviewer": "codex",
+        "notes": "Native inspected: exactly three separated lion/goat/snake heads, goat head from back, snake head at tail end; four feline legs and one coherent body. Strong fiery breath exits lion mouth. No added wings, extra heads, text/watermark or gore.",
+        "native_sha256": "02a53f86fba9cf5ca16e2200538abfbfccce7818b18a18b84492b3af1dad0047",
+        "reviewed_at": "2026-10-06T07:53:16.753Z"
+      },
+      "root_visual_review": {
+        "verdict": "pass",
+        "reviewer": "claude",
+        "reviewed_at": "2026-10-06T16:37:27.676685+07:00",
+        "native_sha256": "02a53f86fba9cf5ca16e2200538abfbfccce7818b18a18b84492b3af1dad0047",
+        "notes": "Lion body breathing a strong jet of fire, a goat head rising from the back and a serpent-headed tail: exactly three heads as documented."
+      },
+      "native_sha256": "02a53f86fba9cf5ca16e2200538abfbfccce7818b18a18b84492b3af1dad0047",
+      "presentation_revision": {
+        "ledger": "data/artwork-presentation-revision-nama-besar.json",
+        "receipt_path": "data/artwork-generated/presentation-revision-nama-besar/chimera-mythology.json",
+        "native_sha256": "02a53f86fba9cf5ca16e2200538abfbfccce7818b18a18b84492b3af1dad0047",
+        "old_url": "/assets/art/chimera-mythology-verified.webp",
+        "old_original_file": "/home/asadin/.codex/generated_images/01a0feb8-660a-7b61-bf6c-37b6690d0c85/exec-37a4703b-52e6-4fe4-91d1-1bba0c779d9b.png",
+        "old_webp_sha256": "43031767d06f22b38d187206a579b9b87efed334f7ebd155d41555bb736ea79c",
+        "old_native_sha256": null,
+        "rationale": "Big names (major gods, archangels, demon princes, primordial monsters, famous literary beings) must look imposing and powerful: an epic, awe-inspiring or terrifying presence that matches their standing in the tradition.",
+        "basis_claim_ids": [
+          "chimera-mythology-c02",
+          "chimera-mythology-c03",
+          "chimera-mythology-c11",
+          "chimera-mythology-c01"
+        ]
+      },
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6d6f84243022813f58a872638df221b128f3540476bede657e114c0eb99eea0c"
     },
     {
       "slug": "chonchon",
