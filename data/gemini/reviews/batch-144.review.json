@@ -1,11 +1,12 @@
 {
   "batch_id": "batch-144",
-  "checked_at": "2026-10-06T06:34:55.766Z",
+  "checked_at": "2026-10-06T14:55:48.372Z",
   "files": [
     "batch-144.md",
     "batch-144-fix-1.md",
     "batch-144-fix-2.md",
-    "batch-144-fix-3.md"
+    "batch-144-fix-3.md",
+    "batch-144-fix-4.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -52,20 +53,15 @@
     },
     {
       "slug": "pombero",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-4.md",
+      "entry_sha256": "2eb55eaaba0a03b3021cfe036d25c6599906c1451023abbef18758794d0dcb3d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 30,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "pombero-c01",
@@ -96,27 +92,291 @@
           "quote": "Pyrague (\"hairy feet\"), Karai Pyhare (\"lord of the night\"), Kuarahy Jára (\"master of the sun\")",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "pombero-c04",
+          "source_id": "pombero-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The legend, with those of other Guarani mythological figures, is an important part of the culture of a region stretching from northeast Argentina north through all of Paraguay into southern Brazil.",
+          "statement_id": "Legendanya, bersama tokoh mitologi Guarani lainnya, menjadi bagian penting budaya suatu wilayah yang membentang dari timur laut Argentina ke utara melintasi seluruh Paraguay hingga Brasil selatan.",
+          "quote": "The legend, along with those of other mythological figures of the Guarani, is an important part of the culture of a region stretching from northeast Argentina northward through the whole of Paraguay and into southern Brazil.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c05",
+          "source_id": "pombero-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He is also known in the mythology of the Mbyá tribe of southern Brazil and the Argentinian province of Misiones, and as Cho Pombé (\"Don Pombero\").",
+          "statement_id": "Ia juga dikenal dalam mitologi suku Mbyá di Brasil selatan dan provinsi Misiones di Argentina, serta disebut Cho Pombé (\"Don Pombero\").",
+          "quote": "Also known in the mythology of the Mbyá tribe of southern Brazil and the Argentinian province of (Misiones) and Cho Pombé (\"Don Pombero\")",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c06",
+          "source_id": "pombero-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Pombero is said to be a primarily nocturnal creature.",
+          "statement_id": "Pombero konon terutama makhluk malam hari.",
+          "quote": "he is said to be a primarily nocturnal creature.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c07",
+          "source_id": "pombero-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In some parts of Argentina he is known mainly by the Spanish translation of his name, Señor de la noche.",
+          "statement_id": "Di beberapa bagian Argentina ia terutama dikenal lewat terjemahan Spanyol namanya, Señor de la noche.",
+          "quote": "In some parts of Argentina he is known primarily by the Spanish translation of his name, Señor de la noche.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c08",
+          "source_id": "pombero-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He is usually described as short and ugly, with very short arms and hairy hands and feet.",
+          "statement_id": "Ia biasanya digambarkan pendek dan buruk rupa, dengan lengan sangat pendek serta tangan dan kaki berbulu.",
+          "quote": "he is usually described as being short and ugly, with very short arms and hairy hands and feet.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c09",
+          "source_id": "pombero-s1",
+          "host": "en.wikipedia.org",
+          "statement": "His hairy feet are said to give him the ability to sneak up on people silently.",
+          "statement_id": "Kaki berbulunya konon memberinya kemampuan mendekati orang tanpa suara.",
+          "quote": "His hairy feet are said to give him the ability to sneak up on people silently",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c10",
+          "source_id": "pombero-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Pombero generally dwells in rural areas, in the forest, though he sometimes inhabits an abandoned house, deserted rooms in an occupied home, or empty barns.",
+          "statement_id": "Pombero umumnya tinggal di daerah pedesaan, di hutan, meski kadang memilih menghuni rumah terbengkalai, kamar kosong di rumah berpenghuni, atau bahkan lumbung kosong.",
+          "quote": "The Pombero generally dwells in rural areas, living in the forest, although he will sometimes choose to inhabit an abandoned house, deserted rooms within an occupied home, or even empty barns.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c11",
+          "source_id": "pombero-s1",
+          "host": "en.wikipedia.org",
+          "statement": "As a forest dweller, the Pombero is said to imitate the sounds of various forest creatures, especially birdsong.",
+          "statement_id": "Sebagai penghuni hutan, Pombero konon dapat menirukan suara berbagai makhluk hutan, terutama kicau burung.",
+          "quote": "As a forest dweller, the Pombero is said to be able to imitate the sounds of various forest creatures. Most specifically it is believed that the Pombero can imitate birdsong",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c12",
+          "source_id": "pombero-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A common element of the myth in various Guaraní-based societies is that the Pombero protects birds from children who hunt them with slingshots.",
+          "statement_id": "Unsur yang umum dalam mitos di berbagai masyarakat berbasis Guaraní adalah bahwa Pombero melindungi burung dari anak-anak yang memburunya dengan ketapel.",
+          "quote": "One common aspect of the myth among various Guaraní based societies is that the Pombero protects the birds from children who hunt them with slingshots.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c13",
+          "source_id": "pombero-s1",
+          "host": "en.wikipedia.org",
+          "statement": "His favourite activities include setting cattle loose, stealing eggs, chicken and honey, frightening horses so they throw their riders, and scattering corn, rice or other provisions.",
+          "statement_id": "Kegemarannya antara lain melepaskan ternak, mencuri telur, ayam, dan madu, menakuti kuda hingga penunggangnya terlempar, serta menebar jagung, beras, atau bekal lain.",
+          "quote": "Among his favourite activities are setting loose cattle, stealing eggs, chicken and honey, frightening horses and causing them to throw their riders off, as well as scattering corn, rice, or other provisions.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c14",
+          "source_id": "pombero-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Pombero is generally viewed as a harmless troublemaker.",
+          "statement_id": "Pombero umumnya dipandang sebagai pembuat onar yang tidak berbahaya.",
+          "quote": "The Pombero is generally viewed as a harmless troublemaker.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c15",
+          "source_id": "pombero-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Pombero is hard, if not impossible, to detect because of his silent movements and other supernatural abilities, such as turning invisible or squeezing through impossibly narrow spaces.",
+          "statement_id": "Pombero sulit, bahkan hampir mustahil, dideteksi karena geraknya yang senyap dan kemampuan gaib lain, seperti menjadi tak terlihat atau menyelinap melalui celah yang mustahil sempit.",
+          "quote": "The Pombero is difficult, if not impossible, to detect due to his silent movements as well as other supernatural abilities, such as being able to turn invisible, squeeze through impossibly narrow spaces, or other such feats.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c16",
+          "source_id": "pombero-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is said one can keep the Pombero from mischief by leaving gifts, above all cigars and rum, though honey is also an acceptable offering.",
+          "statement_id": "Konon orang dapat mencegah Pombero berbuat usil dengan meninggalkan hadiah untuknya, terutama cerutu dan rum, meski madu juga persembahan yang diterima.",
+          "quote": "It is said that one can keep the Pombero from engaging in such mischief by leaving gifts out for him, most specifically cigars and rum, though honey is also an acceptable offering.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c17",
+          "source_id": "pombero-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Pombero tends to be the most widespread and pervasive mythological figure among Guaraní-speaking cultures today.",
+          "statement_id": "Pombero cenderung menjadi tokoh mitologi yang paling tersebar dan meresap di antara budaya penutur Guaraní saat ini.",
+          "quote": "The Pombero tends to be the most widespread and pervasive of mythological figures among Guaraní speaking cultures today.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c18",
+          "source_id": "pombero-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Another figure of Guaraní mythology, Kurupi, is blamed in a similar way for unexpected or unexplained pregnancies.",
+          "statement_id": "Tokoh lain mitologi Guaraní, Kurupi, disalahkan dengan cara serupa atas kehamilan yang tak terduga atau tak terjelaskan.",
+          "quote": "Another character from Guaraní mythology, Kurupi, is blamed in a similar manner for unexpected or unexplained pregnancies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c19",
+          "source_id": "pombero-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In November 2020, Paraguayan game developer Inside Studios launched the video game \"Pombero – The Lord of Night\", which received mixed criticism.",
+          "statement_id": "Pada November 2020, pengembang gim Paraguay Inside Studios meluncurkan gim video \"Pombero – The Lord of Night\" yang menuai kritik beragam.",
+          "quote": "In November 2020, Paraguayan game developer Inside Studios launched the video game \"Pombero – The Lord of Night\", receiving mixed criticism.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c20",
+          "source_id": "pombero-s2",
+          "host": "www.portalguarani.com",
+          "statement": "The Pombero is the best-known duende (spirit being) in Paraguay, especially in the Guairá and Caazapá area.",
+          "statement_id": "Pombero adalah duende (makhluk halus) yang paling dikenal di Paraguay, terutama di kawasan Guairá dan Caazapá.",
+          "quote": "POMBÉRO es el duende más conocido en Paraguay, especialmente en la zona del Guairá y Caazapá.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c21",
+          "source_id": "pombero-s2",
+          "host": "www.portalguarani.com",
+          "statement": "He is the spirit of the night who whistles in the winds and can exactly imitate many animals, such as the horse, dog, hen, cow and especially chicks.",
+          "statement_id": "Ia adalah genius (roh) malam yang bersiul di angin dan dapat menirukan dengan tepat banyak hewan, seperti kuda, anjing, ayam, sapi, dan terutama anak ayam.",
+          "quote": "Es el genio de la noche que silba en los vientos y puede remedar exactamente a numerosos animales, como al caballo, al perro, a la gallina, a la vaca y, especialmente, a los pollitos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c22",
+          "source_id": "pombero-s2",
+          "host": "www.portalguarani.com",
+          "statement": "He loves and defends animals and always lives invisible near people.",
+          "statement_id": "Ia mencintai dan membela hewan, serta selalu hidup tak terlihat di dekat manusia.",
+          "quote": "Ama y defiende a los animales y vive siempre invisible cerca de las personas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c23",
+          "source_id": "pombero-s2",
+          "host": "www.portalguarani.com",
+          "statement": "He is a mischievous spirit, but bad to those who mock him; as revenge he pursues the animals of the house: horses, dogs, cows, hens and so on.",
+          "statement_id": "Ia genius yang jahil, tetapi jahat kepada orang yang mengejeknya; sebagai balasan ia mengejar hewan-hewan di rumah seperti kuda, anjing, sapi, dan ayam.",
+          "quote": "Es un genio travieso, pero malo con los que se burlan de él. Como venganza persigue a los animales de la casa, caballos, perros, vacas, gallinas, etc.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c24",
+          "source_id": "pombero-s2",
+          "host": "www.portalguarani.com",
+          "statement": "It is said one wins his friendship by leaving tobacco and cane liquor in the kitchen or at the window; in return he protects his friend and family, looking after the house and animals.",
+          "statement_id": "Konon orang memenangkan persahabatannya dengan meninggalkan tembakau dan caña (minuman keras tebu) di dapur atau jendela; sebagai balasan ia melindungi sahabat dan keluarganya dengan menjaga rumah dan hewan mereka.",
+          "quote": "se cuenta que uno gana su amistad dejándole en la cocina o en la ventana, tabaco y caña. En honor a esa generosidad amistosa el POMBÉRO ofrece a su amigo y familia una importante protección: le cuida el rancho y los animales.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c25",
+          "source_id": "pombero-s2",
+          "host": "www.portalguarani.com",
+          "statement": "He can turn into an Indian, a log, a creek stone, a dry tree, a camalote or tree roots, or fly off transformed into a carancho when he fears being discovered or is caught by daylight on open ground.",
+          "statement_id": "Ia dapat berubah menjadi orang pribumi, batang kayu, batu sungai, pohon kering, camalote, atau akar pohon, atau terbang dalam wujud carancho ketika takut ketahuan manusia atau didapati cahaya siang di tanah lapang.",
+          "quote": "Puede convertirse en indio, tronco, piedra de arroyo, árbol seco, camalote, raíces de árboles, o puede salir volando transformado en carancho, cuando teme ser descubierto por los hombres o le sorprende la luz del día en campo llano.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c26",
+          "source_id": "pombero-s2",
+          "host": "www.portalguarani.com",
+          "statement": "He only calms down if the person he pursues carries the prayer of Saint Michael the Archangel in a pocket.",
+          "statement_id": "Ia baru tenang jika orang yang dikejarnya membawa doa Santo Mikael Malaikat Agung di saku.",
+          "quote": "Solo se calma si su perseguido porta en el bolsillo la oración de San Miguel Arcángel, el capitán vencedor de todos los espíritus malignos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c27",
+          "source_id": "pombero-s2",
+          "host": "www.portalguarani.com",
+          "statement": "According to scholars, Pombéro means \"agazapado\" (crouching).",
+          "statement_id": "Menurut para peneliti, Pombéro berarti \"agazapado\" (meringkuk).",
+          "quote": "Según los estudiosos, POMBÉRO significa: agazapado.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c28",
+          "source_id": "pombero-s2",
+          "host": "www.portalguarani.com",
+          "statement": "To this day most of the peasantry believes in this night spirit and fears him.",
+          "statement_id": "Hingga kini sebagian besar kaum tani percaya akan keberadaan roh malam ini dan takut kepadanya.",
+          "quote": "Hasta nuestros días, la mayoría del campesinado cree en la existencia de este genio nocturno y le tiene miedo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c29",
+          "source_id": "pombero-s2",
+          "host": "www.portalguarani.com",
+          "statement": "In the interior, when night falls, people out of fear no longer say the name Pombéro but call him Señor de la Noche or Karai Pyhare.",
+          "statement_id": "Di pedalaman, ketika malam tiba, orang karena takut tidak lagi menyebut nama Pombéro, melainkan menyebutnya Señor de la Noche atau Karai Pyhare.",
+          "quote": "En el interior del país cuando llega la noche, la gente, por temor, ya no pronuncia el nombre del POMBÉRO, sino que le llama Señor de la Noche o KARAI PYHARE.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pombero-c30",
+          "source_id": "pombero-s2",
+          "host": "www.portalguarani.com",
+          "statement": "It is even said that during the War of '70 a \"Batallón Pombéro\" appeared, showing how popular this myth was.",
+          "statement_id": "Konon pada Perang '70 muncul sebuah \"Batallón Pombéro\" yang menggambarkan betapa populernya mitos ini.",
+          "quote": "Inclusive se habla que durante la Guerra del 70 apareció un \"Batallón Pombéro\" que pinta la gran popularidad de este mito.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "da4dd522e1d96eadbbe966538c321bcd5b9144233fa1e085c857eab9535e906e"
+      "images": []
     },
     {
       "slug": "pukwudgie",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-4.md",
+      "entry_sha256": "c1ab9364a2c3f91c6f3cf95d53417be4f1efb4176213527dd1ad657cd57de839",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 24,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "pukwudgie-c01",
@@ -147,27 +407,231 @@
           "quote": "But it was originally part of the folktale of the Ojibwe people of the Great Lakes region",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "pukwudgie-c04",
+          "source_id": "pukwudgie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Shape-shifting Pukwudgies in their native form are said to be short, no more than knee-high (2–3 feet), gray-skinned, with very large noses, ears and fingers.",
+          "statement_id": "Pukwudgie yang bisa berubah wujud dalam wujud aslinya konon bertubuh pendek, tidak lebih dari setinggi lutut (2–3 kaki), berkulit abu-abu, dengan hidung, telinga, dan jari yang sangat besar.",
+          "quote": "The shape-shifting Pukwudgies in their native form are said to be short-statured, no more than knee-high (2–3 feet (0.61–0.91 m) tall), and gray-skinned, with very large noses, ears, and fingers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pukwudgie-c05",
+          "source_id": "pukwudgie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They can transform into dangerous beasts (cougars or quilled porcupine), or appear and disappear at will; they may also have the power to harm people by staring them down.",
+          "statement_id": "Mereka dapat berubah menjadi binatang berbahaya (puma atau landak berduri), atau muncul dan menghilang sesuka hati; mereka juga mungkin dapat mencelakai orang dengan menatapnya tajam.",
+          "quote": "But they can transform into dangerous beasts (cougars or quilled porcupine), or appear and disappear at will. They may also have the power to bring harm to people by staring them down.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pukwudgie-c06",
+          "source_id": "pukwudgie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Pukwudgies are said to be the enemies of the culture heroes, the giant Maushop and his wife, Granny Squanit.",
+          "statement_id": "Pukwudgie konon musuh para pahlawan budaya, raksasa Maushop dan istrinya, Nenek Squanit.",
+          "quote": "Pukwudgies are said to be the enemies of culture heroes, the giant Maushop and his wife, Granny Squanit.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pukwudgie-c07",
+          "source_id": "pukwudgie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the Massachusetts Wampanoag myth, Pukwudgies were originally well-intentioned helper spirits, but they were bunglers and their efforts tended to backfire.",
+          "statement_id": "Menurut mitos Wampanoag di Massachusetts, Pukwudgie semula roh penolong yang berniat baik tetapi ceroboh sehingga usahanya sering berbalik merugikan.",
+          "quote": "According to the myth of the Massachusetts Wampanoag, Pukwudgies were originally well-intentioned helper spirits, except they were bunglers and their efforts tended to backfire.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pukwudgie-c08",
+          "source_id": "pukwudgie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "While the Ojibwe are rather dismissive of the Little Folk as little more than pranksters, the Wampanoag warn against disrespecting Pukwudgies lest they fire poisoned arrows, lure victims to their deaths in the forest, push them off cliffs and start fires.",
+          "statement_id": "Orang Ojibwe cenderung menganggap Orang Kecil hanya sebagai penjahil, sedangkan Wampanoag memperingatkan agar tidak bersikap tidak hormat kepada Pukwudgie karena mereka dapat menembakkan panah beracun, memancing korban mati di hutan, mendorong mereka dari tebing, dan menyulut api.",
+          "quote": "Thus while the Ojibwe are rather dismissive of the Little Folk as little more than pranksters, the Wampanoag warn of disrespecting a Pukwudgies lest they fire their poisoned arrows, lure victims to their deaths in the forest, push them off cliffs, start fires",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pukwudgie-c09",
+          "source_id": "pukwudgie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They are also said to attack their victims with short knives and spears, blind them with sand, and kidnap children.",
+          "statement_id": "Mereka juga disebut menyerang korban dengan pisau dan tombak pendek, membutakan korban dengan pasir, dan menculik anak-anak.",
+          "quote": "attack their victims with short knives and spears, use sand to blind their victims, as well as kidnapping children.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pukwudgie-c10",
+          "source_id": "pukwudgie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Ojibwa folktale \"Puck Wudj Ininee\" in Schoolcraft's Algic Researches (1839) describes the origin of the little people, originally a single orphaned boy named Wa-Dais-Ais-Imid (\"He of the Little Shell\") who lived with his sister; he could become invisible.",
+          "statement_id": "Dongeng Ojibwa \"Puck Wudj Ininee\" dalam Algic Researches karya Schoolcraft (1839) menceritakan asal-usul orang-orang kecil, semula seorang anak yatim bernama Wa-Dais-Ais-Imid (\"Dia dari Kerang Kecil\") yang tinggal bersama adiknya; ia dapat menjadi tak terlihat.",
+          "quote": "The Ojibwa folktale in Schoolcraft's Algic Researches (1839) entitled \"Puck Wudj Ininee\" describes the origins of the little people, originally a single orphaned boy named Wa-Dais-Ais-Imid (\"He of the Little Shell\") who lived with his sister. He had the ability to become invisible.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pukwudgie-c11",
+          "source_id": "pukwudgie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Pukwudgie (literally \"person of the wilderness\", \"little wild man of the forest\") is also styled Pukwudgee.",
+          "statement_id": "Pukwudgie (secara harfiah \"orang dari alam liar\", \"manusia liar kecil dari hutan\") juga ditulis Pukwudgee.",
+          "quote": "'person of the wilderness', 'little wild man of the forest'), also styled Pukwudgee",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "pukwudgie-c12",
+          "source_id": "pukwudgie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The term Pukwudgie is not attested as old usage in the Massachusetts area; the local natives did preserve folklore about the little people, but the original name they used in their New England languages is lost to history.",
+          "statement_id": "Istilah Pukwudgie tidak tercatat dipakai sejak lama di wilayah Massachusetts; penduduk asli setempat memang menyimpan cerita tentang orang-orang kecil, tetapi nama asli mereka dalam bahasa New England hilang ditelan sejarah.",
+          "quote": "The term Pukwudgie is not of attested old usage in the Massachusetts area, and although the local natives did had preserved folklore concerning the little people, the original name they were called by in their New England languages is lost to history",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pukwudgie-c13",
+          "source_id": "pukwudgie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Encouraged by the poem's popularity, the name Pukwudgie and notions about them were subsequently \"imported to Massachusetts\".",
+          "statement_id": "Didorong popularitas puisi itu, nama Pukwudgie dan gagasan tentang mereka kemudian \"diimpor ke Massachusetts\".",
+          "quote": "Encouraged by the popularity of the poem, the name of Pukwudgie and notions about them were subsequently \"imported to Massachusetts\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "pukwudgie-c14",
+          "source_id": "pukwudgie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A version of Kwa-sind being killed by the \"Puk-wudjees\", moving the murder scene to a lake island in Middleboro, Massachusetts, was published in Thomas Weston's History (1906).",
+          "statement_id": "Versi Kwa-sind dibunuh oleh \"Puk-wudjees\" dengan memindahkan tempat pembunuhan ke sebuah pulau danau di Middleboro, Massachusetts, diterbitkan dalam History karya Thomas Weston (1906).",
+          "quote": "A version of Kwa-sind being killed by the \"Puk-wudjees\", displacing the murder scene to a lake island in Middleboro, Massachusetts was published in Thomas Weston's History (1906, detailed under § Literature below)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pukwudgie-c15",
+          "source_id": "pukwudgie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Later, Wampanoag natives crafted tales that deliberately borrowed the \"Pukwudgie\" and retold them for the purpose of Indian cultural awareness.",
+          "statement_id": "Kemudian orang Wampanoag membuat cerita yang sengaja meminjam \"Pukwudgie\" dan menuturkannya kembali demi menumbuhkan kesadaran budaya Indian.",
+          "quote": "Later, Wampanoag natives crafted tales that deliberately borrowed the \"Pukwudgie\", and retold them for the purpose of Indian cultural awareness.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pukwudgie-c16",
+          "source_id": "pukwudgie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The anthology of Cape Cod tales, Elizabeth Reynard's The Narrow Land (1934), included tales contributed by Chief Red Shell (Clarence Wixon), a member of the Mashpee Wampanoag Tribe.",
+          "statement_id": "Antologi cerita sekitar Cape Cod, The Narrow Land karya Elizabeth Reynard (1934), memuat cerita yang disumbangkan Kepala Suku Red Shell (Clarence Wixon), anggota Suku Mashpee Wampanoag.",
+          "quote": "Elizabeth Reynard The Narrow Land (1934), an anthology of tales around Cape Cod, included tales contributed by Chief Red Shell (Clarence Wixon), a member of the Mashpee Wampanoag Tribe.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pukwudgie-c17",
+          "source_id": "pukwudgie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The myth retold in Reynard's anthology later inspired Jean Fritz's children's book The Good Giants and the Bad Pukwudgies (1982).",
+          "statement_id": "Mitos yang dituturkan ulang dalam antologi Reynard kemudian mengilhami buku anak Jean Fritz, The Good Giants and the Bad Pukwudgies (1982).",
+          "quote": "The retold myth in Reynard's anthology later inspired Jean Fritz's children's book, The Good Giants and the Bad Pukwudgies (1982)",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "pukwudgie-c18",
+          "source_id": "pukwudgie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mohegan lore speaks of the Mukheahweesug or Makiawisug as a similar forest spirit.",
+          "statement_id": "Cerita rakyat Mohegan menyebut Mukheahweesug atau Makiawisug sebagai roh hutan yang serupa.",
+          "quote": "The lore among the Mohegan people speak of the Mukheahweesug or Makiawisug as a similar forest spirit.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "pukwudgie-c19",
+          "source_id": "pukwudgie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Among the Mi'kmaq (of Nova Scotia and Prince Edward Island) the equivalent is known as the Mikumwess.",
+          "statement_id": "Di kalangan Mi'kmaq (Nova Scotia dan Pulau Pangeran Edward) padanannya disebut Mikumwess.",
+          "quote": "Among the Mi'kmaq (of Nova Scotia and Prince Edward Island) the equivalent is known as the Mikumwess.",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "pukwudgie-c20",
+          "source_id": "pukwudgie-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Henry Wadsworth Longfellow's poem The Song of Hiawatha (1855), Chapter XVIII, \"The Death of Kwasind\", tells of the death of the giant Kwasind at the hands of the Pukwudgies.",
+          "statement_id": "Puisi The Song of Hiawatha karya Henry Wadsworth Longfellow (1855), Bab XVIII \"The Death of Kwasind\", menceritakan kematian raksasa Kwasind di tangan Pukwudgie.",
+          "quote": "Henry Wadsworth Longfellow's poem The Song of Hiawatha (1855), Chapter XVIII, \"The Death of Kwasind\" tells of the death of the giant Kwasind by the Pukwudgies",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pukwudgie-c21",
+          "source_id": "pukwudgie-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the poem the Puk-Wudjies are called mischievous and envious \"Little People\", fairies and pygmies, who plotted and conspired against Kwasind, whom no man could match.",
+          "statement_id": "Dalam puisi itu, Puk-Wudjies disebut jahil dan iri, \"Orang Kecil\", peri dan kurcaci, yang bersekongkol melawan Kwasind, yang tak tertandingi.",
+          "quote": "No man could compete with Kwasind. But the mischievous Puk-Wudjies, They the envious Little People, They the fairies and the pygmies, Plotted and conspired against him.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pukwudgie-c22",
+          "source_id": "pukwudgie-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the poem the Puk-Wudjies wait armed in their war encampment and hurl pine-cones down on Kwasind, striking his shoulders and his unprotected crown.",
+          "statement_id": "Dalam puisi itu, Puk-Wudjies menunggu bersenjata di perkemahan perang mereka dan melempari Kwasind dengan kerucut pinus hingga mengenai bahu dan kepalanya.",
+          "quote": "In his birch canoe came Kwasind, ... Underneath the war encampment Of the pygmies, the Puk-Wudjies. There they stood, all armed and waiting, Hurled the pine-cones down upon him, Struck him on his brawny shoulders, On his crown defenceless struck him.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pukwudgie-c23",
+          "source_id": "pukwudgie-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The poem's glossary explains Puk-Wudj'ies as \"little wild men of the woods; pygmies\".",
+          "statement_id": "Glosarium puisi itu menerangkan Puk-Wudj'ies sebagai \"manusia liar kecil dari hutan; kurcaci\".",
+          "quote": "Puk-Wudj'ies, little wild men of the woods; pygmies",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "pukwudgie-c24",
+          "source_id": "pukwudgie-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the poem the only weapon that could wound and slay Kwasind was the seed-cone of the pine-tree and the blue cone of the fir-tree.",
+          "statement_id": "Dalam puisi itu, satu-satunya senjata yang dapat melukai dan membunuh Kwasind adalah kerucut biji pohon pinus dan kerucut biru pohon cemara.",
+          "quote": "Now this wondrous strength of Kwasind In his crown alone was seated ... Even there the only weapon That could wound him, that could slay him, Was the seed-cone of the pine-tree, Was the blue cone of the fir-tree.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "5a9a1cfbb9f93dfd7c4bd764ced212c370d86a0d8c33380514cc2f9efe8a4b8f"
+      "images": []
     },
     {
       "slug": "xelhua",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-4.md",
+      "entry_sha256": "186a40bd8c387e9a3b44954acc7756b2e33d7d7a699a37d1385b2570edabfa18",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 21,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "xelhua-c01",
@@ -188,10 +652,199 @@
           "quote": "One of the six giants sons of Mixcoatl, the personification of the Milky Way",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "xelhua-c03",
+          "source_id": "xelhua-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The first-born, the giant Xelhua, of Itzocan and Epatlan, and Cuauquechollan, the cities he founded.",
+          "statement_id": "Putra sulung, raksasa Xelhua, dari Itzocan dan Epatlan, serta Cuauquechollan, kota-kota yang didirikannya.",
+          "quote": "the first-born, the giant Xelhua, of Itzocan and Epatlan, and Cuauquechollan, the cities he founded.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xelhua-c04",
+          "source_id": "xelhua-s2",
+          "host": "elementos.buap.mx",
+          "statement": "The passage quoted in the article says that in the first age there were giants in this country, whom they called tzocuilicxe.",
+          "statement_id": "Dalam kutipan yang dimuat artikel itu disebutkan bahwa pada zaman pertama ada raksasa di negeri ini yang disebut tzocuilicxe.",
+          "quote": "Hubo, en esta primera edad, gigantes en este país, a los que llamaron tzocuilicxe",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xelhua-c05",
+          "source_id": "xelhua-s2",
+          "host": "elementos.buap.mx",
+          "statement": "According to the legend, only seven brothers were saved in the caves of the mountain of Tlalocan.",
+          "statement_id": "Menurut legenda itu, hanya tujuh bersaudara yang selamat di gua-gua gunung Tlalocan.",
+          "quote": "solo siete hermanos se salvaron en las grutas de la montaña del Tlalocan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xelhua-c06",
+          "source_id": "xelhua-s2",
+          "host": "elementos.buap.mx",
+          "statement": "According to the founding legend on a commemorative plaque, Xelhua the giant went to the place later called Cholollan, with great adobes made in Tlalmanalco and passed from hand to hand by a line of men.",
+          "statement_id": "Menurut legenda pendirian pada sebuah plakat peringatan, Xelhua si raksasa pergi ke tempat yang kemudian disebut Cholollan, dengan bata besar buatan Tlalmanalco yang dioper dari tangan ke tangan oleh barisan orang.",
+          "quote": "Xelhua, el gigante, fue al sitio que después se le llamó Cholollan y con grandes adobes fabricados en Tlalmanalco y conducidos de mano en mano por una fila de hombres",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xelhua-c07",
+          "source_id": "xelhua-s2",
+          "host": "elementos.buap.mx",
+          "statement": "According to the legend, he began building the pyramid in memory of the mountain where he was saved; Tonacatecutli, father of all the gods, angered that the work threatened to reach the clouds, hurled celestial fire and a toad-shaped stone that killed many of the builders.",
+          "statement_id": "Menurut legenda itu, ia mulai membangun piramida untuk mengenang gunung tempat ia diselamatkan; Tonacatecutli, bapa semua dewa, marah karena bangunan itu mengancam mencapai awan, lalu melemparkan api langit dan batu berbentuk katak yang menewaskan banyak pembangun.",
+          "quote": "comenzó a construir la pirámide en memoria de la montaña en que fue salvado. Irritado Tonacatecutli, padre de todos los dioses, que la obra amenazaba con llegar a las nubes lanzó al fuego celeste y con una piedra en forma de sapo mató a muchos de los constructores",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xelhua-c08",
+          "source_id": "xelhua-s2",
+          "host": "elementos.buap.mx",
+          "statement": "According to the legend, giants dwelt on the earth in the time of the flood and many perished submerged in the waters.",
+          "statement_id": "Menurut legenda itu, pada masa air bah raksasa-raksasa tinggal di bumi dan banyak yang tewas tenggelam.",
+          "quote": "en la época del diluvio moraban sobre la tierra los gigantes, muchos perecieron sumergidos en las aguas",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xelhua-c09",
+          "source_id": "xelhua-s2",
+          "host": "elementos.buap.mx",
+          "statement": "According to the passage quoted in the article, one of the seven said to have escaped the flood went to Cholula and began building a tower; the captain's name was Xelua, and he built it to escape in it if the flood came again.",
+          "statement_id": "Menurut kutipan yang dimuat artikel itu, salah satu dari tujuh orang yang konon lolos dari air bah pergi ke Cholula dan mulai membangun sebuah menara; nama kapten itu Xelua, dan ia membangunnya agar dapat menyelamatkan diri bila air bah datang lagi.",
+          "quote": "Uno de aquellos siete, que dicen haber escapado del diluvio, dicen que multiplicándose [...] se fue a Cholula y ahí comenzó edificar una torre que es aquella de la cual ahora aparece la base de ladrillos. El nombre de este capitán era Xelua. La edificaba para, en caso de venir el diluvio otra vez, poder escapar en ella.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "xelhua-c10",
+          "source_id": "xelhua-s2",
+          "host": "elementos.buap.mx",
+          "statement": "According to the passage, when the tower had reached a great height a lightning bolt fell from the sky and destroyed it, killing many people.",
+          "statement_id": "Menurut kutipan itu, ketika menara sudah sangat tinggi, petir jatuh dari langit, merusaknya, dan menewaskan banyak orang.",
+          "quote": "Y estando ya en gran altura, cayó del cielo un rayo y la destruyó matando mucha gente.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "xelhua-c11",
+          "source_id": "xelhua-s2",
+          "host": "elementos.buap.mx",
+          "statement": "According to the passage from an early chronicle, Ilancueitl had six sons; the first was called Gelhua or Xelua, who settled Cuauhquechulan (Huaquechula), Itzucan (Izúcar), Tzepatlan (Epatlán) and Teopantlan.",
+          "statement_id": "Menurut kutipan dari sebuah kronik awal, Ilancueitl memiliki enam anak; yang pertama bernama Gelhua atau Xelua, yang mendirikan permukiman di Cuauhquechulan (Huaquechula), Itzucan (Izúcar), Tzepatlan (Epatlán), dan Teopantlan.",
+          "quote": "Este de su mujer llamada Ilancueitl hobo seis hijos. El primero llamaron Gelhua [...] o Xelua [...] este pobló a Cuauhquechulan (Huaquechula) y a Itzucan (Izúcar), Tzepatlan (Epatlán), Teopantlan",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "xelhua-c12",
+          "source_id": "xelhua-s2",
+          "host": "elementos.buap.mx",
+          "statement": "According to the article, Xelhuan is one of four Nonoalca rulers who migrated from Tula to the Puebla Valley in the early twelfth century.",
+          "statement_id": "Menurut artikel itu, Xelhuan adalah salah satu dari empat penguasa Nonoalca yang bermigrasi dari Tula ke Lembah Puebla pada awal abad ke-12.",
+          "quote": "Xelhuan es uno entre los cuatro gobernantes nonoalcas (Ueuetzin, Quauhtzin, Citlalmacuetzin son los otros), que emigraron desde Tula hacia el Valle de Puebla a principios del siglo XII.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "xelhua-c13",
+          "source_id": "xelhua-s2",
+          "host": "elementos.buap.mx",
+          "statement": "According to the article, in the year 1 tecpal, that is 1116, Xelhua migrates with his people.",
+          "statement_id": "Menurut artikel itu, pada tahun 1 tecpal, yaitu 1116, Xelhua bermigrasi bersama rakyatnya.",
+          "quote": "en un año 1 tecpal, es decir, en 1116, Xelhua emigra con su pueblo",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "xelhua-c14",
+          "source_id": "xelhua-s2",
+          "host": "elementos.buap.mx",
+          "statement": "According to the article, no source says Xelhuan stopped in Cholula except the Códice Vaticano A, which places him as builder of the pyramid in Cholula in the \"improbable\" year 1194.",
+          "statement_id": "Menurut artikel itu, tidak ada sumber yang menyebut Xelhuan berhenti di Cholula kecuali Códice Vaticano A, yang menempatkannya sebagai pembangun piramida di Cholula pada tahun 1194 yang dinilai tidak mungkin.",
+          "quote": "según lo anotó Kirchhoff, ninguna fuente menciona que Xelhuan se detuvo en Cholula salvo el Códice Vaticano A, que lo ubica como constructor de la pirámide en Cholula en la improbable fecha de 1194.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "xelhua-c15",
+          "source_id": "xelhua-s2",
+          "host": "elementos.buap.mx",
+          "statement": "According to the article's author, Xelhuan was not a \"captain\" as narrated by Veytia's legend on the plaque, still less the builder of the Cholula pyramid.",
+          "statement_id": "Menurut penulis artikel, Xelhuan bukan seorang \"kapten\" seperti dikisahkan legenda Veytia pada plakat itu, apalagi pembangun piramida Cholula.",
+          "quote": "Xelhuan no fue, entonces, un “capitán”, como narra la leyenda de Veytia en la placa “conmemorativa de su fundación” en Cholula, siguiendo el Códice Ríos; menos aún el constructor de la pirámide cholulteca",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "xelhua-c16",
+          "source_id": "xelhua-s2",
+          "host": "elementos.buap.mx",
+          "statement": "The article's author concludes that this Nonoalca Chichimeca warrior had a normal stature and was never in the great Cholollan.",
+          "statement_id": "Penulis artikel menyimpulkan bahwa prajurit Nonoalca Chichimeca ini bertubuh normal dan tidak pernah berada di Cholollan yang besar.",
+          "quote": "con seguridad este guerrero nonoalca chichimeca que la HTC dice murió en el camino, quien tuvo una estatura normal, nunca estuvo en la gran Cholollan.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "xelhua-c17",
+          "source_id": "xelhua-s2",
+          "host": "elementos.buap.mx",
+          "statement": "According to the article, they all arrived at the beginning of the twelfth century in a city whose ceremonial center, its pyramid, had already stood for many centuries.",
+          "statement_id": "Menurut artikel itu, mereka semua tiba pada awal abad ke-12 di sebuah kota yang pusat upacaranya, yaitu piramidanya, sudah berabad-abad berdiri.",
+          "quote": "todos ellos llegaron, a comienzos del siglo XII, a una ciudad cuyo centro ceremonial, es decir su pirámide, llevaba ya muchos siglos de haberse erigido.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "xelhua-c18",
+          "source_id": "xelhua-s2",
+          "host": "elementos.buap.mx",
+          "statement": "According to the article, the oral traditions of Cholula's neighborhoods keep attributing the founding of their city to an ancient \"captain\" and \"giants\".",
+          "statement_id": "Menurut artikel itu, tradisi lisan lingkungan Cholula terus menisbahkan saat pendirian kota mereka kepada seorang \"kapten\" dan \"raksasa\" kuno.",
+          "quote": "En las tradiciones orales de los barrios de Cholula, sin embargo, ... se insiste en atribuirle a un “capitán” y a “gigantes” antiguos el momento de la fundación de su ciudad.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xelhua-c19",
+          "source_id": "xelhua-s2",
+          "host": "elementos.buap.mx",
+          "statement": "According to the article, in various neighborhoods of Cholula there are several versions about bones of giants, always described as belonging to \"gentiles\", that keep appearing.",
+          "statement_id": "Menurut artikel itu, di berbagai lingkungan Cholula ada beberapa versi tentang tulang raksasa, selalu digambarkan sebagai milik \"kaum kafir\", yang terus bermunculan.",
+          "quote": "En las tradiciones orales de los barrios de Cholula, sin embargo, ... existen varias versiones, en diversos barrios, sobre los huesos de gigantes, siempre descritos como de “gentiles”, que continúan apareciendo",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "xelhua-c20",
+          "source_id": "xelhua-s3",
+          "host": "aztecglyphs.wired-humanities.org",
+          "statement": "Xelhua or Xelhuan was the name of a figure in Nahua origin stories interpreted as a mythical giant, prince or \"deity\", the son of Ilancueitl, active in the Tehuacan Valley.",
+          "statement_id": "Xelhua atau Xelhuan adalah nama tokoh dalam kisah asal-usul Nahua yang ditafsirkan sebagai raksasa mitos, pangeran, atau \"dewa\", putra Ilancueitl, yang aktif di Lembah Tehuacan.",
+          "quote": "Xelhua or Xelhuan was the name of a figure in Nahua origin stories who has been interpreted as a mythical giant, prince, or \"deity,\" the son of Ilancueitl, and someone active in the Tehuacan Valley.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "xelhua-c21",
+          "source_id": "xelhua-s3",
+          "host": "aztecglyphs.wired-humanities.org",
+          "statement": "He may have climbed Mount Tlaloc to escape a flood, and some attribute to him the organizing of the huge pyramid's construction in Cholula.",
+          "statement_id": "Ia mungkin mendaki Gunung Tlaloc untuk lolos dari banjir, dan sebagian orang menganggapnya pengatur pembangunan piramida besar di Cholula.",
+          "quote": "He may have climbed Mount Tlaloc to escape a flood, and some attribute him with organizing the construction of the huge pyramid in Cholula.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c1c7c389aaa070e2b6fe459a030b90498aa88715e3284f1d5aa22103659398f6"
+      "images": []
     },
     {
       "slug": "aipaloovik",
@@ -1245,20 +1898,15 @@
     },
     {
       "slug": "mboi-tu-i",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-4.md",
+      "entry_sha256": "21ac5f8f8cdb204633477fe73034e24e8391331256e4b56cb72a014b3d573197",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mboi-tu-i-c01",
@@ -1289,27 +1937,121 @@
           "quote": "It is frequently referred to as the ruler and protector of marshes and wetland life",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "mboi-tu-i-c04",
+          "source_id": "mboi-tu-i-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The goddess Arasy cursed Tau, after he kidnapped Kerana, so that all his children would be born at seven months and all would turn into monsters.",
+          "statement_id": "Dewi Arasy mengutuk Tau, setelah ia menculik Kerana, agar semua anaknya lahir pada bulan ketujuh dan semuanya berubah menjadi monster.",
+          "quote": "The goddess Arasy cursed Tau, after he kidnapped Kerana, that all of his children would be born at seven months and that all of them would transform into monsters.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mboi-tu-i-c05",
+          "source_id": "mboi-tu-i-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It has two legs around the torso, the head of a parrot, the body of a serpent, and feathers on the head and back, plus a long, red, forked tongue.",
+          "statement_id": "Ia memiliki dua kaki di sekitar badan, kepala burung beo, tubuh ular, serta bulu di kepala dan punggung, juga lidah panjang, merah, dan bercabang.",
+          "quote": "It has two legs around the torso, the head of a parrot, the body of a serpent, and feathers on the head and back. It also has a long, red, forked tongue.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mboi-tu-i-c06",
+          "source_id": "mboi-tu-i-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is said to have the power to call illnesses and storms upon those who pollute or disrespect the marshes and wetland life.",
+          "statement_id": "Ia disebut berkuasa mendatangkan penyakit dan badai kepada mereka yang mencemari atau tidak menghormati rawa dan kehidupan lahan basah.",
+          "quote": "as has the power to call illnesses and storms upon those that pollute or disrespect these.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mboi-tu-i-c07",
+          "source_id": "mboi-tu-i-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Mbói Tu'ĩ is also used by parents as a bogeyman to warn children not to swim in dangerous backwaters.",
+          "statement_id": "Mbói Tu'ĩ juga dipakai orang tua sebagai tokoh penakut-nakut agar anak tidak berenang di perairan tenang yang berbahaya.",
+          "quote": "Mbói Tu'ĩ  is also used as a Bogeyman by parents to warn children not to swim in dangerous backwater areas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mboi-tu-i-c08",
+          "source_id": "mboi-tu-i-s2",
+          "host": "www.portalguarani.com",
+          "statement": "It is told that in the forest of Tobatí, near the Cavaju hill, there lived a very large snake with a head like a parrot's.",
+          "statement_id": "Konon di hutan Tobatí, dekat bukit Cavaju, ada seekor ular berukuran sangat besar berkepala seperti burung beo.",
+          "quote": "se cuenta que en la selva de Tobatí, cerca del cerro Cavaju, existía una víbora de tamaño muy grande con una cabeza semejante a la del loro.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mboi-tu-i-c09",
+          "source_id": "mboi-tu-i-s2",
+          "host": "www.portalguarani.com",
+          "statement": "This monster was said to crawl along the ground and also to be able to fly at low altitude.",
+          "statement_id": "Dikatakan monster ini merayap di tanah dan juga dapat terbang rendah.",
+          "quote": "Se decía que este monstruo se arrastraba por la tierra y también podía volar a baja altura.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mboi-tu-i-c10",
+          "source_id": "mboi-tu-i-s2",
+          "host": "www.portalguarani.com",
+          "statement": "The fearsome Mbói Tu'ĩ is the second son of Tau and Kerana.",
+          "statement_id": "Mbói Tu'ĩ yang menakutkan adalah putra kedua Tau dan Kerana.",
+          "quote": "Es el temible MBÓI TU’Ĩ segundo hijo de TAU y KERANA.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mboi-tu-i-c11",
+          "source_id": "mboi-tu-i-s2",
+          "host": "www.portalguarani.com",
+          "statement": "He lived among rocks and crags, but his real domain extended over the great marshes.",
+          "statement_id": "Ia hidup di antara batu dan tebing, tetapi wilayah sesungguhnya meliputi rawa-rawa besar.",
+          "quote": "Vivía entre rocas y peñascos, pero su real dominio se extendía por los grandes esteros.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mboi-tu-i-c12",
+          "source_id": "mboi-tu-i-s2",
+          "host": "www.portalguarani.com",
+          "statement": "Despite his fearsome presence, scholars affirm that Mbói Tu'ĩ is protector of aquatic animals, dew, humidity and flowers.",
+          "statement_id": "Meskipun tampak menakutkan, para peneliti menyatakan Mbói Tu'ĩ adalah pelindung hewan air, embun, kelembapan, dan bunga.",
+          "quote": "No obstante su temible presencia, los estudiosos afirman que MBÓI TU’Ĩ es protector de los animales acuáticos, del rocío, de la humedad y de las flores.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mboi-tu-i-c13",
+          "source_id": "mboi-tu-i-s2",
+          "host": "www.portalguarani.com",
+          "statement": "This colossal snake-parrot fed only on fruit and dew.",
+          "statement_id": "Ular-beo raksasa ini hanya makan buah dan embun.",
+          "quote": "Esta colosal víbora-loro se alimentaba solamente de fruta y del rocío.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "24b61355957804cd63c6832c0b0b6488a8685936cb0189a34f82c23fa31ccae2"
+      "images": []
     },
     {
       "slug": "melon-heads",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-4.md",
+      "entry_sha256": "68530a55e98ca33ff462e0fc828f09ee7b867d3d298275e556a40493da52bb42",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 27,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "melon-heads-c01",
@@ -1335,8 +2077,8 @@
           "id": "melon-heads-c03",
           "source_id": "melon-heads-s1",
           "host": "en.wikipedia.org",
-          "statement": "One Michigan story says they were children with hydrocephalus at the Junction Insane Asylum near Felt Mansion.",
-          "statement_id": "Menurut satu cerita di Michigan, mereka awalnya anak-anak penderita hidrosefalus di Junction Insane Asylum dekat Felt Mansion.",
+          "statement": "One story says they were originally children with hydrocephalus who lived at the Junction Insane Asylum near Felt Mansion.",
+          "statement_id": "Menurut satu cerita, mereka semula anak-anak penderita hidrosefalus yang tinggal di Junction Insane Asylum dekat Felt Mansion.",
           "quote": "According to one story, they were originally children with hydrocephalus who lived at the Junction Insane Asylum near Felt Mansion.",
           "context": "traditional-belief",
           "status": "exact"
@@ -1350,27 +2092,251 @@
           "quote": "The Allegan County Historical Society asserts that the asylum never existed",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "melon-heads-c05",
+          "source_id": "melon-heads-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The melon heads of Michigan are said to reside around Felt Mansion, though they have also reportedly been seen in southern forested areas of Ottawa County.",
+          "statement_id": "Melon heads di Michigan konon tinggal di sekitar Felt Mansion, meski juga dilaporkan terlihat di kawasan hutan di selatan Ottawa County.",
+          "quote": "The melon heads of Michigan are said to reside around Felt Mansion, although they have also been reportedly seen in southern forested areas of Ottawa County.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c06",
+          "source_id": "melon-heads-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some versions say the children once lived in the mansion itself but later retreated to a system of caverns (or caves in a nearby hill left over from an abandoned zoo).",
+          "statement_id": "Sebagian versi legenda menyebut anak-anak itu dulu tinggal di rumah besar itu tetapi kemudian mundur ke sistem gua (atau gua di bukit terdekat peninggalan kebun binatang yang ditinggalkan).",
+          "quote": "Some versions of the legend say that the children once lived in the mansion itself but later retreated to a system of caverns (or caves in a nearby hill left over from an abandoned zoo).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c07",
+          "source_id": "melon-heads-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Laketown Township Manager Al Meshkin told the Holland Sentinel he heard the tales as a teenager and that his friends called the beings \"wobbleheads\".",
+          "statement_id": "Al Meshkin, manajer Laketown Township, mengatakan kepada Holland Sentinel bahwa ia mendengar kisah itu saat remaja dan teman-temannya menyebut makhluk itu \"wobbleheads\".",
+          "quote": "Laketown Township Manager Al Meshkin told the Holland Sentinel that he had heard the tales as a teenager, noting that his friends referred to the beings as \"wobbleheads\".",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c08",
+          "source_id": "melon-heads-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to local lore in Ohio, the melon heads were originally orphans under the watch of a mysterious figure known as Dr. Crow (sometimes spelled Crowe, Krohe or Kroh, or called Dr. Melonhead).",
+          "statement_id": "Menurut cerita setempat di Ohio, melon heads semula yatim piatu yang diasuh sosok misterius bernama Dr. Crow (kadang ditulis Crowe, Krohe, atau Kroh, atau disebut Dr. Melonhead).",
+          "quote": "The melon head stories of Ohio are primarily associated with the Cleveland suburb of Kirtland in Lake County. According to local lore, the melon heads were originally orphans under the watch of a mysterious figure known as Dr. Crow (sometimes spelled Crowe, Krohe or Kroh or known as Dr. Melonhead).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c09",
+          "source_id": "melon-heads-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The legend continues that the children eventually killed Crow, burned the orphanage, and retreated to the surrounding forests, supposedly feeding on babies.",
+          "statement_id": "Dalam kelanjutan legenda, anak-anak itu akhirnya membunuh Crow, membakar panti asuhan, lalu mundur ke hutan sekitar dan konon memangsa bayi.",
+          "quote": "Eventually, the legend continues, the children killed Crow, burned the orphanage, and retreated to the surrounding forests and supposedly feed on babies.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c10",
+          "source_id": "melon-heads-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Legend holds that the melon heads may be sighted along Wisner Road in Kirtland and adjacent Chardon Township in Geauga County.",
+          "statement_id": "Menurut legenda, melon heads dapat terlihat di sepanjang Wisner Road di Kirtland dan Chardon Township di Geauga County.",
+          "quote": "Legend holds that the melon heads may be sighted along Wisner Road in Kirtland and adjacent Chardon Township in Geauga County.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c11",
+          "source_id": "melon-heads-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the second Connecticut variation, the melon heads are descendants of a Colonial-era family from Shelton-Trumbull banished after accusations of witchcraft, causing them to retreat to the woods.",
+          "statement_id": "Menurut varian kedua di Connecticut, melon heads adalah keturunan keluarga era kolonial dari Shelton-Trumbull yang diasingkan setelah dituduh melakukan sihir sehingga mundur ke hutan.",
+          "quote": "There are several primary Connecticut variations. ... According to the second variation, the melon heads are descendants of a Colonial-era family from Shelton-Trumbull who were banished after accusations of witchcraft were made against them causing them to retreat to the woods.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c12",
+          "source_id": "melon-heads-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Melon Heads allegedly prey upon humans who wander into their territory.",
+          "statement_id": "Melon heads konon memangsa manusia yang tersesat ke wilayah mereka.",
+          "quote": "Melon Heads allegedly prey upon humans who wander into their territory.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c13",
+          "source_id": "melon-heads-s1",
+          "host": "en.wikipedia.org",
+          "statement": "None of the towns that have a melon head legend have roads designated as Dracula Drive.",
+          "statement_id": "Tidak satu pun kota yang memiliki legenda melon head punya jalan resmi bernama Dracula Drive.",
+          "quote": "None of the towns that have a melon head legend have roads designated as Dracula Drive.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c14",
+          "source_id": "melon-heads-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The proximity of several criminal and psychiatric institutions to rural areas of the county may have contributed elements to the Melon Heads legend.",
+          "statement_id": "Kedekatan beberapa lembaga pemasyarakatan dan psikiatri dengan daerah pedesaan mungkin menyumbang unsur pada legenda Melon Heads.",
+          "quote": "The proximity of several criminal and psychiatric institutions as well as their juxtaposition to rural areas of the county may have contributed elements to the legend of the Melon Heads.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c15",
+          "source_id": "melon-heads-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The legend even became the subject of a 2011 film titled The Melonheads, based around the West Michigan legend.",
+          "statement_id": "Legenda itu bahkan menjadi subjek film tahun 2011 berjudul The Melonheads yang berlatar legenda Michigan Barat.",
+          "quote": "even becoming the subject of a 2011 film simply titled The Melonheads, which is based around the West Michigan legend.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c16",
+          "source_id": "melon-heads-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The movie Legend of the Melonheads, released in 2010, is based on the Ohio legend and various other legends in the Kirtland area.",
+          "statement_id": "Film Legend of the Melonheads, dirilis 2010, berdasar legenda Ohio dan berbagai legenda lain di daerah Kirtland.",
+          "quote": "A movie, Legend of the Melonheads, released in 2010, is based on the Ohio legend and various other legends in the Kirtland area.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c17",
+          "source_id": "melon-heads-s2",
+          "host": "skeptoid.com",
+          "statement": "Skeptoid describes the melon head urban legend as children with great balloon-like heads who chase people through forests at night and appear by the roadside to frighten motorists.",
+          "statement_id": "Skeptoid menggambarkan legenda urban melon heads sebagai anak-anak berkepala besar seperti balon yang mengejar orang di hutan pada malam hari dan muncul di pinggir jalan untuk menakuti pengendara.",
+          "quote": "children with great big balloon-like heads, chasing people through the forests at night, appearing by the side of the road to frighten motorists, and striking fear into the hearts of those unlucky enough to encounter them.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c18",
+          "source_id": "melon-heads-s2",
+          "host": "skeptoid.com",
+          "statement": "According to Skeptoid, there are no photographs or videos of the melon heads and no empirical evidence of any kind to examine.",
+          "statement_id": "Menurut Skeptoid, tidak ada foto atau video melon heads dan tidak ada bukti empiris apa pun untuk diperiksa.",
+          "quote": "There are no photographs or videos of the melon heads, and no empirical evidence of any kind for us to examine",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c19",
+          "source_id": "melon-heads-s2",
+          "host": "skeptoid.com",
+          "statement": "According to Skeptoid, the standard explanation in most melon head stories, found in several US states, is that the melon heads are children with hydrocephalus.",
+          "statement_id": "Menurut Skeptoid, penjelasan standar untuk kebanyakan kisah melon heads, yang tersebar di beberapa negara bagian AS, adalah bahwa mereka anak-anak penderita hidrosefalus.",
+          "quote": "The standard explanation given for most melon head stories — as these legends are found in several US states — is that the melon heads are children with hydrocephalus.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c20",
+          "source_id": "melon-heads-s2",
+          "host": "skeptoid.com",
+          "statement": "According to Skeptoid, there never was a hospital or asylum anywhere in the vicinity, and such facilities were not in the habit of turning patients loose in the wild.",
+          "statement_id": "Menurut Skeptoid, tidak pernah ada rumah sakit atau asilum di sekitar tempat itu, dan fasilitas semacam itu tidak biasa melepas pasiennya ke alam liar.",
+          "quote": "There never was a hospital or asylum anywhere in the vicinity, and even if there had been, such facilities were not in the habit of turning their patients loose to fend for themselves in the wild.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c21",
+          "source_id": "melon-heads-s2",
+          "host": "skeptoid.com",
+          "statement": "In one variation, a POW camp for German soldiers called Camp Allegan existed there during World War II; the Americans did medical experiments on the prisoners, causing huge swollen heads.",
+          "statement_id": "Dalam salah satu varian, pada Perang Dunia II ada kamp tawanan perang tentara Jerman bernama Camp Allegan; orang Amerika melakukan eksperimen medis pada para tahanan hingga kepala mereka membengkak besar.",
+          "quote": "One interesting variation relies on the fact that during World War II, there was a POW camp for German soldiers located there, called Camp Allegan. In this version, the Americans did medical experiments on the German prisoners, causing huge swollen heads.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c22",
+          "source_id": "melon-heads-s2",
+          "host": "skeptoid.com",
+          "statement": "In the Connecticut story, the melon heads are the result of inbreeding and live in seclusion in the woods on the edge of society.",
+          "statement_id": "Dalam kisah Connecticut, melon heads adalah akibat perkawinan sedarah dan hidup terpencil di hutan di tepi masyarakat.",
+          "quote": "Connecticut has a very different version of the melon heads. In that story, the melon heads are the result of inbreeding, and they live in the woods in seclusion on the edge of society.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c23",
+          "source_id": "melon-heads-s2",
+          "host": "skeptoid.com",
+          "statement": "According to Skeptoid, the basic plot of the Kirtland, Ohio story is that around 1900 a Dr. Crow and his wife, who may have lived on Wisner Road, cared for a number of children with hydrocephalus at home.",
+          "statement_id": "Menurut Skeptoid, alur dasar kisah Kirtland, Ohio adalah bahwa sekitar tahun 1900 Dr. Crow dan istrinya, yang mungkin tinggal di Wisner Road, merawat sejumlah anak penderita hidrosefalus di rumah mereka.",
+          "quote": "But the most famous and complete melon head story comes from Kirtland, Ohio. ... the basic plot is that around the year 1900 a Dr. Crow and his wife, who may have lived on Wisner Road, cared for a number of children with hydrocephalus at their home.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c24",
+          "source_id": "melon-heads-s2",
+          "host": "skeptoid.com",
+          "statement": "In the story the children thought the doctor had killed his wife, rose up and murdered him, set the house on fire and escaped into the woods, living off the land ever since and sometimes appearing to frighten humans.",
+          "statement_id": "Dalam kisah itu, anak-anak mengira sang dokter membunuh istrinya, lalu menyerang dan membunuhnya, membakar rumah, dan kabur ke hutan; sejak itu mereka hidup dari alam dan kadang muncul menakuti manusia.",
+          "quote": "The children thought the doctor had killed her, so they rose up and attacked and murdered him. They then set the house on fire and escaped into the woods, where ever since they lived off the land, sometimes appearing and frightening humans.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c25",
+          "source_id": "melon-heads-s2",
+          "host": "skeptoid.com",
+          "statement": "According to Skeptoid, the story is without evidence; many researchers have tried to find records or news articles mentioning such a doctor, using various spellings of Crow.",
+          "statement_id": "Menurut Skeptoid, kisah itu tanpa bukti; banyak peneliti telah mencari catatan atau artikel berita tentang dokter semacam itu dengan berbagai ejaan Crow.",
+          "quote": "The story is without any evidence; any number of researchers have tried to track down records or news articles mentioning such a doctor, using various spellings of Crow.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c26",
+          "source_id": "melon-heads-s2",
+          "host": "skeptoid.com",
+          "statement": "According to Skeptoid, if the children's heads were visibly enlarged they would have been very young, probably under two, and before the 1940s they were unlikely to have survived at all as shunt treatment had not yet been developed.",
+          "statement_id": "Menurut Skeptoid, jika kepala anak-anak itu tampak membesar, berarti mereka sangat muda, mungkin kurang dari dua tahun, dan sebelum 1940-an mereka hampir tak mungkin bertahan hidup karena perawatan shunt belum dikembangkan.",
+          "quote": "If the children's heads were visibly enlarged, it would mean they were very young, probably less than two, and prior to the 1940s it was unlikely they would have survived at all, as the shunt treatment had not yet been developed.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "melon-heads-c27",
+          "source_id": "melon-heads-s2",
+          "host": "skeptoid.com",
+          "statement": "The Skeptoid author argues the melon head stories vilify people with physical disfigurements as monsters, whereas younger generations should rather be taught compassion and acceptance of such people.",
+          "statement_id": "Penulis Skeptoid berpendapat bahwa kisah melon heads memburukkan orang dengan cacat fisik sebagai monster, padahal generasi muda sebaiknya diajari belas kasih dan penerimaan terhadap mereka.",
+          "quote": "In previous eras, more people accepted the stigmatization of people with physical disfigurements; today, I would hope, most of us would rather teach our younger generation to have compassion and acceptance for such people, rather than to vilify them as monsters for our late night fiction.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "59172d5fc93c485b5f1ab5e2c00a7a57493e28789e1ec401aa468dd739d34699"
+      "images": []
     },
     {
       "slug": "piuchen",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-4.md",
+      "entry_sha256": "f3227bfff76b196076b39d1db4e9329a0d10653a3e7dbe7bb1f9f8bf1f148ee8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 26,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "piuchen-c01",
@@ -1401,27 +2367,251 @@
           "quote": "The lore may have derived from encounters with the common vampire bat.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "piuchen-c04",
+          "source_id": "piuchen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Piuchén is also written Peuchén, Pihuchén, Piwuchén, or Piguchen (Piguchén).",
+          "statement_id": "Piuchén juga ditulis Peuchén, Pihuchén, Piwuchén, atau Piguchen (Piguchén).",
+          "quote": "The Piuchén (Peuchén, Pihuchén, Piwuchén) or Piguchen (Piguchén)",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "piuchen-c05",
+          "source_id": "piuchen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The name Piuchén derives from Mapuche Piwichen for \"mythic bird, bat\" or \"flying serpent\"; the word may break down into piwn \"to dry\" + ché \"people\".",
+          "statement_id": "Nama Piuchén berasal dari kata Mapuche Piwichen untuk \"burung mitos, kelelawar\" atau \"ular terbang\"; kata itu mungkin terurai menjadi piwn \"mengeringkan\" + ché \"orang\".",
+          "quote": "The name Piuchén (Piuchénes) derives from Mapuche Piwichen (also styled piwicheñ, pihuicheñ) for \"mythic bird, bat\" or \"flying serpent\". The piwichen may further break down into piwn 'to dry' + ché 'people'.",
+          "context": "etymology",
+          "status": "loose"
+        },
+        {
+          "id": "piuchen-c06",
+          "source_id": "piuchen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is also described as an avian-piscine-human composite, or a shapeshifter taking on the form of animals.",
+          "statement_id": "Ia juga digambarkan sebagai makhluk campuran burung, ikan, dan manusia, atau pengubah wujud yang mengambil bentuk hewan.",
+          "quote": "It is also described as an avian-piscine-human composite, or a shapeshifter taking on the form of animals.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "piuchen-c07",
+          "source_id": "piuchen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It flies off at night, sucking the blood of animals and humans asleep in the forest; it prefers the season when the roble tree sprouts and is considered a forest spirit.",
+          "statement_id": "Ia terbang pada malam hari dan mengisap darah hewan dan manusia yang tertidur di hutan; ia menyukai musim ketika pohon roble bertunas dan dianggap roh hutan.",
+          "quote": "It flies off at night, sucking the blood of animals and humans asleep in the forest. It prefers the season when the roble tree sprouts, and is considered a forest spirit.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "piuchen-c08",
+          "source_id": "piuchen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In various local versions it may be a serpent with feathered wings (as told in Vichuquén), or a large lizard with bat wings.",
+          "statement_id": "Dalam berbagai versi lokal, ia dapat berupa ular bersayap berbulu (seperti diceritakan di Vichuquén) atau kadal besar bersayap kelelawar.",
+          "quote": "In various versions with local variations, it may be a serpent with feathered wings (as told in Vichuquén), or alternatively a large lizard with bat wings.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "piuchen-c09",
+          "source_id": "piuchen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to lore near Santiago, the Pihuchén is a black winged snake about 0.5 metres long with a bristly body, whose victims were cattle.",
+          "statement_id": "Menurut cerita di sekitar Santiago, Pihuchén adalah ular hitam bersayap sepanjang sekitar 0,5 meter dengan tubuh berbulu kaku, yang memangsa ternak.",
+          "quote": "The Pihuchén is a black winged snake about 0.5 metres (1.6 ft) in length, with a bristly body, according to the lore in the vicinity of Santiago, whose cattle fell victim.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "piuchen-c10",
+          "source_id": "piuchen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The informant stated the bristles were deadly poison on contact with skin, making live capture impossible, hence eradication by fire without handling the beast.",
+          "statement_id": "Narasumber menyatakan bulu kakunya mematikan bila menyentuh kulit sehingga menangkapnya hidup-hidup mustahil, maka makhluk itu dibasmi dengan api tanpa disentuh.",
+          "quote": "The informant stated the bristles were deadly poison upon contact with skin, making (live) capture an impossible task, hence the eradication by fire without handling the beast.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "piuchen-c11",
+          "source_id": "piuchen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The creature enjoys incredible longevity, and in old age the winged serpent may transform into a rooster-sized or young-turkey-sized bird.",
+          "statement_id": "Makhluk ini berumur sangat panjang, dan di usia tua ular bersayap itu dapat berubah menjadi burung sebesar ayam jantan atau kalkun muda.",
+          "quote": "The creature enjoys incredible longevity, and in old age, the winged serpent may transform into a rooster-sized bird, or a young turkey sized bird.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "piuchen-c12",
+          "source_id": "piuchen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In another telling from Ovalle in the Coquimbo Region, the Piuchén \"has a parrot's beak and wings, a toad-like body and a snake-like tail\".",
+          "statement_id": "Dalam versi lain dari Ovalle di Wilayah Coquimbo, Piuchén \"berparuh dan bersayap beo, bertubuh seperti kodok, dan berekor seperti ular\".",
+          "quote": "In another telling from Ovalle in the Coquimbo Region, the Piuchén \"has a parrot's beak and wings, a toad-like body and a snake-like tail\".",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "piuchen-c13",
+          "source_id": "piuchen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Others considered its hiss and gaze capable of killing prey, or the gaze may paralyze the victim so the creature leisurely feeds on its blood.",
+          "statement_id": "Sebagian menganggap desis dan tatapannya dapat membunuh mangsa, atau tatapannya melumpuhkan korban sehingga makhluk itu santai mengisap darahnya.",
+          "quote": "Others considered its hiss and gaze capable of killing prey, or the gaze may paralyze the victim and the creature then leisurely feeds on the blood of the stupefied victim.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "piuchen-c14",
+          "source_id": "piuchen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Chilote folklore the creature is described as a protean composite, part human, snake, bird and fish, covered with grass, bushes and twisted horn-like protrusions.",
+          "statement_id": "Dalam cerita rakyat Chilote, makhluk ini digambarkan sebagai makhluk campuran yang berubah-ubah, sebagian manusia, ular, burung, dan ikan, tertutup rumput, semak, dan tonjolan seperti tanduk yang berpilin.",
+          "quote": "In Chilote folklore, the creature is described as a protean composite creature, part human, snake, bird, and fish, and covered with all sorts of things such as grass, bushes, and twisted horn-like protrusions",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "piuchen-c15",
+          "source_id": "piuchen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It prefers to dwell in lakes and rivers, haunting the local Lake Huillinco, and can allegedly raise gigantic waves that sink nearby boats.",
+          "statement_id": "Ia lebih suka tinggal di danau dan sungai serta menghantui Danau Huillinco setempat; konon ia dapat membangkitkan gelombang raksasa yang menenggelamkan perahu di dekatnya.",
+          "quote": "preferring to dwell in lakes and rivers, haunting the local Lake Huillinco. It allegedly can raise gigantic waves that cause nearby boats to sink.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "piuchen-c16",
+          "source_id": "piuchen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Chilote lore the piuchén is so powerful it effortlessly knocks down the Chilean larch (alerces), the tique or other huge trees.",
+          "statement_id": "Menurut cerita Chilote, piuchén begitu kuat sehingga tanpa kesulitan merobohkan alerce (cemara Chile), tique, atau pohon raksasa lain.",
+          "quote": "The piuchén is so powerful it effortlessly knocks down this Chilean larch (alerces), the tique ... or other huge trees, according to Chilote lore",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "piuchen-c17",
+          "source_id": "piuchen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is also claimed that only the machi can defeat the creature, as he or she can counteract the hypnosis with herbal cures.",
+          "statement_id": "Juga diklaim bahwa hanya machi yang dapat mengalahkan makhluk itu karena ia dapat menangkal hipnosis dengan ramuan herbal.",
+          "quote": "it is also claimed that only the machi alone can defeat the creature, as he or she can counteract the hypnosis with herbal cures.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "piuchen-c18",
+          "source_id": "piuchen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to Mapuche belief the Pihuichéñ coordinated its attacks with the machi (herbal healer), and they were in alliance.",
+          "statement_id": "Menurut kepercayaan Mapuche, Pihuichéñ mengoordinasikan serangannya dengan machi (tabib herbal) dan keduanya bersekutu.",
+          "quote": "Mapuche belief was that the Pihuichéñ coordinated its attacks with the machi (herbal healer), and they were in alliance",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "piuchen-c19",
+          "source_id": "piuchen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "To kill a Pihuchén living in a tree hollow, it is suggested to plug the hole with heavy cloth and then set the tree on fire.",
+          "statement_id": "Untuk membunuh Pihuchén yang tinggal di lubang pohon, disarankan menyumbat lubang dengan kain tebal lalu membakar pohonnya.",
+          "quote": "to kill a Pihuchén living in a Tree hollow (hueco), it is suggested the hole be plugged with hefty cloth then to set the tree on fire.",
+          "context": "traditional-belief",
+          "status": "loose"
+        },
+        {
+          "id": "piuchen-c20",
+          "source_id": "piuchen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Superstition in Ovalle recommends waving a white flag or whistling in a bottle to ward the creature off, and adding a white goat to one's flock lessens the chance of attack.",
+          "statement_id": "Takhayul di Ovalle menganjurkan mengibarkan bendera putih atau bersiul ke dalam botol untuk menangkal makhluk itu, dan menambah kambing putih ke kawanan mengurangi peluang diserang.",
+          "quote": "Superstition in Ovalle recommends waving a white flag or whistling in a bottle to ward the creature off, and adds that adding white goat to one's flock diminishes the chance of being attacked.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "piuchen-c21",
+          "source_id": "piuchen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to modern zoologists this species name is a disused synonym of Desmodus rotundus, the common vampire bat, also known by the Spanish vernacular \"Piuchén\".",
+          "statement_id": "Menurut zoolog modern, nama spesies itu sinonim lama dari Desmodus rotundus, kelelawar vampir biasa, yang dalam bahasa Spanyol sehari-hari juga disebut \"Piuchén\".",
+          "quote": "According to modern zoologists, this species name is a disused synonym of Desmodus rotundus, the common vampire bat, also known by the Spanish vernacular \"Piuchén\".",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "piuchen-c22",
+          "source_id": "piuchen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The abbot Juan Ignacio Molina also wrote a paragraph on the \"winged quadruped, or a kind of large bat\"; a later lexicographer remarked that Molina had been deceived by a gift of a dead rare animal claimed to be a piuchén and only described that cadaver.",
+          "statement_id": "Abbé Juan Ignacio Molina juga menulis satu paragraf tentang \"kuadruped bersayap, atau sejenis kelelawar besar\"; seorang leksikograf kemudian menyatakan Molina tertipu oleh hadiah bangkai hewan langka yang diklaim sebagai piuchén sehingga ia hanya menggambarkan bangkai itu.",
+          "quote": "The abbot Juan Ignacio Molina also wrote a paragraph on the \"winged quadruped, or a kind of large bat\". A later lexicographer remarked that Molina had been deceived by a gift of some dead rare animal claimed to be a piuchén, and the abbot only described such cadaver in detail.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "piuchen-c23",
+          "source_id": "piuchen-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The author wonders whether the Piguchén might have been the precursor of the Chupacabra.",
+          "statement_id": "Penulis bertanya-tanya apakah Piguchén mungkin pendahulu Chupacabra.",
+          "quote": "He wonders if the Piguchén might have been the precursor of the Chupacabra.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "piuchen-c24",
+          "source_id": "piuchen-s2",
+          "host": "es.wikisource.org",
+          "statement": "A digitized natural history calls the Piguchén a winged quadruped or kind of large bat which, if it really existed, would be one of the links joining birds to quadrupeds.",
+          "statement_id": "Sebuah teks sejarah alam yang didigitalkan menyebut Piguchén sebagai kuadruped bersayap atau sejenis kelelawar besar yang, andai nyata, akan menjadi salah satu mata rantai penghubung burung dan kuadruped.",
+          "quote": "Tal es por exemplo el Piguchén, quadrúpedo alado, ó especie de gran murciegalo, que á exîstir en la realidad, formaria uno de los eslabones ú anillos que unen los páxaros á los quadrúpedos.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "piuchen-c25",
+          "source_id": "piuchen-s2",
+          "host": "es.wikisource.org",
+          "statement": "According to the text, this animal is said to be the size and shape of the domestic rabbit, covered with fine cinnamon-colored hair, with a pointed muzzle, large round shining eyes, almost invisible ears, membranous wings and short legs like a lizard's.",
+          "statement_id": "Menurut teks itu, hewan ini konon sebesar dan berbentuk seperti kelinci rumahan, berbulu halus berwarna kayu manis, berhidung runcing, bermata besar bulat dan berkilau, bertelinga nyaris tak tampak, bersayap selaput, dan berkaki pendek seperti kadal.",
+          "quote": "Este animal, que segun dicen, es de la magnitud y figura del conejo casero, está cubierto de un pelo fino de color de canela: tiene el hocico aguzado: los ojos grandes, redondos y resplandecientes: las orejas casi invisibles: las alas membranosas: las patas cortas, y semejantes á las del lagarto",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "piuchen-c26",
+          "source_id": "piuchen-s2",
+          "host": "es.wikisource.org",
+          "statement": "According to the text, the animal hisses like snakes, flies like partridges (perdiz), lives in tree hollows from which it comes out only at night, and harms no one except the insects that serve as its food.",
+          "statement_id": "Menurut teks itu, hewan ini bersiul seperti ular, terbang seperti burung perdiz (partridge), tinggal di lubang pohon dan keluar hanya pada malam hari, dan tidak mencelakai siapa pun kecuali serangga yang menjadi makanannya.",
+          "quote": "silva como las culebras, y vuela como las perdices: habita en los huecos de los árboles, de donde sale unicamente durante la noche, y no hace mal á nadie sino es á los insectos, que le sirven de pasto.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "67f037964e6317c0a9e625829afb86eca9bd2c06cb5eb35b4c69e011bc888230"
+      "images": []
     },
     {
       "slug": "teju-jagua",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-4.md",
+      "entry_sha256": "799e53e82257468bd0f9188350fd58e99a84a44c01b033a5f239a829a9956741",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 20,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "teju-jagua-c01",
@@ -1452,27 +2642,191 @@
           "quote": "He is considered the lord of the caves and protector of fruit.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "teju-jagua-c04",
+          "source_id": "teju-jagua-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Because of the curse Arasy placed on Tau for raping Kerana, Tau's descendants were cursed forever with a deformed and monstrous appearance.",
+          "statement_id": "Karena kutukan Arasy atas Tau karena memerkosa Kerana, keturunan Tau dikutuk selamanya berwujud cacat dan mengerikan.",
+          "quote": "Because of the curse placed upon Tau by Arasy for raping Kerana, Tau's descendants were forever cursed to a deformed and monstrous appearance.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "teju-jagua-c05",
+          "source_id": "teju-jagua-s1",
+          "host": "en.wikipedia.org",
+          "statement": "His seven dog heads make any movement difficult. Some versions say Teju Jagua has only one giant dog head, but all versions agree he has a limited ability to move around.",
+          "statement_id": "Tujuh kepala anjingnya membuat setiap gerakan sulit. Sebagian versi menyebut Teju Jagua hanya berkepala satu anjing raksasa, tetapi semua versi sepakat bahwa kemampuannya bergerak terbatas.",
+          "quote": "His seven dog-heads make any movement difficult. Some versions of the story say Teju Jagua has only one giant dog-head. But all versions agree that he has a limited ability to move around.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "teju-jagua-c06",
+          "source_id": "teju-jagua-s1",
+          "host": "en.wikipedia.org",
+          "statement": "However, his ferocity was tempered by Tupã's choice; he was left calm and harmless. Still he was feared for his fiery gaze.",
+          "statement_id": "Namun keganasannya diredam oleh pilihan Tupã; ia dibiarkan tenang dan tidak berbahaya. Meski begitu ia ditakuti karena tatapan apinya.",
+          "quote": "However, his ferocity was tempered by choice of Tupã. He was left calm and harmless. Still he was feared for his fiery gaze.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "teju-jagua-c07",
+          "source_id": "teju-jagua-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He feeds on fruit, and his brother Yasy Yateré gave him honey, his favorite food.",
+          "statement_id": "Ia makan buah, dan saudaranya Yasy Yateré memberinya madu, makanan kesukaannya.",
+          "quote": "He feeds on fruit and his brother Yasy Yateré gave him honey, his favorite food.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "teju-jagua-c08",
+          "source_id": "teju-jagua-s1",
+          "host": "en.wikipedia.org",
+          "statement": "He is also mentioned as a brilliant protector of buried treasure.",
+          "statement_id": "Ia juga disebut sebagai pelindung gemilang harta terpendam.",
+          "quote": "He is also mentioned as a brilliant protector of buried treasure.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "teju-jagua-c09",
+          "source_id": "teju-jagua-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Its skin became shiny after rolling around in the gold and precious stones of Itapé.",
+          "statement_id": "Kulitnya menjadi berkilau setelah berguling-guling di antara emas dan batu mulia di Itapé.",
+          "quote": "Its skin became shiny after rolling around in the gold and precious stones of Itapé.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "teju-jagua-c10",
+          "source_id": "teju-jagua-s2",
+          "host": "www.portalguarani.com",
+          "statement": "Teju Jagua was the first son of Tau and Kerana, shaped like an enormous lizard with a dog's head, and was considered the master of the caverns.",
+          "statement_id": "Teju Jagua adalah putra pertama Tau dan Kerana, berbentuk kadal raksasa berkepala anjing, dan dianggap penguasa gua-gua.",
+          "quote": "TEJU JAGUA fue el primer hijo de TAU y KERANA; tenía la forma de un enorme lagarto con cabeza de perro. Se le consideraba el dominador de las cavernas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "teju-jagua-c11",
+          "source_id": "teju-jagua-s2",
+          "host": "www.portalguarani.com",
+          "statement": "His lair was in one of the abysses of the legendary Yaguarón hill.",
+          "statement_id": "Sarangnya berada di salah satu jurang di bukit legendaris Yaguarón.",
+          "quote": "Su guarida la tenía en uno de los abismos del legendario cerro de Yaguarón.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "teju-jagua-c12",
+          "source_id": "teju-jagua-s2",
+          "host": "www.portalguarani.com",
+          "statement": "Many believe he carried his victim to the cavern to devour it.",
+          "statement_id": "Banyak orang percaya ia membawa korbannya ke gua untuk melahapnya.",
+          "quote": "Muchos creen que llevaba a su víctima hasta la caverna para devorarla.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "teju-jagua-c13",
+          "source_id": "teju-jagua-s2",
+          "host": "www.portalguarani.com",
+          "statement": "Among the inhabitants of the Yaguarón hill it was also believed that Teju Jagua fed only on fruit and wild honey.",
+          "statement_id": "Di antara penduduk bukit Yaguarón juga dipercaya bahwa Teju Jagua hanya makan buah dan madu liar.",
+          "quote": "También se creía entre los moradores del cerro Yaguarón, que TEJU JAGUA sólo se alimentaba de frutas y miel silvestre.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "teju-jagua-c14",
+          "source_id": "teju-jagua-s2",
+          "host": "www.portalguarani.com",
+          "statement": "The local natives regarded him as the master of the grottoes, whose mission was to look after and protect trees and fruit.",
+          "statement_id": "Penduduk asli setempat menganggapnya penguasa gua yang bertugas menjaga dan melindungi pohon serta buah.",
+          "quote": "Los nativos lugareños lo consideraban como el que dominaba las grutas y el que tenía por misión cuidar y proteger árboles y frutas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "teju-jagua-c15",
+          "source_id": "teju-jagua-s2",
+          "host": "www.portalguarani.com",
+          "statement": "He was also considered the monster who protected the hidden treasures of the Guaraní people; having rolled on gold dust (Itaju), his skin shone like gold and precious stones.",
+          "statement_id": "Ia juga dianggap monster yang melindungi harta tersembunyi bangsa Guaraní; karena berguling di atas debu emas (Itaju), kulitnya berkilau seperti emas dan batu mulia.",
+          "quote": "También se le consideraba el monstruo que protegía los tesoros ocultos de la raza guaraní. Por haberse revolcado sobre polvo aurífero (Itaju), su piel brillaba como oro y piedras preciosas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "teju-jagua-c16",
+          "source_id": "teju-jagua-s2",
+          "host": "www.portalguarani.com",
+          "statement": "From time to time in summer, his little brother Jasy Jatere took him along.",
+          "statement_id": "Dari waktu ke waktu pada musim panas, adik kecilnya Jasy Jatere membawanya.",
+          "quote": "de tarde en tarde, en época de verano, su hermanito JASY JATERE le llevaba",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "teju-jagua-c17",
+          "source_id": "teju-jagua-s2",
+          "host": "www.portalguarani.com",
+          "statement": "According to the writer and scholar Paulo Carvalho Neto in his book Folklore del Paraguay, in 1933 Ramón I. Cardozo collected in Villa Rica a tale about Teju Jagua.",
+          "statement_id": "Menurut penulis dan peneliti Paulo Carvalho Neto dalam bukunya Folklore del Paraguay, pada 1933 Ramón I. Cardozo mencatat di Villa Rica sebuah kisah tentang Teju Jagua.",
+          "quote": "El escritor y estudioso Paulo Carvalho Neto nos dice en su libro Folklore del Paraguay que en 1933 Ramón I. Cardozo recogió en Villa Rica un relato de TEJU JAGUA",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "teju-jagua-c18",
+          "source_id": "teju-jagua-s2",
+          "host": "www.portalguarani.com",
+          "statement": "In the tale, the Portuguese don Luis Home arrived in Paraguay and settled in Villa Rica del Espíritu Santo.",
+          "statement_id": "Dalam kisah itu, orang Portugis bernama don Luis Home tiba di Paraguay dan menetap di Villa Rica del Espíritu Santo.",
+          "quote": "llegó al Paraguay el portugués don Luis Home y se estableció en Villa Rica del Espíritu Santo",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "teju-jagua-c19",
+          "source_id": "teju-jagua-s2",
+          "host": "www.portalguarani.com",
+          "statement": "Some said that D. Luis kept Teju Jagua, a man-devouring monster of invincible destructive power, hidden in the labyrinth of his castle, fattening him on human flesh to use him one day for some unknown plan.",
+          "statement_id": "Muncul orang yang mengatakan bahwa D. Luis menyembunyikan Teju Jagua, monster pelahap manusia berkekuatan perusak tak terkalahkan, di labirin istananya dan memberinya makan daging manusia untuk dipakai suatu hari.",
+          "quote": "Ya no faltó quien dijera que el purutue D. Luis tenía oculto en el laberinto de su castillo a TEJU JAGUA, monstruo devorador de hombres e invencible poder destructivo. Lo tenía cebándolo con carne humana para utilizarlo, algún día, en la consecución de quién sabe qué plan.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "teju-jagua-c20",
+          "source_id": "teju-jagua-s2",
+          "host": "www.portalguarani.com",
+          "statement": "The legend soon took shape and life; everyone believed it to the point that nobody dared pass near D. Luis's house at night.",
+          "statement_id": "Legenda itu segera hidup; semua orang memercayainya sampai tak seorang pun berani lewat malam hari di dekat rumah D. Luis.",
+          "quote": "Pronto esta leyenda tomó cuerpo y vida. Todo el mundo la creyó a pie juntillas, hasta el extremo de que nadie osaba pasar de noche por las proximidades de la casa de D. Luis",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "053712efc98ad1071496cda805aa4a4ebcb1c51a1ab80cff2758a9015f0ca201"
+      "images": []
     },
     {
       "slug": "wentshukumishiteu",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-4.md",
+      "entry_sha256": "33c0d4a83ac926f0fc1e54948d7c8284a9cfa618de5a8b3458ddc06c92949136",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "wentshukumishiteu-c01",
@@ -1503,10 +2857,49 @@
           "quote": "Eine seiner Heimstätten liegt angeblich unter Manitutshu, dem Geisterberg, einem Hügel bei den Muskrat Falls am Churchill River in Labrador, Kanada.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "wentshukumishiteu-c04",
+          "source_id": "wentshukumishiteu-s1",
+          "host": "de.wikipedia.org",
+          "statement": "The article states that \"the Inuit\" say Wentshukumishiteu can move anywhere on the water and break through even the thickest ice.",
+          "statement_id": "Artikel itu menyatakan bahwa \"orang Inuit\" mengatakan Wentshukumishiteu dapat bergerak di mana saja di atas air dan menembus es setebal apa pun.",
+          "quote": "Die Inuit sagen, dass Wentshukumishiteu in der Lage sei, sich überall auf dem Wasser zu bewegen und auch das dickste Eis durchbrechen kann.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wentshukumishiteu-c05",
+          "source_id": "wentshukumishiteu-s1",
+          "host": "de.wikipedia.org",
+          "statement": "He is likewise said to be able to travel under the ground and through rock.",
+          "statement_id": "Ia juga konon dapat berjalan di bawah tanah dan menembus batu.",
+          "quote": "Ebenso soll er unter dem Erdboden und durch Gestein wandern können.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "wentshukumishiteu-c06",
+          "source_id": "wentshukumishiteu-s2",
+          "host": "theindependent.ca",
+          "statement": "Spirit Mountain is a sacred Innu site where tens of thousands of Innu artifacts were discovered during the early stages of a project's construction.",
+          "statement_id": "Spirit Mountain adalah situs suci Innu tempat puluhan ribu artefak Innu ditemukan pada tahap awal pembangunan sebuah proyek.",
+          "quote": "Spirit Mountain, a sacred Innu site where tens of thousands of Innu artifacts were discovered during the early stages of the project’s construction",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "wentshukumishiteu-c07",
+          "source_id": "wentshukumishiteu-s3",
+          "host": "read.uolpress.co.uk",
+          "statement": "The North Spur is a natural hill 1,000 metres long connecting Spirit Mountain, a significant spiritual site for the Innu, to the north shore at Muskrat Falls.",
+          "statement_id": "North Spur adalah bukit alami sepanjang 1.000 meter yang menghubungkan Spirit Mountain, situs spiritual penting bagi Innu, dengan tepi utara Muskrat Falls.",
+          "quote": "The North Spur is a natural hill 1,000 metres long connecting Spirit Mountain [a significant spiritual site for the Innu] to the north shore at Muskrat Falls",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "20a2dc6ece721b23fa8fd74282b9ca961be216ae8c10abba1faf6f7cf79a57cf"
+      "images": []
     },
     {
       "slug": "amala-mythology",
@@ -2015,18 +3408,19 @@
     },
     {
       "slug": "monai",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-4.md",
+      "entry_sha256": "e4adcadacb41c73159cefedaf6fbbda9b3b217c92b96928cc45ebfd3faeaf1d6",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 16,
+        "sources": 2,
         "images": 0
       },
       "issues": [
         {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
+          "level": "warn",
+          "where": "relations[4].target_name",
+          "message": "Tidak muncul di kutipan mana pun: Jasy Jatere. Tambahkan klaim yang kutipannya memuat hal ini, atau hapus dari teks."
         }
       ],
       "claims": [
@@ -2046,7 +3440,7 @@
           "host": "en.wikipedia.org",
           "statement": "Because he dominates birds with his hypnotic antennae, he is called \"the lord of the air\".",
           "statement_id": "Karena menguasai burung dengan kekuatan hipnotis antenanya, ia disebut \"penguasa udara\".",
-          "quote": "Because of this he is called \"the lord of the air\".",
+          "quote": "He can climb trees with ease and slide down to hunt the birds on whom he feeds and dominates with the hypnotic power of his antennas. Because of this he is called \"the lord of the air\".",
           "context": "traditional-belief",
           "status": "exact"
         },
@@ -2059,27 +3453,151 @@
           "quote": "Moñái is fond of stealing and hiding the products of his misdeeds in a cave.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "monai-c04",
+          "source_id": "monai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "His dominions are the open fields.",
+          "statement_id": "Wilayah kekuasaannya adalah ladang terbuka.",
+          "quote": "His dominions are the open fields.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "monai-c05",
+          "source_id": "monai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "His continuous robbing and raiding in the villages provoked great discord, as everyone accused each other of the thefts and mysterious \"disappearances\" of belongings.",
+          "statement_id": "Perampokan dan penjarahannya yang terus-menerus di desa-desa memicu perselisihan besar karena semua orang saling menuduh atas pencurian dan \"hilangnya\" barang secara misterius.",
+          "quote": "His continuous robbing and raiding in the villages provoked great discord among the people as they all accuse each other for the robberies and mysterious \"disappearances\" of their belongings.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "monai-c06",
+          "source_id": "monai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Moñái left her in Teju Jagua's care and went to find his other brothers: Mbói Tu'i, Yasy Yateré, Kurupí, Luisón and Ao Ao.",
+          "statement_id": "Moñái menitipkannya pada Teju Jagua lalu pergi mencari saudara-saudaranya yang lain: Mbói Tu'i, Yasy Yateré, Kurupí, Luisón, dan Ao Ao.",
+          "quote": "Moñái left her in the care of Teju Jagua and left to search for the rest of his brothers: Mbói Tu'i, Yasy Yateré, Kurupí, Luisón, and Ao Ao.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "monai-c07",
+          "source_id": "monai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The townspeople joined to end the misdeeds of Moñái and his brothers; the beautiful Porâsý offered herself for the mission.",
+          "statement_id": "Penduduk bersatu untuk mengakhiri kejahatan Moñái dan saudara-saudaranya; Porâsý yang cantik menawarkan diri menjalankan tugas itu.",
+          "quote": "The townspeople joined to put an end to Moñái's misdeeds and those of his brothers. The beautiful Porâsý offered herself to carry out this mission.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "monai-c08",
+          "source_id": "monai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "She convinced Moñái that she had fallen in love with him and that before their wedding she wanted to meet his brothers.",
+          "statement_id": "Ia meyakinkan Moñái bahwa ia jatuh cinta kepadanya dan bahwa sebelum pesta pernikahan ia ingin bertemu saudara-saudaranya.",
+          "quote": "She convinced Moñái that she had fallen in love with him and that before they celebrated their wedding she wanted to meet his brothers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "monai-c09",
+          "source_id": "monai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Knowing she was lost, she ordered the people to burn the cave even with her inside; this killed Porasy herself but also destroyed Tau and Kerana's cursed descendants, including Moñai.",
+          "statement_id": "Karena tahu dirinya tak tertolong, ia memerintahkan orang membakar gua walau ia masih di dalam; itu menewaskan Porasy sendiri, tetapi juga berhasil memusnahkan keturunan terkutuk Tau dan Kerana, termasuk Moñai.",
+          "quote": "Knowing that she was lost she ordered the people to burn the cave, even with her inside. While this killed Porasy herself, it also successfully destroyed Tau and Kerana's cursed descendants, including Moñai himself.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "monai-c10",
+          "source_id": "monai-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In return for Porâsý's sacrifice, the gods lifted her soul and changed it into a small but intense point of light.",
+          "statement_id": "Sebagai balasan atas pengorbanan Porâsý, para dewa mengangkat jiwanya dan mengubahnya menjadi titik cahaya kecil namun terang.",
+          "quote": "In return for the sacrifice of Porâsý, the gods lifted her soul and changed it into a small but intense point of light.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "monai-c11",
+          "source_id": "monai-s2",
+          "host": "www.portalguarani.com",
+          "statement": "Moñái is the third son of Tau and Kerana; the Guaraní natives considered him lord of the fields, the earth and the winds.",
+          "statement_id": "Moñái adalah putra ketiga Tau dan Kerana; penduduk asli Guaraní menganggapnya penguasa ladang, tanah, dan angin.",
+          "quote": "MOÑÁI es el tercer hijo de TAU y KERANA, los nativos guaraníes le consideraban señor de los campos, de la tierra y de los vientos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "monai-c12",
+          "source_id": "monai-s2",
+          "host": "www.portalguarani.com",
+          "statement": "He was said to live in the deepest streams and swampy places; one of his hiding places was near Yaguarón and another in Lake Ypoá.",
+          "statement_id": "Konon ia tinggal di sungai-sungai terdalam dan tempat berawa; salah satu persembunyiannya dekat Yaguarón dan yang lain di Danau Ypoá.",
+          "quote": "Se cuenta que habitaba en los arroyos más profundos y en lugares pantanosos. Uno de sus escondederos estaba cerca de Yaguarón y otro en el Lago Ypoá.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "monai-c13",
+          "source_id": "monai-s2",
+          "host": "www.portalguarani.com",
+          "statement": "Moñái is a horrible serpent of extraordinary size, with two spikes on its head and pointed teeth.",
+          "statement_id": "Moñái adalah ular mengerikan berukuran luar biasa, dengan dua duri di kepala dan gigi runcing.",
+          "quote": "MOÑÁI es una horrible serpiente de dimensión extraordinaria, tiene en la cabeza dos púas y dientes puntiagudos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "monai-c14",
+          "source_id": "monai-s2",
+          "host": "www.portalguarani.com",
+          "statement": "Many scholars of Guaraní mythology affirm that Moñái is not a serpent that devours animals and humans, but rather a protector of wild animals, the winds and the birds.",
+          "statement_id": "Banyak peneliti mitologi Guaraní menyatakan Moñái bukan ular pemangsa hewan dan manusia, melainkan pelindung hewan liar, angin, dan burung.",
+          "quote": "muchos estudiosos de la mitología guaraní afirman que MOÑÁI no es una serpiente devoradora de animales y de seres humanos, sino más bien es protectora de animales silvestres, de los vientos y de los pájaros.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "monai-c15",
+          "source_id": "monai-s2",
+          "host": "www.portalguarani.com",
+          "statement": "Yet Moñái is also painted as a thief of crops, plunderer of harvests and raider of kitchens; he keeps part of his misdeeds as trophies on the highest hills and in grottoes, out of sight.",
+          "statement_id": "Namun Moñái juga digambarkan sebagai pencuri tanaman, penjarah panen, dan perampas dapur; sebagian hasil kejahatannya disimpan sebagai trofi di bukit tertinggi dan di gua-gua, jauh dari pandangan.",
+          "quote": "De todos modos, también pintan a MOÑÁI como un ladrón de cultivos, saqueador de cosechas y rapiñero de cocinas. En los cerros más altos guarda parte de sus fechorías como trofeos, y también en las grutas, lejos de vista.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "monai-c16",
+          "source_id": "monai-s2",
+          "host": "www.portalguarani.com",
+          "statement": "Several areas of Paraguay bear the name Moñaikuare, since country people believe this monstrous snake had its burrow in those dreadful places.",
+          "statement_id": "Ada beberapa wilayah di Paraguay bernama Moñaikuare, karena orang desa percaya ular monster ini memiliki sarangnya di tempat-tempat mengerikan itu.",
+          "quote": "Existen varias zonas del Paraguay con la denominación de MOÑAIKUARE, pues la gente del campo cree que esta monstruosa víbora tenía su madriguera en esos lugares horripilantes.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "80289e4b158612a2df2a5db7829d0411e34519a66b32653961e82502fce069d4"
+      "images": []
     },
     {
       "slug": "simbi",
-      "file": "batch-144.md",
+      "file": "batch-144-fix-4.md",
+      "entry_sha256": "566268abad2505214037b66df4c8564044073e92aa81ea6cb3685db0cd38dedc",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 26,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "simbi-c01",
@@ -2100,10 +3618,249 @@
           "quote": "Simbi have been historically identified with water people, or mermaids, pottery, snakes, gourds, and fire.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "simbi-c03",
+          "source_id": "simbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Simbi is also spelled Cymbee and Sim'bi, with the plural Bisimbi or Basimbi.",
+          "statement_id": "Simbi juga ditulis Cymbee dan Sim'bi, dengan bentuk jamak Bisimbi atau Basimbi.",
+          "quote": "A Simbi (also spelled Cymbee and Sim'bi, pl. Bisimbi or Basimbi)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c04",
+          "source_id": "simbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Some believe the word simbi derives from simba, a Kikongo word meaning \"to hold, keep, preserve\".",
+          "statement_id": "Sebagian orang percaya kata simbi berasal dari simba, kata Kikongo yang berarti \"memegang, menjaga, melestarikan\".",
+          "quote": "Some believe the word simbi derives from simba, a Kikongo word that means \"to hold, keep, preserve\"",
+          "context": "etymology",
+          "status": "loose"
+        },
+        {
+          "id": "simbi-c05",
+          "source_id": "simbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The word basimbi also translates to \"guardians\", with the phrase isimba ia nsi later becoming \"guardians of the land\".",
+          "statement_id": "Kata basimbi juga diterjemahkan sebagai \"penjaga\", dan frasa isimba ia nsi kemudian menjadi \"penjaga tanah\".",
+          "quote": "The word basimbi also translates to \"guardians\" with the phrase isimba ia nsi later becoming \"guardians of the land.\"",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c06",
+          "source_id": "simbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Bakongo traditionally believe that bisimbi are magical water spirits (in Kikongo: nkisi mia mamba) that can appear as a person, a snake, pottery, a calabash vine, or Kalûnga, a spark of fire.",
+          "statement_id": "Orang Bakongo secara tradisional percaya bahwa bisimbi adalah roh air gaib (dalam Kikongo: nkisi mia mamba) yang dapat tampil sebagai manusia, ular, tembikar, sulur labu, atau Kalûnga, percikan api.",
+          "quote": "The Bakongo people traditionally believe that bisimbi are magically water spirits (in kikongo: nkisi mia mamba) that can appear as a person, a snake, pottery, a calabash vine, or Kalûnga, a spark of fire",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c07",
+          "source_id": "simbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They are seen as guardians of nature and intermediaries who travel the Kalûnga Line between Ku Seke, the physical world of the living, and Ku Mpémba, the spiritual world of the ancestors.",
+          "statement_id": "Mereka dipandang sebagai penjaga alam dan perantara yang menempuh Garis Kalûnga antara Ku Seke, dunia fisik orang hidup, dan Ku Mpémba, dunia roh para leluhur.",
+          "quote": "They are seen as the guardians of nature and the intermediaries who travel the Kalûnga Line between Ku Seke, the physical world of the living, and Ku Mpémba, the spiritual world of the ancestors.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c08",
+          "source_id": "simbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Bisimbi are also believed to be spiritual guides, using storytelling and oral tradition to connect the living with the ancestors and their history.",
+          "statement_id": "Bisimbi juga dipercaya sebagai pemandu spiritual yang memakai penuturan cerita dan tradisi lisan untuk menghubungkan orang hidup dengan leluhur dan sejarah mereka.",
+          "quote": "Bisimbi are also believed to be spiritual guides, using storytelling and oral tradition to connect the living to the ancestors and their history.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c09",
+          "source_id": "simbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The belief that bisimbi \"inhabit rocks, gullies, streams, and pools, and are able to influence the fertility and well-being of those living in the area\" was brought to the United States by enslaved Bakongo and Mbundu peoples.",
+          "statement_id": "Kepercayaan bahwa bisimbi \"mendiami batu, parit, sungai kecil, dan kolam, dan mampu memengaruhi kesuburan dan kesejahteraan penduduk sekitar\" dibawa ke Amerika Serikat oleh orang Bakongo dan Mbundu yang diperbudak.",
+          "quote": "The belief that bisimbi \"inhabit rocks, gullies, streams, and pools, and are able to influence the fertility and well-being of those living in the area\" was translocated to the United States by enslaved Bakongo and Mbundu peoples.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c10",
+          "source_id": "simbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "At Pooshee plantation on the Santee Canal, Ruffin stated that a young enslaved boy went to a fountain for water late at night and was very frightened by a cymbee (Simbi water spirit) running around and around the fountain.",
+          "statement_id": "Di perkebunan Pooshee di Terusan Santee, Ruffin menyatakan seorang anak budak pergi ke mata air larut malam dan sangat ketakutan oleh seorang cymbee (roh air Simbi) yang berlari mengelilingi mata air itu.",
+          "quote": "At Pooshee plantation on the Santee Canal not too far from Woodboo, Ruffin stated that a young slave boy went to a fountain for water late at night and was very frightened by a cymbee (Simbi water spirit) who was running around and around the fountain.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c11",
+          "source_id": "simbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The earliest known record of simbi spirits was made in the nineteenth century by Edmund Ruffin, a wealthy slaveholder from Virginia.",
+          "statement_id": "Catatan paling awal yang diketahui tentang roh simbi dibuat pada abad ke-19 oleh Edmund Ruffin, pemilik budak kaya dari Virginia.",
+          "quote": "The earliest known record of simbi spirits was recorded in the nineteenth century by Edmund Ruffin who was a wealthy slaveholder from Virginia",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c12",
+          "source_id": "simbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Part of the superstition was that it was bad luck for anyone who saw one to tell of the occurrence or refer to it.",
+          "statement_id": "Bagian dari takhayul itu ialah bahwa membawa sial bagi siapa pun yang melihatnya untuk menceritakan atau menyinggungnya.",
+          "quote": "Part of the superstition was that it was bad luck for anyone who saw one to tell of the occurrence, or refer to it",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c13",
+          "source_id": "simbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Another account from an enslaved man said simbi spirits have long hair.",
+          "statement_id": "Kesaksian lain dari seorang pria yang diperbudak menyatakan roh simbi berambut panjang.",
+          "quote": "Another occurrence from an enslaved man said simbi spirits have long hair.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c14",
+          "source_id": "simbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Black American folklore, the Gullah Geechee people of the Carolina Lowcountry have a children's story called Sukey and the Mermaid about a girl named Sukey meeting a mermaid named Mama Jo.",
+          "statement_id": "Dalam cerita rakyat Amerika Hitam, orang Gullah Geechee di Carolina Lowcountry punya cerita anak berjudul Sukey and the Mermaid tentang gadis bernama Sukey yang bertemu putri duyung bernama Mama Jo.",
+          "quote": "In Black American folklore, the Gullah Geechee people in the Carolina Lowcountry have a children's story called Sukey and the Mermaid about a girl named Sukey meeting a mermaid named Mama Jo.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c15",
+          "source_id": "simbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the story Mama Jo helps and protects Sukey and supported her financially by giving her gold coins.",
+          "statement_id": "Dalam cerita itu, Mama Jo menolong dan melindungi Sukey serta mendukungnya secara finansial dengan memberinya koin emas.",
+          "quote": "Mama Jo in the story helps and protects Sukey and financially supported her by giving her gold coins.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c16",
+          "source_id": "simbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the source, this story comes from the belief in Simbi spirits in Central Africa that came to the United States during the Atlantic slave trade.",
+          "statement_id": "Menurut sumber itu, cerita ini berasal dari kepercayaan pada roh Simbi di Afrika Tengah yang dibawa ke Amerika Serikat pada masa perdagangan budak Atlantik.",
+          "quote": "This story comes from the belief in Simbi spirits in Central Africa that came to the United States during the Atlantic slave trade.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c17",
+          "source_id": "simbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Africa, Simbi nature spirits protect and provide riches to their followers.",
+          "statement_id": "Di Afrika, roh alam Simbi melindungi dan memberi kekayaan kepada para pengikutnya.",
+          "quote": "In Africa, Simbi nature spirits protect and provide riches to their followers.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c18",
+          "source_id": "simbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Though often called lwa, bisimbi such as Mami Wata, Nsimba and Nzuzi are still nlongo, or sacred, in traditional Haitian spirituality and culture.",
+          "statement_id": "Meski sering disebut lwa, bisimbi seperti Mami Wata, Nsimba, dan Nzuzi tetap nlongo, atau sakral, dalam spiritualitas dan budaya tradisional Haiti.",
+          "quote": "Though often referred to as lwa, bisimbi such as Mami Wata, Nsimba and Nzuzi are still nlongo, or sacred, in traditional Haitian spirituality and culture.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c19",
+          "source_id": "simbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Afro-Cuban religion called Palo, bisimbi are called both Nkitas and Mpungus.",
+          "statement_id": "Dalam agama Afro-Kuba bernama Palo, bisimbi disebut Nkitas dan Mpungus.",
+          "quote": "In an Afro-Cuban religion called Palo, bisimbi are called both Nkitas and Mpungus",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c20",
+          "source_id": "simbi-s1",
+          "host": "en.wikipedia.org",
+          "statement": "They are believed to be guardians of all of nature, including lakes, forests or mountains.",
+          "statement_id": "Mereka dipercaya sebagai penjaga seluruh alam, termasuk danau, hutan, atau gunung.",
+          "quote": "They are believed to be guardians of all of nature, including lakes, forests or mountains.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c21",
+          "source_id": "simbi-s2",
+          "host": "southernspaces.org",
+          "statement": "According to the review, the simbi inhabit the natural world, just as elements of the natural world such as rocks and springs compose the spiritual landscape.",
+          "statement_id": "Menurut ulasan itu, simbi mendiami dunia alam, sebagaimana unsur alam seperti batu dan mata air membentuk lanskap spiritual.",
+          "quote": "the simbi inhabit the natural world, just as elements of the natural world, such as rocks and springs, compose the spiritual landscape.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c22",
+          "source_id": "simbi-s2",
+          "host": "southernspaces.org",
+          "statement": "According to the review, sacred stories present varied understandings of nature spirits as powerful guardians of human livelihood, spiritual experts (banganga) transitioned to the land of the dead, initiators of migrations, primordial inhabitants of natural formations, facilitators of natural disasters and catalysts of illness.",
+          "statement_id": "Menurut ulasan itu, kisah-kisah suci menyajikan beragam pemahaman tentang roh alam: penjaga penghidupan manusia yang kuat, ahli spiritual (banganga) yang beralih ke alam orang mati, pemrakarsa migrasi, penghuni purba bentukan alam, penyebab bencana alam, dan pemicu penyakit.",
+          "quote": "Sacred stories present the varied understandings of nature spirits as powerful guardians of human livelihood, spiritual experts (banganga) transitioned to the land of the dead, initiators of migrations, primordial inhabitants of natural formations, facilitators of natural disasters, and catalysts of illness.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c23",
+          "source_id": "simbi-s2",
+          "host": "southernspaces.org",
+          "statement": "According to the review, as guardians of the landscape the simbi sanctioned and ensured the success of subsistence activities.",
+          "statement_id": "Menurut ulasan itu, sebagai penjaga lanskap, simbi merestui dan menjamin keberhasilan kegiatan mencari nafkah.",
+          "quote": "As the guardians of the landscape, the simbi sanctioned and ensured the success of subsistence activities.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c24",
+          "source_id": "simbi-s2",
+          "host": "southernspaces.org",
+          "statement": "According to the review, some continental Africans began to understand the simbi as executors of misfortune and sought to harness their powers through capture, while Lowcountry Africans used the simbi to construct a sense of place amid captivity and displacement.",
+          "statement_id": "Menurut ulasan itu, sebagian orang Afrika di benua itu mulai memahami simbi sebagai pelaksana kemalangan dan berusaha memanfaatkan kekuatannya lewat penangkapan, sedangkan orang Afrika di Lowcountry memakai simbi untuk membangun rasa tempat di tengah penawanan dan keterasingan.",
+          "quote": "While some continental Africans began to understand the simbi as executors of misfortune and sought to harness their powers through capture, Lowcountry Africans used the simbi to construct a sense of place amid captivity and displacement.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c25",
+          "source_id": "simbi-s2",
+          "host": "southernspaces.org",
+          "statement": "According to the review, the simbi's place in the space between the land of the living and the land of the dead enabled them to assume the social function of familial ancestors.",
+          "statement_id": "Menurut ulasan itu, tempat simbi di ruang antara alam orang hidup dan alam orang mati memungkinkan mereka mengambil fungsi sosial leluhur keluarga.",
+          "quote": "Yet the simbi's inhabitance of the space between the land of the living and the land of the dead enabled them to assume the social function of familial ancestors.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "simbi-c26",
+          "source_id": "simbi-s2",
+          "host": "southernspaces.org",
+          "statement": "According to the review, the simbi, nkisi and nkita are all \"spirits of place\", spirits of similar function in different regions of West and West-Central Africa.",
+          "statement_id": "Menurut ulasan itu, simbi, nkisi, dan nkita semuanya \"roh tempat\", roh dengan fungsi serupa di wilayah berbeda di Afrika Barat dan Afrika Tengah-Barat.",
+          "quote": "The simbi, nkisi, and nkita are all \"spirits of place\"; they are spirits of similar function in different regions of West and West-Central Africa.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "1ccd334610cd53769aae8d84d8f0bee8e3a13d111b29fb4c6eccdbe2b1ab2b79"
+      "images": []
     },
     {
       "slug": "underwater-panther",
