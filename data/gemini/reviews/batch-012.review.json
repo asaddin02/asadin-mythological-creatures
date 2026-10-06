@@ -1,28 +1,24 @@
 {
   "batch_id": "batch-012",
-  "checked_at": "2026-09-29T12:37:44.304Z",
+  "checked_at": "2026-10-06T15:10:38.635Z",
   "files": [
-    "batch-012.md"
+    "batch-012.md",
+    "batch-012-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
   "entries": [
     {
       "slug": "kapre",
-      "file": "batch-012.md",
+      "file": "batch-012-fix-1.md",
+      "entry_sha256": "f1484427989f2bebf3b081c9252cc19009168137e1926ff81f4b5a053f795717",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 2,
+        "claims": 30,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 8 klaim (target 15), 2 sumber (target 3), 1 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kapre-c01",
@@ -38,8 +34,8 @@
           "id": "kapre-c02",
           "source_id": "kapre-s1",
           "host": "en.wikipedia.org",
-          "statement": "Kapre comes from Arabic kafir (Spanish cafre), 'non-believer', brought to the Philippines by the Spanish; a synonym is agtà; modern kapre portrayals evolved from racially prejudiced depictions of Negrito tribes by Christianized lowlanders in the Spanish period.",
-          "statement_id": "Istilah kapre berasal dari bahasa Arab kafir (Spanyol cafre), 'orang tak beriman', dibawa ke Filipina oleh orang Spanyol; sinonim kapre adalah agtà; penggambaran kapre modern berkembang dari penggambaran berprasangka rasial terhadap suku Negrito oleh kelompok dataran rendah yang dikristenkan pada masa Spanyol.",
+          "statement": "The term kapre comes from Arabic kafir (Spanish cafre), meaning a non-believer, and was later brought to the Philippines by the Spanish.",
+          "statement_id": "Istilah kapre berasal dari bahasa Arab kafir (Spanyol cafre), yang berarti orang yang tidak beriman, dan kemudian dibawa ke Filipina oleh orang Spanyol.",
           "quote": "The term kapre comes from the Arabic kafir (Spanish cafre), meaning a non-believer in Arabic (usually referring to atheists/idolists). The term was later brought to the Philippines by the Spanish",
           "context": "etymology",
           "status": "exact"
@@ -48,8 +44,8 @@
           "id": "kapre-c03",
           "source_id": "kapre-s1",
           "host": "en.wikipedia.org",
-          "statement": "Kapres are believed nocturnal and omnivorous, not necessarily evil, but vengeful if their tree is cut down; a kapre attracted to a woman may follow her throughout life.",
-          "statement_id": "Kapre dipercaya aktif malam hari dan omnivora, tidak selalu jahat, tetapi dapat menjadi pendendam bila pohon tempat tinggalnya ditebang; kapre yang tertarik pada perempuan dapat terus mengikutinya seumur hidup.",
+          "statement": "Kapres are believed to be nocturnal and omnivorous, not necessarily considered evil, but they may turn vengeful when the tree they inhabit is cut down.",
+          "statement_id": "Kapre dipercaya aktif pada malam hari dan omnivora, tidak selalu dianggap jahat, tetapi dapat menjadi pendendam bila pohon tempat tinggalnya ditebang.",
           "quote": "Kapres are believed to be nocturnal and omnivorous. They are not necessarily considered to be evil. However, they may turn vengeful when the tree that they are inhabiting is cut down.",
           "context": "traditional-belief",
           "status": "exact"
@@ -98,10 +94,230 @@
           "id": "kapre-c08",
           "source_id": "kapre-s1",
           "host": "en.wikipedia.org",
-          "statement": "Signs of a kapre include rustling branches without strong wind, loud laughter from an unseen being, heavy smoke from a treetop and big red glaring eyes in a tree at night.",
-          "statement_id": "Tanda kehadiran kapre antara lain dahan bergoyang meski angin tidak kencang, tawa keras dari sosok tak terlihat, asap tebal dari puncak pohon, dan mata merah besar menyala di pohon pada malam hari.",
-          "quote": "Some more examples would be hearing loud laughter coming from an unseen being, witnessing much smoke from the top of a tree, seeing big red glaring eyes during night time from a tree",
+          "statement": "Reported signs of a kapre include rustling tree branches even when the wind is not strong, loud laughter from an unseen being, thick smoke from the top of a tree, and big red glaring eyes in a tree at night.",
+          "statement_id": "Laporan tentang tanda kehadiran kapre antara lain dahan pohon yang bergoyang meski angin tidak kencang, tawa keras dari sosok yang tak terlihat, asap tebal dari puncak pohon, dan mata merah besar yang menyala di pohon pada malam hari.",
+          "quote": "Reports of experiencing Kapre enchantment include that of witnessing rustling tree branches, even if the wind is not strong. Some more examples would be hearing loud laughter coming from an unseen being, witnessing thick smoke from the top of a tree, seeing big red glaring eyes during night time from a tree",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c09",
+          "source_id": "kapre-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Spanish, who had earlier contact with the Moors, used the term for the dark-skinned indigenous Negrito groups; a synonym for kapre is agtà, another name for the Aeta people.",
+          "statement_id": "Orang Spanyol, yang sebelumnya berhubungan dengan bangsa Moor, memakai istilah itu untuk menyebut kelompok Negrito pribumi berkulit gelap; sinonim kapre adalah agtà, nama lain bagi orang Aeta.",
+          "quote": "who had previous contact with the Moors, they used it to describe the indigenous Negrito ethnic groups with dark skin and features similar to Black Africans. This is also apparent in the fact that a synonym for kapre is agtà, another name for the Aeta people.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c10",
+          "source_id": "kapre-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Modern mythical characterizations of the kapre evolved from formerly racially prejudiced portrayals of Negrito tribes by the lowland Christianized ethnic groups during the Spanish period.",
+          "statement_id": "Penggambaran mitos kapre modern berkembang dari penggambaran yang dahulu berprasangka rasial terhadap suku Negrito oleh kelompok etnis dataran rendah yang telah dikristenkan pada masa Spanyol.",
+          "quote": "The modern mythical characterizations of the kapre evolved from formerly racially prejudiced portrayals of Negrito tribes by the lowland Christianized ethnic groups of the Philippines during the Spanish period.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c11",
+          "source_id": "kapre-s1",
+          "host": "en.wikipedia.org",
+          "statement": "A kapre may approach people to make friends or when it is attracted to a woman; if it befriends a human, especially out of love, it drives the person away with its negative aura yet keeps trying to follow its \"love interest\" throughout life.",
+          "statement_id": "Kapre dapat mendekati orang untuk berteman atau ketika tertarik pada seorang perempuan; bila berteman dengan manusia, terutama karena cinta, ia mengusir orang itu dengan aura negatifnya tetapi tetap berusaha mengikuti orang yang dicintainya seumur hidup.",
+          "quote": "A Kapre may approach people to form a friendship or when it becomes attracted to a woman. If a Kapre befriends a human, especially because of love, the Kapre will drive them away because of his negative aura and still try to consistently follow its \"love interest\" throughout life.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c12",
+          "source_id": "kapre-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Kapres are said to dwell in big trees such as acacias, mangoes, bamboo and banyan (balete in the Philippines), and are commonly seen sitting beneath those trees.",
+          "statement_id": "Kapre dikatakan tinggal di pohon besar seperti akasia, mangga, bambu, dan beringin (balete di Filipina), dan sering terlihat duduk di bawah pohon-pohon itu.",
+          "quote": "Kapres are said to dwell in big trees like acacias, mangoes, bamboo, and banyan (known in the Philippines as balete). It is also commonly observed sitting beneath those trees.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c13",
+          "source_id": "kapre-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The kapre is said to wear the northern Philippine loincloth known as bahag and, according to some, often wears a belt that lets it go unseen by humans.",
+          "statement_id": "Kapre dikatakan memakai cawat bahag dari Filipina utara, dan menurut sebagian orang sering memakai sabuk yang membuatnya tak terlihat oleh manusia.",
+          "quote": "The Kapre is said to wear the indigenous Northern Philippine loincloth known as bahag, and according to some, often wears a belt which gives the kapre the ability to be unseen to humans.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c14",
+          "source_id": "kapre-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In some versions the kapre holds a magical white stone slightly smaller than a quail egg; whoever obtains the stone can have wishes granted by the kapre.",
+          "statement_id": "Dalam sebagian versi kapre memegang batu putih ajaib yang sedikit lebih kecil daripada telur puyuh; siapa pun yang memperoleh batu itu dapat memperoleh pengabulan permintaan dari kapre.",
+          "quote": "In some versions, the kapre is supposed to hold a magical white stone, a little smaller in size than a quail egg. Should any person happen to obtain this stone, the kapre can grant wishes.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c15",
+          "source_id": "kapre-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is also believed that abundant fireflies in wooded areas are the embers of the kapre's lit cigars or tobacco pipe.",
+          "statement_id": "Dipercaya pula bahwa kunang-kunang yang melimpah di daerah berhutan adalah bara cerutu atau pipa tembakau kapre yang menyala.",
+          "quote": "It is also believed that abundant fireflies in woody areas are the embers from the Kapre's lit cigars or tobacco pipe.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c16",
+          "source_id": "kapre-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In a 1955 article about the creatures of Philippine mythology, the painter Carlos \"Botong\" Francisco described the kapre as a giant with an ugly face and hairy arms who dwells in a lightning-scarred acacia or a fruitless mango.",
+          "statement_id": "Dalam artikel tahun 1955 tentang makhluk mitologi Filipina, pelukis Carlos \"Botong\" Francisco menggambarkan kapre sebagai raksasa berwajah buruk dan berlengan berbulu yang tinggal di pohon akasia bekas tersambar petir atau mangga yang tak berbuah.",
+          "quote": "In a 1955 article about the creatures of Philippine mythology, painter Carlos \"Botong\" Francisco described the kapre as \"a giant with an ugly face and hairy arms, who dwells in lightning-scarred acacia or fruitless mango.\"",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c17",
+          "source_id": "kapre-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the 1950s, among the earliest issues of the Darna superhero comics by Mars Ravelo and Nestor Redondo, a kapre was featured being fought by the title hero.",
+          "statement_id": "Pada 1950-an, di antara terbitan paling awal komik pahlawan super Darna karya Mars Ravelo dan Nestor Redondo, tampil seekor kapre yang dilawan sang pahlawan.",
+          "quote": "In the 1950s, among the earliest issues of the Darna superhero comics by Mars Ravelo and Nestor Redondo featured a kapre being fought by the titular superhero.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c18",
+          "source_id": "kapre-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the 2000 romantic drama film Pangarap ng Puso directed by Mario O'Hara, a kapre appears sporadically amid scenes of political turmoil.",
+          "statement_id": "Dalam film drama romantis tahun 2000 Pangarap ng Puso karya sutradara Mario O'Hara, seekor kapre sesekali muncul di tengah adegan gejolak politik.",
+          "quote": "In the 2000 romantic drama film Pangarap ng Puso directed by Mario O'Hara, a kapre appears sporadically in the film amidst scenes of political turmoil.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c19",
+          "source_id": "kapre-s3",
+          "host": "simbolismo.org",
+          "statement": "The journal abstract says the kapre is generally depicted as a tall, hairy giant sitting in trees and smoking a large cigar or tabako, and is typically nocturnal and omnivorous.",
+          "statement_id": "Abstrak jurnal menyebut kapre umumnya digambarkan sebagai raksasa tinggi berbulu yang duduk di pohon dan mengisap cerutu besar atau tabako, serta biasanya aktif malam hari dan omnivora.",
+          "quote": "It is generally depicted as a tall, hairy giant sitting in trees and smoking a large cigar or tabako. It is typically nocturnal and omnivorous.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c20",
+          "source_id": "kapre-s3",
+          "host": "simbolismo.org",
+          "statement": "The same abstract says the kapre is often mischievous (leading people astray and scaring off children) and not always considered inherently evil, yet part of it is ominous and sinister.",
+          "statement_id": "Abstrak yang sama menyatakan kapre sering usil (menyesatkan orang dan menakuti anak-anak), tidak selalu dianggap jahat pada dasarnya, tetapi sebagian dirinya tetap mengancam dan menyeramkan.",
+          "quote": "While often mischievous (leading people astray and scaring off children), it is not always considered inherently evil; however, a part of it is ominous and sinister.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c21",
+          "source_id": "kapre-s4",
+          "host": "somaverge.apc.edu.ph",
+          "statement": "According to this thesis, the best-known kapre in the Philippines is Mr. Brown, reported to live in the 100-year-old balete tree at the main entrance of Malacañang Palace.",
+          "statement_id": "Menurut tesis ini, kapre paling terkenal di Filipina adalah Mr. Brown, yang dilaporkan tinggal di pohon balete berumur 100 tahun di pintu masuk utama Istana Malacañang.",
+          "quote": "The most well-known Kapre in the Philippines is Mr. Brown, who is reported to reside in the 100-year-old balete tree at the main entrance of Malacañang Palace",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c22",
+          "source_id": "kapre-s4",
+          "host": "somaverge.apc.edu.ph",
+          "statement": "Staff sometimes call Mr. Brown \"Mr. Jones\" and regard him as a kind but harmless prankster.",
+          "statement_id": "Pegawai kadang menyebut Mr. Brown sebagai Mr. Jones dan memandangnya sebagai pengusil yang baik tetapi tidak berbahaya.",
+          "quote": "The personnel sometimes refer to Mr. Brown as Mr. Jones and view him as a kind but harmless prankster.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c23",
+          "source_id": "kapre-s2",
+          "host": "www.aswangproject.com",
+          "statement": "Fletcher Gardner, an American teacher and collector who published Tagalog material from Mindoro in the Journal of American Folklore, described the kapre in 1906 as a benign monster, gigantic in size and perfectly black.",
+          "statement_id": "Fletcher Gardner, guru dan kolektor Amerika yang menerbitkan bahan Tagalog dari Mindoro dalam Journal of American Folklore, pada 1906 menyebut kapre sebagai monster yang jinak, berukuran raksasa, dan sepenuhnya hitam.",
+          "quote": "Fletcher Gardner, 1906 Fletcher Gardner was an American teacher and collector who published Tagalog material from Mindoro in the Journal of American Folklore. ... Another monster, but a benign one, is the kapre. It is gigantic in size … and is perfectly black.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c24",
+          "source_id": "kapre-s2",
+          "host": "www.aswangproject.com",
+          "statement": "Isabelo de los Reyes, an Ilokano writer and folklorist, described in his 1909 study a large dark Pugot believed to inhabit abandoned houses.",
+          "statement_id": "Isabelo de los Reyes, penulis dan ahli cerita rakyat Ilokano, pada 1909 dalam kajiannya menggambarkan Pugot sebagai makhluk besar berkulit gelap yang dipercaya menghuni rumah-rumah kosong.",
+          "quote": "Isabelo de los Reyes and the Pugot, 1909 Isabelo de los Reyes was an Ilokano writer, folklorist, and political figure whose study described a large dark Pugot believed to inhabit abandoned houses",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c25",
+          "source_id": "kapre-s2",
+          "host": "www.aswangproject.com",
+          "statement": "Jean-Paul G. Potet argues that nineteenth-century Tagalog usage applied the name Kapre to this Ilokano figure; whether the transfer occurred exactly as he proposes remains open to testing.",
+          "statement_id": "Jean-Paul G. Potet berpendapat bahwa pemakaian bahasa Tagalog abad kesembilan belas menerapkan nama kapre pada sosok Ilokano ini; apakah peralihan itu terjadi persis seperti usulnya masih terbuka untuk diuji.",
+          "quote": "Jean-Paul G. Potet, a linguist and historian of Tagalog language and culture, argues in Ancient Beliefs and Customs of the Tagalogs that nineteenth-century Tagalog usage applied Kapre to this Ilokano figure. Whether the transfer occurred exactly as Potet proposes remains open to testing",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c26",
+          "source_id": "kapre-s2",
+          "host": "www.aswangproject.com",
+          "statement": "The page's author proposes that the Kapre may not be one ancient figure that spread unchanged, but a later national composite formed when a widely understood name absorbed traits from regional traditions; he calls this his own historical synthesis, not a settled academic consensus.",
+          "statement_id": "Penulis laman ini mengusulkan bahwa kapre mungkin bukan satu sosok kuno yang menyebar tanpa berubah, melainkan komposit nasional yang kemudian terbentuk ketika nama yang dikenal luas menyerap ciri dari tradisi daerah; ia menyebutnya sintesis sejarahnya sendiri, bukan konsensus akademik yang mapan.",
+          "quote": "The Kapre may not be one ancient figure that spread unchanged across the country. It may be a later national composite formed when a widely understood name absorbed characteristics from regional traditions. This is my historical synthesis, not a settled academic consensus.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c27",
+          "source_id": "kapre-s2",
+          "host": "www.aswangproject.com",
+          "statement": "Northern accounts of the Ilokano Pugot include a large, dark, tree-associated being with cigar imagery; the motif may have passed from older Pugot narratives into the nationally standardized Kapre.",
+          "statement_id": "Catatan utara tentang Pugot Ilokano memuat makhluk besar, gelap, terkait pohon, dengan citra cerutu; motif itu mungkin beredar dari kisah Pugot yang lebih tua ke kapre yang dibakukan secara nasional.",
+          "quote": "Northern accounts of the Ilokano Pugot include a large, dark, tree-associated being with cigar imagery. The motif may have circulated from older Pugot narratives into the nationally standardized Kapre.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c28",
+          "source_id": "kapre-s2",
+          "host": "www.aswangproject.com",
+          "statement": "In popular accounts the kapre is a giant humanlike being living in a large tree, often a balete, acacia or mango; it may be detected by the smell of tobacco, the glow of a cigar, laughter, falling ash or the sense of being watched.",
+          "statement_id": "Dalam kisah populer kapre adalah makhluk raksasa mirip manusia yang tinggal di pohon besar, sering balete, akasia, atau mangga; kehadirannya dapat dikenali dari bau tembakau, nyala cerutu, tawa, abu yang jatuh, atau perasaan sedang diawasi.",
+          "quote": "In popular accounts, the Kapre is a giant humanlike being that inhabits a large tree, often a balete, acacia, or mango. It may be detected through the smell of tobacco, the glow of a cigar, laughter, falling ash, or the sense of being watched.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c29",
+          "source_id": "kapre-s2",
+          "host": "www.aswangproject.com",
+          "statement": "Eastern Visayan narratives also describe an Agta associated with trees, forests, great size and dark appearance.",
+          "statement_id": "Kisah-kisah Visayas Timur juga menggambarkan Agta yang terkait dengan pohon, hutan, ukuran besar, dan penampilan gelap.",
+          "quote": "Eastern Visayan narratives also describe an Agta associated with trees, forests, great size, and dark appearance.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kapre-c30",
+          "source_id": "kapre-s2",
+          "host": "www.aswangproject.com",
+          "statement": "The page's author states that the Eastern Visayan figure is not automatically a subtype of Kapre.",
+          "statement_id": "Penulis laman ini menyatakan sosok Visayas Timur itu tidak otomatis merupakan subtipe kapre.",
+          "quote": "The Eastern Visayan figure is not automatically a subtype of Kapre.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -109,20 +325,15 @@
     },
     {
       "slug": "krahang",
-      "file": "batch-012.md",
+      "file": "batch-012-fix-1.md",
+      "entry_sha256": "73be99219f58ded8f7813ee3605824523b35b04391c8b73d597b92f4f08b2165",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 17,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 6 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "krahang-c01",
@@ -183,25 +394,131 @@
           "quote": "Krahang is a popular folk spirit that has been featured in the 1991 Thai film Kahang",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "krahang-c07",
+          "source_id": "krahang-s2",
+          "host": "th.wiktionary.org",
+          "statement": "The Thai Wiktionary entry describes the krahang as a ghost regarded as possessing a man; it is believed to have been a man who studied potent magic and then grew wings and a tail.",
+          "statement_id": "Entri Wiktionary bahasa Thai menyebut krahang sebagai hantu yang dianggap merasuki tubuh laki-laki; dipercaya semula seorang laki-laki yang menguasai ilmu gaib kuat lalu bersayap dan berekor.",
+          "quote": "ผีชนิดหนึ่งที่ถือว่าเข้าสิงในตัวผู้ชาย เชื่อกันว่าเดิมเป็นผู้ชายที่เรียนวิชาอาคมแก่กล้าเข้าก็มีปีกมีหาง จะไปไหนก็ใช้กระด้งต่างปีก",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "krahang-c08",
+          "source_id": "krahang-s2",
+          "host": "th.wiktionary.org",
+          "statement": "The same entry says that wherever it goes the krahang uses a winnowing basket (kradong) as wings, a rice-pounding pestle as legs and a grinding pestle as a tail.",
+          "statement_id": "Menurut entri yang sama, ke mana pun pergi krahang memakai tampah (kradong) sebagai sayap, alu penumbuk padi sebagai kaki, dan alu penggiling (sak kabue dalam bahasa Thai) sebagai ekor.",
+          "quote": "จะไปไหนก็ใช้กระด้งต่างปีก สากตำข้าวต่างขา สากกะเบือต่างหาง",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "krahang-c09",
+          "source_id": "krahang-s2",
+          "host": "th.wiktionary.org",
+          "statement": "The krahang is described as fond of eating filth and is paired with the krasue, which possesses a woman.",
+          "statement_id": "Krahang digambarkan suka memakan benda kotor dan berpasangan dengan krasue, yang merasuki tubuh perempuan.",
+          "quote": "ชอบกินของโสโครก, คู่กับ กระสือ ซึ่งเข้าสิงในตัวผู้หญิง",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "krahang-c10",
+          "source_id": "krahang-s3",
+          "host": "www.finearts.go.th",
+          "statement": "A Thai cultural-agency web page says the krahang possesses men, is said to come from a person with potent magic, is of the same kind as the krasue, likes filthy food, and has wings and a tail.",
+          "statement_id": "Sebuah laman lembaga kebudayaan Thailand menyebut hantu krahang merasuki laki-laki, dikisahkan berasal dari orang berilmu gaib kuat, sejenis dengan krasue, suka makanan kotor, serta bersayap dan berekor.",
+          "quote": "ผีกระหัง เป็นผีชนิดหนึ่งที่เข้าสิงในตัวผู้ชาย เล่าว่าเกิดจากคนที่มีวิชาอาคมแก่กล้า กลายเป็นกระหัง เป็นจำพวกเดียวกับกระสือชอบกินของโสโครก มีปีกและหาง",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "krahang-c11",
+          "source_id": "krahang-s3",
+          "host": "www.finearts.go.th",
+          "statement": "The same source describes the krasue as a ghost that likes filthy food, goes out feeding at night, and detaches its body so that only its innards float away.",
+          "statement_id": "Sumber yang sama menguraikan krasue sebagai hantu yang suka memakan benda kotor, mencari makan pada malam hari, dan melepaskan tubuhnya sehingga hanya isi perutnya yang melayang.",
+          "quote": "ผีกระสือ เป็นผีชนิดหนึ่งชอบกินอาจมและมักเข้ามาอาศัยร่างคนอื่น ผู้ที่ถูกผีสิงจะไม่กล้าสบตากับคนอื่น ๆ จะออกหากินในยามค่ำคืน โดยถอดร่างกายลอยไปเฉพาะตับไตไส้พุง",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "krahang-c12",
+          "source_id": "krahang-s4",
+          "host": "th.wikipedia.org",
+          "statement": "Thai Wikipedia says the krahang is also called krahang (กระหาง), a male spirit of Thai belief paired with the female krasue.",
+          "statement_id": "Wikipedia bahasa Thai menyebut krahang juga dinamai krahang (กระหาง), hantu laki-laki menurut kepercayaan orang Thai yang berpasangan dengan krasue yang perempuan.",
+          "quote": "กระหัง หรืออีกชื่อหนึ่งเรียกว่า กระหาง เป็นผีตามความเชื่อของคนไทย เป็นผีผู้ชาย คู่กับผีกระสือ ซึ่งเป็นผู้หญิง",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "krahang-c13",
+          "source_id": "krahang-s4",
+          "host": "th.wikipedia.org",
+          "statement": "The person who becomes a krahang is believed to be one who practises occult arts; when the power grows too strong to control it enters him and he becomes a krahang.",
+          "statement_id": "Dipercaya orang yang menjadi krahang adalah orang yang menekuni ilmu gaib; ketika kesaktiannya kuat dan tak terkendali, ilmu itu masuk ke dirinya dan ia menjadi krahang.",
+          "quote": "เชื่อกันว่าผู้ที่เป็นผีกระหังนั้น จะเป็นผู้ที่เล่นไสยศาสตร์ เมื่ออาคมแกร่งกล้าไม่สามารถควบคุมได้ก็จะเข้าตัว กลายเป็นผีกระหังไป",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "krahang-c14",
+          "source_id": "krahang-s4",
+          "host": "th.wikipedia.org",
+          "statement": "It is not known when belief in the krahang arose, and it does not appear in the provision on accepting suits in the Three Seals Law.",
+          "statement_id": "Tidak diketahui kapan kepercayaan tentang krahang muncul, dan krahang tidak tercantum dalam pasal tentang penerimaan gugatan dalam Hukum Tiga Segel.",
+          "quote": "กลายเป็นผีกระหังไป คติความเชื่อเรื่องผีกระหังมีขึ้นเมื่อใดไม่เป็นที่ทราบ และไม่ปรากฏในพระอัยการลักษณะรับฟ้องในกฎหมายตราสามดวง",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "krahang-c15",
+          "source_id": "krahang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In July 2017 an 18-year-old girl in Buriram Province claimed to have seen a krahang at night through a gap near the ceiling of her home restroom, a large man with wings sprouting from his back.",
+          "statement_id": "Pada Juli 2017 seorang gadis 18 tahun di Buriram mengaku melihat krahang lewat celah dekat plafon kamar mandi rumahnya pada malam hari; sosoknya laki-laki besar dengan sayap tumbuh dari punggung.",
+          "quote": "In July 2017, an 18-year-old girl from Nong Plong, Chamni District, Buriram Province, claimed that while she was in the restroom of her house at night, just before closing her eyes, she saw a Krahang through a gap near the ceiling. It appeared as a large man with wings sprouting from his back.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "krahang-c16",
+          "source_id": "krahang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Representations of the krahang, mostly humorous, are very common in Thai comic books, and a benevolent krahang has a role in the animated film Nak.",
+          "statement_id": "Penggambaran krahang, kebanyakan jenaka, sangat umum di komik Thailand, dan krahang yang baik hati berperan dalam film animasi Nak.",
+          "quote": "Representations of Krahang, mostly humorous, are very common in Thai comic books. A benevolent Krahang has a role as well in the Nak animated movie.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "krahang-c17",
+          "source_id": "krahang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The krahang was adapted as a funny character in the folk-style television series Thep Sarm Rudoo, made in 1987, 2003 and 2017, and in a Sylvania light bulb commercial for Thai audiences.",
+          "statement_id": "Krahang diadaptasi menjadi tokoh lucu dalam serial televisi bergaya rakyat Thep Sarm Rudoo yang dibuat pada 1987, 2003, dan 2017, serta tampil dalam iklan bohlam Sylvania untuk penonton Thailand.",
+          "quote": "and was adapted as a funny character in Thep Sarm Rudoo (เทพสามฤดู) a folk-style television series that was made in 1987, 2003 and 2017, as well as in a Sylvania light bulb commercial for Thai audiences.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "nang-ta-khian",
-      "file": "batch-012.md",
+      "file": "batch-012-fix-1.md",
+      "entry_sha256": "04bda906481c2bf630a5c7c4a7018a902bb9e387ba3947e333daf855ed62cfb9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 8,
-        "sources": 1,
+        "claims": 24,
+        "sources": 4,
         "images": 2
       },
       "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 8 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
         {
           "level": "manual",
           "where": "images[0] (File:Nang Takhian1cXRF.jpg)",
@@ -293,6 +610,166 @@
           "quote": "This folk spirit is featured in the 2003 Thai film Ta-khian (\"The Haunted Tree\"), with Sorapong Chatree",
           "context": "modern-popular-culture",
           "status": "exact"
+        },
+        {
+          "id": "nang-ta-khian-c09",
+          "source_id": "nang-ta-khian-s2",
+          "host": "so04.tci-thaijo.org",
+          "statement": "The journal article says that in Thai culture the ta-khian tree is explained through belief in sacred things and tree deities (rukkhadeva), adapted into the spirit of a woman dwelling in the ta-khian tree.",
+          "statement_id": "Artikel jurnal ini menyatakan bahwa dalam budaya Thai pohon ta-khian dijelaskan lewat kepercayaan tentang hal-hal sakral dan dewa pohon (rukkhadeva), yang disesuaikan menjadi arwah perempuan yang bersemayam di pohon ta-khian.",
+          "quote": "ต้นตะเคียนในวัฒนธรรมไทยก็ถูกอธิบายด้วยความเชื่อเรื่องสิ่ง ศักดิ์สิทธิ์และรุกขเทวดา โดยการปรับเปลี่ยนให้เป็นวิญญาณของผู้หญิงที่สิงในต้นตะเคียน",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nang-ta-khian-c10",
+          "source_id": "nang-ta-khian-s2",
+          "host": "so04.tci-thaijo.org",
+          "statement": "Nang Ta-khian, or Chao Mae Ta-khian, is a local belief that big trees are inhabited by tree deities (rukkhadeva).",
+          "statement_id": "Nang Ta-khian atau Chao Mae Ta-khian adalah kepercayaan setempat bahwa pohon besar dihuni dewa pohon (rukkhadeva).",
+          "quote": "ในกรณีของนางตะเคียนหรือเจ้าแม่ตะเคียน เป็นความเชื่อท้องถิ่นที่ชาวบ้านเชื่อ ว่าต้นไม้ใหญ่จะมีรุกขเทวดาอาศัยอยู่",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-ta-khian-c11",
+          "source_id": "nang-ta-khian-s2",
+          "host": "so04.tci-thaijo.org",
+          "statement": "According to the article, ta-khian trees stand in cemeteries, and bodies buried in their shade are believed to become ghosts of violent death, overseen by the ghost Nang Ta-khian.",
+          "statement_id": "Menurut artikel ini, pohon ta-khian ada di pekuburan, dan dipercaya jenazah yang dikubur di bawah naungannya menjadi hantu yang mati tak wajar, yang diawasi oleh hantu Nang Ta-khian.",
+          "quote": "ซึ่งกล่าวถึง “ผีนางตะเคียน” และการมีอยู่ของต้นตะเคียนในป่าช้า รวมทั้งคาบอกเล่าที่เชื่อกันว่าศพที่ ฝังใต้ร่มเงาต้นตะเคียนจะเป็นศพผีตายโหง และผีนางตะเคียนจะคอยควบคุมดูแล",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-ta-khian-c12",
+          "source_id": "nang-ta-khian-s2",
+          "host": "so04.tci-thaijo.org",
+          "statement": "There is a tale of a \"weeping pillar\" that later gave its name to Sao Hai District in Saraburi Province: a ta-khian pillar from the Pa Sak River was believed to be Nang Ta-khian's dwelling; when it was not chosen as the main pillar of a king's palace in the Rattanakosin period, she grieved, wept and drifted upstream back to that river.",
+          "statement_id": "Ada kisah \"tiang yang menangis\" yang kemudian menjadi nama distrik Sao Hai di Provinsi Saraburi: tiang kayu ta-khian dari Sungai Pa Sak dipercaya tempat bersemayam Nang Ta-khian; ketika tidak dipilih sebagai tiang utama istana raja pada masa Rattanakosin, ia bersedih, menangis, dan hanyut melawan arus kembali ke sungai tersebut.",
+          "quote": "มีเรื่องเล่าเกี่ยวกับเสาร้องไห้ ซึ่งต่อมาเป็นชื่ออาเภอเสาไห้ ในจังหวัดสระบุรี โดยเชื่อว่า เสาต้นตะเคียนที่มาจากแม่น้าป่าสักเป็นที่สิงสถิตของนางตะเคียน แต่เมื่อไม่ถูกเลือกให้เป็น เสาเอกสาหรับสร้างวังของกษัตริย์ในสมัยรัตนโกสินทร์ ก็เกิดความเสียใจจึงร้องไห้และลอย ทวนน้ากลับไปที่แม่น้าป่าสักตามเดิม",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-ta-khian-c13",
+          "source_id": "nang-ta-khian-s2",
+          "host": "so04.tci-thaijo.org",
+          "statement": "A person who shows disrespect to Chao Mae Ta-khian, for example by urinating on a ta-khian stump, is believed to fall ill for no known reason; to recover he must apologise with offerings so that Nang Ta-khian will help him get well.",
+          "statement_id": "Orang yang tidak menghormati Chao Mae Ta-khian, misalnya mengencingi tunggul pohon ta-khian, dipercaya jatuh sakit tanpa sebab yang diketahui; untuk sembuh ia harus memohon maaf dengan sesajen agar Nang Ta-khian membantunya pulih.",
+          "quote": "นอกจากนั้น การหลบลู่เจ้าแม่ตะเคียน เช่น การปัสสาวะรดตอต้นตะเคียนก็จะทาให้คน ๆ นั้นล้มป่วยโดยไม่ทราบสาเหตุ ถ้าจะให้หาย ป่วย จะต้องไปขอขมาด้วยเครื่องเซ่นเพื่อให้นางตะเคียนช่วยให้หายป่วย",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-ta-khian-c14",
+          "source_id": "nang-ta-khian-s2",
+          "host": "so04.tci-thaijo.org",
+          "statement": "According to the article, in the early Rattanakosin period worship of Chao Mae Ta-khian as a sacred and fearsome tree deity and tree nymph was commonly seen locally; remains of ta-khian trees sunk in rivers were worshipped with offerings and a small shrine so that Nang Ta-khian would protect people and grant success.",
+          "statement_id": "Menurut artikel ini, pada awal periode Rattanakosin pemujaan Chao Mae Ta-khian sebagai dewa pohon dan peri pohon yang sakral dan menakutkan lazim ditemui di daerah; sisa pohon ta-khian yang tenggelam di sungai dipuja dengan sesajen dan altar kecil agar Nang Ta-khian melindungi dan memberi keberhasilan.",
+          "quote": "ชี้ให้เห็นว่าในช่วงต้นรัตนโกสินทร์ การกราบ ไหว้บูชาเจ้าแม่ตะเคียนในฐานะเป็นรุกขเทวดาและนางไม้ที่ศักดิ์สิทธิ์และมีความน่ากลัว เป็น เรื่องที่พบเห็นได้ทั่วไปในท้องถิ่น ซึ่งซากต้นตะเคียนที่จมอยู่ในแม่น้าจะถูกนามาบูชาด้วย เครื่องเซ่นสังเวยพร้อมสร้างศาลเพียงตาเพื่อให้นางตะเคียนช่วยคุ้มครองป้องกันและดล บันดาลให้ประสบความสาเร็จในสิ่งที่ต้องการ",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nang-ta-khian-c15",
+          "source_id": "nang-ta-khian-s2",
+          "host": "so04.tci-thaijo.org",
+          "statement": "Ta-khian wood made into a house post that oozes oil is called an \"oil-dripping post\"; it is believed to house Nang Ta-khian, and the owner presents offerings so that she will protect and look after the house.",
+          "statement_id": "Kayu ta-khian yang dijadikan tiang rumah dan mengeluarkan getah minyak disebut \"tiang yang menetes minyak\"; dipercaya menjadi tempat bersemayam Nang Ta-khian, dan pemilik rumah menyajikan sesajen agar ia melindungi dan menjaga rumah.",
+          "quote": "ไม้ตะเคียนที่นาไปทาเป็นเสาเรือนและมีน้ามันไหลซึมออกมา ชาวบ้านเรียกว่า “เสาตกน้ามัน” ซึ่งเชื่อว่าเป็นที่สิงสถิตของวิญญาณของผีนางตะเคียน มีความเฮี้ยน เจ้าของบ้านจะนาเครื่องเซ่นไหว้มาบูชาเสาตกน้ามัน เพื่อให้ผีนางตะเคียนคุ้มครองและดูแล บ้าน",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-ta-khian-c16",
+          "source_id": "nang-ta-khian-s2",
+          "host": "so04.tci-thaijo.org",
+          "statement": "The article discusses Nang Ta-khian's change of status from tree nymph to a goddess (chao mae), seen in accounts of her appearing in dreams and asking for the submerged ta-khian log to be raised so she has a more comfortable dwelling.",
+          "statement_id": "Artikel ini membahas peralihan status Nang Ta-khian dari peri pohon menjadi dewi (chao mae), yang terlihat dari kisah ia muncul dalam mimpi dan meminta batang ta-khian yang terendam diangkat agar ia mendapat tempat tinggal yang lebih nyaman.",
+          "quote": "หากพิจารณาการเปลี่ยนฐานะของนางตะเคียนที่เป็นนางไม้ไปสู่การเป็นเจ้าแม่ อาจดูได้จากเหตุการณ์ที่นางตะเคียนมาเข้าฝันมนุษย์ และบอกให้นาต้นตะเคียนที่จมอยู่ใน น้าหรือในบ่อขึ้นมา เพื่อที่จะทาให้นางตะเคียนมีที่อยู่ที่สบายกว่าเดิม",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nang-ta-khian-c17",
+          "source_id": "nang-ta-khian-s2",
+          "host": "so04.tci-thaijo.org",
+          "statement": "The article's abstract states that the Ta-Khian Goddess is culturally embodied as a \"beautiful woman\" under the power/knowledge structure of nationalism, rationalism and capitalism that has been stable in Thai society since the 1960s.",
+          "statement_id": "Abstrak artikel menyatakan bahwa Dewi Ta-khian secara budaya diwujudkan sebagai \"perempuan cantik\" di bawah struktur kuasa/pengetahuan nasionalisme, rasionalisme, dan kapitalisme yang mapan dalam masyarakat Thai sejak 1960-an.",
+          "quote": "It is found that Ta-Khian Goddess is culturally embodied as “beautiful woman” under the implicit power/knowledge structure of nationalism, rationalism and capitalism stabilized Thai society since 1960s.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nang-ta-khian-c18",
+          "source_id": "nang-ta-khian-s2",
+          "host": "so04.tci-thaijo.org",
+          "statement": "The same abstract states that the ritual worship of the Ta-Khian Goddess in local communities shows a merging of modernity and superstition.",
+          "statement_id": "Abstrak yang sama menyatakan bahwa ritual pemujaan Dewi Ta-khian di komunitas lokal menunjukkan perpaduan modernitas dan kepercayaan takhayul.",
+          "quote": "Moreover, the ritual worship of sacred Ta-Khian Goddess found in local communities indicates the adaptive consolidation in which modernity and superstition are merged.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nang-ta-khian-c19",
+          "source_id": "nang-ta-khian-s3",
+          "host": "ssed.nida.ac.th",
+          "statement": "The abstract reports data collected in 10 provinces along the Chaophraya riparian area, finding 164 big Hopea odorata trees, 81 of which were spiritual trees.",
+          "statement_id": "Abstrak penelitian ini menyebut pengumpulan data di 10 provinsi sepanjang tepi Sungai Chao Phraya, dengan hasil 164 pohon Hopea odorata besar, 81 di antaranya pohon keramat (spiritual trees).",
+          "quote": "We collected data 10 provinces along the Chaophraya riparian area. ... As the result, the big Hopea odorata was 164 trees and 81 trees were the spiritual trees.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nang-ta-khian-c20",
+          "source_id": "nang-ta-khian-s3",
+          "host": "ssed.nida.ac.th",
+          "statement": "The same abstract states that people pray to the Ta-khian Goddess and, once successful, give offerings worth 257,030 THB, mostly traditional Thai dress.",
+          "statement_id": "Abstrak yang sama menyatakan bahwa orang berdoa kepada Dewi Ta-khian dan, bila berhasil, memberikan persembahan, yang bernilai 257.030 baht dan sebagian besar berupa pakaian tradisional Thai.",
+          "quote": "The spiritual culture combines the pray with Takhian Goddess for successful of things. As they got the successful things and then they had stuffs for Ta-khian Goddess. The stuff values of spiritual culture were 257,030 THB that most from traditional Thai dress.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nang-ta-khian-c21",
+          "source_id": "nang-ta-khian-s4",
+          "host": "so02.tci-thaijo.org",
+          "statement": "The abstract of an article on tree-deity and tree-nymph beliefs in travel poems (nirat) reports tree nymphs, namely Nang Ta-khian and forest tree nymphs whom the poet did not name, in Nirat Mueang Klaeng, Khlong Nirat Chachoengsao and Nirat Prachinburi.",
+          "statement_id": "Abstrak artikel tentang kepercayaan dewa pohon dan peri pohon dalam puisi perjalanan (nirat) menyebut peri pohon, yaitu Nang Ta-khian dan peri hutan yang tak dinamai penyairnya, dalam Nirat Mueang Klaeng, Khlong Nirat Chachoengsao, dan Nirat Prachinburi.",
+          "quote": "ประเภทนางไม้ พบใน นิราศเมืองแกลง โคลงนิราศฉะเชิงเทรา และ นิราศปราจีนบุรี ได้แก่ นางตะเคียนและนางไม้ในป่า โดยที่กวีไม่ได้ระบุชื่อ",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "nang-ta-khian-c22",
+          "source_id": "nang-ta-khian-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In present times some of these very ancient trees are felled anyway for their wood, even though it is said to be dangerous to cut such a tree without the consent of the spirit inhabiting it.",
+          "statement_id": "Pada masa kini sebagian pohon sangat tua itu tetap ditebang untuk diambil kayunya, meskipun konon berbahaya menebang pohon tersebut tanpa persetujuan roh penghuninya.",
+          "quote": "However, in present times some of these very ancient trees are felled anyway for their wood, even though it is said to be dangerous for a person to cut such a tree without the previous consent of the spirit inhabiting it.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-ta-khian-c23",
+          "source_id": "nang-ta-khian-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Nang Ta-khian is generally a sylvan spirit, because the ta-khian is a tall, massive tree that can live for centuries and grows naturally in forests, not near inhabited areas.",
+          "statement_id": "Nang Ta-khian umumnya roh hutan, karena ta-khian adalah pohon tinggi dan besar yang bisa hidup berabad-abad dan tumbuh alami di hutan, bukan di dekat permukiman.",
+          "quote": "Nang Ta-khian is generally a sylvan spirit, for the Ta-khian is a tall, massive tree that can live for centuries, naturally found in the forest and not near inhabited areas.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nang-ta-khian-c24",
+          "source_id": "nang-ta-khian-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Besides the 2003 film, Nang Ta-khian appears in the 2010 movie Nang Ta-khian (\"Takien: The Haunted Tree\") and the 2025 Channel 8 lakhon \"Love Across Lifetimes\", and has a role in the Nak animated movie.",
+          "statement_id": "Selain film 2003, Nang Ta-khian muncul dalam film 2010 Nang Ta-khian (\"Takien: The Haunted Tree\") dan lakhon Channel 8 2025 \"Love Across Lifetimes\", serta berperan dalam film animasi Nak.",
+          "quote": "2010 movie Nang Ta-khian (\"Takien: The Haunted Tree\") and 2025 Channel 8 lakhon \"Love Across Lifetimes\" (พิศวาสข้ามภพ). Nang Ta-khian has a role as well in the Nak animated movie.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": [
@@ -337,7 +814,7 @@
             "kategori \"Nang Ta-khian\"",
             "dipakai di en.wikipedia.org: Nang Ta-khian"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-012/nang-ta-khian-1.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-012/nang-ta-khian-1.jpg"
         },
         {
           "file": "File:Takian77.JPG",
@@ -378,31 +855,21 @@
             "kategori \"Nang Ta-khian\"",
             "dipakai di en.wikipedia.org: Nang Ta-khian"
           ],
-          "thumb": "/home/asadin/Projects/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-012/nang-ta-khian-2.jpg"
+          "thumb": "/home/user/asadin-mythological-creatures/data/cache/gemini-verify/thumbs/batch-012/nang-ta-khian-2.jpg"
         }
       ]
     },
     {
       "slug": "orang-mawas",
-      "file": "batch-012.md",
+      "file": "batch-012-fix-1.md",
+      "entry_sha256": "f4d6b935f0cb00794ed3cf4036090572b946e79b62088a7f3ebf3be31a812f93",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 17,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 5 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        },
-        {
-          "level": "warn",
-          "where": "long_description[1].en",
-          "message": "Ada rangkaian 12 kata yang sama persis dengan sumber (\"while the scientific community tends to dismiss the sightings as misidentified sun…\"). Tulis ulang dengan kata-kata sendiri."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "orang-mawas-c01",
@@ -453,33 +920,148 @@
           "quote": "In Sumatra, mawas (sometimes maias) is common name for the orangutan.",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "orang-mawas-c06",
+          "source_id": "orang-mawas-s2",
+          "host": "www.gutenberg.org",
+          "statement": "This book on Malay folklore records a tradition of a great man-like ape called the Mawas, which its author takes to be a reminiscence of the orang-outang or mias of Borneo.",
+          "statement_id": "Buku folklor Melayu ini mencatat tradisi tentang kera besar mirip manusia bernama Mawas, yang oleh penulisnya dianggap sebagai ingatan akan orang utan atau mias dari Kalimantan.",
+          "quote": "Monkeys and men have always been associated in native tradition, and Malay folklore is no exception to the rule. Thus we get the tradition of the great man-like ape, the Mawas (a reminiscence of the orang-outang or mias of Borneo)",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "orang-mawas-c07",
+          "source_id": "orang-mawas-s2",
+          "host": "www.gutenberg.org",
+          "statement": "By that tradition the Mawas is said to make shelters in the forks of trees and to be born with a woodknife blade in place of the forearm bone, so that it can cut down undergrowth as it walks through the jungle.",
+          "statement_id": "Menurut tradisi itu, Mawas konon membuat tempat berlindung di cabang pohon dan dilahirkan dengan bilah parang di lengan bawahnya sehingga dapat menebas semak saat berjalan di hutan.",
+          "quote": "the great man-like ape, the Mawas (a reminiscence of the orang-outang or mias of Borneo), which is said to make shelters for itself in the forks of trees, and to be born with the blade of a cutlass (woodknife) in place of the bone of the forearm, so that it is able to cut down the undergrowth as it walks through the jungle.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "orang-mawas-c08",
+          "source_id": "orang-mawas-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The Mawas is also believed occasionally to carry off and mate with humans.",
+          "statement_id": "Mawas juga dipercaya kadang-kadang menculik dan kawin dengan manusia.",
+          "quote": "the great man-like ape, the Mawas (a reminiscence of the orang-outang or mias of Borneo) ... believed, moreover, occasionally to carry off and mate with human kind",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "orang-mawas-c09",
+          "source_id": "orang-mawas-s3",
+          "host": "prpm.dbp.gov.my",
+          "statement": "Kamus Dewan (Fourth Edition) defines mawas as a kind of large monkey of the family Pongidae, including the orangutan and the chimpanzee.",
+          "statement_id": "Kamus Dewan Edisi Keempat mendefinisikan mawas sebagai sejenis monyet besar dalam famili Pongidae, termasuk orang hutan dan cimpanzi.",
+          "quote": "sj monyet besar dlm famili Pongidae, termasuk orang hutan dan cimpanzi. (Kamus Dewan Edisi Keempat)",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "orang-mawas-c10",
+          "source_id": "orang-mawas-s4",
+          "host": "www.wildsingapore.com",
+          "statement": "A news report says \"Bigfoot\" fever dominated Malaysian newspaper headlines for several weeks, with several dramatic sightings of a hairy, gorilla-like creature in the thick forest of the southern state of Johor.",
+          "statement_id": "Sebuah laporan berita menyatakan \"demam Bigfoot\" memenuhi judul surat kabar Malaysia selama beberapa pekan, dengan beberapa penampakan dramatis makhluk berbulu mirip gorila di hutan lebat negara bagian Johor.",
+          "quote": "\"Bigfoot\" fever has dominated Malaysian newspaper headlines for several weeks now, with several dramatic sightings of a hairy, gorilla-like creature reported in the thick forest in the southern state of Johor.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "orang-mawas-c11",
+          "source_id": "orang-mawas-s4",
+          "host": "www.wildsingapore.com",
+          "statement": "According to one report, a local man said he saw a 10-foot (three metre) tall ape standing on two legs beside a river.",
+          "statement_id": "Menurut satu laporan, seorang warga setempat mengaku melihat kera setinggi 10 kaki (tiga meter) berdiri dengan dua kaki di tepi sungai.",
+          "quote": "One local man said he saw a 10-foot (three metre) tall ape standing on two legs beside a river, according to one report.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "orang-mawas-c12",
+          "source_id": "orang-mawas-s4",
+          "host": "www.wildsingapore.com",
+          "statement": "In a news item dated 30 Jan 2006, Malaysia was reported to plan sending two teams of scientists to scour its southern rainforests to track down a huge ape said to have been spotted there.",
+          "statement_id": "Dalam berita bertanggal 30 Jan 2006, Malaysia dilaporkan berencana mengirim dua tim ilmuwan menyisir hutan hujan selatannya untuk melacak kera raksasa yang dikabarkan terlihat di sana.",
+          "quote": "PlanetArk 30 Jan 06 Malaysia Scientists to Hunt \"Bigfoot\" in Rainforest KUALA LUMPUR - Malaysia plans to send two teams of scientists to scour its southern rainforests and track down a huge ape said to have been spotted there, a government official said on Friday.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "orang-mawas-c13",
+          "source_id": "orang-mawas-s4",
+          "host": "www.wildsingapore.com",
+          "statement": "A person named Chow said natives who live in the jungle have seen it for generations and their legends call it the \"snaggle-toothed ghost\".",
+          "statement_id": "Seorang narasumber bernama Chow mengatakan penduduk asli yang tinggal di hutan telah melihatnya selama beberapa generasi dan legenda mereka menyebutnya \"hantu bergigi jarang\".",
+          "quote": "Natives who live in the jungle have seen it for generations and their legends call it the 'snaggle-toothed ghost',\" said Chow.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "orang-mawas-c14",
+          "source_id": "orang-mawas-s4",
+          "host": "www.wildsingapore.com",
+          "statement": "An entire \"Bigfoot\" colony is said to have moved there from the jungles of Perak in the north in the 70s; the huge creatures, also known as the tropical Yeti or Mawas, reportedly have dense hair on several parts of their body.",
+          "statement_id": "Dikabarkan seluruh koloni \"Bigfoot\" pindah ke sana dari hutan Perak di utara pada tahun 70-an; makhluk besar itu juga dikenal sebagai Yeti tropis atau Mawas dan konon berbulu lebat di beberapa bagian tubuhnya.",
+          "quote": "An entire Bigfoot colony is said to have moved there from the jungles of Perak in the North during the 70s. Also known as the tropical Yeti or Mawas, the huge creatures reportedly have dense growth of hair on several parts of their body.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "orang-mawas-c15",
+          "source_id": "orang-mawas-s4",
+          "host": "www.wildsingapore.com",
+          "statement": "Paranormal investigators from Singapore, the USA and the UK, invited by Malaysian counterparts, ventured deep into the forest at Endau-Rompin National Park in Johor with local guides.",
+          "statement_id": "Penyelidik paranormal dari Singapura, Amerika Serikat, dan Inggris yang diundang rekan Malaysia mereka menjelajah jauh ke dalam hutan Taman Nasional Endau-Rompin di Johor bersama pemandu setempat.",
+          "quote": "The paranormal investigators from Singapore, USA and the UK were invited by their Malaysian counterparts, a group known as the \"Uncle Seekers.\" At Endau-Rompin National Park in the state of Johor, they ventured deep into the forest with the help of local guides.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "orang-mawas-c16",
+          "source_id": "orang-mawas-s4",
+          "host": "www.wildsingapore.com",
+          "statement": "The investigators said the clearest footprint they found was four inches deep, and from it and the height of broken branches they believe an adult can reach three and a half metres and weigh over 200 kilograms.",
+          "statement_id": "Tim penyelidik menyatakan jejak terjelas yang mereka temukan sedalam empat inci, dan dari jejak itu serta tinggi dahan patah mereka memperkirakan seekor dewasa setinggi tiga setengah meter dengan bobot lebih dari 200 kilogram.",
+          "quote": "The clearest footprint found by the team had a four-inch depth. Going by that, and the height of broken tree branches overhead, the investigators believe an adult Bigfoot can reach a height of three and a half metres, and weigh more than 200 kilogrammes!",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "orang-mawas-c17",
+          "source_id": "orang-mawas-s4",
+          "host": "www.wildsingapore.com",
+          "statement": "The Johor government formed an official committee of research scientists and urged Malaysians to regard the creatures as part of the state's heritage.",
+          "statement_id": "Pemerintah Johor membentuk komite resmi ilmuwan peneliti dan mengimbau warga Malaysia menganggap makhluk itu bagian dari warisan negara bagian.",
+          "quote": "The Johor government has formed an official committee of research scientists, and are urging Malaysians to consider the creatures as part of the state's heritage.",
+          "context": "modern-popular-culture",
+          "status": "exact"
         }
       ],
       "images": []
     },
     {
       "slug": "sigbin",
-      "file": "batch-012.md",
+      "file": "batch-012-fix-1.md",
+      "entry_sha256": "5f80dde58fa30b11e2fa2b9e9c300dcb1a6440dce4a682f51a6b28fcd0c470d9",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 7,
-        "sources": 1,
+        "claims": 20,
+        "sources": 7,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target rich: 7 klaim (target 15), 1 sumber (target 3), 0 penerbit selain Wikipedia (target 2; Wikipedia semua bahasa dihitung satu). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "sigbin-c01",
           "source_id": "sigbin-s1",
           "host": "en.wikipedia.org",
-          "statement": "The sigbin (sigben) is a Philippine mythological creature that comes out at night to suck blood through victims' shadows, walks backwards with its head between its hind legs, can become invisible, resembles a hornless goat with huge ears and a whip-like tail, and smells nauseating.",
-          "statement_id": "Sigbin (Sigben) adalah makhluk mitologi Filipina yang keluar malam hari mengisap darah korban lewat bayangannya, berjalan mundur dengan kepala di antara kaki belakang, dapat tak terlihat, mirip kambing tanpa tanduk dengan telinga sangat besar dan ekor lentur seperti cambuk, dan berbau memuakkan.",
+          "statement": "The sigbin is a creature in Philippine mythology said to come out at night to suck victims' blood from their shadows; it is said to walk backwards with its head lowered between its hind legs and to be able to become invisible, especially to humans; it resembles a hornless goat but has very large ears it can clap like a pair of hands.",
+          "statement_id": "Sigbin adalah makhluk dalam mitologi Filipina yang konon keluar malam hari untuk mengisap darah korban dari bayangan mereka; dikatakan berjalan mundur dengan kepala tertunduk di antara kaki belakangnya dan mampu menjadi tak terlihat, terutama oleh manusia; wujudnya mirip kambing tanpa tanduk, tetapi bertelinga sangat besar yang dapat ditepukkan seperti sepasang tangan.",
           "quote": "is a creature in Philippine mythology said to come out at night to suck the blood of victims from their shadows. It is said to walk backwards with its head lowered between its hind legs, and to have the ability to become invisible to other creatures, especially humans. It resembles a hornless goat, but has very large ears which it can clap like a pair of hands",
           "context": "traditional-belief",
           "status": "exact"
@@ -528,9 +1110,9 @@
           "id": "sigbin-c06",
           "source_id": "sigbin-s1",
           "host": "en.wikipedia.org",
-          "statement": "Some theories reject this because the Wallace Line separates species of Sulawesi, Lombok, New Guinea and Australia from mainland Southeast Asia and the Philippines.",
-          "statement_id": "Sebagian teori membantahnya karena Garis Wallace memisahkan spesies Sulawesi, Lombok, Nugini, dan Australia dari daratan Asia Tenggara dan Filipina.",
-          "quote": "Some theories debunked it as for the fact that the Wallace Line is responsible for separating species that exists within the areas of Sulawesi, Lombok, New Guinea, and Australia from Mainland Southeast Asia",
+          "statement": "Some theories reject it because the Wallace Line separates species of the Sulawesi, Lombok, New Guinea and Australia areas from mainland Southeast Asia, Borneo, Java, Sumatra, Bali and the Philippines.",
+          "statement_id": "Sebagian teori menolaknya karena Garis Wallace memisahkan spesies di kawasan Sulawesi, Lombok, Papua Nugini, dan Australia dari Asia Tenggara daratan, Kalimantan, Jawa, Sumatra, Bali, dan Filipina.",
+          "quote": "Some theories debunked it as for the fact that the Wallace Line is responsible for separating species that exists within the areas of Sulawesi, Lombok, New Guinea, and Australia from Mainland Southeast Asia, Borneo, Java, Sumatra, Bali, and The Philippines.",
           "context": "scholarly-interpretation",
           "status": "exact"
         },
@@ -541,6 +1123,136 @@
           "statement": "The sigbin has a long flexible tail usable as a whip and gives off a nauseating smell.",
           "statement_id": "Sigbin berekor panjang lentur yang dapat dipakai sebagai cambuk dan mengeluarkan bau memuakkan.",
           "quote": "and a long, flexible tail that can be used as a whip. The sigbin is said to emit a nauseating odor.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sigbin-c08",
+          "source_id": "sigbin-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In a legend of Dumaguete in Negros Occidental, the Sigbin living on Dalugdug is described as having a body like a monstrous crow, with two long grasshopper-like legs under its neck that let it leap great distances without using its wings.",
+          "statement_id": "Dalam legenda Dumaguete di Negros Occidental, Sigbin penghuni Dalugdug digambarkan bertubuh seperti burung gagak raksasa dengan dua kaki panjang mirip belalang di bawah lehernya yang membuatnya dapat melompat jauh tanpa memakai sayap.",
+          "quote": "Catalina of Dumaguete This is a legend of Dumaguete, the capital of the province of Negros Occidental. ... On Dalugdug there lived a terrible Sigbin. Its body was like that of a monstrous crow, but just under its neck were two long legs like those of a grasshopper, which enabled it to leap great distances without using its wings.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sigbin-c09",
+          "source_id": "sigbin-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In that legend the Sigbin on Dalugdug ate anyone who came near its home, so the people begged Catalina, who began to climb the mountain, to come back.",
+          "statement_id": "Dalam legenda itu Sigbin di Dalugdug memangsa siapa pun yang mendekati rumahnya, sehingga orang-orang memohon agar Catalina yang mulai mendaki gunung itu kembali.",
+          "quote": "On Dalugdug there lived a terrible Sigbin. ... It ate any one who came near its home, so when the people saw Catalina start to climb the mountain they begged her to come back.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sigbin-c10",
+          "source_id": "sigbin-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to the legend's close, the Sigbin never returned to Negros; it still lives in the mountains of Cebu and people fear it so much that they lock themselves in their houses after dark and can hardly be induced to come out.",
+          "statement_id": "Menurut penutup legenda itu, Sigbin tidak pernah kembali ke Negros; ia masih hidup di pegunungan Cebu dan orang begitu takut padanya sehingga mengunci diri di rumah setelah gelap dan nyaris tak mau keluar.",
+          "quote": "The Sigbin has never returned to Negros. It still lives in the mountains of Cebu and the people are so afraid of it that they lock themselves in their houses after dark and can hardly be induced to come out.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sigbin-c11",
+          "source_id": "sigbin-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the tale \"The Faithlessness of Sinogo\", creatures from various islands gather, among them savage Sigbins from Negros and Bohol, together with Buayas from Mindanao, Tic-bolans from Luzon, Unglocs from Panay and Leyte, and Uak Uaks from Samar and Cebu.",
+          "statement_id": "Dalam kisah \"The Faithlessness of Sinogo\", makhluk-makhluk dari berbagai pulau berkumpul, antara lain Sigbin buas dari Negros dan Bohol, bersama Buayas dari Mindanao, Tic-bolan dari Luzon, Unglocs dari Panay dan Leyte, serta Uak Uaks dari Samar dan Cebu.",
+          "quote": "The Faithlessness of Sinogo Somewhere off the northern coast of Mindanao a strong current begins to travel northward. ... There were huge Buayas from Mindanao, fierce Tic-bolans from Luzon, savage Sigbins from Negros and Bohol, hundreds of Unglocs from Panay and Leyte, and great Uak Uaks and other frightful monsters from Samar and Cebu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sigbin-c12",
+          "source_id": "sigbin-s3",
+          "host": "www.aswangproject.com",
+          "statement": "A mythological dictionary of 1895, re-published in translation by the Aswang Project, defines the sigbin among the Visayans as a spirit familiar that accompanied a person and was bound by contract to serve constantly.",
+          "statement_id": "Kamus mitologi tahun 1895 yang diterjemahkan ulang Aswang Project mendefinisikan sigbin di kalangan Visayas sebagai roh pendamping yang menyertai seseorang dan terikat kontrak untuk melayaninya terus-menerus.",
+          "quote": "SIGBIN – (Visayan) A designation used by the Visayan people to refer to a certain type of spirit familiar that supposedly accompanied a person, to whom the spirit was bound by contract to serve constantly. (compare: Sigbinan.) (source: DICCIONARIO MITOLÓGICO DE FILIPINAS, Ferdinand Blumentritt [1895], translated and republished by The Aswang Project, 2021)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sigbin-c13",
+          "source_id": "sigbin-s3",
+          "host": "www.aswangproject.com",
+          "statement": "A 1978 book cited by the Aswang Project describes the sigbin in Negros Occidental as a nocturnal animal resembling a dog whose forelegs are constricted like a kangaroo's.",
+          "statement_id": "Sebuah buku tahun 1978 yang dikutip Aswang Project menggambarkan sigbin di Negros Occidental sebagai hewan malam mirip anjing yang kaki depannya menyempit seperti kanguru.",
+          "quote": "SIGBIN – (Negros Occidental) The sigbin is another nocturnal animal resembling a dog whose forelegs are constricted in the manner of the kangaroo. (Source: Witchcraft, Filipino Style, Nid Anima, Omar Publishing, 1978)",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sigbin-c14",
+          "source_id": "sigbin-s3",
+          "host": "www.aswangproject.com",
+          "statement": "According to the same 1895 dictionary, the early Visayans believed in a kind of sorcerer called a sigbinan who could transform into alligators, serpents or dogs that would bite or slay many men.",
+          "statement_id": "Menurut kamus mitologi tahun 1895 yang sama, orang Visayas awal percaya ada jenis penyihir bernama sigbinan yang dapat berubah menjadi buaya, ular, atau anjing yang menggigit atau membunuh banyak orang.",
+          "quote": "SIGBINAN – (Visayan) The early Visayan people believed the there was a certain type of sorcerer that was called a sigbinan who could transform into alligators,serpents, or dogs who would bite or slay many men. (source: DICCIONARIO MITOLÓGICO DE FILIPINAS, Ferdinand Blumentritt [1895], translated and republished by The Aswang Project, 2021)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "sigbin-c15",
+          "source_id": "sigbin-s3",
+          "host": "www.aswangproject.com",
+          "statement": "An account cited by the Aswang Project lists Sigbinan among the five most powerful spirits known as asuang, together with Tagbanua, Tagamaling, Lumaman and Bigwa.",
+          "statement_id": "Sebuah catatan yang dikutip Aswang Project menyebut Sigbinan sebagai salah satu dari lima roh paling kuat yang dikenal sebagai asuang, bersama Tagbanua, Tagamaling, Lumaman, dan Bigwa.",
+          "quote": "There are many spirits who are known as asuang but the five most powerful are here given according to their rank, (a) Tagbanua, (b) Tagamaling, (c) Sigbinan, (d) Lumaman, (e) Bigwa.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sigbin-c16",
+          "source_id": "sigbin-s4",
+          "host": "www.aswangproject.com",
+          "statement": "According to the Aswang Project, Boholano collections describe engkanto, duende, tree and cave spirits, wandering dead, uncanny lights, the sigbin, aswang and other dangerous night beings.",
+          "statement_id": "Menurut Aswang Project, kumpulan cerita Boholano menggambarkan engkanto, duende, roh pohon dan gua, arwah gentayangan, cahaya aneh, sigbin, aswang, dan makhluk malam berbahaya lainnya.",
+          "quote": "Boholano collections describe engkanto, duende, spirits associated with trees and caves, wandering dead, uncanny lights, sigbin, aswang, and other dangerous night beings.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sigbin-c17",
+          "source_id": "sigbin-s5",
+          "host": "www.aswangproject.com",
+          "statement": "The Aswang Project records a Kinaray-a cosmogony recorded in Mariit in which numerous lupan-on occupy the land, including named forms such as tamawo, kama-kama, murokpok, mantiw, sigbin and mulang.",
+          "statement_id": "Aswang Project mencatat kosmogoni Kinaray-a yang direkam di Mariit, di mana banyak lupan-on menempati daratan, dengan bentuk bernama seperti tamawo, kama-kama, murokpok, mantiw, sigbin, dan mulang.",
+          "quote": "This is a documented Kinaray-a cosmogony, but specifically one recorded in Mariit. ... Numerous lupan-on occupy the land, including named forms such as tamawo, kama-kama, murokpok, mantiw, sigbin, and mulang.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sigbin-c18",
+          "source_id": "sigbin-s6",
+          "host": "www.aswangproject.com",
+          "statement": "The Aswang Project says Hiligaynon-speaking communities live across Iloilo, Negros Occidental, Guimaras and neighbouring areas, and lists the sigbin, kapre, aswang and water-dwellers as other regional beings.",
+          "statement_id": "Aswang Project menyebut komunitas penutur Hiligaynon tersebar di Iloilo, Negros Occidental, Guimaras, dan sekitarnya, dan menyebut sigbin, kapre, aswang, dan penghuni air sebagai makhluk daerah lain.",
+          "quote": "Hiligaynon-speaking communities live across Iloilo, Negros Occidental, Guimaras, and neighboring areas. ... Other regional beings include the sigbin, kapre, aswang, and water-dwellers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "sigbin-c19",
+          "source_id": "sigbin-s7",
+          "host": "ejournals.ph",
+          "statement": "A journal abstract on Bol-anon narratives states that folk beliefs weave a vibrant cultural tapestry featuring mythical creatures such as santilmo, ungu, wuwog, tambaloslos, engkanto, wakwak and sigbin.",
+          "statement_id": "Abstrak jurnal tentang narasi Bol-anon menyatakan kepercayaan rakyat merajut permadani budaya yang menampilkan makhluk mitos seperti santilmo, ungu, wuwog, tambaloslos, engkanto, wakwak, dan sigbin.",
+          "quote": "the dominant endemic cultural heritage featured in Bol-anon narratives using Folklore Theory and Post-Colonial Theory. ... It also illustrates that folk beliefs weave a vibrant cultural tapestry featuring mythical creatures such as santilmo, ungu, wuwog, tambaloslos, engkanto, wakwak, and sigbin.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "sigbin-c20",
+          "source_id": "sigbin-s1",
+          "host": "en.wikipedia.org",
+          "statement": "It is also said that the sigbin looks like a dog and was owned by rich people who hid the creatures in a jar.",
+          "statement_id": "Dikatakan pula bahwa sigbin tampak seperti anjing dan dimiliki orang kaya yang menyembunyikannya dalam guci.",
+          "quote": "It is also said that it looks like a dog and owned by rich people who hid those creatures in a jar.",
           "context": "traditional-belief",
           "status": "exact"
         }
