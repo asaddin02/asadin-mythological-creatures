@@ -1,10 +1,11 @@
 {
   "batch_id": "batch-068",
-  "checked_at": "2026-10-06T15:22:08.023Z",
+  "checked_at": "2026-10-06T19:06:04.837Z",
   "files": [
     "batch-068.md",
     "batch-068-fix-1.md",
-    "batch-068-fix-2.md"
+    "batch-068-fix-2.md",
+    "batch-068-fix-3.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -1381,20 +1382,15 @@
     },
     {
       "slug": "shangyang",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-3.md",
+      "entry_sha256": "9116a6ee162810e725e435c31f798bdfc021840a74a03bf6e724ec5f9edb263d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "shangyang-c01",
@@ -1425,27 +1421,81 @@
           "quote": "The Shangyang (商羊), (or shang yang) in Chinese mythology was a rainbird (i.e. it could predict rain). It was one of several important mythical birds in this tradition. The Shangyang was particularly associated with the Lord of Rain, Yu Shi. Once, the Shangyang was said to have visited the royal court of Qi, where it danced on one leg.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "shangyang-c04",
+          "source_id": "shangyang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Confucius, who was familiar with the Shangyang, predicted heavy rain and advised the people to dig drainage channels and build dikes; by following this advice Qi avoided the flood that followed, while other states that ignored it were heavily damaged.",
+          "statement_id": "Konfusius, yang mengenal Shangyang, meramalkan hujan lebat dan menasihati rakyat menggali saluran dan membangun tanggul; dengan mengikuti nasihat itu Qi terhindar dari bencana banjir yang menyusul, sedangkan negara lain yang mengabaikannya rusak parah.",
+          "quote": "Confucius, who was familiar with the Shangyang, predicted heavy rain and advised the people to dig drainage channels and build dikes. By following the sage's advice, Qi avoided the disaster caused by a subsequent flood, while other states that ignored this advice were heavily damaged.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shangyang-c05",
+          "source_id": "shangyang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "This legendary incident has often been used to illustrate the foolishness of those who ignore wise advice.",
+          "statement_id": "Peristiwa legendaris ini sering dipakai untuk menggambarkan kebodohan orang yang mengabaikan nasihat bijak.",
+          "quote": "This legendary incident has often been used to illustrate the foolishness of those who ignore wise advice.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "shangyang-c06",
+          "source_id": "shangyang-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The mythographer Lihui Yang instead associates Yu Shi with the Bi Fang bird.",
+          "statement_id": "Ahli mitografi Lihui Yang justru mengaitkan Yu Shi dengan burung Bi Fang.",
+          "quote": "Mythographer Lihui Yang associates Yu Shi with the Bi Fang bird, instead.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "shangyang-c07",
+          "source_id": "shangyang-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this classical text, a one-legged bird (一足之鳥) flies into the court of Qi (齊), lands before the hall, and hops with spread wings; the Marquis of Qi (齊侯) is astonished and sends an envoy to Lu (魯) to ask Confucius (孔子).",
+          "statement_id": "Dalam teks klasik ini, seekor burung berkaki satu (一足之鳥) terbang ke istana negeri Qi (齊), mendarat di depan balai, dan melompat dengan sayap terkembang; Marquis Qi (齊侯) heran lalu mengutus orang ke negeri Lu (魯) untuk bertanya kepada Konfusius (孔子).",
+          "quote": "齊有一足之鳥，飛集於宮朝，下止於殿前，舒翅而跳。齊侯大怪之，使使聘魯，問孔子。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shangyang-c08",
+          "source_id": "shangyang-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Confucius (孔子) says the bird is named Shangyang (商羊), a water omen (水祥); children once bent one leg, knitted their brows, and hopped singing \"Heaven will send great rain, the Shangyang dances\", and now that Qi has it, the sign has arrived.",
+          "statement_id": "Konfusius (孔子) berkata bahwa burung itu bernama Shangyang (商羊), pertanda air (水祥); dulu anak-anak menekuk satu kaki, mengerutkan alis, melompat sambil bernyanyi \"Langit akan menurunkan hujan lebat, Shangyang menari\", dan kini Qi memilikinya sehingga pertandanya telah tiba.",
+          "quote": "孔子曰：「此鳥名曰商羊，水祥也。昔童兒有屈其一腳，振訊兩眉，而跳且謠曰：『天將大雨，商羊鼓舞。』今齊有之，其應至矣。」",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shangyang-c09",
+          "source_id": "shangyang-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The people were told urgently to repair ditches and dikes because a great flood was coming; soon heavy rain fell, water overflowed many states and harmed the people, but only Qi (齊), which had prepared, was not ruined.",
+          "statement_id": "Rakyat segera diberi tahu agar membenahi parit dan memperbaiki tanggul karena banjir besar akan datang; tak lama kemudian hujan deras turun, air meluap ke berbagai negara dan melukai penduduk, tetapi hanya Qi (齊) yang siap dan tidak rusak.",
+          "quote": "急告民趨治溝渠，修堤防，將有大水為災。頃之大霖雨，水溢泛諸國，傷害民人。唯齊有備，不敗。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f20ba0dc64aaf6f3ddd8e6884277908cfea216da836d1db8ff372d7e899e3572"
+      "images": []
     },
     {
       "slug": "shunfeng-er",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-3.md",
+      "entry_sha256": "8af407e2dd7d9cd189c6b52a342dd6dae9c0fa347177b4565578ed9762cda95d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 16,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "shunfeng-er-c01",
@@ -1496,10 +1546,119 @@
           "quote": "Shunfeng'er is first attested in the early-16th century novel Journey to the West, where he appears as the personified form of the Taoist Jade Emperor's ears and one of his lieutenants. There is, however, an earlier depiction of him in a Sichuan cave which has been dated to the Southern Song.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "shunfeng-er-c06",
+          "source_id": "shunfeng-er-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Shunfeng'er's sharp hearing is used to help sailors tell favorable winds from coming storms; in some accounts he can hear everything in the world however quietly spoken, and was therefore also worshipped as a witness and guarantor of oaths and contracts.",
+          "statement_id": "Pendengaran Shunfeng'er yang tajam dipakai untuk membantu pelaut membedakan angin yang baik dari badai yang akan datang; dalam sebagian kisah ia mampu mendengar segalanya di dunia, sepelan apa pun, sehingga juga dipuja sebagai saksi dan penjamin sumpah dan kontrak.",
+          "quote": "Shunfeng'er's sharp hearing is employed to help sailors distinguish favorable winds from coming storms. In some accounts, he is capable of hearing everything in the world, no matter how quietly spoken, and was therefore also worshipped as a witness and guarantor of oaths and contracts.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shunfeng-er-c07",
+          "source_id": "shunfeng-er-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Shunfeng'er is most often portrayed as a demon defeated and tamed or befriended by the sea goddess Mazu.",
+          "statement_id": "Shunfeng'er paling sering digambarkan sebagai iblis yang dikalahkan dan dijinakkan atau diajak berteman oleh dewi laut Mazu.",
+          "quote": "Shunfeng'er is most often portrayed as a demon defeated and tamed or befriended by the sea goddess Mazu.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shunfeng-er-c08",
+          "source_id": "shunfeng-er-s1",
+          "host": "en.wikipedia.org",
+          "statement": "By one account, he and Qianliyan appeared off Meizhou Island during a storm and were defeated by Mazu's magical silk scarf, which blew clouds of sand into their ears and eyes; after submitting they pledged loyalty when she healed the damage she had caused.",
+          "statement_id": "Menurut satu kisah, ia dan Qianliyan muncul di lepas pantai Pulau Meizhou saat badai dan dikalahkan oleh selendang sutra sakti Mazu yang meniupkan awan pasir ke telinga dan mata mereka; setelah tunduk, mereka berjanji setia ketika Mazu menyembuhkan luka yang ditimbulkannya.",
+          "quote": "By one account, he and Qianliyan appeared off Meizhou Island during a storm and were defeated by Mazu's magical silk scarf, which blew clouds of sand into their ears and eyes. After their submission, they pledged their loyalty when she kindly healed them of the damage she had caused them.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shunfeng-er-c09",
+          "source_id": "shunfeng-er-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In another account the two were the brothers Gao Jue and Gao Ming, ruthless generals who fell at Peach Blossom Mountain and subsequently haunted it as demons.",
+          "statement_id": "Dalam kisah lain, keduanya adalah saudara Gao Jue dan Gao Ming, jenderal kejam yang gugur di Gunung Peach Blossom dan kemudian menghantuinya sebagai iblis.",
+          "quote": "In another, the two were the brothers Gao Jue and Gao Ming. Ruthless generals, they fell at Peach Blossom Mountain and subsequently haunted it as demons.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shunfeng-er-c10",
+          "source_id": "shunfeng-er-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Shunfeng'er typically appears as a red- or brown-skinned demon cupping a hand to one of his ears, and occasionally with three heads and six arms.",
+          "statement_id": "Shunfeng'er biasanya digambarkan sebagai iblis berkulit merah atau cokelat yang menangkupkan tangan ke salah satu telinganya, dan kadang-kadang bertiga kepala dan berlengan enam.",
+          "quote": "Shunfeng'er typically appears as a red- or brown-skinned demon cupping a hand to one of his ears. He also occasionally appears with three heads and six arms.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shunfeng-er-c11",
+          "source_id": "shunfeng-er-s2",
+          "host": "tcmb.culture.tw",
+          "statement": "In folk myth, the two guardian gods who observe and listen to the affairs of the world for Mazu (媽祖) are 千里眼 (also called 金精將軍) and 順風耳 (also called 水精將軍).",
+          "statement_id": "Dalam mitos rakyat, dua dewa pengawal yang mengawasi dan mendengar urusan dunia bagi Mazu (媽祖) adalah 千里眼 (juga disebut 金精將軍) dan 順風耳 (juga disebut 水精將軍).",
+          "quote": "在民間的神話傳說中，替媽祖察聽世情的兩大駕前護衛神分別為千里眼（又稱金精將軍）與順風耳（又稱水精將軍）。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shunfeng-er-c12",
+          "source_id": "shunfeng-er-s2",
+          "host": "tcmb.culture.tw",
+          "statement": "In Mazu (媽祖) temples, 千里眼 and 順風耳 stand on Mazu's left and right; 順風耳 raises a hand to his ear in a listening pose, using his boundless hearing to scout everything in the world for Mazu, and the other hand holds a weapon.",
+          "statement_id": "Di kuil Mazu (媽祖), 千里眼 dan 順風耳 berdiri di kiri dan kanan Mazu; 順風耳 mengangkat tangan ke samping telinga dalam sikap mendengar, memakai pendengarannya yang tak terbatas untuk menyelidiki segala hal di dunia bagi Mazu, dan tangan yang lain memegang senjata.",
+          "quote": "在媽祖廟裡，千里眼和順風耳分別站立於媽祖的左右兩側 ... 而順風耳則手舉至側耳做聽音狀的姿態，以其無遠弗屆的聽力，為媽祖偵聽世上的一切事物。祂們的另一手則持有兵器。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shunfeng-er-c13",
+          "source_id": "shunfeng-er-s2",
+          "host": "tcmb.culture.tw",
+          "statement": "Legends about 千里眼 and 順風耳 differ, but generally they were originally spirit-monsters on Peach Blossom Mountain (桃花山) with fierce faces who frightened residents and often disturbed the area and harmed the people, until Mazu (媽祖) subdued them and they became her attendant generals.",
+          "statement_id": "Legenda tentang 千里眼 dan 順風耳 berbeda-beda, tetapi pada umumnya keduanya semula adalah siluman di Gunung Peach Blossom (桃花山) yang berwajah garang, menakuti penduduk, dan sering mengganggu daerah itu serta merugikan rakyat, hingga akhirnya ditaklukkan Mazu (媽祖) dan menjadi jenderal pengiringnya.",
+          "quote": "關於千里眼和順風耳的傳說不一，總的來說，祂們原來是在桃花山上的妖精，不僅面貌猙獰，使居民恐懼外，更時常擾亂地方、為害百姓。最後為媽祖收伏，成為隨駕將軍。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shunfeng-er-c14",
+          "source_id": "shunfeng-er-s2",
+          "host": "tcmb.culture.tw",
+          "statement": "In Mazu (媽祖) processions, besides Mazu's palanquin one always sees two great generals, one green and one red, who are Mazu's left and right protectors, 千里眼 and 順風耳.",
+          "statement_id": "Dalam arak-arakan Mazu (媽祖), selain tandu Mazu selalu tampak dua jenderal besar, satu hijau dan satu merah, yaitu pelindung kiri dan kanan Mazu: 千里眼 dan 順風耳.",
+          "quote": "在媽祖出巡的陣頭中，除了媽祖鑾轎外，我們總會看見一綠一紅的大將軍，這就是媽祖的左右護法──千里眼和順風耳。",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "shunfeng-er-c15",
+          "source_id": "shunfeng-er-s3",
+          "host": "zh.wikisource.org",
+          "statement": "This classical text says the evil creature is the peach spirit and willow ghost of Mount Qipan (棋盤山), and that in the Xuanyuan temple (軒轅廟) there are clay ghost attendants named 千里眼 and 順風耳; the two monsters borrow their spiritual power so that the eyes can see a thousand li and the ears can hear a thousand li, but they cannot see or hear beyond a thousand li.",
+          "statement_id": "Dalam teks klasik ini disebut bahwa makhluk jahat itu adalah roh persik dan hantu willow dari Gunung Qipan (棋盤山), dan di kuil Xuanyuan (軒轅廟) di sana ada utusan hantu dari tanah liat bernama 千里眼 dan 順風耳; kedua siluman itu meminjam daya gaibnya sehingga mata dapat melihat seribu li dan telinga dapat mendengar seribu li, tetapi tidak dapat melihat atau mendengar melampaui seribu li.",
+          "quote": "此業障是棋盤山桃精、柳鬼 ... 今棋盤山有軒轅廟，廟內有泥塑鬼使，名曰千里眼，順風耳；二怪托其靈氣，目能觀看千里，耳能詳聽千里；千里之外，不能視聽也。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "shunfeng-er-c16",
+          "source_id": "shunfeng-er-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In this classical text, Jiang Ziya (姜子牙) is advised to send people to Mount Qipan (棋盤山) to dig up and burn the peach and willow roots and to smash the clay bodies of the two ghosts in the Xuanyuan temple (軒轅廟) in order to cut the root of their spiritual power.",
+          "statement_id": "Dalam teks klasik ini, Jiang Ziya (姜子牙) disarankan mengirim orang ke Gunung Qipan (棋盤山) untuk menggali akar persik dan willow lalu membakarnya, dan menghancurkan tubuh tanah liat kedua hantu di kuil Xuanyuan (軒轅廟) guna memutus akar daya gaib mereka.",
+          "quote": "你可叫姜子牙著人往棋盤山去，將桃、柳根盤掘挖，用火焚盡；將軒轅廟二鬼泥身打碎，以絕其靈氣之根",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "dff79514f0a94e6121ad0a6bef569b2d378320f0b86325547042014d4613a8d6"
+      "images": []
     },
     {
       "slug": "tam-kung",
@@ -1578,20 +1737,15 @@
     },
     {
       "slug": "teng-mythology",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-3.md",
+      "entry_sha256": "1b396017e8ee221638bad074d161d52aabe70bff79339a1f45b290d2b88c0a4c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "teng-mythology-c01",
@@ -1632,27 +1786,71 @@
           "quote": "The (3rd–2nd centuries BCE) Erya dictionary (16) defines teng (螣) as tengshe (螣蛇; \"teng-snake\"), and Guo Pu's commentary glosses it as a \"[飛龍; feilong] flying dragon that drifts in the clouds and mist\".",
           "context": "historical-record",
           "status": "loose"
+        },
+        {
+          "id": "teng-mythology-c05",
+          "source_id": "teng-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "From the original \"flying dragon; flying serpent\" meaning, tengshe acquired three further meanings: \"an asterism\" in traditional Chinese star names, \"a battle formation\" in Chinese military history, and \"lines above the mouth\" in physiognomy.",
+          "statement_id": "Dari makna asli \"naga terbang; ular terbang\", tengshe memperoleh tiga makna tambahan: \"rasi bintang\" dalam nama bintang tradisional Tiongkok, \"formasi tempur\" dalam sejarah militer Tiongkok, dan \"garis di atas mulut\" dalam ilmu fisiognomi.",
+          "quote": "From the original \"flying dragon; flying serpent\" denotation, tengshe acquired three additional meanings: \"an asterism\" in Traditional Chinese star names, \"a battle formation\" in Chinese military history, and \"lines above the mouth\" in physiognomy.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "teng-mythology-c06",
+          "source_id": "teng-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Confucianist Xunzi first records the Classical Chinese idiom tengshe wuzu er fei, \"flying dragon is without feet yet flies\", which figuratively means \"success results from concentrating on one's abilities\".",
+          "statement_id": "Xunzi, seorang Konfusianis, pertama kali mencatat idiom Tionghoa klasik tengshe wuzu er fei, \"naga terbang tidak berkaki namun terbang\", yang secara kiasan berarti \"keberhasilan datang dari memusatkan diri pada kemampuan sendiri\".",
+          "quote": "Confucianist Xunzi ... first records the Classical Chinese idiom tengshe wuzu er fei ... \"flying dragon is without feet yet flies\", which figuratively means \"success results from concentrating on one's abilities\".",
+          "context": "historical-record",
+          "status": "loose"
+        },
+        {
+          "id": "teng-mythology-c07",
+          "source_id": "teng-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the Huainanzi, the ascending snake (tengshe) can drift in the mist yet is endangered by the centipede.",
+          "statement_id": "Dalam Huainanzi, ular yang naik (tengshe) dapat melayang di dalam kabut, namun terancam oleh kelabang.",
+          "quote": "Huainanzi uses both tengshe graphic variants ... The ascending snake can drift in the mist, yet it is endangered by the centipede.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "teng-mythology-c08",
+          "source_id": "teng-mythology-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The Bencao Gangmu (1578) mentions flying snakes without feet such as the 螣蛇 (T'eng She); its commentary says the t'eng-she changes into a dragon, and this divine snake can ride the clouds and fly over a thousand miles.",
+          "statement_id": "Dalam Bencao Gangmu (1578), ular terbang tanpa kaki seperti 螣蛇 (T'eng She) disebut; komentarnya menyatakan bahwa t'eng-she berubah menjadi naga, ular ilahi ini dapat menunggangi awan dan terbang lebih dari seribu mil.",
+          "quote": "The (1578 CE) Bencao Gangmu ... \"There are flying snakes without feet such as the 螣蛇 (T'eng She).\" ... The t'eng-she changes into a dragon. This divine snake can ride upon the clouds and fly about over a thousand miles.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "teng-mythology-c09",
+          "source_id": "teng-mythology-s2",
+          "host": "zh.wikisource.org",
+          "statement": "Shenzi (慎子) says the flying dragon (飛龍) rides the clouds and the rising snake (騰蛇) wanders in the mist, but when clouds disperse and mist clears, the dragon and snake become the same as earthworms and ants because they lose what they ride.",
+          "statement_id": "Shenzi (慎子) berkata bahwa naga terbang (飛龍) menunggangi awan dan ular terbang (騰蛇) mengembara di kabut, tetapi ketika awan bubar dan kabut cerah, naga dan ular itu sama saja dengan cacing dan semut karena kehilangan apa yang ditungganginya.",
+          "quote": "慎子曰：飛龍乘雲，騰蛇遊霧，雲罷霧霽，而龍蛇與螾螘同矣，則失其所乘也。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2a8e5378721bdfc4924e456df480d3232ab1bb23cfbcb469e7c35161a0b98367"
+      "images": []
     },
     {
       "slug": "tianma",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-3.md",
+      "entry_sha256": "673c2e3b4c06fa0a3696fa764023ebe9d7d13d4e6e1cd95df5fdfe03c065dec0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tianma-c01",
@@ -1693,27 +1891,91 @@
           "quote": "In the Western Zhou Empire, Tianma referred to a constellation. Tianma is also associated with Emperor Wu of Han, an aficionado of the Central Asian horse, and the famous poet Li Bo. The bronze statue Flying Horse of Gansu is a well-known example.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "tianma-c05",
+          "source_id": "tianma-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to the article, Tianma, the flying horse, is clearly connected to Pegasus from Western Han dynasty artwork and Tang dynasty sources, as coming from Hellenized Central Asia.",
+          "statement_id": "Menurut artikel itu, Tianma, kuda terbang, jelas terhubung dengan Pegasus dari karya seni dinasti Han Barat dan sumber dinasti Tang, sebagai berasal dari Asia Tengah yang terhelenisasi.",
+          "quote": "Tianma, the flying horse, is clearly connected to Pegasus from the Western Han dynasty artwork and in the Tang dynasty sources, as coming from Hellenized Central Asia.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "tianma-c06",
+          "source_id": "tianma-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Tianma is also associated with Emperor Wu of Han, an aficionado of the Central Asian horse, and the famous poet Li Bo; the bronze statue Flying Horse of Gansu is a well-known example.",
+          "statement_id": "Tianma juga dikaitkan dengan Kaisar Wu dari Han, penggemar kuda Asia Tengah, dan penyair terkenal Li Bo; patung perunggu Kuda Terbang Gansu adalah contoh yang terkenal.",
+          "quote": "Tianma is also associated with Emperor Wu of Han, an aficionado of the Central Asian horse, and the famous poet Li Bo. The bronze statue Flying Horse of Gansu is a well-known example.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tianma-c07",
+          "source_id": "tianma-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this classical history text, the emperor (天子) consults a text that says \"divine horses will come from the northwest\"; good Wusun (烏孫) horses are named \"天馬\", and after obtaining stronger blood-sweating (汗血) Dayuan (大宛) horses, the Wusun horses are renamed \"西極\" and the Dayuan horses are named \"天馬\".",
+          "statement_id": "Dalam teks sejarah klasik ini, sang kaisar (天子) membuka naskah dan memperoleh bunyi \"kuda dewa akan datang dari barat laut\"; kuda Wusun (烏孫) yang baik dinamai \"天馬\", dan setelah mendapat kuda Dayuan (大宛) yang berkeringat darah (汗血) yang lebih gagah, kuda Wusun dinamai ulang \"西極\" dan kuda Dayuan dinamai \"天馬\".",
+          "quote": "初，天子發書易，云「神馬當從西北來」。得烏孫馬好，名曰「天馬」。及得大宛汗血馬，益壯，更名烏孫馬曰「西極」，名大宛馬曰「天馬」云。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tianma-c08",
+          "source_id": "tianma-s2",
+          "host": "zh.wikisource.org",
+          "statement": "This classical history text says Dayuan (大宛) lies southwest of the Xiongnu and due west of Han, has many fine horses that sweat blood (馬汗血), and that their ancestor was the offspring of the heavenly horse (天馬子).",
+          "statement_id": "Teks sejarah klasik ini menyebut Dayuan (大宛) terletak di barat daya Xiongnu dan tepat di barat Han, memiliki banyak kuda bagus yang berkeringat darah (馬汗血), dan leluhurnya dikatakan keturunan kuda langit (天馬子).",
+          "quote": "大宛在匈奴西南，在漢正西，去漢可萬里 ... 多善馬，馬汗血，其先天馬子也。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tianma-c09",
+          "source_id": "tianma-s3",
+          "host": "zh.wikisource.org",
+          "statement": "A hymn in this classical text says the heavenly horse (天馬) descends with red sweat (赤汗) and ochre-colored foam, crosses ten thousand li (萬里), and has the dragon as friend (龍為友); its annotation says it was composed in the third year of Yuanshou (元狩三年) when a horse was born in the Wowa water (渥洼水).",
+          "statement_id": "Sebuah himne dalam teks klasik ini menyebut kuda langit (天馬) turun dengan keringat merah (赤汗) dan busa mengalir kemerahan, melintasi sepuluh ribu li (萬里), dan berkawan dengan naga (龍為友); catatan anotasinya menyebut himne itu dibuat pada tahun ketiga Yuanshou (元狩三年) ketika seekor kuda lahir di air Wowa (渥洼水).",
+          "quote": "太一況，天馬下，霑赤汗，沬流赭。志俶儻，精權奇，逦浮雲，晻上馳。體容與，迣萬里，今安匹，龍為友。〈元狩三年馬生渥洼水中作。〉",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tianma-c10",
+          "source_id": "tianma-s3",
+          "host": "zh.wikisource.org",
+          "statement": "Another hymn says the heavenly horse (天馬) comes from the far west (西極), crosses the flowing sands, emerges from spring water, has a tiger-like spine (虎脊), and transforms like a ghost or spirit (化若鬼).",
+          "statement_id": "Himne lain menyebut kuda langit (天馬) datang dari ujung barat (西極) melintasi pasir yang mengalir, muncul dari air mata air, berpunggung seperti harimau (虎脊), dan perubahannya seperti hantu (化若鬼).",
+          "quote": "天馬徠，從西極，涉流沙，九夷服。天馬徠，出泉水，虎脊兩，化若鬼。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tianma-c11",
+          "source_id": "tianma-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The next hymn says the heavenly horse (天馬) comes toward Kunlun (昆侖), acts as the dragon's matchmaker or guide (龍之媒), roams the gate of heaven (閶闔) and views the jade terrace (玉臺); its annotation says it was composed in the fourth year of Taichu (太初四年) when the king of Dayuan (宛王) was executed and Dayuan horses were obtained.",
+          "statement_id": "Himne berikutnya menyebut kuda langit (天馬) datang menuju Kunlun (昆侖), menjadi perantara bagi naga (龍之媒), mengembara di gerbang langit (閶闔) dan memandang teras giok (玉臺); anotasinya menyebut himne itu dibuat pada tahun keempat Taichu (太初四年) ketika raja Dayuan (宛王) dihukum dan kuda Dayuan diperoleh.",
+          "quote": "天馬徠，開遠門，竦予身，逝昆侖。天馬徠，龍之媒，游閶闔，觀玉臺。〈太初四年誅宛王獲宛馬作。〉",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9d241cd5b4b34a007ac43cc0e199bed0e0fc088b583c0edd15957846ad3f911b"
+      "images": []
     },
     {
       "slug": "yuqiang",
-      "file": "batch-068-fix-1.md",
+      "file": "batch-068-fix-3.md",
+      "entry_sha256": "c1958761d23673ea1a4b1e2aad6f56ee25d520790fefca8bcd49eed2ea31f475",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "yuqiang-c01",
@@ -1744,27 +2006,51 @@
           "quote": "Some accounts (Shanhaijing chapters 8 and 17) describe Yuqiang as having the body of a bird and the face of a human being, with a serpent mount for each foot that facilitated his travels.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "yuqiang-c04",
+          "source_id": "yuqiang-s2",
+          "host": "zh.wikisource.org",
+          "statement": "This classical text says 禺彊 (Yuqiang) of the north has a human face and bird body, wears two green snakes (青蛇) as earrings and treads on two green snakes.",
+          "statement_id": "Teks klasik ini menyebut 禺彊 (Yuqiang) di utara berwajah manusia dan bertubuh burung, dengan dua ular hijau (青蛇) sebagai anting dan menginjak dua ular hijau.",
+          "quote": "有青獸焉，狀如虎，名曰羅羅。 ... 北方禺彊，人面鳥身，珥兩青蛇。踐兩青蛇。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yuqiang-c05",
+          "source_id": "yuqiang-s3",
+          "host": "zh.wikisource.org",
+          "statement": "Another classical text says that on an islet in the North Sea (北海) there is a god with a human face and bird body, with two green snakes (青蛇) at his ears and two red snakes (赤蛇) under his feet, named 禺彊 (Yuqiang); the preceding sentence mentions the Daner country (儋耳之國) of the Ren (任) surname, descended from Yuhao (禺號).",
+          "statement_id": "Teks klasik lain menyebut di pulau kecil Laut Utara (北海) ada dewa berwajah manusia dan bertubuh burung, berantingkan dua ular hijau (青蛇) dan menginjak dua ular merah (赤蛇), bernama 禺彊 (Yuqiang); kalimat sebelumnya menyebut negeri Daner (儋耳之國) bermarga Ren (任) keturunan Yuhao (禺號).",
+          "quote": "有儋耳之國，任姓，禺號子，食榖。北海之渚中，有神，人面鳥身，珥兩青蛇，踐兩赤蛇，名曰禺彊。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "yuqiang-c06",
+          "source_id": "yuqiang-s4",
+          "host": "zh.wikisource.org",
+          "statement": "In this classical text's list of those who \"obtained it\" (得之), 禺強 (Yuqiang) is said to stand at the North Pole (北極), alongside the Yellow Emperor (黃帝), who ascended the clouded heavens, Zhuanxu (顓頊), who dwells in the Dark Palace, and the Queen Mother of the West (西王母), who sits at Shaoguang (少廣).",
+          "statement_id": "Dalam daftar tokoh yang \"mendapatkannya\" (得之) dalam teks klasik ini, 禺強 (Yuqiang) disebut berdiri di Kutub Utara (北極), di samping Kaisar Kuning (黃帝) yang naik ke langit berawan, Zhuanxu (顓頊) yang berdiam di Istana Gelap, dan Ibu Suri Barat (西王母) yang duduk di Shaoguang (少廣).",
+          "quote": "黃帝得之，以登雲天；顓頊得之，以處玄宮；禺強得之，立乎北極；西王母得之，坐乎少廣",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "87b5db7dfd8724d6aebf2fbe1bf57cba25409d357e427dd6912729a8fb8c0f91"
+      "images": []
     },
     {
       "slug": "ao-bing",
-      "file": "batch-068-fix-1.md",
+      "file": "batch-068-fix-3.md",
+      "entry_sha256": "b8f813e77fb086cac3812e00cc77b000a9d9982ffbb7a4f55f1d937e8993cf87",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "ao-bing-c01",
@@ -1815,27 +2101,111 @@
           "quote": "After the Shang dynasty's defeat, when Jiang Ziya conferred god titles, he was appointed as the god of Huagai xing",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "ao-bing-c06",
+          "source_id": "ao-bing-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ao Bing was originally revered as a rain god who would bestow rain at his command on anyone in need, but over time his father became corrupt and the people lived in fear of the stormy malevolence of Ao Guang and his three sons.",
+          "statement_id": "Ao Bing semula dihormati sebagai dewa hujan yang menurunkan hujan atas perintahnya kepada siapa pun yang membutuhkan, tetapi seiring waktu ayahnya menjadi korup dan rakyat hidup dalam ketakutan akan kebengisan badai Ao Guang dan ketiga putranya.",
+          "quote": "Ao Bing was originally revered as a rain god who would bestow the rain at his command upon any individual in need, but, as time passed, his father became corrupt, and soon the people were living in fear of the stormy malevolence of Ao Guang and his three sons.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ao-bing-c07",
+          "source_id": "ao-bing-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to folklore, when Nezha caused havoc in the East Sea he used the Universe Ring (Qiankun Quan) to kill the white dragon Ao Bing; later the immortal Taiyi Zhenren revived Ao Bing using tendon-relaxing vines and white pine bark.",
+          "statement_id": "Menurut cerita rakyat, ketika Nezha mengacau di Laut Timur ia memakai Cincin Semesta (Qiankun Quan) untuk membunuh naga putih Ao Bing; kemudian sang abadi Taiyi Zhenren menghidupkannya kembali dengan sulur pelemas otot dan kulit pinus putih.",
+          "quote": "According to folklore, when Nezha caused havoc in the East Sea, he used the Universe Ring (Qiankun Quan) to kill the white dragon, Ao Bing. Later, the immortal Taiyi Zhenren revived Ao Bing using tendon-relaxing vines and white pine bark.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ao-bing-c08",
+          "source_id": "ao-bing-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In Taoist traditions and folk beliefs, Ao Bing is worshiped as a folk deity and enshrined in some temples dedicated to the Dragon Kings of the Four Seas.",
+          "statement_id": "Dalam tradisi Tao dan kepercayaan rakyat, Ao Bing dipuja sebagai dewa rakyat dan disemayamkan di sejumlah kuil yang didedikasikan bagi Raja Naga Empat Laut.",
+          "quote": "In Taoist traditions and folk beliefs, Ao Bing is worshiped as a folk deity and enshrined in some temples dedicated to the Dragon Kings of the Four Seas.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "ao-bing-c09",
+          "source_id": "ao-bing-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Ao Bing appears as a major character in the animated films Ne Zha (2019) and Ne Zha 2 (2025).",
+          "statement_id": "Ao Bing muncul sebagai tokoh utama dalam film animasi Ne Zha (2019) dan Ne Zha 2 (2025).",
+          "quote": "Ao Bing appears as a major character in the animated films Ne Zha (2019) and Ne Zha 2 (2025)",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "ao-bing-c10",
+          "source_id": "ao-bing-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this classical text, the third prince of the Dragon King (龍王三太子) Ao Bing (敖丙) steps forward and tells his father he will go and seize the culprit; he musters dragon soldiers, rides a water-forcing beast (逼水獸) with a painted halberd (畫杆戟), and goes out of the Crystal Palace (水晶宮).",
+          "statement_id": "Dalam teks klasik ini, putra ketiga Raja Naga (龍王三太子) Ao Bing (敖丙) tampil dan berkata kepada ayahnya bahwa ia akan menangkap pelakunya; ia mengerahkan pasukan naga, menunggangi binatang pendorong air (逼水獸) dengan tombak bergagang berhias (畫杆戟), dan keluar dari Istana Kristal (水晶宮).",
+          "quote": "只見龍王三太子敖丙出來，口稱：「父王，為何大怒？」 ... 三太子曰：「父王請安。孩兒出去拿來便是。」忙調龍兵，上了逼水獸，提畫杆戟，逕出水晶宮來。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ao-bing-c11",
+          "source_id": "ao-bing-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this classical text Ao Bing (敖丙) declares himself the third prince (三太子) of the Dragon Lord of the East Sea (東海龍君); Nezha (哪吒) replies that he is Ao Guang's (敖光) son and is arrogant (妄自尊大).",
+          "statement_id": "Dalam teks klasik ini Ao Bing (敖丙) menyebut dirinya sebagai putra ketiga (三太子) Raja Naga Laut Timur (東海龍君); Nezha (哪吒) menanggapi bahwa ia putra Ao Guang (敖光) dan sombong (妄自尊大).",
+          "quote": "敖丙曰：「孤乃東海龍君三太子敖丙是也。」哪吒笑曰：「你原來是敖光之子。你妄自尊大。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ao-bing-c12",
+          "source_id": "ao-bing-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this classical text, Nezha (哪吒) spreads his seven-foot Hun Tian scarf (七尺混天綾), like a thousand lumps of fire, and wraps the prince off his beast; he then steps on Ao Bing's (敖丙) neck and strikes his crown with the Qiankun Ring (乾坤圈), so that the prince's original body shows as a dragon lying stretched on the ground.",
+          "statement_id": "Dalam teks klasik ini, Nezha (哪吒) membentangkan selendang Hun Tian (七尺混天綾) yang seperti seribu gumpal api dan menggulung sang pangeran jatuh dari binatangnya; ia lalu menginjak leher Ao Bing (敖丙) dan memukul ubun-ubunnya dengan Cincin Qiankun (乾坤圈), sehingga wujud asli sang pangeran terlihat sebagai seekor naga yang terbujur di tanah.",
+          "quote": "哪吒急了，把七尺混天綾望空一展，似火塊千團，往下一裹，將三太子裹下逼水獸來。哪吒搶一步趕上去，一腳踏住敖丙的頸項，提起乾坤圈，照頂門一下，把三太子的元身打出，是一條龍，在地上挺直。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ao-bing-c13",
+          "source_id": "ao-bing-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this classical text, once the third prince's (三太子) dragon form shows, Nezha (哪吒) says he will pull out his sinews to make a dragon-sinew cord for his father's armor, then pulls them out and takes them into the pass.",
+          "statement_id": "Dalam teks klasik ini, setelah wujud naga sang putra ketiga (三太子) tampak, Nezha (哪吒) berkata akan mencabut uratnya untuk dijadikan tali pengikat baju zirah ayahnya, lalu mencabutnya dan membawanya ke dalam kota.",
+          "quote": "把三太子的元身打出，是一條龍，在地上挺直。哪吒曰：「打出這小龍的本像來了。也罷，把他的筋抽去，做一條龍筋絛與俺父親束甲。」哪吒把三太子的筋抽了，逕帶進關來。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "ao-bing-c14",
+          "source_id": "ao-bing-s2",
+          "host": "zh.wikisource.org",
+          "statement": "When told that Nezha (哪吒), son of Li Jing (李靖) of Chentang Pass (陳塘關), has beaten the third prince (三太子) to death and pulled out his sinews, Ao Guang (敖光) is startled and cries that his son is a proper god who makes clouds and rain and nourishes all things.",
+          "statement_id": "Ketika dilapori bahwa Nezha (哪吒), putra Li Jing (李靖) dari Pass Chentang (陳塘關), memukul mati sang putra ketiga (三太子) dan mencabut uratnya, Ao Guang (敖光) terkejut dan berseru bahwa putranya adalah dewa lurus yang membuat awan dan hujan serta menghidupi segala makhluk.",
+          "quote": "「陳塘關李靖之子哪吒把三太子打死，連筋都抽去了。」敖光聽報，大驚曰：「吾兒乃興雲布雨滋生萬物正神，怎說打死了！",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "caf72f9b207b9b36e2dc0f46d05fe780e956c4066769ca621b864437936b6dc5"
+      "images": []
     },
     {
       "slug": "dijiang",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-3.md",
+      "entry_sha256": "75dcd2229ecde99a0c009a7a6c61a85e2bd89291161cd694a2f7b6c0f6d2a209",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "dijiang-c01",
@@ -1866,27 +2236,61 @@
           "quote": "Zhuangzi, ein Daoistischer Autor, sagte: In Niederschriften gibt es ein Hundun, das keine Augen, Nase, Mund und Ohren hat, die dem Wesen Dihong aus dem Werk „Klassiker der Berge und Meere“ ähnelte, infolgedessen gab es Leute die dachten, dass Dihong einfach selbst Hundun ist.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "dijiang-c04",
+          "source_id": "dijiang-s1",
+          "host": "de.wikipedia.org",
+          "statement": "In ancient writings the character 江 (Jiang) is read like 鴻 (hong), so his name is read Dihong rather than Dijiang.",
+          "statement_id": "Dalam naskah kuno aksara 江 (Jiang) dibaca seperti 鴻 (hong), sehingga namanya dibaca Dihong dan bukan Dijiang.",
+          "quote": "In alten Schriftstücken wird das Schriftzeichen 江 (Jiang) wie 鴻 (hong) gelesen, somit wird er Dihong und nicht Dijiang gelesen.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dijiang-c05",
+          "source_id": "dijiang-s1",
+          "host": "de.wikipedia.org",
+          "statement": "One of the titles of the Yellow Emperor (黃帝) was also Dihong, because people believed this description fit him.",
+          "statement_id": "Salah satu gelar Kaisar Kuning (黃帝) juga Dihong, karena orang percaya bahwa uraian itu sesuai dengannya.",
+          "quote": "Einer der Titel des Gelben Kaisers (黃帝) war auch Dihong, da man glaubte, dass ihm diese Beschreibung entsprach.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dijiang-c06",
+          "source_id": "dijiang-s2",
+          "host": "zh.wikisource.org",
+          "statement": "This classical text says that on Mount Tian (天山), 350 li farther west and rich in metals and jade, there is a spirit (神) shaped like a yellow sack and red as cinnabar fire.",
+          "statement_id": "Teks klasik ini menyebut di gunung Tianshan (天山), 350 li lebih jauh ke barat dan kaya logam serta giok, ada dewa (神) yang berbentuk seperti kantong kuning dan merah seperti api cinnabar.",
+          "quote": "又西三百五十里，曰天山，多金玉，有青雄黃 ... 有神焉，其狀如黃囊，赤如丹火",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dijiang-c07",
+          "source_id": "dijiang-s2",
+          "host": "zh.wikisource.org",
+          "statement": "This classical text says the spirit (shaped like a yellow sack and red as cinnabar fire, with an annotation on a yellow body color and red radiance) has six feet and four wings, is a hundun without face or eyes (無面目), knows song and dance (識歌舞), and is indeed 帝江 (Dijiang).",
+          "statement_id": "Teks klasik ini menyebut dewa itu (yang bentuknya seperti kantong kuning dan merah seperti api cinnabar, dengan anotasi tentang warna tubuh kuning dan cahaya merah) berkaki enam dan bersayap empat, 渾敦 tanpa wajah (無面目), mengenal nyanyian dan tarian (識歌舞), dan sesungguhnya adalah 帝江 (Dijiang).",
+          "quote": "有神焉，其狀如黃囊，赤如丹火〈體色黃，而精光赤也。〉，六足四翼，渾敦無面目，是識歌舞，實為帝江也",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "9085a673b87fe1e336a5ca9fc1f5e30cb15ed8d395627768e97c2ae4c854c9ae"
+      "images": []
     },
     {
       "slug": "dilong",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-3.md",
+      "entry_sha256": "75424b0fddeb0bf0eab63ad54de7e7e93c70013de0e0d1351d9c2add47f8974d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "dilong-c01",
@@ -1904,7 +2308,7 @@
           "host": "en.wikipedia.org",
           "statement": "In mythology, Dilong is paired with Tianlong, the heavenly dragon.",
           "statement_id": "Dalam mitologi, Dilong dipasangkan dengan Tianlong, naga langit.",
-          "quote": "In Chinese mythology, dilong (地龍; \"earth dragon\") is one of many types of -long (龍) dragons such as shenlong (神龍; \"divine dragon\") and huanglong (黃龍; \"Yellow Dragon\").",
+          "quote": "In Chinese mythology, dilong (地龍; \"earth dragon\") is one of many types of -long (龍) dragons ... the dilong is paired with the tianlong (天龍; \"heavenly dragon\").",
           "context": "traditional-belief",
           "status": "loose"
         },
@@ -1937,27 +2341,61 @@
           "quote": "Dilong first means \"earthworm\" in the Qixiu Leigao (七修類稿) written by the Ming dynasty scholar Lang Ying 郎瑛 (1487–1566 CE). The 1578 Bencao Gangmu pharmacological entry for qiuyin (蚯蚓; \"earthworm\") lists alternate names of dilong and tulong (土龍) (see above).",
           "context": "historical-record",
           "status": "loose"
+        },
+        {
+          "id": "dilong-c06",
+          "source_id": "dilong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Chinese dragons were supposedly able to fly and were thus considered celestial creatures rather than terrestrial ones like the \"earthbound\" dilong.",
+          "statement_id": "Naga Tiongkok dianggap dapat terbang sehingga dipandang sebagai makhluk langit, bukan makhluk darat seperti dilong yang \"terikat bumi\".",
+          "quote": "Chinese dragons were supposedly able to fly, and thus were considered celestial creatures rather than terrestrial ones like the \"earthbound\" dilong.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "dilong-c07",
+          "source_id": "dilong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Li Shizhen notes these names derive from the myth that earthworms, like dragons, can create yinqing (unsettled cloudy and clear weather).",
+          "statement_id": "Li Shizhen mencatat bahwa nama-nama itu berasal dari mitos bahwa cacing tanah (seperti naga) dapat menciptakan yinqing (cuaca mendung dan cerah yang tak menentu).",
+          "quote": "Li Shizhen notes these names derive from the myth that earthworms (like dragons) can create yinqing",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dilong-c08",
+          "source_id": "dilong-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Dilongsan (地龍散; \"earth dragon powder\"), or Di Long, is used in traditional Chinese medicine; it is prepared from the abdomen of the red earthworm Lumbricus rubellus and has many purported medicinal uses.",
+          "statement_id": "Dilongsan (地龍散; \"bubuk naga bumi\"), atau Di Long, dipakai dalam pengobatan tradisional Tiongkok; dibuat dari perut cacing tanah merah Lumbricus rubellus dan dikatakan memiliki banyak khasiat.",
+          "quote": "Dilongsan (地龍散; \"earth dragon powder\"), or Di Long, is used in traditional Chinese medicine. It is prepared from the abdomen of the Red earthworm, Lumbricus rubellus, and has many purported medicinal uses.",
+          "context": "historical-record",
+          "status": "loose"
+        },
+        {
+          "id": "dilong-c09",
+          "source_id": "dilong-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In this classical history record, on the gengyin day of the third month two dragons leapt into the sky from the river west of the city with five distinct colors reflected on the water; people looked up, and elders gathered in grief saying, \"The earth dragon (地龍) has gone; will the state perish?\"",
+          "statement_id": "Dalam catatan sejarah klasik ini, pada hari gengyin bulan ketiga dua naga melompat naik ke langit dari sungai di barat kota dengan lima warna yang jelas memantul di air; rakyat menengadah, dan para tetua berkumpul dengan sedih sambil berkata, \"Naga bumi (地龍) telah pergi, apakah negara akan binasa?\"",
+          "quote": "三月庚寅，有兩龍自城西江中騰躍升天，五色分明，遙映江水。百姓咸仰面目之，父老或聚而悲，竊相謂曰：「地龍已去，國其亡乎。」",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e078a2b417016b36a1014fa661be480537181a7991c6e00be4320495bde0e787"
+      "images": []
     },
     {
       "slug": "gazeka",
-      "file": "batch-068.md",
+      "file": "batch-068-fix-3.md",
+      "entry_sha256": "716a920a3d9baed58c8a05c3495a7a6fd8464f90dbcfe388260a4fc7d4202c4c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gazeka-c01",
@@ -1988,10 +2426,69 @@
           "quote": "Totalmente separado de esa criptozoología (a la que el nombre de 'Monckton's Gazeka' fue aplicado confusamente por persona(s) desconocida(s)) es la 'real' Gazeka, que fue la creación del actor cómico inglés George Graves, quien la introdujo como una obra secundaria en el musical, The Little Michus en elt Daly's Theatre, de Londres, en 1905.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "gazeka-c04",
+          "source_id": "gazeka-s2",
+          "host": "www.goodreads.com",
+          "statement": "In 1906, during Captain Charles A.W. Monckton's expedition to Mount Albert Edward in PNG, a private named Ogi, separated from his companion Oina, came upon two extraordinary creatures grazing nearby.",
+          "statement_id": "Pada 1906, selama ekspedisi Kapten Charles A.W. Monckton ke Gunung Albert Edward di PNG, prajurit bernama Ogi, yang terpisah dari rekannya Oina, menjumpai dua makhluk luar biasa yang sedang merumput.",
+          "quote": "And in 1906, two such beasts were finally encountered, albeit in a wholly unplanned manner. ... During the spring of that year, explorer Captain Charles A.W. Monckton was leading a major expedition to PNG's Mount Albert Edward. ... while seeking Oina, Ogi came upon two extraordinary creatures grazing nearby.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gazeka-c05",
+          "source_id": "gazeka-s2",
+          "host": "www.goodreads.com",
+          "statement": "Though vaguely pig-like, each animal was about 3.5 ft tall and 5 ft long, with a very dark patterned hide, cloven feet, a long snout, and a horse-like (hairy?) tail.",
+          "statement_id": "Meski samar-samar mirip babi, tiap hewan itu kira-kira setinggi 3,5 kaki dan sepanjang 5 kaki, berkulit sangat gelap bercorak, berkuku belah, berhidung panjang, dan berekor seperti kuda (berbulu?).",
+          "quote": "Although vaguely pig-like, each of these animals was approximately 3.5 ft tall, and 5 ft long, with a very dark, patterned hide, cloven feet, a long snout, and a horse-like (hairy?) tail.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gazeka-c06",
+          "source_id": "gazeka-s2",
+          "host": "www.goodreads.com",
+          "statement": "Ogi was so frightened by these weird creatures, which he called devil-pigs because he felt sure they were demons in porcine guise, that he tried to shoot one but missed.",
+          "statement_id": "Ogi begitu ketakutan pada makhluk aneh itu, yang ia sebut babi setan karena yakin mereka iblis berwujud babi, sampai mencoba menembak satu tetapi meleset.",
+          "quote": "Ogi was so frightened by these weird creatures, which he referred to as devil-pigs as he felt sure that they must be demons in porcine guise, that he tried to shoot one, but missed.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gazeka-c07",
+          "source_id": "gazeka-s2",
+          "host": "www.goodreads.com",
+          "statement": "Ogi's testimony gained partial support from expedition leader Captain Monckton, who affirmed that some very large cloven-footed tracks had indeed been found on Mount Albert Edward.",
+          "statement_id": "Kesaksian Ogi memperoleh dukungan sebagian dari pemimpin ekspedisi, Kapten Monckton, yang menegaskan bahwa jejak berkuku belah yang sangat besar memang ditemukan di Gunung Albert Edward.",
+          "quote": "Intriguingly, Ogi's testimony gained partial support from expedition leader Captain Monckton himself, because he affirmed that some very large cloven-footed tracks had indeed been found on Mount Albert Edward.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "gazeka-c08",
+          "source_id": "gazeka-s2",
+          "host": "www.goodreads.com",
+          "statement": "Palorchestids (large extinct marsupials) would have looked very like giant pigs or even tapirs in life, and startling enough to conjure up notions of pig demons or devil-pigs in the minds of frightened locals.",
+          "statement_id": "Palorchestid (marsupial besar yang telah punah) dalam hidupnya tampak sangat mirip babi raksasa atau tapir dan cukup mengejutkan untuk memunculkan gagasan iblis babi atau babi setan pada penduduk lokal yang ketakutan.",
+          "quote": "Moreover, palorchestids would have looked very like giant pigs or even tapirs in life, and certainly startling enough if encountered unexpectedly to conjure up notions of pig demons or devil-pigs in the minds of frightened locals.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gazeka-c09",
+          "source_id": "gazeka-s2",
+          "host": "www.goodreads.com",
+          "statement": "The nickname \"Monckton's gazeka\" was applied to the Papuan devil-pig by person(s) unknown and is a source of confusion; it derives from an entirely fictitious mystery beast called the gazeka created by the English comic actor George Graves.",
+          "statement_id": "Julukan \"Monckton's gazeka\" untuk babi setan Papua diberikan oleh orang tak dikenal dan menjadi sumber kebingungan; julukan itu berasal dari makhluk misteri fiktif bernama gazeka yang diciptakan aktor komedi Inggris George Graves.",
+          "quote": "a longstanding source of much confusion and misinformation regarding the Papuan devil-pig is the application to it by person(s) unknown of the nickname 'Monckton's gazeka'. ... It derives from an entirely fictitious mystery beast called the gazeka, which was created by English comic actor George Graves",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "35d9e5b735fbfd3f05adfbb3f2216d72407a7bc27167c37aaf7e81a997b58d35"
+      "images": []
     },
     {
       "slug": "guhuoniao",
@@ -2293,20 +2790,15 @@
     },
     {
       "slug": "inmyeonjo",
-      "file": "batch-068-fix-1.md",
+      "file": "batch-068-fix-3.md",
+      "entry_sha256": "d78c8d07e56b261bb34490486f1db63a23c5e8ab592518540d4c33d64a6f0ae0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "inmyeonjo-c01",
@@ -2357,10 +2849,69 @@
           "quote": "It is interpreted that it contains the meaning to pray for Sukhavati(極樂往生) of Pure land(淨土) under the influence of Kalaviṅka (迦陵迦迦) of Buddhism found in the tombs of Goguryo and Baekje. Kalaviṅka is a bird that appears in the Sanskrit word \"kalavinka\" in Chinese characters. It is a bird that comes from Sukhavati of Amitābha.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "inmyeonjo-c06",
+          "source_id": "inmyeonjo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the ancient Dukheungri tombs in Nampo, South Pyongan Province, in 1976, the figures are named Cheonchu (天秋) and Mansei (萬歲); they are a symbol of longevity, known to live for a thousand years.",
+          "statement_id": "Di makam kuno Dukheungri di Nampo, Provinsi Pyongan Selatan, yang ditemukan pada 1976, figur-figur itu dinamai Cheonchu (天秋) dan Mansei (萬歲); mereka adalah lambang umur panjang dan dikenal hidup seribu tahun.",
+          "quote": "Named as Cheonchu(天秋) and Mansei(萬歲) in the ancient Dukheungri tombs in Nampo, South Pyongan Province in 1976, they are a symbol of longevity, known to live for a thousand years.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "inmyeonjo-c07",
+          "source_id": "inmyeonjo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the case of Baekje, four inmyeonjo are found on the Gilt-bronze Incense Burner of Baekje.",
+          "statement_id": "Pada kasus Baekje, empat inmyeonjo ditemukan pada Pedupaan Perunggu Berlapis Emas Baekje.",
+          "quote": "In the case of Baekje, four inmyeonjos are found in the Gilt-bronze Incense Burner of Baekje.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "inmyeonjo-c08",
+          "source_id": "inmyeonjo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The opening ceremony of the 2018 Winter Olympic Games in PyeongChang featured an inmyeonjo puppet that went viral on social media.",
+          "statement_id": "Upacara pembukaan Olimpiade Musim Dingin 2018 di PyeongChang menampilkan boneka inmyeonjo yang viral di media sosial.",
+          "quote": "The opening ceremony of the 2018 Winter Olympic Games in PyeongChang featured an inmyeonjo puppet that went viral on social media.",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "inmyeonjo-c09",
+          "source_id": "inmyeonjo-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "A Korean cultural encyclopedia defines the 가릉빈가문 (kalavinka motif) as a pattern depicting the imaginary bird kalavinka (가릉빈가), said to have a human head and a bird body.",
+          "statement_id": "Ensiklopedia budaya Korea mendefinisikan 가릉빈가문 (motif kalavinka) sebagai pola yang bertema burung khayalan kalavinka (가릉빈가) yang dikatakan berkepala manusia dan bertubuh burung.",
+          "quote": "사람의 머리에 새의 몸을 하고 있다는 상상의 새 가릉빈가를 소재로 한 문양.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "inmyeonjo-c10",
+          "source_id": "inmyeonjo-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "The kalavinka (가릉빈가) appears with a human head and arms, a scaled body, a flower crown with bird feathers on its head, and playing a musical instrument.",
+          "statement_id": "Kalavinka (가릉빈가) digambarkan berkepala dan berlengan manusia, bertubuh bersisik, memakai mahkota bunga berhias bulu burung di kepalanya, dan memainkan alat musik.",
+          "quote": "머리와 팔은 사람의 형상을 하였고 몸체에는 비늘이 있으며, 머리에는 새의 깃털이 달린 화관을 쓰고 악기를 연주하고 있는 모습으로 나타난다.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "inmyeonjo-c11",
+          "source_id": "inmyeonjo-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "In Korea, figures similar to the kalavinka (가릉빈가) appear in the Goguryeo (고구려) tombs, the Deokheungni (덕흥리, 德興里) mural tomb and Anak Tomb No. 1 (안악 1호분); the Deokheungni figure clearly shows the form of the kalavinka bird (빈가조) as a whole, including the expression of the head.",
+          "statement_id": "Di Korea, figur serupa kalavinka (가릉빈가) tampak pada makam Goguryeo (고구려), yaitu makam berlukisan dinding Deokheungni (덕흥리, 德興里) dan Anak 1 (안악 1호분); figur di Deokheungni jelas menunjukkan bentuk burung binga (빈가조) secara keseluruhan, termasuk ekspresi kepalanya.",
+          "quote": "우리 나라에서는 고구려 고분인 덕흥리(德興里) 벽화고분과 안악(安岳)1호분에 가릉빈가와 유사한 형상이 보이는데, 특히 덕흥리벽화고분의 형상은 머리의 표현을 비롯하여 전체적으로 빈가조의 형상을 나타낸 것이 분명하다.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "19c340d2eebaccfc1c769592ce4f9bfe85dc081fe4c4e6aff2023fa580334cb3"
+      "images": []
     },
     {
       "slug": "lo-ting",
