@@ -1,8 +1,9 @@
 {
   "batch_id": "batch-137",
-  "checked_at": "2026-10-02T04:03:35.831Z",
+  "checked_at": "2026-10-06T14:51:11.213Z",
   "files": [
-    "batch-137.md"
+    "batch-137.md",
+    "batch-137-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -109,7 +110,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "fa322ebfbdcaa20adb587887fe8326027a02398db7e4c26689b56ace1fee4e3a"
     },
     {
       "slug": "erlik",
@@ -203,7 +205,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "989bccd695a5b0fcccff0f42a6a9914f4fbc0dd562b24c127fa6be6ce968161b"
     },
     {
       "slug": "almas-folklore",
@@ -307,7 +310,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bea7cd850851fa0ec2985512b8097d5e18b4ecb8dff28ed1afaa22dec5ddc1f0"
     },
     {
       "slug": "asena",
@@ -391,7 +395,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e0cc01b1b5ab2a0e758f37390c6cb38cdaa7177134075370e97db0cb494e45ae"
     },
     {
       "slug": "tulpar",
@@ -475,7 +480,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ec0a400d7d2b20de5586b6a004e4676ca4bb6f17d0d6d191075f11655e2b21f7"
     },
     {
       "slug": "zilant",
@@ -559,7 +565,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "035ff5f5ef5b1b27455c5d675bcb94a48ba6a58fbac3cd5b8b8a2613bff28e7f"
     },
     {
       "slug": "abasy",
@@ -653,7 +660,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "95ff23be841dfb9365a5ba15eabdaec48d308c4b1b1957c6a62da10cf63b9102"
     },
     {
       "slug": "al-basty",
@@ -747,7 +755,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5ed7753aa4485825ec7303ec3a293b70ca1f6372fe49cb39b78f0c9fd70292f4"
     },
     {
       "slug": "surale",
@@ -841,7 +850,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c30ffbdde7d1adef72ee76e2983f3a3e619bb2479578b82bbcf8e8c8e7632fe1"
     },
     {
       "slug": "archura",
@@ -935,7 +945,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7673eafadb899b2ea97284c1787d47f71a4cce7fde8e9cefdb617da362ea95a1"
     },
     {
       "slug": "yuxa",
@@ -1019,7 +1030,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5952959a1f9f7f5ce606b1e94647e34eab6afe652f70a1aac509f55eddf1262d"
     },
     {
       "slug": "bai-baianai",
@@ -1123,24 +1135,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "dde7df38d24172aea46d55cc23199a6b89e25117fbbe0f06e4b3f8bf695ee66a"
     },
     {
       "slug": "tepegoz",
-      "file": "batch-137.md",
+      "file": "batch-137-fix-1.md",
+      "entry_sha256": "93ee424717f690e6f8433d4d1cac7bb34467b21a6c3e8987bfa559b6ab9f0509",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 3,
+        "claims": 11,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tepegoz-c01",
@@ -1190,6 +1198,66 @@
           "statement_id": "Kisahnya pada intinya: Tepegöz menggiring seseorang ke guanya untuk dimakan, tetapi orang itu membutakannya dengan menusuk matanya yang tunggal, lalu lolos dengan berselubung kulit domba.",
           "quote": "одноглазый великан (дэв) в тюркской мифологии, рассказ о котором сводится к тому, что Тепегёз загоняет человека в пещеру, своё логово, собираясь съесть, но человек ослепляет его, вонзив в его единственный глаз остриё, и выбирается из пещеры, накинув на себя овечью шкуру.",
           "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tepegoz-c06",
+          "source_id": "tepegoz-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the story nobody can kill him: the sword cannot cut him, the arrow cannot kill him, and his skin is very hard.",
+          "statement_id": "Dalam kisah itu tak seorang pun mampu membunuhnya: pedang tidak melukainya, panah tidak membunuhnya, dan kulitnya sangat keras.",
+          "quote": "Nobody is able to kill him. The sword can not cut him. The arrow can not kill him. Tepegoz's skin is very hard.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tepegoz-c07",
+          "source_id": "tepegoz-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Basat killed Tepegöz by striking his eye, then cut off his head with a magical sword.",
+          "statement_id": "Basat membunuh Tepegöz dengan menyerang matanya, lalu memenggal kepalanya dengan pedang ajaib.",
+          "quote": "He killed horrible Tepegoz by striking his eye. Then he cut off Tepegoz's head with a magical sword",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tepegoz-c08",
+          "source_id": "tepegoz-s1",
+          "host": "en.wikipedia.org",
+          "statement": "When the one-eyed boy grows up he bites off a neighbour child's nose and ear, and his father drives him away from the village.",
+          "statement_id": "Setelah dewasa, anak bermata satu itu menggigit putus hidung dan telinga seorang anak tetangga, lalu diusir dari desa oleh ayahnya.",
+          "quote": "When the one eyed boy grows up he bites off a neighborhood child's nose and ear. His father scorns him, driving him away from the village.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tepegoz-c09",
+          "source_id": "tepegoz-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "Because Tepegöz starts attacking and eating many people, Dede Korkut strikes a deal to give him two men and 500 sheep daily.",
+          "statement_id": "Karena Tepegöz mulai menyerang dan memakan banyak orang, Dede Korkut membuat kesepakatan untuk menyerahkan dua orang dan 500 domba setiap hari kepadanya.",
+          "quote": "Because Tepegöz, the Cyclops, starts attacking and eating many people, Dede Korkut strikes a deal to provide Tepegöz with two men and 500 sheep daily.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tepegoz-c10",
+          "source_id": "tepegoz-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "Basat blinds Tepegöz with a spit, tricks him, and finally beheads him.",
+          "statement_id": "Basat membutakan Tepegöz dengan tusuk panggang, mengelabuinya, lalu memenggalnya.",
+          "quote": "Basat blinds Tepegöz with a spit and tricks him, finally beheading him.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "tepegoz-c11",
+          "source_id": "tepegoz-s4",
+          "host": "www.encyclopedia.com",
+          "statement": "Scholars are intrigued by how closely the story of Tepegöz relates to that of Odysseus and the Cyclops in Homer; some argue the Homeric story found its way into the Turkic version, others that Homer took it from an earlier tradition circulating in Asia Minor.",
+          "statement_id": "Para sarjana tertarik pada kedekatan kisah Tepegöz dengan kisah Odiseus dan Kiklop dalam karya Homeros; sebagian menduga kisah Homeros masuk ke versi Turkik, sebagian lain menduga Homeros mengambilnya dari tradisi yang lebih tua di Asia Kecil.",
+          "quote": "Scholars have been especially intrigued by the close relation of the story of Tepegöz to the story of Odysseus and the Cyclops in Homer ... Some scholars argue that the Homeric story somehow found its way into the Turkic version; others argue that Homer took the story from an earlier tradition circulating in Asia Minor.",
+          "context": "scholarly-interpretation",
           "status": "exact"
         }
       ],
@@ -1287,7 +1355,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7ce1409e02abcad0e7d6fe4eedc1bc621a916b3c25e6077832e2654890ab67f2"
     },
     {
       "slug": "barmanou",
@@ -1361,7 +1430,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "019aec821013a50048d624e6abf7a43fd9de7c9bb28f4fd0c96e790ed3927092"
     },
     {
       "slug": "bichura-folklore",
@@ -1475,7 +1545,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d4e792315a54570bd12c4ad82272dc827e7f74cc7c64c19db0250bc1cf94cff7"
     },
     {
       "slug": "chai-nenesi",
@@ -1549,7 +1620,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4c12ef5032cb45070804c3e00f1bfd40acac9925d64a11be14bf4b243d7ac914"
     },
     {
       "slug": "abada",
@@ -1623,7 +1695,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a7b6c578c976e7bac2ac26dc476c1d9c648fd9aef67952160809c9d40eb78715"
     },
     {
       "slug": "ayaz-ata",
@@ -1717,7 +1790,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "479fe072917daeebcfb5ffa5659e4683b83b203358e370f814a7c721a3c73d92"
     },
     {
       "slug": "chuvash-dragon",
@@ -1791,7 +1865,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "deb028e275f97c429efcfd8ab5045b05b66508cd8f1165f0237545794b955fe5"
     },
     {
       "slug": "hortdan",
@@ -1875,7 +1950,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "37a4eb237bb62997ec6d2926a0e7fb8bcd7e1c77c8e7954df11cac0d48ff2888"
     },
     {
       "slug": "konrul",
@@ -1959,7 +2035,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "af56c319f742faeca81a29f0f97560b758a31ff7f91be382d6ea35ee4cd69203"
     },
     {
       "slug": "mhachkay",
@@ -2053,7 +2130,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "85896fa43bd8411dc52f5a3b74049c33ff8c170f9fae719f587ca242f737cea7"
     },
     {
       "slug": "muu-shuvuu",
@@ -2147,7 +2225,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "98d49851ba3f5d5068b823659c0f3b7ecb15c0d66760ece9347cd9c92e2ab761"
     },
     {
       "slug": "pitsen",
@@ -2231,7 +2310,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "2215ffe192fea919d7a46db49ce28832ceef8f0b79884067d23e11b242cb0264"
     },
     {
       "slug": "abzar-iyesi",
@@ -2325,7 +2405,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e4c19938c78dcab89a8c2f26730c0ce2e9a1f4b5aecad21d8574bfa70974848a"
     },
     {
       "slug": "irshi",
@@ -2409,7 +2490,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "07fc0e91d461a9c0e8b3f20c3c402083df57fef9de4b5483f228b094b6d4a38f"
     },
     {
       "slug": "sazakan",
@@ -2493,7 +2575,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "645427ad306518553c8adaaa99a0bca657fa3230fe0cd799263d28506375b073"
     },
     {
       "slug": "wd-q4245639",
@@ -2567,7 +2650,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "de4751cfa75629b407ae705ce3e690d893f0c03c5ff99bef777ce263e1e43e73"
     },
     {
       "slug": "yekyua",
@@ -2641,7 +2725,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "77000d3b2d515659f0272eab4a0f0d83bc7421d9af93e00ee0cc6515d8385cd3"
     },
     {
       "slug": "yelbeghen",
@@ -2715,7 +2800,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ec64680dd6c9555eb98571be141c41c5592877e902332026d14381c79a49b6d4"
     },
     {
       "slug": "ajina",
@@ -2799,24 +2885,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3919340176a7e0fea5dfca7f8f2d7bbc0c28f19629a8f2a3fe32a6cf1a3926cf"
     },
     {
       "slug": "qarakorshaq",
-      "file": "batch-137.md",
+      "file": "batch-137-fix-1.md",
+      "entry_sha256": "ba6ec627af648607793ea709495ef20e6f3fcff24148961acd79339bd8acebbb",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "qarakorshaq-c01",
@@ -2865,6 +2947,36 @@
           "statement": "It has a clumsy or lumbering gait.",
           "statement_id": "Jalannya canggung atau lamban.",
           "quote": "Sakar veya hantal bir yürüyüşü vardır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "qarakorshaq-c06",
+          "source_id": "qarakorshaq-s3",
+          "host": "dergipark.org.tr",
+          "statement": "According to this article, Kara korşak is a jinn that the Turkmen of Erbil believe takes the guise of a donkey, dog, pig or goat.",
+          "statement_id": "Menurut makalah ini, Kara korşak adalah jin yang dipercayai orang Turkmen di Erbil dapat menyamar sebagai keledai, anjing, babi, atau kambing.",
+          "quote": "Kara korşak: Erbil’de Türkmenlerin eşek, köpek, domuz, keçi kılığına girdiğine inandıkları bir cindir.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "qarakorshaq-c07",
+          "source_id": "qarakorshaq-s3",
+          "host": "dergipark.org.tr",
+          "statement": "It is said to knock on doors at night and trick the householder with a familiar voice and appearance, calling him out and abducting him.",
+          "statement_id": "Dikatakan ia mengetuk pintu pada malam hari dan menipu pemilik rumah dengan suara dan rupa yang dikenalnya, memanggilnya keluar, lalu menculiknya.",
+          "quote": "Gece kapıları çalıp, ev sahibinin tanıdığı bir ses ve kılıkla onu kandırarak çağırıp kaçırırmış.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "qarakorshaq-c08",
+          "source_id": "qarakorshaq-s3",
+          "host": "dergipark.org.tr",
+          "statement": "It is believed that to be protected from this jinn one must undo the buttons of one's trousers.",
+          "statement_id": "Diyakini bahwa untuk berlindung dari jin ini orang perlu membuka kancing celananya.",
+          "quote": "Bu cinden korunmak için pantolonun düğmelerini açmak gerektiğine inanılır",
           "context": "traditional-belief",
           "status": "exact"
         }
@@ -2943,7 +3055,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e2fee692d9f3c8009a9c875a238172a9f86cdbb49f017af95a674d96c9b29ffc"
     },
     {
       "slug": "yunak-iyesi",
@@ -3027,7 +3140,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f123b21f21d108cb40ccdcd4241c82719cacc96e54566cf02cdfbd62a04dd164"
     },
     {
       "slug": "a",
@@ -3111,7 +3225,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "52f52526b2f8b5e0da8fcf9cc005507092aebf0bafdfc24272397c5cd4545427"
     },
     {
       "slug": "abra",
@@ -3185,24 +3300,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d466e09b12658898686eadc1005b023384d1a5eb20be8bc0aefa9ef7b5536f08"
     },
     {
       "slug": "al-ana",
-      "file": "batch-137.md",
+      "file": "batch-137-fix-1.md",
+      "entry_sha256": "5b32afe28fe7f8f8b864c84da9fd2c314ebc3c7a158a06edf014061ce83ace6d",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 2,
+        "claims": 13,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "al-ana-c01",
@@ -3252,6 +3363,86 @@
           "statement_id": "Dalam upacara kelahiran, meski menyebut namanya sering ditabukan, banyak ritual justru berkaitan dengan sosok Hal.",
           "quote": "Doğum mərasimləri keçirilərkən, adının hallandırılması çox zaman tabu sayılsa da, istər-istəməz ən çox Hal obrazı ilə bağlı ayinlər icra edilir.",
           "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "al-ana-c06",
+          "source_id": "al-ana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "The changeling is described as having a huge abdomen, an unusually small or large head, a hump, thin arms and legs, a hairy body and long claws, and as cutting its first teeth prematurely.",
+          "statement_id": "Anak tukaran itu digambarkan berperut sangat besar, berkepala luar biasa kecil atau besar, berpunuk, berlengan dan berkaki kurus, bertubuh berbulu, dan berkuku panjang, serta giginya tumbuh terlalu dini.",
+          "quote": "It had a huge abdomen, unusually small or large head, a hump, thin arms and legs, a hairy body and long claws; it also prematurely cut its first teeth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "al-ana-c07",
+          "source_id": "al-ana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "To protect a child from being kidnapped by Al Ana, a mother had to tie a red ribbon around its hand, put a red hat on its head and shield its face from the moonlight.",
+          "statement_id": "Untuk melindungi anak dari penculikan Al Ana, seorang ibu harus mengikatkan pita merah di tangan anak, memakaikan topi merah di kepalanya, dan melindungi wajahnya dari cahaya bulan.",
+          "quote": "To protect a child against being kidnapped by Al Ana, a mother had to tie a red ribbon around its hand ... put a red hat on its head and shield its face from the light of the moon.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "al-ana-c08",
+          "source_id": "al-ana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Those thought most at risk of becoming such demons after death were midwives, old maids, unmarried mothers, pregnant women who die before childbirth, and abandoned children born out of wedlock.",
+          "statement_id": "Yang dianggap paling berisiko menjadi iblis semacam ini setelah mati ialah bidan, perawan tua, ibu yang tidak menikah, perempuan hamil yang meninggal sebelum melahirkan, serta anak terlantar yang lahir di luar nikah.",
+          "quote": "Most at risk of becoming one of these demons after death were thought to be midwives, old maids, unmarried mothers, pregnant women who die before childbirth, as well as abandoned children born out of wedlock.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "al-ana-c09",
+          "source_id": "al-ana-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to this article, the word Al (or Hal) means red color, fire or evil in Old Turkic, while Ana carries the meaning of mother.",
+          "statement_id": "Menurut artikel ini, kata Al (atau Hal) dalam bahasa Turkik kuno berarti warna merah, api, atau kejahatan, sedangkan Ana mengandung makna ibu.",
+          "quote": "means in old Turkic, red color, fire or evil. And Ana contains the meaning of mother.",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "al-ana-c10",
+          "source_id": "al-ana-s3",
+          "host": "dergipark.org.tr",
+          "statement": "In this article, Albastı, which is also called Al, alkarısı and alanası among other names, is one of the extraordinary beings found in almost the whole Turkic world.",
+          "statement_id": "Dalam makalah ini, Albastı, yang antara lain disebut juga Al, alkarısı, dan alanası, adalah salah satu makhluk luar biasa yang dikenal di hampir seluruh dunia Turki.",
+          "quote": "gibi adlarla anılan, hemen hemen bütün Türk dünyasında görülen olağanüstü varlıklardan biridir",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "al-ana-c11",
+          "source_id": "al-ana-s3",
+          "host": "dergipark.org.tr",
+          "statement": "The article lists the names Al, alkarısı, alanası, alkızı, albasması, alarvadı, alacama, albıs and almış for the being called Albastı.",
+          "statement_id": "Makalah itu mencatat nama-nama Al, alkarısı, alanası, alkızı, albasması, alarvadı, alacama, albıs, dan almış untuk makhluk yang disebut Albastı.",
+          "quote": "Albastı: “Al, alkarısı, alanası, alkızı, albasması, alarvadı, alacama, albıs, almış” gibi adlarla anılan",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "al-ana-c12",
+          "source_id": "al-ana-s3",
+          "host": "dergipark.org.tr",
+          "statement": "Because Alkarısı fears the color red, the head of a woman in childbed is covered with a red kerchief and a red ribbon is attached to her collar.",
+          "statement_id": "Karena Alkarısı takut pada warna merah, kepala perempuan yang baru melahirkan ditutup dengan kerudung merah dan kerah bajunya dipasangi pita merah.",
+          "quote": "Alkarısı kırmızı renkten korktuğundan lohusanın başına al tülbent örtülüp, yakasına kırmızı kurdela takılır.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "al-ana-c13",
+          "source_id": "al-ana-s3",
+          "host": "dergipark.org.tr",
+          "statement": "Albastı is believed to be most hostile to women in childbed and to babies, tearing out the liver (lungs) of the woman and throwing it into water or eating it.",
+          "statement_id": "Dipercaya bahwa Albastı paling memusuhi perempuan yang baru melahirkan dan bayi, mencabut hati (paru-paru) mereka lalu membuangnya ke air atau memakannya.",
+          "quote": "Albastı’nın en çok lohusalara ve bebeklere düşman olduğuna, lohusanın ciğerini sökerek suya attığına veya yediğine",
+          "context": "traditional-belief",
           "status": "exact"
         }
       ],
@@ -3329,7 +3520,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "96dbe3c1833f291bf83e5a0127e111992b6b9fc3179ccdeb78cc9e0ea6073195"
     }
   ]
 }

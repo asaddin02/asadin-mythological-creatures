@@ -1,6 +1,6 @@
 # Review batch-143
 
-Diperiksa 2026-10-02T03:42:31.383Z. Berkas: batch-143.md.
+Diperiksa 2026-10-06T14:51:10.805Z. Berkas: batch-143.md, batch-143-fix-1.md.
 
 ## curupira — lulus-otomatis
 
@@ -262,10 +262,7 @@ Klaim 10 (exact 10), sumber 2, gambar 0.
 
 ## atlacoya — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -273,6 +270,9 @@ Klaim 4 (exact 4), sumber 2, gambar 0.
 | atlacoya-c02 | exact | es.wikipedia.org | Her best-known depiction is in the Codex Magliabechiano, where Atlacoya talks with Mayáhuel, both wearing a quechquemitl and a sleeveless tunic. | Su más famosa representación se encuentra en el códice Magliabechiano donde Atlacoya conversa con Mayáhuel vestidas con una quechquemitl (una mantilla) y una túnica sin mangas. |
 | atlacoya-c03 | exact | fr.wikipedia.org | Another source calls Atlacoaya the goddess of drought in Mixtec mythology. | Atlacoaya (ou Atlacoya) est, dans la mythologie mixtèque, la déesse de la sécheresse. |
 | atlacoya-c04 | exact | fr.wikipedia.org | The Mexican spider Scytodes atlacoya is named after the goddess. | La déesse est repelèe en Scytodes atlacoya, une araignée du Mexique. |
+| atlacoya-c05 | exact | it.wikipedia.org | In Aztec mythology Atlacoya was the goddess of drought; this article also calls her a goddess of pulque. | Atlacoya nella mitologia azteca, era la dea della siccità. È anche da dea del pulque. |
+| atlacoya-c06 | exact | it.wikipedia.org | According to this article, Atlacoya is shown conversing with the goddess Mayahuel on folios 46 and 63; both wear a quechquemitl (a small cape) and sleeveless tunics. | (fogli 46 e 63) dove Atlacoya conversa con la dea Mayahuel ed entrambe indossano un quechquemitl (una mantellina) e delle tuniche senza maniche. |
+| atlacoya-c07 | exact | hu.wikipedia.org | In Aztec mythology Atlacoya (Atlakoja) was the deity (isten) of drought and infertile lands. | Az azték mitológiában Atlakoja volt az aszály és a terméketlen földek istene. |
 
 
 ## boitata — lulus-otomatis
@@ -396,10 +396,7 @@ Klaim 9 (exact 9), sumber 2, gambar 0.
 
 ## agloolik — lulus-otomatis
 
-Klaim 4 (exact 4), sumber 2, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 4, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
@@ -407,6 +404,10 @@ Klaim 4 (exact 4), sumber 2, gambar 0.
 | agloolik-c02 | exact | en.wikipedia.org | It is said to help fishermen and hunters; if Inuit hunters pray to it before fishing, Agloolik blesses them with prey. | It is said to provide aid to fishermen and hunters. If Inuit hunters prayed to the spirit before fishing, Agloolik will bless them with prey. |
 | agloolik-c03 | exact | fr.wikipedia.org | Agloolik is a benevolent spirit living under the ice that always helps hunters and fishers. | Agloolik est un esprit bienfaisant qui vit sous la glace et aide en permanence les chasseurs et les pêcheurs |
 | agloolik-c04 | exact | fr.wikipedia.org | Agloolik is also a character in the game Final Fantasy XI, shown as a warlike spirit of the world of Vana'diel. | Agloolik désigne également un personnage du jeu Final Fantasy XI, qui est représenté comme un esprit belliqueux du monde Vana'diel |
+| agloolik-c05 | exact | sv.wikipedia.org | In Inuit mythology Agloolik is the guardian of young seals, a spirit living under the ice that is well disposed toward people and helps them in hunting and fishing. | Agloolik är i den inuitiska mytologin ungsälarnas väktare, en ande bosatt under isen, som är välvilligt inställd till människorna och hjälper dem under jakt och fiske. |
+| agloolik-c06 | exact | fi.wikipedia.org | Agloolik, also written Aglookik, is a protector of seals in Inuit mythology, a spirit living under the ice. | Agloolik tai Aglookik on inuiittien mytologian hylje-eläinten suojelija, henki joka asuu jään alla. |
+| agloolik-c07 | exact | fi.wikipedia.org | According to this article, Agloolik's enemy is Sedna, a malicious sea goddess. | Agloolikin vihollinen on häijy meren jumalatar Sedna. |
+| agloolik-c08 | exact | fr.wikipedia.org | Agloolik appears on one of the cards of the collectible card game Deus, published in 1996: card 158, in the Eskimaux series. | Agloolik apparait sur une des cartes du jeu de cartes à collectionner Deus paru en 1996, il s'agit plus précisément de la carte 158 Agloolik dans la série des Eskimaux. |
 
 
 ## alicanto — lulus-otomatis

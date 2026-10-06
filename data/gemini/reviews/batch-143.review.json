@@ -1,8 +1,9 @@
 {
   "batch_id": "batch-143",
-  "checked_at": "2026-10-02T03:42:31.383Z",
+  "checked_at": "2026-10-06T14:51:10.805Z",
   "files": [
-    "batch-143.md"
+    "batch-143.md",
+    "batch-143-fix-1.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -129,7 +130,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "f3e3d7c69b35434667691c177c7490f70526afbbc1d7b463a196628fe3b7ed83"
     },
     {
       "slug": "feathered-serpent",
@@ -233,7 +235,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1488f2dad408cfc3c5b29262ae0d40f24d6e97ebf0c47c91a926146418429c3b"
     },
     {
       "slug": "nahuelito",
@@ -337,7 +340,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "76559cb82e4c4a089e642cee249259722f84fe9438f25c72c6c11db220187afd"
     },
     {
       "slug": "ahuizotl-mythology",
@@ -451,7 +455,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a1b985f0997fd328fb0e3505f5a5f75cd91030169f3f0535b367c497a83c39c3"
     },
     {
       "slug": "caipora",
@@ -565,7 +570,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d2969b97fac5937805c4049550c158db086f9d6790c364142519c009599393f3"
     },
     {
       "slug": "demon-cat",
@@ -689,7 +695,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "999f72a43c56705aaa24b97474c719618441e17f6f7db59dfcddc41b353e2fcc"
     },
     {
       "slug": "lizard-man-of-scape-ore-swamp",
@@ -793,7 +800,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7ad49d8f2e94506f00565064c8ec22510332dd948734671380d4b547b7636db7"
     },
     {
       "slug": "loveland-frog",
@@ -907,7 +915,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "0a110f271ee4e36f2a724bf3e677533a2858c4f789cec8e46e79b9e31ae3ba3c"
     },
     {
       "slug": "manipogo",
@@ -1051,7 +1060,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3f2160981104d73f682627fcc5f67df1fcc9d255170bc32c48ca0d52531b1a26"
     },
     {
       "slug": "patasola",
@@ -1165,7 +1175,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "25b967b961af035810db65d89f366c281482f39152a87bb70ac8812b857b5e0f"
     },
     {
       "slug": "tzitzimitl",
@@ -1299,7 +1310,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4a1778521c5451a94452ed5c25434b52d9cb4e2c7a7f29fdce157c48fc518496"
     },
     {
       "slug": "apu",
@@ -1413,7 +1425,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "8cef1c005c453b37b10b0fc17677987af4d136933d77c4858c22800b803fa835"
     },
     {
       "slug": "lutin",
@@ -1547,7 +1560,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "5aafbc88677bbb64b9ae099221b7363fbd15baf7ea5cbe28ebb3dea62b1e220e"
     },
     {
       "slug": "amaru-mythology",
@@ -1661,24 +1675,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9cb163bd0d1a29b16cb1cca9152b3575b11f3d2b73f0f49d39d39195ea495351"
     },
     {
       "slug": "atlacoya",
-      "file": "batch-143.md",
+      "file": "batch-143-fix-1.md",
+      "entry_sha256": "33a82fad24d2fb61a227cd897fa1184851920832e1ea641597d6ceacdfa5d491",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 7,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "atlacoya-c01",
@@ -1718,6 +1728,36 @@
           "statement_id": "Laba-laba Meksiko Scytodes atlacoya dinamai menurut dewi ini.",
           "quote": "La déesse est repelèe en Scytodes atlacoya, une araignée du Mexique.",
           "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "atlacoya-c05",
+          "source_id": "atlacoya-s3",
+          "host": "it.wikipedia.org",
+          "statement": "In Aztec mythology Atlacoya was the goddess of drought; this article also calls her a goddess of pulque.",
+          "statement_id": "Dalam mitologi Aztek, Atlacoya adalah dewi kekeringan; artikel ini juga menyebutnya dewi pulque.",
+          "quote": "Atlacoya nella mitologia azteca, era la dea della siccità. È anche da dea del pulque.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "atlacoya-c06",
+          "source_id": "atlacoya-s3",
+          "host": "it.wikipedia.org",
+          "statement": "According to this article, Atlacoya is shown conversing with the goddess Mayahuel on folios 46 and 63; both wear a quechquemitl (a small cape) and sleeveless tunics.",
+          "statement_id": "Menurut artikel ini, Atlacoya digambarkan bercakap dengan dewi Mayahuel pada lembar 46 dan 63; keduanya memakai quechquemitl (mantel kecil) dan tunik tanpa lengan.",
+          "quote": "(fogli 46 e 63) dove Atlacoya conversa con la dea Mayahuel ed entrambe indossano un quechquemitl (una mantellina) e delle tuniche senza maniche.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "atlacoya-c07",
+          "source_id": "atlacoya-s4",
+          "host": "hu.wikipedia.org",
+          "statement": "In Aztec mythology Atlacoya (Atlakoja) was the deity (isten) of drought and infertile lands.",
+          "statement_id": "Dalam mitologi Aztek, Atlacoya (Atlakoja) adalah dewa (isten) kekeringan dan tanah yang tidak subur.",
+          "quote": "Az azték mitológiában Atlakoja volt az aszály és a terméketlen földek istene.",
+          "context": "religious-tradition",
           "status": "exact"
         }
       ],
@@ -1835,7 +1875,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a6e500e9381fb6dd240be3f982636e9143bff13ecc70f33ff95a88294be7222e"
     },
     {
       "slug": "chonchon",
@@ -1939,7 +1980,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "bbd040d41234fb565bcf68176e6503dca886501b40d277e7692b08c218801465"
     },
     {
       "slug": "kurupi",
@@ -2053,7 +2095,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ab131c8613853100d708ee40b7fc89c9ddb691c081912f9a1a68dfc64be8aece"
     },
     {
       "slug": "piasa",
@@ -2147,7 +2190,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7f13f437e2dc21666dbd68ecebc9e39f71958077f0b6531235e398de852be0f4"
     },
     {
       "slug": "q-uq-umatz",
@@ -2251,7 +2295,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "caaf9e0205a2dc5b194f8225a57e3c567aef2f9dbbabfb6d703e8efd1c90c367"
     },
     {
       "slug": "saci-folklore",
@@ -2345,7 +2390,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1faaf412cfb28414f33b07f915909067a5a138517f4d997546c394b47661eca1"
     },
     {
       "slug": "adlivun",
@@ -2449,24 +2495,20 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "af3a051506be1b5428fd2eb99a890f01e3a1d125359cf06b49f7eeb8d1fbb614"
     },
     {
       "slug": "agloolik",
-      "file": "batch-143.md",
+      "file": "batch-143-fix-1.md",
+      "entry_sha256": "e5e03e63ccc5d125a99e658902561545d2b417d9bb82e34af7932ab7ddd75480",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 2,
+        "claims": 8,
+        "sources": 4,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "agloolik-c01",
@@ -2505,6 +2547,46 @@
           "statement": "Agloolik is also a character in the game Final Fantasy XI, shown as a warlike spirit of the world of Vana'diel.",
           "statement_id": "Agloolik juga nama tokoh dalam gim Final Fantasy XI, digambarkan sebagai roh yang suka berperang dari dunia Vana'diel.",
           "quote": "Agloolik désigne également un personnage du jeu Final Fantasy XI, qui est représenté comme un esprit belliqueux du monde Vana'diel",
+          "context": "modern-popular-culture",
+          "status": "exact"
+        },
+        {
+          "id": "agloolik-c05",
+          "source_id": "agloolik-s3",
+          "host": "sv.wikipedia.org",
+          "statement": "In Inuit mythology Agloolik is the guardian of young seals, a spirit living under the ice that is well disposed toward people and helps them in hunting and fishing.",
+          "statement_id": "Dalam mitologi Inuit, Agloolik adalah penjaga anak anjing laut, roh yang tinggal di bawah es, bersikap baik kepada manusia dan menolong mereka saat berburu dan memancing.",
+          "quote": "Agloolik är i den inuitiska mytologin ungsälarnas väktare, en ande bosatt under isen, som är välvilligt inställd till människorna och hjälper dem under jakt och fiske.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "agloolik-c06",
+          "source_id": "agloolik-s4",
+          "host": "fi.wikipedia.org",
+          "statement": "Agloolik, also written Aglookik, is a protector of seals in Inuit mythology, a spirit living under the ice.",
+          "statement_id": "Agloolik, juga ditulis Aglookik, adalah pelindung hewan anjing laut dalam mitologi Inuit, roh yang tinggal di bawah es.",
+          "quote": "Agloolik tai Aglookik on inuiittien mytologian hylje-eläinten suojelija, henki joka asuu jään alla.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "agloolik-c07",
+          "source_id": "agloolik-s4",
+          "host": "fi.wikipedia.org",
+          "statement": "According to this article, Agloolik's enemy is Sedna, a malicious sea goddess.",
+          "statement_id": "Menurut artikel ini, musuh Agloolik adalah Sedna, dewi laut yang jahat.",
+          "quote": "Agloolikin vihollinen on häijy meren jumalatar Sedna.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "agloolik-c08",
+          "source_id": "agloolik-s2",
+          "host": "fr.wikipedia.org",
+          "statement": "Agloolik appears on one of the cards of the collectible card game Deus, published in 1996: card 158, in the Eskimaux series.",
+          "statement_id": "Agloolik muncul pada salah satu kartu permainan kartu koleksi Deus yang terbit tahun 1996, yaitu kartu 158 dalam seri Eskimaux.",
+          "quote": "Agloolik apparait sur une des cartes du jeu de cartes à collectionner Deus paru en 1996, il s'agit plus précisément de la carte 158 Agloolik dans la série des Eskimaux.",
           "context": "modern-popular-culture",
           "status": "exact"
         }
@@ -2593,7 +2675,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "aca7dd1802736c3d5c9b302e77e275ab2b936d983c90b8584e398f8490e79b51"
     },
     {
       "slug": "altamaha-ha",
@@ -2687,7 +2770,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "7a81e16867af25173013d507b8cd9d6cebfeef2205183f5d453e625399a58b21"
     },
     {
       "slug": "beast-of-exmoor",
@@ -2771,7 +2855,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "3acdcd038c54780a4f2a3401a9b1e79271d2cf063a655fc3ea70fcb561bec3a2"
     },
     {
       "slug": "lusca",
@@ -2845,7 +2930,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "a11dcabb73cb6a22b8f310ffa198ec5f8193bccf754caef50d457e9312a54ad4"
     },
     {
       "slug": "minhocao-legendary-creature",
@@ -2939,7 +3025,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e85a4b1f2a66e3bfd527c33ef9758dd48c62d7ea543afdc60e0d788646b13e12"
     },
     {
       "slug": "patagons",
@@ -3043,7 +3130,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "fcdd5d98e95953c796175c0c17bccb9e19b91bea42da6ce3b643b494c2774406"
     },
     {
       "slug": "pope-lick-monster",
@@ -3127,7 +3215,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "794f417124785a986123bfd9816bdb58d2b610f883ca45793d630df849b833bb"
     },
     {
       "slug": "sihuanaba",
@@ -3221,7 +3310,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "1b57eb73fc07f645104214b23ff56f640b742f0c787109af96846e47f24f67ce"
     },
     {
       "slug": "soucouyant",
@@ -3315,7 +3405,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "cc951ee742dfa9e36c863f07ffcf3969fd97f807c9a9d0c5a5e6231b4adaae15"
     },
     {
       "slug": "squonk",
@@ -3399,7 +3490,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "469891c0b1954c49656dfe90b9943844f77c6a09a84e61f2367eb684843e32af"
     },
     {
       "slug": "trauco",
@@ -3493,7 +3585,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "51c731011f03ead0c2ba434bd807abe098af957673c6ebbec9a67a00b8de07cb"
     },
     {
       "slug": "xiuhcoatl",
@@ -3597,7 +3690,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "071ee0054e8fdea57b2731a860756c6e606b983a1e08ef666b03728215eb824c"
     },
     {
       "slug": "adlet",
@@ -3691,7 +3785,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "9ea88a47a98d334a861741f14733ad290d8950e1658ab8ea4e7e175574fc1ff3"
     },
     {
       "slug": "akhlut",
@@ -3765,7 +3860,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "38809888ba04cc9a32a1a5629b40222a16d2aaaaeab11274d397d0beb573b819"
     },
     {
       "slug": "apotamkin",
@@ -3859,7 +3955,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4dae52f6903c4a25880c382e9205dff7df85833b11c21df59e540b7d5052cdf5"
     },
     {
       "slug": "cocijo",
@@ -3953,7 +4050,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "d76c483cc7a9e0002533ab4aca55b8e8ff08f51f4113d4ea3428c18f69102512"
     },
     {
       "slug": "duppy",
@@ -4047,7 +4145,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "00e74838122d5f970301233a669a141eabdd4fec186d36537c4b2e7a03e96347"
     },
     {
       "slug": "greenbrier-ghost",
@@ -4121,7 +4220,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "ed279c76f5f881de70b60d86e6e140ea9fbfe28ce312b64d2b2739db2a44a0fd"
     },
     {
       "slug": "hodag",
@@ -4215,7 +4315,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "4f102f473f31000ce83793139c4dbfba140e42bf8f03fcf74cdf59982cb8edf1"
     },
     {
       "slug": "horned-serpent-q1086222",
@@ -4299,7 +4400,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "6bb609cb719cb9dd45321979bda7d435e9dcf4bd9e8528b6373184892a1c22ff"
     },
     {
       "slug": "iara-mythology",
@@ -4393,7 +4495,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "e37e9daf67b6218c144b11c49ea2f4d2e4e261050ba47530bdff01f4d826de38"
     },
     {
       "slug": "lincoln-s-ghost",
@@ -4487,7 +4590,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "537b6d6a51165bf360a35c98f8bcd011caced5cc85a7c35ab6239f1b8894edaa"
     },
     {
       "slug": "pishtaco",
@@ -4571,7 +4675,8 @@
           "status": "exact"
         }
       ],
-      "images": []
+      "images": [],
+      "entry_sha256": "c41e0730e46a6b37a336e21719b38afe9da696eab79286358ef1b76c8436b00f"
     }
   ]
 }
