@@ -1,11 +1,13 @@
 {
   "batch_id": "batch-066",
-  "checked_at": "2026-10-06T05:35:28.626Z",
+  "checked_at": "2026-10-06T06:01:15.043Z",
   "files": [
     "batch-066.md",
     "batch-066-fix-1.md",
     "batch-066-fix-2.md",
-    "batch-066-fix-3.md"
+    "batch-066-fix-3.md",
+    "batch-066-fix-4.md",
+    "batch-066-fix-5.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -177,20 +179,15 @@
     },
     {
       "slug": "nuwa",
-      "file": "batch-066-fix-1.md",
+      "file": "batch-066-fix-5.md",
+      "entry_sha256": "6ebc1a00b36e9f2e5489e6e90464415d0079dedd8f9f29d6b351e428d0f7f52e",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nuwa-c01",
@@ -251,27 +248,101 @@
           "quote": "Her reverential name is Wahuang (媧皇; 'Empress Wa').",
           "context": "religious-tradition",
           "status": "loose"
+        },
+        {
+          "id": "nuwa-c07",
+          "source_id": "nuwa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Werner presents Nue Kua Shih (also called Nue Wa and Nue Hsi) as the sister and successor of Fu Hsi, and as the creator of human beings when the earth first emerged from Chaos.",
+          "statement_id": "Werner menyebut Nue Kua Shih (juga disebut Nue Wa dan Nue Hsi) sebagai saudari sekaligus penerus Fu Hsi, dan sebagai pencipta manusia ketika bumi pertama kali muncul dari Kekacauan.",
+          "quote": "Nue Kua Shih (also called Nue Wa and Nue Hsi), said to have been the sister and successor of Fu Hsi, ... as having been the creator of human beings when the earth first emerged from Chaos.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nuwa-c08",
+          "source_id": "nuwa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Werner notes that the sex seems uncertain, that she is described with the body of a serpent and head of an ox (or a human head and ox horns according to some writers), and that she \"moulded yellow earth and made man\".",
+          "statement_id": "Werner mencatat bahwa jenis kelaminnya tampak tidak pasti, bahwa ia digambarkan bertubuh ular dan berkepala sapi (atau berkepala manusia dengan tanduk sapi menurut sebagian penulis), dan bahwa ia \"membentuk tanah kuning dan membuat manusia\".",
+          "quote": "She (or he, for the sex seems uncertain), who had the \"body of a serpent and head of an ox\" (or a human head and horns of an ox, according to some writers), \"moulded yellow earth and made man.\"",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nuwa-c09",
+          "source_id": "nuwa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the account of Ssu-ma Cheng quoted by Werner, Nue Kua had the body of a serpent and a human head, with the virtuous endowments of a divine sage.",
+          "statement_id": "Dalam uraian Ssu-ma Cheng yang dikutip Werner, Nue Kua bertubuh ular dan berkepala manusia, dengan sifat-sifat utama seorang bijak ilahi.",
+          "quote": "Nue Kua had the body of a serpent and a human head, with the virtuous endowments of a divine sage.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nuwa-c10",
+          "source_id": "nuwa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Ssu-ma Cheng (quoted by Werner) relates that toward the end of her reign the feudatory prince Kung Kung struck his head against the Imperfect Mountain, Pu Chou Shan, bringing it down, so that the pillars of Heaven were broken and the corners of the earth gave way.",
+          "statement_id": "Ssu-ma Cheng (dikutip Werner) menceritakan bahwa menjelang akhir pemerintahannya, pangeran bawahan Kung Kung membenturkan kepalanya ke Gunung Pu Chou Shan hingga roboh, sehingga tiang-tiang Langit patah dan sudut-sudut bumi runtuh.",
+          "quote": "Toward the end of her reign there was among the feudatory princes Kung Kung ... he struck his head against the Imperfect Mountain, Pu Chou Shan, and brought it down. The pillars of Heaven were broken and the corners of the earth gave way.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nuwa-c11",
+          "source_id": "nuwa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In that account Nue Kua melted stones of the five colours to repair the heavens and cut off the feet of the tortoise to set upright the four extremities of the earth.",
+          "statement_id": "Menurut kutipan itu, Nue Kua melebur batu lima warna untuk memperbaiki langit dan memotong kaki kura-kura untuk menegakkan keempat ujung bumi.",
+          "quote": "Hereupon Nue Kua melted stones of the five colours to repair the heavens, and cut off the feet of the tortoise to set upright the four extremities of the earth.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nuwa-c12",
+          "source_id": "nuwa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "By gathering the ashes of reeds she stopped the flooding waters and so rescued the land of Chi, Chi Chou.",
+          "statement_id": "Dengan mengumpulkan abu alang-alang, ia menghentikan air bah dan dengan demikian menyelamatkan negeri Chi, Chi Chou.",
+          "quote": "Gathering the ashes of reeds she stopped the flooding waters, and thus rescued the land of Chi, Chi Chou",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "nuwa-c13",
+          "source_id": "nuwa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Another account recorded by Werner makes Nue and Kua brother and sister, the only two human beings in existence, placed at creation at the foot of the K'un-lun Mountains.",
+          "statement_id": "Menurut catatan lain yang dicatat Werner, Nue dan Kua adalah kakak beradik, satu-satunya dua manusia yang ada, yang pada saat penciptaan ditempatkan di kaki Pegunungan K'un-lun.",
+          "quote": "Another account separates the name and makes Nue and Kua brother and sister, describing them as the only two human beings in existence. At the creation they were placed at the foot of the K'un-lun Mountains.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nuwa-c14",
+          "source_id": "nuwa-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Werner stresses that, as regards the heavens and the earth at least, she is regarded as the repairer and not the creator of them.",
+          "statement_id": "Werner menegaskan bahwa, setidaknya terhadap langit dan bumi, ia dipandang sebagai pemulih dan bukan pencipta.",
+          "quote": "as regards the heavens and the earth at least, she is regarded as the repairer and not the creator of them.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "41e73dde083a9023fe85fc4c600b9442093284d9baea50ebec156364005273cf"
+      "images": []
     },
     {
       "slug": "jade-emperor",
-      "file": "batch-066-fix-1.md",
+      "file": "batch-066-fix-5.md",
+      "entry_sha256": "a6353ba1fdb2744daf6832bfbb6ed5da7d2e26b7086fed13518a368ae37a475a",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "jade-emperor-c01",
@@ -332,27 +403,91 @@
           "quote": "One of the myths describes how the Jade Emperor became the monarch of all the deities in heaven. It is one of the few myths in which the Jade Emperor shows his power.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "jade-emperor-c07",
+          "source_id": "jade-emperor-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Werner writes that Yue Huang means \"the Jade Emperor\" or \"the Pure August One\", jade symbolizing purity, and that he is also known as Yue-huang Shang-ti, \"the Pure August Emperor on High\".",
+          "statement_id": "Werner menulis bahwa Yue Huang berarti \"Kaisar Giok\" atau \"Yang Murni Agung\", dengan giok melambangkan kemurnian; ia juga dikenal sebagai Yue-huang Shang-ti, \"Kaisar Murni Agung di Atas\".",
+          "quote": "Yue Huang means 'the Jade Emperor,' or 'the Pure August One,' jade symbolizing purity. He is also known by the name Yue-huang Shang-ti, 'the Pure August Emperor on High.'",
+          "context": "etymology",
+          "status": "exact"
+        },
+        {
+          "id": "jade-emperor-c08",
+          "source_id": "jade-emperor-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In the legend of Yue Huang recorded by Werner, an ancient kingdom named Kuang Yen Miao Lo Kuo had a king called Ching Te and a queen called Pao Yueeh.",
+          "statement_id": "Menurut legenda Yue Huang yang dicatat Werner, pada zaman kuno ada kerajaan bernama Kuang Yen Miao Lo Kuo dengan raja Ching Te dan permaisuri Pao Yueeh.",
+          "quote": "The legend of Yue Huang relates that in ancient times there existed a kingdom named Kuang Yen Miao Lo Kuo, whose king was Ching Te, his queen being called Pao Yueeh.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jade-emperor-c09",
+          "source_id": "jade-emperor-s2",
+          "host": "www.gutenberg.org",
+          "statement": "In Werner's version, after his father's death the prince took the throne but abdicated after a few days in favour of his chief minister and became a hermit at P'u-ming in Shensi and on Mount Hsiu Yen in Yuennan.",
+          "statement_id": "Dalam versi Werner, setelah ayahnya wafat sang pangeran naik takhta tetapi hanya beberapa hari kemudian turun demi menteri utamanya dan menjadi pertapa di P'u-ming di Shensi serta di Gunung Hsiu Yen di Yuennan.",
+          "quote": "On the death of his father he ascended the throne, but after reigning only a few days abdicated in favour of his chief minister, and became a hermit at P'u-ming, in Shensi, and also on Mount Hsiu Yen, in Yuennan.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jade-emperor-c10",
+          "source_id": "jade-emperor-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Werner notes that both Buddhists and Taoists claim Yue Huang; the Buddhists identify him with Indra, in which case he is a Buddhist deity incorporated into the Taoist pantheon.",
+          "statement_id": "Werner mencatat bahwa umat Buddha dan Tao sama-sama mengklaim Yue Huang; umat Buddha menyamakannya dengan Indra, sehingga ia dipandang sebagai dewa Buddhis yang dimasukkan ke panteon Tao.",
+          "quote": "Both Buddhists and Taoists claim him as their own, the former identifying him with Indra, in which case Yue Huang is a Buddhist deity incorporated into the Taoist pantheon.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "jade-emperor-c11",
+          "source_id": "jade-emperor-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Werner begins his historical account with the Emperor Ch'eng Tsung of the Sung dynasty, who in A.D. 1005 was obliged to sign a peace with the Tunguses or Kitans.",
+          "statement_id": "Werner memulai uraian sejarahnya dengan Kaisar Ch'eng Tsung dari dinasti Sung, yang pada tahun 1005 M terpaksa menandatangani perdamaian dengan bangsa Tungus atau Kitan.",
+          "quote": "The history of this deity, who later received many honorific titles and became the most popular god, a very Chinese Jupiter, seems to be somewhat as follows: The Emperor Ch'eng Tsung of the Sung dynasty having been obliged in A.D. 1005 to sign a disgraceful peace with the Tunguses or Kitans",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jade-emperor-c12",
+          "source_id": "jade-emperor-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Werner, in the tenth moon of 1012 the emperor assembled his ministers and declared that in a dream an Immortal had brought him a letter from Yue Huang.",
+          "statement_id": "Menurut Werner, pada bulan kesepuluh tahun 1012 sang kaisar mengumpulkan para menterinya dan menyatakan bahwa dalam mimpi ia dikunjungi seorang Immortal yang membawa surat dari Yue Huang.",
+          "quote": "The Emperor, having studied his part well, assembled his ministers in the tenth moon of the year 1012, and made to them the following declaration: \"In a dream I had a visit from an Immortal, who brought me a letter from Yue Huang",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "jade-emperor-c13",
+          "source_id": "jade-emperor-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Werner interprets the cult of Yue Huang as originating in the emperor's announcement, which he calls a fraud; this is the author's interpretation, not the belief of its worshippers.",
+          "statement_id": "Werner menafsirkan bahwa pemujaan Yue Huang berawal dari pengumuman kaisar tersebut, yang ia sebut tipuan; ini tafsiran penulisnya, bukan keyakinan para pemujanya.",
+          "quote": "This is the origin of Yue Huang. He was born of a fraud, and came ready-made from the brain of an emperor.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8e94722f3a28df4d0fc8d56a97bd6541817eb75e612c787441d96dce319e44e3"
+      "images": []
     },
     {
       "slug": "fenghuang",
-      "file": "batch-066.md",
+      "file": "batch-066-fix-4.md",
+      "entry_sha256": "98591fd5df21fd0f925c29e628766a33b8595ad0ea89fd193772e48800ec6334",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "fenghuang-c01",
@@ -413,10 +548,39 @@
           "quote": "Chinese tradition cites it as living atop Mount Danzuan in the southern mountains.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "fenghuang-c07",
+          "source_id": "fenghuang-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Shanhaijing (Nanshan jing) records a bird shaped like a chicken with a five-coloured pattern, named fenghuang (written 鳳皇); the pattern on its head is called de (virtue), on its wings yi, on its back li, on its breast ren, and on its belly xin.",
+          "statement_id": "Shanhaijing (Nanshan jing) mencatat seekor burung berbentuk seperti ayam, berpola lima warna, bernama fenghuang (tertulis 鳳皇); pola kepalanya disebut \"de\" (kebajikan), sayapnya \"yi\", punggungnya \"li\", dadanya \"ren\", dan perutnya \"xin\".",
+          "quote": "有鳥焉，其狀如雞，五采而文，名曰鳳皇，首文曰德，翼文曰義，背文曰禮，膺文曰仁，腹文曰信。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "fenghuang-c08",
+          "source_id": "fenghuang-s2",
+          "host": "zh.wikisource.org",
+          "statement": "According to the Shanhaijing, this bird eats and drinks naturally, sings and dances of itself, and its appearance brings peace to the world.",
+          "statement_id": "Menurut Shanhaijing, burung ini makan dan minum secara alami, bernyanyi dan menari sendiri, dan kemunculannya membawa kedamaian bagi dunia.",
+          "quote": "背文曰禮，膺文曰仁，腹文曰信。是鳥也，飲食自然，自歌自舞，見則天下安寧",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "fenghuang-c09",
+          "source_id": "fenghuang-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the Shanhaijing the fenghuang is recorded on Mount Danxue (丹穴之山), which is rich in gold and jade and from which the Dan River flows south into the Bohai Sea.",
+          "statement_id": "Dalam Shanhaijing, burung fenghuang dicatat berada di gunung Danxue (丹穴之山), yang banyak mengandung emas dan batu giok dan dari sana mengalir Sungai Dan ke arah selatan hingga ke Laut Bohai.",
+          "quote": "又東五百里，曰丹穴之山，其上多金玉。丹水出焉，而南流注于渤海",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "982aed5d54056718c22b39ada229a06d2ad723603a36be4fa2423ec3aa2e5da7"
+      "images": []
     },
     {
       "slug": "pangu",
@@ -565,20 +729,15 @@
     },
     {
       "slug": "mazu",
-      "file": "batch-066-fix-2.md",
+      "file": "batch-066-fix-5.md",
+      "entry_sha256": "5b61956a77382803df7c6a3e89146214c5c01dae6547dca77723a57d2238c38b",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 13,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mazu-c01",
@@ -639,10 +798,79 @@
           "quote": "The legends around Lin Moniang's life were broadly established by the 12th century.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "mazu-c07",
+          "source_id": "mazu-s2",
+          "host": "ich.unesco.org",
+          "statement": "UNESCO describes Mazu as the most influential goddess of the sea in China, at the centre of beliefs and customs including oral traditions, religious ceremonies and folk practices throughout the country's coastal areas.",
+          "statement_id": "UNESCO menyebut Mazu sebagai dewi laut paling berpengaruh di Tiongkok, yang menjadi pusat berbagai kepercayaan dan adat, termasuk tradisi lisan, upacara keagamaan, dan praktik rakyat di kawasan pesisir negeri itu.",
+          "quote": "As the most influential goddess of the sea in China, Mazu is at the centre of a host of beliefs and customs, including oral traditions, religious ceremonies and folk practices, throughout the country’s coastal areas.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mazu-c08",
+          "source_id": "mazu-s2",
+          "host": "ich.unesco.org",
+          "statement": "According to UNESCO, Mazu is believed to have lived in the tenth century on Meizhou Island, dedicated herself to helping her fellow townspeople, and died attempting to rescue shipwreck survivors; local residents built a temple and began to venerate her as a goddess.",
+          "statement_id": "Menurut deskripsi UNESCO, Mazu dipercaya hidup pada abad kesepuluh di Pulau Meizhou, mengabdikan diri membantu sesama warga, dan wafat saat berusaha menyelamatkan korban kapal karam; warga setempat membangun kuil dan mulai memujanya sebagai dewi.",
+          "quote": "Mazu is believed to have lived in the tenth century on Meizhou Island, where she dedicated herself to helping her fellow townspeople, and died attempting to rescue the survivors of a shipwreck. Local residents built a temple in her honour and began to venerate her as a goddess.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mazu-c09",
+          "source_id": "mazu-s2",
+          "host": "ich.unesco.org",
+          "statement": "She is celebrated twice a year in formal temple fairs, when Meizhou residents, farmers and fisherfolk pause their work to sacrifice marine animals, venerate statues of Mazu and enjoy dances and other performances.",
+          "statement_id": "Ia dirayakan dua kali setahun dalam pekan raya kuil resmi, ketika warga Meizhou, petani, dan nelayan menghentikan pekerjaan sejenak untuk mempersembahkan hewan laut, memuliakan patung Mazu, dan menikmati tarian serta pertunjukan lain.",
+          "quote": "She is celebrated twice each year in formal temple fairs, when Meizhou residents, farmers and fisherfolk temporarily suspend their work to sacrifice marine animals, venerate statues of Mazu and enjoy a variety of dances and other performances.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mazu-c10",
+          "source_id": "mazu-s2",
+          "host": "ich.unesco.org",
+          "statement": "Smaller worship ceremonies take place throughout the year in other Mazu temples around the world and in private homes, and may involve floral tributes, candles, incense, firecrackers and evening processions with \"Mazu lanterns\".",
+          "statement_id": "Upacara pemujaan yang lebih kecil berlangsung sepanjang tahun di kuil-kuil Mazu lainnya di seluruh dunia dan di rumah pribadi, dapat berupa persembahan bunga, lilin, dupa, petasan, dan arak-arakan malam dengan \"lentera Mazu\".",
+          "quote": "Smaller worship ceremonies take place throughout the year in the other 5,000 Mazu temples around the world and in private homes; these may involve floral tributes; candles, incense and firecrackers; and evening processions of residents bearing ‘Mazu lanterns’.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mazu-c11",
+          "source_id": "mazu-s2",
+          "host": "ich.unesco.org",
+          "statement": "Followers may implore the deity for pregnancy, peace, the solution to a problem or general well-being.",
+          "statement_id": "Pengikut dapat memohon kepada sang dewa untuk kehamilan, kedamaian, penyelesaian masalah, atau kesejahteraan umum.",
+          "quote": "Followers may implore the god for pregnancy, peace, the solution to a problem or general well-being.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "mazu-c12",
+          "source_id": "mazu-s2",
+          "host": "ich.unesco.org",
+          "statement": "Mazu belief and customs were inscribed in 2009 on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity.",
+          "statement_id": "Kepercayaan dan adat Mazu tercatat pada tahun 2009 dalam Representative List of the Intangible Cultural Heritage of Humanity milik UNESCO.",
+          "quote": "Inscribed in 2009 (4.COM) on the Representative List of the Intangible Cultural Heritage of Humanity",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mazu-c13",
+          "source_id": "mazu-s2",
+          "host": "ich.unesco.org",
+          "statement": "UNESCO states that belief in and commemoration of Mazu is an important cultural bond that promotes family harmony, social concord and the social identity of coastal Chinese communities and their descendants.",
+          "statement_id": "UNESCO menyatakan bahwa kepercayaan dan peringatan Mazu menjadi ikatan budaya penting yang mendorong keharmonisan keluarga, kerukunan sosial, dan identitas sosial komunitas pesisir Tiongkok dan keturunan mereka.",
+          "quote": "Deeply integrated into the lives of coastal Chinese and their descendants, belief in and commemoration of Mazu is an important cultural bond that promotes family harmony, social concord, and the social identity of these communities.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "cff54b1db003767cbb73dd2c74ca69a8e59a17ccd9af9e266444b4a7b9cad087"
+      "images": []
     },
     {
       "slug": "qilin",
@@ -1160,20 +1388,15 @@
     },
     {
       "slug": "dragon-king",
-      "file": "batch-066.md",
+      "file": "batch-066-fix-4.md",
+      "entry_sha256": "a3b4b3c22fcdd93f7d1090984770533b8112fc282b4f09d84d5a493e9006c291",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "dragon-king-c01",
@@ -1234,27 +1457,61 @@
           "quote": "In the past, there used to be Dragon King miao shrines all over China, for the folk to engage in the worship of dragon kings, villages in farm countries would conduct rites dedicated to the Dragon Kings seeking rain.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "dragon-king-c07",
+          "source_id": "dragon-king-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Werner, the Sea-dragon Kings live in splendid palaces in the depths of the sea and feed on pearls and opals. There are five: the chief in the centre and four others in the north, west, south, and east.",
+          "statement_id": "Menurut Werner, Raja Naga Laut tinggal di istana megah di dasar laut dan memakan mutiara dan opal. Mereka berjumlah lima: satu yang utama di tengah, empat lainnya di utara, barat, selatan, dan timur.",
+          "quote": "The Sea-dragon Kings live in gorgeous palaces in the depths of the sea, where they feed on pearls and opals. There are five of these divinities, the chief being in the centre, and the other four occupying the north, the west, the south, and the east.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-king-c08",
+          "source_id": "dragon-king-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Werner, the five Sea-dragon Kings are all immortal and know each other's thoughts, plans, and wishes without communicating.",
+          "statement_id": "Menurut Werner, kelima Raja Naga Laut itu abadi dan saling mengetahui pikiran, rencana, dan keinginan tanpa perlu berkomunikasi.",
+          "quote": "The five Sea-dragon Kings are all immortal. They know each other's thoughts, plans, and wishes without intercommunication.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-king-c09",
+          "source_id": "dragon-king-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Werner, like the other gods the Sea-dragon Kings go up once a year to the Heavens to make an annual report to the Supreme Ruler, in the third month.",
+          "statement_id": "Menurut Werner, seperti dewa-dewa lain, para Raja Naga Laut naik setahun sekali ke Surga untuk membuat laporan tahunan kepada Penguasa Tertinggi, yaitu pada bulan ketiga.",
+          "quote": "Like all the other gods they go once a year to the superior Heavens, to make an annual report to the Supreme Ruler; but they go in the third month",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "dragon-king-c10",
+          "source_id": "dragon-king-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Werner, in the spirit-world a Ministry of Waters has a Department of Salt Waters presided over by four Dragon-kings, those of the East, South, West, and North.",
+          "statement_id": "Menurut Werner, di dunia roh ada Kementerian Perairan; Departemen Air Asin dipimpin empat Raja Naga dari Timur, Selatan, Barat, dan Utara.",
+          "quote": "Its main divisions are the Department of Salt Waters, presided over by four Dragon-kings--those of the East, South, West, and North--and the Department of Sweet Waters",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "8f21e45f68f2bf16c3fd79931e42f3d3e425ef2f682957507ef3efc428e08c3d"
+      "images": []
     },
     {
       "slug": "druk",
-      "file": "batch-066.md",
+      "file": "batch-066-fix-4.md",
+      "entry_sha256": "3dff2f8130d2c97a254c7a2cc891a479b10f5e1582e50c8772888012984860c0",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "druk-c01",
@@ -1305,10 +1562,39 @@
           "quote": "The druk (also known as a \"duk\" or \"dug\") was adopted as an emblem by the Drukpa Lineage, which originated in Tibet and spread to Bhutan.  According to traditional accounts, when the sect's founder, Tsangpa Gyare, 1st Gyalwang Drukpa, began to build Ralung Monastery, there was a violent storm.  Thunder, or the \"Cloud-Voice\", is seen as the roar of the dragon.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "druk-c06",
+          "source_id": "druk-s2",
+          "host": "so06.tci-thaijo.org",
+          "statement": "According to this journal article, Tsangpa Gyare or Yeshe Dorji (1161–1211) was the main disciple of Lingchen Repa Pema Dorji and the founder of \"Bhutan's Dragon Tradition\", the Drukpa Kagyu Lineage.",
+          "statement_id": "Menurut artikel jurnal ini, Tsangpa Gyare atau Yeshe Dorji (1161–1211) adalah murid utama Lingchen Repa Pema Dorji dan pendiri \"Tradisi Naga Bhutan\", yaitu Garis Silsilah Drukpa Kagyu.",
+          "quote": "Tsangpa Gyare or Yeshe Dorji (1161–1211) was the main disciple of Lingchen Repa Pema Dorji and the founder of the Bhutan’s Dragon Tradition – Drukpa Kagyu Lineage",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "druk-c07",
+          "source_id": "druk-s2",
+          "host": "so06.tci-thaijo.org",
+          "statement": "The article states that Druk is highly regarded by the lineage of Drukpa Tsangpa Gyare/Yeshe Dorji, and became the name of the country after the arrival of Shabdrung Ngawang Namgyel in 1616 and the first monastic establishment in 1621 at Chagri Dorji Dhen.",
+          "statement_id": "Artikel itu menyatakan bahwa Druk sangat dihormati oleh garis silsilah Drukpa Tsangpa Gyare/Yeshe Dorji, dan menjadi nama negeri setelah kedatangan Shabdrung Ngawang Namgyel pada 1616 serta berdirinya biara pertama pada 1621 di Chagri Dorji Dhen.",
+          "quote": "Druk is highly regarded by the lineage of Drukpa Tsangpa Gyare/Yeshe Dorji. Not only, Druk became the name of the country after the arrival of respected Shabdrung Ngawang Namgyel in 1616 and after the first monastic establishment in 1621 at Chagri Dorji Dhen",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "druk-c08",
+          "source_id": "druk-s2",
+          "host": "so06.tci-thaijo.org",
+          "statement": "According to the article, the country of Bhutan is called \"Druk\", the land \"Drukyul\", and the people \"Drukpa\".",
+          "statement_id": "Menurut artikel itu, negara Bhutan disebut \"Druk\", tanahnya \"Drukyul\", dan rakyatnya \"Drukpa\".",
+          "quote": "The country of Bhutan is therefore called as ‘Druk’; the land is called as ‘Drukyul’; and the people are called as ‘Drukpa’.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "0ca75c67d2cf0144d90a93b80acc5415f0852d5957f79b5a565775ed82fd05c6"
+      "images": []
     },
     {
       "slug": "gonggong",
@@ -1447,20 +1733,15 @@
     },
     {
       "slug": "pixiu",
-      "file": "batch-066-fix-1.md",
+      "file": "batch-066-fix-5.md",
+      "entry_sha256": "b6c0e3890a85a4b1df710c7a2123447842aca0a3b3415ea960f1d62d089f43b5",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "pixiu-c01",
@@ -1521,10 +1802,49 @@
           "quote": "They have the head of a Chinese dragon, the body of a lion, and historically sport on their heads either one antler (male) or two antlers (female).",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "pixiu-c07",
+          "source_id": "pixiu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "An entry in this compilation describes the pi (貔) as a fierce beast of the leopard kind from the state of He (貉國), also called Zhiyi (執夷) and white fox (白狐); Guo Pu is quoted as saying a classic compares fierce beasts to tigers and the pi.",
+          "statement_id": "Sebuah entri dalam kompilasi ini menyebut pi (貔) sebagai binatang buas golongan macan tutul dari negeri He (貉國), yang juga disebut Zhiyi (執夷) dan rubah putih (白狐); Guo Pu dikutip menyebut kitab klasik membandingkan binatang buas dengan harimau dan pi.",
+          "quote": "貔，豹屬，猛獸，出貉國，一名執夷，一名白狐。郭璞云：「《書》 稱猛獸如虎如貔。」貔蓋豹屬，亦曰執夷。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pixiu-c08",
+          "source_id": "pixiu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The same entry quotes the Shiji (Wudi Benji): the Yellow Emperor of the You Xiong clan trained bears, brown bears, pixiu (貔貅), chu (貙) and tigers to fight the Yan Emperor in the wilds of Banquan.",
+          "statement_id": "Entri yang sama mengutip Shiji (Wudi Benji): Huangdi dari klan You Xiong melatih beruang, beruang cokelat, pixiu (貔貅), chu (貙), dan harimau untuk berperang melawan Kaisar Yan di padang Banquan.",
+          "quote": "《史記·五帝本紀》：「黃帝有熊氏，教熊羆貔貅貙虎，以與 炎帝戰於阪泉之野。」",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pixiu-c09",
+          "source_id": "pixiu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The entry also quotes the Liji (Quli): \"if there are fierce beasts ahead, carry the pixiu\"; the commentary says fierce beasts are of the tiger and wolf kind, the pixiu are also fierce, and this is raised so that people know to be prepared.",
+          "statement_id": "Entri itu juga mengutip Liji (Quli): \"bila di depan ada binatang buas, bawalah pixiu\"; catatan tafsir menyebut binatang buas tergolong harimau dan serigala, pixiu juga garang, dan hal ini ditunjukkan agar orang tahu bersiap.",
+          "quote": "《禮記·曲禮》：「前有摯獸，則載貔貅。」〈注〉摯獸虎狼之屬，貔 貅亦有威猛，舉此使眾知為備",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "pixiu-c10",
+          "source_id": "pixiu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the quotation from the Maoshi Lushu Guangyao, the pi is said to resemble a tiger or, as some say, a bear; it is also called Zhiyi and white fox, and the people of Liaodong call its young \"white bear\" (白羆).",
+          "statement_id": "Dalam kutipan dari Maoshi Lushu Guangyao, pi digambarkan menyerupai harimau atau, menurut sebagian orang, beruang; juga disebut Zhiyi dan rubah putih, dan orang Liaodong menyebut anaknya \"beruang putih\" (白羆).",
+          "quote": "貔似虎，或曰似熊，一名「執夷」，一名「白狐。」其子為 遼 東人謂之「白羆。」",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "54aacfdbcc1ed2368a8d9fe8900b407f1f7aba894b8511171d70d6d9ee77f8f9"
+      "images": []
     },
     {
       "slug": "baku-mythology",
@@ -1663,20 +1983,15 @@
     },
     {
       "slug": "gumiho",
-      "file": "batch-066-fix-2.md",
+      "file": "batch-066-fix-4.md",
+      "entry_sha256": "b8ad41326958b1b82651f6ce1676ede7afa35345cb3a2c55c48d9b3b63b3e9fd",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 11,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gumiho-c01",
@@ -1737,27 +2052,71 @@
           "quote": "They are often portrayed in the form of heretical Buddhist monks or beautiful women and are sometimes depicted as monsters that torment and threaten dragons, which are considered sacred in Korean mythology.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "gumiho-c07",
+          "source_id": "gumiho-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "According to the Encyclopedia of Korean Culture, the fox-orb tale belongs to the transformation tales, is distributed nationwide, and is also known as \"The limits of human knowledge\" or \"The gumiho (구미호) and the yeouiju (wish-granting jewel)\".",
+          "statement_id": "Menurut Ensiklopedia Kebudayaan Korea, kisah Yeou-guseul (kisah manik rubah) termasuk kisah perubahan wujud, tersebar di seluruh negeri, dan juga dikenal dengan judul \"Batas pengetahuan manusia\" atau \"Gumiho (구미호) dan yeouiju (manik pengabul)\".",
+          "quote": "신이담(神異譚) 중 변신담에 속한다. 전국적인 분포를 보이며 ‘인지(人智)의 한계’ 또는 ‘구미호와 여의주’·‘여우 입 속의 보배 구슬’이라고도 한다.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gumiho-c08",
+          "source_id": "gumiho-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "According to the encyclopedia, tales about the gumiho are reported to be especially widely transmitted in the Hamgyeong, Pyeongan, and Hwanghae regions.",
+          "statement_id": "Menurut ensiklopedia itu, kisah tentang gumiho dilaporkan terutama banyak diwariskan di wilayah Hamgyeong, Pyeongan, dan Hwanghae.",
+          "quote": "‘구미호’에 관한 설화는 함경도·평안도·황해도 지역에 특히 많이 전승되는 것으로 보고되어 있다.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gumiho-c09",
+          "source_id": "gumiho-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "In the first type of the tale, a village-school student meets and falls in love with a pretty girl; because she will not allow a kiss he realizes she is a gumiho, threatens never to see her again, and after she reluctantly consents he takes the yeouiju from her mouth.",
+          "statement_id": "Dalam tipe pertama kisah itu, seorang murid sekolah desa bertemu gadis cantik dan jatuh cinta; karena ia tidak mau dicium, sang murid menyadari bahwa ia gumiho, mengancam tidak akan menemuinya lagi, dan setelah gadis itu terpaksa mengizinkan, sang murid mengambil yeouiju dari mulutnya.",
+          "quote": "한 학동이 서당을 다니다가 예쁜 처녀를 만나 사랑하게 되었다. 처녀가 입맞춤만은 허락하지 않으므로 구미호라는 것을 알게 된다. 학동은 입맞춤을 허락하지 않으면 다시는 만나지 않겠다고 위협하였다. 어쩔 수 없이 처녀가 허락하자, 학동은 처녀의 입 속에서 여의주를 꺼내 물었다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gumiho-c10",
+          "source_id": "gumiho-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "In the second type of the tale, a fox that could ascend to heaven by killing 100 students with kisses transforms into a woman and visits the village school at midnight.",
+          "statement_id": "Dalam tipe kedua kisah itu, seekor rubah yang konon dapat naik ke langit bila membunuh 100 murid dengan ciuman berubah menjadi perempuan dan mendatangi sekolah desa pada tengah malam.",
+          "quote": "학동 100명을 입맞춤하여 죽이면 승천할 수 있다는 여우가 여자로 변신하여 한밤중에 서당을 찾아갔다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gumiho-c11",
+          "source_id": "gumiho-s3",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "According to the encyclopedia, many folk traditions about foxes have been handed down, mainly about the gumiho (九尾狐) and the like, which appear as uncanny beings that use sorcery to torment humans.",
+          "statement_id": "Menurut ensiklopedia itu, banyak tradisi rakyat tentang rubah diwariskan, terutama tentang gumiho (九尾狐) dan sejenisnya, yang tampil sebagai makhluk gaib yang memakai sihir untuk mengganggu manusia.",
+          "quote": "여우에 대한 많은 민간전승이 내려오고 있는데, 주로 구미호(九尾狐) ... 등 조화를 부려 인간을 괴롭히는 요물로 나타난다.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "6d325f7adc6725349f22b989b5e22f7008138defa9cadbdfaf6eac620ae861a7"
+      "images": []
     },
     {
       "slug": "huli-jing",
-      "file": "batch-066.md",
+      "file": "batch-066-fix-4.md",
+      "entry_sha256": "cd29293278bd72b867f17b7a3c6a5c22a86d0410ba468bee0f09a907e3cab8f8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "huli-jing-c01",
@@ -1818,10 +2177,59 @@
           "quote": "Three hundred li farther east is Qingqiu Mountain, where much jade can be found on its south slope and green cinnabar on its north. There is a beast here whose form resembles a fox with nine tails. It makes a sound like a baby and is a man-eater. Whoever eats it will be protected against insect-poison (gu).",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "huli-jing-c07",
+          "source_id": "huli-jing-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Werner, the fox is generally a creature of ill omen, long-lived (eight hundred or even a thousand years), with a peculiar virtue in every part of its body, able to produce fire by striking the ground with its tail.",
+          "statement_id": "Menurut Werner, rubah umumnya dianggap makhluk pertanda buruk, berumur panjang (hingga delapan ratus atau seribu tahun), memiliki khasiat khusus pada setiap bagian tubuhnya, dan dapat menghasilkan api dengan memukulkan ekornya ke tanah.",
+          "quote": "Generally, the fox is a creature of ill omen, long-lived (living to eight hundred or even a thousand years), with a peculiar virtue in every part of his body, able to produce fire by striking the ground with his tail,",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huli-jing-c08",
+          "source_id": "huli-jing-s2",
+          "host": "www.gutenberg.org",
+          "statement": "According to Werner, the fox can see into the future, transform itself (usually into old men, scholars, or pretty young maidens), and is fond of playing pranks and tormenting mankind.",
+          "statement_id": "Menurut Werner, rubah dapat melihat masa depan, mengubah wujud (biasanya menjadi lelaki tua, cendekiawan, atau gadis cantik), dan gemar berbuat jahil serta mengganggu manusia.",
+          "quote": "able to see into the future, to transform himself (usually into old men, or scholars, or pretty young maidens), and fond of playing pranks and tormenting mankind.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huli-jing-c09",
+          "source_id": "huli-jing-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Werner writes that among the animals worshipped by the Chinese, those at times seen emerging from coffins or graves hold a prominent place and are supposed to be the transmigrated souls of deceased human beings.",
+          "statement_id": "Werner menulis bahwa di antara hewan yang dipuja orang Tionghoa, hewan yang kadang terlihat keluar dari peti mati atau kuburan menempati tempat penting, dan dianggap sebagai jiwa manusia yang telah meninggal dan bereinkarnasi.",
+          "quote": "Among the many animals worshipped by the Chinese, those at times seen emerging from coffins or graves naturally hold a prominent place. They are supposed to be the transmigrated souls of deceased human beings.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huli-jing-c10",
+          "source_id": "huli-jing-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Werner states that, of these animals, the fox is mentioned in Chinese legendary lore perhaps more often than any other.",
+          "statement_id": "Werner menyatakan bahwa di antara hewan-hewan itu, rubah mungkin paling sering disebut dalam kisah legenda Tiongkok.",
+          "quote": "Of these animals the fox is mentioned in Chinese legendary lore perhaps more often than any other.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "huli-jing-c11",
+          "source_id": "huli-jing-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Werner notes that many fox legends are found in the story collection Liao chai chih i by P'u Sung-ling (seventeenth century A.D.).",
+          "statement_id": "Werner menyebut banyak legenda rubah dalam kumpulan cerita berjudul Liao chai chih i karya P'u Sung-ling (abad ke-17 M).",
+          "quote": "Many interesting fox legends are to be found in a collection of stories entitled _Liao chai chih i_, by P'u Sung-ling (seventeenth century A.D.)",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "4701679632090638a3f0ae567adf3f44781a339361976a1ec1062a5ccfab2d0e"
+      "images": []
     },
     {
       "slug": "dokkaebi",
@@ -2140,20 +2548,15 @@
     },
     {
       "slug": "four-symbols",
-      "file": "batch-066-fix-1.md",
+      "file": "batch-066-fix-4.md",
+      "entry_sha256": "e1154e74bded5b319c4f81d4a49eec31f99eac6d27489e60ef9307d6ed805c9c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "four-symbols-c01",
@@ -2194,10 +2597,39 @@
           "quote": "In Taoism, the Four Symbols have been assigned human identities and names. The Azure Dragon is named Meng Zhang (孟章), the Vermilion Bird is called Ling Guang (陵光), the White Tiger Jian Bing (監兵), and the Black Turtle-Snake Zhi Ming (執明). Its Japanese equivalent, in corresponding order: Seiryū (east), Suzaku (south), Byakko (west), Genbu (north).",
           "context": "historical-record",
           "status": "loose"
+        },
+        {
+          "id": "four-symbols-c05",
+          "source_id": "four-symbols-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Huainanzi (Tianwen xun) records that the east (element wood) has as its beast (獸) the Canglong (蒼龍, azure dragon) and the south (element fire) has the Zhuniao (朱鳥, vermilion bird).",
+          "statement_id": "Huainanzi (Tianwen xun) mencatat bahwa arah timur (unsur kayu) memiliki \"hewan\" (獸) Canglong (蒼龍, naga biru-hijau), dan arah selatan (unsur api) memiliki Zhuniao (朱鳥, burung merah).",
+          "quote": "東方，木也，其帝太皞，其佐句芒，執規而治春。其神為歲星，其獸蒼龍，其音角，其日甲乙。南方，火也，其帝炎帝，其佐朱明，執衡而治夏。其神為熒惑，其獸朱鳥，其音徵，其日丙丁。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "four-symbols-c06",
+          "source_id": "four-symbols-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Huainanzi (Tianwen xun) records that the west (element metal) has the Baihu (白虎, white tiger) and the north (element water) has the Xuanwu (玄武).",
+          "statement_id": "Huainanzi (Tianwen xun) mencatat bahwa arah barat (unsur logam) memiliki Baihu (白虎, harimau putih), dan arah utara (unsur air) memiliki Xuanwu (玄武).",
+          "quote": "西方，金也，其帝少昊，其佐蓐收，執矩而治秋。其神為太白，其獸白虎，其音商，其日庚辛。北方，水也，其帝顓頊，其佐玄冥，執權而治冬。其神為辰星，其獸玄武，其音羽，其日壬癸。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "four-symbols-c07",
+          "source_id": "four-symbols-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Liji (Quli shang) says that on the march Xuanwu (玄武) is behind, the Azure Dragon (青龍) on the left and the White Tiger (白虎) on the right, with Zhaoyao (招摇) above.",
+          "statement_id": "Liji (Quli shang) menyebut bahwa dalam perjalanan, Xuanwu (玄武) berada di belakang, Naga Biru-Hijau (青龍) di kiri, dan Harimau Putih (白虎) di kanan, dengan Zhaoyao (招摇) di atas.",
+          "quote": "而後玄武，左青龍而右白虎，招摇在上，急繕其怒。進退有度，左右有局，各司其局。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "7b1e6c32c3c4caa41d862ade0e3014ac066ca9ac9e7146f7d20f38c8a5fa9f5f"
+      "images": []
     },
     {
       "slug": "bai-ze",
@@ -2336,20 +2768,15 @@
     },
     {
       "slug": "manimekhala",
-      "file": "batch-066-fix-1.md",
+      "file": "batch-066-fix-5.md",
+      "entry_sha256": "6a284f138fb8021a5f0b1db5133f205d9159d16fc5542913906b721e5c8b8231",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 10,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "manimekhala-c01",
@@ -2410,10 +2837,49 @@
           "quote": "According to legend, the phenomena of lightning and thunder is produced from the flashing of Manimekhala's crystal ball and the sound of Ramasura's axe as he pursues her through the skies.",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "manimekhala-c07",
+          "source_id": "manimekhala-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "In the Mahājanaka-jātaka, a daughter of the gods named Maṇimekhalā had been appointed guardian of the sea by the four guardians of the world.",
+          "statement_id": "Dalam Mahājanaka-jātaka, seorang putri para dewa bernama Maṇimekhalā ditunjuk sebagai penjaga laut oleh keempat penjaga dunia.",
+          "quote": "Now at that time a daughter of the gods named Maṇimekhalā had been appointed guardian of the sea by the four guardians of the world.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "manimekhala-c08",
+          "source_id": "manimekhala-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "The guardians of the world told her that beings possessing virtues such as reverence for their mothers do not deserve to fall into the sea, and that she should look out for such beings.",
+          "statement_id": "Para penjaga dunia berpesan kepadanya bahwa makhluk yang memiliki kebajikan seperti menghormati ibu tidak layak tenggelam di laut, dan ia harus mencari yang demikian.",
+          "quote": "They said to her, \"Those beings who possess such virtues as reverence for their mothers and the like do not deserve to fall into the sea,—look out for such\"",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "manimekhala-c09",
+          "source_id": "manimekhala-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "After helping the prince, she brought him to Mithilā and laid him on the ceremonial stone in a mango grove, then left him in the care of the goddesses of the garden and departed to her own abode.",
+          "statement_id": "Setelah menolong sang pangeran, ia membawanya ke Mithilā dan membaringkannya di atas batu upacara di kebun mangga, lalu menitipkannya kepada dewi-dewi taman dan kembali ke tempat tinggalnya.",
+          "quote": "Then she brought him to Mithilā and laid him on his right side on the ceremonial stone in a mango grove, and, leaving him in the care of the goddesses of the garden, departed to her own abode.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "manimekhala-c10",
+          "source_id": "manimekhala-s2",
+          "host": "www.wisdomlib.org",
+          "statement": "In the Master's identification of the birth, the sea-goddess at that time was Uppalavaṇṇā.",
+          "statement_id": "Dalam pengenalan kelahiran oleh sang Guru, dewi laut pada masa itu adalah Uppalavaṇṇā.",
+          "quote": "At that time the sea-goddess was Uppalavaṇṇā",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "98b29709348031b27242289a85a355cd4d88062d19f410993e74864c73d3bb20"
+      "images": []
     },
     {
       "slug": "xiezhi",
@@ -2812,20 +3278,15 @@
     },
     {
       "slug": "he-bo",
-      "file": "batch-066.md",
+      "file": "batch-066-fix-4.md",
+      "entry_sha256": "9b3b2afcce333ee51b37ba21731a4c89d999232ad1aac23dbc0315c8cc0e84f2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "he-bo-c01",
@@ -2886,27 +3347,51 @@
           "quote": "The contemporary meaning of Bó (伯) is generally considered to be that of an honorific title, of a martial or noble designation, similar to the European titles of nobility rendered in English as \"count\" or \"earl\". It also means uncle, as in one’s father’s oldest brother.",
           "context": "etymology",
           "status": "loose"
+        },
+        {
+          "id": "he-bo-c07",
+          "source_id": "he-bo-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The \"Hebo\" (河伯) section of the Jiuge describes a speaker roaming the nine rivers with \"you\" (女) in a water chariot with a lotus canopy, drawn by two dragons with chi (螭) as side horses, then climbing Kunlun and looking out in all directions.",
+          "statement_id": "Bagian \"Hebo\" (河伯) dalam Jiuge menggambarkan pembicara yang berkelana bersama \"engkau\" (女) ke sembilan sungai dengan kereta air berpayung teratai yang ditarik dua naga dan chi (螭) sebagai kuda sisi, lalu mendaki Kunlun dan memandang ke segala arah.",
+          "quote": "與女遊兮九河，衝風起兮橫波。 乘水車兮荷蓋，駕兩龍兮驂螭。 登崑崙兮四望，心飛揚兮浩蕩。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "he-bo-c08",
+          "source_id": "he-bo-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The \"Hebo\" section of the Jiuge mentions a fish-scale house, a dragon hall, a purple-shell gate, and a vermilion palace, and has its figure riding a white turtle in pursuit of patterned fish.",
+          "statement_id": "Bagian \"Hebo\" dalam Jiuge menyebut rumah bersisik ikan, aula naga, gerbang kerang ungu, dan istana merah, serta tokohnya menunggang kura-kura putih sambil mengejar ikan berpola.",
+          "quote": "魚鱗屋兮龍堂，紫貝闕兮朱宮。 靈何為兮水中，乘白黿兮逐文魚。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "he-bo-c09",
+          "source_id": "he-bo-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the Qiushui chapter of the Zhuangzi, Hebo (河伯) is delighted and thinks all the beauty of the world is in himself; he follows the current east to the North Sea, looks out and cannot see the end of the water, then turns his face and sighs toward Ruo (若).",
+          "statement_id": "Dalam bab Qiushui Zhuangzi, Hebo (河伯) merasa senang dan mengira keindahan dunia seluruhnya ada pada dirinya, lalu menyusuri arus ke timur hingga Laut Utara, memandang tanpa melihat ujung air, dan berbalik muka sambil menghela napas ke arah Ruo (若).",
+          "quote": "不辯牛馬，於是焉，河伯欣然自喜，以（爲）天下之美，爲盡在己。順流而東行，至於北海，東面而視，不見水端，於是焉，河伯始旋其面目，望洋向若而歎",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "49e8454b926f2f9cc3cd6c3bd33559555b98919be873818b7bc2f3c4b21c624e"
+      "images": []
     },
     {
       "slug": "nian",
-      "file": "batch-066-fix-2.md",
+      "file": "batch-066-fix-5.md",
+      "entry_sha256": "fe6e834855934488dc9daeadf675b8146a130950bb43518a252be74216330729",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "nian-c01",
@@ -2967,10 +3452,59 @@
           "quote": "Various aspects of cultural practices relating to Chinese New Year are part of the nian legend. These cultural practices are recorded in ancient texts, though none of them refer to a creature called nian.",
           "context": "scholarly-interpretation",
           "status": "exact"
+        },
+        {
+          "id": "nian-c07",
+          "source_id": "nian-s2",
+          "host": "www.china.org.cn",
+          "statement": "According to one of the most famous legends, an extremely ferocious horned monster named Nian lived in ancient China, deep at the bottom of the sea all year, and climbed up to the shore only on New Year's Eve to devour cattle and kill people.",
+          "statement_id": "Menurut salah satu legenda paling terkenal, di Tiongkok kuno hidup monster bertanduk bernama Nian yang sangat garang; ia tinggal jauh di dasar laut sepanjang tahun dan naik ke pantai hanya pada malam tahun baru untuk melahap ternak dan membunuh orang.",
+          "quote": "According to one of the most famous legends, in ancient China there lived a horned monster named Nian who was extremely ferocious. Nian lived deep at the bottom of the sea all the year round and climbed up to the shore only on New Year's Eve to devour the cattle and kill people.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nian-c08",
+          "source_id": "nian-s2",
+          "host": "www.china.org.cn",
+          "statement": "On every New Year's Eve, people from all villages would flee with the old and the young to the remote mountains to avoid the calamity caused by the monster Nian.",
+          "statement_id": "Setiap malam tahun baru, penduduk semua desa mengungsi bersama kaum tua dan muda ke pegunungan terpencil untuk menghindari bencana yang ditimbulkan monster Nian.",
+          "quote": "Thereupon on the day of every New Year's Eve people from all villages would flee, bringing along the old and the young, to the remote mountains so as to avoid the calamity caused by the monster Nian.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nian-c09",
+          "source_id": "nian-s2",
+          "host": "www.china.org.cn",
+          "statement": "In this legend, the color red, flames and explosions were what Nian feared the most.",
+          "statement_id": "Dalam legenda ini, warna merah, api, dan ledakan adalah hal yang paling ditakuti Nian.",
+          "quote": "It turned out that the color red, flames, and explosions were what Nian feared the most.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nian-c10",
+          "source_id": "nian-s2",
+          "host": "www.china.org.cn",
+          "statement": "When the door of the grandmother's house was thrown open and an old man in a red robe burst out laughing in the courtyard, the monster Nian was scared out of his wits and fled helter-skelter.",
+          "statement_id": "Ketika pintu rumah sang nenek dibuka dan seorang lelaki tua berjubah merah tertawa terbahak di halaman, monster Nian ketakutan dan lari tunggang langgang.",
+          "quote": "And when the door of the grandmother's house was thrown open and an old man in a red robe burst out laughing in the courtyard, the monster Nian was scared out of his wits and fled helter-skelter.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "nian-c11",
+          "source_id": "nian-s2",
+          "host": "www.china.org.cn",
+          "statement": "The villagers concluded that the old beggar was surely a celestial being come to expel calamities, and that red paper, red cloth, red candles and exploding firecrackers were magic weapons to drive out the monster Nian.",
+          "statement_id": "Penduduk akhirnya menyimpulkan bahwa pengemis tua itu pastilah makhluk langit yang datang mengusir bencana, dan bahwa kertas merah, kain merah, lilin merah, dan petasan adalah senjata ajaib untuk mengusir monster Nian.",
+          "quote": "They concluded in the end that the old beggar was surely the celestial being who came to expel the calamities and bless the people, and that red paper, red cloth, red candles, and the exploding firecracker were certainly the magic weapons to drive out the monster Nian.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "ec66f546d02420ef7f4d22499fc7ae450871295a707f71d8e4869384f18b080e"
+      "images": []
     },
     {
       "slug": "yellow-dragon",
@@ -3015,20 +3549,15 @@
     },
     {
       "slug": "hundun",
-      "file": "batch-066-fix-2.md",
+      "file": "batch-066-fix-4.md",
+      "entry_sha256": "052cde8913b553af5446a1cbdeb501a9a4d9acb7e8ee50d290d94505f29038b8",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "hundun-c01",
@@ -3089,10 +3618,39 @@
           "quote": "There is a god here who looks like a yellow sack. He is scarlet like cinnabar fire. He has six feet and four wings. He is Muddle Thick. He has no face and no eyes. He knows how to sing and dance. He is in truth the great god Long River.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "hundun-c07",
+          "source_id": "hundun-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Zuozhuan (Wengong 18) says that the Di Hong clan (帝鴻氏) had an untalented son who liked to practise wicked conduct, and the people called him Hundun (渾敦).",
+          "statement_id": "Zuozhuan (Wengong 18) menyebut bahwa klan Di Hong (帝鴻氏) memiliki seorang putra yang tidak berbakat, yang suka melakukan kekejian, dan rakyat menyebutnya Hundun (渾敦).",
+          "quote": "昔帝鴻氏有不才子，掩義隱賊，好行凶德，醜類惡物，頑嚚不友，是與比周，天下之民，謂之渾敦",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hundun-c08",
+          "source_id": "hundun-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Zuozhuan (Wengong 18) says that Shun, serving Yao, banished four wicked clans, Hundun, Qiongqi, Taowu, and Taotie, to the four borders to ward off chimei (螭魅).",
+          "statement_id": "Zuozhuan (Wengong 18) menyebut bahwa Shun, saat melayani Yao, mengusir empat klan jahat, yaitu Hundun, Qiongqi, Taowu, dan Taotie, ke empat tepi dunia untuk menangkal chimei (螭魅).",
+          "quote": "舜臣堯，賓于四門，流四凶族，渾敦，窮奇，檮杌，饕餮，投諸四裔，以禦螭魅",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "hundun-c09",
+          "source_id": "hundun-s3",
+          "host": "zh.wikisource.org",
+          "statement": "The Shanhaijing (Xishan jing) records on Mount Tianshan a deity shaped like a yellow sack, red like cinnabar fire, with six feet and four wings, a hundun (渾敦) with no face or eyes, who can sing and dance, and who is in truth Dijiang (帝江).",
+          "statement_id": "Shanhaijing (Xishan jing) mencatat di gunung Tianshan seorang dewa yang rupanya seperti kantong kuning, merah seperti api cinnabar, berkaki enam dan bersayap empat, \"hundun\" (渾敦) tanpa wajah dan mata, pandai menyanyi dan menari, dan sebenarnya adalah Dijiang (帝江).",
+          "quote": "曰天山，多金玉，有青雄黃。英水出焉，而西南流注于湯谷。有神焉，其狀如黃囊，赤如丹火 ... 六足四翼，渾敦無面目，是識歌舞，實為帝江也",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "4acf1bd51dc5a433fb78e505ac8b01e50556fed2cd9b7f560c92ad2bb7d7d718"
+      "images": []
     },
     {
       "slug": "wind-horse",
@@ -3157,20 +3715,15 @@
     },
     {
       "slug": "jin-chan",
-      "file": "batch-066.md",
+      "file": "batch-066-fix-5.md",
+      "entry_sha256": "aed905859641503b33ba71a18cfa631e447f2c48dca68ceb318024b6bb7f3a7c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 8,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "jin-chan-c01",
@@ -3221,27 +3774,51 @@
           "quote": "The Jin Chan is a legendary animal of the Han people. The money toad is associated with the Daoist monk, Liu Haichan, as the xianren's animal companion.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "jin-chan-c06",
+          "source_id": "jin-chan-s2",
+          "host": "www.clevelandart.org",
+          "statement": "The Cleveland Museum of Art describes Liu Haichan as a Daoist immortal sometimes included among the Eight Immortals, said to have lived during the Five Dynasties period (907–979) and to have left his position as a grand councilor to become a hermit.",
+          "statement_id": "Museum Seni Cleveland menyebut Liu Haichan sebagai tokoh abadi Tao yang kadang dimasukkan dalam Delapan Dewa Abadi, yang dikatakan hidup pada periode Lima Dinasti (907–979) dan meninggalkan jabatannya sebagai penasihat agung untuk menjadi pertapa.",
+          "quote": "Liu Haichan is a Daoist immortal sometimes included among the Eight Immortals. He was said to have lived during the Five Dynasties period (907–979) and left his position as a grand councilor to become a hermit.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jin-chan-c07",
+          "source_id": "jin-chan-s2",
+          "host": "www.clevelandart.org",
+          "statement": "According to the museum, Liu Haichan is usually depicted carrying a string of coins and accompanied by a three-legged toad; he became a god of wealth and his toad symbolizes wealth as well.",
+          "statement_id": "Menurut museum itu, Liu Haichan biasanya digambarkan membawa untaian koin dan ditemani kodok berkaki tiga; ia menjadi dewa kekayaan dan kodoknya pun melambangkan kekayaan.",
+          "quote": "Usually depicted carrying a string of coins and accompanied by a three-legged toad, Liu Haichan became a god of wealth and his toad symbolizes wealth as well.",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "jin-chan-c08",
+          "source_id": "jin-chan-s3",
+          "host": "art.nelson-atkins.org",
+          "statement": "A gallery label at the Nelson-Atkins Museum for a woodblock print says the boy on the right represents the Daoist immortal Liu Hai playing with his pet, a three-legged toad, and that Liu Hai was deemed to be a spirit of wealth.",
+          "statement_id": "Label galeri Museum Nelson-Atkins pada sebuah cetakan kayu menyebut anak di sisi kanan mewakili tokoh abadi Tao Liu Hai yang bermain dengan hewan peliharaannya, kodok berkaki tiga, dan Liu Hai dianggap sebagai roh kekayaan.",
+          "quote": "The boy on the right represents the Daoist immortal, Liu Hai, playing with his pet, a three-legged toad. Liu Hai was deemed to be a spirit of wealth.",
+          "context": "religious-tradition",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "5cc8ca72b880710f6ed5a60212da48f73dc456de74dfd5e84594f823c8b7ff0e"
+      "images": []
     },
     {
       "slug": "kuafu",
-      "file": "batch-066.md",
+      "file": "batch-066-fix-5.md",
+      "entry_sha256": "1b0fc30fe51937529d04c992ff9de9f318ce775cf34f73ca8e8220f57fb97197",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 9,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kuafu-c01",
@@ -3302,10 +3879,39 @@
           "quote": "In one version, Kuafu turns into a mountain range. This mountain range and the peach forest are said to be located in present day Lingbao.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "kuafu-c07",
+          "source_id": "kuafu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Shanhaijing (Great Wilderness, North) records a man named Kuafu in the Great Wilderness who wears two yellow snakes at his ears and holds two yellow snakes; Houtu begot Xin, and Xin begot Kuafu.",
+          "statement_id": "Shanhaijing (Dahuang Bei Jing) mencatat seorang bernama Kuafu di Dahuang, yang mengenakan dua ular kuning di telinga dan memegang dua ular kuning; Houtu melahirkan Xin, dan Xin melahirkan Kuafu.",
+          "quote": "大荒之中，有山名曰成都載天。有人珥兩黄蛇，把兩黄蛇，名曰夸父。后土生信，信生夸父。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kuafu-c08",
+          "source_id": "kuafu-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the Dahuang Bei Jing, Kuafu, who overestimated his strength, sought to chase the sun's shadow and overtook it at Yugu; he tried to drink from the river but it was not enough, headed for the great marsh, and died before reaching it. The same text also says Yinglong had killed Chiyou and then Kuafu.",
+          "statement_id": "Dalam Dahuang Bei Jing, Kuafu yang tidak menakar kekuatannya hendak mengejar bayangan matahari dan menyusulnya di Yugu; ia hendak minum dari sungai tetapi tidak cukup, menuju rawa besar, dan wafat sebelum sampai. Teks yang sama juga menyebut Yinglong telah membunuh Chiyou dan lalu Kuafu.",
+          "quote": "夸父不量力，欲追日景，逮之于禺谷。將飲河而不足也，將走大澤，未至，死于此。應龍已殺蚩尤，又殺夸父，乃去南方處之，故南方多雨。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "kuafu-c09",
+          "source_id": "kuafu-s3",
+          "host": "zh.wikisource.org",
+          "statement": "In the Haiwai Bei Jing, Kuafu races the sun and grows thirsty; he drinks from the He and Wei rivers, which are not enough, heads north to drink at the great marsh, and dies of thirst on the way; the staff he discarded turns into the Deng forest.",
+          "statement_id": "Dalam Haiwai Bei Jing, Kuafu berlomba lari dengan matahari lalu haus; ia minum dari Sungai He dan Sungai Wei yang tidak cukup, hendak minum di rawa besar di utara, tetapi mati kehausan di tengah jalan, dan tongkat yang ia buang menjadi hutan Deng.",
+          "quote": "夸父與日逐走，入日。渴，欲得飲，飲於河、渭，河、渭不足，北飲大澤。未至，道渴而死。棄其杖，化為鄧林。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "e55739f3df25f15200fc7ad1b8ad2d99e14c6e7d89f23b925a02f29b3d761558"
+      "images": []
     },
     {
       "slug": "ungnyeo",
@@ -3461,20 +4067,15 @@
     },
     {
       "slug": "peng",
-      "file": "batch-066.md",
+      "file": "batch-066-fix-5.md",
+      "entry_sha256": "497559f7c82b085119d23bd13ac2d11389ce031a7952b6713fb8de3c1bf216a4",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "peng-c01",
@@ -3515,10 +4116,39 @@
           "quote": "Synonyms of Peng include Dapeng (大鵬; \"Big Peng\", \"Great Peng\") and Dapengniao (大鵬鳥; \"Great Peng Bird\"). Dapeng is also a place name for a few places in greater China, most notably in Shenzhen and Taiwan.",
           "context": "etymology",
           "status": "loose"
+        },
+        {
+          "id": "peng-c05",
+          "source_id": "peng-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the \"Xiaoyao You\" chapter of the Zhuangzi, a fish named Kun lives in the Northern Darkness and is immensely large; it transforms into a bird named Peng, whose back spans thousands of li and whose wings are like clouds hanging from the sky.",
+          "statement_id": "Dalam bab \"Xiaoyao You\" Zhuangzi, di Lautan Utara ada ikan bernama Kun yang sangat besar; ikan itu berubah menjadi burung bernama Peng, yang punggungnya luas ribuan li dan sayapnya bagai awan yang menggantung dari langit.",
+          "quote": "北冥有魚，其名爲鯤。鯤之大，不知其幾千里也，化而爲鳥，其名爲鵬。鵬之背，不知其幾千里也，怒而飛，其翼若垂天之雲。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "peng-c06",
+          "source_id": "peng-s2",
+          "host": "zh.wikisource.org",
+          "statement": "When the sea stirs, the bird will migrate to the Southern Darkness, the Pool of Heaven; Qi Xie, \"one who records the strange\", says that in the migration it beats the water for three thousand li.",
+          "statement_id": "Ketika laut bergolak, burung itu akan berpindah ke Lautan Selatan, yaitu Telaga Langit; Qi Xie, \"pencatat hal-hal ganjil\", berkata bahwa dalam perpindahan itu ia memukul air sejauh tiga ribu li.",
+          "quote": "是鳥也，海運，則將徙於南冥。南冥者，天池也。齊諧者，志怪者也。諧之言曰：「鵬之徙於南冥也，水擊三千里",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "peng-c07",
+          "source_id": "peng-s2",
+          "host": "zh.wikisource.org",
+          "statement": "A small quail laughs at the Peng, saying that it only leaps up a few ren before coming down and flies among the brambles, and asking where the Peng is going.",
+          "statement_id": "Seekor burung puyuh kecil menertawakan Peng, sambil berkata bahwa ia sendiri hanya melompat naik beberapa ren lalu turun dan terbang di antara semak, dan bertanya ke mana Peng hendak pergi.",
+          "quote": "斥鴳笑之曰：「彼且奚適也？我騰躍而上，不過數仞而下，翺翔蓬蒿之間，此亦飛之至也。而彼且奚適也？」",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "f84f450400a6ef38722a7c827158715ad5cb6eb02fb6b041dc41bb4f10e176c4"
+      "images": []
     },
     {
       "slug": "xiangliu",
@@ -3603,20 +4233,15 @@
     },
     {
       "slug": "korean-dragon",
-      "file": "batch-066.md",
+      "file": "batch-066-fix-5.md",
+      "entry_sha256": "9272eee7116bfd63c02f2d85a62764d1bb3e7a57e750ec56035f85aece60b2ac",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 6,
-        "sources": 1,
+        "claims": 14,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "korean-dragon-c01",
@@ -3677,10 +4302,89 @@
           "quote": "Occasionally a dragon may be depicted as carrying a giant orb known as the yeouiju (여의주), the Korean name for the mythical Cintamani, in its claws or its mouth.",
           "context": "traditional-belief",
           "status": "loose"
+        },
+        {
+          "id": "korean-dragon-c07",
+          "source_id": "korean-dragon-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the Samguk Yusa, a king whose will asked for burial on a great rock in the East Sea once told the Dharma master Jiui (智義) that after his death he wished to become a great dragon protecting the state, revering the Buddhist teaching and guarding the country.",
+          "statement_id": "Dalam Samguk Yusa, seorang raja yang berwasiat dimakamkan di batu karang besar di Laut Timur pernah berkata kepada guru Dharma Jiui (智義) bahwa setelah wafat ia ingin menjadi naga besar pelindung negara, yang memuliakan ajaran Buddha dan menjaga negerinya.",
+          "quote": "遺詔葬於東海中大巖上。王平時常謂智義法師曰。朕身後願為護國大龍。崇奉佛法。守護邦家。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "korean-dragon-c08",
+          "source_id": "korean-dragon-s2",
+          "host": "zh.wikisource.org",
+          "statement": "A temple record cited in the Samguk Yusa says King Munmu (文武王) began the temple to suppress the Wa (Japanese) troops, died before it was finished, and became a sea dragon; his son Sinmun (神文) completed it in the second year of the Kaiyao era.",
+          "statement_id": "Catatan kuil yang dikutip Samguk Yusa menyebut Raja Munmu (文武王) mulai membangun kuil itu untuk menekan pasukan Wa (Jepang), wafat sebelum selesai, dan menjadi naga laut; putranya Sinmun (神文) menyelesaikannya pada tahun kedua era Kaiyao.",
+          "quote": "寺中記云。文武王欲鎮倭兵。故始創此寺。未畢而崩。為海龍。其子神文立開耀二年畢。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "korean-dragon-c09",
+          "source_id": "korean-dragon-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In the story of the bamboo flute, on the sixteenth day of that month, when the wind cleared and the waves calmed, the king sails to a mountain in the sea, and a dragon comes to present a black jade belt and receives him to sit together.",
+          "statement_id": "Dalam kisah seruling bambu, pada hari keenam belas bulan itu, ketika angin reda dan ombak tenang, raja berlayar menuju sebuah gunung di laut, dan seekor naga datang mempersembahkan sabuk batu giok hitam serta menyambutnya duduk bersama.",
+          "quote": "至其月十六日風霽波平。王泛海入其山。有龍奉黑玉帶來獻。迎接共坐。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "korean-dragon-c10",
+          "source_id": "korean-dragon-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In that story, the late father of the reigning king is said to have become a great dragon in the sea and Kim Yushin (庾信) a heavenly god; together the two sages bring out a priceless treasure to be presented.",
+          "statement_id": "Dalam kisah itu, ayah mendiang raja yang berkuasa disebut telah menjadi naga besar di laut dan Kim Yushin (庾信) menjadi dewa langit; keduanya bersepakat mengeluarkan harta tak ternilai untuk dipersembahkan.",
+          "quote": "今王考為海中大龍。庾信復為天神。二聖同心。出此無價大寶。令我獻之。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "korean-dragon-c11",
+          "source_id": "korean-dragon-s2",
+          "host": "zh.wikisource.org",
+          "statement": "When clouds and fog suddenly darkened the way so that the party lost its path, an official (日官) said it was a transformation of the East Sea dragon and that a good deed should be performed; once the order to build a Buddhist temple for the dragon was issued, the clouds and fog cleared.",
+          "statement_id": "Ketika awan dan kabut tiba-tiba menggelapkan jalan hingga rombongan tersesat, seorang pejabat (日官) berkata bahwa itu perubahan wujud naga Laut Timur dan perlu dilakukan perbuatan baik; setelah perintah mendirikan kuil Buddha untuk sang naga dikeluarkan, awan dan kabut menghilang.",
+          "quote": "忽雲霧冥曀。迷失道路。怪問左右。日官奏云。此東海龍所變也。宜行勝事以解之。於是敕有司為龍刱佛寺。近境施令已出。雲開霧散。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "korean-dragon-c12",
+          "source_id": "korean-dragon-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The pleased East Sea dragon led seven sons to appear before the carriage, praised virtue and offered dance and music; one son followed to the capital, assisted the royal government, and was named Cheoyong (處容).",
+          "statement_id": "Naga Laut Timur yang senang membawa tujuh putranya muncul di depan kereta, memuji kebajikan serta mempersembahkan tarian dan musik; salah satu putranya mengikuti ke ibu kota, membantu pemerintahan, dan bernama Cheoyong (處容).",
+          "quote": "東海龍喜。乃率七子現於駕前。讚德獻舞奏樂。其一子隨駕入京。輔佐王政。名曰處容。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "korean-dragon-c13",
+          "source_id": "korean-dragon-s2",
+          "host": "zh.wikisource.org",
+          "statement": "At a seaside pavilion a sea dragon suddenly seized a lord's (公) wife and took her into the sea; on the advice of an old man, the people sang while striking the shore with sticks, and the dragon returned her.",
+          "statement_id": "Di sebuah paviliun tepi laut, naga laut tiba-tiba merenggut istri seorang bangsawan (公) dan membawanya ke laut; atas saran seorang lelaki tua, rakyat bernyanyi sambil memukul tepi pantai dengan tongkat, lalu sang naga mengembalikan sang istri.",
+          "quote": "又有臨海亭。晝膳次海龍忽攬夫人入海。公顛倒躄地。計無所出。又有一老人告曰。故人有言。眾口鑠金。今海中傍生。何不畏眾口乎。宜進界內民。作歌唱之。以杖打岸。則可見夫人矣。公從之。龍奉夫人出海獻之。",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "korean-dragon-c14",
+          "source_id": "korean-dragon-s2",
+          "host": "zh.wikisource.org",
+          "statement": "In one story, two women say that an envoy of Tang (唐) and two men from Hexi (河西) transformed their husbands, two dragons, and the dragon of the well of Fenhuang temple (芬皇寺) into small fish and took them away in a tube; they beg that the dragons, described as dragons protecting the country, be kept in the land.",
+          "statement_id": "Dalam sebuah kisah, dua perempuan berkata bahwa utusan Tang (唐) dan dua orang dari Hexi (河西) mengubah dua naga suami mereka dan naga sumur Kuil Fenhuang (芬皇寺) menjadi ikan kecil dan membawanya dalam tabung; mereka memohon agar para naga itu, yang disebut naga pelindung negara, ditahan di negeri itu.",
+          "quote": "唐使將河西國二人而來。咒我夫二龍及芬皇寺井等三龍。變為小魚。筒貯而歸。願陛下敕二人。留我夫等。護國龍也。",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "78d6ccf80751aec60421510834bbeb2d847aba4977817e4cb5077f75ea1a2ddd"
+      "images": []
     },
     {
       "slug": "ao",
@@ -3779,20 +4483,15 @@
     },
     {
       "slug": "gwisin",
-      "file": "batch-066.md",
+      "file": "batch-066-fix-4.md",
+      "entry_sha256": "81f366532accbd993175ac1b30b4cc003bc6e835b1a3b82e2c1a74c7060a2f73",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 5,
-        "sources": 1,
+        "claims": 11,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 5 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "gwisin-c01",
@@ -3843,27 +4542,81 @@
           "quote": "The Mul-gwisin (물귀신) is the spirit of someone who drowned.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "gwisin-c06",
+          "source_id": "gwisin-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "According to the Encyclopedia of Korean Culture, gwisin (귀신) is a divine being regarded as exercising superhuman or supernatural power; the concept is highly complex and divides broadly into pantheistic gwisin and saryeong (사령), the souls of the dead.",
+          "statement_id": "Menurut Ensiklopedia Kebudayaan Korea, gwisin (귀신) adalah sosok ilahi (神) yang dianggap memiliki kemampuan melampaui manusia atau alam; konsepnya sangat kompleks dan terbagi besar menjadi gwisin panteistik dan saryeong (사령), yaitu jiwa orang mati.",
+          "quote": "귀신은 초인간적 또는 초자연적 능력을 발휘하는 주체로 여겨지는 신이다. 귀신이라는 개념은 매우 복합성을 지니고 있어서 다양한 대상을 지칭하여 사용된다. 크게 범신론적인 귀신, 죽은 자의 넋을 지칭하는 사령 두 가지로 나뉜다.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gwisin-c07",
+          "source_id": "gwisin-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "According to the encyclopedia, in a narrower sense gwisin also refers to the soul of a dead person, that is, saryeong (死靈) or saryeonggwi.",
+          "statement_id": "Menurut ensiklopedia itu, dalam arti sempit gwisin juga menunjuk jiwa orang yang telah meninggal, yaitu saryeong (死靈) atau saryeonggwi.",
+          "quote": "그러나 좁은 뜻으로 쓰일 때는 죽은 이의 넋, 곧 사령(死靈) 또는 사령귀를 지칭하기도 하는 말이다.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "gwisin-c08",
+          "source_id": "gwisin-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "According to the encyclopedia, if any one of three conditions is lacking the gwisin becomes a wollyeong (怨靈) or wongwi (寃鬼), and people feel fear and try to keep a respectful distance from it.",
+          "statement_id": "Menurut ensiklopedia itu, jika salah satu dari tiga syarat kekurangan, gwisin menjadi wollyeong (怨靈) atau wongwi (寃鬼), dan orang merasa takut serta berusaha menjauhinya dengan hormat.",
+          "quote": "하지만 세 가지 조건 중에서 어느 것 하나만 결격이 되어도 귀신은 이른바 원령(怨靈) 내지 원귀(寃鬼)가 된다. 사람들은 두려움을 느끼면서 그것을 경이원지(敬而遠之)하려 든다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gwisin-c09",
+          "source_id": "gwisin-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "According to the encyclopedia, a wongwi is the soul of a dead person that cannot go to the afterlife and wanders this world.",
+          "statement_id": "Menurut ensiklopedia itu, wongwi adalah jiwa orang mati yang tidak dapat pergi ke alam baka dan mengembara di dunia ini.",
+          "quote": "원귀는 죽은 이의 넋으로, 저승에 가지 못하고 이승을 헤매고 있는 떠돌이 넋이다.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gwisin-c10",
+          "source_id": "gwisin-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "The encyclopedia names three kinds of ghosts of the underage: the maiden ghost (처녀귀신) called \"sonmalmyeong\", the bachelor ghost (총각귀신) also called \"mongdal-gwisin\", and the baby ghost (아기귀신) called \"gongjini\" or \"taejagwi\" for those who died as infants.",
+          "statement_id": "Ensiklopedia itu menyebut tiga hantu di bawah umur: cheonyeo-gwisin (처녀귀신) yang disebut \"sonmalmyeong\", hantu bujangan (총각귀신) yang disebut \"mongdal-gwisin\", dan hantu bayi (아기귀신) yang disebut \"gongjini\" atau \"taejagwi\" untuk yang meninggal saat bayi.",
+          "quote": "이른바 ‘손말명’이라고 불리는 처녀귀신, ‘몽달귀신’이라 불리기도 하는 총각귀신, 그리고 유아로 죽은 ‘공진이’ 또는 ‘태자귀’라는 이름의 아기귀신 등 3대미성년귀신",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "gwisin-c11",
+          "source_id": "gwisin-s2",
+          "host": "encykorea.aks.ac.kr",
+          "statement": "According to the encyclopedia, most ancestral spirits (조상귀신) are the typical gwisin that satisfy all three conditions; they are revered as sacred gwisin and descendants expect hidden blessings (eumdeok) from them.",
+          "statement_id": "Menurut ensiklopedia itu, sebagian besar roh leluhur (조상귀신) adalah contoh khas gwisin yang memenuhi ketiga syarat; mereka dihormati sebagai gwisin yang suci dan keturunannya mengharapkan berkah tersembunyi dari mereka.",
+          "quote": "대부분의 조상령, 곧 조상귀신은 세 조건을 고루 갖춘 귀신의 전형이다. 이들은 거룩한 귀신으로서 떠받듦을 받고 후손들은 그에게서 이른바 음덕을 기대하게 된다.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "245459b941b351925dbb337630c8e67a8ef726c9e1d20512def4299c8c43ea78"
+      "images": []
     },
     {
       "slug": "four-holy-beasts",
-      "file": "batch-066-fix-1.md",
+      "file": "batch-066-fix-4.md",
+      "entry_sha256": "a12648250a0ef4b3061d4e6d6a16fbfcfd42f916a33b0e0b0405a805a828e879",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 4,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 4 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "four-holy-beasts-c01",
@@ -3904,10 +4657,29 @@
           "quote": "Patterns of the four holy beasts are found in Bronze mirrors of the Goryeo dynasty and Pottery.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "four-holy-beasts-c05",
+          "source_id": "four-holy-beasts-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Liji (chapter Liyun) asks \"what are the four ling (四靈)?\" and answers: the qilin (麟), the fenghuang (鳳), the tortoise (龜), and the dragon (龍).",
+          "statement_id": "Liji (bab Liyun) bertanya \"apa yang disebut empat ling (四靈)?\" dan menjawab: qilin (麟), fenghuang (鳳), kura-kura (龜), dan naga (龍).",
+          "quote": "四靈以爲畜，故飲食有由也。何謂四靈？麟、鳳、龜、龍，謂之四靈。",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "four-holy-beasts-c06",
+          "source_id": "four-holy-beasts-s2",
+          "host": "zh.wikisource.org",
+          "statement": "The Liji states that when the dragon is taken as a kept animal (畜) the fish are not startled, when the fenghuang is, the birds are not startled, when the qilin is, the beasts are not startled, and when the tortoise is, human feelings do not go astray.",
+          "statement_id": "Liji menyatakan bahwa bila naga dijadikan hewan peliharaan (畜) ikan tidak terusik, bila fenghuang demikian burung tidak terusik, bila qilin demikian hewan buas tidak terusik, dan bila kura-kura demikian perasaan manusia tidak keliru.",
+          "quote": "故龍以爲畜，故魚鮪不淰；鳳以爲畜，故鳥不獝；麟以爲畜，故獸不狘；龜以爲畜，故人情不失。",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c41f05c10db765465ccd4f0e51195e4cfc1bfe2b154790234b8ceacb1e542ab9"
+      "images": []
     }
   ]
 }
