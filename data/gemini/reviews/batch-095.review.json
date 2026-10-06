@@ -1,9 +1,10 @@
 {
   "batch_id": "batch-095",
-  "checked_at": "2026-10-06T14:33:55.017Z",
+  "checked_at": "2026-10-06T14:54:34.150Z",
   "files": [
     "batch-095.md",
-    "batch-095-fix-1.md"
+    "batch-095-fix-1.md",
+    "batch-095-fix-2.md"
   ],
   "parse_problems": [],
   "missing": [],
@@ -870,20 +871,15 @@
     },
     {
       "slug": "kallikantzaros",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-2.md",
+      "entry_sha256": "fb96fc8cd951362c807506683ffba8aa4baaf20565df5d213b58a73c49b60570",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 12,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "kallikantzaros-c01",
@@ -914,27 +910,111 @@
           "quote": "Its equivalents occur in Bulgarian",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "kallikantzaros-c04",
+          "source_id": "kallikantzaros-s2",
+          "host": "www.gutenberg.org",
+          "statement": "For the rest of the year they live in the lower world and try to gnaw through or cut down the great tree (or one or more columns) on which the world rests.",
+          "statement_id": "Selama sisa tahun mereka hidup di dunia bawah dan berusaha menggerogoti atau menebang pohon besar (atau satu atau beberapa tiang) tempat dunia bertumpu.",
+          "quote": "The rest of the year they live in the lower world, and occupy themselves in trying to gnaw through or cut down the great tree (or in other accounts the one or more columns) on which the world rests.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kallikantzaros-c05",
+          "source_id": "kallikantzaros-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Each Christmas the task is nearly done when the time comes for them to appear in the upper world, and during their twelve days' absence the supports of the world are made whole again.",
+          "statement_id": "Tiap Natal tugas itu hampir selesai ketika tiba saat mereka naik ke dunia atas, dan selama dua belas hari mereka pergi, penopang dunia pulih kembali.",
+          "quote": "Each Christmas they have nearly completed their task, when the time comes for their appearance in the upper world, and during their twelve days' absence, the supports of the world are made whole again.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kallikantzaros-c06",
+          "source_id": "kallikantzaros-s2",
+          "host": "www.gutenberg.org",
+          "statement": "From dawn until sunset they hide in dark and dank places, in caves or beneath mills, and feed on worms, snakes, frogs, tortoises and other unclean things.",
+          "statement_id": "Dari fajar hingga senja mereka bersembunyi di tempat gelap dan lembap, di gua atau di bawah kincir, dan makan cacing, ular, katak, kura-kura, serta hal-hal tak bersih lain.",
+          "quote": "From dawn till sunset they hide themselves in dark and dank places—in caves or beneath mills—and there feed on such food as they can collect, worms, snakes, frogs, tortoises, and other unclean things.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kallikantzaros-c07",
+          "source_id": "kallikantzaros-s2",
+          "host": "www.gutenberg.org",
+          "statement": "They swarm into homes by chimney and door, overturn and break all the furniture, devour the Christmas pork, and befoul the water, wine and food that remain.",
+          "statement_id": "Mereka menyerbu rumah lewat cerobong dan pintu, menjungkirbalikkan dan mematahkan semua perabot, menyantap daging babi Natal, dan mengotori air, anggur, serta makanan yang tersisa.",
+          "quote": "By chimney and door alike they swarm in, and make havoc of the home; in sheer wanton mischief they overturn and break all the furniture, devour the Christmas pork, befoul all the water and wine and food which remains",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kallikantzaros-c08",
+          "source_id": "kallikantzaros-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Their faces are black, their eyes glare red, they have the ears of goats or asses, and blood-red tongues loll from their huge mouths, flanked by ferocious tusks.",
+          "statement_id": "Wajah mereka hitam, mata merah menyala, bertelinga kambing atau keledai, dan lidah merah darah menjulur dari mulut besar mereka, diapit taring garang.",
+          "quote": "Their faces are black; their eyes glare red; they have the ears of goats or asses; from their huge mouths blood-red tongues loll out, flanked by ferocious tusks.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kallikantzaros-c09",
+          "source_id": "kallikantzaros-s2",
+          "host": "www.gutenberg.org",
+          "statement": "Hence it is not surprising that they are often lame, but even so they are swift of foot and terrible in strength.",
+          "statement_id": "Karena itu tidak mengherankan bila mereka sering pincang, tetapi meski begitu mereka cepat berlari dan sangat kuat.",
+          "quote": "Hence it is not surprising that they are often lame, but even so they are swift of foot and terrible in strength.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kallikantzaros-c10",
+          "source_id": "kallikantzaros-s2",
+          "host": "www.gutenberg.org",
+          "statement": "At the crowing of the third cock, who is black and more potent to scare away demons than the white and red cocks who precede him, they vanish away, like all terrors of the night.",
+          "statement_id": "Pada kokok ayam jantan ketiga, yang hitam dan lebih ampuh menakuti setan daripada ayam putih dan merah sebelumnya, mereka lenyap, seperti semua kengerian malam.",
+          "quote": "For at that sound (or, to be more precise, at the crowing of the third cock, who is black and more potent to scare away demons than the white and red cocks who precede him ... they vanish away, like all terrors of the night in ancient",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kallikantzaros-c11",
+          "source_id": "kallikantzaros-s2",
+          "host": "www.gutenberg.org",
+          "statement": "All Callicantzari are essentially mischievous; the mischief of the larger sort is often malicious and even deadly, while the smaller sort are more frolicsome and harmless in their tricks.",
+          "statement_id": "Semua Callicantzari pada dasarnya jahil; kejahilan jenis yang lebih besar sering berniat buruk dan bahkan mematikan, sedangkan jenis yang lebih kecil lebih jenaka dan tidak berbahaya dalam tipu dayanya.",
+          "quote": "while all Callicantzari are essentially mischievous in character, the mischief wrought by the larger sort is often of a malicious and even deadly order, while the smaller sort are more frolicsome and harmless in their tricks.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "kallikantzaros-c12",
+          "source_id": "kallikantzaros-s2",
+          "host": "www.gutenberg.org",
+          "statement": "The author states that the explanation for the extraordinary divergences and contradictions in accounts of the Callicantzari lies in their identity with the ancient Centaurs.",
+          "statement_id": "Sang penulis menyatakan bahwa penjelasan atas keanehan dan pertentangan dalam uraian tentang Callicantzari terletak pada identitas mereka dengan Centaur kuno.",
+          "quote": "The extraordinary divergences and even contradictions in different accounts of the Callicantzari demand ... That explanation, as I shall show later, lies in their identity with the ancient Centaurs.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d993cd4d96ab2e8c43624abb6ff003ef8844fd3aeba452d77516fd399f66925a"
+      "images": []
     },
     {
       "slug": "larunda",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-2.md",
+      "entry_sha256": "03ff743457566fc84302ca952338465cb26b1cef9507434111a66e1cc95f293f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "larunda-c01",
@@ -965,27 +1045,51 @@
           "quote": "Jupiter wrenches out Lara's tongue and orders Mercury, psychopomp and god of boundaries and transitions, to conduct her to the \"infernal marshes\" of Avernus",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "larunda-c04",
+          "source_id": "larunda-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "Larunda, or Lara, a daughter of Almon, was a nymph who denounced to Juno that there was some connexion between Jupiter and Juturna.",
+          "statement_id": "Larunda atau Lara, putri Almon, adalah nimfa yang melaporkan kepada Juno bahwa ada hubungan antara Jupiter dan Juturna.",
+          "quote": "or LARA, a daughter of Almon, was a nymph who denounced to Juno that there was some connexion between Jupiter and Juturna",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "larunda-c05",
+          "source_id": "larunda-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "Jupiter punished her by depriving her of her tongue and condemning her to be conducted into the lower world by Mercury; on the way Mercury fell in love with her, and afterwards she gave birth to two Lares.",
+          "statement_id": "Jupiter menghukumnya dengan mencabut lidahnya dan menyuruh Mercury membawanya ke dunia bawah; di jalan Mercury jatuh cinta padanya, dan kemudian ia melahirkan dua Lares.",
+          "quote": "Jupiter punished her by depriving her of her tongue, and condemning her to be conducted into the lower world by Mercury ;but on the way thither Mercury fell in love with her, and afterwards she gave birth to two Lares.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "larunda-c06",
+          "source_id": "larunda-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "Hartung infers from Lactantius that Larunda is identical with Muta and Tacita.",
+          "statement_id": "Hartung menyimpulkan dari Lactantius bahwa Larunda identik dengan Muta dan Tacita.",
+          "quote": "Hartung (Die Relig. der Röm. ii. p. 204) infers from Lactantius (1.20) that Larunda is identical with Muta and Tacita.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "66cdbd39df360359f2bdd5672fdb339a626f3b50d7724aee1e61194ab38c715c"
+      "images": []
     },
     {
       "slug": "monopod-creature",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-2.md",
+      "entry_sha256": "b6cae0f7825df25e375f00b6d6f33977e80ee2f8a0e9d99b61619f5af7ee0154",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "monopod-creature-c01",
@@ -1016,27 +1120,71 @@
           "quote": "They are described by Pliny the Elder in his Natural History, where he reports travelers' stories from encounters or sightings of Monopods in India.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "monopod-creature-c04",
+          "source_id": "monopod-creature-s2",
+          "host": "www.theoi.com",
+          "statement": "The Skiapodes (Sciapods) were a tribe of one-legged, giant-footed Ethiopian or Indian men who raised their large foot into the air for shade against the hot southern sun.",
+          "statement_id": "Skiapodes (Sciapods) adalah suku laki-laki berkaki satu dan berkaki raksasa dari Etiopia atau India yang mengangkat kaki besarnya ke udara sebagai peneduh dari terik matahari selatan.",
+          "quote": "THE SKIAPODES (Sciapods) were a tribe of one-legged, giant-footed Ethiopian or Indian men who raised their large foot into the air for shade against the hot southern sun.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "monopod-creature-c05",
+          "source_id": "monopod-creature-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted passage the Monocoli (One-Legged) have only one leg and move in jumps with surprising speed; they are also called Sciapodes (Shadow-Foots) because in the hotter weather they lie on their backs and protect themselves with the shadow of their feet.",
+          "statement_id": "Dalam kutipan itu, Monocoli (Berkaki Satu) berkaki satu dan bergerak dengan lompatan secepat mengejutkan; mereka juga disebut Sciapodes (Berkaki Bayangan) karena saat cuaca lebih panas mereka berbaring telentang dan berlindung dengan bayangan kaki mereka.",
+          "quote": "Monocoli (One-Legged) who have only one leg, and who move in jumps with surprising speed; the same are called Sciapodes (Shadow-Foots) tribe, because in the hotter weather they lie on their backs on the ground and protect themselves with the shadow of their feet.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "monopod-creature-c06",
+          "source_id": "monopod-creature-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted passage a speaker states that the Skiapodes or Long-Headed men, and other poetical fancies recounted about them in a treatise, did not live anywhere on the earth, least of all in India.",
+          "statement_id": "Dalam kutipan itu, seorang narasumber menyatakan bahwa orang Skiapodes atau berkepala panjang, dan hal-hal khayali lain dalam sebuah risalah tentang mereka, tidak hidup di mana pun di bumi, apalagi di India.",
+          "quote": "As to men that are Skiapodes (Shadow-Footed) or Makrokephaloi (Macrocephali) (Long-Headed), and as to the other poetical fancies which the treatise of Skylax recounts about them, he said that they didn't live anywhere on the earth, and least of all in India.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "monopod-creature-c07",
+          "source_id": "monopod-creature-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted passage the Skiapodes are listed among the tribes of Aithiopia (Ethiopia).",
+          "statement_id": "Dalam kutipan itu, Skiapodes termasuk suku-suku Aithiopia (Etiopia).",
+          "quote": "The Nasamones and the Androphagoi (Man-Eaters) and the Pygmaioi (Pygmies) and Skiapodes (Sciapods) (Shadow-Foots) people are also tribes of Aithiopia (Ethiopia)",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "monopod-creature-c08",
+          "source_id": "monopod-creature-s2",
+          "host": "www.theoi.com",
+          "statement": "The Skiapodes were also popular in medieval bestiaries and map illustrations of Terra Incognita.",
+          "statement_id": "Skiapodes juga populer dalam bestiari abad pertengahan dan ilustrasi peta Terra Incognita.",
+          "quote": "The Skiapodes were also popular in Medieval bestiaries and map illustrations of Terra Incognita.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "c315e62731ad315d0bdfc3dce6810b2c806ced67f80cfe9b64c82027d03122f1"
+      "images": []
     },
     {
       "slug": "mormo",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-2.md",
+      "entry_sha256": "ef5129e657fcc5a78629b2e3feb20b7110b15466bba84d5d5078485322d5866f",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "mormo-c01",
@@ -1057,27 +1205,91 @@
           "quote": "The name mormo has the plural form mormones which means \"fearful ones\" or \"hideous one(s)\", and is related to an array of words that signify \"fright\".",
           "context": "etymology",
           "status": "exact"
+        },
+        {
+          "id": "mormo-c03",
+          "source_id": "mormo-s2",
+          "host": "www.theoi.com",
+          "statement": "In a quoted poem the Mormo made children tremble: on its head were huge ears, it walked on all fours, and it changed from one face to another.",
+          "statement_id": "Dalam kutipan sebuah puisi, Mormo membuat anak-anak gemetar: kepalanya bertelinga besar, ia berjalan merangkak, dan berganti dari satu wajah ke wajah lain.",
+          "quote": "Oh, what a trembling the Mormo brought us then, when we were little ones!--On its head were huge ears, and it walked on all fours, and changed from one face to another!",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "mormo-c04",
+          "source_id": "mormo-s2",
+          "host": "www.theoi.com",
+          "statement": "In a quoted play a speaker made dizzy by terrifying armor begs that \"that Mormo (Bogy-Monster)\" be taken away.",
+          "statement_id": "Dalam kutipan sebuah lakon, seorang pembicara yang pusing melihat baju zirah menakutkan memohon agar \"Mormo (hantu penakut)\" disingkirkan.",
+          "quote": "Your terrifying armor makes me dizzy. I beg you, take away that Mormo (Bogy-Monster)!",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mormo-c05",
+          "source_id": "mormo-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted passage someone is urged not to fear death as if it were a Mormolykeion (Hobgoblin).",
+          "statement_id": "Dalam kutipan itu, orang diminta tidak takut mati seolah-olah kematian itu Mormolykeion (hantu penakut).",
+          "quote": "Try to persuade him not to fear death as if it were a Mormolykeion (Hobgoblin).",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mormo-c06",
+          "source_id": "mormo-s2",
+          "host": "www.theoi.com",
+          "statement": "The Mormolyceia were said to be able to assume the form of beautiful women to lure young men to bed, where they sucked their blood and consumed their flesh.",
+          "statement_id": "Mormolyceia dikatakan dapat mengambil wujud wanita cantik untuk memikat pemuda ke ranjang, lalu menghisap darah dan memakan daging mereka.",
+          "quote": "The Mormolyceia further were said to be able to assume the form of beautiful women for the purpose of luring young men to bed, where they sucked their blood and consumed their flesh.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
+        },
+        {
+          "id": "mormo-c07",
+          "source_id": "mormo-s2",
+          "host": "www.theoi.com",
+          "statement": "The Mormolyceion is the same phantom or bugbear as Mormo and is used for the same purpose.",
+          "statement_id": "Mormolyceion adalah momok yang sama dengan Mormo dan dipakai untuk tujuan yang sama.",
+          "quote": "or MORMOLYCEION ... the same phantom or bugbear as Mormo, and also used for the same purpose.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mormo-c08",
+          "source_id": "mormo-s2",
+          "host": "www.theoi.com",
+          "statement": "Mormo was one of the same class of bugbears as Empusa and Lamia.",
+          "statement_id": "Mormo termasuk golongan momok yang sama dengan Empusa dan Lamia.",
+          "quote": "Mormo was one of the same class of bugbears as Empusa and Lamia.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "mormo-c09",
+          "source_id": "mormo-s1",
+          "host": "en.wikipedia.org",
+          "statement": "According to an account attested in only a single source, the original Mormo was a woman of Corinth who ate her children and then flew away.",
+          "statement_id": "Menurut sebuah catatan yang hanya terbukti dalam satu sumber, Mormo asli adalah perempuan Korintus yang memakan anak-anaknya lalu terbang pergi.",
+          "quote": "The original Mormo was a woman of Corinth, who ate her children then flew away, according to an account only attested in a single source.",
+          "context": "scholarly-interpretation",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "fe49a48abf15ceda8d24629957d56fc75bb8c66f3e3b9694f509e5f8524c5ec0"
+      "images": []
     },
     {
       "slug": "simoeis",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-2.md",
+      "entry_sha256": "77deeef48e00d718b85fe06c05399a8b2f1e6d84deea939e34cbe10f419b07db",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 8,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "simoeis-c01",
@@ -1098,27 +1310,81 @@
           "quote": "This river is frequently spoken of in the Iliad, and described as a rapid mountain torrent.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "simoeis-c03",
+          "source_id": "simoeis-s2",
+          "host": "www.theoi.com",
+          "statement": "Simoeis was a river god of the Troad in north-western Anatolia (modern Turkey); his river was a tributary of the Skamandros and the two streams merged near the city of Troy.",
+          "statement_id": "Simoeis adalah dewa sungai di Troad, Anatolia barat laut (Turki modern); sungainya anak sungai Skamandros dan keduanya bertemu dekat kota Troy.",
+          "quote": "SIMOEIS was a River-God of the Troad in north-western Anatolia (modern Turkey). The Simoeis was a tributory of the river Skamandros (Scamander). Their two streams merged near the city of Troy.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "simoeis-c04",
+          "source_id": "simoeis-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted epic passage the Skamandros calls aloud upon Simoeis, \"beloved brother\", to join in holding back the strength of a man who will storm the great city of Priamos.",
+          "statement_id": "Dalam kutipan epos, Skamandros memanggil Simoeis \"saudara tercinta\" dan mengajaknya bergabung menahan kekuatan seorang pria yang akan menyerbu kota besar Priamos.",
+          "quote": "But [the River] Skamandros did not either abate his fury ... and called aloud upon Simoeis : 'Beloved brother, let even the two of us join to hold back the strength of a man, since presently he will storm the great city of lord Priamos (Priam).",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "simoeis-c05",
+          "source_id": "simoeis-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted passage the Skamandros asks Simoeis to help beat the man off by filling his currents from his springs, rousing all his torrents and making a big wave rear up.",
+          "statement_id": "Dalam kutipan itu, Skamandros meminta Simoeis membantu mengusir orang itu dengan memenuhi arusnya dari mata air, menggerakkan semua derasnya, dan menegakkan gelombang besar.",
+          "quote": "But [the River] Skamandros did not either abate his fury ... But help me beat him off with all speed, and make full your currents with water from your springs, and rouse up all your torrents and make a big wave rear up",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "simoeis-c06",
+          "source_id": "simoeis-s2",
+          "host": "www.theoi.com",
+          "statement": "According to the dictionary, Simoeis was a son of Oceanus and Tethys and the father of Astyoche and Hieromneme.",
+          "statement_id": "Menurut kamus itu, Simoeis putra Oceanus dan Tethys serta ayah Astyoche dan Hieromneme.",
+          "quote": "He is described as a son of Oceanus and Tethys ... and as the father of Astyoche and Hieromneme.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "simoeis-c07",
+          "source_id": "simoeis-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted epic passage Hera stays her horses, slipping them from the chariot, and Simoeis grows ambrosia as grass for them to graze on.",
+          "statement_id": "Dalam kutipan epos, Hera menghentikan kudanya dan melepaskannya dari kereta, dan Simoeis menumbuhkan rumput ambrosia untuk dimakan kuda-kuda itu.",
+          "quote": "there the goddess of the white arms, Hera, stayed her horses, slipping them from the chariot ... and Simoeis grew as grass ambrosia for them to graze on.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "simoeis-c08",
+          "source_id": "simoeis-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted passage Dardanos, first king of Troy, has given the firstling crop of his hair to Phrygian Simoeis.",
+          "statement_id": "Dalam kutipan itu, Dardanos, raja pertama Troya, mempersembahkan potongan pertama rambutnya kepada Simoeis dari Phrygia.",
+          "quote": "He [Dardanos first king of Troy] has given the firstling crop of his hair to Phrygian Simoeis.",
+          "context": "traditional-belief",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "d1d6b066848f4b5d132385757293b57458545d2d50c0cec01f0b1a9127156c8b"
+      "images": []
     },
     {
       "slug": "thalia",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-2.md",
+      "entry_sha256": "09640ca5cfdbfddc8f131638367cad8e29e84bce81d56a6d55f58f63e981f874",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "thalia-c01",
@@ -1149,27 +1415,61 @@
           "quote": "Her twin children, the Palici, were thus born under the earth",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "thalia-c04",
+          "source_id": "thalia-s2",
+          "host": "www.theoi.com",
+          "statement": "Thaleia was a Naiad-nymph of Mount Aitna (Etna) in Sicily; Zeus loved her, but fearing the wrath of Hera she asked to be hidden beneath the earth.",
+          "statement_id": "Thaleia adalah naiad Gunung Aitna (Etna) di Sisilia; Zeus mencintainya, tetapi karena takut akan murka Hera ia meminta disembunyikan di bawah tanah.",
+          "quote": "THALEIA was a Naiad-nymph of Mount Aitna (Etna) in Sicily. She was loved by the god Zeus but, fearing the wrath of Hera, asked to be hidden beneath the earth.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "thalia-c05",
+          "source_id": "thalia-s2",
+          "host": "www.theoi.com",
+          "statement": "Beneath the earth she gave birth to the Palikoi (Palici), twin Sicilian gods of hot springs and geysers.",
+          "statement_id": "Di bawah tanah ia melahirkan Palikoi (Palici), dewa kembar Sisilia penguasa mata air panas dan geyser.",
+          "quote": "There she gave birth to the Palikoi (Palici)--twin Sicilian gods of hot springs and geysers.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "thalia-c06",
+          "source_id": "thalia-s2",
+          "host": "www.theoi.com",
+          "statement": "In the plot summary a Sicilian maiden named Thaleia or Aitna, embraced by Zeus, prayed in fear of Hera's wrath that the earth might open and swallow her up; her prayer was granted, and when the time of her delivery was at hand the earth opened again and twin boys came forth.",
+          "statement_id": "Dalam ringkasan alur itu, seorang gadis Sisilia bernama Thaleia atau Aitna, yang dipeluk Zeus, berdoa agar bumi terbuka dan menelannya karena takut murka Hera; doanya dikabulkan, dan ketika tiba waktunya melahirkan, bumi terbuka lagi dan keluarlah anak kembar laki-laki.",
+          "quote": "A Sicilian maiden named Thaleia or Aitna (Aetna), having been embraced by Zeus, in fear of Hera's wrath prayed that the earth might open and swallow her up. Her prayer was granted, but when the time of her delivery was at hand, the earth opened again and twin boys came forth",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "thalia-c07",
+          "source_id": "thalia-s2",
+          "host": "www.theoi.com",
+          "statement": "The Palikoi were Sicilian daemons, twin sons of Zeus and the Nymph Thaleia, the daughter of Hephaestus.",
+          "statement_id": "Palikoi adalah daimon Sisilia, putra kembar Zeus dan nimfa Thaleia putri Hephaestus.",
+          "quote": "The Palikoi were Sicilian daemons, twin sons of Zeus and the Nymph Thaleia, the daughter of Hephaestus.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "1aacbf20738b8ac053cdc0e217a8c24b5cfa1aae59b12ad7d9e50e22a64e0bf9"
+      "images": []
     },
     {
       "slug": "tiburtine-sibyl",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-2.md",
+      "entry_sha256": "ad49f35199a3f55c35e2a1039d5fa595899cde386b070683446a6ce11cb7720c",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 2,
-        "sources": 1,
+        "claims": 7,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "tiburtine-sibyl-c01",
@@ -1190,27 +1490,71 @@
           "quote": "The mythic meeting of Augustus with the Sibyl, of whom he inquired whether he should be worshiped as a god, was often depicted by artists from the late Middle Ages onwards.",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "tiburtine-sibyl-c03",
+          "source_id": "tiburtine-sibyl-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the quotation, the Tiburtine Sibyl, by name Albunea, is worshiped at Tibur as a goddess near the banks of the Anio, in which stream her image is said to have been found holding a book; the Senate transferred her oracular responses to the Capitol.",
+          "statement_id": "Dalam kutipan itu, Sibyl Tiburtina, bernama Albunea, dipuja di Tibur sebagai dewi dekat tepi sungai Anio, tempat patungnya dikatakan ditemukan sedang memegang buku; tanggapan orakelnya dipindahkan Senat ke Capitol.",
+          "quote": "The Tiburtine Sibyl, by name Albunea, is worshiped at Tibur as a goddess, near the banks of the Anio, in which stream her image is said to have been found, holding a book in her hand. Her oracular responses the Senate transferred into the capitol.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tiburtine-sibyl-c04",
+          "source_id": "tiburtine-sibyl-s1",
+          "host": "en.wikipedia.org",
+          "statement": "In the later medieval versions the Sibyl answers Augustus by showing him a vision of a young woman with a baby boy high in the sky, and a voice from the heavens says that this is the virgin who shall conceive the saviour of the world.",
+          "statement_id": "Dalam versi Abad Pertengahan akhir, sang Sibyl menjawab Augustus dengan memperlihatkan penglihatan seorang perempuan muda dengan bayi laki-laki di langit, dan suara dari langit berkata bahwa itulah perawan yang akan mengandung juru selamat dunia.",
+          "quote": "In the versions known to the later Middle Ages, such as the account in the Golden Legend, Augustus asked the Sibyl whether he should be worshipped as a god ... She replied by showing him a vision of a young woman with a baby boy high in the sky, and a voice from the heavens said, \"This is the virgin who shall conceive the saviour of the world\"",
+          "context": "religious-tradition",
+          "status": "exact"
+        },
+        {
+          "id": "tiburtine-sibyl-c05",
+          "source_id": "tiburtine-sibyl-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "Albunea was a prophetic nymph or Sibyl; near Tibur a grove with a well and a temple was consecrated to her, and near it was the oracle of Faunus Fatidicus.",
+          "statement_id": "Albunea adalah nimfa atau sibyl peramal; di sekitar Tibur hutan kecil dengan mata air dan kuil dipersembahkan kepadanya, dan di dekatnya ada orakel Faunus Fatidicus.",
+          "quote": "a prophetic nymph or Sibyl, to whom in the neighbourhood of Tibur a grove was consecrated, with a well and a temple. Near it was the oracle of Faunus Fatidicus.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tiburtine-sibyl-c06",
+          "source_id": "tiburtine-sibyl-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "Her oracles, which belonged to the libri fatales, were at the command of the senate deposited and kept in the Capitol.",
+          "statement_id": "Ramalannya, yang termasuk libri fatales, atas perintah senat disimpan di Capitol.",
+          "quote": "Her series, or oracles, which belonged to the libri fatales, were, at the command of the senate, deposited and kept in the Capitol.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "tiburtine-sibyl-c07",
+          "source_id": "tiburtine-sibyl-s1",
+          "host": "en.wikipedia.org",
+          "statement": "An apocalyptic pseudo-prophecy among the Sibylline Oracles was attributed to the Tiburtine Sibyl.",
+          "statement_id": "Sebuah pseudo-nubuat apokaliptik di antara Sibylline Oracles dikaitkan dengan Sibyl Tiburtina.",
+          "quote": "An apocalyptic pseudo-prophecy exists among the Sibylline Oracles, which was attributed to the Tiburtine Sibyl.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "422f2555d80f8a90f2f1ed36951b7b31000d34d147ec0bd5f2ecf4e070977ad3"
+      "images": []
     },
     {
       "slug": "volturnus",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-2.md",
+      "entry_sha256": "4fd40299f0563ebe814bb83dcee049e818d7065f625b5033b55c227dca343bc7",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 6,
+        "sources": 3,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "volturnus-c01",
@@ -1241,27 +1585,51 @@
           "quote": "Although he was originally an Etruscan god, his worship spread to Rome",
           "context": "religious-tradition",
           "status": "exact"
+        },
+        {
+          "id": "volturnus-c04",
+          "source_id": "volturnus-s2",
+          "host": "www.perseus.tufts.edu",
+          "statement": "According to a dictionary, Fontus, believed to be a son of Janus, was a brother of Volturnus.",
+          "statement_id": "Menurut sebuah kamus, Fontus, yang dianggap putra Janus, adalah saudara Volturnus.",
+          "quote": "believed to be a son of Janus. ... He was a brother of Volturnus.",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "volturnus-c05",
+          "source_id": "volturnus-s3",
+          "host": "penelope.uchicago.edu",
+          "statement": "Two quoted lines preserve the names of six flamens appointed by Numa according to the poet, including Volturnalem.",
+          "statement_id": "Dua baris yang dikutip menyimpan nama enam flamen yang diangkat Numa menurut sang penyair, termasuk Volturnalem.",
+          "quote": "preserve the names of six of these, appointed, says the poet, by Numa, — Volturnalem, Palatualem, Furinalem,",
+          "context": "historical-record",
+          "status": "exact"
+        },
+        {
+          "id": "volturnus-c06",
+          "source_id": "volturnus-s1",
+          "host": "en.wikipedia.org",
+          "statement": "Volturnus had a daughter Juturna and a grandchild Fons, the god of spring water, born of a love affair between Juturna and Janus.",
+          "statement_id": "Volturnus punya anak perempuan Juturna dan cucu Fons, dewa mata air, yang lahir dari hubungan Juturna dan Janus.",
+          "quote": "Volturnus had at least two descendants, a daughter named Juturna, a grandchild named Fons. Fons was born of a love affair between Juturna and Janus, and was the god of spring water.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "2edc9e65f168fd9652eb24e8c06934a6947c8a1b7e1e214da34147680306d879"
+      "images": []
     },
     {
       "slug": "arges",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-2.md",
+      "entry_sha256": "aab9d062e5956dfae5311fd2756ed2008e7da5efbe65fcf2d524be1c1651bce2",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "arges-c01",
@@ -1292,27 +1660,81 @@
           "quote": "Arges is a child of Gaia and Uranus, and his siblings include his fellow cyclopes, Brontes and Steropes",
           "context": "traditional-belief",
           "status": "exact"
+        },
+        {
+          "id": "arges-c04",
+          "source_id": "arges-s2",
+          "host": "www.theoi.com",
+          "statement": "The three elder Kyklopes were orb-eyed, immortal giants who forged the lightning-bolts of Zeus.",
+          "statement_id": "Tiga Cyclops tua adalah raksasa abadi bermata bulat yang menempa petir Zeus.",
+          "quote": "THE ELDER KYKLOPES (Cyclopes) were three, orb-eyed, immortal giants who forged the lightning-bolts of Zeus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "arges-c05",
+          "source_id": "arges-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted text Brontes, Steropes and stubborn-hearted Arges gave Zeus the thunder and made the thunderbolt; in all else they were like the gods, but only one eye was set in the midst of their foreheads.",
+          "statement_id": "Dalam teks yang dikutip, Brontes, Steropes, dan Arges yang keras hati memberi Zeus guntur dan membuat petirnya; dalam hal lain mereka seperti para dewa, tetapi hanya satu mata di tengah dahi mereka.",
+          "quote": "Brontes, and Steropes and stubborn-hearted Arges, who gave Zeus the thunder and made the thunderbolt : in all else they were like the gods, but one eye only was set in the midst of their fore-heads.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "arges-c06",
+          "source_id": "arges-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted text strength, might and craft were in their works.",
+          "statement_id": "Dalam teks yang dikutip, kekuatan, tenaga, dan kecerdikan ada dalam karya mereka.",
+          "quote": "Strength and might and craft were in their works.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "arges-c07",
+          "source_id": "arges-s2",
+          "host": "www.theoi.com",
+          "statement": "Zeus and his brothers later released them, and in return they provided Zeus with his thunderbolts, Poseidon with his storm-raising trident, and Haides with a helm of invisibility.",
+          "statement_id": "Zeus dan saudara-saudaranya kemudian membebaskan mereka, dan sebagai balasan mereka memberi Zeus petirnya, Poseidon trisula penggerak badai, dan Haides helm yang membuat tak terlihat.",
+          "quote": "Zeus and his brothers later released them and in return they provided the god with his thunderbolts, Poseidon with his storm-raising trident, and Haides with a helm of invisibility.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "arges-c08",
+          "source_id": "arges-s2",
+          "host": "www.theoi.com",
+          "statement": "As soon as they were born their father Ouranos locked them away inside the belly of Earth along with the Hekatonkheires; when the Titanes overthrew Ouranos they drove the giants into the pit of Tartaros.",
+          "statement_id": "Begitu lahir, ayah mereka Ouranos mengurung mereka di dalam perut Bumi bersama para Hekatonkheires; ketika para Titan menggulingkan Ouranos, mereka melempar para raksasa itu ke jurang Tartaros.",
+          "quote": "As soon as they were born, their father Ouranos (Uranus, the Sky) locked them away inside the belly of Earth, along with their stormy brothers, the hundred-handed Hekatonkheires (Hecatoncheires). When the Titanes overthrew Ouranos, they drove the giants into the pit of Tartaros.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "arges-c09",
+          "source_id": "arges-s2",
+          "host": "www.theoi.com",
+          "statement": "According to the dictionary the Cyclopes were afterwards killed by Apollo for furnishing Zeus with the thunderbolts to kill Asclepius; according to others it was not the Cyclopes themselves that were killed but their sons.",
+          "statement_id": "Menurut kamus itu, para Cyclops kemudian dibunuh Apollo karena menyediakan petir bagi Zeus untuk membunuh Asclepius; menurut yang lain, bukan para Cyclops sendiri yang terbunuh, melainkan putra-putra mereka.",
+          "quote": "Henceforth they remained the ministers of Zeus, but were afterwards killed by Apollo for having furnished Zeus with the thunderbolts to kill Asclepius. ... According to others, however, it was not the Cyclopes themselves that were killed, but their sons.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "89b02b2c07faf8746bd6a48cb27ff81c9d29d9502389edfe2e37bd8fd56bb65d"
+      "images": []
     },
     {
       "slug": "brontes",
-      "file": "batch-095.md",
+      "file": "batch-095-fix-2.md",
+      "entry_sha256": "48ca3c8401e0ea82d07a882ab396079eb0bf8bc4f3678b36dd6a661877cf99db",
       "verdict": "lulus-otomatis",
       "counts": {
-        "claims": 3,
-        "sources": 1,
+        "claims": 9,
+        "sources": 2,
         "images": 0
       },
-      "issues": [
-        {
-          "level": "manual",
-          "where": "tier",
-          "message": "Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai."
-        }
-      ],
+      "issues": [],
       "claims": [
         {
           "id": "brontes-c01",
@@ -1343,10 +1765,69 @@
           "quote": "The later Latin poet Ovid also has the Hesiodic Cyclopes, Brontes and Steropes (along with a third Cyclops named Acmonides), work at forges in Sicilian caves.",
           "context": "historical-record",
           "status": "exact"
+        },
+        {
+          "id": "brontes-c04",
+          "source_id": "brontes-s2",
+          "host": "www.theoi.com",
+          "statement": "The three elder Kyklopes were orb-eyed, immortal giants who forged the lightning-bolts of Zeus.",
+          "statement_id": "Tiga Cyclops tua adalah raksasa abadi bermata bulat yang menempa petir Zeus.",
+          "quote": "THE ELDER KYKLOPES (Cyclopes) were three, orb-eyed, immortal giants who forged the lightning-bolts of Zeus.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "brontes-c05",
+          "source_id": "brontes-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted text Brontes, Steropes and stubborn-hearted Arges gave Zeus the thunder and made the thunderbolt; in all else they were like the gods, but only one eye was set in the midst of their foreheads.",
+          "statement_id": "Dalam teks yang dikutip, Brontes, Steropes, dan Arges yang keras hati memberi Zeus guntur dan membuat petirnya; dalam hal lain mereka seperti para dewa, tetapi hanya satu mata di tengah dahi mereka.",
+          "quote": "Brontes, and Steropes and stubborn-hearted Arges, who gave Zeus the thunder and made the thunderbolt : in all else they were like the gods, but one eye only was set in the midst of their fore-heads.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "brontes-c06",
+          "source_id": "brontes-s2",
+          "host": "www.theoi.com",
+          "statement": "In the quoted text strength, might and craft were in their works.",
+          "statement_id": "Dalam teks yang dikutip, kekuatan, tenaga, dan kecerdikan ada dalam karya mereka.",
+          "quote": "Strength and might and craft were in their works.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "brontes-c07",
+          "source_id": "brontes-s2",
+          "host": "www.theoi.com",
+          "statement": "Zeus and his brothers later released them, and in return they provided Zeus with his thunderbolts, Poseidon with his storm-raising trident, and Haides with a helm of invisibility.",
+          "statement_id": "Zeus dan saudara-saudaranya kemudian membebaskan mereka, dan sebagai balasan mereka memberi Zeus petirnya, Poseidon trisula penggerak badai, dan Haides helm yang membuat tak terlihat.",
+          "quote": "Zeus and his brothers later released them and in return they provided the god with his thunderbolts, Poseidon with his storm-raising trident, and Haides with a helm of invisibility.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "brontes-c08",
+          "source_id": "brontes-s2",
+          "host": "www.theoi.com",
+          "statement": "As soon as they were born their father Ouranos locked them away inside the belly of Earth along with the Hekatonkheires; when the Titanes overthrew Ouranos they drove the giants into the pit of Tartaros.",
+          "statement_id": "Begitu lahir, ayah mereka Ouranos mengurung mereka di dalam perut Bumi bersama para Hekatonkheires; ketika para Titan menggulingkan Ouranos, mereka melempar para raksasa itu ke jurang Tartaros.",
+          "quote": "As soon as they were born, their father Ouranos (Uranus, the Sky) locked them away inside the belly of Earth, along with their stormy brothers, the hundred-handed Hekatonkheires (Hecatoncheires). When the Titanes overthrew Ouranos, they drove the giants into the pit of Tartaros.",
+          "context": "traditional-belief",
+          "status": "exact"
+        },
+        {
+          "id": "brontes-c09",
+          "source_id": "brontes-s2",
+          "host": "www.theoi.com",
+          "statement": "According to the dictionary the Cyclopes were afterwards killed by Apollo for furnishing Zeus with the thunderbolts to kill Asclepius; according to others it was not the Cyclopes themselves that were killed but their sons.",
+          "statement_id": "Menurut kamus itu, para Cyclops kemudian dibunuh Apollo karena menyediakan petir bagi Zeus untuk membunuh Asclepius; menurut yang lain, bukan para Cyclops sendiri yang terbunuh, melainkan putra-putra mereka.",
+          "quote": "Henceforth they remained the ministers of Zeus, but were afterwards killed by Apollo for having furnished Zeus with the thunderbolts to kill Asclepius. ... According to others, however, it was not the Cyclopes themselves that were killed, but their sons.",
+          "context": "historical-record",
+          "status": "exact"
         }
       ],
-      "images": [],
-      "entry_sha256": "4ec736ad2001fdc980140cf9cd6300539bdd6f0634cc5877c12f9f9860082365"
+      "images": []
     },
     {
       "slug": "steropes",

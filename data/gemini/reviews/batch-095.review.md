@@ -1,6 +1,6 @@
 # Review batch-095
 
-Diperiksa 2026-10-06T14:33:55.017Z. Berkas: batch-095.md, batch-095-fix-1.md.
+Diperiksa 2026-10-06T14:54:34.150Z. Berkas: batch-095.md, batch-095-fix-1.md, batch-095-fix-2.md.
 
 ## chloris — lulus-otomatis
 
@@ -155,139 +155,163 @@ Klaim 6 (exact 6), sumber 2, gambar 0.
 
 ## kallikantzaros — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 12 (exact 12), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | kallikantzaros-c01 | exact | en.wikipedia.org | The kallikantzaros is a malevolent creature of modern Greek folklore. | is a malevolent creature in modern Greek folklore. |
 | kallikantzaros-c02 | exact | en.wikipedia.org | They live underground trying to saw down the giant tree that supports the earth, but surface during the twelve days of Christmas, 25 December to 6 January. | Kallikantzaroi are believed to dwell underground spending most of the time trying to saw down the giant tree that supports the earth, but come to the surface during the twelve days of Christmas, from 25 December to 6 January |
 | kallikantzaros-c03 | exact | en.wikipedia.org | Equivalents occur in Bulgarian folklore. | Its equivalents occur in Bulgarian |
+| kallikantzaros-c04 | exact | www.gutenberg.org | For the rest of the year they live in the lower world and try to gnaw through or cut down the great tree (or one or more columns) on which the world rests. | The rest of the year they live in the lower world, and occupy themselves in trying to gnaw through or cut down the great tree (or in other accounts the one or more columns) on which the world rests. |
+| kallikantzaros-c05 | exact | www.gutenberg.org | Each Christmas the task is nearly done when the time comes for them to appear in the upper world, and during their twelve days' absence the supports of the world are made whole again. | Each Christmas they have nearly completed their task, when the time comes for their appearance in the upper world, and during their twelve days' absence, the supports of the world are made whole again. |
+| kallikantzaros-c06 | exact | www.gutenberg.org | From dawn until sunset they hide in dark and dank places, in caves or beneath mills, and feed on worms, snakes, frogs, tortoises and other unclean things. | From dawn till sunset they hide themselves in dark and dank places—in caves or beneath mills—and there feed on such food as they can collect, worms, snakes, frogs, tortoises, and other unclean things. |
+| kallikantzaros-c07 | exact | www.gutenberg.org | They swarm into homes by chimney and door, overturn and break all the furniture, devour the Christmas pork, and befoul the water, wine and food that remain. | By chimney and door alike they swarm in, and make havoc of the home; in sheer wanton mischief they overturn and break all the furniture, devour the Christmas pork, befoul all the water and wine and food which remains |
+| kallikantzaros-c08 | exact | www.gutenberg.org | Their faces are black, their eyes glare red, they have the ears of goats or asses, and blood-red tongues loll from their huge mouths, flanked by ferocious tusks. | Their faces are black; their eyes glare red; they have the ears of goats or asses; from their huge mouths blood-red tongues loll out, flanked by ferocious tusks. |
+| kallikantzaros-c09 | exact | www.gutenberg.org | Hence it is not surprising that they are often lame, but even so they are swift of foot and terrible in strength. | Hence it is not surprising that they are often lame, but even so they are swift of foot and terrible in strength. |
+| kallikantzaros-c10 | exact | www.gutenberg.org | At the crowing of the third cock, who is black and more potent to scare away demons than the white and red cocks who precede him, they vanish away, like all terrors of the night. | For at that sound (or, to be more precise, at the crowing of the third cock, who is black and more potent to scare away demons than the white and red cocks who precede him ... they vanish away, like all terrors of the night in ancient |
+| kallikantzaros-c11 | exact | www.gutenberg.org | All Callicantzari are essentially mischievous; the mischief of the larger sort is often malicious and even deadly, while the smaller sort are more frolicsome and harmless in their tricks. | while all Callicantzari are essentially mischievous in character, the mischief wrought by the larger sort is often of a malicious and even deadly order, while the smaller sort are more frolicsome and harmless in their tricks. |
+| kallikantzaros-c12 | exact | www.gutenberg.org | The author states that the explanation for the extraordinary divergences and contradictions in accounts of the Callicantzari lies in their identity with the ancient Centaurs. | The extraordinary divergences and even contradictions in different accounts of the Callicantzari demand ... That explanation, as I shall show later, lies in their identity with the ancient Centaurs. |
 
 
 ## larunda — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | larunda-c01 | exact | en.wikipedia.org | Larunda was a naiad, daughter of the river Almo and mother of the Lares Compitalici, guardians of the crossroads and Rome. | was a naiad nymph, daughter of the river Almo and mother of the Lares Compitalici, guardians of the crossroads and the city of Rome. |
 | larunda-c02 | exact | en.wikipedia.org | Ovid's Fasti is the only known mythography of Larunda. | Ovid's Fasti provides the only known mythography attached to Larunda. |
 | larunda-c03 | exact | en.wikipedia.org | Jupiter tears out Lara's tongue and orders Mercury to take her to the infernal marshes of Avernus. | Jupiter wrenches out Lara's tongue and orders Mercury, psychopomp and god of boundaries and transitions, to conduct her to the "infernal marshes" of Avernus |
+| larunda-c04 | exact | www.perseus.tufts.edu | Larunda, or Lara, a daughter of Almon, was a nymph who denounced to Juno that there was some connexion between Jupiter and Juturna. | or LARA, a daughter of Almon, was a nymph who denounced to Juno that there was some connexion between Jupiter and Juturna |
+| larunda-c05 | exact | www.perseus.tufts.edu | Jupiter punished her by depriving her of her tongue and condemning her to be conducted into the lower world by Mercury; on the way Mercury fell in love with her, and afterwards she gave birth to two Lares. | Jupiter punished her by depriving her of her tongue, and condemning her to be conducted into the lower world by Mercury ;but on the way thither Mercury fell in love with her, and afterwards she gave birth to two Lares. |
+| larunda-c06 | exact | www.perseus.tufts.edu | Hartung infers from Lactantius that Larunda is identical with Muta and Tacita. | Hartung (Die Relig. der Röm. ii. p. 204) infers from Lactantius (1.20) that Larunda is identical with Muta and Tacita. |
 
 
 ## monopod-creature — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | monopod-creature-c01 | exact | en.wikipedia.org | Monopods were mythological dwarf-like creatures with a single large foot on a central leg. | were mythological dwarf-like creatures with a single, large foot extending from a leg centred in the middle of their bodies. |
 | monopod-creature-c02 | exact | en.wikipedia.org | Monopods appear in Aristophanes' The Birds, first staged in 414 BC. | Monopods appear in Aristophanes' play The Birds, first performed in 414 BC. |
 | monopod-creature-c03 | exact | en.wikipedia.org | Pliny the Elder describes them in his Natural History from travelers' tales of Monopods in India. | They are described by Pliny the Elder in his Natural History, where he reports travelers' stories from encounters or sightings of Monopods in India. |
+| monopod-creature-c04 | exact | www.theoi.com | The Skiapodes (Sciapods) were a tribe of one-legged, giant-footed Ethiopian or Indian men who raised their large foot into the air for shade against the hot southern sun. | THE SKIAPODES (Sciapods) were a tribe of one-legged, giant-footed Ethiopian or Indian men who raised their large foot into the air for shade against the hot southern sun. |
+| monopod-creature-c05 | exact | www.theoi.com | In the quoted passage the Monocoli (One-Legged) have only one leg and move in jumps with surprising speed; they are also called Sciapodes (Shadow-Foots) because in the hotter weather they lie on their backs and protect themselves with the shadow of their feet. | Monocoli (One-Legged) who have only one leg, and who move in jumps with surprising speed; the same are called Sciapodes (Shadow-Foots) tribe, because in the hotter weather they lie on their backs on the ground and protect themselves with the shadow of their feet. |
+| monopod-creature-c06 | exact | www.theoi.com | In the quoted passage a speaker states that the Skiapodes or Long-Headed men, and other poetical fancies recounted about them in a treatise, did not live anywhere on the earth, least of all in India. | As to men that are Skiapodes (Shadow-Footed) or Makrokephaloi (Macrocephali) (Long-Headed), and as to the other poetical fancies which the treatise of Skylax recounts about them, he said that they didn't live anywhere on the earth, and least of all in India. |
+| monopod-creature-c07 | exact | www.theoi.com | In the quoted passage the Skiapodes are listed among the tribes of Aithiopia (Ethiopia). | The Nasamones and the Androphagoi (Man-Eaters) and the Pygmaioi (Pygmies) and Skiapodes (Sciapods) (Shadow-Foots) people are also tribes of Aithiopia (Ethiopia) |
+| monopod-creature-c08 | exact | www.theoi.com | The Skiapodes were also popular in medieval bestiaries and map illustrations of Terra Incognita. | The Skiapodes were also popular in Medieval bestiaries and map illustrations of Terra Incognita. |
 
 
 ## mormo — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | mormo-c01 | exact | en.wikipedia.org | Mormo was a female spirit of Greek folklore whose name mothers and nurses invoked to scare children into behaving. | was a female spirit in Greek folklore, whose name was invoked by mothers and nurses to frighten children to keep them from misbehaving. |
 | mormo-c02 | exact | en.wikipedia.org | The plural mormones means "fearful ones" and relates to words meaning "fright". | The name mormo has the plural form mormones which means "fearful ones" or "hideous one(s)", and is related to an array of words that signify "fright". |
+| mormo-c03 | exact | www.theoi.com | In a quoted poem the Mormo made children tremble: on its head were huge ears, it walked on all fours, and it changed from one face to another. | Oh, what a trembling the Mormo brought us then, when we were little ones!--On its head were huge ears, and it walked on all fours, and changed from one face to another! |
+| mormo-c04 | exact | www.theoi.com | In a quoted play a speaker made dizzy by terrifying armor begs that "that Mormo (Bogy-Monster)" be taken away. | Your terrifying armor makes me dizzy. I beg you, take away that Mormo (Bogy-Monster)! |
+| mormo-c05 | exact | www.theoi.com | In the quoted passage someone is urged not to fear death as if it were a Mormolykeion (Hobgoblin). | Try to persuade him not to fear death as if it were a Mormolykeion (Hobgoblin). |
+| mormo-c06 | exact | www.theoi.com | The Mormolyceia were said to be able to assume the form of beautiful women to lure young men to bed, where they sucked their blood and consumed their flesh. | The Mormolyceia further were said to be able to assume the form of beautiful women for the purpose of luring young men to bed, where they sucked their blood and consumed their flesh. |
+| mormo-c07 | exact | www.theoi.com | The Mormolyceion is the same phantom or bugbear as Mormo and is used for the same purpose. | or MORMOLYCEION ... the same phantom or bugbear as Mormo, and also used for the same purpose. |
+| mormo-c08 | exact | www.theoi.com | Mormo was one of the same class of bugbears as Empusa and Lamia. | Mormo was one of the same class of bugbears as Empusa and Lamia. |
+| mormo-c09 | exact | en.wikipedia.org | According to an account attested in only a single source, the original Mormo was a woman of Corinth who ate her children and then flew away. | The original Mormo was a woman of Corinth, who ate her children then flew away, according to an account only attested in a single source. |
 
 
 ## simoeis — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 8 (exact 8), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | simoeis-c01 | exact | en.wikipedia.org | Simoeis was a river of the Trojan plain, now the Dümruk Su, and the name of its god in Greek mythology. | was a river of the Trojan plain, now called the Dümruk Su (Dümrek Çayı), and the name of its god in Greek mythology. |
 | simoeis-c02 | exact | en.wikipedia.org | The Iliad often mentions it as a rapid mountain torrent. | This river is frequently spoken of in the Iliad, and described as a rapid mountain torrent. |
+| simoeis-c03 | exact | www.theoi.com | Simoeis was a river god of the Troad in north-western Anatolia (modern Turkey); his river was a tributary of the Skamandros and the two streams merged near the city of Troy. | SIMOEIS was a River-God of the Troad in north-western Anatolia (modern Turkey). The Simoeis was a tributory of the river Skamandros (Scamander). Their two streams merged near the city of Troy. |
+| simoeis-c04 | exact | www.theoi.com | In the quoted epic passage the Skamandros calls aloud upon Simoeis, "beloved brother", to join in holding back the strength of a man who will storm the great city of Priamos. | But [the River] Skamandros did not either abate his fury ... and called aloud upon Simoeis : 'Beloved brother, let even the two of us join to hold back the strength of a man, since presently he will storm the great city of lord Priamos (Priam). |
+| simoeis-c05 | exact | www.theoi.com | In the quoted passage the Skamandros asks Simoeis to help beat the man off by filling his currents from his springs, rousing all his torrents and making a big wave rear up. | But [the River] Skamandros did not either abate his fury ... But help me beat him off with all speed, and make full your currents with water from your springs, and rouse up all your torrents and make a big wave rear up |
+| simoeis-c06 | exact | www.theoi.com | According to the dictionary, Simoeis was a son of Oceanus and Tethys and the father of Astyoche and Hieromneme. | He is described as a son of Oceanus and Tethys ... and as the father of Astyoche and Hieromneme. |
+| simoeis-c07 | exact | www.theoi.com | In the quoted epic passage Hera stays her horses, slipping them from the chariot, and Simoeis grows ambrosia as grass for them to graze on. | there the goddess of the white arms, Hera, stayed her horses, slipping them from the chariot ... and Simoeis grew as grass ambrosia for them to graze on. |
+| simoeis-c08 | exact | www.theoi.com | In the quoted passage Dardanos, first king of Troy, has given the firstling crop of his hair to Phrygian Simoeis. | He [Dardanos first king of Troy] has given the firstling crop of his hair to Phrygian Simoeis. |
 
 
 ## thalia — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | thalia-c01 | exact | en.wikipedia.org | Thalia was a nymph, daughter of Hephaestus and mother of the Palici. | was a nymph daughter of Hephaestus, and the mother of the Palici. |
 | thalia-c02 | exact | en.wikipedia.org | She buried herself in the ground to escape Hera's jealousy. | She buried herself in the ground to avoid Hera's jealousy. |
 | thalia-c03 | exact | en.wikipedia.org | Her twins, the Palici, were thus born under the earth. | Her twin children, the Palici, were thus born under the earth |
+| thalia-c04 | exact | www.theoi.com | Thaleia was a Naiad-nymph of Mount Aitna (Etna) in Sicily; Zeus loved her, but fearing the wrath of Hera she asked to be hidden beneath the earth. | THALEIA was a Naiad-nymph of Mount Aitna (Etna) in Sicily. She was loved by the god Zeus but, fearing the wrath of Hera, asked to be hidden beneath the earth. |
+| thalia-c05 | exact | www.theoi.com | Beneath the earth she gave birth to the Palikoi (Palici), twin Sicilian gods of hot springs and geysers. | There she gave birth to the Palikoi (Palici)--twin Sicilian gods of hot springs and geysers. |
+| thalia-c06 | exact | www.theoi.com | In the plot summary a Sicilian maiden named Thaleia or Aitna, embraced by Zeus, prayed in fear of Hera's wrath that the earth might open and swallow her up; her prayer was granted, and when the time of her delivery was at hand the earth opened again and twin boys came forth. | A Sicilian maiden named Thaleia or Aitna (Aetna), having been embraced by Zeus, in fear of Hera's wrath prayed that the earth might open and swallow her up. Her prayer was granted, but when the time of her delivery was at hand, the earth opened again and twin boys came forth |
+| thalia-c07 | exact | www.theoi.com | The Palikoi were Sicilian daemons, twin sons of Zeus and the Nymph Thaleia, the daughter of Hephaestus. | The Palikoi were Sicilian daemons, twin sons of Zeus and the Nymph Thaleia, the daughter of Hephaestus. |
 
 
 ## tiburtine-sibyl — lulus-otomatis
 
-Klaim 2 (exact 2), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 2 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 7 (exact 7), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | tiburtine-sibyl-c01 | exact | en.wikipedia.org | The Tiburtine Sibyl, also called Albunea, was a Roman sibyl seated at ancient Tibur (modern Tivoli). | The Tiburtine Sibyl, also called Albunea, was a Roman sibyl, whose seat was the ancient town of Tibur (modern Tivoli). |
 | tiburtine-sibyl-c02 | exact | en.wikipedia.org | Augustus's mythic meeting with the Sibyl, asking whether he should be worshipped as a god, was often painted from the late Middle Ages on. | The mythic meeting of Augustus with the Sibyl, of whom he inquired whether he should be worshiped as a god, was often depicted by artists from the late Middle Ages onwards. |
+| tiburtine-sibyl-c03 | exact | en.wikipedia.org | In the quotation, the Tiburtine Sibyl, by name Albunea, is worshiped at Tibur as a goddess near the banks of the Anio, in which stream her image is said to have been found holding a book; the Senate transferred her oracular responses to the Capitol. | The Tiburtine Sibyl, by name Albunea, is worshiped at Tibur as a goddess, near the banks of the Anio, in which stream her image is said to have been found, holding a book in her hand. Her oracular responses the Senate transferred into the capitol. |
+| tiburtine-sibyl-c04 | exact | en.wikipedia.org | In the later medieval versions the Sibyl answers Augustus by showing him a vision of a young woman with a baby boy high in the sky, and a voice from the heavens says that this is the virgin who shall conceive the saviour of the world. | In the versions known to the later Middle Ages, such as the account in the Golden Legend, Augustus asked the Sibyl whether he should be worshipped as a god ... She replied by showing him a vision of a young woman with a baby boy high in the sky, and a voice from the heavens said, "This is the virgin who shall conceive the saviour of the world" |
+| tiburtine-sibyl-c05 | exact | www.perseus.tufts.edu | Albunea was a prophetic nymph or Sibyl; near Tibur a grove with a well and a temple was consecrated to her, and near it was the oracle of Faunus Fatidicus. | a prophetic nymph or Sibyl, to whom in the neighbourhood of Tibur a grove was consecrated, with a well and a temple. Near it was the oracle of Faunus Fatidicus. |
+| tiburtine-sibyl-c06 | exact | www.perseus.tufts.edu | Her oracles, which belonged to the libri fatales, were at the command of the senate deposited and kept in the Capitol. | Her series, or oracles, which belonged to the libri fatales, were, at the command of the senate, deposited and kept in the Capitol. |
+| tiburtine-sibyl-c07 | exact | en.wikipedia.org | An apocalyptic pseudo-prophecy among the Sibylline Oracles was attributed to the Tiburtine Sibyl. | An apocalyptic pseudo-prophecy exists among the Sibylline Oracles, which was attributed to the Tiburtine Sibyl. |
 
 
 ## volturnus — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 6 (exact 6), sumber 3, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | volturnus-c01 | exact | en.wikipedia.org | In Roman mythology, Volturnus was a god of the Tiber, perhaps of all rivers. | In Roman mythology, Volturnus was a god of the Tiber, and may have been the god of all rivers. |
 | volturnus-c02 | exact | en.wikipedia.org | He had his own priest, the Flamen Volturnalis, and his festival, the Volturnalia, was on August 27. | He had his own minor flamen, a high priest, the Flamen Volturnalis. His festival, Volturnalia, was held on August 27. |
 | volturnus-c03 | exact | en.wikipedia.org | Originally Etruscan, his worship spread to Rome. | Although he was originally an Etruscan god, his worship spread to Rome |
+| volturnus-c04 | exact | www.perseus.tufts.edu | According to a dictionary, Fontus, believed to be a son of Janus, was a brother of Volturnus. | believed to be a son of Janus. ... He was a brother of Volturnus. |
+| volturnus-c05 | exact | penelope.uchicago.edu | Two quoted lines preserve the names of six flamens appointed by Numa according to the poet, including Volturnalem. | preserve the names of six of these, appointed, says the poet, by Numa, — Volturnalem, Palatualem, Furinalem, |
+| volturnus-c06 | exact | en.wikipedia.org | Volturnus had a daughter Juturna and a grandchild Fons, the god of spring water, born of a love affair between Juturna and Janus. | Volturnus had at least two descendants, a daughter named Juturna, a grandchild named Fons. Fons was born of a love affair between Juturna and Janus, and was the god of spring water. |
 
 
 ## arges — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | arges-c01 | exact | en.wikipedia.org | Arges was one of the three Hesiodic Cyclopes. | was one of the three Hesiodic Cyclopes in Greek mythology. |
 | arges-c02 | exact | en.wikipedia.org | His name means "bright", the brightness of lightning. | His name means "bright" and represents the brightness from lightning. |
 | arges-c03 | exact | en.wikipedia.org | Arges is a child of Gaia and Uranus, brother of the Cyclopes Brontes and Steropes. | Arges is a child of Gaia and Uranus, and his siblings include his fellow cyclopes, Brontes and Steropes |
+| arges-c04 | exact | www.theoi.com | The three elder Kyklopes were orb-eyed, immortal giants who forged the lightning-bolts of Zeus. | THE ELDER KYKLOPES (Cyclopes) were three, orb-eyed, immortal giants who forged the lightning-bolts of Zeus. |
+| arges-c05 | exact | www.theoi.com | In the quoted text Brontes, Steropes and stubborn-hearted Arges gave Zeus the thunder and made the thunderbolt; in all else they were like the gods, but only one eye was set in the midst of their foreheads. | Brontes, and Steropes and stubborn-hearted Arges, who gave Zeus the thunder and made the thunderbolt : in all else they were like the gods, but one eye only was set in the midst of their fore-heads. |
+| arges-c06 | exact | www.theoi.com | In the quoted text strength, might and craft were in their works. | Strength and might and craft were in their works. |
+| arges-c07 | exact | www.theoi.com | Zeus and his brothers later released them, and in return they provided Zeus with his thunderbolts, Poseidon with his storm-raising trident, and Haides with a helm of invisibility. | Zeus and his brothers later released them and in return they provided the god with his thunderbolts, Poseidon with his storm-raising trident, and Haides with a helm of invisibility. |
+| arges-c08 | exact | www.theoi.com | As soon as they were born their father Ouranos locked them away inside the belly of Earth along with the Hekatonkheires; when the Titanes overthrew Ouranos they drove the giants into the pit of Tartaros. | As soon as they were born, their father Ouranos (Uranus, the Sky) locked them away inside the belly of Earth, along with their stormy brothers, the hundred-handed Hekatonkheires (Hecatoncheires). When the Titanes overthrew Ouranos, they drove the giants into the pit of Tartaros. |
+| arges-c09 | exact | www.theoi.com | According to the dictionary the Cyclopes were afterwards killed by Apollo for furnishing Zeus with the thunderbolts to kill Asclepius; according to others it was not the Cyclopes themselves that were killed but their sons. | Henceforth they remained the ministers of Zeus, but were afterwards killed by Apollo for having furnished Zeus with the thunderbolts to kill Asclepius. ... According to others, however, it was not the Cyclopes themselves that were killed, but their sons. |
 
 
 ## brontes — lulus-otomatis
 
-Klaim 3 (exact 3), sumber 1, gambar 0.
-
-**manual**
-- `tier` Di bawah target core: 3 klaim (target 6), 1 sumber (target 2). gaps sudah diisi; nilai apakah pencariannya memadai.
+Klaim 9 (exact 9), sumber 2, gambar 0.
 
 | klaim | status | sumber | pernyataan (en) | kutipan |
 |---|---|---|---|---|
 | brontes-c01 | exact | en.wikipedia.org | In Hesiod's Theogony, Brontes is one of the Cyclopes (with Steropes and Arges), sons of Uranus and Gaia who made Zeus's thunderbolt. | In Hesiod's Theogony, the Cyclopes are Brontes, Steropes, and Arges, sons of Uranus and Gaia and creators of Zeus's characteristic weapon, the thunderbolt. |
 | brontes-c02 | exact | en.wikipedia.org | The name Brontes means "Thunder", reflecting their role as thunderbolt makers. | The names that Hesiod gives them, Arges (Bright), Brontes (Thunder), and Steropes (Lightning), reflect their fundamental role as thunderbolt makers. |
 | brontes-c03 | exact | en.wikipedia.org | Ovid also has Brontes and Steropes working at forges in Sicilian caves. | The later Latin poet Ovid also has the Hesiodic Cyclopes, Brontes and Steropes (along with a third Cyclops named Acmonides), work at forges in Sicilian caves. |
+| brontes-c04 | exact | www.theoi.com | The three elder Kyklopes were orb-eyed, immortal giants who forged the lightning-bolts of Zeus. | THE ELDER KYKLOPES (Cyclopes) were three, orb-eyed, immortal giants who forged the lightning-bolts of Zeus. |
+| brontes-c05 | exact | www.theoi.com | In the quoted text Brontes, Steropes and stubborn-hearted Arges gave Zeus the thunder and made the thunderbolt; in all else they were like the gods, but only one eye was set in the midst of their foreheads. | Brontes, and Steropes and stubborn-hearted Arges, who gave Zeus the thunder and made the thunderbolt : in all else they were like the gods, but one eye only was set in the midst of their fore-heads. |
+| brontes-c06 | exact | www.theoi.com | In the quoted text strength, might and craft were in their works. | Strength and might and craft were in their works. |
+| brontes-c07 | exact | www.theoi.com | Zeus and his brothers later released them, and in return they provided Zeus with his thunderbolts, Poseidon with his storm-raising trident, and Haides with a helm of invisibility. | Zeus and his brothers later released them and in return they provided the god with his thunderbolts, Poseidon with his storm-raising trident, and Haides with a helm of invisibility. |
+| brontes-c08 | exact | www.theoi.com | As soon as they were born their father Ouranos locked them away inside the belly of Earth along with the Hekatonkheires; when the Titanes overthrew Ouranos they drove the giants into the pit of Tartaros. | As soon as they were born, their father Ouranos (Uranus, the Sky) locked them away inside the belly of Earth, along with their stormy brothers, the hundred-handed Hekatonkheires (Hecatoncheires). When the Titanes overthrew Ouranos, they drove the giants into the pit of Tartaros. |
+| brontes-c09 | exact | www.theoi.com | According to the dictionary the Cyclopes were afterwards killed by Apollo for furnishing Zeus with the thunderbolts to kill Asclepius; according to others it was not the Cyclopes themselves that were killed but their sons. | Henceforth they remained the ministers of Zeus, but were afterwards killed by Apollo for having furnished Zeus with the thunderbolts to kill Asclepius. ... According to others, however, it was not the Cyclopes themselves that were killed, but their sons. |
 
 
 ## steropes — lulus-otomatis
